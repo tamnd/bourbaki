@@ -130,7 +130,7 @@ Với $a \in \mathrm{gr}(A)$, $x \in \mathrm{gr}^\alpha(E)$, theo định nghĩa
     (i) *$E$ là một bao đơn ánh của $M$* ;
     (ii) *$E_1$ là một bao đơn ánh của $M$ như $A/\alpha$-môđun, môđun $E$ là hợp của các $E_n$ và ánh xạ chính tắc $\beta_E$ là song ánh*.
 
-Giả sử điều kiện (i) được thỏa mãn. $E_1$ là một $A/\alpha$-môđun đơn ánh (Bổ đề 1, a)), và chứa $M$; vì mọi môđun con-$\Lambda/\alpha$ của $E_1$ đều là một môđun con-$A$ của $E$, nên $E_1$ là một bao đơn ánh của $M$ như $\Lambda/\alpha$-môđun. Theo Bổ đề 1, hợp của các $E_n$ là một môđun con-$A$ đơn ánh của $E$ chứa $M$, do đó bằng $E$. Vì $E$ là đơn ánh, với mọi $n \geq 0$ ta có một dãy khớp
+Giả sử điều kiện (i) được thỏa mãn. $E_1$ là một $A/\alpha$-môđun đơn ánh (Bổ đề 1, a)), và chứa $M$; vì mọi môđun con-$A/\alpha$ của $E_1$ đều là một môđun con-$A$ của $E$, nên $E_1$ là một bao đơn ánh của $M$ như $A/\alpha$-môđun. Theo Bổ đề 1, hợp của các $E_n$ là một môđun con-$A$ đơn ánh của $E$ chứa $M$, do đó bằng $E$. Vì $E$ là đơn ánh, với mọi $n \geq 0$ ta có một dãy khớp
 
 $$
 0 \to \mathrm{Hom}_A(A/\alpha^n, E) \longrightarrow \mathrm{Hom}_A(A/\alpha^{n+1}, E) \longrightarrow \mathrm{Hom}_A(\alpha^n/\alpha^{n+1}, E) \to 0;
@@ -174,7 +174,7 @@ nên $u$ là $\widehat{A}$-tuyến tính.
 
 *Cho $A$ là một vành Noether, $p$ là một iđêan nguyên tố của $A$, và $e : A/p \to I$ là một bao nội xạ của $A$-môđun $A/p$. Với mỗi số nguyên $n \geq 0$, ký hiệu $I_n$ là môđun con của $I$ gồm các phần tử bị triệt tiêu bởi $p^n$.*
 
-a) $A$-môđun $I$ là hợp của các $I_n$. Đơn ánh $\Lambda / \mathfrak{p} \to I_1$ mở rộng thành một đẳng cấu từ $\kappa(\mathfrak{p})$ lên $I_1$; hãy đồng nhất $\kappa(\mathfrak{p})$ với $I_1$ qua đẳng cấu này. Với mỗi số nguyên $n \geqslant 0$, cấu trúc $\Lambda / \mathfrak{p}$-môđun của $I_{n+1}/I_n$ thu được bằng cách hạn chế vô hướng từ một cấu trúc không gian vectơ $\kappa(\mathfrak{p})$ duy nhất; đồng cấu chính tắc $\beta_{I,-n}: I_{n+1}/I_n \longrightarrow \mathrm{Hom}_{\Lambda/\mathfrak{p}}(\mathfrak{p}^n/\mathfrak{p}^{n+1}, \kappa(\mathfrak{p}))$ là một đẳng cấu của các không gian vectơ $\kappa(\mathfrak{p})$ hữu hạn chiều.
+a) $A$-môđun $I$ là hợp của các $I_n$. Đơn ánh $A / \mathfrak{p} \to I_1$ mở rộng thành một đẳng cấu từ $\kappa(\mathfrak{p})$ lên $I_1$; hãy đồng nhất $\kappa(\mathfrak{p})$ với $I_1$ qua đẳng cấu này. Với mỗi số nguyên $n \geqslant 0$, cấu trúc $A / \mathfrak{p}$-môđun của $I_{n+1}/I_n$ thu được bằng cách hạn chế vô hướng từ một cấu trúc không gian vectơ $\kappa(\mathfrak{p})$ duy nhất; đồng cấu chính tắc $\beta_{I,-n}: I_{n+1}/I_n \longrightarrow \mathrm{Hom}_{A/\mathfrak{p}}(\mathfrak{p}^n/\mathfrak{p}^{n+1}, \kappa(\mathfrak{p}))$ là một đẳng cấu của các không gian vectơ $\kappa(\mathfrak{p})$ hữu hạn chiều.
 
 b) Tồn tại một cấu trúc $\widehat{A_p}$-môđun duy nhất trên $I$ cảm sinh cấu trúc $A$-môđun của nó. Đồng cấu chính tắc $\widehat{A_p} \longrightarrow \mathrm{End}_A(I)$ là song ánh.
 
@@ -182,7 +182,7 @@ Theo A, X, p. 20, Ví dụ 1, $A/\mathfrak{p}$-môđun $\kappa(\mathfrak{p})$ l�
 
 Cho $s \in A - \mathfrak{p}$. Vì phép vị tự $s_{A/\mathfrak{p}}$ là đơn ánh, vết của $\mathrm{Ker}\, s_I$ trên $A/\mathfrak{p}$ bằng không, do đó suy ra phép vị tự $s_I$ là đơn ánh. Khi đó $s_I$ là một môđun con hạng tử trực tiếp của $I$ (A, X, p. 19, Hệ quả 4), nên bằng $I$ vì $I$ không phân tích được (No. 1, Mệnh đề 1), thành thử phép vị tự $s_I$ là song ánh. Vì vậy tồn tại duy nhất một cấu trúc $A_p$-môđun trên $I$ cảm sinh cấu trúc $A$-môđun của nó; cấu trúc này được mở rộng duy nhất thành một cấu trúc $\widehat{A_p}$-môđun (Bổ đề 2).
 
-Với mỗi số nguyên $n$, từ đồng cấu vành chính tắc $\Lambda_p \longrightarrow \mathrm{End}_A(I)$ ta suy ra một ánh xạ $A$-tuyến tính $\alpha_n : A_p/\mathfrak{p}^n A_p \longrightarrow \mathrm{Hom}_A(I_n, I)$. Xét biểu đồ giao hoán có các hàng khớp
+Với mỗi số nguyên $n$, từ đồng cấu vành chính tắc $A_p \longrightarrow \mathrm{End}_A(I)$ ta suy ra một ánh xạ $A$-tuyến tính $\alpha_n : A_p/\mathfrak{p}^n A_p \longrightarrow \mathrm{Hom}_A(I_n, I)$. Xét biểu đồ giao hoán có các hàng khớp
 
 $$
 \begin{array}{ccccccccc}
@@ -249,10 +249,10 @@ Cho $M$ là một A-môđun. Nhắc lại (A, VIII, § 4, No. 6) rằng đế c�
 
 #### Bổ đề 4 {#ac-x-s8-lem-4 .statement}
 
-*Cho I là một Matlis A-môđun và M là một $\Lambda$-môđun. Các điều kiện sau là tương đương :*
+*Cho I là một Matlis A-môđun và M là một $A$-môđun. Các điều kiện sau là tương đương :*
 
 (i) $M$ là Artin;
-(ii) mọi phần tử của $M$ đều bị triệt tiêu bởi một lũy thừa của $m_A$, và đế của $M$ có số chiều hữu hạn trên $\kappa_\Lambda$;
+(ii) mọi phần tử của $M$ đều bị triệt tiêu bởi một lũy thừa của $m_A$, và đế của $M$ có số chiều hữu hạn trên $\kappa_A$;
 (iii) tồn tại một số nguyên $n \geq 0$ và một ánh xạ A-tuyến tính đơn ánh từ $M$ vào $I^n$.
 
 *Khi các điều kiện này được thỏa mãn, mọi bao nội xạ của $M$ đều đẳng cấu với $I^s$, trong đó $s$ là số chiều trên $\kappa_A$ của đế của $M$.*
@@ -265,9 +265,9 @@ Cho $M$ là một A-môđun. Nhắc lại (A, VIII, § 4, No. 6) rằng đế c�
 
 #### Bổ đề 5 {#ac-x-s8-lem-5 .statement}
 
-*Mọi $\widehat{\Lambda}$-môđun Artin đều là Artin như một $\Lambda$-môđun.*
+*Mọi $\widehat{A}$-môđun Artin đều là Artin như một $A$-môđun.*
 
-Cho $M$ là một $\widehat{\Lambda}$-môđun Artin; mọi phần tử của $M$ đều bị triệt tiêu bởi một lũy thừa của $m_{\widehat{\Lambda}}$, nên cũng bị triệt tiêu bởi một lũy thừa của $m_A$. Theo Bổ đề 2 của No. 2, các môđun con-A của $M$ chính là các môđun con-$\widehat{\Lambda}$ của nó, do đó $M$ là Artin như một A-môđun.
+Cho $M$ là một $\widehat{A}$-môđun Artin; mọi phần tử của $M$ đều bị triệt tiêu bởi một lũy thừa của $m_{\widehat{A}}$, nên cũng bị triệt tiêu bởi một lũy thừa của $m_A$. Theo Bổ đề 2 của No. 2, các môđun con-A của $M$ chính là các môđun con-$\widehat{A}$ của nó, do đó $M$ là Artin như một A-môđun.
 
 Bây giờ ta cố định một Matlis $A$-môđun I. Với mọi $A$-môđun $M$, ta ký hiệu bởi $D_A(M)$ là $\widehat{A}$-môđun
 $$
@@ -718,7 +718,7 @@ $$
 
 $$
 \begin{array}{ccc}
-\mathrm{Tor}_{i+1}^{\mathbf{A}}(M, D(P')) & \xrightarrow{\rho_{i+1}(M, P')} & D(\mathrm{Ext}_{\Lambda}^{i+1}(M, P')) \\
+\mathrm{Tor}_{i+1}^{\mathbf{A}}(M, D(P')) & \xrightarrow{\rho_{i+1}(M, P')} & D(\mathrm{Ext}_{A}^{i+1}(M, P')) \\
 \downarrow & & \downarrow \\
 \partial_{i+1}(M, D(\mathscr{F})) & & (-1)^i D(\delta^i(M, \mathscr{F}))
 \end{array}
@@ -726,7 +726,7 @@ $$
 
 $$
 \begin{array}{ccc}
-\mathrm{Tor}_{i}^{\mathbf{A}}(M, P'') & \xrightarrow{\rho_{i}(M, P'')} & D(\mathrm{Ext}_{\Lambda}^{i}(M, P''))
+\mathrm{Tor}_{i}^{\mathbf{A}}(M, P'') & \xrightarrow{\rho_{i}(M, P'')} & D(\mathrm{Ext}_{A}^{i}(M, P''))
 \end{array}
 $$
 

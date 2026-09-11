@@ -40,7 +40,7 @@ subsections:
       pdf_page: 119
 statements: 31
 exercises: 10
-content_sha256: fbc50d377bb5b3611bf9f59a677bc3738422facb59e1d4d8254527278d9ee984
+content_sha256: 7d49f185df1f364335822b1a8ea327c1e9433be048a7e91a8b4906bfa676c41f
 ---
 
 ## § 8. DUALITÉ DES MODULES DE LONGUEUR FINIE
@@ -119,9 +119,9 @@ Pour $a \in \mathrm{gr}(A)$, $x \in \mathrm{gr}^\alpha(E)$, $\beta_E(x)(a)$ est 
 
 *Soient $A$ un anneau noethérien, $\alpha$ un idéal de $A$, $E$ un $A$-module et $M$ un sous-$A$-module de $E$ annulé par $\alpha$. Les conditions suivantes sont équivalentes :*
     (i) *$E$ est une enveloppe injective de $M$* ;
-    (ii) *le $\Lambda/\alpha$-module $E_1$ est une enveloppe injective du $A/\alpha$-module $M$, le module $E$ est réunion des $E_n$ et l’application canonique $\beta_E$ est bijective*.
+    (ii) *le $A/\alpha$-module $E_1$ est une enveloppe injective du $A/\alpha$-module $M$, le module $E$ est réunion des $E_n$ et l’application canonique $\beta_E$ est bijective*.
 
-Supposons la condition (i) satisfaite. Le $A/\alpha$-module $E_1$ est injectif (lemme 1, a)), et contient $M$; comme tout sous-$\Lambda/\alpha$-module de $E_1$ est un sous-$A$-module de $E$, $E_1$ est une enveloppe injective du $\Lambda/\alpha$-module $M$. D’après le lemme 1, la réunion des $E_n$ est un sous-$A$-module injectif de $E$ contenant $M$, donc égal à $E$. Puisque $E$ est injectif, on a pour tout $n \geq 0$ une suite exacte
+Supposons la condition (i) satisfaite. Le $A/\alpha$-module $E_1$ est injectif (lemme 1, a)), et contient $M$; comme tout sous-$A/\alpha$-module de $E_1$ est un sous-$A$-module de $E$, $E_1$ est une enveloppe injective du $A/\alpha$-module $M$. D’après le lemme 1, la réunion des $E_n$ est un sous-$A$-module injectif de $E$ contenant $M$, donc égal à $E$. Puisque $E$ est injectif, on a pour tout $n \geq 0$ une suite exacte
 
 $$
 0 \to \mathrm{Hom}_A(A/\alpha^n, E) \longrightarrow \mathrm{Hom}_A(A/\alpha^{n+1}, E) \longrightarrow \mathrm{Hom}_A(\alpha^n/\alpha^{n+1}, E) \to 0;
@@ -165,7 +165,7 @@ de sorte que $u$ est $\widehat{A}$-linéaire.
 
 *Soient $A$ un anneau noethérien, $p$ un idéal premier de $A$ et $e : A/p \to I$ une enveloppe injective du $A$-module $A/p$. Pour tout entier $n \geq 0$, désignons par $I_n$ le sous-module de $I$ formé des éléments annulés par $p^n$.*
 
-a) Le $A$-module $I$ est réunion des $I_n$. L’injection $\Lambda / \mathfrak{p} \to I_1$ se prolonge en un isomorphisme de $\kappa(\mathfrak{p})$ sur $I_1$; identifions $\kappa(\mathfrak{p})$ à $I_1$ à l’aide de cet isomorphisme. Pour chaque entier $n \geqslant 0$, la structure de $\Lambda / \mathfrak{p}$-module de $I_{n+1}/I_n$ provient par restriction des scalaires d’une unique structure de $\kappa(\mathfrak{p})$-espace vectoriel ; l’homomorphisme canonique $\beta_{I,-n}: I_{n+1}/I_n \longrightarrow \mathrm{Hom}_{\Lambda/\mathfrak{p}}(\mathfrak{p}^n/\mathfrak{p}^{n+1}, \kappa(\mathfrak{p}))$ est un isomorphisme de $\kappa(\mathfrak{p})$-espaces vectoriels de dimension finie.
+a) Le $A$-module $I$ est réunion des $I_n$. L’injection $A / \mathfrak{p} \to I_1$ se prolonge en un isomorphisme de $\kappa(\mathfrak{p})$ sur $I_1$; identifions $\kappa(\mathfrak{p})$ à $I_1$ à l’aide de cet isomorphisme. Pour chaque entier $n \geqslant 0$, la structure de $A / \mathfrak{p}$-module de $I_{n+1}/I_n$ provient par restriction des scalaires d’une unique structure de $\kappa(\mathfrak{p})$-espace vectoriel ; l’homomorphisme canonique $\beta_{I,-n}: I_{n+1}/I_n \longrightarrow \mathrm{Hom}_{A/\mathfrak{p}}(\mathfrak{p}^n/\mathfrak{p}^{n+1}, \kappa(\mathfrak{p}))$ est un isomorphisme de $\kappa(\mathfrak{p})$-espaces vectoriels de dimension finie.
 
 b) Il existe une unique structure de $\widehat{A_p}$-module sur $I$ induisant sa structure de $A$-module. L’homomorphisme canonique $\widehat{A_p} \longrightarrow \mathrm{End}_A(I)$ est bijectif.
 
@@ -173,7 +173,7 @@ D’après A, X, p. 20, exemple 1, le $A/\mathfrak{p}$-module $\kappa(\mathfrak{
 
 Soit $s \in A - \mathfrak{p}$. Comme l’homothétie $s_{A/\mathfrak{p}}$ est injective, la trace de $\mathrm{Ker}\, s_I$ sur $A/\mathfrak{p}$ est nulle, ce qui entraîne que l’homothétie $s_I$ est injective. Alors $s_I$ est un sous-module facteur direct de $I$ (A, X, p. 19, cor. 4), donc égal à $I$ puisque $I$ est indécomposable ($n^\circ 1$, prop. 1), de sorte que l’homothétie $s_I$ est bijective. Il existe donc une unique structure de $A_p$-module sur $I$ induisant sa structure de $A$-module ; elle s’étend de manière unique en une structure de $\widehat{A_p}$-module (lemme 2).
 
-Pour chaque entier $n$, on déduit de l’homomorphisme d’anneaux canonique $\Lambda_p \longrightarrow \mathrm{End}_A(I)$ une application $A$-linéaire $\alpha_n : A_p/\mathfrak{p}^n A_p \longrightarrow \mathrm{Hom}_A(I_n, I)$. Considérons le diagramme commutatif à lignes exactes
+Pour chaque entier $n$, on déduit de l’homomorphisme d’anneaux canonique $A_p \longrightarrow \mathrm{End}_A(I)$ une application $A$-linéaire $\alpha_n : A_p/\mathfrak{p}^n A_p \longrightarrow \mathrm{Hom}_A(I_n, I)$. Considérons le diagramme commutatif à lignes exactes
 
 $$
 \begin{array}{ccccccccc}
@@ -240,10 +240,10 @@ Soit $M$ un A-module. Rappelons (A, VIII, § 4, n° 6) que le socle de $M$ est l
 
 #### Lemme 4 {#ac-x-s8-lem-4 .statement}
 
-*Soient I un A-module de Matlis et M un $\Lambda$-module. Les conditions suivantes sont équivalentes :*
+*Soient I un A-module de Matlis et M un $A$-module. Les conditions suivantes sont équivalentes :*
 
 (i) $M$ est artinien ;
-(ii) tout élément de $M$ est annulé par une puissance de $m_A$, et le socle de $M$ est de dimension finie sur $\kappa_\Lambda$ ;
+(ii) tout élément de $M$ est annulé par une puissance de $m_A$, et le socle de $M$ est de dimension finie sur $\kappa_A$ ;
 (iii) il existe un entier $n \geq 0$ et une application A-linéaire injective de $M$ dans $I^n$.
 
 *Lorsque ces conditions sont satisfaites, toute enveloppe injective de $M$ est isomorphe à $I^s$, où $s$ est la dimension sur $\kappa_A$ du socle de $M$.*
@@ -256,9 +256,9 @@ Soit $M$ un A-module. Rappelons (A, VIII, § 4, n° 6) que le socle de $M$ est l
 
 #### Lemme 5 {#ac-x-s8-lem-5 .statement}
 
-*Tout $\widehat{\Lambda}$-module artinien est artinien en tant que $\Lambda$-module.*
+*Tout $\widehat{A}$-module artinien est artinien en tant que $A$-module.*
 
-Soit $M$ un $\widehat{\Lambda}$-module artinien; tout élément de $M$ est annulé par une puissance de $m_{\widehat{\Lambda}}$, donc par une puissance de $m_A$. D’après le lemme 2 du n° 2, les sous-A-modules de $M$ sont ses sous-$\widehat{\Lambda}$-modules, donc $M$ est artinien en tant que A-module.
+Soit $M$ un $\widehat{A}$-module artinien; tout élément de $M$ est annulé par une puissance de $m_{\widehat{A}}$, donc par une puissance de $m_A$. D’après le lemme 2 du n° 2, les sous-A-modules de $M$ sont ses sous-$\widehat{A}$-modules, donc $M$ est artinien en tant que A-module.
 
 Fixons maintenant un $A$-module de Matlis I. Pour tout $A$-module $M$, notons $D_A(M)$ le $\widehat{A}$-module
 $$
@@ -709,7 +709,7 @@ $$
 
 $$
 \begin{array}{ccc}
-\mathrm{Tor}_{i+1}^{\mathbf{A}}(M, D(P')) & \xrightarrow{\rho_{i+1}(M, P')} & D(\mathrm{Ext}_{\Lambda}^{i+1}(M, P')) \\
+\mathrm{Tor}_{i+1}^{\mathbf{A}}(M, D(P')) & \xrightarrow{\rho_{i+1}(M, P')} & D(\mathrm{Ext}_{A}^{i+1}(M, P')) \\
 \downarrow & & \downarrow \\
 \partial_{i+1}(M, D(\mathscr{F})) & & (-1)^i D(\delta^i(M, \mathscr{F}))
 \end{array}
@@ -717,7 +717,7 @@ $$
 
 $$
 \begin{array}{ccc}
-\mathrm{Tor}_{i}^{\mathbf{A}}(M, P'') & \xrightarrow{\rho_{i}(M, P'')} & D(\mathrm{Ext}_{\Lambda}^{i}(M, P''))
+\mathrm{Tor}_{i}^{\mathbf{A}}(M, P'') & \xrightarrow{\rho_{i}(M, P'')} & D(\mathrm{Ext}_{A}^{i}(M, P''))
 \end{array}
 $$
 

@@ -36,7 +36,7 @@ subsections:
       pdf_page: 136
 statements: 31
 exercises: 12
-content_sha256: e91759ba70639eaebfa25698b669acf6e3da97d31ed7579081129197fa443e8f
+content_sha256: 805b8756f00ed94a3a940e572ede9fcb38905479c4adddb11f5bf8c580ca6bac
 ---
 
 ## § 9. MODULES DUALISANTS
@@ -45,7 +45,7 @@ content_sha256: e91759ba70639eaebfa25698b669acf6e3da97d31ed7579081129197fa443e8f
 
 #### Définition 1 {#ac-x-s9-def-1 .statement}
 
-Soit $A$ un anneau noethérien. On dit qu’un $\Lambda$-module $\Omega$ est dualisant s’il est de type fini et si, pour tout idéal maximal $m$ de $\Lambda$, le $A/m$-espace vectoriel $\mathrm{Ext}_A^i(A/m, \Omega)$ est nul pour $i \neq \mathrm{ht}(m)$ et de dimension 1 pour $i = \mathrm{ht}(m)$.
+Soit $A$ un anneau noethérien. On dit qu’un $A$-module $\Omega$ est dualisant s’il est de type fini et si, pour tout idéal maximal $m$ de $A$, le $A/m$-espace vectoriel $\mathrm{Ext}_A^i(A/m, \Omega)$ est nul pour $i \neq \mathrm{ht}(m)$ et de dimension 1 pour $i = \mathrm{ht}(m)$.
 
 Pour tout idéal maximal $m$ de $A$ et tout entier $i$, le $A/m$-espace vectoriel $\mathrm{Ext}_A^i(A/m, \Omega)$ est canoniquement isomorphe à $\mathrm{Ext}_{A_m}^i(A/m, \Omega_m)$ ($\S$ 3, n° 2, prop. 2). Par suite, pour qu’un $A$-module de type fini $\Omega$ soit dualisant, il faut et il suffit que le $A_m$-module $\Omega_m$ soit dualisant pour tout idéal maximal $m$ de $A$.
 
@@ -283,9 +283,9 @@ En effet, pour tout idéal premier $\mathfrak{p}$ de $A$, l’anneau $\kappa(\ma
 
 #### Proposition 6 {#ac-x-s9-prop-6 .statement}
 
-*Soient $\Lambda$ un anneau local noethérien et $\Omega$ un $A$-module dualisant. Soit B une A-algèbre finie ; on suppose que le A-module B est macaulayen. Le B-module $\mathrm{Ext}_A^i(B, \Omega)$ est nul pour $i \neq \dim(A) - \dim(B)$ et dualisant pour $i = \dim(A) - \dim(B)$.
+*Soient $A$ un anneau local noethérien et $\Omega$ un $A$-module dualisant. Soit B une A-algèbre finie ; on suppose que le A-module B est macaulayen. Le B-module $\mathrm{Ext}_A^i(B, \Omega)$ est nul pour $i \neq \dim(A) - \dim(B)$ et dualisant pour $i = \dim(A) - \dim(B)$.
 
-On a $\dim(B) = \dim_A(B) \leq \dim(\Lambda)$ (VIII, § 2, n° 3, th. 1 c)); posons $c = \dim(A) - \dim(B)$. On a $\mathrm{Ext}_A^i(B, \Omega) = 0$ pour $i \neq c$ puisque le $A$-module $B$ est macaulayen (n° 1, cor. de la prop. 3). Prouvons que le B-module $\mathrm{Ext}_A^c(B, \Omega)$ est dualisant.
+On a $\dim(B) = \dim_A(B) \leq \dim(A)$ (VIII, § 2, n° 3, th. 1 c)); posons $c = \dim(A) - \dim(B)$. On a $\mathrm{Ext}_A^i(B, \Omega) = 0$ pour $i \neq c$ puisque le $A$-module $B$ est macaulayen (n° 1, cor. de la prop. 3). Prouvons que le B-module $\mathrm{Ext}_A^c(B, \Omega)$ est dualisant.
 
 Supposons d’abord $\dim(B) = 0$. Le spectre $X$ de $B$ est fini et formé d’idéaux maximaux (IV, § 2, n° 5, prop. 9); l’application canonique $B \to \prod_{n \in X} B_n$ est un isomorphisme (*loc. cit.*, cor. 1). Le B-module $\Omega' = \mathrm{Ext}_A^c(B, \Omega)$ est donc somme directe des modules $\mathrm{Ext}_A^c(B_n, \Omega)$; comme $\mathrm{Ext}_A^c(B_n, \Omega)$ est à support dans $\{n\}$, il s’identifie à $\Omega'_n$. On a $\dim(B_n) = 0$ pour tout $n$; pour prouver que le B-module $\Omega'$ est dualisant, il suffit donc de prouver qu’il en est ainsi du $B_n$-module $\mathrm{Ext}_A^c(B_n, \Omega)$ pour tout $n \in X$, ce qui nous ramène au cas où l’anneau $B$ est *local*. Dans ce cas, d’après l’exemple 6 du § 8, n° 5, le B-module $\mathrm{Ext}_A^c(B, \Omega)$ est isomorphe à $\mathrm{Hom}_A(B, I)$, où $I$ est un $A$-module de Matlis; c’est par conséquent un B-module de Matlis ($§ 8, n° 6$, cor. de la prop. 5), donc un B-module dualisant (n° 1, exemple 1).
 

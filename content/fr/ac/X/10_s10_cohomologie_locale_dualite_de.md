@@ -24,7 +24,7 @@ subsections:
       pdf_page: 146
 statements: 20
 exercises: 11
-content_sha256: cc968c21a6b9e12b9f35518aa00501a249af48a3b52e39a832d039372a712eca
+content_sha256: baf7c2e804ae1d53041db342de4e47ab6a14855fb6f08d49c744e4f7fc3ccbcd
 ---
 
 ## § 10. COHOMOLOGIE LOCALE, DUALITÉ DE GROTHENDIECK
@@ -49,7 +49,7 @@ $$
 \end{array}
 $$
 
-une suite exacte de $A$-modules. D’après $\Lambda$, $X$, p. 90, prop. 8, les homomorphismes de liaison des modules d’extensions $\mathrm{Ext}_A(A/a, P) \longrightarrow \mathrm{Ext}_A(A/a, M)$ forment un système inductif d’applications $A$-linéaires, graduées de degré (ascendant) +1. Par passage à la limite inductive, on en déduit un $A$-homomorphisme $\partial(\mathscr{E}) : H_A(P) \to H_A(M)$, gradué de degré +1 , qui rend exacte la suite d’homomorphismes
+une suite exacte de $A$-modules. D’après $A$, $X$, p. 90, prop. 8, les homomorphismes de liaison des modules d’extensions $\mathrm{Ext}_A(A/a, P) \longrightarrow \mathrm{Ext}_A(A/a, M)$ forment un système inductif d’applications $A$-linéaires, graduées de degré (ascendant) +1. Par passage à la limite inductive, on en déduit un $A$-homomorphisme $\partial(\mathscr{E}) : H_A(P) \to H_A(M)$, gradué de degré +1 , qui rend exacte la suite d’homomorphismes
 
 $$
 \ldots \longrightarrow H_A^{n-1}(P) \xrightarrow{\partial^{n-1}(\mathscr{E})} H_A^n(M) \xrightarrow{H_A^n(f)} H_A^n(N) \xrightarrow{H_A^n(g)} H_A^n(P) \xrightarrow{\partial^n(\mathscr{E})} H_A^{n+1}(M) \longrightarrow \ldots
@@ -71,7 +71,7 @@ Soit $\Omega$ un A-module dualisant. Pour $i \neq \dim(A)$, on a $\mathrm{Ext}_A
 
 #### Exemple 4 {#ac-x-s10-n1-exa-4 .statement}
 
-Soit A un anneau local noethérien intègre ; notons K son corps des fractions, et supposons $A \neq K$. C’est un A-module injectif (A, X, p. 18, exemple 1), de sorte que le module $H_A(K)$ est nul (exemple 1). De la suite exacte $0 \to A \to K \to K/A \to 0$, on tire pour tout $i$ un isomorphisme $H_A^i(K/\Lambda) \to H_A^{i+1}(A)$.
+Soit A un anneau local noethérien intègre ; notons K son corps des fractions, et supposons $A \neq K$. C’est un A-module injectif (A, X, p. 18, exemple 1), de sorte que le module $H_A(K)$ est nul (exemple 1). De la suite exacte $0 \to A \to K \to K/A \to 0$, on tire pour tout $i$ un isomorphisme $H_A^i(K/A) \to H_A^{i+1}(A)$.
 
 Plus généralement, pour tout A-module sans torsion M et tout entier $i$, on déduit de la suite exacte
 

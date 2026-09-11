@@ -99,7 +99,7 @@ Cho $\Omega_k(A)$ là môđun các $k$-vi phân của vành $A$, và cho $d : A 
 Cho J là một iđêan của A. Theo A, III, p. 137, ta có một dãy khớp các ánh xạ $A/J$-tuyến tính
 
 $$
-J/J^2 \xrightarrow{\bar{d}} (\Lambda/J) \otimes_A \Omega_k(\Lambda) \longrightarrow \Omega_k(A/J) \to 0,
+J/J^2 \xrightarrow{\bar{d}} (A/J) \otimes_A \Omega_k(A) \longrightarrow \Omega_k(A/J) \to 0,
 $$
 
 trong đó $\bar{d}$ là đồng cấu cảm sinh, bằng cách chuyển qua thương, từ hạn chế của $d$ lên J.
@@ -108,7 +108,7 @@ Kí hiệu $\rho : A \to A/J^2$ và $\pi : A/J^2 \to A/J$ là các toàn cấu c
 
 #### Mệnh đề 2 {#ac-x-s7-prop-2 .statement}
 
-Trang bị cho $k$-môđun $\Lambda/J \oplus J/J^2$ cấu trúc của một $k$-đại số được xác định như trong ví dụ trên. Các ánh xạ $v \mapsto h_v$ và $h \mapsto \psi_h$ cảm sinh các song ánh giữa các tập hợp sau :
+Trang bị cho $k$-môđun $A/J \oplus J/J^2$ cấu trúc của một $k$-đại số được xác định như trong ví dụ trên. Các ánh xạ $v \mapsto h_v$ và $h \mapsto \psi_h$ cảm sinh các song ánh giữa các tập hợp sau :
 
 (i) tập hợp các phép rút $A/J$-tuyến tính $v$ của $\bar{d}$ ;
 (ii) tập hợp các đồng cấu $k$-đại số $h : A/J \to A/J^2$ sao cho $\pi \circ h = \mathrm{Id}_{A/J}$ ;
@@ -174,13 +174,13 @@ b) Chỉ cần chứng minh rằng tích của hai $k$-đại số trơn hình t
 
 c) Gọi $i : A \to \widehat{A}$ là đồng cấu chính tắc. Với mọi vành D, được trang bị tôpô rời rạc, ánh xạ liên kết với một đồng cấu liên tục $f : \widehat{A} \to D$ đồng cấu liên tục $f \circ i : A \to D$ là song ánh. Mệnh đề c) suy ra từ điều này.
 
-Mệnh đề c) của mệnh đề áp dụng đặc biệt khi tôpô của $\Lambda$ là tôpô J-adic, trong đó J là một iđêan kiểu hữu hạn; bao đóng $\widehat{J}$ của J trong $\widehat{A}$ khi đó bằng $JA$ và tôpô của $\widehat{A}$ là tôpô $\widehat{J}$-adic (III, § 2, No. 12, Hệ quả 2 of Prop. 16). Do đó, nói rằng A là trơn hình thức đối với tôpô J-adic hay rằng hoàn thành tách của nó $\widehat{A}$ là trơn hình thức đối với tôpô J-adic là tương đương.
+Mệnh đề c) của mệnh đề áp dụng đặc biệt khi tôpô của $A$ là tôpô J-adic, trong đó J là một iđêan kiểu hữu hạn; bao đóng $\widehat{J}$ của J trong $\widehat{A}$ khi đó bằng $JA$ và tôpô của $\widehat{A}$ là tôpô $\widehat{J}$-adic (III, § 2, No. 12, Hệ quả 2 of Prop. 16). Do đó, nói rằng A là trơn hình thức đối với tôpô J-adic hay rằng hoàn thành tách của nó $\widehat{A}$ là trơn hình thức đối với tôpô J-adic là tương đương.
 
 #### Mệnh đề 4 {#ac-x-s7-prop-4 .statement}
 
 Cho k là một vành, A và B các $k$-đại số, J một iđêan của A, K một iđêan của B.
 
-a) Cho S là một tập con nhân tính của A và T một tập con của k mà ảnh của nó trong A được chứa trong S. Nếu A là trơn hình thức trên k đối với tôpô J-adic, S $^1\Lambda$ là trơn hình thức trên $T^{-1}k$ đối với tôpô $S^{-1}J$-adic.
+a) Cho S là một tập con nhân tính của A và T một tập con của k mà ảnh của nó trong A được chứa trong S. Nếu A là trơn hình thức trên k đối với tôpô J-adic, S $^1A$ là trơn hình thức trên $T^{-1}k$ đối với tôpô $S^{-1}J$-adic.
 
 b) Cho $k'$ là một $k$-đại số. Nếu $A$ là trơn hình thức trên $k$ đối với tôpô $J$-adic, thì $k'$-đại số $A_{(k')}$ là trơn hình thức trên $k'$ đối với tôpô $JA_{(k')}$-adic.
 
@@ -246,7 +246,7 @@ Cho $k$ là một vành, $C$ là một $k$-đại số, $(C_n)_{n \in \mathbf{Z}
 
 #### Mệnh đề 5 {#ac-x-s7-prop-5 .statement}
 
-Cho $A$ là một đại số trên $k$ tôpô tuyến tính trơn hình thức. Mọi đồng cấu liên tục của các đại số trên $k$ $\varphi : \Lambda \to C/C_m$ đều có một nâng liên tục lên $C$.
+Cho $A$ là một đại số trên $k$ tôpô tuyến tính trơn hình thức. Mọi đồng cấu liên tục của các đại số trên $k$ $\varphi : A \to C/C_m$ đều có một nâng liên tục lên $C$.
 
 Với mọi số nguyên $n > m$, ký hiệu $\pi_n : C/C_n \to C/C_{n-1}$ là toàn cấu chính tắc. Vì $C$ được đồng nhất với giới hạn xạ ảnh của các $C/C_n$, việc cho một nâng liên tục của $\varphi$ lên $C$ tương đương với việc cho một họ $(\varphi_n)_{n > m}$ các đồng cấu liên tục của các đại số trên $k$ $\varphi_n : A \to C/C_n$, thỏa mãn $\pi_n \circ \varphi_n = \varphi_{n-1}$. Điều này đưa ta, bằng quy nạp theo $m$, về việc chứng minh mệnh đề khi $C_{m+1} = 0$. Khi đó iđêan $C_m$ có bình phương bằng không (vì $2m \geq m+1$), do đó có mệnh đề này vì $A$ là trơn hình thức.
 
@@ -261,7 +261,7 @@ Cho $C$ là một đại số trên $k$ và $N$ là một iđêan hai phía lũy
 Cho k là một vành, A là một đại số trên k, và J là một iđêan của A sao cho đại số trên k A/J là trơn hình thức. Trang bị cho A tôpô J-adic. Các điều kiện sau là tương đương:
 
 (i) đại số trên k tôpô A là trơn hình thức;
-(ii) $\Lambda/J$-môđun $J/J^2$ là xạ ảnh và đồng cấu chính tắc ($\S$ 5, n° 2)
+(ii) $A/J$-môđun $J/J^2$ là xạ ảnh và đồng cấu chính tắc ($\S$ 5, n° 2)
 $$
 \beta : S_{A/J}(J/J^2) \to \mathrm{gr}_J(A)
 $$
@@ -319,37 +319,37 @@ Các $k$-đại số $A$ và $A \otimes_k A$ là trơn hình thức (No. 2, prop
 
 ### 6. Mở rộng trường cơ sở trong các đại số chính quy (đặc số khác không)
 
-Cho $k$ là một vành và $\rho : A \to B$ là một đồng cấu của các $k$-đại số. Từ $\rho$ suy ra một ánh xạ $A$-tuyến tính $\Omega(\rho) : \Omega_k(A) \to \Omega_k(B)$, và do đó một ánh xạ $B$-tuyến tính $\Omega_0(\rho) : B \otimes_A \Omega_k(A) \to \Omega_k(B)$ (A, III, p. 135). Cho $T = (T_i)_{i \in I}$ là một họ các bất định, và $t = (t_i)_{i \in I}$ là một họ các phần tử của $B$; với mọi đa thức $f = \sum_{\alpha \in \mathbf{N}^{(I)}} c_\alpha T^\alpha$ của $A[T]$, ký hiệu $d^\Lambda f(t)$ là phần tử $\sum_\alpha t^\alpha \otimes dc_\alpha$ của $B \otimes_A \Omega_k(A)$.
+Cho $k$ là một vành và $\rho : A \to B$ là một đồng cấu của các $k$-đại số. Từ $\rho$ suy ra một ánh xạ $A$-tuyến tính $\Omega(\rho) : \Omega_k(A) \to \Omega_k(B)$, và do đó một ánh xạ $B$-tuyến tính $\Omega_0(\rho) : B \otimes_A \Omega_k(A) \to \Omega_k(B)$ (A, III, p. 135). Cho $T = (T_i)_{i \in I}$ là một họ các bất định, và $t = (t_i)_{i \in I}$ là một họ các phần tử của $B$; với mọi đa thức $f = \sum_{\alpha \in \mathbf{N}^{(I)}} c_\alpha T^\alpha$ của $A[T]$, ký hiệu $d^A f(t)$ là phần tử $\sum_\alpha t^\alpha \otimes dc_\alpha$ của $B \otimes_A \Omega_k(A)$.
 
 #### Bổ đề 1 {#ac-x-s7-lem-1 .statement}
 
-Giả sử rằng $B$-đại số $A$ thừa nhận một họ sinh $t = (t_i)_{i \in I}$, với các quan hệ xác định $f_\lambda \in A[T]$ ($\lambda \in \Lambda$). Đồng cấu $B$-tuyến tính
+Giả sử rằng $B$-đại số $A$ thừa nhận một họ sinh $t = (t_i)_{i \in I}$, với các quan hệ xác định $f_\lambda \in A[T]$ ($\lambda \in A$). Đồng cấu $B$-tuyến tính
 $$
 \psi : (B \otimes_A \Omega_k(A)) \oplus B^{(I)} \longrightarrow \Omega_k(B)
 $$
-được xác định bởi $\psi(\alpha, (b_i)) = \Omega_0(\rho)(\alpha) + \sum_{i \in I} b_i dt_i$, là toàn ánh; hạt nhân của nó được sinh bởi các phần tử $r_\lambda = \left( d^\Lambda f_\lambda(t), \left( \frac{\partial f_\lambda}{\partial T_i}(t) \right)_{i \in I} \right)$ với $\lambda \in \Lambda$.
+được xác định bởi $\psi(\alpha, (b_i)) = \Omega_0(\rho)(\alpha) + \sum_{i \in I} b_i dt_i$, là toàn ánh; hạt nhân của nó được sinh bởi các phần tử $r_\lambda = \left( d^A f_\lambda(t), \left( \frac{\partial f_\lambda}{\partial T_i}(t) \right)_{i \in I} \right)$ với $\lambda \in A$.
 
 Xét dãy các B-môđun và các ánh xạ B-tuyến tính
 
 $$
-B^{(\Lambda)} \xrightarrow{\varphi} (B \otimes_{\Lambda} \Omega_k(A)) \oplus B^{(1)} \xrightarrow{\psi} \Omega_k(B) \longrightarrow 0,
+B^{(A)} \xrightarrow{\varphi} (B \otimes_{A} \Omega_k(A)) \oplus B^{(1)} \xrightarrow{\psi} \Omega_k(B) \longrightarrow 0,
 $$
 
 trong đó $\varphi$ là đồng cấu sao cho $\varphi(e_\lambda) = n_\lambda$; vấn đề là chứng minh rằng dãy này là khớp. Theo A, II, p. 36, th. 1, chỉ cần chứng minh rằng, với mọi B-môđun M, dãy
 
 $$
-0 \to \mathrm{Hom}_B(\Omega_k(B), M) \xrightarrow{\mathrm{Hom}(\psi, 1)} \mathrm{Hom}_B((B \otimes_A \Omega_k(A)) \oplus B^{(1)}, M) \xrightarrow{\mathrm{Hom}(\varphi, 1)} \mathrm{Hom}_B(B^{(\Lambda)}, M)
+0 \to \mathrm{Hom}_B(\Omega_k(B), M) \xrightarrow{\mathrm{Hom}(\psi, 1)} \mathrm{Hom}_B((B \otimes_A \Omega_k(A)) \oplus B^{(1)}, M) \xrightarrow{\mathrm{Hom}(\varphi, 1)} \mathrm{Hom}_B(B^{(A)}, M)
 $$
 
 là khớp. Theo tính chất phổ quát của môđun vi phân (A, III, p. 134), dãy này được đồng nhất với
 
 $$
-0 \to D_k(B, M) \xrightarrow{\psi'} D_k(A, M) \oplus M^1 \xrightarrow{\varphi'} M^\Lambda
+0 \to D_k(B, M) \xrightarrow{\psi'} D_k(A, M) \oplus M^1 \xrightarrow{\varphi'} M^A
 $$
 
-trong đó $\psi'(D) = (D \circ \rho, (D(t_i)))$ và $\varphi'(\Delta, (m_i)) = (f^\Delta_\lambda(t) + \sum_i \frac{\partial f_\lambda}{\partial T_i}(t) m_i)_{\lambda \in \Lambda}$ (phù hợp với A, V, p. 121, với mọi đa thức $f = \sum_{\alpha \in \mathbf{N}^{(1)}} c_\alpha T^\alpha$ của $A[T]$, $f^\Delta(t)$ ký hiệu phần tử $\sum_\alpha t^\alpha \Delta(c_\alpha)$). Nhưng tính khớp của dãy này suy ra từ loc. cit., prop. 1, xét đến việc một đạo hàm $D : B \to M$ là $k$-tuyến tính khi và chỉ khi điều này đúng với $D \circ \rho$.
+trong đó $\psi'(D) = (D \circ \rho, (D(t_i)))$ và $\varphi'(\Delta, (m_i)) = (f^\Delta_\lambda(t) + \sum_i \frac{\partial f_\lambda}{\partial T_i}(t) m_i)_{\lambda \in A}$ (phù hợp với A, V, p. 121, với mọi đa thức $f = \sum_{\alpha \in \mathbf{N}^{(1)}} c_\alpha T^\alpha$ của $A[T]$, $f^\Delta(t)$ ký hiệu phần tử $\sum_\alpha t^\alpha \Delta(c_\alpha)$). Nhưng tính khớp của dãy này suy ra từ loc. cit., prop. 1, xét đến việc một đạo hàm $D : B \to M$ là $k$-tuyến tính khi và chỉ khi điều này đúng với $D \circ \rho$.
 
-Cho A là một vành. Tồn tại duy nhất một cấu trúc $\mathbf{Z}$-đại số trên A; người ta viết đơn giản $\Omega(\Lambda)$ thay cho A-môđun $\Omega_{\mathbf{Z}}(A)$. Nếu $\rho : k \to A$ là một đồng cấu của các vành, thì có một dãy khớp chính tắc các A-môđun (A, III, p. 136, prop. 21)
+Cho A là một vành. Tồn tại duy nhất một cấu trúc $\mathbf{Z}$-đại số trên A; người ta viết đơn giản $\Omega(A)$ thay cho A-môđun $\Omega_{\mathbf{Z}}(A)$. Nếu $\rho : k \to A$ là một đồng cấu của các vành, thì có một dãy khớp chính tắc các A-môđun (A, III, p. 136, prop. 21)
 
 $$
 A \otimes_k \Omega(k) \to \Omega(A) \to \Omega_k(A) \to 0.
@@ -431,17 +431,17 @@ $$
 \omega_r : A/m^r \otimes_k \Omega_{k_0}(k) \longrightarrow A/m^r \otimes_A \Omega_{k_0}(A)
 $$
 
-suy ra từ ánh xạ chính tắc $k \to A$. Cho $(\lambda_i)_{i \in I}$ là một họ các phần tử của $k$ sao cho các $d_k(\lambda_i)$ tạo thành một cơ sở của không gian vectơ $\Omega_{k_0}(k)$ trên $k$; theo (ii), các phần tử $1 \otimes d_A(\lambda_i 1_A)$ độc lập tuyến tính trong $A/\mathfrak{m} \otimes_{\Lambda} \Omega_{k_0}(A)$. Theo II, § 3, No. 2, Hệ quả 1 và 2 của Mệnh đề 5, các $1 \otimes d_A(\lambda_i 1_A)$ tạo thành một cơ sở của một nhân tử trực tiếp của $A/\mathfrak{m}^r$-môđun $A/\mathfrak{m}^r \otimes_{\Lambda} \Omega_{k_0}(A)$. Do đó tồn tại một ánh xạ $A/\mathfrak{m}^r$-tuyến tính
+suy ra từ ánh xạ chính tắc $k \to A$. Cho $(\lambda_i)_{i \in I}$ là một họ các phần tử của $k$ sao cho các $d_k(\lambda_i)$ tạo thành một cơ sở của không gian vectơ $\Omega_{k_0}(k)$ trên $k$; theo (ii), các phần tử $1 \otimes d_A(\lambda_i 1_A)$ độc lập tuyến tính trong $A/\mathfrak{m} \otimes_{A} \Omega_{k_0}(A)$. Theo II, § 3, No. 2, Hệ quả 1 và 2 của Mệnh đề 5, các $1 \otimes d_A(\lambda_i 1_A)$ tạo thành một cơ sở của một nhân tử trực tiếp của $A/\mathfrak{m}^r$-môđun $A/\mathfrak{m}^r \otimes_{A} \Omega_{k_0}(A)$. Do đó tồn tại một ánh xạ $A/\mathfrak{m}^r$-tuyến tính
 $$
-u_r : A/\mathfrak{m}^r \otimes_{\Lambda} \Omega_{k_0}(A) \longrightarrow A/\mathfrak{m}^r \otimes_k \Omega_{k_0}(k)
+u_r : A/\mathfrak{m}^r \otimes_{A} \Omega_{k_0}(A) \longrightarrow A/\mathfrak{m}^r \otimes_k \Omega_{k_0}(k)
 $$
 sao cho $u_r(1 \otimes d_A(\lambda_i 1_A)) = 1 \otimes d_k(\lambda_i)$ với mọi $i$, nên $u_r \circ \omega_r = \mathrm{Id}$.
 
-Bây giờ ta hãy kiểm tra rằng $A$ là trơn hình thức trên $k$ đối với tôpô $\mathfrak{m}$-adic. Cho $C$ là một $k$-đại số, $N$ một iđêan bình phương bằng không của $C$, và $\pi : C \to C/N$ toàn cấu chính tắc; trang bị cho $C$ và $C/N$ tôpô rời rạc. Cho $\varphi : A \to C/N$ là một đồng cấu liên tục của các $k$-đại số. Vì $A$ là trơn hình thức trên $k_0$ đối với tôpô $\mathfrak{m}$-adic, tồn tại một đồng cấu liên tục của các $k_0$-đại số $\tilde{\varphi}_0 : A \to C$ sao cho $\pi \circ \tilde{\varphi}_0 = \varphi$. Theo Mệnh đề 1 của No. 1, các đồng cấu của $k_0$-đại số $\tilde{\varphi} : A \to C$ sao cho $\pi \circ \tilde{\varphi} = \varphi$ là các ánh xạ $x \mapsto v(d_A(x)) + \tilde{\varphi}_0(x)$, trong đó $v$ chạy qua $\mathrm{Hom}_{\Lambda}(\Omega_{k_0}(A), N)$. Còn phải chọn $v$ sao cho $\tilde{\varphi}$ là một đồng cấu của các $k$-đại số. Ánh xạ $\lambda \mapsto \lambda 1_C - \tilde{\varphi}_0(\lambda 1_A)$ là một đạo hàm $k_0$ của $k$ vào $N$ (*loc. cit.*), và do đó có thể viết dưới dạng $h \circ d_k$ với $h \in \mathrm{Hom}_k(\Omega_{k_0}(k), N)$.
+Bây giờ ta hãy kiểm tra rằng $A$ là trơn hình thức trên $k$ đối với tôpô $\mathfrak{m}$-adic. Cho $C$ là một $k$-đại số, $N$ một iđêan bình phương bằng không của $C$, và $\pi : C \to C/N$ toàn cấu chính tắc; trang bị cho $C$ và $C/N$ tôpô rời rạc. Cho $\varphi : A \to C/N$ là một đồng cấu liên tục của các $k$-đại số. Vì $A$ là trơn hình thức trên $k_0$ đối với tôpô $\mathfrak{m}$-adic, tồn tại một đồng cấu liên tục của các $k_0$-đại số $\tilde{\varphi}_0 : A \to C$ sao cho $\pi \circ \tilde{\varphi}_0 = \varphi$. Theo Mệnh đề 1 của No. 1, các đồng cấu của $k_0$-đại số $\tilde{\varphi} : A \to C$ sao cho $\pi \circ \tilde{\varphi} = \varphi$ là các ánh xạ $x \mapsto v(d_A(x)) + \tilde{\varphi}_0(x)$, trong đó $v$ chạy qua $\mathrm{Hom}_{A}(\Omega_{k_0}(A), N)$. Còn phải chọn $v$ sao cho $\tilde{\varphi}$ là một đồng cấu của các $k$-đại số. Ánh xạ $\lambda \mapsto \lambda 1_C - \tilde{\varphi}_0(\lambda 1_A)$ là một đạo hàm $k_0$ của $k$ vào $N$ (*loc. cit.*), và do đó có thể viết dưới dạng $h \circ d_k$ với $h \in \mathrm{Hom}_k(\Omega_{k_0}(k), N)$.
 
 Chọn một số nguyên $r$ sao cho hạt nhân của $\varphi$ chứa $\mathfrak{m}^r$. A-môđun $N$ bị triệt tiêu bởi $\mathfrak{m}^r$, và chỉ cần lấy cho $v$ hợp thành của dãy các đồng cấu
 $$
-\Omega_{k_0}(A) \longrightarrow A/\mathfrak{m}^r \otimes_{\Lambda} \Omega_{k_0}(A) \xrightarrow{u_r} A/\mathfrak{m}^r \otimes_k \Omega_{k_0}(k) \xrightarrow{h'} N ,
+\Omega_{k_0}(A) \longrightarrow A/\mathfrak{m}^r \otimes_{A} \Omega_{k_0}(A) \xrightarrow{u_r} A/\mathfrak{m}^r \otimes_k \Omega_{k_0}(k) \xrightarrow{h'} N ,
 $$
 trong đó $h'$ được suy ra từ $h$. Thật vậy, với $\lambda \in k$ ta có:
 $$
@@ -459,7 +459,7 @@ Khi $A$ là Noether, điều kiện (i) có nghĩa là vành địa phương $A_
 (i) *A là trơn hình thức trên $k$ đối với tôpô $\mathfrak{m}_A$-adic* ;
 (ii) *A là chính quy và ánh xạ $\kappa_A$-tuyến tính*
 $$
-\omega : \kappa_A \otimes_k \Omega(k) \longrightarrow \kappa_A \otimes_{\Lambda} \Omega(A)
+\omega : \kappa_A \otimes_k \Omega(k) \longrightarrow \kappa_A \otimes_{A} \Omega(A)
 $$
 *được suy ra từ đơn ánh chính tắc $k \to A$ là đơn ánh* ;
 (iii) *A là chính quy tuyệt đối* ;
@@ -468,7 +468,7 @@ $$
 (ii) $\Leftrightarrow$ (i): chỉ cần áp dụng Mđ. 7 và Nhận xét 1 ở trên, lấy cho $k_0$ trường con nguyên tố của $k$; thật vậy, $k$ và $\kappa_A$ đều trơn hình thức trên $k_0$ (No. 3, Định lý 1).
 (i) $\Rightarrow$ (iii): điều này suy ra từ Hệ quả 2 của Định lý 2 (No. 5).
 
-Nếu k có đặc số 0, từ Hệ quả 1 của Định lý 2 (No. 5) suy ra rằng (iv) kéo theo (i), do đó có mệnh đề trong trường hợp này. Giả sử k có đặc số $p \neq 0$ và chứng minh (iv) ⇒ (ii). Cho $k'$ là một mở rộng thuần bất khả phân của k, có bậc hữu hạn và chiều cao $\leq 1$. Nếu A và $A_{(k')}$ là chính quy, thì ánh xạ chính tắc $\kappa_A \otimes_{k'} \Omega_{k^p}({k'}^p) \longrightarrow \kappa_A \otimes_A \Omega(\Lambda)$ là đơn ánh (No. 6, Mđ. 6). Theo Định lý 1, b) của A, V, p. 97, áp dụng cho mở rộng k của $k^p$, không gian vectơ trên k $\Omega(k)$, trùng với $\Omega_{k^p}(k)$, là hợp lọc tăng của các không gian con $k \otimes_{{k'}^p} \Omega_{k^p}({k'}^p)$, trong đó $k'$ chạy qua tập hợp các mở rộng thuần bất khả phân hữu hạn của k có chiều cao $\leq 1$ được chứa trong một bao đóng đại số cố định của k. Mệnh đề (ii) được suy ra.
+Nếu k có đặc số 0, từ Hệ quả 1 của Định lý 2 (No. 5) suy ra rằng (iv) kéo theo (i), do đó có mệnh đề trong trường hợp này. Giả sử k có đặc số $p \neq 0$ và chứng minh (iv) ⇒ (ii). Cho $k'$ là một mở rộng thuần bất khả phân của k, có bậc hữu hạn và chiều cao $\leq 1$. Nếu A và $A_{(k')}$ là chính quy, thì ánh xạ chính tắc $\kappa_A \otimes_{k'} \Omega_{k^p}({k'}^p) \longrightarrow \kappa_A \otimes_A \Omega(A)$ là đơn ánh (No. 6, Mđ. 6). Theo Định lý 1, b) của A, V, p. 97, áp dụng cho mở rộng k của $k^p$, không gian vectơ trên k $\Omega(k)$, trùng với $\Omega_{k^p}(k)$, là hợp lọc tăng của các không gian con $k \otimes_{{k'}^p} \Omega_{k^p}({k'}^p)$, trong đó $k'$ chạy qua tập hợp các mở rộng thuần bất khả phân hữu hạn của k có chiều cao $\leq 1$ được chứa trong một bao đóng đại số cố định của k. Mệnh đề (ii) được suy ra.
 
 #### Nhận xét 2 {#ac-x-s7-n7-rem-2 .statement}
 
@@ -503,10 +503,10 @@ Ta chứng minh a).
 (iii) ⇒ (iv): đặt $m = [\kappa(\mathfrak{p}) \otimes_A M : \kappa(\mathfrak{p})]$ và gọi $(x_1, \ldots, x_m)$ là một dãy các phần tử của M sao cho các phần tử $1 \otimes x_i$ lập thành một cơ sở của không gian vectơ $\kappa(\mathfrak{p})$-không gian vectơ $\kappa(\mathfrak{p}) \otimes_A M$. Các ảnh của $x_i$ trong $M_\mathfrak{p}$ sinh ra $A_\mathfrak{p}$-môđun $M_\mathfrak{p}$ (bổ đề Nakayama). Nếu điều kiện (iii) được thỏa mãn, các phần tử $1 \otimes u(x_i)$ của không gian vectơ $\kappa(\mathfrak{p})$-không gian vectơ $\kappa(\mathfrak{p}) \otimes_A N$ là độc lập tuyến tính.
 
 Hơn nữa, tồn tại một A-môđun N', một tập hợp I, và một đẳng cấu các A-môđun $\theta : N \oplus N' \to A^{(I)}$, từ đó suy ra một đẳng cấu các không gian vectơ $\kappa(p)$-vectơ $$
-\overline{\theta} : (\kappa(p) \otimes_{\Lambda} N) \oplus (\kappa(p) \otimes_A N') \to \kappa(p)^{(I)} .
+\overline{\theta} : (\kappa(p) \otimes_{A} N) \oplus (\kappa(p) \otimes_A N') \to \kappa(p)^{(I)} .
 $$ Các phần tử $t_i = \overline{\theta}(1 \otimes u(x_i), 0)$ của $\kappa(p)^{(I)}$ lập thành một họ tự do hữu hạn. Do đó tồn tại các phần tử $\alpha_1, \ldots, \alpha_m$ của I sao cho ta có $\det(\mathrm{pr}_{\alpha_j}(t_i)) \neq 0$; các dạng tuyến tính $y_j : z \mapsto \mathrm{pr}_{\alpha_j}(\theta(z, 0))$ trên N là thích hợp.
 
-Giả sử điều kiện (iv) được thỏa mãn. Gọi $(a_{ij}) \in M_m(A)$ là ma trận hệ số $a_{ij} = <y_j, u(x_i)>$. Gọi g là một phần tử của $A - p$ sao cho các ảnh của $x_i$ sinh $\Lambda_g$-môđun $M_g$ (II, § 5, No. 1, Mệnh đề 2), và đặt $f = g \det(a_{ij})$. Vì $\det(a_{ij})$ khả nghịch trong $A_f$, các ảnh của các phần tử $u(x_i)$ trong $N_f$ độc lập tuyến tính; do đó các ảnh của $x_i$ trong $M_f$ tạo thành một cơ sở của $A_f$-môđun này. Điều này chứng minh mệnh đề cuối cùng của a). Bây giờ chứng minh (i). Gọi $w \in \mathrm{Hom}_A(N, M)$ là ánh xạ $z \mapsto \sum_j <y_j, z> x_j$. Ta có
+Giả sử điều kiện (iv) được thỏa mãn. Gọi $(a_{ij}) \in M_m(A)$ là ma trận hệ số $a_{ij} = <y_j, u(x_i)>$. Gọi g là một phần tử của $A - p$ sao cho các ảnh của $x_i$ sinh $A_g$-môđun $M_g$ (II, § 5, No. 1, Mệnh đề 2), và đặt $f = g \det(a_{ij})$. Vì $\det(a_{ij})$ khả nghịch trong $A_f$, các ảnh của các phần tử $u(x_i)$ trong $N_f$ độc lập tuyến tính; do đó các ảnh của $x_i$ trong $M_f$ tạo thành một cơ sở của $A_f$-môđun này. Điều này chứng minh mệnh đề cuối cùng của a). Bây giờ chứng minh (i). Gọi $w \in \mathrm{Hom}_A(N, M)$ là ánh xạ $z \mapsto \sum_j <y_j, z> x_j$. Ta có
 $$
 w \circ u(x_i) = \sum_j a_{ij} x_j ;
 $$
@@ -518,13 +518,13 @@ Bây giờ chứng minh b). Việc U là mở suy ra từ điều kiện (i) c�
 
 (iv) $\Rightarrow$ (iii): dưới các giả thiết của (iv), dãy $0 \to M \xrightarrow{u} N \longrightarrow \mathrm{Coker}(u) \to 0$ là khớp và tách, do đó có (iii).
 
-(ii) $\Rightarrow$ (iv): như trên, đưa vào một đẳng cấu các A-môđun $\theta : N \oplus N' \to A^{(I)}$. Gọi $u'$ là ánh xạ từ M vào $A^{(I)}$ được xác định bởi $u'(x) = \theta(u(x), 0)$. Tồn tại một tập con hữu hạn J của I sao cho ảnh của $u'$ được chứa trong môđun con $A^J$ của $A^{(I)}$. Gọi $u'' : M \to \Lambda^J$ là ánh xạ suy ra từ $u'$. Dưới giả thiết (ii), với mọi iđêan cực đại m của A, ánh xạ tuyến tính $A_m$-tuyến tính $u'_m$ từ $M_m$ vào $A_m^{(I)}$ thừa nhận một ánh xạ co rút, và vì vậy điều tương tự cũng đúng với $u''_m$; do đó $u''_m$ là đơn ánh và ảnh của nó là một nhân tử trực tiếp trong $A_m^J$, nên đối hạt nhân của nó là một $A_m$-môđun xạ ảnh. A-môđun $\mathrm{Coker}(u'')$ là hữu hạn trình bày theo phép dựng; vì vậy nó là xạ ảnh (II, § 5, No. 2, Định lý 1). Đồng cấu $u''$ là đơn ánh (II, § 3, No. 3, Định lý 1); do đó, $u$ là đơn ánh. A-môđun $\mathrm{Coker}(u')$ đẳng cấu, một mặt với $\mathrm{Coker}(u) \oplus N'$, mặt khác với $\mathrm{Coker}(u'') \oplus A^{(I-J)}$. Vì các A-môđun $A^{(I-J)}$, $\mathrm{Coker}(u'')$ và $N'$ là xạ ảnh, điều tương tự cũng đúng với $\mathrm{Coker}(u)$, điều này hoàn tất việc chứng minh (iv).
+(ii) $\Rightarrow$ (iv): như trên, đưa vào một đẳng cấu các A-môđun $\theta : N \oplus N' \to A^{(I)}$. Gọi $u'$ là ánh xạ từ M vào $A^{(I)}$ được xác định bởi $u'(x) = \theta(u(x), 0)$. Tồn tại một tập con hữu hạn J của I sao cho ảnh của $u'$ được chứa trong môđun con $A^J$ của $A^{(I)}$. Gọi $u'' : M \to A^J$ là ánh xạ suy ra từ $u'$. Dưới giả thiết (ii), với mọi iđêan cực đại m của A, ánh xạ tuyến tính $A_m$-tuyến tính $u'_m$ từ $M_m$ vào $A_m^{(I)}$ thừa nhận một ánh xạ co rút, và vì vậy điều tương tự cũng đúng với $u''_m$; do đó $u''_m$ là đơn ánh và ảnh của nó là một nhân tử trực tiếp trong $A_m^J$, nên đối hạt nhân của nó là một $A_m$-môđun xạ ảnh. A-môđun $\mathrm{Coker}(u'')$ là hữu hạn trình bày theo phép dựng; vì vậy nó là xạ ảnh (II, § 5, No. 2, Định lý 1). Đồng cấu $u''$ là đơn ánh (II, § 3, No. 3, Định lý 1); do đó, $u$ là đơn ánh. A-môđun $\mathrm{Coker}(u')$ đẳng cấu, một mặt với $\mathrm{Coker}(u) \oplus N'$, mặt khác với $\mathrm{Coker}(u'') \oplus A^{(I-J)}$. Vì các A-môđun $A^{(I-J)}$, $\mathrm{Coker}(u'')$ và $N'$ là xạ ảnh, điều tương tự cũng đúng với $\mathrm{Coker}(u)$, điều này hoàn tất việc chứng minh (iv).
 
 ### 9. Tiêu chuẩn Jacobi
 
-Cho k là một vành, A là một đại số trên K, J là một iđêan của A và $\bar{d} : J/J^2 \to \Lambda/J \otimes_A \Omega_k(A)$ là ánh xạ chính tắc. Với mỗi đại số trên A/J R, người ta ký hiệu bởi
+Cho k là một vành, A là một đại số trên K, J là một iđêan của A và $\bar{d} : J/J^2 \to A/J \otimes_A \Omega_k(A)$ là ánh xạ chính tắc. Với mỗi đại số trên A/J R, người ta ký hiệu bởi
 $$
-\bar{d}_R : R \otimes_{\Lambda/J} J/J^2 \longrightarrow R \otimes_A \Omega_k(A)
+\bar{d}_R : R \otimes_{A/J} J/J^2 \longrightarrow R \otimes_A \Omega_k(A)
 $$
 
 ánh xạ R-tuyến tính cảm sinh bởi $\bar{d}$. Nếu $k$-đại số $A/J$ là trơn hình thức, thì $\bar{d}$ có một phép rút lại A-tuyến tính (No. 2, Nhận xét 1) và $\bar{d}_R$ có một phép rút lại R-tuyến tính đối với mọi R.
@@ -566,7 +566,7 @@ a) Cho $\mathfrak{p}$ là một iđêan nguyên tố của $B$ và cho $q$ là i
 (ii) tồn tại $f \in B - \mathfrak{p}$ sao cho $k$-đại số $B_f$ là trơn hình thức;
 (iii) ánh xạ tuyến tính trên $\kappa(\mathfrak{p})$
 $$
-\bar{d}_{\kappa(\mathfrak{p})} : \kappa(\mathfrak{p}) \otimes_B J/J^2 \to \kappa(\mathfrak{p}) \otimes_A \Omega_k(\Lambda)
+\bar{d}_{\kappa(\mathfrak{p})} : \kappa(\mathfrak{p}) \otimes_B J/J^2 \to \kappa(\mathfrak{p}) \otimes_A \Omega_k(A)
 $$
 là đơn ánh;
 (iv) tồn tại một số nguyên $m \geqslant 0$, các phần tử $f_1, \ldots, f_m$ của $J$, mà các ảnh $(f_1)_q, \ldots, (f_m)_q$ sinh iđêan $J_q$, và các $k$-đạo hàm $D_1, \ldots, D_m$ của $A$ sao cho $\det(D_j(f_i)) \notin q$.

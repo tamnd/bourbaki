@@ -219,7 +219,7 @@ Khi vành $A_0$ là chính quy và $A_0$-môđun $P$ là xạ ảnh sinh hữu h
 
 Cho $A$ là một vành chính quy, phân bậc kiểu $\mathbf{N}$. Vành $A_0$ gồm các phần tử bậc 0 trong $A$ là chính quy; tồn tại một $A_0$-môđun xạ ảnh sinh hữu hạn $P$ được phân bậc theo các bậc $> 0$ sao cho $A$ đẳng cấu, như một $A_0$-đại số phân bậc, với $S_{A_0}(P)$.
 
-Ký hiệu $P$ là $A_0$-môđun phân bậc $A_+/A_+^2$. Theo Mệnh đề 4 của No. 3, vành $A_0$ là chính quy và $A_0$-môđun $P$ là xạ ảnh và sinh hữu hạn. Do đó các thành phần thuần nhất của $P$ là xạ ảnh, và tồn tại một tiết diện $A_0$-tuyến tính $\varphi : P \to A_+$, phân bậc bậc 0, của toàn cấu chính tắc $A_+ \to P$. Gọi $f : S_{A_0}(P) \longrightarrow \Lambda$ là đồng cấu các $A_0$-đại số phân bậc mở rộng $\varphi$. Theo Mệnh đề 4, $f$ mở rộng thành một đẳng cấu từ bổ toàn tách rời của $S_{A_0}(P)$ đối với tôpô $S_{A_0}(P)_+$-adic lên bổ toàn tách rời của $A$ đối với tôpô $A_+$-adic. Do đó, $f$ là đơn ánh và ảnh của nó trù mật trong $A$ đối với tôpô $A_+$-adic. Nhưng vì các tôpô cảm sinh trên các thành phần thuần nhất của $A$ là rời rạc và ảnh của $f$ là một môđun con phân bậc, điều này kéo theo rằng $f$ là song ánh.
+Ký hiệu $P$ là $A_0$-môđun phân bậc $A_+/A_+^2$. Theo Mệnh đề 4 của No. 3, vành $A_0$ là chính quy và $A_0$-môđun $P$ là xạ ảnh và sinh hữu hạn. Do đó các thành phần thuần nhất của $P$ là xạ ảnh, và tồn tại một tiết diện $A_0$-tuyến tính $\varphi : P \to A_+$, phân bậc bậc 0, của toàn cấu chính tắc $A_+ \to P$. Gọi $f : S_{A_0}(P) \longrightarrow A$ là đồng cấu các $A_0$-đại số phân bậc mở rộng $\varphi$. Theo Mệnh đề 4, $f$ mở rộng thành một đẳng cấu từ bổ toàn tách rời của $S_{A_0}(P)$ đối với tôpô $S_{A_0}(P)_+$-adic lên bổ toàn tách rời của $A$ đối với tôpô $A_+$-adic. Do đó, $f$ là đơn ánh và ảnh của nó trù mật trong $A$ đối với tôpô $A_+$-adic. Nhưng vì các tôpô cảm sinh trên các thành phần thuần nhất của $A$ là rời rạc và ảnh của $f$ là một môđun con phân bậc, điều này kéo theo rằng $f$ là song ánh.
 
 #### Hệ quả 1 {#ac-x-s5-thm-2-cor-1 .statement}
 
@@ -241,9 +241,9 @@ Ta chứng minh b).
 #### Hệ quả 2 {#ac-x-s5-thm-2-cor-2 .statement}
 
 *Cho k là một trường, B là một đại số đa thức phân bậc trên k sinh hữu hạn, và A là một đại số con phân bậc của B. Các điều kiện sau là tương đương:
-(i) B là một $\Lambda$-môđun phân bậc tự do;
+(i) B là một $A$-môđun phân bậc tự do;
 (ii) B là một A-môđun phẳng;
-(iii) có $\operatorname{Tor}_1^\Lambda(k, B) = 0$;
+(iii) có $\operatorname{Tor}_1^A(k, B) = 0$;
 (iv) đại số A là một đại số đa thức phân bậc trên k sinh hữu hạn, và mọi dãy sinh tự do đại số của A gồm các phần tử thuần nhất đều là B-chính quy.*
 
 Các hệ quả (i) $\Rightarrow$ (ii) và (ii) $\Rightarrow$ (iii) là hiển nhiên, và hệ quả (iii) $\Rightarrow$ (i) suy ra từ A, X, p. 144, mệnh đề 8, a).
@@ -280,19 +280,19 @@ Cho k là một trường, Λ là một đại số địa phương Noether trê
 (iii) đồng cấu $\hat{u}$ làm cho $\hat{M}$ thành một $k[[T_1, \ldots, T_r]]$-môđun phẳng.
 Tính tương đương của (i) và (ii) suy ra từ tính tương đương của các điều kiện (i) và (iv) của mệnh đề 5; tính tương đương của (ii) và (iii) suy ra từ III, § 5, No. 4, mệnh đề 4.
 
-Các kết quả này cho phép mô tả các môđun macaulay trong hai trường hợp quan trọng. Gọi $\Lambda$ là một vành địa phương Noether, $M$ là một $\Lambda$-môđun sinh hữu hạn. Việc nói rằng $\Lambda$-môđun $M$ là macaulay tương đương với việc nói rằng $\widehat{\Lambda}$-môđun $\hat{M}$ là macaulay (§ 2, No. 7, hệ quả 4 của mệnh đề 8). Từ đây về sau ta sẽ giả sử rằng vành địa phương Noether $\Lambda$ là đầy đủ.
+Các kết quả này cho phép mô tả các môđun macaulay trong hai trường hợp quan trọng. Gọi $A$ là một vành địa phương Noether, $M$ là một $A$-môđun sinh hữu hạn. Việc nói rằng $A$-môđun $M$ là macaulay tương đương với việc nói rằng $\widehat{A}$-môđun $\hat{M}$ là macaulay (§ 2, No. 7, hệ quả 4 của mệnh đề 8). Từ đây về sau ta sẽ giả sử rằng vành địa phương Noether $A$ là đầy đủ.
 
-1) Trước hết giả sử rằng $\Lambda$ chứa một trường con; khi đó nó thừa nhận một trường đại diện $k$ (IX, § 3, No. 3, Định lý 1). Gọi $(x_1, \ldots, x_r)$ là một dãy cát tuyến cực đại của $M$; gọi $u : k[[T_1, \ldots, T_r]] \longrightarrow \Lambda$ là đồng cấu liên tục duy nhất sao cho $u(T_i) = x_i$ với $i = 1, \ldots, r$. Theo Bổ đề 4 b) của IX, § 2, No. 5 và Nhận xét 1 của VIII, § 3, No. 2, $A/\mathrm{Ann}(M)$ là một $k[[T_1, \ldots, T_r]]$-môđun sinh hữu hạn và do đó $M$ là một $k[[T_1, \ldots, T_r]]$-môđun sinh hữu hạn. Khi đó, các điều kiện sau là tương đương:
+1) Trước hết giả sử rằng $A$ chứa một trường con; khi đó nó thừa nhận một trường đại diện $k$ (IX, § 3, No. 3, Định lý 1). Gọi $(x_1, \ldots, x_r)$ là một dãy cát tuyến cực đại của $M$; gọi $u : k[[T_1, \ldots, T_r]] \longrightarrow A$ là đồng cấu liên tục duy nhất sao cho $u(T_i) = x_i$ với $i = 1, \ldots, r$. Theo Bổ đề 4 b) của IX, § 2, No. 5 và Nhận xét 1 của VIII, § 3, No. 2, $A/\mathrm{Ann}(M)$ là một $k[[T_1, \ldots, T_r]]$-môđun sinh hữu hạn và do đó $M$ là một $k[[T_1, \ldots, T_r]]$-môđun sinh hữu hạn. Khi đó, các điều kiện sau là tương đương:
 (i) $k[[T_1, \ldots, T_r]]$-môđun $M$ là tự do;
-(ii) $\Lambda$-môđun $M$ là Macaulay.
+(ii) $A$-môđun $M$ là Macaulay.
 
-Thực vậy, nói rằng $M$ là một $\Lambda$-môđun Macaulay tương đương với nói rằng dãy $(x_1, \ldots, x_r)$ là $M$-chính quy (§ 2, No. 3, Định lý 1). Theo Hệ quả trên, điều kiện sau có nghĩa là $M$ là một $k[[T_1, \ldots, T_r]]$-môđun phẳng, hay cũng vậy, là tự do vì nó sinh hữu hạn.
+Thực vậy, nói rằng $M$ là một $A$-môđun Macaulay tương đương với nói rằng dãy $(x_1, \ldots, x_r)$ là $M$-chính quy (§ 2, No. 3, Định lý 1). Theo Hệ quả trên, điều kiện sau có nghĩa là $M$ là một $k[[T_1, \ldots, T_r]]$-môđun phẳng, hay cũng vậy, là tự do vì nó sinh hữu hạn.
 
-2) Giả sử trường thặng dư $\kappa_\Lambda$ của $\Lambda$ có đặc số $p > 0$ và rằng ta có $\dim(M/pM) < \dim(M)$. Cho $(x_1, \ldots, x_r)$ là một dãy cát tuyến cực đại của $M/pM$, sao cho $(p1_\Lambda, x_1, \ldots, x_r)$ là một dãy cát tuyến cực đại của $M$. Cho $C$ là một $p$-vành có độ dài $+\infty$, với trường thặng dư $\kappa_\Lambda$ (IX, § 2, No. 3, Mệnh đề 5). Tồn tại một đồng cấu $u_0$ từ $C$ vào $\Lambda$ cảm sinh đồng nhất trên các trường thặng dư; cho $u : C[[T_1, \ldots, T_r]] \longrightarrow \Lambda$ là đồng cấu duy nhất mở rộng $u_0$ và gửi $T_i$ tới $x_i$ với mọi $i$. Suy ra như trên từ loc. cit., No. 5, Bổ đề 4 rằng $u$ làm cho $M$ thành một $C[[T_1, \ldots, T_r]]$-môđun sinh hữu hạn. Các điều kiện sau là tương đương:
+2) Giả sử trường thặng dư $\kappa_A$ của $A$ có đặc số $p > 0$ và rằng ta có $\dim(M/pM) < \dim(M)$. Cho $(x_1, \ldots, x_r)$ là một dãy cát tuyến cực đại của $M/pM$, sao cho $(p1_A, x_1, \ldots, x_r)$ là một dãy cát tuyến cực đại của $M$. Cho $C$ là một $p$-vành có độ dài $+\infty$, với trường thặng dư $\kappa_A$ (IX, § 2, No. 3, Mệnh đề 5). Tồn tại một đồng cấu $u_0$ từ $C$ vào $A$ cảm sinh đồng nhất trên các trường thặng dư; cho $u : C[[T_1, \ldots, T_r]] \longrightarrow A$ là đồng cấu duy nhất mở rộng $u_0$ và gửi $T_i$ tới $x_i$ với mọi $i$. Suy ra như trên từ loc. cit., No. 5, Bổ đề 4 rằng $u$ làm cho $M$ thành một $C[[T_1, \ldots, T_r]]$-môđun sinh hữu hạn. Các điều kiện sau là tương đương:
 (i) $M$ là một $C[[T_1, \ldots, T_r]]$-môđun tự do;
-(ii) $M$ là một $\Lambda$-môđun Macaulay.
+(ii) $M$ là một $A$-môđun Macaulay.
 
-Thực vậy điều kiện (ii) tương đương với nói rằng dãy $(x_1, \ldots, x_r)$ là $M$-chính quy và rằng phép vị tự tỉ số $p$ trong $M/(x_1M + \ldots + x_rM)$ là đơn ánh (§ 2, No. 3, Định lý 1). Bây giờ điều kiện sau có nghĩa là $M/(x_1M + \ldots + x_rM)$ là một $C$-môđun không xoắn, do đó phẳng ($\Lambda$, X, p. 9, Ví dụ 7). Vậy, xét đến Mệnh đề 5, $(iv) $\Leftrightarrow$ (i)$, điều kiện (ii) tương đương với việc $M$ là một $C[T_1, \ldots, T_r]$-môđun phẳng, hay cũng vậy (III, § 5, No. 4, Mệnh đề 4), $M$ là một $C[[T_1, \ldots, T_r]]$-môđun phẳng, tức là tự do vì nó sinh hữu hạn.
+Thực vậy điều kiện (ii) tương đương với nói rằng dãy $(x_1, \ldots, x_r)$ là $M$-chính quy và rằng phép vị tự tỉ số $p$ trong $M/(x_1M + \ldots + x_rM)$ là đơn ánh (§ 2, No. 3, Định lý 1). Bây giờ điều kiện sau có nghĩa là $M/(x_1M + \ldots + x_rM)$ là một $C$-môđun không xoắn, do đó phẳng ($A$, X, p. 9, Ví dụ 7). Vậy, xét đến Mệnh đề 5, $(iv) $\Leftrightarrow$ (i)$, điều kiện (ii) tương đương với việc $M$ là một $C[T_1, \ldots, T_r]$-môđun phẳng, hay cũng vậy (III, § 5, No. 4, Mệnh đề 4), $M$ là một $C[[T_1, \ldots, T_r]]$-môđun phẳng, tức là tự do vì nó sinh hữu hạn.
 
 ### 6. Iđêan hoàn toàn cát tuyến và mở rộng các vô hướng
 
@@ -302,7 +302,7 @@ Cho $\rho : A \to B$ là một đồng cấu các vành Noether, và $J$ là m�
 
 (i) $B/J$ là một $A$-môđun phẳng và iđêan $J$ là hoàn toàn cát tuyến;
 
-(ii) với mọi $q \in V(J)$, $B_q$ là một $A$-môđun phẳng và, với mọi $A$-đại số $A'$ sao cho vành $\Lambda' \otimes_A B$ là Noether, iđêan $J(A' \otimes_A B)$ của $A' \otimes_A B$ là hoàn toàn cát tuyến;
+(ii) với mọi $q \in V(J)$, $B_q$ là một $A$-môđun phẳng và, với mọi $A$-đại số $A'$ sao cho vành $A' \otimes_A B$ là Noether, iđêan $J(A' \otimes_A B)$ của $A' \otimes_A B$ là hoàn toàn cát tuyến;
 
 (iii) với mọi iđêan cực đại $n$ của $B$ chứa $J$, A-môđun $B_n$ là phẳng và iđêan $J(\kappa(\rho^{-1}(n)) \otimes_A B_n)$ của $\kappa(\rho^{-1}(n)) \otimes_A B_n$ là hoàn toàn cát tuyến.
 

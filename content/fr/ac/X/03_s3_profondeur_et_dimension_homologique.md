@@ -45,7 +45,7 @@ subsections:
       pdf_page: 50
 statements: 43
 exercises: 16
-content_sha256: dd683aa9a7b96b7c006d2b41bc100df991a0c21e1009e92d2f308842b1b5e10e
+content_sha256: cff1e54e677d660b4335d2d0917a51d15c8183a2d718ef70c8e028164552b105
 ---
 
 ## § 3. PROFONDEUR ET DIMENSION HOMOLOGIQUE
@@ -92,31 +92,31 @@ Rappelons (A, X, p. 138, déf. 2) que la dimension homologique de l’anneau $A$
 
 #### Proposition 2 {#ac-x-s3-prop-2 .statement}
 
-Soient $A$ un anneau, $M$ et $N$ des $A$-modules, $i$ un entier et $S$ une partie multiplicative de $\Lambda$. On a un isomorphisme canonique de $S^{-1}A$-modules
+Soient $A$ un anneau, $M$ et $N$ des $A$-modules, $i$ un entier et $S$ une partie multiplicative de $A$. On a un isomorphisme canonique de $S^{-1}A$-modules
 
 $$
-S^{-1} \mathrm{Tor}_i^\Lambda(M, N) \longrightarrow \mathrm{Tor}_i^{S^{-1}\Lambda}(S^{-1}M, S^{-1}N) .
+S^{-1} \mathrm{Tor}_i^A(M, N) \longrightarrow \mathrm{Tor}_i^{S^{-1}A}(S^{-1}M, S^{-1}N) .
 $$
 
-Si l’anneau $A$ est noethérien et le $A$-module $M$ de type fini, on a un isomorphisme canonique de $S^{-1}\Lambda$-modules
+Si l’anneau $A$ est noethérien et le $A$-module $M$ de type fini, on a un isomorphisme canonique de $S^{-1}A$-modules
 
 $$
-S^{-1} \mathrm{Ext}_\Lambda^i(M, N) \longrightarrow \mathrm{Ext}_{S^{-1}\Lambda}^i(S^{-1}M, S^{-1}N) .
+S^{-1} \mathrm{Ext}_A^i(M, N) \longrightarrow \mathrm{Ext}_{S^{-1}A}^i(S^{-1}M, S^{-1}N) .
 $$
 
 Comme le $A$-module $S^{-1}A$ est plat, cela résulte de A, X, p. 110, prop. 9 et p. 111, prop. 10.
 
 #### Corollaire {#ac-x-s3-n2-cor-1 .statement}
 
-Soient $A$ un anneau, $M$ et $N$ des $\Lambda$-modules, $i$ un entier.
+Soient $A$ un anneau, $M$ et $N$ des $A$-modules, $i$ un entier.
 
-a) Le support de $\mathrm{Tor}_i^\Lambda(M, N)$ est contenu dans $\mathrm{Supp}(M) \cap \mathrm{Supp}(N)$, et il en est de même du support de $\mathrm{Ext}_\Lambda^i(M, N)$ si $A$ est noethérien et $M$ de type fini.
+a) Le support de $\mathrm{Tor}_i^A(M, N)$ est contenu dans $\mathrm{Supp}(M) \cap \mathrm{Supp}(N)$, et il en est de même du support de $\mathrm{Ext}_A^i(M, N)$ si $A$ est noethérien et $M$ de type fini.
 
-b) Supposons $A$ noethérien, les modules $M$ et $N$ de type fini ; si le $\Lambda$-module $M \otimes_A N$ est de longueur finie, il en est de même de $\mathrm{Tor}_i^\Lambda(M, N)$ et de $\mathrm{Ext}_\Lambda^i(M, N)$.
+b) Supposons $A$ noethérien, les modules $M$ et $N$ de type fini ; si le $A$-module $M \otimes_A N$ est de longueur finie, il en est de même de $\mathrm{Tor}_i^A(M, N)$ et de $\mathrm{Ext}_A^i(M, N)$.
 
 Si $p$ est un idéal premier de $A$ n’appartenant pas à $\mathrm{Supp}(M) \cap \mathrm{Supp}(N)$, l’un des modules $M_p$ ou $N_p$ est nul, ce qui implique a) compte tenu de la prop. 2.
 
-Pour qu’un module de type fini sur un anneau noethérien soit de longueur finie, il faut et il suffit que son support soit formé d’idéaux maximaux (IV, § 2, n° 5, prop. 7). Sous l’hypothèse b), les $A$-modules $\mathrm{Tor}_i^\Lambda(M, N)$ et $\mathrm{Ext}_\Lambda^i(M, N)$ sont de type fini (A, X, p. 108, cor.) ; l’assertion b) résulte donc de a).
+Pour qu’un module de type fini sur un anneau noethérien soit de longueur finie, il faut et il suffit que son support soit formé d’idéaux maximaux (IV, § 2, n° 5, prop. 7). Sous l’hypothèse b), les $A$-modules $\mathrm{Tor}_i^A(M, N)$ et $\mathrm{Ext}_A^i(M, N)$ sont de type fini (A, X, p. 108, cor.) ; l’assertion b) résulte donc de a).
 
 #### Proposition 3 {#ac-x-s3-prop-3 .statement}
 
@@ -251,7 +251,7 @@ On a en particulier $\mathrm{dh}(A) = \sup_m \mathrm{dp}_A(A/m)$, où $m$ parcou
 Soient $A$ un anneau noethérien, $N$ un $A$-module, $n$ un entier $\geqslant 0$. Les conditions suivantes sont équivalentes :
 
 (i) on a $\operatorname{di}_A(N) < n$ ;
-(ii) pour tout idéal premier $p$ de $\Lambda$, on a $\operatorname{Ext}_A^n(\Lambda/p, N) = 0$ ;
+(ii) pour tout idéal premier $p$ de $A$, on a $\operatorname{Ext}_A^n(A/p, N) = 0$ ;
 (iii) pour tout idéal premier $p$ de $A$, on a $\operatorname{Ext}_{A_p}^n(\kappa(p), N_p) = 0$.
 
 Si de plus le $A$-module $N$ est de type fini, ces conditions équivalent à :
@@ -336,10 +336,10 @@ $$
 Considérons la suite exacte d’homologie associée à cette suite exacte. D’après A, X, p. 100, th. 1, on a pour tout entier $n \geqslant 0$ des isomorphismes
 
 $$
-H^n(\mathrm{Homgr}_{\Lambda/xA}(R', E')) \longrightarrow \mathrm{Ext}^n_{A/xA}(M/xM, N)
+H^n(\mathrm{Homgr}_{A/xA}(R', E')) \longrightarrow \mathrm{Ext}^n_{A/xA}(M/xM, N)
 $$
 $$
-H^n(\mathrm{Homgr}_{\Lambda/xA}(P/xP, E')) \longrightarrow H^n(\mathrm{Homgr}_A(P, E')) \longrightarrow \mathrm{Ext}^n_A(M, N)
+H^n(\mathrm{Homgr}_{A/xA}(P/xP, E')) \longrightarrow H^n(\mathrm{Homgr}_A(P, E')) \longrightarrow \mathrm{Ext}^n_A(M, N)
 $$
 $$
 H^n(\mathrm{Homgr}_{A/xA}(R, E')) = H^{n-1}(\mathrm{Homgr}_{A/xA}(R(1), E')) \longrightarrow \mathrm{Ext}^{n-1}_{A/xA}(\mathrm{Ker}(x_M), N)
@@ -356,7 +356,7 @@ $$
 
 (4)
 
-De même, soit $p' : P' \to N$ une résolution projective du $(\Lambda/xA)$-module $N$. On déduit de la suite exacte (3) une suite exacte de complexes de $(A/xA)$-modules
+De même, soit $p' : P' \to N$ une résolution projective du $(A/xA)$-module $N$. On déduit de la suite exacte (3) une suite exacte de complexes de $(A/xA)$-modules
 
 $0 \to \mathrm{Homgr}_{A/xA}(P', S) \longrightarrow \mathrm{Homgr}_{A/xA}(P', \mathrm{Ker}(x_E)) \longrightarrow \mathrm{Homgr}_{A/xA}(P', S') \to 0$.
 
@@ -451,9 +451,9 @@ Nous verrons ultérieurement (§ 4, n° 2) que (ii) caractérise les anneaux loc
 
 Conservons les hypothèses du théorème 1.
 
-a) On a $dp_A(M) \leq \operatorname{prof}(\Lambda)$. Pour qu’il y ait égalité, il faut et il suffit que l’idéal maximal $m_A$ soit associé à $M$.
+a) On a $dp_A(M) \leq \operatorname{prof}(A)$. Pour qu’il y ait égalité, il faut et il suffit que l’idéal maximal $m_A$ soit associé à $M$.
 
-b) On a $\operatorname{prof}_A(M) \leq \operatorname{prof}(\Lambda)$. Pour qu’il y ait égalité, il faut et il suffit que $M$ soit libre.
+b) On a $\operatorname{prof}_A(M) \leq \operatorname{prof}(A)$. Pour qu’il y ait égalité, il faut et il suffit que $M$ soit libre.
 
 a) En effet, « $\operatorname{prof}_A(M) = 0$ » équivaut à « $m_A \in \operatorname{Ass}(A)$ » ($§ 1$, n° 1, remarque 2).
 
@@ -465,21 +465,21 @@ En particulier, $dp_A(M)$ est alors supérieur à $\dim(A) - \dim_A(M)$, et il y
 
 #### Corollaire 3 {#ac-x-s3-thm-1-cor-3 .statement}
 
-Soient $A$ un anneau noethérien, $M$ un $A$-module de type fini et de dimension projective finie, $i$ un entier $\geq 0$, $N$ un $A$-module de type fini et $F$ le support du $A$-module $\operatorname{Ext}_A^i(M, N)$ (resp. $\operatorname{Tor}_i^\Lambda(M, N)$). On a alors $\operatorname{prof}_F(\Lambda) \geq i$.
+Soient $A$ un anneau noethérien, $M$ un $A$-module de type fini et de dimension projective finie, $i$ un entier $\geq 0$, $N$ un $A$-module de type fini et $F$ le support du $A$-module $\operatorname{Ext}_A^i(M, N)$ (resp. $\operatorname{Tor}_i^A(M, N)$). On a alors $\operatorname{prof}_F(A) \geq i$.
 
-En effet, soit $p \in F$. On a $\operatorname{Ext}_A^i(M_p, N_p) \neq 0$ (resp. $\operatorname{Tor}_i^\Lambda(M_p, N_p) \neq 0$) d’après la prop. 2 du n° 2, donc $i \leq dp_{A_p}(M_p) \leq dp_A(M) < +\infty$ (n° 2, prop. 3). Le th. 1 entraîne $\operatorname{prof}(A_p) \geq i$. Par suite ($§ 1$, n° 5, prop. 8)
+En effet, soit $p \in F$. On a $\operatorname{Ext}_A^i(M_p, N_p) \neq 0$ (resp. $\operatorname{Tor}_i^A(M_p, N_p) \neq 0$) d’après la prop. 2 du n° 2, donc $i \leq dp_{A_p}(M_p) \leq dp_A(M) < +\infty$ (n° 2, prop. 3). Le th. 1 entraîne $\operatorname{prof}(A_p) \geq i$. Par suite ($§ 1$, n° 5, prop. 8)
 
 $$
-\operatorname{prof}_F(\Lambda) = \inf_{p \in F} \operatorname{prof}(A_p) \geq i .
+\operatorname{prof}_F(A) = \inf_{p \in F} \operatorname{prof}(A_p) \geq i .
 $$
 
-Avec la terminologie du $§ 1$, n° 5, remarque 4, la conclusion du cor. 3 signifie que les modules $\operatorname{Ext}_\Lambda^i(M, N)$ et $\operatorname{Tor}_i^\Lambda(M, N)$ sont de grade $\geq i$. Elle entraîne que la codimension de leur support dans $\operatorname{Spec}(A)$ est $\geq i$ ($§ 1$, n° 7, prop. 12).
+Avec la terminologie du $§ 1$, n° 5, remarque 4, la conclusion du cor. 3 signifie que les modules $\operatorname{Ext}_A^i(M, N)$ et $\operatorname{Tor}_i^A(M, N)$ sont de grade $\geq i$. Elle entraîne que la codimension de leur support dans $\operatorname{Spec}(A)$ est $\geq i$ ($§ 1$, n° 7, prop. 12).
 
 #### Corollaire 4 {#ac-x-s3-thm-1-cor-4 .statement}
 
 Soient $A$ un anneau noethérien de Macaulay et $M$ un $A$-module de type fini et de dimension projective finie.
 
-a) Soit $p \in \operatorname{Spec}(\Lambda)$; notons $\mathscr{C}(p)$ l’ensemble des composantes irréductibles de $\operatorname{Supp}(M)$ contenant $p$. On a
+a) Soit $p \in \operatorname{Spec}(A)$; notons $\mathscr{C}(p)$ l’ensemble des composantes irréductibles de $\operatorname{Supp}(M)$ contenant $p$. On a
 
 $$
 \dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p) = dp_{A_p}(M_p) - \inf_{X \in \mathscr{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
@@ -487,7 +487,7 @@ $$
 
 b) L’application $p \mapsto \dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p)$ de $\operatorname{Spec}(A)$ dans $\overline{\mathbf{Z}}$ est semi-continue supérieurement.
 
-c) L’ensemble des idéaux premiers $p$ de $\Lambda$ tels que le $A_p$-module $M_p$ soit macaulayen est ouvert et dense dans $\operatorname{Spec}(\Lambda)$. Son intersection avec $\operatorname{Supp}(M)$ est dense dans $\operatorname{Supp}(M)$.
+c) L’ensemble des idéaux premiers $p$ de $A$ tels que le $A_p$-module $M_p$ soit macaulayen est ouvert et dense dans $\operatorname{Spec}(A)$. Son intersection avec $\operatorname{Supp}(M)$ est dense dans $\operatorname{Supp}(M)$.
 
 a) On peut supposer $p \in \operatorname{Supp}(M)$. Posons $\varphi(p) = \dim(A_p) - \dim_{A_p}(M_p)$. D’après le cor. 2 ci-dessus, on a
 
@@ -502,7 +502,7 @@ $$
 $$
 
 $$
-\dim_{\Lambda_p}(M_p) = \operatorname{codim}(V(p), \operatorname{Supp}(M)) = \sup_{X \in \mathscr{C}(p)} \operatorname{codim}(V(p), X)
+\dim_{A_p}(M_p) = \operatorname{codim}(V(p), \operatorname{Supp}(M)) = \sup_{X \in \mathscr{C}(p)} \operatorname{codim}(V(p), X)
 $$
 
 et par suite
@@ -617,14 +617,14 @@ Il nous reste à traiter le cas où $\mathrm{di}_A(A)$ est infinie mais où la d
 
 Soit $A$ un anneau local noethérien ; posons $d = \dim(A)$. Soient $x = (x_1, \ldots, x_d)$ une suite sécante maximale d’éléments de $m_A$, et $x$ l’idéal qu’elle engendre. Les conditions suivantes sont équivalentes :
 
-(i) $\Lambda$ est un anneau de Gorenstein ;
-(ii) on a $\operatorname{di}_\Lambda(A) = d$;
-(iii) il existe un entier $i > d$ tel que $\operatorname{Ext}^i_\Lambda(\kappa_A, A) = 0$;
-(iv) on a $\operatorname{Ext}^i_\Lambda(\kappa_A, A) = 0$ pour $i < d$ et le $\kappa_A$-espace vectoriel $\operatorname{Ext}^d_\Lambda(\kappa_A, A)$ est de dimension 1 ;
+(i) $A$ est un anneau de Gorenstein ;
+(ii) on a $\operatorname{di}_A(A) = d$;
+(iii) il existe un entier $i > d$ tel que $\operatorname{Ext}^i_A(\kappa_A, A) = 0$;
+(iv) on a $\operatorname{Ext}^i_A(\kappa_A, A) = 0$ pour $i < d$ et le $\kappa_A$-espace vectoriel $\operatorname{Ext}^d_A(\kappa_A, A)$ est de dimension 1 ;
 (v) l’anneau $A$ est de Macaulay et le $\kappa_A$-espace vectoriel $\operatorname{Hom}_A(\kappa_A, A/x)$ est de dimension 1 ;
 (vi) la suite $x$ est $A$-régulière et le $\kappa_A$-espace vectoriel $\operatorname{Hom}_A(\kappa_A, A/x)$ est de dimension 1.
 
-L’équivalence de (i), (ii) et (iii) résulte du lemme 2 et de la prop. 10. Si $\operatorname{Ext}^i_\Lambda(\kappa_A, A)$ est nul pour tout entier $i < d$, l’anneau $A$ est de Macaulay (§ 2, n° 3, prop. 3) ; si l’anneau $A$ est de Macaulay, la suite $x$ est $A$-régulière (*loc. cit.*, th. 1) ; si la suite $x$ est $A$-régulière, on a $\operatorname{Ext}^i_\Lambda(\kappa_A, A) = 0$ pour $i < d$ et les $\kappa_A$-espaces vectoriels $\operatorname{Ext}^d_\Lambda(\kappa_A, A)$ et $\operatorname{Hom}_A(\kappa_A, A/x)$ sont isomorphes (A, X, p. 166, prop. 9). Cela prouve l’équivalence des conditions (iv), (v) et (vi).
+L’équivalence de (i), (ii) et (iii) résulte du lemme 2 et de la prop. 10. Si $\operatorname{Ext}^i_A(\kappa_A, A)$ est nul pour tout entier $i < d$, l’anneau $A$ est de Macaulay (§ 2, n° 3, prop. 3) ; si l’anneau $A$ est de Macaulay, la suite $x$ est $A$-régulière (*loc. cit.*, th. 1) ; si la suite $x$ est $A$-régulière, on a $\operatorname{Ext}^i_A(\kappa_A, A) = 0$ pour $i < d$ et les $\kappa_A$-espaces vectoriels $\operatorname{Ext}^d_A(\kappa_A, A)$ et $\operatorname{Hom}_A(\kappa_A, A/x)$ sont isomorphes (A, X, p. 166, prop. 9). Cela prouve l’équivalence des conditions (iv), (v) et (vi).
 
 Prouvons que (i) implique (v) : si $A$ est un anneau de Gorenstein, c’est un anneau de Macaulay (prop. 10). La suite $x$ est alors $A$-régulière (§ 2, n° 3, prop. 4), donc $A/x$ est un anneau artinien de Gorenstein (exemple 2), de sorte que le $\kappa_A$-espace vectoriel $\operatorname{Hom}_A(\kappa_A, A/x)$ est de dimension 1.
 
@@ -632,9 +632,9 @@ Prouvons enfin que (vi) implique (i) : sous l’hypothèse (vi), l’anneau $A/x
 
 #### Corollaire {#ac-x-s3-n7-cor-1 .statement}
 
-*Soit $\Lambda$ un anneau local noethérien de dimension d. Le $\Lambda$-module $\operatorname{Ext}^d_\Lambda(\kappa_A, A)$ n’est pas nul.*
+*Soit $A$ un anneau local noethérien de dimension d. Le $A$-module $\operatorname{Ext}^d_A(\kappa_A, A)$ n’est pas nul.*
 
-Cela résulte du th. 2 si $\Lambda$ est un anneau de Gorenstein et du lemme 2 sinon.
+Cela résulte du th. 2 si $A$ est un anneau de Gorenstein et du lemme 2 sinon.
 
 #### Proposition 11 {#ac-x-s3-prop-11 .statement}
 
@@ -688,7 +688,7 @@ Soit $q$ un idéal premier de $B$; posons $p = \rho^{-1}(q)$. L’anneau $B_q$, 
 
 (iii) $\Rightarrow$ (i) : pour tout idéal maximal $n$ de $B$, il résulte du début de la démonstration (appliqué avec $q = n$) que $B_n$ est un anneau de Gorenstein, d’où (i).
 
-Si $B$ est un $A$-module fidèlement plat, l’application $^a\rho : \mathrm{Spec}(B) \longrightarrow \mathrm{Spec}(\Lambda)$ est surjective (II, § 2, n° 5, cor. 4 de la prop. 11), d’où la dernière assertion.
+Si $B$ est un $A$-module fidèlement plat, l’application $^a\rho : \mathrm{Spec}(B) \longrightarrow \mathrm{Spec}(A)$ est surjective (II, § 2, n° 5, cor. 4 de la prop. 11), d’où la dernière assertion.
 
 #### Corollaire 2 {#ac-x-s3-prop-12-cor-2 .statement}
 

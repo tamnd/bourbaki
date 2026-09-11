@@ -53,7 +53,7 @@ subsections:
       pdf_page: 101
 statements: 39
 exercises: 15
-content_sha256: d68b9c7325c87d31bf9721e3dce35c4be0ff95e79d61fe0491564111f5babb1e
+content_sha256: 88cf6f006be004d17dda9558ae61456b20a200ae1ce82643f605aed7f8e8fa28
 ---
 
 ## § 7. ALGÈBRES LISSES
@@ -90,7 +90,7 @@ Soit $\Omega_k(A)$ le module des $k$-différentielles de l’anneau $A$, et soit
 Soit J un idéal de A. D’après A, III, p. 137, on a une suite exacte d’applications A/J-linéaires
 
 $$
-J/J^2 \xrightarrow{\bar{d}} (\Lambda/J) \otimes_A \Omega_k(\Lambda) \longrightarrow \Omega_k(A/J) \to 0,
+J/J^2 \xrightarrow{\bar{d}} (A/J) \otimes_A \Omega_k(A) \longrightarrow \Omega_k(A/J) \to 0,
 $$
 
 où $\bar{d}$ est l’homomorphisme déduit par passage aux quotients de la restriction de $d$ à J.
@@ -99,7 +99,7 @@ Notons $\rho : A \to A/J^2$ et $\pi : A/J^2 \to A/J$ les surjections canoniques.
 
 #### Proposition 2 {#ac-x-s7-prop-2 .statement}
 
-Munissons le $k$-module $\Lambda/J \oplus J/J^2$ de la structure de $k$-algèbre définie dans l’exemple ci-dessus. Les applications $v \mapsto h_v$ et $h \mapsto \psi_h$ induisent des bijections entre les ensembles suivants :
+Munissons le $k$-module $A/J \oplus J/J^2$ de la structure de $k$-algèbre définie dans l’exemple ci-dessus. Les applications $v \mapsto h_v$ et $h \mapsto \psi_h$ induisent des bijections entre les ensembles suivants :
 
 (i) l’ensemble des rétractions $A/J$-linéaires $v$ de $\bar{d}$ ;
 (ii) l’ensemble des homomorphismes de $k$-algèbres $h : A/J \to A/J^2$ tels que $\pi \circ h = \mathrm{Id}_{A/J}$ ;
@@ -165,13 +165,13 @@ b) Il suffit de prouver que le produit de deux $k$-algèbres formellement lisses
 
 c) Notons $i : A \to \widehat{A}$ l’homomorphisme canonique. Pour tout anneau D, muni de la topologie discrète, l’application qui associe à un homomorphisme continu $f : \widehat{A} \to D$ l’homomorphisme continu $f \circ i : A \to D$ est bijective. L’assertion c) en résulte.
 
-L’assertion c) de la proposition s’applique en particulier lorsque la topologie de $\Lambda$ est la topologie J-adique, où J est un idéal de type fini ; l’adhérence $\widehat{J}$ de J dans $\widehat{A}$ est alors égale à $JA$ et la topologie de $\widehat{A}$ est la topologie $\widehat{J}$-adique (III, § 2, n° 12, cor. 2 de la prop. 16). Par conséquent, il est équivalent de dire que A est formellement lisse pour la topologie J-adique ou que son séparé complété $\widehat{A}$ est formellement lisse pour la topologie J-adique.
+L’assertion c) de la proposition s’applique en particulier lorsque la topologie de $A$ est la topologie J-adique, où J est un idéal de type fini ; l’adhérence $\widehat{J}$ de J dans $\widehat{A}$ est alors égale à $JA$ et la topologie de $\widehat{A}$ est la topologie $\widehat{J}$-adique (III, § 2, n° 12, cor. 2 de la prop. 16). Par conséquent, il est équivalent de dire que A est formellement lisse pour la topologie J-adique ou que son séparé complété $\widehat{A}$ est formellement lisse pour la topologie J-adique.
 
 #### Proposition 4 {#ac-x-s7-prop-4 .statement}
 
 Soient k un anneau, A et B des $k$-algèbres, J un idéal de A, K un idéal de B.
 
-a) Soient S une partie multiplicative de A et T une partie de k dont l’image dans A est contenue dans S. Si A est formellement lisse sur k pour la topologie J-adique, S $^1\Lambda$ est formellement lisse sur $T^{-1}k$ pour la topologie $S^{-1}J$-adique.
+a) Soient S une partie multiplicative de A et T une partie de k dont l’image dans A est contenue dans S. Si A est formellement lisse sur k pour la topologie J-adique, S $^1A$ est formellement lisse sur $T^{-1}k$ pour la topologie $S^{-1}J$-adique.
 
 b) Soit $k'$ une $k$-algèbre. Si $A$ est formellement lisse sur $k$ pour la topologie $J$-adique, la $k'$-algèbre $A_{(k')}$ est formellement lisse sur $k'$ pour la topologie $JA_{(k')}$-adique.
 
@@ -237,7 +237,7 @@ Soient $k$ un anneau, $C$ une $k$-algèbre, $(C_n)_{n \in \mathbf{Z}}$ une filtr
 
 #### Proposition 5 {#ac-x-s7-prop-5 .statement}
 
-Soit $A$ une $k$-algèbre linéairement topologisée formellement lisse. Tout homomorphisme continu de $k$-algèbres $\varphi : \Lambda \to C/C_m$ admet un relèvement continu à $C$.
+Soit $A$ une $k$-algèbre linéairement topologisée formellement lisse. Tout homomorphisme continu de $k$-algèbres $\varphi : A \to C/C_m$ admet un relèvement continu à $C$.
 
 Pour tout entier $n > m$, notons $\pi_n : C/C_n \to C/C_{n-1}$ la surjection canonique. Puisque $C$ s’identifie à la limite projective des $C/C_n$, il revient au même de se donner un relèvement continu de $\varphi$ à $C$ ou une famille $(\varphi_n)_{n > m}$ d’homomorphismes continus de $k$-algèbres $\varphi_n : A \to C/C_n$, satisfaisant à $\pi_n \circ \varphi_n = \varphi_{n-1}$. Cela nous ramène, par récurrence sur $m$, à prouver l’énoncé lorsque $C_{m+1} = 0$. L’idéal $C_m$ est alors de carré nul (car $2m \geq m+1$), d’où la proposition puisque $A$ est formellement lisse.
 
@@ -252,7 +252,7 @@ Soient $C$ une $k$-algèbre et $N$ un idéal nilpotent de $C$. La proposition s�
 Soient k un anneau, A une k-algèbre et J un idéal de A tel que la k-algèbre A/J soit formellement lisse. Munissons A de la topologie J-adique. Les conditions suivantes sont équivalentes :
 
 (i) la k-algèbre topologique A est formellement lisse ;
-(ii) le $\Lambda/J$-module $J/J^2$ est projectif et l’homomorphisme canonique ($\S$ 5, n° 2)
+(ii) le $A/J$-module $J/J^2$ est projectif et l’homomorphisme canonique ($\S$ 5, n° 2)
 $$
 \beta : S_{A/J}(J/J^2) \to \mathrm{gr}_J(A)
 $$
@@ -310,37 +310,37 @@ Les $k$-algèbres $A$ et $A \otimes_k A$ sont formellement lisses (n° 2, prop. 
 
 ### 6. Extension du corps de base dans les algèbres régulières (caractéristique non nulle)
 
-Soient $k$ un anneau et $\rho : A \to B$ un homomorphisme de $k$-algèbres. On déduit de $\rho$ une application $A$-linéaire $\Omega(\rho) : \Omega_k(A) \to \Omega_k(B)$, et par suite une application $B$-linéaire $\Omega_0(\rho) : B \otimes_A \Omega_k(A) \to \Omega_k(B)$ (A, III, p. 135). Soient $T = (T_i)_{i \in I}$ une famille d’indéterminées, et $t = (t_i)_{i \in I}$ une famille d’éléments de $B$; pour tout polynôme $f = \sum_{\alpha \in \mathbf{N}^{(I)}} c_\alpha T^\alpha$ de $A[T]$, notons $d^\Lambda f(t)$ l’élément $\sum_\alpha t^\alpha \otimes dc_\alpha$ de $B \otimes_A \Omega_k(A)$.
+Soient $k$ un anneau et $\rho : A \to B$ un homomorphisme de $k$-algèbres. On déduit de $\rho$ une application $A$-linéaire $\Omega(\rho) : \Omega_k(A) \to \Omega_k(B)$, et par suite une application $B$-linéaire $\Omega_0(\rho) : B \otimes_A \Omega_k(A) \to \Omega_k(B)$ (A, III, p. 135). Soient $T = (T_i)_{i \in I}$ une famille d’indéterminées, et $t = (t_i)_{i \in I}$ une famille d’éléments de $B$; pour tout polynôme $f = \sum_{\alpha \in \mathbf{N}^{(I)}} c_\alpha T^\alpha$ de $A[T]$, notons $d^A f(t)$ l’élément $\sum_\alpha t^\alpha \otimes dc_\alpha$ de $B \otimes_A \Omega_k(A)$.
 
 #### Lemme 1 {#ac-x-s7-lem-1 .statement}
 
-Supposons que la $A$-algèbre $B$ admette une famille génératrice $t = (t_i)_{i \in I}$, liée par des relateurs $f_\lambda \in A[T]$ ($\lambda \in \Lambda$). L’homomorphisme $B$-linéaire
+Supposons que la $A$-algèbre $B$ admette une famille génératrice $t = (t_i)_{i \in I}$, liée par des relateurs $f_\lambda \in A[T]$ ($\lambda \in A$). L’homomorphisme $B$-linéaire
 $$
 \psi : (B \otimes_A \Omega_k(A)) \oplus B^{(I)} \longrightarrow \Omega_k(B)
 $$
-défini par $\psi(\alpha, (b_i)) = \Omega_0(\rho)(\alpha) + \sum_{i \in I} b_i dt_i$, est surjectif; son noyau est engendré par les éléments $r_\lambda = \left( d^\Lambda f_\lambda(t), \left( \frac{\partial f_\lambda}{\partial T_i}(t) \right)_{i \in I} \right)$ pour $\lambda \in \Lambda$.
+défini par $\psi(\alpha, (b_i)) = \Omega_0(\rho)(\alpha) + \sum_{i \in I} b_i dt_i$, est surjectif; son noyau est engendré par les éléments $r_\lambda = \left( d^A f_\lambda(t), \left( \frac{\partial f_\lambda}{\partial T_i}(t) \right)_{i \in I} \right)$ pour $\lambda \in A$.
 
 Considérons la suite de B-modules et d’applications B-linéaires
 
 $$
-B^{(\Lambda)} \xrightarrow{\varphi} (B \otimes_{\Lambda} \Omega_k(A)) \oplus B^{(1)} \xrightarrow{\psi} \Omega_k(B) \longrightarrow 0,
+B^{(A)} \xrightarrow{\varphi} (B \otimes_{A} \Omega_k(A)) \oplus B^{(1)} \xrightarrow{\psi} \Omega_k(B) \longrightarrow 0,
 $$
 
 où $\varphi$ est l’homomorphisme tel que $\varphi(e_\lambda) = n_\lambda$; il s’agit de démontrer que cette suite est exacte. D’après A, II, p. 36, th. 1, il suffit de prouver que, pour tout B-module M, la suite
 
 $$
-0 \to \mathrm{Hom}_B(\Omega_k(B), M) \xrightarrow{\mathrm{Hom}(\psi, 1)} \mathrm{Hom}_B((B \otimes_A \Omega_k(A)) \oplus B^{(1)}, M) \xrightarrow{\mathrm{Hom}(\varphi, 1)} \mathrm{Hom}_B(B^{(\Lambda)}, M)
+0 \to \mathrm{Hom}_B(\Omega_k(B), M) \xrightarrow{\mathrm{Hom}(\psi, 1)} \mathrm{Hom}_B((B \otimes_A \Omega_k(A)) \oplus B^{(1)}, M) \xrightarrow{\mathrm{Hom}(\varphi, 1)} \mathrm{Hom}_B(B^{(A)}, M)
 $$
 
 est exacte. Compte tenu de la propriété universelle du module des différentielles (A, III, p. 134), cette suite s’identifie à
 
 $$
-0 \to D_k(B, M) \xrightarrow{\psi'} D_k(A, M) \oplus M^1 \xrightarrow{\varphi'} M^\Lambda
+0 \to D_k(B, M) \xrightarrow{\psi'} D_k(A, M) \oplus M^1 \xrightarrow{\varphi'} M^A
 $$
 
-où $\psi'(D) = (D \circ \rho, (D(t_i)))$ et $\varphi'(\Delta, (m_i)) = (f^\Delta_\lambda(t) + \sum_i \frac{\partial f_\lambda}{\partial T_i}(t) m_i)_{\lambda \in \Lambda}$ (conformément à A, V, p. 121, pour tout polynôme $f = \sum_{\alpha \in \mathbf{N}^{(1)}} c_\alpha T^\alpha$ de $A[T]$, on note $f^\Delta(t)$ l’élément $\sum_\alpha t^\alpha \Delta(c_\alpha)$). Or l’exactitude de cette suite résulte de loc. cit., prop. 1, compte tenu de ce qu’une dérivation $D : B \to M$ est $k$-linéaire si et seulement s’il en est ainsi de $D \circ \rho$.
+où $\psi'(D) = (D \circ \rho, (D(t_i)))$ et $\varphi'(\Delta, (m_i)) = (f^\Delta_\lambda(t) + \sum_i \frac{\partial f_\lambda}{\partial T_i}(t) m_i)_{\lambda \in A}$ (conformément à A, V, p. 121, pour tout polynôme $f = \sum_{\alpha \in \mathbf{N}^{(1)}} c_\alpha T^\alpha$ de $A[T]$, on note $f^\Delta(t)$ l’élément $\sum_\alpha t^\alpha \Delta(c_\alpha)$). Or l’exactitude de cette suite résulte de loc. cit., prop. 1, compte tenu de ce qu’une dérivation $D : B \to M$ est $k$-linéaire si et seulement s’il en est ainsi de $D \circ \rho$.
 
-Soit A un anneau. Il existe une unique structure de $\mathbf{Z}$-algèbre sur A ; on note simplement $\Omega(\Lambda)$ le A-module $\Omega_{\mathbf{Z}}(A)$. Si $\rho : k \to A$ est un homomorphisme d’anneaux, on a une suite exacte canonique de A-modules (A, III, p. 136, prop. 21)
+Soit A un anneau. Il existe une unique structure de $\mathbf{Z}$-algèbre sur A ; on note simplement $\Omega(A)$ le A-module $\Omega_{\mathbf{Z}}(A)$. Si $\rho : k \to A$ est un homomorphisme d’anneaux, on a une suite exacte canonique de A-modules (A, III, p. 136, prop. 21)
 
 $$
 A \otimes_k \Omega(k) \to \Omega(A) \to \Omega_k(A) \to 0.
@@ -422,17 +422,17 @@ $$
 \omega_r : A/m^r \otimes_k \Omega_{k_0}(k) \longrightarrow A/m^r \otimes_A \Omega_{k_0}(A)
 $$
 
-déduite de l’application canonique $k \to A$. Soit $(\lambda_i)_{i \in I}$ une famille d’éléments de $k$ tels que les $d_k(\lambda_i)$ forment une base du $k$-espace vectoriel $\Omega_{k_0}(k)$ ; d’après (ii), les éléments $1 \otimes d_A(\lambda_i 1_A)$ sont linéairement indépendants dans $A/\mathfrak{m} \otimes_{\Lambda} \Omega_{k_0}(A)$. D’après II, § 3, n° 2, cor. 1 et 2 de la prop. 5, les $1 \otimes d_A(\lambda_i 1_A)$ forment une base d’un facteur direct du $A/\mathfrak{m}^r$-module $A/\mathfrak{m}^r \otimes_{\Lambda} \Omega_{k_0}(A)$. Il existe donc une application $A/\mathfrak{m}^r$-linéaire
+déduite de l’application canonique $k \to A$. Soit $(\lambda_i)_{i \in I}$ une famille d’éléments de $k$ tels que les $d_k(\lambda_i)$ forment une base du $k$-espace vectoriel $\Omega_{k_0}(k)$ ; d’après (ii), les éléments $1 \otimes d_A(\lambda_i 1_A)$ sont linéairement indépendants dans $A/\mathfrak{m} \otimes_{A} \Omega_{k_0}(A)$. D’après II, § 3, n° 2, cor. 1 et 2 de la prop. 5, les $1 \otimes d_A(\lambda_i 1_A)$ forment une base d’un facteur direct du $A/\mathfrak{m}^r$-module $A/\mathfrak{m}^r \otimes_{A} \Omega_{k_0}(A)$. Il existe donc une application $A/\mathfrak{m}^r$-linéaire
 $$
-u_r : A/\mathfrak{m}^r \otimes_{\Lambda} \Omega_{k_0}(A) \longrightarrow A/\mathfrak{m}^r \otimes_k \Omega_{k_0}(k)
+u_r : A/\mathfrak{m}^r \otimes_{A} \Omega_{k_0}(A) \longrightarrow A/\mathfrak{m}^r \otimes_k \Omega_{k_0}(k)
 $$
 telle que $u_r(1 \otimes d_A(\lambda_i 1_A)) = 1 \otimes d_k(\lambda_i)$ pour tout $i$, donc $u_r \circ \omega_r = \mathrm{Id}$.
 
-Vérifions maintenant que $A$ est formellement lisse sur $k$ pour la topologie $\mathfrak{m}$-adique. Soient $C$ une $k$-algèbre, $N$ un idéal de carré nul de $C$, et $\pi : C \to C/N$ la surjection canonique ; munissons $C$ et $C/N$ de la topologie discrète. Soit $\varphi : A \to C/N$ un homomorphisme continu de $k$-algèbres. Puisque $A$ est formellement lisse sur $k_0$ pour la topologie $\mathfrak{m}$-adique, il existe un homomorphisme continu de $k_0$-algèbres $\tilde{\varphi}_0 : A \to C$ tel que $\pi \circ \tilde{\varphi}_0 = \varphi$. D’après la prop. 1 du n° 1, les homomorphismes de $k_0$-algèbres $\tilde{\varphi} : A \to C$ tels que $\pi \circ \tilde{\varphi} = \varphi$ sont les applications $x \mapsto v(d_A(x)) + \tilde{\varphi}_0(x)$, où $v$ parcourt $\mathrm{Hom}_{\Lambda}(\Omega_{k_0}(A), N)$. Il s’agit de choisir $v$ de façon que $\tilde{\varphi}$ soit un homomorphisme de $k$-algèbres. L’application $\lambda \mapsto \lambda 1_C - \tilde{\varphi}_0(\lambda 1_A)$ est une $k_0$-dérivation de $k$ dans $N$ (*loc. cit.*), donc peut s’écrire $h \circ d_k$ avec $h \in \mathrm{Hom}_k(\Omega_{k_0}(k), N)$.
+Vérifions maintenant que $A$ est formellement lisse sur $k$ pour la topologie $\mathfrak{m}$-adique. Soient $C$ une $k$-algèbre, $N$ un idéal de carré nul de $C$, et $\pi : C \to C/N$ la surjection canonique ; munissons $C$ et $C/N$ de la topologie discrète. Soit $\varphi : A \to C/N$ un homomorphisme continu de $k$-algèbres. Puisque $A$ est formellement lisse sur $k_0$ pour la topologie $\mathfrak{m}$-adique, il existe un homomorphisme continu de $k_0$-algèbres $\tilde{\varphi}_0 : A \to C$ tel que $\pi \circ \tilde{\varphi}_0 = \varphi$. D’après la prop. 1 du n° 1, les homomorphismes de $k_0$-algèbres $\tilde{\varphi} : A \to C$ tels que $\pi \circ \tilde{\varphi} = \varphi$ sont les applications $x \mapsto v(d_A(x)) + \tilde{\varphi}_0(x)$, où $v$ parcourt $\mathrm{Hom}_{A}(\Omega_{k_0}(A), N)$. Il s’agit de choisir $v$ de façon que $\tilde{\varphi}$ soit un homomorphisme de $k$-algèbres. L’application $\lambda \mapsto \lambda 1_C - \tilde{\varphi}_0(\lambda 1_A)$ est une $k_0$-dérivation de $k$ dans $N$ (*loc. cit.*), donc peut s’écrire $h \circ d_k$ avec $h \in \mathrm{Hom}_k(\Omega_{k_0}(k), N)$.
 
 Choisissons un entier $r$ tel que le noyau de $\varphi$ contienne $\mathfrak{m}^r$. Le $A$-module $N$ est annulé par $\mathfrak{m}^r$ et il suffit de prendre pour $v$ le composé de la suite d’homomorphismes
 $$
-\Omega_{k_0}(A) \longrightarrow A/\mathfrak{m}^r \otimes_{\Lambda} \Omega_{k_0}(A) \xrightarrow{u_r} A/\mathfrak{m}^r \otimes_k \Omega_{k_0}(k) \xrightarrow{h'} N ,
+\Omega_{k_0}(A) \longrightarrow A/\mathfrak{m}^r \otimes_{A} \Omega_{k_0}(A) \xrightarrow{u_r} A/\mathfrak{m}^r \otimes_k \Omega_{k_0}(k) \xrightarrow{h'} N ,
 $$
 où $h'$ est déduit de $h$. En effet, on a pour $\lambda \in k$ :
 $$
@@ -450,7 +450,7 @@ Lorsque $A$ est noethérien, la condition (i) signifie que l’anneau local $A_{
 (i) *A est formellement lisse sur $k$ pour la topologie $\mathfrak{m}_A$-adique* ;
 (ii) *A est régulière et l’application $\kappa_A$-linéaire*
 $$
-\omega : \kappa_A \otimes_k \Omega(k) \longrightarrow \kappa_A \otimes_{\Lambda} \Omega(A)
+\omega : \kappa_A \otimes_k \Omega(k) \longrightarrow \kappa_A \otimes_{A} \Omega(A)
 $$
 *déduite de l’injection canonique $k \to A$ est injective* ;
 (iii) *A est absolument régulière* ;
@@ -459,7 +459,7 @@ $$
 (ii) $\Leftrightarrow$ (i) : il suffit d’appliquer la prop. 7 et la remarque 1 ci-dessus, en prenant pour $k_0$ le sous-corps premier de $k$; en effet, $k$ et $\kappa_A$ sont formellement lisses sur $k_0$ (n° 3, th. 1).
 (i) $\Rightarrow$ (iii) : cela résulte du cor. 2 du th. 2 (n° 5).
 
-Si k est de caractéristique 0, il résulte du cor. 1 du th. 2 (n° 5) que (iv) implique (i), d’où la proposition dans ce cas. Supposons k de caractéristique $p \neq 0$ et prouvons (iv) ⇒ (ii). Soit $k'$ une extension radicielle de k, de degré fini et de hauteur $\leq 1$. Si A et $A_{(k')}$ sont réguliers, l’application canonique $\kappa_A \otimes_{k'} \Omega_{k^p}({k'}^p) \longrightarrow \kappa_A \otimes_A \Omega(\Lambda)$ est injective (n° 6, prop. 6). D’après le th. 1, b) de A, V, p. 97, appliqué à l’extension k de $k^p$, le k-espace vectoriel $\Omega(k)$, qui coïncide avec $\Omega_{k^p}(k)$, est réunion filtrante croissante des sous-espaces $k \otimes_{{k'}^p} \Omega_{k^p}({k'}^p)$ où $k'$ décrit l’ensemble des extensions finies radicielles de k de hauteur $\leq 1$ contenues dans une clôture algébrique fixée de k. L’assertion (ii) en résulte.
+Si k est de caractéristique 0, il résulte du cor. 1 du th. 2 (n° 5) que (iv) implique (i), d’où la proposition dans ce cas. Supposons k de caractéristique $p \neq 0$ et prouvons (iv) ⇒ (ii). Soit $k'$ une extension radicielle de k, de degré fini et de hauteur $\leq 1$. Si A et $A_{(k')}$ sont réguliers, l’application canonique $\kappa_A \otimes_{k'} \Omega_{k^p}({k'}^p) \longrightarrow \kappa_A \otimes_A \Omega(A)$ est injective (n° 6, prop. 6). D’après le th. 1, b) de A, V, p. 97, appliqué à l’extension k de $k^p$, le k-espace vectoriel $\Omega(k)$, qui coïncide avec $\Omega_{k^p}(k)$, est réunion filtrante croissante des sous-espaces $k \otimes_{{k'}^p} \Omega_{k^p}({k'}^p)$ où $k'$ décrit l’ensemble des extensions finies radicielles de k de hauteur $\leq 1$ contenues dans une clôture algébrique fixée de k. L’assertion (ii) en résulte.
 
 #### Remarque 2 {#ac-x-s7-n7-rem-2 .statement}
 
@@ -495,11 +495,11 @@ Démontrons a).
 
 Il existe par ailleurs un A-module N', un ensemble I et un isomorphisme de A-modules $\theta : N \oplus N' \to A^{(I)}$, dont on déduit un isomorphisme de $\kappa(p)$-espaces vectoriels
 $$
-\overline{\theta} : (\kappa(p) \otimes_{\Lambda} N) \oplus (\kappa(p) \otimes_A N') \to \kappa(p)^{(I)} .
+\overline{\theta} : (\kappa(p) \otimes_{A} N) \oplus (\kappa(p) \otimes_A N') \to \kappa(p)^{(I)} .
 $$
 Les éléments $t_i = \overline{\theta}(1 \otimes u(x_i), 0)$ de $\kappa(p)^{(I)}$ forment une famille libre finie. Il existe donc des éléments $\alpha_1, \ldots, \alpha_m$ de I tels que l’on ait $\det(\mathrm{pr}_{\alpha_j}(t_i)) \neq 0$; les formes linéaires $y_j : z \mapsto \mathrm{pr}_{\alpha_j}(\theta(z, 0))$ sur N conviennent.
 
-Supposons la condition (iv) satisfaite. Notons $(a_{ij}) \in M_m(A)$ la matrice de coefficients $a_{ij} = <y_j, u(x_i)>$. Soit g un élément de $A - p$ tel que les images des $x_i$ engendrent le $\Lambda_g$-module $M_g$ (II, § 5, n° 1, prop. 2), et soit $f = g \det(a_{ij})$. Comme $\det(a_{ij})$ est inversible dans $A_f$, les images des éléments $u(x_i)$ dans $N_f$ sont linéairement indépendantes ; par suite les images des $x_i$ dans $M_f$ forment une base de ce $A_f$-module. Cela prouve la dernière assertion de a). Démontrons maintenant (i). Notons $w \in \mathrm{Hom}_A(N, M)$ l’application $z \mapsto \sum_j <y_j, z> x_j$. On a
+Supposons la condition (iv) satisfaite. Notons $(a_{ij}) \in M_m(A)$ la matrice de coefficients $a_{ij} = <y_j, u(x_i)>$. Soit g un élément de $A - p$ tel que les images des $x_i$ engendrent le $A_g$-module $M_g$ (II, § 5, n° 1, prop. 2), et soit $f = g \det(a_{ij})$. Comme $\det(a_{ij})$ est inversible dans $A_f$, les images des éléments $u(x_i)$ dans $N_f$ sont linéairement indépendantes ; par suite les images des $x_i$ dans $M_f$ forment une base de ce $A_f$-module. Cela prouve la dernière assertion de a). Démontrons maintenant (i). Notons $w \in \mathrm{Hom}_A(N, M)$ l’application $z \mapsto \sum_j <y_j, z> x_j$. On a
 $$
 w \circ u(x_i) = \sum_j a_{ij} x_j ;
 $$
@@ -511,13 +511,13 @@ Démontrons b). Le fait que U soit ouvert résulte de la condition (i) de a).
 
 (iv) $\Rightarrow$ (iii) : sous les hypothèses de (iv), la suite $0 \to M \xrightarrow{u} N \longrightarrow \mathrm{Coker}(u) \to 0$ est exacte et scindée, d’où (iii).
 
-(ii) $\Rightarrow$ (iv) : introduisons comme ci-dessus un isomorphisme de A-modules $\theta : N \oplus N' \to A^{(I)}$. Notons $u'$ l’application de M dans $A^{(I)}$ définie par $u'(x) = \theta(u(x), 0)$. Il existe une partie finie J de I telle que l’image de $u'$ soit contenue dans le sous-module $A^J$ de $A^{(I)}$. Notons $u'' : M \to \Lambda^J$ l’application déduite de $u'$. Sous l’hypothèse (ii), pour tout idéal maximal m de A, l’application $A_m$-linéaire $u'_m$ de $M_m$ dans $A_m^{(I)}$ admet une rétraction, et il en est donc de même de $u''_m$; ainsi $u''_m$ est injective et son image est facteur direct dans $A_m^J$, de sorte que son conoyau est un $A_m$-module projectif. Le A-module $\mathrm{Coker}(u'')$ est de présentation finie par construction ; il est donc projectif (II, § 5, n° 2, th. 1). L’homomorphisme $u''$ est injectif (II, § 3, n° 3, th. 1); par conséquent, $u$ est injectif. Le A-module $\mathrm{Coker}(u')$ est isomorphe, d’une part à $\mathrm{Coker}(u) \oplus N'$, d’autre part à $\mathrm{Coker}(u'') \oplus A^{(I-J)}$. Comme les A-modules $A^{(I-J)}$, $\mathrm{Coker}(u'')$ et $N'$ sont projectifs, il en est de même de $\mathrm{Coker}(u)$, ce qui achève de prouver (iv).
+(ii) $\Rightarrow$ (iv) : introduisons comme ci-dessus un isomorphisme de A-modules $\theta : N \oplus N' \to A^{(I)}$. Notons $u'$ l’application de M dans $A^{(I)}$ définie par $u'(x) = \theta(u(x), 0)$. Il existe une partie finie J de I telle que l’image de $u'$ soit contenue dans le sous-module $A^J$ de $A^{(I)}$. Notons $u'' : M \to A^J$ l’application déduite de $u'$. Sous l’hypothèse (ii), pour tout idéal maximal m de A, l’application $A_m$-linéaire $u'_m$ de $M_m$ dans $A_m^{(I)}$ admet une rétraction, et il en est donc de même de $u''_m$; ainsi $u''_m$ est injective et son image est facteur direct dans $A_m^J$, de sorte que son conoyau est un $A_m$-module projectif. Le A-module $\mathrm{Coker}(u'')$ est de présentation finie par construction ; il est donc projectif (II, § 5, n° 2, th. 1). L’homomorphisme $u''$ est injectif (II, § 3, n° 3, th. 1); par conséquent, $u$ est injectif. Le A-module $\mathrm{Coker}(u')$ est isomorphe, d’une part à $\mathrm{Coker}(u) \oplus N'$, d’autre part à $\mathrm{Coker}(u'') \oplus A^{(I-J)}$. Comme les A-modules $A^{(I-J)}$, $\mathrm{Coker}(u'')$ et $N'$ sont projectifs, il en est de même de $\mathrm{Coker}(u)$, ce qui achève de prouver (iv).
 
 ### 9. Le critère jacobien
 
-Soient k un anneau, A une k-algèbre, J un idéal de A et $\bar{d} : J/J^2 \to \Lambda/J \otimes_A \Omega_k(A)$ l’application canonique. Pour chaque A/J-algèbre R, on note
+Soient k un anneau, A une k-algèbre, J un idéal de A et $\bar{d} : J/J^2 \to A/J \otimes_A \Omega_k(A)$ l’application canonique. Pour chaque A/J-algèbre R, on note
 $$
-\bar{d}_R : R \otimes_{\Lambda/J} J/J^2 \longrightarrow R \otimes_A \Omega_k(A)
+\bar{d}_R : R \otimes_{A/J} J/J^2 \longrightarrow R \otimes_A \Omega_k(A)
 $$
 
 l’application R-linéaire déduite de $\bar{d}$. Si la $k$-algèbre $A/J$ est formellement lisse, $\bar{d}$ possède une rétraction A-linéaire (n° 2, remarque 1) et $\bar{d}_R$ possède une rétraction R-linéaire pour tout R.
@@ -559,7 +559,7 @@ a) Soit $\mathfrak{p}$ un idéal premier de $B$ et soit $q$ l’idéal (premier)
 (ii) il existe $f \in B - \mathfrak{p}$ tel que la $k$-algèbre $B_f$ soit formellement lisse ;
 (iii) l’application $\kappa(\mathfrak{p})$-linéaire
 $$
-\bar{d}_{\kappa(\mathfrak{p})} : \kappa(\mathfrak{p}) \otimes_B J/J^2 \to \kappa(\mathfrak{p}) \otimes_A \Omega_k(\Lambda)
+\bar{d}_{\kappa(\mathfrak{p})} : \kappa(\mathfrak{p}) \otimes_B J/J^2 \to \kappa(\mathfrak{p}) \otimes_A \Omega_k(A)
 $$
 est injective ;
 (iv) il existe un entier $m \geqslant 0$, des éléments $f_1, \ldots, f_m$ de $J$, dont les images $(f_1)_q, \ldots, (f_m)_q$ engendrent l’idéal $J_q$, et des $k$-dérivations $D_1, \ldots, D_m$ de $A$ tels que $\det(D_j(f_i)) \notin q$.

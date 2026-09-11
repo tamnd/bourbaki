@@ -41,7 +41,7 @@ subsections:
       pdf_page: 33
 statements: 46
 exercises: 11
-content_sha256: 2bb1ee1d8fa07faecb99ed380b4de9e87ee14fd0064146c77c3fab3b73cfd146
+content_sha256: ff330e575d4881104b32e2aa26a3e238d27c787767e37d369959cac87107a0e9
 ---
 
 ## § 2. MODULES ET ANNEAUX MACAULAYENS
@@ -85,19 +85,19 @@ Soient $M$ un $A$-module de type fini, et $a$ un idéal de $A$ tel que $aM = 0$.
 
 #### Proposition 1 {#ac-x-s2-prop-1 .statement}
 
-Soient $\Lambda$ un anneau noethérien, $M$ un $\Lambda$-module de type fini, $p$ et $q$ des idéaux premiers de $\mathrm{Supp}(M)$ tels que $p \subset q$. Supposons $\dim_{\Lambda_q}(M_q) = \mathrm{prof}_{\Lambda_q}(M_q)$. On a alors $\dim_{\Lambda_p}(M_p) = \mathrm{prof}_{\Lambda_p}(M_p)$ et
+Soient $A$ un anneau noethérien, $M$ un $A$-module de type fini, $p$ et $q$ des idéaux premiers de $\mathrm{Supp}(M)$ tels que $p \subset q$. Supposons $\dim_{A_q}(M_q) = \mathrm{prof}_{A_q}(M_q)$. On a alors $\dim_{A_p}(M_p) = \mathrm{prof}_{A_p}(M_p)$ et
 $$
-\dim_{\Lambda_q}(M_q) = \dim_{\Lambda_p}(M_p) + \dim(\Lambda_q/\mathfrak{p}\Lambda_q) .
+\dim_{A_q}(M_q) = \dim_{A_p}(M_p) + \dim(A_q/\mathfrak{p}A_q) .
 $$
 Cela résulte directement du cor. 1 de la prop. 13 du § 1, n° 7.
 
 #### Corollaire {#ac-x-s2-n1-cor-1 .statement}
 
-Soient $\Lambda$ un anneau noethérien et $M$ un $\Lambda$-module de type fini. Les conditions suivantes sont équivalentes :
-(i) le $\Lambda$-module $M$ est macaulayen ;
-(ii) on a $\mathrm{prof}_{\Lambda_p}(M_p) = \dim_{\Lambda_p}(M_p)$ pour tout $p \in \mathrm{Supp}(M)$ ;
-(iii) on a $\mathrm{prof}_F(M) = \mathrm{codim}(\mathrm{Supp}(M) \cap F', \mathrm{Supp}(M))$ pour toute partie fermée $F$ de $\mathrm{Spec}(\Lambda)$ ;
-(iv) on a $\mathrm{prof}_A(p; M) = \dim_{\Lambda_p}(M_p)$ pour tout $p \in \mathrm{Supp}(M)$.
+Soient $A$ un anneau noethérien et $M$ un $A$-module de type fini. Les conditions suivantes sont équivalentes :
+(i) le $A$-module $M$ est macaulayen ;
+(ii) on a $\mathrm{prof}_{A_p}(M_p) = \dim_{A_p}(M_p)$ pour tout $p \in \mathrm{Supp}(M)$ ;
+(iii) on a $\mathrm{prof}_F(M) = \mathrm{codim}(\mathrm{Supp}(M) \cap F', \mathrm{Supp}(M))$ pour toute partie fermée $F$ de $\mathrm{Spec}(A)$ ;
+(iv) on a $\mathrm{prof}_A(p; M) = \dim_{A_p}(M_p)$ pour tout $p \in \mathrm{Supp}(M)$.
 
 (i) $\Rightarrow$ (ii) : cela résulte de la proposition 1.
 (ii) $\Rightarrow$ (iii) : d’après la prop. 8 du § 1, n° 5, $\mathrm{prof}_F(M)$ est la borne inférieure des entiers $\mathrm{prof}(M_p)$ pour $p$ parcourant $\mathrm{Supp}(M) \cap F$. Si $M$ est macaulayen, on a pour un tel idéal $p$ les égalités $\mathrm{prof}(M_p) = \dim(M_p) = \mathrm{codim}(V(p), \mathrm{Supp}(M))$ (VIII, § 1, n° 4, prop. 9), d’où (iii).
@@ -106,14 +106,14 @@ Soient $\Lambda$ un anneau noethérien et $M$ un $\Lambda$-module de type fini. 
 
 #### Remarque {#ac-x-s2-n1-rem-1 .statement}
 
-Soient $S$ une partie multiplicative de $\Lambda$ et $M$ un $\Lambda$-module de type fini et macaulayen. Alors $S^{-1}M$ est un $S^{-1}\Lambda$-module macaulayen. En effet, soit $q \in \mathrm{Spec}(S^{-1}\Lambda)$ ; notons $i_A^S : \Lambda \to S^{-1}\Lambda$ l’homomorphisme canonique et $p = (i_A^S)^{-1}(q)$. L’anneau $(S^{-1}\Lambda)_q$ s’identifie à $A_p$ (II, § 2, n° 5, prop. 11), et le $A_p$-module $(S^{-1}M)_q$ au $A_p$-module $M_p$ (II, § 2, n° 7, prop. 20), qui est macaulayen d’après le corollaire.
+Soient $S$ une partie multiplicative de $A$ et $M$ un $A$-module de type fini et macaulayen. Alors $S^{-1}M$ est un $S^{-1}A$-module macaulayen. En effet, soit $q \in \mathrm{Spec}(S^{-1}A)$ ; notons $i_A^S : A \to S^{-1}A$ l’homomorphisme canonique et $p = (i_A^S)^{-1}(q)$. L’anneau $(S^{-1}A)_q$ s’identifie à $A_p$ (II, § 2, n° 5, prop. 11), et le $A_p$-module $(S^{-1}M)_q$ au $A_p$-module $M_p$ (II, § 2, n° 7, prop. 20), qui est macaulayen d’après le corollaire.
 
 ### 2. Support d’un module macaulayen
 
 #### Proposition 2 {#ac-x-s2-prop-2 .statement}
 
-Soient $\Lambda$ un anneau noethérien et $M$ un $\Lambda$-module de type fini et macaulayen.
-a) Le $\Lambda$-module $M$ n’a pas d’idéaux premiers associés immergés.\footnote{Rappelons (cf. IV, § 2, n° 3, remarque) qu’on dit qu’un idéal premier associé à $M$ est immergé s’il n’est pas un élément minimal de $\mathrm{Supp}(M)$. Dire que $M$ n’a pas d’idéaux premiers associés immergés signifie donc que les idéaux premiers associés de $M$ sont les éléments minimaux de $\mathrm{Supp}(M)$.}
+Soient $A$ un anneau noethérien et $M$ un $A$-module de type fini et macaulayen.
+a) Le $A$-module $M$ n’a pas d’idéaux premiers associés immergés.\footnote{Rappelons (cf. IV, § 2, n° 3, remarque) qu’on dit qu’un idéal premier associé à $M$ est immergé s’il n’est pas un élément minimal de $\mathrm{Supp}(M)$. Dire que $M$ n’a pas d’idéaux premiers associés immergés signifie donc que les idéaux premiers associés de $M$ sont les éléments minimaux de $\mathrm{Supp}(M)$.}
 b) Soient $X$ une partie fermée irréductible de $\mathrm{Supp}(M)$ et $Y$ une partie fermée de $X$. On a
 $$
 \mathrm{codim}(Y, X) + \mathrm{codim}(X, \mathrm{Supp}(M)) = \mathrm{codim}(Y, \mathrm{Supp}(M)) .
@@ -290,7 +290,7 @@ Toute partie finie S de A telle que SM = M est fortement sécante pour M. Lorsqu
 
 #### Remarque 2 {#ac-x-s2-n4-rem-2 .statement}
 
-Si l’anneau A est local et le module M non nul, toute partie S de $m_A$ fortement sécante pour M est sécante pour M. En effet, comme le $\Lambda$-module M/SM est non nul, on a
+Si l’anneau A est local et le module M non nul, toute partie S de $m_A$ fortement sécante pour M est sécante pour M. En effet, comme le $A$-module M/SM est non nul, on a
 
 $$
 \text{Card}(S) \leq \operatorname{codim}(\operatorname{Supp}(M/SM), \operatorname{Supp}(M)) \leq \dim(M) - \dim(M/SM)
@@ -303,7 +303,7 @@ $$
 Soient A un anneau noethérien, M un A-module de type fini, et S une partie finie de A. Les conditions suivantes sont équivalentes :
 
 (i) la partie S de A est fortement sécante pour M ;
-(ii) pour tout élément $p$ de Supp(M/SM), l’application canonique $\Lambda \to A_p$ induit une bijection de S sur une partie de $pA_p$ sécante pour $M_p$.
+(ii) pour tout élément $p$ de Supp(M/SM), l’application canonique $A \to A_p$ induit une bijection de S sur une partie de $pA_p$ sécante pour $M_p$.
 
 (i) $\Rightarrow$ (ii) : Soit $p \in \operatorname{Supp}(M/SM)$ et soit $S'$ l’image de S dans $A_p$. L’ensemble $S'$ est contenu dans l’idéal maximal $pA_p$, et l’on a
 
@@ -357,7 +357,7 @@ Pour tout idéal maximal $m \in \mathrm{Supp}(M/SM)$, l’image de S dans $A_m$ 
 
 #### Définition 3 {#ac-x-s2-def-3 .statement}
 
-*On dit qu’un anneau $\Lambda$ est macaulayen, ou est un anneau de Macaulay, s’il est noethérien et que le A-module $\Lambda$ est macaulayen.*
+*On dit qu’un anneau $A$ est macaulayen, ou est un anneau de Macaulay, s’il est noethérien et que le A-module $A$ est macaulayen.*
 
 #### Exemple 1 {#ac-x-s2-n5-exa-1 .statement}
 
@@ -377,7 +377,7 @@ Si $A$ est un anneau de Macaulay, il en est de même de $S^{-1}A$ pour toute par
 
 #### Exemple 5 {#ac-x-s2-n5-exa-5 .statement}
 
-Soient $A$ un anneau noethérien et $J$ un idéal de $A$. Pour que $A/J$ soit un anneau de Macaulay, il faut et il suffit que ce soit un $\Lambda$-module macaulayen (n° 1, exemple 4).
+Soient $A$ un anneau noethérien et $J$ un idéal de $A$. Pour que $A/J$ soit un anneau de Macaulay, il faut et il suffit que ce soit un $A$-module macaulayen (n° 1, exemple 4).
 
 #### Exemple 6 {#ac-x-s2-n5-exa-6 .statement}
 
@@ -481,7 +481,7 @@ En particulier, si B est un anneau de Macaulay, il en est de même de A.
 
 #### Proposition 9 {#ac-x-s2-prop-9 .statement}
 
-Soient ρ : A → B un homomorphisme d’anneaux noethériens, M un A-module de type fini et N un B-module de type fini, plat sur A. Notons $^a\rho : \mathrm{Spec}(B) \longrightarrow \mathrm{Spec}(\Lambda)$ l’application associée à ρ. Les conditions suivantes sont équivalentes :
+Soient ρ : A → B un homomorphisme d’anneaux noethériens, M un A-module de type fini et N un B-module de type fini, plat sur A. Notons $^a\rho : \mathrm{Spec}(B) \longrightarrow \mathrm{Spec}(A)$ l’application associée à ρ. Les conditions suivantes sont équivalentes :
 
 (i) le B-module $M \otimes_A N$ est macaulayen ;
 (ii) le $(\kappa(p) \otimes_A B)$-module $\kappa(p) \otimes_A N$ est macaulayen pour tout $p \in \mathrm{Supp}_A(M)$, et le $A_p$-module $M_p$ est macaulayen pour tout $p \in ^a\rho(\mathrm{Supp}_B(N))$ ;
@@ -547,7 +547,7 @@ Il est clair que (v) implique (iv) et que (iv) implique (i).
 
 #### Proposition 10 {#ac-x-s2-prop-10 .statement}
 
-*Soit $\rho : A \to B$ un homomorphisme d’anneaux noethériens faisant de $B$ un $\Lambda$-module plat. Les conditions suivantes sont équivalentes :*
+*Soit $\rho : A \to B$ un homomorphisme d’anneaux noethériens faisant de $B$ un $A$-module plat. Les conditions suivantes sont équivalentes :*
 
 (i) $B$ est un anneau de Macaulay ;
 (ii) pour tout idéal premier $q$ de $B$, les anneaux $A_{\rho^{-1}(q)}$ et $\kappa(\rho^{-1}(q)) \otimes_A B$ sont de Macaulay ;

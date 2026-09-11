@@ -32,7 +32,7 @@ subsections:
       pdf_page: 77
 statements: 33
 exercises: 7
-content_sha256: 5ce020b594660b670473a0d1b1f4d34b94ffccaae815319291452fefe8423aae
+content_sha256: c84c8e9bbfd780cd7d187b3268f56cfdc354d325ebca1ac829b9ed46fabee30d
 ---
 
 ## § 6. EXTENSION DES SCALAires DANS LES ALGÈBRES RÉGULIÈRES
@@ -115,7 +115,7 @@ telles que $K_i$ soit une $K_{i-1}$-algèbre monogène pour $i = 1, \ldots, m$, 
 
 #### Corollaire 1 {#ac-x-s6-prop-4-cor-1 .statement}
 
-Soient $k$ un corps, $K$ une extension de $k$ et $\Lambda$ une $k$-algèbre essentiellement de type fini. Pour que $A_{(K)}$ soit un anneau de Macaulay (resp. de Gorenstein), il faut et il suffit qu’il en soit de même de $A$.
+Soient $k$ un corps, $K$ une extension de $k$ et $A$ une $k$-algèbre essentiellement de type fini. Pour que $A_{(K)}$ soit un anneau de Macaulay (resp. de Gorenstein), il faut et il suffit qu’il en soit de même de $A$.
 
 Si $A$ est un anneau de Macaulay (resp. de Gorenstein), il en est de même de $A_{(K)}$ d’après la prop. 4. Puisque $A_{(K)}$ est un $A$-module fidèlement plat, la réciproque résulte de la prop. 10 du § 2, n° 7 (resp. du cor. 1 de la prop. 12 du § 3, n° 8).
 
@@ -219,7 +219,7 @@ Soit K une extension de type fini de k ; prouvons que l’anneau $A_{(K)}$ est r
 
 Supposons l’anneau B régulier (resp. normal) et démontrons la proposition. L’homomorphisme canonique $B \to A \otimes_k B$ fait de $A \otimes_k B$ un B-module libre. Pour tout idéal premier $p$ de B, l’anneau $(A \otimes_k B) \otimes_B \kappa(p)$ s’identifie à $A \otimes_k \kappa(p)$ ; d’après le corollaire de la prop. 9 du § 4, n° 5 (resp. le cor. 3 du th. 4 du § 1, n° 10), il nous suffit de prouver que $A \otimes_k \kappa(p)$ est régulier (resp. normal) pour tout idéal premier $p$ de B.
 
-Si la $k$-algèbre $B$ est essentiellement de type fini, l’extension $\kappa(p)$ de $k$ est de type fini et l’anneau $A \otimes_k \kappa(p)$ est régulier (resp. normal) d’après ce qu’on a vu plus haut. Supposons maintenant la $k$-algèbre $A$ essentiellement de type fini ; l’anneau $A \otimes_k \kappa(p)$ est noethérien et réunion de la famille filtrante croissante des sous-anneaux noethériens $\Lambda \otimes_k K$, où $K$ parcourt les sous-extensions de type fini de $\kappa(p)$. Ces derniers sont réguliers (resp. normaux), et on applique le lemme 1 du n° 3.
+Si la $k$-algèbre $B$ est essentiellement de type fini, l’extension $\kappa(p)$ de $k$ est de type fini et l’anneau $A \otimes_k \kappa(p)$ est régulier (resp. normal) d’après ce qu’on a vu plus haut. Supposons maintenant la $k$-algèbre $A$ essentiellement de type fini ; l’anneau $A \otimes_k \kappa(p)$ est noethérien et réunion de la famille filtrante croissante des sous-anneaux noethériens $A \otimes_k K$, où $K$ parcourt les sous-extensions de type fini de $\kappa(p)$. Ces derniers sont réguliers (resp. normaux), et on applique le lemme 1 du n° 3.
 
 #### Corollaire 1 {#ac-x-s6-prop-7-cor-1 .statement}
 
@@ -231,7 +231,7 @@ Soient $A$ et $B$ deux $k$-algèbres satisfaisant aux hypothèses du corollaire.
 
 Soient $k$ un corps, $A$ une $k$-algèbre absolument régulière (resp. absolument normale) et $K$ une extension de $k$. Supposons que $A$ soit essentiellement de type fini ou que l’extension $K$ de $k$ soit de type fini.
 
-a) L’anneau $\Lambda_{(K)}$ est régulier (resp. normal).
+a) L’anneau $A_{(K)}$ est régulier (resp. normal).
 
 b) Si l’extension $K$ de $k$ est séparable, la $k$-algèbre $A_{(K)}$ est absolument régulière (resp. absolument normale).
 
@@ -241,9 +241,9 @@ L’assertion a) résulte de la proposition 7 ; l’assertion b) résulte du cor
 
 Soient $k$ un corps, $A$ une $k$-algèbre et $K$ une extension de $k$. Supposons que la $k$-algèbre $A$ soit essentiellement de type fini ou que l’extension $K$ de $k$ soit de type fini. Pour que la $k$-algèbre $A$ soit absolument régulière (resp. absolument normale), il faut et il suffit qu’il en soit ainsi de la $K$-algèbre $A_{(K)}$.
 
-Supposons $A$ absolument régulière (resp. absolument normale) et soit $K'$ une extension radicielle de $K$ de degré fini. L’anneau $K' \otimes_K \Lambda_{(K)}$, isomorphe à $K' \otimes_k A$, est régulier (resp. normal) d’après le cor. 2.
+Supposons $A$ absolument régulière (resp. absolument normale) et soit $K'$ une extension radicielle de $K$ de degré fini. L’anneau $K' \otimes_K A_{(K)}$, isomorphe à $K' \otimes_k A$, est régulier (resp. normal) d’après le cor. 2.
 
-Supposons inversement la $K$-algèbre $A_{(K)}$ absolument régulière (resp. absolument normale) et soit $k'$ une extension radicielle de $k$ de degré fini. Soit $L$ une extension composée de $k'$ et de $K$ ; alors l’anneau $A_{(L)}$ s’identifie à $L \otimes_K \Lambda_{(K)}$, donc est régulier (resp. normal) ; par suite, l’anneau $A_{(k')}$ est régulier (resp. normal) d’après la prop. 5, a) du n° 3.
+Supposons inversement la $K$-algèbre $A_{(K)}$ absolument régulière (resp. absolument normale) et soit $k'$ une extension radicielle de $k$ de degré fini. Soit $L$ une extension composée de $k'$ et de $K$ ; alors l’anneau $A_{(L)}$ s’identifie à $L \otimes_K A_{(K)}$, donc est régulier (resp. normal) ; par suite, l’anneau $A_{(k')}$ est régulier (resp. normal) d’après la prop. 5, a) du n° 3.
 
 #### Corollaire 4 {#ac-x-s6-prop-7-cor-4 .statement}
 
@@ -265,15 +265,15 @@ Soient k un corps et A une k-algèbre essentiellement de type fini. Notons I le 
 Notons B l’anneau $A \otimes_k A$ et munissons-le de la structure de A-algèbre déduite de l’homomorphisme $\rho : A \to A \otimes_k A$ tel que $\rho(x) = x \otimes 1$; alors $\mu$ est un homomorphisme de A-algèbres, et induit par passage au quotient un isomorphisme de $B/I$ sur A.
 
 (i) $\Rightarrow$ (ii) : cela résulte de la prop. 7.
-(ii) $\Rightarrow$ (iii) : il suffit d’appliquer (ii) avec $C = k$, puis avec $C = \Lambda$.
+(ii) $\Rightarrow$ (iii) : il suffit d’appliquer (ii) avec $C = k$, puis avec $C = A$.
 (iii) $\Rightarrow$ (iv) : le A-module B est libre, donc fidèlement plat. Si l’anneau B est régulier, A est régulier ($§ 4$, n° 5, prop. 8) ; l’idéal I est alors complètement sécant ($§ 5$, n° 3, prop. 2).
-(iv) $\Rightarrow$ (i) : supposons l’idéal I complètement sécant et prouvons d’abord que A est régulier. Soit m un idéal maximal de A et soit $\nu : (A/m) \otimes_k A \to A/m$ l’homomorphisme déduit de $\mu$. L’idéal maximal $n = \mathrm{Ker}\,\nu$ est égal à $1((A/m) \otimes_k \Lambda)$; appliquant la prop. 6 du $§ 5$, n° 6 à la A-algèbre $A' = A/m$, on voit que l’idéal n est complètement sécant dans $(\Lambda/m) \otimes_k \Lambda$. Par conséquent ($§ 5$, n° 3, prop. 3) l’anneau local $((A/m) \otimes_k \Lambda)_n$ est régulier. Notons $j : \Lambda \to (A/m) \otimes_k A$ l’homomorphisme $x \mapsto 1 \otimes x$; puisque $\nu \circ j$ est l’homomorphisme canonique de A dans $A/m$, on a $j^{-1}(n) = m$. Ainsi j se prolonge en un homomorphisme local d’anneaux locaux de $A_m$ dans $((A/m) \otimes_k A)_n$, qui fait de ce dernier un $A_m$-module fidèlement plat. D’après la prop. 8 du $§ 4$, n° 5, l’anneau $A_m$ est donc régulier. Nous avons ainsi prouvé que A est régulier.
+(iv) $\Rightarrow$ (i) : supposons l’idéal I complètement sécant et prouvons d’abord que A est régulier. Soit m un idéal maximal de A et soit $\nu : (A/m) \otimes_k A \to A/m$ l’homomorphisme déduit de $\mu$. L’idéal maximal $n = \mathrm{Ker}\,\nu$ est égal à $1((A/m) \otimes_k A)$; appliquant la prop. 6 du $§ 5$, n° 6 à la A-algèbre $A' = A/m$, on voit que l’idéal n est complètement sécant dans $(A/m) \otimes_k A$. Par conséquent ($§ 5$, n° 3, prop. 3) l’anneau local $((A/m) \otimes_k A)_n$ est régulier. Notons $j : A \to (A/m) \otimes_k A$ l’homomorphisme $x \mapsto 1 \otimes x$; puisque $\nu \circ j$ est l’homomorphisme canonique de A dans $A/m$, on a $j^{-1}(n) = m$. Ainsi j se prolonge en un homomorphisme local d’anneaux locaux de $A_m$ dans $((A/m) \otimes_k A)_n$, qui fait de ce dernier un $A_m$-module fidèlement plat. D’après la prop. 8 du $§ 4$, n° 5, l’anneau $A_m$ est donc régulier. Nous avons ainsi prouvé que A est régulier.
 
-Soit maintenant $k'$ une extension de k. Le noyau de l’application $\mu' : A_{(k')} \otimes_{k'} \Lambda_{(k')} \to A_{(k')}$ déduite de la multiplication de $A_{(k')}$ n’est autre que $IA_{(k')}$; il est donc complètement sécant dans $A_{(k')}$ ($§ 5$, n° 6, prop. 6). La $k'$-algèbre $A_{(k')}$ satisfait donc à la condition (iv) ; d’après ce qu’on vient de voir, elle est régulière, et cela prouve (i).
+Soit maintenant $k'$ une extension de k. Le noyau de l’application $\mu' : A_{(k')} \otimes_{k'} A_{(k')} \to A_{(k')}$ déduite de la multiplication de $A_{(k')}$ n’est autre que $IA_{(k')}$; il est donc complètement sécant dans $A_{(k')}$ ($§ 5$, n° 6, prop. 6). La $k'$-algèbre $A_{(k')}$ satisfait donc à la condition (iv) ; d’après ce qu’on vient de voir, elle est régulière, et cela prouve (i).
 
 Rappelons (A, III, p. 133-134) que le quotient $I/I^2$ muni de la structure de A-module déduite de $\rho$ est noté $\Omega_k(A)$ et appelé le module des k-différentielles de A. Lorsque la k-algèbre A est essentiellement de type fini, l’anneau $A \otimes_k A$ est noethérien, de sorte que le A-module $\Omega_k(A)$ est de type fini.
 
-On note $d_{A/k}$ ou simplement d l’application k-linéaire de A dans $\Omega_k(A)$ qui associe à un élément x de A la classe de $x \otimes 1 - 1 \otimes x$ dans $\Omega_k(A)$. L’application d est une k-dérivation ; pour tout A-module M et toute k-dérivation D : A $\to$ M, il existe une unique application A-linéaire $g : \Omega_k(\Lambda) \to M$ telle que $D = g \circ d$ (loc. cit., prop. 18).
+On note $d_{A/k}$ ou simplement d l’application k-linéaire de A dans $\Omega_k(A)$ qui associe à un élément x de A la classe de $x \otimes 1 - 1 \otimes x$ dans $\Omega_k(A)$. L’application d est une k-dérivation ; pour tout A-module M et toute k-dérivation D : A $\to$ M, il existe une unique application A-linéaire $g : \Omega_k(A) \to M$ telle que $D = g \circ d$ (loc. cit., prop. 18).
 
 Si S est une partie multiplicative de A, l’application S^{-1}A-linéaire canonique (loc. cit., p. 136)
 $$
@@ -323,7 +323,7 @@ $$
 
 ce qui prouve (ii).
 
-(iii') \Rightarrow (i) : Supposons que l’on ait [\kappa_A \otimes_A \Omega_k(\Lambda) : \kappa_A] \leq n , c’est-à-dire [\kappa(q) \otimes_B \Omega_k(B) : \kappa(q)] \leq n , et prouvons que la k-algèbre B est absolument régulière. Soit (x_1, \ldots , x_n) une suite d’éléments de B telle que 1 \otimes dx_1, \ldots , 1 \otimes dx_n engendrent le \kappa(q)-espace vectoriel \kappa(q) \otimes_B \Omega_k(B) . Remplaçant B par B_f , pour un élément f convenable de B - q , on peut supposer que dx_1, \ldots , dx_n engendrent le B-module \Omega_k(B) (lemme de Nakayama et II, § 5, n° 1, prop. 2). Soit \bar{k} une extension algébriquement close de k . Il nous suffit de prouver que la \bar{k}-algèbre B_{(\bar{k})} est régulière, puisque cela impliquera que B est absolument régulière (cor. 4 de la prop. 7 du n° 4). Pour tout composant canonique C de B_{(k)} , les différentielles d(1 \otimes x_i) engendrent le C-module \Omega_{\bar{k}}(C) (A, III, § 10, n° 12, prop. 20). Le théorème résulte donc des deux lemmes suivants :
+(iii') \Rightarrow (i) : Supposons que l’on ait [\kappa_A \otimes_A \Omega_k(A) : \kappa_A] \leq n , c’est-à-dire [\kappa(q) \otimes_B \Omega_k(B) : \kappa(q)] \leq n , et prouvons que la k-algèbre B est absolument régulière. Soit (x_1, \ldots , x_n) une suite d’éléments de B telle que 1 \otimes dx_1, \ldots , 1 \otimes dx_n engendrent le \kappa(q)-espace vectoriel \kappa(q) \otimes_B \Omega_k(B) . Remplaçant B par B_f , pour un élément f convenable de B - q , on peut supposer que dx_1, \ldots , dx_n engendrent le B-module \Omega_k(B) (lemme de Nakayama et II, § 5, n° 1, prop. 2). Soit \bar{k} une extension algébriquement close de k . Il nous suffit de prouver que la \bar{k}-algèbre B_{(\bar{k})} est régulière, puisque cela impliquera que B est absolument régulière (cor. 4 de la prop. 7 du n° 4). Pour tout composant canonique C de B_{(k)} , les différentielles d(1 \otimes x_i) engendrent le C-module \Omega_{\bar{k}}(C) (A, III, § 10, n° 12, prop. 20). Le théorème résulte donc des deux lemmes suivants :
 
 #### Lemme 4 {#ac-x-s6-lem-4 .statement}
 
@@ -337,31 +337,31 @@ Passons au cas général. Soit e l’élément idempotent de B_{(K)} tel que C =
 
 Soient k un corps algébriquement clos, A une k-algèbre de type fini dont le spectre est connexe, n un entier et (x_1, \ldots , x_n) une suite finie d’éléments de A . On suppose que A est de dimension n et que les différentielles dx_1, \ldots , dx_n engendrent le A-module \Omega_k(A) . Alors l’anneau A est intègre et régulier et le A-module \Omega_k(A) est libre de base (dx_1, \ldots , dx_n) .
 
-Soit m un idéal maximal de A tel que \dim(A_m) = n . On a [A/m : k] = 1 (V, § 3, n° 3, prop. 1 (iii)), donc A = m \oplus k1_A . Notons p et q les projecteurs correspondants. Pour $a$ et $b$ dans $\Lambda$, on a
+Soit m un idéal maximal de A tel que \dim(A_m) = n . On a [A/m : k] = 1 (V, § 3, n° 3, prop. 1 (iii)), donc A = m \oplus k1_A . Notons p et q les projecteurs correspondants. Pour $a$ et $b$ dans $A$, on a
 $$
 ab = (p(a)q(b) + q(a)p(b) + p(a)p(b), q(a)q(b)) ,
 $$
-d’où $p(ab) \equiv p(a)q(b) + q(a)p(b) \pmod{\mathfrak{m}^2}$. Par conséquent l’application $\delta : \Lambda \to \mathfrak{m}/\mathfrak{m}^2$ qui associe à chaque élément $x$ de $\Lambda$ la classe de $p(x)$ modulo $\mathfrak{m}^2$ est une $k$-dérivation de $\Lambda$ dans le $k$-espace vectoriel $\mathfrak{m}/\mathfrak{m}^2$. Il existe donc une application $\Lambda$-linéaire $\phi : \Omega_k(\Lambda) \to \mathfrak{m}/\mathfrak{m}^2$ telle que $\delta(x) = \phi(dx)$ pour tout $x \in \Lambda$. Puisque $\delta$ est surjective, les $\phi(dx_i)$ engendrent le $\Lambda/\mathfrak{m}$-espace vectoriel $\mathfrak{m}/\mathfrak{m}^2$, et on a $[\mathfrak{m}/\mathfrak{m}^2 : \Lambda/\mathfrak{m}] \leq n = \dim(A_{\mathfrak{m}})$. Il en résulte que $A_{\mathfrak{m}}$ est régulier et que les images des $dx_i$ forment une base du $\Lambda/\mathfrak{m}$-espace vectoriel $\Lambda/\mathfrak{m} \otimes_A \Omega_k(\Lambda)$.
+d’où $p(ab) \equiv p(a)q(b) + q(a)p(b) \pmod{\mathfrak{m}^2}$. Par conséquent l’application $\delta : A \to \mathfrak{m}/\mathfrak{m}^2$ qui associe à chaque élément $x$ de $A$ la classe de $p(x)$ modulo $\mathfrak{m}^2$ est une $k$-dérivation de $A$ dans le $k$-espace vectoriel $\mathfrak{m}/\mathfrak{m}^2$. Il existe donc une application $A$-linéaire $\phi : \Omega_k(A) \to \mathfrak{m}/\mathfrak{m}^2$ telle que $\delta(x) = \phi(dx)$ pour tout $x \in A$. Puisque $\delta$ est surjective, les $\phi(dx_i)$ engendrent le $A/\mathfrak{m}$-espace vectoriel $\mathfrak{m}/\mathfrak{m}^2$, et on a $[\mathfrak{m}/\mathfrak{m}^2 : A/\mathfrak{m}] \leq n = \dim(A_{\mathfrak{m}})$. Il en résulte que $A_{\mathfrak{m}}$ est régulier et que les images des $dx_i$ forment une base du $A/\mathfrak{m}$-espace vectoriel $A/\mathfrak{m} \otimes_A \Omega_k(A)$.
 
-Prouvons maintenant que l’anneau $\Lambda$ est intègre et régulier. Il existe un idéal premier minimal $\mathfrak{q}$ de $\Lambda$ tel que $\dim(\Lambda/\mathfrak{q}) = n$. Pour tout idéal maximal $\mathfrak{m}$ de $\Lambda$ contenant $\mathfrak{q}$, on a $\dim(A_{\mathfrak{m}}) = n$ (VIII, § 2, n° 4, cor. 2 du th. 3), de sorte que $A_{\mathfrak{m}}$ est régulier d’après ce que nous venons de voir. En particulier $A_{\mathfrak{m}}$ est intègre, ce qui impose $\mathfrak{q}A_{\mathfrak{m}} = 0$. Comme cela a lieu pour tous les idéaux maximaux $\mathfrak{m}$ de $V(\mathfrak{q})$, on en déduit qu’on a $\operatorname{Supp}(\mathfrak{q}) \cap V(\mathfrak{q}) = \varnothing$. Mais $\operatorname{Spec}(\Lambda)$ est connexe, $V(\mathfrak{q})$ est non vide et l’on a $\operatorname{Supp}(\mathfrak{q}) \cup V(\mathfrak{q}) = \operatorname{Spec}(\Lambda)$ (II, § 4, n° 4, prop. 16). On en déduit $\operatorname{Supp}(\mathfrak{q}) = \varnothing$, d’où $\mathfrak{q} = 0$, ce qui signifie que $\Lambda$ est intègre. On a alors $\dim(A_{\mathfrak{m}}) = n$ pour tout idéal maximal $\mathfrak{m}$ de $\Lambda$; appliquant la première partie de la démonstration, on en déduit que $\Lambda$ est régulier.
+Prouvons maintenant que l’anneau $A$ est intègre et régulier. Il existe un idéal premier minimal $\mathfrak{q}$ de $A$ tel que $\dim(A/\mathfrak{q}) = n$. Pour tout idéal maximal $\mathfrak{m}$ de $A$ contenant $\mathfrak{q}$, on a $\dim(A_{\mathfrak{m}}) = n$ (VIII, § 2, n° 4, cor. 2 du th. 3), de sorte que $A_{\mathfrak{m}}$ est régulier d’après ce que nous venons de voir. En particulier $A_{\mathfrak{m}}$ est intègre, ce qui impose $\mathfrak{q}A_{\mathfrak{m}} = 0$. Comme cela a lieu pour tous les idéaux maximaux $\mathfrak{m}$ de $V(\mathfrak{q})$, on en déduit qu’on a $\operatorname{Supp}(\mathfrak{q}) \cap V(\mathfrak{q}) = \varnothing$. Mais $\operatorname{Spec}(A)$ est connexe, $V(\mathfrak{q})$ est non vide et l’on a $\operatorname{Supp}(\mathfrak{q}) \cup V(\mathfrak{q}) = \operatorname{Spec}(A)$ (II, § 4, n° 4, prop. 16). On en déduit $\operatorname{Supp}(\mathfrak{q}) = \varnothing$, d’où $\mathfrak{q} = 0$, ce qui signifie que $A$ est intègre. On a alors $\dim(A_{\mathfrak{m}}) = n$ pour tout idéal maximal $\mathfrak{m}$ de $A$; appliquant la première partie de la démonstration, on en déduit que $A$ est régulier.
 
-Enfin, soit $\sum_{i=1}^n a_i dx_i = 0$ une relation linéaire entre les $dx_i$ à coefficients dans $\Lambda$. Si les $a_i$ ne sont pas tous nuls, il existe un indice $i$ et un idéal maximal $\mathfrak{m}$ de $\Lambda$ tel que $a_i$ n’appartienne pas à $\mathfrak{m}$ (V, § 3, n° 3, prop. 1, (iii) et (iv)) ; mais cela contredit le fait démontré plus haut que les classes des $dx_i$ dans $(\Lambda/\mathfrak{m}) \otimes_A \Omega_k(\Lambda)$ sont linéairement indépendantes.
+Enfin, soit $\sum_{i=1}^n a_i dx_i = 0$ une relation linéaire entre les $dx_i$ à coefficients dans $A$. Si les $a_i$ ne sont pas tous nuls, il existe un indice $i$ et un idéal maximal $\mathfrak{m}$ de $A$ tel que $a_i$ n’appartienne pas à $\mathfrak{m}$ (V, § 3, n° 3, prop. 1, (iii) et (iv)) ; mais cela contredit le fait démontré plus haut que les classes des $dx_i$ dans $(A/\mathfrak{m}) \otimes_A \Omega_k(A)$ sont linéairement indépendantes.
 
 #### Exemple {#ac-x-s6-n5-exa-1 .statement}
 
-Lorsque $\Lambda$ est une extension de type fini de $k$, le théorème 1 redonne le cor. 1 de A, V, p. 128, compte tenu de l’exemple 2 du n° 4.
+Lorsque $A$ est une extension de type fini de $k$, le théorème 1 redonne le cor. 1 de A, V, p. 128, compte tenu de l’exemple 2 du n° 4.
 
 #### Corollaire 1 {#ac-x-s6-lem-5-cor-1 .statement}
 
-*Soient $k$ un corps et $\Lambda$ une $k$-algèbre essentiellement de type fini. L’ensemble des éléments $\mathfrak{p}$ de $\operatorname{Spec}(\Lambda)$ tels que la $k$-algèbre $\Lambda_{\mathfrak{p}}$ soit absolument régulière est ouvert dans $\operatorname{Spec}(\Lambda)$.*
+*Soient $k$ un corps et $A$ une $k$-algèbre essentiellement de type fini. L’ensemble des éléments $\mathfrak{p}$ de $\operatorname{Spec}(A)$ tels que la $k$-algèbre $A_{\mathfrak{p}}$ soit absolument régulière est ouvert dans $\operatorname{Spec}(A)$.*
 
-On peut supposer que la $k$-algèbre $\Lambda$ est de type fini. L’ensemble considéré est alors formé des idéaux premiers $\mathfrak{p}$ tels que $[\kappa(\mathfrak{p}) \otimes_k \Omega_k(\Lambda) : \kappa(\mathfrak{p})] \leq \dim_{\mathfrak{p}}(\Lambda)$. Or la fonction $\mathfrak{p} \mapsto \dim_{\mathfrak{p}}(\Lambda)$ est semi-continue inférieurement par définition, et la fonction $\mathfrak{p} \mapsto [\kappa(\mathfrak{p}) \otimes_k \Omega_k(\Lambda) : \kappa(\mathfrak{p})]$ est semi-continue supérieurement (lemme de Nakayama et II, § 5, n° 1, prop. 2).
+On peut supposer que la $k$-algèbre $A$ est de type fini. L’ensemble considéré est alors formé des idéaux premiers $\mathfrak{p}$ tels que $[\kappa(\mathfrak{p}) \otimes_k \Omega_k(A) : \kappa(\mathfrak{p})] \leq \dim_{\mathfrak{p}}(A)$. Or la fonction $\mathfrak{p} \mapsto \dim_{\mathfrak{p}}(A)$ est semi-continue inférieurement par définition, et la fonction $\mathfrak{p} \mapsto [\kappa(\mathfrak{p}) \otimes_k \Omega_k(A) : \kappa(\mathfrak{p})]$ est semi-continue supérieurement (lemme de Nakayama et II, § 5, n° 1, prop. 2).
 
-Nous verrons plus loin (§ 7, n° 9, cor. 4 du th. 3) que sous les hypothèses du cor. 1, l’ensemble des idéaux premiers $\mathfrak{p}$ de $\Lambda$ tels que l’anneau $\Lambda_{\mathfrak{p}}$ soit régulier est ouvert dans $\operatorname{Spec}(\Lambda)$.
+Nous verrons plus loin (§ 7, n° 9, cor. 4 du th. 3) que sous les hypothèses du cor. 1, l’ensemble des idéaux premiers $\mathfrak{p}$ de $A$ tels que l’anneau $A_{\mathfrak{p}}$ soit régulier est ouvert dans $\operatorname{Spec}(A)$.
 
 #### Corollaire 2 {#ac-x-s6-lem-5-cor-2 .statement}
 
-*Soient $k$ un corps et $\Lambda$ une $k$-algèbre essentiellement de type fini. Pour que $\Lambda$ soit absolument régulière, il faut et il suffit que le $\Lambda$-module $\Omega_k(\Lambda)$ soit projectif et que pour tout idéal premier minimal $\mathfrak{q}$ de $\Lambda$, la $k$-algèbre $\Lambda_{\mathfrak{q}}$ soit séparable.*
+*Soient $k$ un corps et $A$ une $k$-algèbre essentiellement de type fini. Pour que $A$ soit absolument régulière, il faut et il suffit que le $A$-module $\Omega_k(A)$ soit projectif et que pour tout idéal premier minimal $\mathfrak{q}$ de $A$, la $k$-algèbre $A_{\mathfrak{q}}$ soit séparable.*
 
 Inversement, supposons que le $A$-module $\Omega_k(A)$ soit projectif et que la $k$-algèbre $A_q$ soit séparable pour tout idéal premier minimal $q$ de $A$. Soient $p$ un idéal premier de $A$, et $q$ un idéal premier minimal de $A$ contenu dans $p$. Puisque le $A_p$-module $\Omega_k(A)_p$ est libre (II, § 3, n° 2, cor. 2 de la prop. 5), on a
 

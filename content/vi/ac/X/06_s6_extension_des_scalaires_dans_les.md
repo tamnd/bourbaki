@@ -124,7 +124,7 @@ và sao cho $K_i$ là một $K_{i-1}$-đại số đơn sinh với $i = 1, \ldot
 
 #### Hệ quả 1 {#ac-x-s6-prop-4-cor-1 .statement}
 
-Cho $k$ là một trường, $K$ là một mở rộng của $k$ và $\Lambda$ là một $k$-đại số về cơ bản thuộc kiểu hữu hạn. Để $A_{(K)}$ là một vành Macaulay (tương ứng một vành Gorenstein), điều kiện cần và đủ là điều đó cũng đúng với $A$.
+Cho $k$ là một trường, $K$ là một mở rộng của $k$ và $A$ là một $k$-đại số về cơ bản thuộc kiểu hữu hạn. Để $A_{(K)}$ là một vành Macaulay (tương ứng một vành Gorenstein), điều kiện cần và đủ là điều đó cũng đúng với $A$.
 
 Nếu $A$ là một vành Macaulay (tương ứng một vành Gorenstein), thì $A_{(K)}$ cũng vậy theo Mệnh đề 4. Vì $A_{(K)}$ là một A-môđun phẳng trung thành, mệnh đề đảo lại suy ra từ Mệnh đề 10 của § 2, No. 7 (tương ứng Hệ quả 1 của Mệnh đề 12 của § 3, No. 8).
 
@@ -228,7 +228,7 @@ Cho K là một mở rộng kiểu hữu hạn của k; hãy chứng minh rằng
 
 Giả sử vành B là chính quy (resp. chuẩn tắc), và hãy chứng minh mệnh đề. Đồng cấu chính tắc $B \to A \otimes_k B$ làm cho $A \otimes_k B$ thành một B-môđun tự do. Với mọi iđêan nguyên tố $p$ của B, vành $(A \otimes_k B) \otimes_B \kappa(p)$ được đồng nhất với $A \otimes_k \kappa(p)$; theo hệ quả của Mệnh đề 9 của § 4, No. 5 (resp. Hệ quả 3 của Định lý 4 của § 1, No. 10), chỉ cần chứng minh rằng $A \otimes_k \kappa(p)$ là chính quy (resp. chuẩn tắc) với mọi iđêan nguyên tố $p$ của B.
 
-Nếu đại số trên $k$ B về cơ bản là kiểu hữu hạn, thì mở rộng $\kappa(p)$ của $k$ là kiểu hữu hạn và vành $A \otimes_k \kappa(p)$ là chính quy (resp. chuẩn tắc) theo điều đã thấy ở trên. Bây giờ giả sử đại số trên $k$ A về cơ bản là kiểu hữu hạn; vành $A \otimes_k \kappa(p)$ là Noether và là hợp của họ tăng lọc các vành con Noether $\Lambda \otimes_k K$, trong đó $K$ chạy qua các mở rộng con kiểu hữu hạn của $\kappa(p)$. Các vành sau cùng này là chính quy (resp. chuẩn tắc), và ta áp dụng bổ đề 1 của No. 3.
+Nếu đại số trên $k$ B về cơ bản là kiểu hữu hạn, thì mở rộng $\kappa(p)$ của $k$ là kiểu hữu hạn và vành $A \otimes_k \kappa(p)$ là chính quy (resp. chuẩn tắc) theo điều đã thấy ở trên. Bây giờ giả sử đại số trên $k$ A về cơ bản là kiểu hữu hạn; vành $A \otimes_k \kappa(p)$ là Noether và là hợp của họ tăng lọc các vành con Noether $A \otimes_k K$, trong đó $K$ chạy qua các mở rộng con kiểu hữu hạn của $\kappa(p)$. Các vành sau cùng này là chính quy (resp. chuẩn tắc), và ta áp dụng bổ đề 1 của No. 3.
 
 #### Hệ quả 1 {#ac-x-s6-prop-7-cor-1 .statement}
 
@@ -240,7 +240,7 @@ Cho $A$ và $B$ là hai đại số trên $k$ thỏa mãn các giả thiết c�
 
 Cho $k$ là một trường, $A$ là một đại số trên $k$ chính quy tuyệt đối (resp. chuẩn tắc tuyệt đối), và $K$ là một mở rộng của $k$. Giả sử rằng $A$ về cơ bản là kiểu hữu hạn hoặc mở rộng $K$ của $k$ là kiểu hữu hạn.
 
-a) Vành $\Lambda_{(K)}$ là chính quy (resp. chuẩn tắc).
+a) Vành $A_{(K)}$ là chính quy (resp. chuẩn tắc).
 
 b) Nếu mở rộng $K$ của $k$ là tách được, thì đại số trên k $A_{(K)}$ là tuyệt đối chính quy (tương ứng, tuyệt đối chuẩn tắc).
 
@@ -250,9 +250,9 @@ Mệnh đề a) suy ra từ mệnh đề 7; mệnh đề b) suy ra từ hệ qu�
 
 Cho $k$ là một trường, $A$ một đại số trên k, và $K$ một mở rộng của $k$. Giả sử rằng đại số trên k $A$ về bản chất thuộc kiểu hữu hạn hoặc rằng mở rộng $K$ của $k$ thuộc kiểu hữu hạn. Để đại số trên k $A$ là tuyệt đối chính quy (tương ứng, tuyệt đối chuẩn tắc), điều kiện cần và đủ là đại số trên K $A_{(K)}$ cũng như vậy.
 
-Giả sử $A$ tuyệt đối chính quy (tương ứng, tuyệt đối chuẩn tắc) và cho $K'$ là một mở rộng thuần túy không tách được của $K$ có bậc hữu hạn. Vành $K' \otimes_K \Lambda_{(K)}$, đẳng cấu với $K' \otimes_k A$, là chính quy (tương ứng, chuẩn tắc) theo hệ quả 2.
+Giả sử $A$ tuyệt đối chính quy (tương ứng, tuyệt đối chuẩn tắc) và cho $K'$ là một mở rộng thuần túy không tách được của $K$ có bậc hữu hạn. Vành $K' \otimes_K A_{(K)}$, đẳng cấu với $K' \otimes_k A$, là chính quy (tương ứng, chuẩn tắc) theo hệ quả 2.
 
-Ngược lại, giả sử rằng đại số trên K $A_{(K)}$ là tuyệt đối chính quy (tương ứng, tuyệt đối chuẩn tắc), và cho $k'$ là một mở rộng thuần túy không tách được của $k$ có bậc hữu hạn. Gọi $L$ là một mở rộng hợp thành của $k'$ và $K$; khi đó vành $A_{(L)}$ có thể được đồng nhất với $L \otimes_K \Lambda_{(K)}$, do đó là chính quy (tương ứng, chuẩn tắc); do đó, vành $A_{(k')}$ là chính quy (tương ứng, chuẩn tắc) theo mệnh đề 5, a) của No. 3.
+Ngược lại, giả sử rằng đại số trên K $A_{(K)}$ là tuyệt đối chính quy (tương ứng, tuyệt đối chuẩn tắc), và cho $k'$ là một mở rộng thuần túy không tách được của $k$ có bậc hữu hạn. Gọi $L$ là một mở rộng hợp thành của $k'$ và $K$; khi đó vành $A_{(L)}$ có thể được đồng nhất với $L \otimes_K A_{(K)}$, do đó là chính quy (tương ứng, chuẩn tắc); do đó, vành $A_{(k')}$ là chính quy (tương ứng, chuẩn tắc) theo mệnh đề 5, a) của No. 3.
 
 #### Hệ quả 4 {#ac-x-s6-prop-7-cor-4 .statement}
 
@@ -274,15 +274,15 @@ Cho k là một trường và A một đại số trên k về bản chất thu�
 Gọi B là vành $A \otimes_k A$ và trang bị cho nó cấu trúc đại số trên A suy ra từ đồng cấu $\rho : A \to A \otimes_k A$ sao cho $\rho(x) = x \otimes 1$; khi đó $\mu$ là một đồng cấu các đại số trên A, và bằng cách chuyển qua thương, cảm sinh một đẳng cấu từ $B/I$ lên A.
 
 (i) $\Rightarrow$ (ii): điều này suy ra từ Mệnh đề 7.
-(ii) $\Rightarrow$ (iii): chỉ cần áp dụng (ii) với $C = k$, rồi với $C = \Lambda$.
+(ii) $\Rightarrow$ (iii): chỉ cần áp dụng (ii) với $C = k$, rồi với $C = A$.
 (iii) $\Rightarrow$ (iv): A-môđun B là tự do, nên phẳng trung thành. Nếu vành B là chính quy thì A là chính quy ($§ 4$, No. 5, Mệnh đề 8); khi đó iđêan I là cát tuyến hoàn toàn ($§ 5$, No. 3, Mệnh đề 2).
-(iv) $\Rightarrow$ (i): giả sử iđêan I là cát tuyến hoàn toàn và trước hết chứng minh rằng A là chính quy. Gọi m là một iđêan cực đại của A và gọi $\nu : (A/m) \otimes_k A \to A/m$ là đồng cấu suy ra từ $\mu$. Iđêan cực đại $n = \mathrm{Ker}\,\nu$ bằng $1((A/m) \otimes_k \Lambda)$; áp dụng Mệnh đề 6 của $§ 5$, No. 6 cho A-đại số $A' = A/m$, ta thấy iđêan n là cát tuyến hoàn toàn trong $(\Lambda/m) \otimes_k \Lambda$. Do đó ($§ 5$, No. 3, Mệnh đề 3) vành địa phương $((A/m) \otimes_k \Lambda)_n$ là chính quy. Kí hiệu bởi $j : \Lambda \to (A/m) \otimes_k A$ đồng cấu $x \mapsto 1 \otimes x$; vì $\nu \circ j$ là đồng cấu chính tắc của A vào $A/m$, ta có $j^{-1}(n) = m$. Vậy j mở rộng thành một đồng cấu địa phương của các vành địa phương từ $A_m$ vào $((A/m) \otimes_k A)_n$, khiến vành sau trở thành một $A_m$-môđun phẳng trung thành. Theo Mệnh đề 8 của $§ 4$, No. 5, do đó vành $A_m$ là chính quy. Như vậy ta đã chứng minh A là chính quy.
+(iv) $\Rightarrow$ (i): giả sử iđêan I là cát tuyến hoàn toàn và trước hết chứng minh rằng A là chính quy. Gọi m là một iđêan cực đại của A và gọi $\nu : (A/m) \otimes_k A \to A/m$ là đồng cấu suy ra từ $\mu$. Iđêan cực đại $n = \mathrm{Ker}\,\nu$ bằng $1((A/m) \otimes_k A)$; áp dụng Mệnh đề 6 của $§ 5$, No. 6 cho A-đại số $A' = A/m$, ta thấy iđêan n là cát tuyến hoàn toàn trong $(A/m) \otimes_k A$. Do đó ($§ 5$, No. 3, Mệnh đề 3) vành địa phương $((A/m) \otimes_k A)_n$ là chính quy. Kí hiệu bởi $j : A \to (A/m) \otimes_k A$ đồng cấu $x \mapsto 1 \otimes x$; vì $\nu \circ j$ là đồng cấu chính tắc của A vào $A/m$, ta có $j^{-1}(n) = m$. Vậy j mở rộng thành một đồng cấu địa phương của các vành địa phương từ $A_m$ vào $((A/m) \otimes_k A)_n$, khiến vành sau trở thành một $A_m$-môđun phẳng trung thành. Theo Mệnh đề 8 của $§ 4$, No. 5, do đó vành $A_m$ là chính quy. Như vậy ta đã chứng minh A là chính quy.
 
-Bây giờ gọi $k'$ là một mở rộng của k. Hạt nhân của ánh xạ $\mu' : A_{(k')} \otimes_{k'} \Lambda_{(k')} \to A_{(k')}$ suy ra từ phép nhân của $A_{(k')}$ không gì khác hơn là $IA_{(k')}$; do đó nó là cát tuyến hoàn toàn trong $A_{(k')}$ ($§ 5$, No. 6, Mệnh đề 6). Vậy $k'$-đại số $A_{(k')}$ thỏa mãn điều kiện (iv); theo điều vừa thấy, nó là chính quy, và điều này chứng minh (i).
+Bây giờ gọi $k'$ là một mở rộng của k. Hạt nhân của ánh xạ $\mu' : A_{(k')} \otimes_{k'} A_{(k')} \to A_{(k')}$ suy ra từ phép nhân của $A_{(k')}$ không gì khác hơn là $IA_{(k')}$; do đó nó là cát tuyến hoàn toàn trong $A_{(k')}$ ($§ 5$, No. 6, Mệnh đề 6). Vậy $k'$-đại số $A_{(k')}$ thỏa mãn điều kiện (iv); theo điều vừa thấy, nó là chính quy, và điều này chứng minh (i).
 
 Nhắc lại (A, III, p. 133-134) rằng thương $I/I^2$ được trang bị cấu trúc A-môđun suy ra từ $\rho$ được kí hiệu bởi $\Omega_k(A)$ và được gọi là môđun các k-vi phân của A. Khi k-đại số A là kiểu hữu hạn về bản chất, vành $A \otimes_k A$ là Noether, nên A-môđun $\Omega_k(A)$ là hữu hạn sinh.
 
-Người ta kí hiệu bởi $d_{A/k}$, hoặc đơn giản là d, ánh xạ K-tuyến tính từ A vào $\Omega_k(A)$ gán cho một phần tử x của A lớp của $x \otimes 1 - 1 \otimes x$ trong $\Omega_k(A)$. Ánh xạ d là một k-đạo hàm; với mọi A-môđun M và mọi k-đạo hàm D : A $\to$ M, tồn tại duy nhất một ánh xạ A-tuyến tính $g : \Omega_k(\Lambda) \to M$ sao cho $D = g \circ d$ (loc. cit., Mệnh đề 18).
+Người ta kí hiệu bởi $d_{A/k}$, hoặc đơn giản là d, ánh xạ K-tuyến tính từ A vào $\Omega_k(A)$ gán cho một phần tử x của A lớp của $x \otimes 1 - 1 \otimes x$ trong $\Omega_k(A)$. Ánh xạ d là một k-đạo hàm; với mọi A-môđun M và mọi k-đạo hàm D : A $\to$ M, tồn tại duy nhất một ánh xạ A-tuyến tính $g : \Omega_k(A) \to M$ sao cho $D = g \circ d$ (loc. cit., Mệnh đề 18).
 
 Nếu S là một tập con nhân của A, ánh xạ $S^{-1}A$-tuyến tính chính tắc (loc. cit., p. 136)
 $$
@@ -332,7 +332,7 @@ $$
 
 điều đó chứng minh (ii).
 
-(iii') \Rightarrow (i) : Giả sử rằng ta có [\kappa_A \otimes_A \Omega_k(\Lambda) : \kappa_A] \leq n , tức là [\kappa(q) \otimes_B \Omega_k(B) : \kappa(q)] \leq n , và hãy chứng minh rằng đại số trên k B là tuyệt đối chính quy. Cho (x_1, \ldots , x_n) là một dãy các phần tử của B sao cho 1 \otimes dx_1, \ldots , 1 \otimes dx_n sinh không gian vectơ \kappa(q)-không gian vectơ \kappa(q) \otimes_B \Omega_k(B) . Thay thế B bằng B_f , với một phần tử thích hợp f của B - q , ta có thể giả sử rằng dx_1, \ldots , dx_n sinh B-môđun \Omega_k(B) (bổ đề Nakayama và II, § 5, No. 1, mệnh đề 2). Cho \bar{k} là một mở rộng đóng đại số của k . Chỉ cần chứng minh rằng đại số trên \bar{k} B_{(\bar{k})} là chính quy, vì điều đó sẽ kéo theo rằng B là tuyệt đối chính quy (hệ quả 4 của mệnh đề 7 ở No. 4). Với mọi nhân tử chính tắc C của B_{(k)} , các vi phân d(1 \otimes x_i) sinh C-môđun \Omega_{\bar{k}}(C) (A, III, § 10, No. 12, mệnh đề 20). Do đó định lý suy ra từ hai bổ đề sau đây:
+(iii') \Rightarrow (i) : Giả sử rằng ta có [\kappa_A \otimes_A \Omega_k(A) : \kappa_A] \leq n , tức là [\kappa(q) \otimes_B \Omega_k(B) : \kappa(q)] \leq n , và hãy chứng minh rằng đại số trên k B là tuyệt đối chính quy. Cho (x_1, \ldots , x_n) là một dãy các phần tử của B sao cho 1 \otimes dx_1, \ldots , 1 \otimes dx_n sinh không gian vectơ \kappa(q)-không gian vectơ \kappa(q) \otimes_B \Omega_k(B) . Thay thế B bằng B_f , với một phần tử thích hợp f của B - q , ta có thể giả sử rằng dx_1, \ldots , dx_n sinh B-môđun \Omega_k(B) (bổ đề Nakayama và II, § 5, No. 1, mệnh đề 2). Cho \bar{k} là một mở rộng đóng đại số của k . Chỉ cần chứng minh rằng đại số trên \bar{k} B_{(\bar{k})} là chính quy, vì điều đó sẽ kéo theo rằng B là tuyệt đối chính quy (hệ quả 4 của mệnh đề 7 ở No. 4). Với mọi nhân tử chính tắc C của B_{(k)} , các vi phân d(1 \otimes x_i) sinh C-môđun \Omega_{\bar{k}}(C) (A, III, § 10, No. 12, mệnh đề 20). Do đó định lý suy ra từ hai bổ đề sau đây:
 
 #### Bổ đề 4 {#ac-x-s6-lem-4 .statement}
 
@@ -346,31 +346,31 @@ Hãy chuyển sang trường hợp tổng quát. Cho e là phần tử lũy đ�
 
 Cho k là một trường đóng đại số, A là một đại số trên k sinh hữu hạn mà phổ là liên thông, n là một số nguyên và (x_1, \ldots , x_n) là một dãy hữu hạn các phần tử của A . Giả sử rằng A có chiều n và các vi phân dx_1, \ldots , dx_n sinh A-môđun \Omega_k(A) . Khi đó vành A là một miền nguyên và chính quy và A-môđun \Omega_k(A) là tự do với cơ sở (dx_1, \ldots , dx_n) .
 
-Cho m là một iđêan cực đại của A sao cho \dim(A_m) = n . Ta có [A/m : k] = 1 (V, § 3, No. 3, mệnh đề 1 (iii)), do đó A = m \oplus k1_A . Ký hiệu p và q là các phép chiếu tương ứng. Với $a$ và $b$ trong $\Lambda$, ta có
+Cho m là một iđêan cực đại của A sao cho \dim(A_m) = n . Ta có [A/m : k] = 1 (V, § 3, No. 3, mệnh đề 1 (iii)), do đó A = m \oplus k1_A . Ký hiệu p và q là các phép chiếu tương ứng. Với $a$ và $b$ trong $A$, ta có
 $$
 ab = (p(a)q(b) + q(a)p(b) + p(a)p(b), q(a)q(b)) ,
 $$
-do đó $p(ab) \equiv p(a)q(b) + q(a)p(b) \pmod{\mathfrak{m}^2}$. Vì vậy ánh xạ $\delta : \Lambda \to \mathfrak{m}/\mathfrak{m}^2$ gán cho mỗi phần tử $x$ của $\Lambda$ lớp của $p(x)$ modulo $\mathfrak{m}^2$ là một $k$-đạo hàm từ $\Lambda$ vào không gian vectơ trên $k$ $\mathfrak{m}/\mathfrak{m}^2$. Do đó tồn tại một ánh xạ tuyến tính theo $\Lambda$ $\phi : \Omega_k(\Lambda) \to \mathfrak{m}/\mathfrak{m}^2$ sao cho $\delta(x) = \phi(dx)$ với mọi $x \in \Lambda$. Vì $\delta$ là toàn ánh, các $\phi(dx_i)$ sinh không gian vectơ trên $\Lambda/\mathfrak{m}$ $\mathfrak{m}/\mathfrak{m}^2$, và ta có $[\mathfrak{m}/\mathfrak{m}^2 : \Lambda/\mathfrak{m}] \leq n = \dim(A_{\mathfrak{m}})$. Suy ra $A_{\mathfrak{m}}$ là chính quy và các ảnh của các $dx_i$ lập thành một cơ sở của không gian vectơ trên $\Lambda/\mathfrak{m}$ $\Lambda/\mathfrak{m} \otimes_A \Omega_k(\Lambda)$.
+do đó $p(ab) \equiv p(a)q(b) + q(a)p(b) \pmod{\mathfrak{m}^2}$. Vì vậy ánh xạ $\delta : A \to \mathfrak{m}/\mathfrak{m}^2$ gán cho mỗi phần tử $x$ của $A$ lớp của $p(x)$ modulo $\mathfrak{m}^2$ là một $k$-đạo hàm từ $A$ vào không gian vectơ trên $k$ $\mathfrak{m}/\mathfrak{m}^2$. Do đó tồn tại một ánh xạ tuyến tính theo $A$ $\phi : \Omega_k(A) \to \mathfrak{m}/\mathfrak{m}^2$ sao cho $\delta(x) = \phi(dx)$ với mọi $x \in A$. Vì $\delta$ là toàn ánh, các $\phi(dx_i)$ sinh không gian vectơ trên $A/\mathfrak{m}$ $\mathfrak{m}/\mathfrak{m}^2$, và ta có $[\mathfrak{m}/\mathfrak{m}^2 : A/\mathfrak{m}] \leq n = \dim(A_{\mathfrak{m}})$. Suy ra $A_{\mathfrak{m}}$ là chính quy và các ảnh của các $dx_i$ lập thành một cơ sở của không gian vectơ trên $A/\mathfrak{m}$ $A/\mathfrak{m} \otimes_A \Omega_k(A)$.
 
-Bây giờ hãy chứng minh rằng vành $\Lambda$ là một miền nguyên và chính quy. Tồn tại một iđêan nguyên tố cực tiểu $\mathfrak{q}$ của $\Lambda$ sao cho $\dim(\Lambda/\mathfrak{q}) = n$. Với mọi iđêan cực đại $\mathfrak{m}$ của $\Lambda$ chứa $\mathfrak{q}$, ta có $\dim(A_{\mathfrak{m}}) = n$ (VIII, § 2, No. 4, hệ quả 2 của định lý 3), do đó $A_{\mathfrak{m}}$ là chính quy theo điều ta vừa thấy. Đặc biệt $A_{\mathfrak{m}}$ là một miền nguyên, điều này kéo theo $\mathfrak{q}A_{\mathfrak{m}} = 0$. Vì điều này đúng với mọi iđêan cực đại $\mathfrak{m}$ của $V(\mathfrak{q})$, ta suy ra rằng $\operatorname{Supp}(\mathfrak{q}) \cap V(\mathfrak{q}) = \varnothing$. Nhưng $\operatorname{Spec}(\Lambda)$ là liên thông, $V(\mathfrak{q})$ là khác rỗng và ta có $\operatorname{Supp}(\mathfrak{q}) \cup V(\mathfrak{q}) = \operatorname{Spec}(\Lambda)$ (II, § 4, No. 4, mệnh đề 16). Ta suy ra rằng $\operatorname{Supp}(\mathfrak{q}) = \varnothing$, do đó $\mathfrak{q} = 0$, nghĩa là $\Lambda$ là một miền nguyên. Khi đó ta có $\dim(A_{\mathfrak{m}}) = n$ với mọi iđêan cực đại $\mathfrak{m}$ của $\Lambda$; áp dụng phần đầu của chứng minh, ta suy ra rằng $\Lambda$ là chính quy.
+Bây giờ hãy chứng minh rằng vành $A$ là một miền nguyên và chính quy. Tồn tại một iđêan nguyên tố cực tiểu $\mathfrak{q}$ của $A$ sao cho $\dim(A/\mathfrak{q}) = n$. Với mọi iđêan cực đại $\mathfrak{m}$ của $A$ chứa $\mathfrak{q}$, ta có $\dim(A_{\mathfrak{m}}) = n$ (VIII, § 2, No. 4, hệ quả 2 của định lý 3), do đó $A_{\mathfrak{m}}$ là chính quy theo điều ta vừa thấy. Đặc biệt $A_{\mathfrak{m}}$ là một miền nguyên, điều này kéo theo $\mathfrak{q}A_{\mathfrak{m}} = 0$. Vì điều này đúng với mọi iđêan cực đại $\mathfrak{m}$ của $V(\mathfrak{q})$, ta suy ra rằng $\operatorname{Supp}(\mathfrak{q}) \cap V(\mathfrak{q}) = \varnothing$. Nhưng $\operatorname{Spec}(A)$ là liên thông, $V(\mathfrak{q})$ là khác rỗng và ta có $\operatorname{Supp}(\mathfrak{q}) \cup V(\mathfrak{q}) = \operatorname{Spec}(A)$ (II, § 4, No. 4, mệnh đề 16). Ta suy ra rằng $\operatorname{Supp}(\mathfrak{q}) = \varnothing$, do đó $\mathfrak{q} = 0$, nghĩa là $A$ là một miền nguyên. Khi đó ta có $\dim(A_{\mathfrak{m}}) = n$ với mọi iđêan cực đại $\mathfrak{m}$ của $A$; áp dụng phần đầu của chứng minh, ta suy ra rằng $A$ là chính quy.
 
-Cuối cùng, giả sử $\sum_{i=1}^n a_i dx_i = 0$ là một quan hệ tuyến tính giữa các $dx_i$ với các hệ số trong $\Lambda$. Nếu các $a_i$ không đồng thời bằng không, thì tồn tại một chỉ số $i$ và một iđêan cực đại $\mathfrak{m}$ của $\Lambda$ sao cho $a_i$ không thuộc $\mathfrak{m}$ (V, § 3, No. 3, Prop. 1, (iii) và (iv)); nhưng điều này mâu thuẫn với sự kiện đã chứng minh ở trên rằng các lớp của $dx_i$ trong $(\Lambda/\mathfrak{m}) \otimes_A \Omega_k(\Lambda)$ là độc lập tuyến tính.
+Cuối cùng, giả sử $\sum_{i=1}^n a_i dx_i = 0$ là một quan hệ tuyến tính giữa các $dx_i$ với các hệ số trong $A$. Nếu các $a_i$ không đồng thời bằng không, thì tồn tại một chỉ số $i$ và một iđêan cực đại $\mathfrak{m}$ của $A$ sao cho $a_i$ không thuộc $\mathfrak{m}$ (V, § 3, No. 3, Prop. 1, (iii) và (iv)); nhưng điều này mâu thuẫn với sự kiện đã chứng minh ở trên rằng các lớp của $dx_i$ trong $(A/\mathfrak{m}) \otimes_A \Omega_k(A)$ là độc lập tuyến tính.
 
 #### Ví dụ {#ac-x-s6-n5-exa-1 .statement}
 
-Khi $\Lambda$ là một mở rộng hữu hạn kiểu của $k$, định lý 1 lại cho Hệ quả 1 của A, V, p. 128, nếu tính đến Ví dụ 2 của No. 4.
+Khi $A$ là một mở rộng hữu hạn kiểu của $k$, định lý 1 lại cho Hệ quả 1 của A, V, p. 128, nếu tính đến Ví dụ 2 của No. 4.
 
 #### Hệ quả 1 {#ac-x-s6-lem-5-cor-1 .statement}
 
-*Cho $k$ là một trường và $\Lambda$ là một $k$-đại số về bản chất là hữu hạn kiểu. Tập hợp các phần tử $\mathfrak{p}$ của $\operatorname{Spec}(\Lambda)$ sao cho $k$-đại số $\Lambda_{\mathfrak{p}}$ là chính quy tuyệt đối là một tập mở trong $\operatorname{Spec}(\Lambda)$.*
+*Cho $k$ là một trường và $A$ là một $k$-đại số về bản chất là hữu hạn kiểu. Tập hợp các phần tử $\mathfrak{p}$ của $\operatorname{Spec}(A)$ sao cho $k$-đại số $A_{\mathfrak{p}}$ là chính quy tuyệt đối là một tập mở trong $\operatorname{Spec}(A)$.*
 
-Ta có thể giả sử rằng $k$-đại số $\Lambda$ là hữu hạn kiểu. Khi đó tập hợp đang xét được tạo thành bởi các iđêan nguyên tố $\mathfrak{p}$ sao cho $[\kappa(\mathfrak{p}) \otimes_k \Omega_k(\Lambda) : \kappa(\mathfrak{p})] \leq \dim_{\mathfrak{p}}(\Lambda)$. Mà ánh xạ $\mathfrak{p} \mapsto \dim_{\mathfrak{p}}(\Lambda)$ là nửa liên tục dưới theo định nghĩa, và ánh xạ $\mathfrak{p} \mapsto [\kappa(\mathfrak{p}) \otimes_k \Omega_k(\Lambda) : \kappa(\mathfrak{p})]$ là nửa liên tục trên (bổ đề Nakayama và II, § 5, No. 1, Mệnh đề 2).
+Ta có thể giả sử rằng $k$-đại số $A$ là hữu hạn kiểu. Khi đó tập hợp đang xét được tạo thành bởi các iđêan nguyên tố $\mathfrak{p}$ sao cho $[\kappa(\mathfrak{p}) \otimes_k \Omega_k(A) : \kappa(\mathfrak{p})] \leq \dim_{\mathfrak{p}}(A)$. Mà ánh xạ $\mathfrak{p} \mapsto \dim_{\mathfrak{p}}(A)$ là nửa liên tục dưới theo định nghĩa, và ánh xạ $\mathfrak{p} \mapsto [\kappa(\mathfrak{p}) \otimes_k \Omega_k(A) : \kappa(\mathfrak{p})]$ là nửa liên tục trên (bổ đề Nakayama và II, § 5, No. 1, Mệnh đề 2).
 
-Ta sẽ thấy về sau (§ 7, No. 9, Hệ quả 4 của Định lý 3) rằng dưới các giả thiết của Hệ quả 1, tập hợp các iđêan nguyên tố $\mathfrak{p}$ của $\Lambda$ sao cho vành $\Lambda_{\mathfrak{p}}$ là chính quy là một tập mở trong $\operatorname{Spec}(\Lambda)$.
+Ta sẽ thấy về sau (§ 7, No. 9, Hệ quả 4 của Định lý 3) rằng dưới các giả thiết của Hệ quả 1, tập hợp các iđêan nguyên tố $\mathfrak{p}$ của $A$ sao cho vành $A_{\mathfrak{p}}$ là chính quy là một tập mở trong $\operatorname{Spec}(A)$.
 
 #### Hệ quả 2 {#ac-x-s6-lem-5-cor-2 .statement}
 
-*Cho $k$ là một trường và $\Lambda$ là một $k$-đại số về bản chất là hữu hạn kiểu. Điều kiện cần và đủ để $\Lambda$ là chính quy tuyệt đối là $\Lambda$-môđun $\Omega_k(\Lambda)$ là xạ ảnh và với mọi iđêan nguyên tố cực tiểu $\mathfrak{q}$ của $\Lambda$, $k$-đại số $\Lambda_{\mathfrak{q}}$ là tách được.*
+*Cho $k$ là một trường và $A$ là một $k$-đại số về bản chất là hữu hạn kiểu. Điều kiện cần và đủ để $A$ là chính quy tuyệt đối là $A$-môđun $\Omega_k(A)$ là xạ ảnh và với mọi iđêan nguyên tố cực tiểu $\mathfrak{q}$ của $A$, $k$-đại số $A_{\mathfrak{q}}$ là tách được.*
 
 Ngược lại, giả sử rằng $A$-môđun $\Omega_k(A)$ là xạ ảnh và $k$-đại số $A_q$ là tách được đối với mọi iđêan nguyên tố cực tiểu $q$ của $A$. Cho $p$ là một iđêan nguyên tố của $A$, và $q$ là một iđêan nguyên tố cực tiểu của $A$ được chứa trong $p$. Vì $A_p$-môđun $\Omega_k(A)_p$ là tự do (II, § 3, No. 2, Hệ quả 2 của Mệnh đề 5), ta có
 

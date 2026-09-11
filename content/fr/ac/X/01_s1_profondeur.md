@@ -49,7 +49,7 @@ subsections:
       pdf_page: 18
 statements: 60
 exercises: 18
-content_sha256: 225c9460593c8de13dabe30c37d11a994b8dc41f2db1aa24ece65402eb5a3910
+content_sha256: b596f26942739f03a2de9e2ead75575c22c8fed14fd19ba83545fa5c7f4b2615
 ---
 
 ## § 1. PROFONDEUR
@@ -426,7 +426,7 @@ Puisque $N$ et $N/yN$ sont plats sur $A$, il en est de même de $\mathrm{Im}(y_N
 
 #### Proposition 10 {#ac-x-s1-prop-10 .statement}
 
-*Soient $\rho : \Lambda \to B$ un homomorphisme local d’anneaux locaux noethériens, $N$ un B-module de type fini et $y = (y_1, \ldots, y_s)$ une suite d’éléments de $m_B$. Notons $\mathfrak{y}$ l’idéal de $B$ engendré par cette suite. Les conditions suivantes sont équivalentes :
+*Soient $\rho : A \to B$ un homomorphisme local d’anneaux locaux noethériens, $N$ un B-module de type fini et $y = (y_1, \ldots, y_s)$ une suite d’éléments de $m_B$. Notons $\mathfrak{y}$ l’idéal de $B$ engendré par cette suite. Les conditions suivantes sont équivalentes :
 
 (i) le A-module $N/\mathfrak{y}N$ est plat et la suite $y$ est N-régulière ;
 (ii) le A-module $N$ est plat et la suite $y$ est $(\kappa_A \otimes_A N)$-régulière.*
@@ -443,7 +443,7 @@ La dernière assertion résulte de même par récurrence sur $s$ de la dernière
 
 #### Proposition 11 {#ac-x-s1-prop-11 .statement}
 
-*Soient $\rho : \Lambda \to B$ un homomorphisme local d’anneaux locaux noethériens, $M$ un A-module de type fini et $N$ un B-module de type fini ; on suppose que le A-module $N$ est plat.*
+*Soient $\rho : A \to B$ un homomorphisme local d’anneaux locaux noethériens, $M$ un A-module de type fini et $N$ un B-module de type fini ; on suppose que le A-module $N$ est plat.*
 
 a) Soient $(x_1, \ldots, x_r)$ une suite d’éléments de $m_A$ régulière pour le A-module $M$, et $(y_1, \ldots, y_s)$ une suite d’éléments de $m_B$ régulière pour le B-module $\kappa_A \otimes_A N$; alors la suite $(y_1, \ldots, y_s, \rho(x_1), \ldots, \rho(x_r))$ d’éléments de $m_B$ est régulière pour le B-module $M \otimes_A N$.
 
@@ -602,7 +602,7 @@ a) *Supposons que $u_p : M_p \to N_p$ soit injectif pour tout $p \in U$ et qu’
 
 b) Supposons que $u_p : M_p \to N_p$ soit bijectif pour tout $p \in U$ et qu’on ait $\mathrm{prof}_F(M) \geqslant 2$ et $\mathrm{prof}_F(N) \geqslant 1$. Alors $u$ est bijectif.
 
-a) Les hypothèses impliquent $\mathrm{Supp}(\mathrm{Ker}\,u) \subset F$, puis $\mathrm{Hom}_\Lambda(\mathrm{Ker}\,u, M) = 0$ (n° 5, remarque 1) ; on a donc $\mathrm{Ker}\,u = 0$.
+a) Les hypothèses impliquent $\mathrm{Supp}(\mathrm{Ker}\,u) \subset F$, puis $\mathrm{Hom}_A(\mathrm{Ker}\,u, M) = 0$ (n° 5, remarque 1) ; on a donc $\mathrm{Ker}\,u = 0$.
 
 b) On sait déjà que $u$ est injectif, et on a $\mathrm{Supp}(\mathrm{Coker}\,u) \subset F$. D’après loc. cit., on a $\mathrm{Hom}_A(\mathrm{Coker}\,u, N) = 0$ et $\mathrm{Ext}_A^1(\mathrm{Coker}\,u, M) = 0$. De la suite exacte des modules d’extensions
 
@@ -620,9 +620,9 @@ Soient $A$ un anneau noethérien, $F$ une partie fermée de $\mathrm{Spec}(A)$, 
 
 Soient $A$ un anneau noethérien, $F$ une partie fermée de $\mathrm{Spec}(A)$ et $U$ l’ouvert complémentaire. On suppose qu’on a $\mathrm{prof}_F(A) \geqslant 2$. Alors, pour toute composante connexe $Y$ de $\mathrm{Spec}(A)$, l’ensemble $Y \cap \overline{U}$ est connexe et dense dans $Y$.
 
-Supposons d’abord que $\mathrm{Spec}(A)$ soit connexe. D’après la remarque 1, $U$ est dense dans $\mathrm{Spec}(A)$ et il s’agit de prouver qu’il est connexe. Raisonnons par l’absurde et supposons donnés deux ouverts disjoints $U_0$ et $U_1$ de $\mathrm{Spec}(A)$, non vides et de réunion $U$. Comme l’ensemble $\mathrm{Ass}(\Lambda)$ est contenu dans $U$ d’après la remarque 1, il est réunion disjointe de $\mathrm{Ass}(A) \cap U_0$ et $\mathrm{Ass}(A) \cap U_1$. D’après IV, § 1, n° 1, prop. 4, il existe des idéaux $J_0$ et $J_1$ de $A$ tels que $\mathrm{Ass}(J_i) = \mathrm{Ass}(A) \cap U_i$, $\mathrm{Ass}(A/J_i) = \mathrm{Ass}(A) \cap U_{1-i} \quad (i = 0, 1)$. Le complémentaire de $U_i$ dans $\mathrm{Spec}(A)$ contient $\mathrm{Ass}(A/J_i)$ et $\mathrm{Ass}(J_{1-i})$; comme il est fermé, il contient $\mathrm{Supp}(A/J_i)$ et $\mathrm{Supp}(J_{1-i})$. Pour $p \in U_i$, on a ainsi $(J_i)_p = A_p$ et $(J_{1-i})_p = 0$; cela implique notamment que $J_0$ et $J_1$ sont distincts de $A$. Soit $B$ le $A$-module $A/J_0 \times A/J_1$ et soit $u : A \to B$ l’homomorphisme canonique. D’après ce qui précède, l’homomorphisme $u_p$ est bijectif pour tout $p \in U$; par ailleurs, on a $\mathrm{Ass}(B) \subset U_0 \cup U_1 = U$, donc $\mathrm{prof}_F(B) \geqslant 1$ d’après la remarque 1. Le lemme 4 implique alors que $u$ est bijectif, ce qui contredit la connexité de $\mathrm{Spec}(A)$.
+Supposons d’abord que $\mathrm{Spec}(A)$ soit connexe. D’après la remarque 1, $U$ est dense dans $\mathrm{Spec}(A)$ et il s’agit de prouver qu’il est connexe. Raisonnons par l’absurde et supposons donnés deux ouverts disjoints $U_0$ et $U_1$ de $\mathrm{Spec}(A)$, non vides et de réunion $U$. Comme l’ensemble $\mathrm{Ass}(A)$ est contenu dans $U$ d’après la remarque 1, il est réunion disjointe de $\mathrm{Ass}(A) \cap U_0$ et $\mathrm{Ass}(A) \cap U_1$. D’après IV, § 1, n° 1, prop. 4, il existe des idéaux $J_0$ et $J_1$ de $A$ tels que $\mathrm{Ass}(J_i) = \mathrm{Ass}(A) \cap U_i$, $\mathrm{Ass}(A/J_i) = \mathrm{Ass}(A) \cap U_{1-i} \quad (i = 0, 1)$. Le complémentaire de $U_i$ dans $\mathrm{Spec}(A)$ contient $\mathrm{Ass}(A/J_i)$ et $\mathrm{Ass}(J_{1-i})$; comme il est fermé, il contient $\mathrm{Supp}(A/J_i)$ et $\mathrm{Supp}(J_{1-i})$. Pour $p \in U_i$, on a ainsi $(J_i)_p = A_p$ et $(J_{1-i})_p = 0$; cela implique notamment que $J_0$ et $J_1$ sont distincts de $A$. Soit $B$ le $A$-module $A/J_0 \times A/J_1$ et soit $u : A \to B$ l’homomorphisme canonique. D’après ce qui précède, l’homomorphisme $u_p$ est bijectif pour tout $p \in U$; par ailleurs, on a $\mathrm{Ass}(B) \subset U_0 \cup U_1 = U$, donc $\mathrm{prof}_F(B) \geqslant 1$ d’après la remarque 1. Le lemme 4 implique alors que $u$ est bijectif, ce qui contredit la connexité de $\mathrm{Spec}(A)$.
 
-Traitons le cas général. Soit $J$ un idéal de $A$ tel que $F = V(J)$ et soit $Y$ une composante connexe de $\mathrm{Spec}(A)$. D’après II, § 4, n° 3, prop. 15, il existe un élément idempotent $f$ de $\Lambda$ tel que $Y$ s’identifie à la partie $\mathrm{Spec}(A_f)$ de $\mathrm{Spec}(A)$. Alors $Y \cap F$ s’identifie à $V(J_f)$; on a $\mathrm{prof}_{\Lambda_f}(J_f, A_f) \geqslant \mathrm{prof}_A(J; A) \geqslant 2$ d’après la prop. 6, a) du n° 3. Il résulte de la première partie de la démonstration que $Y \cap U = Y - (Y \cap F)$ est connexe et dense dans $Y$.
+Traitons le cas général. Soit $J$ un idéal de $A$ tel que $F = V(J)$ et soit $Y$ une composante connexe de $\mathrm{Spec}(A)$. D’après II, § 4, n° 3, prop. 15, il existe un élément idempotent $f$ de $A$ tel que $Y$ s’identifie à la partie $\mathrm{Spec}(A_f)$ de $\mathrm{Spec}(A)$. Alors $Y \cap F$ s’identifie à $V(J_f)$; on a $\mathrm{prof}_{A_f}(J_f, A_f) \geqslant \mathrm{prof}_A(J; A) \geqslant 2$ d’après la prop. 6, a) du n° 3. Il résulte de la première partie de la démonstration que $Y \cap U = Y - (Y \cap F)$ est connexe et dense dans $Y$.
 
 #### Corollaire 1 {#ac-x-s1-thm-3-cor-1 .statement}
 
@@ -636,13 +636,13 @@ Pour tout anneau local noethérien B de profondeur $\geq 2$, l’espace topologi
 
 Sous les hypothèses du théorème 3, supposons que $\operatorname{Spec}(A_p)$ soit irréductible (resp. que $A_p$ soit intègre) pour tout $p \in U$; alors $\operatorname{Spec}(A_p)$ est irréductible (resp. $A_p$ est intègre) pour tout $p \in \operatorname{Spec}(A)$.
 
-Soit $(Y_i)_{i \in I}$ la famille (finie) des composantes irréductibles de $\operatorname{Spec}(A)$. Soit $p \in U$; comme $\operatorname{Spec}(\Lambda_p)$ est irréductible, $p$ contient un seul idéal premier minimal de $\Lambda$, donc n’appartient qu’à une seule des $Y_i$ (II, § 4, n° 3, cor. 2 de la prop. 14). Les sous-ensembles $Y_i \cap U$ sont des parties fermées de $U$, disjointes, non vides puisque $U$ est dense dans $\operatorname{Spec}(A)$, et irréductibles d’après II, § 4, n° 1, prop. 7; ce sont donc les composantes connexes de $U$. Leurs adhérences $Y_i$ sont les composantes connexes de $\operatorname{Spec}(\Lambda)$ (cor. 1). Cela prouve que les composantes connexes de $\operatorname{Spec}(A)$ sont irréductibles, donc que $\operatorname{Spec}(A_p)$ est irréductible pour tout $p$ (n° 8).
+Soit $(Y_i)_{i \in I}$ la famille (finie) des composantes irréductibles de $\operatorname{Spec}(A)$. Soit $p \in U$; comme $\operatorname{Spec}(A_p)$ est irréductible, $p$ contient un seul idéal premier minimal de $A$, donc n’appartient qu’à une seule des $Y_i$ (II, § 4, n° 3, cor. 2 de la prop. 14). Les sous-ensembles $Y_i \cap U$ sont des parties fermées de $U$, disjointes, non vides puisque $U$ est dense dans $\operatorname{Spec}(A)$, et irréductibles d’après II, § 4, n° 1, prop. 7; ce sont donc les composantes connexes de $U$. Leurs adhérences $Y_i$ sont les composantes connexes de $\operatorname{Spec}(A)$ (cor. 1). Cela prouve que les composantes connexes de $\operatorname{Spec}(A)$ sont irréductibles, donc que $\operatorname{Spec}(A_p)$ est irréductible pour tout $p$ (n° 8).
 
 Supposons que $A_q$ soit intègre pour tout $q \in U$. Soit $p \in \operatorname{Spec}(A)$. Puisque $\operatorname{Spec}(A_p)$ est irréductible, le nilradical de $A_p$ est l’unique idéal premier minimal de $A_p$; il appartient donc à $\operatorname{Ass}(A_p)$ (IV, § 1, n° 3, cor. 1 de la prop. 7), et par suite est égal à $qA_p$, où $q$ est un idéal premier associé à $A$ (IV, § 1, n° 2, cor. de la prop. 5). On a $q \in U$ (remarque 1) et $qA_q \in \operatorname{Ass}(A_q)$ (loc. cit.); puisque $A_q$ est intègre, $q$ est nul, donc $A_p$ est intègre.
 
 #### Corollaire 4 {#ac-x-s1-thm-3-cor-4 .statement}
 
-Soit $\Lambda$ un anneau noethérien dont le spectre est connexe. Supposons qu’il existe un entier $d \geq 1$ tel qu’on ait $\operatorname{prof}(\Lambda_p) \geq 2$ pour tout idéal premier $p$ de $A$ de hauteur $> d$.
+Soit $A$ un anneau noethérien dont le spectre est connexe. Supposons qu’il existe un entier $d \geq 1$ tel qu’on ait $\operatorname{prof}(A_p) \geq 2$ pour tout idéal premier $p$ de $A$ de hauteur $> d$.
 
 a) Pour toute partie fermée $Z$ de $\operatorname{Spec}(A)$ de codimension $> d$, l’espace $\operatorname{Spec}(A) - Z$ est connexe.
 
@@ -680,7 +680,7 @@ Inversement :
 #### Proposition 15 {#ac-x-s1-prop-15 .statement}
 
 Soit A un anneau noethérien satisfaisant aux deux conditions suivantes :
-(i) pour tout idéal premier minimal $p$ de $\Lambda$, l’anneau $\Lambda_p$ est réduit ;
+(i) pour tout idéal premier minimal $p$ de $A$, l’anneau $A_p$ est réduit ;
 (ii) pour tout idéal premier $p$ de A de hauteur $\geq 1$, on a $\mathrm{prof}(A_p) \geq 1$.
 Alors A est réduit.
 
@@ -720,7 +720,7 @@ Une forme commode du th. 4 est la suivante : soit $A$ un anneau noethérien, tel
 
 #### Corollaire 1 {#ac-x-s1-thm-4-cor-1 .statement}
 
-*Soient $\Lambda$ un anneau noethérien, $F$ une partie fermée de $\mathrm{Spec}(A)$, $U$ l’ouvert complémentaire. On suppose que $\mathrm{prof}_F(A)$ est $\geqslant 2$ (resp. $\geqslant 1$) et que, pour tout $p \in U$, l’anneau $A_p$ est intégralement clos (resp. réduit). Alors $A$ est normal* (resp. réduit).
+*Soient $A$ un anneau noethérien, $F$ une partie fermée de $\mathrm{Spec}(A)$, $U$ l’ouvert complémentaire. On suppose que $\mathrm{prof}_F(A)$ est $\geqslant 2$ (resp. $\geqslant 1$) et que, pour tout $p \in U$, l’anneau $A_p$ est intégralement clos (resp. réduit). Alors $A$ est normal* (resp. réduit).
 
 Pour tout $p \in F$, on a $\mathrm{prof}(A_p) \geqslant \mathrm{prof}_F(A)$ (n° 5, prop. 8); il suffit donc d’appliquer la remarque précédente.
 

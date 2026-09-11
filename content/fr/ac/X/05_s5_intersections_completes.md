@@ -37,7 +37,7 @@ subsections:
       pdf_page: 69
 statements: 20
 exercises: 11
-content_sha256: 7f166664ba4b53091fb77b61b721e931106fe349a61852ba86d738f377ccd41d
+content_sha256: eeb344109e82555cea3334d8ee4e909c9de3b1564652d5490e54fcebfaebd6b2
 ---
 
 ## § 5. INTERSECTIONS COMPLÈTES
@@ -211,7 +211,7 @@ Lorsque l’anneau $A_0$ est régulier et que le $A_0$-module $P$ est projectif 
 
 Soit $A$ un anneau régulier, gradué de type $\mathbf{N}$. L’anneau $A_0$ formé des éléments de degré 0 dans $A$ est régulier ; il existe un $A_0$-module projectif de type fini $P$ gradué à degrés $> 0$ tel que $A$ soit isomorphe comme $A_0$-algèbre graduée à $S_{A_0}(P)$.
 
-Notons $P$ le $A_0$-module gradué $A_+/A_+^2$. D’après la prop. 4 du n° 3, l’anneau $A_0$ est régulier et le $A_0$-module $P$ est projectif et de type fini. Les composants homogènes de $P$ sont donc projectifs et il existe une section $A_0$-linéaire $\varphi : P \to A_+$, graduée de degré 0 , de la surjection canonique $A_+ \to P$. Soit $f : S_{A_0}(P) \longrightarrow \Lambda$ l’homomorphisme de $A_0$-algèbres graduées qui prolonge $\varphi$. D’après la prop. 4, $f$ s’étend en un isomorphisme du séparé complété de $S_{A_0}(P)$ pour la topologie $S_{A_0}(P)_+$-adique sur le séparé complété de $A$ pour la topologie $A_+$-adique. Par conséquent, $f$ est injectif et son image est dense dans $A$ pour la topologie $A_+$-adique. Mais puisque les topologies induites sur les composants homogènes de $A$ sont discrètes et que l’image de $f$ est un sous-module gradué, cela implique que $f$ est bijectif.
+Notons $P$ le $A_0$-module gradué $A_+/A_+^2$. D’après la prop. 4 du n° 3, l’anneau $A_0$ est régulier et le $A_0$-module $P$ est projectif et de type fini. Les composants homogènes de $P$ sont donc projectifs et il existe une section $A_0$-linéaire $\varphi : P \to A_+$, graduée de degré 0 , de la surjection canonique $A_+ \to P$. Soit $f : S_{A_0}(P) \longrightarrow A$ l’homomorphisme de $A_0$-algèbres graduées qui prolonge $\varphi$. D’après la prop. 4, $f$ s’étend en un isomorphisme du séparé complété de $S_{A_0}(P)$ pour la topologie $S_{A_0}(P)_+$-adique sur le séparé complété de $A$ pour la topologie $A_+$-adique. Par conséquent, $f$ est injectif et son image est dense dans $A$ pour la topologie $A_+$-adique. Mais puisque les topologies induites sur les composants homogènes de $A$ sont discrètes et que l’image de $f$ est un sous-module gradué, cela implique que $f$ est bijectif.
 
 #### Corollaire 1 {#ac-x-s5-thm-2-cor-1 .statement}
 
@@ -233,9 +233,9 @@ Démontrons b).
 #### Corollaire 2 {#ac-x-s5-thm-2-cor-2 .statement}
 
 *Soient k un corps, B une k-algèbre graduée de polynômes, de type fini, et A une sous-algèbre graduée de B. Les conditions suivantes sont équivalentes :
-(i) B est un $\Lambda$-module gradué libre ;
+(i) B est un $A$-module gradué libre ;
 (ii) B est un A-module plat ;
-(iii) on a $\operatorname{Tor}_1^\Lambda(k, B) = 0$ ;
+(iii) on a $\operatorname{Tor}_1^A(k, B) = 0$ ;
 (iv) l’algèbre A est une k-algèbre graduée de polynômes de type fini, et toute suite génératrice algébriquement libre de A formée d’éléments homogènes est B-régulière.*
 
 Les implications (i) $\Rightarrow$ (ii) et (ii) $\Rightarrow$ (iii) sont claires, et l’implication (iii) $\Rightarrow$ (i) résulte de A, X, p. 144, prop. 8, a).
@@ -272,19 +272,19 @@ Soient k un corps, Λ une k-algèbre locale noethérienne, x = (x_1, ..., x_r) u
 (iii) l’homomorphisme $\hat{u}$ fait de $\hat{M}$ un $k[[T_1, \ldots, T_r]]$-module plat.
 L’équivalence de (i) et (ii) résulte de l’équivalence des conditions (i) et (iv) de la prop. 5 ; l’équivalence de (ii) et (iii) résulte de III, § 5, n° 4, prop. 4.
 
-Ces résultats permettent de caractériser les modules macaulayens dans deux cas importants. Notons $\Lambda$ un anneau local noethérien, $M$ un $\Lambda$-module de type fini. Il est équivalent de dire que le $\Lambda$-module $M$ est macaulayen ou que le $\widehat{\Lambda}$-module $\hat{M}$ est macaulayen (§ 2, n° 7, cor. 4 de la prop. 8). Nous supposerons désormais que l’anneau local noethérien $\Lambda$ est complet.
+Ces résultats permettent de caractériser les modules macaulayens dans deux cas importants. Notons $A$ un anneau local noethérien, $M$ un $A$-module de type fini. Il est équivalent de dire que le $A$-module $M$ est macaulayen ou que le $\widehat{A}$-module $\hat{M}$ est macaulayen (§ 2, n° 7, cor. 4 de la prop. 8). Nous supposerons désormais que l’anneau local noethérien $A$ est complet.
 
-1) Supposons d’abord que $\Lambda$ possède un sous-corps ; il admet alors un corps de représentants $k$ (IX, § 3, n° 3, th. 1). Soit $(x_1, \ldots, x_r)$ une suite sécante maximale pour $M$ ; notons $u : k[[T_1, \ldots, T_r]] \longrightarrow \Lambda$ l’unique homomorphisme continu tel que $u(T_i) = x_i$ pour $i = 1, \ldots, r$. D’après le lemme 4 b) de IX, § 2, n° 5 et la remarque 1 de VIII, § 3, n° 2, $A/\mathrm{Ann}(M)$ est un $k[[T_1, \ldots, T_r]]$-module de type fini et par suite $M$ est un $k[[T_1, \ldots, T_r]]$-module de type fini. Cela étant, les conditions suivantes sont équivalentes :
+1) Supposons d’abord que $A$ possède un sous-corps ; il admet alors un corps de représentants $k$ (IX, § 3, n° 3, th. 1). Soit $(x_1, \ldots, x_r)$ une suite sécante maximale pour $M$ ; notons $u : k[[T_1, \ldots, T_r]] \longrightarrow A$ l’unique homomorphisme continu tel que $u(T_i) = x_i$ pour $i = 1, \ldots, r$. D’après le lemme 4 b) de IX, § 2, n° 5 et la remarque 1 de VIII, § 3, n° 2, $A/\mathrm{Ann}(M)$ est un $k[[T_1, \ldots, T_r]]$-module de type fini et par suite $M$ est un $k[[T_1, \ldots, T_r]]$-module de type fini. Cela étant, les conditions suivantes sont équivalentes :
 (i) le $k[[T_1, \ldots, T_r]]$-module $M$ est libre ;
-(ii) le $\Lambda$-module $M$ est macaulayen.
+(ii) le $A$-module $M$ est macaulayen.
 
-En effet, il est équivalent de dire que $M$ est un $\Lambda$-module macaulayen ou que la suite $(x_1, \ldots, x_r)$ est $M$-régulière (§ 2, n° 3, th. 1). D’après le cor. ci-dessus, cette dernière condition signifie que le $k[[T_1, \ldots, T_r]]$-module $M$ est plat, ou encore qu’il est libre puisqu’il est de type fini.
+En effet, il est équivalent de dire que $M$ est un $A$-module macaulayen ou que la suite $(x_1, \ldots, x_r)$ est $M$-régulière (§ 2, n° 3, th. 1). D’après le cor. ci-dessus, cette dernière condition signifie que le $k[[T_1, \ldots, T_r]]$-module $M$ est plat, ou encore qu’il est libre puisqu’il est de type fini.
 
-2) Supposons que le corps résiduel $\kappa_\Lambda$ de $\Lambda$ soit de caractéristique $p > 0$ et que l’on ait $\dim(M/pM) < \dim(M)$. Soit $(x_1, \ldots, x_r)$ une suite sécante maximale pour $M/pM$, de sorte que $(p1_\Lambda, x_1, \ldots, x_r)$ est une suite sécante maximale pour $M$. Soit $C$ un $p$-anneau de longueur $+\infty$, de corps résiduel $\kappa_\Lambda$ (IX, § 2, n° 3, prop. 5). Il existe un homomorphisme $u_0$ de $C$ dans $\Lambda$ qui induit l’identité sur les corps résiduels ; soit $u : C[[T_1, \ldots, T_r]] \longrightarrow \Lambda$ l’unique homomorphisme prolongeant $u_0$ et appliquant $T_i$ sur $x_i$ pour tout $i$. Il résulte comme précédemment de loc. cit., n° 5, lemme 4 que $u$ fait de $M$ un $C[[T_1, \ldots, T_r]]$-module de type fini. Les conditions suivantes sont équivalentes :
+2) Supposons que le corps résiduel $\kappa_A$ de $A$ soit de caractéristique $p > 0$ et que l’on ait $\dim(M/pM) < \dim(M)$. Soit $(x_1, \ldots, x_r)$ une suite sécante maximale pour $M/pM$, de sorte que $(p1_A, x_1, \ldots, x_r)$ est une suite sécante maximale pour $M$. Soit $C$ un $p$-anneau de longueur $+\infty$, de corps résiduel $\kappa_A$ (IX, § 2, n° 3, prop. 5). Il existe un homomorphisme $u_0$ de $C$ dans $A$ qui induit l’identité sur les corps résiduels ; soit $u : C[[T_1, \ldots, T_r]] \longrightarrow A$ l’unique homomorphisme prolongeant $u_0$ et appliquant $T_i$ sur $x_i$ pour tout $i$. Il résulte comme précédemment de loc. cit., n° 5, lemme 4 que $u$ fait de $M$ un $C[[T_1, \ldots, T_r]]$-module de type fini. Les conditions suivantes sont équivalentes :
 (i) le $C[[T_1, \ldots, T_r]]$-module $M$ est libre ;
-(ii) le $\Lambda$-module $M$ est macaulayen.
+(ii) le $A$-module $M$ est macaulayen.
 
-En effet la condition (ii) équivaut à dire que la suite $(x_1, \ldots, x_r)$ est $M$-régulière et que l’homothétie de rapport $p$ dans $M/(x_1M + \ldots + x_rM)$ est injective (§ 2, n° 3, th. 1). Or cette dernière condition signifie que le $C$-module $M/(x_1M + \ldots + x_rM)$ est sans torsion, donc plat ($\Lambda$, X, p. 9, exemple 7). Ainsi, compte tenu de la prop. 5, (iv) $\Leftrightarrow$ (i), la condition (ii) équivaut au fait que le $C[T_1, \ldots, T_r]$-module $M$ est plat, ou encore (III, § 5, n° 4, prop. 4) que le $C[[T_1, \ldots, T_r]]$-module $M$ est plat, c’est-à-dire libre puisqu’il est de type fini.
+En effet la condition (ii) équivaut à dire que la suite $(x_1, \ldots, x_r)$ est $M$-régulière et que l’homothétie de rapport $p$ dans $M/(x_1M + \ldots + x_rM)$ est injective (§ 2, n° 3, th. 1). Or cette dernière condition signifie que le $C$-module $M/(x_1M + \ldots + x_rM)$ est sans torsion, donc plat ($A$, X, p. 9, exemple 7). Ainsi, compte tenu de la prop. 5, (iv) $\Leftrightarrow$ (i), la condition (ii) équivaut au fait que le $C[T_1, \ldots, T_r]$-module $M$ est plat, ou encore (III, § 5, n° 4, prop. 4) que le $C[[T_1, \ldots, T_r]]$-module $M$ est plat, c’est-à-dire libre puisqu’il est de type fini.
 
 ### 6. Idéaux complètement sécants et extension des scalaires
 
@@ -294,7 +294,7 @@ Soient $\rho : A \to B$ un homomorphisme d’anneaux noethériens et $J$ un idé
 
 (i) le $A$-module $B/J$ est plat et l’idéal $J$ est complètement sécant ;
 
-(ii) pour tout $q \in V(J)$, le $A$-module $B_q$ est plat et, pour toute $A$-algèbre $A'$ telle que l’anneau $\Lambda' \otimes_A B$ soit noethérien, l’idéal $J(A' \otimes_A B)$ de $A' \otimes_A B$ est complètement sécant ;
+(ii) pour tout $q \in V(J)$, le $A$-module $B_q$ est plat et, pour toute $A$-algèbre $A'$ telle que l’anneau $A' \otimes_A B$ soit noethérien, l’idéal $J(A' \otimes_A B)$ de $A' \otimes_A B$ est complètement sécant ;
 
 (iii) pour tout idéal maximal $n$ de $B$ contenant $J$, le $A$-module $B_n$ est plat et l’idéal $J(\kappa(\rho^{-1}(n)) \otimes_A B_n)$ de $\kappa(\rho^{-1}(n)) \otimes_A B_n$ est complètement sécant.
 

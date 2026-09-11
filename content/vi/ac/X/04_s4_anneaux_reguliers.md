@@ -141,7 +141,7 @@ trong đó ánh xạ $i$ được suy ra bằng cách chuyển qua các môđun 
 $$
 \mathrm{dp}_B(m_B) \leq \mathrm{dp}_B(m_A/xm_A) = \mathrm{dp}_A(m_A) < +\infty
 $$
-(Hệ quả 2 của Mệnh đề 7 của § 3, No. 4 và $\Lambda$, X, p. 135, Hệ quả 1). Hệ quả 2 của loc. cit. áp dụng cho dãy khớp các $B$-môđun $0 \to m_B \to B \to \kappa_B \to 0$ suy ra $\mathrm{dp}_B(\kappa_B) < +\infty$. Do đó vành $B$ có chiều đồng điều hữu hạn (§ 3, No. 3, Hệ quả 2 của Mệnh đề 4), và có độ sâu $n - 1$ (§ 1, No. 4, Mệnh đề 7 và No. 3, Hệ quả của Mệnh đề 4). Theo giả thiết quy nạp, $B$ là chính quy, do đó $A$ là chính quy (VIII, $§ 5$, No. 3, Hệ quả 1 của Mệnh đề 2).
+(Hệ quả 2 của Mệnh đề 7 của § 3, No. 4 và $A$, X, p. 135, Hệ quả 1). Hệ quả 2 của loc. cit. áp dụng cho dãy khớp các $B$-môđun $0 \to m_B \to B \to \kappa_B \to 0$ suy ra $\mathrm{dp}_B(\kappa_B) < +\infty$. Do đó vành $B$ có chiều đồng điều hữu hạn (§ 3, No. 3, Hệ quả 2 của Mệnh đề 4), và có độ sâu $n - 1$ (§ 1, No. 4, Mệnh đề 7 và No. 3, Hệ quả của Mệnh đề 4). Theo giả thiết quy nạp, $B$ là chính quy, do đó $A$ là chính quy (VIII, $§ 5$, No. 3, Hệ quả 1 của Mệnh đề 2).
 
 Do đó, nếu $A$ là một vành địa phương Noether, có một sự tương đương giữa ba tính chất sau:
 (i) $A$ là chính quy;
@@ -205,7 +205,7 @@ Thực vậy, một vành địa phương chính quy là đóng nguyên (VIII, $
 
 a) *Để vành $\hat{A}$ là chính quy, điều kiện cần và đủ là, với mọi iđêan cực đại $m$ của $A$ chứa $J$, vành $A_m$ là chính quy.*
 
-b) *Nếu vành $A$ là chính quy, vành $\hat{A}$ là chính quy. Nếu vành $\hat{A}$ là chính quy và iđêan $J$ được chứa trong căn của $A$, vành $\Lambda$ là chính quy.*
+b) *Nếu vành $A$ là chính quy, vành $\hat{A}$ là chính quy. Nếu vành $\hat{A}$ là chính quy và iđêan $J$ được chứa trong căn của $A$, vành $A$ là chính quy.*
 
 #### Hệ quả 4 {#ac-x-s4-prop-4-cor-4 .statement}
 
@@ -284,7 +284,7 @@ Vì các trường và các vành Dedekind là chính quy, do đó là trình b�
 
 Cho A là một vành trình bày được.
 
-a) Vành $\Lambda$ là Noether và catenary.
+a) Vành $A$ là Noether và catenary.
 
 b) Cho M là một A-môđun sinh hữu hạn. Ánh xạ
 $$
@@ -292,7 +292,7 @@ p \mapsto \dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p)
 $$
 từ $\operatorname{Spec}(A)$ vào $\mathbf{Z}$ là nửa liên tục trên.
 
-c) Cho M là một $\Lambda$-môđun sinh hữu hạn. Tập hợp các $p \in \operatorname{Spec}(A)$ sao cho A-môđun $M_p$ là Macaulay là một tập mở trù mật. Giao của nó với $\operatorname{Supp}(M)$ là trù mật trong $\operatorname{Supp}(M)$.
+c) Cho M là một $A$-môđun sinh hữu hạn. Tập hợp các $p \in \operatorname{Spec}(A)$ sao cho A-môđun $M_p$ là Macaulay là một tập mở trù mật. Giao của nó với $\operatorname{Supp}(M)$ là trù mật trong $\operatorname{Supp}(M)$.
 
 Chọn một vành chính quy R và một đồng cấu toàn ánh $R \to A$.
 
@@ -409,7 +409,7 @@ Bây giờ còn lại là chứng minh rằng khi các điều kiện tương đ
 
 #### Hệ quả {#ac-x-s4-n5-cor-2 .statement}
 
-*Cho $\rho : \Lambda \to B$ là một đồng cấu của các vành Noether làm cho $B$ là một A-môđun phẳng. Nếu $A$ là chính quy và nếu $\kappa(\rho^{-1}(\mathfrak{n})) \otimes_{\Lambda} B$ là chính quy đối với mọi iđêan cực đại $\mathfrak{n}$ của $B$, thì vành $B$ là chính quy.
+*Cho $\rho : A \to B$ là một đồng cấu của các vành Noether làm cho $B$ là một A-môđun phẳng. Nếu $A$ là chính quy và nếu $\kappa(\rho^{-1}(\mathfrak{n})) \otimes_{A} B$ là chính quy đối với mọi iđêan cực đại $\mathfrak{n}$ của $B$, thì vành $B$ là chính quy.
 
 Thật vậy, đối với mọi iđêan cực đại $\mathfrak{n}$ của $B$, A-môđun $B_n$ của $A_{\rho^{-1}(\mathfrak{n})}$ là phẳng (II, § 3, No. 4, Mệnh đề 15), do đó vành $B_n$ là chính quy theo Mệnh đề 9.
 

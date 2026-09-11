@@ -100,31 +100,31 @@ Nhắc lại (A, X, p. 138, Định nghĩa 2) rằng chiều đồng điều c�
 
 #### Mệnh đề 2 {#ac-x-s3-prop-2 .statement}
 
-Cho $A$ là một vành, $M$ và $N$ là các $\Lambda$-môđun, $i$ là một số nguyên và $S$ là một tập con nhân tính của $\Lambda$. Ta có một đẳng cấu chính tắc của các $S^{-1}A$-môđun
+Cho $A$ là một vành, $M$ và $N$ là các $A$-môđun, $i$ là một số nguyên và $S$ là một tập con nhân tính của $A$. Ta có một đẳng cấu chính tắc của các $S^{-1}A$-môđun
 
 $$
-S^{-1} \mathrm{Tor}_i^\Lambda(M, N) \longrightarrow \mathrm{Tor}_i^{S^{-1}\Lambda}(S^{-1}M, S^{-1}N) .
+S^{-1} \mathrm{Tor}_i^A(M, N) \longrightarrow \mathrm{Tor}_i^{S^{-1}A}(S^{-1}M, S^{-1}N) .
 $$
 
-Nếu vành $A$ là Noether và A-môđun $M$ hữu hạn sinh, ta có một đẳng cấu chính tắc của các $S^{-1}\Lambda$-môđun
+Nếu vành $A$ là Noether và A-môđun $M$ hữu hạn sinh, ta có một đẳng cấu chính tắc của các $S^{-1}A$-môđun
 
 $$
-S^{-1} \mathrm{Ext}_\Lambda^i(M, N) \longrightarrow \mathrm{Ext}_{S^{-1}\Lambda}^i(S^{-1}M, S^{-1}N) .
+S^{-1} \mathrm{Ext}_A^i(M, N) \longrightarrow \mathrm{Ext}_{S^{-1}A}^i(S^{-1}M, S^{-1}N) .
 $$
 
 Vì A-môđun $S^{-1}A$ là phẳng, điều này suy ra từ A, X, p. 110, Mệnh đề 9 và p. 111, Mệnh đề 10.
 
 #### Hệ quả {#ac-x-s3-n2-cor-1 .statement}
 
-Cho $A$ là một vành, $M$ và $N$ là các $\Lambda$-môđun, $i$ là một số nguyên.
+Cho $A$ là một vành, $M$ và $N$ là các $A$-môđun, $i$ là một số nguyên.
 
-a) Giá của $\mathrm{Tor}_i^\Lambda(M, N)$ được chứa trong $\mathrm{Supp}(M) \cap \mathrm{Supp}(N)$, và điều tương tự cũng đúng cho giá của $\mathrm{Ext}_\Lambda^i(M, N)$ nếu $A$ là Noether và $M$ hữu hạn sinh.
+a) Giá của $\mathrm{Tor}_i^A(M, N)$ được chứa trong $\mathrm{Supp}(M) \cap \mathrm{Supp}(N)$, và điều tương tự cũng đúng cho giá của $\mathrm{Ext}_A^i(M, N)$ nếu $A$ là Noether và $M$ hữu hạn sinh.
 
-b) Giả sử rằng $A$ là Noether, và các môđun $M$ và $N$ là hữu hạn sinh; nếu $\Lambda$-môđun $M \otimes_A N$ có độ dài hữu hạn, thì điều tương tự cũng đúng với $\mathrm{Tor}_i^\Lambda(M, N)$ và với $\mathrm{Ext}_\Lambda^i(M, N)$.
+b) Giả sử rằng $A$ là Noether, và các môđun $M$ và $N$ là hữu hạn sinh; nếu $A$-môđun $M \otimes_A N$ có độ dài hữu hạn, thì điều tương tự cũng đúng với $\mathrm{Tor}_i^A(M, N)$ và với $\mathrm{Ext}_A^i(M, N)$.
 
 Nếu $p$ là một iđêan nguyên tố của $A$ không thuộc $\mathrm{Supp}(M) \cap \mathrm{Supp}(N)$, thì một trong hai môđun $M_p$ hoặc $N_p$ bằng không, điều này kéo theo a) theo Mệnh đề 2.
 
-Để một môđun hữu hạn sinh trên một vành Noether có độ dài hữu hạn, điều kiện cần và đủ là giá của nó gồm các iđêan cực đại (IV, § 2, No. 5, Mệnh đề 7). Dưới giả thiết b), các A-môđun $\mathrm{Tor}_i^\Lambda(M, N)$ và $\mathrm{Ext}_\Lambda^i(M, N)$ là hữu hạn sinh (A, X, p. 108, Hệ quả) ; do đó mệnh đề b) suy ra từ a).
+Để một môđun hữu hạn sinh trên một vành Noether có độ dài hữu hạn, điều kiện cần và đủ là giá của nó gồm các iđêan cực đại (IV, § 2, No. 5, Mệnh đề 7). Dưới giả thiết b), các A-môđun $\mathrm{Tor}_i^A(M, N)$ và $\mathrm{Ext}_A^i(M, N)$ là hữu hạn sinh (A, X, p. 108, Hệ quả) ; do đó mệnh đề b) suy ra từ a).
 
 #### Mệnh đề 3 {#ac-x-s3-prop-3 .statement}
 
@@ -259,7 +259,7 @@ Cho $A$ là một vành Noether và $n$ là một số nguyên $\geqslant 0$. N�
 Cho $A$ là một vành Noether, $N$ là một $A$-môđun, $n$ là một số nguyên $\geqslant 0$. Các điều kiện sau là tương đương:
 
 (i) ta có $\operatorname{di}_A(N) < n$ ;
-(ii) với mọi iđêan nguyên tố $p$ của $\Lambda$, ta có $\operatorname{Ext}_A^n(\Lambda/p, N) = 0$ ;
+(ii) với mọi iđêan nguyên tố $p$ của $A$, ta có $\operatorname{Ext}_A^n(A/p, N) = 0$ ;
 (iii) với mọi iđêan nguyên tố $p$ của $A$, ta có $\operatorname{Ext}_{A_p}^n(\kappa(p), N_p) = 0$.
 
 Hơn nữa, nếu $A$-môđun $N$ là hữu hạn kiểu, thì các điều kiện này tương đương với:
@@ -344,10 +344,10 @@ $$
 Xét dãy đồng điều khớp gắn với dãy khớp này. Theo A, X, p. 100, định lý 1, với mọi số nguyên $n \geqslant 0$ ta có các đẳng cấu
 
 $$
-H^n(\mathrm{Homgr}_{\Lambda/xA}(R', E')) \longrightarrow \mathrm{Ext}^n_{A/xA}(M/xM, N)
+H^n(\mathrm{Homgr}_{A/xA}(R', E')) \longrightarrow \mathrm{Ext}^n_{A/xA}(M/xM, N)
 $$
 $$
-H^n(\mathrm{Homgr}_{\Lambda/xA}(P/xP, E')) \longrightarrow H^n(\mathrm{Homgr}_A(P, E')) \longrightarrow \mathrm{Ext}^n_A(M, N)
+H^n(\mathrm{Homgr}_{A/xA}(P/xP, E')) \longrightarrow H^n(\mathrm{Homgr}_A(P, E')) \longrightarrow \mathrm{Ext}^n_A(M, N)
 $$
 $$
 H^n(\mathrm{Homgr}_{A/xA}(R, E')) = H^{n-1}(\mathrm{Homgr}_{A/xA}(R(1), E')) \longrightarrow \mathrm{Ext}^{n-1}_{A/xA}(\mathrm{Ker}(x_M), N)
@@ -364,7 +364,7 @@ $$
 
 (4)
 
-Tương tự, cho $p' : P' \to N$ là một phân giải xạ ảnh của $(\Lambda/xA)$-môđun $N$. Từ dãy khớp (3) suy ra một dãy khớp các phức của các $(A/xA)$-môđun
+Tương tự, cho $p' : P' \to N$ là một phân giải xạ ảnh của $(A/xA)$-môđun $N$. Từ dãy khớp (3) suy ra một dãy khớp các phức của các $(A/xA)$-môđun
 
 $0 \to \mathrm{Homgr}_{A/xA}(P', S) \longrightarrow \mathrm{Homgr}_{A/xA}(P', \mathrm{Ker}(x_E)) \longrightarrow \mathrm{Homgr}_{A/xA}(P', S') \to 0$.
 
@@ -459,9 +459,9 @@ Ta sẽ thấy sau này (§ 4, No. 2) rằng (ii) đặc trưng các vành đị
 
 Giữ các giả thiết của định lý 1.
 
-a) Ta có $dp_A(M) \leq \operatorname{prof}(\Lambda)$. Để có đẳng thức, điều kiện cần và đủ là iđêan cực đại $m_A$ liên kết với $M$.
+a) Ta có $dp_A(M) \leq \operatorname{prof}(A)$. Để có đẳng thức, điều kiện cần và đủ là iđêan cực đại $m_A$ liên kết với $M$.
 
-b) Ta có $\operatorname{prof}_A(M) \leq \operatorname{prof}(\Lambda)$. Để có đẳng thức, điều kiện cần và đủ là $M$ tự do.
+b) Ta có $\operatorname{prof}_A(M) \leq \operatorname{prof}(A)$. Để có đẳng thức, điều kiện cần và đủ là $M$ tự do.
 
 a) Thực vậy, “ $\operatorname{prof}_A(M) = 0$ ” tương đương với “ $m_A \in \operatorname{Ass}(A)$ ” ($§ 1$, No. 1, nhận xét 2).
 
@@ -473,21 +473,21 @@ HỆ QUẢ 2.: Giữ các giả thiết của định lý 1 và giả sử thêm
 
 #### Hệ quả 3 {#ac-x-s3-thm-1-cor-3 .statement}
 
-Cho $A$ là một vành Noether, $M$ là một $A$-môđun sinh hữu hạn có chiều xạ ảnh hữu hạn, $i$ là một số nguyên $\geq 0$, $N$ là một $A$-môđun sinh hữu hạn, và $F$ là giá đỡ của $A$-môđun $\operatorname{Ext}_A^i(M, N)$ (resp. $\operatorname{Tor}_i^\Lambda(M, N)$). Khi đó $\operatorname{prof}_F(\Lambda) \geq i$.
+Cho $A$ là một vành Noether, $M$ là một $A$-môđun sinh hữu hạn có chiều xạ ảnh hữu hạn, $i$ là một số nguyên $\geq 0$, $N$ là một $A$-môđun sinh hữu hạn, và $F$ là giá đỡ của $A$-môđun $\operatorname{Ext}_A^i(M, N)$ (resp. $\operatorname{Tor}_i^A(M, N)$). Khi đó $\operatorname{prof}_F(A) \geq i$.
 
-Thật vậy, cho $p \in F$. Ta có $\operatorname{Ext}_A^i(M_p, N_p) \neq 0$ (resp. $\operatorname{Tor}_i^\Lambda(M_p, N_p) \neq 0$) theo mệnh đề 2 của No. 2, do đó $i \leq dp_{A_p}(M_p) \leq dp_A(M) < +\infty$ (No. 2, mệnh đề 3). Định lý 1 suy ra $\operatorname{prof}(A_p) \geq i$. Do đó ($§ 1$, No. 5, mệnh đề 8)
+Thật vậy, cho $p \in F$. Ta có $\operatorname{Ext}_A^i(M_p, N_p) \neq 0$ (resp. $\operatorname{Tor}_i^A(M_p, N_p) \neq 0$) theo mệnh đề 2 của No. 2, do đó $i \leq dp_{A_p}(M_p) \leq dp_A(M) < +\infty$ (No. 2, mệnh đề 3). Định lý 1 suy ra $\operatorname{prof}(A_p) \geq i$. Do đó ($§ 1$, No. 5, mệnh đề 8)
 
 $$
-\operatorname{prof}_F(\Lambda) = \inf_{p \in F} \operatorname{prof}(A_p) \geq i .
+\operatorname{prof}_F(A) = \inf_{p \in F} \operatorname{prof}(A_p) \geq i .
 $$
 
-Với thuật ngữ của $§ 1$, No. 5, nhận xét 4, kết luận của hệ quả 3 có nghĩa là các môđun $\operatorname{Ext}_\Lambda^i(M, N)$ và $\operatorname{Tor}_i^\Lambda(M, N)$ có grade $\geq i$. Điều đó suy ra rằng đối chiều của giá của chúng trong $\operatorname{Spec}(A)$ là $\geq i$ ($§ 1$, No. 7, mệnh đề 12).
+Với thuật ngữ của $§ 1$, No. 5, nhận xét 4, kết luận của hệ quả 3 có nghĩa là các môđun $\operatorname{Ext}_A^i(M, N)$ và $\operatorname{Tor}_i^A(M, N)$ có grade $\geq i$. Điều đó suy ra rằng đối chiều của giá của chúng trong $\operatorname{Spec}(A)$ là $\geq i$ ($§ 1$, No. 7, mệnh đề 12).
 
 #### Hệ quả 4 {#ac-x-s3-thm-1-cor-4 .statement}
 
 Cho $A$ là một vành Macaulay Noether và $M$ là một $A$-môđun sinh hữu hạn có chiều xạ ảnh hữu hạn.
 
-a) Cho $p \in \operatorname{Spec}(\Lambda)$; ký hiệu bởi $\mathscr{C}(p)$ tập hợp các thành phần bất khả quy của $\operatorname{Supp}(M)$ chứa $p$. Ta có
+a) Cho $p \in \operatorname{Spec}(A)$; ký hiệu bởi $\mathscr{C}(p)$ tập hợp các thành phần bất khả quy của $\operatorname{Supp}(M)$ chứa $p$. Ta có
 
 $$
 \dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p) = dp_{A_p}(M_p) - \inf_{X \in \mathscr{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
@@ -495,7 +495,7 @@ $$
 
 b) Ánh xạ $p \mapsto \dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p)$ từ $\operatorname{Spec}(A)$ vào $\overline{\mathbf{Z}}$ là nửa liên tục trên.
 
-c) Tập hợp các iđêan nguyên tố $p$ của $\Lambda$ sao cho $A_p$-môđun $M_p$ là Macaulay là mở và trù mật trong $\operatorname{Spec}(\Lambda)$. Giao của nó với $\operatorname{Supp}(M)$ là trù mật trong $\operatorname{Supp}(M)$.
+c) Tập hợp các iđêan nguyên tố $p$ của $A$ sao cho $A_p$-môđun $M_p$ là Macaulay là mở và trù mật trong $\operatorname{Spec}(A)$. Giao của nó với $\operatorname{Supp}(M)$ là trù mật trong $\operatorname{Supp}(M)$.
 
 a) Ta có thể giả sử rằng $p \in \operatorname{Supp}(M)$. Đặt $\varphi(p) = \dim(A_p) - \dim_{A_p}(M_p)$. Theo hệ quả 2 ở trên, ta có
 
@@ -510,7 +510,7 @@ $$
 $$
 
 $$
-\dim_{\Lambda_p}(M_p) = \operatorname{codim}(V(p), \operatorname{Supp}(M)) = \sup_{X \in \mathscr{C}(p)} \operatorname{codim}(V(p), X)
+\dim_{A_p}(M_p) = \operatorname{codim}(V(p), \operatorname{Supp}(M)) = \sup_{X \in \mathscr{C}(p)} \operatorname{codim}(V(p), X)
 $$
 
 và do đó
@@ -625,14 +625,14 @@ Còn lại ta phải xét trường hợp $\mathrm{di}_A(A)$ là vô hạn nhưn
 
 Cho $A$ là một vành địa phương Noether; đặt $d = \dim(A)$. Gọi $x = (x_1, \ldots, x_d)$ là một dãy cát tuyến cực đại gồm các phần tử của $m_A$, và $x$ là iđêan mà nó sinh ra. Các điều kiện sau là tương đương:
 
-(i) $\Lambda$ là một vành Gorenstein;
-(ii) ta có $\operatorname{di}_\Lambda(A) = d$;
-(iii) tồn tại một số nguyên $i > d$ sao cho $\operatorname{Ext}^i_\Lambda(\kappa_A, A) = 0$;
-(iv) ta có $\operatorname{Ext}^i_\Lambda(\kappa_A, A) = 0$ với $i < d$ và không gian vectơ trên $\kappa_A$ $\operatorname{Ext}^d_\Lambda(\kappa_A, A)$ có chiều bằng 1;
+(i) $A$ là một vành Gorenstein;
+(ii) ta có $\operatorname{di}_A(A) = d$;
+(iii) tồn tại một số nguyên $i > d$ sao cho $\operatorname{Ext}^i_A(\kappa_A, A) = 0$;
+(iv) ta có $\operatorname{Ext}^i_A(\kappa_A, A) = 0$ với $i < d$ và không gian vectơ trên $\kappa_A$ $\operatorname{Ext}^d_A(\kappa_A, A)$ có chiều bằng 1;
 (v) vành $A$ là Macaulay và không gian vectơ trên $\kappa_A$ $\operatorname{Hom}_A(\kappa_A, A/x)$ có chiều bằng 1;
 (vi) dãy $x$ là $A$-chính quy và không gian vectơ trên $\kappa_A$ $\operatorname{Hom}_A(\kappa_A, A/x)$ có chiều bằng 1.
 
-Tính tương đương của (i), (ii) và (iii) suy ra từ Bổ đề 2 và Mệnh đề 10. Nếu $\operatorname{Ext}^i_\Lambda(\kappa_A, A)$ bằng không với mọi số nguyên $i < d$, thì vành $A$ là Macaulay (§ 2, No. 3, Mệnh đề 3); nếu vành $A$ là Macaulay, thì dãy $x$ là $A$-chính quy (*loc. cit.*, Định lý 1); nếu dãy $x$ là $A$-chính quy, ta có $\operatorname{Ext}^i_\Lambda(\kappa_A, A) = 0$ với $i < d$ và các không gian vectơ trên $\kappa_A$ $\operatorname{Ext}^d_\Lambda(\kappa_A, A)$ và $\operatorname{Hom}_A(\kappa_A, A/x)$ là đẳng cấu (A, X, p. 166, Mệnh đề 9). Điều đó chứng minh tính tương đương của các điều kiện (iv), (v) và (vi).
+Tính tương đương của (i), (ii) và (iii) suy ra từ Bổ đề 2 và Mệnh đề 10. Nếu $\operatorname{Ext}^i_A(\kappa_A, A)$ bằng không với mọi số nguyên $i < d$, thì vành $A$ là Macaulay (§ 2, No. 3, Mệnh đề 3); nếu vành $A$ là Macaulay, thì dãy $x$ là $A$-chính quy (*loc. cit.*, Định lý 1); nếu dãy $x$ là $A$-chính quy, ta có $\operatorname{Ext}^i_A(\kappa_A, A) = 0$ với $i < d$ và các không gian vectơ trên $\kappa_A$ $\operatorname{Ext}^d_A(\kappa_A, A)$ và $\operatorname{Hom}_A(\kappa_A, A/x)$ là đẳng cấu (A, X, p. 166, Mệnh đề 9). Điều đó chứng minh tính tương đương của các điều kiện (iv), (v) và (vi).
 
 Hãy chứng minh rằng (i) kéo theo (v): nếu $A$ là một vành Gorenstein, thì nó là một vành Macaulay (mệnh đề 10). Khi đó dãy $x$ là chính quy đối với $A$ (§ 2, No. 3, mệnh đề 4), do đó $A/x$ là một vành Gorenstein Artin (ví dụ 2), nên không gian vectơ $\operatorname{Hom}_A(\kappa_A, A/x)$ trên $\kappa_A$ có chiều bằng 1.
 
@@ -640,9 +640,9 @@ Sau cùng hãy chứng minh rằng (vi) kéo theo (i): dưới giả thiết (vi
 
 #### Hệ quả {#ac-x-s3-n7-cor-1 .statement}
 
-*Cho $\Lambda$ là một vành địa phương Noether có chiều d. $\Lambda$-môđun $\operatorname{Ext}^d_\Lambda(\kappa_A, A)$ khác không.*
+*Cho $A$ là một vành địa phương Noether có chiều d. $A$-môđun $\operatorname{Ext}^d_A(\kappa_A, A)$ khác không.*
 
-Điều này suy ra từ định lý 2 nếu $\Lambda$ là một vành Gorenstein, và từ bổ đề 2 trong trường hợp ngược lại.
+Điều này suy ra từ định lý 2 nếu $A$ là một vành Gorenstein, và từ bổ đề 2 trong trường hợp ngược lại.
 
 #### Mệnh đề 11 {#ac-x-s3-prop-11 .statement}
 
@@ -696,7 +696,7 @@ Cho $q$ là một iđêan nguyên tố của $B$; đặt $p = \rho^{-1}(q)$. Và
 
 (iii) $\Rightarrow$ (i): với mọi iđêan cực đại $n$ của $B$, từ phần đầu của chứng minh (áp dụng với $q = n$) suy ra rằng $B_n$ là một vành Gorenstein, do đó suy ra (i).
 
-Nếu $B$ là một A-môđun phẳng trung thành, ánh xạ $^a\rho : \mathrm{Spec}(B) \longrightarrow \mathrm{Spec}(\Lambda)$ là toàn ánh (II, § 2, No. 5, hệ quả 4 của mệnh đề 11), do đó suy ra khẳng định cuối cùng.
+Nếu $B$ là một A-môđun phẳng trung thành, ánh xạ $^a\rho : \mathrm{Spec}(B) \longrightarrow \mathrm{Spec}(A)$ là toàn ánh (II, § 2, No. 5, hệ quả 4 của mệnh đề 11), do đó suy ra khẳng định cuối cùng.
 
 #### Hệ quả 2 {#ac-x-s3-prop-12-cor-2 .statement}
 

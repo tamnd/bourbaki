@@ -33,7 +33,7 @@ subsections:
       pdf_page: 58
 statements: 29
 exercises: 13
-content_sha256: 3693d2c40a9c1619178ebb43dafb3e72feae8a82508f1ee62c064bb5c6a45b22
+content_sha256: a112d681205206375fe13e7dc2206d60c01749e1bfcc230287dd728737269808
 ---
 
 ## § 4. ANNEAUX RÉGULIERS
@@ -133,7 +133,7 @@ où l’application $i$ est déduite par passage aux quotients de l’applicatio
 $$
 \mathrm{dp}_B(m_B) \leq \mathrm{dp}_B(m_A/xm_A) = \mathrm{dp}_A(m_A) < +\infty
 $$
-(cor. 2 de la prop. 7 du $§ 3$, n° 4 et $\Lambda$, X, p. 135, cor. 1). Le cor. 2 de loc. cit. appliqué à la suite exacte de $B$-modules $0 \to m_B \to B \to \kappa_B \to 0$ entraîne $\mathrm{dp}_B(\kappa_B) < +\infty$. L’anneau $B$ est donc de dimension homologique finie ($§ 3$, n° 3, cor. 2 de la prop. 4), et de profondeur $n - 1$ ($§ 1$, n° 4, prop. 7 et n° 3, cor. de la prop. 4). Il résulte de l’hypothèse de récurrence que $B$ est régulier, donc que $A$ est régulier (VIII, $§ 5$, n° 3, cor. 1 de la prop. 2).
+(cor. 2 de la prop. 7 du $§ 3$, n° 4 et $A$, X, p. 135, cor. 1). Le cor. 2 de loc. cit. appliqué à la suite exacte de $B$-modules $0 \to m_B \to B \to \kappa_B \to 0$ entraîne $\mathrm{dp}_B(\kappa_B) < +\infty$. L’anneau $B$ est donc de dimension homologique finie ($§ 3$, n° 3, cor. 2 de la prop. 4), et de profondeur $n - 1$ ($§ 1$, n° 4, prop. 7 et n° 3, cor. de la prop. 4). Il résulte de l’hypothèse de récurrence que $B$ est régulier, donc que $A$ est régulier (VIII, $§ 5$, n° 3, cor. 1 de la prop. 2).
 
 Par conséquent, si $A$ est un anneau local noethérien, il y a équivalence entre les trois propriétés suivantes :
 (i) $A$ est régulier ;
@@ -197,7 +197,7 @@ En effet, un anneau local régulier est intégralement clos (VIII, $§ 5$, n° 2
 
 a) *Pour que l’anneau $\hat{A}$ soit régulier, il faut et il suffit que, pour tout idéal maximal $m$ de $A$ contenant $J$, l’anneau $A_m$ soit régulier.*
 
-b) *Si l’anneau $A$ est régulier, l’anneau $\hat{A}$ est régulier. Si l’anneau $\hat{A}$ est régulier et l’idéal $J$ contenu dans le radical de $A$, l’anneau $\Lambda$ est régulier.*
+b) *Si l’anneau $A$ est régulier, l’anneau $\hat{A}$ est régulier. Si l’anneau $\hat{A}$ est régulier et l’idéal $J$ contenu dans le radical de $A$, l’anneau $A$ est régulier.*
 
 #### Corollaire 4 {#ac-x-s4-prop-4-cor-4 .statement}
 
@@ -276,7 +276,7 @@ Puisque les corps et les anneaux de Dedekind sont réguliers, donc présentables
 
 Soit A un anneau présentable.
 
-a) L’anneau $\Lambda$ est noethérien et caténaire.
+a) L’anneau $A$ est noethérien et caténaire.
 
 b) Soit M un A-module de type fini. L’application
 $$
@@ -284,7 +284,7 @@ p \mapsto \dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p)
 $$
 de $\operatorname{Spec}(A)$ dans $\mathbf{Z}$ est semi-continue supérieurement.
 
-c) Soit M un $\Lambda$-module de type fini. L’ensemble des $p \in \operatorname{Spec}(A)$ tels que le $A_p$-module $M_p$ soit macaulayen est un ouvert dense. Son intersection avec $\operatorname{Supp}(M)$ est dense dans $\operatorname{Supp}(M)$.
+c) Soit M un $A$-module de type fini. L’ensemble des $p \in \operatorname{Spec}(A)$ tels que le $A_p$-module $M_p$ soit macaulayen est un ouvert dense. Son intersection avec $\operatorname{Supp}(M)$ est dense dans $\operatorname{Supp}(M)$.
 
 Choisissons un anneau régulier R et un homomorphisme surjectif $R \to A$.
 
@@ -399,7 +399,7 @@ Il nous suffit maintenant de prouver que lorsque les conditions équivalentes (i
 
 #### Corollaire {#ac-x-s4-n5-cor-2 .statement}
 
-*Soit $\rho : \Lambda \to B$ un homomorphisme d’anneaux noethériens faisant de $B$ un $A$-module plat. Si $A$ est régulier et si $\kappa(\rho^{-1}(\mathfrak{n})) \otimes_{\Lambda} B$ est régulier pour tout idéal maximal $\mathfrak{n}$ de $B$, l’anneau $B$ est régulier.
+*Soit $\rho : A \to B$ un homomorphisme d’anneaux noethériens faisant de $B$ un $A$-module plat. Si $A$ est régulier et si $\kappa(\rho^{-1}(\mathfrak{n})) \otimes_{A} B$ est régulier pour tout idéal maximal $\mathfrak{n}$ de $B$, l’anneau $B$ est régulier.
 
 En effet pour tout idéal maximal $\mathfrak{n}$ de $B$ le $A_{\rho^{-1}(\mathfrak{n})}$-module $B_n$ est plat (II, § 3, n° 4, prop. 15), de sorte que l’anneau $B_n$ est régulier d’après la prop. 9.
 

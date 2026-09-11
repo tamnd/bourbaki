@@ -94,19 +94,19 @@ Cho $M$ là một $A$-môđun sinh hữu hạn, và cho $a$ là một iđêan c�
 
 #### Mệnh đề 1 {#ac-x-s2-prop-1 .statement}
 
-Cho $\Lambda$ là một vành Noether, $M$ một $\Lambda$-môđun sinh hữu hạn, và $p$ và $q$ là các iđêan nguyên tố của $\mathrm{Supp}(M)$ sao cho $p \subset q$. Giả sử rằng $\dim_{\Lambda_q}(M_q) = \mathrm{prof}_{\Lambda_q}(M_q)$. Khi đó ta có $\dim_{\Lambda_p}(M_p) = \mathrm{prof}_{\Lambda_p}(M_p)$ và
+Cho $A$ là một vành Noether, $M$ một $A$-môđun sinh hữu hạn, và $p$ và $q$ là các iđêan nguyên tố của $\mathrm{Supp}(M)$ sao cho $p \subset q$. Giả sử rằng $\dim_{A_q}(M_q) = \mathrm{prof}_{A_q}(M_q)$. Khi đó ta có $\dim_{A_p}(M_p) = \mathrm{prof}_{A_p}(M_p)$ và
 $$
-\dim_{\Lambda_q}(M_q) = \dim_{\Lambda_p}(M_p) + \dim(\Lambda_q/\mathfrak{p}\Lambda_q) .
+\dim_{A_q}(M_q) = \dim_{A_p}(M_p) + \dim(A_q/\mathfrak{p}A_q) .
 $$
 Điều này suy ra trực tiếp từ hệ quả 1 của mệnh đề 13 của § 1, No. 7.
 
 #### Hệ quả {#ac-x-s2-n1-cor-1 .statement}
 
-Cho $\Lambda$ là một vành Noether và $M$ một $\Lambda$-môđun sinh hữu hạn. Các điều kiện sau là tương đương:
-(i) $\Lambda$-môđun $M$ là Macaulay;
-(ii) ta có $\mathrm{prof}_{\Lambda_p}(M_p) = \dim_{\Lambda_p}(M_p)$ với mọi $p \in \mathrm{Supp}(M)$;
-(iii) ta có $\mathrm{prof}_F(M) = \mathrm{codim}(\mathrm{Supp}(M) \cap F', \mathrm{Supp}(M))$ với mọi tập con đóng $F$ của $\mathrm{Spec}(\Lambda)$;
-(iv) ta có $\mathrm{prof}_A(p; M) = \dim_{\Lambda_p}(M_p)$ với mọi $p \in \mathrm{Supp}(M)$.
+Cho $A$ là một vành Noether và $M$ một $A$-môđun sinh hữu hạn. Các điều kiện sau là tương đương:
+(i) $A$-môđun $M$ là Macaulay;
+(ii) ta có $\mathrm{prof}_{A_p}(M_p) = \dim_{A_p}(M_p)$ với mọi $p \in \mathrm{Supp}(M)$;
+(iii) ta có $\mathrm{prof}_F(M) = \mathrm{codim}(\mathrm{Supp}(M) \cap F', \mathrm{Supp}(M))$ với mọi tập con đóng $F$ của $\mathrm{Spec}(A)$;
+(iv) ta có $\mathrm{prof}_A(p; M) = \dim_{A_p}(M_p)$ với mọi $p \in \mathrm{Supp}(M)$.
 
 (i) $\Rightarrow$ (ii): điều này suy ra từ Mệnh đề 1.
 (ii) $\Rightarrow$ (iii): theo mệnh đề 8 của § 1, No. 5, $\mathrm{prof}_F(M)$ là cận dưới lớn nhất của các số nguyên $\mathrm{prof}(M_p)$ khi $p$ chạy qua $\mathrm{Supp}(M) \cap F$. Nếu $M$ là Macaulay, thì đối với một iđêan như thế $p$ ta có các đẳng thức $\mathrm{prof}(M_p) = \dim(M_p) = \mathrm{codim}(V(p), \mathrm{Supp}(M))$ (VIII, § 1, No. 4, mệnh đề 9), do đó có (iii).
@@ -115,14 +115,14 @@ Cho $\Lambda$ là một vành Noether và $M$ một $\Lambda$-môđun sinh hữu
 
 #### Nhận xét {#ac-x-s2-n1-rem-1 .statement}
 
-Cho $S$ là một tập con nhân của $\Lambda$ và $M$ là một Macaulay $\Lambda$-môđun sinh hữu hạn. Khi đó $S^{-1}M$ là một Macaulay $S^{-1}\Lambda$-môđun. Thật vậy, cho $q \in \mathrm{Spec}(S^{-1}\Lambda)$; ký hiệu $i_A^S : \Lambda \to S^{-1}\Lambda$ là đồng cấu chính tắc và đặt $p = (i_A^S)^{-1}(q)$. Vành $(S^{-1}\Lambda)_q$ được đồng nhất với $A_p$ (II, § 2, No. 5, mệnh đề 11), và $A_p$-môđun $(S^{-1}M)_q$ được đồng nhất với $A_p$-môđun $M_p$ (II, § 2, No. 7, mệnh đề 20), môđun này là Macaulay theo hệ quả.
+Cho $S$ là một tập con nhân của $A$ và $M$ là một Macaulay $A$-môđun sinh hữu hạn. Khi đó $S^{-1}M$ là một Macaulay $S^{-1}A$-môđun. Thật vậy, cho $q \in \mathrm{Spec}(S^{-1}A)$; ký hiệu $i_A^S : A \to S^{-1}A$ là đồng cấu chính tắc và đặt $p = (i_A^S)^{-1}(q)$. Vành $(S^{-1}A)_q$ được đồng nhất với $A_p$ (II, § 2, No. 5, mệnh đề 11), và $A_p$-môđun $(S^{-1}M)_q$ được đồng nhất với $A_p$-môđun $M_p$ (II, § 2, No. 7, mệnh đề 20), môđun này là Macaulay theo hệ quả.
 
 ### 2. Giá của một môđun Macaulay
 
 #### Mệnh đề 2 {#ac-x-s2-prop-2 .statement}
 
-Cho $\Lambda$ là một vành Noether và $M$ là một Macaulay $\Lambda$-môđun sinh hữu hạn.
-a) $\Lambda$-môđun $M$ không có iđêan nguyên tố liên kết nhúng nào.\footnote{Nhắc lại (xem IV, § 2, No. 3, nhận xét) rằng một iđêan nguyên tố liên kết của $M$ được gọi là nhúng nếu nó không phải là một phần tử cực tiểu của $\mathrm{Supp}(M)$. Do đó nói rằng $M$ không có iđêan nguyên tố liên kết nhúng nghĩa là các iđêan nguyên tố liên kết của $M$ là các phần tử cực tiểu của $\mathrm{Supp}(M)$.}
+Cho $A$ là một vành Noether và $M$ là một Macaulay $A$-môđun sinh hữu hạn.
+a) $A$-môđun $M$ không có iđêan nguyên tố liên kết nhúng nào.\footnote{Nhắc lại (xem IV, § 2, No. 3, nhận xét) rằng một iđêan nguyên tố liên kết của $M$ được gọi là nhúng nếu nó không phải là một phần tử cực tiểu của $\mathrm{Supp}(M)$. Do đó nói rằng $M$ không có iđêan nguyên tố liên kết nhúng nghĩa là các iđêan nguyên tố liên kết của $M$ là các phần tử cực tiểu của $\mathrm{Supp}(M)$.}
 b) Cho $X$ là một tập con đóng bất khả quy của $\mathrm{Supp}(M)$ và $Y$ là một tập con đóng của $X$. Khi đó
 $$
 \mathrm{codim}(Y, X) + \mathrm{codim}(X, \mathrm{Supp}(M)) = \mathrm{codim}(Y, \mathrm{Supp}(M)) .
@@ -299,7 +299,7 @@ Mọi tập con hữu hạn S của A sao cho SM = M đều là cắt mạnh đ�
 
 #### Nhận xét 2 {#ac-x-s2-n4-rem-2 .statement}
 
-Nếu vành A là địa phương và môđun M khác không, thì mọi tập con S của $m_A$ cắt mạnh đối với M đều là cắt đối với M. Thật vậy, vì $\Lambda$-môđun M/SM là khác không, ta có
+Nếu vành A là địa phương và môđun M khác không, thì mọi tập con S của $m_A$ cắt mạnh đối với M đều là cắt đối với M. Thật vậy, vì $A$-môđun M/SM là khác không, ta có
 
 $$
 \text{Card}(S) \leq \operatorname{codim}(\operatorname{Supp}(M/SM), \operatorname{Supp}(M)) \leq \dim(M) - \dim(M/SM)
@@ -312,7 +312,7 @@ $$
 Cho A là một vành Noether, M là một A-môđun hữu hạn sinh, và S là một tập con hữu hạn của A. Các điều kiện sau là tương đương:
 
 (i) tập con S của A là cắt mạnh đối với M;
-(ii) với mọi phần tử $p$ của Supp(M/SM), ánh xạ chính tắc $\Lambda \to A_p$ cảm sinh một song ánh của S lên một tập con của $pA_p$ cắt đối với $M_p$.
+(ii) với mọi phần tử $p$ của Supp(M/SM), ánh xạ chính tắc $A \to A_p$ cảm sinh một song ánh của S lên một tập con của $pA_p$ cắt đối với $M_p$.
 
 (i) $\Rightarrow$ (ii) : Cho $p \in \operatorname{Supp}(M/SM)$ và gọi $S'$ là ảnh của S trong $A_p$. Tập hợp $S'$ được chứa trong iđêan cực đại $pA_p$, và ta có
 
@@ -366,7 +366,7 @@ Với mọi iđêan cực đại $m \in \mathrm{Supp}(M/SM)$, ảnh của S tron
 
 #### Định nghĩa 3 {#ac-x-s2-def-3 .statement}
 
-*Người ta nói rằng một vành $\Lambda$ là Macaulay, hay là một vành Macaulay, nếu nó là Noether và $\Lambda$-môđun $\Lambda$ là Macaulay.*
+*Người ta nói rằng một vành $A$ là Macaulay, hay là một vành Macaulay, nếu nó là Noether và $A$-môđun $A$ là Macaulay.*
 
 #### Ví dụ 1 {#ac-x-s2-n5-exa-1 .statement}
 
@@ -386,7 +386,7 @@ Nếu $A$ là một vành Macaulay, thì $S^{-1}A$ cũng vậy đối với mọ
 
 #### Ví dụ 5 {#ac-x-s2-n5-exa-5 .statement}
 
-Cho $A$ là một vành Noether và $J$ một iđêan của $A$. Để $A/J$ là một vành Macaulay, điều kiện cần và đủ là nó là một $\Lambda$-môđun Macaulay (No. 1, Ví dụ 4).
+Cho $A$ là một vành Noether và $J$ một iđêan của $A$. Để $A/J$ là một vành Macaulay, điều kiện cần và đủ là nó là một $A$-môđun Macaulay (No. 1, Ví dụ 4).
 
 #### Ví dụ 6 {#ac-x-s2-n5-exa-6 .statement}
 
@@ -490,7 +490,7 @@ b) Xét một vành Noether nguyên đóng $B$ và một nhóm hữu hạn $G$ c
 
 #### Mệnh đề 9 {#ac-x-s2-prop-9 .statement}
 
-Cho ρ : A → B là một đồng cấu của các vành Noether, M một A-môđun hữu hạn sinh và N một B-môđun hữu hạn sinh, phẳng trên A. Ký hiệu bởi $^a\rho : \mathrm{Spec}(B) \longrightarrow \mathrm{Spec}(\Lambda)$ ánh xạ liên kết với ρ. Các điều kiện sau là tương đương:
+Cho ρ : A → B là một đồng cấu của các vành Noether, M một A-môđun hữu hạn sinh và N một B-môđun hữu hạn sinh, phẳng trên A. Ký hiệu bởi $^a\rho : \mathrm{Spec}(B) \longrightarrow \mathrm{Spec}(A)$ ánh xạ liên kết với ρ. Các điều kiện sau là tương đương:
 
 (i) B-môđun $M \otimes_A N$ là Macaulay;
 (ii) $(\kappa(p) \otimes_A B)$-môđun $\kappa(p) \otimes_A N$ là Macaulay với mọi $p \in \mathrm{Supp}_A(M)$, và $A_p$-môđun $M_p$ là Macaulay với mọi $p \in ^a\rho(\mathrm{Supp}_B(N))$;
@@ -556,7 +556,7 @@ Hiển nhiên là (v) suy ra (iv) và (iv) suy ra (i).
 
 #### Mệnh đề 10 {#ac-x-s2-prop-10 .statement}
 
-*Cho $\rho : A \to B$ là một đồng cấu của các vành Noether biến $B$ thành một $\Lambda$-môđun phẳng. Các điều kiện sau là tương đương:*
+*Cho $\rho : A \to B$ là một đồng cấu của các vành Noether biến $B$ thành một $A$-môđun phẳng. Các điều kiện sau là tương đương:*
 
 (i) $B$ là một vành Macaulay;
 (ii) với mọi iđêan nguyên tố $q$ của $B$, các vành $A_{\rho^{-1}(q)}$ và $\kappa(\rho^{-1}(q)) \otimes_A B$ là các vành Macaulay;

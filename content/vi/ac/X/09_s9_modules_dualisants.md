@@ -54,7 +54,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 #### Định nghĩa 1 {#ac-x-s9-def-1 .statement}
 
-Cho $A$ là một vành Noether. Ta nói rằng một $\Lambda$-môđun $\Omega$ là đối ngẫu hóa nếu nó sinh hữu hạn và nếu, với mọi iđêan cực đại $m$ của $\Lambda$, không gian vectơ $A/m$ $\mathrm{Ext}_A^i(A/m, \Omega)$ bằng không với $i \neq \mathrm{ht}(m)$ và có chiều 1 với $i = \mathrm{ht}(m)$.
+Cho $A$ là một vành Noether. Ta nói rằng một $A$-môđun $\Omega$ là đối ngẫu hóa nếu nó sinh hữu hạn và nếu, với mọi iđêan cực đại $m$ của $A$, không gian vectơ $A/m$ $\mathrm{Ext}_A^i(A/m, \Omega)$ bằng không với $i \neq \mathrm{ht}(m)$ và có chiều 1 với $i = \mathrm{ht}(m)$.
 
 Với mọi iđêan cực đại $m$ của $A$ và mọi số nguyên $i$, không gian vectơ $A/m$ $\mathrm{Ext}_A^i(A/m, \Omega)$ đẳng cấu chính tắc với $\mathrm{Ext}_{A_m}^i(A/m, \Omega_m)$ ($\S$ 3, No. 2, mệnh đề 2). Do đó, để một $A$-môđun sinh hữu hạn $\Omega$ là đối ngẫu hóa, điều kiện cần và đủ là $A_m$-môđun $\Omega_m$ là đối ngẫu hóa với mọi iđêan cực đại $m$ của $A$.
 
@@ -292,9 +292,9 @@ Thật vậy, với mọi iđêan nguyên tố $\mathfrak{p}$ của $A$, vành $
 
 #### Mệnh đề 6 {#ac-x-s9-prop-6 .statement}
 
-*Cho $\Lambda$ là một vành địa phương Noether và $\Omega$ là một A-môđun đối ngẫu hóa. Cho $B$ là một A-đại số hữu hạn; giả sử rằng A-môđun $B$ là Macaulay. B-môđun $\mathrm{Ext}_A^i(B, \Omega)$ bằng không với $i \neq \dim(A) - \dim(B)$ và là đối ngẫu hóa với $i = \dim(A) - \dim(B)$.
+*Cho $A$ là một vành địa phương Noether và $\Omega$ là một A-môđun đối ngẫu hóa. Cho $B$ là một A-đại số hữu hạn; giả sử rằng A-môđun $B$ là Macaulay. B-môđun $\mathrm{Ext}_A^i(B, \Omega)$ bằng không với $i \neq \dim(A) - \dim(B)$ và là đối ngẫu hóa với $i = \dim(A) - \dim(B)$.
 
-Ta có $\dim(B) = \dim_A(B) \leq \dim(\Lambda)$ (VIII, § 2, No. 3, Định lý 1 c)); đặt $c = \dim(A) - \dim(B)$. Ta có $\mathrm{Ext}_A^i(B, \Omega) = 0$ với $i \neq c$ vì A-môđun $B$ là Macaulay (No. 1, Hệ quả của Mệnh đề 3). Hãy chứng minh rằng B-môđun $\mathrm{Ext}_A^c(B, \Omega)$ là đối ngẫu hóa.
+Ta có $\dim(B) = \dim_A(B) \leq \dim(A)$ (VIII, § 2, No. 3, Định lý 1 c)); đặt $c = \dim(A) - \dim(B)$. Ta có $\mathrm{Ext}_A^i(B, \Omega) = 0$ với $i \neq c$ vì A-môđun $B$ là Macaulay (No. 1, Hệ quả của Mệnh đề 3). Hãy chứng minh rằng B-môđun $\mathrm{Ext}_A^c(B, \Omega)$ là đối ngẫu hóa.
 
 Trước hết giả sử rằng $\dim(B) = 0$. Phổ $X$ của $B$ là hữu hạn và gồm các iđêan cực đại (IV, § 2, No. 5, Mệnh đề 9); ánh xạ chính tắc $B \to \prod_{n \in X} B_n$ là một đẳng cấu (*loc. cit.*, Hệ quả 1). B-môđun $\Omega' = \mathrm{Ext}_A^c(B, \Omega)$ do đó là tổng trực tiếp của các môđun $\mathrm{Ext}_A^c(B_n, \Omega)$; vì $\mathrm{Ext}_A^c(B_n, \Omega)$ có giá trong $\{n\}$, nó được đồng nhất với $\Omega'_n$. Ta có $\dim(B_n) = 0$ với mọi $n$; do đó, để chứng minh rằng B-môđun $\Omega'$ là đối ngẫu hóa, chỉ cần chứng minh điều này cho B_n-môđun $\mathrm{Ext}_A^c(B_n, \Omega)$ với mọi $n \in X$, điều này đưa ta trở lại trường hợp vành $B$ là *địa phương*. Trong trường hợp này, theo Ví dụ 6 của § 8, No. 5, B-môđun $\mathrm{Ext}_A^c(B, \Omega)$ đẳng cấu với $\mathrm{Hom}_A(B, I)$, trong đó $I$ là một A-môđun Matlis; do đó nó là một B-môđun Matlis (§ 8, No. 6, Hệ quả của Mệnh đề 5), vậy nên là một B-môđun đối ngẫu hóa (No. 1, Ví dụ 1).
 

@@ -435,7 +435,7 @@ Vì $N$ và $N/yN$ đều phẳng trên $A$, điều tương tự cũng đúng v
 
 #### Mệnh đề 10 {#ac-x-s1-prop-10 .statement}
 
-*Cho $\rho : \Lambda \to B$ là một đồng cấu địa phương của các vành địa phương Noether, $N$ là một B-môđun hữu hạn sinh và $y = (y_1, \ldots, y_s)$ là một dãy phần tử của $m_B$. Ký hiệu $\mathfrak{y}$ là iđêan của $B$ sinh bởi dãy này. Các điều kiện sau là tương đương:
+*Cho $\rho : A \to B$ là một đồng cấu địa phương của các vành địa phương Noether, $N$ là một B-môđun hữu hạn sinh và $y = (y_1, \ldots, y_s)$ là một dãy phần tử của $m_B$. Ký hiệu $\mathfrak{y}$ là iđêan của $B$ sinh bởi dãy này. Các điều kiện sau là tương đương:
 
 (i) A-môđun $N/\mathfrak{y}N$ là phẳng và dãy $y$ là N-chính quy;
 (ii) A-môđun $N$ là phẳng và dãy $y$ là $(\kappa_A \otimes_A N)$-chính quy.*
@@ -452,7 +452,7 @@ Khẳng định cuối cùng cũng suy ra tương tự bằng quy nạp theo $s$
 
 #### Mệnh đề 11 {#ac-x-s1-prop-11 .statement}
 
-*Cho $\rho : \Lambda \to B$ là một đồng cấu địa phương của các vành địa phương Noether, $M$ là một A-môđun hữu hạn sinh và $N$ là một B-môđun hữu hạn sinh; giả sử rằng A-môđun $N$ là phẳng.*
+*Cho $\rho : A \to B$ là một đồng cấu địa phương của các vành địa phương Noether, $M$ là một A-môđun hữu hạn sinh và $N$ là một B-môđun hữu hạn sinh; giả sử rằng A-môđun $N$ là phẳng.*
 
 a) Cho $(x_1, \ldots, x_r)$ là một dãy các phần tử của $m_A$ chính quy đối với A-môđun $M$, và $(y_1, \ldots, y_s)$ là một dãy các phần tử của $m_B$ chính quy đối với B-môđun $\kappa_A \otimes_A N$; khi đó dãy $(y_1, \ldots, y_s, \rho(x_1), \ldots, \rho(x_r))$ các phần tử của $m_B$ là chính quy đối với B-môđun $M \otimes_A N$.
 
@@ -611,7 +611,7 @@ a) *Giả sử $u_p : M_p \to N_p$ là đơn ánh với mọi $p \in U$ và có 
 
 b) Giả sử $u_p : M_p \to N_p$ là song ánh với mọi $p \in U$ và có $\mathrm{prof}_F(M) \geqslant 2$ và $\mathrm{prof}_F(N) \geqslant 1$. Khi đó $u$ là song ánh.
 
-a) Các giả thiết kéo theo $\mathrm{Supp}(\mathrm{Ker}\,u) \subset F$, do đó $\mathrm{Hom}_\Lambda(\mathrm{Ker}\,u, M) = 0$ (No. 5, Nhận xét 1); vì vậy có $\mathrm{Ker}\,u = 0$.
+a) Các giả thiết kéo theo $\mathrm{Supp}(\mathrm{Ker}\,u) \subset F$, do đó $\mathrm{Hom}_A(\mathrm{Ker}\,u, M) = 0$ (No. 5, Nhận xét 1); vì vậy có $\mathrm{Ker}\,u = 0$.
 
 b) Ta đã biết $u$ là đơn ánh, và có $\mathrm{Supp}(\mathrm{Coker}\,u) \subset F$. Theo loc. cit., ta có $\mathrm{Hom}_A(\mathrm{Coker}\,u, N) = 0$ và $\mathrm{Ext}_A^1(\mathrm{Coker}\,u, M) = 0$. Từ dãy khớp của các môđun mở rộng
 
@@ -629,9 +629,9 @@ Cho $A$ là một vành Noether, $F$ là một tập con đóng của $\mathrm{S
 
 Cho $A$ là một vành Noether, $F$ là một tập con đóng của $\mathrm{Spec}(A)$ và $U$ là tập mở bù. Giả sử rằng $\mathrm{prof}_F(A) \geqslant 2$. Khi đó, với mọi thành phần liên thông $Y$ của $\mathrm{Spec}(A)$, tập hợp $Y \cap \overline{U}$ là liên thông và trù mật trong $Y$.
 
-Trước hết giả sử rằng $\mathrm{Spec}(A)$ là liên thông. Theo nhận xét 1, $U$ trù mật trong $\mathrm{Spec}(A)$, và còn phải chứng minh rằng nó liên thông. Lập luận phản chứng, giả sử tồn tại hai tập mở rời nhau $U_0$ và $U_1$ của $\mathrm{Spec}(A)$, khác rỗng và có hợp là $U$. Vì tập hợp $\mathrm{Ass}(\Lambda)$ được chứa trong $U$ theo nhận xét 1, nên nó là hợp rời nhau của $\mathrm{Ass}(A) \cap U_0$ và $\mathrm{Ass}(A) \cap U_1$. Theo IV, § 1, No. 1, Mệnh đề 4, tồn tại các iđêan $J_0$ và $J_1$ của $A$ sao cho $\mathrm{Ass}(J_i) = \mathrm{Ass}(A) \cap U_i$, $\mathrm{Ass}(A/J_i) = \mathrm{Ass}(A) \cap U_{1-i} \quad (i = 0, 1)$. Phần bù của $U_i$ trong $\mathrm{Spec}(A)$ chứa $\mathrm{Ass}(A/J_i)$ và $\mathrm{Ass}(J_{1-i})$; vì nó đóng, nó chứa $\mathrm{Supp}(A/J_i)$ và $\mathrm{Supp}(J_{1-i})$. Với $p \in U_i$, do đó có $(J_i)_p = A_p$ và $(J_{1-i})_p = 0$; điều này đặc biệt suy ra rằng $J_0$ và $J_1$ khác $A$. Cho $B$ là A-môđun $A/J_0 \times A/J_1$ và cho $u : A \to B$ là đồng cấu chính tắc. Theo điều đã có ở trên, đồng cấu $u_p$ là song ánh với mọi $p \in U$; hơn nữa, ta có $\mathrm{Ass}(B) \subset U_0 \cup U_1 = U$, nên $\mathrm{prof}_F(B) \geqslant 1$ theo nhận xét 1. Bổ đề 4 khi đó suy ra rằng $u$ là song ánh, điều này mâu thuẫn với tính liên thông của $\mathrm{Spec}(A)$.
+Trước hết giả sử rằng $\mathrm{Spec}(A)$ là liên thông. Theo nhận xét 1, $U$ trù mật trong $\mathrm{Spec}(A)$, và còn phải chứng minh rằng nó liên thông. Lập luận phản chứng, giả sử tồn tại hai tập mở rời nhau $U_0$ và $U_1$ của $\mathrm{Spec}(A)$, khác rỗng và có hợp là $U$. Vì tập hợp $\mathrm{Ass}(A)$ được chứa trong $U$ theo nhận xét 1, nên nó là hợp rời nhau của $\mathrm{Ass}(A) \cap U_0$ và $\mathrm{Ass}(A) \cap U_1$. Theo IV, § 1, No. 1, Mệnh đề 4, tồn tại các iđêan $J_0$ và $J_1$ của $A$ sao cho $\mathrm{Ass}(J_i) = \mathrm{Ass}(A) \cap U_i$, $\mathrm{Ass}(A/J_i) = \mathrm{Ass}(A) \cap U_{1-i} \quad (i = 0, 1)$. Phần bù của $U_i$ trong $\mathrm{Spec}(A)$ chứa $\mathrm{Ass}(A/J_i)$ và $\mathrm{Ass}(J_{1-i})$; vì nó đóng, nó chứa $\mathrm{Supp}(A/J_i)$ và $\mathrm{Supp}(J_{1-i})$. Với $p \in U_i$, do đó có $(J_i)_p = A_p$ và $(J_{1-i})_p = 0$; điều này đặc biệt suy ra rằng $J_0$ và $J_1$ khác $A$. Cho $B$ là A-môđun $A/J_0 \times A/J_1$ và cho $u : A \to B$ là đồng cấu chính tắc. Theo điều đã có ở trên, đồng cấu $u_p$ là song ánh với mọi $p \in U$; hơn nữa, ta có $\mathrm{Ass}(B) \subset U_0 \cup U_1 = U$, nên $\mathrm{prof}_F(B) \geqslant 1$ theo nhận xét 1. Bổ đề 4 khi đó suy ra rằng $u$ là song ánh, điều này mâu thuẫn với tính liên thông của $\mathrm{Spec}(A)$.
 
-Xét trường hợp tổng quát. Cho $J$ là một iđêan của $A$ sao cho $F = V(J)$ và cho $Y$ là một thành phần liên thông của $\mathrm{Spec}(A)$. Theo II, § 4, No. 3, Mệnh đề 15, tồn tại một phần tử lũy đẳng $f$ của $\Lambda$ sao cho $Y$ được đồng nhất với tập con $\mathrm{Spec}(A_f)$ của $\mathrm{Spec}(A)$. Khi đó $Y \cap F$ được đồng nhất với $V(J_f)$; ta có $\mathrm{prof}_{\Lambda_f}(J_f, A_f) \geqslant \mathrm{prof}_A(J; A) \geqslant 2$ theo Mệnh đề 6, a) của No. 3. Từ phần đầu của chứng minh suy ra rằng $Y \cap U = Y - (Y \cap F)$ là liên thông và trù mật trong $Y$.
+Xét trường hợp tổng quát. Cho $J$ là một iđêan của $A$ sao cho $F = V(J)$ và cho $Y$ là một thành phần liên thông của $\mathrm{Spec}(A)$. Theo II, § 4, No. 3, Mệnh đề 15, tồn tại một phần tử lũy đẳng $f$ của $A$ sao cho $Y$ được đồng nhất với tập con $\mathrm{Spec}(A_f)$ của $\mathrm{Spec}(A)$. Khi đó $Y \cap F$ được đồng nhất với $V(J_f)$; ta có $\mathrm{prof}_{A_f}(J_f, A_f) \geqslant \mathrm{prof}_A(J; A) \geqslant 2$ theo Mệnh đề 6, a) của No. 3. Từ phần đầu của chứng minh suy ra rằng $Y \cap U = Y - (Y \cap F)$ là liên thông và trù mật trong $Y$.
 
 #### Hệ quả 1 {#ac-x-s1-thm-3-cor-1 .statement}
 
@@ -645,13 +645,13 @@ Với mọi vành địa phương Noether B có độ sâu $\geq 2$, không gian
 
 Dưới các giả thiết của Định lý 3, giả sử rằng $\operatorname{Spec}(A_p)$ là bất khả quy (resp. rằng $A_p$ là một miền nguyên) với mọi $p \in U$; khi đó $\operatorname{Spec}(A_p)$ là bất khả quy (resp. $A_p$ là một miền nguyên) với mọi $p \in \operatorname{Spec}(A)$.
 
-Cho $(Y_i)_{i \in I}$ là họ (hữu hạn) các thành phần bất khả quy của $\operatorname{Spec}(A)$. Cho $p \in U$; vì $\operatorname{Spec}(\Lambda_p)$ là bất khả quy, $p$ chỉ chứa một iđêan nguyên tố cực tiểu của $\Lambda$, và do đó chỉ thuộc về một trong các $Y_i$ (II, § 4, No. 3, Hệ quả 2 của Mệnh đề 14). Các tập con $Y_i \cap U$ là các tập con đóng của $U$, rời nhau từng đôi một, không rỗng vì $U$ trù mật trong $\operatorname{Spec}(A)$, và bất khả quy theo II, § 4, No. 1, Mệnh đề 7; do đó chúng là các thành phần liên thông của $U$. Các bao đóng $Y_i$ của chúng là các thành phần liên thông của $\operatorname{Spec}(\Lambda)$ (Hệ quả 1). Điều này chứng minh rằng các thành phần liên thông của $\operatorname{Spec}(A)$ là bất khả quy, và do đó $\operatorname{Spec}(A_p)$ là bất khả quy với mọi $p$ (No. 8).
+Cho $(Y_i)_{i \in I}$ là họ (hữu hạn) các thành phần bất khả quy của $\operatorname{Spec}(A)$. Cho $p \in U$; vì $\operatorname{Spec}(A_p)$ là bất khả quy, $p$ chỉ chứa một iđêan nguyên tố cực tiểu của $A$, và do đó chỉ thuộc về một trong các $Y_i$ (II, § 4, No. 3, Hệ quả 2 của Mệnh đề 14). Các tập con $Y_i \cap U$ là các tập con đóng của $U$, rời nhau từng đôi một, không rỗng vì $U$ trù mật trong $\operatorname{Spec}(A)$, và bất khả quy theo II, § 4, No. 1, Mệnh đề 7; do đó chúng là các thành phần liên thông của $U$. Các bao đóng $Y_i$ của chúng là các thành phần liên thông của $\operatorname{Spec}(A)$ (Hệ quả 1). Điều này chứng minh rằng các thành phần liên thông của $\operatorname{Spec}(A)$ là bất khả quy, và do đó $\operatorname{Spec}(A_p)$ là bất khả quy với mọi $p$ (No. 8).
 
 Giả sử rằng $A_q$ là một miền nguyên với mọi $q \in U$. Cho $p \in \operatorname{Spec}(A)$. Vì $\operatorname{Spec}(A_p)$ là bất khả quy, căn nil của $A_p$ là iđêan nguyên tố cực tiểu duy nhất của $A_p$; do đó nó thuộc $\operatorname{Ass}(A_p)$ (IV, § 1, No. 3, Hệ quả 1 của Mệnh đề 7), và vì thế bằng $qA_p$, trong đó $q$ là một iđêan nguyên tố liên kết với $A$ (IV, § 1, No. 2, Hệ quả của Mệnh đề 5). Ta có $q \in U$ (Nhận xét 1) và $qA_q \in \operatorname{Ass}(A_q)$ (loc. cit.); vì $A_q$ là một miền nguyên, $q$ bằng không, và do đó $A_p$ là một miền nguyên.
 
 #### Hệ quả 4 {#ac-x-s1-thm-3-cor-4 .statement}
 
-Cho $\Lambda$ là một vành Noether mà phổ của nó là liên thông. Giả sử tồn tại một số nguyên $d \geq 1$ sao cho ta có $\operatorname{prof}(\Lambda_p) \geq 2$ với mọi iđêan nguyên tố $p$ của $A$ có chiều cao $> d$.
+Cho $A$ là một vành Noether mà phổ của nó là liên thông. Giả sử tồn tại một số nguyên $d \geq 1$ sao cho ta có $\operatorname{prof}(A_p) \geq 2$ với mọi iđêan nguyên tố $p$ của $A$ có chiều cao $> d$.
 
 a) Với mọi tập con đóng $Z$ của $\operatorname{Spec}(A)$ có đối chiều $> d$, không gian $\operatorname{Spec}(A) - Z$ là liên thông.
 
@@ -689,7 +689,7 @@ Ngược lại:
 #### Mệnh đề 15 {#ac-x-s1-prop-15 .statement}
 
 Cho A là một vành Noether thỏa mãn hai điều kiện sau:
-(i) với mọi iđêan nguyên tố cực tiểu $p$ của $\Lambda$, vành $\Lambda_p$ là reduced;
+(i) với mọi iđêan nguyên tố cực tiểu $p$ của $A$, vành $A_p$ là reduced;
 (ii) với mọi iđêan nguyên tố $p$ của A có chiều cao $\geq 1$, ta có $\mathrm{prof}(A_p) \geq 1$.
 Khi đó A là reduced.
 
@@ -729,7 +729,7 @@ Một dạng thuận tiện của định lý 4 là như sau: cho $A$ là một 
 
 #### Hệ quả 1 {#ac-x-s1-thm-4-cor-1 .statement}
 
-*Cho $\Lambda$ là một vành Noether, $F$ là một tập con đóng của $\mathrm{Spec}(A)$, $U$ là tập mở bù. Giả sử rằng $\mathrm{prof}_F(A)$ là $\geqslant 2$ (resp. $\geqslant 1$) và rằng, với mọi $p \in U$, vành $A_p$ là nguyên đóng (resp. rút gọn). Khi đó $A$ là chuẩn tắc* (resp. rút gọn).
+*Cho $A$ là một vành Noether, $F$ là một tập con đóng của $\mathrm{Spec}(A)$, $U$ là tập mở bù. Giả sử rằng $\mathrm{prof}_F(A)$ là $\geqslant 2$ (resp. $\geqslant 1$) và rằng, với mọi $p \in U$, vành $A_p$ là nguyên đóng (resp. rút gọn). Khi đó $A$ là chuẩn tắc* (resp. rút gọn).
 
 Với mọi $p \in F$, ta có $\mathrm{prof}(A_p) \geqslant \mathrm{prof}_F(A)$ (No. 5, Prop. 8); vì vậy chỉ cần áp dụng nhận xét trước đó.
 

@@ -58,7 +58,7 @@ $$
 \end{array}
 $$
 
-là một dãy khớp các $A$-môđun. Theo $\Lambda$, X, p. 90, Prop. 8, các đồng cấu nối của các môđun mở rộng $\mathrm{Ext}_A(A/a, P) \longrightarrow \mathrm{Ext}_A(A/a, M)$ tạo thành một hệ quy nạp các ánh xạ $A$-tuyến tính, phân bậc bậc (tăng) +1. Khi chuyển qua giới hạn quy nạp, ta suy ra một đồng cấu $A$ $\partial(\mathscr{E}) : H_A(P) \to H_A(M)$, phân bậc bậc +1, làm cho dãy đồng cấu
+là một dãy khớp các $A$-môđun. Theo $A$, X, p. 90, Prop. 8, các đồng cấu nối của các môđun mở rộng $\mathrm{Ext}_A(A/a, P) \longrightarrow \mathrm{Ext}_A(A/a, M)$ tạo thành một hệ quy nạp các ánh xạ $A$-tuyến tính, phân bậc bậc (tăng) +1. Khi chuyển qua giới hạn quy nạp, ta suy ra một đồng cấu $A$ $\partial(\mathscr{E}) : H_A(P) \to H_A(M)$, phân bậc bậc +1, làm cho dãy đồng cấu
 
 $$
 \ldots \longrightarrow H_A^{n-1}(P) \xrightarrow{\partial^{n-1}(\mathscr{E})} H_A^n(M) \xrightarrow{H_A^n(f)} H_A^n(N) \xrightarrow{H_A^n(g)} H_A^n(P) \xrightarrow{\partial^n(\mathscr{E})} H_A^{n+1}(M) \longrightarrow \ldots
@@ -82,7 +82,7 @@ Cho $\Omega$ là một A-môđun đối ngẫu hóa. Với $i \neq \dim(A)$, có
 
 #### Ví dụ 4 {#ac-x-s10-n1-exa-4 .statement}
 
-Cho A là một vành địa phương nguyên Noether; gọi K là trường phân thức của nó, và giả sử rằng $A \neq K$. Nó là một A-môđun nội xạ (A, X, p. 18, ví dụ 1), nên môđun $H_A(K)$ bằng không (ví dụ 1). Từ dãy khớp $0 \to A \to K \to K/A \to 0$, ta thu được với mọi $i$ một đẳng cấu $H_A^i(K/\Lambda) \to H_A^{i+1}(A)$.
+Cho A là một vành địa phương nguyên Noether; gọi K là trường phân thức của nó, và giả sử rằng $A \neq K$. Nó là một A-môđun nội xạ (A, X, p. 18, ví dụ 1), nên môđun $H_A(K)$ bằng không (ví dụ 1). Từ dãy khớp $0 \to A \to K \to K/A \to 0$, ta thu được với mọi $i$ một đẳng cấu $H_A^i(K/A) \to H_A^{i+1}(A)$.
 
 Nói chung hơn, với mọi A-môđun không xoắn M và mọi số nguyên $i$, từ dãy khớp
 

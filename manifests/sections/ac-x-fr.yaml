@@ -26,7 +26,7 @@ chapters:
           statements: 60
           exercises: 18
           extraction: ocr
-          content_sha256: 225c9460593c8de13dabe30c37d11a994b8dc41f2db1aa24ece65402eb5a3910
+          content_sha256: b596f26942739f03a2de9e2ead75575c22c8fed14fd19ba83545fa5c7f4b2615
         - kind: section
           section: 2
           title: Modules et anneaux macaulayens
@@ -39,7 +39,7 @@ chapters:
           statements: 46
           exercises: 11
           extraction: ocr
-          content_sha256: 2bb1ee1d8fa07faecb99ed380b4de9e87ee14fd0064146c77c3fab3b73cfd146
+          content_sha256: ff330e575d4881104b32e2aa26a3e238d27c787767e37d369959cac87107a0e9
         - kind: section
           section: 3
           title: Profondeur et dimension homologique
@@ -52,7 +52,7 @@ chapters:
           statements: 43
           exercises: 16
           extraction: ocr
-          content_sha256: dd683aa9a7b96b7c006d2b41bc100df991a0c21e1009e92d2f308842b1b5e10e
+          content_sha256: cff1e54e677d660b4335d2d0917a51d15c8183a2d718ef70c8e028164552b105
         - kind: section
           section: 4
           title: Anneaux réguliers
@@ -65,7 +65,7 @@ chapters:
           statements: 29
           exercises: 13
           extraction: ocr
-          content_sha256: 3693d2c40a9c1619178ebb43dafb3e72feae8a82508f1ee62c064bb5c6a45b22
+          content_sha256: a112d681205206375fe13e7dc2206d60c01749e1bfcc230287dd728737269808
         - kind: section
           section: 5
           title: Intersections complètes
@@ -78,7 +78,7 @@ chapters:
           statements: 20
           exercises: 11
           extraction: ocr
-          content_sha256: 7f166664ba4b53091fb77b61b721e931106fe349a61852ba86d738f377ccd41d
+          content_sha256: eeb344109e82555cea3334d8ee4e909c9de3b1564652d5490e54fcebfaebd6b2
         - kind: section
           section: 6
           title: Extension des scalaires dans les algèbres régulières
@@ -90,7 +90,7 @@ chapters:
           statements: 33
           exercises: 7
           extraction: ocr
-          content_sha256: 5ce020b594660b670473a0d1b1f4d34b94ffccaae815319291452fefe8423aae
+          content_sha256: c84c8e9bbfd780cd7d187b3268f56cfdc354d325ebca1ac829b9ed46fabee30d
         - kind: section
           section: 7
           title: Algèbres lisses
@@ -103,7 +103,7 @@ chapters:
           statements: 39
           exercises: 15
           extraction: ocr
-          content_sha256: d68b9c7325c87d31bf9721e3dce35c4be0ff95e79d61fe0491564111f5babb1e
+          content_sha256: 88cf6f006be004d17dda9558ae61456b20a200ae1ce82643f605aed7f8e8fa28
         - kind: section
           section: 8
           title: Dualité des modules de longueur finie
@@ -115,7 +115,7 @@ chapters:
           statements: 31
           exercises: 10
           extraction: ocr
-          content_sha256: fbc50d377bb5b3611bf9f59a677bc3738422facb59e1d4d8254527278d9ee984
+          content_sha256: 7d49f185df1f364335822b1a8ea327c1e9433be048a7e91a8b4906bfa676c41f
         - kind: section
           section: 9
           title: Modules dualisants
@@ -127,7 +127,7 @@ chapters:
           statements: 31
           exercises: 12
           extraction: ocr
-          content_sha256: e91759ba70639eaebfa25698b669acf6e3da97d31ed7579081129197fa443e8f
+          content_sha256: 805b8756f00ed94a3a940e572ede9fcb38905479c4adddb11f5bf8c580ca6bac
         - kind: section
           section: 10
           title: Cohomologie locale, dualité de Grothendieck
@@ -139,4 +139,4 @@ chapters:
           statements: 20
           exercises: 11
           extraction: ocr
-          content_sha256: cc968c21a6b9e12b9f35518aa00501a249af48a3b52e39a832d039372a712eca
+          content_sha256: baf7c2e804ae1d53041db342de4e47ab6a14855fb6f08d49c744e4f7fc3ccbcd
