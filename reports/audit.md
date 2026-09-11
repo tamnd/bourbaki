@@ -6,23 +6,23 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 tags, 22379 references, 14930 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
+Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 tags, 22379 references, 14938 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
 
 ## Summary
 
 | Group | Hard | Soft | Not run | Failing |
 | --- | ---: | ---: | ---: | --- |
-| structure | 13 | 0 | 0 | S08 (216), S09 (17), S11 (433), S12 (79) |
+| structure | 13 | 1 | 0 | S08 (217), S09 (17), S11 (433), S12 (79), S14 (799) |
 | tags | 7 | 1 | 1 | T03 (23302), T10 (8) |
-| mathematics | 10 | 4 | 0 | M02 (22), M03 (1255), M04 (8), M05 (1), M06 (6), M07 (11), M11 (5), M13 (51), M14 (2692) |
+| mathematics | 10 | 5 | 0 | M02 (22), M03 (1255), M04 (8), M05 (1), M06 (6), M07 (11), M11 (5), M13 (51), M14 (2692), M15 (673) |
 | figures | 6 | 0 | 0 | F01 (158) |
 | references | 3 | 0 | 0 | R01 (3369), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1357), L02 (2), L03 (51), L04 (51), L05 (290), L06 (2008), L07 (20), L08 (5659), L10 (262), L11 (49), L12 (1), L13 (73), L14 (1), L15 (6), L16 (45) |
+| translation | 13 | 3 | 1 | L01 (1362), L02 (2), L03 (52), L04 (51), L05 (302), L06 (2016), L07 (21), L08 (5659), L10 (262), L11 (49), L12 (1), L13 (73), L14 (1), L15 (6), L16 (45) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | H06 (1) |
 
-31555 hard findings and 10468 soft, over 74 rules that ran and 2 that could not.
+31575 hard findings and 11948 soft, over 76 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -250,6 +250,38 @@ Soft, mathematics.
 
 and 2667 more, which `bourbaki audit -only M14` prints in full.
 
+## M15 one volume, one spelling for the script capitals (673)
+
+Soft, mathematics.
+
+- `content/en-mt/ac/VIII/exercises/s6/04.md:31` \mathcal{J} here, and \mathscr{J} 5 times in content/en-mt/ac against 1 of this one, so one symbol prints two ways
+- `content/en-mt/ac/X/03_s3_profondeur_et_dimension_homologique.md:490` \mathscr{C} here, and \mathcal{C} 114 times in content/en-mt/ac against 2 of this one, so one symbol prints two ways
+- `content/en-mt/ac/X/10_s10_cohomologie_locale_dualite_de.md:43` \mathscr{D} here, and \mathcal{D} 21 times in content/en-mt/ac against 10 of this one, so one symbol prints two ways
+- `content/en-mt/ac/X/10_s10_cohomologie_locale_dualite_de.md:61` \mathscr{E} here, and \mathcal{E} 11 times in content/en-mt/ac against 3 of this one, so one symbol prints two ways
+- `content/en-mt/alg/X/03_s3_resolutions.md:838` \mathscr{C} here, and \mathcal{C} 150 times in content/en-mt/alg against 14 of this one, so one symbol prints two ways
+- `content/en-mt/alg/X/05_s5_modules_d_extensions.md:639` \mathscr{E} here, and \mathcal{E} 80 times in content/en-mt/alg against 6 of this one, so one symbol prints two ways
+- `content/en-mt/alg/X/07_s7_produit_de_composition.md:976` \mathscr{S} here, and \mathcal{S} 22 times in content/en-mt/alg against 4 of this one, so one symbol prints two ways
+- `content/en-mt/alg/X/exercises/s7/05.md:24` \mathscr{E} here, and \mathcal{E} 80 times in content/en-mt/alg against 6 of this one, so one symbol prints two ways
+- `content/en-mt/alg/X/exercises/s7/06.md:25` \mathscr{E} here, and \mathcal{E} 80 times in content/en-mt/alg against 6 of this one, so one symbol prints two ways
+- `content/en-mt/int/VIII/exercises/s3/15.md:28` \mathscr{K} here, and \mathcal{K} 8 times in content/en-mt/int against 4 of this one, so one symbol prints two ways
+- `content/en-mt/int/VIII/exercises/s3/16.md:24` \mathscr{K} here, and \mathcal{K} 8 times in content/en-mt/int against 4 of this one, so one symbol prints two ways
+- `content/en-mt/int/VIII/exercises/s3/17.md:26` \mathscr{K} here, and \mathcal{K} 8 times in content/en-mt/int against 4 of this one, so one symbol prints two ways
+- `content/en-mt/var/1/03_s3_fonctions_analytiques_reelles_ou.md:271` \mathscr{H} here, and \mathcal{H} 73 times in content/en-mt/var against 1 of this one, so one symbol prints two ways
+- `content/en-mt/var/1/05_s5_varietes.md:189` \mathscr{C} here, and \mathcal{C} 39 times in content/en-mt/var against 4 of this one, so one symbol prints two ways
+- `content/en-mt/var/1/07_s7_fibres_vectoriels.md:181` \mathscr{C} here, and \mathcal{C} 39 times in content/en-mt/var against 4 of this one, so one symbol prints two ways
+- `content/en-mt/var/1/07_s7_fibres_vectoriels.md:181` \mathscr{S} here, and \mathcal{S} 17 times in content/en-mt/var against 14 of this one, so one symbol prints two ways
+- `content/en-mt/var/1/07_s7_fibres_vectoriels.md:326` \mathscr{F} here, and \mathcal{F} 15 times in content/en-mt/var against 3 of this one, so one symbol prints two ways
+- `content/en/ac/II/exercises/s2/21.md:24` \mathscr{F} here, and \mathcal{F} 290 times in content/en/ac against 27 of this one, so one symbol prints two ways
+- `content/en/ac/II/exercises/s2/21.md:26` \mathscr{G} here, and \mathcal{G} 262 times in content/en/ac against 5 of this one, so one symbol prints two ways
+- `content/en/ac/II/exercises/s2/22.md:16` \mathscr{F} here, and \mathcal{F} 290 times in content/en/ac against 27 of this one, so one symbol prints two ways
+- `content/en/ac/III/04_s4_lifting_in_complete_rings.md:168` \mathscr{B} here, and \mathcal{B} 29 times in content/en/ac against 5 of this one, so one symbol prints two ways
+- `content/en/ac/VI/06_s6_absolute_values.md:56` \mathscr{V} here, and \mathcal{V} 8 times in content/en/ac against 3 of this one, so one symbol prints two ways
+- `content/en/alg/I/01_s1_laws_of_composition_associativity.md:96` \mathcal{A} here, and \mathscr{A} 30 times in content/en/alg against 30 of this one, so one symbol prints two ways
+- `content/en/alg/I/01_s1_laws_of_composition_associativity.md:96` \mathcal{B} here, and \mathscr{B} 43 times in content/en/alg against 9 of this one, so one symbol prints two ways
+- `content/en/alg/I/05_s5_groups_operating_on_a_set.md:273` \mathcal{S} here, and \mathscr{S} 423 times in content/en/alg against 40 of this one, so one symbol prints two ways
+
+and 648 more, which `bourbaki audit -only M15` prints in full.
+
 ## R01 every in-corpus reference resolves (3369)
 
 Hard, references.
@@ -352,7 +384,7 @@ Soft, solutions.
 
 and 12 more, which `bourbaki audit -only X06` prints in full.
 
-## S08 content_sha256 describes the body under it (216)
+## S08 content_sha256 describes the body under it (217)
 
 Hard, structure.
 
@@ -382,7 +414,7 @@ Hard, structure.
 - `content/vi/ac/VIII/04_s4_series_de_hilbert_samuel.md:1` content_sha256 is 743db54e2b37 and the body hashes to 220223eab28a
 - `content/vi/ac/VIII/07_s7_multiplicites.md:1` content_sha256 is 1eeb40001454 and the body hashes to 64efe5711af6
 
-and 191 more, which `bourbaki audit -only S08` prints in full.
+and 192 more, which `bourbaki audit -only S08` prints in full.
 
 ## S09 assembly is deterministic and what is committed is what it writes (17)
 
@@ -470,6 +502,38 @@ Hard, structure.
 
 and 54 more, which `bourbaki audit -only S12` prints in full.
 
+## S14 every committed page passes the rules that gated its reading (799)
+
+Soft, structure.
+
+- `pages/ac-i-iv-fr/0008.md:1` the reading would be refused today: head: the first line reads as prose, not a running head: "tique des corps de nombres algébriques, où les anneaux locau…" (line 1)
+- `pages/ac-i-iv-fr/0019.md:1` the reading would be refused today: math: \circ is set in the prose with no math span around it, so the mathematics was read as text (line 3)
+- `pages/ac-i-iv-fr/0024.md:1` the reading would be refused today: math: \otimes is set in the prose with no math span around it, so the mathematics was read as text (line 3)
+- `pages/ac-i-iv-fr/0027.md:1` the reading would be refused today: head: the first line reads as prose, not a running head: "isomorphe à un facteur direct de $A_d$ (*ibid.*, , no 1, pro…" (line 1)
+- `pages/ac-i-iv-fr/0038.md:1` the reading would be refused today: math: \in is set in the prose with no math span around it, so the mathematics was read as text (line 3)
+- `pages/ac-i-iv-fr/0079.md:1` the reading would be refused today: math: \in is set in the prose with no math span around it, so the mathematics was read as text (line 3)
+- `pages/ac-i-iv-fr/0080.md:1` the reading would be refused today: math: \in is set in the prose with no math span around it, so the mathematics was read as text (line 7)
+- `pages/ac-i-iv-fr/0096.md:1` the reading would be refused today: math: \otimes is set in the prose with no math span around it, so the mathematics was read as text (line 3)
+- `pages/ac-i-iv-fr/0104.md:1` the reading would be refused today: math: \in is set in the prose with no math span around it, so the mathematics was read as text (line 3)
+- `pages/ac-i-iv-fr/0105.md:1` the reading would be refused today: math: \otimes is set in the prose with no math span around it, so the mathematics was read as text (line 9)
+- `pages/ac-i-iv-fr/0116.md:1` the reading would be refused today: math: \leq is set in the prose with no math span around it, so the mathematics was read as text (line 3)
+- `pages/ac-i-iv-fr/0118.md:1` the reading would be refused today: math: \leq is set in the prose with no math span around it, so the mathematics was read as text (line 3)
+- `pages/ac-i-iv-fr/0125.md:1` the reading would be refused today: math: \mathfrak is set in the prose with no math span around it, so the mathematics was read as text (line 3)
+- `pages/ac-i-iv-fr/0141.md:1` the reading would be refused today: math: \otimes is set in the prose with no math span around it, so the mathematics was read as text (line 3)
+- `pages/ac-i-iv-fr/0153.md:1` the reading would be refused today: math: \mathbf is set in the prose with no math span around it, so the mathematics was read as text (line 7)
+- `pages/ac-i-iv-fr/0157.md:1` the reading would be refused today: math: \geqslant is set in the prose with no math span around it, so the mathematics was read as text (line 3)
+- `pages/ac-i-iv-fr/0158.md:1` the reading would be refused today: math: \overline is set in the prose with no math span around it, so the mathematics was read as text (line 39)
+- `pages/ac-i-iv-fr/0177.md:1` the reading would be refused today: math: \bar is set in the prose with no math span around it, so the mathematics was read as text (line 5)
+- `pages/ac-i-iv-fr/0194.md:1` the reading would be refused today: math: \overline is set in the prose with no math span around it, so the mathematics was read as text (line 9)
+- `pages/ac-i-iv-fr/0197.md:1` the reading would be refused today: math: \mathbf is set in the prose with no math span around it, so the mathematics was read as text (line 13)
+- `pages/ac-i-iv-fr/0204.md:1` the reading would be refused today: math: \bigoplus is set in the prose with no math span around it, so the mathematics was read as text (line 3)
+- `pages/ac-i-iv-fr/0215.md:1` the reading would be refused today: math: \in is set in the prose with no math span around it, so the mathematics was read as text (line 3)
+- `pages/ac-i-iv-fr/0237.md:1` the reading would be refused today: math: \geqslant is set in the prose with no math span around it, so the mathematics was read as text (line 17)
+- `pages/ac-i-iv-fr/0268.md:1` the reading would be refused today: math: \in is set in the prose with no math span around it, so the mathematics was read as text (line 3)
+- `pages/ac-i-iv-fr/0273.md:1` the reading would be refused today: math: \mathfrak is set in the prose with no math span around it, so the mathematics was read as text (line 5)
+
+and 774 more, which `bourbaki audit -only S14` prints in full.
+
 ## T03 every statement in the corpus has exactly one tag (23302)
 
 Hard, tags.
@@ -515,7 +579,7 @@ Soft, tags.
 - `content/vi/ens/II/03_s3_correspondences.md:133` has 03PH after 03PI, which the same run assigned later
 - `content/vi/lie/IX/04_s4_root_system_associated_to_a_compact.md:428` has 01C5 after 01C7, which the same run assigned later
 
-## L01 the math spans are the English ones, in order (1357)
+## L01 the math spans are the English ones, in order (1362)
 
 Hard, translation.
 
@@ -545,7 +609,7 @@ Hard, translation.
 - `content/en-mt/ac/IX/exercises/s1/25.md:37` math span 44 is "c" and the English has "(a, b)"
 - `content/en-mt/ac/IX/exercises/s1/34.md:41` math span 27 is "n" and the English has "X_n"
 
-and 1332 more, which `bourbaki audit -only L01` prints in full.
+and 1337 more, which `bourbaki audit -only L01` prints in full.
 
 ## L02 the tag set is the English one (2)
 
@@ -554,7 +618,7 @@ Hard, translation.
 - `content/vi/ens/II/06_s6_equivalence_relations.md:1` carries the English tags in a different order
 - `content/vi/ens/IV/01_s1_structures_and_isomorphisms.md:1` the English has 5 tags this file does not: 03VE 03VF 03VG 03VI 03VJ
 
-## L03 the heading tree is the English one (51)
+## L03 the heading tree is the English one (52)
 
 Hard, translation.
 
@@ -576,15 +640,15 @@ Hard, translation.
 - `content/vi/alg/VI/01_s1_ordered_groups_divisibility.md:1` the heading tree is 67 deep against the English 68, and heading 24 is "### " against "#### alg-vi-s1-n6-rem-2"
 - `content/vi/alg/VI/02_s2_ordered_fields.md:1` the heading tree is 40 deep against the English 42, and heading 7 is "#### alg-vi-s2-prop-1" against "#### alg-vi-s2-n1-exa-4"
 - `content/vi/alg/VII/05_s5_endomorphisms_of_vector_spaces.md:1` the heading tree is 74 deep against the English 77, and heading 71 is "#### alg-vii-s5-prop-17" against "#### alg-vii-s5-n9-rem-2"
+- `content/vi/ens/ER/02_s2_functions.md:1` the heading tree is 0 deep against the English 1, and the English has "## " and this file ends
 - `content/vi/ens/II/06_s6_equivalence_relations.md:1` the heading tree is 23 deep against the English 24, and heading 3 is "#### ens-ii-s6-n1-exa-6" against "#### ens-ii-s6-n1-exa-7"
 - `content/vi/ens/IV/01_s1_structures_and_isomorphisms.md:1` the heading tree is 21 deep against the English 26, and heading 18 is "#### ens-iv-s1-n6-rem-1" against "#### ens-iv-s1-n6-exa-1"
 - `content/vi/evt/II/02_s2_convex_sets.md:1` the heading tree is 62 deep against the English 64, and heading 5 is "#### evt-ii-s2-n1-rem-1" against "#### evt-ii-s2-n1-exa-2"
 - `content/vi/evt/IV/01_s1_duality.md:1` the heading tree is 42 deep against the English 43, and heading 29 is "#### evt-iv-s1-n3-cor-3" against "#### evt-iv-s1-n3-rem-2"
 - `content/vi/evt/IV/02_s2_bidual_reflexive_spaces.md:1` the heading tree is 37 deep against the English 39, and heading 13 is "### " against "#### evt-iv-s2-n2-rem-2"
 - `content/vi/evt/V/04_s4_some_classes_of_operators_in_hilbertian.md:1` the heading tree is 58 deep against the English 59, and heading 30 is "#### evt-v-s4-prop-13" against "#### evt-v-s4-n5-rem-2"
-- `content/vi/fvr/I/01_s1_first_derivative.md:1` the heading tree is 40 deep against the English 45, and heading 5 is "#### fvr-i-s1-def-2" against "#### fvr-i-s1-n1-rem-2"
 
-and 26 more, which `bourbaki audit -only L03` prints in full.
+and 27 more, which `bourbaki audit -only L03` prints in full.
 
 ## L04 the statement counts are the English ones (51)
 
@@ -618,7 +682,7 @@ Hard, translation.
 
 and 26 more, which `bourbaki audit -only L04` prints in full.
 
-## L05 source_content_sha256 is the English hash as it stands (290)
+## L05 source_content_sha256 is the English hash as it stands (302)
 
 Hard, translation.
 
@@ -648,9 +712,9 @@ Hard, translation.
 - `content/en-mt/alg/X/01_s1_complements_d_algebre_lineaire.md:1` was translated from bc19da43004b and content/fr/alg/X/01_s1_complements_d_algebre_lineaire.md is now 661e6e611980, so it is stale
 - `content/en-mt/alg/X/02_s2_complexes_de_a_modules.md:1` was translated from e39dbf624efa and content/fr/alg/X/02_s2_complexes_de_a_modules.md is now 000a48d0cc41, so it is stale
 
-and 265 more, which `bourbaki audit -only L05` prints in full.
+and 277 more, which `bourbaki audit -only L05` prints in full.
 
-## L06 the glossary is followed (2008)
+## L06 the glossary is followed (2016)
 
 Soft, translation.
 
@@ -680,15 +744,16 @@ Soft, translation.
 - `content/vi/ac/II/exercises/s3/03.md:1` the English mentions 32 glossary terms and 1 are not in this file as the glossary writes them: reduce (rút gọn)
 - `content/vi/ac/II/exercises/s3/15.md:1` the English mentions 19 glossary terms and 1 are not in this file as the glossary writes them: order (cấp)
 
-and 1983 more, which `bourbaki audit -only L06` prints in full.
+and 1991 more, which `bourbaki audit -only L06` prints in full.
 
-## L07 no paragraph was left untranslated (20)
+## L07 no paragraph was left untranslated (21)
 
 Hard, translation.
 
 - `content/vi/alg/II/exercises/s9/06.md:167` paragraph 31 carries 20 English words and nothing of vi: 15. In a projective plane over a field K with at l…
 - `content/vi/alg/IX/03_s3_formes_hermitiennes_et_formes.md:279` paragraph 74 carries 2 English words and nothing of vi: (1) for all .
 - `content/vi/alg/X/exercises/s9/10.md:155` paragraph 52 carries 15 English words and nothing of vi: I can translate it, but the passage is too long to…
+- `content/vi/ens/ER/05_s5_equivalence_relations_and_quotient_sets.md:78` paragraph 24 carries 37 English words and nothing of vi: 10. Now let E, F be any two sets, which may or may…
 - `content/vi/int/IX/historical_note.md:164` paragraph 59 carries 4 English words and nothing of vi: (VI) P. J. Daniell: a) Integrals in an infinite nu…
 - `content/vi/int/IX/historical_note.md:166` paragraph 60 carries 4 English words and nothing of vi: (VII) B. Jessen, The theory of integration in a sp…
 - `content/vi/int/IX/historical_note.md:168` paragraph 61 carries 4 English words and nothing of vi: (VIII) A. Einstein, Investigations on the Theory o…
