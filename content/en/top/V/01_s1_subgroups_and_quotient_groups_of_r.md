@@ -28,7 +28,7 @@ subsections:
       pdf_page: 15
 statements: 13
 exercises: 3
-content_sha256: c002969ca857c3fbe860d348d27582dd457331b655514d3b9dbdafc9ddc370e0
+content_sha256: 9cbebe4e1a8bae0b0fc827315001a2e67f647f8725f32eac13cd778b30295812
 ---
 
 ## 1. SUBGROUPS AND QUOTIENT GROUPS OF $\mathbf{R}$
@@ -66,7 +66,7 @@ Every *Hausdorff* quotient group of $\mathbf{R}$ is of the form $\mathbf{R}/H$, 
 
 #### Remark 2 {#top-v-s1-n2-rem-2 .statement}
 
-*As we shall see in Chapter VI, § 2, no. 4, the topological space* $\mathbf{T}$ *is homeomorphic to the circle* $x^2 + y^2 = 1$ *in the real number plane* $\mathbf{R}^2$; *the product space* $\mathbf{T}^2$ *is homeomorphic to a* torus of revolution *in* $\mathbf{R}^3$ *(Chapter VII, § 1, Exercise 15)*. *This is the origin of the name* "one-dimensional torus" *for* $\mathbf{T}$ *(in Chapter VII, § 1, we shall call* $\mathbf{T}^n$ *the n-dimensional torus)* *.
+\* *As we shall see in Chapter VI, § 2, no. 4, the topological space* $\mathbf{T}$ *is homeomorphic to the circle* $x^2 + y^2 = 1$ *in the real number plane* $\mathbf{R}^2$; *the product space* $\mathbf{T}^2$ *is homeomorphic to a* torus of revolution *in* $\mathbf{R}^3$ *(Chapter VII, § 1, Exercise 15)*. *This is the origin of the name* "one-dimensional torus" *for* $\mathbf{T}$ *(in Chapter VII, § 1, we shall call* $\mathbf{T}^n$ *the n-dimensional torus)* *.
 
 #### Proposition 4 {#top-v-s1-prop-4 .statement}
 

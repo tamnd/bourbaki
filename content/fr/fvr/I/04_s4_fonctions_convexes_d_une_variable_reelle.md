@@ -27,9 +27,9 @@ subsections:
       title: Critères de convexité
       page: 38
       pdf_page: 36
-statements: 21
+statements: 23
 exercises: 25
-content_sha256: 085dbd3166d7ca5d8e68a6e45152357a117b12c69542c893fd186e19a87d782c
+content_sha256: 75259f901626bf63f4807a794433c6bf4a7b1dabbf9d8c9eec785a348d52570e
 ---
 
 ## § 4. FONCTIONS CONVEXES D’UNE VARIABLE RÉELLE
@@ -85,12 +85,18 @@ pour $0 \leq \lambda \leq 1$ et $y > f(x), y' > f(x')$ ; en faisant tendre y ver
 #### Exemple 1 {#fvr-i-s4-n1-exa-1 .statement}
 
 Toute fonction linéaire affine (numérique) $ax + b$ est convexe dans $\mathbf{R}$.
-2) La fonction $x^2$ est convexe dans $\mathbf{R}$, car on a
+
+#### Exemple 2 {#fvr-i-s4-n1-exa-2 .statement}
+
+La fonction $x^2$ est convexe dans $\mathbf{R}$, car on a
 $$
 \lambda x^2 + (1 - \lambda){x'}^2 - (\lambda x + (1 - \lambda)x')^2 = \lambda(1 - \lambda)(x - x')^2 \geq 0
 $$
 pour $0 \leq \lambda \leq 1$.
-3) La fonction $|x|$ est convexe dans $\mathbf{R}$, car on a
+
+#### Exemple 3 {#fvr-i-s4-n1-exa-3 .statement}
+
+La fonction $|x|$ est convexe dans $\mathbf{R}$, car on a
 $$
 |\lambda x + (1 - \lambda)x'| \leq \lambda |x| + (1 - \lambda)|x'|
 $$

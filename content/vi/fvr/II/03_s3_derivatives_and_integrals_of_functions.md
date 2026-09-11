@@ -103,8 +103,7 @@ Nói cách khác, khi $I$ không bị chặn, nếu ký hiệu bởi $\mathcal{I
 
 Ta sẽ tìm các điều kiện *đủ* để bảo đảm tính đúng đắn của mệnh đề 1, dưới các giả thiết sau:
 
-1. $I$ is an arbitrary interval in $\mathbf{R}$, the function $\mathbf{f}_\alpha$ is regulated on $I$, and admits an integral over $I$;
-2. the family $(\mathbf{f}_\alpha)$ converges uniformly to $\mathbf{f}$ with respect to the filter $\mathfrak{F}$ on every compact interval contained in $I$.
+1. $I$ là một khoảng tùy ý trong $\mathbf{R}$, hàm $\mathbf{f}_\alpha$ là điều chỉnh trên $I$, và có một tích phân trên $I$; 2. họ $(\mathbf{f}_\alpha)$ hội tụ đều đến $\mathbf{f}$ đối với lọc $\mathfrak{F}$ trên mọi khoảng compact nằm trong $I$.
 
 Ký hiệu $\mathfrak{K}(I)$ là tập có hướng các khoảng compact được chứa trong $I$ (II, p. 64), vế trái của công thức (1) ở II, p. 68 có thể được viết là $\lim_{\delta} \left( \lim_{J \in \mathfrak{K}(I)} \int_J \mathbf{f}_\alpha(t) \, dt \right)$; mặt khác, có xét đến mệnh đề 1 (II. p. 68), và cả thực tế là họ $(\mathbf{f}_\alpha)$ hội tụ đều trên mọi khoảng compact $J \subset I$, vế phải của (1) (II, p. 68) có thể được viết là $\lim_{J \in \mathfrak{K}(I)} \left( \lim_{\delta} \int_J \mathbf{f}_\alpha(t) \, dt \right)$. Do đó thấy rằng mệnh đề 1 của II, p. 19 được mở rộng khi ta có thể *đổi chỗ các giới hạn* của ánh xạ$(J, \alpha) \mapsto \int_J \mathbf{f}_\alpha(t) \, dt$ đối với bộ lọc $\mathfrak{F}$ và đối với bộ lọc $\Phi$ của các thiết diện của tập có hướng $\mathfrak{K}(I)$. Nay, ta biết một điều kiện *đủ* để việc đổi chỗ này là chính đáng, tức là sự tồn tại của giới hạn của ánh xạ $(J, \alpha) \mapsto \int_J \mathbf{f}_\alpha(t) \, dt$ đối với *bộ lọc tích* $\Phi \times \mathfrak{F}$ (*Gen. Top.*, I, p. 81, hệ quả của đ. lý 1). Ta sẽ biến đổi điều kiện này thành một điều kiện tương đương, dễ xử lý hơn.
 

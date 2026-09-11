@@ -142,7 +142,7 @@ Chính trực tiếp với Lagrange mà các nghiên cứu của đồng hương
 
 ** Thực ra, nếu ta chỉ muốn chứng minh rằng phương trình giải được bằng căn thức thì có thể chỉ cần xét trường hợp $e = 1$ và lập luận quy nạp theo $n$.
 
-*** Theo đó, các nhà toán học thế kỷ 19 về thực chất hiểu một phương trình mà các hệ số là các *ẩn định* trên trường các số hữu tỉ. Nhưng khái niệm hiện đại về ẩn định hầu như chưa xuất hiện trước những năm cuối của thế kỷ 19; cho đến lúc đó, người ta luôn hiểu bởi « đa thức » hay « phân thức hữu tỉ » một *hàm* của các biến phức. Một phương trình đại số « tổng quát » được quan niệm như một phương trình mà các hệ số là những biến phức độc lập và các nghiệm của nó là những « hàm đại số » của các biến ấy - một khái niệm mà thật ra hoàn toàn không có nghĩa chính xác nào nếu ta cho từ a function » nghĩa hiện nay của nó. Dĩ nhiên, lập luận với những « hàm đại số » này nói chung là đúng về bản chất, như có thể xác định được bằng cách chuyển dịch nó sang ngôn ngữ đại số hiện đại.
+*** Theo đó, các nhà toán học thế kỷ 19 về thực chất hiểu một phương trình mà các hệ số là các *ẩn định* trên trường các số hữu tỉ. Nhưng khái niệm hiện đại về ẩn định hầu như chưa xuất hiện trước những năm cuối của thế kỷ 19; cho đến lúc đó, người ta luôn hiểu bởi « đa thức » hay « phân thức hữu tỉ » một *hàm* của các biến phức. Một phương trình đại số « tổng quát » được quan niệm như một phương trình mà các hệ số là những biến phức độc lập và các nghiệm của nó là những « hàm đại số » của các biến ấy - một khái niệm mà thật ra hoàn toàn không có nghĩa chính xác nào nếu ta cho từ a hàm » nghĩa hiện nay của nó. Dĩ nhiên, lập luận với những « hàm đại số » này nói chung là đúng về bản chất, như có thể xác định được bằng cách chuyển dịch nó sang ngôn ngữ đại số hiện đại.
 
 **** Xem P. Ruffini, *Opere Matematiche*, 3 vol. Roma (Ed. Cremonese), 1953-1954, cũng như H. Burkhardt, *Zeitschr. für Math. und Phys.* vol. *XXXVII* (1892), Suppl. p. 121-159.
 
@@ -168,8 +168,7 @@ Trước hết, đối với các vô tỉ đại số, một nguyên lý phân 
 
 Song song với sự tiến triển này, khái niệm phần tử siêu việt trên một trường được làm cho chính xác. Sự tồn tại của các số siêu việt được Liouville chứng minh lần đầu tiên vào năm 1844, bằng một phép dựng tường minh, dựa trên lý thuyết các phép xấp xỉ Diophantus [17]; Cantor năm 1874 đã cho một chứng minh « không kiến thiết » khác, dùng những suy xét đơn giản về lực lượng của các tập hợp (x. V, p. 147), Ex. 3); cuối cùng Hermite đã chứng minh năm 1873 tính siêu việt của $e$ và Lindemann năm 1882 chứng minh rằng
 
-\* Từ « field » bắt nguồn từ chính Dedekind; « ring » được Hilbert đưa vào (Dedekind gọi các vành là « orders »).
-** « ... Tập hợp của tất cả các phép thế này tạo thành theo một nghĩa nào đó một đa tạp liên tục, một vấn đề mà ở đây chúng tôi sẽ không đi sâu thêm » ([18], vol. 2, p. 288).
+\* Từ « trường » bắt nguồn từ chính Dedekind; « vành » được Hilbert đưa vào (Dedekind gọi các vành là « orders »). ** « ... Tập hợp của tất cả các phép thế này tạo thành theo một nghĩa nào đó một đa tạp liên tục, một vấn đề mà ở đây chúng tôi sẽ không đi sâu thêm » ([18], vol. 2, p. 288).
 
 của $\pi$ bằng một phương pháp tương tự với phương pháp của Hermite, do đó cuối cùng khép lại cuộc bàn luận về bài toán cổ xưa là cầu phương hình tròn *.
 

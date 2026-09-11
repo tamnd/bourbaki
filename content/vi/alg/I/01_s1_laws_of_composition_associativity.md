@@ -365,7 +365,7 @@ $$
 
 Ta nêu riêng hai trường hợp đặc biệt quan trọng của định lý này:
 
-1. If $(x_{\alpha \beta})_{(\alpha, \beta) \in A \times B}$ is a finite family of permutable elements of an associative magma whose indexing set is the product of two non-empty finite sets $A, B$ (a "double family"), then
+1. Nếu $(x_{\alpha \beta})_{(\alpha, \beta) \in A \times B}$ là một họ hữu hạn các phần tử hoán vị được của một magmơ kết hợp mà tập chỉ số của nó là tích của hai tập hữu hạn không rỗng $A, B$ (một "họ kép"), thì
 
 $$
 \prod_{(\alpha, \beta) \in A \times B} x_{\alpha \beta} = \prod_{\alpha \in A} \left( \prod_{\beta \in B} x_{\alpha \beta} \right) = \prod_{\beta \in B} \left( \prod_{\alpha \in A} x_{\alpha \beta} \right)
@@ -393,7 +393,7 @@ $$
 
 và tương tự đối với các luật được ký hiệu bằng những ký hiệu khác.
 
-2. Let $n$ be an integer $> 0$ and let $A$ be the set of ordered pairs of integers $(i, j)$ such that $0 \leq i \leq n, 0 \leq j \leq n$ and $i < j$; the composition of a family $(x_{ij})_{(i, j) \in A}$ (under a commutative associative law) is also denoted by $\prod_{0 \leq i < j \leq n} x_{ij}$ (or simply $\prod_{i < j} x_{ij}$, if no confusion arises); Theorem 3 here gives the formulae
+2. Cho $n$ là một số nguyên $> 0$ và cho $A$ là tập các cặp có thứ tự của các số nguyên $(i, j)$ sao cho $0 \leq i \leq n, 0 \leq j \leq n$ và $i < j$; hợp thành của một họ $(x_{ij})_{(i, j) \in A}$ (theo một luật kết hợp giao hoán) cũng được ký hiệu bởi $\prod_{0 \leq i < j \leq n} x_{ij}$ (hoặc đơn giản là $\prod_{i < j} x_{ij}$, nếu không gây nhầm lẫn); Định lý 3 ở đây cho các công thức
 
 $$
 \prod_{0 \leq i < j \leq n} x_{ij} = \prod_{i=0}^{n-1} \left( \prod_{j=i+1}^n x_{ij} \right) = \prod_{j=1}^n \left( \prod_{i=0}^{j-1} x_{ij} \right).

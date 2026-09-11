@@ -1144,7 +1144,7 @@ Aa_i của E; để (a_i) là một cơ sở của E, điều kiện cần và �
 
 Cho E là một A-môđun, là tổng trực tiếp của một họ vô hạn (M_i)_{i \in I} các môđun con khác không. Với mọi hệ sinh S của E, Card(S) \geq Card(I).
 
-Với mọi x \in S, gọi C_x là tập hữu hạn các chỉ số i \in I sao cho thành phần của x trong M_i là \neq 0 và đặt C = \bigcup_{x \in S} C_x. Theo định nghĩa, mọi x \in S đều thuộc môđun con của E là tổng trực tiếp của các M_i với i \in C, và giả thiết rằng S sinh ra E do đó kéo theo C = I; vì I theo giả thiết là vô hạn, nên S cũng vô hạn (Set Theory, III, § 5, no. 1, Hệ quả 1 của Mệnh đề 1); do đó Card(I) = Card(C) \leq Card(S) (Set Theory, III, § 6, no. 3, Hệ quả 3 của Định lý 2).
+Với mọi x \in S, gọi C_x là tập hữu hạn các chỉ số i \in I sao cho thành phần của x trong M_i là \neq 0 và đặt C = \bigcup_{x \in S} C_x. Theo định nghĩa, mọi x \in S đều thuộc môđun con của E là tổng trực tiếp của các M_i với i \in C, và giả thiết rằng S sinh ra E do đó kéo theo C = I; vì I theo giả thiết là vô hạn, nên S cũng vô hạn (Lý thuyết tập hợp, III, § 5, no. 1, Hệ quả 1 của Mệnh đề 1); do đó Card(I) = Card(C) \leq Card(S) (Lý thuyết tập hợp, III, § 6, no. 3, Hệ quả 3 của Định lý 2).
 
 #### Hệ quả 1 {#alg-ii-s1-prop-23-cor-1 .statement}
 

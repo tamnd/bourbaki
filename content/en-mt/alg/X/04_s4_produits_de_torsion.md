@@ -49,7 +49,7 @@ subsections:
       pdf_page: 86
 statements: 39
 exercises: 9
-content_sha256: 7cd64a7ad3c3af38edd96851d0e24b924bbb8ef9af1e92be9cdb84f739041489
+content_sha256: 1e9d4f753de7f9be6f651b6d95c57033b3cee123d3b97133eeb5db3f8cebd78e
 translated_from: content/fr/alg/X/04_s4_produits_de_torsion.md
 source_lang: fr
 translation_method: machine
@@ -647,7 +647,7 @@ $$
 \operatorname{Tor}^{A^\circ}(g, f) \circ \sigma_{M,N} = \sigma_{M', N'} \circ \operatorname{Tor}^A(f, g).
 $$
 
-#### Definition 2 {#alg-x-s4-def-2 .statement}
+### 5. The linking homomorphisms and exact sequences
 
 Let $M$ be a right $A$-module. Let us recall that for every left $A$-module $N$, an isomorphism
 
@@ -676,6 +676,8 @@ $$
 $$
 
 the corresponding linking homomorphism (X, p. 29).
+
+#### Definition 2 {#alg-x-s4-def-2 .statement}
 
 The linking homomorphism of torsion products, relative to the module $M$ and the exact sequence $\mathcal{E}$, is the composite homomorphism
 

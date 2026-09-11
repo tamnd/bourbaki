@@ -30,9 +30,9 @@ subsections:
       title: PARACOMPACTNESS OF METRIZABLE SPACES
       page: 0
       pdf_page: 194
-statements: 24
-exercises: 7
-content_sha256: eb00915eefc2542b1cb326ffd5f62b68b64c27c30b72b3cd48135ced89e8d6d5
+statements: 25
+exercises: 30
+content_sha256: de11080846e294379f4837fb232f016d07b47513805b244d22a0b4f47cd48180
 ---
 
 ## 4. NORMAL SPACES
@@ -122,7 +122,10 @@ Let $X$ be a metrizable space and let $d$ be a metric compatible with the topolo
 #### Remark 1 {#top-ix-s4-n1-rem-1 .statement}
 
 Proposition 2 gives another *necessary* condition for metrizability; but this condition, even in conjunction with all the necessary conditions given in § 2, does not give a set of sufficient conditions for metrizability (cf. Exercise 6 and § 5, Exercise 10).
-2) There are examples of normal spaces which are neither metrizable nor locally compact (see § 5, Exercise 16).
+
+#### Remark 2 {#top-ix-s4-n1-rem-2 .statement}
+
+There are examples of normal spaces which are neither metrizable nor locally compact (see § 5, Exercise 16).
 
 By $(O'_V)$, every *closed* subset of a normal space is a *normal subspace*; but this is not always the case for an *arbitrary* subset of a normal space.
 

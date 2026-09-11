@@ -513,8 +513,8 @@ contents:
             heading is on pdf 25, which is labelled A X.19.
     - book: int-i-iv-fr
       errata:
-        - says: "§ 2. Support d'une mesure .................................................. 62"
-          read: "§ 2. Support d'une mesure .................................................. 64"
+        - says: "§ 2. Support d’une mesure .................................................. 62"
+          read: "§ 2. Support d’une mesure .................................................. 64"
           why: The printed contents, pdf page 280, puts § 2 of chapter III on page 62,
             and the book is wrong about its own page. Page 62 is where no. 10 of § 1
             opens, and the contents says so on the line above this one. No. 10 runs to
@@ -522,8 +522,8 @@ contents:
             UN ESPACE LOCALEMENT COMPACT 63, and the § 2 heading is set on the page
             after it, pdf 68, which the page map puts at printed 64. The reading of the
             contents is faithful, since the page image prints 62 as well.
-        - says: "    1. Restriction d'une mesure à un ensemble ouvert. Définition d'une mesure par des données locales ............................................. 62"
-          read: "    1. Restriction d'une mesure à un ensemble ouvert. Définition d'une mesure par des données locales ............................................. 64"
+        - says: "    1. Restriction d’une mesure à un ensemble ouvert. Définition d’une mesure par des données locales ............................................. 62"
+          read: "    1. Restriction d’une mesure à un ensemble ouvert. Définition d’une mesure par des données locales ............................................. 64"
           why: The first no. of the § the line above corrects, carried along by the same
             error. Its heading is on pdf 68 directly under the § heading, and no. 2 of
             the § is on printed 66, which the contents gets right.
@@ -548,6 +548,62 @@ heads:
             leaf is AC X.2 and carries the heading of § 1 and the opening of no.
             1, which is why pdf 2 begins at Proposition 1 under the running head
             N° 1 PROFONDEUR with nothing above it.
+        - pdf_page: 41
+          says: C X.42
+          read: AC X.42
+          why: The verso head of this fascicle reads AC X.42 and then the chapter
+            title, and the reader cut it in the wrong place. It wrote the A
+            into the running head, where it came out as the lone Λ in front of
+            PROFONDEUR, and left C X.42 as the label. C is not the prefix this
+            volume prints, so the filter that keeps only the volume's own Book
+            prefix throws the label away, and the running head it was
+            preferred to has no number on it at all, so the page is left with
+            no anchor. Seven versos of the fascicle are cut this way and every
+            one of them carries the same Λ.
+        - pdf_page: 63
+          says: C X.64
+          read: AC X.64
+          why: The same cut as pdf 41, the A of AC left in the running head as
+            the lone Λ in front of PROFONDEUR and C X.64 written as the label.
+            The printed number is not in doubt, since pdf 62 labels AC X.63
+            and pdf 64 labels AC X.65.
+        - pdf_page: 73
+          says: C X.74
+          read: AC X.74
+          why: The same cut as pdf 41, the A of AC left in the running head as
+            the lone Λ in front of PROFONDEUR and C X.74 written as the label.
+            The printed number is not in doubt, since pdf 74 labels AC X.75,
+            and pdf 71, the nearest page before it the reader labelled at all,
+            labels AC X.72.
+        - pdf_page: 125
+          says: C X.126
+          read: AC X.126
+          why: The same cut as pdf 41, the A of AC left in the running head as
+            the lone Λ in front of PROFONDEUR and C X.126 written as the
+            label. The printed number is not in doubt, since pdf 126 labels AC
+            X.127, and pdf 122, the nearest page before it the reader labelled
+            at all, labels AC X.123.
+        - pdf_page: 131
+          says: C X.132
+          read: AC X.132
+          why: The same cut as pdf 41, the A of AC left in the running head as
+            the lone Λ in front of PROFONDEUR and C X.132 written as the
+            label. The printed number is not in doubt, since pdf 130 labels AC
+            X.131 and pdf 132 labels AC X.133.
+        - pdf_page: 139
+          says: C X.140
+          read: AC X.140
+          why: The same cut as pdf 41, the A of AC left in the running head as
+            the lone Λ in front of PROFONDEUR and C X.140 written as the
+            label. The printed number is not in doubt, since pdf 138 labels AC
+            X.139 and pdf 140 labels AC X.141.
+        - pdf_page: 171
+          says: C X.172
+          read: AC X.172
+          why: The same cut as pdf 41, the A of AC left in the running head as
+            the lone Λ in front of PROFONDEUR and C X.172 written as the
+            label. The printed number is not in doubt, since pdf 170 labels AC
+            X.171 and pdf 172 labels AC X.173.
     - book: ac-v-vii-fr
       errata:
         - pdf_page: 195

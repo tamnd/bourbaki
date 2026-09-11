@@ -55,9 +55,9 @@ subsections:
       title: Semi-normes et ensembles convexes
       page: 21
       pdf_page: 56
-statements: 50
-exercises: 20
-content_sha256: 99c126ab4b18ba333a16816f882676b7b1b31e7b9cb94934384e91432ab4f93c
+statements: 52
+exercises: 43
+content_sha256: d3793785fdbaa7cc89a387116e47a5d804504a666bbdca5f35b27681d1a80813
 ---
 
 ## § 2. ENSEMBLES CONVEXES
@@ -75,8 +75,14 @@ Comme $(1 - \lambda) a + \lambda x = a + \lambda(x - a)$, cette définition équ
 #### Exemple 1 {#evt-ii-s2-n1-exa-1 .statement}
 
 Toute variété linéaire affine de E (et en particulier l’ensemble vide) est convexe.
-2) Les seules parties convexes non vides de $\mathbf{R}$ sont les intervalles (TG, IV, p. 7, prop. 1).
-3) Soient E un espace vectoriel et $\|x\|$ une norme sur E ; la boule unité B, formée des points x tels que $\|x\| \leq 1$, est convexe, car les relations $\|x\| \leq 1, \|y\| \leq 1$ entraînent, pour $0 \leq \lambda \leq 1$
+
+#### Exemple 2 {#evt-ii-s2-n1-exa-2 .statement}
+
+Les seules parties convexes non vides de $\mathbf{R}$ sont les intervalles (TG, IV, p. 7, prop. 1).
+
+#### Exemple 3 {#evt-ii-s2-n1-exa-3 .statement}
+
+Soient E un espace vectoriel et $\|x\|$ une norme sur E ; la boule unité B, formée des points x tels que $\|x\| \leq 1$, est convexe, car les relations $\|x\| \leq 1, \|y\| \leq 1$ entraînent, pour $0 \leq \lambda \leq 1$
 $$
 \|\lambda x + (1 - \lambda) y\| \leq \lambda \|x\| + (1 - \lambda) \|y\| \leq \lambda + (1 - \lambda) = 1 .
 $$

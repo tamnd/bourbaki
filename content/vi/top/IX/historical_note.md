@@ -36,14 +36,4 @@ Mặt khác, năm 1917, Souslin [5], sửa chữa một sai lầm của Lebesgue
 
 (*) Định lý này cho phép giải bài toán metric hóa thỏa đáng hơn so với các tiêu chuẩn thu được vào khoảng năm 1930 bởi trường phái Nga-Ba Lan (tiêu chuẩn “Nagata-Smirnov”, cf. § 4, Bài tập 22). Tuy nhiên, cần lưu ý rằng cho đến nay các tiêu chuẩn này hầu như chưa có ứng dụng nào; cũng như thường thấy trong lịch sử toán học, dường như tầm quan trọng của bài toán metric hóa nằm ít hơn ở nghiệm của nó so với những ý tưởng mới mà nó đã khơi dậy.
 
-[1] W. Osgood, Non-uniform convergence and the integration of series term by term, Amer. Journ. of Math., 19 (1897), pp. 155-190.
-[2] R. Baire, Sur les fonctions de variables réelles, Ann. di Mat. (3), 3 (1899), p. 1.
-[3] H. Lebesgue, Sur le problème des Dirichlet, Rend. Circ. mat. di Palermo, 24 (1907), pp. 371-402.
-[4] H. Tietze, Über Funktionen, die auf einer abgeschlossenen Menge stetig sind, J. de Crelle, 145 (1915), pp. 9-14.
-[5] M. Souslin, Sur une définition des ensembles mesurables B sans nombres transfinis, C. R. Acad. Sci., 164 (1917), pp. 88-91.
-[6] P. Urysohn, Über die Mächtigkeit der zusammenhängenden Mengen, Math. Ann., 94 (1925), p. 262.
-[7] N. Lusin, Leçons sur les ensembles analytiques et leurs applications, Paris (Gauthier-Villars), 1930.
-[8] K. Kuratowski, Topologie I, 2nd edition, Warszawa-Vrocaw, 1948.
-[9] J. Dieudonné, Une généralisation des espaces compacts, Journ. de Math. (9), 23 (1944), pp. 65-76.
-[10] A. H. Stone, Paracompactness and product spaces, Bull. Amer. Math. Soc., 54 (1948), pp. 977-982.
-[11] G. Choquet, Theory of capacities, Ann. Inst. Fourier, 5 (1953-1954) pp. 131-295.
+[1] W. Osgood, Non-uniform convergence and the integration of series term by term, Amer. Journ. of Math., 19 (1897), pp. 155-190. [2] R. Baire, Sur les fonctions de variables réelles, Ann. di Mat. (3), 3 (1899), p. 1. [3] H. Lebesgue, Sur le problème des Dirichlet, Rend. Circ. mat. di Palermo, 24 (1907), pp. 371-402. [4] H. Tietze, Über Funktionen, die auf einer abgeschlossenen Menge stetig sind, J. de Crelle, 145 (1915), pp. 9-14. [5] M. Souslin, Sur une définition des ensembles mesurables B sans nombres transfinis, C. R. Acad. Sci., 164 (1917), pp. 88-91. [6] P. Urysohn, Über die Mächtigkeit der zusammenhängenden Mengen, Math. Ann., 94 (1925), p. 262. [7] N. Lusin, Leçons sur les ensembles analytiques et leurs applications, Paris (Gauthier-Villars), 1930. [8] K. Kuratowski, Topologie I, lần xuất bản thứ 2, Warszawa-Vrocaw, 1948. [9] J. Dieudonné, Une généralisation des espaces compacts, Journ. de Math. (9), 23 (1944), pp. 65-76. [10] A. H. Stone, Paracompactness and product spaces, Bull. Amer. Math. Soc., 54 (1948), pp. 977-982. [11] G. Choquet, Theory of capacities, Ann. Inst. Fourier, 5 (1953-1954) pp. 131-295.

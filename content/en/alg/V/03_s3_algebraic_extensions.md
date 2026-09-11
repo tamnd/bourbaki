@@ -26,7 +26,7 @@ subsections:
       pdf_page: 133
 statements: 18
 exercises: 13
-content_sha256: 24ed112ef1d0c31d9c5abffb35576dad39976b5719834f95279fbef00cc323a7
+content_sha256: 30bc0804ac65175fb6160741cb971af8dacdc2183cffc476d9c5ecde37bea73a
 ---
 
 ## § 3. ALGEBRAIC EXTENSIONS
@@ -85,7 +85,7 @@ Let $K$ be a field and $F$ the field $K(X)$ of rational functions in one indeter
 
 #### Example 3 {#alg-v-s3-n1-exa-3 .statement}
 
-In the field $\mathbf{R}$ of real numbers it may be shown $^1$ that the number $\pi$ is transcendental over the prime field $\mathbf{Q}$. \*
+\* In the field $\mathbf{R}$ of real numbers it may be shown $^1$ that the number $\pi$ is transcendental over the prime field $\mathbf{Q}$. \*
 
 ### 2. Algebraic extensions
 

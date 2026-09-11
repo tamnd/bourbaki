@@ -49,7 +49,7 @@ subsections:
       pdf_page: 318
 statements: 50
 exercises: 15
-content_sha256: 9cbe5b933e95cb304d66bd2ccd537214ddc9968510d7b4d34de8435fa8a9ff9c
+content_sha256: 5a9df8f95afa72d6677cf1bb5898ea09254e44bc9e991da52cd1fe75712c0047
 ---
 
 ## § 4. QUELQUES CLASSES D'OPÉRATEURS DANS LES ESPACES HILBERTIENS
@@ -814,7 +814,7 @@ Soient I et J deux ensembles. D'après la démonstration ci-dessus, pour qu'une 
 
 #### Exemple 2 {#evt-v-s4-n7-exa-2 .statement}
 
-Soient X et Y deux espaces topologiques séparés, munis respectivement de mesures positives $\mu$ et $\nu$. On peut montrer que les applications de Hilbert-Schmidt de $\mathcal{L}^2(X)$ dans $\mathcal{L}^2(Y)$ correspondent bijectivement aux classes de fonctions de carré intégrable dans $Y \times X$ : à la classe de la fonction $N \in \mathcal{L}^2(Y \times X, \nu \otimes \mu)$ correspond l'application $u_N$ donnée par
+\* Soient X et Y deux espaces topologiques séparés, munis respectivement de mesures positives $\mu$ et $\nu$. On peut montrer que les applications de Hilbert-Schmidt de $\mathcal{L}^2(X)$ dans $\mathcal{L}^2(Y)$ correspondent bijectivement aux classes de fonctions de carré intégrable dans $Y \times X$ : à la classe de la fonction $N \in \mathcal{L}^2(Y \times X, \nu \otimes \mu)$ correspond l'application $u_N$ donnée par
 
 $$
 (u_N f)(y) = \int_X N(y, x) f(x) \, d\mu(x)

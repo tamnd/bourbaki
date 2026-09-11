@@ -51,9 +51,9 @@ subsections:
       title: Espaces paracompacts
       page: 69
       pdf_page: 81
-statements: 48
+statements: 50
 exercises: 31
-content_sha256: 3860aec594aa68b86a44725b56f6eb22a136dac4a050301c0019ce468b15b289
+content_sha256: 7ce00e5a228592d6fad05a9a6fb23a06c4f343f099c9624a1c06e8f973d61805
 ---
 
 ## § 9. ESPACES COMPACTS ET ESPACES LOCALEMENT COMPACTS
@@ -133,7 +133,10 @@ Pour qu’une partie A d’un espace topologique X soit un ensemble quasi-compac
 #### Exemple 1 {#top-i-s9-n3-exa-1 .statement}
 
 Dans un espace topologique X, tout ensemble fini est quasi-compact; l’ensemble vide et tout ensemble réduit à un point sont compacts.
-2) Dans un espace topologique X, soit $(x_n)_{n \in \mathbf{N}}$ une suite infinie de points qui *converge* vers un point a. L’ensemble A formé des $x_n$ ($n \in \mathbf{N}$) et de a est *quasi-compact*. En effet, si $(U_i)$ est un recouvrement de A par des ensembles ouverts de X, il existe un indice $\kappa$ tel que $a \in U_\kappa$; comme $U_\kappa$ est un voisinage de a, il n’existe qu’un nombre fini d’indices $n_k$ tels que $x_{n_k} \notin U_\kappa$; si, pour chaque indice $k$, $\iota_k$ est un indice tel que $x_{n_k} \in U_{\iota_k}$, $U_\kappa$ et les $U_{\iota_k}$ forment un recouvrement ouvert fini de A.
+
+#### Exemple 2 {#top-i-s9-n3-exa-2 .statement}
+
+Dans un espace topologique X, soit $(x_n)_{n \in \mathbf{N}}$ une suite infinie de points qui *converge* vers un point a. L’ensemble A formé des $x_n$ ($n \in \mathbf{N}$) et de a est *quasi-compact*. En effet, si $(U_i)$ est un recouvrement de A par des ensembles ouverts de X, il existe un indice $\kappa$ tel que $a \in U_\kappa$; comme $U_\kappa$ est un voisinage de a, il n’existe qu’un nombre fini d’indices $n_k$ tels que $x_{n_k} \notin U_\kappa$; si, pour chaque indice $k$, $\iota_k$ est un indice tel que $x_{n_k} \in U_{\iota_k}$, $U_\kappa$ et les $U_{\iota_k}$ forment un recouvrement ouvert fini de A.
 
 #### Proposition 2 {#top-i-s9-prop-2 .statement}
 
@@ -352,7 +355,10 @@ On dit qu’un espace localement compact X est dénombrable à l’infini s’il
 #### Exemple 1 {#top-i-s9-n9-exa-1 .statement}
 
 Pour qu’un espace discret soit dénombrable à l’infini, il faut et il suffit qu’il soit dénombrable.
-*2) La droite numérique R est un espace localement compact dénombrable à l’infini, car elle est réunion des intervalles compacts {−n, +n} pour n ∈ N.*
+
+#### Exemple 2 {#top-i-s9-n9-exa-2 .statement}
+
+La droite numérique R est un espace localement compact dénombrable à l’infini, car elle est réunion des intervalles compacts {−n, +n} pour n ∈ N.*
 
 #### Remarque {#top-i-s9-n9-rem-1 .statement}
 

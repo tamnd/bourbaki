@@ -26,9 +26,9 @@ subsections:
       title: Sous-algèbres de Cartan des algèbres de Lie semi-simples
       page: 0
       pdf_page: 19
-statements: 38
+statements: 40
 exercises: 16
-content_sha256: ff1750425f668356caf192d33e90c882698aecaa0ee00b9858ee8a2613dfc827
+content_sha256: 376c38db366a6ff349b58d48f96a6a454428002a828f1a1940ce66799ee1c9d7
 ---
 
 ## § 2. Sous-algèbres de Cartan et éléments réguliers d’une algèbre de Lie
@@ -49,9 +49,14 @@ Nous obtiendrons plus loin les résultats suivants:
 #### Exemple 1 {#lie-vii-s2-n1-exa-1 .statement tag=00TK}
 
 Si $g$ est nilpotente, la seule sous-algèbre de Cartan de $g$ est $g$ elle-même (I, $§ 4$, no 1, prop. 3).
-2) Soient $g = gl(n, k)$, et $h$ l’ensemble des matrices diagonales appartenant à $g$. Montrons que $h$ est une sous-algèbre de Cartan de $g$. D’abord $h$ est commutative, donc nilpotente. Soit $(E_{ij})$ la base canonique de $gl(n, k)$, et soit $x = \sum \mu_{ij} E_{ij}$ un élément du normalisateur de $h$ dans $g$. Si $i \neq j$, les formules (5) de I, $§ 1$, no 2 montrent que le coefficient de $E_{ij}$ dans $[E_{ii}, x]$ est $\mu_{ij}$. Puisque $E_{ii} \in h$, on a $[E_{ii}, x] \in h$, et le coefficient en question est nul. On a donc $\mu_{ij} = 0$ pour $i \neq j$, d’où $x \in h$, ce qui montre bien que $h$ est une sous-algèbre de Cartan de $g$.
 
-3) Soit $\mathfrak{h}$ une sous-algèbre de Cartan de $\mathfrak{g}$ et soit $\mathfrak{g}_1$ une sous-algèbre de $\mathfrak{g}$ contenant $\mathfrak{h}$. Alors $\mathfrak{h}$ est une sous-algèbre de Cartan de $\mathfrak{g}_1$; cela résulte aussitôt de la déf. 1.
+#### Exemple 2 {#lie-vii-s2-n1-exa-2 .statement tag=00TL}
+
+Soient $g = gl(n, k)$, et $h$ l’ensemble des matrices diagonales appartenant à $g$. Montrons que $h$ est une sous-algèbre de Cartan de $g$. D’abord $h$ est commutative, donc nilpotente. Soit $(E_{ij})$ la base canonique de $gl(n, k)$, et soit $x = \sum \mu_{ij} E_{ij}$ un élément du normalisateur de $h$ dans $g$. Si $i \neq j$, les formules (5) de I, $§ 1$, no 2 montrent que le coefficient de $E_{ij}$ dans $[E_{ii}, x]$ est $\mu_{ij}$. Puisque $E_{ii} \in h$, on a $[E_{ii}, x] \in h$, et le coefficient en question est nul. On a donc $\mu_{ij} = 0$ pour $i \neq j$, d’où $x \in h$, ce qui montre bien que $h$ est une sous-algèbre de Cartan de $g$.
+
+#### Exemple 3 {#lie-vii-s2-n1-exa-3 .statement tag=00TM}
+
+Soit $\mathfrak{h}$ une sous-algèbre de Cartan de $\mathfrak{g}$ et soit $\mathfrak{g}_1$ une sous-algèbre de $\mathfrak{g}$ contenant $\mathfrak{h}$. Alors $\mathfrak{h}$ est une sous-algèbre de Cartan de $\mathfrak{g}_1$; cela résulte aussitôt de la déf. 1.
 
 #### Proposition 1 {#lie-vii-s2-prop-1 .statement tag=00TN}
 

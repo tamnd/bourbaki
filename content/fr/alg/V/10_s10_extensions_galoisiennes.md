@@ -37,7 +37,7 @@ subsections:
       pdf_page: 167
 statements: 51
 exercises: 23
-content_sha256: 15a2b24d994e666a57321408db667d83d515a874218aa89b2406163170c3f113
+content_sha256: d5887dc184e32c14705ba2fd592afc40349b31482eec49a947ee4ea3c59c8fef
 ---
 
 ## § 10. EXTENSIONS GALOISIENNES
@@ -106,7 +106,7 @@ Supposons la caractéristique de K différente de 2, et soit N une extension qua
 
 #### Exemple 2 {#alg-v-s10-n2-exa-2 .statement}
 
-Soit f = X³ + X² − 2X − 1 ∈ Q[X]. Le polynôme f est irréductible, car sinon il posséderait une racine x ∈ Q ; écrivant x = a/b, avec a, b ∈ Z, a et b étrangers, on aurait a(a² + ab − 2b²) = b³ et a³ = b(b² + 2ab − a²) ; mais cela implique que a divise b et b divise a, donc x = ± 1, ce qui est impossible. Soit ξ ≡ e^{2πi/7} ∈ C. Le polynôme f admet les racines α = ξ + ξ⁻¹, β = ξ² + ξ⁻², γ = ξ³ + ξ⁻³. On a β = α² − 2 et γ = α³ − 3α, donc l’extension Q(α) est galoisienne sur Q. Le groupe de Galois de Q(α) sur Q est cyclique d’ordre 3 et il est engendré par un élément σ tel que σ(α) = β, σ(β) = γ, σ(γ) = α. \*
+\* Soit f = X³ + X² − 2X − 1 ∈ Q[X]. Le polynôme f est irréductible, car sinon il posséderait une racine x ∈ Q ; écrivant x = a/b, avec a, b ∈ Z, a et b étrangers, on aurait a(a² + ab − 2b²) = b³ et a³ = b(b² + 2ab − a²) ; mais cela implique que a divise b et b divise a, donc x = ± 1, ce qui est impossible. Soit ξ ≡ e^{2πi/7} ∈ C. Le polynôme f admet les racines α = ξ + ξ⁻¹, β = ξ² + ξ⁻², γ = ξ³ + ξ⁻³. On a β = α² − 2 et γ = α³ − 3α, donc l’extension Q(α) est galoisienne sur Q. Le groupe de Galois de Q(α) sur Q est cyclique d’ordre 3 et il est engendré par un élément σ tel que σ(α) = β, σ(β) = γ, σ(γ) = α. \*
 
 #### Exemple 3 {#alg-v-s10-n2-exa-3 .statement}
 

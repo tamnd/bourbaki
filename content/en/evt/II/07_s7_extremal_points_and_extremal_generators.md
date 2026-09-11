@@ -25,7 +25,7 @@ subsections:
       pdf_page: 96
 statements: 25
 exercises: 41
-content_sha256: ba5544881bc2d551481082f09b14e6852c10e86a0663b8e63d376fbaadf87175
+content_sha256: 784ad7819606caee7146c7e6d1f2bae6e9589946ad1b86e9814898830b338212
 ---
 
 ## § 7. EXTREMAL POINTS AND EXTREMAL GENERATORS
@@ -234,7 +234,7 @@ Every proper closed convex cone in $E$, a vector space of finite dimension, has 
 
 #### Example 2 {#evt-ii-s7-n3-exa-2 .statement}
 
-If $X$ is a compact space, then the cone $\mathcal{M}_+(X)$ of positive measures on $X$, with the vague topology, is a cone with a compact sole (INT, III, 2nd ed., § 1, No. 9, cor. 3 of prop. 15). \*
+\* If $X$ is a compact space, then the cone $\mathcal{M}_+(X)$ of positive measures on $X$, with the vague topology, is a cone with a compact sole (INT, III, 2nd ed., § 1, No. 9, cor. 3 of prop. 15). \*
 
 ### Exercises {#evt-ii-s7-exercises}
 

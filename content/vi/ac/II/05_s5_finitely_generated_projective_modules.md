@@ -123,7 +123,7 @@ Ta chứng minh định lý bằng cách chứng minh sơ đồ các suy luận 
 
 (c)
 
-(a) ⇒ (b): Ta biết rằng một môđun xạ ảnh sinh hữu hạn là môđun trình bày hữu hạn (Chương I, § 2, no. 8, Bổ đề 8 (iii)); nếu $P$ là một môđun xạ ảnh $A$-môđun, $P_m = P \otimes_A A_m$ là một môđun xạ ảnh $A_m$-môđun (\emph{Algebra}, Chương II, § 5, no. 1, Hệ quả của Mệnh đề 4); cuối cùng, vì $A,$ là một vành địa phương, mọi môđun xạ ảnh trình bày hữu hạn $A,,$-môđun đều tự do (§ 3, no. 2, Hệ quả của Mệnh đề 5).
+(a) ⇒ (b): Ta biết rằng một môđun xạ ảnh sinh hữu hạn là môđun trình bày hữu hạn (Chương I, § 2, no. 8, Bổ đề 8 (iii)); nếu $P$ là một môđun xạ ảnh $A$-môđun, $P_m = P \otimes_A A_m$ là một môđun xạ ảnh $A_m$-môđun (\emph{Đại số}, Chương II, § 5, no. 1, Hệ quả của Mệnh đề 4); cuối cùng, vì $A,$ là một vành địa phương, mọi môđun xạ ảnh trình bày hữu hạn $A,,$-môđun đều tự do (§ 3, no. 2, Hệ quả của Mệnh đề 5).
 
 (b) ⇒ (e): Điều này suy ra từ Hệ quả của Mệnh đề 2 của no. 1.
 
@@ -228,7 +228,7 @@ và, theo giả thiết, $P \otimes_A A_i$ là một A,-môđun tự do có hạ
 
 *Cho A là một vành bán địa phương và P là một A-môđun xạ ảnh sinh hữu hạn. Nếu hạng của P được xác định, thì P là một A-môđun tự do.*
 
-Trước hết giả sử rằng A đẳng cấu với một tích các trường $K_i$ ($1 \leq i \leq n$). Các $K_i$ khi đó được đồng nhất với các iđêan cực tiểu (*Algebra*, Chương VIII, § 3, no. 1) của A và, với mọi $i$, tổng $p_i$ của các K, có chỉ số $j \neq i$ là một iđêan cực đại của A, các $p_i$ ($1 \leq i \leq n$) là các iđêan nguyên tố duy nhất của A. Mọi A-môđun sinh hữu hạn P do đó là tổng trực tiếp của các thành phần đẳng kiểu của nó $P_i$ ($1 \leq i \leq n$), $P_i$ đẳng cấu với một tổng trực tiếp của một số hữu hạn $r_i$ A-môđun đẳng cấu với K, (*Algebra*, Chương VIII, § 5, no. 1, Mệnh đề 1 và no. 3, Mệnh đề 11); vành $A_{r_i}$ được đồng nhất với K, và linh hóa tử các $P_j$ có chỉ số $j \neq i$, do đó $r_i = \mathrm{rg}_{p_i}(P)$; nếu tất cả các $r_i$ bằng cùng một số $r$, thì P đẳng cấu với $A^r$, do đó có mệnh đề trong trường hợp này. Trong trường hợp tổng quát, đặt $\mathfrak{R}$ là căn Jacobson của A và $B = A / \mathfrak{R}$; vì B là một tích các trường, B-môđun xạ ảnh $P_{(B)}$ là tự do theo các nhận xét đứng trước Mệnh đề 4. *Ngoài ra P là một A-môđun phẳng và khi đó mệnh đề suy ra từ § 3, no. 2, Mệnh đề 5.*
+Trước hết giả sử rằng A đẳng cấu với một tích các trường $K_i$ ($1 \leq i \leq n$). Các $K_i$ khi đó được đồng nhất với các iđêan cực tiểu (*Đại số*, Chương VIII, § 3, no. 1) của A và, với mọi $i$, tổng $p_i$ của các K, có chỉ số $j \neq i$ là một iđêan cực đại của A, các $p_i$ ($1 \leq i \leq n$) là các iđêan nguyên tố duy nhất của A. Mọi A-môđun sinh hữu hạn P do đó là tổng trực tiếp của các thành phần đẳng kiểu của nó $P_i$ ($1 \leq i \leq n$), $P_i$ đẳng cấu với một tổng trực tiếp của một số hữu hạn $r_i$ A-môđun đẳng cấu với K, (*Đại số*, Chương VIII, § 5, no. 1, Mệnh đề 1 và no. 3, Mệnh đề 11); vành $A_{r_i}$ được đồng nhất với K, và linh hóa tử các $P_j$ có chỉ số $j \neq i$, do đó $r_i = \mathrm{rg}_{p_i}(P)$; nếu tất cả các $r_i$ bằng cùng một số $r$, thì P đẳng cấu với $A^r$, do đó có mệnh đề trong trường hợp này. Trong trường hợp tổng quát, đặt $\mathfrak{R}$ là căn Jacobson của A và $B = A / \mathfrak{R}$; vì B là một tích các trường, B-môđun xạ ảnh $P_{(B)}$ là tự do theo các nhận xét đứng trước Mệnh đề 4. *Ngoài ra P là một A-môđun phẳng và khi đó mệnh đề suy ra từ § 3, no. 2, Mệnh đề 5.*
 
 ### 4. CÁC MÔĐUN XẠ ẢNH HẠNG 1
 
@@ -238,7 +238,7 @@ Cho $A$ là một vành và $M$ là một A-môđun sinh hữu hạn.
 
 (i) *Nếu tồn tại một A-môđun $N$ sao cho $M \otimes_A N$ đẳng cấu với $A$, thì môđun $M$ là xạ ảnh hạng 1.*
 
-(ii) *Ngược lại, nếu $M$ là xạ ảnh hạng 1 và $M^*$ là đối ngẫu của $M$, thì đồng cấu chính tắc $u : M \otimes_A M^* \to A$ tương ứng với dạng song tuyến tính chính tắc $(x, x^*) \to \langle x, x^* \rangle$ trên $M \times M^*$ (Algebra, Chương II, § 2, no. 3) là song ánh.*
+(ii) *Ngược lại, nếu $M$ là xạ ảnh hạng 1 và $M^*$ là đối ngẫu của $M$, thì đồng cấu chính tắc $u : M \otimes_A M^* \to A$ tương ứng với dạng song tuyến tính chính tắc $(x, x^*) \to \langle x, x^* \rangle$ trên $M \times M^*$ (Đại số, Chương II, § 2, no. 3) là song ánh.
 
 (i) Cần chứng minh rằng, đối với mọi iđêan cực đại $m$ của $A$, A-môđun $M$, là tự do hạng 1 (Định lý 2 (b)); ta tự do thay thế $A$ bởi $A_m$ và do đó có thể giả sử rằng $A$ là một vành *địa phương* ($§ 2$, no. 7, Mệnh đề 18). Đặt $k = A/m$. Đẳng cấu $v : M \otimes_A N \to A$ xác định một đẳng cấu
 

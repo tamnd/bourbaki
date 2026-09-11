@@ -139,7 +139,7 @@ Mọi họ $\nu$-thích hợp $b \mapsto \lambda_b$ các độ đo dương trên
 
 #### Ví dụ {#int-vi-s3-n2-exa-1 .statement}
 
-— 1) Nếu $p$ là $\mu$-proper và $\nu = p(\mu)$, thì $\nu$ là một độ đo ảnh giả của $\mu$ dưới $p$ (Ch. V, §6, No. 2, Hệ quả 2 của Mệnh đề 2).
+— 1) Nếu $p$ là $\mu$-thực sự và $\nu = p(\mu)$, thì $\nu$ là một độ đo ảnh giả của $\mu$ dưới $p$ (Ch. V, §6, No. 2, Hệ quả 2 của Mệnh đề 2).
 
 2) Cho $B'$ là một không gian compact địa phương, $\nu'$ là một độ đo dương trên $B'$; lấy T là không gian $B \times B'$ và $\mu$ là độ đo $\nu \otimes \nu'$; nếu $p$ là phép chiếu của T lên B, thì $\nu$ là một độ đo ảnh giả của $\mu$ dưới $p$ (Ch. V, §8, No. 2, Mệnh đề 4 và No. 3, Hệ quả 1 của Mệnh đề 7).
 
@@ -151,7 +151,7 @@ Nếu $\nu$ là một ảnh giả của $\mu$ dưới $p$, thì tập các độ
 
 — *Cho T là một không gian compact địa phương đếm được ở vô cùng, $\mu$ là một độ đo dương trên T, và $p$ là một ánh xạ $\mu$-khả đo được của T vào một không gian compact địa phương B. Khi đó tồn tại một độ đo ảnh giả của $\mu$ dưới $p$.*
 
-Vì tồn tại một độ đo *bị chặn* $\mu'$ trên T tương đương với $\mu$ (Ch. V, §5, No. 6, Mệnh đề 11); khi đó $p$ là $\mu'$-proper.
+Vì tồn tại một độ đo *bị chặn* $\mu'$ trên T tương đương với $\mu$ (Ch. V, §5, No. 6, Mệnh đề 11); khi đó $p$ là $\mu'$-thực sự.
 
 ### 3. Sự phân rã của một độ đo $\mu$ theo một ảnh giả của $\mu$
 

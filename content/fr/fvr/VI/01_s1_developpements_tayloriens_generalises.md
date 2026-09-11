@@ -38,9 +38,9 @@ subsections:
       title: La formule sommatoire d’Euler-Maclaurin
       page: 14
       pdf_page: 274
-statements: 21
+statements: 22
 exercises: 3
-content_sha256: c62a981a913c34c2c26db87f31b7b8b9ed865aaa0efee4d09eb4535ee4761fc3
+content_sha256: 1c3e00ab266cbc56b3245739da74a342e47944ab91c846c5650f7ce7098a4940
 ---
 
 ## § 1. DÉVELOPPEMENTS TAYLORIENS GÉNÉRALISÉS
@@ -78,7 +78,10 @@ $$
 #### Exemple 1 {#fvr-vi-s1-n1-exa-1 .statement}
 
 Pour tout $\lambda \in K$, l’opérateur qui, à tout polynôme $f(X)$, fait correspondre le polynôme $f(X + \lambda)$, est un opérateur de composition.
-2) La *dérivation* D dans K[X] est un opérateur de composition (cf. prop. 1).
+
+#### Exemple 2 {#fvr-vi-s1-n1-exa-2 .statement}
+
+La *dérivation* D dans K[X] est un opérateur de composition (cf. prop. 1).
 
 #### Remarque {#fvr-vi-s1-n1-rem-1 .statement}
 
@@ -144,7 +147,7 @@ On vérifie aussitôt que cette application est un homomorphisme. Tout revient d
 
 L’algèbre $\Gamma$ des opérateurs de composition dans $K[X]$ est commutative.
 
-#### Exemple {#fvr-vi-s1-n1-exa-2 .statement}
+#### Exemple {#fvr-vi-s1-n1-exa-3 .statement}
 
 Si $U$ est l’opérateur qui, à tout polynôme $f(X)$, fait correspondre $f(X + \lambda)$ (où $\lambda \in K$), on a $U_0(X^k) = \lambda^k$, et par suite $U = \sum_{k=0}^\infty \frac{1}{k!} (\lambda D)^k$. Par analogie avec le développement en série de $e^x$ (III, p. 15), nous désignerons par $e^S$ ou $\exp(S)$ le série formelle $\sum_{n=0}^\infty \frac{1}{n!} S^n$ dans l’anneau $K[[S]]$; on peut donc écrire $U = e^{\lambda D}$. En remplaçant dans ce raisonnement le corps $K$ par le corps de fractions rationnelles $K(Y)$, on voit de même que l’opérateur de translation $T_Y$ peut s’écrire $e^{YD}$.
 

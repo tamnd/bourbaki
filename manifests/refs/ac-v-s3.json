@@ -60,5 +60,5 @@
 {"from":"","from_label":"ac-v-s3-ex-7","to_label":"ac-v-s3-thm-3","kind":"cites","raw":"no. 4, Theorem 3","form":"local","resolved_by":"in-section","file":"content/en/ac/V/exercises/s3/07.md","line":14},
 {"from":"","from_label":"ac-v-s3-ex-7","to_label":"ac-v-s3-ex-4","kind":"cites","raw":"Exercise 4","form":"local","resolved_by":"exercise","file":"content/en/ac/V/exercises/s3/07.md","line":14},
 {"from":"","from_label":"ac-v-s3-ex-7","to_label":"ac-v-s3-ex-5","kind":"cites","raw":"Exercise 5","form":"local","resolved_by":"exercise","file":"content/en/ac/V/exercises/s3/07.md","line":14},
-{"from":"","from_label":"ac-v-s3-ex-9","to_label":"ac-v-s3-ex-8","kind":"cites","raw":"Exercise 8","form":"local","resolved_by":"exercise","file":"content/en/ac/V/exercises/s3/09.md","line":24}
+{"from":"","from_label":"ac-v-s3-ex-10","to_label":"ac-v-s3-ex-8","kind":"cites","raw":"Exercise 8","form":"local","resolved_by":"exercise","file":"content/en/ac/V/exercises/s3/10.md","line":22}
 ]}

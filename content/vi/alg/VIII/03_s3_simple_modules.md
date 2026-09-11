@@ -242,7 +242,7 @@ Cho A là một vành. Quan hệ
 
 là xác định tập trong $\lambda ($Lý thuyết tập hợp, II, §1, No. 4, p. 68). Thật vậy, mọi A-môđun hữu hạn sinh đều đẳng cấu với một A-môđun dạng $A^n_s/R$, trong đó $n$ là một số tự nhiên và R là một môđun con của $A^n_s$, sao cho mệnh đề của chúng ta suy ra từ Lý thuyết tập hợp, II, §6, No. 9, p. 122.
 
-Ta ký hiệu tập hợp các lớp của các A-môđun hữu hạn sinh bởi $\mathscr{F}(A)$. Mọi A-môđun đơn đều đơn sinh (VIII, p. 46, Mệnh đề 1), và do đó các lớp của các A-môđun đơn tạo thành một tập con của $\mathscr{F}$ (A), mà từ đây về sau ta ký hiệu bởi $\mathscr{S}(A)$ (hoặc đơn giản là $\mathscr{S}$). Khi vành A là giao hoán, ánh xạ $\mathfrak{m}\mapsto$ cl(A$/\mathfrak{m}$) là một song ánh từ tập hợp các ideal cực đại của A lên tập hợp $\mathscr{S}(A)$ (loc. cit. và VIII, p. 46, Nhận xét 1). Khi A là Artin trái, tập hợp $\mathscr{S}(A)$ là hữu hạn (VIII, p. 51, Nhận xét b)).
+Ta ký hiệu tập hợp các lớp của các A-môđun hữu hạn sinh bởi $\mathscr{F}(A)$. Mọi A-môđun đơn đều đơn sinh (VIII, p. 46, Mệnh đề 1), và do đó các lớp của các A-môđun đơn tạo thành một tập con của $\mathscr{F}$ (A), mà từ đây về sau ta ký hiệu bởi $\mathscr{S}(A)$ (hoặc đơn giản là $\mathscr{S}$). Khi vành A là giao hoán, ánh xạ $\mathfrak{m}\mapsto$ cl(A$/\mathfrak{m}$) là một song ánh từ tập hợp các iđêan cực đại của A lên tập hợp $\mathscr{S}(A)$ (loc. cit. và VIII, p. 46, Nhận xét 1). Khi A là Artin trái, tập hợp $\mathscr{S}(A)$ là hữu hạn (VIII, p. 51, Nhận xét b)).
 
 ### Bài tập {#alg-viii-s3-exercises}
 

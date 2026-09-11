@@ -35,9 +35,9 @@ subsections:
       title: ASYMPTOTIC EXPANSION OF A PRIMITIVE
       page: 235
       pdf_page: 250
-statements: 23
+statements: 24
 exercises: 7
-content_sha256: 150915c37d01e0a3f1c4e9cb26407c194f7f04a0d2affb9ba17af4c93ab84bbf
+content_sha256: 5e4af87e00d052d38d3bfa4956abf9089bd57264e9235d2ffe2ae20db8735ebb
 ---
 
 ## § 3. ASYMPTOTIC EXPANSIONS OF FUNCTIONS OF A REAL VARIABLE
@@ -278,7 +278,10 @@ The function $1/\log x$ is of order 0 relative to $x$ and satisfies the conditio
 $$
 \int_a^x \frac{dt}{\log t} \sim \frac{x}{\log x}.
 $$
-2) The function $e^{t^2}$ is of order $+\infty$ relative to $x$ and satisfies the conditions of prop. 8, so
+
+#### Example 2 {#fvr-v-s3-n5-exa-2 .statement}
+
+The function $e^{t^2}$ is of order $+\infty$ relative to $x$ and satisfies the conditions of prop. 8, so
 $$
 \int_a^x e^{t^2}\,dt \sim \frac{1}{2x}\,e^{x^2}.
 $$

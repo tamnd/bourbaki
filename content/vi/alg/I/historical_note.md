@@ -116,28 +116,7 @@ THƯ MỤC
 2. Euclidis Elementa, 5 vols., ed. J. L. Heiberg, Lipsiae (Teubner), 1883–88.
 2 bis. T. L. Heath, The thirteen books of Euclid's Elements . . ., 3 vols., Cambridge, 1908.
 
-3. Diophanti Alexandrini Opera Omnia ..., 2 vols., ed. P. Tannery, Lipsiae (Teubner), 1893–95.
-3 bis. Diophante d’Alexandrie, trad. P. Ver Eecke, Bruges (Desclée-de Brouwer), 1926.
-4. G. W. Leibniz, Mathematische Schriften, ed. C. I. Gerhardt, vol. V, Halle (Schmidt), 1858.
-5. C. F. Gauss, Werke, vols. I (Göttingen, 1870), II (ibid., 1863) and VIII (ibid., 1900).
-6. A. L. Cauchy, Oeuvres complètes (2), vol. I, Paris (Gauthier-Villars), 1905.
-7. N. H. Abel, Oeuvres, 2 vol., ed. Sylow and Lie, Christiania, 1881.
-8. E. Galois, Ecrits et mémoires mathématiques, ed. R. Bourgne and J. Y. Azra, Paris (Gauthier-Villars), 1962.
-9. W. R. Hamilton, Lectures on Quaternions, Dublin, 1853.
-9 bis. W. R. Hamilton, Memorandum respecting a new system of roots of unity, Phil. Mag. (4), 12 (1856), p. 446.
-10. A. Cayley, Collected mathematical papers, vols. I and II, Cambridge (University Press), 1889.
-11. H. Hankel, Vorlesungen über die complexen Zahlen und ihre Functionen, 1st part: Theorie der complexen Zahlensysteme, Leipzig (Voss), 1867.
-12. J. A. Serret, Cours d’Algèbre supérieure, 3rd ed., Paris (Gauthier-Villars), 1866.
-13. R. Dedekind and H. Weber, Theorie der algebraischen Funktionen einer Veränderlichen, Crelle’s J., 92 (1882), pp. 181–290.
-14. R. Dedekind, Gesammelte mathematische Werke, 3 vols., Braunschweig (Vieweg), 1932.
-15. C. Jordan, Traité des substitutions et des équations algébriques, Paris (Gauthier-Villars), 1870 (reprinted, Paris (A. Blanchard), 1957).
-16. C. Jordan, Mémoire sur les groups des mouvements, Ann. di Mat. (2), 2 (1868), pp. 167–215 and 322–345 (= Oeuvres, vol. IV, pp. 231–302, Paris (Gauthier-Villars), 1964).
-17. L. Sylow, Théorèmes sur les groups de substitutions, Math. Ann., 5 (1872), pp. 584–594.
-18. W. Dyck, Gruppentheoretische Studien, Math. Ann., 20 (1882), pp. 1–44.
-19. G. Frobenius, Über Gruppencharaktere, Berliner Sitzungsber., 1896, pp. 985–1021 (= Gesammelte Abhandlungen, ed. J. P. Serre, Berlin–Heidelberg–New York (Springer), vol. III (1968), pp. 1–37).
-20. W. Burnside, Theory of groups of finite order, 2nd ed., Cambridge, 1911.
-21. J. Nielsen, Die Isomorphismengruppen der freien Gruppen, Math. Ann., 91 (1924), pp. 169–209.
-22. O. Schreier, Die Untergruppen der freien Gruppe, Abh. Hamb., 5 (1927), pp. 161–185.
+3. Diophanti Alexandrini Opera Omnia ..., 2 tập, biên tập P. Tannery, Lipsiae (Teubner), 1893–95. 3 bis. Diophante d’Alexandrie, dịch P. Ver Eecke, Bruges (Desclée-de-Brouwer), 1926. 4. G. W. Leibniz, Mathematische Schriften, biên tập C. I. Gerhardt, tập V, Halle (Schmidt), 1858. 5. C. F. Gauss, Werke, các tập I (Göttingen, 1870), II (ibid., 1863) và VIII (ibid., 1900). 6. A. L. Cauchy, Oeuvres complètes (2), tập I, Paris (Gauthier-Villars), 1905. 7. N. H. Abel, Oeuvres, 2 tập, biên tập Sylow và Lie, Christiania, 1881. 8. E. Galois, Ecrits et mémoires mathématiques, biên tập R. Bourgne và J. Y. Azra, Paris (Gauthier-Villars), 1962. 9. W. R. Hamilton, Lectures on Quaternions, Dublin, 1853. 9 bis. W. R. Hamilton, Memorandum respecting a new system of roots of unity, Phil. Mag. (4), 12 (1856), tr. 446. 10. A. Cayley, Collected mathematical papers, các tập I và II, Cambridge (University Press), 1889. 11. H. Hankel, Vorlesungen über die complexen Zahlen und ihre Functionen, phần thứ nhất: Theorie der complexen Zahlensysteme, Leipzig (Voss), 1867. 12. J. A. Serret, Cours d’Algèbre supérieure, lần xuất bản thứ 3, Paris (Gauthier-Villars), 1866. 13. R. Dedekind và H. Weber, Theorie der algebraischen Funktionen einer Veränderlichen, Crelle’s J., 92 (1882), tr. 181–290. 14. R. Dedekind, Gesammelte mathematische Werke, 3 tập, Braunschweig (Vieweg), 1932. 15. C. Jordan, Traité des substitutions et des équations algébriques, Paris (Gauthier-Villars), 1870 (tái bản, Paris (A. Blanchard), 1957). 16. C. Jordan, Mémoire sur les groups des mouvements, Ann. di Mat. (2), 2 (1868), tr. 167–215 và 322–345 (= Oeuvres, tập IV, tr. 231–302, Paris (Gauthier-Villars), 1964). 17. L. Sylow, Théorèmes sur les groups de substitutions, Math. Ann., 5 (1872), tr. 584–594. 18. W. Dyck, Gruppentheoretische Studien, Math. Ann., 20 (1882), tr. 1–44. 19. G. Frobenius, Über Gruppencharaktere, Berliner Sitzungsber., 1896, tr. 985–1021 (= Gesammelte Abhandlungen, biên tập J. P. Serre, Berlin–Heidelberg–New York (Springer), tập III (1968), tr. 1–37). 20. W. Burnside, Theory of groups of finite order, lần xuất bản thứ 2, Cambridge, 1911. 21. J. Nielsen, Die Isomorphismengruppen der freien Gruppen, Math. Ann., 91 (1924), tr. 169–209. 22. O. Schreier, Die Untergruppen der freien Gruppe, Abh. Hamb., 5 (1927), tr. 161–185.
 
 23. A. Speiser, Theorie der Gruppen von endlicher Ordnung, 3rd ed., Berlin (Springer), 1937.
 24. H. Zassenhaus, Lehrbuch der Gruppentheorie, vol. I, Leipzig–Berlin (Teubner), 1937.

@@ -22,9 +22,9 @@ subsections:
       title: Isomorphismes et isomorphismes locaux
       page: 5
       pdf_page: 188
-statements: 10
+statements: 11
 exercises: 9
-content_sha256: bfeade3aa0b3b3023ecc16a65220bfffdd3050bd0ba1e1fd0b30d600039ca897
+content_sha256: 7776acd7bfae78ca9f67e9183ca719fdef316dd21713053f3630629a009ebb09
 ---
 
 ## § 1. TOPOLOGIES DE GROUPES
@@ -43,8 +43,14 @@ Une structure de groupe et une structure topologique étant données sur un ense
 
 Sur un groupe $G$, la topologie discrète est compatible avec la structure du groupe ; un groupe topologique dont la topologie est discrète est appelé groupe discret.
 De même, la topologie la moins fine (I, p. 11) sur $G$ est compatible avec la structure de groupe de $G$.
-*2) Au chap. IV, on verra que la topologie de la droite rationnelle $\mathbf{Q}$ (resp. de la droite numérique $\mathbf{R}$) est compatible avec la structure de groupe additif de $\mathbf{Q}$ (resp. $\mathbf{R}$).*
-3) Si $G$ est un groupe topologique, sa topologie est compatible avec la structure du groupe $G^0$ opposé à $G$ (A, I, p. 2g) ; on dit que $G^0$, muni de cette topologie, est le groupe topologique opposé au groupe topologique $G$.
+
+#### Exemple 2 {#top-iii-s1-n1-exa-2 .statement}
+
+Au chap. IV, on verra que la topologie de la droite rationnelle $\mathbf{Q}$ (resp. de la droite numérique $\mathbf{R}$) est compatible avec la structure de groupe additif de $\mathbf{Q}$ (resp. $\mathbf{R}$).*
+
+#### Exemple 3 {#top-iii-s1-n1-exa-3 .statement}
+
+Si $G$ est un groupe topologique, sa topologie est compatible avec la structure du groupe $G^0$ opposé à $G$ (A, I, p. 2g) ; on dit que $G^0$, muni de cette topologie, est le groupe topologique opposé au groupe topologique $G$.
 
 Les axiomes (GT_I) et (GT_{II}) équivalent au suivant :
 (GT'). L’application $(x, y) \mapsto xy^{-1}$ de $G \times G$ dans $G$ est continue.
@@ -65,9 +71,7 @@ Soient $E$ un espace topologique, $f$ et $g$ deux applications de $E$ dans un gr
 
 De même, soient $f$ et $g$ deux applications d’un ensemble $E$ *filtré* par un filtre $\mathcal{F}$, dans un groupe topologique *séparé* $G$. Si $\lim_{\mathcal{F}} f$ et $\lim_{\mathcal{F}} g$ existent, il en est de même de $\lim_{\mathcal{F}} f^{-1}$ et $\lim_{\mathcal{F}} fg$, et l’on a (I, p. 50, cor. 1) (1) $\lim_{\mathfrak{F}} f^{-1} = (\lim_{\mathfrak{F}} f)^{-1}$
 
-#### Exemple 2 {#top-iii-s1-n1-exa-2 .statement}
-
-$\lim_{\mathfrak{F}} fg = (\lim_{\mathfrak{F}} f)(\lim_{\mathfrak{F}} g).$
+(2) $\lim_{\mathfrak{F}} fg = (\lim_{\mathfrak{F}} f)(\lim_{\mathfrak{F}} g).$
 
 Lorsque G est un groupe *commutatif*, noté *additivement*, l’axiome (GT’) exprime que $(x, y) \mapsto x - y$ est une application continue. Si $f$ et $g$ sont des applications d’un espace topologique E dans G, continues en $x_0$, $f - g$ est donc continue en ce point. On transcrit de même les formules (1) et (2).
 

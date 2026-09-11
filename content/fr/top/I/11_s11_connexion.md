@@ -38,9 +38,9 @@ subsections:
       title: 'Application: le théorème de Poincaré-Volterra'
       page: 86
       pdf_page: 98
-statements: 28
+statements: 29
 exercises: 29
-content_sha256: e9eff3ed60be295fd962cd027968f4afe1c217f0dc7647c97b8bb23ce797063a
+content_sha256: 2d6c3fb9aa50475b7f50ea6a4a3b44fcce29e93543ce19f5f6571a3a70aea3c5
 ---
 
 ## § 11. CONNEXION
@@ -58,7 +58,10 @@ Si $X$ est connexe et si $A$ et $B$ sont deux ensembles ouverts non vides (resp.
 #### Exemple 1 {#top-i-s11-n1-exa-1 .statement}
 
 On verra dans IV, p. 8 que la droite numérique est connexe, et la droite rationnelle non connexe.*
-    2) Un espace discret contenant plus d’un point n’est pas connexe.
+
+#### Exemple 2 {#top-i-s11-n1-exa-2 .statement}
+
+Un espace discret contenant plus d’un point n’est pas connexe.
 
 On notera que si $(U_\iota)_{\iota \in I}$ est une partition d’un espace topologique $X$ formée d’ensembles ouverts non vides, chacun des $U_\iota$ est à la fois ouvert et fermé, car son complémentaire est ouvert, étant la réunion des $U_\kappa$ pour $\kappa \neq \iota$. Les ensembles ouverts de $X$ sont alors les ensembles $A$ tel que $A \cap U_\iota$ soit ouvert dans $U_\iota$ pour tout $t \in I$, donc $X$ s’identifie à l’espace somme des $U_t$ (I, p. 15, Exemple III), et n’est pas connexe si $I$ a au moins deux éléments.
 
@@ -68,7 +71,7 @@ On dit qu’une partie $A$ d’un espace topologique $X$ est un ensemble connexe
 
 Pour que $A$ soit une partie connexe de $X$, il faut et il suffit que, pour tout recouvrement de $A$ composé de deux ensembles $B, C$, tous deux ouverts (ou tous deux fermés) dans $X$, et tels que $A \cap B$ et $A \cap C$ ne soient pas vides, on ait $A \cap B \cap C \neq \varnothing$.
 
-#### Exemple {#top-i-s11-n1-exa-2 .statement}
+#### Exemple {#top-i-s11-n1-exa-3 .statement}
 
 Dans un espace topologique, l’ensemble vide et tout ensemble réduit à un point sont connexes; dans un espace séparé, tout ensemble fini comprenant plus d’un point, et plus généralement tout ensemble non réduit à un point et possédant au moins un point isolé est non connexe.
 

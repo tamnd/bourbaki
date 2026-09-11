@@ -10,9 +10,9 @@ source: top-v-x-fr
 book_pages: TG V.16-TG V.18
 pdf_pages: 0017-0018, 0023-0025
 extraction: ocr
-statements: 3
+statements: 5
 exercises: 8
-content_sha256: 1b241ea5ab460c6fa4478874830270979c7cae6eb7768627da21ab227f648857
+content_sha256: 9d6c901d14bd783b3438d15cccece809a80e1cc65d54bd2fa35bbd2ea28d4340
 ---
 
 ## § 3. CARACTÉRISATION TOPOLOGIQUE DES GROUPES R ET T
@@ -42,8 +42,14 @@ C’est une conséquence immédiate du théorème précédent, et de la prop. 7 
 #### Remarque 1 {#top-v-s3-rem-1 .statement}
 
 Pour décider si un groupe G, qui remplit les conditions du th. 2, est isomorphe à $\mathbf{T}$ ou isomorphe à $\mathbf{R}$, il suffit de voir si G est compact ou ne l’est pas.
-2) Le th. 2 montre en particulier que tout groupe topologique homéomorphe au groupe $\mathbf{R}$ lui est nécessairement isomorphe.
-3) La caractérisation topologique précédente des groupes $\mathbf{R}$ et $\mathbf{T}$ fait intervenir l’espace topologique $\mathbf{R}$ comme ensemble auxiliaire. Il est possible de caractériser les structures de groupe topologique de $\mathbf{R}$ et de $\mathbf{T}$ par des axiomes ne faisant intervenir aucun ensemble auxiliaire (voir V, p. 16 et 17, exerc. 4 et 6).
+
+#### Remarque 2 {#top-v-s3-rem-2 .statement}
+
+Le th. 2 montre en particulier que tout groupe topologique homéomorphe au groupe $\mathbf{R}$ lui est nécessairement isomorphe.
+
+#### Remarque 3 {#top-v-s3-rem-3 .statement}
+
+La caractérisation topologique précédente des groupes $\mathbf{R}$ et $\mathbf{T}$ fait intervenir l’espace topologique $\mathbf{R}$ comme ensemble auxiliaire. Il est possible de caractériser les structures de groupe topologique de $\mathbf{R}$ et de $\mathbf{T}$ par des axiomes ne faisant intervenir aucun ensemble auxiliaire (voir V, p. 16 et 17, exerc. 4 et 6).
 
 ## EXERCICES {#top-v-s3-exercises}
 

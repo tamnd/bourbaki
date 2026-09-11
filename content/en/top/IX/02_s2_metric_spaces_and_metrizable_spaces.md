@@ -50,9 +50,9 @@ subsections:
       title: QUOTIENT SPACES OF METRIZABLE SPACES
       page: 0
       pdf_page: 165
-statements: 32
+statements: 33
 exercises: 9
-content_sha256: 251e0a701a7a4479cdf6534f4d5644531e477de5a2f33457b6f0c1971ce81b63
+content_sha256: 6e7b44504b54feee5f0b3d6af73ef51f9efcd47254e6b60be3532a4009721713
 ---
 
 ## 2. METRIC SPACES AND METRIZABLE SPACES
@@ -267,7 +267,10 @@ Let $d$ be a metric compatible with the topology of a metrizable space $X$. If $
 #### Remark 1 {#top-ix-s2-n5-rem-1 .statement}
 
 These necessary conditions are not sufficient (cf. Exercise 13).
-2) There are spaces in which every point has a countable fundamental system of neighbourhoods but in which there exist closed sets which are not countable intersections of open sets (Exercise 15); such spaces are not metrizable.
+
+#### Remark 2 {#top-ix-s2-n5-rem-2 .statement}
+
+There are spaces in which every point has a countable fundamental system of neighbourhoods but in which there exist closed sets which are not countable intersections of open sets (Exercise 15); such spaces are not metrizable.
 
 Corollary 2 of Theorem 1, no. 4, shows that a countable product of metrizable topological spaces is metrizable. Also the sum $X$ (Chapter I, § 2, no. 4) of an arbitrary family $(X_i)_{i \in I}$ of metrizable spaces is metrizable. For if $d_i$ is a metric compatible with the topology of $X_i$ for each $i \in I$, we may assume that $d_i$ is bounded and that the diameter of $X_i$ is $\leq 1$; we can then define a distance $d$ compatible with the topology of $X$ by putting $d(x, y) = d_i(x, y)$ if $x$ and $y$ both belong to the same $X_i$, and $d(x, y) = 1$ otherwise.
 

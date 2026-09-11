@@ -38,9 +38,9 @@ subsections:
       title: Topologies initiales d’espaces vectoriels
       page: 9
       pdf_page: 15
-statements: 26
+statements: 30
 exercises: 14
-content_sha256: 0eb670b83af5ce67de8c2fa13f552cbfd7773188b5145b333c3829c489d27fc4
+content_sha256: b69f32004219766313b9c796db5d5ebaff634a94bf3aa93dbd4b3ba310100859
 ---
 
 ## § 1. ESPACES VECTORIELS TOPOLOGIQUES
@@ -64,10 +64,18 @@ Si E est un espace vectoriel topologique à gauche sur K, on dit que E, muni seu
 #### Exemple 1 {#evt-i-s1-n1-exa-1 .statement}
 
 Si E est un espace vectoriel à gauche sur un corps topologique discret K, la topologie discrète sur E est compatible avec la structure d’espace vectoriel de E (il n’en est pas de même si K est non discret et E non réduit à 0).
-  2) Soit A un anneau topologique (TG, III, p. 48) et soit K un sous-anneau de A qui est un corps, et tel que la topologie induite sur K par celle de A soit compatible avec la structure de corps de K ; alors la topologie de A est compatible avec sa structure d’espace vectoriel à gauche sur K.
-  3) Soient K un corps topologique quelconque, I un ensemble quelconque. Sur l’espace vectoriel produit $K_s^I$ (A, II, p. 10), la topologie produit est compatible avec la structure d’espace vectoriel (TG, III, p. 53). On peut encore dire que l’espace $K_s^I$ des applications de I dans K, muni de la topologie de la convergence simple, est un espace vectoriel topologique sur K (TG, X, p. 4).
 
-4) Soit X un espace topologique ; sur l’ensemble E = $\mathcal{C}(X ; \mathbf{R})$ des fonctions numériques finies continues dans X, la topologie de la convergence compacte (TG, X, p. 4) est compatible avec la structure d’espace vectoriel de E sur $\mathbf{R}$. En effet, soient $u_0$ un point de E, H une partie compacte de X, $\varepsilon$ un nombre > 0 arbitraire. La fonction numérique $u_0$ est bornée dans H ; soit $a = \sup_{t \in H} |u_0(t)|$; si $u$ est un point quelconque de E, on peut écrire, pour tout $t \in H$,
+#### Exemple 2 {#evt-i-s1-n1-exa-2 .statement}
+
+Soit A un anneau topologique (TG, III, p. 48) et soit K un sous-anneau de A qui est un corps, et tel que la topologie induite sur K par celle de A soit compatible avec la structure de corps de K ; alors la topologie de A est compatible avec sa structure d’espace vectoriel à gauche sur K.
+
+#### Exemple 3 {#evt-i-s1-n1-exa-3 .statement}
+
+Soient K un corps topologique quelconque, I un ensemble quelconque. Sur l’espace vectoriel produit $K_s^I$ (A, II, p. 10), la topologie produit est compatible avec la structure d’espace vectoriel (TG, III, p. 53). On peut encore dire que l’espace $K_s^I$ des applications de I dans K, muni de la topologie de la convergence simple, est un espace vectoriel topologique sur K (TG, X, p. 4).
+
+#### Exemple 4 {#evt-i-s1-n1-exa-4 .statement}
+
+Soit X un espace topologique ; sur l’ensemble E = $\mathcal{C}(X ; \mathbf{R})$ des fonctions numériques finies continues dans X, la topologie de la convergence compacte (TG, X, p. 4) est compatible avec la structure d’espace vectoriel de E sur $\mathbf{R}$. En effet, soient $u_0$ un point de E, H une partie compacte de X, $\varepsilon$ un nombre > 0 arbitraire. La fonction numérique $u_0$ est bornée dans H ; soit $a = \sup_{t \in H} |u_0(t)|$; si $u$ est un point quelconque de E, on peut écrire, pour tout $t \in H$,
 
 $$
 |\lambda u(t) - \lambda_0 u_0(t)| \leq |\lambda| \cdot |u(t) - u_0(t)| + a \; |\lambda - \lambda_0|.
@@ -81,7 +89,9 @@ ce qui montre que l’axiome (EVT) est vérifié ; on vérifie de même que la t
 
 Par contre, si X n’est pas compact, la topologie de la convergence uniforme (dans X) n’est pas nécessairement compatible avec la structure d’espace vectoriel de E ; par exemple si $X = \mathbf{R}$, et si $u_0$ est une fonction continue non bornée dans $\mathbf{R}$, l’application $\lambda \mapsto \lambda u_0$ de $\mathbf{R}$ dans E n’est pas continue quand on munit E de la topologie de la convergence uniforme.
 
-5) Soit E un espace vectoriel de dimension finie $n$ sur un corps topologique K ; il existe donc un isomorphisme $u : K_s^n \to E$ de K-espaces vectoriels, et en outre, si $v$ est un second isomorphisme de $K_s^n$ sur E, on peut écrire $v = u \circ f$, où $f$ est un automorphisme du K-espace vectoriel $K_s^n$. Considérons alors sur $K_s^n$ la topologie produit, qui est compatible avec sa structure d’espace vectoriel (Exemple 3) ; comme toute application linéaire de $K_s^n$ dans lui-même est continue pour cette topologie, tout automorphisme de l’espace vectoriel $K_s^n$ est bicontinu. Par suite, si l’on transporte à E la topologie produit de $K_s^n$ au moyen d’un isomorphisme quelconque de $K_s^n$ sur E, la topologie obtenue sur E est indépendante de l’isomorphisme considéré ; on dit que c’est la topologie canonique sur E ; nous la caractériserons autrement (I, p. 14) lorsque K est un corps valué complet non discret. Toute application linéaire de E dans un espace vectoriel topologique sur K est continue pour la topologie canonique sur E.
+#### Exemple 5 {#evt-i-s1-n1-exa-5 .statement}
+
+Soit E un espace vectoriel de dimension finie $n$ sur un corps topologique K ; il existe donc un isomorphisme $u : K_s^n \to E$ de K-espaces vectoriels, et en outre, si $v$ est un second isomorphisme de $K_s^n$ sur E, on peut écrire $v = u \circ f$, où $f$ est un automorphisme du K-espace vectoriel $K_s^n$. Considérons alors sur $K_s^n$ la topologie produit, qui est compatible avec sa structure d’espace vectoriel (Exemple 3) ; comme toute application linéaire de $K_s^n$ dans lui-même est continue pour cette topologie, tout automorphisme de l’espace vectoriel $K_s^n$ est bicontinu. Par suite, si l’on transporte à E la topologie produit de $K_s^n$ au moyen d’un isomorphisme quelconque de $K_s^n$ sur E, la topologie obtenue sur E est indépendante de l’isomorphisme considéré ; on dit que c’est la topologie canonique sur E ; nous la caractériserons autrement (I, p. 14) lorsque K est un corps valué complet non discret. Toute application linéaire de E dans un espace vectoriel topologique sur K est continue pour la topologie canonique sur E.
 
 De la même manière que dans la déf. 1, on définit un espace vectoriel topologique à droite sur un corps topologique K ; mais tout espace vectoriel à droite sur K peut être considéré comme espace vectoriel à gauche sur le corps opposé $K^0$ de K (A, II, p. 2), et la topologie de K est compatible avec la structure de corps de $K^0$. Pour cette raison, nous ne considérerons en principe que des espaces vectoriels topologiques à gauche ; quand nous parlerons d’« espace vectoriel topologique » sans préciser, il sera sous-entendu qu’il s’agit d’un espace vectoriel à gauche.
 

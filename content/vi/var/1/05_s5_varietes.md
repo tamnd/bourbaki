@@ -170,13 +170,13 @@ Cho $(U, \varphi, E)$ là một bản đồ địa phương của X và $(V, \ps
 
 (1)
 $$
-\eta^j(y) = u^j(\xi^1(x), \ldots, \xi^m(x)) \quad \text{for } 1 \leq j \leq n
+\eta^j(y) = u^j(\xi^1(x), \ldots, \xi^m(x)) \quad \text{với } 1 \leq j \leq n
 $$
 tương đương với:
 
 (2)
 $$
-\eta^j \circ f = u^j(\xi^1, \ldots, \xi^m) \quad \text{for } 1 \leq j \leq n.
+\eta^j \circ f = u^j(\xi^1, \ldots, \xi^m) \quad \text{với } 1 \leq j \leq n.
 $$
 Ta nói rằng các công thức trên tạo thành *biểu thức* của $f$ bằng các hệ tọa độ đã chọn.
 

@@ -4,6 +4,7 @@
 {"from":"","from_label":"alg-v-s12-n1-cor-1","to_label":"alg-v-s4","kind":"cites","raw":"V, p. 22","form":"page","resolved_by":"section","file":"content/en/alg/V/12_s12_finite_fields.md","line":72},
 {"from":"","from_label":"alg-v-s12-prop-3","to_label":"alg-iv-s2-prop-7","kind":"cites","raw":"IV, p. 17, Prop. 7","form":"page","resolved_by":"page-map","file":"content/en/alg/V/12_s12_finite_fields.md","line":102},
 {"from":"","from_label":"alg-v-s12-prop-3","to_label":"alg-v-s12-prop-2","kind":"cites","raw":"Prop. 2","form":"local","resolved_by":"in-section","file":"content/en/alg/V/12_s12_finite_fields.md","line":104},
+{"from":"","from_label":"alg-v-s12-n2-cor-1","to_label":"alg-v-s4-n3-exa-2","kind":"cites","raw":"V, p. 22, Example 2","form":"page","resolved_by":"page-map","file":"content/en/alg/V/12_s12_finite_fields.md","line":112},
 {"from":"","from_label":"alg-v-s12-n2-cor-1","to_label":"alg-v-s4-thm-2","kind":"cites","raw":"V, p. 23, Th. 2","form":"page","resolved_by":"page-map","file":"content/en/alg/V/12_s12_finite_fields.md","line":114},
 {"from":"","from_label":"alg-v-s12-n2-cor-1","to_label":"alg-v-s12-prop-3","kind":"cites","raw":"Prop. 3","form":"local","resolved_by":"in-section","file":"content/en/alg/V/12_s12_finite_fields.md","line":114},
 {"from":"","from_label":"alg-v-s12-n2-cor-1","to_label":"alg-v-s12-n1-cor-1","kind":"cites","raw":"Cor. of Prop. 2","form":"attached","resolved_by":"parent-label","file":"content/en/alg/V/12_s12_finite_fields.md","line":114},

@@ -147,7 +147,7 @@ b) nếu một dãy các độ đo bị chặn có một giới hạn chặt, th
 
 Từ sự phong phú của các khái niệm và định lý này, Prokhorov đã có thể rút ra những kết quả quan trọng cho lý thuyết các quá trình ngẫu nhiên, và trình bày chúng dưới một dạng đơn giản và nổi bật. Trong công trình lớn năm 1956 đã được dẫn ở trên (XIII), một phần lớn dành cho các độ đo dương bị chặn trên một không gian Polish; khái quát hóa một phép dựng của Lévy, ông định nghĩa một mêtric trên tập hợp các độ đo dương có khối lượng 1 làm cho nó trở thành một không gian Polish, rồi thiết lập một tiêu chuẩn compact quan trọng cho sự hội tụ chặt (xem §5, No. 5, Th. 1). Độc lập với Prokhorov, Le Cam (XX) đã thu được một số kết quả compact cho sự hội tụ chặt của các độ đo; ông không đặt ra giả thiết khả metr hóa nào trên các không gian mà ông xét, và các kết quả của ông rút gọn về các định lý trước đó của Dieudonné trong trường hợp compact địa phương.
 
-(15) Để cố gắng giải quyết một số khó khăn xác suất (cụ thể là các quan hệ giữa những khái niệm khác nhau về độc lập hay phụ thuộc ngẫu nhiên), một số tác giả đã đưa vào các lớp hạn chế của các độ đo 'abstract': các không gian 'perfect' của Kolmogoroff-Gnedenko, các không gian 'Lusin' của Blackwell, các không gian 'Lebesgue' của Rokhlin. Thực ra (ít nhất giả sử một giả thiết đếm được khá yếu), tất cả các định nghĩa này đều cho những đặc trưng của các độ đo 'abstract' đẳng cấu với một độ đo dương bị chặn trên một không gian Souslin. Về chủ đề này, có thể xem công trình được dẫn ở chú thích (13).
+(15) Để cố gắng giải quyết một số khó khăn xác suất (cụ thể là các quan hệ giữa những khái niệm khác nhau về độc lập hay phụ thuộc ngẫu nhiên), một số tác giả đã đưa vào các lớp hạn chế của các độ đo 'abstract': các không gian 'hoàn hảo' của Kolmogoroff-Gnedenko, các không gian 'Lusin' của Blackwell, các không gian 'Lebesgue' của Rokhlin. Thực ra (ít nhất giả sử một giả thiết đếm được khá yếu), tất cả các định nghĩa này đều cho những đặc trưng của các độ đo 'abstract' đẳng cấu với một độ đo dương bị chặn trên một không gian Souslin. Về chủ đề này, có thể xem công trình được dẫn ở chú thích (13).
 
 (16) Ông phân biệt, theo thứ tự giảm dần về tính tổng quát, giữa các $\sigma$-độ đo (các độ đo 'abstract' trên bộ tộc Borel của X ), các $\tau$-độ đo (các độ đo chính quy ngoài) và các độ đo taut (các độ đo chính quy trong). Khi X là Polish, ba khái niệm này trùng nhau. Chính thuật ngữ này là do McShane và Le Cam (XX) đưa ra. Có thể tìm một bản tường thuật về các công trình mà sự phân loại này đã dẫn tới trong V. S. VARADARAJAN (Amer. Math. Soc. Transl. (2), 48, 161–228).
 
@@ -336,80 +336,9 @@ Thước đo trên một tập hợp X: IX, 3, Bài tập 9.
 Độ đo Gaussian với ma trận hiệp phương sai $C$: IX, 6, 6.
 Tiền độ đo Gaussian với hiệp phương sai $K$: IX, 6, 6.
 
-Tiền độ đo Gaussian, chính tắc, trên một không gian Hilbert thực: IX, 6, 6.
-Nhóm tuyến tính tổng quát: VII, 3, 3.
-Hàm sinh của một dãy: IX, 5, 7.
-Nhóm tam giác lớn (trên, dưới): VII, 3, 3.
-Nhóm tam giác đặc biệt (trên, dưới): VII, 3, 3.
-Nhóm tam giác ngặt (trên, dưới): VII, 3, 3.
-Nhóm đơn môđula: VII, 1, 3.
-Độ đo Haar (trái, phải): VII, 1, 2.
-Ánh xạ Hilbert–Schmidt: IX, Phụ lục, 2.
-Ảnh của một độ đo: IX, 2, 3.
-Ảnh của một tiền độ đo: IX, 6. 2.
-Ảnh của một tải: IX, 1, 1.
-Tải cảm sinh: IX, 1, 1.
-Độ đo cảm sinh: IX, 2, 1.
-Bất đẳng thức Brunn–Minkowski: VII, 1, Bài tập 25.
-Hàm tập hợp nội chính quy: IX, 3, 2.
-Các số nguyên $p$-adic: VII, 1, 6.
-Hàm khả tích: IX, 1, 10.
-Tập hợp khả tích: IX, 1, 9.
-Nguyên trừu tượng: IX, 3, Bài tập 4.
-Nguyên trên cốt yếu: IX, 1, 2.
-Nguyên trên: IX, 1, 9.
-Nguyên của một hàm: IX, 1, 10.
-Độ đo bất biến (trái, phải) trên một nhóm: VII, 1, 1.
-Độ đo bất biến, dưới tác dụng của một nhóm các toán tử: VII, 1, 1.
-Giới hạn nghịch (hoặc projective) của các độ đo trên một giới hạn nghịch (hoặc projective) của các nhóm địa phương compact: VII, 1, 6.
-Giới hạn nghịch (hoặc projective) của các độ đo: IX, 4, 2.
-Hệ nghịch (hoặc projective) của các độ đo: IX, 4, 2.
-Biểu diễn tuyến tính đẳng cự: VIII, 2, 1.
-Phân tích Iwasawa của $\mathbf{GL}(n, K)$: VII, 3, 3.
-Hạt nhân kiểu dương: IX, 6, 6.
-Định lý Lagrange: VII, 1, Bài tập 29.
-Phép biến đổi Laplace: IX, 5, 7.
-Nhóm tam giác lớn (trên, dưới): VII, 3, 3.
-Độ đo Haar trái: VII, 1, 2.
-Nhân tử trái của một độ đo tương đối bất biến trên một nhóm địa phương compact: VII, 1, 8.
-Độ đo bất biến trái trên một nhóm: VII, 1, 1.
+Tiền độ đo Gaussian, chính tắc, trên một không gian Hilbert thực: IX, 6, 6. Nhóm tuyến tính tổng quát: VII, 3, 3. Hàm sinh của một dãy: IX, 5, 7. Nhóm tam giác lớn (trên, dưới): VII, 3, 3. Nhóm tam giác đặc biệt (trên, dưới): VII, 3, 3. Nhóm tam giác ngặt (trên, dưới): VII, 3, 3. Nhóm đơn môđula: VII, 1, 3. Độ đo Haar (trái, phải): VII, 1, 2. Ánh xạ Hilbert–Schmidt: IX, Phụ lục, 2. Ảnh của một độ đo: IX, 2, 3. Ảnh của một tiền độ đo: IX, 6. 2. Ảnh của một tải: IX, 1, 1. Tải cảm sinh: IX, 1, 1. Độ đo cảm sinh: IX, 2, 1. Bất đẳng thức Brunn–Minkowski: VII, 1, Bài tập 25. Hàm tập hợp nội chính quy: IX, 3, 2. Các số nguyên $p$-adic: VII, 1, 6. Hàm khả tích: IX, 1, 10. Tập hợp khả tích: IX, 1, 9. Nguyên trừu tượng: IX, 3, Bài tập 4. Nguyên trên cốt yếu: IX, 1, 2. Nguyên trên: IX, 1, 9. Nguyên của một hàm: IX, 1, 10. Độ đo bất biến (trái, phải) trên một nhóm: VII, 1, 1. Độ đo bất biến, dưới tác dụng của một nhóm các toán tử: VII, 1, 1. Giới hạn nghịch (hoặc xạ ảnh) của các độ đo trên một giới hạn nghịch (hoặc xạ ảnh) của các nhóm địa phương compact: VII, 1, 6. Giới hạn nghịch (hoặc xạ ảnh) của các độ đo: IX, 4, 2. Hệ nghịch (hoặc xạ ảnh) của các độ đo: IX, 4, 2. Biểu diễn tuyến tính đẳng cự: VIII, 2, 1. Phân tích Iwasawa của $\mathbf{GL}(n, K)$: VII, 3, 3. Hạt nhân kiểu dương: IX, 6, 6. Định lý Lagrange: VII, 1, Bài tập 29. Phép biến đổi Laplace: IX, 5, 7. Nhóm tam giác lớn (trên, dưới): VII, 3, 3. Độ đo Haar trái: VII, 1, 2. Nhân tử trái của một độ đo tương đối bất biến trên một nhóm địa phương compact: VII, 1, 8. Độ đo bất biến trái trên một nhóm: VII, 1, 1. ng compact: VII, 1, 8. Độ đo bất biến trái trên một nhóm: VII, 1, 1.
 
-Định lý của P. Levy: IX, 5, Bài tập 13.
-Phép nâng các độ đo: IX, 2, 4.
-Giới hạn nghịch (hoặc projective) của các độ đo trên một giới hạn nghịch (hoặc projective) của các nhóm địa phương compact: VII, 1, 6.
-Giới hạn nghịch (hoặc projective) của các độ đo: IX, 4, 2.
-Biểu diễn tuyến tính chuyển vị, đối ngẫu của một biểu diễn tuyến tính: VIII, 2, 2.
-Địa phương hầu như khắp nơi: IX, 1, 4.
-Tải địa phương bị chặn: IX, 1, 1.
-Hàm tập hợp địa phương bị chặn: IX, 3, 2.
-Hàm khả tích địa phương: IX, 2, 2.
-Hàm không đáng kể địa phương: IX, 1, 4.
-Tập hợp không đáng kể địa phương: IX, 1, 4.
-Ánh xạ Hilbert–Schmidt: IX, Phụ lục, 2.
-Ánh xạ $\mu$-thực sự: IX, 2, 3.
-Các biên của một độ đo trên một không gian hàm: IX, 4, 3.
-Khối lượng toàn phần (của một tiền độ đo): IX, 6, 1.
-Trung bình quỹ đạo: VII, 2, 2.
-Hàm đo được: IX, 1, 5.
-Tập hợp đo được: IX, 1, 5.
-Độ đo: IX, 1, 2.
-Độ đo trừu tượng: IX, 3, Bài tập 4.
-Độ đo trên $\mathbf{Q}_p$, Haar chuẩn hoá: VII, 1, 6.
-Độ đo bị chặn: IX, 1, 2.
-Độ đo Gaussian với ma trận hiệp phương sai $C$: IX, 6, 6.
-Độ đo Gaussian với phương sai $Q$: IX, 6, 5.
-Độ đo Haar (trái, phải), trên một nhóm địa phương compact: VII, 1, 2.
-Ảnh của một độ đo: IX, 2, 3.
-Độ đo cảm sinh: IX, 2, 1.
-Độ đo bất biến (tương đối bất biến, gần bất biến) dưới tác dụng của một nhóm các toán tử: VII, 1, 1.
-Độ đo bất biến trái (phải), trên một nhóm địa phương compact: VII, 1, 1.
-Phép nâng các độ đo: IX, 2, 4.
-Độ đo điều độ: IX, 1, 9.
-Độ đo Haar chuẩn hoá, trên một nhóm compact, trên một nhóm rời rạc: VII, 1, 3.
-Độ đo ngoài (của một tập hợp): IX, 1, 9.
-Độ đo tích: IX, 2, 5.
-Độ đo gần bất biến, trên một nhóm địa phương compact: VII, 1, 9.
-Độ đo tương đối bất biến, trên một nhóm địa phương compact: VII, 1, 8.
+Định lý của P. Levy: IX, 5, Bài tập 13. Phép nâng các độ đo: IX, 2, 4. Giới hạn nghịch (hoặc xạ ảnh) của các độ đo trên một giới hạn nghịch (hoặc xạ ảnh) của các nhóm địa phương compact: VII, 1, 6. Giới hạn nghịch (hoặc xạ ảnh) của các độ đo: IX, 4, 2. Biểu diễn tuyến tính chuyển vị, đối ngẫu của một biểu diễn tuyến tính: VIII, 2, 2. Địa phương hầu như khắp nơi: IX, 1, 4. Tải địa phương bị chặn: IX, 1, 1. Hàm tập hợp địa phương bị chặn: IX, 3, 2. Hàm khả tích địa phương: IX, 2, 2. Hàm không đáng kể địa phương: IX, 1, 4. Tập hợp không đáng kể địa phương: IX, 1, 4. Ánh xạ Hilbert–Schmidt: IX, Phụ lục, 2. Ánh xạ $\mu$-thực sự: IX, 2, 3. Các biên của một độ đo trên một không gian hàm: IX, 4, 3. Khối lượng toàn phần (của một tiền độ đo): IX, 6, 1. Trung bình quỹ đạo: VII, 2, 2. Hàm đo được: IX, 1, 5. Tập hợp đo được: IX, 1, 5. Độ đo: IX, 1, 2. Độ đo trừu tượng: IX, 3, Bài tập 4. Độ đo trên $\mathbf{Q}_p$, Haar chuẩn hoá: VII, 1, 6. Độ đo bị chặn: IX, 1, 2. Độ đo Gaussian với ma trận hiệp phương sai $C$: IX, 6, 6. Độ đo Gaussian với phương sai $Q$: IX, 6, 5. Độ đo Haar (trái, phải), trên một nhóm địa phương compact: VII, 1, 2. Ảnh của một độ đo: IX, 2, 3. Độ đo cảm sinh: IX, 2, 1. Độ đo bất biến (tương đối bất biến, gần bất biến) dưới tác dụng của một nhóm các toán tử: VII, 1, 1. Độ đo bất biến trái (phải), trên một nhóm địa phương compact: VII, 1, 1. Phép nâng các độ đo: IX, 2, 4. Độ đo điều độ: IX, 1, 9. Độ đo Haar chuẩn hoá, trên một nhóm compact, trên một nhóm rời rạc: VII, 1, 3. Độ đo ngoài (của một tập hợp): IX, 1, 9. Độ đo tích: IX, 2, 5. Độ đo gần bất biến, trên một nhóm địa phương compact: VII, 1, 9. Độ đo tương đối bất biến, trên một nhóm địa phương compact: VII, 1, 8.
 
 Độ đo Wiener: IX, 6, 7.
 Độ đo, với cơ sở $\mu$: IX, 2, 2.
@@ -737,14 +666,7 @@ CHƯƠNG VII. — ĐỘ ĐO HAAR ............................................. V
         4. Nhóm tam giác lớn ...................................... VII.63
         5. Nhóm tam giác đặc biệt .................................... VII.66
 
-6. Special linear group ......................... VII.67
-7. Iwasawa decomposition of $\mathbf{GL}(n, K)$ ..... VII.69
-8. Spaces of hermitian forms .................... VII.72
-Appendix I ........................................ VII.74
-Appendix II ......................................... VII.76
-Exercises for §1 .................................. VII.78
-Exercises for §2 .................................. VII.87
-Exercises for §3 .................................. VII.91
+6. Nhóm tuyến tính đặc biệt ......................... VII.67 7. Phân tích Iwasawa của $\mathbf{GL}(n, K)$ ..... VII.69 8. Các không gian của các dạng hermitian .................... VII.72 Phụ lục I ........................................ VII.74 Phụ lục II ......................................... VII.76 Bài tập cho §1 .................................. VII.78 Bài tập cho §2 .................................. VII.87 Bài tập cho §3 .................................. VII.91
 
 CHƯƠNG VIII. — TÍCH CHẬP VÀ BIỂU DIỄN .... VIII.1
 
@@ -780,43 +702,17 @@ CHƯƠNG VIII. — TÍCH CHẬP VÀ BIỂU DIỄN .... VIII.1
 
 §5. Không gian của các nhóm con đóng ........................................ VIII.46
 
-    1. The space of Haar measures on the closed subgroups of G .................................................. VIII.46
-    2. Semi-continuity of the volume of the homogeneous space VIII.48
-    3. The space of closed subgroups of C ......................... VIII.51
-    4. The case of groups without arbitrarily small finite subgroups ............................................. VIII.53
-    5. The case of abelian groups .................................... VIII.55
-    6. Another interpretation of the topology of the space of closed subgroups ............................... VIII.56
-Exercises for §1 .......................................................... VIII.59
-Exercises for §2 .......................................................... VIII.59
-Exercises for §3 .......................................................... VIII.61
-Exercises for §4 .......................................................... VIII.65
-Exercises for §5 .......................................................... VIII.73
-Historical Note (Chs. VII and VIII) ................................. VIII.75
+1. Không gian các độ đo Haar trên các nhóm con đóng của G .................................................. VIII.46 2. Tính bán liên tục của thể tích của không gian thuần nhất VIII.48 3. Không gian các nhóm con đóng của C ......................... VIII.51 4. Trường hợp các nhóm không có các nhóm con hữu hạn nhỏ tùy ý ............................................. VIII.53 5. Trường hợp các nhóm abel .................................... VIII.55 6. Một cách giải thích khác về topo của không gian các nhóm con đóng ............................... VIII.56 Bài tập cho §1 .......................................................... VIII.59 Bài tập cho §2 .......................................................... VIII.59 Bài tập cho §3 .......................................................... VIII.61 Bài tập cho §4 .......................................................... VIII.65 Bài tập cho §5 .......................................................... VIII.73 Ghi chú lịch sử (Chs. VII và VIII) ................................. VIII.75
 
 Chương IX. — Độ đo trên các không gian tôpô Hausdorff IX.1
 
 §1. Tiền độ đo và độ đo trên một không gian tôpô ............ IX.1
 
-    1. Encumbrances .................................................. IX.1
-    2. Premeasures and measures ...................................... IX.3
-    3. Examples of measures .......................................... IX.6
-    4. Locally negligible sets and functions ....................... IX.8
-    5. Measurable sets and functions ............................... IX.9
-    6. Directed familes; support of a measure ..................... IX.11
-    7. Upper envelopes and sums of measures ....................... IX.12
-    8. Crushings ..................................................... IX.13
-    9. Upper integral ................................................ IX.17
-   10. Integration theory ............................................. IX.20
+1. Các trở ngại .................................................. IX.1 2. Các tiền độ đo và các độ đo ...................................... IX.3 3. Các ví dụ về độ đo .......................................... IX.6 4. Các tập hợp và hàm không đáng kể địa phương ....................... IX.8 5. Các tập hợp và hàm đo được ............................... IX.9 6. Các họ có hướng; giá của một độ đo ..................... IX.11 7. Các bao trên và các tổng của các độ đo ....................... IX.12 8. Các phép ép ..................................................... IX.13 9. Tích phân trên ................................................ IX.17 10. Lý thuyết tích phân ............................................. IX.20
 
 §2. Các phép toán trên độ đo ........................................... IX.22
 
-    1. Induced measure on a measurable subspace ................... IX.22
-    2. Measures defined by numerical densities ..................... IX.24
-    3. Image of a measure ........................................... IX.26
-    4. Lifting of measures .......................................... IX.29
-    5. Product of two measures ...................................... IX.31
-    6. Integration with respect to the product of two measures IX.33
-    7. A result on the disintegration of measures ................. IX.37
+1. Độ đo cảm sinh trên một không gian con đo được ................... IX.22 2. Các độ đo được xác định bởi các mật độ số ..................... IX.24 3. Ảnh của một độ đo ........................................... IX.26 4. Nâng của các độ đo .......................................... IX.29 5. Tích của hai độ đo ...................................... IX.31 6. Tích phân đối với tích của hai độ đo IX.33 7. Một kết quả về sự phân rã của các độ đo ................. IX.37
 
 §3. Độ đo và các hàm tập hợp cộng tính ............................................. IX.41
     1. Độ đo và các hàm tập hợp cộng tính của các tập compact ... IX.41

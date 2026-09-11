@@ -116,7 +116,7 @@ $$
 là một đồng cấu liên tục của $\mathbf{R}$ vào $\mathbf{R}$, do đó (§ 1, no. 3, Mệnh đề 5) tồn tại $\alpha \in \mathbf{R}$ sao cho $\log_a (g(a^x)) = \alpha x$ với mọi $x \in \mathbf{R}$; suy ra, theo (8), $g(x) = x^\alpha$ với mọi $x > 0$. Do đó ta có đồng nhất thức
 
 (12) $$
-(xy)^\alpha = x^\alpha y^\alpha \text{ for all } x > 0, y > 0 \text{ and } \alpha \in \mathbf{R}.
+(xy)^\alpha = x^\alpha y^\alpha \text{ với mọi } x > 0, y > 0 \text{ và } \alpha \in \mathbf{R}.
 $$
 
 Do công thức (4) biến mọi phép nhân thành một phép cộng (phép toán duy nhất mà hệ ghi số thông thường thích nghi tốt), logarit từ lâu đã là một công cụ không thể thiếu trong các phép tính số (xem Ghi chú lịch sử của chương này).

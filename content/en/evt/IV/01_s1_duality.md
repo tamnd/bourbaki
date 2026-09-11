@@ -30,9 +30,9 @@ subsections:
       title: Dual of a direct sum and of a product
       page: 11
       pdf_page: 193
-statements: 35
+statements: 36
 exercises: 25
-content_sha256: bd5abbb3fca9150b780f3e4a8c9981d06826dfaade169339cbc780c2b9fa2ff2
+content_sha256: 478f6ad3ca16e707ec8cc287c3cd8cef7e449a078422de8ef6615ad156944a4e
 ---
 
 ## § 1. DUALITY
@@ -294,7 +294,10 @@ $$
 #### Remark 1 {#evt-iv-s1-n3-rem-1 .statement}
 
 Formula (3) is a particular case of (4), corresponding to the linear mapping $\lambda \mapsto \lambda x$ from K into E.
-2) Put $B(x, y') = \langle u(x), y' \rangle = \langle x, ^{t}u(y') \rangle$ for $x \in E_1,\ y' \in E'_2$. The above proof shows that B is a continuous bilinear form on $E_1 \times E'_2$, with norm (GT, X, § 3, No. 2) equal to $\|u\|$.
+
+#### Remark 2 {#evt-iv-s1-n3-rem-2 .statement}
+
+Put $B(x, y') = \langle u(x), y' \rangle = \langle x, ^{t}u(y') \rangle$ for $x \in E_1,\ y' \in E'_2$. The above proof shows that B is a continuous bilinear form on $E_1 \times E'_2$, with norm (GT, X, § 3, No. 2) equal to $\|u\|$.
 
 #### Corollary {#evt-iv-s1-n3-cor-3 .statement}
 

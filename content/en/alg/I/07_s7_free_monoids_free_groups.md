@@ -49,7 +49,7 @@ subsections:
       page: 95
       pdf_page: 119
 statements: 17
-exercises: 3
+exercises: 40
 content_sha256: 3d3c76d6c00bb76f6c4a1ffe6fd67252c8dd08090bf8f1961b54dc45d8772011
 ---
 

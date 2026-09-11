@@ -587,7 +587,7 @@ Cho $A$ là một vành địa phương Noether, $J$ là một iđêan của $A$
 
 #### Ví dụ 4 {#ac-x-s3-n7-exa-4 .statement}
 
-Cho $A$ là một vành địa phương Noether chính quy; khi đó $A$ là một vành Gorenstein. Thật vậy, gọi $x$ là một hệ tọa độ của $A$ (VIII, § 5, No. 1, Def. 1). Dãy $x$ là $A$-chính quy (*loc. cit.*, No. 2, Theorem 1) và sinh iđêan $m_A$; do đó có thể áp dụng Ví dụ 3.
+Cho $A$ là một vành địa phương Noether chính quy; khi đó $A$ là một vành Gorenstein. Thật vậy, gọi $x$ là một hệ tọa độ của $A$ (VIII, § 5, No. 1, Def. 1). Dãy $x$ là $A$-chính quy (*loc. cit.*, No. 2, định lý 1) và sinh iđêan $m_A$; do đó có thể áp dụng Ví dụ 3.
 
 #### Ví dụ 5 {#ac-x-s3-n7-exa-5 .statement}
 

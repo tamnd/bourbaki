@@ -22,9 +22,9 @@ subsections:
       title: Dimension des composantes homogènes de $L(X)$
       page: 0
       pdf_page: 33
-statements: 10
+statements: 13
 exercises: 4
-content_sha256: d6c2a564c559d519032904eead59c46cead0d98512d7563ff451634779824a5c
+content_sha256: fea2d6401ef257a76b7539b11cef3c0cbd53bef25404f8b73e6adb0317c6f561
 ---
 
 ## § 3. Algèbre enveloppante de l’algèbre de Lie libre
@@ -62,12 +62,21 @@ Soit $K'$ un anneau commutatif contenant $K$. Si on identifie $A(X), L(X)$ et $L
 $$
 L(X) = L_{K'}(X) \cap A(X).
 $$
-2) Le cor. 2 du th. 1 reste valable si on suppose seulement que le groupe additif de l’anneau $K$ est sans torsion. En effet, supposons d’abord $K = \mathbf{Z}$; tout élément primitif de $A(X)$ est un élément primitif de $A_{\mathbf{Q}}(X)$, donc est dans $L_{\mathbf{Q}}(X) \cap A(X) = L(X)$ (cor. 2 et formule (1)). Dans le cas général, $K$ est plat sur $\mathbf{Z}$ et on applique la *Remarque* 2 du § 1, n° 2 et la prop. 3 du § 2, n° 5.
-3) Soient $\Delta$ un monoïde commutatif, $\varphi_0$ une application de $X$ dans $\Delta$, $\varphi : Mo(X) \to \Delta$ l’homomorphisme de monoïde associé; si on munit $A(X)$ de la graduation $(A^\delta(X))_{\delta \in \Delta}$ définie en A, III, p. 31, *Exemple* 3 et $L(X)$ de la graduation $(L^\delta(X))_{\delta \in \Delta}$ définie au § 2, n° 6, on a aussitôt, pour $\delta \in \Delta$, $L^\delta(X) \subset L(X) \cap A^\delta(X)$. Comme $L$ est la somme des $L^\delta(X)$ pour $\delta \in \Delta$, et que la somme des $L(X) \cap A^\delta(X)$ pour $\delta \in \Delta$ est directe, cela entraîne
+
+#### Remarque 2 {#lie-ii-s3-n1-rem-2 .statement}
+
+Le cor. 2 du th. 1 reste valable si on suppose seulement que le groupe additif de l’anneau $K$ est sans torsion. En effet, supposons d’abord $K = \mathbf{Z}$; tout élément primitif de $A(X)$ est un élément primitif de $A_{\mathbf{Q}}(X)$, donc est dans $L_{\mathbf{Q}}(X) \cap A(X) = L(X)$ (cor. 2 et formule (1)). Dans le cas général, $K$ est plat sur $\mathbf{Z}$ et on applique la *Remarque* 2 du § 1, n° 2 et la prop. 3 du § 2, n° 5.
+
+#### Remarque 3 {#lie-ii-s3-n1-rem-3 .statement}
+
+Soient $\Delta$ un monoïde commutatif, $\varphi_0$ une application de $X$ dans $\Delta$, $\varphi : Mo(X) \to \Delta$ l’homomorphisme de monoïde associé; si on munit $A(X)$ de la graduation $(A^\delta(X))_{\delta \in \Delta}$ définie en A, III, p. 31, *Exemple* 3 et $L(X)$ de la graduation $(L^\delta(X))_{\delta \in \Delta}$ définie au § 2, n° 6, on a aussitôt, pour $\delta \in \Delta$, $L^\delta(X) \subset L(X) \cap A^\delta(X)$. Comme $L$ est la somme des $L^\delta(X)$ pour $\delta \in \Delta$, et que la somme des $L(X) \cap A^\delta(X)$ pour $\delta \in \Delta$ est directe, cela entraîne
 $$
 L^\delta(X) = L(X) \cap A^\delta(X).
 $$
-4) Soit $A$ une algèbre associative unifère, et soit $t = (t_i)_{i \in I}$ une famille d’éléments de $A$. On a un diagramme
+
+#### Remarque 4 {#lie-ii-s3-n1-rem-4 .statement}
+
+Soit $A$ une algèbre associative unifère, et soit $t = (t_i)_{i \in I}$ une famille d’éléments de $A$. On a un diagramme
 
 $$
 \begin{array}{ccc}

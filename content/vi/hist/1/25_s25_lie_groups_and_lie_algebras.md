@@ -217,12 +217,11 @@ Các biến $x_i$ và các tham số $a_j$ trong các phương trình (25.4) v�
 
 Lý thuyết tổng quát được phát triển trong [203] kết thúc (mà điều đó không được các tác giả phát biểu theo một cách thật hệ thống) bằng việc rèn nên một "từ điển" cho phép dịch từ các tính chất của các nhóm "liên tục hữu hạn" sang những
 
-8 Khái niệm tương tự đối với các nhóm hoán vị đã được Jordan đưa vào và nghiên cứu trong "Traité" của ông.
-9 Hãy nhớ lại rằng (p. 119), theo sau một Note của H. Poincaré ([251], v. V, pp. 77-79), nhiều tác giả đã nghiên cứu nhóm các phần tử khả nghịch của một đại số kết hợp số chiều hữu hạn. Điều đáng chú ý trong mối liên hệ này là E. Study, trong công trình của ông về chủ đề này, đã đưa vào một ký hiệu mà về thực chất quy về việc xét nhóm trừu tượng được xác định bởi nhóm các tham số.
+8 Khái niệm tương tự đối với các nhóm hoán vị đã được Jordan đưa vào và nghiên cứu trong "Traité" của ông. 9 Hãy nhớ lại rằng (p. 119), theo sau một chú ý của H. Poincaré ([251], v. V, pp. 77-79), nhiều tác giả đã nghiên cứu nhóm các phần tử khả nghịch của một đại số kết hợp số chiều hữu hạn. Điều đáng chú ý trong mối liên hệ này là E. Study, trong công trình của ông về chủ đề này, đã đưa vào một ký hiệu mà về thực chất quy về việc xét nhóm trừu tượng được xác định bởi nhóm các tham số.
 
 của tập hợp các phép biến đổi vô cùng bé của chúng. Nó dựa trên "ba định lý của Lie", mỗi định lý trong đó gồm một mệnh đề và mệnh đề đảo lại của nó.
 
-Định lý thứ nhất ([203], v. I, pp. 33 and 72 and v. 3, p. 563) trước hết khẳng định rằng nếu trong (25.4) các tham số là hiệu dụng, thì các hàm $f_i$ thỏa mãn một hệ phương trình vi phân riêng phần có dạng
+Định lý thứ nhất ([203], v. I, pp. 33 và 72 và v. 3, p. 563) trước hết khẳng định rằng nếu trong (25.4) các tham số là hiệu dụng, thì các hàm $f_i$ thỏa mãn một hệ phương trình vi phân riêng phần có dạng
 
 $$
 \frac{\partial f_i}{\partial a_j} = \sum_{k=1}^r \xi_{ki}(f(x, a)) \psi_{kj}(a) \quad (1 \leq i \leq n)
@@ -230,7 +229,7 @@ $$
 
 trong đó ma trận $(\xi_{kl})$ có hạng tối đa và $\det(\psi_{kj}) \neq 0$; đảo lại, nếu các hàm $f_i$ có tính chất này, thì các công thức (25.4) định nghĩa một groupuscule các phép biến đổi.
 
-Định lý thứ hai ([203], v. I, pp. 149 and 158, and v. 3, p. 590) cho các quan hệ giữa các $\xi_{ki}$ một mặt, các $\psi_{ij}$ mặt khác: các điều kiện đối với các $\xi_{ki}$ có thể viết dưới dạng
+Định lý thứ hai ([203], v. I, pp. 149 và 158, và v. 3, p. 590) cho các quan hệ giữa các $\xi_{ki}$ một mặt, các $\psi_{ij}$ mặt khác: các điều kiện đối với các $\xi_{ki}$ có thể viết dưới dạng
 
 $$
 \sum_{k=1}^n \left( \xi_{ik} \frac{\partial \xi_{jl}}{\partial x_k} - \xi_{jk} \frac{\partial \xi_{il}}{\partial x_k} \right) = \sum_{k=1}^r c_{ij}^k \xi_{kl} \quad (1 \leq i, j \leq r, 1 \leq l \leq n)
@@ -259,7 +258,7 @@ $$
 
 Đảo lại, nếu cho $r$ phép biến đổi vô cùng bé $X_k (1 \leq k \leq r)$, độc lập tuyến tính và thỏa mãn các điều kiện (25.19), thì các nhóm con một tham số được sinh bởi các phép biến đổi này sinh ra một nhóm các phép biến đổi với $r$ tham số cốt yếu.
 
-Sau cùng, định lý thứ ba ([203], v. I, pp. 170 and 297 and v. 3, p. 597) quy việc xác định các hệ phép biến đổi vô cùng bé $(X_k)_{1 \leq k \leq r}$ thỏa mãn (25.19) về một bài toán thuần túy đại số: ta phải có
+Sau cùng, định lý thứ ba ([203], v. I, pp. 170 và 297 và v. 3, p. 597) quy việc xác định các hệ phép biến đổi vô cùng bé $(X_k)_{1 \leq k \leq r}$ thỏa mãn (25.19) về một bài toán thuần túy đại số: ta phải có
 
 $$
 c_{ij}^k + c_{ji}^k = 0 \tag{25.21}

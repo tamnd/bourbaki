@@ -339,19 +339,15 @@ $$
 d_n(S_1, S_2) = \sup_{z \in B'_n} |S_1(z) - S_2(z)|.
 $$
 
-It is easily verified that $X_n$ is *đầy đủ* đối với metric này. Sau cùng, với $n \leq m$, ta định nghĩa một ánh xạ $f_{nm} : X_m \to X_n$ sao cho nếu $S \in X_m$ thì $f_{nm}(S)$ là *hạn chế* của $S$ đến $B'_n$. Rõ ràng là các $f_{nm}$ *liên tục đều* và $(X_n, f_{nm})$ là một hệ ngược của các không gian đều. Do đó, một phần tử của giới hạn ngược $X = \lim_{\leftarrow} X_n$ có thể được đồng nhất một cách chính tắc với một hàm phân hình $F$ trong $\mathbf{C}$, mà các cực duy nhất của nó là các điểm $a_n$, và sao cho với mỗi $n$, $F(z) - R_n(z)$ là khả chỉnh tại $a_n$. Định lý cổ điển của Mittag-Leffler khẳng định rằng $X$ không rỗng; nhờ Định lý 1, ta chỉ cần kiểm tra điều kiện (ML$_{nn}$) với mọi $n$. Đặt
-$$
+Dễ dàng kiểm tra rằng $X_n$ is *đầy đủ* đối với metric này. Sau cùng, với $n \leq m$, ta định nghĩa một ánh xạ $f_{nm} : X_m \to X_n$ sao cho nếu $S \in X_m$ thì $f_{nm}(S)$ là *hạn chế* của $S$ đến $B'_n$. Rõ ràng là các $f_{nm}$ *liên tục đều* và $(X_n, f_{nm})$ là một hệ ngược của các không gian đều. Do đó, một phần tử của giới hạn ngược $X = \lim_{\leftarrow} X_n$ có thể được đồng nhất một cách chính tắc với một hàm phân hình $F$ trong $\mathbf{C}$, mà các cực duy nhất của nó là các điểm $a_n$, và sao cho với mỗi $n$, $F(z) - R_n(z)$ là khả chỉnh tại $a_n$. Định lý cổ điển của Mittag-Leffler khẳng định rằng $X$ không rỗng; nhờ Định lý 1, ta chỉ cần kiểm tra điều kiện (ML$_{nn}$) với mọi $n$. Đặt $$
 S_n = P_n + \sum_{a_k \in B_n} R_k
-$$
-là một phần tử của $X_n$, trong đó $P_n$ liên tục trên $\overline{B}_n$ và khả chỉnh trong $B_n$; với mọi $m \geq n$, đặt $Q_{mn}$ là sự *hạn chế* của
-$$
+$$ là một phần tử của $X_n$, trong đó $P_n$ liên tục trên $\overline{B}_n$ và khả chỉnh trong $B_n$; với mọi $m \geq n$, đặt $Q_{mn}$ là sự *hạn chế* của $$
 \sum_{a_h \in B_m - B_n} R_h \text{ đến } B'_n;
-$$
-tổng sau này là một hàm khả chỉnh trong một lân cận nào đó của $\overline{B}_n$, do đó (theo định lý Taylor) với mỗi $\varepsilon > 0$ tồn tại một đa thức $P_{mn}$ sao cho $|Q_{mn}(z) - P_{mn}(z)| \leq \varepsilon$ trong $B_n$; nếu $S_m$ là sự hạn chế của $S_n + Q_{mn} - P_{mn}$ đến $B'_m$, ta có $S_m \in X_m$ và $|S_m(z) - S_n(z)| \leq \varepsilon$ trong $B'_n$. Điều này chứng minh xong. \*
+$$ tổng sau này là một hàm khả chỉnh trong một lân cận nào đó của $\overline{B}_n$, do đó (theo định lý Taylor) với mỗi $\varepsilon > 0$ tồn tại một đa thức $P_{mn}$ sao cho $|Q_{mn}(z) - P_{mn}(z)| \leq \varepsilon$ trong $B_n$; nếu $S_m$ là sự hạn chế của $S_n + Q_{mn} - P_{mn}$ đến $B'_m$, ta có $S_m \in X_m$ và $|S_m(z) - S_n(z)| \leq \varepsilon$ trong $B'_n$. Điều này chứng minh xong. \*
 
 ### 6. MỞ RỘNG CÁC HÀM LIÊN TỤC ĐỀU
 
-Định lý về mở rộng bằng tính liên tục (Chapter I, § 8, no. 5, Định lý 1) có những bổ sung quan trọng khi các hàm đang xét lấy giá trị trong một không gian đều Hausdorff đầy đủ.
+Định lý về mở rộng bằng tính liên tục (Chương I, § 8, no. 5, Định lý 1) có những bổ sung quan trọng khi các hàm đang xét lấy giá trị trong một không gian đều Hausdorff đầy đủ.
 
 #### Mệnh đề 11 {#top-ii-s3-prop-11 .statement}
 
@@ -365,7 +361,7 @@ Khi $X$ cũng là một không gian đều, có định lý sau:
 
 *Cho $f$ là một hàm được xác định trên một không gian con trù mật $A$ của một không gian đều $X$, nhận giá trị trong một không gian đều Hausdorff đầy đủ $X'$, và giả sử rằng $f$ liên tục đều trên $A$. Khi đó $f$ có thể được kéo dài ra toàn bộ $X$ nhờ tính liên tục, và hàm kéo dài $\overline{f}$ là liên tục đều.*
 
-Sự tồn tại của $\overline{f}$ là một hệ quả ngay lập tức của các Mệnh đề 3 và 11 của no. 1. Ta chứng minh rằng $\overline{f}$ là liên tục đều. Cho $V'$ là một lân cận đối xứng đóng của $X'$, và cho $V$ là một lân cận của $X$ sao cho, khi $x$ và $y$ thuộc $A$ và là $V$-gần nhau, thì $f(x)$ và $f(y)$ là $V'$-gần nhau. Ta có thể giả sử rằng $V$ là bao đóng trong $X \times X$ của một lân cận $W$ của $A$ ($\S$ 2, no. 4, Proposition 6). Ta có $[ \bar{f}(x), \bar{f}(y) ] \in V'$ khi $(x, y) \in W$; vì $\bar{f} \times \bar{f}$ liên tục trên $X \times X$ (Chương I, $\S$ 4, no. 1, Proposition 1) nên ta cũng có $[ \bar{f}(x), \bar{f}(y) ] \in V'$ khi $(x, y) \in V = \overline{W}$, vì $V'$ là đóng (Chương I, $\S$ 2, no. 1, Định lý 1).
+Sự tồn tại của $\overline{f}$ là một hệ quả ngay lập tức của các Mệnh đề 3 và 11 của no. 1. Ta chứng minh rằng $\overline{f}$ là liên tục đều. Cho $V'$ là một lân cận đối xứng đóng của $X'$, và cho $V$ là một lân cận của $X$ sao cho, khi $x$ và $y$ thuộc $A$ và là $V$-gần nhau, thì $f(x)$ và $f(y)$ là $V'$-gần nhau. Ta có thể giả sử rằng $V$ là bao đóng trong $X \times X$ của một lân cận $W$ của $A$ ($\S$ 2, no. 4, mệnh đề 6). Ta có $[ \bar{f}(x), \bar{f}(y) ] \in V'$ khi $(x, y) \in W$; vì $\bar{f} \times \bar{f}$ liên tục trên $X \times X$ (Chương I, $\S$ 4, no. 1, mệnh đề 1) nên ta cũng có $[ \bar{f}(x), \bar{f}(y) ] \in V'$ khi $(x, y) \in V = \overline{W}$, vì $V'$ là đóng (Chương I, $\S$ 2, no. 1, Định lý 1).
 
 Q.E.D.
 
@@ -547,7 +543,7 @@ Cho $X'$ là một không gian đều khác, $C'$ là giao của mọi lân cậ
 
 #### Mệnh đề 18 {#top-ii-s3-prop-18 .statement}
 
-*Cho $X$ là một tập hợp, cho $(Y_\lambda)_{\lambda \in L}$ là một họ các không gian đều, và với mỗi $\lambda \in L$ cho $f_\lambda$ là một ánh xạ của $X$ vào $Y_\lambda$. Cho $X$ mang cấu trúc đều thô nhất $U$ sao cho mọi $f_\lambda$ đều liên tục đều. Khi đó cấu trúc đều của sự hoàn thành Hausdorff $\hat{X}$ của $X$ là cấu trúc đều thô nhất sao cho mọi ánh xạ $\hat{f}_\lambda : \hat{X} \to \hat{Y}_\lambda$ ($\lambda \in L$) (no. 7, Proposition 15) đều liên tục đều. Hơn nữa, nếu $j_\lambda$ là ánh xạ chính tắc của $Y_\lambda$ vào $\hat{Y}_\lambda$, và nếu $g_\lambda = j_\lambda \circ f_\lambda$, thì $\hat{X}$ có thể được đồng nhất với bao đóng trong $\prod_{\lambda \in L} \hat{Y}_\lambda$ của ảnh của $X$ dưới ánh xạ $x \to (g_\lambda(x))$.*
+*Cho $X$ là một tập hợp, cho $(Y_\lambda)_{\lambda \in L}$ là một họ các không gian đều, và với mỗi $\lambda \in L$ cho $f_\lambda$ là một ánh xạ của $X$ vào $Y_\lambda$. Cho $X$ mang cấu trúc đều thô nhất $U$ sao cho mọi $f_\lambda$ đều liên tục đều. Khi đó cấu trúc đều của sự hoàn thành Hausdorff $\hat{X}$ của $X$ là cấu trúc đều thô nhất sao cho mọi ánh xạ $\hat{f}_\lambda : \hat{X} \to \hat{Y}_\lambda$ ($\lambda \in L$) (no. 7, mệnh đề 15) đều liên tục đều. Hơn nữa, nếu $j_\lambda$ là ánh xạ chính tắc của $Y_\lambda$ vào $\hat{Y}_\lambda$, và nếu $g_\lambda = j_\lambda \circ f_\lambda$, thì $\hat{X}$ có thể được đồng nhất với bao đóng trong $\prod_{\lambda \in L} \hat{Y}_\lambda$ của ảnh của $X$ dưới ánh xạ $x \to (g_\lambda(x))$.
 
 Cho $X'$ (resp. $Y'_\lambda$) là không gian đều Hausdorff liên kết với $X$ (resp. $Y_\lambda$), và cho $f'_\lambda : X' \to Y'_\lambda$ là ánh xạ liên tục đều làm cho biểu đồ
 
@@ -561,7 +557,7 @@ $$
 
 giao hoán (*i* là ánh xạ chính tắc).
 
-Tính bắc cầu của các cấu trúc đều ban đầu (§ 2, no. 3, Proposition 5) cho thấy một mặt rằng $\mathcal{U}$ là cấu trúc đều thô nhất sao cho các ánh xạ $j_\lambda \circ f_\lambda : X \to Y'_\lambda$ đều liên tục, và mặt khác rằng $\mathcal{U}$ cũng là ảnh ngược qua $i$ của cấu trúc đều thô nhất $\mathcal{U}'$ trên tập hợp $X'$ sao cho các $f'_\lambda$ đều liên tục. Bây giờ $\mathcal{U}'$ là *Hausdorff*, vì nếu $x_1, x_2$ là hai điểm của $X$ sao cho $j_\lambda(f_\lambda(x_1)) = j_\lambda(f_\lambda(x_2))$ với mỗi $\lambda \in L$, thì $(x_1, x_2)$ thuộc mọi lân cận của $\mathcal{U}$ và do đó $i(x_1) = i(x_2)$. Do đó Proposition 17 của no. 8 cho thấy $\mathcal{U}'$ là cấu trúc đều của không gian Hausdorff $X'$ liên kết với $X$.
+Tính bắc cầu của các cấu trúc đều ban đầu (§ 2, no. 3, mệnh đề 5) cho thấy một mặt rằng $\mathcal{U}$ là cấu trúc đều thô nhất sao cho các ánh xạ $j_\lambda \circ f_\lambda : X \to Y'_\lambda$ đều liên tục, và mặt khác rằng $\mathcal{U}$ cũng là ảnh ngược qua $i$ của cấu trúc đều thô nhất $\mathcal{U}'$ trên tập hợp $X'$ sao cho các $f'_\lambda$ đều liên tục. Bây giờ $\mathcal{U}'$ là *Hausdorff*, vì nếu $x_1, x_2$ là hai điểm của $X$ sao cho $j_\lambda(f_\lambda(x_1)) = j_\lambda(f_\lambda(x_2))$ với mỗi $\lambda \in L$, thì $(x_1, x_2)$ thuộc mọi lân cận của $\mathcal{U}$ và do đó $i(x_1) = i(x_2)$. Do đó mệnh đề 17 của no. 8 cho thấy $\mathcal{U}'$ là cấu trúc đều của không gian Hausdorff $X'$ liên kết với $X$. :::
 
 Do đó, song ánh $x' \to (f'_\lambda(x'))$ đồng nhất $X$ với một không gian con đều của tích $\prod_\lambda Y'_\lambda$ (§ 2, no. 6, Mệnh đề 8). Vì các $Y'_\lambda$ là Hausdorff, nên mỗi $Y'_\lambda$ có thể được đồng nhất với một không gian con trù mật của phần hoàn thành $\hat{Y}_\lambda$ của nó, và do đó $\prod_\lambda Y'_\lambda$ có thể được đồng nhất với một không gian con trù mật của $\prod_\lambda \hat{Y}_\lambda$ (Chương I, § 4, no. 3, Mệnh đề 7). Nhưng $\prod_\lambda \hat{Y}_\lambda$ là Hausdorff và đầy đủ (no. 5, Mệnh đề 10); do đó, bao đóng $\overline{X'}$ của $X'$ trong $\prod_\lambda \hat{Y}_\lambda$ là một không gian con Hausdorff đầy đủ (no. 4, Mệnh đề 8) có thể được đồng nhất với phần hoàn thành Hausdorff $\hat{X}$ của $X$; dưới sự đồng nhất này, các ánh xạ $\hat{f}_\lambda$ trở thành các phép chiếu lên các thừa số $\hat{Y}_\lambda$, và mệnh đề được chứng minh.
 

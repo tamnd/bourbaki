@@ -7,8 +7,8 @@ section: 10
 section_title: The automorphism group of a Lie group
 lang: en
 source: lie-i-iii
-book_pages: 359-368, 409-463
-pdf_pages: 0377-0386, 0427-0481
+book_pages: 359-368, 409-433
+pdf_pages: 0377-0386, 0427-0451
 extraction: ocr
 subsections:
     - "no": 1

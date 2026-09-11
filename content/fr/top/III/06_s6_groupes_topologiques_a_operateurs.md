@@ -43,9 +43,9 @@ subsections:
       title: Structures uniformes d’un corps topologique
       page: 55
       pdf_page: 238
-statements: 20
+statements: 24
 exercises: 29
-content_sha256: d9372c11396f6f8af17b5a832d391657f022a49ad7fb9031449217f3aa3234c5
+content_sha256: 9aa1f2536123b2c4066711ece128e1f7f11d3f3d41a246330b29205994aa21a8
 ---
 
 ## § 6. GROUPES TOPOLOGIQUES À OPÉRATEURS; ANNEAUX TOPOLOGIQUES; CORPS TOPOLOGIQUES
@@ -100,7 +100,10 @@ Il résulte de la prop. 2 que a) entraîne b) et il est clair que b) entraîne c
 #### Remarque 1 {#top-iii-s6-n2-rem-1 .statement}
 
 Pour éviter toute confusion, on dit parfois qu’un sous-groupe stable de E supplémentaire de M (au sens de la structure de groupe à opérateurs sans topologie) est un supplémentaire algébrique de M.
-2) Lorsqu’un groupe topologique commutatif à opérateurs séparé E est somme directe topologique d’une famille $(M_i)_{1 \leq i \leq n}$ de sous-groupes stables, chacun des sous-groupes $M_i$ est fermé dans E, car c’est l’ensemble des $x \in E$ tels que $p_i(x) = x$ (I, p. 53, prop. 2).
+
+#### Remarque 2 {#top-iii-s6-n2-rem-2 .statement}
+
+Lorsqu’un groupe topologique commutatif à opérateurs séparé E est somme directe topologique d’une famille $(M_i)_{1 \leq i \leq n}$ de sous-groupes stables, chacun des sous-groupes $M_i$ est fermé dans E, car c’est l’ensemble des $x \in E$ tels que $p_i(x) = x$ (I, p. 53, prop. 2).
 
 #### Proposition 3 {#top-iii-s6-prop-3 .statement}
 
@@ -135,7 +138,10 @@ Une structure d’anneau et une topologie étant données sur un ensemble $A$, o
 #### Exemple 1 {#top-iii-s6-n3-exa-1 .statement}
 
 Sur un anneau $A$, la topologie *discrète* est compatible avec la structure d’anneau; un anneau topologique dont la topologie est discrète est dit anneau *discret*.
-*2) On verra dans IV, p. 10 (resp. p. 11) que la topologie de la droite rationnelle $\mathbf{Q}$ (resp. de la droite numérique $\mathbf{R}$) est compatible avec la structure d’anneau de $\mathbf{Q}$ (resp. $\mathbf{R}$).*
+
+#### Exemple 2 {#top-iii-s6-n3-exa-2 .statement}
+
+On verra dans IV, p. 10 (resp. p. 11) que la topologie de la droite rationnelle $\mathbf{Q}$ (resp. de la droite numérique $\mathbf{R}$) est compatible avec la structure d’anneau de $\mathbf{Q}$ (resp. $\mathbf{R}$).*
 
 Dans un anneau topologique, toute *homothétie* à gauche $x \mapsto ax$ (resp. toute homothétie à droite $x \mapsto xa$ est continue (et est un homéomorphisme si $a$ est inversible).
 
@@ -260,7 +266,10 @@ On définit de la même manière la notion de module topologique à droite sur u
 #### Exemple 1 {#top-iii-s6-n6-exa-1 .statement}
 
 Un espace vectoriel topologique sur $\mathbf{R}$ (resp. $\mathbf{C}$) est un module topologique sur $\mathbf{R}$ (resp. $\mathbf{C}$) (cf. EVT, I, §1, n° 1).*
-2) Soient A un anneau, $\mathcal{B}$ une base de filtre sur A formée d’idéaux bilatères de A, E un A-module à gauche. Si on munit A de la topologie (compatible avec sa structure d’anneau) pour laquelle $\mathcal{B}$ est un système fondamental de voisinages de 0 (III, p. 49, Exemple 3), et E de la topologie (compatible avec sa structure de groupe additif) dont les $aE$, où $a$ parcourt $\mathcal{B}$, forment un système fondamental de voisinages de 0 (III, p. 5, Exemple), on vérifie aussitôt que E est un module topologique sur A.
+
+#### Exemple 2 {#top-iii-s6-n6-exa-2 .statement}
+
+Soient A un anneau, $\mathcal{B}$ une base de filtre sur A formée d’idéaux bilatères de A, E un A-module à gauche. Si on munit A de la topologie (compatible avec sa structure d’anneau) pour laquelle $\mathcal{B}$ est un système fondamental de voisinages de 0 (III, p. 49, Exemple 3), et E de la topologie (compatible avec sa structure de groupe additif) dont les $aE$, où $a$ parcourt $\mathcal{B}$, forment un système fondamental de voisinages de 0 (III, p. 5, Exemple), on vérifie aussitôt que E est un module topologique sur A.
 
 #### Remarque {#top-iii-s6-n6-rem-1 .statement}
 
@@ -323,7 +332,10 @@ Une structure de corps et une topologie sur un ensemble $K$ sont dites compatibl
 #### Exemple 1 {#top-iii-s6-n7-exa-1 .statement}
 
 Sur un corps K, la topologie discrète est compatible avec la structure de corps; un corps topologique dont la topologie est discrète est dit corps discret.
-*2) La topologie de la droite rationnelle $\mathbf{Q}$ (resp. de la droite numérique $\mathbf{R}$) est compatible avec la structure de corps de $\mathbf{Q}$ (resp. $\mathbf{R}$; voir IV, p. 10, resp. p. 11).
+
+#### Exemple 2 {#top-iii-s6-n7-exa-2 .statement}
+
+La topologie de la droite rationnelle $\mathbf{Q}$ (resp. de la droite numérique $\mathbf{R}$) est compatible avec la structure de corps de $\mathbf{Q}$ (resp. $\mathbf{R}$; voir IV, p. 10, resp. p. 11).
 
 La déf. 4 montre que, si K est un corps topologique, la topologie induite par celle de K sur le groupe multiplicatif $K^*$ est compatible avec la structure de ce groupe (cf. III, p. 49).
 

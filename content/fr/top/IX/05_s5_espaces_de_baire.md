@@ -27,9 +27,9 @@ subsections:
       title: Fonctions semi-continues dans un espace de Baire
       page: 56
       pdf_page: 176
-statements: 16
-exercises: 7
-content_sha256: e7f058030e9aa60229969b035e57617e41f974b7ae322db51d27e3faca3689ba
+statements: 18
+exercises: 4
+content_sha256: 82312583010308ade3c3bcfbc326230bf52291a350f24aaa88c23efb5f29bb08
 ---
 
 ## § 5. ESPACES DE BAIRE
@@ -46,8 +46,14 @@ Pour qu’un ensemble fermé $A$ soit rare, il faut et il suffit qu’il n’ait
 #### Exemple 1 {#top-ix-s5-n1-exa-1 .statement}
 
 La partie vide de $X$ est un ensemble rare. Dans un espace séparé, pour qu’un ensemble réduit à un point soit rare, il faut et il suffit que ce point ne soit pas isolé dans $X$. Un ensemble partout dense dans un espace non vide n’est jamais rare.
-2) La frontière d’un ensemble fermé, ou d’un ensemble ouvert, est toujours un ensemble rare.
-3) Dans l’espace numérique $\mathbf{R}^n$, toute variété linéaire affine de dimension $p < n$ est un ensemble rare (VI, p. 4, prop. 2).
+
+#### Exemple 2 {#top-ix-s5-n1-exa-2 .statement}
+
+La frontière d’un ensemble fermé, ou d’un ensemble ouvert, est toujours un ensemble rare.
+
+#### Exemple 3 {#top-ix-s5-n1-exa-3 .statement}
+
+Dans l’espace numérique $\mathbf{R}^n$, toute variété linéaire affine de dimension $p < n$ est un ensemble rare (VI, p. 4, prop. 2).
 
 #### Remarque {#top-ix-s5-n1-rem-1 .statement}
 

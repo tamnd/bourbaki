@@ -424,9 +424,9 @@ Khẳng định thứ nhất thu được bằng cách áp dụng Mệnh đề 3
 
 *Cho A là một vành giao hoán được lọc bởi một lọc phủ hết (A,) và p là một iđêan của A. Giả sử rằng iđêan $\operatorname{gr}(p) = \bigoplus_{n \in \mathbf{Z}} (p \cap A_n)/(p \cap A_{n+1})$ của vành $\operatorname{gr}(A)$ là nguyên tố. Khi đó bao đóng của p trong A là một iđêan nguyên tố.*
 
-Ta biết rằng gr(A/p) đẳng cấu với gr(A)/gr(p) (no. 4, Proposition 2) và do đó là một miền nguyên; ta kết luận rằng $A / \bigcap_{n \in \mathbf{Z}} (p + A_n)$ là một miền nguyên (no. 3, Corollary to Proposition 1). Vậy bao đóng $\bigcap_{n \in \mathbf{Z}} (p + A_n)$ của $p$ là một iđêan nguyên tố.
+Ta biết rằng gr(A/p) đẳng cấu với gr(A)/gr(p) (no. 4, Mệnh đề 2) và do đó là một miền nguyên; ta kết luận rằng $A / \bigcap_{n \in \mathbf{Z}} (p + A_n)$ là một miền nguyên (no. 3, Hệ quả to Mệnh đề 1). Vậy bao đóng $\bigcap_{n \in \mathbf{Z}} (p + A_n)$ của $p$ là một iđêan nguyên tố.
 
-Cho $A$ là một vành và $m$ là một iđêan hai phía của $A$; tôpô được xác định trên $A$ bởi lọc $m$-adic (no. 1, Example 3) được gọi là *tôpô m-adic*; vì lọc *m*-adic là phủ hết, $A$ là một vành tôpô đối với tôpô này (Corollary to Proposition 3). Tương tự, với mọi $A$-môđun $E$, tôpô được xác định bởi lọc $m$-adic được gọi là *tôpô m-adic* trên $E$; $E$ là một $A$-môđun tôpô đối với tôpô này.
+Cho $A$ là một vành và $m$ là một iđêan hai phía của $A$; tôpô được xác định trên $A$ bởi lọc $m$-adic (no. 1, Ví dụ 3) được gọi là *tôpô m-adic*; vì lọc *m*-adic là phủ hết, $A$ là một vành tôpô đối với tôpô này (Hệ quả to Mệnh đề 3). Tương tự, với mọi $A$-môđun $E$, tôpô được xác định bởi lọc $m$-adic được gọi là *tôpô m-adic* trên $E$; $E$ là một $A$-môđun tôpô đối với tôpô này.
 
 Cho $m'$ là một iđêan hai phía khác của $A$; để tôpô $m'$-adic trên $A$ mịn hơn tôpô $m$-adic, điều kiện cần và đủ là tồn tại một số nguyên $n > 0$ sao cho ${m'}^n \subset m$; điều kiện này là cần và, nếu nó được thỏa mãn, thì ${m'}^{hn} \subset m^h$ với mọi $h > 0$ và do đó điều kiện này là đủ. Nếu $A$ là một *vành Noether giao hoán*, thì điều đó tương đương với việc nói rằng $V(m) \subset V(m')$ trong phổ nguyên tố của $A$ (Chương II, § 4, no. 3, Hệ quả 2 của Mệnh đề 11 và § 2, no. 6, Mệnh đề 15).
 

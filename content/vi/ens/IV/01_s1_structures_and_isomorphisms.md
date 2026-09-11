@@ -109,7 +109,7 @@ $$\langle f'_1 \circ f_1, f'_2 \circ f_2, \ldots, f'_n \circ f_n \rangle^{\mathr
 
 CST2. *Nếu $f_i$ là đơn ánh* (resp. *toàn ánh*) *với* $1 \leqslant i \leqslant n$, *thì* $\langle f_1, \ldots, f_n \rangle^{\mathrm{S}}$ *là đơn ánh* (resp. *toàn ánh*).
 
-Tiêu chuẩn này suy ra từ các tính chất tương ứng của phép mở rộng $\hat{g}$ (Chapter II, § 5, no. 1, Proposition 1) và phép mở rộng $g \times h$ (Chapter II, § 3, no. 9).
+Tiêu chuẩn này suy ra từ các tính chất tương ứng của phép mở rộng $\hat{g}$ (Chương II, § 5, no. 1, Mệnh đề 1) và phép mở rộng $g \times h$ (Chương II, § 3, no. 9).
 
 CST3. *Nếu $f_i$ là một song ánh của* $\mathrm{E}_i$ *lên* $\mathrm{E}'_i$, *và nếu $f_i^{-1}$ là song ánh ngược* [^2], *thì* $\langle f_1, \ldots, f_n \rangle^{\mathrm{S}}$ *là một song ánh và* $\langle f_1^{-1}, \ldots, f_n^{-1} \rangle^{\mathrm{S}}$ *là ánh xạ nghịch đảo của nó; nói cách khác*,
 
@@ -376,7 +376,7 @@ $G \in \mathfrak{P}((A \times A) \times A)$ and $L \in \mathfrak{P}((\mathbf{Z} 
 
 và tiên đề
 
-“$R \mid A, G$ and $(L$ is a functional graph) and $B \mid L, A, G$”.
+“$R \mid A, G$ và $(L$ là một đồ thị hàm) và $B \mid L, A, G$”.
 
 Người ta kiểm tra ngay lập tức rằng các số hạng F, M cấu thành một thủ tục suy diễn một cấu trúc thuộc loài $\Theta$ từ một cấu trúc thuộc loài $\Sigma$, và rằng số hạng G là một thủ tục suy diễn một cấu trúc thuộc loài $\Sigma$ từ một cấu trúc thuộc loài $\Theta$. Hơn nữa, điều kiện (3) ở trên được thỏa mãn một cách hiển nhiên. Do đó ta có thể nói rằng loài các cấu trúc nhóm giao hoán và loài các cấu trúc $\mathbf{Z}$-môđun là tương đương.
 

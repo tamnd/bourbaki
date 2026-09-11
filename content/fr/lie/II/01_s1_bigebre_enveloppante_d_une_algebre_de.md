@@ -34,9 +34,9 @@ subsections:
       title: Structure des bigèbres filtrées en caractéristique 0
       page: 0
       pdf_page: 13
-statements: 24
+statements: 27
 exercises: 12
-content_sha256: b3168683aee11b245994d00e156893e6787a83248bf3572166d4c7099081ceac
+content_sha256: de9389eb2586d0042a7d29bfc62f438b0547587c3191c7a4521d2629d90a06b8
 ---
 
 ## § 1. Bigèbre enveloppante d’une algèbre de Lie
@@ -385,15 +385,22 @@ $$
 #### Remarque 1 {#lie-ii-s1-n5-rem-1 .statement}
 
 On a $U_n = \sum_{i=0}^n U^i$ (chap. I, § 2, no 7, cor. 4 du th. 1).
-2) L’application $\eta$ est l’unique morphisme de cogèbres graduées de $S(g)$ dans $U$ tel que $\eta(1) = 1$ et $\eta(x) = \sigma(x)$ pour $x \in g$. En effet, si $\eta'$ est un morphisme satisfaisant à ces conditions, prouvons par récurrence sur $n$ que $\eta'(x^n) = \eta(x^n)$ pour $x \in \mathfrak{g}$ et $n > 1$. Comme $c_S^+(x^n) = \sum_{i=1}^{n-1} \binom{n}{i} x^i \otimes x^{n-i}$ d’après (3) et (11), on a $(\eta \otimes \eta)(c_S^+(x^n)) = (\eta' \otimes \eta')(c_S^+(x^n))$ par l’hypothèse de récurrence. Il s’ensuit que $c^+(\eta(x^n)) = c^+(\eta'(x^n))$; il en résulte que $\eta(x^n) - \eta'(x^n)$ est un élément primitif de degré $n$, donc est nul (cor. de la prop. 9).
 
-3) Soit $\psi$ l’isomorphisme canonique de la bigèbre TS($\mathfrak{g}$) sur la bigèbre S($\mathfrak{g}$) (A, IV, § 5, cor. 1 de la prop. 12). L’application
+#### Remarque 2 {#lie-ii-s1-n5-rem-2 .statement}
+
+L’application $\eta$ est l’unique morphisme de cogèbres graduées de $S(g)$ dans $U$ tel que $\eta(1) = 1$ et $\eta(x) = \sigma(x)$ pour $x \in g$. En effet, si $\eta'$ est un morphisme satisfaisant à ces conditions, prouvons par récurrence sur $n$ que $\eta'(x^n) = \eta(x^n)$ pour $x \in \mathfrak{g}$ et $n > 1$. Comme $c_S^+(x^n) = \sum_{i=1}^{n-1} \binom{n}{i} x^i \otimes x^{n-i}$ d’après (3) et (11), on a $(\eta \otimes \eta)(c_S^+(x^n)) = (\eta' \otimes \eta')(c_S^+(x^n))$ par l’hypothèse de récurrence. Il s’ensuit que $c^+(\eta(x^n)) = c^+(\eta'(x^n))$; il en résulte que $\eta(x^n) - \eta'(x^n)$ est un élément primitif de degré $n$, donc est nul (cor. de la prop. 9).
+
+#### Remarque 3 {#lie-ii-s1-n5-rem-3 .statement}
+
+Soit $\psi$ l’isomorphisme canonique de la bigèbre TS($\mathfrak{g}$) sur la bigèbre S($\mathfrak{g}$) (A, IV, § 5, cor. 1 de la prop. 12). L’application
 $$
 \eta \circ \psi : \mathrm{TS}(\mathfrak{g}) \to \mathbf{U}
 $$
 est dite *canonique*. C’est l’unique morphisme $\eta'$ de cogèbres graduées de TS($\mathfrak{g}$) dans $\mathbf{U}$ tel que $\eta'(1) = 1$ et $\eta'(x) = \sigma(x)$ pour tout $x \in \mathfrak{g}$.
 
-4) Soit V un espace vectoriel. Les éléments primitifs de la bigèbre S(V) sont les éléments de degré 1. Cela résulte en effet du cor. de la prop. 9 appliqué à l’algèbre de Lie commutative V.
+#### Remarque 4 {#lie-ii-s1-n5-rem-4 .statement}
+
+Soit V un espace vectoriel. Les éléments primitifs de la bigèbre S(V) sont les éléments de degré 1. Cela résulte en effet du cor. de la prop. 9 appliqué à l’algèbre de Lie commutative V.
 
 Soit $(e_i)_{i \in I}$ une base du K-espace vectoriel $\mathfrak{g}$, où l’ensemble d’indices I est muni d’un ordre total. Pour tout $\alpha \in \mathbf{N}^{(I)}$, on pose
 $$

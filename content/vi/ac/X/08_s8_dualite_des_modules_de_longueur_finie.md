@@ -222,7 +222,7 @@ Trong No. này, ta giả sử rằng vành A là địa phương Noether.
 
 Ta nói rằng một A-môđun I là một Matlis A-môđun nếu nó là đơn ánh, nếu m_A là iđêan nguyên tố liên kết duy nhất của nó, và nếu không gian vectơ trên κ_A Hom_A(κ_A, I) có chiều bằng 1.
 
-Cho e : κ_A → I là một bao đơn ánh của κ_A (A, X, p. 20, th. 2). A-môđun I là một môđun Matlis, và mọi môđun Matlis đều đẳng cấu với I (No. 2, cor. of prop. 3). Nếu A là một vành định giá rời rạc, với trường phân thức K, thì A-môđun K/A là một môđun Matlis (No. 1, example). Nếu A là một vành địa phương Artin, thì A-môđun A là một môđun Matlis khi và chỉ khi A là một vành Gorenstein (§ 3, No. 7, lemma 1).
+Cho e : κ_A → I là một bao đơn ánh của κ_A (A, X, p. 20, th. 2). A-môđun I là một môđun Matlis, và mọi môđun Matlis đều đẳng cấu với I (No. 2, cor. of prop. 3). Nếu A là một vành định giá rời rạc, với trường phân thức K, thì A-môđun K/A là một môđun Matlis (No. 1, ví dụ). Nếu A là một vành địa phương Artin, thì A-môđun A là một môđun Matlis khi và chỉ khi A là một vành Gorenstein (§ 3, No. 7, bổ đề 1).
 
 Cho I là một Matlis A-môđun. Với mọi số nguyên n ≥ 0, ký hiệu I_n là môđun con-A của I gồm các phần tử bị triệt tiêu bởi m_A^n. Theo mệnh đề 2 của No. 2, A-môđun I là hợp của các I_n, A-môđun I_1 có độ dài 1 (nghĩa là đẳng cấu với κ_A) và A-môđun I là một bao đơn ánh của I_1; hơn nữa, đồng cấu chính tắc của các gr(A)-môđun phân bậc
 
@@ -239,7 +239,7 @@ Cho I là một Matlis A-môđun. Khi đó:
 a) I là một Matlis $\widehat{A}$-môđun;
 b) A-môđun I là Artin và là một đối sinh (A, X, p. 18, def. 3).
 
-Vì A-môđun I là đơn ánh, nên A/m_A^n-môđun I_n là đơn ánh với mỗi n (No. 2, lemma 1, a)). Vì I_n là tập các phần tử của I bị triệt tiêu bởi m_A^n, nên $\widehat{A}$-môđun I là đơn ánh (lemma 1, b)). Nó không phân tích được trên $\widehat{A}$ vì nó đã như vậy trên A; do nó chứa môđun con-$\widehat{A}$ I_1 đẳng cấu với $\kappa_A$, ta có $m_{\widehat{A}} \in \operatorname{Ass}_{\widehat{A}}(I)$, nên $\operatorname{Ass}_{\widehat{A}}(I) = \{ m_{\widehat{A}} \}$ (prop. 1), do đó suy ra a).
+Vì A-môđun I là đơn ánh, nên A/m_A^n-môđun I_n là đơn ánh với mỗi n (No. 2, bổ đề 1, a)). Vì I_n là tập các phần tử của I bị triệt tiêu bởi m_A^n, nên $\widehat{A}$-môđun I là đơn ánh (Bổ đề 1, b)). Nó không phân tích được trên $\widehat{A}$ vì nó đã như vậy trên A; do nó chứa môđun con-$\widehat{A}$ I_1 đẳng cấu với $\kappa_A$, ta có $m_{\widehat{A}} \in \operatorname{Ass}_{\widehat{A}}(I)$, nên $\operatorname{Ass}_{\widehat{A}}(I) = \{ m_{\widehat{A}} \}$ (prop. 1), do đó suy ra a).
 
 Bây giờ ta chứng minh rằng I là Artin. Với mỗi môđun con-A M của I, ta gắn cho nó iđêan phân bậc $a_M$ của gr(A) được định nghĩa như sau: một phần tử của gr(A)_n thuộc về $(\mathfrak{a}_M)_n$ nếu nó bị triệt tiêu bởi mọi dạng tuyến tính $\beta(x)$, trong đó $x$ chạy qua $((M \cap I_{n+1}) + I_n)/I_n$. Cho $M$ và $N$ là các môđun con của $I$ sao cho $N \subset M$; khi đó $\mathfrak{a}_M \subset \mathfrak{a}_N$. Giả sử $\mathfrak{a}_M = \mathfrak{a}_N$; ta có $(M \cap I_{n+1}) + I_n = (N \cap I_{n+1}) + I_n$ với mọi $n$ vì $\beta$ là một đẳng cấu. Bằng quy nạp theo $n$ ta suy ra từ đó rằng $M \cap I_{n+1} = N \cap I_{n+1}$ với mọi $n$, do đó cuối cùng $M = N$.
 

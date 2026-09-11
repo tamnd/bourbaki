@@ -76,19 +76,13 @@ Nếu thêm nữa $\deg(T) \leq t$ và $\deg(P') \leq t - s$, thì $\deg(Q) \leq
 
 Vì $P$ là đơn thức cao nhất, $PR \neq 0$ đối với mọi đa thức $R \neq 0$ của $\mathbf{A}[X]$ và trong trường hợp này $\deg(PR) = s + \deg(R)$.
 
-Cho $T$ là một đa thức bất kỳ trong $\mathbf{A}[X]$. Vì iđêan sinh bởi $P$ và $P'$ là toàn bộ $\mathbf{A}[X]$, tồn tại các đa thức $Q_1$ và $Q'$ sao cho
-$$
+Cho $T$ là một đa thức bất kỳ trong $\mathbf{A}[X]$. Vì iđêan sinh bởi $P$ và $P'$ là toàn bộ $\mathbf{A}[X]$, tồn tại các đa thức $Q_1$ và $Q'$ sao cho $$
 T = PQ_1 + P'_1Q'_1;
-$$
-vì $P$ là đơn thức bậc cao nhất của bậc $s$, phép chia Euclid (*Algebra*, Chương IV, § 1, no. 5) chỉ ra rằng tồn tại hai đa thức $Q', Q''$ sao cho $Q'_1 = PQ'' + Q'$ trong đó $\deg(Q') < s$; khi đó ta suy ra rằng
-$$
+$$ vì $P$ là đơn thức bậc cao nhất của bậc $s$, phép chia Euclid (*Đại số*, Chương IV, § 1, no. 5) chỉ ra rằng tồn tại hai đa thức $Q', Q''$ sao cho $Q'_1 = PQ'' + Q'$ trong đó $\deg(Q') < s$; khi đó ta suy ra rằng $$
 T = PQ_1 + P'(PQ'' + Q') = PQ + P'Q'
-$$
-trong đó $Q = Q_1 + P'Q''$. Để chứng minh tính duy nhất của công thức (1), chỉ cần chứng minh rằng các hệ thức
-$$
+$$ trong đó $Q = Q_1 + P'Q''$. Để chứng minh tính duy nhất của công thức (1), chỉ cần chứng minh rằng các hệ thức $$
 0 = PQ + P'Q', \quad \deg(Q') < s
-$$
-suy ra $Q = Q' = 0$. Bây giờ, nếu (2) đúng, $P$ chia $-PQ = P'Q'$ và, vì $P$ và
+$$ suy ra $Q = Q' = 0$. Bây giờ, nếu (2) đúng, $P$ chia $-PQ = P'Q'$ và, vì $P$ và
 
 P' nguyên tố cùng nhau mạnh, P chia Q' theo Bổ đề 1; nếu Q' ≠ 0, sẽ tồn tại một đa thức S ≠ 0 sao cho Q' = PS, do đó
 

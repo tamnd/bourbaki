@@ -206,7 +206,7 @@ $$
 $$
 trong đó $J$ là một tập con hữu hạn (tùy ý) của $I$ và $u_\alpha$ là một hàm thực liên tục trên $X_\alpha$ với mỗi $\alpha \in J$.
 
-Consider the set $H$ of "hàm một biến" $(x_i) \to u_\alpha(x_\alpha)$ (bất kỳ $\alpha \in I$ nào) which are continuous on $X$. Tập hợp này phân biệt các điểm của $X$, vì nếu $x = (x_i)$ và $y = (y_i)$ là hai điểm phân biệt bất kỳ của $X$, thì tồn tại $\alpha \in I$ sao cho $x_\alpha \neq y_\alpha$ và tồn tại một hàm liên tục nhận giá trị thực $h_\alpha$ trên $X_\alpha$ sao cho $h_\alpha(x_\alpha) \neq h_\alpha(y_\alpha)$. Khi đó hàm $x \to h_\alpha(\operatorname{pr}_\alpha x)$ thuộc $H$ và nhận các giá trị khác nhau tại $x$ và $y$. Vì mọi đa thức theo các hàm của $H$ đều có dạng đã nêu trong định lý, suy ra kết quả từ Định lý 3.
+Xét tập hợp $H$ gồm các "hàm một biến" $(x_i) \to u_\alpha(x_\alpha)$ (bất kỳ $\alpha \in I$ nào) liên tục trên $X$. Tập hợp này phân biệt các điểm của $X$, vì nếu $x = (x_i)$ và $y = (y_i)$ là hai điểm phân biệt bất kỳ của $X$, thì tồn tại $\alpha \in I$ sao cho $x_\alpha \neq y_\alpha$ và tồn tại một hàm liên tục nhận giá trị thực $h_\alpha$ trên $X_\alpha$ sao cho $h_\alpha(x_\alpha) \neq h_\alpha(y_\alpha)$. Khi đó hàm $x \to h_\alpha(\operatorname{pr}_\alpha x)$ thuộc $H$ và nhận các giá trị khác nhau tại $x$ và $y$. Vì mọi đa thức theo các hàm của $H$ đều có dạng đã nêu trong định lý, suy ra kết quả từ Định lý 3.
 
 Nếu không phải mọi $X_i$ đều compact, thì kết luận của Định lý 4 chưa chắc đúng (xem Bài tập 9).
 
@@ -235,7 +235,7 @@ $$
 với mọi $x \in X$ ($1 \leq i \leq n$); do đó ta có
 
 $$
-\left\| f(x) - \sum_{i=1}^n a_i v_i(x) \right\| \leq 2\varepsilon \quad \text{for all } x \in X,
+\left\| f(x) - \sum_{i=1}^n a_i v_i(x) \right\| \leq 2\varepsilon \quad \text{với mọi } x \in X,
 $$
 
 và chứng minh hoàn tất.

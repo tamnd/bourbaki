@@ -53,9 +53,9 @@ $$
 
 đúng đối với $y$ và $z$ bằng không tại các đầu mút của khoảng lấy tích phân; chính xác hơn, và 30 năm trước khi Gauss định nghĩa tường minh phép chuyển vị của một phép thế tuyến tính trong 3 biến, ta thấy ở đây ví dụ đầu tiên không còn nghi ngờ gì của một "phiếm hàm toán tử" $L^*$ là phép chuyển vị hay "phụ hợp" của một toán tử $L$ được cho bằng một hàm song tuyến tính (ở đây là tích phân $\int yz\, dx$).
 
-Cùng thời gian đó và cũng một lần nữa với Lagrange [9(c)], các phép thế tuyến tính, lúc đầu trong 2 và 3 biến, đang trong quá trình chinh phục số học. Rõ ràng tập hợp các giá trị của một hàm $F(x, y)$, khi $x$ và $y$ nhận mọi giá trị nguyên, không thay đổi khi thực hiện trên $x$ và $y$ một phép thế tuyến tính với các hệ số nguyên, có định thức 1; dựa trên nhận xét cơ bản này Lagrange xây dựng lý thuyết biểu diễn số bằng các dạng và lý thuyết rút gọn các dạng; và Gauss, bằng một bước mà sự táo bạo của nó ngày nay đã trở nên khó được chúng ta đánh giá đúng mức, tách riêng khái niệm tương đương và khái niệm lớp của các dạng (cf. Historical Note to I); về chủ đề này, ông nhận thấy sự cần thiết của một số nguyên lý sơ cấp liên quan đến các phép thế tuyến tính và đặc biệt đưa vào khái niệm chuyển vị hay phụ hợp ([12(a)], p. 304). Kể từ thời điểm này trở đi, việc nghiên cứu số học và việc nghiên cứu đại số của các dạng toàn phương, trong 2, 3 và sau đó $n$ biến, việc nghiên cứu các dạng song tuyến tính có liên quan chặt chẽ với chúng và gần đây hơn là phép tổng quát hóa các khái niệm này đến vô hạn biến, cho đến tận hiện nay, đã tạo thành một trong những nguồn tiến bộ phong phú nhất của đại số tuyến tính (cf. Historical Note to IX).
+Cùng thời gian đó và cũng một lần nữa với Lagrange [9(c)], các phép thế tuyến tính, lúc đầu trong 2 và 3 biến, đang trong quá trình chinh phục số học. Rõ ràng tập hợp các giá trị của một hàm $F(x, y)$, khi $x$ và $y$ nhận mọi giá trị nguyên, không thay đổi khi thực hiện trên $x$ và $y$ một phép thế tuyến tính với các hệ số nguyên, có định thức 1; dựa trên nhận xét cơ bản này Lagrange xây dựng lý thuyết biểu diễn số bằng các dạng và lý thuyết rút gọn các dạng; và Gauss, bằng một bước mà sự táo bạo của nó ngày nay đã trở nên khó được chúng ta đánh giá đúng mức, tách riêng khái niệm tương đương và khái niệm lớp của các dạng (cf. ghi chú lịch sử to I); về chủ đề này, ông nhận thấy sự cần thiết của một số nguyên lý sơ cấp liên quan đến các phép thế tuyến tính và đặc biệt đưa vào khái niệm chuyển vị hay phụ hợp ([12(a)], p. 304). Kể từ thời điểm này trở đi, việc nghiên cứu số học và việc nghiên cứu đại số của các dạng toàn phương, trong 2, 3 và sau đó $n$ biến, việc nghiên cứu các dạng song tuyến tính có liên quan chặt chẽ với chúng và gần đây hơn là phép tổng quát hóa các khái niệm này đến vô hạn biến, cho đến tận hiện nay, đã tạo thành một trong những nguồn tiến bộ phong phú nhất của đại số tuyến tính (cf. ghi chú lịch sử to IX).
 
-Nhưng một tiến bộ có lẽ còn quyết định hơn là việc Gauss tạo ra, trong cùng tác phẩm *Disquisitiones* (cf. Historical Note to I), lý thuyết về các nhóm giao hoán hữu hạn, xuất hiện ở đó theo bốn cách khác nhau, trong nhóm cộng của các số nguyên modulo $m$ (với $m$ là một số nguyên), trong nhóm nhân của các số nguyên nguyên tố cùng nhau với $m$ modulo $m$, trong nhóm các lớp của các dạng toàn phương nhị phân và cuối cùng trong nhóm nhân của các căn bậc $m$ của đơn vị; và, như ta đã nhận xét, rõ ràng là với tư cách các nhóm giao hoán, hay đúng hơn là các môđun trên $\mathbf{Z}$, mà Gauss xử lý tất cả các nhóm này và nghiên cứu cấu trúc, các quan hệ đẳng cấu của chúng, v.v. Trong môđun của các "số nguyên phức" $a + bi$, về sau ta thấy ông nghiên cứu một môđun vô hạn trên $\mathbf{Z}$, mà chắc chắn ông đã nhận thấy sự đẳng cấu của nó với môđun các chu kỳ (do ông phát hiện trong miền phức) của các hàm elliptic; trong mọi trường hợp ý tưởng này đã xuất hiện rõ ràng trong công trình của Jacobi, chẳng hạn trong chứng minh nổi tiếng của ông về tính không thể tồn tại của một hàm có 3 chu kỳ và các quan điểm của ông về bài toán đảo của các tích phân Abel [16(b)], để chẳng bao lâu sau dẫn đến các định lý của Kronecker (cf. Historical Note to General Topology, VII).
+Nhưng một tiến bộ có lẽ còn quyết định hơn là việc Gauss tạo ra, trong cùng tác phẩm *Disquisitiones* (cf. ghi chú lịch sử to I), lý thuyết về các nhóm giao hoán hữu hạn, xuất hiện ở đó theo bốn cách khác nhau, trong nhóm cộng của các số nguyên modulo $m$ (với $m$ là một số nguyên), trong nhóm nhân của các số nguyên nguyên tố cùng nhau với $m$ modulo $m$, trong nhóm các lớp của các dạng toàn phương nhị phân và cuối cùng trong nhóm nhân của các căn bậc $m$ của đơn vị; và, như ta đã nhận xét, rõ ràng là với tư cách các nhóm giao hoán, hay đúng hơn là các môđun trên $\mathbf{Z}$, mà Gauss xử lý tất cả các nhóm này và nghiên cứu cấu trúc, các quan hệ đẳng cấu của chúng, v.v. Trong môđun của các "số nguyên phức" $a + bi$, về sau ta thấy ông nghiên cứu một môđun vô hạn trên $\mathbf{Z}$, mà chắc chắn ông đã nhận thấy sự đẳng cấu của nó với môđun các chu kỳ (do ông phát hiện trong miền phức) của các hàm elliptic; trong mọi trường hợp ý tưởng này đã xuất hiện rõ ràng trong công trình của Jacobi, chẳng hạn trong chứng minh nổi tiếng của ông về tính không thể tồn tại của một hàm có 3 chu kỳ và các quan điểm của ông về bài toán đảo của các tích phân Abel [16(b)], để chẳng bao lâu sau dẫn đến các định lý của Kronecker (cf. ghi chú lịch sử to Tôpô tổng quát, VII).
 
 Ở đây, một dòng chảy khác nhập vào những dòng chảy mà chúng ta đã tìm cách lần theo quỹ đạo và những khúc quanh đôi khi của chúng, vốn từ lâu vẫn nằm dưới mặt đất. Như sẽ được trình bày chi tiết hơn về sau (Ghi chú lịch sử cho IX), hình học "thuần túy" theo nghĩa được hiểu vào thế kỷ trước, tức về bản chất là hình học xạ ảnh của mặt phẳng và không gian không sử dụng tọa độ, đã được Desargues tạo ra vào thế kỷ XVII [6], các ý tưởng của ông, được một Fermat đánh giá đúng giá trị và được một Pascal đưa vào thực hành, sau đó đã bị chôn vùi trong sự lãng quên, bị che khuất bởi sự tiến triển rực rỡ của hình học giải tích; nó được hồi sinh vào cuối thế kỷ XVIII, với Monge, rồi Poncelet và các đối thủ của ông là Brianchon và Chasles, đôi khi hoàn toàn và có chủ ý tách rời khỏi các phương pháp giải tích, đôi khi (đặc biệt ở Đức) hòa trộn chặt chẽ với chúng. Giờ đây các biến đổi xạ ảnh, dù được xét từ bất kỳ quan điểm nào (tổng hợp hay giải tích), dĩ nhiên chỉ là các phép thế tuyến tính trên các tọa độ xạ ảnh hay "trọng tâm"; lý thuyết các đường conic (trong thế kỷ XVII) và sau đó là lý thuyết các mặt bậc hai, mà với các tính chất xạ ảnh của chúng trường phái này trong một thời gian dài chủ yếu quan tâm đến, chỉ chính là lý thuyết các dạng bậc hai, mà mối liên hệ chặt chẽ của chúng với đại số tuyến tính chúng ta đã chỉ ra trước đây. Thêm vào các khái niệm này là khái niệm đối cực: cũng do Desargues tạo ra, lý thuyết các cực và các đường cực trở thành, trong tay Monge và những người kế tục ông và chẳng bao lâu dưới tên gọi nguyên lý đối ngẫu, một công cụ mạnh mẽ để biến đổi các định lý hình học; nếu không thể khẳng định rằng mối quan hệ của nó với các phương trình vi phân liên hợp đã được nhận thấy trong thời kỳ đó (chúng được Pincherle chỉ ra vào cuối thế kỷ), thì ít nhất Chasles cũng không quên [17] nhận thấy mối quan hệ của nó với khái niệm các tam giác cầu đối ứng, được Viète ([3], p. 428) và Snellius đưa vào lượng giác cầu ngay từ thế kỷ XVI. Nhưng đối ngẫu trong hình học xạ ảnh chỉ là một khía cạnh của đối ngẫu của các không gian vectơ, có tính đến những biến đổi bắt buộc khi chuyển từ không gian affine sang không gian xạ ảnh (là một không gian thương của nó, theo quan hệ "phép nhân vô hướng").
 
@@ -132,15 +132,7 @@ TÀI LIỆU THAM KHẢO
 
 23. K. Weierstrass, Mathematische Werke, vol. II, Berlin, (Mayer und Müller),
 
-1895: Zur Theorie des aus $n$ Haupteinheiten gebildeten complexen Grössen, pp. 311–332.
-24. R. Dedekind, Gesammelte mathematische Werke, 3 vols., Braunschweig (Vieweg), 1930–32.
-25. H. J. Smith, Collected Mathematical Papers, vol. I, Oxford, 1894: On systems of linear indeterminate equations and congruences, p. 367 (=Phil. Trans., 1861).
-26. L. Kronecker, Vorlesungen über die Theorie der Determinanten . . ., Leipzig (Teubner), 1903.
-27. G. Peano, Calcolo geometrico secondo l’Ausdehnungstheorie di Grassmann preceduto dalle operazioni della logica deduttiva, Torino, 1888.
-28. G. Ricci and T. Levi-Civita, Méthodes de calcul différentiel absolu et leurs applications, Math. Ann., vol. LIV (1901), p. 125.
-29. E. Cartan, Sur certaines expressions différentielles et le problème de Pfaff, Ann. E.N.S. (3), vol. XVI (1899), pp. 239–332 (=Oeuvres complètes, vol. II_1, Paris (Gauthier-Villars), 1953, pp. 303–396).
-30. H. Poincaré, Les méthodes nouvelles de la mécanique céleste, vol. III, Paris (Gauthier-Villars), 1899, Chương XXII.
-31. O. Toeplitz, Ueber die Auflösung unendlichvieler linearer Gleichungen mit unendlichvielen Unbekannten, Rend. Circ. Mat. Pal., vol. XXVIII (1909), pp. 88–96.
+1895: Zur Theorie des aus $n$ Haupteinheiten gebildeten complexen Grössen, tr. 311–332. 24. R. Dedekind, Gesammelte mathematische Werke, 3 tập, Braunschweig (Vieweg), 1930–32. 25. H. J. Smith, Collected Mathematical Papers, tập I, Oxford, 1894: On systems of linear indeterminate equations and congruences, tr. 367 (=Phil. Trans., 1861). 26. L. Kronecker, Vorlesungen über die Theorie der Determinanten . . ., Leipzig (Teubner), 1903. 27. G. Peano, Calcolo geometrico secondo l’Ausdehnungstheorie di Grassmann preceduto dalle operazioni della logica deduttiva, Torino, 1888. 28. G. Ricci and T. Levi-Civita, Méthodes de calcul différentiel absolu et leurs applications, Math. Ann., tập LIV (1901), tr. 125. 29. E. Cartan, Sur certaines expressions différentielles et le problème de Pfaff, Ann. E.N.S. (3), tập XVI (1899), tr. 239–332 (=Oeuvres complètes, tập II_1, Paris (Gauthier-Villars), 1953, tr. 303–396). 30. H. Poincaré, Les méthodes nouvelles de la mécanique céleste, tập III, Paris (Gauthier-Villars), 1899, Chương XXII. 31. O. Toeplitz, Ueber die Auflösung unendlichvieler linearer Gleichungen mit unendlichvielen Unbekannten, Rend. Circ. Mat. Pal., tập XXVIII (1909), tr. 88–96.
 
 $x + y, x \cdot y, xy, x \top y, x \perp y$: I, § 1, no. 1.
 $X \top Y, X + Y, XY$ (X, Y tập con): I, § 1, no. 1.
@@ -614,49 +606,7 @@ Phần tử trung tâm hóa: I, § 5, no. 3.
 Tập con trung tâm hóa: I, § 5, no. 3.
 Tâm: I, § 1, no. 5.
 
-Tâm của một đại số: III, § 1, no. 2.
-Tâm của một ánh xạ tuyến tính xạ ảnh: II, § 9, no. 10.
-Thay đổi tọa độ, các công thức của: II, § 10, no. 8.
-Đặc số của một trường: I, § 9, Bài tập 4.
-Đa thức đặc trưng của một ma trận: III, § 8, no. 11.
-Nhóm con đặc trưng: I, § 5, no. 3.
-Lớp, liên hợp: I, § 5, no. 4.
-Lớp, nilpotent, của một nhóm: I, § 6, no. 3.
-Lớp, giải được, của một nhóm: I, § 6, no. 4.
-Đối đại số kết hợp: III, § 11, no. 2.
-Song đại số đối giao hoán: III, § 11, no. 4.
-Đối đại số đối giao hoán: III, § 11, no. 2.
-Ánh xạ đối đường chéo: II, § 1, no. 6.
-Đối chiều của một đa tạp tuyến tính affine: II, § 9, no. 3.
-Đối chiều của một không gian con vectơ: II, § 7, no. 3.
-Các hệ số của một chuỗi lũy thừa hình thức: III, § 2, no. 11.
-Các hệ số của một tổ hợp tuyến tính: II, § 1, no. 1.
-Các hệ số của một đa thức: III, § 2, no. 9.
-Các hệ số của một hệ phương trình tuyến tính: II, § 2, no. 8.
-Phần bù đại số của một phần tử của một ma trận vuông: III, § 8, no. 6.
-Đối đại số, A-đối đại số: III, § 11, no. 1.
-Đối đại số, đối giao hoán phân bậc: III, § 11, no. 3.
-Đối đại số, đối kết hợp: III, § 11, no. 2.
-Đối đại số, đối giao hoán: III, § 11, no. 2.
-Đối đại số, có phần tử đối đơn vị: III, § 11, no. 2.
-Đối đại số, phân bậc: III, § 11, no. 1.
-Đối đại số, đối: III, § 11, no. 1.
-Đối ảnh của một ánh xạ tuyến tính: II, § 1, no. 3.
-Nhóm trùng hợp: I, § 4, no. 8.
-Đối hạt nhân của một ánh xạ tuyến tính: II, § 1, no. 3.
-Cột của một ma trận: II, § 10, no. 1.
-Tổ hợp, tuyến tính: II, § 2, no. 5.
-Các tổ hợp tuyến tính hình thức (môđun của): II, § 1, no. 11.
-Nhân tử giao hoán: III, § 10, no. 1.
-Đại số giao hoán: III, § 1, no. 1.
-Trường giao hoán: I, § 9, no. 1.
-Song đại số giao hoán phân bậc: III, § 11, no. 4.
-Nhóm giao hoán, tự do, trên X: I, § 7, no. 5.
-Nhóm giao hoán có toán tử: I, § 4, no. 2.
-Luật giao hoán: I, § 1, no. 5.
-Magma giao hoán: I, § 1, no. 5.
-Nửa nhóm giao hoán, tự do, trên X: I, § 7, no. 7.
-Vành giao hoán: I, § 8, no. 1.
+Tâm của một đại số: III, § 1, no. 2. Tâm của một ánh xạ tuyến tính xạ ảnh: II, § 9, no. 10. Thay đổi tọa độ, các công thức của: II, § 10, no. 8. Đặc số của một trường: I, § 9, Bài tập 4. Đa thức đặc trưng của một ma trận: III, § 8, no. 11. Nhóm con đặc trưng: I, § 5, no. 3. Lớp, liên hợp: I, § 5, no. 4. Lớp, lũy linh, của một nhóm: I, § 6, no. 3. Lớp, giải được, của một nhóm: I, § 6, no. 4. Đối đại số kết hợp: III, § 11, no. 2. Song đại số đối giao hoán: III, § 11, no. 4. Đối đại số đối giao hoán: III, § 11, no. 2. Ánh xạ đối đường chéo: II, § 1, no. 6. Đối chiều của một đa tạp tuyến tính affine: II, § 9, no. 3. Đối chiều của một không gian con vectơ: II, § 7, no. 3. Các hệ số của một chuỗi lũy thừa hình thức: III, § 2, no. 11. Các hệ số của một tổ hợp tuyến tính: II, § 1, no. 1. Các hệ số của một đa thức: III, § 2, no. 9. Các hệ số của một hệ phương trình tuyến tính: II, § 2, no. 8. Phần bù đại số của một phần tử của một ma trận vuông: III, § 8, no. 6. Đối đại số, A-đối đại số: III, § 11, no. 1. Đối đại số, đối giao hoán phân bậc: III, § 11, no. 3. Đối đại số, đối kết hợp: III, § 11, no. 2. Đối đại số, đối giao hoán: III, § 11, no. 2. Đối đại số, có phần tử đối đơn vị: III, § 11, no. 2. Đối đại số, phân bậc: III, § 11, no. 1. Đối đại số, đối: III, § 11, no. 1. Đối ảnh của một ánh xạ tuyến tính: II, § 1, no. 3. Nhóm trùng hợp: I, § 4, no. 8. Đối hạt nhân của một ánh xạ tuyến tính: II, § 1, no. 3. Cột của một ma trận: II, § 10, no. 1. Tổ hợp, tuyến tính: II, § 2, no. 5. Các tổ hợp tuyến tính hình thức (môđun của): II, § 1, no. 11. Nhân tử giao hoán: III, § 10, no. 1. Đại số giao hoán: III, § 1, no. 1. Trường giao hoán: I, § 9, no. 1. Song đại số giao hoán phân bậc: III, § 11, no. 4. Nhóm giao hoán, tự do, trên X: I, § 7, no. 5. Nhóm giao hoán có toán tử: I, § 4, no. 2. Luật giao hoán: I, § 1, no. 5. Magma giao hoán: I, § 1, no. 5. Nửa nhóm giao hoán, tự do, trên X: I, § 7, no. 7. Vành giao hoán: I, § 8, no. 1.
 
 Các quan hệ giao hoán trong một bảng phép nhân: III, § 1, no. 7.
 Định lý giao hoán: I, § 1, no. 5.
@@ -1302,29 +1252,7 @@ Tích tenxơ của các đại số: III, § 4, no. 1.
 Tích tenxơ của một họ vô hạn các đại số: III, § 4, no. 5.
 Tích tenxơ của các cơ sở của các đại số: III, § 4, no. 5.
 
-Tích, tenxơ, của các cogebra: III, § 11, no. 1.
-Tích, tenxơ, của hai cơ sở: II, § 3, no. 7.
-Tích, tenxơ, của hai phần tử: II, § 3, no. 1.
-Tích, tenxơ, của hai ánh xạ tuyến tính: II, § 3, no. 2.
-Tích, tenxơ, của hai ma trận trên một vành giao hoán: II, § 10, no. 10
-Tích, tenxơ, của hai môđun: II, § 3, no. 1.
-Tích, tenxơ, của hai môđun đa: II, § 3, no. 4.
-Tích, tenxơ, của hai ánh xạ nửa tuyến tính: II, § 3, no. 3.
-Đồng cấu phép chiếu: I, § 4, no. 8.
-Trường xạ ảnh: II, § 9, no. 9.
-Nhóm xạ ảnh: II, § 9, no. 10.
-Siêu phẳng, mặt phẳng xạ ảnh: II, § 9, no. 7.
-Đường thẳng xạ ảnh: II, § 9, no. 5.
-Ánh xạ xạ ảnh: II, § 9, no. 10.
-Môđun xạ ảnh: II, § 2, no. 2.
-Không gian xạ ảnh: II, § 9, nos. 5 và 11.
-Tự do xạ ảnh, liên quan xạ ảnh, họ: II, § 9, no. 7.
-Phép chiếu: II, § 1, no. 8.
-Giả môđun trái, phải: II, Phụ lục, no. 2.
-Giả-vành: I, § 8, no. 1.
-Giả-vành với bình phương không: I, § 8, no. 3.
-Vectơ $p$-thuần: III, § 11, no. 13.
-Quaternion thuần: III, § 2, Bài tập 3.
+Tích, tenxơ, của các đối đại số: III, § 11, no. 1. Tích, tenxơ, của hai cơ sở: II, § 3, no. 7. Tích, tenxơ, của hai phần tử: II, § 3, no. 1. Tích, tenxơ, của hai ánh xạ tuyến tính: II, § 3, no. 2. Tích, tenxơ, của hai ma trận trên một vành giao hoán: II, § 10, no. 10 Tích, tenxơ, của hai môđun: II, § 3, no. 1. Tích, tenxơ, của hai môđun đa: II, § 3, no. 4. Tích, tenxơ, của hai ánh xạ nửa tuyến tính: II, § 3, no. 3. Đồng cấu phép chiếu: I, § 4, no. 8. Trường xạ ảnh: II, § 9, no. 9. Nhóm xạ ảnh: II, § 9, no. 10. Siêu phẳng, mặt phẳng xạ ảnh: II, § 9, no. 7. Đường thẳng xạ ảnh: II, § 9, no. 5. Ánh xạ xạ ảnh: II, § 9, no. 10. Môđun xạ ảnh: II, § 2, no. 2. Không gian xạ ảnh: II, § 9, nos. 5 và 11. Tự do xạ ảnh, liên quan xạ ảnh, họ: II, § 9, no. 7. Phép chiếu: II, § 1, no. 8. Giả môđun trái, phải: II, Phụ lục, no. 2. Giả-vành: I, § 8, no. 1. Giả-vành với bình phương không: I, § 8, no. 3. Vectơ $p$-thuần: III, § 11, no. 13. Quaternion thuần: III, § 2, Bài tập 3.
 
 Đại số bậc hai: III, § 2, no. 3.
 Nhóm giả: I, § 3, Bài tập 6.

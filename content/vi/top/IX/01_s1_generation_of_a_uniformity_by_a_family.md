@@ -77,7 +77,7 @@ Nhận xét:
 
 Từ bất đẳng thức tam giác suy ra rằng nếu $f(x, z)$ và $f(y, z)$ là hữu hạn thì $f(x, y)$ cũng vậy; hơn nữa, trong trường hợp này ta có
 $$
-f(x, z) \leq f(y, z) + f(x, y) \quad \text{and} \quad f(y, z) \leq f(x, z) + f(x, y),
+f(x, z) \leq f(y, z) + f(x, y) \quad \text{và} \quad f(y, z) \leq f(x, z) + f(x, y),
 $$
 do đó
 (I)

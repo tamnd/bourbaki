@@ -27,9 +27,9 @@ subsections:
       title: PROPERTIES PECULIAR TO CLOSED MAPPINGS
       page: 56
       pdf_page: 62
-statements: 19
+statements: 24
 exercises: 7
-content_sha256: 770385711f45d74c8c5f1640b5013319a5b971ac533bc0206d4387875c1ade48
+content_sha256: c40576964d7fca8522dee530e130ae4cb2b27d730f619182066a2759ae4e137f
 ---
 
 ## 5. OPEN MAPPINGS AND CLOSED MAPPINGS
@@ -45,18 +45,30 @@ In particular, $f(X)$ is then an open (resp. closed) subset of $X'$.
 #### Example 1 {#top-i-s5-n1-exa-1 .statement}
 
 Let $A$ be a subspace of a topological space $X$. Then the canonical injection $j : A \to X$ is open (resp. closed) if and only if $A$ is open (resp. closed) in $X$ (§ 3, no. 1).
-2) For a bijection $f$ of a topological space $X$ onto a topological space $X'$ to be a *homeomorphism* it is necessary and sufficient that $f$ is *continuous and open*, or *continuous and closed*.
 
-3) Let $f$ be a surjection of a set $X$ onto a topological space $X'$; if we give $X$ the topology which is the inverse image under $f$ of the topology of $X'$ (§ 2, no. 3, Example 1), then $f$ is continuous, open and closed.
+#### Example 2 {#top-i-s5-n1-exa-2 .statement}
 
-4) In a product space
+For a bijection $f$ of a topological space $X$ onto a topological space $X'$ to be a *homeomorphism* it is necessary and sufficient that $f$ is *continuous and open*, or *continuous and closed*.
+
+#### Example 3 {#top-i-s5-n1-exa-3 .statement}
+
+Let $f$ be a surjection of a set $X$ onto a topological space $X'$; if we give $X$ the topology which is the inverse image under $f$ of the topology of $X'$ (§ 2, no. 3, Example 1), then $f$ is continuous, open and closed.
+
+#### Example 4 {#top-i-s5-n1-exa-4 .statement}
+
+In a product space
 $$
 X = \prod_{i \in I} X_i,
 $$
 each projection $\mathrm{pr}_i : X \to X_i$ is a continuous open mapping, but is not necessarily closed (§ 4, no. 2, Proposition 5).
 
-\* 5) A holomorphic function on an open subset $A$ of $C$ is an open mapping of $A$ into $C$. \*
-6) Let $X, X'$ be two topological spaces and $f$ a continuous, but not bicontinuous, bijection of $X$ onto $X'$. Then the inverse bijection $g : X' \to X$ is an open and closed mapping of $X'$ onto $X$, but is not continuous.
+#### Example 5 {#top-i-s5-n1-exa-5 .statement}
+
+\* A holomorphic function on an open subset $A$ of $C$ is an open mapping of $A$ into $C$. \*
+
+#### Example 6 {#top-i-s5-n1-exa-6 .statement}
+
+Let $X, X'$ be two topological spaces and $f$ a continuous, but not bicontinuous, bijection of $X$ onto $X'$. Then the inverse bijection $g : X' \to X$ is an open and closed mapping of $X'$ onto $X$, but is not continuous.
 
 #### Proposition 1 {#top-i-s5-prop-1 .statement}
 

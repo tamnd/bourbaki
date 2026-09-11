@@ -26,9 +26,9 @@ subsections:
       title: INVARIANT ELEMENTS
       page: 0
       pdf_page: 212
-statements: 12
+statements: 13
 exercises: 2
-content_sha256: 16fff2ef91958e3176073428ac5aa96104b5766117545ca5b13d57989a8e0cf7
+content_sha256: 07ce68925d5873b9647a1c938fea031e089065766e687b0d9f0f17772a1a8fb8
 ---
 
 ## § 3. EXPONENTIAL INVARIANTS
@@ -265,7 +265,10 @@ Lemma 2 implies that the image under $\varphi$ of the monomial $X_1^{n_1} \ldots
 #### Example 1 {#lie-vi-s3-n4-exa-1 .statement}
 
 We can take $x_i = S(e^{\overline{\omega}_i})$.
-2) By *Remark* 2 of no. 3, we can take $x_i = J(e^{\rho + \overline{\omega}_i})/d$ (with the notation in no. 3).
+
+#### Example 2 {#lie-vi-s3-n4-exa-2 .statement}
+
+By *Remark* 2 of no. 3, we can take $x_i = J(e^{\rho + \overline{\omega}_i})/d$ (with the notation in no. 3).
 
 ### Exercises {#lie-vi-s3-exercises}
 

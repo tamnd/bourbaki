@@ -74,7 +74,7 @@ $$
 \mathbf{f}'(x) = \mathbf{f}(x)\mathbf{f}'(0).
 $$
 
-Trước hết chú ý rằng, vì E là một đại số đầy đủ, G là mở trong E (*Gen. Top.*, IX, p. 179, prop. 14). Xét hàm $g(x) = \int_0^a \mathbf{f}(x + t)\,dt$, trong đó $a > 0$ là một số mà ta sẽ chọn sau; vì $\mathbf{f}(x + t) = \mathbf{f}(x)\mathbf{f}(t)$ theo giả thiết, ta có $g(x) = \int_0^a \mathbf{f}(x)\mathbf{f}(t)\,dt = \mathbf{f}(x) \int_0^a \mathbf{f}(t)\,dt$ (I, p. 6, prop. 3). Cho $\alpha > 0$ sao cho quả cầu $\|x - \mathbf{e}\| \leq \alpha$ được chứa trong G; vì $\mathbf{f}(0) = \mathbf{e}$ và $\mathbf{f}$ liên tục theo giả thiết, có thể giả sử rằng $a$ đủ nhỏ để $\|\mathbf{f}(t) - \mathbf{e}\| \leq \alpha$ trên $[0, a]$; do đó (II, p. 61, formula (16)) ta có
+Trước hết chú ý rằng, vì E là một đại số đầy đủ, G là mở trong E (*Gen. Top.*, IX, p. 179, prop. 14). Xét hàm $g(x) = \int_0^a \mathbf{f}(x + t)\,dt$, trong đó $a > 0$ là một số mà ta sẽ chọn sau; vì $\mathbf{f}(x + t) = \mathbf{f}(x)\mathbf{f}(t)$ theo giả thiết, ta có $g(x) = \int_0^a \mathbf{f}(x)\mathbf{f}(t)\,dt = \mathbf{f}(x) \int_0^a \mathbf{f}(t)\,dt$ (I, p. 6, prop. 3). Cho $\alpha > 0$ sao cho quả cầu $\|x - \mathbf{e}\| \leq \alpha$ được chứa trong G; vì $\mathbf{f}(0) = \mathbf{e}$ và $\mathbf{f}$ liên tục theo giả thiết, có thể giả sử rằng $a$ đủ nhỏ để $\|\mathbf{f}(t) - \mathbf{e}\| \leq \alpha$ trên $[0, a]$; do đó (II, p. 61, công thức (16)) ta có
 
 $$
 \left\| \frac{1}{a} \int_0^a \mathbf{f}(t)\,dt - \mathbf{e} \right\| \leq \alpha,

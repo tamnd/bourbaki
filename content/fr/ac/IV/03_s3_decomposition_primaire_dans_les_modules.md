@@ -7,7 +7,7 @@ section: 3
 section_title: Décomposition primaire dans les modules gradués
 lang: fr
 source: ac-i-iv-fr
-pdf_pages: 0332-0336, 0351-0361
+pdf_pages: 0332-0336, 0351-0352
 extraction: ocr
 subsections:
     - "no": 1

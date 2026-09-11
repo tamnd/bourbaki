@@ -176,7 +176,7 @@ Thật vậy, đồng cấu $\kappa_{A} \to K$ là một phép phình (Ví dụ 
 
 #### Mệnh đề 4 {#ac-ix-a0-prop-4 .statement}
 
-Cho p là một số nguyên tố, k là một trường có đặc số p, và cho n là một số nguyên $\geq 1$, hoặc $+ \infty$. Khi đó tồn tại một $p$-ring ($\S$ 2, No. 1, Định nghĩa 1) có độ dài n mà trường thặng dư là đẳng cấu với k.
+Cho p là một số nguyên tố, k là một trường có đặc số p, và cho n là một số nguyên $\geq 1$, hoặc $+ \infty$. Khi đó tồn tại một $p$-vành ($\S$ 2, No. 1, Định nghĩa 1) có độ dài n mà trường thặng dư là đẳng cấu với k.
 
 Ta có thể xem k như một mở rộng của trường thặng dư $\mathbf{Z}/p\mathbf{Z}$ của vành địa phương $\mathbf{Z}_{(p)}$. Theo hệ quả của Định lý 1, tồn tại một vành địa phương B, là một phép phình của $\mathbf{Z}_{(p)}$, sao cho $\kappa_{B}$ là đẳng cấu với k. Vành địa phương $\mathbf{Z}_{(p)}$ là chính quy và $\{ p \}$ là một hệ tọa độ của $\mathbf{Z}_{(p)}$. Theo hệ quả của Mệnh đề 2 ở No. 2, vành B là chính quy và $\{ pl_{B} \}$ là một hệ tọa độ của B. Nói cách khác, B là một vành định giá rời rạc, với iđêan cực đại $pB$. Bao đầy đủ C của B khi đó là một $p$-vành có độ dài vô hạn và trường thặng dư $\kappa_{C}$ là đẳng cấu với $\kappa_{B}$, do đó với k. Hơn nữa, với mọi số nguyên $n \geq 1$, $C/p^{n}C$ là một $p$-vành có độ dài n, với trường thặng dư đẳng cấu với $\kappa_{C}$, do đó với k.
 

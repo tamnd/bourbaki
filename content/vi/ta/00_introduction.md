@@ -58,9 +58,9 @@ Các kết quả của các chương I đến IV phụ thuộc vào bốn Sách 
 
 Ban đầu dự định rằng Sách này sẽ tạo thành chương XI của Sách về Tôpô đại cương. Vì vậy, trong các Sách trước, các tham chiếu đến TG, XI, phải được sửa như sau:
 
-LIE, III, §1, No. 9, p. 114, note 1. Đọc "Xem TA, IV, p. 379, Mệnh đề 6."
+LIE, III, §1, No. 9, p. 114, chú ý 1. Đọc "Xem TA, IV, p. 379, Mệnh đề 6."
 
-LIE, III, §6, p. 192, note 1. Đọc "Nhắc lại rằng (TA, I, p. 124, Định nghĩa 3) một không gian
+LIE, III, §6, p. 192, chú ý 1. Đọc "Nhắc lại rằng (TA, I, p. 124, Định nghĩa 3) một không gian
 
 được gọi là đơn liên nếu mỗi phủ của nó đều tầm thường hóa được;
 
@@ -76,7 +76,7 @@ LIE, III, §6, No. 7, p. 206, line 11. Thay cho "by TG, XI", đọc "by
 
 TA, IV, p. 379, Mệnh đề 6".
 
-LIE, VII, p. 66, appendix II, exercise 1. Thay cho "TG, XI", đọc "TA, I,
+LIE, VII, p. 66, phụ lục II, bài tập 1. Thay cho "TG, XI", đọc "TA, I,
 
 p. 69, Định nghĩa 2".
 
@@ -112,8 +112,8 @@ LIE, IX, §9, No. 1, p. 89, line 9. Thay cho "by TG, XI", đọc "by TA,
 
 I, p. 37, Định lý 2".
 
-LIE, IX, p. 112, exercise 8. Thay cho "TG, XI", đọc "TA, VII".
+LIE, IX, p. 112, bài tập 8. Thay cho "TG, XI", đọc "TA, VII".
 
-LIE, IX, p. 118, exercise 2. Thay cho "TG, XI", đọc "TA, III, p. 229, Định nghĩa 1".
+LIE, IX, p. 118, bài tập 2. Thay cho "TG, XI", đọc "TA, III, p. 229, Định nghĩa 1".
 
 xiv

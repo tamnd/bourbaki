@@ -35,9 +35,9 @@ subsections:
       title: CHANGE OF ORDER OF INTEGRATION
       page: 76
       pdf_page: 91
-statements: 17
+statements: 18
 exercises: 10
-content_sha256: 62bb6cd48dfc0b7f2b01d57475721e621137ba34388ad9ae689438f7ab394731
+content_sha256: 2e0285294c5eb412e7dc272b17cdc77aa895e03df78e0eeae6b0a65e34227c96
 ---
 
 ## § 3. DERIVATIVES AND INTEGRALS OF FUNCTIONS DEPENDING ON A PARAMETER
@@ -297,7 +297,10 @@ The uniform convergence of $\int_I f'_\alpha(t, \alpha) \, dt$ on $V$ means that
 #### Remark 1 {#fvr-ii-s3-n5-rem-1 .statement}
 
 Conditions 1 and 2 of prop. 7 are satisfied a fortiori when $f'_\alpha(x, \alpha)$ is a continuous function of $(x, \alpha)$ on $I \times V$.
-2) When, in an integral $\int_{a(\alpha)}^{b(\alpha)} f(t, \alpha) \, dt$, the endpoints of the interval are finite functions of the parameter, the study of this integral as a function of $\alpha$ can be related to that of an integral over $[0, 1]$; indeed, by the change of variable $t = a(\alpha)(1 - u) + b(\alpha)u$, one has
+
+#### Remark 2 {#fvr-ii-s3-n5-rem-2 .statement}
+
+When, in an integral $\int_{a(\alpha)}^{b(\alpha)} f(t, \alpha) \, dt$, the endpoints of the interval are finite functions of the parameter, the study of this integral as a function of $\alpha$ can be related to that of an integral over $[0, 1]$; indeed, by the change of variable $t = a(\alpha)(1 - u) + b(\alpha)u$, one has
 
 $$
 \int_{a(\alpha)}^{b(\alpha)} f(t, \alpha) \, dt = \int_0^1 f(a(\alpha)(1 - u) + b(\alpha)u, \alpha) (b(\alpha) - a(\alpha)) \, du.

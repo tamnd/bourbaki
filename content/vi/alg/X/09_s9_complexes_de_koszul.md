@@ -552,7 +552,7 @@ xem công thức (12) và Ví dụ 1, p. 44.
 Nếu $L = A$, đặt $u(1) = x \in A$. Khi đó phức $K(u)$ có độ dài 1, ta có $K_0(u) = K_1(u) = A$ và $d_1(a) = xa$, do đó với mọi A-môđun $M$, $K_0(u, M)$, $K_1(u, M)$, $K^0(u, M)$ và $K^1(u, M)$ được đồng nhất với $M$, các vi phân
 
 $$
-d_1 : K_1(u, M) \to K_0(u, M) \quad \text{and} \quad d^0 : K^0(u, M) \to K^1(u, M)
+d_1 : K_1(u, M) \to K_0(u, M) \quad \text{và} \quad d^0 : K^0(u, M) \to K^1(u, M)
 $$
 
 là $m \mapsto xm$. Vậy ta có các đẳng cấu

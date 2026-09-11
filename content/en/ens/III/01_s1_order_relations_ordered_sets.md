@@ -66,7 +66,7 @@ subsections:
       pdf_page: 153
 statements: 52
 exercises: 24
-content_sha256: dcf5b22649cb0eac4cf9ac3e2ac260375cc8586fc48653ab2f306ed22a25c53d
+content_sha256: 0ce49f6ed168f45d0951df56c7618b1d782b287ef9ecaf9b7f2bac23d82c4e7a
 ---
 
 ## 1. ORDER RELATIONS. ORDERED SETS
@@ -250,7 +250,7 @@ An important example of a product of ordered sets is the set $F^E$ of graphs of 
 
 ☡
 
-It should be observed that in the ordered set $\mathscr{F}(E, F)$, the relation $f < g$ means
+It should be observed that in the ordered set $\mathfrak{F}(E, F)$, the relation $f < g$ means
 $$\text{"for all } x \in E, f(x) \leqslant g(x), \text{ and there exists } y \in E \text{ such that } f(y) < g(y)\text{"}$$
 *and not*
 $$\text{"for all } x \in E, f(x) < g(x)\text{"}.$$
@@ -317,11 +317,11 @@ In the set $\Phi(E, F)$ of mappings of subsets of E into F (F being non-empty), 
 
 #### Example 3 {#ens-iii-s1-n6-exa-3 .statement tag=03SO}
 
-In the set of natural integers $> 1$, ordered by the relation "$m$ divides $n$" between $m$ and $n$, the minimal elements are the prime numbers. $_*$
+\* In the set of natural integers $> 1$, ordered by the relation "$m$ divides $n$" between $m$ and $n$, the minimal elements are the prime numbers. $_*$
 
 #### Example 4 {#ens-iii-s1-n6-exa-4 .statement tag=03SP}
 
-The set of real numbers has no maximal element and no minimal element. $_*$
+\* The set of real numbers has no maximal element and no minimal element. $_*$
 
 ### 7. GREATEST ELEMENT AND LEAST ELEMENT
 
@@ -467,7 +467,7 @@ is an upper bound of A; consequently $c' \geqslant a$ and therefore $a'_\varkapp
 
 #### Example 1 {#ens-iii-s1-n9-exa-1 .statement tag=03SS}
 
-In the ordered set $E = \mathbf{R}$ of real numbers, consider the subset $F = \mathbf{Q}$ of rational numbers and the set $A \subset F$ of rational numbers $< \sqrt{2}$; $\sup_E A$ exists but $\sup_F A$ does not.
+\* In the ordered set $E = \mathbf{R}$ of real numbers, consider the subset $F = \mathbf{Q}$ of rational numbers and the set $A \subset F$ of rational numbers $< \sqrt{2}$; $\sup_E A$ exists but $\sup_F A$ does not.
 
 #### Example 2 {#ens-iii-s1-n9-exa-2 .statement tag=03ST}
 
@@ -518,7 +518,7 @@ Every product of lattices is a lattice; this follows from the condition for the 
 
 #### Example 1 {#ens-iii-s1-n11-exa-1 .statement tag=03SV}
 
-The set of integers $\geqslant 1$, ordered by the relation “$m$ divides $n$” between $m$ and $n$, is a lattice; the least upper bound of $\{m,n\}$ is the l.c.m. of $m$ and $n$, and the greatest lower bound is their h.c.f.
+\* The set of integers $\geqslant 1$, ordered by the relation “$m$ divides $n$” between $m$ and $n$, is a lattice; the least upper bound of $\{m,n\}$ is the l.c.m. of $m$ and $n$, and the greatest lower bound is their h.c.f.
 
 #### Example 2 {#ens-iii-s1-n11-exa-2 .statement tag=03TT}
 
@@ -530,7 +530,7 @@ The set of topologies on a set A, ordered by the relation “$\mathscr{T}$ is co
 
 #### Example 4 {#ens-iii-s1-n11-exa-4 .statement tag=03TV}
 
-The set $\mathscr{F}(I,\mathbf{R})$ of all real-valued functions defined on an interval I of $\mathbf{R}$ is a lattice with respect to the order relation $f\leqslant g$ (no. 4), and as such is isomorphic to the product $\mathbf{R}^{I}$. \*
+The set $\mathfrak{F}(I,\mathbf{R})$ of all real-valued functions defined on an interval I of $\mathbf{R}$ is a lattice with respect to the order relation $f\leqslant g$ (no. 4), and as such is isomorphic to the product $\mathbf{R}^{I}$. \*
 
 #### Remark {#ens-iii-s1-n11-rem-1 .statement tag=03JQ}
 
@@ -558,7 +558,7 @@ Let E be an arbitrary ordered set. The empty subset of E is totally ordered, and
 
 #### Example 3 {#ens-iii-s1-n12-exa-3 .statement tag=03TX}
 
-The set $\mathbf{R}$ of real numbers is totally ordered. \*
+\* The set $\mathbf{R}$ of real numbers is totally ordered. \*
 
 #### Example 4 {#ens-iii-s1-n12-exa-4 .statement tag=03TY}
 

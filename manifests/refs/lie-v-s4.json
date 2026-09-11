@@ -41,8 +41,6 @@
 {"from":"","from_label":"lie-v-s4-prop-11","to_label":"lie-v-s3-prop-3","kind":"cites","raw":"§ 3, Prop. 3","form":"section","resolved_by":"section-no","file":"content/en/lie/V/04_s4_the_geometric_representation_of_a.md","line":565},
 {"from":"","from_label":"lie-v-s4-prop-11","to_label":"lie-v-s3-prop-8","kind":"cites","raw":"§ 3, no. 9, Prop. 8","form":"section","resolved_by":"section-no","file":"content/en/lie/V/04_s4_the_geometric_representation_of_a.md","line":565},
 {"from":"","from_label":"lie-v-s4-ex-1","to_label":"lie-viii-s6","kind":"cites","raw":"Chap. VIII, § 6, no. 2","form":"section","resolved_by":"section","file":"content/en/lie/V/exercises/s4/01.md","line":13},
-{"from":"","from_label":"lie-v-s4-ex-2","to_label":"lie-iv-s1-ex-15","kind":"cites","raw":"Chap. IV, § 1, Exerc. 15","form":"section","resolved_by":"exercise","file":"content/en/lie/V/exercises/s4/02.md","line":13},
-{"from":"","from_label":"lie-v-s4-ex-2","to_label":"lie-iv-s1-ex-16","kind":"cites","raw":"Chap. IV, § 1, Exerc. 16","form":"section","resolved_by":"exercise","file":"content/en/lie/V/exercises/s4/02.md","line":13},
 {"from":"","from_label":"lie-v-s4-ex-3","to_label":"lie-v-s4-ex-2","kind":"cites","raw":"Exerc. 2","form":"local","resolved_by":"exercise","file":"content/en/lie/V/exercises/s4/03.md","line":17},
 {"from":"","from_label":"lie-v-s4-ex-3","to_label":"lie-v-s4-ex-2","kind":"cites","raw":"Exerc. 2","form":"local","resolved_by":"exercise","file":"content/en/lie/V/exercises/s4/03.md","line":19},
 {"from":"","from_label":"lie-v-s4-ex-4","kind":"cites","raw":"Algebra, Chap. IX, § 7, no. 2","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/lie/V/exercises/s4/04.md","line":19},

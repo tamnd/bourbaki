@@ -69,7 +69,7 @@ subsections:
       pdf_page: 234
 statements: 46
 exercises: 33
-content_sha256: 3d17c966d69171e8d653683de206a3ba30cca6eb8de3f8fd0cd8b5105dcf851c
+content_sha256: e1ee01b7a6f9e8d296dfada69017677bfc6171362b35b5f32512bb9b7a1e92c0
 ---
 
 ## § 3. DISTRIBUTIONS ET DISTRIBUTIONS TEMPÉRÉES
@@ -716,9 +716,9 @@ b) La suite $(\varphi_m)$ converge vers $\varphi$ dans $\mathscr{C}^{\infty}(\ma
 
 #### Remarque {#ts-iv-s3-n7-rem-2 .statement tag=0311}
 
-Une suite $(\varphi_m)$ dans $\mathscr{C}^{\infty}(\mathbf{R}^n)$ converge si et seulement si, pour tout $\alpha \in \mathbf{N}^n$, la suite $(\partial^{\alpha}\varphi_m)$ converge vers une fonction $\varphi^{(\alpha)}$ dans $\mathscr{C}(\mathbf{R}^n)$ muni de la topologie de la convergence compacte. On a alors $\varphi^{(\alpha)}=\partial^{\alpha}\varphi$ et $(\varphi_m)$ converge vers $\varphi$[^0].
+Une suite $(\varphi_m)$ dans $\mathscr{C}^{\infty}(\mathbf{R}^n)$ converge si et seulement si, pour tout $\alpha \in \mathbf{N}^n$, la suite $(\partial^{\alpha}\varphi_m)$ converge vers une fonction $\varphi^{(\alpha)}$ dans $\mathscr{C}(\mathbf{R}^n)$ muni de la topologie de la convergence compacte. On a alors $\varphi^{(\alpha)}=\partial^{\alpha}\varphi$ et $(\varphi_m)$ converge vers $\varphi^{(0)}$.
 
-En effet, la condition est nécessaire. Réciproquement, si les suites $(\partial^{\alpha}\varphi_m)$ convergent vers des fonctions $\varphi^{(\alpha)}$ pour tout $\alpha \in \mathbf{N}^n$, alors il résulte de FVR, II, p. 2, th. 1, que $\varphi^{(\alpha)}=\partial^{\alpha}\varphi$[^0], ce qui signifie que la suite $(\varphi_m)$ converge vers $\varphi$[^0] dans $\mathscr{C}^{\infty}(\mathbf{R}^n)$.
+En effet, la condition est nécessaire. Réciproquement, si les suites $(\partial^{\alpha}\varphi_m)$ convergent vers des fonctions $\varphi^{(\alpha)}$ pour tout $\alpha \in \mathbf{N}^n$, alors il résulte de FVR, II, p. 2, th. 1, que $\varphi^{(\alpha)}=\partial^{\alpha}\varphi^{(0)}$, ce qui signifie que la suite $(\varphi_m)$ converge vers $\varphi^{(0)}$ dans $\mathscr{C}^{\infty}(\mathbf{R}^n)$.
 
 #### Proposition 11 {#ts-iv-s3-prop-11 .statement tag=0312}
 

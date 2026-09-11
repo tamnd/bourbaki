@@ -39,9 +39,9 @@ subsections:
       title: Bases de transcendance séparantes
       page: 130
       pdf_page: 234
-statements: 32
+statements: 33
 exercises: 9
-content_sha256: 8c96df76cc5f350ae1749bb04c7403359f523c8f87e6fa7774f191624139d5af
+content_sha256: 24bef2fb88c76b05fffbba9ea5ecdefa6b82d964fc8b6a9549b0bcd31289dacd
 ---
 
 ## § 16. CRITÈRES DIFFÉRENTIELS DE SÉPARABILITÉ
@@ -158,7 +158,10 @@ $$
 #### Remarque 1 {#alg-v-s16-n2-rem-1 .statement}
 
 Nous démontrerons plus loin (V, p. 125, cor. 3 et p. 129, cor. 2) une réciproque au cor. 1 de la prop. 4.
-2) Toute extension algébrique d’un corps premier est séparable (V, p. 36, cor.). Comme toute dérivation d’un corps premier est nulle, toute dérivation d’une extension algébrique d’un corps premier est nulle (prop. 4).
+
+#### Remarque 2 {#alg-v-s16-n2-rem-2 .statement}
+
+Toute extension algébrique d’un corps premier est séparable (V, p. 36, cor.). Comme toute dérivation d’un corps premier est nulle, toute dérivation d’une extension algébrique d’un corps premier est nulle (prop. 4).
 
 ### 3. Dérivations dans les corps de caractéristique 0
 

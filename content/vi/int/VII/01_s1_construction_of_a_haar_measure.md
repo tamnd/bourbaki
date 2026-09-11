@@ -245,7 +245,7 @@ $$
 
 Nếu xem nhóm $G^0$ đối của G tác động trên X bởi $(x,s) \mapsto xs$, thì $\mu$ là tương đối bất biến dưới $G^0$ với cùng nhân tử $\chi$.
 
-Cuối cùng, cho G là một nhóm locally compact. Nó tác động lên chính nó bởi các phép tịnh tiến trái và phải, theo các công thức $\gamma(s)x = sx$, $\delta(s)x = xs^{-1}$. Khi đó
+Cuối cùng, cho G là một nhóm địa phương compact. Nó tác động lên chính nó bởi các phép tịnh tiến trái và phải, theo các công thức $\gamma(s)x = sx$, $\delta(s)x = xs^{-1}$. Khi đó
 
 $$
 (11) \quad \gamma(s)\delta(t) = \delta(t)\gamma(s).
@@ -287,11 +287,11 @@ $$
 
 #### Định nghĩa 2 {#int-vii-s1-def-2 .statement}
 
-*Cho G là một nhóm locally compact. Một độ đo dương khác không trên G mà bất biến trái (resp. phải) được gọi là một độ đo Haar trái (resp. phải) trên G.*
+*Cho G là một nhóm địa phương compact. Một độ đo dương khác không trên G mà bất biến trái (resp. phải) được gọi là một độ đo Haar trái (resp. phải) trên G.*
 
 #### Định lý 1 {#int-vii-s1-thm-1 .statement}
 
-*Trên mọi nhóm locally compact, tồn tại một độ đo Haar trái (resp. phải), và, cho đến một thừa số hằng, chỉ có một.*
+*Trên mọi nhóm địa phương compact, tồn tại một độ đo Haar trái (resp. phải), và, cho đến một thừa số hằng, chỉ có một.*
 
 A) *Tồn tại.* — Đặt $\mathcal{K}(G) = \mathcal{K}$, $\mathcal{K}_+(G) = \mathcal{K}_+$, $\mathcal{K}_+^* = \mathcal{K}_+ - \{0\}$. Nếu C là một tập con compact của G, ta ký hiệu bởi $\mathcal{K}_+^*(C)$ tập các $f \in \mathcal{K}_+^*$ có giá đỡ trong C. Với $f \in \mathcal{K}$ và $g \in \mathcal{K}_+^*$, tồn tại các số $c_1, \ldots, c_n \geq 0$ và các phần tử $s_1, \ldots, s_n$ của G sao cho $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$: quả vậy, tồn tại một tập mở khác rỗng U trong G sao cho $\inf_{s \in U} g(s) > 0$, và giá đỡ của $f$ có thể được phủ bởi một số hữu hạn các ảnh tịnh tiến trái của U. Cho $(f : g)$ là cận dưới đúng của các số $\sum_{i=1}^n c_i$ đối với mọi hệ $(c_1, \ldots, c_n, s_1, \ldots, s_n)$ các số $\geq 0$ và các phần tử của G sao cho $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$. Khi đó:
 
@@ -720,7 +720,7 @@ Người ta nói rằng $\alpha$ *được suy ra từ* $\alpha'$ *nhờ đẳng
 
 #### Mệnh đề 10 {#int-vii-s1-prop-10 .statement}
 
-*Cho $G$ là một nhóm locally compact, $\mu$ là một độ đo trái bất biến tương đối trên $G$ với nhân tử $\chi$. Nếu $\chi_1$ là một biểu diễn liên tục của $G$ trong $\mathbf{C}^*$, thì độ đo $\chi_1 \cdot \mu$ là trái bất biến tương đối với nhân tử $\chi_1 \chi$.*
+*Cho $G$ là một nhóm địa phương compact, $\mu$ là một độ đo trái bất biến tương đối trên $G$ với nhân tử $\chi$. Nếu $\chi_1$ là một biểu diễn liên tục của $G$ trong $\mathbf{C}^*$, thì độ đo $\chi_1 \cdot \mu$ là trái bất biến tương đối với nhân tử $\chi_1 \chi$.*
 
 Vì,
 

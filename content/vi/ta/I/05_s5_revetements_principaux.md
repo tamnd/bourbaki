@@ -197,7 +197,7 @@ Nhờ các phép tịnh tiến trái, mỗi điểm của $G/H$ có một lân c
 
 #### Nhận xét 2 {#ta-i-s5-n1-rem-2 .statement tag=01QJ}
 
-Tình huống này xuất hiện đặc biệt khi G là một nhóm Lie thực, có số chiều hữu hạn, đếm được ở vô cực, tác động bắc cầu và giải tích trên một đa tạp giải tích X. Nếu lấy H là nhóm ổn định của một điểm của X, thì ánh xạ $p$ là một phép chìm từ G lên không gian Lie thuần nhất $G/H$, đẳng cấu với X (LIE, III, p. 109, corollary). Do đó nó có các tiết diện địa phương (VAR, p. 50).
+Tình huống này xuất hiện đặc biệt khi G là một nhóm Lie thực, có số chiều hữu hạn, đếm được ở vô cực, tác động bắc cầu và giải tích trên một đa tạp giải tích X. Nếu lấy H là nhóm ổn định của một điểm của X, thì ánh xạ $p$ là một phép chìm từ G lên không gian Lie thuần nhất $G/H$, đẳng cấu với X (LIE, III, p. 109, hệ quả). Do đó nó có các tiết diện địa phương (VAR, p. 50).
 
 ### 2. Phủ chính
 
@@ -295,7 +295,7 @@ Cho G và $G'$ là các nhóm tôpô và cho $\varphi : G\rightarrow G'$ là m�
 
 #### Nhận xét 3 {#ta-i-s5-n3-rem-3 .statement tag=01QY}
 
-Cho G là một nhóm địa phương compact, đếm được ở vô cùng, và cho $G'$ là một nhóm tôpô tách được mà không gian nền là một không gian Baire. Mọi đồng cấu liên tục toàn ánh từ G vào $G'$ đều là mở (TG, IX, p. 56, corollary and TG, III, p. 16, prop. 24).
+Cho G là một nhóm địa phương compact, đếm được ở vô cùng, và cho $G'$ là một nhóm tôpô tách được mà không gian nền là một không gian Baire. Mọi đồng cấu liên tục toàn ánh từ G vào $G'$ đều là mở (TG, IX, p. 56, hệ quả and TG, III, p. 16, mệnh đề 24).
 
 #### Ví dụ 5 {#ta-i-s5-n3-exa-5 .statement tag=01QZ}
 
@@ -303,7 +303,7 @@ Với mọi số nguyên $n >$ 0, ký hiệu bởi $\mu_n$ nhóm các căn bậc
 
 #### Ví dụ 6 {#ta-i-s5-n3-exa-6 .statement tag=01R0}
 
-Được trang bị ánh xạ $z\mapsto e^{2\pi iz}$ (TG, VIII, p. 8, remark), không gian $\mathbf{C}$ là một phủ chính của $\mathbf{C}^*$ với nhóm $\mathbf{Z}$. Ánh xạ $x\mapsto e^{2\pi ix}=\mathbf{e}(x)$ từ $\mathbf{R}$ lên $\mathbf{S}_1$ trang bị cho $\mathbf{R}$ một phủ chính của $\mathbf{S}_1$ với nhóm $\mathbf{Z}$.
+Được trang bị ánh xạ $z\mapsto e^{2\pi iz}$ (TG, VIII, p. 8, nhận xét), không gian $\mathbf{C}$ là một phủ chính của $\mathbf{C}^*$ với nhóm $\mathbf{Z}$. Ánh xạ $x\mapsto e^{2\pi ix}=\mathbf{e}(x)$ từ $\mathbf{R}$ lên $\mathbf{S}_1$ trang bị cho $\mathbf{R}$ một phủ chính của $\mathbf{S}_1$ với nhóm $\mathbf{Z}$.
 
 ### 4. Các phủ Galois
 
@@ -317,7 +317,7 @@ Cho E là một phủ Galois của một không gian tôpô B và cho $p$ là ph
 
 Cho B là một không gian tôpô khác rỗng và cho E là một phủ Galois của B. Ánh xạ $(h, x)\mapsto h(x)$ từ Aut$_B(E)\times E$ vào E là một luật phép toán phải của nhóm Aut$_B(E)^{\circ}$ trên E, luật này trang bị cho E một phủ chính với nhóm Aut$_B(E)^{\circ}$.
 
-Ta trang bị cho nhóm Aut$_B(E)^{\circ}$ tôpô rời rạc; khi đó luật phép toán $(h, x)\mapsto h(x)$ là liên tục. Phép toán này là tự do (I, p. 34, Corollary 2 of Proposition 11). Vì E là một phủ Galois của B, các thớ của nó là các quỹ đạo của phép toán này. Theo Proposition 4 of I, p. 97, E là một phủ chính với nhóm Aut$_B(E)^{\circ}$.
+Ta trang bị cho nhóm Aut$_B(E)^{\circ}$ tôpô rời rạc; khi đó luật phép toán $(h, x)\mapsto h(x)$ là liên tục. Phép toán này là tự do (I, p. 34, hệ quả 2 of mệnh đề 11). Vì E là một phủ Galois của B, các thớ của nó là các quỹ đạo của phép toán này. Theo mệnh đề 4 of I, p. 97, E là một phủ chính với nhóm Aut$_B(E)^{\circ}$.
 
 #### Định lý 2 {#ta-i-s5-thm-2 .statement tag=01R3}
 

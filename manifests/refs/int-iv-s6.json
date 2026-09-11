@@ -43,7 +43,7 @@
 {"from":"","from_label":"int-iv-s6-prop-6","to_label":"int-iv-s1","kind":"cites","raw":"§ 1, No. 1","form":"section","resolved_by":"section","file":"content/en/int/IV/06_s6_convexity_inequalities.md","line":408},
 {"from":"","from_label":"int-iv-s6-prop-6","kind":"cites","raw":"FRV, I, § 4, No. 3, Prop. 5","form":"section","resolved_by":"out-of-corpus","book":"FVR","chapter":"I","file":"content/en/int/IV/06_s6_convexity_inequalities.md","line":414},
 {"from":"","from_label":"int-iv-s6-ex-2","to_label":"int-iv-s5-thm-4","kind":"cites","raw":"Th. 4 of §5","form":"section","resolved_by":"section-no","file":"content/en/int/IV/exercises/s6/02.md","line":20},
-{"from":"","from_label":"int-iv-s6-ex-3","to_label":"int-ii-s1","kind":"cites","raw":"II, §1","form":"section","resolved_by":"section","file":"content/en/int/IV/exercises/s6/03.md","line":16},
+{"from":"","from_label":"int-iv-s6-ex-3","to_label":"int-ii-s1","kind":"cites","raw":"II, §1","form":"section","resolved_by":"section","file":"content/en/int/IV/exercises/s6/03.md","line":14},
 {"from":"","from_label":"int-iv-s6-ex-4","to_label":"int-iv-s6-prop-1","kind":"cites","raw":"Prop. 1","form":"local","resolved_by":"in-section","file":"content/en/int/IV/exercises/s6/04.md","line":14},
 {"from":"","from_label":"int-iv-s6-ex-7","to_label":"int-iv-s6-prop-4","kind":"cites","raw":"Prop. 4","form":"local","resolved_by":"in-section","file":"content/en/int/IV/exercises/s6/07.md","line":16},
 {"from":"","from_label":"int-iv-s6-ex-15","to_label":"int-v-s2","kind":"cites","raw":"V, §2","form":"section","resolved_by":"section","file":"content/en/int/IV/exercises/s6/15.md","line":14},

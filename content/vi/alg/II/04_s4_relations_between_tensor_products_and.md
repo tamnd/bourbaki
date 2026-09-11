@@ -243,7 +243,7 @@ Chúng được chứng minh như các Bổ đề 1 và 2, có tính đến § 1
 
 Phần còn lại của chứng minh được tiến hành như trong (i) và quy về trường hợp $E = A_s$; khi đó hai vế của (7) được đồng nhất một cách chính tắc với $G \otimes_B F$ và $\nu$ trở thành ánh xạ đồng nhất.
 
-Đặc biệt, lấy $B = A$ và $G$ là $(A, A)$-song môđun ${}_sA_d$ ($§ 3$, no. 4), nên A-môđun phải $\mathrm{Hom}_A(E, {}_sA_d)$ chỉ là đối ngẫu $E^*$ của $E$ và $({}_sA_d) \otimes_A F$ được đồng nhất một cách chính tắc với $F$ ($§ 3$, no. 4, Mệnh đề 4). Đồng cấu (7) khi đó trở thành một đồng cấu chính tắc $\mathbf{Z}$-homomorphism
+Đặc biệt, lấy $B = A$ và $G$ là $(A, A)$-song môđun ${}_sA_d$ ($§ 3$, no. 4), nên A-môđun phải $\mathrm{Hom}_A(E, {}_sA_d)$ chỉ là đối ngẫu $E^*$ của $E$ và $({}_sA_d) \otimes_A F$ được đồng nhất một cách chính tắc với $F$ ($§ 3$, no. 4, Mệnh đề 4). Đồng cấu (7) khi đó trở thành một đồng cấu chính tắc $\mathbf{Z}$
 
 $$(11)$$
 $$
@@ -287,7 +287,7 @@ $$
 \theta_E(x^* \otimes x) \circ \theta_E(y^* \otimes y) = \theta_E((y^* \langle y, x^* \rangle) \otimes x).
 $$
 
-*Nhận xét* (2). Cho $E$ là một *A-môđun phải*; thay thế $E$ bằng $E^*$ trong (11), ta thu được một đồng cấu chính tắc $\mathbf{Z}$-homomorphism
+*Nhận xét* (2). Cho $E$ là một *A-môđun phải*; thay thế $E$ bằng $E^*$ trong (11), ta thu được một đồng cấu chính tắc $\mathbf{Z}$
 
 $$
 E^{**} \otimes_A F \to \mathrm{Hom}_A(E^*, F).

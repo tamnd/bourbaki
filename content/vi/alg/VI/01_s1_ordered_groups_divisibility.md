@@ -363,7 +363,7 @@ x - y' = y - x'
 $$
 nhỏ hơn $x$ và nhỏ hơn $y$, suy ra $b = x - a$ và $c = y - a$ là dương, cũng như $d = a - (x - y')$. Ta cũng có
 $$
-x = a + b, \quad x' = c + d, \quad y = a + c \quad \text{and} \quad y' = b + d .
+x = a + b, \quad x' = c + d, \quad y = a + c \quad \text{và} \quad y' = b + d .
 $$
 
 2) Bây giờ ta hãy chứng minh rằng nếu định lý đúng với $p < m$ và $q = n$ ($m > 2,\ n \geq 2$) thì nó đúng với $p = m$ và $q = n$. Theo giả thiết ta có $x, + \sum_{i=1}^{m-1} x_i = \sum_{j=1}^n y_j$. Vì định lý đúng với $p = 2$ và $q = n$, nên tồn tại hai dãy hữu hạn $(z_j'), (z_j'')$ gồm $n$ số hạng dương sao cho $\sum_{i=1}^{m-1} x_i = \sum_{j=1}^n z_j'$, $x_m = \sum_{j=1}^n z_j''$, và $y_j = z_j' + z_j''$ với $1 \leq j \leq n$. Mặt khác, vì định lý đúng với $p = m - 1$ và $q = n$, nên tồn tại một dãy kép $(u_{ij})_{1 \leq i \leq m-1, 1 \leq j \leq n}$ sao cho $x_i = \sum_{j=1}^n u_{ij}$ với $1 \leq i \leq m - 1$, và $z_j' = \sum_{i=1}^{m-1} u_{ij}$ với $1 \leq j \leq n$. Đặt

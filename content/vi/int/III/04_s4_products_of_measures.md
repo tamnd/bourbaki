@@ -480,7 +480,7 @@ với mọi $\alpha \in I$.
 
 (iii) Giả sử các $p_{\alpha \beta}$ là toàn ánh; khi đó người ta biết rằng các $p_\alpha$ cũng có tính chất ấy (GT, I, §9, No. 6, Prop. 8). Xét một hệ ngược các độ đo $(\mu_\alpha)$ và trước hết ta sẽ chứng minh rằng tồn tại một dạng tuyến tính $\lambda$ *trên* F (theo các ký hiệu của Bổ đề 3) sao cho, với mọi $\alpha \in I$ và mọi $f_\alpha \in \mathcal{C}(X_\alpha; \mathbf{C})$, $\lambda(f_\alpha \circ p_\alpha) = \mu_\alpha(f_\alpha)$. Muốn vậy, cho $\beta, \gamma$ là hai chỉ số trong I, và $f_\beta \in \mathcal{C}(X_\beta; \mathbf{C})$, $f_\gamma \in \mathcal{C}(X_\gamma; \mathbf{C})$ là hai hàm sao cho $f_\beta \circ p_\beta = f_\gamma \circ p_\gamma$; khi đó tồn tại một chỉ số $\alpha \in I$ sao cho $\alpha \geq \beta$ và $\alpha \geq \gamma$, do đó
 $$
-p_\beta = p_{\beta \alpha} \circ p_\alpha ,\ p_\gamma = p_{\gamma \alpha} \circ p_\alpha \quad \text{and} \quad (f_\beta \circ p_{\beta \alpha}) \circ p_\alpha = (f_\gamma \circ p_{\gamma \alpha}) \circ p_\alpha ;
+p_\beta = p_{\beta \alpha} \circ p_\alpha ,\ p_\gamma = p_{\gamma \alpha} \circ p_\alpha \quad \text{và} \quad (f_\beta \circ p_{\beta \alpha}) \circ p_\alpha = (f_\gamma \circ p_{\gamma \alpha}) \circ p_\alpha ;
 $$
 
 vì $p_\alpha$ là toàn ánh, điều này kéo theo $f_\beta \circ p_{\beta \alpha} = f_\gamma \circ p_{\gamma \alpha}$, do đó

@@ -131,6 +131,7 @@
 {"from":"","from_label":"ac-v-s2-ex-14","to_label":"ac-v-s1-ex-5","kind":"cites","raw":"Exercise 5 of § 1","form":"section","resolved_by":"exercise","file":"content/en/ac/V/exercises/s2/14.md","line":16},
 {"from":"","from_label":"ac-v-s2-ex-16","to_label":"ac-v-s2-ex-15","kind":"cites","raw":"Exercise 15","form":"local","resolved_by":"exercise","file":"content/en/ac/V/exercises/s2/16.md","line":14},
 {"from":"","from_label":"ac-v-s2-ex-17","to_label":"alg-v-s7-prop-12","kind":"cites","raw":"Algebra, Chapter V, § 7, no. 7, Proposition 12","form":"section","resolved_by":"section-no","file":"content/en/ac/V/exercises/s2/17.md","line":14},
+{"from":"","from_label":"ac-v-s2-ex-17","to_label":"ac-iv-s2-ex-32","kind":"cites","raw":"Chapter IV, § 2, Exercise 32","form":"section","resolved_by":"exercise","file":"content/en/ac/V/exercises/s2/17.md","line":16},
 {"from":"","from_label":"ac-v-s2-ex-18","kind":"cites","raw":"*Algebra*, Chapter IX, § 2","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/ac/V/exercises/s2/18.md","line":14},
 {"from":"","from_label":"ac-v-s2-ex-18","to_label":"ac-v-s2-ex-17","kind":"cites","raw":"Exercise 17","form":"local","resolved_by":"exercise","file":"content/en/ac/V/exercises/s2/18.md","line":18},
 {"from":"","from_label":"ac-v-s2-ex-18","to_label":"ac-ii-s3-prop-4-cor-2","kind":"cites","raw":"Chapter II, § 3, no. 2, Corollary 2 to Proposition 4","form":"attached","resolved_by":"parent-label","file":"content/en/ac/V/exercises/s2/18.md","line":22},
@@ -140,5 +141,6 @@
 {"from":"","from_label":"ac-v-s2-ex-18","to_label":"ac-v-s2-ex-16","kind":"cites","raw":"Exercise 16","form":"local","resolved_by":"exercise","file":"content/en/ac/V/exercises/s2/18.md","line":28},
 {"from":"","from_label":"ac-v-s2-ex-19","to_label":"ac-v-s2-ex-18","kind":"cites","raw":"Exercise 18","form":"local","resolved_by":"exercise","file":"content/en/ac/V/exercises/s2/19.md","line":16},
 {"from":"","from_label":"ac-v-s2-ex-19","to_label":"ac-v-s2-ex-9","kind":"cites","raw":"Exercise 9","form":"local","resolved_by":"exercise","file":"content/en/ac/V/exercises/s2/19.md","line":23},
-{"from":"","from_label":"ac-v-s2-ex-19","to_label":"ac-ii-s3-n4-cor-1","kind":"cites","raw":"Chapter II, § 3, no. 4, Corollary to Proposition 15","form":"attached","resolved_by":"parent-label","file":"content/en/ac/V/exercises/s2/19.md","line":25}
+{"from":"","from_label":"ac-v-s2-ex-19","to_label":"ac-ii-s3-n4-cor-1","kind":"cites","raw":"Chapter II, § 3, no. 4, Corollary to Proposition 15","form":"attached","resolved_by":"parent-label","file":"content/en/ac/V/exercises/s2/19.md","line":25},
+{"from":"","from_label":"ac-v-s2-ex-20","to_label":"ac-iii-s3-ex-15","kind":"cites","raw":"Chapter III, § 3, Exercise 15","form":"section","resolved_by":"exercise","file":"content/en/ac/V/exercises/s2/20.md","line":14}
 ]}

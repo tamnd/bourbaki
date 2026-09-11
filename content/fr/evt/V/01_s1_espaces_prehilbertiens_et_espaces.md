@@ -40,7 +40,7 @@ subsections:
       pdf_page: 277
 statements: 43
 exercises: 37
-content_sha256: bb074e6c7f23647fb246fe109975fa7e030f40a92ab2c8c232fef01e12fb7ce1
+content_sha256: 88ed7fa78df6c58b1d4a1f24ee532cfa29c82661af302faa7086380f0c5393bd
 ---
 
 ## § 1. ESPACES PRÉHILBERTIENS ET ESPACES HILBERTIENS
@@ -231,7 +231,7 @@ $$
 
 #### Exemple 4 {#evt-v-s1-n3-exa-4 .statement}
 
-Soit $\ell^2$ (ou $\ell^2(\mathbf{N})$) l’ensemble des suites $x = (x_n)_{n \in \mathbf{N}}$ d’éléments de $K$ telles que $\sum_{n=0}^\infty |x_n|^2$ soit fini. On montre que $\ell^2$ est un sous-espace vectoriel de $K^\mathbf{N}$ et l’on définit une structure d’espace préhilbertien sur $\ell^2$ au moyen de la forme hermitienne
+\* Soit $\ell^2$ (ou $\ell^2(\mathbf{N})$) l’ensemble des suites $x = (x_n)_{n \in \mathbf{N}}$ d’éléments de $K$ telles que $\sum_{n=0}^\infty |x_n|^2$ soit fini. On montre que $\ell^2$ est un sous-espace vectoriel de $K^\mathbf{N}$ et l’on définit une structure d’espace préhilbertien sur $\ell^2$ au moyen de la forme hermitienne
 
 $$
 (x, y) \mapsto \sum_{n=0}^\infty \overline{x_n} y_n \quad (cf.\ V, p.18).
@@ -297,7 +297,7 @@ Les espaces préhilbertiens définis dans les exemples 1, 3, 4 de V, p. 4, sont 
 
 #### Exemple 2 {#evt-v-s1-n4-exa-2 .statement}
 
-Soit X un espace topologique séparé et soit μ une mesure positive sur X. Notons L²(X, μ) l’espace formé des classes d’équivalence pour μ des fonctions de carré μ-intégrable sur X à valeurs dans C. C’est un espace hilbertien complexe, dont le produit scalaire est donné par
+\* Soit X un espace topologique séparé et soit μ une mesure positive sur X. Notons L²(X, μ) l’espace formé des classes d’équivalence pour μ des fonctions de carré μ-intégrable sur X à valeurs dans C. C’est un espace hilbertien complexe, dont le produit scalaire est donné par
 
 $$
 \langle f|g \rangle = \int_X \overline{f(x)}\ g(x)\ d\mu(x) .
@@ -305,7 +305,7 @@ $$
 
 #### Exemple 3 {#evt-v-s1-n4-exa-3 .statement}
 
-Soit n ≥ 1 un entier et soit U un ouvert de Rⁿ. On note μ la mesure sur U induite par la mesure de Lebesgue sur Rⁿ, et l’on pose $\mathcal{H}^0 = L^2(U, \mu)$. On note $\mathcal{H}^1$ l’espace des fonctions $f \in \mathcal{H}^0$ ayant la propriété suivante : pour $1 \leq i \leq n$, il existe une fonction $g_i \in \mathcal{H}^0$ telle que
+\* Soit n ≥ 1 un entier et soit U un ouvert de Rⁿ. On note μ la mesure sur U induite par la mesure de Lebesgue sur Rⁿ, et l’on pose $\mathcal{H}^0 = L^2(U, \mu)$. On note $\mathcal{H}^1$ l’espace des fonctions $f \in \mathcal{H}^0$ ayant la propriété suivante : pour $1 \leq i \leq n$, il existe une fonction $g_i \in \mathcal{H}^0$ telle que
 
 $$
 \int_U g_i(x)\ h(x)\ d\mu(x) = - \int_U f(x)\ D_i h(x)\ d\mu(x)
@@ -319,7 +319,7 @@ Alors $\mathcal{H}^s$ est un espace hilbertien complexe, qu’on appelle *espace
 
 #### Exemple 4 {#evt-v-s1-n4-exa-4 .statement}
 
-Soit $X$ une variété différentielle de classe $C^r$ (avec $r \geqslant 1$), pure de dimension finie $n$. Soit $L$ le complémentaire, dans le fibré vectoriel $\Lambda^n T(X)$, de l’image de la section nulle. Pour tout nombre réel $\lambda \neq 0$, l’application $u \mapsto \lambda u$ de $\Lambda^n T(X)$ dans lui-même laisse stable $L$.
+\* Soit $X$ une variété différentielle de classe $C^r$ (avec $r \geqslant 1$), pure de dimension finie $n$. Soit $L$ le complémentaire, dans le fibré vectoriel $\Lambda^n T(X)$, de l’image de la section nulle. Pour tout nombre réel $\lambda \neq 0$, l’application $u \mapsto \lambda u$ de $\Lambda^n T(X)$ dans lui-même laisse stable $L$.
 
 Soit $\alpha$ un nombre complexe. On appelle *densité d’ordre* $\alpha$ sur $X$ une fonction $\omega$ sur $L$, à valeurs complexes, telle que l’on ait $\omega(\lambda u) = |\lambda|^{\alpha} \omega(u)$ pour $u \in L$ et $\lambda$ réel non nul. On dit qu’une densité $\omega$ d’ordre 1 est *localement intégrable* s’il existe un recouvrement ouvert $(U_i)_{i \in I}$ de $X$, et pour chaque $i \in I$ un système de coordonnées $\xi_i = (\xi_i^1, \ldots, \xi_i^n)$ dans $U_i$ et une fonction $f_i$ à valeurs complexes sur $\xi_i(U_i)$ satisfaisant aux conditions suivantes :
 
@@ -334,7 +334,7 @@ Soit $\mathcal{V}$ (resp. $\mathcal{N}$) l’espace vectoriel des densités $\om
 
 #### Exemple 5 {#evt-v-s1-n4-exa-5 .statement}
 
-Soit $D$ le disque ouvert de centre 0 et rayon 1 dans $\mathbf{C}$. L’espace de Hardy $H^2(D)$ se compose des fonctions holomorphes $f : D \to \mathbf{C}$ pour lesquelles on a
+\* Soit $D$ le disque ouvert de centre 0 et rayon 1 dans $\mathbf{C}$. L’espace de Hardy $H^2(D)$ se compose des fonctions holomorphes $f : D \to \mathbf{C}$ pour lesquelles on a
 $$
 \sup_{0 < R < 1} \int_0^1 |f(R \cdot e(\theta))|^2 \, d\theta < + \infty .
 $$

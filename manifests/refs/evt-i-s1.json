@@ -40,7 +40,7 @@
 {"from":"","from_label":"evt-i-s1-ex-4","kind":"cites","raw":"IX, § 5","form":"section","resolved_by":"out-of-corpus","chapter":"IX","file":"content/en/evt/I/exercises/s1/04.md","line":13},
 {"from":"","from_label":"evt-i-s1-ex-5","to_label":"evt-ii-s2","kind":"cites","raw":"II, § 2","form":"section","resolved_by":"section","file":"content/en/evt/I/exercises/s1/05.md","line":16},
 {"from":"","from_label":"evt-i-s1-ex-6","kind":"cites","raw":"IX, § 3","form":"section","resolved_by":"out-of-corpus","chapter":"IX","file":"content/en/evt/I/exercises/s1/06.md","line":14},
-{"from":"","from_label":"evt-i-s1-ex-7","kind":"cites","raw":"X, § 3","form":"section","resolved_by":"out-of-corpus","chapter":"X","file":"content/en/evt/I/exercises/s1/07.md","line":25},
+{"from":"","from_label":"evt-i-s1-ex-7","kind":"cites","raw":"X, § 3","form":"section","resolved_by":"out-of-corpus","chapter":"X","file":"content/en/evt/I/exercises/s1/07.md","line":23},
 {"from":"","from_label":"evt-i-s1-ex-12","to_label":"evt-iv-s5","kind":"cites","raw":"IV, p. 36","form":"page","resolved_by":"section","file":"content/en/evt/I/exercises/s1/12.md","line":14},
 {"from":"","from_label":"evt-i-s1-ex-14","to_label":"evt-iii-s2","kind":"cites","raw":"III, § 2","form":"section","resolved_by":"section","file":"content/en/evt/I/exercises/s1/14.md","line":14},
 {"from":"","from_label":"evt-i-s1-ex-14","to_label":"evt-iii-s3","kind":"cites","raw":"III, § 3","form":"section","resolved_by":"section","file":"content/en/evt/I/exercises/s1/14.md","line":14},

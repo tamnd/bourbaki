@@ -7,8 +7,8 @@ section: 9
 section_title: Complexes de Koszul
 lang: fr
 source: alg-x-fr
-book_pages: A X.147-A X.168, A X.206-A X.216
-pdf_pages: 0153-0174, 0212-0222
+book_pages: A X.147-A X.168, A X.206-A X.209
+pdf_pages: 0153-0174, 0212-0215
 extraction: ocr
 subsections:
     - "no": 1

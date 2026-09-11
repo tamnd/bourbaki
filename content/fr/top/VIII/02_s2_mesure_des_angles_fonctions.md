@@ -37,7 +37,7 @@ subsections:
       pdf_page: 100
 statements: 5
 exercises: 4
-content_sha256: d20f42abcdd6aa338f831ed79ea60bd046d59840ad2df717ec1bef6f2d64d5ea
+content_sha256: d98ba316df1d23a63a644d35fecf0dabb50b2e743b354e28db09fd638b7d7753
 ---
 
 ## § 2. MESURE DES ANGLES; FONCTIONS TRIGONOMÉTRIQUES
@@ -88,7 +88,7 @@ L’application $x + iy \mapsto e^x \mathbf{e}(y)$ est un morphisme strict du gr
 
 Le corps $\mathbf{R}$ étant ordonné, nous orienterons le plan numérique $\mathbf{R}^2$ en prenant $\mathbf{e}_1 \wedge \mathbf{e}_2$ comme bivecteur positif ($\mathbf{e}_1, \mathbf{e}_2$ étant les vecteurs de la base canonique);
 
-dans le plan numérique orienté $\mathbf{R}^2$ (identifié à $\mathbf{C}$ dans ce qui suit), on peut alors définir l’angle $(\Delta_1, \Delta_2)$ d’un couple quelconque $(\Delta_1, \Delta_2)$ de demi-droites.$^1$ L’ensemble $\mathcal{A}$ des angles de demi-droites est muni d’une structure de groupe commutatif (noté additivement), définie par
+dans le plan numérique orienté $\mathbf{R}^2$ (identifié à $\mathbf{C}$ dans ce qui suit), on peut alors définir l’angle $(\Delta_1, \Delta_2)$ d’un couple quelconque $(\Delta_1, \Delta_2)$ de demi-droites.[^1] L’ensemble $\mathcal{A}$ des angles de demi-droites est muni d’une structure de groupe commutatif (noté additivement), définie par
 
 $$
 (\Delta_1, \Delta_3) = (\Delta_1, \Delta_2) + (\Delta_2, \Delta_3),
@@ -121,8 +121,6 @@ $$
 $$
 
 Par définition, la tangente $\mathrm{tg}(\theta)$ d’un angle $\theta \in \mathcal{A}$ est l’élément de $\tilde{\mathbf{R}}$, qui vaut $\sin \theta / \cos \theta$ lorsque $\theta \neq \delta$ et $\theta \neq -\delta$, et vaut $\infty$ lorsque $\theta = \delta$ ou $\theta = -\delta$.
-
-\footnotetext{1 Rappelons (A, IX, § 10, n° 3) qu’on définit, dans l’ensemble des couples $(\Delta_1, \Delta_2)$ de demi-droites d’origine 0, une relation d’équivalence, en considérant deux couples $(\Delta_1, \Delta_2)$ et $(\Delta'_1, \Delta'_2)$ comme équivalents s’il existe une même rotation qui transforme $\Delta_1$ en $\Delta'_1$ et $\Delta_2$ en $\Delta'_2$; l’angle du couple $(\Delta_1, \Delta_2)$ (ou angle que fait $\Delta_2$ avec $\Delta_1$) est par définition la classe d’équivalence de ce couple.}
 
 La fonction tg est une application continue de $\mathfrak{A}$ dans $\tilde{\mathbf{R}}$; on a $\operatorname{tg}(\theta + \overline{\omega}) = \operatorname{tg} \theta$. On appelle cotangente de $\theta$, et on note cotg $\theta$, l’élément de $\tilde{\mathbf{R}}$ égal à $1/\operatorname{tg} \theta$.
 
@@ -260,3 +258,5 @@ qui sont des identités entre fonctions continues sur $\mathfrak{A}_0$ à valeur
 ## EXERCICES {#top-viii-s2-exercises}
 
 See the [exercises for § 2](exercises/s2/).
+
+[^1]: Rappelons (A, IX, § 10, n° 3) qu’on définit, dans l’ensemble des couples $(\Delta_1, \Delta_2)$ de demi-droites d’origine 0, une relation d’équivalence, en considérant deux couples $(\Delta_1, \Delta_2)$ et $(\Delta'_1, \Delta'_2)$ comme équivalents s’il existe une même rotation qui transforme $\Delta_1$ en $\Delta'_1$ et $\Delta_2$ en $\Delta'_2$; l’angle du couple $(\Delta_1, \Delta_2)$ (ou angle que fait $\Delta_2$ avec $\Delta_1$) est par définition la classe d’équivalence de ce couple.

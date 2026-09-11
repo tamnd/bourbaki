@@ -52,7 +52,7 @@ errata:
     - says: Corollary 2 to Proposition 5
       read: Corollary 2 to Proposition 6
       why: The same reference as the two above, written the other way round on page 109, and wrong the same way.
-content_sha256: 6393d275988966957f40f77915a91adb15df38100389f3da1b06130ef11ecd50
+content_sha256: 0301ddc64f4634b2f737e77987e840c82975f71ef423fb30f170e6510997d48c
 ---
 
 ## 5. PRODUCT OF A FAMILY OF SETS
@@ -73,13 +73,13 @@ This axiom means that for every set X there exists a set whose elements are all 
 
 (1) If $s$ is a section of $f$, then $f \circ s$ is the identity mapping of F, hence $\hat{f} \circ \hat{s}$ is the identity mapping of $\mathfrak{P}(\mathrm{F})$; therefore $\hat{f}$ is surjective and $\hat{s}$ is a section of $\hat{f}$ (§3, no. 8).
 
-(2) The proposition is obvious if $E = \varnothing$, because then $\mathscr{P}(E) = \{\varnothing\}$. If $E \ne \varnothing$ and if $r$ is a retraction of $f$, then $r \circ f$ is the identity mapping of $E$, so that $\hat{r} \circ \hat{f}$ is the identity mapping of $\mathscr{P}(E)$; therefore $\hat{f}$ is injective, and $\hat{r}$ is a retraction of $\hat{f}$ (§3, no. 8).
+(2) The proposition is obvious if $E = \varnothing$, because then $\mathfrak{P}(E) = \{\varnothing\}$. If $E \ne \varnothing$ and if $r$ is a retraction of $f$, then $r \circ f$ is the identity mapping of $E$, so that $\hat{r} \circ \hat{f}$ is the identity mapping of $\mathfrak{P}(E)$; therefore $\hat{f}$ is injective, and $\hat{r}$ is a retraction of $\hat{f}$ (§3, no. 8).
 
 ### 2. SET OF MAPPINGS OF ONE SET INTO ANOTHER
 
-Let $E$, $F$ be sets. The graph of a mapping of $E$ into $F$ is a subset of $E \times F$. The set of elements of $\mathscr{P}(E \times F)$ which have the property of being graphs of mappings of $E$ into $F$ is therefore a subset of $\mathscr{P}(E \times F)$, which is denoted by $F^E$. The set of triples $f = (G, E, F)$, where $G \in F^E$, is therefore the set of mappings of $E$ into $F$; it is denoted by $\mathscr{F}(E, F)$. Clearly $G \mapsto (G, E, F)$ is a bijection (called the canonical bijection) of $F^E$ onto $\mathscr{F}(E, F)$. The existence of this bijection allows us to translate immediately every proposition relating to the set $F^E$ into one relating to $\mathscr{F}(E, F)$, and vice versa.
+Let $E$, $F$ be sets. The graph of a mapping of $E$ into $F$ is a subset of $E \times F$. The set of elements of $\mathfrak{P}(E \times F)$ which have the property of being graphs of mappings of $E$ into $F$ is therefore a subset of $\mathfrak{P}(E \times F)$, which is denoted by $F^E$. The set of triples $f = (G, E, F)$, where $G \in F^E$, is therefore the set of mappings of $E$ into $F$; it is denoted by $\mathfrak{F}(E, F)$. Clearly $G \mapsto (G, E, F)$ is a bijection (called the canonical bijection) of $F^E$ onto $\mathfrak{F}(E, F)$. The existence of this bijection allows us to translate immediately every proposition relating to the set $F^E$ into one relating to $\mathfrak{F}(E, F)$, and vice versa.
 
-¶ Let $E$, $E'$, $F$, $F'$ be sets. Let $u$ be a mapping of $E'$ into $E$, and let $v$ be a mapping of $F$ into $F'$. Then the function $f \mapsto v \circ f \circ u$ is a mapping of $\mathscr{F}(E, F)$ into $\mathscr{F}(E', F')$.
+¶ Let $E$, $E'$, $F$, $F'$ be sets. Let $u$ be a mapping of $E'$ into $E$, and let $v$ be a mapping of $F$ into $F'$. Then the function $f \mapsto v \circ f \circ u$ is a mapping of $\mathfrak{F}(E, F)$ into $\mathfrak{F}(E', F')$.
 
 #### Proposition 2 {#ens-ii-s5-prop-2 .statement tag=03Q5}
 
@@ -103,13 +103,13 @@ is injective.
 
 *If $u$ is a bijection of $E'$ onto $E$ and $v$ is a bijection of $F$ onto $F'$, then $f \mapsto v \circ f \circ u$ is bijective.*
 
-Let $A$, $B$, $C$ be three sets and let $f$ be a mapping of $B \times C$ into $A$. For every $y \in C$ let $f(\mathord{\cdot}, y)$ be the partial mapping $x \mapsto f(x,y)$ of $B$ into $A$ (§ 3, no. 9); the function $y \mapsto f(\mathord{\cdot}, y)$ is a mapping of $C$ into $\mathscr{F}(B, A)$ exists a unique mapping $f$ of $\mathrm{B} \times \mathrm{C}$ into A such that $g(y) = f(\bullet, y)$ for each $y \in \mathrm{C}$, namely the mapping $(x, y) \to (g(y))(x)$. Hence :
+Let $A$, $B$, $C$ be three sets and let $f$ be a mapping of $B \times C$ into $A$. For every $y \in C$ let $f(\mathord{\cdot}, y)$ be the partial mapping $x \mapsto f(x,y)$ of $B$ into $A$ (§ 3, no. 9); the function $y \mapsto f(\mathord{\cdot}, y)$ is a mapping of $C$ into $\mathfrak{F}(B, A)$. Conversely, for every mapping $g$ of $C$ into $\mathfrak{F}(B, A)$ there exists a unique mapping $f$ of $\mathrm{B} \times \mathrm{C}$ into A such that $g(y) = f(\bullet, y)$ for each $y \in \mathrm{C}$, namely the mapping $(x, y) \to (g(y))(x)$. Hence :
 
 #### Proposition 3 {#ens-ii-s5-prop-3 .statement tag=03Q7}
 
-*If for every mapping $f$ of* $\mathrm{B} \times \mathrm{C}$ *into* A *we denote by $\tilde{f}$ the mapping $y \to f(\bullet, y)$ of* C *into* $\mathscr{F}(\mathrm{B}, \mathrm{A})$, *then the function $f \to \tilde{f}$ is a bijection* (called the *canonical bijection*) *of* $\mathscr{F}(\mathrm{B} \times \mathrm{C}, \mathrm{A})$ *onto* $\mathscr{F}(\mathrm{C}, \mathscr{F}(\mathrm{B}, \mathrm{A}))$.
+*If for every mapping $f$ of* $\mathrm{B} \times \mathrm{C}$ *into* A *we denote by $\tilde{f}$ the mapping $y \to f(\bullet, y)$ of* C *into* $\mathfrak{F}(\mathrm{B}, \mathrm{A})$, *then the function $f \to \tilde{f}$ is a bijection* (called the *canonical bijection*) *of* $\mathfrak{F}(\mathrm{B} \times \mathrm{C}, \mathrm{A})$ *onto* $\mathfrak{F}(\mathrm{C}, \mathfrak{F}(\mathrm{B}, \mathrm{A}))$.
 
-Similarly we define a *canonical bijection* of $\mathscr{F}(\mathrm{B} \times \mathrm{C}, \mathrm{A})$ onto $\mathscr{F}(\mathrm{B}, \mathscr{F}(\mathrm{C}, \mathrm{A}))$. By reason of the one-to-one correspondence between mappings and functional graphs, these bijections give rise to *canonical bijections* of $\mathrm{A}^{\mathrm{B} \times \mathrm{C}}$ onto $(\mathrm{A}^{\mathrm{B}})^{\mathrm{C}}$ (resp. $(\mathrm{A}^{\mathrm{C}})^{\mathrm{B}}$).
+Similarly we define a *canonical bijection* of $\mathfrak{F}(\mathrm{B} \times \mathrm{C}, \mathrm{A})$ onto $\mathfrak{F}(\mathrm{B}, \mathfrak{F}(\mathrm{C}, \mathrm{A}))$. By reason of the one-to-one correspondence between mappings and functional graphs, these bijections give rise to *canonical bijections* of $\mathrm{A}^{\mathrm{B} \times \mathrm{C}}$ onto $(\mathrm{A}^{\mathrm{B}})^{\mathrm{C}}$ (resp. $(\mathrm{A}^{\mathrm{C}})^{\mathrm{B}}$).
 
 ### 3. DEFINITIONS OF THE PRODUCT OF A FAMILY OF SETS
 
@@ -131,7 +131,7 @@ If $\mathrm{I} = \emptyset$, the set $\prod_{\iota \in \mathrm{I}} \mathrm{X}_\i
 
 $$\bigcup_{\iota \in I} X_\iota \subset E,$$
 
-then Definition 1 shows that $\prod_{\iota \in I} X_\iota \subset E^I$; there is therefore a one-to-one correspondence between $\prod_{\iota \in I} X_\iota$ and a set of mappings of I into E (i.e., a subset of $\mathscr{F}(I, E)$).
+then Definition 1 shows that $\prod_{\iota \in I} X_\iota \subset E^I$; there is therefore a one-to-one correspondence between $\prod_{\iota \in I} X_\iota$ and a set of mappings of I into E (i.e., a subset of $\mathfrak{F}(I, E)$).
 
 ¶ If $I = \{\alpha\}$ is a set consisting of a single element, we have
 

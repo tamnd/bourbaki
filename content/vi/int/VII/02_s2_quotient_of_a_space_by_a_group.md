@@ -603,7 +603,7 @@ $$
 *Khi đó*
 
 $$
-\gamma_{G/H}(s)\lambda = \chi(s^{-1}, .) \cdot \lambda \quad \text{for all } s \in G.
+\gamma_{G/H}(s)\lambda = \chi(s^{-1}, .) \cdot \lambda \quad \text{với mọi } s \in G.
 $$
 
 a) suy ra từ Mệnh đề 7.
@@ -765,23 +765,23 @@ với $\xi \in H$; khi đó ta có thể lập các độ đo $\mu/\beta$ trên 
 
 Cho $K_1$ là một tập con compact của X sao cho $\pi'(K_1) = K$. Cho $K_2$ là tập hợp các $\xi \in H$ sao cho $L\xi$ giao với $K_1$. Khi đó $K_2$ là compact (GT, III, §4, No. 5, Định lý 1). Cho $\xi \in H$ sao cho $p(\xi) \in \bigcup_{x \in L} \omega_x^{-1}(K)$. Do đó, tồn tại một $x \in L$ sao cho $\omega_x(p(\xi)) \in K$, hay nói cách khác là $\pi'(x\xi) \in K$. Vì $\pi'(K_1) = K$, tồn tại $\xi' \in H'$ sao cho $x\xi\xi' \in K_1$. Khi đó $\xi\xi' \in K_2$, do đó $p(\xi) = p(\xi\xi') \in p(K_2)$. Vậy ta đã chứng minh rằng $\bigcup_{x \in L} \omega_x^{-1}(K) \subset p(K_2)$.
 
-This lemma shows first of all that the mapping $\omega_x$ is *thực sự*. One can therefore xác định độ đo $\omega_x(\beta/\beta')$ trên $X/H'$, which is concentrated on $\omega_x(H/H') = \pi'(\psi_x(H)) = \pi'(xH)$. If $f \in \mathcal{K}(X/H')$, Bổ đề 7 and §1, No. 1, Bổ đề 1 show that the function $x \mapsto \langle f, \omega_x(\beta/\beta') \rangle$ is continuous on X; moreover, $\langle f, \omega_x(\beta/\beta') \rangle$ is zero when Supp $f$ does not intersect $\pi'(xH)$, nói cách khác khi $\pi(x)$ không thuộc ảnh chính tắc của Supp $f$ trong $X/H$.
+Bổ đề này trước hết chỉ ra rằng ánh xạ $\omega_x$ là *thực sự*. Do đó người ta có thể xác định độ đo $\omega_x(\beta/\beta')$ trên $X/H'$, độ đo này tập trung trên $\omega_x(H/H') = \pi'(\psi_x(H)) = \pi'(xH)$. Nếu $f \in \mathcal{K}(X/H')$, Bổ đề 7 và §1, No. 1, Bổ đề 1 chỉ ra rằng hàm $x \mapsto \langle f, \omega_x(\beta/\beta') \rangle$ là liên tục trên X; hơn nữa, $\langle f, \omega_x(\beta/\beta') \rangle$ bằng không khi Supp $f$ không giao với $\pi'(xH)$, nói cách khác khi $\pi(x)$ không thuộc ảnh chính tắc của Supp $f$ trong $X/H$.
 
-Moreover, if $x \in H$ then
+Hơn nữa, nếu $x \in H$ thì
 
 $$
 \omega_{x\xi}(\beta/\beta') = \omega_x(\gamma_{H/H'}(\xi)(\beta/\beta')) = \omega_x(\beta/\beta').
 $$
 
-The mapping $x \mapsto \omega_x(\beta/\beta')$ of X into $\mathcal{M}(X/H')$ therefore defines by passage to the quotient a mapping $u \mapsto (\beta/\beta')_u$ of $X/H$ into $\mathcal{M}(X/H')$. The foregoing shows that, for every $f \in \mathcal{K}(X/H')$, the mapping $u \mapsto \langle f, (\beta/\beta')_u \rangle$ is continuous with compact support. Consequently the mapping $u \mapsto (\beta/\beta')_u$ *là một họ độ đo liên tục yếu và* $(\mu/\beta)$*-thích hợp trên* $X/H'$, *với* $X/H$ *làm tập chỉ số*.
+Ánh xạ $x \mapsto \omega_x(\beta/\beta')$ của X vào $\mathcal{M}(X/H')$ do đó xác định, bằng cách chuyển qua thương, một ánh xạ $u \mapsto (\beta/\beta')_u$ của $X/H$ vào $\mathcal{M}(X/H')$. Điều đã nêu trên cho thấy rằng, với mọi $f \in \mathcal{K}(X/H')$, ánh xạ $u \mapsto \langle f, (\beta/\beta')_u \rangle$ là liên tục với giá compact. Do đó ánh xạ $u \mapsto (\beta/\beta')_u$ *là một họ độ đo liên tục yếu và* $(\mu/\beta)$*-thích hợp trên* $X/H'$, *với* $X/H$ *làm tập chỉ số*.
 
-Let $x \in X$, and $u = \pi(x) \in X/H$. Let $f$ be a function on $X/H'$, with values in a Banach space or in $\overline{\mathbf{R}}$. By Ch. V, §4, Định lý 2, for $f$ to be $(\beta/\beta')_u$-integrable, it is necessary and sufficient that the function $p(\xi) \mapsto f(\omega_x(p(\xi))) = f(\pi'(x\xi))$ on $H/H'$ be $(\beta/\beta')$-integrable, in which case
+Cho $x \in X$, và $u = \pi(x) \in X/H$. Cho $f$ là một hàm trên $X/H'$, với các giá trị trong một không gian Banach hoặc trong $\overline{\mathbf{R}}$. Theo Ch. V, §4, Định lý 2, để $f$ là $(\beta/\beta')_u$-khả tích, điều kiện cần và đủ là hàm $p(\xi) \mapsto f(\omega_x(p(\xi))) = f(\pi'(x\xi))$ trên $H/H'$ là $(\beta/\beta')$-khả tích, trong trường hợp đó
 
 $$
 (21) \quad \int_{X/H'} f(u') d(\beta/\beta')_u(u') = \int_{H/H'} f(\pi'(x\xi)) d(\beta/\beta')(\dot{\xi}) \qquad (\dot{\xi} = p(\xi)).
 $$
 
-One has analogous properties for measurability, the upper integral and the essential integral.
+Ta có các tính chất tương tự đối với tính đo được, tích phân trên và tích phân thiết yếu.
 
 #### Mệnh đề 12 {#int-vii-s2-prop-12 .statement}
 
@@ -791,19 +791,19 @@ $$
 \int_{X/H} (\beta/\beta')_u d(\mu/\beta)(u) = \mu/\beta'.
 $$
 
-Let $f \in \mathcal{K}(X)$, and let $f^b \in \mathcal{K}(X/H')$, defined by
+Cho $f \in \mathcal{K}(X)$, và cho $f^b \in \mathcal{K}(X/H')$, được xác định bởi
 
 $$
 f^b(\pi'(x)) = \int_{H'} f(x\xi') d\beta'(\xi').
 $$
 
-It suffices (cf. No. 2) to prove that $f^b$ has the same integral with respect to the two members of (22). Now, $\langle \mu/\beta', f^b \rangle = \langle \mu, f \rangle$. On the other hand,
+Chỉ cần (xem No. 2) chứng minh rằng $f^b$ có cùng tích phân đối với hai thành viên của (22). Bây giờ, $\langle \mu/\beta', f^b \rangle = \langle \mu, f \rangle$. Mặt khác,
 
 $$
 \left\langle \int_{X/H} (\beta/\beta')_u d(\mu/\beta)(u), f^b \right\rangle = \int_{X/H} \langle (\beta/\beta')_u, f^b \rangle d(\mu/\beta)(u).
 $$
 
-Now, let $x \in X$ and $u = \pi(x)$. We have
+Bây giờ, cho $x \in X$ và $u = \pi(x)$. Ta có
 
 $$
 \langle (\beta/\beta')_u, f^b \rangle = \langle \omega_x(\beta/\beta'), f^b \rangle = \int_{H/H'} f^b(\omega_x(\dot{\xi})) d(\beta/\beta')(\dot{\xi})
@@ -824,7 +824,7 @@ $$
 \left\langle \int_{X/H} (\beta/\beta')_u d(\mu/\beta)(u), f^b \right\rangle = \int_{X/H} d(\mu/\beta)(u) \int_H f(x\xi) d\beta(\xi) = \langle \mu, f \rangle,
 $$
 
-which proves the proposition.
+điều này chứng minh mệnh đề.
 
 #### Hệ quả 1 {#int-vii-s2-prop-12-cor-1 .statement}
 
@@ -976,7 +976,7 @@ theo Bổ đề 8. Bổ đề 8 cũng chứng minh rằng $\sum_{s \in A} n^{-1}
 
 *Cho X là một không gian compact địa phương đếm được ở vô cực, H là một nhóm rời rạc tác động liên tục và đúng trên X ở phía phải, $\pi$ là ánh xạ chính tắc của X lên X/H, $\mu$ là một độ đo dương trên X bất biến dưới H, $\beta$ là độ đo Haar chuẩn hóa của H, và $\lambda = \mu/\beta$. Cho F là một miền cơ bản đo được theo $\mu$.
 
-a) Cặp $(\pi, n^{-1}\varphi_F)$ là μ-thích nghi, và
+a) Cặp $(\pi, n^{-1}\varphi_F)$ là $\mu$-thích nghi, và
 
 $$
 \int_X n(x)^{-1} \varphi_F(x) \varepsilon_{\pi(x)} \, d\mu(x) = \lambda.
@@ -984,19 +984,19 @@ $$
 
 b) Ánh xạ π là thực sự đối với $n^{-1}\varphi_F \cdot \mu$, và $\pi(n^{-1}\varphi_F \cdot \mu) = \lambda$.
 
-c) Cho k là một hàm trên X/H. Để k là λ-đo được (tương ứng λ-tích phân được), cần và đủ rằng $n^{-1}\varphi_F(k \circ \pi)$ là μ-đo được (tương ứng μ-tích phân được); và, nếu k là λ-tích phân được thì
+c) Cho k là một hàm trên X/H. Để k là $\lambda$-đo được (tương ứng $\lambda$-tích phân được), cần và đủ rằng $n^{-1}\varphi_F(k \circ \pi)$ là $\mu$-đo được (tương ứng $\mu$-tích phân được); và, nếu k là $\lambda$-tích phân được thì
 
 $$
 \int_{X/H} k \, d\lambda = \int_F n^{-1}(k \circ \pi) \, d\mu.
 $$
 
-Ta có $\mu = \lambda^\sharp$. Cho $f \in \mathcal{H}_+(X/H)$. Khi đó $n^{-1}\varphi_F(f \circ \pi)$ là μ-đo được và $\geq 0$, và theo Mệnh đề 5 b) của No. 3 ta có
+Ta có $\mu = \lambda^\sharp$. Cho $f \in \mathcal{H}_+(X/H)$. Khi đó $n^{-1}\varphi_F(f \circ \pi)$ là $\mu$-đo được và $\geq 0$, và theo Mệnh đề 5 b) của No. 3 ta có
 
 $$
 \int_X^* n(x)^{-1} \varphi_F(x) f(\pi(x)) d\mu(x) = \int_{X/H}^* f(\dot{x}) d\lambda(\dot{x}) \int_H^* n(x\xi)^{-1} \varphi_F(x\xi) d\beta(\xi)
 $$
 
-và $\int_H^* n(x\xi)^{-1} \varphi_F(x\xi) d\beta(\xi) = n(x)^{-1} \sum_{\xi \in H} \varphi_F(x\xi) = 1$ theo Bổ đề 8. Do đó $n^{-1}\varphi_F \cdot (f \circ \pi)$ là μ-tích phân được và
+và $\int_H^* n(x\xi)^{-1} \varphi_F(x\xi) d\beta(\xi) = n(x)^{-1} \sum_{\xi \in H} \varphi_F(x\xi) = 1$ theo Bổ đề 8. Do đó $n^{-1}\varphi_F \cdot (f \circ \pi)$ là $\mu$-tích phân được và
 
 $$
 \int_X n(x)^{-1} \varphi_F(x) f(\pi(x)) d\mu(x) = \int_{X/H} f(\dot{x}) d\lambda(\dot{x}).

@@ -161,7 +161,7 @@ Giả sử rằng $E$ là một mở rộng quasi-Galois của $K$ và $F$ là m
 
 #### Nhận xét 3 {#alg-v-s9-n3-rem-3 .statement}
 
-Let $E$ be an algebraic extension of $K$ and $x, y$ two elements of $E$. If there exists a $K$-automorphism of $E$ which maps $x$ to $y$ then $x$ and $y$ have the same minimal polynomial over $K$ and so are conjugate over $K$ by Prop. 2 (V, p. 52). Chiều đảo lại đúng nếu $E$ is quasi-Galois, because every $K$-automorphism of $\Omega$ induces a $K$-automorphism of $E$. Giả thiết rằng $E$ be quasi-Galois is not superfluous as the following example shows: \* let $K = \mathbf{Q}$ and $\Omega$ the field of all algebraic numbers; put $E = \Omega \cap \mathbf{R}$. It may be shown (V, p. 153, Ex. 2) that every automorphism of $E$ is the identity mapping and that $\sqrt{2}$ and $-\sqrt{2}$ are elements of $E$ conjugate over $\mathbf{Q}$. \*
+Cho $E$ là một mở rộng đại số của $K$ và $x, y$ là hai phần tử của $E$. Nếu tồn tại một $K$-tự đẳng cấu của $E$ ánh xạ $x$ vào $y$ thì $x$ và $y$ có cùng đa thức tối tiểu trên $K$ và do đó liên hợp trên $K$ theo Mệnh đề 2 (V, p. 52). Chiều đảo lại đúng nếu $E$ là quasi-Galois, vì mọi $K$-tự đẳng cấu của $\Omega$ cảm sinh một $K$-tự đẳng cấu của $E$. Giả thiết rằng $E$ là quasi-Galois không phải là thừa như ví dụ sau đây cho thấy: \* cho $K = \mathbf{Q}$ và $\Omega$ là trường của tất cả các số đại số; đặt $E = \Omega \cap \mathbf{R}$. Có thể chỉ ra (V, p. 153, Ex. 2) rằng mọi tự đẳng cấu của $E$ đều là ánh xạ đồng nhất và rằng $\sqrt{2}$ và $-\sqrt{2}$ là các phần tử của $E$ liên hợp trên $\mathbf{Q}$. \*
 
 ### 4. Mở rộng quasi-Galois được sinh bởi một tập hợp
 

@@ -63,6 +63,6 @@
 {"from":"","from_label":"top-iii-s7-ex-3","to_label":"top-iii-s4-ex-18","kind":"cites","raw":"Exercise 18 of § 4)","form":"section","resolved_by":"exercise","file":"content/en/top/III/exercises/s7/03.md","line":13},
 {"from":"","from_label":"top-iii-s7-ex-3","to_label":"top-iii-s3-prop-3","kind":"cites","raw":"Proposition 3 of § 3","form":"section","resolved_by":"section-no","file":"content/en/top/III/exercises/s7/03.md","line":15},
 {"from":"","from_label":"top-iii-s7-ex-4","to_label":"top-iii-s7-prop-3","kind":"cites","raw":"Proposition 3","form":"local","resolved_by":"in-section","file":"content/en/top/III/exercises/s7/04.md","line":13},
-{"from":"","from_label":"top-iii-s7-ex-5","to_label":"top-iii-s7-ex-1","kind":"cites","raw":"Exercise 1","form":"local","resolved_by":"exercise","file":"content/en/top/III/exercises/s7/05.md","line":17},
-{"from":"","from_label":"top-iii-s7-ex-5","to_label":"top-iii-s7-prop-3","kind":"cites","raw":"Proposition 3","form":"local","resolved_by":"in-section","file":"content/en/top/III/exercises/s7/05.md","line":23}
+{"from":"","from_label":"top-iii-s7-ex-6","to_label":"top-iii-s7-ex-1","kind":"cites","raw":"Exercise 1","form":"local","resolved_by":"exercise","file":"content/en/top/III/exercises/s7/06.md","line":16},
+{"from":"","from_label":"top-iii-s7-ex-6","to_label":"top-iii-s7-prop-3","kind":"cites","raw":"Proposition 3","form":"local","resolved_by":"in-section","file":"content/en/top/III/exercises/s7/06.md","line":22}
 ]}

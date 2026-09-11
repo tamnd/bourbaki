@@ -97,7 +97,7 @@ là một đồng cấu môđun $\mathbf{Z}$ sao cho $(\operatorname{Hom}_A(F, E
 
 #### Mệnh đề 2 {#alg-ii-s6-prop-2 .statement}
 
-*Với mọi hệ ngược* $(E_\alpha, f_{\alpha \beta})$ *của các môđun $A$*-và mọi *môđun $A$*-module $F$, *ánh xạ chính tắc* $u \mapsto (f_\alpha \circ u)$ *là một đẳng cấu môđun $\mathbf{Z}$*
+*Với mọi hệ ngược* $(E_\alpha, f_{\alpha \beta})$ *của các môđun $A$*-và mọi *môđun $A$*-môđun $F$, *ánh xạ chính tắc* $u \mapsto (f_\alpha \circ u)$ *là một đẳng cấu môđun $\mathbf{Z}$*
 
 (2)
 
@@ -229,7 +229,7 @@ Với mọi $u \in \operatorname{Hom}(\lim E_\alpha, F)$, $d_{F'}(v \circ u) = (
 
 #### Nhận xét {#alg-ii-s6-n2-rem-1 .statement}
 
-Cho $E$ là một $A$*-môđun và* $(M_\alpha)_{\alpha \in I}$ *một họ tăng các môđun con của* $E$ *sao cho* $E$ *là hợp của các* $M_\alpha$; nếu $j_{\beta \alpha}: M_\alpha \to M_\beta$ (với $\alpha \leq \beta$) và $j_\alpha: M_\alpha \to E$ *là các ánh xạ nhúng chính tắc, thì rõ ràng* $j = \lim \longrightarrow j_\alpha$ *là một đẳng cấu từ* $\lim \longrightarrow M_\alpha$ *lên* $E$ *(Set Theory, III, § 7, no. 6, Remark 1)*. Đặc biệt, mọi $A$*-môđun đều là giới hạn trực tiếp của họ có hướng phải các* *môđun con sinh hữu hạn* của nó.
+Cho $E$ là một $A$*-môđun và* $(M_\alpha)_{\alpha \in I}$ *một họ tăng các môđun con của* $E$ *sao cho* $E$ *là hợp của các* $M_\alpha$; nếu $j_{\beta \alpha}: M_\alpha \to M_\beta$ (với $\alpha \leq \beta$) và $j_\alpha: M_\alpha \to E$ *là các ánh xạ nhúng chính tắc, thì rõ ràng* $j = \lim \longrightarrow j_\alpha$ *là một đẳng cấu từ* $\lim \longrightarrow M_\alpha$ *lên* $E$ *(Lý thuyết tập hợp, III, § 7, no. 6, Nhận xét 1)*. Đặc biệt, mọi $A$*-môđun đều là giới hạn trực tiếp của họ có hướng phải các* *môđun con sinh hữu hạn* của nó.
 
 ### 3. TÍCH TENXƠ CỦA CÁC GIỚI HẠN TRỰC TIẾP
 

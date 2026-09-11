@@ -1,0 +1,5 @@
+{"edges": [
+{"from":"","from_label":"lie--s0","to_label":"alg-ii-a0","kind":"cites","raw":"II, Appendix","form":"section","resolved_by":"section","file":"content/en/lie/index_of_terminology_i_iii.md","line":223},
+{"from":"","from_label":"lie--s0","to_label":"alg-ii-a0","kind":"cites","raw":"II, Appendix","form":"section","resolved_by":"section","file":"content/en/lie/index_of_terminology_i_iii.md","line":224},
+{"from":"","from_label":"lie--s0","to_label":"alg-iii-a0","kind":"cites","raw":"III, Appendix","form":"section","resolved_by":"section","file":"content/en/lie/index_of_terminology_i_iii.md","line":260}
+]}

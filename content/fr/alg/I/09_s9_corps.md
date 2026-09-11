@@ -27,9 +27,9 @@ subsections:
       title: Le corps des nombres rationnels
       page: 111
       pdf_page: 121
-statements: 17
+statements: 19
 exercises: 21
-content_sha256: a39d654de2d46a15dc782fe2db07454b2b4367832a6258b29d4e46169768a183
+content_sha256: aa763e5c5e122e0d1bb887dc16f744bf1f662066917ba969fce719596e5f648a
 ---
 
 ## § 9. CORPS
@@ -45,7 +45,10 @@ L’ensemble des éléments non nuls du corps K, muni de la multiplication, est 
 #### Exemple 1 {#alg-i-s9-n1-exa-1 .statement}
 
 Nous définirons au n° 4 le corps des nombres rationnels; on définira en Topologie Générale le corps des nombres réels (TG, IV, § 1, n° 3), celui des nombres complexes (TG, VIII, § 1, n° 1) et celui des quaternions (TG, VIII, § 1, n° 4). Ces corps sont commutatifs, à l’exception du corps des quaternions.*
-    2) L’anneau $\mathbf{Z}/2\mathbf{Z}$ est évidemment un corps.
+
+#### Exemple 2 {#alg-i-s9-n1-exa-2 .statement}
+
+L’anneau $\mathbf{Z}/2\mathbf{Z}$ est évidemment un corps.
 
 Soit K un corps. On appelle sous-corps de K tout sous-anneau L de K qui est un corps et on dit alors que K est un surcorps de L; il revient au même de dire que L est un sous-anneau de K et que l’on a $x^{-1} \in L$ pour tout élément non nul x de L. Si $(L_i)_{i \in I}$ est une famille de sous-corps de K, alors $\bigcap_{i=1}^n L_i$ est un sous-corps de K; pour toute partie X de K, il existe donc un plus petit sous-corps de K contenant X; on dit qu’il est engendré par X.
 
@@ -146,7 +149,10 @@ Dans un anneau commutatif $A$, on appelle idéal premier un idéal $p$ vérifian
 #### Exemple 1 {#alg-i-s9-n3-exa-1 .statement}
 
 Soit $A$ un anneau commutatif. Si $m$ est un idéal maximal de $A$, $m$ est premier; en effet, l’anneau $A/m$ est un corps (I, p. 109, cor. 1).
-2) Si $A$ est un anneau intègre, l’idéal $\{0\}$ de $A$ est premier (mais non maximal en général, comme le prouve l’exemple de l’anneau $\mathbf{Z}$).
+
+#### Exemple 2 {#alg-i-s9-n3-exa-2 .statement}
+
+Si $A$ est un anneau intègre, l’idéal $\{0\}$ de $A$ est premier (mais non maximal en général, comme le prouve l’exemple de l’anneau $\mathbf{Z}$).
 
 ### 4. Le corps des nombres rationnels
 

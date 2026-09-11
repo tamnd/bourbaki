@@ -27,9 +27,9 @@ subsections:
       title: Approximation des fonctions convexes
       page: 42
       pdf_page: 77
-statements: 24
+statements: 25
 exercises: 30
-content_sha256: 3cced2bb65f66fe5bc8603a35c5374d0dd15f5390e882e6a1e5fbfc228729e11
+content_sha256: 68ade42a82083a6a81ddceb649849ee99cb9ee0e11758ab7285b8ea0c8b3d285
 ---
 
 ## § 5. SÉPARATION DES ENSEMBLES CONVEXES
@@ -71,7 +71,10 @@ En effet, l’ensemble C = A − B est ouvert, convexe (II, p. 10, prop. 7) et n
 #### Remarque 1 {#evt-ii-s5-n2-rem-1 .statement}
 
 L’hyperplan H ne rencontre pas A (II, p. 16, prop. 17) ; si A et B sont deux ensembles convexes ouverts non vides sans point commun, il existe donc un hyperplan fermé qui sépare strictement A et B.
-2) Par contre, lorsque B n’est pas ouvert, il n’existe pas nécessairement d’hyperplan fermé séparant strictement A et B, même si E est de dimension finie, et si $\overline{A}$ et $\overline{B}$ ne se rencontrent pas (II, p. 83, exerc. 12).
+
+#### Remarque 2 {#evt-ii-s5-n2-rem-2 .statement}
+
+Par contre, lorsque B n’est pas ouvert, il n’existe pas nécessairement d’hyperplan fermé séparant strictement A et B, même si E est de dimension finie, et si $\overline{A}$ et $\overline{B}$ ne se rencontrent pas (II, p. 83, exerc. 12).
 
 #### Définition 3 {#evt-ii-s5-def-3 .statement}
 

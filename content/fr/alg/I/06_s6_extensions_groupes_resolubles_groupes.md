@@ -39,9 +39,9 @@ subsections:
       title: Groupes nilpotents finis
       page: 76
       pdf_page: 86
-statements: 58
+statements: 68
 exercises: 41
-content_sha256: 0ae630f61cc53951743edd4f0e5b7c76430c2a6a6d46316e733556a4456ac5a5
+content_sha256: 9a17e5ddfce7be6cf12f2f03d20e1760bf61223d7661f7b621abde2958295d00
 ---
 
 ## § 6. EXTENSIONS, GROUPES RÉSOLUBLES, GROUPES NILPOTENTS
@@ -360,9 +360,18 @@ Si $n \in \mathbf{N}$, un groupe de classe de nilpotence $n$ est appelé groupe 
 #### Exemple 1 {#alg-i-s6-n3-exa-1 .statement}
 
 Un groupe est nilpotent de classe 0 (resp. $\leq 1$) si et seulement s’il est réduit à l’élément neutre (resp. est commutatif).
-2) *Pour tout anneau commutatif $A$ et tout entier $n \geq 1$, le groupe trigonal strict supérieur $T_1(n, A)$ est nilpotent de classe $\leq n - 1$ (et même de classe $n - 1$ si $A \neq \{0\}$).*
-3) Soit $G$ un groupe nilpotent de classe $n$. Tout sous-groupe (resp. tout groupe quotient) de $G$ est nilpotent de classe $\leq n$. En effet, si $H$ est un sous-groupe de $G$, on a $C^n(H) \subset C^n(G)$. Si $G'$ est un groupe quotient de $G$ et $\pi : G \to G'$ l’homomorphisme canonique, on a $C^n(G') = \pi(C^n(G))$.
-4) Un produit fini de groupes nilpotents est nilpotent.
+
+#### Exemple 2 {#alg-i-s6-n3-exa-2 .statement}
+
+*Pour tout anneau commutatif $A$ et tout entier $n \geq 1$, le groupe trigonal strict supérieur $T_1(n, A)$ est nilpotent de classe $\leq n - 1$ (et même de classe $n - 1$ si $A \neq \{0\}$).*
+
+#### Exemple 3 {#alg-i-s6-n3-exa-3 .statement}
+
+Soit $G$ un groupe nilpotent de classe $n$. Tout sous-groupe (resp. tout groupe quotient) de $G$ est nilpotent de classe $\leq n$. En effet, si $H$ est un sous-groupe de $G$, on a $C^n(H) \subset C^n(G)$. Si $G'$ est un groupe quotient de $G$ et $\pi : G \to G'$ l’homomorphisme canonique, on a $C^n(G') = \pi(C^n(G))$.
+
+#### Exemple 4 {#alg-i-s6-n3-exa-4 .statement}
+
+Un produit fini de groupes nilpotents est nilpotent.
 
 #### Proposition 7 {#alg-i-s6-prop-7 .statement}
 
@@ -483,14 +492,26 @@ Un groupe résoluble de classe de résolvabilité $n$ est appelé un groupe rés
 #### Exemple 1 {#alg-i-s6-n4-exa-1 .statement}
 
 Un groupe est résoluble de classe 0 (resp. $\leq 1$) si et seulement s’il est réduit à $e$ (resp. est commutatif).
-2) Tout groupe nilpotent de classe $\leq 2^n - 1$ est résoluble de classe $\leq n$; cela résulte de la formule $D^n(G) \subset C^{2^n}(G)$ démontrée plus haut.
-3) Soit $G$ un groupe résoluble de classe $\leq n$. Tout sous-groupe (resp. groupe quotient) de $G$ est résoluble de classe $\leq n$ (démonstration analogue à celle de I, p. 69, *Exemple 3*).
 
-4) Si G est un groupe résoluble de classe $p$ et F un groupe résoluble de classe $q$, toute extension E de G par F est un groupe résoluble de classe $\leq p + q$. En effet, soit $\pi : E \to G$ la projection; on a $\pi(D^p(E)) \subset D^p(G) = \{e\}$ et par suite $D^p(E) \subset F$; on en déduit que $D^{p+q}(E) = D^q(D^p(E)) \subset D^q(F) = \{e\}$.
+#### Exemple 2 {#alg-i-s6-n4-exa-2 .statement}
 
-5) Le groupe symétrique $S_n$ est résoluble si et seulement si $n < 5$ (cf. I, p. 130, exerc. 10 et p. 131, exerc. 16).
+Tout groupe nilpotent de classe $\leq 2^n - 1$ est résoluble de classe $\leq n$; cela résulte de la formule $D^n(G) \subset C^{2^n}(G)$ démontrée plus haut.
 
-6) *Si A est un anneau commutatif, le groupe trigonal supérieur $T(n, A)$ est résoluble mais non nilpotent en général.*
+#### Exemple 3 {#alg-i-s6-n4-exa-3 .statement}
+
+Soit $G$ un groupe résoluble de classe $\leq n$. Tout sous-groupe (resp. groupe quotient) de $G$ est résoluble de classe $\leq n$ (démonstration analogue à celle de I, p. 69, *Exemple 3*).
+
+#### Exemple 4 {#alg-i-s6-n4-exa-4 .statement}
+
+Si G est un groupe résoluble de classe $p$ et F un groupe résoluble de classe $q$, toute extension E de G par F est un groupe résoluble de classe $\leq p + q$. En effet, soit $\pi : E \to G$ la projection; on a $\pi(D^p(E)) \subset D^p(G) = \{e\}$ et par suite $D^p(E) \subset F$; on en déduit que $D^{p+q}(E) = D^q(D^p(E)) \subset D^q(F) = \{e\}$.
+
+#### Exemple 5 {#alg-i-s6-n4-exa-5 .statement}
+
+Le groupe symétrique $S_n$ est résoluble si et seulement si $n < 5$ (cf. I, p. 130, exerc. 10 et p. 131, exerc. 16).
+
+#### Exemple 6 {#alg-i-s6-n4-exa-6 .statement}
+
+*Si A est un anneau commutatif, le groupe trigonal supérieur $T(n, A)$ est résoluble mais non nilpotent en général.*
 
 #### Proposition 10 {#alg-i-s6-prop-10 .statement}
 
@@ -699,8 +720,14 @@ Soit G un groupe fini et soit $p$ un nombre premier. D’après I, p. 75, th. 3,
 (i) il existe un $p$-sous-groupe de Sylow de G distingué;
 (ii) tout $p$-sous-groupe de Sylow de G est distingué;
 (iii) il existe un seul $p$-sous-groupe de Sylow de G.
-2) Soit G un groupe fini nilpotent. Soit I l’ensemble des diviseurs premiers de Card G. D’après le th. 4 et la Remarque 1, on a $G = \prod_{p \in I} G_p$, où $G_p$ est l’unique $p$-groupe de Sylow de G.
-3) Appliqué aux groupes commutatifs, le th. 4 donne la décomposition en produit de composantes primaires des groupes finis commutatifs, qui sera étudiée d’un autre point de vue au chap. VII.
+
+#### Remarque 2 {#alg-i-s6-n7-rem-2 .statement}
+
+Soit G un groupe fini nilpotent. Soit I l’ensemble des diviseurs premiers de Card G. D’après le th. 4 et la Remarque 1, on a $G = \prod_{p \in I} G_p$, où $G_p$ est l’unique $p$-groupe de Sylow de G.
+
+#### Remarque 3 {#alg-i-s6-n7-rem-3 .statement}
+
+Appliqué aux groupes commutatifs, le th. 4 donne la décomposition en produit de composantes primaires des groupes finis commutatifs, qui sera étudiée d’un autre point de vue au chap. VII.
 
 #### Exemple {#alg-i-s6-n7-exa-1 .statement}
 

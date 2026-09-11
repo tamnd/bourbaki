@@ -24,9 +24,9 @@ subsections:
       title: Algebraic closure of a field
       page: 22
       pdf_page: 136
-statements: 19
+statements: 20
 exercises: 2
-content_sha256: 451dadd63f4c82676dd39e5b5893372098d707c1adaba3b7198c07ed152b021c
+content_sha256: d88aa3362e0dd31bb4b22f70593a46a10ff88921aa9bdd314f0d6c51d688ac7b
 ---
 
 ## § 4. ALGEBRAICALLY CLOSED EXTENSIONS
@@ -134,7 +134,10 @@ This follows from Prop. 5 and V, p. 13, Cor. of Prop. 4.
 #### Example 1 {#alg-v-s4-n3-exa-1 .statement}
 
 The field C of complex numbers is an algebraic closure of the field R of real numbers (Gen. Top., VIII, p. 100) \*
-2) Let K be a field and $\Omega$ an algebraically closed extension of K. If $\overline{K}$ is the relative algebraic closure of K in $\Omega$, then by V, p. 20, Prop. 2, K is an algebraic closure of K. \* In particular the field of all algebraic numbers (V, p. 20, Ex. 2) is an algebraic closure of the field Q of rational numbers. \*
+
+#### Example 2 {#alg-v-s4-n3-exa-2 .statement}
+
+Let K be a field and $\Omega$ an algebraically closed extension of K. If $\overline{K}$ is the relative algebraic closure of K in $\Omega$, then by V, p. 20, Prop. 2, K is an algebraic closure of K. \* In particular the field of all algebraic numbers (V, p. 20, Ex. 2) is an algebraic closure of the field Q of rational numbers. \*
 
 #### Proposition 6 {#alg-v-s4-prop-6 .statement}
 

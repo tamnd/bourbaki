@@ -39,9 +39,9 @@ subsections:
       title: Relèvements dans les espaces de Fréchet
       page: 37
       pdf_page: 72
-statements: 35
+statements: 36
 exercises: 17
-content_sha256: b6e1e96a22fcb48eb3f02ce6a319522f67049491fe2e51213d682bbe6c028932
+content_sha256: aedd29dac4a17037c31c3c688aea1ceceb032a347f1419e3c5bceb02e6786f5d
 ---
 
 ## § 4. ESPACES LOCALEMENT CONVEXES
@@ -392,7 +392,10 @@ Les applications $s_n : F \to E$ forment une suite de Cauchy pour la convergence
 #### Remarque 1 {#evt-ii-s4-n7-rem-1 .statement}
 
 Le corollaire de la prop. 12 peut aussi se déduire du th. 1 de I, p. 17 et de la prop. 18 de TG, IX, p. 22.
-2) Conservons les notations de la prop. 12. Soit $p$ une semi-norme continue sur $E$ ; pour tout $y \in F$, posons $q(y) = \inf_{u(x) = y} p(x)$, de sorte que $q$ est une semi-norme continue sur $F$ (II, p. 4). Soit $\varphi$ une application semi-continue inférieurement de $F$ dans l’intervalle $]0, +\infty[$ de $\overline{\mathbf{R}}$. Montrons qu’il existe une section continue $s$ de $u$ telle que $p \circ s < q + \varphi$.
+
+#### Remarque 2 {#evt-ii-s4-n7-rem-2 .statement}
+
+Conservons les notations de la prop. 12. Soit $p$ une semi-norme continue sur $E$ ; pour tout $y \in F$, posons $q(y) = \inf_{u(x) = y} p(x)$, de sorte que $q$ est une semi-norme continue sur $F$ (II, p. 4). Soit $\varphi$ une application semi-continue inférieurement de $F$ dans l’intervalle $]0, +\infty[$ de $\overline{\mathbf{R}}$. Montrons qu’il existe une section continue $s$ de $u$ telle que $p \circ s < q + \varphi$.
 
 Soient $s_0$ une section continue de $u$ (prop. 12) et $N$ le noyau de $u$. Soit $y_0 \in F$; il existe $z_0 \in N$ tel que $p(s_0(y_0) + z_0) < q(y_0) + \varphi(y_0)$. Il existe un voisinage ouvert $W$ de $y_0$ dans $F$ tel que $p(s_0(y) + z_0) < q(y) + \varphi(y)$ pour tout $y \in W$. Par suite, il existe un recouvrement ouvert $(W_i)_{i \in I}$ de $F$ et des applications constantes $t_i : F \to N$ telles que $p(s_0(y) + t_i(y)) < q(y) + \varphi(y)$ pour tout $y \in W_i$. Comme $F$ est métrisable, il existe une partition continue localement finie de l’unité subordonnée au recouvrement $(W_i)_{i \in I}$, soit $(g_i)_{i \in I}$ (TG, IX, p. 51, prop. 6 et p. 46, prop. 3). L’application $s$ de $F$ dans $E$ définie par $s(y) = s_0(y) + \sum_{i \in I} g_i(y) \cdot t_i(y)$ répond aux conditions exigées.
 

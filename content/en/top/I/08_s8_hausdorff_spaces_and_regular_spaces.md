@@ -35,9 +35,9 @@ subsections:
       title: EQUIVALENCE RELATIONS ON A REGULAR SPACE
       page: 82
       pdf_page: 88
-statements: 28
+statements: 30
 exercises: 24
-content_sha256: f1786c8e71990c5b477a3226adfcfe52fdd3cc7520408bdd42e9767c604fb35d
+content_sha256: 366f1c42674ce4b112f2729fe2aafb3ededcf42af3294eac70bd903d4712b142
 ---
 
 ## 8. HAUSDORFF SPACES AND REGULAR SPACES
@@ -241,8 +241,14 @@ $X$ is Hausdorff by Proposition 6 of no. 2. Let $x$ be any point of $X$ and let 
 #### Remark 1 {#top-i-s8-n4-rem-1 .statement}
 
 There are examples of non-Hausdorff spaces in which every point has a regular neighbourhood (Exercise 7).
-2) There are spaces which are Hausdorff but not regular (Exercise 20).
-3) A topology which is finer than a regular topology need not be regular (Exercise 20).
+
+#### Remark 2 {#top-i-s8-n4-rem-2 .statement}
+
+There are spaces which are Hausdorff but not regular (Exercise 20).
+
+#### Remark 3 {#top-i-s8-n4-rem-3 .statement}
+
+A topology which is finer than a regular topology need not be regular (Exercise 20).
 
 ### 5. EXTENSION BY CONTINUITY; DOUBLE LIMIT
 

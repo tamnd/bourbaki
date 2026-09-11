@@ -43,9 +43,9 @@ subsections:
       title: Parties complètes de $\mathcal{L}_{\mathcal{S}}(E ; F)$
       page: 22
       pdf_page: 157
-statements: 40
+statements: 41
 exercises: 13
-content_sha256: f508fcbe4d0916b9a5190a34fe4c6dc5c2620d2024e8da0df8074c776e5a7395
+content_sha256: 4036bd06b513e4d7ee9938338bdc3aaecae2d1d50b8710804638150dda828362
 ---
 
 ## § 3. ESPACES D’APPLICATIONS LINÉAIRES CONTINUES
@@ -57,7 +57,10 @@ Soient $F$ un espace vectoriel topologique, $E$ un ensemble quelconque et $\math
 #### Remarque 1 {#evt-iii-s3-n1-rem-1 .statement}
 
 La $\mathfrak{S}\text{-topologie}$ est identique à la $\mathfrak{S}'\text{-topologie}$, où $\mathfrak{S}'$ désigne la bornologie engendrée par $\mathfrak{S}$ (III, p. 1).
-2) Soit $M \in \mathfrak{S}$ et soit $V$ un voisinage de 0 dans $F$; notons $T(M, V)$ l’ensemble des $f \in F^E$ telles que $f(x) \in V$ pour tout $x \in M$. Si $\mathfrak{S}$ est stable par réunion finie, les ensembles $T(M, V)$ forment un système fondamental de voisinages de 0 pour la $\mathfrak{S}\text{-topologie}$ de $F^E$.
+
+#### Remarque 2 {#evt-iii-s3-n1-rem-2 .statement}
+
+Soit $M \in \mathfrak{S}$ et soit $V$ un voisinage de 0 dans $F$; notons $T(M, V)$ l’ensemble des $f \in F^E$ telles que $f(x) \in V$ pour tout $x \in M$. Si $\mathfrak{S}$ est stable par réunion finie, les ensembles $T(M, V)$ forment un système fondamental de voisinages de 0 pour la $\mathfrak{S}\text{-topologie}$ de $F^E$.
 
 #### Proposition 1 {#evt-iii-s3-prop-1 .statement}
 

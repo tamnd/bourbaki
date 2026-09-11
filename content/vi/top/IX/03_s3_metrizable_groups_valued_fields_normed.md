@@ -185,7 +185,7 @@ $$
 |d(\dot{x}, \dot{z}) - d(\dot{y}, \dot{z})| = |d(x, \dot{z}) - d(y, \dot{z})| \leq d(x, y);
 $$
 
-and since this inequality is valid for all $x \in \dot{x}$ and all $y \in \dot{y}$, ta có $|d(\dot{x}, \dot{z}) - d(\dot{y}, \dot{z})| \leq d(\dot{x}, \dot{y})$, điều này cho thấy rằng $d(\dot{x}, \dot{y})$ là một metric trên G/H. Hơn nữa, với mọi $z \in \dot{z}$, ta có
+và vì bất đẳng thức này đúng với mọi $x \in \dot{x}$ và mọi $y \in \dot{y}$, ta có $|d(\dot{x}, \dot{z}) - d(\dot{y}, \dot{z})| \leq d(\dot{x}, \dot{y})$, điều này cho thấy rằng $d(\dot{x}, \dot{y})$ là một metric trên G/H. Hơn nữa, với mọi $z \in \dot{z}$, ta có
 
 $$
 d(\dot{z}x, \dot{z}y) = \inf_{h \in H} d(zx, hzy)

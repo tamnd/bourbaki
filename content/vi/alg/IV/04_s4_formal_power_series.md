@@ -90,7 +90,7 @@ với mọi $n \in Z$; ta cũng đặt $\omega(0) = \infty$. Với các quy ư�
 $$
 \begin{align*}
 \omega(u+v) &\geq \inf(\omega(u), \omega(v)), \\
-\omega(u+v) &= \inf(\omega(u), \omega(v)) \text{ if } \omega(u) \neq \omega(v), \\
+\omega(u+v) &= \inf(\omega(u), \omega(v)) \text{ nếu } \omega(u) \neq \omega(v), \\
 \omega(uv) &\geq \omega(u) + \omega(v),
 \end{align*}
 $$
@@ -104,9 +104,9 @@ Cho $\varphi$ là một đồng cấu của A vào một vành B. Ta mở rộng
 
 ### 2. Tôpô trên tập hợp các chuỗi lũy thừa hình thức. Các họ khả tổng
 
-Theo định nghĩa, $\mathbf{A}[[\mathrm{I}]]$ không là gì khác ngoài tập hợp tích $\mathbf{A}^{N^{(I)}}$. Trừ khi có nói rõ ngược lại, ta sẽ trang bị cho A tôpô rời rạc và cho $\mathbf{A}[[\mathrm{I}]]$ tôpô tích (Gen. Top. I, p. 31 f.) mà ta sẽ gọi là tôpô chính tắc. Được trang bị phép cộng và tôpô rời rạc, $A$ là một nhóm tôpô tách biệt và đầy đủ; do đó đối với phép cộng, A[[I]] là một nhóm tôpô tách biệt và đầy đủ (Gen. Top., III, p. 238 and 242 and Gen. Top., II, p. 187). Hơn nữa đại số $A[(X_i)_{i \in I}]$ các đa thức là trù mật trong A[[I]] (Gen. Top., III p. 238, Prop, 25) và vì thế ta có thể coi A[[I]] như phép hoàn thành của $A[(X_i)_{i \in I}]$.
+Theo định nghĩa, $\mathbf{A}[[\mathrm{I}]]$ không là gì khác ngoài tập hợp tích $\mathbf{A}^{N^{(I)}}$. Trừ khi có nói rõ ngược lại, ta sẽ trang bị cho A tôpô rời rạc và cho $\mathbf{A}[[\mathrm{I}]]$ tôpô tích (Gen. Top. I, p. 31 f.) mà ta sẽ gọi là tôpô chính tắc. Được trang bị phép cộng và tôpô rời rạc, $A$ là một nhóm tôpô tách biệt và đầy đủ; do đó đối với phép cộng, A[[I]] là một nhóm tôpô tách biệt và đầy đủ (Gen. Top., III, p. 238 và 242 và Gen. Top., II, p. 187). Hơn nữa đại số $A[(X_i)_{i \in I}]$ các đa thức là trù mật trong A[[I]] (Gen. Top., III p. 238, Prop, 25) và vì thế ta có thể coi A[[I]] như phép hoàn thành của $A[(X_i)_{i \in I}]$.
 
-Với mỗi $\beta \in \mathbf{N}^{(I)}$ ta ký hiệu $S_\beta$ là tập hợp các đa chỉ số $v$ sao cho $v \leq \beta$ và ký hiệu $a_\beta$ là tập hợp các chuỗi lũy thừa hình thức $u = \sum \alpha_v X^v$ sao cho $a_v = 0$ với $v \in S_\beta$. Rõ ràng $S_\beta$ là một tập con hữu hạn của $\mathbf{N}^{(I)}$, và mọi tập con hữu hạn của $\mathbf{N}^{(I)}$ đều được chứa trong một tập hợp dạng $S_\beta$. Suy ra họ $(a_\beta)_{\beta \in \mathbf{N}^{(I)}}$ là một hệ cơ bản các lân cận của 0 trong A[[I]]. Các tập hợp $a_\beta$ là các ideal trong A[[I]], do đó (Gen. Top., III, p. 275) A[[I]] là một vành tôpô.
+Với mỗi $\beta \in \mathbf{N}^{(I)}$ ta ký hiệu $S_\beta$ là tập hợp các đa chỉ số $v$ sao cho $v \leq \beta$ và ký hiệu $a_\beta$ là tập hợp các chuỗi lũy thừa hình thức $u = \sum \alpha_v X^v$ sao cho $a_v = 0$ với $v \in S_\beta$. Rõ ràng $S_\beta$ là một tập con hữu hạn của $\mathbf{N}^{(I)}$, và mọi tập con hữu hạn của $\mathbf{N}^{(I)}$ đều được chứa trong một tập hợp dạng $S_\beta$. Suy ra họ $(a_\beta)_{\beta \in \mathbf{N}^{(I)}}$ là một hệ cơ bản các lân cận của 0 trong A[[I]]. Các tập hợp $a_\beta$ là các iđêan trong A[[I]], do đó (Gen. Top., III, p. 275) A[[I]] là một vành tôpô.
 
 #### Bổ đề 1 {#alg-iv-s4-lem-1 .statement}
 
@@ -588,7 +588,7 @@ Ta sẽ nói rằng các phần tử của $K((X))$ là *chuỗi hình thức t�
 $$
 \begin{align*}
 \omega(u + v) &\geq \inf(\omega(u), \omega(v)) \\
-\omega(u + v) &= \inf(\omega(u), \omega(v)) \quad \text{if}\ \ \omega(u) \neq \omega(v) \\
+\omega(u + v) &= \inf(\omega(u), \omega(v)) \quad \text{nếu}\ \ \omega(u) \neq \omega(v) \\
 \omega(uv) &= \omega(u) + \omega(v)
 \end{align*}
 $$

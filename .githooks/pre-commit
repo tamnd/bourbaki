@@ -57,9 +57,64 @@ fi
 BOURBAKI_CORPUS="$root"
 export BOURBAKI_CORPUS
 
-if ! $run audit -only H01,H02,H03,H04,H05; then
+# A finding in a file this commit does not touch is somebody else's, and it is
+# already in the history. manifests/sections.yaml was over the H03 limit for
+# weeks (#374, since fixed by splitting it a volume to a file), and a hook that
+# refuses every commit for a standing finding is a hook that is passed
+# --no-verify every time, which is worse than no hook: the next real H04 goes
+# through on the same habit, because the author is typing the flag before
+# reading what failed.
+#
+# So the finding is reported either way and only a finding in a staged file
+# stops the commit. The rules still catch what they were written to catch --
+# they are about a mistake that is a nuisance to undo once it is in the history,
+# and a mistake nobody is making in this commit is already in it.
+out=$($run audit -only H01,H02,H03,H04,H05 2>&1) || true
+printf '%s\n' "$out" >&2
+
+# The two lists go through files rather than through -v. A path list is long
+# and has newlines in it, and the awk that ships with macOS will not take a
+# newline in a -v assignment: it reports "newline in string" and stops.
+tmp=$(mktemp -d)
+trap 'rm -rf "$tmp"' EXIT INT TERM
+# Both through -C "$root". By this point the working directory may be the
+# sibling solver checkout, which the hook cd'd into to run the rules from
+# source, and a bare git here would answer about that repository instead: it
+# listed the solver's files as the corpus's, found the corpus's manifest
+# nowhere among them, and refused the commit for a file nobody had staged.
+git -C "$root" diff --cached --name-only --diff-filter=ACMR >"$tmp/staged"
+git -C "$root" ls-files >"$tmp/tracked"
+
+# A finding line is the rule, the file it is in, and what is wrong with it.
+# Some rules point at a line as well, pages/foo.md:12, so the number comes off
+# before the path is looked up. H01 to H05 are all per-file rules, but if one
+# ever reports something that is not a file in the repository the finding is
+# kept, because there is no way to tell whose it is and refusing is the safe
+# side of not knowing.
+mine=$(printf '%s\n' "$out" | awk -v sf="$tmp/staged" -v tf="$tmp/tracked" '
+	BEGIN {
+		while ((getline l < sf) > 0) if (l != "") s[l] = 1
+		while ((getline l < tf) > 0) if (l != "") t[l] = 1
+	}
+	/^H[0-9][0-9][ \t]/ {
+		f = $2
+		sub(/:[0-9]+$/, "", f)
+		if (!(f in t) || (f in s)) print
+	}
+')
+
+if [ -n "$mine" ]; then
 	echo >&2
-	echo "pre-commit: the hygiene rules above failed. Fix them, or commit with --no-verify" >&2
-	echo "and say in the message why." >&2
+	echo "pre-commit: the hygiene rules above failed on files this commit touches:" >&2
+	printf '%s\n' "$mine" >&2
+	echo >&2
+	echo "Fix them, or commit with --no-verify and say in the message why." >&2
 	exit 1
+fi
+
+# Standing findings are worth saying out loud, so that they are not forgotten
+# just because they no longer stop anybody.
+if printf '%s\n' "$out" | grep -qE '^H[0-9][0-9][ 	]'; then
+	echo "pre-commit: the findings above are in files this commit does not touch, so they" >&2
+	echo "do not stop it. They are still findings." >&2
 fi

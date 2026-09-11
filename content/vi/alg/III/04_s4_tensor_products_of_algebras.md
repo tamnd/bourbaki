@@ -362,9 +362,9 @@ Tất cả những điều trên đều mở rộng được cho các *đa môđ
 
 ### 4. TÍCH TENXƠ CỦA CÁC ĐẠI SỐ TRÊN MỘT TRƯỜNG
 
-Cho K là một *trường* giao hoán và E, F là hai đại số trên K mà các phần tử đơn vị tương ứng $e, e'$ là *khác không*. Khi đó các đồng cấu $\eta_E : K \to E$ và $\eta_F : K \to F$ (§ 1, no. 3) là đơn ánh, cho phép ta đồng nhất K với một trường con của E (tương ứng của F). Các đồng cấu chính tắc $u : E \to E \otimes_K F$ và $v : F \to E \otimes_K F$, được định nghĩa bởi $u(x) = x \otimes e'$ và $v(y) = e \otimes y$ là *đơn ánh* (II, § 7, no. 9, Proposition 19) và cho phép ta đồng nhất E và F với các *đại số con* của $E \otimes_K F$, cả hai đều có phần tử đơn vị là phần tử đơn vị $e \otimes e'$ của $E \otimes_K F$. Trong $E \otimes_K F, E \cap F = K$ (II, § 7, no. 9, Proposition 19).
+Cho K là một *trường* giao hoán và E, F là hai đại số trên K mà các phần tử đơn vị tương ứng $e, e'$ là *khác không*. Khi đó các đồng cấu $\eta_E : K \to E$ và $\eta_F : K \to F$ (§ 1, no. 3) là đơn ánh, cho phép ta đồng nhất K với một trường con của E (tương ứng của F). Các đồng cấu chính tắc $u : E \to E \otimes_K F$ và $v : F \to E \otimes_K F$, được định nghĩa bởi $u(x) = x \otimes e'$ và $v(y) = e \otimes y$ là *đơn ánh* (II, § 7, no. 9, mệnh đề 19) và cho phép ta đồng nhất E và F với các *đại số con* của $E \otimes_K F$, cả hai đều có phần tử đơn vị là phần tử đơn vị $e \otimes e'$ của $E \otimes_K F$. Trong $E \otimes_K F, E \cap F = K$ (II, § 7, no. 9, mệnh đề 19).
 
-Nếu E' và F' lần lượt là các đại số con của E và F, thì đồng cấu chính tắc $E' \otimes_K F' \to E \otimes_K F$ là đơn ánh và cho phép ta đồng nhất $E' \otimes_K F'$ với đại số con của $E \otimes_K F$ được sinh bởi $E' \cup F'$ (II, § 7, no. 7, Proposition 14).
+Nếu E' và F' lần lượt là các đại số con của E và F, thì đồng cấu chính tắc $E' \otimes_K F' \to E \otimes_K F$ là đơn ánh và cho phép ta đồng nhất $E' \otimes_K F'$ với đại số con của $E \otimes_K F$ được sinh bởi $E' \cup F'$ (II, § 7, no. 7, mệnh đề 14).
 
 #### Mệnh đề 6 {#alg-iii-s4-prop-6 .statement}
 
@@ -376,7 +376,7 @@ $$
 C' \otimes_K D' = (C' \otimes_K F) \cap (E \otimes_K D')
 $$
 
-(II, § 7, no. 7, Hệ quả to Proposition 14). Có thể giả thiết các $y_i$ độc lập tuyến tính trên K; với mọi $x \in C$, tất yếu có $(x \otimes e')z = z(x \otimes e')$, tức là $\sum_i (xx_i - x_ix) \otimes y_i = 0$, do đó $xx_i = x_ix$ với mọi $i$ (II, § 3, no. 7, Hệ quả 1 to Proposition 7); vì thế tất yếu $x_i \in C'$ với mọi $i$ và do đó $z \in C' \otimes_K F$; tương tự có thể chứng minh rằng $z \in E \otimes_K D'$, do đó có mệnh đề.
+(II, § 7, no. 7, Hệ quả to mệnh đề 14). Có thể giả thiết các $y_i$ độc lập tuyến tính trên K; với mọi $x \in C$, tất yếu có $(x \otimes e')z = z(x \otimes e')$, tức là $\sum_i (xx_i - x_ix) \otimes y_i = 0$, do đó $xx_i = x_ix$ với mọi $i$ (II, § 3, no. 7, Hệ quả 1 to mệnh đề 7); vì thế tất yếu $x_i \in C'$ với mọi $i$ và do đó $z \in C' \otimes_K F$; tương tự có thể chứng minh rằng $z \in E \otimes_K D'$, do đó có mệnh đề.
 
 #### Hệ quả {#alg-iii-s4-n4-cor-1 .statement}
 

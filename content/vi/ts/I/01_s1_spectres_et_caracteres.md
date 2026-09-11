@@ -395,7 +395,7 @@ Cho $\pi$ là một biểu diễn bất khả quy có hạt nhân I. Nếu $I\no
 
 #### Bổ đề 7 {#ts-i-s1-lem-7 .statement tag=025J}
 
-Giả sử A có một phần tử đơn vị. Cho I là một ideal hai phía tối đại của A. Khi đó I là một iđêan nguyên thủy.
+Giả sử A có một phần tử đơn vị. Cho I là một iđêan hai phía tối đại của A. Khi đó I là một iđêan nguyên thủy.
 
 Có một iđêan trái cực đại R của A chứa I (A, I, p. 99, Định lý 1). Cho $\pi$ là biểu diễn chính tắc của A trong $A/R$, biểu diễn này bất khả quy và khác không. Vì IA $\subset R$, hạt nhân $I'$ của $\pi$ chứa I, do đó $I'= I$ và I là nguyên thủy.
 

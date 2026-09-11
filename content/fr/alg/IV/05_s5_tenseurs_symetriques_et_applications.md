@@ -55,9 +55,9 @@ subsections:
       title: Relations entre $S(M^*)$, $TS(M)^{*gr}$ et $Pol(M, A)$
       page: 56
       pdf_page: 63
-statements: 37
+statements: 42
 exercises: 16
-content_sha256: 436be7555b6615cd1e246da18dd676adabf926d4b4c53dec6a5b23c4c066abd8
+content_sha256: 9712b22bb1d9580135fa7ae6661371bc4864b7aadadee70ac29466c3afde8d03
 ---
 
 ## § 5. TENSEURS SYMÉTRIQUES ET APPLICATIONS POLYNOMIALES
@@ -696,11 +696,26 @@ Ces homomorphismes sont dits canoniques. Ils sont surjectifs.
 #### Exemple 1 {#alg-iv-s5-n9-exa-1 .statement}
 
 Les applications polynomiales homogènes de degré 1 de $M$ dans $N$ sont les applications $A$-linéaires de $M$ dans $N$.
-2) Soient $(N_i)_{i \in I}$ une famille de $A$-modules, $f_i$ une application de $M$ dans $N_i$, $i \in I$, et $f : M \to \prod_{i \in I} N_i$ l’application de composantes $f_i$. Pour que $f$ soit polynomiale homogène de degré $q$, il faut et il suffit que chaque $f_i$ soit polynomiale homogène de degré $q$.
-3) Soient $(M_j)_{j \in J}$ une famille finie de $A$-modules libres et $u : \prod_{j \in J} M_j \to N$ une application multilinéaire. Alors $u$ est polynomiale de degré $\mathrm{Card}(J)$.
-4) Soient $(X_i)_{i \in I}$ une famille d’indéterminées, $N$ un $A$-module, et $u \in N[(X_i)_{i \in I}]$ un polynôme homogène de degré $q$. L’application $(x_i)_{i \in I} \mapsto u((x_i)_{i \in I})$ de $A^{(I)}$ dans $N$ est une application polynomiale homogène de degré $q$ : cela se voit aussitôt sur la condition (iii) de la prop. 13. Si $I$ est fini, toute application polynomiale homogène de degré $q$ de $A^{(I)} = A^I$ dans $N$ est de cette forme.
-5) L’application $(x_i)_{i \in \mathbf{N}} \mapsto x_0^2 + x_1^2 + \cdots + x_n^2 + \cdots$ de $A^{(\mathbf{N})}$ dans $A$ est une application polynomiale homogène de degré 2. Si $A = \mathbf{Z}/2\mathbf{Z}$, elle coïncide avec la forme linéaire $(x_i)_{i \in \mathbf{N}} \mapsto x_1 + x_2 + \cdots + x_n + \cdots$.
-6) Soit $f \in \mathrm{Pol}_A^q(M, N)$. Soient $B$ un anneau commutatif, $\rho$ un homomorphisme de B dans A, M' et N' les B-modules déduits de M et N grâce à ρ. Supposons M' libre. Alors f ∈ Pol_B^q(M', N') : cela se voit aussitôt sur la condition (i) de la prop. 13.
+
+#### Exemple 2 {#alg-iv-s5-n9-exa-2 .statement}
+
+Soient $(N_i)_{i \in I}$ une famille de $A$-modules, $f_i$ une application de $M$ dans $N_i$, $i \in I$, et $f : M \to \prod_{i \in I} N_i$ l’application de composantes $f_i$. Pour que $f$ soit polynomiale homogène de degré $q$, il faut et il suffit que chaque $f_i$ soit polynomiale homogène de degré $q$.
+
+#### Exemple 3 {#alg-iv-s5-n9-exa-3 .statement}
+
+Soient $(M_j)_{j \in J}$ une famille finie de $A$-modules libres et $u : \prod_{j \in J} M_j \to N$ une application multilinéaire. Alors $u$ est polynomiale de degré $\mathrm{Card}(J)$.
+
+#### Exemple 4 {#alg-iv-s5-n9-exa-4 .statement}
+
+Soient $(X_i)_{i \in I}$ une famille d’indéterminées, $N$ un $A$-module, et $u \in N[(X_i)_{i \in I}]$ un polynôme homogène de degré $q$. L’application $(x_i)_{i \in I} \mapsto u((x_i)_{i \in I})$ de $A^{(I)}$ dans $N$ est une application polynomiale homogène de degré $q$ : cela se voit aussitôt sur la condition (iii) de la prop. 13. Si $I$ est fini, toute application polynomiale homogène de degré $q$ de $A^{(I)} = A^I$ dans $N$ est de cette forme.
+
+#### Exemple 5 {#alg-iv-s5-n9-exa-5 .statement}
+
+L’application $(x_i)_{i \in \mathbf{N}} \mapsto x_0^2 + x_1^2 + \cdots + x_n^2 + \cdots$ de $A^{(\mathbf{N})}$ dans $A$ est une application polynomiale homogène de degré 2. Si $A = \mathbf{Z}/2\mathbf{Z}$, elle coïncide avec la forme linéaire $(x_i)_{i \in \mathbf{N}} \mapsto x_1 + x_2 + \cdots + x_n + \cdots$.
+
+#### Exemple 6 {#alg-iv-s5-n9-exa-6 .statement}
+
+Soit $f \in \mathrm{Pol}_A^q(M, N)$. Soient $B$ un anneau commutatif, $\rho$ un homomorphisme de B dans A, M' et N' les B-modules déduits de M et N grâce à ρ. Supposons M' libre. Alors f ∈ Pol_B^q(M', N') : cela se voit aussitôt sur la condition (i) de la prop. 13.
 
 #### Proposition 14 {#alg-iv-s5-prop-14 .statement}
 

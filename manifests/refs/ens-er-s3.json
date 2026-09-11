@@ -1,0 +1,4 @@
+{"edges": [
+{"from":"","from_label":"ens-er-s3","to_label":"ens-er-s2","kind":"cites","raw":"§ 2, no. 13","form":"section","resolved_by":"section","file":"content/en/ens/ER/03_s3_products_of_sets.md","line":71},
+{"from":"","from_label":"ens-er-s3","to_label":"ens-er-s2","kind":"cites","raw":"§2, nos. 4","form":"section","resolved_by":"section","file":"content/en/ens/ER/03_s3_products_of_sets.md","line":87}
+]}

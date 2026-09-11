@@ -58,9 +58,9 @@ subsections:
       title: Une propriété de la convergence vague
       page: 0
       pdf_page: 204
-statements: 77
+statements: 81
 exercises: 30
-content_sha256: 75f971651d88da0710e759eaf3b5edbfa9128b3f30e470b8ae93bb0134ca293f
+content_sha256: 34b63f1e767b60add3ef54429841cd902d1e40134f1f160ad4e20526aedd9fbd
 ---
 
 ## § 5. Fonctions et ensembles mesurables
@@ -194,7 +194,10 @@ et que les restrictions à $K_1$ de toutes les fonctions $f_n$ soient continues 
 #### Remarque 1 {#int-iv-s5-n3-rem-1 .statement}
 
 Le théorème ne s’étend pas à un produit quelconque d’espaces topologiques (exerc. 1).
-2) Si f est une application continue de X dans lui-même, g une application mesurable de X dans F, $g \circ f$ n’est pas nécessairement mesurable (exerc. 2).
+
+#### Remarque 2 {#int-iv-s5-n3-rem-2 .statement}
+
+Si f est une application continue de X dans lui-même, g une application mesurable de X dans F, $g \circ f$ n’est pas nécessairement mesurable (exerc. 2).
 
 #### Corollaire 1 {#int-iv-s5-thm-1-cor-1 .statement}
 
@@ -310,8 +313,14 @@ Montrons maintenant que les conditions a) et b) sont suffisantes. Soit K une par
 #### Remarque 1 {#int-iv-s5-n5-rem-1 .statement}
 
 La condition a) seule ne suffit pas pour que $f$ soit mesurable (exerc. 7).
-2) Si la topologie de F admet une base dénombrable, la condition b) du th. 4 est automatiquement remplie pour toute application de X dans F. La démonstration prouve en outre qu’il suffit de supposer que les images réciproques par $f$ des boules fermées de rayon rationnel, dont le centre appartient à un ensemble dénombrable partout dense dans F, sont des ensembles mesurables.
-3) On peut remplacer l’hypothèse a) par la condition que l’image réciproque par $f$ de toute boule ouverte de F est mesurable.
+
+#### Remarque 2 {#int-iv-s5-n5-rem-2 .statement}
+
+Si la topologie de F admet une base dénombrable, la condition b) du th. 4 est automatiquement remplie pour toute application de X dans F. La démonstration prouve en outre qu’il suffit de supposer que les images réciproques par $f$ des boules fermées de rayon rationnel, dont le centre appartient à un ensemble dénombrable partout dense dans F, sont des ensembles mesurables.
+
+#### Remarque 3 {#int-iv-s5-n5-rem-3 .statement}
+
+On peut remplacer l’hypothèse a) par la condition que l’image réciproque par $f$ de toute boule ouverte de F est mesurable.
 
 Le cas des fonctions numériques (finies ou non) mérite une mention particulière :
 
@@ -737,7 +746,10 @@ d’où $|\mu|^*(C) \leq \delta$, ce qui démontre (iii).
 #### Remarque 1 {#int-iv-s5-n11-rem-1 .statement}
 
 L’espace vectoriel topologique $\mathcal{S}(X, \mu; F)$ n’est pas nécessairement localement convexe (exerc. 24).
-2) La topologie induite par la topologie de la convergence en mesure sur l’ensemble des $f$ telles que $N_p(f) \leq 1$ peut être strictement moins fine que la topologie induite sur cet ensemble par la topologie de la convergence en moyenne d’ordre $p$ (exerc. 22). Voir toutefois la prop. 21 ci-dessous.
+
+#### Remarque 2 {#int-iv-s5-n11-rem-2 .statement}
+
+La topologie induite par la topologie de la convergence en mesure sur l’ensemble des $f$ telles que $N_p(f) \leq 1$ peut être strictement moins fine que la topologie induite sur cet ensemble par la topologie de la convergence en moyenne d’ordre $p$ (exerc. 22). Voir toutefois la prop. 21 ci-dessous.
 
 #### Définition 10 {#int-iv-s5-def-10 .statement}
 
@@ -750,7 +762,7 @@ $$
 
 Si $p = 1$, on dit « équiintégrable » au lieu de « équiintégrable d’ordre $p$ ».
 
-#### Remarque {#int-iv-s5-n11-rem-2 .statement}
+#### Remarque {#int-iv-s5-n11-rem-3 .statement}
 
 Supposons $\mu$ bornée. Pour tout $a > 0$, l’ensemble des applications mesurables de $X$ dans $F$ telles que $|f(x)| \leq a$ presque partout est équiintégrable d’ordre $p$, et ceci quel que soit $p \in [1, +\infty[$.
 

@@ -351,13 +351,13 @@ $$
 g \cdot \nu = \int (g \cdot \lambda_t) d\mu(t).
 $$
 
-Let $(K_n)_{n \in \mathbf{N}}$ be an increasing sequence of compact subsets of $X$ whose interiors cover $X$; if $\eta$ is any positive measure on $X$, to say that $g$ is locally $\eta$-integrable is equivalent to saying that $g \varphi_{K_n}$ is $\eta$-integrable for every $n$. Now let $H_n$ be the set of $t \in T$ such that $g \varphi_{K_n}$ is not $\lambda_t$-integrable, and let $H = \bigcup_n H_n$; since $H_n$ is locally $\mu$-negligible for all $n$ (§ 3, No. 3, Th. 1), the same is true of $H$, which establishes the first assertion of the statement. Replacing $\lambda_t$ by 0 for $t$ in $H$ (which does not change the measure $\nu$), we can suppose that $g$ is locally $\lambda_t$-integrable for every $t \in T$. For every $\nu$-measurable positive function $h$ defined on $X$, we have, by Prop. 3 and by Prop. 5 of § 3, No. 2,
+Cho $(K_n)_{n \in \mathbf{N}}$ là một dãy tăng các tập con compact của $X$ mà các phần trong của chúng phủ $X$; nếu $\eta$ là bất kỳ độ đo dương nào trên $X$, nói rằng $g$ là khả tích địa phương đối với $\eta$ tương đương với việc nói rằng $g \varphi_{K_n}$ là khả tích đối với $\eta$ với mọi $n$. Bây giờ cho $H_n$ là tập hợp các $t \in T$ sao cho $g \varphi_{K_n}$ không khả tích đối với $\lambda_t$, và cho $H = \bigcup_n H_n$; vì $H_n$ là không đáng kể địa phương đối với $\mu$ với mọi $n$ (§ 3, Số 3, Định lý 1), điều tương tự cũng đúng với $H$, điều này thiết lập khẳng định đầu tiên của mệnh đề. Thay $\lambda_t$ bởi 0 đối với $t$ trong $H$ (điều này không làm thay đổi độ đo $\nu$), ta có thể giả sử rằng $g$ là khả tích địa phương đối với $\lambda_t$ với mọi $t \in T$. Với mọi hàm dương $\nu$-đo được $h$ xác định trên $X$, ta có, theo Mệnh đề 3 và Mệnh đề 5 của § 3, Số 2,
 
 $$
 \int^\bullet h d(g \cdot \nu) = \int^\bullet (gh) d\nu = \int^\bullet d\mu(t) \int^\bullet (gh) d\lambda_t = \int^\bullet d\mu(t) \int^\bullet h d(g \cdot \lambda_t).
 $$
 
-This formula and Prop. 5 of § 3, No. 2 first show (on taking $h \in \mathcal{K}_+(X)$) that the mapping $t \mapsto g \cdot \lambda_t$ is scalarly essentially $\mu$-integrable, and that its integral is $g \cdot \nu$; in other words, the relation (9) holds. Next, let us replace $\mu$ by a positive measure $\mu' \leq \mu$, and let us take for $h$ a positive lower semi-continuous function: it follows at once from these relations that $t \mapsto g \cdot \lambda_t$ is $\mu$-adequate (§ 3, No. 1, Def. 1).
+Công thức này và Mệnh đề 5 của § 3, Số 2 trước hết chỉ ra (khi lấy $h \in \mathcal{K}_+(X)$) rằng ánh xạ $t \mapsto g \cdot \lambda_t$ là khả tích thiết yếu theo vô hướng đối với $\mu$, và tích phân của nó là $g \cdot \nu$; nói cách khác, hệ thức (9) đúng. Tiếp theo, thay $\mu$ bởi một độ đo dương $\mu' \leq \mu$, và lấy $h$ là một hàm nửa liên tục dưới dương: từ các hệ thức này suy ra ngay rằng $t \mapsto g \cdot \lambda_t$ là $\mu$-thích đáng (§ 3, Số 1, Định nghĩa 1).
 
 #### Mệnh đề 8 {#int-v-s5-prop-8 .statement}
 
@@ -427,7 +427,7 @@ $$
 \nu_\alpha = g_\alpha \cdot \mu_\alpha = g_\alpha \cdot (\varphi_{K_\alpha} \cdot \mu) = (g_\alpha \varphi_{K_\alpha}) \cdot \mu = g_\alpha \cdot \mu .
 $$
 
-Set $g = \sum_{\alpha \in A} g_\alpha$; vì họ $(g_\alpha)$ là địa phương đếm được và họ $(\nu_\alpha)$ là khả tổng, Mệnh đề 6 suy ra rằng $g$ là địa phương $\mu$-khả tích, và rằng $\nu = g \cdot \mu$, điều đó chứng minh định lý.
+Tập hợp $g = \sum_{\alpha \in A} g_\alpha$; vì họ $(g_\alpha)$ là địa phương đếm được và họ $(\nu_\alpha)$ là khả tổng, Mệnh đề 6 suy ra rằng $g$ là địa phương $\mu$-khả tích, và rằng $\nu = g \cdot \mu$, điều đó chứng minh định lý.
 
 #### Hệ quả 1 {#int-v-s5-thm-2-cor-1 .statement}
 

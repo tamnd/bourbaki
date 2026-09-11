@@ -74,7 +74,7 @@ Công thức Euler-Maclaurin cho phép đưa ra một nghiệm đầy đủ hơn
 
 Ta sẽ giới hạn ở trường hợp $g$ là một hàm (H) (V, p. 252), cấp 0 đối với $e^x$; nói cách khác, ta có quan hệ $g' \ll g$; từ quan hệ này suy ra $g^{(k+1)} \ll g^{(k)}$ với mọi số nguyên $k > 0$ sao cho không một đạo hàm nào $g^{(h)}$ cấp $h \leq k$ là tương đương với một hằng (V, p. 232, mệnh đề 7). Gọi $p$ là một số nguyên sao cho không một đạo hàm nào $g^{(h)}$ cấp $h \leq 2p$ là tương đương với một hằng. Trước hết ta giả sử rằng chuỗi có số hạng tổng quát $g(n)$ có tổng vô hạn, và phân biệt nhiều trường hợp:
 
-1. $|g^{(2p-1)}(n)|$ tends to $+\infty$ with $n$; we have the same, by the hypothesis, for $|g^{(2k-1)}(n)|$ for $1 \leq k \leq p$; further, since $g^{(2p+1)}$ is monotone on a neighbourhood of $+\infty$, the formula (4) of VI, p. 289, gives $T_p(0, n) = O(g^{(2p)}(n+1)) = o(g^{(2p-1)}(n+1))$; the Euler-Maclaurin formula, applied for $x = 0$, shows that
+1. $|g^{(2p-1)}(n)|$ tiến tới $+\infty$ cùng với $n$; theo giả thiết, ta cũng có điều tương tự đối với $|g^{(2k-1)}(n)|$ với $1 \leq k \leq p$; hơn nữa, vì $g^{(2p+1)}$ là đơn điệu trên một lân cận của $+\infty$, công thức (4) của VI, tr. 289, cho $T_p(0, n) = O(g^{(2p)}(n+1)) = o(g^{(2p-1)}(n+1))$; công thức Euler-Maclaurin, áp dụng với $x = 0$, cho thấy rằng
 
 $$
 s_n = \sum_{m=0}^n g(m) = \int_0^{n+1} g(t) \, dt - \frac{1}{2} g(n+1)

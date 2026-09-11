@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: 50c6cc05b2ccc2095e50498f73abfff21dc821eb67be70898687f9eaa7f42d47
+content_sha256: 845010b74a8ea91e0c4cb9a0154d6ff0e54956656141b9c430cd249684c0e77e
 translated_from: content/en-mt/ts/V/02_s2_representations_des_groupes_localement.md
 source_lang: en-mt
 translation_method: machine
@@ -85,7 +85,7 @@ Cho $\varrho$ là một biểu diễn liên tục của G trong một không gia
 
 #### Nhận xét {#ts-v-s2-n1-rem-1 .statement tag=03A6}
 
-Biểu diễn đối ngẫu contragredient không nhất thiết liên tục khi $E'$ được trang bị tôpô mạnh (cf. INT, VIII, p. 191, § 2, exercise 3, d)). Ta có thể chứng minh rằng nó là như vậy nếu không gian E là nửa phản xạ (loc. cit., c)).
+Biểu diễn đối ngẫu contragredient không nhất thiết liên tục khi $E'$ được trang bị tôpô mạnh (cf. INT, VIII, p. 191, § 2, bài tập 3, d)). Ta có thể chứng minh rằng nó là như vậy nếu không gian E là nửa phản xạ (loc. cit., c)).
 
 ### 2. Mở rộng các biểu diễn đến các không gian độ đo
 
@@ -247,9 +247,9 @@ $$
 
 Cho $\varrho$ là một biểu diễn bị chặn liên tục của G trong một không gian Banach E. Với mọi $f\in L^1(G)$ (tương ứng $f'\in L^1(G, \mu')$) và mọi $g\in G$, ta có
 
-(1) $\varrho (g)\varrho (f\cdot \mu) =\varrho (\varepsilon_g*(f\cdot \mu)) =\varrho (\boldsymbol{\gamma }$[^1]$_G(g)f\cdot \mu)$,
+(1) $\varrho (g)\varrho (f\cdot \mu) =\varrho (\varepsilon_g*(f\cdot \mu)) =\varrho (\boldsymbol{\gamma }^{(1)}_G(g)f\cdot \mu)$,
 
-(2) $\varrho (f'\cdot \mu')\varrho (g) =\varrho ((f'\cdot \mu')*\varepsilon_g) =\varrho (\boldsymbol{\delta }$[^1]$_G(g^{-1})f'\cdot \mu')$
+(2) $\varrho (f'\cdot \mu')\varrho (g) =\varrho ((f'\cdot \mu')*\varepsilon_g) =\varrho (\boldsymbol{\delta }^{(1)}_G(g^{-1})f'\cdot \mu')$
 
 (INT, VIII, p. 144, § 3, n$^o2$, công thức (5)).
 
@@ -271,11 +271,11 @@ với mọi $f\in \mathscr{L}^p$(G), mọi $(g_1, g_2)\in G\times G$ và mọi $
 
 Biểu diễn chính quy hai bên của G trong $L^p(G, \mu)$ không nhất thiết trung thành; hạt nhân của nó là ảnh của tâm của G qua ánh xạ $g\mapsto (g, g)$ (bài tập 4 của V, p. 487).
 
-Khi $p= 2$, biểu diễn chính quy trái $\boldsymbol{\gamma }$[^2]$_G$ của G trong không gian Hilbert phức $L^2(G, \mu)$ là unita, vì nó đẳng cự. Tương tự, biểu diễn chính quy phải $\boldsymbol{\delta }_G$[^2] trong $L^2(G, \mu')$ là unita.
+Khi $p= 2$, biểu diễn chính quy trái $\boldsymbol{\gamma }^{(2)}_G$ của G trong không gian Hilbert phức $L^2(G, \mu)$ là unita, vì nó đẳng cự. Tương tự, biểu diễn chính quy phải $\boldsymbol{\delta }^{(2)}_G$ trong $L^2(G, \mu')$ là unita.
 
-Ta sẽ viết đơn giản $\boldsymbol{\gamma }_G=\boldsymbol{\gamma }$[^2]$_G$ và $\boldsymbol{\delta }_G=\boldsymbol{\delta }$[^2]$_G$, và ta sẽ gọi các biểu diễn này là các biểu diễn chính quy trái và phải của G.
+Ta sẽ viết đơn giản $\boldsymbol{\gamma }_G=\boldsymbol{\gamma }^{(2)}_G$ và $\boldsymbol{\delta }_G=\boldsymbol{\delta }^{(2)}_G$, và ta sẽ gọi các biểu diễn này là các biểu diễn chính quy trái và phải của G.
 
-Nếu G là đơn môđula, biểu diễn chính quy hai bên $\boldsymbol{\varrho }$[^2]$_G$ của $G\times G$ trong $L^2(G, \mu)$ là unita. Ta sẽ viết nó đơn giản là $\boldsymbol{\varrho }_G$.
+Nếu G là đơn môđula, biểu diễn chính quy hai bên $\boldsymbol{\varrho }^{(2)}_G$ của $G\times G$ trong $L^2(G, \mu)$ là unita. Ta sẽ viết nó đơn giản là $\boldsymbol{\varrho }_G$.
 
 #### Bổ đề 4 {#ts-v-s2-lem-4 .statement tag=03AE}
 
@@ -665,7 +665,7 @@ trong đó tất cả các hàm xuất hiện trong các đẳng thức này đ�
 
 Không gian con $\mathscr{K}_{\chi}(G)$ của $\mathscr{F}_{\chi}(G)$ ổn định dưới $\boldsymbol{\gamma }_{G,\chi}$ và $\boldsymbol{\delta }_{G,\chi}$. Cho $p$ là một số thực $\geqslant 1$. Các công thức (8) suy ra rằng các biểu diễn $\boldsymbol{\gamma }_{G,\chi}$ và $\boldsymbol{\delta }_{G,\chi}$, hạn chế vào $\mathscr{K}_{\chi}$(G), mở rộng thành các biểu diễn tuyến tính đẳng cự liên tục của G trong $\mathscr{L}_{\chi}^p$(G), được ký hiệu bởi $\boldsymbol{\gamma }^{(p)}_{G,\chi}$ và $\boldsymbol{\delta }^{(p)}_{G,\chi}$. Bằng cách chuyển qua các thương, các biểu diễn này cũng xác định các biểu diễn đẳng cự của G trong $L^p_{\chi}$(G), được ký hiệu theo cùng cách.
 
-Các biểu diễn $\boldsymbol{\gamma }_G$[^2]$_{,\chi}$ và $\boldsymbol{\delta }_G$[^2]$_{,\chi}$ trong $L_{\chi}^2(G)$ là unita, và sẽ được ký hiệu đơn giản là $\boldsymbol{\gamma }_{G,\chi}$ và $\boldsymbol{\delta }_{G,\chi}$, tương ứng, bất cứ khi nào không thể có sự nhầm lẫn với các biểu diễn trong $\mathscr{F}_{\chi}(G)$. Ta cũng ký hiệu bởi $\boldsymbol{\varrho }_{G,\chi}$ biểu diễn liên tục của $G\times G$ trong $\mathscr{L}_{\chi}^2(G)$ hoặc $L^2_{\chi}(G)$ được xác định bởi
+Các biểu diễn $\boldsymbol{\gamma }^{(2)}_{G,\chi}$ và $\boldsymbol{\delta }^{(2)}_{G,\chi}$ trong $L_{\chi}^2(G)$ là unita, và sẽ được ký hiệu đơn giản là $\boldsymbol{\gamma }_{G,\chi}$ và $\boldsymbol{\delta }_{G,\chi}$, tương ứng, bất cứ khi nào không thể có sự nhầm lẫn với các biểu diễn trong $\mathscr{F}_{\chi}(G)$. Ta cũng ký hiệu bởi $\boldsymbol{\varrho }_{G,\chi}$ biểu diễn liên tục của $G\times G$ trong $\mathscr{L}_{\chi}^2(G)$ hoặc $L^2_{\chi}(G)$ được xác định bởi
 
 $$
 \boldsymbol{\varrho }_{G,\chi}(g, h) =\boldsymbol{\gamma }_{G,\chi}(g)\circ \boldsymbol{\delta }_{G,\chi}(h) =\boldsymbol{\delta }_{G,\chi}(h)\circ \boldsymbol{\gamma }_{G,\chi}(g)
@@ -823,7 +823,7 @@ Hàm $f_{x,y}$ là liên tục, do đó $\mu$-đo được. Ta có $f_{x,y}\in \
 
 Cho $\pi$ là một biểu diễn đơn vị bất khả quy của G trong một không gian Hilbert E là khả tích bình phương modulo tâm. Cho $\chi$ là hạn chế vào Z của đặc trưng trung tâm của $\pi$.
 
-Tồn tại một số thực $c >0$ và một cấu xạ đẳng cự duy nhất $(G\times G)$-morphism $w$ của biểu diễn đơn vị $\overline{\pi}\boxtimes \pi$ vào $L^2_{\chi}(G)$ sao cho, với mọi $(x, y)\in \overline{E}\times E$, phần tử $w(x\otimes y)$ là lớp trong $L^2_{\chi}(G)$ của hàm $c^{1/2}f_{x,y}$.
+Tồn tại một số thực $c >0$ và một cấu xạ đẳng cự duy nhất $(G\times G)$-cấu xạ $w$ của biểu diễn đơn vị $\overline{\pi}\boxtimes \pi$ vào $L^2_{\chi}(G)$ sao cho, với mọi $(x, y)\in \overline{E}\times E$, phần tử $w(x\otimes y)$ là lớp trong $L^2_{\chi}(G)$ của hàm $c^{1/2}f_{x,y}$.
 
 Với mọi $(x, y)\in E\times E$, ta có $f_{x,y}\in \mathscr{L}_{\chi}^2(G)$ (bổ đề 9). Gọi $v$ là ánh xạ tuyến tính duy nhất từ $\overline{E}\otimes E$ vào $L^2_{\chi}(G)$ sao cho $v(x\otimes y)$ là lớp của $f_{x,y}$ với mọi $(x, y)\in E\times E$.
 

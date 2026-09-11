@@ -148,7 +148,7 @@ Cho E là một không gian vectơ có thứ tự; tập hợp P các phần t�
 
 $^3$ Nguyên bản là étrangers, cũng được dịch là "coprime" (A, VI, §1, No. 12); các thuật ngữ "orthogonal", "disjoint" và "mutually singular" cũng được dùng.
 
-P + P ⊂ P và λP ⊂ P với mọi λ > 0. Ngược lại, nếu, trong một không gian vectơ E trên $\mathbf{R}$, P là một nón lồi có đỉnh 0, sao cho $P \cap (-P) = \{0\}$ (nói cách khác, một nón lồi *pointed* và *proper*), thì ta biết (*loc. cit.*) rằng quan hệ $y - x \in P$ là một quan hệ thứ tự (ký hiệu là $x \leq y$) tương thích với cấu trúc không gian vectơ của E. Để cấu trúc thứ tự này xác định một cấu trúc *không gian Riesz* trên E, điều kiện cần và đủ là:
+P + P ⊂ P và λP ⊂ P với mọi λ > 0. Ngược lại, nếu, trong một không gian vectơ E trên $\mathbf{R}$, P là một nón lồi có đỉnh 0, sao cho $P \cap (-P) = \{0\}$ (nói cách khác, một nón lồi *nhọn* và *thực sự*), thì ta biết (*loc. cit.*) rằng quan hệ $y - x \in P$ là một quan hệ thứ tự (ký hiệu là $x \leq y$) tương thích với cấu trúc không gian vectơ của E. Để cấu trúc thứ tự này xác định một cấu trúc *không gian Riesz* trên E, điều kiện cần và đủ là:
 
 $1^\circ$ P sinh ra E, nghĩa là, mọi $z \in E$ đều có dạng $y - x$, trong đó x và y thuộc P;
 

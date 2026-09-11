@@ -315,7 +315,7 @@ Từ đó trở đi, việc sử dụng ngôn ngữ hình học này trong toàn
 
 20. E. STEINITZ: (a) Algebraische Theorie der Korper, Crelle’s Journal, 137 (1910), pp. 167–308; (b) Rechteckige Systeme und Moduln in algebraischen Zahlkörpern, Math. Ann. 71 (1912), pp. 328–354 and 72 (1912), pp. 297–345.
 
-21. F. S. MACAULAY, On the resolution of a given modular system into primary systems including some properties of Hilbert numbers, Math. Ann., 74 (1913), pp. 66–121.
+21. F. S. MACAULAY, Về sự phân giải của một hệ môđun đã cho thành các hệ nguyên sơ, bao gồm một số tính chất của các số Hilbert, Math. Ann., 74 (1913), tr. 66–121.
 
 22. J. KÜRSCHAK, Über Limesbildung und allgemeine Körpertheorie, Crelle’s Journal, 142 (1913), pp. 211–253.
 
@@ -911,56 +911,7 @@ Các tham chiếu chỉ nơi trong Quyển này hoặc Quyển Đại số mà k
 
 Trong bảng này $a$ ký hiệu một iđêan của $\mathbf{A}$ khác với $\mathbf{A}$, $S$ một tập con nhân của $\mathbf{A}$ và $\mathbf{A}'$ là bao đóng nguyên của $\mathbf{A}$ được giả sử là một miền nguyên.
 
-<table>
-  <tr>
-    <th></th>
-    <th>A/a</th>
-    <th>S^{-1}A</th>
-    <th>A[X]</th>
-    <th>A[[X]]</th>
-    <th>A'</th>
-  </tr>
-  <tr>
-    <td>A địa phương</td>
-    <td>CÓ</td>
-    <td>KHÔNG<br>II, §2, Mệnh đề 11</td>
-    <td>KHÔNG</td>
-    <td>CÓ<br>Alg. IV, §5, Mệnh đề 4</td>
-    <td>KHÔNG<br>V, 42, Bài tập 20</td>
-  </tr>
-  <tr>
-    <td>A địa phương và đầy đủ</td>
-    <td>?<br>CÓ nếu $\Lambda$ là Noether (III, §3, Mệnh đề 6)</td>
-    <td>KHÔNG<br>II, §2, Mệnh đề 11</td>
-    <td>KHÔNG</td>
-    <td>CÓ<br>III, §2, Mệnh đề 6</td>
-    <td>?<br>CÓ nếu $\Lambda$ là Noether (1)</td>
-  </tr>
-  <tr>
-    <td>A nửa địa phương</td>
-    <td>CÓ</td>
-    <td>KHÔNG<br>IV, §2, Bài tập 23(c)</td>
-    <td>KHÔNG</td>
-    <td>CÓ<br>Alg. IV, §5, Mệnh đề 4</td>
-    <td>CÓ nếu $\mathbf{A}$ là Noether<br>V, §2, Bài tập 7</td>
-  </tr>
-  <tr>
-    <td>A nửa địa phương và đầy đủ</td>
-    <td>?<br>CÓ nếu $\mathbf{A}$ là Noether (III, §3, Mệnh đề 6)</td>
-    <td>KHÔNG<br>IV, 42, Bài tập 23(c)</td>
-    <td>KHÔNG</td>
-    <td>CÓ<br>III, §2, Mệnh đề 6</td>
-    <td>—</td>
-  </tr>
-  <tr>
-    <td>A Noether</td>
-    <td>CÓ<br>Alg. VIII, §2, Mệnh đề 6</td>
-    <td>CÓ<br>II, §2, Hệ quả cho Mệnh đề 10</td>
-    <td>CÓ<br>III, §2, Hệ quả 1 cho Định lý 2</td>
-    <td>CÓ<br>III, §2, Hệ quả 6 cho Định lý 2</td>
-    <td>KHÔNG<br>V, §1, Bài tập 21<br>CÓ nếu $\mathbf{A}$ là đầy đủ địa phương (1)<br>$\mathbf{A}'$ luôn là miền Krull (2)</td>
-  </tr>
-</table> (a) Cho $\mathbf{A}$ là một vành và $m$ là một iđêan của $\mathbf{A}$ phân biệt với $\mathbf{A}$. Trang bị cho $\mathbf{A}$ tôpô $m$-adic và ký hiệu $\hat{\mathbf{A}}$ là phần bù Hausdorff của nó.
+<bảng> <tr> <th></th> <th>A/a</th> <th>S^{-1}A</th> <th>A[X]</th> <th>A[[X]]</th> <th>A'</th> </tr> <tr> <td>A địa phương</td> <td>CÓ</td> <td>KHÔNG<br>II, §2, Mệnh đề 11</td> <td>KHÔNG</td> <td>CÓ<br>Alg. IV, §5, Mệnh đề 4</td> <td>KHÔNG<br>V, 42, Bài tập 20</td> </tr> <tr> <td>A địa phương và đầy đủ</td> <td>?<br>CÓ nếu $\Lambda$ là Noether (III, §3, Mệnh đề 6)</td> <td>KHÔNG<br>II, §2, Mệnh đề 11</td> <td>KHÔNG</td> <td>CÓ<br>III, §2, Mệnh đề 6</td> <td>?<br>CÓ nếu $\Lambda$ là Noether (1)</td> </tr> <tr> <td>A nửa địa phương</td> <td>CÓ</td> <td>KHÔNG<br>IV, §2, Bài tập 23(c)</td> <td>KHÔNG</td> <td>CÓ<br>Alg. IV, §5, Mệnh đề 4</td> <td>CÓ nếu $\mathbf{A}$ là Noether<br>V, §2, Bài tập 7</td> </tr> <tr> <td>A nửa địa phương và đầy đủ</td> <td>?<br>CÓ nếu $\mathbf{A}$ là Noether (III, §3, Mệnh đề 6)</td> <td>KHÔNG<br>IV, 42, Bài tập 23(c)</td> <td>KHÔNG</td> <td>CÓ<br>III, §2, Mệnh đề 6</td> <td>—</td> </tr> <tr> <td>A Noether</td> <td>CÓ<br>Alg. VIII, §2, Mệnh đề 6</td> <td>CÓ<br>II, §2, Hệ quả cho Mệnh đề 10</td> <td>CÓ<br>III, §2, Hệ quả 1 cho Định lý 2</td> <td>CÓ<br>III, §2, Hệ quả 6 cho Định lý 2</td> <td>KHÔNG<br>V, §1, Bài tập 21<br>CÓ nếu $\mathbf{A}$ là đầy đủ địa phương (1)<br>$\mathbf{A}'$ luôn là miền Krull (2)</td> </tr> </bảng> (a) Cho $\mathbf{A}$ là một vành và $m$ là một iđêan của $\mathbf{A}$ phân biệt với $\mathbf{A}$. Trang bị cho $\mathbf{A}$ tôpô $m$-adic và ký hiệu $\hat{\mathbf{A}}$ là phần bù Hausdorff của nó.
 
 $$
 \begin{array}{ll}

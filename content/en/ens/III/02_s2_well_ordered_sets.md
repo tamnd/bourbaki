@@ -38,7 +38,7 @@ subsections:
       pdf_page: 163
 statements: 28
 exercises: 20
-content_sha256: 4ac2fa7577e3b279c1918b0f52c4d00e31f38944f59ee1c696ac83de2fb7f10b
+content_sha256: 1ca0af6bba0dc81ea81d456d04144c5394ceaf1e77570677f48682a2d16e5410
 ---
 
 ## 2. WELL-ORDERED SETS
@@ -67,7 +67,7 @@ Every subset (in particular, the empty subset) of a well-ordered set is well-ord
 
 #### Example 3 {#ens-iii-s2-n1-exa-3 .statement tag=03SZ}
 
-The existence of totally ordered sets which are not well-ordered is equivalent to the axiom of infinity (§ 4, no. 4, Corollary 1 to Proposition 3, and Exercise 3).
+\* The existence of totally ordered sets which are not well-ordered is equivalent to the axiom of infinity (§ 4, no. 4, Corollary 1 to Proposition 3, and Exercise 3).
 
 #### Example 4 {#ens-iii-s2-n1-exa-4 .statement tag=03T0}
 
@@ -223,7 +223,7 @@ An important example of a set of subsets which is inductive with respect to the 
 
 #### Example 3 {#ens-iii-s2-n4-exa-3 .statement tag=03T4}
 
-It follows from the axiom of infinity (§ 6, no. 1) that the well-ordered set of natural integers is not inductive with respect to the relation $\leqslant$. \*
+\* It follows from the axiom of infinity (§ 6, no. 1) that the well-ordered set of natural integers is not inductive with respect to the relation $\leqslant$. \*
 
 #### Theorem 2 ("Zorn's lemma") {#ens-iii-s2-thm-2 .statement tag=03QT}
 

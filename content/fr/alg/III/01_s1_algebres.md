@@ -38,9 +38,9 @@ subsections:
       title: Bases d’une algèbre. Table de multiplication
       page: 10
       pdf_page: 397
-statements: 5
+statements: 8
 exercises: 1
-content_sha256: 2d5e926b08c68d5e7ca5beba37db0cfedb5584bfc190c8df4ab07597ba9427c7
+content_sha256: 27a3504506c4303e364875c89a486914306d0be95db683b3ae14febc70e9aefa
 ---
 
 ## § 1. ALGÈBRES
@@ -72,10 +72,18 @@ Lorsque la multiplication dans l’algèbre E est associative, on dit que E est 
 #### Exemple 1 {#alg-iii-s1-n1-exa-1 .statement}
 
 Tout anneau commutatif A peut être considéré comme une A-algèbre (associative et commutative).
-  2) Soit E un pseudo-anneau (I, p. 93). La multiplication dans E et l’unique structure de \mathbf{Z}-module de E définissent sur E une structure de \mathbf{Z}-algèbre associative.
-  3) Soient F un ensemble, A un anneau commutatif. L’ensemble A^F de toutes les applications de F dans A, muni de la structure d’anneau produit (I, p. 103) et de la structure de A-module produit (II, p. 11), est une A-algèbre associative et commutative.
 
-4) Soit E une A-algèbre ; les lois internes $(x, y) \mapsto xy + yx$ et $(x, y) \mapsto xy - yx$ définissent (avec la structure de A-module de E) deux structures de A-algèbres sur E, qui ne sont pas en général associatives ; la première loi $(x, y) \mapsto xy + yx$ est toujours commutative.
+#### Exemple 2 {#alg-iii-s1-n1-exa-2 .statement}
+
+Soit E un pseudo-anneau (I, p. 93). La multiplication dans E et l’unique structure de \mathbf{Z}-module de E définissent sur E une structure de \mathbf{Z}-algèbre associative.
+
+#### Exemple 3 {#alg-iii-s1-n1-exa-3 .statement}
+
+Soient F un ensemble, A un anneau commutatif. L’ensemble A^F de toutes les applications de F dans A, muni de la structure d’anneau produit (I, p. 103) et de la structure de A-module produit (II, p. 11), est une A-algèbre associative et commutative.
+
+#### Exemple 4 {#alg-iii-s1-n1-exa-4 .statement}
+
+Soit E une A-algèbre ; les lois internes $(x, y) \mapsto xy + yx$ et $(x, y) \mapsto xy - yx$ définissent (avec la structure de A-module de E) deux structures de A-algèbres sur E, qui ne sont pas en général associatives ; la première loi $(x, y) \mapsto xy + yx$ est toujours commutative.
 
 #### Définition 2 {#alg-iii-s1-def-2 .statement}
 

@@ -451,7 +451,7 @@ $$
 n(\alpha, \gamma) = -3, \quad (\alpha|\alpha) = 3(\gamma|\gamma), \quad (\alpha|\gamma) = -\frac{1}{2}(\alpha|\alpha), \quad (\overline{\alpha, \gamma}) = \frac{5\pi}{6}
 $$
 
-![Three diagrams showing root systems with angles labeled π/3, π/4, 2π/3, and vectors γ + α, γ, γ + 2α](../images/root_systems_1.png)
+![Ba biểu đồ thể hiện các hệ nghiệm với các góc được ghi nhãn π/3, π/4, 2π/3, và các vectơ γ + α, γ, γ + 2α](../images/root_systems_1.png)
 
 3) Nếu độ dài của S bằng 2, thì $n(\gamma, \alpha) = -2$, do đó
 
@@ -459,7 +459,7 @@ $$
 n(\alpha, \gamma) = -1, \quad (\alpha|\alpha) = \frac{1}{2}(\gamma|\gamma), \quad (\alpha|\gamma) = -(\alpha|\alpha), \quad (\overline{\alpha, \gamma}) = \frac{3\pi}{4}.
 $$
 
-![Diagram showing root system with angles π/4, π/4, and vectors γ, γ + α, γ + 2α](../images/root_systems_2.png)
+![Biểu đồ thể hiện hệ nghiệm với các góc π/4, π/4, và các vectơ γ, γ + α, γ + 2α](../images/root_systems_2.png)
 
 4) Nếu độ dài của S bằng 3, thì $n(\gamma, \alpha) = -3$, do đó
 
@@ -467,7 +467,7 @@ $$
 n(\alpha, \gamma) = -1, \quad (\alpha|\alpha) = \frac{1}{3}(\gamma|\gamma), \quad (\alpha|\gamma) = -\frac{3}{2}(\alpha|\alpha), \quad (\overline{\alpha, \gamma}) = \frac{5\pi}{6}.
 $$
 
-![Diagram showing root system with angles π/6, π/3, π/6, and vectors γ, γ + α, γ + 2α, γ + 3α](../images/root_systems_3.png)
+![Biểu đồ thể hiện hệ nghiệm với các góc π/6, π/3, π/6, và các vectơ γ, γ + α, γ + 2α, γ + 3α](../images/root_systems_3.png)
 
 Ta sẽ thấy (Bản X, các hệ A₂, B₂, G₂) rằng tất cả các trường hợp này thực sự đều xảy ra.
 

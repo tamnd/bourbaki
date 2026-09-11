@@ -47,9 +47,9 @@ subsections:
       title: Théorie d’Artin-Schreier
       page: 0
       pdf_page: 191
-statements: 42
+statements: 46
 exercises: 23
-content_sha256: a7d120eb9909dcf5ef661f53cfcd32f9f607d9ae2ce4cd59743ab6d3a0b09fc9
+content_sha256: 6172953cd766561f91fc7cf0af9c39ae5d4c5a8b7820b611ba04c2b40195ebed
 ---
 
 ## § 11. EXTENSIONS ABÉLIENNES
@@ -117,8 +117,14 @@ Par ailleurs, soit $\beta_n$ la classe modulo $\mathbf{Z}[1/p]$ de $1/\lambda_n$
 #### Remarque 1 {#alg-v-s11-n2-rem-1 .statement}
 
 Lorsque K est un corps algébriquement clos de caractéristique 0, le groupe $\mu_\infty(K)$ est donc isomorphe (non canoniquement) à $\mathbf{Q}/\mathbf{Z}$. \* Lorsque K est le corps $\mathbf{C}$ des nombres complexes, on peut expliciter un tel isomorphisme ; en effet, l’application $x \mapsto e^{2\pi i x}$ est un homomorphisme de $\mathbf{Q}$ dans $\mathbf{C}^*$ de noyau $\mathbf{Z}$ et d’image $\mu_\infty(\mathbf{C})$; elle définit donc par passage au quotient un isomorphisme de $\mathbf{Q}/\mathbf{Z}$ sur $\mu_\infty(\mathbf{C})$. \*
-2) On peut prouver (cf. V, p. 156, exerc. 21) le résultat suivant : soient G et H deux groupes commutatifs dont tout élément est d’ordre fini. On suppose que, pour tout entier $n \geq 1$, l’équation $nx = 0$ a le même nombre de solutions, supposé fini, dans G que dans H. Les groupes G et H sont alors isomorphes. Ceci fournit une nouvelle démonstration de la prop. 2.
-3) Pour tout nombre premier $l$, posons $\mu_{l^\infty}(K) = \bigcup_{n \geq 0} \mu_{l^n}(K)$. Lorsque $l$ est la caractéristique $p$ de K, on a $\mu_{p^\infty}(K) = \{ 1 \}$. On déduit de I, p. 76, théorème 4, que $\mu_\infty(K)$ est somme directe des sous-groupes $\mu_{l^\infty}(K)$ où $l$ parcourt l’ensemble des nombres premiers distincts de $p$. Pour un nombre premier $l$ donné, deux cas seulement sont possibles : ou bien $\mu_{l^\infty}(K)$ est fini et alors $\mu_{l^\infty}(K)$ est isomorphe à $\mathbf{Z}/l^n\mathbf{Z}$ pour un $n$ convenable (th. 1), ou bien $\mu_{l^\infty}(K)$ est infini et alors $\mu_{l^\infty}(K)$ est isomorphe à $\mathbf{Z}[l^{-1}]/\mathbf{Z}$ (cf. remarque 2).
+
+#### Remarque 2 {#alg-v-s11-n2-rem-2 .statement}
+
+On peut prouver (cf. V, p. 156, exerc. 21) le résultat suivant : soient G et H deux groupes commutatifs dont tout élément est d’ordre fini. On suppose que, pour tout entier $n \geq 1$, l’équation $nx = 0$ a le même nombre de solutions, supposé fini, dans G que dans H. Les groupes G et H sont alors isomorphes. Ceci fournit une nouvelle démonstration de la prop. 2.
+
+#### Remarque 3 {#alg-v-s11-n2-rem-3 .statement}
+
+Pour tout nombre premier $l$, posons $\mu_{l^\infty}(K) = \bigcup_{n \geq 0} \mu_{l^n}(K)$. Lorsque $l$ est la caractéristique $p$ de K, on a $\mu_{p^\infty}(K) = \{ 1 \}$. On déduit de I, p. 76, théorème 4, que $\mu_\infty(K)$ est somme directe des sous-groupes $\mu_{l^\infty}(K)$ où $l$ parcourt l’ensemble des nombres premiers distincts de $p$. Pour un nombre premier $l$ donné, deux cas seulement sont possibles : ou bien $\mu_{l^\infty}(K)$ est fini et alors $\mu_{l^\infty}(K)$ est isomorphe à $\mathbf{Z}/l^n\mathbf{Z}$ pour un $n$ convenable (th. 1), ou bien $\mu_{l^\infty}(K)$ est infini et alors $\mu_{l^\infty}(K)$ est isomorphe à $\mathbf{Z}[l^{-1}]/\mathbf{Z}$ (cf. remarque 2).
 
 ### 3. Racines primitives de l’unité
 
@@ -307,8 +313,14 @@ On dit qu’une extension E de K est cyclique, si elle est galoisienne et si son
 #### Exemple 1 {#alg-v-s11-n6-exa-1 .statement}
 
 Toute extension galoisienne de degré premier est cyclique, car tout groupe fini G d’ordre premier $p$ est cyclique (en effet, tout élément $x \neq 1$ de G est d’ordre $p$, donc engendre G).
-2) Soit $F(X) = X^2 + aX + b$ un polynôme irréductible dans $K[X]$. Le seul cas où $F(X)$ n’est pas séparable est celui où K est de caractéristique 2 et $a = 0$. On écarte désormais ce cas ; soit E une extension de K engendrée par une racine $x$ de $F(X)$. On a $[E : K] = 2$, et $F(X) = (X - x)(X + a + x)$, donc E est une extension galoisienne de K. Le groupe de Galois de E par rapport à K est d’ordre 2, donc cyclique.
-3) Soient F un corps et $\sigma$ un automorphisme d’ordre fini $n$. Le corps E des invariants de $\sigma$ est aussi le corps des invariants du groupe cyclique d’ordre $n$ engendré par $\sigma$, et par suite (V, p. 64, th. 3), F est une extension cyclique de degré $n$ de E.
+
+#### Exemple 2 {#alg-v-s11-n6-exa-2 .statement}
+
+Soit $F(X) = X^2 + aX + b$ un polynôme irréductible dans $K[X]$. Le seul cas où $F(X)$ n’est pas séparable est celui où K est de caractéristique 2 et $a = 0$. On écarte désormais ce cas ; soit E une extension de K engendrée par une racine $x$ de $F(X)$. On a $[E : K] = 2$, et $F(X) = (X - x)(X + a + x)$, donc E est une extension galoisienne de K. Le groupe de Galois de E par rapport à K est d’ordre 2, donc cyclique.
+
+#### Exemple 3 {#alg-v-s11-n6-exa-3 .statement}
+
+Soient F un corps et $\sigma$ un automorphisme d’ordre fini $n$. Le corps E des invariants de $\sigma$ est aussi le corps des invariants du groupe cyclique d’ordre $n$ engendré par $\sigma$, et par suite (V, p. 64, th. 3), F est une extension cyclique de degré $n$ de E.
 
 On sait (I, p. 48) que tout sous-groupe et tout groupe quotient d’un groupe cyclique est cyclique. Par suite (V, p. 66, cor. 4), si E est une extension cyclique d’un corps K, de degré $n$, toute sous-extension F de E est cyclique sur K, et E est cyclique sur F. Pour tout diviseur $d$ de $n$, il existe un unique sous-corps F de degré $d$ sur K contenu dans E : en effet, dans un groupe cyclique d’ordre $n$, il existe un unique sous-groupe d’indice $d$.
 
@@ -493,7 +505,7 @@ Il existe une plus grande extension abélienne d’exposant divisant n de K cont
 
 #### Exemple 2 {#alg-v-s11-n8-exa-2 .statement}
 
-Prenons $K = \mathbf{Q}$ et $n = 2$. Alors $\mathbf{Q}^*/\mathbf{Q}^{*2}$ est un $\mathbf{F}_2$-espace vectoriel admettant pour base la réunion de $\{-1\}$ et de l’ensemble des nombres premiers. La plus grande extension abélienne d’exposant 2 de $\mathbf{Q}$ contenue dans $\mathbf{C}$ est donc le sous-corps $\mathbf{Q}(i, \sqrt{2}, \sqrt{3}, \sqrt{5}, ...)$ de $\mathbf{C}$. Son groupe de Galois est formé de tous les automorphismes obtenus en multipliant de façon indépendante chacun des éléments $i, \sqrt{2}, \sqrt{3}, \sqrt{5}$, etc., par $\pm 1$.
+\* Prenons $K = \mathbf{Q}$ et $n = 2$. Alors $\mathbf{Q}^*/\mathbf{Q}^{*2}$ est un $\mathbf{F}_2$-espace vectoriel admettant pour base la réunion de $\{-1\}$ et de l’ensemble des nombres premiers. La plus grande extension abélienne d’exposant 2 de $\mathbf{Q}$ contenue dans $\mathbf{C}$ est donc le sous-corps $\mathbf{Q}(i, \sqrt{2}, \sqrt{3}, \sqrt{5}, ...)$ de $\mathbf{C}$. Son groupe de Galois est formé de tous les automorphismes obtenus en multipliant de façon indépendante chacun des éléments $i, \sqrt{2}, \sqrt{3}, \sqrt{5}$, etc., par $\pm 1$.
 
 #### Exemple 3 {#alg-v-s11-n8-exa-3 .statement}
 

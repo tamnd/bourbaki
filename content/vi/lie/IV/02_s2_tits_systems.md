@@ -153,23 +153,15 @@ Theo (T3), tập $C(s_1).C(s_{j_1} \ldots s_{j_p} w)$ được chứa trong hợ
 
 Cho $k$ là một trường, $n$ là một số nguyên $\geq 0$, và $(e_i)$ là cơ sở chính tắc của $k^n$. Cho $G = \mathbf{GL}(n, k)$, cho $B$ là nhóm con tam giác trên của $G$, và cho $N$ là nhóm con của $G$ gồm các ma trận có đúng một phần tử khác không trong mỗi hàng và cột. Một phần tử của $N$ hoán vị các đường thẳng $ke_i$; điều này cho một đồng cấu toàn ánh $N \to \mathcal{S}_n$ có hạt nhân là nhóm con $T = B \cap N$ gồm các ma trận đường chéo, và cho phép ta đồng nhất $W = N/T$ với $\mathcal{S}_n$. Ta ký hiệu bởi $s_j$ ($1 \leq j \leq n-1$) phần tử của $W$ tương ứng với phép chuyển vị của $j$ và $j+1$; cho $S$ là tập hợp các $s_j$. *Bộ bốn* $(G, B, N, S)$ *là một hệ Tits*. Thật vậy:
 
-Tiên đề (T1) suy ra từ Hệ quả 2 của Mệnh đề 14 của *Algebra*, Chương II, § 10, no. 13.
+Tiên đề (T1) suy ra từ Hệ quả 2 của Mệnh đề 14 của *Đại số*, Chương II, § 10, no. 13.
 
-Tiên đề (T2) được chứng minh trong *Algebra*, Chương I, Đính chính cho p. 97.
-Tiên đề (T4) là ngay lập tức.
-Còn lại là kiểm tra tiên đề (T3), tức là
-$$
+Tiên đề (T2) được chứng minh trong *Đại số*, Chương I, Đính chính cho p. 97. Tiên đề (T4) là ngay lập tức. Còn lại là kiểm tra tiên đề (T3), tức là $$
 s_j B w \subset B w B \cup B s_j w B \quad \text{với } 1 \leq j \leq n-1, w \in W,
-$$
-hay tương đương,
-$$
+$$ hay tương đương, $$
 s_j B \subset B B' \cup B s_j B', \quad \text{với } B' = w B w^{-1}.
-$$
-Cho $G_j$ là nhóm con của $G$ gồm các phần tử cố định các $e_i$ với $i \neq j, j+1$ và ổn định mặt phẳng sinh bởi $e_j$ và $e_{j+1}$; nhóm này đẳng cấu với $\mathbf{GL}(2, k)$. Ta kiểm tra được rằng $G_j B = B G_j$. Vì $s_j \in G_j$, ta có $s_j B \subset B G_j$, và chỉ cần chứng minh rằng
-$$
+$$ Cho $G_j$ là nhóm con của $G$ gồm các phần tử cố định các $e_i$ với $i \neq j, j+1$ và ổn định mặt phẳng sinh bởi $e_j$ và $e_{j+1}$; nhóm này đẳng cấu với $\mathbf{GL}(2, k)$. Ta kiểm tra được rằng $G_j B = B G_j$. Vì $s_j \in G_j$, ta có $s_j B \subset B G_j$, và chỉ cần chứng minh rằng $$
 G_j \subset (B \cap G_j)(B' \cap G_j) \cup (\cap G_j) s_j (B' \cap G_j).
-$$
-Đồng nhất $G_j$ với $\mathbf{GL}(2, k)$; nhóm $B \cap G_j$ khi đó được đồng nhất với nhóm con tam giác trên $B_2$ của $\mathbf{GL}(2, k)$, trong khi nhóm $B' \cap G_j$ được đồng nhất với $B_2$ khi $w(j) < w(j+1)$ và với nhóm con tam giác dưới $B_2^-$ trong trường hợp ngược lại. Trong trường hợp thứ nhất, công thức cần chứng minh có thể viết là
+$$ Đồng nhất $G_j$ với $\mathbf{GL}(2, k)$; nhóm $B \cap G_j$ khi đó được đồng nhất với nhóm con tam giác trên $B_2$ của $\mathbf{GL}(2, k)$, trong khi nhóm $B' \cap G_j$ được đồng nhất với $B_2$ khi $w(j) < w(j+1)$ và với nhóm con tam giác dưới $B_2^-$ trong trường hợp ngược lại. Trong trường hợp thứ nhất, công thức cần chứng minh có thể viết là
 
 $$
 \mathbf{GL}(2, k) = B_2 \cup B_2 s B_2 \quad \text{trong đó } s = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix};
@@ -566,9 +558,9 @@ Giả thiết (3) được kéo theo bởi điều kiện sau:
 
 #### Ví dụ 1 {#lie-iv-s2-n7-exa-1 .statement}
 
-Cho k là một trường, n là một số nguyên $\geqslant 0$, $G = \mathbf{GL}(n, k)$, và cho (G, B, N, S) là hệ Tits được mô tả trong no. 2. Cho U là nhóm con tam giác trên ngặt của G, tức là nhóm con của B gồm các ma trận có các phần tử đường chéo bằng 1. Điều kiện (1) trong Đl. 5 là ngay lập tức, và (2) cũng vậy vì U là giải được. Điều kiện (4) được thoả mãn nếu $n \geq 2$. Có thể chứng minh (xem *Algebra*, Ch. II, § 10, Bài tập 13) rằng (3) được thoả mãn nếu $n \geq 3$ và Card$(k) \geq 4$. Dưới các điều kiện này, ta kết luận rằng $G_1 / (G_1 \cap Z)$ là *đơn* và $G_1 \cap Z$ là tâm của $G_1$ (xem *Nhận xét* 2).
+Cho k là một trường, n là một số nguyên $\geqslant 0$, $G = \mathbf{GL}(n, k)$, và cho (G, B, N, S) là hệ Tits được mô tả trong no. 2. Cho U là nhóm con tam giác trên ngặt của G, tức là nhóm con của B gồm các ma trận có các phần tử đường chéo bằng 1. Điều kiện (1) trong Đl. 5 là ngay lập tức, và (2) cũng vậy vì U là giải được. Điều kiện (4) được thoả mãn nếu $n \geq 2$. Có thể chứng minh (xem *Đại số*, Ch. II, § 10, Bài tập 13) rằng (3) được thoả mãn nếu $n \geq 3$ và Card$(k) \geq 4$. Dưới các điều kiện này, ta kết luận rằng $G_1 / (G_1 \cap Z)$ là *đơn* và $G_1 \cap Z$ là tâm của $G_1$ (xem *Nhận xét* 2).
 
-Khi $k$ là giao hoán, $G_1 = \mathbf{SL}(n, k)$ (xem *Algebra*, Ch. III, § 8, no. 9).
+Khi $k$ là giao hoán, $G_1 = \mathbf{SL}(n, k)$ (xem *Đại số*, Ch. III, § 8, no. 9).
 
 #### Ví dụ 2 {#lie-iv-s2-n7-exa-2 .statement}
 

@@ -57,7 +57,7 @@ subsections:
       pdf_page: 320
 statements: 63
 exercises: 17
-content_sha256: bd333af79292fbdeebec020e3b1d204bf66a1c4ced4dce293767fc48a256c721
+content_sha256: 07ca3a0e92ee74191f7d27471fd63f68df7d0de295bb04efa533a695a770812a
 ---
 
 ## § 16. AUTRES DESCRIPTIONS DU GROUPE DE BRAUER
@@ -159,7 +159,7 @@ $$
 w(\tau_1(g)(f)) = \tau(u(g))(w(f))
 $$
 
-pour tout $f \in F'_1$ et tout $g \in G'$. Soit $\mathcal{E}'_1 = (\Gamma'_1, \iota'_1, \pi'_1)$ une $\tau_1$-extension de $G'$ par $F'_1$ et $\varphi_1 : \Gamma'_1 \to \Gamma$ un homomorphisme de groupes tel que le diagramme
+pour tout $f \in F'_1$ et tout $g \in G'$. Soit $\mathscr{E}'_1 = (\Gamma'_1, \iota'_1, \pi'_1)$ une $\tau_1$-extension de $G'$ par $F'_1$ et $\varphi_1 : \Gamma'_1 \to \Gamma$ un homomorphisme de groupes tel que le diagramme
 
 $$
 \begin{array}{ccccc}
@@ -191,19 +191,19 @@ pour tout $\gamma \in \Gamma'_1$. Inversement, l’homomorphisme de groupes de $
 
 #### Corollaire 1 {#alg-viii-s16-lem-2-cor-1 .statement tag=00IE}
 
-Soient $\mathcal{E}_1$ et $\mathcal{E}_2$ des $\tau$-extensions de $G$ par $F$ et soit $\psi$ un morphisme de $\tau$-extensions de $\mathcal{E}_1$ dans $\mathcal{E}_2$. Notons $\varphi_1$ (resp. $\varphi_2$) l’homomorphisme canonique pour $u^*(\mathcal{E}_1)$ (resp. $u^*(\mathcal{E}_2)$). Alors il existe un unique morphisme de $\tau'$-extensions de $u^*(\mathcal{E}_1)$ dans $u^*(\mathcal{E}_2)$, noté $u^*(\psi)$, tel que $\varphi_2 \circ u^*(\psi) = \psi \circ \varphi_1$.
+Soient $\mathscr{E}_1$ et $\mathscr{E}_2$ des $\tau$-extensions de $G$ par $F$ et soit $\psi$ un morphisme de $\tau$-extensions de $\mathscr{E}_1$ dans $\mathscr{E}_2$. Notons $\varphi_1$ (resp. $\varphi_2$) l’homomorphisme canonique pour $u^*(\mathscr{E}_1)$ (resp. $u^*(\mathscr{E}_2)$). Alors il existe un unique morphisme de $\tau'$-extensions de $u^*(\mathscr{E}_1)$ dans $u^*(\mathscr{E}_2)$, noté $u^*(\psi)$, tel que $\varphi_2 \circ u^*(\psi) = \psi \circ \varphi_1$.
 
 Il suffit d’appliquer la prop. 1 à $\psi \circ \varphi_1$.
 
-La classe de la $\tau'$-extension $u^*(\mathcal{E})$ ne dépend donc que de la classe de $\mathcal{E}$. On note également $u^* : \mathrm{Ex}_{\tau}(G, F) \to \mathrm{Ex}_{\tau'}(G', F)$ l’application qui envoie la classe d’une $\tau$-extension $\mathcal{E}$ sur la classe de la $\tau'$-extension $u^*(\mathcal{E})$.
+La classe de la $\tau'$-extension $u^*(\mathscr{E})$ ne dépend donc que de la classe de $\mathscr{E}$. On note également $u^* : \mathrm{Ex}_{\tau}(G, F) \to \mathrm{Ex}_{\tau'}(G', F)$ l’application qui envoie la classe d’une $\tau$-extension $\mathscr{E}$ sur la classe de la $\tau'$-extension $u^*(\mathscr{E})$.
 
 #### Corollaire 2 {#alg-viii-s16-lem-2-cor-2 .statement tag=00IF}
 
-Soit $u' : G'' \to G'$ un homomorphisme de groupes et soit $\mathcal{E}$ une $\tau$-extension de $G$ par $F$. Posons $\tau'' = \tau' \circ u'$ et notons $\varphi$ (resp. $\varphi', \varphi''$) l’homomorphisme canonique associé à la $\tau'$-extension $u^*(\mathcal{E})$ (resp. la $\tau''$-extension ${u'}^*(u^*(\mathcal{E}))$), la $\tau''$-extension $(u \circ u')^*(\mathcal{E})$). Alors il existe un unique morphisme $\psi$ de la $\tau''$-extension ${u'}^*(u^*(\mathcal{E}))$ dans la $\tau''$-extension $(u \circ u')^*(\mathcal{E})$ telle que $\varphi'' \circ \psi = \varphi \circ \varphi'$.
+Soit $u' : G'' \to G'$ un homomorphisme de groupes et soit $\mathscr{E}$ une $\tau$-extension de $G$ par $F$. Posons $\tau'' = \tau' \circ u'$ et notons $\varphi$ (resp. $\varphi', \varphi''$) l’homomorphisme canonique associé à la $\tau'$-extension $u^*(\mathscr{E})$ (resp. la $\tau''$-extension ${u'}^*(u^*(\mathscr{E}))$), la $\tau''$-extension $(u \circ u')^*(\mathscr{E})$). Alors il existe un unique morphisme $\psi$ de la $\tau''$-extension ${u'}^*(u^*(\mathscr{E}))$ dans la $\tau''$-extension $(u \circ u')^*(\mathscr{E})$ telle que $\varphi'' \circ \psi = \varphi \circ \varphi'$.
 
 #### Exemple {#alg-viii-s16-n2-exa-1 .statement tag=00RI}
 
-Soit $H$ un sous-groupe de $G$ et $j : H \to G$ l’injection canonique. Alors pour toute $\tau$-extension $\mathcal{E} = (\Gamma, \iota, \pi)$, la $\tau \circ j$-extension $j^*(\mathcal{E})$ est isomorphe à $(\bar{\pi}^1(H), \iota', \pi')$ où $\iota' : F \to \bar{\pi}^1(H)$ (resp. $\pi' : \bar{\pi}^1(H) \to H$) est l’homomorphisme de groupes $f\rightarrow \iota (f)$ (resp. $\gamma \rightarrow \pi (\gamma )$). Plus généralement, si l’homomorphisme de groupes $u: G'\rightarrow G$ est injectif, alors l’homomorphisme canonique $\varphi$ est injectif d’image $\overset{-1}{\pi}(u(G'))$.
+Soit $H$ un sous-groupe de $G$ et $j : H \to G$ l’injection canonique. Alors pour toute $\tau$-extension $\mathscr{E} = (\Gamma, \iota, \pi)$, la $\tau \circ j$-extension $j^*(\mathscr{E})$ est isomorphe à $(\bar{\pi}^1(H), \iota', \pi')$ où $\iota' : F \to \bar{\pi}^1(H)$ (resp. $\pi' : \bar{\pi}^1(H) \to H$) est l’homomorphisme de groupes $f\rightarrow \iota (f)$ (resp. $\gamma \rightarrow \pi (\gamma )$). Plus généralement, si l’homomorphisme de groupes $u: G'\rightarrow G$ est injectif, alors l’homomorphisme canonique $\varphi$ est injectif d’image $\overset{-1}{\pi}(u(G'))$.
 
 ### 3. Image directe d’une $\tau$-extension
 
@@ -378,11 +378,11 @@ La classe de la $\tau'$-extension $v_*(\mathscr{E})$ ne dépend donc que de la c
 $$
 \tau''(g).v'(f) = v'(\tau'(g).f)
 $$
-*pour $g \in G$ et $f \in F'$*. *Soit $\mathscr{E}$ une $\tau$-extension de $G$ par $F$ et notons $\varphi$ (resp. $\varphi', \varphi''$) l’homomorphisme canonique associé à $v_*(\mathscr{E})$ (resp. $v'_*(v_*(\mathscr{E}))$, $(v' \circ v)_*(\mathscr{E})$). Alors* il existe un unique morphisme $\psi$ de la $\tau''$-extension $v'_*(v_*(\mathcal{E}))$ de $G$ par $F''$ dans la $\tau''$-extension $(v' \circ v)_*(\mathcal{E})$ tel que $\varphi'' = \psi \circ \varphi' \circ \varphi$.
+*pour $g \in G$ et $f \in F'$*. *Soit $\mathscr{E}$ une $\tau$-extension de $G$ par $F$ et notons $\varphi$ (resp. $\varphi', \varphi''$) l’homomorphisme canonique associé à $v_*(\mathscr{E})$ (resp. $v'_*(v_*(\mathscr{E}))$, $(v' \circ v)_*(\mathscr{E})$). Alors* il existe un unique morphisme $\psi$ de la $\tau''$-extension $v'_*(v_*(\mathscr{E}))$ de $G$ par $F''$ dans la $\tau''$-extension $(v' \circ v)_*(\mathscr{E})$ tel que $\varphi'' = \psi \circ \varphi' \circ \varphi$.
 
 #### Exemple 1 {#alg-viii-s16-n3-exa-1 .statement tag=00IK}
 
-Soit $j : \{1\} \to F$ l’injection canonique. L’extension semi-triviale $\mathscr{I}_\tau$ est isomorphe à $j_*((G, i, \mathrm{Id}_G))$ où $i : \{e\} \to G$ est l’injection canonique. Soit $c : F \to F$ l’homomorphisme constant $f \mapsto 1$ et soit $\mathcal{E}$ une $\tau$-extension. La $\tau$-extension $c_*(\mathcal{E})$ est également isomorphe à $\mathscr{I}_\tau$.
+Soit $j : \{1\} \to F$ l’injection canonique. L’extension semi-triviale $\mathscr{I}_\tau$ est isomorphe à $j_*((G, i, \mathrm{Id}_G))$ où $i : \{e\} \to G$ est l’injection canonique. Soit $c : F \to F$ l’homomorphisme constant $f \mapsto 1$ et soit $\mathscr{E}$ une $\tau$-extension. La $\tau$-extension $c_*(\mathscr{E})$ est également isomorphe à $\mathscr{I}_\tau$.
 
 #### Exemple 2 {#alg-viii-s16-n3-exa-2 .statement tag=00IL}
 
@@ -390,7 +390,7 @@ Soit $E$ un sous-groupe de $F$ stable pour l’action de $G$. Notons $F'$ le quo
 $$
 \tau'(g).v(f) = v(\tau(g).f)
 $$
-pour $g \in G$ et $f \in F$. Soit $\mathcal{E} = (\Gamma, \iota, \pi)$ une $\tau$-extension de $G$ par $F$. Alors $\iota(E)$ est un sous-groupe distingué de $\Gamma$ et la $\tau'$-extension $v_*(\mathcal{E})$ de $G$ par $F'$ est isomorphe à l’extension $(\Gamma/\iota(E), \bar{\iota}, \bar{\pi})$ où $\bar{\iota}$ et $\bar{\pi}$ sont les homomorphismes de groupes déduits de $\iota$ et $\pi$ par passages aux quotients. L’homomorphisme canonique $\varphi$ associé à $v_*(\mathcal{E})$ correspond par cet isomorphisme à l’homomorphisme canonique de $\Gamma$ dans $\Gamma/\iota(E)$.
+pour $g \in G$ et $f \in F$. Soit $\mathscr{E} = (\Gamma, \iota, \pi)$ une $\tau$-extension de $G$ par $F$. Alors $\iota(E)$ est un sous-groupe distingué de $\Gamma$ et la $\tau'$-extension $v_*(\mathscr{E})$ de $G$ par $F'$ est isomorphe à l’extension $(\Gamma/\iota(E), \bar{\iota}, \bar{\pi})$ où $\bar{\iota}$ et $\bar{\pi}$ sont les homomorphismes de groupes déduits de $\iota$ et $\pi$ par passages aux quotients. L’homomorphisme canonique $\varphi$ associé à $v_*(\mathscr{E})$ correspond par cet isomorphisme à l’homomorphisme canonique de $\Gamma$ dans $\Gamma/\iota(E)$.
 
 #### Proposition 3 {#alg-viii-s16-prop-3 .statement tag=00IM}
 
@@ -398,9 +398,9 @@ Soient $G$ et $G'$ des groupes. Soient $F$ et $F'$ des groupes abéliens. Soient
 $$
 \tau'(g).v(f) = v(\tau(g).f)
 $$
-pour $g \in G$ et $f \in F$. On note $\tau'' = \tau' \circ u$. Soit $\mathcal{E}$ une $\tau$-extension de $G$ par $F$. On note $\varphi_u$ (resp. $\varphi_v, \varphi'_u, \varphi'_v$) l’homomorphisme canonique correspondant à la $\tau \circ u$-extension $u^*(\mathcal{E})$ (resp. à la $\tau'$-extension $v_*(\mathcal{E})$, aux $\tau''$-extensions $u^*(v_*(\mathcal{E}))$ et $v_*(u^*(\mathcal{E}))$). Alors il existe un unique morphisme $\psi$ de $\tau''$-extensions de $v_*(u^*(\mathcal{E}))$ dans $u^*(v_*(\mathcal{E}))$ tel que $\varphi_v \circ \varphi_u = \varphi'_u \circ \psi \circ \varphi'_v$.
+pour $g \in G$ et $f \in F$. On note $\tau'' = \tau' \circ u$. Soit $\mathscr{E}$ une $\tau$-extension de $G$ par $F$. On note $\varphi_u$ (resp. $\varphi_v, \varphi'_u, \varphi'_v$) l’homomorphisme canonique correspondant à la $\tau \circ u$-extension $u^*(\mathscr{E})$ (resp. à la $\tau'$-extension $v_*(\mathscr{E})$, aux $\tau''$-extensions $u^*(v_*(\mathscr{E}))$ et $v_*(u^*(\mathscr{E}))$). Alors il existe un unique morphisme $\psi$ de $\tau''$-extensions de $v_*(u^*(\mathscr{E}))$ dans $u^*(v_*(\mathscr{E}))$ tel que $\varphi_v \circ \varphi_u = \varphi'_u \circ \psi \circ \varphi'_v$.
 
-On note $(\Gamma_u, \iota_u, \pi_u)$ (resp. $(\Gamma'_u, \iota'_u, \pi'_u)$) la $\tau \circ u$-extension $u^*(\mathcal{E})$ (resp. la $\tau''$-extension $u^*(v_*(\mathcal{E}))$). En appliquant le lemme 2 de VIII, p. 283 à $\varphi_v \circ \varphi_u$, on obtient qu’il existe un homomorphisme de groupes $\psi_1 : \Gamma_u \to \Gamma'_u$ tel que le diagramme
+On note $(\Gamma_u, \iota_u, \pi_u)$ (resp. $(\Gamma'_u, \iota'_u, \pi'_u)$) la $\tau \circ u$-extension $u^*(\mathscr{E})$ (resp. la $\tau''$-extension $u^*(v_*(\mathscr{E}))$). En appliquant le lemme 2 de VIII, p. 283 à $\varphi_v \circ \varphi_u$, on obtient qu’il existe un homomorphisme de groupes $\psi_1 : \Gamma_u \to \Gamma'_u$ tel que le diagramme
 
 $$
 \begin{array}{ccccc}

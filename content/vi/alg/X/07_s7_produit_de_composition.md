@@ -353,8 +353,7 @@ $$
 \end{array}
 $$
 
-Vì $I^m(P)$ là nội xạ, tồn tại một đồng cấu $h^0 \colon I^0(N) \rightarrow I^m(P)$ sao cho $w^m = h^0 \circ e_N$; theo X, p. 49, Proposition 3 bis, $h^0$ mở rộng thành một cấu xạ của các phức $h \colon I(N) \rightarrow I(P)\, (-m)$. Do đó $w^m = h^0 \circ e_N = h^0 \circ v^0 \circ \mu$, suy ra
-$$
+Vì $I^m(P)$ là nội xạ, tồn tại một đồng cấu $h^0 \colon I^0(N) \rightarrow I^m(P)$ sao cho $w^m = h^0 \circ e_N$; theo X, p. 49, mệnh đề 3 bis, $h^0$ mở rộng thành một cấu xạ của các phức $h \colon I(N) \rightarrow I(P)\, (-m)$. Do đó $w^m = h^0 \circ e_N = h^0 \circ v^0 \circ \mu$, suy ra $$
 \delta_I^{m-1} \circ w^{m-1} = w^m \circ \lambda = h^0 \circ v^0 \circ (\mu \circ \lambda),
 $$
 
@@ -518,7 +517,7 @@ $$
 Thật vậy, nếu ký hiệu lớp này là $\theta''$, thì từ mệnh đề 4 suy ra rằng ta có
 
 $$
-\theta'' \circ i_M = i_N \circ \theta = m(\theta, \theta') \circ i_M \quad \text{and} \quad \theta'' \circ i_{M'} = i_{N'} \circ \theta = m(\theta, \theta') \circ i_{M'} ;
+\theta'' \circ i_M = i_N \circ \theta = m(\theta, \theta') \circ i_M \quad \text{và} \quad \theta'' \circ i_{M'} = i_{N'} \circ \theta = m(\theta, \theta') \circ i_{M'} ;
 $$
 
 theo X, p. 89, mệnh đề 7, điều đó kéo theo $\theta'' = m(\theta, \theta')$.

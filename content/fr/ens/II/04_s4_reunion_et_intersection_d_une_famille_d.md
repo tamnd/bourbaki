@@ -46,7 +46,7 @@ subsections:
       pdf_page: 81
 statements: 22
 exercises: 8
-content_sha256: 2c0ff941f524dfb20cbf59d979331790b68181ef8729cc4e27073ec105cf244f
+content_sha256: b01516fc0971cf54a3caf5959e7d2dfcd6230a575813005bbed0ccaab0e92f86
 ---
 
 ## § 4. RÉUNION ET INTERSECTION D’UNE FAMILLE D’ENSEMBLES
@@ -127,7 +127,7 @@ Soit $\mathcal{F}$ un ensemble d’ensembles, et soit $\Phi$ la famille d’ense
 
 N° 2                                             RÉUNION ET INTERSECTION D’UNE FAMILLE D’ENSEMBLES                                             E II.24
 
-constituée par l’application identique de $\mathscr{F}$. La réunion des ensembles de $\Phi$, et (si $\mathscr{F}$ est non vide) l’intersection des ensembles de $\Phi$, s’appellent respectivement la réunion et l’intersection des ensembles de $\mathscr{F}$, et se désignent par $\bigcup_{X\in\mathscr{F}}X$ et $\bigcap_{X\in\mathscr{F}}X$.
+constituée par l’application identique de $\mathfrak{F}$. La réunion des ensembles de $\Phi$, et (si $\mathfrak{F}$ est non vide) l’intersection des ensembles de $\Phi$, s’appellent respectivement la réunion et l’intersection des ensembles de $\mathfrak{F}$, et se désignent par $\bigcup_{X\in\mathfrak{F}}X$ et $\bigcap_{X\in\mathfrak{F}}X$.
 
 Il résulte tout de suite de la prop. 1 que, si $(X_t)_{t\in I}$ est une famille d’ensembles, la réunion et (si $I\neq\varnothing$) l’intersection de cette famille sont respectivement égales à la réunion et à l’intersection des ensembles de l’ensemble des éléments de cette famille.
 

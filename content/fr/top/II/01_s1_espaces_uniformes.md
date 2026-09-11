@@ -18,9 +18,9 @@ subsections:
       title: Topologie d’un espace uniforme
       page: 3
       pdf_page: 142
-statements: 13
+statements: 14
 exercises: 5
-content_sha256: 7bb54d9be7420ea7071c88fd80783d6eac017db28793506c339ed40a34221d63
+content_sha256: 6288b483aef86cdb0dac40f4076086ed2473b9ef34afd6ac94d9e5de7de025f4
 ---
 
 ## § 1. ESPACES UNIFORMES
@@ -106,7 +106,10 @@ On dit que la topologie définie dans la prop. 1 est la topologie déduite de la
 #### Exemple 1 {#top-ii-s1-n2-exa-1 .statement}
 
 La topologie déduite de la structure uniforme additive sur l’ensemble des nombres réels est la topologie de la droite numérique (I, p. 4); de même, la topologie déduite de la structure additive sur l’ensemble des nombres rationnels est la topologie de la droite rationnelle.*
-    2) Sur un ensemble quelconque X, la topologie déduite de la structure uniforme discrète (II, p. 3, Exemple 2) est la topologie discrète.
+
+#### Exemple 2 {#top-ii-s1-n2-exa-2 .statement}
+
+Sur un ensemble quelconque X, la topologie déduite de la structure uniforme discrète (II, p. 3, Exemple 2) est la topologie discrète.
 
 Quand nous parlerons, par la suite, de la topologie d’un espace uniforme X, il faudra toujours entendre, sauf mention expresse du contraire, la topologie déduite de la structure uniforme de cet espace; l’espace topologique obtenu en munissant l’ensemble X de cette topologie sera parfois appelé l’espace topologique sous-jacent à l’espace uniforme considéré. Par exemple, quand nous dirons qu’un espace uniforme est séparé, ou compact, ou localement compact, etc., cela signifiera que l’espace sous-jacent a cette propriété.
 

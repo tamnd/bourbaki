@@ -23,9 +23,9 @@ subsections:
       title: Intégrales absolument convergentes
       page: 18
       pdf_page: 70
-statements: 10
+statements: 12
 exercises: 9
-content_sha256: 2e3ce1ec4cd28d07427e7c5d21beaf54631c9beb95a004344a91eb9cc657feaa
+content_sha256: 7f7da152fbd7ff40617082eacbfca6dc428a3bdfeba3d2e5db6c22e780b1a167
 ---
 
 ## § 2. INTÉGRALES DANS LES INTERVALLES NON COMPACTS
@@ -52,11 +52,17 @@ L’intégrale $\int_1^{+\infty} dt/t^2$ est convergente et égale à 1, car
 $$
 \int_1^x \frac{dt}{t^2} = 1 - \frac{1}{x}.
 $$
-2) L’intégrale $\int_0^1 dt/\sqrt{t}$ est convergente et égale à 2, car
+
+#### Exemple 2 {#fvr-ii-s2-n1-exa-2 .statement}
+
+L’intégrale $\int_0^1 dt/\sqrt{t}$ est convergente et égale à 2, car
 $$
 \int_x^1 \frac{dt}{\sqrt{t}} = 2(1 - \sqrt{x}) \quad \text{pour } x > 0.
 $$
-3) Soit $(\mathbf{u}_n)_{n \leq 1}$ une suite infinie de points de $E$, et soit $\mathbf{f}$ la fonction en escalier définie dans l’intervalle $(1, +\infty)$ par les conditions: $\mathbf{f}(x) = \mathbf{u}_n$ pour $n \leq x < n + 1$. Pour que l’intégrale $\int_1^{+\infty} \mathbf{f}(t)dt$ soit convergente, il faut et il suffit que la série de terme général $\mathbf{u}_n$ soit convergente dans $E$; en effet, on a
+
+#### Exemple 3 {#fvr-ii-s2-n1-exa-3 .statement}
+
+Soit $(\mathbf{u}_n)_{n \leq 1}$ une suite infinie de points de $E$, et soit $\mathbf{f}$ la fonction en escalier définie dans l’intervalle $(1, +\infty)$ par les conditions: $\mathbf{f}(x) = \mathbf{u}_n$ pour $n \leq x < n + 1$. Pour que l’intégrale $\int_1^{+\infty} \mathbf{f}(t)dt$ soit convergente, il faut et il suffit que la série de terme général $\mathbf{u}_n$ soit convergente dans $E$; en effet, on a
 $$
 \int_1^n \mathbf{f}(t)\ dt = \sum_{p=1}^{n-1} \mathbf{u}_p,
 $$
@@ -105,7 +111,7 @@ $$
 x \leq \alpha \leq \beta \leq y \quad \text{et} \quad z \leq a \leq \beta \leq t.
 $$
 
-#### Exemple {#fvr-ii-s2-n1-exa-2 .statement}
+#### Exemple {#fvr-ii-s2-n1-exa-4 .statement}
 
 Si l’intervalle $I$ est borné, et si $f$ est bornée dans $I$, l’intégrale $\int_I f(t)\ dt$ existe toujours, car d’après le th. de la moyenne, on a pour $y \leq \alpha \leq \beta \leq z$
 $$

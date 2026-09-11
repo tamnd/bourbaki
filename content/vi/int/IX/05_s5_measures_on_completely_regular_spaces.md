@@ -467,7 +467,7 @@ Mọi độ đo $\mu$ trên N có thể được viết duy nhất dưới dạn
 *Cho A là một tập hợp được trang bị một bộ lọc $\mathfrak{F}$. Với mọi $\alpha \in A$, cho $(u_{\alpha,n})_{n \in \mathbf{N}}$ là một dãy khả tổng các số dương, và cho $\Phi_\alpha$ là hàm xác định trên khoảng ]0, 1] của \mathbf{R} bởi $\Phi_\alpha(x) = \sum_{n \in \mathbf{N}} u_{\alpha,n} x^n$. Để tồn tại một dãy khả tổng $(u_n)_{n \in \mathbf{N}}$ các số dương sao cho*
 
 $$
-\lim_{\alpha, \mathfrak{F}} u_{\alpha,n} = u_n \quad \text{for all } n , \quad \lim_{\alpha, \mathfrak{F}} \sum_{n \in \mathbf{N}} u_{\alpha,n} = \sum_{n \in \mathbf{N}} u_n ,
+\lim_{\alpha, \mathfrak{F}} u_{\alpha,n} = u_n \quad \text{với mọi } n , \quad \lim_{\alpha, \mathfrak{F}} \sum_{n \in \mathbf{N}} u_{\alpha,n} = \sum_{n \in \mathbf{N}} u_n ,
 $$
 
 *thì cần và đủ rằng $\Phi_\alpha$ hội tụ điểm trên ]0, 1[, theo $\mathfrak{F}$, đến một hàm $\Phi$ liên tục tại điểm 1. Trong trường hợp này, $\Phi(x) = \sum_{n \in \mathbf{N}} u_n x^n$ với mọi $x \in ]0, 1[$.*

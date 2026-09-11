@@ -56,7 +56,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 *Cho A là một vành giao hoán và M một A-môđun. Đại số đối xứng của M, ký hiệu là S(M), hoặc Sym(M), hoặc S_A(M), là đại số thương trên A của đại số tenxơ T(M) bởi iđêan hai phía $\mathfrak{J}'$ (cũng ký hiệu là $\mathfrak{J}'_M$) được sinh bởi các phần tử $xy - yx = x \otimes y - y \otimes x$ của T(M), trong đó x và y chạy qua M.*
 
-Vì iđêan $\mathfrak{J}'$ được sinh bởi các phần tử thuần nhất bậc 2 nên nó là một iđêan phân bậc (II, § 11, no. 3, Proposition 2); ta viết $\mathfrak{J}'_n = \mathfrak{J}' \cap T^n(M)$; khi đó đại số S(M) được phân bậc bởi phân bậc (gọi là chính tắc) gồm các $S^n(M) = T^n(M)/\mathfrak{J}'_n$. Bây giờ $\mathfrak{J}'_0 = \mathfrak{J}'_1 = \{0\}$ và do đó $S^0(M)$ được đồng nhất một cách chính tắc với A và $S^1(M)$ với $T^1(M) = M$; trong phần sau ta sẽ luôn thực hiện các sự đồng nhất này và ký hiệu bởi $\phi'$ hoặc $\phi'_M$ đơn ánh chính tắc $M \to S(M)$.
+Vì iđêan $\mathfrak{J}'$ được sinh bởi các phần tử thuần nhất bậc 2 nên nó là một iđêan phân bậc (II, § 11, no. 3, mệnh đề 2); ta viết $\mathfrak{J}'_n = \mathfrak{J}' \cap T^n(M)$; khi đó đại số S(M) được phân bậc bởi phân bậc (gọi là chính tắc) gồm các $S^n(M) = T^n(M)/\mathfrak{J}'_n$. Bây giờ $\mathfrak{J}'_0 = \mathfrak{J}'_1 = \{0\}$ và do đó $S^0(M)$ được đồng nhất một cách chính tắc với A và $S^1(M)$ với $T^1(M) = M$; trong phần sau ta sẽ luôn thực hiện các sự đồng nhất này và ký hiệu bởi $\phi'$ hoặc $\phi'_M$ đơn ánh chính tắc $M \to S(M)$.
 
 #### Mệnh đề 1 {#alg-iii-s6-prop-1 .statement}
 
@@ -73,7 +73,7 @@ $$ f(x)f(y) = f(y)f(x) \text{ với mọi } x, y \text{ trong } M. $$
 
 Nói cách khác, $(S(M), \phi')$ là một nghiệm của *bài toán ánh xạ phổ quát* (*Set Theory*, IV, § 3, no. 1), trong đó $\Sigma$ là loài các cấu trúc đại số trên A, các ánh xạ $\alpha$ là các ánh xạ tuyến tính từ A-môđun M đến một đại số trên A thỏa mãn (1).
 
-Tính duy nhất của g suy ra từ sự kiện rằng $\phi'(M) = M$ sinh ra S(M). Để chứng minh sự tồn tại của g, chú ý rằng theo § 5, No. 1, Proposition 1, tồn tại một đồng cấu đại số trên A $g_1 : T(M) \to E$ sao cho $f = g_1 \circ \phi;$
+Tính duy nhất của g suy ra từ sự kiện rằng $\phi'(M) = M$ sinh ra S(M). Để chứng minh sự tồn tại của g, chú ý rằng theo § 5, No. 1, mệnh đề 1, tồn tại một đồng cấu đại số trên A $g_1 : T(M) \to E$ sao cho $f = g_1 \circ \phi;$
 
 điều duy nhất cần chứng minh là $g_1$ bằng không trên iđêan $\mathfrak{J}'$, vì khi đó, nếu $p : T(M) \to S(M) = T(M)/\mathfrak{J}'$ là đồng cấu chính tắc, ta có thể viết $g_1 = g \circ p$, trong đó $g : S(M) \to E$ là một đồng cấu đại số, và kết luận sẽ suy ra từ sự kiện rằng $p \circ \phi = \phi'$. Bây giờ hạt nhân của $g_1$ là một iđêan hai phía mà, theo (1) và quan hệ $g_1 \circ \phi = f$, chứa các phần tử $x \otimes y - y \otimes x$ với $x, y$ trong $M$. Điều này hoàn tất chứng minh.
 
@@ -251,7 +251,7 @@ Khi $n!$ khả nghịch trong $A$, các môđun con $S'_n(M)$ và $\mathfrak{g}'
 
 ### 4. MỞ RỘNG VÀNH VÔ HƯỚNG
 
-Cho $A, A'$ là hai vành giao hoán, $\rho : A \to A'$ một đồng cấu vành, $M$ một A-môđun, $M'$ một $A'$-môđun và $f : M \to M'$ một A-đồng cấu (đối với $\rho$) từ $M$ vào $M'$. Ánh xạ hợp thành $M \xrightarrow{f} M' \xrightarrow{\phi_{M'}} S_{A'}(M')$ là một ánh xạ A-tuyến tính từ $M$ vào đại số giao hoán $\rho_*(S_A(M'))$; khi đó tồn tại (no. 1, Proposition 2) một và chỉ một A-đồng cấu đại số $f' : S_A(M) \to S_{A'}(M')$ làm cho biểu đồ
+Cho $A, A'$ là hai vành giao hoán, $\rho : A \to A'$ một đồng cấu vành, $M$ một A-môđun, $M'$ một $A'$-môđun và $f : M \to M'$ một A-đồng cấu (đối với $\rho$) từ $M$ vào $M'$. Ánh xạ hợp thành $M \xrightarrow{f} M' \xrightarrow{\phi_{M'}} S_{A'}(M')$ là một ánh xạ A-tuyến tính từ $M$ vào đại số giao hoán $\rho_*(S_A(M'))$; khi đó tồn tại (no. 1, mệnh đề 2) một và chỉ một A-đồng cấu đại số $f' : S_A(M) \to S_{A'}(M')$ làm cho biểu đồ
 
 $$
 \begin{array}{ccc}
@@ -281,11 +281,11 @@ $$
 
 của ánh xạ B-tuyến tính $l_B \otimes \phi_M' : B \otimes_A M \to B \otimes_A S_A(M)$ là một đẳng cấu đại số phân bậc trên $B$.
 
-Chứng minh được dẫn xuất từ chứng minh của § 5, no. 3, Proposition 5 bằng cách thay thế $T$ bởi $S$ và $\phi_M$ bởi $\phi_M'$.
+Chứng minh được dẫn xuất từ chứng minh của § 5, no. 3, mệnh đề 5 bằng cách thay thế $T$ bởi $S$ và $\phi_M$ bởi $\phi_M'$.
 
 ### 5. GIỚI HẠN TRỰC TIẾP CỦA CÁC ĐẠI SỐ ĐỐI XỨNG
 
-Cho $(A_\alpha, \phi_{\beta\alpha})$ là một hệ trực tiếp có hướng các vành giao hoán, $(M_\alpha, f_{\beta\alpha})$ là một hệ trực tiếp các $A_\alpha$-môđun, $A = \lim \rightarrow A_\alpha$ và $M = \lim \rightarrow M_\alpha$. Với $\alpha \leq \beta$, từ A$_\alpha$-đồng cấu $f_{\beta\alpha}: M_\alpha \to M_\beta$ ta dẫn xuất một cách chính tắc một đồng cấu đại số trên $A_\alpha$ (no. 4, formula (8)) $f'_{\beta\alpha}: S_{A_\alpha}(M_\alpha) \to S_{A_\beta}(M_\beta)$ và từ (9) (no. 4) suy ra rằng $(S_{A_\alpha}(M_\alpha), f'_{\beta\alpha})$ là một *hệ trực tiếp các $A_\alpha$-đại số*. Mặt khác, $f_\alpha: M_\alpha \to M$ là A-đồng cấu chính tắc; ta dẫn xuất (no. 4, formula (8)) một đồng cấu đại số trên $A_\alpha$
+Cho $(A_\alpha, \phi_{\beta\alpha})$ là một hệ trực tiếp có hướng các vành giao hoán, $(M_\alpha, f_{\beta\alpha})$ là một hệ trực tiếp các $A_\alpha$-môđun, $A = \lim \rightarrow A_\alpha$ và $M = \lim \rightarrow M_\alpha$. Với $\alpha \leq \beta$, từ A$_\alpha$-đồng cấu $f_{\beta\alpha}: M_\alpha \to M_\beta$ ta dẫn xuất một cách chính tắc một đồng cấu đại số trên $A_\alpha$ (no. 4, công thức (8)) $f'_{\beta\alpha}: S_{A_\alpha}(M_\alpha) \to S_{A_\beta}(M_\beta)$ và từ (9) (no. 4) suy ra rằng $(S_{A_\alpha}(M_\alpha), f'_{\beta\alpha})$ là một *hệ trực tiếp các $A_\alpha$-đại số*. Mặt khác, $f_\alpha: M_\alpha \to M$ là A-đồng cấu chính tắc; ta dẫn xuất (no. 4, công thức (8)) một đồng cấu đại số trên $A_\alpha$
 
 $$
 f'_\alpha: S_{A_\alpha}(M) \to S_A(M)
@@ -354,13 +354,13 @@ $$
 S^{J,\nu}(M) = \bigotimes_{\lambda \in J} S^{n_\lambda}(M_\lambda)
 $$
 
-sao cho môđun con $E_{J,n}$ gồm các phần tử bậc $n$ trong $E_J$ là *tổng trực tiếp* của các $S^{J,\nu}(M)$ trên mọi họ $\nu$ có giá được chứa trong $J$ và sao cho $\sum_{\lambda \in L} n_\lambda = n$ (§ 4, no. 7, Proposition 10 and § 4, no. 8). Theo quy ước ta viết $S^{J,\nu}(M) = \{0\}$ đối với các họ $\nu$ mà giá của chúng không được chứa trong $J$; khi đó $E_{J,n}$ cũng có thể được gọi là *tổng trực tiếp* của *mọi* $S^{J,\nu}(M)$, trong đó $\nu$ chạy qua tập hợp $H_n$ của *mọi* họ $\nu = (n_\lambda)_{\lambda \in L}$ sao cho $\sum_{\lambda \in L} n_\lambda = n$. Vì $S^0(M_\lambda)$ được đồng nhất với $A$, ta cũng thấy rõ rằng, với hai tập con hữu hạn $J \subset J'$ của $L$ và một họ $\nu$ có giá được chứa trong $J$, ánh xạ chính tắc $S^{J,\nu}(M) \to S^{J',\nu}(M)$ (hạn chế của ánh xạ chính tắc $E_J \to E_J$ lên $S^{J,\nu}(M)$) là *song ánh*. Nếu ta viết, với mọi $\nu \in H_n$,
+sao cho môđun con $E_{J,n}$ gồm các phần tử bậc $n$ trong $E_J$ là *tổng trực tiếp* của các $S^{J,\nu}(M)$ trên mọi họ $\nu$ có giá được chứa trong $J$ và sao cho $\sum_{\lambda \in L} n_\lambda = n$ (§ 4, no. 7, mệnh đề 10 and § 4, no. 8). Theo quy ước ta viết $S^{J,\nu}(M) = \{0\}$ đối với các họ $\nu$ mà giá của chúng không được chứa trong $J$; khi đó $E_{J,n}$ cũng có thể được gọi là *tổng trực tiếp* của *mọi* $S^{J,\nu}(M)$, trong đó $\nu$ chạy qua tập hợp $H_n$ của *mọi* họ $\nu = (n_\lambda)_{\lambda \in L}$ sao cho $\sum_{\lambda \in L} n_\lambda = n$. Vì $S^0(M_\lambda)$ được đồng nhất với $A$, ta cũng thấy rõ rằng, với hai tập con hữu hạn $J \subset J'$ của $L$ và một họ $\nu$ có giá được chứa trong $J$, ánh xạ chính tắc $S^{J,\nu}(M) \to S^{J',\nu}(M)$ (hạn chế của ánh xạ chính tắc $E_J \to E_J$ lên $S^{J,\nu}(M)$) là *song ánh*. Nếu ta viết, với mọi $\nu \in H_n$,
 
 $$
 S^\nu(M) = \varprojlim S^{J,\nu}(M)
 $$
 
-thì thấy rằng, có tính đến II, § 6, no. 2, Proposition 5:
+thì thấy rằng, có tính đến II, § 6, no. 2, mệnh đề 5:
 
 #### Hệ quả {#alg-iii-s6-n6-cor-1 .statement}
 

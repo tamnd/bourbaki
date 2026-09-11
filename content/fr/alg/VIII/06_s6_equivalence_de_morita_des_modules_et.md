@@ -41,7 +41,7 @@ subsections:
       pdf_page: 116
 statements: 41
 exercises: 8
-content_sha256: b680f2531b7e1b4e3afb5a63956d99d5c45a767b29095796f32a5b31f3e382d3
+content_sha256: 6edf8dbc8c467734f95fe8ccf99186265dce85faa979f3c46dd274e7834c2de6
 ---
 
 ## § 6. ÉQUIVALENCE DE MORITA DES MODULES ET DES ALGÈBRES
@@ -550,19 +550,19 @@ Soient A et B des $k$-algèbres équivalentes au sens de Morita et P un $(A,B)_k
 
 *Soit*
 
-$$(\mathcal{E})$$
+$$(\mathscr{E})$$
 $$
 V' \xrightarrow{f} V \xrightarrow{g} V''
 $$
 *un diagramme de B-modules et d’applications B-linéaires, et soit*
-$$(P \otimes \mathcal{E})$$
+$$(P \otimes \mathscr{E})$$
 $$
 P \otimes_B V' \xrightarrow{1_P \otimes f} P \otimes_B V \xrightarrow{1_P \otimes g} P \otimes_B V''
 $$
-*le diagramme correspondant de A-modules. Pour que $(\mathcal{E})$ soit une suite exacte, il faut et il suffit que $(P \otimes \mathcal{E})$ le soit.*
+*le diagramme correspondant de A-modules. Pour que $(\mathscr{E})$ soit une suite exacte, il faut et il suffit que $(P \otimes \mathscr{E})$ le soit.*
 
-Supposons la suite $(\mathcal{E})$ exacte. Comme le B-module à droite P est projectif, la suite $(P \otimes \mathcal{E})$ est exacte (II, p. 58, prop. 5 et p. 63, cor. 6).
-Réciproquement, supposons la suite $(P \otimes \mathcal{E})$ exacte. Soient Q un $(B,A)_k$-bimodule inverse de P, et $\theta : Q \otimes_A P \to {}_s B_d$ un isomorphisme. Considérons le diagramme commutatif
+Supposons la suite $(\mathscr{E})$ exacte. Comme le B-module à droite P est projectif, la suite $(P \otimes \mathscr{E})$ est exacte (II, p. 58, prop. 5 et p. 63, cor. 6).
+Réciproquement, supposons la suite $(P \otimes \mathscr{E})$ exacte. Soient Q un $(B,A)_k$-bimodule inverse de P, et $\theta : Q \otimes_A P \to {}_s B_d$ un isomorphisme. Considérons le diagramme commutatif
 
 $$
 \begin{array}{ccc}
@@ -579,7 +579,7 @@ $$
 \end{array}
 $$
 
-Puisque Q est un A-module projectif et que la suite $(P \otimes \mathcal{E})$ est exacte, la première ligne de ce diagramme est une suite exacte; comme les flèches verticales sont des isomorphismes, la seconde ligne est également exacte.
+Puisque Q est un A-module projectif et que la suite $(P \otimes \mathscr{E})$ est exacte, la première ligne de ce diagramme est une suite exacte; comme les flèches verticales sont des isomorphismes, la seconde ligne est également exacte.
 
 #### Corollaire {#alg-viii-s6-n6-cor-1 .statement tag=007J}
 

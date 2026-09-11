@@ -30,9 +30,9 @@ subsections:
       title: Bandes dans un espace complètement réticulé
       page: 0
       pdf_page: 27
-statements: 16
+statements: 17
 exercises: 14
-content_sha256: 65e80833bfdc362cbc20f4d473358f8b4560e8aade59dd55bc339cb34363a94c
+content_sha256: f6106a7d26b3aa6d095f3aaad6040d83cbf5ebb9ee23a9bb3951da7dd5cd0605
 ---
 
 ## § 1. Espaces de Riesz et espaces complètement réticulés
@@ -125,7 +125,10 @@ Il est immédiat que toute partie minorée non vide d’un espace complètement 
 #### Exemple 1 {#int-ii-s1-n3-exa-1 .statement}
 
 Si A est un ensemble quelconque, l’espace $\mathbf{R}^A$ des fonctions numériques définies dans A est complètement réticulé, la borne supérieure dans $\mathbf{R}^A$ d’une famille majorée étant son enveloppe supérieure (Top. gén., chap. IV, § 5, n° 5).
-2) Soit F un ensemble quelconque; l’espace $\mathcal{B}(F)$ des fonctions numériques bornées dans F, muni de la structure d’ordre induite par celle de $\mathbf{R}^F$, est complètement réticulé. Par contre, si F est un espace topologique, l’espace $\mathcal{C}(F)$ des fonctions numériques continues dans F (muni de la structure d’ordre induite par celle de $\mathbf{R}^F$) est un espace de Riesz qui en général n’est pas complètement réticulé (cf. exerc. 13). Considérons par exemple le cas où $F = \mathbf{R}$; soient I l’intervalle ]0, 1[, $\varphi_I$ la fonction caractéristique de I, et soit H l’ensemble des fonctions continues $x(t)$ telles que $x \leqslant \varphi_I$; il est clair que H est majoré dans $\mathcal{C}(F)$. La fonction $\varphi_I$ est l’enveloppe supérieure des $x \in H$, mais non leur borne supérieure dans $C(F)$, puisque $\varphi_1$ est semi-continue inférieurement et non continue. Montrons qu’en fait $H$ n’a pas de borne supérieure dans $C(F)$; il suffit de prouver que, si $u$ est une fonction continue telle que $u \geq \varphi_1$, il existe une fonction continue $v \neq u$ telle que $u \geq v \geq \varphi_1$. Or, on a $u(0) \geq 1$, donc il existe un nombre $\alpha > 0$ tel que $u(t) > 0$ pour $-\alpha \leq t \leq 0$; si $w$ est une fonction continue nulle hors de l’intervalle $]-\alpha, 0[$, et telle que $0 < w(t) < u(t)$ dans cet intervalle, la fonction $v = u - w$ répond à la question.
+
+#### Exemple 2 {#int-ii-s1-n3-exa-2 .statement}
+
+Soit F un ensemble quelconque; l’espace $\mathcal{B}(F)$ des fonctions numériques bornées dans F, muni de la structure d’ordre induite par celle de $\mathbf{R}^F$, est complètement réticulé. Par contre, si F est un espace topologique, l’espace $\mathcal{C}(F)$ des fonctions numériques continues dans F (muni de la structure d’ordre induite par celle de $\mathbf{R}^F$) est un espace de Riesz qui en général n’est pas complètement réticulé (cf. exerc. 13). Considérons par exemple le cas où $F = \mathbf{R}$; soient I l’intervalle ]0, 1[, $\varphi_I$ la fonction caractéristique de I, et soit H l’ensemble des fonctions continues $x(t)$ telles que $x \leqslant \varphi_I$; il est clair que H est majoré dans $\mathcal{C}(F)$. La fonction $\varphi_I$ est l’enveloppe supérieure des $x \in H$, mais non leur borne supérieure dans $C(F)$, puisque $\varphi_1$ est semi-continue inférieurement et non continue. Montrons qu’en fait $H$ n’a pas de borne supérieure dans $C(F)$; il suffit de prouver que, si $u$ est une fonction continue telle que $u \geq \varphi_1$, il existe une fonction continue $v \neq u$ telle que $u \geq v \geq \varphi_1$. Or, on a $u(0) \geq 1$, donc il existe un nombre $\alpha > 0$ tel que $u(t) > 0$ pour $-\alpha \leq t \leq 0$; si $w$ est une fonction continue nulle hors de l’intervalle $]-\alpha, 0[$, et telle que $0 < w(t) < u(t)$ dans cet intervalle, la fonction $v = u - w$ répond à la question.
 
 #### Proposition 1 {#int-ii-s1-prop-1 .statement}
 

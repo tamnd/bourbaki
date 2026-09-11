@@ -251,7 +251,7 @@ Một đại số con của $\mathfrak{g}$ chứa $\mathfrak{h}$ và thỏa mãn
 
 Một đại số con $\mathfrak{b}$ của một đại số tách được $\mathfrak{g}$ được gọi là một đại số con Borel của $\mathfrak{g}$ nếu tồn tại một đại số con Cartan tách $\mathfrak{h}'$ của $\mathfrak{g}$ sao cho $\mathfrak{b}$ là một đại số con Borel của $(\mathfrak{g},\mathfrak{h}')$.
 
-Cho $(\mathfrak{g},\mathfrak{h})$ là một đại số Lie reductive tách được. Giả sử $\mathfrak{g}=\mathfrak{c}\times \mathfrak{s}$ với $\mathfrak{c}$ giao hoán và $\mathfrak{s}$ nửa đơn. Một đại số con của $\mathfrak{g}$ có dạng $\mathfrak{c}\times \mathfrak{b}$, trong đó $\mathfrak{b}$ là một đại số con Borel của $(\mathfrak{s},\mathfrak{h}\cap \mathfrak{s})$, được gọi là một đại số con Borel của $(\mathfrak{g},\mathfrak{h})$.
+Cho $(\mathfrak{g},\mathfrak{h})$ là một đại số Lie khả quy tách được. Giả sử $\mathfrak{g}=\mathfrak{c}\times \mathfrak{s}$ với $\mathfrak{c}$ giao hoán và $\mathfrak{s}$ nửa đơn. Một đại số con của $\mathfrak{g}$ có dạng $\mathfrak{c}\times \mathfrak{b}$, trong đó $\mathfrak{b}$ là một đại số con Borel của $(\mathfrak{s},\mathfrak{h}\cap \mathfrak{s})$, được gọi là một đại số con Borel của $(\mathfrak{g},\mathfrak{h})$.
 
 Với các ký hiệu của Mệnh đề 7, ta cũng nói rằng $\mathfrak{b}$ là đại số con Borel của $\mathfrak{g}$ được xác định bởi $\mathfrak{h}$ và C (hoặc bởi $\mathfrak{h}$ và cơ sở của R liên kết với C).
 
@@ -339,7 +339,7 @@ Các điều kiện (i) và (ii) là tương đương theo Mệnh đề 7. Các 
 
 Một đại số con của $\mathfrak{g}$ chứa $\mathfrak{h}$ và thỏa mãn các điều kiện tương đương của Mệnh đề 11 được gọi là một đại số con parabolic của $(\mathfrak{g},\mathfrak{h})$. Một đại số con parabolic của $\mathfrak{g}$ là một đại số con parabolic của $(\mathfrak{g},\mathfrak{h}')$ trong đó $\mathfrak{h}'$ là một đại số con Cartan tách của $\mathfrak{g}$.
 
-Định nghĩa này mở rộng ngay lập tức cho trường hợp trong đó $(\mathfrak{g},\mathfrak{h})$ là một đại số Lie reductive tách được.
+Định nghĩa này mở rộng ngay lập tức cho trường hợp trong đó $(\mathfrak{g},\mathfrak{h})$ là một đại số Lie khả quy tách được.
 
 #### Nhận xét {#lie-viii-s3-n4-rem-1 .statement tag=0107}
 

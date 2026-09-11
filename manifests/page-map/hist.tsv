@@ -9,294 +9,294 @@ pdf_page	chapter	page	confidence
 6			none
 7			none
 8			none
-9		1	interpolated
-10		2	head
-11		3	head
-12		4	head
-13		5	head
-14		6	head
-15		7	head
-16		8	head
-17		9	head
-18		10	head
-19		11	head
-20		12	head
-21		13	head
-22		14	head
-23		15	head
-24		16	head
-25		17	head
-26		18	head
-27		19	head
-28		20	head
-29		21	head
-30		22	head
-31		23	head
-32		24	head
-33		25	head
-34		26	head
-35		27	head
-36		28	head
-37		29	head
-38		30	head
-39		31	head
-40		32	head
-41		33	head
-42		34	head
-43		35	head
-44		36	head
-45		37	head
-46		38	head
-47		39	head
-48		40	head
-49		41	head
-50		42	head
-51		43	head
-52		44	head
-53		45	interpolated
-54		46	head
-55		47	interpolated
-56		48	head
-57		49	head
-58		50	head
-59		51	head
-60		52	head
-61		53	head
-62		54	head
-63		55	head
-64		57	interpolated
-65		58	head
-66		59	head
-67		60	head
-68		61	head
-69		62	head
-70		63	head
-71		64	head
-72		65	head
-73		66	head
-74		67	head
-75		69	interpolated
-76		70	head
-77		71	head
-78		72	head
-79		73	head
-80		74	head
-81		75	head
-82		76	head
-83		77	interpolated
-84		78	head
-85		79	interpolated
-86		80	head
-87		81	head
-88		82	head
-89		83	head
-90		85	interpolated
-91		86	head
-92		87	head
-93		88	head
-94		89	head
-95		90	head
-96		91	head
-97		92	head
-98		93	interpolated
-99		94	head
-100		95	head
-101		96	head
-102		97	head
-103		98	head
-104		99	head
-105		100	head
-106		101	head
-107		102	head
-108		103	head
-109		104	head
-110		105	head
-111		106	head
-112		107	head
-113		108	head
-114		109	head
-115		110	head
-116		111	head
-117		112	head
-118		113	head
-119		114	head
-120		115	head
-121		117	interpolated
-122		118	head
-123		119	head
-124		120	head
-125		121	head
-126		122	head
-127		123	head
-128		125	interpolated
-129		126	head
-130		127	head
-131		128	head
-132		129	head
-133		130	head
-134		131	head
-135		132	head
-136		133	head
-137		134	head
-138		135	head
-139		136	head
-140		137	head
-141		138	head
-142		139	interpolated
-143		140	head
-144		141	head
-145		142	head
-146		143	head
-147		145	interpolated
-148		146	head
-149		147	interpolated
-150		148	head
-151		149	head
-152		150	head
-153		151	head
-154		152	head
-155		153	head
-156		154	head
-157		155	head
-158		156	head
-159		157	interpolated
-160		158	head
-161		159	interpolated
-162		160	head
-163		161	interpolated
-164		162	head
-165		163	head
-166		164	head
-167		165	interpolated
-168		166	head
-169		167	interpolated
-170		168	head
-171		169	head
-172		170	head
-173		171	head
-174		172	head
-175		173	head
-176		174	head
-177		175	head
-178		176	head
-179		177	head
-180		178	head
-181		179	head
-182		180	head
-183		181	head
-184		182	head
-185		183	head
-186		184	head
-187		185	head
-188		186	head
-189		187	head
-190		188	head
-191		189	head
-192		190	head
-193		191	head
-194		192	head
-195		193	head
-196		194	head
-197		195	head
-198		196	head
-199		197	head
-200		198	head
-201		199	interpolated
-202		200	head
-203		201	head
-204		202	head
-205		204	interpolated
-206		205	interpolated
-207		206	head
-208		207	interpolated
-209		208	head
-210		209	head
-211		210	head
-212		211	head
-213		212	head
-214		213	head
-215		214	head
-216		215	head
-217		216	head
-218		217	head
-219		218	head
-220		219	interpolated
-221		220	head
-222		221	head
-223		222	head
-224		223	head
-225		224	head
-226		225	head
-227		226	head
-228		227	head
-229		228	head
-230		229	head
-231		231	interpolated
-232		232	head
-233		233	head
-234		234	head
-235		235	head
-236		236	head
-237		237	interpolated
-238		238	head
-239		239	head
-240		240	head
-241		241	head
-242		242	head
-243		243	head
-244		244	head
-245		245	head
-246		246	head
-247		247	interpolated
-248		248	head
-249		249	head
-250		250	head
-251		251	head
-252		252	head
-253		253	head
-254		254	head
-255		255	head
-256		256	head
-257		257	head
-258		258	head
-259		259	head
-260		260	head
-261		261	head
-262		262	head
-263		263	head
-264		264	head
-265		265	head
-266		266	head
-267		267	head
-268		269	interpolated
-269		270	head
-270		271	head
-271		272	head
-272		273	head
-273		274	head
-274		275	interpolated
-275		276	head
-276		277	head
-277		278	head
-278		279	head
-279		280	head
-280		281	head
-281		282	head
-282		283	head
-283		284	head
-284		285	head
-285		286	head
-286		287	head
-287		288	head
-288		289	head
-289		290	head
-290		291	head
-291		292	head
-292		293	head
-293		294	head
-294		295	head
-295		297	interpolated
-296		298	head
-297		299	head
-298		300	head
-299		301	head
+9	1	1	interpolated
+10	1	2	head
+11	1	3	head
+12	1	4	head
+13	1	5	head
+14	1	6	head
+15	1	7	head
+16	1	8	head
+17	1	9	head
+18	1	10	head
+19	1	11	head
+20	1	12	head
+21	1	13	head
+22	1	14	head
+23	1	15	head
+24	1	16	head
+25	1	17	head
+26	1	18	head
+27	1	19	head
+28	1	20	head
+29	1	21	head
+30	1	22	head
+31	1	23	head
+32	1	24	head
+33	1	25	head
+34	1	26	head
+35	1	27	head
+36	1	28	head
+37	1	29	head
+38	1	30	head
+39	1	31	head
+40	1	32	head
+41	1	33	head
+42	1	34	head
+43	1	35	head
+44	1	36	head
+45	1	37	head
+46	1	38	head
+47	1	39	head
+48	1	40	head
+49	1	41	head
+50	1	42	head
+51	1	43	head
+52	1	44	head
+53	1	45	interpolated
+54	1	46	head
+55	1	47	interpolated
+56	1	48	head
+57	1	49	head
+58	1	50	head
+59	1	51	head
+60	1	52	head
+61	1	53	head
+62	1	54	head
+63	1	55	head
+64	1	57	interpolated
+65	1	58	head
+66	1	59	head
+67	1	60	head
+68	1	61	head
+69	1	62	head
+70	1	63	head
+71	1	64	head
+72	1	65	head
+73	1	66	head
+74	1	67	head
+75	1	69	interpolated
+76	1	70	head
+77	1	71	head
+78	1	72	head
+79	1	73	head
+80	1	74	head
+81	1	75	head
+82	1	76	head
+83	1	77	interpolated
+84	1	78	head
+85	1	79	interpolated
+86	1	80	head
+87	1	81	head
+88	1	82	head
+89	1	83	head
+90	1	85	interpolated
+91	1	86	head
+92	1	87	head
+93	1	88	head
+94	1	89	head
+95	1	90	head
+96	1	91	head
+97	1	92	head
+98	1	93	interpolated
+99	1	94	head
+100	1	95	head
+101	1	96	head
+102	1	97	head
+103	1	98	head
+104	1	99	head
+105	1	100	head
+106	1	101	head
+107	1	102	head
+108	1	103	head
+109	1	104	head
+110	1	105	head
+111	1	106	head
+112	1	107	head
+113	1	108	head
+114	1	109	head
+115	1	110	head
+116	1	111	head
+117	1	112	head
+118	1	113	head
+119	1	114	head
+120	1	115	head
+121	1	117	interpolated
+122	1	118	head
+123	1	119	head
+124	1	120	head
+125	1	121	head
+126	1	122	head
+127	1	123	head
+128	1	125	interpolated
+129	1	126	head
+130	1	127	head
+131	1	128	head
+132	1	129	head
+133	1	130	head
+134	1	131	head
+135	1	132	head
+136	1	133	head
+137	1	134	head
+138	1	135	head
+139	1	136	head
+140	1	137	head
+141	1	138	head
+142	1	139	interpolated
+143	1	140	head
+144	1	141	head
+145	1	142	head
+146	1	143	head
+147	1	145	interpolated
+148	1	146	head
+149	1	147	interpolated
+150	1	148	head
+151	1	149	head
+152	1	150	head
+153	1	151	head
+154	1	152	head
+155	1	153	head
+156	1	154	head
+157	1	155	head
+158	1	156	head
+159	1	157	interpolated
+160	1	158	head
+161	1	159	interpolated
+162	1	160	head
+163	1	161	interpolated
+164	1	162	head
+165	1	163	head
+166	1	164	head
+167	1	165	interpolated
+168	1	166	head
+169	1	167	interpolated
+170	1	168	head
+171	1	169	head
+172	1	170	head
+173	1	171	head
+174	1	172	head
+175	1	173	head
+176	1	174	head
+177	1	175	head
+178	1	176	head
+179	1	177	head
+180	1	178	head
+181	1	179	head
+182	1	180	head
+183	1	181	head
+184	1	182	head
+185	1	183	head
+186	1	184	head
+187	1	185	head
+188	1	186	head
+189	1	187	head
+190	1	188	head
+191	1	189	head
+192	1	190	head
+193	1	191	head
+194	1	192	head
+195	1	193	head
+196	1	194	head
+197	1	195	head
+198	1	196	head
+199	1	197	head
+200	1	198	head
+201	1	199	interpolated
+202	1	200	head
+203	1	201	head
+204	1	202	head
+205	1	204	interpolated
+206	1	205	interpolated
+207	1	206	head
+208	1	207	interpolated
+209	1	208	head
+210	1	209	head
+211	1	210	head
+212	1	211	head
+213	1	212	head
+214	1	213	head
+215	1	214	head
+216	1	215	head
+217	1	216	head
+218	1	217	head
+219	1	218	head
+220	1	219	interpolated
+221	1	220	head
+222	1	221	head
+223	1	222	head
+224	1	223	head
+225	1	224	head
+226	1	225	head
+227	1	226	head
+228	1	227	head
+229	1	228	head
+230	1	229	head
+231	1	231	interpolated
+232	1	232	head
+233	1	233	head
+234	1	234	head
+235	1	235	head
+236	1	236	head
+237	1	237	interpolated
+238	1	238	head
+239	1	239	head
+240	1	240	head
+241	1	241	head
+242	1	242	head
+243	1	243	head
+244	1	244	head
+245	1	245	head
+246	1	246	head
+247	1	247	interpolated
+248	1	248	head
+249	1	249	head
+250	1	250	head
+251	1	251	head
+252	1	252	head
+253	1	253	head
+254	1	254	head
+255	1	255	head
+256	1	256	head
+257	1	257	head
+258	1	258	head
+259	1	259	head
+260	1	260	head
+261	1	261	head
+262	1	262	head
+263	1	263	head
+264	1	264	head
+265	1	265	head
+266	1	266	head
+267	1	267	head
+268	1	269	interpolated
+269	1	270	head
+270	1	271	head
+271	1	272	head
+272	1	273	head
+273	1	274	head
+274	1	275	interpolated
+275	1	276	head
+276	1	277	head
+277	1	278	head
+278	1	279	head
+279	1	280	head
+280	1	281	head
+281	1	282	head
+282	1	283	head
+283	1	284	head
+284	1	285	head
+285	1	286	head
+286	1	287	head
+287	1	288	head
+288	1	289	head
+289	1	290	head
+290	1	291	head
+291	1	292	head
+292	1	293	head
+293	1	294	head
+294	1	295	head
+295	1	297	interpolated
+296	1	298	head
+297	1	299	head
+298	1	300	head
+299	1	301	head

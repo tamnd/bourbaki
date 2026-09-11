@@ -321,13 +321,9 @@ Nhắc lại (Differentiable and Analytic Manifolds, R, 13.5.1) rằng, nếu V 
 
 #### Mệnh đề 11 {#lie-iii-s3-prop-11 .statement}
 
-Cho G là một nhóm Lie.
-(i) Cođại số $\mathcal{T}^{(\infty)}(G)$, với phép chập, là một song đại số (Algebra, Chapter III, § 11, no. 4).
-(ii) Cho c là đồng tích trên $\mathcal{T}^{(\infty)}(G)$. Cho $t \in \mathcal{T}^{(\infty)}(G)$ và viết
-$$
+Cho G là một nhóm Lie. (i) Cođại số $\mathcal{T}^{(\infty)}(G)$, với phép chập, là một song đại số (Đại số, Chương III, § 11, no. 4). (ii) Cho c là đồng tích trên $\mathcal{T}^{(\infty)}(G)$. Cho $t \in \mathcal{T}^{(\infty)}(G)$ và viết $$
 c(t) = \sum_{i=1}^n t_i \otimes t_i'.
-$$
-Khi đó $c(t^\vee) = \sum_{i=1}^n t_i^\vee \otimes t_{i'}^\vee$.
+$$ Khi đó $c(t^\vee) = \sum_{i=1}^n t_i^\vee \otimes t_{i'}^\vee$.
 
 Ta chứng minh (i). Trong định nghĩa của song đại số được dẫn chiếu tới, điều kiện (1) suy ra từ các Mệnh đề 2 và 3 và điều kiện (2) suy ra từ Differentiable and Analytic Manifolds, R, 13.5.1. Cho d là ánh xạ $g \mapsto (g, g)$ từ G vào $G \times G$. Khi đó $c = d_*$ và vì thế c là một cấu xạ đại số (các Mệnh đề 6 và 9), tức là điều kiện (3). Cho $t \in T_g^{(\infty)}(G)$, $t' \in T_{g'}^{(\infty)}(G)$ không có số hạng hằng và $\lambda, \lambda'$ là các phần tử của K; khi đó $\varepsilon_g \otimes t', t \otimes \varepsilon_{g'}, t \otimes t'$ đều không có số hạng hằng (Differentiable and Analytic Manifolds, R, 13.4.1) và vì thế số hạng hằng của $(\lambda \varepsilon_g + t) * (\lambda' \varepsilon_{g'} + t')$ là $\lambda \lambda'$; do đó điều kiện (4) được thỏa mãn.
 
@@ -1212,7 +1208,7 @@ $$
 L(\pi)a.\xi_0 = -[D_a, \xi](x_0).
 $$
 
-$\tau(gg') = \tau(g)\tau(g')$ (resp. $\tau(g')\tau(g)$) và do đó $\pi(gg') = \pi(g)\pi(g')$ (resp. $\pi(g')\pi(g)$). Mặt khác, vì $TX$ là một G-bó vectơ lớp $C^\omega$ (§ 1, no. 8, Proposition 16), nên $\pi$ là giải tích, do đó có (i).
+$\tau(gg') = \tau(g)\tau(g')$ (resp. $\tau(g')\tau(g)$) và do đó $\pi(gg') = \pi(g)\pi(g')$ (resp. $\pi(g')\pi(g)$). Mặt khác, vì $TX$ là một G-bó vectơ lớp $C^\omega$ (§ 1, no. 8, mệnh đề 16), nên $\pi$ là giải tích, do đó có (i).
 
 Để chứng minh (ii), giả sử rằng G tác động bên trái. Tồn tại một lân cận mở I của 0 trong K và một ánh xạ giải tích $\gamma$ từ I vào G sao cho $\gamma(0) = e, T_0(\gamma)1 = a$. Khi đó $D_a$ là trường vectơ trên X được xác định bởi ánh xạ $\phi : (\lambda, x) \mapsto \gamma(\lambda)x$ từ $I \times X$ vào X (§ 2, no. 2). Nếu $\phi_\lambda$ ký hiệu song ánh $x \mapsto \gamma(\lambda)x$ của X lên X, thì
 

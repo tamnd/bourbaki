@@ -347,19 +347,13 @@ Vì vậy có một sự tương ứng một-một giữa các đa tạp tuyến
 
 Nếu áp dụng các kết quả của no. 8 cho không gian vectơ $V = K_s$ có chiều bằng 1, thì thấy rằng tồn tại một đơn ánh chính tắc $\phi$ từ $K_s$ vào đường thẳng xạ ảnh $P_1(K) = P(K_s \times K_s)$; với mọi $\xi \in K$, $\phi(\xi)$ là điểm có tọa độ thuần nhất $(1, \xi)$ đối với cơ sở chính tắc (§ 1, no. 11) của $K_s \times K_s$. Phần bù của $\phi(K)$ trong $P_1(K)$ chỉ gồm một điểm duy nhất có tọa độ thuần nhất $(0, 1)$ đối với cơ sở trên; điểm đó được gọi là "điểm ở vô hạn". $P_1(K)$ cũng được gọi là trường xạ ảnh liên kết với $K$ và được ký hiệu bởi $\tilde{K}$, điểm ở vô hạn trong $\tilde{K}$ được ký hiệu bởi $\infty$.
 
-*Xét đặc biệt trường hợp $K$ là một trường giao hoán và gọi f \in K(X) là một hàm hữu tỉ theo một ẩn trên $K$ (IV, § 4); nếu $f \neq 0$, có một biểu thức duy nhất $f = \alpha p/q$, trong đó $\alpha \in K^*$ và $p$ và $q$ là hai đa thức đơn nhất nguyên tố cùng nhau (VII, § 1); gọi $m$ và $n$ là các bậc tương ứng của chúng và đặt $r = \sup(m, n)$. Ta viết
-$$
+*Xét đặc biệt trường hợp $K$ là một trường giao hoán và gọi f \in K(X) là một hàm hữu tỉ theo một ẩn trên $K$ (IV, § 4); nếu $f \neq 0$, có một biểu thức duy nhất $f = \alpha p/q$, trong đó $\alpha \in K^*$ và $p$ và $q$ là hai đa thức đơn nhất nguyên tố cùng nhau (VII, § 1); gọi $m$ và $n$ là các bậc tương ứng của chúng và đặt $r = \sup(m, n)$. Ta viết $$
 p_1(T, X) = T^r p(X/T), \qquad q_1(T, X) = T^r q(X/T);
-$$
-$p_1$ và $q_1$ là hai đa thức thuần nhất bậc $r$ trên $K$ sao cho $p(X) = p_1(1, X)$, $q(X) = q_1(1, X)$. Do đó, với mọi phần tử $\xi \in K$ không là một zero của $q(X)$, $f(\xi) = \alpha p(\xi)/q(\xi)$ được xác định và ta có thể viết
-$$
+$$ $p_1$ và $q_1$ là hai đa thức thuần nhất bậc $r$ trên $K$ sao cho $p(X) = p_1(1, X)$, $q(X) = q_1(1, X)$. Do đó, với mọi phần tử $\xi \in K$ không là một không của $q(X)$, $f(\xi) = \alpha p(\xi)/q(\xi)$ được xác định và ta có thể viết $$
 f(\xi) = \alpha p_1(1, \xi)/q_1(1, \xi) = \alpha p_1(\lambda, \lambda \xi)/q_1(\lambda, \lambda \xi)
-$$
-với mọi $\lambda \neq 0$ trong $K$. Khi đó xét ánh xạ
-$$
+$$ với mọi $\lambda \neq 0$ trong $K$. Khi đó xét ánh xạ $$
 (\eta, \xi) \mapsto (q_1(\eta, \xi), p_1(\eta, \xi))
-$$
-từ $K^2$ vào chính nó; nó tương thích với quan hệ tương đương $\Delta(K^2)$ và do đó, khi chuyển qua các thương, xác định một ánh xạ $\tilde{f}$ từ $\tilde{K}$ vào chính nó, trùng với $\xi \mapsto f(\xi)$ tại những điểm mà hàm hữu tỉ này được xác định; người ta gọi, do lạm dụng ngôn ngữ, rằng $\tilde{f}$ là mở rộng chính tắc của $f$ lên $\tilde{K}$.
+$$ từ $K^2$ vào chính nó; nó tương thích với quan hệ tương đương $\Delta(K^2)$ và do đó, khi chuyển qua các thương, xác định một ánh xạ $\tilde{f}$ từ $\tilde{K}$ vào chính nó, trùng với $\xi \mapsto f(\xi)$ tại những điểm mà hàm hữu tỉ này được xác định; người ta gọi, do lạm dụng ngôn ngữ, rằng $\tilde{f}$ là mở rộng chính tắc của $f$ lên $\tilde{K}$.
 
 Ví dụ, nếu $f = 1/X$, thì $\tilde{f}(0) = \infty$ và $\tilde{f}(\infty) = 0$; nếu
 $$
@@ -419,7 +413,7 @@ $$(\mathrm{EP}_{III})$$ *Ngược lại, nếu $f \in \Phi$ được xác địn
 
 Cho E là một tập hợp, $(V_\lambda)_{\lambda \in L}$ là một họ các không gian vectơ trên K và giả sử với mỗi $\lambda \in L$ cho trước một song ánh $f_\lambda$ từ $\mathbf{P}(V_\lambda)$ lên E sao cho, với mọi cặp có thứ tự các chỉ số $\lambda, \mu$, $f_\lambda^{-1} \circ f_\mu$ là một *ánh xạ xạ ảnh* từ $\mathbf{P}(V_\mu)$ lên $\mathbf{P}(V_\lambda)$. Khi đó ta có thể định nghĩa trên E một cấu trúc không gian xạ ảnh đối với K như sau: lấy $(e_i)_{i \in I}$ là một cơ sở của một không gian $V_\lambda$ và đặt $a_i = f_\lambda(\pi(e_i))$; gọi $b_i$ là phần tử có chỉ số $a_i$ trong cơ sở chính tắc của $K_s^{(E)}$ (§ 1, no. 11). Quan hệ $i \neq \kappa$ kéo theo $b_i \neq b_\kappa$ do giả thiết rằng $f_\lambda$ là song ánh; do đó các $b_i$ tạo thành một cơ sở của một không gian con vectơ $W_0$ của $K_s^{(E)}$ và vì thế tồn tại một ánh xạ xạ ảnh song ánh $h$ từ $\mathbf{P}(W_0)$ lên $\mathbf{P}(V_\lambda)$ sao cho $h(\pi(b_i)) = \pi(e_i)$ với mọi $i \in I$. Nếu ký hiệu $\Phi$ là tập hợp tất cả các ánh xạ xạ ảnh song ánh $f_\lambda \circ h \circ g^{-1}$, trong đó $g$ chạy qua tập hợp tất cả các ánh xạ xạ ảnh song ánh $\mathbf{P}(W) \subset \mathbf{P}(K_s^{(E)})$, thì kiểm tra ngay lập tức được rằng $\Phi$ thỏa mãn các tiên đề (EP_I), (EP_{II}) và (EP_{III}). Hơn nữa, cũng ngay lập tức thấy rằng $\Phi$ không phụ thuộc vào việc lựa chọn chỉ số $\lambda \in L$, cũng không phụ thuộc vào việc lựa chọn cơ sở $(e_i)$ trong $V_\lambda$, cũng không phụ thuộc vào việc lựa chọn $h$.
 
-Đặc biệt (khi lấy L chỉ gồm một phần tử), mọi không gian xạ ảnh $\mathbf{P}(V)$ dẫn xuất từ một không gian vectơ V (no. 5, Definition 4) do đó đều có một "cấu trúc không gian xạ ảnh" được xác định rõ ràng theo nghĩa của định nghĩa đã cho trong no. này. Vì thế mọi tập hợp được trang bị một cấu trúc không gian xạ ảnh đều có thể được gọi là một *không gian xạ ảnh*.
+Đặc biệt (khi lấy L chỉ gồm một phần tử), mọi không gian xạ ảnh $\mathbf{P}(V)$ dẫn xuất từ một không gian vectơ V (no. 5, định nghĩa 4) do đó đều có một "cấu trúc không gian xạ ảnh" được xác định rõ ràng theo nghĩa của định nghĩa đã cho trong no. này. Vì thế mọi tập hợp được trang bị một cấu trúc không gian xạ ảnh đều có thể được gọi là một *không gian xạ ảnh*.
 
 Với cùng ký hiệu ấy, một *đa tạp tuyến tính* trong một không gian xạ ảnh E là một tập con M của E sao cho, đối với ít nhất *một* song ánh $f \in \Phi$ được xác định trên $\mathbf{P}(V) \subset \mathbf{P}(K_s^{(E)})$, $f^{-1}(M)$ là một đa tạp tuyến tính trong $\mathbf{P}(V)$ theo nghĩa của no. 7 (khi đó tính chất này đúng với *mọi* $f \in \Phi$). Từ điều trên suy ra rằng mọi đa tạp tuyến tính trong một không gian xạ ảnh đều có một cách chính tắc một cấu trúc không gian xạ ảnh.
 

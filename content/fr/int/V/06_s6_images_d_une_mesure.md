@@ -34,9 +34,9 @@ subsections:
       title: Décomposition en tranches. Image réciproque d’une mesure par un homéomorphisme local
       page: 0
       pdf_page: 83
-statements: 29
+statements: 31
 exercises: 22
-content_sha256: ea5d01166e33130bb18c5891fb8a66f5e46271aad8bfa5b0bde28e730eaeed32
+content_sha256: a28420f7db6c8a0e859bd6fa339a36ec124cd6b73e65064e75f7df8123ecc705
 ---
 
 ## § 6. — Images d’une mesure
@@ -79,8 +79,14 @@ $$
 #### Remarque 1 {#int-v-s6-n1-rem-1 .statement}
 
 Si $\mu$ est bornée (et en particulier si $\mu$ a un support compact), toute application $\mu$-mesurable de T dans X est $\mu$-propre (chap. IV, § 5, n° 3, th. 1 et n° 6, th. 5).
-2) Si $\pi$ est $\mu$-mesurable et si, pour toute partie compacte K de X, $\pi^{-1}(K)$ est relativement compact, $\pi$ est $\mu$-propre (chap. IV, 2e éd., § 5, n° 5, prop. 7, et n° 6, th. 5); en particulier, toute application continue propre de T dans X (Top. gén., chap. I, 4e éd., § 10, n° 2, th. 1) est $\mu$-propre pour toute mesure positive $\mu$ sur T. Plus particulièrement, il en est ainsi de tout homéomorphisme $\pi$ de T sur X; la mesure $v = \pi(\mu)$ n’est autre alors que la mesure sur X transportée de $\mu$ par $\pi$ (chap. III, 2e éd., § 1, n° 3).
-3) Supposons que la topologie de X admette une base dénombrable; alors toute application $\pi$ de T dans X qui vérifie
+
+#### Remarque 2 {#int-v-s6-n1-rem-2 .statement}
+
+Si $\pi$ est $\mu$-mesurable et si, pour toute partie compacte K de X, $\pi^{-1}(K)$ est relativement compact, $\pi$ est $\mu$-propre (chap. IV, 2e éd., § 5, n° 5, prop. 7, et n° 6, th. 5); en particulier, toute application continue propre de T dans X (Top. gén., chap. I, 4e éd., § 10, n° 2, th. 1) est $\mu$-propre pour toute mesure positive $\mu$ sur T. Plus particulièrement, il en est ainsi de tout homéomorphisme $\pi$ de T sur X; la mesure $v = \pi(\mu)$ n’est autre alors que la mesure sur X transportée de $\mu$ par $\pi$ (chap. III, 2e éd., § 1, n° 3).
+
+#### Remarque 3 {#int-v-s6-n1-rem-3 .statement}
+
+Supposons que la topologie de X admette une base dénombrable; alors toute application $\pi$ de T dans X qui vérifie
 
 ### 2. Intégration par rapport à l’image d’une mesure positive
 

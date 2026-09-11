@@ -48,9 +48,9 @@ subsections:
       title: Jordan decomposition
       page: 43
       pdf_page: 402
-statements: 63
+statements: 66
 exercises: 14
-content_sha256: d38ce52748be68ee166866fa84d36a43db5be6707be3eb6d063fae4baa77523d
+content_sha256: 401598d42054d38d5ca36d56ed424c7580ad8d37583d5454e8faf96bc8dcb0ab
 ---
 
 ## § 5. ENDOMORPHISMS OF VECTOR SPACES
@@ -674,14 +674,22 @@ Suppose $u$ has a Jordan decomposition, and let R be a polynomial in $\mathbf{K}
 #### Remark 1 {#alg-vii-s5-n9-rem-1 .statement}
 
 We have $\det(u_s) = \det(u)$ and $\operatorname{Tr}(u_s) = \operatorname{Tr}(u)$.
-2) A necessary and sufficient condition for $u$ to be triangularisable is that $u$ have a Jordan decomposition with $u_s$ diagonalisable. Then there exists a basis of E with respect to which the matrix of $u$ is lower triangular, and that of $u_s$ is diagonal, with the same diagonal as the matrix of $u$ (cf. Lemma 4 and Prop. 19 below).
+
+#### Remark 2 {#alg-vii-s5-n9-rem-2 .statement}
+
+A necessary and sufficient condition for $u$ to be triangularisable is that $u$ have a Jordan decomposition with $u_s$ diagonalisable. Then there exists a basis of E with respect to which the matrix of $u$ is lower triangular, and that of $u_s$ is diagonal, with the same diagonal as the matrix of $u$ (cf. Lemma 4 and Prop. 19 below).
 Note however that if the matrix of $u$ with respect to some basis is triangular, it does not in general follow that the matrix of $u_s$ with respect to the same basis is diagonal.
 
-3) The notion of Jordan decomposition for a square matrix can be defined in an analogous manner. For example, for the Jordan matrix $U_{m,\alpha}$ we have
+#### Remark 3 {#alg-vii-s5-n9-rem-3 .statement}
+
+The notion of Jordan decomposition for a square matrix can be defined in an analogous manner. For example, for the Jordan matrix $U_{m,\alpha}$ we have
 $$
 (U_{m,\alpha})_s = \alpha \cdot I_m , \quad (U_{m,\alpha})_n = U_{m,0} .
 $$
-4) If $u$ is semi-simple but not absolutely semi-simple, then it has no Jordan decomposition.
+
+#### Remark 4 {#alg-vii-s5-n9-rem-4 .statement}
+
+If $u$ is semi-simple but not absolutely semi-simple, then it has no Jordan decomposition.
 
 An endomorphism $u$ of a vector space $V$ over a commutative field is said to be unipotent if the endomorphism $u - \mathrm{Id}$, is nilpotent, that is if there exists an integer $r$ such that $(u - \mathrm{Id},)' = 0$; then $u$ is an automorphism of $V$, since if $u = \mathrm{Id}, - n$ with $n' = 0$, then
 $$

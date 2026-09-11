@@ -122,10 +122,9 @@ là một ánh xạ đa tuyến tính mà ảnh sinh ra $V$. *Nếu $M_i$ là m�
 
 (iii) Vì $KM, = V,$ nên rõ ràng do tính tuyến tính $f$ ($M, x \ldots x M,$) sinh không gian vectơ trên K là $V$; mặt khác, với mọi $i$, tồn tại một A-môđun con sinh hữu hạn $N_i$ của $V$, sao cho $M, \subset N_i;$ A-môđun con $N$ của $V$ sinh bởi $f(N, x \ldots x N,)$ là sinh hữu hạn và chứa $M$, do đó $M$ là một dàn của $V$ (Mệnh đề 1).
 
-(iv) Cho $P$ (resp. $Q$) là một dàn tự do của $V$ (resp. $W$) chứa $M$ (resp. được chứa trong $N$); hiển nhiên $N : M \supset Q : P$. Bây giờ ngay lập tức có được rằng $Q : P$ đẳng cấu với $\mathrm{Hom}_A(P, Q)$, do đó là một A-môđun tự do có hạng $(\mathrm{rg}_A P)(\mathrm{rg}_A Q)$ (*Algebra*, Chapter II, § 1, no. 6, Hệ quả 1 của Mệnh đề 6) và vì thế là một dàn của $\mathrm{Hom}_K(V, W)$. Tương tự, nếu $P'$ (resp. $Q'$) là một dàn tự do của $V$ (resp. $W$) được chứa trong $M$ (resp. chứa $N$), thì $Q' : P' \supset N : M$ và $Q' : P'$ là một dàn của $\mathrm{Hom}_K(V, W)$; do đó kết luận.
+(iv) Cho $P$ (resp. $Q$) là một dàn tự do của $V$ (resp. $W$) chứa $M$ (resp. được chứa trong $N$); hiển nhiên $N : M \supset Q : P$. Bây giờ ngay lập tức có được rằng $Q : P$ đẳng cấu với $\mathrm{Hom}_A(P, Q)$, do đó là một A-môđun tự do có hạng $(\mathrm{rg}_A P)(\mathrm{rg}_A Q)$ (*Đại số*, Chương II, § 1, no. 6, Hệ quả 1 của Mệnh đề 6) và vì thế là một dàn của $\mathrm{Hom}_K(V, W)$. Tương tự, nếu $P'$ (resp. $Q'$) là một dàn tự do của $V$ (resp. $W$) được chứa trong $M$ (resp. chứa $N$), thì $Q' : P' \supset N : M$ và $Q' : P'$ là một dàn của $\mathrm{Hom}_K(V, W)$; do đó kết luận.
 
-*Nhận xét*
-(2) Mệnh đề 3 (i) cho thấy tập $R(V)$ các dàn của $V$ là *có thứ tự dàn* đối với quan hệ bao hàm; hơn nữa, nếu $M$ là một dàn cố định của $V$, thì các $xM$, với $x$ chạy qua $K^*$, tạo thành một tập con của $R(V)$ vừa *đồng đầu* vừa *đồng cuối* (*Set Theory*, Chapter III, § 1, no. 7).
+*Nhận xét* (2) Mệnh đề 3 (i) cho thấy tập $R(V)$ các dàn của $V$ là *có thứ tự dàn* đối với quan hệ bao hàm; hơn nữa, nếu $M$ là một dàn cố định của $V$, thì các $xM$, với $x$ chạy qua $K^*$, tạo thành một tập con của $R(V)$ vừa *đồng đầu* vừa *đồng cuối* (*Lý thuyết tập hợp*, Chương III, § 1, no. 7).
 
 (3) Với các ký hiệu của Mệnh đề 3 (iv), ánh xạ chính tắc
 $$
@@ -194,7 +193,7 @@ Rõ ràng vế trái của (1) được chứa trong vế phải. Ngược lại
 
 Nhắc lại rằng từ bây giờ miền $A$ được giả thiết là *Noether và đóng nguyên* và $P(A)$ (hoặc đơn giản là $P$) ký hiệu tập hợp các iđêan nguyên tố của $A$ *có chiều cao* 1. Mọi dàn đối với $A$ đều là *một* $A$-môđun *sinh hữu hạn* (no. 1, Hệ quả của Mệnh đề 1).
 
-Cho $V$ là một không gian vectơ hạng hữu hạn trên $K$, $V^*$ là đối ngẫu của nó và $V^{**}$ là đối ngẫu kép của nó; ta sẽ đồng nhất $V$ và $V^{**}$ bằng ánh xạ chính tắc $c_V$ (*Algebra*, Chương II, § 7, no. 5, Định lý 6). Cho $M$ là một dàn của $V$; nhắc lại rằng $A$-môđun đối ngẫu $M^*$ của $M$ được đồng nhất một cách chính tắc với *dàn đối ngẫu* của $M$, tức là tập hợp các $x^* \in V^*$ sao cho $\langle x, x^* \rangle \in A$ với mọi $x \in M$; do đó $A$-môđun *đối ngẫu kép* $M^{**}$ của $M$ là một *dàn* của $V$ chứa $M$. Hơn nữa $M^{***} = M^*$, vì quan hệ $M \subset M^{**}$ kéo theo $(M^{**})^* \subset M^*$ và mặt khác $M^* \subset (M^*)^{**}$ theo điều trên (xem *Set Theory*, Chương III, § 1, no. 5, Mệnh đề 2).
+Cho $V$ là một không gian vectơ hạng hữu hạn trên $K$, $V^*$ là đối ngẫu của nó và $V^{**}$ là đối ngẫu kép của nó; ta sẽ đồng nhất $V$ và $V^{**}$ bằng ánh xạ chính tắc $c_V$ (*Đại số*, Chương II, § 7, no. 5, Định lý 6). Cho $M$ là một dàn của $V$; nhắc lại rằng $A$-môđun đối ngẫu $M^*$ của $M$ được đồng nhất một cách chính tắc với *dàn đối ngẫu* của $M$, tức là tập hợp các $x^* \in V^*$ sao cho $\langle x, x^* \rangle \in A$ với mọi $x \in M$; do đó $A$-môđun *đối ngẫu kép* $M^{**}$ của $M$ là một *dàn* của $V$ chứa $M$. Hơn nữa $M^{***} = M^*$, vì quan hệ $M \subset M^{**}$ kéo theo $(M^{**})^* \subset M^*$ và mặt khác $M^* \subset (M^*)^{**}$ theo điều trên (xem *Lý thuyết tập hợp*, Chương III, § 1, no. 5, Mệnh đề 2).
 
 Nếu $p$ là một iđêan nguyên tố, thì Mệnh đề 5 áp dụng với $N = A$ cho quan hệ $(M^*)_p = (M_p)^*$, điều này biện minh cho ký hiệu $M_p^*$ cho cả hai vế.
 
@@ -204,9 +203,9 @@ Nếu $p$ là một iđêan nguyên tố, thì Mệnh đề 5 áp dụng với $
 
 Rõ ràng $M^*$ được chứa trong mỗi $M_p^*$. Ngược lại, giả sử rằng $x^* \in \bigcap M_p^*$; nếu $x \in M$, thì $\langle x, x^* \rangle \in \bigcap_{p \in P} A_p$ và, vì $A = \bigcap_{p \in P} A_p$ (§ 1, no. 6, Định lý 4), $x^* \in M^*$.
 
-Áp dụng Định lý 1 cho $M^*$ cho thấy rằng $M^{**} = \bigcap_{p \in P} M_p^{**}$. Nhưng vì $A$, là một miền iđêan chính ($§ 1$, no. **6**, Định lý **4**), $M$, là một $A$-môđun tự do sinh hữu hạn và do đó $M_p^{**}$ được đồng nhất một cách chính tắc với $M$, (*Algebra*, Chương II, $§ 2$, no. **7**, Mệnh đề **14**), do đó có hệ quả.
+Áp dụng Định lý 1 cho $M^*$ cho thấy rằng $M^{**} = \bigcap_{p \in P} M_p^{**}$. Nhưng vì $A$, là một miền iđêan chính ($§ 1$, no. **6**, Định lý **4**), $M$, là một $A$-môđun tự do sinh hữu hạn và do đó $M_p^{**}$ được đồng nhất một cách chính tắc với $M$, (*Đại số*, Chương II, $§ 2$, no. **7**, Mệnh đề **14**), do đó có hệ quả.
 
-Với mọi dàn $M$ đối với $A$, ánh xạ chính tắc $c_M : M \to M^{**}$ (*Algebra*, Chapter 11, $§ 2$, no. **7**) đồng nhất một phần tử $x \in M$ với chính nó, vì $x$ là phần tử duy nhất $y$ của $V = V^{**}$ sao cho $\langle x, x^* \rangle = \langle y, x^* \rangle$ với mọi $x^* \in M^*$, vì $M^*$ sinh $V^*$. Ta sẽ nói rằng $M$ là *phản xạ* nếu $M^{**} = M$ (*loc. cit.*). Vì ở trên ta có $M^* = (M^*)^{**}$, suy ra rằng *đối ngẫu* của mọi dàn $M$ luôn luôn *phản xạ*.
+Với mọi dàn $M$ đối với $A$, ánh xạ chính tắc $c_M : M \to M^{**}$ (*Đại số*, Chương 11, $§ 2$, no. **7**) đồng nhất một phần tử $x \in M$ với chính nó, vì $x$ là phần tử duy nhất $y$ của $V = V^{**}$ sao cho $\langle x, x^* \rangle = \langle y, x^* \rangle$ với mọi $x^* \in M^*$, vì $M^*$ sinh $V^*$. Ta sẽ nói rằng $M$ là *phản xạ* nếu $M^{**} = M$ (*loc. cit.*). Vì ở trên ta có $M^* = (M^*)^{**}$, suy ra rằng *đối ngẫu* của mọi dàn $M$ luôn luôn *phản xạ*.
 
 *Nhận xét* (1) Cho $M$ là một $A$-môđun sinh hữu hạn; ngay lập tức thấy rằng đối ngẫu $M^*$ của $M$, được đồng nhất với một môđun con-$A$ của $\operatorname{Hom}_A(M, K)$, là một *dàn* của không gian vectơ $K$ $\operatorname{Hom}_A(M, K)$; đặc biệt, mọi $A$-môđun *phản xạ* sinh hữu hạn đều đẳng cấu với một dàn của một không gian vectơ $K$ thích hợp.
 
@@ -1090,7 +1089,7 @@ Vậy giả sử rằng $y$ và $z$ độc lập tuyến tính trên $K$, đặt
 — nếu $p \in Z$, thì $x(p) = \mu_p y(p)$ với $\mu_p \neq 0$ do cách chọn $b$ và do đó $x(p) \neq 0$ vì $y(p) \# 0$;
 — nếu $p \in P - (Y \cup Z)$, thì $y(p)$ và $z(p)$ độc lập tuyến tính và do đó $x(p) \neq 0$.
 
-Sau khi đã thiết lập các bổ đề này, ta chuyển sang chứng minh Định lý 6. Ta lập luận bằng quy nạp theo $n$, trường hợp $n \leq 1$ là tầm thường vì khi đó chính $M$ đẳng cấu với một iđêan của $A$. Vậy giả sử rằng $n \geq 2$; theo Bổ đề 8, tồn tại một môđun con tự do $L_0$ của $M$ có hạng 1 sao cho $M/L_0$ không xoắn; do đó $M/L_0$ có hạng $n - 1$. Theo giả thiết quy nạp, tồn tại một môđun con tự do $L$, của $M/L_0$ sao cho $(M/L_0)/L_1$ đẳng cấu với một iđêan của $A$. Gọi $L$ là ảnh ngược của $L_1$ trong $M$; $L/L_0$ đẳng cấu với $L_1$ và, vì $L_1$ là tự do, $L$ đẳng cấu với $L_0 \oplus L_1$ (Algebra, Chapter II, § 1, no. 11, Proposition 21) và do đó là tự do; vì $M/L$ đẳng cấu với $(M/L_0)/L_1$, định lý được chứng minh.
+Sau khi đã thiết lập các bổ đề này, ta chuyển sang chứng minh Định lý 6. Ta lập luận bằng quy nạp theo $n$, trường hợp $n \leq 1$ là tầm thường vì khi đó chính $M$ đẳng cấu với một iđêan của $A$. Vậy giả sử rằng $n \geq 2$; theo Bổ đề 8, tồn tại một môđun con tự do $L_0$ của $M$ có hạng 1 sao cho $M/L_0$ không xoắn; do đó $M/L_0$ có hạng $n - 1$. Theo giả thiết quy nạp, tồn tại một môđun con tự do $L$, của $M/L_0$ sao cho $(M/L_0)/L_1$ đẳng cấu với một iđêan của $A$. Gọi $L$ là ảnh ngược của $L_1$ trong $M$; $L/L_0$ đẳng cấu với $L_1$ và, vì $L_1$ là tự do, $L$ đẳng cấu với $L_0 \oplus L_1$ (Đại số, Chương II, § 1, số 11, Mệnh đề 21) và do đó là tự do; vì $M/L$ đẳng cấu với $(M/L_0)/L_1$, định lý được chứng minh.
 
 #### Nhận xét {#ac-vii-s4-n9-rem-1 .statement}
 

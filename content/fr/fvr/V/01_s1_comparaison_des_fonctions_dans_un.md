@@ -30,9 +30,9 @@ subsections:
       title: Notations
       page: 9
       pdf_page: 214
-statements: 47
+statements: 48
 exercises: 3
-content_sha256: 4b278b611edbc903d308f669178aefc79766c85334861544840988b827a56395
+content_sha256: 25a0e46d98bb0b2b986b13121b9d77fbf7a2298cd0de4a77225b12beda9ccd52
 ---
 
 ## § 1. COMPARAISON DES FONCTIONS DANS UN ENSEMBLE FILTRÉ
@@ -262,7 +262,7 @@ Soit $f(x, y)$ un polynôme à coefficients réels par rapport à deux variables
 
 Pour tout $x > 0$, soit $\pi(x)$ le nombre des nombres premiers qui sont $\leq x$; on a démontré que, lorsque $x$ tend vers $+\infty$, on a $\pi(x) \sim x/\log x^2$.
 
-#### Remarque {#fvr-v-s1-n2-rem-2 .statement}
+#### Remarque {#fvr-v-s1-n2-rem-3 .statement}
 
 On notera que la relation $f \sim g$ ne signifie nullement que la différence $f - g$ tende vers 0 suivant $\mathfrak{F}$; cette différence peut même être non bornée, comme le montre l’exemple $x^2 + x \sim x^2$, $x$ tendant vers $+\infty$.
 
@@ -284,7 +284,10 @@ Les relations de comparaison $\mathbf{f} \ll \mathbf{g}$, $\mathbf{f} \sim \math
 #### Remarque 1 {#fvr-v-s1-n2-rem-1 .statement}
 
 Deux fonctions peuvent être faiblement comparables sans être fortement comparables, par exemple les fonctions 1 et sin x lorsque x tend vers $+\infty$.
-2) La définition des relations de comparaison $\mathbf{f}_1 \leqslant \mathbf{f}_2$ et $\mathbf{f}_1 \ll \mathbf{f}_2$ ne fait intervenir qu’en apparence les normes sur les espaces $V_1, V_2$ où $\mathbf{f}_1$ et $\mathbf{f}_2$ prennent respectivement leurs valeurs; elle ne dépend en réalité que des topologies de $V_1$ et $V_2$, car les relations $\mathbf{f}_1 \leqslant \mathbf{f}_2^2$ et $\mathbf{f}_1 \ll \mathbf{f}_2$ sont remplacées par des relations équivalentes lorsqu’on remplace la norme sur $V_1$ ou $V_2$ par une norme équivalente (TG, IX, p. 32, def. 7).
+
+#### Remarque 2 {#fvr-v-s1-n2-rem-2 .statement}
+
+La définition des relations de comparaison $\mathbf{f}_1 \leqslant \mathbf{f}_2$ et $\mathbf{f}_1 \ll \mathbf{f}_2$ ne fait intervenir qu’en apparence les normes sur les espaces $V_1, V_2$ où $\mathbf{f}_1$ et $\mathbf{f}_2$ prennent respectivement leurs valeurs; elle ne dépend en réalité que des topologies de $V_1$ et $V_2$, car les relations $\mathbf{f}_1 \leqslant \mathbf{f}_2^2$ et $\mathbf{f}_1 \ll \mathbf{f}_2$ sont remplacées par des relations équivalentes lorsqu’on remplace la norme sur $V_1$ ou $V_2$ par une norme équivalente (TG, IX, p. 32, def. 7).
 
 ### 3. Changement de variables
 

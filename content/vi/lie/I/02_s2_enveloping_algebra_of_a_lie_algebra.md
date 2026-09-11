@@ -75,7 +75,7 @@ Nếu $L'$ là một đại số kết hợp khác có phần tử đơn vị tr
 
 *Cho $g$ là một đại số Lie trên $K$, $T$ là đại số tenxơ của $K$-môđun $g$ và $J$ là iđêan hai phía của $T$ sinh bởi các tenxơ $x \otimes y - y \otimes x - [x, y]$ trong đó $x \in g, y \in g$. Đại số kết hợp $U = T/J$ được gọi là đại số bao của $g$. Hạn chế vào $g$ của ánh xạ chính tắc của $T$ lên $U$ được gọi là ánh xạ chính tắc của $g$ vào $U$.*
 
-Cho $T_+$ là iđêan hai phía của $T$ gồm các tensor mà thành phần có cấp 0 là không. Cho $T_0 = K.1$ là tập hợp các phần tử của $T$ có cấp 0. Cho $U_+$ và $U_0$ là các ảnh chính tắc của $T_+$ và $T_0$ trong $U$. Vì $J \subset T_+$, phân tích thành tổng trực tiếp $T = T_0 + T_+$ kéo theo một phân tích thành tổng trực tiếp $U = U_0 + U_+$. Đại số $U$ do đó có một phần tử đơn vị phân biệt với 0 và $U_0 = K.1$. Với mọi $x \in U$, thành phần của $x$ trong $U_0$ được gọi là *số hạng hằng* của $x$. Các phần tử có số hạng hằng bằng không tạo thành một iđêan hai phía của $U$, cụ thể là iđêan hai phía $U^+$ sinh bởi ảnh chính tắc của $g$ trong $U$.
+Cho $T_+$ là iđêan hai phía của $T$ gồm các tenxơ mà thành phần có cấp 0 là không. Cho $T_0 = K.1$ là tập hợp các phần tử của $T$ có cấp 0. Cho $U_+$ và $U_0$ là các ảnh chính tắc của $T_+$ và $T_0$ trong $U$. Vì $J \subset T_+$, phân tích thành tổng trực tiếp $T = T_0 + T_+$ kéo theo một phân tích thành tổng trực tiếp $U = U_0 + U_+$. Đại số $U$ do đó có một phần tử đơn vị phân biệt với 0 và $U_0 = K.1$. Với mọi $x \in U$, thành phần của $x$ trong $U_0$ được gọi là *số hạng hằng* của $x$. Các phần tử có số hạng hằng bằng không tạo thành một iđêan hai phía của $U$, cụ thể là iđêan hai phía $U^+$ sinh bởi ảnh chính tắc của $g$ trong $U$.
 
 Đại số kết hợp $U$ được sinh bởi 1 và ảnh chính tắc của $g$ trong $U$.
 
@@ -221,15 +221,15 @@ $$
 
 Cho V là một K-môđun. V có thể được xem theo một cách duy nhất như một đại số Lie giao hoán. Đại số bao quanh của V khi đó có thể thu được như sau: cho T là đại số tenxơ của V; cho I là iđêan hai phía của T sinh bởi các tenxơ $x \otimes y - y \otimes x$ ($x \in V, y \in V$); khi đó lập đại số $S = T/I$.
 
-Nhắc lại (*Algebra*, Chương III, § 6) rằng S được gọi là đại số đối xứng của V, ta tóm tắt ngắn gọn các tính chất cần dùng trong chương này, mà các chứng minh của chúng là ngay lập tức. Cho $T^n$ là tập hợp các tenxơ thuần nhất cấp n trong T. Khi đó $I = (I \cap T^2) + (I \cap T^3) + \cdots$ và do đó S là tổng trực tiếp của các ảnh chính tắc $S^n$ của các $T^n$. Các phần tử của $S^n$ được gọi là thuần nhất bậc n. $S^0 = K.1, S^1$ được đồng nhất với V và $S^n S^p \subset S^{n+p}$. Đại số S được sinh bởi 1 và $S^1 = V$. Rõ ràng hai phần tử bất kỳ của $S^1$ đều hoán vị được và do đó S là giao hoán. Nếu V là một K-môđun tự do với cơ sở $(x_\lambda)_{\lambda \in \Lambda}$, đồng cấu chính tắc f của đại số đa thức $K[X_\lambda]_{\lambda \in \Lambda}$ lên S biến 1 thành 1 và $X_\lambda$ thành $x_\lambda$ với mọi $\lambda \in \Lambda$ là một đẳng cấu: vì theo tính chất phổ quát của S (no. 1, Mệnh đề 1) tồn tại một đồng cấu g của S vào $K[X_\lambda]_{\lambda \in \Lambda}$ biến 1 thành 1 và $x_\lambda$ thành $X_\lambda$ với mọi $\lambda \in \Lambda$ và f và g là các đồng cấu nghịch đảo của nhau.
+Nhắc lại (*Đại số*, Chương III, § 6) rằng S được gọi là đại số đối xứng của V, ta tóm tắt ngắn gọn các tính chất cần dùng trong chương này, mà các chứng minh của chúng là ngay lập tức. Cho $T^n$ là tập hợp các tenxơ thuần nhất cấp n trong T. Khi đó $I = (I \cap T^2) + (I \cap T^3) + \cdots$ và do đó S là tổng trực tiếp của các ảnh chính tắc $S^n$ của các $T^n$. Các phần tử của $S^n$ được gọi là thuần nhất bậc n. $S^0 = K.1, S^1$ được đồng nhất với V và $S^n S^p \subset S^{n+p}$. Đại số S được sinh bởi 1 và $S^1 = V$. Rõ ràng hai phần tử bất kỳ của $S^1$ đều hoán vị được và do đó S là giao hoán. Nếu V là một K-môđun tự do với cơ sở $(x_\lambda)_{\lambda \in \Lambda}$, đồng cấu chính tắc f của đại số đa thức $K[X_\lambda]_{\lambda \in \Lambda}$ lên S biến 1 thành 1 và $X_\lambda$ thành $x_\lambda$ với mọi $\lambda \in \Lambda$ là một đẳng cấu: vì theo tính chất phổ quát của S (no. 1, Mệnh đề 1) tồn tại một đồng cấu g của S vào $K[X_\lambda]_{\lambda \in \Lambda}$ biến 1 thành 1 và $x_\lambda$ thành $X_\lambda$ với mọi $\lambda \in \Lambda$ và f và g là các đồng cấu nghịch đảo của nhau.
 
-Cho ${S'}^n \subset T^n$ là tập hợp các tenxơ đối xứng thuần nhất cấp n (*Algebra*, Chương III, § 5, no. 1, Định nghĩa 2). Nếu K là một trường có đặc số 0, thì ${S'}^n$ và $I \cap T^n$ bù nhau trong $T^n$. Thật vậy, lấy $(x_\lambda)_{\lambda \in \Lambda}$ là một cơ sở của V. Ta trang bị cho $\Lambda$ một thứ tự toàn phần (*Set Theory*, Chương III, § 2, no. 3, Định lý 1). Gọi $\Lambda_n$ là tập hợp các dãy tăng gồm n phần tử của $\Lambda$. Với $M = (\lambda_1, \ldots, \lambda_n) \in \Lambda_n$, đặt
+Cho ${S'}^n \subset T^n$ là tập hợp các tenxơ đối xứng thuần nhất cấp n (*Đại số*, Chương III, § 5, no. 1, Định nghĩa 2). Nếu K là một trường có đặc số 0, thì ${S'}^n$ và $I \cap T^n$ bù nhau trong $T^n$. Thật vậy, lấy $(x_\lambda)_{\lambda \in \Lambda}$ là một cơ sở của V. Ta trang bị cho $\Lambda$ một thứ tự toàn phần (*Lý thuyết tập hợp*, Chương III, § 2, no. 3, Định lý 1). Gọi $\Lambda_n$ là tập hợp các dãy tăng gồm n phần tử của $\Lambda$. Với $M = (\lambda_1, \ldots, \lambda_n) \in \Lambda_n$, đặt
 
 $$
 y_M = \frac{1}{n!} \sum_{\sigma \in S_n} x_{\lambda_{\sigma(n)}} \otimes \cdots \otimes x_{\lambda_{\sigma(n)}}.
 $$
 
-Các $y_M$ với $M \in \Lambda_n$ lập thành một hệ sinh của K-không gian vectơ ${S'}^n$. Mặt khác, các ảnh chính tắc của chúng trong $S^n$ cấu thành, theo đoạn trên, một cơ sở của $S^n$. Do đó $(y_M)_{M \in \Lambda_n}$ là một cơ sở của một không gian con bù của $I \cap T^n$ trong $T^n$ (*Algebra*, Chương II, § 1, no. 6, Mệnh đề 4), điều này chứng minh mệnh đề của ta.
+Các $y_M$ với $M \in \Lambda_n$ lập thành một hệ sinh của K-không gian vectơ ${S'}^n$. Mặt khác, các ảnh chính tắc của chúng trong $S^n$ cấu thành, theo đoạn trên, một cơ sở của $S^n$. Do đó $(y_M)_{M \in \Lambda_n}$ là một cơ sở của một không gian con bù của $I \cap T^n$ trong $T^n$ (*Đại số*, Chương II, § 1, no. 6, Mệnh đề 4), điều này chứng minh mệnh đề của ta.
 
 Vì thế, khi K là một trường có đặc số 0, hạn chế lên ${S'}^n$ của ánh xạ chính tắc $T^n \to S^n$ là một đẳng cấu từ không gian ${S'}^n$ lên không gian $S^n$ và do đó có một đẳng cấu nghịch đảo. Các đẳng cấu nghịch đảo thu được như vậy với mỗi n xác định một đẳng cấu chính tắc từ không gian S lên không gian
 
@@ -241,7 +241,7 @@ $$
 
 Cho $g$ là một đại số Lie trên $K$ và $T$ là đại số tenxơ của K-môđun $g$. Gọi $T^n$ là môđun con của $T$ gồm các tenxơ thuần nhất cấp $n$ và $T_n = \sum_{i \leq n} T^i$. Khi đó $T_n \subset T_{n+1}$, $T_0 = K.1$, $T_{-1} = \{0\}$ và $T_n T_p \subset T_{n+p}$.
 
-Gọi $U_n$ là ảnh chính tắc của $T_n$ trong đại số bao $U$ của $g$. Khi đó $U_n \subset U_{n+1}$, $U_0 = K.1$, $U_{-1} = \{0\}$ và $U_n U_p \subset U_{n+p}$; vì thế $U$ có thể được mô tả như một đại số *được lọc bởi* các $U_n$ (*Commutative Algebra*, Chương III, § 2, no. 1); các phần tử của $U_n$ sẽ được gọi là *có bậc lọc* $\leq n$.
+Gọi $U_n$ là ảnh chính tắc của $T_n$ trong đại số bao $U$ của $g$. Khi đó $U_n \subset U_{n+1}$, $U_0 = K.1$, $U_{-1} = \{0\}$ và $U_n U_p \subset U_{n+p}$; vì thế $U$ có thể được mô tả như một đại số *được lọc bởi* các $U_n$ (*Đại số giao hoán*, Chương III, § 2, no. 1); các phần tử của $U_n$ sẽ được gọi là *có bậc lọc* $\leq n$.
 
 Cho $G^n$ là $K$-môđun $U_n / U_{n-1}$ và cho $G$ là $K$-môđun là tổng trực tiếp của các $G^n$. Phép nhân trên $U$ xác định, khi lấy các thương, một ánh xạ song tuyến tính từ $G^n \times G^m$ vào $G^{n+m}$ và do đó một ánh xạ song tuyến tính từ $G \times G$ vào $G$, ánh xạ này kết hợp. Vì vậy $G$ được trang bị một cấu trúc đại số $K$ kết hợp. Khi đó $G^n G^m \subset G^{n+m}$. Các phần tử của $G^n$ được gọi là có *bậc* $n$. Đại số phân bậc thu được như vậy chính là đại số phân bậc liên kết với đại số lọc $U$ (*Đại số giao hoán*, Chương III, § 2, no. 3).
 
@@ -414,7 +414,7 @@ do đó có hệ quả.
 
 #### Hệ quả 4 {#lie-i-s2-lem-3-cor-4 .statement}
 
-*Cho ${S'}^n \subset T^n$ là tập hợp các tensor đối xứng thuần nhất cấp n. Giả sử rằng K là một trường có đặc số 0. Khi đó ánh xạ hợp thành của các ánh xạ chính tắc*
+*Cho ${S'}^n \subset T^n$ là tập hợp các tenxơ đối xứng thuần nhất cấp n. Giả sử rằng K là một trường có đặc số 0. Khi đó ánh xạ hợp thành của các ánh xạ chính tắc*
 
 $$
 S^n \to {S'}^n \to U_n
@@ -553,7 +553,7 @@ $$
 = AD_U(\sigma(x_1) \ldots \sigma(x_n)).
 $$
 
-Sau cùng, cho $x \in g$. Gọi $\Delta$ là đạo hàm nội $y \mapsto \sigma(x)y - y\sigma(x)$ của $U$ (*Algebra*, Chapter IV, § 4, no. 3, *Example 2*). Khi đó, với $x' \in g$,
+Sau cùng, cho $x \in g$. Gọi $\Delta$ là đạo hàm nội $y \mapsto \sigma(x)y - y\sigma(x)$ của $U$ (*Đại số*, Chương IV, § 4, no. 3, *Ví dụ 2*). Khi đó, với $x' \in g$,
 
 $$
 (\Delta \circ \sigma)(x') = \sigma(x)\sigma(x') - \sigma(x')\sigma(x) = \sigma([x, x']) = (\sigma \circ \mathrm{ad}\, x)(x'),

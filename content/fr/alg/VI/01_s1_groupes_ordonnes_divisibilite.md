@@ -62,9 +62,9 @@ subsections:
       title: Éléments extrémaux
       page: 16
       pdf_page: 305
-statements: 52
-exercises: 20
-content_sha256: af0e37d4d46945de0a0c4108c90fd198171ff9250cd1b866a07a6baf0bc972be
+statements: 54
+exercises: 36
+content_sha256: d459aee49edffec36fa4551da478366cdc6f77c17893a082abca75e768bd0144
 ---
 
 ## § 1. GROUPES ORDONNÉS. DIVISIBILITÉ
@@ -87,7 +87,10 @@ Si une structure d’ordre est compatible avec la structure d’un monoïde, il 
 
 Le groupe additif des entiers rationnels et celui des nombres rationnels sont des groupes ordonnés quand on les munit des structures d’ordre définies en I, p. 20 et 112.
 \* Il en est de même du groupe additif des nombres réels (TG, IV, p. 3). \*
-2) \* Le groupe additif des fonctions numériques finies définies dans un ensemble E est un groupe ordonné pour la structure d’ordre définie par la relation « quel que soit $x \in E, f(x) \leq g(x)$ » que l’on écrit « $f \leq g$ ». Cette relation exprime que le graphe de la fonction $f$ est au-dessous de celui de la fonction $g$; le lecteur pourra trouver commode de se reporter quelquefois à cette interprétation graphique. \*
+
+#### Exemple 2 {#alg-vi-s1-n1-exa-2 .statement}
+
+\* Le groupe additif des fonctions numériques finies définies dans un ensemble E est un groupe ordonné pour la structure d’ordre définie par la relation « quel que soit $x \in E, f(x) \leq g(x)$ » que l’on écrit « $f \leq g$ ». Cette relation exprime que le graphe de la fonction $f$ est au-dessous de celui de la fonction $g$; le lecteur pourra trouver commode de se reporter quelquefois à cette interprétation graphique. \*
 
 Conformément aux définitions générales (E, IV, p. 6), une application bijective $f$ d’un monoïde ordonné $M$ sur un monoïde ordonné $M'$ est appelée un isomorphisme de $M$ sur $M'$ si la structure de $M'$ est obtenue en transportant celle de $M$ au moyen de $f$. Il revient au même de dire que $f$ est une application de $M$ sur $M'$ telle que
 
@@ -241,7 +244,10 @@ Soit (G_i)_{i \in I} une famille de groupes ordonnés dont l’ensemble d’indi
 #### Remarque 1 {#alg-vi-s1-n6-rem-1 .statement}
 
 Le cas le plus fréquent est celui où l’ensemble bien ordonné d’indices I est un intervalle fini {1, n} de N.
-    2) L’ensemble des éléments positifs du produit lexicographique G se compose de 0 et des éléments dont la composante non nulle de plus petit indice est positive.
+
+#### Remarque 2 {#alg-vi-s1-n6-rem-2 .statement}
+
+L’ensemble des éléments positifs du produit lexicographique G se compose de 0 et des éléments dont la composante non nulle de plus petit indice est positive.
 
 ### 7. Homomorphismes croissants de groupes ordonnés
 

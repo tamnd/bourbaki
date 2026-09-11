@@ -169,7 +169,7 @@ Theo đúng định nghĩa ở No. 3, một ánh xạ $f$ của một tập con 
 
 Suy ra ngay rằng Mệnh đề 8 của No. 4 và hệ quả của nó có thể được tổng quát hóa sang trường hợp mà trong phát biểu của chúng chỉ giả thiết rằng mỗi hàm $f_n, g_n$ đều được xác định hầu khắp nơi; khi đó các hàm $\varphi((f_n))$
 
-¹ Nguyên văn là de type dénombrable, cũng được dịch là 'kiểu đếm được' (GT, IX, §2, No. 8, Định nghĩa 4) hoặc 'có cơ sở đếm được', hoặc 'thỏa mãn tiên đề đếm được thứ hai'. Trong hệ quả được dẫn ở đây từ TVS, thuật ngữ 'thỏa mãn tiên đề đếm được thứ nhất' nên được thay bằng một trong các thuật ngữ nói trên.
+¹ Nguyên văn là de kiểu dénombrable, cũng được dịch là 'kiểu đếm được' (GT, IX, §2, No. 8, Định nghĩa 4) hoặc 'có cơ sở đếm được', hoặc 'thỏa mãn tiên đề đếm được thứ hai'. Trong hệ quả được dẫn ở đây từ TVS, thuật ngữ 'thỏa mãn tiên đề đếm được thứ nhất' nên được thay bằng một trong các thuật ngữ nói trên.
 
 và $\varphi((g_n))$ bản thân chúng cũng được xác định hầu khắp nơi; lớp tương đương của $\varphi((f_n))$ lại là $\varphi((\tilde{f}_n))$.
 

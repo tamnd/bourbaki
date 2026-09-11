@@ -33,7 +33,7 @@ subsections:
       pdf_page: 297
 statements: 19
 exercises: 2
-content_sha256: e0bde61bd2ef5221c91f98a1a93655e2dfe09109667defb62d5d7f6085ea0b7e
+content_sha256: d95c0136d84591d07a1d14165c953040567afb0b5f71fafadef29a35db6ea1e6
 ---
 
 ## § 3. PRODUIT TENSORIEL D’ESPACES HILBERTIENS
@@ -234,7 +234,7 @@ D’après le cor. 1, l’espace $\ell^2(I) \hat{\otimes}_2 \ell^2(J)$ est canon
 
 #### Exemple 2 {#evt-v-s3-n2-exa-2 .statement}
 
-Soient* $X$ *un espace topologique séparé*, *et* $\mu$ *une mesure positive sur* $X$. *Soit* $E$ *un espace hilbertien*. *On peut identifier canoniquement* $L^2(X, \mu) \hat{\otimes}_2 E$ *à* $L^2_E(X, \mu) : \dot{f}$ *est la classe de la fonction scalaire* $f$ *de carré intégrable sur* $X$, *et si* $a$ *appartient à* $E$, *alors* $f \otimes a$ *est la classe de la fonction* $x \mapsto f(x).a$ *à valeurs dans* $E$.
+\* Soient* $X$ *un espace topologique séparé*, *et* $\mu$ *une mesure positive sur* $X$. *Soit* $E$ *un espace hilbertien*. *On peut identifier canoniquement* $L^2(X, \mu) \hat{\otimes}_2 E$ *à* $L^2_E(X, \mu) : \dot{f}$ *est la classe de la fonction scalaire* $f$ *de carré intégrable sur* $X$, *et si* $a$ *appartient à* $E$, *alors* $f \otimes a$ *est la classe de la fonction* $x \mapsto f(x).a$ *à valeurs dans* $E$.
 
 Soient $Y$ un espace topologique séparé et $v$ une mesure positive sur $Y$. On peut de manière analogue identifier les espaces hilbertiens $L^2(X, \mu) \hat{\otimes}_2 L^2(Y, v)$ et $L^2(X \times Y, \mu \otimes v)$; alors $f \otimes g$ s’identifie à la classe de la fonction $(x, y) \mapsto f(x) g(y)$ sur $X \times Y$. \*
 
@@ -370,7 +370,7 @@ soit fini. La norme $\|f\|$ dans $\mathbf{S}$ est définie par la formule (22). 
 
 #### Exemple 2 {#evt-v-s3-n3-exa-2 .statement}
 
-Soient X un espace topologique séparé, $\mu$ une mesure positive de norme 1 sur X et E un sous-espace hilbertien de l’espace hilbertien réel $L^2_\mathbf{R}(X, \mu)$. On dit que E est un *espace gaussien* si les conditions équivalentes suivantes sont satisfaites :
+\* Soient X un espace topologique séparé, $\mu$ une mesure positive de norme 1 sur X et E un sous-espace hilbertien de l’espace hilbertien réel $L^2_\mathbf{R}(X, \mu)$. On dit que E est un *espace gaussien* si les conditions équivalentes suivantes sont satisfaites :
 
 a) pour tout $f \in E$, on a $$\int_X e^{is} d\mu = \exp(- \|f\|^2/2);$$
 

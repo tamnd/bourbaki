@@ -30,9 +30,9 @@ subsections:
       title: Systèmes de racines et groupes engendrés par des réflexions
       page: 0
       pdf_page: 177
-statements: 16
+statements: 17
 exercises: 5
-content_sha256: f89d635d8d27096164f5126eab7f56700e438fd7464a738e1019996b0250f27d
+content_sha256: 71513a38f654c602c8a0ba71826e62fad8fc82e47588e08d18d9d1d38bac9ee5
 ---
 
 ## § 2. Groupe de Weyl affine
@@ -203,7 +203,10 @@ En effet, si l’on identifie $\Gamma_C$ à $\mathbf{P}(R^\vee)/\mathbf{Q}(R^\ve
 #### Remarque 1 {#lie-vi-s2-n3-rem-1 .statement}
 
 L’application $\gamma \mapsto \gamma(0)$ est une bijection de $\Gamma_C$ sur $\overline{\mathbf{C}} \cap \mathbf{P}(R^\vee)$.
-2) Le groupe $G$ est aussi le normalisateur de $W_a$ dans le groupe des automorphismes de $E$ muni seulement de sa structure affine (cf. exerc. 3).
+
+#### Remarque 2 {#lie-vi-s2-n3-rem-2 .statement}
+
+Le groupe $G$ est aussi le normalisateur de $W_a$ dans le groupe des automorphismes de $E$ muni seulement de sa structure affine (cf. exerc. 3).
 
 ### 4. Application : ordre du groupe de Weyl
 

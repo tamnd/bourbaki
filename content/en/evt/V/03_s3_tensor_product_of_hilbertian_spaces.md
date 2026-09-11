@@ -33,7 +33,7 @@ subsections:
       pdf_page: 293
 statements: 20
 exercises: 15
-content_sha256: 5320ca96d0fbf7d2dfb98223ff4c96d227dcf10d109366278dc53f396956465c
+content_sha256: 180872a18a714d03d9223b7e72acedceba22c332e27bdef4ce02ca50c52a19e2
 ---
 
 ## § 3. TENSOR PRODUCT OF HILBERTIAN SPACES
@@ -213,7 +213,7 @@ By cor. 1, the space $\ell^2(I) \hat{\otimes}_2 \ell^2(J)$ is canonically isomor
 
 #### Example 2 {#evt-v-s3-n2-exa-2 .statement}
 
-Let $X$ be a Hausdorff topological space, and $\mu$ a positive measure on $X$. Let $E$ be a hilbertian space. We can identify $L^2(X, \mu) \hat{\otimes}_2 E$ with $L^2_E(X, \mu)$ in a canonical way : if $f$ is the class of the square integrable scalar function $f$ on $X$, and if $a$ belongs to $E$, then $f \otimes a$ is the class of the function $x \mapsto f(x).a$ with values in $E$.
+\* Let $X$ be a Hausdorff topological space, and $\mu$ a positive measure on $X$. Let $E$ be a hilbertian space. We can identify $L^2(X, \mu) \hat{\otimes}_2 E$ with $L^2_E(X, \mu)$ in a canonical way : if $f$ is the class of the square integrable scalar function $f$ on $X$, and if $a$ belongs to $E$, then $f \otimes a$ is the class of the function $x \mapsto f(x).a$ with values in $E$.
 
 Let $Y$ be a Hausdorff topological space and $\nu$ a positive measure on $Y$. In an analogous manner, we can identify the hilbertian spaces $L^2(X, \mu) \hat{\otimes}_2 L^2(Y, \nu)$ and $L^2(X \times Y, \mu \otimes \nu)$; then $f \otimes g$ can be identified with the class of the function $(x, y) \mapsto f(x)g(y)$ on $X \times Y$. \*
 

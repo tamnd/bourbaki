@@ -57,9 +57,9 @@
 {"from":"","from_label":"top-ix-s3-n7-rem-1","to_label":"top-ix-s3-prop-13","kind":"cites","raw":"Proposition 13","form":"local","resolved_by":"in-section","file":"content/en/top/IX/03_s3_metrizable_groups_valued_fields_normed.md","line":610},
 {"from":"","from_label":"top-ix-s3-ex-4","to_label":"top-iii-s3-ex-3","kind":"cites","raw":"Exercise 3 of Chapter III, § 3","form":"section","resolved_by":"exercise","file":"content/en/top/IX/exercises/s3/04.md","line":15},
 {"from":"","from_label":"top-ix-s3-ex-4","to_label":"top-iii-s6-ex-22","kind":"cites","raw":"Chapter III, § 6, Exercise 22","form":"section","resolved_by":"exercise","file":"content/en/top/IX/exercises/s3/04.md","line":19},
-{"from":"","from_label":"top-ix-s3-ex-4","to_label":"top-ix-s3-prop-7","kind":"cites","raw":"Proposition 7","form":"local","resolved_by":"in-section","file":"content/en/top/IX/exercises/s3/04.md","line":31},
-{"from":"","from_label":"top-ix-s3-ex-4","to_label":"top-ix-s3-thm-1","kind":"cites","raw":"Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/top/IX/exercises/s3/04.md","line":31},
-{"from":"","from_label":"top-ix-s3-ex-4","to_label":"top-ix-s3-prop-13","kind":"cites","raw":"Proposition 13","form":"local","resolved_by":"in-section","file":"content/en/top/IX/exercises/s3/04.md","line":39},
-{"from":"","from_label":"top-ix-s3-ex-4","to_label":"top-ix-s3-prop-13","kind":"cites","raw":"Proposition 13","form":"local","resolved_by":"in-section","file":"content/en/top/IX/exercises/s3/04.md","line":51},
-{"from":"","from_label":"top-ix-s3-ex-4","to_label":"top-v-s3-ex-1","kind":"cites","raw":"Exercise 1 of Chapter V, § 3)","form":"section","resolved_by":"exercise","file":"content/en/top/IX/exercises/s3/04.md","line":73}
+{"from":"","from_label":"top-ix-s3-ex-6","to_label":"top-ix-s3-prop-7","kind":"cites","raw":"Proposition 7","form":"local","resolved_by":"in-section","file":"content/en/top/IX/exercises/s3/06.md","line":13},
+{"from":"","from_label":"top-ix-s3-ex-6","to_label":"top-ix-s3-thm-1","kind":"cites","raw":"Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/top/IX/exercises/s3/06.md","line":13},
+{"from":"","from_label":"top-ix-s3-ex-9","to_label":"top-ix-s3-prop-13","kind":"cites","raw":"Proposition 13","form":"local","resolved_by":"in-section","file":"content/en/top/IX/exercises/s3/09.md","line":15},
+{"from":"","from_label":"top-ix-s3-ex-9","to_label":"top-ix-s3-prop-13","kind":"cites","raw":"Proposition 13","form":"local","resolved_by":"in-section","file":"content/en/top/IX/exercises/s3/09.md","line":27},
+{"from":"","from_label":"top-ix-s3-ex-9","to_label":"top-v-s3-ex-1","kind":"cites","raw":"Exercise 1 of Chapter V, § 3)","form":"section","resolved_by":"exercise","file":"content/en/top/IX/exercises/s3/09.md","line":49}
 ]}

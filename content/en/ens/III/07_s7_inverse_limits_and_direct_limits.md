@@ -46,7 +46,7 @@ errata:
     - says: no. 2, Proposition 2, Corollary 2
       read: no. 2, Proposition 1, Corollary 2
       why: The fact cited on page 197 is that the maps of an inverse system compose, h to the lambda nu being h to the lambda mu after h to the mu nu, and that is Corollary 2 of Proposition 1 of no. 2, the corollary on three inverse systems. Proposition 2 of that no. prints one corollary and it carries no number.
-content_sha256: 463649fb0b2134410a16a31ed5ad5ddcb6c52b640e4c4e568f6e5c66461a51fa
+content_sha256: 32f34a0e7e91e7e94cb6dacf6471b60fe7158e208c5d0e1bd2901e3f619ccda7
 ---
 
 ## 7. INVERSE LIMITS AND DIRECT LIMITS
@@ -400,7 +400,7 @@ If the $E_\alpha$ are *finite* sets, Theorem 1 can be applied by taking $\mathfr
 
 #### Example 2 {#ens-iii-s7-n4-exa-2 .statement tag=03TL}
 
-Let A be a ring with an identity element, and for each $\alpha \in I$ let $T_\alpha$ be an *Artinian* left A-module. Let $E_\alpha$ be a *homogeneous space* for $T_\alpha$ on which $T_\alpha$ operates faithfully (so that $E_\alpha$ is an *affine space* attached to $T_\alpha$). For $\beta \geqslant \alpha$, suppose that $f_{\alpha\beta} : E_\beta \to E_\alpha$ is an *affine mapping*. Take $\mathfrak{S}_\alpha$ to be the set consisting of the empty set and the *affine linear varieties* in $E_\alpha$. Then condition (i) is trivially satisfied, and (ii) follows from the fact that $T_\alpha$ is Artinian; for this implies that there exists a minimal element in the set of finite intersections of sets $M \in \mathfrak{F}$, and this minimal element must be equal to $\bigcap_{M \in \mathfrak{F}} M$. Finally, since $f_{\alpha\beta}$ is affine, conditions (iii) and (iv) are trivially satisfied. \*
+\* Let A be a ring with an identity element, and for each $\alpha \in I$ let $T_\alpha$ be an *Artinian* left A-module. Let $E_\alpha$ be a *homogeneous space* for $T_\alpha$ on which $T_\alpha$ operates faithfully (so that $E_\alpha$ is an *affine space* attached to $T_\alpha$). For $\beta \geqslant \alpha$, suppose that $f_{\alpha\beta} : E_\beta \to E_\alpha$ is an *affine mapping*. Take $\mathfrak{S}_\alpha$ to be the set consisting of the empty set and the *affine linear varieties* in $E_\alpha$. Then condition (i) is trivially satisfied, and (ii) follows from the fact that $T_\alpha$ is Artinian; for this implies that there exists a minimal element in the set of finite intersections of sets $M \in \mathfrak{F}$, and this minimal element must be equal to $\bigcap_{M \in \mathfrak{F}} M$. Finally, since $f_{\alpha\beta}$ is affine, conditions (iii) and (iv) are trivially satisfied. \*
 
 ### 5. DIRECT LIMITS
 

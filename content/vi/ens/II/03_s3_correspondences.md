@@ -320,7 +320,7 @@ Một hàm $f$ được gọi là *hằng* nếu với mọi $x$ và $x'$ trong 
 
 ### 5. HẠN CHẾ VÀ MỞ RỘNG CỦA CÁC HÀM
 
-Hai hàm $f$ và $g$ được gọi là *trùng nhau* (hay *coincide*) trên một tập hợp E nếu E được chứa trong các miền xác định của $f$ và $g$ và nếu $f(x)=g(x)$ với mọi $x\in E$. Hai hàm có cùng đồ thị thì trùng nhau trên miền xác định của chúng. Nói rằng $f=g$ nghĩa là $f$ và $g$ có cùng miền xác định A và cùng tập đích B, và chúng trùng nhau trên A.
+Hai hàm $f$ và $g$ được gọi là *trùng nhau* (hay *trùng nhau*) trên một tập hợp E nếu E được chứa trong các miền xác định của $f$ và $g$ và nếu $f(x)=g(x)$ với mọi $x\in E$. Hai hàm có cùng đồ thị thì trùng nhau trên miền xác định của chúng. Nói rằng $f=g$ nghĩa là $f$ và $g$ có cùng miền xác định A và cùng tập đích B, và chúng trùng nhau trên A.
 
 ¶ Cho $f=(F,A,B)$ và $g=(G,C,D)$ là hai hàm. Nói rằng $F\subset G$ nghĩa là miền xác định A của $f$ được chứa trong miền xác định C của $g$ và $g$ trùng với $f$ trên A. Nếu còn có $B\subset D$, thì $g$ được gọi là một *mở rộng* của $f$ (chính xác hơn, là một mở rộng của $f$ đến C), và $g$ được gọi là *mở rộng* $f$ (đến C). Khi $g$ được gọi là một *họ phần tử* của D, $f$ được gọi là một *họ con* của $g$.
 
@@ -452,9 +452,9 @@ nhưng giả thiết có nghĩa là $f(z) = f(x)$ kéo theo $z = x$, do đó $x 
 
 *Cho $f$ là một ánh xạ của* A *vào* B. *Nếu tồn tại một ánh xạ $r$* (resp. $s$) *của* B *vào* A *sao cho $r \circ f$* (resp. $f \circ s$) *là ánh xạ đồng nhất của* A (resp. B), *thì $f$ là đơn ánh* (resp. *toàn ánh*). *Ngược lại, nếu $f$ là toàn ánh, tồn tại một ánh xạ $s$ của* B *vào* A *sao cho $f \circ s$ là ánh xạ đồng nhất của* B. *Nếu $f$ là đơn ánh và nếu* A $\neq \emptyset$, *tồn tại một ánh xạ $r$ của* B *vào* A *sao cho $r \circ f$ là ánh xạ đồng nhất của* A.
 
-Nếu tồn tại một ánh xạ $r$ từ B vào A sao cho $r \circ f$ là ánh xạ đồng nhất của A, thì đẳng thức $f(x) = f(y)$, trong đó $x \in A$ và $y \in A$, kéo theo $x = r(f(x)) = r(f(y)) = y$, và do đó $f$ là đơn ánh. Nếu tồn tại một ánh xạ $s$ từ B vào A sao cho $f \circ s$ là ánh xạ đồng nhất của B, ta có $B = f(s(B)) \subset f(A) \subset B$, nên $f$ là toàn ánh. Nếu $f$ là toàn ánh, ký hiệu T là số hạng $\tau_y(y \in A \text{ and } f(y) = x)$. Ta có $f(T) = x$ với $x \in B$; nếu $s$ ký hiệu ánh xạ $x \to T$ $(x \in B, T \in A)$, thì $f \circ s$ là ánh xạ đồng nhất của B. Cuối cùng, giả sử $f$ là đơn ánh và A $\neq \emptyset$, và cho $a$ là một phần tử của A. Quan hệ
+Nếu tồn tại một ánh xạ $r$ từ B vào A sao cho $r \circ f$ là ánh xạ đồng nhất của A, thì đẳng thức $f(x) = f(y)$, trong đó $x \in A$ và $y \in A$, kéo theo $x = r(f(x)) = r(f(y)) = y$, và do đó $f$ là đơn ánh. Nếu tồn tại một ánh xạ $s$ từ B vào A sao cho $f \circ s$ là ánh xạ đồng nhất của B, ta có $B = f(s(B)) \subset f(A) \subset B$, nên $f$ là toàn ánh. Nếu $f$ là toàn ánh, ký hiệu T là số hạng $\tau_y(y \in A \text{ và } f(y) = x)$. Ta có $f(T) = x$ với $x \in B$; nếu $s$ ký hiệu ánh xạ $x \to T$ $(x \in B, T \in A)$, thì $f \circ s$ là ánh xạ đồng nhất của B. Cuối cùng, giả sử $f$ là đơn ánh và A $\neq \emptyset$, và cho $a$ là một phần tử của A. Quan hệ
 
-$$\text{“}(y \in A \text{ and } x = f(y)) \text{ or } (y = a \text{ and } x \in B - f(A))\text{''}$$
+$$\text{“}(y \in A \text{ và } x = f(y)) \text{ hoặc } (y = a \text{ và } x \in B - f(A))\text{''}$$
 
 suy ra $(x, y) \in B \times A$ và do đó có một đồ thị R đối với các chữ $x$, $y$. Đồ thị này là phiếm hàm do giả thiết về $f$, và có B làm miền xác định; hơn nữa ta có $R(x) = a$ nếu $x \in B - f(A)$, và $f(R(x)) = x$ nếu $x \in f(A)$. Vậy hàm $r = (R, B, A)$ sao cho $r \circ f$ là ánh xạ đồng nhất của A.
 

@@ -54,9 +54,9 @@ subsections:
       title: Algèbres de dimension finie sur un corps localement compact.
       page: 0
       pdf_page: 36
-statements: 48
+statements: 50
 exercises: 30
-content_sha256: 3873b7f0830ec94f44010762f4743eb7a30fe1e7644275f9c8ff897980491c20
+content_sha256: f072591059dd7b101cc550f66919f7fb096329c53ac2e20f8fd1ce7da768b66e
 ---
 
 ## § 1. Construction d'une mesure de Haar.
@@ -365,14 +365,19 @@ La formule (19) s’étend par linéarité aux fonctions $f \in \mathcal{K}$ tel
 #### Exemple 1 {#int-vii-s1-n2-exa-1 .statement}
 
 Sur le groupe additif $\mathbf{R}$, la mesure de Lebesgue $dx$ est une mesure de Haar (Chap. III, § 2, n° 2, *Exemple*).
-2) Pour toute fonction $f \in \mathcal{K}(\mathbf{R}_+^*)$, on a (*Fonct. var. réelle*, chap. II, § 1, formule (13))
+
+#### Exemple 2 {#int-vii-s1-n2-exa-2 .statement}
+
+Pour toute fonction $f \in \mathcal{K}(\mathbf{R}_+^*)$, on a (*Fonct. var. réelle*, chap. II, § 1, formule (13))
 
 $$
 \int_0^{+\infty} \frac{f(x)}{x} dx = \int_0^{+\infty} \frac{f(tx)}{tx} t dx = \int_0^{+\infty} \frac{f(tx)}{x} dx
 $$
 quel que soit $t > 0$; la mesure $x^{-1} dx$ est donc une mesure de Haar sur le groupe multiplicatif $\mathbf{R}_+^*$.
 
-3) Prenons pour $G$ le tore $\mathbf{T} = \mathbf{R}/\mathbf{Z}$. Soit $\varphi$ l’application canonique de $\mathbf{R}$ sur $\mathbf{T}$. Pour $f \in \mathcal{H}(\mathbf{T})$, la fonction $f \circ \varphi$ est continue et périodique de période 1 sur $\mathbf{R}$, et l’intégrale
+#### Exemple 3 {#int-vii-s1-n2-exa-3 .statement}
+
+Prenons pour $G$ le tore $\mathbf{T} = \mathbf{R}/\mathbf{Z}$. Soit $\varphi$ l’application canonique de $\mathbf{R}$ sur $\mathbf{T}$. Pour $f \in \mathcal{H}(\mathbf{T})$, la fonction $f \circ \varphi$ est continue et périodique de période 1 sur $\mathbf{R}$, et l’intégrale
 $$
 I(f) = \int_a^{a+1} f(\varphi(x)) dx
 $$

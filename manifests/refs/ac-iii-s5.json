@@ -17,6 +17,7 @@
 {"from":"","from_label":"ac-iii-s5-prop-4","to_label":"ac-iii-s5-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/ac/III/05_s5_flatness_properties_of_filtered_modules.md","line":212},
 {"from":"","from_label":"ac-iii-s5-prop-4","to_label":"ac-iii-s5-n4-cor-1","kind":"cites","raw":"Corollary to Proposition 3","form":"attached","resolved_by":"parent-label","file":"content/en/ac/III/05_s5_flatness_properties_of_filtered_modules.md","line":212},
 {"from":"","from_label":"ac-iii-s5-ex-2","to_label":"ac-iii-s5-ex-1","kind":"cites","raw":"Exercise 1","form":"local","resolved_by":"exercise","file":"content/en/ac/III/exercises/s5/02.md","line":14},
+{"from":"","from_label":"ac-iii-s5-ex-3","to_label":"ac-iii-s3-ex-11","kind":"cites","raw":"Exercise 11 of § 3","form":"section","resolved_by":"exercise","file":"content/en/ac/III/exercises/s5/03.md","line":14},
 {"from":"","from_label":"ac-iii-s5-ex-4","to_label":"ac-iii-s5-ex-1","kind":"cites","raw":"Exercise 1","form":"local","resolved_by":"exercise","file":"content/en/ac/III/exercises/s5/04.md","line":14},
 {"from":"","from_label":"ac-iii-s5-ex-5","to_label":"ac-iii-s5-thm-1","kind":"cites","raw":"Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/ac/III/exercises/s5/05.md","line":15},
 {"from":"","from_label":"ac-iii-s5-ex-5","to_label":"ac-iii-s5-thm-1","kind":"cites","raw":"Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/ac/III/exercises/s5/05.md","line":16},

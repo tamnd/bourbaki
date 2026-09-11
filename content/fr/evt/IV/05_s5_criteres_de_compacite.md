@@ -32,8 +32,8 @@ subsections:
       page: 37
       pdf_page: 223
 statements: 9
-exercises: 16
-content_sha256: f511f3c32e0e26a7b9de03662a1a8cf2edb055f16a719c9b4b714120bac10075
+exercises: 18
+content_sha256: 9873ff7226898a8c69fd60eeea44e8d751f30d44dbd066dbc07879165c475aa5
 ---
 
 ## § 5. CRITÈRES DE COMPACITÉ
@@ -166,7 +166,7 @@ Comme sur $F'$ la topologie de la convergence précompacte est plus fine que la 
 
 Le th. de Šmulian peut s’étendre au cas où $E$ est limite inductive stricte d’une suite d’espaces de Fréchet (IV, p. 67, exerc. 2).
 
-### *4. Cas des espaces de fonctions continues bornées
+### \*4. Cas des espaces de fonctions continues bornées
 
 Pour tout espace topologique $X$, nous noterons $\mathscr{C}^b(X)$ l’espace de Banach des applications continues et *bornées* de $X$ dans $K$, avec la norme définie par
 
@@ -205,7 +205,7 @@ existent, on a $\gamma = \delta$.
 
 Soient X le compactifié de Stone-Čech de S (TG, IX, p. 10) et $\alpha$ l’application canonique de S dans X. Posons D = $\alpha(S)$. L’application $\varphi : f \mapsto f \circ \alpha$ est un isomorphisme de l’espace normé $\mathcal{C}(X)$ sur l’espace normé $\mathcal{C}^b(S)$; posons $\tilde{A} = \varphi^{-1}(A)$. Comme X est compact et D dense dans X, la prop. 2 (IV, p. 33) montre que la condition (ii) équivaut à la compacité de $\tilde{A}$ pour la topologie de la convergence simple. L’équivalence de (i) et (ii) résulte donc de la prop. 3. \*
 
-### *5. Enveloppe convexe d’un ensemble faiblement compact
+### \*5. Enveloppe convexe d’un ensemble faiblement compact
 
 #### Théorème 3 (Krein) {#evt-iv-s5-thm-3 .statement}
 

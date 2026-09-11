@@ -56,9 +56,9 @@ subsections:
       title: Relations between $\mathbf{S}(M^*)$, TS(M)*gr and Pol(M, A)
       page: 59
       pdf_page: 68
-statements: 36
+statements: 41
 exercises: 16
-content_sha256: 6da98969b53ee5df6cf503b3f80c244de4578e27ef1ee1edd5bf16c915b72321
+content_sha256: 51f13a5580b2e2351bd4779c2123e3ce1e7e21872b1d3d653856b766108511cf
 ---
 
 ## § 5. SYMMETRIC TENSORS AND POLYNOMIAL MAPPINGS
@@ -724,14 +724,26 @@ These homomorphisms are called canonical. They are surjective.
 #### Example 1 {#alg-iv-s5-n9-exa-1 .statement}
 
 The homogeneous polynomial mappings of degree 1 of M into N are the A-linear mappings of M into N.
-2) Let $(N_i)_{i \in I}$ be a family of A-modules, $f_i$ a mapping of M into $N_i, i \in I$, and $f : M \to \prod_{i \in I} N_i$ the mapping with components $f_i$. For f to be a homogeneous polynomial mapping of degree q it is necessary and sufficient that each $f_i$ be a homogeneous polynomial mapping of degree q.
-3) Let $(M_j)_{j \in J}$ be a finite family of free A-modules and $u : \prod_{j \in J} M_j \to N$ a multilinear mapping ; then u is polynomial of degree $\mathrm{Card}(J)$.
 
-4) Let $(X_i)_{i \in I}$ be a family of indeterminates, $N$ an $A$-module and $u \in N[(X_i)_{i \in I}]$ a homogeneous polynomial of degree $q$. The mapping $(x_i)_{i \in I} \mapsto u((x_i)_{i \in I})$ of $A^{(I)}$ into $N$ is a homogeneous polynomial mapping of degree $q$: this is seen at once by condition (iii) of Prop. 13. If $I$ is finite, every homogeneous polynomial mapping of degree $q$ of $A^{(I)} = A'$ into $N$ is of that form.
+#### Example 2 {#alg-iv-s5-n9-exa-2 .statement}
 
-5) The mapping $(x_i)_{i \in N} \mapsto x_0^2 + x_1^2 + \ldots + x_n^2 + \ldots$ of $A^{(N)}$ into $A$ is a homogeneous polynomial mapping of degree 2. If $A = 2/22$, it coincides with the linear mapping $(x_i)_{i \in I} \mapsto x_0 + x_1 + \ldots + x_n + \ldots$
+Let $(N_i)_{i \in I}$ be a family of A-modules, $f_i$ a mapping of M into $N_i, i \in I$, and $f : M \to \prod_{i \in I} N_i$ the mapping with components $f_i$. For f to be a homogeneous polynomial mapping of degree q it is necessary and sufficient that each $f_i$ be a homogeneous polynomial mapping of degree q.
 
-6) Let $f \in \mathrm{Pol}_A^q(M, N)$, let $B$ be a commutative ring, $\rho$ a homomorphism of $B$ into $A$ and $M'$ and $N'$ the $B$-modules derived from $M$ and $N$ by means of $\rho$. Assume that $M'$ is free; then $f \in \mathrm{Pol}_B^q(M', N')$: this follows at once from condition (i) of Prop. 13.
+#### Example 3 {#alg-iv-s5-n9-exa-3 .statement}
+
+Let $(M_j)_{j \in J}$ be a finite family of free A-modules and $u : \prod_{j \in J} M_j \to N$ a multilinear mapping ; then u is polynomial of degree $\mathrm{Card}(J)$.
+
+#### Example 4 {#alg-iv-s5-n9-exa-4 .statement}
+
+Let $(X_i)_{i \in I}$ be a family of indeterminates, $N$ an $A$-module and $u \in N[(X_i)_{i \in I}]$ a homogeneous polynomial of degree $q$. The mapping $(x_i)_{i \in I} \mapsto u((x_i)_{i \in I})$ of $A^{(I)}$ into $N$ is a homogeneous polynomial mapping of degree $q$: this is seen at once by condition (iii) of Prop. 13. If $I$ is finite, every homogeneous polynomial mapping of degree $q$ of $A^{(I)} = A'$ into $N$ is of that form.
+
+#### Example 5 {#alg-iv-s5-n9-exa-5 .statement}
+
+The mapping $(x_i)_{i \in N} \mapsto x_0^2 + x_1^2 + \ldots + x_n^2 + \ldots$ of $A^{(N)}$ into $A$ is a homogeneous polynomial mapping of degree 2. If $A = 2/22$, it coincides with the linear mapping $(x_i)_{i \in I} \mapsto x_0 + x_1 + \ldots + x_n + \ldots$
+
+#### Example 6 {#alg-iv-s5-n9-exa-6 .statement}
+
+Let $f \in \mathrm{Pol}_A^q(M, N)$, let $B$ be a commutative ring, $\rho$ a homomorphism of $B$ into $A$ and $M'$ and $N'$ the $B$-modules derived from $M$ and $N$ by means of $\rho$. Assume that $M'$ is free; then $f \in \mathrm{Pol}_B^q(M', N')$: this follows at once from condition (i) of Prop. 13.
 
 #### Proposition 14 {#alg-iv-s5-prop-14 .statement}
 

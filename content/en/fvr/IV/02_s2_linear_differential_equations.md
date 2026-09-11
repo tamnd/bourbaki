@@ -49,7 +49,7 @@ subsections:
       pdf_page: 211
 statements: 25
 exercises: 10
-content_sha256: ed9860cc26b65ff84c11e78ae048f5030e2943903c24c951c87f27907207fd41
+content_sha256: 18f9899dd12cd185be5def5133d805b57b869d0c84b2a9ee36a34c2e53edcdac
 ---
 
 ## § 2. LINEAR DIFFERENTIAL EQUATIONS
@@ -62,7 +62,7 @@ $$
 \frac{d\mathbf{x}}{dt} = \mathbf{f}(t, \mathbf{x})
 $$
 
-(1) where $f$ is defined on $J \times E$, is a *linear* equation if, for every $t \in J$, the map $x \mapsto f(t, x)$ is a *continuous affine linear map* $^1$ from $E$ into itself; if one puts $b(t) = f(t, 0)$ the map $x \mapsto f(t, x) - f(t, 0) = f(t, x) - b(t)$ is then a continuous linear map from $E$ to itself; from now on we shall denote this map by $A(t)$ and write $A(t).x$, (or simply $A(t)x$) for its value at the point $x \in E$; thus the linear differential equation (1) may be written
+(1) where $f$ is defined on $J \times E$, is a *linear* equation if, for every $t \in J$, the map $x \mapsto f(t, x)$ is a *continuous affine linear map* [^1] from $E$ into itself; if one puts $b(t) = f(t, 0)$ the map $x \mapsto f(t, x) - f(t, 0) = f(t, x) - b(t)$ is then a continuous linear map from $E$ to itself; from now on we shall denote this map by $A(t)$ and write $A(t).x$, (or simply $A(t)x$) for its value at the point $x \in E$; thus the linear differential equation (1) may be written
 
 $$
 \frac{dx}{dt} = A(t).x + b(t)
@@ -101,8 +101,6 @@ a) *The map* $t \mapsto A(t)$ *of* $J$ *into* $\mathcal{L}(E)$ *is regulated*.
 b) *The map* $t \mapsto b(t)$ *of* $J$ *into* $E$ *is regulated*.
 
 When $E$ has dimension $n$, $\mathcal{L}(E)$ is isomorphic to $\mathbf{R}^{n^2}$ (as a topological vector space) and condition *a*) means that each of the elements $a_{ij}(t)$ of the matrix $A(t)$ is a *regulated* function on $J$.
-
-\footnotetext{1 Recall that if $E$ is of finite dimension then every affine linear map from $E$ into itself is continuous (*Gen. Top.*, VI, p. 33 and 37).}
 
 Since $\|A(t')\mathbf{x} - A(t)\mathbf{x}\| \leq \|A(t') - A(t)\|\|\mathbf{x}\|$, the map
 $$
@@ -890,3 +888,5 @@ Given the polynomials $p_{jk}(D)$, a system (47) which admits solutions when the
 ### Exercises {#fvr-iv-s2-exercises}
 
 See the [exercises for § 2](exercises/s2/).
+
+[^1]: Recall that if $E$ is of finite dimension then every affine linear map from $E$ into itself is continuous (*Gen. Top.*, VI, p. 33 and 37).

@@ -38,9 +38,9 @@ subsections:
       title: 'Application: transformation de Laplace'
       page: 0
       pdf_page: 64
-statements: 31
+statements: 33
 exercises: 13
-content_sha256: cc535c74aa03a7959cab4923540c06c37747265f7de4277ff27d650b5e6118c7
+content_sha256: bde2f8b9cc3196f90c2fc45cac28dee6c891f97b0926f20cbde64149e358dd83
 ---
 
 ## § 5. Mesures sur les espaces complètement réguliers
@@ -164,8 +164,14 @@ $$
 #### Remarque 1 {#int-ix-s5-n3-rem-1 .statement}
 
 Si T est localement compact, la topologie étroite est plus fine que la topologie induite sur $M^b(T)$ par la topologie vague, et ces deux topologies ne coïncident que si T est compact. En effet, si T n’est pas compact, l’application $t \mapsto \varepsilon_t$ converge vaguement vers 0 suivant le filtre des complémentaires des parties relativement compactes de T, mais ne converge pas étroitement vers 0, car la fonction 1 appartient à $C^b(T)$ (pour les relations entre convergence vague et convergence étroite, voir la prop. 9).
-2) Il résulte aussitôt de la prop. 4 que $M^b_+(T)$ est fermé dans $M^b(T)$.
-3) Si T est complètement régulier, l’application $t \mapsto \varepsilon_t$ de T dans $M^b(T)$ est un homéomorphisme (Top. gén., chap. IX, 3e éd., § 1, n° 5).
+
+#### Remarque 2 {#int-ix-s5-n3-rem-2 .statement}
+
+Il résulte aussitôt de la prop. 4 que $M^b_+(T)$ est fermé dans $M^b(T)$.
+
+#### Remarque 3 {#int-ix-s5-n3-rem-3 .statement}
+
+Si T est complètement régulier, l’application $t \mapsto \varepsilon_t$ de T dans $M^b(T)$ est un homéomorphisme (Top. gén., chap. IX, 3e éd., § 1, n° 5).
 
 #### Proposition 6 {#int-ix-s5-prop-6 .statement}
 

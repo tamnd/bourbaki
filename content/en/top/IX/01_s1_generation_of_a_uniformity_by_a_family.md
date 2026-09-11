@@ -34,9 +34,9 @@ subsections:
       title: SEMI-CONTINUOUS FUNCTIONS ON A UNIFORMIZABLE SPACE
       page: 0
       pdf_page: 152
-statements: 15
+statements: 19
 exercises: 22
-content_sha256: d46241dcc6e0b3fdc75ac577e2626154c33e198b02447a07198d181994f0f47a
+content_sha256: 975ef98cf734ea424ef02828005251f15409c8eeb6b0efecedac824175e881a1
 ---
 
 ## 1. GENERATION OF A UNIFORMITY BY A FAMILY OF PSEUDOMETRICS; UNIFORMIZABLE SPACES
@@ -56,9 +56,18 @@ $$
 #### Example 1 {#top-ix-s1-n1-exa-1 .statement}
 
 On real number space $\mathbf{R}^n$, Euclidean distance (Chapter VI, § 2, no. 1) is a pseudometric.
-2) If X is any set, the function f defined on $X \times X$ by the conditions $f(x, x) = 0$ for all $x \in X, f(x, y) = +\infty$ if $x \neq y$ is a pseudometric on X.
-3) If X is any set and if g is any finite real-valued function defined on X, then the function f defined on $X \times X$ by $f(x, y) = |g(x) - g(y)|$ is a pseudometric on X.
-\* 4) Let X be the set of all continuous mappings of the interval [0, 1] of $\mathbf{R}$ into $\mathbf{R}$. If for each pair of elements $x, y$ of X we put
+
+#### Example 2 {#top-ix-s1-n1-exa-2 .statement}
+
+If X is any set, the function f defined on $X \times X$ by the conditions $f(x, x) = 0$ for all $x \in X, f(x, y) = +\infty$ if $x \neq y$ is a pseudometric on X.
+
+#### Example 3 {#top-ix-s1-n1-exa-3 .statement}
+
+If X is any set and if g is any finite real-valued function defined on X, then the function f defined on $X \times X$ by $f(x, y) = |g(x) - g(y)|$ is a pseudometric on X.
+
+#### Example 4 {#top-ix-s1-n1-exa-4 .statement}
+
+\* Let X be the set of all continuous mappings of the interval [0, 1] of $\mathbf{R}$ into $\mathbf{R}$. If for each pair of elements $x, y$ of X we put
 $$
 f(x, y) = \int_0^1 |x(t) - y(t)| \, dt,
 $$
@@ -99,7 +108,10 @@ Two pseudometrics on $X$ are said to be equivalent if they define the same unifo
 #### Remark 1 {#top-ix-s1-n2-rem-1 .statement}
 
 If $(a_n)$ is any sequence of numbers $> 0$ and tending to 0, the $U_{a_n}$ form a fundamental system of entourages of the uniformity defined by $f$.
-2) The definition of a uniformity by a pseudometric $f$ consists in taking as a fundamental system of entourages the inverse image under $f$ of the neighbourhood filter of 0 in the subspace $[0, +\infty]$ of $\overline{\mathbf{R}}$. Note that this procedure is quite analogous to that which allowed us to define the uniformities on a topological group (Chapter III, § 3, no. 1).
+
+#### Remark 2 {#top-ix-s1-n2-rem-2 .statement}
+
+The definition of a uniformity by a pseudometric $f$ consists in taking as a fundamental system of entourages the inverse image under $f$ of the neighbourhood filter of 0 in the subspace $[0, +\infty]$ of $\overline{\mathbf{R}}$. Note that this procedure is quite analogous to that which allowed us to define the uniformities on a topological group (Chapter III, § 3, no. 1).
 
 Let $f$ and $g$ be two pseudometrics on $X$. From Definition 2 it follows that the uniformity defined by $f$ is coarser than the uniformity defined by $g$ if and only if, for each $a > 0$ there exists $b > 0$ such that the relation $g(x, y) \leq b$ implies $f(x, y) \leq a$. A necessary and sufficient condition for $f$ and $g$ to be equivalent pseudometrics is that for each $a > 0$ there exists $b > 0$ such that $g(x, y) \leq b$ implies $f(x, y) \leq a$, and $f(x, y) \leq b$ implies $g(x, y) \leq a$.
 

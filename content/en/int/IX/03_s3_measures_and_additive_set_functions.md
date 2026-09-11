@@ -23,9 +23,9 @@ subsections:
       title: Radon spaces
       page: 46
       pdf_page: 228
-statements: 16
+statements: 17
 exercises: 18
-content_sha256: 2493836e74654f6d6eea61a9256ec8940a776c449c0ec756069912399a77fc43
+content_sha256: 5db0abf26db4c41996c8caffc0ffac0b3f37ac41d3a27e6162dd9585fb8acae3
 ---
 
 ## § 3. MEASURES AND ADDITIVE SET FUNCTIONS
@@ -130,7 +130,10 @@ $$
 \inf_{\alpha \in A} I(K_\alpha) \leq I(K_\beta) \leq I(K) + \varepsilon
 $$
 and 4) is indeed verified.
-2) The set of conditions 2) and 3) may be replaced, in the statement of Theorem 1, by the following condition:
+
+#### Remark 2 {#int-ix-s3-n1-rem-2 .statement}
+
+The set of conditions 2) and 3) may be replaced, in the statement of Theorem 1, by the following condition:
 If $K$ and $L$ are compact subsets of $T$, then
 $$
 I(K \cup L) + I(K \cap L) = I(K) + I(L).

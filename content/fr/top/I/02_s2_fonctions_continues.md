@@ -31,9 +31,9 @@ subsections:
       title: Recollement d’espaces topologiques
       page: 16
       pdf_page: 28
-statements: 26
+statements: 30
 exercises: 12
-content_sha256: 0038af79f1d2e2b23cb5cd08e582c142580cc5d23ac6aff2875571f498c5b32e
+content_sha256: dbdc66bc8f9ab4254506e013eb58494246bd3d2613c30e0d530cd4c0872e1e3a
 ---
 
 ## § 2. FONCTIONS CONTINUES
@@ -67,8 +67,14 @@ En effet, soit $V''$ un voisinage de $h(x) = g(f(x))$ dans $X''$; comme $g$ est 
 #### Exemple 1 {#top-i-s2-n1-exa-1 .statement}
 
 L’application identique d’un espace topologique $X$ sur lui-même est continue.
-2) Une application constante d’un espace topologique dans un espace topologique est continue.
-3) Toute application d’un espace discret dans un espace topologique est continue.
+
+#### Exemple 2 {#top-i-s2-n1-exa-2 .statement}
+
+Une application constante d’un espace topologique dans un espace topologique est continue.
+
+#### Exemple 3 {#top-i-s2-n1-exa-3 .statement}
+
+Toute application d’un espace discret dans un espace topologique est continue.
 
 #### Théorème 1 {#top-i-s2-thm-1 .statement}
 
@@ -84,7 +90,7 @@ On a déjà vu que a) entraîne b) (prop. 1). Montrons que b) entraîne c): si $
 
 Soit $\mathcal{B}$ une base (I, p. 5) de la topologie de $X'$; pour que $f : X \to X'$ soit continue, il faut et il suffit que $f^{-1}(U')$ soit un ensemble ouvert dans $X$ pour tout $U' \in \mathcal{B}$.
 
-#### Exemple {#top-i-s2-n1-exa-2 .statement}
+#### Exemple {#top-i-s2-n1-exa-4 .statement}
 
 Soit $a$ un nombre rationnel quelconque; l’application $x \mapsto a + x$ de la droite rationnelle $\mathbf{Q}$ dans elle-même est continue dans $\mathbf{Q}$, car l’image réciproque par cette application d’un intervalle ouvert $]b, c[$ est l’intervalle ouvert $]b - a, c - a[$. De même, l’application $x \mapsto ax$ est continue dans $\mathbf{Q}$: c’est évident si $a = 0$, puisque alors $ax = 0$ pour tout $x$; si $a \neq 0$, l’image réciproque par cette application de l’intervalle ouvert $]b, c[$ est l’intervalle ouvert d’extrémités $b/a$ et $c/a$.
 
@@ -92,7 +98,7 @@ Soit $a$ un nombre rationnel quelconque; l’application $x \mapsto a + x$ de la
 
 L’image directe d’un ensemble ouvert (resp. fermé) de $X$ par une application continue $f : X \to X'$ n’est pas nécessairement un ensemble ouvert (resp. fermé) dans $X'$ (cf. I, p. 30).
 
-#### Exemple {#top-i-s2-n1-exa-3 .statement}
+#### Exemple {#top-i-s2-n1-exa-5 .statement}
 
 *L’application $f : x \mapsto 1/(1 + x^2)$ de $\mathbf{R}$ dans lui-même est continue, mais $f(\mathbf{R})$ est l’intervalle semi-ouvert $]0, 1]$, qui n’est ni ouvert ni fermé dans $\mathbf{R}$.*
 
@@ -141,9 +147,14 @@ e) Toute partie de X ouverte pour $\mathcal{T}_2$ est ouverte pour $\mathcal{T}_
 #### Remarque 1 {#top-i-s2-n2-rem-1 .statement}
 
 Dans l’ensemble ordonné des topologies sur un ensemble X, la topologie dont les seuls ensembles ouverts sont $\varnothing$ et X est la topologie la moins fine et la topologie discrète est la topologie la plus fine.
-2) D’une manière plus imagée, plus une topologie est fine, plus il y a d’ensembles ouverts, d’ensembles fermés, de voisinages; l’adhérence (resp. l’intérieur) d’un ensemble est d’autant plus petite (resp. d’autant plus grand) que la topologie est plus fine; plus une topologie est fine, moins il y a d’ensembles partout denses.
 
-3) Si $f : X \to X'$ est une application continue, elle reste continue lorsqu’on remplace la topologie de X par une topologie plus fine et la topologie de X’ par une topologie moins fine (I, p. 10, th. 2). Autrement dit, il y a d’autant plus d’applications continues de X dans X’ que la topologie de X est plus fine et celle de X’ moins fine.
+#### Remarque 2 {#top-i-s2-n2-rem-2 .statement}
+
+D’une manière plus imagée, plus une topologie est fine, plus il y a d’ensembles ouverts, d’ensembles fermés, de voisinages; l’adhérence (resp. l’intérieur) d’un ensemble est d’autant plus petite (resp. d’autant plus grand) que la topologie est plus fine; plus une topologie est fine, moins il y a d’ensembles partout denses.
+
+#### Remarque 3 {#top-i-s2-n2-rem-3 .statement}
+
+Si $f : X \to X'$ est une application continue, elle reste continue lorsqu’on remplace la topologie de X par une topologie plus fine et la topologie de X’ par une topologie moins fine (I, p. 10, th. 2). Autrement dit, il y a d’autant plus d’applications continues de X dans X’ que la topologie de X est plus fine et celle de X’ moins fine.
 
 ### 3. Topologies initiales
 

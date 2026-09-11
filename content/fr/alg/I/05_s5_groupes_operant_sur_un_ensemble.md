@@ -39,9 +39,9 @@ subsections:
       title: Groupe des permutations d’un ensemble fini
       page: 59
       pdf_page: 69
-statements: 40
+statements: 41
 exercises: 29
-content_sha256: 39154bc38734ad5210bfb7d539e079049b587038f92fe7b4a9463028ea703d28
+content_sha256: 466abed96462daccdedffc80de9cccaece9d32428771c5f38a074e2040ecc878
 ---
 
 ## § 5. GROUPES OPÉRANT SUR UN ENSEMBLE
@@ -67,7 +67,10 @@ Soit M un monoïde; un ensemble E muni d’une opération à gauche (resp. à dr
 #### Exemple 1 {#alg-i-s5-n1-exa-1 .statement}
 
 Soit E un ensemble; l’action canonique de $E^E$ sur E (I, p. 24, *Exemple 3*) est une opération à gauche.
-2) Soit M un monoïde. L’action à gauche (resp. à droite) de M sur lui-même déduite de la loi de M (I, p. 24, *Exemple 7*) est une opération à gauche (resp. à droite) de M sur lui-même. Lorsqu’on considère cette opération, on dit que M opère sur lui-même *par translations à gauche* (resp. *à droite*).
+
+#### Exemple 2 {#alg-i-s5-n1-exa-2 .statement}
+
+Soit M un monoïde. L’action à gauche (resp. à droite) de M sur lui-même déduite de la loi de M (I, p. 24, *Exemple 7*) est une opération à gauche (resp. à droite) de M sur lui-même. Lorsqu’on considère cette opération, on dit que M opère sur lui-même *par translations à gauche* (resp. *à droite*).
 
 Soient E un M-ensemble à gauche (resp. à droite) et $M^0$ le monoïde opposé à M. Pour la même action, le monoïde $M^0$ opère à droite (resp. à gauche) sur E. Le $M^0$-ensemble obtenu est dit *opposé* au M-ensemble E. Les définitions et résultats relatifs aux M-ensembles à gauche se transposent aux $M^0$-ensembles à droite par passage aux structures opposées.
 
@@ -335,7 +338,7 @@ Soient E et F deux ensembles munis de structures de même espèce isomorphes, et
 
 #### Exemple 4 {#alg-i-s5-n6-exa-4 .statement}
 
-Un ensemble principal homogène sous le groups additif d’un espace vectoriel est appelé un espace affine (cf. II, p. 126).*
+\* Un ensemble principal homogène sous le groups additif d’un espace vectoriel est appelé un espace affine (cf. II, p. 126).*
 
 Le groupe des automorphismes du G-ensemble principal homogène $G_s$ (Exemple 1) est le groupe des translations à droite de G qu’on identifie à $G^0$ (I. p. 56, prop. 5). Soient E un G-ensemble principal homogène, $a$ un élément de E. L’application orbitale $\omega_a$ définie par $a$ est un isomorphisme du G-ensemble $G_s$ sur E. Par transport de structure on en déduit un isomorphisme $\psi_a$ de $G^0$ sur Aut(E). On prendra garde que $\psi_a$ dépend en général de $a$; plus précisément, pour $\alpha \in G$, on a
 

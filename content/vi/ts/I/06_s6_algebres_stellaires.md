@@ -197,7 +197,7 @@ Cho E là một không gian Hilbert phức. Trên đại số Banach $\mathscr{L
 
 Cho G là một nhóm compact địa phương. Cho $\mathscr{M}^1(G)$ là đại số Banach của các độ đo phức bị chặn trên G (ví dụ 6 của I, p. 19).
 
-Ánh xạ $x\mapsto x^{-1}$ của G lên G biến mọi độ đo $\mu\in$ $\mathscr{M}^1(G)$ thành một độ đo $\check{\mu}\in \mathscr{M}^1(G)$ (INT, VII, p. 12, formula (13)). Ta ký hiệu bởi $\mu^*$ độ đo liên hợp phức của $\check{\mu}$. Ánh xạ $\mu\mapsto \check{\mu}$ là một đẳng cấu đẳng cự của đại số Banach $\mathscr{M}^1(G)$ lên đại số Banach $\mathscr{M}^1(G^{\circ})$ (INT, VIII, §3, n$^o1$, cor. of prop. 7), do đó $\mu\mapsto \mu^*$ là một phép đối hợp đẳng cự của đại số Banach $\mathscr{M}^1(G)$.
+Ánh xạ $x\mapsto x^{-1}$ của G lên G biến mọi độ đo $\mu\in$ $\mathscr{M}^1(G)$ thành một độ đo $\check{\mu}\in \mathscr{M}^1(G)$ (INT, VII, p. 12, công thức (13)). Ta ký hiệu bởi $\mu^*$ độ đo liên hợp phức của $\check{\mu}$. Ánh xạ $\mu\mapsto \check{\mu}$ là một đẳng cấu đẳng cự của đại số Banach $\mathscr{M}^1(G)$ lên đại số Banach $\mathscr{M}^1(G^{\circ})$ (INT, VIII, §3, n$^o1$, cor. of prop. 7), do đó $\mu\mapsto \mu^*$ là một phép đối hợp đẳng cự của đại số Banach $\mathscr{M}^1(G)$.
 
 Tập hợp A của các độ đo bị chặn có một mật độ đối với một độ đo Haar là một đại số con đóng của $\mathscr{M}^1(G)$ ổn định dưới phép đối hợp (xem INT, VIII, §4, n$^o5$); nó không phụ thuộc vào lựa chọn một độ đo Haar.
 
@@ -905,7 +905,7 @@ Mệnh đề được suy ra.
 
 #### Mệnh đề 18 {#ts-i-s6-prop-18 .statement tag=02ER}
 
-Cho A là một đại số có đối hợp. Tập hợp có thứ tự $A^{<1}_+$ có hướng sang phải (E, III, p. 12, def. 7), và lọc các thiết diện của nó (TG, I, p. 38, example 2) là một đơn vị xấp xỉ tăng của A.
+Cho A là một đại số có đối hợp. Tập hợp có thứ tự $A^{<1}_+$ có hướng sang phải (E, III, p. 12, def. 7), và lọc các thiết diện của nó (TG, I, p. 38, ví dụ 2) là một đơn vị xấp xỉ tăng của A.
 
 Gọi $\widetilde{A}$ là đại số có đối hợp suy ra từ A bằng phép nối một phần tử đơn vị ký hiệu là 1 (def. 4 of I, p. 106).
 

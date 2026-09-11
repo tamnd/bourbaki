@@ -37,7 +37,7 @@ subsections:
       pdf_page: 18
 statements: 33
 exercises: 11
-content_sha256: 31be9da97c8052633252671d3863584cd62d0e193e2f78b07f66cb5ff204ffd3
+content_sha256: 02cc2bbb8aec91ce9faabd4126cd7cb931cd2eb089b4dc2581a511d9c0dcb201
 ---
 
 ## § 2. TORES MAXIMAUX DES GROUPES DE LIE COMPACTS
@@ -161,7 +161,7 @@ Soit G un groupe de Lie connexe d’algèbre de Lie compacte. Appelons sous-grou
 
 #### Remarque 4 {#lie-ix-s2-n2-rem-4 .statement}
 
-On peut aussi démontrer la partie c) du théorème 2 de la façon suivante. Munissons G d’une métrique riemannienne invariante (§ 1, n° 3, prop. 3). Alors, pour tout élément g de G, il existe une géodésique maximale passant par g et l’élément neutre de G (théorème de Hopf-Rinow), et on vérifie que l’adhérence d’une telle géodésique est un sous-tore de G. \*
+\* On peut aussi démontrer la partie c) du théorème 2 de la façon suivante. Munissons G d’une métrique riemannienne invariante (§ 1, n° 3, prop. 3). Alors, pour tout élément g de G, il existe une géodésique maximale passant par g et l’élément neutre de G (théorème de Hopf-Rinow), et on vérifie que l’adhérence d’une telle géodésique est un sous-tore de G. \*
 
 ### 3. Tores maximaux des sous-groupes et des groupes quotients
 

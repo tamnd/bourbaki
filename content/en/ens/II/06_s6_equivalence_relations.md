@@ -48,9 +48,9 @@ subsections:
       title: CLASSES OF EQUIVALENT OBJECTS
       page: 121
       pdf_page: 128
-statements: 12
+statements: 13
 exercises: 11
-content_sha256: 6bc9ceffca6d2226ba430227dbf5798495a6ee810349140ce93677c7c35070e9
+content_sha256: e6575e4e849279138a1a581ab84cb1b482758b417a93c62ef93c5b5e7766db0c
 ---
 
 ## 6. EQUIVALENCE RELATIONS
@@ -73,7 +73,7 @@ Hence $R\{x, y\}$ and $R\{y, x\}$ are equivalent.
 
 $$(R\{x, y\} \text{ and } R\{y, z\}) \Rightarrow R\{x, z\}.$$
 
-#### Example {#ens-ii-s6-n1-exa-6 .statement tag=03TP}
+#### Example {#ens-ii-s6-n1-exa-7 .statement}
 
 The relation $x = y$ is symmetric and transitive. The relation $X \subset Y$ is transitive but not symmetric. The relation $X \cap Y = \emptyset$ is symmetric but not transitive.
 
@@ -110,7 +110,10 @@ Suppose $A \subset E$; then the relation
 $$(x \in E - A \text{ and } y = x) \text{ or } (x \in A \text{ and } y \in A)$$
 
 is an equivalence relation on E.
-(6) \* The relation "$x \in \mathbf{Z}$ and $y \in \mathbf{Z}$ and $x - y$ is divisible by 4" is an equivalence relation on $\mathbf{Z}$.\*
+
+#### Example 6 {#ens-ii-s6-n1-exa-6 .statement tag=03TP}
+
+\* The relation "$x \in \mathbf{Z}$ and $y \in \mathbf{Z}$ and $x - y$ is divisible by 4" is an equivalence relation on $\mathbf{Z}$.\*
 
 #### Proposition 1 {#ens-ii-s6-prop-1 .statement tag=03QH}
 
@@ -234,7 +237,7 @@ The relation "$x \in E$ and $y \in E$ and $x = y$" is finer than every equivalen
 
 #### Example 2 {#ens-ii-s6-n7-exa-2 .statement tag=03SG}
 
-The equivalence relation "$x \in \mathbf{Z}$ and $y \in \mathbf{Z}$ and $x - y$ is divisible by 4" is finer than the equivalence relation "$x \in \mathbf{Z}$ and $y \in \mathbf{Z}$ and $x - y$ is divisible by 2". \*
+\* The equivalence relation "$x \in \mathbf{Z}$ and $y \in \mathbf{Z}$ and $x - y$ is divisible by 4" is finer than the equivalence relation "$x \in \mathbf{Z}$ and $y \in \mathbf{Z}$ and $x - y$ is divisible by 2". \*
 
 Let R and S be two equivalence relations on the same set E, such that S is finer than R. Let $f$ and $g$ be the canonical mappings of E onto E/R and E onto E/S respectively; then the function $f$ is compatible with S. Let $h$ be the function induced by $f$ on passing to the quotient with respect to S; then $h$ is a mapping of E/S onto E/R. The equivalence relation associated with $h$ on E/S is called the *quotient of* R *by* S and is denoted by R/S. The relation $x \equiv y \pmod{R}$ is equivalent to $g(x) \equiv g(y) \pmod{R/S}$, and the equivalence classes with respect to R/S are the images under $g$ of the equivalence classes with respect to R. Let $h = j \circ h_2 \circ h_1$ be the canonical decomposition (no. 5) of the mapping $h$. Then $h_1$ is the canonical mapping of E/S onto (E/S)/(R/S), $j$ is the identity mapping of E/R, and $h_2$ is a one-to-one mapping of (E/S)/(R/S) onto E/R. The mapping $h_2$ and its inverse are said to be *canonical*.
 

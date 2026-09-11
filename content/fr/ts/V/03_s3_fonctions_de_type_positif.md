@@ -45,7 +45,7 @@ subsections:
       pdf_page: 467
 statements: 39
 exercises: 23
-content_sha256: cae424d484ec79cb50886a7a6c8ffab98c2adb1922d5abc7d86afcc90df08f8a
+content_sha256: cb3d590fddfb5863307a5e493303960be3adddb895408dbb886e6183a8f9fb90
 ---
 
 ## § 3. FONCTIONS DE TYPE POSITIF
@@ -796,11 +796,11 @@ $$
 (\psi *\varphi )(g) =\int_G\psi (h)\varphi (h^{-1}g)d\mu(h)
 $$
 
-$=\int_G\psi (gy)\check{\varphi}(y)d\mu(y) =\langle \check{\varphi ,}\boldsymbol{\gamma }$[^1]$_G(g^{-1})\psi \rangle$ pour tout $g\in G$. Il en résulte que l’application linéaire $u:\varphi \mapsto \psi *\varphi$ est une application continue de l’espace $L^{\infty}(G)$ muni de la topologie faible dans $\mathscr{C}_b(G)$ muni de la topologie de la convergence simple.
+$=\int_G\psi (gy)\check{\varphi}(y)d\mu(y) =\langle \check{\varphi ,}\boldsymbol{\gamma }^{(1)}_G(g^{-1})\psi \rangle$ pour tout $g\in G$. Il en résulte que l’application linéaire $u:\varphi \mapsto \psi *\varphi$ est une application continue de l’espace $L^{\infty}(G)$ muni de la topologie faible dans $\mathscr{C}_b(G)$ muni de la topologie de la convergence simple.
 
 Soient $\varphi \in B$ et $(g, h)\in G\times G$. D’après la formule ci-dessus, on a
 
-$|u(\varphi )(g)-u(\varphi )(h)|\leqslant \|\check{\varphi}\|_{\infty}\|(\boldsymbol{\gamma }$[^1]$_G(g^{-1})-\boldsymbol{\gamma }$[^1]$_G(h^{-1}))\psi \|_1$.
+$|u(\varphi )(g)-u(\varphi )(h)|\leqslant \|\check{\varphi}\|_{\infty}\|(\boldsymbol{\gamma }^{(1)}_G(g^{-1})-\boldsymbol{\gamma }^{(1)}_G(h^{-1}))\psi \|_1$.
 
 Comme B est bornée et que la représentation régulière gauche de G dans $L^1(G)$ est continue (n$^o4$ de V, p. 405), cela implique que $u(B)$ est une partie équicontinue de $\mathscr{C}_b(G)$. L’assertion résulte alors de ce qui précède et de TG, X, p. 16, th. 1.
 

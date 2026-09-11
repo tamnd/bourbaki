@@ -131,7 +131,7 @@ $$
 \chi (x) =\frac{\zeta(\varepsilon_x*f)}{\zeta(f)} \tag{3}
 $$
 
-Ta có $\chi (e) = 1$. Vì ánh xạ $x\mapsto \varepsilon_x*f=\boldsymbol{\gamma }(x)(f)$ từ G vào $L^1(G)$ là liên tục (INT, VIII, §2, n$^o5$, Proposition 8), ánh xạ $\chi$ là liên tục. Nó bị chặn vì, với mọi $x\in G$, ta có
+Ta có $\chi (e) = 1$. Vì ánh xạ $x\mapsto \varepsilon_x*f=\boldsymbol{\gamma }(x)(f)$ từ G vào $L^1(G)$ là liên tục (INT, VIII, §2, n$^o5$, mệnh đề 8), ánh xạ $\chi$ là liên tục. Nó bị chặn vì, với mọi $x\in G$, ta có
 
 $$
 |\chi (x)|\leqslant \frac{\|\varepsilon_x*f\|}{|\zeta(f)|}=\frac{\|f\|}{|\zeta(f)|}
@@ -143,7 +143,7 @@ Bây giờ cho $\mathfrak{B}$ là một cơ sở của bộ lọc các lân cậ
 
 $\varepsilon_x*h=$ lim$_{V,\mathfrak{B}}(\varepsilon_x*h)*g_V=$ lim$_{V,\mathfrak{B}}(\varepsilon_x*g_V*h)$,
 
-trong $L^1(G)$, giới hạn được lấy theo bộ lọc các thiết diện của $\mathfrak{B}$ (INT, VIII, §4, n$^o7$, Proposition 20). Đặc biệt, vì $\zeta (\varepsilon_x*g_V*f) =$ $\zeta (\varepsilon_x*g_V)\zeta (f)$, suy ra rằng
+trong $L^1(G)$, giới hạn được lấy theo bộ lọc các thiết diện của $\mathfrak{B}$ (INT, VIII, §4, n$^o7$, mệnh đề 20). Đặc biệt, vì $\zeta (\varepsilon_x*g_V*f) =$ $\zeta (\varepsilon_x*g_V)\zeta (f)$, suy ra rằng
 
 $\chi (x) =$ lim$_{V,\mathfrak{B}}\zeta (\varepsilon_x*g_V)$.
 
@@ -163,13 +163,13 @@ $$
 g*f=\int_G(\varepsilon_x*f)g(x)dx
 $$
 
-trong $L^1(G)$ (INT, VIII, §1, n$^o5$, Proposition 7), do đó
+trong $L^1(G)$ (INT, VIII, §1, n$^o5$, mệnh đề 7), do đó
 
 $$
 \zeta (g)\zeta (f) =\zeta (g*f) =\int_G\zeta (\varepsilon_x*f)g(x)dx
 $$
 
-$=\zeta (f)\int_G\chi (x)g(x)dx=$ ev$_{\chi}(g)\zeta (f)$ (INT, VI, §1, n$^o1$, Proposition 1), điều này cho thấy rằng $\zeta =$ ev$_{\chi}$. Do đó, ev là toàn ánh, nên song ánh.
+$=\zeta (f)\int_G\chi (x)g(x)dx=$ ev$_{\chi}(g)\zeta (f)$ (INT, VI, §1, n$^o1$, mệnh đề 1), điều này cho thấy rằng $\zeta =$ ev$_{\chi}$. Do đó, ev là toàn ánh, nên song ánh.
 
 Sau hết, hãy chỉ ra rằng ánh xạ ngược ev$^{-1}$ là liên tục. Cho $\zeta \in \mathsf{X}(L^1(G))$. Cho $f\in L^1(G)$ là một hàm sao cho $\zeta (f)\not= 0$. Tập W các $\xi \in \mathsf{X}(L^1(G))$ sao cho $\xi (f)\not= 0$ là một lân cận mở của $\zeta$ trong $\mathsf{X}(L^1(G))$. Với mọi $\xi \in W$, điều trước đó cho thấy rằng ev$^{-1}(\xi )$ là đặc trưng
 

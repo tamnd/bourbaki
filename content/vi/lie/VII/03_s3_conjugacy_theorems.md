@@ -225,7 +225,7 @@ Chọn một phần tử chính quy $y$ của $\mathfrak{g}$. Với các ký hi�
 
 Cho $\varphi$ là đồng cấu từ $k[T]$ đến $k$ sao cho $\varphi (T) = 0$, và cho $\psi$ là đồng cấu $1\otimes \varphi$ từ $\mathfrak{g}\otimes_kk[T]$ đến $\mathfrak{g}$. Khi đó $\psi (\mathfrak{k})$ là một đại số con của $\mathfrak{g}$ có lớp lũy linh $\leq c$ và chứa $\psi (x+ Ty) =x$.
 
-Trong môđun $k$[T]-tự do $\mathfrak{g}\otimes_kk[T],\mathfrak{k}$ là một môđun con có hạng $l$, và $(\mathfrak{g}\otimes_kk[T])/\mathfrak{k}$ là xoắn tự do, do đó môđun con $\mathfrak{k}$ là một tổng hạng trực tiếp của $\mathfrak{g}\otimes_kk[T] ($Algebra, Chap. VII, §4, no. 2, Th. 1). Vì vậy chiều$_k\psi (\mathfrak{k}) =l$, điều này hoàn tất chứng minh.
+Trong môđun $k$[T]-tự do $\mathfrak{g}\otimes_kk[T],\mathfrak{k}$ là một môđun con có hạng $l$, và $(\mathfrak{g}\otimes_kk[T])/\mathfrak{k}$ là xoắn tự do, do đó môđun con $\mathfrak{k}$ là một tổng hạng trực tiếp của $\mathfrak{g}\otimes_kk[T] ($Đại số, Chap. VII, §4, no. 2, Th. 1). Vì vậy chiều$_k\psi (\mathfrak{k}) =l$, điều này hoàn tất chứng minh.
 
 ### 4. Sự liên hợp của các đại số con Cartan của các đại số Lie giải được
 

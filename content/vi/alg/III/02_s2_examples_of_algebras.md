@@ -212,7 +212,7 @@ Một đại số bậc hai trên A thuộc kiểu $(0, 0)$ cũng được gọi
 *Một đại số Cayley trên* A *là một cặp có thứ tự* (E, s), *trong đó* E *là một đại số trên* A *có phần tử đơn vị* e *và* s *là một phản tự đẳng cấu của* E *sao cho*
 
 $$
-u + s(u) \in Ae \quad \text{and} \quad u.s(u) \in Ae
+u + s(u) \in Ae \quad \text{và} \quad u.s(u) \in Ae
 $$
 
 *với mọi* $u \in E$.

@@ -281,7 +281,7 @@ $$
 B_n \otimes_{A_m} (A_m \otimes_A H^p(x, M)) \longrightarrow B_n \otimes_B (B \otimes_A H^p(x, M))
 $$
 
-Bây giờ $B \otimes_A H^p(x, M)$ đẳng cấu với $H^p(\rho(x), B \otimes_A M)$ (Bổ đề 1), do đó bằng không; hơn nữa $B_n$ là phẳng trung thành trên $A_m$ (I, § 3, No. 5, Proposition 9 and II, § 3, No. 4, Proposition 14 and Remark). Do đó ta có $A_m \otimes_A H^p(x, M) = 0$ và vì vậy $p < \operatorname{prof}_{A_m}(J_m; M_m)$ (Bổ đề 1 và Định lý 1). Mệnh đề thứ nhất của b) khi đó suy ra từ Mệnh đề 5; mệnh đề thứ hai suy ra từ I, § 3, No. 5, Proposition 9).
+Bây giờ $B \otimes_A H^p(x, M)$ đẳng cấu với $H^p(\rho(x), B \otimes_A M)$ (Bổ đề 1), do đó bằng không; hơn nữa $B_n$ là phẳng trung thành trên $A_m$ (I, § 3, No. 5, Mệnh đề 9 và II, § 3, No. 4, Mệnh đề 14 và Nhận xét). Do đó ta có $A_m \otimes_A H^p(x, M) = 0$ và vì vậy $p < \operatorname{prof}_{A_m}(J_m; M_m)$ (Bổ đề 1 và Định lý 1). Mệnh đề thứ nhất của b) khi đó suy ra từ Mệnh đề 5; mệnh đề thứ hai suy ra từ I, § 3, No. 5, Mệnh đề 9).
 
 #### Hệ quả {#ac-x-s1-n3-cor-2 .statement}
 

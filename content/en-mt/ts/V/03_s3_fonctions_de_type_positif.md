@@ -805,11 +805,11 @@ $$
 (\psi *\varphi )(g) =\int_G\psi (h)\varphi (h^{-1}g)d\mu(h)
 $$
 
-$=\int_G\psi (gy)\check{\varphi}(y)d\mu(y) =\langle \check{\varphi ,}\boldsymbol{\gamma }$[^1]$_G(g^{-1})\psi \rangle$ for all $g\in G$. It follows that the linear mapping $u:\varphi \mapsto \psi *\varphi$ is a continuous mapping of the space $L^{\infty}(G)$ endowed with the weak topology into $\mathscr{C}_b(G)$ endowed with the topology of simple convergence.
+$=\int_G\psi (gy)\check{\varphi}(y)d\mu(y) =\langle \check{\varphi ,}\boldsymbol{\gamma }^{(1)}_G(g^{-1})\psi \rangle$ for all $g\in G$. It follows that the linear mapping $u:\varphi \mapsto \psi *\varphi$ is a continuous mapping of the space $L^{\infty}(G)$ endowed with the weak topology into $\mathscr{C}_b(G)$ endowed with the topology of simple convergence.
 
 Let $\varphi \in B$ and $(g, h)\in G\times G$. According to the above formula, we have
 
-$|u(\varphi )(g)-u(\varphi )(h)|\leqslant \|\check{\varphi}\|_{\infty}\|(\boldsymbol{\gamma }$[^1]$_G(g^{-1})-\boldsymbol{\gamma }$[^1]$_G(h^{-1}))\psi \|_1$.
+$|u(\varphi )(g)-u(\varphi )(h)|\leqslant \|\check{\varphi}\|_{\infty}\|(\boldsymbol{\gamma }^{(1)}_G(g^{-1})-\boldsymbol{\gamma }^{(1)}_G(h^{-1}))\psi \|_1$.
 
 Since B is bounded and the left regular representation of G in $L^1(G)$ is continuous (No. 4 of V, p. 405), this implies that $u(B)$ is an equicontinuous subset of $\mathscr{C}_b(G)$. The assertion then results from the foregoing and from TG, X, p. 16, th. 1.
 

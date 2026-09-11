@@ -40,9 +40,9 @@ subsections:
       title: Double limite inductive. Produit de limites inductives
       page: 66
       pdf_page: 170
-statements: 26
-exercises: 10
-content_sha256: 8c30384cc85751bc4198f0143b858784f0b5074aaeb93001f72b9ed872738c39
+statements: 27
+exercises: 9
+content_sha256: 4c1cc641dc62e3886b76e7569371c7d399c0f340bbdeec13b52b9bbfa7a7482d
 ---
 
 ## § 7. LIMITES PROJECTIVES ET LIMITES INDUCTIVES
@@ -399,7 +399,10 @@ en effet, pour tout $x ∈ E_α$, on a $f_{ββ}(f_{βα}(x)) = f_{βα}(x)$ en 
 #### Exemple 1 {#ens-iii-s7-n5-exa-1 .statement tag=03TM}
 
 Soient A, B deux ensembles, $(V_α)_{α ∈ I}$ une famille de parties de A, dont l’ensemble d’indices I est filtrant à droite, telle que la relation $α ≤ β$ entraîne $V_β ⊂ V_α$. Désignons par $E_α$ l’ensemble des applications de $V_α$ dans B; pour tout couple d’indices $α, β$ tels que $α ≤ β$, soit $f_{βα}$ l’application de $E_α$ dans $E_β$ qui à toute fonction $u ∈ E_α$ fait correspondre sa restriction $f_{βα}(u)$ à $V_β$. Il est immédiat que les conditions (LI_I) et (LI_II) sont vérifiées; on dit que l’ensemble $E = \lim \rightarrow E_α$ est l’ensemble des germes d’applications des $V_α$ dans B. *Le cas le plus fréquent est celui où $(V_α)$ est la famille des voisinages d’une partie d’un espace topologique A (TG, I, § 6, n° 10).*
-2) Supposons que pour tout $α ∈ I$, $E_α$ soit égal à un ensemble F et que pour $α ≤ β$, $g_{βα}$ soit l’application identique de F sur lui-même. Alors il existe une bijection canonique de $\lim$ $E_\alpha$ sur $F$: en effet, pour définir $\lim$ $E_\alpha$, on doit former l’ensemble $G$ somme de la famille $(E_\alpha)$; $G$ est donc réunion d’une famille $(G_\alpha)$ d’ensembles deux à deux disjoints, et pour tout $\alpha \in I$, il y a une bijection canonique $h_\alpha : F \to G_\alpha$. On doit ensuite considérer la relation d’équivalence $R$ dans $G$, correspondant à la partition $(P_y)_{y \in F}$, où $P_y$ est l’ensemble des $h_\alpha(y)$ lorsque $\alpha$ parcourt $I$. Il est clair que $y \mapsto P_y$ est une bijection, dont la bijection réciproque est la bijection cherchée; on identifiera $F$ à $\lim$ $E_\alpha$ au moyen de cette bijection canonique.
+
+#### Exemple 2 {#ens-iii-s7-n5-exa-2 .statement tag=03TN}
+
+Supposons que pour tout $α ∈ I$, $E_α$ soit égal à un ensemble F et que pour $α ≤ β$, $g_{βα}$ soit l’application identique de F sur lui-même. Alors il existe une bijection canonique de $\lim$ $E_\alpha$ sur $F$: en effet, pour définir $\lim$ $E_\alpha$, on doit former l’ensemble $G$ somme de la famille $(E_\alpha)$; $G$ est donc réunion d’une famille $(G_\alpha)$ d’ensembles deux à deux disjoints, et pour tout $\alpha \in I$, il y a une bijection canonique $h_\alpha : F \to G_\alpha$. On doit ensuite considérer la relation d’équivalence $R$ dans $G$, correspondant à la partition $(P_y)_{y \in F}$, où $P_y$ est l’ensemble des $h_\alpha(y)$ lorsque $\alpha$ parcourt $I$. Il est clair que $y \mapsto P_y$ est une bijection, dont la bijection réciproque est la bijection cherchée; on identifiera $F$ à $\lim$ $E_\alpha$ au moyen de cette bijection canonique.
 
 #### Lemme 1 {#ens-iii-s7-lem-1 .statement tag=03OK}
 

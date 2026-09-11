@@ -26,9 +26,9 @@ subsections:
       title: THE DIVISION RING OF QUATERNIONS
       page: 0
       pdf_page: 110
-statements: 8
+statements: 9
 exercises: 5
-content_sha256: 553535497dc7d86b3ebe016a77f3f220a1985737fb41450839e4f7c2c5d04e44
+content_sha256: bc1873021864b2343367c3ab8d0df23970959e92caf74159ab24e9f10cf32bae
 ---
 
 ## 1. COMPLEX NUMBERS, QUATERNIONS
@@ -60,7 +60,10 @@ and so by Bolzano’s theorem (Chapter IV, § 6, no. 1, Theorem 2), $f$ has at l
 #### Remark 1 {#top-viii-s1-n1-rem-1 .statement}
 
 Theorem 1 can be proved without invoking the theory of ordered fields by using properties of the topology of the field $\mathbf{C}$, which will be defined below (no. 2); see § 2, Exercise 2 and also the part of this series devoted to algebraic topology, where the theorem of d’Alembert-Gauss will appear as a consequence of results on the degree of a mapping.
-2) Since $\mathbf{C}$ is of degree 2 over $\mathbf{R}$, it follows that $\mathbf{C}$ is, up to isomorphism, the only algebraic extension of $\mathbf{R}$ other than $\mathbf{R}$ itself, and that there is no field contained in $\mathbf{C}$ which contains $\mathbf{R}$, other than $\mathbf{R}$ and $\mathbf{C}$.
+
+#### Remark 2 {#top-viii-s1-n1-rem-2 .statement}
+
+Since $\mathbf{C}$ is of degree 2 over $\mathbf{R}$, it follows that $\mathbf{C}$ is, up to isomorphism, the only algebraic extension of $\mathbf{R}$ other than $\mathbf{R}$ itself, and that there is no field contained in $\mathbf{C}$ which contains $\mathbf{R}$, other than $\mathbf{R}$ and $\mathbf{C}$.
 
 We know that $\mathbf{R}$ may be identified with a subfield of $\mathbf{C}$, and that every $z \in \mathbf{C}$ can be written uniquely in the form $x + iy$, where $x$ and $y$ are real; $x$ is called the real part of $z$ and is denoted by $\Re(z)$; $y$ the imaginary part of $z$, denoted by $\Im(z)$. Complex numbers of the form $iy$ ($y$ real) are called pure imaginary. The relation $x + iy = 0$ ($x, y$ real) is equivalent to $x = 0$ and $y = 0$.
 

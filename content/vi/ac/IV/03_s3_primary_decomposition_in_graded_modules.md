@@ -77,7 +77,7 @@ Chỉ cần chứng minh rằng $\operatorname{Ass}(M) = \{p\}$ (§ 2, no. 1, M�
 
 *Cho $A$ là một nhóm giao hoán không xoắn, $A$ là một vành Noether phân bậc kiểu $A$ và $M$ là một $A$-môđun phân bậc kiểu $A$. Cho $p$ là một iđêan nguyên tố của $A$ và $N$, một môđun con của $M$ là $p$-nguyên sơ đối với $M$.
 
-(i) Iđêan phân bậc lớn nhất $p'$ của $A$ được chứa trong $p$ (Algebra, Chapter 11, § 11, no. 3) là nguyên tố.
+(i) Iđêan phân bậc lớn nhất $p'$ của $A$ được chứa trong $p$ (Đại số, Chương 11, § 11, no. 3) là nguyên tố.
 
 (ii) Môđun con phân bậc lớn nhất $N'$ của $N$ là $p'$-nguyên sơ đối với $M$.*
 

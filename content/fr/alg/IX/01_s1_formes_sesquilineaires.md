@@ -50,9 +50,9 @@ subsections:
       title: Calculs matriciels.
       page: 0
       pdf_page: 30
-statements: 45
+statements: 46
 exercises: 0
-content_sha256: b21644da462961bf5e76bb84af83bd25fbddfd44913e5d77b17fe0efb600df69
+content_sha256: c520c3715bc6f8f016eb5da7058dbfa506012e55e322d1d89755e18c9663396f
 ---
 
 ## § 1. Formes sesquilinéaires
@@ -811,7 +811,10 @@ Vérifions, par exemple (45 DG), les autres vérifications étant analogues et u
 #### Remarque 1 {#alg-ix-s1-n10-rem-1 .statement}
 
 Lorsque A est commutatif, (45 G) se ramène à (45 D), et (45 DG) à (45 GD), au moyen de la formule ${}^t(M'M'') = {}^tM'' \cdot {}^tM'$ (cf. (42)), où les deux membres sont ici calculés dans A.
-2) Soient E, F, G trois modules à gauche ayant des bases finies, et $u : E \to F,\ v : F \to G$ des applications A-linéaires. Il résulte de (45 G) que l’on a
+
+#### Remarque 2 {#alg-ix-s1-n10-rem-2 .statement}
+
+Soient E, F, G trois modules à gauche ayant des bases finies, et $u : E \to F,\ v : F \to G$ des applications A-linéaires. Il résulte de (45 G) que l’on a
 $$
 {}^tM(v \circ u) = {}^tM(u) \cdot {}^tM(v).
 $$
@@ -864,11 +867,11 @@ IV. — On suppose ici que les anneaux $A$ et $B$ sont égaux, et on désigne pa
 
 (49) $M(d) = R, \ M(s) = 'R$   (resp. $M(d) = R, \ M(s) = 'R^{J'}$).
 
-#### Remarque 2 {#alg-ix-s1-n10-rem-2 .statement}
+#### Remarque 3 {#alg-ix-s1-n10-rem-3 .statement}
 
 Lorsque $A$ est un corps, les applications linéaires $s$ et $d$ ont même rang. Nous voyons ici que leurs matrices $M(s)$ et $M(d)$ ont même rang ; en effet, une matrice sur $A$ et sa transposée ont même rang (chap. II, § 6, n° 7, prop. 3) et, lorsque $\Phi$ est sesquilinéaire, l’égalité des rangs de $R$ sur $A$ et de $'R$ sur $A^0$ (ibid.) et le fait que $J'$ est un isomorphisme de $A^0$ sur $A$, entraînent l’égalité des rangs de $R$ et de $'R^J$ sur $A$.
 
-#### Remarque 3 {#alg-ix-s1-n10-rem-3 .statement}
+#### Remarque 4 {#alg-ix-s1-n10-rem-4 .statement}
 
 Si $M$ et $N$ sont des $A$-modules à droite ayant des bases finies $(m_i)$ et $(n_k)$, $\Phi$ une forme sesquilinéaire à gauche pour $J$ sur $M \times N$ (n° 6, Remarque), $s$ et $d$ ses applications associées, et $R = (\Phi(m_i, n_k))$ sa matrice, les formules (26) du n° 6 montrent que l’on a
 
@@ -891,11 +894,11 @@ En effet, quels que soient $x \in E$ et $y \in F'$, on a $\Phi'(u(x), y) = \Phi(
 
 2) Soit E le $\mathbf{Z}$-module somme directe de $\mathbf{Z}$ et de $\mathbf{Z}/(2)$, et soit $E^*$ son dual (isomorphe à $\mathbf{Z}$). Montrer que la forme bilinéaire $(x, x') \to \langle x, x' \rangle$ sur $E \times E^*$ est telle que l’application linéaire associée à droite est injective, mais non l’application linéaire associée à gauche.
 
-#### Remarque 4 {#alg-ix-s1-n10-rem-4 .statement}
+#### Remarque 5 {#alg-ix-s1-n10-rem-5 .statement}
 
 Donner un exemple de forme bilinéaire $\Phi$ définie sur un produit $E \times F$ de deux espaces vectoriels, telle que $d_\Phi$ soit bijective, $s_\Phi$ injective mais non bijective (prendre $E$ de dimension infinie et $F$ égal au dual $E^*$ de $E$; cf. chap. II, § 5, exerc. 3).
 
-#### Remarque 5 {#alg-ix-s1-n10-rem-5 .statement}
+#### Remarque 6 {#alg-ix-s1-n10-rem-6 .statement}
 
 Soient $A$ un anneau muni d’un antiautomorphisme $J$, $E$ un $A$-module à gauche, $G$ un $(A, A)$-bimodule et $\Phi$ une application de $E \times E$ dans $G$, sesquilinéaire à droite pour $J$. Démontrer l’identité (où $Q(x) = \Phi(x, x)$) :
 
@@ -904,7 +907,7 @@ $$
 - \mu Q(x - \lambda y) + Q(x + \mu y)\lambda^J - Q(x - \mu y)\lambda^J + \mu Q(x - y)\lambda^J - \mu Q(x + y)\lambda^J.
 $$
 
-#### Remarque 6 {#alg-ix-s1-n10-rem-6 .statement}
+#### Remarque 7 {#alg-ix-s1-n10-rem-7 .statement}
 
 Soient $K$ un corps commutatif de caractéristique 2, $A$ une extension quadratique séparable de $K$; on a $A = K(\theta)$, où $\theta$ est racine d’un polynôme irréductible $X^2 + X + \beta$ de $K[X]$ et le $K$-automorphisme $J$ de $A$, distinct de l’identité, est tel que $\theta^J = \theta + 1$ (chap. V, § 11, exerc. 8). Montrer que si $E$ et $G$ sont des espaces vectoriels sur $A$, $\Phi$ une application sesquilinéaire (pour $J$) de $E \times E$ dans $G$, on a, en posant $Q(x) = \Phi(x, x)$,
 
@@ -912,7 +915,7 @@ $$
 \Phi(x, y) = Q(\theta x + y) - \beta Q(x) - Q(y) - (\theta + 1)(Q(x + y) - Q(x) - Q(y)).
 $$
 
-#### Remarque 7 {#alg-ix-s1-n10-rem-7 .statement}
+#### Remarque 8 {#alg-ix-s1-n10-rem-8 .statement}
 
 Soient $A$ un corps, $E$ un espace vectoriel sur $A$, $\Phi$ une forme sesquilinéaire sur $E$, $u$ un endomorphisme de $E$.
 
@@ -920,11 +923,11 @@ a) Pour qu’il existe un endomorphisme $u^*$ et un seul de $E$ tel que $\Phi(u(
 
 b) Donner un exemple où $E$ est de dimension infinie et $d_\Phi$ injective, mais où $u(d_\Phi(E))$ n’est pas contenu dans $d_\Phi(E)$.
 
-#### Remarque 8 {#alg-ix-s1-n10-rem-8 .statement}
+#### Remarque 9 {#alg-ix-s1-n10-rem-9 .statement}
 
 Soient $E, E_1$ deux $A$-modules, $\Phi$ (resp. $\Phi_1$) une forme sesquilinéaire sur $E$ (resp. $E_1$). On suppose que $\Phi_1$ est non dégénérée et qu’il existe un élément $\alpha \in A$ et une bijection $u$ de $E$ sur $E_1$ telle que $\Phi_1(u(x), u(y)) = \Phi(x, y)\alpha$ quels que soient $x, y$ dans $E$. Montrer que : 1° $\Phi$ est non dégénérée ; 2° $u$ est linéaire ; 3° si $E_1$ est un $A$-module fidèle, il en est de même de $E$, et $\alpha$ n’est pas diviseur de 0 à droite dans $A$ ; 4° si $\Phi_1$ prend des valeurs dans $A$ qui ne sont pas diviseurs à gauche de 0, il en est de même de $\Phi$.
 
-#### Remarque 9 {#alg-ix-s1-n10-rem-9 .statement}
+#### Remarque 10 {#alg-ix-s1-n10-rem-10 .statement}
 
 Soient $A$ un corps, $E_1, E_2$ deux espaces vectoriels non réduits à 0 sur $A$, $\Phi_1$ (resp. $\Phi_2$) une forme sesquilinéaire non dégénérée sur $E_1$ (resp. $E_2$) pour un antiautomorphisme $J_1$ (resp. $J_2$) de $A$. Soit $u$ une application linéaire de $E_1$ sur $E_2$ telle que la relation $\Phi_1(x, y) = 0$ entraîne $\Phi_2(u(x), u(y)) = 0$.
 
@@ -932,7 +935,7 @@ a) Montrer que $u$ est une bijection de $E_1$ sur $E_2$. (Si $u(0)$ n’était p
 
 b) Montrer que si dim $E_1 \geqslant 2$, il existe $\alpha \in A$ tel que l’on ait $\Phi_2(u(x), u(y)) = \Phi_1(x, y)\alpha$ quels que soient $x, y$ dans $E_1$. (Pour tout $y \in E_1$, montrer qu’il existe un élément $m(y) \in A$ tel que $\Phi_2(u(x), u(y)) = \Phi_1(x, y)m(y)$ pour tout $x \in E_1$, et que si $y$ et $y'$ sont linéairement indépendants dans $E_1$, on a $m(y + y') = m(y) = m(y')$).
 
-#### Remarque 10 {#alg-ix-s1-n10-rem-10 .statement}
+#### Remarque 11 {#alg-ix-s1-n10-rem-11 .statement}
 
 Soient $A$ un corps, $E, F$ deux espaces vectoriels à gauche sur $A$, $\Phi$ une forme sesquilinéaire non dégénérée sur $E \times F$ pour un antiautomorphisme $J$ de $A$.
 
@@ -947,7 +950,7 @@ c) Si $E = F$ et si $M$ est un sous-espace de $E$ tel que $E = M^0 + M^{00}$, mo
 
 d) Soit $E$ un espace vectoriel sur un corps commutatif $A$ admettant une base infinie dénombrable $(e_n)_{n \geqslant 0}$, et soit $\Phi$ la forme bilinéaire symétrique sur $E$ telle que $\Phi(e_n, e_n) = 1$ pour tout $n$, $\Phi(e_i, e_j) = 0$ pour $i \geqslant 1, j \geqslant 1$ et $i \neq j$, et $\Phi(e_0, e_n) = 1$ pour tout $n \geqslant 1$. Montrer que $\Phi$ est non dégénérée. Soit $M$ (resp. $N$) le sous-espace de $E$ engendré par les $e_{2k}$ (resp. $e_{2k-1}$) pour $k \geqslant 1$, et soit $H = M + N$, qui est un hyperplan dans $E$. Montrer que l’on a $M^0 = N, N^0 = M, H^{00} = E \neq H, (M \cap N)^0 \neq M^0 + N^0$ et $(M + N)^{00} \neq M + N$, bien que $M^{00} = M, N^{00} = N$; si $L$ est le sous-espace de dimension 2 engendré par $e_0$ et $e_1$, on a $(L \cap H)^0 \neq L^0 + H^0$.
 
-#### Remarque 11 {#alg-ix-s1-n10-rem-11 .statement}
+#### Remarque 12 {#alg-ix-s1-n10-rem-12 .statement}
 
 Soient $E, E'$ deux espaces vectoriels à gauche sur des corps $A, A'$ respectivement, de dimension $\geqslant 3$; soit $\mathfrak{F}(E)$ (resp. $\mathfrak{F}(E')$) l’ensemble réticulé (pour la relation d’inclusion) formé des sous-espaces de dimension finie de $E$ (resp. $E'$).
 

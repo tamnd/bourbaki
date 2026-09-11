@@ -51,9 +51,9 @@ subsections:
       title: 'Exemple : complexe de de Rham'
       page: 43
       pdf_page: 49
-statements: 56
+statements: 59
 exercises: 18
-content_sha256: e39dbf624efa7299900b2ff6aa5b6b432df163fe6dd11f43a39e7879f80cefb3
+content_sha256: 000a48d0cc41203e5b65717dc12655c3172e383b3cbca3cef557d81d8756d9cb
 ---
 
 ## § 2. COMPLEXES DE A-MODULES
@@ -894,16 +894,25 @@ Cette définition s’applique en particulier lorsque M est le module gradué so
 #### Exemple 3 {#alg-x-s2-n8-exa-3 .statement}
 
 Si M est borné de type $\mathcal{C}$, il en est de même de $M(p)$ pour tout $p \in \mathbf{Z}$, et on a $\chi(M(p)) = (-1)^p \chi(M)$.
-4) Soit $0 \to M' \to M \to M'' \to 0$ une suite exacte de A-modules gradués et d’homomorphismes gradués de degré 0. Si M, M’ et M'' sont bornés de type $\mathcal{C}$, on a
+
+#### Exemple 4 {#alg-x-s2-n8-exa-4 .statement}
+
+Soit $0 \to M' \to M \to M'' \to 0$ une suite exacte de A-modules gradués et d’homomorphismes gradués de degré 0. Si M, M’ et M'' sont bornés de type $\mathcal{C}$, on a
 $$
 \chi(M) = \chi(M') + \chi(M'').
 $$
 Si M et M'' sont bornés de type $\mathcal{C}$, il en est de même de M’ ; si $\mathcal{C}$ est stable et si deux des trois modules sont bornés de type $\mathcal{C}$, il en est de même du troisième.
-5) Soit $u : C' \to C$ un morphisme de complexes bornés de type $\mathcal{C}$. Alors Con ($u$) est borné de type $\mathcal{C}$, et on a :
+
+#### Exemple 5 {#alg-x-s2-n8-exa-5 .statement}
+
+Soit $u : C' \to C$ un morphisme de complexes bornés de type $\mathcal{C}$. Alors Con ($u$) est borné de type $\mathcal{C}$, et on a :
 $$
 \chi(\operatorname{Con}(u)) = \chi(C) - \chi(C').
 $$
-6) On peut prendre pour G le groupe $K(\mathcal{C})$ lui-même, et pour $\varphi$ l’identité ; on note dans ce cas $\chi_{\mathcal{C}}(M)$ l’élément $\chi_\varphi(M) = \sum (-1)^n[M_n]$ de $K(\mathcal{C})$.
+
+#### Exemple 6 {#alg-x-s2-n8-exa-6 .statement}
+
+On peut prendre pour G le groupe $K(\mathcal{C})$ lui-même, et pour $\varphi$ l’identité ; on note dans ce cas $\chi_{\mathcal{C}}(M)$ l’élément $\chi_\varphi(M) = \sum (-1)^n[M_n]$ de $K(\mathcal{C})$.
 
 #### Remarque {#alg-x-s2-n8-rem-1 .statement}
 

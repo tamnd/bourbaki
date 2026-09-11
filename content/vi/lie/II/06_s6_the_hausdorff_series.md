@@ -193,7 +193,7 @@ Nhóm tôpô thu được như vậy được gọi là *nhóm Hausdorff* (dẫn
 
 Cho $g$ là đồng cấu từ nhóm tự do $F = F(X)$ vào $\Gamma$ sao cho $g(x) = \exp x$ với $x \in X$. Vì $\exp x - 1 - x = \sum_{n \geq 2} x^n/n!$ có cấp $\geq 2$, $g$ là đơn ánh theo Định lý 1 của § 5, no. 3. Do đó *ánh xạ $\log \circ g$ là một đơn cấu từ $F$ vào nhóm Hausdorff, mở rộng đơn ánh chính tắc $X \to \hat{\mathbf{L}}$*.
 
-Với mọi số nguyên $m \geq 1$ ta ký hiệu bởi $\hat{\mathbf{L}}_m$ tập hợp các phần tử có cấp $\geq m$ trong $\hat{\mathbf{L}}$ và bởi $\Gamma_m$ tập hợp các $u \in \Gamma$ sao cho $u - 1$ có cấp $\geq m$. Khi đó $\hat{\mathbf{L}}_m = \exp(\Gamma_m)$ theo Nhận xét 2 của no. 1; vì $(\Gamma_m)_{m \geq 1}$ là một lọc trung tâm nguyên trên $\Gamma$ (§ 4, no. 5 Proposition 2), nên $(\hat{\mathbf{L}}_m)_{m \geq 1}$ *là một lọc trung tâm nguyên trên nhóm $\hat{\mathbf{L}}$*.
+Với mọi số nguyên $m \geq 1$ ta ký hiệu bởi $\hat{\mathbf{L}}_m$ tập hợp các phần tử có cấp $\geq m$ trong $\hat{\mathbf{L}}$ và bởi $\Gamma_m$ tập hợp các $u \in \Gamma$ sao cho $u - 1$ có cấp $\geq m$. Khi đó $\hat{\mathbf{L}}_m = \exp(\Gamma_m)$ theo Nhận xét 2 của no. 1; vì $(\Gamma_m)_{m \geq 1}$ là một lọc trung tâm nguyên trên $\Gamma$ (§ 4, no. 5 mệnh đề 2), nên $(\hat{\mathbf{L}}_m)_{m \geq 1}$ *là một lọc trung tâm nguyên trên nhóm $\hat{\mathbf{L}}$*.
 
 ### 3. CHUỖI LŨY THỪA HÌNH THỨC LIE
 
@@ -201,7 +201,7 @@ Với mọi số nguyên $m \geq 1$ ta ký hiệu bởi $\hat{\mathbf{L}}_m$ t�
 
 *Cho $\mathfrak{g}$ là một đại số Lie được lọc (§ 4, no. 1), $(\mathfrak{g}_\alpha)_{\alpha \in \mathbf{R}}$ là lọc của nó và cho $\alpha \in \mathbf{R}$. Cho P là một đa thức Lie thuần nhất bậc n theo các bất định $(\Gamma_i)_{i \in I}$ (§ 2, no. 4). Khi đó $P((a_i)) \in \mathfrak{g}_{n\alpha}$ với mọi họ $(a_i)_{i \in I}$ các phần tử của $\mathfrak{g}_\alpha$*.
 
-Mọi đa thức Lie bậc $n \geqslant 2$ đều là một tổng hữu hạn các hạng tử dạng $[Q, R]$ trong đó $Q$ và $R$ có bậc $< n$ và tổng các bậc của chúng bằng $n$ (§ 2, no. 7, Proposition 7). Bổ đề được suy ra bằng quy nạp theo $n$.
+Mọi đa thức Lie bậc $n \geqslant 2$ đều là một tổng hữu hạn các hạng tử dạng $[Q, R]$ trong đó $Q$ và $R$ có bậc $< n$ và tổng các bậc của chúng bằng $n$ (§ 2, no. 7, mệnh đề 7). Bổ đề được suy ra bằng quy nạp theo $n$.
 
 Một *chuỗi lũy thừa hình thức Lie*† (với các hệ số trong $K$) *theo các bất định* $(T_i)_{i \in I}$ là bất kỳ phần tử nào của đại số Lie $\hat{L}((T_i)_{i \in I}) = \hat{L}(I)$. Một phần tử như vậy $u$ có thể được viết duy nhất thành tổng của một họ khả tổng $(u_\nu)_{\nu \in \mathbf{N}^{(I)}}$ trong đó $u_\nu \in L^\nu(I)$.
 
@@ -211,7 +211,7 @@ Giả sử rằng $I$ là *hữu hạn*. Cho $g$ là một đại số Lie lọc
 
 *Đồng cấu* $f_t : L(I) \to g$ *sao cho* $f_t(T_i) = t_i$ (§ 2, no. 4) *có thể được mở rộng bằng tính liên tục thành một và chỉ một đồng cấu liên tục* $\hat{f}_t$ *từ* $\hat{L}(I)$ *vào* $g$.
 
-Tồn tại $\alpha > 0$ sao cho $t_i \in g_\alpha$ với mọi $i \in I$; do đó $f_t(L^\nu(I)) \subset g_{|\nu| \wedge \alpha}$ với mọi $\nu$ (Lemma 1), điều này suy ra tính liên tục của $\hat{f}_t$.
+Tồn tại $\alpha > 0$ sao cho $t_i \in g_\alpha$ với mọi $i \in I$; do đó $f_t(L^\nu(I)) \subset g_{|\nu| \wedge \alpha}$ với mọi $\nu$ (Bổ đề 1), điều này suy ra tính liên tục của $\hat{f}_t$.
 
 Nếu $u \in \hat{L}(I)$, ta viết $u((t_i)) = \hat{f}_t(u)$. Đặc biệt, khi lấy $g = \hat{L}(I)$, thì $u = u((T_i))$; trong trường hợp tổng quát, $u((t_i))$ được gọi là kết quả của phép thế các $t_i$ cho các $T_i$ trong chuỗi lũy thừa hình thức Lie $u((T_i))$. Nếu $u = \sum_{\nu \in \mathbf{N}^{(I)}} u_\nu$, trong đó $u_\nu \in L^\nu(X)$, thì họ $(u_\nu((t_i)))_{\nu \in \mathbf{N}^{(I)}}$ là khả tổng và
 $$

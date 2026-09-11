@@ -240,7 +240,7 @@ d) Với mọi $\lambda \in \mathscr{S}$, ánh xạ chính tắc từ A đến $
 
 Mệnh đề a) suy ra từ Mệnh đề 8, d) của VIII, p. 87 khi áp dụng cho A-môđun $A_s$. Suy ra rằng các iđêan hai phía cực tiểu của A là các $\mathfrak{a}_{\lambda}$ và các iđêan hai phía cực đại là các iđêan $\mathfrak{c}_{\lambda}=\mathfrak{a}_{\mathscr{S}-\lambda}$ (với $\lambda \in \mathscr{S}$).
 
-Còn phải chứng minh đẳng thức của $\mathfrak{b}_{\lambda}$ và $\mathfrak{c}_{\lambda}$ với mọi $\lambda \in \mathscr{S}$. Cho $\lambda$ và $\mu$ phân biệt trong $\mathscr{S}$. A-môđun con $\mathfrak{a}_\mu S_{\lambda}$ của $S_{\lambda}$ là hợp của các ảnh của các ánh xạ tuyến tính $a\mapsto ax$ từ $\mathfrak{a}_\mu$ đến $S_{\lambda}$ với $x\in S_{\lambda}$. Do đó, nó bằng không, và ta có $\mathfrak{a}_\mu\subset \mathfrak{b}_{\lambda}$. Vì thế ta có $\mathfrak{c}_{\lambda}\subset \mathfrak{b}_{\lambda}$, và cuối cùng $\mathfrak{c}_{\lambda}=\mathfrak{b}_{\lambda}$ vì $\mathfrak{c}_{\lambda}$ là một ideal hai phía tối đại của A và $\mathfrak{b}_{\lambda}$ phân biệt với A.
+Còn phải chứng minh đẳng thức của $\mathfrak{b}_{\lambda}$ và $\mathfrak{c}_{\lambda}$ với mọi $\lambda \in \mathscr{S}$. Cho $\lambda$ và $\mu$ phân biệt trong $\mathscr{S}$. A-môđun con $\mathfrak{a}_\mu S_{\lambda}$ của $S_{\lambda}$ là hợp của các ảnh của các ánh xạ tuyến tính $a\mapsto ax$ từ $\mathfrak{a}_\mu$ đến $S_{\lambda}$ với $x\in S_{\lambda}$. Do đó, nó bằng không, và ta có $\mathfrak{a}_\mu\subset \mathfrak{b}_{\lambda}$. Vì thế ta có $\mathfrak{c}_{\lambda}\subset \mathfrak{b}_{\lambda}$, và cuối cùng $\mathfrak{c}_{\lambda}=\mathfrak{b}_{\lambda}$ vì $\mathfrak{c}_{\lambda}$ là một iđêan hai phía tối đại của A và $\mathfrak{b}_{\lambda}$ phân biệt với A.
 
 #### Hệ quả {#alg-viii-s8-n3-cor-1 .statement tag=009I}
 
@@ -300,7 +300,7 @@ f) Tập hợp các iđêan cực tiểu của Z
 
 g) Tập hợp các iđêan cực đại của Z.
 
-Vậy, với mỗi phần tử $\lambda$ của $\mathscr{S}$ (A), tương ứng lớp $\lambda^*$ của A-môđun phải đơn $S^*_{\lambda}$, đối ngẫu của $S_{\lambda}$, iđêan hai phía tối tiểu $\mathfrak{a}_{\lambda}$ của A (thành phần đẳng kiểu của $A_s$ kiểu $\lambda$ ), iđêan hai phía tối đại $\mathfrak{b}_{\lambda}$ của A (linh hóa tử của môđun đơn $S_{\lambda}$), lớp của Z-môđun đơn $Z\cap \mathfrak{a}_{\lambda}$, ideal tối tiểu $Z\cap \mathfrak{a}_{\lambda}$ của Z, và iđêan cực đại $Z\cap \mathfrak{b}_{\lambda}$ của Z.
+Vậy, với mỗi phần tử $\lambda$ của $\mathscr{S}$ (A), tương ứng lớp $\lambda^*$ của A-môđun phải đơn $S^*_{\lambda}$, đối ngẫu của $S_{\lambda}$, iđêan hai phía tối tiểu $\mathfrak{a}_{\lambda}$ của A (thành phần đẳng kiểu của $A_s$ kiểu $\lambda$ ), iđêan hai phía tối đại $\mathfrak{b}_{\lambda}$ của A (linh hóa tử của môđun đơn $S_{\lambda}$), lớp của Z-môđun đơn $Z\cap \mathfrak{a}_{\lambda}$, iđêan tối tiểu $Z\cap \mathfrak{a}_{\lambda}$ của Z, và iđêan cực đại $Z\cap \mathfrak{b}_{\lambda}$ của Z.
 
 #### Mệnh đề 12 {#alg-viii-s8-prop-12 .statement tag=009N}
 

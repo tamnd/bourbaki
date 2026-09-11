@@ -281,7 +281,7 @@ Bây giờ, nếu $A$ là compact (resp. open and relatively compact) trong $G$,
 
 #### Hệ quả {#int-viii-s5-n3-cor-1 .statement}
 
-— *Không gian con* $N$ *của* $\Gamma^0$ *là locally compact*.
+— *Không gian con* $N$ *của* $\Gamma^0$ *là compact địa phương*.
 
 ### 4. Trường hợp các nhóm không có các nhóm con hữu hạn tùy ý nhỏ
 

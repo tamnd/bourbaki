@@ -47,9 +47,9 @@ subsections:
       title: Algèbres anticommutatives et algèbres alternées
       page: 53
       pdf_page: 440
-statements: 47
+statements: 48
 exercises: 2
-content_sha256: 59645096ae90f853ea564641855a3e82cc91f3c460007a1723aae13682f0c924
+content_sha256: d9bbe0fc55c42c5d36796ffedea959ba728313abd54b5a73198589e0ca4bf05f
 ---
 
 ## § 4. PRODUITS TENSORIELS D’ALGÈBRES
@@ -669,7 +669,10 @@ Pour un ordre total fixé sur $I$, nous dirons que l’algèbre graduée $E$ dé
 #### Remarque 1 {#alg-iii-s4-n7-rem-1 .statement}
 
 On retrouve le produit tensoriel d’algèbres défini dans III, p. 34 (muni en outre de la graduation produit tensoriel de celles de ses facteurs) lorsque l’on prend $\varepsilon_{ij}(\alpha_i, \beta_j) = 1$ quels que soient $i, j, \alpha_i$ et $\beta_j$.
-2) Supposons que tous les $\Delta_i$ soient égaux à $\mathbf{Z}$, et posons $\varepsilon_{ij}(\alpha_i, \beta_j) = (-1)^{\alpha_i \beta_j}$; le $\varepsilon$-produit tensoriel $\varepsilon \bigotimes_{i \in I} E_i$ correspondant à ce système de facteurs de commutation est alors appelé le produit tensoriel *gauche* des algèbres graduées $E_i$ de type $\mathbf{Z}$, et se note $^g \bigotimes_{i \in I} E_i$ (ou $E \ ^g \bigotimes_A F$ pour deux algèbres, ou $^g G^{\otimes n}$ au lieu de $^e G^{\otimes n}$).
+
+#### Remarque 2 {#alg-iii-s4-n7-rem-2 .statement}
+
+Supposons que tous les $\Delta_i$ soient égaux à $\mathbf{Z}$, et posons $\varepsilon_{ij}(\alpha_i, \beta_j) = (-1)^{\alpha_i \beta_j}$; le $\varepsilon$-produit tensoriel $\varepsilon \bigotimes_{i \in I} E_i$ correspondant à ce système de facteurs de commutation est alors appelé le produit tensoriel *gauche* des algèbres graduées $E_i$ de type $\mathbf{Z}$, et se note $^g \bigotimes_{i \in I} E_i$ (ou $E \ ^g \bigotimes_A F$ pour deux algèbres, ou $^g G^{\otimes n}$ au lieu de $^e G^{\otimes n}$).
 
 #### Corollaire 1 {#alg-iii-s4-prop-10-cor-1 .statement}
 
@@ -693,7 +696,7 @@ comme il résulte aussitôt de (30) (III p. 48).
 
 Lorsqu’il s’agit du produit tensoriel gauche d’algèbres graduées de type $\mathbf{Z}$, on écrit $\varepsilon \bigotimes_i f_i$ au lieu de $\varepsilon \bigotimes_i f_i$ pour des homomorphismes $f_i : E_i \to F_i$ d’algèbres graduées de type $\mathbf{Z}$; quand $I = \{1, 2\}$, on écrit aussi $f_1 \varepsilon \otimes f_2$ cet homomorphisme; quand $I = \{1, n\}$, que tous les $E_i$ (resp. $F_i$) sont égaux et tous les $f_i$ égaux à un même homomorphisme $f$, on écrit $\varepsilon f^{\otimes n}$.
 
-#### Remarque {#alg-iii-s4-n7-rem-2 .statement}
+#### Remarque {#alg-iii-s4-n7-rem-3 .statement}
 
 Dans la démonstration de la prop. 10 (III, p. 47), on s’est servi d’une relation d’ordre total sur $I$ pour définir une structure d’algèbre sur le produit tensoriel $\bigotimes_{i \in I} E_i$ des $A$-modules $E_i$. Si l’on change la relation d’ordre sur $I$, on trouve une autre structure multiplicative sur $\bigotimes_{i \in I} E_i$, mais la nouvelle algèbre ainsi obtenue est canoniquement isomorphe à la précédente, puisque l’une et l’autre sont solutions du même problème d’application universelle. Par exemple, lorsque $I = \{1, 2\}$, l’isomorphisme canonique de l’algèbre $E_1 \varepsilon \otimes_A E_2$ sur l’algèbre $E_2 \varepsilon \otimes_A E_1$ transforme $x_1 \otimes x_2$ en $\varepsilon_{2,1}(\alpha, \beta)x_2 \otimes x_1$, pour $x_1$ homogène de degré $\alpha$ et $x_2$ homogène de degré $\beta$.
 

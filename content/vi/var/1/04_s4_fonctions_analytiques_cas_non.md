@@ -143,7 +143,7 @@ Ta có $C(f) \subset C(f^0)$ và $f(x) = f^0(x)$ với mọi $x \in C(f)$.
 
 4.2.3. Các kết quả của 3.2.4, 3.2.5, 3.2.7, 3.2.8 và 3.2.11 vẫn còn nguyên vẹn. Kết quả của 3.2.6 cũng vậy, với điều kiện thêm rằng K được giả thiết có đặc số không.
 
-4.2.4. Giả sử F là quasi-complete và cho $f \in \mathcal{H}(E_1, \ldots, E_n; F)$. Ánh xạ $x \mapsto f(x)$ là giải tích trên $C(f)$. Với mọi $a \in C(f)$, chỉ báo hội tụ của khai triển chuỗi lũy thừa của $f$ tại $a$ bằng chỉ báo hội tụ của $f$.
+4.2.4. Giả sử F là gần đầy đủ và cho $f \in \mathcal{H}(E_1, \ldots, E_n; F)$. Ánh xạ $x \mapsto f(x)$ là giải tích trên $C(f)$. Với mọi $a \in C(f)$, chỉ báo hội tụ của khai triển chuỗi lũy thừa của $f$ tại $a$ bằng chỉ báo hội tụ của $f$.
 
 ### 4.3. Một vài bất đẳng thức
 

@@ -247,9 +247,9 @@ $$
 
 Let $\varrho$ be a continuous bounded representation of G in a Banach space E. For every $f\in L^1(G)$ (resp. $f'\in L^1(G, \mu')$) and every $g\in G$, one has
 
-(1) $\varrho (g)\varrho (f\cdot \mu) =\varrho (\varepsilon_g*(f\cdot \mu)) =\varrho (\boldsymbol{\gamma }$[^1]$_G(g)f\cdot \mu)$,
+(1) $\varrho (g)\varrho (f\cdot \mu) =\varrho (\varepsilon_g*(f\cdot \mu)) =\varrho (\boldsymbol{\gamma }^{(1)}_G(g)f\cdot \mu)$,
 
-(2) $\varrho (f'\cdot \mu')\varrho (g) =\varrho ((f'\cdot \mu')*\varepsilon_g) =\varrho (\boldsymbol{\delta }$[^1]$_G(g^{-1})f'\cdot \mu')$
+(2) $\varrho (f'\cdot \mu')\varrho (g) =\varrho ((f'\cdot \mu')*\varepsilon_g) =\varrho (\boldsymbol{\delta }^{(1)}_G(g^{-1})f'\cdot \mu')$
 
 (INT, VIII, p. 144, § 3, n$^o2$, formula (5)).
 
@@ -271,11 +271,11 @@ for every $f\in \mathscr{L}^p$(G), every $(g_1, g_2)\in G\times G$ and every $x\
 
 The biregular representation of G in $L^p(G, \mu)$ is not necessarily faithful; its kernel is the image of the center of G under the mapping $g\mapsto (g, g)$ (exercise 4 of V, p. 487).
 
-When $p= 2$, the left regular representation $\boldsymbol{\gamma }$[^2]$_G$ of G in the complex Hilbert space $L^2(G, \mu)$ is unitary, since it is isometric. Analogously, the right regular representation $\boldsymbol{\delta }_G$[^2] in $L^2(G, \mu')$ is unitary.
+When $p= 2$, the left regular representation $\boldsymbol{\gamma }^{(2)}_G$ of G in the complex Hilbert space $L^2(G, \mu)$ is unitary, since it is isometric. Analogously, the right regular representation $\boldsymbol{\delta }^{(2)}_G$ in $L^2(G, \mu')$ is unitary.
 
-We shall write simply $\boldsymbol{\gamma }_G=\boldsymbol{\gamma }$[^2]$_G$ and $\boldsymbol{\delta }_G=\boldsymbol{\delta }$[^2]$_G$, and we shall call these representations the left and right regular representations of G.
+We shall write simply $\boldsymbol{\gamma }_G=\boldsymbol{\gamma }^{(2)}_G$ and $\boldsymbol{\delta }_G=\boldsymbol{\delta }^{(2)}_G$, and we shall call these representations the left and right regular representations of G.
 
-If G is unimodular, the biregular representation $\boldsymbol{\varrho }$[^2]$_G$ of $G\times G$ in $L^2(G, \mu)$ is unitary. We shall write it simply $\boldsymbol{\varrho }_G$.
+If G is unimodular, the biregular representation $\boldsymbol{\varrho }^{(2)}_G$ of $G\times G$ in $L^2(G, \mu)$ is unitary. We shall write it simply $\boldsymbol{\varrho }_G$.
 
 #### Lemma 4 {#ts-v-s2-lem-4 .statement tag=03AE}
 
@@ -665,7 +665,7 @@ where all the functions occurring in these equalities are identified with functi
 
 The subspace $\mathscr{K}_{\chi}(G)$ of $\mathscr{F}_{\chi}(G)$ is stable under $\boldsymbol{\gamma }_{G,\chi}$ and $\boldsymbol{\delta }_{G,\chi}$. Let $p$ be a real number $\geqslant 1$. Formulae (8) imply that the representations $\boldsymbol{\gamma }_{G,\chi}$ and $\boldsymbol{\delta }_{G,\chi}$, restricted to $\mathscr{K}_{\chi}$(G), extend to continuous isometric linear representations of G in $\mathscr{L}_{\chi}^p$(G), which will be denoted by $\boldsymbol{\gamma }^{(p)}_{G,\chi}$ and $\boldsymbol{\delta }^{(p)}_{G,\chi}$. By passing to quotients, these representations also define isometric representations of G in $L^p_{\chi}$(G), denoted in the same way.
 
-The representations $\boldsymbol{\gamma }_G$[^2]$_{,\chi}$ and $\boldsymbol{\delta }_G$[^2]$_{,\chi}$ in $L_{\chi}^2(G)$ are unitary, and will be denoted simply by $\boldsymbol{\gamma }_{G,\chi}$ and $\boldsymbol{\delta }_{G,\chi}$, respectively, whenever no confusion with the representations in $\mathscr{F}_{\chi}(G)$ is possible. One also denotes by $\boldsymbol{\varrho }_{G,\chi}$ the continuous representation of $G\times G$ in $\mathscr{L}_{\chi}^2(G)$ or $L^2_{\chi}(G)$ defined by
+The representations $\boldsymbol{\gamma }^{(2)}_{G,\chi}$ and $\boldsymbol{\delta }^{(2)}_{G,\chi}$ in $L_{\chi}^2(G)$ are unitary, and will be denoted simply by $\boldsymbol{\gamma }_{G,\chi}$ and $\boldsymbol{\delta }_{G,\chi}$, respectively, whenever no confusion with the representations in $\mathscr{F}_{\chi}(G)$ is possible. One also denotes by $\boldsymbol{\varrho }_{G,\chi}$ the continuous representation of $G\times G$ in $\mathscr{L}_{\chi}^2(G)$ or $L^2_{\chi}(G)$ defined by
 
 $$
 \boldsymbol{\varrho }_{G,\chi}(g, h) =\boldsymbol{\gamma }_{G,\chi}(g)\circ \boldsymbol{\delta }_{G,\chi}(h) =\boldsymbol{\delta }_{G,\chi}(h)\circ \boldsymbol{\gamma }_{G,\chi}(g)

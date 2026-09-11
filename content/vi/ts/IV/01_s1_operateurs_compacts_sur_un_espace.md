@@ -741,7 +741,7 @@ $$
 \sum_{i\in I}\langle e_i|u(e_i)\rangle <+\infty
 $$
 
-(EVT, V, p. 48, lemma 3 và p. 49, def. 7). Nếu $K =\mathbf{C}$, không gian $\mathscr{L}_1(E)$ các tự đồng cấu có vết hữu hạn của E là không gian vectơ sinh bởi tập hợp các tự đồng cấu dương có vết hữu hạn (EVT, V, p. 50, def. 8); nếu $K =\mathbf{R}$, không gian $\mathscr{L}_1(E)$ được định nghĩa là giao $\mathscr{L}(E)\cap \mathscr{L}_1(E_{(\mathbf{C})})$ (EVT, V, p. 50).
+(EVT, V, p. 48, bổ đề 3 và p. 49, định nghĩa 7). Nếu $K =\mathbf{C}$, không gian $\mathscr{L}_1(E)$ các tự đồng cấu có vết hữu hạn của E là không gian vectơ sinh bởi tập hợp các tự đồng cấu dương có vết hữu hạn (EVT, V, p. 50, định nghĩa 8); nếu $K =\mathbf{R}$, không gian $\mathscr{L}_1(E)$ được định nghĩa là giao $\mathscr{L}(E)\cap \mathscr{L}_1(E_{(\mathbf{C})})$ (EVT, V, p. 50).
 
 Nếu $u\in \mathscr{L}_1$(E), thì chuỗi
 
@@ -763,7 +763,7 @@ Trước hết giả sử rằng $u$ có vết hữu hạn. Theo EVT, V, p. 50 v
 
 Ngược lại, giả sử rằng họ $\lambda$ là khả tổng.
 
-Khi đó, mỗi họ trong các họ $(\mathscr{R}(\lambda_i)^+), (\mathscr{R}(\lambda_i)^-), (\mathscr{I}(\lambda_i)^+), (\mathscr{I}(\lambda_i)^-)$ đều là khả tổng. Tự đồng cấu $u$ là một tổ hợp tuyến tính của các phần tử của $\mathscr{D}_B(E)$ có các họ ấy làm các giá trị riêng. Các phần tử này của $\mathscr{D}_B(E)$ là dương. Vì, theo định nghĩa, không gian các tự đồng cấu có vết hữu hạn được sinh bởi các tự đồng cấu dương có vết hữu hạn, do đó ta có thể giả sử rằng $\lambda_i\geqslant 0$ với mọi $i$. Vì $\langle e_i|u(e_i)\rangle =\lambda_i$, họ $(\langle e_i|u(e_i)\rangle )_{i\in I}$ là khả tổng, vậy nên $u$ có vết hữu hạn (EVT, V, p. 48, lemma 3).
+Khi đó, mỗi họ trong các họ $(\mathscr{R}(\lambda_i)^+), (\mathscr{R}(\lambda_i)^-), (\mathscr{I}(\lambda_i)^+), (\mathscr{I}(\lambda_i)^-)$ đều là khả tổng. Tự đồng cấu $u$ là một tổ hợp tuyến tính của các phần tử của $\mathscr{D}_B(E)$ có các họ ấy làm các giá trị riêng. Các phần tử này của $\mathscr{D}_B(E)$ là dương. Vì, theo định nghĩa, không gian các tự đồng cấu có vết hữu hạn được sinh bởi các tự đồng cấu dương có vết hữu hạn, do đó ta có thể giả sử rằng $\lambda_i\geqslant 0$ với mọi $i$. Vì $\langle e_i|u(e_i)\rangle =\lambda_i$, họ $(\langle e_i|u(e_i)\rangle )_{i\in I}$ là khả tổng, vậy nên $u$ có vết hữu hạn (EVT, V, p. 48, bổ đề 3).
 
 Sau cùng, nếu $u$ có vết hữu hạn, thì theo EVT, V, p. 50, ta có
 
@@ -1047,7 +1047,7 @@ Từ nay về sau ta sẽ đồng nhất $L^2(X)\widehat{\otimes}_2L^2(Y)$ và $
 
 Ánh xạ $N\mapsto u_N$ là một đẳng cấu đẳng cự từ $L^2(X\times Y)$ lên không gian $\mathscr{L}_2(L^2(X); L^2(Y))$ các ánh xạ
 
-of Hilbert–Schmidt deThe ánh xạ tuyến tính of L$L^2(X)_2$into$(Y)\otimes L\overset{2}{L}(Y)_2(X)$ into. $\mathscr{L}_2(L^2(X); L^2(Y))$ mà gán cho $g\otimes f$ ánh xạ Hilbert–Schmidt $h\mapsto  \langle f|h\rangle g$ mở rộng thành một đẳng cấu đẳng cự $\theta_1$ từ $L^2(Y)\widehat{\otimes}_2L^2(X)$ lên $\mathscr{L}_2(L^2(X); L^2(Y))$ (EVT, V, p. 52, định lý 1).
+của Hilbert–Schmidt từ ánh xạ tuyến tính của L$L^2(X)_2$vào$(Y)\otimes L\overset{2}{L}(Y)_2(X)$ vào. $\mathscr{L}_2(L^2(X); L^2(Y))$ mà gán cho $g\otimes f$ ánh xạ Hilbert–Schmidt $h\mapsto  \langle f|h\rangle g$ mở rộng thành một đẳng cấu đẳng cự $\theta_1$ từ $L^2(Y)\widehat{\otimes}_2L^2(X)$ lên $\mathscr{L}_2(L^2(X); L^2(Y))$ (EVT, V, p. 52, định lý 1).
 
 Hơn nữa, ký hiệu bởi $\theta_2$ đẳng cấu đẳng cự từ $L^2(X)\widehat{\otimes}_2L^2(Y)$ lên $L^2(Y)\widehat{\otimes}_2L^2(X)$ mà với mọi $f\in L^2(X)$ và mọi $g\in L^2(Y)$ gán cho $f\otimes g$ phần tử $g\otimes \overline{f}$.
 

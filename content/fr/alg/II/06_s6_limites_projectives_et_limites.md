@@ -23,9 +23,9 @@ subsections:
       title: Produit tensoriel de limites inductives
       page: 93
       pdf_page: 270
-statements: 16
+statements: 17
 exercises: 4
-content_sha256: 63d8d2cebc6c0f675c817df332ab0733170640ec053774350910359412f9f7f8
+content_sha256: e406895b1625ad7fa5ffe7186d3e518cff1a0f1317ac962efb162f7003c8aba6
 ---
 
 ## § 6. LIMITES PROJECTIVES ET LIMITES INDUCTIVES DE MODULES
@@ -63,7 +63,10 @@ En effet, comme $\overline{u}_\alpha^1(0) = \{0\}$ pour tout $\alpha$, il résul
 #### Remarque 1 {#alg-ii-s6-n1-rem-1 .statement}
 
 La prop. 1 et sa démonstration sont valables pour des groupes quelconques, au changement de notation près.
-2) On notera que si l’on a des suites exactes
+
+#### Remarque 2 {#alg-ii-s6-n1-rem-2 .statement}
+
+On notera que si l’on a des suites exactes
 $$
 0 \longrightarrow E'_\alpha \xrightarrow{u_\alpha} E_\alpha \xrightarrow{v_\alpha} E''_\alpha \longrightarrow 0
 $$

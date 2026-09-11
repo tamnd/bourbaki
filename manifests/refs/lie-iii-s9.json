@@ -155,6 +155,7 @@
 {"from":"","from_label":"lie-iii-s9-ex-29","to_label":"lie-iii-s3-prop-2","kind":"cites","raw":"§ 3, no. 3, Proposition 2","form":"section","resolved_by":"section-no","file":"content/en/lie/III/exercises/s9/29.md","line":64},
 {"from":"","from_label":"lie-iii-s9-ex-29","to_label":"lie-iii-s9-thm-1-cor-2","kind":"cites","raw":"Corollary 2 to Theorem 1","form":"attached","resolved_by":"parent-label","file":"content/en/lie/III/exercises/s9/29.md","line":68},
 {"from":"","from_label":"lie-iii-s9-ex-29","to_label":"lie-iii-s9-ex-25","kind":"cites","raw":"Exercise 25","form":"local","resolved_by":"exercise","file":"content/en/lie/III/exercises/s9/29.md","line":76},
+{"from":"","from_label":"lie-iii-s9-ex-29","to_label":"lie-iii-s4-ex-9","kind":"cites","raw":"Exercise 9 of § 4","form":"section","resolved_by":"exercise","file":"content/en/lie/III/exercises/s9/29.md","line":76},
 {"from":"","from_label":"lie-iii-s9-ex-29","to_label":"lie-iii-s9-lem-1","kind":"cites","raw":"Lemma 1","form":"local","resolved_by":"in-section","file":"content/en/lie/III/exercises/s9/29.md","line":97},
 {"from":"","from_label":"lie-iii-s9-ex-29","to_label":"lie-iii-s9-ex-7","kind":"cites","raw":"Exercise 7","form":"local","resolved_by":"exercise","file":"content/en/lie/III/exercises/s9/29.md","line":99}
 ]}

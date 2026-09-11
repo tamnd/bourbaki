@@ -73,13 +73,13 @@ Tồn tại các không gian tôpô B, liên thông và liên thông theo cung �
 
 #### Nhận xét 2 {#ta-iv-s1-n2-rem-2 .statement tag=020B}
 
-Cho B là một không gian không cuộn được; mọi phép toán của groupoid $\varpi (B)$ trên một B-không gian đều không có đơn phương địa phương (cf. III, p. 313, remark). Đặc biệt, để một ánh xạ $p: E\rightarrow B$ biến E thành một phủ của B, điều kiện cần và đủ là nó étale, tách được và thỏa mãn tính chất nâng đường (III, p. 315, corollary 3).
+Cho B là một không gian không cuộn được; mọi phép toán của groupoid $\varpi (B)$ trên một B-không gian đều không có đơn phương địa phương (cf. III, p. 313, nhận xét). Đặc biệt, để một ánh xạ $p: E\rightarrow B$ biến E thành một phủ của B, điều kiện cần và đủ là nó étale, tách được và thỏa mãn tính chất nâng đường (III, p. 315, hệ quả 3).
 
 #### Mệnh đề 1 {#ta-iv-s1-prop-1 .statement tag=020C}
 
 Không gian tích của một họ hữu hạn các không gian không cuộn được là không cuộn được.
 
-Chỉ cần chứng minh rằng, nếu A và B là hai không gian không cuộn được, thì điều tương tự cũng đúng với tích của chúng $A\times B$. Trong các điều kiện này, không gian $A\times B$ thực sự là liên thông theo cung địa phương (III, p. 261, prop. 9). Cho $(a, b)$ là một điểm của $A\times B$. Theo giả thiết tồn tại một lân cận U của $a$ (tương ứng, một lân cận V của $b$) sao cho ảnh của đồng cấu $i_*:\pi_1(U, a)\rightarrow \pi_1(A, a)$ suy ra từ đơn ánh chính tắc $i: U\rightarrow A$ (tương ứng, của đồng cấu $j_*:\pi_1(V, b)\rightarrow \pi_1(B, b)$ suy ra từ đơn ánh chính tắc $j: V\rightarrow B$) được thu gọn về phần tử đơn vị. Khi đó $U\times V$ là một lân cận của $(a, b)$ trong $A\times B$. Đồng cấu $\pi_1(U\times V,(a, b))\rightarrow \pi_1(A\times B,(a, b))$ đồng nhất với đồng cấu $(i_*, j_*)$ (III, p. 297, corollary of prop. 4). Ảnh của nó do đó được thu gọn về phần tử đơn vị. Điều này chứng minh rằng $A\times B$ là không cuộn được.
+Chỉ cần chứng minh rằng, nếu A và B là hai không gian không cuộn được, thì điều tương tự cũng đúng với tích của chúng $A\times B$. Trong các điều kiện này, không gian $A\times B$ thực sự là liên thông theo cung địa phương (III, p. 261, prop. 9). Cho $(a, b)$ là một điểm của $A\times B$. Theo giả thiết tồn tại một lân cận U của $a$ (tương ứng, một lân cận V của $b$) sao cho ảnh của đồng cấu $i_*:\pi_1(U, a)\rightarrow \pi_1(A, a)$ suy ra từ đơn ánh chính tắc $i: U\rightarrow A$ (tương ứng, của đồng cấu $j_*:\pi_1(V, b)\rightarrow \pi_1(B, b)$ suy ra từ đơn ánh chính tắc $j: V\rightarrow B$) được thu gọn về phần tử đơn vị. Khi đó $U\times V$ là một lân cận của $(a, b)$ trong $A\times B$. Đồng cấu $\pi_1(U\times V,(a, b))\rightarrow \pi_1(A\times B,(a, b))$ đồng nhất với đồng cấu $(i_*, j_*)$ (III, p. 297, hệ quả của prop. 4). Ảnh của nó do đó được thu gọn về phần tử đơn vị. Điều này chứng minh rằng $A\times B$ là không cuộn được.
 
 #### Mệnh đề 2 {#ta-iv-s1-prop-2 .statement tag=020D}
 

@@ -909,7 +909,7 @@ Nếu $B(C)$ là xạ ảnh và $B_n(C')$ đơn ánh với mỗi $n$, đồng c�
 
 Thật vậy, theo X, p. 35, các nhận xét a) và b), tồn tại các đồng luân
 $$
-\varphi : C \to \mathrm{H}(C) \quad \text{and} \quad \varphi' : \mathrm{H}(C') \to C'
+\varphi : C \to \mathrm{H}(C) \quad \text{và} \quad \varphi' : \mathrm{H}(C') \to C'
 $$
 sao cho $\mathrm{H}(\varphi) = 1_{\mathrm{H}(C)}$ và $\mathrm{H}(\varphi') = 1_{\mathrm{H}(C')}$.
 Trong biểu đồ giao hoán

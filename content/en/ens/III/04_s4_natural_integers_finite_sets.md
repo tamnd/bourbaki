@@ -34,7 +34,7 @@ subsections:
       pdf_page: 176
 statements: 15
 exercises: 11
-content_sha256: 4a072096ffffd9564c385dad351b447db76172ec442dedd3e07d9c5178c5b614
+content_sha256: 6124f77d2424d43d092ed015ee9df777eee17e45957a9f97af290618c63c1a97
 ---
 
 ## 4. NATURAL INTEGERS. FINITE SETS
@@ -233,7 +233,7 @@ The set of totally ordered subsets of an ordered set $E$ is of finite character.
 
 #### Example 2 {#ens-iii-s4-n5-exa-2 .statement tag=03TA}
 
-The set of all free subsets of a module is of finite character. The same is true of the set of all algebraically free subsets of an extension of a field.
+\* The set of all free subsets of a module is of finite character. The same is true of the set of all algebraically free subsets of an extension of a field.
 
 #### Example 3 {#ens-iii-s4-n5-exa-3 .statement tag=03TB}
 

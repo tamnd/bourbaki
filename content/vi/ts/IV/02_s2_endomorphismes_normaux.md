@@ -57,7 +57,7 @@ glossary_terms_sha256: 7dd30a555e1865ad61d7b51c1ba831a0f57e821835aa355a04e4b4498
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 ---
 
-## § 2. CÁC ENDOMORPHISM CHUẨN
+## § 2. CÁC TỰ ĐỒNG CẤU CHUẨN
 
 Trong đoạn này, các không gian Hilbert được xét là phức, trừ khi có nói khác.
 
@@ -75,7 +75,7 @@ c) Tổng của các không gian $L^p(X_i, \mu_i)$ là trù mật trong không g
 
 Mệnh đề a) là sơ cấp. Mệnh đề b) suy ra từ chú giải của INT, V, p. 84, § 7, n$^o1$.
 
-Cho $q\in ]1,+\infty ]$ là số mũ liên hợp của $p$. Ta đồng nhất đối ngẫu của $L^p(X, \mu)$ với $L^q(X, \mu)$ (INT, V, p. 61, § 5, n$^o8$, th. 4). Gọi $f$ là một hàm trong $\mathscr{L}^q(X, \mu)$ mà lớp $\widetilde{f}$ của nó trong $L^q(X, \mu)$ thỏa mãn $\langle \widetilde{f} ,\widetilde{p}_i(\varphi )\rangle = 0$ với mọi $i\in I$ và mọi $\varphi \in L^p(X, \mu)$. Vì ảnh của $p_i$ chứa $\mathscr{K}(X_i)$, suy ra độ đo $(f|X_i)\cdot \mu_i$ trên $X_i$ bằng không, điều đó có nghĩa là hạn chế của $f$ trên $X_i$ là địa phương không đáng kể đối với $\mu_i$ trên $X_i$ (INT, V, p. 46, § 5, n$^o3$, cor. 2). Vì phần bù trong X của hợp các $X_i$ là địa phương không đáng kể đối với $\mu$, ta kết luận rằng hàm $f$ là địa phương không đáng kể đối với $\mu$ trên X (INT, IV, p. 190, § 5, n$^o9$ and p. 172, n$^o2$, prop. 5). Khi đó lớp của $f$ bằng không trong $L^q(X, \mu)$ (dùng INT, V, p. 8, § 1, n$^o3$, lemma 1 và hệ quả của proposition 9 khi $p\not = 1$). Theo định lý Hahn–Banach (EVT, II, p. 46, cor. 1), phần thứ nhất của mệnh đề c) suy ra.
+Cho $q\in ]1,+\infty ]$ là số mũ liên hợp của $p$. Ta đồng nhất đối ngẫu của $L^p(X, \mu)$ với $L^q(X, \mu)$ (INT, V, p. 61, § 5, n$^o8$, th. 4). Gọi $f$ là một hàm trong $\mathscr{L}^q(X, \mu)$ mà lớp $\widetilde{f}$ của nó trong $L^q(X, \mu)$ thỏa mãn $\langle \widetilde{f} ,\widetilde{p}_i(\varphi )\rangle = 0$ với mọi $i\in I$ và mọi $\varphi \in L^p(X, \mu)$. Vì ảnh của $p_i$ chứa $\mathscr{K}(X_i)$, suy ra độ đo $(f|X_i)\cdot \mu_i$ trên $X_i$ bằng không, điều đó có nghĩa là hạn chế của $f$ trên $X_i$ là địa phương không đáng kể đối với $\mu_i$ trên $X_i$ (INT, V, p. 46, § 5, n$^o3$, hệ quả 2). Vì phần bù trong X của hợp các $X_i$ là địa phương không đáng kể đối với $\mu$, ta kết luận rằng hàm $f$ là địa phương không đáng kể đối với $\mu$ trên X (INT, IV, p. 190, § 5, n$^o9$ and p. 172, n$^o2$, mệnh đề 5). Khi đó lớp của $f$ bằng không trong $L^q(X, \mu)$ (dùng INT, V, p. 8, § 1, n$^o3$, bổ đề 1 và hệ quả của mệnh đề 9 khi $p\not = 1$). Theo định lý Hahn–Banach (EVT, II, p. 46, hệ quả 1), phần thứ nhất của mệnh đề c) suy ra.
 
 Nếu $p= 2$, ảnh của $p_i$ trực giao với ảnh của $p_j$ với mọi $i\not =j$, vì khi đó $X_i$ và $X_j$ rời nhau, do đó có khẳng định cuối cùng.
 
@@ -83,7 +83,7 @@ Nếu $p= 2$, ảnh của $p_i$ trực giao với ảnh của $p_j$ với mọi 
 
 Cho X là một không gian địa phương compact đếm được tại vô cực. Cho $\mu$ là một độ đo dương trên X. Với mọi $p\in [1,+\infty [$, không gian $L^p(X, \mu)$ thuộc kiểu đếm được.
 
-Gọi $(U_n)_{n\in\mathbf{N}}$ là một dãy các tập con mở tương đối compact của X mà hợp của chúng bằng X và thỏa mãn $U_n\subset U_{n+1}$ với mọi $n\in \mathbf{N}$ (TG, I, p. 68, prop. 15). Với mọi $n\in \mathbf{N}$, không gian $\mathscr{K}(X,\overline{U}_n)$ được đồng nhất với một không gian con đóng của không gian Banach $\mathscr{C}(U_n)$ (INT, III, p. 40, § 1, n$^o1$); vì không gian sau này thuộc kiểu đếm được (TG, X, p. 25, corollary), điều tương tự cũng đúng với $\mathscr{K}(X,\overline{U}_n)$ (TG, IX, p. 19, cor., (i)). Gọi $\mathscr{F}_n$ là một tập con đếm được trù mật của $\mathscr{K}(X,\overline{U}_n)$.
+Gọi $(U_n)_{n\in\mathbf{N}}$ là một dãy các tập con mở tương đối compact của X mà hợp của chúng bằng X và thỏa mãn $U_n\subset U_{n+1}$ với mọi $n\in \mathbf{N}$ (TG, I, p. 68, mệnh đề 15). Với mọi $n\in \mathbf{N}$, không gian $\mathscr{K}(X,\overline{U}_n)$ được đồng nhất với một không gian con đóng của không gian Banach $\mathscr{C}(U_n)$ (INT, III, p. 40, § 1, n$^o1$); vì không gian sau này thuộc kiểu đếm được (TG, X, p. 25, hệ quả), điều tương tự cũng đúng với $\mathscr{K}(X,\overline{U}_n)$ (TG, IX, p. 19, hệ quả, (i)). Gọi $\mathscr{F}_n$ là một tập con đếm được trù mật của $\mathscr{K}(X,\overline{U}_n)$.
 
 Cho $f\in \mathscr{L}^p(X, \mu)$ và $\varepsilon  >0$. Tồn tại một số nguyên $n\in \mathbf{N}$ sao cho $\int_{X-U_n}|f|^p< \varepsilon /2$, và tồn tại $g\in \mathscr{F}_n$ sao cho $\int_{\overline{U}_n}|f-g|^p< \varepsilon /2$. Vậy hợp các lớp trong $L^p(X, \mu)$ của các phần tử của các tập $\mathscr{F}_n$ là trù mật trong $L^p(X, \mu)$, điều này kết thúc chứng minh (TG, IX, p. 18, prop. 12).
 
@@ -141,7 +141,7 @@ Trong số này, X là một không gian tôpô compact địa phương. Ta nh�
 
 Cho Y và Z là các không gian tôpô compact địa phương, $f: X\rightarrow Y$ và $g: Y\rightarrow Z$ là các ánh xạ đo được phổ dụng. Ánh xạ $g\circ f: X\rightarrow Z$ là đo được phổ dụng.
 
-Cho $\mu$ là một độ đo dương có giá compact trên X và C là giá của nó. Hạn chế của $f$ trên C là $(\mu|$C)-proper. Ánh xạ $g$ là đo được đối với độ đo ảnh $(f|C)(\mu|C)$, do đó ánh xạ $(g\circ f)|C =g\circ (f|C)$ là $(\mu|$C)-measurable. Do đó, ánh xạ $g\circ f$ là $\mu$-đo được. Bổ đề được chứng minh.
+Cho $\mu$ là một độ đo dương có giá compact trên X và C là giá của nó. Hạn chế của $f$ trên C là $(\mu|$C)-thực sự. Ánh xạ $g$ là đo được đối với độ đo ảnh $(f|C)(\mu|C)$, do đó ánh xạ $(g\circ f)|C =g\circ (f|C)$ là $(\mu|$C)-measurable. Do đó, ánh xạ $g\circ f$ là $\mu$-đo được. Bổ đề được chứng minh.
 
 Ta ký hiệu bởi $\mathscr{L}_u(X)$ không gian vectơ các hàm giá trị phức đo được phổ dụng trên X, và bởi $\mathscr{L}_u^{\infty}(X)$ không gian con các hàm $f\in \mathscr{L}_u(X)$ bị chặn trên X. Với $f\in \mathscr{L}_u^{\infty}$(X), ta đặt $\|f\|_{\infty}=$ sup$_{x\in X}|f(x)|$.
 
@@ -161,7 +161,7 @@ Các mệnh đề a) và c) suy ra từ các định nghĩa (x. INT, IV, p. 175,
 
 Để chứng minh mệnh đề b), chỉ cần nhận xét rằng e) kéo theo, a fortiori, rằng một giới hạn đều của các hàm đo được phổ dụng là đo được phổ dụng.
 
-Có thể tồn tại các hàm đo được phổ dụng trên X mà không phải là Borel. Thật vậy, nếu X là khả mêtric, hàm đặc số của một tập con Souslin của X là đo được phổ dụng (x. INT, IV, p. 171, § 5, No$^o1$, cor. 2); mà trong mọi không gian Polish không đếm được, tồn tại một tập con Souslin không phải là Borel ("định lý Souslin"; điều này suy ra từ TG, IX, p. 120, exercise 8 và từ sự kiện rằng với mọi không gian Polish không đếm được X, tồn tại một song ánh Borel $X\rightarrow \mathbf{N}^{\mathbf{N}}$ mà nghịch đảo của nó là Borel).
+Có thể tồn tại các hàm đo được phổ dụng trên X mà không phải là Borel. Thật vậy, nếu X là khả mêtric, hàm đặc số của một tập con Souslin của X là đo được phổ dụng (x. INT, IV, p. 171, § 5, No$^o1$, cor. 2); mà trong mọi không gian Polish không đếm được, tồn tại một tập con Souslin không phải là Borel ("định lý Souslin"; điều này suy ra từ TG, IX, p. 120, bài tập 8 và từ sự kiện rằng với mọi không gian Polish không đếm được X, tồn tại một song ánh Borel $X\rightarrow \mathbf{N}^{\mathbf{N}}$ mà nghịch đảo của nó là Borel).
 
 #### Bổ đề 5 {#ts-iv-s2-lem-5 .statement tag=02YW}
 

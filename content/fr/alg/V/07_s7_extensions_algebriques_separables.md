@@ -47,9 +47,9 @@ subsections:
       title: Degrés séparable et inséparable d’une extension de degré fini
       page: 44
       pdf_page: 148
-statements: 40
+statements: 42
 exercises: 5
-content_sha256: d9bbc3463ea31eaec2d0836617f3d8875e4519adc32b0d44b7d73be33f686425
+content_sha256: 8442ab006744ede6d0858b45206396bcd6fd8f4653e0ba6b462899ba01f3f5eb
 ---
 
 ## § 7. EXTENSIONS ALGÉBRIQUES SÉPARABLES
@@ -300,7 +300,10 @@ On se ramène immédiatement au cas où [E : K] est fini. Soit $(x_i)_{i \in I}$
 #### Remarque 1 {#alg-v-s7-n6-rem-1 .statement}
 
 Lorsque E est algébrique et de degré infini sur K, la condition $E = K(E^p)$ n’assure pas nécessairement que E soit séparable sur K. Par exemple, si K est imparfait et si E est une clôture parfaite de K, on a $E = K(E^p)$, mais E n’est pas extension séparable de K (V, p. 38, cor. 3).
-2) Soit E une extension algébrique séparable d’un corps K d’exposant caractéristique $p$. On a alors $E^p \cap K = K^p$ (cor. 2) ; par suite, si E est parfait, il en est de même de K.
+
+#### Remarque 2 {#alg-v-s7-n6-rem-2 .statement}
+
+Soit E une extension algébrique séparable d’un corps K d’exposant caractéristique $p$. On a alors $E^p \cap K = K^p$ (cor. 2) ; par suite, si E est parfait, il en est de même de K.
 
 ### 7. Fermeture algébrique séparable
 
@@ -374,7 +377,10 @@ Soit $\Omega$ une clôture algébrique de E ; on a $\Omega_s \subset E$, et il s
 #### Remarque 1 {#alg-v-s7-n8-rem-1 .statement}
 
 Soient E et E' deux clôtures séparables de K. Si K n’est pas séparablement clos, il existe plusieurs K-isomorphismes de E sur E'. \* En effet, E est alors une extension galoisienne non triviale de K, et il existe donc des K-automorphismes de E distincts de l’identité (V, p. 54, th. 1). \*
-\* 2) Soit E une extension algébrique et séparable de K. Si toute extension algébrique et séparable de K est isomorphe à une sous-extension de E, alors E est une clôture séparable de K. En effet, si E' est une clôture séparable de K, chacune des extensions E et E' est isomorphe à une sous-extension de l’autre ; par suite, E et E' sont des extensions isomorphes de K (V, p. 50, prop. 1, a)). \*
+
+#### Remarque 2 {#alg-v-s7-n8-rem-2 .statement}
+
+\* Soit E une extension algébrique et séparable de K. Si toute extension algébrique et séparable de K est isomorphe à une sous-extension de E, alors E est une clôture séparable de K. En effet, si E' est une clôture séparable de K, chacune des extensions E et E' est isomorphe à une sous-extension de l’autre ; par suite, E et E' sont des extensions isomorphes de K (V, p. 50, prop. 1, a)). \*
 
 ### 9. Degrés séparable et inséparable d’une extension de degré fini
 

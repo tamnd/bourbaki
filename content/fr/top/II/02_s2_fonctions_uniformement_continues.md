@@ -39,9 +39,9 @@ subsections:
       title: Limites projectives d’espaces uniformes
       page: 12
       pdf_page: 151
-statements: 24
+statements: 26
 exercises: 6
-content_sha256: bfb04ecdf1f9360e7000738526e7648065d67c1912d1d3570bfd26485e9fc429
+content_sha256: 06111a5a700b7737aa975f4b4cb3dd88e2bb2e7dc8c3c4b422bffdb563447b1f
 ---
 
 ## § 2. FONCTIONS UNIFORMÉMENT CONTINUES
@@ -59,8 +59,14 @@ Si on pose $g = f \times f$, la déf. 1 signifie encore que pour tout entourage 
 #### Exemple 1 {#top-ii-s2-n1-exa-1 .statement}
 
 L’application identique d’un espace uniforme sur lui-même est uniformément continue.
-2) Une application constante d’un espace uniforme dans un espace uniforme est uniformément continue.
-3) Toute application d’un espace uniforme discret dans un espace uniforme est uniformément continue.
+
+#### Exemple 2 {#top-ii-s2-n1-exa-2 .statement}
+
+Une application constante d’un espace uniforme dans un espace uniforme est uniformément continue.
+
+#### Exemple 3 {#top-ii-s2-n1-exa-3 .statement}
+
+Toute application d’un espace uniforme discret dans un espace uniforme est uniformément continue.
 
 #### Proposition 1 {#top-ii-s2-prop-1 .statement}
 

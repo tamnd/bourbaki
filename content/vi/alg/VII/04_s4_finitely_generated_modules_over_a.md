@@ -153,7 +153,7 @@ Bây giờ ta có thể tiến hành quy nạp theo hạng $n$ của $M$. Vì $L
 
 Vì các $a_i$ là khác không, môđun $M'$ là tập hợp các $x \in L$ sao cho $\beta x \in M$ với một $\beta \neq 0$ nào đó trong $A$; nói cách khác $M'/M$ là môđun con xoắn của $L/M$. Điều này xác định duy nhất $M'$.
 
-Rõ ràng là $M'/M$ đẳng cấu với tổng trực tiếp của $n$ môđun cyclic $A/A\alpha_i$ (II, p. 204, formula (26)). Gọi $r$ là số các iđêan $A\alpha$, khác $A$: như vậy $n-r$ iđêan đầu tiên $A\alpha_i$ bằng $A$, và các iđêan cuối cùng khác $A$. Khi đó $M'/M$ cũng đẳng cấu với tổng trực tiếp của các môđun $A/A\alpha_n, \ldots, A/A\alpha_{n-r+1}$, trong đó $A\alpha_n \subset A\alpha_{n-1} \subset \ldots \subset A\alpha_{n-r+1} \neq A$.
+Rõ ràng là $M'/M$ đẳng cấu với tổng trực tiếp của $n$ môđun xyclic $A/A\alpha_i$ (II, p. 204, công thức (26)). Gọi $r$ là số các iđêan $A\alpha$, khác $A$: như vậy $n-r$ iđêan đầu tiên $A\alpha_i$ bằng $A$, và các iđêan cuối cùng khác $A$. Khi đó $M'/M$ cũng đẳng cấu với tổng trực tiếp của các môđun $A/A\alpha_n, \ldots, A/A\alpha_{n-r+1}$, trong đó $A\alpha_n \subset A\alpha_{n-1} \subset \ldots \subset A\alpha_{n-r+1} \neq A$.
 
 Vì thế các điều kiện của Hệ quả của Mệnh đề 2 (VII, p. 16) được thỏa mãn: do đó các iđêan $Aa_i$ ($1 \leq i \leq n$) được xác định duy nhất bởi môđun $M'/M$.
 

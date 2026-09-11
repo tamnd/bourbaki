@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: f35f594201c7156dde4597f94f43df4226aa2d4af3cf832fbc825c8eb90246ae
+content_sha256: 781d46e7c533bed2aee07734fa5c2ba8573bef6b91dbc7c428eabbe625b92282
 ---
 
 ## § 2. REPRÉSENTATIONS DES GROUPES LOCALEMENT COMPACTS
@@ -238,9 +238,9 @@ $$
 
 Soit $\varrho$ une représentation continue et bornée de G dans un espace de Banach E. Pour tout $f\in L^1(G)$ (resp. $f'\in L^1(G, \mu')$) et tout $g\in G$, on a
 
-(1) $\varrho (g)\varrho (f\cdot \mu) =\varrho (\varepsilon_g*(f\cdot \mu)) =\varrho (\boldsymbol{\gamma }$[^1]$_G(g)f\cdot \mu)$,
+(1) $\varrho (g)\varrho (f\cdot \mu) =\varrho (\varepsilon_g*(f\cdot \mu)) =\varrho (\boldsymbol{\gamma }^{(1)}_G(g)f\cdot \mu)$,
 
-(2) $\varrho (f'\cdot \mu')\varrho (g) =\varrho ((f'\cdot \mu')*\varepsilon_g) =\varrho (\boldsymbol{\delta }$[^1]$_G(g^{-1})f'\cdot \mu')$
+(2) $\varrho (f'\cdot \mu')\varrho (g) =\varrho ((f'\cdot \mu')*\varepsilon_g) =\varrho (\boldsymbol{\delta }^{(1)}_G(g^{-1})f'\cdot \mu')$
 
 (INT, VIII, p. 144, § 3, n$^o2$, formule (5)).
 
@@ -262,11 +262,11 @@ pour tout $f\in \mathscr{L}^p$(G), tout $(g_1, g_2)\in G\times G$ et tout $x\in 
 
 La représentation birégulière de G dans $L^p(G, \mu)$ n’est pas nécessairement fidèle ; son noyau est l’image du centre de G par l’application $g\mapsto (g, g)$ (exercice 4 de V, p. 487).
 
-Lorsque $p= 2$, la représentation régulière gauche $\boldsymbol{\gamma }$[^2]$_G$ de G dans l’espace hilbertien complexe $L^2(G, \mu)$ est unitaire, puisqu’elle est isométrique. De même, la représentation régulière droite $\boldsymbol{\delta }_G$[^2] dans $L^2(G, \mu')$ est unitaire.
+Lorsque $p= 2$, la représentation régulière gauche $\boldsymbol{\gamma }^{(2)}_G$ de G dans l’espace hilbertien complexe $L^2(G, \mu)$ est unitaire, puisqu’elle est isométrique. De même, la représentation régulière droite $\boldsymbol{\delta }^{(2)}_G$ dans $L^2(G, \mu')$ est unitaire.
 
-On notera simplement $\boldsymbol{\gamma }_G=\boldsymbol{\gamma }$[^2]$_G$ et $\boldsymbol{\delta }_G=\boldsymbol{\delta }$[^2]$_G$, et on appellera ces représentations les représentations régulières gauche et droite de G.
+On notera simplement $\boldsymbol{\gamma }_G=\boldsymbol{\gamma }^{(2)}_G$ et $\boldsymbol{\delta }_G=\boldsymbol{\delta }^{(2)}_G$, et on appellera ces représentations les représentations régulières gauche et droite de G.
 
-Si G est unimodulaire, la représentation birégulière $\boldsymbol{\varrho }$[^2]$_G$ de $G\times G$ dans $L^2(G, \mu)$ est unitaire. On la notera simplement $\boldsymbol{\varrho }_G$.
+Si G est unimodulaire, la représentation birégulière $\boldsymbol{\varrho }^{(2)}_G$ de $G\times G$ dans $L^2(G, \mu)$ est unitaire. On la notera simplement $\boldsymbol{\varrho }_G$.
 
 #### Lemme 4 {#ts-v-s2-lem-4 .statement tag=03AE}
 
@@ -658,7 +658,7 @@ Le sous-espace $\mathscr{K}_{\chi}(G)$ de $\mathscr{F}_{\chi}(G)$ est stable par
 
 notées $\boldsymbol{\gamma }^{(p)}_{G,\chi}$ et $\boldsymbol{\delta }^{(p)}_{G,\chi}$. Par passage aux quotients, ces représentations définissent également des représentations isométriques de G dans $L^p_{\chi}$(G), notées de la même manière.
 
-Les représentations $\boldsymbol{\gamma }_G$[^2]$_{,\chi}$ et $\boldsymbol{\delta }_G$[^2]$_{,\chi}$ dans $L_{\chi}^2(G)$ sont unitaires, et seront notées simplement $\boldsymbol{\gamma }_{G,\chi}$ et $\boldsymbol{\delta }_{G,\chi}$, respectivement, lorsqu’aucune confusion avec les représentations dans $\mathscr{F}_{\chi}(G)$ ne sera possible. On note aussi $\boldsymbol{\varrho }_{G,\chi}$ la représentation continue de $G\times G$ dans $\mathscr{L}_{\chi}^2(G)$ ou $L^2_{\chi}(G)$ définie par
+Les représentations $\boldsymbol{\gamma }^{(2)}_{G,\chi}$ et $\boldsymbol{\delta }^{(2)}_{G,\chi}$ dans $L_{\chi}^2(G)$ sont unitaires, et seront notées simplement $\boldsymbol{\gamma }_{G,\chi}$ et $\boldsymbol{\delta }_{G,\chi}$, respectivement, lorsqu’aucune confusion avec les représentations dans $\mathscr{F}_{\chi}(G)$ ne sera possible. On note aussi $\boldsymbol{\varrho }_{G,\chi}$ la représentation continue de $G\times G$ dans $\mathscr{L}_{\chi}^2(G)$ ou $L^2_{\chi}(G)$ définie par
 
 $$
 \boldsymbol{\varrho }_{G,\chi}(g, h) =\boldsymbol{\gamma }_{G,\chi}(g)\circ \boldsymbol{\delta }_{G,\chi}(h) =\boldsymbol{\delta }_{G,\chi}(h)\circ \boldsymbol{\gamma }_{G,\chi}(g)

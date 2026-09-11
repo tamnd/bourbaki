@@ -38,9 +38,9 @@ subsections:
       title: Discriminant
       page: 76
       pdf_page: 83
-statements: 41
+statements: 46
 exercises: 7
-content_sha256: 1e29a47a89646d6879a7bb04367a0bd4b9075a7a54c877ec88da2ba2448e89ad
+content_sha256: 5159b1b30c3ac692aa8536a5f74fcbb2499ef16d5f320af8e43374358b2d23f7
 ---
 
 ## § 6. FONCTIONS SYMÉTRIQUES
@@ -603,7 +603,7 @@ Si $P = s_k$, on a $P^*(f) = (-1)^k a_k$.
 
 #### Exemple 2 {#alg-iv-s6-n5-exa-2 .statement}
 
-Soit $g$ un polynôme dans $\mathbf{A}[X]$; posons
+\* Soit $g$ un polynôme dans $\mathbf{A}[X]$; posons
 
 $$
 P(X_1, \ldots, X_n) = g(X_1) \ldots g(X_n)
@@ -733,7 +733,10 @@ $$
 \end{align*}
 $$
 de démonstration immédiate.
-2) Lorsque $p = q = 1$, on a
+
+#### Exemple 2 {#alg-iv-s6-n6-exa-2 .statement}
+
+Lorsque $p = q = 1$, on a
 $$
 \operatorname{res}_{1,1}(t_1 X + t_0, u_1 X + u_0) = t_1 u_0 - t_0 u_1 .
 $$
@@ -744,16 +747,25 @@ La matrice $M(g, f, q, p)$ se déduit de $M(f, g, p, q)$ par $pq$ transpositions
 $$
 \operatorname{res}_{q,p}(g, f) = (-1)^{pq} \operatorname{res}_{p,q}(f, g) .
 $$
-2) Soit $\rho : \mathbf{A} \to \mathbf{B}$ un homomorphisme d’anneaux. La définition 1 entraîne aussitôt la formule
+
+#### Remarque 2 {#alg-iv-s6-n6-rem-2 .statement}
+
+Soit $\rho : \mathbf{A} \to \mathbf{B}$ un homomorphisme d’anneaux. La définition 1 entraîne aussitôt la formule
 $$
 \operatorname{res}_{p,q}(\rho f, \rho g) = \rho(\operatorname{res}_{p,q}(f, g)) .
 $$
-3) Soient $\lambda, \mu$ dans $\mathbf{A}$. On a
+
+#### Remarque 3 {#alg-iv-s6-n6-rem-3 .statement}
+
+Soient $\lambda, \mu$ dans $\mathbf{A}$. On a
 $$
 \operatorname{res}_{p,q}(\lambda f, \mu g) = \lambda^q \mu^p \operatorname{res}_{p,q}(f, g) .
 $$
 (28)
-4) Supposons qu’on ait $p + q \geqslant 1$. D’après III, p. 99, formule (28), l’image de $\varphi$ contient le polynôme constant $\operatorname{res}_{p,q}(f, g)$. Il existe donc un couple de polynômes $(u, v)$, avec $u \in S_q,\ v \in S_p$, tel que
+
+#### Remarque 4 {#alg-iv-s6-n6-rem-4 .statement}
+
+Supposons qu’on ait $p + q \geqslant 1$. D’après III, p. 99, formule (28), l’image de $\varphi$ contient le polynôme constant $\operatorname{res}_{p,q}(f, g)$. Il existe donc un couple de polynômes $(u, v)$, avec $u \in S_q,\ v \in S_p$, tel que
 $$
 \operatorname{res}_{p,q}(f, g) = uf + vg ,
 $$
@@ -762,7 +774,10 @@ $$
 \operatorname{res}_{p,q}(f, g) \in \mathbf{A} \cap (f, g) .
 $$
 Ce couple $(u, v)$ est unique lorsque $\operatorname{res}_{p,q}(f, g)$ est simplifiable dans $\mathbf{A}$ : en effet, $\varphi$ est alors injective (III, p. 91, prop. 3).
-5) Supposons $p \geqslant q$. Soit $h \in \mathbf{A}[X]$ un polynôme de degré $\leqslant p - q$. Montrons que l’on a
+
+#### Remarque 5 {#alg-iv-s6-n6-rem-5 .statement}
+
+Supposons $p \geqslant q$. Soit $h \in \mathbf{A}[X]$ un polynôme de degré $\leqslant p - q$. Montrons que l’on a
 $$
 \operatorname{res}_{p,q}(f, g) = \operatorname{res}_{p,q}(f + gh, g) .
 $$

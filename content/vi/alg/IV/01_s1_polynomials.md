@@ -113,8 +113,7 @@ Cho $J \subset I$ và $B = A[(X_i)_{i \in I - J}]$; ta sẽ đồng nhất $A[(X
 
 Cho $u = \sum_{k=0}^n a_k X^k \in A[X]$ là một đa thức khác không bậc $n$ theo một ẩn duy nhất. Hệ số $a_n$, khác $0$ theo giả thiết, được gọi là *hệ số đầu* của $u$. *Một* đa thức $u \neq 0$ có hệ số đầu bằng 1 được gọi là một *đa thức đơn khởi*.
 
-Trong $A[X_1, X_2, \ldots, X_q]$ số các đơn thức có tổng bậc $p$ bằng số các phần tử $(n_k)_{1 \leq k \leq q}$ của $\mathbf{N}^q$ sao cho $\sum_{k=1}^q n_k = p$, tức là $\binom{q+p-1}{p}$
-(Sets III, Prop. 15, p. 182)
+Trong $A[X_1, X_2, \ldots, X_q]$ số các đơn thức có tổng bậc $p$ bằng số các phần tử $(n_k)_{1 \leq k \leq q}$ của $\mathbf{N}^q$ sao cho $\sum_{k=1}^q n_k = p$, tức là $\binom{q+p-1}{p}$ (Tập hợp III, Prop. 15, p. 182)
 
 Nói chung hơn, cho A là một monoïde giao hoán và $(\delta_i)_{i \in I}$ là một họ các phần tử của A. Tồn tại một phân bậc duy nhất kiểu A của đại số $A[(X_i)_{i \in I}]$ sao cho mỗi đơn thức $X^\nu$ có bậc $\sum_{i \in I} \nu_i \delta_i$ (III, p. 458, ví dụ 3). Trường hợp đã xét ở trên là trường hợp $A = \mathbf{N}$ và $\delta_i = 1$. Trong trường hợp tổng quát, để tránh nhầm lẫn, ta sẽ dùng từ « trọng số » thay cho « bậc » và « đẳng trọng » thay cho « thuần nhất ». Chẳng hạn, tồn tại một phân bậc duy nhất kiểu N của đại số $A[(X_i)_{i \geq 1}]$ sao cho $X_i$ có trọng số $i$ với mọi số nguyên $i \geq 1$. Các phần tử đẳng trọng trọng số $n$ là các đa thức có dạng $\sum a_{\nu} X^{\nu}$, trong đó $a_{\nu} = 0$ nếu $\sum_{i \geq 1} i \cdot \nu_i \neq n$.
 
@@ -352,7 +351,7 @@ Cho D là ánh xạ A-tuyến tính từ $A[X]$ vào chính nó sao cho $D(v) = 
 — *Cho $f \in A[X]$ là một đa thức khác không theo một bất định và $a$ là hệ số đầu của nó. Nếu $a$ giản ước được trong A (đặc biệt nếu $f$ đơn nhất) thì với mọi phần tử khác không g của $A[X]$, ta có*
 
 $$
-fg \neq 0 \quad \text{and} \quad \deg(fg) = \deg f + \deg g
+fg \neq 0 \quad \text{và} \quad \deg(fg) = \deg f + \deg g
 $$
 
 Cho $g \in A[X]$ là một đa thức khác không, $\beta$ là hệ số đầu của nó, $n = \deg f$ và $p = \deg g$. Khi đó hệ số của $X^{n+p}$ trong $fg$ là $\alpha \beta$ và không triệt tiêu, do đó có mệnh đề.

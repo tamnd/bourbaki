@@ -737,7 +737,7 @@ $\leqslant$ dim Hom$_G(\pi ,M_{\pi}(\varrho )) =$ Card(I)
 
 Giả sử bây giờ rằng I và J là vô hạn. Với $j\in J$, gọi $p_j$ là phép chiếu trực giao của E có ảnh $F_j$. Với $i\in I$, gọi $x_i$ là một phần tử khác không của $E_i$; nó là một vectơ chu kỳ của $E_i$. Nhận xét rằng vì $p_j$ cảm sinh qua phép chuyển qua các không gian con một G-cấu xạ từ $E_i$ vào $F_j$, không gian $p_j(E_i)$ bằng không khi và chỉ khi $p_j(x_i) = 0$ (thực vậy, không gian $E_i\cap$Ker($p_j$) hoặc là không, hoặc bằng $E_i$).
 
-For every $j\in J$, tồn tại một phần tử $f(j)\in I$ sao cho $p_j(E_{f(j)})$ không thu gọn về 0 (nếu không, phép chiếu trực giao $p_j$ sẽ bằng không trên $M_{\pi}(\varrho )$). Do đó một ánh xạ $f$ từ J vào I đã được xác định. Đối với
+Với mọi $j\in J$, tồn tại một phần tử $f(j)\in I$ sao cho $p_j(E_{f(j)})$ không thu gọn về 0 (nếu không, phép chiếu trực giao $p_j$ sẽ bằng không trên $M_{\pi}(\varrho )$). Do đó một ánh xạ $f$ từ J vào I đã được xác định. Đối với
 
 $-1$
 

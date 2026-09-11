@@ -32,7 +32,7 @@ subsections:
       pdf_page: 48
 statements: 14
 exercises: 12
-content_sha256: ce62004672f2a552baeee93c993f23b37bb4a071c1446b11586401d7598f5a2a
+content_sha256: 6994d1fcef1279c0e7cff0c45ff4c40d2c5fa008b3fcaaed2d058d386707fb02
 ---
 
 ## § 5. Algèbres de Magnus
@@ -252,6 +252,6 @@ Il existe des éléments $x_1, \ldots, x_r$ de $X$ et des entiers $n_1, \ldots, 
 
 ## EXERCICES {#lie-ii-s5-exercises}
 
-Dans les exercices ci-dessous, les hypothèses et notations sont celles du § 5. On note F le groupe libre $F(X)$, et g l’unique homomorphisme de F dans le groupe de Magnus $\Gamma(X)$ tel que $g(x) = 1 + x$ pour tout $x \in X$ (cf. th.
+Dans les exercices ci-dessous, les hypothèses et notations sont celles du § 5. On note F le groupe libre $F(X)$, et g l’unique homomorphisme de F dans le groupe de Magnus $\Gamma(X)$ tel que $g(x) = 1 + x$ pour tout $x \in X$ (cf. th. 1).
 
 See the [exercises for § 5](exercises/s5/).

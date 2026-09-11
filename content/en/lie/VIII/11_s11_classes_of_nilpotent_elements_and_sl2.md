@@ -29,7 +29,7 @@ subsections:
       pdf_page: 178
 statements: 29
 exercises: 17
-content_sha256: 9fa596e246cac621b5b9e0b269c472085fd46db9e470656f32a0223db1df02b5
+content_sha256: 69278bbf0e9945c81205a66c4f831ee0a6453557fe5210e0d6d6b4fcf1775ef3
 ---
 
 ## § 11. CLASSES OF NILPOTENT ELEMENTS AND $\mathfrak{s}\mathfrak{l}_{2}$-TRIPLETS
@@ -404,7 +404,7 @@ $$
 x+v\in e^{ad\mathfrak{n}_+}.x+\mathfrak{n}^{(p)}
 $$
 
-for all $p\geq 2$. This is clear for $p= 2$ since $\mathfrak{n}$[^2] $= [\mathfrak{n}_+,\mathfrak{n}_+] ($§3, no. 3, Prop. 9 (iii)). Assume that we have found $z\in \mathfrak{n}_+$ such that $v+x-e^{adz}.x\in$ $\mathfrak{n}^{(p)}$. Since there exists an $\mathfrak{s}\mathfrak{l}_2$-triplet of the form $(x, h^0, y)$ (Prop. 8), §1, no. 2, Cor. of Prop. 2 proves that $[x,\mathfrak{g}^{2p-2}] =\mathfrak{g}^{2p}$; hence, there exists $z'\in \mathfrak{g}^{2p-2}\subset \mathfrak{n}_+$ such that
+for all $p\geq 2$. This is clear for $p= 2$ since $\mathfrak{n}^{(2)}$ $= [\mathfrak{n}_+,\mathfrak{n}_+] ($§3, no. 3, Prop. 9 (iii)). Assume that we have found $z\in \mathfrak{n}_+$ such that $v+x-e^{adz}.x\in$ $\mathfrak{n}^{(p)}$. Since there exists an $\mathfrak{s}\mathfrak{l}_2$-triplet of the form $(x, h^0, y)$ (Prop. 8), §1, no. 2, Cor. of Prop. 2 proves that $[x,\mathfrak{g}^{2p-2}] =\mathfrak{g}^{2p}$; hence, there exists $z'\in \mathfrak{g}^{2p-2}\subset \mathfrak{n}_+$ such that
 
 $$
 v+x-e^{adz}.x\in [z', x] +\mathfrak{n}^{(p+1)}

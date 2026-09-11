@@ -51,9 +51,9 @@ subsections:
       title: Groupes monogènes
       page: 46
       pdf_page: 56
-statements: 64
+statements: 66
 exercises: 26
-content_sha256: 6e3a120c392ef8be041cdb35e438115941e77709f0edc4b4e421209c2e07c876
+content_sha256: a711b3ebd89b32c5ea3ea2e1f026589a09b73c0afb90ab9651e4a83e25fe9554
 ---
 
 ## § 4. GROUPES ET GROUPES A OPÉRATEURS
@@ -154,7 +154,10 @@ Il est clair que a) entraîne b). Montrons que b) entraîne a). Il suffit de mon
 
 On prouve de même que la condition b) de l’énoncé équivaut à la condition
 c’) $H \neq \varnothing$ et les relations $x \in H$ et $y \in H$ entraînent $y^{-1}x \in H$.
-2) Pour tout sous-groupe H de G, on a les relations
+
+#### Remarque 2 {#alg-i-s4-n3-rem-2 .statement}
+
+Pour tout sous-groupe H de G, on a les relations
 $$
 H.H = H \quad \text{et} \quad H^{-1} = H.
 $$
@@ -261,7 +264,10 @@ Si $x \equiv y$ (mod. $H$), on a $x^{-1}y \in H$, d’où $f(x)^{-1}f(y) = f(x^{
 #### Remarque 1 {#alg-i-s4-n4-rem-1 .statement}
 
 Si $A$ est une partie quelconque d’un groupe $G$, et $H$ un sous-groupe distingué de $G$, on a $AH = HA$; cet ensemble est obtenu en saturant $A$ pour la relation $x \equiv y$ (mod. $H$).
-2) Si $H$ est un sous-groupe distingué d’indice fini de $G$, le groupe quotient $G/H$ est un groupe fini d’ordre ($G : H$).
+
+#### Remarque 2 {#alg-i-s4-n4-rem-2 .statement}
+
+Si $H$ est un sous-groupe distingué d’indice fini de $G$, le groupe quotient $G/H$ est un groupe fini d’ordre ($G : H$).
 
 On notera que si $H$ est un sous-groupe distingué d’un groupe $G$ et si $K$ est un sous-groupe distingué de $H$, $K$ n’est pas nécessairement un sous-groupe distingué de $G$ (I, p. 130, exerc. 10).
 

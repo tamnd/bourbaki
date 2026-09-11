@@ -35,9 +35,9 @@ subsections:
       title: Développement asymptotique d’une primitive
       page: 25
       pdf_page: 230
-statements: 22
+statements: 23
 exercises: 7
-content_sha256: 20d29f65ab35a35f5a172f906fd69619f5e0f561f0080c86b52406bf3574f7b9
+content_sha256: bb7e81780632e415edba0605b9d9f745690f127461b8c8e4455225c731f15c15
 ---
 
 ## § 3. DÉVELOPPEMENTS ASYMPTOTIQUES DES FONCTIONS D’UNE VARIABLE RÉELLE
@@ -274,7 +274,10 @@ La fonction $1/\log x$ est d’ordre 0 par rapport à $x$, et satisfait aux cond
 $$
 \int_a^x \frac{dt}{\log t} \sim \frac{x}{\log x}.
 $$
-2) La fonction $e^{x^2}$ est d’ordre $+\infty$ par rapport à $x$ et satisfait aux conditions de la prop. 8, donc
+
+#### Exemple 2 {#fvr-v-s3-n5-exa-2 .statement}
+
+La fonction $e^{x^2}$ est d’ordre $+\infty$ par rapport à $x$ et satisfait aux conditions de la prop. 8, donc
 $$
 \int_a^x e^{t^2} dt \sim \frac{1}{2x} e^{x^2}.
 $$

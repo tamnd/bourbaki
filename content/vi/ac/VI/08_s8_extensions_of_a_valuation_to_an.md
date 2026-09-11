@@ -486,7 +486,7 @@ $$
 
 *đối với mọi* $x \in L$.
 
-Sự tồn tại của $f'$ suy ra từ Mệnh đề 9 và tính duy nhất của nó (trên mọi mở rộng con hữu hạn của $L$ và do đó trên toàn thể $L$) suy ra từ Bổ đề 2 của $§ 6$, no. 4. Gọi $f'$ là mở rộng duy nhất của $f$ lên bao đóng đại số của $K$ và giả sử $L$ có bậc hữu hạn $n$. Ta biết rằng $N_{L/K}(x) = \prod_{i=1}^n x_i$, trong đó mỗi $x_i$ là một liên hợp của $x$ trên $K$ (*Algebra*, Chapter VIII, $§ 12$, no. 2, Proposition 4). Xét theo tính duy nhất của $f'$, ta có $f'(x_i) = f'(x)$ với mọi $i$, do đó suy ra công thức đã nêu.
+Sự tồn tại của $f'$ suy ra từ Mệnh đề 9 và tính duy nhất của nó (trên mọi mở rộng con hữu hạn của $L$ và do đó trên toàn thể $L$) suy ra từ Bổ đề 2 của $§ 6$, no. 4. Gọi $f'$ là mở rộng duy nhất của $f$ lên bao đóng đại số của $K$ và giả sử $L$ có bậc hữu hạn $n$. Ta biết rằng $N_{L/K}(x) = \prod_{i=1}^n x_i$, trong đó mỗi $x_i$ là một liên hợp của $x$ trên $K$ (Đại số, Chương VIII, $§ 12$, no. 2, Mệnh đề 4). Xét theo tính duy nhất của $f'$, ta có $f'(x_i) = f'(x)$ với mọi $i$, do đó suy ra công thức đã nêu.
 
 #### Mệnh đề 11 {#ac-vi-s8-prop-11 .statement}
 
@@ -510,7 +510,7 @@ $$
 
 Chứng minh cũng giống như đối với các mệnh đề tương tự trong Mệnh đề 2 (no. 2). Các dẫn chiếu
 
-§ 7, no. 2, Theorem 1; § 5, no. 2, Corollary to Proposition 4 phải được thay bằng các dẫn chiếu sau
+§ 7, no. 2, Định lý 1; § 5, no. 2, Hệ quả của Mệnh đề 4 phải được thay bằng các dẫn chiếu sau
 
 § 7, no. 3, Theorem 2; Topological Vector Spaces, Chapter I,
 § 2, no. 3, Corollary 1 to Theorem 2.
