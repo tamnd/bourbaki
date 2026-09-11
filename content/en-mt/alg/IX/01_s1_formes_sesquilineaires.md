@@ -52,7 +52,7 @@ subsections:
       pdf_page: 30
 statements: 45
 exercises: 0
-content_sha256: 7296b831cfc29ec7fd6fbe846eb87c9c951399c6183adbdc2773584393f0791d
+content_sha256: bf30fd7e5d9843a3b71a60defffeabec82e0c1f5a57a64241781ca3478b69d28
 translated_from: content/fr/alg/IX/01_s1_formes_sesquilineaires.md
 source_lang: fr
 translation_method: machine
@@ -802,7 +802,7 @@ Consider now two $A$-modules (left or right) $E$ and $F$, having finite bases $(
 (G) E and F are left modules, u is A-linear ;
 (GD) E is a left module, F a right module, A is endowed with an antiautomorphism J, u is $\mathbf{Z}$-linear and satisfies $u(ax) = u(x)a^J$ ($a \in A,\ x \in E$) (in other words u is an A-linear mapping from $E^J$ into F (no 2, def. 5)).
 (DG) E is a right A-module, F a left A-module, A is endowed with an autiautomorphism J, u is $\mathbf{Z}$-linear and satisfies $u(xa) = a^Ju(x)$ ($x \in E,\ a \in A$) (in other words u is an A-linear mapping from $E^J$ into F).
-In each of these four cases, the matrix of the mapping u is, by definition, the matrix $(u_{ki})_{(k,i) \in \mathbb{K} \times I}$ such that
+In each of these four cases, the matrix of the mapping u is, by definition, the matrix $(u_{ki})_{(k,i) \in K \times I}$ such that
 $$
 u_{ki} = \langle u(e_i), f_k^* \rangle.
 $$

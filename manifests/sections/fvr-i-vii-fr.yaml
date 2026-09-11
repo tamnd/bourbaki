@@ -309,7 +309,7 @@ chapters:
           statements: 21
           exercises: 1
           extraction: ocr
-          content_sha256: 3cf25ec2d3e64f2d9b47479550447c63441f685d49be06ee3723718861f2ce04
+          content_sha256: 18c2f8816801842eb7e4f3710559d972d27ab99fdc2c562eecfc3185bde88283
     - chapter: VI
       title: DÉVELOPPEMENTS TAYLORIENS GÉNÉRALISÉS. FORMULE SOMMATOIRE D’EULER–MACLAURIN
       sections:

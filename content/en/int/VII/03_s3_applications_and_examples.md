@@ -25,7 +25,7 @@ subsections:
       pdf_page: 66
 statements: 24
 exercises: 12
-content_sha256: b33c3af20533f634637eeae9ecde4c3946af5230812cc4bb8b5565c82a4eb1f3
+content_sha256: 545985b214fff7ad8efdda0e5383d9fd0827ee3cf67fd7da1b0ca794915722c8
 ---
 
 ## § 3. APPLICATIONS AND EXAMPLES
@@ -500,7 +500,7 @@ $$
 The transposed group $G'$ of $G$ is studied in the same manner. For $G'$, one finds as left Haar measure
 
 $$
-\prod_{k=1}^r (\operatorname{mod} \det Z_{kk})^{-p_{k+1}} \cdot \bigotimes_{(j,i) \in \mathbb{H}} dz_{ij},
+\prod_{k=1}^r (\operatorname{mod} \det Z_{kk})^{-p_{k+1}} \cdot \bigotimes_{(j,i) \in H} dz_{ij},
 $$
 
 and as modulus

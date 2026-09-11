@@ -52,7 +52,7 @@ subsections:
       pdf_page: 55
 statements: 46
 exercises: 27
-content_sha256: 79adb1883829ed8929fa8d3578eb3f7622b278974684a9cd396b39478c3dec0e
+content_sha256: be0f27144327c2ab309ae017fdf0decaeecb28fb163d1817ca203c2920c4c774
 ---
 
 ## § 2. Mesures vectorielles
@@ -200,9 +200,9 @@ q\left( \int f d\mathbf{m} \right) \leq \int^* |f| dq(\mathbf{m}).
 $$
 En effet, on a
 $$
-q\left( \int f d\mathbf{m} \right) = \sup_{\mathbf{z}' \in \mathbb{A}_q'} |\langle \mathbf{z}', \int f d\mathbf{m} \rangle| \leq \sup_{\mathbf{z}' \in \mathbb{A}_q'} \int |f| d|\mathbf{z}' \circ \mathbf{m}| \leq \int^* |f| dq(\mathbf{m})
+q\left( \int f d\mathbf{m} \right) = \sup_{\mathbf{z}' \in A_q'} |\langle \mathbf{z}', \int f d\mathbf{m} \rangle| \leq \sup_{\mathbf{z}' \in A_q'} \int |f| d|\mathbf{z}' \circ \mathbf{m}| \leq \int^* |f| dq(\mathbf{m})
 $$
-en vertu de (1) et de la relation $|\mathbf{z}' \circ \mathbf{m}| \leq q(\mathbf{m})$ pour $\mathbf{z}' \in \mathbb{A}_q'$.
+en vertu de (1) et de la relation $|\mathbf{z}' \circ \mathbf{m}| \leq q(\mathbf{m})$ pour $\mathbf{z}' \in A_q'$.
 
 #### Proposition 6 {#int-vi-s2-prop-6 .statement}
 

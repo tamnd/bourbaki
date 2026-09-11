@@ -38,7 +38,7 @@ subsections:
       pdf_page: 249
 statements: 21
 exercises: 1
-content_sha256: 3cf25ec2d3e64f2d9b47479550447c63441f685d49be06ee3723718861f2ce04
+content_sha256: 18c2f8816801842eb7e4f3710559d972d27ab99fdc2c562eecfc3185bde88283
 ---
 
 ## APPENDICE
@@ -439,7 +439,7 @@ $$
 \frac{1}{e_m(x^\mu)} \ll g(x) \ll e_m(x^\mu)
 $$
 (se ramener au cas où $g$ est un polynôme par rapport aux $u_k$, à coefficients dans $\mathbf{R}$, et raisonner par récurrence sur $p$, puis, pour $p = 1$, raisonner par récurrence sur le degré du polynôme $g$ en procédant comme dans le lemme 2 de V, p. 37).
-b) Soient $u_k$ ($1 \leq k \leq p$) $p$ fonctions de la forme $u_k = \exp(z_k)$ où $z_k \in \mathbf{R}$. Montrer que pour toute fonction g du corps de Hardy $\mathbb{H}(u_1, \ldots, u_p)$, non identiquement nulle au voisinage de $+\infty$, il existe un nombre $\mu > 0$ tel que
+b) Soient $u_k$ ($1 \leq k \leq p$) $p$ fonctions de la forme $u_k = \exp(z_k)$ où $z_k \in \mathbf{R}$. Montrer que pour toute fonction g du corps de Hardy $H(u_1, \ldots, u_p)$, non identiquement nulle au voisinage de $+\infty$, il existe un nombre $\mu > 0$ tel que
 $$
 \frac{1}{e_{m+1}(x^\mu)} \ll g(x) \ll e_{m+1}(x^\mu)
 $$

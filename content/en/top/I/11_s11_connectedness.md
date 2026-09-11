@@ -41,7 +41,7 @@ subsections:
       pdf_page: 120
 statements: 29
 exercises: 25
-content_sha256: 4ba842c1a81614b68529cdb3efb0bc4b12259485bc93d093f4502fa9db63761e
+content_sha256: e0a76a1fa3a2ede985977569e90703642364d3e2816deaed0498f6471b6043c4
 ---
 
 ## 11. CONNECTEDNESS
@@ -247,7 +247,7 @@ Let $\mathscr{B}$ be a countable base of the topology of $Y$. We shall say that 
 
 *If* $x$ *is any point of* $X$, *there is a distinguished pair* $(W, U)$ *such that* $x \in W$.
 
-The inverse image $\overline{p}^{-1}(p(x))$ is discrete and therefore there is a neighbourhood of $x$ in $X$ all of whose points $x'$ other than $x$ have an image $p(x') \neq p(x)$; since $X$ satisfies $(O_{III})$, there is a *closed* neighbourhood $V$ of $x$ with this property, and we may assume also that $V$ is contained in a set of $\mathscr{B}$. Let $F$ be the frontier of $V$ in $X$. By condition (i) of the theorem, $p(F)$ is closed in $Y$; and since $p(F)$ does not contain $p(x)$, there is a set $U \in \mathscr{B}$ which contains $p(x)$ and does not meet $p(F)$. Let $W$ be the component of $x$ in $\overline{p}^{-1}(U)$; then it is enough to show that $W \subset \mathbb{A}$. If this were not so, then $W$ would meet $F$ (no. 1, Proposition 3) and therefore $p(F)$ would meet $U$, contrary to the definition of $U$.
+The inverse image $\overline{p}^{-1}(p(x))$ is discrete and therefore there is a neighbourhood of $x$ in $X$ all of whose points $x'$ other than $x$ have an image $p(x') \neq p(x)$; since $X$ satisfies $(O_{III})$, there is a *closed* neighbourhood $V$ of $x$ with this property, and we may assume also that $V$ is contained in a set of $\mathscr{B}$. Let $F$ be the frontier of $V$ in $X$. By condition (i) of the theorem, $p(F)$ is closed in $Y$; and since $p(F)$ does not contain $p(x)$, there is a set $U \in \mathscr{B}$ which contains $p(x)$ and does not meet $p(F)$. Let $W$ be the component of $x$ in $\overline{p}^{-1}(U)$; then it is enough to show that $W \subset A$. If this were not so, then $W$ would meet $F$ (no. 1, Proposition 3) and therefore $p(F)$ would meet $U$, contrary to the definition of $U$.
 
 #### Lemma 2 {#top-i-s11-lem-2 .statement}
 

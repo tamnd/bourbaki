@@ -25,7 +25,7 @@ subsections:
       pdf_page: 66
 statements: 24
 exercises: 12
-content_sha256: ce159f5657658a270d833467cbc90a390d7433b79c001313cdbc155cf648cf41
+content_sha256: 4f2663e8f0231cf541206db718c0cf94a7b1084917a95791840226bd1d3e1124
 translated_from: content/en/int/VII/03_s3_applications_and_examples.md
 source_content_sha256: caf427efadeeaa02fdc011ad1cf3bb379a2d28c4a9395236614704236db30652
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -507,7 +507,7 @@ $$
 Nhóm chuyển vị $G'$ của $G$ được nghiên cứu theo cùng một cách. Đối với $G'$, ta tìm được độ đo Haar trái
 
 $$
-\prod_{k=1}^r (\operatorname{mod} \det Z_{kk})^{-p_{k+1}} \cdot \bigotimes_{(j,i) \in \mathbb{H}} dz_{ij},
+\prod_{k=1}^r (\operatorname{mod} \det Z_{kk})^{-p_{k+1}} \cdot \bigotimes_{(j,i) \in H} dz_{ij},
 $$
 
 và môđun

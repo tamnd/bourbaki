@@ -40,7 +40,7 @@ subsections:
       pdf_page: 120
 statements: 28
 exercises: 25
-content_sha256: 73f4d3585c784d77f6efa751b4e94481dbd76d0352bb7265f22a122f39872d5b
+content_sha256: f5ceec4a845f615fa669aa4a0dae6fdacad27450a0bab9dbfc5a1b3066e87511
 translated_from: content/en/top/I/11_s11_connectedness.md
 source_content_sha256: f12b0f535c856eb0eec6548992165cda0fcb6dde9247c96a02db10d1ed77685b
 translation_model: gpt-5-6, gpt-5.4-mini
@@ -244,7 +244,7 @@ Cho $\mathscr{B}$ là một cơ sở đếm được của tôpô của $Y$. Ta 
 
 *Nếu* $x$ *là một điểm bất kỳ của* $X$, *thì tồn tại một cặp phân biệt* $(W, U)$ *sao cho* $x \in W$.
 
-Ảnh ngược $\overline{p}^{-1}(p(x))$ là rời rạc và do đó có một lân cận của $x$ trong $X$ mà mọi điểm $x'$ khác $x$ đều có ảnh $p(x') \neq p(x)$; vì $X$ thỏa mãn $(O_{III})$, có một lân cận *đóng* $V$ của $x$ có tính chất này, và ta cũng có thể giả sử rằng $V$ được chứa trong một tập của $\mathscr{B}$. Cho $F$ là biên của $V$ trong $X$. Theo điều kiện (i) của định lý, $p(F)$ là đóng trong $Y$; và vì $p(F)$ không chứa $p(x)$, có một tập $U \in \mathscr{B}$ chứa $p(x)$ và không giao với $p(F)$. Cho $W$ là thành phần của $x$ trong $\overline{p}^{-1}(U)$; khi đó chỉ cần chứng minh rằng $W \subset \mathbb{A}$. Nếu không phải như vậy, thì $W$ sẽ giao với $F$ (số 1, Mệnh đề 3) và do đó $p(F)$ sẽ giao với $U$, trái với định nghĩa của $U$.
+Ảnh ngược $\overline{p}^{-1}(p(x))$ là rời rạc và do đó có một lân cận của $x$ trong $X$ mà mọi điểm $x'$ khác $x$ đều có ảnh $p(x') \neq p(x)$; vì $X$ thỏa mãn $(O_{III})$, có một lân cận *đóng* $V$ của $x$ có tính chất này, và ta cũng có thể giả sử rằng $V$ được chứa trong một tập của $\mathscr{B}$. Cho $F$ là biên của $V$ trong $X$. Theo điều kiện (i) của định lý, $p(F)$ là đóng trong $Y$; và vì $p(F)$ không chứa $p(x)$, có một tập $U \in \mathscr{B}$ chứa $p(x)$ và không giao với $p(F)$. Cho $W$ là thành phần của $x$ trong $\overline{p}^{-1}(U)$; khi đó chỉ cần chứng minh rằng $W \subset A$. Nếu không phải như vậy, thì $W$ sẽ giao với $F$ (số 1, Mệnh đề 3) và do đó $p(F)$ sẽ giao với $U$, trái với định nghĩa của $U$.
 
 #### Bổ đề 2 {#top-i-s11-lem-2 .statement}
 

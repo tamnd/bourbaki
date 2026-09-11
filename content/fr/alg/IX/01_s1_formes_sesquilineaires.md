@@ -52,7 +52,7 @@ subsections:
       pdf_page: 30
 statements: 46
 exercises: 0
-content_sha256: 17986366f0f9cb39e9339cdf8d35b5609cef7944d2ad9ea4884702b4d365a501
+content_sha256: 9d75daa6e1c49fe3ff9afdc0b536444cf8744caf4cef73c3a21f5367c7a1f466
 ---
 
 ## § 1. Formes sesquilinéaires
@@ -793,7 +793,7 @@ Considérons maintenant deux $A$-modules (à gauche ou à droite) $E$ et $F$, ay
 (G) E et F sont des modules à gauche, u est A-linéaire ;
 (GD) E est un module à gauche, F un module à droite, A est muni d’un antiautomorphisme J, u est $\mathbf{Z}$-linéaire et vérifie $u(ax) = u(x)a^J$ ($a \in A,\ x \in E$) (autrement dit u est une application A-linéaire de $E^J$ dans F (no 2, déf. 5)).
 (DG) E est un A-module à droite, F un A-module à gauche, A est muni d’un autiautomorphisme J, u est $\mathbf{Z}$-linéaire et vérifie $u(xa) = a^Ju(x)$ ($x \in E,\ a \in A$) (autrement dit u est une application A-linéaire de $E^J$ dans F).
-Dans chacun de ces quatre cas, la matrice de l’application u est, par définition, la matrice $(u_{ki})_{(k,i) \in \mathbb{K} \times I}$ telle que
+Dans chacun de ces quatre cas, la matrice de l’application u est, par définition, la matrice $(u_{ki})_{(k,i) \in K \times I}$ telle que
 $$
 u_{ki} = \langle u(e_i), f_k^* \rangle.
 $$

@@ -25,7 +25,7 @@ chapters:
           statements: 46
           exercises: 0
           extraction: ocr
-          content_sha256: 17986366f0f9cb39e9339cdf8d35b5609cef7944d2ad9ea4884702b4d365a501
+          content_sha256: 9d75daa6e1c49fe3ff9afdc0b536444cf8744caf4cef73c3a21f5367c7a1f466
         - kind: section
           section: 2
           title: Discriminant d'une forme sesquilinéaire

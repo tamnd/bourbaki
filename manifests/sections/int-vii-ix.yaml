@@ -62,7 +62,7 @@ chapters:
           statements: 24
           exercises: 12
           extraction: ocr
-          content_sha256: b33c3af20533f634637eeae9ecde4c3946af5230812cc4bb8b5565c82a4eb1f3
+          content_sha256: 545985b214fff7ad8efdda0e5383d9fd0827ee3cf67fd7da1b0ca794915722c8
         - kind: appendix
           section: 1
           path: content/en/int/VII/A1_a1_.md

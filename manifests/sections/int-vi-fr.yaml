@@ -37,7 +37,7 @@ chapters:
           statements: 46
           exercises: 27
           extraction: ocr
-          content_sha256: 79adb1883829ed8929fa8d3578eb3f7622b278974684a9cd396b39478c3dec0e
+          content_sha256: be0f27144327c2ab309ae017fdf0decaeecb28fb163d1817ca203c2920c4c774
         - kind: section
           section: 3
           title: Désintégration des mesures

@@ -52,7 +52,7 @@ subsections:
       pdf_page: 30
 statements: 45
 exercises: 0
-content_sha256: 34e1db051ebbc164e4435f08bcaf55631e046f756afd5103d84e55ef7fe92acf
+content_sha256: 4626913eaf0e066f636864c9bdb27de10fdfb3852cdd545aa17b0f59e2125475
 translated_from: content/en-mt/alg/IX/01_s1_formes_sesquilineaires.md
 source_lang: en-mt
 translation_method: machine
@@ -802,7 +802,7 @@ Xét hai $A$-môđun (trái hoặc phải) $E$ và $F$, có các cơ sở hữu 
 (G) E và F là các môđun trái, u là A-tuyến tính ;
 (GD) E là một môđun trái, F là một môđun phải, A được trang bị một phản tự đẳng cấu J, u là $\mathbf{Z}$-tuyến tính và thỏa mãn $u(ax) = u(x)a^J$ ($a \in A,\ x \in E$) (nói cách khác u là một ánh xạ A-tuyến tính từ $E^J$ vào F (no 2, định nghĩa 5)).
 (DG) E là một A-môđun phải, F là một A-môđun trái, A được trang bị một tự đẳng cấu J, u là $\mathbf{Z}$-tuyến tính và thỏa mãn $u(xa) = a^Ju(x)$ ($x \in E,\ a \in A$) (nói cách khác u là một ánh xạ A-tuyến tính từ $E^J$ vào F).
-Trong mỗi trường hợp trong bốn trường hợp này, ma trận của ánh xạ u, theo định nghĩa, là ma trận $(u_{ki})_{(k,i) \in \mathbb{K} \times I}$ sao cho
+Trong mỗi trường hợp trong bốn trường hợp này, ma trận của ánh xạ u, theo định nghĩa, là ma trận $(u_{ki})_{(k,i) \in K \times I}$ sao cho
 $$
 u_{ki} = \langle u(e_i), f_k^* \rangle.
 $$
