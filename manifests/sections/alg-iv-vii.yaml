@@ -480,7 +480,7 @@ notation_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: 3ca1e9d7e6930a337dee194860bc07b75dad4b6515fffff2d7cc81614072ccd6
+    content_sha256: 061f854cc7156c98872071bae8b9a417af3d3094376c562063d673befa000479
 terminology_index:
     kind: terminology
     title: INDEX OF TERMINOLOGY

@@ -21,7 +21,7 @@ introduction:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: b35932fac0c0e6d23a9d819e161f21c556422f54b96079f773b4b400ca4b5789
+    content_sha256: 6dfc6156ded2c3b487f38b6c0f2c6ce0dd78844cec450dc7b38b32019b50fb58
 chapters:
     - chapter: I
       title: INEQUALITIES OF CONVEXITY
@@ -460,7 +460,7 @@ notation_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: e0a28675d91ec0db40219d16407368c8596bab380cca5d9bd6f1948a01a81638
+    content_sha256: 73edd71549b4643f53c5ff204b4d540f8b7bc280d34e7079e92df08bfd7b713a
 terminology_index:
     kind: terminology
     title: INDEX OF TERMINOLOGY
@@ -471,4 +471,4 @@ terminology_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: a45db1078278655d8fd4b2d592638391be56a7b58b5a4baa69a40a3853d42faf
+    content_sha256: 827c2255db2508ef1d854635cb7717ac0f99279849f638c22ccaf83b5863c9a8

@@ -441,7 +441,7 @@ notation_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: 2884a890de3cd361e6b57eec3c71aed4b54191f7485ce040d4850b5e7932a1c9
+    content_sha256: cd48fce8a94a1b7a2198db3121146b845e09f955289469b534cbbe13ff482689
 terminology_index:
     kind: terminology
     title: INDEX

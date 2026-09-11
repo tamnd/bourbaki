@@ -413,7 +413,7 @@ notation_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: 2179f59958c16d5cd6dd7f5d85fed24ee20e2de2d245c364bef9a60746f5e554
+    content_sha256: e487697bc2f395f1e6214dc4574c9521ae3ddcbd51aea80d99ef5b7d6adb12c0
 terminology_index:
     kind: terminology
     title: INDEX OF TERMINOLOGY

@@ -10,7 +10,7 @@ introduction:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: 6930c1085c4eaa07267d4ad9bd48e9fd4efd28df46e4351fceac41afc94bd6e2
+    content_sha256: e025bcece072fc0bee7d1ef7f7fafce1bc418455387d29f18cb64ac38d4035c1
 chapters:
     - chapter: I
       title: Inégalités de convexité
@@ -240,7 +240,7 @@ notation_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: 35f496560e8f566007bd110b49e01ad3d0d5f4d3d4c84b10d1aeb9be9c5d5257
+    content_sha256: 2cb9406d8872074f63b7ea7517484c99f030138259b47326a8210025b2ba3c5f
 terminology_index:
     kind: terminology
     title: INDEX TERMINOLOGIQUE
@@ -251,4 +251,4 @@ terminology_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: b3a1c81c6de3798e6e9395ab3e46737eca7e41a7daf493627a467fb2c7959593
+    content_sha256: b5a777a983ab5078f4836b5c01fec163d822b9ec3d27cf3b0766b79561139650

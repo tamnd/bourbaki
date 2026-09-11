@@ -431,7 +431,7 @@ notation_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: a4972f36a06d0fc703baa00d69c98f666e4ead47fabddf0baf237d025515731c
+    content_sha256: 355e25f7c80f48af8db33e5a9ab6f07f14cba3a86f8b0e9386738ba369e0c260
 terminology_index:
     kind: terminology
     title: INDEX TERMINOLOGIQUE

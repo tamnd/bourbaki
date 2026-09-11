@@ -442,7 +442,7 @@ notation_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: ae6c3db2813889996407d6d6323f78ea6f5c1df29cb252700102294c4b7de139
+    content_sha256: 81cfc407c6280eb042a1f815d259f0e950cd2a669b5b65d9637f5e903ca27f7c
 terminology_index:
     kind: terminology
     title: INDEX TERMINOLOGIQUE
@@ -453,4 +453,4 @@ terminology_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: 1e45fffba43b59038d20ef325f7c7aba4670c68a6fb60504f25aa12c94bc6bb2
+    content_sha256: f9d6cb9205d169946d6cb7b92e177c54274d9859e2068e7736e4594bbc6b4040
