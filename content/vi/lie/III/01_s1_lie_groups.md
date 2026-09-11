@@ -56,9 +56,9 @@ subsections:
       pdf_page: 249
 statements: 54
 exercises: 10
-content_sha256: 5306b0140e62ce93f53fa98bb099de51acf6351268069bd9fd084df515d3073e
+content_sha256: e9c136efe6d775574e95cde4145a98ae40fa7c6e6c89f9a10bd2df61d216fd77
 translated_from: content/en/lie/III/01_s1_lie_groups.md
-source_content_sha256: 1d086b2132020ca1ae70342f05ee30e3bf32e38ffd0a0c2a6d1cdfbca1dc4cf8
+source_content_sha256: fc8b73730b2269563d3cfe9f30f17a2aca0817c714ee88033880572c968e0a4f
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-6a201bc1
 glossary_version: 34
@@ -214,7 +214,7 @@ Ví dụ, cho E là một không gian định chuẩn đầy đủ trên K và c
 (i) $\rho$ là một biểu diễn tuyến tính giải tích;
 (ii) với mọi $x \in E$ và $x' \in E'$, hàm $g \mapsto \langle \rho(g)x, x' \rangle$ trên G là giải tích;
 (iii) với mọi i và j, hàm $g \mapsto \langle \rho(g)e_i, e_j^* \rangle$ trên G là giải tích.
-Các kéo theo (i) $\Rightarrow$ (ii) $\Rightarrow$ (iii) là rõ ràng. Mặt khác, các hàm $u \mapsto \langle ue_i, e_j^* \rangle$ tạo thành một hệ tọa độ trên $\mathscr{L}(E)$; do đó các hạn chế của chúng lên $\mathbf{GL}(E)$ tạo thành một hệ tọa độ trên $\mathbf{GL}(E)$, do đó có kéo theo (iii) $\Rightarrow$ (i).
+Các kéo theo (i) $\Rightarrow$ (ii) $\Rightarrow$ (iii) là rõ ràng. Mặt khác, các hàm $u \mapsto \langle ue_i, e_j^* \rangle$ tạo thành một hệ tọa độ trên $\mathcal{L}(E)$; do đó các hạn chế của chúng lên $\mathbf{GL}(E)$ tạo thành một hệ tọa độ trên $\mathbf{GL}(E)$, do đó có kéo theo (iii) $\Rightarrow$ (i).
 
 Cho G là một nhóm Lie thực, E là một không gian chuẩn hóa đầy đủ thực và $\rho$ là một đồng cấu của nhóm G vào nhóm $\mathbf{GL}(E)$. Ta sẽ thấy trong § 8, Định lý 1 rằng, nếu $\rho$ liên tục (khi $\mathbf{GL}(E)$ có tôpô cảm sinh bởi chuẩn trên $\mathbf{L}(E)$), thì $\rho$ là giải tích. Nhưng chú ý rằng khái niệm liên tục này khác với khái niệm được xét trong Tích phân, Chương VIII, § 2, Định nghĩa 1 (iii) (Bài tập 1).
 

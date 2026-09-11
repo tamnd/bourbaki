@@ -68,11 +68,11 @@ subsections:
       pdf_page: 56
 statements: 0
 exercises: 0
-content_sha256: de22b9b5756c12da2b4ad3436a436907dc19032fe6854a0c443ce26f695214a5
+content_sha256: 83f77ee946608514d9bd8f03b4a2426d602170fcf85066fd524f2a6ae2454fa5
 translated_from: content/fr/var/1/05_s5_varietes.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: dd71956a97de3213da051d44a027f3c8f14a9f8fda6946fb9eaa04f9cbbd04ed
+source_content_sha256: 581ce5cd00b7f38e77aba4b2dd0dfe403ba7e66c1918611c14a7eb9ec07ea124
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-6
 translation_run: translate-en-mt-a3ab744f
 glossary_version: 34
@@ -186,7 +186,7 @@ One says that the preceding formulae constitute *the expression* of $f$ by means
 
 5.4.2. Let $X$ and $Y$ be two manifolds; for every open set $U \subset X$, let $\mathcal{L}(U)$ be the set of morphisms of $U$ into $Y$; then $\mathcal{L}$ is a sheaf of mappings with values in $Y$.
 
-When $Y = K$, the sheaf thus defined is denoted by $\mathscr{C}_X^{r'}$.
+When $Y = K$, the sheaf thus defined is denoted by $\mathcal{C}_X^{r'}$.
 
 5.4.3. Let $X$ be a topological space and let $\mathcal{S}$ be a set of Banach spaces. For every $E \in \mathcal{S}$, let $\mathcal{F}_E$ be a sheaf of mappings on $X$ with values in $E$. Suppose that the family of the $\mathcal{F}_E$, for $E \in \mathcal{S}$, satisfies the following condition:
 

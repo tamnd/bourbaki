@@ -44,9 +44,9 @@ subsections:
       pdf_page: 373
 statements: 54
 exercises: 29
-content_sha256: dd92e8745890cd6fdd1e632dfb76c55ce38c0f001f64d8a1d984674dc9763d9c
+content_sha256: 515b212819822fba7b5d5c8d6eab9cb83656785cd05793c31db2975501a22109
 translated_from: content/en/lie/III/09_s9_commutators_centralizers_and.md
-source_content_sha256: 17781b6bd4c4150167e422099cfe3c64fec3fa861d2cdd27aa8b9bac3f881d90
+source_content_sha256: a0d76f13d817b70a22b12f45de447b6a9c8c39525973c423bb1221a046edddf9
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-36e3818b
 glossary_version: 34
@@ -316,7 +316,7 @@ $$
 \lambda \mapsto \exp(\mathrm{ad}\, \lambda x)|L(A)
 $$
 
-từ $K$ vào $\mathscr{L}(L(A), L(G))$ là đa thức, $\exp(\mathrm{ad}\, \lambda x)|L(A) = 1$ với mọi $\lambda \in K$, tức là $\exp(\lambda x) \in Z_G(A)$ với mọi $\lambda \in K$.
+từ $K$ vào $\mathcal{L}(L(A), L(G))$ là đa thức, $\exp(\mathrm{ad}\, \lambda x)|L(A) = 1$ với mọi $\lambda \in K$, tức là $\exp(\lambda x) \in Z_G(A)$ với mọi $\lambda \in K$.
 
 #### Mệnh đề 16 {#lie-iii-s9-prop-16 .statement}
 

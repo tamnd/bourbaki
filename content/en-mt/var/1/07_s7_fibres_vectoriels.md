@@ -56,11 +56,11 @@ subsections:
       pdf_page: 85
 statements: 0
 exercises: 0
-content_sha256: 102c704d1a2fe73bb3de5d16b2f0224405fd74a214b9ac08119444dcf1946f89
+content_sha256: dec036db4d757d36502a57d60f5f6276cd1bd33731f828f188c63a6e6c131bb4
 translated_from: content/fr/var/1/07_s7_fibres_vectoriels.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: fe137a4e6ae9d21a89fb2166378f27a2362444957d7ddf2dad763fead7f89cf4
+source_content_sha256: 77cdaaf45b351c946c688134d4588742d177c22169a3cb5868d8ab3a74aa10c9
 translation_model: gpt-5-mini, gpt-5-6-mini, gpt-5-6
 translation_run: translate-en-mt-13b5f93c
 glossary_version: 34
@@ -178,7 +178,7 @@ Suppose $A$ is locally trivial. A fibré $M$ in $A$-modules is said to be *local
 
 ### 7.4. Sections
 
-7.4.1. Let $M$ be a vector fibré with base $B$. For every open $U$ of $B$, we denote by $\mathscr{S}_M^r(U)$ the set of sections of class $C^r$ of $M$ over $U$, that is to say, morphisms $s$ of class $C^r$ from $U$ into $M$ such that $s(b) \in M_b$ for every $b \in U$. This set is endowed with a module structure over the ring $\mathscr{C}^r(U)$ of morphic functions by the rules:
+7.4.1. Let $M$ be a vector fibré with base $B$. For every open $U$ of $B$, we denote by $\mathcal{S}_M^r(U)$ the set of sections of class $C^r$ of $M$ over $U$, that is to say, morphisms $s$ of class $C^r$ from $U$ into $M$ such that $s(b) \in M_b$ for every $b \in U$. This set is endowed with a module structure over the ring $\mathcal{C}^r(U)$ of morphic functions by the rules:
 
 (1)
 $$
@@ -188,20 +188,20 @@ $$
 $$
 (\varphi \cdot s)(b) = \varphi(b) \cdot s(b)
 $$
-for $s, s'$ in $\mathscr{S}_M^r(U)$ and $\varphi$ in $\mathscr{C}^r(U)$. When the open set $U$ varies, one obtains a sheaf $\mathscr{S}_M^r$ of mappings from $B$ into $M$ (cf. No. 5.4.1), called the *sheaf of sections* of $M$.
+for $s, s'$ in $\mathcal{S}_M^r(U)$ and $\varphi$ in $\mathcal{C}^r(U)$. When the open set $U$ varies, one obtains a sheaf $\mathcal{S}_M^r$ of mappings from $B$ into $M$ (cf. No. 5.4.1), called the *sheaf of sections* of $M$.
 
 7.4.2. Let $M_1, \ldots, M_d$ and $N$ be vector bundles with base $M$ and let $u$ be a multilinear morphism from $M_1 \times_B \ldots \times_B M_d$ into $N$. For $1 \leq j \leq d$, let us give ourselves a section $s_j$ of $M_j$ over an open set $U$ of $B$; one defines a section $u(s_1, \ldots, s_d)$ of $N$ over $U$ by the formula:
 $$
 u(s_1, \ldots, s_d)(b) = u_b(s_1(b), \ldots, s_d(b)) \quad \text{for } b \in U.
 $$
 
-The mapping $(s_1, \ldots, s_d) \mapsto u(s_1, \ldots, s_d)$ is $\mathcal{C}^r(U)$-multilinear. It is sometimes denoted $\mathscr{S}(u)$.
+The mapping $(s_1, \ldots, s_d) \mapsto u(s_1, \ldots, s_d)$ is $\mathcal{C}^r(U)$-multilinear. It is sometimes denoted $\mathcal{S}(u)$.
 
-7.4.3. Let $f$ be a morphism of a manifold $B'$ into $B$ and let $M$ be a vector bundle with base $B$. For every open set $U$ of $B$ and every $s \in \mathscr{S}_M^r(U)$, the mapping $x \mapsto (x, s(f(x)))$ is a section of class $C^r$ of $f^*M$ over the open set $f^{-1}(U)$, denoted $f^*s$ and called the inverse image of $s$ by $f$. The mapping $s \mapsto f^*s$ from $\mathscr{S}_M^r(U)$ into $\mathscr{S}_{f^*M}(f^{-1}(U))$ is semilinear with respect to the homomorphism $g \mapsto g \circ (f|f^{-1}(U))$ of $\mathcal{C}^r(U)$ into $\mathcal{C}^r(f^{-1}(U))$.
+7.4.3. Let $f$ be a morphism of a manifold $B'$ into $B$ and let $M$ be a vector bundle with base $B$. For every open set $U$ of $B$ and every $s \in \mathcal{S}_M^r(U)$, the mapping $x \mapsto (x, s(f(x)))$ is a section of class $C^r$ of $f^*M$ over the open set $f^{-1}(U)$, denoted $f^*s$ and called the inverse image of $s$ by $f$. The mapping $s \mapsto f^*s$ from $\mathcal{S}_M^r(U)$ into $\mathcal{S}_{f^*M}(f^{-1}(U))$ is semilinear with respect to the homomorphism $g \mapsto g \circ (f|f^{-1}(U))$ of $\mathcal{C}^r(U)$ into $\mathcal{C}^r(f^{-1}(U))$.
 
-If moreover $N$ is a vector bundle with base $B'$ and $g$ an $f$-comorphism of $M$ into $N$, one sometimes denotes by $\mathscr{S}(g)$ the mapping $s \mapsto g \circ f^*s$ from $\mathscr{S}_M^r(U)$ into $\mathscr{S}_N^r(f^{-1}(U))$.
+If moreover $N$ is a vector bundle with base $B'$ and $g$ an $f$-comorphism of $M$ into $N$, one sometimes denotes by $\mathcal{S}(g)$ the mapping $s \mapsto g \circ f^*s$ from $\mathcal{S}_M^r(U)$ into $\mathcal{S}_N^r(f^{-1}(U))$.
 
-7.4.4. Let $M$ be a vector bundle with base $B$, *of finite rank*. A *frame* of $M$ over an open subset $U$ of $B$ is called a finite sequence $(s_1, \ldots, s_n)$ of sections of $M$ over $U$ such that $(s_1(b), \ldots, s_n(b))$ is a *basis* of the vector space $M_b$ for every $b \in B$. The sequence $(s_1, \ldots, s_n)$ is then a basis of the $\mathcal{C}^r(U)$-module $\mathscr{S}_M^r(U)$. If $f$ is a morphism of a manifold $B'$ into $B$, the sections $f^*s_j$ form a frame of $f^*M$ over $f^{-1}(U)$.
+7.4.4. Let $M$ be a vector bundle with base $B$, *of finite rank*. A *frame* of $M$ over an open subset $U$ of $B$ is called a finite sequence $(s_1, \ldots, s_n)$ of sections of $M$ over $U$ such that $(s_1(b), \ldots, s_n(b))$ is a *basis* of the vector space $M_b$ for every $b \in B$. The sequence $(s_1, \ldots, s_n)$ is then a basis of the $\mathcal{C}^r(U)$-module $\mathcal{S}_M^r(U)$. If $f$ is a morphism of a manifold $B'$ into $B$, the sections $f^*s_j$ form a frame of $f^*M$ over $f^{-1}(U)$.
 
 7.4.5. Let $L$ be a field, endowed with a structure of $K$-algebra of finite dimension and let $(M, B, \pi)$ be a fibration. Suppose that on each fibre $M_b$ a structure of vector space over $L$, *of finite dimension*, is given. There exists then at most one structure of vector bundle over $L$ with base $B$ on $M$, compatible with the mapping $\pi$, the manifold structure of $M$ and the $L$-vector space structures on the fibres (7.3.4). For such a structure to exist, it is necessary and sufficient that the following condition be satisfied:
 
@@ -216,7 +216,7 @@ $$
 $$
 *is an isomorphism of the manifold $U \times L^n$ onto the manifold $\pi^{-1}(U)$.*
 
-7.4.6. Let $M_1, \ldots, M_d$ and $N$ be vector bundles with base $B$, the $M_j$ being of *finite rank*. Suppose that for every open set $U$ of $B$ a mapping $\varphi_U$ from $\mathscr{S}_{M_1}^r(U) \times \cdots \times \mathscr{S}_{M_d}^r(U)$ into $\mathscr{S}_N^r(U)$ is given, $\mathcal{C}^r(U)$-multilinear, such that for $V \subset U$ one has:
+7.4.6. Let $M_1, \ldots, M_d$ and $N$ be vector bundles with base $B$, the $M_j$ being of *finite rank*. Suppose that for every open set $U$ of $B$ a mapping $\varphi_U$ from $\mathcal{S}_{M_1}^r(U) \times \cdots \times \mathcal{S}_{M_d}^r(U)$ into $\mathcal{S}_N^r(U)$ is given, $\mathcal{C}^r(U)$-multilinear, such that for $V \subset U$ one has:
 
 $$
 \varphi_U(s_1, \ldots, s_d)|V = \varphi_V(s_1|V, \ldots, s_d|V).
@@ -323,7 +323,7 @@ The definitions and results of the preceding Nos. extend to the case of vector f
 
 7.7.1. Assume that $I_- = \varnothing$. One defines a vector functor σ called the direct sum functor by putting $\sigma(\mathcal{V}) = \bigoplus_{i \in I} V_i$ and $\sigma(\mathfrak{f}) = \bigoplus_{i \in I} f_i$. If $\mathcal{M} = (M^i)_{i \in I}$ is a family of vector bundles over B, the vector bundle $\sigma(\mathcal{M})$ is called the direct sum of the $M^i$ and is denoted by $\bigoplus_{i \in I} M^i$. For every $b \in B$, the fibre at $b$ of $\bigoplus_{i \in I} M^i$ is the direct sum of the fibres of the $M^i$ at $b$.
 
-Let U be an open subset of B and let $s_i \in \mathscr{F}_{M_i}(U)$ (for $i \in I$). The mapping $b \mapsto \sum_{i \in I} s_i(b)$ is then a section, denoted $\sum_i s_i$, of class $C^r$ of $M = \bigoplus_{i \in I} M^i$ and the mapping $(s_i)_{i \in I} \mapsto \sum_i s_i$ is an isomorphism of $\mathscr{C}^r(U)$-modules from $\bigoplus_{i \in I} \mathscr{F}_{M_i}(U)$ onto $\mathscr{F}_M(U)$.
+Let U be an open subset of B and let $s_i \in \mathcal{F}_{M_i}(U)$ (for $i \in I$). The mapping $b \mapsto \sum_{i \in I} s_i(b)$ is then a section, denoted $\sum_i s_i$, of class $C^r$ of $M = \bigoplus_{i \in I} M^i$ and the mapping $(s_i)_{i \in I} \mapsto \sum_i s_i$ is an isomorphism of $\mathcal{C}^r(U)$-modules from $\bigoplus_{i \in I} \mathcal{F}_{M_i}(U)$ onto $\mathcal{F}_M(U)$.
 
 The underlying manifold of $\bigoplus_{i \in I} M^i$ is identified with the fibre product $\prod_B M^i$.
 

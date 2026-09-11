@@ -29,7 +29,7 @@ subsections:
       pdf_page: 98
 statements: 19
 exercises: 21
-content_sha256: fe04b5677c8e1c2cf2af8ab704fe1734fdbd6c788fa894e924c704bd50c9a9d0
+content_sha256: 93e4c319c21be908a193f2f6906ef53a7e8cff336950b91423ecc75719056b5b
 ---
 
 ## § 9. OPÉRATIONS DES GROUPES DE LIE COMPACTS SUR LES VARIÉTÉS
@@ -135,7 +135,7 @@ Soient $G$ un groupe de Lie compact, $(g, x) \mapsto gx$ une loi d’opération 
 
 Remplaçant $A$ par la partie compacte $GA$, on se ramène au cas où $A$ est stable par $G$.
 
-Soit $E_0$ un espace vectoriel de dimension finie tel qu’il existe un élément de $\mathscr{C}^r(X; E_0)$ qui soit un plongement au voisinage de $A$ (no 1, prop. 4); l’ensemble $\mathcal{P}$ des morphismes possédant cette propriété est donc un ouvert non vide de $\mathscr{C}^r(X; E_0)$ (no 1, prop. 3). Considérons la représentation linéaire continue du groupe compact $G$ dans l’espace $\mathscr{C}^r(X; E_0)$ (§ 6, no 4, lemme 4). D’après le théorème de Peter-Weyl (TS, à paraître), la réunion des sous-espaces de dimension finie, stables par $G$, est dense dans $\mathscr{C}^r(X; E_0)$; il existe donc un élément $\varphi_0$ de $\mathcal{P}$ tel que les applications $x \mapsto \varphi_0(gx)$, pour $g \in G$, engendrent un sous-espace vectoriel $E_1$ de *dimension finie* de $\mathscr{C}^r(X; E_0)$, évidemment stable pour l’action de $G$.
+Soit $E_0$ un espace vectoriel de dimension finie tel qu’il existe un élément de $\mathcal{C}^r(X; E_0)$ qui soit un plongement au voisinage de $A$ (no 1, prop. 4); l’ensemble $\mathcal{P}$ des morphismes possédant cette propriété est donc un ouvert non vide de $\mathcal{C}^r(X; E_0)$ (no 1, prop. 3). Considérons la représentation linéaire continue du groupe compact $G$ dans l’espace $\mathcal{C}^r(X; E_0)$ (§ 6, no 4, lemme 4). D’après le théorème de Peter-Weyl (TS, à paraître), la réunion des sous-espaces de dimension finie, stables par $G$, est dense dans $\mathcal{C}^r(X; E_0)$; il existe donc un élément $\varphi_0$ de $\mathcal{P}$ tel que les applications $x \mapsto \varphi_0(gx)$, pour $g \in G$, engendrent un sous-espace vectoriel $E_1$ de *dimension finie* de $\mathcal{C}^r(X; E_0)$, évidemment stable pour l’action de $G$.
 
 Prenons alors pour $E$ l’espace $\mathrm{Hom}_{\mathbf{R}}(E_1, E_0)$, pour $\rho$ la représentation de $G$ dans $E$ déduite de l’action sur $E_1$, et pour $\varphi : X \to E$ l’application qui à $x \in X$ associe l’application linéaire $\psi \mapsto \psi(x)$ de $E_1$ dans $E_0$. C’est un morphisme de classe $C^r$; pour $x \in X, g \in G, \psi \in E_1$, on a (en notant $\tau(g)$ l’automorphisme $x \mapsto gx$ de $X$) :
 
@@ -163,7 +163,7 @@ Supposons $X$ paracompacte. Il existe un espace hilbertien réel $E$, une repré
 
 L’espace $X/G$ est localement compact (TG, III, p. 33, prop. 11). Ses composantes connexes sont les images des composantes connexes de $X$, qui sont dénombrables à l’infini (TG, I, p. 70, th. 5) ; elles sont donc elles-mêmes dénombrables à l’infini, ce qui entraîne que $X/G$ est paracompact (loc. cit.). Il existe donc un recouvrement localement fini $(U'_\alpha)_{\alpha \in I}$ de $X/G$ par des ouverts relativement compacts, et un recouvrement $(V'_\alpha)_{\alpha \in I}$ tel que $\overline{V}'_\alpha \subset U'_\alpha$ pour tout $\alpha \in I$ (TG, IX, p. 48, cor. 1) ; par image réciproque, on en déduit deux recouvrements localement finis $(U_\alpha)_{\alpha \in I}$ et $(V_\alpha)_{\alpha \in I}$ de $X$ par des ouverts relativement compacts stables par $G$, tels que $\overline{V}_\alpha \subset U_\alpha$ pour tout $\alpha \in I$.
 
-Pour tout $\alpha \in I$, il existe une représentation $\rho_\alpha$ de $G$ dans un espace vectoriel réel $E_\alpha$ de dimension finie et un morphisme $\varphi_\alpha \in \mathscr{C}^r(X; E_\alpha)$, compatible aux opérations de $G$, dont la restriction à $U_\alpha$ est un plongement (th. 1). Pour $\alpha \in I$, soit $a_\alpha$ une fonction numérique de classe $C^r$ sur $X$, égale à 1 sur $V_\alpha$ et à 0 en dehors de $U_\alpha$ (VAR, R, 5.3.6).
+Pour tout $\alpha \in I$, il existe une représentation $\rho_\alpha$ de $G$ dans un espace vectoriel réel $E_\alpha$ de dimension finie et un morphisme $\varphi_\alpha \in \mathcal{C}^r(X; E_\alpha)$, compatible aux opérations de $G$, dont la restriction à $U_\alpha$ est un plongement (th. 1). Pour $\alpha \in I$, soit $a_\alpha$ une fonction numérique de classe $C^r$ sur $X$, égale à 1 sur $V_\alpha$ et à 0 en dehors de $U_\alpha$ (VAR, R, 5.3.6).
 
 Posons $b_\alpha(x) = \int_G a_\alpha(gx) \, dx$ pour $x \in X$. La fonction $b_\alpha$ est de classe $C^r$, invariante par $G$ (§ 6, n° 4, cor. 2), égale à 1 sur $V_\alpha$ et à 0 en dehors de $U_\alpha$. Munissons chaque $E_\alpha$ d’un produit scalaire hilbertien invariant par $G$ (§ 1, n° 1), et $R$ de sa structure hilbertienne canonique ; soit $E$ l’espace somme hilbertienne de la famille $(E_\alpha \oplus R)_{\alpha \in I}$, et soit $\rho$ la représentation de $G$ dans $E$ déduite des $\rho_\alpha$ et de l’action triviale de $G$ sur $R$.
 

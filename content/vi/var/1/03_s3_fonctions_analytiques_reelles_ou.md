@@ -28,11 +28,11 @@ subsections:
       pdf_page: 28
 statements: 0
 exercises: 0
-content_sha256: dedd63cbfbabf7d8f839cc86b9a66cdf78c9f0a23586cb2dd068257b134eba16
+content_sha256: 45f4ef369a3ac489c5b28e99e27e79fe2f5df2b5fea0b45e761108f97388139b
 translated_from: content/en-mt/var/1/03_s3_fonctions_analytiques_reelles_ou.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: f57b08ffe64096e3070f1e8db29f0883cd9e1d33972479170757b88e14b6846d
+source_content_sha256: 1f6ecbebd80cb374245ae323f4872e23924a9a4dda4d0d299dd36fef4dc7383c
 translation_model: gpt-5.4
 translation_run: translate-vi-3307ed33
 glossary_version: 34
@@ -261,7 +261,7 @@ $$
 
 (“bất đẳng thức Cauchy”). Miền hội tụ ngặt của chuỗi $\sum_{α} X^αc_α$ chứa phần trong của B(R).
 
-3.3.5. Giả sử E hữu hạn chiều và F gần đầy đủ. Cho f là một ánh xạ chỉnh hình từ E vào F. Khi đó tồn tại trong $\mathscr{H}(E; F)$ một và chỉ một chuỗi $f_0$, có bán kính hội tụ vô hạn (đối với mọi chuẩn trên E), sao cho $f(x) = f_0(x)$ với mọi $x \in E$.
+3.3.5. Giả sử E hữu hạn chiều và F gần đầy đủ. Cho f là một ánh xạ chỉnh hình từ E vào F. Khi đó tồn tại trong $\mathcal{H}(E; F)$ một và chỉ một chuỗi $f_0$, có bán kính hội tụ vô hạn (đối với mọi chuẩn trên E), sao cho $f(x) = f_0(x)$ với mọi $x \in E$.
 
 3.3.6. Nếu f là một ánh xạ chỉnh hình từ E vào F sao cho $f(E)$ bị chặn, thì hàm f là hằng (“định lý Liouville”).
 

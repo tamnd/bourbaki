@@ -45,7 +45,7 @@ subsections:
       pdf_page: 373
 statements: 54
 exercises: 29
-content_sha256: 17781b6bd4c4150167e422099cfe3c64fec3fa861d2cdd27aa8b9bac3f881d90
+content_sha256: a0d76f13d817b70a22b12f45de447b6a9c8c39525973c423bb1221a046edddf9
 ---
 
 ## § 9. COMMUTATORS, CENTRALIZERS AND NORMALIZERS IN A LIE GROUP
@@ -310,7 +310,7 @@ $$
 \lambda \mapsto \exp(\mathrm{ad}\, \lambda x)|L(A)
 $$
 
-of $K$ into $\mathscr{L}(L(A), L(G))$ is polynomial, $\exp(\mathrm{ad}\, \lambda x)|L(A) = 1$ for all $\lambda \in K$, that is $\exp(\lambda x) \in Z_G(A)$ for all $\lambda \in K$.
+of $K$ into $\mathcal{L}(L(A), L(G))$ is polynomial, $\exp(\mathrm{ad}\, \lambda x)|L(A) = 1$ for all $\lambda \in K$, that is $\exp(\lambda x) \in Z_G(A)$ for all $\lambda \in K$.
 
 #### Proposition 16 {#lie-iii-s9-prop-16 .statement}
 

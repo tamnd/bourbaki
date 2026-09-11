@@ -56,7 +56,7 @@ subsections:
       pdf_page: 85
 statements: 0
 exercises: 0
-content_sha256: d3575cd12c8f31ef59a3c0febd751509fdfd81f020f1b04db03005c1dadb4d66
+content_sha256: 3e5bdfa60da62fa073215be59bf27e8f0fbf96ca83d25ea48ae7fa001b3c0238
 translated_from: content/en-mt/var/1/07_s7_fibres_vectoriels.md
 source_lang: en-mt
 translation_method: machine
@@ -178,7 +178,7 @@ Giả sử $A$ là địa phương tầm thường. Một phân thớ $M$ các $
 
 ### 7.4. Các tiết diện
 
-7.4.1. Cho $M$ là một phân thớ vectơ có cơ sở $B$. Với mọi tập mở $U$ của $B$, ta ký hiệu bởi $\mathscr{S}_M^r(U)$ tập hợp các tiết diện cấp $C^r$ của $M$ trên $U$, nghĩa là, các cấu xạ cấp $C^r$ từ $U$ vào $M$ sao cho $s(b) \in M_b$ với mọi $b \in U$. Tập hợp này được trang bị một cấu trúc môđun trên vành các hàm cấu xạ $\mathscr{C}^r(U)$ theo các quy tắc:
+7.4.1. Cho $M$ là một phân thớ vectơ có cơ sở $B$. Với mọi tập mở $U$ của $B$, ta ký hiệu bởi $\mathcal{S}_M^r(U)$ tập hợp các tiết diện cấp $C^r$ của $M$ trên $U$, nghĩa là, các cấu xạ cấp $C^r$ từ $U$ vào $M$ sao cho $s(b) \in M_b$ với mọi $b \in U$. Tập hợp này được trang bị một cấu trúc môđun trên vành các hàm cấu xạ $\mathcal{C}^r(U)$ theo các quy tắc:
 
 (1)
 $$
@@ -188,20 +188,20 @@ $$
 $$
 (\varphi \cdot s)(b) = \varphi(b) \cdot s(b)
 $$
-với $s, s'$ trong $\mathscr{S}_M^r(U)$ và $\varphi$ trong $\mathscr{C}^r(U)$. Khi tập mở $U$ biến thiên, ta thu được một bó $\mathscr{S}_M^r$ các ánh xạ từ $B$ vào $M$ (x. No. 5.4.1), gọi là *bó các tiết diện* của $M$.
+với $s, s'$ trong $\mathcal{S}_M^r(U)$ và $\varphi$ trong $\mathcal{C}^r(U)$. Khi tập mở $U$ biến thiên, ta thu được một bó $\mathcal{S}_M^r$ các ánh xạ từ $B$ vào $M$ (x. No. 5.4.1), gọi là *bó các tiết diện* của $M$.
 
 7.4.2. Cho $M_1, \ldots, M_d$ và $N$ là các bó vectơ có cơ sở $M$ và cho $u$ là một cấu xạ đa tuyến tính từ $M_1 \times_B \ldots \times_B M_d$ vào $N$. Với $1 \leq j \leq d$, giả sử ta cho một tiết diện $s_j$ của $M_j$ trên một tập mở $U$ của $B$; ta định nghĩa một tiết diện $u(s_1, \ldots, s_d)$ của $N$ trên $U$ bởi công thức:
 $$
 u(s_1, \ldots, s_d)(b) = u_b(s_1(b), \ldots, s_d(b)) \quad \text{với } b \in U.
 $$
 
-Ánh xạ $(s_1, \ldots, s_d) \mapsto u(s_1, \ldots, s_d)$ là đa tuyến tính trên $\mathcal{C}^r(U)$. Đôi khi nó được ký hiệu là $\mathscr{S}(u)$.
+Ánh xạ $(s_1, \ldots, s_d) \mapsto u(s_1, \ldots, s_d)$ là đa tuyến tính trên $\mathcal{C}^r(U)$. Đôi khi nó được ký hiệu là $\mathcal{S}(u)$.
 
-7.4.3. Cho $f$ là một cấu xạ từ một đa tạp $B'$ vào $B$ và cho $M$ là một bó vectơ có cơ sở $B$. Với mọi tập mở $U$ của $B$ và mọi $s \in \mathscr{S}_M^r(U)$, ánh xạ $x \mapsto (x, s(f(x)))$ là một tiết diện cấp $C^r$ của $f^*M$ trên tập mở $f^{-1}(U)$, được ký hiệu là $f^*s$ và gọi là ảnh ngược của $s$ bởi $f$. Ánh xạ $s \mapsto f^*s$ từ $\mathscr{S}_M^r(U)$ vào $\mathscr{S}_{f^*M}(f^{-1}(U))$ là nửa tuyến tính đối với đồng cấu $g \mapsto g \circ (f|f^{-1}(U))$ từ $\mathcal{C}^r(U)$ vào $\mathcal{C}^r(f^{-1}(U))$.
+7.4.3. Cho $f$ là một cấu xạ từ một đa tạp $B'$ vào $B$ và cho $M$ là một bó vectơ có cơ sở $B$. Với mọi tập mở $U$ của $B$ và mọi $s \in \mathcal{S}_M^r(U)$, ánh xạ $x \mapsto (x, s(f(x)))$ là một tiết diện cấp $C^r$ của $f^*M$ trên tập mở $f^{-1}(U)$, được ký hiệu là $f^*s$ và gọi là ảnh ngược của $s$ bởi $f$. Ánh xạ $s \mapsto f^*s$ từ $\mathcal{S}_M^r(U)$ vào $\mathcal{S}_{f^*M}(f^{-1}(U))$ là nửa tuyến tính đối với đồng cấu $g \mapsto g \circ (f|f^{-1}(U))$ từ $\mathcal{C}^r(U)$ vào $\mathcal{C}^r(f^{-1}(U))$.
 
-Nếu hơn nữa $N$ là một bó vectơ có cơ sở $B'$ và $g$ là một $f$-đối cấu xạ từ $M$ vào $N$, đôi khi người ta ký hiệu bởi $\mathscr{S}(g)$ ánh xạ $s \mapsto g \circ f^*s$ từ $\mathscr{S}_M^r(U)$ vào $\mathscr{S}_N^r(f^{-1}(U))$.
+Nếu hơn nữa $N$ là một bó vectơ có cơ sở $B'$ và $g$ là một $f$-đối cấu xạ từ $M$ vào $N$, đôi khi người ta ký hiệu bởi $\mathcal{S}(g)$ ánh xạ $s \mapsto g \circ f^*s$ từ $\mathcal{S}_M^r(U)$ vào $\mathcal{S}_N^r(f^{-1}(U))$.
 
-7.4.4. Cho $M$ là một bó vectơ với cơ sở $B$, *có hạng hữu hạn*. Một *khung* của $M$ trên một tập mở $U$ của $B$ được gọi là một dãy hữu hạn $(s_1, \ldots, s_n)$ các tiết diện của $M$ trên $U$ sao cho $(s_1(b), \ldots, s_n(b))$ là một *cơ sở* của không gian vectơ $M_b$ với mọi $b \in B$. Khi đó dãy $(s_1, \ldots, s_n)$ là một cơ sở của $\mathcal{C}^r(U)$-môđun $\mathscr{S}_M^r(U)$. Nếu $f$ là một cấu xạ từ một đa tạp $B'$ vào $B$, thì các tiết diện $f^*s_j$ lập thành một khung của $f^*M$ trên $f^{-1}(U)$.
+7.4.4. Cho $M$ là một bó vectơ với cơ sở $B$, *có hạng hữu hạn*. Một *khung* của $M$ trên một tập mở $U$ của $B$ được gọi là một dãy hữu hạn $(s_1, \ldots, s_n)$ các tiết diện của $M$ trên $U$ sao cho $(s_1(b), \ldots, s_n(b))$ là một *cơ sở* của không gian vectơ $M_b$ với mọi $b \in B$. Khi đó dãy $(s_1, \ldots, s_n)$ là một cơ sở của $\mathcal{C}^r(U)$-môđun $\mathcal{S}_M^r(U)$. Nếu $f$ là một cấu xạ từ một đa tạp $B'$ vào $B$, thì các tiết diện $f^*s_j$ lập thành một khung của $f^*M$ trên $f^{-1}(U)$.
 
 7.4.5. Cho $L$ là một trường, được trang bị một cấu trúc đại số trên $K$ có số chiều hữu hạn và cho $(M, B, \pi)$ là một phân thớ. Giả sử rằng trên mỗi thớ $M_b$ đã cho một cấu trúc không gian vectơ trên $L$, *có số chiều hữu hạn*. Khi đó tồn tại nhiều nhất một cấu trúc bó vectơ trên $L$ với cơ sở $B$ trên $M$, tương thích với ánh xạ $\pi$, cấu trúc đa tạp của $M$ và các cấu trúc không gian vectơ trên $L$ trên các thớ (7.3.4). Để một cấu trúc như vậy tồn tại, điều kiện cần và đủ là điều kiện sau được thỏa mãn:
 
@@ -216,7 +216,7 @@ $$
 $$
 *là một đẳng cấu của đa tạp $U \times L^n$ lên đa tạp $\pi^{-1}(U)$.*
 
-7.4.6. Cho $M_1, \ldots, M_d$ và $N$ là các bó vectơ có cơ sở $B$, trong đó các $M_j$ có *hạng hữu hạn*. Giả sử rằng với mọi tập mở $U$ của $B$ ta được cho một ánh xạ $\varphi_U$ từ $\mathscr{S}_{M_1}^r(U) \times \cdots \times \mathscr{S}_{M_d}^r(U)$ vào $\mathscr{S}_N^r(U)$, $\mathcal{C}^r(U)$-đa tuyến tính, sao cho với $V \subset U$ ta có:
+7.4.6. Cho $M_1, \ldots, M_d$ và $N$ là các bó vectơ có cơ sở $B$, trong đó các $M_j$ có *hạng hữu hạn*. Giả sử rằng với mọi tập mở $U$ của $B$ ta được cho một ánh xạ $\varphi_U$ từ $\mathcal{S}_{M_1}^r(U) \times \cdots \times \mathcal{S}_{M_d}^r(U)$ vào $\mathcal{S}_N^r(U)$, $\mathcal{C}^r(U)$-đa tuyến tính, sao cho với $V \subset U$ ta có:
 
 $$
 \varphi_U(s_1, \ldots, s_d)|V = \varphi_V(s_1|V, \ldots, s_d|V).
@@ -323,7 +323,7 @@ Các định nghĩa và kết quả của các Số trước đó mở rộng ch
 
 7.7.1. Giả sử rằng $I_- = \varnothing$. Ta định nghĩa một hàm tử vectơ σ gọi là hàm tử tổng trực tiếp bằng cách đặt $\sigma(\mathcal{V}) = \bigoplus_{i \in I} V_i$ và $\sigma(\mathfrak{f}) = \bigoplus_{i \in I} f_i$. Nếu $\mathcal{M} = (M^i)_{i \in I}$ là một họ các bó vectơ trên B, thì bó vectơ $\sigma(\mathcal{M})$ được gọi là tổng trực tiếp của các $M^i$ và được ký hiệu bởi $\bigoplus_{i \in I} M^i$. Với mỗi $b \in B$, thớ tại $b$ của $\bigoplus_{i \in I} M^i$ là tổng trực tiếp của các thớ của các $M^i$ tại $b$.
 
-Cho U là một tập con mở của B và cho $s_i \in \mathscr{F}_{M_i}(U)$ (với $i \in I$). Khi đó ánh xạ $b \mapsto \sum_{i \in I} s_i(b)$ là một tiết diện, ký hiệu là $\sum_i s_i$, thuộc lớp $C^r$ của $M = \bigoplus_{i \in I} M^i$ và ánh xạ $(s_i)_{i \in I} \mapsto \sum_i s_i$ là một đẳng cấu các $\mathscr{C}^r(U)$-môđun từ $\bigoplus_{i \in I} \mathscr{F}_{M_i}(U)$ lên $\mathscr{F}_M(U)$.
+Cho U là một tập con mở của B và cho $s_i \in \mathcal{F}_{M_i}(U)$ (với $i \in I$). Khi đó ánh xạ $b \mapsto \sum_{i \in I} s_i(b)$ là một tiết diện, ký hiệu là $\sum_i s_i$, thuộc lớp $C^r$ của $M = \bigoplus_{i \in I} M^i$ và ánh xạ $(s_i)_{i \in I} \mapsto \sum_i s_i$ là một đẳng cấu các $\mathcal{C}^r(U)$-môđun từ $\bigoplus_{i \in I} \mathcal{F}_{M_i}(U)$ lên $\mathcal{F}_M(U)$.
 
 Đa tạp nền của $\bigoplus_{i \in I} M^i$ được đồng nhất với tích thớ $\prod_B M^i$.
 

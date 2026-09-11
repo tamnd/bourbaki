@@ -28,7 +28,7 @@ subsections:
       pdf_page: 28
 statements: 0
 exercises: 0
-content_sha256: cfe146e6a40be8be1b051f760f4e1533856f7696cddc3e4c6f58c02e159289ef
+content_sha256: e9ceaf07cea8ecb64ac0a8ac8f556fa2ec4193b24832ad21ffb3bcdc7760e3a1
 ---
 
 ## § 3. Fonctions analytiques réelles ou complexes
@@ -259,7 +259,7 @@ $$
 
 (« inégalités de Cauchy »). Le domaine de convergence strict de la série $\sum_{α} X^αc_α$ contient l'intérieur de B(R).
 
-3.3.5. Supposons E de dimension finie et F quasi-complet. Soit f une application holomorphe de E dans F. Il existe alors dans $\mathscr{H}(E; F)$ une série $f_0$ et une seule, de rayon de convergence infini (pour toute norme sur E), telle que $f(x) = f_0(x)$ pour tout $x \in E$.
+3.3.5. Supposons E de dimension finie et F quasi-complet. Soit f une application holomorphe de E dans F. Il existe alors dans $\mathcal{H}(E; F)$ une série $f_0$ et une seule, de rayon de convergence infini (pour toute norme sur E), telle que $f(x) = f_0(x)$ pour tout $x \in E$.
 
 3.3.6. Si f est une application holomorphe de E dans F telle que $f(E)$ soit borné, alors la fonction f est constante (« théorème de Liouville »).
 

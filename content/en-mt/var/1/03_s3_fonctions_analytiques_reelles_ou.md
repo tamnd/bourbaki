@@ -28,11 +28,11 @@ subsections:
       pdf_page: 28
 statements: 0
 exercises: 0
-content_sha256: f57b08ffe64096e3070f1e8db29f0883cd9e1d33972479170757b88e14b6846d
+content_sha256: 1f6ecbebd80cb374245ae323f4872e23924a9a4dda4d0d299dd36fef4dc7383c
 translated_from: content/fr/var/1/03_s3_fonctions_analytiques_reelles_ou.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: cfe146e6a40be8be1b051f760f4e1533856f7696cddc3e4c6f58c02e159289ef
+source_content_sha256: e9ceaf07cea8ecb64ac0a8ac8f556fa2ec4193b24832ad21ffb3bcdc7760e3a1
 translation_model: gpt-5.4
 translation_run: translate-en-mt-d0cc7d91
 glossary_version: 34
@@ -268,7 +268,7 @@ $$
 
 (“Cauchy inequalities”). The strict domain of convergence of the series $\sum_{α} X^αc_α$ contains the interior of B(R).
 
-3.3.5. Suppose E finite-dimensional and F quasi-complete. Let f be a holomorphic mapping of E into F. Then there exists in $\mathscr{H}(E; F)$ one and only one series $f_0$, of infinite radius of convergence (for every norm on E), such that $f(x) = f_0(x)$ for every $x \in E$.
+3.3.5. Suppose E finite-dimensional and F quasi-complete. Let f be a holomorphic mapping of E into F. Then there exists in $\mathcal{H}(E; F)$ one and only one series $f_0$, of infinite radius of convergence (for every norm on E), such that $f(x) = f_0(x)$ for every $x \in E$.
 
 3.3.6. If f is a holomorphic mapping of E into F such that $f(E)$ is bounded, then the function f is constant (“Liouville's theorem”).
 

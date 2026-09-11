@@ -56,7 +56,7 @@ subsections:
       pdf_page: 85
 statements: 0
 exercises: 0
-content_sha256: fe137a4e6ae9d21a89fb2166378f27a2362444957d7ddf2dad763fead7f89cf4
+content_sha256: 77cdaaf45b351c946c688134d4588742d177c22169a3cb5868d8ab3a74aa10c9
 ---
 
 ## § 7. Fibrés vectoriels
@@ -169,7 +169,7 @@ Supposons $A$ localement trivial. On dit qu’un fibré $M$ en $A$-modules est *
 
 ### 7.4. Sections
 
-7.4.1. Soit $M$ un fibré vectoriel de base $B$. Pour tout ouvert $U$ de $B$, on note $\mathscr{S}_M^r(U)$ l’ensemble des sections de classe $C^r$ de $M$ sur $U$, c’est-à-dire des morphismes $s$ de classe $C^r$ de $U$ dans $M$ tels que $s(b) \in M_b$ pour tout $b \in U$. Cet ensemble est muni d’une structure de module sur l’anneau $\mathscr{C}^r(U)$ des fonctions morphiques par les règles:
+7.4.1. Soit $M$ un fibré vectoriel de base $B$. Pour tout ouvert $U$ de $B$, on note $\mathcal{S}_M^r(U)$ l’ensemble des sections de classe $C^r$ de $M$ sur $U$, c’est-à-dire des morphismes $s$ de classe $C^r$ de $U$ dans $M$ tels que $s(b) \in M_b$ pour tout $b \in U$. Cet ensemble est muni d’une structure de module sur l’anneau $\mathcal{C}^r(U)$ des fonctions morphiques par les règles:
 
 (1)
 $$
@@ -179,20 +179,20 @@ $$
 $$
 (\varphi \cdot s)(b) = \varphi(b) \cdot s(b)
 $$
-pour $s, s'$ dans $\mathscr{S}_M^r(U)$ et $\varphi$ dans $\mathscr{C}^r(U)$. Lorsque l’ouvert $U$ varie, on obtient un faisceau $\mathscr{S}_M^r$ d’applications de $B$ dans $M$ (cf. n° 5.4.1), appelé *faisceau des sections* de $M$.
+pour $s, s'$ dans $\mathcal{S}_M^r(U)$ et $\varphi$ dans $\mathcal{C}^r(U)$. Lorsque l’ouvert $U$ varie, on obtient un faisceau $\mathcal{S}_M^r$ d’applications de $B$ dans $M$ (cf. n° 5.4.1), appelé *faisceau des sections* de $M$.
 
 7.4.2. Soient $M_1, \ldots, M_d$ et $N$ des fibrés vectoriels de base $M$ et $u$ un morphisme multilinéaire de $M_1 \times_B \ldots \times_B M_d$ dans $N$. Pour $1 \leq j \leq d$, donnons-nous une section $s_j$ de $M_j$ sur un ouvert $U$ de $B$; on définit une section $u(s_1, \ldots, s_d)$ de $N$ sur $U$ par la formule:
 $$
 u(s_1, \ldots, s_d)(b) = u_b(s_1(b), \ldots, s_d(b)) \quad \text{pour } b \in U.
 $$
 
-L’application $(s_1, \ldots, s_d) \mapsto u(s_1, \ldots, s_d)$ est $\mathcal{C}^r(U)$-multilinéaire. On la note parfois $\mathscr{S}(u)$.
+L’application $(s_1, \ldots, s_d) \mapsto u(s_1, \ldots, s_d)$ est $\mathcal{C}^r(U)$-multilinéaire. On la note parfois $\mathcal{S}(u)$.
 
-7.4.3. Soit $f$ un morphisme d’une variété $B'$ dans $B$ et soit $M$ un fibré vectoriel de base $B$. Pour tout ouvert $U$ de $B$ et tout $s \in \mathscr{S}_M^r(U)$, l’application $x \mapsto (x, s(f(x)))$ est une section de classe $C^r$ de $f^*M$ sur l’ouvert $f^{-1}(U)$, notée $f^*s$ et appelée image réciproque de $s$ par $f$. L’application $s \mapsto f^*s$ de $\mathscr{S}_M^r(U)$ dans $\mathscr{S}_{f^*M}(f^{-1}(U))$ est semi-linéaire par rapport à l’homomorphisme $g \mapsto g \circ (f|f^{-1}(U))$ de $\mathcal{C}^r(U)$ dans $\mathcal{C}^r(f^{-1}(U))$.
+7.4.3. Soit $f$ un morphisme d’une variété $B'$ dans $B$ et soit $M$ un fibré vectoriel de base $B$. Pour tout ouvert $U$ de $B$ et tout $s \in \mathcal{S}_M^r(U)$, l’application $x \mapsto (x, s(f(x)))$ est une section de classe $C^r$ de $f^*M$ sur l’ouvert $f^{-1}(U)$, notée $f^*s$ et appelée image réciproque de $s$ par $f$. L’application $s \mapsto f^*s$ de $\mathcal{S}_M^r(U)$ dans $\mathcal{S}_{f^*M}(f^{-1}(U))$ est semi-linéaire par rapport à l’homomorphisme $g \mapsto g \circ (f|f^{-1}(U))$ de $\mathcal{C}^r(U)$ dans $\mathcal{C}^r(f^{-1}(U))$.
 
-Si de plus $N$ est un fibré vectoriel de base $B'$ et $g$ un $f$-comorphisme de $M$ dans $N$, on note parfois $\mathscr{S}(g)$ l’application $s \mapsto g \circ f^*s$ de $\mathscr{S}_M^r(U)$ dans $\mathscr{S}_N^r(f^{-1}(U))$.
+Si de plus $N$ est un fibré vectoriel de base $B'$ et $g$ un $f$-comorphisme de $M$ dans $N$, on note parfois $\mathcal{S}(g)$ l’application $s \mapsto g \circ f^*s$ de $\mathcal{S}_M^r(U)$ dans $\mathcal{S}_N^r(f^{-1}(U))$.
 
-7.4.4. Soit $M$ un fibré vectoriel de base $B$, *de rang fini*. On appelle *repère* de $M$ sur un ouvert $U$ de $B$ une suite finie $(s_1, \ldots, s_n)$ de sections de $M$ sur $U$ telle que $(s_1(b), \ldots, s_n(b))$ soit une *base* de l’espace vectoriel $M_b$ pour tout $b \in B$. La suite $(s_1, \ldots, s_n)$ est alors une base du $\mathcal{C}^r(U)$-module $\mathscr{S}_M^r(U)$. Si $f$ est un morphisme d’une variété $B'$ dans $B$, les sections $f^*s_j$ forment un repère de $f^*M$ sur $f^{-1}(U)$.
+7.4.4. Soit $M$ un fibré vectoriel de base $B$, *de rang fini*. On appelle *repère* de $M$ sur un ouvert $U$ de $B$ une suite finie $(s_1, \ldots, s_n)$ de sections de $M$ sur $U$ telle que $(s_1(b), \ldots, s_n(b))$ soit une *base* de l’espace vectoriel $M_b$ pour tout $b \in B$. La suite $(s_1, \ldots, s_n)$ est alors une base du $\mathcal{C}^r(U)$-module $\mathcal{S}_M^r(U)$. Si $f$ est un morphisme d’une variété $B'$ dans $B$, les sections $f^*s_j$ forment un repère de $f^*M$ sur $f^{-1}(U)$.
 
 7.4.5. Soit $L$ un corps, muni d’une structure de $K$-algèbre de dimension finie et soit $(M, B, \pi)$ une fibration. Supposons donnée sur chaque fibre $M_b$ une structure d’espace vectoriel sur $L$, *de dimension finie*. Il existe alors au plus une structure de fibré vectoriel sur $L$ de base $B$ sur $M$, compatible avec l’application $\pi$, la structure de variété de $M$ et les structures $L$-vectorielles sur les fibres (7.3.4). Pour qu’il en existe une, il faut et il suffit que la condition suivante soit réalisée :
 
@@ -207,7 +207,7 @@ $$
 $$
 *soit un isomorphisme de la variété $U \times L^n$ sur la variété $\pi^{-1}(U)$.*
 
-7.4.6. Soient $M_1, \ldots, M_d$ et $N$ des fibrés vectoriels de base $B$, les $M_j$ étant de *rang fini*. Supposons donnée pour tout ouvert $U$ de $B$ une application $\varphi_U$ de $\mathscr{S}_{M_1}^r(U) \times \cdots \times \mathscr{S}_{M_d}^r(U)$ dans $\mathscr{S}_N^r(U)$, $\mathcal{C}^r(U)$-multilinéaire, telles que pour $V \subset U$ l’on ait:
+7.4.6. Soient $M_1, \ldots, M_d$ et $N$ des fibrés vectoriels de base $B$, les $M_j$ étant de *rang fini*. Supposons donnée pour tout ouvert $U$ de $B$ une application $\varphi_U$ de $\mathcal{S}_{M_1}^r(U) \times \cdots \times \mathcal{S}_{M_d}^r(U)$ dans $\mathcal{S}_N^r(U)$, $\mathcal{C}^r(U)$-multilinéaire, telles que pour $V \subset U$ l’on ait:
 
 $$
 \varphi_U(s_1, \ldots, s_d)|V = \varphi_V(s_1|V, \ldots, s_d|V).
@@ -314,7 +314,7 @@ Les définitions et résultats des n°s précédents s’étendent au cas des fo
 
 7.7.1. On suppose que $I_- = \varnothing$. On définit un foncteur vectoriel σ appelé foncteur somme directe en posant $\sigma(\mathcal{V}) = \bigoplus_{i \in I} V_i$ et $\sigma(\mathfrak{f}) = \bigoplus_{i \in I} f_i$. Si $\mathcal{M} = (M^i)_{i \in I}$ est une famille de fibrés vectoriels de base B, le fibré vectoriel $\sigma(\mathcal{M})$ est appelé la somme directe des $M^i$ et est noté $\bigoplus_{i \in I} M^i$. Pour tout $b \in B$, la fibre en $b$ de $\bigoplus_{i \in I} M^i$ est la somme directe des fibres des $M^i$ en $b$.
 
-Soit U un ouvert de B et soit $s_i \in \mathscr{F}_{M_i}(U)$ (pour $i \in I$). L’application $b \mapsto \sum_{i \in I} s_i(b)$ est alors une section, notée $\sum_i s_i$, de classe $C^r$ de $M = \bigoplus_{i \in I} M^i$ et l’application $(s_i)_{i \in I} \mapsto \sum_i s_i$ est un isomorphisme de $\mathscr{C}^r(U)$-modules de $\bigoplus_{i \in I} \mathscr{F}_{M_i}(U)$ sur $\mathscr{F}_M(U)$.
+Soit U un ouvert de B et soit $s_i \in \mathcal{F}_{M_i}(U)$ (pour $i \in I$). L’application $b \mapsto \sum_{i \in I} s_i(b)$ est alors une section, notée $\sum_i s_i$, de classe $C^r$ de $M = \bigoplus_{i \in I} M^i$ et l’application $(s_i)_{i \in I} \mapsto \sum_i s_i$ est un isomorphisme de $\mathcal{C}^r(U)$-modules de $\bigoplus_{i \in I} \mathcal{F}_{M_i}(U)$ sur $\mathcal{F}_M(U)$.
 
 La variété sous-jacente à $\bigoplus_{i \in I} M^i$ s’identifie au produit fibré $\prod_B M^i$.
 

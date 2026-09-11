@@ -89,7 +89,7 @@ chapters:
           statements: 27
           exercises: 17
           extraction: ocr
-          content_sha256: bc96d56afc3255aae8af0a123337b972ece4e127279103def5f9db7ba948b944
+          content_sha256: b03bd5e323008db7cf84b406bde7038010ad9ffc9838e789227eeb7ee4c1c882
         - kind: section
           section: 6
           title: Semi-simple Lie algebras
@@ -272,7 +272,7 @@ chapters:
           statements: 54
           exercises: 10
           extraction: ocr
-          content_sha256: 1d086b2132020ca1ae70342f05ee30e3bf32e38ffd0a0c2a6d1cdfbca1dc4cf8
+          content_sha256: fc8b73730b2269563d3cfe9f30f17a2aca0817c714ee88033880572c968e0a4f
         - kind: section
           section: 2
           title: Group of tangent vectors to a Lie group
@@ -376,7 +376,7 @@ chapters:
           statements: 54
           exercises: 29
           extraction: ocr
-          content_sha256: 17781b6bd4c4150167e422099cfe3c64fec3fa861d2cdd27aa8b9bac3f881d90
+          content_sha256: a0d76f13d817b70a22b12f45de447b6a9c8c39525973c423bb1221a046edddf9
         - kind: section
           section: 10
           title: The automorphism group of a Lie group

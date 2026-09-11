@@ -61,7 +61,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: cfe146e6a40be8be1b051f760f4e1533856f7696cddc3e4c6f58c02e159289ef
+          content_sha256: e9ceaf07cea8ecb64ac0a8ac8f556fa2ec4193b24832ad21ffb3bcdc7760e3a1
         - kind: section
           section: 4
           title: Fonctions analytiques (cas non archimédien)
@@ -85,7 +85,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: dd71956a97de3213da051d44a027f3c8f14a9f8fda6946fb9eaa04f9cbbd04ed
+          content_sha256: 581ce5cd00b7f38e77aba4b2dd0dfe403ba7e66c1918611c14a7eb9ec07ea124
         - kind: section
           section: 6
           title: Fibrations
@@ -109,7 +109,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: fe137a4e6ae9d21a89fb2166378f27a2362444957d7ddf2dad763fead7f89cf4
+          content_sha256: 77cdaaf45b351c946c688134d4588742d177c22169a3cb5868d8ab3a74aa10c9
         - kind: appendix
           title: Polynômes-continus et séries formelles
           path: content/fr/var/1/A_a_polynomes_continus_et_series_formelles.md

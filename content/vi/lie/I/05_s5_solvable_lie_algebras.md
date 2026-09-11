@@ -37,9 +37,9 @@ subsections:
       pdf_page: 67
 statements: 27
 exercises: 17
-content_sha256: ef6542df1d646219d4df97c8b9c498674f6c1f73a4ea49d6c088ebad1a551fd1
+content_sha256: 52174a80bc5f977610e6dca2cb2a212952cd67ed8647f3ac21b44548c091ad56
 translated_from: content/en/lie/I/05_s5_solvable_lie_algebras.md
-source_content_sha256: bc96d56afc3255aae8af0a123337b972ece4e127279103def5f9db7ba948b944
+source_content_sha256: b03bd5e323008db7cf84b406bde7038010ad9ffc9838e789227eeb7ee4c1c882
 translation_model: gpt-5.4
 translation_run: translate-vi-f47a882b
 glossary_version: 34
@@ -237,11 +237,11 @@ Tồn tại một đa thức P không có số hạng hằng và có các hệ s
 
 *Cho g là một đại số Lie, M là một không gian vectơ hữu hạn chiều, ρ là một biểu diễn của g trên M và β là dạng song tuyến tính trên g liên kết với ρ. Khi đó ρ(g) là giải được khi và chỉ khi 𝒟g trực giao với g đối với β.*
 
-Hiển nhiên có thể quy về trường hợp g là một đại số con Lie của $\mathfrak{gl}(M)$ và ρ là ánh xạ đồng nhất. Nếu g giải được, 𝒟g được chứa trong iđêan lũy linh lớn nhất của biểu diễn đồng nhất của g (Định lý 1) và vì thế trực giao với g đối với β (§ 4, Mệnh đề 4 (d)). Giả sử rằng 𝒟g trực giao với g đối với β. Ta chứng minh rằng g giải được. Gọi T là tập hợp các $t \in \mathfrak{gl}(M)$ sao cho $[t, g] \subset \mathscr{D}g$. Nếu $t \in T$ và x, y thuộc g, thì $[t, x] \in \mathscr{D}g$ và do đó
+Hiển nhiên có thể quy về trường hợp g là một đại số con Lie của $\mathfrak{gl}(M)$ và ρ là ánh xạ đồng nhất. Nếu g giải được, 𝒟g được chứa trong iđêan lũy linh lớn nhất của biểu diễn đồng nhất của g (Định lý 1) và vì thế trực giao với g đối với β (§ 4, Mệnh đề 4 (d)). Giả sử rằng 𝒟g trực giao với g đối với β. Ta chứng minh rằng g giải được. Gọi T là tập hợp các $t \in \mathfrak{gl}(M)$ sao cho $[t, g] \subset \mathcal{D}g$. Nếu $t \in T$ và x, y thuộc g, thì $[t, x] \in \mathcal{D}g$ và do đó
 $$
 \mathrm{Tr}(t[x, y]) = \beta([t, x], y) = 0
 $$
-do đó theo tính tuyến tính $\mathrm{Tr}(tu) = 0$ với mọi $u \in \mathscr{D}g$. Ngoài ra, rõ ràng $\mathscr{D}g \subset T$. Vậy nên (Bổ đề 3) mọi phần tử của 𝒟g đều lũy linh. Suy ra 𝒟g là lũy linh (§ 4, Hệ quả 3 của Định lý 1) và vì thế g là giải được (no. 3, Hệ quả 5 của Định lý 1).
+do đó theo tính tuyến tính $\mathrm{Tr}(tu) = 0$ với mọi $u \in \mathcal{D}g$. Ngoài ra, rõ ràng $\mathcal{D}g \subset T$. Vậy nên (Bổ đề 3) mọi phần tử của 𝒟g đều lũy linh. Suy ra 𝒟g là lũy linh (§ 4, Hệ quả 3 của Định lý 1) và vì thế g là giải được (no. 3, Hệ quả 5 của Định lý 1).
 
 ### 5. CÁC TÍNH CHẤT BỔ SUNG CỦA CĂN
 
@@ -250,7 +250,7 @@ do đó theo tính tuyến tính $\mathrm{Tr}(tu) = 0$ với mọi $u \in \maths
 *Cho g là một đại số Lie và r là căn của nó.*
 (a) *Nếu ρ là một biểu diễn hữu hạn chiều của g và β là dạng song tuyến tính liên kết, thì r và 𝒟g trực giao đối với β.*
 (b) *r là trực giao của 𝒟g đối với dạng Killing.*
-Cho x, y thuộc g, $z \in r$. Khi đó $[y, z] \in \mathscr{D}g \cap r$ và do đó
+Cho x, y thuộc g, $z \in r$. Khi đó $[y, z] \in \mathcal{D}g \cap r$ và do đó
 $$
 \beta([x, y], z) = \beta(x, [y, z]) = 0
 $$

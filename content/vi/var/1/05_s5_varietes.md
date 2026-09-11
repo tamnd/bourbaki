@@ -68,11 +68,11 @@ subsections:
       pdf_page: 56
 statements: 0
 exercises: 0
-content_sha256: c469f429fb9bcbafd84aec0de53595c8f216eae6cbab806a4086221bd87d5bbb
+content_sha256: 98dd3aa5e34a99f046450b914b4607cbf8642fbbe64d7262d0e4e8c8c2df5ac8
 translated_from: content/en-mt/var/1/05_s5_varietes.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: de22b9b5756c12da2b4ad3436a436907dc19032fe6854a0c443ce26f695214a5
+source_content_sha256: 83f77ee946608514d9bd8f03b4a2426d602170fcf85066fd524f2a6ae2454fa5
 translation_model: gpt-5-mini, gpt-5-6-mini
 translation_run: translate-vi-65020df8
 glossary_version: 34
@@ -186,7 +186,7 @@ Ta nói rằng các công thức trên tạo thành *biểu thức* của $f$ b�
 
 5.4.2. Cho $X$ và $Y$ là hai đa tạp; với mỗi tập mở $U \subset X$, cho $\mathcal{L}(U)$ là tập hợp các cấu xạ từ $U$ vào $Y$; khi đó $\mathcal{L}$ là một bó các ánh xạ có giá trị trong $Y$.
 
-Khi $Y = K$, bó được xác định như vậy được ký hiệu bởi $\mathscr{C}_X^{r'}$.
+Khi $Y = K$, bó được xác định như vậy được ký hiệu bởi $\mathcal{C}_X^{r'}$.
 
 5.4.3. Cho $X$ là một không gian tôpô và cho $\mathcal{S}$ là một tập hợp các không gian Banach. Với mỗi $E \in \mathcal{S}$, cho $\mathcal{F}_E$ là một bó các ánh xạ trên $X$ có giá trị trong $E$. Giả sử rằng họ các $\mathcal{F}_E$, với $E \in \mathcal{S}$, thỏa mãn điều kiện sau:
 

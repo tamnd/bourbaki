@@ -33,7 +33,7 @@ subsections:
       pdf_page: 66
 statements: 22
 exercises: 13
-content_sha256: 3ef3ff31a3b4ef0d382045164ef8504751835e3acd8e474862e866a76dedad0c
+content_sha256: aa48b129f9346faff4c596f704000b84be8e8d96364be56a92c79ea229ed2590
 ---
 
 ## § 6. INTÉGRATION DANS LES GROUPES DE LIE COMPACTS
@@ -437,13 +437,13 @@ Or $D^l \tau_h(x)$ n’est autre que la dérivée partielle $l$-ième de $m(h, x
 
 #### Proposition 5 {#lie-ix-s6-prop-5 .statement tag=01FE}
 
-*Supposons le groupe* H *compact et notons dh la mesure de Haar sur* H *de masse totale 1. Soit s une section de classe* $C^r$ *de* E. *Pour* $x \in X$, *notons* $s^\#$ l'intégrale vectorielle $\int_H^{h s} dh$. Alors $s^\#$ est une section de classe $C^r$ de $E$, invariante par $H$; pour $x \in X$, on a $s^\#(x) = \int_H h s(h^{-1} x) \, dh \in E_x$. L'endomorphisme $s \mapsto s^\#$ de $\mathscr{S}^r(X; E)$ est un projecteur sur le sous-espace des sections $H$-invariantes.
+*Supposons le groupe* H *compact et notons dh la mesure de Haar sur* H *de masse totale 1. Soit s une section de classe* $C^r$ *de* E. *Pour* $x \in X$, *notons* $s^\#$ l'intégrale vectorielle $\int_H^{h s} dh$. Alors $s^\#$ est une section de classe $C^r$ de $E$, invariante par $H$; pour $x \in X$, on a $s^\#(x) = \int_H h s(h^{-1} x) \, dh \in E_x$. L'endomorphisme $s \mapsto s^\#$ de $\mathcal{S}^r(X; E)$ est un projecteur sur le sous-espace des sections $H$-invariantes.
 
-Considérons l'application $h \mapsto ^h s$ de $H$ dans $\mathscr{S}^r(X; E)$; elle est continue d'après le lemme 4. Puisque l'espace $\mathscr{S}^r(X; E)$ est séparé et complet, l'intégrale $s^\# = \int_H ^h s \, dh$ appartient à $\mathscr{S}^r(X; E)$ (INT, III, § 3, no 3, cor. 2). L'application linéaire $s \mapsto s(x)$ de $\mathscr{S}^r(X; E)$ dans $E_x$ étant continue, on a $s^\#(x) = \int_H ^h s(x) \, dh$ pour tout $x \in X$. Il est clair que $s^\#$ est invariante par $H$; si $s$ est une section $H$-invariante, on a $s^\# = s$, d'où la dernière assertion.
+Considérons l'application $h \mapsto ^h s$ de $H$ dans $\mathcal{S}^r(X; E)$; elle est continue d'après le lemme 4. Puisque l'espace $\mathcal{S}^r(X; E)$ est séparé et complet, l'intégrale $s^\# = \int_H ^h s \, dh$ appartient à $\mathcal{S}^r(X; E)$ (INT, III, § 3, no 3, cor. 2). L'application linéaire $s \mapsto s(x)$ de $\mathcal{S}^r(X; E)$ dans $E_x$ étant continue, on a $s^\#(x) = \int_H ^h s(x) \, dh$ pour tout $x \in X$. Il est clair que $s^\#$ est invariante par $H$; si $s$ est une section $H$-invariante, on a $s^\# = s$, d'où la dernière assertion.
 
 #### Corollaire 1 {#lie-ix-s6-prop-5-cor-1 .statement tag=01FF}
 
-Soient $F$ un espace de Banach, $\rho : H \to \mathbf{GL}(F)$ une représentation linéaire analytique, $f \in \mathscr{C}^r(X; F)$. Pour $x \in X$, posons
+Soient $F$ un espace de Banach, $\rho : H \to \mathbf{GL}(F)$ une représentation linéaire analytique, $f \in \mathcal{C}^r(X; F)$. Pour $x \in X$, posons
 
 $$
 f^\#(x) = \int_H \rho(h) \cdot f(h^{-1} x) \, dh .
@@ -455,11 +455,11 @@ $$
 d_x f^\# = \int_H (\rho(h) \circ d_{h^{-1} x} f \circ T_x(\tau_{h^{-1}})) \, dh \in \mathcal{L}(T_x(X); F) .
 $$
 
-La première assertion résulte de la proposition appliquée au fibré $X \times F$, muni de la loi d'opération $(h; (x, f)) \mapsto (hx, \rho(h).f)$. La seconde s'obtient d'après INT, III, § 3, no 2, prop. 2, en appliquant à l'intégrale vectorielle $f^\#$ l'homomorphisme $d_x : \mathscr{C}^r(X; F) \to \mathcal{L}(T_x(X); F)$ qui est continu par définition de la topologie de la $C^r$-convergence compacte.
+La première assertion résulte de la proposition appliquée au fibré $X \times F$, muni de la loi d'opération $(h; (x, f)) \mapsto (hx, \rho(h).f)$. La seconde s'obtient d'après INT, III, § 3, no 2, prop. 2, en appliquant à l'intégrale vectorielle $f^\#$ l'homomorphisme $d_x : \mathcal{C}^r(X; F) \to \mathcal{L}(T_x(X); F)$ qui est continu par définition de la topologie de la $C^r$-convergence compacte.
 
 #### Corollaire 2 {#lie-ix-s6-prop-5-cor-2 .statement tag=01FG}
 
-Soient $F$ un espace de Banach, $f \in \mathscr{C}^r(X; F)$; posons
+Soient $F$ un espace de Banach, $f \in \mathcal{C}^r(X; F)$; posons
 
 $$
 f^\#(x) = \int_H f(hx) \, dh

@@ -91,7 +91,7 @@ chapters:
           statements: 22
           exercises: 13
           extraction: ocr
-          content_sha256: 3ef3ff31a3b4ef0d382045164ef8504751835e3acd8e474862e866a76dedad0c
+          content_sha256: aa48b129f9346faff4c596f704000b84be8e8d96364be56a92c79ea229ed2590
         - kind: section
           section: 7
           title: Représentations irréductibles des groupes de Lie compacts connexes
@@ -130,7 +130,7 @@ chapters:
           statements: 19
           exercises: 21
           extraction: ocr
-          content_sha256: fe04b5677c8e1c2cf2af8ab704fe1734fdbd6c788fa894e924c704bd50c9a9d0
+          content_sha256: 93e4c319c21be908a193f2f6906ef53a7e8cff336950b91423ecc75719056b5b
         - kind: appendix
           section: 1
           title: STRUCTURE DES GROUPES COMPACTS

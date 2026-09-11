@@ -84,7 +84,7 @@ subsections:
       pdf_page: 161
 statements: 111
 exercises: 9
-content_sha256: 10d475925bba6f8447e2caa7f660b8bf6a0a4cf578ab88234d2012cde55fecbe
+content_sha256: aa0e966f2ca3ea673d425de7990fbfc2f302925bfe4267822d88438e9f80acb8
 ---
 
 ## § 3. Passage d’un groupe de Lie à son algèbre de Lie
@@ -493,7 +493,7 @@ En particulier, considérons G comme opérant sur lui-même par les translations
 
 (14) $$ (t * f) * t' = t * (f * t'). $$
 
-En particulier, \mathscr{C}^\infty(G) est un (\mathcal{T}^{(\infty)}(G), \mathcal{T}^{(\infty)}(G))-bimodule. Les formules (5) et (8) admettent comme cas particuliers
+En particulier, \mathcal{C}^\infty(G) est un (\mathcal{T}^{(\infty)}(G), \mathcal{T}^{(\infty)}(G))-bimodule. Les formules (5) et (8) admettent comme cas particuliers
 
 (15) $$ \langle t, f \rangle = \langle \varepsilon_e, t^\nu * f \rangle = \langle \varepsilon_e, f * t^\nu \rangle. $$
 
