@@ -113,7 +113,7 @@ chapters:
           statements: 58
           exercises: 41
           extraction: ocr
-          content_sha256: ed05eff94c08cdfcfd89c459ba64d8b7ce508b226914ad4221253b7047926c45
+          content_sha256: 67c3f42bae99e09355ade32973a0fcb3839b676d70484bfbad762f5f8a64bcff
         - kind: section
           section: 7
           title: Free monoids, free groups
@@ -203,7 +203,7 @@ chapters:
           statements: 88
           exercises: 27
           extraction: ocr
-          content_sha256: b4a1e9cb83fb456ed24f6c2e8448612ff3cf0572d6dde1e9415a5620e8b12061
+          content_sha256: a9537c8df803d6bf9725aad30317a3a1b23bee71446c2f32fb77cf8b995e6a68
         - kind: section
           section: 2
           title: Modules of linear mappings. Duality

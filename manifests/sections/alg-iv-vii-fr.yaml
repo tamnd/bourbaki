@@ -75,7 +75,7 @@ chapters:
           statements: 24
           exercises: 8
           extraction: ocr
-          content_sha256: 0c46b750a29c2ad670a2b596182d9340c14975df566b95df8921355b0f8baac5
+          content_sha256: 7a592736783269f8b506d8046056c2b13387cfba462ab06ae14927b62e778474
         - kind: section
           section: 5
           title: TENSEURS SYMÉTRIQUES ET APPLICATIONS POLYNOMIALES

@@ -42,7 +42,7 @@ subsections:
       pdf_page: 104
 statements: 58
 exercises: 41
-content_sha256: ed05eff94c08cdfcfd89c459ba64d8b7ce508b226914ad4221253b7047926c45
+content_sha256: 67c3f42bae99e09355ade32973a0fcb3839b676d70484bfbad762f5f8a64bcff
 ---
 
 ## § 6. EXTENSIONS, SOLVABLE GROUPS, NILPOTENT GROUPS
@@ -130,13 +130,13 @@ $$
 
 Now $g(f'.g'f'') = gf'.gg'f''$, which shows that the law of composition defined by (1) is associative. The element $(e, e)$ is the identity under this law. The element $(f, g)$ admits as inverse $(g^{-1}f^{-1}, g^{-1})$. Hence the law of composition on $F \times_{\tau} G$ is a group law. The other assertions are immediate.
 
-Using the notation of Proposition 3, $\mathscr{E}_{\tau}$ will denote the extension
+Using the notation of Proposition 3, $\mathcal{E}_{\tau}$ will denote the extension
 
 $$
 F \xrightarrow{i} F \times_{\tau} G \xrightarrow{p} G.
 $$
 
-Let $\mathscr{E}' : F \xrightarrow{i'} E' \xrightarrow{p'} G$ be an extension of $G$ by $F$ and $s' : G \to E'$ a section of $\mathscr{E}'$. We define an operation $\tau$ of $G$ on the group $F$ by:
+Let $\mathcal{E}' : F \xrightarrow{i'} E' \xrightarrow{p'} G$ be an extension of $G$ by $F$ and $s' : G \to E'$ a section of $\mathcal{E}'$. We define an operation $\tau$ of $G$ on the group $F$ by:
 
 (2)
 $$
@@ -145,7 +145,7 @@ $$
 
 #### Proposition 4 {#alg-i-s6-prop-4 .statement}
 
-*With the above notation, there exists one and only one isomorphism u of $\mathscr{E}_{\tau}$ onto $\mathscr{E}'$ such that $u \circ s = s'$.
+*With the above notation, there exists one and only one isomorphism u of $\mathcal{E}_{\tau}$ onto $\mathcal{E}'$ such that $u \circ s = s'$.
 
 $$(f, g) = (f, e) \cdot_{\tau} (e, g) = i(f) \cdot_{\tau} s(g).$$ Therefore, if $u$ is a solution to the problem, of necessity $u(f, g) = i'(f).s'(g)$, whence the uniqueness of $u$. We prove the existence. We write $u(f, g) = i'(f).s'(g)$. Then
 
@@ -163,9 +163,9 @@ Therefore, $u$ is a homomorphism of $F \times_{\tau} G$ into $E'$. Obviously $u 
 
 #### Remark {#alg-i-s6-n1-rem-1 .statement}
 
-The definition of the operation $\tau$ by formula (2) depends on the extension $\mathscr{E}'$ and the section $s'$. When $F$ is commutative, the operation $\tau$ does not depend on $s'$. For $\operatorname{Int}(s'(g)) | i'(F)$ depends then only on the coset of $s'(g)$ mod. $i'(F)$.
+The definition of the operation $\tau$ by formula (2) depends on the extension $\mathcal{E}'$ and the section $s'$. When $F$ is commutative, the operation $\tau$ does not depend on $s'$. For $\operatorname{Int}(s'(g)) | i'(F)$ depends then only on the coset of $s'(g)$ mod. $i'(F)$.
 
-More generally, let $\mathscr{E} : F \to E \to G$ be an extension of $G$ by a commutative group $F$ (it is not assumed that $\mathscr{E}$ admits a section). The group $E$ operates on $F$ by inner automorphisms, this image is trivial on the image of $F$ and hence defines an operation of $G$ on $F$. If $\mathscr{E}$ admits a section, this operation is that defined by formula (2).
+More generally, let $\mathcal{E} : F \to E \to G$ be an extension of $G$ by a commutative group $F$ (it is not assumed that $\mathcal{E}$ admits a section). The group $E$ operates on $F$ by inner automorphisms, this image is trivial on the image of $F$ and hence defines an operation of $G$ on $F$. If $\mathcal{E}$ admits a section, this operation is that defined by formula (2).
 
 #### Corollary {#alg-i-s6-n1-cor-1 .statement}
 

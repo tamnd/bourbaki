@@ -53,7 +53,7 @@ subsections:
       pdf_page: 44
 statements: 24
 exercises: 8
-content_sha256: 0c46b750a29c2ad670a2b596182d9340c14975df566b95df8921355b0f8baac5
+content_sha256: 7a592736783269f8b506d8046056c2b13387cfba462ab06ae14927b62e778474
 ---
 
 ## § 4. SÉRIES FORMELLES
@@ -661,15 +661,15 @@ $$
 $$
 d’où $l(e(X)) = X$.
 
-Soit $K$ une $\mathbf{Q}$-algèbre. Les éléments de $K[[I]]$ sans terme constant forment pour l’addition un groupe commutatif $\mathcal{E}$. Les éléments de $K[[I]]$ de terme constant 1 forment pour la multiplication un groupe commutatif $\mathcal{M}$ (IV, p. 29). On peut définir, pour tout $f \in \mathcal{E}$, les éléments $e \circ f$ et $l \circ f$ de $\mathcal{E}$. D’après la prop. 14 ci-dessus, les applications $f \mapsto l \circ f$ et $f \mapsto e \circ f$ sont des permutations réciproques de $\mathcal{E}$. Elles sont évidemment continues. Comme on a $\exp X = e(X) + 1$, on voit que l’application exponentielle $f \mapsto \exp f = e \circ f + 1$ est une bijection bicontinue de $\mathcal{E}$ sur $\mathcal{M}$. D’après la formule (4) de IV, p. 28, et la prop. 13, on a $\exp(f+g) = (\exp f)(\exp g)$ si $f, g \in \mathcal{E}$. Donc l’exponentielle est un isomorphisme du groupe topologique $\mathcal{E}$ sur le groupe topologique $\mathcal{M}$.
+Soit $K$ une $\mathbf{Q}$-algèbre. Les éléments de $K[[I]]$ sans terme constant forment pour l’addition un groupe commutatif $\mathscr{E}$. Les éléments de $K[[I]]$ de terme constant 1 forment pour la multiplication un groupe commutatif $\mathcal{M}$ (IV, p. 29). On peut définir, pour tout $f \in \mathscr{E}$, les éléments $e \circ f$ et $l \circ f$ de $\mathscr{E}$. D’après la prop. 14 ci-dessus, les applications $f \mapsto l \circ f$ et $f \mapsto e \circ f$ sont des permutations réciproques de $\mathscr{E}$. Elles sont évidemment continues. Comme on a $\exp X = e(X) + 1$, on voit que l’application exponentielle $f \mapsto \exp f = e \circ f + 1$ est une bijection bicontinue de $\mathscr{E}$ sur $\mathcal{M}$. D’après la formule (4) de IV, p. 28, et la prop. 13, on a $\exp(f+g) = (\exp f)(\exp g)$ si $f, g \in \mathscr{E}$. Donc l’exponentielle est un isomorphisme du groupe topologique $\mathscr{E}$ sur le groupe topologique $\mathcal{M}$.
 
-L’isomorphisme réciproque de $\mathcal{M}$ sur $\mathcal{E}$ s’appelle le logarithme et se note $g \mapsto \log g$. On a donc $\log g = l(g-1)$ pour $g$ dans $\mathcal{M}$, et, en particulier
+L’isomorphisme réciproque de $\mathcal{M}$ sur $\mathscr{E}$ s’appelle le logarithme et se note $g \mapsto \log g$. On a donc $\log g = l(g-1)$ pour $g$ dans $\mathcal{M}$, et, en particulier
 (38)
 $$
 \log(1+X) = l(X).
 $$
 
-Comme le logarithme est un homomorphisme de $\mathcal{M}$ dans $\mathcal{E}$, la formule
+Comme le logarithme est un homomorphisme de $\mathcal{M}$ dans $\mathscr{E}$, la formule
 
 (1 + X)(1 + Y) = 1 + (X + Y + XY) entraîne
 

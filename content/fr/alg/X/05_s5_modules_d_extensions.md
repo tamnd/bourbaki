@@ -41,7 +41,7 @@ subsections:
       pdf_page: 104
 statements: 36
 exercises: 8
-content_sha256: a8e0b6026ac3a6b3cf91b3261cf288e27bfe5f90539217221d869c3e7ea01bd3
+content_sha256: fc6a14f95feff6e18ee557c23684f8b351f1e029bb29cd31eb44e7305d9c3204
 ---
 
 ## § 5. MODULES D’EXTENSIONS
@@ -633,9 +633,9 @@ un diagramme commutatif de $A$-modules à lignes exactes. Le diagramme de $k$-mo
 
 $$
 \begin{array}{ccc}
-\mathrm{Ext}_A(M, N'') & \xrightarrow{\delta(M, \mathscr{E})} & \mathrm{Ext}_A(M, N') \\
+\mathrm{Ext}_A(M, N'') & \xrightarrow{\delta(M, \mathcal{E})} & \mathrm{Ext}_A(M, N') \\
 \mathrm{Ext}(f, g'') \downarrow & & \mathrm{Ext}(f, g') \downarrow \\
-\mathrm{Ext}_A(M_1, N''_1) & \xrightarrow{\delta(M, \mathscr{E}_1)} & \mathrm{Ext}_A(M_1, N'_1)
+\mathrm{Ext}_A(M_1, N''_1) & \xrightarrow{\delta(M, \mathcal{E}_1)} & \mathrm{Ext}_A(M_1, N'_1)
 \end{array}
 $$
 

@@ -42,7 +42,7 @@ subsections:
       pdf_page: 104
 statements: 58
 exercises: 8
-content_sha256: 17bcfed9ac0cc70796042b485bd0527cd11ff5514a396bae3125c2a495c6ccd4
+content_sha256: 776f5ca220a635d12e311068f3e93164c3b8b4906c45c560863da46a9e424c98
 translated_from: content/en/alg/I/06_s6_extensions_solvable_groups_nilpotent.md
 source_content_sha256: 05d57b4e159fb6f8076f49d79a8f2aa87f069986c6d14e5d1113470e55b7a64a
 translation_model: gpt-5.4
@@ -137,13 +137,13 @@ $$
 
 Bây giờ $g(f'.g'f'') = gf'.gg'f''$, điều đó cho thấy luật hợp thành được xác định bởi (1) là kết hợp. Phần tử $(e, e)$ là phần tử đơn vị đối với luật này. Phần tử $(f, g)$ có phần tử nghịch đảo là $(g^{-1}f^{-1}, g^{-1})$. Do đó luật hợp thành trên $F \times_{\tau} G$ là một luật nhóm. Các khẳng định khác là ngay lập tức.
 
-Dùng ký hiệu của Mệnh đề 3, $\mathscr{E}_{\tau}$ sẽ ký hiệu mở rộng
+Dùng ký hiệu của Mệnh đề 3, $\mathcal{E}_{\tau}$ sẽ ký hiệu mở rộng
 
 $$
 F \xrightarrow{i} F \times_{\tau} G \xrightarrow{p} G.
 $$
 
-Cho $\mathscr{E}' : F \xrightarrow{i'} E' \xrightarrow{p'} G$ là một mở rộng của $G$ bởi $F$ và $s' : G \to E'$ là một tiết diện của $\mathscr{E}'$. Ta định nghĩa một phép toán $\tau$ của $G$ trên nhóm $F$ bởi:
+Cho $\mathcal{E}' : F \xrightarrow{i'} E' \xrightarrow{p'} G$ là một mở rộng của $G$ bởi $F$ và $s' : G \to E'$ là một tiết diện của $\mathcal{E}'$. Ta định nghĩa một phép toán $\tau$ của $G$ trên nhóm $F$ bởi:
 
 (2)
 $$
@@ -152,7 +152,7 @@ $$
 
 #### Mệnh đề 4 {#alg-i-s6-prop-4 .statement}
 
-*Với các ký hiệu trên, tồn tại một và chỉ một đẳng cấu u của $\mathscr{E}_{\tau}$ lên $\mathscr{E}'$ sao cho $u \circ s = s'$.
+*Với các ký hiệu trên, tồn tại một và chỉ một đẳng cấu u của $\mathcal{E}_{\tau}$ lên $\mathcal{E}'$ sao cho $u \circ s = s'$.
 
 $$(f, g) = (f, e) \cdot_{\tau} (e, g) = i(f) \cdot_{\tau} s(g).$$ Vậy, nếu $u$ là một nghiệm của bài toán, thì tất yếu $u(f, g) = i'(f).s'(g)$, do đó có tính duy nhất của $u$. Ta chứng minh sự tồn tại. Ta viết $u(f, g) = i'(f).s'(g)$. Khi đó
 
@@ -170,9 +170,9 @@ Vì vậy, $u$ là một đồng cấu của $F \times_{\tau} G$ vào $E'$. Hi�
 
 #### Nhận xét {#alg-i-s6-n1-rem-1 .statement}
 
-Định nghĩa của phép toán $\tau$ bởi công thức (2) phụ thuộc vào mở rộng $\mathscr{E}'$ và tiết diện $s'$. Khi $F$ giao hoán, phép toán $\tau$ không phụ thuộc vào $s'$. Vì $\operatorname{Int}(s'(g)) | i'(F)$ khi đó chỉ phụ thuộc vào lớp kề của $s'(g)$ mod. $i'(F)$.
+Định nghĩa của phép toán $\tau$ bởi công thức (2) phụ thuộc vào mở rộng $\mathcal{E}'$ và tiết diện $s'$. Khi $F$ giao hoán, phép toán $\tau$ không phụ thuộc vào $s'$. Vì $\operatorname{Int}(s'(g)) | i'(F)$ khi đó chỉ phụ thuộc vào lớp kề của $s'(g)$ mod. $i'(F)$.
 
-Nói chung hơn, cho $\mathscr{E} : F \to E \to G$ là một mở rộng của $G$ bởi một nhóm giao hoán $F$ (không giả thiết rằng $\mathscr{E}$ thừa nhận một tiết diện). Nhóm $E$ tác động trên $F$ bởi các tự đẳng cấu nội, ảnh này là tầm thường trên ảnh của $F$ và do đó xác định một phép toán của $G$ trên $F$. Nếu $\mathscr{E}$ thừa nhận một tiết diện, phép toán này là phép toán được xác định bởi công thức (2).
+Nói chung hơn, cho $\mathcal{E} : F \to E \to G$ là một mở rộng của $G$ bởi một nhóm giao hoán $F$ (không giả thiết rằng $\mathcal{E}$ thừa nhận một tiết diện). Nhóm $E$ tác động trên $F$ bởi các tự đẳng cấu nội, ảnh này là tầm thường trên ảnh của $F$ và do đó xác định một phép toán của $G$ trên $F$. Nếu $\mathcal{E}$ thừa nhận một tiết diện, phép toán này là phép toán được xác định bởi công thức (2).
 
 #### Hệ quả {#alg-i-s6-n1-cor-1 .statement}
 

@@ -49,11 +49,11 @@ subsections:
       pdf_page: 138
 statements: 34
 exercises: 11
-content_sha256: 5a4ae808d147fd732fabdb44db79c9d30d13e9e6461d28dfe14d88e96a04702a
+content_sha256: 151cda4ba862bc19d5e09b31b5f8cb48cf94885eb53f4d621cea936e2a8fded2
 translated_from: content/en-mt/alg/X/07_s7_produit_de_composition.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: d8c8eb99f6650920ba4deb364722d8d7f501be8f487b2644b5e098c334c1068e
+source_content_sha256: 508554e7b85d1e30ccb16b00a5b7ebd7eb2a64c9b343442451ab43a998a070fa
 translation_model: gpt-5.4
 translation_run: translate-vi-d15958aa
 glossary_version: 34
@@ -970,19 +970,19 @@ $$
 
 Thật vậy, nếu $\theta$ và $\theta_1$ là các lớp liên kết với các dãy khớp đã cho, và nếu $\gamma \in \mathrm{Tor}_n^A(P'', M'')$, thì các ảnh của $\gamma$ lần lượt là $\theta \circ (\theta_1 \circ \gamma)$ và $\theta_1 \circ (\theta \circ \gamma)$, do đó đối nhau theo mệnh đề 6.
 
-Ta nhắc lại các ký hiệu của X, p. 127 và xét dãy $(\mathscr{S})$ các $A$-môđun trái cùng các đồng cấu nối liên kết với các dãy khớp (9)
+Ta nhắc lại các ký hiệu của X, p. 127 và xét dãy $(\mathcal{S})$ các $A$-môđun trái cùng các đồng cấu nối liên kết với các dãy khớp (9)
 $$
 \mathrm{Tor}_m^A(P, K_{i-1}) \to \mathrm{Tor}_{m-1}^A(P, K_i);
 $$
 ta suy ra từ đó, bằng hợp thành của các *đồng cấu nối lặp*
 $$
-\hat{\partial}_m(P, \mathscr{S}) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A(P, N).
+\hat{\partial}_m(P, \mathcal{S}) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A(P, N).
 $$
 Khi đó theo mệnh đề 7 và mệnh đề 3 của X, p. 118 :
 
 #### Hệ quả 2 {#alg-x-s7-prop-7-cor-2 .statement}
 
-Nếu $\theta \in \mathrm{Ext}_A^n(M, N)$ là lớp liên kết với dãy khớp $(\mathscr{S})$, ta có $\hat{\partial}_m(P, \mathscr{S})(\alpha) = \theta \circ \alpha$ với mọi $\alpha \in \mathrm{Tor}_m^A(P, M)$.
+Nếu $\theta \in \mathrm{Ext}_A^n(M, N)$ là lớp liên kết với dãy khớp $(\mathcal{S})$, ta có $\hat{\partial}_m(P, \mathcal{S})(\alpha) = \theta \circ \alpha$ với mọi $\alpha \in \mathrm{Tor}_m^A(P, M)$.
 
 #### Hệ quả 3 {#alg-x-s7-prop-7-cor-3 .statement}
 

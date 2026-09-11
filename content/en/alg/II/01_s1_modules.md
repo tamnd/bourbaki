@@ -70,7 +70,7 @@ subsections:
       pdf_page: 248
 statements: 88
 exercises: 27
-content_sha256: b4a1e9cb83fb456ed24f6c2e8448612ff3cf0572d6dde1e9415a5620e8b12061
+content_sha256: a9537c8df803d6bf9725aad30317a3a1b23bee71446c2f32fb77cf8b995e6a68
 ---
 
 ## § 1. MODULES
@@ -123,9 +123,9 @@ $x = 1.x = 0.x = 0$.
 
 (2) On a commutative group G (written additively) the group with operators structure defined by the external law $(n, x) \mapsto n.x$ (I, § 3, no. 1) is a module structure over the ring $\mathbf{Z}$ of rational integers.
 
-(3) Let E be a commutative group written additively, $\mathcal{E}$ the endomorphism ring of E (I, § 8, no. 3: recall that the product $fg$ of two endomorphisms is by definition the composite endomorphism $f \circ g$). The external law $(f, x) \mapsto f(x)$ between operators $f \in \mathscr{E}$ and elements $x \in E$ defines on E a canonical left $\mathscr{E}$-module structure.
+(3) Let E be a commutative group written additively, $\mathcal{E}$ the endomorphism ring of E (I, § 8, no. 3: recall that the product $fg$ of two endomorphisms is by definition the composite endomorphism $f \circ g$). The external law $(f, x) \mapsto f(x)$ between operators $f \in \mathcal{E}$ and elements $x \in E$ defines on E a canonical left $\mathcal{E}$-module structure.
 
-Consider now a ring A and suppose there is given on E a left (resp. right) A-module structure; for all $\alpha \in A$, the homothety $h_\alpha : x \mapsto \alpha x$ (resp. $x \mapsto x\alpha$) belongs to $\mathscr{E}$; the mapping $\phi : \alpha \mapsto h_\alpha$ is a homomorphism of the ring A (resp. the opposite ring $A^0$) into the ring $\mathscr{E}$ and by definition $\alpha x = (\phi(\alpha))(x)$ (resp. $x\alpha = (\phi(\alpha))(x)$). Conversely, giving a ring homomorphism $\phi : A \to \mathscr{E}$ (resp. $\phi : A^0 \to \mathscr{E}$) defines a left (resp. right) A-module structure on E by the above formulae. In other words, being given a left (resp. right) A-module structure on an additive group E with additive law the given group law is equivalent to being given a ring homomorphism $A \to \mathscr{E}$ (resp. $A^0 \to \mathscr{E}$).
+Consider now a ring A and suppose there is given on E a left (resp. right) A-module structure; for all $\alpha \in A$, the homothety $h_\alpha : x \mapsto \alpha x$ (resp. $x \mapsto x\alpha$) belongs to $\mathcal{E}$; the mapping $\phi : \alpha \mapsto h_\alpha$ is a homomorphism of the ring A (resp. the opposite ring $A^0$) into the ring $\mathcal{E}$ and by definition $\alpha x = (\phi(\alpha))(x)$ (resp. $x\alpha = (\phi(\alpha))(x)$). Conversely, giving a ring homomorphism $\phi : A \to \mathcal{E}$ (resp. $\phi : A^0 \to \mathcal{E}$) defines a left (resp. right) A-module structure on E by the above formulae. In other words, being given a left (resp. right) A-module structure on an additive group E with additive law the given group law is equivalent to being given a ring homomorphism $A \to \mathcal{E}$ (resp. $A^0 \to \mathcal{E}$).
 
 #### Definition 2 {#alg-ii-s1-def-2 .statement}
 
@@ -1225,7 +1225,7 @@ It is thus seen that, for the species of structure defined by giving on an order
 
 ### 14. MULTIMODULES
 
-Let A, B be two rings and consider on a set E two left module structures with the *same* additive law and whose ring of operators are respectively A and B; let $\mathscr{E}$ be the endomorphism ring of the additive group E and for all $\alpha \in A$ (resp. $\beta \in B$) let $h_\alpha$ (resp. $h'_\beta$) denote the element $x \mapsto \alpha x$ (resp. $x \mapsto \beta x$) of $\mathscr{E}$. Clearly the three following properties are equivalent: (a) $h_\alpha \circ h'_\beta = h'_\beta \circ h_\alpha$ for all $\alpha$ and $\beta$; (b) the image of A under the homomorphism $a \mapsto h_\alpha$ is *contained in* $\mathrm{Hom}_B(E, E)$; (c) the image of B under the homomorphism $\beta \mapsto h'_\beta$ is *contained in* $\mathrm{Hom}_A(E, E)$. When the A-module (resp. B-module) structure in question is a right module structure, the ring A (resp. B) must be replaced in (b) (resp. (c)) by $A^0$ (resp. $B^0$). The above properties can be expressed by saying that the two (left or right) module structures defined on E are *compatible*.
+Let A, B be two rings and consider on a set E two left module structures with the *same* additive law and whose ring of operators are respectively A and B; let $\mathcal{E}$ be the endomorphism ring of the additive group E and for all $\alpha \in A$ (resp. $\beta \in B$) let $h_\alpha$ (resp. $h'_\beta$) denote the element $x \mapsto \alpha x$ (resp. $x \mapsto \beta x$) of $\mathcal{E}$. Clearly the three following properties are equivalent: (a) $h_\alpha \circ h'_\beta = h'_\beta \circ h_\alpha$ for all $\alpha$ and $\beta$; (b) the image of A under the homomorphism $a \mapsto h_\alpha$ is *contained in* $\mathrm{Hom}_B(E, E)$; (c) the image of B under the homomorphism $\beta \mapsto h'_\beta$ is *contained in* $\mathrm{Hom}_A(E, E)$. When the A-module (resp. B-module) structure in question is a right module structure, the ring A (resp. B) must be replaced in (b) (resp. (c)) by $A^0$ (resp. $B^0$). The above properties can be expressed by saying that the two (left or right) module structures defined on E are *compatible*.
 
 #### Definition 13 {#alg-ii-s1-def-13 .statement}
 

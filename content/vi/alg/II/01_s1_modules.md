@@ -70,7 +70,7 @@ subsections:
       pdf_page: 248
 statements: 88
 exercises: 27
-content_sha256: b2127d9d7696cc4553facf48c05c3a344641d32141b928829499a77a96b6234c
+content_sha256: 3e896e193e0e31688a55484914df94b6fe2916c3a48f25ec05f8f51a8d5fbd7b
 translated_from: content/en/alg/II/01_s1_modules.md
 source_content_sha256: 7397d09a718f6180624ef63d3ea605fc93db2eb8eb18c2019f1e6cb60606e9b8
 translation_model: gpt-5.4, gpt-5-6, gpt-5-6-mini
@@ -130,9 +130,9 @@ $x = 1.x = 0.x = 0$.
 
 (2) Trên một nhóm giao hoán G (viết theo lối cộng tính), cấu trúc nhóm có toán tử được xác định bởi phép toán ngoài $(n, x) \mapsto n.x$ (I, § 3, no. 1) là một cấu trúc môđun trên vành $\mathbf{Z}$ các số nguyên.
 
-(3) Cho E là một nhóm giao hoán viết theo lối cộng tính, $\mathcal{E}$ là vành các tự đồng cấu của E (I, § 8, no. 3: nhắc lại rằng tích $fg$ của hai tự đồng cấu theo định nghĩa là tự đồng cấu hợp thành $f \circ g$). Phép toán ngoài $(f, x) \mapsto f(x)$ giữa các toán tử $f \in \mathscr{E}$ và các phần tử $x \in E$ xác định trên E một cấu trúc $\mathscr{E}$-môđun trái chính tắc.
+(3) Cho E là một nhóm giao hoán viết theo lối cộng tính, $\mathcal{E}$ là vành các tự đồng cấu của E (I, § 8, no. 3: nhắc lại rằng tích $fg$ của hai tự đồng cấu theo định nghĩa là tự đồng cấu hợp thành $f \circ g$). Phép toán ngoài $(f, x) \mapsto f(x)$ giữa các toán tử $f \in \mathcal{E}$ và các phần tử $x \in E$ xác định trên E một cấu trúc $\mathcal{E}$-môđun trái chính tắc.
 
-Bây giờ xét một vành A và giả sử trên E đã cho một cấu trúc A-môđun trái (resp. phải); với mọi $\alpha \in A$, phép vị tự $h_\alpha : x \mapsto \alpha x$ (resp. $x \mapsto x\alpha$) thuộc $\mathscr{E}$; ánh xạ $\phi : \alpha \mapsto h_\alpha$ là một đồng cấu của vành A (resp. vành đối $A^0$) vào vành $\mathscr{E}$ và theo định nghĩa $\alpha x = (\phi(\alpha))(x)$ (resp. $x\alpha = (\phi(\alpha))(x)$). Ngược lại, việc cho một đồng cấu vành $\phi : A \to \mathscr{E}$ (resp. $\phi : A^0 \to \mathscr{E}$) xác định một cấu trúc A-môđun trái (resp. phải) trên E theo các công thức trên. Nói cách khác, việc cho một cấu trúc A-môđun trái (resp. phải) trên một nhóm cộng E với luật cộng là luật nhóm đã cho tương đương với việc cho một đồng cấu vành $A \to \mathscr{E}$ (resp. $A^0 \to \mathscr{E}$).
+Bây giờ xét một vành A và giả sử trên E đã cho một cấu trúc A-môđun trái (resp. phải); với mọi $\alpha \in A$, phép vị tự $h_\alpha : x \mapsto \alpha x$ (resp. $x \mapsto x\alpha$) thuộc $\mathcal{E}$; ánh xạ $\phi : \alpha \mapsto h_\alpha$ là một đồng cấu của vành A (resp. vành đối $A^0$) vào vành $\mathcal{E}$ và theo định nghĩa $\alpha x = (\phi(\alpha))(x)$ (resp. $x\alpha = (\phi(\alpha))(x)$). Ngược lại, việc cho một đồng cấu vành $\phi : A \to \mathcal{E}$ (resp. $\phi : A^0 \to \mathcal{E}$) xác định một cấu trúc A-môđun trái (resp. phải) trên E theo các công thức trên. Nói cách khác, việc cho một cấu trúc A-môđun trái (resp. phải) trên một nhóm cộng E với luật cộng là luật nhóm đã cho tương đương với việc cho một đồng cấu vành $A \to \mathcal{E}$ (resp. $A^0 \to \mathcal{E}$).
 
 #### Định nghĩa 2 {#alg-ii-s1-def-2 .statement}
 
@@ -1232,7 +1232,7 @@ Như vậy, ta thấy rằng, đối với loài cấu trúc được xác đị
 
 ### 14. ĐA MÔĐUN
 
-Cho A, B là hai vành và xét trên một tập hợp E hai cấu trúc môđun trái có *cùng* luật cộng và lần lượt có vành các toán tử là A và B; gọi $\mathscr{E}$ là vành tự đồng cấu của nhóm cộng E và với mọi $\alpha \in A$ (tương ứng $\beta \in B$) gọi $h_\alpha$ (tương ứng $h'_\beta$) là phần tử $x \mapsto \alpha x$ (tương ứng $x \mapsto \beta x$) của $\mathscr{E}$. Rõ ràng ba tính chất sau là tương đương: (a) $h_\alpha \circ h'_\beta = h'_\beta \circ h_\alpha$ với mọi $\alpha$ và $\beta$; (b) ảnh của A dưới đồng cấu $a \mapsto h_\alpha$ thì *được chứa trong* $\mathrm{Hom}_B(E, E)$; (c) ảnh của B dưới đồng cấu $\beta \mapsto h'_\beta$ thì *được chứa trong* $\mathrm{Hom}_A(E, E)$. Khi cấu trúc A-môđun (tương ứng B-môđun) đang xét là một cấu trúc môđun phải, thì trong (b) (tương ứng (c)) phải thay A (tương ứng B) bằng $A^0$ (tương ứng $B^0$). Có thể phát biểu các tính chất trên bằng cách nói rằng hai cấu trúc môđun (trái hoặc phải) được định nghĩa trên E là *tương thích*.
+Cho A, B là hai vành và xét trên một tập hợp E hai cấu trúc môđun trái có *cùng* luật cộng và lần lượt có vành các toán tử là A và B; gọi $\mathcal{E}$ là vành tự đồng cấu của nhóm cộng E và với mọi $\alpha \in A$ (tương ứng $\beta \in B$) gọi $h_\alpha$ (tương ứng $h'_\beta$) là phần tử $x \mapsto \alpha x$ (tương ứng $x \mapsto \beta x$) của $\mathcal{E}$. Rõ ràng ba tính chất sau là tương đương: (a) $h_\alpha \circ h'_\beta = h'_\beta \circ h_\alpha$ với mọi $\alpha$ và $\beta$; (b) ảnh của A dưới đồng cấu $a \mapsto h_\alpha$ thì *được chứa trong* $\mathrm{Hom}_B(E, E)$; (c) ảnh của B dưới đồng cấu $\beta \mapsto h'_\beta$ thì *được chứa trong* $\mathrm{Hom}_A(E, E)$. Khi cấu trúc A-môđun (tương ứng B-môđun) đang xét là một cấu trúc môđun phải, thì trong (b) (tương ứng (c)) phải thay A (tương ứng B) bằng $A^0$ (tương ứng $B^0$). Có thể phát biểu các tính chất trên bằng cách nói rằng hai cấu trúc môđun (trái hoặc phải) được định nghĩa trên E là *tương thích*.
 
 #### Định nghĩa 13 {#alg-ii-s1-def-13 .statement}
 

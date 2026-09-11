@@ -63,7 +63,7 @@ chapters:
           statements: 29
           exercises: 19
           extraction: ocr
-          content_sha256: 5ebb6c8a429b73fb0e96f7c1b840436916f3f85cfd822df95c442238a2791ff1
+          content_sha256: eefdeb9c83cb1d5c7454a349a45c438c67860c27947a2da7eaf95bef1cfe789b
         - kind: section
           section: 4
           title: Produits de torsion
@@ -89,7 +89,7 @@ chapters:
           statements: 36
           exercises: 8
           extraction: ocr
-          content_sha256: a8e0b6026ac3a6b3cf91b3261cf288e27bfe5f90539217221d869c3e7ea01bd3
+          content_sha256: fc6a14f95feff6e18ee557c23684f8b351f1e029bb29cd31eb44e7305d9c3204
         - kind: section
           section: 6
           title: Utilisation de résolutions non canoniques
@@ -115,7 +115,7 @@ chapters:
           statements: 34
           exercises: 11
           extraction: ocr
-          content_sha256: 8030f2c6ec5b3b69eb251de1fd3bb272ebbe075c7b637f8643776b9f19219334
+          content_sha256: c72b3079baabb98afd4dd1c4c959e340a9fa65afd9bcb2aafcb4e94723f2c40b
         - kind: section
           section: 8
           title: Dimension homologique

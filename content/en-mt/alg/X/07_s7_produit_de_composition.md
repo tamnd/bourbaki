@@ -49,11 +49,11 @@ subsections:
       pdf_page: 138
 statements: 34
 exercises: 11
-content_sha256: d8c8eb99f6650920ba4deb364722d8d7f501be8f487b2644b5e098c334c1068e
+content_sha256: 508554e7b85d1e30ccb16b00a5b7ebd7eb2a64c9b343442451ab43a998a070fa
 translated_from: content/fr/alg/X/07_s7_produit_de_composition.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 8030f2c6ec5b3b69eb251de1fd3bb272ebbe075c7b637f8643776b9f19219334
+source_content_sha256: c72b3079baabb98afd4dd1c4c959e340a9fa65afd9bcb2aafcb4e94723f2c40b
 translation_model: laguna-s-2.1-free, hy3-free, gpt-5-mini
 translation_run: translate-en-mt-71c9c53e
 glossary_version: 34
@@ -973,19 +973,19 @@ $$
 
 Indeed, if $\theta$ and $\theta_1$ are the classes associated with the given exact sequences, and if $\gamma \in \mathrm{Tor}_n^A(P'', M'')$, the images of $\gamma$ are respectively $\theta \circ (\theta_1 \circ \gamma)$ and $\theta_1 \circ (\theta \circ \gamma)$, hence are opposite by prop. 6.
 
-Let us resume the notations of X, p. 127 and consider the sequence $(\mathscr{S})$ of left $A$-modules and the connecting homomorphisms associated with the exact sequences (9)
+Let us resume the notations of X, p. 127 and consider the sequence $(\mathcal{S})$ of left $A$-modules and the connecting homomorphisms associated with the exact sequences (9)
 $$
 \mathrm{Tor}_m^A(P, K_{i-1}) \to \mathrm{Tor}_{m-1}^A(P, K_i);
 $$
 we deduce from this by composition of the *iterated connecting homomorphisms*
 $$
-\hat{\partial}_m(P, \mathscr{S}) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A(P, N).
+\hat{\partial}_m(P, \mathcal{S}) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A(P, N).
 $$
 Then by prop. 7 and prop. 3 of X, p. 118 :
 
 #### Corollary 2 {#alg-x-s7-prop-7-cor-2 .statement}
 
-If $\theta \in \mathrm{Ext}_A^n(M, N)$ is the class associated with the exact sequence $(\mathscr{S})$, we have $\hat{\partial}_m(P, \mathscr{S})(\alpha) = \theta \circ \alpha$ for all $\alpha \in \mathrm{Tor}_m^A(P, M)$.
+If $\theta \in \mathrm{Ext}_A^n(M, N)$ is the class associated with the exact sequence $(\mathcal{S})$, we have $\hat{\partial}_m(P, \mathcal{S})(\alpha) = \theta \circ \alpha$ for all $\alpha \in \mathrm{Tor}_m^A(P, M)$.
 
 #### Corollary 3 {#alg-x-s7-prop-7-cor-3 .statement}
 

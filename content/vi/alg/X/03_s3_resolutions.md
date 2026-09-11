@@ -49,11 +49,11 @@ subsections:
       pdf_page: 64
 statements: 29
 exercises: 19
-content_sha256: f352f2576ab279eed7807e006084b19b8fc7707f6a31e8022146dab85e262772
+content_sha256: c57955eb40177cc2abb99be907d9e2f65a9faf2bd88c182740f8f765ea29ea52
 translated_from: content/en-mt/alg/X/03_s3_resolutions.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: a1b2e48f6dae81d4cf5b709be2d47f83208c48b5e620837f8b9559aaa92197bf
+source_content_sha256: ec6866e0de0c595cd616d3181eec4de64acddca12deb95ce15ed831c73093802
 translation_model: gpt-5.4
 translation_run: translate-vi-950f1267
 glossary_version: 34
@@ -835,7 +835,7 @@ $$
 $$
 điều phải chứng minh.
 
-c) Khi đó, cho $\beta : K(\mathscr{C}) \to K(\mathscr{C}_0)$ là đồng cấu sao cho, với các ký hiệu đứng trước, ta có $\beta([M]_{\mathscr{C}})=\chi_{\mathscr{C}_0}(P)$. Vì $p$ là một đồng cấu, ta có $\chi_{\mathscr{C}}(P)=[M]_{\mathscr{C}}$, do đó $\alpha\circ\beta([M]_{\mathscr{C}})=\alpha(\chi_{\mathscr{C}_0}(P))=\chi_{\mathscr{C}}(P)=[M]_{\mathscr{C}}$ và $\alpha\circ\beta=1_{K(\mathscr{C})}$. Nếu $M$ là kiểu $\mathscr{C}_0$, thì $(M,1_M)$ là một phân giải của $M$, do đó $\varphi(M)=[M]_{\mathscr{C}_0}$ và $\beta\circ\alpha=1_{K(\mathscr{C}_0)}$, điều này hoàn tất chứng minh.
+c) Khi đó, cho $\beta : K(\mathcal{C}) \to K(\mathcal{C}_0)$ là đồng cấu sao cho, với các ký hiệu đứng trước, ta có $\beta([M]_{\mathcal{C}})=\chi_{\mathcal{C}_0}(P)$. Vì $p$ là một đồng cấu, ta có $\chi_{\mathcal{C}}(P)=[M]_{\mathcal{C}}$, do đó $\alpha\circ\beta([M]_{\mathcal{C}})=\alpha(\chi_{\mathcal{C}_0}(P))=\chi_{\mathcal{C}}(P)=[M]_{\mathcal{C}}$ và $\alpha\circ\beta=1_{K(\mathcal{C})}$. Nếu $M$ là kiểu $\mathcal{C}_0$, thì $(M,1_M)$ là một phân giải của $M$, do đó $\varphi(M)=[M]_{\mathcal{C}_0}$ và $\beta\circ\alpha=1_{K(\mathcal{C}_0)}$, điều này hoàn tất chứng minh.
 
 Ta sẽ áp dụng định lý này cho các môđun có "chiều xạ ảnh hữu hạn" trong § 8 (X, p. 137).
 

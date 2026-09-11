@@ -49,7 +49,7 @@ subsections:
       pdf_page: 138
 statements: 34
 exercises: 11
-content_sha256: 8030f2c6ec5b3b69eb251de1fd3bb272ebbe075c7b637f8643776b9f19219334
+content_sha256: c72b3079baabb98afd4dd1c4c959e340a9fa65afd9bcb2aafcb4e94723f2c40b
 ---
 
 ## § 7. PRODUIT DE COMPOSITION
@@ -1053,7 +1053,7 @@ $$
 
 En effet, si $\theta$ et $\theta_1$ sont les classes associées aux suites exactes données, et si $\gamma \in \mathrm{Tor}_n^A(P'', M'')$, les images de $\gamma$ sont respectivement $\theta \circ (\theta_1 \circ \gamma)$ et $\theta_1 \circ (\theta \circ \gamma)$, donc sont opposées d’après la prop. 6.
 
-Reprenons les notations de X, p. 127 et considérons la suite $(\mathscr{S})$ de $A$-modules à gauche et les homomorphismes de liaison associés aux suites exactes (9)
+Reprenons les notations de X, p. 127 et considérons la suite $(\mathcal{S})$ de $A$-modules à gauche et les homomorphismes de liaison associés aux suites exactes (9)
 
 $$
 \mathrm{Tor}_m^A(P, K_{i-1}) \to \mathrm{Tor}_{m-1}^A(P, K_i);
@@ -1062,14 +1062,14 @@ $$
 on en déduit par composition des *homomorphismes de liaison itérés*
 
 $$
-\hat{\partial}_m(P, \mathscr{S}) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A(P, N).
+\hat{\partial}_m(P, \mathcal{S}) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A(P, N).
 $$
 
 Alors d’après la prop. 7 et la prop. 3 de X, p. 118 :
 
 #### Corollaire 2 {#alg-x-s7-prop-7-cor-2 .statement}
 
-*Si* $\theta \in \mathrm{Ext}_A^n(M, N)$ *est la classe associée à la suite exacte* $(\mathscr{S})$, *on a* $\hat{\partial}_m(P, \mathscr{S})(\alpha) = \theta \circ \alpha$ *pour tout* $\alpha \in \mathrm{Tor}_m^A(P, M)$.
+*Si* $\theta \in \mathrm{Ext}_A^n(M, N)$ *est la classe associée à la suite exacte* $(\mathcal{S})$, *on a* $\hat{\partial}_m(P, \mathcal{S})(\alpha) = \theta \circ \alpha$ *pour tout* $\alpha \in \mathrm{Tor}_m^A(P, M)$.
 
 #### Corollaire 3 {#alg-x-s7-prop-7-cor-3 .statement}
 

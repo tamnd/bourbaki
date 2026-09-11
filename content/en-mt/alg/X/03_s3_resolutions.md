@@ -49,11 +49,11 @@ subsections:
       pdf_page: 64
 statements: 29
 exercises: 19
-content_sha256: a1b2e48f6dae81d4cf5b709be2d47f83208c48b5e620837f8b9559aaa92197bf
+content_sha256: ec6866e0de0c595cd616d3181eec4de64acddca12deb95ce15ed831c73093802
 translated_from: content/fr/alg/X/03_s3_resolutions.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 5ebb6c8a429b73fb0e96f7c1b840436916f3f85cfd822df95c442238a2791ff1
+source_content_sha256: eefdeb9c83cb1d5c7454a349a45c438c67860c27947a2da7eaf95bef1cfe789b
 translation_model: gpt-5.4
 translation_run: translate-en-mt-931dafce
 glossary_version: 34
@@ -835,7 +835,7 @@ $$
 $$
 which was to be proved.
 
-c) Let then $\beta : K(\mathscr{C}) \to K(\mathscr{C}_0)$ be the homomorphism such that, with the preceding notations, we have $\beta([M]_{\mathscr{C}})=\chi_{\mathscr{C}_0}(P)$. Since $p$ is a homomorphism, we have $\chi_{\mathscr{C}}(P)=[M]_{\mathscr{C}}$, hence $\alpha\circ\beta([M]_{\mathscr{C}})=\alpha(\chi_{\mathscr{C}_0}(P))=\chi_{\mathscr{C}}(P)=[M]_{\mathscr{C}}$ and $\alpha\circ\beta=1_{K(\mathscr{C})}$. If $M$ is of type $\mathscr{C}_0$, then $(M,1_M)$ is a resolution of $M$, hence $\varphi(M)=[M]_{\mathscr{C}_0}$ and $\beta\circ\alpha=1_{K(\mathscr{C}_0)}$, which completes the proof.
+c) Let then $\beta : K(\mathcal{C}) \to K(\mathcal{C}_0)$ be the homomorphism such that, with the preceding notations, we have $\beta([M]_{\mathcal{C}})=\chi_{\mathcal{C}_0}(P)$. Since $p$ is a homomorphism, we have $\chi_{\mathcal{C}}(P)=[M]_{\mathcal{C}}$, hence $\alpha\circ\beta([M]_{\mathcal{C}})=\alpha(\chi_{\mathcal{C}_0}(P))=\chi_{\mathcal{C}}(P)=[M]_{\mathcal{C}}$ and $\alpha\circ\beta=1_{K(\mathcal{C})}$. If $M$ is of type $\mathcal{C}_0$, then $(M,1_M)$ is a resolution of $M$, hence $\varphi(M)=[M]_{\mathcal{C}_0}$ and $\beta\circ\alpha=1_{K(\mathcal{C}_0)}$, which completes the proof.
 
 We shall apply this theorem to modules of "finite projective dimension" in § 8 (X, p. 137).
 

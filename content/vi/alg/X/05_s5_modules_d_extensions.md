@@ -41,11 +41,11 @@ subsections:
       pdf_page: 104
 statements: 36
 exercises: 8
-content_sha256: c4f270b402e8a155330b74e70a2a218bfeeac7c7cfdd475b9bf8631d8ea513d9
+content_sha256: 82c878219af2f82c63a69eaedce3d0c93087fb491e7ecb87923ab5b3b87e9196
 translated_from: content/en-mt/alg/X/05_s5_modules_d_extensions.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 2a8f00d4abc6191a2668f4c8873a54f6d7bcf2ec527b7111642fb1cc059355aa
+source_content_sha256: 04bb17e328162e2f2fe5d95ba8637a898fe9f0783875c24808d201a703cf4217
 translation_model: gpt-5-6-mini, gpt-5-mini
 translation_run: translate-vi-dc665973
 glossary_version: 34
@@ -634,9 +634,9 @@ là một biểu đồ giao hoán các $A$-môđun với các hàng khớp. Bi�
 
 $$
 \begin{array}{ccc}
-\mathrm{Ext}_A(M, N'') & \xrightarrow{\delta(M, \mathscr{E})} & \mathrm{Ext}_A(M, N') \\
+\mathrm{Ext}_A(M, N'') & \xrightarrow{\delta(M, \mathcal{E})} & \mathrm{Ext}_A(M, N') \\
 \mathrm{Ext}(f, g'') \downarrow & & \mathrm{Ext}(f, g') \downarrow \\
-\mathrm{Ext}_A(M_1, N''_1) & \xrightarrow{\delta(M, \mathscr{E}_1)} & \mathrm{Ext}_A(M_1, N'_1)
+\mathrm{Ext}_A(M_1, N''_1) & \xrightarrow{\delta(M, \mathcal{E}_1)} & \mathrm{Ext}_A(M_1, N'_1)
 \end{array}
 $$
 

@@ -49,7 +49,7 @@ subsections:
       pdf_page: 64
 statements: 29
 exercises: 19
-content_sha256: 5ebb6c8a429b73fb0e96f7c1b840436916f3f85cfd822df95c442238a2791ff1
+content_sha256: eefdeb9c83cb1d5c7454a349a45c438c67860c27947a2da7eaf95bef1cfe789b
 ---
 
 ## § 3. RÉSOLUTIONS
@@ -826,7 +826,7 @@ $$
 $$
 ce qu’on voulait démontrer.
 
-c) Soit alors $\beta : K(\mathscr{C}) \to K(\mathscr{C}_0)$ l’homomorphisme tel que, avec les notations précédentes, on ait $\beta([M]_{\mathscr{C}})=\chi_{\mathscr{C}_0}(P)$. Comme $p$ est un homomolisme, on a $\chi_{\mathscr{C}}(P)=[M]_{\mathscr{C}}$, donc $\alpha\circ\beta([M]_{\mathscr{C}})=\alpha(\chi_{\mathscr{C}_0}(P))=\chi_{\mathscr{C}}(P)=[M]_{\mathscr{C}}$ et $\alpha\circ\beta=1_{K(\mathscr{C})}$. Si $M$ est de type $\mathscr{C}_0$, alors $(M,1_M)$ est une résolution de $M$, donc $\varphi(M)=[M]_{\mathscr{C}_0}$ et $\beta\circ\alpha=1_{K(\mathscr{C}_0)}$, ce qui achève la démonstration.
+c) Soit alors $\beta : K(\mathcal{C}) \to K(\mathcal{C}_0)$ l’homomorphisme tel que, avec les notations précédentes, on ait $\beta([M]_{\mathcal{C}})=\chi_{\mathcal{C}_0}(P)$. Comme $p$ est un homomolisme, on a $\chi_{\mathcal{C}}(P)=[M]_{\mathcal{C}}$, donc $\alpha\circ\beta([M]_{\mathcal{C}})=\alpha(\chi_{\mathcal{C}_0}(P))=\chi_{\mathcal{C}}(P)=[M]_{\mathcal{C}}$ et $\alpha\circ\beta=1_{K(\mathcal{C})}$. Si $M$ est de type $\mathcal{C}_0$, alors $(M,1_M)$ est une résolution de $M$, donc $\varphi(M)=[M]_{\mathcal{C}_0}$ et $\beta\circ\alpha=1_{K(\mathcal{C}_0)}$, ce qui achève la démonstration.
 
 Nous appliquerons ce théorème aux modules de « dimension projective finie » au § 8 (X, p. 137).
 
