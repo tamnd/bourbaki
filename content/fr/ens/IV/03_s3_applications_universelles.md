@@ -26,18 +26,18 @@ subsections:
       pdf_page: 228
 statements: 0
 exercises: 3
-content_sha256: a2897706a753f536281af7306b30f6322431c9ff55fd294d472b6fb300161861
+content_sha256: 5ee1c90fe6c4971f952392abf21bb5dae936cf9557e2bff096e525f37052b89f
 ---
 
 ## § 3. APPLICATIONS UNIVERSELLES
 
 ### 1. Ensembles et applications universels
 
-Soit $\mathcal{T}$ une théorie plus forte que la théorie des ensembles, et soit $E$ un terme de $\mathcal{T}$. Soit $\Sigma$ une espèce de structure dans $\mathcal{T}$ (que nous supposons toujours, pour simplifier, définie sur un seul ensemble de base (principal)); pour abréger, nous dirons « $\Sigma$-ensemble » pour « ensemble muni d'une structure d'espèce $\Sigma$ ». Nous supposons en outre qu'on ait défini, pour l'espèce $\Sigma$, une notion de $\sigma$-morphisme (IV, p. 11) (comme au § 2, nous dirons « morphisme » au lieu de « $\sigma$-morphisme »). Enfin, l'espèce $\Sigma$ étant définie sur l'ensemble de base $x$, et ayant $s$ comme structure générique (IV, p. 4), supposons défini, dans $\mathcal{T}_\Sigma$, un terme $\alpha \{ x, s \}$ vérifiant les conditions suivantes:
+Soit $\mathscr{T}$ une théorie plus forte que la théorie des ensembles, et soit $E$ un terme de $\mathscr{T}$. Soit $\Sigma$ une espèce de structure dans $\mathscr{T}$ (que nous supposons toujours, pour simplifier, définie sur un seul ensemble de base (principal)); pour abréger, nous dirons « $\Sigma$-ensemble » pour « ensemble muni d'une structure d'espèce $\Sigma$ ». Nous supposons en outre qu'on ait défini, pour l'espèce $\Sigma$, une notion de $\sigma$-morphisme (IV, p. 11) (comme au § 2, nous dirons « morphisme » au lieu de « $\sigma$-morphisme »). Enfin, l'espèce $\Sigma$ étant définie sur l'ensemble de base $x$, et ayant $s$ comme structure générique (IV, p. 4), supposons défini, dans $\mathscr{T}_\Sigma$, un terme $\alpha \{ x, s \}$ vérifiant les conditions suivantes:
 
-(QM_I) La relation $\alpha \{ x, s \} \subset \mathcal{F}(E; x)$ est vraie dans $\mathcal{T}_\Sigma$.
+(QM_I) La relation $\alpha \{ x, s \} \subset \mathscr{F}(E; x)$ est vraie dans $\mathscr{T}_\Sigma$.
 
-(QM_{II}) Si, dans une théorie $\mathcal{T}'$ plus forte que $\mathcal{T}$, $F, F'$ sont deux ensembles munis de structures $\mathcal{S}, \mathcal{S}'$ d'espèce $\Sigma$, et si $f$ est un morphisme de $F$ dans $F'$, alors la relation $\varphi \in \alpha \{ F, \mathcal{S} \}$ entraîne $f \circ \varphi \in \alpha \{ F', \mathcal{S}' \}$.
+(QM_{II}) Si, dans une théorie $\mathscr{T}'$ plus forte que $\mathscr{T}$, $F, F'$ sont deux ensembles munis de structures $\mathscr{S}, \mathscr{S}'$ d'espèce $\Sigma$, et si $f$ est un morphisme de $F$ dans $F'$, alors la relation $\varphi \in \alpha \{ F, \mathscr{S} \}$ entraîne $f \circ \varphi \in \alpha \{ F', \mathscr{S}' \}$.
 
 Nous exprimerons la relation $\varphi \in \alpha \{ x, s \}$ en disant que $\varphi$ est une $\alpha$-application de $E$ dans $x$ (muni de $s$).
 
@@ -101,7 +101,7 @@ On dit encore dans ce cas que les $\alpha$-applications séparent les éléments
 
 *Les exemples qui suivent seront, pour la plupart, traités en détail dans la suite de cet ouvrage.
 
-I. Structures algébriques libres. — Soient $E$ un ensemble, $\Sigma$ une espèce de structure algébrique définie par une ou plusieurs lois de composition; nous prendrons comme morphismes les homomorphismes (pour toutes les lois envisagées), et les $\alpha$-applications seront les applications quelconques de $E$ dans un $\Sigma$-ensemble (autrement dit, $\alpha : x, s \mapsto \mathcal{F}(E; x)$). Toutes les espèces de structure algébrique usuelles vérifient (CU_{III}); à l’exception de la structure de corps, elles vérifient aussi (CU_I), et (CU_{II}) est ici une conséquence triviale de (CU_I).
+I. Structures algébriques libres. — Soient $E$ un ensemble, $\Sigma$ une espèce de structure algébrique définie par une ou plusieurs lois de composition; nous prendrons comme morphismes les homomorphismes (pour toutes les lois envisagées), et les $\alpha$-applications seront les applications quelconques de $E$ dans un $\Sigma$-ensemble (autrement dit, $\alpha : x, s \mapsto \mathscr{F}(E; x)$). Toutes les espèces de structure algébrique usuelles vérifient (CU_{III}); à l’exception de la structure de corps, elles vérifient aussi (CU_I), et (CU_{II}) est ici une conséquence triviale de (CU_I).
 
 Comme en général il existe des structures d’espèce $\Sigma$ définies sur des ensembles ayant au moins deux éléments, les $\alpha$-applications séparent les éléments de $E$, et on considère donc $E$ comme plongé dans $F_E$. On dit que $F_E$ est le $\Sigma$-ensemble libre engendré par $E$; c’est ainsi qu’on parle en Algèbre de monoïde libre (A, I, § 7, n° 2), de groupe libre (A, I, § 7, n° 5), de module libre (A, II, § 1, n° 11), d’algèbre libre (A, III, § 2, n° 7).
 

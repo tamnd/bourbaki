@@ -65,7 +65,7 @@ subsections:
       pdf_page: 118
 statements: 54
 exercises: 24
-content_sha256: e8636030bb5204462477ba31e04cf9cd9d4eaf09e715823362ece1af081fd7f2
+content_sha256: 476e71786246a15ba4203a86dacbf0dc9a0d480fd22311d030af360332b37c07
 ---
 
 ## § 1. RELATIONS D’ORDRE.. ENSEMBLES ORDONNÉS
@@ -108,7 +108,7 @@ Soient $E$ et $F$ des ensembles. La relation « $g$ prolonge $f$ » est une rela
 
 #### Exemple 4 {#ens-iii-s1-n1-exa-4 .statement tag=03V3}
 
-Dans l’ensemble $\mathcal{P}(\mathcal{P}(E))$ des ensembles de parties d’un ensemble $E$, soit $\mathcal{P}$ l’ensemble des *partitions* de $E$ (II, p. 29). Rappelons qu’une partition $\varpi$ est dite *moins fine* qu’une partition $\varpi'$ si, quel que soit $Y \in \varpi'$, il existe $X \in \varpi$ tel que $Y \subset X$ (II, p. 27). Pour toute partition $\varpi \in \mathcal{P}$, soit $\tilde{\varpi}$ le graphe de l’équivalence définie par $\varpi$ dans $E$ (II, p. 42), c’est-à-dire la réunion des ensembles (mutuellement disjoints) $A \times A$, où $A$ parcourt $\varpi$. La relation « $\varpi$ est moins fine que $\varpi'$ » est équivalente à $\tilde{\varpi} \supset \tilde{\varpi}'$, comme on le voit immédiatement; c’est donc une relation d’ordre dans l’ensemble $\mathcal{P}$, entre $\varpi$ et $\varpi'$.
+Dans l’ensemble $\mathscr{P}(\mathscr{P}(E))$ des ensembles de parties d’un ensemble $E$, soit $\mathscr{P}$ l’ensemble des *partitions* de $E$ (II, p. 29). Rappelons qu’une partition $\varpi$ est dite *moins fine* qu’une partition $\varpi'$ si, quel que soit $Y \in \varpi'$, il existe $X \in \varpi$ tel que $Y \subset X$ (II, p. 27). Pour toute partition $\varpi \in \mathscr{P}$, soit $\tilde{\varpi}$ le graphe de l’équivalence définie par $\varpi$ dans $E$ (II, p. 42), c’est-à-dire la réunion des ensembles (mutuellement disjoints) $A \times A$, où $A$ parcourt $\varpi$. La relation « $\varpi$ est moins fine que $\varpi'$ » est équivalente à $\tilde{\varpi} \supset \tilde{\varpi}'$, comme on le voit immédiatement; c’est donc une relation d’ordre dans l’ensemble $\mathscr{P}$, entre $\varpi$ et $\varpi'$.
 
 On appelle *ordre* sur un ensemble $E$ une correspondance $\Gamma = (G, E, E)$ ayant $E$ comme ensemble de départ et ensemble d’arrivée et telle que la relation $(x, y) \in G$ soit une relation d’ordre dans $E$. Par abus de langage, on dira parfois que le graphe $G$ de $\Gamma$ est un ordre sur $E$. Si $R\{x, y\}$ est une relation d’ordre dans $E$, elle admet un graphe, qui est un ordre sur $E$.
 
@@ -144,7 +144,7 @@ $$
 
 $R$ n’est pas nécessairement une relation d’ordre, car la relation $(R\{x, y\}$ et $R\{y, x\})$ n’entraîne pas nécessairement $x = y$. On dit que $R\{x, y\}$ est une *relation de préordre* entre $x$ et $y$; $R \{ y, x \}$ est alors une relation de préordre entre $x$ et $y$, dite *opposée* à $R \{ x, y \}$.
 
-Par exemple, soit $\mathcal{R}$ l’ensemble des parties de $\mathfrak{P}(E)$ qui sont des recouvrements de $E$ (II, p. 27). La relation « $\mathfrak{R}$ est moins fin que $\mathfrak{R}'$ » entre éléments $\mathfrak{R}, \mathfrak{R}'$ de $\mathcal{R}$ (II, p. 27) est transitive et réflexive, mais deux recouvrements distincts peuvent être tels que chacun soit moins fin que l’autre. Il en est par exemple ainsi lorsque $\mathfrak{R}'$ est (dans $\mathfrak{P}(E)$) réunion de $\mathfrak{R}$ et d’une partie de $E$ contenue dans un ensemble de $\mathfrak{R}$, mais n’appartenant pas à $\mathfrak{R}$.
+Par exemple, soit $\mathscr{R}$ l’ensemble des parties de $\mathfrak{P}(E)$ qui sont des recouvrements de $E$ (II, p. 27). La relation « $\mathfrak{R}$ est moins fin que $\mathfrak{R}'$ » entre éléments $\mathfrak{R}, \mathfrak{R}'$ de $\mathscr{R}$ (II, p. 27) est transitive et réflexive, mais deux recouvrements distincts peuvent être tels que chacun soit moins fin que l’autre. Il en est par exemple ainsi lorsque $\mathfrak{R}'$ est (dans $\mathfrak{P}(E)$) réunion de $\mathfrak{R}$ et d’une partie de $E$ contenue dans un ensemble de $\mathfrak{R}$, mais n’appartenant pas à $\mathfrak{R}$.
 
 Mais en tout cas la relation $(R \{ x, y \}$ et $R \{ y, x \} )$ est une *relation d’équivalence* $S \{ x, y \}$ par rapport à $x$ et $y$. Soient $x'$ et $y'$ des lettres distinctes de $x, y$ et ne figurant pas dans $R$; alors $R \{ x, y \}$ est *compatible* (par rapport à $x$ et $y$) avec les relations d’équivalence $S \{ x, x' \}$ et $S \{ y, y' \}$; autrement dit (II, p. 42) la relation $(R \{ x, y \}$ et $S \{ x, x' \}$ et $S \{ y, y' \} )$ entraîne $R \{ x', y' \}$.
 
@@ -232,13 +232,13 @@ $$
 
 (I, p. 31, critère C24). Pour démontrer la seconde, on remarque d'abord que chacune des hypothèses entraîne $x \leq z$, d'après la transitivité; d'autre part, la relation ($x = z$ et $x \leq y$ et $y \leq z$) entraînerait $x = y = z$, ce qui est contraire à l'hypothèse.
 
-Afin de rendre l'exposé plus commode, et de remplacer par des théorèmes mathématiques les critères métamathématiques, nous allons le plus souvent nous placer dans une théorie $\mathcal{T}$, comprenant les axiomes et schémas d'axiomes de la théorie des ensembles, et en outre deux constantes $E$ et $\Gamma$ satisfaisant à l'axiome:
+Afin de rendre l'exposé plus commode, et de remplacer par des théorèmes mathématiques les critères métamathématiques, nous allons le plus souvent nous placer dans une théorie $\mathscr{T}$, comprenant les axiomes et schémas d'axiomes de la théorie des ensembles, et en outre deux constantes $E$ et $\Gamma$ satisfaisant à l'axiome:
 
 « $\Gamma$ est un ordre sur l'ensemble $E$ » (III, p. 2).
 
 Nous noterons $x \leq y$ la relation $y \in \Gamma \langle x \rangle$, et nous dirons que $E$ est un ensemble ordonné par l'ordre $\Gamma$ (ou par la relation d'ordre $y \in \Gamma \langle x \rangle$) (IV, p. 5).
 
-Lorsque, dans $\mathcal{T}$, $\Gamma$ est un préordre sur $E$, on dit de même que $E$ est un ensemble préordonné par le préordre $\Gamma$.
+Lorsque, dans $\mathscr{T}$, $\Gamma$ est un préordre sur $E$, on dit de même que $E$ est un ensemble préordonné par le préordre $\Gamma$.
 
 Dans certains cas (par exemple dans la définition qui suit), les théories dans lesquelles nous nous placerons seront un peu plus compliquées. Nous laisserons au lecteur le soin d'expliciter les constantes et les axiomes de ces théories.
 
@@ -254,7 +254,7 @@ Les relations induites par la relation d’inclusion X ⊂ Y sur divers ensemble
 
 1) Soient E, F deux ensembles, Φ(E, F) l’ensemble des applications de parties de E dans F; pour toute fonction f ∈ Φ(E, F), soit G_f le graphe de f, qui est une partie de E × F. Si on munit Φ(E, F) de la relation d’ordre « g prolonge f » entre f et g (III, p. 2, Exemple 3), f ↦ G_f est un isomorphisme de l’ensemble ordonné Φ(E, F) sur un sous-ensemble de $\mathfrak{P}(E \times F)$, ordonné par la relation d’inclusion.
 
-2) Pour toute partition ω d’un ensemble E, soit $\tilde{\omega}$ le graphe de l’équivalence définie par ω dans E. L’application ω ↦ $\tilde{\omega}$ est un isomorphisme de l’ensemble $\mathcal{P}$ des partitions de E, ordonné par la relation « ω est plus fine que ω’ » entre ω et ω’ (III, p. 2, Exemple 4) sur un sous-ensemble de $\mathfrak{P}(E \times E)$, ordonné par la relation d’inclusion.
+2) Pour toute partition ω d’un ensemble E, soit $\tilde{\omega}$ le graphe de l’équivalence définie par ω dans E. L’application ω ↦ $\tilde{\omega}$ est un isomorphisme de l’ensemble $\mathscr{P}$ des partitions de E, ordonné par la relation « ω est plus fine que ω’ » entre ω et ω’ (III, p. 2, Exemple 4) sur un sous-ensemble de $\mathfrak{P}(E \times E)$, ordonné par la relation d’inclusion.
 
 3) Soient E un ensemble, $\Omega \subset \mathfrak{P}(E \times E)$ l’ensemble des graphes des préordres sur E (III, p. 4) (ou, par abus de langage, l’ensemble des préordres sur E). La relation d’ordre s ⊂ t entre s et t, induite sur Ω par la relation d’inclusion dans $\mathfrak{P}(E \times E)$, s’exprime en disant que « le préordre s est plus fin que t » (ou que « t est moins fin que s ») Notons x(s)y et x(t)y respectivement les relations de préordre (x, y) ∈ s et (x, y) ∈ t dans E; dire que s est plus fin que t revient à dire que la relation x(s)y entraîne x(t)y.
 
@@ -322,7 +322,7 @@ Tout élément minimal de $E$ est un élément maximal pour l'ordre opposé, et 
 
 #### Exemple 1 {#ens-iii-s1-n6-exa-1 .statement tag=03SM}
 
-Soit $A$ un ensemble; dans la partie de $\mathcal{P}(A)$ (ordonnée par inclusion) formée des parties non vides de $A$, les éléments minimaux sont les parties réduites à un élément.
+Soit $A$ un ensemble; dans la partie de $\mathscr{P}(A)$ (ordonnée par inclusion) formée des parties non vides de $A$, les éléments minimaux sont les parties réduites à un élément.
 
 #### Exemple 2 {#ens-iii-s1-n6-exa-2 .statement tag=03SN}
 
@@ -350,11 +350,11 @@ Si $E$ admet un plus petit élément $a$, $a$ est l'unique élément minimal de 
 
 #### Exemple 1 {#ens-iii-s1-n7-exa-1 .statement tag=03SQ}
 
-Soit $\mathcal{G}$ une partie non vide de l'ensemble $\mathcal{P}(E)$ des parties d'un ensemble $E$. Si $\mathcal{G}$ admet un plus petit (resp. plus grand) élément $A$ pour la relation d'inclusion, $A$ n'est autre que l'intersection (resp. la réunion) des ensembles de $\mathcal{G}$. Réciproquement, si l'intersection (resp. la réunion) des ensembles de $\mathcal{G}$ appartient à $\mathcal{G}$, c'est le plus petit (resp. plus grand) élément de $\mathcal{G}$.
+Soit $\mathscr{G}$ une partie non vide de l'ensemble $\mathscr{P}(E)$ des parties d'un ensemble $E$. Si $\mathscr{G}$ admet un plus petit (resp. plus grand) élément $A$ pour la relation d'inclusion, $A$ n'est autre que l'intersection (resp. la réunion) des ensembles de $\mathscr{G}$. Réciproquement, si l'intersection (resp. la réunion) des ensembles de $\mathscr{G}$ appartient à $\mathscr{G}$, c'est le plus petit (resp. plus grand) élément de $\mathscr{G}$.
 
 #### Exemple 2 {#ens-iii-s1-n7-exa-2 .statement tag=03SR}
 
-En particulier, $\varnothing$ est le plus petit élément et $E$ le plus grand élément de $\mathcal{P}(E)$. Dans l'ensemble $\Phi(E, F)$ des applications de parties de $E$ dans $F$, ordonné par prolongement (III, p. 2, Exemple 3) l'application vide est le plus petit élément, et il n’y a pas de plus grand élément si F n’est pas réduit à un seul élément. Enfin, la diagonale Δ de E × E est le plus petit élément de l’ensemble des graphes des équivalences sur E (ou des préordres sur E).
+En particulier, $\varnothing$ est le plus petit élément et $E$ le plus grand élément de $\mathscr{P}(E)$. Dans l'ensemble $\Phi(E, F)$ des applications de parties de $E$ dans $F$, ordonné par prolongement (III, p. 2, Exemple 3) l'application vide est le plus petit élément, et il n’y a pas de plus grand élément si F n’est pas réduit à un seul élément. Enfin, la diagonale Δ de E × E est le plus petit élément de l’ensemble des graphes des équivalences sur E (ou des préordres sur E).
 
 #### Proposition 3 {#ens-iii-s1-prop-3 .statement tag=03JH}
 
@@ -402,7 +402,7 @@ L’ensemble des majorants de la partie vide $\varnothing$ d’un ensemble ordon
 
 #### Exemple 2 {#ens-iii-s1-n9-exa-2 .statement tag=03ST}
 
-Dans l’ensemble $\mathfrak{P}(E)$ des parties d’un ensemble E, ordonné par inclusion, toute partie $\mathcal{G}$ de $\mathfrak{P}(E)$ admet une borne supérieure, qui est la réunion des ensembles de $\mathcal{G}$, et une borne inférieure, qui est l’intersection des ensembles de $\mathcal{G}$.
+Dans l’ensemble $\mathfrak{P}(E)$ des parties d’un ensemble E, ordonné par inclusion, toute partie $\mathscr{G}$ de $\mathfrak{P}(E)$ admet une borne supérieure, qui est la réunion des ensembles de $\mathscr{G}$, et une borne inférieure, qui est l’intersection des ensembles de $\mathscr{G}$.
 
 #### Exemple 3 {#ens-iii-s1-n9-exa-3 .statement tag=03SU}
 
@@ -486,7 +486,7 @@ La première assertion résulte de ce que l’ensemble M des majorants de A dans
 
 On dit qu’un ensemble préordonné E est filtrant à droite (resp. à gauche) si toute partie à deux éléments de E est majorée (resp. minorée).
 
-Au lieu de « filtrant à droite », on dit aussi « filtrant pour la relation $\leq$ »; expressions analogues lorsque la relation de préordre est notée par un autre signe. Par exemple, si $\mathcal{S}$ est un ensemble de parties d’un ensemble A, on dira que $\mathcal{S}$ est filtrant pour la relation $\subset$ (resp. $\supset$) si, pour toute partie à deux éléments {X, Y} de $\mathcal{S}$, il existe $Z \in \mathcal{S}$ tel que $X \subset Z$ et $Y \subset Z$ (resp. $X \supset Z$ et $Y \supset Z$).
+Au lieu de « filtrant à droite », on dit aussi « filtrant pour la relation $\leq$ »; expressions analogues lorsque la relation de préordre est notée par un autre signe. Par exemple, si $\mathscr{S}$ est un ensemble de parties d’un ensemble A, on dira que $\mathscr{S}$ est filtrant pour la relation $\subset$ (resp. $\supset$) si, pour toute partie à deux éléments {X, Y} de $\mathscr{S}$, il existe $Z \in \mathscr{S}$ tel que $X \subset Z$ et $Y \subset Z$ (resp. $X \supset Z$ et $Y \supset Z$).
 
 Par abus de langage, au lieu d’« ensemble filtrant à droite » (resp. « à gauche »), on dira aussi parfois « ensemble filtrant croissant » (resp. « décroissant »).
 
@@ -531,7 +531,7 @@ L’ensemble des topologies sur un ensemble A, ordonné par la relation « T est
 
 #### Exemple 4 {#ens-iii-s1-n11-exa-4 .statement tag=03TV}
 
-L’ensemble $\mathcal{F}(I; \mathbf{R})$ des fonctions numériques définies dans un intervalle I de $\mathbf{R}$ est réticulé pour la relation d’ordre $f \leq g$ (III, p. 6), pour laquelle il est isomorphe au produit $\mathbf{R}^I$ (cf. INT, II).*
+L’ensemble $\mathscr{F}(I; \mathbf{R})$ des fonctions numériques définies dans un intervalle I de $\mathbf{R}$ est réticulé pour la relation d’ordre $f \leq g$ (III, p. 6), pour laquelle il est isomorphe au produit $\mathbf{R}^I$ (cf. INT, II).*
 
 #### Remarque {#ens-iii-s1-n11-rem-1 .statement tag=03JQ}
 
@@ -561,7 +561,7 @@ Soit E un ensemble ordonné quelconque. La partie vide de E est totalement ordon
 
 #### Exemple 4 {#ens-iii-s1-n12-exa-4 .statement tag=03TY}
 
-Si A est un ensemble ayant au moins deux éléments distincts, l'ensemble $\mathcal{P}(A)$, ordonné par inclusion, n'est pas totalement ordonné, car si $x \neq y$, les parties $\{x\}$ et $\{y\}$ ne sont pas comparables.
+Si A est un ensemble ayant au moins deux éléments distincts, l'ensemble $\mathscr{P}(A)$, ordonné par inclusion, n'est pas totalement ordonné, car si $x \neq y$, les parties $\{x\}$ et $\{y\}$ ne sont pas comparables.
 
 Un ensemble totalement ordonné est aussi totalement ordonné pour l'ordre opposé; il est réticulé et a fortiori filtrant à droite et à gauche.
 

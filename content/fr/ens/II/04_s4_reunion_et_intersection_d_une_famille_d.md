@@ -46,7 +46,7 @@ subsections:
       pdf_page: 81
 statements: 22
 exercises: 8
-content_sha256: b01516fc0971cf54a3caf5959e7d2dfcd6230a575813005bbed0ccaab0e92f86
+content_sha256: ded74c6677a167e3f4ed814342a2fc06bae66975d1e6a2fb49da799375ff8481
 ---
 
 ## § 4. RÉUNION ET INTERSECTION D’UNE FAMILLE D’ENSEMBLES
@@ -123,7 +123,7 @@ Il suffit d’appliquer la prop. 1 à l’application constante $t \mapsto \alph
 
 #### Définition 4 {#ens-ii-s4-def-4 .statement tag=03I3}
 
-Soit $\mathcal{F}$ un ensemble d’ensembles, et soit $\Phi$ la famille d’ensembles
+Soit $\mathscr{F}$ un ensemble d’ensembles, et soit $\Phi$ la famille d’ensembles
 
 N° 2                                             RÉUNION ET INTERSECTION D’UNE FAMILLE D’ENSEMBLES                                             E II.24
 
@@ -247,10 +247,10 @@ On peut en effet écrire $f = i \circ g$, où i est l’injection canonique de $
 Pour toute famille $(X_i)_{i \in I}$ de parties d'un ensemble $E$, on a
 
 $$
-\mathcal{C}_E(\bigcup_{i \in I} X_i) = \bigcap_{i \in I} (\mathcal{C}_E X_i) \quad \text{et} \quad \mathcal{C}_E(\bigcap_{i \in I} X_i) = \bigcup_{i \in I} (\mathcal{C}_E X_i).
+\mathscr{C}_E(\bigcup_{i \in I} X_i) = \bigcap_{i \in I} (\mathscr{C}_E X_i) \quad \text{et} \quad \mathscr{C}_E(\bigcap_{i \in I} X_i) = \bigcup_{i \in I} (\mathscr{C}_E X_i).
 $$
 
-Soit $x \in \mathcal{C}_E(\bigcup_{i \in I} X_i)$. On a $x \in E$, et, pour tout $i \in I$, $x \notin X_i$, donc $x \in \mathcal{C}_E X_i$; par suite $x \in \bigcap_{i \in I} (\mathcal{C}_E X_i)$. Réciproquement, soit $x \in \bigcap_{i \in I} (\mathcal{C}_E X_i)$; par définition de l'intersection (II, p. 23, déf. 3), on a $x \in E$. En outre, si on avait $x \in \bigcup_{i \in I} X_i$, il existerait $\kappa \in I$ tel que $x \in X_\kappa$, ce qui est contraire à l'hypothèse $x \in \bigcap_{i \in I} (\mathcal{C}_E X_i)$; donc $x \in \mathcal{C}_E(\bigcup_{i \in I} X_i)$. Ceci achève la démonstration de la première formule. La seconde en résulte immédiatement, compte tenu de la relation $\mathcal{C}_E(\mathcal{C}_E X) = X$ pour toute partie $X$ de $E$.
+Soit $x \in \mathscr{C}_E(\bigcup_{i \in I} X_i)$. On a $x \in E$, et, pour tout $i \in I$, $x \notin X_i$, donc $x \in \mathscr{C}_E X_i$; par suite $x \in \bigcap_{i \in I} (\mathscr{C}_E X_i)$. Réciproquement, soit $x \in \bigcap_{i \in I} (\mathscr{C}_E X_i)$; par définition de l'intersection (II, p. 23, déf. 3), on a $x \in E$. En outre, si on avait $x \in \bigcup_{i \in I} X_i$, il existerait $\kappa \in I$ tel que $x \in X_\kappa$, ce qui est contraire à l'hypothèse $x \in \bigcap_{i \in I} (\mathscr{C}_E X_i)$; donc $x \in \mathscr{C}_E(\bigcup_{i \in I} X_i)$. Ceci achève la démonstration de la première formule. La seconde en résulte immédiatement, compte tenu de la relation $\mathscr{C}_E(\mathscr{C}_E X) = X$ pour toute partie $X$ de $E$.
 
 ### 5. Réunion et intersection de deux ensembles
 
@@ -296,13 +296,13 @@ $$
 La relation $A \subset B$ est équivalente à $A \cup B = B$ et à $A \cap B = A$. Si $A$ et $B$ sont des parties d’un ensemble $E$, on déduit de la prop. 5 (ou du critère C24) les formules
 
 $$
-\mathcal{C}_E(A \cup B) = (\mathcal{C}_E A) \cap (\mathcal{C}_E B), \qquad \mathcal{C}_E(A \cap B) = (\mathcal{C}_E A) \cup (\mathcal{C}_E B);
+\mathscr{C}_E(A \cup B) = (\mathscr{C}_E A) \cap (\mathscr{C}_E B), \qquad \mathscr{C}_E(A \cap B) = (\mathscr{C}_E A) \cup (\mathscr{C}_E B);
 $$
 
 on a en outre
 
 $$
-A \cup (\mathcal{C}_E A) = E, \qquad A \cap (\mathcal{C}_E A) = \varnothing.
+A \cup (\mathscr{C}_E A) = E, \qquad A \cap (\mathscr{C}_E A) = \varnothing.
 $$
 
 Si $\Gamma$ est une correspondance entre $E$ et $F$, $A$ et $B$ des parties de $E$, on déduit de la prop. 3 (II, p. 25) que

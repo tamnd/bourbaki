@@ -29,14 +29,14 @@ subsections:
       pdf_page: 20
 statements: 8
 exercises: 6
-content_sha256: 14de471475b196e79411c41445b05c3903b39c5c82403ce3ceb0a73e9d31b79d
+content_sha256: 4c9edf4b0e2e08f5f1a2c9b0995c5f2bda68e99372e4089284ac9edb3ce18728
 ---
 
 ## § 1. TERMES ET RELATIONS
 
 ### 1. Signes et assemblages
 
-Les signes d’une théorie mathématique $\mathcal{T}$[^1] sont les suivants:
+Les signes d’une théorie mathématique $\mathscr{T}$[^1] sont les suivants:
 
 1° Les signes logiques[^2]: $\square$, $\tau$, $\vee$, $\neg$.
 2° Les lettres.
@@ -48,7 +48,7 @@ Nous entendons par là les lettres majuscules et minuscules latines, affectées 
 En Théorie des Ensembles, nous n’utiliserons que les deux signes spécifiques:
 $=$, $\in$.
 
-Un assemblage de $\mathcal{T}$ est une succession de signes de $\mathcal{T}$ écrits les uns à côté des autres, certains signes distincts des lettres pouvant être joints deux à deux par des traits qui courent au-dessus de la ligne et qu’on appelle des liens. \* Ainsi, dans la théorie des ensembles, où $\in$ est une signe spécifique,
+Un assemblage de $\mathscr{T}$ est une succession de signes de $\mathscr{T}$ écrits les uns à côté des autres, certains signes distincts des lettres pouvant être joints deux à deux par des traits qui courent au-dessus de la ligne et qu’on appelle des liens. \* Ainsi, dans la théorie des ensembles, où $\in$ est une signe spécifique,
 
 $$
 \overline{\tau\ \vee\ \neg\ \in\ \square\ A'\ \in\ \square\ A''}
@@ -155,7 +155,7 @@ A chaque signe spécifique est associé un nombre entier, appelé son poids (pra
 
 Un assemblage est dit de première espèce s'il commence par un $\tau$, ou s'il se réduit à une lettre, de deuxième espèce dans les autres cas.
 
-Une construction formative d'une théorie $\mathcal{T}$ est une suite d'assemblages qui
+Une construction formative d'une théorie $\mathscr{T}$ est une suite d'assemblages qui
 
 ¹ Conformément à ce qui a été signalé (I, p. 15), la phrase « $x$ et $y$ sont des lettres distinctes » est un abus de langage pour dire que $x$ et $y$ désignent des lettres distinctes dans les assemblages que l'on considère.
 
@@ -164,9 +164,9 @@ a) $A$ est une lettre.
 b) Il y a, dans la suite, un assemblage de deuxième espèce $B$ précédant $A$, tel que $A$ soit $\neg B$.
 c) Il y a deux assemblages de deuxième espèce $B$ et $C$ précédant $A$ (distincts ou non) tels que $A$ soit $\lor BC$.
 d) Il y a un assemblage de deuxième espèce $B$ précédant $A$ et une lettre $x$ tels que $A$ soit $\tau_x(B)$.
-e) Il y a un signe spécifique $s$ de poids $n$[^3] de $\mathcal{T}$, et $n$ assemblages de première espèce $A_1,A_2,\ldots,A_n$ précédant $A$, tels que $A$ soit $sA_1A_2\ldots A_n$.
+e) Il y a un signe spécifique $s$ de poids $n$[^3] de $\mathscr{T}$, et $n$ assemblages de première espèce $A_1,A_2,\ldots,A_n$ précédant $A$, tels que $A$ soit $sA_1A_2\ldots A_n$.
 
-On appelle termes (resp. relations) de $\mathcal{T}$ les assemblages de première espèce (resp. de deuxième espèce) figurant dans les constructions formatives de $\mathcal{T}$.
+On appelle termes (resp. relations) de $\mathscr{T}$ les assemblages de première espèce (resp. de deuxième espèce) figurant dans les constructions formatives de $\mathscr{T}$.
 
 #### Exemple {#ens-i-s1-n3-exa-1 .statement}
 
@@ -203,7 +203,7 @@ Intuitivement, les termes sont des assemblages qui représentent des objets, les
 
 #### Exemple {#ens-i-s1-n3-exa-2 .statement}
 
-Les symboles $\varnothing$, $\mathbf{N}$, « la droite numérique », « la fonction $\Gamma$ », $f$, $g$, représentent des termes. Les symboles $\pi=\sqrt{2}+\sqrt{3}$, $\iota\in 2$, « tout corps fini est commutatif », « les zéros de $\zeta(s)$ autres que $-2,-4,-6,\ldots$ sont sur la droite $\mathcal{R}(s)=\frac12$ », représentent des relations. Le symbole « 3 et 4 » ne représente ni un terme, ni une relation.
+Les symboles $\varnothing$, $\mathbf{N}$, « la droite numérique », « la fonction $\Gamma$ », $f$, $g$, représentent des termes. Les symboles $\pi=\sqrt{2}+\sqrt{3}$, $\iota\in 2$, « tout corps fini est commutatif », « les zéros de $\zeta(s)$ autres que $-2,-4,-6,\ldots$ sont sur la droite $\mathscr{R}(s)=\frac12$ », représentent des relations. Le symbole « 3 et 4 » ne représente ni un terme, ni une relation.
 
 N° 4                                      TERMES ET RELATIONS                                      E I.19
 
@@ -211,23 +211,23 @@ Le signe initial d’une relation est $\vee$, $\neg$ ou un signe spécifique; le
 
 ### 4. Critères formatifs
 
-**CF1.** Si $A$ et $B$ sont des relations d’une théorie $\mathcal{T}$, $\vee AB$ est une relation de $\mathcal{T}$. En effet, considérons deux constructions formatives (de $\mathcal{T}$) dont l’une contient $A$ et l’autre $B$. Considérons la suite d’assemblages obtenue en écrivant d’abord les assemblages de la première construction, puis les assemblages de la deuxième, puis $\vee AB$. Comme $A$ et $B$ sont de deuxième espèce, on vérifie aussitôt que cette suite est une construction formative de $\mathcal{T}$. L’assemblage $\vee AB$ est de deuxième espèce, donc est une relation de $\mathcal{T}$.
+**CF1.** Si $A$ et $B$ sont des relations d’une théorie $\mathscr{T}$, $\vee AB$ est une relation de $\mathscr{T}$. En effet, considérons deux constructions formatives (de $\mathscr{T}$) dont l’une contient $A$ et l’autre $B$. Considérons la suite d’assemblages obtenue en écrivant d’abord les assemblages de la première construction, puis les assemblages de la deuxième, puis $\vee AB$. Comme $A$ et $B$ sont de deuxième espèce, on vérifie aussitôt que cette suite est une construction formative de $\mathscr{T}$. L’assemblage $\vee AB$ est de deuxième espèce, donc est une relation de $\mathscr{T}$.
 
 On établit de façon analogue les trois critères suivants:
 
-**CF2.** Si $A$ est une relation d’une théorie $\mathcal{T}$, $\neg A$ est une relation de $\mathcal{T}$.
+**CF2.** Si $A$ est une relation d’une théorie $\mathscr{T}$, $\neg A$ est une relation de $\mathscr{T}$.
 
-**CF3.** Si $A$ est une relation d’une théorie $\mathcal{T}$, et $x$ une lettre, $\tau_x(A)$ est un terme de $\mathcal{T}$.
+**CF3.** Si $A$ est une relation d’une théorie $\mathscr{T}$, et $x$ une lettre, $\tau_x(A)$ est un terme de $\mathscr{T}$.
 
-**CF4.** Si $A_1,A_2,\ldots,A_n$ sont des termes d’une théorie $\mathcal{T}$, et $s$ un signe spécifique de poids $n$ de $\mathcal{T}$, $sA_1A_2\ldots A_n$ est une relation de $\mathcal{T}$.
+**CF4.** Si $A_1,A_2,\ldots,A_n$ sont des termes d’une théorie $\mathscr{T}$, et $s$ un signe spécifique de poids $n$ de $\mathscr{T}$, $sA_1A_2\ldots A_n$ est une relation de $\mathscr{T}$.
 
 Ces critères entraînent aussitôt le suivant:
 
-**CF5.** Si $A$ et $B$ sont des relations d’une théorie $\mathcal{T}$, $\Rightarrow AB$ est une relation de $\mathcal{T}$.
+**CF5.** Si $A$ et $B$ sont des relations d’une théorie $\mathscr{T}$, $\Rightarrow AB$ est une relation de $\mathscr{T}$.
 
-**CF6.** Soit $A_1,A_2,\ldots,A_n$ une construction formative d’une théorie $\mathcal{T}$, $x$ et $y$ des lettres. Supposons que $y$ ne figure pas dans les $A_i$. Alors, $(y\mid x)A_1,(y\mid x)A_2,\ldots,(y\mid x)A_n$ est une construction formative de $\mathcal{T}$.
+**CF6.** Soit $A_1,A_2,\ldots,A_n$ une construction formative d’une théorie $\mathscr{T}$, $x$ et $y$ des lettres. Supposons que $y$ ne figure pas dans les $A_i$. Alors, $(y\mid x)A_1,(y\mid x)A_2,\ldots,(y\mid x)A_n$ est une construction formative de $\mathscr{T}$.
 
-En effet, soit $A'_i$ l’assemblage $(y\mid x)A_i$. Si $A_i$ est une lettre, $A'_i$ est une lettre. Si $A_i$ est de la forme $\neg A_j$, où $A_j$ est un assemblage de deuxième espèce qui précède $A_i$ dans la construction, $A'_i$ est identique à $\neg A'_j$ d’après CF5, et $A'_j$ est un assemblage de deuxième espèce. On raisonne de façon analogue si $A_i$ est de la forme $\vee A_jA_k$ ou $sA_{i_1}A_{i_2}\ldots A_{i_m}$, $s$ étant un signe spécifique de $\mathcal{T}$. Si enfin $A_i$ est de la forme $\tau_z(A_j)$, où $A_j$ est un assemblage de deuxième espèce précédant $A_i$ dans la construction, plusieurs cas peuvent se présenter:
+En effet, soit $A'_i$ l’assemblage $(y\mid x)A_i$. Si $A_i$ est une lettre, $A'_i$ est une lettre. Si $A_i$ est de la forme $\neg A_j$, où $A_j$ est un assemblage de deuxième espèce qui précède $A_i$ dans la construction, $A'_i$ est identique à $\neg A'_j$ d’après CF5, et $A'_j$ est un assemblage de deuxième espèce. On raisonne de façon analogue si $A_i$ est de la forme $\vee A_jA_k$ ou $sA_{i_1}A_{i_2}\ldots A_{i_m}$, $s$ étant un signe spécifique de $\mathscr{T}$. Si enfin $A_i$ est de la forme $\tau_z(A_j)$, où $A_j$ est un assemblage de deuxième espèce précédant $A_i$ dans la construction, plusieurs cas peuvent se présenter:
 
 a) $z$ est une lettre distincte de $x$ et de $y$; alors $A'_i$ est identique à $\tau_z(A'_j)$ d’après CF4, et $A'_j$ est un assemblage de deuxième espèce;
 
@@ -235,17 +235,17 @@ b) $z$ est identique à $x$: alors $A_i$ ne contient pas $x$, donc $A'_i$ est id
 
 c) $z$ est identique à $y$: alors $A_i$ est l’assemblage $\tau A_j$, puisque $y$ ne figure pas dans $A_j$; donc $A'_i$ est l’assemblage $\tau A'_j$, c’est-à-dire $\tau_u(A'_j)$, $u$ étant une lettre qui ne figure pas dans $A'_j$.
 
-CF7. Soient $A$ une relation (resp. un terme) d’une théorie $\mathcal{T}$, $x$ et $y$ des lettres. Alors $(y \mid x)A$ est une relation (resp. un terme) de $\mathcal{T}$.
+CF7. Soient $A$ une relation (resp. un terme) d’une théorie $\mathscr{T}$, $x$ et $y$ des lettres. Alors $(y \mid x)A$ est une relation (resp. un terme) de $\mathscr{T}$.
 
-Soit $A_1, A_2, \ldots, A_n$ une construction formative où figure $A$. Montrons de proche en proche que, si $A_t$ est une relation (resp. un terme), $(y \mid x)A_t$, que nous désignerons par $A'_t$, est une relation (resp. un terme). Supposons ce point établi pour $A_1, A_2, \ldots, A_{i-1}$ et établissons-le pour $A_i$. Si $A_i$ est une lettre, $A'_i$ est une lettre. Si $A_i$ est précédé dans la construction par une relation $A_j$ telle que $A_i$ soit $\neg A_j$, $A'_i$ est identique à $\neg A'_j$, d’après CS5, et $\neg A'_j$ est une relation d’après CF2. On procède de façon analogue si $A_i$ est précédé par des relations $A_j, A_k$ telles que $A_i$ soit $\vee A_jA_k$, ou par des termes $A_{j_1}, \ldots, A_{j_m}$ tels que $A_i$ soit $sA_{j_1} \ldots A_{j_m}$, où $s$ est une signe spécifique de $\mathcal{T}$ de poids $m$. Si enfin $A_i$ est précédé par une relation $A_j$ telle que $A_i$ soit $\tau_x(A_j)$, plusieurs cas peuvent se présenter:
+Soit $A_1, A_2, \ldots, A_n$ une construction formative où figure $A$. Montrons de proche en proche que, si $A_t$ est une relation (resp. un terme), $(y \mid x)A_t$, que nous désignerons par $A'_t$, est une relation (resp. un terme). Supposons ce point établi pour $A_1, A_2, \ldots, A_{i-1}$ et établissons-le pour $A_i$. Si $A_i$ est une lettre, $A'_i$ est une lettre. Si $A_i$ est précédé dans la construction par une relation $A_j$ telle que $A_i$ soit $\neg A_j$, $A'_i$ est identique à $\neg A'_j$, d’après CS5, et $\neg A'_j$ est une relation d’après CF2. On procède de façon analogue si $A_i$ est précédé par des relations $A_j, A_k$ telles que $A_i$ soit $\vee A_jA_k$, ou par des termes $A_{j_1}, \ldots, A_{j_m}$ tels que $A_i$ soit $sA_{j_1} \ldots A_{j_m}$, où $s$ est une signe spécifique de $\mathscr{T}$ de poids $m$. Si enfin $A_i$ est précédé par une relation $A_j$ telle que $A_i$ soit $\tau_x(A_j)$, plusieurs cas peuvent se présenter:
 
 a) $z$ est distinct de $x$ et de $y$: alors $A'_i$ est identique à $\tau_z(A'_j)$ d’après CS4, et on sait déjà que $A'_j$ est une relation, donc $A'_i$ est un terme d’après CF3;
 
 b) $z$ est identique à $x$: alors $A_i$ ne contient pas $x$, donc $A'_i$ est identique à $A_i$, et par suite est un terme;
 
-c) $z$ est identique à $y$. Soit alors $u$ une lettre distincte de $x$ et de $y$, et qui ne figure pas dans $A_1, A_2, \ldots, A_j$; d’après CF6, la suite d’assemblages $(u \mid y)A_1, \ldots, (u \mid y)A_j$, que nous désignerons par $A''_1, \ldots, A''_j$, constitue une construction formative de $\mathcal{T}$; comme $y$ ne figure plus dans cette nouvelle construction, $(y \mid x)A''_1, \ldots, (y \mid x)A''_j$ est une construction formative en vertu de CF6, de sorte que $(y \mid x)A''_j$ est une relation de $\mathcal{T}$; par suite, $\tau_u((y \mid x)A''_j)$ est un terme de $\mathcal{T}$. Mais ce terme est identique à $(y \mid x)\tau_u(A''_j)$ d’après CS4, donc à $(y \mid x)\tau_y(A_j)$ d’après CS3, donc à $A'_i$.
+c) $z$ est identique à $y$. Soit alors $u$ une lettre distincte de $x$ et de $y$, et qui ne figure pas dans $A_1, A_2, \ldots, A_j$; d’après CF6, la suite d’assemblages $(u \mid y)A_1, \ldots, (u \mid y)A_j$, que nous désignerons par $A''_1, \ldots, A''_j$, constitue une construction formative de $\mathscr{T}$; comme $y$ ne figure plus dans cette nouvelle construction, $(y \mid x)A''_1, \ldots, (y \mid x)A''_j$ est une construction formative en vertu de CF6, de sorte que $(y \mid x)A''_j$ est une relation de $\mathscr{T}$; par suite, $\tau_u((y \mid x)A''_j)$ est un terme de $\mathscr{T}$. Mais ce terme est identique à $(y \mid x)\tau_u(A''_j)$ d’après CS4, donc à $(y \mid x)\tau_y(A_j)$ d’après CS3, donc à $A'_i$.
 
-CF8. Soient $A$ une relation (resp. un terme) d’une théorie $\mathcal{T}$, $x$ une lettre et $T$ un terme de $\mathcal{T}$. Alors $(T \mid x)A$ est une relation (resp. un terme) de $\mathcal{T}$.
+CF8. Soient $A$ une relation (resp. un terme) d’une théorie $\mathscr{T}$, $x$ une lettre et $T$ un terme de $\mathscr{T}$. Alors $(T \mid x)A$ est une relation (resp. un terme) de $\mathscr{T}$.
 
 Soit $A_1, A_2, \ldots, A_n$ une construction formative où figure $A$. Soient $x_1, x_2, \ldots, x_p$, les lettres distinctes qui figurent dans $T$. Associons à chaque lettre $x_i$ une lettre $x'_i$ distincte de $x_1, \ldots, x_p$ et des lettres figurant dans $A_1, \ldots, A_n$, de façon que les lettres $x'_1, \ldots, x'_p$ soient deux à deux distinctes. L’assemblage
 
@@ -269,7 +269,7 @@ b) $z$ est identique à $x$: alors $A_i$ ne contient pas $x$, donc $A'_i$ est id
 
 c) $z$ figure dans $T$; alors $z$ ne figure pas dans $A_j$, de sorte que $A_i$ est identique à $\tau A_j$, donc $A'_i$ à $\tau A'_j$; or, on sait déjà que $A'_j$ est une relation, et $\tau A'_j$ est identique à $\tau_u(A'_j)$, $u$ étant une lettre qui ne figure pas dans $A'_j$; il en résulte que $A'_i$ est un terme d’après CF3.
 
-Intuitivement, si $A$ est une relation de $\mathcal{T}$, que nous pouvons considérer comme exprimant une propriété de l’objet $x$, affirmer $(B | x)A$ revient à dire que l’objet $B$ possède cette propriété. Si $A$ est un terme de $\mathcal{T}$, il représente un objet qui dépend d’une certaine manière de l’objet désigné par $x$; le terme $(B | x)A$ représente ce que devient l’objet $A$ quand on prend pour $x$ l’objet $B$.
+Intuitivement, si $A$ est une relation de $\mathscr{T}$, que nous pouvons considérer comme exprimant une propriété de l’objet $x$, affirmer $(B | x)A$ revient à dire que l’objet $B$ possède cette propriété. Si $A$ est un terme de $\mathscr{T}$, il représente un objet qui dépend d’une certaine manière de l’objet désigné par $x$; le terme $(B | x)A$ représente ce que devient l’objet $A$ quand on prend pour $x$ l’objet $B$.
 
 ## EXERCICES {#ens-i-s1-exercises}
 

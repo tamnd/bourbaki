@@ -13,7 +13,7 @@ pdf_pages: 0283-0285
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: c4820619189b29c37f0b8c40491d7bcab8e49320071e537dd1539119c25ee925
+content_sha256: 87567f5dc49c39b71cf1ea9f8d06b914457d91919f4d9172908527c0fa370cb0
 ---
 
 ## INDEX DES NOTATIONS
@@ -31,7 +31,7 @@ $\subset, \supset, \notin, \not\subset, x \subset y, x \supset y$: II, p. 2
 $\text{Coll}_x R, \{x \mid R\}$: II, p. 4
 $\{x, y\}, \{x\}$: II, p. 4
 $\{x \in A \mid P\}$: II, p. 5
-$\mathcal{G}_X A, X - A, \mathcal{G}A, \varnothing$: II, p. 6
+$\mathscr{G}_X A, X - A, \mathscr{G}A, \varnothing$: II, p. 6
 $(x, y), \operatorname{pr}_1 z, \operatorname{pr}_2 z$: II, p. 7
 $A \times B, A \times B \times C, A \times B \times C \times D, (x, y, z)$: II, p. 8--9
 $\operatorname{pr}_1\langle G \rangle, \operatorname{pr}_2\langle G \rangle, \operatorname{pr}_1 G, \operatorname{pr}_2 G\ (\text{G graphe})$: II, p. 9
@@ -52,7 +52,7 @@ $\bigcup_{X \in \mathfrak{X}} X, \bigcap_{X \in \mathfrak{X}} X$: II, p. 24
 $A \cup B, A \cup B \cup C, A \cap B, A \cap B \cap C$: II, p. 26
 $\{x, y, z\}$: II, p. 26
 $\mathfrak{B}(X)$: II, p. 30
-$\mathcal{F}(E; F), F^E$: II, p. 31
+$\mathscr{F}(E; F), F^E$: II, p. 31
 
 $\prod_{i \in I} X_i, \operatorname{pr}_i$: II, p. 32
 $\operatorname{pr}_J$: II, p. 33

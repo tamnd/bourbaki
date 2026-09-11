@@ -34,7 +34,7 @@ subsections:
       pdf_page: 138
 statements: 16
 exercises: 11
-content_sha256: af0ff206d2132905a793e50dd4d15c8c49611ae69be2dbbf22a96874b8684ff7
+content_sha256: 95168b9add4806c87b213356684f1a29b4ca906c12cd4bb7bfe897cad290f8f9
 ---
 
 ## § 4. ENTIERS NATURELS. ENSEMBLES FINIS
@@ -102,19 +102,19 @@ en vertu du cor. 2; mais comme Card (F) = Card (E), on a nécessairement $f(E) \
 
 ### 3. Le principe de récurrence
 
-C61 (principe de récurrence). Soit $R^{n}$ une relation dans une théorie $\mathcal{T}$ (n n’étant pas une constante de $\mathcal{T}$). On suppose que la relation
+C61 (principe de récurrence). Soit $R^{n}$ une relation dans une théorie $\mathscr{T}$ (n n’étant pas une constante de $\mathscr{T}$). On suppose que la relation
 
 $$
 R^{0} \text{ et } (\forall n)((n \text{ est un entier et } R^{n}) \Rightarrow R^{n + 1})
 $$
 
-soit un théorème de $\mathcal{T}$. Dans ces conditions, la relation
+soit un théorème de $\mathscr{T}$. Dans ces conditions, la relation
 
 $$
 (\forall n)((n \text{ est un entier}) \Rightarrow R^{n})
 $$
 
-est un théorème de $\mathcal{T}$.
+est un théorème de $\mathscr{T}$.
 
 Raisonnons par l’absurde et supposons que la relation
 
@@ -197,7 +197,7 @@ En effet, un tel ensemble est inductif en vertu du cor. 1 (cf. III, p. 20, th. 2
 
 #### Définition 2 {#ens-iii-s4-def-2 .statement tag=03LC}
 
-Soit $E$ un ensemble. On dit qu’un ensemble $\mathcal{S}$ de parties de $E$ est de caractère fini si la relation $X \in \mathcal{S}$ est équivalente à la relation « toute partie finie de $X$ appartient à $\mathcal{S}$ ».
+Soit $E$ un ensemble. On dit qu’un ensemble $\mathscr{S}$ de parties de $E$ est de caractère fini si la relation $X \in \mathscr{S}$ est équivalente à la relation « toute partie finie de $X$ appartient à $\mathscr{S}$ ».
 
 On dit qu’une propriété $P_{\{X\}}$ d’une partie $X$ d’un ensemble $E$ est de caractère fini si l’ensemble des parties $X$ de $E$ pour lesquelles $P_{\{X\}}$ est vraie est de caractère fini.
 
@@ -215,9 +215,9 @@ L’ensemble des sous-modules d’un module E n’est pas de caractère fini, ca
 
 #### Théorème 1 {#ens-iii-s4-thm-1 .statement tag=03LD}
 
-Tout ensemble $\mathcal{S}$ de parties d’un ensemble E, de caractère fini, admet un élément maximal (quand on l’ordonne par inclusion).
+Tout ensemble $\mathscr{S}$ de parties d’un ensemble E, de caractère fini, admet un élément maximal (quand on l’ordonne par inclusion).
 
-En vertu du th. 2 de III, p. 20, il suffit de prouver que $\mathcal{S}$ est inductif; pour cela, nous montrerons que, pour toute partie $\mathcal{G}$ de $\mathcal{S}$, totalement ordonnée par inclusion, la réunion X des ensembles de $\mathcal{G}$ appartient à $\mathcal{S}$ (III, p. 21, cor. 2). Comme $\mathcal{S}$ est de caractère fini, il suffit d’établir que toute partie finie Y de X appartient à $\mathcal{S}$. Or, pour tout $y \in Y$, il existe un ensemble $Z_y \in \mathcal{G}$ tel que $y \in Z_y$; comme l’ensemble des $Z_y$ ($y \in Y$) est fini et totalement ordonné par inclusion, il admet un plus grand élément S (III, p. 34, cor. 1); autrement dit, il existe un ensemble $S \in \mathcal{G}$ tel que $Y \subset S$. Mais comme $S \in \mathcal{S}$ et que Y est une partie finie de S, on a $Y \in \mathcal{S}$, puisque $\mathcal{S}$ est de caractère fini, et ceci achève la démonstration.
+En vertu du th. 2 de III, p. 20, il suffit de prouver que $\mathscr{S}$ est inductif; pour cela, nous montrerons que, pour toute partie $\mathscr{G}$ de $\mathscr{S}$, totalement ordonnée par inclusion, la réunion X des ensembles de $\mathscr{G}$ appartient à $\mathscr{S}$ (III, p. 21, cor. 2). Comme $\mathscr{S}$ est de caractère fini, il suffit d’établir que toute partie finie Y de X appartient à $\mathscr{S}$. Or, pour tout $y \in Y$, il existe un ensemble $Z_y \in \mathscr{G}$ tel que $y \in Z_y$; comme l’ensemble des $Z_y$ ($y \in Y$) est fini et totalement ordonné par inclusion, il admet un plus grand élément S (III, p. 34, cor. 1); autrement dit, il existe un ensemble $S \in \mathscr{G}$ tel que $Y \subset S$. Mais comme $S \in \mathscr{S}$ et que Y est une partie finie de S, on a $Y \in \mathscr{S}$, puisque $\mathscr{S}$ est de caractère fini, et ceci achève la démonstration.
 
 ## EXERCICES {#ens-iii-s4-exercises}
 
@@ -236,7 +236,7 @@ $$
 $$
 (Remarquer qu'un produit $\prod_{t \in I} E_t$ ne peut être réunion d'une famille $(A_t)_{t \in I}$ telle que Card(A_t) < Card(E_t) pour tout t ∈ I, en observant que l'on a Card(pr_t(A_t)) < Card(E_t)).
 
-4) Soient E un ensemble, f une application de $\mathcal{P}(E) - \{ \varnothing \}$ dans E telle que, pour toute partie X ≠ $\varnothing$ de E, on ait f(X) ∈ X (« fonction de choix »).
+4) Soient E un ensemble, f une application de $\mathscr{P}(E) - \{ \varnothing \}$ dans E telle que, pour toute partie X ≠ $\varnothing$ de E, on ait f(X) ∈ X (« fonction de choix »).
 a) Soit b un cardinal, et soit A l'ensemble des x ∈ E tels que Card(f(x)) ≤ b. Montrer que si a = Card(A), on a 2^a ≤ 1 + ab (remarquer que si Y ⊂ A et Y ≠ $\varnothing$, on a f(Y) ∈ A).
 b) Soit B l'ensemble des x ∈ E tels que pour toute partie X ≠ $\varnothing$ de E appartenant à $f^{-1}(x)$, on ait Card(X) ≤ b. Montrer que Card(B) ≤ b.
 

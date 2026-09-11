@@ -50,7 +50,7 @@ subsections:
       pdf_page: 99
 statements: 5
 exercises: 10
-content_sha256: 987904398af6d2599bd91eb95321c9683702ab73b500683f239a59359c7532cc
+content_sha256: cfc958972533d2fcaa26c65885582f4f7b9d6646446f308f24d4173d2d4e5c79
 ---
 
 ## § 6. RELATIONS D’ÉQUIVALENCE
@@ -167,7 +167,7 @@ Soient R$$x, y$$ une relation d’équivalence dans un ensemble E, et A une part
 
 Soit f l’application canonique de E sur E/R; si A est saturé pour R, la classe d’équivalence de tout élément $x \in A$, qui n’est autre que $f^{-1}\langle\{f(x)\}\rangle$, est contenue dans A, donc on a $f^{-1}\langle f\langle A\rangle \rangle \subset A$; comme par ailleurs $A \subset f^{-1}\langle f\langle A\rangle \rangle$, on a $A = f^{-1}\langle f\langle A\rangle \rangle$. Réciproquement, si $A = f^{-1}\langle f\langle A\rangle \rangle$, alors pour tout $x \in A$ la classe d’équivalence K = $f(x)$ de x pour R est un élément de $f\langle A\rangle$, et comme $K = f^{-1}\langle\{K\}\rangle$, on a $K \subset f^{-1}\langle f\langle A\rangle \rangle = A$. On voit donc que les parties de E saturées pour R sont les parties A de E telles que $A = f^{-1}\langle f\langle A\rangle \rangle$. On peut dire aussi que ce sont les parties de E de la forme $f^{-1}\langle B \rangle$, où $B \subset E/R$; en effet, la relation $A = f^{-1}\langle B \rangle$ entraîne $B = f\langle A \rangle$, d’où $A = f^{-1}\langle f\langle A\rangle \rangle$.
 
-Si $(X_i)_{i \in I}$ est une famille de parties saturées de E, les ensembles $\bigcup_{i \in I} X_i$ et $\bigcap_{i \in I} X_i$ sont saturés (II, p. 25, prop. 3 et 4). Si $A = f^{-1}\langle B \rangle$ est une partie saturée de E, il en est de même de $\mathcal{C}_E A = f^{-1}\langle E/R \rangle - f^{-1}\langle B \rangle$ (II, p. 27, prop. 6).
+Si $(X_i)_{i \in I}$ est une famille de parties saturées de E, les ensembles $\bigcup_{i \in I} X_i$ et $\bigcap_{i \in I} X_i$ sont saturés (II, p. 25, prop. 3 et 4). Si $A = f^{-1}\langle B \rangle$ est une partie saturée de E, il en est de même de $\mathscr{C}_E A = f^{-1}\langle E/R \rangle - f^{-1}\langle B \rangle$ (II, p. 27, prop. 6).
 
 Soit maintenant A une partie quelconque de E. L’ensemble $f^{-1}\langle f\langle A\rangle \rangle$ contient A et est saturé. Réciproquement, si une partie saturée A' de E contient A, on a $f\langle A'\rangle \supset f\langle A\rangle$, d'où $A' = \overline{f}\langle f\langle A'\rangle\rangle \supset \overline{f}\langle f\langle A\rangle\rangle$. On peut donc dire que $\overline{f}\langle f\langle A\rangle\rangle$ est « la plus petite » partie saturée de E contenant A (cf. III, p. 8); cet ensemble est appelé le saturé de A pour la relation R; il est immédiat que c'est la réunion des classes d'équivalence des éléments de A. Si $(X_t)_{t \in I}$ est une famille de parties de E, $A_t$ le saturé de $X_t$ pour R, alors le saturé de $\bigcup_{t \in I} X_t$ est $\bigcup_{t \in I} A_t$ (II, p. 25, prop. 3).
 

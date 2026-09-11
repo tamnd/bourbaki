@@ -42,7 +42,7 @@ subsections:
       pdf_page: 90
 statements: 24
 exercises: 5
-content_sha256: db0022e62383130cc1e0ad1d77b9b8d305dc0362a0685af8b0084238db199908
+content_sha256: 23c65f447db29f61608251134d005e1e22a69220a6f98fb2af711aa8efe32943
 ---
 
 ## § 5. PRODUIT D’UNE FAMILLE D’ENSEMBLES
@@ -67,9 +67,9 @@ Soient $A$ et $B$ deux ensembles, $\Gamma$ une correspondance entre $A$ et $B$. 
 
 ### 2. Ensemble des applications d’un ensemble dans un ensemble
 
-Soient E et F des ensembles. Le graphe d’une application de E dans F est une partie de $E \times F$. L’ensemble des éléments de $\mathfrak{P}(E \times F)$ qui possèdent la propriété d’être des graphes d’applications de E dans F est donc une partie de $\mathfrak{P}(E \times F)$ que l’on désigne par $F^E$. L’ensemble des triplets $f = (G, E, F)$, pour $G \in F^E$ est donc l’ensemble des applications de E dans F ; on le désigne par $\mathcal{F}(E; F)$. Il est clair que $G \mapsto (G, E, F)$ est une bijection (dite canonique) de $F^E$ sur $\mathcal{F}(E; F)$. L’existence de cette bijection permet de traduire aussitôt toute proposition relative à l’ensemble $F^E$ en une proposition relative à $\mathcal{F}(E; F)$, et vice-versa.
+Soient E et F des ensembles. Le graphe d’une application de E dans F est une partie de $E \times F$. L’ensemble des éléments de $\mathfrak{P}(E \times F)$ qui possèdent la propriété d’être des graphes d’applications de E dans F est donc une partie de $\mathfrak{P}(E \times F)$ que l’on désigne par $F^E$. L’ensemble des triplets $f = (G, E, F)$, pour $G \in F^E$ est donc l’ensemble des applications de E dans F ; on le désigne par $\mathscr{F}(E; F)$. Il est clair que $G \mapsto (G, E, F)$ est une bijection (dite canonique) de $F^E$ sur $\mathscr{F}(E; F)$. L’existence de cette bijection permet de traduire aussitôt toute proposition relative à l’ensemble $F^E$ en une proposition relative à $\mathscr{F}(E; F)$, et vice-versa.
 
-Soient E, E’, F, F’ des ensembles. Soient u une application de E’ dans E, et v une application de F dans F’. La fonction $f \mapsto v \circ f \circ u$ ($f \in \mathcal{F}(E; F)$) est une application de $\mathcal{F}(E; F)$ dans $\mathcal{F}(E'; F')$.
+Soient E, E’, F, F’ des ensembles. Soient u une application de E’ dans E, et v une application de F dans F’. La fonction $f \mapsto v \circ f \circ u$ ($f \in \mathscr{F}(E; F)$) est une application de $\mathscr{F}(E; F)$ dans $\mathscr{F}(E'; F')$.
 
 #### Proposition 2 {#ens-ii-s5-prop-2 .statement tag=03Q5}
 
@@ -87,13 +87,13 @@ Bornons-nous au cas où les ensembles E’, F sont non vides, la proposition se 
 
 Si u est une bijection de E’ sur E et v une bijection de F sur F’, $f \mapsto v \circ f \circ u$ est bijective.
 
-Soient A, B, C trois ensembles, et f une application de $B \times C$ dans A. Pour tout $y \in C$, soit $f_y$ l’application partielle $x \mapsto f(x, y)$ de B dans A (II, p. 21); la fonction $y \mapsto f_y$ est une application de C dans $\mathcal{F}(B; A)$. Inversement, pour toute application g de C dans $\mathcal{F}(B; A)$, il existe une application et une seule f de $B \times C$ dans A telle que $g(y) = f_y$ pour tout $y \in C$, savoir l’application $(x, y) \mapsto (g(y))(x)$. Donc:
+Soient A, B, C trois ensembles, et f une application de $B \times C$ dans A. Pour tout $y \in C$, soit $f_y$ l’application partielle $x \mapsto f(x, y)$ de B dans A (II, p. 21); la fonction $y \mapsto f_y$ est une application de C dans $\mathscr{F}(B; A)$. Inversement, pour toute application g de C dans $\mathscr{F}(B; A)$, il existe une application et une seule f de $B \times C$ dans A telle que $g(y) = f_y$ pour tout $y \in C$, savoir l’application $(x, y) \mapsto (g(y))(x)$. Donc:
 
 #### Proposition 3 {#ens-ii-s5-prop-3 .statement tag=03Q7}
 
-Si, pour toute application f de $B \times C$ dans A, on désigne par $\tilde{f}$ l’application $y \mapsto f_y$ de C dans $\mathcal{F}(B; A)$, la fonction $f \mapsto \tilde{f}$ est une bijection (dite canonique) de $\mathcal{F}(B \times C; A)$ sur $\mathcal{F}(C; \mathcal{F}(B; A))$.
+Si, pour toute application f de $B \times C$ dans A, on désigne par $\tilde{f}$ l’application $y \mapsto f_y$ de C dans $\mathscr{F}(B; A)$, la fonction $f \mapsto \tilde{f}$ est une bijection (dite canonique) de $\mathscr{F}(B \times C; A)$ sur $\mathscr{F}(C; \mathscr{F}(B; A))$.
 
-On définit de la même manière une bijection (dite canonique) de $\mathcal{F}(B \times C; A)$ sur $\mathcal{F}(B; \mathcal{F}(C; A))$. En raison de la correspondance biunivoque entre applications et graphes fonctionnels, les bijections précédentes fournissent des bijections (dites canoniques) de $A^{B \times C}$ sur $(A^B)^C$ (resp. $(A^C)^B$).
+On définit de la même manière une bijection (dite canonique) de $\mathscr{F}(B \times C; A)$ sur $\mathscr{F}(B; \mathscr{F}(C; A))$. En raison de la correspondance biunivoque entre applications et graphes fonctionnels, les bijections précédentes fournissent des bijections (dites canoniques) de $A^{B \times C}$ sur $(A^B)^C$ (resp. $(A^C)^B$).
 
 ### 3. Définition du produit d'une famille d'ensembles
 
@@ -117,7 +117,7 @@ Si $I = \varnothing$, l'ensemble $\prod_{i \in I} X_i$ ne possède qu'un seul é
 
 Lorsque tous les facteurs $X_i$ du produit $\prod_{i \in I} X_i$ sont égaux à un même ensemble E, on a $\prod_{i \in I} X_i = E^I$, comme il résulte aussitôt des définitions.
 
-Si $(X_i)_{i \in I}$ est une famille d'ensembles quelconque, E un ensemble tel que $\bigcup_{i \in I} X_i \subset E$, la déf. 1 montre que $\prod_{i \in I} X_i \subset E^I$; il y a donc correspondance biunivoque entre $\prod_{i \in I} X_i$ et un ensemble d'applications de I dans E (partie de $\mathcal{F}(I; E)$).
+Si $(X_i)_{i \in I}$ est une famille d'ensembles quelconque, E un ensemble tel que $\bigcup_{i \in I} X_i \subset E$, la déf. 1 montre que $\prod_{i \in I} X_i \subset E^I$; il y a donc correspondance biunivoque entre $\prod_{i \in I} X_i$ et un ensemble d'applications de I dans E (partie de $\mathscr{F}(I; E)$).
 
 Si $I = \{\alpha\}$ est un ensemble à un seul élément, on a $\prod_{i \in I} X_i = X_{\alpha}^{\{\alpha\}}$; l'application
 
@@ -212,7 +212,7 @@ $$
 
 Soit $x$ un élément de $\bigcup_{\lambda \in L} (\bigcap_{i \in J_\lambda} X_{\lambda, i})$. Soit $f$ un élément quelconque de $I$. Il existe un indice $\lambda$ tel que $x \in \bigcap_{i \in J_\lambda} X_{\lambda, i}$; on a par suite $x \in X_{\lambda, f(\lambda)}$, d’où $x \in \bigcup_{\lambda \in L} X_{\lambda, f(\lambda)}$. Ceci étant vrai pour tout $f \in I$, on a $x \in \bigcap_{f \in I} (\bigcup_{\lambda \in L} X_{\lambda, f(\lambda)})$. Soit maintenant $x$ un objet qui n’appartient pas à l’ensemble $\bigcup_{\lambda \in L} (\bigcap_{i \in J_\lambda} X_{\lambda, i})$. Il en résulte que, pour tout $\lambda \in L$, on a $x \notin \bigcap_{i \in J_\lambda} X_{\lambda, i}$, ce qui signifie que, pour tout $\lambda \in L$, l’ensemble $J'_\lambda$ des $i \in J_\lambda$ tels que $x \notin X_{\lambda, i}$ est non vide. D’après le cor. 2 de la prop. 5 (II, p. 34), il existe un graphe fonctionnel $f$ dont l’ensemble de définition est $L$ et qui est tel que, pour tout $\lambda \in L$, $f(\lambda) \in J'_\lambda$. On a donc $f \in I$ et, pour tout $\lambda \in L$, $x \notin X_{\lambda, f(\lambda)}$. On en déduit que $x \notin \bigcup_{\lambda \in L} X_{\lambda, f(\lambda)}$, et par suite $x \notin \bigcap_{f \in I} (\bigcup_{\lambda \in L} X_{\lambda, f(\lambda)})$.
 
-La première formule est donc démontrée. La seconde s’en déduit, en appliquant la première formule à la famille $((\mathcal{C}_A X_{\lambda, i})_{i \in J_\lambda})_{\lambda \in L}$, où $A$ désigne la réunion $\bigcup_{\lambda \in L} (\bigcup_{i \in J_\lambda} X_{\lambda, i})$.
+La première formule est donc démontrée. La seconde s’en déduit, en appliquant la première formule à la famille $((\mathscr{C}_A X_{\lambda, i})_{i \in J_\lambda})_{\lambda \in L}$, où $A$ désigne la réunion $\bigcup_{\lambda \in L} (\bigcup_{i \in J_\lambda} X_{\lambda, i})$.
 
 #### Corollaire {#ens-ii-s5-n6-cor-1 .statement tag=03IP}
 

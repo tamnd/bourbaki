@@ -41,7 +41,7 @@ subsections:
       pdf_page: 58
 statements: 8
 exercises: 6
-content_sha256: 8db79cf99e7fe9205dc6a9acc5d237684c289089d9d58e2cfcb3454ac791038f
+content_sha256: 89fa52ad272a0217938420efcab7d3404a1c7c03f4987abea97bc40d0c98de29
 ---
 
 ## § 1. RELATIONS COLLECTIVISANTES
@@ -84,7 +84,7 @@ Toute relation de la forme $T\subset U$ (où $T$ et $U$ sont des termes) est dit
 
 Désormais, nous n’expli plus les critères de substitution et les critères formatifs qui devraient suivre les définitions. On notera cependant que ces critères seront souvent utilisés impli dans les démonstrations.
 
-Pour démontrer dans une théorie $\mathcal{T}$ la relation $x\subset y$, il suffit, d’après C27 (I, p. 32), de démontrer $z\in y$ dans la théorie obtenue en adjoignant $z\in x$ aux axiomes de $\mathcal{T}$, $z$ étant une lettre distincte de $x$, de $y$ et des constantes de la théorie. En pratique on dit : « soit $z$ un élément de $x$ » ; et on cherche à démontrer $z\in y$.
+Pour démontrer dans une théorie $\mathscr{T}$ la relation $x\subset y$, il suffit, d’après C27 (I, p. 32), de démontrer $z\in y$ dans la théorie obtenue en adjoignant $z\in x$ aux axiomes de $\mathscr{T}$, $z$ étant une lettre distincte de $x$, de $y$ et des constantes de la théorie. En pratique on dit : « soit $z$ un élément de $x$ » ; et on cherche à démontrer $z\in y$.
 
 #### Proposition 1 {#ens-ii-s1-prop-1 .statement tag=03P9}
 
@@ -140,7 +140,7 @@ D’après A1, on a $y=z$. Ceci établit C48.
 
 Soient $R$ une relation, $x$ une lettre. Si $y$ et $y'$ désignent des lettres distinctes de $x$ et ne figurant pas dans $R$, les relations $(\exists y)(\forall x)((x\in y)\Leftrightarrow R)$ et $(\exists y')(\forall x)((x\in y')\Leftrightarrow R)$ sont identiques d’après C8 (I, p. 32). La relation ainsi définie (qui ne contient pas $x$) se désigne par Coll$_xR$.
 
-Lorsque Coll$_xR$ est un théorème d’une théorie $\mathcal{T}$, on dit que $R$ est collectivisante en $x$ dans $\mathcal{T}$. S’il en est ainsi, on peut introduire une constante auxiliaire $a$, distincte de $x$, des constantes de $\mathcal{T}$, et ne figurant pas dans $R$, avec l’axiome introducteur $(\forall x)((x\in a)\Leftrightarrow R)$, ou, ce qui revient au même si $x$ n’est pas une constante de $\mathcal{T}$, $(x\in a)\Leftrightarrow R$.
+Lorsque Coll$_xR$ est un théorème d’une théorie $\mathscr{T}$, on dit que $R$ est collectivisante en $x$ dans $\mathscr{T}$. S’il en est ainsi, on peut introduire une constante auxiliaire $a$, distincte de $x$, des constantes de $\mathscr{T}$, et ne figurant pas dans $R$, avec l’axiome introducteur $(\forall x)((x\in a)\Leftrightarrow R)$, ou, ce qui revient au même si $x$ n’est pas une constante de $\mathscr{T}$, $(x\in a)\Leftrightarrow R$.
 
 Intuitivement, dire que $R$ est collectivisante en $x$, c’est dire qu’il existe un ensemble $a$ tel que les objets $x$ possédant la propriété $R$ soient précisément les éléments de $a$.
 

@@ -34,7 +34,7 @@ subsections:
       pdf_page: 154
 statements: 24
 exercises: 33
-content_sha256: 6bc1a96bfc0fa13351892267947be8e68da6e32aa23c8a59110ccaec5dd03a5f
+content_sha256: 41b5aca4d4b602c8ce5281511afac92994211a99592fbe175741c2b5eddb4d15
 ---
 
 ## § 6. ENSEMBLES INFINIS
@@ -90,7 +90,7 @@ C63. Soient $S\{v\}$ et $a$ deux termes. Il existe un ensemble $V$ et une applic
 Pour déduire C63 de C62,$^1$ convenons, pour toute lettre $u$, de poser
 
 $$
-D(u) = \mathcal{E}_x(x \in \mathbf{N} \text{ et } (\exists y)((x, y) \in \mathrm{pr}_1(\mathrm{pr}_1(u))))
+D(u) = \mathscr{E}_x(x \in \mathbf{N} \text{ et } (\exists y)((x, y) \in \mathrm{pr}_1(\mathrm{pr}_1(u))))
 $$
 
 Lorsque $u$ est une application d’une partie de $\mathbf{N}$ dans un ensemble, $D(u)$ n’est donc pas autre chose que l’ensemble de définition de $u$ (II, p. 10). Soit $M(u)$ la borne supérieure de $D(u)$ dans $\mathbf{N}.$^2 Soit $\varphi$ l’application vide (ayant $\varnothing$ comme ensemble de départ et ensemble d’arrivée, autrement dit (II, p. 14) le triplet $(\varnothing, \varnothing, \varnothing)$); considérons la relation

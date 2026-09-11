@@ -30,7 +30,7 @@ subsections:
       pdf_page: 46
 statements: 7
 exercises: 8
-content_sha256: 1687bd895d5f8fe5d63bf17d4ad4a21f61a12637b2e654e620f89a03efb97913
+content_sha256: 7e19fcace357f2d125f2592de16a62722a51f111eceae17b8fe87d53ab4ad8e0
 ---
 
 ## APPENDICE
@@ -166,17 +166,17 @@ Tout mot significatif $A$ peut se mettre, d’une manière et d’une seule, sou
 
 ### 4. Application aux assemblages d’une théorie mathématique
 
-Supposons que l’ensemble $S$ soit l’ensemble des signes d’une théorie mathématique $\mathcal T$. Nous poserons $n([\,])=0$, $n(\tau)=n(\neg)=1$, $n(\vee)=2$, $n(x)=0$ pour toute lettre $x$; enfin, pour tout signe spécifique $s$ de $\mathcal T$, $n(s)$ est le poids de $s$, fixé par la donnée de $\mathcal T$.
+Supposons que l’ensemble $S$ soit l’ensemble des signes d’une théorie mathématique $\mathscr T$. Nous poserons $n([\,])=0$, $n(\tau)=n(\neg)=1$, $n(\vee)=2$, $n(x)=0$ pour toute lettre $x$; enfin, pour tout signe spécifique $s$ de $\mathscr T$, $n(s)$ est le poids de $s$, fixé par la donnée de $\mathscr T$.
 
-Soit $A$ un assemblage de $\mathcal T$. Nous désignerons par $A^*$ le mot obtenu en effaçant les liens de $A$, et nous dirons que $A$ est équilibré si $A^*$ est équilibré (dans $L_0(S)$). Nous appellerons segment de $A$ tout assemblage obtenu en munissant un segment $S$ de $A^*$ des liens qui, dans $A$, joignent deux signes de $S$.
+Soit $A$ un assemblage de $\mathscr T$. Nous désignerons par $A^*$ le mot obtenu en effaçant les liens de $A$, et nous dirons que $A$ est équilibré si $A^*$ est équilibré (dans $L_0(S)$). Nous appellerons segment de $A$ tout assemblage obtenu en munissant un segment $S$ de $A^*$ des liens qui, dans $A$, joignent deux signes de $S$.
 
-**Critère 1.** — Si $A$ est un terme ou une relation de $\mathcal T$, $A$ est équilibré.
+**Critère 1.** — Si $A$ est un terme ou une relation de $\mathscr T$, $A$ est équilibré.
 
-Soit en effet $A_1,A_2,\ldots,A_n$ une construction formative de $\mathcal T$ où figure $A$. Raisonnant par récurrence, supposons démontré que les $A_j$ d’indice $j<i$ sont équilibrés, et prouvons que $A_i$ est équilibré. Cela s’établit comme dans la première partie de la démonstration de la prop. 2, sauf lorsque $A_i$ est de la forme $\tau_x(B)$, avec $B=A_j$, $j<i$. Dans ce cas, soit $C$ l’assemblage obtenu en remplaçant $x$, en chacune de ses occurrences dans $B$, par $[\,]$; le mot $A_i^*$ est identique à $\tau C^*$; or $B^*$ est équilibré, donc $C^*$ est équilibré (puisque $n([\,])=n(x)=0$); par suite $A_i^*$ est équilibré.
+Soit en effet $A_1,A_2,\ldots,A_n$ une construction formative de $\mathscr T$ où figure $A$. Raisonnant par récurrence, supposons démontré que les $A_j$ d’indice $j<i$ sont équilibrés, et prouvons que $A_i$ est équilibré. Cela s’établit comme dans la première partie de la démonstration de la prop. 2, sauf lorsque $A_i$ est de la forme $\tau_x(B)$, avec $B=A_j$, $j<i$. Dans ce cas, soit $C$ l’assemblage obtenu en remplaçant $x$, en chacune de ses occurrences dans $B$, par $[\,]$; le mot $A_i^*$ est identique à $\tau C^*$; or $B^*$ est équilibré, donc $C^*$ est équilibré (puisque $n([\,])=n(x)=0$); par suite $A_i^*$ est équilibré.
 
-Nous avons donc obtenu une condition nécessaire pour qu’un assemblage de $\mathcal T$ soit un terme ou une relation. Cette condition, on va le voir, n’est pas suffisante.
+Nous avons donc obtenu une condition nécessaire pour qu’un assemblage de $\mathscr T$ soit un terme ou une relation. Cette condition, on va le voir, n’est pas suffisante.
 
-Soit $A$ un assemblage équilibré de $\mathcal T$. Si $A$ commence par une lettre ou un $[\,]$, $A$ se réduit nécessairement à ce signe initial (cor. 2 de la prop. 2). Dans tous les autres cas, nous allons définir le ou les assemblages antécédents à $A$.
+Soit $A$ un assemblage équilibré de $\mathscr T$. Si $A$ commence par une lettre ou un $[\,]$, $A$ se réduit nécessairement à ce signe initial (cor. 2 de la prop. 2). Dans tous les autres cas, nous allons définir le ou les assemblages antécédents à $A$.
 
 1° Si $A$ commence par un $\tau$, ou un $\vee$, ou un signe spécifique, $A^*$ se met de manière unique sous la forme $fB_1B_2\ldots B_p$, $f$ étant un signe de poids $p\geq 1$ et les $B_i$ étant équilibrés (cor. 2 de la prop. 2). Nous appellerons assemblages antécédents à $A$ les segments $A_1,A_2,\ldots,A_p$ de $A$ qui correspondent aux segments $B_1,B_2,\ldots,B_p$ de $A^*$. En outre, nous dirons que $A$ est parfaitement équilibré si $A$ est identique à $fA_1A_2\ldots A_p$, autrement dit si, dans $A$, aucun lien ne joint $f$ à l’un des $B_i$, ou deux des $B_i$ distincts entre eux.
 
@@ -188,7 +188,7 @@ E I.46                                      DESCRIPTION DE LA MATHÉMATIQUE FORM
 
 On peut alors énoncer le critère suivant:
 
-**CRITÈRE 2.** — Soit $A$ un assemblage équilibré de $\mathcal{T}$.
+**CRITÈRE 2.** — Soit $A$ un assemblage équilibré de $\mathscr{T}$.
 
 Pour que $A$ soit un terme, il faut et il suffit que l’une des conditions suivantes soit vérifiée: 1) $A$ se réduit à une lettre; 2) $A$ commence par un $\tau$, est parfaitement équilibré, et les assemblages antécédents sont des relations (d’après CF8, il suffit de vérifier qu’un assemblage antécédent est une relation).
 
@@ -196,11 +196,11 @@ Pour que $A$ soit une relation, il faut et il suffit que l’une des conditions 
 
 Les conditions sont suffisantes d’après les critères CF1 à CF4 (I, p. 19). Montrons qu’elles sont nécessaires. Si $A$ est une relation, on a vu (I, p. 19) que $A$ commence par un $\vee$, ou un $\neg$, ou un signe spécifique. On raisonne de façon analogue dans les trois cas. Si par exemple $A$ commence par un $\vee$, $A$ est de la forme $\vee BC$, où $B$ et $C$ sont des relations, de sorte que $B$, $C$ sont les assemblages antécédents à $A$; $A$ est donc parfaitement équilibré. Si $A$ est un terme, ou bien il se réduit à une lettre, ou bien il commence par un $\tau$. Si $A$ commence par un $\tau$, la définition d’une construction formative prouve que $A$ est de la forme $\tau_x(B)$, où $B$ est une relation et $x$ une lettre, de sorte qu’on peut prendre $B$ pour assemblage antécédent à $A$ et que $A$ est parfaitement équilibré.
 
-Lorsqu’on veut savoir si un assemblage donné $A$ (non réduit à une lettre) est une relation (resp. un terme) de $\mathcal{T}$, on vérifie d’abord que $A$ est équilibré, et qu’il commence par un $\vee$, un $\neg$ ou un signe spécifique (resp. un $\tau$). On forme le ou les assemblages antécédents, et on vérifie s’il y a lieu que $A$ est parfaitement équilibré. Ceci fait, on est ramené à un problème analogue, mais concernant des assemblages plus courts. De proche en proche, on est ramené à des assemblages dont chacun est réduit à un signe, pour lesquels la solution est immédiate.
+Lorsqu’on veut savoir si un assemblage donné $A$ (non réduit à une lettre) est une relation (resp. un terme) de $\mathscr{T}$, on vérifie d’abord que $A$ est équilibré, et qu’il commence par un $\vee$, un $\neg$ ou un signe spécifique (resp. un $\tau$). On forme le ou les assemblages antécédents, et on vérifie s’il y a lieu que $A$ est parfaitement équilibré. Ceci fait, on est ramené à un problème analogue, mais concernant des assemblages plus courts. De proche en proche, on est ramené à des assemblages dont chacun est réduit à un signe, pour lesquels la solution est immédiate.
 
 #### Remarque {#ens-i-a0-n4-rem-1 .statement tag=03GW}
 
-Sauf pour certaines théories mathématiques particulièrement pauvres en axiomes (I, p. 50, exerc. 7), on ne dispose pas, en général, d’un procédé du type précédent, permettant de savoir si une relation donnée $R$ d’une théorie $\mathcal{T}$ est un théorème de $\mathcal{T}$.
+Sauf pour certaines théories mathématiques particulièrement pauvres en axiomes (I, p. 50, exerc. 7), on ne dispose pas, en général, d’un procédé du type précédent, permettant de savoir si une relation donnée $R$ d’une théorie $\mathscr{T}$ est un théorème de $\mathscr{T}$.
 
 ## EXERCICES {#ens-i-a0-exercises}
 

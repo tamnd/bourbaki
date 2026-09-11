@@ -38,7 +38,7 @@ subsections:
       pdf_page: 133
 statements: 32
 exercises: 1
-content_sha256: 940b752b58440ebe4daea0c9c83ad9df3293b5b19ed7383cf81a7f119541f724
+content_sha256: 07e9c85f27bd20056e87cd2cb56bd540395937d6a80d5f374b258742812705a8
 ---
 
 ## § 3. ENSEMBLES ÉQUIPOTENTS. CARDINAUX
@@ -276,11 +276,11 @@ En effet, soit $S$ l’ensemble somme des $b_i$, et posons $\alpha_s = a$ pour t
 
 Soient $(a_i)_{i \in I}$ une famille de cardinaux, et $b$ un cardinal ; on a
 $$
-(\mathcal{P}_{i \in I} a_i)^b = \mathcal{P}_{i \in I} a_i^b.
+(\mathscr{P}_{i \in I} a_i)^b = \mathscr{P}_{i \in I} a_i^b.
 $$
 En effet, posons $a_{i,\beta} = a_i$ pour tout couple $(i, \beta) \in I \times b$. On a alors, en vertu de l’associativité du produit
 $$
-(\mathcal{P}_{i \in I} a_i)^b = \mathcal{P}_{\beta \in b} (\mathcal{P}_{i \in I} a_{i,\beta}) = \mathcal{P}_{i \in I} (\mathcal{P}_{\beta \in b} a_{i,\beta}) = \mathcal{P}_{i \in I} a_i^b.
+(\mathscr{P}_{i \in I} a_i)^b = \mathscr{P}_{\beta \in b} (\mathscr{P}_{i \in I} a_{i,\beta}) = \mathscr{P}_{i \in I} (\mathscr{P}_{\beta \in b} a_{i,\beta}) = \mathscr{P}_{i \in I} a_i^b.
 $$
 
 #### Corollaire 3 {#ens-iii-s3-prop-10-cor-3 .statement tag=03KV}
@@ -288,7 +288,7 @@ $$
 Soient $a, b, c$ des cardinaux ; on a $a^{bc} = (a^b)^c$.
 En effet, posons $b_\gamma = b$ pour tout $\gamma \in c$. On a
 $$
-a^{bc} = a^{\sum_{\gamma \in c} b_\gamma} = \mathcal{P}_{\gamma \in c} a^{b_\gamma} = (a^b)^c,
+a^{bc} = a^{\sum_{\gamma \in c} b_\gamma} = \mathscr{P}_{\gamma \in c} a^{b_\gamma} = (a^b)^c,
 $$
 en vertu du cor. 1.
 
