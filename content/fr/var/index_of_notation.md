@@ -12,7 +12,7 @@ pdf_pages: 0181-0183
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 840618a4609483a3e6912ae0632ca36b42941f9acbffe679577c1e7cc4e15558
+content_sha256: 5fafe0fd2f3c9112f3d347db7e6764fed67da212c8c89789abad76bd52af612d
 ---
 
 ## INDEX DES NOTATIONS
