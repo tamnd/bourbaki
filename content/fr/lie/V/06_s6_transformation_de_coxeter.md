@@ -20,7 +20,7 @@ subsections:
       pdf_page: 116
 statements: 14
 exercises: 4
-content_sha256: ed349ba7048860eed5ba0c0f75184dd24dbdc02b5b44c9113c54df9e611786e4
+content_sha256: 892fe1aeea3cb663caac4de5b459d8cc48e601eee1d40995cd3c54f7e65be74a
 ---
 
 ## § 6. Transformation de Coxeter
@@ -53,7 +53,7 @@ Soient X une forêt finie, x ↦ g_x une application de X dans un groupe Γ, tel
 3) Supposons que a soit le plus grand élément de X pour ξ. Soit X_1 (resp. X_2) l’ensemble des éléments de X − {a} strictement majorés (resp. minorés) par b; soit ξ_i la restriction de ξ à X_i. On a
 
 $$
-p_ξ = p_{ξ_1} g_b p_{ξ_2} g_a = p_{ξ_1} g_b g_a p_{ξ_2},
+p_\xi = p_{\xi_1} g_b p_{\xi_2} g_a = p_{\xi_1} g_b g_a p_{\xi_2},
 $$
 
 et cet élément est conjugué de p_{ξ_1} p_{ξ_2} g_b g_a. On est donc ramené au cas 2).

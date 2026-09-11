@@ -30,7 +30,7 @@ subsections:
       pdf_page: 298
 statements: 15
 exercises: 9
-content_sha256: 27990209087c39671cad33c6a9b2bf6a92a19d13735d50ad71c6137ca459dfb8
+content_sha256: 6dfd4a7bac26e407abb6ed42b7c674028fd2545a3417e49280a736325af40e56
 ---
 
 ## § 4. RELATIONS BETWEEN TENSOR PRODUCTS AND HOMOMORPHISM MODULES
@@ -458,7 +458,7 @@ $$
 \langle x₁, x₁^* \rangle \langle x₂, x₂^* \rangle (y₁ \otimes y₂) = \langle x₁ \otimes x₂, x₁^* \otimes x₂^* \rangle (y₁ \otimes y₂)
 $$
 
-$x₁^* \otimes x₂^*$ being canonically identified under $μ$ with an element of $(E₁ \otimes E₂)^*$. As $\langle y₁ \otimes y₂, x₁^* \otimes x₂^* \rangle = \langle y₁, x₁^* \rangle \langle y₂, x₂^* \rangle$, formula (26) follows in this case from (17).
+$x₁^* \otimes x₂^*$ being canonically identified under $\mu$ with an element of $(E₁ \otimes E₂)^*$. As $\langle y₁ \otimes y₂, x₁^* \otimes x₂^* \rangle = \langle y₁, x₁^* \rangle \langle y₂, x₂^* \rangle$, formula (26) follows in this case from (17).
 
 #### Remark {#alg-ii-s4-n4-rem-1 .statement}
 

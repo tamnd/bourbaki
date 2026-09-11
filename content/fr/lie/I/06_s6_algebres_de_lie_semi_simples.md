@@ -52,7 +52,7 @@ subsections:
       pdf_page: 92
 statements: 53
 exercises: 27
-content_sha256: f4a7c703f00fc2511f368764b5627959d7e967ed5445dd9675de195bef57dfbe
+content_sha256: 8d709c25803b8fb7c73d0461df9a2c77b9242c20a9ecfdc4b50b9a4648899741
 ---
 
 ## § 6. Algèbres de Lie semi-simples
@@ -568,7 +568,7 @@ Soient g une algèbre de Lie, ρ une représentation de g dans un espace vectori
 
 Soient ρ, σ, τ des représentations de g dans des espaces vectoriels M, N, P. Supposons donnée une application K-bilinéaire (m, n) ↦ m.n de M × N dans P, telle que
 
-$$(ρ(x)m).n + m.(σ(x)n) = τ(x)(m.n)$$
+$$(\rho(x)m).n + m.(\sigma(x)n) = \tau(x)(m.n)$$
 
 quels que soient m ∈ M, n ∈ N, x ∈ g.
 
@@ -580,7 +580,7 @@ c) Si M est une algèbre (non nécessairement associative), et si les ρ(x) sont
 
 On a, pour m_0 ∈ M_0, n ∈ N et x ∈ g,
 
-$$τ(x)(m_0.n) = m_0.(σ(x)n),$$
+$$\tau(x)(m_0.n) = m_0.(\sigma(x)n),$$
 
 d’où a). L’assertion b) résulte de a) (Alg., chap. VIII, § 3, no 4, prop. 10). Si on fait N = P = M, σ = τ = ρ, l’assertion b) donne l’assertion c) comme cas particulier.
 

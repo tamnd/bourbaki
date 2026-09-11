@@ -420,7 +420,7 @@ chapters:
           statements: 22
           exercises: 15
           extraction: ocr
-          content_sha256: 18b16f95020a8a741d96574eaeeb64be1473fe323bf1aaba2c7e0f2b696c695b
+          content_sha256: 78e281d15c49979fbcb148265398137859535dae478a95080b8925131e3b224f
         - kind: section
           section: 3
           title: Free modules over a principal ideal domain

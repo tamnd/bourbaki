@@ -48,7 +48,7 @@ subsections:
       pdf_page: 36
 statements: 22
 exercises: 10
-content_sha256: d152eb7c56c9fa4738663bc0edf113ac39698858850f81ad589d64a01e5f66ab
+content_sha256: 9e9551e83ba2c11e5b270ea36acc3c410a2db41e41b16545744ac5dfedbb2694
 ---
 
 ## § 2. Algèbre enveloppante d’une algèbre de Lie
@@ -117,25 +117,25 @@ L’application σ′ : (x₁, x₂) ↦ σ₁(x₁) ⊗ 1 + 1 ⊗ σ₂(x₂) (
 
 (1)
 $$
-σ′ = τ \circ σ.
+\sigma′ = \tau \circ \sigma.
 $$
 
 On a φ ∘ τ ∘ σ = φ ∘ σ′ = σ, et τ ∘ φ ∘ σ′ = τ ∘ σ = σ′, donc φ ∘ τ et τ ∘ φ sont les applications identiques de U et U₁ ⊗ₖ U₂ respectivement. D’où la proposition.
 
 On identifie U₁ ⊗ₖ U₂ à U par l’isomorphisme φ. Alors, l’application canonique de g dans U s’identifie, d’après (1), à l’application :
 $$
-(x₁, x₂) ↦ σ₁(x₁) ⊗ 1 + 1 ⊗ σ₂(x₂).
+(x₁, x₂) ↦ \sigma₁(x₁) ⊗ 1 + 1 ⊗ \sigma₂(x₂).
 $$
 
 De façon analogue, si g₁, ..., gₙ sont des algèbres de Lie sur K, d’algèbres enveloppantes U₁, ..., Uₙ, l’algèbre enveloppante U de g₁ × ... × gₙ s’identifie canoniquement à U₁ ⊗ₖ ... ⊗ₖ Uₙ, et l’application canonique de g₁ × ... × gₙ dans U s’identifie à l’application :
 $$
-(x₁, ..., xₙ) ↦ σ₁(x₁) ⊗ 1 ⊗ ... ⊗ 1 + ... + 1 ⊗ ... ⊗ 1 ⊗ σₙ(xₙ)
+(x₁, ..., xₙ) ↦ \sigma₁(x₁) ⊗ 1 ⊗ ... ⊗ 1 + ... + 1 ⊗ ... ⊗ 1 ⊗ \sigmaₙ(xₙ)
 $$
 (en désignant par σᵢ l’application canonique de gᵢ dans Uᵢ).
 
 ### 3. Algèbre enveloppante d’une sous-algèbre de Lie
 
-Soient g une algèbre de Lie sur K, h une sous-algèbre de g, et σ, σ′ les applications canoniques de g, h dans leurs algèbres enveloppantes U, V. Alors l’injection canonique i de h dans g définit un homomorphisme $\tilde{i}$, dit *canonique*, de V dans U, tel que $σ \circ i = \tilde{i} \circ σ'$. L’algèbre $\tilde{i}(V)$ est engendrée par 1 et $σ(h)$. On verra (n° 7, cor. 5 du th. 1) que $\tilde{i}$ est injectif dans des cas importants.
+Soient g une algèbre de Lie sur K, h une sous-algèbre de g, et σ, σ′ les applications canoniques de g, h dans leurs algèbres enveloppantes U, V. Alors l’injection canonique i de h dans g définit un homomorphisme $\tilde{i}$, dit *canonique*, de V dans U, tel que $\sigma \circ i = \tilde{i} \circ \sigma'$. L’algèbre $\tilde{i}(V)$ est engendrée par 1 et $\sigma(h)$. On verra (n° 7, cor. 5 du th. 1) que $\tilde{i}$ est injectif dans des cas importants.
 
 Si $\mathfrak{h}$ est un idéal de $g$, l’idéal à gauche de U engendré par $\sigma(\mathfrak{h})$ coïncide avec l’idéal à droite engendré par $\sigma(\mathfrak{h})$, autrement dit est un idéal bilatère R. En effet, pour $x \in \mathfrak{h}$ et $x' \in g$, on a
 $$
@@ -265,14 +265,14 @@ Les z_M, pour M croissante, forment une base du K-module P (on convient que ∅ 
 
 Pour tout entier p ≥ 0, il existe un homomorphisme unique f_p du K-module g ⊗_K P_p dans le K-module P vérifiant les conditions suivantes :
 
-(A_p) $f_p(x_λ ⊗ z_M) = z_λ z_M$ pour $λ ≤ M, z_M ∈ P_p$;
-(B_p) $f_p(x_λ ⊗ z_M) - z_λ z_M ∈ P_q$ pour $z_M ∈ P_q, q ≤ p$;
-(C_p) $f_p(x_λ ⊗ f_p(x_μ ⊗ z_N)) = f_p(x_μ ⊗ f_p(x_λ ⊗ z_N)) + f_p([x_λ, x_μ] ⊗ z_N)$
+(A_p) $f_p(x_\lambda ⊗ z_M) = z_\lambda z_M$ pour $\lambda ≤ M, z_M ∈ P_p$;
+(B_p) $f_p(x_\lambda ⊗ z_M) - z_\lambda z_M ∈ P_q$ pour $z_M ∈ P_q, q ≤ p$;
+(C_p) $f_p(x_\lambda ⊗ f_p(x_\mu ⊗ z_N)) = f_p(x_\mu ⊗ f_p(x_\lambda ⊗ z_N)) + f_p([x_\lambda, x_\mu] ⊗ z_N)$
 pour $z_N ∈ P_{p-1}$. (Les termes intervenant dans (C_p) ont un sens grâce à la condition (B_p).)
 
 En outre, la restriction de f_p à g ⊗ P_{p-1} coïncide avec f_{p-1}.
 
-La dernière assertion résulte des précédentes puisque la restriction de f_p à g ⊗_K P_{p-1} vérifie les conditions (A_{p-1}), (B_{p-1}), (C_{p-1}). Nous allons prouver l’existence et l’unicité de f_p par récurrence sur p. Pour p = 0, la condition (A_0) impose $f_0(x_λ ⊗ 1) = z_λ$ et les conditions (B_0), (C_0) sont alors évidemment satisfaites. Supposons maintenant prouvées l’existence et l’unicité de f_{p-1}. Montrons que f_{p-1} admet une extension unique $f_p$ à $g \otimes_k P_p$ satisfaisant aux conditions $(A_p), (B_p), (C_p)$.
+La dernière assertion résulte des précédentes puisque la restriction de f_p à g ⊗_K P_{p-1} vérifie les conditions (A_{p-1}), (B_{p-1}), (C_{p-1}). Nous allons prouver l’existence et l’unicité de f_p par récurrence sur p. Pour p = 0, la condition (A_0) impose $f_0(x_\lambda ⊗ 1) = z_\lambda$ et les conditions (B_0), (C_0) sont alors évidemment satisfaites. Supposons maintenant prouvées l’existence et l’unicité de f_{p-1}. Montrons que f_{p-1} admet une extension unique $f_p$ à $g \otimes_k P_p$ satisfaisant aux conditions $(A_p), (B_p), (C_p)$.
 
 Nous devons définir $f_p(x_\lambda \otimes z_M)$ pour une suite croissante M de $p$ éléments.
 
@@ -403,11 +403,11 @@ Supposons que le K-module g soit somme directe de sous-algèbres g₁, g₂, ...
 
 Soit (xᵢλ)λ∈Lᵢ une base de gᵢ. Ordonnons totalement L₁ ∪ ... ∪ Lₙ de telle manière que tout élément de Lᵢ majore tout élément de Lⱼ pour i ≥ j. Alors les éléments :
 
-$$(x_{λ₁}^{₁} x_{λ₂}^{₁} ... x_{λₚ}^{₁}) ⊗ ... ⊗ (x_{ν₁}^{ⁿ} x_{ν₂}^{ⁿ} ... x_{ν_q}^{ⁿ}),$$
+$$(x_{\lambda₁}^{₁} x_{\lambda₂}^{₁} ... x_{\lambdaₚ}^{₁}) ⊗ ... ⊗ (x_{\nu₁}^{ⁿ} x_{\nu₂}^{ⁿ} ... x_{\nu_q}^{ⁿ}),$$
 
 où λ₁ ≤ λ₂ ≤ ... ≤ λₚ ≤ ... ≤ ν₁ ≤ ν₂ ≤ ... ≤ ν_q, constituent une base de U₁ ⊗ₖ ... ⊗ₖ Uₙ. Ils sont transformés par φ en les éléments :
 
-$$x_{λ₁}^{₁} x_{λ₂}^{₁} ... x_{λₚ}^{₁} ... x_{ν₁}^{ⁿ} x_{ν₂}^{ⁿ} ... x_{ν_q}^{ⁿ}$$
+$$x_{\lambda₁}^{₁} x_{\lambda₂}^{₁} ... x_{\lambdaₚ}^{₁} ... x_{\nu₁}^{ⁿ} x_{\nu₂}^{ⁿ} ... x_{\nu_q}^{ⁿ}$$
 
 qui constituent une base de U. D’où le corollaire.
 

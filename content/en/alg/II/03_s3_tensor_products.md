@@ -50,7 +50,7 @@ subsections:
       pdf_page: 283
 statements: 30
 exercises: 4
-content_sha256: 7813b67312bbb261712d83c5cefe26e4e2d490a7339a463a028293bdd8b639f2
+content_sha256: 032eef2568e0d74dea7e1cc2fbfc3e69d6e61504511704a6eff58925b95194a2
 ---
 
 ## § 3. TENSOR PRODUCTS
@@ -552,7 +552,7 @@ The basis $(b_\mu)$ defines an isomorphism of $F$ onto $\bigoplus_{\mu \in M} Ab
 
 If E is a ((B'_i); A, (C'_j))-multimodule, the canonical isomorphism E ⊗_A F → E^{(M)} is a ((B'_i); (C'_j))-multimodule isomorphism.
 
-In particular, if also E admits a basis (a_λ)_{λ ∈ L}, every z ∈ E ⊗_A F may be written in one and only one way in the form $\sum_{λ, μ} (a_λ ξ_{λμ}) ⊗ b_μ$, where the ξ_{λμ} belong to A (and form a family of finite support); the mapping $z \mapsto (\xi_{\lambda\mu})_{(\lambda, \mu) \in L \times M}$ is an isomorphism of E ⊗_A F onto A^{(L × M)} for the \mathbf{Z}-module structures (and even the module structures over the centre of A). More particularly:
+In particular, if also E admits a basis (a_λ)_{λ ∈ L}, every z ∈ E ⊗_A F may be written in one and only one way in the form $\sum_{\lambda, \mu} (a_\lambda \xi_{\lambda\mu}) ⊗ b_\mu$, where the ξ_{λμ} belong to A (and form a family of finite support); the mapping $z \mapsto (\xi_{\lambda\mu})_{(\lambda, \mu) \in L \times M}$ is an isomorphism of E ⊗_A F onto A^{(L × M)} for the \mathbf{Z}-module structures (and even the module structures over the centre of A). More particularly:
 
 #### Corollary 2 {#alg-ii-s3-prop-7-cor-2 .statement}
 
@@ -560,10 +560,10 @@ In particular, if also E admits a basis (a_λ)_{λ ∈ L}, every z ∈ E ⊗_A F
 
 By an abuse of language, the basis (a_λ ⊗ b_μ) is sometimes called the *tensor product* of the bases (a_λ) and (b_μ).
 
-*Remark (1)*. Let E be a free right A-module, F a free left A-module, (a_λ)_{λ ∈ L} a basis of E and (b_μ)_{μ ∈ M} a basis of F. Every element z ∈ E ⊗_A F may be written uniquely as $\sum_λ a_λ ⊗ y_λ$, where y_λ ∈ F, and also uniquely as $\sum_μ x_μ ⊗ b_μ$, where x_μ ∈ E. If we write $y_λ = \sum_μ η_{λμ} b_μ$, $x_μ = \sum_λ a_λ ξ_{λμ}$, where the ξ_{λμ} and η_{λμ} belong to A, then $ξ_{λμ} = η_{λμ}$ for all (λ, μ), for
+*Remark (1)*. Let E be a free right A-module, F a free left A-module, (a_λ)_{λ ∈ L} a basis of E and (b_μ)_{μ ∈ M} a basis of F. Every element z ∈ E ⊗_A F may be written uniquely as $\sum_\lambda a_\lambda ⊗ y_\lambda$, where y_λ ∈ F, and also uniquely as $\sum_\mu x_\mu ⊗ b_\mu$, where x_μ ∈ E. If we write $y_\lambda = \sum_\mu \eta_{\lambda\mu} b_\mu$, $x_\mu = \sum_\lambda a_\lambda \xi_{\lambda\mu}$, where the ξ_{λμ} and η_{λμ} belong to A, then $\xi_{\lambda\mu} = \eta_{\lambda\mu}$ for all (λ, μ), for
 
 $$
-\sum_λ \left( a_λ ⊗ \left( \sum_μ η_{λμ} b_μ \right) \right) = \sum_{λ, μ} ((a_λ η_{λμ}) ⊗ b_μ) = \sum_μ \left( \left( \sum_λ a_λ η_{λμ} \right) ⊗ b_μ \right).
+\sum_\lambda \left( a_\lambda ⊗ \left( \sum_\mu \eta_{\lambda\mu} b_\mu \right) \right) = \sum_{\lambda, \mu} ((a_\lambda \eta_{\lambda\mu}) ⊗ b_\mu) = \sum_\mu \left( \left( \sum_\lambda a_\lambda \eta_{\lambda\mu} \right) ⊗ b_\mu \right).
 $$
 
 #### Corollary 3 {#alg-ii-s3-prop-7-cor-3 .statement}
@@ -571,12 +571,12 @@ $$
 *Let (E_λ)_{λ ∈ L} be a family of right A-modules and F a free (resp. finitely generated free) left A-module. Then the canonical mapping (22)
 
 $$
-\left( \prod_{λ ∈ L} E_λ \right) ⊗_A F → \prod_{λ ∈ L} (E_λ ⊗_A F)
+\left( \prod_{\lambda ∈ L} E_\lambda \right) ⊗_A F → \prod_{\lambda ∈ L} (E_\lambda ⊗_A F)
 $$
 
 is injective (resp. bijective).
 
-If (b_μ) is a basis of F, every element of $\left( \prod_{λ ∈ L} E_λ \right) ⊗_A F$ can be written uniquely as $z = \sum_μ ((x_λ^{(μ)}) ⊗ b_μ)$ (Corollary 1); to say that its canonical image is zero means that, for all λ ∈ L, $\sum_μ (x_λ^{(μ)} ⊗ b_μ) = 0$, hence $x_λ^{(μ)} = 0$ for all λ ∈ L and all μ (Corollary 1) and therefore $z = 0$.
+If (b_μ) is a basis of F, every element of $\left( \prod_{\lambda ∈ L} E_\lambda \right) ⊗_A F$ can be written uniquely as $z = \sum_\mu ((x_\lambda^{(\mu)}) ⊗ b_\mu)$ (Corollary 1); to say that its canonical image is zero means that, for all λ ∈ L, $\sum_\mu (x_\lambda^{(\mu)} ⊗ b_\mu) = 0$, hence $x_\lambda^{(\mu)} = 0$ for all λ ∈ L and all μ (Corollary 1) and therefore $z = 0$.
 
 Showing that the canonical mapping is bijective when F admits a finite basis is immediately reduced, by virtue of Proposition 7, to the case where
 
@@ -831,7 +831,7 @@ $$
 
 It suffices to verify this relation when $y_1$ (resp. $y_2$) is of the form $\bigotimes_{(c^{(1)})} x_\lambda$ (resp. $\bigotimes_{(c^{(2)})} x_\lambda$), since these elements generate the $\mathbf{Z}$-module $F_1$ (resp. $F_2$). But by definition, $r_\omega\left( \bigotimes_{(c^{(1)})} x_\lambda \right) = \bigotimes_{(c^{(1)})} x'_\lambda$, where $x'_{\rho(\omega)} = p_\omega(x_{\rho(\omega)})$ and $x'_\lambda = x_\lambda$ for λ ≠ ρ(ω) in L₁; similarly $s_\omega\left( \bigotimes_{(c^{(2)})} x_\lambda \right) = \bigotimes_{(c^{(2)})} x''_\lambda$, where $x''_{\sigma(\omega)} = q_\omega(x'_{\sigma(\omega)})$ and $x''_\lambda = x_\lambda$ for λ ≠ σ(ω) in L₂; using (30) and (31), relation (32) then follows from (26). Hence there exists a $\mathbf{Z}$-linear mapping v of F₁ ⊗ F₂ into H such that $v(y_1 \otimes y_2) = w(y_1, y_2)$ and it then follows from (30) and (31) that $v \circ h = u$.
 
-The most important special case of the general tensor product defined above is the following: we start with a family $(A_i)_{1 \leq i \leq n-1}$ of rings and a family $(E_i)_{1 \leq i \leq n}$, where $E_1$ is a right $A_1$-module, $E_n$ is a left $A_{n-1}$ module and for $2 \leq i \leq n-1$, $E_i$ is an $(A_{i-1}, A_i)$-bimodule. Then the above definition is applied as follows: L is the set $[1, n]$, $G_i = E_i$, Ω is the set the sum of the $A_i$ ($1 \leq i \leq n-1$). For $ω ∈ A_i$ ($1 \leq i \leq n-1$), take $ρ(ω) = i$, $σ(ω) = i + 1$, $p_ω$ is the endomorphism $x ↦ xω$ of the $Z$-module $E_i$ and $q_ω$ the endomorphism $y ↦ ωy$ of the $Z$-module $E_{i+1}$; the corresponding tensor product is denoted by
+The most important special case of the general tensor product defined above is the following: we start with a family $(A_i)_{1 \leq i \leq n-1}$ of rings and a family $(E_i)_{1 \leq i \leq n}$, where $E_1$ is a right $A_1$-module, $E_n$ is a left $A_{n-1}$ module and for $2 \leq i \leq n-1$, $E_i$ is an $(A_{i-1}, A_i)$-bimodule. Then the above definition is applied as follows: L is the set $[1, n]$, $G_i = E_i$, Ω is the set the sum of the $A_i$ ($1 \leq i \leq n-1$). For $\omega ∈ A_i$ ($1 \leq i \leq n-1$), take $\rho(\omega) = i$, $\sigma(\omega) = i + 1$, $p_\omega$ is the endomorphism $x ↦ x\omega$ of the $Z$-module $E_i$ and $q_\omega$ the endomorphism $y ↦ \omega y$ of the $Z$-module $E_{i+1}$; the corresponding tensor product is denoted by
 
 $$
 E_1 \otimes_{A_1} E_2 \otimes_{A_2} E_3 \otimes \cdots \otimes_{A_{n-2}} E_{n-1} \otimes_{A_{n-1}} E_n
@@ -847,11 +847,11 @@ $$
 E_1 \otimes_C E_2 \otimes_C E_3 \otimes \cdots \otimes_C E_{n-1} \otimes_C E_n
 $$
 
-$n$ C-modules structures which are compatible with one another and which are in fact identical, since for all $γ ∈ C$ and $(x_i) ∈ \prod_{i=1}^n E_i$, by definition
+$n$ C-modules structures which are compatible with one another and which are in fact identical, since for all $\gamma ∈ C$ and $(x_i) ∈ \prod_{i=1}^n E_i$, by definition
 
 $$
-(γx_1) \otimes x_2 \otimes \cdots \otimes x_n \\
-= x_1 \otimes (γx_2) \otimes \cdots \otimes x_n = \cdots = x_1 \otimes x_2 \otimes \cdots \otimes (γx_n).
+(\gamma x_1) \otimes x_2 \otimes \cdots \otimes x_n \\
+= x_1 \otimes (\gamma x_2) \otimes \cdots \otimes x_n = \cdots = x_1 \otimes x_2 \otimes \cdots \otimes (\gamma x_n).
 $$
 
 When we speak of the tensor product (34) as a C-module, we shall always mean with this structure, unless otherwise mentioned, and the tensor product (34) is also denoted by $\bigotimes_{1 \leq i \leq n} E_i$ if no confusion can arise. For every C-module G, the $\mathbf{Z}$-multilinear mappings of $\prod_{i=1}^n E_i$ into G which, for every index i, satisfy the relation

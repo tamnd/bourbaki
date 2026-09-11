@@ -61,7 +61,7 @@ subsections:
       pdf_page: 193
 statements: 79
 exercises: 30
-content_sha256: d00fa574ed220b842b3c2d951df663dea01863acd4f469051e0003748ad7283e
+content_sha256: a884e01bc9079fb672558918f88286f16f20cd9512c50a20e27c6df3e8959c1e
 ---
 
 ## § 5. MEASURABLE FUNCTIONS AND SETS
@@ -114,13 +114,13 @@ In particular, the entire space $X$ is measurable.
 
 — *If X is metrizable, then every Souslin subset A of X* (GT, IX, §6, No. 2) *is μ-measurable for every measure μ on X*.
 
-By virtue of Prop. 3, it suffices to verify that every relatively compact Souslin set A is μ-integrable. Now, such a set A is capacitable for $|\mu|^*$ (GT, IX, §6, No. 9, Th. 5). Therefore, for every $ε > 0$ there exists a compact subset K of A such that $|\mu|^*(A) \leq |\mu|^*(K) + ε = |\mu|(K) + ε$. Let U be a relatively compact open set in X containing A such that
+By virtue of Prop. 3, it suffices to verify that every relatively compact Souslin set A is μ-integrable. Now, such a set A is capacitable for $|\mu|^*$ (GT, IX, §6, No. 9, Th. 5). Therefore, for every $\varepsilon > 0$ there exists a compact subset K of A such that $|\mu|^*(A) \leq |\mu|^*(K) + \varepsilon = |\mu|(K) + \varepsilon$. Let U be a relatively compact open set in X containing A such that
 
 $$
-|\mu|(U) = |\mu|^*(U) \leq |\mu|^*(A) + ε.
+|\mu|(U) = |\mu|^*(U) \leq |\mu|^*(A) + \varepsilon.
 $$
 
-Then $|\mu|^*(U - K) = |\mu|(U) - |\mu|(K) \leq 2ε$, therefore $|\mu|^*(A - K) \leq 2ε$, which proves that A is μ-integrable (§4, No. 6, Cor. 1 of Th. 4).
+Then $|\mu|^*(U - K) = |\mu|(U) - |\mu|(K) \leq 2\varepsilon$, therefore $|\mu|^*(A - K) \leq 2\varepsilon$, which proves that A is μ-integrable (§4, No. 6, Cor. 1 of Th. 4).
 
 ### 2. Principle of localization. Locally negligible sets
 
@@ -134,7 +134,7 @@ The concept of measurable function is therefore a concept of local character.
 
 #### Definition 3 {#int-iv-s5-def-3 .statement}
 
-— *A set $A \subset X$ is said to be locally negligible (for the measure $μ$) if, for every $x \in X$, there exists a neighborhood $V$ of $x$ such that $V \cap A$ is negligible.*
+— *A set $A \subset X$ is said to be locally negligible (for the measure $\mu$) if, for every $x \in X$, there exists a neighborhood $V$ of $x$ such that $V \cap A$ is negligible.*
 
 By the principle of localization, every locally negligible set is *measurable*. The properties of negligible sets (§2) show that every subset of a locally negligible set is locally negligible, and that every countable union of locally negligible sets is locally negligible.
 

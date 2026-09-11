@@ -137,7 +137,7 @@ chapters:
           statements: 30
           exercises: 29
           extraction: ocr
-          content_sha256: d2ed7738551894ee679e3e80f8e994621625580cb77d886397178959c914aed2
+          content_sha256: 8a0387f77b2001a7abe4284d0c3ff4f0b45e0dba8aed6ea41ddcc50565c4c21e
         - kind: section
           section: 9
           title: Espaces compacts et espaces localement compacts
@@ -249,7 +249,7 @@ chapters:
           statements: 24
           exercises: 26
           extraction: ocr
-          content_sha256: 9dc2c7ce4ac4d39a0204017ab32066416b9261f24bf21f67789b195fb4500fd9
+          content_sha256: dafdda15c171e593abf86672ebeb291caaeec566e80234be9b86a51c322e0b96
         - kind: historical
           title: Historical Note
           path: content/fr/top/II/historical_note.md

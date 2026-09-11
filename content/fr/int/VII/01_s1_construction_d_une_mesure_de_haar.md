@@ -56,7 +56,7 @@ subsections:
       pdf_page: 36
 statements: 50
 exercises: 30
-content_sha256: db1d8825cd989140492f1929a17755f450b5846eb8876515ec903798ee8bc6a8
+content_sha256: 1eeccef3abe3394a4d537d6aac511fcc8bf795295de5a5d875612d7779af1c11
 ---
 
 ## § 1. Construction d'une mesure de Haar.
@@ -146,7 +146,7 @@ Si $\mu$ est quasi-invariante, le support de $\mu$ est invariant par G. En parti
 
 #### Lemme 1 {#int-vii-s1-lem-1 .statement}
 
-Soient X, Y, Z trois espaces topologiques, Y étant localement compact. Soit $(x, y) \to xy$ une application continue de $X \times Y$ dans Z, qui définit une application $x \to u_x$ de X dans $\mathscr{F}(Y; Z)$ par la relation $u_x(y) = xy$. Soient $f$ une fonction continue dans Z, à valeurs dans $\overline{\mathbf{R}}$ ou dans un espace de Banach, S le support de $f$, et $µ$ une mesure sur Y. On suppose que, pour tout $x_0 \in X$, il existe un voisinage V de $x_0$ dans X tel que $\bigcup_{x \in V} u_x^{-1}(S)$ soit relativement compact dans Y. Alors :
+Soient X, Y, Z trois espaces topologiques, Y étant localement compact. Soit $(x, y) \to xy$ une application continue de $X \times Y$ dans Z, qui définit une application $x \to u_x$ de X dans $\mathscr{F}(Y; Z)$ par la relation $u_x(y) = xy$. Soient $f$ une fonction continue dans Z, à valeurs dans $\overline{\mathbf{R}}$ ou dans un espace de Banach, S le support de $f$, et $\mu$ une mesure sur Y. On suppose que, pour tout $x_0 \in X$, il existe un voisinage V de $x_0$ dans X tel que $\bigcup_{x \in V} u_x^{-1}(S)$ soit relativement compact dans Y. Alors :
 
 a) pour tout $x \in X$, $f \circ u_x$ est continue dans Y et à support compact ;
 
@@ -158,12 +158,12 @@ Revenons maintenant aux notations antérieures.
 
 #### Proposition 1 {#int-vii-s1-prop-1 .statement}
 
-Supposons G localement compact. Soit $µ$ une mesure relativement invariante non nulle sur X. Alors son multiplicateur $χ$ est une fonction continue dans G.
+Supposons G localement compact. Soit $\mu$ une mesure relativement invariante non nulle sur X. Alors son multiplicateur $\chi$ est une fonction continue dans G.
 
 En effet, soient $f \in \mathscr{H}(X)$, S le support de $f$, $s_0$ un point de G, et V un voisinage compact de $s_0$ dans G ; alors
 
 $$
-\bigcup_{s \in V} γ(s)^{-1}(S) = V^{-1}S
+\bigcup_{s \in V} \gamma(s)^{-1}(S) = V^{-1}S
 $$
 
 est compact dans X ; d’après le lemme 1 et la formule (8), $\chi(s)^{-1}\langle \mu, f \rangle$ dépend continûment de s ; si on a choisi $f$ telle que $\langle \mu, f \rangle \neq 0$, on voit que $\chi$ est continu.

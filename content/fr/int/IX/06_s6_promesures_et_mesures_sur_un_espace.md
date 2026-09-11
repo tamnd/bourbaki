@@ -56,7 +56,7 @@ subsections:
       pdf_page: 90
 statements: 36
 exercises: 1
-content_sha256: ff833bcdb95c00c4a1d79240bf1b3c1523ab0295443d6a66843db7fa15dc03f1
+content_sha256: abcc6482e9774c8c077043fb597fb99145aeac82cdb44ea2327f8991de620076
 ---
 
 ## § 6. Promesures et mesures sur un espace localement convexe
@@ -376,7 +376,7 @@ L'image d'une promesure gaussienne par une application linéaire continue est un
 Soient E et E₁ deux espaces localement convexes et u une application linéaire continue de E dans E₁. Soient Q une forme quadratique positive sur E' et Q₁ la forme quadratique positive Q o t u sur E₁'. On a u(Γ_Q) = Γ_{Q₁}.
 Posons μ = u(Γ_Q). D’après la formule (4) du n° 3, on a
 $$
-\mathscr{F}μ = (\mathscr{F}Γ_Q) o t u = e^{-Q/2} o t u = e^{-Q_1/2} = \mathscr{F}Γ_{Q_1}
+\mathscr{F}\mu = (\mathscr{F}\Gamma_Q) o t u = e^{-Q/2} o t u = e^{-Q_1/2} = \mathscr{F}\Gamma_{Q_1}
 $$
 d’où μ = Γ_{Q₁} d’après la prop. 3 du n° 3.
 
@@ -389,27 +389,27 @@ Soient E un espace localement convexe et Q une forme quadratique positive sur E'
 Soient E un espace localement convexe et μ une mesure gaussienne sur E, de variance Q. Pour tout entier n ≥ 0, et tout x' ∈ E', on a les relations
 (16)
 $$
-\int_E |\langle x, x' \rangle|^n dμ(x) = π^{-1/2} 2^{n/2} \Gamma \left( \frac{n+1}{2} \right) Q(x')^{n/2}
+\int_E |\langle x, x' \rangle|^n d\mu(x) = \pi^{-1/2} 2^{n/2} \Gamma \left( \frac{n+1}{2} \right) Q(x')^{n/2}
 $$
 (17)
 $$
-\int_E \langle x, x' \rangle^{2n} dμ(x) = \frac{(2n)!}{2^n n!} Q(x')^n
+\int_E \langle x, x' \rangle^{2n} d\mu(x) = \frac{(2n)!}{2^n n!} Q(x')^n
 $$
 (18)
 $$
-\int_E \langle x, x' \rangle^{2n+1} dμ(x) = 0.
+\int_E \langle x, x' \rangle^{2n+1} d\mu(x) = 0.
 $$
 En particulier, on a
 (19)
 $$
-\int_E \langle x, x' \rangle^2 dμ(x) = Q(x') \quad (x' \in E').
+\int_E \langle x, x' \rangle^2 d\mu(x) = Q(x') \quad (x' \in E').
 $$
 
 Si ces formules sont vraies pour un élément x' de E', elles sont vraies pour tous ses multiples t.x' (avec t réel). On peut donc se contenter de les établir lorsque Q(x') est égal à 0 ou 1.
 a) Supposons Q(x') = 0. La mesure x'(μ) est égale à γ₀ = ε₀, donc x' est nulle μ-presque partout; les formules (16) à (19) sont alors évidentes.
 b) Supposons Q(x') = 1, d’où x'(μ) = γ₁. On a
 $$
-\int_E |\langle x, x' \rangle|^n dμ(x) = \int_\mathbf{R} |t|^n dγ_1(t) = (2π)^{-1/2} \int_\mathbf{R} |t|^n e^{-t^2/2} dt
+\int_E |\langle x, x' \rangle|^n d\mu(x) = \int_\mathbf{R} |t|^n d\gamma_1(t) = (2\pi)^{-1/2} \int_\mathbf{R} |t|^n e^{-t^2/2} dt
 $$
 et (16) résulte immédiatement de (6) (n° 4, lemme 1). De même, les formules (17) et (18) résultent de (7) et (8). Enfin, (19) s’obtient en faisant n = 1 dans (17).
 

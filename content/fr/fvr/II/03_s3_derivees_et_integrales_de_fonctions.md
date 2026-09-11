@@ -37,7 +37,7 @@ subsections:
       pdf_page: 79
 statements: 18
 exercises: 10
-content_sha256: c6f3cc6ac4464f645a1fcfafc70e48660d7235b77c1b612c2cec4a65f8684f4b
+content_sha256: e519090fb1cff6e92680d9c6a69ce418aa74df7fef3b665abe269a12bf1043ec
 ---
 
 ## § 3. DÉRIVÉES ET INTÉGRALES DE FONCTIONS DÉPENDANT D’UN PARAMÈTRE
@@ -176,7 +176,7 @@ Compte tenu de la prop. 2 de II, p. 19, cette proposition résulte aussi de la c
 Soit (f_α)_{α∈A} une famille de fonctions réglées dans un intervalle quelconque I ⊂ R, à valeurs dans un espace normé complet E sur R. Supposons qu’il existe une fonction numérique finie g réglée dans I, telle que, pour tout x ∈ I et tout α ∈ A, on ait \|f_α(x)\| ≤ g(x) et que l’intégrale ∫_I g(t) dt soit convergente. Dans ces conditions, l’intégrale ∫_I f_α(t) dt est absolument et uniformément convergente dans A ; en effet, pour tout intervalle compact K contenu dans I, on a
 
 $$
-\left\| \int_K f_α(t) \, dt \right\| \leq \int_K g(t) \, dt
+\left\| \int_K f_\alpha(t) \, dt \right\| \leq \int_K g(t) \, dt
 $$
 
 et la convergence de l’intégrale ∫_I g(t) dt entraîne que, pour tout ε > 0, il existe un intervalle compact J ⊂ I tel que, pour tout intervalle compact K ⊂ I ne rencontrant pas J, on ait ∫_K g(t) dt ≤ ε. Lorsqu’il existe une fonction numérique g ayant les propriétés précédentes, on dit que l’intégrale ∫_I f_α(t) dt est normalement convergente dans A (cf. TG, X, p. 22).

@@ -64,7 +64,7 @@ subsections:
       pdf_page: 228
 statements: 68
 exercises: 31
-content_sha256: 629cb3a46d3a6275c05e0eb77c9aa655095a0dbb0504fbf8215da05017df48ff
+content_sha256: df83a8a53628c3cc4dea3eea248da6848d7954316dd21391669c6e1281c0723d
 ---
 
 ## § 2. Généralités sur les anneaux et modules filtrés.
@@ -152,28 +152,28 @@ Soient A un anneau filtré, E un A-module filtré, (E_n) la filtration de E. Pou
 
 $$
 \begin{cases}
-υ(x) = -∞ & \Leftrightarrow \quad x \notin \bigcup_{n \in \mathbf{Z}} E_n \\
-υ(x) = p & \Leftrightarrow \quad x \in E_p \text{ et } x \notin E_{p+1} \\
-υ(x) = +∞ & \Leftrightarrow \quad x \in \bigcap_{n \in \mathbf{Z}} E_n
+\upsilon(x) = -∞ & \Leftrightarrow \quad x \notin \bigcup_{n \in \mathbf{Z}} E_n \\
+\upsilon(x) = p & \Leftrightarrow \quad x \in E_p \text{ et } x \notin E_{p+1} \\
+\upsilon(x) = +∞ & \Leftrightarrow \quad x \in \bigcap_{n \in \mathbf{Z}} E_n
 \end{cases}
 $$
 
 On dit que l’application υ : E → \overline{\mathbf{R}} est la fonction d’ordre du module filtré E. La connaissance de υ entraîne celle des E_n, car E_n est l’ensemble des x ∈ E tels que υ(x) ≥ n ; le fait que les E_n sont des sous-groupes additifs de E se traduit par la relation
 
 $$
-υ(x - y) \geq \inf (\upsilon(x), \upsilon(y)).
+\upsilon(x - y) \geq \inf (\upsilon(x), \upsilon(y)).
 $$
 
 La définition précédente s’applique en particulier au A-module filtré A_s ; soit ω sa fonction d’ordre. Il résulte de la formule (3) du n° 1 que pour a ∈ A et x ∈ E, on a
 
 $$
-υ(ax) \geq ω(a) + υ(x)
+\upsilon(ax) \geq \omega(a) + \upsilon(x)
 $$
 
 lorsque le second membre est défini ; en particulier, pour a ∈ A et b ∈ A, on a
 
 $$
-ω(ab) \geq ω(a) + ω(b)
+\omega(ab) \geq \omega(a) + \omega(b)
 $$
 
 lorsque le second membre est défini.
@@ -240,7 +240,7 @@ Plus généralement, soient A un anneau commutatif, b un idéal de A, et munisso
 Si maintenant E est un A-module et que l’on munit E de la filtration b-adique, on voit de même que le gr(A)-module gradué gr(E) est engendré par gr_0(E) = E/bE. De façon plus précise, la restriction φ à gr(A) × gr_0(E) de la loi externe du gr(A)-module gr(E) est une application Z-bilinéaire de gr(A) × gr_0(E) dans gr(E); de plus gr(A) est un (gr_0(A), gr_0(A))-bimodule et gr_0(E) un gr_0(A)-module; on vérifie aussitôt que pour α ∈ gr(A), α_0 ∈ gr_0(A), ξ ∈ gr_0(E), on a φ(αα_0, ξ) = φ(α, α_0ξ), donc φ définit une application gr_0(A)-linéaire surjective
 
 $$
-γ_E : \mathrm{gr}(A) \otimes_{\mathrm{gr}_0(A)} \mathrm{gr}_0(E) \to \mathrm{gr}(E)
+\gamma_E : \mathrm{gr}(A) \otimes_{\mathrm{gr}_0(A)} \mathrm{gr}_0(E) \to \mathrm{gr}(E)
 $$
 
 dite canonique.
@@ -875,7 +875,7 @@ Tout élément de $\mathbf{Z}/n^k\mathbf{Z}$ admet un représentant et un seul d
 
 #### Proposition 17 {#ac-iii-s2-prop-17 .statement}
 
-Soient A un anneau commutatif, (mλ)λ∈L une famille d’idéaux de A, distincts de A, tels que mλ et mμ soient étrangers pour λ ≠ μ. Pour tout famille s = (s(λ))λ∈L d’entiers ≥ 0, à support fini, on pose $a_s = \bigcap_{λ∈L} m_s^{s(λ)}$ (égal au produit des m_s^{s(λ)} pour les λ tels que s(λ) ≠ 0 ; cf. chap. II, § 1, no 2, prop. 3 et 5) ; les a_s forment un système fondamental de voisinages de 0 pour une topologie C compatible avec la structure d’anneau de A ; soit Ā le séparé complété de A pour cette topologie. D’autre part, pour tout λ ∈ L, soit Aλ l’anneau A muni de la topologie mλ-adique, et soit Āλ son séparé complété. Si l’on désigne par $u : A \to \prod_{\lambda \in L} A_\lambda$ l’homomorphisme diagonal, $u$ est continu et l’homomorphisme correspondant $\hat{u}$:
+Soient A un anneau commutatif, (mλ)λ∈L une famille d’idéaux de A, distincts de A, tels que mλ et mμ soient étrangers pour λ ≠ μ. Pour tout famille s = (s(λ))λ∈L d’entiers ≥ 0, à support fini, on pose $a_s = \bigcap_{\lambda∈L} m_s^{s(\lambda)}$ (égal au produit des m_s^{s(λ)} pour les λ tels que s(λ) ≠ 0 ; cf. chap. II, § 1, no 2, prop. 3 et 5) ; les a_s forment un système fondamental de voisinages de 0 pour une topologie C compatible avec la structure d’anneau de A ; soit Ā le séparé complété de A pour cette topologie. D’autre part, pour tout λ ∈ L, soit Aλ l’anneau A muni de la topologie mλ-adique, et soit Āλ son séparé complété. Si l’on désigne par $u : A \to \prod_{\lambda \in L} A_\lambda$ l’homomorphisme diagonal, $u$ est continu et l’homomorphisme correspondant $\hat{u}$:
 
 $$
 \hat{A} \to (\prod_{\lambda \in L} A_\lambda)^{\sim} = \prod_{\lambda \in L} \hat{A}_\lambda

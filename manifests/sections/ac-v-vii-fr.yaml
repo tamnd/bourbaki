@@ -37,7 +37,7 @@ chapters:
           statements: 46
           exercises: 12
           extraction: ocr
-          content_sha256: 58ed1271990ce406e50ea03f4414e715cce299e49f4f9fc0bf71903f8fc00bb0
+          content_sha256: bcff42bf0bf2c207bd9dd9a93304b749aaa48a1bfa89f04de4099512a1230dcc
         - kind: section
           section: 3
           title: Algèbres de type fini sur un corps

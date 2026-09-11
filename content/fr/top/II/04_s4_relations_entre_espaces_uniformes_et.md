@@ -29,7 +29,7 @@ subsections:
       pdf_page: 170
 statements: 24
 exercises: 26
-content_sha256: 9dc2c7ce4ac4d39a0204017ab32066416b9261f24bf21f67789b195fb4500fd9
+content_sha256: dafdda15c171e593abf86672ebeb291caaeec566e80234be9b86a51c322e0b96
 ---
 
 ## § 4. RELATIONS ENTRE ESPACES UNIFORMES ET ESPACES COMPACTS
@@ -58,17 +58,17 @@ Il reste à montrer que l’ensemble $\mathscr{V}$ des voisinages de $\Delta$ da
 
 Il est clair que $\mathscr{V}$ vérifie les axiomes $(F_I)$ et $(F_{II})$; montrons que les axiomes
 
-(U_{II}) et (U_{III}) sont aussi vérifiés et que Δ est l’intersection des ensembles de $\mathfrak{V}$. Ce dernier point est immédiat, car tout ensemble réduit à un point $(x, y)$ de $X \times X$ est fermé, puisque $X$ est séparé; donc, si $x \neq y$ dans $X$, le complémentaire de $(x, y)$ dans $X \times X$ est un voisinage de $Δ$. Comme la symétrie $(x, y) \mapsto (y, x)$ est un homéomorphisme de $X \times X$ sur lui-même, pour tout $V \in \mathfrak{V}$, on a aussi $\overline{V}^1 \in \mathfrak{V}$, d’où $(U_{II})$. Supposons enfin que $\mathfrak{V}$ ne vérifie pas $(U_{III})$; il existerait alors un ensemble $V \in \mathfrak{V}$ tel que, pour tout $W \in \mathfrak{V}$, l’ensemble $\overline{W}^2 \cap \mathscr{C}V$ soit non vide; les ensembles $\overline{W}^2 \cap \mathscr{C}V$ (où $W$ parcourt $\mathfrak{V}$) formeraient donc une base de filtre sur $X \times X$, et cette dernière aurait par suite un point adhérent $(x, y)$ n’appartenant pas à $Δ$. Or, comme $X$ est régulier (I, p. 61, corollaire, il existerait un voisinage ouvert $U_1$ de $x$ et un voisinage ouvert $U_2$ de $y$ sans point commun, puis des voisinages fermés $V_1 \subset U_1, V_2 \subset U_2$ de $x$ et $y$ respectivement. Posons $U_3 = \mathscr{C}(V_1 \cup V_2)$, et considérons dans $X \times X$ le voisinage
+(U_{II}) et (U_{III}) sont aussi vérifiés et que Δ est l’intersection des ensembles de $\mathfrak{V}$. Ce dernier point est immédiat, car tout ensemble réduit à un point $(x, y)$ de $X \times X$ est fermé, puisque $X$ est séparé; donc, si $x \neq y$ dans $X$, le complémentaire de $(x, y)$ dans $X \times X$ est un voisinage de $\Delta$. Comme la symétrie $(x, y) \mapsto (y, x)$ est un homéomorphisme de $X \times X$ sur lui-même, pour tout $V \in \mathfrak{V}$, on a aussi $\overline{V}^1 \in \mathfrak{V}$, d’où $(U_{II})$. Supposons enfin que $\mathfrak{V}$ ne vérifie pas $(U_{III})$; il existerait alors un ensemble $V \in \mathfrak{V}$ tel que, pour tout $W \in \mathfrak{V}$, l’ensemble $\overline{W}^2 \cap \mathscr{C}V$ soit non vide; les ensembles $\overline{W}^2 \cap \mathscr{C}V$ (où $W$ parcourt $\mathfrak{V}$) formeraient donc une base de filtre sur $X \times X$, et cette dernière aurait par suite un point adhérent $(x, y)$ n’appartenant pas à $\Delta$. Or, comme $X$ est régulier (I, p. 61, corollaire, il existerait un voisinage ouvert $U_1$ de $x$ et un voisinage ouvert $U_2$ de $y$ sans point commun, puis des voisinages fermés $V_1 \subset U_1, V_2 \subset U_2$ de $x$ et $y$ respectivement. Posons $U_3 = \mathscr{C}(V_1 \cup V_2)$, et considérons dans $X \times X$ le voisinage
 
 $$
 W = \bigcup_{i=1,2,3} (U_i \times U_i)
 $$
 
-de $Δ$. Il résulte aussitôt de ces définitions que si $(u, v) \in W$ et $u \in V_1$ (resp. $u \in U_1$), on a nécessairement $v \in U_1$ (resp. $v \in U_1 \cup U_3 = \mathscr{C}V_2$); par suite, le voisinage $V_1 \times V_2$ de $(x, y)$ dans $X \times X$ ne rencontre pas $\overline{W}$; nous avons ainsi obtenu une contradiction, ce qui achève la démonstration.
+de $\Delta$. Il résulte aussitôt de ces définitions que si $(u, v) \in W$ et $u \in V_1$ (resp. $u \in U_1$), on a nécessairement $v \in U_1$ (resp. $v \in U_1 \cup U_3 = \mathscr{C}V_2$); par suite, le voisinage $V_1 \times V_2$ de $(x, y)$ dans $X \times X$ ne rencontre pas $\overline{W}$; nous avons ainsi obtenu une contradiction, ce qui achève la démonstration.
 
 #### Remarque 1 {#top-ii-s4-n1-rem-1 .statement}
 
-Pour tout recouvrement ouvert fini $\mathfrak{R} = (U_i)_{1 \leq i \leq n}$ de $X$, $V_{\mathfrak{R}} = \bigcup_{i=1}^n (U_i \times U_i)$ est un voisinage de $Δ$ dans $X \times X$; ces ensembles forment un système fondamental de voisinages de $Δ$ (et par suite un système fondamental d’entourages de l’unique structure uniforme de $X$): en effet, soit $W$ un voisinage quelconque de $Δ$ dans $X \times X$; pour tout $x \in X$ il y a un voisinage ouvert $U_x$ de $x$ dans $X$ tel que $U_x \times U_x \subset W$. Comme les $U_x$ ($x \in X$) forment un recouvrement ouvert de $X$, il existe un nombre fini de points $x_i$ ($1 \leq i \leq n$) tels que les $U_{x_i}$ ($1 \leq i \leq n$) forment un recouvrement $\mathfrak{R}$ de $X$; on a alors $V_{\mathfrak{R}} \subset W$, d’où notre assertion.
+Pour tout recouvrement ouvert fini $\mathfrak{R} = (U_i)_{1 \leq i \leq n}$ de $X$, $V_{\mathfrak{R}} = \bigcup_{i=1}^n (U_i \times U_i)$ est un voisinage de $\Delta$ dans $X \times X$; ces ensembles forment un système fondamental de voisinages de $\Delta$ (et par suite un système fondamental d’entourages de l’unique structure uniforme de $X$): en effet, soit $W$ un voisinage quelconque de $\Delta$ dans $X \times X$; pour tout $x \in X$ il y a un voisinage ouvert $U_x$ de $x$ dans $X$ tel que $U_x \times U_x \subset W$. Comme les $U_x$ ($x \in X$) forment un recouvrement ouvert de $X$, il existe un nombre fini de points $x_i$ ($1 \leq i \leq n$) tels que les $U_{x_i}$ ($1 \leq i \leq n$) forment un recouvrement $\mathfrak{R}$ de $X$; on a alors $V_{\mathfrak{R}} \subset W$, d’où notre assertion.
 
 En raison de ce résultat, on dit souvent que l’unique structure uniforme de $X$ est la structure uniforme des recouvrements ouverts finis (cf. IX, § 4, exerc. 23).
 

@@ -86,7 +86,7 @@ chapters:
           statements: 66
           exercises: 26
           extraction: ocr
-          content_sha256: 9b83a6e54c23b3061dc3b6e71175f255d35071be33cb53e145f0b55a0b44ab2a
+          content_sha256: 4cb32ad777803c8ab9ec5b9c51edb5b37b89989bab9b5586c4a290828416f6ca
         - kind: section
           section: 5
           title: Groupes opérant sur un ensemble
@@ -125,7 +125,7 @@ chapters:
           statements: 18
           exercises: 40
           extraction: ocr
-          content_sha256: ae092cf6b666b6c86ea8a228f4763c233e8aeaec628ebd083b299dc49465b61a
+          content_sha256: 02d8a8255908d9ecd52748f6156f096b719697e80937adbf61c44e22f6eecd43
         - kind: section
           section: 8
           title: Anneaux
@@ -251,7 +251,7 @@ chapters:
           statements: 15
           exercises: 7
           extraction: ocr
-          content_sha256: 5afb5d1e0795a8a611f1168349701804055a8be5b265bde56e85b3cdb44780eb
+          content_sha256: dd73cbe623fe94f4135745e54c754e51a1033936590f5c97ac538a1adf961109
         - kind: section
           section: 6
           title: Limites projectives et limites inductives de modules
@@ -364,7 +364,7 @@ chapters:
           statements: 8
           exercises: 1
           extraction: ocr
-          content_sha256: 27a3504506c4303e364875c89a486914306d0be95db683b3ae14febc70e9aefa
+          content_sha256: 2888bb920ee74a65c8229f336e9a6438634a5d67924c30c5fe5f96d8525a5f33
         - kind: section
           section: 2
           title: Exemples d’algèbres

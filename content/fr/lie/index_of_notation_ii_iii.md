@@ -12,7 +12,7 @@ pdf_pages: 0307-0309
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 41045ccb9a9e258e413dfe7588328ae5c08b6b9e14054a455791e3b425ce59ad
+content_sha256: 8c1229475966ac69767e6c5dfc349c548c3da8b5ef0aefd855b38335c11b1bd1
 ---
 
 ## INDEX DES NOTATIONS
@@ -20,30 +20,30 @@ content_sha256: 41045ccb9a9e258e413dfe7588328ae5c08b6b9e14054a455791e3b425ce59ad
 Les chiffres de référence indiquent successivement le chapitre, le paragraphe et le numéro.
 
 $K$ : II.Conventions
-$g, U = Ug, σ : g → Ug$: II.1
-$ε, c, u, π_u, η_u, c_u^+$ : II.1.1
+$g, U = Ug, \sigma : g → Ug$: II.1
+$\varepsilon, c, u, \pi_u, \eta_u, c_u^+$ : II.1.1
 $E, E^+$ : II.1.1
-$P(E), π, η, c^+$ : II.1.6
-$S(g), c_s, η$ : II.1.5
+$P(E), \pi, \eta, c^+$ : II.1.6
+$S(g), c_s, \eta$ : II.1.5
 $f_E : U(P(E)) → E$ : II.1.6
 $M(X), l(w), Lib(X) = Lib_K(X)$ : II.2.1
 $L(X) = L_K(X)$ : II.2.2
-$φ : X → L(X)$ : II.2.2
+$\varphi : X → L(X)$ : II.2.2
 $(a, r)$ : II.2.3
 $L(u)$ : II.2.5
-$Lib^δ(X), L^δ(X), L^n(X)$ : II.2.6
+$Lib^\delta(X), L^\delta(X), L^n(X)$ : II.2.6
 $P_n$ : II.2.7
 $c^n(g)$ : II.2.7
 $H, d_y$ : II.2.10
 $\bar{w} = \Psi(w)$ : II.2.11
 $A(X) = A_K(X), A^+(X), Mo(X)$ : II.3
-$π$ : II.3.2
-$(G_α), (G_α^+)$ : II.4.1
+$\pi$ : II.3.2
+$(G_\alpha), (G_\alpha^+)$ : II.4.1
 $v$ : II.4.2
-$gr(G), gr_α(G)$ : II.4.3
+$gr(G), gr_\alpha(G)$ : II.4.3
 $F(X), A(X), A^n(X)$ : II.5
 $\hat{A}(X), \omega$ : II.5.1
-$ε(a)$ : II.5.2
+$\varepsilon(a)$ : II.5.2
 $l(x), exp(x), log(y)$ : II.6.1
 $e(X), l(X)$ : II.6.1
 $\hat{L}(X)$ : II.6.2

@@ -13,7 +13,7 @@ pdf_pages: 0453-0455
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: e487697bc2f395f1e6214dc4574c9521ae3ddcbd51aea80d99ef5b7d6adb12c0
+content_sha256: 1ab7972dd36ec32f53bf95e4308f26ae6b1f170762f0759e379e3e1da5dab06e
 ---
 
 ## INDEX OF NOTATION
@@ -46,15 +46,15 @@ $g, U = Ug, \sigma: g \to Ug$: II.1.
 $\varepsilon, c, u, \pi_u, \eta_u, c_u^+$ : II.1.1.
 
 $E, E^+$ : II.1.1.
-$P(E), π, η, c^+$ : II.1.6.
-$S(g), c_s, η$ : II.1.5.
+$P(E), \pi, \eta, c^+$ : II.1.6.
+$S(g), c_s, \eta$ : II.1.5.
 $f_E : U(P(E)) → E$ : II.1.6.
 $M(X), l(w), Lib(X) = Lib_K(X)$ : II.2.1.
 $L(X) = L_K(X)$ : II.2.2.
-$φ : X → L(X)$ : II.2.2.
+$\varphi : X → L(X)$ : II.2.2.
 $(a, r)$ : II.2.3.
 $L(u)$ : II.2.5.
-$Lib^δ(X), L^δ(X), L^n(X)$ : II.2.6.
+$Lib^\delta(X), L^\delta(X), L^n(X)$ : II.2.6.
 $P_n$ : II.2.7.
 $C^n(g)$ : II.2.7.
 $H, d_y$ : II.2.10.
@@ -63,10 +63,10 @@ $A(X) = A_K(X), A^+(X), Mo(X)$ : II.3.
 $\pi$ : II.3.2.
 $(G_\alpha), (G_\alpha^+)$ : II.4.1.
 $v$ : II.4.2.
-$gr(G), gr_α(G)$ : II.4.3.
+$gr(G), gr_\alpha(G)$ : II.4.3.
 $F(X), A(X), A^n(X)$ : II.5.
-$\hat{A}(X), ω$ : II.5.1.
-$ε(a)$ : II.5.2.
+$\hat{A}(X), \omega$ : II.5.1.
+$\varepsilon(a)$ : II.5.2.
 $l(x), exp(x), log(y)$ : II.6.1.
 $e(X), l(X)$ : II.6.1.
 $\hat{L}(X)$ : II.6.2.
@@ -78,14 +78,14 @@ $v, \theta= \frac{1}{p - 1}$ : II.8.
 $S(n)$ : II.8.1.
 $h(x, y)$ : II.8.3.
 $G_R$ : II.8.4.
-$μ(n)$ : II.App.
-$e, e_G, γ(g), δ(g), Int(g), f^*$ : III.Conventions.
+$\mu(n)$ : II.App.
+$e, e_G, \gamma(g), \delta(g), Int(g), f^*$ : III.Conventions.
 $GL(E), GL(n, K)$ : III.1.1, III.3.10.
 $G^\vee$ : III.1.2.
 $\tau(g), \rho(x)$ : III.1.5.
 $(G, g, \theta, m)$ : III.1.10.
 $T(m)$ : III.2.1.
-$T(G), T(φ)$ : III.2.2.
+$T(G), T(\varphi)$ : III.2.2.
 $t \ast t'$ : III.3.1, III.3.18.
 
 $U(G), U^+(G), U_s(G), U_s^+(G)$: III.3.1, III.3.18.

@@ -30,7 +30,7 @@ subsections:
       pdf_page: 371
 statements: 22
 exercises: 15
-content_sha256: 18b16f95020a8a741d96574eaeeb64be1473fe323bf1aaba2c7e0f2b696c695b
+content_sha256: 78e281d15c49979fbcb148265398137859535dae478a95080b8925131e3b224f
 ---
 
 ## § 2. TORSION MODULES OVER A PRINCIPAL IDEAL DOMAIN
@@ -131,13 +131,13 @@ First suppose that M is semi-simple; let x ∈ M and let π be an irreducible el
 $$
 \pi(1 - \alpha \pi)x \in A\pi x \cap N = 0 .
 $$
-It follows first of all that M is a torsion module; if moreover $x \in M_π$, then $\pi(1 - \alpha \pi)x = 0$, thus $\pi x = \alpha \pi^2 x = \alpha^2 \pi^3 x = \cdots = \alpha^n \pi^{n+1} x$ is zero and $M_π = M(\pi)$.
+It follows first of all that M is a torsion module; if moreover $x \in M_\pi$, then $\pi(1 - \alpha \pi)x = 0$, thus $\pi x = \alpha \pi^2 x = \alpha^2 \pi^3 x = \cdots = \alpha^n \pi^{n+1} x$ is zero and $M_\pi = M(\pi)$.
 
 Conversely, by Cor. 2 it is enough to prove that an A-module M annihilated by an irreducible element π is semi-simple; but that is clear, since M then has a natural structure of a vector space over the field $\mathscr{A}/(\pi)$, and the submodules of M are precisely the vector subspaces under this structure.
 
 #### Remark 1 {#alg-vii-s2-n2-rem-1 .statement}
 
-— Clearly the annihilator of every element ≠ 0 of a τ-primary module has the form $A\pi^k$ (k > 0 an integer), since it is a principal ideal containing a power of τ. Let x be an element of M; for each $\pi \in P$, let $x_\pi$ be the component of x in $M_π$; the annihilator of x is the lcm of the annihilators of the nonzero $x_\pi$, but by the above it is equal in this case to the *product* of the annihilators of the nonzero $x_\pi$ (VI, p. 16, Prop. 12 (DIV)).
+— Clearly the annihilator of every element ≠ 0 of a τ-primary module has the form $A\pi^k$ (k > 0 an integer), since it is a principal ideal containing a power of τ. Let x be an element of M; for each $\pi \in P$, let $x_\pi$ be the component of x in $M_\pi$; the annihilator of x is the lcm of the annihilators of the nonzero $x_\pi$, but by the above it is equal in this case to the *product* of the annihilators of the nonzero $x_\pi$ (VI, p. 16, Prop. 12 (DIV)).
 
 #### Proposition 2 {#alg-vii-s2-prop-2 .statement}
 

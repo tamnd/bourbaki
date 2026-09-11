@@ -24,7 +24,7 @@ subsections:
       pdf_page: 45
 statements: 17
 exercises: 18
-content_sha256: 2b49dcaef71fb3f438371ba20029bb431f78eee4a96532a8af4d576cd146b702
+content_sha256: 3dd86d2510fd6e7a7b80742c526d9013c0a89c8baae097ffae0322f8e3723f3b
 ---
 
 ## § 3. Mesures et fonctions additives d'ensemble
@@ -200,9 +200,9 @@ Il existe des espaces radoniens qui ne sont pas fortement radoniens.
 
 Tout espace de Lindelöf (1) radonien est fortement radonien.
 
-Soit T un espace de Lindelöf radonien, et soit I une fonction d’ensemble, positive, dénombrablement additive et localement bornée, sur la tribu 𝔽(T). Les ensembles ouverts V tels que I(V) < +∞ forment un recouvrement de T, dont on peut extraire un recouvrement dénombrable $(V_n)_{n \in \mathbf{N}}$. Posons $G_n = V_0 \cup V_1 \cup \ldots \cup V_n$ pour tout $n \in \mathbf{N}$; posons $H_0 = G_0$ et $H_n = G_n - G_{n-1}$ pour $n \geq 1$; désignons enfin par $I_n$ la fonction d’ensemble $A \mapsto I(A \cap H_n)$ sur 𝔽(T), qui est évidemment dénombrablement additive et bornée. Les ensembles $H_n$ formant une partition de T, on a $I = \sum_n I_n$. L’espace T étant radonien, il existe pour chaque $n \in \mathbf{N}$ une mesure bornée $\mu_n$ sur T telle qu’on ait $\mu_n^•(A) = I_n(A)$ pour tout $A \in \mathscr{B}(T)$; on a donc aussi $\sum_n \mu_n^•(A) = I(A)$. Comme I est localement bornée, la famille $(\mu_n)$ est sommable (§ 1, n° 7, prop. 7); si $μ$ désigne $\sum_n \mu_n$, on a $μ^•(A) = I(A)$ pour tout $A \in \mathscr{B}(T)$, et il en résulte que I est intérieurement régulière. Autrement dit, T est fortement radonien.
+Soit T un espace de Lindelöf radonien, et soit I une fonction d’ensemble, positive, dénombrablement additive et localement bornée, sur la tribu 𝔽(T). Les ensembles ouverts V tels que I(V) < +∞ forment un recouvrement de T, dont on peut extraire un recouvrement dénombrable $(V_n)_{n \in \mathbf{N}}$. Posons $G_n = V_0 \cup V_1 \cup \ldots \cup V_n$ pour tout $n \in \mathbf{N}$; posons $H_0 = G_0$ et $H_n = G_n - G_{n-1}$ pour $n \geq 1$; désignons enfin par $I_n$ la fonction d’ensemble $A \mapsto I(A \cap H_n)$ sur 𝔽(T), qui est évidemment dénombrablement additive et bornée. Les ensembles $H_n$ formant une partition de T, on a $I = \sum_n I_n$. L’espace T étant radonien, il existe pour chaque $n \in \mathbf{N}$ une mesure bornée $\mu_n$ sur T telle qu’on ait $\mu_n^•(A) = I_n(A)$ pour tout $A \in \mathscr{B}(T)$; on a donc aussi $\sum_n \mu_n^•(A) = I(A)$. Comme I est localement bornée, la famille $(\mu_n)$ est sommable (§ 1, n° 7, prop. 7); si $\mu$ désigne $\sum_n \mu_n$, on a $\mu^•(A) = I(A)$ pour tout $A \in \mathscr{B}(T)$, et il en résulte que I est intérieurement régulière. Autrement dit, T est fortement radonien.
 
-Rappelons qu’une partie A d’un espace topologique T est dite universellement mesurable si A est $μ$-mesurable pour toute mesure $μ$ sur T. Cela revient à dire que A est $μ$-mesurable pour toute mesure $μ$ sur T à support compact (§ 1, n° 8, prop. 9).
+Rappelons qu’une partie A d’un espace topologique T est dite universellement mesurable si A est $\mu$-mesurable pour toute mesure $\mu$ sur T. Cela revient à dire que A est $\mu$-mesurable pour toute mesure $\mu$ sur T à support compact (§ 1, n° 8, prop. 9).
 
 (1) Rappelons (Top. gén. chap. IX, Appendice I) qu’on appelle espace de Lindelöf tout espace topologique T tel que de tout recouvrement ouvert de T, on puisse extraire un recouvrement dénombrable.
 

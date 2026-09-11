@@ -14,7 +14,7 @@ Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 
 | --- | ---: | ---: | ---: | --- |
 | structure | 13 | 1 | 0 | S11 (433), S14 (799) |
 | tags | 7 | 1 | 1 | T03 (23302), T10 (8) |
-| mathematics | 10 | 5 | 0 | M03 (1251), M06 (6), M13 (48), M14 (2690) |
+| mathematics | 10 | 5 | 0 | M03 (607), M06 (6), M13 (48), M14 (2690) |
 | figures | 6 | 0 | 0 | F01 (158) |
 | references | 3 | 0 | 0 | R01 (3369), R02 (476) |
 | translation | 13 | 3 | 1 | L01 (1392), L02 (2), L03 (52), L04 (51), L05 (341), L06 (2016), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
@@ -22,7 +22,7 @@ Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-31277 hard findings and 11270 soft, over 76 rules that ran and 2 that could not.
+30633 hard findings and 11270 soft, over 76 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -65,13 +65,13 @@ Hard, figures.
 
 and 133 more, which `bourbaki audit -only F01` prints in full.
 
-## M03 no character stranded out of its TeX (1251)
+## M03 no character stranded out of its TeX (607)
 
 Hard, mathematics.
 
-- `content/en-mt/ac/III/exercises/s2/15.md:33` the letter 'α' where its TeX belongs inside the mathematics: f_α(E) = \bigcap_{α ≤ β} f_{αβ}(E_β)
+- `content/en-mt/ac/III/exercises/s2/15.md:33` the operator '≤' where its TeX belongs inside the mathematics: f_\alpha(E) = \bigcap_{\alpha ≤ \beta} f_{\alpha\b…
 - `content/en-mt/ac/IX/exercises/s4/28.md:23` the operator '−' where its TeX belongs inside the mathematics: K − A
-- `content/en-mt/ac/VIII/07_s7_multiplicites.md:130` the operator '⊗' where its TeX belongs inside the mathematics: e_{q_B}^B(M ⊗_A N) = \operatorname{long}_B(N ⊗_A κ…
+- `content/en-mt/ac/VIII/07_s7_multiplicites.md:130` the operator '⊗' where its TeX belongs inside the mathematics: e_{q_B}^B(M ⊗_A N) = \operatorname{long}_B(N ⊗_A \…
 - `content/en-mt/ac/VIII/07_s7_multiplicites.md:140` the operator '⊗' where its TeX belongs inside the mathematics: e_{q_B}^B(M ⊗_A B) = e_q^A(M).
 - `content/en-mt/ac/VIII/exercises/s2/01.md:22` the operator '→' where its TeX belongs inside the mathematics: V/mᵥ → A/mᵥA
 - `content/en-mt/ac/VIII/exercises/s2/01.md:22` the operator '≥' where its TeX belongs inside the mathematics: \dim(A) ≥ n + 1
@@ -86,16 +86,16 @@ Hard, mathematics.
 - `content/en-mt/ac/VIII/exercises/s3/03.md:23` the operator '≥' where its TeX belongs inside the mathematics: \dim_p(A) ≥ \operatorname{ht}(p) + \dim(A/p) − 1
 - `content/en-mt/ac/VIII/exercises/s3/03.md:24` the operator '∈' where its TeX belongs inside the mathematics: f ∈ m_R − q
 - `content/en-mt/ac/VIII/exercises/s3/03.md:24` the operator '−' where its TeX belongs inside the mathematics: \operatorname{ht}(q) + \dim(R/q) − 1 = 1
-- `content/en-mt/ac/VIII/exercises/s4/01.md:24` the letter 'γ' where its TeX belongs inside the mathematics: \sum_{γ∈Γ} m_γ T^γ
-- `content/en-mt/ac/VIII/exercises/s4/01.md:25` the operator '∈' where its TeX belongs inside the mathematics: \prod_{i∈Γ} (1 - T^{γ_i}) \sum_{γ∈Γ} [M_γ] T^γ
+- `content/en-mt/ac/VIII/exercises/s4/01.md:24` the operator '∈' where its TeX belongs inside the mathematics: \sum_{\gamma∈\Gamma} m_\gamma T^\gamma
+- `content/en-mt/ac/VIII/exercises/s4/01.md:25` the operator '∈' where its TeX belongs inside the mathematics: \prod_{i∈\Gamma} (1 - T^{\gamma_i}) \sum_{\gamma∈\…
 - `content/en-mt/alg/I/exercises/s7/06.md:24` the operator '−' where its TeX belongs inside the mathematics: Y = N − (N.N)
 - `content/en-mt/alg/II/exercises/s2/21.md:23` the operator '∈' where its TeX belongs inside the mathematics: \bigoplus_{j ∈ J} I_j
 - `content/en-mt/alg/II/exercises/s2/21.md:23` the operator '∈' where its TeX belongs inside the mathematics: \bigoplus_{j ∈ J} E_j
-- `content/en-mt/alg/IX/01_s1_formes_sesquilineaires.md:386` the letter 'Φ' where its TeX belongs inside the mathematics: \Phi(x, y) = \langle x, d_{Φ}(y) \rangle = \langle…
-- `content/en-mt/alg/IX/01_s1_formes_sesquilineaires.md:392` the letter 'Φ' where its TeX belongs inside the mathematics: Φ′(y, x) = Φ(x, y)^{J′} \quad (x ∈ E, y ∈ F)
-- `content/en-mt/alg/IX/03_s3_formes_hermitiennes_et_formes.md:371` the letter 'α' where its TeX belongs inside the mathematics: α, β
+- `content/en-mt/alg/IX/01_s1_formes_sesquilineaires.md:392` the operator '∈' where its TeX belongs inside the mathematics: \Phi′(y, x) = \Phi(x, y)^{J′} \quad (x ∈ E, y ∈ F)
+- `content/en-mt/alg/X/06_s6_utilisation_de_resolutions_non.md:418` the operator '⊗' where its TeX belongs inside the mathematics: \psi(S, R'') = H(\beta ⊗ 1) ◦ H(1 ⊗ a'')^{-1} ◦ \p…
+- `content/en-mt/alg/X/06_s6_utilisation_de_resolutions_non.md:422` the operator '⊗' where its TeX belongs inside the mathematics: \psi(S, R') = H(\beta ⊗ 1) ◦ H(1 ⊗ a')^{-1} ◦ \psi…
 
-and 1226 more, which `bourbaki audit -only M03` prints in full.
+and 582 more, which `bourbaki audit -only M03` prints in full.
 
 ## M06 displays per page within three sigma of the book mean (6)
 
@@ -498,7 +498,6 @@ Hard, translation.
 - `content/en-mt/ac/VIII/03_s3_dimension_des_anneaux_noetheriens.md:1` was translated from 9e96d959c564 and content/fr/ac/VIII/03_s3_dimension_des_anneaux_noetheriens.md is now 8a46e9bac74c, so it is stale
 - `content/en-mt/ac/VIII/05_s5_anneaux_locaux_reguliers.md:1` was translated from bc0c6917e598 and content/fr/ac/VIII/05_s5_anneaux_locaux_reguliers.md is now 6ad3c554aa21, so it is stale
 - `content/en-mt/ac/VIII/06_s6_dimension_des_anneaux_gradues.md:1` was translated from 0807723a1c16 and content/fr/ac/VIII/06_s6_dimension_des_anneaux_gradues.md is now bad92e41d0cc, so it is stale
-- `content/en-mt/ac/VIII/07_s7_multiplicites.md:1` was translated from 7d27f7af9a76 and content/fr/ac/VIII/07_s7_multiplicites.md is now 359de70b757e, so it is stale
 - `content/en-mt/ac/VIII/exercises/s2/16.md:1` was translated from f45209627685 and content/fr/ac/VIII/exercises/s2/16.md is now b7d1e9db8ac9, so it is stale
 - `content/en-mt/ac/VIII/exercises/s2/17.md:1` was translated from 01042526af67 and content/fr/ac/VIII/exercises/s2/17.md is now 7192edc97229, so it is stale
 - `content/en-mt/ac/VIII/exercises/s4/04.md:1` was translated from 20a37b46663a and content/fr/ac/VIII/exercises/s4/04.md is now a3372a5fc82a, so it is stale
@@ -515,6 +514,7 @@ Hard, translation.
 - `content/en-mt/ac/X/05_s5_intersections_completes.md:1` was translated from 7f166664ba4b and content/fr/ac/X/05_s5_intersections_completes.md is now eeb344109e82, so it is stale
 - `content/en-mt/ac/X/06_s6_extension_des_scalaires_dans_les.md:1` was translated from 5ce020b59466 and content/fr/ac/X/06_s6_extension_des_scalaires_dans_les.md is now c84c8e9bbfd7, so it is stale
 - `content/en-mt/ac/X/07_s7_algebres_lisses.md:1` was translated from d68b9c7325c8 and content/fr/ac/X/07_s7_algebres_lisses.md is now 88cf6f006be0, so it is stale
+- `content/en-mt/ac/X/08_s8_dualite_des_modules_de_longueur_finie.md:1` was translated from fbc50d377bb5 and content/fr/ac/X/08_s8_dualite_des_modules_de_longueur_finie.md is now 7d49f185df1f, so it is stale
 
 and 316 more, which `bourbaki audit -only L05` prints in full.
 

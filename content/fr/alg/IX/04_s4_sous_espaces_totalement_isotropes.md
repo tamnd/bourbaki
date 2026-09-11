@@ -24,12 +24,12 @@ subsections:
       pdf_page: 69
 statements: 17
 exercises: 0
-content_sha256: ef297fe498de92a456b1d5dfa385125a90ce9c494c28c67efef5a8a7fa10b5d6
+content_sha256: c93097d3f7d4a4f9fa1596bf76e7274625e74003a4e1adb2c4854da5ece02dd8
 ---
 
 ## § 4. Sous-espaces totalement isotropes. Théorème de Witt
 
-Dans ce paragraphe on suppose, sauf mention expresse du contraire, que A est un corps. On désigne par Φ, soit une forme ε-hermitienne sur E (par rapport à l’antiautomorphisme involutif $λ \to \overline{λ}$ de A), soit la forme bilinéaire symétrique associée à une forme quadratique Q sur E (A étant supposé commutatif dans ce dernier cas).
+Dans ce paragraphe on suppose, sauf mention expresse du contraire, que A est un corps. On désigne par Φ, soit une forme ε-hermitienne sur E (par rapport à l’antiautomorphisme involutif $\lambda \to \overline{\lambda}$ de A), soit la forme bilinéaire symétrique associée à une forme quadratique Q sur E (A étant supposé commutatif dans ce dernier cas).
 
 ### 1. Sous-espaces isotropes.
 

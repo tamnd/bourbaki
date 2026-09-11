@@ -28,7 +28,7 @@ subsections:
       pdf_page: 28
 statements: 0
 exercises: 0
-content_sha256: 22e5ad8205c9819aadb0e62ee179c7344db94f006e06403139c2d6bf314a0ed3
+content_sha256: 627cbb0ce3a8600b1b9e48b3195efeb03a43cef9ec6f8519e0f219969a53bbb5
 ---
 
 ## § 3. Fonctions analytiques réelles ou complexes
@@ -235,38 +235,38 @@ Lorsque $E$ est de dimension finie (resp. lorsque $F$ est un espace de Banach), 
 (W) Tout point de $U$ possède un voisinage dans lequel la suite $(f_n)$ converge uniformément.
 Alors la limite $f$ de la suite $(f_n)$ est holomorphe, la suite des dérivées $(Df_n)$ (à valeurs dans l’espace quasi-complet $\mathscr{L}(E; F)$) possède la propriété (W) et $Df$ est la limite de $(Df_n)$.
 
-3.3.3. Soient U un ouvert de E et f une application holomorphe de U dans F, supposé quasi-complet. Soit $R = (R_i) \in (\mathbf{R}_+^*)^n$ et supposons que la polyboule B(R) est contenue dans U et que f est bornée sur B(R). On a alors, pour tout $α \in \mathbf{N}^n$ et tout $x = (x_i) \in B(R)$:
+3.3.3. Soient U un ouvert de E et f une application holomorphe de U dans F, supposé quasi-complet. Soit $R = (R_i) \in (\mathbf{R}_+^*)^n$ et supposons que la polyboule B(R) est contenue dans U et que f est bornée sur B(R). On a alors, pour tout $\alpha \in \mathbf{N}^n$ et tout $x = (x_i) \in B(R)$:
 
 $$
-Δ^αf(0)(x) = \int_0^1 \cdots \int_0^1 f(e(\theta_1)x_1, \ldots, e(\theta_n)x_n)e(-α_1θ_1 - \cdots - α_nθ_n)\ dθ_1 \ldots dθ_n
+\Delta^\alpha f(0)(x) = \int_0^1 \cdots \int_0^1 f(e(\theta_1)x_1, \ldots, e(\theta_n)x_n)e(-\alpha_1\theta_1 - \cdots - \alpha_n\theta_n)\ d\theta_1 \ldots d\theta_n
 $$
 
-(avec $e(θ) = \exp 2πi θ$).
+(avec $e(\theta) = \exp 2\pi i \theta$).
 
-Soit de plus $γ$ une semi-norme continue sur F et soit M la borne supérieure de $\|f(x)\|_γ$ pour $\|x_i\| = R_i$. On a $\|Δ^αf(0)(x)\|_γ \leq M$ pour tout $x \in B(R)$ et $\|Δ^αf(0)\|_γ \leq MR^{-α}$. Enfin, le domaine de convergence du développement en série de f en 0 contient l'intérieur de la polyboule B(R).
+Soit de plus $\gamma$ une semi-norme continue sur F et soit M la borne supérieure de $\|f(x)\|_\gamma$ pour $\|x_i\| = R_i$. On a $\|\Delta^\alpha f(0)(x)\|_\gamma \leq M$ pour tout $x \in B(R)$ et $\|\Delta^\alpha f(0)\|_\gamma \leq MR^{-\alpha}$. Enfin, le domaine de convergence du développement en série de f en 0 contient l'intérieur de la polyboule B(R).
 
-3.3.4. Gardons les hypothèses de 3.3.3 et supposons de plus que $E_i = \mathbf{C}$. Soit $\sum_{α} X^αc_α$ le développement en série de f en 0. On a:
+3.3.4. Gardons les hypothèses de 3.3.3 et supposons de plus que $E_i = \mathbf{C}$. Soit $\sum_{\alpha} X^\alpha c_\alpha$ le développement en série de f en 0. On a:
 
 $$
-c_α = R^{-α}\int_0^1 \cdots \int_0^1 f(e(\theta_1)R_1, \ldots, e(\theta_n)R_n)e(-α_1θ_1 - \cdots - α_nθ_n)\ dθ_1 \ldots dθ_n
+c_\alpha = R^{-\alpha}\int_0^1 \cdots \int_0^1 f(e(\theta_1)R_1, \ldots, e(\theta_n)R_n)e(-\alpha_1\theta_1 - \cdots - \alpha_n\theta_n)\ d\theta_1 \ldots d\theta_n
 $$
 
 et:
 
 $$
-\|c_α\|_γ \leq R^{-α} \sup_{x \in B(R)} \|f(x)\|_γ
+\|c_\alpha\|_\gamma \leq R^{-\alpha} \sup_{x \in B(R)} \|f(x)\|_\gamma
 $$
 
-(« inégalités de Cauchy »). Le domaine de convergence strict de la série $\sum_{α} X^αc_α$ contient l'intérieur de B(R).
+(« inégalités de Cauchy »). Le domaine de convergence strict de la série $\sum_{\alpha} X^\alpha c_\alpha$ contient l'intérieur de B(R).
 
 3.3.5. Supposons E de dimension finie et F quasi-complet. Soit f une application holomorphe de E dans F. Il existe alors dans $\mathscr{H}(E; F)$ une série $f_0$ et une seule, de rayon de convergence infini (pour toute norme sur E), telle que $f(x) = f_0(x)$ pour tout $x \in E$.
 
 3.3.6. Si f est une application holomorphe de E dans F telle que $f(E)$ soit borné, alors la fonction f est constante (« théorème de Liouville »).
 
-3.3.7. On suppose que $E \neq 0$. Soit f une application holomorphe d'un ouvert U de E dans F. Soient a un point de U et $γ$ une semi-norme continue sur F. Pour tout voisinage V de a, contenu dans U, il existe $x \in V, x \neq a$, tel que:
+3.3.7. On suppose que $E \neq 0$. Soit f une application holomorphe d'un ouvert U de E dans F. Soient a un point de U et $\gamma$ une semi-norme continue sur F. Pour tout voisinage V de a, contenu dans U, il existe $x \in V, x \neq a$, tel que:
 
 $$
-\|f(a)\|_γ \leq \|f(x)\|_γ.
+\|f(a)\|_\gamma \leq \|f(x)\|_\gamma.
 $$
 
 Si de plus $F = \mathbf{C}$ et si f n'est pas constante au voisinage de a, on a $|f(a)| < \sup_{x \in V, x \neq a} |f(x)|$ et l'application f est ouverte au voisinage de a.

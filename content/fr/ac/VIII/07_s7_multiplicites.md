@@ -33,7 +33,7 @@ subsections:
       pdf_page: 81
 statements: 34
 exercises: 25
-content_sha256: 359de70b757ee6740d8b6ed8cf1154b088e835d261d4e6df027d159d7002901b
+content_sha256: 44dd0128f94a514d49d51dfb10d60b7c13ea946bb09421c4528fa914d3498493
 ---
 
 ## § 7. MULTIPLICITÉS
@@ -128,7 +128,7 @@ b) Supposons A intègre et soit M un A-module de type fini tel que $\dim_A(M) = 
 *Soit ρ : A → B un homomorphisme local d’anneaux locaux noethériens, et soit N un B-module de type fini, plat sur A, et tel que N ⊗_A κ_A soit un B-module de longueur finie. Si M est un A-module de type fini non nul et q un idéal de A distinct de A et tel que M/qM soit de longueur finie, alors (M ⊗_A N)/(qB)(M ⊗_A N) est un B-module de longueur finie, et l’on a*
 
 $$
-e_{q_B}^B(M ⊗_A N) = \operatorname{long}_B(N ⊗_A κ_A).e_q^A(M).
+e_{q_B}^B(M ⊗_A N) = \operatorname{long}_B(N ⊗_A \kappa_A).e_q^A(M).
 $$
 
 Soit L un A-module de longueur finie r. Alors L possède une suite de Jordan-Hölder de longueur r, à quotients isomorphes à κ_A ; comme N est plat sur A, le B-module L ⊗_A N possède une suite de composition de longueur r, à quotients isomorphes à N ⊗_A κ_A, donc est de longueur r · long_B(N ⊗_A κ_A). Comme le B-module (M ⊗_A N)/(qB)^n(M ⊗_A N) est isomorphe à (M/q^nM) ⊗_A N pour tout n ∈ ℕ, la proposition résulte de la définition des multiplicités.

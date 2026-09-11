@@ -172,7 +172,7 @@ chapters:
           statements: 34
           exercises: 8
           extraction: ocr
-          content_sha256: 27c3b10ab223f74e9d41604f25c42351e7053a1d516f28ea68c66ff76d01477c
+          content_sha256: 3aaa7b5998328b823ccdc99b1b32a831239b3b509eb6788df8712bad61342271
         - kind: section
           section: 2
           title: Negligible functions and sets
@@ -224,7 +224,7 @@ chapters:
           statements: 79
           exercises: 30
           extraction: ocr
-          content_sha256: d00fa574ed220b842b3c2d951df663dea01863acd4f469051e0003748ad7283e
+          content_sha256: a884e01bc9079fb672558918f88286f16f20cd9512c50a20e27c6df3e8959c1e
         - kind: section
           section: 6
           title: Convexity inequalities
@@ -302,7 +302,7 @@ chapters:
           statements: 30
           exercises: 11
           extraction: ocr
-          content_sha256: c86f6d9b6a8b568e9223ecc74e13272c1ca7d7b37e0e73528392645aac3cb190
+          content_sha256: 23be15bf037279815015f8c1b89c7670585f5d3de886c2592ed4c05799e2051b
         - kind: section
           section: 4
           title: Integration of positive point measures
@@ -354,7 +354,7 @@ chapters:
           statements: 20
           exercises: 11
           extraction: ocr
-          content_sha256: 5733973f5bdd9fd2e8b08ef663ed9020c730c1ae2dfe39d0ab80fd1f0ffc450c
+          content_sha256: d6674ea139595be6c132fa589e24ce77d547ad2398a9b423a66a73d7091c401b
         - kind: section
           section: 8
           title: Products of measures
@@ -367,7 +367,7 @@ chapters:
           statements: 31
           exercises: 21
           extraction: ocr
-          content_sha256: 181455724264e053d97bda81d66f9070cb5f0b9fb9becba9fd1eab23696302d8
+          content_sha256: 17d110b54b7bba9f48ad9884564765201535db04b985cfb2373f215e541d64c7
         - kind: historical
           title: Historical Note
           path: content/en/int/V/historical_note.md

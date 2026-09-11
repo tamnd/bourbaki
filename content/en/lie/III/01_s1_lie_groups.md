@@ -57,7 +57,7 @@ subsections:
       pdf_page: 249
 statements: 54
 exercises: 10
-content_sha256: e52337051d072b3fd573ec368d2951d83c152a681fdefe2f8abb0b96ea1b6e8d
+content_sha256: ce8eb9499400aea2758df6dd8a881d79c48c136503decc62efe033305bff7df2
 ---
 
 ## § 1. LIE GROUPS
@@ -157,15 +157,15 @@ m(e, y) = y for all y ∈ U and hence, by the implicit function theorem, there e
 
 $$
 \begin{align*}
-θ_2(x) &= m(θ_2(x), e) = m(θ_2(x), m(x, θ_1(x))) \\
-&= m(m(θ_2(x), x), θ_1(x)) = m(e, θ_1(x)) = θ_1(x).
+\theta_2(x) &= m(\theta_2(x), e) = m(\theta_2(x), m(x, \theta_1(x))) \\
+&= m(m(\theta_2(x), x), \theta_1(x)) = m(e, \theta_1(x)) = \theta_1(x).
 \end{align*}
 $$
 
 Let θ(x) be the common value of θ_1(x) and θ_2(x) for x ∈ W_1 ∩ W_2. Let W be the set of x ∈ W_1 ∩ W_2 such that θ(x) ∈ W_1 ∩ W_2. The set W is open. For x ∈ W,
 
 $$
-θ(θ(x)) = m(m(x, θ(x)), θ(θ(x))) = m(x, m(θ(x), θ(θ(x)))) = m(x, e) = x
+\theta(\theta(x)) = m(m(x, \theta(x)), \theta(\theta(x))) = m(x, m(\theta(x), \theta(\theta(x)))) = m(x, e) = x
 $$
 
 and hence θ(x) ∈ W. We see that θ | W defines an automorphism of the manifold W.
@@ -508,7 +508,7 @@ The inverse image of x under ρ(x) is G_x. As ρ(x) is a subimmersion, G_x is a 
 Suppose that Gx is locally closed. Every point of Gx then has a neighbourhood in Gx which is homeomorphic to a closed subspace of a complete metric space and hence is a Baire space. Hence Gx is a Baire space (General Topology, Chapter IX, § 5, Proposition 4). If G has a countable base, i_x is therefore a homeomorphism of G/G_x onto Gx (General Topology, Chapter IX, § 5). Then by (ii) and Differentiable and Analytic Manifolds, R, 5.8.3, i_x is an isomorphism of the manifolds G/G_x onto the manifold Gx and
 
 $$
-T_x(Gx) = \operatorname{Im} T_{π(e)}(i_x) = \operatorname{Im} T_e(ρ(x)).
+T_x(Gx) = \operatorname{Im} T_{\pi(e)}(i_x) = \operatorname{Im} T_e(\rho(x)).
 $$
 
 #### Remark {#lie-iii-s1-n7-rem-1 .statement}
@@ -594,7 +594,7 @@ Let E_0^{G_0} be the set of elements of E_0 which are invariant under G_0. For a
 Assertion (ii) is obvious. To prove (i) it is sufficient to prove that each section σ_u is of class C^r. Let E' be the trivial G-bundle of base X and fibre E_0^{G_0}. Let f be the canonical injection of E_0^{G_0} into E_0. By Proposition 17 there exists a morphism φ of E' into E compatible with the operations of G and extending f. If u ∈ E_0^{G_0} and g ∈ G, then
 
 $$
-σ_u(gx_0) = gu = gf(u) = φ(gu) = φ((u, gx_0))
+\sigma_u(gx_0) = gu = gf(u) = \varphi(gu) = \varphi((u, gx_0))
 $$
 
 and hence σ_u(x) = φ((u, x)) for all x ∈ X, which proves our assertion.

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 281
 statements: 23
 exercises: 16
-content_sha256: 6fa9993f99ed891eed3d010811e0f5abc1a637fc976e8492d3f06438096abbc2
+content_sha256: 98982899e811871f72b61ccec3cbe5be8fc42cab66b8a3d6915fd55e2454c3db
 ---
 
 ## § 2. ORTHOGONAL FAMILIES IN A HILBERTIAN SPACE
@@ -159,7 +159,7 @@ In a prehilbertian space, a family (e_i)_{i∈I} of vectors is said to be orthog
 
 A subset S of E such that the family defined by the identity mapping from S onto itself is orthonormal is said to be an orthonormal set. If (e_i)_{i∈I} is an orthonormal family, the mapping $i \mapsto e_i$ is injective; we can then talk indifferently of an orthonormal family or an orthonormal set.
 
-If (e_i)_{i∈I} is an orthonormal family, the complete one dimensional vector subspaces D_i = Ke_i are two by two orthogonal. For every x ∈ E, the orthogonal projection of x on D_i is $λ_i e_i$ with $⟨e_i|x - λ_i e_i⟩ = 0$, which gives $⟨e_i|x⟩ = λ_i ⟨e_i|e_i⟩ = λ_i$. The results of No. 2 applied to the subspaces D_i imply the following propositions:
+If (e_i)_{i∈I} is an orthonormal family, the complete one dimensional vector subspaces D_i = Ke_i are two by two orthogonal. For every x ∈ E, the orthogonal projection of x on D_i is $\lambda_i e_i$ with $⟨e_i|x - \lambda_i e_i⟩ = 0$, which gives $⟨e_i|x⟩ = \lambda_i ⟨e_i|e_i⟩ = \lambda_i$. The results of No. 2 applied to the subspaces D_i imply the following propositions:
 
 #### Proposition 3 {#evt-v-s2-prop-3 .statement}
 

@@ -36,7 +36,7 @@ subsections:
       pdf_page: 70
 statements: 30
 exercises: 29
-content_sha256: d2ed7738551894ee679e3e80f8e994621625580cb77d886397178959c914aed2
+content_sha256: 8a0387f77b2001a7abe4284d0c3ff4f0b45e0dba8aed6ea41ddcc50565c4c21e
 ---
 
 ## § 8. ESPACES SÉPARÉS ET ESPACES RÉGULIERS
@@ -82,7 +82,7 @@ $$
 (H) ⇒ (Hiii): Soit x = (x_i) un point de XI n’appartenant pas à Δ. Il y a donc au moins deux indices λ, μ tels que x_λ ≠ x_μ. Soit V_λ (resp. V_μ) un voisinage de x_λ (resp. x_μ) dans X, tels que V_λ ∩ V_μ = ∅ ; alors l’ensemble
 
 $$
-W = V_λ \times V_μ \times \prod_{i \neq λ, μ} X_i
+W = V_\lambda \times V_\mu \times \prod_{i \neq \lambda, \mu} X_i
 $$
 
 (avec X_i = X pour i ≠ λ, μ) est un voisinage de x dans XI (I, p. 24) ne rencontrant pas Δ, ce qui prouve que Δ est fermé dans XI.

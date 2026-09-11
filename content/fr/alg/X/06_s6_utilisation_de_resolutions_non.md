@@ -45,7 +45,7 @@ subsections:
       pdf_page: 117
 statements: 30
 exercises: 18
-content_sha256: 908be744602e152c7d063ad7bc7de7071838f03e3a57fb041dfa7346f158a9b6
+content_sha256: ddafc03e2993720640987b9fbb8789eef50bf57ffc1d5f1a847e9fe1f2fe5425
 ---
 
 ## § 6. UTILISATION DE RÉSOLUTIONS NON CANONIQUES
@@ -407,10 +407,10 @@ $$
 D’après X, p. 67, prop. 4, H(1 ⊗ a'') et H(1 ⊗ a') sont bijectifs ; d’autre part, par définition des homomorphismes ψ, on a H(β ⊗ 1) ◦ ψ(L(P), R'') = ψ(S, R'') et H(1 ⊗ a'') ◦ ψ(L(P), R'') = ψ(L(P), M'') = ψ_p(M''), donc
 
 $$
-ψ(S, R'') = H(β ⊗ 1) ◦ H(1 ⊗ a'')^{-1} ◦ ψ_p(M'');
+\psi(S, R'') = H(\beta ⊗ 1) ◦ H(1 ⊗ a'')^{-1} ◦ \psi_p(M'');
 $$
 
-de même, $ψ(S, R') = H(β ⊗ 1) ◦ H(1 ⊗ a')^{-1} ◦ ψ_p(M')$, et l’assertion cherchée $\partial((3)) ◦ ψ(S, R'') = ψ(S, R') ◦ \partial(P, (2))$ résulte de la commutativité du diagramme précédent.
+de même, $\psi(S, R') = H(\beta ⊗ 1) ◦ H(1 ⊗ a')^{-1} ◦ \psi_p(M')$, et l’assertion cherchée $\partial((3)) ◦ \psi(S, R'') = \psi(S, R') ◦ \partial(P, (2))$ résulte de la commutativité du diagramme précédent.
 
 #### Remarque 1 {#alg-x-s6-n3-rem-1 .statement}
 
@@ -418,18 +418,18 @@ Utilisant les isomorphismes de commutation, on déduit de a) l’énoncé analog
 
 #### Remarque 2 {#alg-x-s6-n3-rem-2 .statement}
 
-Avec les notations de a), supposons soit S plat, soit R, R', R'' plats ; alors d’une part la suite (3) est exacte (X, p. 72, cor. 2) et on peut appliquer la prop. 3 ; d’autre part $ψ(S, R')$ est bijectif (th. 1), donc
+Avec les notations de a), supposons soit S plat, soit R, R', R'' plats ; alors d’une part la suite (3) est exacte (X, p. 72, cor. 2) et on peut appliquer la prop. 3 ; d’autre part $\psi(S, R')$ est bijectif (th. 1), donc
 
 $$
-\partial(P, (2)) = ψ(S, R')^{-1} ◦ \partial((3)) ◦ ψ(S, R'').
+\partial(P, (2)) = \psi(S, R')^{-1} ◦ \partial((3)) ◦ \psi(S, R'').
 $$
 
 #### Remarque 3 {#alg-x-s6-n3-rem-3 .statement}
 
-Avec les notations de b), supposons soit E injectif, soit R, R', R'' projectifs ; alors d’une part la suite (4) est exacte (X, p. 83, prop. 2) et on peut appliquer la prop. 3 ; d’autre part, $φ(R', E)$ est bijectif (th. 1) ; donc
+Avec les notations de b), supposons soit E injectif, soit R, R', R'' projectifs ; alors d’une part la suite (4) est exacte (X, p. 83, prop. 2) et on peut appliquer la prop. 3 ; d’autre part, $\varphi(R', E)$ est bijectif (th. 1) ; donc
 
 $$
-δ((2), N) = φ(R'', E) ◦ \partial((4)) ◦ φ(R', E)^{-1}.
+\delta((2), N) = \varphi(R'', E) ◦ \partial((4)) ◦ \varphi(R', E)^{-1}.
 $$
 
 Considérons maintenant un diagramme commutatif

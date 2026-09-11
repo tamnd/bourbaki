@@ -21,7 +21,7 @@ subsections:
       pdf_page: 332
 statements: 20
 exercises: 11
-content_sha256: 5733973f5bdd9fd2e8b08ef663ed9020c730c1ae2dfe39d0ab80fd1f0ffc450c
+content_sha256: d6674ea139595be6c132fa589e24ce77d547ad2398a9b423a66a73d7091c401b
 ---
 
 ## § 7. INTEGRATION WITH RESPECT TO AN INDUCED MEASURE
@@ -170,32 +170,32 @@ For, π_X = π ∘ i, where i is the canonical injection X → T. When θ is pos
 
 — Let X and Y be two locally compact subspaces of T such that Y ⊂ X. If θ is a complex measure on T, then the measure (θ_X)_Y induced by θ_X on Y is equal to θ_Y ('transitivity of induced measures').
 
-It suffices to observe that if g is an element of $\mathscr{H}(Y; \mathbf{C})$, then the extension by 0 of g to T may be obtained by extending by 0 the extension by 0 of g to X, or again, making use of the identifications of the Scholium, that $φ_Y · θ = φ_Y(φ_X · θ)$ (§5, No. 4, Prop. 8).
+It suffices to observe that if g is an element of $\mathscr{H}(Y; \mathbf{C})$, then the extension by 0 of g to T may be obtained by extending by 0 the extension by 0 of g to X, or again, making use of the identifications of the Scholium, that $\varphi_Y · \theta = \varphi_Y(\varphi_X · \theta)$ (§5, No. 4, Prop. 8).
 
 #### Proposition 5 {#int-v-s7-prop-5 .statement}
 
-— Let $(\lambda_α)_{α ∈ A}$ be an increasing directed family of positive measures on T, admitting a supremum λ, and let X be a locally compact subspace of T. The family of induced measures $λ_α|X$ is then bounded above in $\mathscr{M}(X)$, and
+— Let $(\lambda_\alpha)_{\alpha ∈ A}$ be an increasing directed family of positive measures on T, admitting a supremum λ, and let X be a locally compact subspace of T. The family of induced measures $\lambda_\alpha|X$ is then bounded above in $\mathscr{M}(X)$, and
 
 $$
-\sup_{α ∈ A} (λ_α|X) = λ|X.
+\sup_{\alpha ∈ A} (\lambda_\alpha|X) = \lambda|X.
 $$
 
 In view of the identifications in the Scholium, this proposition is a special case of Prop. 5 of §5, No. 4.
 
 #### Corollary {#int-v-s7-n2-cor-1 .statement}
 
-— Let $(\mu_i)_{i ∈ I}$ be a summable family of positive measures on T, with sum μ. The family of induced measures $μ_i|X$ is then summable, and
+— Let $(\mu_i)_{i ∈ I}$ be a summable family of positive measures on T, with sum μ. The family of induced measures $\mu_i|X$ is then summable, and
 
 $$
-\sum_{i ∈ I} (μ_i|X) = μ|X.
+\sum_{i ∈ I} (\mu_i|X) = \mu|X.
 $$
 
 #### Proposition 6 {#int-v-s7-prop-6 .statement}
 
-— Let $Λ : t ↦ λ_t$ be a μ-adequate mapping of T into $\mathscr{M}_+(X)$, where X is a locally compact space that is countable at infinity, and let Y be a locally compact subspace of X. Set $\int λ_t dμ(t) = ν$. The mapping $t ↦ λ_t|Y$ of T into $\mathscr{M}_+(Y)$ is then μ-adequate, and
+— Let $\Lambda : t ↦ \lambda_t$ be a μ-adequate mapping of T into $\mathscr{M}_+(X)$, where X is a locally compact space that is countable at infinity, and let Y be a locally compact subspace of X. Set $\int \lambda_t d\mu(t) = \nu$. The mapping $t ↦ \lambda_t|Y$ of T into $\mathscr{M}_+(Y)$ is then μ-adequate, and
 
 $$
-\int (λ_t|Y) dμ(t) = ν|Y.
+\int (\lambda_t|Y) d\mu(t) = \nu|Y.
 $$
 
 Taking into account the identifications in the Scholium, this proposition is a special case of Prop. 7 of §5, No. 4.

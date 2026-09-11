@@ -12,7 +12,7 @@ pdf_pages: 0272-0273
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 7f0b4ed16f19bd9dab309769dfb9c2851152e34a2f947b373a9914320fcf0f40
+content_sha256: e45d34417b66f70e534f011c7e363f540b7e6a69ca53df4428f6c7f9fc75c473
 ---
 
 ## INDEX OF NOTATION
@@ -22,7 +22,7 @@ The reference numbers indicate the chapter, paragraph and number, respectively.
 $A_l$ (root system of type): VI. 4. 1; VI. 4. 7 and Plate I.
 $\tilde{A}_l$ : VI. 4. 3.
 $A[P]$ : VI. 3. 1.
-$Λ(R)$: VI. 1. 1.
+$\Lambda(R)$: VI. 1. 1.
 $\tilde{\alpha}$ (highest root): VI. 1. 8; VI. 4. 3.
 $\alpha_0 = -\tilde{\alpha}$ : VI. 4. 3.
 $(\alpha_1, \ldots, \alpha_l)$: VI. 1. 5.

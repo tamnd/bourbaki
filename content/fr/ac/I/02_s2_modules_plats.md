@@ -56,7 +56,7 @@ subsections:
       pdf_page: 39
 statements: 41
 exercises: 24
-content_sha256: af91402a2ec2c2ed81a7bff1a5e8ce758f4c5169ec4ecce1812964a448251d8c
+content_sha256: 846461ddd209ba0cae8c6a55fa749f742ab06b8b6848f8623a1ebbfd4c1eb94e
 ---
 
 ## § 2. Modules plats (*)
@@ -484,7 +484,7 @@ En effet, F est un (C, C)-bimodule et il suffit d’appliquer la prop. 8 avec $B
 
 #### Corollaire 2 {#ac-i-s2-prop-8-cor-2 .statement}
 
-Soit ρ un homomorphisme d’un anneau A dans un anneau B. Si E est un A-module à droite plat, le B-module à droite $ρ^*(E) = E_{(B)}$ obtenu par extension à B de l’anneau des scalaires (Alg., chap. II, 3e éd., § 5, no 1) est plat.
+Soit ρ un homomorphisme d’un anneau A dans un anneau B. Si E est un A-module à droite plat, le B-module à droite $\rho^*(E) = E_{(B)}$ obtenu par extension à B de l’anneau des scalaires (Alg., chap. II, 3e éd., § 5, no 1) est plat.
 
 En effet, on a par définition $E_{(B)} = E \otimes_A B$, où B est considéré comme (A, B)-bimodule au moyen de ρ. Comme le B-module à droite B_d est plat, il suffit d’appliquer la prop. 8.
 

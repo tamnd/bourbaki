@@ -36,7 +36,7 @@ subsections:
       pdf_page: 219
 statements: 26
 exercises: 10
-content_sha256: dfa383327462e7c389e1556754b9c2a02f33db6f08c41bee1b53d46d1563d007
+content_sha256: 428ada74328e59172ec74aa08196f12af9926d2dd49eb2da571693f668a459a4
 ---
 
 ## § 7. Groupes de Lie sur un corps ultramétrique
@@ -83,7 +83,7 @@ Soit G un groupe de Lie. Il existe une application exponentielle φ de G ayant l
 (ii) φ(U) est un sous-groupe ouvert de G, et φ est un isomorphisme de la variété analytique U sur la variété analytique φ(U);
 (iii) φ(nx) = φ(x)^n pour tout x ∈ U et tout n ∈ \mathbf{Z}.
 
-Munissons L(G) d’une norme compatible avec sa topologie et telle que $\| [x, y] \| \leq \| x \| \| y \|$ pour x, y dans L(G). Soit G_1 le groupe de Lie défini par L(G). Soit ψ = Id_{G_1}, qui est une application exponentielle de G_1. Pour tout μ > 0, soit L_μ l’ensemble des x ∈ L(G) tels que $\| x \| < μ$. Alors, pour μ assez petit, L_μ est un sous-groupe ouvert du groupe additif L(G), ψ(L_μ) est un sous-groupe ouvert de G_1 (§ 4, n° 2, lemme 3), ψ|L_μ est un isomorphisme de variétés analytiques de L_μ sur ψ(L_μ), et ψ(nx) = ψ(x)^n pour tout x ∈ L_μ et tout n ∈ \mathbf{Z}. Les L_μ forment un système fondamental de voisinages de 0 dans L(G). D’après le th. 1, il existe un μ et un sous-groupe ouvert G' de G tels que ψ(L_μ) et G' soient isomorphes, d’où la proposition.
+Munissons L(G) d’une norme compatible avec sa topologie et telle que $\| [x, y] \| \leq \| x \| \| y \|$ pour x, y dans L(G). Soit G_1 le groupe de Lie défini par L(G). Soit ψ = Id_{G_1}, qui est une application exponentielle de G_1. Pour tout μ > 0, soit L_μ l’ensemble des x ∈ L(G) tels que $\| x \| < \mu$. Alors, pour μ assez petit, L_μ est un sous-groupe ouvert du groupe additif L(G), ψ(L_μ) est un sous-groupe ouvert de G_1 (§ 4, n° 2, lemme 3), ψ|L_μ est un isomorphisme de variétés analytiques de L_μ sur ψ(L_μ), et ψ(nx) = ψ(x)^n pour tout x ∈ L_μ et tout n ∈ \mathbf{Z}. Les L_μ forment un système fondamental de voisinages de 0 dans L(G). D’après le th. 1, il existe un μ et un sous-groupe ouvert G' de G tels que ψ(L_μ) et G' soient isomorphes, d’où la proposition.
 
 #### Proposition 4 {#lie-iii-s7-prop-4 .statement}
 

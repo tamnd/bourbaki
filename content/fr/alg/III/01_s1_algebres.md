@@ -40,7 +40,7 @@ subsections:
       pdf_page: 397
 statements: 8
 exercises: 1
-content_sha256: 27a3504506c4303e364875c89a486914306d0be95db683b3ae14febc70e9aefa
+content_sha256: 2888bb920ee74a65c8229f336e9a6438634a5d67924c30c5fe5f96d8525a5f33
 ---
 
 ## § 1. ALGÈBRES
@@ -58,12 +58,12 @@ L’application A-bilinéaire de E × E dans E qui intervient dans cette défini
 Soient (α_i)_{i \in I} et (β_j)_{j \in J} deux familles d’éléments de A, à support fini (I, p. 13). Alors, quelles que soient les familles (x_i)_{i \in I} et (y_j)_{j \in J} d’éléments de E, on a la formule générale de distributivité (I, p. 27)
 
 $$
-(\sum_{i \in I} α_i x_i)(\sum_{j \in J} β_j y_j) = \sum_{(i, j) \in I \times J} (α_i β_j)(x_i y_j);
+(\sum_{i \in I} \alpha_i x_i)(\sum_{j \in J} \beta_j y_j) = \sum_{(i, j) \in I \times J} (\alpha_i \beta_j)(x_i y_j);
 $$
 
 en particulier
 
-$$(αx)y = x(αy) = α(xy)$$ pour $α \in A, x \in E$ et $y \in E$.
+$$(\alpha x)y = x(\alpha y) = \alpha(xy)$$ pour $\alpha \in A, x \in E$ et $y \in E$.
 
 L’application bilinéaire (x, y) ↦ yx de E × E dans E et la structure de A-module de E définissent sur E une structure de A-algèbre, dite opposée à la structure d’algèbre donnée. L’ensemble E muni de cette nouvelle structure s’appelle l’algèbre opposée à l’algèbre E; on la note souvent E^0. On dit que la A-algèbre E est commutative si elle est identique à son opposée, autrement dit si la multiplication dans E est commutative. Un isomorphisme de E sur E^0 est encore appelé un antiautomorphisme de l’algèbre E.
 

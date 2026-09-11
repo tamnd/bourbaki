@@ -49,7 +49,7 @@ subsections:
       pdf_page: 100
 statements: 18
 exercises: 40
-content_sha256: ae092cf6b666b6c86ea8a228f4763c233e8aeaec628ebd083b299dc49465b61a
+content_sha256: 02d8a8255908d9ecd52748f6156f096b719697e80937adbf61c44e22f6eecd43
 ---
 
 ## § 7. MONOÏDES LIBRES, GROUPES LIBRES
@@ -525,12 +525,12 @@ L’image de ν est un sous-monoïde I de N^{(X)} contenant les éléments δ_x 
 Si m = n et si x'_i = x_{σ(i)} pour 1 ≤ i ≤ n, on a
 
 $$
-ν(w') = \sum_{i=1}^n δ_{x'_i} = \sum_{i=1}^n δ_{x_{σ(i)}} = \sum_{i=1}^n δ_{x_i} = ν(w)
+\nu(w') = \sum_{i=1}^n \delta_{x'_i} = \sum_{i=1}^n \delta_{x_{\sigma(i)}} = \sum_{i=1}^n \delta_{x_i} = \nu(w)
 $$
 
 d’après la formule (21) (I, p. 90) et le théorème de commutativité (I, p. 8, th. 2).
 
-Inversement, supposons que ν(w) et ν(w') soient égaux à un même élément α de N^{(X)}; d’après la formule (22) (I, p. 90), on a n = |α| = m. Pour tout x ∈ X, soit I_x (resp. I'_x) l’ensemble des entiers i tels que 1 ≤ i ≤ n et x_i = x (resp. x'_i = x). Donc (I_x)_{x ∈ X} et (I'_x)_{x ∈ X} sont des partitions de l’intervalle {1, n} de N; de plus, la formule $α = \sum_{i=1}^n δ_{x_i}$ montre que α(x) est le cardinal de I_x; de même la formule $α = \sum_{i=1}^n δ_{x'_i}$ montre que α(x) est le cardinal de I'_x. Il existe donc une permutation σ de {1, n} telle que σ(I'_x) = I_x pour tout x ∈ X, c’est-à-dire x'_i = x_{σ(i)} pour i = 1, ..., n.
+Inversement, supposons que ν(w) et ν(w') soient égaux à un même élément α de N^{(X)}; d’après la formule (22) (I, p. 90), on a n = |α| = m. Pour tout x ∈ X, soit I_x (resp. I'_x) l’ensemble des entiers i tels que 1 ≤ i ≤ n et x_i = x (resp. x'_i = x). Donc (I_x)_{x ∈ X} et (I'_x)_{x ∈ X} sont des partitions de l’intervalle {1, n} de N; de plus, la formule $\alpha = \sum_{i=1}^n \delta_{x_i}$ montre que α(x) est le cardinal de I_x; de même la formule $\alpha = \sum_{i=1}^n \delta_{x'_i}$ montre que α(x) est le cardinal de I'_x. Il existe donc une permutation σ de {1, n} telle que σ(I'_x) = I_x pour tout x ∈ X, c’est-à-dire x'_i = x_{σ(i)} pour i = 1, ..., n.
 
 #### Remarque {#alg-i-s7-n9-rem-1 .statement}
 
@@ -539,7 +539,7 @@ Soit S une partie de X. Rappelons que nous avons identifié M(S) à un sous-magm
 (23)
 
 $$
-M(S) = λ^{-1}(Mo(S)).
+M(S) = \lambda^{-1}(Mo(S)).
 $$
 
 En effet, il est clair que λ(M(S)) ⊂ Mo(S). Soit w ∈ λ^{-1}(Mo(S)); montrons, par récurrence sur l(w), que w ∈ M(S). C’est évident si l(w) = 1. Si l(w) > 1, on peut écrire w = w_1w_2 avec w_1, w_2 dans M(X), l(w_1) < l(w), l(w_2) < l(w). Alors λ(w_1)λ(w_2) ∈ Mo(S), donc λ(w_1) ∈ Mo(S) et λ(w_2) ∈ Mo(S), d’où w_1 ∈ M(S) et w_2 ∈ M(S) d’après l’hypothèse de récurrence, et finalement w ∈ M(S).
@@ -549,7 +549,7 @@ On a aussi
 (24)
 
 $$
-Mo(S) = ν^{-1}(N^{(S)}).
+Mo(S) = \nu^{-1}(N^{(S)}).
 $$
 
 Cela résulte aussitôt de la formule (21) de I, p. 90.

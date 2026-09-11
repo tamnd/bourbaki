@@ -48,7 +48,7 @@ chapters:
           statements: 41
           exercises: 24
           extraction: ocr
-          content_sha256: af91402a2ec2c2ed81a7bff1a5e8ce758f4c5169ec4ecce1812964a448251d8c
+          content_sha256: 846461ddd209ba0cae8c6a55fa749f742ab06b8b6848f8623a1ebbfd4c1eb94e
         - kind: section
           section: 3
           title: Modules fidèlement plats
@@ -182,7 +182,7 @@ chapters:
           statements: 68
           exercises: 31
           extraction: ocr
-          content_sha256: 629cb3a46d3a6275c05e0eb77c9aa655095a0dbb0504fbf8215da05017df48ff
+          content_sha256: df83a8a53628c3cc4dea3eea248da6848d7954316dd21391669c6e1281c0723d
         - kind: section
           section: 3
           title: Topologies m-adiques sur les anneaux nœthériens

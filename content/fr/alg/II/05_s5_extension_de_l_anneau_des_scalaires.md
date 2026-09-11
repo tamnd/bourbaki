@@ -33,7 +33,7 @@ subsections:
       pdf_page: 265
 statements: 15
 exercises: 7
-content_sha256: 5afb5d1e0795a8a611f1168349701804055a8be5b265bde56e85b3cdb44780eb
+content_sha256: dd73cbe623fe94f4135745e54c754e51a1033936590f5c97ac538a1adf961109
 ---
 
 ## § 5. EXTENSION DE L’ANNEAU DES SCALAIRE S
@@ -58,13 +58,13 @@ comme on l’a vu dans II, p. 74, prop. 1. Mais le A-module à gauche Hom_B(B_s,
 
 (2)
 $$
-δ : \operatorname{Hom}_A(E, ρ_*(F)) \to \operatorname{Hom}_B(ρ^*(E), F)
+\delta : \operatorname{Hom}_A(E, \rho_*(F)) \to \operatorname{Hom}_B(\rho^*(E), F)
 $$
 et il résulte aussitôt des définitions que si δ(f) = ĝ, on a ĝ(1 ⊗ x) = f(x) pour tout x ∈ E. En particulier, l’application φ_E : x ↦ 1 ⊗ x n’est autre que
 
 (3)
 $$
-φ_E = δ^{-1}(1_{ρ^*(E)}).
+\varphi_E = \delta^{-1}(1_{\rho^*(E)}).
 $$
 
 La prop. 1 est donc démontrée. L’application φ_E : E → ρ_*(ρ^*(E)) est dite canonique.

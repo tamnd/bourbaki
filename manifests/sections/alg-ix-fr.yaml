@@ -25,7 +25,7 @@ chapters:
           statements: 46
           exercises: 0
           extraction: ocr
-          content_sha256: 9d75daa6e1c49fe3ff9afdc0b536444cf8744caf4cef73c3a21f5367c7a1f466
+          content_sha256: 6f9d8447ca23ee668857b8e7453edbca20762b19a396aaa9b45b3d99e8ff7c84
         - kind: section
           section: 2
           title: Discriminant d'une forme sesquilinéaire
@@ -49,7 +49,7 @@ chapters:
           statements: 9
           exercises: 0
           extraction: ocr
-          content_sha256: 59890c4cfc29f67b7763bf10b7b99e7cabc078626426c0e3a6f3ddbf5cd0c469
+          content_sha256: d403918d1bfc289038d25d604d0e37b9e93386e58d50159f155da6b9777440ac
         - kind: section
           section: 4
           title: Sous-espaces totalement isotropes. Théorème de Witt
@@ -61,7 +61,7 @@ chapters:
           statements: 17
           exercises: 0
           extraction: ocr
-          content_sha256: ef297fe498de92a456b1d5dfa385125a90ce9c494c28c67efef5a8a7fa10b5d6
+          content_sha256: c93097d3f7d4a4f9fa1596bf76e7274625e74003a4e1adb2c4854da5ece02dd8
         - kind: section
           section: 5
           title: Propriétés spéciales aux formes bilinéaires alternées

@@ -52,7 +52,7 @@ subsections:
       pdf_page: 208
 statements: 76
 exercises: 30
-content_sha256: 3f34d03c17af69dcb6ca6302fb7276084dfce77fc9f667bd12f597b4544f7495
+content_sha256: 60742c844483fe586fd0df259cb782e35e6fd29df358053471a3f421e88ebcfb
 ---
 
 ## § 6. Groupes de Lie réels ou complexes
@@ -408,7 +408,7 @@ D’où (i). L’assertion (ii) résulte de (i) et de TG, VII, § 1, prop. 9.
 *Soient G un groupe de Lie, et L = L(G). Pour tout x ∈ L, identifions T_x(L) à L, de sorte que la différentielle droite ω(x) de exp en x est une application linéaire de L dans L. Pour tout x ∈ L, on a*
 
 $$
-ω(x) = \sum_{n \geq 0} \frac{1}{(n + 1)!} (\mathrm{ad}\ x)^n.
+\omega(x) = \sum_{n \geq 0} \frac{1}{(n + 1)!} (\mathrm{ad}\ x)^n.
 $$
 
 Les deux membres sont des fonctions analytiques de x, et sont égaux pour x assez voisin de 0 (§ 4, n° 3, prop. 6).
@@ -418,7 +418,7 @@ Les deux membres sont des fonctions analytiques de x, et sont égaux pour x asse
 On a ω(x) . (ad x) = exp ad x − 1. On écrit, par abus de notation,
 
 $$
-ω(x) = \frac{\exp \mathrm{ad}\ x - 1}{\mathrm{ad}\ x}.
+\omega(x) = \frac{\exp \mathrm{ad}\ x - 1}{\mathrm{ad}\ x}.
 $$
 
 #### Corollaire {#lie-iii-s6-n4-cor-1 .statement}

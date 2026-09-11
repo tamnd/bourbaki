@@ -183,7 +183,7 @@ chapters:
           statements: 24
           exercises: 5
           extraction: ocr
-          content_sha256: 23c65f447db29f61608251134d005e1e22a69220a6f98fb2af711aa8efe32943
+          content_sha256: 39c192d0f39b53a7e88e1a9524a626045bdbd44569f5bb3212d4f8a2e1f80c7d
         - kind: section
           section: 6
           title: Relations d’équivalence
@@ -299,7 +299,7 @@ chapters:
           statements: 27
           exercises: 9
           extraction: ocr
-          content_sha256: 503e900de8f3ee5f9646324661ab78f46f4be66740182d0cabeda1afb86c46a6
+          content_sha256: f91daabbb3cdf2dd44a4161cba4a2d3e9b351777891e00c0dca73bc9b04199b8
         - kind: historical
           title: Historical Note
           path: content/fr/ens/III/historical_note.md
@@ -370,7 +370,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: cdd588b63b385b3c312eefb5a9b67489ec6f5c44c1048507b0f8e8902927b8ee
+          content_sha256: 9e4135545d54f08a1f789c6bd2e60230454aeb463968bccf7b05a9e2e3490655
 notation_index:
     kind: notation
     title: INDEX DES NOTATIONS

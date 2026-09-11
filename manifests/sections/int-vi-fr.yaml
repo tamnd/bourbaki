@@ -25,7 +25,7 @@ chapters:
           statements: 35
           exercises: 27
           extraction: ocr
-          content_sha256: d55f4195d875a1c7fd66041b392850d568cfb68b8ac7d8cce33be44871a48fd9
+          content_sha256: 4ea77f4b13810aa34015d219545e360f5355746ebd9e6aeb419db2f6d1772e83
         - kind: section
           section: 2
           title: Mesures vectorielles

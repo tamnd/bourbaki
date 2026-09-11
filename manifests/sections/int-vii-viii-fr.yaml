@@ -25,7 +25,7 @@ chapters:
           statements: 50
           exercises: 30
           extraction: ocr
-          content_sha256: db1d8825cd989140492f1929a17755f450b5846eb8876515ec903798ee8bc6a8
+          content_sha256: 1eeccef3abe3394a4d537d6aac511fcc8bf795295de5a5d875612d7779af1c11
         - kind: section
           section: 2
           title: Quotient d'un espace par un groupe ; espaces homogènes
@@ -37,7 +37,7 @@ chapters:
           statements: 52
           exercises: 13
           extraction: ocr
-          content_sha256: 8d7c01df218f4e974e1e6f53c424b10b39cbbb6c6e2989998608fb6fb21f2688
+          content_sha256: 06bf74708ff07a3a6d8309eab221f4e8683bf6bddb1c89272c4804229b096ed8
         - kind: section
           section: 3
           title: Applications et exemples
@@ -165,7 +165,7 @@ notation_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: dc2c7c05a531b7516019314edb73534c8a9a1e2512b2336041c7b159ff0f766f
+    content_sha256: 845802eb2d54701a8c3615cac0a06776390c0aae03c7aa2f0e575f75fc0fd346
 terminology_index:
     kind: terminology
     title: INDEX TERMINOLOGIQUE

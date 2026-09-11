@@ -52,7 +52,7 @@ subsections:
       pdf_page: 66
 statements: 52
 exercises: 13
-content_sha256: 8d7c01df218f4e974e1e6f53c424b10b39cbbb6c6e2989998608fb6fb21f2688
+content_sha256: 06bf74708ff07a3a6d8309eab221f4e8683bf6bddb1c89272c4804229b096ed8
 ---
 
 ## § 2. Quotient d’un espace par un groupe ; espaces homogènes.
@@ -582,7 +582,7 @@ localement μ-presque partout sur G.
 Dire que ρ.μ est de la forme $\lambda^\#$ revient à dire que, pour tout ξ ∈ H, on a δ(ξ)(ρ.μ) = Δ_H(ξ)ρ.μ (prop. 4). Or
 
 $$
-δ(ξ)(ρ.μ) = (δ(ξ)ρ) . (δ(ξ)μ) = Δ_G(ξ)(δ(ξ)ρ) . μ,
+\delta(\xi)(\rho.\mu) = (\delta(\xi)\rho) . (\delta(\xi)\mu) = \Delta_G(\xi)(\delta(\xi)\rho) . \mu,
 $$
 
 d'où le lemme.
@@ -596,7 +596,7 @@ Soient G un groupe localement compact, H un sous-groupe fermé de G, μ une mesu
 a) Il existe des fonctions ρ continues > 0 sur G telles que
 
 $$
-ρ(x\xi) = \frac{\Delta_H(\xi)}{\Delta_G(\xi)} ρ(x) \text{ quels que soient } x ∈ G \text{ et } ξ ∈ H.
+\rho(x\xi) = \frac{\Delta_H(\xi)}{\Delta_G(\xi)} \rho(x) \text{ quels que soient } x ∈ G \text{ et } \xi ∈ H.
 $$
 
 b) Etant donnée une telle fonction ρ, on peut former la mesure λ = (ρ.μ)/β sur G/H, et λ est une mesure positive non nulle quasi-invariante par G.
@@ -604,7 +604,7 @@ b) Etant donnée une telle fonction ρ, on peut former la mesure λ = (ρ.μ)/β
 c) Pour s, x dans G, ρ(sx)/ρ(x) ne dépend que de s et π(x), donc définit une fonction χ continue > 0 sur G × (G/H) telle que
 
 $$
-χ(s, π(x)) = \frac{ρ(sx)}{ρ(x)}.
+\chi(s, \pi(x)) = \frac{\rho(sx)}{\rho(x)}.
 $$
 
 Alors on a
@@ -976,7 +976,7 @@ Soient X un espace localement compact dénombrable à l'infini, H un groupe disc
 a) Le couple (π, n^{-1}φ_F) est μ-adapté, et
 
 $$
-\int_X n(x)^{-1} φ_F(x) ε_{π(x)} dμ(x) = λ.
+\int_X n(x)^{-1} \varphi_F(x) \varepsilon_{\pi(x)} d\mu(x) = \lambda.
 $$
 
 b) L'application π est propre pour n^{-1}φ_F · μ, et π(n^{-1}φ_F · μ) = λ.
@@ -984,19 +984,19 @@ b) L'application π est propre pour n^{-1}φ_F · μ, et π(n^{-1}φ_F · μ) = 
 c) Soit k une fonction sur X/H. Pour que k soit λ-mesurable (resp. λ-intégrable), il faut et il suffit que n^{-1}φ_F(k ∘ π) soit μ-mesurable (resp. μ-intégrable); et, si k est λ-intégrable, on a
 
 $$
-\int_{X/H} k dλ = \int_F n^{-1}(k ∘ π) dμ.
+\int_{X/H} k d\lambda = \int_F n^{-1}(k ∘ \pi) d\mu.
 $$
 
 On a μ = λ#. Soit f ∈ 𝒦_+(X/H). Alors n^{-1}φ_F(f ∘ π) est μ-mesurable ≥ 0, et l'on a d'après la prop. 5 b) du no 3
 
 $$
-\int_X^* n(x)^{-1} φ_F(x)f(π(x)) dμ(x) = \int_{X/H}^* f(\dot{x}) dλ(\dot{x}) \int_H^* n(xξ)^{-1} φ_F(xξ) dβ(ξ)
+\int_X^* n(x)^{-1} \varphi_F(x)f(\pi(x)) d\mu(x) = \int_{X/H}^* f(\dot{x}) d\lambda(\dot{x}) \int_H^* n(x\xi)^{-1} \varphi_F(x\xi) d\beta(\xi)
 $$
 
-et $\int_H^* n(xξ)^{-1} φ_F(xξ) dβ(ξ) = n(x)^{-1} \sum_{ξ ∈ H} φ_F(xξ) = 1$ d'après le lemme 8. Donc $n^{-1}φ_F.(f ∘ π)$ est μ-intégrable et
+et $\int_H^* n(x\xi)^{-1} \varphi_F(x\xi) d\beta(\xi) = n(x)^{-1} \sum_{\xi ∈ H} \varphi_F(x\xi) = 1$ d'après le lemme 8. Donc $n^{-1}\varphi_F.(f ∘ \pi)$ est μ-intégrable et
 
 $$
-\int_X n(x)^{-1} φ_F(x)f(π(x)) dμ(x) = \int_{X/H} f(\dot{x}) dλ(\dot{x})
+\int_X n(x)^{-1} \varphi_F(x)f(\pi(x)) d\mu(x) = \int_{X/H} f(\dot{x}) d\lambda(\dot{x})
 $$
 
 Ceci prouve a). L'assertion b) se démontre de même. L'assertion c) se déduit de b) et du chap. V, § 4, prop. 3 et th. 2.

@@ -242,7 +242,7 @@ chapters:
           statements: 51
           exercises: 23
           extraction: ocr
-          content_sha256: 28d3a34fb02207fe7aab1c75378cf65bfb25e1149053f8a7f1062cc40cf11c8a
+          content_sha256: df1638fd0a28b137232565f546a9264146a59e3608decab8ad253fb99ff250d8
         - kind: section
           section: 11
           title: EXTENSIONS ABÉLIENNES

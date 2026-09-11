@@ -100,7 +100,7 @@ chapters:
           statements: 51
           exercises: 43
           extraction: ocr
-          content_sha256: ff3553ab0f99ac602c7b1695b8c045e0b25e926ddf316f906fc607667503cbb0
+          content_sha256: ca783eb36b0dfe47339456767c2940868890099f5abed63dd23457dbac8f2ea6
         - kind: section
           section: 3
           title: The Hahn-Banach Theorem (analytic form)
@@ -394,7 +394,7 @@ chapters:
           statements: 23
           exercises: 16
           extraction: ocr
-          content_sha256: 6fa9993f99ed891eed3d010811e0f5abc1a637fc976e8492d3f06438096abbc2
+          content_sha256: 98982899e811871f72b61ccec3cbe5be8fc42cab66b8a3d6915fd55e2454c3db
         - kind: section
           section: 3
           title: Tensor product of hilbertian spaces

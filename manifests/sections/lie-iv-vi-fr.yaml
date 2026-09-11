@@ -144,7 +144,7 @@ chapters:
           statements: 14
           exercises: 4
           extraction: ocr
-          content_sha256: ed349ba7048860eed5ba0c0f75184dd24dbdc02b5b44c9113c54df9e611786e4
+          content_sha256: 892fe1aeea3cb663caac4de5b459d8cc48e601eee1d40995cd3c54f7e65be74a
         - kind: appendix
           title: Compléments sur les représentations linéaires
           path: content/fr/lie/V/A_a_complements_sur_les_representations.md

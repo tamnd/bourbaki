@@ -28,7 +28,7 @@ subsections:
       pdf_page: 117
 statements: 34
 exercises: 8
-content_sha256: 27c3b10ab223f74e9d41604f25c42351e7053a1d516f28ea68c66ff76d01477c
+content_sha256: 3aaa7b5998328b823ccdc99b1b32a831239b3b509eb6788df8712bad61342271
 ---
 
 ## § 1. UPPER INTEGRAL OF A POSITIVE FUNCTION
@@ -182,16 +182,16 @@ The functions φ_G form a directed set (for ≤) in $\mathscr{I}_+$ and their up
 — *Let* (G_ι)_{ι \in I} *be any family of open sets; then*
 
 $$
-\mu^*\left(\bigcup_{ι \in I} G_ι\right) \leq \sum_{ι \in I} \mu^*(G_ι).
+\mu^*\left(\bigcup_{\iota \in I} G_\iota\right) \leq \sum_{\iota \in I} \mu^*(G_\iota).
 $$
 
 *Moreover, if the* G_ι *are pairwise disjoint then*
 
 $$
-\mu^*\left(\bigcup_{ι \in I} G_ι\right) = \sum_{ι \in I} \mu^*(G_ι).
+\mu^*\left(\bigcup_{\iota \in I} G_\iota\right) = \sum_{\iota \in I} \mu^*(G_\iota).
 $$
 
-For, if G = $\bigcup_{ι \in I} G_ι$ then φ_G = sup_{ι \in I} φ_{G_ι} ≤ $\sum_{ι \in I} \varphi_{G_ι}$; when the G_ι are pairwise disjoint, φ_G = $\sum_{ι \in I} \varphi_{G_ι}$; the proposition is therefore a consequence of Props. 2 and 3.
+For, if G = $\bigcup_{\iota \in I} G_\iota$ then φ_G = sup_{ι \in I} φ_{G_ι} ≤ $\sum_{\iota \in I} \varphi_{G_\iota}$; when the G_ι are pairwise disjoint, φ_G = $\sum_{\iota \in I} \varphi_{G_\iota}$; the proposition is therefore a consequence of Props. 2 and 3.
 
 #### Example {#int-iv-s1-n2-exa-1 .statement}
 

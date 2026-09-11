@@ -37,7 +37,7 @@ chapters:
           statements: 22
           exercises: 10
           extraction: ocr
-          content_sha256: d152eb7c56c9fa4738663bc0edf113ac39698858850f81ad589d64a01e5f66ab
+          content_sha256: 9e9551e83ba2c11e5b270ea36acc3c410a2db41e41b16545744ac5dfedbb2694
         - kind: section
           section: 3
           title: Représentations
@@ -85,7 +85,7 @@ chapters:
           statements: 53
           exercises: 27
           extraction: ocr
-          content_sha256: f4a7c703f00fc2511f368764b5627959d7e967ed5445dd9675de195bef57dfbe
+          content_sha256: 8d709c25803b8fb7c73d0461df9a2c77b9242c20a9ecfdc4b50b9a4648899741
         - kind: section
           section: 7
           title: Le théorème d'Ado

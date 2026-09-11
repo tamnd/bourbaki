@@ -53,7 +53,7 @@ subsections:
       pdf_page: 56
 statements: 66
 exercises: 26
-content_sha256: 9b83a6e54c23b3061dc3b6e71175f255d35071be33cb53e145f0b55a0b44ab2a
+content_sha256: 4cb32ad777803c8ab9ec5b9c51edb5b37b89989bab9b5586c4a290828416f6ca
 ---
 
 ## § 4. GROUPES ET GROUPES A OPÉRATEURS
@@ -295,8 +295,8 @@ $$
 quels que soient les éléments x, y, z de G ; par suite la loi induite sur f(G) est associative. Soit e l’élément neutre de G. Son image f(e) est élément neutre de f(G) (I, p. 13). Tout élément de f(G) est inversible dans f(G) (I, p. 15). Par suite la loi induite sur f(G) par la loi interne de G’ est une loi de groupe. Quels que soient les éléments x et y de G et l’opérateur α, on a
 
 $$
-(f(x)f(y))α = (f(xy))α = f((xy)α) = f(xαyα)
-= f(xα)f(yα) = (f(x))α(f(y))α
+(f(x)f(y))\alpha = (f(xy))\alpha = f((xy)\alpha) = f(x\alpha y\alpha)
+= f(x\alpha)f(y\alpha) = (f(x))\alpha(f(y))\alpha
 $$
 
 ce qui montre que l’action de Ω est distributive par rapport à la loi de groupe de f(G). Par suite f(G) muni des lois induites est un groupe à opérateurs et il est clair que l’application x ↦ f(x) est un homomorphisme de groupes à opérateurs.

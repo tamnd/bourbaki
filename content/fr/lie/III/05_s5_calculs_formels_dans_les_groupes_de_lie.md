@@ -28,7 +28,7 @@ subsections:
       pdf_page: 188
 statements: 8
 exercises: 2
-content_sha256: af8953881f5c2a2e700ef84312f54a45fd13dd141c991a4fe125da42d27974b4
+content_sha256: 28237a89f5d87ea01e1c40e52991178ca5f1e374732ba03250b198797794c0d6
 ---
 
 ## § 5. Calculs formels dans les groupes de Lie
@@ -281,23 +281,23 @@ $$
 Posons $\sigma = \{j_1, j_2, \ldots, j_q\}$ avec $j_1 < j_2 < \cdots < j_q$. Dans (14) (où l’on remplace $j$ par t), substituons 0 à x(k) pour k ∉ σ ; comme 0 est élément neutre de G, on obtient le développement en série entière à l’origine de x(j₁) . x(j₂) . . . . . x(jₖ) :
 
 $$
-x(j₁) . x(j₂) . . . . . x(jₖ) = \sum_{σ(α) ⊂ σ} a_{α(1),...,α(t)} x(j₁)^{α(j₁)} x(j₂)^{α(j₂)} . . . x(jₖ)^{α(jₖ)}
+x(j₁) . x(j₂) . . . . . x(jₖ) = \sum_{\sigma(\alpha) ⊂ \sigma} a_{\alpha(1),...,\alpha(t)} x(j₁)^{\alpha(j₁)} x(j₂)^{\alpha(j₂)} . . . x(jₖ)^{\alpha(jₖ)}
 $$
 
-donc, compte tenu de la définition de $ψ_q$:
+donc, compte tenu de la définition de $\psi_q$:
 
 (20)
 $$
-ψ_q(x) = \sum_{σ(α) = σ} a_{α(1),...,α(t)} x^{α(j₁)+⋯+α(jₖ)}.
+\psi_q(x) = \sum_{\sigma(\alpha) = \sigma} a_{\alpha(1),...,\alpha(t)} x^{\alpha(j₁)+⋯+\alpha(jₖ)}.
 $$
 
-D’après (19) et (20), on voit que $h_{t,σ}(x) = ψ_{card_σ}(x)$. Alors, (18) entraîne
+D’après (19) et (20), on voit que $h_{t,\sigma}(x) = \psi_{card_\sigma}(x)$. Alors, (18) entraîne
 
 $$
-x^{[t]} = \sum_{i=0}^{t} \binom{t}{i} ψ_i(x) = \sum_{i=0}^∞ \binom{t}{i} ψ_i(x).
+x^{[t]} = \sum_{i=0}^{t} \binom{t}{i} \psi_i(x) = \sum_{i=0}^∞ \binom{t}{i} \psi_i(x).
 $$
 
-Cela établi, posons $x^{[t]'} = \sum_{i=0}^∞ \binom{t}{i} ψ_i(x)$ pour tout $t ∈ K$. Dans les séries entières $x^{[t]}$ et $x^{[t]'}$, chaque coefficient est fonction polynomiale de $t$. En effet, cela est évident pour $x^{[t]'}$. En ce qui concerne $x^{[t]}$, il suffit de prouver que, pour tout $u ∈ U(G)$, l’image de $u$ par $x ↦ x^{[t]}$ est fonction polynomiale de $t$. Or, pour $u ∈ U^m(G)$, cette image est $t^m u$ (§ 4, n° 3, prop. 7 (iv)).
+Cela établi, posons $x^{[t]'} = \sum_{i=0}^∞ \binom{t}{i} \psi_i(x)$ pour tout $t ∈ K$. Dans les séries entières $x^{[t]}$ et $x^{[t]'}$, chaque coefficient est fonction polynomiale de $t$. En effet, cela est évident pour $x^{[t]'}$. En ce qui concerne $x^{[t]}$, il suffit de prouver que, pour tout $u ∈ U(G)$, l’image de $u$ par $x ↦ x^{[t]}$ est fonction polynomiale de $t$. Or, pour $u ∈ U^m(G)$, cette image est $t^m u$ (§ 4, n° 3, prop. 7 (iv)).
 
 Comme $x^{[t]} = x^{[t]'}$ pour $t$ entier $≥ 0$, on conclut de là que $x^{[t]} = x^{[t]'}$ pour tout $t ∈ K$.
 
@@ -307,30 +307,30 @@ Ecrivons la condition (ii) de la prop. 2 pour $t$ entier $≥ 0$:
 
 $$
 \begin{align*}
-0 &= ψ_0(x) \\
-x &= ψ_0(x) + ψ_1(x) \\
-x^{[2]} &= ψ_0(x) + 2ψ_1(x) + ψ_2(x) \\
+0 &= \psi_0(x) \\
+x &= \psi_0(x) + \psi_1(x) \\
+x^{[2]} &= \psi_0(x) + 2\psi_1(x) + \psi_2(x) \\
 &\cdots \cdots \cdots \cdots \cdots \cdots \cdots
 \end{align*}
 $$
 
-Ces formules suffisent à déterminer les $ψ_i$.
+Ces formules suffisent à déterminer les $\psi_i$.
 
 #### Remarque 2 {#lie-iii-s5-n3-rem-2 .statement}
 
-On voit que $ψ_0(x) = 0$, $ψ_1(x) = x$, $ψ_2(x) = x^{[2]} - 2x$,
+On voit que $\psi_0(x) = 0$, $\psi_1(x) = x$, $\psi_2(x) = x^{[2]} - 2x$,
 
 $$
-x^{[-1]} = \sum_{i=1}^∞ (-1)^i ψ_i(x).
+x^{[-1]} = \sum_{i=1}^∞ (-1)^i \psi_i(x).
 $$
 
 #### Remarque 3 {#lie-iii-s5-n3-rem-3 .statement}
 
-L’expression précédente de $ψ_2$ et la formule (6) prouvent que
+L’expression précédente de $\psi_2$ et la formule (6) prouvent que
 
 (21)
 $$
-ψ_2(x) ≡ B(x, x) \mod \deg 3.
+\psi_2(x) ≡ B(x, x) \mod \deg 3.
 $$
 
 Compte tenu de la prop. 2, (i) et (ii), on voit que

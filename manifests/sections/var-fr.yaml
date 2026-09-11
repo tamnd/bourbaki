@@ -61,7 +61,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 22e5ad8205c9819aadb0e62ee179c7344db94f006e06403139c2d6bf314a0ed3
+          content_sha256: 627cbb0ce3a8600b1b9e48b3195efeb03a43cef9ec6f8519e0f219969a53bbb5
         - kind: section
           section: 4
           title: Fonctions analytiques (cas non archimédien)
@@ -131,7 +131,7 @@ notation_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: 5fafe0fd2f3c9112f3d347db7e6764fed67da212c8c89789abad76bd52af612d
+    content_sha256: c4890e7f39b75fae076685c897d6a062cbe86a7038583b9a34396ee9c73e59e3
 terminology_index:
     kind: terminology
     title: INDEX TERMINOLOGIQUE

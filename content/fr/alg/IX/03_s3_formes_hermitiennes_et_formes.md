@@ -28,7 +28,7 @@ subsections:
       pdf_page: 52
 statements: 9
 exercises: 0
-content_sha256: 59890c4cfc29f67b7763bf10b7b99e7cabc078626426c0e3a6f3ddbf5cd0c469
+content_sha256: d403918d1bfc289038d25d604d0e37b9e93386e58d50159f155da6b9777440ac
 ---
 
 ## § 3. Formes hermitiennes et formes quadratiques
@@ -365,11 +365,11 @@ d) Étendre les résultats précédents au cas où (A étant un anneau commutati
 
 10) a) Soient A un anneau commutatif, E un A-module ayant une base de 3 éléments, Φ une forme bilinéaire symétrique sur E. Avec les notations de l’exerc. 9, pour deux éléments quelconques x, y de E, on pose $x \overline{\wedge} y = d_{(2)}(x \wedge y)$, et on dit que cet élément est le produit vectoriel de x et de y (relativement à Φ et à la base e de $\bigwedge^3 E$). Montrer que $(x, y) \to x \overline{\wedge} y$ est une application bilinéaire alternée de $E \times E$ dans E, et que $x \overline{\wedge} y$ est orthogonal à x et à y.
 
-b) Soient α, β deux éléments inversibles de A, B l’algèbre de quaternions sur A correspondant au couple ($α, β$) (chap. II, § 7, n° 8), 1, u, v, ω la base canonique de B sur A ; soit E le sous-module de B ayant pour base u, v, ω. Montrer que si x, y sont deux quaternions appartenant à E, on a
+b) Soient α, β deux éléments inversibles de A, B l’algèbre de quaternions sur A correspondant au couple ($\alpha, \beta$) (chap. II, § 7, n° 8), 1, u, v, ω la base canonique de B sur A ; soit E le sous-module de B ayant pour base u, v, ω. Montrer que si x, y sont deux quaternions appartenant à E, on a
 $$
 xy = \Phi(x, y) + x \overline{\wedge} y
 $$
-où Φ est une forme bilinéaire symétrique sur E, telle que les applications linéaires associées à Φ soient bijectives, et $x \overline{\wedge} y$ est le produit vectoriel de x et de y relatif à la forme Φ et à la base $α^{-1}β^{-1}u \wedge v \wedge ω$ de $\bigwedge^3 E$.
+où Φ est une forme bilinéaire symétrique sur E, telle que les applications linéaires associées à Φ soient bijectives, et $x \overline{\wedge} y$ est le produit vectoriel de x et de y relatif à la forme Φ et à la base $\alpha^{-1}\beta^{-1}u \wedge v \wedge \omega$ de $\bigwedge^3 E$.
 
 11) Soit Φ une forme sesquilinéaire ε-hermitienne non dégénérée sur un espace vectoriel E de dimension finie. On dit qu’un sous-espace vectoriel M de E est faiblement orthogonal à un sous-espace vectoriel N (relativement à Φ) si l’un des deux sous-espaces M, N° contient l’autre.
 

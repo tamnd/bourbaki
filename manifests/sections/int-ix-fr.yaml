@@ -49,7 +49,7 @@ chapters:
           statements: 17
           exercises: 18
           extraction: ocr
-          content_sha256: 2b49dcaef71fb3f438371ba20029bb431f78eee4a96532a8af4d576cd146b702
+          content_sha256: 3dd86d2510fd6e7a7b80742c526d9013c0a89c8baae097ffae0322f8e3723f3b
         - kind: section
           section: 4
           title: Limites projectives de mesures
@@ -85,7 +85,7 @@ chapters:
           statements: 36
           exercises: 1
           extraction: ocr
-          content_sha256: ff833bcdb95c00c4a1d79240bf1b3c1523ab0295443d6a66843db7fa15dc03f1
+          content_sha256: abcc6482e9774c8c077043fb597fb99145aeac82cdb44ea2327f8991de620076
         - kind: appendix
           title: Compléments sur les espaces hilbertiens
           path: content/fr/int/IX/A_a_complements_sur_les_espaces_hilbertiens.md

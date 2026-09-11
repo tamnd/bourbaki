@@ -57,7 +57,7 @@ subsections:
       pdf_page: 56
 statements: 52
 exercises: 43
-content_sha256: 5895c753e58fc60a795a6812ec7066dafb95c78d48636cebfbc45b8a10f0a9ec
+content_sha256: 8bdea8771ce47e1012d3338b9252bf140b8cf7970b7fe98135f98a73df8922ab
 ---
 
 ## § 2. ENSEMBLES CONVEXES
@@ -165,21 +165,21 @@ En effet, αA + βB est l’image de l’ensemble convexe A × B dans E × E par
 
 #### Proposition 8 {#evt-ii-s2-prop-8 .statement}
 
-Soit (A_i)_{i∈I} une famille de parties convexes d’un espace affine E ; l’enveloppe convexe de $\bigcup_{i∈I} A_i$ est identique à l’ensemble des combinaisons linéaires $\sum_{i∈I} λ_i x_i$, où $x_i ∈ A_i$, $λ_i ≥ 0$ pour tout $i ∈ I$ ($λ_i = 0$ sauf pour un nombre fini d’indices) et $\sum_{i∈I} λ_i = 1$.
+Soit (A_i)_{i∈I} une famille de parties convexes d’un espace affine E ; l’enveloppe convexe de $\bigcup_{i∈I} A_i$ est identique à l’ensemble des combinaisons linéaires $\sum_{i∈I} \lambda_i x_i$, où $x_i ∈ A_i$, $\lambda_i ≥ 0$ pour tout $i ∈ I$ ($\lambda_i = 0$ sauf pour un nombre fini d’indices) et $\sum_{i∈I} \lambda_i = 1$.
 
-En effet, l’ensemble C de ces combinaisons linéaires est évidemment contenu dans tout ensemble convexe contenant les A_i (II, p. 8, prop. 1), et d’autre part, on a $A_i ⊂ C$ pour tout i ; tout revient à prouver que C est convexe. Soient $x = \sum_i λ_i x_i$, $y = \sum_i μ_i y_i$ deux points de C, et $α$ un nombre tel que $0 < α < 1$; posons $γ_i = αλ_i + (1 - α) μ_i$ pour tout $i ∈ I$, et soit J la partie (finie) de I formée des indices i tels que $γ_i ≠ 0$; on peut écrire
+En effet, l’ensemble C de ces combinaisons linéaires est évidemment contenu dans tout ensemble convexe contenant les A_i (II, p. 8, prop. 1), et d’autre part, on a $A_i ⊂ C$ pour tout i ; tout revient à prouver que C est convexe. Soient $x = \sum_i \lambda_i x_i$, $y = \sum_i \mu_i y_i$ deux points de C, et $\alpha$ un nombre tel que $0 < \alpha < 1$; posons $\gamma_i = \alpha\lambda_i + (1 - \alpha) \mu_i$ pour tout $i ∈ I$, et soit J la partie (finie) de I formée des indices i tels que $\gamma_i ≠ 0$; on peut écrire
 $$
-αx + (1 - α)y = \sum_{i∈J} γ_i z_i,
+\alpha x + (1 - \alpha)y = \sum_{i∈J} \gamma_i z_i,
 $$
-où $z_i = γ_i^{-1}(αλ_i x_i + (1 - α) μ_i y_i)$ appartient à A_i pour tout $i ∈ J$; comme on a $\sum_{i∈J} γ_i = α \sum_{i∈I} λ_i + (1 - α) \sum_{i∈I} μ_i = 1$, le point $αx + (1 - α)y$ appartient à C.
+où $z_i = \gamma_i^{-1}(\alpha\lambda_i x_i + (1 - \alpha) \mu_i y_i)$ appartient à A_i pour tout $i ∈ J$; comme on a $\sum_{i∈J} \gamma_i = \alpha \sum_{i∈I} \lambda_i + (1 - \alpha) \sum_{i∈I} \mu_i = 1$, le point $\alpha x + (1 - \alpha)y$ appartient à C.
 
 #### Corollaire 1 {#evt-ii-s2-prop-8-cor-1 .statement}
 
-L’enveloppe convexe d’une partie A de E est identique à l’ensemble des combinaisons linéaires $\sum_i λ_i x_i$, où $(x_i)$ est une famille finie quelconque de points de A, $λ_i > 0$ pour tout i et $\sum_i λ_i = 1$.
+L’enveloppe convexe d’une partie A de E est identique à l’ensemble des combinaisons linéaires $\sum_i \lambda_i x_i$, où $(x_i)$ est une famille finie quelconque de points de A, $\lambda_i > 0$ pour tout i et $\sum_i \lambda_i = 1$.
 
 La dimension de la variété linéaire affine (A, II, p. 129) engendrée par un ensemble convexe A, est encore appelée la dimension de A.
 
-Soit E un espace vectoriel. L’enveloppe convexe C de l’enveloppe équilibrée d’une partie A de E est encore appelée l’enveloppe convexe équilibrée (ou enveloppe convexe symétrique) de A ; il est immédiat que c’est le plus petit ensemble convexe symétrique contenant A ; c’est aussi l’enveloppe convexe de $A ∪ (-A)$, car tout point de l’enveloppe équilibrée de A appartient à un segment d’extrémités a et −a, où $a ∈ A$. L’ensemble C est égal à l’ensemble des combinaisons linéaires $\sum_i λ_i x_i$ où $x_i ∈ A$ et
+Soit E un espace vectoriel. L’enveloppe convexe C de l’enveloppe équilibrée d’une partie A de E est encore appelée l’enveloppe convexe équilibrée (ou enveloppe convexe symétrique) de A ; il est immédiat que c’est le plus petit ensemble convexe symétrique contenant A ; c’est aussi l’enveloppe convexe de $A ∪ (-A)$, car tout point de l’enveloppe équilibrée de A appartient à un segment d’extrémités a et −a, où $a ∈ A$. L’ensemble C est égal à l’ensemble des combinaisons linéaires $\sum_i \lambda_i x_i$ où $x_i ∈ A$ et
 
 $$
 \sum_i |\lambda_i| \leq 1 ; \text{ il est clair en effet que l’ensemble de ces points est convexe et contient } A \text{ et } -A ; \text{ il suffit donc de prouver qu’il est contenu dans } C, \text{ et pour cela on peut se borner aux combinaisons linéaires telles que } \mu = \sum_i |\lambda_i| > 0 ; \text{ on peut alors écrire }

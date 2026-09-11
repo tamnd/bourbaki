@@ -40,7 +40,7 @@ subsections:
       pdf_page: 25
 statements: 35
 exercises: 27
-content_sha256: d55f4195d875a1c7fd66041b392850d568cfb68b8ac7d8cce33be44871a48fd9
+content_sha256: 4ea77f4b13810aa34015d219545e360f5355746ebd9e6aeb419db2f6d1772e83
 ---
 
 ## § 1. Intégration des fonctions vectorielles
@@ -186,7 +186,7 @@ Toute partie bornée de F est en effet relativement faiblement compacte (Esp. ve
 
 Soient µ une mesure positive bornée sur T, S un ensemble µ-mesurable portant µ, f une application µ-mesurable de T dans F, telle que f(S) soit contenu dans une partie convexe équilibrée bornée et complète B de F. Alors f est scalairement µ-intégrable et on a $\int f d\mu \in \mu(T)B \subset F$.
 
-Comme S est µ-intégrable, il existe une partition de S formée d’un ensemble µ-négligeable N et d’une suite (K_n) de parties compactes telles que la restriction de f à chacun des K_n soit continue (chap. IV, § 5, n° 1); f(K_n) est par suite une partie compacte de F. L’enveloppe convexe équilibrée fermée B_n de f(K_n) est alors précompacte (Esp. vect. top., chap. II, § 4, n° 1, prop. 2) et est contenue dans la partie complète B de F, donc elle est compacte, et a fortiori faiblement compacte. Par suite (cor. de la prop. 5), f_{φ_{K_n}} est scalairement µ-intégrable, et on a $z_n = \int f_{φ_{K_n}} d\mu \in \mu(K_n)B_n \subset \mu(K_n)B$. Pour toute semi-norme continue p sur F, on a par suite $p(z_n) \leq \mu(K_n) \sup_{x \in B} p(x)$; comme B est bornée et que la série de terme général $\mu(K_n)$ est convergente et a pour somme $\mu(T)$, on voit que la suite de terme général $s_n = z_1 + z_2 + \cdots + z_n$ est une suite de Cauchy dans la partie complète $\mu(T)B$ de F. Cette suite converge donc vers un élément s de $\mu(T)B$; comme on peut supposer f(t) = 0 dans T - S, le th. de Lebesgue appliqué à chacune des fonctions $\langle z', f \rangle$ ($z' \in F'$) prouve que $s = \int f d\mu$.
+Comme S est µ-intégrable, il existe une partition de S formée d’un ensemble µ-négligeable N et d’une suite (K_n) de parties compactes telles que la restriction de f à chacun des K_n soit continue (chap. IV, § 5, n° 1); f(K_n) est par suite une partie compacte de F. L’enveloppe convexe équilibrée fermée B_n de f(K_n) est alors précompacte (Esp. vect. top., chap. II, § 4, n° 1, prop. 2) et est contenue dans la partie complète B de F, donc elle est compacte, et a fortiori faiblement compacte. Par suite (cor. de la prop. 5), f_{φ_{K_n}} est scalairement µ-intégrable, et on a $z_n = \int f_{\varphi_{K_n}} d\mu \in \mu(K_n)B_n \subset \mu(K_n)B$. Pour toute semi-norme continue p sur F, on a par suite $p(z_n) \leq \mu(K_n) \sup_{x \in B} p(x)$; comme B est bornée et que la série de terme général $\mu(K_n)$ est convergente et a pour somme $\mu(T)$, on voit que la suite de terme général $s_n = z_1 + z_2 + \cdots + z_n$ est une suite de Cauchy dans la partie complète $\mu(T)B$ de F. Cette suite converge donc vers un élément s de $\mu(T)B$; comme on peut supposer f(t) = 0 dans T - S, le th. de Lebesgue appliqué à chacune des fonctions $\langle z', f \rangle$ ($z' \in F'$) prouve que $s = \int f d\mu$.
 
 ### 3. Intégrales d’opérateurs.
 
