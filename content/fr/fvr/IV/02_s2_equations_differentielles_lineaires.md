@@ -49,7 +49,7 @@ subsections:
       pdf_page: 194
 statements: 25
 exercises: 10
-content_sha256: 74292c898a73f1658412d2cc258444a83449178292a83c0077c0dc37ac9c8ba8
+content_sha256: 2407fb6e831e9c2e5b232f1b07195f8e9c3f0f4ff62cc26909cfdb9adf101258
 ---
 
 ## § 2. ÉQUATIONS DIFFÉRENTIELLES LINÉAIRES
@@ -119,7 +119,7 @@ est dite associée à l’équation non homogène (2); on sait alors (A, II, p. 
 
 #### Proposition 1 {#fvr-iv-s2-prop-1 .statement}
 
-L’ensemble $\mathcal{I}$ des intégrales de l’équation linéaire homogène (4), définies dans $J$, est un sous-espace vectoriel de l’espace $\mathcal{C}(J; E)$ des applications continues de $J$ dans $E$.
+L’ensemble $\mathscr{I}$ des intégrales de l’équation linéaire homogène (4), définies dans $J$, est un sous-espace vectoriel de l’espace $\mathcal{C}(J; E)$ des applications continues de $J$ dans $E$.
 
 La démonstration est immédiate.
 
@@ -199,7 +199,7 @@ En effet, on a $\|A(t)x_0\| \leq k\|x_0\|$ pour tout $t \in K$; dans $K$, la fon
 $$
 \|C(t, t_0)x_0 - x_0\| \leq \|x_0\|\ (e^{k|t-t_0|} - 1)
 $$
-quels que soient $t$ et $t_0$ dans $K$, et $x_0$ dans $E$, ce qui équivaut à l’inégalité (7) d’après la définition de la norme dans $\mathscr{L}(E)$.
+quels que soient $t$ et $t_0$ dans $K$, et $x_0$ dans $E$, ce qui équivaut à l’inégalité (7) d’après la définition de la norme dans $\mathcal{L}(E)$.
 
 #### Proposition 2 {#fvr-iv-s2-prop-2 .statement}
 
@@ -231,7 +231,7 @@ comme l’application bilinéaire
 $$
 (U, y) \mapsto U.y
 $$
-de $\mathscr{L}(E) \times E$ dans $E$ est continue (TG, X, p. 23, prop. 6), $z$ admet une dérivée (sauf en un ensemble dénombrable de points de $J$) et on a, par la formule de dérivation d’une fonction bilinéaire (I, p. 5, prop. 3)
+de $\mathcal{L}(E) \times E$ dans $E$ est continue (TG, X, p. 23, prop. 6), $z$ admet une dérivée (sauf en un ensemble dénombrable de points de $J$) et on a, par la formule de dérivation d’une fonction bilinéaire (I, p. 5, prop. 3)
 
 $$
 \frac{d}{dt} (C(t, t_0) \cdot \mathbf{z}) = \frac{dC(t, t_0)}{dt} \cdot \mathbf{z} + C(t, t_0) \cdot \frac{d\mathbf{z}}{dt} = A(t)C(t, t_0) \cdot \mathbf{z} + C(t, t_0) \cdot \frac{d\mathbf{z}}{dt}
@@ -641,7 +641,7 @@ Pour que $p$ intégrales $u_j$ ($1 \leq j \leq p$) de l’équation homogène
 D^n x - a_1(t)D^{n-1}x - \cdots - a_{n-1}(t)Dx - a_n(t)x = 0
 $$
 
-associée à (33), soient linéairement indépendantes (dans l’espace $\mathscr{C}(J, \mathbf{C})$ des applications continues de $J$ dans $\mathbf{C}$, considéré comme espace vectoriel sur $\mathbf{C}$), il faut et il suffit que les $p$ intégrales correspondantes $\mathbf{u}_j = (u_j, Du_j, \ldots, D^{n-1}u_j)$ de l’équation homogène $dx/dt = A(t).\mathbf{x}$ soient linéairement indépendantes (dans l’espace $\mathscr{C}(J; \mathbf{C}^n)$ des applications continues de $J$ dans $\mathbf{C}^n$). Il est évident en effet que la condition est nécessaire. Inversement, s’il existe $n$ constantes complexes $\lambda_j$ non toutes nulles telles qu’on ait identiquement $\sum_{j=1}^n \lambda_j u_j(t) = 0$ dans $J$, on en déduit $\sum_{j=1}^n \lambda_j D^k u_j(t) = 0$ dans $J$ pour tout entier $k$ tel que $1 \leq k \leq n-1$, ce qui signifie que l’on a $\sum_{j=1}^n \lambda_j \mathbf{u}_j(t) = 0$ dans $J$.
+associée à (33), soient linéairement indépendantes (dans l’espace $\mathcal{C}(J, \mathbf{C})$ des applications continues de $J$ dans $\mathbf{C}$, considéré comme espace vectoriel sur $\mathbf{C}$), il faut et il suffit que les $p$ intégrales correspondantes $\mathbf{u}_j = (u_j, Du_j, \ldots, D^{n-1}u_j)$ de l’équation homogène $dx/dt = A(t).\mathbf{x}$ soient linéairement indépendantes (dans l’espace $\mathcal{C}(J; \mathbf{C}^n)$ des applications continues de $J$ dans $\mathbf{C}^n$). Il est évident en effet que la condition est nécessaire. Inversement, s’il existe $n$ constantes complexes $\lambda_j$ non toutes nulles telles qu’on ait identiquement $\sum_{j=1}^n \lambda_j u_j(t) = 0$ dans $J$, on en déduit $\sum_{j=1}^n \lambda_j D^k u_j(t) = 0$ dans $J$ pour tout entier $k$ tel que $1 \leq k \leq n-1$, ce qui signifie que l’on a $\sum_{j=1}^n \lambda_j \mathbf{u}_j(t) = 0$ dans $J$.
 
 Par suite (IV, p. 19, cor. 1):
 

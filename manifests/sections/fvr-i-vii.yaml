@@ -229,7 +229,7 @@ chapters:
           statements: 25
           exercises: 10
           extraction: ocr
-          content_sha256: 18f9899dd12cd185be5def5133d805b57b869d0c84b2a9ee36a34c2e53edcdac
+          content_sha256: 3b798d7a9737ee288cc5baf1d0c347f64bae3f3f7e1d2d7fbb82d32cd8c8925b
         - kind: historical
           title: Historical Note
           path: content/en/fvr/IV/historical_note.md

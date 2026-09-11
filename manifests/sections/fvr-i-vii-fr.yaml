@@ -111,7 +111,7 @@ chapters:
           statements: 22
           exercises: 23
           extraction: ocr
-          content_sha256: fd720523e50ee5a1091ffa3e4fb269fc049206edb0ebbb8ca6efe694e5030141
+          content_sha256: 9a5fd485ea876bb319eb23c6bc344ab84c47f587698a0b7b913ebd9ce8b6fb3f
         - kind: section
           section: 2
           title: Intégrales dans les intervalles non compacts
@@ -137,7 +137,7 @@ chapters:
           statements: 18
           exercises: 10
           extraction: ocr
-          content_sha256: c6f3cc6ac4464f645a1fcfafc70e48660d7235b77c1b612c2cec4a65f8684f4b
+          content_sha256: 4cc251606530cba06102344c80c371360158ba67bd6adf41aba8f54ff71fc768
     - chapter: III
       title: FONCTIONS ÉLÉMENTAIRES
       sections:
@@ -162,7 +162,7 @@ chapters:
           statements: 8
           exercises: 39
           extraction: ocr
-          content_sha256: cde00cf088adb1d7eca07f0a2802d72337590cbaacfcf3b7045c3411500b70b7
+          content_sha256: 113abb1b0a85b36eecfe0305e43b8fe888c550fe2530cd1bc77ac158b436e2b1
         - kind: section
           section: 2
           title: Développements des fonctions exponentielles et circulaires, et des fonctions qui s'y rattachent
@@ -223,7 +223,7 @@ chapters:
           statements: 25
           exercises: 10
           extraction: ocr
-          content_sha256: 74292c898a73f1658412d2cc258444a83449178292a83c0077c0dc37ac9c8ba8
+          content_sha256: 2407fb6e831e9c2e5b232f1b07195f8e9c3f0f4ff62cc26909cfdb9adf101258
         - kind: historical
           title: Historical Note
           path: content/fr/fvr/IV/historical_note.md
@@ -271,7 +271,7 @@ chapters:
           statements: 12
           exercises: 0
           extraction: ocr
-          content_sha256: fba972f80fcf1c93e39dd0acb77f39fca772999181c97e100ff1e3e9ea05c782
+          content_sha256: a503453839a5e40ae50c575b19318fe1d7e29a227f64e34ca8183c786753a233
         - kind: section
           section: 3
           title: Développements asymptotiques des fonctions d'une variable réelle
@@ -284,7 +284,7 @@ chapters:
           statements: 23
           exercises: 7
           extraction: ocr
-          content_sha256: bb7e81780632e415edba0605b9d9f745690f127461b8c8e4455225c731f15c15
+          content_sha256: 8b2e9b0a8869078dfbd073c17526ee5dd1877475e90467501db59926bb73ff5c
         - kind: section
           section: 4
           title: Application aux séries à termes positifs
@@ -297,7 +297,7 @@ chapters:
           statements: 9
           exercises: 11
           extraction: ocr
-          content_sha256: f31eec3f4ce12257376ba4df2f6ca957d7555f0b68f1004931fe0002156487b5
+          content_sha256: d3692499aca0610a6b558828919cea9b0266b4bc55b68d1ccd293c97f3f470dc
         - kind: appendix
           title: Corps de Hardy. Fonctions (H)
           path: content/fr/fvr/V/A_a_corps_de_hardy_fonctions_h.md

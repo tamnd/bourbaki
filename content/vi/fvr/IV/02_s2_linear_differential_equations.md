@@ -48,7 +48,7 @@ subsections:
       pdf_page: 211
 statements: 25
 exercises: 10
-content_sha256: d7cfe1e2056f8240683f42bd24493996a92c4b4ae324320167bf918ed2633802
+content_sha256: 7c6d0b021e5c60da5451334eb2dd596a544c9655c0f987854ec23912f54ff1ca
 translated_from: content/en/fvr/IV/02_s2_linear_differential_equations.md
 source_content_sha256: ed9860cc26b65ff84c11e78ae048f5030e2943903c24c951c87f27907207fd41
 translation_model: gpt-5.4
@@ -317,7 +317,7 @@ $$
 u(t) = x_0 \exp \left( \int_{t_0}^t a(s)\, ds \right) + \int_{t_0}^t b(s) \exp \left( \int_{t_0}^\tau a(\tau)\, d\tau \right) ds.
 $$
 
-Trong không gian $\mathcal{C}(J; E)$ các ánh xạ liên tục từ J vào E, được trang bị tôpô hội tụ compắc, tập hợp $\mathcal{I}$ các nguyên hàm của phương trình (4) là một không gian con vectơ (trên $\mathbf{C}$) đẳng cấu với E, do đó với $\mathbf{C}^n$ (IV, p. 180, hệ quả 1, và IV, p. 181, mệnh đề 2).
+Trong không gian $\mathscr{C}(J; E)$ các ánh xạ liên tục từ J vào E, được trang bị tôpô hội tụ compắc, tập hợp $\mathcal{I}$ các nguyên hàm của phương trình (4) là một không gian con vectơ (trên $\mathbf{C}$) đẳng cấu với E, do đó với $\mathbf{C}^n$ (IV, p. 180, hệ quả 1, và IV, p. 181, mệnh đề 2).
 
 Một cơ sở $(\mathbf{u}_j)_{1 \leq j \leq n}$ của không gian này (trên trường $\mathbf{C}$) được gọi là một *hệ cơ bản* các nguyên hàm của (4).
 

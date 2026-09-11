@@ -29,7 +29,7 @@ subsections:
       pdf_page: 239
 statements: 9
 exercises: 11
-content_sha256: f31eec3f4ce12257376ba4df2f6ca957d7555f0b68f1004931fe0002156487b5
+content_sha256: d3692499aca0610a6b558828919cea9b0266b4bc55b68d1ccd293c97f3f470dc
 ---
 
 ## § 4. APPLICATION AUX SÉRIES À TERMES POSITIFS
@@ -76,7 +76,7 @@ $$
 \mathbf{u}_n = \sum_{\lambda \leq \alpha} a_\lambda g_\lambda(n) + r_\alpha(n).
 $$
 
-Supposons que toute somme partielle $\sum_{m=1}^{n} g(m)$ où $g \in \mathcal{E}$, admette un développement asymptotique par rapport à $\mathcal{E}'$. On peut alors obtenir un développement asymptotique de $s_n = \sum_{m=1}^{n} u_m$ par rapport à $\mathcal{E}'$; nous distinguerons encore deux cas:
+Supposons que toute somme partielle $\sum_{m=1}^{n} g(m)$ où $g \in \mathscr{E}$, admette un développement asymptotique par rapport à $\mathscr{E}'$. On peut alors obtenir un développement asymptotique de $s_n = \sum_{m=1}^{n} u_m$ par rapport à $\mathscr{E}'$; nous distinguerons encore deux cas:
 
 $1^\circ \sum_{n=1}^{\infty} g_{\alpha}(n) = +\infty$. Alors (V, p. 27, prop. 2), on a $\sum_{m=1}^{n} r_{\alpha}(m) \ll \sum_{m=1}^{n} g_{\alpha}(m)$; par hypothèse, on peut obtenir un développement asymptotique de
 
@@ -106,7 +106,7 @@ $$
 
 à la précision $g_p$, on obtiendra ainsi un développement asymptotique de $s_n$ à la précision $g_{\min(\rho,\sigma)}$.
 
-On est ainsi ramené au cas particulier des séries $(g(n))$ où $g \in \mathcal{E}$. Nous allons voir comment, moyennant certaines conditions, on peut tout d’abord obtenir une partie principale de $s_n = \sum_{m=1}^{n} g(m)$ (lorsque $\sum_{n=1}^{\infty} g(n) = +\infty$) ou de $r_n = \sum_{m=n+1}^{\infty} g(m)$ (lorsque $\sum_{n=1}^{\infty} g(n) < +\infty$).
+On est ainsi ramené au cas particulier des séries $(g(n))$ où $g \in \mathscr{E}$. Nous allons voir comment, moyennant certaines conditions, on peut tout d’abord obtenir une partie principale de $s_n = \sum_{m=1}^{n} g(m)$ (lorsque $\sum_{n=1}^{\infty} g(n) = +\infty$) ou de $r_n = \sum_{m=n+1}^{\infty} g(m)$ (lorsque $\sum_{n=1}^{\infty} g(n) < +\infty$).
 
 #### Proposition 6 {#fvr-v-s4-prop-6 .statement}
 

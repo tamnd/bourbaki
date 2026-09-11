@@ -49,7 +49,7 @@ subsections:
       pdf_page: 211
 statements: 25
 exercises: 10
-content_sha256: 18f9899dd12cd185be5def5133d805b57b869d0c84b2a9ee36a34c2e53edcdac
+content_sha256: 3b798d7a9737ee288cc5baf1d0c347f64bae3f3f7e1d2d7fbb82d32cd8c8925b
 ---
 
 ## § 2. LINEAR DIFFERENTIAL EQUATIONS
@@ -309,7 +309,7 @@ $$
 u(t) = x_0 \exp \left( \int_{t_0}^t a(s)\, ds \right) + \int_{t_0}^t b(s) \exp \left( \int_{t_0}^\tau a(\tau)\, d\tau \right) ds.
 $$
 
-In the space $\mathcal{C}(J; E)$ of continuous maps from J into E, endowed with the topology of compact convergence, the set $\mathcal{I}$ of integrals of equation (4) is a vector subspace (over $\mathbf{C}$) isomorphic to E, therefore to $\mathbf{C}^n$ (IV, p. 180, cor. 1, and IV, p. 181, prop. 2).
+In the space $\mathscr{C}(J; E)$ of continuous maps from J into E, endowed with the topology of compact convergence, the set $\mathcal{I}$ of integrals of equation (4) is a vector subspace (over $\mathbf{C}$) isomorphic to E, therefore to $\mathbf{C}^n$ (IV, p. 180, cor. 1, and IV, p. 181, prop. 2).
 
 A basis $(\mathbf{u}_j)_{1 \leq j \leq n}$ of this space (over the field $\mathbf{C}$) is called a *fundamental system* of integrals of (4).
 

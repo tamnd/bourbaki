@@ -36,7 +36,7 @@ subsections:
       pdf_page: 64
 statements: 22
 exercises: 23
-content_sha256: fd720523e50ee5a1091ffa3e4fb269fc049206edb0ebbb8ca6efe694e5030141
+content_sha256: 9a5fd485ea876bb319eb23c6bc344ab84c47f587698a0b7b913ebd9ce8b6fb3f
 ---
 
 ## § 1. PRIMITIVES ET INTÉGRALES
@@ -135,7 +135,7 @@ Nous pouvons maintenant appliquer la méthode exposée au n° 2.
 
 On dit qu’une fonction vectorielle, définie dans un intervalle $I$, à valeurs dans un espace normé complet $E$ sur $\mathbf{R}$, est une fonction réglée si, dans toute partie compacte de $I$, elle est limite uniforme de fonctions en escalier.
 
-En d’autres termes, les fonctions réglées sont les éléments de l’adhérence dans $\mathcal{F}_c(I; E)$ du sous-espace vectoriel $\mathscr{E}$, des fonctions en escalier ; $\overline{\mathscr{E}}$ est un sous-espace vectoriel de $\mathcal{F}_c(I; E)$ et comme $\mathcal{F}_c(I; E)$ est complet, il en est de même de $\mathcal{E}$; autrement dit, si une fonction est dans toute partie compacte de $I$ limite uniforme de fonctions réglées, elle est réglée dans $I$. Pour que $\mathbf{f}$ soit réglée dans un intervalle $I$, il faut et il suffit que sa restriction à tout intervalle compact contenu dans $I$ soit réglée.
+En d’autres termes, les fonctions réglées sont les éléments de l’adhérence dans $\mathcal{F}_c(I; E)$ du sous-espace vectoriel $\mathscr{E}$, des fonctions en escalier ; $\overline{\mathscr{E}}$ est un sous-espace vectoriel de $\mathcal{F}_c(I; E)$ et comme $\mathcal{F}_c(I; E)$ est complet, il en est de même de $\mathscr{E}$; autrement dit, si une fonction est dans toute partie compacte de $I$ limite uniforme de fonctions réglées, elle est réglée dans $I$. Pour que $\mathbf{f}$ soit réglée dans un intervalle $I$, il faut et il suffit que sa restriction à tout intervalle compact contenu dans $I$ soit réglée.
 
 Le cor. 1 de II, p. 3 montre que:
 

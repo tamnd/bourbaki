@@ -33,7 +33,7 @@ subsections:
       pdf_page: 222
 statements: 12
 exercises: 0
-content_sha256: fba972f80fcf1c93e39dd0acb77f39fca772999181c97e100ff1e3e9ea05c782
+content_sha256: a503453839a5e40ae50c575b19318fe1d7e29a227f64e34ca8183c786753a233
 ---
 
 ## § 2. DÉVELOPPEMENTS ASYMPTOTIQUES
@@ -44,9 +44,9 @@ Soient $E$ un ensemble filtré par un filtre de base $\mathfrak{F}$, et $K$ un c
 
 #### Définition 1 {#fvr-v-s2-def-1 .statement}
 
-On dit qu’une partie $\mathcal{E}$ de $\mathcal{H}(\mathfrak{F}, K)$ formée de fonctions non équivalentes à 0 modulo $R_\infty$ est une échelle de comparaison lorsque $\mathcal{E}$ est totalement ordonnée par la relation « $f \ll g$ ou $f = g$ ».
+On dit qu’une partie $\mathscr{E}$ de $\mathcal{H}(\mathfrak{F}, K)$ formée de fonctions non équivalentes à 0 modulo $R_\infty$ est une échelle de comparaison lorsque $\mathscr{E}$ est totalement ordonnée par la relation « $f \ll g$ ou $f = g$ ».
 
-En d’autres termes, si $f$ et $g$ sont deux fonctions de $\mathcal{E}$, on a toujours entre $f$ et $g$ une (et une seule) des trois relations $f \ll g$, $g \ll f$, $f = g$. Il s’ensuit que dans $\mathcal{E}$, la relation $f \asymp g$ (et a fortiori $|f| \sim a|g|$, où $a$ est un nombre > 0) entraîne $f = g$.
+En d’autres termes, si $f$ et $g$ sont deux fonctions de $\mathscr{E}$, on a toujours entre $f$ et $g$ une (et une seule) des trois relations $f \ll g$, $g \ll f$, $f = g$. Il s’ensuit que dans $\mathscr{E}$, la relation $f \asymp g$ (et a fortiori $|f| \sim a|g|$, où $a$ est un nombre > 0) entraîne $f = g$.
 
 Toute partie d’une échelle de comparaison est évidemment une échelle de comparaison.
 
@@ -78,9 +78,9 @@ Soit $\varphi$ une application d’un ensemble $F$ dans $E$, telle que $\varphi(
 
 ### 2. Parties principales et développements asymptotiques
 
-Soit $\mathscr{E}$ une échelle de comparaison formée de fonctions à valeurs dans un corps valué non discret $K$. Soit $V$ un espace normé sur $K$, et soit $f$ une fonction de $\mathscr{H}(\mathfrak{F}, V)$; s’il existe une fonction $g \in \mathscr{E}$, et un élément $a \neq 0$ de $V$ tels que $f \sim a g$, on dit que $a g$ est une partie principale de $f$ relativement à l’échelle $\mathscr{E}$. D’après la déf. 1 de $V$, p. 10, $f$ ne peut avoir qu’une seule partie principale relative à $\mathscr{E}$, car si $g_1$, $g_2$ sont deux fonctions de $\mathscr{E}$, $a_1$, $a_2$ deux éléments $\neq 0$ de $V$, la relation a_1 g_1 \sim a_2 g_2 entraîne |g_1| \asymp |g_2|, et par suite g_1 = g_2, d’où (a_2 - a_1)g_1 \ll g_1, et comme g_1 n’est identiquement nulle dans aucun ensemble de $\mathcal{E}$, cela entraîne $a_2 = a_1$.
+Soit $\mathscr{E}$ une échelle de comparaison formée de fonctions à valeurs dans un corps valué non discret $K$. Soit $V$ un espace normé sur $K$, et soit $f$ une fonction de $\mathcal{H}(\mathfrak{F}, V)$; s’il existe une fonction $g \in \mathscr{E}$, et un élément $a \neq 0$ de $V$ tels que $f \sim a g$, on dit que $a g$ est une partie principale de $f$ relativement à l’échelle $\mathscr{E}$. D’après la déf. 1 de $V$, p. 10, $f$ ne peut avoir qu’une seule partie principale relative à $\mathscr{E}$, car si $g_1$, $g_2$ sont deux fonctions de $\mathscr{E}$, $a_1$, $a_2$ deux éléments $\neq 0$ de $V$, la relation a_1 g_1 \sim a_2 g_2 entraîne |g_1| \asymp |g_2|, et par suite g_1 = g_2, d’où (a_2 - a_1)g_1 \ll g_1, et comme g_1 n’est identiquement nulle dans aucun ensemble de $\mathscr{E}$, cela entraîne $a_2 = a_1$.
 
-Si $f$ admet une partie principale relativement à une échelle de comparaison $\mathcal{E}$, elle admet la même partie principale relativement à toute échelle de comparaison $\mathcal{E}' \supset \mathcal{E}$.
+Si $f$ admet une partie principale relativement à une échelle de comparaison $\mathscr{E}$, elle admet la même partie principale relativement à toute échelle de comparaison $\mathscr{E}' \supset \mathscr{E}$.
 
 #### Exemple 1 {#fvr-v-s2-n2-exa-1 .statement}
 
@@ -90,13 +90,13 @@ Pour x réel (resp. complexe) tendant vers +∞ (resp. vers ∞), tout polynôme
 
 Une fonction peut être comparable à toutes les fonctions d’une échelle de comparaison sans admettre de partie principale par rapport à cette échelle. Par exemple, pour x réel tendant vers +∞, $\sqrt{x}$ n’a pas de partie principale par rapport à l’échelle des $x^n$, où n est entier rationnel; log x n’a pas de partie principale par rapport à l’échelle des $x^\alpha$ ($\alpha$ réel quelconque); exp($\sqrt{\log x}$) et $x^x = e^{x \log x}$ n’ont pas de partie principale par rapport à l’échelle des $x^\alpha (\log x)^{\beta}$, ni par rapport à l’échelle des exp ($p(x)$) ($p$ polynôme sans terme constant).
 
-La notion de partie principale est susceptible d’une généralisation étendue. Supposons en effet qu’une fonction $f \in \mathcal{H}(\mathfrak{F}, V)$ ait une partie principale $a_1 g_1$ par rapport à une échelle $\mathcal{E}$; la relation $f \sim a_1 g_1$ équivaut à $f - a_1 g_1 \ll g_1$ (V, p. 6, déf. 4); pour étudier de façon plus précise la fonction $f$, on est donc amené à considérer la fonction $f - a_1 g_1$. Si cette fonction a une partie principale $a_2 g_2$ par rapport à $\mathcal{E}$, on aura nécessairement $g_2 \ll g_1$ et $f - a_1 g_1 - a_2 g_2 \ll g_2$.
+La notion de partie principale est susceptible d’une généralisation étendue. Supposons en effet qu’une fonction $f \in \mathcal{H}(\mathfrak{F}, V)$ ait une partie principale $a_1 g_1$ par rapport à une échelle $\mathscr{E}$; la relation $f \sim a_1 g_1$ équivaut à $f - a_1 g_1 \ll g_1$ (V, p. 6, déf. 4); pour étudier de façon plus précise la fonction $f$, on est donc amené à considérer la fonction $f - a_1 g_1$. Si cette fonction a une partie principale $a_2 g_2$ par rapport à $\mathscr{E}$, on aura nécessairement $g_2 \ll g_1$ et $f - a_1 g_1 - a_2 g_2 \ll g_2$.
 
-D’une façon générale, supposons que l’échelle $\mathcal{E}$ soit écrite paramétriquement sous la forme $(g_\alpha)$, où $\alpha$ parcourt un ensemble d’indices A muni d’une structure d’ensemble totalement ordonné isomorphe à l’opposée de la structure d’ordre de $\mathcal{E}$: la relation $\alpha < \beta$ est donc équivalente à $g_\beta \ll g_\alpha$. Dans ces conditions:
+D’une façon générale, supposons que l’échelle $\mathscr{E}$ soit écrite paramétriquement sous la forme $(g_\alpha)$, où $\alpha$ parcourt un ensemble d’indices A muni d’une structure d’ensemble totalement ordonné isomorphe à l’opposée de la structure d’ordre de $\mathscr{E}$: la relation $\alpha < \beta$ est donc équivalente à $g_\beta \ll g_\alpha$. Dans ces conditions:
 
 #### Définition 2 {#fvr-v-s2-def-2 .statement}
 
-On dit qu’une fonction $f \in \mathcal{H}(\mathfrak{F}, V)$ admet un développement asymptotique à la précision $g_\alpha$ (relativement à l’échelle $\mathcal{E}$) s’il existe une famille $(a_\lambda)_{\lambda \leq \alpha}$ d’éléments de V, nuls sauf un nombre fini d’entre eux, tels que $f - \sum_{\lambda \leq \alpha} a_\lambda g_\lambda \ll g_\alpha$. On dit que $\sum_{\lambda \leq \alpha} a_\lambda g_\lambda$ est un développement asymptotique de $f$ à la précision $g_\alpha$, que les $a_\lambda g_\lambda$ ($\lambda \leq \alpha$) sont les termes, les $a_\lambda$ les coefficients et la fonctions $r_\alpha = f - \sum_{\lambda \leq \alpha} a_\lambda g_\lambda$ le reste de ce développement.
+On dit qu’une fonction $f \in \mathcal{H}(\mathfrak{F}, V)$ admet un développement asymptotique à la précision $g_\alpha$ (relativement à l’échelle $\mathscr{E}$) s’il existe une famille $(a_\lambda)_{\lambda \leq \alpha}$ d’éléments de V, nuls sauf un nombre fini d’entre eux, tels que $f - \sum_{\lambda \leq \alpha} a_\lambda g_\lambda \ll g_\alpha$. On dit que $\sum_{\lambda \leq \alpha} a_\lambda g_\lambda$ est un développement asymptotique de $f$ à la précision $g_\alpha$, que les $a_\lambda g_\lambda$ ($\lambda \leq \alpha$) sont les termes, les $a_\lambda$ les coefficients et la fonctions $r_\alpha = f - \sum_{\lambda \leq \alpha} a_\lambda g_\lambda$ le reste de ce développement.
 
 Pour exprimer que $\sum_{\lambda \leq \alpha} a_\lambda g_\lambda$ est un développement asymptotique de $f$ à la précision $g_\alpha$, on se bornera le plus souvent à écrire
 $$
@@ -147,7 +147,7 @@ Nous avons vu, au no 3, comment on peut former un développement asymptotique de
 
 Si tous les termes de développement asymptotique de $f$ sont nuls et si $g_\alpha \ll 1$, on a $f \ll g_\alpha$, donc $f^k \ll g_\alpha^k \ll g_\alpha$ pour tout entier $k > 0$; si $c_m$ est le premier coefficient d’indice $> 0$ qui ne soit pas nul (en supposant que les $c_k$ d’indice $k > 0$ ne soient pas tous nuls), $c_0$ est un développement asymptotique de $h \circ f$ à la précision $g_\alpha^m$.
 
-Dans le reste de ce no, nous nous bornerons au cas où les fonctions de $\mathcal{E}$ ont des valeurs réelles et strictement positives dans un ensemble de $\mathfrak{F}$, et nous ne considérerons que les développements asymptotiques de fonctions de $\mathcal{H}(\mathfrak{F}, \mathbf{R})$. Supposons d’abord que pour toute fonction $g \in \mathcal{E}$ et tout nombre réel $v$, $g^v$ appartienne encore à $\mathcal{E}$: cette condition est par exemple remplie par l’échelle des $x^\alpha$, ou celle des $x^\alpha |\log x|^\beta$ ($\alpha$ et $\beta$ réels quelconques) au voisinage de $+\infty$ ou au voisinage de $0$ dans $\mathbf{R}$. Cette propriété entraîne que le quotient de deux fonctions de $\mathcal{E}$ appartient encore à $\mathcal{E}$. Cela étant, d’un développement asymptotique relatif à $\mathcal{E}$ d’une fonction $f \in \mathcal{H}(\mathfrak{F}, \mathbf{R})$, à la précision $g_\alpha$, on peut déduire un développement de $|f|^v$ pour tout nombre réel $v$. Bornons-nous en effet au cas où les coefficients du développement de $f$ ne sont pas tous nuls, et soit $a_{\gamma g_\gamma}$ la partie principale de $f$; on peut écrire $|f|^v = |a_v|^{g_\gamma}(1 + h)^v$, avec
+Dans le reste de ce no, nous nous bornerons au cas où les fonctions de $\mathscr{E}$ ont des valeurs réelles et strictement positives dans un ensemble de $\mathfrak{F}$, et nous ne considérerons que les développements asymptotiques de fonctions de $\mathcal{H}(\mathfrak{F}, \mathbf{R})$. Supposons d’abord que pour toute fonction $g \in \mathscr{E}$ et tout nombre réel $v$, $g^v$ appartienne encore à $\mathscr{E}$: cette condition est par exemple remplie par l’échelle des $x^\alpha$, ou celle des $x^\alpha |\log x|^\beta$ ($\alpha$ et $\beta$ réels quelconques) au voisinage de $+\infty$ ou au voisinage de $0$ dans $\mathbf{R}$. Cette propriété entraîne que le quotient de deux fonctions de $\mathscr{E}$ appartient encore à $\mathscr{E}$. Cela étant, d’un développement asymptotique relatif à $\mathscr{E}$ d’une fonction $f \in \mathcal{H}(\mathfrak{F}, \mathbf{R})$, à la précision $g_\alpha$, on peut déduire un développement de $|f|^v$ pour tout nombre réel $v$. Bornons-nous en effet au cas où les coefficients du développement de $f$ ne sont pas tous nuls, et soit $a_{\gamma g_\gamma}$ la partie principale de $f$; on peut écrire $|f|^v = |a_v|^{g_\gamma}(1 + h)^v$, avec
 
 $$
 h = \sum_{\gamma < \lambda < \alpha} \frac{a_\lambda}{a_\gamma} \frac{g_\lambda}{g_\gamma} + o\left( \frac{g_\alpha}{g_\gamma} \right).
@@ -192,7 +192,7 @@ x^{x^{1/x}} = x + (\log x)^2 + \frac{1}{2} \frac{(\log x)^4}{x} + \frac{1}{2} \f
 $$
 
 ### 5. Développements asymptotiques à coefficients variables
-On peut généraliser la notion de partie principale et celle de développement asymptotique, de la manière suivante. Soit $\mathscr{E}$ une échelle de comparaison formée de fonctions réelles (resp. complexes) telles que, pour chacune d’elles, il existe un ensemble de $\mathfrak{F}$ où la fonction ne s’annule en aucun point. Soit d’autre part $\mathcal{C}$ un ensemble de fonctions de $\mathscr{H}(\mathfrak{F}, V)$, satisfaisant aux trois conditions suivantes:
+On peut généraliser la notion de partie principale et celle de développement asymptotique, de la manière suivante. Soit $\mathscr{E}$ une échelle de comparaison formée de fonctions réelles (resp. complexes) telles que, pour chacune d’elles, il existe un ensemble de $\mathfrak{F}$ où la fonction ne s’annule en aucun point. Soit d’autre part $\mathcal{C}$ un ensemble de fonctions de $\mathcal{H}(\mathfrak{F}, V)$, satisfaisant aux trois conditions suivantes:
 
 (CO_I) Pour toute fonction $a \in \mathcal{C}$, on a $a \ll 1$.
 
@@ -200,7 +200,7 @@ On peut généraliser la notion de partie principale et celle de développement 
 
 (CO_{III}) $\mathcal{C}$ est un espace vectoriel sur $\mathbf{R}$ (resp. $\mathbf{C}$).
 
-Soit alors $f$ une fonction quelconque de $\mathscr{H}(\mathfrak{F}, V)$; s’il existe une fonction $g \in \mathscr{E}$ et une fonction non nulle $a \in \mathcal{C}$ telles que $f - a g \ll g$, on dira que $a g$ est une partie principale de $f$, relative à l’échelle de comparaison $\mathscr{E}$ et au domaine de coefficients $\mathcal{C}$. S’il existe une telle partie principale, elle est unique: supposons en effet qu’il existe deux telles parties principales $a_1 g_1$ et $a_2 g_2$; on ne peut avoir $g_1 \ll g_2$, car en vertu de (CO_I) on déduirait de là $a_1 g_1 \ll g_2$, et $f - a_1 g_1 \ll g_1 \ll g_2$, donc $f \ll g_2$; mais alors on aurait aussi $a_2 g_2 \ll g_2$, et par suite $a_2 \ll 1$, contrairement à l’hypothèse $a_2 \neq 0$ et à la condition (CO_{II}). On a donc nécessairement $g_1 = g_2$; des relations $f - a_1 g_1 \ll g_1$, $f - a_2 g_1 \ll g_1$, on tire alors $(a_2 - a_1) g_1 \ll g_1$ d’où $a_2 - a_1 \ll 1$, et par suite $a_2 = a_1$ en vertu de (CO_{II}) et (CO_{III}).
+Soit alors $f$ une fonction quelconque de $\mathcal{H}(\mathfrak{F}, V)$; s’il existe une fonction $g \in \mathscr{E}$ et une fonction non nulle $a \in \mathcal{C}$ telles que $f - a g \ll g$, on dira que $a g$ est une partie principale de $f$, relative à l’échelle de comparaison $\mathscr{E}$ et au domaine de coefficients $\mathcal{C}$. S’il existe une telle partie principale, elle est unique: supposons en effet qu’il existe deux telles parties principales $a_1 g_1$ et $a_2 g_2$; on ne peut avoir $g_1 \ll g_2$, car en vertu de (CO_I) on déduirait de là $a_1 g_1 \ll g_2$, et $f - a_1 g_1 \ll g_1 \ll g_2$, donc $f \ll g_2$; mais alors on aurait aussi $a_2 g_2 \ll g_2$, et par suite $a_2 \ll 1$, contrairement à l’hypothèse $a_2 \neq 0$ et à la condition (CO_{II}). On a donc nécessairement $g_1 = g_2$; des relations $f - a_1 g_1 \ll g_1$, $f - a_2 g_1 \ll g_1$, on tire alors $(a_2 - a_1) g_1 \ll g_1$ d’où $a_2 - a_1 \ll 1$, et par suite $a_2 = a_1$ en vertu de (CO_{II}) et (CO_{III}).
 
 #### Exemple {#fvr-v-s2-n4-exa-3 .statement}
 

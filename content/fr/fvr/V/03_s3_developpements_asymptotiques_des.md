@@ -37,7 +37,7 @@ subsections:
       pdf_page: 230
 statements: 23
 exercises: 7
-content_sha256: bb7e81780632e415edba0605b9d9f745690f127461b8c8e4455225c731f15c15
+content_sha256: 8b2e9b0a8869078dfbd073c17526ee5dd1877475e90467501db59926bb73ff5c
 ---
 
 ## § 3. DÉVELOPPEMENTS ASYMPTOTIQUES DES FONCTIONS D’UNE VARIABLE RÉELLE
@@ -293,11 +293,11 @@ Si la fonction $f_1(e^y)$ satisfait aux conditions de la prop. 8 et a un ordre $
 
 ### 6. Développement asymptotique d’une primitive
 
-Soit $\mathcal{E}$ une échelle de comparaison au voisinage de $+\infty$ formée de fonctions numériques $\neq 0$ et de signe constant au voisinage de $+\infty$; soit $\mathbf{f}$ une fonction vectorielle réglée définie dans un intervalle $]a, +\infty[$, à valeurs dans un espace normé complet $E$, et admettant un développement asymptotique
+Soit $\mathscr{E}$ une échelle de comparaison au voisinage de $+\infty$ formée de fonctions numériques $\neq 0$ et de signe constant au voisinage de $+\infty$; soit $\mathbf{f}$ une fonction vectorielle réglée définie dans un intervalle $]a, +\infty[$, à valeurs dans un espace normé complet $E$, et admettant un développement asymptotique
 $$
 \mathbf{f} = \sum_{\lambda < \alpha} a_\lambda g_\lambda + \mathbf{r}_\alpha
 $$
-à la précision $g_\alpha$, par rapport à $\mathcal{E}$. Supposons en outre que toute primitive $\int_a^x g(t) \, dt$ d’une fonction $g \in \mathcal{E}$ admette un développement asymptotique par rapport à $\mathcal{E}$. Dans ces conditions, nous allons voir qu’on peut obtenir un développement asymptotique de $F(x) = \int_a^x \mathbf{f}(t) \, dt$ relativement à $\mathcal{E}$. Distinguons deux cas:
+à la précision $g_\alpha$, par rapport à $\mathscr{E}$. Supposons en outre que toute primitive $\int_a^x g(t) \, dt$ d’une fonction $g \in \mathscr{E}$ admette un développement asymptotique par rapport à $\mathscr{E}$. Dans ces conditions, nous allons voir qu’on peut obtenir un développement asymptotique de $F(x) = \int_a^x \mathbf{f}(t) \, dt$ relativement à $\mathscr{E}$. Distinguons deux cas:
 1° $\int_a^{+\infty} g_\alpha(t) \, dt$ est infini; alors (V, p. 20, prop. 6), on a $\int_a^x \mathbf{r}_\alpha(t) \, dt \ll \int_a^x g_\alpha(t) \, dt$; par hypothèse, on peut obtenir un développement asymptotique de $\sum_{\lambda < \alpha} a_\lambda \int_a^x g_\lambda(t) \, dt$ à une certaine précision $g_\rho$ (V, p. 12); si $c g_\sigma$ est la partie principale de $\int_a^x g_\alpha(t) dt$, on aura donc un développement asymptotique de $\int_a^x \mathbf{f}(t) \, dt$ à la précision $g_{\min(\rho, \sigma)}$, dont tous les termes ont des normes croissant indéfiniment.
 
 2° $\int_a^{+\infty} g_\alpha(t) \, dt$ est convergente; soit $\beta$ alors le plus petit des indices $\lambda \leq \alpha$ tels que $a_\lambda \neq 0$ et que $\int_a^{+\infty} g_\lambda(t) dt$ soit convergente; l’intégrale
@@ -314,7 +314,7 @@ $$
 $$
 à la précision $g_\sigma$, on aura de la sorte un développement asymptotique de $F$ à la précision $g_{\min(\sigma, \alpha)}$.
 
-Tout revient donc à trouver des développements asymptotiques par rapport à $\mathcal{E}$ de primitives de fonctions de $\mathcal{E}$. Nous avons vu comment, moyennant certaines hypothèses sur $\mathcal{E}$, la prop. 8 de V, p. 23 donne la partie principale d’une telle primitive. En outre, la démonstration de la prop. 8 donne l’expression de la différence des deux membres de la formule (1) (resp. (2)) de V, p. 23, sous forme d’une primitive de la fonction $\frac{1}{|\mu + 1|} (x f'(x) + f(x)) - f(x)$ (resp. $f(x) g'(x)$), avec $g = f/f'$; en formant la partie principale de cette nouvelle primitive, ainsi qu’un développement asymptotique du second membre de (1) (resp. (2)), on obtiendra le second terme du développement cherché (voir V, p. 36–43).
+Tout revient donc à trouver des développements asymptotiques par rapport à $\mathscr{E}$ de primitives de fonctions de $\mathscr{E}$. Nous avons vu comment, moyennant certaines hypothèses sur $\mathscr{E}$, la prop. 8 de V, p. 23 donne la partie principale d’une telle primitive. En outre, la démonstration de la prop. 8 donne l’expression de la différence des deux membres de la formule (1) (resp. (2)) de V, p. 23, sous forme d’une primitive de la fonction $\frac{1}{|\mu + 1|} (x f'(x) + f(x)) - f(x)$ (resp. $f(x) g'(x)$), avec $g = f/f'$; en formant la partie principale de cette nouvelle primitive, ainsi qu’un développement asymptotique du second membre de (1) (resp. (2)), on obtiendra le second terme du développement cherché (voir V, p. 36–43).
 
 #### Exemple 1 {#fvr-v-s3-n6-exa-1 .statement}
 
