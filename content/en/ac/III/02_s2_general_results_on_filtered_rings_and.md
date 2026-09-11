@@ -65,7 +65,7 @@ subsections:
       pdf_page: 212
 statements: 57
 exercises: 13
-content_sha256: fcbf6c74b125d93d9e752f071aeea8cdc3187468539e26c37a235e9d8443c6ff
+content_sha256: bb5c0ba3ec8f46dd3e98a66f30d020781e123ced6ca57aff1c0910309f89a6c6
 ---
 
 ## § 2. GENERAL RESULTS ON FILTERED RINGS AND MODULES
@@ -151,9 +151,9 @@ Let A be a filtered ring, E a filtered A-module and (E_n) the filtration of E. F
 
 $$
 \begin{cases}
-v(x) = -∞ \Leftrightarrow x \notin \bigcup_{n \in \mathbf{Z}} E_n \\
+v(x) = -\infty \Leftrightarrow x \notin \bigcup_{n \in \mathbf{Z}} E_n \\
 v(x) = p \Leftrightarrow x \in E_p \text{ and } x \notin E_{p+1} \\
-v(x) = +∞ \Leftrightarrow x \in \bigcap_{n \in \mathbf{Z}} E_n
+v(x) = +\infty \Leftrightarrow x \in \bigcap_{n \in \mathbf{Z}} E_n
 \end{cases}
 $$
 

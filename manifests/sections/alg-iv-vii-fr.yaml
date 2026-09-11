@@ -88,7 +88,7 @@ chapters:
           statements: 42
           exercises: 16
           extraction: ocr
-          content_sha256: 5f7349b7058da4a43f5802632e88e9a95c7fc9b2a8a31a550a3378f025befef8
+          content_sha256: b8d6c38de70d3c3d8e06fcdc0dbab102e830e9f4bebdee7da5fb10710b3da8d5
         - kind: section
           section: 6
           title: FONCTIONS SYMÉTRIQUES

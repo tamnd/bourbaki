@@ -132,7 +132,7 @@ chapters:
           statements: 21
           exercises: 2
           extraction: ocr
-          content_sha256: 01801acd72eaa09ac4a46b42efc187fba6f9b9c28aa0575c8eb3279f5caa0e14
+          content_sha256: d9321168b3b36d9ad30fa2524986103244ffa6409545a942ce2e1f6a21dffb90
     - chapter: IV
       title: Prolongement d'une mesure. Espaces $L^p$
       sections:
@@ -205,7 +205,7 @@ chapters:
           statements: 81
           exercises: 30
           extraction: ocr
-          content_sha256: 278f0eecc4d22d028e8a65725dfa2a39af4fbeb96577be0fe3d79e8704173e09
+          content_sha256: 771cda5e376b27ffa895b3b706fb6f4dbc807861673f3f5e6a50834884adb707
         - kind: section
           section: 6
           title: Inégalités de convexité

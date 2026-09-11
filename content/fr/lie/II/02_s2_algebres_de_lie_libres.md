@@ -56,7 +56,7 @@ subsections:
       pdf_page: 28
 statements: 31
 exercises: 16
-content_sha256: a3ebe7ee1a69da9fe196711d23b751ce6a38ddcf18d22083cde5df281048f45f
+content_sha256: 6ce3d7973ea494da4d3b4cdfc786fbc6a16330e2a0a8dfd46ee0ae052c631632
 ---
 
 ## § 2. Algèbres de Lie libres
@@ -178,7 +178,7 @@ Soit X un ensemble et soit S une partie de X. Le corollaire précédent montre q
 Soit (S_α)_{α ∈ I} une famille filtrante croissante de parties de X, de réunion S. La relation S_α ⊂ S_β entraîne L(S_α) ⊂ L(S_β), donc la famille des sous-algèbres de Lie L(S_α) de L(X) est filtrante croissante. Par suite, g = ⋃_{α ∈ I} L(S_α) est une sous-algèbre de Lie de L(X); on a S ⊂ g, d’où L(S) ⊂ g, et comme L(S_α) ⊂ L(S) pour tout α ∈ I, on a g ⊂ L(S). Donc
 
 $$
-L(\bigcup_{\alpha ∈ I} S_\alpha) = \bigcup_{\alpha ∈ I} L(S_\alpha)
+L(\bigcup_{\alpha \in I} S_\alpha) = \bigcup_{\alpha \in I} L(S_\alpha)
 $$
 
 pour toute famille filtrante croissante (S_α)_{α ∈ I} de parties de X.

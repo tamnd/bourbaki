@@ -41,7 +41,7 @@ subsections:
       pdf_page: 348
 statements: 31
 exercises: 21
-content_sha256: 17d110b54b7bba9f48ad9884564765201535db04b985cfb2373f215e541d64c7
+content_sha256: d8e0ae9af9790c3abf9aff6cb1dc6e881d4046ae0ea1264d8bd2fb53153dc087
 ---
 
 ## § 8. PRODUCTS OF MEASURES
@@ -527,22 +527,22 @@ $$
 
 ### 6. Integration with respect to a finite product of measures
 
-The preceding results may be extended without difficulty to a product of a finite number of measures. For example, let $T_1, T_2, T_3$ be three locally compact spaces, $\mu_i$ a positive measure on $T_i$ ($i = 1, 2, 3$), and let ν = μ₁ ⊗ μ₂ ⊗ μ₃ be the product measure on T = T₁ × T₂ × T₃. Let f be a ν-integrable function with values in $\overline{\mathbf{R}}$ or in a Banach space; a first application of the Lebesgue–Fubini theorem shows that, except at points $(t_1, t_2) \in T_1 \times T_2$ forming a negligible set (for $\mu₁ ⊗ \mu₂$), the function $t₃ ↦ f(t₁, t₂, t₃)$ is $\mu₃$-integrable, the function
+The preceding results may be extended without difficulty to a product of a finite number of measures. For example, let $T_1, T_2, T_3$ be three locally compact spaces, $\mu_i$ a positive measure on $T_i$ ($i = 1, 2, 3$), and let ν = μ₁ ⊗ μ₂ ⊗ μ₃ be the product measure on T = T₁ × T₂ × T₃. Let f be a ν-integrable function with values in $\overline{\mathbf{R}}$ or in a Banach space; a first application of the Lebesgue–Fubini theorem shows that, except at points $(t_1, t_2) \in T_1 \times T_2$ forming a negligible set (for $\mu₁ \otimes \mu₂$), the function $t₃ \mapsto f(t₁, t₂, t₃)$ is $\mu₃$-integrable, the function
 
 $$
-(t₁, t₂) ↦ \int f(t₁, t₂, t₃) \, d\mu₃(t₃),
+(t₁, t₂) \mapsto \int f(t₁, t₂, t₃) \, d\mu₃(t₃),
 $$
 
-defined almost everywhere in $T_1 \times T_2$, is $(\mu₁ ⊗ \mu₂)$-integrable, and
+defined almost everywhere in $T_1 \times T_2$, is $(\mu₁ \otimes \mu₂)$-integrable, and
 
 $$
 \iiint f(t₁, t₂, t₃) \, d\nu(t₁, t₂, t₃) = \iint d\mu₁(t₁) \, d\mu₂(t₂) \int f(t₁, t₂, t₃) \, d\mu₃(t₃).
 $$
 
-A second application of the same theorem shows that, for almost every $t₁ ∈ T₁$, the function $t₂ ↦ \int f(t₁, t₂, t₃) \, d\mu₃(t₃)$ is defined almost everywhere in $T₂$ and is $\mu₂$-integrable; moreover, the function
+A second application of the same theorem shows that, for almost every $t₁ \in T₁$, the function $t₂ \mapsto \int f(t₁, t₂, t₃) \, d\mu₃(t₃)$ is defined almost everywhere in $T₂$ and is $\mu₂$-integrable; moreover, the function
 
 $$
-t₁ ↦ \int d\mu₂(t₂) \int f(t₁, t₂, t₃) \, d\mu₃(t₃),
+t₁ \mapsto \int d\mu₂(t₂) \int f(t₁, t₂, t₃) \, d\mu₃(t₃),
 $$
 
 defined almost everywhere in $T₁$, is $\mu₁$-integrable, and
@@ -551,10 +551,10 @@ $$
 \iiint f(t₁, t₂, t₃) \, d\nu(t₁, t₂, t₃) = \int d\mu₁(t₁) \int d\mu₂(t₂) \int f(t₁, t₂, t₃) \, d\mu₃(t₃).
 $$
 
-One proves similarly that, for almost every $t₁ ∈ T₁$, the function $(t₂, t₃) ↦ f(t₁, t₂, t₃)$ is $(\mu₂ ⊗ \mu₃)$-integrable, that the function
+One proves similarly that, for almost every $t₁ \in T₁$, the function $(t₂, t₃) \mapsto f(t₁, t₂, t₃)$ is $(\mu₂ \otimes \mu₃)$-integrable, that the function
 
 $$
-t₁ ↦ \iint f(t₁, t₂, t₃) \, d\mu₂(t₂) \, d\mu₃(t₃),
+t₁ \mapsto \iint f(t₁, t₂, t₃) \, d\mu₂(t₂) \, d\mu₃(t₃),
 $$
 
 defined almost everywhere, is $\mu₁$-integrable, and that

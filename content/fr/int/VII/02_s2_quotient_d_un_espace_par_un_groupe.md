@@ -52,7 +52,7 @@ subsections:
       pdf_page: 66
 statements: 52
 exercises: 13
-content_sha256: 06bf74708ff07a3a6d8309eab221f4e8683bf6bddb1c89272c4804229b096ed8
+content_sha256: 7753ae8f210f51fd0390ce7bc68ad763babd35215debd49e41984963444cd686
 ---
 
 ## § 2. Quotient d’un espace par un groupe ; espaces homogènes.
@@ -596,7 +596,7 @@ Soient G un groupe localement compact, H un sous-groupe fermé de G, μ une mesu
 a) Il existe des fonctions ρ continues > 0 sur G telles que
 
 $$
-\rho(x\xi) = \frac{\Delta_H(\xi)}{\Delta_G(\xi)} \rho(x) \text{ quels que soient } x ∈ G \text{ et } \xi ∈ H.
+\rho(x\xi) = \frac{\Delta_H(\xi)}{\Delta_G(\xi)} \rho(x) \text{ quels que soient } x \in G \text{ et } \xi \in H.
 $$
 
 b) Etant donnée une telle fonction ρ, on peut former la mesure λ = (ρ.μ)/β sur G/H, et λ est une mesure positive non nulle quasi-invariante par G.
@@ -984,7 +984,7 @@ b) L'application π est propre pour n^{-1}φ_F · μ, et π(n^{-1}φ_F · μ) = 
 c) Soit k une fonction sur X/H. Pour que k soit λ-mesurable (resp. λ-intégrable), il faut et il suffit que n^{-1}φ_F(k ∘ π) soit μ-mesurable (resp. μ-intégrable); et, si k est λ-intégrable, on a
 
 $$
-\int_{X/H} k d\lambda = \int_F n^{-1}(k ∘ \pi) d\mu.
+\int_{X/H} k d\lambda = \int_F n^{-1}(k \circ \pi) d\mu.
 $$
 
 On a μ = λ#. Soit f ∈ 𝒦_+(X/H). Alors n^{-1}φ_F(f ∘ π) est μ-mesurable ≥ 0, et l'on a d'après la prop. 5 b) du no 3
@@ -993,7 +993,7 @@ $$
 \int_X^* n(x)^{-1} \varphi_F(x)f(\pi(x)) d\mu(x) = \int_{X/H}^* f(\dot{x}) d\lambda(\dot{x}) \int_H^* n(x\xi)^{-1} \varphi_F(x\xi) d\beta(\xi)
 $$
 
-et $\int_H^* n(x\xi)^{-1} \varphi_F(x\xi) d\beta(\xi) = n(x)^{-1} \sum_{\xi ∈ H} \varphi_F(x\xi) = 1$ d'après le lemme 8. Donc $n^{-1}\varphi_F.(f ∘ \pi)$ est μ-intégrable et
+et $\int_H^* n(x\xi)^{-1} \varphi_F(x\xi) d\beta(\xi) = n(x)^{-1} \sum_{\xi \in H} \varphi_F(x\xi) = 1$ d'après le lemme 8. Donc $n^{-1}\varphi_F.(f \circ \pi)$ est μ-intégrable et
 
 $$
 \int_X n(x)^{-1} \varphi_F(x)f(\pi(x)) d\mu(x) = \int_{X/H} f(\dot{x}) d\lambda(\dot{x})

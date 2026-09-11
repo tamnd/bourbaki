@@ -64,7 +64,7 @@ subsections:
       pdf_page: 228
 statements: 68
 exercises: 31
-content_sha256: df83a8a53628c3cc4dea3eea248da6848d7954316dd21391669c6e1281c0723d
+content_sha256: ab55b03868429e125e5a64f467f6e370913bd64494227910f87b602c7f740355
 ---
 
 ## § 2. Généralités sur les anneaux et modules filtrés.
@@ -152,9 +152,9 @@ Soient A un anneau filtré, E un A-module filtré, (E_n) la filtration de E. Pou
 
 $$
 \begin{cases}
-\upsilon(x) = -∞ & \Leftrightarrow \quad x \notin \bigcup_{n \in \mathbf{Z}} E_n \\
+\upsilon(x) = -\infty & \Leftrightarrow \quad x \notin \bigcup_{n \in \mathbf{Z}} E_n \\
 \upsilon(x) = p & \Leftrightarrow \quad x \in E_p \text{ et } x \notin E_{p+1} \\
-\upsilon(x) = +∞ & \Leftrightarrow \quad x \in \bigcap_{n \in \mathbf{Z}} E_n
+\upsilon(x) = +\infty & \Leftrightarrow \quad x \in \bigcap_{n \in \mathbf{Z}} E_n
 \end{cases}
 $$
 
@@ -875,7 +875,7 @@ Tout élément de $\mathbf{Z}/n^k\mathbf{Z}$ admet un représentant et un seul d
 
 #### Proposition 17 {#ac-iii-s2-prop-17 .statement}
 
-Soient A un anneau commutatif, (mλ)λ∈L une famille d’idéaux de A, distincts de A, tels que mλ et mμ soient étrangers pour λ ≠ μ. Pour tout famille s = (s(λ))λ∈L d’entiers ≥ 0, à support fini, on pose $a_s = \bigcap_{\lambda∈L} m_s^{s(\lambda)}$ (égal au produit des m_s^{s(λ)} pour les λ tels que s(λ) ≠ 0 ; cf. chap. II, § 1, no 2, prop. 3 et 5) ; les a_s forment un système fondamental de voisinages de 0 pour une topologie C compatible avec la structure d’anneau de A ; soit Ā le séparé complété de A pour cette topologie. D’autre part, pour tout λ ∈ L, soit Aλ l’anneau A muni de la topologie mλ-adique, et soit Āλ son séparé complété. Si l’on désigne par $u : A \to \prod_{\lambda \in L} A_\lambda$ l’homomorphisme diagonal, $u$ est continu et l’homomorphisme correspondant $\hat{u}$:
+Soient A un anneau commutatif, (mλ)λ∈L une famille d’idéaux de A, distincts de A, tels que mλ et mμ soient étrangers pour λ ≠ μ. Pour tout famille s = (s(λ))λ∈L d’entiers ≥ 0, à support fini, on pose $a_s = \bigcap_{\lambda\in L} m_s^{s(\lambda)}$ (égal au produit des m_s^{s(λ)} pour les λ tels que s(λ) ≠ 0 ; cf. chap. II, § 1, no 2, prop. 3 et 5) ; les a_s forment un système fondamental de voisinages de 0 pour une topologie C compatible avec la structure d’anneau de A ; soit Ā le séparé complété de A pour cette topologie. D’autre part, pour tout λ ∈ L, soit Aλ l’anneau A muni de la topologie mλ-adique, et soit Āλ son séparé complété. Si l’on désigne par $u : A \to \prod_{\lambda \in L} A_\lambda$ l’homomorphisme diagonal, $u$ est continu et l’homomorphisme correspondant $\hat{u}$:
 
 $$
 \hat{A} \to (\prod_{\lambda \in L} A_\lambda)^{\sim} = \prod_{\lambda \in L} \hat{A}_\lambda

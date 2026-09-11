@@ -52,7 +52,7 @@ subsections:
       pdf_page: 30
 statements: 46
 exercises: 0
-content_sha256: 6f9d8447ca23ee668857b8e7453edbca20762b19a396aaa9b45b3d99e8ff7c84
+content_sha256: 6c3c715713c4fa2e6f254fef42641b839a523a15eb7772322f1432e2670dc680
 ---
 
 ## § 1. Formes sesquilinéaires
@@ -381,7 +381,7 @@ $$
 Nous allons maintenant définir les applications linéaires associées à une forme sesquilinéaire. Soient J un antiautomorphisme de A et Φ une forme sesquilinéaire (à droite) pour J sur E × F (F désignant un A-module à gauche) ; posons J′ = J^{-1}. L’application Φ′ de F × E dans A définie par
 
 $$
-\Phi′(y, x) = \Phi(x, y)^{J′} \quad (x ∈ E, y ∈ F)
+\Phi′(y, x) = \Phi(x, y)^{J′} \quad (x \in E, y \in F)
 $$
 
 est, comme on le voit facilement, une forme sesquilinéaire (à droite) pour J′ sur F × E. D’après le n° 2 (dēf. 5) les formes sesquilinéaires Φ et Φ′ s’identifient respectivement à des formes bilinéaires sur E × F^{J′} et sur F × E^{J′}. Les applications d_{Φ} et d_{Φ′} associées à ces dernières sont appelées les applications associées à droite et à gauche à la forme sesquilinéaire $\Phi$, et sont notées $d_\Phi$ et $s_\Phi$. On a donc, par définition :

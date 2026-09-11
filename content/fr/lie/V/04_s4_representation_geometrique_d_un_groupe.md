@@ -48,7 +48,7 @@ subsections:
       pdf_page: 99
 statements: 23
 exercises: 20
-content_sha256: 7bafc016bec66d407589de457cdad6b9798b6eeda20714e6e902e3537a4d649d
+content_sha256: d1f1639e427c16b81ca3f0f563a5847642a07655d11b255f9daaf9d8e98ea14b
 ---
 
 ## § 4. Représentation géométrique d’un groupe de Coxeter
@@ -269,11 +269,11 @@ La démonstration sera donnée au n° 5.
 Appliquons ce lemme à l’élément v = s’u. On a alors deux possibilités :
 ou bien
 $$
-s'u(A_s ∩ A_{s'}) ⊂ A_s \quad \text{et} \quad \text{a fortiori} \quad w(\mathbf{C}) ⊂ A_s,
+s'u(A_s \cap A_{s'}) \subset A_s \quad \text{et} \quad \text{a fortiori} \quad w(\mathbf{C}) \subset A_s,
 $$
 ou bien
 $$
-s'u(A_s ∩ A_{s'}) ⊂ s(A_s) \quad \text{et} \quad \text{a fortiori} \quad w(\mathbf{C}) ⊂ s(A_s).
+s'u(A_s \cap A_{s'}) \subset s(A_s) \quad \text{et} \quad \text{a fortiori} \quad w(\mathbf{C}) \subset s(A_s).
 $$
 
 De plus, dans le second cas, on a l(ss'u) = l(s’u) — 1. D’où :
@@ -289,7 +289,7 @@ et l’on sait que cela entraîne bien l(sw) = l(w) — 1.
 
 Soient w ∈ W, avec l(w) = n + 1, et s, s' ∈ S, s ≠ s'. Si w(C) est contenu dans A_s ∩ A_{s'}, la condition (Q_{n+1}) est vérifiée en prenant u = 1. Sinon, supposons par exemple que w(C) ne soit pas contenu dans A_s. D’après (P_{n+1}), on a w(C) ⊂ s(A_s) et l(sw) = n. D’après (Q_n), appliqué à sw, il existe v ∈ W_{s,s'} tel que
 $$
-sw(C) ⊂ v(A_s ∩ A_{s'})
+sw(C) \subset v(A_s \cap A_{s'})
 $$
 et
 $$
@@ -297,7 +297,7 @@ l(sw) = l(v) + l(v^{-1}sw).
 $$
 On a alors
 $$
-w(C) ⊂ sv(A_s ∩ A_{s'})
+w(C) \subset sv(A_s \cap A_{s'})
 $$
 et
 $$
@@ -316,7 +316,7 @@ Soit w ∈ W, avec w ≠ 1. On peut écrire w sous la forme sw', avec s ∈ S, e
 
 Soit E_{s,s'}^* le dual du plan E_{s,s'} = \mathbf{R}e_s ⊕ \mathbf{R}e_{s'} (n° 2). La transposée de l’injection E_{s,s'} → E est une surjection
 $$
-p : E^* → E_{s,s'}^*
+p : E^* \to E_{s,s'}^*
 $$
 qui commute à l’action du groupe W_{s,s'}. Il est clair que A_s, A_{s'}, et A_s ∩ A_{s'}, sont les images réciproques par $p$ des sous-ensembles correspondants de $E_{s,s'}^*$ (considéré comme espace de la représentation contragrédiente du groupe de Coxeter $W_{s,s'}$). Comme en outre la longueur d’un élément de $W_{s,s'}$ est la même par rapport à $\{s, s'\}$ et par rapport à S (chap. IV, § 1, n° 8), on voit que l’on est finalement ramené au cas où $S = \{s, s'\}$; si $m = m(s, s')$, le groupe W est alors un groupe diédral d’ordre $2m$.
 

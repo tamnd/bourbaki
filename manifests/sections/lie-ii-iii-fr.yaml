@@ -37,7 +37,7 @@ chapters:
           statements: 31
           exercises: 16
           extraction: ocr
-          content_sha256: a3ebe7ee1a69da9fe196711d23b751ce6a38ddcf18d22083cde5df281048f45f
+          content_sha256: 6ce3d7973ea494da4d3b4cdfc786fbc6a16330e2a0a8dfd46ee0ae052c631632
         - kind: section
           section: 3
           title: Algèbre enveloppante de l'algèbre de Lie libre
@@ -145,7 +145,7 @@ chapters:
           statements: 57
           exercises: 10
           extraction: ocr
-          content_sha256: 62b754ac2acb25a32f55336926c71cf152c1bc39aa67849ec615b2ae1cd91fe5
+          content_sha256: 1e20c7e2af68d2303190be54747077fcbad96cbb92c8e06e7aca05557d394b00
         - kind: section
           section: 2
           title: Groupe des vecteurs tangents à un groupe de Lie
@@ -181,7 +181,7 @@ chapters:
           statements: 41
           exercises: 13
           extraction: ocr
-          content_sha256: beae0c979d1a4a6bab0724896082095b5128a61833413b122cd2e2acaed067c1
+          content_sha256: 3127c5aaafcc0f54184453e7f90619971a5468572a03b4553ec6ff184937f332
         - kind: section
           section: 5
           title: Calculs formels dans les groupes de Lie
@@ -193,7 +193,7 @@ chapters:
           statements: 8
           exercises: 2
           extraction: ocr
-          content_sha256: 28237a89f5d87ea01e1c40e52991178ca5f1e374732ba03250b198797794c0d6
+          content_sha256: a1b0dc0da441ba1336a9f001ec0bd88ac8374d25e9d750ad59f6a32210228f6d
         - kind: section
           section: 6
           title: Groupes de Lie réels ou complexes
@@ -217,7 +217,7 @@ chapters:
           statements: 26
           exercises: 10
           extraction: ocr
-          content_sha256: 428ada74328e59172ec74aa08196f12af9926d2dd49eb2da571693f668a459a4
+          content_sha256: 2a11e840b072e6bf795915d99f97cedbde0f6e8d65e3e8a13605276f96f1a6f0
         - kind: section
           section: 8
           title: Groupes de Lie sur R ou Q_p
@@ -285,7 +285,7 @@ notation_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: 8c1229475966ac69767e6c5dfc349c548c3da8b5ef0aefd855b38335c11b1bd1
+    content_sha256: b5b3b8d4b34e7c11bf7eee28fa87ad1139fa514d90a5db742ceb195a360ede3e
 terminology_index:
     kind: terminology
     title: INDEX TERMINOLOGIQUE

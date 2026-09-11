@@ -142,7 +142,7 @@ chapters:
           statements: 24
           exercises: 12
           extraction: ocr
-          content_sha256: 62e505d8aa0f31960c6846de066bdff7085061b1fc44bb3e8c693ef8b9a5a9ca
+          content_sha256: 48cfcdd81cc4a6c7ad70c51c1051e6072017a0a4153d365c2a032815545ccf44
         - kind: section
           section: 2
           title: Free Lie algebras
@@ -285,7 +285,7 @@ chapters:
           statements: 10
           exercises: 0
           extraction: ocr
-          content_sha256: 7845b7e2bd4a655ddc90c51d69de092ba1cf892797854eb6ec7e8069c2d39675
+          content_sha256: 1bb3505ac4e1daf1314c53912b5ccbc1316d47cdbbdbbeaeb27158c6609ae39d
         - kind: section
           section: 3
           title: Passage from a Lie group to its Lie algebra
@@ -337,7 +337,7 @@ chapters:
           statements: 71
           exercises: 30
           extraction: ocr
-          content_sha256: 60ae69926749a32341c1c992c625b3998659271b7a1f516a4d2b33c14a6ecf8e
+          content_sha256: 3f671cb987a5a8a44499c86ec937ba8c95cfea97c5058ddfa272e7cfee3e79fa
         - kind: section
           section: 7
           title: Lie groups over an ultrametric field
@@ -413,7 +413,7 @@ notation_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: 1ab7972dd36ec32f53bf95e4308f26ae6b1f170762f0759e379e3e1da5dab06e
+    content_sha256: 590c17f29dac04309e53b6eb86931ec2ea41a476013e663bd509258267f9b49b
 terminology_index:
     kind: terminology
     title: INDEX OF TERMINOLOGY

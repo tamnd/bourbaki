@@ -53,7 +53,7 @@ subsections:
       pdf_page: 56
 statements: 66
 exercises: 26
-content_sha256: 4cb32ad777803c8ab9ec5b9c51edb5b37b89989bab9b5586c4a290828416f6ca
+content_sha256: ec4159c2bb341a84abc4c75fba11619504c8de513bda647bfb9391fa16433c22
 ---
 
 ## § 4. GROUPES ET GROUPES A OPÉRATEURS
@@ -425,7 +425,7 @@ Remarquons pour cela que $H_i \cap K_j$ est un sous-groupe stable de $H_i$ et de
 D’après I, p. 39, th. 4, $H' \cap K = H' \cap (H \cap K)$ est sous-groupe stable distingué de $H \cap K$; de même $K' \cap H$ est sous-groupe stable distingué de $K \cap H$; donc (I, p. 38, cor. 2) $(H' \cap K)(K' \cap H)$ est sous-groupe stable distingué de $H \cap K$. D’après le th. 4 (I, p. 39) appliqué au groupe $H$, $H'.(H' \cap K).(K' \cap H) =$
 
 H'.(H ∩ K') est sous-groupe stable distingué de H'.(H ∩ K), et le groupe quotient (H'.(H ∩ K))/(H'.(H ∩ K')) est isomorphe à
-$$(H ∩ K)/((H' ∩ K).(K' ∩ H)).$$
+$$(H \cap K)/((H' \cap K).(K' \cap H)).$$
 Dans ce dernier quotient, H et H' d’une part, K et K' de l’autre, figurent symétriquement; en les permutant, on obtient le résultat annoncé. C. Q.F.D.
 
 #### Définition 10 {#alg-i-s4-def-10 .statement}

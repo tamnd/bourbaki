@@ -210,7 +210,7 @@ chapters:
           statements: 29
           exercises: 18
           extraction: ocr
-          content_sha256: 87e93f418b03b2949af6ce27412d223b7cb38ec6a4901beae65f0fbdcfbce23d
+          content_sha256: 2ecc494397a0f4a79b66829f4374958652b1a231194162cffe7e6e4774146319
         - kind: section
           section: 2
           title: Équations différentielles linéaires

@@ -42,7 +42,7 @@ subsections:
       pdf_page: 90
 statements: 24
 exercises: 5
-content_sha256: 39c192d0f39b53a7e88e1a9524a626045bdbd44569f5bb3212d4f8a2e1f80c7d
+content_sha256: dd3f3d22c6680efe856b62e3762da34defa79463e1e03a5a661d91fb6ded86c9
 ---
 
 ## § 5. PRODUIT D’UNE FAMILLE D’ENSEMBLES
@@ -284,11 +284,11 @@ Les deux membres de l’égalité qu’il s’agit de démontrer sont des ensemb
 
 Soient (X_ι)_{ι ∈ I} et (Y_ι)_{ι ∈ I} deux familles d'ensembles ayant même ensemble d'indices I ≠ ∅. On a
 
-$$(\prod_{\iota ∈ I} X_\iota) ∩ (\prod_{\iota ∈ I} Y_\iota) = \prod_{\iota ∈ I} (X_\iota ∩ Y_\iota)$$
+$$(\prod_{\iota \in I} X_\iota) \cap (\prod_{\iota \in I} Y_\iota) = \prod_{\iota \in I} (X_\iota \cap Y_\iota)$$
 
 et
 
-$$(\cap_{\iota ∈ I} X_\iota) × (\cap_{\iota ∈ I} Y_\iota) = \cap_{\iota ∈ I} (X_\iota × Y_\iota).$$
+$$(\cap_{\iota \in I} X_\iota) × (\cap_{\iota \in I} Y_\iota) = \cap_{\iota \in I} (X_\iota × Y_\iota).$$
 
 Il suffit d'appliquer la prop. 10 au cas où K (resp. I) est un ensemble à deux éléments distincts.
 

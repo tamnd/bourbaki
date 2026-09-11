@@ -49,7 +49,7 @@ subsections:
       pdf_page: 100
 statements: 18
 exercises: 40
-content_sha256: 02d8a8255908d9ecd52748f6156f096b719697e80937adbf61c44e22f6eecd43
+content_sha256: a23b5cbac92dfa89924f09c506cd2b13a13ccc739397fe336baf702f6718b12a
 ---
 
 ## § 7. MONOÏDES LIBRES, GROUPES LIBRES
@@ -559,7 +559,7 @@ De plus, N^{(S)} est l’ensemble des éléments de N^{(X)} dont le support est 
 (25)
 
 $$
-M(S) = ∩_{i ∈ I} M(S_i), \quad Mo(S) = ∩_{i ∈ I} Mo(S_i).
+M(S) = \cap_{i \in I} M(S_i), \quad Mo(S) = \cap_{i \in I} Mo(S_i).
 $$
 
 ## EXERCICES {#alg-i-s7-exercises}

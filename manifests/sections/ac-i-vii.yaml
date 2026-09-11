@@ -206,7 +206,7 @@ chapters:
           statements: 57
           exercises: 13
           extraction: ocr
-          content_sha256: fcbf6c74b125d93d9e752f071aeea8cdc3187468539e26c37a235e9d8443c6ff
+          content_sha256: bb5c0ba3ec8f46dd3e98a66f30d020781e123ced6ca57aff1c0910309f89a6c6
         - kind: section
           section: 3
           title: m-adic topologies on Noetherian rings

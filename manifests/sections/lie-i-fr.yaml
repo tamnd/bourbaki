@@ -37,7 +37,7 @@ chapters:
           statements: 22
           exercises: 10
           extraction: ocr
-          content_sha256: 9e9551e83ba2c11e5b270ea36acc3c410a2db41e41b16545744ac5dfedbb2694
+          content_sha256: 4273113cb01dbe675bbca50338168d397debff5370c11ec66e1c28a99e9cfbb7
         - kind: section
           section: 3
           title: Représentations

@@ -14,15 +14,15 @@ Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 
 | --- | ---: | ---: | ---: | --- |
 | structure | 13 | 1 | 0 | S11 (433), S14 (799) |
 | tags | 7 | 1 | 1 | T03 (23302), T10 (8) |
-| mathematics | 10 | 5 | 0 | M03 (607), M06 (6), M13 (48), M14 (2690) |
+| mathematics | 10 | 5 | 0 | M03 (5), M06 (6), M13 (48), M14 (2690) |
 | figures | 6 | 0 | 0 | F01 (158) |
 | references | 3 | 0 | 0 | R01 (3369), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1392), L02 (2), L03 (52), L04 (51), L05 (341), L06 (2016), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
+| translation | 13 | 3 | 1 | L01 (1392), L02 (2), L03 (52), L04 (51), L05 (339), L06 (2016), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-30633 hard findings and 11270 soft, over 76 rules that ran and 2 that could not.
+30029 hard findings and 11270 soft, over 76 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -65,37 +65,15 @@ Hard, figures.
 
 and 133 more, which `bourbaki audit -only F01` prints in full.
 
-## M03 no character stranded out of its TeX (607)
+## M03 no character stranded out of its TeX (5)
 
 Hard, mathematics.
 
-- `content/en-mt/ac/III/exercises/s2/15.md:33` the operator '≤' where its TeX belongs inside the mathematics: f_\alpha(E) = \bigcap_{\alpha ≤ \beta} f_{\alpha\b…
-- `content/en-mt/ac/IX/exercises/s4/28.md:23` the operator '−' where its TeX belongs inside the mathematics: K − A
-- `content/en-mt/ac/VIII/07_s7_multiplicites.md:130` the operator '⊗' where its TeX belongs inside the mathematics: e_{q_B}^B(M ⊗_A N) = \operatorname{long}_B(N ⊗_A \…
-- `content/en-mt/ac/VIII/07_s7_multiplicites.md:140` the operator '⊗' where its TeX belongs inside the mathematics: e_{q_B}^B(M ⊗_A B) = e_q^A(M).
-- `content/en-mt/ac/VIII/exercises/s2/01.md:22` the operator '→' where its TeX belongs inside the mathematics: V/mᵥ → A/mᵥA
-- `content/en-mt/ac/VIII/exercises/s2/01.md:22` the operator '≥' where its TeX belongs inside the mathematics: \dim(A) ≥ n + 1
-- `content/en-mt/ac/VIII/exercises/s2/01.md:22` the operator '≥' where its TeX belongs inside the mathematics: n ≥ 1
-- `content/en-mt/ac/VIII/exercises/s2/03.md:22` the operator '⊂' where its TeX belongs inside the mathematics: p₀ ⊂ p₁ ⊂ p₂
-- `content/en-mt/ac/VIII/exercises/s2/03.md:22` the operator '∩' where its TeX belongs inside the mathematics: p₀ ∩ A = {0}
-- `content/en-mt/ac/VIII/exercises/s2/03.md:22` the operator '∩' where its TeX belongs inside the mathematics: p₁ = (p₁ ∩ A).A[X]
-- `content/en-mt/ac/VIII/exercises/s2/05.md:22` the operator '∉' where its TeX belongs inside the mathematics: x ∉ A_p
-- `content/en-mt/ac/VIII/exercises/s2/05.md:22` the operator '∉' where its TeX belongs inside the mathematics: x^{-1} ∉ A_p
-- `content/en-mt/ac/VIII/exercises/s2/05.md:22` the operator '∩' where its TeX belongs inside the mathematics: pA[x] ∩ A = p
-- `content/en-mt/ac/VIII/exercises/s2/05.md:22` the operator '→' where its TeX belongs inside the mathematics: (A/p)[X] → A[x]/pA[x]
-- `content/en-mt/ac/VIII/exercises/s3/03.md:23` the operator '≥' where its TeX belongs inside the mathematics: \dim_p(A) ≥ \operatorname{ht}(p) + \dim(A/p) − 1
-- `content/en-mt/ac/VIII/exercises/s3/03.md:24` the operator '∈' where its TeX belongs inside the mathematics: f ∈ m_R − q
-- `content/en-mt/ac/VIII/exercises/s3/03.md:24` the operator '−' where its TeX belongs inside the mathematics: \operatorname{ht}(q) + \dim(R/q) − 1 = 1
-- `content/en-mt/ac/VIII/exercises/s4/01.md:24` the operator '∈' where its TeX belongs inside the mathematics: \sum_{\gamma∈\Gamma} m_\gamma T^\gamma
-- `content/en-mt/ac/VIII/exercises/s4/01.md:25` the operator '∈' where its TeX belongs inside the mathematics: \prod_{i∈\Gamma} (1 - T^{\gamma_i}) \sum_{\gamma∈\…
-- `content/en-mt/alg/I/exercises/s7/06.md:24` the operator '−' where its TeX belongs inside the mathematics: Y = N − (N.N)
-- `content/en-mt/alg/II/exercises/s2/21.md:23` the operator '∈' where its TeX belongs inside the mathematics: \bigoplus_{j ∈ J} I_j
-- `content/en-mt/alg/II/exercises/s2/21.md:23` the operator '∈' where its TeX belongs inside the mathematics: \bigoplus_{j ∈ J} E_j
-- `content/en-mt/alg/IX/01_s1_formes_sesquilineaires.md:392` the operator '∈' where its TeX belongs inside the mathematics: \Phi′(y, x) = \Phi(x, y)^{J′} \quad (x ∈ E, y ∈ F)
-- `content/en-mt/alg/X/06_s6_utilisation_de_resolutions_non.md:418` the operator '⊗' where its TeX belongs inside the mathematics: \psi(S, R'') = H(\beta ⊗ 1) ◦ H(1 ⊗ a'')^{-1} ◦ \p…
-- `content/en-mt/alg/X/06_s6_utilisation_de_resolutions_non.md:422` the operator '⊗' where its TeX belongs inside the mathematics: \psi(S, R') = H(\beta ⊗ 1) ◦ H(1 ⊗ a')^{-1} ◦ \psi…
-
-and 582 more, which `bourbaki audit -only M03` prints in full.
+- `content/en/alg/II/exercises/s10/15.md:30` a line with nothing on it but "Q", which is a display that came apart
+- `content/en/top/IV/historical_note.md:118` the accent 'ʳ' with no letter under it, which is a lost \widehat: [10] A. Cauchy, Cours d’Analyse de l’École Royale …
+- `content/fr/lie/index_of_notation_ix.md:37` the accent '˜' with no letter under it, which is a lost \widehat: ˜p, ˜V, ˜V_\lambda(G) : p. 27.
+- `content/fr/lie/index_of_notation_ix.md:39` the accent '˜' with no letter under it, which is a lost \widehat: ˜L(ρ) : p. 28.
+- `content/vi/alg/II/exercises/s10/12.md:80` a line with nothing on it but "Q", which is a display that came apart
 
 ## M06 displays per page within three sigma of the book mean (6)
 
@@ -486,7 +464,7 @@ Hard, translation.
 
 and 26 more, which `bourbaki audit -only L04` prints in full.
 
-## L05 source_content_sha256 is the English hash as it stands (341)
+## L05 source_content_sha256 is the English hash as it stands (339)
 
 Hard, translation.
 
@@ -516,7 +494,7 @@ Hard, translation.
 - `content/en-mt/ac/X/07_s7_algebres_lisses.md:1` was translated from d68b9c7325c8 and content/fr/ac/X/07_s7_algebres_lisses.md is now 88cf6f006be0, so it is stale
 - `content/en-mt/ac/X/08_s8_dualite_des_modules_de_longueur_finie.md:1` was translated from fbc50d377bb5 and content/fr/ac/X/08_s8_dualite_des_modules_de_longueur_finie.md is now 7d49f185df1f, so it is stale
 
-and 316 more, which `bourbaki audit -only L05` prints in full.
+and 314 more, which `bourbaki audit -only L05` prints in full.
 
 ## L06 the glossary is followed (2016)
 

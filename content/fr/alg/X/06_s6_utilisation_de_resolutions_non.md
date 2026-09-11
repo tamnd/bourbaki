@@ -45,7 +45,7 @@ subsections:
       pdf_page: 117
 statements: 30
 exercises: 18
-content_sha256: ddafc03e2993720640987b9fbb8789eef50bf57ffc1d5f1a847e9fe1f2fe5425
+content_sha256: f2824ea7a326afeeb795cba28326778ff310ae6be0985b203c746f3eead38fee
 ---
 
 ## § 6. UTILISATION DE RÉSOLUTIONS NON CANONIQUES
@@ -407,10 +407,10 @@ $$
 D’après X, p. 67, prop. 4, H(1 ⊗ a'') et H(1 ⊗ a') sont bijectifs ; d’autre part, par définition des homomorphismes ψ, on a H(β ⊗ 1) ◦ ψ(L(P), R'') = ψ(S, R'') et H(1 ⊗ a'') ◦ ψ(L(P), R'') = ψ(L(P), M'') = ψ_p(M''), donc
 
 $$
-\psi(S, R'') = H(\beta ⊗ 1) ◦ H(1 ⊗ a'')^{-1} ◦ \psi_p(M'');
+\psi(S, R'') = H(\beta \otimes 1) ◦ H(1 \otimes a'')^{-1} ◦ \psi_p(M'');
 $$
 
-de même, $\psi(S, R') = H(\beta ⊗ 1) ◦ H(1 ⊗ a')^{-1} ◦ \psi_p(M')$, et l’assertion cherchée $\partial((3)) ◦ \psi(S, R'') = \psi(S, R') ◦ \partial(P, (2))$ résulte de la commutativité du diagramme précédent.
+de même, $\psi(S, R') = H(\beta \otimes 1) ◦ H(1 \otimes a')^{-1} ◦ \psi_p(M')$, et l’assertion cherchée $\partial((3)) ◦ \psi(S, R'') = \psi(S, R') ◦ \partial(P, (2))$ résulte de la commutativité du diagramme précédent.
 
 #### Remarque 1 {#alg-x-s6-n3-rem-1 .statement}
 

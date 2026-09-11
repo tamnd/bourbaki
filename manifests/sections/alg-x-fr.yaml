@@ -102,7 +102,7 @@ chapters:
           statements: 30
           exercises: 18
           extraction: ocr
-          content_sha256: ddafc03e2993720640987b9fbb8789eef50bf57ffc1d5f1a847e9fe1f2fe5425
+          content_sha256: f2824ea7a326afeeb795cba28326778ff310ae6be0985b203c746f3eead38fee
         - kind: section
           section: 7
           title: Produit de composition

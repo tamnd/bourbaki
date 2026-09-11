@@ -36,7 +36,7 @@ chapters:
           statements: 31
           exercises: 12
           extraction: ocr
-          content_sha256: f2356272f503afb616694c1e4b9abcdc2aefc35b15b273b4f4664c7e826b7320
+          content_sha256: a7cd160ef8c639b226f1d1329ad0579a2ada091805967411464440abbfdb4332
         - kind: section
           section: 2
           title: Systèmes de Tits
@@ -120,7 +120,7 @@ chapters:
           statements: 23
           exercises: 20
           extraction: ocr
-          content_sha256: 7bafc016bec66d407589de457cdad6b9798b6eeda20714e6e902e3537a4d649d
+          content_sha256: d1f1639e427c16b81ca3f0f563a5847642a07655d11b255f9daaf9d8e98ea14b
         - kind: section
           section: 5
           title: Invariants dans l’algèbre symétrique

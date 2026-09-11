@@ -37,7 +37,7 @@ chapters:
           statements: 52
           exercises: 13
           extraction: ocr
-          content_sha256: 06bf74708ff07a3a6d8309eab221f4e8683bf6bddb1c89272c4804229b096ed8
+          content_sha256: 7753ae8f210f51fd0390ce7bc68ad763babd35215debd49e41984963444cd686
         - kind: section
           section: 3
           title: Applications et exemples
@@ -60,7 +60,7 @@ chapters:
           statements: 2
           exercises: 0
           extraction: ocr
-          content_sha256: afd4bf67075bd4e0ab24763f478ef82e1e4ae7c5e65e63a017f2b628d75a206d
+          content_sha256: ea107f7b22afb1433f09fb556f937378ab564ee7f04da6ddc9786cb31bfbbdcf
         - kind: appendix
           section: 2
           path: content/fr/int/VII/A2_a2_.md

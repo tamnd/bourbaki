@@ -40,7 +40,7 @@ subsections:
       pdf_page: 148
 statements: 34
 exercises: 25
-content_sha256: 5f2571b39a82ab1bf0929c7189fbdf64cf3a1137992ac6137585d889673f5cf3
+content_sha256: 15ff3279aac729fe57e18ef4d2fdd5b8c0b65af0351f93e9bda8118a9333384b
 ---
 
 ## § 5. Modules projectifs de type fini Idéaux fractionnaires inversibles
@@ -75,9 +75,9 @@ Il existe par hypothèse p éléments x_i ∈ N (1 ≤ i ≤ p) tels que les x_i
 
 #### Proposition 3 {#ac-ii-s5-prop-3 .statement}
 
-Soit (f_i)_{i ∈ I} une famille finie d’éléments d’un anneau A, engendrant l’idéal A de A. L’anneau B = $\prod_{i ∈ I} A_{f_i}$ est alors un A-module fidèlement plat.
+Soit (f_i)_{i ∈ I} une famille finie d’éléments d’un anneau A, engendrant l’idéal A de A. L’anneau B = $\prod_{i \in I} A_{f_i}$ est alors un A-module fidèlement plat.
 
-En vertu du § 2, n° 4, th. 1, chacun des A_{f_i} est un A-module plat, donc il en est de même de B (chap. I, § 2, n° 3, prop. 2). D’autre part, si p est un idéal premier de A, il existe un indice i tel que f_i ∉ p et p_{f_i} = pA_{f_i} est donc un idéal premier de A_{f_i}. On a alors pB ⊂ pA_{f_i} × $\prod_{j ≠ i} A_{f_j}$ ≠ B puisque pA_{f_i} ≠ A_{f_i} ; ceci suffit à entraîner que B est un A-module fidèlement plat (chap. I, § 3, n° 1, prop. 1).
+En vertu du § 2, n° 4, th. 1, chacun des A_{f_i} est un A-module plat, donc il en est de même de B (chap. I, § 2, n° 3, prop. 2). D’autre part, si p est un idéal premier de A, il existe un indice i tel que f_i ∉ p et p_{f_i} = pA_{f_i} est donc un idéal premier de A_{f_i}. On a alors pB ⊂ pA_{f_i} × $\prod_{j \neq i} A_{f_j}$ ≠ B puisque pA_{f_i} ≠ A_{f_i} ; ceci suffit à entraîner que B est un A-module fidèlement plat (chap. I, § 3, n° 1, prop. 1).
 
 #### Corollaire {#ac-ii-s5-n1-cor-2 .statement}
 

@@ -86,7 +86,7 @@ chapters:
           statements: 66
           exercises: 26
           extraction: ocr
-          content_sha256: 4cb32ad777803c8ab9ec5b9c51edb5b37b89989bab9b5586c4a290828416f6ca
+          content_sha256: ec4159c2bb341a84abc4c75fba11619504c8de513bda647bfb9391fa16433c22
         - kind: section
           section: 5
           title: Groupes opérant sur un ensemble
@@ -125,7 +125,7 @@ chapters:
           statements: 18
           exercises: 40
           extraction: ocr
-          content_sha256: 02d8a8255908d9ecd52748f6156f096b719697e80937adbf61c44e22f6eecd43
+          content_sha256: a23b5cbac92dfa89924f09c506cd2b13a13ccc739397fe336baf702f6718b12a
         - kind: section
           section: 8
           title: Anneaux

@@ -40,7 +40,7 @@ subsections:
       pdf_page: 173
 statements: 29
 exercises: 18
-content_sha256: 87e93f418b03b2949af6ce27412d223b7cb38ec6a4901beae65f0fbdcfbce23d
+content_sha256: 2ecc494397a0f4a79b66829f4374958652b1a231194162cffe7e6e4774146319
 ---
 
 ## § 1. THÉORÈMES D’EXISTENCE
@@ -74,7 +74,7 @@ Dans le cas particulier d’une équation différentielle de la forme x' = f(t),
 Lorsque E est un produit d’espaces normés complets E_i (1 ≤ i ≤ n), on peut écrire x = (x_i)_{1 ≤ i ≤ n} et f = (f_i)_{1 ≤ i ≤ n} où x_i est une application de I dans E_i, et f_i une application de I × H dans E_i; l’équation (1) est alors équivalente au système d’équations différentielles
 
 $$
-\text{x}'_i = f_i(t, x_1, x_2, \ldots, x_n) \quad (1 ≤ i ≤ n).
+\text{x}'_i = f_i(t, x_1, x_2, \ldots, x_n) \quad (1 \leq i \leq n).
 $$
 
 Le cas le plus important est celui où tous les E_i sont égaux à \mathbf{R} ou à \mathbf{C}; on dit alors que (2) est un système d’équations différentielles scalaires.
@@ -89,7 +89,7 @@ où x est une fonction vectorielle n fois dérivable dans I: en posant en effet 
 
 $$
 \begin{cases}
-\text{x}'_i = \text{x}_{i+1} & (1 ≤ i ≤ n-1) \\
+\text{x}'_i = \text{x}_{i+1} & (1 \leq i \leq n-1) \\
 \text{x}'_n = f(t, \text{x}_1, \text{x}_2, \ldots, \text{x}_n).
 \end{cases}
 $$

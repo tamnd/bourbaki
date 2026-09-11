@@ -52,7 +52,7 @@ subsections:
       pdf_page: 272
 statements: 81
 exercises: 26
-content_sha256: 14d2f6c9c2719ca88025b728f29ecce0c0acf3c1e2a25aea2b22da49e52dcddb
+content_sha256: 74ea20d6d299d276a4957126b1bc502e96d53c52468d50bf3e255e89b2444cc6
 ---
 
 ## § 4. Modules sur les anneaux noethériens intégralement clos
@@ -1055,7 +1055,7 @@ En effet, comme M/T est sans torsion et de type fini, il est projectif en vertu 
 
 #### Proposition 23 {#ac-vii-s4-prop-23 .statement}
 
-Soient A un anneau de Dedekind, T un A-module de torsion de type fini. Il existe deux familles finies (n_i)_{i∈I} et (p_i)_{i∈I}, où les n_i sont des entiers ≥ 1 et les p_i des éléments de P, telles que T soit isomorphe à la somme directe $\bigoplus_{i∈I} (A/p_i^{n_i})$. De plus, les familles (n_i)_{i∈I} et (p_i)_{i∈I} sont uniques à une bijection près de l’ensemble d’indices.
+Soient A un anneau de Dedekind, T un A-module de torsion de type fini. Il existe deux familles finies (n_i)_{i∈I} et (p_i)_{i∈I}, où les n_i sont des entiers ≥ 1 et les p_i des éléments de P, telles que T soit isomorphe à la somme directe $\bigoplus_{i\in I} (A/p_i^{n_i})$. De plus, les familles (n_i)_{i∈I} et (p_i)_{i∈I} sont uniques à une bijection près de l’ensemble d’indices.
 Cela résulte du n° 4, th. 5, compte tenu du fait qu’un pseudo-isomorphisme est ici un isomorphisme.
 
 #### Proposition 24 {#ac-vii-s4-prop-24 .statement}

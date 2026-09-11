@@ -40,7 +40,7 @@ subsections:
       pdf_page: 180
 statements: 41
 exercises: 13
-content_sha256: beae0c979d1a4a6bab0724896082095b5128a61833413b122cd2e2acaed067c1
+content_sha256: 3127c5aaafcc0f54184453e7f90619971a5468572a03b4553ec6ff184937f332
 ---
 
 ## § 4. Passage des algèbres de Lie aux groupes de Lie
@@ -254,20 +254,20 @@ En particulier, θ est étale en (0, 0, ..., 0). Sa restriction à un voisinage 
 Soient G un groupuscule de Lie, φ une application exponentielle injective de G. Quels que soient x, y dans L(G), on a
 
 (1)
-$$x + y = \lim_{\lambda ∈ K^*, \lambda → 0} \lambda^{-1}\varphi^{-1}(\varphi(\lambda x)\varphi(\lambda y))$$
+$$x + y = \lim_{\lambda \in K^*, \lambda \to 0} \lambda^{-1}\varphi^{-1}(\varphi(\lambda x)\varphi(\lambda y))$$
 
 (2)
-$$[x, y] = \lim_{\lambda ∈ K^*, \lambda → 0} \lambda^{-2}\varphi^{-1}(\varphi(\lambda x)\varphi(\lambda y)\varphi(-\lambda x)\varphi(-\lambda y))$$
+$$[x, y] = \lim_{\lambda \in K^*, \lambda \to 0} \lambda^{-2}\varphi^{-1}(\varphi(\lambda x)\varphi(\lambda y)\varphi(-\lambda x)\varphi(-\lambda y))$$
 
 (on notera que $\varphi^{-1}(\varphi(\lambda x)\varphi(\lambda y))$ et $\varphi^{-1}(\varphi(\lambda x)\varphi(\lambda y)\varphi(-\lambda x)\varphi(-\lambda y))$ sont définis pour $|\lambda|$ assez petit).
 
-Munissions L = L(G) d’une norme définissant la topologie de L et telle que $\| [x, y] \| ≤ \|x\| \|y\|$ quels que soient x, y dans L. Compte tenu des th. 2 et 4, on peut supposer que G est le groupuscule de Lie défini par L et que $\varphi = \mathrm{Id}_G$. Notons $(x, y) \mapsto x.y$ le produit dans le groupe G. Les formules à démontrer s’écrivent alors
+Munissions L = L(G) d’une norme définissant la topologie de L et telle que $\| [x, y] \| \leq \|x\| \|y\|$ quels que soient x, y dans L. Compte tenu des th. 2 et 4, on peut supposer que G est le groupuscule de Lie défini par L et que $\varphi = \mathrm{Id}_G$. Notons $(x, y) \mapsto x.y$ le produit dans le groupe G. Les formules à démontrer s’écrivent alors
 
 (3)
-$$x + y = \lim_{\lambda ∈ K^*, \lambda → 0} \lambda^{-1}((\lambda x).(\lambda y))$$
+$$x + y = \lim_{\lambda \in K^*, \lambda \to 0} \lambda^{-1}((\lambda x).(\lambda y))$$
 
 (4)
-$$[x, y] = \lim_{\lambda ∈ K^*, \lambda → 0} \lambda^{-2}((\lambda x).(\lambda y).(-\lambda x).(-\lambda y)).$$
+$$[x, y] = \lim_{\lambda \in K^*, \lambda \to 0} \lambda^{-2}((\lambda x).(\lambda y).(-\lambda x).(-\lambda y)).$$
 
 Il existe un voisinage ouvert V de 0 dans K tel que la fonction
 $$
@@ -416,12 +416,12 @@ Si G = R et H = Q, on a 𝔤 = {0}, donc la structure induite sur H est la struc
 #### Lemme 5 {#lie-iii-s4-lem-5 .statement}
 
 Soient X une variété de classe C^r, F et F' des fibrés vectoriels de classe C^r et de base X, φ un morphisme de F dans F'. Pour tout x ∈ X, soit S_x l’ensemble des
-$$(a, \varphi(a)) ∈ F_x ⊕ F'_x$$
-pour $a ∈ F_x$. Alors la réunion S des S_x est un sous-fibré vectoriel de F ⊕ F'.
+$$(a, \varphi(a)) \in F_x \oplus F'_x$$
+pour $a \in F_x$. Alors la réunion S des S_x est un sous-fibré vectoriel de F ⊕ F'.
 
-Soient θ et θ' les applications de F ⊕ F' dans lui-même définies de la manière suivante : si $(u, v) ∈ F_x ⊕ F'_x$, on a
+Soient θ et θ' les applications de F ⊕ F' dans lui-même définies de la manière suivante : si $(u, v) \in F_x \oplus F'_x$, on a
 $$\theta(u, v) = (u, v + \varphi(u)), \quad \theta'(u, v) = (u, v - \varphi(u)).$$
-D’après VAR, R, 7.7.1, θ et θ' sont des morphismes du fibré vectoriel F ⊕ F' dans lui-même. Il est clair que $\theta ∘ \theta' = \theta' ∘ \theta = \mathrm{Id}_{F ⊕ F'}$. Donc θ et θ' sont des automorphismes de F ⊕ F'. Par suite, S = θ(F ⊕ {0}) est un sous-fibré vectoriel de F ⊕ F'.
+D’après VAR, R, 7.7.1, θ et θ' sont des morphismes du fibré vectoriel F ⊕ F' dans lui-même. Il est clair que $\theta \circ \theta' = \theta' \circ \theta = \mathrm{Id}_{F \oplus F'}$. Donc θ et θ' sont des automorphismes de F ⊕ F'. Par suite, S = θ(F ⊕ {0}) est un sous-fibré vectoriel de F ⊕ F'.
 
 #### Lemme 6 {#lie-iii-s4-lem-6 .statement}
 

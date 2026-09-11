@@ -29,7 +29,7 @@ subsections:
       pdf_page: 281
 statements: 23
 exercises: 16
-content_sha256: 98982899e811871f72b61ccec3cbe5be8fc42cab66b8a3d6915fd55e2454c3db
+content_sha256: 109a66b6721878b6fd9023991b492f899a3e3a39bcc94c4aaa2c3af4ce0616d9
 ---
 
 ## § 2. ORTHOGONAL FAMILIES IN A HILBERTIAN SPACE
@@ -155,7 +155,7 @@ To show that the condition is sufficient, it is enough to verify that, if it is 
 
 #### Definition 3 {#evt-v-s2-def-3 .statement}
 
-In a prehilbertian space, a family (e_i)_{i∈I} of vectors is said to be orthogonal if e_i and e_k are orthogonals for all i ≠ k, and is said to be orthonormal, if in addition $\|e_i\| = 1$ for all $i ∈ I$.
+In a prehilbertian space, a family (e_i)_{i∈I} of vectors is said to be orthogonal if e_i and e_k are orthogonals for all i ≠ k, and is said to be orthonormal, if in addition $\|e_i\| = 1$ for all $i \in I$.
 
 A subset S of E such that the family defined by the identity mapping from S onto itself is orthonormal is said to be an orthonormal set. If (e_i)_{i∈I} is an orthonormal family, the mapping $i \mapsto e_i$ is injective; we can then talk indifferently of an orthonormal family or an orthonormal set.
 
@@ -174,14 +174,14 @@ Let E be a Hausdorff prehilbertian space, (e_i)_{i∈I} an orthonormal family in
 1) For every x ∈ E, we have
 
 $$
-\sum_{i∈I} |⟨e_i|x⟩|^2 \leq \|x\|^2
+\sum_{i\in I} |⟨e_i|x⟩|^2 \leq \|x\|^2
 $$
 
-(Bessel’s inequality); here the set of all $i ∈ I$ such that $⟨e_i|x⟩ \neq 0$ is countable. Moreover, the following conditions are equivalent : a) $x ∈ V$; b) $\|x\|^2 = \sum_{i∈I} |⟨e_i|x⟩|^2$; c) the family $⟨e_i|x⟩.e_i$ is summable in E, and $x = \sum_{i∈I} ⟨e_i|x⟩.e_i$.
+(Bessel’s inequality); here the set of all $i \in I$ such that $⟨e_i|x⟩ \neq 0$ is countable. Moreover, the following conditions are equivalent : a) $x \in V$; b) $\|x\|^2 = \sum_{i\in I} |⟨e_i|x⟩|^2$; c) the family $⟨e_i|x⟩.e_i$ is summable in E, and $x = \sum_{i\in I} ⟨e_i|x⟩.e_i$.
 
-2) If V is complete, then the family of all $⟨e_i|x⟩.e_i$ is summable in E for all $x ∈ E$, and $\sum_{i∈I} ⟨e_i|x⟩.e_i = p_V(x), \sum_{i∈I} |⟨e_i|x⟩|^2 = \|p_V(x)\|^2$.
+2) If V is complete, then the family of all $⟨e_i|x⟩.e_i$ is summable in E for all $x \in E$, and $\sum_{i\in I} ⟨e_i|x⟩.e_i = p_V(x), \sum_{i\in I} |⟨e_i|x⟩|^2 = \|p_V(x)\|^2$.
 
-3) Suppose V is complete. For every family $(\lambda_i)_{i∈I}$ of scalars such that $\sum_{i∈I} |\lambda_i|^2 < +∞$, there exists a unique point $x ∈ V$ such that $⟨e_i|x⟩ = \lambda_i$ for all $i ∈ I$. If $(\mu_i)_{i∈I}$ is a second family of scalars such that $\sum_{i∈I} |\mu_i|^2 < +∞$, and if $y ∈ V$ is such that $⟨e_i|y⟩ = \mu_i$ for all $i ∈ I$, then $⟨x|y⟩ = \sum_{i∈I} \overline{\lambda_i} \mu_i$.
+3) Suppose V is complete. For every family $(\lambda_i)_{i\in I}$ of scalars such that $\sum_{i\in I} |\lambda_i|^2 < +\infty$, there exists a unique point $x \in V$ such that $⟨e_i|x⟩ = \lambda_i$ for all $i \in I$. If $(\mu_i)_{i\in I}$ is a second family of scalars such that $\sum_{i\in I} |\mu_i|^2 < +\infty$, and if $y \in V$ is such that $⟨e_i|y⟩ = \mu_i$ for all $i \in I$, then $⟨x|y⟩ = \sum_{i\in I} \overline{\lambda_i} \mu_i$.
 
 #### Proposition 5 {#evt-v-s2-prop-5 .statement}
 

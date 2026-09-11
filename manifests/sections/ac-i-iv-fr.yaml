@@ -145,7 +145,7 @@ chapters:
           statements: 34
           exercises: 25
           extraction: ocr
-          content_sha256: 5f2571b39a82ab1bf0929c7189fbdf64cf3a1137992ac6137585d889673f5cf3
+          content_sha256: 15ff3279aac729fe57e18ef4d2fdd5b8c0b65af0351f93e9bda8118a9333384b
     - chapter: III
       title: Graduations, filtrations et topologies
       sections:
@@ -182,7 +182,7 @@ chapters:
           statements: 68
           exercises: 31
           extraction: ocr
-          content_sha256: df83a8a53628c3cc4dea3eea248da6848d7954316dd21391669c6e1281c0723d
+          content_sha256: ab55b03868429e125e5a64f467f6e370913bd64494227910f87b602c7f740355
         - kind: section
           section: 3
           title: Topologies m-adiques sur les anneaux nœthériens

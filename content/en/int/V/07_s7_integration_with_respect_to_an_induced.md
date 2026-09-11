@@ -21,7 +21,7 @@ subsections:
       pdf_page: 332
 statements: 20
 exercises: 11
-content_sha256: d6674ea139595be6c132fa589e24ce77d547ad2398a9b423a66a73d7091c401b
+content_sha256: f923d9ab56bf1c3407def12208ac24c9a78c015ddd76e02ea195f3e1539c70cc
 ---
 
 ## § 7. INTEGRATION WITH RESPECT TO AN INDUCED MEASURE
@@ -174,25 +174,25 @@ It suffices to observe that if g is an element of $\mathscr{H}(Y; \mathbf{C})$, 
 
 #### Proposition 5 {#int-v-s7-prop-5 .statement}
 
-— Let $(\lambda_\alpha)_{\alpha ∈ A}$ be an increasing directed family of positive measures on T, admitting a supremum λ, and let X be a locally compact subspace of T. The family of induced measures $\lambda_\alpha|X$ is then bounded above in $\mathscr{M}(X)$, and
+— Let $(\lambda_\alpha)_{\alpha \in A}$ be an increasing directed family of positive measures on T, admitting a supremum λ, and let X be a locally compact subspace of T. The family of induced measures $\lambda_\alpha|X$ is then bounded above in $\mathscr{M}(X)$, and
 
 $$
-\sup_{\alpha ∈ A} (\lambda_\alpha|X) = \lambda|X.
+\sup_{\alpha \in A} (\lambda_\alpha|X) = \lambda|X.
 $$
 
 In view of the identifications in the Scholium, this proposition is a special case of Prop. 5 of §5, No. 4.
 
 #### Corollary {#int-v-s7-n2-cor-1 .statement}
 
-— Let $(\mu_i)_{i ∈ I}$ be a summable family of positive measures on T, with sum μ. The family of induced measures $\mu_i|X$ is then summable, and
+— Let $(\mu_i)_{i \in I}$ be a summable family of positive measures on T, with sum μ. The family of induced measures $\mu_i|X$ is then summable, and
 
 $$
-\sum_{i ∈ I} (\mu_i|X) = \mu|X.
+\sum_{i \in I} (\mu_i|X) = \mu|X.
 $$
 
 #### Proposition 6 {#int-v-s7-prop-6 .statement}
 
-— Let $\Lambda : t ↦ \lambda_t$ be a μ-adequate mapping of T into $\mathscr{M}_+(X)$, where X is a locally compact space that is countable at infinity, and let Y be a locally compact subspace of X. Set $\int \lambda_t d\mu(t) = \nu$. The mapping $t ↦ \lambda_t|Y$ of T into $\mathscr{M}_+(Y)$ is then μ-adequate, and
+— Let $\Lambda : t \mapsto \lambda_t$ be a μ-adequate mapping of T into $\mathscr{M}_+(X)$, where X is a locally compact space that is countable at infinity, and let Y be a locally compact subspace of X. Set $\int \lambda_t d\mu(t) = \nu$. The mapping $t \mapsto \lambda_t|Y$ of T into $\mathscr{M}_+(Y)$ is then μ-adequate, and
 
 $$
 \int (\lambda_t|Y) d\mu(t) = \nu|Y.

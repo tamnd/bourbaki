@@ -53,7 +53,7 @@ subsections:
       pdf_page: 340
 statements: 71
 exercises: 30
-content_sha256: 60ae69926749a32341c1c992c625b3998659271b7a1f516a4d2b33c14a6ecf8e
+content_sha256: 3f671cb987a5a8a44499c86ec937ba8c95cfea97c5058ddfa272e7cfee3e79fa
 ---
 
 ## § 6. REAL AND COMPLEX LIE GROUPS
@@ -851,13 +851,13 @@ $$
 $$
 Let P be the intersection of the $\mathrm{Ker}\, \phi^*$ for variable $\phi$. This is a normal Lie subgroup of S' (no. 2, Corollary 3 to Proposition 1). Let $\tilde{G} = S'/P$ and λ: S' → Ġ be the canonical morphism. Then σ(F) ⊂ P and hence there exists one and only one R-analytic morphism γ of G into Ġ such that γ ∘ π = λ ∘ σ. If ψ: Ġ → H denotes the morphism derived from φ* when passing to the quotient, then
 
-$$(\varphi ∘ \gamma) ∘ \pi = \psi ∘ (\lambda ∘ \sigma) = \varphi^* ∘ \sigma = \varphi ∘ \pi$$
+$$(\varphi \circ \gamma) \circ \pi = \psi \circ (\lambda \circ \sigma) = \varphi^* \circ \sigma = \varphi \circ \pi$$
 
 whence ψ ∘ γ = φ. Clearly L(ψ), and hence ψ, are determined uniquely by the equality ψ ∘ γ = φ. Thus we have proved that the ordered pair (\tilde{G}, γ) has properties (i) and (iii).
 
 (b) We pass now to the general case. Let F be the identity component of G, M = G/F and i: F → G and p: G → M be the canonical morphisms. We apply part (a) of the proof to F. We obtain an ordered pair (\tilde{F}, δ). For all g ∈ G, Int g|F = ω'(g) is an automorphism of F. By the universal property of \tilde{F}, there exists one and only one automorphism ω(g) of the complex Lie group \tilde{F} such that δ ∘ ω'(g) = ω(g) ∘ δ. Clearly ω is a morphism of G into Aut(\tilde{H}). If g ∈ G and f ∈ F, then
 
-$$\delta(gf g^{-1}) = (\delta ∘ \omega'(g))(f) = (\omega(g) ∘ \delta)(f) = \omega(g)(\delta(f)).$$
+$$\delta(gf g^{-1}) = (\delta \circ \omega'(g))(f) = (\omega(g) \circ \delta)(f) = \omega(g)(\delta(f)).$$
 
 If f ∈ F, then δ ∘ (Int_F f) = (Int_\tilde{F} δ(f)) ∘ δ and Int_\tilde{F} δ(f) is an automorphism of the complex Lie group \tilde{F}; hence Int_\tilde{F} δ(f) = ω(f).
 

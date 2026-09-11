@@ -183,7 +183,7 @@ chapters:
           statements: 24
           exercises: 5
           extraction: ocr
-          content_sha256: 39c192d0f39b53a7e88e1a9524a626045bdbd44569f5bb3212d4f8a2e1f80c7d
+          content_sha256: dd3f3d22c6680efe856b62e3762da34defa79463e1e03a5a661d91fb6ded86c9
         - kind: section
           section: 6
           title: Relations d’équivalence
@@ -299,7 +299,7 @@ chapters:
           statements: 27
           exercises: 9
           extraction: ocr
-          content_sha256: f91daabbb3cdf2dd44a4161cba4a2d3e9b351777891e00c0dca73bc9b04199b8
+          content_sha256: 6ca2a731bab0f11ba88603566c6cf571b03614fed109f0a040ab3637910aeee1
         - kind: historical
           title: Historical Note
           path: content/fr/ens/III/historical_note.md

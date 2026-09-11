@@ -37,7 +37,7 @@ chapters:
           statements: 46
           exercises: 12
           extraction: ocr
-          content_sha256: bcff42bf0bf2c207bd9dd9a93304b749aaa48a1bfa89f04de4099512a1230dcc
+          content_sha256: 30000ba43e3bca2ac6c7564a342102b8753fa329d503fb09f2b4b104d986c240
         - kind: section
           section: 3
           title: Algèbres de type fini sur un corps
@@ -243,7 +243,7 @@ chapters:
           statements: 81
           exercises: 26
           extraction: ocr
-          content_sha256: 14d2f6c9c2719ca88025b728f29ecce0c0acf3c1e2a25aea2b22da49e52dcddb
+          content_sha256: 74ea20d6d299d276a4957126b1bc502e96d53c52468d50bf3e255e89b2444cc6
         - kind: historical
           title: Historical Note
           path: content/fr/ac/VII/historical_note.md

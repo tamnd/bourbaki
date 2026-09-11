@@ -57,7 +57,7 @@ subsections:
       pdf_page: 63
 statements: 42
 exercises: 16
-content_sha256: 5f7349b7058da4a43f5802632e88e9a95c7fc9b2a8a31a550a3378f025befef8
+content_sha256: b8d6c38de70d3c3d8e06fcdc0dbab102e830e9f4bebdee7da5fb10710b3da8d5
 ---
 
 ## § 5. TENSEURS SYMÉTRIQUES ET APPLICATIONS POLYNOMIALES
@@ -757,7 +757,7 @@ Alors h est symétrique et f(x) = h(x, x, ..., x) pour tout x ∈ M.
 b) Soit h une application q-linéaire symétrique de M^q dans N telle que f(x) = h(x, x, ..., x). Soit l l’application linéaire de T^q(M) dans N telle que h(x_1, ..., x_q) = l(x_1 ⊗ ... ⊗ x_q) quels que soient x_1, ..., x_q ∈ M. On a
 
 $$
-(-1)^q q ! h(x_1, ..., x_q) = (-1)^q \sum_{\sigma \in S_q} h(x_{\sigma(1)}, ..., x_{\sigma(q)}) = (-1)^q l(s(x_1 ⊗ ... ⊗ x_q)) =
+(-1)^q q ! h(x_1, ..., x_q) = (-1)^q \sum_{\sigma \in S_q} h(x_{\sigma(1)}, ..., x_{\sigma(q)}) = (-1)^q l(s(x_1 \otimes ... \otimes x_q)) =
 = \sum_{H \subset \{1, ..., q\}} (-1)^{\mathrm{Card}\, H} l(\gamma_q(\sum_{i \in H} x_i))
 $$
 
@@ -791,11 +791,11 @@ Soient M un A-module libre, N un A-module, q un entier positif, h ∈ Pol^q(M, N
 
 #### Définition 4 {#alg-iv-s5-def-4 .statement}
 
-Soient M et N deux A-modules. On suppose que M est libre. Soit Ap(M, N) le A-module des applications de M dans N. Le sous-module $\sum_{q≥0} \mathrm{Pol}_A^q(M, N)$ de Ap(M, N) se note Pol_A(M, N), ou simplement Pol(M, N); ses éléments s’appellent les applications polynomiales de M dans N.
+Soient M et N deux A-modules. On suppose que M est libre. Soit Ap(M, N) le A-module des applications de M dans N. Le sous-module $\sum_{q\geq0} \mathrm{Pol}_A^q(M, N)$ de Ap(M, N) se note Pol_A(M, N), ou simplement Pol(M, N); ses éléments s’appellent les applications polynomiales de M dans N.
 
 Soit (e_i)_{i∈I} une base de M, et supposons I fini; d’après la prop. 13 (IV, p. 51), une application f de M dans N est polynomiale si et seulement s’il existe un polynôme F à coefficients dans N en les indéterminées X_i tel que l’on ait
 
-$$ f(\sum_{i∈I} x_i e_i) = F(x) $$
+$$ f(\sum_{i\in I} x_i e_i) = F(x) $$
 
 pour toute famille x = (x_i)_{i∈I} dans A^{(I)}. Cette propriété est indépendante de la base choisie de M et justifie la terminologie « application polynomiale ».
 

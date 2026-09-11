@@ -60,7 +60,7 @@ subsections:
       pdf_page: 204
 statements: 81
 exercises: 30
-content_sha256: 278f0eecc4d22d028e8a65725dfa2a39af4fbeb96577be0fe3d79e8704173e09
+content_sha256: 771cda5e376b27ffa895b3b706fb6f4dbc807861673f3f5e6a50834884adb707
 ---
 
 ## § 5. Fonctions et ensembles mesurables
@@ -692,7 +692,7 @@ Comme chaque A_n est réunion d’un ensemble négligeable et d’une suite d’
 
 Soit F un espace uniforme métrisable, et soit B ⊂ A une réunion dénombrable d’ensembles μ-intégrables. Alors, pour toute suite de Cauchy (f_n) dans $\mathscr{S}(A, \mu; F)$, il existe une suite (f_{n_k}) extraite de (f_n), telle que (f_{n_k}(x)) soit une suite de Cauchy dans F pour presque tout x ∈ B.
 
-Supposons d’abord B intégrable, et désignons par d une distance compatible avec la structure uniforme de F. Nous allons définir par récurrence une suite double (f_{mn}) de fonctions de $\mathscr{S}(A, \mu; F)$ telle que f_{0n} = f_n pour tout n, que (f_{mn})_{n ≥ 0} soit extraite de (f_{m-1,n})_{n ≥ 0} pour tout m > 0, et enfin que, pour m > 0, l’ensemble M_{mn} des x ∈ B pour lesquels d(f_{mn}(x), f_{m,n+1}(x)) > 1/2^{m+n+1} ait une mesure |μ|(M_{mn}) ≤ 1/2^{m+n+1}; la possibilité de cette définition résulte de ce que (f_n) est une suite de Cauchy dans $\mathscr{S}(A, \mu; F)$. Posons $M_m = \bigcup_{n ≥ 0} M_{mn}$; on a
+Supposons d’abord B intégrable, et désignons par d une distance compatible avec la structure uniforme de F. Nous allons définir par récurrence une suite double (f_{mn}) de fonctions de $\mathscr{S}(A, \mu; F)$ telle que f_{0n} = f_n pour tout n, que (f_{mn})_{n ≥ 0} soit extraite de (f_{m-1,n})_{n ≥ 0} pour tout m > 0, et enfin que, pour m > 0, l’ensemble M_{mn} des x ∈ B pour lesquels d(f_{mn}(x), f_{m,n+1}(x)) > 1/2^{m+n+1} ait une mesure |μ|(M_{mn}) ≤ 1/2^{m+n+1}; la possibilité de cette définition résulte de ce que (f_n) est une suite de Cauchy dans $\mathscr{S}(A, \mu; F)$. Posons $M_m = \bigcup_{n \geq 0} M_{mn}$; on a
 
 $$
 |\mu|(M_m) \leq \sum_{n=0}^{\infty} |\mu|(M_{mn}) \leq 1/2^m

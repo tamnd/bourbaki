@@ -100,7 +100,7 @@ chapters:
           statements: 52
           exercises: 43
           extraction: ocr
-          content_sha256: 8bdea8771ce47e1012d3338b9252bf140b8cf7970b7fe98135f98a73df8922ab
+          content_sha256: a954bace5a589728e9a2d51e6c84ded8d0218ccc650053695b9bfde6352ac156
         - kind: section
           section: 3
           title: Le théorème de Hahn-Banach (forme analytique)

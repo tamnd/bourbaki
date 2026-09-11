@@ -104,7 +104,7 @@ chapters:
           statements: 34
           exercises: 25
           extraction: ocr
-          content_sha256: 44dd0128f94a514d49d51dfb10d60b7c13ea946bb09421c4528fa914d3498493
+          content_sha256: feafddbbd3f14fcc3330dfb44683830fd40511839b2cb65ecb9bcabf3ec6b575
     - chapter: IX
       title: ANNEAUX LOCAUX NOETHÉRIENS COMPLETS
       sections:

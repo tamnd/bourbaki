@@ -48,7 +48,7 @@ subsections:
       pdf_page: 19
 statements: 31
 exercises: 12
-content_sha256: f2356272f503afb616694c1e4b9abcdc2aefc35b15b273b4f4664c7e826b7320
+content_sha256: a7cd160ef8c639b226f1d1329ad0579a2ada091805967411464440abbfdb4332
 ---
 
 ## § 1. Groupes de Coxeter
@@ -565,7 +565,7 @@ Soit (s_1, ..., s_q) une décomposition réduite de w considéré comme élémen
 
 Tout élément de X est d’ordre 2 et X engendre W_X. Soient x ∈ X et w ∈ W_X avec l_X(xw) ≤ l_X(w) = q. D’après le cor. 4 de la prop. 7, on a donc
 $$
-l_S(xw) ≤ l_S(w) = q.
+l_S(xw) \leq l_S(w) = q.
 $$
 Soient x_1, ..., x_q des éléments de X tels que w = x_1 ... x_q ; comme (W, S) satisfait à la condition d’échange (th. 1 du n° 6), il existe un entier j tel que 1 ≤ j ≤ q et xx_1 ... x_{j-1} = x_1 ... x_{j-1}x_j. Par suite, (W_X, X) satisfait à la condition d’échange, donc c’est un système de Coxeter (th. 1 du n° 6). D’où (i).
 Les assertions (ii) et (iii) résultent immédiatement du cor. 1 de la prop. 7.
@@ -575,8 +575,8 @@ Les assertions (ii) et (iii) résultent immédiatement du cor. 1 de la prop. 7.
 #### Définition 4 {#lie-iv-s1-def-4 .statement}
 
 Soit I un ensemble. On appelle matrice de Coxeter de type I toute matrice carrée symétrique M = (m_{ij})_{i,j ∈ I} dont les éléments sont des entiers ou +∞ satisfaisant aux relations:
-(25) $m_{ii} = 1$ pour tout $i ∈ I$;
-(26) $m_{ij} ≥ 2$ pour $i, j ∈ I$ avec $i ≠ j$.
+(25) $m_{ii} = 1$ pour tout $i \in I$;
+(26) $m_{ij} \geq 2$ pour $i, j \in I$ avec $i \neq j$.
 
 On appelle (par abus de langage) graphe de Coxeter de type I un couple formé d’un graphe Γ (*) ayant I comme ensemble de sommets et d’une application f de l’ensemble des arêtes de ce graphe dans l’ensemble formé de +∞ et des entiers ≥ 3. On dit que Γ est le graphe sous-jacent au graphe de Coxeter (Γ, f).
 

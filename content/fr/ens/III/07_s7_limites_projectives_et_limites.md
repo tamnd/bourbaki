@@ -42,7 +42,7 @@ subsections:
       pdf_page: 170
 statements: 27
 exercises: 9
-content_sha256: f91daabbb3cdf2dd44a4161cba4a2d3e9b351777891e00c0dca73bc9b04199b8
+content_sha256: 6ca2a731bab0f11ba88603566c6cf571b03614fed109f0a040ab3637910aeee1
 ---
 
 ## § 7. LIMITES PROJECTIVES ET LIMITES INDUCTIVES
@@ -375,34 +375,34 @@ I) Si les $E_\alpha$ sont des ensembles *finis*, on peut appliquer le th. 1 en p
 ### 5. Limites inductives
 
 Soient $I$ un ensemble préordonné *filtrant à droite*, $(E_\alpha)_{\alpha \in I}$ une famille d'ensembles ayant $I$ pour ensemble d'indices. Pour tout couple $(\alpha, \beta)$ d'indices de $I$ tels que α ≤ β, soit $f_{\beta\alpha}$ une application de $E_\alpha$ dans $E_\beta$. On suppose que les $f_{\beta\alpha}$ vérifient les conditions suivantes:
-(LI_I) Les relations $\alpha ≤ \beta ≤ \gamma$ entraînent $f_{\gamma\alpha} = f_{\gamma\beta} \circ f_{\beta\alpha}$.
-(LI_II) Pour tout $\alpha ∈ I$, $f_{\alpha\alpha}$ est l’application identique de $E_\alpha$.
+(LI_I) Les relations $\alpha \leq \beta \leq \gamma$ entraînent $f_{\gamma\alpha} = f_{\gamma\beta} \circ f_{\beta\alpha}$.
+(LI_II) Pour tout $\alpha \in I$, $f_{\alpha\alpha}$ est l’application identique de $E_\alpha$.
 
-Soit G l’ensemble somme de la famille d’ensembles $(E_\alpha)_{\alpha ∈ I}$ (II, p. 30); par abus de langage, nous identifierons les $E_\alpha$ aux parties de G qui en sont les images canoniques, et forment une partition de G; pour tout $x ∈ G$, nous désignerons par $\lambda(x)$ l’unique indice $\alpha ∈ I$ tel que $x ∈ E_\alpha$. Soir $R\{x, y\}$ la relation suivante entre deux éléments $x, y$ de G:
-« il existe un élément $\gamma ∈ I$ tel que $\gamma ≥ \alpha = \lambda(x)$ et $\gamma ≥ \beta = \lambda(y)$, et pour lequel on a $f_{\gamma\alpha}(x) = f_{\gamma\beta}(y)$ »;
-montrons que R est une relation d’équivalence dans G. Il est évident que R est symétrique et réflexive dans G; reste à voir qu’elle est transitive. Or, soient $x ∈ E_\alpha$, $y ∈ E_\beta$, $z ∈ E_\gamma$; supposons qu’il existe $\lambda ∈ I$ tel que $\lambda ≥ \alpha$, $\lambda ≥ \beta$, et $f_{\lambda\alpha}(x) = f_{\lambda\beta}(y)$, et $\mu ∈ I$ tel que $\mu ≥ \beta$, $\mu ≥ \gamma$ et $f_{\mu\beta}(y) = f_{\mu\gamma}(z)$. Comme I est filtrant, il existe $\nu ∈ I$ tel que $\nu ≥ \lambda$ et $\nu ≥ \mu$; en vertu de (LI_I), on a alors
+Soit G l’ensemble somme de la famille d’ensembles $(E_\alpha)_{\alpha \in I}$ (II, p. 30); par abus de langage, nous identifierons les $E_\alpha$ aux parties de G qui en sont les images canoniques, et forment une partition de G; pour tout $x \in G$, nous désignerons par $\lambda(x)$ l’unique indice $\alpha \in I$ tel que $x \in E_\alpha$. Soir $R\{x, y\}$ la relation suivante entre deux éléments $x, y$ de G:
+« il existe un élément $\gamma \in I$ tel que $\gamma \geq \alpha = \lambda(x)$ et $\gamma \geq \beta = \lambda(y)$, et pour lequel on a $f_{\gamma\alpha}(x) = f_{\gamma\beta}(y)$ »;
+montrons que R est une relation d’équivalence dans G. Il est évident que R est symétrique et réflexive dans G; reste à voir qu’elle est transitive. Or, soient $x \in E_\alpha$, $y \in E_\beta$, $z \in E_\gamma$; supposons qu’il existe $\lambda \in I$ tel que $\lambda \geq \alpha$, $\lambda \geq \beta$, et $f_{\lambda\alpha}(x) = f_{\lambda\beta}(y)$, et $\mu \in I$ tel que $\mu \geq \beta$, $\mu \geq \gamma$ et $f_{\mu\beta}(y) = f_{\mu\gamma}(z)$. Comme I est filtrant, il existe $\nu \in I$ tel que $\nu \geq \lambda$ et $\nu \geq \mu$; en vertu de (LI_I), on a alors
 $$
 f_{\nu\alpha}(x) = f_{\nu\lambda}(f_{\lambda\alpha}(x)) = f_{\nu\lambda}(f_{\lambda\beta}(y)) = f_{\nu\beta}(y)
 = f_{\nu\mu}(f_{\mu\beta}(y)) = f_{\nu\mu}(f_{\mu\gamma}(z)) = f_{\nu\gamma}(z)
 $$
 ce qui établit notre assertion.
 
-On dit que l’ensemble quotient $E = G/R$ est la limite inductive de la famille $(E_\alpha)_{\alpha ∈ I}$ pour la famille d’applications $(f_{\beta\alpha})$, et on écrit $E = \lim \rightarrow (E_\alpha, f_{\beta\alpha})$, ou simplement $E = \lim \rightarrow E_\alpha$ si aucune confusion n’en résulte. Par abus de langage, on dira que le couple $((E_\alpha), (f_{\beta\alpha}))$ (que l’on notera aussi $(E_\alpha, f_{\beta\alpha})$) est un système inductif d’ensembles, relatif à l’ensemble filtrant I.
+On dit que l’ensemble quotient $E = G/R$ est la limite inductive de la famille $(E_\alpha)_{\alpha \in I}$ pour la famille d’applications $(f_{\beta\alpha})$, et on écrit $E = \lim \rightarrow (E_\alpha, f_{\beta\alpha})$, ou simplement $E = \lim \rightarrow E_\alpha$ si aucune confusion n’en résulte. Par abus de langage, on dira que le couple $((E_\alpha), (f_{\beta\alpha}))$ (que l’on notera aussi $(E_\alpha, f_{\beta\alpha})$) est un système inductif d’ensembles, relatif à l’ensemble filtrant I.
 
-Il est clair que E n’est pas vide si un au moins des $E_\alpha$ n’est pas vide. Nous désignerons par $f_\alpha$ la restriction à $E_\alpha$ de l’application canonique $f$ de G sur $E = G/R$, et nous dirons que $f_\alpha$ est l’application canonique de $E_\alpha$ dans E. Pour $\alpha ≤ \beta$, on a la relation
+Il est clair que E n’est pas vide si un au moins des $E_\alpha$ n’est pas vide. Nous désignerons par $f_\alpha$ la restriction à $E_\alpha$ de l’application canonique $f$ de G sur $E = G/R$, et nous dirons que $f_\alpha$ est l’application canonique de $E_\alpha$ dans E. Pour $\alpha \leq \beta$, on a la relation
 (22)
 $$
 f_\beta \circ f_{\beta\alpha} = f_\alpha ;
 $$
-en effet, pour tout $x ∈ E_\alpha$, on a $f_{\beta\beta}(f_{\beta\alpha}(x)) = f_{\beta\alpha}(x)$ en vertu de (LI_I), donc les éléments $x ∈ E_\alpha$ et $f_{\beta\alpha}(x) ∈ E_\beta$ sont congrus mod. R, ce qui démontre (22).
+en effet, pour tout $x \in E_\alpha$, on a $f_{\beta\beta}(f_{\beta\alpha}(x)) = f_{\beta\alpha}(x)$ en vertu de (LI_I), donc les éléments $x \in E_\alpha$ et $f_{\beta\alpha}(x) \in E_\beta$ sont congrus mod. R, ce qui démontre (22).
 
 #### Exemple 1 {#ens-iii-s7-n5-exa-1 .statement tag=03TM}
 
-Soient A, B deux ensembles, $(V_\alpha)_{\alpha ∈ I}$ une famille de parties de A, dont l’ensemble d’indices I est filtrant à droite, telle que la relation $\alpha ≤ \beta$ entraîne $V_\beta ⊂ V_\alpha$. Désignons par $E_\alpha$ l’ensemble des applications de $V_\alpha$ dans B; pour tout couple d’indices $\alpha, \beta$ tels que $\alpha ≤ \beta$, soit $f_{\beta\alpha}$ l’application de $E_\alpha$ dans $E_\beta$ qui à toute fonction $u ∈ E_\alpha$ fait correspondre sa restriction $f_{\beta\alpha}(u)$ à $V_\beta$. Il est immédiat que les conditions (LI_I) et (LI_II) sont vérifiées; on dit que l’ensemble $E = \lim \rightarrow E_\alpha$ est l’ensemble des germes d’applications des $V_\alpha$ dans B. *Le cas le plus fréquent est celui où $(V_\alpha)$ est la famille des voisinages d’une partie d’un espace topologique A (TG, I, § 6, n° 10).*
+Soient A, B deux ensembles, $(V_\alpha)_{\alpha \in I}$ une famille de parties de A, dont l’ensemble d’indices I est filtrant à droite, telle que la relation $\alpha \leq \beta$ entraîne $V_\beta \subset V_\alpha$. Désignons par $E_\alpha$ l’ensemble des applications de $V_\alpha$ dans B; pour tout couple d’indices $\alpha, \beta$ tels que $\alpha \leq \beta$, soit $f_{\beta\alpha}$ l’application de $E_\alpha$ dans $E_\beta$ qui à toute fonction $u \in E_\alpha$ fait correspondre sa restriction $f_{\beta\alpha}(u)$ à $V_\beta$. Il est immédiat que les conditions (LI_I) et (LI_II) sont vérifiées; on dit que l’ensemble $E = \lim \rightarrow E_\alpha$ est l’ensemble des germes d’applications des $V_\alpha$ dans B. *Le cas le plus fréquent est celui où $(V_\alpha)$ est la famille des voisinages d’une partie d’un espace topologique A (TG, I, § 6, n° 10).*
 
 #### Exemple 2 {#ens-iii-s7-n5-exa-2 .statement tag=03TN}
 
-Supposons que pour tout $\alpha ∈ I$, $E_\alpha$ soit égal à un ensemble F et que pour $\alpha ≤ \beta$, $g_{\beta\alpha}$ soit l’application identique de F sur lui-même. Alors il existe une bijection canonique de $\lim$ $E_\alpha$ sur $F$: en effet, pour définir $\lim$ $E_\alpha$, on doit former l’ensemble $G$ somme de la famille $(E_\alpha)$; $G$ est donc réunion d’une famille $(G_\alpha)$ d’ensembles deux à deux disjoints, et pour tout $\alpha \in I$, il y a une bijection canonique $h_\alpha : F \to G_\alpha$. On doit ensuite considérer la relation d’équivalence $R$ dans $G$, correspondant à la partition $(P_y)_{y \in F}$, où $P_y$ est l’ensemble des $h_\alpha(y)$ lorsque $\alpha$ parcourt $I$. Il est clair que $y \mapsto P_y$ est une bijection, dont la bijection réciproque est la bijection cherchée; on identifiera $F$ à $\lim$ $E_\alpha$ au moyen de cette bijection canonique.
+Supposons que pour tout $\alpha \in I$, $E_\alpha$ soit égal à un ensemble F et que pour $\alpha \leq \beta$, $g_{\beta\alpha}$ soit l’application identique de F sur lui-même. Alors il existe une bijection canonique de $\lim$ $E_\alpha$ sur $F$: en effet, pour définir $\lim$ $E_\alpha$, on doit former l’ensemble $G$ somme de la famille $(E_\alpha)$; $G$ est donc réunion d’une famille $(G_\alpha)$ d’ensembles deux à deux disjoints, et pour tout $\alpha \in I$, il y a une bijection canonique $h_\alpha : F \to G_\alpha$. On doit ensuite considérer la relation d’équivalence $R$ dans $G$, correspondant à la partition $(P_y)_{y \in F}$, où $P_y$ est l’ensemble des $h_\alpha(y)$ lorsque $\alpha$ parcourt $I$. Il est clair que $y \mapsto P_y$ est une bijection, dont la bijection réciproque est la bijection cherchée; on identifiera $F$ à $\lim$ $E_\alpha$ au moyen de cette bijection canonique.
 
 #### Lemme 1 {#ens-iii-s7-lem-1 .statement tag=03OK}
 

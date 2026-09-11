@@ -36,7 +36,7 @@ subsections:
       pdf_page: 99
 statements: 21
 exercises: 2
-content_sha256: 01801acd72eaa09ac4a46b42efc187fba6f9b9c28aa0575c8eb3279f5caa0e14
+content_sha256: d9321168b3b36d9ad30fa2524986103244ffa6409545a942ce2e1f6a21dffb90
 ---
 
 ## § 4. Produits de mesures
@@ -447,19 +447,19 @@ $$
 
 mais par définition cette dernière relation s’écrit aussi $\mu_\beta(f_\beta) = \mu_\gamma(f_\gamma)$, d’où notre assertion.
 
-Cela étant, supposons qu’il existe un nombre fini $a > 0$ tel que $\|\mu_\alpha\| \leq a$ pour tout $\alpha ∈ I$; alors, on a, pour toute fonction $f_\alpha ∈ C(X_\alpha ; C)$
+Cela étant, supposons qu’il existe un nombre fini $a > 0$ tel que $\|\mu_\alpha\| \leq a$ pour tout $\alpha \in I$; alors, on a, pour toute fonction $f_\alpha \in C(X_\alpha ; C)$
 
 $$
 |\lambda(f_\alpha \circ p_\alpha)| = |\mu_\alpha(f_\alpha)| \leq a \|f_\alpha\| = a \|f_\alpha \circ p_\alpha\|
 $$
 
-puisque $p_\alpha$ est surjective. Ceci montre que la forme linéaire $\lambda$ est continue dans F, et il résulte du lemme 3 que $\lambda$ se prolonge en une mesure $\mu$ sur X telle que $(p_\alpha)_*(\mu) = \mu_\alpha$ pour tout $\alpha ∈ I$, ce qui prouve (iii).
+puisque $p_\alpha$ est surjective. Ceci montre que la forme linéaire $\lambda$ est continue dans F, et il résulte du lemme 3 que $\lambda$ se prolonge en une mesure $\mu$ sur X telle que $(p_\alpha)_*(\mu) = \mu_\alpha$ pour tout $\alpha \in I$, ce qui prouve (iii).
 
-(iv) Pour prouver l’existence de $\mu$, il suffit, en vertu de (iii), de vérifier que la famille des normes ($\|\mu_\alpha\|$) est bornée. Mais on a $\|\mu_\alpha\| = \mu_\alpha(1)$, et pour $\alpha ≤ \beta$, la relation $\mu_\alpha = (p_{\alpha\beta})_*(\mu_\beta)$ entraîne que $\mu_\alpha(1) = \mu_\beta(1)$; comme I est filtrant, les masses totales de toutes les mesures $\mu_\alpha$ sont donc égales, d’où notre assertion. En outre, le sous-espace F vérifie de façon évidente la propriété (P) du § 1, n° 7, prop. 9, donc la mesure $\mu$, limite projective de $(\mu_\alpha)$, est positive. Enfin la relation $\mu_\alpha = (p_\alpha)_*(\mu)$ montre comme ci-dessus que $\mu(1) = \mu_\alpha(1)$.
+(iv) Pour prouver l’existence de $\mu$, il suffit, en vertu de (iii), de vérifier que la famille des normes ($\|\mu_\alpha\|$) est bornée. Mais on a $\|\mu_\alpha\| = \mu_\alpha(1)$, et pour $\alpha \leq \beta$, la relation $\mu_\alpha = (p_{\alpha\beta})_*(\mu_\beta)$ entraîne que $\mu_\alpha(1) = \mu_\beta(1)$; comme I est filtrant, les masses totales de toutes les mesures $\mu_\alpha$ sont donc égales, d’où notre assertion. En outre, le sous-espace F vérifie de façon évidente la propriété (P) du § 1, n° 7, prop. 9, donc la mesure $\mu$, limite projective de $(\mu_\alpha)$, est positive. Enfin la relation $\mu_\alpha = (p_\alpha)_*(\mu)$ montre comme ci-dessus que $\mu(1) = \mu_\alpha(1)$.
 
 #### Exemple {#int-iii-s4-n5-exa-1 .statement}
 
-Soit $(X_\lambda)_{\lambda ∈ L}$ une famille d’espaces compacts; posons $X = \prod_{\lambda ∈ L} X_\lambda$, et pour toute partie finie J de L, posons $X_J = \prod_{\lambda ∈ J} X_\lambda$; désignons par $\mathrm{pr}_J : X → X_J$, et $\mathrm{pr}_{J,K} : X_K → X_J$ (pour $J ⊂ K$) les projections canoniques. On sait que $(X_J, \mathrm{pr}_{JK})$ est un système projectif d’espaces compacts, et que la limite projective du système d’applications continues $(\mathrm{pr}_J)$ est un homéomorphisme de X sur l’espace limite projective $\lim_{←} X_J$, permettant d’identifier ces deux espaces (Top. gén., chap. I, 3e éd., § 4, n° 4 et Ens. chap. III, 2e éd., § 7, n° 2, Remarque 3). Comme les projections $\mathrm{pr}_{J,K}$ sont surjectives, il résulte de la prop. 8 que l’ensemble $\mathscr{M}(X ; C)$ (resp. $\mathscr{M}_+(X)$) s’identifie à l’ensemble des systèmes projectifs $(\mu_J)$ tels que la famille des normes ($\|\mu_J\|$) soit bornée (resp. tels que les $\mu_J$ soient toutes positives, et nécessairement de même masse totale).
+Soit $(X_\lambda)_{\lambda \in L}$ une famille d’espaces compacts; posons $X = \prod_{\lambda \in L} X_\lambda$, et pour toute partie finie J de L, posons $X_J = \prod_{\lambda \in J} X_\lambda$; désignons par $\mathrm{pr}_J : X \to X_J$, et $\mathrm{pr}_{J,K} : X_K \to X_J$ (pour $J \subset K$) les projections canoniques. On sait que $(X_J, \mathrm{pr}_{JK})$ est un système projectif d’espaces compacts, et que la limite projective du système d’applications continues $(\mathrm{pr}_J)$ est un homéomorphisme de X sur l’espace limite projective $\lim_{\leftarrow} X_J$, permettant d’identifier ces deux espaces (Top. gén., chap. I, 3e éd., § 4, n° 4 et Ens. chap. III, 2e éd., § 7, n° 2, Remarque 3). Comme les projections $\mathrm{pr}_{J,K}$ sont surjectives, il résulte de la prop. 8 que l’ensemble $\mathscr{M}(X ; C)$ (resp. $\mathscr{M}_+(X)$) s’identifie à l’ensemble des systèmes projectifs $(\mu_J)$ tels que la famille des normes ($\|\mu_J\|$) soit bornée (resp. tels que les $\mu_J$ soient toutes positives, et nécessairement de même masse totale).
 
 Considérons en particulier le cas où, pour chaque $\lambda \in L$, on prend une mesure $\mu_\lambda$ sur $X_\lambda$, et où on pose $\mu_J = \bigotimes_{\lambda \in J} \mu_\lambda$. Si $J \subset K$ sont deux parties finies de $I$, on a alors, pour toute fonction $f_J \in \mathscr{C}(X_J; \mathbf{C})$, en vertu de la formule (14) du n° 4,
 

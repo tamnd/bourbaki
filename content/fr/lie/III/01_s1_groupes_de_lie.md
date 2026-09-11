@@ -56,7 +56,7 @@ subsections:
       pdf_page: 116
 statements: 57
 exercises: 10
-content_sha256: 62b754ac2acb25a32f55336926c71cf152c1bc39aa67849ec615b2ae1cd91fe5
+content_sha256: 1e20c7e2af68d2303190be54747077fcbad96cbb92c8e06e7aca05557d394b00
 ---
 
 ## § 1. Groupes de Lie
@@ -434,7 +434,7 @@ Il est clair que H opère librement dans X; il opère proprement d’après TG, 
 
 La loi d’opération de G dans X définit évidemment, par passage aux quotients, une loi d’opération à gauche de G/H dans X/H. Cette loi est de classe C^r d’après VAR, R, 5.9.6. Soient g ∈ G et x ∈ X tels que (Hg)(Hx) = Hx; alors H(gx) = Hx, donc gx ∈ Hx et g ∈ H; cela prouve que G/H opère librement dans X/H. L’application θ : (g, x) ↦ (x, gx) de G × X dans X × X est fermée; d’autre part, on a θ(Hg × Hx) = Hx × H(gx); il en résulte aussitôt que l’application
 
-$$(Hg, Hx) ↦ (Hx, H(gx))$$
+$$(Hg, Hx) \mapsto (Hx, H(gx))$$
 
 de (G/H) × (X/H) dans (X/H) × (X/H) est fermée; comme en outre G/H opère librement dans X/H, le th. 1 c) de TG, I, § 10, n° 2 prouve que G/H opère proprement dans X/H.
 

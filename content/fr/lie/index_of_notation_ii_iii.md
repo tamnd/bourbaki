@@ -12,7 +12,7 @@ pdf_pages: 0307-0309
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 8c1229475966ac69767e6c5dfc349c548c3da8b5ef0aefd855b38335c11b1bd1
+content_sha256: b5b3b8d4b34e7c11bf7eee28fa87ad1139fa514d90a5db742ceb195a360ede3e
 ---
 
 ## INDEX DES NOTATIONS
@@ -20,15 +20,15 @@ content_sha256: 8c1229475966ac69767e6c5dfc349c548c3da8b5ef0aefd855b38335c11b1bd1
 Les chiffres de référence indiquent successivement le chapitre, le paragraphe et le numéro.
 
 $K$ : II.Conventions
-$g, U = Ug, \sigma : g → Ug$: II.1
+$g, U = Ug, \sigma : g \to Ug$: II.1
 $\varepsilon, c, u, \pi_u, \eta_u, c_u^+$ : II.1.1
 $E, E^+$ : II.1.1
 $P(E), \pi, \eta, c^+$ : II.1.6
 $S(g), c_s, \eta$ : II.1.5
-$f_E : U(P(E)) → E$ : II.1.6
+$f_E : U(P(E)) \to E$ : II.1.6
 $M(X), l(w), Lib(X) = Lib_K(X)$ : II.2.1
 $L(X) = L_K(X)$ : II.2.2
-$\varphi : X → L(X)$ : II.2.2
+$\varphi : X \to L(X)$ : II.2.2
 $(a, r)$ : II.2.3
 $L(u)$ : II.2.5
 $Lib^\delta(X), L^\delta(X), L^n(X)$ : II.2.6
@@ -47,7 +47,7 @@ $\varepsilon(a)$ : II.5.2
 $l(x), exp(x), log(y)$ : II.6.1
 $e(X), l(X)$ : II.6.1
 $\hat{L}(X)$ : II.6.2
-$a ⊕ b$ : II.6.2
+$a \oplus b$ : II.6.2
 $H, H_n, H_{rs}$ : II.6.4
 
 $\tilde{H}, \Omega$ : II.7.2

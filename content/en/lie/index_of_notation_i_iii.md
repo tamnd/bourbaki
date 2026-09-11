@@ -13,7 +13,7 @@ pdf_pages: 0453-0455
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 1ab7972dd36ec32f53bf95e4308f26ae6b1f170762f0759e379e3e1da5dab06e
+content_sha256: 590c17f29dac04309e53b6eb86931ec2ea41a476013e663bd509258267f9b49b
 ---
 
 ## INDEX OF NOTATION
@@ -48,10 +48,10 @@ $\varepsilon, c, u, \pi_u, \eta_u, c_u^+$ : II.1.1.
 $E, E^+$ : II.1.1.
 $P(E), \pi, \eta, c^+$ : II.1.6.
 $S(g), c_s, \eta$ : II.1.5.
-$f_E : U(P(E)) → E$ : II.1.6.
+$f_E : U(P(E)) \to E$ : II.1.6.
 $M(X), l(w), Lib(X) = Lib_K(X)$ : II.2.1.
 $L(X) = L_K(X)$ : II.2.2.
-$\varphi : X → L(X)$ : II.2.2.
+$\varphi : X \to L(X)$ : II.2.2.
 $(a, r)$ : II.2.3.
 $L(u)$ : II.2.5.
 $Lib^\delta(X), L^\delta(X), L^n(X)$ : II.2.6.

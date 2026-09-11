@@ -302,7 +302,7 @@ chapters:
           statements: 30
           exercises: 11
           extraction: ocr
-          content_sha256: 23be15bf037279815015f8c1b89c7670585f5d3de886c2592ed4c05799e2051b
+          content_sha256: 1588730038b00c1341b56be5a2768d784f955b62cfedf0a0090d9163d1d847c5
         - kind: section
           section: 4
           title: Integration of positive point measures
@@ -354,7 +354,7 @@ chapters:
           statements: 20
           exercises: 11
           extraction: ocr
-          content_sha256: d6674ea139595be6c132fa589e24ce77d547ad2398a9b423a66a73d7091c401b
+          content_sha256: f923d9ab56bf1c3407def12208ac24c9a78c015ddd76e02ea195f3e1539c70cc
         - kind: section
           section: 8
           title: Products of measures
@@ -367,7 +367,7 @@ chapters:
           statements: 31
           exercises: 21
           extraction: ocr
-          content_sha256: 17d110b54b7bba9f48ad9884564765201535db04b985cfb2373f215e541d64c7
+          content_sha256: d8e0ae9af9790c3abf9aff6cb1dc6e881d4046ae0ea1264d8bd2fb53153dc087
         - kind: historical
           title: Historical Note
           path: content/en/int/V/historical_note.md

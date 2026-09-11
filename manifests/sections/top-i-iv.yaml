@@ -242,7 +242,7 @@ chapters:
           statements: 48
           exercises: 7
           extraction: ocr
-          content_sha256: f0f430e068ab36d388f79a4dc45b05c0a5ae4f0df6c71b620216591dc3ddf996
+          content_sha256: 25443ca38e0d74878092070846f4496eceb085af929309efb7188d13993eaa0c
         - kind: section
           section: 4
           title: Relations between uniform spaces and compact spaces

@@ -25,7 +25,7 @@ subsections:
       pdf_page: 255
 statements: 10
 exercises: 0
-content_sha256: 7845b7e2bd4a655ddc90c51d69de092ba1cf892797854eb6ec7e8069c2d39675
+content_sha256: 1bb3505ac4e1daf1314c53912b5ccbc1316d47cdbbdbbeaeb27158c6609ae39d
 ---
 
 ## § 2. GROUP OF TANGENT VECTORS TO A LIE GROUP
@@ -47,11 +47,11 @@ $$T(f)(0_a, 0_b) = 0_{f(a, b)}.$$
 
 On the other hand, the mapping y ↦ f(a, y) is the composition of the immersion y ↦ (a, y) and f; it follows that
 
-(3) $T(f)(0, v)$ is the image of v under the tangent mapping to $y ↦ f(a, y)$.
+(3) $T(f)(0, v)$ is the image of v under the tangent mapping to $y \mapsto f(a, y)$.
 
 Similarly
 
-(4) $T(f)(u, 0)$ is the image of u under the tangent mapping to $x ↦ f(x, b)$.
+(4) $T(f)(u, 0)$ is the image of u under the tangent mapping to $x \mapsto f(x, b)$.
 
 If the mapping f of X × Y into Z is denoted by (x, y) ↦ xy, uv is often used to denote the element T(f)(u, v) for u ∈ T(X), v ∈ T(Y).
 
@@ -65,7 +65,7 @@ It follows from (2) that
 (6)
 $$T(m)(0_x, 0_y) = 0_{m(x, y)}$$
 
-for all x, y in X; in other words, the zero section $x ↦ 0_x$ of T(X) is compatible with the laws m and T(m).
+for all x, y in X; in other words, the zero section $x \mapsto 0_x$ of T(X) is compatible with the laws m and T(m).
 
 #### Proposition 1 {#lie-iii-s2-prop-1 .statement}
 

@@ -12,7 +12,7 @@ pdf_pages: 0181-0183
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: c4890e7f39b75fae076685c897d6a062cbe86a7038583b9a34396ee9c73e59e3
+content_sha256: 6461a21cb3bd486d82e3c8cc371ae3650f9e1c0d1954c947be93a28683e9f419
 ---
 
 ## INDEX DES NOTATIONS
@@ -106,7 +106,7 @@ $gr_k T_x^{(r)}(X), gr T_x^{(r)}(X)$: 13.3.1
 $i, i_x, i_X, i_{x,x}$: 13.3.1
 $i_k$: 13.3.1
 $gr(\varphi_x)$: 13.3.5
-$t_1 × t_2, t_1 ⊗ t_2$: 13.4.1
+$t_1 × t_2, t_1 \otimes t_2$: 13.4.1
 $T_x^{(n)}(X_1, X_2)$: 13.4.5
 $\Delta*, c$: 13.5.1
 $\mathscr{G}^{(k)}(X)$: 13.6.1
@@ -115,7 +115,7 @@ $\mathscr{D}_U^{k,h}(E, F)$: 14.1.1
 $ad(f)\theta$: 14.1.4
 $\Delta^\alpha$: 14.1.6
 $D_C^k(E, F)$: 14.1.7
-$D'' ∘ D'$: 14.1.8
+$D'' \circ D'$: 14.1.8
 $[D', D'']$: 14.1.8
 $S^k(E, F)$: 14.2.1
 $\sigma_k(D)$: 14.2.1
