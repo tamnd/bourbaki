@@ -13,7 +13,7 @@ pdf_pages: 0362-0367
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: f8317afbd1ead3a8eb315402c9ae2f0ba41cf649de2052b034647fe7099309e8
+content_sha256: 911c36b076fa6fa142fe625cbd3bb6de17b251c6493dfaffdaf76058fad82252
 ---
 
 ## 3. PRODUCTS OF SETS
@@ -64,7 +64,7 @@ is a *one-to-one* mapping of $\mathrm{E} \times \mathrm{F}$ *onto* $\mathrm{F} \
 
 If Z is any subset of $\mathrm{E} \times \mathrm{F}$, the image of Z under the canonical mapping of $\mathrm{E} \times \mathrm{F}$ onto $\mathrm{F} \times \mathrm{E}$ is denoted by $\overset{-1}{\mathrm{Z}}$. If X is any subset of E and Y any subset of F, then
 
-$$\overset{-1}{\overparen{\mathrm{X} \times \mathrm{Y}}} = \mathrm{Y} \times \mathrm{X}.$$
+$$\overset{-1}{\overgroup{\mathrm{X} \times \mathrm{Y}}} = \mathrm{Y} \times \mathrm{X}.$$
 
 If a relation R between $x$ and $y$, considered as a property of the ordered pair $(x, y)$, defines a subset A of $\mathrm{E} \times \mathrm{F}$, then the *same* relation, considered as a property of the pair $(y, x)$, defines the subset $\overset{-1}{\mathrm{A}}$ of $\mathrm{F} \times \mathrm{E}$. R is equivalent to each of the relations $(x, y) \in \mathrm{A}$, $(y, x) \in \overset{-1}{\mathrm{A}}$. If E and F are the same set, the relation R and the corresponding subset A are said to be *symmetric* when $\mathrm{A} = \overset{-1}{\mathrm{A}}$. The diagonal $\Delta$ (defined by the relation of equality) is symmetric. If Z is any subset of $\mathrm{E} \times \mathrm{E}$, then $\mathrm{Z} \cup \overset{-1}{\mathrm{Z}}$ and $\mathrm{Z} \cap \overset{-1}{\mathrm{Z}}$ are symmetric.
 

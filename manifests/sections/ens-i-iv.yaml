@@ -428,7 +428,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: f8317afbd1ead3a8eb315402c9ae2f0ba41cf649de2052b034647fe7099309e8
+          content_sha256: 911c36b076fa6fa142fe625cbd3bb6de17b251c6493dfaffdaf76058fad82252
         - kind: section
           section: 4
           title: Union, intersection, product of a family of sets
