@@ -12,17 +12,17 @@ Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 
 
 | Group | Hard | Soft | Not run | Failing |
 | --- | ---: | ---: | ---: | --- |
-| structure | 13 | 1 | 0 | S08 (104), S09 (47), S11 (433), S12 (82), S14 (799) |
+| structure | 13 | 1 | 0 | S08 (102), S11 (433), S12 (79), S14 (799) |
 | tags | 7 | 1 | 1 | T03 (23302), T10 (8) |
-| mathematics | 9 | 5 | 1 | M02 (22), M03 (1255), M05 (1), M06 (6), M07 (11), M11 (5), M13 (51), M14 (2692) |
+| mathematics | 10 | 5 | 0 | M03 (1251), M06 (6), M13 (48), M14 (2690) |
 | figures | 6 | 0 | 0 | F01 (158) |
 | references | 3 | 0 | 0 | R01 (3369), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1363), L02 (2), L03 (52), L04 (51), L05 (298), L06 (2016), L07 (21), L08 (5659), L10 (262), L11 (49), L12 (1), L13 (73), L14 (1), L15 (6), L16 (45) |
+| translation | 13 | 3 | 1 | L01 (1392), L02 (2), L03 (52), L04 (51), L05 (341), L06 (2016), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | none |
-| hygiene | 7 | 0 | 0 | H06 (1) |
+| hygiene | 7 | 0 | 0 | none |
 
-31484 hard findings and 11275 soft, over 75 rules that ran and 3 that could not.
+31458 hard findings and 11270 soft, over 76 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -30,7 +30,6 @@ A rule that has nothing to look at is reported here rather than counted as a
 pass, because a green that comes from an empty corpus is the one kind nobody
 should trust.
 
-- **M04** every math span parses: not asked for, run with -validate-tex
 - **T05** tags is only ever appended to, and T08 is this read off a diff: no base commit given
 - **L09** the glossary version moves when the renderings do: no base revision was given, so there is nothing to compare the glossary against
 
@@ -66,40 +65,7 @@ Hard, figures.
 
 and 133 more, which `bourbaki audit -only F01` prints in full.
 
-## H06 the README coverage table is the one the corpus has (1)
-
-Hard, hygiene.
-
-- `README.md` the LIBRARY, COVERAGE, TRANSLATION, RULES block is not what the corpus says, run bourbaki report readme -write
-
-## M02 the number sets are \mathbf, as Bourbaki sets them (22)
-
-Hard, mathematics.
-
-- `content/en-mt/alg/IX/01_s1_formes_sesquilineaires.md:805` \mathbb where Bourbaki sets \mathbf: (u_{ki})_{(k,i) \in \mathbb{K} \times I}$ such that
-- `content/en-mt/top/IX/exercises/s4/13.md:23` \mathbb where Bourbaki sets \mathbf: ambda)_{\lambda \in \mathbb{L}}$ be a locally finite open co…
-- `content/en/ac/III/exercises/s2/13.md:134` \mathbb where Bourbaki sets \mathbf: ambda)_{\lambda \in \mathbb{L}}$ a system of generators of $…
-- `content/en/ac/III/exercises/s2/13.md:136` \mathbb where Bourbaki sets \mathbf: ambda)_{\lambda \in \mathbb{L}}$ of indeterminates with only…
-- `content/en/int/VII/03_s3_applications_and_examples.md:503` \mathbb where Bourbaki sets \mathbf: igotimes_{(j,i) \in \mathbb{H}} dz_{ij},
-- `content/en/lie/II/exercises/s5/08.md:21` \mathbb where Bourbaki sets \mathbf: f elements of $\hat{\mathbb{A}}_q(X)$ such that $\omega(a_k)…
-- `content/en/top/I/11_s11_connectedness.md:250` \mathbb where Bourbaki sets \mathbf: how that $W \subset \mathbb{A}$. If this were not so, then $…
-- `content/fr/ac/IX/exercises/s4/13.md:19` \mathbb where Bourbaki sets \mathbf: a) $\mathbb{F}$ est divisoriel (utiliser l’exerc. 10, c)).
-- `content/fr/alg/IX/01_s1_formes_sesquilineaires.md:796` \mathbb where Bourbaki sets \mathbf: (u_{ki})_{(k,i) \in \mathbb{K} \times I}$ telle que
-- `content/fr/alg/VI/exercises/s2/11.md:17` \mathbb where Bourbaki sets \mathbf: du corps ordonné $\mathbb{G}$ sur un sous-corps $\mathbb{G}'…
-- `content/fr/fvr/V/A_a_corps_de_hardy_fonctions_h.md:442` \mathbb where Bourbaki sets \mathbf: du corps de Hardy $\mathbb{H}(u_1, \ldots, u_p)$, non identi…
-- `content/fr/int/VI/02_s2_mesures_vectorielles.md:203` \mathbb where Bourbaki sets \mathbf: up_{\mathbf{z}' \in \mathbb{A}_q'} |\langle \mathbf{z}', \in…
-- `content/fr/int/VI/02_s2_mesures_vectorielles.md:205` \mathbb where Bourbaki sets \mathbf: ur $\mathbf{z}' \in \mathbb{A}_q'$.
-- `content/fr/lie/III/exercises/s9/16.md:22` \mathbb where Bourbaki sets \mathbf: q(x) + \inf_{y \in \mathbb{G}} q(x + y)$ possède les proprié…
-- `content/fr/top/IX/exercises/s4/12.md:14` \mathbb where Bourbaki sets \mathbf: ambda)_{\lambda \in \mathbb{L}}$ un recouvrement ouvert loca…
-- `content/vi/ac/III/exercises/s2/13.md:141` \mathbb where Bourbaki sets \mathbf: ambda)_{\lambda \in \mathbb{L}}$ là một hệ sinh của $m$ và $…
-- `content/vi/ac/III/exercises/s2/13.md:143` \mathbb where Bourbaki sets \mathbf: ambda)_{\lambda \in \mathbb{L}}$ các phần tử bất định với ch…
-- `content/vi/alg/IX/01_s1_formes_sesquilineaires.md:805` \mathbb where Bourbaki sets \mathbf: (u_{ki})_{(k,i) \in \mathbb{K} \times I}$ sao cho
-- `content/vi/int/VII/03_s3_applications_and_examples.md:510` \mathbb where Bourbaki sets \mathbf: igotimes_{(j,i) \in \mathbb{H}} dz_{ij},
-- `content/vi/lie/II/exercises/s5/08.md:28` \mathbb where Bourbaki sets \mathbf: �n tử của $\hat{\mathbb{A}}_q(X)$ sao cho $\omega(a_k) \geq …
-- `content/vi/top/I/11_s11_connectedness.md:247` \mathbb where Bourbaki sets \mathbf: h rằng $W \subset \mathbb{A}$. Nếu không phải như vậy, thì $…
-- `content/vi/top/IX/exercises/s4/13.md:23` \mathbb where Bourbaki sets \mathbf: ambda)_{\lambda \in \mathbb{L}}$ là một phủ mở hữu hạn địa p…
-
-## M03 no character stranded out of its TeX (1255)
+## M03 no character stranded out of its TeX (1251)
 
 Hard, mathematics.
 
@@ -129,13 +95,7 @@ Hard, mathematics.
 - `content/en-mt/alg/IX/01_s1_formes_sesquilineaires.md:392` the letter 'Φ' where its TeX belongs inside the mathematics: Φ′(y, x) = Φ(x, y)^{J′} \quad (x ∈ E, y ∈ F)
 - `content/en-mt/alg/IX/03_s3_formes_hermitiennes_et_formes.md:371` the letter 'α' where its TeX belongs inside the mathematics: α, β
 
-and 1230 more, which `bourbaki audit -only M03` prints in full.
-
-## M05 no illegible marker is left in the corpus (1)
-
-Hard, mathematics.
-
-- `content/fr/ens/II/01_s1_relations_collectivisantes.md:265` an illegible marker is still here: [^1]: Le terme désigné par $\varnothing$ est donc ⟪illegible…
+and 1226 more, which `bourbaki audit -only M03` prints in full.
 
 ## M06 displays per page within three sigma of the book mean (6)
 
@@ -148,33 +108,7 @@ Soft, mathematics.
 - `content/en/lie/III/05_s5_formal_calculations_in_lie_groups.md:1` 6.90 displays a page over 10 pages, against a mean of 1.15 and a sigma of 1.22
 - `content/en/lie/VIII/12_s12_chevalley_orders.md:1` 6.18 displays a page over 17 pages, against a mean of 1.15 and a sigma of 1.22
 
-## M07 no bracket from the prose closes inside the mathematics (11)
-
-Hard, mathematics.
-
-- `content/en-mt/alg/I/exercises/s7/15.md:22` a bracket the prose opened closes inside the mathematics: F(A)/R'_\mathbf{x} \to F(A)/R_\mathbf{x} = G.)
-- `content/fr/alg/index_of_notation_i_iii.md:242` a bracket the prose opened closes inside the mathematics: [1, n])
-- `content/vi/ac/X/exercises/s7/07.md:31` a bracket the prose opened closes inside the mathematics: a)
-- `content/vi/alg/I/exercises/s7/15.md:22` a bracket the prose opened closes inside the mathematics: F(A)/R'_\mathbf{x} \to F(A)/R_\mathbf{x} = G.)
-- `content/vi/alg/IX/06_s6_proprietes_speciales_aux_formes.md:395` a bracket the prose opened closes inside the mathematics: a)
-- `content/vi/alg/X/exercises/s1/17.md:74` a bracket the prose opened closes inside the mathematics: \beta)
-- `content/vi/alg/X/exercises/s1/17.md:74` a bracket the prose opened closes inside the mathematics: \Rightarrow \alpha)
-- `content/vi/alg/X/exercises/s1/17.md:74` a bracket the prose opened closes inside the mathematics: \alpha)
-- `content/vi/alg/X/exercises/s1/17.md:74` a bracket the prose opened closes inside the mathematics: \beta)
-- `content/vi/alg/X/exercises/s1/17.md:74` a bracket the prose opened closes inside the mathematics: \gamma)
-- `content/vi/alg/X/exercises/s1/17.md:74` a bracket the prose opened closes inside the mathematics: \alpha)
-
-## M11 the star on a forward-looking passage is the corpus's star (5)
-
-Hard, mathematics.
-
-- `content/fr/alg/VI/exercises/s2/27.md:16` a bare asterisk where the corpus writes \*: a) \* Si $K$ est archimédien, pour qu’il existe sur $E$ une …
-- `content/fr/alg/VI/exercises/s2/28.md:21` a bare asterisk where the corpus writes \*: c) Soit $K = \mathbf{Q}(\theta)$ une extension algébrique de…
-- `content/fr/ens/III/05_s5_calcul_sur_les_entiers.md:235` a bare asterisk where the corpus writes \*: * Dans toutes les parties des mathématiques où on n’a pas en…
-- `content/fr/fvr/III/historical_note.md:204` a bare asterisk where the corpus writes \*: * *
-- `content/fr/fvr/III/historical_note.md:205` a bare asterisk where the corpus writes \*: * *
-
-## M13 an inline formula is written tight against its dollars (51)
+## M13 an inline formula is written tight against its dollars (48)
 
 Soft, mathematics.
 
@@ -204,9 +138,9 @@ Soft, mathematics.
 - `content/fr/ens/index_of_terminology_i_iv.md:232` an inline formula written loose against its dollars, $ \supset $: run bourbaki fix padding
 - `content/fr/ens/index_of_terminology_i_iv.md:283` an inline formula written loose against its dollars, $ n $: run bourbaki fix padding
 
-and 26 more, which `bourbaki audit -only M13` prints in full.
+and 23 more, which `bourbaki audit -only M13` prints in full.
 
-## M14 no mathematics is left outside math mode (2692)
+## M14 no mathematics is left outside math mode (2690)
 
 Soft, mathematics.
 
@@ -236,7 +170,7 @@ Soft, mathematics.
 - `content/en-mt/ac/VIII/04_s4_series_de_hilbert_samuel.md:430` \leq is set in the prose, so the mathematics prints as its own source: One therefore has either d_x(M) < r and c_G = 0, or d_x(M) =…
 - `content/en-mt/ac/VIII/04_s4_series_de_hilbert_samuel.md:434` \to is set in the prose, so the mathematics prints as its own source: Let 0 \to M' \to M \to M'' \to 0 be an exact sequence of fin…
 
-and 2667 more, which `bourbaki audit -only M14` prints in full.
+and 2665 more, which `bourbaki audit -only M14` prints in full.
 
 ## R01 every in-corpus reference resolves (3369)
 
@@ -340,7 +274,7 @@ Soft, solutions.
 
 and 12 more, which `bourbaki audit -only X06` prints in full.
 
-## S08 content_sha256 describes the body under it (104)
+## S08 content_sha256 describes the body under it (102)
 
 Hard, structure.
 
@@ -353,9 +287,6 @@ Hard, structure.
 - `content/vi/ac/V/03_s3_finitely_generated_algebras_over_a_field.md:1` content_sha256 is c4ed63139b7e and the body hashes to e7d58b4e4e69
 - `content/vi/ac/VII/01_s1_krull_domains.md:1` content_sha256 is 1e14e6771880 and the body hashes to beefcc0a3a38
 - `content/vi/ac/VIII/04_s4_series_de_hilbert_samuel.md:1` content_sha256 is 743db54e2b37 and the body hashes to 220223eab28a
-- `content/vi/ac/X/01_s1_profondeur.md:1` content_sha256 is 03bd9f682027 and the body hashes to 182357d40771
-- `content/vi/ac/X/06_s6_extension_des_scalaires_dans_les.md:1` content_sha256 is be4a111d950c and the body hashes to 860169b56ee2
-- `content/vi/ac/X/07_s7_algebres_lisses.md:1` content_sha256 is 36dc295b4939 and the body hashes to c557fd6024f7
 - `content/vi/alg/00_to_the_reader_iv_vii.md:1` content_sha256 is f88c25ae68a7 and the body hashes to 92ef1b01614b
 - `content/vi/alg/00_to_the_reader_viii.md:1` content_sha256 is 63fcff221e5f and the body hashes to 63b4ce9b29b9
 - `content/vi/alg/I/historical_note.md:1` content_sha256 is 5316ff81c502 and the body hashes to 284c60783757
@@ -363,46 +294,17 @@ Hard, structure.
 - `content/vi/alg/II/09_s9_affine_spaces_and_projective_spaces.md:1` content_sha256 is 4a5fba84198e and the body hashes to 5aa86ccc358d
 - `content/vi/alg/III/02_s2_examples_of_algebras.md:1` content_sha256 is efcac11f6e50 and the body hashes to 2f070e92001b
 - `content/vi/alg/IV/03_s3_rational_fractions.md:1` content_sha256 is 245d2428f87d and the body hashes to ea8eece537bc
+- `content/vi/alg/IX/06_s6_proprietes_speciales_aux_formes.md:1` content_sha256 is 460f56890610 and the body hashes to cc12966d6782
 - `content/vi/alg/IX/08_s8_types_de_formes_quadratiques.md:1` content_sha256 is af3b297f693a and the body hashes to 316838b37b1f
 - `content/vi/alg/IX/historical_note.md:1` content_sha256 is 760055ee03e7 and the body hashes to 763c1ccf1f8a
 - `content/vi/alg/V/09_s9_conjugate_elements_and_quasi_galois.md:1` content_sha256 is 7ef13ffa3bce and the body hashes to 460a5f66c91d
 - `content/vi/alg/V/historical_note.md:1` content_sha256 is 42c1842de7aa and the body hashes to 148ec42683e0
 - `content/vi/alg/VII/04_s4_finitely_generated_modules_over_a.md:1` content_sha256 is 13faf83948b1 and the body hashes to 0b4a28e87f5a
 - `content/vi/alg/VIII/03_s3_simple_modules.md:1` content_sha256 is 884721dc429b and the body hashes to ffab05a82ada
+- `content/vi/alg/VIII/08_s8_semisimple_rings.md:1` content_sha256 is e0c2f8998f17 and the body hashes to 2c9c06b5d46a
+- `content/vi/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md:1` content_sha256 is c9069565ee8b and the body hashes to 334a06d68aab
 
-and 79 more, which `bourbaki audit -only S08` prints in full.
-
-## S09 assembly is deterministic and what is committed is what it writes (47)
-
-Hard, structure.
-
-- `content/en/top/X/01_s1_the_uniformity_of_mathcal_g_convergence.md` no page assembles into this file, so it is left over from an earlier split
-- `content/en/top/X/01_s1_the_uniformity_of_mathscr_g_convergence.md` assembly writes this file and the corpus does not have it
-- `content/fr/ac/X/03_s3_profondeur_et_dimension_homologique.md` what is committed is not what assembly writes
-- `content/fr/ac/X/04_s4_anneaux_reguliers.md` what is committed is not what assembly writes
-- `content/fr/ac/X/05_s5_intersections_completes.md` what is committed is not what assembly writes
-- `content/fr/ac/X/exercises/s3/11.md` what is committed is not what assembly writes
-- `content/fr/ac/X/exercises/s3/12.md` what is committed is not what assembly writes
-- `content/fr/ac/X/exercises/s3/13.md` what is committed is not what assembly writes
-- `content/fr/ac/X/exercises/s3/14.md` what is committed is not what assembly writes
-- `content/fr/ac/X/exercises/s3/15.md` what is committed is not what assembly writes
-- `content/fr/ac/X/exercises/s3/16.md` what is committed is not what assembly writes
-- `content/fr/ac/X/exercises/s4/01.md` what is committed is not what assembly writes
-- `content/fr/ac/X/exercises/s4/02.md` what is committed is not what assembly writes
-- `content/fr/ac/X/exercises/s4/03.md` what is committed is not what assembly writes
-- `content/fr/ac/X/exercises/s4/12.md` what is committed is not what assembly writes
-- `content/fr/ac/X/exercises/s4/13.md` what is committed is not what assembly writes
-- `content/fr/ac/X/exercises/s5/01.md` what is committed is not what assembly writes
-- `content/fr/ac/X/exercises/s5/02.md` what is committed is not what assembly writes
-- `content/fr/ens/II/exercises/s4/08.md` what is committed is not what assembly writes
-- `manifests/sections/ac-i-vii.yaml` what is committed is not what assembly writes
-- `manifests/sections/ac-v-vii-fr.yaml` what is committed is not what assembly writes
-- `manifests/sections/ac-viii-ix-fr.yaml` what is committed is not what assembly writes
-- `manifests/sections/ac-x-fr.yaml` what is committed is not what assembly writes
-- `manifests/sections/alg-i-iii-fr.yaml` what is committed is not what assembly writes
-- `manifests/sections/alg-i-iii.yaml` what is committed is not what assembly writes
-
-and 22 more, which `bourbaki audit -only S09` prints in full.
+and 77 more, which `bourbaki audit -only S08` prints in full.
 
 ## S11 the printings of a § hold the same exercises (433)
 
@@ -436,7 +338,7 @@ Hard, structure.
 
 and 408 more, which `bourbaki audit -only S11` prints in full.
 
-## S12 the sections manifest names every § file and describes it (82)
+## S12 the sections manifest names every § file and describes it (79)
 
 Hard, structure.
 
@@ -454,7 +356,6 @@ Hard, structure.
 - `content/en/evt/index_of_terminology_i_v.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
 - `content/en/fvr/index_of_notation_i_vii.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
 - `content/en/fvr/index_of_terminology_i_vii.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/int/00_introduction.md` manifests/sections/ holds content_sha256 b35932fac0c0 and the body here hashes to 6dfc6156ded2
 - `content/en/int/index_of_notation_i_vi.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
 - `content/en/int/index_of_notation_vii_ix.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
 - `content/en/int/index_of_terminology_i_vi.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
@@ -465,8 +366,9 @@ Hard, structure.
 - `content/en/lie/index_of_terminology_i_iii.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
 - `content/en/lie/index_of_terminology_iv_vi.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
 - `content/en/lie/index_of_terminology_vii_ix.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
+- `content/en/top/index_of_notation_i_iv.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
 
-and 57 more, which `bourbaki audit -only S12` prints in full.
+and 54 more, which `bourbaki audit -only S12` prints in full.
 
 ## S14 every committed page passes the rules that gated its reading (799)
 
@@ -545,7 +447,7 @@ Soft, tags.
 - `content/vi/ens/II/03_s3_correspondences.md:133` has 03PH after 03PI, which the same run assigned later
 - `content/vi/lie/IX/04_s4_root_system_associated_to_a_compact.md:428` has 01C5 after 01C7, which the same run assigned later
 
-## L01 the math spans are the English ones, in order (1363)
+## L01 the math spans are the English ones, in order (1392)
 
 Hard, translation.
 
@@ -575,7 +477,7 @@ Hard, translation.
 - `content/en-mt/ac/IX/exercises/s1/25.md:37` math span 44 is "c" and the English has "(a, b)"
 - `content/en-mt/ac/IX/exercises/s1/34.md:41` math span 27 is "n" and the English has "X_n"
 
-and 1338 more, which `bourbaki audit -only L01` prints in full.
+and 1367 more, which `bourbaki audit -only L01` prints in full.
 
 ## L02 the tag set is the English one (2)
 
@@ -648,12 +550,13 @@ Hard, translation.
 
 and 26 more, which `bourbaki audit -only L04` prints in full.
 
-## L05 source_content_sha256 is the English hash as it stands (298)
+## L05 source_content_sha256 is the English hash as it stands (341)
 
 Hard, translation.
 
 - `content/en-mt/ac/IX/A_a_.md:1` was translated from 98bbdb09a04c and content/fr/ac/IX/A_a_.md is now e864a39e88aa, so it is stale
 - `content/en-mt/ac/IX/exercises/a0/06.md:1` was translated from 84cbaed7cc3e and content/fr/ac/IX/exercises/a0/06.md is now 93685b02d2a2, so it is stale
+- `content/en-mt/ac/IX/exercises/s4/13.md:1` was translated from 0db85b298fde and content/fr/ac/IX/exercises/s4/13.md is now dbd876f68b9d, so it is stale
 - `content/en-mt/ac/IX/exercises/s4/28.md:1` was translated from 479f795ad971 and content/fr/ac/IX/exercises/s4/28.md is now edcd36869356, so it is stale
 - `content/en-mt/ac/VIII/01_s1_dimension_de_krull_d_un_anneau.md:1` was translated from 39579207db3a and content/fr/ac/VIII/01_s1_dimension_de_krull_d_un_anneau.md is now e9eeac77edda, so it is stale
 - `content/en-mt/ac/VIII/03_s3_dimension_des_anneaux_noetheriens.md:1` was translated from 9e96d959c564 and content/fr/ac/VIII/03_s3_dimension_des_anneaux_noetheriens.md is now 8a46e9bac74c, so it is stale
@@ -669,16 +572,15 @@ Hard, translation.
 - `content/en-mt/ac/VIII/exercises/s5/31.md:1` was translated from 1ac72854d736 and content/fr/ac/VIII/exercises/s5/31.md is now af2b9cad193f, so it is stale
 - `content/en-mt/ac/VIII/exercises/s6/01.md:1` was translated from c158d78d6763 and content/fr/ac/VIII/exercises/s6/01.md is now 597f1984d59d, so it is stale
 - `content/en-mt/ac/VIII/exercises/s6/10.md:1` was translated from 75ab37643168 and content/fr/ac/VIII/exercises/s6/10.md is now b77cae63f1d4, so it is stale
-- `content/en-mt/ac/X/10_s10_cohomologie_locale_dualite_de.md:1` was translated from e8bae18987be and content/fr/ac/X/10_s10_cohomologie_locale_dualite_de.md is now cc968c21a6b9, so it is stale
-- `content/en-mt/alg/IX/01_s1_formes_sesquilineaires.md:1` was translated from b21644da4629 and content/fr/alg/IX/01_s1_formes_sesquilineaires.md is now 17986366f0f9, so it is stale
-- `content/en-mt/alg/IX/02_s2_discriminant_d_une_forme_sesquilineaire.md:1` was translated from a03e917bbb71 and content/fr/alg/IX/02_s2_discriminant_d_une_forme_sesquilineaire.md is now 8ddfa6db9a8b, so it is stale
-- `content/en-mt/alg/IX/03_s3_formes_hermitiennes_et_formes.md:1` was translated from 0bb759b2ee3f and content/fr/alg/IX/03_s3_formes_hermitiennes_et_formes.md is now 59890c4cfc29, so it is stale
-- `content/en-mt/alg/IX/08_s8_types_de_formes_quadratiques.md:1` was translated from 41114d3659ba and content/fr/alg/IX/08_s8_types_de_formes_quadratiques.md is now 36d38eb198ac, so it is stale
-- `content/en-mt/alg/IX/historical_note.md:1` was translated from aed5e3a04f9f and content/fr/alg/IX/historical_note.md is now c9e644b03e5f, so it is stale
-- `content/en-mt/alg/X/01_s1_complements_d_algebre_lineaire.md:1` was translated from bc19da43004b and content/fr/alg/X/01_s1_complements_d_algebre_lineaire.md is now 5b86281421f2, so it is stale
-- `content/en-mt/alg/X/02_s2_complexes_de_a_modules.md:1` was translated from e39dbf624efa and content/fr/alg/X/02_s2_complexes_de_a_modules.md is now 430152bcc98f, so it is stale
+- `content/en-mt/ac/X/01_s1_profondeur.md:1` was translated from 225c9460593c and content/fr/ac/X/01_s1_profondeur.md is now b596f2694273, so it is stale
+- `content/en-mt/ac/X/02_s2_modules_et_anneaux_macaulayens.md:1` was translated from 2bb1ee1d8fa0 and content/fr/ac/X/02_s2_modules_et_anneaux_macaulayens.md is now ff330e575d48, so it is stale
+- `content/en-mt/ac/X/03_s3_profondeur_et_dimension_homologique.md:1` was translated from dd683aa9a7b9 and content/fr/ac/X/03_s3_profondeur_et_dimension_homologique.md is now cff1e54e677d, so it is stale
+- `content/en-mt/ac/X/04_s4_anneaux_reguliers.md:1` was translated from 3693d2c40a9c and content/fr/ac/X/04_s4_anneaux_reguliers.md is now a112d6812052, so it is stale
+- `content/en-mt/ac/X/05_s5_intersections_completes.md:1` was translated from 7f166664ba4b and content/fr/ac/X/05_s5_intersections_completes.md is now eeb344109e82, so it is stale
+- `content/en-mt/ac/X/06_s6_extension_des_scalaires_dans_les.md:1` was translated from 5ce020b59466 and content/fr/ac/X/06_s6_extension_des_scalaires_dans_les.md is now c84c8e9bbfd7, so it is stale
+- `content/en-mt/ac/X/07_s7_algebres_lisses.md:1` was translated from d68b9c7325c8 and content/fr/ac/X/07_s7_algebres_lisses.md is now 88cf6f006be0, so it is stale
 
-and 273 more, which `bourbaki audit -only L05` prints in full.
+and 316 more, which `bourbaki audit -only L05` prints in full.
 
 ## L06 the glossary is followed (2016)
 
@@ -834,12 +736,6 @@ Hard, translation.
 
 and 24 more, which `bourbaki audit -only L11` prints in full.
 
-## L12 a word set inside the mathematics is translated too (1)
-
-Hard, translation.
-
-- `content/en-mt/ac/IX/exercises/s1/29.md:23` math span 5 holds \text{ On a donc}, which is prose and is still in English
-
 ## L13 no word is written in another alphabet (73)
 
 Hard, translation.
@@ -871,12 +767,6 @@ Hard, translation.
 - `content/vi/alg/II/exercises/s2/03.md:120` "F_λ" is written in Greek, and this is vi
 
 and 48 more, which `bourbaki audit -only L13` prints in full.
-
-## L14 a bibliography entry stands as printed (1)
-
-Hard, translation.
-
-- `content/vi/ac/VII/historical_note.md:1` bibliography entry 14 is ".... MACAULAY, Về sự phân giải của một hệ m..." and the English has ".... MACAULAY, On the resolution of a given...", and an entry stands as printed
 
 ## L15 no translation was written on the free gateway (6)
 
