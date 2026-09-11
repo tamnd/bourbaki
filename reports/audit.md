@@ -14,15 +14,15 @@ Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 
 | --- | ---: | ---: | ---: | --- |
 | structure | 13 | 1 | 0 | S08 (217), S09 (17), S11 (433), S12 (79), S14 (799) |
 | tags | 7 | 1 | 1 | T03 (23302), T10 (8) |
-| mathematics | 10 | 5 | 0 | M02 (22), M03 (1255), M04 (8), M05 (1), M06 (6), M07 (11), M11 (5), M13 (51), M14 (2692), M15 (673) |
+| mathematics | 9 | 5 | 1 | M02 (22), M03 (1255), M05 (1), M06 (6), M07 (11), M11 (5), M13 (51), M14 (2692), M15 (673) |
 | figures | 6 | 0 | 0 | F01 (158) |
 | references | 3 | 0 | 0 | R01 (3369), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1362), L02 (2), L03 (52), L04 (51), L05 (302), L06 (2016), L07 (21), L08 (5659), L10 (262), L11 (49), L12 (1), L13 (73), L14 (1), L15 (6), L16 (45) |
+| translation | 13 | 3 | 1 | L01 (1362), L02 (2), L03 (52), L04 (51), L05 (298), L06 (2016), L07 (21), L08 (5659), L10 (262), L11 (49), L12 (1), L13 (73), L14 (1), L15 (6), L16 (45) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | H06 (1) |
 
-31575 hard findings and 11948 soft, over 76 rules that ran and 2 that could not.
+31563 hard findings and 11948 soft, over 75 rules that ran and 3 that could not.
 
 ## Rules that did not run
 
@@ -30,6 +30,7 @@ A rule that has nothing to look at is reported here rather than counted as a
 pass, because a green that comes from an empty corpus is the one kind nobody
 should trust.
 
+- **M04** every math span parses: not asked for, run with -validate-tex
 - **T05** tags is only ever appended to, and T08 is this read off a diff: no base commit given
 - **L09** the glossary version moves when the renderings do: no base revision was given, so there is nothing to compare the glossary against
 
@@ -129,19 +130,6 @@ Hard, mathematics.
 - `content/en-mt/alg/IX/03_s3_formes_hermitiennes_et_formes.md:371` the letter 'α' where its TeX belongs inside the mathematics: α, β
 
 and 1230 more, which `bourbaki audit -only M03` prints in full.
-
-## M04 every math span parses (8)
-
-Hard, mathematics.
-
-- `content/en/ac/VII/04_s4_modules_over_integrally_closed.md:359` a '_' with nothing under it: M_ = N_p
-- `content/en/ac/VII/04_s4_modules_over_integrally_closed.md:393` a '_' with nothing under it: N_ = Q_ = N(p)
-- `content/en/alg/V/11_s11_abelian_extensions.md:600` a '_' with nothing under it: a_ : (\mathcal{P}(L) \cap K)/\mathcal{P}(K) \to \m…
-- `content/en/alg/VII/exercises/s5/12.md:14` a '_' with nothing under it: M_ = M/N
-- `content/vi/ac/VII/04_s4_modules_over_integrally_closed.md:365` a '_' with nothing under it: M_ = N_p
-- `content/vi/ac/VII/04_s4_modules_over_integrally_closed.md:399` a '_' with nothing under it: N_ = Q_ = N(p)
-- `content/vi/alg/V/11_s11_abelian_extensions.md:607` a '_' with nothing under it: a_ : (\mathcal{P}(L) \cap K)/\mathcal{P}(K) \to \m…
-- `content/vi/alg/VII/exercises/s5/12.md:21` a '_' with nothing under it: M_ = M/N
 
 ## M05 no illegible marker is left in the corpus (1)
 
@@ -682,7 +670,7 @@ Hard, translation.
 
 and 26 more, which `bourbaki audit -only L04` prints in full.
 
-## L05 source_content_sha256 is the English hash as it stands (302)
+## L05 source_content_sha256 is the English hash as it stands (298)
 
 Hard, translation.
 
@@ -712,7 +700,7 @@ Hard, translation.
 - `content/en-mt/alg/X/01_s1_complements_d_algebre_lineaire.md:1` was translated from bc19da43004b and content/fr/alg/X/01_s1_complements_d_algebre_lineaire.md is now 661e6e611980, so it is stale
 - `content/en-mt/alg/X/02_s2_complexes_de_a_modules.md:1` was translated from e39dbf624efa and content/fr/alg/X/02_s2_complexes_de_a_modules.md is now 000a48d0cc41, so it is stale
 
-and 277 more, which `bourbaki audit -only L05` prints in full.
+and 273 more, which `bourbaki audit -only L05` prints in full.
 
 ## L06 the glossary is followed (2016)
 

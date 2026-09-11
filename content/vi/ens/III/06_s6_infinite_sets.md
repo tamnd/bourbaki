@@ -36,7 +36,7 @@ statements: 26
 exercises: 32
 content_sha256: 4a44548a62b9048e0b0c133b30754c6e2f8c99428be39737300797b76f1e4fc2
 translated_from: content/en/ens/III/06_s6_infinite_sets.md
-source_content_sha256: 9dad8d983ddd8f3b0b6298831408a4064ea8b6e7bd8b96cdff8003a923a1c904
+source_content_sha256: 567e0c5f3b6c1ecb2bc3cd823e4e97976fc38f1c07ab89e7b0f38f5f38c28c46
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-25341e40
 glossary_version: 34

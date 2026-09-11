@@ -24,7 +24,7 @@ statements: 4
 exercises: 2
 content_sha256: 926d55fb6dbc905005dd6046aa740dfbb798a6e3b2cbfbd7cfcfa6feaa86dbb8
 translated_from: content/en/ens/II/02_s2_ordered_pairs.md
-source_content_sha256: f473daade1409be8bf0f14c3e035373513374f1c79945abe02bfe401f01ae8ce
+source_content_sha256: 30cc0208eaab54246e96f854154d361c7bc5ca97861fad03285d7ff5c5137aa4
 translation_model: gpt-5.4, gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-4abbdd52
 glossary_version: 34

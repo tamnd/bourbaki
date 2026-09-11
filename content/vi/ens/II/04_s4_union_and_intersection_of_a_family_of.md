@@ -48,7 +48,7 @@ statements: 22
 exercises: 8
 content_sha256: 1adf933b478fbf8e985975279db3e0878dcd034beaebd7fe1a4f25a966ae8f2a
 translated_from: content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md
-source_content_sha256: 32dab807d5a0ef307546f801f396883f1054bfe9358e046025e46f1ec896838b
+source_content_sha256: c8fd3f17f42e974a252f4d880619803570369c6870f994dc645984b60d03b8d3
 translation_model: gpt-5.4, copied
 translation_run: translate-vi-3107348b
 glossary_version: 34
