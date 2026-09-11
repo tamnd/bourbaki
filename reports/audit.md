@@ -6,23 +6,23 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 tags, 22379 references, 14938 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
+Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 tags, 22379 references, 14939 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
 
 ## Summary
 
 | Group | Hard | Soft | Not run | Failing |
 | --- | ---: | ---: | ---: | --- |
-| structure | 13 | 1 | 0 | S08 (217), S09 (17), S11 (433), S12 (79), S14 (799) |
+| structure | 13 | 1 | 0 | S08 (104), S09 (47), S11 (433), S12 (82), S14 (799) |
 | tags | 7 | 1 | 1 | T03 (23302), T10 (8) |
-| mathematics | 9 | 5 | 1 | M02 (22), M03 (1255), M05 (1), M06 (6), M07 (11), M11 (5), M13 (51), M14 (2692), M15 (673) |
+| mathematics | 9 | 5 | 1 | M02 (22), M03 (1255), M05 (1), M06 (6), M07 (11), M11 (5), M13 (51), M14 (2692) |
 | figures | 6 | 0 | 0 | F01 (158) |
 | references | 3 | 0 | 0 | R01 (3369), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1362), L02 (2), L03 (52), L04 (51), L05 (298), L06 (2016), L07 (21), L08 (5659), L10 (262), L11 (49), L12 (1), L13 (73), L14 (1), L15 (6), L16 (45) |
+| translation | 13 | 3 | 1 | L01 (1363), L02 (2), L03 (52), L04 (51), L05 (298), L06 (2016), L07 (21), L08 (5659), L10 (262), L11 (49), L12 (1), L13 (73), L14 (1), L15 (6), L16 (45) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | H06 (1) |
 
-31563 hard findings and 11948 soft, over 75 rules that ran and 3 that could not.
+31484 hard findings and 11275 soft, over 75 rules that ran and 3 that could not.
 
 ## Rules that did not run
 
@@ -238,38 +238,6 @@ Soft, mathematics.
 
 and 2667 more, which `bourbaki audit -only M14` prints in full.
 
-## M15 one volume, one spelling for the script capitals (673)
-
-Soft, mathematics.
-
-- `content/en-mt/ac/VIII/exercises/s6/04.md:31` \mathcal{J} here, and \mathscr{J} 5 times in content/en-mt/ac against 1 of this one, so one symbol prints two ways
-- `content/en-mt/ac/X/03_s3_profondeur_et_dimension_homologique.md:490` \mathscr{C} here, and \mathcal{C} 114 times in content/en-mt/ac against 2 of this one, so one symbol prints two ways
-- `content/en-mt/ac/X/10_s10_cohomologie_locale_dualite_de.md:43` \mathscr{D} here, and \mathcal{D} 21 times in content/en-mt/ac against 10 of this one, so one symbol prints two ways
-- `content/en-mt/ac/X/10_s10_cohomologie_locale_dualite_de.md:61` \mathscr{E} here, and \mathcal{E} 11 times in content/en-mt/ac against 3 of this one, so one symbol prints two ways
-- `content/en-mt/alg/X/03_s3_resolutions.md:838` \mathscr{C} here, and \mathcal{C} 150 times in content/en-mt/alg against 14 of this one, so one symbol prints two ways
-- `content/en-mt/alg/X/05_s5_modules_d_extensions.md:639` \mathscr{E} here, and \mathcal{E} 80 times in content/en-mt/alg against 6 of this one, so one symbol prints two ways
-- `content/en-mt/alg/X/07_s7_produit_de_composition.md:976` \mathscr{S} here, and \mathcal{S} 22 times in content/en-mt/alg against 4 of this one, so one symbol prints two ways
-- `content/en-mt/alg/X/exercises/s7/05.md:24` \mathscr{E} here, and \mathcal{E} 80 times in content/en-mt/alg against 6 of this one, so one symbol prints two ways
-- `content/en-mt/alg/X/exercises/s7/06.md:25` \mathscr{E} here, and \mathcal{E} 80 times in content/en-mt/alg against 6 of this one, so one symbol prints two ways
-- `content/en-mt/int/VIII/exercises/s3/15.md:28` \mathscr{K} here, and \mathcal{K} 8 times in content/en-mt/int against 4 of this one, so one symbol prints two ways
-- `content/en-mt/int/VIII/exercises/s3/16.md:24` \mathscr{K} here, and \mathcal{K} 8 times in content/en-mt/int against 4 of this one, so one symbol prints two ways
-- `content/en-mt/int/VIII/exercises/s3/17.md:26` \mathscr{K} here, and \mathcal{K} 8 times in content/en-mt/int against 4 of this one, so one symbol prints two ways
-- `content/en-mt/var/1/03_s3_fonctions_analytiques_reelles_ou.md:271` \mathscr{H} here, and \mathcal{H} 73 times in content/en-mt/var against 1 of this one, so one symbol prints two ways
-- `content/en-mt/var/1/05_s5_varietes.md:189` \mathscr{C} here, and \mathcal{C} 39 times in content/en-mt/var against 4 of this one, so one symbol prints two ways
-- `content/en-mt/var/1/07_s7_fibres_vectoriels.md:181` \mathscr{C} here, and \mathcal{C} 39 times in content/en-mt/var against 4 of this one, so one symbol prints two ways
-- `content/en-mt/var/1/07_s7_fibres_vectoriels.md:181` \mathscr{S} here, and \mathcal{S} 17 times in content/en-mt/var against 14 of this one, so one symbol prints two ways
-- `content/en-mt/var/1/07_s7_fibres_vectoriels.md:326` \mathscr{F} here, and \mathcal{F} 15 times in content/en-mt/var against 3 of this one, so one symbol prints two ways
-- `content/en/ac/II/exercises/s2/21.md:24` \mathscr{F} here, and \mathcal{F} 290 times in content/en/ac against 27 of this one, so one symbol prints two ways
-- `content/en/ac/II/exercises/s2/21.md:26` \mathscr{G} here, and \mathcal{G} 262 times in content/en/ac against 5 of this one, so one symbol prints two ways
-- `content/en/ac/II/exercises/s2/22.md:16` \mathscr{F} here, and \mathcal{F} 290 times in content/en/ac against 27 of this one, so one symbol prints two ways
-- `content/en/ac/III/04_s4_lifting_in_complete_rings.md:168` \mathscr{B} here, and \mathcal{B} 29 times in content/en/ac against 5 of this one, so one symbol prints two ways
-- `content/en/ac/VI/06_s6_absolute_values.md:56` \mathscr{V} here, and \mathcal{V} 8 times in content/en/ac against 3 of this one, so one symbol prints two ways
-- `content/en/alg/I/01_s1_laws_of_composition_associativity.md:96` \mathcal{A} here, and \mathscr{A} 30 times in content/en/alg against 30 of this one, so one symbol prints two ways
-- `content/en/alg/I/01_s1_laws_of_composition_associativity.md:96` \mathcal{B} here, and \mathscr{B} 43 times in content/en/alg against 9 of this one, so one symbol prints two ways
-- `content/en/alg/I/05_s5_groups_operating_on_a_set.md:273` \mathcal{S} here, and \mathscr{S} 423 times in content/en/alg against 40 of this one, so one symbol prints two ways
-
-and 648 more, which `bourbaki audit -only M15` prints in full.
-
 ## R01 every in-corpus reference resolves (3369)
 
 Hard, references.
@@ -372,7 +340,7 @@ Soft, solutions.
 
 and 12 more, which `bourbaki audit -only X06` prints in full.
 
-## S08 content_sha256 describes the body under it (217)
+## S08 content_sha256 describes the body under it (104)
 
 Hard, structure.
 
@@ -380,34 +348,36 @@ Hard, structure.
 - `content/en-mt/ts/V/02_s2_representations_des_groupes_localement.md:1` content_sha256 is c28075aaca88 and the body hashes to 3fce9102ca20
 - `content/en-mt/ts/V/03_s3_fonctions_de_type_positif.md:1` content_sha256 is a6b6b45dafab and the body hashes to 4257ce857ea6
 - `content/vi/ac/I/02_s2_flat_modules.md:1` content_sha256 is 818fe4abc7b1 and the body hashes to 4ea798903e7d
-- `content/vi/ac/II/02_s2_rings_and_modules_of_fractions.md:1` content_sha256 is da9b36a5c152 and the body hashes to 756e43ef6929
 - `content/vi/ac/II/03_s3_local_rings_passage_from_the_local_to.md:1` content_sha256 is 96f45460365d and the body hashes to 4096626b1735
-- `content/vi/ac/II/04_s4_spectra_of_rings_and_supports_of_modules.md:1` content_sha256 is 14f73fe44fb9 and the body hashes to f9cd00a9ed90
-- `content/vi/ac/II/05_s5_finitely_generated_projective_modules.md:1` content_sha256 is 015a255aaa0a and the body hashes to b229ba034184
-- `content/vi/ac/III/02_s2_general_results_on_filtered_rings_and.md:1` content_sha256 is 91252eda42cd and the body hashes to 0005005810ce
-- `content/vi/ac/III/04_s4_lifting_in_complete_rings.md:1` content_sha256 is b7dd1ff83282 and the body hashes to 7d532463ddee
-- `content/vi/ac/IV/02_s2_primary_decomposition.md:1` content_sha256 is 7dacd2f7dcc6 and the body hashes to 4d22e8337fa0
-- `content/vi/ac/IV/03_s3_primary_decomposition_in_graded_modules.md:1` content_sha256 is 037baafad936 and the body hashes to 890fb9009871
 - `content/vi/ac/IX/A_a_.md:1` content_sha256 is 8d6da072ed6f and the body hashes to 528bd946d831
-- `content/vi/ac/V/01_s1_notion_of_an_integral_element.md:1` content_sha256 is c9fe750c6079 and the body hashes to fb23e293176d
-- `content/vi/ac/V/02_s2_the_lift_of_prime_ideals.md:1` content_sha256 is 755e2932b4f6 and the body hashes to c48630bd3292
 - `content/vi/ac/V/03_s3_finitely_generated_algebras_over_a_field.md:1` content_sha256 is c4ed63139b7e and the body hashes to e7d58b4e4e69
-- `content/vi/ac/VI/04_s4_the_height_of_a_valuation.md:1` content_sha256 is 6fd0b6c638a9 and the body hashes to c3bbc6e83bbd
-- `content/vi/ac/VI/06_s6_absolute_values.md:1` content_sha256 is 52c4b38007c5 and the body hashes to c1bd0bc18d8d
-- `content/vi/ac/VI/08_s8_extensions_of_a_valuation_to_an.md:1` content_sha256 is 8a7d1b3cf1bd and the body hashes to 35e242ef6192
 - `content/vi/ac/VII/01_s1_krull_domains.md:1` content_sha256 is 1e14e6771880 and the body hashes to beefcc0a3a38
-- `content/vi/ac/VII/02_s2_dedekind_domains.md:1` content_sha256 is 33b338ac6122 and the body hashes to aa419d40e238
-- `content/vi/ac/VII/04_s4_modules_over_integrally_closed.md:1` content_sha256 is f0d3c5bcd614 and the body hashes to a70620bda0d7
-- `content/vi/ac/VII/historical_note.md:1` content_sha256 is c26bd9d8cff9 and the body hashes to a55def16e266
 - `content/vi/ac/VIII/04_s4_series_de_hilbert_samuel.md:1` content_sha256 is 743db54e2b37 and the body hashes to 220223eab28a
-- `content/vi/ac/VIII/07_s7_multiplicites.md:1` content_sha256 is 1eeb40001454 and the body hashes to 64efe5711af6
+- `content/vi/ac/X/01_s1_profondeur.md:1` content_sha256 is 03bd9f682027 and the body hashes to 182357d40771
+- `content/vi/ac/X/06_s6_extension_des_scalaires_dans_les.md:1` content_sha256 is be4a111d950c and the body hashes to 860169b56ee2
+- `content/vi/ac/X/07_s7_algebres_lisses.md:1` content_sha256 is 36dc295b4939 and the body hashes to c557fd6024f7
+- `content/vi/alg/00_to_the_reader_iv_vii.md:1` content_sha256 is f88c25ae68a7 and the body hashes to 92ef1b01614b
+- `content/vi/alg/00_to_the_reader_viii.md:1` content_sha256 is 63fcff221e5f and the body hashes to 63b4ce9b29b9
+- `content/vi/alg/I/historical_note.md:1` content_sha256 is 5316ff81c502 and the body hashes to 284c60783757
+- `content/vi/alg/II/06_s6_inverse_and_direct_limits_of_modules.md:1` content_sha256 is 90d2e3437990 and the body hashes to ef6a17c82946
+- `content/vi/alg/II/09_s9_affine_spaces_and_projective_spaces.md:1` content_sha256 is 4a5fba84198e and the body hashes to 5aa86ccc358d
+- `content/vi/alg/III/02_s2_examples_of_algebras.md:1` content_sha256 is efcac11f6e50 and the body hashes to 2f070e92001b
+- `content/vi/alg/IV/03_s3_rational_fractions.md:1` content_sha256 is 245d2428f87d and the body hashes to ea8eece537bc
+- `content/vi/alg/IX/08_s8_types_de_formes_quadratiques.md:1` content_sha256 is af3b297f693a and the body hashes to 316838b37b1f
+- `content/vi/alg/IX/historical_note.md:1` content_sha256 is 760055ee03e7 and the body hashes to 763c1ccf1f8a
+- `content/vi/alg/V/09_s9_conjugate_elements_and_quasi_galois.md:1` content_sha256 is 7ef13ffa3bce and the body hashes to 460a5f66c91d
+- `content/vi/alg/V/historical_note.md:1` content_sha256 is 42c1842de7aa and the body hashes to 148ec42683e0
+- `content/vi/alg/VII/04_s4_finitely_generated_modules_over_a.md:1` content_sha256 is 13faf83948b1 and the body hashes to 0b4a28e87f5a
+- `content/vi/alg/VIII/03_s3_simple_modules.md:1` content_sha256 is 884721dc429b and the body hashes to ffab05a82ada
 
-and 192 more, which `bourbaki audit -only S08` prints in full.
+and 79 more, which `bourbaki audit -only S08` prints in full.
 
-## S09 assembly is deterministic and what is committed is what it writes (17)
+## S09 assembly is deterministic and what is committed is what it writes (47)
 
 Hard, structure.
 
+- `content/en/top/X/01_s1_the_uniformity_of_mathcal_g_convergence.md` no page assembles into this file, so it is left over from an earlier split
+- `content/en/top/X/01_s1_the_uniformity_of_mathscr_g_convergence.md` assembly writes this file and the corpus does not have it
 - `content/fr/ac/X/03_s3_profondeur_et_dimension_homologique.md` what is committed is not what assembly writes
 - `content/fr/ac/X/04_s4_anneaux_reguliers.md` what is committed is not what assembly writes
 - `content/fr/ac/X/05_s5_intersections_completes.md` what is committed is not what assembly writes
@@ -424,7 +394,15 @@ Hard, structure.
 - `content/fr/ac/X/exercises/s4/13.md` what is committed is not what assembly writes
 - `content/fr/ac/X/exercises/s5/01.md` what is committed is not what assembly writes
 - `content/fr/ac/X/exercises/s5/02.md` what is committed is not what assembly writes
+- `content/fr/ens/II/exercises/s4/08.md` what is committed is not what assembly writes
+- `manifests/sections/ac-i-vii.yaml` what is committed is not what assembly writes
+- `manifests/sections/ac-v-vii-fr.yaml` what is committed is not what assembly writes
+- `manifests/sections/ac-viii-ix-fr.yaml` what is committed is not what assembly writes
 - `manifests/sections/ac-x-fr.yaml` what is committed is not what assembly writes
+- `manifests/sections/alg-i-iii-fr.yaml` what is committed is not what assembly writes
+- `manifests/sections/alg-i-iii.yaml` what is committed is not what assembly writes
+
+and 22 more, which `bourbaki audit -only S09` prints in full.
 
 ## S11 the printings of a § hold the same exercises (433)
 
@@ -458,7 +436,7 @@ Hard, structure.
 
 and 408 more, which `bourbaki audit -only S11` prints in full.
 
-## S12 the sections manifest names every § file and describes it (79)
+## S12 the sections manifest names every § file and describes it (82)
 
 Hard, structure.
 
@@ -476,6 +454,7 @@ Hard, structure.
 - `content/en/evt/index_of_terminology_i_v.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
 - `content/en/fvr/index_of_notation_i_vii.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
 - `content/en/fvr/index_of_terminology_i_vii.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
+- `content/en/int/00_introduction.md` manifests/sections/ holds content_sha256 b35932fac0c0 and the body here hashes to 6dfc6156ded2
 - `content/en/int/index_of_notation_i_vi.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
 - `content/en/int/index_of_notation_vii_ix.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
 - `content/en/int/index_of_terminology_i_vi.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
@@ -486,9 +465,8 @@ Hard, structure.
 - `content/en/lie/index_of_terminology_i_iii.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
 - `content/en/lie/index_of_terminology_iv_vi.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
 - `content/en/lie/index_of_terminology_vii_ix.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/top/index_of_notation_i_iv.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
 
-and 54 more, which `bourbaki audit -only S12` prints in full.
+and 57 more, which `bourbaki audit -only S12` prints in full.
 
 ## S14 every committed page passes the rules that gated its reading (799)
 
@@ -567,7 +545,7 @@ Soft, tags.
 - `content/vi/ens/II/03_s3_correspondences.md:133` has 03PH after 03PI, which the same run assigned later
 - `content/vi/lie/IX/04_s4_root_system_associated_to_a_compact.md:428` has 01C5 after 01C7, which the same run assigned later
 
-## L01 the math spans are the English ones, in order (1362)
+## L01 the math spans are the English ones, in order (1363)
 
 Hard, translation.
 
@@ -597,7 +575,7 @@ Hard, translation.
 - `content/en-mt/ac/IX/exercises/s1/25.md:37` math span 44 is "c" and the English has "(a, b)"
 - `content/en-mt/ac/IX/exercises/s1/34.md:41` math span 27 is "n" and the English has "X_n"
 
-and 1337 more, which `bourbaki audit -only L01` prints in full.
+and 1338 more, which `bourbaki audit -only L01` prints in full.
 
 ## L02 the tag set is the English one (2)
 
@@ -677,28 +655,28 @@ Hard, translation.
 - `content/en-mt/ac/IX/A_a_.md:1` was translated from 98bbdb09a04c and content/fr/ac/IX/A_a_.md is now e864a39e88aa, so it is stale
 - `content/en-mt/ac/IX/exercises/a0/06.md:1` was translated from 84cbaed7cc3e and content/fr/ac/IX/exercises/a0/06.md is now 93685b02d2a2, so it is stale
 - `content/en-mt/ac/IX/exercises/s4/28.md:1` was translated from 479f795ad971 and content/fr/ac/IX/exercises/s4/28.md is now edcd36869356, so it is stale
-- `content/en-mt/ac/VIII/01_s1_dimension_de_krull_d_un_anneau.md:1` was translated from 39579207db3a and content/fr/ac/VIII/01_s1_dimension_de_krull_d_un_anneau.md is now dfd77bd04b8c, so it is stale
+- `content/en-mt/ac/VIII/01_s1_dimension_de_krull_d_un_anneau.md:1` was translated from 39579207db3a and content/fr/ac/VIII/01_s1_dimension_de_krull_d_un_anneau.md is now e9eeac77edda, so it is stale
 - `content/en-mt/ac/VIII/03_s3_dimension_des_anneaux_noetheriens.md:1` was translated from 9e96d959c564 and content/fr/ac/VIII/03_s3_dimension_des_anneaux_noetheriens.md is now 8a46e9bac74c, so it is stale
 - `content/en-mt/ac/VIII/05_s5_anneaux_locaux_reguliers.md:1` was translated from bc0c6917e598 and content/fr/ac/VIII/05_s5_anneaux_locaux_reguliers.md is now 6ad3c554aa21, so it is stale
 - `content/en-mt/ac/VIII/06_s6_dimension_des_anneaux_gradues.md:1` was translated from 0807723a1c16 and content/fr/ac/VIII/06_s6_dimension_des_anneaux_gradues.md is now bad92e41d0cc, so it is stale
-- `content/en-mt/ac/VIII/07_s7_multiplicites.md:1` was translated from 7d27f7af9a76 and content/fr/ac/VIII/07_s7_multiplicites.md is now 21e410994c18, so it is stale
+- `content/en-mt/ac/VIII/07_s7_multiplicites.md:1` was translated from 7d27f7af9a76 and content/fr/ac/VIII/07_s7_multiplicites.md is now 359de70b757e, so it is stale
 - `content/en-mt/ac/VIII/exercises/s2/16.md:1` was translated from f45209627685 and content/fr/ac/VIII/exercises/s2/16.md is now b7d1e9db8ac9, so it is stale
 - `content/en-mt/ac/VIII/exercises/s2/17.md:1` was translated from 01042526af67 and content/fr/ac/VIII/exercises/s2/17.md is now 7192edc97229, so it is stale
-- `content/en-mt/ac/VIII/exercises/s4/04.md:1` was translated from 20a37b46663a and content/fr/ac/VIII/exercises/s4/04.md is now 9f92c04887c3, so it is stale
+- `content/en-mt/ac/VIII/exercises/s4/04.md:1` was translated from 20a37b46663a and content/fr/ac/VIII/exercises/s4/04.md is now a3372a5fc82a, so it is stale
 - `content/en-mt/ac/VIII/exercises/s5/01.md:1` was translated from 9d00ffe2231f and content/fr/ac/VIII/exercises/s5/01.md is now 0d94abcdfbe7, so it is stale
 - `content/en-mt/ac/VIII/exercises/s5/02.md:1` was translated from 0996dd44a26c and content/fr/ac/VIII/exercises/s5/02.md is now d438634aebe2, so it is stale
 - `content/en-mt/ac/VIII/exercises/s5/13.md:1` was translated from e75deaf4fbc3 and content/fr/ac/VIII/exercises/s5/13.md is now a7469aa89b61, so it is stale
 - `content/en-mt/ac/VIII/exercises/s5/31.md:1` was translated from 1ac72854d736 and content/fr/ac/VIII/exercises/s5/31.md is now af2b9cad193f, so it is stale
 - `content/en-mt/ac/VIII/exercises/s6/01.md:1` was translated from c158d78d6763 and content/fr/ac/VIII/exercises/s6/01.md is now 597f1984d59d, so it is stale
 - `content/en-mt/ac/VIII/exercises/s6/10.md:1` was translated from 75ab37643168 and content/fr/ac/VIII/exercises/s6/10.md is now b77cae63f1d4, so it is stale
-- `content/en-mt/ac/X/10_s10_cohomologie_locale_dualite_de.md:1` was translated from e8bae18987be and content/fr/ac/X/10_s10_cohomologie_locale_dualite_de.md is now 98a442199970, so it is stale
-- `content/en-mt/alg/IX/01_s1_formes_sesquilineaires.md:1` was translated from b21644da4629 and content/fr/alg/IX/01_s1_formes_sesquilineaires.md is now c520c3715bc6, so it is stale
+- `content/en-mt/ac/X/10_s10_cohomologie_locale_dualite_de.md:1` was translated from e8bae18987be and content/fr/ac/X/10_s10_cohomologie_locale_dualite_de.md is now cc968c21a6b9, so it is stale
+- `content/en-mt/alg/IX/01_s1_formes_sesquilineaires.md:1` was translated from b21644da4629 and content/fr/alg/IX/01_s1_formes_sesquilineaires.md is now 17986366f0f9, so it is stale
 - `content/en-mt/alg/IX/02_s2_discriminant_d_une_forme_sesquilineaire.md:1` was translated from a03e917bbb71 and content/fr/alg/IX/02_s2_discriminant_d_une_forme_sesquilineaire.md is now 8ddfa6db9a8b, so it is stale
-- `content/en-mt/alg/IX/03_s3_formes_hermitiennes_et_formes.md:1` was translated from 0bb759b2ee3f and content/fr/alg/IX/03_s3_formes_hermitiennes_et_formes.md is now d7b1f86699f2, so it is stale
+- `content/en-mt/alg/IX/03_s3_formes_hermitiennes_et_formes.md:1` was translated from 0bb759b2ee3f and content/fr/alg/IX/03_s3_formes_hermitiennes_et_formes.md is now 59890c4cfc29, so it is stale
 - `content/en-mt/alg/IX/08_s8_types_de_formes_quadratiques.md:1` was translated from 41114d3659ba and content/fr/alg/IX/08_s8_types_de_formes_quadratiques.md is now 36d38eb198ac, so it is stale
 - `content/en-mt/alg/IX/historical_note.md:1` was translated from aed5e3a04f9f and content/fr/alg/IX/historical_note.md is now c9e644b03e5f, so it is stale
-- `content/en-mt/alg/X/01_s1_complements_d_algebre_lineaire.md:1` was translated from bc19da43004b and content/fr/alg/X/01_s1_complements_d_algebre_lineaire.md is now 661e6e611980, so it is stale
-- `content/en-mt/alg/X/02_s2_complexes_de_a_modules.md:1` was translated from e39dbf624efa and content/fr/alg/X/02_s2_complexes_de_a_modules.md is now 000a48d0cc41, so it is stale
+- `content/en-mt/alg/X/01_s1_complements_d_algebre_lineaire.md:1` was translated from bc19da43004b and content/fr/alg/X/01_s1_complements_d_algebre_lineaire.md is now 5b86281421f2, so it is stale
+- `content/en-mt/alg/X/02_s2_complexes_de_a_modules.md:1` was translated from e39dbf624efa and content/fr/alg/X/02_s2_complexes_de_a_modules.md is now 430152bcc98f, so it is stale
 
 and 273 more, which `bourbaki audit -only L05` prints in full.
 
