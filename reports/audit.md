@@ -12,7 +12,7 @@ Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 
 
 | Group | Hard | Soft | Not run | Failing |
 | --- | ---: | ---: | ---: | --- |
-| structure | 13 | 1 | 0 | S08 (102), S11 (433), S12 (79), S14 (799) |
+| structure | 13 | 1 | 0 | S11 (433), S14 (799) |
 | tags | 7 | 1 | 1 | T03 (23302), T10 (8) |
 | mathematics | 10 | 5 | 0 | M03 (1251), M06 (6), M13 (48), M14 (2690) |
 | figures | 6 | 0 | 0 | F01 (158) |
@@ -22,7 +22,7 @@ Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-31458 hard findings and 11270 soft, over 76 rules that ran and 2 that could not.
+31277 hard findings and 11270 soft, over 76 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -274,38 +274,6 @@ Soft, solutions.
 
 and 12 more, which `bourbaki audit -only X06` prints in full.
 
-## S08 content_sha256 describes the body under it (102)
-
-Hard, structure.
-
-- `content/en-mt/ts/IV/03_s3_distributions_et_distributions_temperees.md:1` content_sha256 is 83403e096a36 and the body hashes to 5322fbf455bd
-- `content/en-mt/ts/V/02_s2_representations_des_groupes_localement.md:1` content_sha256 is c28075aaca88 and the body hashes to 3fce9102ca20
-- `content/en-mt/ts/V/03_s3_fonctions_de_type_positif.md:1` content_sha256 is a6b6b45dafab and the body hashes to 4257ce857ea6
-- `content/vi/ac/I/02_s2_flat_modules.md:1` content_sha256 is 818fe4abc7b1 and the body hashes to 4ea798903e7d
-- `content/vi/ac/II/03_s3_local_rings_passage_from_the_local_to.md:1` content_sha256 is 96f45460365d and the body hashes to 4096626b1735
-- `content/vi/ac/IX/A_a_.md:1` content_sha256 is 8d6da072ed6f and the body hashes to 528bd946d831
-- `content/vi/ac/V/03_s3_finitely_generated_algebras_over_a_field.md:1` content_sha256 is c4ed63139b7e and the body hashes to e7d58b4e4e69
-- `content/vi/ac/VII/01_s1_krull_domains.md:1` content_sha256 is 1e14e6771880 and the body hashes to beefcc0a3a38
-- `content/vi/ac/VIII/04_s4_series_de_hilbert_samuel.md:1` content_sha256 is 743db54e2b37 and the body hashes to 220223eab28a
-- `content/vi/alg/00_to_the_reader_iv_vii.md:1` content_sha256 is f88c25ae68a7 and the body hashes to 92ef1b01614b
-- `content/vi/alg/00_to_the_reader_viii.md:1` content_sha256 is 63fcff221e5f and the body hashes to 63b4ce9b29b9
-- `content/vi/alg/I/historical_note.md:1` content_sha256 is 5316ff81c502 and the body hashes to 284c60783757
-- `content/vi/alg/II/06_s6_inverse_and_direct_limits_of_modules.md:1` content_sha256 is 90d2e3437990 and the body hashes to ef6a17c82946
-- `content/vi/alg/II/09_s9_affine_spaces_and_projective_spaces.md:1` content_sha256 is 4a5fba84198e and the body hashes to 5aa86ccc358d
-- `content/vi/alg/III/02_s2_examples_of_algebras.md:1` content_sha256 is efcac11f6e50 and the body hashes to 2f070e92001b
-- `content/vi/alg/IV/03_s3_rational_fractions.md:1` content_sha256 is 245d2428f87d and the body hashes to ea8eece537bc
-- `content/vi/alg/IX/06_s6_proprietes_speciales_aux_formes.md:1` content_sha256 is 460f56890610 and the body hashes to cc12966d6782
-- `content/vi/alg/IX/08_s8_types_de_formes_quadratiques.md:1` content_sha256 is af3b297f693a and the body hashes to 316838b37b1f
-- `content/vi/alg/IX/historical_note.md:1` content_sha256 is 760055ee03e7 and the body hashes to 763c1ccf1f8a
-- `content/vi/alg/V/09_s9_conjugate_elements_and_quasi_galois.md:1` content_sha256 is 7ef13ffa3bce and the body hashes to 460a5f66c91d
-- `content/vi/alg/V/historical_note.md:1` content_sha256 is 42c1842de7aa and the body hashes to 148ec42683e0
-- `content/vi/alg/VII/04_s4_finitely_generated_modules_over_a.md:1` content_sha256 is 13faf83948b1 and the body hashes to 0b4a28e87f5a
-- `content/vi/alg/VIII/03_s3_simple_modules.md:1` content_sha256 is 884721dc429b and the body hashes to ffab05a82ada
-- `content/vi/alg/VIII/08_s8_semisimple_rings.md:1` content_sha256 is e0c2f8998f17 and the body hashes to 2c9c06b5d46a
-- `content/vi/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md:1` content_sha256 is c9069565ee8b and the body hashes to 334a06d68aab
-
-and 77 more, which `bourbaki audit -only S08` prints in full.
-
 ## S11 the printings of a § hold the same exercises (433)
 
 Hard, structure.
@@ -337,38 +305,6 @@ Hard, structure.
 - `content/en/alg/II/exercises/s9` exercise 14 is in fr and not here, and editions.yaml does not say the printings differ
 
 and 408 more, which `bourbaki audit -only S11` prints in full.
-
-## S12 the sections manifest names every § file and describes it (79)
-
-Hard, structure.
-
-- `content/en/ac/index_of_notation_i_vii.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/ac/index_of_terminology_i_vii.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/alg/index_of_notation_i_iii.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/alg/index_of_notation_iv_vii.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/alg/index_of_notation_viii.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/alg/index_of_terminology_i_iii.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/alg/index_of_terminology_iv_vii.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/alg/index_of_terminology_viii.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/ens/index_of_notation_i_iv.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/ens/index_of_terminology_i_iv.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/evt/index_of_notation_i_v.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/evt/index_of_terminology_i_v.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/fvr/index_of_notation_i_vii.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/fvr/index_of_terminology_i_vii.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/int/index_of_notation_i_vi.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/int/index_of_notation_vii_ix.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/int/index_of_terminology_i_vi.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/int/index_of_terminology_vii_ix.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/lie/index_of_notation_i_iii.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/lie/index_of_notation_iv_vi.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/lie/index_of_notation_vii_ix.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/lie/index_of_terminology_i_iii.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/lie/index_of_terminology_iv_vi.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/lie/index_of_terminology_vii_ix.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-- `content/en/top/index_of_notation_i_iv.md` no entry in manifests/sections/, so nothing that reads the manifest can reach this file
-
-and 54 more, which `bourbaki audit -only S12` prints in full.
 
 ## S14 every committed page passes the rules that gated its reading (799)
 
