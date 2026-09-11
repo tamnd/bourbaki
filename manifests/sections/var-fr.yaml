@@ -121,6 +121,105 @@ chapters:
           exercises: 0
           extraction: ocr
           content_sha256: f1dc7a1707b5ba2507432005cc6e85f8e67f7ca479ba82fa2571925dc76696c5
+    - chapter: "2"
+      title: VARIÉTÉS DIFFÉRENTIELLES ET ANALYTIQUES, FASCICULE DE RÉSULTATS
+      sections:
+        - kind: section
+          section: 8
+          title: Le calcul différentiel d’ordre 1
+          path: content/fr/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md
+          label: var-2-s8
+          first_pdf_page: 99
+          last_pdf_page: 115
+          subsections: 8
+          statements: 0
+          exercises: 0
+          extraction: ocr
+          content_sha256: 8e5eb0df8ca06a478d639eada2c7d5b89876793e8c3fe822ad7724a41e0f6db2
+        - kind: section
+          section: 9
+          title: Equations différentielles et feuilletages
+          path: content/fr/var/2/09_s9_equations_differentielles_et.md
+          label: var-2-s9
+          first_pdf_page: 116
+          last_pdf_page: 125
+          subsections: 4
+          statements: 2
+          exercises: 0
+          extraction: ocr
+          content_sha256: a65d2285e0ec3b5e8e51427bcedc796fffee8d546e725662827c97e254fda4a1
+        - kind: section
+          section: 10
+          title: Mesures définies par des formes différentielles
+          path: content/fr/var/2/10_s10_mesures_definies_par_des_formes.md
+          label: var-2-s10
+          first_pdf_page: 126
+          last_pdf_page: 135
+          subsections: 4
+          statements: 0
+          exercises: 0
+          extraction: ocr
+          content_sha256: 0c1bcecfea38bc2fc1272b64c6d5313be25d53ad6f0919550db0761e5da947f0
+        - kind: section
+          section: 11
+          title: Formule de Stokes
+          path: content/fr/var/2/11_s11_formule_de_stokes.md
+          label: var-2-s11
+          first_pdf_page: 136
+          last_pdf_page: 142
+          subsections: 4
+          statements: 1
+          exercises: 0
+          extraction: ocr
+          content_sha256: f1165c8a6f12721343d74c911068a2aca50a9171ac61b24075e228a251000002
+        - kind: section
+          section: 12
+          title: Jets
+          path: content/fr/var/2/12_s12_jets.md
+          label: var-2-s12
+          first_pdf_page: 143
+          last_pdf_page: 151
+          subsections: 7
+          statements: 1
+          exercises: 0
+          extraction: ocr
+          content_sha256: 3cef1d15729f7411300863edad308e8143c54cc5db300a69be7628ab5c76eb0f
+        - kind: section
+          section: 13
+          title: Distributions ponctuelles
+          path: content/fr/var/2/13_s13_distributions_ponctuelles.md
+          label: var-2-s13
+          first_pdf_page: 152
+          last_pdf_page: 161
+          subsections: 7
+          statements: 0
+          exercises: 0
+          extraction: ocr
+          content_sha256: 4e1cfc6fb0ea10651026181a15c455ecd575a63746635f7a5b12e614beb9bb93
+        - kind: section
+          section: 14
+          title: Opérateurs différentiels
+          path: content/fr/var/2/14_s14_operateurs_differentiels.md
+          label: var-2-s14
+          first_pdf_page: 162
+          last_pdf_page: 173
+          subsections: 4
+          statements: 2
+          exercises: 0
+          extraction: ocr
+          content_sha256: 1392eb42732e48e986a4b120baebb41eb1413b70e59d35e31a21984b15deb2b5
+        - kind: section
+          section: 15
+          title: Variétés d’applications
+          path: content/fr/var/2/15_s15_varietes_d_applications.md
+          label: var-2-s15
+          first_pdf_page: 174
+          last_pdf_page: 180
+          subsections: 3
+          statements: 0
+          exercises: 0
+          extraction: ocr
+          content_sha256: 47894c25c40367c68b455261d80abc0b0ca0569826499d939d8b09720496f1ec
 notation_index:
     kind: notation
     title: INDEX DES NOTATIONS
