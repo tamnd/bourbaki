@@ -12,7 +12,7 @@ pdf_pages: 0604-0609
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 18526f8205ac795b350a0754c7249c525de8efd1613ba42ea3f28cc091428c09
+content_sha256: b7b5d30baa6c9a8a30217479ebca539286c68deabf67c1262ebf9e3888709c1b
 ---
 
 ## INDEX DES NOTATIONS
@@ -259,14 +259,7 @@ $\det(X)$ ($X$ matrice) : III, p. 92.
 
 $\det(\xi_{ij})_{1 \leq i \leq n, 1 \leq j \leq n}, \det(\xi_{ij})$ : III, p. 93.
 
-$$
-\begin{vmatrix}
-\xi_{11} & \cdots & \xi_{1n} \\
-\cdots & \cdots & \cdots \\
-\xi_{n1} & \cdots & \xi_{nn}
-\end{vmatrix}
-$$
-: III, p. 93.
+$\left|\begin{smallmatrix} \xi_{11} & \cdots & \xi_{1n} \\ \cdots & \cdots & \cdots \\ \xi_{n1} & \cdots & \xi_{nn} \end{smallmatrix}\right|$ : III, p. 93.
 
 $X_{H, K}, X^{ji}$ ($X$ matrice) : III, p. 96--98.
 

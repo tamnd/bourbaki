@@ -14,7 +14,7 @@ pdf_pages: 0693-0700
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 734bea0251a44db9f9a008f22fe767a236dd43e7c0c34e6ff283e867a6388bc8
+content_sha256: 29e2212e9734971d291d51c57d7c75a43de7eca42fbc836a0aa052b06560b7c7
 ---
 
 ## INDEX OF NOTATION
@@ -182,12 +182,7 @@ $\operatorname{Homgr}_A(M, N)$ (M, N graded modules over a graded ring A): II, �
 $\operatorname{Engr}_A(M), M^{*\operatorname{gr}}$ (M a graded module): II, § 11, no. 6.
 $M:N$ (M, N modules): II, § 1, Exercise 24.
 
-$$
-\begin{bmatrix}
-a & b \\
-d & c
-\end{bmatrix}
-$$ (a, b, c, d points on a projective line): II, § 9, Exercise 11.
+$\left[\begin{smallmatrix} a & b \\ d & c \end{smallmatrix}\right]$ (a, b, c, d points on a projective line): II, § 9, Exercise 11.
 
 $\mathbf{SL}(E)$ (E a vector space): II, § 10, Exercise 12.
 $\mathbf{PSL}(E)$ (E a vector space): II, § 10, Exercise 14.
@@ -253,14 +248,7 @@ $\det(x_1, x_2, \ldots, x_n)$ ($x_j$ vectors in an $n$-dimensional free A-module
 $\det(X)$ ($X$ a matrix): III, § 8, no. 3.
 $\det(\xi_{ij})_{1 \leq i \leq n, 1 \leq j \leq n}, \det(\xi_{ij})$: III, § 8, no. 3.
 
-$$
-\begin{vmatrix}
-\xi_{11} & \cdots & \xi_{1n} \\
-\vdots & \ddots & \vdots \\
-\xi_{n1} & \cdots & \xi_{nn}
-\end{vmatrix}
-$$
-: III, § 8, no. 3.
+$\left|\begin{smallmatrix} \xi_{11} & \cdots & \xi_{1n} \\ \vdots & \ddots & \vdots \\ \xi_{n1} & \cdots & \xi_{nn} \end{smallmatrix}\right|$: III, § 8, no. 3.
 
 $X_{H, K}, X^{H}$ ($X$ a matrix): III, § 8, nos 5 and 6.
 $\mathrm{SL}_n(A), \mathrm{SL}(n, A)$: III, § 8, no. 9.
