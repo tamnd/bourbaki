@@ -80,9 +80,21 @@ chapters:
           path: content/fr/lie/VII/A1_a1_applications_polynomiales_et_topologie.md
           label: lie-vii-a1
           first_pdf_page: 45
-          last_pdf_page: 49
+          last_pdf_page: 47
           subsections: 2
-          statements: 10
+          statements: 7
           exercises: 0
           extraction: ocr
-          content_sha256: b0e358a55949c56323f16579e6b156c21b5a698fe5a7c1c68f36f6da38a197df
+          content_sha256: 6f212973ed72a50afbba31dcc5bd4b86cd0ec6f055a1fbbdeecd39565c6434ee
+        - kind: appendix
+          section: 2
+          title: Une propriété de connexion
+          path: content/fr/lie/VII/A2_a2_une_propriete_de_connexion.md
+          label: lie-vii-a2
+          first_pdf_page: 47
+          last_pdf_page: 49
+          subsections: 0
+          statements: 3
+          exercises: 0
+          extraction: ocr
+          content_sha256: d5fcb33ec953de803fd05646024be670cc378c726ebc7fd900c1b5ec819e8750
