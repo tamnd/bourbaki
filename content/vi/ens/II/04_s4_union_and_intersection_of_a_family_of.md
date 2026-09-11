@@ -46,7 +46,7 @@ subsections:
       pdf_page: 107
 statements: 22
 exercises: 8
-content_sha256: 4028ed5112e6fef62b2e7137dfc29b590068d9bf53c73fea061035e6e920594a
+content_sha256: 1adf933b478fbf8e985975279db3e0878dcd034beaebd7fe1a4f25a966ae8f2a
 translated_from: content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md
 source_content_sha256: 32dab807d5a0ef307546f801f396883f1054bfe9358e046025e46f1ec896838b
 translation_model: gpt-5.4, copied

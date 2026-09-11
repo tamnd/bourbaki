@@ -22,7 +22,7 @@ subsections:
       pdf_page: 81
 statements: 4
 exercises: 2
-content_sha256: ebb67e23cedc6762eb93416918467199aed752f1a237228a15e8c9cbf03beb8f
+content_sha256: 926d55fb6dbc905005dd6046aa740dfbb798a6e3b2cbfbd7cfcfa6feaa86dbb8
 translated_from: content/en/ens/II/02_s2_ordered_pairs.md
 source_content_sha256: f473daade1409be8bf0f14c3e035373513374f1c79945abe02bfe401f01ae8ce
 translation_model: gpt-5.4, gpt-5-6-mini, gpt-5-6

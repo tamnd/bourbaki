@@ -34,7 +34,7 @@ subsections:
       pdf_page: 195
 statements: 26
 exercises: 32
-content_sha256: 431d2abeabb9d73f8eff060d1dd5944d843ad05424a502b1df4a4d3c8eb1a1ba
+content_sha256: 4a44548a62b9048e0b0c133b30754c6e2f8c99428be39737300797b76f1e4fc2
 translated_from: content/en/ens/III/06_s6_infinite_sets.md
 source_content_sha256: 9dad8d983ddd8f3b0b6298831408a4064ea8b6e7bd8b96cdff8003a923a1c904
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
