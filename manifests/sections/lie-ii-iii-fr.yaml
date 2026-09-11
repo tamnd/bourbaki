@@ -37,7 +37,7 @@ chapters:
           statements: 31
           exercises: 16
           extraction: ocr
-          content_sha256: 94d37f46a3727af4e40cb66ef6e6c0d9e72be8bac95f1ce35b4437e4dc88ae16
+          content_sha256: e57a57489b8fca62cc8ce24592b52056c88394cb2a381631403a04c65d597fa8
         - kind: section
           section: 3
           title: Algèbre enveloppante de l'algèbre de Lie libre
@@ -61,7 +61,7 @@ chapters:
           statements: 12
           exercises: 5
           extraction: ocr
-          content_sha256: 2080c086bd32da60703b197621d04548a2f018cfbf3337466ee1c03a2e9fddf2
+          content_sha256: 485c05cc673dad0ee62809c94d7ee0487cdd3a011ae327369feaabbdf7643440
         - kind: section
           section: 5
           title: Algèbres de Magnus
@@ -85,7 +85,7 @@ chapters:
           statements: 20
           exercises: 6
           extraction: ocr
-          content_sha256: a10be4f9a4b0a7cf6e5d53c645b9e9ee805b034d054ca0c6ac6bef083bbd4e10
+          content_sha256: 66845e562459ad0f48d49115ae34f7e029bab3484467418167ff84a89a4f7fb7
         - kind: section
           section: 7
           title: Convergence de la série de Hausdorff (cas réel ou complexe)
@@ -97,7 +97,7 @@ chapters:
           statements: 4
           exercises: 1
           extraction: ocr
-          content_sha256: ea409390ec8ccc3ac8355ca182a9deb4d4b417dd1bcfce204350ba948e0b991d
+          content_sha256: 4f97a41fb692b5b50c26808a80915e7bb4a530ff5802c7855df677dc64820c61
         - kind: section
           section: 8
           title: Convergence de la série de Hausdorff (cas ultramétrique)
@@ -133,7 +133,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 2b6051ce91db7a32f04a9b308ecdd1eb65f54c9dedbc0fedeb6bc90c5982293a
+          content_sha256: 36510b7faeb42030ce940afe04fe2546ea55ea28e7a87bc2911e169c2fedea0d
         - kind: section
           section: 1
           title: Groupes de Lie
@@ -145,7 +145,7 @@ chapters:
           statements: 57
           exercises: 10
           extraction: ocr
-          content_sha256: daf1e810cb10a82fd11c52aa27ac0e8805be34f3f67a8d8ba89c110c532e71df
+          content_sha256: 62b754ac2acb25a32f55336926c71cf152c1bc39aa67849ec615b2ae1cd91fe5
         - kind: section
           section: 2
           title: Groupe des vecteurs tangents à un groupe de Lie
@@ -169,7 +169,7 @@ chapters:
           statements: 111
           exercises: 9
           extraction: ocr
-          content_sha256: aa0e966f2ca3ea673d425de7990fbfc2f302925bfe4267822d88438e9f80acb8
+          content_sha256: c03e98e7ebb68d6e0ad174a8132c1308456446a6c5851f7a45c0b7d9d9b17a7d
         - kind: section
           section: 4
           title: Passage des algèbres de Lie aux groupes de Lie
@@ -205,7 +205,7 @@ chapters:
           statements: 76
           exercises: 30
           extraction: ocr
-          content_sha256: 0c0aa45c037a0c8db2516693270edab5bbaa40d762cc847d1c6ef8d1e66d7d67
+          content_sha256: 3f34d03c17af69dcb6ca6302fb7276084dfce77fc9f667bd12f597b4544f7495
         - kind: section
           section: 7
           title: Groupes de Lie sur un corps ultramétrique
@@ -241,7 +241,7 @@ chapters:
           statements: 54
           exercises: 16
           extraction: ocr
-          content_sha256: 0e4e9347d9e21ff0eac39d30f1fdac558deb92c6266df753488921e2b961d6b4
+          content_sha256: 4f0cf8e69d77685047d0ce810cd59cabefa727c46cef0aac8b58876c69be006f
         - kind: section
           section: 10
           title: Le groupe des automorphismes d’un groupe de Lie
@@ -253,7 +253,7 @@ chapters:
           statements: 13
           exercises: 4
           extraction: ocr
-          content_sha256: e7c2ad551ad2ab17c046cd927dbba4140f5587e9127b92ca59cda57c6f04b851
+          content_sha256: e05ce6a992c9c4c6b8d8929b30b1519a691865adddfabdefcdc1b0923b44b93e
         - kind: appendix
           title: Opérations sur les représentations linéaires
           path: content/fr/lie/III/A_a_operations_sur_les_representations.md

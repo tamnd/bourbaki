@@ -49,7 +49,7 @@ subsections:
       pdf_page: 43
 statements: 22
 exercises: 10
-content_sha256: 70815c8f0c59caa459ae983d4d4afb3ca7aaff673e5632c3fd9b6438da4a9e5f
+content_sha256: 0045df6d9c94b39f1c58540ba5107f338fcb8acaabd3d92f8e198096c03665ac
 ---
 
 ## § 2. ENVELOPING ALGEBRA OF A LIE ALGEBRA
@@ -362,18 +362,18 @@ which completes the proof of Lemma 1.
 
 #### Lemma 2 {#lie-i-s2-lem-2 .statement}
 
-*There exists an $\alpha$-mapping $\sigma$ of $g$ into $\mathcal{L}_{K}(P)$ such that:*
+*There exists an $\alpha$-mapping $\sigma$ of $g$ into $\mathscr{L}_{K}(P)$ such that:*
 
 (1) $\sigma(x_{\lambda})z_{M} = z_{\lambda}z_{M}$ for $\lambda \leq M$;
 (2) $\sigma(x_{\lambda})z_{M} \equiv z_{\lambda}z_{M}$ (mod. $P_{p}$) if $M$ has $p$ elements.
 
-By Lemma 1 there exists a homomorphism $f$ of the K-module $g \otimes_{K} P_{p}$ into $P$ satisfying, for all $p$, conditions (A$_{p}$), (B$_{p}$), (C$_{p}$) (where $f_{p}$ is replaced by $f$). This homomorphism defines a homomorphism $\sigma$ of the K-module $g$ into the K-module $\mathcal{L}_{K}(P)$ and $\sigma$ is an $\alpha$-mapping because of condition (C$_{p}$). Finally, $\sigma$ satisfies properties (1) and (2) of the lemma because of conditions (A$_{p}$) and (B$_{p}$).
+By Lemma 1 there exists a homomorphism $f$ of the K-module $g \otimes_{K} P_{p}$ into $P$ satisfying, for all $p$, conditions (A$_{p}$), (B$_{p}$), (C$_{p}$) (where $f_{p}$ is replaced by $f$). This homomorphism defines a homomorphism $\sigma$ of the K-module $g$ into the K-module $\mathscr{L}_{K}(P)$ and $\sigma$ is an $\alpha$-mapping because of condition (C$_{p}$). Finally, $\sigma$ satisfies properties (1) and (2) of the lemma because of conditions (A$_{p}$) and (B$_{p}$).
 
 #### Lemma 3 {#lie-i-s2-lem-3 .statement}
 
 *Let $t$ be a tensor in $T_{n} \cap J$. The homogeneous component $t_{n}$ of $t$ of order $n$ is in the kernel $I$ of the canonical homomorphism $T \to S$.*
 
-We write $t_{n}$ in the form $\sum_{i=1}^{r} x_{M_{i}}$, where the $M_{i}$ are sequences of $n$ elements of $\Lambda$. The mapping $\sigma$ extends to a homomorphism of the algebra $T$ into the algebra $\mathcal{L}_{K}(P)$ (which we shall also denote by $\sigma$), which is zero on $J$. By Lemma 2, $\sigma(t) . 1$ is a polynomial whose terms of highest degree are $\sum_{i=1}^{r} z_{M_{i}}$. As $t \in J$, $\sigma(t) = 0$ and hence $\sum_{i=1}^{r} z_{M_{i}} = 0$ in $P$. Now $P$ is canonically identified with $S$, since $g$ has basis $(x_{\lambda})$. Hence the canonical image of $t_{n}$ in $S$ is zero, that is $t_{n} \in I$.
+We write $t_{n}$ in the form $\sum_{i=1}^{r} x_{M_{i}}$, where the $M_{i}$ are sequences of $n$ elements of $\Lambda$. The mapping $\sigma$ extends to a homomorphism of the algebra $T$ into the algebra $\mathscr{L}_{K}(P)$ (which we shall also denote by $\sigma$), which is zero on $J$. By Lemma 2, $\sigma(t) . 1$ is a polynomial whose terms of highest degree are $\sum_{i=1}^{r} z_{M_{i}}$. As $t \in J$, $\sigma(t) = 0$ and hence $\sum_{i=1}^{r} z_{M_{i}} = 0$ in $P$. Now $P$ is canonically identified with $S$, since $g$ has basis $(x_{\lambda})$. Hence the canonical image of $t_{n}$ in $S$ is zero, that is $t_{n} \in I$.
 
 We can now prove Theorem 1. It is necessary to prove that the canonical homomorphism of $S$ onto $G$ is injective. In other words, if $t \in T^{n}$ and $\psi$ denotes the canonical homomorphism of $T$ onto $U$, it is necessary to show that the condition $\psi(t) \in U_{n-1}$ implies $t \in I$. Now $\psi(t) \in U_{n-1}$ means that there exists a tensor $t' \in T_{n-1}$ such that $t - t' \in J$. The tensor $t - t'$ admits $t$ as homogeneous component of order $n$ and hence $t \in I$ by Lemma 3.
 

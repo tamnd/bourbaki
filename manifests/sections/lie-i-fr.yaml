@@ -25,7 +25,7 @@ chapters:
           statements: 21
           exercises: 27
           extraction: ocr
-          content_sha256: f9553c57b1a48fa1515184945910960cc3c2f3548c230c2ad8aac6ec385c693b
+          content_sha256: c01d9e842e1567443d585d877e5207faa40cd50b9645b2743ea1a275ad7b25a7
         - kind: section
           section: 2
           title: Algèbre enveloppante d’une algèbre de Lie
@@ -37,7 +37,7 @@ chapters:
           statements: 22
           exercises: 10
           extraction: ocr
-          content_sha256: 3cf3af7b337eefd308acb9b2eb008a57d50aa992ab93d70756e22b40fd375586
+          content_sha256: d152eb7c56c9fa4738663bc0edf113ac39698858850f81ad589d64a01e5f66ab
         - kind: section
           section: 3
           title: Représentations
@@ -49,7 +49,7 @@ chapters:
           statements: 23
           exercises: 12
           extraction: ocr
-          content_sha256: 98eb0b5c20a690e1cfd1fe1597946fbbc18957182be29b54bcb587ab5f88fc95
+          content_sha256: b85018fe68f5188618335e09fbdbfcf02e416591c55117db8538e84da0167f72
         - kind: section
           section: 4
           title: Algèbres de Lie nilpotentes
@@ -61,7 +61,7 @@ chapters:
           statements: 18
           exercises: 27
           extraction: ocr
-          content_sha256: da1c428275ca39779a86d49c0013331d644e00605c7f7ea7798aa88ccb67ff6d
+          content_sha256: 6852a97f9584cb9e2c6500bc6ed421e47f78f0dbd984eea90b0a26ab4f5ce176
         - kind: section
           section: 5
           title: Algèbres de Lie résolubles
@@ -73,7 +73,7 @@ chapters:
           statements: 31
           exercises: 17
           extraction: ocr
-          content_sha256: 92c59100943c2827b9f36c287d8bb5cf7fb9727029ae0476849c7530ba5db090
+          content_sha256: c29153ba3e3e0e09f5b04fb3c9a5e823783c1490f9fc346cf806e3b14c85be92
         - kind: section
           section: 6
           title: Algèbres de Lie semi-simples
@@ -85,7 +85,7 @@ chapters:
           statements: 53
           exercises: 27
           extraction: ocr
-          content_sha256: 87a282f119d444f8f1be9df02c5ab840a2722423ceafb8183d3d7e51f79bd855
+          content_sha256: f4a7c703f00fc2511f368764b5627959d7e967ed5445dd9675de195bef57dfbe
         - kind: section
           section: 7
           title: Le théorème d'Ado
@@ -97,7 +97,7 @@ chapters:
           statements: 5
           exercises: 3
           extraction: ocr
-          content_sha256: 9cb4ad4aa60aa4680b54877f60cc8f78bcfa9d67c3ddd0033d2ce268e2060b55
+          content_sha256: c4998d42ae6a66b7d19bab7dc535d56adfc40e3f81edc20dd961e831e9be2851
 notation_index:
     kind: notation
     title: INDEX DES NOTATIONS

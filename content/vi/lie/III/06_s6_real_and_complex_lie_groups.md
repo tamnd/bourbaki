@@ -53,7 +53,7 @@ subsections:
       pdf_page: 340
 statements: 71
 exercises: 30
-content_sha256: f32bc0413c0eae4c05154af6b4cd478203905b4f9ddeb515dba99e8fa7512532
+content_sha256: 955f0d38872a63f0e6d08b2c00e4c55b597e75de22e7b5ab0ba7781fab5905e7
 translated_from: content/en/lie/III/06_s6_real_and_complex_lie_groups.md
 source_content_sha256: a52c873bcf9c62fc8fba9209dcc1e9adccdfb18291f0cf132a2bfb157a201e58
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-mini
@@ -313,7 +313,7 @@ Kết luận của Mệnh đề 5 không nhất thiết đúng nếu không gi�
 
 *Cho G là một nhóm Lie phức liên thông. Nếu G compắc thì G giao hoán.*
 
-Ánh xạ chỉnh hình $g \mapsto \mathrm{Ad}\,g$ từ G vào $\mathcal{L}(L(G))$ là hằng (*Differentiable and Analytic Manifolds*, R, 3.3.7) và do đó $\mathrm{ad}\,a = 0$ với mọi $a \in L(G)$ ($§ 3$, no. 12, Mệnh đề 44). Vậy G giao hoán ($§ 4$, Hệ quả 3 của Định lý 1).
+Ánh xạ chỉnh hình $g \mapsto \mathrm{Ad}\,g$ từ G vào $\mathscr{L}(L(G))$ là hằng (*Differentiable and Analytic Manifolds*, R, 3.3.7) và do đó $\mathrm{ad}\,a = 0$ với mọi $a \in L(G)$ ($§ 3$, no. 12, Mệnh đề 44). Vậy G giao hoán ($§ 4$, Hệ quả 3 của Định lý 1).
 
 ### 4. ÁNH XẠ MŨ
 
@@ -456,7 +456,7 @@ Hàm nguyên $z \mapsto \sum_{n \geqslant 0} \frac{1}{(n + 1)!} z^n$, bằng $\f
 
 #### Bổ đề 2 {#lie-iii-s6-lem-2 .statement}
 
-*Cho E là một không gian Banach phức, u là một phần tử của $\mathcal{L}(E)$, S là phổ của u trong $\mathcal{L}(E)$ (Spectral Theories, Chương I, § 1, no. 2) và f là một hàm phức chỉnh hình trên một lân cận mở $\Omega$ của S. Giả sử rằng f trong $\Omega$ chỉ có một số hữu hạn các không điểm phân biệt $z_1, \ldots, z_n$, với các bội $h_1, \ldots, h_n$. Khi đó $\mathrm{Ker}\ f(u)$ là tổng trực tiếp của các $\mathrm{Ker}(u - z_i)^{h_i}$ với $1 \leqslant i \leqslant n$.
+*Cho E là một không gian Banach phức, u là một phần tử của $\mathscr{L}(E)$, S là phổ của u trong $\mathscr{L}(E)$ (Spectral Theories, Chương I, § 1, no. 2) và f là một hàm phức chỉnh hình trên một lân cận mở $\Omega$ của S. Giả sử rằng f trong $\Omega$ chỉ có một số hữu hạn các không điểm phân biệt $z_1, \ldots, z_n$, với các bội $h_1, \ldots, h_n$. Khi đó $\mathrm{Ker}\ f(u)$ là tổng trực tiếp của các $\mathrm{Ker}(u - z_i)^{h_i}$ với $1 \leqslant i \leqslant n$.
 
 (Để biết định nghĩa của $f(u)$, xem Spectral Theories, Chương I, § 4, no. 8.)
 
@@ -479,7 +479,7 @@ $$
 \end{align*}
 $$
 
-Mặt khác, nếu $u \in \mathcal{L}(E)$, thì
+Mặt khác, nếu $u \in \mathscr{L}(E)$, thì
 
 $$
 \begin{align*}
@@ -510,12 +510,12 @@ Chỉ cần lấy $E_1 = Kx$ và $E_2 = 0$ trong Mệnh đề 13.
 
 #### Hệ quả 4 {#lie-iii-s6-prop-13-cor-4 .statement}
 
-*Cho $\varphi'$ là một biểu diễn tuyến tính giải tích khác của $G$ trên một không gian khả chuẩn đầy đủ $E'$. Cho $T \in \mathcal{L}(E, E')$. Các điều kiện sau là tương đương:*
+*Cho $\varphi'$ là một biểu diễn tuyến tính giải tích khác của $G$ trên một không gian khả chuẩn đầy đủ $E'$. Cho $T \in \mathscr{L}(E, E')$. Các điều kiện sau là tương đương:*
 
 (i) $T\varphi(g) = \varphi'(g)T$ với mọi $g \in G$;
 (ii) $TL(\varphi)(a) = L(\varphi')(a)T$ với mọi $a \in L(G)$.
 
-Cho $\sigma$ là biểu diễn tuyến tính của $G$ trên $\mathcal{L}(E, E')$ dẫn xuất từ $\varphi$ và $\varphi'$ (§ 3, no. 11, Hệ quả 1 của Mệnh đề 41). Điều kiện (i) có nghĩa là $T$ bất biến dưới $\sigma(G)$. Điều kiện (ii) có nghĩa là $T$ bị triệt tiêu bởi $L(\sigma)(L(G))$. Khi đó chỉ cần áp dụng Hệ quả 3.
+Cho $\sigma$ là biểu diễn tuyến tính của $G$ trên $\mathscr{L}(E, E')$ dẫn xuất từ $\varphi$ và $\varphi'$ (§ 3, no. 11, Hệ quả 1 của Mệnh đề 41). Điều kiện (i) có nghĩa là $T$ bất biến dưới $\sigma(G)$. Điều kiện (ii) có nghĩa là $T$ bị triệt tiêu bởi $L(\sigma)(L(G))$. Khi đó chỉ cần áp dụng Hệ quả 3.
 
 #### Hệ quả 5 {#lie-iii-s6-prop-13-cor-5 .statement}
 
@@ -681,7 +681,7 @@ Cho E là một không gian khả chuẩn đầy đủ trên C, v ∈ L(E) và g
 
 #### Hệ quả 1 {#lie-iii-s6-prop-18-cor-1 .statement}
 
-*Cho E là một không gian khả chuẩn đầy đủ trên $\mathbf{C}$ và F là không gian các ánh xạ n-tuyến tính liên tục từ $E^n$ vào E. Với mọi $v \in \mathcal{L}(E)$, cho $\sigma(v)$ là phần tử của $\mathcal{L}(F)$ được xác định bởi*
+*Cho E là một không gian khả chuẩn đầy đủ trên $\mathbf{C}$ và F là không gian các ánh xạ n-tuyến tính liên tục từ $E^n$ vào E. Với mọi $v \in \mathscr{L}(E)$, cho $\sigma(v)$ là phần tử của $\mathscr{L}(F)$ được xác định bởi*
 
 $$
 (\sigma(v)f)(x_1, \ldots, x_n) = v(f(x_1, \ldots, x_n)) - \sum_{i=1}^n f(x_1, \ldots, vx_i, \ldots, x_n).
@@ -693,7 +693,7 @@ $$
 (\rho(g)f)(x_1, \ldots, x_n) = g(f(g^{-1}x_1, \ldots, g^{-1}x_n)).
 $$
 
-*Cho $u \in \mathcal{L}(E)$ sao cho mọi $z \in \mathrm{Sp}\,u$ đều thoả mãn $|\mathcal{J}(z)| < \frac{2\pi}{n+1}$. Khi đó, với mọi $f \in F$, các điều kiện $\sigma(u)f = 0$ và $\rho(\exp u)f = f$ là tương đương.*
+*Cho $u \in \mathscr{L}(E)$ sao cho mọi $z \in \mathrm{Sp}\,u$ đều thoả mãn $|\mathscr{J}(z)| < \frac{2\pi}{n+1}$. Khi đó, với mọi $f \in F$, các điều kiện $\sigma(u)f = 0$ và $\rho(\exp u)f = f$ là tương đương.*
 
 $\mathbf{L}(\rho) = \sigma$ (§ 3, no. 11, Hệ quả 1 của Mệnh đề 41) và do đó
 
@@ -703,9 +703,9 @@ $$
 
 (no. 4, Hệ quả 3 của Mệnh đề 10). Theo Mệnh đề 18, khi đó chỉ cần chứng minh rằng $\mathrm{Sp}\,\sigma(u)$ không giao với $2i\pi(\mathbf{Z} - \{0\})$. Nhưng điều này suy ra từ bổ đề sau đây:
 
-*Bổ đề 6. Nếu $v \in \mathcal{L}(E)$, thì $\mathrm{Sp}\,\sigma(v) \subset \mathrm{Sp}\,v + \mathrm{Sp}\,v + \cdots + \mathrm{Sp}\,v$, trong đó tổng gồm $n+1$ hạng.*
+*Bổ đề 6. Nếu $v \in \mathscr{L}(E)$, thì $\mathrm{Sp}\,\sigma(v) \subset \mathrm{Sp}\,v + \mathrm{Sp}\,v + \cdots + \mathrm{Sp}\,v$, trong đó tổng gồm $n+1$ hạng.*
 
-Ta xác định các phần tử $v_0, v_1, \ldots, v_n$ của $\mathcal{L}(F)$ bằng cách viết, với mọi $f \in F$,
+Ta xác định các phần tử $v_0, v_1, \ldots, v_n$ của $\mathscr{L}(F)$ bằng cách viết, với mọi $f \in F$,
 
 $$
 \begin{align*}
@@ -714,18 +714,18 @@ $$
 \end{align*}
 $$
 
-Khi đó $\sigma(v) = \sum_{i=0}^n v_i$ và các $v_i$ là hoán vị được từng đôi một. Cho A là đại số con đóng toàn phần của $\mathcal{L}(F)$ sinh bởi các $v_i$; nó là giao hoán (*Spectral Theories*, Chương I, § 1, no. 4) và $\mathrm{Sp}_{\mathcal{L}(F)} v' = \mathrm{Sp}_A v' \subset \sum_{i=0}^n \mathrm{Sp}\,v_i$ (*Spectral Theories*, Chương I, § 3, Mệnh đề 3 (ii)). Bây giờ, nếu $\lambda \in \mathbf{C}$ sao cho $v - \lambda$ khả nghịch, thì rõ ràng các $v_i - \lambda_i$ là khả nghịch và do đó $\mathrm{Sp}\,v_i \subset \mathrm{Sp}\,v$ với mọi $i$.
+Khi đó $\sigma(v) = \sum_{i=0}^n v_i$ và các $v_i$ là hoán vị được từng đôi một. Cho A là đại số con đóng toàn phần của $\mathscr{L}(F)$ sinh bởi các $v_i$; nó là giao hoán (*Spectral Theories*, Chương I, § 1, no. 4) và $\mathrm{Sp}_{\mathscr{L}(F)} v' = \mathrm{Sp}_A v' \subset \sum_{i=0}^n \mathrm{Sp}\,v_i$ (*Spectral Theories*, Chương I, § 3, Mệnh đề 3 (ii)). Bây giờ, nếu $\lambda \in \mathbf{C}$ sao cho $v - \lambda$ khả nghịch, thì rõ ràng các $v_i - \lambda_i$ là khả nghịch và do đó $\mathrm{Sp}\,v_i \subset \mathrm{Sp}\,v$ với mọi $i$.
 
 #### Hệ quả 2 {#lie-iii-s6-prop-18-cor-2 .statement}
 
-*Cho E là một đại số khả chuẩn đầy đủ trên $\mathbf{C}$ và $w \in \mathcal{L}(E)$. Giả sử rằng mọi $z \in \mathrm{Sp}\,w$ đều thoả mãn $|\mathcal{J}(z)| < \frac{2\pi}{3}$. Các điều kiện sau là tương đương:*
+*Cho E là một đại số khả chuẩn đầy đủ trên $\mathbf{C}$ và $w \in \mathscr{L}(E)$. Giả sử rằng mọi $z \in \mathrm{Sp}\,w$ đều thoả mãn $|\mathscr{J}(z)| < \frac{2\pi}{3}$. Các điều kiện sau là tương đương:*
 (i) *w là một đạo hàm của E;*
 (ii) *exp w là một tự đẳng cấu của E.*
 Điều này suy ra từ Hệ quả 1 với $n = 2$ và $f$ là phép nhân của E.
 
 #### Mệnh đề 19 {#lie-iii-s6-prop-19 .statement}
 
-Cho E là một không gian khả chuẩn đầy đủ trên $\mathbf{C}$, $v \in \mathcal{L}(E)$ và $g = \exp v$. Giả sử rằng mọi $z \in \mathrm{Sp}\, v$ đều thoả mãn $-\pi < \mathscr{J}(z) < \pi$. Khi đó, với mọi không gian con vectơ đóng $E'$ của $E$, các điều kiện $v(E') \subset E'$ và $g(E') = E'$ là tương đương.
+Cho E là một không gian khả chuẩn đầy đủ trên $\mathbf{C}$, $v \in \mathscr{L}(E)$ và $g = \exp v$. Giả sử rằng mọi $z \in \mathrm{Sp}\, v$ đều thoả mãn $-\pi < \mathscr{J}(z) < \pi$. Khi đó, với mọi không gian con vectơ đóng $E'$ của $E$, các điều kiện $v(E') \subset E'$ và $g(E') = E'$ là tương đương.
 
 Điều kiện $v(E') \subset E'$ suy ra $g(E') \subset E'$ và $g^{-1}(E') \subset E'$ và do đó $g(E') = E'$. Giả sử rằng $g(E') = E'$. Ta sử dụng ký hiệu $\Delta, \Delta'$ của Mệnh đề 17. Vì $\mathrm{Sp}\, v$ là một tập con compact của $\Delta$, tồn tại một hình chữ nhật compact $Q = (a, b) \times (a', b')$ sao cho $\mathrm{Sp}\, v \subset Q \subset \Delta$. Tập hợp $\Delta - Q$ là liên thông. Do đó $\mathrm{Sp}\, g \subset \exp Q \subset \Delta'$, tập hợp $\exp Q$ là compact và tập hợp $\Delta' - \exp Q$ là liên thông. Bao đóng của tập hợp sau chứa $]-\infty, 0]$ và do đó
 
@@ -733,13 +733,13 @@ $$
 (\Delta' - \exp Q) \cup ]-\infty, 0] = \mathbf{C} - \exp Q
 $$
 
-là liên thông. Khi đó $\exp Q$ là lồi đa thức (*Spectral Theories*, Chương I, § 3, Hệ quả 2 của Mệnh đề 9) và do đó hàm $\log$, được xác định trên $\Delta'$, là giới hạn trong $\mathcal{O}(\exp Q)$ của các hàm đa thức (*Spectral Theories*, Chương I, § 4, Mệnh đề 3). Do đó $v = \log g$ là giới hạn trong $\mathcal{L}(E)$ của các phần tử có dạng $P(g)$, trong đó $P$ là một đa thức (*Spectral Theories*, Chương I, § 4, Định lý 3). Vì $P(g)(E') \subset E'$, suy ra rằng $v(E') \subset E'$.
+là liên thông. Khi đó $\exp Q$ là lồi đa thức (*Spectral Theories*, Chương I, § 3, Hệ quả 2 của Mệnh đề 9) và do đó hàm $\log$, được xác định trên $\Delta'$, là giới hạn trong $\mathscr{O}(\exp Q)$ của các hàm đa thức (*Spectral Theories*, Chương I, § 4, Mệnh đề 3). Do đó $v = \log g$ là giới hạn trong $\mathscr{L}(E)$ của các phần tử có dạng $P(g)$, trong đó $P$ là một đa thức (*Spectral Theories*, Chương I, § 4, Định lý 3). Vì $P(g)(E') \subset E'$, suy ra rằng $v(E') \subset E'$.
 
 #### Hệ quả {#lie-iii-s6-n9-cor-1 .statement}
 
-Cho E là một không gian chuẩn đầy đủ trên $\mathbf{C}$, $v \in \mathcal{L}(E)$ và $g = \exp v$. Giả sử rằng mọi $z \in \mathrm{Sp}\, v$ thỏa mãn $-\frac{\pi}{2} < \mathscr{J}(z) < \frac{\pi}{2}$. Khi đó, với mọi không gian con vectơ đóng M của $\mathcal{L}(E)$, các điều kiện $gMg^{-1} = M$ và $[v, M] \subset M$ là tương đương.
+Cho E là một không gian chuẩn đầy đủ trên $\mathbf{C}$, $v \in \mathscr{L}(E)$ và $g = \exp v$. Giả sử rằng mọi $z \in \mathrm{Sp}\, v$ thỏa mãn $-\frac{\pi}{2} < \mathscr{J}(z) < \frac{\pi}{2}$. Khi đó, với mọi không gian con vectơ đóng M của $\mathscr{L}(E)$, các điều kiện $gMg^{-1} = M$ và $[v, M] \subset M$ là tương đương.
 
-Đặt $F = \mathcal{L}(E)$, $g'$ là ánh xạ $f \mapsto gfg^{-1}$ của F vào F và $v'$ là ánh xạ $f \mapsto [v, f]$ của F vào F. Khi đó $g' = \exp v'$ (no. 4, Hệ quả 3 của Mệnh đề 10 và § 3, no. 11, Hệ quả 1 của Mệnh đề 41). Bổ đề 6 chứng minh rằng $-\pi < \mathscr{J}(z) < \pi$ với mọi $z \in \mathrm{Sp}\, v'$. Khi đó chỉ cần áp dụng Mệnh đề 19.
+Đặt $F = \mathscr{L}(E)$, $g'$ là ánh xạ $f \mapsto gfg^{-1}$ của F vào F và $v'$ là ánh xạ $f \mapsto [v, f]$ của F vào F. Khi đó $g' = \exp v'$ (no. 4, Hệ quả 3 của Mệnh đề 10 và § 3, no. 11, Hệ quả 1 của Mệnh đề 41). Bổ đề 6 chứng minh rằng $-\pi < \mathscr{J}(z) < \pi$ với mọi $z \in \mathrm{Sp}\, v'$. Khi đó chỉ cần áp dụng Mệnh đề 19.
 
 ### 10. PHỨC HÓA CỦA MỘT NHÓM LIE THỰC HỮU HẠN CHIỀU
 

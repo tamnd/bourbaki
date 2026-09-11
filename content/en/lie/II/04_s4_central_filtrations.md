@@ -37,7 +37,7 @@ subsections:
       pdf_page: 166
 statements: 12
 exercises: 18
-content_sha256: 1325ad90b6f64f40c918361f53780fe37c172750b745daa70223fd8d6caff02f
+content_sha256: f851ffdb4b2c2b1ddbe8b7336668e7aa1d731014ba4becd09cab912a4d2af5c7
 ---
 
 ## § 4. CENTRAL FILTRATIONS
@@ -319,7 +319,7 @@ $$
 The above proof shows that the lower central series of the Lie algebra gr(G) (§ 2, no. 7) is given by
 
 $$
-\mathcal{C}^n(\mathrm{gr}(G)) = \sum_{m \geq n} \mathrm{gr}_m(G).
+\mathscr{C}^n(\mathrm{gr}(G)) = \sum_{m \geq n} \mathrm{gr}_m(G).
 $$
 
 #### Remark {#lie-ii-s4-n6-rem-1 .statement}

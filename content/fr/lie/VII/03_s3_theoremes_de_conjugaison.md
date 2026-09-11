@@ -32,7 +32,7 @@ subsections:
       pdf_page: 26
 statements: 17
 exercises: 18
-content_sha256: 42d5e6ec1bc68c2e4139ceaa466630284080c37badd58933afd6c420c57592d2
+content_sha256: 157047ed12a7b52ba390abe647e80f711457258362f73f5c045662ab34264b38
 ---
 
 ## § 3. Théorèmes de conjugaison
@@ -208,13 +208,13 @@ Dans le $k[T]$-module libre $g \otimes_k k[T]$, $\mathfrak{k}$ est un sous-modul
 
 ### 4. Conjugaison des sous-algèbres de Cartan des algèbres de Lie résolubles
 
-Soit $g$ une algèbre de Lie résoluble. Notons $\mathcal{C}^\infty(g)$ l’intersection des termes de la série centrale descendante de $g$ (I, § 1, n° 5). C’est un idéal caractéristique de $g$, et c’est le plus petit idéal $m$ de $g$ tel que $g/m$ soit nilpotente. Comme $\mathcal{C}^\infty(g) \subset [g, g]$, $\mathcal{C}^\infty(g)$ est un idéal nilpotent de $g$ (I, § 5, n° 3, cor. 5 au th. 1). D’après la prop. 1 du n° 1, l’ensemble des $e^{\mathrm{ad}\, x}$, pour $x \in \mathcal{C}^\infty(g)$, est un sous-groupe de $\mathrm{Aut}(g)$, contenu dans le groupe des automorphismes spéciaux (I, § 6, n° 8, déf. 6).
+Soit $g$ une algèbre de Lie résoluble. Notons $\mathscr{C}^\infty(g)$ l’intersection des termes de la série centrale descendante de $g$ (I, § 1, n° 5). C’est un idéal caractéristique de $g$, et c’est le plus petit idéal $m$ de $g$ tel que $g/m$ soit nilpotente. Comme $\mathscr{C}^\infty(g) \subset [g, g]$, $\mathscr{C}^\infty(g)$ est un idéal nilpotent de $g$ (I, § 5, n° 3, cor. 5 au th. 1). D’après la prop. 1 du n° 1, l’ensemble des $e^{\mathrm{ad}\, x}$, pour $x \in \mathscr{C}^\infty(g)$, est un sous-groupe de $\mathrm{Aut}(g)$, contenu dans le groupe des automorphismes spéciaux (I, § 6, n° 8, déf. 6).
 
 #### Théorème 3 {#lie-vii-s3-thm-3 .statement tag=00VD}
 
-Soit $g$ une algèbre de Lie résoluble, et soient $h, h'$ des sous-algèbres de Cartan de $g$. Il existe $x \in \mathcal{C}^\infty(g)$ tel que $e^{\mathrm{ad}\, x}h = h'$.
+Soit $g$ une algèbre de Lie résoluble, et soient $h, h'$ des sous-algèbres de Cartan de $g$. Il existe $x \in \mathscr{C}^\infty(g)$ tel que $e^{\mathrm{ad}\, x}h = h'$.
 
-Raisonnons par récurrence sur $\dim g$, le cas où $g = 0$ étant trivial. Soit $n$ un idéal commutatif non nul minimal de $g$. Soit $\varphi : g \to g/n$ le morphisme canonique. On a $\varphi(\mathcal{C}^\infty g) = \mathcal{C}^\infty(g/n)$ (I, § 1, n° 5, prop. 4). Puisque $\varphi(h)$ et $\varphi(h')$ sont des sous-algèbres de Cartan de $g/n$ ($§ 2$, n° 1, cor. 2 de la prop. 4), il existe, d’après l’hypothèse de récurrence, un $x \in \mathcal{C}^\infty(g)$ tel que $e^{\mathrm{ad}\, \varphi(x)}\varphi(h) = \varphi(h')$. Quitte à remplacer $h$ par $e^{\mathrm{ad}\, x}h$, on peut donc supposer $\varphi(h) = \varphi(h')$, c’est-à-dire
+Raisonnons par récurrence sur $\dim g$, le cas où $g = 0$ étant trivial. Soit $n$ un idéal commutatif non nul minimal de $g$. Soit $\varphi : g \to g/n$ le morphisme canonique. On a $\varphi(\mathscr{C}^\infty g) = \mathscr{C}^\infty(g/n)$ (I, § 1, n° 5, prop. 4). Puisque $\varphi(h)$ et $\varphi(h')$ sont des sous-algèbres de Cartan de $g/n$ ($§ 2$, n° 1, cor. 2 de la prop. 4), il existe, d’après l’hypothèse de récurrence, un $x \in \mathscr{C}^\infty(g)$ tel que $e^{\mathrm{ad}\, \varphi(x)}\varphi(h) = \varphi(h')$. Quitte à remplacer $h$ par $e^{\mathrm{ad}\, x}h$, on peut donc supposer $\varphi(h) = \varphi(h')$, c’est-à-dire
 
 $$
 h + n = h' + n.
@@ -222,7 +222,7 @@ $$
 
 Alors $h$ et $h'$ sont des sous-algèbres de Cartan de $h + n$. Si $h + n \neq g$, l’assertion à démontrer résulte de l’hypothèse de récurrence. Nous supposerons donc désormais que $h + n = h' + n = g$.
 
-D’après la minimalité de $n$, on a $[g, n] = \{0\}$ ou $[g, n] = n$. Si $[g, n] = \{0\}$, alors $n \subset h$ et $n \subset h'$ ($§ 2$, n° 1, prop. 5), donc $h = h + n = h' + n = h'$. Reste à considérer le cas où $[g, n] = n$, d’où $n \subset \mathcal{C}^\infty(g)$. L’idéal $n$ est un $g$-module simple; comme $g = h + n$, et que $[n, n] = \{0\}$, il en résulte que $n$ est un $h$-module simple. Si $h \cap n \neq \{0\}$, on a donc $n \subset h$, d’où $g = h$ et $h' = h$. Supposons maintenant que $h \cap n = \{0\}$. On a $g = h \oplus n$ et par suite $g = h' \oplus n$, puisque $h$ et $h'$ ont même dimension.
+D’après la minimalité de $n$, on a $[g, n] = \{0\}$ ou $[g, n] = n$. Si $[g, n] = \{0\}$, alors $n \subset h$ et $n \subset h'$ ($§ 2$, n° 1, prop. 5), donc $h = h + n = h' + n = h'$. Reste à considérer le cas où $[g, n] = n$, d’où $n \subset \mathscr{C}^\infty(g)$. L’idéal $n$ est un $g$-module simple; comme $g = h + n$, et que $[n, n] = \{0\}$, il en résulte que $n$ est un $h$-module simple. Si $h \cap n \neq \{0\}$, on a donc $n \subset h$, d’où $g = h$ et $h' = h$. Supposons maintenant que $h \cap n = \{0\}$. On a $g = h \oplus n$ et par suite $g = h' \oplus n$, puisque $h$ et $h'$ ont même dimension.
 
 Pour tout $x \in h$, soit $f(x)$ l’unique élément de $n$ tel que $x - f(x) \in h'$; si $x, y \in h$, on a
 
@@ -236,7 +236,7 @@ $$
 e^{\mathrm{ad}\, a}x = x + [a, x] = x - f(x).
 $$
 
-On voit que $e^{\mathrm{ad}\, a}(h) = h'$. Comme $a \in \mathcal{C}^\infty(g)$, cela achève la démonstration.
+On voit que $e^{\mathrm{ad}\, a}(h) = h'$. Comme $a \in \mathscr{C}^\infty(g)$, cela achève la démonstration.
 
 #### Lemme 3 {#lie-vii-s3-lem-3 .statement tag=00VE}
 
@@ -251,7 +251,7 @@ On peut supposer que $v$ est de la forme $e^{a d b}$, où $b \in g/r$ et $ad\ b$
 (i) $h$ et $h'$ sont conjuguées par un automorphisme élémentaire de $g$;
 (ii) $\varphi(h)$ et $\varphi(h')$ sont conjuguées par un automorphisme élémentaire de $g/r$.
 (i) $\Rightarrow$ (ii): C’est évident.
-(ii) $\Rightarrow$ (i): Supposons la condition (ii) vérifiée, et prouvons (i). Grâce au lemme 3, on se ramène au cas où $\varphi(h) = \varphi(h')$. Posons $k = h + r = h' + r$, qui est une sous-algèbre résoluble de $g$. Alors $h$ et $h'$ sont des sous-algèbres de Cartan de $k$, donc il existe $x \in \mathcal{C}^\infty(k)$ tel que $e^{ad_k\ x}h = h'$ (th. 3). Comme $k/r$ est nilpotente, on a $\mathcal{C}^\infty(k) \subset r$; d’autre part, $\mathcal{C}^\infty k \subset [k, k] \subset [g, g]$, d’où $x \in r \cap [g, g]$; d’après I, § 5, n° 3, th. 1, $ad_g\ x$ est nilpotent, donc $e^{ad_g\ x}$ est un automorphisme élémentaire de $g$ transformant $h$ en $h'$.
+(ii) $\Rightarrow$ (i): Supposons la condition (ii) vérifiée, et prouvons (i). Grâce au lemme 3, on se ramène au cas où $\varphi(h) = \varphi(h')$. Posons $k = h + r = h' + r$, qui est une sous-algèbre résoluble de $g$. Alors $h$ et $h'$ sont des sous-algèbres de Cartan de $k$, donc il existe $x \in \mathscr{C}^\infty(k)$ tel que $e^{ad_k\ x}h = h'$ (th. 3). Comme $k/r$ est nilpotente, on a $\mathscr{C}^\infty(k) \subset r$; d’autre part, $\mathscr{C}^\infty k \subset [k, k] \subset [g, g]$, d’où $x \in r \cap [g, g]$; d’après I, § 5, n° 3, th. 1, $ad_g\ x$ est nilpotent, donc $e^{ad_g\ x}$ est un automorphisme élémentaire de $g$ transformant $h$ en $h'$.
 
 ### 5. Cas des groupes de Lie
 

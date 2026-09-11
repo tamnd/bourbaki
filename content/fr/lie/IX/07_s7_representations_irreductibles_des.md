@@ -37,7 +37,7 @@ subsections:
       pdf_page: 80
 statements: 27
 exercises: 8
-content_sha256: 94bec922e39b175a95c2e9bac03d80b3eef4ba42c5399288591e184c2d1b2a9f
+content_sha256: 1046c25411274de2c45dfa9114699e8bc7293edc50ce34fed321721ce1aa4809
 ---
 
 ## § 7. REPRÉSENTATIONS IRRÉDUCTIBLES DES GROUPES DE LIE COMPACTS CONNEXES $^1$
@@ -94,7 +94,7 @@ c) Pour tout élément dominant $\lambda$ de $X(T)$, il existe une représentati
 
 D’après le lemme 2, les classes d’équivalence de représentations irréductibles de $G$ correspondent bijectivement aux classes de représentations irréductibles de dimension finie de $g$ dont les poids appartiennent à $\delta(X(T))$.
 
-Notons $\mathcal{C}g_c$ le centre et $\mathcal{D}g_c$ l’algèbre de Lie dérivée de $g_c$, de sorte que $g_c = \mathcal{C}g_c \oplus \mathcal{D}g_c$. Pour toute forme linéaire $\mu$ sur $t_c \cap \mathcal{D}g_c$, notons $E(\mu)$ le $\mathcal{D}g_c$-module simple introduit en VIII, § 6, n° 3 ; pour toute forme linéaire $v$ sur $\mathcal{C}g_c$, notons $C(v)$ le $\mathcal{C}g_c$-module de dimension 1 sur $\mathbf{C}$ associé. Alors les $g_c$-modules $C(v) \otimes E(\mu)$ sont simples, et d’après VIII, § 7, n° 2, cor. 2 au th. 1 et A, VIII, § 11, n° 1, th. 1, tout $g_c$-module simple de dimension finie est isomorphe à un $g_c$-module $C(v) \otimes E(\mu)$; de plus (*loc. cit.*) $C(v) \otimes E(\mu)$ est de dimension finie si et seulement si $\mu(H_\alpha)$ est entier positif pour toute racine simple $\alpha$. Si l’on note $v + \mu$ la forme linéaire sur $t_c$ qui induit $v$ sur $\mathcal{C}g_c$ et $\mu$ sur $t_c \cap \mathcal{D}g_c$, on a $(v + \mu)(H_\alpha) = \mu(H_\alpha)$; de plus, les poids de $C(v) \otimes E(\mu)$ sont les $v + \lambda$, où $\lambda$ parcourt les poids de $E(\mu)$, donc sont de la forme $v + \mu - \theta$, avec $\theta \in \delta(X_+)$ (VIII, § 6, n° 2, lemme 2).
+Notons $\mathscr{C}g_c$ le centre et $\mathscr{D}g_c$ l’algèbre de Lie dérivée de $g_c$, de sorte que $g_c = \mathscr{C}g_c \oplus \mathscr{D}g_c$. Pour toute forme linéaire $\mu$ sur $t_c \cap \mathscr{D}g_c$, notons $E(\mu)$ le $\mathscr{D}g_c$-module simple introduit en VIII, § 6, n° 3 ; pour toute forme linéaire $v$ sur $\mathscr{C}g_c$, notons $C(v)$ le $\mathscr{C}g_c$-module de dimension 1 sur $\mathbf{C}$ associé. Alors les $g_c$-modules $C(v) \otimes E(\mu)$ sont simples, et d’après VIII, § 7, n° 2, cor. 2 au th. 1 et A, VIII, § 11, n° 1, th. 1, tout $g_c$-module simple de dimension finie est isomorphe à un $g_c$-module $C(v) \otimes E(\mu)$; de plus (*loc. cit.*) $C(v) \otimes E(\mu)$ est de dimension finie si et seulement si $\mu(H_\alpha)$ est entier positif pour toute racine simple $\alpha$. Si l’on note $v + \mu$ la forme linéaire sur $t_c$ qui induit $v$ sur $\mathscr{C}g_c$ et $\mu$ sur $t_c \cap \mathscr{D}g_c$, on a $(v + \mu)(H_\alpha) = \mu(H_\alpha)$; de plus, les poids de $C(v) \otimes E(\mu)$ sont les $v + \lambda$, où $\lambda$ parcourt les poids de $E(\mu)$, donc sont de la forme $v + \mu - \theta$, avec $\theta \in \delta(X_+)$ (VIII, § 6, n° 2, lemme 2).
 
 On en conclut que le $g$-module $C(v) \otimes E(\mu)$ est de dimension finie si et seulement si $(v + \mu)(H_\alpha)$ est entier positif pour toute racine simple $\alpha$, et que ses poids appartiennent à $\delta(X(T))$ si et seulement si $v + \mu$ appartient à $\delta(X(T))$. La conjonction de ces deux conditions signifie que $v + \mu$ appartient à $\delta(X_{++})$; dans ce cas, $v + \mu$ est le plus grand poids de $C(v) \otimes E(\mu)$. On a donc construit pour tout élément dominant $\lambda$ de $X(T)$ une représentation irréductible de $G$ dont $\lambda$ est le plus grand poids, et obtenu ainsi, à équivalence près, toutes les représentations irréductibles de $G$. Comme les vecteurs de poids $v + \mu$ dans $C(v) \otimes E(\mu)$ forment un sous-espace de dimension 1, on a ainsi achevé la démonstration.
 
@@ -150,7 +150,7 @@ $$
 
 ce qui entraîne $B = 0$, d'où la proposition.
 
-Soit $\mathcal{S}_\mathbf{R}(G)$ l'ensemble des classes de représentations continues irréductibles de G dans des espaces vectoriels réels de dimension finie. La prop. 1 et les résultats de l'Appendice II établissent une bijection $\Phi : X_{++}/\Sigma \to \mathcal{S}_\mathbf{R}(G)$, où $\Sigma$ désigne le sous-groupe $\{1,\ -w_0\}$ de Aut(X(T)). Plus précisément, soit $\lambda \in X_{++}$, et soit $E_\lambda$ une représentation de G de plus grand poids $\lambda$; on a
+Soit $\mathscr{S}_\mathbf{R}(G)$ l'ensemble des classes de représentations continues irréductibles de G dans des espaces vectoriels réels de dimension finie. La prop. 1 et les résultats de l'Appendice II établissent une bijection $\Phi : X_{++}/\Sigma \to \mathscr{S}_\mathbf{R}(G)$, où $\Sigma$ désigne le sous-groupe $\{1,\ -w_0\}$ de Aut(X(T)). Plus précisément, soit $\lambda \in X_{++}$, et soit $E_\lambda$ une représentation de G de plus grand poids $\lambda$; on a
 
 $$
 \Phi(\{\lambda,\ -w_0(\lambda)\}) = E_{\lambda[\mathbf{R}]} \quad \text{si} \quad \lambda \neq -w_0(\lambda) \quad \text{ou si} \quad \sum_{\alpha \in R^+} \langle \lambda, K_\alpha \rangle \notin 2\mathbf{Z},
@@ -173,7 +173,7 @@ $$
 [\tau][\tau'] = [\tau \otimes \tau'].
 $$
 
-Puisque toute représentation de G est semi-simple, le $\mathbf{Z}$-module $R(G)$ est libre et admet comme base l'ensemble des classes de représentations irréductibles de G, ensemble qui s'identifie à $X_{++}$ par le th. 1. L'application $\tau \mapsto L(\tau)_{(c)}$ induit un homomorphisme d'anneaux $l$ de $R(G)$ dans l'anneau $\mathcal{R}(g_c)$ des représentations de $g_c$ (VIII, § 7, n° 6).
+Puisque toute représentation de G est semi-simple, le $\mathbf{Z}$-module $R(G)$ est libre et admet comme base l'ensemble des classes de représentations irréductibles de G, ensemble qui s'identifie à $X_{++}$ par le th. 1. L'application $\tau \mapsto L(\tau)_{(c)}$ induit un homomorphisme d'anneaux $l$ de $R(G)$ dans l'anneau $\mathscr{R}(g_c)$ des représentations de $g_c$ (VIII, § 7, n° 6).
 
 Soit $\tau : G \to \mathbf{GL}(V)$ une représentation de G; considérons la graduation $(V_\lambda(T))_{\lambda \in X(T)}$ du C-espace vectoriel V. On note Ch(V), ou Ch(\tau), le caractère de l'espace vectoriel gradué V (VIII, § 7, n° 7); si l'on désigne par $(e^\lambda)_{\lambda \in X(T)}$ la base canonique de l'algèbre $\mathbf{Z}[X(T)] = \mathbf{Z}^{(X(T))}$, on a par définition
 
@@ -187,7 +187,7 @@ $$
 \begin{array}{ccc}
 R(G) & \xrightarrow{\mathrm{Ch}} & \mathbf{Z}[X(T)] \\
 \downarrow l & & \downarrow \tilde{\delta} \\
-\mathcal{R}(g_c) & \xrightarrow{\mathrm{ch}} & \mathbf{Z}[\bar{P}]
+\mathscr{R}(g_c) & \xrightarrow{\mathrm{ch}} & \mathbf{Z}[\bar{P}]
 \end{array}
 $$
 

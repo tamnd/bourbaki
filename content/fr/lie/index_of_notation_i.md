@@ -12,7 +12,7 @@ pdf_pages: 0135-0135
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 4a787542c12fdebadc317ba21200df498bebaec60d51108810cc7a1aa89b7c91
+content_sha256: 3acab6330791d6cb5b3f7c83b7ed8d6490b48758f70e2c99665469e0be289265
 ---
 
 ## INDEX DES NOTATIONS
@@ -24,7 +24,7 @@ $g^0$ (g algèbre de Lie) : 1, 2.
 $gl(E), gl(n, K), sl(E), sl(n, K), t(n, K), st(n, K), n(n, K)$ (E K-module) : 1, 2.
 $ad_g x, ad x$ (x élément d’une algèbre de Lie g) : 1, 2.
 $[a, b], [z, a], [a, z]$ (a, b sous-modules, z élément d’une algèbre de Lie) : 1, 4.
-$\mathcal{O}g, \mathcal{O}^k g, c^k g$ (g algèbre de Lie) : 1, 5.
+$\mathscr{O}g, \mathscr{O}^k g, c^k g$ (g algèbre de Lie) : 1, 5.
 $c_k g$ (g algèbre de Lie) : 1, 6.
 $af(M)$ (M K-module) : 1, 8.
 $g_{(K_1)}$ (g algèbre de Lie) : 1, 9.
@@ -34,7 +34,7 @@ $T_n, U_n, G^n$ : 2, 6.
 $x_M$ (x élément d’une algèbre de Lie g, M g-module) : 3, 1.
 $e^u, exp u$ (u endomorphisme nilpotent d’un espace vectoriel sur un corps de caractéristique 0) : 6, 8.
 $C(\rho)$ ($\rho$ représentation d’une algèbre de Lie) : 7, 1.
-$C^\infty g, \mathcal{O}^\infty g$ : 1, exerc. 14.
+$C^\infty g, \mathscr{O}^\infty g$ : 1, exerc. 14.
 $x^{[p]}$ : 1, exerc. 20.
 $GL(n, K)$ (groupe formel) : 1, exerc. 25.
 $o(\Phi)$ : 1, exerc. 26.

@@ -37,7 +37,7 @@ chapters:
           statements: 40
           exercises: 16
           extraction: ocr
-          content_sha256: 376c38db366a6ff349b58d48f96a6a454428002a828f1a1940ce66799ee1c9d7
+          content_sha256: 01667c59d64eba977128b0824aa1b1adace5eec16597b043d488fb92263bd80b
         - kind: section
           section: 3
           title: Théorèmes de conjugaison
@@ -49,7 +49,7 @@ chapters:
           statements: 17
           exercises: 18
           extraction: ocr
-          content_sha256: 42d5e6ec1bc68c2e4139ceaa466630284080c37badd58933afd6c420c57592d2
+          content_sha256: 157047ed12a7b52ba390abe647e80f711457258362f73f5c045662ab34264b38
         - kind: section
           section: 4
           title: Eléments réguliers d’un groupe de Lie
@@ -73,7 +73,7 @@ chapters:
           statements: 28
           exercises: 11
           extraction: ocr
-          content_sha256: b15eacb0b1d5e9a3170499b0adb1ed280f40ad739a07cd494d3704c174dd51e3
+          content_sha256: bf97efbfb6745072586a29f15f691803b5d31df7e53b28c871942dc177d0eec0
         - kind: appendix
           section: 1
           title: Applications polynomiales et topologie de Zariski

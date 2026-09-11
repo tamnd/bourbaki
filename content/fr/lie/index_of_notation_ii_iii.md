@@ -12,7 +12,7 @@ pdf_pages: 0307-0309
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 1989ff2d23540e1300547c3e3136eb30261d13608f39267fc0eaa7c443fe1b56
+content_sha256: b5071b8f9dcde12ebbba4f9bbc297f3d75ca065d4f75f18e9381ff38525bea82
 ---
 
 ## INDEX DES NOTATIONS
@@ -66,7 +66,7 @@ $T(m)$ : III.2.1
 $T(G), T(\varphi)$ : III.2.2
 $t * t'$ : III.3.1, III.3.18
 $U(G), U^+(G), U_s(G), U_s^+(G)$ : III.3.1, III.3.18
-$T_g^{(s)}(G), T_g^{(\infty)}(G), \mathcal{T}^{(\infty)}(G)$ : III.3.1, III.3.18
+$T_g^{(s)}(G), T_g^{(\infty)}(G), \mathscr{T}^{(\infty)}(G)$ : III.3.1, III.3.18
 $t * f$ : III.3.4, III.3.18
 $D_t$ : III.3.5, III.3.18
 $L_t, R_t$ : III.3.6, III.3.18

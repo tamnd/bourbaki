@@ -48,7 +48,7 @@ subsections:
       pdf_page: 118
 statements: 25
 exercises: 20
-content_sha256: 6e15c439818cd9af977c13eae672599aeae23f20451e760efab7f2389cea088f
+content_sha256: 1bcfdfb873a3cf744c19dcfacd6180d5390348c3859d9d9730fd1bd014ae0faa
 translated_from: content/en/lie/V/04_s4_the_geometric_representation_of_a.md
 source_content_sha256: b37e57ba0e6700d5644218e6cb51eb2aa578040de72fb7f9df614a11c81b3ddd
 translation_model: gpt-5.4-mini, gpt-5-mini, gpt-5-6-mini, gpt-5-6
@@ -386,7 +386,7 @@ Do đó, quan hệ $C_{X'} \cap w(C_X) \neq \varnothing$ suy ra một mặt rằ
 
 *Cho $X$ là một tập con của $S$ và $x^*$ là một phần tử của $C_X$. Bộ ổn định của $x^*$ trong $W$ là $W_X$.*
 
-Bây giờ cho $U$ là hợp của các $w(\overline{C})$ với $w \in W$, và cho $\mathcal{F}$ là tập hợp các tập con của $U$ có dạng $w(C_X)$, với $X \subset S$ và $w \in W$. Theo điều trên, $\mathcal{F}$ là một *phân hoạch* của $U$.
+Bây giờ cho $U$ là hợp của các $w(\overline{C})$ với $w \in W$, và cho $\mathscr{F}$ là tập hợp các tập con của $U$ có dạng $w(C_X)$, với $X \subset S$ và $w \in W$. Theo điều trên, $\mathscr{F}$ là một *phân hoạch* của $U$.
 
 #### Mệnh đề 6 {#lie-v-s4-prop-6 .statement}
 

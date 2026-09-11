@@ -13,7 +13,7 @@ pdf_pages: 0453-0455
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 8a91254cae373d1f707e2e421e21831bf4b3e75d92c8fec245d595738b839681
+content_sha256: b542d96a657e7f1031351021379744e202b8f1735d7a290d027aaac7381417ad
 translated_from: content/en/lie/index_of_notation_i_iii.md
 source_content_sha256: 5ba72771ed6431ded6973e22ebbc9605288ca1d2ccf62c8e275bed145a1003c1
 translation_model: gpt-5-mini
@@ -32,8 +32,8 @@ g^0 (g là một đại số Lie): I.1.2.
 gl(E), gl(n, K), sl(E), sl(n, K), t(n, K), st(n, K), n(n, K) (E là một K-môđun): I.1.2.
 ad_g x, ad x (x là một phần tử của một đại số Lie g): I.1.2.
 [a, b], [z, a], [a, z] (a, b là các môđun con, z là một phần tử của một đại số Lie): I.1.4.
-\mathcal{D}g, \mathcal{D}^k g, \mathcal{C}^k g (g là một đại số Lie): I.1.5.
-\mathcal{C}_k g (g là một đại số Lie): I.1.6.
+\mathscr{D}g, \mathscr{D}^k g, \mathscr{C}^k g (g là một đại số Lie): I.1.5.
+\mathscr{C}_k g (g là một đại số Lie): I.1.6.
 af(M) (M là một K-môđun): I.1.8.
 g_{(K_1)} (g là một đại số Lie): I.1.9.
 U_+, U_0 (U là đại số bao phủ của một đại số Lie): I.2.1.
@@ -42,7 +42,7 @@ $T_n, U_n, G^n$ : I.2.6.
 x_M (x là một phần tử của một đại số Lie g, M là một g-môđun): I.3.1.
 e^u, \exp u (u là một tự đồng cấu lũy linh của một không gian vectơ trên một trường có đặc số 0): I.6.8.
 C(\rho) (\rho là một biểu diễn của một đại số Lie): I.7.1.
-\mathcal{C}^\infty g, \mathcal{D}^\infty g: I.1, Bài tập 14.
+\mathscr{C}^\infty g, \mathscr{D}^\infty g: I.1, Bài tập 14.
 x^{[n]}: I.1, Bài tập 20.
 GL(n, K) (nhóm hình thức): I.1, Bài tập 25.
 o(\Phi): I.1, Bài tập 26.
@@ -96,7 +96,7 @@ T(G), T(φ) : III.2.2.
 $t \ast t'$ : III.3.1, III.3.18.
 
 U(G), U^+(G), U_s(G), U_s^+(G): III.3.1, III.3.18.
-T_g^{(s)}(G), T_g^{(\infty)}(G), \mathcal{T}^{(\infty)}(G): III.3.1, III.3.18.
+T_g^{(s)}(G), T_g^{(\infty)}(G), \mathscr{T}^{(\infty)}(G): III.3.1, III.3.18.
 $t \ast f$ : III.3.4, III.3.18.
 $D_t$ : III.3.5, III.3.18.
 $L_t, R_t$ : III.3.6, III.3.18.

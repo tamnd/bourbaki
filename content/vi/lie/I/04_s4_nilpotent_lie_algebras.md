@@ -32,9 +32,9 @@ subsections:
       pdf_page: 60
 statements: 18
 exercises: 27
-content_sha256: 7815680b8318036c3ec4a4c8ac843d327461e829f8cd8f36969f5036eecb902f
+content_sha256: e0cf474fc978a5dec2d70762a134b2ae7ebe3ca727fc76078e0d7dff9489add2
 translated_from: content/en/lie/I/04_s4_nilpotent_lie_algebras.md
-source_content_sha256: 48ab9b1787343e1f86d71a8b0614a97c02bf7d85a80b47fd455f6abb64aa840b
+source_content_sha256: bef3eeafe13af0c47229143600305c1cdb410b97ca96cc305d8ed095ac5bb3cd
 translation_model: gpt-5.4
 translation_run: translate-vi-c10151d9
 glossary_version: 34
@@ -58,12 +58,12 @@ Một đại số Lie giao hoán là lũy linh.
 
 *Cho $g$ là một đại số Lie. Các điều kiện sau là tương đương:*
 (a) $g$ *là lũy linh;*
-(b) $\mathcal{C}^k g = \{0\}$ *với* $k$ *đủ lớn*;
-(c) $\mathcal{C}_k g = g$ *với* $k$ *đủ lớn*;
+(b) $\mathscr{C}^k g = \{0\}$ *với* $k$ *đủ lớn*;
+(c) $\mathscr{C}_k g = g$ *với* $k$ *đủ lớn*;
 (d) *tồn tại một số nguyên* $k$ *sao cho* $\operatorname{ad} x_1 \circ \operatorname{ad} x_2 \circ \cdots \circ \operatorname{ad} x_k = 0$ *với mọi phần tử* $x_1, x_2, \ldots, x_k$ *của* $g$;
 (e) *tồn tại một dãy giảm các iđêan* $(g_i)_{0 \leq i \leq n}$ *của* $g$ *với* $g_0 = g, g_n = \{0\}$, *sao cho* $[g, g_i] \subset g_{i+1}$ *và* $\dim g_i / g_{i+1} = 1$ *với* $0 \leq i < n$.
 
-Nếu $\mathcal{C}^k g = \{0\}$ (resp. $\mathcal{C}_k g = g$), rõ ràng dãy $\mathcal{C}^1 g, \ldots, \mathcal{C}^k g$ (resp. $\mathcal{C}_k g, \mathcal{C}_{k-1} g, \ldots, \mathcal{C}_0 g$) có các tính chất của Định nghĩa 1 và do đó $g$ là lũy linh. Ngược lại, giả sử rằng tồn tại một dãy $(g_i)_{0 \leq i \leq p}$ có các tính chất của Định nghĩa 1. Ta thấy bằng quy nạp theo $n$ rằng $g_i \supset \mathcal{C}^{i+1} g$ và $g_{p-i} \subset \mathcal{C}_i g$. Do đó $\mathcal{C}^{p+1} g = \{0\}$ và $\mathcal{C}_p g = g$. Như vậy ta đã chứng minh rằng các điều kiện (a), (b) và (c) là tương đương. Mặt khác, $\mathcal{C}^1 g$ là tập hợp các tổ hợp tuyến tính của các phần tử có dạng
+Nếu $\mathscr{C}^k g = \{0\}$ (resp. $\mathscr{C}_k g = g$), rõ ràng dãy $\mathscr{C}^1 g, \ldots, \mathscr{C}^k g$ (resp. $\mathscr{C}_k g, \mathscr{C}_{k-1} g, \ldots, \mathscr{C}_0 g$) có các tính chất của Định nghĩa 1 và do đó $g$ là lũy linh. Ngược lại, giả sử rằng tồn tại một dãy $(g_i)_{0 \leq i \leq p}$ có các tính chất của Định nghĩa 1. Ta thấy bằng quy nạp theo $n$ rằng $g_i \supset \mathscr{C}^{i+1} g$ và $g_{p-i} \subset \mathscr{C}_i g$. Do đó $\mathscr{C}^{p+1} g = \{0\}$ và $\mathscr{C}_p g = g$. Như vậy ta đã chứng minh rằng các điều kiện (a), (b) và (c) là tương đương. Mặt khác, $\mathscr{C}^1 g$ là tập hợp các tổ hợp tuyến tính của các phần tử có dạng
 
 $$
 [x_1, [x_2, \ldots, [x_{i-2}, [x_{i-1}, x_i]] \ldots]]
@@ -89,24 +89,24 @@ Với mọi $x$ và $y$ trong một đại số Lie lũy linh, $\operatorname{ad
 #### Mệnh đề 2 {#lie-i-s4-prop-2 .statement}
 
 *Các đại số con, các đại số thương và các mở rộng trung tâm của một đại số Lie lũy linh đều là lũy linh. Một tích hữu hạn các đại số Lie lũy linh là một đại số Lie lũy linh.*
-Cho $g$ là một đại số Lie, $g'$ là một đại số con của $g$, $\mathfrak{h}$ là một iđêan của $g$, $\mathfrak{k} = g/\mathfrak{h}$ và $\phi$ là ánh xạ chính tắc từ $g$ lên $\mathfrak{k}$. Nếu $g$ là lũy linh, thì $\mathcal{C}^k g = \{0\}$ với một số nguyên $k$, do đó $\mathcal{C}^k g' \subset \mathcal{C}^k g = \{0\}$ và $\mathcal{C}^k \mathfrak{k} = \phi(\mathcal{C}^k g) = \{0\}$, và vì thế $g'$ và $\mathfrak{k}$ đều lũy linh. Nếu $\mathfrak{k}$ lũy linh và $\mathfrak{h}$ được chứa trong tâm của $g$, thì $\mathcal{C}^k \mathfrak{k} = \{0\}$ với một số nguyên $k$, do đó $\mathcal{C}^k g \subset \mathfrak{h}$ và vì vậy $\mathcal{C}^{k+1} g \subset [\mathfrak{h}, g] = \{0\}$, nên $g$ là lũy linh. Sau cùng, mệnh đề liên quan đến các tích suy ra chẳng hạn từ mệnh đề (a) $\Leftrightarrow$ (d) của Mệnh đề 1.
+Cho $g$ là một đại số Lie, $g'$ là một đại số con của $g$, $\mathfrak{h}$ là một iđêan của $g$, $\mathfrak{k} = g/\mathfrak{h}$ và $\phi$ là ánh xạ chính tắc từ $g$ lên $\mathfrak{k}$. Nếu $g$ là lũy linh, thì $\mathscr{C}^k g = \{0\}$ với một số nguyên $k$, do đó $\mathscr{C}^k g' \subset \mathscr{C}^k g = \{0\}$ và $\mathscr{C}^k \mathfrak{k} = \phi(\mathscr{C}^k g) = \{0\}$, và vì thế $g'$ và $\mathfrak{k}$ đều lũy linh. Nếu $\mathfrak{k}$ lũy linh và $\mathfrak{h}$ được chứa trong tâm của $g$, thì $\mathscr{C}^k \mathfrak{k} = \{0\}$ với một số nguyên $k$, do đó $\mathscr{C}^k g \subset \mathfrak{h}$ và vì vậy $\mathscr{C}^{k+1} g \subset [\mathfrak{h}, g] = \{0\}$, nên $g$ là lũy linh. Sau cùng, mệnh đề liên quan đến các tích suy ra chẳng hạn từ mệnh đề (a) $\Leftrightarrow$ (d) của Mệnh đề 1.
 
 Định nghĩa 1 và Mệnh đề 2 cho thấy rằng các đại số Lie lũy linh chính xác là các đại số thu được từ các đại số Lie giao hoán bằng một dãy các mở rộng trung tâm.
 
 #### Mệnh đề 3 {#lie-i-s4-prop-3 .statement}
 
 *Cho $g$ là một đại số Lie lũy linh và $\mathfrak{h}$ là một đại số con của $g$ phân biệt với $g$. Chuẩn hóa tử của $\mathfrak{h}$ trong $g$ phân biệt với $\mathfrak{h}$.*
-Cho $k$ là số nguyên lớn nhất sao cho $\mathcal{C}^k g + \mathfrak{h} \neq \mathfrak{h}$. Khi đó
+Cho $k$ là số nguyên lớn nhất sao cho $\mathscr{C}^k g + \mathfrak{h} \neq \mathfrak{h}$. Khi đó
 $$
-[\mathcal{C}^k g + \mathfrak{h}, \mathfrak{h}] \subset \mathcal{C}^{k+1} g + \mathfrak{h} \subset \mathfrak{h}
+[\mathscr{C}^k g + \mathfrak{h}, \mathfrak{h}] \subset \mathscr{C}^{k+1} g + \mathfrak{h} \subset \mathfrak{h}
 $$
-và do đó chuẩn hóa tử của $\mathfrak{h}$ trong $g$ chứa $\mathcal{C}^k g + \mathfrak{h}$.
+và do đó chuẩn hóa tử của $\mathfrak{h}$ trong $g$ chứa $\mathscr{C}^k g + \mathfrak{h}$.
 
 ### 2. ĐỊNH LÝ ENGEL
 
 #### Bổ đề 1 {#lie-i-s4-lem-1 .statement}
 
-*Cho $V$ là một không gian vectơ trên $\mathbf{K}$. Nếu $x$ là một tự đồng cấu lũy linh của $V$, thì ánh xạ $y \mapsto [x, y]$ của $\mathcal{L}(V)$ vào $\mathcal{L}(V)$ là lũy linh.*
+*Cho $V$ là một không gian vectơ trên $\mathbf{K}$. Nếu $x$ là một tự đồng cấu lũy linh của $V$, thì ánh xạ $y \mapsto [x, y]$ của $\mathscr{L}(V)$ vào $\mathscr{L}(V)$ là lũy linh.*
 Nếu $f$ ký hiệu ánh xạ này, thì $f^m(y)$ là một tổng các hạng tử có dạng $\pm x^i y x^j$ với $i + j = m$. Nếu $x^k = 0$, thì $f^{2k-1}(y) = 0$ với mọi $y$.
 
 #### Định lý 1 (Engel) {#lie-i-s4-thm-1 .statement}
@@ -204,7 +204,7 @@ Cho $g$ là một đại số Lie và $a$ là một iđêan của $g$. Để $a$
 
 #### Mệnh đề 6 {#lie-i-s4-prop-6 .statement}
 
-Cho $g$ là một đại số Lie và $E$ là đại số con kết hợp của $\mathcal{L}(g)$ được sinh bởi 1 và các $\operatorname{ad}_g x$ ($x \in g$). Gọi $R$ là căn Jacobson của $E$.
+Cho $g$ là một đại số Lie và $E$ là đại số con kết hợp của $\mathscr{L}(g)$ được sinh bởi 1 và các $\operatorname{ad}_g x$ ($x \in g$). Gọi $R$ là căn Jacobson của $E$.
 (a) Tập hợp $n$ gồm các $y \in g$ sao cho $\operatorname{ad}_g y \in R$ là iđêan lũy linh lớn nhất của $g$.
 (b) Nó trực giao với $g$ đối với dạng Killing.
 
@@ -212,7 +212,7 @@ Cần lưu ý rằng $g/n$ có thể có các iđêan lũy linh khác không.
 
 ### 5. MỞ RỘNG TRƯỜNG CƠ SỞ
 
-Cho $g$ là một đại số Lie trên $K$, $K_1$ là một mở rộng của $K$ và $g' = g_{(K_1)}$. Vì $\mathcal{C}^k g' = (\mathcal{C}^k g)_{(K_1)}$, $g$ là lũy linh nếu và chỉ nếu $g'$ là lũy linh.
+Cho $g$ là một đại số Lie trên $K$, $K_1$ là một mở rộng của $K$ và $g' = g_{(K_1)}$. Vì $\mathscr{C}^k g' = (\mathscr{C}^k g)_{(K_1)}$, $g$ là lũy linh nếu và chỉ nếu $g'$ là lũy linh.
 
 Cho $M$ là một $g$-môđun có số chiều hữu hạn trên $K$, $n$ là iđêan lũy linh lớn nhất đối với $M$ và $M' = M_{(K_1)}$. Cho $(M_i)_{0 \leq i \leq n}$ là một chuỗi Jordan-Hölder của $g$-môđun $M$. Khi đó $x_M(M_i) \subset M_{i+1}$ với mọi $i$ và mọi $x \in n$, do đó
 

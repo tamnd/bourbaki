@@ -33,9 +33,9 @@ subsections:
       pdf_page: 179
 statements: 14
 exercises: 3
-content_sha256: 3d18de902feba9dfe197eea55458a137cc67e3f70efdc760adef94d0bba33569
+content_sha256: dcf9c5accb65bef082fd6d96e219e78e0c1158a452d7c71b6258cb3e010544fe
 translated_from: content/en/lie/II/06_s6_the_hausdorff_series.md
-source_content_sha256: 0784af06abccc4ac51e2a4bf54599a3d414a0162e422d6ea3345f1958570374c
+source_content_sha256: 4537414ee283053f649e5ef02bb3c111565980460e26252851700301be18970c
 translation_model: gpt-5.4
 translation_run: translate-vi-55539167
 glossary_version: 34
@@ -378,7 +378,7 @@ a \mathbin{\mathbf{h}} b = H(a, b) \quad \text{với } a, b \text{ trong } \hat{
 $$
 do đó luật nhóm Hausdorff được cho bởi chuỗi Hausdorff.
 
-(3) Cho $g$ là một đại số Lie với phép lọc nguyên ($\mathcal{C}^n g$) được xác định bởi chuỗi trung tâm dưới. Giả sử tồn tại $m \geq 1$ sao cho $\mathcal{C}^m g = \{0\}$. Với tôpô suy ra từ phép lọc $(\mathcal{C}^n g)_{n \geq 1}$, đại số Lie $g$ là Hausdorff, đầy đủ và thậm chí rời rạc. Khi đó $P(a_1, \ldots, a_r) = 0$ với $a_1, \ldots, a_r$ trong $g$ và với mọi đa thức Lie thuần nhất $P$ có bậc $\geq m$; đặc biệt, $H_{r,s}(a, b) = 0$ với $r + s \geq m$ và chuỗi $H(a, b) = \sum_{r,s} H_{r,s}(a, b)$ chỉ có một số hữu hạn số hạng khác không. Khi đó luật nhóm $(a, b) \mapsto H(a, b)$ trên $g$ là một ánh xạ đa thức (§ 2, no. 4).
+(3) Cho $g$ là một đại số Lie với phép lọc nguyên ($\mathscr{C}^n g$) được xác định bởi chuỗi trung tâm dưới. Giả sử tồn tại $m \geq 1$ sao cho $\mathscr{C}^m g = \{0\}$. Với tôpô suy ra từ phép lọc $(\mathscr{C}^n g)_{n \geq 1}$, đại số Lie $g$ là Hausdorff, đầy đủ và thậm chí rời rạc. Khi đó $P(a_1, \ldots, a_r) = 0$ với $a_1, \ldots, a_r$ trong $g$ và với mọi đa thức Lie thuần nhất $P$ có bậc $\geq m$; đặc biệt, $H_{r,s}(a, b) = 0$ với $r + s \geq m$ và chuỗi $H(a, b) = \sum_{r,s} H_{r,s}(a, b)$ chỉ có một số hữu hạn số hạng khác không. Khi đó luật nhóm $(a, b) \mapsto H(a, b)$ trên $g$ là một ánh xạ đa thức (§ 2, no. 4).
 
 #### Mệnh đề 5 {#lie-ii-s6-prop-5 .statement}
 

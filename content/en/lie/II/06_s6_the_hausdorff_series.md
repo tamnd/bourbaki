@@ -33,7 +33,7 @@ subsections:
       pdf_page: 179
 statements: 14
 exercises: 3
-content_sha256: 0784af06abccc4ac51e2a4bf54599a3d414a0162e422d6ea3345f1958570374c
+content_sha256: 4537414ee283053f649e5ef02bb3c111565980460e26252851700301be18970c
 ---
 
 ## § 6. THE HAUSDORFF SERIES
@@ -371,7 +371,7 @@ a \mathbin{\mathbf{h}} b = H(a, b) \quad \text{for } a, b \text{ in } \hat{L}(X)
 $$
 thus the Hausdorff group law is given by the Hausdorff series.
 
-(3) Let $g$ be a Lie algebra with the integral filtration ($\mathcal{C}^n g$) defined by the lower central series. Suppose that there exists $m \geq 1$ such that $\mathcal{C}^m g = \{0\}$. With the topology derived from the filtration $(\mathcal{C}^n g)_{n \geq 1}$, the Lie algebra $g$ is Hausdorff, complete and even discrete. Then $P(a_1, \ldots, a_r) = 0$ for $a_1, \ldots, a_r$ in $g$ and for every homogeneous Lie polynomial $P$ of degree $\geq m$; in particular, $H_{r,s}(a, b) = 0$ for $r + s \geq m$ and the series $H(a, b) = \sum_{r,s} H_{r,s}(a, b)$ has only a finite number of non-zero terms. The group law $(a, b) \mapsto H(a, b)$ on $g$ is then a polynomial mapping (§ 2, no. 4).
+(3) Let $g$ be a Lie algebra with the integral filtration ($\mathscr{C}^n g$) defined by the lower central series. Suppose that there exists $m \geq 1$ such that $\mathscr{C}^m g = \{0\}$. With the topology derived from the filtration $(\mathscr{C}^n g)_{n \geq 1}$, the Lie algebra $g$ is Hausdorff, complete and even discrete. Then $P(a_1, \ldots, a_r) = 0$ for $a_1, \ldots, a_r$ in $g$ and for every homogeneous Lie polynomial $P$ of degree $\geq m$; in particular, $H_{r,s}(a, b) = 0$ for $r + s \geq m$ and the series $H(a, b) = \sum_{r,s} H_{r,s}(a, b)$ has only a finite number of non-zero terms. The group law $(a, b) \mapsto H(a, b)$ on $g$ is then a polynomial mapping (§ 2, no. 4).
 
 #### Proposition 5 {#lie-ii-s6-prop-5 .statement}
 

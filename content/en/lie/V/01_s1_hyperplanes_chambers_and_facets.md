@@ -36,7 +36,7 @@ subsections:
       pdf_page: 81
 statements: 18
 exercises: 0
-content_sha256: d79a67a6abd874fd314fbe2bcdfe35f01a4dbed5de50756cdd3d83045e3a21ea
+content_sha256: 88296e8ecd750a7b7e406ceea50477e26e5c392b67a92cbaabd00a82b6dbf1e1
 ---
 
 ## § 1. HYPERPLANES, CHAMBERS AND FACETS
@@ -57,45 +57,45 @@ If A consists of a single point a, we write $D_H(a)$ and $D_{\mathfrak{N}}(a)$ i
 
 ### 2. FACETS
 
-The set of points of E that do not belong to any hyperplane H of the set $\mathcal{H}$ is open since $\mathcal{H}$ is locally finite. More precisely, we have the following result:
+The set of points of E that do not belong to any hyperplane H of the set $\mathscr{H}$ is open since $\mathscr{H}$ is locally finite. More precisely, we have the following result:
 
 #### Proposition 1 {#lie-v-s1-prop-1 .statement}
 
-*Let a be a point of E. There exists a connected open neighbourhood of a that does not meet any hyperplane H that belongs to $\mathcal{H}$ and does not pass through a. Moreover, there exist only finitely many hyperplanes that belong to $\mathcal{H}$ and pass through a.*
+*Let a be a point of E. There exists a connected open neighbourhood of a that does not meet any hyperplane H that belongs to $\mathscr{H}$ and does not pass through a. Moreover, there exist only finitely many hyperplanes that belong to $\mathscr{H}$ and pass through a.*
 
-The set $\mathcal{N}$ of hyperplanes H such that $H \in \mathcal{H}$ and $a \notin H$ is locally finite since it is contained in $\mathcal{H}$. Hence, the set U of points of E that do not belong to any of the hyperplanes of the set $\mathcal{N}$ is open. Since $a \in U$, there is a connected open neighbourhood of a contained in U. The remainder of the proposition is clear.
+The set $\mathscr{N}$ of hyperplanes H such that $H \in \mathscr{H}$ and $a \notin H$ is locally finite since it is contained in $\mathscr{H}$. Hence, the set U of points of E that do not belong to any of the hyperplanes of the set $\mathscr{N}$ is open. Since $a \in U$, there is a connected open neighbourhood of a contained in U. The remainder of the proposition is clear.
 
 Given two points x and y of E, denote by R\{x, y\} the relation
 
-" For any hyperplane $H \in \mathcal{H}$, either $x \in H$ and $y \in H$ or $x$ and $y$ are strictly on the same side of H."
+" For any hyperplane $H \in \mathscr{H}$, either $x \in H$ and $y \in H$ or $x$ and $y$ are strictly on the same side of H."
 
 Clearly, R is an equivalence relation on E.
 
 #### Definition 1 {#lie-v-s1-def-1 .statement}
 
-*A facet of E relative to $\mathcal{H}$ is an equivalence class of the equivalence relation defined above.*
+*A facet of E relative to $\mathscr{H}$ is an equivalence class of the equivalence relation defined above.*
 
 #### Proposition 2 {#lie-v-s1-prop-2 .statement}
 
 *The set of facets is locally finite.*
 
-This is clear since $\mathcal{H}$ is locally finite.
+This is clear since $\mathscr{H}$ is locally finite.
 
-Let F be a facet and a a point of F. A hyperplane $H \in \mathcal{H}$ contains F if and only if $a \in H$; the set $\mathcal{F}$ of these hyperplanes is thus finite; their intersection is an affine subspace L of E, which we shall call the affine *support* of F; the dimension of L will be called the *dimension* of F.
+Let F be a facet and a a point of F. A hyperplane $H \in \mathscr{H}$ contains F if and only if $a \in H$; the set $\mathscr{F}$ of these hyperplanes is thus finite; their intersection is an affine subspace L of E, which we shall call the affine *support* of F; the dimension of L will be called the *dimension* of F.
 
-If $\mathcal{N}$ is the set of hyperplanes $H \in \mathcal{H}$ not containing F, then
+If $\mathscr{N}$ is the set of hyperplanes $H \in \mathscr{H}$ not containing F, then
 
 $$
-F = L \cap \bigcap_{H \in \mathcal{N}} D_H(a).
+F = L \cap \bigcap_{H \in \mathscr{N}} D_H(a).
 $$
 
 We shall prove that the closure of F is given by
 
 $$
-\overline{F} = L \cap \bigcap_{H \in \mathcal{N}} \overline{D_H(a)}.
+\overline{F} = L \cap \bigcap_{H \in \mathscr{N}} \overline{D_H(a)}.
 $$
 
-It is clear that the right-hand side contains the left-hand side. Conversely, let $x \in L \cap \bigcap_{H \in \mathcal{N}} \overline{D_H(a)}$. The open segment with extremities a and x is contained in L and in each of the $D_H(a)$ for $H \in \mathcal{N}$, and hence in F. It follows that x is in the closure of F, hence the formula.
+It is clear that the right-hand side contains the left-hand side. Conversely, let $x \in L \cap \bigcap_{H \in \mathscr{N}} \overline{D_H(a)}$. The open segment with extremities a and x is contained in L and in each of the $D_H(a)$ for $H \in \mathscr{N}$, and hence in F. It follows that x is in the closure of F, hence the formula.
 
 #### Proposition 3 {#lie-v-s1-prop-3 .statement}
 
@@ -193,7 +193,7 @@ If E reduces to a single point, this is clear. Otherwise, let $a \in E$ and let 
 
 (iii) *If L is a hyperplane and $L \in \mathfrak{H}$, there exists a point a in $\Omega$ that does not belong to any hyperplane $H \neq L$ of $\mathfrak{H}$.*
 
-Denote by $\mathfrak{N}$ the set of hyperplanes H with $H \in \mathfrak{H}$ and $L \not\subset H$, and by $\mathcal{L}$ the set of hyperplanes of *the affine space* L of the form $L \cap H$ with $H \in \mathfrak{N}$. It is clear that $\mathcal{L}$ is a locally finite set of hyperplanes in L, and Prop. 6 shows that $\Omega$ meets a chamber $\Gamma$ defined by $\mathcal{L}$ in L. If $a$ is a point of $\Gamma \cap \Omega$, then $a \notin H$ for all $H \in \mathfrak{N}$, hence (i).
+Denote by $\mathfrak{N}$ the set of hyperplanes H with $H \in \mathfrak{H}$ and $L \not\subset H$, and by $\mathscr{L}$ the set of hyperplanes of *the affine space* L of the form $L \cap H$ with $H \in \mathfrak{N}$. It is clear that $\mathscr{L}$ is a locally finite set of hyperplanes in L, and Prop. 6 shows that $\Omega$ meets a chamber $\Gamma$ defined by $\mathscr{L}$ in L. If $a$ is a point of $\Gamma \cap \Omega$, then $a \notin H$ for all $H \in \mathfrak{N}$, hence (i).
 
 Assume now that L is a hyperplane; any hyperplane containing L is then equal to it, so we may distinguish two cases:
 
@@ -217,15 +217,15 @@ By Prop. 7, (iii), there exists a point $a$ of $H$ that does not belong to any h
 
 #### Proposition 9 {#lie-v-s1-prop-9 .statement}
 
-*Let* $C$ *be a chamber and* $\mathcal{M}$ *the set of walls of* $C$. *Then* $C = D_{\mathcal{M}}(C)$ *and every subset* $\mathcal{L}$ *of* $\mathfrak{H}$ *such that* $C = D_{\mathcal{L}}(C)$ *contains* $\mathcal{M}$. *A subset* $F$ *of* $\overline{C}$ *is a facet if and only if it is a facet of* $E$ *relative to the family* $\mathcal{M}$.
+*Let* $C$ *be a chamber and* $\mathscr{M}$ *the set of walls of* $C$. *Then* $C = D_{\mathscr{M}}(C)$ *and every subset* $\mathscr{L}$ *of* $\mathfrak{H}$ *such that* $C = D_{\mathscr{L}}(C)$ *contains* $\mathscr{M}$. *A subset* $F$ *of* $\overline{C}$ *is a facet if and only if it is a facet of* $E$ *relative to the family* $\mathscr{M}$.
 
-a) Let $\mathcal{L}$ be a subset of $\mathfrak{H}$ such that $C = D_{\mathcal{L}}(C)$. Consider a hyperplane $L$ belonging to $\mathfrak{H}$ but not to $\mathcal{L}$; let $\mathfrak{N}$ be the set of hyperplanes $H \neq L$ belonging to $\mathfrak{H}$. Then $\mathcal{L} \subset \mathfrak{N}$, hence $C = D_{\mathfrak{N}}(C)$, and $L$ does not meet $D_{\mathfrak{N}}(C)$. By the implication (i) $\Longrightarrow$ (iii) in Prop. 4, the hyperplane $L$ is not a wall of $C$. Consequently, every wall of $C$ belongs to $\mathcal{L}$.
+a) Let $\mathscr{L}$ be a subset of $\mathfrak{H}$ such that $C = D_{\mathscr{L}}(C)$. Consider a hyperplane $L$ belonging to $\mathfrak{H}$ but not to $\mathscr{L}$; let $\mathfrak{N}$ be the set of hyperplanes $H \neq L$ belonging to $\mathfrak{H}$. Then $\mathscr{L} \subset \mathfrak{N}$, hence $C = D_{\mathfrak{N}}(C)$, and $L$ does not meet $D_{\mathfrak{N}}(C)$. By the implication (i) $\Longrightarrow$ (iii) in Prop. 4, the hyperplane $L$ is not a wall of $C$. Consequently, every wall of $C$ belongs to $\mathscr{L}$.
 
-b) We assume that $C = D_{\mathcal{L}}(C)$. Let $H$ be a hyperplane belonging to $\mathcal{L}$ that is not a wall of $C$, and put $\mathcal{L}' = \mathcal{L} - \{ H \}$. By the implication (iii) $\Longrightarrow$ (i) in Prop. 4, the convex set $D_{\mathcal{L}'}(C)$ does not meet $H$, so $D_{\mathcal{L}'}(C) \subset D_H(C)$ and $C = D_{\mathcal{L}'}(C)$. If $\mathfrak{F}$ is a finite subset of $\mathcal{L}$ that does not contain any wall of $C$, we conclude by induction on the cardinal of $\mathfrak{F}$ that $C = D_{\mathcal{L} - \mathfrak{F}}(C)$.
+b) We assume that $C = D_{\mathscr{L}}(C)$. Let $H$ be a hyperplane belonging to $\mathscr{L}$ that is not a wall of $C$, and put $\mathscr{L}' = \mathscr{L} - \{ H \}$. By the implication (iii) $\Longrightarrow$ (i) in Prop. 4, the convex set $D_{\mathscr{L}'}(C)$ does not meet $H$, so $D_{\mathscr{L}'}(C) \subset D_H(C)$ and $C = D_{\mathscr{L}'}(C)$. If $\mathfrak{F}$ is a finite subset of $\mathscr{L}$ that does not contain any wall of $C$, we conclude by induction on the cardinal of $\mathfrak{F}$ that $C = D_{\mathscr{L} - \mathfrak{F}}(C)$.
 
 c) Let $a$ be a point of $C$; clearly, $C \subset D_{\mathfrak{M}}(a)$. Let $a'$ be a point of $D_{\mathfrak{M}}(a)$; since the closed segment $[aa']$ is compact, the set $\mathfrak{F}$ of hyperplanes $H \in \mathfrak{H}$ that meet $[aa']$ is finite. Since $a$ and $a'$ are strictly on the same side of every wall of $C$, no wall of $C$ belongs to $\mathfrak{F}$; by b), we have $C = D_{\mathfrak{H} - \mathfrak{F}}(C)$. Since $a' \in D_{\mathfrak{H} - \mathfrak{F}}(a)$, we have $a' \in C$. We have therefore proved that $D_{\mathfrak{M}}(a) \subset C$, which establishes the first part of the proposition.
 
-d) To prove the last assertion of the proposition, it clearly suffices to show that a subset $F$ of $\overline{C}$ that is a facet of $E$ relative to $\mathcal{M}$ is a facet of $E$ relative to $\mathfrak{H}$, or that every hyperplane $H \in \mathfrak{H}$ that meets $F$ contains $F$. So let $H$ be a hyperplane that meets $F$ but does not contain it. Since $F$ is open in its affine support, it is not completely on one side of $H$. It follows that $\overline{C}$ is not completely on one side of $H$ and hence that the hyperplane $H$ does not belong to $\mathfrak{H}$, which completes the proof.
+d) To prove the last assertion of the proposition, it clearly suffices to show that a subset $F$ of $\overline{C}$ that is a facet of $E$ relative to $\mathscr{M}$ is a facet of $E$ relative to $\mathfrak{H}$, or that every hyperplane $H \in \mathfrak{H}$ that meets $F$ contains $F$. So let $H$ be a hyperplane that meets $F$ but does not contain it. Since $F$ is open in its affine support, it is not completely on one side of $H$. It follows that $\overline{C}$ is not completely on one side of $H$ and hence that the hyperplane $H$ does not belong to $\mathfrak{H}$, which completes the proof.
 
 #### Remark 1 {#lie-v-s1-n4-rem-1 .statement}
 

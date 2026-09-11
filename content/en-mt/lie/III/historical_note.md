@@ -12,7 +12,7 @@ pdf_pages: 0284-0318
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: d264a5fb7e52b2fc4fd8837bcfa0fb9b251e9a9910d4a441c8ec27ebb5092814
+content_sha256: fb2508285d79def2180d4ca9f1dc5ce0878f5495827c9e61ff61250d62c5d71a
 translated_from: content/fr/lie/III/historical_note.md
 source_lang: fr
 translation_method: machine
@@ -543,7 +543,7 @@ T(m) : III.2.1
 T(G), T(\varphi) : III.2.2
 t \* t' : III.3.1, III.3.18
 U(G), U^+(G), U_s(G), U_s^+(G) : III.3.1, III.3.18
-T_g^{(s)}(G), T_g^{(\infty)}(G), \mathcal{T}^{(\infty)}(G) : III.3.1, III.3.18
+T_g^{(s)}(G), T_g^{(\infty)}(G), \mathscr{T}^{(\infty)}(G) : III.3.1, III.3.18
 t \* f : III.3.4, III.3.18
 D_t : III.3.5, III.3.18
 L_t, R_t : III.3.6, III.3.18

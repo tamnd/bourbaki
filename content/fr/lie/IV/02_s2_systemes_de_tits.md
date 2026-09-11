@@ -40,7 +40,7 @@ subsections:
       pdf_page: 29
 statements: 31
 exercises: 29
-content_sha256: 6c11970e3f005a9e93ca03d9ec2fccd854aa271c289f50e70fb59e94c7385df8
+content_sha256: 5e37365274e6d0174dfd441e9158a76e87d1c0aff89baa9b72f51d8fb4bcbf1a
 ---
 
 ## § 2. Systèmes de Tits
@@ -325,7 +325,7 @@ Pour toute partie $X$ de $S$, on note $W_X$ le sous-groupe de $W$ engendré par 
 #### Théorème 3 {#lie-iv-s2-thm-3 .statement}
 
 a) Pour toute partie $X$ de $S$, l’ensemble $G_X$ est un sous-groupe de $G$, engendré par $\bigcup_{s \in X} C(s)$.
-b) L’application $X \mapsto G_X$ est une bijection de $\mathcal{P}(S)$ sur l’ensemble des sous-groupes de $G$ contenant $B$.
+b) L’application $X \mapsto G_X$ est une bijection de $\mathscr{P}(S)$ sur l’ensemble des sous-groupes de $G$ contenant $B$.
 
 c) Soit $(X_i)_{i \in I}$ une famille de parties de $S$. Si $X = \bigcap_{i \in I} X_i$, on a $G_X = \bigcap_{i \in I} G_{X_i}$.
 
@@ -421,7 +421,7 @@ L’assertion (i) résulte des prop. 3 et 4, et entraîne (ii). Sous les hypoth�
 
 Soient $P_1$ et $P_2$ deux sous-groupes paraboliques de $G$. Alors $P_1 \cap P_2$ contient un conjugué de $T$.
 
-(*) Si $H$ est un sous-groupe d’un groupe $G$, le normalisateur de $H$ dans $G$ est le sous-groupe $\mathcal{N}_G(H)$ formé des éléments $g$ de $G$ tels que $g H g^{-1} = H$. On dit que le sous-groupe $H'$ normalise $H$ si l’on a $H' \subset \mathcal{N}_G(H)$, auquel cas $H H' = H' H$ est un sous-groupe de $G$, dans lequel $H$ est distingué.
+(*) Si $H$ est un sous-groupe d’un groupe $G$, le normalisateur de $H$ dans $G$ est le sous-groupe $\mathscr{N}_G(H)$ formé des éléments $g$ de $G$ tels que $g H g^{-1} = H$. On dit que le sous-groupe $H'$ normalise $H$ si l’on a $H' \subset \mathscr{N}_G(H)$, auquel cas $H H' = H' H$ est un sous-groupe de $G$, dans lequel $H$ est distingué.
 
 Quitte à transformer $P_1$ et $P_2$ par un automorphisme intérieur de $G$, on peut supposer que $B \subset P_1$. Soit $g \in G$ tel que $gB g^{-1} \subset P_2$. D’après le th. 1, il existe $n \in N$ et $b, b' \in B$ tels que $g = b n b'$. Comme $T$ est distingué dans $N$, on a
 $$

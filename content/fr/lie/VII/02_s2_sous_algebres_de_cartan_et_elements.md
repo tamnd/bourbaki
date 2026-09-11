@@ -28,7 +28,7 @@ subsections:
       pdf_page: 19
 statements: 40
 exercises: 16
-content_sha256: 376c38db366a6ff349b58d48f96a6a454428002a828f1a1940ce66799ee1c9d7
+content_sha256: 01667c59d64eba977128b0824aa1b1adace5eec16597b043d488fb92263bd80b
 ---
 
 ## § 2. Sous-algèbres de Cartan et éléments réguliers d’une algèbre de Lie
@@ -131,13 +131,13 @@ Supposons que $\mathfrak{h} \supset c$ et que $\mathfrak{h}/c$ soit une sous-alg
 
 #### Corollaire {#lie-vii-s2-n1-cor-1 .statement tag=00TZ}
 
-Soit $\mathcal{C}_{\infty} \mathfrak{g}$ la réunion de la série centrale ascendante de l'algèbre de Lie $g$ (I, § 1, no 6). Les sous-algèbres de Cartan de $\mathfrak{g}$ sont les images réciproques des sous-algèbres de Cartan de $\mathfrak{g}/\mathcal{C}_{\infty} \mathfrak{g}$.
+Soit $\mathscr{C}_{\infty} \mathfrak{g}$ la réunion de la série centrale ascendante de l'algèbre de Lie $g$ (I, § 1, no 6). Les sous-algèbres de Cartan de $\mathfrak{g}$ sont les images réciproques des sous-algèbres de Cartan de $\mathfrak{g}/\mathscr{C}_{\infty} \mathfrak{g}$.
 
-En effet, le centre de $\mathfrak{g}/\mathcal{C}_i \mathfrak{g}$ est $\mathcal{C}_{i+1} \mathfrak{g}/\mathcal{C}_i \mathfrak{g}$, et le corollaire se déduit de la prop. 5 par une récurrence immédiate.
+En effet, le centre de $\mathfrak{g}/\mathscr{C}_i \mathfrak{g}$ est $\mathscr{C}_{i+1} \mathfrak{g}/\mathscr{C}_i \mathfrak{g}$, et le corollaire se déduit de la prop. 5 par une récurrence immédiate.
 
 #### Remarque {#lie-vii-s2-n1-rem-1 .statement tag=00U0}
 
-$\mathcal{C}_{\infty} \mathfrak{g}$ est le plus petit idéal $n$ de $\mathfrak{g}$ tel que le centre de $\mathfrak{g}/n$ soit nul; c'est un idéal caractéristique et nilpotent de $\mathfrak{g}$.
+$\mathscr{C}_{\infty} \mathfrak{g}$ est le plus petit idéal $n$ de $\mathfrak{g}$ tel que le centre de $\mathfrak{g}/n$ soit nul; c'est un idéal caractéristique et nilpotent de $\mathfrak{g}$.
 
 ### 2. Eléments réguliers d'une algèbre de Lie
 
@@ -216,7 +216,7 @@ où les $a_i, b_i, c_i$ sont des fonctions polynomiales sur $g$, avec $a_r \neq 
 
 #### Corollaire {#lie-vii-s2-n2-cor-1 .statement tag=00U9}
 
-*Soit* $\mathcal{C}_n g$ (*n \geqslant 0*) *un terme de la série centrale ascendante de* $g$ *(I, § 1, n° 6)*. *Les éléments réguliers de* $g$ *sont ceux dont l’image dans* $g/\mathcal{C}_n g$ *est régulière*.
+*Soit* $\mathscr{C}_n g$ (*n \geqslant 0*) *un terme de la série centrale ascendante de* $g$ *(I, § 1, n° 6)*. *Les éléments réguliers de* $g$ *sont ceux dont l’image dans* $g/\mathscr{C}_n g$ *est régulière*.
 
 #### Proposition 9 {#lie-vii-s2-prop-9 .statement tag=00UA}
 

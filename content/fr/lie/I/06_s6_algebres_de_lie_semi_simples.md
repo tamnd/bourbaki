@@ -52,7 +52,7 @@ subsections:
       pdf_page: 92
 statements: 53
 exercises: 27
-content_sha256: 87a282f119d444f8f1be9df02c5ab840a2722423ceafb8183d3d7e51f79bd855
+content_sha256: f4a7c703f00fc2511f368764b5627959d7e967ed5445dd9675de195bef57dfbe
 ---
 
 ## § 6. Algèbres de Lie semi-simples
@@ -139,7 +139,7 @@ a) *Toutes les représentations linéaires de dimension finie de $g$ sont semi-s
 
 b) *Etant donnés une représentation linéaire $\rho$ de $g$ dans un espace vectoriel $V$ de dimension finie et un sous-espace vectoriel $W$ de codimension 1 tel que $\rho(x)(V) \subset W$ pour tout $x \in g$, il existe une droite supplémentaire de $W$ stable pour $\rho(g)$ (donc annulée par $\rho(g)$).
 
-Il est clair que a) entraîne b). Supposons b) vraie. Soient $\sigma$ une représentation de dimension finie de $g$ dans un espace vectoriel $M$, et $N$ un sous-espace vectoriel stable pour $\sigma(g)$. Soit $\mu$ la représentation de $g$ dans $\mathcal{L}(M)$ canoniquement déduite de $\sigma$ ($§ 3$, no 3) : rappelons que $\mu(x) = \operatorname{ad}_{\mathcal{L}(M)} \sigma(x)$. Soit $V$ (resp. $W$) le sous-espace de $\mathcal{L}(M)$ formé des applications linéaires de $M$ dans $N$ dont la restriction à $N$ est une homothétie (resp. est nulle) ; alors $W$ est de codimension 1 dans $V$, et $\mu(x)(V) \subset W$ pour tout $x \in g$. D’après la condition b), il existe un $u \in V$ annulé par $\mu(x)$ pour tout $x \in g$, et dont la restriction à $N$ est une homothétie non nulle. En multipliant $u$ par un scalaire convenable, on peut supposer que $u$ est un projecteur de $M$ sur $N$. Dire que $\mu(x) \cdot u = 0$ signifie que $u$ est permutable à $\sigma(x)$. Donc le noyau de $u$ est un supplémentaire de $N$ dans $M$ stable pour $\sigma(x)$, quel que soit $x \in g$. Donc $\sigma$ est semi-simple.
+Il est clair que a) entraîne b). Supposons b) vraie. Soient $\sigma$ une représentation de dimension finie de $g$ dans un espace vectoriel $M$, et $N$ un sous-espace vectoriel stable pour $\sigma(g)$. Soit $\mu$ la représentation de $g$ dans $\mathscr{L}(M)$ canoniquement déduite de $\sigma$ ($§ 3$, no 3) : rappelons que $\mu(x) = \operatorname{ad}_{\mathscr{L}(M)} \sigma(x)$. Soit $V$ (resp. $W$) le sous-espace de $\mathscr{L}(M)$ formé des applications linéaires de $M$ dans $N$ dont la restriction à $N$ est une homothétie (resp. est nulle) ; alors $W$ est de codimension 1 dans $V$, et $\mu(x)(V) \subset W$ pour tout $x \in g$. D’après la condition b), il existe un $u \in V$ annulé par $\mu(x)$ pour tout $x \in g$, et dont la restriction à $N$ est une homothétie non nulle. En multipliant $u$ par un scalaire convenable, on peut supposer que $u$ est un projecteur de $M$ sur $N$. Dire que $\mu(x) \cdot u = 0$ signifie que $u$ est permutable à $\sigma(x)$. Donc le noyau de $u$ est un supplémentaire de $N$ dans $M$ stable pour $\sigma(x)$, quel que soit $x \in g$. Donc $\sigma$ est semi-simple.
 
 #### Lemme 3 {#lie-i-s6-lem-3 .statement}
 
@@ -213,7 +213,7 @@ Soient M un espace vectoriel de dimension finie sur K, et g une sous-algèbre se
 
 Si $K_1$ est une extension de $K$, la forme de Killing de $g_{(K_1)}$ est l’extension à $g_{(K_1)}$ de celle de $g$ (§ 3, no 8), donc est non dégénérée ; par suite, $g_{(K_1)}$ est semi-simple. Il suffit donc de démontrer la prop. 3 lorsque le corps de base est algébriquement clos, ce que nous supposons désormais.
 
-Pour tout sous-espace $N$ de $M$, soit $g_N$ la sous-algèbre de $gl(M)$ formée des éléments qui laissent $N$ stable, et dont la restriction à $N$ est de trace nulle. Comme $g = \mathcal{O}g$, on a $g \subset g_N$ si $N$ est stable par $g$. Soit alors $g^*$ l’intersection du normalisateur de $g$ dans $gl(M)$ et des algèbres $g_N$ où $N$ parcourt l’ensemble des sous-espaces de $M$ stables par $g$. Comme la composante semi-simple $s$ (resp. nilpotente $n$) de $x \in gl(M)$ est un polynôme sans terme constant en $x$, et que $ad\ s$ (resp. $ad\ n$) est la partie semi-simple (resp. nilpotente) de $ad\ x$ (§ 5, no 4, lemme 2), il est clair que $x \in g^*$ implique $s \in g^*$ et $n \in g^*$; il suffit donc de faire voir que $g^* = g$. Puisque $g$ et un idéal semi-simple de $g^*$, on a $g^* = a \times g$ (no 1, cor. 1 de la prop. 1). Soit $a \in a$ et soit $N$ un sous-espace minimal parmi les sous-espaces non nuls de $M$ stables par $g$. La restriction de $a$ à $N$ est un multiple scalaire de l’identité d’après le th. de Burnside, de trace nulle par construction, donc est nulle puisque $K$ est de caractéristique 0. Comme $M$ est somme directe de sous-espaces tels que $N$, il s’ensuit que $a = 0$, donc $g^* = g$.
+Pour tout sous-espace $N$ de $M$, soit $g_N$ la sous-algèbre de $gl(M)$ formée des éléments qui laissent $N$ stable, et dont la restriction à $N$ est de trace nulle. Comme $g = \mathscr{O}g$, on a $g \subset g_N$ si $N$ est stable par $g$. Soit alors $g^*$ l’intersection du normalisateur de $g$ dans $gl(M)$ et des algèbres $g_N$ où $N$ parcourt l’ensemble des sous-espaces de $M$ stables par $g$. Comme la composante semi-simple $s$ (resp. nilpotente $n$) de $x \in gl(M)$ est un polynôme sans terme constant en $x$, et que $ad\ s$ (resp. $ad\ n$) est la partie semi-simple (resp. nilpotente) de $ad\ x$ (§ 5, no 4, lemme 2), il est clair que $x \in g^*$ implique $s \in g^*$ et $n \in g^*$; il suffit donc de faire voir que $g^* = g$. Puisque $g$ et un idéal semi-simple de $g^*$, on a $g^* = a \times g$ (no 1, cor. 1 de la prop. 1). Soit $a \in a$ et soit $N$ un sous-espace minimal parmi les sous-espaces non nuls de $M$ stables par $g$. La restriction de $a$ à $N$ est un multiple scalaire de l’identité d’après le th. de Burnside, de trace nulle par construction, donc est nulle puisque $K$ est de caractéristique 0. Comme $M$ est somme directe de sous-espaces tels que $N$, il s’ensuit que $a = 0$, donc $g^* = g$.
 
 #### Corollaire {#lie-i-s6-n3-cor-1 .statement}
 
@@ -252,7 +252,7 @@ Une algèbre de Lie est dite réductive si sa représentation adjointe est semi-
 Soient g une algèbre de Lie, r son radical. Les conditions suivantes sont équivalentes :
 
 a) g est réductive.
-b) $\mathcal{O}g$ est semi-simple.
+b) $\mathscr{O}g$ est semi-simple.
 
 c) $g$ est produit d’une algèbre semi-simple et d’une algèbre commutative.
 
@@ -264,9 +264,9 @@ f) *Le radical nilpotent de $g$ est nul.*
 
 g) $r$ est le centre de $g$.
 
-a) $\Rightarrow b)$ : si la représentation adjointe de $g$ est semi-simple, $g$ est somme directe d’idéaux non nuls minimaux $a_i$, donc $g$ est isomorphe au produit des $a_i$; et $a_i$ ne possède pas d’autre idéaux que $\{0\}$ et $a_i$, donc est simple ou commutatif de dimension 1. Par suite, $\mathcal{O}g$ est égal au produit de ceux des $a_i$ qui sont simples, donc est semi-simple.
+a) $\Rightarrow b)$ : si la représentation adjointe de $g$ est semi-simple, $g$ est somme directe d’idéaux non nuls minimaux $a_i$, donc $g$ est isomorphe au produit des $a_i$; et $a_i$ ne possède pas d’autre idéaux que $\{0\}$ et $a_i$, donc est simple ou commutatif de dimension 1. Par suite, $\mathscr{O}g$ est égal au produit de ceux des $a_i$ qui sont simples, donc est semi-simple.
 
-$b) \Rightarrow c)$ : si $\mathcal{O}g$ est semi-simple, $g$ est isomorphe au produit de $\mathcal{O}g$ par une algèbre de Lie $h$ (no 1, cor. 1 de la prop. 1); $h$ est isomorphe à $g/\mathcal{O}g$, donc commutative.
+$b) \Rightarrow c)$ : si $\mathscr{O}g$ est semi-simple, $g$ est isomorphe au produit de $\mathscr{O}g$ par une algèbre de Lie $h$ (no 1, cor. 1 de la prop. 1); $h$ est isomorphe à $g/\mathscr{O}g$, donc commutative.
 
 $c) \Rightarrow d)$ : soient $g_1$ et $g_2$ deux algèbres de Lie, $\rho_i$ une représentation de dimension finie de $g_i$, $\beta_i$ la forme bilinéaire sur $g_i$ associée à $\rho_i$ ($i = 1, 2$); on peut considérer $\rho_1$ et $\rho_2$ comme des représentations de $g = g_1 \times g_2$; soit $\rho$ leur somme directe. Il est clair que la forme bilinéaire sur $g$ associée à $\rho$ est la somme directe de $\beta_1$ et $\beta_2$, donc est non dégénérée si $\beta_1$ et $\beta_2$ sont non dégénérées. Ceci posé, pour prouver l’implication $c) \Rightarrow d)$, il suffit de considérer les 2 cas suivants : 1) $g$ est semi-simple ; alors la représentation adjointe admet pour forme associée la forme de Killing, qui est non dégénérée ; 2) $g = K$; alors la représentation identique de $g$ dans $K$ a une forme bilinéaire associée qui est non dégénérée.
 
@@ -274,33 +274,33 @@ $d) \Rightarrow e)$ : soient $\rho$ une représentation de dimension finie de $g
 
 $e) \Rightarrow f)$ : ceci est évident.
 
-$f) \Rightarrow g)$ : si le radical nilpotent de $g$ est nul, $\mathcal{O}g \cap r$ est nul ($§ 5,$ no 3, th. 1); comme $[g, r] \subset \mathcal{O}g \cap r$, $r$ est le centre de $g$.
+$f) \Rightarrow g)$ : si le radical nilpotent de $g$ est nul, $\mathscr{O}g \cap r$ est nul ($§ 5,$ no 3, th. 1); comme $[g, r] \subset \mathscr{O}g \cap r$, $r$ est le centre de $g$.
 
 #### Remarque {#lie-i-s6-n4-rem-1 .statement}
 
-Si une algèbre de Lie g peut se décomposer en un produit a × b d’une algèbre de Lie commutative a et d’une algèbre de Lie semi-simple b, cette décomposition est unique. Plus précisément, le centre de g est égal au produit des centres de a et de b, donc est égal à a. Et $\mathcal{O}g = \mathcal{O}a \times \mathcal{O}b = b$.
+Si une algèbre de Lie g peut se décomposer en un produit a × b d’une algèbre de Lie commutative a et d’une algèbre de Lie semi-simple b, cette décomposition est unique. Plus précisément, le centre de g est égal au produit des centres de a et de b, donc est égal à a. Et $\mathscr{O}g = \mathscr{O}a \times \mathscr{O}b = b$.
 
 #### Corollaire {#lie-i-s6-n4-cor-1 .statement}
 
 a) Tout produit fini d’algèbres réductives est une algèbre réductive.
 
-b) Si g est une algèbre de Lie réductive, de centre c, tout idéal de g est facteur direct, produit de ses intersections avec c et $\mathcal{O}g$, et est une algèbre de Lie réductive.
+b) Si g est une algèbre de Lie réductive, de centre c, tout idéal de g est facteur direct, produit de ses intersections avec c et $\mathscr{O}g$, et est une algèbre de Lie réductive.
 
 c) Tout quotient d’une algèbre de Lie réductive est une algèbre de Lie réductive.
 
 L’assertion a) résulte par exemple de la condition c) de la prop. 5.
 
-Supposons g réductive. Soit a un idéal de g. Puisque la représentation adjointe de g est semi-simple, a possède un idéal supplémentaire b, et g s’identifie à a × b. Pour tout $x \in g$, soit $\rho(x)$ la restriction de $\mathrm{ad}_g x$ à a. Alors, $\rho$ est une représentation semi-simple de g qui s’annule sur b, et définit par passage au quotient la représentation adjointe de a. Donc a est réductive. De même, g/a et b, qui sont isomorphes, sont réductives. Enfin, soient d, d’ les centres de a et b ; on a $a = d \times \mathcal{O}a, b = d' \times \mathcal{O}b, d \times d' = c, \mathcal{O}a \times \mathcal{O}b = \mathcal{O}g$; donc $a = (a \cap c) + (a \cap \mathcal{O}g)$.
+Supposons g réductive. Soit a un idéal de g. Puisque la représentation adjointe de g est semi-simple, a possède un idéal supplémentaire b, et g s’identifie à a × b. Pour tout $x \in g$, soit $\rho(x)$ la restriction de $\mathrm{ad}_g x$ à a. Alors, $\rho$ est une représentation semi-simple de g qui s’annule sur b, et définit par passage au quotient la représentation adjointe de a. Donc a est réductive. De même, g/a et b, qui sont isomorphes, sont réductives. Enfin, soient d, d’ les centres de a et b ; on a $a = d \times \mathscr{O}a, b = d' \times \mathscr{O}b, d \times d' = c, \mathscr{O}a \times \mathscr{O}b = \mathscr{O}g$; donc $a = (a \cap c) + (a \cap \mathscr{O}g)$.
 
 #### Proposition 6 {#lie-i-s6-prop-6 .statement}
 
 Soient g une algèbre de Lie, r son radical, s son radical nilpotent.
 
-a) $s = [g, r] = \mathcal{O}g \cap r$.
+a) $s = [g, r] = \mathscr{O}g \cap r$.
 
 b) s est l’intersection des orthogonaux de g pour les formes bilinéaires associées aux représentations de dimension finie de g.
 
-Il est clair que $[g, r] \subset \mathcal{O}g \cap r$. On a $\mathcal{O}g \cap r = s$ d’après le th. 1 du § 5, n° 3. Soient $g' = g/[g, r]$, et f l’homomorphisme canonique de g sur $g'$; alors $f(r)$ est le radical $r'$ de $g'$ (cor. 3 de la prop. 2, n° 2), donc $[g', r'] = \{0\}$ et $r'$ est le centre de $g'$; par suite (prop. 5) $g'$ possède une représentation semi-simple fidèle de dimension finie, d’où $s \subset [g, r]$. On a prouvé a).
+Il est clair que $[g, r] \subset \mathscr{O}g \cap r$. On a $\mathscr{O}g \cap r = s$ d’après le th. 1 du § 5, n° 3. Soient $g' = g/[g, r]$, et f l’homomorphisme canonique de g sur $g'$; alors $f(r)$ est le radical $r'$ de $g'$ (cor. 3 de la prop. 2, n° 2), donc $[g', r'] = \{0\}$ et $r'$ est le centre de $g'$; par suite (prop. 5) $g'$ possède une représentation semi-simple fidèle de dimension finie, d’où $s \subset [g, r]$. On a prouvé a).
 
 Soit $t$ l’intersection des orthogonaux de $g$ pour les formes bilinéaires associées aux représentations de dimension finie de $g$. On a $s \subset t$ (§ 4, n° 3, prop. 4 d)). D'autre part, $g/s$ possède une représentation semi-simple fidèle de dimension finie, donc (prop. 5) une représentation $\rho$ de dimension finie telle que la forme bilinéaire associée soit non dégénérée; considérée comme représentation de $g$, $\rho$ possède une forme bilinéaire associée $\beta$ sur $g$, et l'orthogonal de $g$ pour $\beta$ est $s$, d'où $t \subset s$. Donc $t = s$.
 
@@ -344,9 +344,9 @@ Soit $T^n$ le sous-espace de T formé des tenseurs homogènes d’ordre $n$. Ce 
 
 #### Corollaire 3 {#lie-i-s6-thm-4-cor-3 .statement}
 
-Soient $g$ une algèbre de Lie, $\rho$ et $\rho'$ deux représentations semi-simples de dimension finie de $g$ dans des espaces $M$ et $M'$. Alors, la représentation de $g$ dans $\mathcal{L}_k(M, M')$ canoniquement déduite de $\rho$ et $\rho'$ est semi-simple.
+Soient $g$ une algèbre de Lie, $\rho$ et $\rho'$ deux représentations semi-simples de dimension finie de $g$ dans des espaces $M$ et $M'$. Alors, la représentation de $g$ dans $\mathscr{L}_k(M, M')$ canoniquement déduite de $\rho$ et $\rho'$ est semi-simple.
 
-En effet, le $g$-module $\mathcal{L}_k(M, M')$ s’identifie canoniquement au $g$-module $M^* \otimes_k M'$ (§ 3, no 3, prop. 4), de sorte que le cor. 3 résulte du cor. 1.
+En effet, le $g$-module $\mathscr{L}_k(M, M')$ s’identifie canoniquement au $g$-module $M^* \otimes_k M'$ (§ 3, no 3, prop. 4), de sorte que le cor. 3 résulte du cor. 1.
 
 #### Corollaire 4 {#lie-i-s6-thm-4-cor-4 .statement}
 
@@ -395,7 +395,7 @@ En effet, la représentation $x \mapsto \mathrm{ad}_g x$ de $\mathfrak{h}$ dans 
 
 *Soit $V$ un espace vectoriel de dimension finie. Alors, $\mathrm{gl}(V)$ est réductive, son centre est l’ensemble des homothéties de $V$, son algèbre dérivée est $\mathfrak{sl}(V)$, et cette dernière est semi-simple.*
 
-La représentation identique de $\mathrm{gl}(V)$ est simple, donc $\mathrm{gl}(V)$ est réductive, et par suite $\mathrm{gl}(V)$ est somme directe de son centre $c$ et de son algèbre dérivée $\mathcal{O}(\mathrm{gl}(V))$. Le centre $c$ est l’ensemble des homothéties (*Alg.*, chap. II, § 2, n° 5, cor. 1 de la prop. 5). Il est clair que $\mathcal{O}(gl(V)) \subset sl(V)$. Comme $sl(V) \cap c = \{0\}$, on a $\mathcal{O}(gl(V)) = sl(V)$. Donc $sl(V)$ est semi-simple.
+La représentation identique de $\mathrm{gl}(V)$ est simple, donc $\mathrm{gl}(V)$ est réductive, et par suite $\mathrm{gl}(V)$ est somme directe de son centre $c$ et de son algèbre dérivée $\mathscr{O}(\mathrm{gl}(V))$. Le centre $c$ est l’ensemble des homothéties (*Alg.*, chap. II, § 2, n° 5, cor. 1 de la prop. 5). Il est clair que $\mathscr{O}(gl(V)) \subset sl(V)$. Comme $sl(V) \cap c = \{0\}$, on a $\mathscr{O}(gl(V)) = sl(V)$. Donc $sl(V)$ est semi-simple.
 
 #### Exemple {#lie-i-s6-n7-exa-1 .statement}
 
@@ -431,7 +431,7 @@ Pour $\beta$ symétrique et $n = 2$, $g$ est de dimension 1, donc commutative. P
 
 ### 8. Le théorème de Levi-Malcev
 
-Soient E un espace vectoriel normé complet sur $\mathbf{R}$, et $u$ un endomorphisme continu de E. On a vu (Fonct. var. réelle, chap. IV, § 2, n° 6) que la suite $\frac{u^n}{n!}$ est sommable dans $\mathcal{L}(E)$, et on a posé
+Soient E un espace vectoriel normé complet sur $\mathbf{R}$, et $u$ un endomorphisme continu de E. On a vu (Fonct. var. réelle, chap. IV, § 2, n° 6) que la suite $\frac{u^n}{n!}$ est sommable dans $\mathscr{L}(E)$, et on a posé
 $$
 e^u = \exp u = \sum_{n=0}^\infty \frac{u^n}{n!}.
 $$
@@ -479,17 +479,17 @@ On note r le radical de g. On traitera d’abord deux cas particuliers.
 
 a) [g, r] = {0}.
 
-D’après la prop. 5, g est alors le produit de son centre r par $\mathcal{O}g$ qui est semi-simple. Donc $\mathcal{O}g$ est une sous-algèbre de Levi. De plus, si s’ est une sous-algèbre semi-simple, on a s’ = $\mathcal{O}s'$ (th. 1), donc s’ $\subset \mathcal{O}g$, et $\mathcal{O}g$ est l’unique sous-algèbre de Levi de g.
+D’après la prop. 5, g est alors le produit de son centre r par $\mathscr{O}g$ qui est semi-simple. Donc $\mathscr{O}g$ est une sous-algèbre de Levi. De plus, si s’ est une sous-algèbre semi-simple, on a s’ = $\mathscr{O}s'$ (th. 1), donc s’ $\subset \mathscr{O}g$, et $\mathscr{O}g$ est l’unique sous-algèbre de Levi de g.
 
 b) [g, r] $\neq$ {0}, et les seuls idéaux de g contenus dans r sont {0} et r.
 
 Alors, [g, r] = r, [r, r] = {0}, et le centre de g est nul. Soit M (resp. N) le sous-espace de $\mathfrak{L}(g)$ formé des applications linéaires de g dans r dont la restriction à r est une homothétie (resp. est nulle);
 
-N est donc de codimension 1 dans M. Pour $m \in M$, on notera $\lambda(m)$ le rapport de l’homothétie de r définie par m. Soit $\sigma$ la représentation de g dans $\mathcal{L}(g)$ canoniquement déduite de la représentation adjointe ; rappelons que $\sigma(x).u = [\mathrm{ad}_g x, u]$ pour tout $x \in g$ et tout $u \in \mathcal{L}(g)$.
+N est donc de codimension 1 dans M. Pour $m \in M$, on notera $\lambda(m)$ le rapport de l’homothétie de r définie par m. Soit $\sigma$ la représentation de g dans $\mathscr{L}(g)$ canoniquement déduite de la représentation adjointe ; rappelons que $\sigma(x).u = [\mathrm{ad}_g x, u]$ pour tout $x \in g$ et tout $u \in \mathscr{L}(g)$.
 
 $$
 \begin{array}{ll}
-\mathcal{L}(g) & \text{Il est clair que } \sigma(x)(M) \subset N \text{ pour tout } x \in g. \text{ De plus,} \\
+\mathscr{L}(g) & \text{Il est clair que } \sigma(x)(M) \subset N \text{ pour tout } x \in g. \text{ De plus,} \\
 \cup & \text{si } x \in r, y \in g \text{ et } u \in M, \text{ on a} \\
 M & (4) \quad (\sigma(x).u)(y) = [x, u(y)] - u([x, y]) = -\lambda(u)[x, y] \\
 \cup & \text{puisque } [r, r] = \{0\}; \text{ et (4) peut s’écrire :} \\
@@ -498,7 +498,7 @@ P & (5) \qquad \sigma(x).u = -\mathrm{ad}\ (\lambda(u).x).
 \end{array}
 $$
 
-Comme le centre de g est nul, l’application $x \mapsto \mathrm{ad}_g x$ définit une bijection $\varphi$ de r sur un sous-espace P de $\mathcal{L}(g)$. Ce sous-espace est stable pour $\sigma(g)$ et contenu dans N puisque r est un idéal commutatif, et (5) montre que $\sigma(x)(M) \subset P$ pour $x \in r$. La représentation de g dans $M/P = V$ déduite de $\sigma$ est donc nulle sur r et définit une représentation $\sigma'$ de l’algèbre semi-simple $g/r$ dans V. Pour tout $y \in g/r$, l’espace $\sigma'(y)(V)$ est contenu dans $N/P$, qui est de codimension 1 dans V. Par conséquent (n° 2, lemme 3) il existe un $u_0 \in M$ tel que $\lambda(u_0) = -1$ et tel que $\sigma(x).u_0 \in P$ pour tout $x \in g$. L’application $x \mapsto \overline{\varphi}(\sigma(x).u_0)$ est une application linéaire de g dans r. D’après (5), sa restriction à r est l’application identique de r. Donc son noyau est un sous-espace s de g supplémentaire de r dans g. Comme s est l’ensemble des $x \in g$ tels que $\sigma(x).u_0 = 0$, s est une sous-algèbre de g, et par suite une sous-algèbre de Levi de g.
+Comme le centre de g est nul, l’application $x \mapsto \mathrm{ad}_g x$ définit une bijection $\varphi$ de r sur un sous-espace P de $\mathscr{L}(g)$. Ce sous-espace est stable pour $\sigma(g)$ et contenu dans N puisque r est un idéal commutatif, et (5) montre que $\sigma(x)(M) \subset P$ pour $x \in r$. La représentation de g dans $M/P = V$ déduite de $\sigma$ est donc nulle sur r et définit une représentation $\sigma'$ de l’algèbre semi-simple $g/r$ dans V. Pour tout $y \in g/r$, l’espace $\sigma'(y)(V)$ est contenu dans $N/P$, qui est de codimension 1 dans V. Par conséquent (n° 2, lemme 3) il existe un $u_0 \in M$ tel que $\lambda(u_0) = -1$ et tel que $\sigma(x).u_0 \in P$ pour tout $x \in g$. L’application $x \mapsto \overline{\varphi}(\sigma(x).u_0)$ est une application linéaire de g dans r. D’après (5), sa restriction à r est l’application identique de r. Donc son noyau est un sous-espace s de g supplémentaire de r dans g. Comme s est l’ensemble des $x \in g$ tels que $\sigma(x).u_0 = 0$, s est une sous-algèbre de g, et par suite une sous-algèbre de Levi de g.
 
 Soit $s'$ une deuxième sous-algèbre de Levi. Pour tout $x \in s'$, soit $h(x)$ l’unique élément de r tel que $x + h(x) \in s$. Puisque s est une sous-algèbre et que r est commutatif, on a, pour $x, y$ dans $s'$ :
 
@@ -606,7 +606,7 @@ $$
 
 Les $s_{i'}^\sharp$ sont des éléments de $S_0$ homogènes et de degré $< n$ (parce que chaque $S_\delta$ est un sous-module gradué). Ils sont donc dans $S_1$ d’après l’hypothèse de récurrence. Donc $s \in S_1$, ce qui achève la démonstration de $a$.
 
-Maintenant, considérons une représentation simple de classe $\delta$ de $g$ dans un espace $M$ de dimension finie. Soit $L = \mathcal{L}_K(M, S)$. Pour tout $s \in S$ et tout $f \in L$, soit $sf$ l’élément de $L$ défini par $(sf)(m) = s . f(m)$ ($m \in M$); on définit ainsi sur $L$ une structure de $S$-module ; comme $M$ est de dimension finie sur $K$, il est clair que $L$ est un $S$-module de type fini, donc un $S$-module noethérien puisque l’anneau $S$ est noethérien. Par ailleurs, $L$ est muni canoniquement d’une structure de $g$-module. Pour tout entier $n \geqslant 0$, soit $S^n$ l’ensemble des éléments homogènes de degré $n$ de $S$; alors, le $g$-module $\mathcal{L}_K(M, S^n)$ est semi-simple (n° 5, cor. 3 du th. 4), donc le $g$-module $L$ est semi-simple. En outre, on a pour $s \in S,\ f \in L,\ x \in g$ et $m \in M$,
+Maintenant, considérons une représentation simple de classe $\delta$ de $g$ dans un espace $M$ de dimension finie. Soit $L = \mathscr{L}_K(M, S)$. Pour tout $s \in S$ et tout $f \in L$, soit $sf$ l’élément de $L$ défini par $(sf)(m) = s . f(m)$ ($m \in M$); on définit ainsi sur $L$ une structure de $S$-module ; comme $M$ est de dimension finie sur $K$, il est clair que $L$ est un $S$-module de type fini, donc un $S$-module noethérien puisque l’anneau $S$ est noethérien. Par ailleurs, $L$ est muni canoniquement d’une structure de $g$-module. Pour tout entier $n \geqslant 0$, soit $S^n$ l’ensemble des éléments homogènes de degré $n$ de $S$; alors, le $g$-module $\mathscr{L}_K(M, S^n)$ est semi-simple (n° 5, cor. 3 du th. 4), donc le $g$-module $L$ est semi-simple. En outre, on a pour $s \in S,\ f \in L,\ x \in g$ et $m \in M$,
 
 $$
 \begin{align*}

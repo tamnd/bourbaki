@@ -56,7 +56,7 @@ subsections:
       pdf_page: 116
 statements: 57
 exercises: 10
-content_sha256: daf1e810cb10a82fd11c52aa27ac0e8805be34f3f67a8d8ba89c110c532e71df
+content_sha256: 62b754ac2acb25a32f55336926c71cf152c1bc39aa67849ec615b2ae1cd91fe5
 ---
 
 ## § 1. Groupes de Lie
@@ -169,7 +169,7 @@ Exemples de groupes de Lie.
 1. Soit E un espace normable complet sur K. L’application $(x, y) \mapsto x - y$ de $E \times E$ dans E est linéaire continue, donc analytique. Donc E, muni de ses structures de groupe additif et de variété analytique, est un groupe de Lie.
 En particulier, K est un groupe de Lie.
 
-Par exemple, soit E un espace normable complet sur K, et prenons $A = \mathcal{L}(E)$ (TG, IX, § 3, prop. 5). Alors $A^*$ est le groupe $\mathbf{GL}(E)$ des automorphismes de E. *Ce groupe est donc muni canoniquement d’une structure de groupe de Lie sur K.* Plus particulièrement, $\mathbf{GL}(n, K)$, muni de la structure de variété induite par celle de $\mathbf{M}_n(K)$, est un groupe de Lie. Pour $n = 1$, on voit que le groupe multiplicatif $K^*$ est un groupe de Lie pour la structure de variété induite par celle de K.
+Par exemple, soit E un espace normable complet sur K, et prenons $A = \mathscr{L}(E)$ (TG, IX, § 3, prop. 5). Alors $A^*$ est le groupe $\mathbf{GL}(E)$ des automorphismes de E. *Ce groupe est donc muni canoniquement d’une structure de groupe de Lie sur K.* Plus particulièrement, $\mathbf{GL}(n, K)$, muni de la structure de variété induite par celle de $\mathbf{M}_n(K)$, est un groupe de Lie. Pour $n = 1$, on voit que le groupe multiplicatif $K^*$ est un groupe de Lie pour la structure de variété induite par celle de K.
 
 3. Soit G un groupe de Lie sur K. Soient $K' = \mathbf{R}$ ou $\mathbf{C}$ ou un corps ultramétrique complet non discret, et $\sigma$ un isomorphisme du corps valué $K'$ sur un sous-corps valué de K. Alors le groupe G, muni de la structure de $K'$-variété obtenue par restriction des scalaires, est un groupe de Lie sur $K'$, qui est dit *déduit du groupe de Lie G par restriction des scalaires* (de K à $K'$ au moyen de $\sigma$). Par exemple, tout groupe de Lie complexe est canoniquement muni d’une structure de groupe de Lie réel. Par exemple encore, à tout groupe de Lie complexe G est associé un groupe de Lie complexe appelé le *conjugué* de G, déduit de G au moyen de l’automorphisme $z \mapsto \bar{z}$ de $\mathbf{C}$.
 
@@ -196,9 +196,9 @@ Soient G un groupe de Lie, E un espace normable complet. On appelle *représenta
 (i) $\rho$ est une représentation linéaire analytique;
 (ii) quels que soient $x \in E$ et $x' \in E'$, la fonction $g \mapsto \langle \rho(g)x, x' \rangle$ sur $G$ est analytique;
 (iii) quels que soient $i$ et $j$, la fonction $g \mapsto \langle \rho(g)e_i, e_j^* \rangle$ sur $G$ est analytique.
-En effet, les implications (i) $\Rightarrow$ (ii) $\Rightarrow$ (iii) sont claires. D’autre part, les fonctions $u \mapsto \langle ue_i, e_j^* \rangle$ forment un système de coordonnées sur $\mathcal{L}(E)$; donc leurs restrictions à $\mathbf{GL}(E)$ forment un système de coordonnées sur $\mathbf{GL}(E)$, d’où l’implication (iii) $\Rightarrow$ (i).
+En effet, les implications (i) $\Rightarrow$ (ii) $\Rightarrow$ (iii) sont claires. D’autre part, les fonctions $u \mapsto \langle ue_i, e_j^* \rangle$ forment un système de coordonnées sur $\mathscr{L}(E)$; donc leurs restrictions à $\mathbf{GL}(E)$ forment un système de coordonnées sur $\mathbf{GL}(E)$, d’où l’implication (iii) $\Rightarrow$ (i).
 
-Soient $G$ un groupe de Lie réel, $E$ un espace normable complet réel, $\rho$ un homomorphisme du groupe $G$ dans le groupe $\mathbf{GL}(E)$. On verra au § 8, th. 1, que, si $\rho$ est continu (lorsque $\mathbf{GL}(E)$ est muni de la topologie déduite de la norme de $\mathcal{L}(E)$), alors $\rho$ est analytique. Mais on prendra garde que cette notion de continuité est différente de celle considérée en INT, VIII, § 2, déf. 1 (ii) (exerc. 1).
+Soient $G$ un groupe de Lie réel, $E$ un espace normable complet réel, $\rho$ un homomorphisme du groupe $G$ dans le groupe $\mathbf{GL}(E)$. On verra au § 8, th. 1, que, si $\rho$ est continu (lorsque $\mathbf{GL}(E)$ est muni de la topologie déduite de la norme de $\mathscr{L}(E)$), alors $\rho$ est analytique. Mais on prendra garde que cette notion de continuité est différente de celle considérée en INT, VIII, § 2, déf. 1 (ii) (exerc. 1).
 
 #### Exemple 4 {#lie-iii-s1-n2-exa-4 .statement}
 
@@ -271,7 +271,7 @@ Réciproquement, soient $G$ un groupe de Lie, et $L, M$ deux sous-groupes de Lie
 
 #### Exemple {#lie-iii-s1-n4-exa-1 .statement}
 
-Soient $E$ un espace normable, $G = \mathbf{GL}(E)$, $T$ le groupe des translations de $E$, $A$ le groupe de permutations de $E$ engendré par $G$ et $T$. Le groupe $A$ est algébriquement produit semi-direct de $G$ par $T$. (Si $E$ est de dimension finie, $A$ est le groupe affine de $E$, cf. A, II, p. 131.) Soient $\sigma$ la représentation linéaire identique de $G$ dans $E$, et $S$ le produit semi-direct externe de $G$ par $E$ relatif à $\sigma$. Pour tout $x \in E$, soit $t_x$ la translation de $E$ définie par $x$. L’application $(x, u) \mapsto t_x \circ u$ est un isomorphisme $\Phi$ du groupe $S$ sur le groupe $A$. L’application $(x, u) \mapsto \sigma(u)x = u(x)$ de $E \times \mathcal{L}(E)$ dans $E$ est bilinéaire continue, donc analytique; sa restriction à $E \times G$ est par suite analytique. Ainsi, le groupe $S$, muni de la structure de variété produit de $E$ et $G$, est un groupe de Lie. Transportons cette structure à $A$ grâce à $\Phi$. Alors $A$ devient un groupe de Lie, produit semi-direct interne de $G$ par $T$ en tant que groupe de Lie.
+Soient $E$ un espace normable, $G = \mathbf{GL}(E)$, $T$ le groupe des translations de $E$, $A$ le groupe de permutations de $E$ engendré par $G$ et $T$. Le groupe $A$ est algébriquement produit semi-direct de $G$ par $T$. (Si $E$ est de dimension finie, $A$ est le groupe affine de $E$, cf. A, II, p. 131.) Soient $\sigma$ la représentation linéaire identique de $G$ dans $E$, et $S$ le produit semi-direct externe de $G$ par $E$ relatif à $\sigma$. Pour tout $x \in E$, soit $t_x$ la translation de $E$ définie par $x$. L’application $(x, u) \mapsto t_x \circ u$ est un isomorphisme $\Phi$ du groupe $S$ sur le groupe $A$. L’application $(x, u) \mapsto \sigma(u)x = u(x)$ de $E \times \mathscr{L}(E)$ dans $E$ est bilinéaire continue, donc analytique; sa restriction à $E \times G$ est par suite analytique. Ainsi, le groupe $S$, muni de la structure de variété produit de $E$ et $G$, est un groupe de Lie. Transportons cette structure à $A$ grâce à $\Phi$. Alors $A$ devient un groupe de Lie, produit semi-direct interne de $G$ par $T$ en tant que groupe de Lie.
 
 #### Proposition 8 {#lie-iii-s1-prop-8 .statement}
 
@@ -520,7 +520,7 @@ Les $\tau(\psi_{g,x})$ définissent une loi d’opération à gauche $(g,u) \map
 
 *Si $E$ est un $G$-fibré vectoriel de classe $C^r$, $\tau E$ est un $G$-fibré vectoriel de classe $C^r$.*
 
-Soient $g_0, x_0, U, M, N$ comme dans l’alinéa suivant la déf. 4. Alors l’application $(g, x) \mapsto \tau(\psi_{g,x})$ de $U$ dans $\mathcal{L}(\tau M, \tau N)$ est composée de l’application $(g, x) \mapsto \psi_{g,x}$ de $U$ dans $\mathcal{L}(M, N)$, et de l’application $f \mapsto \tau(f)$ de Isom$(M, N)$ dans Isom$(\tau M, \tau N)$; ces deux applications sont de classe $C^r$, donc il en est de même de leur composée, d’où la proposition.
+Soient $g_0, x_0, U, M, N$ comme dans l’alinéa suivant la déf. 4. Alors l’application $(g, x) \mapsto \tau(\psi_{g,x})$ de $U$ dans $\mathscr{L}(\tau M, \tau N)$ est composée de l’application $(g, x) \mapsto \psi_{g,x}$ de $U$ dans $\mathscr{L}(M, N)$, et de l’application $f \mapsto \tau(f)$ de Isom$(M, N)$ dans Isom$(\tau M, \tau N)$; ces deux applications sont de classe $C^r$, donc il en est de même de leur composée, d’où la proposition.
 
 #### Proposition 16 {#lie-iii-s1-prop-16 .statement}
 
@@ -540,23 +540,23 @@ Si $\tau$ est un foncteur vectoriel de classe $C^r$ pour les isomorphismes *en d
 
 #### Exemple {#lie-iii-s1-n8-exa-1 .statement}
 
-Reprenons les hypothèses et notations de la prop. 16, et soit $F$ un espace normable complet. Alors $\mathcal{L}((TX)^p ; F)$ est un $G$-fibré vectoriel de classe $C^{r-1}$; il en est de même de $\mathrm{Alt}^p(TX ; F)$ si $K$ est de caractéristique zéro, ou si $X$ est de dimension finie (cf. VAR, R, 7.7, 7.8). Si $X$ est de dimension finie, $\bigotimes^p(TX) \otimes \bigotimes^q(TX)^*$ est un $G$-fibré vectoriel de classe $C^{r-1}$.
+Reprenons les hypothèses et notations de la prop. 16, et soit $F$ un espace normable complet. Alors $\mathscr{L}((TX)^p ; F)$ est un $G$-fibré vectoriel de classe $C^{r-1}$; il en est de même de $\mathrm{Alt}^p(TX ; F)$ si $K$ est de caractéristique zéro, ou si $X$ est de dimension finie (cf. VAR, R, 7.7, 7.8). Si $X$ est de dimension finie, $\bigotimes^p(TX) \otimes \bigotimes^q(TX)^*$ est un $G$-fibré vectoriel de classe $C^{r-1}$.
 
 #### Proposition 17 {#lie-iii-s1-prop-17 .statement}
 
-*Soient $G$ un groupe de Lie, $X$ un espace homogène de Lie à gauche pour $G$, $x_0$ un point de $X$, $G_0$ le stabilisateur de $x_0$ dans $G$, $E$ et $E'$ des $G$-fibrés vectoriels à gauche de classe $C^r$ et de base $X$, $E_0$ (resp. $E'_0$) la fibre en $x_0$ de $E$ (resp. $E'$), $f$ un élément de $\mathcal{L}(E_0, E'_0)$ tel que $f(gu) = gf(u)$ quels que soient $u \in E_0$ et $g \in G_0$. Alors il existe un morphisme et un seul de $E$ dans $E'$, compatible avec les opérations de $G$, et prolongeant $f$.
+*Soient $G$ un groupe de Lie, $X$ un espace homogène de Lie à gauche pour $G$, $x_0$ un point de $X$, $G_0$ le stabilisateur de $x_0$ dans $G$, $E$ et $E'$ des $G$-fibrés vectoriels à gauche de classe $C^r$ et de base $X$, $E_0$ (resp. $E'_0$) la fibre en $x_0$ de $E$ (resp. $E'$), $f$ un élément de $\mathscr{L}(E_0, E'_0)$ tel que $f(gu) = gf(u)$ quels que soient $u \in E_0$ et $g \in G_0$. Alors il existe un morphisme et un seul de $E$ dans $E'$, compatible avec les opérations de $G$, et prolongeant $f$.
 
 L’unicité de ce morphisme est évidente. Prouvons son existence. Soient $g$, $g'$ dans $G$ et $u \in E_0$ tels que $gu = g'u$. On a ${g'}^{-1}g \in G_0$ et ${g'}^{-1}gu = u$, donc ${g'}^{-1}gf(u) = f(u)$, c’est-à-dire $gf(u) = g'f(u)$. On définit donc une application $\varphi$ de $E$ dans $E'$ en posant $\varphi(gu) = gf(u)$. Il est clair que cette application prolonge $f$, et qu’elle est compatible avec les opérations de $G$. Montrons que $\varphi$ est un morphisme de fibrés vectoriels de classe $C^r$. Soit $x_1 \in X$. Il existe un voisinage ouvert $V$ de $x_1$ dans $X$ et une sous-variété $W$ de $G$, tels que l’application $g \mapsto gx_0$ soit un isomorphisme $\theta$ de classe $C^r$ de $W$ sur $V$. En diminuant $V$ et $W$, on peut supposer que:
 
 1) $E \mid V$ (resp. $E' \mid V$) s’identifie à un fibré vectoriel trivial de fibre $M$ (resp. $M'$);
-2) si l’on note $\psi_g$ (resp. $\psi'_g$) l’application $u \mapsto gu$ de $E_0$ (resp. $E'_0$) dans $E_{gx_0}$ (resp. $E'_{gx_0}$), alors les applications $g \mapsto \psi_g$ et $g \mapsto \psi_g^{-1}$ (resp. $g \mapsto \psi'_g$ et $g \mapsto {\psi'_g}^{-1}$) de $W$ dans $\mathcal{L}(E_0, M)$ et $\mathcal{L}(M, E_0)$ (resp. $\mathcal{L}(E'_0, M')$ et $\mathcal{L}(M', E'_0)$) sont de classe $C^r$.
+2) si l’on note $\psi_g$ (resp. $\psi'_g$) l’application $u \mapsto gu$ de $E_0$ (resp. $E'_0$) dans $E_{gx_0}$ (resp. $E'_{gx_0}$), alors les applications $g \mapsto \psi_g$ et $g \mapsto \psi_g^{-1}$ (resp. $g \mapsto \psi'_g$ et $g \mapsto {\psi'_g}^{-1}$) de $W$ dans $\mathscr{L}(E_0, M)$ et $\mathscr{L}(M, E_0)$ (resp. $\mathscr{L}(E'_0, M')$ et $\mathscr{L}(M', E'_0)$) sont de classe $C^r$.
 
 Pour $x \in V$, soit $\varphi_x : M \to N$ la restriction de $\varphi$ à $E_x = M$. Alors $\varphi_x$ s’obtient en composant les applications suivantes:
 1) l’application $(\psi_{\theta^{-1}x})^{-1}$ de $M$ dans $E_0$;
 2) l’application $f$ de $E_0$ dans $E_0$;
 3) l’application $\psi'_{\theta^{-1}x}$ de $E_0$ dans $M'$.
 
-On voit donc que l’application $x \mapsto \varphi_x$ de $V$ dans $\mathcal{L}(M, M')$ est de classe $C^r$.
+On voit donc que l’application $x \mapsto \varphi_x$ de $V$ dans $\mathscr{L}(M, M')$ est de classe $C^r$.
 
 #### Corollaire 1 {#lie-iii-s1-prop-17-cor-1 .statement}
 

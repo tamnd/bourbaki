@@ -24,13 +24,13 @@ subsections:
       pdf_page: 62
 statements: 4
 exercises: 1
-content_sha256: ea409390ec8ccc3ac8355ca182a9deb4d4b417dd1bcfce204350ba948e0b991d
+content_sha256: 4f97a41fb692b5b50c26808a80915e7bb4a530ff5802c7855df677dc64820c61
 ---
 
 ## § 7. Convergence de la série de Hausdorff (cas réel ou complexe)
 
-Dans ce paragraphe, on suppose que K est l’un des corps $\mathbf{R}$ ou $\mathbf{C}$ que l’on munit de sa valeur absolue usuelle. Rappelons qu’on appelle algèbre normable sur K une algèbre A (non nécessairement associative) sur K, munie d’une topologie $\mathcal{T}$ possédant les propriétés suivantes:
-1) $\mathcal{T}$ peut être définie par une norme;
+Dans ce paragraphe, on suppose que K est l’un des corps $\mathbf{R}$ ou $\mathbf{C}$ que l’on munit de sa valeur absolue usuelle. Rappelons qu’on appelle algèbre normable sur K une algèbre A (non nécessairement associative) sur K, munie d’une topologie $\mathscr{T}$ possédant les propriétés suivantes:
+1) $\mathscr{T}$ peut être définie par une norme;
 2) l’application $(x, y) \mapsto xy$ de $A \times A$ dans A est continue.
 
 On appelle algèbre normée sur K une algèbre A sur K, munie d’une norme telle que $\|xy\| \leq \|x\|\|y\|$ quels que soient $x, y$ dans A.
@@ -47,7 +47,7 @@ D’après la prop. 2 du § 6, n° 3, il existe un homomorphisme continu $\varph
 $$
 \tilde{u} = \sum_{v \in \mathbf{N}^I} \tilde{u}_v,\quad \text{avec } \tilde{u}_v \in P_v(g^I; g).
 $$
-Soit $u = (u_j)_{j \in J}$ une famille *finie* d’éléments de $\hat{L}(I)$, soit $v \in \hat{L}(J)$ et soit $w = v \circ u$ (§ 6, n° 3). Posons $\tilde{u} = (\tilde{u}_j)_j \in \mathcal{J}$. On a
+Soit $u = (u_j)_{j \in J}$ une famille *finie* d’éléments de $\hat{L}(I)$, soit $v \in \hat{L}(J)$ et soit $w = v \circ u$ (§ 6, n° 3). Posons $\tilde{u} = (\tilde{u}_j)_j \in \mathscr{J}$. On a
 $$(2)\qquad \tilde{v} \circ \tilde{u} = (v \circ u)^{\sim}.$$
 En effet, ceci résulte par prolongement par continuité de la formule (7) du § 6, n° 3, et de (VAR, R, App., n° 6).
 

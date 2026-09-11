@@ -37,7 +37,7 @@ chapters:
           statements: 20
           exercises: 27
           extraction: ocr
-          content_sha256: beda2c6cae20a94271df76d22e39d80aa8afbe4c0f59aabcdf1f99f8e4a7b723
+          content_sha256: 212243def2771767e19a59c07e95d6be7548319e426eee3b17c385dd4684451e
         - kind: section
           section: 2
           title: Enveloping algebra of a Lie algebra
@@ -50,7 +50,7 @@ chapters:
           statements: 22
           exercises: 10
           extraction: ocr
-          content_sha256: 70815c8f0c59caa459ae983d4d4afb3ca7aaff673e5632c3fd9b6438da4a9e5f
+          content_sha256: 0045df6d9c94b39f1c58540ba5107f338fcb8acaabd3d92f8e198096c03665ac
         - kind: section
           section: 3
           title: Representations
@@ -63,7 +63,7 @@ chapters:
           statements: 24
           exercises: 12
           extraction: ocr
-          content_sha256: 7d8bba5f2b515dc174b1c1ea0359bd8646b26cd6ba716e17900d892c6d4d330a
+          content_sha256: e9e8544872aca4afd6e935784cea1e8509f6c074913cee91197e92a4cc8b55b8
         - kind: section
           section: 4
           title: Nilpotent Lie algebras
@@ -76,7 +76,7 @@ chapters:
           statements: 18
           exercises: 27
           extraction: ocr
-          content_sha256: 48ab9b1787343e1f86d71a8b0614a97c02bf7d85a80b47fd455f6abb64aa840b
+          content_sha256: bef3eeafe13af0c47229143600305c1cdb410b97ca96cc305d8ed095ac5bb3cd
         - kind: section
           section: 5
           title: Solvable Lie algebras
@@ -89,7 +89,7 @@ chapters:
           statements: 27
           exercises: 17
           extraction: ocr
-          content_sha256: b03bd5e323008db7cf84b406bde7038010ad9ffc9838e789227eeb7ee4c1c882
+          content_sha256: 463a21b601dadcb5824363c5f0b0f7aec3b0400f4911b9ab162ef4940bd66675
         - kind: section
           section: 6
           title: Semi-simple Lie algebras
@@ -102,7 +102,7 @@ chapters:
           statements: 50
           exercises: 27
           extraction: ocr
-          content_sha256: 9b354b29097b0473c08d8057ac62b2894261a7d8a0ded66592a2cd24c4a5ef9d
+          content_sha256: 6efc056f698b9fae537badfb05a3e33abcaeee18731cf89050af97a071c28037
         - kind: section
           section: 7
           title: Ado’s Theorem
@@ -115,7 +115,7 @@ chapters:
           statements: 6
           exercises: 5
           extraction: ocr
-          content_sha256: f51f2e756e574437c469e38e8938bfa36ae6f11b2f0f1c2f416d2d919a856ad4
+          content_sha256: 3207a7414e76f6a3dc840727842917fe8becb0b28041abbb0daaf9ce7999445f
     - chapter: II
       title: FREE LIE ALGEBRAS
       sections:
@@ -155,7 +155,7 @@ chapters:
           statements: 32
           exercises: 16
           extraction: ocr
-          content_sha256: 6e450e7885a69b88d5a981a2a0a11ee034c761b9d126211b974e36d6700c2625
+          content_sha256: 588b52d08e0f2494551b2a1cb24c18827d1cf187d3c4efc3af9117170ddd12b5
         - kind: section
           section: 3
           title: Enveloping algebra of the free Lie algebra
@@ -181,7 +181,7 @@ chapters:
           statements: 12
           exercises: 18
           extraction: ocr
-          content_sha256: 1325ad90b6f64f40c918361f53780fe37c172750b745daa70223fd8d6caff02f
+          content_sha256: f851ffdb4b2c2b1ddbe8b7336668e7aa1d731014ba4becd09cab912a4d2af5c7
         - kind: section
           section: 5
           title: Magnus algebras
@@ -207,7 +207,7 @@ chapters:
           statements: 14
           exercises: 3
           extraction: ocr
-          content_sha256: 0784af06abccc4ac51e2a4bf54599a3d414a0162e422d6ea3345f1958570374c
+          content_sha256: 4537414ee283053f649e5ef02bb3c111565980460e26252851700301be18970c
         - kind: section
           section: 7
           title: Convergence of the Hausdorff series (real or complex case)
@@ -220,7 +220,7 @@ chapters:
           statements: 4
           exercises: 1
           extraction: ocr
-          content_sha256: 55c9d2607bd0fb8897fb364274c047736d36f7223a0d09165570ea8513afcf80
+          content_sha256: 2f1a5bd87f4411ccbc79d4588d2746155dcaeb847a59bd23a9c9915ac79774b0
         - kind: section
           section: 8
           title: Convergence of the Hausdorff series (ultrametric case)
@@ -259,7 +259,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 66866f259c1739613fbe44144ae0789b56b72f701cf28fdf7b36df39b44f1f51
+          content_sha256: 11e7b96f4b883e7e24af6f8c31e16ee88b46c38e2cda01d81afbd669dd386355
         - kind: section
           section: 1
           title: Lie groups
@@ -272,7 +272,7 @@ chapters:
           statements: 54
           exercises: 10
           extraction: ocr
-          content_sha256: fc8b73730b2269563d3cfe9f30f17a2aca0817c714ee88033880572c968e0a4f
+          content_sha256: e52337051d072b3fd573ec368d2951d83c152a681fdefe2f8abb0b96ea1b6e8d
         - kind: section
           section: 2
           title: Group of tangent vectors to a Lie group
@@ -298,7 +298,7 @@ chapters:
           statements: 111
           exercises: 9
           extraction: ocr
-          content_sha256: 5762aa9c03ccb6cefa82b2dc514fd62774faa93aeda563194756642698c12f55
+          content_sha256: adf4fba04d45cc2376a26e20f76cca0077b71e682209d0389d1b246d0e3482df
         - kind: section
           section: 4
           title: Passage from Lie algebras to Lie groups
@@ -337,7 +337,7 @@ chapters:
           statements: 71
           exercises: 30
           extraction: ocr
-          content_sha256: debc9e4f97118a82ab8d600d7699e2b315abf393c059176f936e6730a44cca5f
+          content_sha256: 5bbc3faeeb42ec64c829cfb0b725e33f82c6623e57e2db2b01c95e1c4e3b961a
         - kind: section
           section: 7
           title: Lie groups over an ultrametric field
@@ -376,7 +376,7 @@ chapters:
           statements: 54
           exercises: 29
           extraction: ocr
-          content_sha256: a0d76f13d817b70a22b12f45de447b6a9c8c39525973c423bb1221a046edddf9
+          content_sha256: e3449c4d1dda5a12354d4f2af8f0330d18e171c8a3e0add10575476595ce9fd3
         - kind: section
           section: 10
           title: The automorphism group of a Lie group
@@ -389,7 +389,7 @@ chapters:
           statements: 13
           exercises: 3
           extraction: ocr
-          content_sha256: 6fd8805ab9a65dff430aeba0e2e6ddcfa5942940fad2fefc7a6daea7301471db
+          content_sha256: 566744cc5db5d2f8a8f195462f4a59807186ff4384adc6aae436da11976fff82
         - kind: appendix
           title: Operations on linear representations
           path: content/en/lie/III/A_a_operations_on_linear_representations.md

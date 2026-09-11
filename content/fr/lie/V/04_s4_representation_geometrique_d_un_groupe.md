@@ -48,7 +48,7 @@ subsections:
       pdf_page: 99
 statements: 23
 exercises: 20
-content_sha256: 6b99a8d30738d52880de4fe1f268a6397b62479d8a4e96c70f07e1d07dcd4e7a
+content_sha256: 7bafc016bec66d407589de457cdad6b9798b6eeda20714e6e902e3537a4d649d
 ---
 
 ## § 4. Représentation géométrique d’un groupe de Coxeter
@@ -466,13 +466,13 @@ Si $(W, S)$ est irréductible et fini, son graphe est un arbre.
 En effet, une forêt connexe est un arbre.
 
 Comparaison avec les résultats du § 3.
-Soit tout d’abord $(W, S)$ un groupe de Coxeter fini. Notons $(x|y)$ la forme $B_M(x, y)$; d’après le th. 2, c’est un produit scalaire sur $E$. Pour tout $s \in S$, soit $H_s$ l’hyperplan associé à la réflexion orthogonale $\sigma_s$, et soit $\mathcal{H}$ la famille des hyperplans $w(H_s)$, pour $s \in S, w \in W$. Soit $C_0$ l’ensemble des $x \in E$ tels que $(x|e_s) > 0$ pour tout $s \in S$. Enfin, identifions $W$ (au moyen de $\sigma$) à un sous-groupe du groupe orthogonal $\mathbf{O}(E)$ de l’espace $E$.
+Soit tout d’abord $(W, S)$ un groupe de Coxeter fini. Notons $(x|y)$ la forme $B_M(x, y)$; d’après le th. 2, c’est un produit scalaire sur $E$. Pour tout $s \in S$, soit $H_s$ l’hyperplan associé à la réflexion orthogonale $\sigma_s$, et soit $\mathscr{H}$ la famille des hyperplans $w(H_s)$, pour $s \in S, w \in W$. Soit $C_0$ l’ensemble des $x \in E$ tels que $(x|e_s) > 0$ pour tout $s \in S$. Enfin, identifions $W$ (au moyen de $\sigma$) à un sous-groupe du groupe orthogonal $\mathbf{O}(E)$ de l’espace $E$.
 
 #### Proposition 9 {#lie-v-s4-prop-9 .statement}
 
-Avec les notations précédentes, $W$ est le sous-groupe de $\mathbf{O}(E)$ engendré par les réflexions par rapport aux hyperplans de $\mathcal{H}$. C’est un groupe essentiel ($§ 3, \mathrm{n}^\circ 7$) et $C_0$ est une chambre de $E$ relativement à $\mathcal{H}$.
+Avec les notations précédentes, $W$ est le sous-groupe de $\mathbf{O}(E)$ engendré par les réflexions par rapport aux hyperplans de $\mathscr{H}$. C’est un groupe essentiel ($§ 3, \mathrm{n}^\circ 7$) et $C_0$ est une chambre de $E$ relativement à $\mathscr{H}$.
 
-La première assertion est triviale. D’autre part, si $x \in E$ est invariant par $W$, il est orthogonal à tous les $e_s$, donc nul; cela montre que $W$ est essentiel. Enfin, l’isomorphisme $E \to E^*$ défini par $B_M$ transforme $C_0$ en l’ensemble $C$ du $\mathrm{n}^\circ 4$; la propriété (P_n) démontrée à cet endroit prouve que, pour tout $w \in W$, et tout $s \in S$, $w(C_0)$ ne rencontre pas $H_s$. On en conclut que $C_0$ est contenu dans le complémentaire $U$ de la réunion des hyperplans de $\mathcal{H}$, et comme $C_0$ est connexe, ouvert et fermé dans $U$, c’est une chambre de $E$ relativement à $\mathcal{H}$, C.Q.F.D.
+La première assertion est triviale. D’autre part, si $x \in E$ est invariant par $W$, il est orthogonal à tous les $e_s$, donc nul; cela montre que $W$ est essentiel. Enfin, l’isomorphisme $E \to E^*$ défini par $B_M$ transforme $C_0$ en l’ensemble $C$ du $\mathrm{n}^\circ 4$; la propriété (P_n) démontrée à cet endroit prouve que, pour tout $w \in W$, et tout $s \in S$, $w(C_0)$ ne rencontre pas $H_s$. On en conclut que $C_0$ est contenu dans le complémentaire $U$ de la réunion des hyperplans de $\mathscr{H}$, et comme $C_0$ est connexe, ouvert et fermé dans $U$, c’est une chambre de $E$ relativement à $\mathscr{H}$, C.Q.F.D.
 
 On peut donc appliquer à $W$ et $C_0$ toutes les propriétés démontrées au $§ 3$. En
 

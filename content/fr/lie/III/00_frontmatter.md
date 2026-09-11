@@ -12,7 +12,7 @@ pdf_pages: 0093-0093
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 2b6051ce91db7a32f04a9b308ecdd1eb65f54c9dedbc0fedeb6bc90c5982293a
+content_sha256: 36510b7faeb42030ce940afe04fe2546ea55ea28e7a87bc2911e169c2fedea0d
 ---
 
 ## CHAPITRE III
@@ -23,9 +23,9 @@ Dans tout le chapitre, K désigne soit le corps valué $\mathbf{R}$ des nombres 
 
 Les conventions sur les normes, les espaces normables et les espaces normés sont les mêmes que dans VAR, R.
 
-Rappelons qu’on appelle algèbre normable sur K une algèbre A (non nécessairement associative) sur K, munie d’une topologie $\mathcal{T}$ possédant les propriétés suivantes:
+Rappelons qu’on appelle algèbre normable sur K une algèbre A (non nécessairement associative) sur K, munie d’une topologie $\mathscr{T}$ possédant les propriétés suivantes:
 
-1) $\mathcal{T}$ peut être définie par une norme;
+1) $\mathscr{T}$ peut être définie par une norme;
 2) l’application $(x, y) \mapsto xy$ de $A \times A$ dans A est continue.
 
 On note Aut(A) le groupe des automorphismes bicontinu de A. Toute algèbre de dimension finie sur K est une algèbre normable pour la topologie canonique. On appelle algèbre normée sur K une algèbre A sur K, munie d’une norme telle que $\|xy\| \leq \|x\|\|y\|$ quels que soient $x, y$ dans A; l’algèbre A, munie de la topologie définie par cette norme, est une algèbre normable. Si A est une algèbre normable, il existe une norme sur A définissant sa topologie et faisant de A une algèbre normée.

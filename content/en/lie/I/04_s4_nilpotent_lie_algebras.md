@@ -33,7 +33,7 @@ subsections:
       pdf_page: 60
 statements: 18
 exercises: 27
-content_sha256: 48ab9b1787343e1f86d71a8b0614a97c02bf7d85a80b47fd455f6abb64aa840b
+content_sha256: bef3eeafe13af0c47229143600305c1cdb410b97ca96cc305d8ed095ac5bb3cd
 ---
 
 ## § 4. NILPOTENT LIE ALGEBRAS
@@ -52,12 +52,12 @@ A commutative Lie algebra is nilpotent.
 
 *Let $g$ be a Lie algebra. The following conditions are equivalent:*
 (a) $g$ *is nilpotent;*
-(b) $\mathcal{C}^k g = \{0\}$ *for sufficiently large* $k$;
-(c) $\mathcal{C}_k g = g$ *for sufficiently large* $k$;
+(b) $\mathscr{C}^k g = \{0\}$ *for sufficiently large* $k$;
+(c) $\mathscr{C}_k g = g$ *for sufficiently large* $k$;
 (d) *there exists an integer* $k$ *such that* $\operatorname{ad} x_1 \circ \operatorname{ad} x_2 \circ \cdots \circ \operatorname{ad} x_k = 0$ *for all elements* $x_1, x_2, \ldots, x_k$ *in* $g$;
 (e) *there exists a decreasing sequence of ideals* $(g_i)_{0 \leq i \leq n}$ *of* $g$ *with* $g_0 = g, g_n = \{0\}$, *such that* $[g, g_i] \subset g_{i+1}$ *and* $\dim g_i / g_{i+1} = 1$ *for* $0 \leq i < n$.
 
-If $\mathcal{C}^k g = \{0\}$ (resp. $\mathcal{C}_k g = g$), clearly the sequence $\mathcal{C}^1 g, \ldots, \mathcal{C}^k g$ (resp. $\mathcal{C}_k g, \mathcal{C}_{k-1} g, \ldots, \mathcal{C}_0 g$) has the properties of Definition 1 and hence $g$ is nilpotent. Conversely, suppose that there exists a sequence $(g_i)_{0 \leq i \leq p}$ with the properties of Definition 1. It is seen by induction on $n$ that $g_i \supset \mathcal{C}^{i+1} g$ and $g_{p-i} \subset \mathcal{C}_i g$. Hence $\mathcal{C}^{p+1} g = \{0\}$ and $\mathcal{C}_p g = g$. We have thus proved that conditions (a), (b) and (c) are equivalent. On the other hand, $\mathcal{C}^1 g$ is the set of linear combinations of elements of the form
+If $\mathscr{C}^k g = \{0\}$ (resp. $\mathscr{C}_k g = g$), clearly the sequence $\mathscr{C}^1 g, \ldots, \mathscr{C}^k g$ (resp. $\mathscr{C}_k g, \mathscr{C}_{k-1} g, \ldots, \mathscr{C}_0 g$) has the properties of Definition 1 and hence $g$ is nilpotent. Conversely, suppose that there exists a sequence $(g_i)_{0 \leq i \leq p}$ with the properties of Definition 1. It is seen by induction on $n$ that $g_i \supset \mathscr{C}^{i+1} g$ and $g_{p-i} \subset \mathscr{C}_i g$. Hence $\mathscr{C}^{p+1} g = \{0\}$ and $\mathscr{C}_p g = g$. We have thus proved that conditions (a), (b) and (c) are equivalent. On the other hand, $\mathscr{C}^1 g$ is the set of linear combinations of elements of the form
 
 $$
 [x_1, [x_2, \ldots, [x_{i-2}, [x_{i-1}, x_i]] \ldots]]
@@ -83,24 +83,24 @@ For all $x$ and $y$ in a nilpotent Lie algebra $\operatorname{ad} x \circ \opera
 #### Proposition 2 {#lie-i-s4-prop-2 .statement}
 
 *Subalgebras, quotient algebras and central extensions of a nilpotent Lie algebra are nilpotent. A finite product of nilpotent Lie algebras is a nilpotent Lie algebra.*
-Let $g$ be a Lie algebra, $g'$ a subalgebra of $g$, $\mathfrak{h}$ an ideal of $g$, $\mathfrak{k} = g/\mathfrak{h}$ and $\phi$ the canonical mapping of $g$ onto $\mathfrak{k}$. If $g$ is nilpotent, then $\mathcal{C}^k g = \{0\}$ for some integer $k$, hence $\mathcal{C}^k g' \subset \mathcal{C}^k g = \{0\}$ and $\mathcal{C}^k \mathfrak{k} = \phi(\mathcal{C}^k g) = \{0\}$ and hence $g'$ and $\mathfrak{k}$ are nilpotent. If $\mathfrak{k}$ is nilpotent and $\mathfrak{h}$ is contained in the centre of $g$, then $\mathcal{C}^k \mathfrak{k} = \{0\}$ for some integer $k$, hence $\mathcal{C}^k g \subset \mathfrak{h}$ and therefore $\mathcal{C}^{k+1} g \subset [\mathfrak{h}, g] = \{0\}$, so that $g$ is nilpotent. Finally, the assertion concerning products follows for example from the assertion (a) $\Leftrightarrow$ (d) of Proposition 1.
+Let $g$ be a Lie algebra, $g'$ a subalgebra of $g$, $\mathfrak{h}$ an ideal of $g$, $\mathfrak{k} = g/\mathfrak{h}$ and $\phi$ the canonical mapping of $g$ onto $\mathfrak{k}$. If $g$ is nilpotent, then $\mathscr{C}^k g = \{0\}$ for some integer $k$, hence $\mathscr{C}^k g' \subset \mathscr{C}^k g = \{0\}$ and $\mathscr{C}^k \mathfrak{k} = \phi(\mathscr{C}^k g) = \{0\}$ and hence $g'$ and $\mathfrak{k}$ are nilpotent. If $\mathfrak{k}$ is nilpotent and $\mathfrak{h}$ is contained in the centre of $g$, then $\mathscr{C}^k \mathfrak{k} = \{0\}$ for some integer $k$, hence $\mathscr{C}^k g \subset \mathfrak{h}$ and therefore $\mathscr{C}^{k+1} g \subset [\mathfrak{h}, g] = \{0\}$, so that $g$ is nilpotent. Finally, the assertion concerning products follows for example from the assertion (a) $\Leftrightarrow$ (d) of Proposition 1.
 
 Definition 1 and Proposition 2 show that nilpotent Lie algebras are precisely the algebras obtained from commutative Lie algebras by a sequence of central extensions.
 
 #### Proposition 3 {#lie-i-s4-prop-3 .statement}
 
 *Let $g$ be a nilpotent Lie algebra and $\mathfrak{h}$ a subalgebra of $g$ distinct from $g$. The normalizer of $\mathfrak{h}$ in $g$ is distinct from $\mathfrak{h}$.*
-Let $k$ be the greatest integer such that $\mathcal{C}^k g + \mathfrak{h} \neq \mathfrak{h}$. Then
+Let $k$ be the greatest integer such that $\mathscr{C}^k g + \mathfrak{h} \neq \mathfrak{h}$. Then
 $$
-[\mathcal{C}^k g + \mathfrak{h}, \mathfrak{h}] \subset \mathcal{C}^{k+1} g + \mathfrak{h} \subset \mathfrak{h}
+[\mathscr{C}^k g + \mathfrak{h}, \mathfrak{h}] \subset \mathscr{C}^{k+1} g + \mathfrak{h} \subset \mathfrak{h}
 $$
-and hence the normalizer of $\mathfrak{h}$ in $g$ contains $\mathcal{C}^k g + \mathfrak{h}$.
+and hence the normalizer of $\mathfrak{h}$ in $g$ contains $\mathscr{C}^k g + \mathfrak{h}$.
 
 ### 2. ENGEL'S THEOREM
 
 #### Lemma 1 {#lie-i-s4-lem-1 .statement}
 
-*Let $V$ be a vector space over $\mathbf{K}$. If $x$ is a nilpotent endomorphism of $V$, the mapping $y \mapsto [x, y]$ of $\mathcal{L}(V)$ into $\mathcal{L}(V)$ is nilpotent.*
+*Let $V$ be a vector space over $\mathbf{K}$. If $x$ is a nilpotent endomorphism of $V$, the mapping $y \mapsto [x, y]$ of $\mathscr{L}(V)$ into $\mathscr{L}(V)$ is nilpotent.*
 If $f$ denotes this mapping, $f^m(y)$ is a sum of terms of the form $\pm x^i y x^j$ with $i + j = m$. If $x^k = 0$, then $f^{2k-1}(y) = 0$ for all $y$.
 
 #### Theorem 1 (Engel) {#lie-i-s4-thm-1 .statement}
@@ -198,7 +198,7 @@ Let $g$ be a Lie algebra and $a$ an ideal of $g$. For $a$ to be nilpotent, it is
 
 #### Proposition 6 {#lie-i-s4-prop-6 .statement}
 
-Let $g$ be a Lie algebra and $E$ the associative subalgebra of $\mathcal{L}(g)$ generated by 1 and the $\operatorname{ad}_g x$ ($x \in g$). Let $R$ be the Jacobson radical of $E$.
+Let $g$ be a Lie algebra and $E$ the associative subalgebra of $\mathscr{L}(g)$ generated by 1 and the $\operatorname{ad}_g x$ ($x \in g$). Let $R$ be the Jacobson radical of $E$.
 (a) The set $n$ of $y \in g$ such that $\operatorname{ad}_g y \in R$ is the largest nilpotent ideal of $g$.
 (b) It is orthogonal to $g$ under the Killing form.
 
@@ -206,7 +206,7 @@ It should be noted that $g/n$ can have non-zero nilpotent ideals.
 
 ### 5. EXTENSION OF THE BASE FIELD
 
-Let $g$ be a Lie $K$-algebra, $K_1$ an extension of $K$ and $g' = g_{(K_1)}$. As $\mathcal{C}^k g' = (\mathcal{C}^k g)_{(K_1)}$, $g$ is nilpotent if and only if $g'$ is nilpotent.
+Let $g$ be a Lie $K$-algebra, $K_1$ an extension of $K$ and $g' = g_{(K_1)}$. As $\mathscr{C}^k g' = (\mathscr{C}^k g)_{(K_1)}$, $g$ is nilpotent if and only if $g'$ is nilpotent.
 
 Let $M$ be a $g$-module of finite dimension over $K$, $n$ the largest nilpotency, ideal for $M$ and $M' = M_{(K_1)}$. Let $(M_i)_{0 \leq i \leq n}$ be a Jordan-Hölder series of the $g$-module $M$. Then $x_M(M_i) \subset M_{i+1}$ for all $i$ and all $x \in n$, hence
 

@@ -48,7 +48,7 @@ subsections:
       pdf_page: 19
 statements: 21
 exercises: 27
-content_sha256: f9553c57b1a48fa1515184945910960cc3c2f3548c230c2ad8aac6ec385c693b
+content_sha256: c01d9e842e1567443d585d877e5207faa40cd50b9645b2743ea1a275ad7b25a7
 ---
 
 ## § 1. Définition des algèbres de Lie
@@ -207,22 +207,22 @@ Si a est un sous-module de g, l’ensemble des x ∈ g tels que (ad x).a ⊂ a e
 
 ### 5. Série dérivée, série centrale descendante
 
-On appelle idéal dérivé d’une algèbre de Lie g, et on note $\mathcal{O}g$, l’idéal caractéristique [g, g].
-Tout sous-module de g contenant $\mathcal{O}g$ est un idéal de g.
+On appelle idéal dérivé d’une algèbre de Lie g, et on note $\mathscr{O}g$, l’idéal caractéristique [g, g].
+Tout sous-module de g contenant $\mathscr{O}g$ est un idéal de g.
 
-On appelle série dérivée de g la suite décroissante $\mathcal{O}^0g, \mathcal{O}^1g, \ldots$ d’idéaux caractéristiques de g définis par récurrence de la manière suivante : 1) $\mathcal{O}^0g = g$; 2) $\mathcal{O}^{p+1}g = [\mathcal{O}^p g, \mathcal{O}^p g]$.
+On appelle série dérivée de g la suite décroissante $\mathscr{O}^0g, \mathscr{O}^1g, \ldots$ d’idéaux caractéristiques de g définis par récurrence de la manière suivante : 1) $\mathscr{O}^0g = g$; 2) $\mathscr{O}^{p+1}g = [\mathscr{O}^p g, \mathscr{O}^p g]$.
 
-On appelle série centrale descendante de g la suite décroissante $C^1g, C^2g, \ldots$ d’idéaux caractéristiques de g définis par récurrence de la manière suivante : 1) $C^1g = g$; 2) $C^{p+1}g = [g, C^p g]$. On a $C^2g = \mathcal{O}g$, et $C^{p+1}g \supset \mathcal{O}^p g$ pour tout $p$, comme on le voit aussitôt par récurrence sur $p$.
+On appelle série centrale descendante de g la suite décroissante $C^1g, C^2g, \ldots$ d’idéaux caractéristiques de g définis par récurrence de la manière suivante : 1) $C^1g = g$; 2) $C^{p+1}g = [g, C^p g]$. On a $C^2g = \mathscr{O}g$, et $C^{p+1}g \supset \mathscr{O}^p g$ pour tout $p$, comme on le voit aussitôt par récurrence sur $p$.
 
 #### Proposition 4 {#lie-i-s1-prop-4 .statement}
 
-*Soient g et h deux algèbres de Lie sur K, et f un homomorphisme de g sur h. On a $f(\mathcal{O}^p g) = \mathcal{O}^p h, f(C^p g) = C^p h$. Si a et b sont des sous-modules de g, on a aussitôt $f([a, b]) = [f(a), f(b)]$.* La proposition est alors immédiate par récurrence sur $p$.
+*Soient g et h deux algèbres de Lie sur K, et f un homomorphisme de g sur h. On a $f(\mathscr{O}^p g) = \mathscr{O}^p h, f(C^p g) = C^p h$. Si a et b sont des sous-modules de g, on a aussitôt $f([a, b]) = [f(a), f(b)]$.* La proposition est alors immédiate par récurrence sur $p$.
 
 #### Corollaire {#lie-i-s1-n5-cor-1 .statement}
 
-*Soient g une algèbre de Lie, a un idéal de g. Pour que l’algèbre de Lie $g/a$ soit commutative, il faut et il suffit que $a \supset \mathcal{O}g$.*
+*Soient g une algèbre de Lie, a un idéal de g. Pour que l’algèbre de Lie $g/a$ soit commutative, il faut et il suffit que $a \supset \mathscr{O}g$.*
 
-En effet, dire que $g/a$ est commutative revient à dire que $\mathcal{O}(g/a) = \{ 0 \}$. Or, $\mathcal{O}(g/a)$ est, d’après la prop. 4, l’image canonique de $\mathcal{O}g$ dans $g/a$.
+En effet, dire que $g/a$ est commutative revient à dire que $\mathscr{O}(g/a) = \{ 0 \}$. Or, $\mathscr{O}(g/a)$ est, d’après la prop. 4, l’image canonique de $\mathscr{O}g$ dans $g/a$.
 
 ### 6. Série centrale ascendante
 
@@ -485,19 +485,19 @@ On identifie souvent $\mathfrak{af}(M)$ à la sous-algèbre $t$ de $\mathrm{gl}(
 
 ### 9. Changement de l’anneau de base
 
-Soient $K_0$ un anneau commutatif à élément unité, $\rho$ un homomorphisme de $K_0$ dans $K$ transformant l’élément unité en élément unité. Soit $g$ une algèbre de Lie sur $K$. Soit $g'$ l’algèbre obtenue en considérant $g$ comme algèbre sur $K_0$ grâce à $\rho$ (cf. n° 1). Alors $g'$ est une algèbre de Lie. Les sous-algèbres (resp. idéaux) de $g$ sont des sous-algèbres (resp. idéaux) de $g'$. Si $a$ et $b$ sont des sous-modules de $g$, le crochet $[a, b]$ est le même dans $g$ et dans $g'$; en effet, $[a, b]$ est l’ensemble des éléments de la forme $\sum_{i=1}^n [x_i, y_i]$ où $x_i \in a, y_i \in b$. Il en résulte que $\mathcal{O}^p g = \mathcal{O}^p g'$, $\mathcal{C}^p g = \mathcal{C}^p g'$ pour tout $p$. Le commutant d’une partie est le même dans $g$ et $g'$. Donc $\mathcal{C}_p g = \mathcal{C}_p g'$ pour tout $p$.
+Soient $K_0$ un anneau commutatif à élément unité, $\rho$ un homomorphisme de $K_0$ dans $K$ transformant l’élément unité en élément unité. Soit $g$ une algèbre de Lie sur $K$. Soit $g'$ l’algèbre obtenue en considérant $g$ comme algèbre sur $K_0$ grâce à $\rho$ (cf. n° 1). Alors $g'$ est une algèbre de Lie. Les sous-algèbres (resp. idéaux) de $g$ sont des sous-algèbres (resp. idéaux) de $g'$. Si $a$ et $b$ sont des sous-modules de $g$, le crochet $[a, b]$ est le même dans $g$ et dans $g'$; en effet, $[a, b]$ est l’ensemble des éléments de la forme $\sum_{i=1}^n [x_i, y_i]$ où $x_i \in a, y_i \in b$. Il en résulte que $\mathscr{O}^p g = \mathscr{O}^p g'$, $\mathscr{C}^p g = \mathscr{C}^p g'$ pour tout $p$. Le commutant d’une partie est le même dans $g$ et $g'$. Donc $\mathscr{C}_p g = \mathscr{C}_p g'$ pour tout $p$.
 
-Soient $K_1$ un anneau commutatif à élément unité, $\sigma$ un homomorphisme de $K$ dans $K_1$ transformant l’élément unité en élément unité. Soit $g$ une algèbre de Lie sur $K$. Soit $g_{(K_1)}$ l’algèbre sur $K_1$ déduite de $g$ par extension de l’anneau de base (cf. n° 1). Alors $g_{(K_1)}$ est une algèbre de Lie. Si $a$ est une sous-algèbre (resp. un idéal) de $g$, l’image canonique de $a_{(K_1)}$ dans $g_{(K_1)}$ est une sous-algèbre (resp. un idéal) de $g_{(K_1)}$. Si $a$ et $b$ sont des sous-modules de $g$, l’image canonique dans $g_{(K_1)}$ de $[a, b]_{(K_1)}$ est égale au crochet des images canoniques de $a_{(K_1)}$ et $b_{(K_1)}$. Il en résulte que $\mathcal{O}^p(g_{(K_1)})$ est l’image canonique de $(\mathcal{O}^p g)_{(K_1)}$, et que $\mathcal{C}^p(g_{(K_1)})$ est l’image canonique de $(\mathcal{C}^p g)_{(K_1)}$.
+Soient $K_1$ un anneau commutatif à élément unité, $\sigma$ un homomorphisme de $K$ dans $K_1$ transformant l’élément unité en élément unité. Soit $g$ une algèbre de Lie sur $K$. Soit $g_{(K_1)}$ l’algèbre sur $K_1$ déduite de $g$ par extension de l’anneau de base (cf. n° 1). Alors $g_{(K_1)}$ est une algèbre de Lie. Si $a$ est une sous-algèbre (resp. un idéal) de $g$, l’image canonique de $a_{(K_1)}$ dans $g_{(K_1)}$ est une sous-algèbre (resp. un idéal) de $g_{(K_1)}$. Si $a$ et $b$ sont des sous-modules de $g$, l’image canonique dans $g_{(K_1)}$ de $[a, b]_{(K_1)}$ est égale au crochet des images canoniques de $a_{(K_1)}$ et $b_{(K_1)}$. Il en résulte que $\mathscr{O}^p(g_{(K_1)})$ est l’image canonique de $(\mathscr{O}^p g)_{(K_1)}$, et que $\mathscr{C}^p(g_{(K_1)})$ est l’image canonique de $(\mathscr{C}^p g)_{(K_1)}$.
 
 Si $K$ est un corps, $K_1$ un surcorps de $K$, et $\sigma$ l’injection canonique de $K$ dans $K_1$, alors on a, avec les identifications habituelles,
 
 $$
-[a, b]_{(K_1)} = [a_{(K_1)}, b_{(K_1)}], \quad \mathcal{O}^p(g_{(K_1)}) = (\mathcal{O}^p g)_{(K_1)}, \quad \mathcal{C}^p(g_{(K_1)}) = (\mathcal{C}^p g)_{(K_1)}.
+[a, b]_{(K_1)} = [a_{(K_1)}, b_{(K_1)}], \quad \mathscr{O}^p(g_{(K_1)}) = (\mathscr{O}^p g)_{(K_1)}, \quad \mathscr{C}^p(g_{(K_1)}) = (\mathscr{C}^p g)_{(K_1)}.
 $$
 
 Ces résultats seront complétés au § 2, n° 9.
 
-Si $M$ est un espace vectoriel de dimension finie sur le corps $K$, $M_{(K_1)}$ est un espace vectoriel de dimension finie sur $K_1$, et l’algèbre associative $\mathcal{L}(M_{(K_1)})$ s’identifie canoniquement à l’algèbre associative $\mathcal{L}(M)_{(K_1)}$. Donc l’algèbre de Lie $\mathrm{gl}(M_{(K_1)})$ s’identifie canoniquement à l’algèbre de Lie $\mathrm{gl}(M)_{(K_1)}$.
+Si $M$ est un espace vectoriel de dimension finie sur le corps $K$, $M_{(K_1)}$ est un espace vectoriel de dimension finie sur $K_1$, et l’algèbre associative $\mathscr{L}(M_{(K_1)})$ s’identifie canoniquement à l’algèbre associative $\mathscr{L}(M)_{(K_1)}$. Donc l’algèbre de Lie $\mathrm{gl}(M_{(K_1)})$ s’identifie canoniquement à l’algèbre de Lie $\mathrm{gl}(M)_{(K_1)}$.
 
 ## EXERCICES {#lie-i-s1-exercises}
 

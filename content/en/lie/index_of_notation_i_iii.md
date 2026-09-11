@@ -13,7 +13,7 @@ pdf_pages: 0453-0455
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 2179f59958c16d5cd6dd7f5d85fed24ee20e2de2d245c364bef9a60746f5e554
+content_sha256: e487697bc2f395f1e6214dc4574c9521ae3ddcbd51aea80d99ef5b7d6adb12c0
 ---
 
 ## INDEX OF NOTATION
@@ -25,8 +25,8 @@ $g^0$ (g a Lie algebra): I.1.2.
 $gl(E), gl(n, K), sl(E), sl(n, K), t(n, K), st(n, K), n(n, K)$ (E a K-module): I.1.2.
 $ad_g x, ad x$ (x an element of a Lie algebra g): I.1.2.
 $[a, b], [z, a], [a, z]$ (a, b submodules, z an element of a Lie algebra): I.1.4.
-$\mathcal{D}g, \mathcal{D}^k g, \mathcal{C}^k g$ (g a Lie algebra): I.1.5.
-$\mathcal{C}_k g$ (g a Lie algebra): I.1.6.
+$\mathscr{D}g, \mathscr{D}^k g, \mathscr{C}^k g$ (g a Lie algebra): I.1.5.
+$\mathscr{C}_k g$ (g a Lie algebra): I.1.6.
 $af(M)$ (M a K-module): I.1.8.
 $g_{(K_1)}$ (g a Lie algebra): I.1.9.
 $U_+, U_0$ (U the enveloping algebra of a Lie algebra): I.2.1.
@@ -35,7 +35,7 @@ $T_n, U_n, G^n$ : I.2.6.
 $x_M$ (x an element of a Lie algebra g, M a g-module): I.3.1.
 $e^u, \exp u$ (u a nilpotent endomorphism of a vector space over a field of characteristic 0): I.6.8.
 $C(\rho)$ ($\rho$ a representation of a Lie algebra): I.7.1.
-$\mathcal{C}^\infty g, \mathcal{D}^\infty g$: I.1, Exercise 14.
+$\mathscr{C}^\infty g, \mathscr{D}^\infty g$: I.1, Exercise 14.
 $x^{[n]}$: I.1, Exercise 20.
 $GL(n, K)$ (formal group): I.1, Exercise 25.
 $o(\Phi)$: I.1, Exercise 26.
@@ -89,7 +89,7 @@ $T(G), T(φ)$ : III.2.2.
 $t \ast t'$ : III.3.1, III.3.18.
 
 $U(G), U^+(G), U_s(G), U_s^+(G)$: III.3.1, III.3.18.
-$T_g^{(s)}(G), T_g^{(\infty)}(G), \mathcal{T}^{(\infty)}(G)$: III.3.1, III.3.18.
+$T_g^{(s)}(G), T_g^{(\infty)}(G), \mathscr{T}^{(\infty)}(G)$: III.3.1, III.3.18.
 $t \ast f$ : III.3.4, III.3.18.
 $D_t$ : III.3.5, III.3.18.
 $L_t, R_t$ : III.3.6, III.3.18.

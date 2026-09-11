@@ -44,7 +44,7 @@ subsections:
       pdf_page: 240
 statements: 54
 exercises: 16
-content_sha256: 0e4e9347d9e21ff0eac39d30f1fdac558deb92c6266df753488921e2b961d6b4
+content_sha256: 4f0cf8e69d77685047d0ce810cd59cabefa727c46cef0aac8b58876c69be006f
 ---
 
 ## § 9. Commutateurs, centralisateurs, normalisateurs dans un groupe de Lie
@@ -150,11 +150,11 @@ Soient G un groupe de Lie réel ou complexe de dimension finie, A un sous-groupe
 
 Posons a = L(A). Soit G_1 l’ensemble des g ∈ G tels que
 
-$$(\mathrm{Ad}\ g)x \equiv x \pmod{\mathcal{D}a} \quad \text{pour tout } x \in a.$$
+$$(\mathrm{Ad}\ g)x \equiv x \pmod{\mathscr{D}a} \quad \text{pour tout } x \in a.$$
 
-Alors G_1 est un sous-groupe fermé de G. Si y ∈ a, on a exp y ∈ G_1, d’après le § 6, n° 4, cor. 3 (ii) de la prop. 10. Donc G_1 contient A et par suite \overline{A}. Ainsi, pour g ∈ \overline{A}, L(Int g) laisse stable a, et par suite Int g laisse stable A; plus précisément, L(Int g) définit l’automorphisme identique de a/\mathcal{D}a, donc Int g définit l’automorphisme identique de A/DA. Cela prouve que (\overline{A}, A) ⊂ DA. Pour la structure de groupe de Lie réel de G, \overline{A} est un sous-groupe de Lie (§ 8, n° 2, th. 2); soit b son algèbre de Lie. Soit G_2 l’ensemble des g ∈ G tels que
+Alors G_1 est un sous-groupe fermé de G. Si y ∈ a, on a exp y ∈ G_1, d’après le § 6, n° 4, cor. 3 (ii) de la prop. 10. Donc G_1 contient A et par suite \overline{A}. Ainsi, pour g ∈ \overline{A}, L(Int g) laisse stable a, et par suite Int g laisse stable A; plus précisément, L(Int g) définit l’automorphisme identique de a/\mathscr{D}a, donc Int g définit l’automorphisme identique de A/DA. Cela prouve que (\overline{A}, A) ⊂ DA. Pour la structure de groupe de Lie réel de G, \overline{A} est un sous-groupe de Lie (§ 8, n° 2, th. 2); soit b son algèbre de Lie. Soit G_2 l’ensemble des g ∈ G tels que
 
-$$(\mathrm{Ad}\ g)x \equiv x \pmod{\mathcal{D}a} \quad \text{pour tout } x \in b.$$
+$$(\mathrm{Ad}\ g)x \equiv x \pmod{\mathscr{D}a} \quad \text{pour tout } x \in b.$$
 
 D’après ce qui précède, on a G_2 ⊃ A, donc G_2 ⊃ \overline{A}. Par suite, pour g ∈ \overline{A}, Int g laisse stable DA et définit l’automorphisme identique de \overline{A}/DA. Donc DA ⊃ D\overline{A}.
 
@@ -174,17 +174,17 @@ D’après la prop. 3, la sous-algèbre de Lie tangente en $e$ à $(A', B')$ con
 
 #### Corollaire {#lie-iii-s9-n2-cor-2 .statement}
 
-*Supposons K ultramétrique. Soit G un groupe de Lie de dimension finie, d’algèbre de Lie g. Il existe un sous-groupe ouvert $G_0$ de G tel que, pour tout i, $D^i G_0$ (resp. $C^i G_0$) soit un sous-groupe de Lie de G d’algèbre de Lie $\mathcal{D}^i g$ (resp. $\mathcal{C}^i g$).*
+*Supposons K ultramétrique. Soit G un groupe de Lie de dimension finie, d’algèbre de Lie g. Il existe un sous-groupe ouvert $G_0$ de G tel que, pour tout i, $D^i G_0$ (resp. $C^i G_0$) soit un sous-groupe de Lie de G d’algèbre de Lie $\mathscr{D}^i g$ (resp. $\mathscr{C}^i g$).*
 
-a) D’après la prop. 3 appliquée par récurrence, pour tout sous-groupe ouvert $G_1$ de $G$ et pour tout $i$, $D^i G_1$ contient un sous-groupuscule de Lie de $G$ d’algèbre de Lie $\mathcal{D}^i g$.
+a) D’après la prop. 3 appliquée par récurrence, pour tout sous-groupe ouvert $G_1$ de $G$ et pour tout $i$, $D^i G_1$ contient un sous-groupuscule de Lie de $G$ d’algèbre de Lie $\mathscr{D}^i g$.
 
-b) Soit $G'$ un sous-groupe ouvert de $G$ tel que, pour $i \leq n$, $D^i G'$ soit un sous-groupe de Lie de $G$ d’algèbre de Lie $\mathcal{D}^i g$. D’après la prop. 6, il existe des sous-groupes ouverts $H_1, H_2$ de $D^n G'$ tels que $(H_1, H_2)$ soit un sous-groupe de Lie d’algèbre de Lie $\mathcal{D}^{n+1} g$. Soit $G''$ un sous-groupe ouvert de $G'$ assez petit pour que $D^n G'' \subset H_1 \cap H_2$. Alors $D^{n+1} G'' \subset (H_1, H_2)$. Les relations
+b) Soit $G'$ un sous-groupe ouvert de $G$ tel que, pour $i \leq n$, $D^i G'$ soit un sous-groupe de Lie de $G$ d’algèbre de Lie $\mathscr{D}^i g$. D’après la prop. 6, il existe des sous-groupes ouverts $H_1, H_2$ de $D^n G'$ tels que $(H_1, H_2)$ soit un sous-groupe de Lie d’algèbre de Lie $\mathscr{D}^{n+1} g$. Soit $G''$ un sous-groupe ouvert de $G'$ assez petit pour que $D^n G'' \subset H_1 \cap H_2$. Alors $D^{n+1} G'' \subset (H_1, H_2)$. Les relations
 $$
 D^0 G'' \subset D^0 G', \quad D^1 G'' \subset D^1 G', \ldots, D^n G'' \subset D^n G', \quad D^{n+1} G'' \subset (H_1, H_2)
 $$
-prouvent, compte tenu de a), que $D^i G''$ est, pour $i \leq n + 1$, un sous-groupe de Lie de $G$ d’algèbre de Lie $\mathcal{D}^i g$.
+prouvent, compte tenu de a), que $D^i G''$ est, pour $i \leq n + 1$, un sous-groupe de Lie de $G$ d’algèbre de Lie $\mathscr{D}^i g$.
 
-c) Il existe un entier $p$ tel que $\mathcal{D}^p g = \mathcal{D}^{p+1} g = \ldots$. D’après ce qui précède, il existe un sous-groupe ouvert $G_0$ de $G$ tel que $D^i G_0$ soit, pour $i \leq p$, un sous-groupe de Lie de $G$ d’algèbre de Lie $\mathcal{D}^i g$. Mais, compte tenu de a), la même assertion reste vraie pour $i > p$ puisque $D^p G_0 \supset D^i G_0$ pour $i > p$.
+c) Il existe un entier $p$ tel que $\mathscr{D}^p g = \mathscr{D}^{p+1} g = \ldots$. D’après ce qui précède, il existe un sous-groupe ouvert $G_0$ de $G$ tel que $D^i G_0$ soit, pour $i \leq p$, un sous-groupe de Lie de $G$ d’algèbre de Lie $\mathscr{D}^i g$. Mais, compte tenu de a), la même assertion reste vraie pour $i > p$ puisque $D^p G_0 \supset D^i G_0$ pour $i > p$.
 
 d) On raisonne de même pour les $C^i$.
 
@@ -283,7 +283,7 @@ Si $K = \mathbf{C}$ et si exp est étale, alors, pour tout $x \in L(G)$, ad $x$ 
 
 *Soient G un groupe de Lie nilpotent connexe de dimension finie sur $\mathbf{R}$ ou $\mathbf{C}$, A un sous-groupe intégral de G. Alors $Z_G(A)$ est le sous-groupe de Lie connexe de G d’algèbre de Lie $\delta_G(L(A))$.*
 
-Compte tenu de la prop. 9 du n° 3 il suffit de prouver que $Z_G(A)$ est connexe. Soit $g \in Z_G(A)$. Il existe un $x \in L(G)$ tel que $g = \exp x$ (prop. 14). On a $\mathrm{Ad}\ g|L(A) = 1$ (n° 3, prop. 9), donc $\mathrm{Ad}\ g^n|L(A) = 1$ pour tout $n \in \mathbf{Z}$, donc $\exp (\mathrm{ad}\ nx)|L(A) = 1$ pour tout $n \in \mathbf{Z}$. Comme l’application $\lambda \mapsto \exp (\mathrm{ad}\ \lambda x)|L(A)$ de K dans $\mathcal{L}(L(A), L(G))$ est polynomiale, on a $\exp(\mathrm{ad}\ \lambda x)|L(A) = 1$ pour tout $\lambda \in K$, c’est-à-dire $\exp(\lambda x) \in Z_G(A)$ pour tout $\lambda \in K$.
+Compte tenu de la prop. 9 du n° 3 il suffit de prouver que $Z_G(A)$ est connexe. Soit $g \in Z_G(A)$. Il existe un $x \in L(G)$ tel que $g = \exp x$ (prop. 14). On a $\mathrm{Ad}\ g|L(A) = 1$ (n° 3, prop. 9), donc $\mathrm{Ad}\ g^n|L(A) = 1$ pour tout $n \in \mathbf{Z}$, donc $\exp (\mathrm{ad}\ nx)|L(A) = 1$ pour tout $n \in \mathbf{Z}$. Comme l’application $\lambda \mapsto \exp (\mathrm{ad}\ \lambda x)|L(A)$ de K dans $\mathscr{L}(L(A), L(G))$ est polynomiale, on a $\exp(\mathrm{ad}\ \lambda x)|L(A) = 1$ pour tout $\lambda \in K$, c’est-à-dire $\exp(\lambda x) \in Z_G(A)$ pour tout $\lambda \in K$.
 
 #### Proposition 16 {#lie-iii-s9-prop-16 .statement}
 
@@ -291,7 +291,7 @@ Compte tenu de la prop. 9 du n° 3 il suffit de prouver que $Z_G(A)$ est connexe
 
 On a $N_G(A) \neq A$ (A, I, $§ 6$, cor. 1 de la prop. 8). Compte tenu de la prop. 11 du n° 4, tout revient à prouver que $N_G(A)$ est connexe. Soit $g \in N_G(A)$. Il existe un $x \in L(G)$ tel que $g = \exp x$ (prop. 14). Soit E le sous-espace vectoriel de
 
-L(\mathcal{L}(L(G))) formé des $u \in \mathcal{L}(L(G))$ tels que $u(L(A)) \subset L(A)$. On a Ad $g^n \in E$, donc $\exp(\mathrm{ad}\ nx) \in E$, pour tout $n \in \mathbf{Z}$. Donc $\exp(\mathrm{ad}\ \lambda x) \in E$ pour tout $\lambda \in K$, c’est-à-dire $\exp(\lambda x) \in N_G(A)$ pour tout $\lambda \in K$.
+L(\mathscr{L}(L(G))) formé des $u \in \mathscr{L}(L(G))$ tels que $u(L(A)) \subset L(A)$. On a Ad $g^n \in E$, donc $\exp(\mathrm{ad}\ nx) \in E$, pour tout $n \in \mathbf{Z}$. Donc $\exp(\mathrm{ad}\ \lambda x) \in E$ pour tout $\lambda \in K$, c’est-à-dire $\exp(\lambda x) \in N_G(A)$ pour tout $\lambda \in K$.
 
 #### Proposition 17 {#lie-iii-s9-prop-17 .statement}
 
@@ -393,7 +393,7 @@ $$
 \operatorname{Tr}(a(b - 1)) = \operatorname{Tr}(ab - 1) - \operatorname{Tr}(a - 1) = 0 - 0 = 0
 $$
 
-car $ab - 1$ et $a - 1$ sont nilpotents. Comme le sous-espace vectoriel de $\mathcal{L}(V)$ engendré par G est $\mathcal{L}(V)$ (A, VIII, § 4, cor. 1 de la prop. 2), on a $\operatorname{Tr}(u(b - 1)) = 0$ pour tout $u \in \mathcal{L}(V)$, donc $b = 1$. Ainsi, $G = \{1\}$.
+car $ab - 1$ et $a - 1$ sont nilpotents. Comme le sous-espace vectoriel de $\mathscr{L}(V)$ engendré par G est $\mathscr{L}(V)$ (A, VIII, § 4, cor. 1 de la prop. 2), on a $\operatorname{Tr}(u(b - 1)) = 0$ pour tout $u \in \mathscr{L}(V)$, donc $b = 1$. Ainsi, $G = \{1\}$.
 
 b) Passons au cas général. Soient $\overline{k}$ une clôture algébrique de k, $\overline{V} = V \otimes_k \overline{k}$, et $\overline{G} \subset \mathbf{GL}(\overline{V})$ l’ensemble des $a \otimes 1$ pour $a \in G$. Soit W (resp. W’) l’ensemble des éléments de V (resp. $\overline{V}$) invariants par G (resp. $\overline{G}$). On a $W' = W \otimes_k \overline{k}$ car $W = \bigcap_{g \in G} \operatorname{Ker}(g - 1)$ et $W' = \bigcap_{g \in G} \operatorname{Ker}(g - 1) \otimes 1$. Si $V_1$ désigne un élément minimal dans l’ensemble des sous-espaces vectoriels non nuls de $\overline{V}$ stables par $\overline{G}$, on a $V_1 \subset W'$ d’après la partie a) de la démonstration; donc $W \neq \{0\}$, ce qui prouve (i).
 
@@ -563,7 +563,7 @@ Soient $G$ un groupe (resp. un groupe topologique), $G'$ un sous-groupe distingu
 Supposons $\rho$ semi-simple, et prouvons que $\rho'$ est semi-simple. Il suffit d’envisager le cas où $\rho$ est simple. Soit $V'$ un sous-$G'$-module non nul minimal de $V$. Pour tout $g \in G$, on a $\rho(G')\rho(g)V' = \rho(g)\rho(G')V' = \rho(g)V'$, autrement dit $\rho(g)V'$ est stable par $\rho(G')$; si $V''$ est un sous-$G'$-module de $\rho(g)V'$, alors $\rho(g)^{-1}V''$ est un sous-$G'$-module de $V'$, donc $V''$ est égal à $\{0\}$ ou à $\rho(g)V'$. Ainsi, pour tout $g \in G$, $\rho(g)V'$ est un $G'$-module simple. Or $\sum_{g \in G} \rho(g)V'$ est un sous-$G$-module non nul de $V$, d’où $V = \sum_{g \in G} \rho(g)V'$. Donc $\rho'$ est semi-simple.
 Supposons $\rho'$ semi-simple. Soit $W$ un sous-$G$-module non nul de $V$. Comme $\rho'$ est semi-simple, il existe un projecteur $f_0$ de $V$ sur $W$ commutant à $\rho(G')$. Soit
 
-E l’ensemble des $f \in \mathcal{L}(V, V)$ qui commutent à $\rho(G')$, qui appliquent V dans W, et dont la restriction à W est une homothétie; pour $f \in E$, notons $\alpha(f)$ le rapport de l’homothétie $f|W$. On a $f_0 \in E$ et $\alpha(f_0) = 1$. Il est clair que $\alpha$ est une forme linéaire sur E. Soit F = Ker $\alpha$, qui est un hyperplan de E. Pour $f \in E$ et $g \in G$, posons $\sigma(g)f = \rho(g) \circ f \circ \rho(g)^{-1}$; alors $\sigma(g)f$ applique V dans W et sa restriction à W cst l’homothétie de rapport $\alpha(f)$; si $g' \in G'$, on a
+E l’ensemble des $f \in \mathscr{L}(V, V)$ qui commutent à $\rho(G')$, qui appliquent V dans W, et dont la restriction à W est une homothétie; pour $f \in E$, notons $\alpha(f)$ le rapport de l’homothétie $f|W$. On a $f_0 \in E$ et $\alpha(f_0) = 1$. Il est clair que $\alpha$ est une forme linéaire sur E. Soit F = Ker $\alpha$, qui est un hyperplan de E. Pour $f \in E$ et $g \in G$, posons $\sigma(g)f = \rho(g) \circ f \circ \rho(g)^{-1}$; alors $\sigma(g)f$ applique V dans W et sa restriction à W cst l’homothétie de rapport $\alpha(f)$; si $g' \in G'$, on a
 
 $$
 \begin{align*}

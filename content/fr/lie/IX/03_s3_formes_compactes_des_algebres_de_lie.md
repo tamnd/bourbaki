@@ -37,7 +37,7 @@ subsections:
       pdf_page: 25
 statements: 16
 exercises: 9
-content_sha256: d47a814f8422000b783181c3964404719c0da4619c171766e467563df3843370
+content_sha256: f156906ab45f523a2763c0321207bb28876a97d37c8b94130bebac4e4b693e6e
 ---
 
 ## § 3. FORMES COMPACTES DES ALGÈBRES DE LIE SEMI-SIMPLES COMPLEXES
@@ -304,7 +304,7 @@ Enfin, pour $t = \begin{pmatrix} a & 0 \\ 0 & \overline{a} \end{pmatrix} \in T$,
 (19)
 $$(\mathrm{Ad}\ t)\ X_+ = a^2 X_+, \quad (\mathrm{Ad}\ t)\ X_- = a^{-2} X_-, \quad (\mathrm{Ad}\ t)\ H = H,$$
 (20)
-$$(\mathrm{Ad}\ t)\ U = \mathcal{R}(a^2)\ U + \mathcal{I}(a^2)\ V, \quad (\mathrm{Ad}\ t)\ V = -\mathcal{I}(a^2)\ U + \mathcal{R}(a^2)\ V.$$
+$$(\mathrm{Ad}\ t)\ U = \mathscr{R}(a^2)\ U + \mathscr{I}(a^2)\ V, \quad (\mathrm{Ad}\ t)\ V = -\mathscr{I}(a^2)\ U + \mathscr{R}(a^2)\ V.$$
 
 ## EXERCICES {#lie-ix-s3-exercises}
 

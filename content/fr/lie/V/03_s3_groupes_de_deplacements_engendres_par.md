@@ -52,7 +52,7 @@ subsections:
       pdf_page: 86
 statements: 35
 exercises: 8
-content_sha256: 32c5fa5d54403ea1e812a7f9bdde4e4f8cf337e86cc33a4c4cc2b637fe2acbee
+content_sha256: 446d7d75835a54990eb44a32db674611c9492a1acac3ebd9a84f2e4fb1ae7876
 ---
 
 ## § 3. Groupes de déplacements engendrés par des réflexions
@@ -130,7 +130,7 @@ Par hypothèse w(C) est du même côté de H que C, et ws_{H'}(C) est de l’aut
 Ceci étant, les assertions (i) et (ii) résultent de la prop. 6 du chap. IV, § 1, no 7. On a de plus (loc. cit., condition (A))
 
 $$
-\bigcap_{H \in \mathcal{M}} P_H = \{1\}.
+\bigcap_{H \in \mathscr{M}} P_H = \{1\}.
 $$
 
 Le lemme 2 montre que W est transitif sur l’ensemble des chambres. De plus, si w ∈ W est tel que w(C) = C, on a w ∈ P_H pour tout mur H de C, d’où w = 1 par (3). Ceci établit (iii).
@@ -247,7 +247,7 @@ Supposons maintenant que H_i et H_j ne soient pas parallèles. Choisissons une o
 
 $$ 0 < (\overline{D, \Delta}) < (\overline{D, D'}) . $$
 
-Soit W’ le sous-groupe de W engendré par s_i et s_j. Pour tout w \in W’, les hyperplans w(H_i) et w(H_j) appartiennent à \mathcal{S}, contiennent H_i \cap H_j et ne rencontrent pas C. Il en résulte qu’ils ne rencontrent pas \Gamma (§ 1, no 5, prop. 10). Le cor. de la prop. 7 du § 2, no 5 entraîne alors (ii).
+Soit W’ le sous-groupe de W engendré par s_i et s_j. Pour tout w \in W’, les hyperplans w(H_i) et w(H_j) appartiennent à \mathscr{S}, contiennent H_i \cap H_j et ne rencontrent pas C. Il en résulte qu’ils ne rencontrent pas \Gamma (§ 1, no 5, prop. 10). Le cor. de la prop. 7 du § 2, no 5 entraîne alors (ii).
 
 Enfin, l’assertion (iii) résulte immédiatement de (i) et (ii), puisque m_{ij} \geq 2 pour i \neq j.
 
@@ -499,14 +499,14 @@ par suite aucun des ensembles $C_p$ n’est vide, et comme $C$ ne rencontre aucu
 
 ### 9. Structure des chambres
 
-Soient $C$ une chambre, $\mathcal{M}$ l’ensemble des murs de $C$ et pour $H \in \mathcal{M}$, soit $e_H$ le vecteur unitaire orthogonal à $H$ situé du même côté que $C$ de l’hyperplan $H$.
+Soient $C$ une chambre, $\mathscr{M}$ l’ensemble des murs de $C$ et pour $H \in \mathscr{M}$, soit $e_H$ le vecteur unitaire orthogonal à $H$ situé du même côté que $C$ de l’hyperplan $H$.
 
 #### Proposition 7 {#lie-v-s3-prop-7 .statement}
 
 Supposons que le groupe $W$ soit essentiel et fini. Alors :
 (i) Il existe un unique point $a$ de $E$ invariant par $W$.
-(ii) La famille $(e_H)_{H \in \mathcal{M}}$ est une base de $T$.
-(iii) La chambre $C$ est le cône simplicial ouvert de sommet $a$ défini par la base $(e'_H)_{H \in \mathcal{M}}$ de $T$ telle que $(e_H|e'_{H'}) = \delta_{HH'}$.
+(ii) La famille $(e_H)_{H \in \mathscr{M}}$ est une base de $T$.
+(iii) La chambre $C$ est le cône simplicial ouvert de sommet $a$ défini par la base $(e'_H)_{H \in \mathscr{M}}$ de $T$ telle que $(e_H|e'_{H'}) = \delta_{HH'}$.
 
 (i) D’après la prop. 4 du no 6, il existe un point $a \in E$ invariant par $W$. Soit $t \in T$ tel que $t + a$ soit invariant par $W$. Pour tout $w \in W$, on a
 $$
@@ -514,9 +514,9 @@ U(w).t + a = w(t + a) = t + a,
 $$
 d’où $U(w).t = t$; comme $W$ est essentiel, cela entraîne $t = 0$, ce qui montre l’unicité de $a$.
 
-(ii) Comme $W$ est essentiel, on a $T = T_1$ avec les notations du no 7, et la prop. 5, (iv) montre que la famille $(e_H)_{H \in \mathcal{M}}$ engendre l’espace vectoriel $T$. L’existence d’un point de $E$ invariant par $W$ montre que la famille $(e_H)_{H \in \mathcal{M}}$ est libre (no 6, prop. 4).
+(ii) Comme $W$ est essentiel, on a $T = T_1$ avec les notations du no 7, et la prop. 5, (iv) montre que la famille $(e_H)_{H \in \mathscr{M}}$ engendre l’espace vectoriel $T$. L’existence d’un point de $E$ invariant par $W$ montre que la famille $(e_H)_{H \in \mathscr{M}}$ est libre (no 6, prop. 4).
 
-(iii) Soit $a$ l’unique point de $E$ invariant par $W$. Comme $(e_H)_{H \in \mathcal{M}}$ est une base de $T$, et que le produit scalaire est une forme bilinéaire non dégénérée sur $T$, il existe une base $(e'_H)_{H \in \mathcal{M}}$ de $T$ et une seule telle que $(e_H|e'_{H'}) = \delta_{HH'}$ pour $H, H'$ dans $\mathcal{M}$. Tout point $x$ de $E$ s’écrit de manière unique sous la forme $x = t + a$ avec $t = \sum_{H \in \mathcal{M}} \xi_H \cdot e'_H$ et les $\xi_H$ réels. Pour que $x$ appartienne à $C$, il faut et il suffit que, pour tout hyperplan $H \in \mathcal{M}$, il soit du même côté de $H$ que $e_H$, c’est-à-dire que $(t|e_H) = \xi_H$ soit strictement positif. D’où (iii).
+(iii) Soit $a$ l’unique point de $E$ invariant par $W$. Comme $(e_H)_{H \in \mathscr{M}}$ est une base de $T$, et que le produit scalaire est une forme bilinéaire non dégénérée sur $T$, il existe une base $(e'_H)_{H \in \mathscr{M}}$ de $T$ et une seule telle que $(e_H|e'_{H'}) = \delta_{HH'}$ pour $H, H'$ dans $\mathscr{M}$. Tout point $x$ de $E$ s’écrit de manière unique sous la forme $x = t + a$ avec $t = \sum_{H \in \mathscr{M}} \xi_H \cdot e'_H$ et les $\xi_H$ réels. Pour que $x$ appartienne à $C$, il faut et il suffit que, pour tout hyperplan $H \in \mathscr{M}$, il soit du même côté de $H$ que $e_H$, c’est-à-dire que $(t|e_H) = \xi_H$ soit strictement positif. D’où (iii).
 
 #### Proposition 8 {#lie-v-s3-prop-8 .statement}
 

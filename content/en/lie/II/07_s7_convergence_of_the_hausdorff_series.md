@@ -25,13 +25,13 @@ subsections:
       pdf_page: 187
 statements: 4
 exercises: 1
-content_sha256: 55c9d2607bd0fb8897fb364274c047736d36f7223a0d09165570ea8513afcf80
+content_sha256: 2f1a5bd87f4411ccbc79d4588d2746155dcaeb847a59bd23a9c9915ac79774b0
 ---
 
 ## § 7. CONVERGENCE OF THE HAUSDORFF SERIES (REAL OR COMPLEX CASE)
 
-In this paragraph we assume that $K$ is one of the fields $\mathbf{R}$ or $\mathbf{C}$ with its usual absolute value. Recall that a normable algebra over $K$ is a (not necessarily associative) algebra over $K$ with a topology $\mathcal{T}$ with the following properties:
-(1) $\mathcal{T}$ can be defined by a norm:
+In this paragraph we assume that $K$ is one of the fields $\mathbf{R}$ or $\mathbf{C}$ with its usual absolute value. Recall that a normable algebra over $K$ is a (not necessarily associative) algebra over $K$ with a topology $\mathscr{T}$ with the following properties:
+(1) $\mathscr{T}$ can be defined by a norm:
 (2) the mapping $(x, y) \mapsto xy$ of $A \times A$ into $A$ is continuous.
 A normed algebra over $K$ is an algebra $A$ over $K$ with a norm such that $\|xy\| \leq \|x\|\ \|y\|$ for all $x, y$ in $A$.
 We denote by $g$ a complete normable Lie algebra over $K$. We choose a norm on $g$ and a number $M > 0$ such that

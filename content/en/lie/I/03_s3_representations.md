@@ -45,7 +45,7 @@ subsections:
       pdf_page: 54
 statements: 24
 exercises: 12
-content_sha256: 7d8bba5f2b515dc174b1c1ea0359bd8646b26cd6ba716e17900d892c6d4d330a
+content_sha256: e9e8544872aca4afd6e935784cea1e8509f6c074913cee91197e92a4cc8b55b8
 ---
 
 ## § 3. REPRESENTATIONS
@@ -179,20 +179,20 @@ Still more particularly, consider $g$ as a $g$-module by means of the adjoint re
 
 ### 3. REPRESENTATIONS ON HOMOMORPHISM MODULES
 
-Again let $g_1$ and $g_2$ be two Lie algebras over $K$ and $M_i$ a $g_i$-module ($i = 1, 2$). Let $U_i$ be the enveloping algebra of $g_i$ and $\sigma_i$ the canonical mapping of $g_i$ into $U_i$. Then $M_i$ is a left $U_i$-module and hence $\mathcal{L}_K(M_1, M_2)$ has a canonical left $(U_1^0 \otimes U_2)$-module structure. Now $U_1^0 \otimes_K U_2$ is the enveloping algebra of $g_1^0 \times g_2$ and the mapping
+Again let $g_1$ and $g_2$ be two Lie algebras over $K$ and $M_i$ a $g_i$-module ($i = 1, 2$). Let $U_i$ be the enveloping algebra of $g_i$ and $\sigma_i$ the canonical mapping of $g_i$ into $U_i$. Then $M_i$ is a left $U_i$-module and hence $\mathscr{L}_K(M_1, M_2)$ has a canonical left $(U_1^0 \otimes U_2)$-module structure. Now $U_1^0 \otimes_K U_2$ is the enveloping algebra of $g_1^0 \times g_2$ and the mapping
 
 $$
 (x_1, x_2) \mapsto \sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2)
 $$
 
-is the canonical mapping of $g_1^0 \times g_2$ into this enveloping algebra. Hence there exists a $(g_1^0 \times g_2)$-module structure on $M = \mathcal{L}_K(M_1, M_2)$ such that
+is the canonical mapping of $g_1^0 \times g_2$ into this enveloping algebra. Hence there exists a $(g_1^0 \times g_2)$-module structure on $M = \mathscr{L}_K(M_1, M_2)$ such that
 
 $$
 ((x_1, x_2)_M \cdot u) \cdot m_1 = ((\sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2)) \cdot u) \cdot m_1 \\
 = u((x_1)_{M_1} \cdot m_1) + (x_2)_{M_2} \cdot u(m_1)
 $$
 
-for all $u \in \mathcal{L}_K(M_1, M_2), m_1 \in M_1$. This structure defines a representation of $g_1^0 \times g_2$ on $M$.
+for all $u \in \mathscr{L}_K(M_1, M_2), m_1 \in M_1$. This structure defines a representation of $g_1^0 \times g_2$ on $M$.
 
 If now $g_1 = g_2 = g$, the homomorphism $x \mapsto (-x, x)$ of $g$ into $g^0 \times g$, composed with the above representation, defines a representation of $g$ on $M$ and hence a $g$-module structure on $M$ such that
 
@@ -210,7 +210,7 @@ Combining these results with Proposition 2, we see that:
 
 #### Proposition 3 {#lie-i-s3-prop-3 .statement}
 
-*Let $g$ be a Lie algebra over $K$ and $M_i$ a $g$-module ($1 \leq i \leq n + 1$). Let $N$ be the $K$-module $\mathcal{L}_K(M_1, \ldots, M_n; M_{n+1})$ of multilinear mappings of $\prod_{i=1}^n M_i$ into $M_{n+1}$. There exists one and only one $g$-module structure on $N$ such that*
+*Let $g$ be a Lie algebra over $K$ and $M_i$ a $g$-module ($1 \leq i \leq n + 1$). Let $N$ be the $K$-module $\mathscr{L}_K(M_1, \ldots, M_n; M_{n+1})$ of multilinear mappings of $\prod_{i=1}^n M_i$ into $M_{n+1}$. There exists one and only one $g$-module structure on $N$ such that*
 
 $$
 (x_N \cdot u)(m_1, \ldots, m_n) = - \sum_{i=1}^n u(m_1, \ldots, x_{M_i} \cdot m_i, \ldots, m_n)
@@ -221,7 +221,7 @@ $$
 
 *for all* $x \in g, u \in N$ *and* $m_i \in M_i$ ($1 \leq i \leq n$).
 
-In particular, let $g$ be a Lie algebra over $K$ and $M$ a $g$-module and consider $K$ as a trivial $g$-module. Proposition 3 defines a $g$-module structure on $\mathcal{L}_K(M, K) = M^*$. The corresponding representation is called the *dual* representation of the representation $x \mapsto x_M$. We have:
+In particular, let $g$ be a Lie algebra over $K$ and $M$ a $g$-module and consider $K$ as a trivial $g$-module. Proposition 3 defines a $g$-module structure on $\mathscr{L}_K(M, K) = M^*$. The corresponding representation is called the *dual* representation of the representation $x \mapsto x_M$. We have:
 
 $$
 (x_{M^*} \cdot f)(m) = -f(x_M \cdot m)
@@ -240,7 +240,7 @@ When $K$ is a field and $M$ is finite-dimensional, the $g$-module $M$ is simple 
 *Let $M_1, M_2$ be two $g$-modules. The canonical $K$-linear mappings* (Algebra, Chapter II, § 4, no. 2, Proposition 2 and no. 1, Proposition 1):
 
 $$
-M_1^* \otimes_K M_2 \xrightarrow{\phi} \mathcal{L}_K(M_1, M_2), \quad \mathcal{L}_K(M_1, M_2^*) \xrightarrow{\psi} (M_1 \otimes_K M_2)^*
+M_1^* \otimes_K M_2 \xrightarrow{\phi} \mathscr{L}_K(M_1, M_2), \quad \mathscr{L}_K(M_1, M_2^*) \xrightarrow{\psi} (M_1 \otimes_K M_2)^*
 $$
 
 *(where the second is bijective)* are $g$-module homomorphisms.
@@ -248,7 +248,7 @@ $$
 We write
 
 $$
-N = M_1^* \otimes M_2, \quad P = \mathcal{L}(M_1, M_2), \quad Q = \mathcal{L}(M_1, M_2^*), \quad R = (M_1 \otimes M_2)^*.
+N = M_1^* \otimes M_2, \quad P = \mathscr{L}(M_1, M_2), \quad Q = \mathscr{L}(M_1, M_2^*), \quad R = (M_1 \otimes M_2)^*.
 $$
 
 Then, for $x \in g, f \in M_1^*, m_1 \in M_1, m_2 \in M_2$,
@@ -263,7 +263,7 @@ $$
 = \langle f, m_1 \rangle x_{M_2} m_2 - \langle f, x_{M_1} m_1 \rangle m_2
 $$
 
-and hence $\phi x_N = x_P \phi$. On the other hand, for $x \in g, u \in \mathcal{L}(M_1, M_2^*), m_1 \in M_1, m_2 \in M_2$:
+and hence $\phi x_N = x_P \phi$. On the other hand, for $x \in g, u \in \mathscr{L}(M_1, M_2^*), m_1 \in M_1, m_2 \in M_2$:
 
 $$
 (\psi x_Q u)(m_1 \otimes m_2) = \langle (x_Q u) \cdot m_1, m_2 \rangle = \langle x_{M_2^*} u m_1 - u x_{M_1} m_1, m_2 \rangle \\
@@ -273,13 +273,13 @@ $$
 
 and hence $\psi x_Q = x_R \psi$, which completes the proof.
 
-The $g$-modules $\mathcal{L}(M_1, M_2^*)$ and $(M_1 \otimes M_2)^*$ are identified under the isomorphism $\psi$. If $M_1$ and $M_2$ have finite bases, $\phi$ is an isomorphism (Algebra, Chapter II, § 4, no. 2, Proposition 2), which allows us to identify the $g$-modules $M_1^* \otimes M_2$ and $\mathcal{L}(M_1, M_2)$; in that case, we can therefore identify the $g$-modules $M_1^* \otimes M_2^*, \mathcal{L}(M_1, M_2^*)$ and $(M_1 \otimes M_2)^*$.
+The $g$-modules $\mathscr{L}(M_1, M_2^*)$ and $(M_1 \otimes M_2)^*$ are identified under the isomorphism $\psi$. If $M_1$ and $M_2$ have finite bases, $\phi$ is an isomorphism (Algebra, Chapter II, § 4, no. 2, Proposition 2), which allows us to identify the $g$-modules $M_1^* \otimes M_2$ and $\mathscr{L}(M_1, M_2)$; in that case, we can therefore identify the $g$-modules $M_1^* \otimes M_2^*, \mathscr{L}(M_1, M_2^*)$ and $(M_1 \otimes M_2)^*$.
 
 ### 4. EXAMPLES
 
 #### Example 1 {#lie-i-s3-n4-exa-1 .statement}
 
-Let $g$ be a Lie algebra over $K$ and $M$ a $g$-module. The $g$-module structure on $M$ and the trivial $g$-module structure on $K$ define a $g$-module structure on the $K$-module $N = \mathcal{L}(M, M; K)$ of bilinear forms on $M$. Then
+Let $g$ be a Lie algebra over $K$ and $M$ a $g$-module. The $g$-module structure on $M$ and the trivial $g$-module structure on $K$ define a $g$-module structure on the $K$-module $N = \mathscr{L}(M, M; K)$ of bilinear forms on $M$. Then
 
 $$
 (x_N \cdot \beta)(m, m') = -\beta(x_M \cdot m, m') + \beta(m, x_M \cdot m')
@@ -343,7 +343,7 @@ $$
 
 We preserve the notation of *Example 1*.
 
-The $g$-module structure on $M$ defines on the $K$-module $P = \mathcal{L}_K(M, M)$ of endomorphisms of $M$ a $g$-module structure. By (6), for all $x \in g$ and $u \in P$:
+The $g$-module structure on $M$ defines on the $K$-module $P = \mathscr{L}_K(M, M)$ of endomorphisms of $M$ a $g$-module structure. By (6), for all $x \in g$ and $u \in P$:
 $$(11)$$
 $$
 x_P \cdot u = [x_M, u] = (\mathrm{ad}\, x_M) \cdot u
@@ -353,7 +353,7 @@ $$(12)$$
 $$
 x_P = \mathrm{ad}\, x_M
 $$
-in $\mathcal{L}(\mathcal{L}(M, M)) = \mathcal{L}(\mathrm{gl}(M))$.
+in $\mathscr{L}(\mathscr{L}(M, M)) = \mathscr{L}(\mathrm{gl}(M))$.
 
 ### 5. INVARIANT ELEMENTS
 
@@ -365,15 +365,15 @@ in $\mathcal{L}(\mathcal{L}(M, M)) = \mathcal{L}(\mathrm{gl}(M))$.
 
 #### Example 1 {#lie-i-s3-n5-exa-1 .statement}
 
-Let $M, N$ be two $g$-modules and $P = \mathcal{L}_K(M, N)$. For an element $f$ of $P$ to be invariant, it is necessary and sufficient, by (6), that $f$ be a homomorphism of the $g$-module $M$ into the $g$-module $N$. In particular, if $M = N$ and $x_M = x_N$ for all $x \in g$, $f$ is invariant if and only if $f$ is permutable with the $x_M$.
+Let $M, N$ be two $g$-modules and $P = \mathscr{L}_K(M, N)$. For an element $f$ of $P$ to be invariant, it is necessary and sufficient, by (6), that $f$ be a homomorphism of the $g$-module $M$ into the $g$-module $N$. In particular, if $M = N$ and $x_M = x_N$ for all $x \in g$, $f$ is invariant if and only if $f$ is permutable with the $x_M$.
 
 #### Example 2 {#lie-i-s3-n5-exa-2 .statement}
 
-Let M be a K-module with a finite basis. If M has a g-module structure, $\mathcal{L}(M, M)$ and $M^* \otimes M$ have g-module structures and the canonical mapping of $M^* \otimes M$ into $\mathcal{L}(M, M)$ is a g-module isomorphism (Proposition 4). As $1 \in \mathcal{L}(M, M)$ is obviously an invariant (cf. Example 1), the corresponding element $u$ of $M^* \otimes M$ is an invariant. If $(e_i)_{1 \leq i \leq n}$ is a basis of M and $(e_i^*)_{1 \leq i \leq n}$ is the dual basis, we have $u = \sum_{i=1}^n e_i^* \otimes e_i$.
+Let M be a K-module with a finite basis. If M has a g-module structure, $\mathscr{L}(M, M)$ and $M^* \otimes M$ have g-module structures and the canonical mapping of $M^* \otimes M$ into $\mathscr{L}(M, M)$ is a g-module isomorphism (Proposition 4). As $1 \in \mathscr{L}(M, M)$ is obviously an invariant (cf. Example 1), the corresponding element $u$ of $M^* \otimes M$ is an invariant. If $(e_i)_{1 \leq i \leq n}$ is a basis of M and $(e_i^*)_{1 \leq i \leq n}$ is the dual basis, we have $u = \sum_{i=1}^n e_i^* \otimes e_i$.
 
 #### Example 3 {#lie-i-s3-n5-exa-3 .statement}
 
-Let M be a g-module. Let $\beta$ be a bilinear form on M and f the corresponding element of $\mathcal{L}(M, M^*)$. For $\beta$ to be invariant, it is necessary and sufficient that f be a g-module homomorphism (Proposition 4 and Example 1). Suppose that K is a field and that $\dim_K M < +\infty$. A non-degenerate invariant bilinear form $\beta$ on M defines an isomorphism of the g-module M onto the g-module $M^*$ and hence an isomorphism of the g-module $M \otimes M$ onto the g-module $M^* \otimes M$. Thus, by Example 2, giving $\beta$ defines canonically an invariant element c in the g-module $M \otimes M$, which can be constructed as follows: let $(e_i)_{1 \leq i \leq n}$ be a basis of M and $(e'_i)_{1 \leq i \leq n}$ the basis of M such that $\beta(e_i, e'_j) = \delta_{ij}$; then $c = \sum_{i=1}^n e_i \otimes e'_i$.
+Let M be a g-module. Let $\beta$ be a bilinear form on M and f the corresponding element of $\mathscr{L}(M, M^*)$. For $\beta$ to be invariant, it is necessary and sufficient that f be a g-module homomorphism (Proposition 4 and Example 1). Suppose that K is a field and that $\dim_K M < +\infty$. A non-degenerate invariant bilinear form $\beta$ on M defines an isomorphism of the g-module M onto the g-module $M^*$ and hence an isomorphism of the g-module $M \otimes M$ onto the g-module $M^* \otimes M$. Thus, by Example 2, giving $\beta$ defines canonically an invariant element c in the g-module $M \otimes M$, which can be constructed as follows: let $(e_i)_{1 \leq i \leq n}$ be a basis of M and $(e'_i)_{1 \leq i \leq n}$ the basis of M such that $\beta(e_i, e'_j) = \delta_{ij}$; then $c = \sum_{i=1}^n e_i \otimes e'_i$.
 
 #### Proposition 5 {#lie-i-s3-prop-5 .statement}
 
@@ -399,7 +399,7 @@ for all $x \in g$, hence $m \in M_0$ and hence $m = 0$. Hence $M_2 = \{0\}$, whi
 
 Let g be a Lie algebra over K. The adjoint representation of g on g and the zero representation of g on K define a g-module structure on the K-module
 
-$N = \mathcal{L}(g, g; K)$ of bilinear forms on $g$. Briefly we say that a bilinear form $\beta$ on $g$ is *invariant* if it is invariant under the representation $x \mapsto x_N$. By formula (10) the necessary and sufficient condition for this to be so is that:
+$N = \mathscr{L}(g, g; K)$ of bilinear forms on $g$. Briefly we say that a bilinear form $\beta$ on $g$ is *invariant* if it is invariant under the representation $x \mapsto x_N$. By formula (10) the necessary and sufficient condition for this to be so is that:
 
 $$
 \beta([x, y], z) = \beta(x, [y, z])
@@ -479,13 +479,13 @@ $$
 \operatorname{Tr}(c_M) = \sum_{i=1}^n \operatorname{Tr}((e_i)_M(e'_i)_M) = \sum_{i=1}^n \beta(e_i, e'_i) = n.
 $$
 
-Hence, if n is not divisible by the characteristic of K, $c_M \neq 0$. On the other hand, as c belongs to the centre of U, $c_M$ is permutable with all the $x_M, x \in g$. If further M is simple, $c_M$ is therefore invertible in $\mathcal{L}(M)$ (*Algebra*, Chapter VIII, § 4, no. 3, Proposition 2).
+Hence, if n is not divisible by the characteristic of K, $c_M \neq 0$. On the other hand, as c belongs to the centre of U, $c_M$ is permutable with all the $x_M, x \in g$. If further M is simple, $c_M$ is therefore invertible in $\mathscr{L}(M)$ (*Algebra*, Chapter VIII, § 4, no. 3, Proposition 2).
 
 ### 8. EXTENSION OF THE BASE RING
 
 Let $K_1$ be a commutative ring with unit element and $\phi$ a homomorphism of K into $K_1$ mapping 1 to 1. Let g be a Lie K-algebra, U its enveloping algebra and M a left g-module, that is a left U-module. Then $M_{(K_1)}$ has a canonical left $U_{(K_1)}$-module structure and hence a left $g_{(K_1)}$-module structure. Let $\rho$ and $\rho_{(K_1)}$ be the representations of g and $g_{(K_1)}$ corresponding to M and $M_{(K_1)}$: $\rho_{(K_1)}$ is said to be derived from $\rho$ by *extending the base ring* and the results of *Algebra*, Chapter VIII, § 13, no. 4 can be applied. If $x \in g$, $\rho_{(K_1)}(x)$ is just the endomorphism $\rho(x) \otimes 1$ of $M_{(K_1)} = M \otimes_K K_1$.
 
-Suppose that K is a field, that $K_1$ is an extension of K and that $\phi$ is the canonical injection of K into $K_1$. Let V and V' be vector subspaces of M. Let a be the vector subspace of g consisting of the $x \in g$ such that $\rho(x)(V) \subset V'$. Let $a'$ be the vector subspace of $g_{(K_1)}$ consisting of the $x' \in g_{(K_1)}$ such that $\rho_{(K_1)}(x')(V_{(K_1)}) \subset V'_{(K_1)}$. Then $a' = a_{(K_1)}$. For clearly $a_{(K_1)} \subset a'$. Now let $x' \in a'$. We may write $x' = \sum_{i=1}^n \lambda_i x_i$, where the $x_i$ are in g and the $\lambda_i$ are elements of $K_1$ linearly independent over K. For all $u \in V$, $\rho(x') \cdot u \in V'_{(K_1)}$, that is $\sum_{i=1}^n \lambda_i \rho(x_i) \cdot u \in V'_{(K_1)}$, whence $\rho(x_i) \cdot u \in V'$, hence $x_i \in a$ and $x' \in a_{(K_1)}$. This shows that $a' = a_{(K_1)}$. In particular, the *centre* of $g_{(K_1)}$ is derived from the centre of g by extending K to $K_1$: it suffices to apply the above to the adjoint representation of g. It follows that $\mathcal{C}_p(g_{(K_1)}) = (\mathcal{C}_p g)_{(K_1)}$ for all $p$. Similarly, let h be a subalgebra of g and n the *normalizer* of h in g. Then the normalizer of $h_{(K_1)}$ in $g_{(K_1)}$ is $n_{(K_1)}$.
+Suppose that K is a field, that $K_1$ is an extension of K and that $\phi$ is the canonical injection of K into $K_1$. Let V and V' be vector subspaces of M. Let a be the vector subspace of g consisting of the $x \in g$ such that $\rho(x)(V) \subset V'$. Let $a'$ be the vector subspace of $g_{(K_1)}$ consisting of the $x' \in g_{(K_1)}$ such that $\rho_{(K_1)}(x')(V_{(K_1)}) \subset V'_{(K_1)}$. Then $a' = a_{(K_1)}$. For clearly $a_{(K_1)} \subset a'$. Now let $x' \in a'$. We may write $x' = \sum_{i=1}^n \lambda_i x_i$, where the $x_i$ are in g and the $\lambda_i$ are elements of $K_1$ linearly independent over K. For all $u \in V$, $\rho(x') \cdot u \in V'_{(K_1)}$, that is $\sum_{i=1}^n \lambda_i \rho(x_i) \cdot u \in V'_{(K_1)}$, whence $\rho(x_i) \cdot u \in V'$, hence $x_i \in a$ and $x' \in a_{(K_1)}$. This shows that $a' = a_{(K_1)}$. In particular, the *centre* of $g_{(K_1)}$ is derived from the centre of g by extending K to $K_1$: it suffices to apply the above to the adjoint representation of g. It follows that $\mathscr{C}_p(g_{(K_1)}) = (\mathscr{C}_p g)_{(K_1)}$ for all $p$. Similarly, let h be a subalgebra of g and n the *normalizer* of h in g. Then the normalizer of $h_{(K_1)}$ in $g_{(K_1)}$ is $n_{(K_1)}$.
 
 Let K, $K_1$, g, $\rho$, M be as in the last paragraph. Let b be a vector subspace of g and W a vector subspace of M. Let V be the vector subspace of M consisting of the $m \in M$ such that $\rho(b) \cdot m \subset W$. Let V' be the vector subspace of $M_{(K_1)}$ consisting of the $m' \in M_{(K_1)}$ such that $\rho_{(K_1)}(b_{(K_1)}) \cdot m' \subset W_{(K_1)}$. As above it is seen that $V' = V_{(K_1)}$. In particular, the vector subspace of *invariants* of $M_{(K_1)}$ is derived from the vector subspace of invariants of $M$ by extending the base field from $K$ to $K_1$.
 
@@ -499,9 +499,9 @@ The proof is in two steps.
 
 (1) Suppose first that $K_1$ is an extension of $K$ of *finite degree* $n$. Let $U$ be the enveloping algebra of $g$, so that the enveloping algebra of $g_{(K_1)}$ is $U_{(K_1)} = U \otimes_K K_1$ (§ 2, no. 9). As $M_{(K_1)}$ and $N_{(K_1)}$ are isomorphic as $U_{(K_1)}$-modules they are *a fortiori* isomorphic as $U$-modules; but as $U$-modules they are respectively isomorphic to $M^n$ and $N^n$. Now $M$ and $N$ are $U$-modules of finite length; $M$ (resp. $N$) is therefore the direct sum of a family $(P_i^{r_i})_{1 \leq i \leq p}$ (resp. $(Q_j^{s_j})_{1 \leq j \leq q}$) of submodules such that the $P_i$ (resp. $Q_j$) are indecomposable and two $P_i$ (resp. $Q_j$) of different indices are not isomorphic (*Algebra*, Chapter VIII, § 2, no. 2, Theorem 1). Then $M^n$ (resp. $N^n$) is isomorphic to the direct sum of the $P_i^{n r_i}$ (resp. $Q_j^{n s_j}$); it follows (*loc. cit.*) that $p = q$ and that after permuting the $Q_j$ if necessary $n r_i = n s_i$ and $P_i$ is isomorphic to $Q_i$ for $1 \leq i \leq p$, hence $M$ is isomorphic to $N$.
 
-(2) *General case.* Let $P$ be the $g$-module $\mathcal{L}_K(M, N)$ and $Q$ the subspace of invariants of $P$, that is the set of homomorphisms of the $g$-module $M$ into the $g$-module $N$. In the $g_{(K_1)}$-module $\mathcal{L}_{K_1}(M_{(K_1)}, N_{(K_1)}) = (\mathcal{L}_K(M, N))_{(K_1)}$, the subspace of invariants is $Q_{(K_1)}$. The hypothesis that $M_{(K_1)}$ and $N_{(K_1)}$ are isomorphic implies that $M$ and $N$ have the same dimension over $K$ and that there exists in $Q_{(K_1)}$ an element $g$ which is an isomorphism of $M_{(K_1)}$ onto $N_{(K_1)}$. Let $(f_1, \ldots, f_d)$ be a basis of $Q$ over $K$ and choose bases of $M$ and $N$ over $K$. If $\lambda_k \in K_1$ for $1 \leq k \leq d$, the matrix of $f = \sum_{k=1}^d \lambda_k f_k$ with respect to these bases has determinant which is a polynomial $D(\lambda_1, \ldots, \lambda_d)$ with coefficients *in* $K$. When $f = g$, this determinant is non-zero and hence the coefficients of $D$ are not all non-zero. Therefore, if $\Omega$ is the algebraic closure of $K$, there exists (since $\Omega$ is infinite) elements $\mu_k \in \Omega$ $(1 \leq k \leq d)$ such that $D(\mu_1, \ldots, \mu_d) \neq 0$ (*Algebra*, Chapter IV, § 2, no. 5, Proposition 8). If $K_2$ is the algebraic extension of $K$ generated by the $\mu_k$ $(1 \leq k \leq d)$, it follows that $\sum_{k=1}^d \mu_k f_k$ is an isomorphism of $M_{(K_2)}$ onto $N_{(K_2)}$; but $K_2$ is of finite degree over $K$ (*Algebra*, Chapter V, § 3, no. 2, Proposition 5) and hence $M$ and $N$ are isomorphic by the first part of the argument.
+(2) *General case.* Let $P$ be the $g$-module $\mathscr{L}_K(M, N)$ and $Q$ the subspace of invariants of $P$, that is the set of homomorphisms of the $g$-module $M$ into the $g$-module $N$. In the $g_{(K_1)}$-module $\mathscr{L}_{K_1}(M_{(K_1)}, N_{(K_1)}) = (\mathscr{L}_K(M, N))_{(K_1)}$, the subspace of invariants is $Q_{(K_1)}$. The hypothesis that $M_{(K_1)}$ and $N_{(K_1)}$ are isomorphic implies that $M$ and $N$ have the same dimension over $K$ and that there exists in $Q_{(K_1)}$ an element $g$ which is an isomorphism of $M_{(K_1)}$ onto $N_{(K_1)}$. Let $(f_1, \ldots, f_d)$ be a basis of $Q$ over $K$ and choose bases of $M$ and $N$ over $K$. If $\lambda_k \in K_1$ for $1 \leq k \leq d$, the matrix of $f = \sum_{k=1}^d \lambda_k f_k$ with respect to these bases has determinant which is a polynomial $D(\lambda_1, \ldots, \lambda_d)$ with coefficients *in* $K$. When $f = g$, this determinant is non-zero and hence the coefficients of $D$ are not all non-zero. Therefore, if $\Omega$ is the algebraic closure of $K$, there exists (since $\Omega$ is infinite) elements $\mu_k \in \Omega$ $(1 \leq k \leq d)$ such that $D(\mu_1, \ldots, \mu_d) \neq 0$ (*Algebra*, Chapter IV, § 2, no. 5, Proposition 8). If $K_2$ is the algebraic extension of $K$ generated by the $\mu_k$ $(1 \leq k \leq d)$, it follows that $\sum_{k=1}^d \mu_k f_k$ is an isomorphism of $M_{(K_2)}$ onto $N_{(K_2)}$; but $K_2$ is of finite degree over $K$ (*Algebra*, Chapter V, § 3, no. 2, Proposition 5) and hence $M$ and $N$ are isomorphic by the first part of the argument.
 
-Again let $K, K_1$ and $\phi$ be as the beginning of this no. Let $\rho$ be a representation of $g$ on a $K$-module $M$ with a finite basis $(x_1, \ldots, x_n)$. Then the bilinear form on $g_{(K_1)}$ associated with $\rho_{(K_1)}$ is derived from the bilinear form associated with $\rho$ by extending the base ring to $K_1$ (for, if $u \in \mathcal{L}_K(M)$, $u$ has the same matrix with respect to $(x_1, \ldots, x_n)$ as $u \otimes 1$ with respect to $(x_1 \otimes 1, \ldots, x_n \otimes 1)$ and hence $u$ and $u \otimes 1$ have the same trace). In particular, if the $K$-module $g$ has a finite basis, the *Killing form* of $g_{(K_1)}$ is derived from that of $g$ by extending the base ring to $K_1$.
+Again let $K, K_1$ and $\phi$ be as the beginning of this no. Let $\rho$ be a representation of $g$ on a $K$-module $M$ with a finite basis $(x_1, \ldots, x_n)$. Then the bilinear form on $g_{(K_1)}$ associated with $\rho_{(K_1)}$ is derived from the bilinear form associated with $\rho$ by extending the base ring to $K_1$ (for, if $u \in \mathscr{L}_K(M)$, $u$ has the same matrix with respect to $(x_1, \ldots, x_n)$ as $u \otimes 1$ with respect to $(x_1 \otimes 1, \ldots, x_n \otimes 1)$ and hence $u$ and $u \otimes 1$ have the same trace). In particular, if the $K$-module $g$ has a finite basis, the *Killing form* of $g_{(K_1)}$ is derived from that of $g$ by extending the base ring to $K_1$.
 
 ### Exercises {#lie-i-s3-exercises}
 

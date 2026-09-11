@@ -32,7 +32,7 @@ subsections:
       pdf_page: 55
 statements: 20
 exercises: 6
-content_sha256: a10be4f9a4b0a7cf6e5d53c645b9e9ee805b034d054ca0c6ac6bef083bbd4e10
+content_sha256: 66845e562459ad0f48d49115ae34f7e029bab3484467418167ff84a89a4f7fb7
 ---
 
 ## § 6. La série de Hausdorff
@@ -338,7 +338,7 @@ la loi du groupe de Hausdorff est donc donnée par la série de Hausdorff.
 
 #### Remarque 3 {#lie-ii-s6-n5-rem-3 .statement}
 
-Soit $g$ une algèbre de Lie munie de la filtration entière $(\mathcal{C}^n g)$ définie par la suite centrale descendante. Supposons qu’il existe un $m \geq 1$ tel que $\mathcal{C}^m g = \{0\}$. Pour la topologie déduite de la filtration $(\mathcal{C}^n g)_{n \geq 1}$, l’algèbre de Lie $g$ est séparée, complète, et même discrète. On a $P(a_1, \ldots, a_r) = 0$ pour $a_1, \ldots, a_r$ dans $g$ et pour tout polynôme de Lie $P$ homogène de degré $\geq m$; en particulier, on a $H_{r,s}(a, b) = 0$ pour $r + s \geq m$, et la série $H(a, b) = \sum_{r,s} H_{r,s}(a, b)$ n’a qu’un nombre fini de termes non nuls. La loi de groupe $(a, b) \mapsto H(a, b)$ sur $g$ est alors une application polynomiale (§ 2, n° 4).
+Soit $g$ une algèbre de Lie munie de la filtration entière $(\mathscr{C}^n g)$ définie par la suite centrale descendante. Supposons qu’il existe un $m \geq 1$ tel que $\mathscr{C}^m g = \{0\}$. Pour la topologie déduite de la filtration $(\mathscr{C}^n g)_{n \geq 1}$, l’algèbre de Lie $g$ est séparée, complète, et même discrète. On a $P(a_1, \ldots, a_r) = 0$ pour $a_1, \ldots, a_r$ dans $g$ et pour tout polynôme de Lie $P$ homogène de degré $\geq m$; en particulier, on a $H_{r,s}(a, b) = 0$ pour $r + s \geq m$, et la série $H(a, b) = \sum_{r,s} H_{r,s}(a, b)$ n’a qu’un nombre fini de termes non nuls. La loi de groupe $(a, b) \mapsto H(a, b)$ sur $g$ est alors une application polynomiale (§ 2, n° 4).
 
 § 5
 LA SÉRIE DE HAUSDORFF

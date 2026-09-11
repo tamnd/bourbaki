@@ -12,9 +12,9 @@ pdf_pages: 0227-0227
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 976cbbdbbcf6dfe500403846ebb087c08e4c96ee84ad8ccd2b489dc4426bca27
+content_sha256: 6fa99bb9c83b77d9f2872d6133c8439bb42941ba862a2c72106961c81bee2f2e
 translated_from: content/en/lie/III/00_frontmatter.md
-source_content_sha256: 66866f259c1739613fbe44144ae0789b56b72f701cf28fdf7b36df39b44f1f51
+source_content_sha256: 11e7b96f4b883e7e24af6f8c31e16ee88b46c38e2cda01d81afbd669dd386355
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-e2ee8d90
 glossary_version: 34
@@ -30,8 +30,8 @@ Trong suốt chương này, K ký hiệu hoặc trường định giá $\mathbf{
 
 Các quy ước về chuẩn, các không gian khả chuẩn và các không gian chuẩn là những quy ước của Các đa tạp khả vi và giải tích, R.
 
-Nhắc lại rằng một đại số khả chuẩn trên K là một đại số A (không nhất thiết kết hợp) trên K, với một tôpô $\mathcal{T}$ có các tính chất sau:
-(1) $\mathcal{T}$ có thể được xác định bởi một chuẩn;
+Nhắc lại rằng một đại số khả chuẩn trên K là một đại số A (không nhất thiết kết hợp) trên K, với một tôpô $\mathscr{T}$ có các tính chất sau:
+(1) $\mathscr{T}$ có thể được xác định bởi một chuẩn;
 (2) ánh xạ $(x, y) \mapsto xy$ từ $A \times A$ vào A là liên tục.
 
 Nhóm các tự đẳng cấu song liên tục của A được ký hiệu là Aut(A). Mọi đại số hữu hạn chiều trên K đều là một đại số khả chuẩn với tôpô chính tắc. Một đại số chuẩn trên K là một đại số A trên K với một chuẩn sao cho $\|xy\| \leq \|x\|\|y\|$ với mọi $x, y$ trong A; đại số A với tôpô được xác định bởi chuẩn này là một đại số khả chuẩn. Nếu A là một đại số khả chuẩn, tồn tại một chuẩn trên A xác định tôpô của nó và làm cho A trở thành một đại số chuẩn.

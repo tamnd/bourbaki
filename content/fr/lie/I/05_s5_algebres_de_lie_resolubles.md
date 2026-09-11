@@ -36,7 +36,7 @@ subsections:
       pdf_page: 68
 statements: 31
 exercises: 17
-content_sha256: 92c59100943c2827b9f36c287d8bb5cf7fb9727029ae0476849c7530ba5db090
+content_sha256: c29153ba3e3e0e09f5b04fb3c9a5e823783c1490f9fc346cf806e3b14c85be92
 ---
 
 ## § 5. Algèbres de Lie résolubles
@@ -49,7 +49,7 @@ On rappelle que K désigne désormais un corps de caractéristique 0 et que tout
 
 #### Définition 1 {#lie-i-s5-def-1 .statement}
 
-Une algèbre de Lie g est dite résoluble si sa k-ième algèbre dérivée $\mathcal{D}^k g$ est nulle pour k assez grand.
+Une algèbre de Lie g est dite résoluble si sa k-ième algèbre dérivée $\mathscr{D}^k g$ est nulle pour k assez grand.
 
 Une algèbre de Lie nilpotente est résoluble.
 
@@ -57,7 +57,7 @@ Une algèbre de Lie nilpotente est résoluble.
 
 Une sous-algèbre, une algèbre quotient d’une algèbre de Lie résoluble sont résolubles. Toute extension d’une algèbre résoluble par une algèbre résoluble est résoluble. Tout produit fini d’algèbres résolubles est résoluble.
 
-Soient g une algèbre de Lie, g' une sous-algèbre, h un idéal de g, $\mathfrak{k} = g/h$, et $\varphi$ l’application canonique de g sur $\mathfrak{k}$. Si g est résoluble, on a $\mathcal{D}^k g = \{0\}$ pour un entier k, donc $\mathcal{D}^k g' \subset \mathcal{D}^k g = \{0\}$, et $\mathcal{D}^k \mathfrak{k} = \varphi(\mathcal{D}^k g) = \{0\}$, donc g' et $\mathfrak{k}$ sont résolubles. Si h et $\mathfrak{k}$ sont résolubles, il existe des entiers s, t tels que $\mathcal{D}^s h = \mathcal{D}^t \mathfrak{k} = \{0\}$; on a alors $\mathcal{D}^t g \subset h$, donc $\mathcal{D}^{s+t} g = \mathcal{D}^s (\mathcal{D}^t g) \subset \mathcal{D}^s h = \{0\}$, et g est résoluble. La dernière assertion résulte de la deuxième par récurrence sur le nombre des facteurs.
+Soient g une algèbre de Lie, g' une sous-algèbre, h un idéal de g, $\mathfrak{k} = g/h$, et $\varphi$ l’application canonique de g sur $\mathfrak{k}$. Si g est résoluble, on a $\mathscr{D}^k g = \{0\}$ pour un entier k, donc $\mathscr{D}^k g' \subset \mathscr{D}^k g = \{0\}$, et $\mathscr{D}^k \mathfrak{k} = \varphi(\mathscr{D}^k g) = \{0\}$, donc g' et $\mathfrak{k}$ sont résolubles. Si h et $\mathfrak{k}$ sont résolubles, il existe des entiers s, t tels que $\mathscr{D}^s h = \mathscr{D}^t \mathfrak{k} = \{0\}$; on a alors $\mathscr{D}^t g \subset h$, donc $\mathscr{D}^{s+t} g = \mathscr{D}^s (\mathscr{D}^t g) \subset \mathscr{D}^s h = \{0\}$, et g est résoluble. La dernière assertion résulte de la deuxième par récurrence sur le nombre des facteurs.
 
 #### Proposition 2 {#lie-i-s5-prop-2 .statement}
 
@@ -77,7 +77,7 @@ Exemples d’algèbres de Lie résolubles.
 
 I. Soient g un espace vectoriel de dimension 2 sur K, $(e_1, e_2)$ une base de g. Il existe une multiplication bilinéaire alternée $(x, y) \mapsto [x, y]$ et une seule sur g telle que $[e_1, e_2] = e_2$. On vérifie facilement que g est ainsi muni d’une structure d’algèbre de Lie résoluble. Maintenant, soit $h$ une algèbre de Lie non commutative de dimension 2 sur K. On va montrer que $h$ est isomorphe à g. Soit $(f_1, f_2)$ une base de h. L’élément $[f_1, f_2]$ n’est pas nul (sinon h serait commutative), donc il engendre un sous-espace $f$ de dimension 1 de h. On a $[h, h] = f$. Soit $(e'_1, e'_2)$ une base de h telle que $e'_2 \in f$. On a $[e'_1, e'_2] = \lambda e'_2$ avec $\lambda \neq 0$. Remplaçant $e'_1$ par $\lambda^{-1} e_1$, on voit qu’on peut supposer $\lambda = 1$, d’où notre assertion.
 
-II. Les formules (5) du § 1 prouvent que $\mathcal{O}t(n, K) = n(n, K)$. Comme $n(n, K)$ est nilpotente donc résoluble, $t(n, K)$ est résoluble. Par suite, $st(n, K)$ est résoluble. En particulier, $st(2, K)$ est isomorphe à l’algèbre de l’exemple I.
+II. Les formules (5) du § 1 prouvent que $\mathscr{O}t(n, K) = n(n, K)$. Comme $n(n, K)$ est nilpotente donc résoluble, $t(n, K)$ est résoluble. Par suite, $st(n, K)$ est résoluble. En particulier, $st(2, K)$ est isomorphe à l’algèbre de l’exemple I.
 
 ### 2. Radical d’une algèbre de Lie
 
@@ -115,31 +115,31 @@ Compte tenu de la prop. 4 c) du § 4, n° 3, $s$ est aussi l’intersection des 
 
 #### Remarque 3 {#lie-i-s5-n3-rem-3 .statement}
 
-Toute forme linéaire $\lambda$ sur $g$ qui est nulle sur $\mathcal{O}g$ est une représentation simple (d’espace $K$) de $g$, d’où $\lambda(s) = \{0\}$. Il en résulte que $s \subset \mathcal{O}g$. Par ailleurs, $s$ est contenu dans le radical $r$ de $g$ d’après la remarque 2. Nous allons démontrer que $s = r \cap \mathcal{O}g$.
+Toute forme linéaire $\lambda$ sur $g$ qui est nulle sur $\mathscr{O}g$ est une représentation simple (d’espace $K$) de $g$, d’où $\lambda(s) = \{0\}$. Il en résulte que $s \subset \mathscr{O}g$. Par ailleurs, $s$ est contenu dans le radical $r$ de $g$ d’après la remarque 2. Nous allons démontrer que $s = r \cap \mathscr{O}g$.
 
 #### Lemme 1 {#lie-i-s5-lem-1 .statement}
 
-Soient $V$ un espace vectoriel de dimension finie sur $K$, $g$ une sous-algèbre de $\mathrm{gl}(V)$ telle que $V$ soit un $g$-module simple, $a$ un idéal commutatif de $g$. On a alors $a \cap \mathcal{O}g = \{0\}$.
+Soient $V$ un espace vectoriel de dimension finie sur $K$, $g$ une sous-algèbre de $\mathrm{gl}(V)$ telle que $V$ soit un $g$-module simple, $a$ un idéal commutatif de $g$. On a alors $a \cap \mathscr{O}g = \{0\}$.
 
-Soit $(V_i)_{0 \leq i \leq r}$ une suite de Jordan-Hölder du $a$-module $V$. Soit $S$ la sous-algèbre de $\mathcal{L}(V)$ engendrée par $1$ et $a$.
+Soit $(V_i)_{0 \leq i \leq r}$ une suite de Jordan-Hölder du $a$-module $V$. Soit $S$ la sous-algèbre de $\mathscr{L}(V)$ engendrée par $1$ et $a$.
 
 Si $b$ est un idéal de $g$ contenu dans $a$ et tel que l’on ait $\mathrm{Tr}\, bs = 0$ pour tout $b \in b$ et tout $s \in S$, on a en particulier, par définition de $S$, $\mathrm{Tr}\,(b^n) = 0$ pour tout entier $n > 0$, donc $b$ est nilpotent
 
 #### Théorème 1 {#lie-i-s5-thm-1 .statement}
 
-Soient g une algèbre de Lie, r son radical, et s son radical nilpotent. On a alors s = $\mathcal{O}g \cap r$.
+Soient g une algèbre de Lie, r son radical, et s son radical nilpotent. On a alors s = $\mathscr{O}g \cap r$.
 
-On sait déjà que s ⊂ $\mathcal{O}g \cap r$. Il suffira donc de montrer que, si ρ est une représentation simple de dimension finie de g, on a $\rho(\mathcal{O}g \cap r) = \{0\}$. Soit k le plus petit entier ≥ 0 tel que $\rho(\mathcal{O}^{k+1}r) = \{0\}$; posons $g' = \rho(g)$, $a' = \rho(\mathcal{O}^k r)$; comme $\mathcal{O}^k r$ est un idéal de g, $a'$ est un idéal de $g'$; cet idéal est commutatif puisque $\rho(\mathcal{O}^{k+1}r) = \{0\}$. Si V est l’espace de ρ, on a $g' \subset \mathrm{gl}(V)$ et V est un $g'$-module simple. Alors, $\rho(\mathcal{O}g \cap \mathcal{O}^k r) \subset \mathcal{O}g' \cap a' = \{0\}$. Si on avait $k > 0$, on aurait $\mathcal{O}^k r \subset \mathcal{O}g$, $\rho(\mathcal{O}^k r) = \{0\}$, contrairement à la définition de k. Donc $k = 0$, c’est-à-dire que $\rho(\mathcal{O}g \cap r) = \{0\}$.
+On sait déjà que s ⊂ $\mathscr{O}g \cap r$. Il suffira donc de montrer que, si ρ est une représentation simple de dimension finie de g, on a $\rho(\mathscr{O}g \cap r) = \{0\}$. Soit k le plus petit entier ≥ 0 tel que $\rho(\mathscr{O}^{k+1}r) = \{0\}$; posons $g' = \rho(g)$, $a' = \rho(\mathscr{O}^k r)$; comme $\mathscr{O}^k r$ est un idéal de g, $a'$ est un idéal de $g'$; cet idéal est commutatif puisque $\rho(\mathscr{O}^{k+1}r) = \{0\}$. Si V est l’espace de ρ, on a $g' \subset \mathrm{gl}(V)$ et V est un $g'$-module simple. Alors, $\rho(\mathscr{O}g \cap \mathscr{O}^k r) \subset \mathscr{O}g' \cap a' = \{0\}$. Si on avait $k > 0$, on aurait $\mathscr{O}^k r \subset \mathscr{O}g$, $\rho(\mathscr{O}^k r) = \{0\}$, contrairement à la définition de k. Donc $k = 0$, c’est-à-dire que $\rho(\mathscr{O}g \cap r) = \{0\}$.
 
 #### Corollaire 1 {#lie-i-s5-thm-1-cor-1 .statement}
 
-Soit g une algèbre de Lie résoluble. Le radical nilpotent de g est $\mathcal{O}g$. Si ρ est une représentation simple de dimension finie de g, $\rho(g)$ est commutative, et l’algèbre associative L engendrée par 1 et $\rho(g)$ est un corps de degré fini sur K.
+Soit g une algèbre de Lie résoluble. Le radical nilpotent de g est $\mathscr{O}g$. Si ρ est une représentation simple de dimension finie de g, $\rho(g)$ est commutative, et l’algèbre associative L engendrée par 1 et $\rho(g)$ est un corps de degré fini sur K.
 
-On a ici r = g, d’où s = $\mathcal{O}g$. Donc $\rho(\mathcal{O}g) = \{0\}$, ce qui montre que $g' = \rho(g)$ est commutative. Tout élément ≠ 0 de L est invér-sible en vertu du lemme de Schur ; L est donc un corps.
+On a ici r = g, d’où s = $\mathscr{O}g$. Donc $\rho(\mathscr{O}g) = \{0\}$, ce qui montre que $g' = \rho(g)$ est commutative. Tout élément ≠ 0 de L est invér-sible en vertu du lemme de Schur ; L est donc un corps.
 
 #### Corollaire 2 (théorème de Lie) {#lie-i-s5-thm-1-cor-2 .statement}
 
-Soit g une algèbre de Lie résoluble ; supposons K algébriquement clos. Soit M un g-module de dimension finie sur K, et soit $(M_i)_{0 \leq i \leq r}$ une suite de Jordan-Hölder de M. Alors, $M_{i-1}/M_i$ est de dimension 1 sur K pour $1 \leq i \leq r$, et, pour tout $x \in g$, on a $x_{M_{i-1}/M_i} = \lambda_i(x) \cdot 1$, $\lambda_i$ étant une forme linéaire sur g nulle sur $\mathcal{O}g$. En particulier, tout g-module simple de dimension finie sur K est en fait de dimension 1.
+Soit g une algèbre de Lie résoluble ; supposons K algébriquement clos. Soit M un g-module de dimension finie sur K, et soit $(M_i)_{0 \leq i \leq r}$ une suite de Jordan-Hölder de M. Alors, $M_{i-1}/M_i$ est de dimension 1 sur K pour $1 \leq i \leq r$, et, pour tout $x \in g$, on a $x_{M_{i-1}/M_i} = \lambda_i(x) \cdot 1$, $\lambda_i$ étant une forme linéaire sur g nulle sur $\mathscr{O}g$. En particulier, tout g-module simple de dimension finie sur K est en fait de dimension 1.
 
 Soit $\rho_i$ la représentation de $g$ dans $M_{i-1}/M_i$. L’algèbre associative $L_i$ engendrée par 1 et $\rho_i(g)$ est un corps, extension de degré fini de $K$, donc égal à $K$; et $M_{i-1}/M_i$ est un $L_i$-module simple, d’où $\dim M_{i-1}/M_i = 1$. Le reste du corollaire est évident.
 
@@ -165,9 +165,9 @@ Cela se démontre de la même manière que les cor. 2 et 3, tenant compte de ce 
 
 #### Corollaire 5 {#lie-i-s5-thm-1-cor-5 .statement}
 
-Pour qu’une algèbre de Lie $g$ soit résoluble, il faut et suffit que $\mathcal{O}g$ soit nilpotente.
+Pour qu’une algèbre de Lie $g$ soit résoluble, il faut et suffit que $\mathscr{O}g$ soit nilpotente.
 
-La condition est nécessaire en vertu du cor. 1. Elle est suffisante puisque $g/\mathcal{O}g$ est commutative.
+La condition est nécessaire en vertu du cor. 1. Elle est suffisante puisque $g/\mathscr{O}g$ est commutative.
 
 #### Corollaire 6 {#lie-i-s5-thm-1-cor-6 .statement}
 
@@ -214,27 +214,27 @@ $$
 \mathrm{Tr}\,(t[x, y]) = \beta([t, x], y) = 0
 $$
 
-d’où par linéarité $\operatorname{Tr}(tu) = 0$ pour tout $u \in \mathcal{O}g$. Par ailleurs, il est clair que $\mathcal{O}g \subset T$. Donc (lemme 3) tout élément de $\mathcal{O}g$ est nilpotent. Il est résulte que $\mathcal{O}g$ est nilpotente ($§ 4$, cor. 3 du th. 1), donc que $g$ est résoluble (no 3, cor. 5 du th. 1).
+d’où par linéarité $\operatorname{Tr}(tu) = 0$ pour tout $u \in \mathscr{O}g$. Par ailleurs, il est clair que $\mathscr{O}g \subset T$. Donc (lemme 3) tout élément de $\mathscr{O}g$ est nilpotent. Il est résulte que $\mathscr{O}g$ est nilpotente ($§ 4$, cor. 3 du th. 1), donc que $g$ est résoluble (no 3, cor. 5 du th. 1).
 
 ### 5. Nouvelles propriétés du radical
 
 #### Proposition 5 {#lie-i-s5-prop-5 .statement}
 
 Soient $g$ une algèbre de Lie, $r$ son radical.
-a) Si $\rho$ est une représentation de dimension finie de $g$, et si $\beta$ est la forme bilinéaire associée, $r$ et $\mathcal{O}g$ sont orthogonaux pour $\beta$.
-b) $r$ est l’orthogonal de $\mathcal{O}g$ pour la forme de Killing.
-Soient $x, y$ dans $g, z \in r$. On a $[y, z] \in \mathcal{O}g \cap r$, donc $\beta([x, y], z) = \beta(x, [y, z]) = 0$ (th. 1). D’où a).
-Soit $r'$ l’orthogonal de $\mathcal{O}g$ pour la forme de Killing. C’est un idéal de $g$ ($§ 3$, no 6, prop. 7 a)) qui contient $r$ d’après ce qui précède. D’autre part, l’image $s$ de $r'$ par la représentation adjointe de $g$ est résoluble (th. 2), donc $r'$ est résoluble comme extension centrale de $s$. Donc $r' \subset r$.
+a) Si $\rho$ est une représentation de dimension finie de $g$, et si $\beta$ est la forme bilinéaire associée, $r$ et $\mathscr{O}g$ sont orthogonaux pour $\beta$.
+b) $r$ est l’orthogonal de $\mathscr{O}g$ pour la forme de Killing.
+Soient $x, y$ dans $g, z \in r$. On a $[y, z] \in \mathscr{O}g \cap r$, donc $\beta([x, y], z) = \beta(x, [y, z]) = 0$ (th. 1). D’où a).
+Soit $r'$ l’orthogonal de $\mathscr{O}g$ pour la forme de Killing. C’est un idéal de $g$ ($§ 3$, no 6, prop. 7 a)) qui contient $r$ d’après ce qui précède. D’autre part, l’image $s$ de $r'$ par la représentation adjointe de $g$ est résoluble (th. 2), donc $r'$ est résoluble comme extension centrale de $s$. Donc $r' \subset r$.
 
 #### Corollaire 1 {#lie-i-s5-prop-5-cor-1 .statement}
 
-Soit $g$ une algèbre de Lie. Alors, $g$ est résoluble si et seulement si $\mathcal{O}g$ est orthogonal à $g$ pour la forme de Killing.
+Soit $g$ une algèbre de Lie. Alors, $g$ est résoluble si et seulement si $\mathscr{O}g$ est orthogonal à $g$ pour la forme de Killing.
 C’est une conséquence immédiate de la prop. 5 b).
 
 #### Corollaire 2 {#lie-i-s5-prop-5-cor-2 .statement}
 
 Le radical $r$ d’une algèbre de Lie $g$ est un idéal caractéristique.
-En effet, $\mathcal{O}g$ est un idéal caractéristique, et la forme de Killing est complètement invariante ($§ 3$, no 6, prop. 10). Donc l’orthogonal de $\mathcal{O}g$ pour la forme de Killing est un idéal caractéristique ($§ 3$, no 6, prop. 7 b)).
+En effet, $\mathscr{O}g$ est un idéal caractéristique, et la forme de Killing est complètement invariante ($§ 3$, no 6, prop. 10). Donc l’orthogonal de $\mathscr{O}g$ pour la forme de Killing est un idéal caractéristique ($§ 3$, no 6, prop. 7 b)).
 
 #### Corollaire 3 {#lie-i-s5-prop-5-cor-3 .statement}
 
@@ -263,9 +263,9 @@ L’inclusion r ⊃ f résulte de la prop. 5 b). L’inclusion f ⊃ n résulte 
 
 ### 6. Extension du corps de base
 
-Soient g une K-algèbre de Lie, et K_1 une extension de K. Il est clair que g_{(K_1)} est résoluble si et seulement si g est résoluble, puisque $\mathcal{O}^n(g_{(K_1)}) = (\mathcal{O}^n g)_{(K_1)}$.
+Soient g une K-algèbre de Lie, et K_1 une extension de K. Il est clair que g_{(K_1)} est résoluble si et seulement si g est résoluble, puisque $\mathscr{O}^n(g_{(K_1)}) = (\mathscr{O}^n g)_{(K_1)}$.
 
-Soit r le radical de g. Alors, r_{(K_1)} est le radical de g_{(K_1)}. En effet, soit β la forme de Killing de g. Comme r est l’orthogonal de $\mathcal{O}g$ pour β (prop. 5 b)), r_{(K_1)} est l’orthogonal de $(\mathcal{O}g)_{(K_1)} = \mathcal{O}(g_{(K_1)})$ pour la forme déduite de β par extension de K à K_1, c’est-à-dire pour la forme de Killing de g_{(K_1)} (§ 3, n° 8). Notre assertion résulte alors d’une nouvelle application de la prop. 5 b).
+Soit r le radical de g. Alors, r_{(K_1)} est le radical de g_{(K_1)}. En effet, soit β la forme de Killing de g. Comme r est l’orthogonal de $\mathscr{O}g$ pour β (prop. 5 b)), r_{(K_1)} est l’orthogonal de $(\mathscr{O}g)_{(K_1)} = \mathscr{O}(g_{(K_1)})$ pour la forme déduite de β par extension de K à K_1, c’est-à-dire pour la forme de Killing de g_{(K_1)} (§ 3, n° 8). Notre assertion résulte alors d’une nouvelle application de la prop. 5 b).
 
 ## EXERCICES {#lie-i-s5-exercises}
 

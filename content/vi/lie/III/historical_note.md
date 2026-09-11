@@ -12,11 +12,11 @@ pdf_pages: 0284-0318
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 3b0d96214d8344b27c131ea8254c091c9e35468ee02a19c29c4dc62c0002b706
+content_sha256: a84baeedbf6badf8665c68175357263f1164af85b160aae4da953fb659805c73
 translated_from: content/en-mt/lie/III/historical_note.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: d264a5fb7e52b2fc4fd8837bcfa0fb9b251e9a9910d4a441c8ec27ebb5092814
+source_content_sha256: fb2508285d79def2180d4ca9f1dc5ce0878f5495827c9e61ff61250d62c5d71a
 translation_model: gpt-5.4
 translation_run: translate-vi-649ce146
 glossary_version: 34
@@ -543,7 +543,7 @@ T(m) : III.2.1
 T(G), T(\varphi) : III.2.2
 t \* t' : III.3.1, III.3.18
 U(G), U^+(G), U_s(G), U_s^+(G) : III.3.1, III.3.18
-T_g^{(s)}(G), T_g^{(\infty)}(G), \mathcal{T}^{(\infty)}(G) : III.3.1, III.3.18
+T_g^{(s)}(G), T_g^{(\infty)}(G), \mathscr{T}^{(\infty)}(G) : III.3.1, III.3.18
 t \* f : III.3.4, III.3.18
 D_t : III.3.5, III.3.18
 L_t, R_t : III.3.6, III.3.18

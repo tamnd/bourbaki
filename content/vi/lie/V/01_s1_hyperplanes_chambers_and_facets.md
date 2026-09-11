@@ -36,9 +36,9 @@ subsections:
       pdf_page: 81
 statements: 18
 exercises: 0
-content_sha256: 80854cd3b3b94e17de78b3b5c01b996b4aea108243c014d2ec94db5120623a09
+content_sha256: 32e4763cd01e76e7f2318a2719b3dd65e5f8eea66e0e1aba3682990302df72c7
 translated_from: content/en/lie/V/01_s1_hyperplanes_chambers_and_facets.md
-source_content_sha256: d79a67a6abd874fd314fbe2bcdfe35f01a4dbed5de50756cdd3d83045e3a21ea
+source_content_sha256: 88296e8ecd750a7b7e406ceea50477e26e5c392b67a92cbaabd00a82b6dbf1e1
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-d4c000b3
 glossary_version: 34
@@ -64,45 +64,45 @@ Nếu A chỉ gồm một điểm a, ta viết $D_H(a)$ và $D_{\mathfrak{N}}(a)
 
 ### 2. CÁC MẶT
 
-Tập hợp các điểm của E không thuộc bất kỳ siêu phẳng H nào của tập hợp $\mathcal{H}$ là mở vì $\mathcal{H}$ là hữu hạn địa phương. Chính xác hơn, ta có kết quả sau:
+Tập hợp các điểm của E không thuộc bất kỳ siêu phẳng H nào của tập hợp $\mathscr{H}$ là mở vì $\mathscr{H}$ là hữu hạn địa phương. Chính xác hơn, ta có kết quả sau:
 
 #### Mệnh đề 1 {#lie-v-s1-prop-1 .statement}
 
-*Cho a là một điểm của E. Tồn tại một lân cận mở liên thông của a không cắt bất kỳ siêu phẳng H nào thuộc $\mathcal{H}$ và không đi qua a. Hơn nữa, chỉ có hữu hạn siêu phẳng thuộc $\mathcal{H}$ và đi qua a.*
+*Cho a là một điểm của E. Tồn tại một lân cận mở liên thông của a không cắt bất kỳ siêu phẳng H nào thuộc $\mathscr{H}$ và không đi qua a. Hơn nữa, chỉ có hữu hạn siêu phẳng thuộc $\mathscr{H}$ và đi qua a.*
 
-Tập hợp $\mathcal{N}$ gồm các siêu phẳng H sao cho $H \in \mathcal{H}$ và $a \notin H$ là hữu hạn địa phương vì nó được chứa trong $\mathcal{H}$. Do đó, tập hợp U các điểm của E không thuộc bất kỳ siêu phẳng nào của tập hợp $\mathcal{N}$ là mở. Vì $a \in U$, nên tồn tại một lân cận mở liên thông của a được chứa trong U. Phần còn lại của mệnh đề là rõ ràng.
+Tập hợp $\mathscr{N}$ gồm các siêu phẳng H sao cho $H \in \mathscr{H}$ và $a \notin H$ là hữu hạn địa phương vì nó được chứa trong $\mathscr{H}$. Do đó, tập hợp U các điểm của E không thuộc bất kỳ siêu phẳng nào của tập hợp $\mathscr{N}$ là mở. Vì $a \in U$, nên tồn tại một lân cận mở liên thông của a được chứa trong U. Phần còn lại của mệnh đề là rõ ràng.
 
 Cho hai điểm x và y của E, ký hiệu bởi R\{x, y\} quan hệ
 
-" Với mọi siêu phẳng $H \in \mathcal{H}$, hoặc $x \in H$ và $y \in H$ hoặc $x$ và $y$ nằm hẳn về cùng một phía của H."
+" Với mọi siêu phẳng $H \in \mathscr{H}$, hoặc $x \in H$ và $y \in H$ hoặc $x$ và $y$ nằm hẳn về cùng một phía của H."
 
 Rõ ràng, R là một quan hệ tương đương trên E.
 
 #### Định nghĩa 1 {#lie-v-s1-def-1 .statement}
 
-*Một mặt của E đối với $\mathcal{H}$ là một lớp tương đương của quan hệ tương đương được định nghĩa ở trên.*
+*Một mặt của E đối với $\mathscr{H}$ là một lớp tương đương của quan hệ tương đương được định nghĩa ở trên.*
 
 #### Mệnh đề 2 {#lie-v-s1-prop-2 .statement}
 
 *Tập hợp các mặt là hữu hạn địa phương.*
 
-Điều này là hiển nhiên vì $\mathcal{H}$ là hữu hạn địa phương.
+Điều này là hiển nhiên vì $\mathscr{H}$ là hữu hạn địa phương.
 
-Cho F là một mặt và a là một điểm của F. Một siêu phẳng $H \in \mathcal{H}$ chứa F khi và chỉ khi $a \in H$; do đó tập hợp $\mathcal{F}$ của các siêu phẳng này là hữu hạn; giao của chúng là một không gian con afin L của E, mà ta sẽ gọi là *giá afin* của F; chiều của L sẽ được gọi là *chiều* của F.
+Cho F là một mặt và a là một điểm của F. Một siêu phẳng $H \in \mathscr{H}$ chứa F khi và chỉ khi $a \in H$; do đó tập hợp $\mathscr{F}$ của các siêu phẳng này là hữu hạn; giao của chúng là một không gian con afin L của E, mà ta sẽ gọi là *giá afin* của F; chiều của L sẽ được gọi là *chiều* của F.
 
-Nếu $\mathcal{N}$ là tập hợp các siêu phẳng $H \in \mathcal{H}$ không chứa F, thì
+Nếu $\mathscr{N}$ là tập hợp các siêu phẳng $H \in \mathscr{H}$ không chứa F, thì
 
 $$
-F = L \cap \bigcap_{H \in \mathcal{N}} D_H(a).
+F = L \cap \bigcap_{H \in \mathscr{N}} D_H(a).
 $$
 
 Ta sẽ chứng minh rằng bao đóng của F được cho bởi
 
 $$
-\overline{F} = L \cap \bigcap_{H \in \mathcal{N}} \overline{D_H(a)}.
+\overline{F} = L \cap \bigcap_{H \in \mathscr{N}} \overline{D_H(a)}.
 $$
 
-Hiển nhiên là vế phải chứa vế trái. Ngược lại, cho $x \in L \cap \bigcap_{H \in \mathcal{N}} \overline{D_H(a)}$. Đoạn thẳng mở có hai đầu mút a và x được chứa trong L và trong mỗi $D_H(a)$ với $H \in \mathcal{N}$, và do đó trong F. Suy ra x thuộc bao đóng của F, nên có công thức trên.
+Hiển nhiên là vế phải chứa vế trái. Ngược lại, cho $x \in L \cap \bigcap_{H \in \mathscr{N}} \overline{D_H(a)}$. Đoạn thẳng mở có hai đầu mút a và x được chứa trong L và trong mỗi $D_H(a)$ với $H \in \mathscr{N}$, và do đó trong F. Suy ra x thuộc bao đóng của F, nên có công thức trên.
 
 #### Mệnh đề 3 {#lie-v-s1-prop-3 .statement}
 
@@ -200,7 +200,7 @@ Nếu E thu về một điểm duy nhất, điều này là hiển nhiên. Nếu
 
 (iii) *Nếu L là một siêu phẳng và $L \in \mathfrak{H}$, thì tồn tại một điểm a trong $\Omega$ không thuộc bất kỳ siêu phẳng nào $H \neq L$ của $\mathfrak{H}$.*
 
-Ký hiệu $\mathfrak{N}$ là tập hợp các siêu phẳng H sao cho $H \in \mathfrak{H}$ và $L \not\subset H$, và $\mathcal{L}$ là tập hợp các siêu phẳng của *không gian afin* L có dạng $L \cap H$ với $H \in \mathfrak{N}$. Rõ ràng $\mathcal{L}$ là một tập hợp hữu hạn địa phương các siêu phẳng trong L, và Mệnh đề 6 cho thấy rằng $\Omega$ gặp một buồng $\Gamma$ được xác định bởi $\mathcal{L}$ trong L. Nếu $a$ là một điểm của $\Gamma \cap \Omega$, thì $a \notin H$ với mọi $H \in \mathfrak{N}$, do đó có (i).
+Ký hiệu $\mathfrak{N}$ là tập hợp các siêu phẳng H sao cho $H \in \mathfrak{H}$ và $L \not\subset H$, và $\mathscr{L}$ là tập hợp các siêu phẳng của *không gian afin* L có dạng $L \cap H$ với $H \in \mathfrak{N}$. Rõ ràng $\mathscr{L}$ là một tập hợp hữu hạn địa phương các siêu phẳng trong L, và Mệnh đề 6 cho thấy rằng $\Omega$ gặp một buồng $\Gamma$ được xác định bởi $\mathscr{L}$ trong L. Nếu $a$ là một điểm của $\Gamma \cap \Omega$, thì $a \notin H$ với mọi $H \in \mathfrak{N}$, do đó có (i).
 
 Bây giờ giả sử rằng L là một siêu phẳng; khi đó mọi siêu phẳng chứa L đều bằng nó, nên ta có thể phân biệt hai trường hợp:
 
@@ -224,15 +224,15 @@ Theo Mệnh đề 7, (iii), tồn tại một điểm $a$ của $H$ không thu�
 
 #### Mệnh đề 9 {#lie-v-s1-prop-9 .statement}
 
-*Cho* $C$ *là một buồng và* $\mathcal{M}$ *là tập hợp các vách của* $C$. *Khi đó* $C = D_{\mathcal{M}}(C)$ *và mọi tập con* $\mathcal{L}$ *của* $\mathfrak{H}$ *sao cho* $C = D_{\mathcal{L}}(C)$ *đều chứa* $\mathcal{M}$. *Một tập con* $F$ *của* $\overline{C}$ *là một mặt nếu và chỉ nếu nó là một mặt của* $E$ *đối với họ* $\mathcal{M}$.
+*Cho* $C$ *là một buồng và* $\mathscr{M}$ *là tập hợp các vách của* $C$. *Khi đó* $C = D_{\mathscr{M}}(C)$ *và mọi tập con* $\mathscr{L}$ *của* $\mathfrak{H}$ *sao cho* $C = D_{\mathscr{L}}(C)$ *đều chứa* $\mathscr{M}$. *Một tập con* $F$ *của* $\overline{C}$ *là một mặt nếu và chỉ nếu nó là một mặt của* $E$ *đối với họ* $\mathscr{M}$.
 
-a) Cho $\mathcal{L}$ là một tập con của $\mathfrak{H}$ sao cho $C = D_{\mathcal{L}}(C)$. Xét một siêu phẳng $L$ thuộc $\mathfrak{H}$ nhưng không thuộc $\mathcal{L}$; gọi $\mathfrak{N}$ là tập hợp các siêu phẳng $H \neq L$ thuộc $\mathfrak{H}$. Khi đó $\mathcal{L} \subset \mathfrak{N}$, do đó $C = D_{\mathfrak{N}}(C)$, và $L$ không cắt $D_{\mathfrak{N}}(C)$. Theo kéo theo (i) $\Longrightarrow$ (iii) trong Mệnh đề 4, siêu phẳng $L$ không phải là một vách của $C$. Do đó, mọi vách của $C$ đều thuộc $\mathcal{L}$.
+a) Cho $\mathscr{L}$ là một tập con của $\mathfrak{H}$ sao cho $C = D_{\mathscr{L}}(C)$. Xét một siêu phẳng $L$ thuộc $\mathfrak{H}$ nhưng không thuộc $\mathscr{L}$; gọi $\mathfrak{N}$ là tập hợp các siêu phẳng $H \neq L$ thuộc $\mathfrak{H}$. Khi đó $\mathscr{L} \subset \mathfrak{N}$, do đó $C = D_{\mathfrak{N}}(C)$, và $L$ không cắt $D_{\mathfrak{N}}(C)$. Theo kéo theo (i) $\Longrightarrow$ (iii) trong Mệnh đề 4, siêu phẳng $L$ không phải là một vách của $C$. Do đó, mọi vách của $C$ đều thuộc $\mathscr{L}$.
 
-b) Giả sử rằng $C = D_{\mathcal{L}}(C)$. Cho $H$ là một siêu phẳng thuộc $\mathcal{L}$ mà không phải là một tường của $C$, và đặt $\mathcal{L}' = \mathcal{L} - \{ H \}$. Theo hệ quả (iii) $\Longrightarrow$ (i) trong Mệnh đề 4, tập lồi $D_{\mathcal{L}'}(C)$ không gặp $H$, nên $D_{\mathcal{L}'}(C) \subset D_H(C)$ và $C = D_{\mathcal{L}'}(C)$. Nếu $\mathfrak{F}$ là một tập con hữu hạn của $\mathcal{L}$ không chứa tường nào của $C$, ta kết luận bằng quy nạp theo lực lượng của $\mathfrak{F}$ rằng $C = D_{\mathcal{L} - \mathfrak{F}}(C)$.
+b) Giả sử rằng $C = D_{\mathscr{L}}(C)$. Cho $H$ là một siêu phẳng thuộc $\mathscr{L}$ mà không phải là một tường của $C$, và đặt $\mathscr{L}' = \mathscr{L} - \{ H \}$. Theo hệ quả (iii) $\Longrightarrow$ (i) trong Mệnh đề 4, tập lồi $D_{\mathscr{L}'}(C)$ không gặp $H$, nên $D_{\mathscr{L}'}(C) \subset D_H(C)$ và $C = D_{\mathscr{L}'}(C)$. Nếu $\mathfrak{F}$ là một tập con hữu hạn của $\mathscr{L}$ không chứa tường nào của $C$, ta kết luận bằng quy nạp theo lực lượng của $\mathfrak{F}$ rằng $C = D_{\mathscr{L} - \mathfrak{F}}(C)$.
 
 c) Cho $a$ là một điểm của $C$; rõ ràng, $C \subset D_{\mathfrak{M}}(a)$. Cho $a'$ là một điểm của $D_{\mathfrak{M}}(a)$; vì đoạn đóng $[aa']$ là compact, tập hợp $\mathfrak{F}$ các siêu phẳng $H \in \mathfrak{H}$ cắt $[aa']$ là hữu hạn. Vì $a$ và $a'$ nằm thực sự về cùng một phía đối với mọi vách của $C$, không một vách nào của $C$ thuộc $\mathfrak{F}$; theo b), ta có $C = D_{\mathfrak{H} - \mathfrak{F}}(C)$. Vì $a' \in D_{\mathfrak{H} - \mathfrak{F}}(a)$, ta có $a' \in C$. Vậy ta đã chứng minh rằng $D_{\mathfrak{M}}(a) \subset C$, điều này thiết lập phần thứ nhất của mệnh đề.
 
-d) Để chứng minh khẳng định cuối cùng của mệnh đề, rõ ràng chỉ cần chỉ ra rằng một tập con $F$ của $\overline{C}$ là một mặt của $E$ đối với $\mathcal{M}$ thì cũng là một mặt của $E$ đối với $\mathfrak{H}$, hay là mọi siêu phẳng $H \in \mathfrak{H}$ cắt $F$ đều chứa $F$. Vậy cho $H$ là một siêu phẳng cắt $F$ nhưng không chứa nó. Vì $F$ mở trong giá afin đỡ của nó, nên nó không nằm hoàn toàn về một phía của $H$. Suy ra $\overline{C}$ không nằm hoàn toàn về một phía của $H$ và do đó siêu phẳng $H$ không thuộc $\mathfrak{H}$, điều này kết thúc chứng minh.
+d) Để chứng minh khẳng định cuối cùng của mệnh đề, rõ ràng chỉ cần chỉ ra rằng một tập con $F$ của $\overline{C}$ là một mặt của $E$ đối với $\mathscr{M}$ thì cũng là một mặt của $E$ đối với $\mathfrak{H}$, hay là mọi siêu phẳng $H \in \mathfrak{H}$ cắt $F$ đều chứa $F$. Vậy cho $H$ là một siêu phẳng cắt $F$ nhưng không chứa nó. Vì $F$ mở trong giá afin đỡ của nó, nên nó không nằm hoàn toàn về một phía của $H$. Suy ra $\overline{C}$ không nằm hoàn toàn về một phía của $H$ và do đó siêu phẳng $H$ không thuộc $\mathfrak{H}$, điều này kết thúc chứng minh.
 
 #### Nhận xét 1 {#lie-v-s1-n4-rem-1 .statement}
 

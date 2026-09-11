@@ -24,7 +24,7 @@ subsections:
       pdf_page: 97
 statements: 5
 exercises: 3
-content_sha256: 9cb4ad4aa60aa4680b54877f60cc8f78bcfa9d67c3ddd0033d2ce268e2060b55
+content_sha256: c4998d42ae6a66b7d19bab7dc535d56adfc40e3f81edc20dd961e831e9be2851
 ---
 
 ## § 7. Le théorème d’Ado
@@ -39,7 +39,7 @@ En particulier, si U est l’algèbre enveloppante d’une algèbre de Lie g, et
 
 ### 2. Le théorème d’agrandissement
 
-Soient $g = \mathfrak{h} + g'$ une algèbre de Lie somme directe d’un idéal $g'$ et d’une sous-algèbre $\mathfrak{h}$, U l’algèbre enveloppante de g, et $U' \subset U$ l’algèbre enveloppante de $g'$. Il existe une structure de g-module sur $U'$ et une seule telle que : α) pour $x \in g'$ et $u \in U'$, $x_{U'}u = -ux$; β) pour $x \in \mathfrak{h}$ et $u \in U'$, $x_{U'}u = xu - ux$ (ce dernier élément est bien dans $U'$, puisque la dérivation intérieure de U définie par x laisse stable $g'$, donc $U'$). En effet, les conditions α) et β) définissent de manière unique une application linéaire $x \to x_{U'}$ de g dans $\mathcal{L}_K(U')$. Il suffit donc de vérifier que $[x, y]_{U'} = [x_{U'}, y_{U'}]$; on peut se borner à envisager les cas suivants :
+Soient $g = \mathfrak{h} + g'$ une algèbre de Lie somme directe d’un idéal $g'$ et d’une sous-algèbre $\mathfrak{h}$, U l’algèbre enveloppante de g, et $U' \subset U$ l’algèbre enveloppante de $g'$. Il existe une structure de g-module sur $U'$ et une seule telle que : α) pour $x \in g'$ et $u \in U'$, $x_{U'}u = -ux$; β) pour $x \in \mathfrak{h}$ et $u \in U'$, $x_{U'}u = xu - ux$ (ce dernier élément est bien dans $U'$, puisque la dérivation intérieure de U définie par x laisse stable $g'$, donc $U'$). En effet, les conditions α) et β) définissent de manière unique une application linéaire $x \to x_{U'}$ de g dans $\mathscr{L}_K(U')$. Il suffit donc de vérifier que $[x, y]_{U'} = [x_{U'}, y_{U'}]$; on peut se borner à envisager les cas suivants :
 
 1) $x \in g', y \in g'$: alors,
 

@@ -25,7 +25,7 @@ subsections:
       pdf_page: 89
 statements: 6
 exercises: 5
-content_sha256: f51f2e756e574437c469e38e8938bfa36ae6f11b2f0f1c2f416d2d919a856ad4
+content_sha256: 3207a7414e76f6a3dc840727842917fe8becb0b28041abbb0daaf9ce7999445f
 ---
 
 ## § 7. ADO'S THEOREM
@@ -40,7 +40,7 @@ In particular, if U is the enveloping algebra of a Lie algebra g and $\rho$ is a
 
 ### 2. THE EXTENSION THEOREM
 
-Let $g = h + g'$ be a Lie algebra which is the direct sum of an ideal $g'$ and a subalgebra $h$, U the enveloping algebra of g and $U' \subset U$ the enveloping algebra of $g'$. There exists one and only one g-module structure on $U'$ such that: (α) for $x \in g'$ and $u \in U'$, $x_{U'}u = -ux$; (β) for $x \in h$ and $u \in U'$, $x_{U'}u = xu - ux$ (the latter element is certainly in $U'$ since the inner derivation of U defined by x leaves $g'$ and hence $U'$ stable). For conditions (α) and (β) define uniquely a linear mapping $x \mapsto x_{U'}$ of g into $\mathcal{L}_K(U')$. It therefore suffices to verify that $[x, y]_{U'} = [x_{U'}, y_{U'}]$; it is only necessary to consider the following cases:
+Let $g = h + g'$ be a Lie algebra which is the direct sum of an ideal $g'$ and a subalgebra $h$, U the enveloping algebra of g and $U' \subset U$ the enveloping algebra of $g'$. There exists one and only one g-module structure on $U'$ such that: (α) for $x \in g'$ and $u \in U'$, $x_{U'}u = -ux$; (β) for $x \in h$ and $u \in U'$, $x_{U'}u = xu - ux$ (the latter element is certainly in $U'$ since the inner derivation of U defined by x leaves $g'$ and hence $U'$ stable). For conditions (α) and (β) define uniquely a linear mapping $x \mapsto x_{U'}$ of g into $\mathscr{L}_K(U')$. It therefore suffices to verify that $[x, y]_{U'} = [x_{U'}, y_{U'}]$; it is only necessary to consider the following cases:
 
 (1) $x \in g', y \in g'$: then
 $$

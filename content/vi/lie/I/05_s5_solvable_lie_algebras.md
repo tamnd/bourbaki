@@ -37,9 +37,9 @@ subsections:
       pdf_page: 67
 statements: 27
 exercises: 17
-content_sha256: 52174a80bc5f977610e6dca2cb2a212952cd67ed8647f3ac21b44548c091ad56
+content_sha256: 5ce719f3aa69959f60774f348acae65dd20f86406d79ab8edecf634dc0285103
 translated_from: content/en/lie/I/05_s5_solvable_lie_algebras.md
-source_content_sha256: b03bd5e323008db7cf84b406bde7038010ad9ffc9838e789227eeb7ee4c1c882
+source_content_sha256: 463a21b601dadcb5824363c5f0b0f7aec3b0400f4911b9ab162ef4940bd66675
 translation_model: gpt-5.4
 translation_run: translate-vi-f47a882b
 glossary_version: 34
@@ -91,7 +91,7 @@ Các ví dụ về đại số Lie giải được
 
 I. Cho $g$ là một không gian vectơ 2 chiều trên $K$ và $(e_1, e_2)$ là một cơ sở của $g$. Tồn tại một và chỉ một phép nhân song tuyến tính phản xứng $(x, y) \mapsto [x, y]$ trên $g$ sao cho $[e_1, e_2] = e_2$. Dễ dàng kiểm tra rằng như vậy $g$ được trang bị một cấu trúc đại số Lie giải được. Bây giờ, cho $h$ là một đại số Lie không giao hoán chiều 2 trên $K$. Ta chỉ ra rằng $h$ đẳng cấu với $g$. Cho $(f_1, f_2)$ là một cơ sở của $h$. Phần tử $[f_1, f_2]$ khác không (nếu không thì $h$ sẽ giao hoán) và do đó nó sinh ra một không gian con 1 chiều $t$ của $h$. Khi đó $[h, h] = t$. Cho $(e'_1, e'_2)$ là một cơ sở của $h$ sao cho $e'_2 \in t$. Khi đó $[e'_1, e'_2] = \lambda e'_2$ với $\lambda \neq 0$. Thay $e'_1$ bằng $\lambda^{-1} e_1$, ta có thể giả sử rằng $\lambda = 1$, do đó có mệnh đề của ta.
 
-II. Các công thức (5) của § 1 chứng minh rằng $\mathcal{D}t(n, K) = n(n, K)$. Vì $n(n, K)$ lũy linh và do đó giải được, nên $t(n, K)$ giải được. Vậy $st(n, K)$ giải được. Đặc biệt, $st(2, K)$ đẳng cấu với đại số của Ví dụ I.
+II. Các công thức (5) của § 1 chứng minh rằng $\mathscr{D}t(n, K) = n(n, K)$. Vì $n(n, K)$ lũy linh và do đó giải được, nên $t(n, K)$ giải được. Vậy $st(n, K)$ giải được. Đặc biệt, $st(2, K)$ đẳng cấu với đại số của Ví dụ I.
 
 ### 2. CĂN CỦA MỘT ĐẠI SỐ LIE
 
@@ -129,11 +129,11 @@ Tổng trực tiếp của các biểu diễn này là nửa đơn và có hạt
 
 (2) Theo Mệnh đề 4 (c) của § 4, no. 3, s cũng là giao của các iđêan lũy linh lớn nhất của các biểu diễn hữu hạn chiều của g. Đặc biệt, s được chứa trong iđêan lũy linh lớn nhất của g và vì thế là một iđêan lũy linh của g.
 
-(3) Mọi dạng tuyến tính $\lambda$ trên g bằng không trên $\mathcal{D}g$ là một biểu diễn đơn (với không gian K) của g, do đó $\lambda(s) = \{0\}$. Suy ra $s \subset \mathcal{D}g$. Mặt khác, s được chứa trong căn r của g theo Nhận xét 2. Ta sẽ chứng minh rằng $s = r \cap \mathcal{D}g$.
+(3) Mọi dạng tuyến tính $\lambda$ trên g bằng không trên $\mathscr{D}g$ là một biểu diễn đơn (với không gian K) của g, do đó $\lambda(s) = \{0\}$. Suy ra $s \subset \mathscr{D}g$. Mặt khác, s được chứa trong căn r của g theo Nhận xét 2. Ta sẽ chứng minh rằng $s = r \cap \mathscr{D}g$.
 
 #### Bổ đề 1 {#lie-i-s5-lem-1 .statement}
 
-Cho V là một không gian vectơ hữu hạn chiều trên K, g là một đại số con của gl(V) sao cho V là một g-môđun đơn và a là một iđêan giao hoán của g. Khi đó $a \cap \mathcal{D}g = \{0\}$. Cho S là đại số con của $\mathcal{L}(V)$ sinh bởi 1 và a.
+Cho V là một không gian vectơ hữu hạn chiều trên K, g là một đại số con của gl(V) sao cho V là một g-môđun đơn và a là một iđêan giao hoán của g. Khi đó $a \cap \mathscr{D}g = \{0\}$. Cho S là đại số con của $\mathscr{L}(V)$ sinh bởi 1 và a.
 
 Nếu b là một iđêan của g được chứa trong a sao cho $\operatorname{Tr} bs = 0$ với mọi $b \in b$ và mọi $s \in S$, thì đặc biệt, theo định nghĩa của S, $\operatorname{Tr}(b^n) = 0$ với mọi số nguyên $n > 0$ và do đó b là lũy linh (Đại số, Chương VII, § 5, no. 5, Hệ quả 4 của Mệnh đề 13); vì mọi phần tử của b đều lũy linh, $b = \{0\}$ (§ 4, no. 3, Bổ đề 2). Trước hết ta áp dụng điều này cho iđêan $[g, a]$ của g. Nếu $x \in g, a \in a, s \in S$, thì $\operatorname{Tr}[x, a]s = \operatorname{Tr}(xas - axs) = \operatorname{Tr} x(as - sa) = 0$ vì $as = sa$; do đó $[g, a] = \{0\}$. Vậy các phần tử của g giao hoán với các phần tử của a và do đó cũng giao hoán với các phần tử của S. Nếu $x, y$ thuộc g và $s \in S$, thì
 
@@ -141,25 +141,25 @@ $$
 \operatorname{Tr}[x, y]s = \operatorname{Tr}(xys - yxs) = \operatorname{Tr} x(ys - sy) = 0
 $$
 
-vì $ys = sy$; khi đó lấy b là iđêan $\mathcal{D}g \cap a$, suy ra $\mathcal{D}g \cap a = \{0\}$.
+vì $ys = sy$; khi đó lấy b là iđêan $\mathscr{D}g \cap a$, suy ra $\mathscr{D}g \cap a = \{0\}$.
 
 #### Định lý 1 {#lie-i-s5-thm-1 .statement}
 
-Cho g là một đại số Lie, r là căn của nó và s là căn lũy linh của nó. Khi đó $s = \mathcal{D}g \cap r$.
+Cho g là một đại số Lie, r là căn của nó và s là căn lũy linh của nó. Khi đó $s = \mathscr{D}g \cap r$.
 
-Ta đã biết rằng $s \subset \mathcal{D}g \cap r$. Vì thế, chỉ cần chứng minh rằng nếu $\rho$ là một biểu diễn đơn hữu hạn chiều của g thì $\rho(\mathcal{D}g \cap r) = \{0\}$. Gọi k là số nguyên nhỏ nhất $\geq 0$ sao cho $\rho(\mathcal{D}^{k+1}r) = \{0\}$; đặt $g' = \rho(g)$, $a' = \rho(D^k r)$; vì $\mathcal{D}^k r$ là một iđêan của g nên $a'$ là một iđêan của $g'$; iđêan này là giao hoán vì $\rho(\mathcal{D}^{k+1}r) = \{0\}$. Nếu V là không gian của $\rho$, thì $g' \subset \operatorname{gl}(V)$ và V là một $g'$-môđun đơn. Khi đó $\rho(\mathcal{D}g \cap \mathcal{D}^k r) \subset \mathcal{D}g' \cap a' = \{0\}$. Nếu $k > 0$, thì $\mathcal{D}^k r \subset \mathcal{D}g$ và $\rho(\mathcal{D}^k r) = \{0\}$, trái với định nghĩa của k. Vậy $k = 0$, nghĩa là
+Ta đã biết rằng $s \subset \mathscr{D}g \cap r$. Vì thế, chỉ cần chứng minh rằng nếu $\rho$ là một biểu diễn đơn hữu hạn chiều của g thì $\rho(\mathscr{D}g \cap r) = \{0\}$. Gọi k là số nguyên nhỏ nhất $\geq 0$ sao cho $\rho(\mathscr{D}^{k+1}r) = \{0\}$; đặt $g' = \rho(g)$, $a' = \rho(D^k r)$; vì $\mathscr{D}^k r$ là một iđêan của g nên $a'$ là một iđêan của $g'$; iđêan này là giao hoán vì $\rho(\mathscr{D}^{k+1}r) = \{0\}$. Nếu V là không gian của $\rho$, thì $g' \subset \operatorname{gl}(V)$ và V là một $g'$-môđun đơn. Khi đó $\rho(\mathscr{D}g \cap \mathscr{D}^k r) \subset \mathscr{D}g' \cap a' = \{0\}$. Nếu $k > 0$, thì $\mathscr{D}^k r \subset \mathscr{D}g$ và $\rho(\mathscr{D}^k r) = \{0\}$, trái với định nghĩa của k. Vậy $k = 0$, nghĩa là
 
 $$
-\rho(\mathcal{D}g \cap r) = \{0\}.
+\rho(\mathscr{D}g \cap r) = \{0\}.
 $$
 
 #### Hệ quả 1 {#lie-i-s5-thm-1-cor-1 .statement}
 
-Cho g là một đại số Lie giải được. Căn lũy linh của g là $\mathcal{D}g$. Nếu $\rho$ là một biểu diễn đơn hữu hạn chiều của g thì $\rho(g)$ là giao hoán và đại số kết hợp L sinh bởi 1 và $\rho(g)$ là một trường bậc hữu hạn trên K.
+Cho g là một đại số Lie giải được. Căn lũy linh của g là $\mathscr{D}g$. Nếu $\rho$ là một biểu diễn đơn hữu hạn chiều của g thì $\rho(g)$ là giao hoán và đại số kết hợp L sinh bởi 1 và $\rho(g)$ là một trường bậc hữu hạn trên K.
 
-Ở đây $r = g$, do đó $s = \mathcal{D}g$. Vì thế $\varphi(\mathcal{D}g) = \{0\}$, điều đó chứng tỏ rằng $g' = \rho(g)$ là giao hoán. Mọi phần tử $\neq 0$ của $L$ đều khả nghịch theo Bổ đề Schur; vậy $L$ là một trường.
+Ở đây $r = g$, do đó $s = \mathscr{D}g$. Vì thế $\varphi(\mathscr{D}g) = \{0\}$, điều đó chứng tỏ rằng $g' = \rho(g)$ là giao hoán. Mọi phần tử $\neq 0$ của $L$ đều khả nghịch theo Bổ đề Schur; vậy $L$ là một trường.
 
-**Hệ quả 2 (Định lý Lie).** *Cho $g$ là một đại số Lie giải được; giả sử rằng $K$ đóng đại số. Cho $M$ là một $g$-môđun có số chiều hữu hạn trên $K$ và cho $(M_i)_{0 \leq i \leq r}$ là một chuỗi Jordan-Hölder của $M$. Khi đó $M_{i-1}/M_i$ có chiều bằng 1 trên $K$ với $1 \leq i \leq r$ và, với mọi $x \in g$, $x_{M_{i-1}/M_i} = \lambda_i(x) \cdot 1$, trong đó $\lambda_i$ là một dạng tuyến tính trên $g$ triệt tiêu trên $\mathcal{D}g$. Đặc biệt, mọi $g$-môđun đơn có chiều hữu hạn trên $K$ thực ra đều có chiều bằng 1.*
+**Hệ quả 2 (Định lý Lie).** *Cho $g$ là một đại số Lie giải được; giả sử rằng $K$ đóng đại số. Cho $M$ là một $g$-môđun có số chiều hữu hạn trên $K$ và cho $(M_i)_{0 \leq i \leq r}$ là một chuỗi Jordan-Hölder của $M$. Khi đó $M_{i-1}/M_i$ có chiều bằng 1 trên $K$ với $1 \leq i \leq r$ và, với mọi $x \in g$, $x_{M_{i-1}/M_i} = \lambda_i(x) \cdot 1$, trong đó $\lambda_i$ là một dạng tuyến tính trên $g$ triệt tiêu trên $\mathscr{D}g$. Đặc biệt, mọi $g$-môđun đơn có chiều hữu hạn trên $K$ thực ra đều có chiều bằng 1.*
 
 Gọi $\rho_i$ là biểu diễn của $g$ trên $M_{i-1}/M_i$. Đại số kết hợp $L_i$ sinh bởi 1 và $\rho_i(g)$ là một trường, một mở rộng hữu hạn của $K$ và do đó bằng $K$; và $M_{i-1}/M_i$ là một $L_i$-môđun đơn, do đó $\dim M_{i-1}/M_i = 1$. Phần còn lại của hệ quả là hiển nhiên.
 
@@ -187,15 +187,15 @@ Mọi iđêan đều là một phần của một chuỗi Jordan-Hölder của $
 
 #### Hệ quả 5 {#lie-i-s5-thm-1-cor-5 .statement}
 
-*Để một đại số Lie $g$ là giải được, điều kiện cần và đủ là $\mathcal{D}g$ lũy linh.*
+*Để một đại số Lie $g$ là giải được, điều kiện cần và đủ là $\mathscr{D}g$ lũy linh.*
 
-Điều kiện đó là cần theo Hệ quả 1. Nó là đủ vì $g/\mathcal{D}g$ là giao hoán.
+Điều kiện đó là cần theo Hệ quả 1. Nó là đủ vì $g/\mathscr{D}g$ là giao hoán.
 
 #### Hệ quả 6 {#lie-i-s5-thm-1-cor-6 .statement}
 
 *Cho $\varphi$ là một biểu diễn hữu hạn chiều của một đại số Lie $g$. Cho* r là căn của g. Mọi phần tử $x \in r$ sao cho $\rho(x)$ lũy linh đều thuộc iđêan lũy linh lớn nhất $n$ của $\rho$.
 
-Cho V là không gian của $\rho$; cho $(V_i)_{0 \leq i \leq r}$ là một chuỗi Jordan-Hölder đối với cấu trúc r-môđun trên V và cho $\rho_i$ là biểu diễn của r có không gian $V_i / V_{i-1}$ ($1 \leq i \leq r$). Nếu $\rho(x)$ lũy linh, thì $\rho_i(x)$ cũng vậy; vì với mọi $i$, đại số sinh bởi $\rho_i(x)$ là một trường, nên $\rho_i(x) = 0$. Ngược lại, nếu $\rho_i(x) = 0$ với mọi $i$, thì $\rho(x) = 0$. Điều này cho thấy rằng tập $a$ các $x \in r$ sao cho $\rho(x)$ lũy linh là một iđêan của r. Mặt khác, $[g, a] \subset \mathcal{D}g \cap r \subset n \cap r \subset a$ và do đó $a$ là một iđêan của g. Điều này chứng minh rằng $a \subset n$.
+Cho V là không gian của $\rho$; cho $(V_i)_{0 \leq i \leq r}$ là một chuỗi Jordan-Hölder đối với cấu trúc r-môđun trên V và cho $\rho_i$ là biểu diễn của r có không gian $V_i / V_{i-1}$ ($1 \leq i \leq r$). Nếu $\rho(x)$ lũy linh, thì $\rho_i(x)$ cũng vậy; vì với mọi $i$, đại số sinh bởi $\rho_i(x)$ là một trường, nên $\rho_i(x) = 0$. Ngược lại, nếu $\rho_i(x) = 0$ với mọi $i$, thì $\rho(x) = 0$. Điều này cho thấy rằng tập $a$ các $x \in r$ sao cho $\rho(x)$ lũy linh là một iđêan của r. Mặt khác, $[g, a] \subset \mathscr{D}g \cap r \subset n \cap r \subset a$ và do đó $a$ là một iđêan của g. Điều này chứng minh rằng $a \subset n$.
 
 #### Hệ quả 7 {#lie-i-s5-thm-1-cor-7 .statement}
 
@@ -237,11 +237,11 @@ Tồn tại một đa thức P không có số hạng hằng và có các hệ s
 
 *Cho g là một đại số Lie, M là một không gian vectơ hữu hạn chiều, ρ là một biểu diễn của g trên M và β là dạng song tuyến tính trên g liên kết với ρ. Khi đó ρ(g) là giải được khi và chỉ khi 𝒟g trực giao với g đối với β.*
 
-Hiển nhiên có thể quy về trường hợp g là một đại số con Lie của $\mathfrak{gl}(M)$ và ρ là ánh xạ đồng nhất. Nếu g giải được, 𝒟g được chứa trong iđêan lũy linh lớn nhất của biểu diễn đồng nhất của g (Định lý 1) và vì thế trực giao với g đối với β (§ 4, Mệnh đề 4 (d)). Giả sử rằng 𝒟g trực giao với g đối với β. Ta chứng minh rằng g giải được. Gọi T là tập hợp các $t \in \mathfrak{gl}(M)$ sao cho $[t, g] \subset \mathcal{D}g$. Nếu $t \in T$ và x, y thuộc g, thì $[t, x] \in \mathcal{D}g$ và do đó
+Hiển nhiên có thể quy về trường hợp g là một đại số con Lie của $\mathfrak{gl}(M)$ và ρ là ánh xạ đồng nhất. Nếu g giải được, 𝒟g được chứa trong iđêan lũy linh lớn nhất của biểu diễn đồng nhất của g (Định lý 1) và vì thế trực giao với g đối với β (§ 4, Mệnh đề 4 (d)). Giả sử rằng 𝒟g trực giao với g đối với β. Ta chứng minh rằng g giải được. Gọi T là tập hợp các $t \in \mathfrak{gl}(M)$ sao cho $[t, g] \subset \mathscr{D}g$. Nếu $t \in T$ và x, y thuộc g, thì $[t, x] \in \mathscr{D}g$ và do đó
 $$
 \mathrm{Tr}(t[x, y]) = \beta([t, x], y) = 0
 $$
-do đó theo tính tuyến tính $\mathrm{Tr}(tu) = 0$ với mọi $u \in \mathcal{D}g$. Ngoài ra, rõ ràng $\mathcal{D}g \subset T$. Vậy nên (Bổ đề 3) mọi phần tử của 𝒟g đều lũy linh. Suy ra 𝒟g là lũy linh (§ 4, Hệ quả 3 của Định lý 1) và vì thế g là giải được (no. 3, Hệ quả 5 của Định lý 1).
+do đó theo tính tuyến tính $\mathrm{Tr}(tu) = 0$ với mọi $u \in \mathscr{D}g$. Ngoài ra, rõ ràng $\mathscr{D}g \subset T$. Vậy nên (Bổ đề 3) mọi phần tử của 𝒟g đều lũy linh. Suy ra 𝒟g là lũy linh (§ 4, Hệ quả 3 của Định lý 1) và vì thế g là giải được (no. 3, Hệ quả 5 của Định lý 1).
 
 ### 5. CÁC TÍNH CHẤT BỔ SUNG CỦA CĂN
 
@@ -250,7 +250,7 @@ do đó theo tính tuyến tính $\mathrm{Tr}(tu) = 0$ với mọi $u \in \mathc
 *Cho g là một đại số Lie và r là căn của nó.*
 (a) *Nếu ρ là một biểu diễn hữu hạn chiều của g và β là dạng song tuyến tính liên kết, thì r và 𝒟g trực giao đối với β.*
 (b) *r là trực giao của 𝒟g đối với dạng Killing.*
-Cho x, y thuộc g, $z \in r$. Khi đó $[y, z] \in \mathcal{D}g \cap r$ và do đó
+Cho x, y thuộc g, $z \in r$. Khi đó $[y, z] \in \mathscr{D}g \cap r$ và do đó
 $$
 \beta([x, y], z) = \beta(x, [y, z]) = 0
 $$
@@ -259,7 +259,7 @@ Gọi r' là trực giao của 𝒟g đối với dạng Killing. Nó là một 
 
 #### Hệ quả 1 {#lie-i-s5-prop-5-cor-1 .statement}
 
-Cho g là một đại số Lie. Khi đó g giải được khi và chỉ khi $\mathcal{D}g$ trực giao với g đối với dạng Killing.
+Cho g là một đại số Lie. Khi đó g giải được khi và chỉ khi $\mathscr{D}g$ trực giao với g đối với dạng Killing.
 
 Đây là một hệ quả ngay lập tức của Mệnh đề 5 (b).
 
@@ -267,7 +267,7 @@ Cho g là một đại số Lie. Khi đó g giải được khi và chỉ khi $\
 
 Căn r của một đại số Lie g là một iđêan đặc trưng.
 
-$\mathcal{D}g$ là một iđêan đặc trưng và dạng Killing là hoàn toàn bất biến (§ 3, no. 6, Mệnh đề 10). Do đó trực giao của $\mathcal{D}g$ đối với dạng Killing là một iđêan đặc trưng (§ 3, no. 6, Mệnh đề 7 (b)).
+$\mathscr{D}g$ là một iđêan đặc trưng và dạng Killing là hoàn toàn bất biến (§ 3, no. 6, Mệnh đề 10). Do đó trực giao của $\mathscr{D}g$ đối với dạng Killing là một iđêan đặc trưng (§ 3, no. 6, Mệnh đề 7 (b)).
 
 #### Hệ quả 3 {#lie-i-s5-prop-5-cor-3 .statement}
 
@@ -299,9 +299,9 @@ Bao hàm thức r ⊃ t suy ra từ Mệnh đề 5 (b). Bao hàm thức t ⊃ n 
 
 ### 6. MỞ RỘNG TRƯỜNG CƠ SỞ
 
-Cho g là một đại số Lie trên K và K_1 là một mở rộng của K. Rõ ràng g_{(K_1)} là giải được khi và chỉ khi g giải được, vì $\mathcal{D}^n(g_{(K_1)}) = (\mathcal{D}^n g)_{(K_1)}$.
+Cho g là một đại số Lie trên K và K_1 là một mở rộng của K. Rõ ràng g_{(K_1)} là giải được khi và chỉ khi g giải được, vì $\mathscr{D}^n(g_{(K_1)}) = (\mathscr{D}^n g)_{(K_1)}$.
 
-Cho r là căn của g. Khi đó $r_{(K_1)}$ *là căn của* $g_{(K_1)}$. Thật vậy, gọi $\beta$ là dạng Killing của g. Vì r là trực giao của $\mathcal{D}g$ đối với $\beta$ (Mệnh đề 5 (b)), $r_{(K_1)}$ là trực giao của $(\mathcal{D}g)_{(K_1)} = \mathcal{D}(g_{(K_1)})$ đối với dạng suy ra từ $\beta$ bằng cách mở rộng từ K lên $K_1$, tức là dạng Killing của $g_{(K_1)}$ (§ 3, no. 8). Khi đó mệnh đề của chúng ta suy ra từ một lần áp dụng nữa của Mệnh đề 5 (b).
+Cho r là căn của g. Khi đó $r_{(K_1)}$ *là căn của* $g_{(K_1)}$. Thật vậy, gọi $\beta$ là dạng Killing của g. Vì r là trực giao của $\mathscr{D}g$ đối với $\beta$ (Mệnh đề 5 (b)), $r_{(K_1)}$ là trực giao của $(\mathscr{D}g)_{(K_1)} = \mathscr{D}(g_{(K_1)})$ đối với dạng suy ra từ $\beta$ bằng cách mở rộng từ K lên $K_1$, tức là dạng Killing của $g_{(K_1)}$ (§ 3, no. 8). Khi đó mệnh đề của chúng ta suy ra từ một lần áp dụng nữa của Mệnh đề 5 (b).
 
 ### Bài tập {#lie-i-s5-exercises}
 

@@ -24,7 +24,7 @@ subsections:
       pdf_page: 89
 statements: 6
 exercises: 5
-content_sha256: 171efc4b707890c8545675e5949c9fa0c52aa22c4aff998479bf8acf06ccda8c
+content_sha256: 06912ea90c9940765d00c45847350fa4dcdc04aa52a9af4e734b0908f320d61f
 translated_from: content/en/lie/I/07_s7_ado_s_theorem.md
 source_content_sha256: 88c99569fd7f93541de8470999a923ed72c5b349486bddb4207865298e2f0c53
 translation_model: gpt-5.4, copied
@@ -46,7 +46,7 @@ Cho U là một đại số kết hợp có phần tử đơn vị trên K, U* l
 
 ### 2. ĐỊNH LÝ MỞ RỘNG
 
-Cho $g = h + g'$ là một đại số Lie là tổng trực tiếp của một iđêan $g'$ và một đại số con $h$, U là đại số bao của g và $U' \subset U$ là đại số bao của $g'$. Tồn tại một và chỉ một cấu trúc môđun trên $U'$ sao cho: (α) với $x \in g'$ và $u \in U'$, $x_{U'}u = -ux$; (β) với $x \in h$ và $u \in U'$, $x_{U'}u = xu - ux$ (phần tử sau này chắc chắn thuộc $U'$ vì đạo hàm nội của U được định nghĩa bởi x giữ ổn định $g'$ và do đó giữ ổn định $U'$). Các điều kiện (α) và (β) xác định duy nhất một ánh xạ tuyến tính $x \mapsto x_{U'}$ từ g vào $\mathcal{L}_K(U')$. Do đó chỉ cần kiểm tra rằng $[x, y]_{U'} = [x_{U'}, y_{U'}]$; chỉ cần xét các trường hợp sau:
+Cho $g = h + g'$ là một đại số Lie là tổng trực tiếp của một iđêan $g'$ và một đại số con $h$, U là đại số bao của g và $U' \subset U$ là đại số bao của $g'$. Tồn tại một và chỉ một cấu trúc môđun trên $U'$ sao cho: (α) với $x \in g'$ và $u \in U'$, $x_{U'}u = -ux$; (β) với $x \in h$ và $u \in U'$, $x_{U'}u = xu - ux$ (phần tử sau này chắc chắn thuộc $U'$ vì đạo hàm nội của U được định nghĩa bởi x giữ ổn định $g'$ và do đó giữ ổn định $U'$). Các điều kiện (α) và (β) xác định duy nhất một ánh xạ tuyến tính $x \mapsto x_{U'}$ từ g vào $\mathscr{L}_K(U')$. Do đó chỉ cần kiểm tra rằng $[x, y]_{U'} = [x_{U'}, y_{U'}]$; chỉ cần xét các trường hợp sau:
 
 (1) $x \in g', y \in g'$: khi đó
 $$

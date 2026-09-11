@@ -49,9 +49,9 @@ subsections:
       pdf_page: 43
 statements: 22
 exercises: 10
-content_sha256: e9d1fd242912964f7949543e89447a8144dd5be846fb7c9faa70c09b8e7f6b24
+content_sha256: ff054ade741be90828fea1c90bf92fe3845a644b4ffd62b30dabd5dfb52a1521
 translated_from: content/en/lie/I/02_s2_enveloping_algebra_of_a_lie_algebra.md
-source_content_sha256: 70815c8f0c59caa459ae983d4d4afb3ca7aaff673e5632c3fd9b6438da4a9e5f
+source_content_sha256: 0045df6d9c94b39f1c58540ba5107f338fcb8acaabd3d92f8e198096c03665ac
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-a4a762ec
 glossary_version: 34
@@ -369,18 +369,18 @@ $$
 
 #### Bổ đề 2 {#lie-i-s2-lem-2 .statement}
 
-*Có một ánh xạ $\alpha$ $\sigma$ của $g$ vào $\mathcal{L}_{K}(P)$ sao cho:*
+*Có một ánh xạ $\alpha$ $\sigma$ của $g$ vào $\mathscr{L}_{K}(P)$ sao cho:*
 
 (1) $\sigma(x_{\lambda})z_{M} = z_{\lambda}z_{M}$ đối với $\lambda \leq M$;
 (2) $\sigma(x_{\lambda})z_{M} \equiv z_{\lambda}z_{M}$ (mod. $P_{p}$) nếu $M$ có $p$ phần tử.
 
-Theo Bổ đề 1 tồn tại một đồng cấu $f$ của K-môđun $g \otimes_{K} P_{p}$ vào $P$ thỏa mãn, với mọi $p$, các điều kiện (A$_{p}$), (B$_{p}$), (C$_{p}$) (trong đó $f_{p}$ được thay bởi $f$). Đồng cấu này xác định một đồng cấu $\sigma$ của K-môđun $g$ vào K-môđun $\mathcal{L}_{K}(P)$ và $\sigma$ là một ánh xạ $\alpha$ do điều kiện (C$_{p}$). Cuối cùng, $\sigma$ thỏa mãn các tính chất (1) và (2) của bổ đề do các điều kiện (A$_{p}$) và (B$_{p}$).
+Theo Bổ đề 1 tồn tại một đồng cấu $f$ của K-môđun $g \otimes_{K} P_{p}$ vào $P$ thỏa mãn, với mọi $p$, các điều kiện (A$_{p}$), (B$_{p}$), (C$_{p}$) (trong đó $f_{p}$ được thay bởi $f$). Đồng cấu này xác định một đồng cấu $\sigma$ của K-môđun $g$ vào K-môđun $\mathscr{L}_{K}(P)$ và $\sigma$ là một ánh xạ $\alpha$ do điều kiện (C$_{p}$). Cuối cùng, $\sigma$ thỏa mãn các tính chất (1) và (2) của bổ đề do các điều kiện (A$_{p}$) và (B$_{p}$).
 
 #### Bổ đề 3 {#lie-i-s2-lem-3 .statement}
 
 *Cho $t$ là một tenxơ trong $T_{n} \cap J$. Thành phần thuần nhất $t_{n}$ của $t$ có cấp $n$ nằm trong hạt nhân $I$ của đồng cấu chính tắc $T \to S$.*
 
-Ta viết $t_{n}$ dưới dạng $\sum_{i=1}^{r} x_{M_{i}}$, trong đó các $M_{i}$ là các dãy gồm $n$ phần tử của $\Lambda$. Ánh xạ $\sigma$ mở rộng thành một đồng cấu của đại số $T$ vào đại số $\mathcal{L}_{K}(P)$ (mà ta cũng sẽ ký hiệu là $\sigma$), bằng không trên $J$. Theo Bổ đề 2, $\sigma(t) . 1$ là một đa thức mà các số hạng có bậc cao nhất là $\sum_{i=1}^{r} z_{M_{i}}$. Vì $t \in J$, nên $\sigma(t) = 0$ và do đó $\sum_{i=1}^{r} z_{M_{i}} = 0$ trong $P$. Bây giờ $P$ được đồng nhất một cách chính tắc với $S$, vì $g$ có cơ sở $(x_{\lambda})$. Vì thế ảnh chính tắc của $t_{n}$ trong $S$ là không, tức là $t_{n} \in I$.
+Ta viết $t_{n}$ dưới dạng $\sum_{i=1}^{r} x_{M_{i}}$, trong đó các $M_{i}$ là các dãy gồm $n$ phần tử của $\Lambda$. Ánh xạ $\sigma$ mở rộng thành một đồng cấu của đại số $T$ vào đại số $\mathscr{L}_{K}(P)$ (mà ta cũng sẽ ký hiệu là $\sigma$), bằng không trên $J$. Theo Bổ đề 2, $\sigma(t) . 1$ là một đa thức mà các số hạng có bậc cao nhất là $\sum_{i=1}^{r} z_{M_{i}}$. Vì $t \in J$, nên $\sigma(t) = 0$ và do đó $\sum_{i=1}^{r} z_{M_{i}} = 0$ trong $P$. Bây giờ $P$ được đồng nhất một cách chính tắc với $S$, vì $g$ có cơ sở $(x_{\lambda})$. Vì thế ảnh chính tắc của $t_{n}$ trong $S$ là không, tức là $t_{n} \in I$.
 
 Bây giờ ta có thể chứng minh Định lý 1. Cần chứng minh rằng đồng cấu chính tắc của $S$ lên $G$ là đơn ánh. Nói cách khác, nếu $t \in T^{n}$ và $\psi$ ký hiệu đồng cấu chính tắc của $T$ lên $U$, thì cần chỉ ra rằng điều kiện $\psi(t) \in U_{n-1}$ kéo theo $t \in I$. Mà $\psi(t) \in U_{n-1}$ có nghĩa là tồn tại một tenxơ $t' \in T_{n-1}$ sao cho $t - t' \in J$. Tenxơ $t - t'$ nhận $t$ làm thành phần thuần nhất cấp $n$ và do đó $t \in I$ theo Bổ đề 3.
 

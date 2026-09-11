@@ -29,7 +29,7 @@ subsections:
       pdf_page: 98
 statements: 19
 exercises: 21
-content_sha256: 93e4c319c21be908a193f2f6906ef53a7e8cff336950b91423ecc75719056b5b
+content_sha256: 58b5e01c5d61579a4018cfda407aea95fbdca2f8ac437e6c0e9de1cd4ddeecc5
 ---
 
 ## § 9. OPÉRATIONS DES GROUPES DE LIE COMPACTS SUR LES VARIÉTÉS
@@ -71,19 +71,19 @@ Dans la suite de ce numéro, on suppose $r \neq \omega$.
 
 #### Proposition 3 {#lie-ix-s9-prop-3 .statement tag=01HH}
 
-*Soit A une partie compacte de X. L’ensemble $\mathcal{P}$ des morphismes $\varphi \in \mathcal{C}^r(X;Y)$ qui sont des plongements au voisinage de A est ouvert dans $\mathcal{C}^r(X;Y)$ pour la topologie de la $C^r$-convergence compacte (§ 6, no 4).*
+*Soit A une partie compacte de X. L’ensemble $\mathscr{P}$ des morphismes $\varphi \in \mathscr{C}^r(X;Y)$ qui sont des plongements au voisinage de A est ouvert dans $\mathscr{C}^r(X;Y)$ pour la topologie de la $C^r$-convergence compacte (§ 6, no 4).*
 
 Il suffit évidemment de démontrer la proposition pour $r = 1$.
 
-*a)* Montrons d’abord que la partie J de $\mathcal{C}^1(X;Y)$ formée des morphismes qui sont des immersions en tout point de A est ouverte. Considérons l’application $j_A : \mathcal{C}^1(X;Y) \times A \to J^1(X,Y)$ telle que $j_A(\varphi, x) = j_x^1(\varphi)$ (VAR, R, 12.1).
+*a)* Montrons d’abord que la partie J de $\mathscr{C}^1(X;Y)$ formée des morphismes qui sont des immersions en tout point de A est ouverte. Considérons l’application $j_A : \mathscr{C}^1(X;Y) \times A \to J^1(X,Y)$ telle que $j_A(\varphi, x) = j_x^1(\varphi)$ (VAR, R, 12.1).
 
-Par définition de la topologie de $\mathcal{C}^1(X;Y)$, l’application $\tilde{j}_A : \varphi \mapsto j_A(\varphi, .)$ de $\mathcal{C}^1(X;Y)$ dans $\mathcal{C}(A;J^1(X,Y))$ est continue ; on déduit alors de TG, X, p. 28, th. 3 que $j_A$ est continue.
+Par définition de la topologie de $\mathscr{C}^1(X;Y)$, l’application $\tilde{j}_A : \varphi \mapsto j_A(\varphi, .)$ de $\mathscr{C}^1(X;Y)$ dans $\mathscr{C}(A;J^1(X,Y))$ est continue ; on déduit alors de TG, X, p. 28, th. 3 que $j_A$ est continue.
 
-D’autre part, soit M l’ensemble des jets $j$ de $J^1(X,Y)$ dont l’application tangente $T(j) : T_{s(j)}(X) \to T_{b(j)}(Y)$ (VAR, R, 12.3.4) est injective. L’ensemble M est ouvert dans $J^1(X,Y)$ : en effet, il suffit de vérifier cette assertion lorsque X est un ouvert d’un espace vectoriel $\mathbf{E}$ de dimension finie, et Y un ouvert d’un espace de Banach F ; on est alors ramené (VAR, R, 12.3.1) à prouver que l’ensemble des applications linéaires continues injectives est ouvert dans $\mathcal{L}(E;F)$, ce qui résulte de TS, III, § 2, no 7, prop. 16.
+D’autre part, soit M l’ensemble des jets $j$ de $J^1(X,Y)$ dont l’application tangente $T(j) : T_{s(j)}(X) \to T_{b(j)}(Y)$ (VAR, R, 12.3.4) est injective. L’ensemble M est ouvert dans $J^1(X,Y)$ : en effet, il suffit de vérifier cette assertion lorsque X est un ouvert d’un espace vectoriel $\mathbf{E}$ de dimension finie, et Y un ouvert d’un espace de Banach F ; on est alors ramené (VAR, R, 12.3.1) à prouver que l’ensemble des applications linéaires continues injectives est ouvert dans $\mathscr{L}(E;F)$, ce qui résulte de TS, III, § 2, no 7, prop. 16.
 
-On conclut de ce qui précède que l’ensemble $j_A^{-1}(M)$ est ouvert dans $\mathcal{C}^1(X;\overline{Y}) \times A$, donc que son complémentaire $\mathcal{F}$ est fermé. Puisque A est compact, la projection $\mathrm{pr}_1 : \mathcal{C}^1(X;Y) \times A \to \mathcal{C}^1(X;Y)$ est un morphisme propre, donc fermé ; par conséquent l’ensemble J, qui est égal à $\mathcal{C}^1(X;Y) - \mathrm{pr}_1(\mathcal{F})$, est ouvert dans $\mathcal{C}^1(X;Y)$.
+On conclut de ce qui précède que l’ensemble $j_A^{-1}(M)$ est ouvert dans $\mathscr{C}^1(X;\overline{Y}) \times A$, donc que son complémentaire $\mathscr{F}$ est fermé. Puisque A est compact, la projection $\mathrm{pr}_1 : \mathscr{C}^1(X;Y) \times A \to \mathscr{C}^1(X;Y)$ est un morphisme propre, donc fermé ; par conséquent l’ensemble J, qui est égal à $\mathscr{C}^1(X;Y) - \mathrm{pr}_1(\mathscr{F})$, est ouvert dans $\mathscr{C}^1(X;Y)$.
 
-*b)* Soit H le sous-ensemble de $J \times A \times A$ formé des éléments $(f, x, y)$ tels que $f(x) = f(y)$. Il est clair que H contient $J \times \Delta$, où $\Delta$ désigne la diagonale du produit $A \times A$ ; montrons que $H' = H - (J \times \Delta)$ est fermé dans $J \times A \times A$. Comme $\mathcal{P}$ est le complémentaire dans J de l’image de H’ par la projection propre $\mathrm{pr}_1 : J \times A \times A \to J$, cela entraînera la proposition.
+*b)* Soit H le sous-ensemble de $J \times A \times A$ formé des éléments $(f, x, y)$ tels que $f(x) = f(y)$. Il est clair que H contient $J \times \Delta$, où $\Delta$ désigne la diagonale du produit $A \times A$ ; montrons que $H' = H - (J \times \Delta)$ est fermé dans $J \times A \times A$. Comme $\mathscr{P}$ est le complémentaire dans J de l’image de H’ par la projection propre $\mathrm{pr}_1 : J \times A \times A \to J$, cela entraînera la proposition.
 
 La topologie de $C^1(X; Y)$ étant plus fine que la topologie de la convergence compacte, l’application $(\varphi, x) \mapsto \varphi(x)$ de $C^1(X, Y) \times A$ dans $Y$ est continue (TG, X, p. 28, cor. 1); on en déduit que $H$ est fermé dans $J \times A \times A$. Il suffit donc de montrer que $J \times \Delta$ est ouvert dans $H$, autrement dit que pour tout $\varphi \in J$ et tout $x \in A$, il existe un voisinage $\Omega$ de $\varphi$ dans $J$ et un voisinage $B$ de $x$ dans $X$ tels que pour tout morphisme $\psi$ de $\Omega$, la restriction de $\psi$ à $A \cap B$ soit injective.
 
@@ -135,7 +135,7 @@ Soient $G$ un groupe de Lie compact, $(g, x) \mapsto gx$ une loi d’opération 
 
 Remplaçant $A$ par la partie compacte $GA$, on se ramène au cas où $A$ est stable par $G$.
 
-Soit $E_0$ un espace vectoriel de dimension finie tel qu’il existe un élément de $\mathcal{C}^r(X; E_0)$ qui soit un plongement au voisinage de $A$ (no 1, prop. 4); l’ensemble $\mathcal{P}$ des morphismes possédant cette propriété est donc un ouvert non vide de $\mathcal{C}^r(X; E_0)$ (no 1, prop. 3). Considérons la représentation linéaire continue du groupe compact $G$ dans l’espace $\mathcal{C}^r(X; E_0)$ (§ 6, no 4, lemme 4). D’après le théorème de Peter-Weyl (TS, à paraître), la réunion des sous-espaces de dimension finie, stables par $G$, est dense dans $\mathcal{C}^r(X; E_0)$; il existe donc un élément $\varphi_0$ de $\mathcal{P}$ tel que les applications $x \mapsto \varphi_0(gx)$, pour $g \in G$, engendrent un sous-espace vectoriel $E_1$ de *dimension finie* de $\mathcal{C}^r(X; E_0)$, évidemment stable pour l’action de $G$.
+Soit $E_0$ un espace vectoriel de dimension finie tel qu’il existe un élément de $\mathscr{C}^r(X; E_0)$ qui soit un plongement au voisinage de $A$ (no 1, prop. 4); l’ensemble $\mathscr{P}$ des morphismes possédant cette propriété est donc un ouvert non vide de $\mathscr{C}^r(X; E_0)$ (no 1, prop. 3). Considérons la représentation linéaire continue du groupe compact $G$ dans l’espace $\mathscr{C}^r(X; E_0)$ (§ 6, no 4, lemme 4). D’après le théorème de Peter-Weyl (TS, à paraître), la réunion des sous-espaces de dimension finie, stables par $G$, est dense dans $\mathscr{C}^r(X; E_0)$; il existe donc un élément $\varphi_0$ de $\mathscr{P}$ tel que les applications $x \mapsto \varphi_0(gx)$, pour $g \in G$, engendrent un sous-espace vectoriel $E_1$ de *dimension finie* de $\mathscr{C}^r(X; E_0)$, évidemment stable pour l’action de $G$.
 
 Prenons alors pour $E$ l’espace $\mathrm{Hom}_{\mathbf{R}}(E_1, E_0)$, pour $\rho$ la représentation de $G$ dans $E$ déduite de l’action sur $E_1$, et pour $\varphi : X \to E$ l’application qui à $x \in X$ associe l’application linéaire $\psi \mapsto \psi(x)$ de $E_1$ dans $E_0$. C’est un morphisme de classe $C^r$; pour $x \in X, g \in G, \psi \in E_1$, on a (en notant $\tau(g)$ l’automorphisme $x \mapsto gx$ de $X$) :
 
@@ -163,7 +163,7 @@ Supposons $X$ paracompacte. Il existe un espace hilbertien réel $E$, une repré
 
 L’espace $X/G$ est localement compact (TG, III, p. 33, prop. 11). Ses composantes connexes sont les images des composantes connexes de $X$, qui sont dénombrables à l’infini (TG, I, p. 70, th. 5) ; elles sont donc elles-mêmes dénombrables à l’infini, ce qui entraîne que $X/G$ est paracompact (loc. cit.). Il existe donc un recouvrement localement fini $(U'_\alpha)_{\alpha \in I}$ de $X/G$ par des ouverts relativement compacts, et un recouvrement $(V'_\alpha)_{\alpha \in I}$ tel que $\overline{V}'_\alpha \subset U'_\alpha$ pour tout $\alpha \in I$ (TG, IX, p. 48, cor. 1) ; par image réciproque, on en déduit deux recouvrements localement finis $(U_\alpha)_{\alpha \in I}$ et $(V_\alpha)_{\alpha \in I}$ de $X$ par des ouverts relativement compacts stables par $G$, tels que $\overline{V}_\alpha \subset U_\alpha$ pour tout $\alpha \in I$.
 
-Pour tout $\alpha \in I$, il existe une représentation $\rho_\alpha$ de $G$ dans un espace vectoriel réel $E_\alpha$ de dimension finie et un morphisme $\varphi_\alpha \in \mathcal{C}^r(X; E_\alpha)$, compatible aux opérations de $G$, dont la restriction à $U_\alpha$ est un plongement (th. 1). Pour $\alpha \in I$, soit $a_\alpha$ une fonction numérique de classe $C^r$ sur $X$, égale à 1 sur $V_\alpha$ et à 0 en dehors de $U_\alpha$ (VAR, R, 5.3.6).
+Pour tout $\alpha \in I$, il existe une représentation $\rho_\alpha$ de $G$ dans un espace vectoriel réel $E_\alpha$ de dimension finie et un morphisme $\varphi_\alpha \in \mathscr{C}^r(X; E_\alpha)$, compatible aux opérations de $G$, dont la restriction à $U_\alpha$ est un plongement (th. 1). Pour $\alpha \in I$, soit $a_\alpha$ une fonction numérique de classe $C^r$ sur $X$, égale à 1 sur $V_\alpha$ et à 0 en dehors de $U_\alpha$ (VAR, R, 5.3.6).
 
 Posons $b_\alpha(x) = \int_G a_\alpha(gx) \, dx$ pour $x \in X$. La fonction $b_\alpha$ est de classe $C^r$, invariante par $G$ (§ 6, n° 4, cor. 2), égale à 1 sur $V_\alpha$ et à 0 en dehors de $U_\alpha$. Munissons chaque $E_\alpha$ d’un produit scalaire hilbertien invariant par $G$ (§ 1, n° 1), et $R$ de sa structure hilbertienne canonique ; soit $E$ l’espace somme hilbertienne de la famille $(E_\alpha \oplus R)_{\alpha \in I}$, et soit $\rho$ la représentation de $G$ dans $E$ déduite des $\rho_\alpha$ et de l’action triviale de $G$ sur $R$.
 
@@ -240,11 +240,11 @@ Sous les conditions de la proposition 6, l’image de $\alpha$ est un voisinage 
 Soit $G$ un groupe topologique opérant continûment dans un espace topologique séparé $E$. Pour chaque point $x$ de $E$, notons $G_x$ le fixateur de $x$ dans $G$, et supposons que l’application canonique $G/G_x \to Gx$ soit un homéomorphisme; c’est le cas notamment dans les deux cas suivants :
 a) les topologies de $G$ et $E$ sont discrètes ;
 b) $G$ opère proprement dans $E$ (TG, III, p. 29, prop. 4), par exemple, $G$ est compact (TG, III, p. 28, prop. 2).
-Notons $\mathcal{C}$ l’ensemble des classes de conjugaison de sous-groupes fermés de $G$.
+Notons $\mathscr{C}$ l’ensemble des classes de conjugaison de sous-groupes fermés de $G$.
 
-Pour tout $x \in E$, on appelle *type de l’orbite* de $x$, ou parfois type de $x$, la classe dans $\mathcal{C}$ de $G_x$; deux points d’une même orbite ont même type d’orbite (A, I, p. 52, prop. 2); deux orbites sont de même type si et seulement si elles sont isomorphes comme $G$-ensembles (A, I, p. 57, th. 1). Pour tout $t \in \mathcal{C}$, on note $E_{(t)}$ l’ensemble des points de $E$ de type $t$, c’est-à-dire la réunion des orbites de type $t$; c’est une partie stable de $E$. Pour $H \in t$, on écrit aussi $E_{(H)}$ pour $E_{(t)}$; par exemple, $E_{(G)}$ est le sous-espace fermé de $E$ formé des points fixés par $G$.
+Pour tout $x \in E$, on appelle *type de l’orbite* de $x$, ou parfois type de $x$, la classe dans $\mathscr{C}$ de $G_x$; deux points d’une même orbite ont même type d’orbite (A, I, p. 52, prop. 2); deux orbites sont de même type si et seulement si elles sont isomorphes comme $G$-ensembles (A, I, p. 57, th. 1). Pour tout $t \in \mathscr{C}$, on note $E_{(t)}$ l’ensemble des points de $E$ de type $t$, c’est-à-dire la réunion des orbites de type $t$; c’est une partie stable de $E$. Pour $H \in t$, on écrit aussi $E_{(H)}$ pour $E_{(t)}$; par exemple, $E_{(G)}$ est le sous-espace fermé de $E$ formé des points fixés par $G$.
 
-Munissons $\mathcal{C}$ de la relation de préordre suivante
+Munissons $\mathscr{C}$ de la relation de préordre suivante
 
 $$
 t \leq t' \iff \text{il existe } H \in t \text{ et } H' \in t' \text{ tels que } H \supset H'.
@@ -262,31 +262,31 @@ Soient $x, x'$ dans $E$, $t$ et $t'$ leurs types ; pour que $t \leq t'$, il faut
 
 *b)* *Soient $H$ et $H'$ deux sous-groupes compacts de $G$, tels que $H \subset H'$ et qu’il existe un isomorphisme (de groupes topologiques) de $H'$ sur $H$. On a alors $H = H'$.*
 
-*c)* *Muni de la relation $t \leq t'$, l’ensemble $\mathcal{C}$ est un ensemble ordonné noethérien* (E, III, p. 51).
+*c)* *Muni de la relation $t \leq t'$, l’ensemble $\mathscr{C}$ est un ensemble ordonné noethérien* (E, III, p. 51).
 
 *a)* Soit $(H_i)_{i \geq 1}$ une suite décroissante de sous-groupes compacts de $G$; ce sont des sous-groupes de Lie (III, § 8, n° 2, th. 2). La suite d’entiers $(\dim H_i)_{i \geq 1}$ est décroissante, donc stationnaire, et il existe un entier $N$ tel que les sous-groupes $H_i$ aient tous la même composante neutre pour $i \geq N$. Alors la suite décroissante d’entiers positifs $(H_i : (H_i)_0)_{i \geq N}$ est stationnaire, donc on a $H_i = H_{i+1}$ pour $i$ assez grand.
 
 *b)* Soit $f$ un isomorphisme de $H'$ sur $H$. La suite $(f^n(H))_{n \geq 0}$ est une suite décroissante de sous-groupes compacts de $G$, de sorte qu’on a $f^n(H) = f^{n+1}(H)$ pour $n$ assez grand, d’après *a)*. Comme $f$ est un isomorphisme, ceci entraîne $f(H) = H = f(H')$, d’où $H = H'$.
 
-*c)* Soient $t, t' \in \mathcal{C}$ tels que $t \leq t'$ et $t' \leq t$. Il existe alors $H, H_1 \in t$ et $H', H'_1 \in t'$ tels que $H \supset H'$ et $H_1 \subset H'_1$. Soient $g$ et $g'$ deux éléments de $G$ tels que $H_1 = g H g^{-1}$ et $H'_1 = g' H' {g'}^{-1}$; posons $u = {g'}^{-1} g$. On a
+*c)* Soient $t, t' \in \mathscr{C}$ tels que $t \leq t'$ et $t' \leq t$. Il existe alors $H, H_1 \in t$ et $H', H'_1 \in t'$ tels que $H \supset H'$ et $H_1 \subset H'_1$. Soient $g$ et $g'$ deux éléments de $G$ tels que $H_1 = g H g^{-1}$ et $H'_1 = g' H' {g'}^{-1}$; posons $u = {g'}^{-1} g$. On a
 
 $$
 u H u^{-1} \subset H' \subset H ;
 $$
 
-d’après *b)*, ceci entraîne $u H u^{-1} = H$, donc $H' = H$ et $t' = t$. L’ensemble $\mathcal{C}$ est donc ordonné, et noethérien d’après *a)*.
+d’après *b)*, ceci entraîne $u H u^{-1} = H$, donc $H' = H$ et $t' = t$. L’ensemble $\mathscr{C}$ est donc ordonné, et noethérien d’après *a)*.
 
 #### Théorème 2 {#lie-ix-s9-thm-2 .statement tag=01HU}
 
 *Soit $G$ un groupe de Lie opérant proprement sur $X$, de façon que la loi d’opération $(g, x) \mapsto gx$ soit de classe $C^r$. On suppose $X$ paracompacte.*
 
-*a)* *L’application qui, à chaque point de $X$, associe son type d’orbite, possède la propriété de semi-continuité suivante : soit $x \in X$ et soit $t \in \mathcal{C}$ son type d’orbite ; il existe un voisinage ouvert stable $U$ de $x$ tel que, pour tout $u \in U$, le type de $u$ soit $\geq t$.*
+*a)* *L’application qui, à chaque point de $X$, associe son type d’orbite, possède la propriété de semi-continuité suivante : soit $x \in X$ et soit $t \in \mathscr{C}$ son type d’orbite ; il existe un voisinage ouvert stable $U$ de $x$ tel que, pour tout $u \in U$, le type de $u$ soit $\geq t$.*
 
-b) Pour tout $t \in \mathcal{T}$, $X_{(t)}$ est une sous-variété de $X$, la relation d'équivalence dans $X_{(t)}$ déduite de l'opération de $G$ est régulière (VAR, R, 5.9.5), et le morphisme $X_{(t)} \to X_{(t)}/G$ est une fibration.
+b) Pour tout $t \in \mathscr{T}$, $X_{(t)}$ est une sous-variété de $X$, la relation d'équivalence dans $X_{(t)}$ déduite de l'opération de $G$ est régulière (VAR, R, 5.9.5), et le morphisme $X_{(t)} \to X_{(t)}/G$ est une fibration.
 
 c) Supposons $X/G$ connexe. Alors l'ensemble des types d'orbite des éléments de $X$ possède un plus grand élément $\tau$; de plus, $X_{(\tau)}$ est une partie ouverte et dense de $X$ et $X_{(\tau)}/G$ est connexe.
 
-Soient $x$ un point de $X$ et $t \in \mathcal{T}$ son type. Pour démontrer a) et b), on peut remplacer $X$ par un ouvert stable contenant $x$, donc (prop. 6) supposer que $X$ est de la forme $G \times^H W$, où $W$ est l'espace d'une représentation linéaire analytique de dimension finie d'un sous-groupe compact $H$ de $G$, le point $x$ étant l'image $p(e, 0)$ de $(e, 0) \in G \times W$ par la projection canonique $p : G \times W \to G \times^H W$. Si $u = p(g, y) \in G \times^H W$ et $a \in G$, alors $au = u$ si et seulement s'il existe $h \in H$ avec $(ag, y) = (gh^{-1}, hy)$ c'est-à-dire si $a \in gH_yg^{-1}$. On a donc $G_u = gH_yg^{-1}$; en particulier $G_x = H$, donc $G_u$ est conjugué à un sous-groupe de $G_x$, ce qui prouve que le type de $u$ est $\geq t$, d'où a).
+Soient $x$ un point de $X$ et $t \in \mathscr{T}$ son type. Pour démontrer a) et b), on peut remplacer $X$ par un ouvert stable contenant $x$, donc (prop. 6) supposer que $X$ est de la forme $G \times^H W$, où $W$ est l'espace d'une représentation linéaire analytique de dimension finie d'un sous-groupe compact $H$ de $G$, le point $x$ étant l'image $p(e, 0)$ de $(e, 0) \in G \times W$ par la projection canonique $p : G \times W \to G \times^H W$. Si $u = p(g, y) \in G \times^H W$ et $a \in G$, alors $au = u$ si et seulement s'il existe $h \in H$ avec $(ag, y) = (gh^{-1}, hy)$ c'est-à-dire si $a \in gH_yg^{-1}$. On a donc $G_u = gH_yg^{-1}$; en particulier $G_x = H$, donc $G_u$ est conjugué à un sous-groupe de $G_x$, ce qui prouve que le type de $u$ est $\geq t$, d'où a).
 
 Par ailleurs, pour que $u$ soit de type $t$, il faut et il suffit que $G_u$ soit conjugué à $H$ dans $G$, ou encore que $H_y$ soit conjugué à $H$ dans $G$; d'après le lemme 6, b), cela signifie que $H_y = H$, donc que $y$ est fixé par $H$. Si $W'$ est le sous-espace vectoriel de $W$ formé des éléments fixés par $H$, il en résulte que $X_{(t)}$ s'identifie à $G \times^H W'$, donc aussi à $G/H \times W'$, d'où b).
 

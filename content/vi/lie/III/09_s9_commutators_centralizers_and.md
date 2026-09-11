@@ -44,9 +44,9 @@ subsections:
       pdf_page: 373
 statements: 54
 exercises: 29
-content_sha256: 515b212819822fba7b5d5c8d6eab9cb83656785cd05793c31db2975501a22109
+content_sha256: 17d66a472945e822d2c5c8698fa36404403eb08f665bf80cdc65e97bb5f24591
 translated_from: content/en/lie/III/09_s9_commutators_centralizers_and.md
-source_content_sha256: a0d76f13d817b70a22b12f45de447b6a9c8c39525973c423bb1221a046edddf9
+source_content_sha256: e3449c4d1dda5a12354d4f2af8f0330d18e171c8a3e0add10575476595ce9fd3
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-36e3818b
 glossary_version: 34
@@ -182,11 +182,11 @@ Mệnh đề thứ nhất suy ra từ Mệnh đề 4 bằng quy nạp theo $i$. 
 
 Lấy $a = L(A)$. Gọi $G_1$ là tập hợp các $g \in G$ sao cho
 
-$$(\mathrm{Ad}\, g)x \equiv x \pmod{\mathcal{D}a} \quad \text{với mọi } x \in a.$$
+$$(\mathrm{Ad}\, g)x \equiv x \pmod{\mathscr{D}a} \quad \text{với mọi } x \in a.$$
 
-Khi đó $G_1$ là một nhóm con đóng của $G$. Nếu $y \in a$, thì $\exp y \in G_1$, theo § 6, no. 4, Hệ quả 3 (ii) của Mệnh đề 10. Do đó $G_1$ chứa $A$ và vì vậy chứa $\overline{A}$. Như vậy, với $g \in \overline{A}$, $L(\mathrm{Int}\, g)$ giữ $a$ ổn định và do đó $\mathrm{Int}\, g$ giữ $A$ ổn định; chính xác hơn, $L(\mathrm{Int}\, g)$ xác định tự đẳng cấu đồng nhất của $a/\mathcal{D}a$ và do đó $\mathrm{Int}\, g$ xác định tự đẳng cấu đồng nhất của $A/DA$. Điều này chứng minh rằng $(\overline{A}, A) \subset DA$. Với cấu trúc nhóm Lie thực trên $G$, $\overline{A}$ là một nhóm con Lie (§ 8, no. 2, Định lý 2); gọi $b$ là đại số Lie của nó. Gọi $G_2$ là tập hợp các $g \in G$ sao cho
+Khi đó $G_1$ là một nhóm con đóng của $G$. Nếu $y \in a$, thì $\exp y \in G_1$, theo § 6, no. 4, Hệ quả 3 (ii) của Mệnh đề 10. Do đó $G_1$ chứa $A$ và vì vậy chứa $\overline{A}$. Như vậy, với $g \in \overline{A}$, $L(\mathrm{Int}\, g)$ giữ $a$ ổn định và do đó $\mathrm{Int}\, g$ giữ $A$ ổn định; chính xác hơn, $L(\mathrm{Int}\, g)$ xác định tự đẳng cấu đồng nhất của $a/\mathscr{D}a$ và do đó $\mathrm{Int}\, g$ xác định tự đẳng cấu đồng nhất của $A/DA$. Điều này chứng minh rằng $(\overline{A}, A) \subset DA$. Với cấu trúc nhóm Lie thực trên $G$, $\overline{A}$ là một nhóm con Lie (§ 8, no. 2, Định lý 2); gọi $b$ là đại số Lie của nó. Gọi $G_2$ là tập hợp các $g \in G$ sao cho
 
-$$(\mathrm{Ad}\, g)x \equiv x \pmod{\mathcal{D}a} \quad \text{với mọi } x \in b.$$
+$$(\mathrm{Ad}\, g)x \equiv x \pmod{\mathscr{D}a} \quad \text{với mọi } x \in b.$$
 
 Theo trên, $G_2 \supseteq A$ và do đó $G_2 \supseteq \overline{A}$. Vì vậy, với $g \in \overline{A}$, Int $g$ giữ DA ổn định và xác định tự đẳng cấu đồng nhất của $\overline{A}/DA$. Do đó $DA \supseteq D\overline{A}$.
 
@@ -206,17 +206,17 @@ Theo Mệnh đề 3, đại số con Lie tiếp xúc với $(A', B')$ tại $e$ 
 
 #### Hệ quả {#lie-iii-s9-n2-cor-2 .statement}
 
-*Giả sử rằng K là ultrametric. Cho G là một nhóm Lie hữu hạn chiều với đại số Lie g. Tồn tại một nhóm con mở $G_0$ của G sao cho, với mọi $i$, $D^iG_0$ (tương ứng $C^iG_0$) là một nhóm con Lie của G với đại số Lie $\mathcal{D}^ig$ (tương ứng $\mathcal{C}^ig$).*
+*Giả sử rằng K là ultrametric. Cho G là một nhóm Lie hữu hạn chiều với đại số Lie g. Tồn tại một nhóm con mở $G_0$ của G sao cho, với mọi $i$, $D^iG_0$ (tương ứng $C^iG_0$) là một nhóm con Lie của G với đại số Lie $\mathscr{D}^ig$ (tương ứng $\mathscr{C}^ig$).*
 
-(a) Bằng Mệnh đề 3 được áp dụng quy nạp, với mọi nhóm con mở $G_1$ của G và với mọi $i$, $D^iG_1$ chứa một mầm nhóm con Lie của G với đại số Lie $\mathcal{D}^ig$.
+(a) Bằng Mệnh đề 3 được áp dụng quy nạp, với mọi nhóm con mở $G_1$ của G và với mọi $i$, $D^iG_1$ chứa một mầm nhóm con Lie của G với đại số Lie $\mathscr{D}^ig$.
 
-(b) Cho $G'$ là một nhóm con mở của G sao cho, với $i \leq n$, $D^iG'$ là một nhóm con Lie của G với đại số Lie $\mathcal{D}^ig$. Theo Mệnh đề 6, tồn tại các nhóm con mở $H_1, H_2$ của $D^nG'$, sao cho $(H_1, H_2)$ là một nhóm con Lie với đại số Lie $\mathcal{D}^{n+1}g$. Cho $G''$ là một nhóm con mở của $G'$ đủ nhỏ để $D^nG'' \subset H_1 \cap H_2$. Khi đó $D^{n+1}G'' \subset (H_1, H_2)$. Các quan hệ
+(b) Cho $G'$ là một nhóm con mở của G sao cho, với $i \leq n$, $D^iG'$ là một nhóm con Lie của G với đại số Lie $\mathscr{D}^ig$. Theo Mệnh đề 6, tồn tại các nhóm con mở $H_1, H_2$ của $D^nG'$, sao cho $(H_1, H_2)$ là một nhóm con Lie với đại số Lie $\mathscr{D}^{n+1}g$. Cho $G''$ là một nhóm con mở của $G'$ đủ nhỏ để $D^nG'' \subset H_1 \cap H_2$. Khi đó $D^{n+1}G'' \subset (H_1, H_2)$. Các quan hệ
 $$
 D^0G'' \subset D^0G', D^1G'' \subset D^1G', \ldots, D^nG'' \subset D^nG', D^{n+1}G'' \subset (H_1, H_2)
 $$
-chứng minh, sử dụng (a), rằng $D^iG''$ là, với $i \leq n + 1$, một nhóm con Lie của G với đại số Lie $\mathcal{D}^ig$.
+chứng minh, sử dụng (a), rằng $D^iG''$ là, với $i \leq n + 1$, một nhóm con Lie của G với đại số Lie $\mathscr{D}^ig$.
 
-(c) Tồn tại một số nguyên $p$ sao cho $\mathcal{D}^pg = \mathcal{D}^{p+1}g = \cdots$. Theo điều trên, tồn tại một nhóm con mở $G_0$ của G sao cho $D^iG_0$ là, với $i \leq p$, một nhóm con Lie của G với đại số Lie $\mathcal{D}^ig$. Nhưng, theo (a), cùng mệnh đề vẫn đúng với $i > p$ vì $D^pG_0 \supset D^iG_0$ với $i > p$.
+(c) Tồn tại một số nguyên $p$ sao cho $\mathscr{D}^pg = \mathscr{D}^{p+1}g = \cdots$. Theo điều trên, tồn tại một nhóm con mở $G_0$ của G sao cho $D^iG_0$ là, với $i \leq p$, một nhóm con Lie của G với đại số Lie $\mathscr{D}^ig$. Nhưng, theo (a), cùng mệnh đề vẫn đúng với $i > p$ vì $D^pG_0 \supset D^iG_0$ với $i > p$.
 
 (d) Lập luận tương tự đối với $C^i$.
 
@@ -316,13 +316,13 @@ $$
 \lambda \mapsto \exp(\mathrm{ad}\, \lambda x)|L(A)
 $$
 
-từ $K$ vào $\mathcal{L}(L(A), L(G))$ là đa thức, $\exp(\mathrm{ad}\, \lambda x)|L(A) = 1$ với mọi $\lambda \in K$, tức là $\exp(\lambda x) \in Z_G(A)$ với mọi $\lambda \in K$.
+từ $K$ vào $\mathscr{L}(L(A), L(G))$ là đa thức, $\exp(\mathrm{ad}\, \lambda x)|L(A) = 1$ với mọi $\lambda \in K$, tức là $\exp(\lambda x) \in Z_G(A)$ với mọi $\lambda \in K$.
 
 #### Mệnh đề 16 {#lie-iii-s9-prop-16 .statement}
 
 *Cho $G$ là một nhóm Lie lũy linh hữu hạn chiều trên $\mathbf{R}$ hoặc $\mathbf{C}$ và $A$ là một nhóm con nguyên của $G$ khác với $G$. Khi đó $N_G(A)$ là một nhóm Lie con liên thông của $G$ khác với $A$.*
 
-$N_G(A) \neq A$ (Đại số, Chương I, § 6, Hệ quả 1 của Mệnh đề 8). Theo Mệnh đề 11 của no. 4, ta chỉ cần chứng minh rằng $N_G(A)$ là liên thông. Cho $g \in N_G(A)$. Tồn tại $x \in L(G)$ sao cho $g = \exp x$ (Mệnh đề 14). Gọi $E$ là không gian con vectơ của $\mathcal{L}(L(G))$ gồm các $u \in \mathcal{L}(L(G))$ sao cho $u(L(A)) \subset L(A)$. Khi đó $\mathrm{Ad}\, g^n \in E$ và do đó $\exp(\mathrm{ad}\, nx) \in E$ với mọi $n \in \mathbf{Z}$. Suy ra $\exp(\mathrm{ad}\, \lambda x) \in E$ với mọi $\lambda \in K$, tức là $\exp(\lambda x) \in N_G(A)$ với mọi $\lambda \in K$.
+$N_G(A) \neq A$ (Đại số, Chương I, § 6, Hệ quả 1 của Mệnh đề 8). Theo Mệnh đề 11 của no. 4, ta chỉ cần chứng minh rằng $N_G(A)$ là liên thông. Cho $g \in N_G(A)$. Tồn tại $x \in L(G)$ sao cho $g = \exp x$ (Mệnh đề 14). Gọi $E$ là không gian con vectơ của $\mathscr{L}(L(G))$ gồm các $u \in \mathscr{L}(L(G))$ sao cho $u(L(A)) \subset L(A)$. Khi đó $\mathrm{Ad}\, g^n \in E$ và do đó $\exp(\mathrm{ad}\, nx) \in E$ với mọi $n \in \mathbf{Z}$. Suy ra $\exp(\mathrm{ad}\, \lambda x) \in E$ với mọi $\lambda \in K$, tức là $\exp(\lambda x) \in N_G(A)$ với mọi $\lambda \in K$.
 
 #### Mệnh đề 17 {#lie-iii-s9-prop-17 .statement}
 
@@ -427,7 +427,7 @@ Nhưng hai vế của (6) là các hàm giải tích của $g$ với $g \in G$ v
     $$
     \operatorname{Tr}(a(b-1)) = \operatorname{Tr}(ab-1) - \operatorname{Tr}(a-1) = 0 - 0 = 0
     $$
-    vì $ab - 1$ và $a - 1$ là lũy linh. Vì không gian vectơ con của $\mathcal{L}(V)$ sinh bởi G là $\mathcal{L}(V)$ (*Đại số*, Chương VIII, § 4, Hệ quả 1 của Mệnh đề 2), $\operatorname{Tr}(u(b-1)) = 0$ với mọi $u \in \mathcal{L}(V)$ và do đó $b = 1$. Vì vậy $G = \{1\}$.
+    vì $ab - 1$ và $a - 1$ là lũy linh. Vì không gian vectơ con của $\mathscr{L}(V)$ sinh bởi G là $\mathscr{L}(V)$ (*Đại số*, Chương VIII, § 4, Hệ quả 1 của Mệnh đề 2), $\operatorname{Tr}(u(b-1)) = 0$ với mọi $u \in \mathscr{L}(V)$ và do đó $b = 1$. Vì vậy $G = \{1\}$.
     (b) Bây giờ ta chuyển sang trường hợp tổng quát. Cho $\bar{k}$ là một bao đóng đại số của k, $\bar{V} = V \otimes_k \bar{k}$ và $\bar{G} \subset \mathbf{GL}(\bar{V})$ là tập hợp các $a \otimes 1$ với $a \in G$. Cho W (tương ứng. $W'$) là tập hợp các phần tử của V (tương ứng. $\bar{V}$) bất biến dưới G (tương ứng. $\bar{G}$). Khi đó $W' = W \otimes_k \bar{k}$ vì $W = \bigcap_{g \in G} \operatorname{Ker}(g-1)$ và $W' = \bigcap_{g \in G} \operatorname{Ker}(g-1) \otimes 1$. Nếu $V_1$ là một phần tử cực tiểu trong tập hợp các không gian vectơ con khác không của $\bar{V}$ ổn định dưới $\bar{G}$, thì $V_1 \subset W'$ theo phần (a) của chứng minh; do đó $W \neq \{0\}$, điều này chứng minh (i).
     (c) Bằng quy nạp theo $\dim V$, từ (i) suy ra rằng tồn tại một dãy tăng $(V_1, V_2, \ldots, V_n)$ các không gian vectơ con của V ổn định dưới G sao cho $V_n = V$ và nhóm tự đẳng cấu của $V_i/V_{i-1}$ được dẫn xuất một cách chính tắc từ G thu gọn về $\{1\}$ với mọi $i$ (ta quy ước rằng $V_r = \{0\}$ với $r \leq 0$). Điều này trước hết suy ra (ii) và do đó suy ra (iii) (Chương II, § 4, no. 6, *Nhận xét*).
 
@@ -619,7 +619,7 @@ Giả sử rằng $\rho$ là nửa đơn; ta chứng minh rằng $\rho'$ là n�
 
 Vì vậy, với mọi $g \in G$, $\rho(g)V'$ là một môđun $G'$ đơn. Nhưng $\sum_{g \in G} \rho(g)V'$ là một môđun con-$G$ khác không của $V$, do đó $V = \sum_{g \in G} \rho(g)V'$. Do đó $\rho'$ là nửa đơn.
 
-Giả sử rằng $\rho'$ là nửa đơn. Cho $W$ là một môđun con-$G$ khác không của $V$. Vì $\rho'$ là nửa đơn, tồn tại một phép chiếu $f_0$ của $V$ lên $W$ giao hoán với $\rho'(G)$. Gọi $E$ là tập hợp các $f \in \mathcal{L}(V, V)$ giao hoán với $\rho(G')$, ánh xạ $V$ vào $W$ và hạn chế của nó trên $W$ là một phép vị tự; với $f \in E$, ký hiệu $\alpha(f)$ là tỉ số của phép vị tự $f|W$. Khi đó $f_0 \in E$ và $\alpha(f_0) = 1$. Rõ ràng $\alpha$ là một dạng tuyến tính trên $E$. Gọi $F = \mathrm{Ker}\, \alpha$, là một siêu phẳng của $E$. Với $f \in E$ và $g \in G$, ta viết $\sigma(g)f = \rho(g) \circ f \circ \rho(g)^{-1}$; khi đó $\sigma(g)f$ ánh xạ $V$ vào $W$ và hạn chế của nó trên $W$ là phép vị tự có tỉ số $\alpha(f')$; nếu $g' \in G'$, thì
+Giả sử rằng $\rho'$ là nửa đơn. Cho $W$ là một môđun con-$G$ khác không của $V$. Vì $\rho'$ là nửa đơn, tồn tại một phép chiếu $f_0$ của $V$ lên $W$ giao hoán với $\rho'(G)$. Gọi $E$ là tập hợp các $f \in \mathscr{L}(V, V)$ giao hoán với $\rho(G')$, ánh xạ $V$ vào $W$ và hạn chế của nó trên $W$ là một phép vị tự; với $f \in E$, ký hiệu $\alpha(f)$ là tỉ số của phép vị tự $f|W$. Khi đó $f_0 \in E$ và $\alpha(f_0) = 1$. Rõ ràng $\alpha$ là một dạng tuyến tính trên $E$. Gọi $F = \mathrm{Ker}\, \alpha$, là một siêu phẳng của $E$. Với $f \in E$ và $g \in G$, ta viết $\sigma(g)f = \rho(g) \circ f \circ \rho(g)^{-1}$; khi đó $\sigma(g)f$ ánh xạ $V$ vào $W$ và hạn chế của nó trên $W$ là phép vị tự có tỉ số $\alpha(f')$; nếu $g' \in G'$, thì
 $$
 \begin{align*}
 \sigma(g)f \circ \rho(g') &= \rho(g) \circ f \circ \rho(g)^{-1} \circ \rho(g') \\

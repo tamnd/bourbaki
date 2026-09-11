@@ -84,7 +84,7 @@ subsections:
       pdf_page: 161
 statements: 111
 exercises: 9
-content_sha256: aa0e966f2ca3ea673d425de7990fbfc2f302925bfe4267822d88438e9f80acb8
+content_sha256: c03e98e7ebb68d6e0ad174a8132c1308456446a6c5851f7a45c0b7d9d9b17a7d
 ---
 
 ## § 3. Passage d’un groupe de Lie à son algèbre de Lie
@@ -109,17 +109,17 @@ Cela résulte de VAR, R, 13.4.1, 13.2.3 et 13.4.4.
 
 Supposons K = R ou C, et G de dimension finie. Alors G est localement compact. Si t, t' sont des mesures ponctuelles, la définition de t \* t' concorde avec celle de INT, VIII, § 1. Nous verrons plus tard comment le produit de convolution des mesures et celui des distributions ponctuelles sont deux cas particuliers du produit de convolution de distributions non nécessairement ponctuelles.
 
-Soit $\mathcal{T}^{(\infty)}(G)$ la somme directe des $T^{(\infty)}_g(G)$ pour $g \in G$ (cf. VAR, R, 13.6.1). On définit le produit de convolution dans $\mathcal{T}^{(\infty)}(G)$ comme l’application bilinéaire de $\mathcal{T}^{(\infty)}(G) \times \mathcal{T}^{(\infty)}(G)$ dans $\mathcal{T}^{(\infty)}(G)$ prolongeant le produit de convolution de la déf. 1. On le note encore *. Ainsi, $\mathcal{T}^{(\infty)}(G)$ est muni d’une structure d’algèbre, filtrée par les $\mathcal{T}^{(s)}(G)$. La sous-algèbre $\mathcal{T}^{(0)}(G) = \bigoplus_{g \in G} T^{(0)}_g(G)$ s’identifie à l’algèbre $K^{(G)}$ du groupe G sur K.
+Soit $\mathscr{T}^{(\infty)}(G)$ la somme directe des $T^{(\infty)}_g(G)$ pour $g \in G$ (cf. VAR, R, 13.6.1). On définit le produit de convolution dans $\mathscr{T}^{(\infty)}(G)$ comme l’application bilinéaire de $\mathscr{T}^{(\infty)}(G) \times \mathscr{T}^{(\infty)}(G)$ dans $\mathscr{T}^{(\infty)}(G)$ prolongeant le produit de convolution de la déf. 1. On le note encore *. Ainsi, $\mathscr{T}^{(\infty)}(G)$ est muni d’une structure d’algèbre, filtrée par les $\mathscr{T}^{(s)}(G)$. La sous-algèbre $\mathscr{T}^{(0)}(G) = \bigoplus_{g \in G} T^{(0)}_g(G)$ s’identifie à l’algèbre $K^{(G)}$ du groupe G sur K.
 
 #### Proposition 2 {#lie-iii-s3-prop-2 .statement}
 
-L’algèbre $\mathcal{T}^{(\infty)}(G)$ est associative. Elle est commutative si et seulement si G est commutatif.
+L’algèbre $\mathscr{T}^{(\infty)}(G)$ est associative. Elle est commutative si et seulement si G est commutatif.
 
-Soient $t \in \mathcal{T}^{(\infty)}(G), t' \in \mathcal{T}^{(\infty)}(G), t'' \in \mathcal{T}^{(\infty)}(G)$. Alors $t * (t' * t'')$ est l’image de $t \otimes t' \otimes t''$ par l’application $(g, g', g'') \mapsto g(g'g'')$ de $G \times G \times G$ dans G, et $(t * t') * t''$ est l’image de $t \otimes t' \otimes t''$ par l’application $(g, g', g'') \mapsto (gg')g''$ de $G \times G \times G$ dans G. Donc $(t * t') * t'' = t * (t' * t'')$. On voit de même que, si G est commutatif, $t * t' = t' * t$. Si le produit de convolution est commutatif, G est commutatif d’après la prop. 1 (iii).
+Soient $t \in \mathscr{T}^{(\infty)}(G), t' \in \mathscr{T}^{(\infty)}(G), t'' \in \mathscr{T}^{(\infty)}(G)$. Alors $t * (t' * t'')$ est l’image de $t \otimes t' \otimes t''$ par l’application $(g, g', g'') \mapsto g(g'g'')$ de $G \times G \times G$ dans G, et $(t * t') * t''$ est l’image de $t \otimes t' \otimes t''$ par l’application $(g, g', g'') \mapsto (gg')g''$ de $G \times G \times G$ dans G. Donc $(t * t') * t'' = t * (t' * t'')$. On voit de même que, si G est commutatif, $t * t' = t' * t$. Si le produit de convolution est commutatif, G est commutatif d’après la prop. 1 (iii).
 
 #### Proposition 3 {#lie-iii-s3-prop-3 .statement}
 
-Si $t \in \mathcal{T}^{(\infty)}(G)$ et $g \in G$, on a $\gamma(g)_* t = \varepsilon_g * t, \delta(g)_* t = t * \varepsilon_{g^{-1}}, (\mathrm{Int}\, g)_* t = \varepsilon_g * t * \varepsilon_{g^{-1}}$. En particulier, $\varepsilon_e$ est élément unité de $\mathcal{T}^{(\infty)}(G)$.
+Si $t \in \mathscr{T}^{(\infty)}(G)$ et $g \in G$, on a $\gamma(g)_* t = \varepsilon_g * t, \delta(g)_* t = t * \varepsilon_{g^{-1}}, (\mathrm{Int}\, g)_* t = \varepsilon_g * t * \varepsilon_{g^{-1}}$. En particulier, $\varepsilon_e$ est élément unité de $\mathscr{T}^{(\infty)}(G)$.
 
 Considérons le diagramme
 
@@ -133,12 +133,12 @@ On voit donc que, pour $t \in T(G)$, $\varepsilon_g * t$ et $t * \varepsilon_g$ 
 
 #### Définition 2 {#lie-iii-s3-def-2 .statement}
 
-Soit $G$ un groupe de Lie. La sous-algèbre de $\mathcal{T}^{(\infty)}(G)$ formée des distributions à support contenu dans $\{e\}$ se note $U(G)$.
+Soit $G$ un groupe de Lie. La sous-algèbre de $\mathscr{T}^{(\infty)}(G)$ formée des distributions à support contenu dans $\{e\}$ se note $U(G)$.
 
 Cette algèbre est filtrée par les sous-espaces
 
 $$
-U_s(G) = U(G) \cap \mathcal{T}^{(s)}(G) = T_e^{(s)}(G).
+U_s(G) = U(G) \cap \mathscr{T}^{(s)}(G) = T_e^{(s)}(G).
 $$
 
 On pose $U^+(G) = T_e^{(\infty)+}(G)$, $U_s^+(G) = U^+(G) \cap U_s(G)$ (cf. VAR, R, 13.2.1). Rappelons que $U_0(G)$ s’identifie à $K$, et $U_1^+(G)$ à l’espace tangent $T_e(G)$. Dans $U(G)$, $U^+(G)$ est un idéal bilatère supplémentaire de $U_0(G)$.
@@ -155,9 +155,9 @@ est égal à $TS(m)$ (VAR, R, 13.2.4). Pour $t, t'$ dans $U(E) = TS(E)$, l’ima
 
 #### Proposition 4 {#lie-iii-s3-prop-4 .statement}
 
-Considérons l’application bilinéaire $(u, v) \mapsto u * v$ (resp. $(u, v) \mapsto v * u$) de $U(G) \times K^{(G)}$ dans $\mathcal{T}^{(\infty)}(G)$. L’application linéaire correspondante de $U(G) \otimes K^{(G)}$ dans $\mathcal{T}^{(\infty)}(G)$ est un isomorphisme d’espaces vectoriels.
+Considérons l’application bilinéaire $(u, v) \mapsto u * v$ (resp. $(u, v) \mapsto v * u$) de $U(G) \times K^{(G)}$ dans $\mathscr{T}^{(\infty)}(G)$. L’application linéaire correspondante de $U(G) \otimes K^{(G)}$ dans $\mathscr{T}^{(\infty)}(G)$ est un isomorphisme d’espaces vectoriels.
 
-En effet, $K^{(G)}$ est somme directe des $K\varepsilon_x$ pour $x \in G$. D’autre part, l’application $u \mapsto u * \varepsilon_g$ (resp. $u \mapsto \varepsilon_g * u$) est un isomorphisme de l’espace vectoriel $U(G) = T_e^{(\infty)}(G)$ sur l’espace vectoriel $T_g^{(\infty)}(G)$ d’après la prop. 3. Enfin, $\mathcal{T}^{(\infty)}(G)$ est somme directe des $T_g^{(\infty)}(G)$ pour $g \in G$.
+En effet, $K^{(G)}$ est somme directe des $K\varepsilon_x$ pour $x \in G$. D’autre part, l’application $u \mapsto u * \varepsilon_g$ (resp. $u \mapsto \varepsilon_g * u$) est un isomorphisme de l’espace vectoriel $U(G) = T_e^{(\infty)}(G)$ sur l’espace vectoriel $T_g^{(\infty)}(G)$ d’après la prop. 3. Enfin, $\mathscr{T}^{(\infty)}(G)$ est somme directe des $T_g^{(\infty)}(G)$ pour $g \in G$.
 
 C.Q.F.D.
 
@@ -199,7 +199,7 @@ est commutatif. Or $T(m) : L \times L \to L$ transforme $(x, y)$ en $x + y$ (§ 
 
 #### Proposition 6 {#lie-iii-s3-prop-6 .statement}
 
-Soient $G, H$ des groupes de Lie, $\varphi$ un morphisme de $G$ dans $H$. Pour $t, t'$ dans $\mathcal{T}^{(\infty)}(G)$, on a $\varphi_*(t * t') = \varphi_*(t) * \varphi_*(t')$.
+Soient $G, H$ des groupes de Lie, $\varphi$ un morphisme de $G$ dans $H$. Pour $t, t'$ dans $\mathscr{T}^{(\infty)}(G)$, on a $\varphi_*(t * t') = \varphi_*(t) * \varphi_*(t')$.
 
 Considérons le diagramme
 
@@ -217,7 +217,7 @@ $$
 = n_*(\varphi_*(t) \otimes \varphi_*(t')) = \varphi_*(t) * \varphi_*(t').
 $$
 
-Les groupes de Lie G et $G^\vee$ ont la même variété sous-jacente, donc les espaces vectoriels $\mathcal{T}^{(\infty)}(G)$ et $\mathcal{T}^{(\infty)}(G^\vee)$ sont les mêmes. Soit $\theta$ l’application $g \mapsto g^{-1}$, qui est un isomorphisme du groupe de Lie G sur le groupe de Lie $G^\vee$. Alors $\theta_*$ est un automorphisme de l’espace vectoriel $\mathcal{T}^{(\infty)}(G)$, automorphisme qu’on note $t \mapsto t^\vee$. On a $(\varepsilon_g)^\vee = \varepsilon_{g^{-1}}$. Si $t \in T_e(G)$, on a
+Les groupes de Lie G et $G^\vee$ ont la même variété sous-jacente, donc les espaces vectoriels $\mathscr{T}^{(\infty)}(G)$ et $\mathscr{T}^{(\infty)}(G^\vee)$ sont les mêmes. Soit $\theta$ l’application $g \mapsto g^{-1}$, qui est un isomorphisme du groupe de Lie G sur le groupe de Lie $G^\vee$. Alors $\theta_*$ est un automorphisme de l’espace vectoriel $\mathscr{T}^{(\infty)}(G)$, automorphisme qu’on note $t \mapsto t^\vee$. On a $(\varepsilon_g)^\vee = \varepsilon_{g^{-1}}$. Si $t \in T_e(G)$, on a
 $$
 t^\vee = -t \quad (§ 2, \text{prop. } 2).
 $$
@@ -228,7 +228,7 @@ Supposons que G soit le groupe de Lie défini par un espace normable complet E. 
 
 #### Proposition 7 {#lie-iii-s3-prop-7 .statement}
 
-*Soit G un groupe de Lie. Soient t, t' dans $\mathcal{T}^{(\infty)}(G)$.*
+*Soit G un groupe de Lie. Soient t, t' dans $\mathscr{T}^{(\infty)}(G)$.*
 (i) *Le produit t \* t' calculé relativement à $G^\vee$ est égal au produit t' \* t calculé relativement à G.*
 (ii) *On a $(t * t')^\vee = {t'}^\vee * t^\vee$.*
 Considérons le diagramme
@@ -245,16 +245,16 @@ où $s(g, g') = (g', g)$, $m(g, g') = gg'$, $n(g, g') = g'g$ quels que soient $g
 
 #### Proposition 8 {#lie-iii-s3-prop-8 .statement}
 
-*Soient G, H des groupes de Lie, $\varphi$ un morphisme de G dans H. Si $t \in \mathcal{T}^{(\infty)}(G)$, on a $\varphi_*(t^\vee) = (\varphi_*(t))^\vee$.*
+*Soient G, H des groupes de Lie, $\varphi$ un morphisme de G dans H. Si $t \in \mathscr{T}^{(\infty)}(G)$, on a $\varphi_*(t^\vee) = (\varphi_*(t))^\vee$.*
 Soit $\theta$ (resp. $\theta'$) l’application $g \mapsto g^{-1}$ de G dans G (resp. de H dans H). On a $\varphi \circ \theta = \theta' \circ \varphi$, d’où $\varphi_*(\theta_*(t)) = \theta'_*(\varphi_*(t))$.
 
 #### Proposition 9 {#lie-iii-s3-prop-9 .statement}
 
-*Soient $G_1, \ldots, G_n$ des groupes de Lie, et $G = G_1 \times \cdots \times G_n$. Si l’on identifie canoniquement les espaces vectoriels $\mathcal{T}^{(\infty)}(G)$ et $\mathcal{T}^{(\infty)}(G_1) \otimes \cdots \otimes \mathcal{T}^{(\infty)}(G_n)$, l’algèbre $\mathcal{T}^{(\infty)}(G)$ est produit tensoriel des algèbres $\mathcal{T}^{(\infty)}(G_1), \ldots, \mathcal{T}^{(\infty)}(G_n)$. Si $t_i \in \mathcal{T}^{(\infty)}(G_i)$ pour $i = 1, \ldots, n$, on a
+*Soient $G_1, \ldots, G_n$ des groupes de Lie, et $G = G_1 \times \cdots \times G_n$. Si l’on identifie canoniquement les espaces vectoriels $\mathscr{T}^{(\infty)}(G)$ et $\mathscr{T}^{(\infty)}(G_1) \otimes \cdots \otimes \mathscr{T}^{(\infty)}(G_n)$, l’algèbre $\mathscr{T}^{(\infty)}(G)$ est produit tensoriel des algèbres $\mathscr{T}^{(\infty)}(G_1), \ldots, \mathscr{T}^{(\infty)}(G_n)$. Si $t_i \in \mathscr{T}^{(\infty)}(G_i)$ pour $i = 1, \ldots, n$, on a
 $$
 (t_1 \otimes \cdots \otimes t_n)^{\vee} = t_1^{\vee} \otimes \cdots \otimes t_n^{\vee}.
 $$
-Il suffit d’envisager le cas où $n = 2$. Soient $t_1, t_1'$ dans $\mathcal{T}^{(\infty)}(G_1)$, $t_2, t_2'$ dans $\mathcal{T}^{(\infty)}(G_2)$. Il s’agit de montrer que $(t_1 \otimes t_2) * (t_1' \otimes t_2') = (t_1 * t_1') \otimes (t_2 * t_2')$, et que $(t_1 \otimes t_2)^{\vee} = t_1^{\vee} \otimes t_2^{\vee}$. Considérons le diagramme
+Il suffit d’envisager le cas où $n = 2$. Soient $t_1, t_1'$ dans $\mathscr{T}^{(\infty)}(G_1)$, $t_2, t_2'$ dans $\mathscr{T}^{(\infty)}(G_2)$. Il s’agit de montrer que $(t_1 \otimes t_2) * (t_1' \otimes t_2') = (t_1 * t_1') \otimes (t_2 * t_2')$, et que $(t_1 \otimes t_2)^{\vee} = t_1^{\vee} \otimes t_2^{\vee}$. Considérons le diagramme
 
 $$
 \begin{array}{ccc}
@@ -280,23 +280,23 @@ On voit de façon analogue que $(t_1 \otimes t_2)^{\vee} = t_1^{\vee} \otimes t_
 
 #### Proposition 10 {#lie-iii-s3-prop-10 .statement}
 
-Soient $H$ un sous-groupe de Lie de $G$, et $i : H \to G$ l’injection canonique. Alors $i_*$ est un homomorphisme injectif de l’algèbre $\mathcal{T}^{(\infty)}(H)$ dans l’algèbre $\mathcal{T}^{(\infty)}(G)$, et $i_*((t^{\vee})) = (i_*(t))^{\vee}$ pour tout $t \in \mathcal{T}^{(\infty)}(H)$.
+Soient $H$ un sous-groupe de Lie de $G$, et $i : H \to G$ l’injection canonique. Alors $i_*$ est un homomorphisme injectif de l’algèbre $\mathscr{T}^{(\infty)}(H)$ dans l’algèbre $\mathscr{T}^{(\infty)}(G)$, et $i_*((t^{\vee})) = (i_*(t))^{\vee}$ pour tout $t \in \mathscr{T}^{(\infty)}(H)$.
 Cela résulte des prop. 6, 8 et de VAR, R, 13.2.3.
 
-On identifie $\mathcal{T}^{(\infty)}(H)$ à une sous-algèbre de $\mathcal{T}^{(\infty)}(G)$ grâce à l’isomorphisme de la prop. 10.
+On identifie $\mathscr{T}^{(\infty)}(H)$ à une sous-algèbre de $\mathscr{T}^{(\infty)}(G)$ grâce à l’isomorphisme de la prop. 10.
 
 #### Remarque {#lie-iii-s3-n2-rem-1 .statement}
 
 La prop. 10 reste valable si $H$ est un quasi-sous-groupe de Lie.
 
-Rappelons (VAR, R, 13.5.1) que, si $V$ est une variété analytique sur $K$, $\mathcal{T}^{(\infty)}(V)$ est munie canoniquement d’une structure de cogèbre sur $K$, à coïunité; la coïunité est l’application linéaire de $\mathcal{T}^{(\infty)}(G)$ dans $K$ qui associe, à tout élément de $T_x^{(\infty)}(V)$, son terme constant.
+Rappelons (VAR, R, 13.5.1) que, si $V$ est une variété analytique sur $K$, $\mathscr{T}^{(\infty)}(V)$ est munie canoniquement d’une structure de cogèbre sur $K$, à coïunité; la coïunité est l’application linéaire de $\mathscr{T}^{(\infty)}(G)$ dans $K$ qui associe, à tout élément de $T_x^{(\infty)}(V)$, son terme constant.
 
 #### Proposition 11 {#lie-iii-s3-prop-11 .statement}
 
 Soit $G$ un groupe de Lie.
-(i) La cogèbre $\mathcal{T}^{(\infty)}(G)$, munie de la convolution, est une bigèbre (A, III, p. 149).
+(i) La cogèbre $\mathscr{T}^{(\infty)}(G)$, munie de la convolution, est une bigèbre (A, III, p. 149).
 
-(ii) Soit c le coproduit dans $\mathcal{T}^{(\infty)}(G)$. Soit $t \in \mathcal{T}^{(\infty)}(G)$, et posons $c(t) = \sum_{i=1}^n t_i \otimes t'_i$.
+(ii) Soit c le coproduit dans $\mathscr{T}^{(\infty)}(G)$. Soit $t \in \mathscr{T}^{(\infty)}(G)$, et posons $c(t) = \sum_{i=1}^n t_i \otimes t'_i$.
 Alors $c(t^\vee) = \sum_{i=1}^n t_i^\vee \otimes t_{i'}^\vee$.
 
 Prouvons (i). Dans la définition citée des bigèbres, la condition 1° résulte des prop. 2 et 3, la condition 2° résulte de VAR, R, 13.5.1. Soit d l’application $g \mapsto (g, g)$ de G dans $G \times G$. On a $c = d_*$, donc c est un morphisme d’algèbres (prop. 6 et 9), ce qui est la condition 3°. Soient $t \in T_g^{(\infty)}(G)$, $t' \in T_{g'}^{(\infty)}(G)$, sans termes constants et $\lambda, \lambda'$ dans K; alors $\varepsilon_g \otimes tt', t \otimes \varepsilon_{g'}, t \otimes t'$ sont sans termes constants (VAR, R, 13.4.1), donc le terme constant de $(\lambda \varepsilon_g + t) * (\lambda' \varepsilon_{g'} + t')$ est $\lambda \lambda'$; donc la condition 4° est vérifiée.
@@ -308,7 +308,7 @@ $$
 
 #### Proposition 12 {#lie-iii-s3-prop-12 .statement}
 
-Soient G, H deux groupes de Lie, $\varphi$ un morphisme de G dans H. Alors $\varphi_*$ est un morphisme de bigèbres de $\mathcal{T}^{(\infty)}(G)$ dans $\mathcal{T}^{(\infty)}(H)$.
+Soient G, H deux groupes de Lie, $\varphi$ un morphisme de G dans H. Alors $\varphi_*$ est un morphisme de bigèbres de $\mathscr{T}^{(\infty)}(G)$ dans $\mathscr{T}^{(\infty)}(H)$.
 Cela résulte de la prop. 6 et de VAR, R, 13.5.1.
 
 Soit G un groupe de Lie. La restriction de la convolution et du coproduit à U(G) définissent sur U(G) une structure de bigèbre. On a $U(G)^\vee = U(G)$. Si $\varphi : G \to H$ est un morphisme de groupes de Lie, on note U($\varphi$) l’application $t \mapsto \varphi_*(t)$ de U(G) dans U(H); c’est un morphisme de bigèbres. Si $\psi : H \to L$ est un autre morphisme de groupes de Lie, on a $U(\psi \circ \varphi) = U(\psi) \circ U(\varphi)$. Si $\varphi$ est une immersion (resp. submersion), U($\varphi$) est injectif (resp. surjectif) d’après VAR, R, 13.2.3. En particulier, si H est un sous-groupe de Lie de G, U(H) s’identifie à une sous-algèbre de U(G), le coproduit de U(H) étant la restriction du coproduit de U(G). Si H est ouvert dans G, on a $U(H) = U(G)$. Si $G_1, G_2$ sont des groupes de Lie, $U(G_1 \times G_2)$ s’identifie à $U(G_1) \otimes U(G_2)$. Les éléments primitifs de U(G) sont ceux de $T_e(G)$ (VAR, R, 13.5.3).
@@ -320,21 +320,21 @@ $$
 
 ### 3. Cas d’un groupe opérant dans une variété
 
-Soient G un groupe de Lie, X une variété de classe $C^r$, et f une loi d’opération à gauche de classe $C^r$ de G dans X. Si $t \in T_g^{(s)}(G)$ et $u \in T_x^{(s')}(X)$, et si $s + s' \leq r$, on note $t * u$ l’image de $t \otimes u$ par $f_*$. On prolonge le produit \* en une application bilinéaire, notée encore *, de $\mathcal{T}^{(s)}(G) \times \mathcal{T}^{(s')}(X)$ dans $\mathcal{T}^{(s+s')}(X)$. La prop. 1 du n° 1 s’étend, avec des modifications évidentes, à la présente situation.
+Soient G un groupe de Lie, X une variété de classe $C^r$, et f une loi d’opération à gauche de classe $C^r$ de G dans X. Si $t \in T_g^{(s)}(G)$ et $u \in T_x^{(s')}(X)$, et si $s + s' \leq r$, on note $t * u$ l’image de $t \otimes u$ par $f_*$. On prolonge le produit \* en une application bilinéaire, notée encore *, de $\mathscr{T}^{(s)}(G) \times \mathscr{T}^{(s')}(X)$ dans $\mathscr{T}^{(s+s')}(X)$. La prop. 1 du n° 1 s’étend, avec des modifications évidentes, à la présente situation.
 
 Lorsqu’on fait opérer G à gauche dans lui-même par translations, on retrouve la déf. 1 du n° 1.
 
 #### Proposition 13 {#lie-iii-s3-prop-13 .statement}
 
-*Soient* $t \in \mathcal{T}^{(s)}(G)$, $t' \in \mathcal{T}^{(s')}(G)$, $u \in \mathcal{T}^{(s'')}(X)$, *tels que* $s + s' + s'' \leq r$. *On a* $(t * t') * u = t * (t' * u)$.
+*Soient* $t \in \mathscr{T}^{(s)}(G)$, $t' \in \mathscr{T}^{(s')}(G)$, $u \in \mathscr{T}^{(s'')}(X)$, *tels que* $s + s' + s'' \leq r$. *On a* $(t * t') * u = t * (t' * u)$.
 
 Cela se démontre comme la prop. 2 du n° 1.
 
-En particulier, si $r \geq \infty$, l’espace vectoriel $\mathcal{T}^{(\infty)}(X)$ est un module à gauche sur l’algèbre $\mathcal{T}^{(\infty)}(G)$ pour le produit *.
+En particulier, si $r \geq \infty$, l’espace vectoriel $\mathscr{T}^{(\infty)}(X)$ est un module à gauche sur l’algèbre $\mathscr{T}^{(\infty)}(G)$ pour le produit *.
 
 #### Proposition 14 {#lie-iii-s3-prop-14 .statement}
 
-(i) *Soient* $g_0 \in G$, et $\tau(g_0)$ l’application $x \mapsto f(g_0, x)$ de X dans X. *Si* $u \in \mathcal{T}^{(r)}(X)$, *on a* $\tau(g_0)*u = \varepsilon_{g_0}*u$.
+(i) *Soient* $g_0 \in G$, et $\tau(g_0)$ l’application $x \mapsto f(g_0, x)$ de X dans X. *Si* $u \in \mathscr{T}^{(r)}(X)$, *on a* $\tau(g_0)*u = \varepsilon_{g_0}*u$.
 
 (ii) *Soient* $x_0 \in X$, et $\rho(x_0)$ l’application $g \mapsto f(g, x_0)$ de G dans X. *Si* $t \in T^{(r)}(G)$, *on a* $\rho(x_0)*t = t * \varepsilon_{x_0}$.
 
@@ -344,18 +344,18 @@ En particulier, si $u \in T(X)$ et $t \in T(G)$, $\varepsilon_{g_0}*u$ et $t * \
 
 #### Proposition 15 {#lie-iii-s3-prop-15 .statement}
 
-*Soient* G (resp. $G'$) *un groupe de Lie*, X (resp. $X'$) *une variété de classe* $C^r$. *On suppose donnée une loi d’opération à gauche de classe* $C^r$ *de G (resp. G’) dans X (resp. X’).* *Soient* $\varphi$ *un morphisme de G dans G’*, $\psi$ *un* $\varphi$-*morphisme de X dans X’*. *Soient* $t \in \mathcal{T}^{(s)}(G)$, $u \in \mathcal{T}^{(s')}(X)$, *tels que* $s + s' \leq r$. *Alors* $\psi_*(t * u) = \varphi_*(t) * \psi_*(u)$.
+*Soient* G (resp. $G'$) *un groupe de Lie*, X (resp. $X'$) *une variété de classe* $C^r$. *On suppose donnée une loi d’opération à gauche de classe* $C^r$ *de G (resp. G’) dans X (resp. X’).* *Soient* $\varphi$ *un morphisme de G dans G’*, $\psi$ *un* $\varphi$-*morphisme de X dans X’*. *Soient* $t \in \mathscr{T}^{(s)}(G)$, $u \in \mathscr{T}^{(s')}(X)$, *tels que* $s + s' \leq r$. *Alors* $\psi_*(t * u) = \varphi_*(t) * \psi_*(u)$.
 
 Cela se démontre comme la prop. 6 du n° 2.
 
 #### Remarque {#lie-iii-s3-n3-rem-1 .statement}
 
-Soit $f$ une loi d’opération à droite de classe $C^r$ de G dans X. Si $t \in \mathcal{T}^{(s)}(G)$ et $u \in \mathcal{T}^{(s')}(X)$, avec $s + s' \leq r$, on note $u * t$ l’image de $u \otimes t$ par $f_*$.
+Soit $f$ une loi d’opération à droite de classe $C^r$ de G dans X. Si $t \in \mathscr{T}^{(s)}(G)$ et $u \in \mathscr{T}^{(s')}(X)$, avec $s + s' \leq r$, on note $u * t$ l’image de $u \otimes t$ par $f_*$.
 Les prop. 13, 14, 15 se transposent de manière évidente à cette situation.
 
 #### Proposition 16 {#lie-iii-s3-prop-16 .statement}
 
-*Soient* G, $G'$ *des groupes de Lie*, X *une variété de classe* $C^r$, *et supposons que* G (resp. $G'$) *opère à gauche (resp. à droite) dans X, avec* $(gx)g' = g(xg')$ *quels que soient* $x \in X$, $g \in G$, $g' \in G$. *Soient* $t \in \mathcal{T}^{(s)}(G)$, $t' \in \mathcal{T}^{(s')}(G')$, $t'' \in \mathcal{T}^{(s'')}(X)$ *avec* $s + s' + s'' \leq r$. *Alors*
+*Soient* G, $G'$ *des groupes de Lie*, X *une variété de classe* $C^r$, *et supposons que* G (resp. $G'$) *opère à gauche (resp. à droite) dans X, avec* $(gx)g' = g(xg')$ *quels que soient* $x \in X$, $g \in G$, $g' \in G$. *Soient* $t \in \mathscr{T}^{(s)}(G)$, $t' \in \mathscr{T}^{(s')}(G')$, $t'' \in \mathscr{T}^{(s'')}(X)$ *avec* $s + s' + s'' \leq r$. *Alors*
 $$
 (t * t'') * t' = t * (t'' * t').
 $$
@@ -367,7 +367,7 @@ Soient G un groupe de Lie, X une variété de classe $C^r$, et $(g, x) \mapsto g
 
 #### Définition 3 {#lie-iii-s3-def-3 .statement}
 
-Soit $t \in \mathcal{T}^{(s)}(G)$ avec $s \leq r$. Soit $f : X \to F$ une fonction de classe $C^r$ à valeurs dans un espace polynormé séparé (par exemple $F = K$). On appelle convolée de $t$ et $f$, et l’on note $t * f$, la fonction sur $X$ à valeurs dans $F$ définie par
+Soit $t \in \mathscr{T}^{(s)}(G)$ avec $s \leq r$. Soit $f : X \to F$ une fonction de classe $C^r$ à valeurs dans un espace polynormé séparé (par exemple $F = K$). On appelle convolée de $t$ et $f$, et l’on note $t * f$, la fonction sur $X$ à valeurs dans $F$ définie par
 $$
 (t * f)(x) = \langle t^\vee * \varepsilon_x, f \rangle.
 $$
@@ -397,7 +397,7 @@ Supposons $K = \mathbf{R}$ ou $\mathbf{C}$, $G$ et $X$ de dimension finie, et $X
 
 #### Proposition 17 {#lie-iii-s3-prop-17 .statement}
 
-Soient $t \in \mathcal{T}^{(s)}(G)$, $t' \in \mathcal{T}^{(s')}(X)$, et $f : X \to F$ une fonction de classe $C^r$, avec $s + s' \leq r$. On a
+Soient $t \in \mathscr{T}^{(s)}(G)$, $t' \in \mathscr{T}^{(s')}(X)$, et $f : X \to F$ une fonction de classe $C^r$, avec $s + s' \leq r$. On a
 $$
 \langle t', t * f \rangle = \langle t^\vee * t', f \rangle.
 $$
@@ -413,7 +413,7 @@ $$
 
 #### Proposition 18 {#lie-iii-s3-prop-18 .statement}
 
-Soient $t \in \mathcal{T}^{(s)}(G)$, $t' \in \mathcal{T}^{(s')}(G)$, et $f : X \to F$ une fonction de classe $C^r$, tels que $s + s' \leq r$. On a
+Soient $t \in \mathscr{T}^{(s)}(G)$, $t' \in \mathscr{T}^{(s')}(G)$, et $f : X \to F$ une fonction de classe $C^r$, tels que $s + s' \leq r$. On a
 $$
 (t * t') * f = t * (t' * f).
 $$
@@ -427,11 +427,11 @@ $$
 $$
 C.Q.F.D
 
-Si $r \geq \infty$, on voit que l’ensemble des fonctions de classe $C^\infty$ sur $X$ à valeurs dans $F$ est un module à gauche sur l’algèbre $\mathcal{T}^{(\infty)}(G)$.
+Si $r \geq \infty$, on voit que l’ensemble des fonctions de classe $C^\infty$ sur $X$ à valeurs dans $F$ est un module à gauche sur l’algèbre $\mathscr{T}^{(\infty)}(G)$.
 
 #### Proposition 19 {#lie-iii-s3-prop-19 .statement}
 
-Soit $t \in \mathcal{T}^{(s)}(G)$, avec $s \leq r$. Soit $f$ (resp. $f'$) une fonction de classe $C^r$ sur $X$ à valeurs dans un espace polynormé séparé $F$ (resp. $F'$). Soit $(u, u') \mapsto uu'$ une application bilinéaire continue de $F \times F'$ dans un espace polynormé séparé $F''$, de sorte que $ff'$ est une fonction de classe $C^r$ sur $X$ à valeurs dans $F''$. Soit $\sum_{i=1}^n t_i \otimes t'_i$ l’image de $t$ dans $\mathcal{T}^{(s)}(G) \otimes \mathcal{T}^{(s)}(G)$ par le coproduit. On a
+Soit $t \in \mathscr{T}^{(s)}(G)$, avec $s \leq r$. Soit $f$ (resp. $f'$) une fonction de classe $C^r$ sur $X$ à valeurs dans un espace polynormé séparé $F$ (resp. $F'$). Soit $(u, u') \mapsto uu'$ une application bilinéaire continue de $F \times F'$ dans un espace polynormé séparé $F''$, de sorte que $ff'$ est une fonction de classe $C^r$ sur $X$ à valeurs dans $F''$. Soit $\sum_{i=1}^n t_i \otimes t'_i$ l’image de $t$ dans $\mathscr{T}^{(s)}(G) \otimes \mathscr{T}^{(s)}(G)$ par le coproduit. On a
 $$
 t * (ff') = \sum_{i=1}^n (t_i * f)(t'_i * f').
 $$
@@ -446,7 +446,7 @@ $$
 
 #### Remarque 1 {#lie-iii-s3-n4-rem-1 .statement}
 
-Soient $G$ un groupe de Lie, $X$ une variété de classe $C^r$, et $(x, g) \mapsto xg$ une loi d’opération à droite de classe $C^r$ de $G$ dans $X$. Si $t \in \mathcal{T}^{(s)}(G)$ avec $s \leq r$, et $f : X \to F$ est une fonction de classe $C^r$ sur $X$, on note $f * t$ la fonction sur $X$ définie par
+Soient $G$ un groupe de Lie, $X$ une variété de classe $C^r$, et $(x, g) \mapsto xg$ une loi d’opération à droite de classe $C^r$ de $G$ dans $X$. Si $t \in \mathscr{T}^{(s)}(G)$ avec $s \leq r$, et $f : X \to F$ est une fonction de classe $C^r$ sur $X$, on note $f * t$ la fonction sur $X$ définie par
 $$
 \langle \varepsilon_x, f * t \rangle = \langle \varepsilon_x * t^\vee, f \rangle \\
 = \langle \rho(x) * (t^\vee), f \rangle \\
@@ -472,7 +472,7 @@ Les prop. 17, 18, 19 deviennent, avec des notations évidentes,
 
 #### Proposition 20 {#lie-iii-s3-prop-20 .statement}
 
-*Soient G, G' des groupes de Lie, X une variété de classe C^r, et (g, x) \mapsto gx* (resp. (x, g') \mapsto xg') une loi d’opération à gauche (resp. à droite) de classe C^r de G (resp. G') dans X. Supposons que (gx)g' = g(xg') quels que soient x \in X, g \in G, g' \in G'. Soient t \in \mathcal{T}^{(s)}(G), t' \in \mathcal{T}^{(s')}(G'), et f : X \to F une fonction de classe C^r, tels que s + s' \leq r. Alors*
+*Soient G, G' des groupes de Lie, X une variété de classe C^r, et (g, x) \mapsto gx* (resp. (x, g') \mapsto xg') une loi d’opération à gauche (resp. à droite) de classe C^r de G (resp. G') dans X. Supposons que (gx)g' = g(xg') quels que soient x \in X, g \in G, g' \in G'. Soient t \in \mathscr{T}^{(s)}(G), t' \in \mathscr{T}^{(s')}(G'), et f : X \to F une fonction de classe C^r, tels que s + s' \leq r. Alors*
 
 $$(t * f) * t' = t * (f * t').$$
 
@@ -489,11 +489,11 @@ $$
 
 C.Q.F.D.
 
-En particulier, considérons G comme opérant sur lui-même par les translations à gauche et à droite. Si f : G \to F est une fonction de classe C^r sur G, et si t \in \mathcal{T}^{(s)}(G) (avec s \leq r), t \* f et f \* t sont, si s < \infty, des fonctions de classe C^{r-s} sur G. Soit en outre t' \in \mathcal{T}^{(s')}(G), avec s + s' \leq r. Alors
+En particulier, considérons G comme opérant sur lui-même par les translations à gauche et à droite. Si f : G \to F est une fonction de classe C^r sur G, et si t \in \mathscr{T}^{(s)}(G) (avec s \leq r), t \* f et f \* t sont, si s < \infty, des fonctions de classe C^{r-s} sur G. Soit en outre t' \in \mathscr{T}^{(s')}(G), avec s + s' \leq r. Alors
 
 (14) $$ (t * f) * t' = t * (f * t'). $$
 
-En particulier, \mathcal{C}^\infty(G) est un (\mathcal{T}^{(\infty)}(G), \mathcal{T}^{(\infty)}(G))-bimodule. Les formules (5) et (8) admettent comme cas particuliers
+En particulier, \mathscr{C}^\infty(G) est un (\mathscr{T}^{(\infty)}(G), \mathscr{T}^{(\infty)}(G))-bimodule. Les formules (5) et (8) admettent comme cas particuliers
 
 (15) $$ \langle t, f \rangle = \langle \varepsilon_e, t^\nu * f \rangle = \langle \varepsilon_e, f * t^\nu \rangle. $$
 
@@ -509,7 +509,7 @@ $$
 (D_t f)(x) = \langle t * \varepsilon_x, f \rangle.
 $$
 
-Si $s < \infty$, on a $D_t f \in \mathcal{C}^{r-s}(\Omega, F)$ d’après le n° 4. Ainsi, $f \mapsto D_t f$ est une application de $\mathcal{C}^r(\Omega, F)$ dans $\mathcal{C}^{r-s}(\Omega, F)$ (notée souvent $D_t$ par abus de notation).
+Si $s < \infty$, on a $D_t f \in \mathscr{C}^{r-s}(\Omega, F)$ d’après le n° 4. Ainsi, $f \mapsto D_t f$ est une application de $\mathscr{C}^r(\Omega, F)$ dans $\mathscr{C}^{r-s}(\Omega, F)$ (notée souvent $D_t$ par abus de notation).
 
 Si $t \in U_s(G)$, $t' \in U_{s'}(G)$, et $s + s' \leq r$, on a, d’après la prop. 18 du n° 4,
 
@@ -583,7 +583,7 @@ $$\Delta_{gg'} = \Delta_g * \varepsilon_{g'} \quad \text{pour } g, g' \text{ dan
 
 Soient $G$ un groupe de Lie, et $t \in U(G)$. On note $L_t$ le champ de distributions $g \mapsto \varepsilon_g * t$ sur $G$, et $R_t$ le champ de distributions $g \mapsto t * \varepsilon_g$ sur $G$.
 
-Autrement dit, $L_t$ (resp. $R_t$) est le champ de distributions défini par $t$ et par $G$ opérant à droite (resp. à gauche) dans $G$ grâce à l’application $(g, g') \mapsto gg'$. Soient $\Omega$ une partie ouverte de $G$ et $F$ un espace polynormé séparé ; si $f \in \mathcal{C}^\omega(\Omega, F)$, on a $L_t f = f * t^\nu \in \mathcal{C}^\omega(\Omega, F)$ et $R_t f = t^\nu * f \in \mathcal{C}^\omega(\Omega, F)$ (n° 5). Si $G$ est de dimension finie, les opérateurs différentiels $L_t$ et $R_t$ sont de classe $C^\omega$ (n° 5).
+Autrement dit, $L_t$ (resp. $R_t$) est le champ de distributions défini par $t$ et par $G$ opérant à droite (resp. à gauche) dans $G$ grâce à l’application $(g, g') \mapsto gg'$. Soient $\Omega$ une partie ouverte de $G$ et $F$ un espace polynormé séparé ; si $f \in \mathscr{C}^\omega(\Omega, F)$, on a $L_t f = f * t^\nu \in \mathscr{C}^\omega(\Omega, F)$ et $R_t f = t^\nu * f \in \mathscr{C}^\omega(\Omega, F)$ (n° 5). Si $G$ est de dimension finie, les opérateurs différentiels $L_t$ et $R_t$ sont de classe $C^\omega$ (n° 5).
 
 #### Proposition 23 {#lie-iii-s3-prop-23 .statement}
 
@@ -595,7 +595,7 @@ Autrement dit, $L_t$ (resp. $R_t$) est le champ de distributions défini par $t$
 
 (iv) *Si* $t \in U(G)$ *et* $g \in G$, *on a* $(L_t)_g = (R_{\varepsilon_g * t * \varepsilon_{g^{-1}}})_g$.
 
-Dans $G$, toute translation à droite commute à toute translation à gauche. D’après la prop. 21 du n° 5, $L_t$ est donc invariant à gauche. Comme $(L_t)_e = t$, l’application $t \mapsto L_t$ est injective. Soit $\Delta$ un champ de distributions invariant à gauche sur $G$; soit $t = \Delta_e$; alors $\Delta$ et $L_t$ ont même valeur en $e$ et sont invariants à gauche, donc $\Delta = L_t$. Ceci prouve (i) pour $L_t$ et on raisonne de même pour $R_t$. Les formules $L_{t*t'} = L_t \circ L_{t'}, \ R_{t*t'} = R_{t'} \circ R_t$ résultent de (21) et (18). Soient $t \in U_s(G), \ t' \in U_{s'}(G), f \in \mathcal{C}^r(\Omega, F)$, où $\Omega$ est ouvert dans $G$ et où $s + s' \leq r$; on a
+Dans $G$, toute translation à droite commute à toute translation à gauche. D’après la prop. 21 du n° 5, $L_t$ est donc invariant à gauche. Comme $(L_t)_e = t$, l’application $t \mapsto L_t$ est injective. Soit $\Delta$ un champ de distributions invariant à gauche sur $G$; soit $t = \Delta_e$; alors $\Delta$ et $L_t$ ont même valeur en $e$ et sont invariants à gauche, donc $\Delta = L_t$. Ceci prouve (i) pour $L_t$ et on raisonne de même pour $R_t$. Les formules $L_{t*t'} = L_t \circ L_{t'}, \ R_{t*t'} = R_{t'} \circ R_t$ résultent de (21) et (18). Soient $t \in U_s(G), \ t' \in U_{s'}(G), f \in \mathscr{C}^r(\Omega, F)$, où $\Omega$ est ouvert dans $G$ et où $s + s' \leq r$; on a
 $$
 L_t R_{t'} f = L_t ({t'}^\nu * f) = ({t'}^\nu * f) * t^\nu \\
 = {t'}^\nu * (f * t^\nu) \tag{prop. 20} \\
@@ -822,11 +822,11 @@ donc $T_g(\varphi)$ est K-linéaire. La proposition résulte alors de VAR, R, 5.
 
 ### 9. Algèbre de Lie du groupe des éléments inversibles d’une algèbre
 
-Soit A une algèbre associative normable complète, ayant un élément unité $e$. Soit $A^*$ le groupe des éléments inversibles de A. On a vu ($\S$ 1, n° 1) que $A^*$ est une sous-variété ouverte de A, et est un groupe de Lie. Soient G un groupe de Lie, $f$ un morphisme du groupe de Lie G dans le groupe de Lie $A^*$. On peut considérer f comme une application analytique de G dans l’espace normable complet A. Donc, si $t \in \mathcal{T}^{(\infty)}(G)$, on peut former $\langle t, f \rangle$, qui est un élément de A.
+Soit A une algèbre associative normable complète, ayant un élément unité $e$. Soit $A^*$ le groupe des éléments inversibles de A. On a vu ($\S$ 1, n° 1) que $A^*$ est une sous-variété ouverte de A, et est un groupe de Lie. Soient G un groupe de Lie, $f$ un morphisme du groupe de Lie G dans le groupe de Lie $A^*$. On peut considérer f comme une application analytique de G dans l’espace normable complet A. Donc, si $t \in \mathscr{T}^{(\infty)}(G)$, on peut former $\langle t, f \rangle$, qui est un élément de A.
 
 #### Proposition 33 {#lie-iii-s3-prop-33 .statement}
 
-*L’application* $t \mapsto \langle t, f \rangle$ *est un morphisme de l’algèbre* $\mathcal{T}^{(\infty)}(G)$ *dans l’algèbre* A.
+*L’application* $t \mapsto \langle t, f \rangle$ *est un morphisme de l’algèbre* $\mathscr{T}^{(\infty)}(G)$ *dans l’algèbre* A.
 
 Il suffit de vérifier que, si $t$ et $t'$ sont des distributions ponctuelles sur G, on a $\langle t * t', f \rangle = \langle t, f \rangle \langle t', f \rangle$. Or
 $$
@@ -840,7 +840,7 @@ C.Q.F.D.
 
 Le morphisme de la prop. 33 est dit *associé à* f.
 
-Prenons pour G le groupe $A^*$ lui-même, et pour $f$ l’application identique $\iota$ de $A^*$. Nous obtenons un morphisme, dit *canonique*, de l’algèbre $\mathcal{T}^{(\infty)}(A^*)$ dans l’algèbre A. L’espace tangent $T_e(A^*)$ s’identifie canoniquement à A; et, si $t \in T_e(A^*)$, la définition de cette identification est telle que $\langle t, \iota \rangle = t$. Ceci posé, la prop. 33 entraîne le corollaire suivant:
+Prenons pour G le groupe $A^*$ lui-même, et pour $f$ l’application identique $\iota$ de $A^*$. Nous obtenons un morphisme, dit *canonique*, de l’algèbre $\mathscr{T}^{(\infty)}(A^*)$ dans l’algèbre A. L’espace tangent $T_e(A^*)$ s’identifie canoniquement à A; et, si $t \in T_e(A^*)$, la définition de cette identification est telle que $\langle t, \iota \rangle = t$. Ceci posé, la prop. 33 entraîne le corollaire suivant:
 
 #### Corollaire {#lie-iii-s3-n9-cor-1 .statement}
 
@@ -852,13 +852,13 @@ $$
 
 On identifie désormais $L(A^*)$ et A grâce à l’isomorphisme $\zeta$.
 
-Le morphisme canonique de $\mathcal{T}^{(\infty)}(A^*)$ dans A a été obtenu comme cas particulier du morphisme de la prop. 33. Mais on peut procéder en sens inverse:
+Le morphisme canonique de $\mathscr{T}^{(\infty)}(A^*)$ dans A a été obtenu comme cas particulier du morphisme de la prop. 33. Mais on peut procéder en sens inverse:
 
 #### Proposition 34 {#lie-iii-s3-prop-34 .statement}
 
-*Soient* H *un groupe de Lie, A une algèbre associative normable complète unifière, $\varphi : H \to A^*$ un morphisme de groupes de Lie. Le morphisme associé* $\varphi'$ *de* $\mathcal{T}^{(\infty)}(H)$ *dans* A *s’obtient en composant* $\varphi_*$ *et le morphisme canonique de* $\mathcal{T}^{(\infty)}(A^*)$ *dans* A. *En particulier, $\varphi'(x) = L(\varphi)(x)$ pour tout* $x \in L(H)$.
+*Soient* H *un groupe de Lie, A une algèbre associative normable complète unifière, $\varphi : H \to A^*$ un morphisme de groupes de Lie. Le morphisme associé* $\varphi'$ *de* $\mathscr{T}^{(\infty)}(H)$ *dans* A *s’obtient en composant* $\varphi_*$ *et le morphisme canonique de* $\mathscr{T}^{(\infty)}(A^*)$ *dans* A. *En particulier, $\varphi'(x) = L(\varphi)(x)$ pour tout* $x \in L(H)$.
 
-En effet, soit $i$ l’application identique de $A^*$ dans A. On a, pour tout $t \in \mathcal{T}^{(\infty)}(H)$,
+En effet, soit $i$ l’application identique de $A^*$ dans A. On a, pour tout $t \in \mathscr{T}^{(\infty)}(H)$,
 $$
 \varphi'(t) = \langle t, \varphi \rangle = \langle t, i \circ \varphi \rangle \\
 = \langle \varphi_*(t), i \rangle \tag{VAR, R, 13.2.3}.
@@ -866,17 +866,17 @@ $$
 
 ### 10. Algèbres de Lie de certains groupes linéaires
 
-Soit E un espace normable complet. Alors $\mathcal{L}(E)$ est une algèbre normable complète unifière, et $\mathbf{GL}(E)$ est un groupe de Lie. D’après le cor. de la prop. 33, n° 9,
+Soit E un espace normable complet. Alors $\mathscr{L}(E)$ est une algèbre normable complète unifière, et $\mathbf{GL}(E)$ est un groupe de Lie. D’après le cor. de la prop. 33, n° 9,
 
 #### Proposition 35 {#lie-iii-s3-prop-35 .statement}
 
-*Soit E un espace vectoriel de dimension finie. Soit $\varphi$ le morphisme $g \mapsto \det g$ du groupe de Lie $\mathbf{GL}(E)$ dans le groupe de Lie $K^*$. L’application $L(\varphi)$ de $\mathcal{L}(E)$ dans $K$ est l’application $x \mapsto \operatorname{Tr} x$. Le noyau $\mathbf{SL}(E)$ de $\varphi$ est un sous-groupe de Lie de $\mathbf{GL}(E)$ d’algèbre de Lie $\mathfrak{sl}(E)$.
+*Soit E un espace vectoriel de dimension finie. Soit $\varphi$ le morphisme $g \mapsto \det g$ du groupe de Lie $\mathbf{GL}(E)$ dans le groupe de Lie $K^*$. L’application $L(\varphi)$ de $\mathscr{L}(E)$ dans $K$ est l’application $x \mapsto \operatorname{Tr} x$. Le noyau $\mathbf{SL}(E)$ de $\varphi$ est un sous-groupe de Lie de $\mathbf{GL}(E)$ d’algèbre de Lie $\mathfrak{sl}(E)$.
 
 Choisissons une norme et une base dans E. Le développement du déterminant prouve que
 $$
 \det(1 + u) \in 1 + \operatorname{Tr} u + o(\|u\|)
 $$
-quand $u$ tend vers 0 dans $\mathcal{L}(E)$. Donc, compte tenu de la prop. 34, n° 9, on a, pour $x \in \mathcal{L}(E) = L(\mathbf{GL}(E))$:
+quand $u$ tend vers 0 dans $\mathscr{L}(E)$. Donc, compte tenu de la prop. 34, n° 9, on a, pour $x \in \mathscr{L}(E) = L(\mathbf{GL}(E))$:
 $$
 L(\varphi)(x) = \langle x, \varphi \rangle = \operatorname{Tr} x.
 $$
@@ -884,13 +884,13 @@ Il en résulte que $\varphi$ est une submersion. Par suite, $\operatorname{Ker} 
 
 C.Q.F.D.
 
-Soient $E_1, \ldots, E_n$ des espaces normables complets, E leur somme directe. Tout $x \in \mathcal{L}(E)$ se représente par une matrice $(x_{ij})_{1 \leq i, j \leq n}$, où $x_{ij} \in \mathcal{L}(E_i, E_j)$.
+Soient $E_1, \ldots, E_n$ des espaces normables complets, E leur somme directe. Tout $x \in \mathscr{L}(E)$ se représente par une matrice $(x_{ij})_{1 \leq i, j \leq n}$, où $x_{ij} \in \mathscr{L}(E_i, E_j)$.
 
 #### Proposition 36 {#lie-iii-s3-prop-36 .statement}
 
-*Soient I une partie de $\{1, 2, \ldots, n\}$, G le sous-groupe de $\mathbf{GL}(E)$ formé des $g = (g_{ij})_{1 \leq i, j \leq n} \in \mathbf{GL}(E)$ tels que $g_{ij} = 0$ pour $i < j$ et $g_{ii} = 1$ pour $i \in I$. Alors G est un sous-groupe de Lie de $\mathbf{GL}(E)$, et $L(G)$ est l’ensemble des $x = (x_{ij})_{1 \leq i, j \leq n} \in \mathcal{L}(E)$ tels que $x_{ij} = 0$ pour $i < j$ et $x_{ii} = 0$ pour $i \in I$.
+*Soient I une partie de $\{1, 2, \ldots, n\}$, G le sous-groupe de $\mathbf{GL}(E)$ formé des $g = (g_{ij})_{1 \leq i, j \leq n} \in \mathbf{GL}(E)$ tels que $g_{ij} = 0$ pour $i < j$ et $g_{ii} = 1$ pour $i \in I$. Alors G est un sous-groupe de Lie de $\mathbf{GL}(E)$, et $L(G)$ est l’ensemble des $x = (x_{ij})_{1 \leq i, j \leq n} \in \mathscr{L}(E)$ tels que $x_{ij} = 0$ pour $i < j$ et $x_{ii} = 0$ pour $i \in I$.
 
-Soit S l’ensemble des $(x_{ij}) \in \mathcal{L}(E)$ tels que $x_{ij} = 0$ pour $i < j$ et $x_{ii} = 0$ pour $i \in I$. Alors G est l’intersection de $\mathbf{GL}(E)$ et du sous-espace affine $1 + S$ de $\mathcal{L}(E)$. Donc G est une sous-variété de $\mathbf{GL}(E)$, et l’espace tangent à G en 1 s’identifie à S.
+Soit S l’ensemble des $(x_{ij}) \in \mathscr{L}(E)$ tels que $x_{ij} = 0$ pour $i < j$ et $x_{ii} = 0$ pour $i \in I$. Alors G est l’intersection de $\mathbf{GL}(E)$ et du sous-espace affine $1 + S$ de $\mathscr{L}(E)$. Donc G est une sous-variété de $\mathbf{GL}(E)$, et l’espace tangent à G en 1 s’identifie à S.
 
 C.Q.F.D
 
@@ -916,13 +916,13 @@ Ainsi, $T_1(f)(y) = y + y^i$, de sorte que $f$ est une submersion en 1. Par suit
 
 #### Corollaire 1 {#lie-iii-s3-prop-37-cor-1 .statement}
 
-*Supposons K de caractéristique $\neq 2$. Soient E un espace vectoriel de dimension finie sur K, et $\varphi$ une forme bilinéaire symétrique (resp. alternée) non dégénérée sur E. Pour tout $u \in \mathcal{L}(E)$, soit $u^*$ l’adjoint de u relativement à $\varphi$. Soit G le groupe orthogonal (resp. symplectique) de $\varphi$. Alors G est un sous-groupe de Lie de $\mathbf{GL}(E)$, et $L(G)$ est l’ensemble des $x \in \mathcal{L}(E)$ tels que $x^* = -x$.
+*Supposons K de caractéristique $\neq 2$. Soient E un espace vectoriel de dimension finie sur K, et $\varphi$ une forme bilinéaire symétrique (resp. alternée) non dégénérée sur E. Pour tout $u \in \mathscr{L}(E)$, soit $u^*$ l’adjoint de u relativement à $\varphi$. Soit G le groupe orthogonal (resp. symplectique) de $\varphi$. Alors G est un sous-groupe de Lie de $\mathbf{GL}(E)$, et $L(G)$ est l’ensemble des $x \in \mathscr{L}(E)$ tels que $x^* = -x$.
 
-On applique la prop. 37 avec $A = \mathcal{L}(E)$ et $x^i = x^*$.
+On applique la prop. 37 avec $A = \mathscr{L}(E)$ et $x^i = x^*$.
 
 #### Remarque {#lie-iii-s3-n10-rem-1 .statement}
 
-Soient B une base de E, et $J$ la matrice de $\varphi$ par rapport à B. Alors $L(G)$ est l’ensemble des éléments de $\mathcal{L}(E)$ dont la matrice $X$ par rapport à B vérifie l’égalité
+Soient B une base de E, et $J$ la matrice de $\varphi$ par rapport à B. Alors $L(G)$ est l’ensemble des éléments de $\mathscr{L}(E)$ dont la matrice $X$ par rapport à B vérifie l’égalité
 
 $$
 {}^tX = -J\, X\, J^{-1}.
@@ -932,19 +932,19 @@ Ceci résulte de A, IX, § 1, formule (50).
 
 #### Corollaire 2 {#lie-iii-s3-prop-37-cor-2 .statement}
 
-*Soient E un espace hilbertien complexe (resp. réel), U le groupe unitaire de E. Alors U est un sous-groupe de Lie réel de $\mathbf{GL}(E)$, et $L(U)$ est l’ensemble des $x \in \mathcal{L}(E)$ tels que $x^* = -x$.
+*Soient E un espace hilbertien complexe (resp. réel), U le groupe unitaire de E. Alors U est un sous-groupe de Lie réel de $\mathbf{GL}(E)$, et $L(U)$ est l’ensemble des $x \in \mathscr{L}(E)$ tels que $x^* = -x$.
 
-On applique la prop. 37 avec $A = \mathcal{L}(E)$ considérée comme algèbre sur $\mathbf{R}$, et $x^i = x^*$.
+On applique la prop. 37 avec $A = \mathscr{L}(E)$ considérée comme algèbre sur $\mathbf{R}$, et $x^i = x^*$.
 
 #### Corollaire 3 {#lie-iii-s3-prop-37-cor-3 .statement}
 
-*Soient E un espace vectoriel complexe de dimension finie, $\varphi$ une forme sesquilinéaire hermitienne non dégénérée sur E, U le groupe unitaire de $\varphi$. Alors U est un sous-groupe de Lie réel de $\mathbf{GL}(E)$, et $L(U)$ est l’ensemble des $x \in \mathcal{L}(E)$ tels que ix soit hermitien.
+*Soient E un espace vectoriel complexe de dimension finie, $\varphi$ une forme sesquilinéaire hermitienne non dégénérée sur E, U le groupe unitaire de $\varphi$. Alors U est un sous-groupe de Lie réel de $\mathbf{GL}(E)$, et $L(U)$ est l’ensemble des $x \in \mathscr{L}(E)$ tels que ix soit hermitien.
 
-Lorsque $E \neq \{0\}$, U n’est *pas* un sous-groupe de Lie du groupe de Lie complexe $\mathbf{GL}(E)$, car $L(U)$ n’est pas un sous-espace vectoriel complexe de $\mathcal{L}(E)$.
+Lorsque $E \neq \{0\}$, U n’est *pas* un sous-groupe de Lie du groupe de Lie complexe $\mathbf{GL}(E)$, car $L(U)$ n’est pas un sous-espace vectoriel complexe de $\mathscr{L}(E)$.
 
 ### 11. Représentations linéaires
 
-Soient G un groupe de Lie, E un espace normable complet, π une représentation linéaire analytique de G dans E (§ 1, n° 2). Le morphisme associé $t \mapsto \langle t, \pi \rangle$ de $\mathcal{T}^{(\infty)}(G)$ dans $\mathcal{L}(E)$ est un morphisme d’algèbres (n° 9, prop. 33), et sa restriction à $L(G)$ est $L(\pi)$. Donc $L(\pi)$ est une représentation de $L(G)$ dans E (chap. I, § 3, déf. 1).
+Soient G un groupe de Lie, E un espace normable complet, π une représentation linéaire analytique de G dans E (§ 1, n° 2). Le morphisme associé $t \mapsto \langle t, \pi \rangle$ de $\mathscr{T}^{(\infty)}(G)$ dans $\mathscr{L}(E)$ est un morphisme d’algèbres (n° 9, prop. 33), et sa restriction à $L(G)$ est $L(\pi)$. Donc $L(\pi)$ est une représentation de $L(G)$ dans E (chap. I, § 3, déf. 1).
 
 #### Proposition 38 {#lie-iii-s3-prop-38 .statement}
 
@@ -956,7 +956,7 @@ $$
 
 En particulier, le champ de vecteurs défini par t sur E est le champ $b \mapsto (L(\pi)t)(b)$.
 
-On a $L(\pi)t = \langle t, \pi \rangle$ (n° 9, prop. 34). Comme l’application $A \mapsto Ab$ de $\mathcal{L}(E)$ dans E est linéaire continue, on en déduit que
+On a $L(\pi)t = \langle t, \pi \rangle$ (n° 9, prop. 34). Comme l’application $A \mapsto Ab$ de $\mathscr{L}(E)$ dans E est linéaire continue, on en déduit que
 
 $$
 \begin{align*}
@@ -999,7 +999,7 @@ C.Q.F.D.
 
 (iii) *Soient $\rho_1$ et $\rho_2$ la sous-représentation et la représentation quotient de $L(\pi)$ définies par F. Alors $L(\pi_1) = \rho_1, L(\pi_2) = \rho_2$.*
 
-Soit A l’ensemble des $u \in \mathcal{L}(E)$ tels que $u(F) \subset F$. Alors A est un sous-espace vectoriel fermé de $\mathcal{L}(E)$, et $\pi$ prend ses valeurs dans A. En vertu des hypothèses sur K et F, l’application $\pi' : G \to A$ de même graphe que $\pi$ est analytique (VAR, R, 5.8.5). Les applications canoniques $\theta_1 : A \to \mathcal{L}(F)$ et $\theta_2 : A \to \mathcal{L}(E/F)$ sont linéaires continues, donc analytiques. Cela prouve (i). Les applications $T_e(\pi)$ et $T_e(\pi')$ ont même graphe, donc $L(\pi)(L(G)) \subset A$, ce qui prouve (ii). On a
+Soit A l’ensemble des $u \in \mathscr{L}(E)$ tels que $u(F) \subset F$. Alors A est un sous-espace vectoriel fermé de $\mathscr{L}(E)$, et $\pi$ prend ses valeurs dans A. En vertu des hypothèses sur K et F, l’application $\pi' : G \to A$ de même graphe que $\pi$ est analytique (VAR, R, 5.8.5). Les applications canoniques $\theta_1 : A \to \mathscr{L}(F)$ et $\theta_2 : A \to \mathscr{L}(E/F)$ sont linéaires continues, donc analytiques. Cela prouve (i). Les applications $T_e(\pi)$ et $T_e(\pi')$ ont même graphe, donc $L(\pi)(L(G)) \subset A$, ce qui prouve (ii). On a
 
 $$
 T_e(\pi_1) = T_e(\theta_1 \circ \pi') = \theta_1 \circ T_e(\pi') = \rho_1 \\
@@ -1044,13 +1044,13 @@ $$
 
 quels que soient $a \in \mathbf{L}(G)$, $u \in E$, $x_1 \in E_1, ..., x_n \in E_n$.
 
-Tout élément $(A_1, ..., A_{n+1})$ de $\mathcal{L}(E_1) \times \cdots \times \mathcal{L}(E_{n+1})$ définit un endomorphisme continu $\theta(A_1, ..., A_{n+1})$ de E par la formule
+Tout élément $(A_1, ..., A_{n+1})$ de $\mathscr{L}(E_1) \times \cdots \times \mathscr{L}(E_{n+1})$ définit un endomorphisme continu $\theta(A_1, ..., A_{n+1})$ de E par la formule
 
 $$
 (\theta(A_1, ..., A_{n+1})u)(x_1, ..., x_n) = A_{n+1}(u(A_1x_1, ..., A_nx_n)).
 $$
 
-L’application $\theta$ de $\mathcal{L}(E_1) \times \cdots \times \mathcal{L}(E_{n+1})$ dans $\mathcal{L}(E)$ est multilinéaire continue. On a, pour tout $g \in G$,
+L’application $\theta$ de $\mathscr{L}(E_1) \times \cdots \times \mathscr{L}(E_{n+1})$ dans $\mathscr{L}(E)$ est multilinéaire continue. On a, pour tout $g \in G$,
 
 $$
 \pi(g) = \theta(\pi_1(g^{-1}), ..., \pi_n(g^{-1}), \pi_{n+1}(g))
@@ -1081,9 +1081,9 @@ Lorsque les $E_i$ sont de dimension finie, la représentation $\mathbf{L}(\pi)$ 
 
 #### Corollaire 2 {#lie-iii-s3-prop-41-cor-2 .statement}
 
-Soient G un groupe de Lie, $\pi$ une représentation linéaire analytique de G dans un espace normable complet E. Alors $g \mapsto {}^t\pi(g)^{-1}$ est une représentation linéaire analytique $\rho$ de G dans l’espace normable complet $\mathcal{L}(E, K)$,¹ et $\mathbf{L}(\rho)a = -{}^t(\mathbf{L}(\pi)a)$ pour tout $a \in \mathbf{L}(G)$.
+Soient G un groupe de Lie, $\pi$ une représentation linéaire analytique de G dans un espace normable complet E. Alors $g \mapsto {}^t\pi(g)^{-1}$ est une représentation linéaire analytique $\rho$ de G dans l’espace normable complet $\mathscr{L}(E, K)$,¹ et $\mathbf{L}(\rho)a = -{}^t(\mathbf{L}(\pi)a)$ pour tout $a \in \mathbf{L}(G)$.
 
-¹ Comme lorsque $K = \mathbf{R}$ ou $\mathbf{C}$, le transposé ${}^t\pi(g)$ envisagé ici est la restriction à $\mathcal{L}(E, K)$ du transposé de $\pi(g)$ au sens purement algébrique.
+¹ Comme lorsque $K = \mathbf{R}$ ou $\mathbf{C}$, le transposé ${}^t\pi(g)$ envisagé ici est la restriction à $\mathscr{L}(E, K)$ du transposé de $\pi(g)$ au sens purement algébrique.
 
 C’est un cas particulier du cor. 1.
 
@@ -1095,7 +1095,7 @@ Lorsque E est de dimension finie, $L(\rho)$ est la représentation duale de $L(\
 
 Soient G un groupe de Lie, $\pi_1, \ldots, \pi_n$ des représentations linéaires analytiques de G dans des espaces vectoriels de dimension finie $E_1, \ldots, E_n$. Alors la représentation $\pi_1 \otimes \cdots \otimes \pi_n$ de G (Appendice) est analytique, et $L(\pi_1 \otimes \cdots \otimes \pi_n)$ est le produit tensoriel de $L(\pi_1), \ldots, L(\pi_n)$.
 
-L’application $(A_1, \ldots, A_n) \mapsto A_1 \otimes \cdots \otimes A_n$ de $\mathcal{L}(E_1) \times \cdots \times \mathcal{L}(E_n)$ dans $\mathcal{L}(E_1 \otimes \cdots \otimes E_n)$ est multilinéaire, d’où le fait que $\pi$ est analytique. Considérons l’application $(x_1, \ldots, x_n) \mapsto x_1 \otimes \cdots \otimes x_n$ de $E_1 \times \cdots \times E_n$ dans $E_1 \otimes \cdots \otimes E_n$. D’après la prop. 41, on voit que
+L’application $(A_1, \ldots, A_n) \mapsto A_1 \otimes \cdots \otimes A_n$ de $\mathscr{L}(E_1) \times \cdots \times \mathscr{L}(E_n)$ dans $\mathscr{L}(E_1 \otimes \cdots \otimes E_n)$ est multilinéaire, d’où le fait que $\pi$ est analytique. Considérons l’application $(x_1, \ldots, x_n) \mapsto x_1 \otimes \cdots \otimes x_n$ de $E_1 \times \cdots \times E_n$ dans $E_1 \otimes \cdots \otimes E_n$. D’après la prop. 41, on voit que
 
 $$
 (L(\pi)a)(x_1 \otimes \cdots \otimes x_n) = \sum_{i=1}^n x_1 \otimes \cdots \otimes (L(\pi_i)a)x_i \otimes \cdots \otimes x_n
@@ -1117,11 +1117,11 @@ Cela résulte du cor. 3 et de la prop. 40.
 
 Soit A une algèbre de dimension finie. On suppose K de caractéristique 0. Le groupe Aut(A) des automorphismes de A est un sous-groupe de Lie de $\mathbf{GL}(A)$, et $L(\mathrm{Aut}(A))$ est l’algèbre de Lie des dérivations de A.
 
-Cela résulte du cor. 1 (appliqué à $E = \mathcal{L}(A, A; A)$), et du cor. 2 de la prop. 39 (appliqué à la partie de E réduite à la seule multiplication de A).
+Cela résulte du cor. 1 (appliqué à $E = \mathscr{L}(A, A; A)$), et du cor. 2 de la prop. 39 (appliqué à la partie de E réduite à la seule multiplication de A).
 
 #### Remarque {#lie-iii-s3-n11-rem-1 .statement}
 
-Appliquons le cor. 1 avec $G = \mathbf{GL}(F)$ (F, espace normable complet), $\pi_1 = \pi_2 = \mathrm{Id}_G$, $\pi_3$ étant la représentation triviale de G dans K. On obtient une représentation analytique $\pi$ de $\mathbf{GL}(F)$ dans $\mathcal{L}(F, F; K)$. Supposons F de dimension finie et K de caractéristique 0. Appliquant à $\pi$ le cor. 2 de la prop. 39 on retrouve en partie le cor. 1 de la prop. 37.
+Appliquons le cor. 1 avec $G = \mathbf{GL}(F)$ (F, espace normable complet), $\pi_1 = \pi_2 = \mathrm{Id}_G$, $\pi_3$ étant la représentation triviale de G dans K. On obtient une représentation analytique $\pi$ de $\mathbf{GL}(F)$ dans $\mathscr{L}(F, F; K)$. Supposons F de dimension finie et K de caractéristique 0. Appliquant à $\pi$ le cor. 2 de la prop. 39 on retrouve en partie le cor. 1 de la prop. 37.
 
 #### Proposition 42 {#lie-iii-s3-prop-42 .statement}
 
@@ -1167,28 +1167,28 @@ Soit G un groupe de Lie. Considérons la loi d’opération à gauche analytique
 $$
 (g, g') \mapsto gg'g^{-1} = (\mathrm{Int}\, g)g'
 $$
-de G dans G. Cette loi d’opération définit, d’après le n° 3, une application bilinéaire de $\mathcal{T}^{(\infty)}(G) \times \mathcal{T}^{(\infty)}(G)$ dans $\mathcal{T}^{(\infty)}(G)$, que nous noterons $\top$ dans ce n°. D’après la prop. 13 du n° 3, on a
+de G dans G. Cette loi d’opération définit, d’après le n° 3, une application bilinéaire de $\mathscr{T}^{(\infty)}(G) \times \mathscr{T}^{(\infty)}(G)$ dans $\mathscr{T}^{(\infty)}(G)$, que nous noterons $\top$ dans ce n°. D’après la prop. 13 du n° 3, on a
 $$(22)$$
 $$
 (t * t') \top t'' = t \top (t' \top t'')
 $$
-quels que soient $t, t', t''$ dans $\mathcal{T}^{(\infty)}(G)$. D’après la prop. 14 (i) du n° 3, on a
+quels que soient $t, t', t''$ dans $\mathscr{T}^{(\infty)}(G)$. D’après la prop. 14 (i) du n° 3, on a
 $$(23)$$
 $$
 \varepsilon_g \top t = (\mathrm{Int}\, g)_* t
 $$
 
-quels que soient $g \in G$ et $t \in \mathcal{T}^{(\infty)}(G)$. En particulier, l’application $t \mapsto \varepsilon_g \top t$ de $\mathcal{T}^{(\infty)}(G)$ dans $\mathcal{T}^{(\infty)}(G)$ est un automorphisme de la bigèbre $\mathcal{T}^{(\infty)}(G)$. Ses restrictions à $U(G)$, $U_s(G)$, $L(G)$ se notent $\mathrm{Ad}_{U(G)}(g)$, $\mathrm{Ad}_{U_s(G)}(g)$, $\mathrm{Ad}_{L(G)}(g)$. On écrit souvent $\mathrm{Ad}(g)$ au lieu de $\mathrm{Ad}_{L(G)}(g)$ quand aucune confusion n’en résulte. D’après (23), $\mathrm{Ad}(g)$ est l’application tangente en $e$ à $\mathrm{Int}(g)$. C’est un automorphisme de l’algèbre de Lie normable $L(G)$. Pour $K$ de caractéristique 0, $\mathrm{Ad}_{U(G)}(g)$ est l’unique automorphisme de $U(G)$ prolongeant $\mathrm{Ad}(g)$.
+quels que soient $g \in G$ et $t \in \mathscr{T}^{(\infty)}(G)$. En particulier, l’application $t \mapsto \varepsilon_g \top t$ de $\mathscr{T}^{(\infty)}(G)$ dans $\mathscr{T}^{(\infty)}(G)$ est un automorphisme de la bigèbre $\mathscr{T}^{(\infty)}(G)$. Ses restrictions à $U(G)$, $U_s(G)$, $L(G)$ se notent $\mathrm{Ad}_{U(G)}(g)$, $\mathrm{Ad}_{U_s(G)}(g)$, $\mathrm{Ad}_{L(G)}(g)$. On écrit souvent $\mathrm{Ad}(g)$ au lieu de $\mathrm{Ad}_{L(G)}(g)$ quand aucune confusion n’en résulte. D’après (23), $\mathrm{Ad}(g)$ est l’application tangente en $e$ à $\mathrm{Int}(g)$. C’est un automorphisme de l’algèbre de Lie normable $L(G)$. Pour $K$ de caractéristique 0, $\mathrm{Ad}_{U(G)}(g)$ est l’unique automorphisme de $U(G)$ prolongeant $\mathrm{Ad}(g)$.
 
 Si $\varphi$ est un morphisme du groupe de Lie $G$ dans un groupe de Lie $H$, on a
 $$
 \varphi_*(t \top t') = \varphi_*(t) \top \varphi_*(t')
 $$
-quels que soient $t, t'$ dans $\mathcal{T}^{(\infty)}(G)$; cela résulte de la prop. 15 du no 3.
+quels que soient $t, t'$ dans $\mathscr{T}^{(\infty)}(G)$; cela résulte de la prop. 15 du no 3.
 
 #### Proposition 43 {#lie-iii-s3-prop-43 .statement}
 
-*Soient $t, u$ dans $\mathcal{T}^{(\infty)}(G)$. Soit $\sum_{i=1}^n t_i \otimes t'_i$ l’image de $t$ par le coproduit.* Alors
+*Soient $t, u$ dans $\mathscr{T}^{(\infty)}(G)$. Soit $\sum_{i=1}^n t_i \otimes t'_i$ l’image de $t$ par le coproduit.* Alors
 $$
 t \top u = \sum_{i=1}^n t_i * u * t_{i'}^\vee.
 $$
@@ -1213,14 +1213,14 @@ $$
 
 #### Corollaire 1 {#lie-iii-s3-prop-43-cor-1 .statement}
 
-*Soient $u \in L(G)$, $u' \in \mathcal{T}^{(\infty)}(G)$. On a $u \top u' = u * u' - u' * u$.* En effet, l’image de $u$ par le coproduit est $u \otimes \varepsilon_e + \varepsilon_e \otimes u$, d’où
+*Soient $u \in L(G)$, $u' \in \mathscr{T}^{(\infty)}(G)$. On a $u \top u' = u * u' - u' * u$.* En effet, l’image de $u$ par le coproduit est $u \otimes \varepsilon_e + \varepsilon_e \otimes u$, d’où
 $$
 u \top u' = u * u' * \varepsilon_e + \varepsilon_e * u' * u^\vee = u * u' - u' * u.
 $$
 
 #### Corollaire 2 {#lie-iii-s3-prop-43-cor-2 .statement}
 
-*Soient $t \in \mathcal{T}^{(\infty)}(G)$ et $g \in G$. On a $\varepsilon_g \top t = \varepsilon_g * t * \varepsilon_{g^{-1}}$. Si $t \in L(G)$, on a $\varepsilon_g \top t = gtg^{-1}$ (ce dernier produit étant calculé dans le groupe $T(G)$).* En effet, l’image de $\varepsilon_g$ par le coproduit est $\varepsilon_g \otimes \varepsilon_g$.
+*Soient $t \in \mathscr{T}^{(\infty)}(G)$ et $g \in G$. On a $\varepsilon_g \top t = \varepsilon_g * t * \varepsilon_{g^{-1}}$. Si $t \in L(G)$, on a $\varepsilon_g \top t = gtg^{-1}$ (ce dernier produit étant calculé dans le groupe $T(G)$).* En effet, l’image de $\varepsilon_g$ par le coproduit est $\varepsilon_g \otimes \varepsilon_g$.
 
 #### Corollaire 3 {#lie-iii-s3-prop-43-cor-3 .statement}
 
@@ -1289,9 +1289,9 @@ $$
 
 #### Proposition 47 {#lie-iii-s3-prop-47 .statement}
 
-Soient $G$ un groupe de Lie, $H$ et $E$ des sous-groupes de Lie de $G$, et supposons que $hEh^{-1} = E$ pour tout $h \in H$. Alors $\mathcal{T}^{(\infty)}(H) \cap \mathcal{T}^{(\infty)}(E) \subset \mathcal{T}^{(\infty)}(E)$. En particulier, $\mathrm{Ad}(H)(L(E)) \subset L(E)$ et $[L(H), L(E)] \subset L(E)$.
+Soient $G$ un groupe de Lie, $H$ et $E$ des sous-groupes de Lie de $G$, et supposons que $hEh^{-1} = E$ pour tout $h \in H$. Alors $\mathscr{T}^{(\infty)}(H) \cap \mathscr{T}^{(\infty)}(E) \subset \mathscr{T}^{(\infty)}(E)$. En particulier, $\mathrm{Ad}(H)(L(E)) \subset L(E)$ et $[L(H), L(E)] \subset L(E)$.
 
-En effet, si $t \in \mathcal{T}^{(\infty)}(H)$ et $t' \in \mathcal{T}^{(\infty)}(E)$, on a $t \otimes t' \in \mathcal{T}^{(\infty)}(H \times E)$, et l’image de $H \times E$ par l’application $(g, g') \mapsto gg'g^{-1}$ est contenue dans $E$.
+En effet, si $t \in \mathscr{T}^{(\infty)}(H)$ et $t' \in \mathscr{T}^{(\infty)}(E)$, on a $t \otimes t' \in \mathscr{T}^{(\infty)}(H \times E)$, et l’image de $H \times E$ par l’application $(g, g') \mapsto gg'g^{-1}$ est contenue dans $E$.
 
 #### Proposition 48 {#lie-iii-s3-prop-48 .statement}
 
@@ -1348,7 +1348,7 @@ C’est un cas particulier de ce qu’on a dit plus haut.
 
 Soit F un espace normable complet. La prop. 50 reste valable si l’on remplace les formes différentielles sur G à valeurs dans K par les formes différentielles sur G à valeurs dans F. Pour toute application linéaire continue u de $T_e(G)$ dans F, il existe une forme différentielle $\omega^u$ de degré 1 sur G, à valeurs dans F, telle que $(\omega^u)_g = u \circ T_g(\gamma(g)^{-1})$. En particulier, prenons $F = T_e(G)$ et $u = \mathrm{Id}_{T_e(G)}$. On obtient alors la forme différentielle $\omega$ sur G telle que $\omega_g = T_g(\gamma(g^{-1}))$; cette forme différentielle est invariante à gauche et analytique; on l’appelle la forme différentielle canonique gauche de G. On a $\omega_g(t) = g^{-1}t$ pour tout $t \in T_g(G)$.
 
-Si F est de nouveau un espace normable complet quelconque, et si $u \in \mathcal{L}(T_e(G), F)$, on a $\omega^u = u \circ \omega$. En particulier (prenant $F = K$), l’application $v \mapsto v \circ \omega$ est une bijection linéaire du dual de $T_e(G)$ sur l’espace vectoriel des formes différentielles de degré 1 à valeurs dans K invariantes à gauche sur G.
+Si F est de nouveau un espace normable complet quelconque, et si $u \in \mathscr{L}(T_e(G), F)$, on a $\omega^u = u \circ \omega$. En particulier (prenant $F = K$), l’application $v \mapsto v \circ \omega$ est une bijection linéaire du dual de $T_e(G)$ sur l’espace vectoriel des formes différentielles de degré 1 à valeurs dans K invariantes à gauche sur G.
 
 De même, la forme différentielle $\omega'$ sur G telle que $\omega'_g = T_g(\delta(g))$ s’appelle la forme différentielle canonique droite de G. On a des propriétés analogues à celles de $\omega$, qu’on laisse au lecteur le soin d’énoncer. L’application $g \mapsto g^{-1}$ de G sur G transforme $\omega$ en $\omega'$.
 

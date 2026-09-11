@@ -44,9 +44,9 @@ subsections:
       pdf_page: 54
 statements: 24
 exercises: 12
-content_sha256: d68061b46eaf8aa73f1e61b949377c8fc158212390193dc63d1d1c49bedf6a60
+content_sha256: 3bd0d9e9aa167a183e8b54e7e0ecbcc3fa90ba033ed46a7fbf0b247a08ede0ee
 translated_from: content/en/lie/I/03_s3_representations.md
-source_content_sha256: 7d8bba5f2b515dc174b1c1ea0359bd8646b26cd6ba716e17900d892c6d4d330a
+source_content_sha256: e9e8544872aca4afd6e935784cea1e8509f6c074913cee91197e92a4cc8b55b8
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-ca1be95b
 glossary_version: 34
@@ -185,20 +185,20 @@ Công thức (3) chỉ ra rằng, với mọi $x \in g, x_T$ là đạo hàm *du
 
 ### 3. BIỂU DIỄN TRÊN CÁC MÔĐUN ĐỒNG CẤU
 
-Một lần nữa, cho $g_1$ và $g_2$ là hai đại số Lie trên $K$ và $M_i$ là một $g_i$-môđun ($i = 1, 2$). Gọi $U_i$ là đại số bao quanh của $g_i$ và $\sigma_i$ là ánh xạ chính tắc của $g_i$ vào $U_i$. Khi đó $M_i$ là một $U_i$-môđun trái và do đó $\mathcal{L}_K(M_1, M_2)$ có một cấu trúc môđun trái chính tắc $(U_1^0 \otimes U_2)$. Bây giờ $U_1^0 \otimes_K U_2$ là đại số bao quanh của $g_1^0 \times g_2$ và ánh xạ
+Một lần nữa, cho $g_1$ và $g_2$ là hai đại số Lie trên $K$ và $M_i$ là một $g_i$-môđun ($i = 1, 2$). Gọi $U_i$ là đại số bao quanh của $g_i$ và $\sigma_i$ là ánh xạ chính tắc của $g_i$ vào $U_i$. Khi đó $M_i$ là một $U_i$-môđun trái và do đó $\mathscr{L}_K(M_1, M_2)$ có một cấu trúc môđun trái chính tắc $(U_1^0 \otimes U_2)$. Bây giờ $U_1^0 \otimes_K U_2$ là đại số bao quanh của $g_1^0 \times g_2$ và ánh xạ
 
 $$
 (x_1, x_2) \mapsto \sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2)
 $$
 
-là ánh xạ chính tắc của $g_1^0 \times g_2$ vào đại số bao quanh này. Do đó tồn tại một cấu trúc $(g_1^0 \times g_2)$-môđun trên $M = \mathcal{L}_K(M_1, M_2)$ sao cho
+là ánh xạ chính tắc của $g_1^0 \times g_2$ vào đại số bao quanh này. Do đó tồn tại một cấu trúc $(g_1^0 \times g_2)$-môđun trên $M = \mathscr{L}_K(M_1, M_2)$ sao cho
 
 $$
 ((x_1, x_2)_M \cdot u) \cdot m_1 = ((\sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2)) \cdot u) \cdot m_1 \\
 = u((x_1)_{M_1} \cdot m_1) + (x_2)_{M_2} \cdot u(m_1)
 $$
 
-với mọi $u \in \mathcal{L}_K(M_1, M_2), m_1 \in M_1$. Cấu trúc này xác định một biểu diễn của $g_1^0 \times g_2$ trên $M$.
+với mọi $u \in \mathscr{L}_K(M_1, M_2), m_1 \in M_1$. Cấu trúc này xác định một biểu diễn của $g_1^0 \times g_2$ trên $M$.
 
 Nếu bây giờ $g_1 = g_2 = g$, đồng cấu $x \mapsto (-x, x)$ của $g$ vào $g^0 \times g$, hợp với biểu diễn trên, xác định một biểu diễn của $g$ trên $M$ và do đó một cấu trúc $g$-môđun trên $M$ sao cho
 
@@ -216,7 +216,7 @@ Kết hợp các kết quả này với Mệnh đề 2, ta thấy rằng:
 
 #### Mệnh đề 3 {#lie-i-s3-prop-3 .statement}
 
-*Cho $g$ là một đại số Lie trên $K$ và $M_i$ là một $g$-môđun ($1 \leq i \leq n + 1$). Cho $N$ là $K$-môđun $\mathcal{L}_K(M_1, \ldots, M_n; M_{n+1})$ gồm các ánh xạ đa tuyến từ $\prod_{i=1}^n M_i$ vào $M_{n+1}$. Tồn tại duy nhất một cấu trúc $g$-môđun trên $N$ sao cho*
+*Cho $g$ là một đại số Lie trên $K$ và $M_i$ là một $g$-môđun ($1 \leq i \leq n + 1$). Cho $N$ là $K$-môđun $\mathscr{L}_K(M_1, \ldots, M_n; M_{n+1})$ gồm các ánh xạ đa tuyến từ $\prod_{i=1}^n M_i$ vào $M_{n+1}$. Tồn tại duy nhất một cấu trúc $g$-môđun trên $N$ sao cho*
 
 $$
 (x_N \cdot u)(m_1, \ldots, m_n) = - \sum_{i=1}^n u(m_1, \ldots, x_{M_i} \cdot m_i, \ldots, m_n)
@@ -227,7 +227,7 @@ $$
 
 *đối với mọi* $x \in g, u \in N$ *và* $m_i \in M_i$ ($1 \leq i \leq n$).
 
-Đặc biệt, cho $g$ là một đại số Lie trên $K$ và $M$ là một $g$-môđun, và xét $K$ như một $g$-môđun tầm thường. Mệnh đề 3 xác định một cấu trúc $g$-môđun trên $\mathcal{L}_K(M, K) = M^*$. Biểu diễn tương ứng được gọi là biểu diễn *đối ngẫu* của biểu diễn $x \mapsto x_M$. Ta có:
+Đặc biệt, cho $g$ là một đại số Lie trên $K$ và $M$ là một $g$-môđun, và xét $K$ như một $g$-môđun tầm thường. Mệnh đề 3 xác định một cấu trúc $g$-môđun trên $\mathscr{L}_K(M, K) = M^*$. Biểu diễn tương ứng được gọi là biểu diễn *đối ngẫu* của biểu diễn $x \mapsto x_M$. Ta có:
 
 $$
 (x_{M^*} \cdot f)(m) = -f(x_M \cdot m)
@@ -246,7 +246,7 @@ Khi $K$ là một trường và $M$ là hữu hạn chiều, $g$-môđun $M$ là
 *Cho $M_1, M_2$ là hai $g$-môđun. Các ánh xạ $K$-tuyến tính chính tắc* (Đại số, Chương II, § 4, no. 2, Mệnh đề 2 và no. 1, Mệnh đề 1):
 
 $$
-M_1^* \otimes_K M_2 \xrightarrow{\phi} \mathcal{L}_K(M_1, M_2), \quad \mathcal{L}_K(M_1, M_2^*) \xrightarrow{\psi} (M_1 \otimes_K M_2)^*
+M_1^* \otimes_K M_2 \xrightarrow{\phi} \mathscr{L}_K(M_1, M_2), \quad \mathscr{L}_K(M_1, M_2^*) \xrightarrow{\psi} (M_1 \otimes_K M_2)^*
 $$
 
 *(trong đó ánh xạ thứ hai là song ánh)* là các đồng cấu $g$-môđun.
@@ -254,7 +254,7 @@ $$
 Ta viết
 
 $$
-N = M_1^* \otimes M_2, \quad P = \mathcal{L}(M_1, M_2), \quad Q = \mathcal{L}(M_1, M_2^*), \quad R = (M_1 \otimes M_2)^*.
+N = M_1^* \otimes M_2, \quad P = \mathscr{L}(M_1, M_2), \quad Q = \mathscr{L}(M_1, M_2^*), \quad R = (M_1 \otimes M_2)^*.
 $$
 
 Khi đó, với $x \in g, f \in M_1^*, m_1 \in M_1, m_2 \in M_2$,
@@ -269,7 +269,7 @@ $$
 = \langle f, m_1 \rangle x_{M_2} m_2 - \langle f, x_{M_1} m_1 \rangle m_2
 $$
 
-và do đó $\phi x_N = x_P \phi$. Mặt khác, với $x \in g, u \in \mathcal{L}(M_1, M_2^*), m_1 \in M_1, m_2 \in M_2$:
+và do đó $\phi x_N = x_P \phi$. Mặt khác, với $x \in g, u \in \mathscr{L}(M_1, M_2^*), m_1 \in M_1, m_2 \in M_2$:
 
 $$
 (\psi x_Q u)(m_1 \otimes m_2) = \langle (x_Q u) \cdot m_1, m_2 \rangle = \langle x_{M_2^*} u m_1 - u x_{M_1} m_1, m_2 \rangle \\
@@ -279,13 +279,13 @@ $$
 
 và do đó $\psi x_Q = x_R \psi$, điều này hoàn thành chứng minh.
 
-Các $g$-môđun $\mathcal{L}(M_1, M_2^*)$ và $(M_1 \otimes M_2)^*$ được đồng nhất dưới đẳng cấu $\psi$. Nếu $M_1$ và $M_2$ có các cơ sở hữu hạn, $\phi$ là một đẳng cấu (Đại số, Chương II, § 4, no. 2, Mệnh đề 2), điều này cho phép chúng ta đồng nhất các $g$-môđun $M_1^* \otimes M_2$ và $\mathcal{L}(M_1, M_2)$; trong trường hợp đó, do đó chúng ta có thể đồng nhất các $g$-môđun $M_1^* \otimes M_2^*, \mathcal{L}(M_1, M_2^*)$ và $(M_1 \otimes M_2)^*$.
+Các $g$-môđun $\mathscr{L}(M_1, M_2^*)$ và $(M_1 \otimes M_2)^*$ được đồng nhất dưới đẳng cấu $\psi$. Nếu $M_1$ và $M_2$ có các cơ sở hữu hạn, $\phi$ là một đẳng cấu (Đại số, Chương II, § 4, no. 2, Mệnh đề 2), điều này cho phép chúng ta đồng nhất các $g$-môđun $M_1^* \otimes M_2$ và $\mathscr{L}(M_1, M_2)$; trong trường hợp đó, do đó chúng ta có thể đồng nhất các $g$-môđun $M_1^* \otimes M_2^*, \mathscr{L}(M_1, M_2^*)$ và $(M_1 \otimes M_2)^*$.
 
 ### 4. VÍ DỤ
 
 #### Ví dụ 1 {#lie-i-s3-n4-exa-1 .statement}
 
-Cho $g$ là một đại số Lie trên $K$ và $M$ là một $g$-môđun. Cấu trúc $g$-môđun trên $M$ và cấu trúc $g$-môđun tầm thường trên $K$ xác định một cấu trúc $g$-môđun trên $K$-môđun $N = \mathcal{L}(M, M; K)$ của các dạng song tuyến tính trên $M$. Khi đó
+Cho $g$ là một đại số Lie trên $K$ và $M$ là một $g$-môđun. Cấu trúc $g$-môđun trên $M$ và cấu trúc $g$-môđun tầm thường trên $K$ xác định một cấu trúc $g$-môđun trên $K$-môđun $N = \mathscr{L}(M, M; K)$ của các dạng song tuyến tính trên $M$. Khi đó
 
 $$
 (x_N \cdot \beta)(m, m') = -\beta(x_M \cdot m, m') + \beta(m, x_M \cdot m')
@@ -349,7 +349,7 @@ $$
 
 Ta giữ ký hiệu của *Ví dụ 1*.
 
-Cấu trúc môđun-$g$ trên $M$ xác định trên môđun-$K$ $P = \mathcal{L}_K(M, M)$ của các tự đồng cấu của $M$ một cấu trúc môđun-$g$. Theo (6), với mọi $x \in g$ và $u \in P$:
+Cấu trúc môđun-$g$ trên $M$ xác định trên môđun-$K$ $P = \mathscr{L}_K(M, M)$ của các tự đồng cấu của $M$ một cấu trúc môđun-$g$. Theo (6), với mọi $x \in g$ và $u \in P$:
 $$(11)$$
 $$
 x_P \cdot u = [x_M, u] = (\mathrm{ad}\, x_M) \cdot u
@@ -359,7 +359,7 @@ $$(12)$$
 $$
 x_P = \mathrm{ad}\, x_M
 $$
-trong $\mathcal{L}(\mathcal{L}(M, M)) = \mathcal{L}(\mathrm{gl}(M))$.
+trong $\mathscr{L}(\mathscr{L}(M, M)) = \mathscr{L}(\mathrm{gl}(M))$.
 
 ### 5. CÁC PHẦN TỬ BẤT BIẾN
 
@@ -371,15 +371,15 @@ trong $\mathcal{L}(\mathcal{L}(M, M)) = \mathcal{L}(\mathrm{gl}(M))$.
 
 #### Ví dụ 1 {#lie-i-s3-n5-exa-1 .statement}
 
-Cho $M, N$ là hai $g$-môđun và $P = \mathcal{L}_K(M, N)$. Để một phần tử $f$ của $P$ là bất biến, theo (6), điều kiện cần và đủ là $f$ là một đồng cấu của $g$-môđun $M$ vào $g$-môđun $N$. Đặc biệt, nếu $M = N$ và $x_M = x_N$ với mọi $x \in g$, thì $f$ là bất biến khi và chỉ khi $f$ giao hoán được với các $x_M$.
+Cho $M, N$ là hai $g$-môđun và $P = \mathscr{L}_K(M, N)$. Để một phần tử $f$ của $P$ là bất biến, theo (6), điều kiện cần và đủ là $f$ là một đồng cấu của $g$-môđun $M$ vào $g$-môđun $N$. Đặc biệt, nếu $M = N$ và $x_M = x_N$ với mọi $x \in g$, thì $f$ là bất biến khi và chỉ khi $f$ giao hoán được với các $x_M$.
 
 #### Ví dụ 2 {#lie-i-s3-n5-exa-2 .statement}
 
-Cho M là một K-môđun có một cơ sở hữu hạn. Nếu M có một cấu trúc $g$-môđun, $\mathcal{L}(M, M)$ và $M^* \otimes M$ có các cấu trúc $g$-môđun và ánh xạ chính tắc của $M^* \otimes M$ vào $\mathcal{L}(M, M)$ là một đẳng cấu $g$-môđun (Mệnh đề 4). Vì $1 \in \mathcal{L}(M, M)$ hiển nhiên là một phần tử bất biến (xem Ví dụ 1), nên phần tử $u$ tương ứng của $M^* \otimes M$ là một phần tử bất biến. Nếu $(e_i)_{1 \leq i \leq n}$ là một cơ sở của M và $(e_i^*)_{1 \leq i \leq n}$ là cơ sở đối ngẫu, ta có $u = \sum_{i=1}^n e_i^* \otimes e_i$.
+Cho M là một K-môđun có một cơ sở hữu hạn. Nếu M có một cấu trúc $g$-môđun, $\mathscr{L}(M, M)$ và $M^* \otimes M$ có các cấu trúc $g$-môđun và ánh xạ chính tắc của $M^* \otimes M$ vào $\mathscr{L}(M, M)$ là một đẳng cấu $g$-môđun (Mệnh đề 4). Vì $1 \in \mathscr{L}(M, M)$ hiển nhiên là một phần tử bất biến (xem Ví dụ 1), nên phần tử $u$ tương ứng của $M^* \otimes M$ là một phần tử bất biến. Nếu $(e_i)_{1 \leq i \leq n}$ là một cơ sở của M và $(e_i^*)_{1 \leq i \leq n}$ là cơ sở đối ngẫu, ta có $u = \sum_{i=1}^n e_i^* \otimes e_i$.
 
 #### Ví dụ 3 {#lie-i-s3-n5-exa-3 .statement}
 
-Cho M là một $g$-môđun. Cho $\beta$ là một dạng song tuyến tính trên M và f là phần tử tương ứng của $\mathcal{L}(M, M^*)$. Để $\beta$ là bất biến, điều kiện cần và đủ là f là một đồng cấu $g$-môđun (Mệnh đề 4 và Ví dụ 1). Giả sử rằng K là một trường và rằng $\dim_K M < +\infty$. Một dạng song tuyến tính bất biến không suy biến $\beta$ trên M xác định một đẳng cấu của $g$-môđun M lên $g$-môđun $M^*$ và do đó một đẳng cấu của $g$-môđun $M \otimes M$ lên $g$-môđun $M^* \otimes M$. Vì vậy, theo Ví dụ 2, việc cho $\beta$ xác định một cách chính tắc một phần tử bất biến c trong $g$-môđun $M \otimes M$, phần tử này có thể được xây dựng như sau: cho $(e_i)_{1 \leq i \leq n}$ là một cơ sở của M và $(e'_i)_{1 \leq i \leq n}$ là cơ sở của M sao cho $\beta(e_i, e'_j) = \delta_{ij}$; khi đó $c = \sum_{i=1}^n e_i \otimes e'_i$.
+Cho M là một $g$-môđun. Cho $\beta$ là một dạng song tuyến tính trên M và f là phần tử tương ứng của $\mathscr{L}(M, M^*)$. Để $\beta$ là bất biến, điều kiện cần và đủ là f là một đồng cấu $g$-môđun (Mệnh đề 4 và Ví dụ 1). Giả sử rằng K là một trường và rằng $\dim_K M < +\infty$. Một dạng song tuyến tính bất biến không suy biến $\beta$ trên M xác định một đẳng cấu của $g$-môđun M lên $g$-môđun $M^*$ và do đó một đẳng cấu của $g$-môđun $M \otimes M$ lên $g$-môđun $M^* \otimes M$. Vì vậy, theo Ví dụ 2, việc cho $\beta$ xác định một cách chính tắc một phần tử bất biến c trong $g$-môđun $M \otimes M$, phần tử này có thể được xây dựng như sau: cho $(e_i)_{1 \leq i \leq n}$ là một cơ sở của M và $(e'_i)_{1 \leq i \leq n}$ là cơ sở của M sao cho $\beta(e_i, e'_j) = \delta_{ij}$; khi đó $c = \sum_{i=1}^n e_i \otimes e'_i$.
 
 #### Mệnh đề 5 {#lie-i-s3-prop-5 .statement}
 
@@ -405,7 +405,7 @@ với mọi $x \in g$, do đó $m \in M_0$ và do đó $m = 0$. Suy ra $M_2 = \{
 
 Cho g là một đại số Lie trên K. Biểu diễn phụ hợp của g trên g và biểu diễn không của g trên K định nghĩa một cấu trúc g-môđun trên K-môđun
 
-$N = \mathcal{L}(g, g; K)$ gồm các dạng song tuyến tính trên $g$. Nói ngắn gọn, ta nói rằng một dạng song tuyến tính $\beta$ trên $g$ là *bất biến* nếu nó bất biến dưới biểu diễn $x \mapsto x_N$. Theo công thức (10), điều kiện cần và đủ để điều này xảy ra là:
+$N = \mathscr{L}(g, g; K)$ gồm các dạng song tuyến tính trên $g$. Nói ngắn gọn, ta nói rằng một dạng song tuyến tính $\beta$ trên $g$ là *bất biến* nếu nó bất biến dưới biểu diễn $x \mapsto x_N$. Theo công thức (10), điều kiện cần và đủ để điều này xảy ra là:
 
 $$
 \beta([x, y], z) = \beta(x, [y, z])
@@ -487,13 +487,13 @@ $$
 \operatorname{Tr}(c_M) = \sum_{i=1}^n \operatorname{Tr}((e_i)_M(e'_i)_M) = \sum_{i=1}^n \beta(e_i, e'_i) = n.
 $$
 
-Do đó, nếu n không chia hết cho đặc số của K, $c_M \neq 0$. Mặt khác, vì c thuộc tâm của U, $c_M$ khả hoán với mọi $x_M, x \in g$. Nếu thêm M là đơn, $c_M$ do đó khả nghịch trong $\mathcal{L}(M)$ (*Đại số*, Chương VIII, § 4, no. 3, Mệnh đề 2).
+Do đó, nếu n không chia hết cho đặc số của K, $c_M \neq 0$. Mặt khác, vì c thuộc tâm của U, $c_M$ khả hoán với mọi $x_M, x \in g$. Nếu thêm M là đơn, $c_M$ do đó khả nghịch trong $\mathscr{L}(M)$ (*Đại số*, Chương VIII, § 4, no. 3, Mệnh đề 2).
 
 ### 8. MỞ RỘNG VÀNH CƠ SỞ
 
 Cho $K_1$ là một vành giao hoán có phần tử đơn vị và $\phi$ là một đồng cấu của K vào $K_1$ ánh xạ 1 thành 1. Cho g là một đại số Lie trên K, U là đại số bao của nó và M là một g-môđun trái, tức là một U-môđun trái. Khi đó $M_{(K_1)}$ có một cấu trúc môđun trái chính tắc $U_{(K_1)}$ và do đó một cấu trúc g-môđun trái $g_{(K_1)}$. Gọi $\rho$ và $\rho_{(K_1)}$ là các biểu diễn của g và $g_{(K_1)}$ tương ứng với M và $M_{(K_1)}$: $\rho_{(K_1)}$ được nói là dẫn xuất từ $\rho$ bằng cách *mở rộng vành cơ sở* và các kết quả của *Đại số*, Chương VIII, § 13, no. 4 có thể được áp dụng. Nếu $x \in g$, $\rho_{(K_1)}(x)$ chỉ là tự đồng cấu $\rho(x) \otimes 1$ của $M_{(K_1)} = M \otimes_K K_1$.
 
-Giả sử K là một trường, $K_1$ là một mở rộng của K và $\phi$ là đơn ánh chính tắc của K vào $K_1$. Cho V và V' là các không gian con vectơ của M. Gọi a là không gian con vectơ của g gồm các $x \in g$ sao cho $\rho(x)(V) \subset V'$. Gọi $a'$ là không gian con vectơ của $g_{(K_1)}$ gồm các $x' \in g_{(K_1)}$ sao cho $\rho_{(K_1)}(x')(V_{(K_1)}) \subset V'_{(K_1)}$. Khi đó $a' = a_{(K_1)}$. Vì rõ ràng $a_{(K_1)} \subset a'$. Bây giờ cho $x' \in a'$. Ta có thể viết $x' = \sum_{i=1}^n \lambda_i x_i$, trong đó các $x_i$ thuộc g và các $\lambda_i$ là các phần tử của $K_1$ độc lập tuyến tính trên K. Với mọi $u \in V$, $\rho(x') \cdot u \in V'_{(K_1)}$, tức là $\sum_{i=1}^n \lambda_i \rho(x_i) \cdot u \in V'_{(K_1)}$, do đó $\rho(x_i) \cdot u \in V'$, suy ra $x_i \in a$ và $x' \in a_{(K_1)}$. Điều này chứng minh rằng $a' = a_{(K_1)}$. Đặc biệt, *tâm* của $g_{(K_1)}$ được dẫn xuất từ tâm của g bằng cách mở rộng K thành $K_1$: chỉ cần áp dụng điều trên cho biểu diễn liên hợp của g. Suy ra rằng $\mathcal{C}_p(g_{(K_1)}) = (\mathcal{C}_p g)_{(K_1)}$ với mọi $p$. Tương tự, cho h là một đại số con của g và n là *bộ chuẩn hóa* của h trong g. Khi đó bộ chuẩn hóa của $h_{(K_1)}$ trong $g_{(K_1)}$ là $n_{(K_1)}$.
+Giả sử K là một trường, $K_1$ là một mở rộng của K và $\phi$ là đơn ánh chính tắc của K vào $K_1$. Cho V và V' là các không gian con vectơ của M. Gọi a là không gian con vectơ của g gồm các $x \in g$ sao cho $\rho(x)(V) \subset V'$. Gọi $a'$ là không gian con vectơ của $g_{(K_1)}$ gồm các $x' \in g_{(K_1)}$ sao cho $\rho_{(K_1)}(x')(V_{(K_1)}) \subset V'_{(K_1)}$. Khi đó $a' = a_{(K_1)}$. Vì rõ ràng $a_{(K_1)} \subset a'$. Bây giờ cho $x' \in a'$. Ta có thể viết $x' = \sum_{i=1}^n \lambda_i x_i$, trong đó các $x_i$ thuộc g và các $\lambda_i$ là các phần tử của $K_1$ độc lập tuyến tính trên K. Với mọi $u \in V$, $\rho(x') \cdot u \in V'_{(K_1)}$, tức là $\sum_{i=1}^n \lambda_i \rho(x_i) \cdot u \in V'_{(K_1)}$, do đó $\rho(x_i) \cdot u \in V'$, suy ra $x_i \in a$ và $x' \in a_{(K_1)}$. Điều này chứng minh rằng $a' = a_{(K_1)}$. Đặc biệt, *tâm* của $g_{(K_1)}$ được dẫn xuất từ tâm của g bằng cách mở rộng K thành $K_1$: chỉ cần áp dụng điều trên cho biểu diễn liên hợp của g. Suy ra rằng $\mathscr{C}_p(g_{(K_1)}) = (\mathscr{C}_p g)_{(K_1)}$ với mọi $p$. Tương tự, cho h là một đại số con của g và n là *bộ chuẩn hóa* của h trong g. Khi đó bộ chuẩn hóa của $h_{(K_1)}$ trong $g_{(K_1)}$ là $n_{(K_1)}$.
 
 Cho K, $K_1$, g, $\rho$, M như trong đoạn trước. Cho b là một không gian con vectơ của g và W là một không gian con vectơ của M. Gọi V là không gian con vectơ của M gồm các $m \in M$ sao cho $\rho(b) \cdot m \subset W$. Gọi V' là không gian con vectơ của $M_{(K_1)}$ gồm các $m' \in M_{(K_1)}$ sao cho $\rho_{(K_1)}(b_{(K_1)}) \cdot m' \subset W_{(K_1)}$. Như trên ta thấy rằng $V' = V_{(K_1)}$. Đặc biệt, không gian con vectơ các *phần tử bất biến* của $M_{(K_1)}$ được dẫn xuất từ không gian con vectơ các phần tử bất biến của M bằng cách mở rộng trường cơ sở từ $K$ thành $K_1$.
 
@@ -507,9 +507,9 @@ Chứng minh gồm hai bước.
 
 (1) Trước hết giả sử rằng $K_1$ là một mở rộng của $K$ có *bậc hữu hạn* $n$. Gọi $U$ là đại số bao quanh của $g$, sao cho đại số bao quanh của $g_{(K_1)}$ là $U_{(K_1)} = U \otimes_K K_1$ (§ 2, no. 9). Vì $M_{(K_1)}$ và $N_{(K_1)}$ đẳng cấu như các $U_{(K_1)}$-môđun nên chúng *a fortiori* đẳng cấu như các $U$-môđun; nhưng như các $U$-môđun chúng lần lượt đẳng cấu với $M^n$ và $N^n$. Bây giờ $M$ và $N$ là các $U$-môđun có độ dài hữu hạn; do đó $M$ (tương ứng $N$) là tổng trực tiếp của một họ $(P_i^{r_i})_{1 \leq i \leq p}$ (tương ứng $(Q_j^{s_j})_{1 \leq j \leq q}$) các môđun con sao cho các $P_i$ (tương ứng $Q_j$) là không phân tích được và hai $P_i$ (tương ứng $Q_j$) có các chỉ số khác nhau thì không đẳng cấu (*Đại số*, Chương VIII, § 2, no. 2, Định lý 1). Khi đó $M^n$ (tương ứng $N^n$) đẳng cấu với tổng trực tiếp của các $P_i^{n r_i}$ (tương ứng $Q_j^{n s_j}$); suy ra (*loc. cit.*) rằng $p = q$ và rằng sau khi hoán vị các $Q_j$ nếu cần thiết thì $n r_i = n s_i$ và $P_i$ đẳng cấu với $Q_i$ với $1 \leq i \leq p$, do đó $M$ đẳng cấu với $N$.
 
-(2) *Trường hợp tổng quát.* Cho $P$ là $g$-môđun $\mathcal{L}_K(M, N)$ và $Q$ là không gian con các bất biến của $P$, nghĩa là tập hợp các đồng cấu của $g$-môđun $M$ vào $g$-môđun $N$. Trong $g_{(K_1)}$-môđun $\mathcal{L}_{K_1}(M_{(K_1)}, N_{(K_1)}) = (\mathcal{L}_K(M, N))_{(K_1)}$, không gian con các bất biến là $Q_{(K_1)}$. Giả thiết rằng $M_{(K_1)}$ và $N_{(K_1)}$ đẳng cấu suy ra rằng $M$ và $N$ có cùng chiều trên $K$ và rằng tồn tại trong $Q_{(K_1)}$ một phần tử $g$ là một đẳng cấu của $M_{(K_1)}$ lên $N_{(K_1)}$. Cho $(f_1, \ldots, f_d)$ là một cơ sở của $Q$ trên $K$ và chọn các cơ sở của $M$ và $N$ trên $K$. Nếu $\lambda_k \in K_1$ cho $1 \leq k \leq d$, ma trận của $f = \sum_{k=1}^d \lambda_k f_k$ đối với các cơ sở này có định thức là một đa thức $D(\lambda_1, \ldots, \lambda_d)$ với các hệ số *trong* $K$. Khi $f = g$, định thức này khác không và do đó các hệ số của $D$ không phải tất cả đều khác không. Vì vậy, nếu $\Omega$ là bao đóng đại số của $K$, tồn tại (vì $\Omega$ là vô hạn) các phần tử $\mu_k \in \Omega$ $(1 \leq k \leq d)$ sao cho $D(\mu_1, \ldots, \mu_d) \neq 0$ (*Đại số*, Chương IV, § 2, no. 5, Mệnh đề 8). Nếu $K_2$ là mở rộng đại số của $K$ sinh bởi các $\mu_k$ $(1 \leq k \leq d)$, thì suy ra rằng $\sum_{k=1}^d \mu_k f_k$ là một đẳng cấu của $M_{(K_2)}$ lên $N_{(K_2)}$; nhưng $K_2$ có bậc hữu hạn trên $K$ (*Đại số*, Chương V, § 3, no. 2, Mệnh đề 5) và do đó $M$ và $N$ đẳng cấu theo phần thứ nhất của lập luận. :::
+(2) *Trường hợp tổng quát.* Cho $P$ là $g$-môđun $\mathscr{L}_K(M, N)$ và $Q$ là không gian con các bất biến của $P$, nghĩa là tập hợp các đồng cấu của $g$-môđun $M$ vào $g$-môđun $N$. Trong $g_{(K_1)}$-môđun $\mathscr{L}_{K_1}(M_{(K_1)}, N_{(K_1)}) = (\mathscr{L}_K(M, N))_{(K_1)}$, không gian con các bất biến là $Q_{(K_1)}$. Giả thiết rằng $M_{(K_1)}$ và $N_{(K_1)}$ đẳng cấu suy ra rằng $M$ và $N$ có cùng chiều trên $K$ và rằng tồn tại trong $Q_{(K_1)}$ một phần tử $g$ là một đẳng cấu của $M_{(K_1)}$ lên $N_{(K_1)}$. Cho $(f_1, \ldots, f_d)$ là một cơ sở của $Q$ trên $K$ và chọn các cơ sở của $M$ và $N$ trên $K$. Nếu $\lambda_k \in K_1$ cho $1 \leq k \leq d$, ma trận của $f = \sum_{k=1}^d \lambda_k f_k$ đối với các cơ sở này có định thức là một đa thức $D(\lambda_1, \ldots, \lambda_d)$ với các hệ số *trong* $K$. Khi $f = g$, định thức này khác không và do đó các hệ số của $D$ không phải tất cả đều khác không. Vì vậy, nếu $\Omega$ là bao đóng đại số của $K$, tồn tại (vì $\Omega$ là vô hạn) các phần tử $\mu_k \in \Omega$ $(1 \leq k \leq d)$ sao cho $D(\mu_1, \ldots, \mu_d) \neq 0$ (*Đại số*, Chương IV, § 2, no. 5, Mệnh đề 8). Nếu $K_2$ là mở rộng đại số của $K$ sinh bởi các $\mu_k$ $(1 \leq k \leq d)$, thì suy ra rằng $\sum_{k=1}^d \mu_k f_k$ là một đẳng cấu của $M_{(K_2)}$ lên $N_{(K_2)}$; nhưng $K_2$ có bậc hữu hạn trên $K$ (*Đại số*, Chương V, § 3, no. 2, Mệnh đề 5) và do đó $M$ và $N$ đẳng cấu theo phần thứ nhất của lập luận. :::
 
-Lại cho $K, K_1$ và $\phi$ như ở đầu số này. Cho $\rho$ là một biểu diễn của $g$ trên một $K$-môđun $M$ với một cơ sở hữu hạn $(x_1, \ldots, x_n)$. Khi đó dạng song tuyến tính trên $g_{(K_1)}$ liên kết với $\rho_{(K_1)}$ được dẫn xuất từ dạng song tuyến tính liên kết với $\rho$ bằng cách mở rộng vành cơ sở đến $K_1$ (vì, nếu $u \in \mathcal{L}_K(M)$, $u$ có cùng ma trận đối với $(x_1, \ldots, x_n)$ như $u \otimes 1$ đối với $(x_1 \otimes 1, \ldots, x_n \otimes 1)$ và do đó $u$ và $u \otimes 1$ có cùng vết). Đặc biệt, nếu $K$-môđun $g$ có một cơ sở hữu hạn, dạng *Killing* của $g_{(K_1)}$ được dẫn xuất từ dạng đó của $g$ bằng cách mở rộng vành cơ sở đến $K_1$.
+Lại cho $K, K_1$ và $\phi$ như ở đầu số này. Cho $\rho$ là một biểu diễn của $g$ trên một $K$-môđun $M$ với một cơ sở hữu hạn $(x_1, \ldots, x_n)$. Khi đó dạng song tuyến tính trên $g_{(K_1)}$ liên kết với $\rho_{(K_1)}$ được dẫn xuất từ dạng song tuyến tính liên kết với $\rho$ bằng cách mở rộng vành cơ sở đến $K_1$ (vì, nếu $u \in \mathscr{L}_K(M)$, $u$ có cùng ma trận đối với $(x_1, \ldots, x_n)$ như $u \otimes 1$ đối với $(x_1 \otimes 1, \ldots, x_n \otimes 1)$ và do đó $u$ và $u \otimes 1$ có cùng vết). Đặc biệt, nếu $K$-môđun $g$ có một cơ sở hữu hạn, dạng *Killing* của $g_{(K_1)}$ được dẫn xuất từ dạng đó của $g$ bằng cách mở rộng vành cơ sở đến $K_1$.
 
 ### Bài tập {#lie-i-s3-exercises}
 

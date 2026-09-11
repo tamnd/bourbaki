@@ -45,7 +45,7 @@ subsections:
       pdf_page: 373
 statements: 54
 exercises: 29
-content_sha256: a0d76f13d817b70a22b12f45de447b6a9c8c39525973c423bb1221a046edddf9
+content_sha256: e3449c4d1dda5a12354d4f2af8f0330d18e171c8a3e0add10575476595ce9fd3
 ---
 
 ## § 9. COMMUTATORS, CENTRALIZERS AND NORMALIZERS IN A LIE GROUP
@@ -176,11 +176,11 @@ The first assertion follows from Proposition 4 by induction on $i$. The second f
 
 Let $a = L(A)$. Let $G_1$ be the set of $g \in G$ such that
 
-$$(\mathrm{Ad}\, g)x \equiv x \pmod{\mathcal{D}a} \quad \text{for all } x \in a.$$
+$$(\mathrm{Ad}\, g)x \equiv x \pmod{\mathscr{D}a} \quad \text{for all } x \in a.$$
 
-Then $G_1$ is a closed subgroup of $G$. If $y \in a$, then $\exp y \in G_1$, by § 6, no. 4, Corollary 3 (ii) to Proposition 10. Hence $G_1$ contains $A$ and therefore $\overline{A}$. Thus, for $g \in \overline{A}$, $L(\mathrm{Int}\, g)$ leaves $a$ stable and therefore $\mathrm{Int}\, g$ leaves $A$ stable; more precisely, $L(\mathrm{Int}\, g)$ defines the identity automorphism of $a/\mathcal{D}a$ and hence $\mathrm{Int}\, g$ defines the identity automorphism of $A/DA$. This proves that $(\overline{A}, A) \subset DA$. With the real Lie group structure on $G$, $\overline{A}$ is a Lie subgroup (§ 8, no. 2, Theorem 2); let $b$ be its Lie algebra. Let $G_2$ be the set of $g \in G$ such that
+Then $G_1$ is a closed subgroup of $G$. If $y \in a$, then $\exp y \in G_1$, by § 6, no. 4, Corollary 3 (ii) to Proposition 10. Hence $G_1$ contains $A$ and therefore $\overline{A}$. Thus, for $g \in \overline{A}$, $L(\mathrm{Int}\, g)$ leaves $a$ stable and therefore $\mathrm{Int}\, g$ leaves $A$ stable; more precisely, $L(\mathrm{Int}\, g)$ defines the identity automorphism of $a/\mathscr{D}a$ and hence $\mathrm{Int}\, g$ defines the identity automorphism of $A/DA$. This proves that $(\overline{A}, A) \subset DA$. With the real Lie group structure on $G$, $\overline{A}$ is a Lie subgroup (§ 8, no. 2, Theorem 2); let $b$ be its Lie algebra. Let $G_2$ be the set of $g \in G$ such that
 
-$$(\mathrm{Ad}\, g)x \equiv x \pmod{\mathcal{D}a} \quad \text{for all } x \in b.$$
+$$(\mathrm{Ad}\, g)x \equiv x \pmod{\mathscr{D}a} \quad \text{for all } x \in b.$$
 
 By the above, $G_2 \supseteq A$ and hence $G_2 \supseteq \overline{A}$. Therefore, for $g \in \overline{A}$, Int $g$ leaves DA stable and defines the identity automorphism of $\overline{A}/DA$. Hence $DA \supseteq D\overline{A}$.
 
@@ -200,17 +200,17 @@ By Proposition 3, the Lie subalgebra tangent to $(A', B')$ at $e$ contains $L(C)
 
 #### Corollary {#lie-iii-s9-n2-cor-2 .statement}
 
-*Suppose that K is ultrametric. Let G be a finite-dimensional Lie group with Lie algebra g. There exists an open subgroup $G_0$ of G such that, for all $i$, $D^iG_0$ (resp. $C^iG_0$) is a Lie subgroup of G with Lie algebra $\mathcal{D}^ig$ (resp. $\mathcal{C}^ig$).*
+*Suppose that K is ultrametric. Let G be a finite-dimensional Lie group with Lie algebra g. There exists an open subgroup $G_0$ of G such that, for all $i$, $D^iG_0$ (resp. $C^iG_0$) is a Lie subgroup of G with Lie algebra $\mathscr{D}^ig$ (resp. $\mathscr{C}^ig$).*
 
-(a) By Proposition 3 applied inductively, for every open subgroup $G_1$ of G and for all $i$, $D^iG_1$ contains a Lie subgroup germ of G with Lie algebra $\mathcal{D}^ig$.
+(a) By Proposition 3 applied inductively, for every open subgroup $G_1$ of G and for all $i$, $D^iG_1$ contains a Lie subgroup germ of G with Lie algebra $\mathscr{D}^ig$.
 
-(b) Let $G'$ be an open subgroup of G such that, for $i \leq n$, $D^iG'$ is a Lie subgroup of G with Lie algebra $\mathcal{D}^ig$. By Proposition 6, there exist open subgroups $H_1, H_2$ of $D^nG'$, such that $(H_1, H_2)$ is a Lie subgroup with Lie algebra $\mathcal{D}^{n+1}g$. Let $G''$ be an open subgroup of $G'$ small enough for $D^nG'' \subset H_1 \cap H_2$. Then $D^{n+1}G'' \subset (H_1, H_2)$. The relations
+(b) Let $G'$ be an open subgroup of G such that, for $i \leq n$, $D^iG'$ is a Lie subgroup of G with Lie algebra $\mathscr{D}^ig$. By Proposition 6, there exist open subgroups $H_1, H_2$ of $D^nG'$, such that $(H_1, H_2)$ is a Lie subgroup with Lie algebra $\mathscr{D}^{n+1}g$. Let $G''$ be an open subgroup of $G'$ small enough for $D^nG'' \subset H_1 \cap H_2$. Then $D^{n+1}G'' \subset (H_1, H_2)$. The relations
 $$
 D^0G'' \subset D^0G', D^1G'' \subset D^1G', \ldots, D^nG'' \subset D^nG', D^{n+1}G'' \subset (H_1, H_2)
 $$
-prove, using (a), that $D^iG''$ is, for $i \leq n + 1$, a Lie subgroup of G with Lie algebra $\mathcal{D}^ig$.
+prove, using (a), that $D^iG''$ is, for $i \leq n + 1$, a Lie subgroup of G with Lie algebra $\mathscr{D}^ig$.
 
-(c) There exists an integer $p$ such that $\mathcal{D}^pg = \mathcal{D}^{p+1}g = \cdots$. By the above, there exists an open subgroup $G_0$ of G such that $D^iG_0$ is, for $i \leq p$, a Lie subgroup of G with Lie algebra $\mathcal{D}^ig$. But, by (a), the same assertion remains true for $i > p$ since $D^pG_0 \supset D^iG_0$ for $i > p$.
+(c) There exists an integer $p$ such that $\mathscr{D}^pg = \mathscr{D}^{p+1}g = \cdots$. By the above, there exists an open subgroup $G_0$ of G such that $D^iG_0$ is, for $i \leq p$, a Lie subgroup of G with Lie algebra $\mathscr{D}^ig$. But, by (a), the same assertion remains true for $i > p$ since $D^pG_0 \supset D^iG_0$ for $i > p$.
 
 (d) The argument is similar for the $C^i$.
 
@@ -310,13 +310,13 @@ $$
 \lambda \mapsto \exp(\mathrm{ad}\, \lambda x)|L(A)
 $$
 
-of $K$ into $\mathcal{L}(L(A), L(G))$ is polynomial, $\exp(\mathrm{ad}\, \lambda x)|L(A) = 1$ for all $\lambda \in K$, that is $\exp(\lambda x) \in Z_G(A)$ for all $\lambda \in K$.
+of $K$ into $\mathscr{L}(L(A), L(G))$ is polynomial, $\exp(\mathrm{ad}\, \lambda x)|L(A) = 1$ for all $\lambda \in K$, that is $\exp(\lambda x) \in Z_G(A)$ for all $\lambda \in K$.
 
 #### Proposition 16 {#lie-iii-s9-prop-16 .statement}
 
 *Let $G$ be a finite-dimensional nilpotent Lie group over $\mathbf{R}$ or $\mathbf{C}$ and $A$ an integral subgroup of $G$ distinct from $G$. Then $N_G(A)$ is a connected Lie subgroup of $G$ distinct from $A$.*
 
-$N_G(A) \neq A$ (Algebra, Chapter I, § 6, Corollary 1 to Proposition 8). By Proposition 11 of no. 4, we need only prove that $N_G(A)$ is connected. Let $g \in N_G(A)$. There exists $x \in L(G)$ such that $g = \exp x$ (Proposition 14). Let $E$ be the vector subspace of $\mathcal{L}(L(G))$ consisting of the $u \in \mathcal{L}(L(G))$ such that $u(L(A)) \subset L(A)$. Then $\mathrm{Ad}\, g^n \in E$ and hence $\exp(\mathrm{ad}\, nx) \in E$ for all $n \in \mathbf{Z}$. Hence $\exp(\mathrm{ad}\, \lambda x) \in E$ for all $\lambda \in K$, that is $\exp(\lambda x) \in N_G(A)$ for all $\lambda \in K$.
+$N_G(A) \neq A$ (Algebra, Chapter I, § 6, Corollary 1 to Proposition 8). By Proposition 11 of no. 4, we need only prove that $N_G(A)$ is connected. Let $g \in N_G(A)$. There exists $x \in L(G)$ such that $g = \exp x$ (Proposition 14). Let $E$ be the vector subspace of $\mathscr{L}(L(G))$ consisting of the $u \in \mathscr{L}(L(G))$ such that $u(L(A)) \subset L(A)$. Then $\mathrm{Ad}\, g^n \in E$ and hence $\exp(\mathrm{ad}\, nx) \in E$ for all $n \in \mathbf{Z}$. Hence $\exp(\mathrm{ad}\, \lambda x) \in E$ for all $\lambda \in K$, that is $\exp(\lambda x) \in N_G(A)$ for all $\lambda \in K$.
 
 #### Proposition 17 {#lie-iii-s9-prop-17 .statement}
 
@@ -421,7 +421,7 @@ But the two sides of (6) are analytic functions of $g$ for $g \in G$ and are the
     $$
     \operatorname{Tr}(a(b-1)) = \operatorname{Tr}(ab-1) - \operatorname{Tr}(a-1) = 0 - 0 = 0
     $$
-    for $ab - 1$ and $a - 1$ are nilpotent. As the vector subspace of $\mathcal{L}(V)$ generated by G is $\mathcal{L}(V)$ (*Algebra*, Chapter VIII, § 4, Corollary 1 to Proposition 2), $\operatorname{Tr}(u(b-1)) = 0$ for all $u \in \mathcal{L}(V)$ and hence $b = 1$. Thus $G = \{1\}$.
+    for $ab - 1$ and $a - 1$ are nilpotent. As the vector subspace of $\mathscr{L}(V)$ generated by G is $\mathscr{L}(V)$ (*Algebra*, Chapter VIII, § 4, Corollary 1 to Proposition 2), $\operatorname{Tr}(u(b-1)) = 0$ for all $u \in \mathscr{L}(V)$ and hence $b = 1$. Thus $G = \{1\}$.
     (b) We pass now to the general case. Let $\bar{k}$ be an algebraic closure of k, $\bar{V} = V \otimes_k \bar{k}$ and $\bar{G} \subset \mathbf{GL}(\bar{V})$ the set of $a \otimes 1$ for $a \in G$. Let W (resp. $W'$) be the set of elements of V (resp. $\bar{V}$) invariant under G (resp. $\bar{G}$). Then $W' = W \otimes_k \bar{k}$ for $W = \bigcap_{g \in G} \operatorname{Ker}(g-1)$ and $W' = \bigcap_{g \in G} \operatorname{Ker}(g-1) \otimes 1$. If $V_1$ denotes a minimal element in the set of non-zero vector subspaces of $\bar{V}$ which are stable under $\bar{G}$, then $V_1 \subset W'$ by part (a) of the proof; hence $W \neq \{0\}$, which proves (i).
     (c) By induction on $\dim V$, it follows from (i) that there exists an increasing sequence $(V_1, V_2, \ldots, V_n)$ of vector subspaces of V which are stable under G such that $V_n = V$ and the automorphism group of $V_i/V_{i-1}$ canonically derived from G reduces to $\{1\}$ for all $i$ (we make the convention that $V_r = \{0\}$ for $r \leq 0$). This implies first (ii) and consequently (iii) (Chapter II, § 4, no. 6, *Remark*).
 
@@ -613,7 +613,7 @@ Suppose that $\rho$ is semi-simple; we prove that $\rho'$ is semi-simple. It suf
 
 Thus, for all $g \in G$, $\rho(g)V'$ is a simple $G'$-module. But $\sum_{g \in G} \rho(g)V'$ is a non-zero sub-$G$-module of $V$, whence $V = \sum_{g \in G} \rho(g)V'$. Hence $\rho'$ is semi-simple.
 
-Suppose that $\rho'$ is semi-simple. Let $W$ be a non-zero sub-$G$-module of $V$. As $\rho'$ is semi-simple, there exists a projector $f_0$ of $V$ onto $W$ which commutes with $\rho'(G)$. Let $E$ be the set of $f \in \mathcal{L}(V, V)$ which commute with $\rho(G')$, which map $V$ into $W$ and whose restriction to $W$ is a homothety; for $f \in E$, let $\alpha(f)$ denote the ratio of the homothety $f|W$. Then $f_0 \in E$ and $\alpha(f_0) = 1$. Clearly $\alpha$ is a linear form on $E$. Let $F = \mathrm{Ker}\, \alpha$, which is a hyperplane of $E$. For $f \in E$ and $g \in G$, we write $\sigma(g)f = \rho(g) \circ f \circ \rho(g)^{-1}$; then $\sigma(g)f$ maps $V$ into $W$ and its restriction to $W$ is the homothety of ratio $\alpha(f')$; if $g' \in G'$, then
+Suppose that $\rho'$ is semi-simple. Let $W$ be a non-zero sub-$G$-module of $V$. As $\rho'$ is semi-simple, there exists a projector $f_0$ of $V$ onto $W$ which commutes with $\rho'(G)$. Let $E$ be the set of $f \in \mathscr{L}(V, V)$ which commute with $\rho(G')$, which map $V$ into $W$ and whose restriction to $W$ is a homothety; for $f \in E$, let $\alpha(f)$ denote the ratio of the homothety $f|W$. Then $f_0 \in E$ and $\alpha(f_0) = 1$. Clearly $\alpha$ is a linear form on $E$. Let $F = \mathrm{Ker}\, \alpha$, which is a hyperplane of $E$. For $f \in E$ and $g \in G$, we write $\sigma(g)f = \rho(g) \circ f \circ \rho(g)^{-1}$; then $\sigma(g)f$ maps $V$ into $W$ and its restriction to $W$ is the homothety of ratio $\alpha(f')$; if $g' \in G'$, then
 $$
 \begin{align*}
 \sigma(g)f \circ \rho(g') &= \rho(g) \circ f \circ \rho(g)^{-1} \circ \rho(g') \\

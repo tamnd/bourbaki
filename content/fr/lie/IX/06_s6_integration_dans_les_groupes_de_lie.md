@@ -33,7 +33,7 @@ subsections:
       pdf_page: 66
 statements: 22
 exercises: 13
-content_sha256: aa48b129f9346faff4c596f704000b84be8e8d96364be56a92c79ea229ed2590
+content_sha256: 60acfb4862485d695fb00192a3ddfbbf3a14d8722db5b480d9231d9f4a418733
 ---
 
 ## § 6. INTÉGRATION DANS LES GROUPES DE LIE COMPACTS
@@ -401,23 +401,23 @@ $$
 
 Dans ce numéro et le suivant, on désigne par $X$ une variété réelle de classe $C^r$ ($1 \leq r \leq \infty$), localement de dimension finie.
 
-Soit $Y$ une variété de classe $C^r$. Si $r < \infty$, considérons l’application $f \mapsto j^r(f)$ de $\mathcal{C}^r(X; Y)$ dans $\mathcal{C}(X; J^r(X, Y))$ (VAR, R, 12.3.7). L’image réciproque par cette application de la topologie de la convergence compacte sur $\mathcal{C}(X; J^r(X, Y))$ est appelée *topologie de la $C^r$-convergence compacte* sur $\mathcal{C}^r(X; Y)$; c’est la borne supérieure des topologies de la $C^r$-convergence uniforme sur $K$ (VAR, R, 12.3.10), lorsque $K$ décrit l’ensemble des parties compactes de $X$.
+Soit $Y$ une variété de classe $C^r$. Si $r < \infty$, considérons l’application $f \mapsto j^r(f)$ de $\mathscr{C}^r(X; Y)$ dans $\mathscr{C}(X; J^r(X, Y))$ (VAR, R, 12.3.7). L’image réciproque par cette application de la topologie de la convergence compacte sur $\mathscr{C}(X; J^r(X, Y))$ est appelée *topologie de la $C^r$-convergence compacte* sur $\mathscr{C}^r(X; Y)$; c’est la borne supérieure des topologies de la $C^r$-convergence uniforme sur $K$ (VAR, R, 12.3.10), lorsque $K$ décrit l’ensemble des parties compactes de $X$.
 
-Lorsque $r = \infty$, on appelle *topologie de la $C^\infty$-convergence compacte* sur $\mathcal{C}^\infty(X; Y)$ la borne supérieure des topologies de la $C^k$-convergence compacte, autrement dit la topologie la moins fine qui rende continues les injections canoniques $\mathcal{C}^\infty(X; Y) \to \mathcal{C}^k(X; Y)$, pour $0 \leq k < \infty$.
+Lorsque $r = \infty$, on appelle *topologie de la $C^\infty$-convergence compacte* sur $\mathscr{C}^\infty(X; Y)$ la borne supérieure des topologies de la $C^k$-convergence compacte, autrement dit la topologie la moins fine qui rende continues les injections canoniques $\mathscr{C}^\infty(X; Y) \to \mathscr{C}^k(X; Y)$, pour $0 \leq k < \infty$.
 
-Soit E un fibré vectoriel réel de base X, de classe $C^r$, et soit $\mathcal{S}^r(X;E)$ l’espace vectoriel des sections de classe $C^r$ de E. On munira dans ce numéro $\mathcal{S}^r(X;E)$ de la topologie induite par la topologie de la $C^r$-convergence compacte sur $C^r(X;E)$, encore appelée topologie de la $C^r$-convergence compacte ; elle fait de $\mathcal{S}^r(X;E)$ un espace vectoriel topologique localement convexe séparé complet (cf. VAR, R, 15.3.1 et TS, à paraître).
+Soit E un fibré vectoriel réel de base X, de classe $C^r$, et soit $\mathscr{S}^r(X;E)$ l’espace vectoriel des sections de classe $C^r$ de E. On munira dans ce numéro $\mathscr{S}^r(X;E)$ de la topologie induite par la topologie de la $C^r$-convergence compacte sur $C^r(X;E)$, encore appelée topologie de la $C^r$-convergence compacte ; elle fait de $\mathscr{S}^r(X;E)$ un espace vectoriel topologique localement convexe séparé complet (cf. VAR, R, 15.3.1 et TS, à paraître).
 
-Soient maintenant H un groupe de Lie, $m : H \times X \to X$ une loi d’opération à gauche de classe $C^r$; on pose $hx = m(h, x)$ pour $h \in H,\ x \in X$. Soit E un H-fibré vectoriel de base X, de classe $C^r$ (III, § 1, no 8, déf. 4). Pour $s \in \mathcal{S}^r(X;E)$ et $h \in H$, notons $^h s$ la section $x \mapsto h.s(h^{-1}x)$ de E ; l’application $(h, s) \mapsto ^h s$ est une loi d’opération de H dans l’espace $\mathcal{S}^r(X;E)$.
+Soient maintenant H un groupe de Lie, $m : H \times X \to X$ une loi d’opération à gauche de classe $C^r$; on pose $hx = m(h, x)$ pour $h \in H,\ x \in X$. Soit E un H-fibré vectoriel de base X, de classe $C^r$ (III, § 1, no 8, déf. 4). Pour $s \in \mathscr{S}^r(X;E)$ et $h \in H$, notons $^h s$ la section $x \mapsto h.s(h^{-1}x)$ de E ; l’application $(h, s) \mapsto ^h s$ est une loi d’opération de H dans l’espace $\mathscr{S}^r(X;E)$.
 
 #### Lemme 4 {#lie-ix-s6-lem-4 .statement tag=01FD}
 
-*La loi d’opération* $H \times \mathcal{S}^r(X;E) \to \mathcal{S}^r(X;E)$ *est continue*.
+*La loi d’opération* $H \times \mathscr{S}^r(X;E) \to \mathscr{S}^r(X;E)$ *est continue*.
 
-Compte tenu de la définition de la topologie de $\mathcal{S}^r(X;E)$ et de TG, X, p. 28, th. 3, il suffit de démontrer que pour tout entier $k \leq r$, l’application $f : H \times X \times \mathcal{S}^k(X;E) \to J^k(X;E)$ telle que $f(h, x, s) = j_x^k(^h s)$ est continue. Pour $h \in H$, notons $\tau_h$ (resp. $\theta_h$) l’automorphisme $x \mapsto hx$ de X (resp. de E). Définissons des applications
+Compte tenu de la définition de la topologie de $\mathscr{S}^r(X;E)$ et de TG, X, p. 28, th. 3, il suffit de démontrer que pour tout entier $k \leq r$, l’application $f : H \times X \times \mathscr{S}^k(X;E) \to J^k(X;E)$ telle que $f(h, x, s) = j_x^k(^h s)$ est continue. Pour $h \in H$, notons $\tau_h$ (resp. $\theta_h$) l’automorphisme $x \mapsto hx$ de X (resp. de E). Définissons des applications
 $$
 f_1 : H \times X \to J^k(X, X) \\
 f_2 : H \times E \to J^k(E, E) \\
-g : H \times X \times \mathcal{S}^k(X;E) \to J^k(X, E)
+g : H \times X \times \mathscr{S}^k(X;E) \to J^k(X, E)
 $$
 par $f_1(h, x) = j_x^k(\tau_h),\ f_2(h, v) = j_v^k(\theta_h),\ g(h, x, s) = j_{hx}^k(s)$. On a
 $$
@@ -427,7 +427,7 @@ et il suffit par conséquent, d’après VAR, R, 12.3.6, de démontrer que $f_1,
 
 Or $g$ est l’application composée
 $$
-H \times X \times \mathcal{S}^k(X;E) \xrightarrow{(m,\mathrm{Id})} X \times \mathcal{S}^k(X;E) \xrightarrow{(\mathrm{Id},j^k)} X \times C(X;J^k(X,E)) \xrightarrow{\varepsilon} J^k(X;E)
+H \times X \times \mathscr{S}^k(X;E) \xrightarrow{(m,\mathrm{Id})} X \times \mathscr{S}^k(X;E) \xrightarrow{(\mathrm{Id},j^k)} X \times C(X;J^k(X,E)) \xrightarrow{\varepsilon} J^k(X;E)
 $$
 avec $\varepsilon(x, u) = u(x)$; l’application $\varepsilon$ étant continue (TG, X, p. 28, cor. 1), $g$ est continue.
 
@@ -437,13 +437,13 @@ Or $D^l \tau_h(x)$ n’est autre que la dérivée partielle $l$-ième de $m(h, x
 
 #### Proposition 5 {#lie-ix-s6-prop-5 .statement tag=01FE}
 
-*Supposons le groupe* H *compact et notons dh la mesure de Haar sur* H *de masse totale 1. Soit s une section de classe* $C^r$ *de* E. *Pour* $x \in X$, *notons* $s^\#$ l'intégrale vectorielle $\int_H^{h s} dh$. Alors $s^\#$ est une section de classe $C^r$ de $E$, invariante par $H$; pour $x \in X$, on a $s^\#(x) = \int_H h s(h^{-1} x) \, dh \in E_x$. L'endomorphisme $s \mapsto s^\#$ de $\mathcal{S}^r(X; E)$ est un projecteur sur le sous-espace des sections $H$-invariantes.
+*Supposons le groupe* H *compact et notons dh la mesure de Haar sur* H *de masse totale 1. Soit s une section de classe* $C^r$ *de* E. *Pour* $x \in X$, *notons* $s^\#$ l'intégrale vectorielle $\int_H^{h s} dh$. Alors $s^\#$ est une section de classe $C^r$ de $E$, invariante par $H$; pour $x \in X$, on a $s^\#(x) = \int_H h s(h^{-1} x) \, dh \in E_x$. L'endomorphisme $s \mapsto s^\#$ de $\mathscr{S}^r(X; E)$ est un projecteur sur le sous-espace des sections $H$-invariantes.
 
-Considérons l'application $h \mapsto ^h s$ de $H$ dans $\mathcal{S}^r(X; E)$; elle est continue d'après le lemme 4. Puisque l'espace $\mathcal{S}^r(X; E)$ est séparé et complet, l'intégrale $s^\# = \int_H ^h s \, dh$ appartient à $\mathcal{S}^r(X; E)$ (INT, III, § 3, no 3, cor. 2). L'application linéaire $s \mapsto s(x)$ de $\mathcal{S}^r(X; E)$ dans $E_x$ étant continue, on a $s^\#(x) = \int_H ^h s(x) \, dh$ pour tout $x \in X$. Il est clair que $s^\#$ est invariante par $H$; si $s$ est une section $H$-invariante, on a $s^\# = s$, d'où la dernière assertion.
+Considérons l'application $h \mapsto ^h s$ de $H$ dans $\mathscr{S}^r(X; E)$; elle est continue d'après le lemme 4. Puisque l'espace $\mathscr{S}^r(X; E)$ est séparé et complet, l'intégrale $s^\# = \int_H ^h s \, dh$ appartient à $\mathscr{S}^r(X; E)$ (INT, III, § 3, no 3, cor. 2). L'application linéaire $s \mapsto s(x)$ de $\mathscr{S}^r(X; E)$ dans $E_x$ étant continue, on a $s^\#(x) = \int_H ^h s(x) \, dh$ pour tout $x \in X$. Il est clair que $s^\#$ est invariante par $H$; si $s$ est une section $H$-invariante, on a $s^\# = s$, d'où la dernière assertion.
 
 #### Corollaire 1 {#lie-ix-s6-prop-5-cor-1 .statement tag=01FF}
 
-Soient $F$ un espace de Banach, $\rho : H \to \mathbf{GL}(F)$ une représentation linéaire analytique, $f \in \mathcal{C}^r(X; F)$. Pour $x \in X$, posons
+Soient $F$ un espace de Banach, $\rho : H \to \mathbf{GL}(F)$ une représentation linéaire analytique, $f \in \mathscr{C}^r(X; F)$. Pour $x \in X$, posons
 
 $$
 f^\#(x) = \int_H \rho(h) \cdot f(h^{-1} x) \, dh .
@@ -452,14 +452,14 @@ $$
 Alors $f^\#$ est un morphisme de classe $C^r$ de $X$ dans $F$, compatible aux opérations de $H$; pour $x \in X$, on a (en notant $\tau_h$ l'automorphisme $x \mapsto hx$ de $X$)
 
 $$
-d_x f^\# = \int_H (\rho(h) \circ d_{h^{-1} x} f \circ T_x(\tau_{h^{-1}})) \, dh \in \mathcal{L}(T_x(X); F) .
+d_x f^\# = \int_H (\rho(h) \circ d_{h^{-1} x} f \circ T_x(\tau_{h^{-1}})) \, dh \in \mathscr{L}(T_x(X); F) .
 $$
 
-La première assertion résulte de la proposition appliquée au fibré $X \times F$, muni de la loi d'opération $(h; (x, f)) \mapsto (hx, \rho(h).f)$. La seconde s'obtient d'après INT, III, § 3, no 2, prop. 2, en appliquant à l'intégrale vectorielle $f^\#$ l'homomorphisme $d_x : \mathcal{C}^r(X; F) \to \mathcal{L}(T_x(X); F)$ qui est continu par définition de la topologie de la $C^r$-convergence compacte.
+La première assertion résulte de la proposition appliquée au fibré $X \times F$, muni de la loi d'opération $(h; (x, f)) \mapsto (hx, \rho(h).f)$. La seconde s'obtient d'après INT, III, § 3, no 2, prop. 2, en appliquant à l'intégrale vectorielle $f^\#$ l'homomorphisme $d_x : \mathscr{C}^r(X; F) \to \mathscr{L}(T_x(X); F)$ qui est continu par définition de la topologie de la $C^r$-convergence compacte.
 
 #### Corollaire 2 {#lie-ix-s6-prop-5-cor-2 .statement tag=01FG}
 
-Soient $F$ un espace de Banach, $f \in \mathcal{C}^r(X; F)$; posons
+Soient $F$ un espace de Banach, $f \in \mathscr{C}^r(X; F)$; posons
 
 $$
 f^\#(x) = \int_H f(hx) \, dh

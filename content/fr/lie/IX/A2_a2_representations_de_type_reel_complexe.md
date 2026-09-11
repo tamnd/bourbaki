@@ -21,7 +21,7 @@ subsections:
       pdf_page: 107
 statements: 6
 exercises: 0
-content_sha256: adb80f7258da51f557ea84dd0c3de4fb1d1f67b32e6b291b0d3bf087cacd41eb
+content_sha256: 00c7123700469f848c0ece301fa5539ec44658a953030699d6685d1f98b850ea
 ---
 
 ## APPENDICE 2
@@ -87,9 +87,9 @@ b) La représentation $\rho$ est de type complexe si et seulement s’il n’exi
 
 c) La représentation $\rho$ est de type quaternionien si et seulement s'il existe une forme bilinéaire alternée non nulle sur $W$, invariante par $G$; une telle forme est nécessairement séparante.
 
-Pour $\theta \in \mathrm{Hom}_{\mathbf{C}(G)}(W, \overline{W})$ et $x, y \in W$, posons $B_\theta(x, y) = H(\theta x, y)$. Alors $B_\theta$ est une forme bilinéaire sur $W$, invariante par $G$, séparante si $\theta$ est non nul. Notons $\mathcal{B}(W)^G$ l'espace des formes bilinéaires sur $W$ invariantes par $G$; l'application $\theta \mapsto B_\theta$ de $\mathrm{Hom}_{\mathbf{C}(G)}(W, \overline{W})$ sur $\mathcal{B}(W)^G$ est un isomorphisme de $\mathbf{C}$-espaces vectoriels. Ceci entraîne, en particulier, l'assertion $b$.
+Pour $\theta \in \mathrm{Hom}_{\mathbf{C}(G)}(W, \overline{W})$ et $x, y \in W$, posons $B_\theta(x, y) = H(\theta x, y)$. Alors $B_\theta$ est une forme bilinéaire sur $W$, invariante par $G$, séparante si $\theta$ est non nul. Notons $\mathscr{B}(W)^G$ l'espace des formes bilinéaires sur $W$ invariantes par $G$; l'application $\theta \mapsto B_\theta$ de $\mathrm{Hom}_{\mathbf{C}(G)}(W, \overline{W})$ sur $\mathscr{B}(W)^G$ est un isomorphisme de $\mathbf{C}$-espaces vectoriels. Ceci entraîne, en particulier, l'assertion $b$.
 
-Soit $\theta$ un $\mathbf{C}^{(G)}$-isomorphisme de $W$ sur $\overline{W}$ tel que $\theta \circ \theta = \alpha_w$, avec $\alpha \in \{ -1, +1 \}$ (prop. 2); puisque $\mathcal{B}(W)^G$ est de dimension 1, il existe $\varepsilon \in \mathbf{C}$ tel que
+Soit $\theta$ un $\mathbf{C}^{(G)}$-isomorphisme de $W$ sur $\overline{W}$ tel que $\theta \circ \theta = \alpha_w$, avec $\alpha \in \{ -1, +1 \}$ (prop. 2); puisque $\mathscr{B}(W)^G$ est de dimension 1, il existe $\varepsilon \in \mathbf{C}$ tel que
 
 $$
 B_\theta(y, x) = \varepsilon B_\theta(x, y) \quad \text{quels que soient } x, y \text{ dans } W .

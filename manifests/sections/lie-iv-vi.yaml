@@ -48,7 +48,7 @@ chapters:
           statements: 30
           exercises: 29
           extraction: ocr
-          content_sha256: f7eefd40cd8e513f530b873e5fcea6850d926bb5ce6f28d21084629db1accf12
+          content_sha256: 783e0a15daf7dcb33c8d9417614650999d814ccfe529f43d6069061ecfc474c9
         - kind: appendix
           title: Graphs
           path: content/en/lie/IV/A_a_graphs.md
@@ -84,7 +84,7 @@ chapters:
           statements: 18
           exercises: 0
           extraction: ocr
-          content_sha256: d79a67a6abd874fd314fbe2bcdfe35f01a4dbed5de50756cdd3d83045e3a21ea
+          content_sha256: 88296e8ecd750a7b7e406ceea50477e26e5c392b67a92cbaabd00a82b6dbf1e1
         - kind: section
           section: 2
           title: Reflections
@@ -108,7 +108,7 @@ chapters:
           statements: 37
           exercises: 8
           extraction: ocr
-          content_sha256: 1c842248981aa3499f6d0c694b091d7fdc85d7891f8b8c4597b78898e623b377
+          content_sha256: 810448206a7af36da88981c3001aa6895e8fee98fb8200d00bc55224171e1c4a
         - kind: section
           section: 4
           title: The geometric representation of a Coxeter group
@@ -120,7 +120,7 @@ chapters:
           statements: 25
           exercises: 20
           extraction: ocr
-          content_sha256: 6e1478f248737bab9dfca41f060e0d9ef44955ad60a23fd4409330f32d085486
+          content_sha256: 14e738865d956d1e583b25991144d699fa66c026eeb11b750ee6d49e8ae798fe
         - kind: section
           section: 5
           title: Invariants in the symmetric algebra
@@ -144,7 +144,7 @@ chapters:
           statements: 14
           exercises: 4
           extraction: ocr
-          content_sha256: 9b7480bf92e6aa4c08aa537c371a51623d8994ba9bf8ab23028e0b6f23ae58b4
+          content_sha256: cab0e0d8377d2232e2f513f553de240c04da93a18b0865f0c5a3c7d31c45afd4
         - kind: appendix
           title: Complements on linear representations
           path: content/en/lie/V/A_a_complements_on_linear_representations.md
@@ -192,7 +192,7 @@ chapters:
           statements: 19
           exercises: 5
           extraction: ocr
-          content_sha256: a668f848fd365321c33be3f80b28cfbeed0655cb8f8d764edbcf0a18c1ec9123
+          content_sha256: 53b316ef9f7b71ddb497346d62394033e7b89019c7835843f92b8976f800a50a
         - kind: section
           section: 3
           title: Exponential invariants

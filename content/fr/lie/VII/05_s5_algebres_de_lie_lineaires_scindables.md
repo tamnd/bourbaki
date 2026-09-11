@@ -32,7 +32,7 @@ subsections:
       pdf_page: 42
 statements: 28
 exercises: 11
-content_sha256: b15eacb0b1d5e9a3170499b0adb1ed280f40ad739a07cd494d3704c174dd51e3
+content_sha256: bf97efbfb6745072586a29f15f691803b5d31df7e53b28c871942dc177d0eec0
 ---
 
 ## § 5. Algèbres de Lie linéaires scindables
@@ -158,34 +158,34 @@ Si $x \in t$, $\operatorname{ad}_g x$ est semi-simple et nilpotent, donc nul, de
 
 #### Proposition 6 {#lie-vii-s5-prop-6 .statement tag=00WV}
 
-*Soit* $g$ *une sous-algèbre de Lie scindable de* $gl(V)$. *Soient* $\mathcal{T}$ *l’ensemble des sous-algèbres commutatives de* $g$ *formées d’éléments semi-simples*, *et* $\mathcal{T}_1$ *l’ensemble des éléments maximaux de* $\mathcal{T}$. *Soit* $\mathcal{H}$ *l’ensemble des sous-algèbres de Cartan de* $g$.
-(i) *Pour* $h \in \mathcal{H}$, *soit* $\varphi(h)$ *l’ensemble des éléments semi-simples de* $h$. *Alors* $\varphi(h) \in \mathcal{T}_1$.
-(ii) *Pour* $t \in \mathcal{T}_1$, *soit* $\psi(t)$ *le commutant de* $t$ *dans* $g$. *Alors* $\psi(t) \in \mathcal{H}$.
-(iii) *Les applications* $\varphi$ *et* $\psi$ *sont des bijections réciproques de* $\mathcal{H}$ *sur* $\mathcal{T}_1$ *et de* $\mathcal{T}_1$ *sur* $\mathcal{H}$.
-(iv) *Si* $k$ *est algébriquement clos*, $\operatorname{Aut}_e(g)$ *opère transitivement dans* $\mathcal{T}_1$.
-Soit $h \in \mathcal{H}$, et posons $t = \varphi(h)$. D’après la prop. 5 et le cor. 2 de la prop. 3, on a $t \in \mathcal{T}$ et $\mathfrak{h} = t \times n_V(\mathfrak{h})$. Pour toute sous-algèbre $u$ de $g$, notons encore $\psi(u)$ le commutant de $u$ dant $g$. Alors $\mathfrak{h} \subset \psi(t)$, et $\psi(t) \subset g^0(\mathfrak{h})$ puisque les éléments de $n_V(\mathfrak{h})$ sont nilpotents, donc $\mathfrak{h} = \psi(t)$. Si $t' \in \mathcal{T}$ et $t \subset t'$, on a $t' \subset \psi(t) = \mathfrak{h}$ d’où $t' = t$, de sorte que $t \in \mathcal{T}_1$.
+*Soit* $g$ *une sous-algèbre de Lie scindable de* $gl(V)$. *Soient* $\mathscr{T}$ *l’ensemble des sous-algèbres commutatives de* $g$ *formées d’éléments semi-simples*, *et* $\mathscr{T}_1$ *l’ensemble des éléments maximaux de* $\mathscr{T}$. *Soit* $\mathscr{H}$ *l’ensemble des sous-algèbres de Cartan de* $g$.
+(i) *Pour* $h \in \mathscr{H}$, *soit* $\varphi(h)$ *l’ensemble des éléments semi-simples de* $h$. *Alors* $\varphi(h) \in \mathscr{T}_1$.
+(ii) *Pour* $t \in \mathscr{T}_1$, *soit* $\psi(t)$ *le commutant de* $t$ *dans* $g$. *Alors* $\psi(t) \in \mathscr{H}$.
+(iii) *Les applications* $\varphi$ *et* $\psi$ *sont des bijections réciproques de* $\mathscr{H}$ *sur* $\mathscr{T}_1$ *et de* $\mathscr{T}_1$ *sur* $\mathscr{H}$.
+(iv) *Si* $k$ *est algébriquement clos*, $\operatorname{Aut}_e(g)$ *opère transitivement dans* $\mathscr{T}_1$.
+Soit $h \in \mathscr{H}$, et posons $t = \varphi(h)$. D’après la prop. 5 et le cor. 2 de la prop. 3, on a $t \in \mathscr{T}$ et $\mathfrak{h} = t \times n_V(\mathfrak{h})$. Pour toute sous-algèbre $u$ de $g$, notons encore $\psi(u)$ le commutant de $u$ dant $g$. Alors $\mathfrak{h} \subset \psi(t)$, et $\psi(t) \subset g^0(\mathfrak{h})$ puisque les éléments de $n_V(\mathfrak{h})$ sont nilpotents, donc $\mathfrak{h} = \psi(t)$. Si $t' \in \mathscr{T}$ et $t \subset t'$, on a $t' \subset \psi(t) = \mathfrak{h}$ d’où $t' = t$, de sorte que $t \in \mathscr{T}_1$.
 
-Soit $t \in \mathcal{T}_1$, et posons $c = \psi(t)$. Soit $\mathfrak{h}$ une sous-algèbre de Cartan de $c$. D’après le § 2, no 3, prop. 10, on a $\mathfrak{h} \in \mathcal{H}$ et $t \subset \mathfrak{h}$. Posons $t_1 = \varphi(\mathfrak{h}) \in \mathcal{T}$. On a $t \subset t_1$ donc $t = t_1$, et $\mathfrak{h} = \psi(t_1) = \psi(t) = c$ d’après ce qui précède. Ainsi, $\psi(t) \in \mathcal{H}$, et $\varphi(\psi(t)) = t$.
+Soit $t \in \mathscr{T}_1$, et posons $c = \psi(t)$. Soit $\mathfrak{h}$ une sous-algèbre de Cartan de $c$. D’après le § 2, no 3, prop. 10, on a $\mathfrak{h} \in \mathscr{H}$ et $t \subset \mathfrak{h}$. Posons $t_1 = \varphi(\mathfrak{h}) \in \mathscr{T}$. On a $t \subset t_1$ donc $t = t_1$, et $\mathfrak{h} = \psi(t_1) = \psi(t) = c$ d’après ce qui précède. Ainsi, $\psi(t) \in \mathscr{H}$, et $\varphi(\psi(t)) = t$.
 
-On a donc prouvé (i), (ii), (iii). Supposons $k$ algébriquement clos. Comme $\mathrm{Aut}_e(g)$ opère transitivement sur $\mathcal{H}$ ($§ 3$, no 2, th. 1), $\mathrm{Aut}_e(g)$ opère transitivement sur $\mathcal{T}_1$.
+On a donc prouvé (i), (ii), (iii). Supposons $k$ algébriquement clos. Comme $\mathrm{Aut}_e(g)$ opère transitivement sur $\mathscr{H}$ ($§ 3$, no 2, th. 1), $\mathrm{Aut}_e(g)$ opère transitivement sur $\mathscr{T}_1$.
 
 #### Corollaire 1 {#lie-vii-s5-prop-6-cor-1 .statement tag=00WW}
 
 *Les sous-algèbres de Cartan de $g$ sont les centralisateurs des éléments réguliers semi-simples de $g$*.
 
-Si $x \in g$ est régulier, $g^0(x)$ est une sous-algèbre de Cartan de $g$ ($§ 2$, no 3, th. 1 (i)); si en outre $x$ est semi-simple, $g^0(x)$ est le centralisateur de $x$ dans $g$. Réciproquement, soit $\mathfrak{h}$ une sous-algèbre de Cartan de $g$. Il existe $t \in \mathcal{T}_1$, tel que $\mathfrak{h} = \psi(t)$. D’après le $§ 1$, no 2, prop. 7, il existe $x \in t$ tel que $\mathfrak{h} = g^0(x)$; puisque $x \in t$, on a $g^0(x) = g_0(x)$. Alors $x$ est régulier ($§ 3$, no 3, th. 2 (ii)).
+Si $x \in g$ est régulier, $g^0(x)$ est une sous-algèbre de Cartan de $g$ ($§ 2$, no 3, th. 1 (i)); si en outre $x$ est semi-simple, $g^0(x)$ est le centralisateur de $x$ dans $g$. Réciproquement, soit $\mathfrak{h}$ une sous-algèbre de Cartan de $g$. Il existe $t \in \mathscr{T}_1$, tel que $\mathfrak{h} = \psi(t)$. D’après le $§ 1$, no 2, prop. 7, il existe $x \in t$ tel que $\mathfrak{h} = g^0(x)$; puisque $x \in t$, on a $g^0(x) = g_0(x)$. Alors $x$ est régulier ($§ 3$, no 3, th. 2 (ii)).
 
 #### Corollaire 2 {#lie-vii-s5-prop-6-cor-2 .statement tag=00WX}
 
 *Supposons en outre que $g$ soit résoluble. Alors*:
 
-(i) *Le sous-groupe de $\mathrm{Aut}(g)$ formé des $e^{\mathrm{ad}\,x}$, $x \in \mathcal{C}^\infty g$ (cf. $§ 3$, no 4), opère transitive-ment dans $\mathcal{T}_1$.
+(i) *Le sous-groupe de $\mathrm{Aut}(g)$ formé des $e^{\mathrm{ad}\,x}$, $x \in \mathscr{C}^\infty g$ (cf. $§ 3$, no 4), opère transitive-ment dans $\mathscr{T}_1$.
 
-(ii) *Si $t \in \mathcal{T}_1$, $g$ est produit semi-direct de $t$ et de $n_V(g)$*.
+(ii) *Si $t \in \mathscr{T}_1$, $g$ est produit semi-direct de $t$ et de $n_V(g)$*.
 
-L’assertion (i) résulte de ce que le groupe des $e^{\mathrm{ad}\,x}$, $x \in \mathcal{C}^\infty g$, opère transitive-ment dans $\mathcal{H}$ ($§ 3$, no 4, th. 3).
+L’assertion (i) résulte de ce que le groupe des $e^{\mathrm{ad}\,x}$, $x \in \mathscr{C}^\infty g$, opère transitive-ment dans $\mathscr{H}$ ($§ 3$, no 4, th. 3).
 
-Prouvons (ii). Soit $t \in \mathcal{T}_1$, et soit $\mathfrak{h} = \psi(t)$ la sous-algèbre de Cartan correspondante de $g$. Vu la prop. 5, on a $\mathfrak{h} = t + n_V(\mathfrak{h}) \subset t + n_V(g)$. On a d’autre part $g = \mathfrak{h} + [\mathfrak{g}, \mathfrak{g}]$ ($§ 2$, no 1, cor. 3 de la prop. 4) et $[\mathfrak{g}, \mathfrak{g}] \subset n_V(g)$, d’où $g = t + n_V(g)$. D’autre part, il est clair que $t \cap n_V(g) = \{0\}$. L’algèbre $g$ est donc bien produit semi-direct de $t$ par l’idéal $n_V(g)$.
+Prouvons (ii). Soit $t \in \mathscr{T}_1$, et soit $\mathfrak{h} = \psi(t)$ la sous-algèbre de Cartan correspondante de $g$. Vu la prop. 5, on a $\mathfrak{h} = t + n_V(\mathfrak{h}) \subset t + n_V(g)$. On a d’autre part $g = \mathfrak{h} + [\mathfrak{g}, \mathfrak{g}]$ ($§ 2$, no 1, cor. 3 de la prop. 4) et $[\mathfrak{g}, \mathfrak{g}] \subset n_V(g)$, d’où $g = t + n_V(g)$. D’autre part, il est clair que $t \cap n_V(g) = \{0\}$. L’algèbre $g$ est donc bien produit semi-direct de $t$ par l’idéal $n_V(g)$.
 
 #### Proposition 7 {#lie-vii-s5-prop-7 .statement tag=00WY}
 
@@ -402,9 +402,9 @@ Soit $\tilde{g}$ la sous-algèbre de $\mathrm{gl}(V)$ engendrée par les composa
 
 #### Corollaire 4 {#lie-vii-s5-thm-1-cor-4 .statement tag=00X5}
 
-Soit $g$ une sous-algèbre de Lie scindable de $\mathrm{gl}(V)$. Soit $\mathcal{T}$ l’ensemble des sous-algèbres commutatives de $g$ formées d’éléments semi-simples (cf. prop. 6). Les éléments maximaux de $\mathcal{T}$ ont tous même dimension.
+Soit $g$ une sous-algèbre de Lie scindable de $\mathrm{gl}(V)$. Soit $\mathscr{T}$ l’ensemble des sous-algèbres commutatives de $g$ formées d’éléments semi-simples (cf. prop. 6). Les éléments maximaux de $\mathscr{T}$ ont tous même dimension.
 
-Soient $k'$ une extension algébriquement close de $k$ et $V' = V \otimes_k k'$, $g' = g \otimes_k k'$. Soient $t_1, t_2$ des éléments maximaux de $\mathcal{T}$, $t_i' = t_i \otimes_k k'$, $h_i$ le commutant de $t_i$ dans $g$, $h_i' = h_i \otimes_k k'$. Alors $h_i'$ est une sous-algèbre de Cartan de $g'$ (prop. 6) donc $h_i'$ est une sous-algèbre de Cartan de $g'$. On a $h_i = t_i \times n_V(h_i)$, donc $h_i' = t_i' \times n_{V'}(h_i')$, de sorte que $t_i'$ est l’ensemble des éléments semi-simples de $h_i'$. Comme $g'$ est scindable (cor. 3), $t_1'$ et $t_2'$ sont conjugués par $\mathrm{Aut}_e(g')$ (prop. 6), de sorte que $\dim t_1 = \dim t_2$.
+Soient $k'$ une extension algébriquement close de $k$ et $V' = V \otimes_k k'$, $g' = g \otimes_k k'$. Soient $t_1, t_2$ des éléments maximaux de $\mathscr{T}$, $t_i' = t_i \otimes_k k'$, $h_i$ le commutant de $t_i$ dans $g$, $h_i' = h_i \otimes_k k'$. Alors $h_i'$ est une sous-algèbre de Cartan de $g'$ (prop. 6) donc $h_i'$ est une sous-algèbre de Cartan de $g'$. On a $h_i = t_i \times n_V(h_i)$, donc $h_i' = t_i' \times n_{V'}(h_i')$, de sorte que $t_i'$ est l’ensemble des éléments semi-simples de $h_i'$. Comme $g'$ est scindable (cor. 3), $t_1'$ et $t_2'$ sont conjugués par $\mathrm{Aut}_e(g')$ (prop. 6), de sorte que $\dim t_1 = \dim t_2$.
 
 #### Théorème 2 {#lie-vii-s5-thm-2 .statement tag=00X6}
 

@@ -52,7 +52,7 @@ chapters:
           statements: 16
           exercises: 9
           extraction: ocr
-          content_sha256: d47a814f8422000b783181c3964404719c0da4619c171766e467563df3843370
+          content_sha256: f156906ab45f523a2763c0321207bb28876a97d37c8b94130bebac4e4b693e6e
         - kind: section
           section: 4
           title: Système de racines associé à un groupe compact
@@ -65,7 +65,7 @@ chapters:
           statements: 56
           exercises: 22
           extraction: ocr
-          content_sha256: 6c8ce2a468fd123c4b2deff92ec07f306040ddb61732bf78892a91d9081f250b
+          content_sha256: 2944be06c7f371cf6243ca37ca29ce77da6224e13d1f14271d3cc494d9962fed
         - kind: section
           section: 5
           title: Classes de conjugaison
@@ -78,7 +78,7 @@ chapters:
           statements: 26
           exercises: 12
           extraction: ocr
-          content_sha256: d3eb18a508f1218792b7988d21e624fa9cdebecb239a4f8cc0bc9438ada1011c
+          content_sha256: 25abc8a2dc0a7c09297f99bf496117cd18c1fc38f86f38381e2f56e5528d593f
         - kind: section
           section: 6
           title: Intégration dans les groupes de Lie compacts
@@ -91,7 +91,7 @@ chapters:
           statements: 22
           exercises: 13
           extraction: ocr
-          content_sha256: aa48b129f9346faff4c596f704000b84be8e8d96364be56a92c79ea229ed2590
+          content_sha256: 60acfb4862485d695fb00192a3ddfbbf3a14d8722db5b480d9231d9f4a418733
         - kind: section
           section: 7
           title: Représentations irréductibles des groupes de Lie compacts connexes
@@ -104,7 +104,7 @@ chapters:
           statements: 27
           exercises: 8
           extraction: ocr
-          content_sha256: 94bec922e39b175a95c2e9bac03d80b3eef4ba42c5399288591e184c2d1b2a9f
+          content_sha256: 1046c25411274de2c45dfa9114699e8bc7293edc50ce34fed321721ce1aa4809
         - kind: section
           section: 8
           title: Transformation de Fourier
@@ -117,7 +117,7 @@ chapters:
           statements: 9
           exercises: 6
           extraction: ocr
-          content_sha256: 8046cb60e7a87d74278ab051865b2a402cb1931b6d0f6531c7ed71f0def210cd
+          content_sha256: 25a70151016a1a1566e49d4096df881f4010fb1f1b55eb80a2ee28448bb3ebe2
         - kind: section
           section: 9
           title: Opérations des groupes de Lie compacts sur les variétés
@@ -130,7 +130,7 @@ chapters:
           statements: 19
           exercises: 21
           extraction: ocr
-          content_sha256: 93e4c319c21be908a193f2f6906ef53a7e8cff336950b91423ecc75719056b5b
+          content_sha256: 58b5e01c5d61579a4018cfda407aea95fbdca2f8ac437e6c0e9de1cd4ddeecc5
         - kind: appendix
           section: 1
           title: STRUCTURE DES GROUPES COMPACTS
@@ -155,7 +155,7 @@ chapters:
           statements: 6
           exercises: 0
           extraction: ocr
-          content_sha256: adb80f7258da51f557ea84dd0c3de4fb1d1f67b32e6b291b0d3bf087cacd41eb
+          content_sha256: 00c7123700469f848c0ece301fa5539ec44658a953030699d6685d1f98b850ea
 notation_index:
     kind: notation
     title: INDEX DES NOTATIONS

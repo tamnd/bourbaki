@@ -24,7 +24,7 @@ subsections:
       pdf_page: 385
 statements: 13
 exercises: 3
-content_sha256: 989bdc385ba0ef057f8c59e3d24092ac73e934d7b04addca9b9bad4a484351ae
+content_sha256: 9927a07aa5460200e6c663fe5f569540170552b352d946f87de2f3410d29dd34
 translated_from: content/en/lie/III/10_s10_the_automorphism_group_of_a_lie_group.md
 source_content_sha256: 9324e1961b118ac5c4f73e3fb335e08c0b72a588687b17147d05e2b458b10af4
 translation_model: gpt-5-6-mini
@@ -125,8 +125,8 @@ Với $v \in V,\ g_1 \in G,\ g_2 \in G,\ v(g_1g_2) = (vg_1)(vg_2)$. Do đó, v�
 *Cho* G *là một nhóm Lie thực hoặc phức và* $\alpha$ *là một tự đẳng cấu vô cùng bé của G. Tồn tại một luật phép toán giải tích $(\lambda, g) \mapsto \phi_\lambda(g)$ của K trên G với các tính chất sau:
 (1) nếu D là luật liên kết của phép toán vô cùng bé, thì $D(1) = \alpha$;
 (2) với mọi $\lambda \in K$, $\phi_\lambda \in \mathrm{Aut}\, G$.
-(a) Với mọi $\mu > 0$, cho $K_\mu$ là quả cầu mở tâm 0 bán kính $\mu$ trong K. Với mọi $g \in G$, cho $\mathcal{F}_g$ là tập hợp các đường cong nguyên giải tích $f$ của $\alpha$ được xác định trong một quả cầu $K_\mu$ và sao cho $f(0) = g$. Theo Differentiable and Analytic Manifolds, R, 9.1.3 và 9.1.5, $\mathcal{F}_g$ không rỗng và hai phần tử của $\mathcal{F}_g$ trùng nhau trên giao của các miền xác định của chúng; gọi $\mu(g)$ là cận trên nhỏ nhất của các số $\mu$ sao cho tồn tại một phần tử của $\mathcal{F}_g$ được xác định trong $K_\mu$; tồn tại một phần tử duy nhất của $\mathcal{F}_g$ được xác định trong $K_{\mu(g)}$; ta ký hiệu nó là $f_g$.
-(b) Cho $g_1, g_2$ thuộc G, $f_1 \in \mathcal{F}_{g_1}, f_2 \in \mathcal{F}_{g_2}$ với $f_1$ và $f_2$ được xác định trên cùng một quả cầu $K_\mu$. Khi đó $f_1 f_2 : K_\mu \to G$ là giải tích và $(f_1 f_2)(0) = g_1 g_2$. Mặt khác, với mọi $\lambda \in K_\mu$,
+(a) Với mọi $\mu > 0$, cho $K_\mu$ là quả cầu mở tâm 0 bán kính $\mu$ trong K. Với mọi $g \in G$, cho $\mathscr{F}_g$ là tập hợp các đường cong nguyên giải tích $f$ của $\alpha$ được xác định trong một quả cầu $K_\mu$ và sao cho $f(0) = g$. Theo Differentiable and Analytic Manifolds, R, 9.1.3 và 9.1.5, $\mathscr{F}_g$ không rỗng và hai phần tử của $\mathscr{F}_g$ trùng nhau trên giao của các miền xác định của chúng; gọi $\mu(g)$ là cận trên nhỏ nhất của các số $\mu$ sao cho tồn tại một phần tử của $\mathscr{F}_g$ được xác định trong $K_\mu$; tồn tại một phần tử duy nhất của $\mathscr{F}_g$ được xác định trong $K_{\mu(g)}$; ta ký hiệu nó là $f_g$.
+(b) Cho $g_1, g_2$ thuộc G, $f_1 \in \mathscr{F}_{g_1}, f_2 \in \mathscr{F}_{g_2}$ với $f_1$ và $f_2$ được xác định trên cùng một quả cầu $K_\mu$. Khi đó $f_1 f_2 : K_\mu \to G$ là giải tích và $(f_1 f_2)(0) = g_1 g_2$. Mặt khác, với mọi $\lambda \in K_\mu$,
 
 $$
 (T_\lambda(f_1 f_2))1 = (T_\lambda f_1)1 \cdot f_2(\lambda) + f_1(\lambda) \cdot (T_\lambda f_2)1 \quad (\S\ 2,\ \text{Mệnh đề 7})
@@ -138,7 +138,7 @@ $$
 = \alpha((f_1 f_2)(\lambda)) \tag{\text{Bổ đề 1}}
 $$
 
-và do đó $f_1 f_2 \in \mathcal{F}_{g_1 g_2}$. Điều này chứng minh rằng $\mu(g_1 g_2) \geq \inf_{g \in V} (\mu(g_1), \mu(g_2))$.
+và do đó $f_1 f_2 \in \mathscr{F}_{g_1 g_2}$. Điều này chứng minh rằng $\mu(g_1 g_2) \geq \inf_{g \in V} (\mu(g_1), \mu(g_2))$.
 (c) Theo Differentiable and Analytic Manifolds, R, 9.1.4 và 9.1.5, tồn tại một lân cận V của e trong G sao cho $\sigma = \inf_{g \in V} \mu(g) > 0$. Cho $h \in G$ và C là thành phần liên thông của nó. Với mọi $h' \in C$, theo (b), $\mu(h') \geq \inf(\sigma, \mu(h)) > 0$. Mặt khác, các hàm $f_{h'}$, với $h' \in C$, nhận giá trị trong C. Theo Differentiable and Analytic Manifolds, R, 9.1.4 và 9.1.5, $\mu = +\infty$ trong C và cuối cùng $\mu = +\infty$ trong G. Khi đó đặt $f_g(\lambda) = \phi_\lambda(g)$ với mọi $g \in G$ và mọi $\lambda \in K$. Theo Differentiable and Analytic Manifolds, R, 9.1.4 và 9.1.5, ánh xạ $(\lambda, g) \mapsto \phi_\lambda(g)$ là một luật của phép toán giải tích của K trên G. Rõ ràng, nếu D là luật liên kết của phép toán vi phân, $D(1) = \alpha$. Theo (b),
 
 $$
@@ -209,7 +209,7 @@ L(p \circ \eta(w)) = L(\eta(w)) = L(w) = L(w \circ p)
 $$
 suy ra $p \circ \eta(w) = w \circ p$ và do đó $\eta(w) \in \mathrm{Aut}(H, N)$. Rõ ràng ánh xạ $\eta$ từ $\mathrm{Aut}\ G$ vào $\mathrm{Aut}(H, N)$ là một đơn cấu. Đồng cấu này là toàn ánh vì $p : H \to G$ là một toàn ánh địa phương.
 
-Cho G là một nhóm compact địa phương và $\Gamma$ là nhóm tự đẳng cấu của G. Nhắc lại rằng một tôpô $\mathcal{T}_\beta$ đã được xác định trên $\Gamma$ (Tôpô đại cương, Chương X, § 3, no. 5). Đây là tôpô thô nhất sao cho các ánh xạ $v \mapsto v$ và $v \mapsto v^{-1}$ từ $\Gamma$ vào $C_c(G; G)$ (không gian các ánh xạ liên tục từ G vào G với tôpô hội tụ compact) là liên tục. Tôpô $\mathcal{T}_\beta$ tương thích với cấu trúc nhóm trên $\Gamma$ (loc. cit.). Với mọi tập con compact L của G và mọi lân cận U của $e_G$ trong G, gọi $N(L, U)$ là tập hợp các $\phi \in \Gamma$ sao cho $\phi(g) \in gU$ và $\phi^{-1}(g) \in gU$ với mọi $g \in L$; khi đó các $N(L, U)$ tạo thành một hệ cơ bản các lân cận của $e_\Gamma$. Nếu G được sinh bởi một tập con compact C, tôpô $\mathcal{T}_\beta$ cũng là tôpô thô nhất sao cho các ánh xạ $v \mapsto v|C$ và $v \mapsto v^{-1}|C$ từ $\Gamma$ vào $C_u(C; G)$ là liên tục (vì mọi tập con compact của G đều được chứa trong $(C \cup C^{-1})^n$ với n đủ lớn). Nếu K là compact địa phương và V là một không gian vectơ hữu hạn chiều trên K, tôpô $\mathcal{T}_\beta$ trên $\mathbf{GL}(V)$ chính là tôpô thông thường.
+Cho G là một nhóm compact địa phương và $\Gamma$ là nhóm tự đẳng cấu của G. Nhắc lại rằng một tôpô $\mathscr{T}_\beta$ đã được xác định trên $\Gamma$ (Tôpô đại cương, Chương X, § 3, no. 5). Đây là tôpô thô nhất sao cho các ánh xạ $v \mapsto v$ và $v \mapsto v^{-1}$ từ $\Gamma$ vào $C_c(G; G)$ (không gian các ánh xạ liên tục từ G vào G với tôpô hội tụ compact) là liên tục. Tôpô $\mathscr{T}_\beta$ tương thích với cấu trúc nhóm trên $\Gamma$ (loc. cit.). Với mọi tập con compact L của G và mọi lân cận U của $e_G$ trong G, gọi $N(L, U)$ là tập hợp các $\phi \in \Gamma$ sao cho $\phi(g) \in gU$ và $\phi^{-1}(g) \in gU$ với mọi $g \in L$; khi đó các $N(L, U)$ tạo thành một hệ cơ bản các lân cận của $e_\Gamma$. Nếu G được sinh bởi một tập con compact C, tôpô $\mathscr{T}_\beta$ cũng là tôpô thô nhất sao cho các ánh xạ $v \mapsto v|C$ và $v \mapsto v^{-1}|C$ từ $\Gamma$ vào $C_u(C; G)$ là liên tục (vì mọi tập con compact của G đều được chứa trong $(C \cup C^{-1})^n$ với n đủ lớn). Nếu K là compact địa phương và V là một không gian vectơ hữu hạn chiều trên K, tôpô $\mathscr{T}_\beta$ trên $\mathbf{GL}(V)$ chính là tôpô thông thường.
 
 #### Định lý 1 {#lie-iii-s10-thm-1 .statement}
 
@@ -223,14 +223,14 @@ Giả sử trong phần còn lại của mệnh đề rằng Aut G có cấu tr�
 (iii) Cấu xạ $\phi : u \mapsto L(u)$ của Aut G vào Aut L(G) là giải tích.
 (iv) Nếu G liên thông, $\phi$ là một đẳng cấu của nhóm Lie Aut G lên một nhóm Lie con của Aut L(G); nhóm Lie con này bằng Aut L(G) nếu G liên thông đơn.
 (v) Cho $a$ là tập hợp các tự đẳng cấu vi phân của G. Khi đó $a$ là một đại số Lie của các trường vectơ và luật phép toán vi phân liên kết với ánh xạ $(u, g) \mapsto u(g)$ của (Aut G) $\times$ G vào G là một đẳng cấu của L(Aut G) lên $a$.
-(vi) Tôpô của nhóm Lie Aut G là tôpô $\mathcal{T}_\beta$.
+(vi) Tôpô của nhóm Lie Aut G là tôpô $\mathscr{T}_\beta$.
 (a) Tính duy nhất của cấu trúc giải tích được xét trong (i) là hiển nhiên.
 (b) Giả sử G liên thông. Cho H là không gian phủ phổ quát của G, $p$ là cấu xạ chính tắc của H lên G và N = Ker $p$. Ta đưa vào các ký hiệu $\theta$, $\eta$ và Aut(H, N) của Bổ đề 4. Ta chuyển cấu trúc nhóm Lie của Aut L(G) sang Aut H bằng $\theta$. Khi đó Aut H trở thành một nhóm Lie hữu hạn chiều và Aut(H, N) trở thành một nhóm Lie con của Aut H (Bổ đề 4 (ii)). Ta chuyển cấu trúc nhóm Lie của Aut(H, N) sang Aut G bằng $\eta^{-1}$. Khi đó Aut G trở thành một nhóm Lie hữu hạn chiều. Các tính chất (ii), (iii) và (iv) của định lý được thỏa mãn và ánh xạ $(u, g) \mapsto u(g)$ của (Aut G) $\times$ G vào G là giải tích (Bổ đề 4 (i)). Cho M là một đa tạp giải tích, $f$ là một ánh xạ của M vào Aut G và $\phi$ là ánh xạ $(m, g) \mapsto f(m)g$ của M $\times$ G vào G. Rõ ràng, nếu $f$ là giải tích thì $\phi$ là giải tích. Giả sử rằng $\phi$ là giải tích. Khi đó T$\phi$: TM $\times$ TG $\to$ TG là giải tích; hạn chế của nó lên M $\times$ L(G), tức là ánh xạ $(m, x) \mapsto L(f(m))x$ của M $\times$ L(G) vào L(G), do đó là giải tích; vì L(G) hữu hạn chiều, suy ra ánh xạ $m \mapsto L(f(m))$ của M vào Aut L(G) là giải tích và do đó $f$ là giải tích. Như vậy (i) được thỏa mãn.
 
 Cho L(G) một chuẩn. Với mọi $\lambda > 0$, cho B_\lambda là quả cầu mở có tâm 0 và bán kính $\lambda$ trong L(G). Ta chọn $\lambda > 0$ đủ nhỏ để $\psi = \exp_G|_{B_\lambda}$ là một đẳng cấu của đa tạp giải tích B_\lambda lên đa tạp con mở $\psi(B_\lambda)$ của G. Cho $\Phi$ là một bộ lọc trên Aut G. Để $\Phi$ hội tụ tới $\mathrm{Id}_G$ trong Aut G, điều kiện cần và đủ là $L(\Phi)$ hội tụ tới $\mathrm{Id}_{L(G)}$ trong Aut L(G) và do đó $L(\Phi)|_{B_{\lambda/2}}$ và $L(\Phi)^{-1}|_{B_{\lambda/2}}$ hội tụ đều tới $\mathrm{Id}_{B_{\lambda/2}}$. Điều kiện này kéo theo $\Phi|\psi(B_{\lambda/2})$ và $\Phi^{-1}|\psi(B_{\lambda/2})$ hội tụ đều tới $\mathrm{Id}_{\psi(B_{\lambda/2})}$. Ngược lại, giả sử rằng $\Phi|\psi(B_{\lambda/2})$ hội tụ đều tới $\mathrm{Id}_{\psi(B_{\lambda/2})}$. Tồn tại M $\in \Phi$ sao cho, nếu $u \in M$, thì $u(\psi(B_{\lambda/2})) \subset \psi(B_{2\lambda/3})$; khi đó L(u)(B_{\lambda/2}) là một tập con liên thông của L(G) mà ảnh qua $\exp_G$ được chứa trong $\psi(B_{2\lambda/3})$, do đó L(u)(B_{\lambda/2}) không giao với $B_\lambda - B_{2\lambda/3}$ và vì vậy L(u)(B_{\lambda/2}) $\subset$ B_\lambda; khi đó giả thiết rằng $\Phi|\psi(B_{\lambda/2})$ hội tụ đều tới $\mathrm{Id}_{\psi(B_{\lambda/2})}$ kéo theo $L(\Phi)|_{B_{\lambda/2}}$ hội tụ đều tới $\mathrm{Id}_{B_{\lambda/2}}$. Suy ra rằng:
 
 $$
-(\Phi \text{ hội tụ tới } \mathrm{Id}_G \text{ trong Aut } G) \iff (\Phi \text{ hội tụ tới } \mathrm{Id}_G \text{ theo } \mathcal{T}_\beta).
+(\Phi \text{ hội tụ tới } \mathrm{Id}_G \text{ trong Aut } G) \iff (\Phi \text{ hội tụ tới } \mathrm{Id}_G \text{ theo } \mathscr{T}_\beta).
 $$
 
 Điều này chứng minh (vi).
@@ -278,9 +278,9 @@ Cho C là một tập con compact của G_0 sinh G_0. Để một lọc Φ hội
 
 Id_a|(C ∪ {x_1} ∪ ... ∪ {x_n}).
 
-Do đó tôpô của Aut_1G là tôpô $\mathcal{T}_\beta$.
+Do đó tôpô của Aut_1G là tôpô $\mathscr{T}_\beta$.
 
-Hiển nhiên Aut_1G là mở trong Aut G với tôpô $\mathcal{T}_\beta$. Trên Aut G tồn tại một cấu trúc nhóm Lie tương thích với tôpô này và cảm sinh trên Aut_1G cấu trúc đã xây dựng ở trên ($§ 8$, no. 1, Hệ quả 2 của Định lý 1). Việc nhóm Lie Aut G có các tính chất của định lý suy ra từ các tính chất tương ứng của Aut_1G.
+Hiển nhiên Aut_1G là mở trong Aut G với tôpô $\mathscr{T}_\beta$. Trên Aut G tồn tại một cấu trúc nhóm Lie tương thích với tôpô này và cảm sinh trên Aut_1G cấu trúc đã xây dựng ở trên ($§ 8$, no. 1, Hệ quả 2 của Định lý 1). Việc nhóm Lie Aut G có các tính chất của định lý suy ra từ các tính chất tương ứng của Aut_1G.
 
 (e) Trong phần (e) của chứng minh, ta giả thiết rằng $K = C$. Theo (c) và Định lý 2 của $§ 8$, no. 2, trên Aut_1G tồn tại một cấu trúc nhóm Lie thực sao cho ζ là một đẳng cấu từ Aut_1G lên một nhóm con Lie thực của P.
 
@@ -294,7 +294,7 @@ Cuối cùng, ta viết $f(\alpha) = ((\alpha_1, ..., \alpha_n), \alpha_0) \in L
 
 Mặt khác, rõ ràng $L(\zeta) = f \circ D$. Do đó $L(\zeta)(L(Aut_1G)) = f(a)$ là một không gian con vectơ phức của L(P). Theo Mệnh đề 2 của § 4, no. 2, $\zeta(Aut_1G)$ là một nhóm con Lie phức của P và ta có thể tiến hành đúng như trong (d): ta thực hiện phép chuyển cấu trúc nhóm Lie phức trên $\zeta(Aut_1G)$ sang Aut_1G bằng $\zeta^{-1}$ và thấy, như trong (d), rằng Aut_1G có các tính chất tương tự các tính chất (i), (ii), (iii), (v) và (vi) của định lý.
 
-Rõ ràng Aut₁G là mở trong Aut G với tôpô $\mathcal{T}_\beta$. Cho $w \in \mathrm{Aut}\ G$. Gọi $\sigma$ là tự đẳng cấu $v \mapsto wvw^{-1}$ của Aut₁G. Nó giải tích thực ($§ 8$, no. 1, Định lý 1), $L(\sigma)$ là một tự đẳng cấu $\mathbf{R}$-tuyến tính của $L(\mathrm{Aut}_1 G)$ và
+Rõ ràng Aut₁G là mở trong Aut G với tôpô $\mathscr{T}_\beta$. Cho $w \in \mathrm{Aut}\ G$. Gọi $\sigma$ là tự đẳng cấu $v \mapsto wvw^{-1}$ của Aut₁G. Nó giải tích thực ($§ 8$, no. 1, Định lý 1), $L(\sigma)$ là một tự đẳng cấu $\mathbf{R}$-tuyến tính của $L(\mathrm{Aut}_1 G)$ và
 
 $$
 D \circ L(\mathrm{Aut}_1 G) \circ D^{-1}
@@ -304,7 +304,7 @@ là một tự đẳng cấu $\mathbf{R}$-tuyến tính của $a$. Tự đẳng 
 
 #### Hệ quả 1 {#lie-iii-s10-thm-1-cor-1 .statement}
 
-*Một nhóm Lie thực hữu hạn chiều G và $G_0$ là thành phần đơn vị của nó. Giả sử rằng G được sinh bởi $G_0$ và một số hữu hạn phần tử. Khi đó Aut G có tôpô $\mathcal{T}_\beta$ và là một nhóm Lie thực hữu hạn chiều.*
+*Một nhóm Lie thực hữu hạn chiều G và $G_0$ là thành phần đơn vị của nó. Giả sử rằng G được sinh bởi $G_0$ và một số hữu hạn phần tử. Khi đó Aut G có tôpô $\mathscr{T}_\beta$ và là một nhóm Lie thực hữu hạn chiều.*
 
 #### Hệ quả 2 {#lie-iii-s10-thm-1-cor-2 .statement}
 

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 52
 statements: 26
 exercises: 12
-content_sha256: d3eb18a508f1218792b7988d21e624fa9cdebecb239a4f8cc0bc9438ada1011c
+content_sha256: 25abc8a2dc0a7c09297f99bf496117cd18c1fc38f86f38381e2f56e5528d593f
 ---
 
 ## § 5. CLASSES DE CONJUGAISON
@@ -185,7 +185,7 @@ donc $V_0$ est contenu dans le centralisateur de $S$ dans $(Z(x) \cap H)_0$; mai
 
 Soit s une algèbre de Lie compacte, et soit φ un automorphisme de s. Il existe un élément régulier de s fixé par φ.
 
-Quitte à remplacer s par $\mathcal{D}s$, on peut supposer s semi-simple. Soit S un groupe de Lie compact simplement connexe d’algèbre de Lie s, et soit u l’automorphisme de S tel que L(u) = φ. La prop. 3 entraîne l’existence d’un élément a de s, fixé par φ, tel que exp a soit régulier dans S ; en particulier a est régulier dans s (n° 2, remarque 4).
+Quitte à remplacer s par $\mathscr{D}s$, on peut supposer s semi-simple. Soit S un groupe de Lie compact simplement connexe d’algèbre de Lie s, et soit u l’automorphisme de S tel que L(u) = φ. La prop. 3 entraîne l’existence d’un élément a de s, fixé par φ, tel que exp a soit régulier dans S ; en particulier a est régulier dans s (n° 2, remarque 4).
 
 #### Théorème 1 {#lie-ix-s5-thm-1 .statement tag=01EA}
 

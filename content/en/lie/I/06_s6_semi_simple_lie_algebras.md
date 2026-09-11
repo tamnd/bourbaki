@@ -53,7 +53,7 @@ subsections:
       pdf_page: 86
 statements: 50
 exercises: 27
-content_sha256: 9b354b29097b0473c08d8057ac62b2894261a7d8a0ded66592a2cd24c4a5ef9d
+content_sha256: 6efc056f698b9fae537badfb05a3e33abcaeee18731cf89050af97a071c28037
 ---
 
 ## § 6. SEMI-SIMPLE LIE ALGEBRAS
@@ -94,7 +94,7 @@ content_sha256: 9b354b29097b0473c08d8057ac62b2894261a7d8a0ded66592a2cd24c4a5ef9d
 
 *Let g be a semi-simple Lie algebra and $\rho$ a representation of g on a finite-dimensional vector space V. Then $\rho(g) \subset \mathfrak{sl}(V)$.*
 
-The linear form $x \mapsto \operatorname{Tr} \rho(x)$ ($x \in g$) is zero when x is of the form $[y, z]$ ($y \in g, z \in g$) and hence on $\mathcal{D}g = g$.
+The linear form $x \mapsto \operatorname{Tr} \rho(x)$ ($x \in g$) is zero when x is of the form $[y, z]$ ($y \in g, z \in g$) and hence on $\mathscr{D}g = g$.
 
 #### Proposition 1 {#lie-i-s6-prop-1 .statement}
 
@@ -140,13 +140,13 @@ Let $g$ be a Lie algebra. Then the following two conditions are equivalent:
 (a) All finite-dimensional linear representations of $g$ are semi-simple.
 (b) Given a linear representation $\varphi$ of $g$ on a finite-dimensional vector space $V$ and a vector subspace W of codimension 1 such that $\rho(x)(V) \subset W$ for all $x \in g$, there exists a supplementary line of W which is stable under $\rho(g)$ (and hence annihilated by $\rho(g)$).
 
-Clearly (a) implies (b). Suppose that (b) holds. Let $\sigma$ be a finite-dimensional representation of $g$ on a vector space M and N a vector subspace which is stable under $\sigma(g)$. Let $\mu$ be the representation of $g$ on $\mathcal{L}(M)$ canonically derived from $\sigma$ (§ 3, no. 3): recall that $\mu(x) = \mathrm{ad}_{\mathcal{L}(M)} \rho(x)$. Let V (resp. W) be the subspace of $\mathcal{L}(M)$ consisting of the linear mappings of M into N whose restriction to N is a homothety (resp. zero); then W is of codimension 1 in V and $\mu(x)(V) \subset W$ for all $x \in g$. By condition (b), there exists $u \in V$ which is annihilated by $\mu(x)$ for all $x \in g$ and whose restriction to N is a non-zero homothety. By multiplying $u$ by a suitable scalar, it can be assumed that $u$ is a projector of M onto N. To say that $\mu(x) \cdot u = 0$ means that $u$ is permutable with $\sigma(x)$. Hence the kernel of $u$ is a supplement of N in M which is stable under $\sigma(x)$ for all $x \in g$. Hence $\sigma$ is semi-simple.
+Clearly (a) implies (b). Suppose that (b) holds. Let $\sigma$ be a finite-dimensional representation of $g$ on a vector space M and N a vector subspace which is stable under $\sigma(g)$. Let $\mu$ be the representation of $g$ on $\mathscr{L}(M)$ canonically derived from $\sigma$ (§ 3, no. 3): recall that $\mu(x) = \mathrm{ad}_{\mathscr{L}(M)} \rho(x)$. Let V (resp. W) be the subspace of $\mathscr{L}(M)$ consisting of the linear mappings of M into N whose restriction to N is a homothety (resp. zero); then W is of codimension 1 in V and $\mu(x)(V) \subset W$ for all $x \in g$. By condition (b), there exists $u \in V$ which is annihilated by $\mu(x)$ for all $x \in g$ and whose restriction to N is a non-zero homothety. By multiplying $u$ by a suitable scalar, it can be assumed that $u$ is a projector of M onto N. To say that $\mu(x) \cdot u = 0$ means that $u$ is permutable with $\sigma(x)$. Hence the kernel of $u$ is a supplement of N in M which is stable under $\sigma(x)$ for all $x \in g$. Hence $\sigma$ is semi-simple.
 
 #### Lemma 3 {#lie-i-s6-lem-3 .statement}
 
 *Let g be a semi-simple Lie algebra, $\rho$ a linear representation of g on a finite-dimensional vector space V and W a subspace of V of codimension 1 such that $\rho(x)(V) \subset W$ for all $x \in g$. Then there exists a supplementary line of W which is stable under $\rho(g)$.*
 
-For all $x \in g$ let $\sigma(x)$ be the restriction of $\rho(x)$ to W. Suppose first that $\sigma$ is simple. If $\sigma = 0$, then $\rho(x)\rho(y) = 0$ for all $x, y$ in $g$, hence $\rho(g) = \rho(\mathcal{D}g) = \{0\}$ and our assertion is obvious. If $\sigma \neq 0$, let n be the kernel of $\sigma$ and let m be a supplementary ideal of n in $g$ (Lemma 1); then $m \neq \{0\}$ and the restriction of $\sigma$ to m is faithful; the restriction to m of the bilinear form associated with $\sigma$ is non-degenerate (Proposition 1) and hence the Casimir element c associated with m and $\sigma$ can be formed. By Proposition 12 of § 3, no. 7, $\sigma(c)$ is an automorphism of W. On the other hand, $\rho(c)(V) \subset W$. Hence the kernel Z of $\rho(c)$ is a supplementary line of W; since c belongs to the centre of the enveloping algebra of $g$, $\rho(c)$ is permutable with $\rho(x)$ for all $x \in g$ and hence Z is stable under $\rho(g)$.
+For all $x \in g$ let $\sigma(x)$ be the restriction of $\rho(x)$ to W. Suppose first that $\sigma$ is simple. If $\sigma = 0$, then $\rho(x)\rho(y) = 0$ for all $x, y$ in $g$, hence $\rho(g) = \rho(\mathscr{D}g) = \{0\}$ and our assertion is obvious. If $\sigma \neq 0$, let n be the kernel of $\sigma$ and let m be a supplementary ideal of n in $g$ (Lemma 1); then $m \neq \{0\}$ and the restriction of $\sigma$ to m is faithful; the restriction to m of the bilinear form associated with $\sigma$ is non-degenerate (Proposition 1) and hence the Casimir element c associated with m and $\sigma$ can be formed. By Proposition 12 of § 3, no. 7, $\sigma(c)$ is an automorphism of W. On the other hand, $\rho(c)(V) \subset W$. Hence the kernel Z of $\rho(c)$ is a supplementary line of W; since c belongs to the centre of the enveloping algebra of $g$, $\rho(c)$ is permutable with $\rho(x)$ for all $x \in g$ and hence Z is stable under $\rho(g)$.
 
 In the general case we argue by induction on the dimension of V. Let T be a minimal non-zero stable subspace of W. Let $\rho'$ be the quotient representation on $V' = V/T$. Then, for all $x \in g$, $\rho'(x)(V') \subset W'$, where $W' = W/T$ is of codimension 1 in $V'$. By the induction hypothesis there exists a line $Z'$ which is supplementary to $W'$ and stable under $\rho'(g)$. Its inverse image Z in V is stable under $\rho(g)$, contains T as subspace of codimension 1, $Z \cap W = T$, and hence $\rho(x)(Z) \subset T$ for all $x \in g$. By what was proved above, there exists a supplementary line of T in Z which is stable under $\rho(g)$; this line is supplementary to W in V, which completes the proof.
 
@@ -216,7 +216,7 @@ $$
 
 If $K_1$ is an extension of K, the Killing form of $g_{(K_1)}$ is the extension to $g_{(K_1)}$ of that of $g$ (§ 3, no. 8) and hence is non-degenerate; therefore $g_{(K_1)}$ is semi-simple. It therefore suffices to prove Proposition 3 when the base field is algebraically closed, which we shall henceforth assume to be the case.
 
-For every subspace N of M, let $g_N$ be the subalgebra of $\mathfrak{gl}(M)$ consisting of the elements which leave N stable and whose restriction to N has trace zero. As $g = \mathcal{D}g$, $g \subset g_N$ if N is stable under $g$. Then let $g^*$ be the intersection of the normalizer of $g$ in $\mathfrak{gl}(M)$ and the algebras $g_N$ where N runs through the set of subspaces of M which are stable under g. As the semi-simple (resp. nilpotent) component s (resp. n) of $x \in gl(M)$ is a polynomial in x with no constant term and ad s (resp. ad n) is the semi-simple (resp. nilpotent) part of ad x ($§ 5$, no. 4, Lemma 2), clearly $x \in g^*$ implies $s \in g^*$ and $n \in g^*$; it therefore suffices to show that $g^* = g$. Since g is a semi-simple ideal of $g^*$, $g^* = a \times g$ (no. 1, Corollary 1 to Proposition 1). Let $a \in a$ and let N be a subspace which is minimal among the non-zero subspaces of M which are stable under g. The restriction of a to N is a scalar multiple of the identity by Burnside’s Theorem, has trace zero by construction and hence is zero since K is of characteristic 0. As M is the direct sum of subspaces such as N, it follows that $a = 0$ and hence $g^* = g$.
+For every subspace N of M, let $g_N$ be the subalgebra of $\mathfrak{gl}(M)$ consisting of the elements which leave N stable and whose restriction to N has trace zero. As $g = \mathscr{D}g$, $g \subset g_N$ if N is stable under $g$. Then let $g^*$ be the intersection of the normalizer of $g$ in $\mathfrak{gl}(M)$ and the algebras $g_N$ where N runs through the set of subspaces of M which are stable under g. As the semi-simple (resp. nilpotent) component s (resp. n) of $x \in gl(M)$ is a polynomial in x with no constant term and ad s (resp. ad n) is the semi-simple (resp. nilpotent) part of ad x ($§ 5$, no. 4, Lemma 2), clearly $x \in g^*$ implies $s \in g^*$ and $n \in g^*$; it therefore suffices to show that $g^* = g$. Since g is a semi-simple ideal of $g^*$, $g^* = a \times g$ (no. 1, Corollary 1 to Proposition 1). Let $a \in a$ and let N be a subspace which is minimal among the non-zero subspaces of M which are stable under g. The restriction of a to N is a scalar multiple of the identity by Burnside’s Theorem, has trace zero by construction and hence is zero since K is of characteristic 0. As M is the direct sum of subspaces such as N, it follows that $a = 0$ and hence $g^* = g$.
 
 #### Corollary {#lie-i-s6-n3-cor-1 .statement}
 
@@ -254,16 +254,16 @@ Suppose that the hypothesis of (a) holds. Let $\sigma$ be a representation of g,
 
 *Let $g$ be a Lie algebra and $r$ its radical. The following conditions are equivalent:*
 (a) $g$ is reductive.
-(b) $\mathcal{D}g$ is semi-simple.
+(b) $\mathscr{D}g$ is semi-simple.
 (c) $g$ is the product of a semi-simple algebra and a commutative algebra.
 (d) $g$ has a finite-dimensional representation such that the associated bilinear form is non-degenerate.
 (e) $g$ has a faithful semi-simple finite-dimensional representation.
 (f) *The nilpotent radical of $g$ is zero.*
 (g) $r$ is the centre of $g$.
 
-(a) $\Rightarrow$ (b): if the adjoint representation of $g$ is semi-simple, $g$ is a direct sum of minimal non-zero ideals $a_i$ and hence $g$ is isomorphic to the product of the $a_i$; and $a_i$ has no ideals other than $\{0\}$ and $a_i$ and hence is simple or commutative of dimension 1. Therefore $\mathcal{D}g$ is equal to the product of those $a_i$ which are simple and hence is semi-simple.
+(a) $\Rightarrow$ (b): if the adjoint representation of $g$ is semi-simple, $g$ is a direct sum of minimal non-zero ideals $a_i$ and hence $g$ is isomorphic to the product of the $a_i$; and $a_i$ has no ideals other than $\{0\}$ and $a_i$ and hence is simple or commutative of dimension 1. Therefore $\mathscr{D}g$ is equal to the product of those $a_i$ which are simple and hence is semi-simple.
 
-(b) $\Rightarrow$ (c): if $\mathcal{D}g$ is semi-simple, $g$ is isomorphic to the product of $\mathcal{D}g$ by a Lie algebra $h$ (no. 1, Corollary 1 to Proposition 1); $h$ is isomorphic to $g/\mathcal{D}g$ and hence is commutative.
+(b) $\Rightarrow$ (c): if $\mathscr{D}g$ is semi-simple, $g$ is isomorphic to the product of $\mathscr{D}g$ by a Lie algebra $h$ (no. 1, Corollary 1 to Proposition 1); $h$ is isomorphic to $g/\mathscr{D}g$ and hence is commutative.
 
 (c) $\Rightarrow$ (d): let $g_1$ and $g_2$ be two Lie algebras, $\rho_i$ a finite-dimensional representation of $g_i$ and $\beta_i$ the bilinear form on $g_i$ associated with $\rho_i$ ($i = 1, 2$); $\rho_1$ and $\rho_2$ can be considered as representations of $g = g_1 \times g_2$; let $\rho$ be their direct sum. Clearly the bilinear form on $g$ associated with $\rho$ is the direct sum of $\beta_1$ and $\beta_2$ and hence is non-degenerate if $\beta_1$ and $\beta_2$ are non-degenerate. Then to prove the implication (c) $\Rightarrow$ (d) it suffices to consider the 2 following cases: (1) $g$ is semi-simple; then the adjoint representation admits as associated form the Killing form, which is non-degenerate; (2) $g = K$; then the identity representation of $g$ on $K$ has an associated bilinear form which is non-degenerate.
 
@@ -271,31 +271,31 @@ Suppose that the hypothesis of (a) holds. Let $\sigma$ be a representation of g,
 
 (e) $\Rightarrow$ (f): this is obvious.
 
-(f) $\Rightarrow$ (g): if the nilpotent radical of $g$ is zero, $\mathcal{D}g \cap r$ is zero ($§ 5$, no. 3, Theorem 1); as $[g, r] \subset \mathcal{D}g \cap r$, $r$ is the centre of $g$.
+(f) $\Rightarrow$ (g): if the nilpotent radical of $g$ is zero, $\mathscr{D}g \cap r$ is zero ($§ 5$, no. 3, Theorem 1); as $[g, r] \subset \mathscr{D}g \cap r$, $r$ is the centre of $g$.
 
 (g) ⇒ (a): if r is the centre of g, the adjoint representation of g is identified with a representation of g/r, which is a semi-simple Lie algebra (§ 5, no. 2, Proposition 3); this representation is therefore semi-simple (Theorem 2).
 
 #### Remark {#lie-i-s6-n4-rem-1 .statement}
 
-If a Lie algebra g can be decomposed as a product a × b of a commutative Lie algebra a and a semi-simple Lie algebra b, this decomposition is unique. More precisely, the centre of g is equal to the product of the centres of a and b and is hence equal to a. And $\mathcal{D}g = \mathcal{D}a \times \mathcal{D}b = b$.
+If a Lie algebra g can be decomposed as a product a × b of a commutative Lie algebra a and a semi-simple Lie algebra b, this decomposition is unique. More precisely, the centre of g is equal to the product of the centres of a and b and is hence equal to a. And $\mathscr{D}g = \mathscr{D}a \times \mathscr{D}b = b$.
 
 #### Corollary {#lie-i-s6-n4-cor-1 .statement}
 
 (a) Every finite product of reductive algebras is a reductive algebra.
-(b) If g is a reductive Lie algebra of centre c, every ideal of g is a direct factor, the product of its intersections with c and $\mathcal{D}g$, and is a reductive Lie algebra.
+(b) If g is a reductive Lie algebra of centre c, every ideal of g is a direct factor, the product of its intersections with c and $\mathscr{D}g$, and is a reductive Lie algebra.
 (c) Every quotient of a reductive Lie algebra is a reductive Lie algebra.
 
 Assertion (a) follows for example from condition (c) of Proposition 5.
 
-Suppose that g is reductive. Let a be an ideal of g. Since the adjoint representation of g is semi-simple, a has a supplementary ideal b and g is identified with a × b. For all $x \in g$, let $\rho(x)$ be the restriction of $\mathrm{ad}_g x$ to a. Then $\rho$ is a semi-simple representation of g which is zero on b and defines on passing to the quotient the adjoint representation on a. Hence a is reductive. Similarly, g/a and b, which are isomorphic, are reductive. Finally, let d, d' be the centres of a and b; then $a = d \times \mathcal{D}a, b = d' \times \mathcal{D}b, d \times d' = c, \mathcal{D}a \times \mathcal{D}b = \mathcal{D}g$; hence $a = (a \cap c) + (a \cap \mathcal{D}g)$.
+Suppose that g is reductive. Let a be an ideal of g. Since the adjoint representation of g is semi-simple, a has a supplementary ideal b and g is identified with a × b. For all $x \in g$, let $\rho(x)$ be the restriction of $\mathrm{ad}_g x$ to a. Then $\rho$ is a semi-simple representation of g which is zero on b and defines on passing to the quotient the adjoint representation on a. Hence a is reductive. Similarly, g/a and b, which are isomorphic, are reductive. Finally, let d, d' be the centres of a and b; then $a = d \times \mathscr{D}a, b = d' \times \mathscr{D}b, d \times d' = c, \mathscr{D}a \times \mathscr{D}b = \mathscr{D}g$; hence $a = (a \cap c) + (a \cap \mathscr{D}g)$.
 
 #### Proposition 6 {#lie-i-s6-prop-6 .statement}
 
 Let g be a Lie algebra, r its radical and s its nilpotent radical.
-(a) $s = [g, r] = \mathcal{D}g \cap r$.
+(a) $s = [g, r] = \mathscr{D}g \cap r$.
 (b) s is the intersection of the orthogonals of g with respect to the bilinear forms associated with the finite-dimensional representations of g.
 
-Clearly $[g, r] \subset \mathcal{D}g \cap r$. Now $\mathcal{D}g \cap r = s$ by Theorem 1 of § 5, no. 3. Let $g' = g/[g, r]$ and f be the canonical homomorphism of g onto $g'$; then $f(r)$ is the radical $r'$ of $g'$ (Corollary 3 to Proposition 2, no. 2), hence $[g', r'] = \{0\}$ and $r'$ is the centre of $g'$; therefore (Proposition 5) $g'$ has a finite-dimensional faithful semi-simple representation, whence $s \subset [g, r]$. This proves (a).
+Clearly $[g, r] \subset \mathscr{D}g \cap r$. Now $\mathscr{D}g \cap r = s$ by Theorem 1 of § 5, no. 3. Let $g' = g/[g, r]$ and f be the canonical homomorphism of g onto $g'$; then $f(r)$ is the radical $r'$ of $g'$ (Corollary 3 to Proposition 2, no. 2), hence $[g', r'] = \{0\}$ and $r'$ is the centre of $g'$; therefore (Proposition 5) $g'$ has a finite-dimensional faithful semi-simple representation, whence $s \subset [g, r]$. This proves (a).
 
 Let t be the intersection of the orthogonals of g with respect to the bilinear forms associated with the finite-dimensional representations of g. Then $s \subset t$ (§ 4, no. 3, Proposition 4 (d)). On the other hand, $g/s$ has a finite-dimensional faithful semi-simple representation and hence (Proposition 5) a finite-dimensional representation $\rho$ such that the associated bilinear form is non-degenerate; considered as a representation of g, $\rho$ has an associated bilinear form $\beta$ on g and the orthogonal of g with respect to $\beta$ is s, whence $t \subset s$. Hence $t = s$.
 
@@ -341,9 +341,9 @@ Let $T^n$ be the subspace of $T$ consisting of the homogeneous tensors of order 
 
 #### Corollary 3 {#lie-i-s6-thm-4-cor-3 .statement}
 
-Let $g$ be a Lie algebra and $\rho$ and $\rho'$ two finite-dimensional semi-simple representations of $g$ on spaces $M$ and $M'$. Then the representation of $g$ on $\mathcal{L}_K(M, M')$ canonically derived from $\rho$ and $\rho'$ is semi-simple.
+Let $g$ be a Lie algebra and $\rho$ and $\rho'$ two finite-dimensional semi-simple representations of $g$ on spaces $M$ and $M'$. Then the representation of $g$ on $\mathscr{L}_K(M, M')$ canonically derived from $\rho$ and $\rho'$ is semi-simple.
 
-The $g$-module $\mathcal{L}_K(M, M')$ is canonically identified with the $g$-module $M^* \otimes_K M'$ (§ 3, no. 3, Proposition 4), so that Corollary 3 follows from Corollary 1.
+The $g$-module $\mathscr{L}_K(M, M')$ is canonically identified with the $g$-module $M^* \otimes_K M'$ (§ 3, no. 3, Proposition 4), so that Corollary 3 follows from Corollary 1.
 
 #### Corollary 4 {#lie-i-s6-thm-4-cor-4 .statement}
 
@@ -394,7 +394,7 @@ The representation $x \mapsto \mathrm{ad}_g x$ of $\mathfrak{h}$ on $g$ is semi-
 
 *Let $V$ be a finite-dimensional vector space. Then $\mathrm{gl}(V)$ is reductive. Its centre is the set of homotheties of $V$, its derived algebra is $\mathrm{sl}(V)$ and the latter is semi-simple.*
 
-The identity representation of $\mathrm{gl}(V)$ is simple, hence $\mathrm{gl}(V)$ is reductive and therefore $\mathrm{gl}(V)$ is the direct sum of its centre $c$ and its derived algebra $\mathcal{D}(\mathrm{gl}(V))$. The centre $c$ is the set of homotheties (*Algebra*, Chapter II, § 2, no. 5, Corollary 1 to Proposition 5). Clearly $\mathcal{D}(\mathrm{gl}(V)) \subset \mathrm{sl}(V)$. As $\mathrm{sl}(V) \cap c = \{0\}$, $\mathcal{D}(\mathrm{gl}(V)) = \mathrm{sl}(V)$. Hence $\mathrm{sl}(V)$ is semi-simple.
+The identity representation of $\mathrm{gl}(V)$ is simple, hence $\mathrm{gl}(V)$ is reductive and therefore $\mathrm{gl}(V)$ is the direct sum of its centre $c$ and its derived algebra $\mathscr{D}(\mathrm{gl}(V))$. The centre $c$ is the set of homotheties (*Algebra*, Chapter II, § 2, no. 5, Corollary 1 to Proposition 5). Clearly $\mathscr{D}(\mathrm{gl}(V)) \subset \mathrm{sl}(V)$. As $\mathrm{sl}(V) \cap c = \{0\}$, $\mathscr{D}(\mathrm{gl}(V)) = \mathrm{sl}(V)$. Hence $\mathrm{sl}(V)$ is semi-simple.
 
 #### Example {#lie-i-s6-n7-exa-1 .statement}
 
@@ -440,7 +440,7 @@ For $\beta$ symmetric and $n = 2$, $g$ is of dimension 1 and hence commutative. 
 
 ### 8. THE LEVI-MALCEV THEOREM
 
-Let E be a complete normed vector space over $\mathbf{R}$ and $u$ a continuous endomorphism of E. We have seen (Functions of a real variable, Chapter IV, § 2, no. 6) that the sequence $\frac{u^n}{n!}$ is summable in $\mathcal{L}(E)$ and we wrote
+Let E be a complete normed vector space over $\mathbf{R}$ and $u$ a continuous endomorphism of E. We have seen (Functions of a real variable, Chapter IV, § 2, no. 6) that the sequence $\frac{u^n}{n!}$ is summable in $\mathscr{L}(E)$ and we wrote
 
 $$
 e^u = \exp u = \sum_{n=0}^\infty \frac{u^n}{n!}.
@@ -503,11 +503,11 @@ Let $r$ denote the radical of $g$. We first treat two special cases.
 
 (a) $[g, r] = \{0\}$.
 
-By Proposition 5, $g$ is then the product of its centre $r$ by $\mathcal{D}g$ which is semi-simple. Hence $\mathcal{D}g$ is a Levi subalgebra. Moreover, if $s'$ is a semi-simple subalgebra, then $s' = \mathcal{D}s'$ (Theorem 1), hence $s' \subset \mathcal{D}g$ and $\mathcal{D}g$ is the unique Levi subalgebra of $g$.
+By Proposition 5, $g$ is then the product of its centre $r$ by $\mathscr{D}g$ which is semi-simple. Hence $\mathscr{D}g$ is a Levi subalgebra. Moreover, if $s'$ is a semi-simple subalgebra, then $s' = \mathscr{D}s'$ (Theorem 1), hence $s' \subset \mathscr{D}g$ and $\mathscr{D}g$ is the unique Levi subalgebra of $g$.
 
 (b) $[g, r] \neq \{0\}$ and the only ideals of $g$ contained in $r$ are $\{0\}$ and $r$.
 
-Then $[g, r] = r,\ [r, r] = \{0\}$ and the centre of $g$ is zero. Let $M$ (resp. $N$) be the subspace of $\mathcal{L}(g)$ consisting of the linear mappings of $g$ into $r$ whose restriction to $r$ is a homothety (resp. zero); $N$ is therefore of codimension 1 in $M$. For $m \in M$, let $\lambda(m)$ denote the ratio of the homothety of $r$ defined by $m$. Let $\sigma$ be the representation of $g$ on $\mathcal{L}(g)$ canonically derived from the adjoint representation; recall that $\sigma(x).u = [\mathrm{ad}_g x, u]$ for all $x \in g$ and all $u \in \mathcal{L}(g)$.
+Then $[g, r] = r,\ [r, r] = \{0\}$ and the centre of $g$ is zero. Let $M$ (resp. $N$) be the subspace of $\mathscr{L}(g)$ consisting of the linear mappings of $g$ into $r$ whose restriction to $r$ is a homothety (resp. zero); $N$ is therefore of codimension 1 in $M$. For $m \in M$, let $\lambda(m)$ denote the ratio of the homothety of $r$ defined by $m$. Let $\sigma$ be the representation of $g$ on $\mathscr{L}(g)$ canonically derived from the adjoint representation; recall that $\sigma(x).u = [\mathrm{ad}_g x, u]$ for all $x \in g$ and all $u \in \mathscr{L}(g)$.
 
 Clearly $\sigma(x)(M) \subset N$ for all $x \in g$. Moreover, if $x \in r, y \in g$ and $u \in M$, then
 $$
@@ -518,7 +518,7 @@ $$
 (x).u = -\mathrm{ad}(\lambda(u).x).
 $$
 
-As the centre of $g$ is zero, the mapping $x \mapsto \mathrm{ad}_g x$ defines a bijection $\phi$ of $r$ onto a subspace $P$ of $\mathcal{L}(g)$. This subspace is stable under $\sigma(g)$ and contained in $N$ since $r$ is a commutative ideal and (5) shows that $\sigma(x)(M) \subset P$ for $x \in r$. The representation of $g$ on $M/P = V$ derived from $\sigma$ is therefore zero on $r$ and defines a representation $\sigma'$ of the semi-simple algebra $g/r$ on $V$. For all $y \in g/r$, the space $\sigma'(y)(V)$ is contained in $N/P$, which is of codimension 1 in $V$. Consequently (no. 2, Lemma 3) there exists $u_0 \in M$ such that $\lambda(u_0) = -1$ and $\sigma(x).u_0 \in P$ for all $x \in g$. The mapping $x \mapsto \phi^{-1}(\sigma(x).u_0)$ is a linear mapping of $g$ into $r$. By (5) its restriction to $r$ is the identity mapping of $r$. Hence its kernel is a subspace $s$ of $g$ supplementary to $r$ in $g$. As $s$ is the set of $x \in g$ such that $\sigma(x).u_0 = 0$, $s$ is a subalgebra of $g$ and therefore a Levi subalgebra of $g$.
+As the centre of $g$ is zero, the mapping $x \mapsto \mathrm{ad}_g x$ defines a bijection $\phi$ of $r$ onto a subspace $P$ of $\mathscr{L}(g)$. This subspace is stable under $\sigma(g)$ and contained in $N$ since $r$ is a commutative ideal and (5) shows that $\sigma(x)(M) \subset P$ for $x \in r$. The representation of $g$ on $M/P = V$ derived from $\sigma$ is therefore zero on $r$ and defines a representation $\sigma'$ of the semi-simple algebra $g/r$ on $V$. For all $y \in g/r$, the space $\sigma'(y)(V)$ is contained in $N/P$, which is of codimension 1 in $V$. Consequently (no. 2, Lemma 3) there exists $u_0 \in M$ such that $\lambda(u_0) = -1$ and $\sigma(x).u_0 \in P$ for all $x \in g$. The mapping $x \mapsto \phi^{-1}(\sigma(x).u_0)$ is a linear mapping of $g$ into $r$. By (5) its restriction to $r$ is the identity mapping of $r$. Hence its kernel is a subspace $s$ of $g$ supplementary to $r$ in $g$. As $s$ is the set of $x \in g$ such that $\sigma(x).u_0 = 0$, $s$ is a subalgebra of $g$ and therefore a Levi subalgebra of $g$.
 
 Let $s'$ be another Levi subalgebra. For all $x \in s'$, let $h(x)$ be the unique element of $r$ such that $x + h(x) \in s$. Since $s$ is a subalgebra and $r$ is commutative, for $x, y$ in $s'$:
 $$
@@ -620,7 +620,7 @@ $$
 
 The {s'_i}^{\natural} are elements of S_0 which are homogeneous and of degree < n (since each S_δ is a graded submodule). Hence they are in S_1 by the induction hypothesis. Hence s ∈ S_1, which proves (a).
 
-We now consider a simple representation of g of class δ on a finite-dimensional space M. Let L = $\mathcal{L}_K(M, S)$. For all s ∈ S and all f ∈ L, let sf be the element of L defined by (sf)(m) = s.f(m) (m ∈ M); an S-module structure is thus defined on L; as M is finite-dimensional over K, clearly L is a finitely generated S-module and hence a Noetherian S-module since the ring S is Noetherian. On the other hand, L has a canonical g-module structure. For every integer n ≥ 0 let S^n be the set of homogeneous elements of S of degree n; then the g-module $\mathcal{L}_K(M, S^n)$ is semi-simple (no. 5, Corollary 3 to Theorem 4) and hence the g-module L is semi-simple. Moreover, for s ∈ S, f ∈ L, x ∈ g and m ∈ M,
+We now consider a simple representation of g of class δ on a finite-dimensional space M. Let L = $\mathscr{L}_K(M, S)$. For all s ∈ S and all f ∈ L, let sf be the element of L defined by (sf)(m) = s.f(m) (m ∈ M); an S-module structure is thus defined on L; as M is finite-dimensional over K, clearly L is a finitely generated S-module and hence a Noetherian S-module since the ring S is Noetherian. On the other hand, L has a canonical g-module structure. For every integer n ≥ 0 let S^n be the set of homogeneous elements of S of degree n; then the g-module $\mathscr{L}_K(M, S^n)$ is semi-simple (no. 5, Corollary 3 to Theorem 4) and hence the g-module L is semi-simple. Moreover, for s ∈ S, f ∈ L, x ∈ g and m ∈ M,
 
 $$
 (x_L(sf))(m) = x_S((sf)(m)) - (sf)(x_M m)

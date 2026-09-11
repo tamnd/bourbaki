@@ -44,7 +44,7 @@ subsections:
       pdf_page: 50
 statements: 23
 exercises: 12
-content_sha256: 98eb0b5c20a690e1cfd1fe1597946fbbc18957182be29b54bcb587ab5f88fc95
+content_sha256: b85018fe68f5188618335e09fbdbfcf02e416591c55117db8538e84da0167f72
 ---
 
 ## § 3. Représentations
@@ -160,20 +160,20 @@ Plus particulièrement encore, considérons g comme un g-module grâce à la rep
 
 ### 3. Représentations dans des modules d’homomorphismes
 
-Soient encore $g_1$ et $g_2$ deux algèbres de Lie sur K, et $M_i$ un $g_i$-module ($i = 1, 2$). Soient $U_i$ l’algèbre enveloppante de $g_i$, et $\sigma_i$ l’application canonique de $g_i$ dans $U_i$. Alors $M_i$ est un $U_i$-module à gauche, donc $\mathcal{L}_K(M_1, M_2)$ est canoniquement muni d’une structure de $(U_1^0 \otimes U_2)$-module à gauche. Or, $U_1^0 \otimes_K U_2$ est l’algèbre enveloppante de $g_1^0 \times g_2$, et l’application
+Soient encore $g_1$ et $g_2$ deux algèbres de Lie sur K, et $M_i$ un $g_i$-module ($i = 1, 2$). Soient $U_i$ l’algèbre enveloppante de $g_i$, et $\sigma_i$ l’application canonique de $g_i$ dans $U_i$. Alors $M_i$ est un $U_i$-module à gauche, donc $\mathscr{L}_K(M_1, M_2)$ est canoniquement muni d’une structure de $(U_1^0 \otimes U_2)$-module à gauche. Or, $U_1^0 \otimes_K U_2$ est l’algèbre enveloppante de $g_1^0 \times g_2$, et l’application
 
 $$
 (x_1, x_2) \mapsto \sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2)
 $$
 
-est l’application canonique de $g_1^0 \times g_2$ dans cette algèbre enveloppante. Donc il existe une structure de $(g_1^0 \times g_2)$-module sur $M = \mathcal{L}_K(M_1, M_2)$ telle que
+est l’application canonique de $g_1^0 \times g_2$ dans cette algèbre enveloppante. Donc il existe une structure de $(g_1^0 \times g_2)$-module sur $M = \mathscr{L}_K(M_1, M_2)$ telle que
 
 $$
 ((x_1, x_2)_M \cdot u) \cdot m_1 = ((\sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2)) \cdot u) \cdot m_1 \\
 = u((x_1)_{M_1} \cdot m_1) + (x_2)_{M_2} \cdot u(m_1)
 $$
 
-quels que soient $u \in \mathcal{L}_K(M_1, M_2)$, $m_1 \in M_1$. Cette structure définit une représentation de $g_1^0 \times g_2$ dans $M$.
+quels que soient $u \in \mathscr{L}_K(M_1, M_2)$, $m_1 \in M_1$. Cette structure définit une représentation de $g_1^0 \times g_2$ dans $M$.
 
 Si maintenant $g_1 = g_2 = g$, l’homomorphisme $x \mapsto (-x, x)$ de $g$ dans $g^0 \times g$, composé avec la représentation précédente, définit une représentation de $g$ dans $M$, donc une structure de $g$-module sur $M$, telle que
 
@@ -191,7 +191,7 @@ En combinant ce résultat avec la prop. 2, on voit que :
 
 #### Proposition 3 {#lie-i-s3-prop-3 .statement}
 
-*Soient $g$ une algèbre de Lie sur $K$, et $M_i$ un $g$-module ($1 \leq i \leq n+1$). Soit $N$ le $K$-module $\mathcal{L}_K(M_1, \ldots, M_n ; M_{n+1})$ des applications multilinéaires de $\prod_{i=1}^n M_i$ dans $M_{n+1}$. Il existe une structure de $g$-module et une seule sur $N$ telle que*
+*Soient $g$ une algèbre de Lie sur $K$, et $M_i$ un $g$-module ($1 \leq i \leq n+1$). Soit $N$ le $K$-module $\mathscr{L}_K(M_1, \ldots, M_n ; M_{n+1})$ des applications multilinéaires de $\prod_{i=1}^n M_i$ dans $M_{n+1}$. Il existe une structure de $g$-module et une seule sur $N$ telle que*
 
 $$
 (x_N \cdot u)(m_1, \ldots, m_n) = - \sum_{i=1}^n u(m_1, \ldots, x_{M_i} \cdot m_i, \ldots, m_n) \\
@@ -202,7 +202,7 @@ quels que soient $x \in g$, $u \in N$ et les $m_i \in M_i$ ($1 \leq i \leq n$).
 
 En particulier, soient $g$ une algèbre de Lie sur $K$, $M$ un $g$-module. Considérons d’autre part $K$ comme un $g$-module trivial.
 
-La prop. 3 définit dans $\mathcal{L}_K(M, K) = M^*$ une structure de g-module. La représentation correspondante est appelée représentation *duale* de la représentation $x \mapsto x_M$. On a :
+La prop. 3 définit dans $\mathscr{L}_K(M, K) = M^*$ une structure de g-module. La représentation correspondante est appelée représentation *duale* de la représentation $x \mapsto x_M$. On a :
 
 (8)
 $$
@@ -221,13 +221,13 @@ Lorsque K est un corps et que M est de dimension finie, le g-module M est simple
 
 *Soient* $M_1, M_2$ *deux g-modules*. *Les applications* K-linéaires canoniques (*Alg.*, chap. II, 3e éd., § 4, no 2, prop. 2 et no 1, prop. 1) :
 $$
-M_1^* \otimes_K M_2 \xrightarrow{\varphi} \mathcal{L}_K(M_1, M_2), \quad \mathcal{L}_K(M_1, M_2^*) \xrightarrow{\psi} (M_1 \otimes_K M_2)^*
+M_1^* \otimes_K M_2 \xrightarrow{\varphi} \mathscr{L}_K(M_1, M_2), \quad \mathscr{L}_K(M_1, M_2^*) \xrightarrow{\psi} (M_1 \otimes_K M_2)^*
 $$
 *(où la deuxième est bijective)* sont des homomorphismes de g-modules.
 
 Posons
 $$
-N = M_1^* \otimes M_2, \quad P = \mathcal{L}(M_1, M_2), \quad Q = \mathcal{L}(M_1, M_2^*), \quad R = (M_1 \otimes M_2)^*.
+N = M_1^* \otimes M_2, \quad P = \mathscr{L}(M_1, M_2), \quad Q = \mathscr{L}(M_1, M_2^*), \quad R = (M_1 \otimes M_2)^*.
 $$
 On a, pour $x \in g, f \in M_1^*, m_1 \in M_1, m_2 \in M_2$,
 $$
@@ -238,7 +238,7 @@ $$
 ((x_P \varphi)(f \otimes m_2)) \cdot m_1 = x_{M_2}(\varphi(f \otimes m_2) \cdot m_1) - \varphi(f \otimes m_2)(x_{M_1} m_1) \\
 = \langle f, m_1 \rangle x_{M_2} m_2 - \langle f, x_{M_1} m_1 \rangle m_2
 $$
-donc $\varphi x_N = x_P \varphi$. D’autre part, pour $x \in g, u \in \mathcal{L}(M_1, M_2^*), m_1 \in M_1, m_2 \in M_2$, on a :
+donc $\varphi x_N = x_P \varphi$. D’autre part, pour $x \in g, u \in \mathscr{L}(M_1, M_2^*), m_1 \in M_1, m_2 \in M_2$, on a :
 $$
 (\psi x_Q u)(m_1 \otimes m_2) = \langle (x_Q u) \cdot m_1, m_2 \rangle = \langle x_{M_2^*} u m_1 - u x_{M_1} m_1, m_2 \rangle
 $$
@@ -248,13 +248,13 @@ $$
 $$
 donc $\psi x_Q = x_R \psi$, ce qui achève la démonstration.
 
-On identifie les g-modules $\mathcal{L}(M_1, M_2^*)$ et $(M_1 \otimes M_2)^*$ par l’isomorphisme $\psi$. Si $M_1$ et $M_2$ ont des bases finies, $\varphi$ est un isomor-
+On identifie les g-modules $\mathscr{L}(M_1, M_2^*)$ et $(M_1 \otimes M_2)^*$ par l’isomorphisme $\psi$. Si $M_1$ et $M_2$ ont des bases finies, $\varphi$ est un isomor-
 
 ### 4. Exemples
 
 #### Exemple 1 {#lie-i-s3-n4-exa-1 .statement}
 
-Soient g une algèbre de Lie sur K, M un g-module. La structure de g-module de M et la structure de g-module trivial de K définissent une structure de g-module sur le K-module $N = \mathcal{L}(M, M; K)$ des formes bilinéaires sur M. On a
+Soient g une algèbre de Lie sur K, M un g-module. La structure de g-module de M et la structure de g-module trivial de K définissent une structure de g-module sur le K-module $N = \mathscr{L}(M, M; K)$ des formes bilinéaires sur M. On a
 $$
 (x_N.\beta)(m, m') = -\beta(x_M.m, m') - \beta(m, x_M.m')
 $$
@@ -293,7 +293,7 @@ $$
 #### Exemple 2 {#lie-i-s3-n4-exa-2 .statement}
 
 Conservons les notations de l’exemple 1.
-La structure de g-module de M définit dans le K-module $P = \mathcal{L}_K(M, M)$ des endomorphismes de M une structure de g-module. D’après (6), on a, quels que soient $x \in g$, et $u \in P$:
+La structure de g-module de M définit dans le K-module $P = \mathscr{L}_K(M, M)$ des endomorphismes de M une structure de g-module. D’après (6), on a, quels que soient $x \in g$, et $u \in P$:
 $$(11)$$
 $$
 x_P \cdot u = [x_M, u] = (\operatorname{ad} x_M) \cdot u
@@ -303,7 +303,7 @@ $$(12)$$
 $$
 x_P = \operatorname{ad} x_M
 $$
-dans $\mathcal{L}(\mathcal{L}(M, M)) = \mathcal{L}(\mathrm{gl}(M))$.
+dans $\mathscr{L}(\mathscr{L}(M, M)) = \mathscr{L}(\mathrm{gl}(M))$.
 
 ### 5. Éléments invariants
 
@@ -315,15 +315,15 @@ dans $\mathcal{L}(\mathcal{L}(M, M)) = \mathcal{L}(\mathrm{gl}(M))$.
 
 #### Exemple 1 {#lie-i-s3-n5-exa-1 .statement}
 
-Soient M, N deux g-modules, et P = $\mathcal{L}_K(M, N)$. Pour qu’un élément f de P soit invariant, il faut et il suffit, d’après (6), que f soit un homomorphisme du g-module M dans le g-module N. En particulier, si M = N et $x_M = x_N$ pour tout $x \in g$, f est invariant si et seulement si f est permutable aux $x_M$.
+Soient M, N deux g-modules, et P = $\mathscr{L}_K(M, N)$. Pour qu’un élément f de P soit invariant, il faut et il suffit, d’après (6), que f soit un homomorphisme du g-module M dans le g-module N. En particulier, si M = N et $x_M = x_N$ pour tout $x \in g$, f est invariant si et seulement si f est permutable aux $x_M$.
 
 #### Exemple 2 {#lie-i-s3-n5-exa-2 .statement}
 
-Soit M un K-module admettant une base finie. Si M est muni d’une structure de g-module, $\mathcal{L}(M, M)$ et $M^* \otimes M$ sont munis de structures de g-modules, et l’application canonique de $M^* \otimes M$ dans $\mathcal{L}(M, M)$ est un isomorphisme de g-modules (prop. 4). Comme $1 \in \mathcal{L}(M, M)$ est évidemment un invariant (cf. exemple 1), l’élément correspondant u de $M^* \otimes M$ est un invariant. Si $(e_i)_{1 \leq i \leq n}$ est une base de M, et si $(e_i^*)_{1 \leq i \leq n}$ est la base duale, on a $u = \sum_{i=1}^n e_i^* \otimes e_i$.
+Soit M un K-module admettant une base finie. Si M est muni d’une structure de g-module, $\mathscr{L}(M, M)$ et $M^* \otimes M$ sont munis de structures de g-modules, et l’application canonique de $M^* \otimes M$ dans $\mathscr{L}(M, M)$ est un isomorphisme de g-modules (prop. 4). Comme $1 \in \mathscr{L}(M, M)$ est évidemment un invariant (cf. exemple 1), l’élément correspondant u de $M^* \otimes M$ est un invariant. Si $(e_i)_{1 \leq i \leq n}$ est une base de M, et si $(e_i^*)_{1 \leq i \leq n}$ est la base duale, on a $u = \sum_{i=1}^n e_i^* \otimes e_i$.
 
 #### Exemple 3 {#lie-i-s3-n5-exa-3 .statement}
 
-Soit M un g-module. Soit $\beta$ une forme bilinéaire sur M, et soit f l’élément correspondant de $\mathcal{L}(M, M^*)$. Pour que $\beta$ soit invariante, il faut et il suffit que f soit un homomorphisme de g-modules (prop. 4 et exemple 1). Supposons que K soit un corps, et que $\dim_K M < +\infty$. Une forme bilinéaire $\beta$ sur M invariante et non dégénérée définit un isomorphisme du g-module M sur le g-module $M^*$, donc un isomorphisme du g-module $M \otimes M$ sur le g-module $M^* \otimes M$. Ainsi, compte tenu de l’exemple 2, la donnée de $\beta$ définit canoniquement un élément invariant c dans le g-module $M \otimes M$, qu’on peut construire de la manière suivante : soit $(e_i)_{1 \leq i \leq n}$ une base de M, $(e_i')_{1 \leq i \leq n}$ la base de M telle que $\beta(e_i, e_j') = \delta_{ij}$; alors $c = \sum_{i=1}^n e_i \otimes e_i'$.
+Soit M un g-module. Soit $\beta$ une forme bilinéaire sur M, et soit f l’élément correspondant de $\mathscr{L}(M, M^*)$. Pour que $\beta$ soit invariante, il faut et il suffit que f soit un homomorphisme de g-modules (prop. 4 et exemple 1). Supposons que K soit un corps, et que $\dim_K M < +\infty$. Une forme bilinéaire $\beta$ sur M invariante et non dégénérée définit un isomorphisme du g-module M sur le g-module $M^*$, donc un isomorphisme du g-module $M \otimes M$ sur le g-module $M^* \otimes M$. Ainsi, compte tenu de l’exemple 2, la donnée de $\beta$ définit canoniquement un élément invariant c dans le g-module $M \otimes M$, qu’on peut construire de la manière suivante : soit $(e_i)_{1 \leq i \leq n}$ une base de M, $(e_i')_{1 \leq i \leq n}$ la base de M telle que $\beta(e_i, e_j') = \delta_{ij}$; alors $c = \sum_{i=1}^n e_i \otimes e_i'$.
 
 #### Proposition 5 {#lie-i-s3-prop-5 .statement}
 
@@ -339,7 +339,7 @@ En effet, soit $M'$ un sous-module de $M$ stable pour les $x_M$ et supplémentai
 
 ### 6. Formes bilinéaires invariantes
 
-Soit $g$ une algèbre de Lie sur $K$. La représentation adjointe de $g$ dans $g$ et la représentation nulle de $g$ dans $K$ définissent dans le $K$-module $N = \mathcal{L}(g, g; K)$ des formes bilinéaires sur $g$ une structure de $g$-module. On dit brièvement qu’une forme bilinéaire $\beta$ sur $g$ est *invariante* si elle est invariante pour la représentation $x \mapsto x_N$. D’après la formule (10), la condition nécessaire et suffisante pour qu’il en soit ainsi est que :
+Soit $g$ une algèbre de Lie sur $K$. La représentation adjointe de $g$ dans $g$ et la représentation nulle de $g$ dans $K$ définissent dans le $K$-module $N = \mathscr{L}(g, g; K)$ des formes bilinéaires sur $g$ une structure de $g$-module. On dit brièvement qu’une forme bilinéaire $\beta$ sur $g$ est *invariante* si elle est invariante pour la représentation $x \mapsto x_N$. D’après la formule (10), la condition nécessaire et suffisante pour qu’il en soit ainsi est que :
 
 $$
 \beta([x, y], z) = \beta(x, [y, z])
@@ -414,7 +414,7 @@ a) *On a* $\mathrm{Tr}\,(c_M) = n$.
 
 b) *Si M est simple, et si n n’est pas divisible par la caractéristique de K, $c_M$ est un automorphisme de M.*
 
-Reprenant les notations de la prop. 11, on a $\mathrm{Tr}\,(c_M) = \sum_{i=1}^n \mathrm{Tr}\,((e_i)_M(e_i')_M) = \sum_{i=1}^n \beta(e_i, e_i') = n$. Donc, si n n’est pas divisible par la caractéristique de K, $c_M \neq 0$. D’autre part, comme c appartient au centre de U, $c_M$ est permutable à tous les $x_M, x \in g$. Si de plus M est simple, $c_M$ est donc inversible dans $\mathcal{L}(M)$ (*Alg.*, chap. VIII, § 4, no 3, prop. 2).
+Reprenant les notations de la prop. 11, on a $\mathrm{Tr}\,(c_M) = \sum_{i=1}^n \mathrm{Tr}\,((e_i)_M(e_i')_M) = \sum_{i=1}^n \beta(e_i, e_i') = n$. Donc, si n n’est pas divisible par la caractéristique de K, $c_M \neq 0$. D’autre part, comme c appartient au centre de U, $c_M$ est permutable à tous les $x_M, x \in g$. Si de plus M est simple, $c_M$ est donc inversible dans $\mathscr{L}(M)$ (*Alg.*, chap. VIII, § 4, no 3, prop. 2).
 
 ### 8. *Extension de l’anneau de base*
 
@@ -434,9 +434,9 @@ La démonstration se fait en deux étapes.
 
 1° Supposons d’abord que $K_1$ soit une extension de $K$ de *degré fini* $n$. Soit $U$ l’algèbre enveloppante de $g$, de sorte que l’algèbre enveloppante de $g_{(K_1)}$ est $U_{(K_1)} = U \otimes_K K_1$ (§ 2, no 9). Étant isomorphes en tant que $U_{(K_1)}$-modules, $M_{(K_1)}$ et $N_{(K_1)}$ le sont *a fortiori* en tant que $U$-modules ; mais en tant que $U$-modules, ils sont respectivement isomorphes à $M^n$ et $N^n$. Or, $M$ et $N$ sont des $U$-modules de longueur finie ; $M$ (resp. $N$) est donc somme directe d’une famille $(P_i^{r_i})_{1 \leq i \leq p}$ (resp. $(Q_j^{s_j})_{1 \leq j \leq q}$) de sous-modules tels que les $P_i$ (resp. $Q_j$) soient indécomposables et deux $P_i$ (resp. $Q_j$) d’in-
 
-2° Cas général. Soient $P$ le g-module $\mathcal{L}_K(M, N)$ et $Q$ le sous-espace des invariants de $P$, c’est-à-dire l’ensemble des homomorphismes du g-module $M$ dans le g-module $N$. Dans le $g_{(K_1)}$-module $\mathcal{L}_{K_1}(M_{(K_1)}, N_{(K_1)}) = (\mathcal{L}_K(M, N))_{(K_1)}$, le sous-espace des invariants est $Q_{(K_1)}$. L’hypothèse que $M_{(K_1)}$ et $N_{(K_1)}$ sont isomorphes entraîne que $M$ et $N$ ont même dimension sur $K$, et qu’il existe dans $Q_{(K_1)}$ un élément $g$ qui est un isomorphisme de $M_{(K_1)}$ sur $N_{(K_1)}$. Soit $(f_1, \ldots, f_d)$ une base de $Q$ sur $K$. Choisissons d’autre part des bases de $M$ et $N$ sur $K$. Si $\lambda_k \in K_1$ pour $1 \leq k \leq d$, la matrice de $f = \sum_{k=1}^d \lambda_k f_k$ par rapport à ces bases a un déterminant qui est un polynôme $D(\lambda_1, \ldots, \lambda_d)$ à coefficients dans $K$. Lorsque $f = g$, ce déterminant est non nul, donc les coefficients de $D$ ne sont pas tous nuls. Par suite, si $\Omega$ est la clôture algébrique de $K$, il existe (puisque $\Omega$ est infini) des éléments $\mu_k \in \Omega$ ($1 \leq k \leq d$) tels que $D(\mu_1, \ldots, \mu_d) \neq 0$ (Alg., chap. IV, § 2, n° 5, prop. 8). Si $K_2$ est l’extension algébrique de $K$ engendrée par les $\mu_k$ ($1 \leq k \leq d$), on en conclut que $\sum_{k=1}^d \mu_k f_k$ est un isomorphisme de $M_{(K_2)}$ sur $N_{(K_2)}$; mais $K_2$ est de degré fini sur $K$ (Alg., chap. V, § 3, n° 2, prop. 5), donc $M$ et $N$ sont isomorphes en vertu de la première partie du raisonnement.
+2° Cas général. Soient $P$ le g-module $\mathscr{L}_K(M, N)$ et $Q$ le sous-espace des invariants de $P$, c’est-à-dire l’ensemble des homomorphismes du g-module $M$ dans le g-module $N$. Dans le $g_{(K_1)}$-module $\mathscr{L}_{K_1}(M_{(K_1)}, N_{(K_1)}) = (\mathscr{L}_K(M, N))_{(K_1)}$, le sous-espace des invariants est $Q_{(K_1)}$. L’hypothèse que $M_{(K_1)}$ et $N_{(K_1)}$ sont isomorphes entraîne que $M$ et $N$ ont même dimension sur $K$, et qu’il existe dans $Q_{(K_1)}$ un élément $g$ qui est un isomorphisme de $M_{(K_1)}$ sur $N_{(K_1)}$. Soit $(f_1, \ldots, f_d)$ une base de $Q$ sur $K$. Choisissons d’autre part des bases de $M$ et $N$ sur $K$. Si $\lambda_k \in K_1$ pour $1 \leq k \leq d$, la matrice de $f = \sum_{k=1}^d \lambda_k f_k$ par rapport à ces bases a un déterminant qui est un polynôme $D(\lambda_1, \ldots, \lambda_d)$ à coefficients dans $K$. Lorsque $f = g$, ce déterminant est non nul, donc les coefficients de $D$ ne sont pas tous nuls. Par suite, si $\Omega$ est la clôture algébrique de $K$, il existe (puisque $\Omega$ est infini) des éléments $\mu_k \in \Omega$ ($1 \leq k \leq d$) tels que $D(\mu_1, \ldots, \mu_d) \neq 0$ (Alg., chap. IV, § 2, n° 5, prop. 8). Si $K_2$ est l’extension algébrique de $K$ engendrée par les $\mu_k$ ($1 \leq k \leq d$), on en conclut que $\sum_{k=1}^d \mu_k f_k$ est un isomorphisme de $M_{(K_2)}$ sur $N_{(K_2)}$; mais $K_2$ est de degré fini sur $K$ (Alg., chap. V, § 3, n° 2, prop. 5), donc $M$ et $N$ sont isomorphes en vertu de la première partie du raisonnement.
 
-Soient à nouveau $K$, $K_1$ et $\varphi$ comme au début de ce n°. Soit $\rho$ une représentation de $g$ dans un $K$-module $M$ possédant une base finie $(x_1, \ldots, x_n)$. Alors, la forme bilinéaire sur $g_{(K_1)}$ associée à $\rho_{(K_1)}$ se déduit de la forme bilinéaire associée à $\rho$ par extension à $K_1$ de l’anneau de base (car, si $u \in \mathcal{L}_K(M)$, $u$ a même matrice par rapport à $(x_1, \ldots, x_n)$ que $u \otimes 1$ par rapport à $(x_1 \otimes 1, \ldots, x_n \otimes 1)$, donc $u$ et $u \otimes 1$ ont même trace). En particulier, si le $K$-module $g$ possède une base finie, la forme de Killing de $g_{(K_1)}$ se déduit de celle de $g$ par extension à $K_1$ de l’anneau de base.
+Soient à nouveau $K$, $K_1$ et $\varphi$ comme au début de ce n°. Soit $\rho$ une représentation de $g$ dans un $K$-module $M$ possédant une base finie $(x_1, \ldots, x_n)$. Alors, la forme bilinéaire sur $g_{(K_1)}$ associée à $\rho_{(K_1)}$ se déduit de la forme bilinéaire associée à $\rho$ par extension à $K_1$ de l’anneau de base (car, si $u \in \mathscr{L}_K(M)$, $u$ a même matrice par rapport à $(x_1, \ldots, x_n)$ que $u \otimes 1$ par rapport à $(x_1 \otimes 1, \ldots, x_n \otimes 1)$, donc $u$ et $u \otimes 1$ ont même trace). En particulier, si le $K$-module $g$ possède une base finie, la forme de Killing de $g_{(K_1)}$ se déduit de celle de $g$ par extension à $K_1$ de l’anneau de base.
 
 ## EXERCICES {#lie-i-s3-exercises}
 

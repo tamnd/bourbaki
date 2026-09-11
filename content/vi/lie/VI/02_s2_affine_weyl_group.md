@@ -32,7 +32,7 @@ subsections:
       pdf_page: 204
 statements: 18
 exercises: 5
-content_sha256: 66c7e7219debfd2933a45335232cab048eda797f38be1c0d3ae41d1811d40091
+content_sha256: 54b736a9addf03f48c18a5388f184d347b93851089e64495286c1c608a583dac
 translated_from: content/en/lie/VI/02_s2_affine_weyl_group.md
 source_content_sha256: 1978cc974387bf8b9e781b404ac2914ce724bcabf4fb37f1e7228f474742ca5e
 translation_model: gpt-5.4
@@ -277,16 +277,16 @@ Suy ra rằng nếu $\alpha_H$ là dạng tuyến tính trên $F$ sao cho
 $$
 H' = \{ x \in F \mid \langle \alpha_H, x \rangle = 1 \},
 $$
-thì tập hợp $\mathcal{H}_H$ là tập hợp các siêu phẳng $L_{\alpha_H, k} = \{ x \in F \mid \langle \alpha_H, x \rangle = k \}$ với $k \in \mathbf{Z}$,
+thì tập hợp $\mathscr{H}_H$ là tập hợp các siêu phẳng $L_{\alpha_H, k} = \{ x \in F \mid \langle \alpha_H, x \rangle = k \}$ với $k \in \mathbf{Z}$,
 và $\alpha_H$ và $-\alpha_H$ là những dạng tuyến tính duy nhất có tính chất này.
 
 Do đó, mệnh đề sẽ được chứng minh nếu ta chỉ ra rằng tập R gồm các phần tử của V có dạng $\pm \alpha_H$ là một hệ căn rút gọn trong V.
 
-a) Ta chứng minh điều kiện (RS_I): hiển nhiên là R hữu hạn (vì $\mathcal{H}_0$ là hữu hạn) và không chứa 0. Hơn nữa, R sinh ra V. Thật vậy, nếu $x \in F$ trực giao với R, thì $x \in H$ với mọi $H \in \mathcal{H}_0$ và phép tịnh tiến theo vectơ $x$ giao hoán với mọi phần tử của G. Vì G là cốt yếu, điều này kéo theo $x = 0$.
+a) Ta chứng minh điều kiện (RS_I): hiển nhiên là R hữu hạn (vì $\mathscr{H}_0$ là hữu hạn) và không chứa 0. Hơn nữa, R sinh ra V. Thật vậy, nếu $x \in F$ trực giao với R, thì $x \in H$ với mọi $H \in \mathscr{H}_0$ và phép tịnh tiến theo vectơ $x$ giao hoán với mọi phần tử của G. Vì G là cốt yếu, điều này kéo theo $x = 0$.
 
 b) Ta chứng minh (RS_{II}). Với $v \in V$ và $r \in \mathbf{R}$, đặt $L_{v, r} = \{ x \in F \mid \langle v, x \rangle = r \}$ như trên; nếu $\alpha \in R$, đặt $H_\alpha = L_{\alpha, 0}$, và gọi $s_\alpha$ là chuyển vị của $s_{H_\alpha}$. Tồn tại một phần tử duy nhất $\alpha^\sim \in F$ trực giao với $H_\alpha$ và sao cho $\langle \alpha^\sim, \alpha \rangle = 2$. Khi đó $s_{H_\alpha} = s_{\alpha^\sim, \alpha}$ và $s_\alpha = s_{\alpha, \alpha^\sim}$. Với $\beta \in R$,
 $$
-L_{s_\alpha(\beta), 1} = s_{H_\alpha}(L_{\beta, 1}) \in \mathcal{H}
+L_{s_\alpha(\beta), 1} = s_{H_\alpha}(L_{\beta, 1}) \in \mathscr{H}
 $$
 và tồn tại $\gamma \in R$ và $n \in \mathbf{N}^*$ sao cho $L_{s_\alpha(\beta), 1} = L_{\gamma, n}$. Khi đó
 $$
@@ -300,7 +300,7 @@ H'_\alpha = H_\alpha + (1/2)\alpha^\sim;
 $$
 vì phép tịnh tiến $t(\alpha^\sim)$ theo vectơ $\alpha^\sim$ là tích $s_{H'_\alpha} s_{H_\alpha}$ (Chương V, § 2, no. 4, Mệnh đề 5), nên nó thuộc T và $\alpha^\sim = t(\alpha^\sim)(0)$ là một điểm đặc biệt đối với G. Do đó, với mọi $\beta \in R$, tồn tại một siêu phẳng $L_{\beta, k}$ đi qua $\alpha^\sim$, với $k$ là một số nguyên, điều này cho thấy rằng $\langle \beta, \alpha^\sim \rangle \in \mathbf{Z}$, và chứng minh (RS_{III}).
 
-d) Cuối cùng, hiển nhiên là R là giảm được, vì nếu $H, H' \in \mathcal{H}_0, H \neq H'$, thì các dạng tuyến tính $\alpha_H$ và $\alpha_{H'}$ không tỉ lệ.
+d) Cuối cùng, hiển nhiên là R là giảm được, vì nếu $H, H' \in \mathscr{H}_0, H \neq H'$, thì các dạng tuyến tính $\alpha_H$ và $\alpha_{H'}$ không tỉ lệ.
 
 #### Nhận xét 1 {#lie-vi-s2-n5-rem-1 .statement}
 

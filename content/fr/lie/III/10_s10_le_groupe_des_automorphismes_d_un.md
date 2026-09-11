@@ -24,7 +24,7 @@ subsections:
       pdf_page: 253
 statements: 13
 exercises: 4
-content_sha256: e7c2ad551ad2ab17c046cd927dbba4140f5587e9127b92ca59cda57c6f04b851
+content_sha256: e05ce6a992c9c4c6b8d8929b30b1519a691865adddfabdefcdc1b0923b44b93e
 ---
 
 ## § 10. Le groupe des automorphismes d’un groupe de Lie
@@ -96,9 +96,9 @@ Pour $v \in V$, $g_1 \in G$, $g_2 \in G$, on a $v(g_1 g_2) = (vg_1)(vg_2)$. Donc
 *Soient G un groupe de Lie réel ou complexe, $\alpha$ un automorphisme infinitésimal de G. Il existe une loi d’opération analytique $(\lambda, g) \mapsto \varphi_\lambda(g)$ de K dans G possédant les propriétés suivantes:
 1) si D est la loi d’opération infinitésimale associée, on a $D(1) = \alpha;$
 2) pour tout $\lambda \in K$, on a $\varphi_\lambda \in \mathrm{Aut}\ G$.
-a) Pour tout $\mu > 0$, soit $K_\mu$ la boule ouverte de centre 0 et de rayon $\mu$ dans K. Pour tout $g \in G$, soit $\mathcal{F}_g$ l’ensemble des courbes intégrales analytiques $f$ de $\alpha$ définies dans une boule $K_\mu$, et telles que $f(0) = g$. D’après VAR, R, 9.1.3 et 9.1.5, $\mathcal{F}_g$ est non vide, et deux éléments de $\mathcal{F}_g$ coïncident dans l’intersection de leurs domaines de définition; soit $\mu(g)$ la borne supérieure des nombres $\mu$ tels qu’il existe un élément de $\mathcal{F}_g$ défini dans $K_\mu$; il existe un élément unique de $\mathcal{F}_g$ défini dans $K_{\mu(g)}$; nous le noterons $f_g$.*
+a) Pour tout $\mu > 0$, soit $K_\mu$ la boule ouverte de centre 0 et de rayon $\mu$ dans K. Pour tout $g \in G$, soit $\mathscr{F}_g$ l’ensemble des courbes intégrales analytiques $f$ de $\alpha$ définies dans une boule $K_\mu$, et telles que $f(0) = g$. D’après VAR, R, 9.1.3 et 9.1.5, $\mathscr{F}_g$ est non vide, et deux éléments de $\mathscr{F}_g$ coïncident dans l’intersection de leurs domaines de définition; soit $\mu(g)$ la borne supérieure des nombres $\mu$ tels qu’il existe un élément de $\mathscr{F}_g$ défini dans $K_\mu$; il existe un élément unique de $\mathscr{F}_g$ défini dans $K_{\mu(g)}$; nous le noterons $f_g$.*
 
-b) Soient $g_1, g_2$ dans $G$, $f_1 \in \mathcal{F}_{g_1}, f_2 \in \mathcal{F}_{g_2}$, avec $f_1$ et $f_2$ définies dans une même boule $K_\mu$. Alors $f_1 f_2 : K_\mu \to G$ est analytique, et $(f_1 f_2)(0) = g_1 g_2$. D’autre part, pour tout $\lambda \in K_\mu$, on a
+b) Soient $g_1, g_2$ dans $G$, $f_1 \in \mathscr{F}_{g_1}, f_2 \in \mathscr{F}_{g_2}$, avec $f_1$ et $f_2$ définies dans une même boule $K_\mu$. Alors $f_1 f_2 : K_\mu \to G$ est analytique, et $(f_1 f_2)(0) = g_1 g_2$. D’autre part, pour tout $\lambda \in K_\mu$, on a
 $$
 (T_\lambda(f_1 f_2))1 = (T_\lambda f_1)1 \cdot f_2(\lambda) + f_1(\lambda) \cdot (T_\lambda f_2)1 \quad (§ 2, \text{prop. 7})
 $$
@@ -108,7 +108,7 @@ $$
 $$
 = \alpha((f_1 f_2)(\lambda)) \tag{\text{lemme 1}}
 $$
-donc $f_1 f_2 \in \mathcal{F}_{g_1 g_2}$. Cela prouve que $\mu(g_1 g_2) \geq \inf (\mu(g_1), \mu(g_2))$.
+donc $f_1 f_2 \in \mathscr{F}_{g_1 g_2}$. Cela prouve que $\mu(g_1 g_2) \geq \inf (\mu(g_1), \mu(g_2))$.
 
 c) D’après VAR, R, 9.1.4 et 9.1.5, il existe un voisinage $V$ de $e$ dans $G$ tel que $\sigma = \inf_{g \in V} \mu(g) > 0$. Soient $h \in G$ et $C$ sa composante connexe. Pour tout $h' \in C$, on a $\mu(h') \geq \inf (\sigma, \mu(h)) > 0$ d’après b). D’autre part, les fonctions $f_{h'}$, pour $h' \in C$, prennent leurs valeurs dans $C$. D’après VAR, R 9.1.4 et 9.1.5, on a $\mu = +\infty$ dans $C$, et finalement $\mu = +\infty$ dans $G$. Posons alors $f_g(\lambda) = \varphi_\lambda(g)$ pour tout $g \in G$ et tout $\lambda \in K$. D’après VAR, R, 9.1.4 et 9.1.5, l’application $(\lambda, g) \mapsto \varphi_\lambda(g)$ est une loi d’opération analytique de $K$ dans $G$. Il est clair que, si $D$ est la loi d’opération infinitésimale associée, on a $D(1) = \alpha$. D’après b), on a
 $$
@@ -177,7 +177,7 @@ L(p \circ \eta(w)) = L(\eta(w)) = L(w) = L(w \circ p)
 $$
 donc $p \circ \eta(w) = w \circ p$ et par suite $\eta(w) \in \mathrm{Aut}(H, N)$. Il est clair que l’application $\eta$ de $\mathrm{Aut}\ G$ dans $\mathrm{Aut}(H, N)$ est un homomorphisme injectif. Cet homomorphisme est surjectif parce que $p : H \to G$ est une submersion. C.Q.F.D.
 
-Soient G un groupe localement compact, $\Gamma$ le groupe des automorphismes de G. Rappelons qu’on a défini sur $\Gamma$ la topologie $\mathcal{T}_\beta$ (TG, X, § 3, no 5). C’est la topologie la moins fine rendant continues les applications $v \mapsto v$ et $v \mapsto v^{-1}$ de $\Gamma$ dans $\mathcal{C}_c(G;G)$ (espace des applications continues de G dans G muni de la topologie de la convergence compacte). La topologie $\mathcal{T}_\beta$ est compatible avec la structure de groupe de $\Gamma$ (*loc. cit.*). Pour toute partie compacte L de G et tout voisinage U de $e_G$ dans G, soit $N(L, U)$ l’ensemble des $\varphi \in \Gamma$ tels que $\varphi(g) \in gU$ et $\varphi^{-1}(g) \in gU$ pour tout $g \in L$; alors les $N(L, U)$ forment un système fondamental de voisinages de $e_\Gamma$. Si G est engendré par une partie compacte C, la topologie $\mathcal{T}_\beta$ est aussi la topologie la moins fine pour laquelle les applications $v \mapsto v|C$ et $v \mapsto v^{-1}|C$ de $\Gamma$ dans $\mathcal{C}_u(C;G)$ soient continues (car toute partie compacte de G est contenue dans $(C \cup C^{-1})^n$ pour n assez grand). Si K est localement compact et si V est un espace vectoriel de dimension finie sur K, la topologie $\mathcal{T}_\beta$ sur $\mathbf{GL}(V)$ n’est autre que la topologie usuelle.
+Soient G un groupe localement compact, $\Gamma$ le groupe des automorphismes de G. Rappelons qu’on a défini sur $\Gamma$ la topologie $\mathscr{T}_\beta$ (TG, X, § 3, no 5). C’est la topologie la moins fine rendant continues les applications $v \mapsto v$ et $v \mapsto v^{-1}$ de $\Gamma$ dans $\mathscr{C}_c(G;G)$ (espace des applications continues de G dans G muni de la topologie de la convergence compacte). La topologie $\mathscr{T}_\beta$ est compatible avec la structure de groupe de $\Gamma$ (*loc. cit.*). Pour toute partie compacte L de G et tout voisinage U de $e_G$ dans G, soit $N(L, U)$ l’ensemble des $\varphi \in \Gamma$ tels que $\varphi(g) \in gU$ et $\varphi^{-1}(g) \in gU$ pour tout $g \in L$; alors les $N(L, U)$ forment un système fondamental de voisinages de $e_\Gamma$. Si G est engendré par une partie compacte C, la topologie $\mathscr{T}_\beta$ est aussi la topologie la moins fine pour laquelle les applications $v \mapsto v|C$ et $v \mapsto v^{-1}|C$ de $\Gamma$ dans $\mathscr{C}_u(C;G)$ soient continues (car toute partie compacte de G est contenue dans $(C \cup C^{-1})^n$ pour n assez grand). Si K est localement compact et si V est un espace vectoriel de dimension finie sur K, la topologie $\mathscr{T}_\beta$ sur $\mathbf{GL}(V)$ n’est autre que la topologie usuelle.
 
 #### Théorème 1 {#lie-iii-s10-thm-1 .statement}
 
@@ -189,7 +189,7 @@ Soient G un groupe localement compact, $\Gamma$ le groupe des automorphismes de 
 (iii) *Le morphisme $\varphi : u \mapsto L(u)$ de Aut G dans Aut L(G) est analytique.*
 (iv) *Si G est connexe, $\varphi$ est un isomorphisme du groupe de Lie Aut G sur un sous-groupe de Lie de Aut L(G); ce sous-groupe de Lie est égal à Aut L(G) si G est simplement connexe.*
 (v) *Soit a l’ensemble des automorphismes infinitésimaux de G. Alors a est une algèbre de Lie de champs de vecteurs, et la loi d’opération infinitésimale associée à l’application $(u, g) \mapsto u(g)$ de $(\mathrm{Aut}\ G) \times G$ dans G est un isomorphisme de $L(\mathrm{Aut}\ G)$ sur a.*
-(vi) *La topologie du groupe de Lie Aut G est la topologie $\mathcal{T}_\beta$*.
+(vi) *La topologie du groupe de Lie Aut G est la topologie $\mathscr{T}_\beta$*.
 a) L’unicité de la structure analytique envisagée dans (i) est évidente.
 b) Supposons G connexe. Soient H le revêtement universel de G, $p$ le morphisme canonique de H sur G, et $N = \mathrm{Ker}\ p$. Introduisons les notations $\theta, \eta$ et
 
@@ -248,9 +248,9 @@ $$
 \mathrm{Id}_G|(C \cup \{x_1\} \cup \ldots \cup \{x_n\}).
 $$
 
-La topologie de Aut_1 G est donc la topologie $\mathcal{T}_\beta$.
+La topologie de Aut_1 G est donc la topologie $\mathscr{T}_\beta$.
 
-Il est clair que Aut_1 G est ouvert dans Aut G pour la topologie $\mathcal{T}_\beta$. Il existe sur Aut G une structure de groupe de Lie compatible avec cette topologie et induisant sur Aut_1 G la structure précédemment construite (§ 8, n° 1, cor. 2 du th. 1). Le fait que le groupe de Lie Aut G possède les propriétés du théorème résulte des propriétés correspondantes de Aut_1 G.
+Il est clair que Aut_1 G est ouvert dans Aut G pour la topologie $\mathscr{T}_\beta$. Il existe sur Aut G une structure de groupe de Lie compatible avec cette topologie et induisant sur Aut_1 G la structure précédemment construite (§ 8, n° 1, cor. 2 du th. 1). Le fait que le groupe de Lie Aut G possède les propriétés du théorème résulte des propriétés correspondantes de Aut_1 G.
 
 e) Dans la partie e) de la démonstration, on suppose que K = C. D’après c) et le th. 2 du § 8, n° 2, il existe sur Aut_1 G une structure de groupe de Lie réel telle que $\zeta$ soit un isomorphisme de Aut_1 G sur un sous-groupe de Lie réel de P.
 
@@ -266,11 +266,11 @@ Enfin, posons $f(\alpha) = ((\alpha_1, \ldots, \alpha_n), \alpha_0) \in \mathrm{
 
 D’autre part, il est clair que $\mathrm{L}(\zeta) = f \circ D$. Donc $\mathrm{L}(\zeta)(\mathrm{L}(\mathrm{Aut}_1 G)) = f(\alpha)$ est un sous-espace vectoriel complexe de $\mathrm{L}(P)$. D’après la prop. 2 du § 4, n° 2, $\zeta(\mathrm{Aut}_1 G)$ est un sous-groupe de Lie complexe de P, et on peut alors procéder exactement comme dans d) : on transporte la structure de groupe de Lie complexe de $\zeta(\mathrm{Aut}_1 G)$ à $\mathrm{Aut}_1 G$ grâce à $\zeta^{-1}$, et on voit comme dans d) que $\mathrm{Aut}_1 G$ possède les propriétés analogues aux propriétés (i), (ii), (iii), (v), (vi) du théorème.
 
-Il est clair que $\mathrm{Aut}_1 G$ est ouvert dans Aut G pour la topologie $\mathcal{T}_\beta$. Soit $w \in \mathrm{Aut}\ G$. Soit $\sigma$ l’automorphisme $v \mapsto wvw^{-1}$ de $\mathrm{Aut}_1 G$. Il est analytique réel (§ 8, n° 1, th. 1), $\mathrm{L}(\sigma)$ est un $\mathbf{R}$-automorphisme de $\mathrm{L}(\mathrm{Aut}_1 G)$, et $D \circ \mathrm{L}(\mathrm{Aut}_1 G) \circ D^{-1}$ est un $\mathbf{R}$-automorphisme de $\alpha$. Cet automorphisme est aussi l’automorphisme de $\alpha$ déduit de $w$ par transport de structure; comme $w$ est K-analytique, on voit que $\mathrm{L}(\sigma)$ est K-linéaire. Donc $\sigma$ est K-analytique (§ 3, n° 8, prop. 32). D’après le § 1, n° 9, prop. 18, il existe sur Aut G une structure de K-groupe de Lie et une seule telle que $\mathrm{Aut}_1 G$ soit un sous-groupe de Lie ouvert de Aut G. Le fait que cette structure possède les propriétés du théorème résulte des propriétés correspondantes de $\mathrm{Aut}_1 G$.
+Il est clair que $\mathrm{Aut}_1 G$ est ouvert dans Aut G pour la topologie $\mathscr{T}_\beta$. Soit $w \in \mathrm{Aut}\ G$. Soit $\sigma$ l’automorphisme $v \mapsto wvw^{-1}$ de $\mathrm{Aut}_1 G$. Il est analytique réel (§ 8, n° 1, th. 1), $\mathrm{L}(\sigma)$ est un $\mathbf{R}$-automorphisme de $\mathrm{L}(\mathrm{Aut}_1 G)$, et $D \circ \mathrm{L}(\mathrm{Aut}_1 G) \circ D^{-1}$ est un $\mathbf{R}$-automorphisme de $\alpha$. Cet automorphisme est aussi l’automorphisme de $\alpha$ déduit de $w$ par transport de structure; comme $w$ est K-analytique, on voit que $\mathrm{L}(\sigma)$ est K-linéaire. Donc $\sigma$ est K-analytique (§ 3, n° 8, prop. 32). D’après le § 1, n° 9, prop. 18, il existe sur Aut G une structure de K-groupe de Lie et une seule telle que $\mathrm{Aut}_1 G$ soit un sous-groupe de Lie ouvert de Aut G. Le fait que cette structure possède les propriétés du théorème résulte des propriétés correspondantes de $\mathrm{Aut}_1 G$.
 
 #### Corollaire 1 {#lie-iii-s10-thm-1-cor-1 .statement}
 
-Soient G un groupe de Lie réel de dimension finie, $G_0$ sa composante neutre. On suppose que G est engendré par $G_0$ et par un nombre fini d’éléments. Alors Aut G, muni de la topologie $\mathcal{T}_\beta$, est un groupe de Lie réel de dimension finie.
+Soient G un groupe de Lie réel de dimension finie, $G_0$ sa composante neutre. On suppose que G est engendré par $G_0$ et par un nombre fini d’éléments. Alors Aut G, muni de la topologie $\mathscr{T}_\beta$, est un groupe de Lie réel de dimension finie.
 
 #### Corollaire 2 {#lie-iii-s10-thm-1-cor-2 .statement}
 

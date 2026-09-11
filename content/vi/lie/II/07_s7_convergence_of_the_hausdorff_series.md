@@ -24,7 +24,7 @@ subsections:
       pdf_page: 187
 statements: 4
 exercises: 1
-content_sha256: 1f3a9f68c7cd0f159eaffd1d67d2ed4715619edf6a00ea06d754a4657ecc48c0
+content_sha256: 88918921eba0e546d5d0606b4b6722543447e3644d5c0ca81efbbb5920b59aee
 translated_from: content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md
 source_content_sha256: 0c070915f018ae2f28d7ba10eba8e260e6b24a97ffbf46012a1958fa6e91eda0
 translation_model: gpt-5.4
@@ -36,8 +36,8 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## § 7. SỰ HỘI TỤ CỦA CHUỖI HAUSDORFF (TRƯỜNG HỢP THỰC HOẶC PHỨC)
 
-Trong đoạn này ta giả sử rằng $K$ là một trong các trường $\mathbf{R}$ hoặc $\mathbf{C}$ với trị tuyệt đối thông thường của nó. Nhắc lại rằng một đại số chuẩn hóa được trên $K$ là một đại số trên $K$ (không nhất thiết kết hợp) với một tôpô $\mathcal{T}$ có các tính chất sau:
-(1) $\mathcal{T}$ có thể được xác định bởi một chuẩn:
+Trong đoạn này ta giả sử rằng $K$ là một trong các trường $\mathbf{R}$ hoặc $\mathbf{C}$ với trị tuyệt đối thông thường của nó. Nhắc lại rằng một đại số chuẩn hóa được trên $K$ là một đại số trên $K$ (không nhất thiết kết hợp) với một tôpô $\mathscr{T}$ có các tính chất sau:
+(1) $\mathscr{T}$ có thể được xác định bởi một chuẩn:
 (2) ánh xạ $(x, y) \mapsto xy$ từ $A \times A$ vào $A$ là liên tục.
 Một đại số định chuẩn trên $K$ là một đại số $A$ trên $K$ với một chuẩn sao cho $\|xy\| \leq \|x\|\ \|y\|$ với mọi $x, y$ trong $A$.
 Ta ký hiệu bởi $g$ một đại số Lie chuẩn hóa được đầy đủ trên $K$. Ta chọn một chuẩn trên $g$ và một số $M > 0$ sao cho

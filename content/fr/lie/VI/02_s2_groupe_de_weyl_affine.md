@@ -32,7 +32,7 @@ subsections:
       pdf_page: 177
 statements: 17
 exercises: 5
-content_sha256: 71513a38f654c602c8a0ba71826e62fad8fc82e47588e08d18d9d1d38bac9ee5
+content_sha256: 54657bea70e567584af33764e5b954ae4fe2f0089bdb68124cfebe45d557cc87
 ---
 
 ## § 2. Groupe de Weyl affine
@@ -257,7 +257,7 @@ La proposition résulte alors de la comparaison des formules (5), (6) et (7).
 
 #### Proposition 8 {#lie-vi-s2-prop-8 .statement}
 
-*Soit F un espace hilbertien réel de dimension finie l. Soient $\mathcal{H}$ un ensemble d’hyperplans affines de F et G le groupe engendré par les réflexions orthogonales $s_H$ par rapport aux hyperplans $H \in \mathcal{H}$. On suppose que les conditions du chap. V, § 3 sont vérifiées (i.e. que $g(H) \in \mathcal{H}$ pour tout $H \in \mathcal{H}$ et $g \in G$, et que G opère proprement dans F). On suppose de plus que 0 est point spécial pour G et que le groupe T des translations appartenant à G est de rang l. Il existe alors un système de racines réduit R et un seul dans $V = F^*$ tel que l’isomorphisme canonique de F sur $V^*$ transforme G en le groupe de Weyl affine $W_a$ de R.*
+*Soit F un espace hilbertien réel de dimension finie l. Soient $\mathscr{H}$ un ensemble d’hyperplans affines de F et G le groupe engendré par les réflexions orthogonales $s_H$ par rapport aux hyperplans $H \in \mathscr{H}$. On suppose que les conditions du chap. V, § 3 sont vérifiées (i.e. que $g(H) \in \mathscr{H}$ pour tout $H \in \mathscr{H}$ et $g \in G$, et que G opère proprement dans F). On suppose de plus que 0 est point spécial pour G et que le groupe T des translations appartenant à G est de rang l. Il existe alors un système de racines réduit R et un seul dans $V = F^*$ tel que l’isomorphisme canonique de F sur $V^*$ transforme G en le groupe de Weyl affine $W_a$ de R.*
 
 Remarquons tout d’abord que l’hypothèse faite sur T entraîne que G est essentiel : sinon, l’espace affine F se décomposerait en produit $F_0 \times F_1$, avec $\dim F_1 < l$, le groupe G s’identifiant à un groupe de déplacements opérant proprement dans $F_1$ (chap. V, § 3, no 8, prop. 6), et T ne serait pas de rang $l$.
 

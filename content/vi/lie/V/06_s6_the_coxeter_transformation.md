@@ -20,9 +20,9 @@ subsections:
       pdf_page: 135
 statements: 14
 exercises: 4
-content_sha256: 37392514c1bb452e0ae4cef0ff6ce846c9068f04383b7ed608a2c7204b5820b6
+content_sha256: ffa7b042d4efd7703c7535ce155922e60e99eab54c906bf554532bce572a6c77
 translated_from: content/en/lie/V/06_s6_the_coxeter_transformation.md
-source_content_sha256: 9b7480bf92e6aa4c08aa537c371a51623d8994ba9bf8ab23028e0b6f23ae58b4
+source_content_sha256: cab0e0d8377d2232e2f513f553de240c04da93a18b0865f0c5a3c7d31c45afd4
 translation_model: gpt-5.4, copied
 translation_run: translate-vi-1ef9ec52
 glossary_version: 34
@@ -50,9 +50,9 @@ Vì W hoán vị các buồng được xác định bởi $\mathfrak{H}$ một c
 
 #### Bổ đề 1 {#lie-v-s6-lem-1 .statement}
 
-*Cho X là một rừng hữu hạn, và* $x \mapsto g_x$ *một ánh xạ từ X vào một nhóm* $\Gamma$ *sao cho* $g_x$ *và* $g_y$ *liên hợp với nhau mỗi khi* $x$ *và* $y$ *không được nối với nhau trong X. Gọi* $\mathcal{T}$ *là tập hợp các thứ tự toàn phần trên X. Với mọi* $\xi \in \mathcal{T}$, *gọi* $p_\xi$ *là tích trong* $\Gamma$ *của dãy* $(g_x)_{x \in X}$ *được xác định bởi* $\xi$. *Khi đó các phần tử* $p_\xi$ *liên hợp với nhau trong* $\Gamma$.*
+*Cho X là một rừng hữu hạn, và* $x \mapsto g_x$ *một ánh xạ từ X vào một nhóm* $\Gamma$ *sao cho* $g_x$ *và* $g_y$ *liên hợp với nhau mỗi khi* $x$ *và* $y$ *không được nối với nhau trong X. Gọi* $\mathscr{T}$ *là tập hợp các thứ tự toàn phần trên X. Với mọi* $\xi \in \mathscr{T}$, *gọi* $p_\xi$ *là tích trong* $\Gamma$ *của dãy* $(g_x)_{x \in X}$ *được xác định bởi* $\xi$. *Khi đó các phần tử* $p_\xi$ *liên hợp với nhau trong* $\Gamma$.*
 
-1) Ta tiến hành bằng quy nạp theo $n = \mathrm{Card}\, X$. Trường hợp $n = 1$ là ngay lập tức, vậy giả sử rằng $n \geqslant 2$. Tồn tại trong $X$ một đỉnh tận cùng $a$ (Chương IV, Phụ lục, no. 3, Mệnh đề 2). Gọi $b \in X - \{a\}$ là một đỉnh nối với $a$ nếu có một đỉnh như vậy; nếu $a$ không nối với đỉnh nào trong $X - \{a\}$, lấy $b$ trong $X - \{a\}$ là tùy ý. Trong mọi trường hợp, $g_a$ giao hoán với $g_x$ với $x \neq b$. Gọi $\eta \in \mathcal{T}$ sao cho $a$ là phần tử lớn nhất của $X$ và $b$ là phần tử lớn nhất của $X - \{a\}$; ta lấy $\xi \in \mathcal{T}$ và chứng minh rằng $p_{\xi}, p_{\eta}$ là liên hợp.
+1) Ta tiến hành bằng quy nạp theo $n = \mathrm{Card}\, X$. Trường hợp $n = 1$ là ngay lập tức, vậy giả sử rằng $n \geqslant 2$. Tồn tại trong $X$ một đỉnh tận cùng $a$ (Chương IV, Phụ lục, no. 3, Mệnh đề 2). Gọi $b \in X - \{a\}$ là một đỉnh nối với $a$ nếu có một đỉnh như vậy; nếu $a$ không nối với đỉnh nào trong $X - \{a\}$, lấy $b$ trong $X - \{a\}$ là tùy ý. Trong mọi trường hợp, $g_a$ giao hoán với $g_x$ với $x \neq b$. Gọi $\eta \in \mathscr{T}$ sao cho $a$ là phần tử lớn nhất của $X$ và $b$ là phần tử lớn nhất của $X - \{a\}$; ta lấy $\xi \in \mathscr{T}$ và chứng minh rằng $p_{\xi}, p_{\eta}$ là liên hợp.
 
 2) Trước hết giả sử rằng, đối với $\xi$, $a$ là phần tử lớn nhất của $X$ và $b$ là phần tử lớn nhất của $X - \{a\}$. Gọi $X'$ là đồ thị con đầy đủ $X - \{a\}$, là một rừng. Định nghĩa một ánh xạ $x \mapsto g'_x$ từ $X'$ vào $\Gamma$ bằng cách đặt $g'_x = g_x$ nếu $x \neq b$, $g'_b = g_bg_a$. Gọi $\xi', \eta'$ là các hạn chế của $\xi, \eta$ trên $X'$. Giả thiết quy nạp áp dụng được, nên $p_{\xi'}$ và $p_{\eta'}$ liên hợp. Nhưng hiển nhiên $p_{\xi'} = p_{\xi}, p_{\eta'} = p_{\eta}$, chứng minh bổ đề trong trường hợp này.
 

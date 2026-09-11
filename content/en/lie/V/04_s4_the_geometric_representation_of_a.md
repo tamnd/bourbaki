@@ -48,7 +48,7 @@ subsections:
       pdf_page: 118
 statements: 25
 exercises: 20
-content_sha256: 6e1478f248737bab9dfca41f060e0d9ef44955ad60a23fd4409330f32d085486
+content_sha256: 14e738865d956d1e583b25991144d699fa66c026eeb11b750ee6d49e8ae798fe
 ---
 
 ## § 4. GEOMETRIC REPRESENTATION OF A COXETER GROUP
@@ -381,7 +381,7 @@ Consequently, the relation $C_{X'} \cap w(C_X) \neq \varnothing$ implies on the 
 
 *Let $X$ be a subset of $S$ and $x^*$ an element of $C_X$. The stabiliser of $x^*$ in $W$ is $W_X$.*
 
-Now let $U$ be the union of the $w(\overline{C})$ for $w \in W$, and let $\mathcal{F}$ be the set of subsets of $U$ of the form $w(C_X)$, with $X \subset S$ and $w \in W$. By the above, $\mathcal{F}$ is a *partition* of $U$.
+Now let $U$ be the union of the $w(\overline{C})$ for $w \in W$, and let $\mathscr{F}$ be the set of subsets of $U$ of the form $w(C_X)$, with $X \subset S$ and $w \in W$. By the above, $\mathscr{F}$ is a *partition* of $U$.
 
 #### Proposition 6 {#lie-v-s4-prop-6 .statement}
 

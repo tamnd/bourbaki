@@ -20,7 +20,7 @@ subsections:
       pdf_page: 135
 statements: 14
 exercises: 4
-content_sha256: 9b7480bf92e6aa4c08aa537c371a51623d8994ba9bf8ab23028e0b6f23ae58b4
+content_sha256: cab0e0d8377d2232e2f513f553de240c04da93a18b0865f0c5a3c7d31c45afd4
 ---
 
 ## § 6. COXETER TRANSFORMATION
@@ -43,9 +43,9 @@ Since W permutes the chambers determined by $\mathfrak{H}$ transitively (§ 3, n
 
 #### Lemma 1 {#lie-v-s6-lem-1 .statement}
 
-*Let X be a finite forest, and* $x \mapsto g_x$ *a map from X to a group* $\Gamma$ *such that* $g_x$ *and* $g_y$ *are conjugate whenever* $x$ *and* $y$ *are not linked in X. Let* $\mathcal{T}$ *be the set of total orderings on X. For all* $\xi \in \mathcal{T}$, *let* $p_\xi$ *be the product in* $\Gamma$ *of the sequence* $(g_x)_{x \in X}$ *defined by* $\xi$. *Then the elements* $p_\xi$ *are conjugate in* $\Gamma$.
+*Let X be a finite forest, and* $x \mapsto g_x$ *a map from X to a group* $\Gamma$ *such that* $g_x$ *and* $g_y$ *are conjugate whenever* $x$ *and* $y$ *are not linked in X. Let* $\mathscr{T}$ *be the set of total orderings on X. For all* $\xi \in \mathscr{T}$, *let* $p_\xi$ *be the product in* $\Gamma$ *of the sequence* $(g_x)_{x \in X}$ *defined by* $\xi$. *Then the elements* $p_\xi$ *are conjugate in* $\Gamma$.
 
-1) We proceed by induction on $n = \mathrm{Card}\, X$. The case $n = 1$ is immediate, so assume that $n \geqslant 2$. There exists in $X$ a terminal vertex $a$ (Chap. IV, Appendix, no. 3, Prop. 2). Let $b \in X - \{a\}$ be a vertex linked to $a$ if one exists; if $a$ is not linked to any vertex in $X - \{a\}$, let $b$ in $X - \{a\}$ be arbitrary. In all cases, $g_a$ commutes with $g_x$ for $x \neq b$. Let $\eta \in \mathcal{T}$ be such that $a$ is the largest element of $X$ and $b$ the largest element of $X - \{a\}$; we let $\xi \in \mathcal{T}$ and prove that $p_{\xi}, p_{\eta}$ are conjugate.
+1) We proceed by induction on $n = \mathrm{Card}\, X$. The case $n = 1$ is immediate, so assume that $n \geqslant 2$. There exists in $X$ a terminal vertex $a$ (Chap. IV, Appendix, no. 3, Prop. 2). Let $b \in X - \{a\}$ be a vertex linked to $a$ if one exists; if $a$ is not linked to any vertex in $X - \{a\}$, let $b$ in $X - \{a\}$ be arbitrary. In all cases, $g_a$ commutes with $g_x$ for $x \neq b$. Let $\eta \in \mathscr{T}$ be such that $a$ is the largest element of $X$ and $b$ the largest element of $X - \{a\}$; we let $\xi \in \mathscr{T}$ and prove that $p_{\xi}, p_{\eta}$ are conjugate.
 
 2) Assume first that, for $\xi$, $a$ is the largest element of $X$ and $b$ the largest element of $X - \{a\}$. Let $X'$ be the full subgraph $X - \{a\}$, which is a forest. Define a map $x \mapsto g'_x$ from $X'$ to $\Gamma$ by putting $g'_x = g_x$ if $x \neq b$, $g'_b = g_bg_a$. Let $\xi', \eta'$ be the restrictions of $\xi, \eta$ to $X'$. The induction hypothesis applies, so $p_{\xi'}$ and $p_{\eta'}$ are conjugate. But it is clear that $p_{\xi'} = p_{\xi}, p_{\eta'} = p_{\eta}$, proving the lemma in this case.
 

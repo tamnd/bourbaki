@@ -53,7 +53,7 @@ subsections:
       pdf_page: 44
 statements: 56
 exercises: 22
-content_sha256: 6c8ce2a468fd123c4b2deff92ec07f306040ddb61732bf78892a91d9081f250b
+content_sha256: 2944be06c7f371cf6243ca37ca29ce77da6224e13d1f14271d3cc494d9962fed
 ---
 
 ## § 4. SYSTÈME DE RACINES ASSOCIÉ À UN GROUPE COMPACT
@@ -285,8 +285,8 @@ Il existe alors un unique isomorphisme $\rho_\alpha : U \to \mathrm{SO}(K(\alpha
 
 $$
 \begin{pmatrix}
-\mathcal{R}(t^\alpha) & -\mathcal{I}(t^\alpha) \\
-\mathcal{I}(t^\alpha) & \mathcal{R}(t^\alpha)
+\mathscr{R}(t^\alpha) & -\mathscr{I}(t^\alpha) \\
+\mathscr{I}(t^\alpha) & \mathscr{R}(t^\alpha)
 \end{pmatrix},
 $$
 
@@ -345,7 +345,7 @@ $$
 0 \to \mathrm{Ker}\ \alpha \to T \xrightarrow{\alpha} U \to 0,
 $$
 
-il résulte que $r\beta$ est un multiple de $\alpha$; d’après VIII, $\S$ 2, no 2, th. 2, (i), cela implique $\beta \in \{ \alpha, -\alpha \}$. On a donc $R(Z'_\alpha, T) = \{ \alpha, -\alpha \}$. Il s’ensuit (lemme 2) que le centre de $Z'_\alpha$ est Ker $\alpha$, donc que $Z'_\alpha = Z_\alpha$. Enfin, d’après le cor. 1 à la prop. 4 ($\S$ 1, no 4), $D(Z_\alpha)$ est un sous-groupe fermé connexe semi-simple de $G$; il est de rang 1 puisque $\mathcal{D}L(Z_\alpha)_{(C)} = g^\alpha + g^{-\alpha} + [g^\alpha, g^{-\alpha}]$.
+il résulte que $r\beta$ est un multiple de $\alpha$; d’après VIII, $\S$ 2, no 2, th. 2, (i), cela implique $\beta \in \{ \alpha, -\alpha \}$. On a donc $R(Z'_\alpha, T) = \{ \alpha, -\alpha \}$. Il s’ensuit (lemme 2) que le centre de $Z'_\alpha$ est Ker $\alpha$, donc que $Z'_\alpha = Z_\alpha$. Enfin, d’après le cor. 1 à la prop. 4 ($\S$ 1, no 4), $D(Z_\alpha)$ est un sous-groupe fermé connexe semi-simple de $G$; il est de rang 1 puisque $\mathscr{D}L(Z_\alpha)_{(C)} = g^\alpha + g^{-\alpha} + [g^\alpha, g^{-\alpha}]$.
 
 #### Corollaire {#lie-ix-s4-n5-cor-1 .statement tag=01C7}
 
@@ -493,14 +493,14 @@ Rappelons (VI, § 1, n° 7) qu’une partie P de $R = R(G, T)$ est dite close si
 
 #### Proposition 12 {#lie-ix-s4-prop-12 .statement tag=01CD}
 
-Soit $\mathcal{H}$ l’ensemble des sous-groupes fermés connexes de G contenant T, ordonné par inclusion. L’application $H \mapsto R(H, T)$ est une bijection croissante de $\mathcal{H}$ sur l’ensemble des parties closes et symétriques de $R(G, T)$, ordonné par inclusion.
+Soit $\mathscr{H}$ l’ensemble des sous-groupes fermés connexes de G contenant T, ordonné par inclusion. L’application $H \mapsto R(H, T)$ est une bijection croissante de $\mathscr{H}$ sur l’ensemble des parties closes et symétriques de $R(G, T)$, ordonné par inclusion.
 
-Si $H \in \mathcal{H}$, alors $L(H)_c$ est somme directe de $t_c$ et des $g^\alpha$ pour $\alpha \in R(H, T)$; comme c’est une sous-algèbre réductive dans $g_c$, la partie $R(H, T)$ de R satisfait aux conditions énoncées (VIII, § 3, n° 1, lemme 2 et prop. 2). Inversement, si P est une partie de R satisfaisant à ces conditions, alors $t_c \oplus \sum_{\alpha \in P} g^\alpha$ est une sous-algèbre de $g_c$ (loc. cit.) qui est rationnelle sur $\mathbf{R}$ (n° 3), donc de la forme $h_{(c)}$, où $h$ est une sous-algèbre de g. Soit $H(P)$ le sous-groupe intégral de G défini par $h$; il est fermé ($§ 2, n^o 4$, remarque 1). On vérifie aussitôt que les applications $H \mapsto R(H, T)$ et $P \mapsto H(P)$ sont croissantes et réciproques l'une de l'autre.
+Si $H \in \mathscr{H}$, alors $L(H)_c$ est somme directe de $t_c$ et des $g^\alpha$ pour $\alpha \in R(H, T)$; comme c’est une sous-algèbre réductive dans $g_c$, la partie $R(H, T)$ de R satisfait aux conditions énoncées (VIII, § 3, n° 1, lemme 2 et prop. 2). Inversement, si P est une partie de R satisfaisant à ces conditions, alors $t_c \oplus \sum_{\alpha \in P} g^\alpha$ est une sous-algèbre de $g_c$ (loc. cit.) qui est rationnelle sur $\mathbf{R}$ (n° 3), donc de la forme $h_{(c)}$, où $h$ est une sous-algèbre de g. Soit $H(P)$ le sous-groupe intégral de G défini par $h$; il est fermé ($§ 2, n^o 4$, remarque 1). On vérifie aussitôt que les applications $H \mapsto R(H, T)$ et $P \mapsto H(P)$ sont croissantes et réciproques l'une de l'autre.
 
 #### Corollaire 1 {#lie-ix-s4-prop-12-cor-1 .statement tag=01CE}
 
 Les sous-groupes fermés de $G$ contenant $T$ sont en nombre fini.
-Soit $H$ un tel sous-groupe ; on a $H_0 \in \mathcal{H}$, et $\mathcal{H}$ est fini. Par ailleurs, $H$ est un sous-groupe de $N_G(H_0)$ contenant $H_0$, et $N_G(H_0)/H_0$ est fini (§ 2, no 4, prop. 4 et remarque 2).
+Soit $H$ un tel sous-groupe ; on a $H_0 \in \mathscr{H}$, et $\mathscr{H}$ est fini. Par ailleurs, $H$ est un sous-groupe de $N_G(H_0)$ contenant $H_0$, et $N_G(H_0)/H_0$ est fini (§ 2, no 4, prop. 4 et remarque 2).
 
 #### Corollaire 2 {#lie-ix-s4-prop-12-cor-2 .statement tag=01CF}
 
@@ -523,7 +523,7 @@ Disons qu'un sous-groupe $C$ de $G$ est radiciel s'il existe un tore maximal $S$
 #### Corollaire {#lie-ix-s4-n7-cor-1 .statement tag=01CJ}
 
 L'ensemble des $g \in G$ tels que $T \cap gTg^{-1} \neq C(G)$ est une réunion finie de sous-variétés analytiques fermées de $G$ distinctes de $G$.
-En effet, posons $A_g = T \cap gTg^{-1}$ ; on a $T \subset Z(A_g)$ et $gTg^{-1} \subset Z(A_g)$. Il existe donc $x \in Z(A_g)$ tel que $xTx^{-1} = gTg^{-1}$ (§ 2, no 2, th. 2), ce qui implique $g \in Z(A_g).N_G(T)$. Notons $\mathcal{A}$ l'ensemble fini (cor. 1) des sous-groupes fermés de $G$ contenant $T$ et distincts de $G$, et posons $X = \bigcup_{H \in \mathcal{A}} H.N_G(T)$ ; c'est une réunion finie de sous-variétés fermées de G, distinctes de G. Si $A_g \neq C(G)$, on a $Z(A_g) \in \mathcal{A}$, et $g$ appartient à X. Inversement si $g \in H.N_G(T)$, avec $H \in \mathcal{A}$, alors $A_g$ contient $C(H)$, donc $A_g \neq C(G)$ (prop. 13).
+En effet, posons $A_g = T \cap gTg^{-1}$ ; on a $T \subset Z(A_g)$ et $gTg^{-1} \subset Z(A_g)$. Il existe donc $x \in Z(A_g)$ tel que $xTx^{-1} = gTg^{-1}$ (§ 2, no 2, th. 2), ce qui implique $g \in Z(A_g).N_G(T)$. Notons $\mathscr{A}$ l'ensemble fini (cor. 1) des sous-groupes fermés de $G$ contenant $T$ et distincts de $G$, et posons $X = \bigcup_{H \in \mathscr{A}} H.N_G(T)$ ; c'est une réunion finie de sous-variétés fermées de G, distinctes de G. Si $A_g \neq C(G)$, on a $Z(A_g) \in \mathscr{A}$, et $g$ appartient à X. Inversement si $g \in H.N_G(T)$, avec $H \in \mathscr{A}$, alors $A_g$ contient $C(H)$, donc $A_g \neq C(G)$ (prop. 13).
 
 #### Proposition 14 {#lie-ix-s4-prop-14 .statement tag=01CK}
 
@@ -605,7 +605,7 @@ Soit $c$ le centre de $g_C$; on a donc $c = L(C(G))_{(C)}$. On a les relations s
 
 a) L’isomorphisme canonique de $C \otimes \Gamma(T)$ sur $t_C$ induit une bijection de $C \otimes \Gamma(C(G)_0)$ sur $c$ et une bijection de $1 \otimes R^\vee(G, T)$ sur $2\pi i . R^\vee(g_C, t_C)$.
 
-b) L’isomorphisme canonique de $C \otimes X(T)$ sur le dual $t_C^*$ de $t_C$ induit une bijection de $C \otimes X(T/(T \cap D(G)))$ sur l’orthogonal de $t_C \cap \mathcal{D}(g)_C$, et une bijection de $1 \otimes R(G, T)$ sur $R(g_C, t_C)$.
+b) L’isomorphisme canonique de $C \otimes X(T)$ sur le dual $t_C^*$ de $t_C$ induit une bijection de $C \otimes X(T/(T \cap D(G)))$ sur l’orthogonal de $t_C \cap \mathscr{D}(g)_C$, et une bijection de $1 \otimes R(G, T)$ sur $R(g_C, t_C)$.
 
 #### Remarque 2 {#lie-ix-s4-n9-rem-2 .statement tag=01CW}
 

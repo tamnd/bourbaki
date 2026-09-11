@@ -40,7 +40,7 @@ subsections:
       pdf_page: 36
 statements: 30
 exercises: 29
-content_sha256: 404551a9a3942003074ca30a80dfc325817ffad388db1efcf85e8f2eb7d9c4f6
+content_sha256: e109f457d6fba384ea1d916efa029aec0f0c662c5d558b64df28a514e06046a9
 translated_from: content/en/lie/IV/02_s2_tits_systems.md
 source_content_sha256: ccce30facb7daeeb1f882ab3b15679e0177fc6be4aed4b3638cf63dca4b4ec2f
 translation_model: gpt-5-6, gpt-5-6-mini
@@ -151,7 +151,7 @@ Theo (T3), tập $C(s_1).C(s_{j_1} \ldots s_{j_p} w)$ được chứa trong hợ
 
 ### 2. MỘT VÍ DỤ
 
-Cho $k$ là một trường, $n$ là một số nguyên $\geq 0$, và $(e_i)$ là cơ sở chính tắc của $k^n$. Cho $G = \mathbf{GL}(n, k)$, cho $B$ là nhóm con tam giác trên của $G$, và cho $N$ là nhóm con của $G$ gồm các ma trận có đúng một phần tử khác không trong mỗi hàng và cột. Một phần tử của $N$ hoán vị các đường thẳng $ke_i$; điều này cho một đồng cấu toàn ánh $N \to \mathcal{S}_n$ có hạt nhân là nhóm con $T = B \cap N$ gồm các ma trận đường chéo, và cho phép ta đồng nhất $W = N/T$ với $\mathcal{S}_n$. Ta ký hiệu bởi $s_j$ ($1 \leq j \leq n-1$) phần tử của $W$ tương ứng với phép chuyển vị của $j$ và $j+1$; cho $S$ là tập hợp các $s_j$. *Bộ bốn* $(G, B, N, S)$ *là một hệ Tits*. Thật vậy:
+Cho $k$ là một trường, $n$ là một số nguyên $\geq 0$, và $(e_i)$ là cơ sở chính tắc của $k^n$. Cho $G = \mathbf{GL}(n, k)$, cho $B$ là nhóm con tam giác trên của $G$, và cho $N$ là nhóm con của $G$ gồm các ma trận có đúng một phần tử khác không trong mỗi hàng và cột. Một phần tử của $N$ hoán vị các đường thẳng $ke_i$; điều này cho một đồng cấu toàn ánh $N \to \mathscr{S}_n$ có hạt nhân là nhóm con $T = B \cap N$ gồm các ma trận đường chéo, và cho phép ta đồng nhất $W = N/T$ với $\mathscr{S}_n$. Ta ký hiệu bởi $s_j$ ($1 \leq j \leq n-1$) phần tử của $W$ tương ứng với phép chuyển vị của $j$ và $j+1$; cho $S$ là tập hợp các $s_j$. *Bộ bốn* $(G, B, N, S)$ *là một hệ Tits*. Thật vậy:
 
 Tiên đề (T1) suy ra từ Hệ quả 2 của Mệnh đề 14 của *Đại số*, Chương II, § 10, no. 13.
 
@@ -343,7 +343,7 @@ Với mọi tập con X của S, ta ký hiệu bởi W_X nhóm con của W sinh 
 
 a) Với mọi tập con X của S, tập hợp G_X là một nhóm con của G, sinh bởi $\bigcup_{s \in X} C(s)$.
 
-b) Ánh xạ X ↦ G_X là một song ánh từ $\mathcal{P}(S)$ vào tập hợp các nhóm con của G chứa B.
+b) Ánh xạ X ↦ G_X là một song ánh từ $\mathscr{P}(S)$ vào tập hợp các nhóm con của G chứa B.
 
 c) Cho $(X_i)_{i \in I}$ là một họ các tập con của X. Nếu $X = \bigcap_{i \in I} X_i$, thì $G_X = \bigcap_{i \in I} G_{X_i}$.
 

@@ -56,9 +56,9 @@ subsections:
       pdf_page: 249
 statements: 54
 exercises: 10
-content_sha256: e9c136efe6d775574e95cde4145a98ae40fa7c6e6c89f9a10bd2df61d216fd77
+content_sha256: 959eb885f564fac1eebba4f1ccb96324d2411a59de36272e85b2c488c0cba51e
 translated_from: content/en/lie/III/01_s1_lie_groups.md
-source_content_sha256: fc8b73730b2269563d3cfe9f30f17a2aca0817c714ee88033880572c968e0a4f
+source_content_sha256: e52337051d072b3fd573ec368d2951d83c152a681fdefe2f8abb0b96ea1b6e8d
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-6a201bc1
 glossary_version: 34
@@ -192,7 +192,7 @@ Do đó E, với cấu trúc nhóm cộng và các cấu trúc đa tạp giải 
 
 (2) Cho A là một đại số kết hợp có đơn vị định chuẩn đầy đủ trên K. Phép nhân $(x, y) \mapsto xy$ của $A \times A$ vào A là song tuyến tính và liên tục và do đó là giải tích. Mệnh đề 3 chỉ ra rằng nhóm $A^*$ các phần tử khả nghịch của A là mở trong A (điều này cũng suy ra từ *General Topology*, Chương IX, § 3, Mệnh đề 13) và rằng $A^*$ là một nhóm Lie.
 
-Ví dụ, cho E là một không gian định chuẩn đầy đủ trên K và cho $A = \mathcal{L}(E)$ (*General Topology*, Chương IX, § 3, Mệnh đề 5). Khi đó $A^*$ là nhóm tự đẳng cấu $\mathbf{GL}(E)$ của E. *Nhóm này do đó có một cách chính tắc một cấu trúc nhóm Lie trên K*. Cụ thể hơn, $\mathbf{GL}(n, K)$, với cấu trúc đa tạp cảm sinh bởi cấu trúc trên $\mathbf{M}_n(K)$, là một nhóm Lie. Với $n = 1$, ta thấy rằng nhóm nhân $K^*$ là một nhóm Lie với cấu trúc đa tạp cảm sinh bởi cấu trúc trên K.
+Ví dụ, cho E là một không gian định chuẩn đầy đủ trên K và cho $A = \mathscr{L}(E)$ (*General Topology*, Chương IX, § 3, Mệnh đề 5). Khi đó $A^*$ là nhóm tự đẳng cấu $\mathbf{GL}(E)$ của E. *Nhóm này do đó có một cách chính tắc một cấu trúc nhóm Lie trên K*. Cụ thể hơn, $\mathbf{GL}(n, K)$, với cấu trúc đa tạp cảm sinh bởi cấu trúc trên $\mathbf{M}_n(K)$, là một nhóm Lie. Với $n = 1$, ta thấy rằng nhóm nhân $K^*$ là một nhóm Lie với cấu trúc đa tạp cảm sinh bởi cấu trúc trên K.
 
 (3) Cho G là một nhóm Lie trên K. Cho $K' = \mathbf{R}$ hoặc $\mathbf{C}$ hoặc một trường siêu mêtric đầy đủ không rời rạc và $\sigma$ là một đẳng cấu của trường định giá $K'$ lên một trường con định giá của K. Khi đó nhóm G, với cấu trúc $K'$-đa tạp thu được bằng hạn chế vô hướng, là một nhóm Lie trên $K'$, được gọi là *dẫn xuất từ nhóm Lie G bởi hạn chế vô hướng* (từ K đến $K'$ bằng cách sử dụng $\sigma$). Ví dụ, mọi nhóm Lie phức có một cách chính tắc một cấu trúc nhóm Lie thực. Một lần nữa, với mỗi nhóm Lie phức G được liên kết một nhóm Lie phức gọi là *liên hợp* của G, dẫn xuất từ G bằng tự đẳng cấu $z \mapsto \overline{z}$ của $\mathbf{C}$.
 
@@ -214,7 +214,7 @@ Ví dụ, cho E là một không gian định chuẩn đầy đủ trên K và c
 (i) $\rho$ là một biểu diễn tuyến tính giải tích;
 (ii) với mọi $x \in E$ và $x' \in E'$, hàm $g \mapsto \langle \rho(g)x, x' \rangle$ trên G là giải tích;
 (iii) với mọi i và j, hàm $g \mapsto \langle \rho(g)e_i, e_j^* \rangle$ trên G là giải tích.
-Các kéo theo (i) $\Rightarrow$ (ii) $\Rightarrow$ (iii) là rõ ràng. Mặt khác, các hàm $u \mapsto \langle ue_i, e_j^* \rangle$ tạo thành một hệ tọa độ trên $\mathcal{L}(E)$; do đó các hạn chế của chúng lên $\mathbf{GL}(E)$ tạo thành một hệ tọa độ trên $\mathbf{GL}(E)$, do đó có kéo theo (iii) $\Rightarrow$ (i).
+Các kéo theo (i) $\Rightarrow$ (ii) $\Rightarrow$ (iii) là rõ ràng. Mặt khác, các hàm $u \mapsto \langle ue_i, e_j^* \rangle$ tạo thành một hệ tọa độ trên $\mathscr{L}(E)$; do đó các hạn chế của chúng lên $\mathbf{GL}(E)$ tạo thành một hệ tọa độ trên $\mathbf{GL}(E)$, do đó có kéo theo (iii) $\Rightarrow$ (i).
 
 Cho G là một nhóm Lie thực, E là một không gian chuẩn hóa đầy đủ thực và $\rho$ là một đồng cấu của nhóm G vào nhóm $\mathbf{GL}(E)$. Ta sẽ thấy trong § 8, Định lý 1 rằng, nếu $\rho$ liên tục (khi $\mathbf{GL}(E)$ có tôpô cảm sinh bởi chuẩn trên $\mathbf{L}(E)$), thì $\rho$ là giải tích. Nhưng chú ý rằng khái niệm liên tục này khác với khái niệm được xét trong Tích phân, Chương VIII, § 2, Định nghĩa 1 (iii) (Bài tập 1).
 
@@ -290,7 +290,7 @@ Ngược lại, cho $G$ là một nhóm Lie và $L$, $M$ là hai nhóm con Lie s
 
 #### Ví dụ {#lie-iii-s1-n4-exa-1 .statement}
 
-Cho $E$ là một không gian chuẩn hóa được, $G = \mathbf{GL}(E)$, $T$ là nhóm chuyển của $E$ và $A$ là nhóm hoán vị của $E$ sinh bởi $G$ và $T$. Nhóm $A$ về mặt đại số là tích nửa trực tiếp của $G$ bởi $T$. (Nếu $E$ là hữu hạn chiều, $A$ là nhóm affine của $E$, xem *Đại số*, Chương II, § 9, no. 4). Gọi $\sigma$ là biểu diễn tuyến tính đồng nhất của $G$ trên $E$ và $S$ là tích nửa trực tiếp ngoài của $G$ bởi $E$ đối với $\sigma$. Với mọi $x \in E$, gọi $t_x$ là phép chuyển của $E$ được xác định bởi $x$. Ánh xạ $(x, u) \mapsto t_x \circ u$ là đẳng cấu $\Phi$ của nhóm $S$ lên nhóm $A$. Ánh xạ $(x, u) \mapsto \sigma(u)x = u(x)$ từ $E \times \mathcal{L}(E)$ vào $E$ là liên tục và song tuyến tính, do đó giải tích; hạn chế của nó trên $E \times G$ vì thế là giải tích. Như vậy nhóm $S$, với cấu trúc đa tạp tích của $E$ và $G$, là một nhóm Lie. Ta chuyển cấu trúc này sang $A$ bằng $\Phi$. Khi đó $A$ trở thành một nhóm Lie, là tích nửa trực tiếp trong của $G$ bởi $T$ như một nhóm Lie.
+Cho $E$ là một không gian chuẩn hóa được, $G = \mathbf{GL}(E)$, $T$ là nhóm chuyển của $E$ và $A$ là nhóm hoán vị của $E$ sinh bởi $G$ và $T$. Nhóm $A$ về mặt đại số là tích nửa trực tiếp của $G$ bởi $T$. (Nếu $E$ là hữu hạn chiều, $A$ là nhóm affine của $E$, xem *Đại số*, Chương II, § 9, no. 4). Gọi $\sigma$ là biểu diễn tuyến tính đồng nhất của $G$ trên $E$ và $S$ là tích nửa trực tiếp ngoài của $G$ bởi $E$ đối với $\sigma$. Với mọi $x \in E$, gọi $t_x$ là phép chuyển của $E$ được xác định bởi $x$. Ánh xạ $(x, u) \mapsto t_x \circ u$ là đẳng cấu $\Phi$ của nhóm $S$ lên nhóm $A$. Ánh xạ $(x, u) \mapsto \sigma(u)x = u(x)$ từ $E \times \mathscr{L}(E)$ vào $E$ là liên tục và song tuyến tính, do đó giải tích; hạn chế của nó trên $E \times G$ vì thế là giải tích. Như vậy nhóm $S$, với cấu trúc đa tạp tích của $E$ và $G$, là một nhóm Lie. Ta chuyển cấu trúc này sang $A$ bằng $\Phi$. Khi đó $A$ trở thành một nhóm Lie, là tích nửa trực tiếp trong của $G$ bởi $T$ như một nhóm Lie.
 
 #### Mệnh đề 8 {#lie-iii-s1-prop-8 .statement}
 
@@ -555,7 +555,7 @@ Các τ(ψ_{g, x}) xác định một luật tác động trái $(g, u) ↦ gu$ 
 
 *Nếu E là một bó G-vectơ lớp C^r, thì τE là một bó G-vectơ lớp C^r*.
 
-Cho $g_0, x_0, U, M, N$ như trong đoạn sau Định nghĩa 4. Khi đó ánh xạ $(g, x) ↦ τ(ψ_{g,x})$ của U vào $\mathcal{L}(\tau M, \tau N)$ là hợp thành của ánh xạ $(g, x) ↦ ψ_{g,x}$ của U vào $\mathcal{L}(M, N)$ và ánh xạ $f ↦ τ(f)$ của $Isom(M, N)$ vào $Isom(τM, τN)$; hai ánh xạ này đều lớp C^r và do đó hợp thành của chúng cũng vậy, do đó có mệnh đề.
+Cho $g_0, x_0, U, M, N$ như trong đoạn sau Định nghĩa 4. Khi đó ánh xạ $(g, x) ↦ τ(ψ_{g,x})$ của U vào $\mathscr{L}(\tau M, \tau N)$ là hợp thành của ánh xạ $(g, x) ↦ ψ_{g,x}$ của U vào $\mathscr{L}(M, N)$ và ánh xạ $f ↦ τ(f)$ của $Isom(M, N)$ vào $Isom(τM, τN)$; hai ánh xạ này đều lớp C^r và do đó hợp thành của chúng cũng vậy, do đó có mệnh đề.
 
 #### Mệnh đề 16 {#lie-iii-s1-prop-16 .statement}
 
@@ -575,11 +575,11 @@ Nếu τ là một hàm tử vectơ lớp C^r đối với các đẳng cấu *t
 
 #### Ví dụ {#lie-iii-s1-n8-exa-1 .statement}
 
-Với các giả thiết và ký hiệu của Mệnh đề 16, cho F là một không gian chuẩn hóa đầy đủ. Khi đó $\mathcal{L}((TX)^p; F)$ là một bó G-vectơ lớp $C^{r-1}$; Alt^p(TX; F) cũng vậy nếu K có đặc số không hoặc X là hữu hạn chiều (*Differentiable and Analytic Manifolds*, R, 7.7, 7.8). Nếu X là hữu hạn chiều, $\bigotimes^p (TX) \otimes \bigotimes^q (TX)^*$ là một bó G-vectơ lớp $C^{r-1}$.
+Với các giả thiết và ký hiệu của Mệnh đề 16, cho F là một không gian chuẩn hóa đầy đủ. Khi đó $\mathscr{L}((TX)^p; F)$ là một bó G-vectơ lớp $C^{r-1}$; Alt^p(TX; F) cũng vậy nếu K có đặc số không hoặc X là hữu hạn chiều (*Differentiable and Analytic Manifolds*, R, 7.7, 7.8). Nếu X là hữu hạn chiều, $\bigotimes^p (TX) \otimes \bigotimes^q (TX)^*$ là một bó G-vectơ lớp $C^{r-1}$.
 
 #### Mệnh đề 17 {#lie-iii-s1-prop-17 .statement}
 
-*Cho G là một nhóm Lie, X là một không gian thuần nhất Lie trái của G, $x_0$ là một điểm của X, $G_0$ là nhóm ổn định của $x_0$ trong G, E và E' là các bó G-vectơ trái lớp C^r có không gian cơ sở X, E_0 (tương ứng E'_0) là thớ của E (tương ứng E') tại $x_0$ và f là một phần tử của $\mathcal{L}(E_0, E'_0)$ sao cho $f(gu) = gf(u)$ với mọi $u ∈ E_0$ và $g ∈ G_0$. Khi đó tồn tại duy nhất một cấu xạ của E vào E' tương thích với các phép toán của G và mở rộng f.*
+*Cho G là một nhóm Lie, X là một không gian thuần nhất Lie trái của G, $x_0$ là một điểm của X, $G_0$ là nhóm ổn định của $x_0$ trong G, E và E' là các bó G-vectơ trái lớp C^r có không gian cơ sở X, E_0 (tương ứng E'_0) là thớ của E (tương ứng E') tại $x_0$ và f là một phần tử của $\mathscr{L}(E_0, E'_0)$ sao cho $f(gu) = gf(u)$ với mọi $u ∈ E_0$ và $g ∈ G_0$. Khi đó tồn tại duy nhất một cấu xạ của E vào E' tương thích với các phép toán của G và mở rộng f.*
 
 Tính duy nhất của cấu xạ này là hiển nhiên. Ta chứng minh sự tồn tại của nó. Cho g, g' là các phần tử của G và $u ∈ E_0$ sao cho $gu = g'u$. Khi đó ${g'}^{-1}g ∈ G_0$ và ${g'}^{-1}gu = u$ và do đó ${g'}^{-1}gf(u) = f(u)$, nghĩa là $gf(u) = g'f(u)$. Do đó một ánh xạ φ được xác định từ E vào E' bằng cách viết $φ(gu) = gf(u)$. Rõ ràng ánh xạ này mở rộng f và nó tương thích với các phép toán của G. Ta chứng minh rằng φ là một cấu xạ bó vectơ lớp C^r. Cho $x_1 ∈ X$. Tồn tại một lân cận mở V của $x_1$ trong X và một đa tạp con W của G sao cho ánh xạ $g ↦ gx_0$ là một đẳng cấu θ lớp C^r của W lên V. Bằng cách thu nhỏ V và W, có thể giả sử rằng:
 (1) $E | V$ (tương ứng $E' | V$) được đồng nhất với một bó vectơ tầm thường có thớ M (tương ứng M');

@@ -36,9 +36,9 @@ subsections:
       pdf_page: 166
 statements: 12
 exercises: 18
-content_sha256: 6a7b7f18f2b8d8580677a46069e377f8b9869cd34a6d48a99e5d111ae8472a87
+content_sha256: 5af4490413e82a335b9ef10a9b09adcee9f85eb4a403c0191b742a860bbca3f3
 translated_from: content/en/lie/II/04_s4_central_filtrations.md
-source_content_sha256: 1325ad90b6f64f40c918361f53780fe37c172750b745daa70223fd8d6caff02f
+source_content_sha256: f851ffdb4b2c2b1ddbe8b7336668e7aa1d731014ba4becd09cab912a4d2af5c7
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-5f92d445
 glossary_version: 34
@@ -325,7 +325,7 @@ $$
 Chứng minh trên cho thấy chuỗi trung tâm dưới của đại số Lie gr(G) (§ 2, no. 7) được cho bởi
 
 $$
-\mathcal{C}^n(\mathrm{gr}(G)) = \sum_{m \geq n} \mathrm{gr}_m(G).
+\mathscr{C}^n(\mathrm{gr}(G)) = \sum_{m \geq n} \mathrm{gr}_m(G).
 $$
 
 #### Nhận xét {#lie-ii-s4-n6-rem-1 .statement}

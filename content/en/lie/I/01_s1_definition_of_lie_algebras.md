@@ -49,7 +49,7 @@ subsections:
       pdf_page: 29
 statements: 20
 exercises: 27
-content_sha256: beda2c6cae20a94271df76d22e39d80aa8afbe4c0f59aabcdf1f99f8e4a7b723
+content_sha256: 212243def2771767e19a59c07e95d6be7548319e426eee3b17c385dd4684451e
 ---
 
 ## § 1. DEFINITION OF LIE ALGEBRAS
@@ -213,17 +213,17 @@ If a is a submodule of g, the set of $x \in g$ such that $(\mathrm{ad}\ x).a \su
 
 ### 5. DERIVED SERIES, LOWER CENTRAL SERIES
 
-The characteristic ideal $[g, g]$ is called the *derived ideal* of a Lie algebra g and denoted by $\mathcal{D}g$.
+The characteristic ideal $[g, g]$ is called the *derived ideal* of a Lie algebra g and denoted by $\mathscr{D}g$.
 
-Every submodule of g containing $\mathcal{D}g$ is an ideal of g.
+Every submodule of g containing $\mathscr{D}g$ is an ideal of g.
 
-The *derived series* of g is the decreasing sequence $\mathcal{D}^0g, \mathcal{D}^1g, \ldots$ of characteristic ideals of g defined inductively as follows: (1) $\mathcal{D}^0g = g$; (2) $\mathcal{D}^{p+1}g = [\mathcal{D}^pg, \mathcal{D}^pg]$.
+The *derived series* of g is the decreasing sequence $\mathscr{D}^0g, \mathscr{D}^1g, \ldots$ of characteristic ideals of g defined inductively as follows: (1) $\mathscr{D}^0g = g$; (2) $\mathscr{D}^{p+1}g = [\mathscr{D}^pg, \mathscr{D}^pg]$.
 
-The *lower central series* of g is the decreasing sequence $\mathcal{C}^1g, \mathcal{C}^2g, \ldots$ of characteristic ideals of g defined inductively as follows: (1) $\mathcal{C}^1g = g$; (2) $\mathcal{C}^{p+1}g = [g, \mathcal{C}^pg]$. Then $\mathcal{C}^2g = \mathcal{D}g$ and $\mathcal{C}^{p+1}g \supset \mathcal{D}^pg$ for all $p$, as is immediately seen by induction on $p$.
+The *lower central series* of g is the decreasing sequence $\mathscr{C}^1g, \mathscr{C}^2g, \ldots$ of characteristic ideals of g defined inductively as follows: (1) $\mathscr{C}^1g = g$; (2) $\mathscr{C}^{p+1}g = [g, \mathscr{C}^pg]$. Then $\mathscr{C}^2g = \mathscr{D}g$ and $\mathscr{C}^{p+1}g \supset \mathscr{D}^pg$ for all $p$, as is immediately seen by induction on $p$.
 
 #### Proposition 4 {#lie-i-s1-prop-4 .statement}
 
-*Let g and h be two Lie algebras over K and f a homomorphism of g onto h. Then $f(\mathcal{D}^pg) = \mathcal{D}^pf, f(\mathcal{C}^pg) = \mathcal{C}^ph$.*
+*Let g and h be two Lie algebras over K and f a homomorphism of g onto h. Then $f(\mathscr{D}^pg) = \mathscr{D}^pf, f(\mathscr{C}^pg) = \mathscr{C}^ph$.*
 
 If a and b are submodules of g, it follows immediately that
 $$
@@ -233,10 +233,10 @@ The proposition is then immediate by induction on $p$.
 
 #### Corollary {#lie-i-s1-n5-cor-1 .statement}
 
-*Let g be a Lie algebra and a an ideal of g. For the Lie algebra $g/a$ to be commutative, it is necessary and sufficient that $a \supset \mathcal{D}g$.*
+*Let g be a Lie algebra and a an ideal of g. For the Lie algebra $g/a$ to be commutative, it is necessary and sufficient that $a \supset \mathscr{D}g$.*
 
-To say that $g/a$ is commutative amounts to saying that $\mathcal{D}(g/a) = \{0\}$.
-But $\mathcal{D}(g/a)$ is, by Proposition 4, the canonical image of $\mathcal{D}g$ in $g/a$.
+To say that $g/a$ is commutative amounts to saying that $\mathscr{D}(g/a) = \{0\}$.
+But $\mathscr{D}(g/a)$ is, by Proposition 4, the canonical image of $\mathscr{D}g$ in $g/a$.
 
 ### 6. UPPER CENTRAL SERIES
 
@@ -254,8 +254,8 @@ hence $Dx \in a'$. Hence the proposition.
 
 Let $g$ be a Lie algebra. The centralizer of $g$ in $g$ is called the centre of $g$, that is the characteristic ideal of $x \in g$ such that $[x, y] = 0$ for all $y \in g$. The centre of $g$ is the kernel of the homomorphism $x \mapsto \mathrm{ad}\, x$.
 
-The upper central series of $g$ is the increasing sequence $\mathcal{C}_0 g, \mathcal{C}_1 g, \ldots$ of characteristic ideals of $g$ defined inductively as follows: (1) $\mathcal{C}_0 g = \{0\}$; (2) $\mathcal{C}_{p+1} g$ is the inverse image under the canonical mapping of $g$ onto $g / \mathcal{C}_p g$ of the centre of $g / \mathcal{C}_p g$
-The ideal $\mathcal{C}_1 g$ is the centre of $g$.
+The upper central series of $g$ is the increasing sequence $\mathscr{C}_0 g, \mathscr{C}_1 g, \ldots$ of characteristic ideals of $g$ defined inductively as follows: (1) $\mathscr{C}_0 g = \{0\}$; (2) $\mathscr{C}_{p+1} g$ is the inverse image under the canonical mapping of $g$ onto $g / \mathscr{C}_p g$ of the centre of $g / \mathscr{C}_p g$
+The ideal $\mathscr{C}_1 g$ is the centre of $g$.
 
 ### 7. EXTENSIONS
 
@@ -501,23 +501,23 @@ $$
 \sum_{i=1}^n [x_i, y_i]
 $$
 
-where $x_i \in a, y_i \in b$. It follows that $\mathcal{D}^p g = \mathcal{D}^p g', \mathcal{C}^p g = \mathcal{C}^p g'$ for all $p$.
+where $x_i \in a, y_i \in b$. It follows that $\mathscr{D}^p g = \mathscr{D}^p g', \mathscr{C}^p g = \mathscr{C}^p g'$ for all $p$.
 
-The centralizer of a subset is the same in $g$ and $g'$. Hence $\mathcal{C}_p g = \mathcal{C}_p g'$ for all $p$.
+The centralizer of a subset is the same in $g$ and $g'$. Hence $\mathscr{C}_p g = \mathscr{C}_p g'$ for all $p$.
 
-Let $K_1$ be a commutative ring with unit element and $\sigma$ a homomorphism of $K$ into $K_1$ mapping unit element to unit element. Let $g$ be a Lie algebra over $K$. Let $g_{(K_1)}$ be the algebra over $K_1$ derived from $g$ by extending the base ring (cf. no. 1). Then $g_{(K_1)}$ is a Lie algebra. If $a$ is a subalgebra (resp. an ideal) of $g$, the canonical image of $a_{(K_1)}$ in $g_{(K_1)}$ is a subalgebra (resp. an ideal) of $g_{(K_1)}$. If $a$ and $b$ are submodules of $g$, the canonical image in $g_{(K_1)}$ of $[a, b]_{(K_1)}$ is equal to the bracket of the canonical images of $a_{(K_1)}$ and $b_{(K_1)}$. It follows that $\mathcal{D}^p(g_{(K_1)})$ is the canonical image of $(\mathcal{D}^p g)_{(K_1)}$ and that $\mathcal{C}^p(g_{(K_1)})$ is the canonical image of $\mathcal{C}^p(g_{(K_1)})$.
+Let $K_1$ be a commutative ring with unit element and $\sigma$ a homomorphism of $K$ into $K_1$ mapping unit element to unit element. Let $g$ be a Lie algebra over $K$. Let $g_{(K_1)}$ be the algebra over $K_1$ derived from $g$ by extending the base ring (cf. no. 1). Then $g_{(K_1)}$ is a Lie algebra. If $a$ is a subalgebra (resp. an ideal) of $g$, the canonical image of $a_{(K_1)}$ in $g_{(K_1)}$ is a subalgebra (resp. an ideal) of $g_{(K_1)}$. If $a$ and $b$ are submodules of $g$, the canonical image in $g_{(K_1)}$ of $[a, b]_{(K_1)}$ is equal to the bracket of the canonical images of $a_{(K_1)}$ and $b_{(K_1)}$. It follows that $\mathscr{D}^p(g_{(K_1)})$ is the canonical image of $(\mathscr{D}^p g)_{(K_1)}$ and that $\mathscr{C}^p(g_{(K_1)})$ is the canonical image of $\mathscr{C}^p(g_{(K_1)})$.
 
 If $K$ is a field, $K_1$ an extension field of $K$ and $\sigma$ the canonical injection of $K$ into $K_1$, then with the usual identifications we have
 $$
-[a, b]_{(K_1)} = [a_{(K_1)}, b_{(K_1)}], \quad \mathcal{D}^p(g_{(K_1)}) = (\mathcal{D}^p g)_{(K_1)},
+[a, b]_{(K_1)} = [a_{(K_1)}, b_{(K_1)}], \quad \mathscr{D}^p(g_{(K_1)}) = (\mathscr{D}^p g)_{(K_1)},
 $$
 $$
-\mathcal{C}^p(g_{(K_1)}) = (\mathcal{C}^p g)_{(K_1)}.
+\mathscr{C}^p(g_{(K_1)}) = (\mathscr{C}^p g)_{(K_1)}.
 $$
 
 These results are completed in § 2, no. 9.
 
-If $M$ is a finite-dimensional vector space over the field $K$, $M_{(K_1)}$ is a finite-dimensional vector space over $K_1$ and the associative algebra $\mathcal{L}(M_{(K_1)})$ is canonically identified with the associative algebra $\mathcal{L}(M)_{(K_1)}$. Hence the Lie algebra $gl(M_{(K_1)})$ is canonically identified with the Lie algebra $gl(M)_{(K_1)}$.
+If $M$ is a finite-dimensional vector space over the field $K$, $M_{(K_1)}$ is a finite-dimensional vector space over $K_1$ and the associative algebra $\mathscr{L}(M_{(K_1)})$ is canonically identified with the associative algebra $\mathscr{L}(M)_{(K_1)}$. Hence the Lie algebra $gl(M_{(K_1)})$ is canonically identified with the Lie algebra $gl(M)_{(K_1)}$.
 
 ### Exercises {#lie-i-s1-exercises}
 

@@ -57,9 +57,9 @@ subsections:
       pdf_page: 152
 statements: 32
 exercises: 10
-content_sha256: c2821bda735390d8854a06cd9a9bad0242f46cc5e339621051ba495098df6622
+content_sha256: d640199051d270e6983a00532250e7678e7971f9964a47764d36d396b589252c
 translated_from: content/en/lie/II/02_s2_free_lie_algebras.md
-source_content_sha256: 6e450e7885a69b88d5a981a2a0a11ee034c761b9d126211b974e36d6700c2625
+source_content_sha256: 588b52d08e0f2494551b2a1cb24c18827d1cf187d3c4efc3af9117170ddd12b5
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-6
 translation_run: translate-vi-9fabf02a
 glossary_version: 34
@@ -313,16 +313,16 @@ $$
 $$
 Theo công thức (18), $P_n \supset \sum_{p=1}^{n-1} [P_p, P_{n-p}] \supset [P_1, P_{n-1}] = P_n$, do đó (19).
 
-Khi ta lấy $P = g$, dãy $(P_n)$ là chuỗi trung tâm dưới ($\mathcal{C}^n g$) của $g$ (Chương I, § 1, no. 5). Do đó:
+Khi ta lấy $P = g$, dãy $(P_n)$ là chuỗi trung tâm dưới ($\mathscr{C}^n g$) của $g$ (Chương I, § 1, no. 5). Do đó:
 
 #### Mệnh đề 6 {#lie-ii-s2-prop-6 .statement}
 
-Cho $g$ là một đại số Lie và $(\mathcal{C}^n g)_{n \geq 1}$ là chuỗi trung tâm dưới của $g$. Khi đó
+Cho $g$ là một đại số Lie và $(\mathscr{C}^n g)_{n \geq 1}$ là chuỗi trung tâm dưới của $g$. Khi đó
 $$
-[\mathcal{C}^m g, \mathcal{C}^n g] \subset \mathcal{C}^{m+n} g \quad \text{với } m \geq 1 \text{ và } n \geq 1.
+[\mathscr{C}^m g, \mathscr{C}^n g] \subset \mathscr{C}^{m+n} g \quad \text{với } m \geq 1 \text{ và } n \geq 1.
 $$
 
-Tổng quát hóa Định nghĩa 1 của Chương I, § 4, no. 1, ta sẽ nói rằng một đại số Lie $g$ là *lũy linh* nếu $\mathcal{C}^n g = \{0\}$ với $n$ đủ lớn. *Lớp lũy linh* của một đại số Lie lũy linh $g$ là số nguyên nhỏ nhất $n$ sao cho $\mathcal{C}^{n+1} g = \{0\}$.
+Tổng quát hóa Định nghĩa 1 của Chương I, § 4, no. 1, ta sẽ nói rằng một đại số Lie $g$ là *lũy linh* nếu $\mathscr{C}^n g = \{0\}$ với $n$ đủ lớn. *Lớp lũy linh* của một đại số Lie lũy linh $g$ là số nguyên nhỏ nhất $n$ sao cho $\mathscr{C}^{n+1} g = \{0\}$.
 
 #### Mệnh đề 7 {#lie-ii-s2-prop-7 .statement}
 
@@ -330,20 +330,20 @@ Cho $X$ là một tập hợp và $n$ là một số nguyên $\geq 1$.
 (a) $L^{n+1}(X) = [L^1(X), L^n(X)]$.
 (b) *Môđun* $L^n(X)$ *được sinh bởi các phần tử* $[x_1, [x_2, \ldots, [x_{n-1}, x_n] \ldots]]$
 *trong đó* $(x_1, \ldots, x_n)$ *chạy qua tập hợp các dãy gồm* $n$ *phần tử của* $X$.
-(c) *Chuỗi trung tâm dưới của* $L(X)$ *được cho bởi* $\mathcal{C}^n(L(X)) = \sum_{p \geq n} L^p(X)$.
+(c) *Chuỗi trung tâm dưới của* $L(X)$ *được cho bởi* $\mathscr{C}^n(L(X)) = \sum_{p \geq n} L^p(X)$.
 
 (a) Ta áp dụng Mệnh đề 5 với $g = L(X)$ và $P = L^1(X)$. Bằng quy nạp theo $n$, từ (12) (no. 6) và (19) ta suy ra đẳng thức $P_n = L^n(X)$. Quan hệ cần chứng minh khi đó tương đương với định nghĩa $[P, P_n] = P_{n+1}$.
 (b) Điều này suy ra từ (a) bằng quy nạp theo $n$.
-(c) Cho $g = L(X)$ và $g_n = \sum_{p \geq n} L_p(X)$. Khi đó $g = g_1$ và công thức (13) của no. 6 suy ra $[g_n, g_m] \subset g_{n+m}$ và đặc biệt $[g, g_n] \subset g_{n+1}$. Bằng quy nạp theo $n$, $\mathcal{C}^n g \subset g_n$. Mặt khác, từ (a) ta suy ra $L^n(X) \subset \mathcal{C}^n g$ bằng quy nạp theo $n$. Vì $\mathcal{C}^n g$ là một iđêan của $g$, quan hệ $L^p(X) \subset \mathcal{C}^n g$ suy ra rằng
+(c) Cho $g = L(X)$ và $g_n = \sum_{p \geq n} L_p(X)$. Khi đó $g = g_1$ và công thức (13) của no. 6 suy ra $[g_n, g_m] \subset g_{n+m}$ và đặc biệt $[g, g_n] \subset g_{n+1}$. Bằng quy nạp theo $n$, $\mathscr{C}^n g \subset g_n$. Mặt khác, từ (a) ta suy ra $L^n(X) \subset \mathscr{C}^n g$ bằng quy nạp theo $n$. Vì $\mathscr{C}^n g$ là một iđêan của $g$, quan hệ $L^p(X) \subset \mathscr{C}^n g$ suy ra rằng
 $$
-L^{p+1}(X) = [L^1(X), L^p(X)] \subset \mathcal{C}^n g
+L^{p+1}(X) = [L^1(X), L^p(X)] \subset \mathscr{C}^n g
 $$
-theo (a). Do đó $L^p(X) \subset \mathcal{C}^n g$ với $p \geq n$, do đó $g_n \subset \mathcal{C}^n g$.
+theo (a). Do đó $L^p(X) \subset \mathscr{C}^n g$ với $p \geq n$, do đó $g_n \subset \mathscr{C}^n g$.
 
 #### Hệ quả {#lie-ii-s2-n7-cor-1 .statement}
 
-Cho $g$ là một đại số Lie và $(x_i)_{i \in I}$ là một họ sinh của $g$. Số hạng thứ $n$ $\mathcal{C}^n g$ của chuỗi tâm dưới của $g$ là môđun sinh bởi các ngoặc lồng nhau $[x_{i_1}, [x_{i_2}, \ldots, [x_{i_{p-1}}, x_{i_p}] \ldots]]$ với $p \geq n$, và $i_1, \ldots, i_p$ thuộc $I$.
-Cho $f$ là đồng cấu từ $L(I)$ vào $g$ sao cho $f(i) = x_i$ với mọi $i \in I$. Vì $(x_i)_{i \in I}$ sinh $g$, nên $g = f(L(I))$, do đó $\mathcal{C}^n g = f(\mathcal{C}^n(L(I)))$ theo Mệnh đề 4 của Chương I, § 1, no. 5. Hệ quả suy ra từ các khẳng định (b) và (c) của Mệnh đề 7.
+Cho $g$ là một đại số Lie và $(x_i)_{i \in I}$ là một họ sinh của $g$. Số hạng thứ $n$ $\mathscr{C}^n g$ của chuỗi tâm dưới của $g$ là môđun sinh bởi các ngoặc lồng nhau $[x_{i_1}, [x_{i_2}, \ldots, [x_{i_{p-1}}, x_{i_p}] \ldots]]$ với $p \geq n$, và $i_1, \ldots, i_p$ thuộc $I$.
+Cho $f$ là đồng cấu từ $L(I)$ vào $g$ sao cho $f(i) = x_i$ với mọi $i \in I$. Vì $(x_i)_{i \in I}$ sinh $g$, nên $g = f(L(I))$, do đó $\mathscr{C}^n g = f(\mathscr{C}^n(L(I)))$ theo Mệnh đề 4 của Chương I, § 1, no. 5. Hệ quả suy ra từ các khẳng định (b) và (c) của Mệnh đề 7.
 
 ### 8. CÁC ĐẠO HÀM CỦA CÁC ĐẠI SỐ LIE TỰ DO
 
@@ -567,10 +567,10 @@ Từ đây giả sử rằng $X$ có ít nhất hai phần tử; chọn các dã
 $L_0 = \{0\}$ và $g_0 = L(X)$ và bổ đề đúng với $p = 0$. Ta lập luận bằng quy nạp theo $p$. Giả sử khi đó bổ đề đúng với một số nguyên $p \geq 0$. Đặt $u_i, w = (\mathrm{ad}\ \bar{w}_p)^i.\bar{w} = \Psi(w_p^i w)$ với $i \geq 0, w \in P_p, w \neq w_p$. Theo Hệ quả của Mệnh đề 10 của no. 9, đại số Lie tự do $g_p$ là tổng trực tiếp của môđun $T_p$ có cơ sở $\{\bar{w}_p\}$ và một đại số Lie con $h_p$ nhận
 
 $$
-\mathcal{F} = (u_i, w)_{i \geq 0,\ w \in P_p,\ w \neq w_p}
+\mathscr{F} = (u_i, w)_{i \geq 0,\ w \in P_p,\ w \neq w_p}
 $$
 
-làm họ cơ sở. Theo Mệnh đề 13 (d), họ $(\bar{u})_{u \in P_{p+1}}$ bằng $\mathcal{F}$ và do đó là một họ cơ sở của $h_p = g_{p+1}$. Vì thế $L(X) = L_p \oplus T_p \oplus g_{p+1}$ và, do $L_{p+1} = L_p + T_p$, $L(X) = L_{p+1} \oplus g_{p+1}$ và $(\bar{w}_0, \bar{w}_1, \ldots, \bar{w}_{p-1}, \bar{w}_p)$ là một cơ sở của môđun $L_{p+1}$.
+làm họ cơ sở. Theo Mệnh đề 13 (d), họ $(\bar{u})_{u \in P_{p+1}}$ bằng $\mathscr{F}$ và do đó là một họ cơ sở của $h_p = g_{p+1}$. Vì thế $L(X) = L_p \oplus T_p \oplus g_{p+1}$ và, do $L_{p+1} = L_p + T_p$, $L(X) = L_{p+1} \oplus g_{p+1}$ và $(\bar{w}_0, \bar{w}_1, \ldots, \bar{w}_{p-1}, \bar{w}_p)$ là một cơ sở của môđun $L_{p+1}$.
 
 Cho $n$ là một số nguyên dương. Theo Mệnh đề 13 (c), tồn tại một số nguyên $p(n)$ sao cho $P_p$ chỉ có các phần tử có độ dài $> n$ đối với $p \geq p(n)$. Với $p \geq p(n)$, đại số con Lie $g_p$ của $L(X)$ được sinh bởi các phần tử có bậc $> n$ và do đó $L^n(X) \cap g_p = \{0\}$. Mặt khác, các phần tử $\bar{w}_i$ của $L(X)$ là thuần nhất và họ $(w_i)_{0 \leq i < p}$ là một cơ sở của một môđun bù của $g_p$. Suy ra ngay lập tức rằng họ các phần tử $\bar{w}_i$ có bậc $n$ là một cơ sở của môđun $L^n(X)$ và rằng dãy $(\bar{w}_i)_{i \geq 0}$ là một cơ sở của môđun $L(X)$.
 

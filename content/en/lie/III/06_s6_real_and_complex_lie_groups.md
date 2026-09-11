@@ -53,7 +53,7 @@ subsections:
       pdf_page: 340
 statements: 71
 exercises: 30
-content_sha256: debc9e4f97118a82ab8d600d7699e2b315abf393c059176f936e6730a44cca5f
+content_sha256: 5bbc3faeeb42ec64c829cfb0b725e33f82c6623e57e2db2b01c95e1c4e3b961a
 ---
 
 ## § 6. REAL AND COMPLEX LIE GROUPS
@@ -306,7 +306,7 @@ The conclusion of Proposition 5 is not necessarily true if G is not assumed to b
 
 *Let G be a connected complex Lie group. If G is compact, G is commutative.*
 
-The holomorphic mapping $g \mapsto \mathrm{Ad}\,g$ of G into $\mathcal{L}(L(G))$ is constant (*Differentiable and Analytic Manifolds*, R, 3.3.7) and hence $\mathrm{ad}\,a = 0$ for all $a \in L(G)$ ($§ 3$, no. 12, Proposition 44). Hence G is commutative ($§ 4$, Corollary 3 to Theorem 1).
+The holomorphic mapping $g \mapsto \mathrm{Ad}\,g$ of G into $\mathscr{L}(L(G))$ is constant (*Differentiable and Analytic Manifolds*, R, 3.3.7) and hence $\mathrm{ad}\,a = 0$ for all $a \in L(G)$ ($§ 3$, no. 12, Proposition 44). Hence G is commutative ($§ 4$, Corollary 3 to Theorem 1).
 
 ### 4. EXPONENTIAL MAPPING
 
@@ -449,7 +449,7 @@ The integral function $z \mapsto \sum_{n \geqslant 0} \frac{1}{(n + 1)!} z^n$, e
 
 #### Lemma 2 {#lie-iii-s6-lem-2 .statement}
 
-*Let E be a complex Banach space, u an element of $\mathcal{L}(E)$, S the spectrum of u in $\mathcal{L}(E)$ (Spectral Theories, Chapter I, § 1, no. 2) and f a holomorphic complex function on an open neighbourhood $\Omega$ of S. Suppose that f admits in $\Omega$ only a finite number of distinct zeros $z_1, \ldots, z_n$, of multiplicities $h_1, \ldots, h_n$. Then $\mathrm{Ker}\ f(u)$ is the direct sum of the $\mathrm{Ker}(u - z_i)^{h_i}$ for $1 \leqslant i \leqslant n$.
+*Let E be a complex Banach space, u an element of $\mathscr{L}(E)$, S the spectrum of u in $\mathscr{L}(E)$ (Spectral Theories, Chapter I, § 1, no. 2) and f a holomorphic complex function on an open neighbourhood $\Omega$ of S. Suppose that f admits in $\Omega$ only a finite number of distinct zeros $z_1, \ldots, z_n$, of multiplicities $h_1, \ldots, h_n$. Then $\mathrm{Ker}\ f(u)$ is the direct sum of the $\mathrm{Ker}(u - z_i)^{h_i}$ for $1 \leqslant i \leqslant n$.
 
 (For the definition of $f(u)$, see Spectral Theories, Chapter I, § 4, no. 8.)
 
@@ -472,7 +472,7 @@ $$
 \end{align*}
 $$
 
-On the other hand, if $u \in \mathcal{L}(E)$, then
+On the other hand, if $u \in \mathscr{L}(E)$, then
 
 $$
 \begin{align*}
@@ -503,12 +503,12 @@ It suffices to take $E_1 = Kx$ and $E_2 = 0$ in Proposition 13.
 
 #### Corollary 4 {#lie-iii-s6-prop-13-cor-4 .statement}
 
-*Let $\varphi'$ be another analytic linear representation of $G$ on a complete normable space $E'$. Let $T \in \mathcal{L}(E, E')$. The following conditions are equivalent:*
+*Let $\varphi'$ be another analytic linear representation of $G$ on a complete normable space $E'$. Let $T \in \mathscr{L}(E, E')$. The following conditions are equivalent:*
 
 (i) $T\varphi(g) = \varphi'(g)T$ for all $g \in G$;
 (ii) $TL(\varphi)(a) = L(\varphi')(a)T$ for all $a \in L(G)$.
 
-Let $\sigma$ be the linear representation of $G$ on $\mathcal{L}(E, E')$ derived from $\varphi$ and $\varphi'$ (§ 3, no. 11, Corollary 1 to Proposition 41). Condition (i) means that $T$ is invariant under $\sigma(G)$. Condition (ii) means that $T$ is annihilated by $L(\sigma)(L(G))$. It then suffices to apply Corollary 3.
+Let $\sigma$ be the linear representation of $G$ on $\mathscr{L}(E, E')$ derived from $\varphi$ and $\varphi'$ (§ 3, no. 11, Corollary 1 to Proposition 41). Condition (i) means that $T$ is invariant under $\sigma(G)$. Condition (ii) means that $T$ is annihilated by $L(\sigma)(L(G))$. It then suffices to apply Corollary 3.
 
 #### Corollary 5 {#lie-iii-s6-prop-13-cor-5 .statement}
 
@@ -674,7 +674,7 @@ This follows from Lemma 2 of no. 4, applied to the function z ↦ e^z − 1.
 
 #### Corollary 1 {#lie-iii-s6-prop-18-cor-1 .statement}
 
-*Let E be a complete normable space over $\mathbf{C}$ and F the space of continuous n-linear mappings of $E^n$ into E. For all $v \in \mathcal{L}(E)$, let $\sigma(v)$ be the element of $\mathcal{L}(F)$ defined by*
+*Let E be a complete normable space over $\mathbf{C}$ and F the space of continuous n-linear mappings of $E^n$ into E. For all $v \in \mathscr{L}(E)$, let $\sigma(v)$ be the element of $\mathscr{L}(F)$ defined by*
 
 $$
 (\sigma(v)f)(x_1, \ldots, x_n) = v(f(x_1, \ldots, x_n)) - \sum_{i=1}^n f(x_1, \ldots, vx_i, \ldots, x_n).
@@ -686,7 +686,7 @@ $$
 (\rho(g)f)(x_1, \ldots, x_n) = g(f(g^{-1}x_1, \ldots, g^{-1}x_n)).
 $$
 
-*Let $u \in \mathcal{L}(E)$ be such that every $z \in \mathrm{Sp}\,u$ satisfies $|\mathcal{J}(z)| < \frac{2\pi}{n+1}$. Then, for all $f \in F$, the conditions $\sigma(u)f = 0$ and $\rho(\exp u)f = f$ are equivalent.*
+*Let $u \in \mathscr{L}(E)$ be such that every $z \in \mathrm{Sp}\,u$ satisfies $|\mathscr{J}(z)| < \frac{2\pi}{n+1}$. Then, for all $f \in F$, the conditions $\sigma(u)f = 0$ and $\rho(\exp u)f = f$ are equivalent.*
 
 $\mathbf{L}(\rho) = \sigma$ (§ 3, no. 11, Corollary 1 to Proposition 41) and hence
 
@@ -696,9 +696,9 @@ $$
 
 (no. 4, Corollary 3 to Proposition 10). By Proposition 18 it then suffices to prove that $\mathrm{Sp}\,\sigma(u)$ does not meet $2i\pi(\mathbf{Z} - \{0\})$. But this follows from the following lemma:
 
-*Lemma 6. If $v \in \mathcal{L}(E)$, then $\mathrm{Sp}\,\sigma(v) \subset \mathrm{Sp}\,v + \mathrm{Sp}\,v + \cdots + \mathrm{Sp}\,v$, where the sum comprises $n+1$ terms.*
+*Lemma 6. If $v \in \mathscr{L}(E)$, then $\mathrm{Sp}\,\sigma(v) \subset \mathrm{Sp}\,v + \mathrm{Sp}\,v + \cdots + \mathrm{Sp}\,v$, where the sum comprises $n+1$ terms.*
 
-We define elements $v_0, v_1, \ldots, v_n$ of $\mathcal{L}(F)$ by writing, for all $f \in F$,
+We define elements $v_0, v_1, \ldots, v_n$ of $\mathscr{L}(F)$ by writing, for all $f \in F$,
 
 $$
 \begin{align*}
@@ -707,18 +707,18 @@ $$
 \end{align*}
 $$
 
-Then $\sigma(v) = \sum_{i=0}^n v_i$ and the $v_i$ are pairwise permutable. Let A be the total closed subalgebra of $\mathcal{L}(F)$ generated by the $v_i$; it is commutative (*Spectral Theories*, Chapter I, § 1, no. 4) and $\mathrm{Sp}_{\mathcal{L}(F)} v' = \mathrm{Sp}_A v' \subset \sum_{i=0}^n \mathrm{Sp}\,v_i$ (*Spectral Theories*, Chapter I, § 3, Proposition 3 (ii)). Now, if $\lambda \in \mathbf{C}$ is such that $v - \lambda$ is invertible, clearly the $v_i - \lambda_i$ are invertible and hence $\mathrm{Sp}\,v_i \subset \mathrm{Sp}\,v$ for all $i$.
+Then $\sigma(v) = \sum_{i=0}^n v_i$ and the $v_i$ are pairwise permutable. Let A be the total closed subalgebra of $\mathscr{L}(F)$ generated by the $v_i$; it is commutative (*Spectral Theories*, Chapter I, § 1, no. 4) and $\mathrm{Sp}_{\mathscr{L}(F)} v' = \mathrm{Sp}_A v' \subset \sum_{i=0}^n \mathrm{Sp}\,v_i$ (*Spectral Theories*, Chapter I, § 3, Proposition 3 (ii)). Now, if $\lambda \in \mathbf{C}$ is such that $v - \lambda$ is invertible, clearly the $v_i - \lambda_i$ are invertible and hence $\mathrm{Sp}\,v_i \subset \mathrm{Sp}\,v$ for all $i$.
 
 #### Corollary 2 {#lie-iii-s6-prop-18-cor-2 .statement}
 
-*Let E be a complete normable algebra over $\mathbf{C}$ and $w \in \mathcal{L}(E)$. Suppose that every $z \in \mathrm{Sp}\,w$ satisfies $|\mathcal{J}(z)| < \frac{2\pi}{3}$. The following conditions are equivalent:*
+*Let E be a complete normable algebra over $\mathbf{C}$ and $w \in \mathscr{L}(E)$. Suppose that every $z \in \mathrm{Sp}\,w$ satisfies $|\mathscr{J}(z)| < \frac{2\pi}{3}$. The following conditions are equivalent:*
 (i) *w is a derivation of E;*
 (ii) *exp w is an automorphism of E.*
 This follows from Corollary 1 with $n = 2$ and $f$ the multiplication of E.
 
 #### Proposition 19 {#lie-iii-s6-prop-19 .statement}
 
-Let E be a complete normable space over $\mathbf{C}$, $v \in \mathcal{L}(E)$ and $g = \exp v$. Suppose that every $z \in \mathrm{Sp}\, v$ satisfies $-\pi < \mathscr{J}(z) < \pi$. Then, for every closed vector subspace $E'$ of $E$, the conditions $v(E') \subset E'$ and $g(E') = E'$ are equivalent.
+Let E be a complete normable space over $\mathbf{C}$, $v \in \mathscr{L}(E)$ and $g = \exp v$. Suppose that every $z \in \mathrm{Sp}\, v$ satisfies $-\pi < \mathscr{J}(z) < \pi$. Then, for every closed vector subspace $E'$ of $E$, the conditions $v(E') \subset E'$ and $g(E') = E'$ are equivalent.
 
 The condition $v(E') \subset E'$ implies $g(E') \subset E'$ and $g^{-1}(E') \subset E'$ and hence $g(E') = E'$. Suppose that $g(E') = E'$. We use the notation $\Delta, \Delta'$ of Proposition 17. Since $\mathrm{Sp}\, v$ is a compact subset of $\Delta$, there exists a compact rectangle $Q = (a, b) \times (a', b')$ such that $\mathrm{Sp}\, v \subset Q \subset \Delta$. The set $\Delta - Q$ is connected. Hence $\mathrm{Sp}\, g \subset \exp Q \subset \Delta'$, the set $\exp Q$ is compact and the set $\Delta' - \exp Q$ is connected. The closure of the latter contains $]-\infty, 0]$ and hence
 
@@ -726,13 +726,13 @@ $$
 (\Delta' - \exp Q) \cup ]-\infty, 0] = \mathbf{C} - \exp Q
 $$
 
-is connected. Then $\exp Q$ is polynomially convex (*Spectral Theories*, Chapter I, § 3, Corollary 2 to Proposition 9) and hence the function $\log$, defined on $\Delta'$, is a limit in $\mathcal{O}(\exp Q)$ of polynomial functions (*Spectral Theories*, Chapter I, § 4, Proposition 3). Hence $v = \log g$ is the limit in $\mathcal{L}(E)$ of elements of the form $P(g)$, where $P$ is a polynomial (*Spectral Theories*, Chapter I, § 4, Theorem 3). As $P(g)(E') \subset E'$, it follows that $v(E') \subset E'$.
+is connected. Then $\exp Q$ is polynomially convex (*Spectral Theories*, Chapter I, § 3, Corollary 2 to Proposition 9) and hence the function $\log$, defined on $\Delta'$, is a limit in $\mathscr{O}(\exp Q)$ of polynomial functions (*Spectral Theories*, Chapter I, § 4, Proposition 3). Hence $v = \log g$ is the limit in $\mathscr{L}(E)$ of elements of the form $P(g)$, where $P$ is a polynomial (*Spectral Theories*, Chapter I, § 4, Theorem 3). As $P(g)(E') \subset E'$, it follows that $v(E') \subset E'$.
 
 #### Corollary {#lie-iii-s6-n9-cor-1 .statement}
 
-Let E be a complete normed space over $\mathbf{C}$, $v \in \mathcal{L}(E)$ and $g = \exp v$. Suppose that every $z \in \mathrm{Sp}\, v$ satisfies $-\frac{\pi}{2} < \mathscr{J}(z) < \frac{\pi}{2}$. Then, for every closed vector subspace M of $\mathcal{L}(E)$, the conditions $gMg^{-1} = M$ and $[v, M] \subset M$ are equivalent.
+Let E be a complete normed space over $\mathbf{C}$, $v \in \mathscr{L}(E)$ and $g = \exp v$. Suppose that every $z \in \mathrm{Sp}\, v$ satisfies $-\frac{\pi}{2} < \mathscr{J}(z) < \frac{\pi}{2}$. Then, for every closed vector subspace M of $\mathscr{L}(E)$, the conditions $gMg^{-1} = M$ and $[v, M] \subset M$ are equivalent.
 
-Let $F = \mathcal{L}(E)$, $g'$ be the mapping $f \mapsto gfg^{-1}$ of F into F and $v'$ be the mapping $f \mapsto [v, f]$ of F into F. Then $g' = \exp v'$ (no. 4, Corollary 3 to Proposition 10 and § 3, no. 11, Corollary 1 to Proposition 41). Lemma 6 proves that $-\pi < \mathscr{J}(z) < \pi$ for all $z \in \mathrm{Sp}\, v'$. It then suffices to apply Proposition 19.
+Let $F = \mathscr{L}(E)$, $g'$ be the mapping $f \mapsto gfg^{-1}$ of F into F and $v'$ be the mapping $f \mapsto [v, f]$ of F into F. Then $g' = \exp v'$ (no. 4, Corollary 3 to Proposition 10 and § 3, no. 11, Corollary 1 to Proposition 41). Lemma 6 proves that $-\pi < \mathscr{J}(z) < \pi$ for all $z \in \mathrm{Sp}\, v'$. It then suffices to apply Proposition 19.
 
 ### 10. COMPLEXIFICATION OF A FINITE-DIMENSIONAL REAL LIE GROUP
 

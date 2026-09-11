@@ -52,7 +52,7 @@ subsections:
       pdf_page: 208
 statements: 76
 exercises: 30
-content_sha256: 0c0aa45c037a0c8db2516693270edab5bbaa40d762cc847d1c6ef8d1e66d7d67
+content_sha256: 3f34d03c17af69dcb6ca6302fb7276084dfce77fc9f667bd12f597b4544f7495
 ---
 
 ## § 6. Groupes de Lie réels ou complexes
@@ -73,11 +73,11 @@ Pour $(g, h) \in G \times H$ et $U$ voisinage ouvert de $e$ dans $W$, soit $A(g,
 $$
 (su', tf(u')) = (guu', hf(uu')) \in A(g, h, U)
 $$
-donc $A(s, t, U') \subset A(g, h, U)$. Il résulte de là que les $A(g, h, U)$ forment la base d’une topologie sur $G \times H$. Nous noterons $Y$ l’ensemble $G \times H$ muni de cette topologie, et désignerons par $p$ la projection canonique de $Y$ sur $G$, qui est ouverte. La restriction de $p$ à $A(g, h, U)$ est un homéomorphisme de $A(g, h, U)$ sur $gU$. Donc $(Y, p)$ est un revêtement de $G$. Soit $Y_0$ le sous-groupe de $Y$ engendré par $A(e, e, W)$, et soit $\mathcal{B}$ l’ensemble des $A(e, e, U)$. Il est clair que $\mathcal{B}$ vérifie les conditions $(GV'_I)$ et $(GV'_{II})$ de TG, III, § 1, n° 2. L’ensemble $Y'_0$ des $y \in Y_0$ tels que les applications $z \mapsto yzy^{-1}$ et $z \mapsto y^{-1}zy$ de $Y_0$ dans $Y_0$ soient continues en $(e, e)$ est un sous-groupe de $Y_0$. Soit $w \in W$. L’application $w' \mapsto ww'w^{-1}$ de $W$ dans $G$ est continue, donc l’application $(w', f(w')) \mapsto (ww'w^{-1}, f(ww'w^{-1}))$ de $A(e, e, W)$ dans $Y$ est continue en $(e, e)$. Or $f(ww'w^{-1}) = f(w)f(w')f(w^{-1})$, et par suite
+donc $A(s, t, U') \subset A(g, h, U)$. Il résulte de là que les $A(g, h, U)$ forment la base d’une topologie sur $G \times H$. Nous noterons $Y$ l’ensemble $G \times H$ muni de cette topologie, et désignerons par $p$ la projection canonique de $Y$ sur $G$, qui est ouverte. La restriction de $p$ à $A(g, h, U)$ est un homéomorphisme de $A(g, h, U)$ sur $gU$. Donc $(Y, p)$ est un revêtement de $G$. Soit $Y_0$ le sous-groupe de $Y$ engendré par $A(e, e, W)$, et soit $\mathscr{B}$ l’ensemble des $A(e, e, U)$. Il est clair que $\mathscr{B}$ vérifie les conditions $(GV'_I)$ et $(GV'_{II})$ de TG, III, § 1, n° 2. L’ensemble $Y'_0$ des $y \in Y_0$ tels que les applications $z \mapsto yzy^{-1}$ et $z \mapsto y^{-1}zy$ de $Y_0$ dans $Y_0$ soient continues en $(e, e)$ est un sous-groupe de $Y_0$. Soit $w \in W$. L’application $w' \mapsto ww'w^{-1}$ de $W$ dans $G$ est continue, donc l’application $(w', f(w')) \mapsto (ww'w^{-1}, f(ww'w^{-1}))$ de $A(e, e, W)$ dans $Y$ est continue en $(e, e)$. Or $f(ww'w^{-1}) = f(w)f(w')f(w^{-1})$, et par suite
 $$
 (ww'w^{-1}, f(ww'w^{-1})) = (w, f(w))(w', f(w'))(w, f(w))^{-1}.
 $$
-Comme $w^{-1} \in W$, on voit que $(w, f(w)) \in Y'_0$. Ainsi, $A(e, e, W) \subset Y'_0$, de sorte que $Y'_0 = Y_0$. Le groupe $Y_0$, muni de la base de filtre $\mathcal{B}$, vérifie donc la condition $(GV'_{III})$ de TG, III, § 1, n° 2. Comme $(g, h) . A(e, e, U) = A(g, h, U)$, $Y_0$ est un groupe topologique, connexe puisque $A(e, e, W)$ est connexe. Alors $p(Y_0)$ est un sous-groupe ouvert de $G$, d’où $p(Y_0) = G$ puisque $G$ est connexe. Le noyau de $p|Y_0$ est discret. Comme $G$ est simplement connexe, $p|Y_0$ est un homéomorphisme de $Y_0$ sur $G$. Par suite, $Y_0$ est le graphe d’un morphisme $f'$ de $G$ dans $H$. Pour $g \in W$, on a $(g, f(g)) \in A(e, e, W) \subset Y_0$, d’où $f(g) = f'(g)$.
+Comme $w^{-1} \in W$, on voit que $(w, f(w)) \in Y'_0$. Ainsi, $A(e, e, W) \subset Y'_0$, de sorte que $Y'_0 = Y_0$. Le groupe $Y_0$, muni de la base de filtre $\mathscr{B}$, vérifie donc la condition $(GV'_{III})$ de TG, III, § 1, n° 2. Comme $(g, h) . A(e, e, U) = A(g, h, U)$, $Y_0$ est un groupe topologique, connexe puisque $A(e, e, W)$ est connexe. Alors $p(Y_0)$ est un sous-groupe ouvert de $G$, d’où $p(Y_0) = G$ puisque $G$ est connexe. Le noyau de $p|Y_0$ est discret. Comme $G$ est simplement connexe, $p|Y_0$ est un homéomorphisme de $Y_0$ sur $G$. Par suite, $Y_0$ est le graphe d’un morphisme $f'$ de $G$ dans $H$. Pour $g \in W$, on a $(g, f(g)) \in A(e, e, W) \subset Y_0$, d’où $f(g) = f'(g)$.
 
 $^1$ Cf. le chap. XI de TG (à paraître). Il est prouvé dans ce chapitre que si $G_1, G_2$ sont des groupes topologiques connexes, si $\varphi$ est un homomorphisme continu ouvert de $G_1$ sur $G_2$ à noyau discret, et si $G_2$ est simplement connexe, alors $\varphi$ est un homéomorphisme. Rappelons d’autre part qu’un espace simplement connexe est connexe.
 
@@ -284,7 +284,7 @@ La conclusion de la prop. 5 ne subsiste pas nécessairement si G n’est pas sup
 
 Soit G un groupe de Lie complexe connexe. Si G est compact, G est commutatif.
 
-L’application holomorphe g ↦ Ad g de G dans $\mathcal{L}(L(G))$ est constante (VAR, R, 3.3.7), donc ad $a = 0$ pour tout $a \in L(G)$ ($§ 3$, n° 12, prop. 44). Donc G est commutatif ($§ 4$, cor. 3 du th. 1).
+L’application holomorphe g ↦ Ad g de G dans $\mathscr{L}(L(G))$ est constante (VAR, R, 3.3.7), donc ad $a = 0$ pour tout $a \in L(G)$ ($§ 3$, n° 12, prop. 44). Donc G est commutatif ($§ 4$, cor. 3 du th. 1).
 
 ### 4. Application exponentielle
 
@@ -429,7 +429,7 @@ La fonction entière $z \mapsto \sum_{n \geq 0} \frac{1}{(n + 1)!} z^n$, égale 
 
 #### Lemme 2 {#lie-iii-s6-lem-2 .statement}
 
-*Soient E un espace de Banach complexe, u un élément de $\mathcal{L}(E)$, S le spectre de u dans $\mathcal{L}(E)$ (TS, I, § 1, n° 2), f une fonction complexe holomorphe dans un voisinage ouvert Ω de S. On suppose que f n’admet dans Ω qu’un nombre fini de zéros $z_1, \ldots, z_n$ deux à deux distincts, de multiplicités $h_1, \ldots, h_n$. Alors Kerf(u) est somme directe des Ker$(u - z_i)^{h_i}$ pour $1 \leq i \leq n$.
+*Soient E un espace de Banach complexe, u un élément de $\mathscr{L}(E)$, S le spectre de u dans $\mathscr{L}(E)$ (TS, I, § 1, n° 2), f une fonction complexe holomorphe dans un voisinage ouvert Ω de S. On suppose que f n’admet dans Ω qu’un nombre fini de zéros $z_1, \ldots, z_n$ deux à deux distincts, de multiplicités $h_1, \ldots, h_n$. Alors Kerf(u) est somme directe des Ker$(u - z_i)^{h_i}$ pour $1 \leq i \leq n$.
 
 (Pour la définition de f(u), voir TS, I, § 4, n° 8.)
 
@@ -450,7 +450,7 @@ $$
 \Leftrightarrow &(\exp L(\rho)a)x \equiv x \pmod{E_2} \quad \text{pour tout } a \in L(G) \text{ et tout } x \in E_1.
 \end{align*}
 $$
-D’autre part, si u ∈ $\mathcal{L}(E)$, on a
+D’autre part, si u ∈ $\mathscr{L}(E)$, on a
 $$
 \begin{align*}
 &\exp(\lambda u)x \equiv x \pmod{E_2} \quad \text{pour tout } \lambda \in K \text{ et tout } x \in E_1 \\
@@ -476,10 +476,10 @@ Il suffit de faire E₁ = Kx, E₂ = 0 dans la prop. 13.
 
 #### Corollaire 4 {#lie-iii-s6-prop-13-cor-4 .statement}
 
-Soit ρ' une autre représentation linéaire analytique de G dans un espace normable complet E'. Soit T ∈ $\mathcal{L}(E, E')$. Les conditions suivantes sont équivalentes:
+Soit ρ' une autre représentation linéaire analytique de G dans un espace normable complet E'. Soit T ∈ $\mathscr{L}(E, E')$. Les conditions suivantes sont équivalentes:
 (i) Tρ(g) = ρ'(g)T pour tout g ∈ G;
 (ii) TL(ρ)(a) = L(ρ')(a)T pour tout a ∈ L(G).
-Soit σ la représentation linéaire de G dans $\mathcal{L}(E, E')$ déduite de ρ et ρ' (§ 3, n° 11, cor. 1 de la prop. 41). La condition (i) signifie que T est invariant par σ(G). La condition (ii) signifie que T est annulé par L(σ)(L(G)). Il suffit alors d’appliquer le cor. 3.
+Soit σ la représentation linéaire de G dans $\mathscr{L}(E, E')$ déduite de ρ et ρ' (§ 3, n° 11, cor. 1 de la prop. 41). La condition (i) signifie que T est invariant par σ(G). La condition (ii) signifie que T est annulé par L(σ)(L(G)). Il suffit alors d’appliquer le cor. 3.
 
 #### Corollaire 5 {#lie-iii-s6-prop-13-cor-5 .statement}
 
@@ -607,7 +607,7 @@ Soient $x \in X$, et A l’ensemble des $g \in G$ tels que $f_1(g, x) = f_2(g, x
 
 #### Proposition 17 {#lie-iii-s6-prop-17 .statement}
 
-Soient $\Delta$ l’ensemble des $z \in \mathbf{C}$ tels que $-\pi < \mathcal{J}(z) < \pi$, et $\Delta'$ l’ensemble des $z \in \mathbf{C}$ qui ne sont pas réels $\leqslant 0$. Soient $E$ un espace normable complet sur $\mathbf{C}$, $A$ (resp. $A'$) l’ensemble des $x \in \mathcal{L}(E)$ dont le spectre $\mathrm{Sp}\,x$ est contenu dans $\Delta$ (resp. dans $\Delta'$). Alors $A$ (resp. $A'$) est une partie ouverte de $\mathcal{L}(E)$ (resp. de $\mathbf{GL}(E)$), et les applications $\exp : A \to A'$ et $\log : A' \to A$ (TS, I, § 4, n° 9) sont des isomorphismes réciproques de variétés analytiques.
+Soient $\Delta$ l’ensemble des $z \in \mathbf{C}$ tels que $-\pi < \mathscr{J}(z) < \pi$, et $\Delta'$ l’ensemble des $z \in \mathbf{C}$ qui ne sont pas réels $\leqslant 0$. Soient $E$ un espace normable complet sur $\mathbf{C}$, $A$ (resp. $A'$) l’ensemble des $x \in \mathscr{L}(E)$ dont le spectre $\mathrm{Sp}\,x$ est contenu dans $\Delta$ (resp. dans $\Delta'$). Alors $A$ (resp. $A'$) est une partie ouverte de $\mathscr{L}(E)$ (resp. de $\mathbf{GL}(E)$), et les applications $\exp : A \to A'$ et $\log : A' \to A$ (TS, I, § 4, n° 9) sont des isomorphismes réciproques de variétés analytiques.
 
 Cela résulte de TS, I, § 4, prop. 10 et n° 9.
 
@@ -615,7 +615,7 @@ Cela résulte de TS, I, § 4, prop. 10 et n° 9.
 
 Soient $E$ un espace hilbertien réel ou complexe, $U$ le groupe unitaire de $E$.
 
-(i) L’ensemble $H$ des éléments hermitiens de $\mathcal{L}(E)$ est, pour la structure d’espace normé réel, un sous-espace vectoriel fermé de $\mathcal{L}(E)$ admettant un supplémentaire topologique.
+(i) L’ensemble $H$ des éléments hermitiens de $\mathscr{L}(E)$ est, pour la structure d’espace normé réel, un sous-espace vectoriel fermé de $\mathscr{L}(E)$ admettant un supplémentaire topologique.
 
 (ii) L’ensemble $H'$ des éléments $\geqslant 0$ de $\mathbf{GL}(E)$ est une sous-variété analytique réelle de $\mathbf{GL}(E)$.
 
@@ -623,7 +623,7 @@ Soient $E$ un espace hilbertien réel ou complexe, $U$ le groupe unitaire de $E$
 
 (iv) L’application $(h, u) \mapsto (\exp h)u$ de $H \times U$ dans $\mathbf{GL}(E)$ est un isomorphisme de variétés analytiques réelles.
 
-Rappelons que, si $x \in \mathcal{L}(E)$, on note $x^*$ l’adjoint de $x$. Soit $H_1$ l’ensemble des $x \in \mathcal{L}(E)$ tels que $x^* = -x$. La formule $x = \frac{1}{2}(x + x^*) + \frac{1}{2}(x - x^*)$ prouve que, pour sa structure d’espace normé réel, $\mathcal{L}(E)$ est somme directe topologique de $H$ et $H_1$, d’où (i).
+Rappelons que, si $x \in \mathscr{L}(E)$, on note $x^*$ l’adjoint de $x$. Soit $H_1$ l’ensemble des $x \in \mathscr{L}(E)$ tels que $x^* = -x$. La formule $x = \frac{1}{2}(x + x^*) + \frac{1}{2}(x - x^*)$ prouve que, pour sa structure d’espace normé réel, $\mathscr{L}(E)$ est somme directe topologique de $H$ et $H_1$, d’où (i).
 
 Supposons $K = \mathbf{C}$. Avec les notations de la prop. 17, $H'$ est l’ensemble des $h \in H \cap A'$ tels que $\mathrm{Sp}\,h \subset \mathbf{R}_+^*$. Comme $\exp(\mathbf{R}) = \mathbf{R}_+^*$, (ii) et (iii) résultent de la prop. 17 et de TS, I, § 4, prop. 8 et § 6, n° 5. L’application $(h, u) \mapsto y = (\exp h)u$ de $H \times U$ dans $\mathbf{GL}(E)$ est bijective d’après TS, I, § 6, prop. 15. Elle est analytique réelle d’après ce qui précède. L’application $y \mapsto h = \frac{1}{2} \log(y y^*)$ est analytique réelle, donc aussi l’application $y \mapsto u = (\exp h)^{-1}y$. D’où (iv).
 
@@ -631,13 +631,13 @@ Supposons $K = \mathbf{R}$. Soient $\tilde{E}$ l’espace hilbertien complexifi�
 
 #### Proposition 18 {#lie-iii-s6-prop-18 .statement}
 
-Soient $E$ un espace normable complet sur $\mathbf{C}$, $v \in \mathcal{L}(E)$, et $g = \exp v$. On suppose que $\mathrm{Sp}(v)$ ne contient aucun des points $2i\pi n$ avec $n \in \mathbf{Z} - \{0\}$. Alors, pour tout $x \in E$, les conditions $vx = 0$ et $gx = x$ sont équivalentes.
+Soient $E$ un espace normable complet sur $\mathbf{C}$, $v \in \mathscr{L}(E)$, et $g = \exp v$. On suppose que $\mathrm{Sp}(v)$ ne contient aucun des points $2i\pi n$ avec $n \in \mathbf{Z} - \{0\}$. Alors, pour tout $x \in E$, les conditions $vx = 0$ et $gx = x$ sont équivalentes.
 
 Cela résulte du lemme 2 du n° 4, appliqué à la fonction $z \mapsto e^z - 1$.
 
 #### Corollaire 1 {#lie-iii-s6-prop-18-cor-1 .statement}
 
-Soient $E$ un espace normable complet sur $\mathbf{C}$, $F$ l’espace des applications n-linéaires continues de $E^n$ dans $E$. Pour tout $v \in \mathcal{L}(E)$, soit $\sigma(v)$ l’élément de $\mathcal{L}(F)$ défini par
+Soient $E$ un espace normable complet sur $\mathbf{C}$, $F$ l’espace des applications n-linéaires continues de $E^n$ dans $E$. Pour tout $v \in \mathscr{L}(E)$, soit $\sigma(v)$ l’élément de $\mathscr{L}(F)$ défini par
 $$
 (\sigma(v)f)(x_1, \ldots, x_n) = v(f(x_1, \ldots, x_n)) - \sum_{i=1}^n f(x_1, \ldots, vx_i, \ldots, x_n).
 $$
@@ -645,26 +645,26 @@ Pour tout $g \in \mathbf{GL}(E)$, soit $\rho(g)$ l’élément de $\mathbf{GL}(F
 $$
 (\rho(g)f)(x_1, \ldots, x_n) = g(f(g^{-1}x_1, \ldots, g^{-1}x_n)).
 $$
-Soit $u \in \mathcal{L}(E)$ tel que tout $z \in \mathrm{Sp}\,u$ vérifie $|\mathcal{J}(z)| < \frac{2\pi}{n+1}$. Alors, pour tout $f \in F$, les conditions $\sigma(u)f = 0$ et $\rho(\exp u)f = f$ sont équivalentes.
+Soit $u \in \mathscr{L}(E)$ tel que tout $z \in \mathrm{Sp}\,u$ vérifie $|\mathscr{J}(z)| < \frac{2\pi}{n+1}$. Alors, pour tout $f \in F$, les conditions $\sigma(u)f = 0$ et $\rho(\exp u)f = f$ sont équivalentes.
 
 On a $\mathbf{L}(\rho) = \sigma$ (§ 3, no 11, cor. 1 de la prop. 41), donc $\rho(\exp u) = \exp \sigma(u)$ (no 4, cor. 3 de la prop. 10). Compte tenu de la prop. 18, il suffit alors de prouver que $\mathrm{Sp}\,\sigma(u)$ ne rencontre pas $2i\pi(\mathbf{Z} - \{0\})$. Or cela résulte du lemme suivant:
 
 #### Lemme 6 {#lie-iii-s6-lem-6 .statement}
 
-Si $v \in \mathcal{L}(E)$, on a $\mathrm{Sp}\,\sigma(v) \subset \mathrm{Sp}\,v + \mathrm{Sp}\,v + \cdots + \mathrm{Sp}\,v$ où la somme comporte $n+1$ termes.
+Si $v \in \mathscr{L}(E)$, on a $\mathrm{Sp}\,\sigma(v) \subset \mathrm{Sp}\,v + \mathrm{Sp}\,v + \cdots + \mathrm{Sp}\,v$ où la somme comporte $n+1$ termes.
 
-Définissons des éléments $v_0, v_1, \ldots, v_n$ de $\mathcal{L}(F)$ en posant, pour tout $f \in F$,
+Définissons des éléments $v_0, v_1, \ldots, v_n$ de $\mathscr{L}(F)$ en posant, pour tout $f \in F$,
 $$
 \begin{align*}
 (v_0f)(x_1, \ldots, x_n) &= v(f(x_1, \ldots, x_n)) \\
 (v_if)(x_1, \ldots, x_n) &= -f(x_1, \ldots, vx_i, \ldots, x_n) \quad \text{pour } 1 \leq i \leq n.
 \end{align*}
 $$
-Alors $\sigma(v) = \sum_{i=0}^n v_i$, et les $v_i$ sont deux à deux permutables. Soit $A$ la sous-algèbre fermée pleine de $\mathcal{L}(F)$ engendrée par les $v_i$; elle est commutative (TS, I, § 1, no 4), et $\mathrm{Sp}_{\mathcal{L}(F)} v' = \mathrm{Sp}_A v' \subset \sum_{i=0}^n \mathrm{Sp}\,v_i$ (TS, I, § 3, prop. 3 (ii)). Or, si $\lambda \in \mathbf{C}$ est tel que $v - \lambda$ soit inversible, il est clair que les $v_i - \lambda$ sont inversibles, donc $\mathrm{Sp}\,v_i \subset \mathrm{Sp}\,v$ pour tout $i$.
+Alors $\sigma(v) = \sum_{i=0}^n v_i$, et les $v_i$ sont deux à deux permutables. Soit $A$ la sous-algèbre fermée pleine de $\mathscr{L}(F)$ engendrée par les $v_i$; elle est commutative (TS, I, § 1, no 4), et $\mathrm{Sp}_{\mathscr{L}(F)} v' = \mathrm{Sp}_A v' \subset \sum_{i=0}^n \mathrm{Sp}\,v_i$ (TS, I, § 3, prop. 3 (ii)). Or, si $\lambda \in \mathbf{C}$ est tel que $v - \lambda$ soit inversible, il est clair que les $v_i - \lambda$ sont inversibles, donc $\mathrm{Sp}\,v_i \subset \mathrm{Sp}\,v$ pour tout $i$.
 
 #### Corollaire 2 {#lie-iii-s6-lem-6-cor-2 .statement}
 
-Soient $E$ une algèbre normable complète sur $\mathbf{C}$, et $w \in \mathcal{L}(E)$. On suppose que tout $z \in \mathrm{Sp}\,w$ vérifie $|\mathcal{J}(z)| < \frac{2\pi}{3}$. Les conditions suivantes sont équivalentes:
+Soient $E$ une algèbre normable complète sur $\mathbf{C}$, et $w \in \mathscr{L}(E)$. On suppose que tout $z \in \mathrm{Sp}\,w$ vérifie $|\mathscr{J}(z)| < \frac{2\pi}{3}$. Les conditions suivantes sont équivalentes:
 (i) $w$ est une dérivation de $E$;
 (ii) $\exp w$ est un automorphisme de $E$.
 
@@ -672,15 +672,15 @@ Cela résulte du cor. 1 où l’on fait $n = 2$ et où l’on prend pour $f$ la 
 
 #### Proposition 19 {#lie-iii-s6-prop-19 .statement}
 
-Soient $E$ un espace normable complet sur $\mathbf{C}$, $v \in \mathcal{L}(E)$, et $g = \exp v$. On suppose que tout $z \in \mathrm{Sp}\,v$ vérifie $-\pi < \mathcal{J}(z) < \pi$. Alors, pour tout sous-espace vectoriel fermé $E'$ de $E$, les conditions $v(E') \subset E'$ et $g(E') = E'$ sont équivalentes.
+Soient $E$ un espace normable complet sur $\mathbf{C}$, $v \in \mathscr{L}(E)$, et $g = \exp v$. On suppose que tout $z \in \mathrm{Sp}\,v$ vérifie $-\pi < \mathscr{J}(z) < \pi$. Alors, pour tout sous-espace vectoriel fermé $E'$ de $E$, les conditions $v(E') \subset E'$ et $g(E') = E'$ sont équivalentes.
 
 La condition $v(E') \subset E'$ entraîne $g(E') \subset E'$ et $g^{-1}(E') \subset E'$ donc $g(E') = E'$. Supposons $g(E') = E'$. Utilisons les notations $\Delta, \Delta'$ de la prop. 17. Puisque $\mathrm{Sp}\,v$
 
 #### Corollaire {#lie-iii-s6-n9-cor-1 .statement}
 
-*Soient E un espace normable complet sur $\mathbf{C}$, $v \in \mathcal{L}(E)$, et $g = \exp v$. On suppose que tout $z \in Sp\ v$ vérifie $-\frac{\pi}{2} < \mathcal{J}(z) < \frac{\pi}{2}$. Alors, pour tout sous-espace vectoriel fermé M de $\mathcal{L}(E)$, les conditions $gMg^{-1} = M$ et $[v, M] \subset M$ sont équivalentes.*
+*Soient E un espace normable complet sur $\mathbf{C}$, $v \in \mathscr{L}(E)$, et $g = \exp v$. On suppose que tout $z \in Sp\ v$ vérifie $-\frac{\pi}{2} < \mathscr{J}(z) < \frac{\pi}{2}$. Alors, pour tout sous-espace vectoriel fermé M de $\mathscr{L}(E)$, les conditions $gMg^{-1} = M$ et $[v, M] \subset M$ sont équivalentes.*
 
-Soient $F = \mathcal{L}(E)$, $g'$ l’application $f \mapsto gfg^{-1}$ de $F$ dans $F$, et $v'$ l’application $f \mapsto [v, f]$ de $F$ dans $F$. On a $g' = \exp v'$ (n° 4, cor. 3 de la prop. 10, et § 3, n° 11, cor. 1 de la prop. 41). Le lemme 6 prouve que $-\pi < \mathcal{J}(z) < \pi$ pour tout $z \in Sp\ v'$. Il suffit alors d’appliquer la prop. 19.
+Soient $F = \mathscr{L}(E)$, $g'$ l’application $f \mapsto gfg^{-1}$ de $F$ dans $F$, et $v'$ l’application $f \mapsto [v, f]$ de $F$ dans $F$. On a $g' = \exp v'$ (n° 4, cor. 3 de la prop. 10, et § 3, n° 11, cor. 1 de la prop. 41). Le lemme 6 prouve que $-\pi < \mathscr{J}(z) < \pi$ pour tout $z \in Sp\ v'$. Il suffit alors d’appliquer la prop. 19.
 
 ### 10. Complexification d’un groupe de Lie réel de dimension finie
 

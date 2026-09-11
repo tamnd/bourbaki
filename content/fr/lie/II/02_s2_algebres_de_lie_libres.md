@@ -56,7 +56,7 @@ subsections:
       pdf_page: 28
 statements: 31
 exercises: 16
-content_sha256: 94d37f46a3727af4e40cb66ef6e6c0d9e72be8bac95f1ce35b4437e4dc88ae16
+content_sha256: e57a57489b8fca62cc8ce24592b52056c88394cb2a381631403a04c65d597fa8
 ---
 
 ## § 2. Algèbres de Lie libres
@@ -309,38 +309,38 @@ $$
 
 D’après la formule (18), on a $P_n \supset \sum_{p=1}^{n-1} [P_p, P_{n-p}] \supset [P_1, P_{n-1}] = P_n$, d’où (19).
 
-Lorsque l’on prend $P = g$, la suite $(P_n)$ est la suite centrale descendante $(\mathcal{C}^n g)$ de $g$ (chap. I, § 1, n° 5, 2ème édition).¹ On a donc:
+Lorsque l’on prend $P = g$, la suite $(P_n)$ est la suite centrale descendante $(\mathscr{C}^n g)$ de $g$ (chap. I, § 1, n° 5, 2ème édition).¹ On a donc:
 
 #### Proposition 6 {#lie-ii-s2-prop-6 .statement}
 
-*Soient g une algèbre de Lie et $(\mathcal{C}^n g)_{n \geq 1}$ la suite centrale descendante de g. On a*
+*Soient g une algèbre de Lie et $(\mathscr{C}^n g)_{n \geq 1}$ la suite centrale descendante de g. On a*
 $$
-[\mathcal{C}^m g, \mathcal{C}^n g] \subset \mathcal{C}^{m+n} g \quad \text{pour } m \geq 1 \text{ et } n \geq 1.
+[\mathscr{C}^m g, \mathscr{C}^n g] \subset \mathscr{C}^{m+n} g \quad \text{pour } m \geq 1 \text{ et } n \geq 1.
 $$
 
-Généralisant la déf. 1 du chap. I, § 4, n° 1, nous dirons qu’une algèbre de Lie $g$ est *nilpotente* si $\mathcal{C}^n g = \{0\}$ pour $n$ assez grand. On appelle *classe de nilpotence* d’une algèbre de Lie nilpotente $g$ le plus petit entier $n$ tel que $\mathcal{C}^{n+1} g = \{0\}$.
+Généralisant la déf. 1 du chap. I, § 4, n° 1, nous dirons qu’une algèbre de Lie $g$ est *nilpotente* si $\mathscr{C}^n g = \{0\}$ pour $n$ assez grand. On appelle *classe de nilpotence* d’une algèbre de Lie nilpotente $g$ le plus petit entier $n$ tel que $\mathscr{C}^{n+1} g = \{0\}$.
 
 #### Proposition 7 {#lie-ii-s2-prop-7 .statement}
 
 *Soit X un ensemble et soit n un entier $\geq 1$.*
 a) *On a $L^{n+1}(X) = [L^1(X), L^n(X)]$.*
 b) *Le module $L^n(X)$ est engendré par les éléments $[x_1, [x_2, \ldots, [x_{n-1}, x_n] \ldots]]$ où $(x_1, \ldots, x_n)$ parcourt l’ensemble des suites de n éléments de X.*
-c) *La suite centrale descendante de $L(X)$ est donnée par $\mathcal{C}^n(L(X)) = \sum_{p \geq n} L^p(X)$.*
+c) *La suite centrale descendante de $L(X)$ est donnée par $\mathscr{C}^n(L(X)) = \sum_{p \geq n} L^p(X)$.*
 
 a) Nous appliquerons la prop. 5 avec $g = L(X)$ et $P = L^1(X)$. Par récurrence sur $n$, on déduit de (12) (n° 6) et (19) l’égalité $P_n = L^n(X)$. La relation cherchée équivaut alors à la définition $[P, P_n] = P_{n+1}$.
 b) Cela résulte de a) par récurrence sur $n$.
-c) Posons $g = L(X)$ et $g_n = \sum_{p \geq n} L_p(X)$. On a $g = g_1$ et la formule (13) du n° 6 entraîne $[g_n, g_m] \subset g_{n+m}$, et en particulier $[g, g_n] \subset g_{n+1}$. Par récurrence sur $n$, on a $\mathcal{C}^n g \subset g_n$. Par ailleurs, de a) on déduit $L^n(X) \subset \mathcal{C}^n g$ par récurrence sur $n$. Comme $\mathcal{C}^n g$ est un idéal de $g$, la relation $L^p(X) \subset \mathcal{C}^n g$ entraîne
+c) Posons $g = L(X)$ et $g_n = \sum_{p \geq n} L_p(X)$. On a $g = g_1$ et la formule (13) du n° 6 entraîne $[g_n, g_m] \subset g_{n+m}$, et en particulier $[g, g_n] \subset g_{n+1}$. Par récurrence sur $n$, on a $\mathscr{C}^n g \subset g_n$. Par ailleurs, de a) on déduit $L^n(X) \subset \mathscr{C}^n g$ par récurrence sur $n$. Comme $\mathscr{C}^n g$ est un idéal de $g$, la relation $L^p(X) \subset \mathscr{C}^n g$ entraîne
 $$
-L^{p+1}(X) = [L^1(X), L^p(X)] \subset \mathcal{C}^n g
+L^{p+1}(X) = [L^1(X), L^p(X)] \subset \mathscr{C}^n g
 $$
-d’après a). On a donc $L^p(X) \subset \mathcal{C}^n g$ pour $p \geq n$, d’où $g_n \subset \mathcal{C}^n g$.
+d’après a). On a donc $L^p(X) \subset \mathscr{C}^n g$ pour $p \geq n$, d’où $g_n \subset \mathscr{C}^n g$.
 
 #### Corollaire {#lie-ii-s2-n7-cor-1 .statement}
 
-*Soient g une algèbre de Lie et $(x_i)_{i \in I}$ une famille génératrice dans g. Le n-ième terme $\mathcal{C}^n g$ de la suite centrale descendante de g est le module engendré par les crochets itérés $[x_{i_1}, [x_{i_2}, \ldots, [x_{i_{p-1}}, x_{i_p}] \ldots]]$ pour $p \geq n$ et $i_1, \ldots, i_p$ dans I.*
-Soit $f$ l’homomorphisme de $L(I)$ dans $g$ tel que $f(i) = x_i$ pour tout $i \in I$. Comme $(x_i)_{i \in I}$ engendre $g$, on a $g = f(L(I))$, d’où $\mathcal{C}^n g = f(\mathcal{C}^n(L(I)))$ d’après la prop. 4 du chap. I, § 1, n° 5. Le corollaire résulte alors des assertions b) et c) de la prop. 7.
+*Soient g une algèbre de Lie et $(x_i)_{i \in I}$ une famille génératrice dans g. Le n-ième terme $\mathscr{C}^n g$ de la suite centrale descendante de g est le module engendré par les crochets itérés $[x_{i_1}, [x_{i_2}, \ldots, [x_{i_{p-1}}, x_{i_p}] \ldots]]$ pour $p \geq n$ et $i_1, \ldots, i_p$ dans I.*
+Soit $f$ l’homomorphisme de $L(I)$ dans $g$ tel que $f(i) = x_i$ pour tout $i \in I$. Comme $(x_i)_{i \in I}$ engendre $g$, on a $g = f(L(I))$, d’où $\mathscr{C}^n g = f(\mathscr{C}^n(L(I)))$ d’après la prop. 4 du chap. I, § 1, n° 5. Le corollaire résulte alors des assertions b) et c) de la prop. 7.
 
-¹ Avec la définition adoptée dans la première édition du chap. I, on aurait $P_n = \mathcal{C}^{n-1} g$.
+¹ Avec la définition adoptée dans la première édition du chap. I, on aurait $P_n = \mathscr{C}^{n-1} g$.
 
 ### 8. Dérivations des algèbres de Lie libres
 
@@ -570,7 +570,7 @@ Supposons désormais que $X$ ait au moins deux éléments; choisissons des suite
 
 On a $L_0 = \{0\}$ et $g_0 = L(X)$, et le lemme est vrai pour $p = 0$. Raisonnons par récurrence sur $p$. Supposons donc que le lemme soit vrai pour un entier $p \geq 0$. Posons $u_{i,w} = (\mathrm{ad}\ \overline{w}_p)^i.\overline{w} = \Psi(w_p^i w)$ pour $i \geq 0, w \in P_p, w \neq w_p$. D’après le cor.
 
-de la prop. 10 du n° 9, l’algèbre de Lie libre $g_p$ est somme directe du module $T_p$ de base $\{ \overline{w}_p \}$ et d’une sous-algèbre de Lie $h_p$ admettant $\mathcal{F} = (u_{i,w})_{i \geq 0, w \in P_p, w \neq w_p}$ pour famille basique. D’après la prop. 13d), la famille $(\overline{u})_{u \in P_{p+1}}$ est égale à $\mathcal{F}$, donc est une famille basique de $h_p = g_{p+1}$. On a donc $L(X) = L_p \oplus T_p \oplus g_{p+1}$ et comme $L_{p+1} = L_p + T_p$, on a $L(X) = L_{p+1} \oplus g_{p+1}$ et $(\overline{w}_0, \overline{w}_1, \ldots, \overline{w}_{p-1}, \overline{w}_p)$ est une base du module $L_{p+1}$.
+de la prop. 10 du n° 9, l’algèbre de Lie libre $g_p$ est somme directe du module $T_p$ de base $\{ \overline{w}_p \}$ et d’une sous-algèbre de Lie $h_p$ admettant $\mathscr{F} = (u_{i,w})_{i \geq 0, w \in P_p, w \neq w_p}$ pour famille basique. D’après la prop. 13d), la famille $(\overline{u})_{u \in P_{p+1}}$ est égale à $\mathscr{F}$, donc est une famille basique de $h_p = g_{p+1}$. On a donc $L(X) = L_p \oplus T_p \oplus g_{p+1}$ et comme $L_{p+1} = L_p + T_p$, on a $L(X) = L_{p+1} \oplus g_{p+1}$ et $(\overline{w}_0, \overline{w}_1, \ldots, \overline{w}_{p-1}, \overline{w}_p)$ est une base du module $L_{p+1}$.
 
 C.Q.F.D.
 

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 185
 statements: 15
 exercises: 2
-content_sha256: 49437c544b71618efc5dd3ff3097a1aad64022cb699760034bd6e58a21ac0971
+content_sha256: 63c6721da897733190858aca34d40f9c9b449894bd0fc3eae22f6ac4156e5662
 ---
 
 ## § 3. Invariants exponentiels
@@ -248,15 +248,15 @@ x_i = e_i + \sum_{j < i} a_{ij} e_j,
 $$
 pour tout $i \in I$ (avec $a_{ij} \in A$, le support de la famille $(a_{ij})$ étant fini pour tout $i$). Alors $(x_i)_{i \in I}$ est une base de E.
 
-Pour toute partie J de I, soit $E_J$ le sous-module de E de base $(e_i)_{i \in J}$. Soit $\mathcal{S}$ l’ensemble des parties J de I possédant les deux propriétés suivantes :
+Pour toute partie J de I, soit $E_J$ le sous-module de E de base $(e_i)_{i \in J}$. Soit $\mathscr{S}$ l’ensemble des parties J de I possédant les deux propriétés suivantes :
 (a) Si $i' \leq i$ et $i \in J$, on a $i' \in J$;
 (b) $(x_i)_{i \in J}$ est une base de $E_J$.
 
-On vérifie immédiatement que $\mathcal{S}$, ordonné par inclusion, est inductif et non vide. Il possède donc un élément maximal J. Si $J \neq I$, soit $i_0$ un élément minimal de $I - J$ et posons $J' = J \cup \{i_0\}$. Tout élément $i \in I$ tel que $i < i_0$ appartient alors à J : on en déduit que $J'$ satisfait à (a). D’autre part, $J'$ satisfait aussi à (b); en effet, on a
+On vérifie immédiatement que $\mathscr{S}$, ordonné par inclusion, est inductif et non vide. Il possède donc un élément maximal J. Si $J \neq I$, soit $i_0$ un élément minimal de $I - J$ et posons $J' = J \cup \{i_0\}$. Tout élément $i \in I$ tel que $i < i_0$ appartient alors à J : on en déduit que $J'$ satisfait à (a). D’autre part, $J'$ satisfait aussi à (b); en effet, on a
 $$
 e_{i_0} = x_{i_0} - \sum_{j < i_0} a_{i_0 j} e_j
 $$
-d’où (b). Par suite $J' \in \mathcal{S}$, d’où une contradiction. On a donc $J = I$, ce qui démontre le lemme.
+d’où (b). Par suite $J' \in \mathscr{S}$, d’où une contradiction. On a donc $J = I$, ce qui démontre le lemme.
 
 Démontrons maintenant la prop. 3. Nous allons appliquer le lemme 4, avec $I = P \cap \overline{C}$. Soit $q \in I$, et soit $I_q$ l’ensemble des $p \in I$ tels que $p \leq q$. Si $p \in I_q$, les relations
 $$

@@ -52,9 +52,9 @@ subsections:
       pdf_page: 104
 statements: 37
 exercises: 8
-content_sha256: 4c10590dcdd85e413cc212771352ed7928481beeb6dee79d17ddbf50704ebfc1
+content_sha256: e454385c63c78c0ec09056b1a465f87d43af4d9b4e3e9016f14b388fd4040481
 translated_from: content/en/lie/V/03_s3_groups_of_displacements_generated_by.md
-source_content_sha256: 1c842248981aa3499f6d0c694b091d7fdc85d7891f8b8c4597b78898e623b377
+source_content_sha256: 810448206a7af36da88981c3001aa6895e8fee98fb8200d00bc55224171e1c4a
 translation_model: gpt-5-mini, gpt-5-6-mini, gpt-5.4-mini, gpt-5-6
 translation_run: translate-vi-19cfa37a
 glossary_version: 34
@@ -259,7 +259,7 @@ Giả sử bây giờ rằng $H_i$ và $H_j$ không song song. Chọn một gố
 $$
 0 < (\widehat{D}, \widehat{\Delta}) < (\widehat{D}, \widehat{D'}).
 $$
-Gọi $W'$ là nhóm con của W sinh bởi $s_i$ và $s_j$. Với mọi $w \in W'$, các siêu phẳng $w(H_i)$ và $w(H_j)$ thuộc $\mathcal{H}$, chứa $H_i \cap H_j$ và không gặp C. Suy ra rằng chúng không gặp $\Gamma$ ($§ 1$, no. 5, Prop. 10). Hệ quả của Mệnh đề 7 của $§ 2$, no. 5 do đó kéo theo (ii).
+Gọi $W'$ là nhóm con của W sinh bởi $s_i$ và $s_j$. Với mọi $w \in W'$, các siêu phẳng $w(H_i)$ và $w(H_j)$ thuộc $\mathscr{H}$, chứa $H_i \cap H_j$ và không gặp C. Suy ra rằng chúng không gặp $\Gamma$ ($§ 1$, no. 5, Prop. 10). Hệ quả của Mệnh đề 7 của $§ 2$, no. 5 do đó kéo theo (ii).
 
 Cuối cùng, mệnh đề (iii) suy ra ngay lập tức từ (i) và (ii), vì $m_{ij} \geq 2$ với $i \neq j$.
 
@@ -479,7 +479,7 @@ $$
 
 với H'_i = L_i + \varphi_p(x) = \varphi_p(H_i). Hiện giờ ngay lập tức thấy rằng s_i tác động trong E_p bởi phép phản xạ liên kết với siêu phẳng H'_i của E_p. Do đó, nhóm W_p là một nhóm các phép dời chỗ được sinh bởi các phép phản xạ trong E_p; việc kiểm tra tiêu chuẩn đúng (D'2) là ngay lập tức. Cuối cùng, Mệnh đề 5, (v) cho thấy rằng W_p là bất khả quy. Điều này chứng minh (i).
 
-(ii) Theo Hệ quả của Định lý 1, tập hợp \mathcal{H}_p gồm các siêu phẳng có dạng w_p(H'_i) với i thuộc J_p và w_p thuộc W_p. Hơn nữa, nếu w = w_1 \ldots w_s với w_p \in W_p với mọi p, các công thức (5) và (6) suy ra rằng
+(ii) Theo Hệ quả của Định lý 1, tập hợp \mathscr{H}_p gồm các siêu phẳng có dạng w_p(H'_i) với i thuộc J_p và w_p thuộc W_p. Hơn nữa, nếu w = w_1 \ldots w_s với w_p \in W_p với mọi p, các công thức (5) và (6) suy ra rằng
 
 $$
 w(H_i) = E_0 \times E_1 \times \cdots \times E_{p-1} \times w_p(H'_i) \times E_{p+1} \times \cdots \times E_s,
@@ -499,18 +499,18 @@ $$
 C = E_0 \times C_1 \times \cdots \times C_s;
 $$
 
-do đó, không tập hợp C_p nào là rỗng, và vì C không gặp bất kỳ siêu phẳng nào thuộc \mathcal{H}, tập hợp C_p không gặp bất kỳ siêu phẳng nào thuộc \mathcal{H}_p. Mệnh đề 5 của § 1, no. 3 bây giờ cho thấy rằng C_p là một trong các phòng được xác định bởi \mathcal{H}_p trong E_p. Bằng cách sử dụng Mệnh đề 4 của § 1, no. 2, dễ thấy rằng các tường của C_p là các siêu phẳng H'_i = \varphi_p(H_i) với i \in J_p.
+do đó, không tập hợp C_p nào là rỗng, và vì C không gặp bất kỳ siêu phẳng nào thuộc \mathscr{H}, tập hợp C_p không gặp bất kỳ siêu phẳng nào thuộc \mathscr{H}_p. Mệnh đề 5 của § 1, no. 3 bây giờ cho thấy rằng C_p là một trong các phòng được xác định bởi \mathscr{H}_p trong E_p. Bằng cách sử dụng Mệnh đề 4 của § 1, no. 2, dễ thấy rằng các tường của C_p là các siêu phẳng H'_i = \varphi_p(H_i) với i \in J_p.
 
 ### 9. CẤU TRÚC CỦA CÁC PHÒNG
 
-Cho C là một phòng, cho \mathcal{M} là tập hợp các tường của C, và với H \in \mathcal{M} cho e_H là vectơ đơn vị trực giao với H nằm cùng phía của H với C.
+Cho C là một phòng, cho \mathscr{M} là tập hợp các tường của C, và với H \in \mathscr{M} cho e_H là vectơ đơn vị trực giao với H nằm cùng phía của H với C.
 
 #### Mệnh đề 7 {#lie-v-s3-prop-7 .statement}
 
 Giả sử rằng nhóm W là cốt yếu và hữu hạn. Khi đó:
 (i) Tồn tại duy nhất một điểm a của E bất biến dưới W.
-(ii) Họ (c_H)_{H \in \mathcal{M}} là một cơ sở của T.
-(iii) Phòng C là nón đơn hình mở với đỉnh a được xác định bởi cơ sở (e'_H)_{H \in \mathcal{M}} của T sao cho (e_H|e'_H') = \delta_{HH'}.
+(ii) Họ (c_H)_{H \in \mathscr{M}} là một cơ sở của T.
+(iii) Phòng C là nón đơn hình mở với đỉnh a được xác định bởi cơ sở (e'_H)_{H \in \mathscr{M}} của T sao cho (e_H|e'_H') = \delta_{HH'}.
 
 (i) Theo Mệnh đề 4 của no. 6, tồn tại một điểm $a \in E$ bất biến dưới $W$. Cho $t \in T$ sao cho $t + a$ bất biến dưới $W$. Với mọi $w \in W$,
 $$
@@ -518,19 +518,19 @@ U(w).t + a = w(t + a) = t + a,
 $$
 nên $U(w).t = t$; vì $W$ là cốt yếu, điều này suy ra rằng $t = 0$, chứng tỏ tính duy nhất của $a$.
 
-(ii) Vì $W$ là cốt yếu, $T = T_1$ theo ký hiệu của no. 7, và Mệnh đề 5, (iv) cho thấy rằng họ $(e_H)_{H \in \mathcal{M}}$ sinh không gian vectơ $T$. Sự tồn tại của một điểm của $E$ bất biến dưới $W$ cho thấy rằng họ $(e_H)_{H \in \mathcal{M}}$ là tự do (no. 6, Mệnh đề 4).
+(ii) Vì $W$ là cốt yếu, $T = T_1$ theo ký hiệu của no. 7, và Mệnh đề 5, (iv) cho thấy rằng họ $(e_H)_{H \in \mathscr{M}}$ sinh không gian vectơ $T$. Sự tồn tại của một điểm của $E$ bất biến dưới $W$ cho thấy rằng họ $(e_H)_{H \in \mathscr{M}}$ là tự do (no. 6, Mệnh đề 4).
 
-(iii) Cho $a$ là điểm duy nhất của $E$ bất biến dưới $W$. Vì $(e_H)_{H \in \mathcal{M}}$ là một cơ sở của $T$, và vì tích vô hướng là một dạng song tuyến tính không suy biến trên $T$, tồn tại duy nhất một cơ sở $(e'_H)_{H \in \mathcal{M}}$ của $T$ sao cho $(e_H|e'_{H'}) = \delta_{HH'}$ với $H, H'$ thuộc $\mathcal{M}$. Mọi điểm $x$ của $E$ có thể được viết duy nhất dưới dạng $x = t + a$ với $t = \sum_{H \in \mathcal{M}} \xi_H e'_H$ và các $\xi_H$ là thực. Khi đó $x$ thuộc $C$ khi và chỉ khi, với mọi siêu phẳng $H \in \mathcal{M}$, $x$ nằm cùng phía của $H$ với $e_H$, hay nói cách khác $(t|e_H) = \xi_H$ là dương ngặt. Do đó (iii).
+(iii) Cho $a$ là điểm duy nhất của $E$ bất biến dưới $W$. Vì $(e_H)_{H \in \mathscr{M}}$ là một cơ sở của $T$, và vì tích vô hướng là một dạng song tuyến tính không suy biến trên $T$, tồn tại duy nhất một cơ sở $(e'_H)_{H \in \mathscr{M}}$ của $T$ sao cho $(e_H|e'_{H'}) = \delta_{HH'}$ với $H, H'$ thuộc $\mathscr{M}$. Mọi điểm $x$ của $E$ có thể được viết duy nhất dưới dạng $x = t + a$ với $t = \sum_{H \in \mathscr{M}} \xi_H e'_H$ và các $\xi_H$ là thực. Khi đó $x$ thuộc $C$ khi và chỉ khi, với mọi siêu phẳng $H \in \mathscr{M}$, $x$ nằm cùng phía của $H$ với $e_H$, hay nói cách khác $(t|e_H) = \xi_H$ là dương ngặt. Do đó (iii).
 
 #### Mệnh đề 8 {#lie-v-s3-prop-8 .statement}
 
 *Giả sử rằng nhóm $W$ là cốt yếu, bất khả quy và vô hạn. Khi đó:*
 
 (i) *Không có điểm nào của $E$ là bất biến dưới $W$.*
-(ii) *Ta có $\operatorname{Card} \mathcal{M} = \dim T + 1$, và tồn tại các số thực $c_H > 0$ sao cho $\sum_{H \in \mathcal{M}} c_H e_H = 0$. Nếu các số thực $c'_H$ thỏa mãn $\sum_{H \in \mathcal{M}} c'_H e_H = 0$, thì tồn tại một số thực $\xi$ sao cho $c'_H = \xi c_H$ với mọi $H$ trong $\mathcal{M}$.*
+(ii) *Ta có $\operatorname{Card} \mathscr{M} = \dim T + 1$, và tồn tại các số thực $c_H > 0$ sao cho $\sum_{H \in \mathscr{M}} c_H e_H = 0$. Nếu các số thực $c'_H$ thỏa mãn $\sum_{H \in \mathscr{M}} c'_H e_H = 0$, thì tồn tại một số thực $\xi$ sao cho $c'_H = \xi c_H$ với mọi $H$ trong $\mathscr{M}$.*
 (iii) *Buồng $C$ là một đơn hình mở.*
 
-Mệnh đề (i) suy ra từ Mệnh đề 4. Mặt khác, vì $W$ là cốt yếu, các vectơ $(e_H)_{H \in \mathcal{M}}$ sinh $T$. Ta có $(e_H|e_{H'}) \leq 0$ với $H, H' \in \mathcal{M}$ và $H \neq H'$ (Mệnh đề 3) và, vì $W$ là bất khả quy, không tồn tại một phân hoạch của $\mathcal{M}$ thành hai tập con rời nhau $\mathcal{M}'$ và $\mathcal{M}''$ sao cho $H' \in \mathcal{M}'$ và $H'' \in \mathcal{M}''$ kéo theo $(e_{H'}|e_{H''}) = 0$. Do đó ta có thể áp dụng Bổ đề 5 của no. 5, và trường hợp 1) của bổ đề đó bị loại trừ; thật vậy, các $e_H$ không độc lập tuyến tính, vì $W$ không có điểm cố định. Mệnh đề (ii) được suy ra.
+Mệnh đề (i) suy ra từ Mệnh đề 4. Mặt khác, vì $W$ là cốt yếu, các vectơ $(e_H)_{H \in \mathscr{M}}$ sinh $T$. Ta có $(e_H|e_{H'}) \leq 0$ với $H, H' \in \mathscr{M}$ và $H \neq H'$ (Mệnh đề 3) và, vì $W$ là bất khả quy, không tồn tại một phân hoạch của $\mathscr{M}$ thành hai tập con rời nhau $\mathscr{M}'$ và $\mathscr{M}''$ sao cho $H' \in \mathscr{M}'$ và $H'' \in \mathscr{M}''$ kéo theo $(e_{H'}|e_{H''}) = 0$. Do đó ta có thể áp dụng Bổ đề 5 của no. 5, và trường hợp 1) của bổ đề đó bị loại trừ; thật vậy, các $e_H$ không độc lập tuyến tính, vì $W$ không có điểm cố định. Mệnh đề (ii) được suy ra.
 
 Bây giờ chứng minh (iii). Đánh số các tường của $C$ là $H_0, H_1, \ldots, H_d$ và đặt $t_m = e_{H_m}$. Theo (ii), các vectơ $t_1, \ldots, t_d$ tạo thành một cơ sở của $T$, do đó các siêu phẳng $H_1, \ldots, H_d$ có một điểm $a_0$ chung, và tồn tại một cơ sở $(t'_1, \ldots, t'_d)$ của $T$ sao cho $(t_m|t'_n) = \delta_{mn}$; hơn nữa, lại theo (ii), tồn tại các số thực $c_1 > 0, \ldots, c_d > 0$ sao cho
 $$
@@ -548,7 +548,7 @@ $$
 E_0 \times C_1 \times \cdots \times C_s,
 $$
 
-trong đó $C_p$ là một buồng trong $E_p$ đối với tập các siêu phẳng $\mathcal{H}_p$. Theo các Mệnh đề 7 và 8, mỗi buồng $C_1, \ldots, C_s$ là một nón đơn hình mở hoặc một đơn hình mở.
+trong đó $C_p$ là một buồng trong $E_p$ đối với tập các siêu phẳng $\mathscr{H}_p$. Theo các Mệnh đề 7 và 8, mỗi buồng $C_1, \ldots, C_s$ là một nón đơn hình mở hoặc một đơn hình mở.
 
 #### Nhận xét 2 {#lie-v-s3-n9-rem-2 .statement}
 

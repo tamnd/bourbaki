@@ -29,7 +29,7 @@ subsections:
       pdf_page: 90
 statements: 9
 exercises: 6
-content_sha256: 8046cb60e7a87d74278ab051865b2a402cb1931b6d0f6531c7ed71f0def210cd
+content_sha256: 25a70151016a1a1566e49d4096df881f4010fb1f1b55eb80a2ee28448bb3ebe2
 ---
 
 ## § 8. TRANSFORMATION DE FOURIER
@@ -90,15 +90,15 @@ $$
 u(f) = \int_G f(g) u(g) dg \in \mathrm{End}(E_u) .
 $$
 
-On a $\|u(f)\|_\infty \leq \int_G |f(g)| dg = \|f\|_1$. On appelle cotransformée de Fourier de $f$ et on note $\overline{\mathcal{F}}(f)$ la famille $(u(f))_{u \in \hat{G}} \in F(\hat{G})$. Si $f \in L^2(G)$, on a
+On a $\|u(f)\|_\infty \leq \int_G |f(g)| dg = \|f\|_1$. On appelle cotransformée de Fourier de $f$ et on note $\overline{\mathscr{F}}(f)$ la famille $(u(f))_{u \in \hat{G}} \in F(\hat{G})$. Si $f \in L^2(G)$, on a
 $$
-\|f\|_2^2 = \sum_{u \in \hat{G}} \langle u(f)|u(f) \rangle = \|\overline{\mathcal{F}}(f)\|_2^2 ,
+\|f\|_2^2 = \sum_{u \in \hat{G}} \langle u(f)|u(f) \rangle = \|\overline{\mathscr{F}}(f)\|_2^2 ,
 $$
-de sorte que $\overline{\mathcal{F}}$ induit une application linéaire isométrique de l’espace hilbertien $L^2(G)$ dans l’espace hilbertien $L^2(\hat{G})$ : autrement dit pour $f$ et $f'$ dans $L^2(G)$, on a
+de sorte que $\overline{\mathscr{F}}$ induit une application linéaire isométrique de l’espace hilbertien $L^2(G)$ dans l’espace hilbertien $L^2(\hat{G})$ : autrement dit pour $f$ et $f'$ dans $L^2(G)$, on a
 
 (7)
 $$
-\int_G \overline{f(g)} f'(g) dg = \langle \overline{\mathcal{F}}(f)|\overline{\mathcal{F}}(f') \rangle = \sum_{u \in \hat{G}} d(u) \operatorname{Tr}(u(f)^*u(f')) .
+\int_G \overline{f(g)} f'(g) dg = \langle \overline{\mathscr{F}}(f)|\overline{\mathscr{F}}(f') \rangle = \sum_{u \in \hat{G}} d(u) \operatorname{Tr}(u(f)^*u(f')) .
 $$
 
 Pour $f$ et $f'$ dans $L^1(G)$, le produit de convolution $f * f'$ de $f$ et $f'$ est défini par
@@ -113,17 +113,17 @@ On a $f * f' \in L^1(G)$ et, pour tout $u \in \hat{G}$, $u(f * f') = u(f) u(f')$
 
 (8)
 $$
-\overline{\mathcal{F}}(f * f') = \overline{\mathcal{F}}(f) \cdot \overline{\mathcal{F}}(f')
+\overline{\mathscr{F}}(f * f') = \overline{\mathscr{F}}(f) \cdot \overline{\mathscr{F}}(f')
 $$
 
-Inversement, soit $A = (A_u)_{u \in \hat{G}}$ un élément de $F(\hat{G})$; pour tout $u \in \hat{G}$, soit $\mathcal{F}_u A$ la fonction (analytique) sur $G$ définie par
+Inversement, soit $A = (A_u)_{u \in \hat{G}}$ un élément de $F(\hat{G})$; pour tout $u \in \hat{G}$, soit $\mathscr{F}_u A$ la fonction (analytique) sur $G$ définie par
 
 (9)
 $$
-(\mathcal{F}_u A)(g) = \langle u(g)|A_u \rangle = d(u) \operatorname{Tr}(A_u u(g)^{-1})
+(\mathscr{F}_u A)(g) = \langle u(g)|A_u \rangle = d(u) \operatorname{Tr}(A_u u(g)^{-1})
 $$
 
-Si $A \in L^2(\hat{G})$, la famille $(\mathcal{F}_u A)_{u \in \hat{G}}$ est sommable dans $L^2(G)$; on appelle alors transformée de Fourier de $A$, et on note $\mathcal{F}(A)$, la somme de cette famille. Les applications $\overline{\mathcal{F}}$ et $\mathcal{F}$ sont des isomorphismes réciproques entre les espaces hilbertiens $L^2(G)$ et $L^2(\hat{G})$.
+Si $A \in L^2(\hat{G})$, la famille $(\mathscr{F}_u A)_{u \in \hat{G}}$ est sommable dans $L^2(G)$; on appelle alors transformée de Fourier de $A$, et on note $\mathscr{F}(A)$, la somme de cette famille. Les applications $\overline{\mathscr{F}}$ et $\mathscr{F}$ sont des isomorphismes réciproques entre les espaces hilbertiens $L^2(G)$ et $L^2(\hat{G})$.
 
 En d'autres termes :
 
@@ -145,9 +145,9 @@ $$
 f(h) = \sum_{u \in \hat{G}} d(u) \int_G f(gh) \operatorname{Tr}(u(g)) \, dg .
 $$
 
-Inversement, soit $A \in F(\hat{G})$; si la famille $(\mathcal{F}_u A)_{u \in \hat{G}}$ est uniformément sommable, alors la fonction
+Inversement, soit $A \in F(\hat{G})$; si la famille $(\mathscr{F}_u A)_{u \in \hat{G}}$ est uniformément sommable, alors la fonction
 $$
-g \mapsto \sum_{u \in \hat{G}} (\mathcal{F}_u A)(g) = \sum_{u \in \hat{G}} d(u) \operatorname{Tr}(A_u u(g)^{-1})
+g \mapsto \sum_{u \in \hat{G}} (\mathscr{F}_u A)(g) = \sum_{u \in \hat{G}} d(u) \operatorname{Tr}(A_u u(g)^{-1})
 $$
 est une fonction continue sur $G$, dont $A$ est la cotransformée de Fourier.
 
@@ -291,17 +291,17 @@ La fonction $u \mapsto \sup_g |(L_t f_u)(g)|$ est donc à décroissance rapide, 
 
 (L_{t}f_{u})_{u\in\hat{G}} est donc uniformément sommable. On en déduit $^1$ que la somme de la famille $(f_{u})$ est une fonction indéfiniment dérivable sur $G$, dont la cotransformée de Fourier est $(A_{u})$, d'où le théorème.
 
-Notons $\mathcal{S}(\hat{G})$ le sous-espace vectoriel de $L^{2}(\hat{G})$ formé des familles $A = (A_{u})_{u\in\hat{G}}$ telles que la fonction $u \mapsto \|A_{u}\|_{\infty}$ soit à décroissance rapide sur $\hat{G}$. Il résulte du théorème que les applications $\overline{\mathcal{F}} : f \mapsto (u(f))_{u\in\hat{G}}$ et $\mathcal{F} : A \mapsto \sum_{u\in\hat{G}} \langle u(g)|A_{u} \rangle$ induisent des isomorphismes réciproques entre les espaces vectoriels complexes $\mathcal{C}^{\infty}(G ; \mathbf{C})$ et $\mathcal{S}(\hat{G})$. Munissons l'espace $\mathcal{C}^{\infty}(G ; \mathbf{C})$ de la topologie de la $C^{\infty}$-convergence uniforme ($§ 6$, n° 4) qui peut être définie par la famille des semi-normes $f \mapsto \sup_{g\in G} |L_{t}f(g)|$ pour $t \in U(G)$, et l'espace $\mathcal{S}(\hat{G})$ de la topologie définie par la suite des semi-normes $p_{n} : A \mapsto \sup_{u\in\hat{G}} (\tilde{\Gamma}(u) + 1)^{n} \|A_{u}\|_{\infty}$. La formule (15) de la démonstration précédente entraîne que $\overline{\mathcal{F}}$ est continue. Soient $t \in U(G)$, $A = (A_{u})_{u\in\hat{G}}$ un élément de $\mathcal{S}(\hat{G})$; posons $f_{u}(g) = \langle u(g)|A_{u} \rangle$. Soit $p$ un entier tel que $\sum_{u\in\hat{G}} \tilde{\Gamma}(u)^{-p} = M < \infty$. D'après la démonstration précédente, il existe un entier positif $m$ tel qu'on ait, pour tout $g \in G$,
+Notons $\mathscr{S}(\hat{G})$ le sous-espace vectoriel de $L^{2}(\hat{G})$ formé des familles $A = (A_{u})_{u\in\hat{G}}$ telles que la fonction $u \mapsto \|A_{u}\|_{\infty}$ soit à décroissance rapide sur $\hat{G}$. Il résulte du théorème que les applications $\overline{\mathscr{F}} : f \mapsto (u(f))_{u\in\hat{G}}$ et $\mathscr{F} : A \mapsto \sum_{u\in\hat{G}} \langle u(g)|A_{u} \rangle$ induisent des isomorphismes réciproques entre les espaces vectoriels complexes $\mathscr{C}^{\infty}(G ; \mathbf{C})$ et $\mathscr{S}(\hat{G})$. Munissons l'espace $\mathscr{C}^{\infty}(G ; \mathbf{C})$ de la topologie de la $C^{\infty}$-convergence uniforme ($§ 6$, n° 4) qui peut être définie par la famille des semi-normes $f \mapsto \sup_{g\in G} |L_{t}f(g)|$ pour $t \in U(G)$, et l'espace $\mathscr{S}(\hat{G})$ de la topologie définie par la suite des semi-normes $p_{n} : A \mapsto \sup_{u\in\hat{G}} (\tilde{\Gamma}(u) + 1)^{n} \|A_{u}\|_{\infty}$. La formule (15) de la démonstration précédente entraîne que $\overline{\mathscr{F}}$ est continue. Soient $t \in U(G)$, $A = (A_{u})_{u\in\hat{G}}$ un élément de $\mathscr{S}(\hat{G})$; posons $f_{u}(g) = \langle u(g)|A_{u} \rangle$. Soit $p$ un entier tel que $\sum_{u\in\hat{G}} \tilde{\Gamma}(u)^{-p} = M < \infty$. D'après la démonstration précédente, il existe un entier positif $m$ tel qu'on ait, pour tout $g \in G$,
 
 $$
 |(L_{t}f_{u})(g)| \leq d(u)^{2} \|u(t)\|_{\infty} \|A_{u}\|_{\infty} \leq m.(1 + \tilde{\Gamma}(u))^{m} \tilde{\Gamma}(u)^{-p} \|A_{u}\|_{\infty}
 $$
 
-d'où $|(L_{t}\mathcal{F}(A))(g)| \leq mM_{p_{m}}(A)$; ceci prouve que $\mathcal{F}$ est continue. Par conséquent :
+d'où $|(L_{t}\mathscr{F}(A))(g)| \leq mM_{p_{m}}(A)$; ceci prouve que $\mathscr{F}$ est continue. Par conséquent :
 
 #### Corollaire {#lie-ix-s8-n2-cor-1 .statement tag=01H4}
 
-Les applications $\overline{\mathcal{F}} : f \mapsto (u(f))_{u\in\hat{G}}$ et $\mathcal{F} : A \mapsto \sum_{u\in\hat{G}} \langle u(g)|A_{u} \rangle$ induisent des isomorphismes réciproques entre les espaces vectoriels topologiques $\mathcal{C}^{\infty}(G ; \mathbf{C})$ et $\mathcal{S}(\hat{G})$.
+Les applications $\overline{\mathscr{F}} : f \mapsto (u(f))_{u\in\hat{G}}$ et $\mathscr{F} : A \mapsto \sum_{u\in\hat{G}} \langle u(g)|A_{u} \rangle$ induisent des isomorphismes réciproques entre les espaces vectoriels topologiques $\mathscr{C}^{\infty}(G ; \mathbf{C})$ et $\mathscr{S}(\hat{G})$.
 
 ### 3. Transformées de Fourier des fonctions centrales
 
@@ -324,7 +324,7 @@ $$
 \chi_{u} * \chi_{u} = \frac{1}{d(u)} \chi_{u} \quad (u \in \hat{G}).
 $$
 
-$^1$ Cela résulte de ce que l'espace $\mathcal{C}^{\infty}(G ; \mathbf{C})$, muni de la topologie de la $C^{\infty}$-convergence uniforme ($§ 6$, n° 4), est complet.
+$^1$ Cela résulte de ce que l'espace $\mathscr{C}^{\infty}(G ; \mathbf{C})$, muni de la topologie de la $C^{\infty}$-convergence uniforme ($§ 6$, n° 4), est complet.
 
 Pour tout $u \in \hat{G}$, notons $\varepsilon_u$ l’application identique de $E_u$. Rappelons (§ 7, n° 4) qu’on note $ZL^2(G)$ le sous-espace de $L^2(G)$ formé des classes de fonctions $f$ qui sont centrales, c’est-à-dire telles que $f \circ \mathrm{Int}\ s = f$ pour tout $s \in G$, ou de manière équivalente $\gamma(s)\ f = \delta(s^{-1})\ f$ pour tout $s \in G$.
 
@@ -351,25 +351,25 @@ $$
 donc
 
 $$
-\overline{\mathcal{F}}(f) = \left( \langle \overline{\chi_u}|f\rangle \frac{\varepsilon_u}{d(u)} \right)_{u \in \hat{G}} .
+\overline{\mathscr{F}}(f) = \left( \langle \overline{\chi_u}|f\rangle \frac{\varepsilon_u}{d(u)} \right)_{u \in \hat{G}} .
 $$
 
 avec
 
 $$
-\| \overline{\mathcal{F}}(f) \|_2^2 = \sum_u \left\| \langle \overline{\chi_u}|f\rangle \frac{\varepsilon_u}{d(u)} \right\|_2^2 = \sum_u | \langle \overline{\chi_u}|f\rangle |^2 .
+\| \overline{\mathscr{F}}(f) \|_2^2 = \sum_u \left\| \langle \overline{\chi_u}|f\rangle \frac{\varepsilon_u}{d(u)} \right\|_2^2 = \sum_u | \langle \overline{\chi_u}|f\rangle |^2 .
 $$
 
 Inversement, si $\varphi$ est une fonction complexe de carré intégrable sur $\hat{G}$, alors l’élément $\left( \frac{\varphi(u)}{d(u)} \varepsilon_u \right)_{u \in \hat{G}}$ de $F(\hat{G})$ appartient à $L^2(\hat{G})$, et on a (formule (9))
 
 $$
-\left( \mathcal{F}_u \left( \frac{\varphi(u)}{d(u)} \varepsilon_u \right) \right)(g) = d(u) \mathrm{Tr} \left( \frac{\varphi(u)}{d(u)} \varepsilon_u u(g)^{-1} \right) = \varphi(u) \overline{\chi_u}(g) ,
+\left( \mathscr{F}_u \left( \frac{\varphi(u)}{d(u)} \varepsilon_u \right) \right)(g) = d(u) \mathrm{Tr} \left( \frac{\varphi(u)}{d(u)} \varepsilon_u u(g)^{-1} \right) = \varphi(u) \overline{\chi_u}(g) ,
 $$
 
 donc
 
 $$
-\mathcal{F} \left( \left( \frac{\varphi(u)}{d(u)} \varepsilon_u \right) \right) = \sum_{u \in \hat{G}} \varphi(u) \overline{\chi_u} .
+\mathscr{F} \left( \left( \frac{\varphi(u)}{d(u)} \varepsilon_u \right) \right) = \sum_{u \in \hat{G}} \varphi(u) \overline{\chi_u} .
 $$
 
 Notons que les formules (20) et (21) donnent en particulier pour $u, v$ dans $\hat{G}$
@@ -427,25 +427,25 @@ Si $f|T$ est indéfiniment dérivable, $\varphi$ l’est aussi ; d’après la p
 
 ### 4. Fonctions centrales sur G et fonctions sur T
 
-Notons $\mathcal{C}(G)$ l’espace des fonctions continues complexes sur G et $\mathcal{C}^\infty(G)$ le sous-espace des fonctions indéfiniment dérivables. On a donc une suite d’inclusions
+Notons $\mathscr{C}(G)$ l’espace des fonctions continues complexes sur G et $\mathscr{C}^\infty(G)$ le sous-espace des fonctions indéfiniment dérivables. On a donc une suite d’inclusions
 
 $$
-\Theta(G) \subset \mathcal{C}^\infty(G) \subset \mathcal{C}(G) \subset L^2(G).
+\Theta(G) \subset \mathscr{C}^\infty(G) \subset \mathscr{C}(G) \subset L^2(G).
 $$
 
-Notons $Z\Theta(G), Z\mathcal{C}^\infty(G), Z\mathcal{C}(G), ZL^2(G)$ respectivement les sous-espaces formés des fonctions centrales dans ces divers espaces. Introduisons de même les espaces $\Theta(T), \mathcal{C}^\infty(T), \mathcal{C}(T)$ et $L^2(T)$; pour tout espace E de cette liste, notons $E^W$ (resp. $E^{-W}$) le sous-espace formé des éléments invariants (resp. anti-invariants) pour l’action du groupe W. On a un diagramme commutatif
+Notons $Z\Theta(G), Z\mathscr{C}^\infty(G), Z\mathscr{C}(G), ZL^2(G)$ respectivement les sous-espaces formés des fonctions centrales dans ces divers espaces. Introduisons de même les espaces $\Theta(T), \mathscr{C}^\infty(T), \mathscr{C}(T)$ et $L^2(T)$; pour tout espace E de cette liste, notons $E^W$ (resp. $E^{-W}$) le sous-espace formé des éléments invariants (resp. anti-invariants) pour l’action du groupe W. On a un diagramme commutatif
 
 $$
 \begin{array}{ccc}
-Z\mathcal{C}(G) & \xrightarrow{a_c} & \mathcal{C}(T)^W \\
+Z\mathscr{C}(G) & \xrightarrow{a_c} & \mathscr{C}(T)^W \\
 & & \\
-Z\mathcal{C}^\infty(G) & \xrightarrow{a_\infty} & \mathcal{C}^\infty(T)^W \\
+Z\mathscr{C}^\infty(G) & \xrightarrow{a_\infty} & \mathscr{C}^\infty(T)^W \\
 & & \\
 Z\Theta(G) & \xrightarrow{a_\Theta} & \Theta(T)^W
 \end{array}
 $$
 
-où les flèches verticales représentent les injections canoniques, et où les applications $a_c, a_\infty, a_\Theta$ sont induites par l’application de restriction de $\mathcal{C}(G)$ dans $\mathcal{C}(T)$.
+où les flèches verticales représentent les injections canoniques, et où les applications $a_c, a_\infty, a_\Theta$ sont induites par l’application de restriction de $\mathscr{C}(G)$ dans $\mathscr{C}(T)$.
 
 Les applications $a_c, a_\infty, a_\Theta$ sont *bijectives* (§ 2, no 5, cor. 1 à la prop. 5, § 8, no 3, cor. à la prop. 5, et § 7, no 3, cor. à la prop. 2).
 
@@ -455,9 +455,9 @@ $$
 \begin{array}{cccccc}
 ZL^2(G) & \xrightarrow{u} & L^2(T)^{-W} \\
 & & \\
-Z\mathcal{C}(G) & \xrightarrow{a_c} & \mathcal{C}(T)^W & \xrightarrow{b_c} & \mathcal{C}(T)^{-W} \\
+Z\mathscr{C}(G) & \xrightarrow{a_c} & \mathscr{C}(T)^W & \xrightarrow{b_c} & \mathscr{C}(T)^{-W} \\
 & & \\
-Z\mathcal{C}^\infty(G) & \xrightarrow{a_\infty} & \mathcal{C}^\infty(T)^W & \xrightarrow{b_\infty} & \mathcal{C}^\infty(T)^{-W} \\
+Z\mathscr{C}^\infty(G) & \xrightarrow{a_\infty} & \mathscr{C}^\infty(T)^W & \xrightarrow{b_\infty} & \mathscr{C}^\infty(T)^{-W} \\
 & & \\
 Z\Theta(G) & \xrightarrow{a_\Theta} & \Theta(T)^W & \xrightarrow{b_\Theta} & \Theta(T)^{-W}
 \end{array}

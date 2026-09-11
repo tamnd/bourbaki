@@ -32,7 +32,7 @@ subsections:
       pdf_page: 59
 statements: 18
 exercises: 27
-content_sha256: da1c428275ca39779a86d49c0013331d644e00605c7f7ea7798aa88ccb67ff6d
+content_sha256: 6852a97f9584cb9e2c6500bc6ed421e47f78f0dbd984eea90b0a26ab4f5ce176
 ---
 
 ## § 4. Algèbres de Lie nilpotentes
@@ -90,7 +90,7 @@ Soit k le plus grand entier tel que C^k g + h \neq h. Alors, [C^k g + h, h] \sub
 
 #### Lemme 1 {#lie-i-s4-lem-1 .statement}
 
-Soit V un espace vectoriel sur K. Si x est un endomorphisme nilpotent de V, l’application $y \mapsto [x, y]$ de $\mathcal{L}(V)$ dans $\mathcal{L}(V)$ est nilpotente.
+Soit V un espace vectoriel sur K. Si x est un endomorphisme nilpotent de V, l’application $y \mapsto [x, y]$ de $\mathscr{L}(V)$ dans $\mathscr{L}(V)$ est nilpotente.
 
 En effet, si f désigne cette application, $f^m(y)$ est une somme de termes de la forme $\pm x^i y x^j$ avec $i + j = m$. Si $x^k = 0$, on a donc $f^{2k-1}(y) = 0$ pour tout $y$.
 
@@ -187,7 +187,7 @@ Soient $g$ une algèbre de Lie, $a$ un idéal de $g$. Pour que $a$ soit nilpoten
 
 #### Proposition 6 {#lie-i-s4-prop-6 .statement}
 
-Soient $g$ une algèbre de Lie, $E$ la sous-algèbre associative de $\mathcal{L}(g)$ engendrée par 1 et les $\mathrm{ad}_g x$ ($x \in g$). Soit $R$ le radical de $E$.
+Soient $g$ une algèbre de Lie, $E$ la sous-algèbre associative de $\mathscr{L}(g)$ engendrée par 1 et les $\mathrm{ad}_g x$ ($x \in g$). Soit $R$ le radical de $E$.
 a) L’ensemble $n$ des $y \in g$ tels que $\mathrm{ad}_g y \in R$ est le plus grand idéal nilpotent de $g$.
 b) Il est orthogonal à $g$ pour la forme de Killing.
 

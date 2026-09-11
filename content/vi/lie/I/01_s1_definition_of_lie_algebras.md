@@ -49,7 +49,7 @@ subsections:
       pdf_page: 29
 statements: 19
 exercises: 27
-content_sha256: b4b865f3ca4cbd85dc4b535890209b04ed0ead9b80f9709af6b4efb8ecc65f0f
+content_sha256: 884e0155b1510f139cc124e7a330792d6211b4647d4f66277f65a9881c17727f
 translated_from: content/en/lie/I/01_s1_definition_of_lie_algebras.md
 source_content_sha256: 34c36ec4b6364065c59b2c64940de2dd7a1af068ca79123de094195be8edaedd
 translation_model: gpt-5.4
@@ -217,17 +217,17 @@ Nếu a là một môđun con của g, thì tập hợp các $x \in g$ sao cho $
 
 ### 5. CHUỖI DẪN XUẤT, CHUỖI TRUNG TÂM DƯỚI
 
-Iđêan đặc số $[g, g]$ được gọi là *iđêan dẫn xuất* của một đại số Lie g và được ký hiệu là $\mathcal{D}g$.
+Iđêan đặc số $[g, g]$ được gọi là *iđêan dẫn xuất* của một đại số Lie g và được ký hiệu là $\mathscr{D}g$.
 
-Mọi môđun con của g chứa $\mathcal{D}g$ đều là một iđêan của g.
+Mọi môđun con của g chứa $\mathscr{D}g$ đều là một iđêan của g.
 
-*Chuỗi dẫn xuất* của g là dãy giảm $\mathcal{D}^0g, \mathcal{D}^1g, \ldots$ các iđêan đặc số của g được xác định quy nạp như sau: (1) $\mathcal{D}^0g = g$; (2) $\mathcal{D}^{p+1}g = [\mathcal{D}^pg, \mathcal{D}^pg]$.
+*Chuỗi dẫn xuất* của g là dãy giảm $\mathscr{D}^0g, \mathscr{D}^1g, \ldots$ các iđêan đặc số của g được xác định quy nạp như sau: (1) $\mathscr{D}^0g = g$; (2) $\mathscr{D}^{p+1}g = [\mathscr{D}^pg, \mathscr{D}^pg]$.
 
-*Chuỗi trung tâm dưới* của g là dãy giảm $\mathcal{C}^1g, \mathcal{C}^2g, \ldots$ các iđêan đặc số của g được xác định quy nạp như sau: (1) $\mathcal{C}^1g = g$; (2) $\mathcal{C}^{p+1}g = [g, \mathcal{C}^pg]$. Khi đó $\mathcal{C}^2g = \mathcal{D}g$ và $\mathcal{C}^{p+1}g \supset \mathcal{D}^pg$ với mọi $p$, điều này được thấy ngay lập tức bằng quy nạp theo $p$.
+*Chuỗi trung tâm dưới* của g là dãy giảm $\mathscr{C}^1g, \mathscr{C}^2g, \ldots$ các iđêan đặc số của g được xác định quy nạp như sau: (1) $\mathscr{C}^1g = g$; (2) $\mathscr{C}^{p+1}g = [g, \mathscr{C}^pg]$. Khi đó $\mathscr{C}^2g = \mathscr{D}g$ và $\mathscr{C}^{p+1}g \supset \mathscr{D}^pg$ với mọi $p$, điều này được thấy ngay lập tức bằng quy nạp theo $p$.
 
 #### Mệnh đề 4 {#lie-i-s1-prop-4 .statement}
 
-*Cho g và h là hai đại số Lie trên K và f là một đồng cấu từ g lên h. Khi đó $f(\mathcal{D}^pg) = \mathcal{D}^pf, f(\mathcal{C}^pg) = \mathcal{C}^ph$.*
+*Cho g và h là hai đại số Lie trên K và f là một đồng cấu từ g lên h. Khi đó $f(\mathscr{D}^pg) = \mathscr{D}^pf, f(\mathscr{C}^pg) = \mathscr{C}^ph$.*
 
 Nếu a và b là các môđun con của g, thì ngay lập tức suy ra rằng
 $$
@@ -237,10 +237,10 @@ Khi đó mệnh đề là ngay lập tức theo quy nạp theo $p$.
 
 #### Hệ quả {#lie-i-s1-n5-cor-1 .statement}
 
-*Cho g là một đại số Lie và a là một iđêan của g. Để đại số Lie $g/a$ là giao hoán, điều kiện cần và đủ là $a \supset \mathcal{D}g$.*
+*Cho g là một đại số Lie và a là một iđêan của g. Để đại số Lie $g/a$ là giao hoán, điều kiện cần và đủ là $a \supset \mathscr{D}g$.*
 
-Nói rằng $g/a$ là giao hoán có nghĩa là nói rằng $\mathcal{D}(g/a) = \{0\}$.
-Nhưng theo Mệnh đề 4, $\mathcal{D}(g/a)$ là ảnh chính tắc của $\mathcal{D}g$ trong $g/a$.
+Nói rằng $g/a$ là giao hoán có nghĩa là nói rằng $\mathscr{D}(g/a) = \{0\}$.
+Nhưng theo Mệnh đề 4, $\mathscr{D}(g/a)$ là ảnh chính tắc của $\mathscr{D}g$ trong $g/a$.
 
 ### 6. CHUỖI TRUNG TÂM TRÊN
 
@@ -258,8 +258,8 @@ do đó $Dx \in a'$. Do đó có mệnh đề.
 
 Cho $g$ là một đại số Lie. Bộ tập trung hóa của $g$ trong $g$ được gọi là tâm của $g$, tức là iđêan đặc số gồm các $x \in g$ sao cho $[x, y] = 0$ với mọi $y \in g$. Tâm của $g$ là hạt nhân của đồng cấu $x \mapsto \mathrm{ad}\, x$.
 
-Chuỗi trung tâm trên của $g$ là dãy tăng $\mathcal{C}_0 g, \mathcal{C}_1 g, \ldots$ các iđêan đặc số của $g$ được định nghĩa quy nạp như sau: (1) $\mathcal{C}_0 g = \{0\}$; (2) $\mathcal{C}_{p+1} g$ là ảnh ngược qua ánh xạ chính tắc từ $g$ lên $g / \mathcal{C}_p g$ của tâm của $g / \mathcal{C}_p g$
-Iđêan $\mathcal{C}_1 g$ là tâm của $g$.
+Chuỗi trung tâm trên của $g$ là dãy tăng $\mathscr{C}_0 g, \mathscr{C}_1 g, \ldots$ các iđêan đặc số của $g$ được định nghĩa quy nạp như sau: (1) $\mathscr{C}_0 g = \{0\}$; (2) $\mathscr{C}_{p+1} g$ là ảnh ngược qua ánh xạ chính tắc từ $g$ lên $g / \mathscr{C}_p g$ của tâm của $g / \mathscr{C}_p g$
+Iđêan $\mathscr{C}_1 g$ là tâm của $g$.
 
 ### 7. MỞ RỘNG
 
@@ -505,23 +505,23 @@ $$
 \sum_{i=1}^n [x_i, y_i]
 $$
 
-trong đó $x_i \in a, y_i \in b$. Suy ra $\mathcal{D}^p g = \mathcal{D}^p g', \mathcal{C}^p g = \mathcal{C}^p g'$ với mọi $p$.
+trong đó $x_i \in a, y_i \in b$. Suy ra $\mathscr{D}^p g = \mathscr{D}^p g', \mathscr{C}^p g = \mathscr{C}^p g'$ với mọi $p$.
 
-Tập trung hóa của một tập con là như nhau trong $g$ và $g'$. Do đó $\mathcal{C}_p g = \mathcal{C}_p g'$ với mọi $p$.
+Tập trung hóa của một tập con là như nhau trong $g$ và $g'$. Do đó $\mathscr{C}_p g = \mathscr{C}_p g'$ với mọi $p$.
 
-Cho $K_1$ là một vành giao hoán có phần tử đơn vị và $\sigma$ là một đồng cấu của $K$ vào $K_1$ ánh xạ phần tử đơn vị tới phần tử đơn vị. Cho $g$ là một đại số Lie trên $K$. Gọi $g_{(K_1)}$ là đại số trên $K_1$ dẫn xuất từ $g$ bằng cách mở rộng vành cơ sở (x. no. 1). Khi đó $g_{(K_1)}$ là một đại số Lie. Nếu $a$ là một đại số con (tương ứng, một iđêan) của $g$, thì ảnh chính tắc của $a_{(K_1)}$ trong $g_{(K_1)}$ là một đại số con (tương ứng, một iđêan) của $g_{(K_1)}$. Nếu $a$ và $b$ là các môđun con của $g$, thì ảnh chính tắc trong $g_{(K_1)}$ của $[a, b]_{(K_1)}$ bằng dấu ngoặc của các ảnh chính tắc của $a_{(K_1)}$ và $b_{(K_1)}$. Suy ra rằng $\mathcal{D}^p(g_{(K_1)})$ là ảnh chính tắc của $(\mathcal{D}^p g)_{(K_1)}$ và $\mathcal{C}^p(g_{(K_1)})$ là ảnh chính tắc của $\mathcal{C}^p(g_{(K_1)})$.
+Cho $K_1$ là một vành giao hoán có phần tử đơn vị và $\sigma$ là một đồng cấu của $K$ vào $K_1$ ánh xạ phần tử đơn vị tới phần tử đơn vị. Cho $g$ là một đại số Lie trên $K$. Gọi $g_{(K_1)}$ là đại số trên $K_1$ dẫn xuất từ $g$ bằng cách mở rộng vành cơ sở (x. no. 1). Khi đó $g_{(K_1)}$ là một đại số Lie. Nếu $a$ là một đại số con (tương ứng, một iđêan) của $g$, thì ảnh chính tắc của $a_{(K_1)}$ trong $g_{(K_1)}$ là một đại số con (tương ứng, một iđêan) của $g_{(K_1)}$. Nếu $a$ và $b$ là các môđun con của $g$, thì ảnh chính tắc trong $g_{(K_1)}$ của $[a, b]_{(K_1)}$ bằng dấu ngoặc của các ảnh chính tắc của $a_{(K_1)}$ và $b_{(K_1)}$. Suy ra rằng $\mathscr{D}^p(g_{(K_1)})$ là ảnh chính tắc của $(\mathscr{D}^p g)_{(K_1)}$ và $\mathscr{C}^p(g_{(K_1)})$ là ảnh chính tắc của $\mathscr{C}^p(g_{(K_1)})$.
 
 Nếu $K$ là một trường, $K_1$ là một trường mở rộng của $K$ và $\sigma$ là đơn ánh chính tắc của $K$ vào $K_1$, thì với các sự đồng nhất thông thường ta có
 $$
-[a, b]_{(K_1)} = [a_{(K_1)}, b_{(K_1)}], \quad \mathcal{D}^p(g_{(K_1)}) = (\mathcal{D}^p g)_{(K_1)},
+[a, b]_{(K_1)} = [a_{(K_1)}, b_{(K_1)}], \quad \mathscr{D}^p(g_{(K_1)}) = (\mathscr{D}^p g)_{(K_1)},
 $$
 $$
-\mathcal{C}^p(g_{(K_1)}) = (\mathcal{C}^p g)_{(K_1)}.
+\mathscr{C}^p(g_{(K_1)}) = (\mathscr{C}^p g)_{(K_1)}.
 $$
 
 Các kết quả này được hoàn chỉnh trong § 2, no. 9.
 
-Nếu $M$ là một không gian vectơ hữu hạn chiều trên trường $K$, thì $M_{(K_1)}$ là một không gian vectơ hữu hạn chiều trên $K_1$ và đại số kết hợp $\mathcal{L}(M_{(K_1)})$ được đồng nhất một cách chính tắc với đại số kết hợp $\mathcal{L}(M)_{(K_1)}$. Do đó đại số Lie $gl(M_{(K_1)})$ được đồng nhất một cách chính tắc với đại số Lie $gl(M)_{(K_1)}$.
+Nếu $M$ là một không gian vectơ hữu hạn chiều trên trường $K$, thì $M_{(K_1)}$ là một không gian vectơ hữu hạn chiều trên $K_1$ và đại số kết hợp $\mathscr{L}(M_{(K_1)})$ được đồng nhất một cách chính tắc với đại số kết hợp $\mathscr{L}(M)_{(K_1)}$. Do đó đại số Lie $gl(M_{(K_1)})$ được đồng nhất một cách chính tắc với đại số Lie $gl(M)_{(K_1)}$.
 
 ### Bài tập {#lie-i-s1-exercises}
 

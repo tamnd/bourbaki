@@ -48,7 +48,7 @@ chapters:
           statements: 31
           exercises: 29
           extraction: ocr
-          content_sha256: 6c11970e3f005a9e93ca03d9ec2fccd854aa271c289f50e70fb59e94c7385df8
+          content_sha256: 5e37365274e6d0174dfd441e9158a76e87d1c0aff89baa9b72f51d8fb4bcbf1a
         - kind: appendix
           title: Graphes
           path: content/fr/lie/IV/A_a_graphes.md
@@ -108,7 +108,7 @@ chapters:
           statements: 35
           exercises: 8
           extraction: ocr
-          content_sha256: 32c5fa5d54403ea1e812a7f9bdde4e4f8cf337e86cc33a4c4cc2b637fe2acbee
+          content_sha256: 446d7d75835a54990eb44a32db674611c9492a1acac3ebd9a84f2e4fb1ae7876
         - kind: section
           section: 4
           title: Représentation géométrique d’un groupe de Coxeter
@@ -120,7 +120,7 @@ chapters:
           statements: 23
           exercises: 20
           extraction: ocr
-          content_sha256: 6b99a8d30738d52880de4fe1f268a6397b62479d8a4e96c70f07e1d07dcd4e7a
+          content_sha256: 7bafc016bec66d407589de457cdad6b9798b6eeda20714e6e902e3537a4d649d
         - kind: section
           section: 5
           title: Invariants dans l’algèbre symétrique
@@ -132,7 +132,7 @@ chapters:
           statements: 24
           exercises: 9
           extraction: ocr
-          content_sha256: bd5f798c399e8f3184a4d544fc6c8123aaf9ae9aed061884d635fbae19535788
+          content_sha256: 56f9e3f02f523f8944f9a1f8a67de8fe6795e253b28b22271872604536b7455a
         - kind: section
           section: 6
           title: Transformation de Coxeter
@@ -192,7 +192,7 @@ chapters:
           statements: 17
           exercises: 5
           extraction: ocr
-          content_sha256: 71513a38f654c602c8a0ba71826e62fad8fc82e47588e08d18d9d1d38bac9ee5
+          content_sha256: 54657bea70e567584af33764e5b954ae4fe2f0089bdb68124cfebe45d557cc87
         - kind: section
           section: 3
           title: Invariants exponentiels
@@ -204,7 +204,7 @@ chapters:
           statements: 15
           exercises: 2
           extraction: ocr
-          content_sha256: 49437c544b71618efc5dd3ff3097a1aad64022cb699760034bd6e58a21ac0971
+          content_sha256: 63c6721da897733190858aca34d40f9c9b449894bd0fc3eae22f6ac4156e5662
         - kind: section
           section: 4
           title: Classification des systèmes de racines
@@ -226,7 +226,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 07158e7b6d6960166ec657441207283ea61602ecd97ccf833867d644df988fb3
+          content_sha256: 1797418efabd49fd834435371baabef45f3163f1df2b05861e3a926a0fe3ee0e
 notation_index:
     kind: notation
     title: INDEX DES NOTATIONS
