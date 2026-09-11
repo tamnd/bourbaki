@@ -14,54 +14,32 @@ pdf_pages: 0693-0700
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: f99fd4e2887d6c1bcc970758b2f9df7d4247404906ef23bc6ca977840d220829
+content_sha256: 734bea0251a44db9f9a008f22fe767a236dd43e7c0c34e6ff283e867a6388bc8
 ---
 
 ## INDEX OF NOTATION
 
-$x + y, x \cdot y, xy, x \top y, x \perp y$: I, § 1, no. 1.
-$X \top Y, X + Y, XY$ (X, Y subsets): I, § 1, no. 1.
-$X \top a, a \top X$ (X a subset, a an element): I, § 1, no. 1.
-
-$$
-\prod_{\alpha \in A} x_\alpha, \bigwedge_{\alpha} x_\alpha, \bigwedge x_\alpha, \bigwedge_{\alpha \in A} x, \bigwedge_{\alpha} x_\alpha, \bigwedge x_\alpha, \sum_{\alpha \in A} x_\alpha, \sum x_\alpha, \sum_{\alpha} x_\alpha, \prod_{\alpha \in A} x_\alpha, \prod x_\alpha,
-$$
-
-$\prod_{\alpha \in A} x_\alpha$: I, § 1, no. 2.
-
-$\prod_{p \leq i \leq q} x_i, \prod_{i=p}^q x_i$: I, § 1, no. 2.
-
-$x_p \top x_{p+1} \top \cdots \top x_q$: I, § 1, no. 3.
-
-$\prod^n x, \perp x^n, nx \quad (n \in \mathbf{N})$: I, § 1, no. 3.
-
-$\prod_{0 \leq i < j \leq n} x_{ij}, \prod_{i < j} x_{ij}$: I, § 1, no. 5.
-
-$\sum_{i=p}^q \sum_{j=r}^s x_{ij}, \sum_{j=r}^s \sum_{i=p}^q x_{ij}$: I, § 1, no. 5.
-
-$\prod_{0 \leq i_1 < i_2 < \cdots < i_p \leq n} x_{i_1 i_2 \cdots i_p}, \prod_{i_1 < i_2 < \cdots < i_p} x_{i_1 i_2 \cdots i_p}$: I, § 1, no. 5.
-
-$0, 1$: I, § 2, no. 1.
-
-$\gamma_a, \delta_a, \gamma(a), \delta(a)$: I, § 2, no. 2.
-
-$E_S$ (S a subset of a commutative monoid E): I, § 2, no. 4.
-
-$\mathbf{Z}, +$ (addition in $\mathbf{Z}$): I, § 2, no. 5.
-
+$x+y$, $x.y$, $xy$, $x\top y$, $x\perp y$: I, § 1, no. 1.
+$X\top Y$, $X+Y$, $XY$ ($X$, $Y$ subsets): I, § 1, no. 1.
+$X\top a$, $a\top X$ ($X$ a subset, $a$ an element): I, § 1, no. 1.
+$\top_{\alpha\in A}x_{\alpha}$, $\top_{\alpha}x_{\alpha}$, $\top x_{\alpha}$, $\perp_{\alpha\in A}x$, $\perp_{\alpha}x_{\alpha}$, $\perp x_{\alpha}$, $\sum_{\alpha\in A}x_{\alpha}$, $\sum_{\alpha}x_{\alpha}$, $\sum x_{\alpha}$, $\prod_{\alpha\in A}x_{\alpha}$, $\prod_{\alpha}x_{\alpha}$, $\prod x_{\alpha}$: I, § 1, no. 2.
+$\top_{p\leq i\leq q}x_i$, $\top_{i=p}^{q}x_i$: I, § 1, no. 2.
+$x_p\top x_{p+1}\top\cdots\top x_q$: I, § 1, no. 3.
+$\top^n x$, $\perp x^n$, $nx$ ($n\in\mathbf{N}$): I, § 1, no. 3.
+$\top_{0\leq i<j\leq n}x_{ij}$, $\top_{i<j}x_{ij}$: I, § 1, no. 5.
+$\sum_{i=p}^{q}\sum_{j=r}^{s}x_{ij}$, $\sum_{j=r}^{s}\sum_{i=p}^{q}x_{ij}$: I, § 1, no. 5.
+$\top_{0\leq i_1<i_2<\cdots<i_p\leq n}x_{i_1i_2\cdots i_p}$, $\top_{i_1<i_2<\cdots<i_p}x_{i_1i_2\cdots i_p}$: I, § 1, no. 5.
+$0,1$: I, § 2, no. 1.
+$\gamma_a$, $\delta_a$, $\gamma(a)$, $\delta(a)$: I, § 2, no. 2.
+$E_S$ ($S$ a subset of a commutative monoid $E$): I, § 2, no. 4.
+$\mathbf{Z}$, $+$ (addition in $\mathbf{Z}$): I, § 2, no. 5.
 $\leq$ (order relation on $\mathbf{Z}$): I, § 2, no. 5.
-
 $\mathbf{N}^*$: I, § 2, no. 5.
-
-$\prod^n$ (for $n \in \mathbf{Z}$): I, § 2, no. 7.
-
-$-x, x - y, x + y - z, x - y - z, x - y + z - t$: I, § 2, no. 8.
-
-$nx$ ($n \in \mathbf{Z}$): I, § 2, no. 8.
-
-$x^n$ ($n \in \mathbf{Z}$): I, § 2, no. 8.
-
-$\frac{1}{x}, \frac{x}{y}, x/y$: I, § 2, no. 8.
+$\top^n$ (for $n\in\mathbf{Z}$): I, § 2, no. 7.
+$-x$, $x-y$, $x+y-z$, $x-y-z$, $x-y+z-t$: I, § 2, no. 8.
+$nx$ ($n\in\mathbf{Z}$): I, § 2, no. 8.
+$x^n$ ($n\in\mathbf{Z}$): I, § 2, no. 8.
+$\frac{1}{x}$, $\frac{x}{y}$, $x/y$: I, § 2, no. 8.
 
 $\alpha.x, x.\alpha, x^\alpha$ ($\alpha$ an operator): I, § 3, no. 1.
 $\alpha \perp x, \alpha \perp X, \Xi \perp X$ ($\alpha$ an operator, $\Xi$ a set of operators): I, § 3, no. 1.
