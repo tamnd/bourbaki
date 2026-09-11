@@ -61,7 +61,7 @@ subsections:
       pdf_page: 193
 statements: 77
 exercises: 30
-content_sha256: 99f05e108730ebe894ecf52498280035818a1493d5e2df3284d790b846b80a58
+content_sha256: 75bbaca934d2f66cbeb7d6ba3a48d4dfa7605ee607510aff9995a36e0ca36519
 translated_from: content/en/int/IV/05_s5_measurable_functions_and_sets.md
 source_content_sha256: d2dd442a1870a24021fa0c3140fb4294fafea8355aea1aaaf03d6d89003a2756
 translation_model: gpt-5.4
@@ -829,11 +829,11 @@ Vậy, cấu trúc đều của hội tụ theo độ đo trên $H$ mịn hơn c
 
 (i) *Tập hợp các điểm gián đoạn của $f$ là $\mu$-không đáng kể.*
 
-(ii) *Với mọi $\varepsilon > 0$, tồn tại các phần tử $a_1, \ldots, a_n$ của $F$, các hàm $g_1, \ldots, g_n$ thuộc $\mathscr{K}(X)$, và một hàm liên tục bị chặn $h \geq 0$ trên $X$ sao cho $|f - g_1 a_1 - \cdots - g_n a_n| \leq h \leq 2 \sup |f|$ trên $X$, và $\int h d\mu \leq \varepsilon$.*
+(ii) *Với mọi $\varepsilon > 0$, tồn tại các phần tử $a_1, \ldots, a_n$ của $F$, các hàm $g_1, \ldots, g_n$ thuộc $\mathcal{K}(X)$, và một hàm liên tục bị chặn $h \geq 0$ trên $X$ sao cho $|f - g_1 a_1 - \cdots - g_n a_n| \leq h \leq 2 \sup |f|$ trên $X$, và $\int h d\mu \leq \varepsilon$.*
 
 Ký hiệu $N$ là tập hợp các điểm gián đoạn của $f$, và đặt $M = \sup |f|$.
 
-(i) $\Rightarrow$ (ii). Giả sử điều kiện (i) được thỏa mãn. Cho $\varepsilon > 0$. Hàm $f$ là $\mu$-khả tích (No. 2, Hệ quả 4 của Mệnh đề 5, và No. 6, Định lý 5), do đó tồn tại $a_1, \ldots, a_n$ trong $F$ và $g_1, \ldots, g_n$ trong $\mathscr{K}(X)$ sao cho, khi đặt $k = |f - g_1 a_1 - \cdots - g_n a_n|$, ta có $\int k d\mu \leq \varepsilon/2$ (§ 3, No. 5,
+(i) $\Rightarrow$ (ii). Giả sử điều kiện (i) được thỏa mãn. Cho $\varepsilon > 0$. Hàm $f$ là $\mu$-khả tích (No. 2, Hệ quả 4 của Mệnh đề 5, và No. 6, Định lý 5), do đó tồn tại $a_1, \ldots, a_n$ trong $F$ và $g_1, \ldots, g_n$ trong $\mathcal{K}(X)$ sao cho, khi đặt $k = |f - g_1 a_1 - \cdots - g_n a_n|$, ta có $\int k d\mu \leq \varepsilon/2$ (§ 3, No. 5,
 
 Mệnh đề 10). Nhân $g_1, \ldots, g_n$ với cùng một phần tử thích hợp của $\mathcal{K}(X)$, ta còn có thể giả sử thêm rằng
 

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 85
 statements: 19
 exercises: 4
-content_sha256: c85d2ebc1d31dcfec8415642d18d53234a635f52ad050b1d3b81aa50845b850d
+content_sha256: 166d14e0ad8584e088f9a4c1925982df562ec424fcb6db7b51dbc23d3c2a877c
 ---
 
 ## § 3. Intégrales de fonctions vectorielles continues
@@ -221,21 +221,21 @@ Soit $K$ le support de $f$, qui est compact par hypothèse. Comme $f$ est nulle 
 
 #### Corollaire 1 {#int-iii-s3-prop-7-cor-1 .statement}
 
-*Soit* $E$ *un espace localement convexe séparé ; pour toute fonction* $f \in \mathscr{K}(X; E)$, $\int f \, d\mu$ *appartient au complété* $\hat{E}$ *de* $E$.
+*Soit* $E$ *un espace localement convexe séparé ; pour toute fonction* $f \in \mathcal{K}(X; E)$, $\int f \, d\mu$ *appartient au complété* $\hat{E}$ *de* $E$.
 
 Comme les duals de $E$ et de $\hat{E}$ sont identiques, il suffit d’appliquer la prop. 6 en considérant que $f$ prend ses valeurs dans $\hat{E}$.
 
 #### Corollaire 2 {#int-iii-s3-prop-7-cor-2 .statement}
 
-*Si* $E$ *est un espace localement convexe séparé quasi-complet, on a* $\int f \, d\mu \in E$ *pour toute fonction* $f \in \mathscr{K}(X; E)$.
+*Si* $E$ *est un espace localement convexe séparé quasi-complet, on a* $\int f \, d\mu \in E$ *pour toute fonction* $f \in \mathcal{K}(X; E)$.
 
 On a remarqué au début de la démonstration de la prop. 7 que $f(X)$ est compact et que son enveloppe convexe fermée $C$ dans $E$ est précompacte, donc bornée ; mais comme l’ensemble $C$ est fermé et borné, il est complet par hypothèse, et il suffit d’appliquer la prop. 7.
 
-On verra au chap. VI, § 1, n\textsuperscript{o} 2, d’autres critères pour que $\int f \, d\mu$ appartienne à $E$, qui s’appliquent en particulier aux fonctions de $\mathscr{K}(X; E)$, et non plus seulement à celles de $\mathscr{K}(X; E)$.
+On verra au chap. VI, § 1, n\textsuperscript{o} 2, d’autres critères pour que $\int f \, d\mu$ appartienne à $E$, qui s’appliquent en particulier aux fonctions de $\mathcal{K}(X; E)$, et non plus seulement à celles de $\mathcal{K}(X; E)$.
 
 Le cor. 2 de la prop. 7 s’applique dans les deux cas suivants : 1\textsuperscript{o} $E$ est un *espace de Banach* ; 2\textsuperscript{o} $E$ est le dual d’un espace localement convexe séparé *tonnelé* $G$, et on munit $E$ d’une $\mathcal{S}$-topologie, où $\mathcal{S}$ est un recouvrement de $G$ par des parties bornées (*Esp. vect. top.*, chap. III, § 3, n\textsuperscript{o} 7, cor. 2 du th. 4). Par exemple, on peut appliquer le cor. 2 de la prop. 7 lorsque $E$ est le dual faible d’un espace de Banach, ou un espace de mesures $\mathcal{M}(Y; \mathbf{C})$, muni de la topologie vague.
 
-Si $X = \mathbf{R}$, si $\mu$ est la mesure de Lebesgue sur $\mathbf{R}$, et si $E$ est un *espace de Banach*, l’intégrale $\int f \, d\mu$ d’une fonction de $\mathscr{K}(X; E)$ n’est autre que l’intégrale
+Si $X = \mathbf{R}$, si $\mu$ est la mesure de Lebesgue sur $\mathbf{R}$, et si $E$ est un *espace de Banach*, l’intégrale $\int f \, d\mu$ d’une fonction de $\mathcal{K}(X; E)$ n’est autre que l’intégrale
 
 $$
 \int_{-\infty}^{+\infty} f(x) \, dx
@@ -279,7 +279,7 @@ $$
 \left\langle \int f d\varepsilon_x, z' \right\rangle = \int (z' \circ f) d\varepsilon_x = z'(f(x)) = \left\langle f(x), z' \right\rangle
 $$
 
-d’où $\int f d\varepsilon_x = f(x)$. On sait par ailleurs que l’ensemble des mesures ponctuelles est dense dans $\mathcal{M}(X; \mathbf{C})$ pour la topologie de la convergence strictement compacte ($§ 2$, n° 4, cor. 4 du th. 1). Tout revient donc à prouver la continuité de l’application linéaire $u : \mu \mapsto \int f\, d\mu$. Pour cela, considérons l’application linéaire $v : z' \mapsto \langle f, z' \rangle$ de $E'$ dans $\mathscr{H}(X; \mathbf{C})$, et montrons que l’image par $v$ d’une partie équicontinue $H$ de $E'$ est contenue dans une partie strictement compacte de $\mathscr{H}(X; \mathbf{C})$. En effet, si $K$ est le support de $f$, les fonctions $\langle f, z' \rangle$ pour $z' \in H$ ont leur support contenu dans $K$; d’autre part, ces fonctions forment un ensemble équicontinu, et pour tout $x \in X$, l’ensemble des $z'(f(x))$ est borné ; notre assertion résulte donc du th. d’Ascoli (*Top. gén.*, chap. X, 2e éd., § 2, n° 5, cor. 3 du th. 2). Cela étant, il résulte de la formule (1) du n° 1 que $u$ n’est autre que la restriction à $\mathcal{M}(X; \mathbf{C})$ de la *transposée* $'v$ (au sens algébrique); sa continuité résulte donc de ce qui précède (*Esp. vect. top.*, chap. IV, 2e éd.).
+d’où $\int f d\varepsilon_x = f(x)$. On sait par ailleurs que l’ensemble des mesures ponctuelles est dense dans $\mathcal{M}(X; \mathbf{C})$ pour la topologie de la convergence strictement compacte ($§ 2$, n° 4, cor. 4 du th. 1). Tout revient donc à prouver la continuité de l’application linéaire $u : \mu \mapsto \int f\, d\mu$. Pour cela, considérons l’application linéaire $v : z' \mapsto \langle f, z' \rangle$ de $E'$ dans $\mathcal{H}(X; \mathbf{C})$, et montrons que l’image par $v$ d’une partie équicontinue $H$ de $E'$ est contenue dans une partie strictement compacte de $\mathcal{H}(X; \mathbf{C})$. En effet, si $K$ est le support de $f$, les fonctions $\langle f, z' \rangle$ pour $z' \in H$ ont leur support contenu dans $K$; d’autre part, ces fonctions forment un ensemble équicontinu, et pour tout $x \in X$, l’ensemble des $z'(f(x))$ est borné ; notre assertion résulte donc du th. d’Ascoli (*Top. gén.*, chap. X, 2e éd., § 2, n° 5, cor. 3 du th. 2). Cela étant, il résulte de la formule (1) du n° 1 que $u$ n’est autre que la restriction à $\mathcal{M}(X; \mathbf{C})$ de la *transposée* $'v$ (au sens algébrique); sa continuité résulte donc de ce qui précède (*Esp. vect. top.*, chap. IV, 2e éd.).
 
 #### Corollaire {#int-iii-s3-n4-cor-1 .statement}
 

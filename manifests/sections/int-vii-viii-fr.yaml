@@ -37,7 +37,7 @@ chapters:
           statements: 52
           exercises: 13
           extraction: ocr
-          content_sha256: 58e83c46193f68820de944214b0a2cb526001f5aaea4db3c9735ea3b49fdb0c2
+          content_sha256: b81cb35830d8b77d952bbf682b6d42d2e10d45c04f9e923acd598a59705ebd05
         - kind: section
           section: 3
           title: Applications et exemples
@@ -108,7 +108,7 @@ chapters:
           statements: 22
           exercises: 0
           extraction: ocr
-          content_sha256: 44a57de0c4a6a533f84f5b948fbf1f0d490f84c3155cf450b525e49bf5166e03
+          content_sha256: ac3267937a8d1c81aa3a8d0f11424c548a42ba2bc11b6231a92e9a2e2a0ef532
         - kind: section
           section: 3
           title: Convolution des mesures sur les groupes
@@ -132,7 +132,7 @@ chapters:
           statements: 42
           exercises: 0
           extraction: ocr
-          content_sha256: e56f96411e4d7f56886ab6e944a3ea703e0922e4f1ba9d99a6018dfb797489f9
+          content_sha256: 7b9318ac12b36891a37785640a5341c5ac5427b9203e683edc18ba23ebaadd06
         - kind: section
           section: 5
           title: L’espace des sous-groupes fermés
@@ -144,7 +144,7 @@ chapters:
           statements: 20
           exercises: 6
           extraction: ocr
-          content_sha256: b08536fe9f788ae8b56b0136cc81c64cd353d57902781801502b9dc188627678
+          content_sha256: 2a4d88d0df05ce67fab7feaefe0f479d58be4ed1625be0a2d33482f3b2e87045
         - kind: historical
           title: Historical Note
           path: content/fr/int/VIII/historical_note.md

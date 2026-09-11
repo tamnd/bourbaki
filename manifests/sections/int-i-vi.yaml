@@ -83,7 +83,7 @@ chapters:
           statements: 13
           exercises: 9
           extraction: ocr
-          content_sha256: f261078ae1db1a985db1c8cbda6a7a6f980a9e5c399f533b3b3eabf7b1f185bd
+          content_sha256: a99ab6a381386c576f23c9ce042fe0f61cb8482740d72d2558bf85513a4bd7f4
     - chapter: III
       title: MEASURES ON LOCALLY COMPACT SPACES
       sections:
@@ -108,7 +108,7 @@ chapters:
           statements: 41
           exercises: 18
           extraction: ocr
-          content_sha256: bfe62c6a2655ed8665a974febcccb64ea09581f15f597b05eb60c1c1f8b230e3
+          content_sha256: 74e10d794dcc33a0b67626dc69fa7c6ea7030ecbbbd4205c33f259bdb11d23d8
         - kind: section
           section: 2
           title: Support of a measure
@@ -224,7 +224,7 @@ chapters:
           statements: 79
           exercises: 30
           extraction: ocr
-          content_sha256: cafef13590e5fac8f8b8089f53dc63b8a0c799da5075967508e0612658483c73
+          content_sha256: b85b814c3ae5bcb32e9f9e7e5987a050289d1baf92bbcdace651dab5b897aa7f
         - kind: section
           section: 6
           title: Convexity inequalities
@@ -341,7 +341,7 @@ chapters:
           statements: 29
           exercises: 22
           extraction: ocr
-          content_sha256: a70560a7e81a1387fafead635105a8388c5e8d3f23436033725b34a2d8dcc990
+          content_sha256: 0f32530c10e9761e5e1f1b4d8eee193fc1d3fd60b517404acc2a1858e06ffd2e
         - kind: section
           section: 7
           title: Integration with respect to an induced measure
@@ -415,7 +415,7 @@ chapters:
           statements: 42
           exercises: 18
           extraction: ocr
-          content_sha256: a8aa27b4be882b310434bde98ac4fb834ca90937904a9e3a872c008cc7e64bb3
+          content_sha256: c0699a05fcd003d689d1ef7236f74dbeccc9be256b88164dca1de27936510c0a
         - kind: section
           section: 3
           title: Disintegration of measures

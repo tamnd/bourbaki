@@ -40,7 +40,7 @@ subsections:
       pdf_page: 106
 statements: 32
 exercises: 21
-content_sha256: 88c23a6b87e7f0f07ea3836e7df2e0e50f0763c60f1c4ff2d482ed96c7b67768
+content_sha256: e9a23021c716217591374b684c9924babbabd30581884ea5589fb627bba7b49d
 ---
 
 ## § 8. — Produits de mesures
@@ -91,7 +91,7 @@ Cela résulte du th. 2 du § 4, n° 4, compte tenu de ce que $t' \mapsto (t, t')
 
 #### Remarque {#int-v-s8-n1-rem-1 .statement}
 
-On peut démontrer fort simplement les lemmes 1, 2, 3 sans faire usage des résultats des §§ 4 et 6, par un raisonnement direct. Par exemple, la relation (2) est évidente par définition si $f \in \mathscr{H}(T \times T')$. Si $f$ est semi-continue inférieurement dans $X = T \times T'$, il suffit de remarquer que $t' \mapsto f_t(t')$ est l’enveloppe supérieure des fonctions $t' \mapsto g_t(t') = g(t, t')$, où $g$ parcourt l’ensemble des fonctions de $\mathscr{K}(X)$ telles que $0 \leq g \leq f$. Enfin, pour $f$ quelconque, on notera que si $h \geq f$ est semi-continue inférieurement dans $X$, $t' \mapsto h(t, t')$ est semi-continue inférieurement dans $T'$; et réciproquement, si $t' \mapsto u(t')$ est semi-continue inférieurement dans $T'$ et telle que $u(t') \geq f(t, t')$ pour tout $t' \in T'$, la fonction $h$ telle que $h(t, t') = u(t'), h(t_1, t') = +\infty$ pour $t_1 \neq t$, est semi-continue inférieurement dans $X$ et telle que $h \geq f$. Une fois le lemme 1 démontré, on en déduit que l’ensemble $(T - \{t\}) \times T'$ est $\lambda'_t$-négligeable, et il est alors très facile de démontrer les lemmes 2 et 3.
+On peut démontrer fort simplement les lemmes 1, 2, 3 sans faire usage des résultats des §§ 4 et 6, par un raisonnement direct. Par exemple, la relation (2) est évidente par définition si $f \in \mathcal{H}(T \times T')$. Si $f$ est semi-continue inférieurement dans $X = T \times T'$, il suffit de remarquer que $t' \mapsto f_t(t')$ est l’enveloppe supérieure des fonctions $t' \mapsto g_t(t') = g(t, t')$, où $g$ parcourt l’ensemble des fonctions de $\mathscr{K}(X)$ telles que $0 \leq g \leq f$. Enfin, pour $f$ quelconque, on notera que si $h \geq f$ est semi-continue inférieurement dans $X$, $t' \mapsto h(t, t')$ est semi-continue inférieurement dans $T'$; et réciproquement, si $t' \mapsto u(t')$ est semi-continue inférieurement dans $T'$ et telle que $u(t') \geq f(t, t')$ pour tout $t' \in T'$, la fonction $h$ telle que $h(t, t') = u(t'), h(t_1, t') = +\infty$ pour $t_1 \neq t$, est semi-continue inférieurement dans $X$ et telle que $h \geq f$. Une fois le lemme 1 démontré, on en déduit que l’ensemble $(T - \{t\}) \times T'$ est $\lambda'_t$-négligeable, et il est alors très facile de démontrer les lemmes 2 et 3.
 
 La relation (3) permet de noter les deux membres $\int \mathbf{f}(t, t')\ d\mu'(t')$ sans risque de confusion. On a évidemment des résultats analogues pour les mesures $\lambda_{t'} = \mu \otimes \varepsilon_{t'}$.
 
@@ -113,7 +113,7 @@ $$
 $$
 La famille $(\mu_\alpha \otimes \mu'_\beta)$ est donc sommable. Pour montrer que les deux membres de (4) sont égaux, il suffit de prouver que le second membre satisfait à la propriété caractéristique des mesures
 
-Soient $f$ un élément de $\mathcal{K}_+(T)$, $f'$ un élément de $\mathcal{K}_+(T')$; rappelons qu’on note $f \otimes f'$ la fonction $(t, t') \mapsto f(t)f'(t')$ sur $T \times T'$, qui appartient à $\mathcal{K}_+(T \times T')$ (Alg., chap. II, 3e éd., § 7, n° 7). On a alors d’après la définition des produits de mesures :
+Soient $f$ un élément de $\mathscr{K}_+(T)$, $f'$ un élément de $\mathscr{K}_+(T')$; rappelons qu’on note $f \otimes f'$ la fonction $(t, t') \mapsto f(t)f'(t')$ sur $T \times T'$, qui appartient à $\mathscr{K}_+(T \times T')$ (Alg., chap. II, 3e éd., § 7, n° 7). On a alors d’après la définition des produits de mesures :
 
 $$
 \sum_{(\alpha, \beta) \in \mathbf{A} \times \mathbf{B}} \langle \mu_\alpha \otimes \mu'_\beta, f \otimes f' \rangle = \sum_{(\alpha, \beta) \in \mathbf{A} \times \mathbf{B}} (\langle \mu_\alpha, f \rangle \langle \mu'_\beta, f' \rangle)
@@ -443,13 +443,13 @@ a) Si $\pi$ (resp. $\pi'$) est $\mu$-propre (resp. $\mu'$-propre), l’applicati
 
 b) Inversement, si $\pi \times \pi'$ est $(\mu \otimes \mu')$-propre, et si $\mu' \neq 0$, $\pi$ est $\mu$-propre.
 
-a) En effet, $\pi \times \pi'$ est $(\mu \otimes \mu')$-mesurable en vertu du cor. 1 de la prop. 3 du n° 2. D’autre part, si K (resp. K') est une partie compacte de $T_1$ (resp. $T'_1$), $\pi^{-1}(K)$ et ${\pi'}^{-1}(K')$ sont essentiellement intégrables pour $\mu$ et $\mu'$ respectivement, donc $\pi^{-1}(K) \times {\pi'}^{-1}(K')$ est essentiellement intégrable pour $\mu \otimes \mu'$ (cor. 2 de la prop. 8). Ceci prouve que $\pi \times \pi'$ est $(\mu \otimes \mu')$-propre. Soient alors $\mu_1 = \pi(\mu)$, $\mu'_1 = \pi'(\mu')$, $v_1 = (\pi \times \pi')(\mu \otimes \mu')$; pour $f \in \mathcal{K}(T_1)$ et $f' \in \mathcal{K}(T'_1)$, on a
+a) En effet, $\pi \times \pi'$ est $(\mu \otimes \mu')$-mesurable en vertu du cor. 1 de la prop. 3 du n° 2. D’autre part, si K (resp. K') est une partie compacte de $T_1$ (resp. $T'_1$), $\pi^{-1}(K)$ et ${\pi'}^{-1}(K')$ sont essentiellement intégrables pour $\mu$ et $\mu'$ respectivement, donc $\pi^{-1}(K) \times {\pi'}^{-1}(K')$ est essentiellement intégrable pour $\mu \otimes \mu'$ (cor. 2 de la prop. 8). Ceci prouve que $\pi \times \pi'$ est $(\mu \otimes \mu')$-propre. Soient alors $\mu_1 = \pi(\mu)$, $\mu'_1 = \pi'(\mu')$, $v_1 = (\pi \times \pi')(\mu \otimes \mu')$; pour $f \in \mathscr{K}(T_1)$ et $f' \in \mathscr{K}(T'_1)$, on a
 $$
 \iint f(\pi(t))f'(\pi'(t'))\ d\mu(t)\ d\mu'(t') = \left( \int f(\pi(t))\ d\mu(t) \right) \left( \int f'(\pi'(t'))\ d\mu'(t') \right)
 $$
 (cor. 2 de la prop. 8), ce qui prouve que $v_1 = \mu_1 \otimes \mu'_1$ (chap. III, 2e éd., § 4, n° 1, th. 1).
 
-b) Supposons maintenant que $\pi \times \pi'$ soit $\mu \otimes \mu'$-propre, et que $\mu' \neq 0$. Soit $\mu_1$ une mesure à support compact majorée par $\mu$. La fonction $\pi \times \pi'$ étant mesurable pour $\mu_1 \otimes \mu'$, l’application $t \mapsto (\pi(t), \pi'(t'))$ est $\mu$-mesurable, sauf pour des $t'$ qui forment un ensemble localement $\mu'$-négligeable (n° 2, prop. 2). Comme $\mu' \neq 0$, il en résulte que $\pi$ est $\mu_1$-mesurable, et finalement que $\pi$ est $\mu$-mesurable (§ 2, n° 3, prop. 4 et § 2, n° 2, prop. 2). Reste à montrer qu’on a $\mu^*(f \circ \pi) < +\infty$ pour toute fonction $f \in \mathcal{K}_+(T_1)$. Si $\mu$ est nulle, cette propriété est évidente. Si $\mu$ n’est pas nulle, $\mu \otimes \mu'$ ne l’est pas non plus, et on a par conséquent $(\pi \times \pi')(\mu \otimes \mu') \neq 0$ (§ 6, n° 2, prop. 2). D’après le lemme 1 du chap. III, 2e éd., § 4, il existe deux fonctions $g \in \mathcal{K}_+(T_1)$, $g' \in \mathcal{K}_+(T'_1)$, telles que
+b) Supposons maintenant que $\pi \times \pi'$ soit $\mu \otimes \mu'$-propre, et que $\mu' \neq 0$. Soit $\mu_1$ une mesure à support compact majorée par $\mu$. La fonction $\pi \times \pi'$ étant mesurable pour $\mu_1 \otimes \mu'$, l’application $t \mapsto (\pi(t), \pi'(t'))$ est $\mu$-mesurable, sauf pour des $t'$ qui forment un ensemble localement $\mu'$-négligeable (n° 2, prop. 2). Comme $\mu' \neq 0$, il en résulte que $\pi$ est $\mu_1$-mesurable, et finalement que $\pi$ est $\mu$-mesurable (§ 2, n° 3, prop. 4 et § 2, n° 2, prop. 2). Reste à montrer qu’on a $\mu^*(f \circ \pi) < +\infty$ pour toute fonction $f \in \mathscr{K}_+(T_1)$. Si $\mu$ est nulle, cette propriété est évidente. Si $\mu$ n’est pas nulle, $\mu \otimes \mu'$ ne l’est pas non plus, et on a par conséquent $(\pi \times \pi')(\mu \otimes \mu') \neq 0$ (§ 6, n° 2, prop. 2). D’après le lemme 1 du chap. III, 2e éd., § 4, il existe deux fonctions $g \in \mathscr{K}_+(T_1)$, $g' \in \mathscr{K}_+(T'_1)$, telles que
 $$
 \langle (\pi \times \pi')(\mu \otimes \mu'), g \otimes g' \rangle \neq 0.
 $$
@@ -513,7 +513,7 @@ autrement dit, c’est la transformée de la boule $\mathbf{B}_{n-1}$ par l’ho
 $$
 \alpha \int_{-\infty}^{+\infty} f(\alpha x) \, dx = \int_{-\infty}^{+\infty} f(z) \, dz
 $$
-pour $f \in \mathcal{K}(\mathbf{R})$, que l’image de $\mu_{n-1}$ par une homothétie $\mathbf{x} \mapsto \alpha \mathbf{x}$ est la mesure $\alpha^{1-n} \mu_{n-1}$. On a donc
+pour $f \in \mathscr{K}(\mathbf{R})$, que l’image de $\mu_{n-1}$ par une homothétie $\mathbf{x} \mapsto \alpha \mathbf{x}$ est la mesure $\alpha^{1-n} \mu_{n-1}$. On a donc
 $$
 \mu_{n-1}(\mathbf{B}_n(z_n)) = (\sqrt{1 - z_n^2})^{n-1} V_{n-1}.
 $$

@@ -53,7 +53,7 @@ subsections:
       pdf_page: 430
 statements: 42
 exercises: 18
-content_sha256: a8aa27b4be882b310434bde98ac4fb834ca90937904a9e3a872c008cc7e64bb3
+content_sha256: c0699a05fcd003d689d1ef7236f74dbeccc9be256b88164dca1de27936510c0a
 ---
 
 ## § 2. VECTORIAL MEASURES
@@ -118,7 +118,7 @@ It is clear that the set of finite numerical functions essentially integrable fo
 
 #### Example {#int-vi-s2-n2-exa-1 .statement}
 
-— Let us take for $m$ the identity mapping of $\mathscr{K}(T)$ onto itself. Since the dual of $\mathscr{K}(T)$ is the space $\mathscr{M}(T)$ of scalar measures on $T$, the functions $f \in \mathcal{L}(m)$ are those that are essentially integrable for *every* scalar measure $\mu$ (cf. Exer. 1), and the integral $\int f dm$ is the linear form $\mu \mapsto \int f d\mu$ on $\mathscr{M}(T)$. One cannot have $\int f d\mu = 0$ for every measure $\mu \in \mathscr{M}(T)$ unless $f = 0$, as one sees on taking $\mu = \varepsilon_t$, where $t$ is arbitrary in $T$; in other words, the mapping $f \mapsto \int f dm$ is an *injection* of $\mathcal{L}(m)$ into the algebraic dual of $\mathscr{M}(T)$, which extends the identity mapping of $\mathscr{K}(T)$. The relation $\int f dm \in F = \mathscr{K}(T)$ is therefore equivalent to $f \in \mathscr{K}(T)$.
+— Let us take for $m$ the identity mapping of $\mathcal{K}(T)$ onto itself. Since the dual of $\mathcal{K}(T)$ is the space $\mathcal{M}(T)$ of scalar measures on $T$, the functions $f \in \mathcal{L}(m)$ are those that are essentially integrable for *every* scalar measure $\mu$ (cf. Exer. 1), and the integral $\int f dm$ is the linear form $\mu \mapsto \int f d\mu$ on $\mathcal{M}(T)$. One cannot have $\int f d\mu = 0$ for every measure $\mu \in \mathcal{M}(T)$ unless $f = 0$, as one sees on taking $\mu = \varepsilon_t$, where $t$ is arbitrary in $T$; in other words, the mapping $f \mapsto \int f dm$ is an *injection* of $\mathcal{L}(m)$ into the algebraic dual of $\mathcal{M}(T)$, which extends the identity mapping of $\mathcal{K}(T)$. The relation $\int f dm \in F = \mathcal{K}(T)$ is therefore equivalent to $f \in \mathcal{K}(T)$.
 
 Let $u$ be a continuous linear mapping of $F$ into a Hausdorff locally convex space $G$, and let us denote again by $u$ its extension by bitransposition to a linear mapping of ${F'}^*$ into ${G'}^*$ (§ 1, No. 1). With this convention:
 
@@ -132,9 +132,9 @@ In general, if $f \in \mathcal{L}(m)$, the integral $\int f dm$ belongs to ${F'}
 
 #### Proposition 3 {#int-vi-s2-prop-3 .statement}
 
-*If the image under* $m$ *of the set of* $f \in \mathscr{K}(T)$ *such that* $\sup_{t \in T} |f(t)| \leq 1$ *is weakly relatively compact in* $F$, *then* $\int f dm \in F$ *for every bounded numerical function* $f$ *essentially integrable for* $m$.
+*If the image under* $m$ *of the set of* $f \in \mathcal{K}(T)$ *such that* $\sup_{t \in T} |f(t)| \leq 1$ *is weakly relatively compact in* $F$, *then* $\int f dm \in F$ *for every bounded numerical function* $f$ *essentially integrable for* $m$.
 
-Let $A$ be the set of $f \in \mathcal{L}(m)$ such that $\sup_{t \in T} |f(t)| \leq 1$, and let $B = A \cap \mathscr{K}(T)$; by hypothesis, $m(B)$ is weakly relatively compact in $F$, therefore it suffices to show that $m(A)$ is contained in the closure (in ${F'}^*$) of $m(B)$ for the topology $\sigma({F'}^*, F')$; since $m(B)$ is convex and balanced, it suffices to prove that the polar of $m(B)$ in $F'$ is contained in that of $m(A)$ (TVS, II, §6, No. 3, Th. 1). Now, for a linear form $z' \in F'$ to belong to $(m(B))^\circ$, it is necessary and sufficient that $|\langle z', m(g)\rangle| = |\int g d(z'\circ m)| \leq 1$ for every function $g \in B$, which signifies that the scalar measure $|z'\circ m|$ is bounded and of norm $\leq 1$ (Ch. III, §1, No. 8); but by (2) the latter condition implies that $|\langle z', m(f)\rangle| \leq 1$ for every function $f \in A$, whence $z' \in (m(A))^\circ$.
+Let $A$ be the set of $f \in \mathcal{L}(m)$ such that $\sup_{t \in T} |f(t)| \leq 1$, and let $B = A \cap \mathcal{K}(T)$; by hypothesis, $m(B)$ is weakly relatively compact in $F$, therefore it suffices to show that $m(A)$ is contained in the closure (in ${F'}^*$) of $m(B)$ for the topology $\sigma({F'}^*, F')$; since $m(B)$ is convex and balanced, it suffices to prove that the polar of $m(B)$ in $F'$ is contained in that of $m(A)$ (TVS, II, §6, No. 3, Th. 1). Now, for a linear form $z' \in F'$ to belong to $(m(B))^\circ$, it is necessary and sufficient that $|\langle z', m(g)\rangle| = |\int g d(z'\circ m)| \leq 1$ for every function $g \in B$, which signifies that the scalar measure $|z'\circ m|$ is bounded and of norm $\leq 1$ (Ch. III, §1, No. 8); but by (2) the latter condition implies that $|\langle z', m(f)\rangle| \leq 1$ for every function $f \in A$, whence $z' \in (m(A))^\circ$.
 
 #### Corollary 1 {#int-vi-s2-prop-3-cor-1 .statement}
 
@@ -218,13 +218,13 @@ To prove a), we may restrict ourselves to the case of an element of the form $f 
 
 Let us now prove b); we may restrict ourselves to the case of an element $f \geq 0$ of $\mathcal{L}^1((\mu_\iota)_\iota \in I)$. For every $\iota \in I$ and every $\varepsilon > 0$, there exists a compact subset $K(\iota, \varepsilon)$ of T such that the restriction of $f$ to $K(\iota, \varepsilon)$ is continuous and $|\mu_\iota(|f - f\varphi_{K(\iota, \varepsilon)}|)| \leq \varepsilon$. It is clear that $f$ is in the closure of the set C of $f\varphi_{K(\iota, \varepsilon)}$ (where $\iota \in I,\ \varepsilon > 0$). By virtue of Urysohn’s theorem, the set C in contained in $\mathcal{L}_0$; moreover, it is bounded, because $\mu_\kappa(f\varphi_{K(\iota, \varepsilon)}) \leq \mu_\kappa(f)$ for all $\iota \in I,\ \kappa \in I$ and $\varepsilon > 0$.
 
-Let us now prove Prop. 6: for every function $g \in \mathscr{K}(T)$ and every continuous seminorm q on F, $q\left( \int g\,dm \right) \leq \int |g|\,d(q(m))$ (Prop. 5), which implies that the mapping $g \mapsto \int g\,dm$ of $\mathscr{K}(T)$ into F is continuous when $\mathscr{K}(T)$ is equipped with the topology induced by that of $\mathcal{L}^1((q(m))_{q \in Q})$ (Q the set of continuous semi-norms on F). Consequently, by the preceding lemma and Prop. 10 of TVS, III, §1, No. 6, this mapping may be extended by continuity, first to a continuous linear mapping $v_0$ of $\mathcal{L}_0$ into F, then to a continuous linear mapping $v$ of $\mathcal{L}^1((q(m))_{q \in Q})$ into F. Moreover, for every $z' \in F'$ the relation $\langle z', v(f) \rangle = \int f\,d(z' \circ m)$ holds, by the definition of $v$, for every $f \in \mathscr{K}(T)$; since $|z' \circ m| \leq q(m)$ for $q(z) = |\langle z', z \rangle|$, the mapping $f \mapsto \int f\,d(z' \circ m)$ is continuous on $\mathcal{L}^1((q(m))_{q \in Q})$, therefore again by continuity, the relation $\langle z', v(f) = \int f\,d(z' \circ m)$ holds for every function $f \in \mathcal{L}^1((q(m))_{q \in Q})$. It follows that $v(f) = \int f\,dm$, which completes the proof.
+Let us now prove Prop. 6: for every function $g \in \mathcal{K}(T)$ and every continuous seminorm q on F, $q\left( \int g\,dm \right) \leq \int |g|\,d(q(m))$ (Prop. 5), which implies that the mapping $g \mapsto \int g\,dm$ of $\mathcal{K}(T)$ into F is continuous when $\mathcal{K}(T)$ is equipped with the topology induced by that of $\mathcal{L}^1((q(m))_{q \in Q})$ (Q the set of continuous semi-norms on F). Consequently, by the preceding lemma and Prop. 10 of TVS, III, §1, No. 6, this mapping may be extended by continuity, first to a continuous linear mapping $v_0$ of $\mathcal{L}_0$ into F, then to a continuous linear mapping $v$ of $\mathcal{L}^1((q(m))_{q \in Q})$ into F. Moreover, for every $z' \in F'$ the relation $\langle z', v(f) \rangle = \int f\,d(z' \circ m)$ holds, by the definition of $v$, for every $f \in \mathcal{K}(T)$; since $|z' \circ m| \leq q(m)$ for $q(z) = |\langle z', z \rangle|$, the mapping $f \mapsto \int f\,d(z' \circ m)$ is continuous on $\mathcal{L}^1((q(m))_{q \in Q})$, therefore again by continuity, the relation $\langle z', v(f) = \int f\,d(z' \circ m)$ holds for every function $f \in \mathcal{L}^1((q(m))_{q \in Q})$. It follows that $v(f) = \int f\,dm$, which completes the proof.
 
 ### 4. Vectorial measures with base $\mu$
 
 #### Definition 4 {#int-vi-s2-def-4 .statement}
 
-*Let $\mu$ be a positive measure on T. A vectorial measure $m$ on T, with values in F, is said to be a measure with base $\mu$ if there exists a mapping $f$ of T into F, scalarly locally $\mu$-integrable, such that $m(g) = \int gf\,d\mu$ for every function $g \in \mathscr{K}(T)$. One then says that $f$ is a density of $m$ with respect to $\mu$, and one writes $m = f \cdot \mu$.*
+*Let $\mu$ be a positive measure on T. A vectorial measure $m$ on T, with values in F, is said to be a measure with base $\mu$ if there exists a mapping $f$ of T into F, scalarly locally $\mu$-integrable, such that $m(g) = \int gf\,d\mu$ for every function $g \in \mathcal{K}(T)$. One then says that $f$ is a density of $m$ with respect to $\mu$, and one writes $m = f \cdot \mu$.*
 
 It is immediate that if $f_1$ and $f_2$ are two densities of $m$ with respect to $\mu$, then $f_1 - f_2$ is scalarly locally $\mu$-negligible (Ch. V, §5, No. 3, Cor. 2 of Prop. 3); recall that in general this does not imply that $f_1 - f_2$ is zero locally almost everywhere (cf. §1, Exer. 12 and No. 1, *Remark 2*).
 
@@ -436,11 +436,11 @@ for every function $f \in \mathcal{L}_F^1(\mu)$, because both members are contin
 
 #### Definition 6 {#int-vi-s2-def-6 .statement}
 
-*One calls complex measure on* $T$ *every continuous linear form on the complex vector space* $\mathscr{K}_C(T)$.\footnote{Cf. Ch. III, §1, No. 3, Def. 2.}
+*One calls complex measure on* $T$ *every continuous linear form on the complex vector space* $\mathcal{K}_C(T)$.\footnote{Cf. Ch. III, §1, No. 3, Def. 2.}
 
-The space $\mathscr{M}_C(T)$ of complex measures on $T$ is thus the *dual* of the Hausdorff locally convex space $\mathscr{K}_C(T)$.
+The space $\mathcal{M}_C(T)$ of complex measures on $T$ is thus the *dual* of the Hausdorff locally convex space $\mathcal{K}_C(T)$.
 
-If $m$ is a complex measure on $T$, its restriction to $\mathscr{K}(T)$ is a vectorial measure on $T$ with values in $\mathbf{C}$ (regarded as a vector space over $\mathbf{R}$);
+If $m$ is a complex measure on $T$, its restriction to $\mathcal{K}(T)$ is a vectorial measure on $T$ with values in $\mathbf{C}$ (regarded as a vector space over $\mathbf{R}$);
 
 m is determined by this restriction, since if $f = f_1 + i f_2 \in \mathcal{H}_\mathbf{C}(T)$, the real part $f_1$ and the imaginary part $f_2$ of $f$ are in $\mathcal{H}(T)$, and $m(f) = m(f_1) + i m(f_2)$. Conversely, for every vectorial measure $m_0$ on T with values in $\mathbf{C}$, the formula $m(f) = m_0(f_1) + i m_0(f_2)$ defines a complex measure $m$, the only one on T whose restriction to $\mathcal{H}(T)$ is $m_0$. We shall therefore henceforth identify a complex measure with its restriction to $\mathcal{H}(T)$; such a measure $m$ is of the form $m = \mu_1 + i \mu_2$, where $\mu_1$ and $\mu_2$ are two real measures on T, which are called, respectively, the real part and the imaginary part of $m$. The support of $m$ is the union of the supports of $\mu_1$ and $\mu_2$. One knows that $m$ is majorizable (No. 3, Cor. of Prop. 4); we shall call absolute value of $m$ the positive measure $|m|$ corresponding to the absolute value $|x_1 + i x_2| = \sqrt{x_1^2 + x_2^2}$ on $\mathbf{C}$. One has $|m| = (\mu_1^2 + \mu_2^2)^{1/2}$ (No. 4, Remark following Prop. 9),$^3$ and $|\mu_1| \leq |m|$, $|\mu_2| \leq |m|$, $|m| \leq |\mu_1| + |\mu_2|$; moreover, $m$ is a measure with base $|m|$, and one can write $m = h \cdot |m|$, where $h \in \mathcal{L}_\mathbf{C}^\infty(|m|)$ and $|h(t)| = 1$ locally almost everywhere for $|m|$ (No. 4, Prop. 9).$^4$ The supports of $m$ and $|m|$ are the same.
 

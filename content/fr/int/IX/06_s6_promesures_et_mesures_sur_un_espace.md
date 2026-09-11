@@ -56,7 +56,7 @@ subsections:
       pdf_page: 90
 statements: 36
 exercises: 1
-content_sha256: 4427ce6e61509fb93e77e5267f3caa6025ae8004ae114e8fc45c6c7344706320
+content_sha256: 0b5b3f4a4f362a6f69b7c16f24e0c4ae99f4af32847706523f3c692b32578883
 ---
 
 ## § 6. Promesures et mesures sur un espace localement convexe
@@ -1048,7 +1048,7 @@ C.Q.F.D.
 
 Soient $E_1$ et $E_2$ deux espaces de Hilbert, $u$ une application de Hilbert–Schmidt de $E_1$ dans $E_2$ et $\mu$ une promesure sur $E_1$. On suppose que la transformée de Fourier $\Phi$ de $\mu$ est continue sur $E_1$. Alors la promesure $\nu = u(\mu)$ est une mesure sur $E_2$ muni de la topologie faible.
 
-Avec les identifications de $E_1$ et $E_2$ à leurs duals introduites dans ce n°, la transformée de Fourier de $\nu$ est égale à $\Phi \circ u^*$ où $u^*$ est l’adjointe de $u$. Or $u^*$ est une application de Hilbert–Schmidt de $E_2$ dans $E_1$ (Annexe, n° 2), et la forme quadratique $y \mapsto \|u^*(y)\|^2$ sur $E_2$ est donc nucléaire. Si $(E_2)_\mathscr{S}$ désigne $E_2$ muni de la topologie de Sazonov, $u^*$ est donc une application linéaire continue de $(E_2)_\mathscr{S}$ dans $E_1$ et $\mathcal{F}_\nu = \Phi \circ u^*$ est continue sur $(E_2)_\mathscr{S}$; le théorème 3 montre alors que $\nu$ est une mesure sur l’espace $E_2$ muni de la topologie faible.
+Avec les identifications de $E_1$ et $E_2$ à leurs duals introduites dans ce n°, la transformée de Fourier de $\nu$ est égale à $\Phi \circ u^*$ où $u^*$ est l’adjointe de $u$. Or $u^*$ est une application de Hilbert–Schmidt de $E_2$ dans $E_1$ (Annexe, n° 2), et la forme quadratique $y \mapsto \|u^*(y)\|^2$ sur $E_2$ est donc nucléaire. Si $(E_2)_\mathcal{S}$ désigne $E_2$ muni de la topologie de Sazonov, $u^*$ est donc une application linéaire continue de $(E_2)_\mathcal{S}$ dans $E_1$ et $\mathcal{F}_\nu = \Phi \circ u^*$ est continue sur $(E_2)_\mathcal{S}$; le théorème 3 montre alors que $\nu$ est une mesure sur l’espace $E_2$ muni de la topologie faible.
 
 #### Corollaire 2 {#int-ix-s6-thm-3-cor-2 .statement}
 

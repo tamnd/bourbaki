@@ -36,20 +36,20 @@ subsections:
       pdf_page: 83
 statements: 31
 exercises: 22
-content_sha256: a28420f7db6c8a0e859bd6fa339a36ec124cd6b73e65064e75f7df8123ecc705
+content_sha256: 39c42d717fc9eb8f91b93bf7f6a05da649e50c023a580154ac49c8c895be5ff7
 ---
 
 ## § 6. — Images d’une mesure
 
 ### 1. *Image d’une mesure positive*
 
-Soient X un espace localement compact, $\pi$ une application $\mu$-mesurable de T dans X. Dire que le couple $(\pi, 1)$ est $\mu$-adapté (§ 4, n° 1) équivaut à dire que pour toute fonction $f \in \mathcal{K}(X)$ la fonction $f \circ \pi$ est essentiellement $\mu$-intégrable.
+Soient X un espace localement compact, $\pi$ une application $\mu$-mesurable de T dans X. Dire que le couple $(\pi, 1)$ est $\mu$-adapté (§ 4, n° 1) équivaut à dire que pour toute fonction $f \in \mathscr{K}(X)$ la fonction $f \circ \pi$ est essentiellement $\mu$-intégrable.
 
 #### Proposition 1 {#int-v-s6-prop-1 .statement}
 
 *Soit $\pi$ une application $\mu$-mesurable de T dans un espace localement compact X. Les deux propriétés suivantes sont équivalentes :
 
-a) pour toute fonction $f \in \mathcal{K}(X)$, $f \circ \pi$ est essentiellement $\mu$-intégrable ;
+a) pour toute fonction $f \in \mathscr{K}(X)$, $f \circ \pi$ est essentiellement $\mu$-intégrable ;
 
 b) pour tout ensemble compact $K \subset X$, $\pi^{-1}(K)$ est essentiellement $\mu$-intégrable.
 
@@ -70,7 +70,7 @@ c) Pour tout point x de X, il existe un voisinage V de X tel que $\pi^{-1}(V)$ s
 
 Soit $\mu$ une mesure positive sur un espace localement compact T. On dit qu’une application $\pi$ de T dans un espace localement compact X est $\mu$-propre (ou propre pour la mesure $\mu$) si le couple $(\pi, 1)$ est $\mu$-adapté, c’est-à-dire ($§ 4, n° 1$) si $\pi$ est $\mu$-mesurable et satisfait aux conditions (équivalentes) de la prop. 1. La mesure $\int \varepsilon_{\pi(t)} d\mu(t)$ sur X s’appelle alors l’image de $\mu$ par $\pi$ et se note $\pi(\mu)$.
 
-Si $v = \pi(\mu)$, on a donc, par définition, pour $f \in \mathcal{K}(X)$
+Si $v = \pi(\mu)$, on a donc, par définition, pour $f \in \mathscr{K}(X)$
 
 $$
 \int f(x) dv(x) = \int f(\pi(t)) d\mu(t).
@@ -169,7 +169,7 @@ a) Supposons que π soit μ-propre et soit μ' = π(μ). Pour que π' soit μ'-p
 
 b) Supposons que π' soit continue, et que π'' soit μ-propre ; π est alors μ-propre, π' est π(μ)-propre, et on a π''(μ) = π'(π(μ)).
 
-Sous les hypothèses de a), pour que π'' soit μ-mesurable, il faut et il suffit que π' soit μ'-mesurable (n° 2, prop. 3). D’autre part, si K est une partie compacte de T'', on a ${\pi''}^{-1}(K) = {\pi'}^{-1}(\pi'(K))$; pour que ${\pi''}^{-1}(K)$ soit essentiellement μ-intégrable, il faut et il suffit que ${\pi'}^{-1}(K)$ soit essentiellement μ'-intégrable, en vertu du cor. du th. 1. Enfin, si π'' est μ-propre, en posant $\mu'' = \pi''(\mu)$, on a, pour toute fonction $f \in \mathcal{K}(T'')$,
+Sous les hypothèses de a), pour que π'' soit μ-mesurable, il faut et il suffit que π' soit μ'-mesurable (n° 2, prop. 3). D’autre part, si K est une partie compacte de T'', on a ${\pi''}^{-1}(K) = {\pi'}^{-1}(\pi'(K))$; pour que ${\pi''}^{-1}(K)$ soit essentiellement μ-intégrable, il faut et il suffit que ${\pi'}^{-1}(K)$ soit essentiellement μ'-intégrable, en vertu du cor. du th. 1. Enfin, si π'' est μ-propre, en posant $\mu'' = \pi''(\mu)$, on a, pour toute fonction $f \in \mathscr{K}(T'')$,
 
 $$
 \int f(t'')\,d\mu''(t'') = \int f(\pi''(t))\,d\mu(t)
@@ -209,7 +209,7 @@ $$
 \pi(\mu) = \sup_\alpha \pi(\lambda_\alpha).
 $$
 
-Pour que $\pi$ soit $\mu$-mesurable, il faut et il suffit que $\pi$ soit $\lambda_\alpha$-mesurable pour tout $\alpha \in A$ (§1, n° 4, cor. 2 de la prop. 11). Supposons cette condition satisfaite; dire que $\pi$ est $\mu$-propre équivaut alors à dire qu’on a, pour toute fonction $f \in \mathcal{K}_+(T)$,
+Pour que $\pi$ soit $\mu$-mesurable, il faut et il suffit que $\pi$ soit $\lambda_\alpha$-mesurable pour tout $\alpha \in A$ (§1, n° 4, cor. 2 de la prop. 11). Supposons cette condition satisfaite; dire que $\pi$ est $\mu$-propre équivaut alors à dire qu’on a, pour toute fonction $f \in \mathscr{K}_+(T)$,
 
 $$
 \mu^*(f \circ \pi) < +\infty.
@@ -221,7 +221,7 @@ $$
 \int^\ast (f \circ \pi)\, d\mu = \sup_\alpha \int^\ast (f \circ \pi)\, d\lambda_\alpha = \sup_\alpha \int^\ast f\, d(\pi(\lambda_\alpha))
 $$
 
-(§ 1, n° 4, prop. 11); le premier membre est donc fini pour toute $f \in \mathcal{K}_+(T)$ si et seulement si la famille $(\pi(\lambda_\alpha))$ admet une borne supérieure $\theta$ dans $\mathcal{M}(X)$, et on a alors $\int (f \circ \pi)\, d\mu = \int f\, d\theta$, relation équivalente à (5).
+(§ 1, n° 4, prop. 11); le premier membre est donc fini pour toute $f \in \mathscr{K}_+(T)$ si et seulement si la famille $(\pi(\lambda_\alpha))$ admet une borne supérieure $\theta$ dans $\mathcal{M}(X)$, et on a alors $\int (f \circ \pi)\, d\mu = \int f\, d\theta$, relation équivalente à (5).
 
 #### Corollaire 1 {#int-v-s6-prop-6-cor-1 .statement}
 
@@ -242,12 +242,12 @@ $$
 
 ### 4. Image d’une mesure complexe
 
-Soit $\theta$ une mesure complexe sur $T$, et soit $\pi$ une application de $T$ dans un espace localement compact $X$ : supposons que $\pi$ soit $\theta$-mesurable, et que pour chaque $f \in \mathcal{K}(X; \mathbf{C})$, $f \circ \pi$ soit essentiellement $\theta$-intégrable. Comme il est équivalent de dire qu’une fonction est mesurable (resp. essentiellement intégrable) par rapport à $\theta$ ou par rapport à $|\theta|$, cela signifie que $\pi$ est $|\theta|$-propre. Si $f \in \mathcal{K}(X; \mathbf{C})$, on a
+Soit $\theta$ une mesure complexe sur $T$, et soit $\pi$ une application de $T$ dans un espace localement compact $X$ : supposons que $\pi$ soit $\theta$-mesurable, et que pour chaque $f \in \mathscr{K}(X; \mathbf{C})$, $f \circ \pi$ soit essentiellement $\theta$-intégrable. Comme il est équivalent de dire qu’une fonction est mesurable (resp. essentiellement intégrable) par rapport à $\theta$ ou par rapport à $|\theta|$, cela signifie que $\pi$ est $|\theta|$-propre. Si $f \in \mathscr{K}(X; \mathbf{C})$, on a
 $$(7)$$
 $$
 \left| \int (f \circ \pi) \, d\theta \right| \leq \int (|f| \circ \pi) \, d|\theta|;
 $$
-il en résulte aussitôt que la forme linéaire $f \mapsto \int (f \circ \pi) \, d\theta$ sur $\mathcal{K}(X; \mathbf{C})$ est une mesure complexe sur $X$ (chap. III, 2e éd., § 1, no 3, prop. 6), et on peut poser la définition suivante:
+il en résulte aussitôt que la forme linéaire $f \mapsto \int (f \circ \pi) \, d\theta$ sur $\mathscr{K}(X; \mathbf{C})$ est une mesure complexe sur $X$ (chap. III, 2e éd., § 1, no 3, prop. 6), et on peut poser la définition suivante:
 
 #### Définition 2 {#int-v-s6-def-2 .statement}
 
@@ -306,13 +306,13 @@ Supposons d’abord que $g$ soit $\mu$-intégrable. Alors, le même raisonnement
 
 *Supposons* $g$ $\mu$-intégrable. *Si* $J$ *désigne l’intervalle ouvert de* $\mathbf{R}$ *d’extrémités* $G(a+)$ *et* $G(b-)$, *l’image par* $G$ *de la mesure* $g . \mu$ *est la mesure* $\varphi_J . \nu$ *si* $G(a+) \leq G(b-)$ *et la mesure* $-\varphi_J . \nu$ *si* $G(a+) \geq G(b-)$ (*$\nu$ désignant la mesure de Lebesgue sur* $G(I)$).
 
-Il suffit de prouver que, pour toute fonction $f \in \mathcal{K}(G(I))$, on a
+Il suffit de prouver que, pour toute fonction $f \in \mathscr{K}(G(I))$, on a
 
 $$
 \int_{G(a+)}^{G(b-)} f(\xi)\, d\xi = \int_a^b f(G(t))g(t)\, dt. \tag{12}
 $$
 
-Or, cette formule a déjà été démontrée lorsque $g \in \mathcal{K}(I)$ (*Fonct. var. réelle*, chap. II, § 2, n° 1, formule (1)). Passons au cas général; il existe une suite $(g_n)$ de fonctions de $\mathcal{K}(I)$ telle que: 1° la suite $(g_n(t))$ tende vers $g(t)$ presque partout dans $I$; 2° il existe une fonction $\mu$-intégrable $h \geq 0$ telle que $|g_n| \leq h$ pour tout $n$ (chap. IV, § 3, n° 4, th. 3). Il résulte aussitôt du th. de Lebesgue que, si on pose $G_n(x) = c + \int_{x_0}^x g_n(t)\, dt$, la suite $(G_n)$ converge *uniformément* vers $G$ dans $I$, et que les nombres $G_n(a+)$ et $G_n(b-)$ tendent respectivement vers $G(a+)$ et $G(b-)$. Soit $f'$ une fonction de $\mathcal{K}(\mathbf{R})$ prolongeant $f$; ce qui précède prouve que $f'(G_n(t))$ tend vers $f'(G(t)) = f(G(t))$ pour tout $t \in I$; appliquant le th. de
+Or, cette formule a déjà été démontrée lorsque $g \in \mathscr{K}(I)$ (*Fonct. var. réelle*, chap. II, § 2, n° 1, formule (1)). Passons au cas général; il existe une suite $(g_n)$ de fonctions de $\mathscr{K}(I)$ telle que: 1° la suite $(g_n(t))$ tende vers $g(t)$ presque partout dans $I$; 2° il existe une fonction $\mu$-intégrable $h \geq 0$ telle que $|g_n| \leq h$ pour tout $n$ (chap. IV, § 3, n° 4, th. 3). Il résulte aussitôt du th. de Lebesgue que, si on pose $G_n(x) = c + \int_{x_0}^x g_n(t)\, dt$, la suite $(G_n)$ converge *uniformément* vers $G$ dans $I$, et que les nombres $G_n(a+)$ et $G_n(b-)$ tendent respectivement vers $G(a+)$ et $G(b-)$. Soit $f'$ une fonction de $\mathscr{K}(\mathbf{R})$ prolongeant $f$; ce qui précède prouve que $f'(G_n(t))$ tend vers $f'(G(t)) = f(G(t))$ pour tout $t \in I$; appliquant le th. de
 
 Lebesgue, on voit que la formule (12) résulte de la formule
 
@@ -363,7 +363,7 @@ $$
 
 du fait que $\lambda_t$ est concentrée sur $\bar{\pi}^1(t)$. On sait que $g$ est $\mu$-mesurable, puisque $\Lambda$ est $\mu$-adéquate (§ 3, n° 1, déf. 1). Dire que le premier membre est fini pour toute $f \in \mathscr{K}_+(T)$ équivaut donc à dire que $g$ est localement $\mu$-intégrable (§ 5, prop. 1), et (14) résulte aussitôt dans ce cas des relations ci-dessus.
 
-Il nous reste donc seulement à éliminer l’hypothèse auxiliaire. Si g est localement $\mu$-intégrable, g est finie localement $\mu$-presque partout, et l’hypothèse est bien satisfaite. Supposons que $\pi$ soit $\nu$-propre, et montrons que g est finie localement presque partout. Soit $\mathfrak{R}$ l’ensemble $\mu$-dense des compacts K tels que $\Lambda|K$ soit vaguement continue; comme g est $\mu$-mesurable, on est ramené à montrer que tout compact $K \in \mathfrak{R}$, tel que $g|K = +\infty$, est $\mu$-négligeable. Or soit $\mathcal{H}$ l’ensemble des fonctions $h \in \mathcal{K}_+(X)$ telles que $h \leq 1$; posons $g_h(t) = \lambda_t(h)$, désignons par $\Lambda_h$ l’application $\mu$-adéquate $t \mapsto h \cdot \lambda_t$, par $\nu_h$ l’intégrale de $\Lambda_h$, par $f$ un élément de $\mathcal{K}_+(T)$ tel que $f \geq \varphi_K$. Si nous appliquons la formule (14) à $\Lambda_h$, qui satisfait à l’hypothèse auxiliaire, nous obtenons:
+Il nous reste donc seulement à éliminer l’hypothèse auxiliaire. Si g est localement $\mu$-intégrable, g est finie localement $\mu$-presque partout, et l’hypothèse est bien satisfaite. Supposons que $\pi$ soit $\nu$-propre, et montrons que g est finie localement presque partout. Soit $\mathfrak{R}$ l’ensemble $\mu$-dense des compacts K tels que $\Lambda|K$ soit vaguement continue; comme g est $\mu$-mesurable, on est ramené à montrer que tout compact $K \in \mathfrak{R}$, tel que $g|K = +\infty$, est $\mu$-négligeable. Or soit $\mathcal{H}$ l’ensemble des fonctions $h \in \mathscr{K}_+(X)$ telles que $h \leq 1$; posons $g_h(t) = \lambda_t(h)$, désignons par $\Lambda_h$ l’application $\mu$-adéquate $t \mapsto h \cdot \lambda_t$, par $\nu_h$ l’intégrale de $\Lambda_h$, par $f$ un élément de $\mathscr{K}_+(T)$ tel que $f \geq \varphi_K$. Si nous appliquons la formule (14) à $\Lambda_h$, qui satisfait à l’hypothèse auxiliaire, nous obtenons:
 
 $$
 \int (f \circ \pi) \, d\nu \geq \int (f \circ \pi) \, d\nu_h = \int fg_h \, d\mu.

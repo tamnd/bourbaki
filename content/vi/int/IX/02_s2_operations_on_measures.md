@@ -41,7 +41,7 @@ subsections:
       pdf_page: 219
 statements: 38
 exercises: 3
-content_sha256: 02abd689324a5ce6efd4c482bc97777f183d92ec58a35284e29dd8a916ed5323
+content_sha256: 323e2fc96ffc22454428682f3a4351477bf083ab53fee414c77d43b119c48c44
 translated_from: content/en/int/IX/02_s2_operations_on_measures.md
 source_content_sha256: 5d3aed35c21d37dd0891ce27752ff8c2c681733ce8a642742891a5f7895e1d07
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini
@@ -216,7 +216,7 @@ $$
 (\pi(\mu))_B = (\pi_A(\mu_A))_B = \pi'(\mu_A).
 $$
 
-Tập hợp A là $\mu$-đo được theo Mệnh đề 5 áp dụng cho $\varphi_B$; ánh xạ $\pi_A$ rõ ràng là $\mu_A$-đo được theo định nghĩa của các độ đo cảm sinh (No. 1), và suy ra rằng $\pi'$ là đo được. Cho $f$ là một phần tử của $\mathscr{F}_+(B)$; ký hiệu các số mũ không là các mở rộng bằng 0 trong X và trong T, ta có
+Tập hợp A là $\mu$-đo được theo Mệnh đề 5 áp dụng cho $\varphi_B$; ánh xạ $\pi_A$ rõ ràng là $\mu_A$-đo được theo định nghĩa của các độ đo cảm sinh (No. 1), và suy ra rằng $\pi'$ là đo được. Cho $f$ là một phần tử của $\mathcal{F}_+(B)$; ký hiệu các số mũ không là các mở rộng bằng 0 trong X và trong T, ta có
 
 $$
 (\pi(\mu)_B)^\bullet(f) = \pi(\mu)^\bullet(f^0) = \mu^\bullet(f^0 \circ \pi) = \mu^\bullet((f \circ \pi')^0) = \mu_A^\bullet(f \circ \pi'),

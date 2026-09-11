@@ -20,14 +20,14 @@ subsections:
       pdf_page: 89
 statements: 20
 exercises: 11
-content_sha256: 8993921901c219574a677bc8ecdd527fa01313f50a67882b515918eef0427b1a
+content_sha256: 6189a0d7c9b5aef26a832ec16a0af970d9fede5371f1842ab0d6e0ff6067922b
 ---
 
 ## § 7. Intégration par rapport à une mesure induite
 
 ### 1. Intégration par rapport à une mesure induite
 
-Soient X un sous-espace localement compact de T, $\mu$ une mesure positive sur T, $\mu_X$ la mesure induite sur X par $\mu$ (chap. IV, 2e éd., § 5, n° 7). Pour tout $t \in T$, définissons une mesure $\lambda_t$ sur X de la façon suivante : $\lambda_t = \varepsilon_t$ si $t \in T$, $\lambda_t = 0$ si $t \in \mathbf{C}X$. Pour toute fonction numérique finie $g$ définie dans $X$, on a $\int g(x)\ d\lambda_t(x) = g(t)$ si $t \in X$ et $\int g(x)\ d\lambda_t(x) = 0$ si $t \in \mathbf{C}X$. Si $g$ est une fonction de $\mathscr{H}(X)$, on a donc, par définition de $\mu_X$
+Soient X un sous-espace localement compact de T, $\mu$ une mesure positive sur T, $\mu_X$ la mesure induite sur X par $\mu$ (chap. IV, 2e éd., § 5, n° 7). Pour tout $t \in T$, définissons une mesure $\lambda_t$ sur X de la façon suivante : $\lambda_t = \varepsilon_t$ si $t \in T$, $\lambda_t = 0$ si $t \in \mathbf{C}X$. Pour toute fonction numérique finie $g$ définie dans $X$, on a $\int g(x)\ d\lambda_t(x) = g(t)$ si $t \in X$ et $\int g(x)\ d\lambda_t(x) = 0$ si $t \in \mathbf{C}X$. Si $g$ est une fonction de $\mathcal{H}(X)$, on a donc, par définition de $\mu_X$
 
 (1)
 $$
@@ -139,7 +139,7 @@ $$
 \int g\, d(i(\lambda))_X = \int g'\, d(i(\lambda)) = \int (g' \circ i)\, d\lambda = \int g\, d\lambda.
 $$
 
-Cela achève de prouver l’équivalence des quatre propriétés. Si $\lambda = \theta_X$, et si $g \in \mathscr{H}(T; \mathbf{C})$, on a
+Cela achève de prouver l’équivalence des quatre propriétés. Si $\lambda = \theta_X$, et si $g \in \mathcal{H}(T; \mathbf{C})$, on a
 
 $$
 \int g\, d(i(\theta_X)) = \int (g \circ i)\, d(\theta_X) = \int g \varphi_X\, d\theta,
@@ -163,7 +163,7 @@ En effet, on a $\pi_X = \pi \circ i$, où $i$ est l’injection canonique $X \to
 
 Soient $X$ et $Y$ deux sous-espaces localement compacts de $T$, tels que $Y \subset X$. Si $\theta$ est une mesure complexe sur $T$, la mesure $(\theta_X)_Y$ induite par $\theta_X$ sur $Y$ est égale à $\theta_Y$ (« transitivité des mesures induites »).
 
-Il suffit de remarquer que, si $g$ est un élément de $\mathscr{H}(Y; \mathbf{C})$, le prolongement par 0 de $g$ à $T$ s’obtient en prolongeant par 0 le prolongement par 0 de $g$ à $X$, ou encore, en utilisant les identifications du Scholie, que $\varphi_Y \cdot \theta = \varphi_Y(\varphi_X \cdot \theta)$ ($§ 5$, n° 4, prop. 8).
+Il suffit de remarquer que, si $g$ est un élément de $\mathcal{H}(Y; \mathbf{C})$, le prolongement par 0 de $g$ à $T$ s’obtient en prolongeant par 0 le prolongement par 0 de $g$ à $X$, ou encore, en utilisant les identifications du Scholie, que $\varphi_Y \cdot \theta = \varphi_Y(\varphi_X \cdot \theta)$ ($§ 5$, n° 4, prop. 8).
 
 #### Proposition 5 {#int-v-s7-prop-5 .statement}
 

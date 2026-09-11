@@ -53,9 +53,9 @@ subsections:
       pdf_page: 430
 statements: 42
 exercises: 18
-content_sha256: d3dbea9d22f2dde079ec03c71a0655fdf0fa69bbf90757723b0ea9c3fbd6216a
+content_sha256: 4d5301e89890cbbd5cc10da56cdd0dac6251e706a0f0dd9eabe7ad574bce01d7
 translated_from: content/en/int/VI/02_s2_vectorial_measures.md
-source_content_sha256: a8aa27b4be882b310434bde98ac4fb834ca90937904a9e3a872c008cc7e64bb3
+source_content_sha256: c0699a05fcd003d689d1ef7236f74dbeccc9be256b88164dca1de27936510c0a
 translation_model: gpt-5.4, gpt-5.4-mini
 translation_run: translate-vi-d5713465
 glossary_version: 34
@@ -127,7 +127,7 @@ Rõ ràng tập hợp các hàm số hữu hạn khả tích theo nghĩa thiết
 
 #### Ví dụ {#int-vi-s2-n2-exa-1 .statement}
 
-— Hãy lấy $m$ là ánh xạ đồng nhất của $\mathscr{K}(T)$ lên chính nó. Vì đối ngẫu của $\mathscr{K}(T)$ là không gian $\mathscr{M}(T)$ các độ đo vô hướng trên $T$, nên các hàm $f \in \mathcal{L}(m)$ là những hàm khả tích theo nghĩa thiết yếu đối với *mọi* độ đo vô hướng $\mu$ (x. Bài tập 1), và tích phân $\int f dm$ là dạng tuyến tính $\mu \mapsto \int f d\mu$ trên $\mathscr{M}(T)$. Không thể có $\int f d\mu = 0$ đối với mọi độ đo $\mu \in \mathscr{M}(T)$ trừ khi $f = 0$, như ta thấy khi lấy $\mu = \varepsilon_t$, trong đó $t$ là tùy ý trong $T$; nói cách khác, ánh xạ $f \mapsto \int f dm$ là một *đơn ánh* của $\mathcal{L}(m)$ vào đối ngẫu đại số của $\mathscr{M}(T)$, là một mở rộng của ánh xạ đồng nhất của $\mathscr{K}(T)$. Quan hệ $\int f dm \in F = \mathscr{K}(T)$ do đó tương đương với $f \in \mathscr{K}(T)$.
+— Hãy lấy $m$ là ánh xạ đồng nhất của $\mathcal{K}(T)$ lên chính nó. Vì đối ngẫu của $\mathcal{K}(T)$ là không gian $\mathcal{M}(T)$ các độ đo vô hướng trên $T$, nên các hàm $f \in \mathcal{L}(m)$ là những hàm khả tích theo nghĩa thiết yếu đối với *mọi* độ đo vô hướng $\mu$ (x. Bài tập 1), và tích phân $\int f dm$ là dạng tuyến tính $\mu \mapsto \int f d\mu$ trên $\mathcal{M}(T)$. Không thể có $\int f d\mu = 0$ đối với mọi độ đo $\mu \in \mathcal{M}(T)$ trừ khi $f = 0$, như ta thấy khi lấy $\mu = \varepsilon_t$, trong đó $t$ là tùy ý trong $T$; nói cách khác, ánh xạ $f \mapsto \int f dm$ là một *đơn ánh* của $\mathcal{L}(m)$ vào đối ngẫu đại số của $\mathcal{M}(T)$, là một mở rộng của ánh xạ đồng nhất của $\mathcal{K}(T)$. Quan hệ $\int f dm \in F = \mathcal{K}(T)$ do đó tương đương với $f \in \mathcal{K}(T)$.
 
 Cho $u$ là một ánh xạ tuyến tính liên tục từ $F$ vào một không gian lồi địa phương Hausdorff $G$, và ta lại ký hiệu bởi $u$ mở rộng của nó bằng song chuyển vị thành một ánh xạ tuyến tính từ ${F'}^*$ vào ${G'}^*$ (§ 1, No. 1). Với quy ước này:
 
@@ -141,9 +141,9 @@ Nói chung, nếu $f \in \mathcal{L}(m)$, thì tích phân $\int f dm$ thuộc $
 
 #### Mệnh đề 3 {#int-vi-s2-prop-3 .statement}
 
-*Nếu ảnh qua* $m$ *của tập hợp các* $f \in \mathscr{K}(T)$ *sao cho* $\sup_{t \in T} |f(t)| \leq 1$ *là tương đối compắc yếu trong* $F$, *thì* $\int f dm \in F$ *đối với mọi hàm số bị chặn khả tích theo nghĩa thiết yếu đối với* $m$.
+*Nếu ảnh qua* $m$ *của tập hợp các* $f \in \mathcal{K}(T)$ *sao cho* $\sup_{t \in T} |f(t)| \leq 1$ *là tương đối compắc yếu trong* $F$, *thì* $\int f dm \in F$ *đối với mọi hàm số bị chặn khả tích theo nghĩa thiết yếu đối với* $m$.
 
-Cho $A$ là tập hợp các $f \in \mathcal{L}(m)$ sao cho $\sup_{t \in T} |f(t)| \leq 1$, và cho $B = A \cap \mathscr{K}(T)$; theo giả thiết, $m(B)$ là tương đối compắc yếu trong $F$, do đó chỉ cần chứng minh rằng $m(A)$ được chứa trong bao đóng (trong ${F'}^*$) của $m(B)$ đối với tôpô $\sigma({F'}^*, F')$; vì $m(B)$ là lồi và cân bằng, nên chỉ cần chứng minh rằng đối cực của $m(B)$ trong $F'$ được chứa trong đối cực của $m(A)$ (TVS, II, §6, No. 3, Th. 1). Bây giờ, để một dạng tuyến tính $z' \in F'$ thuộc $(m(B))^\circ$, điều kiện cần và đủ là $|\langle z', m(g)\rangle| = |\int g d(z'\circ m)| \leq 1$ với mọi hàm $g \in B$, điều đó có nghĩa là độ đo vô hướng $|z'\circ m|$ bị chặn và có chuẩn $\leq 1$ (Ch. III, §1, No. 8); nhưng theo (2), điều kiện sau cùng này kéo theo $|\langle z', m(f)\rangle| \leq 1$ với mọi hàm $f \in A$, do đó $z' \in (m(A))^\circ$.
+Cho $A$ là tập hợp các $f \in \mathcal{L}(m)$ sao cho $\sup_{t \in T} |f(t)| \leq 1$, và cho $B = A \cap \mathcal{K}(T)$; theo giả thiết, $m(B)$ là tương đối compắc yếu trong $F$, do đó chỉ cần chứng minh rằng $m(A)$ được chứa trong bao đóng (trong ${F'}^*$) của $m(B)$ đối với tôpô $\sigma({F'}^*, F')$; vì $m(B)$ là lồi và cân bằng, nên chỉ cần chứng minh rằng đối cực của $m(B)$ trong $F'$ được chứa trong đối cực của $m(A)$ (TVS, II, §6, No. 3, Th. 1). Bây giờ, để một dạng tuyến tính $z' \in F'$ thuộc $(m(B))^\circ$, điều kiện cần và đủ là $|\langle z', m(g)\rangle| = |\int g d(z'\circ m)| \leq 1$ với mọi hàm $g \in B$, điều đó có nghĩa là độ đo vô hướng $|z'\circ m|$ bị chặn và có chuẩn $\leq 1$ (Ch. III, §1, No. 8); nhưng theo (2), điều kiện sau cùng này kéo theo $|\langle z', m(f)\rangle| \leq 1$ với mọi hàm $f \in A$, do đó $z' \in (m(A))^\circ$.
 
 #### Hệ quả 1 {#int-vi-s2-prop-3-cor-1 .statement}
 
@@ -227,13 +227,13 @@ b) mỗi phần tử của $\mathcal{L}^1((\mu_\iota)_{\iota \in I})$ thuộc ba
 
 Bây giờ ta chứng minh b); ta có thể chỉ xét trường hợp một phần tử $f \geq 0$ của $\mathcal{L}^1((\mu_\iota)_\iota \in I)$. Với mọi $\iota \in I$ và mọi $\varepsilon > 0$, tồn tại một tập con compact $K(\iota, \varepsilon)$ của T sao cho hạn chế của $f$ lên $K(\iota, \varepsilon)$ là liên tục và $|\mu_\iota(|f - f\varphi_{K(\iota, \varepsilon)}|)| \leq \varepsilon$. Rõ ràng $f$ thuộc bao đóng của tập C gồm các $f\varphi_{K(\iota, \varepsilon)}$ (với $\iota \in I,\ \varepsilon > 0$). Nhờ định lý Urysohn, tập C được chứa trong $\mathcal{L}_0$; hơn nữa, tập này bị chặn, vì $\mu_\kappa(f\varphi_{K(\iota, \varepsilon)}) \leq \mu_\kappa(f)$ với mọi $\iota \in I,\ \kappa \in I$ và $\varepsilon > 0$.
 
-Bây giờ ta chứng minh Mệnh đề 6: với mọi hàm $g \in \mathscr{K}(T)$ và mọi nửa chuẩn liên tục q trên F, $q\left( \int g\,dm \right) \leq \int |g|\,d(q(m))$ (Mệnh đề 5), điều này suy ra rằng ánh xạ $g \mapsto \int g\,dm$ từ $\mathscr{K}(T)$ vào F là liên tục khi $\mathscr{K}(T)$ được trang bị tôpô cảm sinh bởi tôpô của $\mathcal{L}^1((q(m))_{q \in Q})$ (Q là tập các nửa chuẩn liên tục trên F). Do đó, theo bổ đề trước và Mệnh đề 10 của TVS, III, §1, No. 6, ánh xạ này có thể được kéo dài liên tục, trước hết thành một ánh xạ tuyến tính liên tục $v_0$ từ $\mathcal{L}_0$ vào F, rồi thành một ánh xạ tuyến tính liên tục $v$ từ $\mathcal{L}^1((q(m))_{q \in Q})$ vào F. Hơn nữa, với mọi $z' \in F'$ thì quan hệ $\langle z', v(f) \rangle = \int f\,d(z' \circ m)$ đúng, theo định nghĩa của $v$, với mọi $f \in \mathscr{K}(T)$; vì $|z' \circ m| \leq q(m)$ với $q(z) = |\langle z', z \rangle|$, ánh xạ $f \mapsto \int f\,d(z' \circ m)$ là liên tục trên $\mathcal{L}^1((q(m))_{q \in Q})$, do đó lại theo tính liên tục, quan hệ $\langle z', v(f) = \int f\,d(z' \circ m)$ đúng với mọi hàm số $f \in \mathcal{L}^1((q(m))_{q \in Q})$. Suy ra $v(f) = \int f\,dm$, điều này hoàn tất chứng minh.
+Bây giờ ta chứng minh Mệnh đề 6: với mọi hàm $g \in \mathcal{K}(T)$ và mọi nửa chuẩn liên tục q trên F, $q\left( \int g\,dm \right) \leq \int |g|\,d(q(m))$ (Mệnh đề 5), điều này suy ra rằng ánh xạ $g \mapsto \int g\,dm$ từ $\mathcal{K}(T)$ vào F là liên tục khi $\mathcal{K}(T)$ được trang bị tôpô cảm sinh bởi tôpô của $\mathcal{L}^1((q(m))_{q \in Q})$ (Q là tập các nửa chuẩn liên tục trên F). Do đó, theo bổ đề trước và Mệnh đề 10 của TVS, III, §1, No. 6, ánh xạ này có thể được kéo dài liên tục, trước hết thành một ánh xạ tuyến tính liên tục $v_0$ từ $\mathcal{L}_0$ vào F, rồi thành một ánh xạ tuyến tính liên tục $v$ từ $\mathcal{L}^1((q(m))_{q \in Q})$ vào F. Hơn nữa, với mọi $z' \in F'$ thì quan hệ $\langle z', v(f) \rangle = \int f\,d(z' \circ m)$ đúng, theo định nghĩa của $v$, với mọi $f \in \mathcal{K}(T)$; vì $|z' \circ m| \leq q(m)$ với $q(z) = |\langle z', z \rangle|$, ánh xạ $f \mapsto \int f\,d(z' \circ m)$ là liên tục trên $\mathcal{L}^1((q(m))_{q \in Q})$, do đó lại theo tính liên tục, quan hệ $\langle z', v(f) = \int f\,d(z' \circ m)$ đúng với mọi hàm số $f \in \mathcal{L}^1((q(m))_{q \in Q})$. Suy ra $v(f) = \int f\,dm$, điều này hoàn tất chứng minh.
 
 ### 4. Độ đo vectơ với cơ sở $\mu$
 
 #### Định nghĩa 4 {#int-vi-s2-def-4 .statement}
 
-*Cho $\mu$ là một độ đo dương trên T. Một độ đo vectơ $m$ trên T, với giá trị trong F, được gọi là một độ đo có cơ sở $\mu$ nếu tồn tại một ánh xạ $f$ của T vào F, khả tích địa phương theo vô hướng theo $\mu$, sao cho $m(g) = \int gf\,d\mu$ với mọi hàm $g \in \mathscr{K}(T)$. Khi đó ta nói rằng $f$ là một mật độ của $m$ đối với $\mu$, và viết $m = f \cdot \mu$.*
+*Cho $\mu$ là một độ đo dương trên T. Một độ đo vectơ $m$ trên T, với giá trị trong F, được gọi là một độ đo có cơ sở $\mu$ nếu tồn tại một ánh xạ $f$ của T vào F, khả tích địa phương theo vô hướng theo $\mu$, sao cho $m(g) = \int gf\,d\mu$ với mọi hàm $g \in \mathcal{K}(T)$. Khi đó ta nói rằng $f$ là một mật độ của $m$ đối với $\mu$, và viết $m = f \cdot \mu$.*
 
 Ngay lập tức thấy rằng nếu $f_1$ và $f_2$ là hai mật độ của $m$ đối với $\mu$, thì $f_1 - f_2$ là vô hướng địa phương $\mu$-không đáng kể (Ch. V, §5, No. 3, Hệ quả 2 của Mệnh đề 3); hãy nhớ rằng nói chung điều này không suy ra $f_1 - f_2$ bằng không ở khắp nơi địa phương hầu như mọi chỗ (cf. §1, Bài tập 12 và No. 1, *Nhận xét 2*).
 
@@ -445,11 +445,11 @@ với mọi hàm $f \in \mathcal{L}_F^1(\mu)$, vì cả hai vế đều liên t�
 
 #### Định nghĩa 6 {#int-vi-s2-def-6 .statement}
 
-*Người ta gọi độ đo phức trên* $T$ *mọi dạng tuyến tính liên tục trên không gian vectơ phức* $\mathscr{K}_C(T)$.\footnote{Xem Ch. III, §1, No. 3, Định nghĩa 2.}
+*Người ta gọi độ đo phức trên* $T$ *mọi dạng tuyến tính liên tục trên không gian vectơ phức* $\mathcal{K}_C(T)$.\footnote{Xem Ch. III, §1, No. 3, Định nghĩa 2.}
 
-Do đó không gian $\mathscr{M}_C(T)$ các độ đo phức trên $T$ là không gian *đối ngẫu* của không gian lồi địa phương Hausdorff $\mathscr{K}_C(T)$.
+Do đó không gian $\mathcal{M}_C(T)$ các độ đo phức trên $T$ là không gian *đối ngẫu* của không gian lồi địa phương Hausdorff $\mathcal{K}_C(T)$.
 
-Nếu $m$ là một độ đo phức trên $T$, thì hạn chế của nó lên $\mathscr{K}(T)$ là một độ đo vectơ trên $T$ với giá trị trong $\mathbf{C}$ (được xét như một không gian vectơ trên $\mathbf{R}$);
+Nếu $m$ là một độ đo phức trên $T$, thì hạn chế của nó lên $\mathcal{K}(T)$ là một độ đo vectơ trên $T$ với giá trị trong $\mathbf{C}$ (được xét như một không gian vectơ trên $\mathbf{R}$);
 
 $m$ được xác định bởi hạn chế này, vì nếu $f = f_1 + i f_2 \in \mathcal{H}_\mathbf{C}(T)$, thì phần thực $f_1$ và phần ảo $f_2$ của $f$ thuộc $\mathcal{H}(T)$, và $m(f) = m(f_1) + i m(f_2)$. Ngược lại, với mọi độ đo vectơ $m_0$ trên T với giá trị trong $\mathbf{C}$, công thức $m(f) = m_0(f_1) + i m_0(f_2)$ xác định một độ đo phức $m$, là độ đo duy nhất trên T mà hạn chế lên $\mathcal{H}(T)$ là $m_0$. Do đó từ nay về sau chúng ta sẽ đồng nhất một độ đo phức với hạn chế của nó lên $\mathcal{H}(T)$; một độ đo như vậy $m$ có dạng $m = \mu_1 + i \mu_2$, trong đó $\mu_1$ và $\mu_2$ là hai độ đo thực trên T, được gọi tương ứng là phần thực và phần ảo của $m$. Giá của $m$ là hợp của các giá của $\mu_1$ và $\mu_2$. Ta biết rằng $m$ bị chặn trên bởi một độ đo dương (No. 3, Hệ quả của Mệnh đề 4); ta sẽ gọi giá trị tuyệt đối của $m$ là độ đo dương $|m|$ tương ứng với giá trị tuyệt đối $|x_1 + i x_2| = \sqrt{x_1^2 + x_2^2}$ trên $\mathbf{C}$. Ta có $|m| = (\mu_1^2 + \mu_2^2)^{1/2}$ (No. 4, Nhận xét sau Mệnh đề 9),$^3$ và $|\mu_1| \leq |m|$, $|\mu_2| \leq |m|$, $|m| \leq |\mu_1| + |\mu_2|$; hơn nữa, $m$ là một độ đo có cơ sở $|m|$, và có thể viết $m = h \cdot |m|$, trong đó $h \in \mathcal{L}_\mathbf{C}^\infty(|m|)$ và $|h(t)| = 1$ địa phương hầu khắp nơi đối với $|m|$ (No. 4, Mệnh đề 9).$^4$ Giá của $m$ và của $|m|$ là như nhau.
 

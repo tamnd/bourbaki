@@ -36,7 +36,7 @@ subsections:
       pdf_page: 187
 statements: 20
 exercises: 6
-content_sha256: b08536fe9f788ae8b56b0136cc81c64cd353d57902781801502b9dc188627678
+content_sha256: 2a4d88d0df05ce67fab7feaefe0f479d58be4ed1625be0a2d33482f3b2e87045
 ---
 
 ## § 5. L’espace des sous-groupes fermés.
@@ -396,12 +396,12 @@ quelles que soient les mesures $\mu$ et $\nu$ sur $\Gamma$.
 
 1) Soit $(G_t)_{t \in I}$ une famille de groupes localement compacts, tous compacts sauf un nombre fini. Soit $U_t$ une représentation linéaire continue de $G_t$ dans un espace localement convexe $E_t$. Pour tout $s = (s_t) \in G = \prod_t G_t$, soit $U(s)$ l’endomorphisme $(x_t) \to (U_t(s)x_t)$ de $E = \prod_t E_t$. Montrer que $U$ est une représentation linéaire continue de $G$ dans $E$. Soit $E'$ la somme directe topologique des $E_t$. Soit $V(s)$ la restriction de $U(s)$ à $E'$. Montrer que $V$ est une représentation linéaire continue de $G$ dans $E'$.
 
-2) Soit $U_1$ (resp. $U_2$) une représentation linéaire continue d’un groupe localement compact $G$ (resp. $H$) dans un espace localement convexe $E$ (resp. $F$). Pour $u \in \mathscr{L}(E; F)$, $x \in G$, $y \in H$, posons
+2) Soit $U_1$ (resp. $U_2$) une représentation linéaire continue d’un groupe localement compact $G$ (resp. $H$) dans un espace localement convexe $E$ (resp. $F$). Pour $u \in \mathcal{L}(E; F)$, $x \in G$, $y \in H$, posons
 $$
 V(x, y).u = U_2(y) \circ u \circ U_1(x).
 $$
 
-Montrer que l’application $(x, y) \to V(x, y)$ est une représentation linéaire continue du groupe $G^0 \times H$ dans l’espace $\mathscr{L}(E; F)$ muni de la topologie de la convergence compacte. (Utiliser la prop. 9 d’Esp. vect. top., chap. III, § 4, n° 4, et le fait que, pour K compact dans G, $U_1(K)$ est équicontinu).
+Montrer que l’application $(x, y) \to V(x, y)$ est une représentation linéaire continue du groupe $G^0 \times H$ dans l’espace $\mathcal{L}(E; F)$ muni de la topologie de la convergence compacte. (Utiliser la prop. 9 d’Esp. vect. top., chap. III, § 4, n° 4, et le fait que, pour K compact dans G, $U_1(K)$ est équicontinu).
 
 ¶ 3) Soient G un groupe localement compact, U une représentation linéaire continue de G dans un espace localement convexe E, $E'$ le dual de E muni de la topologie forte.
 
@@ -409,17 +409,17 @@ a) Montrer que, pour toute partie compacte K de G, $t'U(K)$ est équicontinu.
 
 b) Soit F l’ensemble des $a' \in E'$ tels que l’application $s \to t'U(s)a'$ de G dans $E'$ soit continue. Montrer que F est un sous-espace vectoriel fermé de $E'$ stable pour $t'U(G)$ et que la représentation déduite par restriction à F de la représentation contragrédiente de U est continue.
 
-c) On suppose E quasi-complet. Soit $\alpha$ une mesure de Haar à gauche sur G. Montrer que $f \to U(f.\alpha)$ est une application continue de $\mathscr{K}(G)$ dans $\mathscr{L}(E; E)$ muni de la topologie de la convergence bornée. (Utiliser la prop. 17 du chap. VI, § 1, n° 7). Montrer que F est faiblement dense dans $E'$. (Prouver que $t'U(f)a' \in F$ pour tout $a' \in E'$ et toute $f \in \mathscr{K}(G)$, puis utiliser le cor. 3 du lemme 4). En déduire que, si E est semi-réflexif, la représentation contragrédiente de U dans $E'$ muni de la topologie forte est continue.
+c) On suppose E quasi-complet. Soit $\alpha$ une mesure de Haar à gauche sur G. Montrer que $f \to U(f.\alpha)$ est une application continue de $\mathcal{K}(G)$ dans $\mathcal{L}(E; E)$ muni de la topologie de la convergence bornée. (Utiliser la prop. 17 du chap. VI, § 1, n° 7). Montrer que F est faiblement dense dans $E'$. (Prouver que $t'U(f)a' \in F$ pour tout $a' \in E'$ et toute $f \in \mathcal{K}(G)$, puis utiliser le cor. 3 du lemme 4). En déduire que, si E est semi-réflexif, la représentation contragrédiente de U dans $E'$ muni de la topologie forte est continue.
 
 d) Montrer que si on prend pour U la représentation régulière gauche de G dans $L^1(G, \alpha)$ ($\alpha$ étant toujours une mesure de Haar à gauche de G), F est le sous-espace de $E' = L^\infty(G, \alpha)$ formé des fonctions uniformément continues.
 
-4) Soit H un espace hilbertien. Une représentation continue U de G dans H est dite unitaire si les endomorphismes $U(s)$ sont unitaires pour tout $s \in G$. Pour toute $\mu \in \mathscr{M}(G)$, soit $\mu^*$ la mesure conjuguée de $\tilde{\mu}$. Montrer que, si $\mu \in \mathscr{M}^1(G)$, on a $U(\mu^*) = U(\mu)^*$.
+4) Soit H un espace hilbertien. Une représentation continue U de G dans H est dite unitaire si les endomorphismes $U(s)$ sont unitaires pour tout $s \in G$. Pour toute $\mu \in \mathcal{M}(G)$, soit $\mu^*$ la mesure conjuguée de $\tilde{\mu}$. Montrer que, si $\mu \in \mathcal{M}^1(G)$, on a $U(\mu^*) = U(\mu)^*$.
 
-5) Soient G un groupe localement compact, H un sous-groupe fermé de G, U une représentation linéaire continue de H dans un espace localement convexe E. Soit K une partie compacte de G. Soit $\mathscr{K}^U(K)$ l’espace des fonctions continues sur G, à valeurs dans E, à support contenu dans KH, et satisfaisant à $f(xh) = U(h)^{-1}f(x)$ ($x \in G,\ h \in H$). Soit $\mathscr{K}^U$ la réunion des $\mathscr{K}^U(K)$, muni de la topologie limite inductive des topologies de la convergence uniforme dans K sur chacun des espaces $\mathscr{K}^U(K)$. Pour $f \in \mathscr{K}^U$ et $s \in G$, on définit $V(s)f \in \mathscr{K}^U$ par
+5) Soient G un groupe localement compact, H un sous-groupe fermé de G, U une représentation linéaire continue de H dans un espace localement convexe E. Soit K une partie compacte de G. Soit $\mathcal{K}^U(K)$ l’espace des fonctions continues sur G, à valeurs dans E, à support contenu dans KH, et satisfaisant à $f(xh) = U(h)^{-1}f(x)$ ($x \in G,\ h \in H$). Soit $\mathcal{K}^U$ la réunion des $\mathcal{K}^U(K)$, muni de la topologie limite inductive des topologies de la convergence uniforme dans K sur chacun des espaces $\mathcal{K}^U(K)$. Pour $f \in \mathcal{K}^U$ et $s \in G$, on définit $V(s)f \in \mathcal{K}^U$ par
 
 $$(V(s)f)(t) = f(s^{-1}t).$$
 
-Montrer que V est une représentation linéaire continue de G dans $\mathscr{K}^U$.
+Montrer que V est une représentation linéaire continue de G dans $\mathcal{K}^U$.
 
 6) Soient G un groupe localement compact, $\beta$ une mesure positive non nulle relativement invariante sur G, $\chi$ et $\chi'$ ses multiplicateurs à gauche et à droite. Pour $f \in L^p_\mathfrak{g}(G, \beta)$ et $s \in G$, on pose
 
@@ -455,7 +455,7 @@ $$
 
 9) Soient G un groupe localement compact, $\mu$ une mesure de Haar à gauche sur G, $f$ une fonction $\mu$-intégrable. Soit $\mathcal{B}$ une base de filtre formée d’ensembles $\mu$-intégrables de mesure >0, ayant pour limite $e$. Pour tout $B \in \mathcal{B}$, on pose $f_B(t) = \frac{1}{\mu(B)} \int_B f(st) d\mu(s)$. Montrer que pour toute partie intégrable A de G, on a $\lim_{\mathcal{B}} \int_A f_B(t) d\mu(t) = \int_A f(t) d\mu(t)$.
 
-10) Soient G un groupe localement compact, E un espace localement convexe séparé, E’ son dual, $U$ une représentation linéaire de G dans E, continue pour la topologie affaiblie $\sigma(E, E')$ sur E. On suppose E quasi-complet pour $\sigma(E, E')$, de sorte que $U(\mu)$ est défini pour toute mesure $\mu \in \mathscr{C}'(G)$. Montrer que l’application bilinéaire $(\mu, x) \to U(\mu).x$ est hypocontinue relativement aux parties équicontinues de $\mathscr{C}'(G)$.
+10) Soient G un groupe localement compact, E un espace localement convexe séparé, E’ son dual, $U$ une représentation linéaire de G dans E, continue pour la topologie affaiblie $\sigma(E, E')$ sur E. On suppose E quasi-complet pour $\sigma(E, E')$, de sorte que $U(\mu)$ est défini pour toute mesure $\mu \in \mathcal{C}'(G)$. Montrer que l’application bilinéaire $(\mu, x) \to U(\mu).x$ est hypocontinue relativement aux parties équicontinues de $\mathcal{C}'(G)$.
 
 ## EXERCICES {#int-viii-s5-exercises}
 

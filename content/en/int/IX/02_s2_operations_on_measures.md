@@ -41,7 +41,7 @@ subsections:
       pdf_page: 219
 statements: 41
 exercises: 3
-content_sha256: 6191354f921de6c432be407238874a1be32c3597441acc068220814a51c6fefc
+content_sha256: d9bc2ab4e638db5dda4f89c6afbad51bda18dd1833902ed2a3c45d0a0829ae21
 ---
 
 ## § 2. OPERATIONS ON MEASURES
@@ -218,7 +218,7 @@ $$
 (\pi(\mu))_B = (\pi_A(\mu_A))_B = \pi'(\mu_A).
 $$
 
-The set A is $\mu$-measurable by Prop. 5 applied to $\varphi_B$; the mapping $\pi_A$ is clearly $\mu_A$-measurable by the definition of induced measures (No. 1), and it follows that $\pi'$ is measurable. Let $f$ be an element of $\mathscr{F}_+(B)$; denoting by zero exponents the extensions by 0 in X and in T, we have
+The set A is $\mu$-measurable by Prop. 5 applied to $\varphi_B$; the mapping $\pi_A$ is clearly $\mu_A$-measurable by the definition of induced measures (No. 1), and it follows that $\pi'$ is measurable. Let $f$ be an element of $\mathcal{F}_+(B)$; denoting by zero exponents the extensions by 0 in X and in T, we have
 
 $$
 (\pi(\mu)_B)^\bullet(f) = \pi(\mu)^\bullet(f^0) = \mu^\bullet(f^0 \circ \pi) = \mu^\bullet((f \circ \pi')^0) = \mu_A^\bullet(f \circ \pi'),

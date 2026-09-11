@@ -52,7 +52,7 @@ subsections:
       pdf_page: 66
 statements: 41
 exercises: 18
-content_sha256: bfe62c6a2655ed8665a974febcccb64ea09581f15f597b05eb60c1c1f8b230e3
+content_sha256: 74e10d794dcc33a0b67626dc69fa7c6ea7030ecbbbd4205c33f259bdb11d23d8
 ---
 
 ## § 1. MEASURES ON A LOCALLY COMPACT SPACE
@@ -155,7 +155,7 @@ Let $X$ be a locally compact space; for every Banach space $E$ (real or complex)
 $$
 ||f|| = \sup_{x \in X} ||f(x)||.
 $$
-Moreover, the normed space thus defined is a Banach space (GT, X, §3, No. 2, and No. 1, Cor. 2 of Prop. 2); the topology defined by this norm on $\mathscr{K}(X; E)$ (in other words, the topology of uniform convergence in $X$) is coarser than the direct limit topology on $\mathscr{K}(X; E)$ defined in No. 1.
+Moreover, the normed space thus defined is a Banach space (GT, X, §3, No. 2, and No. 1, Cor. 2 of Prop. 2); the topology defined by this norm on $\mathcal{K}(X; E)$ (in other words, the topology of uniform convergence in $X$) is coarser than the direct limit topology on $\mathcal{K}(X; E)$ defined in No. 1.
 
 #### Proposition 3 {#int-iii-s1-prop-3 .statement}
 
@@ -215,21 +215,21 @@ The condition being obviously necessary, it suffices to prove that (5) implies (
 
 We denote by $\mathcal{M}(X; \mathbf{C})$, or simply $\mathcal{M}(X)$ if no confusion can result, the vector space of measures on $X$, in other words, the *dual* of $\mathcal{K}(X; \mathbf{C})$.
 
-One knows that for every set $\mathscr{S}$ of *bounded* subsets of $\mathscr{K}(X;\mathbf{C})$, there is defined on $\mathscr{M}(X;\mathbf{C})$ the $\mathscr{S}$-topology, which is locally convex (TVS, III, §3, No. 1, Cor. of Prop. 1). We denote the topological vector space, obtained by equipping $\mathscr{M}(X;\mathbf{C})$ with the $\mathscr{S}$-topology, by $\mathscr{M}_{\mathscr{S}}(X;\mathbf{C})$ or $\mathscr{M}_{\mathscr{S}}(X)$.
+One knows that for every set $\mathcal{S}$ of *bounded* subsets of $\mathcal{K}(X;\mathbf{C})$, there is defined on $\mathcal{M}(X;\mathbf{C})$ the $\mathcal{S}$-topology, which is locally convex (TVS, III, §3, No. 1, Cor. of Prop. 1). We denote the topological vector space, obtained by equipping $\mathcal{M}(X;\mathbf{C})$ with the $\mathcal{S}$-topology, by $\mathcal{M}_{\mathcal{S}}(X;\mathbf{C})$ or $\mathcal{M}_{\mathcal{S}}(X)$.
 
 #### Proposition 7 {#int-iii-s1-prop-7 .statement}
 
-*For every set $\mathscr{S}$ of bounded subsets of $\mathscr{K}(X;\mathbf{C})$ that is a covering of $\mathscr{K}(X;\mathbf{C})$, the space $\mathscr{M}_{\mathscr{S}}(X;\mathbf{C})$ is Hausdorff and quasi-complete.*
+*For every set $\mathcal{S}$ of bounded subsets of $\mathcal{K}(X;\mathbf{C})$ that is a covering of $\mathcal{K}(X;\mathbf{C})$, the space $\mathcal{M}_{\mathcal{S}}(X;\mathbf{C})$ is Hausdorff and quasi-complete.*
 
-This results from the fact that $\mathscr{K}(X;\mathbf{C})$ is barreled (TVS, III, §4, No. 2, Cor. 4 of Th. 1).
+This results from the fact that $\mathcal{K}(X;\mathbf{C})$ is barreled (TVS, III, §4, No. 2, Cor. 4 of Th. 1).
 
-*Examples of measures.* — I. *Atomic measures.* Let X be a locally compact space, $a$ a point of X; the mapping $f\mapsto f(a)$ of $\mathscr{K}(X;\mathbf{C})$ into $\mathbf{C}$ obviously satisfies the condition (4) with $M_K=1$ for every compact subset K of X containing $a$, hence is a measure on X, which is denoted by $\varepsilon_a$; it is called the *Dirac measure* at the point $a$, or the measure defined by a *unit mass placed at the point $a$.*
+*Examples of measures.* — I. *Atomic measures.* Let X be a locally compact space, $a$ a point of X; the mapping $f\mapsto f(a)$ of $\mathcal{K}(X;\mathbf{C})$ into $\mathbf{C}$ obviously satisfies the condition (4) with $M_K=1$ for every compact subset K of X containing $a$, hence is a measure on X, which is denoted by $\varepsilon_a$; it is called the *Dirac measure* at the point $a$, or the measure defined by a *unit mass placed at the point $a$.*
 
 More generally, let $\alpha$ be a mapping of X into $\mathbf{C}$ such that, for every compact subset K of X,
 $$
 \sum_{x\in K}|\alpha(x)|<+\infty.
 $$
-Then, for every function $f\in\mathscr{K}(X,K;\mathbf{C})$, the sum
+Then, for every function $f\in\mathcal{K}(X,K;\mathbf{C})$, the sum
 $$
 \mu(f)=\sum_{x\in X}\alpha(x)f(x)
 $$
@@ -237,7 +237,7 @@ is defined, being equal to
 $$
 \sum_{x\in K}\alpha(x)f(x);
 $$
-it is clear that $\mu$ is a linear form on $\mathscr{K}(X;\mathbf{C})$ and that, for $f\in\mathscr{K}(X,K;\mathbf{C})$,
+it is clear that $\mu$ is a linear form on $\mathcal{K}(X;\mathbf{C})$ and that, for $f\in\mathcal{K}(X,K;\mathbf{C})$,
 $$
 |\mu(f)|\leq\left(\sum_{x\in K}|\alpha(x)|\right)\cdot\|f\|,
 $$
@@ -273,9 +273,9 @@ of $\mathcal C(\Gamma;\mathbf C)$ into $\mathbf C$ is a continuous linear form b
 
 #### Remark {#int-iii-s1-n3-rem-1 .statement}
 
-The giving of a measure $\mu$ on a locally compact space X defines on X (along with the topology of X) a structure $\mathscr S$. Let $X_1$ be a second set, $\varphi$ a bijective mapping of X onto $X_1$; in conformity with general definitions (S, R, §8), the structure $\mathscr S_1$ obtained by *transporting* to $X_1$ the structure $\mathscr S$ of X, by means of $\varphi$, is defined in the following way. The topology of X is transported to $X_1$ by $\varphi$; the functions of $\mathcal K(X_1;\mathbf C)$ are then the functions $f$ such that $f\circ\varphi$ belongs to $\mathcal K(X;\mathbf C)$, and the measure $\mu_1$ on $X_1$ is defined by $\mu_1(f)=\mu(f\circ\varphi)$.
+The giving of a measure $\mu$ on a locally compact space X defines on X (along with the topology of X) a structure $\mathcal S$. Let $X_1$ be a second set, $\varphi$ a bijective mapping of X onto $X_1$; in conformity with general definitions (S, R, §8), the structure $\mathcal S_1$ obtained by *transporting* to $X_1$ the structure $\mathcal S$ of X, by means of $\varphi$, is defined in the following way. The topology of X is transported to $X_1$ by $\varphi$; the functions of $\mathcal K(X_1;\mathbf C)$ are then the functions $f$ such that $f\circ\varphi$ belongs to $\mathcal K(X;\mathbf C)$, and the measure $\mu_1$ on $X_1$ is defined by $\mu_1(f)=\mu(f\circ\varphi)$.
 
-In particular, an *automorphism* of the structure $\mathscr S$ is a homeomorphism $\sigma$ of X onto itself, such that
+In particular, an *automorphism* of the structure $\mathcal S$ is a homeomorphism $\sigma$ of X onto itself, such that
 
 $$
 \mu(f)=\mu(f\circ\sigma)

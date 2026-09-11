@@ -37,7 +37,7 @@ subsections:
       pdf_page: 156
 statements: 20
 exercises: 6
-content_sha256: 29c2899779ce442617d1f3f13a1923a0fdf371d15fbe391c66e2a84e16e4ed59
+content_sha256: 7d184455525d2ba7513695a8b259d67f7396176a88053deba2f15605de4ee78a
 ---
 
 ## § 5. THE SPACE OF CLOSED SUBGROUPS
@@ -76,7 +76,7 @@ To prove Prop. 1 it suffices, by Lemma 1, to show that if a filter $\Psi$ on $\G
 
 #### Proposition 2 {#int-viii-s5-prop-2 .statement}
 
-— Let $\varphi$ be a function in $\mathscr{K}_+(G)$ such that $\varphi(e) > 0$. Then the set $\Gamma_\varphi$ of measures $\alpha \in \Gamma$ such that $\int \varphi(x)\,d\alpha(x) = 1$ is compact for the vague topology.
+— Let $\varphi$ be a function in $\mathcal{K}_+(G)$ such that $\varphi(e) > 0$. Then the set $\Gamma_\varphi$ of measures $\alpha \in \Gamma$ such that $\int \varphi(x)\,d\alpha(x) = 1$ is compact for the vague topology.
 
 The set $\Gamma_\varphi$ is the intersection of $\Gamma$ with the hyperplane of $\mathcal{M}(G)$ formed by the $\alpha$ such that $\int \varphi(x)\,d\alpha(x) = 1$; since this hyperplane is vaguely closed in $\mathcal{M}(G)$ and does not contain 0, it follows from Prop. 1 that $\Gamma_\varphi$ is vaguely closed in $\mathcal{M}(G)$. It therefore suffices to show that for every compact subset $K$ of $G$, one has $\sup_{\alpha \in \Gamma_\varphi} \alpha(K) < +\infty$ (Ch. III, §1, No. 9, Prop. 15). Now, let $U$ be the open neighborhood of $e$ in $G$ defined by the inequality $\varphi(x) > \varphi(e)/2$; since $1 = \int \varphi(x)\,d\alpha(x) \geq \int_U \varphi(x)\,d\alpha(x)$ for $\alpha \in \Gamma_\varphi$, one sees that, on setting $c = 2/\varphi(e)$, one has $\alpha(U) \leq c$ for every $\alpha \in \Gamma_\varphi$. Let $V$ be a symmetric open neighborhood of $e$ in $G$ such that $V^2 \subset U$; let us show that $\alpha(Vx) \leq c$ for every $x \in G$ and every $\alpha \in \Gamma_\varphi$. Indeed, this relation is trivial if $Vx$ does not intersect the support $H_\alpha$ of $\alpha$; if, on the contrary, there exists an $h \in Vx \cap H_\alpha$, then $h = vx$ for some $v \in V$, whence
 $$

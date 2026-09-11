@@ -52,7 +52,7 @@ subsections:
       pdf_page: 66
 statements: 43
 exercises: 3
-content_sha256: 4c82eb80ef376848737949f80fb7a3ad9d014c13df3c51654fa25334b04f9dd7
+content_sha256: 678601f68595f853bdb68acaa902e96316b17b22982b0faf4401e9f664cae689
 ---
 
 ## § 1. Mesures sur un espace localement compact
@@ -245,7 +245,7 @@ de $\mathcal{C}(\Gamma; \mathbf{C})$ dans $\mathbf{C}$ est une forme linéaire c
 
 #### Remarque {#int-iii-s1-n3-rem-1 .statement}
 
-La donnée d’une mesure $\mu$ sur un espace localement compact $X$ définit sur $X$ (avec la topologie de $X$) une structure $\mathcal{S}$. Soient $X_1$ un second ensemble, $\varphi$ une application bijective de $X$ sur $X_1$; conformément aux définitions générales (Ens. R, § 9), la structure $\mathcal{S}_1$ obtenue en transportant à $X_1$ la structure $\mathcal{S}$ de $X$ au moyen de $\varphi$, se définit de la façon suivante. On transporte par $\varphi$ la topologie de $X$ à $X_1$; les fonctions de $\mathscr{K}(X_1; \mathbf{C})$ sont alors les fonctions $f$ telles que $f \circ \varphi$ appartienne à $\mathscr{K}(X; \mathbf{C})$, et la mesure $\mu_1$ sur $X_1$ est définie par $\mu_1(f) = \mu(f \circ \varphi)$.
+La donnée d’une mesure $\mu$ sur un espace localement compact $X$ définit sur $X$ (avec la topologie de $X$) une structure $\mathcal{S}$. Soient $X_1$ un second ensemble, $\varphi$ une application bijective de $X$ sur $X_1$; conformément aux définitions générales (Ens. R, § 9), la structure $\mathcal{S}_1$ obtenue en transportant à $X_1$ la structure $\mathcal{S}$ de $X$ au moyen de $\varphi$, se définit de la façon suivante. On transporte par $\varphi$ la topologie de $X$ à $X_1$; les fonctions de $\mathcal{K}(X_1; \mathbf{C})$ sont alors les fonctions $f$ telles que $f \circ \varphi$ appartienne à $\mathcal{K}(X; \mathbf{C})$, et la mesure $\mu_1$ sur $X_1$ est définie par $\mu_1(f) = \mu(f \circ \varphi)$.
 
 En particulier, un automorphisme de la structure $\mathcal{S}$ est un homéomorphisme $\sigma$ de $X$ sur lui-même tel que l’on ait
 
@@ -253,11 +253,11 @@ $$
 \mu(f) = \mu(f \circ \sigma)
 $$
 
-pour toute fonction $f \in \mathscr{K}(X; \mathbf{C})$; on dit encore alors que la mesure $\mu$ est invariante par l’homéomorphisme $\sigma$.
+pour toute fonction $f \in \mathcal{K}(X; \mathbf{C})$; on dit encore alors que la mesure $\mu$ est invariante par l’homéomorphisme $\sigma$.
 
 #### Exemple {#int-iii-s1-n3-exa-1 .statement}
 
-La mesure de Lebesgue sur $\mathbf{R}$ est invariante par toute translation du groupe additif $\mathbf{R}$. En effet, pour toute fonction $f \in \mathscr{K}(\mathbf{R}; \mathbf{C})$ et tout nombre réel $a$, on a, par la formule du changement de variables (Fonct. var. réelle, chap. II, § 2, n° 1, formule (1))
+La mesure de Lebesgue sur $\mathbf{R}$ est invariante par toute translation du groupe additif $\mathbf{R}$. En effet, pour toute fonction $f \in \mathcal{K}(\mathbf{R}; \mathbf{C})$ et tout nombre réel $a$, on a, par la formule du changement de variables (Fonct. var. réelle, chap. II, § 2, n° 1, formule (1))
 
 $$
 \int_{-\infty}^{+\infty} f(x + a)\,dx = \int_{-\infty}^{+\infty} f(t)\,dt.
@@ -267,7 +267,7 @@ Pour une généralisation, voir chap. VII.
 
 ### 4. Produit d’une mesure par une fonction continue
 
-Soient $X$ un espace localement compact, $g$ une application continue de $X$ dans $\mathbf{C}$. Il est clair que $f \mapsto gf$ est une application linéaire de $\mathscr{K}(X; \mathbf{C})$ dans lui-même; montrons que cette application est continue. En effet, pour toute partie compacte $K$ de $X$, et toute fonction $f \in \mathscr{K}(X, K; \mathbf{C})$, on a $gf \in \mathscr{K}(X, K; \mathbf{C})$; en outre, si $b_K = \sup_{x \in K} |g(x)|$, on a $\|gf\| \leq b_K \|f\|$, d’où notre assertion (Esp. vect. top., chap. II, 2e éd., § 4, n° 4, prop. 5). La transposée de cette application linéaire continue (Esp. vect. top., chap. II, 2e éd., § 6, n° 4) est donc une application linéaire de $\mathscr{M}(X; \mathbf{C})$ dans lui-même, que l’on note $\mu \mapsto g.\mu$ (ou $\mu \mapsto g\mu$ si cela n’entraîne pas confusion). Si $\nu = g.\mu$, on a donc, pour toute fonction $f \in \mathcal{K}(X; \mathbf{C})$,
+Soient $X$ un espace localement compact, $g$ une application continue de $X$ dans $\mathbf{C}$. Il est clair que $f \mapsto gf$ est une application linéaire de $\mathcal{K}(X; \mathbf{C})$ dans lui-même; montrons que cette application est continue. En effet, pour toute partie compacte $K$ de $X$, et toute fonction $f \in \mathcal{K}(X, K; \mathbf{C})$, on a $gf \in \mathcal{K}(X, K; \mathbf{C})$; en outre, si $b_K = \sup_{x \in K} |g(x)|$, on a $\|gf\| \leq b_K \|f\|$, d’où notre assertion (Esp. vect. top., chap. II, 2e éd., § 4, n° 4, prop. 5). La transposée de cette application linéaire continue (Esp. vect. top., chap. II, 2e éd., § 6, n° 4) est donc une application linéaire de $\mathcal{M}(X; \mathbf{C})$ dans lui-même, que l’on note $\mu \mapsto g.\mu$ (ou $\mu \mapsto g\mu$ si cela n’entraîne pas confusion). Si $\nu = g.\mu$, on a donc, pour toute fonction $f \in \mathcal{K}(X; \mathbf{C})$,
 
 (6) $$
 \langle f, v \rangle = \langle gf, \mu \rangle
@@ -690,31 +690,31 @@ Rappelons que lorsque $X$ est paracompact, la topologie de la convergence strict
 
 Sur le cône $\mathcal{M}_+(X)$, les topologies induites par les topologies suivantes coïncident:
 
-$\mathcal{T}_1$: la topologie de la convergence simple dans un sous-espace vectoriel V de $\mathscr{K}(X; \mathbf{C})$ dense dans $\mathscr{K}(X; \mathbf{C})$ et vérifiant la propriété (P) (n° 7, prop. 9);
+$\mathcal{T}_1$: la topologie de la convergence simple dans un sous-espace vectoriel V de $\mathcal{K}(X; \mathbf{C})$ dense dans $\mathcal{K}(X; \mathbf{C})$ et vérifiant la propriété (P) (n° 7, prop. 9);
 
 $\mathcal{T}_2$: la topologie vague;
 
 $\mathcal{T}_3$: la topologie de la convergence strictement compacte.
 
-Comme tout filtre est intersection des ultrafiltres plus fins que lui (Top. gén., chap. I, 3e éd., § 6, n° 5, prop. 7), il suffit de montrer que si $\mathcal{U}$ est un ultrafiltre sur $\mathcal{M}_+(X)$, qui converge vers une mesure $\mu_0$ pour la topologie $\mathcal{T}_1$, il converge aussi vers $\mu_0$ pour $\mathcal{T}_3$. Soit donc K une partie compacte de X ; par hypothèse, il existe une fonction $h \in V$ qui est $\geqslant 0$ dans X et qui prend des valeurs $> 0$ dans K ; par suite, toute fonction $f \in \mathscr{K}(X, K; \mathbf{C})$ peut s’écrire $f = gh$, où $g \in \mathscr{K}(X, K; \mathbf{C})$, et si $c = \inf_{x \in K} h(x) > 0$, on a $\|g\| \leqslant c^{-1}\|f\|$. Par hypothèse, il existe un ensemble $H_0 \in \mathcal{U}$ tel que, pour toute mesure $\mu \in H_0$, on ait
+Comme tout filtre est intersection des ultrafiltres plus fins que lui (Top. gén., chap. I, 3e éd., § 6, n° 5, prop. 7), il suffit de montrer que si $\mathcal{U}$ est un ultrafiltre sur $\mathcal{M}_+(X)$, qui converge vers une mesure $\mu_0$ pour la topologie $\mathcal{T}_1$, il converge aussi vers $\mu_0$ pour $\mathcal{T}_3$. Soit donc K une partie compacte de X ; par hypothèse, il existe une fonction $h \in V$ qui est $\geqslant 0$ dans X et qui prend des valeurs $> 0$ dans K ; par suite, toute fonction $f \in \mathcal{K}(X, K; \mathbf{C})$ peut s’écrire $f = gh$, où $g \in \mathcal{K}(X, K; \mathbf{C})$, et si $c = \inf_{x \in K} h(x) > 0$, on a $\|g\| \leqslant c^{-1}\|f\|$. Par hypothèse, il existe un ensemble $H_0 \in \mathcal{U}$ tel que, pour toute mesure $\mu \in H_0$, on ait
 
 $$
 0 \leqslant \mu(h) \leqslant \mu_0(h) + 1 = b.
 $$
 
-Par suite, pour toute fonction $f \in \mathscr{K}(X; \mathbf{C})$, on a
+Par suite, pour toute fonction $f \in \mathcal{K}(X; \mathbf{C})$, on a
 
 $$
 |\langle f, h.\mu \rangle| = |\langle hf, \mu \rangle| \leqslant \|f\|.\mu(h) \leqslant b\|f\|
 $$
 
-pour toute mesure $\mu \in H_0$; cela prouve que l’ensemble H des mesures $h.\mu$, où $\mu$ parcourt $H_0$, est vaguement borné. Si $\mathcal{U}_0$ est l’ultrafiltre induit par $\mathcal{U}$ sur $H_0$, l’image de $\mathcal{U}_0$ par l’application $\mu \mapsto h.\mu$ est la base d’un ultrafiltre $\mathfrak{F}$ sur H, et comme H est relativement compact pour la topologie de la convergence strictement compacte (prop. 17 et n° 9, prop. 15), $\mathfrak{F}$ est convergent vers une mesure $\nu_0$ pour cette topologie. Autrement dit, quels que soient $\varepsilon > 0$ et la partie compacte L de $\mathscr{K}(X, K; \mathbf{C})$ il existe une partie N de $H_0$ appartenant à $\mathcal{U}$, telle que, pour toute fonction $g \in L$ et tout couple de mesures $\mu, \mu'$ appartenant à N, on ait $|\langle g, h.\mu \rangle - \langle g, h.\mu' \rangle| \leqslant \varepsilon$, ou encore
+pour toute mesure $\mu \in H_0$; cela prouve que l’ensemble H des mesures $h.\mu$, où $\mu$ parcourt $H_0$, est vaguement borné. Si $\mathcal{U}_0$ est l’ultrafiltre induit par $\mathcal{U}$ sur $H_0$, l’image de $\mathcal{U}_0$ par l’application $\mu \mapsto h.\mu$ est la base d’un ultrafiltre $\mathfrak{F}$ sur H, et comme H est relativement compact pour la topologie de la convergence strictement compacte (prop. 17 et n° 9, prop. 15), $\mathfrak{F}$ est convergent vers une mesure $\nu_0$ pour cette topologie. Autrement dit, quels que soient $\varepsilon > 0$ et la partie compacte L de $\mathcal{K}(X, K; \mathbf{C})$ il existe une partie N de $H_0$ appartenant à $\mathcal{U}$, telle que, pour toute fonction $g \in L$ et tout couple de mesures $\mu, \mu'$ appartenant à N, on ait $|\langle g, h.\mu \rangle - \langle g, h.\mu' \rangle| \leqslant \varepsilon$, ou encore
 
 $$
 |\langle gh, \mu \rangle - \langle gh, \mu' \rangle| \leqslant \varepsilon.
 $$
 
-Or, nous avons vu plus haut que l’application $g \mapsto gh$ est un automorphisme de l’espace de Banach $\mathscr{K}(X, K; \mathbf{C})$. Nous avons donc montré que $\mathcal{U}$ est un filtre de Cauchy sur $\mathcal{M}_+(X)$ pour la topologie de la convergence strictement compacte. *A fortiori*, c’est un filtre de Cauchy pour la convergence vague, et la prop. 14 du n° 9 montre qu’il est vaguement convergent vers une mesure $\mu_1$; en outre, comme V est dense dans $\mathcal{K}(X; \mathbf{C})$, l’hypothèse entraîne que $\mu_1 = \mu_0$; enfin, comme $\mathcal{U}$ est un filtre de Cauchy pour la topologie de la convergence strictement compacte, il converge aussi vers $\mu_0$ pour cette topologie (Top. gén., chap. X, 2e éd., § 1, n° 5, prop. 5).
+Or, nous avons vu plus haut que l’application $g \mapsto gh$ est un automorphisme de l’espace de Banach $\mathcal{K}(X, K; \mathbf{C})$. Nous avons donc montré que $\mathcal{U}$ est un filtre de Cauchy sur $\mathcal{M}_+(X)$ pour la topologie de la convergence strictement compacte. *A fortiori*, c’est un filtre de Cauchy pour la convergence vague, et la prop. 14 du n° 9 montre qu’il est vaguement convergent vers une mesure $\mu_1$; en outre, comme V est dense dans $\mathcal{K}(X; \mathbf{C})$, l’hypothèse entraîne que $\mu_1 = \mu_0$; enfin, comme $\mathcal{U}$ est un filtre de Cauchy pour la topologie de la convergence strictement compacte, il converge aussi vers $\mu_0$ pour cette topologie (Top. gén., chap. X, 2e éd., § 1, n° 5, prop. 5).
 
 C.Q.F.D.
 

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 326
 statements: 29
 exercises: 22
-content_sha256: a70560a7e81a1387fafead635105a8388c5e8d3f23436033725b34a2d8dcc990
+content_sha256: 0f32530c10e9761e5e1f1b4d8eee193fc1d3fd60b517404acc2a1858e06ffd2e
 ---
 
 ## § 6. IMAGES OF A MEASURE
@@ -389,7 +389,7 @@ The uniqueness of $\nu$ follows at once from the principle of localization (Ch. 
 
 #### Lemma {#int-v-s6-n6-lem-1 .statement}
 
-— a) *Let $f$ be an element of $\mathscr{K}_+(X)$; the function $t \mapsto \lambda_t(f)$ is positive, upper semi-continuous, with compact support, and its restriction to $\pi(X)$ is continuous.*
+— a) *Let $f$ be an element of $\mathcal{K}_+(X)$; the function $t \mapsto \lambda_t(f)$ is positive, upper semi-continuous, with compact support, and its restriction to $\pi(X)$ is continuous.*
 
 b) *Let $U$ be an element of $\mathcal{U}$, $\nu$ the integral of the scalarly essentially $\mu$-integrable function $t \mapsto \lambda_t$; the image of the measure $\nu|U$ under $\pi|U$ is equal to $\mu|\pi(U)$.*
 

@@ -21,7 +21,7 @@ subsections:
       pdf_page: 34
 statements: 13
 exercises: 9
-content_sha256: f261078ae1db1a985db1c8cbda6a7a6f980a9e5c399f533b3b3eabf7b1f185bd
+content_sha256: a99ab6a381386c576f23c9ce042fe0f61cb8482740d72d2558bf85513a4bd7f4
 ---
 
 ## § 2. LINEAR FORMS ON A RIESZ SPACE
@@ -46,7 +46,7 @@ Let $I = [a, b]$ be a compact interval of $\mathbf{R}$, E the Riesz space formed
 
 #### Example 3 {#int-ii-s2-n1-exa-3 .statement}
 
-Let F be any set, $\mathcal{U}$ an ultrafilter on F (GT, I, §6, No. 4), E the Riesz space $\mathscr{B}(F)$ of bounded real-valued functions on F. For every $x \in E$, $\lim_{\mathcal{U}} x(t)$ exists, because $x(\mathcal{U})$ is a base of an ultrafilter on the relatively compact set $x(F)$, hence is convergent. Moreover, if $x \geq 0$ then $\lim_{\mathcal{U}} x(t) \geq 0$ by the principle of extension of inequalities; the mapping $x \mapsto \lim_{\mathcal{U}} x$ is thus a positive linear form on E. If $\mathcal{U}$ is taken to be the ultrafilter formed by the sets containing an element $a \in F$, one recovers the positive linear form $x \mapsto x(a)$ (Example 1).
+Let F be any set, $\mathcal{U}$ an ultrafilter on F (GT, I, §6, No. 4), E the Riesz space $\mathcal{B}(F)$ of bounded real-valued functions on F. For every $x \in E$, $\lim_{\mathcal{U}} x(t)$ exists, because $x(\mathcal{U})$ is a base of an ultrafilter on the relatively compact set $x(F)$, hence is convergent. Moreover, if $x \geq 0$ then $\lim_{\mathcal{U}} x(t) \geq 0$ by the principle of extension of inequalities; the mapping $x \mapsto \lim_{\mathcal{U}} x$ is thus a positive linear form on E. If $\mathcal{U}$ is taken to be the ultrafilter formed by the sets containing an element $a \in F$, one recovers the positive linear form $x \mapsto x(a)$ (Example 1).
 
 #### Proposition 1 {#int-ii-s2-prop-1 .statement}
 

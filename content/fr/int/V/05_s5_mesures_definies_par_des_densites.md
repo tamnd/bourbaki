@@ -52,7 +52,7 @@ subsections:
       pdf_page: 72
 statements: 48
 exercises: 31
-content_sha256: c6f935722c5425e83061430af4684c1cb286583577803e519dc328c98c47f944
+content_sha256: f31a06b30e3b499d06ddee3ce0d6d3c8db1b8e61531382c43bd475219ea28a37
 ---
 
 ## § 5. Mesures définies par des densités numériques
@@ -67,7 +67,7 @@ a) Pour tout point $t \in T$, il existe un voisinage $V$ de $t$ tel que la fonct
 
 b) La fonction $g$ est $\mu$-mesurable et, pour tout ensemble compact $K \subset T$, on a $\int^* |g| \varphi_K d\mu < +\infty$.
 
-c) Pour toute fonction numérique $h \in \mathcal{K}(T)$, $gh$ est $\mu$-intégrable.
+c) Pour toute fonction numérique $h \in \mathscr{K}(T)$, $gh$ est $\mu$-intégrable.
 
 Montrons que a) entraîne b); la fonction $g$ est en effet mesurable en vertu du principe de localisation (chap. IV, § 5, n° 2, prop. 4). D’autre part, pour tout $t \in K$, il existe par hypothèse un voisinage $V_t$ de $t$ dans $T$ tel que $g \varphi_{V_t}$ soit intégrable; on peut donc recouvrir $K$ par un nombre fini de voisinages $V_i (1 \leq i \leq n)$ tels que les fonctions $g \varphi_{V_i}$ soient intégrables. Comme
 
@@ -114,7 +114,7 @@ $$
 f \mapsto \int f(t)u(t)\ d\theta(t)
 $$
 
-sur $\mathcal{K}(T)$ est une mesure complexe.
+sur $\mathscr{K}(T)$ est une mesure complexe.
 
 #### Définition 2 {#int-v-s5-def-2 .statement}
 
@@ -343,7 +343,7 @@ $$
 \int^\bullet h \, d(g . v) = \int^\bullet (gh) \, dv = \int^\bullet d\mu(t) \int^\bullet (gh) \, d\lambda_t = \int^\bullet d\mu(t) \int^\bullet h \, d(g . \lambda_t).
 $$
 
-Cette formule et la prop. 5 du $§ 3$, no 2 montrent d’abord (en prenant $h \in \mathcal{K}_+(T)$) que l’application $t \mapsto g . \lambda_t$ est scalairement essentiellement $\mu$-intégrable, et que son intégrale est $g . v$; autrement dit, on a la relation (9). Ensuite, remplaçons $\mu$ par une mesure positive $\mu' \leq \mu$, et prenons pour $h$ une fonction semi-continue inférieurement positive : il résulte aussitôt de ces relations que $t \mapsto g . \lambda_t$ est $\mu$-adéquate ($§ 3$, no 1, déf. 1).
+Cette formule et la prop. 5 du $§ 3$, no 2 montrent d’abord (en prenant $h \in \mathscr{K}_+(T)$) que l’application $t \mapsto g . \lambda_t$ est scalairement essentiellement $\mu$-intégrable, et que son intégrale est $g . v$; autrement dit, on a la relation (9). Ensuite, remplaçons $\mu$ par une mesure positive $\mu' \leq \mu$, et prenons pour $h$ une fonction semi-continue inférieurement positive : il résulte aussitôt de ces relations que $t \mapsto g . \lambda_t$ est $\mu$-adéquate ($§ 3$, no 1, déf. 1).
 
 #### Proposition 8 {#int-v-s5-prop-8 .statement}
 
@@ -354,7 +354,7 @@ g_2 . \theta_1 = g_2 . (g_1 . \theta) = (g_2 g_1) . \theta
 $$
 (« formule d’associativité »).
 
-D’après le cor. de la prop. 4, dire que $g_2$ est $\theta_1$-mesurable équivaut à dire que $g_2 g_1$ est $\theta$-mesurable. Supposons que cette condition soit satisfaite. On a, pour toute fonction $f \in \mathcal{K}_+(T)$, en vertu des propositions 2 et 3
+D’après le cor. de la prop. 4, dire que $g_2$ est $\theta_1$-mesurable équivaut à dire que $g_2 g_1$ est $\theta$-mesurable. Supposons que cette condition soit satisfaite. On a, pour toute fonction $f \in \mathscr{K}_+(T)$, en vertu des propositions 2 et 3
 
 $$
 \int^\bullet |g_2| f d|\theta_1| = \int^\bullet |g_2| f |g_1| d|\theta| = \int^\bullet |g_2 g_1| f d|\theta|.
@@ -450,7 +450,7 @@ Soient $\mu$ et $v$ deux mesures positives sur T. Les conditions 1), 2), 3) du t
 
 4) Pour toute fonction numérique $f \geq 0$ $v$-intégrable et pour tout nombre $\varepsilon > 0$, il existe $\delta > 0$ tel que les relations $0 \leq h \leq f$ et $\int^* h \, d\mu \leq \delta$ entraînent $\int^* h \, dv < \varepsilon$.
 
-5) Pour toute fonction $g \in \mathcal{K}_+(\mathrm{T})$ et tout nombre $\varepsilon > 0$, il existe $\delta > 0$ tel que, pour toute $h \in \mathcal{K}_+(\mathrm{T})$ majorée par $g$ et vérifiant $\int h \, d\mu \leq \delta$, on ait $\int h \, dv \leq \varepsilon$.
+5) Pour toute fonction $g \in \mathscr{K}_+(\mathrm{T})$ et tout nombre $\varepsilon > 0$, il existe $\delta > 0$ tel que, pour toute $h \in \mathscr{K}_+(\mathrm{T})$ majorée par $g$ et vérifiant $\int h \, d\mu \leq \delta$, on ait $\int h \, dv \leq \varepsilon$.
 
 6) Pour tout ensemble compact $K \subset \mathrm{T}$ et tout nombre $\varepsilon > 0$, il existe $\delta > 0$ tel que les relations $A \subset K$ et $\mu^*(A) \leq \delta$ entraînent $v^*(A) \leq \varepsilon$.
 

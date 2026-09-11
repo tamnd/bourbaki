@@ -61,7 +61,7 @@ subsections:
       pdf_page: 193
 statements: 79
 exercises: 30
-content_sha256: cafef13590e5fac8f8b8089f53dc63b8a0c799da5075967508e0612658483c73
+content_sha256: b85b814c3ae5bcb32e9f9e7e5987a050289d1baf92bbcdace651dab5b897aa7f
 ---
 
 ## § 5. MEASURABLE FUNCTIONS AND SETS
@@ -828,11 +828,11 @@ Thus, the uniform structure of convergence in measure on $H$ is finer than the u
 
 (i) *The set of points of discontinuity of $f$ is $\mu$-negligible.*
 
-(ii) *For every $\varepsilon > 0$, there exist elements $a_1, \ldots, a_n$ of $F$, functions $g_1, \ldots, g_n$ belonging to $\mathscr{K}(X)$, and a bounded continuous function $h \geq 0$ on $X$ such that $|f - g_1 a_1 - \cdots - g_n a_n| \leq h \leq 2 \sup |f|$ on $X$, and $\int h d\mu \leq \varepsilon$.*
+(ii) *For every $\varepsilon > 0$, there exist elements $a_1, \ldots, a_n$ of $F$, functions $g_1, \ldots, g_n$ belonging to $\mathcal{K}(X)$, and a bounded continuous function $h \geq 0$ on $X$ such that $|f - g_1 a_1 - \cdots - g_n a_n| \leq h \leq 2 \sup |f|$ on $X$, and $\int h d\mu \leq \varepsilon$.*
 
 Denote by $N$ the set of points of discontinuity of $f$, and let $M = \sup |f|$.
 
-(i) $\Rightarrow$ (ii). Suppose that condition (i) is satisfied. Let $\varepsilon > 0$. The function $f$ is $\mu$-integrable (No. 2, Cor. 4 of Prop. 5, and No. 6, Th. 5), therefore there exist $a_1, \ldots, a_n$ in $F$ and $g_1, \ldots, g_n$ in $\mathscr{K}(X)$ such that, on setting $k = |f - g_1 a_1 - \cdots - g_n a_n|$, we have $\int k d\mu \leq \varepsilon/2$ (§ 3, No. 5,
+(i) $\Rightarrow$ (ii). Suppose that condition (i) is satisfied. Let $\varepsilon > 0$. The function $f$ is $\mu$-integrable (No. 2, Cor. 4 of Prop. 5, and No. 6, Th. 5), therefore there exist $a_1, \ldots, a_n$ in $F$ and $g_1, \ldots, g_n$ in $\mathcal{K}(X)$ such that, on setting $k = |f - g_1 a_1 - \cdots - g_n a_n|$, we have $\int k d\mu \leq \varepsilon/2$ (§ 3, No. 5,
 
 Prop. 10). Multiplying $g_1, \ldots, g_n$ by a suitable same element of $\mathcal{K}(X)$, we can suppose in addition that
 

@@ -71,7 +71,7 @@ chapters:
           statements: 13
           exercises: 9
           extraction: ocr
-          content_sha256: d8983cd1a81982f6dc43554cf1e2755d441bd557cd0e5771e9ba9c357930170d
+          content_sha256: 080eaeb1342cb91bb7c4e79644e2b0d0cebe3959a9403f0bbb63ee675c0b32cc
     - chapter: III
       title: Mesures sur les espaces localement compacts
       sections:
@@ -96,7 +96,7 @@ chapters:
           statements: 43
           exercises: 3
           extraction: ocr
-          content_sha256: 4c82eb80ef376848737949f80fb7a3ad9d014c13df3c51654fa25334b04f9dd7
+          content_sha256: 678601f68595f853bdb68acaa902e96316b17b22982b0faf4401e9f664cae689
         - kind: section
           section: 2
           title: Support d'une mesure
@@ -120,7 +120,7 @@ chapters:
           statements: 19
           exercises: 4
           extraction: ocr
-          content_sha256: c85d2ebc1d31dcfec8415642d18d53234a635f52ad050b1d3b81aa50845b850d
+          content_sha256: 166d14e0ad8584e088f9a4c1925982df562ec424fcb6db7b51dbc23d3c2a877c
         - kind: section
           section: 4
           title: Produits de mesures
@@ -132,7 +132,7 @@ chapters:
           statements: 21
           exercises: 2
           extraction: ocr
-          content_sha256: 82b3ee69957ad213d05a343d2ce1e28aefa3a09c0af8ea93d09e6a38261ee993
+          content_sha256: 10fba075520a6680c90bb756281bba61ddddb969ce55de5fc3ef6297eb0af575
     - chapter: IV
       title: Prolongement d'une mesure. Espaces $L^p$
       sections:
@@ -157,7 +157,7 @@ chapters:
           statements: 35
           exercises: 8
           extraction: ocr
-          content_sha256: 5f9164258bd35e913c9b1ad80cf0b00b602f786cff5634e309986fe6cc189e46
+          content_sha256: 45f168886674dd3cf74eb971a888013faaa16e733830c13c73059b83bed27124
         - kind: section
           section: 2
           title: Fonctions et ensembles négligeables
@@ -181,7 +181,7 @@ chapters:
           statements: 41
           exercises: 3
           extraction: ocr
-          content_sha256: 61760e6cfcafeebf70f25c4fb21240e701896916261c808b88c7da4cffb6a768
+          content_sha256: c61af758c372c792364f6f46ce34a286bd48114d638e03f13d2e50f827a5e1bb
         - kind: section
           section: 4
           title: Fonctions et ensembles intégrables
@@ -193,7 +193,7 @@ chapters:
           statements: 62
           exercises: 3
           extraction: ocr
-          content_sha256: 3fcd4a66927194632d9fb1ddf6dc957e482b924a4f4a3e17d94933d48c0000ac
+          content_sha256: 2bf015cef8413c98fa143b37c0b590a25fc09fb58b95fb620e54f9673e895e9a
         - kind: section
           section: 5
           title: Fonctions et ensembles mesurables
@@ -205,7 +205,7 @@ chapters:
           statements: 81
           exercises: 30
           extraction: ocr
-          content_sha256: 34b63f1e767b60add3ef54429841cd902d1e40134f1f160ad4e20526aedd9fbd
+          content_sha256: 6bdd095286c47d4811268ccb4b6ba9aa2c24f0c091a64fbb36dbabb250f104a1
         - kind: section
           section: 6
           title: Inégalités de convexité
@@ -217,7 +217,7 @@ chapters:
           statements: 23
           exercises: 20
           extraction: ocr
-          content_sha256: 30561cfafd43a04bc8339708f13a32de4e5f4653e5d9f7b6910a8e5bfa802234
+          content_sha256: 78ba0bd49ab0823a93c596fc4105262a03df9d467b9312a50193311a98a88519
         - kind: section
           section: 7
           title: Barycentres
@@ -229,7 +229,7 @@ chapters:
           statements: 29
           exercises: 1
           extraction: ocr
-          content_sha256: e97fd0f41e7d621fb14994516f11d408708f0959271b4f7db32957daf87aea55
+          content_sha256: 5f53a55ec50564b8a8cabb33e745d157c89c9d3e3ef8efd27e0dd296bfe3ebcb
 notation_index:
     kind: notation
     title: INDEX DES NOTATIONS

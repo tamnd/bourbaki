@@ -28,7 +28,7 @@ subsections:
       pdf_page: 119
 statements: 35
 exercises: 8
-content_sha256: 5f9164258bd35e913c9b1ad80cf0b00b602f786cff5634e309986fe6cc189e46
+content_sha256: 45f168886674dd3cf74eb971a888013faaa16e733830c13c73059b83bed27124
 ---
 
 ## § 1. Intégrale supérieure d’une fonction positive
@@ -189,13 +189,13 @@ En effet, si $G = \bigcup_{i \in I} G_i$, on a $\varphi_G = \sup_{i \in I} \varp
 
 #### Exemple {#int-iv-s1-n2-exa-1 .statement}
 
-Prenons $X = \mathbf{R}$, et soit $\mu$ la mesure de Lebesgue sur $\mathbf{R}$ (chap. III, § 1, n° 3); nous allons déterminer la mesure extérieure d’un intervalle ouvert $G = ]a, b[$ ($-\infty \leq a < b \leq +\infty$). Supposons d’abord $a$ et $b$ finis. Pour toute fonction de $f$ de $\mathscr{K}_+$ telle que $f \leq \varphi_G$, on a, d’après le th. de la moyenne,
+Prenons $X = \mathbf{R}$, et soit $\mu$ la mesure de Lebesgue sur $\mathbf{R}$ (chap. III, § 1, n° 3); nous allons déterminer la mesure extérieure d’un intervalle ouvert $G = ]a, b[$ ($-\infty \leq a < b \leq +\infty$). Supposons d’abord $a$ et $b$ finis. Pour toute fonction de $f$ de $\mathcal{K}_+$ telle que $f \leq \varphi_G$, on a, d’après le th. de la moyenne,
 
 $$
 \int_{-\infty}^{+\infty} f(x) \, dx = \int_a^b f(x) \, dx \leq b - a,
 $$
 
-d’où $\mu^*(G) \leq b - a$. D’autre part, pour tout $\varepsilon > 0$, il existe une fonction $f \in \mathscr{K}_+$ telle que $f \leq \varphi_G$ et $f(x) = 1$ pour $a + \varepsilon \leq x \leq b - \varepsilon$; d’où $\mu^*(G) \geq b - a - 2\varepsilon$; comme $\varepsilon$ est arbitraire, on a
+d’où $\mu^*(G) \leq b - a$. D’autre part, pour tout $\varepsilon > 0$, il existe une fonction $f \in \mathcal{K}_+$ telle que $f \leq \varphi_G$ et $f(x) = 1$ pour $a + \varepsilon \leq x \leq b - \varepsilon$; d’où $\mu^*(G) \geq b - a - 2\varepsilon$; comme $\varepsilon$ est arbitraire, on a
 
 $$
 \mu^*(G) = b - a;
@@ -219,7 +219,7 @@ On notera en particulier que si $G$ est un ensemble ouvert dans $\mathbf{R}$ tel
 
 ### 3. Intégrale supérieure d’une fonction positive
 
-Pour toute fonction numérique $f \geq 0$ (finie ou non) définie dans $X$, il existe des fonctions $h \in \mathscr{J}_+$ telles que $f \leq h$, ne serait-ce que la constante $+\infty$.
+Pour toute fonction numérique $f \geq 0$ (finie ou non) définie dans $X$, il existe des fonctions $h \in \mathcal{J}_+$ telles que $f \leq h$, ne serait-ce que la constante $+\infty$.
 
 #### Définition 3 {#int-iv-s1-def-3 .statement}
 

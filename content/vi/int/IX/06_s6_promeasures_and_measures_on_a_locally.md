@@ -57,9 +57,9 @@ subsections:
       pdf_page: 279
 statements: 33
 exercises: 1
-content_sha256: c648f32446eae06406b212c163b1a911394054150a8f8686e9bb7c3af232d085
+content_sha256: fceaf18ddf9a53fdb8204b4053ab35f1ab9a709dbd348092427e1d3a487cfe17
 translated_from: content/en/int/IX/06_s6_promeasures_and_measures_on_a_locally.md
-source_content_sha256: 077b96d14b458885be002a0ac52b3b781f4d62aa95beaa4584507c426a327623
+source_content_sha256: af3d3a4a2c7550e173843161f890afe06b0ee09104498dbfffc394315b766082
 translation_model: gpt-5.4, gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-9d47048b
 glossary_version: 34
@@ -81,21 +81,21 @@ Có thể chỉ ra rằng giới hạn ngược của hệ ngược $\mathcal{Q}
 
 *Cho $E$ là một không gian lồi địa phương. Ta gọi promeasure trên $E$ là mọi hệ ngược$^{(1)}$ các độ đo (§ 4, No. 2, Def. 1) trên hệ ngược các thương hữu hạn chiều của $E$.*
 
-Nói cách khác, một promeasure $\mu$ trên $E$ là một họ $(\mu_V)_{V \in \mathscr{F}(E)}$, trong đó $\mu_V$ là một độ đo bị chặn (dương) trên không gian hữu hạn chiều $E/V$, và trong đó $\mu_V = p_{VW}(\mu_W)$ khi $V \supset W$. Tất cả các độ đo $\mu_V$ đều có cùng tổng khối lượng, được gọi là *tổng khối lượng* của promeasure $\mu$.
+Nói cách khác, một promeasure $\mu$ trên $E$ là một họ $(\mu_V)_{V \in \mathcal{F}(E)}$, trong đó $\mu_V$ là một độ đo bị chặn (dương) trên không gian hữu hạn chiều $E/V$, và trong đó $\mu_V = p_{VW}(\mu_W)$ khi $V \supset W$. Tất cả các độ đo $\mu_V$ đều có cùng tổng khối lượng, được gọi là *tổng khối lượng* của promeasure $\mu$.
 
-Để một không gian con $V$ của $E$ thuộc $\mathscr{F}(E)$, điều kiện cần và đủ là tồn tại một số hữu hạn phần tử $x'_1, \ldots, x'_n$ của $E'$ sao cho $V$ gồm các $x \in E$ thỏa mãn $\langle x, x'_i \rangle = 0$ với $1 \leq i \leq n$ (TVS, II, § 6, No. 3, Cor. 2 of Th. 1 and No. 5, Cor. 2 of Prop. 7). Hơn nữa, trên một không gian vectơ hữu hạn chiều chỉ tồn tại một và chỉ một tôpô không gian vectơ tôpô Hausdorff (TVS, I, § 2, No. 3, Th. 2). Do đó, khái niệm promeasure trên $E$ chỉ phụ thuộc vào đối ngẫu $E'$ của $E$.
+Để một không gian con $V$ của $E$ thuộc $\mathcal{F}(E)$, điều kiện cần và đủ là tồn tại một số hữu hạn phần tử $x'_1, \ldots, x'_n$ của $E'$ sao cho $V$ gồm các $x \in E$ thỏa mãn $\langle x, x'_i \rangle = 0$ với $1 \leq i \leq n$ (TVS, II, § 6, No. 3, Cor. 2 of Th. 1 and No. 5, Cor. 2 of Prop. 7). Hơn nữa, trên một không gian vectơ hữu hạn chiều chỉ tồn tại một và chỉ một tôpô không gian vectơ tôpô Hausdorff (TVS, I, § 2, No. 3, Th. 2). Do đó, khái niệm promeasure trên $E$ chỉ phụ thuộc vào đối ngẫu $E'$ của $E$.
 
-Cho $\lambda$ là một độ đo bị chặn trên $E$. Với mỗi $V \in \mathscr{F}(E)$, ta ký hiệu bởi $\widetilde{\lambda}_V$ ảnh của $\lambda$ qua ánh xạ chính tắc $p_V$ từ $E$ lên $E/V$. Ta có $p_V = p_{VW} \circ p_W$ với mọi phần tử $V$ và $W$ của $\mathscr{F}(E)$ sao cho $V \supset W$; do đó, họ $\widetilde{\lambda} = (\widetilde{\lambda}_V)_{V \in \mathscr{F}(E)}$ là một prođộ đo trên $E$. Ta sẽ nói rằng $\widetilde{\lambda}$ là prođộ đo *liên kết* với độ đo $\lambda$. Ta thấy ngay lập tức rằng $\lambda$ và $\widetilde{\lambda}$ có cùng tổng khối lượng.
+Cho $\lambda$ là một độ đo bị chặn trên $E$. Với mỗi $V \in \mathcal{F}(E)$, ta ký hiệu bởi $\widetilde{\lambda}_V$ ảnh của $\lambda$ qua ánh xạ chính tắc $p_V$ từ $E$ lên $E/V$. Ta có $p_V = p_{VW} \circ p_W$ với mọi phần tử $V$ và $W$ của $\mathcal{F}(E)$ sao cho $V \supset W$; do đó, họ $\widetilde{\lambda} = (\widetilde{\lambda}_V)_{V \in \mathcal{F}(E)}$ là một prođộ đo trên $E$. Ta sẽ nói rằng $\widetilde{\lambda}$ là prođộ đo *liên kết* với độ đo $\lambda$. Ta thấy ngay lập tức rằng $\lambda$ và $\widetilde{\lambda}$ có cùng tổng khối lượng.
 
 #### Mệnh đề 1 {#int-ix-s6-prop-1 .statement}
 
-*Cho $E$ là một không gian lồi địa phương. Ánh xạ $\lambda \mapsto \widetilde{\lambda}$ là một song ánh từ tập hợp các độ đo bị chặn trên $E$ lên tập hợp các prođộ đo $(\mu_V)_{V \in \mathscr{F}(E)}$ trên $E$ thỏa mãn điều kiện sau:
+*Cho $E$ là một không gian lồi địa phương. Ánh xạ $\lambda \mapsto \widetilde{\lambda}$ là một song ánh từ tập hợp các độ đo bị chặn trên $E$ lên tập hợp các prođộ đo $(\mu_V)_{V \in \mathcal{F}(E)}$ trên $E$ thỏa mãn điều kiện sau:
 
-Với mọi $\varepsilon > 0$, tồn tại một tập con compact $K$ của $E$ sao cho $\mu_V(E/V - p_V(K)) \leq \varepsilon$ với mọi $V \in \mathscr{F}(E)$.*
+Với mọi $\varepsilon > 0$, tồn tại một tập con compact $K$ của $E$ sao cho $\mu_V(E/V - p_V(K)) \leq \varepsilon$ với mọi $V \in \mathcal{F}(E)$.*
 
-Ta biết rằng giao các hạt nhân của các dạng tuyến tính liên tục trên $E$ bằng 0 (TVS, II, § 4, No. 1, Hệ quả 1 của Mệnh đề 2); do đó $\bigcap_{V \in \mathscr{F}(E)} V = \{0\}$ và họ $(p_V)_{V \in \mathscr{F}(E)}$ là tương thích và phân ly. Khi đó mệnh đề suy ra từ Định lý 1 của § 4, No. 2.
+Ta biết rằng giao các hạt nhân của các dạng tuyến tính liên tục trên $E$ bằng 0 (TVS, II, § 4, No. 1, Hệ quả 1 của Mệnh đề 2); do đó $\bigcap_{V \in \mathcal{F}(E)} V = \{0\}$ và họ $(p_V)_{V \in \mathcal{F}(E)}$ là tương thích và phân ly. Khi đó mệnh đề suy ra từ Định lý 1 của § 4, No. 2.
 
-Đặc biệt, ánh xạ $\lambda \mapsto \widetilde{\lambda}$ là đơn ánh. Nếu $\mu$ là một prođộ đo trên $E$, và nếu tồn tại một độ đo bị chặn $\lambda$ trên $E$ sao cho $\mu = \widetilde{\lambda}$, thì do lạm dụng ngôn ngữ, ta sẽ nói rằng $\mu$ là một độ đo. Nếu $E$ là hữu hạn chiều, mọi prođộ đo $\mu = (\mu_V)_{V \in \mathscr{F}(E)}$ đều là một độ đo: thật vậy, $\{0\} \in \mathscr{F}(E)$, $E/\{0\} = E$ và $p_{V,\{0\}} = p_V$, do đó $\mu_V = p_V(\mu_{\{0\}})$ với mọi $V \in \mathscr{F}(E)$; nói cách khác, $\mu = \widetilde{\lambda}$ với $\lambda = \mu_{\{0\}}$.
+Đặc biệt, ánh xạ $\lambda \mapsto \widetilde{\lambda}$ là đơn ánh. Nếu $\mu$ là một prođộ đo trên $E$, và nếu tồn tại một độ đo bị chặn $\lambda$ trên $E$ sao cho $\mu = \widetilde{\lambda}$, thì do lạm dụng ngôn ngữ, ta sẽ nói rằng $\mu$ là một độ đo. Nếu $E$ là hữu hạn chiều, mọi prođộ đo $\mu = (\mu_V)_{V \in \mathcal{F}(E)}$ đều là một độ đo: thật vậy, $\{0\} \in \mathcal{F}(E)$, $E/\{0\} = E$ và $p_{V,\{0\}} = p_V$, do đó $\mu_V = p_V(\mu_{\{0\}})$ với mọi $V \in \mathcal{F}(E)$; nói cách khác, $\mu = \widetilde{\lambda}$ với $\lambda = \mu_{\{0\}}$.
 
 (1) Cũng được gọi là một 'hệ xạ ảnh'.
 
@@ -172,7 +172,7 @@ $$
 (\mathcal{F}\mu)(x') = \int_{E'/V} e^{i\langle x, x' \rangle} d\mu_V(x)
 $$
 
-với mọi $x' \in V^\circ$. Ta có $E' = \bigcup_{V \in \mathscr{F}(E)} V^\circ$, do đó công thức trước đó đặc trưng hàm $\mathcal{F}\mu$ trên $E'$. Cuối cùng, nếu đặt $x' = 0$ trong (5), ta thấy khối lượng toàn phần của $\mu$ bằng $(\mathcal{F}\mu)(0)$.
+với mọi $x' \in V^\circ$. Ta có $E' = \bigcup_{V \in \mathcal{F}(E)} V^\circ$, do đó công thức trước đó đặc trưng hàm $\mathcal{F}\mu$ trên $E'$. Cuối cùng, nếu đặt $x' = 0$ trong (5), ta thấy khối lượng toàn phần của $\mu$ bằng $(\mathcal{F}\mu)(0)$.
 
 #### Mệnh đề 3 {#int-ix-s6-prop-3 .statement}
 
@@ -186,9 +186,9 @@ $$
 
 với mọi dạng tuyến tính $y$ trên $\mathbf{R}^n$, thì $\mu = 0$.
 
-Với mọi số nguyên $m \geqslant 0$, gọi $G_m$ là nhóm con $m \cdot \mathbf{Z}^n$ của $\mathbf{R}^n$. Ký hiệu $\mathscr{C}_m$ là không gian vectơ các hàm liên tục $f$ trên $\mathbf{R}^n$ sao cho $f(x + a) = f(x)$ với $x \in \mathbf{R}^n$ và $a \in G_m$. Theo Mệnh đề 8 của GT, X, §4, No. 4, mọi hàm trong $\mathscr{C}_m$ là giới hạn đều của các tổ hợp tuyến tính hữu hạn của các hàm kiểu $x \mapsto e^{2\pi i \langle x, q \rangle}$ với $q \in m^{-1} \cdot \mathbf{Z}^n$. Do đó $\mu(f) = 0$ với mọi hàm $f \in \mathscr{C}_m$.
+Với mọi số nguyên $m \geqslant 0$, gọi $G_m$ là nhóm con $m \cdot \mathbf{Z}^n$ của $\mathbf{R}^n$. Ký hiệu $\mathcal{C}_m$ là không gian vectơ các hàm liên tục $f$ trên $\mathbf{R}^n$ sao cho $f(x + a) = f(x)$ với $x \in \mathbf{R}^n$ và $a \in G_m$. Theo Mệnh đề 8 của GT, X, §4, No. 4, mọi hàm trong $\mathcal{C}_m$ là giới hạn đều của các tổ hợp tuyến tính hữu hạn của các hàm kiểu $x \mapsto e^{2\pi i \langle x, q \rangle}$ với $q \in m^{-1} \cdot \mathbf{Z}^n$. Do đó $\mu(f) = 0$ với mọi hàm $f \in \mathcal{C}_m$.
 
-Cho $f$ là một hàm liên tục trên $\mathbf{R}^n$ có support compact. Với mọi số nguyên $m \geqslant 0$, đặt $f_m(x) = \sum_{q \in G_m} f(x + q)$. Ngay lập tức thấy rằng với mọi $x \in \mathbf{R}^n$, chuỗi trên chỉ có hữu hạn số hạng, và $f_m$ thuộc $\mathscr{C}_m$. Hơn nữa, dễ thấy rằng dãy $(f_m)$ hội tụ đều tới $f$ trên mọi tập compact, và tồn tại một hằng $C \geqslant 0$ sao cho $|f_m| \leqslant C$ với mọi $m$. Do đó, $\mu(f) = \lim_{m \to \infty} \mu(f_m)$ theo Mệnh đề 12 của §5, No. 6. Vì $f_m \in \mathscr{C}_m$, ta có $\mu(f_m) = 0$, do đó cuối cùng $\mu(f) = 0$. Vậy $\mu = 0$.
+Cho $f$ là một hàm liên tục trên $\mathbf{R}^n$ có support compact. Với mọi số nguyên $m \geqslant 0$, đặt $f_m(x) = \sum_{q \in G_m} f(x + q)$. Ngay lập tức thấy rằng với mọi $x \in \mathbf{R}^n$, chuỗi trên chỉ có hữu hạn số hạng, và $f_m$ thuộc $\mathcal{C}_m$. Hơn nữa, dễ thấy rằng dãy $(f_m)$ hội tụ đều tới $f$ trên mọi tập compact, và tồn tại một hằng $C \geqslant 0$ sao cho $|f_m| \leqslant C$ với mọi $m$. Do đó, $\mu(f) = \lim_{m \to \infty} \mu(f_m)$ theo Mệnh đề 12 của §5, No. 6. Vì $f_m \in \mathcal{C}_m$, ta có $\mu(f_m) = 0$, do đó cuối cùng $\mu(f) = 0$. Vậy $\mu = 0$.
 
 #### Nhận xét {#int-ix-s6-n3-rem-1 .statement}
 
@@ -1012,7 +1012,7 @@ Q.E.D.
 
 ### 11. Các độ đo trên một không gian Hilbert
 
-Cho E là một không gian Hilbert thực, trong đó tích vô hướng được ký hiệu bởi $(x|y)$. Tồn tại một đẳng cấu j của E lên đối ngẫu $E'$, được đặc trưng bởi công thức $\langle x, j(y) \rangle = (x|y)$ với $x, y$ trong E (TVS, V, §1, No. 7, Định lý 3). Ta sẽ đồng nhất E và $E'$ nhờ j. Vì thế biến đổi Fourier của một tiền độ đo $\mu$ trên E là một hàm $\mathscr{F}\mu$ trên E; khi $\mu$ là một độ đo, ta có
+Cho E là một không gian Hilbert thực, trong đó tích vô hướng được ký hiệu bởi $(x|y)$. Tồn tại một đẳng cấu j của E lên đối ngẫu $E'$, được đặc trưng bởi công thức $\langle x, j(y) \rangle = (x|y)$ với $x, y$ trong E (TVS, V, §1, No. 7, Định lý 3). Ta sẽ đồng nhất E và $E'$ nhờ j. Vì thế biến đổi Fourier của một tiền độ đo $\mu$ trên E là một hàm $\mathcal{F}\mu$ trên E; khi $\mu$ là một độ đo, ta có
 
 $$(64)$$
 $$(\mathcal{F}\mu)(x) = \int_{E} e^{i(x|y)} d\mu(y) \quad (x \in E).$$
@@ -1068,7 +1068,7 @@ Q.E.D.
 
 — *Cho $E_1$ và $E_2$ là hai không gian Hilbert, $u$ là một ánh xạ Hilbert–Schmidt từ $E_1$ vào $E_2$, và $\mu$ là một promeasure trên $E_1$. Giả sử rằng biến đổi Fourier $\Phi$ của $\mu$ liên tục trên $E_1$. Khi đó promeasure $\nu = u(\mu)$ là một độ đo trên $E_2$ được trang bị tôpô yếu.*
 
-Với các đồng nhất hóa của $E_1$ và $E_2$ với các đối ngẫu của chúng được đưa vào trong No. này, biến đổi Fourier của $\nu$ bằng $\Phi \circ u^*$, trong đó $u^*$ là liên hợp của $u$. Mà $u^*$ là một ánh xạ Hilbert–Schmidt từ $E_2$ vào $E_1$ (Phụ lục, No. 2), và do đó dạng toàn phương $y \mapsto \|u^*(y)\|^2$ trên $E_2$ là hạch. Nếu $(E_2)_\mathscr{S}$ ký hiệu $E_2$ được trang bị tôpô Sazonov, thì $u^*$ do đó là một ánh xạ tuyến tính liên tục từ $(E_2)_\mathscr{S}$ vào $E_1$, và $\mathcal{F}_V = \Phi \circ u^*$ liên tục trên $(E_2)_\mathscr{S}$; khi đó Định lý 3 cho thấy rằng $\nu$ là một độ đo trên không gian $E_2$ được trang bị tôpô yếu.
+Với các đồng nhất hóa của $E_1$ và $E_2$ với các đối ngẫu của chúng được đưa vào trong No. này, biến đổi Fourier của $\nu$ bằng $\Phi \circ u^*$, trong đó $u^*$ là liên hợp của $u$. Mà $u^*$ là một ánh xạ Hilbert–Schmidt từ $E_2$ vào $E_1$ (Phụ lục, No. 2), và do đó dạng toàn phương $y \mapsto \|u^*(y)\|^2$ trên $E_2$ là hạch. Nếu $(E_2)_\mathcal{S}$ ký hiệu $E_2$ được trang bị tôpô Sazonov, thì $u^*$ do đó là một ánh xạ tuyến tính liên tục từ $(E_2)_\mathcal{S}$ vào $E_1$, và $\mathcal{F}_V = \Phi \circ u^*$ liên tục trên $(E_2)_\mathcal{S}$; khi đó Định lý 3 cho thấy rằng $\nu$ là một độ đo trên không gian $E_2$ được trang bị tôpô yếu.
 
 #### Hệ quả 2 {#int-ix-s6-thm-2-cor-2 .statement}
 
@@ -1129,7 +1129,7 @@ $$
 
 (*) Vấn đề này sẽ được nghiên cứu trong một chương sắp tới của bộ sách *Théories spectrales*. Bạn đọc có thể tham khảo về chủ đề này cuốn sách của L.H. LOOMIS, *Abstract harmonic analysis*, Van Nostrand, New York, 1953.
 
-do đó $pvw(\mu_w) = \mu_v$ theo Mệnh đề 3 của No. 3. Do đó, họ $\mu = (\mu_v)_{v \in \mathscr{F}(E)}$ là một promeasure trên $E$; hiển nhiên $\Phi$ là biến đổi Fourier của $\mu$.
+do đó $pvw(\mu_w) = \mu_v$ theo Mệnh đề 3 của No. 3. Do đó, họ $\mu = (\mu_v)_{v \in \mathcal{F}(E)}$ là một promeasure trên $E$; hiển nhiên $\Phi$ là biến đổi Fourier của $\mu$.
 
 #### Hệ quả {#int-ix-s6-n11-cor-1 .statement}
 

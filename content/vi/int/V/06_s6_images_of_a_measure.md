@@ -37,9 +37,9 @@ subsections:
       pdf_page: 326
 statements: 29
 exercises: 22
-content_sha256: 1cba07830bf2d7a9c88038ea008030e0122e8d89ca2c8b3ddc0007f42edfd2b0
+content_sha256: a7856e6560f20d50312fdde347df16ddf1a4f14c846d600ea4049984150da297
 translated_from: content/en/int/V/06_s6_images_of_a_measure.md
-source_content_sha256: a70560a7e81a1387fafead635105a8388c5e8d3f23436033725b34a2d8dcc990
+source_content_sha256: 0f32530c10e9761e5e1f1b4d8eee193fc1d3fd60b517404acc2a1858e06ffd2e
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-469b03b9
 glossary_version: 34
@@ -396,7 +396,7 @@ Tính duy nhất của $\nu$ suy ra ngay từ nguyên lý địa phương hóa (
 
 #### Bổ đề {#int-v-s6-n6-lem-1 .statement}
 
-— a) *Cho $f$ là một phần tử của $\mathscr{K}_+(X)$; hàm $t \mapsto \lambda_t(f)$ là dương, nửa liên tục trên, có giá compact, và hạn chế của nó trên $\pi(X)$ là liên tục.*
+— a) *Cho $f$ là một phần tử của $\mathcal{K}_+(X)$; hàm $t \mapsto \lambda_t(f)$ là dương, nửa liên tục trên, có giá compact, và hạn chế của nó trên $\pi(X)$ là liên tục.*
 
 b) *Cho $U$ là một phần tử của $\mathcal{U}$, $\nu$ là nguyên của hàm $\mu$-khả tích thực chất theo vô hướng $t \mapsto \lambda_t$; ảnh của độ đo $\nu|U$ qua $\pi|U$ bằng $\mu|\pi(U)$.*
 

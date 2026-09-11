@@ -28,7 +28,7 @@ subsections:
       pdf_page: 16
 statements: 25
 exercises: 6
-content_sha256: e66013f1e32478d647b682eb6d174db1b7187ad1d06d022eb0b6fe6869abede7
+content_sha256: d11e7515e7fa3bff7befe7638d735f485c5cb79347900de3bd83aee030b88613
 ---
 
 ## § 1. Intégrale supérieure essentielle
@@ -48,7 +48,7 @@ $$
 
 On peut avoir $\mu^*(f) \neq \mu^*(f)$; en effet, la condition $\mu^*(f) = 0$ signifie que $f$ est négligeable tandis que la condition $\mu^*(f) = 0$ signifie que $f$ est localement négligeable (chap. IV, § 5, n° 2, prop. 5), et il peut exister des ensembles localement négligeables et non négligeables (chap. IV, § 1, exerc. 5).
 
-L’application $\mu^*$ de $\mathcal{F}_+(T)$ dans $\bar{\mathbf{R}}$ coïncide avec $\mu$ sur $\mathcal{K}_+(T)$.
+L’application $\mu^*$ de $\mathcal{F}_+(T)$ dans $\bar{\mathbf{R}}$ coïncide avec $\mu$ sur $\mathscr{K}_+(T)$.
 Il en résulte que deux mesures $\mu_1$ et $\mu_2$ telles que $\mu_1^* = \mu_2^*$ sont égales.
 
 #### Proposition 1 {#int-v-s1-prop-1 .statement}
@@ -124,7 +124,7 @@ La démonstration est immédiate à partir de l’énoncé analogue du chapitre 
 
 Pour toute fonction numérique $f \geqslant 0$, semi-continue inférieurement dans $T$, on a $\mu^*(f) = \mu^*(f)$.
 
-En effet, soit $g$ une fonction de $\mathcal{K}_+(T)$ telle que $g \leqslant f$. Si $K$ est le support (compact) de $g$, on a $\mu(g) \leqslant \mu^*(f_{\varphi_K}) \leqslant \mu^*(f)$. Il en résulte, d’après la définition de l’intégrale supérieure, que $\mu^*(f) \leqslant \mu^*(f)$, donc $\mu^*(f) = \mu^*(f)$ (formule (1)).
+En effet, soit $g$ une fonction de $\mathscr{K}_+(T)$ telle que $g \leqslant f$. Si $K$ est le support (compact) de $g$, on a $\mu(g) \leqslant \mu^*(f_{\varphi_K}) \leqslant \mu^*(f)$. Il en résulte, d’après la définition de l’intégrale supérieure, que $\mu^*(f) \leqslant \mu^*(f)$, donc $\mu^*(f) = \mu^*(f)$ (formule (1)).
 
 ### 2. Fonctions et mesures modérées
 
@@ -343,7 +343,7 @@ $$
 \lambda^\bullet(f) = \sup_{\alpha \in A} \lambda_\alpha^\bullet(f).
 $$
 
-Lorsque $f$ appartient à $\mathcal{K}(T)$, cette relation se réduit à la définition de la borne supérieure d’un ensemble filtrant dans $\mathcal{M}(T)$ (chap. II, § 2, n° 2, lemme 1). Supposons ensuite que $f$ soit majorée par une fonction $g \in \mathcal{K}_+$ (autrement dit, que $f$ soit bornée et nulle hors d’un compact K); soit $\alpha$ un indice tel que l’on ait $\lambda_\alpha(g) \geq \lambda(g) - \varepsilon$, où $\varepsilon$ est un nombre $> 0$; la mesure $\nu = \lambda - \lambda_\alpha$ étant positive, on a $\nu^\ast(f) \leq \nu(g) \leq \varepsilon$, ou $\lambda_\alpha^\ast(f) \geq \lambda^\ast(f) - \varepsilon$ (chap. IV, § 1, n° 3, prop. 15). Il en résulte ($\varepsilon$ étant arbitraire) que le second membre de (6) majore le premier ; l’inégalité inverse étant évidente, (6) est établie dans le cas particulier envisagé. Supposons ensuite que $f$ soit nulle hors de K, mais non nécessairement bornée, et posons $f_n = \inf(f, n)$ pour tout entier $n$. On a :
+Lorsque $f$ appartient à $\mathscr{K}(T)$, cette relation se réduit à la définition de la borne supérieure d’un ensemble filtrant dans $\mathcal{M}(T)$ (chap. II, § 2, n° 2, lemme 1). Supposons ensuite que $f$ soit majorée par une fonction $g \in \mathscr{K}_+$ (autrement dit, que $f$ soit bornée et nulle hors d’un compact K); soit $\alpha$ un indice tel que l’on ait $\lambda_\alpha(g) \geq \lambda(g) - \varepsilon$, où $\varepsilon$ est un nombre $> 0$; la mesure $\nu = \lambda - \lambda_\alpha$ étant positive, on a $\nu^\ast(f) \leq \nu(g) \leq \varepsilon$, ou $\lambda_\alpha^\ast(f) \geq \lambda^\ast(f) - \varepsilon$ (chap. IV, § 1, n° 3, prop. 15). Il en résulte ($\varepsilon$ étant arbitraire) que le second membre de (6) majore le premier ; l’inégalité inverse étant évidente, (6) est établie dans le cas particulier envisagé. Supposons ensuite que $f$ soit nulle hors de K, mais non nécessairement bornée, et posons $f_n = \inf(f, n)$ pour tout entier $n$. On a :
 
 $$
 \lambda^\bullet(f) = \sup_{n \in \mathbf{N}} \lambda^\bullet(f_n) = \sup_{n \in \mathbf{N}} \sup_{\alpha \in A} \lambda_\alpha^\bullet(f_n) = \sup_{\alpha \in A} \sup_{n \in \mathbf{N}} \lambda_\alpha^\bullet(f_n) = \sup_{\alpha \in A} \lambda_\alpha^\bullet(f).

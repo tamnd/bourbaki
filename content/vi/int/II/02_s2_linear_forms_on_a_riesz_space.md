@@ -21,9 +21,9 @@ subsections:
       pdf_page: 34
 statements: 13
 exercises: 9
-content_sha256: 1e25f2ce84e070d2124701f33c7a9fc9469590c1c86df4251da2348de38a8b71
+content_sha256: b133c9a87d3d79ac1f029f636c7c643a48f3319af7f346fe7a4a75c0e1a5fd88
 translated_from: content/en/int/II/02_s2_linear_forms_on_a_riesz_space.md
-source_content_sha256: f261078ae1db1a985db1c8cbda6a7a6f980a9e5c399f533b3b3eabf7b1f185bd
+source_content_sha256: a99ab6a381386c576f23c9ce042fe0f61cb8482740d72d2558bf85513a4bd7f4
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-90bd1f49
 glossary_version: 34
@@ -53,7 +53,7 @@ Cho $I = [a, b]$ là một khoảng compact của $\mathbf{R}$, E là không gia
 
 #### Ví dụ 3 {#int-ii-s2-n1-exa-3 .statement}
 
-Cho F là một tập hợp bất kỳ, $\mathcal{U}$ là một siêu lọc trên F (GT, I, §6, No. 4), E là không gian Riesz $\mathscr{B}(F)$ của các hàm giá trị thực bị chặn trên F. Với mọi $x \in E$, $\lim_{\mathcal{U}} x(t)$ tồn tại, bởi vì $x(\mathcal{U})$ là một cơ sở của một siêu lọc trên tập compact tương đối $x(F)$, do đó là hội tụ. Hơn nữa, nếu $x \geq 0$ thì $\lim_{\mathcal{U}} x(t) \geq 0$ theo nguyên lý mở rộng của các bất đẳng thức; ánh xạ $x \mapsto \lim_{\mathcal{U}} x$ do đó là một dạng tuyến tính dương trên E. Nếu $\mathcal{U}$ được lấy là siêu lọc tạo bởi các tập chứa một phần tử $a \in F$, ta thu được lại dạng tuyến tính dương $x \mapsto x(a)$ (Ví dụ 1).
+Cho F là một tập hợp bất kỳ, $\mathcal{U}$ là một siêu lọc trên F (GT, I, §6, No. 4), E là không gian Riesz $\mathcal{B}(F)$ của các hàm giá trị thực bị chặn trên F. Với mọi $x \in E$, $\lim_{\mathcal{U}} x(t)$ tồn tại, bởi vì $x(\mathcal{U})$ là một cơ sở của một siêu lọc trên tập compact tương đối $x(F)$, do đó là hội tụ. Hơn nữa, nếu $x \geq 0$ thì $\lim_{\mathcal{U}} x(t) \geq 0$ theo nguyên lý mở rộng của các bất đẳng thức; ánh xạ $x \mapsto \lim_{\mathcal{U}} x$ do đó là một dạng tuyến tính dương trên E. Nếu $\mathcal{U}$ được lấy là siêu lọc tạo bởi các tập chứa một phần tử $a \in F$, ta thu được lại dạng tuyến tính dương $x \mapsto x(a)$ (Ví dụ 1).
 
 #### Mệnh đề 1 {#int-ii-s2-prop-1 .statement}
 

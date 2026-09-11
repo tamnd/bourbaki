@@ -24,7 +24,7 @@ subsections:
       pdf_page: 20
 statements: 12
 exercises: 4
-content_sha256: d3a80f2e092681caebf06a11f38953b67ba9acf76a8fd3c67f3944df43368409
+content_sha256: 36aae4cf3f347aee62a7fae0525d731840fcaa832efcbb7d50675316943ae79a
 ---
 
 ## § 2. Familles sommables de mesures positives
@@ -148,7 +148,7 @@ $$
 \mu_\alpha(f) = \mu(f \varphi_{K_\alpha});
 $$
 
-la forme linéaire $\mu_\alpha$ sur $\mathcal{K}(T)$ est positive, c’est donc une mesure positive, de support contenu dans $K_\alpha$. Comme tout compact contenu dans un élément de $A$ appartient à $A$, on a $\operatorname{Supp}(\mu_\alpha) \in A$ pour tout $\alpha \in A$. Il reste seulement à montrer que la famille $(\mu_\alpha)$ est sommable, et que sa somme est égale à $\mu$; autrement dit, qu’on a $\sum_{\alpha \in A} \mu_\alpha(f) = \mu(f)$ pour toute fonction $f \in \mathcal{K}_+(T)$. Or, soit S le support (compact) de $f$, et soit $A'$ l’ensemble dénombrable constitué par les $\alpha \in A$ tels que $S \cap K_\alpha \neq \varnothing$. L’ensemble $N \cap S$ étant $\mu$-négligeable, on a
+la forme linéaire $\mu_\alpha$ sur $\mathscr{K}(T)$ est positive, c’est donc une mesure positive, de support contenu dans $K_\alpha$. Comme tout compact contenu dans un élément de $A$ appartient à $A$, on a $\operatorname{Supp}(\mu_\alpha) \in A$ pour tout $\alpha \in A$. Il reste seulement à montrer que la famille $(\mu_\alpha)$ est sommable, et que sa somme est égale à $\mu$; autrement dit, qu’on a $\sum_{\alpha \in A} \mu_\alpha(f) = \mu(f)$ pour toute fonction $f \in \mathscr{K}_+(T)$. Or, soit S le support (compact) de $f$, et soit $A'$ l’ensemble dénombrable constitué par les $\alpha \in A$ tels que $S \cap K_\alpha \neq \varnothing$. L’ensemble $N \cap S$ étant $\mu$-négligeable, on a
 
 $$
 \begin{align*}

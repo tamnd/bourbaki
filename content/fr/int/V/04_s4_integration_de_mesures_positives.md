@@ -28,7 +28,7 @@ subsections:
       pdf_page: 45
 statements: 10
 exercises: 2
-content_sha256: 6376bb3925ebbad5b62639850b47659e733a09c2c471abe4f46acc73241f6f78
+content_sha256: 2dd84f7048c20eb8876b7a7c7626df914539ff717856b58693d748e5902dbc30
 ---
 
 ## § 4. Intégration de mesures positives ponctuelles
@@ -41,13 +41,13 @@ Soient $X$ et $T$ deux espaces localement compacts, $\pi$ une application de $T$
 
 Soit $\mu$ une mesure positive sur $T$. On dit que le couple $(\pi, g)$ est $\mu$-adapté si les conditions suivantes sont satisfaites :
 1° Les fonctions $\pi$ et $g$ sont $\mu$-mesurables.
-2° Pour toute fonction $f \in \mathcal{K}(X)$, l’application $t \mapsto f(\pi(t))g(t)$ est essentiellement $\mu$-intégrable.
+2° Pour toute fonction $f \in \mathscr{K}(X)$, l’application $t \mapsto f(\pi(t))g(t)$ est essentiellement $\mu$-intégrable.
 
 #### Proposition 1 {#int-v-s4-prop-1 .statement}
 
 Si le couple $(\pi, g)$ est $\mu$-adapté, l’application $\Lambda : t \mapsto \lambda_t = g(t) \varepsilon_{\pi(t)}$ de $T$ dans $\mathcal{M}_+(X)$ est scalairement essentiellement $\mu$-intégrable, vaguement $\mu$-mesurable et $\mu$-adéquate. Inversement, si $\Lambda$ est scalairement essentiellement $\mu$-intégrable et vaguement $\mu$-mesurable, la fonction $g$ est $\mu$-mesurable, et la restriction de $\pi$ à l’ensemble $S$ des $t \in T$ tels que $g(t) \neq 0$ est $\mu$-mesurable.
 
-En effet, supposons que le couple $(\pi, g)$ soit $\mu$-adapté; pour toute fonction $f \in \mathcal{K}(X)$, la fonction $t \mapsto \langle f, \lambda_t \rangle = f(\pi(t))g(t)$ est alors essentiellement $\mu$-intégrable. Montrons que $t \mapsto \lambda_t$ est vaguement $\mu$-mesurable. En effet, notons d’abord que, si $\pi$ et $g$ sont continues, l’application $t \mapsto \lambda_t$ est vaguement continue. Dans le cas général, l’ensemble des parties compactes $K$ de $T$ telles que les restrictions de $\pi$ et de $g$ à $K$ soient continues est $\mu$-dense (chap. IV, 2e éd., § 5, n° 10, prop. 15); si $K$ est un tel ensemble, la restriction de $t \mapsto \lambda_t$ à $K$ est vaguement continue, d’où la première assertion de l’énoncé. La prop. 2 du § 3, n° 1, montre que $\Lambda$ est $\mu$-adéquate.
+En effet, supposons que le couple $(\pi, g)$ soit $\mu$-adapté; pour toute fonction $f \in \mathscr{K}(X)$, la fonction $t \mapsto \langle f, \lambda_t \rangle = f(\pi(t))g(t)$ est alors essentiellement $\mu$-intégrable. Montrons que $t \mapsto \lambda_t$ est vaguement $\mu$-mesurable. En effet, notons d’abord que, si $\pi$ et $g$ sont continues, l’application $t \mapsto \lambda_t$ est vaguement continue. Dans le cas général, l’ensemble des parties compactes $K$ de $T$ telles que les restrictions de $\pi$ et de $g$ à $K$ soient continues est $\mu$-dense (chap. IV, 2e éd., § 5, n° 10, prop. 15); si $K$ est un tel ensemble, la restriction de $t \mapsto \lambda_t$ à $K$ est vaguement continue, d’où la première assertion de l’énoncé. La prop. 2 du § 3, n° 1, montre que $\Lambda$ est $\mu$-adéquate.
 
 Inversement, supposons que $\Lambda$ soit scalairement essentiellement intégrable et vaguement $\mu$-mesurable; elle est alors $\mu$-adéquate (§ 3, n° 1, prop. 2). La fonction 1 étant semi-continue inférieurement dans $X$, la fonction $t \mapsto \lambda_t(1) = g(t)$ est $\mu$-mesurable (§ 3, déf. 1). L’ensemble $S$ est donc mesurable (chap. IV, 2e éd., § 5, n° 5, prop. 7). L’ensemble $R$ des compacts $K \subset S$ tels que $g|K$ soit continue et $\Lambda|K$ vaguement continue est $\mu$-dense dans $S$ (chap. IV, 2e éd., § 5, n° 10, prop. 15); si $K \in R$, la restriction à $K$ de l’application $t \mapsto \varepsilon_{\pi(t)} = \frac{1}{g(t)} \lambda_t$ est donc vaguement continue, et cela entraîne la continuité de $\pi|K$ (chap. III, 2e éd., § 1, n° 9, prop. 13). Comme $R$ est $\mu$-dense dans $S$, la restriction de $\pi$ à $S$ est mesurable.
 
@@ -137,7 +137,7 @@ $$
 \int^* f(x) \, dv(x) = \int^* f(\pi(t))g(t) \, d\mu(t).
 $$
 
-Il est clair que $\pi$ et $g$ sont $\mu$-mesurables ; en outre, pour toute fonction $\psi \in \mathcal{K}(X)$, $\psi \circ \pi$ est continue et à support compact, puisque $\pi$ est propre ; le couple $(\pi, g)$ est donc $\mu$-adapté, et en outre l’application $t \to g(t)\varepsilon_{\pi(t)}$ est *vaguement continue*.
+Il est clair que $\pi$ et $g$ sont $\mu$-mesurables ; en outre, pour toute fonction $\psi \in \mathscr{K}(X)$, $\psi \circ \pi$ est continue et à support compact, puisque $\pi$ est propre ; le couple $(\pi, g)$ est donc $\mu$-adapté, et en outre l’application $t \to g(t)\varepsilon_{\pi(t)}$ est *vaguement continue*.
 
 Soit $h$ une fonction semi-continue inférieurement dans $T$, telle que $f(\pi(t))g(t) \leqslant h(t)$ pour tout $t \in T$. Nous allons montrer que
 
@@ -207,7 +207,7 @@ $$
 
 (n° 2, th. 1) : $f$ est donc essentiellement $\nu$-intégrable ($§ 1$, n° 3, prop. 9), donc $\nu$-intégrable. Le th. 1 du $§ 3$, n° 3 entraîne alors (9).
 
-B) Passons au cas général. Soit $\mathcal{K}$ l’ensemble des parties compactes $K$ de $T$ telles que $g|K$ soit continue : $\mathcal{K}$ est $\mu$-dense (chap. IV, 2e éd., § 5, n° 10, prop. 15), et la mesure $\mu$ est donc somme d’une famille $(\mu_\alpha)_{\alpha \in A}$ de mesures portées par des éléments de $\mathfrak{R}$ (§ 2, n° 3, prop. 4). Le couple $(g, \pi)$ est évidemment $\mu_\alpha$-adapté pour tout $\alpha \in A$, et la mesure $\nu$ est somme de la famille des mesures $\nu_\alpha = \int \varepsilon_{\pi(t)} g(t) \, d\mu_\alpha(t)$ (§ 3, n° 1, prop. 12). Le raisonnement de A) s’appliquant aux mesures $\mu_\alpha, \nu_\alpha$, la première partie de l’énoncé résulte alors de la prop. 3 du § 2, n° 2.
+B) Passons au cas général. Soit $\mathscr{K}$ l’ensemble des parties compactes $K$ de $T$ telles que $g|K$ soit continue : $\mathscr{K}$ est $\mu$-dense (chap. IV, 2e éd., § 5, n° 10, prop. 15), et la mesure $\mu$ est donc somme d’une famille $(\mu_\alpha)_{\alpha \in A}$ de mesures portées par des éléments de $\mathfrak{R}$ (§ 2, n° 3, prop. 4). Le couple $(g, \pi)$ est évidemment $\mu_\alpha$-adapté pour tout $\alpha \in A$, et la mesure $\nu$ est somme de la famille des mesures $\nu_\alpha = \int \varepsilon_{\pi(t)} g(t) \, d\mu_\alpha(t)$ (§ 3, n° 1, prop. 12). Le raisonnement de A) s’appliquant aux mesures $\mu_\alpha, \nu_\alpha$, la première partie de l’énoncé résulte alors de la prop. 3 du § 2, n° 2.
 
 Pour que la fonction $f$ (resp. $t \mapsto f(\pi(t))g(t)$) soit intégrable pour $\nu$ (resp. pour $\mu$), il faut et il suffit qu’elle soit essentiellement intégrable, et qu’on ait
 

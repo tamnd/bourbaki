@@ -32,7 +32,7 @@ subsections:
       pdf_page: 217
 statements: 23
 exercises: 20
-content_sha256: 30561cfafd43a04bc8339708f13a32de4e5f4653e5d9f7b6910a8e5bfa802234
+content_sha256: 78ba0bd49ab0823a93c596fc4105262a03df9d467b9312a50193311a98a88519
 ---
 
 ## § 6. Inégalités de convexité
@@ -136,7 +136,7 @@ N_\infty(f) \leq \|f\| = \sup_{x \in X} |f(x)|.
 $$
 Pour que l’on ait $N_\infty(f) = \|f\|$ pour toute fonction continue et bornée $f$, il faut et il suffit que le support de la mesure $\mu$ soit égal à $X$. En effet, s’il existe une fonction continue $f$ à support compact négligeable et non identiquement nulle, on a $N_\infty(f) = 0$ et $\|f\| > 0$. Inversement, si le support de $\mu$ est égal à $X$, pour toute fonction continue et bornée $f$ et tout nombre $\alpha < \|f\|$, l’ensemble des $x \in X$ tels que $|f(x)| > \alpha$ est ouvert et non vide, donc de mesure extérieure $> 0$, ce qui montre que $N_\infty(f) = \|f\|$.
 
-Lorsque le support de $\mu$ est égal à $X$, on peut donc identifier l’espace normé $C^b(X; F)$ des fonctions continues et bornées dans $X$, à valeurs dans $F$, avec un sous-espace de l’espace $\mathcal{L}_F^\infty$. Comme $\mathcal{L}_F^\infty$ n’est pas en général séparé, le sous-espace $C^b(X; F)$ n’est pas en général fermé dans $\mathcal{L}_F^\infty$, mais son image canonique dans $L_F^\infty$ est un sous-espace fermé de $L_F^\infty$ (qu’on peut d’ailleurs identifier à $C^b(X; F)$ dans le cas envisagé). En général, $C^b(X; F)$ est distinct de $L_F^\infty$, c’est-à-dire que, pour une fonction mesurable et bornée quelconque $f$, il n’existe pas en général de fonction $g$ continue et égale à $f$ localement presque partout (§ 5, exerc. 12). Cela entraîne que l’espace $\mathscr{K}(X; F)$ des applications de $X$ dans $F$, continues et à support compact, $n’est pas partout dense dans L_F^\infty$ en général, alors qu’il est partout dense dans chacun des espaces $L_F^p$ pour
+Lorsque le support de $\mu$ est égal à $X$, on peut donc identifier l’espace normé $C^b(X; F)$ des fonctions continues et bornées dans $X$, à valeurs dans $F$, avec un sous-espace de l’espace $\mathcal{L}_F^\infty$. Comme $\mathcal{L}_F^\infty$ n’est pas en général séparé, le sous-espace $C^b(X; F)$ n’est pas en général fermé dans $\mathcal{L}_F^\infty$, mais son image canonique dans $L_F^\infty$ est un sous-espace fermé de $L_F^\infty$ (qu’on peut d’ailleurs identifier à $C^b(X; F)$ dans le cas envisagé). En général, $C^b(X; F)$ est distinct de $L_F^\infty$, c’est-à-dire que, pour une fonction mesurable et bornée quelconque $f$, il n’existe pas en général de fonction $g$ continue et égale à $f$ localement presque partout (§ 5, exerc. 12). Cela entraîne que l’espace $\mathcal{K}(X; F)$ des applications de $X$ dans $F$, continues et à support compact, $n’est pas partout dense dans L_F^\infty$ en général, alors qu’il est partout dense dans chacun des espaces $L_F^p$ pour
 $$
 1 \leq p < +\infty
 $$
@@ -301,7 +301,7 @@ On raisonne exactement de la même manière pour démontrer la relation (10), en
 
 #### Remarque 1 {#int-iv-s6-n4-rem-1 .statement}
 
-Soit $\mathcal{E}$ un sous-espace vectoriel partout dense de $\mathcal{L}_{F'}^q$; alors la formule (9) subsiste lorsque $g$ parcourt l’intersection de $\mathcal{E}$ avec l’ensemble $B$ des fonctions de $\mathcal{L}_{F'}^q$, telles que $N_q(g) \leq 1$. Il suffit en effet de remarquer que l’intérieur $\dot{B}$ de $B$ est dense par rapport à $B$, et que $\dot{B} \cap \mathcal{E}$ est dense par rapport à $\dot{B}$, puisque $\dot{B}$ est ouvert. Cette remarque s’applique en particulier à l’ensemble $\mathcal{E} = \mathscr{K}(X; F')$ des fonctions continues à support compact (à valeurs dans $F'$) lorsque $1 \leq q < +\infty$, c’est-à-dire $1 < p \leq +\infty$. Mais dans ce cas, la formule (9) est vraie lorsque $g$ parcourt $B \cap \mathscr{K}(X; F')$, même pour $p = 1$. En effet, on peut comme ci-dessus se borner au cas où $f$ est étagée. On a vu alors que si $N_1(f) = 1$, pour tout $\varepsilon > 0$, il existe une fonction étagée $g \in \mathcal{L}_{F'}^\infty$ telle que $|g(x)| \leq 1$ pour tout $x \in X$ et que $|\int \langle f, g \rangle d\mu| \geq 1 - \varepsilon$. Il existe un nombre fini d’ensembles compacts $K_i$ deux à deux sans point commun, tels que $g$ ait une valeur constante $a'_i$ dans chacun des $K_i$ et que, si $K$ est la réunion des $K_i$, on ait $\int |f| \varphi_{CK} d\mu \leq \varepsilon$. Soit $U_i$ un voisinage de $K_i$ tel que les ensembles $U_i$ soient deux à deux sans point commun, et soit $h_i$ une application continue de $X$ dans $\{0, 1\}$, de support contenu dans $U_i$ et égale à 1 dans $K_i$. Si on pose $h = \sum a'_i h_i$, on a $h(x) = g(x)$ dans $K$ et $|h(x)| \leq 1$ dans $X$, donc
+Soit $\mathcal{E}$ un sous-espace vectoriel partout dense de $\mathcal{L}_{F'}^q$; alors la formule (9) subsiste lorsque $g$ parcourt l’intersection de $\mathcal{E}$ avec l’ensemble $B$ des fonctions de $\mathcal{L}_{F'}^q$, telles que $N_q(g) \leq 1$. Il suffit en effet de remarquer que l’intérieur $\dot{B}$ de $B$ est dense par rapport à $B$, et que $\dot{B} \cap \mathcal{E}$ est dense par rapport à $\dot{B}$, puisque $\dot{B}$ est ouvert. Cette remarque s’applique en particulier à l’ensemble $\mathcal{E} = \mathcal{K}(X; F')$ des fonctions continues à support compact (à valeurs dans $F'$) lorsque $1 \leq q < +\infty$, c’est-à-dire $1 < p \leq +\infty$. Mais dans ce cas, la formule (9) est vraie lorsque $g$ parcourt $B \cap \mathcal{K}(X; F')$, même pour $p = 1$. En effet, on peut comme ci-dessus se borner au cas où $f$ est étagée. On a vu alors que si $N_1(f) = 1$, pour tout $\varepsilon > 0$, il existe une fonction étagée $g \in \mathcal{L}_{F'}^\infty$ telle que $|g(x)| \leq 1$ pour tout $x \in X$ et que $|\int \langle f, g \rangle d\mu| \geq 1 - \varepsilon$. Il existe un nombre fini d’ensembles compacts $K_i$ deux à deux sans point commun, tels que $g$ ait une valeur constante $a'_i$ dans chacun des $K_i$ et que, si $K$ est la réunion des $K_i$, on ait $\int |f| \varphi_{CK} d\mu \leq \varepsilon$. Soit $U_i$ un voisinage de $K_i$ tel que les ensembles $U_i$ soient deux à deux sans point commun, et soit $h_i$ une application continue de $X$ dans $\{0, 1\}$, de support contenu dans $U_i$ et égale à 1 dans $K_i$. Si on pose $h = \sum a'_i h_i$, on a $h(x) = g(x)$ dans $K$ et $|h(x)| \leq 1$ dans $X$, donc
 $$
 \int |\langle f, h \rangle| \varphi_{CK} d\mu \leq \varepsilon
 $$
@@ -313,7 +313,7 @@ Soient $\mu$ une mesure positive sur $X$, $f$ une fonction mesurable $\geq 0$ (f
 $$
 N_p(f) = \sup \int^* |f g| d\mu
 $$
-lorsque $g$ parcourt l’ensemble des fonctions de $\mathscr{K}(X; \mathbf{R})$ telles que
+lorsque $g$ parcourt l’ensemble des fonctions de $\mathcal{K}(X; \mathbf{R})$ telles que
 
 N_q(g) \leq 1. En effet, la formule (11) est un cas particulier de (9) lorsque N_p(f) < +\infty, puisque alors f est équivalente à une fonction de $\mathcal{L}^p$ (§ 5, n° 6, th. 5). Si N_p(f) = +\infty, posons, pour tout entier n > 0, $f_n = \inf(n, f \varphi_{K_n})$. On a
 

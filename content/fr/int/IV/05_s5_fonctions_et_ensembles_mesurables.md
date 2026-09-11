@@ -60,7 +60,7 @@ subsections:
       pdf_page: 204
 statements: 81
 exercises: 30
-content_sha256: 34b63f1e767b60add3ef54429841cd902d1e40134f1f160ad4e20526aedd9fbd
+content_sha256: 6bdd095286c47d4811268ccb4b6ba9aa2c24f0c091a64fbb36dbabb250f104a1
 ---
 
 ## § 5. Fonctions et ensembles mesurables
@@ -670,7 +670,7 @@ La topologie correspondante est dite topologie de la convergence en mesure dans 
 
 Supposons F séparé; alors, pour tout ensemble $\mu$-intégrable $B \subset A$, l’intersection des entourages $W(V, B, \delta)$, où V parcourt un système fondamental d’entourages de F et $\delta$ parcourt l’ensemble des nombres > 0, est l’ensemble des couples $(f, g)$ tels que $f(x) = g(x)$ presque partout (pour $\mu$) dans B. En effet, l’ensemble M des $x \in B$ tels que $f(x) \neq g(x)$ est $\mu$-intégrable, puisque c’est l’image réciproque par l’application $\mu$-mesurable $x \mapsto (f(x), g(x))$ du complémentaire de la diagonale dans $F \times F$, qui est ouvert (n° 5, prop. 7); si $|\mu|(M) = \alpha > 0$, il existe une partie compacte $K \subset M$ telle que $|\mu|(M - K) < \alpha/2$ et que les restrictions de $f$ et $g$ à $K$ soient continues; il y a donc un entourage $V_0$ de $F$ tel que $(f(x), g(x)) \notin V_0$ pour tout $x \in K$, et par suite, on a $(f, g) \notin W(V_0, B, \alpha/2)$.
 
-On en conclut que, lorsque $F$ est séparé, l’intersection de tous les entourages de $\mathscr{S}(A, \mu; F)$ est l’ensemble des couples $(f, g)$ tels que $f(x) = g(x)$ localement presque partout dans $A$. L’espace uniforme séparé associé à $\mathscr{S}(A, \mu; F)$, que nous noterons $S(A, \mu; F)$ ou $S_F(A, \mu)$ (ou même $S_F(\mu)$ ou $S_F$ lorsque $A = X$) est donc formé des classes d’équivalence pour la relation «$f(x) = g(x)$ localement presque partout dans $A$ » dans l’ensemble $\mathscr{S}(A, \mu; F)$.
+On en conclut que, lorsque $F$ est séparé, l’intersection de tous les entourages de $\mathcal{S}(A, \mu; F)$ est l’ensemble des couples $(f, g)$ tels que $f(x) = g(x)$ localement presque partout dans $A$. L’espace uniforme séparé associé à $\mathcal{S}(A, \mu; F)$, que nous noterons $S(A, \mu; F)$ ou $S_F(A, \mu)$ (ou même $S_F(\mu)$ ou $S_F$ lorsque $A = X$) est donc formé des classes d’équivalence pour la relation «$f(x) = g(x)$ localement presque partout dans $A$ » dans l’ensemble $\mathcal{S}(A, \mu; F)$.
 
 #### Proposition 17 {#int-iv-s5-prop-17 .statement}
 
@@ -813,11 +813,11 @@ Soient $X$ un espace localement compact, $\mu$ une mesure positive bornée sur $
 
 (i) L’ensemble des points de discontinuité de $f$ est $\mu$-négligeable.
 
-(ii) Pour tout $\varepsilon > 0$, il existe des éléments $a_1, \ldots, a_n$ de $F$, des fonctions $g_1, \ldots, g_n$ appartenant à $\mathscr{H}(X)$, et une fonction $h \geq 0$ continue bornée sur $X$, tels que $|f - g_1 a_1 - \cdots - g_n a_n| \leq h \leq 2 \sup |f|$ partout sur $X$, et $\int h \, d\mu \leq \varepsilon$.
+(ii) Pour tout $\varepsilon > 0$, il existe des éléments $a_1, \ldots, a_n$ de $F$, des fonctions $g_1, \ldots, g_n$ appartenant à $\mathcal{H}(X)$, et une fonction $h \geq 0$ continue bornée sur $X$, tels que $|f - g_1 a_1 - \cdots - g_n a_n| \leq h \leq 2 \sup |f|$ partout sur $X$, et $\int h \, d\mu \leq \varepsilon$.
 
 Nous noterons N l’ensemble des points de discontinuité de f, et nous poserons M = sup |f|.
 
-(i) ⇒ (ii). Supposons la condition (i) satisfaite. Soit ε > 0. La fonction f est μ-intégrable (n° 2, cor. 4 de la prop. 5 et n° 6, th. 5), donc il existe a_1, ..., a_n dans F, g_1, ..., g_n dans $\mathscr{K}(X)$ tels que, posant $k = |f - g_1 a_1 - ... - g_n a_n|$, on ait $\int k\ d\mu \leq \varepsilon/2$ (§ 3, n° 5, prop. 10). En multipliant g_1, ..., g_n par un même élément convenable de $\mathscr{K}(X)$, on peut en outre supposer que
+(i) ⇒ (ii). Supposons la condition (i) satisfaite. Soit ε > 0. La fonction f est μ-intégrable (n° 2, cor. 4 de la prop. 5 et n° 6, th. 5), donc il existe a_1, ..., a_n dans F, g_1, ..., g_n dans $\mathcal{K}(X)$ tels que, posant $k = |f - g_1 a_1 - ... - g_n a_n|$, on ait $\int k\ d\mu \leq \varepsilon/2$ (§ 3, n° 5, prop. 10). En multipliant g_1, ..., g_n par un même élément convenable de $\mathcal{K}(X)$, on peut en outre supposer que
 $$
 |g_1 a_1 + ... + g_n a_n| \leq |f|
 $$
@@ -827,13 +827,13 @@ sur X, d’où $k \leq 2M$. L’ensemble N’ des points de discontinuité de k 
 
 #### Proposition 22 {#int-iv-s5-prop-22 .statement}
 
-Soient F un espace de Banach, X un espace localement compact, $\mathscr{E}$ l’ensemble des mesures positives bornées sur X, $\mu$ un élément de $\mathscr{E}$, $\mathcal{B}$ une base de filtre sur $\mathscr{E}$. On suppose que $\mathcal{B}$ converge vaguement vers $\mu$ et que $\|v\|$ tend vers $\|\mu\|$ suivant $\mathcal{B}$. Soit f une application de X dans F vérifiant les conditions suivantes:
+Soient F un espace de Banach, X un espace localement compact, $\mathcal{E}$ l’ensemble des mesures positives bornées sur X, $\mu$ un élément de $\mathcal{E}$, $\mathcal{B}$ une base de filtre sur $\mathcal{E}$. On suppose que $\mathcal{B}$ converge vaguement vers $\mu$ et que $\|v\|$ tend vers $\|\mu\|$ suivant $\mathcal{B}$. Soit f une application de X dans F vérifiant les conditions suivantes:
 (i) f est bornée, intégrable pour $\mu$ et pour toute mesure appartenant à un élément de $\mathcal{B}$;
 (ii) l’ensemble des points de discontinuité de f est $\mu$-négligeable.
 
 Alors $\int f\ dv$ tend vers $\int f\ d\mu$ suivant $\mathcal{B}$.
 
-Soit $\varepsilon > 0$. Il existe des éléments a_1, ..., a_n de F, des fonctions g_1, ..., g_n de $\mathscr{K}(X)$, et une fonction h $\geq 0$ continue bornée sur X, tels que $|f - g_1 a_1 - ... - g_n a_n| \leq h \leq 2 \sup |f|$ sur X et $\int h\ d\mu \leq \varepsilon$ (lemme 5). Soit M = sup|f|. Il existe une partie compacte K de X telle que $\mu^*(X - K) \leq \varepsilon$ (§ 4, n° 7, prop. 12, et n° 6, th. 4), un voisinage compact K' de K dans X, et une application continue h' de X dans [0, 2M] tels que h' = h sur K, h' = 2M sur X - K'; en remplaçant h par sup(h, h'), on peut supposer en outre que h' majore h. On a $\int (h' - h) d\mu \leq 2M \mu^*(X - K) \leq 2M \varepsilon$. D’autre part, $h' = h_1 + 2M$, où $h_1 \in \mathcal{K}(X)$. Compte tenu du § 4, n° 7, prop. 12, le nombre $\int h' dv = \int h_1 dv + 2M \|v\|$ tend suivant $\mathcal{B}$ vers
+Soit $\varepsilon > 0$. Il existe des éléments a_1, ..., a_n de F, des fonctions g_1, ..., g_n de $\mathcal{K}(X)$, et une fonction h $\geq 0$ continue bornée sur X, tels que $|f - g_1 a_1 - ... - g_n a_n| \leq h \leq 2 \sup |f|$ sur X et $\int h\ d\mu \leq \varepsilon$ (lemme 5). Soit M = sup|f|. Il existe une partie compacte K de X telle que $\mu^*(X - K) \leq \varepsilon$ (§ 4, n° 7, prop. 12, et n° 6, th. 4), un voisinage compact K' de K dans X, et une application continue h' de X dans [0, 2M] tels que h' = h sur K, h' = 2M sur X - K'; en remplaçant h par sup(h, h'), on peut supposer en outre que h' majore h. On a $\int (h' - h) d\mu \leq 2M \mu^*(X - K) \leq 2M \varepsilon$. D’autre part, $h' = h_1 + 2M$, où $h_1 \in \mathcal{K}(X)$. Compte tenu du § 4, n° 7, prop. 12, le nombre $\int h' dv = \int h_1 dv + 2M \|v\|$ tend suivant $\mathcal{B}$ vers
 
 $$
 \int h_1 d\mu + 2M \|\mu\| = \int h' d\mu.

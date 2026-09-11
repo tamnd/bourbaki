@@ -57,7 +57,7 @@ subsections:
       pdf_page: 279
 statements: 33
 exercises: 1
-content_sha256: 077b96d14b458885be002a0ac52b3b781f4d62aa95beaa4584507c426a327623
+content_sha256: af3d3a4a2c7550e173843161f890afe06b0ee09104498dbfffc394315b766082
 ---
 
 ## § 6. PROMEASURES AND MEASURES ON A LOCALLY CONVEX SPACE
@@ -74,21 +74,21 @@ It can be shown that the inverse limit of the inverse system $\mathcal{Q}(E)$ is
 
 *Let $E$ be a locally convex space. One calls promeasure on $E$ every inverse system$^{(1)}$ of measures (§ 4, No. 2, Def. 1) on the inverse system of finite-dimensional quotients of $E$.*
 
-In other words, a promeasure $\mu$ on $E$ is a family $(\mu_V)_{V \in \mathscr{F}(E)}$, where $\mu_V$ is a bounded (positive) measure on the finite-dimensional space $E/V$, and where $\mu_V = p_{VW}(\mu_W)$ when $V \supset W$. All of the measures $\mu_V$ have the same total mass, which is called the *total mass* of the promeasure $\mu$.
+In other words, a promeasure $\mu$ on $E$ is a family $(\mu_V)_{V \in \mathcal{F}(E)}$, where $\mu_V$ is a bounded (positive) measure on the finite-dimensional space $E/V$, and where $\mu_V = p_{VW}(\mu_W)$ when $V \supset W$. All of the measures $\mu_V$ have the same total mass, which is called the *total mass* of the promeasure $\mu$.
 
-For a subspace $V$ of $E$ to belong to $\mathscr{F}(E)$, it is necessary and sufficient that there exist a finite number of elements $x'_1, \ldots, x'_n$ of $E'$ such that $V$ consists of the $x \in E$ satisfying $\langle x, x'_i \rangle = 0$ for $1 \leq i \leq n$ (TVS, II, § 6, No. 3, Cor. 2 of Th. 1 and No. 5, Cor. 2 of Prop. 7). Moreover, on a finite-dimensional vector space there exists one and only one Hausdorff topological vector space topology (TVS, I, § 2, No. 3, Th. 2). Consequently, the concept of promeasure on $E$ depends only on the dual $E'$ of $E$.
+For a subspace $V$ of $E$ to belong to $\mathcal{F}(E)$, it is necessary and sufficient that there exist a finite number of elements $x'_1, \ldots, x'_n$ of $E'$ such that $V$ consists of the $x \in E$ satisfying $\langle x, x'_i \rangle = 0$ for $1 \leq i \leq n$ (TVS, II, § 6, No. 3, Cor. 2 of Th. 1 and No. 5, Cor. 2 of Prop. 7). Moreover, on a finite-dimensional vector space there exists one and only one Hausdorff topological vector space topology (TVS, I, § 2, No. 3, Th. 2). Consequently, the concept of promeasure on $E$ depends only on the dual $E'$ of $E$.
 
-Let $\lambda$ be a bounded measure on $E$. For every $V \in \mathscr{F}(E)$, let us denote by $\widetilde{\lambda}_V$ the image of $\lambda$ under the canonical mapping $p_V$ of $E$ onto $E/V$. One has $p_V = p_{VW} \circ p_W$ for any two elements $V$ and $W$ of $\mathscr{F}(E)$ such that $V \supset W$; consequently, the family $\widetilde{\lambda} = (\widetilde{\lambda}_V)_{V \in \mathscr{F}(E)}$ is a promeasure on $E$. We shall say that $\widetilde{\lambda}$ is the promeasure *associated* with the measure $\lambda$. One sees immediately that $\lambda$ and $\widetilde{\lambda}$ have the same total mass.
+Let $\lambda$ be a bounded measure on $E$. For every $V \in \mathcal{F}(E)$, let us denote by $\widetilde{\lambda}_V$ the image of $\lambda$ under the canonical mapping $p_V$ of $E$ onto $E/V$. One has $p_V = p_{VW} \circ p_W$ for any two elements $V$ and $W$ of $\mathcal{F}(E)$ such that $V \supset W$; consequently, the family $\widetilde{\lambda} = (\widetilde{\lambda}_V)_{V \in \mathcal{F}(E)}$ is a promeasure on $E$. We shall say that $\widetilde{\lambda}$ is the promeasure *associated* with the measure $\lambda$. One sees immediately that $\lambda$ and $\widetilde{\lambda}$ have the same total mass.
 
 #### Proposition 1 {#int-ix-s6-prop-1 .statement}
 
-*Let $E$ be a locally convex space. The mapping $\lambda \mapsto \widetilde{\lambda}$ is a bijection of the set of bounded measures on $E$ onto the set of promeasures $(\mu_V)_{V \in \mathscr{F}(E)}$ on $E$ satisfying the following condition:
+*Let $E$ be a locally convex space. The mapping $\lambda \mapsto \widetilde{\lambda}$ is a bijection of the set of bounded measures on $E$ onto the set of promeasures $(\mu_V)_{V \in \mathcal{F}(E)}$ on $E$ satisfying the following condition:
 
-For every $\varepsilon > 0$, there exists a compact subset $K$ of $E$ such that $\mu_V(E/V - p_V(K)) \leq \varepsilon$ for all $V \in \mathscr{F}(E)$.*
+For every $\varepsilon > 0$, there exists a compact subset $K$ of $E$ such that $\mu_V(E/V - p_V(K)) \leq \varepsilon$ for all $V \in \mathcal{F}(E)$.*
 
-One knows that the intersection of the kernels of the continuous linear forms on $E$ is equal to 0 (TVS, II, § 4, No. 1, Cor. 1 of Prop. 2); consequently $\bigcap_{V \in \mathscr{F}(E)} V = \{0\}$ and the family $(p_V)_{V \in \mathscr{F}(E)}$ is coherent and separating. The proposition then follows from Th. 1 of § 4, No. 2.
+One knows that the intersection of the kernels of the continuous linear forms on $E$ is equal to 0 (TVS, II, § 4, No. 1, Cor. 1 of Prop. 2); consequently $\bigcap_{V \in \mathcal{F}(E)} V = \{0\}$ and the family $(p_V)_{V \in \mathcal{F}(E)}$ is coherent and separating. The proposition then follows from Th. 1 of § 4, No. 2.
 
-In particular, the mapping $\lambda \mapsto \widetilde{\lambda}$ is injective. If $\mu$ is a promeasure on $E$, and if there exists a bounded measure $\lambda$ on $E$ such that $\mu = \widetilde{\lambda}$, we shall say, by an abuse of language, that $\mu$ is a measure. If $E$ is finite-dimensional, every promeasure $\mu = (\mu_V)_{V \in \mathscr{F}(E)}$ is a measure: for, $\{0\} \in \mathscr{F}(E)$, $E/\{0\} = E$ and $p_{V,\{0\}} = p_V$, whence $\mu_V = p_V(\mu_{\{0\}})$ for all $V \in \mathscr{F}(E)$; in other words, $\mu = \widetilde{\lambda}$ with $\lambda = \mu_{\{0\}}$.
+In particular, the mapping $\lambda \mapsto \widetilde{\lambda}$ is injective. If $\mu$ is a promeasure on $E$, and if there exists a bounded measure $\lambda$ on $E$ such that $\mu = \widetilde{\lambda}$, we shall say, by an abuse of language, that $\mu$ is a measure. If $E$ is finite-dimensional, every promeasure $\mu = (\mu_V)_{V \in \mathcal{F}(E)}$ is a measure: for, $\{0\} \in \mathcal{F}(E)$, $E/\{0\} = E$ and $p_{V,\{0\}} = p_V$, whence $\mu_V = p_V(\mu_{\{0\}})$ for all $V \in \mathcal{F}(E)$; in other words, $\mu = \widetilde{\lambda}$ with $\lambda = \mu_{\{0\}}$.
 
 (1) Also called a 'projective system'.
 
@@ -165,7 +165,7 @@ $$
 (\mathcal{F}\mu)(x') = \int_{E'/V} e^{i\langle x, x' \rangle} d\mu_V(x)
 $$
 
-for all $x' \in V^\circ$. One has $E' = \bigcup_{V \in \mathscr{F}(E)} V^\circ$, so that the preceding formula characterizes the function $\mathcal{F}\mu$ on $E'$. Finally, if one sets $x' = 0$ in (5), one sees that the total mass of $\mu$ is equal to $(\mathcal{F}\mu)(0)$.
+for all $x' \in V^\circ$. One has $E' = \bigcup_{V \in \mathcal{F}(E)} V^\circ$, so that the preceding formula characterizes the function $\mathcal{F}\mu$ on $E'$. Finally, if one sets $x' = 0$ in (5), one sees that the total mass of $\mu$ is equal to $(\mathcal{F}\mu)(0)$.
 
 #### Proposition 3 {#int-ix-s6-prop-3 .statement}
 
@@ -179,9 +179,9 @@ $$
 
 for every linear form $y$ on $\mathbf{R}^n$, then $\mu = 0$.
 
-For every integer $m \geqslant 0$, let $G_m$ be the subgroup $m \cdot \mathbf{Z}^n$ of $\mathbf{R}^n$. Denote by $\mathscr{C}_m$ the vector space of continuous functions $f$ on $\mathbf{R}^n$ such that $f(x + a) = f(x)$ for $x \in \mathbf{R}^n$ and $a \in G_m$. By Prop. 8 of GT, X, §4, No. 4, every function in $\mathscr{C}_m$ is the uniform limit of finite linear combinations of functions of the type $x \mapsto e^{2\pi i \langle x, q \rangle}$ with $q \in m^{-1} \cdot \mathbf{Z}^n$. Therefore $\mu(f) = 0$ for every function $f \in \mathscr{C}_m$.
+For every integer $m \geqslant 0$, let $G_m$ be the subgroup $m \cdot \mathbf{Z}^n$ of $\mathbf{R}^n$. Denote by $\mathcal{C}_m$ the vector space of continuous functions $f$ on $\mathbf{R}^n$ such that $f(x + a) = f(x)$ for $x \in \mathbf{R}^n$ and $a \in G_m$. By Prop. 8 of GT, X, §4, No. 4, every function in $\mathcal{C}_m$ is the uniform limit of finite linear combinations of functions of the type $x \mapsto e^{2\pi i \langle x, q \rangle}$ with $q \in m^{-1} \cdot \mathbf{Z}^n$. Therefore $\mu(f) = 0$ for every function $f \in \mathcal{C}_m$.
 
-Let $f$ be a continuous function on $\mathbf{R}^n$ with compact support. For every integer $m \geqslant 0$, set $f_m(x) = \sum_{q \in G_m} f(x + q)$. It is immediate that for every $x \in \mathbf{R}^n$, the preceding series has only finitely many terms, and that $f_m$ belongs to $\mathscr{C}_m$. Moreover, it is easy to see that the sequence $(f_m)$ tends to $f$ uniformly on every compact set, and that there exists a constant $C \geqslant 0$ such that $|f_m| \leqslant C$ for all $m$. Consequently, $\mu(f) = \lim_{m \to \infty} \mu(f_m)$ by Prop. 12 of §5, No. 6. Since $f_m \in \mathscr{C}_m$, we have $\mu(f_m) = 0$, whence finally $\mu(f) = 0$. Thus $\mu = 0$.
+Let $f$ be a continuous function on $\mathbf{R}^n$ with compact support. For every integer $m \geqslant 0$, set $f_m(x) = \sum_{q \in G_m} f(x + q)$. It is immediate that for every $x \in \mathbf{R}^n$, the preceding series has only finitely many terms, and that $f_m$ belongs to $\mathcal{C}_m$. Moreover, it is easy to see that the sequence $(f_m)$ tends to $f$ uniformly on every compact set, and that there exists a constant $C \geqslant 0$ such that $|f_m| \leqslant C$ for all $m$. Consequently, $\mu(f) = \lim_{m \to \infty} \mu(f_m)$ by Prop. 12 of §5, No. 6. Since $f_m \in \mathcal{C}_m$, we have $\mu(f_m) = 0$, whence finally $\mu(f) = 0$. Thus $\mu = 0$.
 
 #### Remark {#int-ix-s6-n3-rem-1 .statement}
 
@@ -1005,7 +1005,7 @@ Necessity follows from Prop. 9 of No. 8 and sufficiency from Th. 2.
 
 ### 11. Measures on a Hilbert space
 
-Let E be a real Hilbert space, in which the scalar product is denoted $(x|y)$. There exists an isomorphism j of E onto its dual $E'$, characterized by the formula $\langle x, j(y) \rangle = (x|y)$ for $x, y$ in E (TVS, V, §1, No. 7, Th. 3). We will identify E and $E'$ by means of j. The Fourier transform of a promeasure $\mu$ on E is therefore a function $\mathscr{F}\mu$ on E; when $\mu$ is a measure, we have
+Let E be a real Hilbert space, in which the scalar product is denoted $(x|y)$. There exists an isomorphism j of E onto its dual $E'$, characterized by the formula $\langle x, j(y) \rangle = (x|y)$ for $x, y$ in E (TVS, V, §1, No. 7, Th. 3). We will identify E and $E'$ by means of j. The Fourier transform of a promeasure $\mu$ on E is therefore a function $\mathcal{F}\mu$ on E; when $\mu$ is a measure, we have
 
 $$(64)$$
 $$(\mathcal{F}\mu)(x) = \int_{E} e^{i(x|y)} d\mu(y) \quad (x \in E).$$
@@ -1061,7 +1061,7 @@ Q.E.D.
 
 — *Let $E_1$ and $E_2$ be two Hilbert spaces, $u$ a Hilbert–Schmidt mapping of $E_1$ into $E_2$, and $\mu$ a promeasure on $E_1$. Assume that the Fourier transform $\Phi$ of $\mu$ is continuous on $E_1$. Then the promeasure $\nu = u(\mu)$ is a measure on $E_2$ equipped with the weak topology.*
 
-With the identifications of $E_1$ and $E_2$ with their duals introduced in this No., the Fourier transform of $\nu$ is equal to $\Phi \circ u^*$, where $u^*$ is the adjoint of $u$. Now, $u^*$ is a Hilbert–Schmidt mapping of $E_2$ into $E_1$ (Annex, No. 2), and the quadratic form $y \mapsto \|u^*(y)\|^2$ on $E_2$ is therefore nuclear. If $(E_2)_\mathscr{S}$ denotes $E_2$ equipped with the Sazonov topology, $u^*$ is therefore a continuous linear mapping of $(E_2)_\mathscr{S}$ into $E_1$, and $\mathcal{F}_V = \Phi \circ u^*$ is continuous on $(E_2)_\mathscr{S}$; Theorem 3 then shows that $\nu$ is a measure on the space $E_2$ equipped with the weak topology.
+With the identifications of $E_1$ and $E_2$ with their duals introduced in this No., the Fourier transform of $\nu$ is equal to $\Phi \circ u^*$, where $u^*$ is the adjoint of $u$. Now, $u^*$ is a Hilbert–Schmidt mapping of $E_2$ into $E_1$ (Annex, No. 2), and the quadratic form $y \mapsto \|u^*(y)\|^2$ on $E_2$ is therefore nuclear. If $(E_2)_\mathcal{S}$ denotes $E_2$ equipped with the Sazonov topology, $u^*$ is therefore a continuous linear mapping of $(E_2)_\mathcal{S}$ into $E_1$, and $\mathcal{F}_V = \Phi \circ u^*$ is continuous on $(E_2)_\mathcal{S}$; Theorem 3 then shows that $\nu$ is a measure on the space $E_2$ equipped with the weak topology.
 
 #### Corollary 2 {#int-ix-s6-thm-2-cor-2 .statement}
 
@@ -1122,7 +1122,7 @@ $$
 
 (*) This question will be studied in a forthcoming chapter of the Book *Théories spectrales*. The reader may consult for this subject the book of L.H. LOOMIS, *Abstract harmonic analysis*, Van Nostrand, New York, 1953.
 
-whence $pvw(\mu_w) = \mu_v$ by Prop. 3 of No. 3. Consequently, the family $\mu = (\mu_v)_{v \in \mathscr{F}(E)}$ is a promeasure on $E$; it is clear that $\Phi$ is the Fourier transform of $\mu$.
+whence $pvw(\mu_w) = \mu_v$ by Prop. 3 of No. 3. Consequently, the family $\mu = (\mu_v)_{v \in \mathcal{F}(E)}$ is a promeasure on $E$; it is clear that $\Phi$ is the Fourier transform of $\mu$.
 
 #### Corollary {#int-ix-s6-n11-cor-1 .statement}
 

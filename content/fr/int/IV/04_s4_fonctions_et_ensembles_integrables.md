@@ -56,7 +56,7 @@ subsections:
       pdf_page: 167
 statements: 62
 exercises: 3
-content_sha256: 3fcd4a66927194632d9fb1ddf6dc957e482b924a4f4a3e17d94933d48c0000ac
+content_sha256: 2bf015cef8413c98fa143b37c0b590a25fc09fb58b95fb620e54f9673e895e9a
 ---
 
 ## § 4. Fonctions et ensembles intégrables
@@ -83,7 +83,7 @@ $$
 \int f d\mu = \sum_{x \in X} \alpha(x)f(x).
 $$
 
-En effet, soit $f \in \mathcal{F}_F^1$; on a $|\mu|^*(|f|) = \sum_{x \in X} |\alpha(x)| \cdot |f(x)| < +\infty$ ($§ 1$, n° 3, Exemple); pour tout $\varepsilon > 0$, il existe une partie finie M de X telle que $\sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon$. La fonction g égale à f aux points $x \in M$ où f est finie, à 0 ailleurs, appartient à $\mathscr{K}(X; F)$ et l’on a, en vertu des conventions faites, $|\mu|^*(|f - g|) \leq \sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon$, ce qui prouve que $f \in \mathcal{L}_F^1$. D’autre part
+En effet, soit $f \in \mathcal{F}_F^1$; on a $|\mu|^*(|f|) = \sum_{x \in X} |\alpha(x)| \cdot |f(x)| < +\infty$ ($§ 1$, n° 3, Exemple); pour tout $\varepsilon > 0$, il existe une partie finie M de X telle que $\sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon$. La fonction g égale à f aux points $x \in M$ où f est finie, à 0 ailleurs, appartient à $\mathcal{K}(X; F)$ et l’on a, en vertu des conventions faites, $|\mu|^*(|f - g|) \leq \sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon$, ce qui prouve que $f \in \mathcal{L}_F^1$. D’autre part
 
 $$
 |\mu(g) - \sum_{x \in X} \alpha(x)f(x)| \leq \sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon
@@ -255,7 +255,7 @@ on peut leur appliquer ce qui a été démontré ci-dessus; si $g'$ est l’enve
 
 Soit $f$ une fonction numérique bornée, semi-continue supérieurement dans $X$ et à support compact. Alors l’application $\mu \mapsto \int f d\mu$ est semi-continue supérieurement dans $\mathcal{M}_+(X)$ pour la topologie vague.
 
-Si $h$ est une fonction de $\mathscr{K}_+(X)$ telle que $|f| \leqslant h$ (chap. III, § 1, n° 2, lemme 1), on a $0 \leqslant f + h \leqslant 2h$, et comme $f + h$ est semi-continue supérieurement, il résulte du cor. 1 que $f$ est $\mu$-intégrable pour toute mesure $\mu$ sur $X$. En outre, on a $\mu(f) = \mu(h) - \mu(h - f)$ et $h - f$ est une fonction semi-continue inférieurement et $\geqslant 0$. Comme l’application $\mu \mapsto \mu(h - f)$ est semi-continue inférieurement dans $\mathcal{M}_+(X)$ pour la topologie vague (§ 1, n° 1, prop. 4), cela démontre le corollaire.
+Si $h$ est une fonction de $\mathcal{K}_+(X)$ telle que $|f| \leqslant h$ (chap. III, § 1, n° 2, lemme 1), on a $0 \leqslant f + h \leqslant 2h$, et comme $f + h$ est semi-continue supérieurement, il résulte du cor. 1 que $f$ est $\mu$-intégrable pour toute mesure $\mu$ sur $X$. En outre, on a $\mu(f) = \mu(h) - \mu(h - f)$ et $h - f$ est une fonction semi-continue inférieurement et $\geqslant 0$. Comme l’application $\mu \mapsto \mu(h - f)$ est semi-continue inférieurement dans $\mathcal{M}_+(X)$ pour la topologie vague (§ 1, n° 1, prop. 4), cela démontre le corollaire.
 
 #### Théorème 3 {#int-iv-s4-thm-3 .statement}
 
@@ -620,7 +620,7 @@ Tout clan $\Phi$ de parties de $A$ contient la partie vide $\emptyset$ de $A$; e
 
 Etant donné un clan $\Phi$ de parties d’un ensemble $A$, et un espace de Banach $F$, on appelle fonction étagée sur les ensembles de $\Phi$ (ou fonction $\Phi$-étagée), à valeurs dans $F$, toute fonction de la forme $\sum_i a_i \varphi_{M_i}$, où les $a_i$ appartiennent à $F$, et les $M_i$ à $\Phi$.
 
-Il est clair que l’ensemble $\mathscr{E}_F(\Phi)$ des fonctions $\Phi$-étagées à valeurs dans $F$, est un espace vectoriel sur $\mathbf{R}$ ou $\mathbf{C}$. Nous venons de voir dans la prop. 17 que l’ensemble $\mathscr{E}(\Phi)$ des fonctions numériques finies $\Phi$-étagées est une algèbre sur $\mathbf{R}$; c’est aussi le sous-espace vectoriel de $\mathbf{R}^A$ engendré par les fonctions caractéristiques des ensembles de $\Phi$.
+Il est clair que l’ensemble $\mathcal{E}_F(\Phi)$ des fonctions $\Phi$-étagées à valeurs dans $F$, est un espace vectoriel sur $\mathbf{R}$ ou $\mathbf{C}$. Nous venons de voir dans la prop. 17 que l’ensemble $\mathcal{E}(\Phi)$ des fonctions numériques finies $\Phi$-étagées est une algèbre sur $\mathbf{R}$; c’est aussi le sous-espace vectoriel de $\mathbf{R}^A$ engendré par les fonctions caractéristiques des ensembles de $\Phi$.
 
 Toute fonction de $\mathcal{E}_F(\Phi)$ peut s’écrire $f = \sum_j c_j \varphi_{N_j}$, où les $N_j \in \Phi$ sont deux à deux sans point commun, en raison du lemme 1 ; on en déduit que $|f| = \sum_j |c_j| \varphi_{N_j}$ appartient à $\mathcal{E}(\Phi)$. En particulier, $\mathcal{E}(\Phi)$ est un espace de Riesz, l’enveloppe supérieure de deux fonctions de $\mathcal{E}(\Phi)$ appartenant à $\mathcal{E}(\Phi)$.
 
@@ -669,7 +669,7 @@ En effet, l’ensemble $\mathcal{A}$ des combinaisons linéaires considérées e
 #### Corollaire 3 {#int-iv-s4-prop-19-cor-3 .statement}
 
 *Si $\mu$ et $\nu$ sont deux mesures sur $X$ telles que $\mu(K) = \nu(K)$ pour toute partie compacte $K$ de $X$, on a $\mu = \nu$.*
-En effet, il résulte du cor. 2 et de la définition d’une mesure que pour toute partie compacte $S$ de $X$, $\mu$ et $\nu$ prennent les mêmes valeurs dans $\mathscr{K}(X, S ; \mathbf{C})$.
+En effet, il résulte du cor. 2 et de la définition d’une mesure que pour toute partie compacte $S$ de $X$, $\mu$ et $\nu$ prennent les mêmes valeurs dans $\mathcal{K}(X, S ; \mathbf{C})$.
 
 ### 11. Prolongement d’une mesure définie sur une famille d’ensembles
 

@@ -52,7 +52,7 @@ subsections:
       pdf_page: 66
 statements: 41
 exercises: 18
-content_sha256: 5d6059f687d8ca197784189c7228d940f1312201561561d8b1f9b85870d65ae8
+content_sha256: cd2d0c573143a068da340706aca353e74c8455d65790c5e23c16c5b7f3381ea0
 translated_from: content/en/int/III/01_s1_measures_on_a_locally_compact_space.md
 source_content_sha256: 7a621ccaf41aa9696a8e26acf7ca61fbadd6582267dd5d90d4a9b8e5b4e6599f
 translation_model: gpt-5.4, gpt-5-6-mini, gpt-5-6
@@ -162,7 +162,7 @@ Cho $X$ là một không gian compact địa phương; với mỗi không gian B
 $$
 ||f|| = \sup_{x \in X} ||f(x)||.
 $$
-Hơn nữa, không gian định chuẩn được xác định như vậy là một không gian Banach (GT, X, §3, No. 2, và No. 1, Hệ quả 2 của Mệnh đề 2); tôpô được xác định bởi chuẩn này trên $\mathscr{K}(X; E)$ (nói cách khác, tôpô hội tụ đều trong $X$) thô hơn tôpô giới hạn trực tiếp trên $\mathscr{K}(X; E)$ được xác định trong No. 1.
+Hơn nữa, không gian định chuẩn được xác định như vậy là một không gian Banach (GT, X, §3, No. 2, và No. 1, Hệ quả 2 của Mệnh đề 2); tôpô được xác định bởi chuẩn này trên $\mathcal{K}(X; E)$ (nói cách khác, tôpô hội tụ đều trong $X$) thô hơn tôpô giới hạn trực tiếp trên $\mathcal{K}(X; E)$ được xác định trong No. 1.
 
 #### Mệnh đề 3 {#int-iii-s1-prop-3 .statement}
 
@@ -222,21 +222,21 @@ $$
 
 Ta ký hiệu bởi $\mathcal{M}(X; \mathbf{C})$, hoặc đơn giản là $\mathcal{M}(X)$ nếu không thể gây nhầm lẫn, không gian vectơ các độ đo trên $X$, nói cách khác, *đối ngẫu* của $\mathcal{K}(X; \mathbf{C})$.
 
-Ta biết rằng với mọi tập hợp $\mathscr{S}$ các tập con *bị chặn* của $\mathscr{K}(X;\mathbf{C})$, có xác định trên $\mathscr{M}(X;\mathbf{C})$ tôpô $\mathscr{S}$, tôpô này lồi địa phương (TVS, III, §3, No. 1, Hệ quả của Mệnh đề 1). Ta ký hiệu không gian vectơ tôpô thu được bằng cách trang bị cho $\mathscr{M}(X;\mathbf{C})$ tôpô $\mathscr{S}$ bởi $\mathscr{M}_{\mathscr{S}}(X;\mathbf{C})$ hoặc $\mathscr{M}_{\mathscr{S}}(X)$.
+Ta biết rằng với mọi tập hợp $\mathcal{S}$ các tập con *bị chặn* của $\mathcal{K}(X;\mathbf{C})$, có xác định trên $\mathcal{M}(X;\mathbf{C})$ tôpô $\mathcal{S}$, tôpô này lồi địa phương (TVS, III, §3, No. 1, Hệ quả của Mệnh đề 1). Ta ký hiệu không gian vectơ tôpô thu được bằng cách trang bị cho $\mathcal{M}(X;\mathbf{C})$ tôpô $\mathcal{S}$ bởi $\mathcal{M}_{\mathcal{S}}(X;\mathbf{C})$ hoặc $\mathcal{M}_{\mathcal{S}}(X)$.
 
 #### Mệnh đề 7 {#int-iii-s1-prop-7 .statement}
 
-*Với mọi tập hợp $\mathscr{S}$ các tập con bị chặn của $\mathscr{K}(X;\mathbf{C})$ là một phủ của $\mathscr{K}(X;\mathbf{C})$, không gian $\mathscr{M}_{\mathscr{S}}(X;\mathbf{C})$ là Hausdorff và gần đầy đủ.*
+*Với mọi tập hợp $\mathcal{S}$ các tập con bị chặn của $\mathcal{K}(X;\mathbf{C})$ là một phủ của $\mathcal{K}(X;\mathbf{C})$, không gian $\mathcal{M}_{\mathcal{S}}(X;\mathbf{C})$ là Hausdorff và gần đầy đủ.*
 
-Điều này suy ra từ việc $\mathscr{K}(X;\mathbf{C})$ là thùng (TVS, III, §4, No. 2, Hệ quả 4 của Định lý 1).
+Điều này suy ra từ việc $\mathcal{K}(X;\mathbf{C})$ là thùng (TVS, III, §4, No. 2, Hệ quả 4 của Định lý 1).
 
-*Các ví dụ về độ đo.* — I. *Các độ đo nguyên tử.* Cho X là một không gian compact địa phương, $a$ là một điểm của X; ánh xạ $f\mapsto f(a)$ từ $\mathscr{K}(X;\mathbf{C})$ vào $\mathbf{C}$ hiển nhiên thỏa mãn điều kiện (4) với $M_K=1$ đối với mọi tập con compact K của X chứa $a$, do đó là một độ đo trên X, được ký hiệu bởi $\varepsilon_a$; nó được gọi là *độ đo Dirac* tại điểm $a$, hoặc độ đo được xác định bởi một *khối lượng đơn vị đặt tại điểm $a$.*
+*Các ví dụ về độ đo.* — I. *Các độ đo nguyên tử.* Cho X là một không gian compact địa phương, $a$ là một điểm của X; ánh xạ $f\mapsto f(a)$ từ $\mathcal{K}(X;\mathbf{C})$ vào $\mathbf{C}$ hiển nhiên thỏa mãn điều kiện (4) với $M_K=1$ đối với mọi tập con compact K của X chứa $a$, do đó là một độ đo trên X, được ký hiệu bởi $\varepsilon_a$; nó được gọi là *độ đo Dirac* tại điểm $a$, hoặc độ đo được xác định bởi một *khối lượng đơn vị đặt tại điểm $a$.*
 
 Tổng quát hơn, cho $\alpha$ là một ánh xạ từ X vào $\mathbf{C}$ sao cho, với mọi tập con compact K của X,
 $$
 \sum_{x\in K}|\alpha(x)|<+\infty.
 $$
-Khi đó, với mọi hàm $f\in\mathscr{K}(X,K;\mathbf{C})$, tổng
+Khi đó, với mọi hàm $f\in\mathcal{K}(X,K;\mathbf{C})$, tổng
 $$
 \mu(f)=\sum_{x\in X}\alpha(x)f(x)
 $$
@@ -244,7 +244,7 @@ $$
 $$
 \sum_{x\in K}\alpha(x)f(x);
 $$
-rõ ràng $\mu$ là một dạng tuyến tính trên $\mathscr{K}(X;\mathbf{C})$ và, với $f\in\mathscr{K}(X,K;\mathbf{C})$,
+rõ ràng $\mu$ là một dạng tuyến tính trên $\mathcal{K}(X;\mathbf{C})$ và, với $f\in\mathcal{K}(X,K;\mathbf{C})$,
 $$
 |\mu(f)|\leq\left(\sum_{x\in K}|\alpha(x)|\right)\cdot\|f\|,
 $$
@@ -280,9 +280,9 @@ từ $\mathcal C(\Gamma;\mathbf C)$ vào $\mathbf C$ là một dạng tuyến t�
 
 #### Nhận xét {#int-iii-s1-n3-rem-1 .statement}
 
-Việc cho một độ đo $\mu$ trên một không gian địa phương compắc X xác định trên X (cùng với tôpô của X) một cấu trúc $\mathscr S$. Cho $X_1$ là một tập hợp thứ hai, $\varphi$ là một ánh xạ song ánh từ X lên $X_1$; phù hợp với các định nghĩa tổng quát (S, R, §8), cấu trúc $\mathscr S_1$ thu được bằng cách *chuyển* lên $X_1$ cấu trúc $\mathscr S$ của X, nhờ $\varphi$, được xác định theo cách sau. Tôpô của X được chuyển sang $X_1$ bởi $\varphi$; khi đó các hàm của $\mathcal K(X_1;\mathbf C)$ là các hàm $f$ sao cho $f\circ\varphi$ thuộc $\mathcal K(X;\mathbf C)$, và độ đo $\mu_1$ trên $X_1$ được xác định bởi $\mu_1(f)=\mu(f\circ\varphi)$.
+Việc cho một độ đo $\mu$ trên một không gian địa phương compắc X xác định trên X (cùng với tôpô của X) một cấu trúc $\mathcal S$. Cho $X_1$ là một tập hợp thứ hai, $\varphi$ là một ánh xạ song ánh từ X lên $X_1$; phù hợp với các định nghĩa tổng quát (S, R, §8), cấu trúc $\mathcal S_1$ thu được bằng cách *chuyển* lên $X_1$ cấu trúc $\mathcal S$ của X, nhờ $\varphi$, được xác định theo cách sau. Tôpô của X được chuyển sang $X_1$ bởi $\varphi$; khi đó các hàm của $\mathcal K(X_1;\mathbf C)$ là các hàm $f$ sao cho $f\circ\varphi$ thuộc $\mathcal K(X;\mathbf C)$, và độ đo $\mu_1$ trên $X_1$ được xác định bởi $\mu_1(f)=\mu(f\circ\varphi)$.
 
-Đặc biệt, một *tự đẳng cấu* của cấu trúc $\mathscr S$ là một đồng phôi $\sigma$ của X lên chính nó, sao cho
+Đặc biệt, một *tự đẳng cấu* của cấu trúc $\mathcal S$ là một đồng phôi $\sigma$ của X lên chính nó, sao cho
 
 $$
 \mu(f)=\mu(f\circ\sigma)

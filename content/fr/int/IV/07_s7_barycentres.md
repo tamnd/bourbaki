@@ -36,7 +36,7 @@ subsections:
       pdf_page: 235
 statements: 29
 exercises: 1
-content_sha256: e97fd0f41e7d621fb14994516f11d408708f0959271b4f7db32957daf87aea55
+content_sha256: 5f53a55ec50564b8a8cabb33e745d157c89c9d3e3ef8efd27e0dd296bfe3ebcb
 ---
 
 ## § 7. Barycentres
@@ -502,16 +502,16 @@ Définissons $\bar{f}$ comme dans le lemme 5. Il est clair que $\bar{f}(y) = f(y
 
 Soient E un espace localement convexe séparé, C un cône convexe saillant de sommet 0 dans E, admettant une semelle compacte M, et G la réunion des génératrices extrémales de C. Soit $x \in M$. Si C est réticulé, il existe au plus une mesure positive $\lambda$ de masse 1 sur M, telle que $\lambda^*(M - (G \cap M)) = 0$, et admettant x pour barycentre.
 
-En remplaçant la topologie de E par la topologie affaiblie, (ce qui ne change pas la topologie de M), on peut supposer E faible. Soient $\lambda$ et $\lambda'$ deux mesures sur M possédant les propriétés de l’énoncé, h une forme linéaire continue sur E telle que M soit l’intersection de C et de l’hyperplan d’équation $h(x) = 1$. Soit $\mathscr{S}$ le sous-ensemble de $\mathscr{C}(M)$ constitué par les restrictions à M des fonctions convexes $\geq 0$ positivement homogènes et continues dans C. Le cône C est faiblement complet (Esp. vect. top., chap. II, 2e éd., § 7, n° 3). D’après le th. 3, on a $\lambda(f) = \lambda'(f)$ pour toute $f \in \mathscr{S}$.
+En remplaçant la topologie de E par la topologie affaiblie, (ce qui ne change pas la topologie de M), on peut supposer E faible. Soient $\lambda$ et $\lambda'$ deux mesures sur M possédant les propriétés de l’énoncé, h une forme linéaire continue sur E telle que M soit l’intersection de C et de l’hyperplan d’équation $h(x) = 1$. Soit $\mathcal{S}$ le sous-ensemble de $\mathcal{C}(M)$ constitué par les restrictions à M des fonctions convexes $\geq 0$ positivement homogènes et continues dans C. Le cône C est faiblement complet (Esp. vect. top., chap. II, 2e éd., § 7, n° 3). D’après le th. 3, on a $\lambda(f) = \lambda'(f)$ pour toute $f \in \mathcal{S}$.
 
-Si $f_1, f_2, f_3, f_4$ appartiennent à $\mathscr{S}$, on a
+Si $f_1, f_2, f_3, f_4$ appartiennent à $\mathcal{S}$, on a
 $$
-\sup(f_1 - f_2, f_3 - f_4) = \sup(f_1 + f_4, f_3 + f_2) - (f_2 + f_4) \in \mathscr{S} - \mathscr{S}
+\sup(f_1 - f_2, f_3 - f_4) = \sup(f_1 + f_4, f_3 + f_2) - (f_2 + f_4) \in \mathcal{S} - \mathcal{S}
 $$
 $$
-\inf(f_1 - f_2, f_3 - f_4) = -\sup(f_2 - f_1, f_4 - f_3) \in \mathscr{S} - \mathscr{S}.
+\inf(f_1 - f_2, f_3 - f_4) = -\sup(f_2 - f_1, f_4 - f_3) \in \mathcal{S} - \mathcal{S}.
 $$
-Puisque $h|M \in \mathscr{S}$, $\mathscr{S} - \mathscr{S}$ contient les fonctions constantes. Si x et y sont deux points distincts de M, il existe une forme linéaire continue sur E qui sépare x et y, et cette forme est différence de deux formes linéaires continues positives sur C (Esp. vect. top., chap. II, 2e éd., § 6, n° 8, lemme 1). Il résulte de ce qui précède que, pour $\alpha, \beta$ réels, il existe $f \in \mathscr{S} - \mathscr{S}$ tel que $f(x) = \alpha, f(y) = \beta$.
+Puisque $h|M \in \mathcal{S}$, $\mathcal{S} - \mathcal{S}$ contient les fonctions constantes. Si x et y sont deux points distincts de M, il existe une forme linéaire continue sur E qui sépare x et y, et cette forme est différence de deux formes linéaires continues positives sur C (Esp. vect. top., chap. II, 2e éd., § 6, n° 8, lemme 1). Il résulte de ce qui précède que, pour $\alpha, \beta$ réels, il existe $f \in \mathcal{S} - \mathcal{S}$ tel que $f(x) = \alpha, f(y) = \beta$.
 
 Alors $\mathcal{S} - \mathcal{S}$ est partout dense dans $\mathcal{C}(M)$ pour la topologie de la convergence uniforme (*Top. gén.*, chap. X, 2\textsuperscript{e} éd., § 4, n\textsuperscript{o} 1, cor. de la prop. 2). Comme $\lambda$ et $\lambda'$ coïncident sur $\mathcal{S} - \mathcal{S}$, on a $\lambda = \lambda'$.
 

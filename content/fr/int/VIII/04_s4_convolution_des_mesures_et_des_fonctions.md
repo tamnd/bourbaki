@@ -40,7 +40,7 @@ subsections:
       pdf_page: 170
 statements: 42
 exercises: 0
-content_sha256: e56f96411e4d7f56886ab6e944a3ea703e0922e4f1ba9d99a6018dfb797489f9
+content_sha256: 7b9318ac12b36891a37785640a5341c5ac5427b9203e683edc18ba23ebaadd06
 ---
 
 ## § 4. Convolution des mesures et des fonctions.
@@ -741,7 +741,7 @@ est donc limite d’une suite de fonctions $\beta$-mesurables d’où notre asse
 
 Soient G un groupe localement compact, $\beta$ une mesure positive $\neq 0$ relativement invariante sur G, $\mathcal{B}$ une base du filtre des voisinages de e dans G, formée de voisinages compacts. Pour tout $V \in \mathcal{B}$, soit $f_V$ une fonction continue $\geqslant 0$ sur $G$, de support contenu dans $V$, et telle que $\int f_V d\beta = 1$.
 
-Alors, si $\mu$ est une mesure sur $G$, on a, dans $\mathcal{M}(G)$ muni de la topologie de la convergence compacte sur $\mathscr{K}(G)$,
+Alors, si $\mu$ est une mesure sur $G$, on a, dans $\mathcal{M}(G)$ muni de la topologie de la convergence compacte sur $\mathcal{K}(G)$,
 
 $$
 \mu = \lim_V (\mu * f_V) \cdot \beta = \lim_V (f_V * \mu) \cdot \beta
@@ -749,7 +749,7 @@ $$
 
 la limite étant prise suivant le filtre des sections de $\mathcal{B}$.
 
-Pour la topologie de la convergence compacte sur $\mathscr{C}(G)$, $f_V \cdot \beta$ tend vers $\varepsilon_e$ suivant le filtre des sections de $\mathcal{B}$ ($§ 2$, no 7, cor. 1 du lemme 4). Donc $\mu = \lim_V \mu * (f_V \cdot \beta) = \lim_V (f_V \cdot \beta) * \mu$ dans $\mathcal{M}(G)$ muni de la topologie de la convergence compacte sur $\mathscr{K}(G)$ ($§ 3$, no 3, cor. de la prop. 12).
+Pour la topologie de la convergence compacte sur $\mathcal{C}(G)$, $f_V \cdot \beta$ tend vers $\varepsilon_e$ suivant le filtre des sections de $\mathcal{B}$ ($§ 2$, no 7, cor. 1 du lemme 4). Donc $\mu = \lim_V \mu * (f_V \cdot \beta) = \lim_V (f_V \cdot \beta) * \mu$ dans $\mathcal{M}(G)$ muni de la topologie de la convergence compacte sur $\mathcal{K}(G)$ ($§ 3$, no 3, cor. de la prop. 12).
 
 #### Remarque 1 {#int-viii-s4-n7-rem-1 .statement}
 
@@ -773,7 +773,7 @@ Il suffit d’appliquer la prop. 6 (iii), et le $§ 2$, no 7, cor. 3 du lemme 4.
 
 #### Remarque 3 {#int-viii-s4-n7-rem-3 .statement}
 
-D’après la prop. 15, les fonctions $g * f_V$, $f_V * g$ appartiennent à $\overline{\mathscr{K}}(G)$.
+D’après la prop. 15, les fonctions $g * f_V$, $f_V * g$ appartiennent à $\overline{\mathcal{K}}(G)$.
 
 #### Corollaire {#int-viii-s4-n7-cor-1 .statement}
 

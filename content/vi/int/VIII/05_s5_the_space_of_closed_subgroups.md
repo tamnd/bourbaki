@@ -37,9 +37,9 @@ subsections:
       pdf_page: 156
 statements: 20
 exercises: 6
-content_sha256: a56bd8b48219e118d500a11a38d7074d9da3d675b0501444bcfe36bc74854c28
+content_sha256: f9fe783a27241d7ff7a869a46dd70615b2531cb8ea206fb544f8ec22c9f96d34
 translated_from: content/en/int/VIII/05_s5_the_space_of_closed_subgroups.md
-source_content_sha256: 29c2899779ce442617d1f3f13a1923a0fdf371d15fbe391c66e2a84e16e4ed59
+source_content_sha256: 7d184455525d2ba7513695a8b259d67f7396176a88053deba2f15605de4ee78a
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-1ea08f37
 glossary_version: 34
@@ -83,7 +83,7 @@ Nếu cần, thay $\Phi$ bằng một bộ lọc mịn hơn, ta có thể giả 
 
 #### Mệnh đề 2 {#int-viii-s5-prop-2 .statement}
 
-— Cho $\varphi$ là một hàm trong $\mathscr{K}_+(G)$ sao cho $\varphi(e) > 0$. Khi đó tập $\Gamma_\varphi$ các độ đo $\alpha \in \Gamma$ sao cho $\int \varphi(x)\,d\alpha(x) = 1$ là compact theo tôpô mơ hồ.
+— Cho $\varphi$ là một hàm trong $\mathcal{K}_+(G)$ sao cho $\varphi(e) > 0$. Khi đó tập $\Gamma_\varphi$ các độ đo $\alpha \in \Gamma$ sao cho $\int \varphi(x)\,d\alpha(x) = 1$ là compact theo tôpô mơ hồ.
 
 Tập $\Gamma_\varphi$ là giao của $\Gamma$ với siêu phẳng của $\mathcal{M}(G)$ được tạo bởi các $\alpha$ sao cho $\int \varphi(x)\,d\alpha(x) = 1$; vì siêu phẳng này đóng mơ hồ trong $\mathcal{M}(G)$ và không chứa 0, suy ra từ Mệnh đề 1 rằng $\Gamma_\varphi$ đóng mơ hồ trong $\mathcal{M}(G)$. Do đó chỉ cần chứng minh rằng với mọi tập con compact $K$ của $G$, ta có $\sup_{\alpha \in \Gamma_\varphi} \alpha(K) < +\infty$ (Ch. III, §1, No. 9, Mệnh đề 15). Bây giờ, cho $U$ là lân cận mở của $e$ trong $G$ được xác định bởi bất đẳng thức $\varphi(x) > \varphi(e)/2$; vì $1 = \int \varphi(x)\,d\alpha(x) \geq \int_U \varphi(x)\,d\alpha(x)$ đối với $\alpha \in \Gamma_\varphi$, ta thấy rằng, khi đặt $c = 2/\varphi(e)$, ta có $\alpha(U) \leq c$ với mọi $\alpha \in \Gamma_\varphi$. Cho $V$ là một lân cận mở đối xứng của $e$ trong $G$ sao cho $V^2 \subset U$; hãy chứng minh rằng $\alpha(Vx) \leq c$ với mọi $x \in G$ và mọi $\alpha \in \Gamma_\varphi$. Thật vậy, quan hệ này là tầm thường nếu $Vx$ không giao với giá đỡ $H_\alpha$ của $\alpha$; nếu, ngược lại, tồn tại một $h \in Vx \cap H_\alpha$, thì $h = vx$ với một $v \in V$, do đó
 $$

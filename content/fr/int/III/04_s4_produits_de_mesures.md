@@ -36,7 +36,7 @@ subsections:
       pdf_page: 99
 statements: 21
 exercises: 2
-content_sha256: 82b3ee69957ad213d05a343d2ce1e28aefa3a09c0af8ea93d09e6a38261ee993
+content_sha256: 10fba075520a6680c90bb756281bba61ddddb969ce55de5fc3ef6297eb0af575
 ---
 
 ## § 4. Produits de mesures
@@ -45,7 +45,7 @@ content_sha256: 82b3ee69957ad213d05a343d2ce1e28aefa3a09c0af8ea93d09e6a38261ee993
 
 #### Théorème 1 {#int-iii-s4-thm-1 .statement}
 
-*Soient X, Y deux espaces localement compacts, $\lambda$ une mesure sur X, $\mu$ une mesure sur Y; il existe sur $X \times Y$ une mesure $\nu$ et une seule telle que, pour toute fonction $g \in \mathscr{H}(X; \mathbf{C})$ et toute fonction $h \in \mathscr{H}(Y; \mathbf{C})$, on ait*
+*Soient X, Y deux espaces localement compacts, $\lambda$ une mesure sur X, $\mu$ une mesure sur Y; il existe sur $X \times Y$ une mesure $\nu$ et une seule telle que, pour toute fonction $g \in \mathcal{H}(X; \mathbf{C})$ et toute fonction $h \in \mathcal{H}(Y; \mathbf{C})$, on ait*
 $$
 \int g(x)h(y)\, d\nu(x, y) = \left( \int g(x)\, d\lambda(x) \right) \left( \int h(y)\, d\mu(y) \right).
 $$
@@ -53,7 +53,7 @@ $$
 #### Lemme 1 {#int-iii-s4-lem-1 .statement}
 
 *Soient X, Y deux espaces localement compacts, K (resp. L) une partie compacte de X (resp. Y).
-(i) La restriction à $\mathscr{H}(X \times Y, K \times L; \mathbf{C})$ de la bijection canonique $\omega : \mathscr{F}(X \times Y; \mathbf{C}) \to \mathscr{F}(X; \mathscr{F}(Y; \mathbf{C}))$ (*Ens. R, § 4, n° 14)* est une isométrie de l’espace de Banach $\mathcal{K}(X \times Y, K \times L; \mathbf{C})$ sur l’espace de Banach $\mathcal{K}(X, K ; \mathcal{K}(Y, L ; \mathbf{C}))$.
+(i) La restriction à $\mathcal{H}(X \times Y, K \times L; \mathbf{C})$ de la bijection canonique $\omega : \mathcal{F}(X \times Y; \mathbf{C}) \to \mathcal{F}(X; \mathcal{F}(Y; \mathbf{C}))$ (*Ens. R, § 4, n° 14)* est une isométrie de l’espace de Banach $\mathcal{K}(X \times Y, K \times L; \mathbf{C})$ sur l’espace de Banach $\mathcal{K}(X, K ; \mathcal{K}(Y, L ; \mathbf{C}))$.
 
 (ii) *L’espace vectoriel* $\mathcal{K}(X, K ; \mathbf{C}) \otimes_c \mathcal{K}(Y, L ; \mathbf{C})$, *identifié canoniquement à un sous-espace de* $\mathcal{K}(X \times Y, K \times L ; \mathbf{C})$, (*Alg.*, chap. II, 3e éd., § 7, no 7, commentaires suivant le cor. de la prop. 15) *est dense dans cet espace de Banach*.
 
