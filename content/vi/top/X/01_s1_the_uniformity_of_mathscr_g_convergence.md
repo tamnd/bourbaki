@@ -37,7 +37,7 @@ subsections:
 statements: 33
 exercises: 12
 content_sha256: 2d4babca6ad15acba31a02123b6a237af22ead915ad989978ebd097452786e1a
-translated_from: content/en/top/X/01_s1_the_uniformity_of_mathcal_g_convergence.md
+translated_from: content/en/top/X/01_s1_the_uniformity_of_mathscr_g_convergence.md
 source_content_sha256: f459da45f8e6af0ecb54b75558b2fda0793b19a3926826a8dda82f7fd591ac3e
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-17a8f949
