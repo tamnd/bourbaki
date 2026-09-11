@@ -41,7 +41,7 @@ subsections:
       pdf_page: 58
 statements: 8
 exercises: 6
-content_sha256: 89fa52ad272a0217938420efcab7d3404a1c7c03f4987abea97bc40d0c98de29
+content_sha256: bbc84d6afab8e8bc224059a35c4288562ff6f950d3a69d7995f4fa256f6ae903
 ---
 
 ## § 1. RELATIONS COLLECTIVISANTES
@@ -262,4 +262,4 @@ Il n’existe pas d’ensemble dont tous les objets soient éléments ; autremen
 
 See the [exercises for § 1](exercises/s1/).
 
-[^1]: Le terme désigné par $\varnothing$ est donc ⟪illegible⟫.
+[^1]: Le terme désigné par $\varnothing$ est donc $\tau \neg \neg \in \tau \neg \neg \in \square\square\square$.

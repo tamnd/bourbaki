@@ -13,7 +13,7 @@ pdf_pages: 0597-0642
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: c94326c8ade1bc989124eaed88a0e26f7ba912c6c90020eb76e6266a76fd30cd
+content_sha256: 3ba3dd0744b10ccc675908e0901aa3d281b89d6b25dbe5601244ed2521883fc6
 translated_from: content/en/ac/VII/historical_note.md
 source_content_sha256: 310b51f7681f87389ad268cda064f6af31cea24a76ec2275974603d2dfff3682
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini, copied
@@ -315,7 +315,7 @@ Từ đó trở đi, việc sử dụng ngôn ngữ hình học này trong toàn
 
 20. E. STEINITZ: (a) Algebraische Theorie der Korper, Crelle’s Journal, 137 (1910), pp. 167–308; (b) Rechteckige Systeme und Moduln in algebraischen Zahlkörpern, Math. Ann. 71 (1912), pp. 328–354 and 72 (1912), pp. 297–345.
 
-21. F. S. MACAULAY, Về sự phân giải của một hệ môđun đã cho thành các hệ nguyên sơ, bao gồm một số tính chất của các số Hilbert, Math. Ann., 74 (1913), tr. 66–121.
+21. F. S. MACAULAY, On the resolution of a given modular system into primary systems including some properties of Hilbert numbers, Math. Ann., 74 (1913), pp. 66–121.
 
 22. J. KÜRSCHAK, Über Limesbildung und allgemeine Körpertheorie, Crelle’s Journal, 142 (1913), pp. 211–253.
 

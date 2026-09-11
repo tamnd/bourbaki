@@ -132,7 +132,7 @@ chapters:
           statements: 8
           exercises: 6
           extraction: ocr
-          content_sha256: 89fa52ad272a0217938420efcab7d3404a1c7c03f4987abea97bc40d0c98de29
+          content_sha256: bbc84d6afab8e8bc224059a35c4288562ff6f950d3a69d7995f4fa256f6ae903
         - kind: section
           section: 2
           title: Couples
