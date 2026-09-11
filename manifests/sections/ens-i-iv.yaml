@@ -141,7 +141,7 @@ chapters:
           statements: 10
           exercises: 6
           extraction: ocr
-          content_sha256: 66b930eb506c3b51a953913202d2c09d32c287559d09b0d8e113dcf5a16a08ac
+          content_sha256: 4a9ee1e53629e655e2d44be47afe0051771af4dbac00a9502665cf0edd1589f5
         - kind: section
           section: 2
           title: Ordered pairs
@@ -154,7 +154,7 @@ chapters:
           statements: 4
           exercises: 2
           extraction: ocr
-          content_sha256: f473daade1409be8bf0f14c3e035373513374f1c79945abe02bfe401f01ae8ce
+          content_sha256: 30cc0208eaab54246e96f854154d361c7bc5ca97861fad03285d7ff5c5137aa4
         - kind: section
           section: 3
           title: Correspondences
@@ -180,7 +180,7 @@ chapters:
           statements: 22
           exercises: 8
           extraction: ocr
-          content_sha256: 32dab807d5a0ef307546f801f396883f1054bfe9358e046025e46f1ec896838b
+          content_sha256: c8fd3f17f42e974a252f4d880619803570369c6870f994dc645984b60d03b8d3
         - kind: section
           section: 5
           title: Product of a family of sets
@@ -298,7 +298,7 @@ chapters:
           statements: 26
           exercises: 32
           extraction: ocr
-          content_sha256: 9dad8d983ddd8f3b0b6298831408a4064ea8b6e7bd8b96cdff8003a923a1c904
+          content_sha256: 567e0c5f3b6c1ecb2bc3cd823e4e97976fc38f1c07ab89e7b0f38f5f38c28c46
         - kind: section
           section: 7
           title: Inverse limits and direct limits

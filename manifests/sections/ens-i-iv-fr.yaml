@@ -47,7 +47,7 @@ chapters:
           statements: 8
           exercises: 6
           extraction: ocr
-          content_sha256: 14de471475b196e79411c41445b05c3903b39c5c82403ce3ceb0a73e9d31b79d
+          content_sha256: 4c9edf4b0e2e08f5f1a2c9b0995c5f2bda68e99372e4089284ac9edb3ce18728
         - kind: section
           section: 2
           title: Théorèmes
@@ -59,7 +59,7 @@ chapters:
           statements: 1
           exercises: 1
           extraction: ocr
-          content_sha256: 91e884c72b2659211827e3a2490bb93ae696dee676d02353031a40d80e1462ad
+          content_sha256: 3bad8502bc0a9c3de373c466923d86e9031ea74c28bd96896b070f9c4a31a777
         - kind: section
           section: 3
           title: Théories logiques
@@ -71,7 +71,7 @@ chapters:
           statements: 0
           exercises: 5
           extraction: ocr
-          content_sha256: a9e606302e0a28ffccc3bf015876fe5913aaa9bf423563abd3bbca7d01136a41
+          content_sha256: 6b8aa288f3967d1a0e38bf3e6227a13d6310af4994df5dcfe5db8d19a3f0e003
         - kind: section
           section: 4
           title: Théories quantifiées
@@ -83,7 +83,7 @@ chapters:
           statements: 0
           exercises: 8
           extraction: ocr
-          content_sha256: 879345d89491de488fd8242011036b46a7a2f4f3b183c11fbe847caf8282b0c0
+          content_sha256: ca12bd9233b2c5a217edab9edcee3e1e9585bf522b925d56c9cccb33ebc5bf21
         - kind: section
           section: 5
           title: Théories égalitaires
@@ -96,7 +96,7 @@ chapters:
           statements: 3
           exercises: 7
           extraction: ocr
-          content_sha256: f56d99d868f32a4b67ae8e64b9fe1d26da9c4ad08fc39e6dfdbf1ae94b6db6f8
+          content_sha256: a1519884aaaef1c499b7862ac9422a575e00e2f2de86e5b746da6a4891ba1f6e
         - kind: appendix
           title: Caractérisation des termes et des relations
           path: content/fr/ens/I/A_a_caracterisation_des_termes_et_des.md
@@ -107,7 +107,7 @@ chapters:
           statements: 7
           exercises: 8
           extraction: ocr
-          content_sha256: 1687bd895d5f8fe5d63bf17d4ad4a21f61a12637b2e654e620f89a03efb97913
+          content_sha256: 7e19fcace357f2d125f2592de16a62722a51f111eceae17b8fe87d53ab4ad8e0
     - chapter: II
       title: THÉORIE DES ENSEMBLES
       sections:
@@ -132,7 +132,7 @@ chapters:
           statements: 8
           exercises: 6
           extraction: ocr
-          content_sha256: 8db79cf99e7fe9205dc6a9acc5d237684c289089d9d58e2cfcb3454ac791038f
+          content_sha256: 89fa52ad272a0217938420efcab7d3404a1c7c03f4987abea97bc40d0c98de29
         - kind: section
           section: 2
           title: Couples
@@ -170,7 +170,7 @@ chapters:
           statements: 22
           exercises: 8
           extraction: ocr
-          content_sha256: b01516fc0971cf54a3caf5959e7d2dfcd6230a575813005bbed0ccaab0e92f86
+          content_sha256: ded74c6677a167e3f4ed814342a2fc06bae66975d1e6a2fb49da799375ff8481
         - kind: section
           section: 5
           title: Produit d'une famille d'ensembles
@@ -183,7 +183,7 @@ chapters:
           statements: 24
           exercises: 5
           extraction: ocr
-          content_sha256: db0022e62383130cc1e0ad1d77b9b8d305dc0362a0685af8b0084238db199908
+          content_sha256: 23c65f447db29f61608251134d005e1e22a69220a6f98fb2af711aa8efe32943
         - kind: section
           section: 6
           title: Relations d’équivalence
@@ -196,7 +196,7 @@ chapters:
           statements: 5
           exercises: 10
           extraction: ocr
-          content_sha256: 987904398af6d2599bd91eb95321c9683702ab73b500683f239a59359c7532cc
+          content_sha256: cfc958972533d2fcaa26c65885582f4f7b9d6646446f308f24d4173d2d4e5c79
     - chapter: III
       title: ENSEMBLES ORDONNÉS, CARDINAUX, NOMBRES ENTIERS
       sections:
@@ -221,7 +221,7 @@ chapters:
           statements: 54
           exercises: 24
           extraction: ocr
-          content_sha256: e8636030bb5204462477ba31e04cf9cd9d4eaf09e715823362ece1af081fd7f2
+          content_sha256: 476e71786246a15ba4203a86dacbf0dc9a0d480fd22311d030af360332b37c07
         - kind: section
           section: 2
           title: Ensembles bien ordonnés
@@ -234,7 +234,7 @@ chapters:
           statements: 27
           exercises: 20
           extraction: ocr
-          content_sha256: 2bcb4b4feea0003a48f4107927aea90e166d60f5048e35a80eaa3a7a48884c8b
+          content_sha256: a93bb527e21dff275aa522637728b3da1e376826c5fef8164fbcf8f5438f3454
         - kind: section
           section: 3
           title: Ensembles équipotents. Cardinaux
@@ -247,7 +247,7 @@ chapters:
           statements: 32
           exercises: 1
           extraction: ocr
-          content_sha256: 940b752b58440ebe4daea0c9c83ad9df3293b5b19ed7383cf81a7f119541f724
+          content_sha256: 07e9c85f27bd20056e87cd2cb56bd540395937d6a80d5f374b258742812705a8
         - kind: section
           section: 4
           title: Entiers naturels. Ensembles finis
@@ -260,7 +260,7 @@ chapters:
           statements: 16
           exercises: 11
           extraction: ocr
-          content_sha256: af0ff206d2132905a793e50dd4d15c8c49611ae69be2dbbf22a96874b8684ff7
+          content_sha256: 95168b9add4806c87b213356684f1a29b4ca906c12cd4bb7bfe897cad290f8f9
         - kind: section
           section: 5
           title: Calcul sur les entiers
@@ -286,7 +286,7 @@ chapters:
           statements: 24
           exercises: 33
           extraction: ocr
-          content_sha256: 6bc1a96bfc0fa13351892267947be8e68da6e32aa23c8a59110ccaec5dd03a5f
+          content_sha256: 41b5aca4d4b602c8ce5281511afac92994211a99592fbe175741c2b5eddb4d15
         - kind: section
           section: 7
           title: Limites projectives et limites inductives
@@ -299,7 +299,7 @@ chapters:
           statements: 27
           exercises: 9
           extraction: ocr
-          content_sha256: 4c1cc641dc62e3886b76e7569371c7d399c0f340bbdeec13b52b9bbfa7a7482d
+          content_sha256: 503e900de8f3ee5f9646324661ab78f46f4be66740182d0cabeda1afb86c46a6
         - kind: historical
           title: Historical Note
           path: content/fr/ens/III/historical_note.md
@@ -334,7 +334,7 @@ chapters:
           statements: 13
           exercises: 1
           extraction: ocr
-          content_sha256: 77b678bb39afcc800fea9d978ec3de7dfb020b87bf54133f0928865219092200
+          content_sha256: ff781257cfd1745e9945d1fd13baf58f43ab8a0880cfa3d3f4dee03fff4b6456
         - kind: section
           section: 2
           title: Morphismes et structures dérivées
@@ -347,7 +347,7 @@ chapters:
           statements: 12
           exercises: 11
           extraction: ocr
-          content_sha256: cbee7ac8bfe2385e96af2a4e38f0596ab864675d5768a0895ec35c072202c5da
+          content_sha256: 866d2e27f0d82b27556bd48e7165032a4f8f49f2bbd3b5818836b76306255b3c
         - kind: section
           section: 3
           title: Applications universelles
@@ -360,7 +360,7 @@ chapters:
           statements: 0
           exercises: 3
           extraction: ocr
-          content_sha256: a2897706a753f536281af7306b30f6322431c9ff55fd294d472b6fb300161861
+          content_sha256: 5ee1c90fe6c4971f952392abf21bb5dae936cf9557e2bff096e525f37052b89f
         - kind: historical
           title: Historical Note
           path: content/fr/ens/IV/historical_note.md
@@ -370,7 +370,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 15d71f8e3610e28969a37fb8aad879772c6e53b91427d24b0dc857f49f998f2d
+          content_sha256: cdd588b63b385b3c312eefb5a9b67489ec6f5c44c1048507b0f8e8902927b8ee
 notation_index:
     kind: notation
     title: INDEX DES NOTATIONS
@@ -381,7 +381,7 @@ notation_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: c4820619189b29c37f0b8c40491d7bcab8e49320071e537dd1539119c25ee925
+    content_sha256: 87567f5dc49c39b71cf1ea9f8d06b914457d91919f4d9172908527c0fa370cb0
 terminology_index:
     kind: terminology
     title: INDEX TERMINOLOGIQUE
