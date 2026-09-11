@@ -20,7 +20,7 @@ All twelve Books of the *Éléments*, in the English translation where one was p
 | Topological Vector Spaces | I to V | I to V | 2 | 740 |
 | Integration | I to IX | I to IX | 7 | 1732 |
 | Commutative Algebra | I to VII | I to X | 5 | 1733 |
-| Variétés différentielles et analytiques | none held | 1 | 1 | 190 |
+| Variétés différentielles et analytiques | none held | 1 2 | 1 | 190 |
 | Lie Groups and Lie Algebras | I to IX | I to VII, IX | 8 | 2182 |
 | Théories spectrales | none held | I to V | 2 | 925 |
 | Topologie algébrique | none held | I to IV | 1 | 512 |
@@ -131,6 +131,7 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Algebra | VIII | 25 of 25 | 709 | 317 | 1024 | 964 |
 | Algebra | IX | 0 of 10 | 0 | 0 | 0 | 207 |
 | Algebra | X | 0 of 9 | 0 | 0 | 0 | 216 |
+| Theory of Sets | ER | 8 of 8 | 0 | 0 | 0 | 0 |
 | Theory of Sets | I | 6 of 6 | 16 | 35 | 51 | 101 |
 | Theory of Sets | II | 6 of 6 | 110 | 41 | 150 | 117 |
 | Theory of Sets | III | 7 of 7 | 222 | 120 | 342 | 226 |
@@ -186,8 +187,9 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Théories spectrales | IV | 0 of 5 | 0 | 0 | 0 | 228 |
 | Théories spectrales | V | 0 of 4 | 0 | 0 | 0 | 194 |
 | Variétés différentielles et analytiques | 1 | 0 of 8 | 0 | 0 | 0 | 95 |
+| Variétés différentielles et analytiques | 2 | 0 of 8 | 0 | 0 | 0 | 95 |
 
-388 of 487 sections are in the corpus, 80 per cent. 8689 statements and 4476 exercises, 2642 of them carrying a permanent tag.
+396 of 503 sections are in the corpus, 79 per cent. 8689 statements and 4476 exercises, 2642 of them carrying a permanent tag.
 <!-- END COVERAGE -->
 
 ## What is translated
@@ -203,11 +205,11 @@ The French is counted and not compared against the English. A file name carries 
 <!-- BEGIN TRANSLATION -->
 | Book | Sections | Exercises | Vietnamese sections | Vietnamese exercises | Done | From machine English |
 | --- | --- | --- | --- | --- | --- | --- |
-| Theory of Sets | 32 | 214 | 32 | 214 | 100% | 3 |
+| Theory of Sets | 40 | 214 | 40 | 214 | 100% | 3 |
 | Algebra | 135 | 1302 | 134 | 1302 | 100% | 176 |
 | General Topology | 84 | 788 | 84 | 788 | 100% | 118 |
 | Functions of a Real Variable | 36 | 251 | 36 | 251 | 100% | 28 |
-| Topological Vector Spaces | 36 | 479 | 36 | 478 | 100% | 15 |
+| Topological Vector Spaces | 36 | 479 | 36 | 479 | 100% | 15 |
 | Integration | 63 | 511 | 63 | 511 | 100% | 33 |
 | Commutative Algebra | 71 | 902 | 71 | 902 | 100% | 441 |
 | Variétés différentielles et analytiques | 10 | 0 | 10 | 0 | 100% | 10, all of it |
@@ -215,13 +217,13 @@ The French is counted and not compared against the English. A file name carries 
 | Théories spectrales | 36 | 590 | 36 | 590 | 100% | 626, all of it |
 | Topologie algébrique | 28 | 203 | 28 | 203 | 100% | 231, all of it |
 | Elements of the History of Mathematics | 27 | 0 | 27 | 0 | 100% | 1 |
-| **All** | **649** | **6038** | **648** | **6037** | **100%** | **1687** |
+| **All** | **657** | **6038** | **656** | **6038** | **100%** | **1687** |
 
-The source column is the English, which is 649 sections and 6038 exercises: 5000 files in `content/en` where Springer printed an English translation and 1962 in `content/en-mt` where this project read the French instead. The French originals are 651 sections and 5630 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
+The source column is the English, which is 657 sections and 6038 exercises: 5008 files in `content/en` where Springer printed an English translation and 1962 in `content/en-mt` where this project read the French instead. The French originals are 652 sections and 5630 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
 
-Vietnamese has 648 of the 649 sections and 6037 of the 6038 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
+Vietnamese has 656 of the 657 sections and 6038 of the 6038 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
 
-The last column is the part of a Book that was never printed in English, so the only English of it is this project's own reading of the French. A translation made from one of those is a translation of a translation, and that is 1687 of the 6685 files in Vietnamese. Where the column says all of it the whole Book is in that position, and a hundred per cent in the Done column for such a Book is not the same claim as a hundred per cent for one Springer translated.
+The last column is the part of a Book that was never printed in English, so the only English of it is this project's own reading of the French. A translation made from one of those is a translation of a translation, and that is 1687 of the 6694 files in Vietnamese. Where the column says all of it the whole Book is in that position, and a hundred per cent in the Done column for such a Book is not the same claim as a hundred per cent for one Springer translated.
 <!-- END TRANSLATION -->
 
 ## Building it
@@ -275,7 +277,7 @@ OCR runs against a small fleet of hosts over SSH. Round trips are slow, roughly 
 `reports/` is generated and checked by CI, so it is the state of the corpus rather than a snapshot somebody remembered to update. `audit.md` lists every finding by file and line. `extraction-quality.md` says how much of each volume has been read and how much of that passes the rules. `refs-unresolved.md` and `out-of-corpus.md` are the references that resolve to nothing and the ones that point outside the corpus.
 
 <!-- BEGIN RULES -->
-The audit is 73 rules in nine groups: 12 structure, 9 tags, 13 mathematics, 6 figures, 3 references, 16 translation, 6 solutions, 1 publication and 7 hygiene. 59 of them are hard, which means a finding fails the build, and 14 are soft.
+The audit is 78 rules in nine groups: 14 structure, 9 tags, 15 mathematics, 6 figures, 3 references, 17 translation, 6 solutions, 1 publication and 7 hygiene. 61 of them are hard, which means a finding fails the build, and 17 are soft.
 <!-- END RULES -->
 
 `what-it-cost.md` and `reproduction.md` are the two written by hand. The first says what the transport cost, which checks caught what, and what is still wrong, including the numbers that do not flatter the project. The second is the record of cloning both repositories fresh and running the pipeline from the PDFs to see whether it produces what is committed: 2775 of 2868 pages of the six deterministic volumes came back byte for byte, and everything derived from the pages came back identical.
