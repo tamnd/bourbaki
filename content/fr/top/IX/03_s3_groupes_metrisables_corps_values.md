@@ -41,7 +41,7 @@ subsections:
       pdf_page: 157
 statements: 49
 exercises: 13
-content_sha256: 0c2545a1d4e317e78a476a40c85d16bd6b75ce5f22c7788ca310ca01fca0b6dd
+content_sha256: f6ea2eafccb3bf667257a3e5bd60e52bb82df4a596bb5342237113f131d1c107
 ---
 
 ## § 3. GROUPES MÉTRISABLES; CORPS VALUÉS; ESPACES ET ALGÈBRES NORMÉS
@@ -326,11 +326,11 @@ Il en est de même des fonctions $\sup_{1 \leq i \leq n} |x_i|$ et $\sum_{i=1}^{
 
 #### Exemple 3 {#top-ix-s3-n3-exa-3 .statement}
 
-Soit $\mathscr{B}(E)$ l’ensemble des fonctions $f$ définies dans un ensemble E, prenant leurs valeurs dans un corps valué non discret K, et telles que la fonction numérique $x \mapsto |f(x)|$ soit bornée dans E. Cet ensemble est évidemment un sous-espace vectoriel de l’espace vectoriel $K^E$ (à droite ou à gauche) des applications de E dans K. Si on pose $p(f) = \sup_{x \in E} |f(x)|$, $p$ est une norme sur l’espace vectoriel $\mathscr{B}(E)$ (cf. X, p. 20).
+Soit $\mathcal{B}(E)$ l’ensemble des fonctions $f$ définies dans un ensemble E, prenant leurs valeurs dans un corps valué non discret K, et telles que la fonction numérique $x \mapsto |f(x)|$ soit bornée dans E. Cet ensemble est évidemment un sous-espace vectoriel de l’espace vectoriel $K^E$ (à droite ou à gauche) des applications de E dans K. Si on pose $p(f) = \sup_{x \in E} |f(x)|$, $p$ est une norme sur l’espace vectoriel $\mathcal{B}(E)$ (cf. X, p. 20).
 
 #### Exemple 4 {#top-ix-s3-n3-exa-4 .statement}
 
-Sur l’espace vectoriel $\mathscr{C}(I)$ des fonctions continues numériques (finies) définies dans l’intervalle $I = [0, 1]$, la fonction $p(x) = \int_0^1 |x(t)|\ dt$ est une norme.*
+Sur l’espace vectoriel $\mathcal{C}(I)$ des fonctions continues numériques (finies) définies dans l’intervalle $I = [0, 1]$, la fonction $p(x) = \int_0^1 |x(t)|\ dt$ est une norme.*
 
 #### Exemple 5 {#top-ix-s3-n3-exa-5 .statement}
 
@@ -544,7 +544,7 @@ Soient $K$ un corps commutatif valué non discret, $M_n(K)$ l’anneau des matri
 
 #### Exemple 3 {#top-ix-s3-n7-exa-3 .statement}
 
-L’ensemble $\mathscr{B}(E)$ des fonctions $f$ définies dans un ensemble $E$, prenant leurs valeurs dans un corps valué commutatif non discret $K$, et telles que $x \mapsto |f(x)|$ soit bornée dans $E$, est une algèbre sur $K$; la norme $\| f \| = \sup_{x \in E} |f(x)|$ est compatible avec la structure d’algèbre de $\mathscr{B}(E)$, car on a $\| fg \| \leq \| f \| \cdot \| g \|$
+L’ensemble $\mathcal{B}(E)$ des fonctions $f$ définies dans un ensemble $E$, prenant leurs valeurs dans un corps valué commutatif non discret $K$, et telles que $x \mapsto |f(x)|$ soit bornée dans $E$, est une algèbre sur $K$; la norme $\| f \| = \sup_{x \in E} |f(x)|$ est compatible avec la structure d’algèbre de $\mathcal{B}(E)$, car on a $\| fg \| \leq \| f \| \cdot \| g \|$
 
 Soit $a$ un idéal bilatère fermé dans l’algèbre normée $A$; si, dans l’algèbre quotient $A/a$, on pose $\| \dot{\mathbf{x}} \| = \inf_{x \in \dot{\mathbf{x}}} \| \mathbf{x} \|$, on obtient sur $A/a$ une norme qui définit la topologie quotient de celle de $A$ par $a$ (IX, p. 34, prop. 10); comme pour $b > \| \dot{\mathbf{x}} \|$, $c > \| \dot{\mathbf{y}} \|$, il existe $\mathbf{x} \in \dot{\mathbf{x}}$ tel que $\| \mathbf{x} \| < b$ et $\mathbf{y} \in \dot{\mathbf{y}}$ tel que $\| \mathbf{y} \| < c$, on a $\| \mathbf{x}\mathbf{y} \| \leq \| \mathbf{x} \| \cdot \| \mathbf{y} \| < bc$, donc $\| \dot{\mathbf{x}}\dot{\mathbf{y}} \| \leq \| \dot{\mathbf{x}} \| \cdot \| \dot{\mathbf{y}} \|$, ce qui montre que $A/a$, muni de la norme $\| \dot{\mathbf{x}} \|$, est une algèbre normée.
 
