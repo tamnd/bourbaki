@@ -50,7 +50,7 @@ subsections:
       pdf_page: 205
 statements: 45
 exercises: 23
-content_sha256: 8023a6f85abe8852bcad1698cef3120cc4c2d381bfe10b702f412bae1976458d
+content_sha256: ef7ccee08521c864c1284ab3c7baca71724b5be092ce87b035c5a52662794273
 ---
 
 ## § 11. ABELIAN EXTENSIONS
@@ -598,7 +598,7 @@ For the right-hand side of (15) is an element of $\mathbf{F}_p$ which depends on
 For every Galois extension $L$ of $K$ let us write
 
 $$
-a_ : (\mathscr{P}(L) \cap K)/\mathscr{P}(K) \to \mathrm{Hom}(\mathrm{Gal}(L/K), \mathbf{F}_p)
+a_L : (\mathscr{P}(L) \cap K)/\mathscr{P}(K) \to \mathrm{Hom}(\mathrm{Gal}(L/K), \mathbf{F}_p)
 $$
 $$
 a_L' : \mathrm{Gal}(L/K) \to \mathrm{Hom}((\mathscr{P}(L) \cap K)/\mathscr{P}(K), \mathbf{F}_p)

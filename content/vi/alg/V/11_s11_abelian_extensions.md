@@ -50,7 +50,7 @@ subsections:
       pdf_page: 205
 statements: 45
 exercises: 23
-content_sha256: 932738ab0f836472516e6d3a7ac80f6a72ba9bf6ce292872efb1909172676f25
+content_sha256: eca8f23b4e671f9167063fefe7efae833700e2cdd4b8ed85c5f37fbd027b6501
 translated_from: content/en/alg/V/11_s11_abelian_extensions.md
 source_content_sha256: 43c5af3342ac0bbbafe453022e04b05ece3c6ec94573a34e2d29b581bf13d362
 translation_model: gpt-5.4
@@ -605,7 +605,7 @@ Thật vậy, vế phải của (15) là một phần tử của $\mathbf{F}_p$ 
 Với mọi mở rộng Galois $L$ của $K$, ta viết
 
 $$
-a_ : (\mathscr{P}(L) \cap K)/\mathscr{P}(K) \to \mathrm{Hom}(\mathrm{Gal}(L/K), \mathbf{F}_p)
+a_L : (\mathscr{P}(L) \cap K)/\mathscr{P}(K) \to \mathrm{Hom}(\mathrm{Gal}(L/K), \mathbf{F}_p)
 $$
 $$
 a_L' : \mathrm{Gal}(L/K) \to \mathrm{Hom}((\mathscr{P}(L) \cap K)/\mathscr{P}(K), \mathbf{F}_p)

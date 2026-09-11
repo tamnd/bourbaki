@@ -53,7 +53,7 @@ subsections:
       pdf_page: 561
 statements: 56
 exercises: 26
-content_sha256: 08a2e10eeb969e137bbc8323046927102e06d3c938d26451a55f3064f33e60ea
+content_sha256: 3e3bb9ce163e9ba611881a7029e173493d806504fe1118f6e0b1d2a7f4b8ad75
 translated_from: content/en/ac/VII/04_s4_modules_over_integrally_closed.md
 source_content_sha256: e945d0dce148a314a72509e7bb920af67868b7d13173757c2afc5ba5faa3449c
 translation_model: gpt-5-6-mini, gpt-5.4
@@ -362,7 +362,7 @@ Ta giữ ký hiệu và giả thiết của no. 2. Ta sẽ nói rằng một tí
 
 (ii) *Ngược lại, giả sử đã cho với mọi* $p \in P$ *một dàn* $N(p)$ *của V đối với A, sao cho* $N(p) = M_p$ *với hầu hết* $p \in P$. *Khi đó* $N = \bigcap N(p)$ *là một dàn phản xạ của A đối với A và đó là dàn phản xạ duy nhất* $N'$ *của V đối với A sao cho* $N'_p = N(p)$ *với mọi* $p \in P$.
 
-(i) Mệnh đề thứ nhất suy ra từ no. 1, Mệnh đề 4. Hơn nữa, tồn tại $x, y$ trong $\mathbf{K}^*$ sao cho $xN \subset M \subset yN$ (no. 1, Mệnh đề 2); ta biết rằng, với hầu hết $p \in P, v_p(x) = v_p(y) = 0$ ($§ 1$, no. 6, Định lý 4), điều đó cho thấy rằng $x$ và $y$ là khả nghịch trong $A$, và do đó $M_ = N_p$.
+(i) Mệnh đề thứ nhất suy ra từ no. 1, Mệnh đề 4. Hơn nữa, tồn tại $x, y$ trong $\mathbf{K}^*$ sao cho $xN \subset M \subset yN$ (no. 1, Mệnh đề 2); ta biết rằng, với hầu hết $p \in P, v_p(x) = v_p(y) = 0$ ($§ 1$, no. 6, Định lý 4), điều đó cho thấy rằng $x$ và $y$ là khả nghịch trong $A$, và do đó $M_p = N_p$.
 
 (ii) Ta có thể thay thế $M$ bởi $x^{-1}M$ với $x \neq 0$ trong $A$ và giả sử rằng $N(p) \subset M$, với mọi $p \in P$. Gọi $p_1, \ldots, p_h$ là các phần tử của $P$ sao cho $N(p) = M$, với $p$ phân biệt với các $p_i$ ($1 \leq i \leq h$); ta viết:
 
@@ -396,7 +396,7 @@ $$
 N = Q^{**} = \bigcap_{p \in P} Q_p
 $$
 
-là phản xạ và thỏa mãn các hệ thức $N_ = Q_ = N(p)$ với mọi $p \in P$; tính duy nhất suy ra ngay lập tức từ Định lý 2 của no. 2.
+là phản xạ và thỏa mãn các hệ thức $N_p = Q_p = N(p)$ với mọi $p \in P$; tính duy nhất suy ra ngay lập tức từ Định lý 2 của no. 2.
 
 #### Nhận xét {#ac-vii-s4-n3-rem-1 .statement}
 
