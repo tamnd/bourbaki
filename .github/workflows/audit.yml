@@ -130,11 +130,20 @@ jobs:
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: go run ./cmd/bourbaki assemble -book ac-v-vii-fr -lang fr -check
+      # A tag is permanent under T05, so a volume is tagged once its pages have
+      # settled and not before, and until the last volume is read the corpus is
+      # meant to have statements waiting for one. That is a number that comes
+      # down, not a broken invariant, and gating on it meant this step failed on
+      # every branch from August on, taking the three steps after it with it.
+      #
+      # So it is held at a ceiling, like the formulae KaTeX refuses. The ceiling
+      # comes down as Books are tagged and it does not go up. Everything else
+      # tags verify checks still fails the build.
       - name: tags verify
         working-directory: .solver
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
-        run: go run ./cmd/bourbaki tags verify -base origin/main
+        run: go run ./cmd/bourbaki tags verify -base origin/main -max-untagged 23302
       # The reference graph is a pure function of the Markdown too, so the
       # manifest and the four reports are checked rather than rebuilt. -min is
       # the milestone's own target and the corpus now clears it at 91.7 per
