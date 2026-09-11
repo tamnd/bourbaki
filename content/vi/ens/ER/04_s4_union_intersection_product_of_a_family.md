@@ -259,7 +259,7 @@ Chẳng hạn, nếu I gồm ba số 1, 2, 3, thì $\displaystyle\prod_{\ell\in 
 
 và
 
-“tồn tại một ánh xạ $f$ từ E vào F sao cho $R\{x,f(x)\}$ với mọi $x”$.
+“tồn tại một ánh xạ $f$ từ E vào F sao cho $R\{x,f(x)\}$ với mọi $x$”.
 
 Mệnh đề về tương đương này được gọi là *tiên đề lựa chọn* (hay *tiên đề Zermelo*). Đôi khi chúng ta sẽ chỉ rõ liệu chứng minh của một định lý có phụ thuộc vào tiên đề này hay không.
 
