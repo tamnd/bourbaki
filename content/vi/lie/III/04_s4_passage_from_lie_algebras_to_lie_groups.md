@@ -42,7 +42,7 @@ statements: 40
 exercises: 8
 content_sha256: 6411d7b646438ee7b4d04885ef500d06e1edbac804da49b82653775db653898d
 translated_from: content/en/lie/III/04_s4_passage_from_lie_algebras_to_lie_groups.md
-source_content_sha256: dc59481a501f40d45c0742b137c5851b6eca2830d1e1723f2728e33fa3a87a07
+source_content_sha256: 53f3ba4b1e396245998db2c812507d8a4e455c6e25b3731fc861c9dcc4705987
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-cbb0aad0
 glossary_version: 34

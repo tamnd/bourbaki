@@ -30,7 +30,7 @@ statements: 34
 exercises: 8
 content_sha256: 33005c4d0261379eddfce256ea06740f23a1618bdbc31f9aa7f938dab08cbef6
 translated_from: content/en/int/IV/01_s1_upper_integral_of_a_positive_function.md
-source_content_sha256: 4efc1f3cfe523060663c90bb9b64343469cc31d0bbbed2b5f147d96fa86f496e
+source_content_sha256: 3aaa7b5998328b823ccdc99b1b32a831239b3b509eb6788df8712bad61342271
 translation_model: gpt-5.4
 translation_run: translate-vi-cbe59f39
 glossary_version: 34

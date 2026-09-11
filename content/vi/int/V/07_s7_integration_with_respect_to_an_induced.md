@@ -23,7 +23,7 @@ statements: 20
 exercises: 11
 content_sha256: 24833b93d3ed940adbf8f57635290fb5bfe77cabb3a98e9f6d8931858105207d
 translated_from: content/en/int/V/07_s7_integration_with_respect_to_an_induced.md
-source_content_sha256: 5733973f5bdd9fd2e8b08ef663ed9020c730c1ae2dfe39d0ab80fd1f0ffc450c
+source_content_sha256: d6674ea139595be6c132fa589e24ce77d547ad2398a9b423a66a73d7091c401b
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-5d1c0ce4
 glossary_version: 34

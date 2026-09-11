@@ -32,7 +32,7 @@ statements: 22
 exercises: 15
 content_sha256: 80f0157003e517eb006f7aa67e605f2fa8b7c12ef86a07926a8a055895f8859f
 translated_from: content/en/alg/VII/02_s2_torsion_modules_over_a_principal_ideal.md
-source_content_sha256: 18b16f95020a8a741d96574eaeeb64be1473fe323bf1aaba2c7e0f2b696c695b
+source_content_sha256: 78e281d15c49979fbcb148265398137859535dae478a95080b8925131e3b224f
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-a6edd116
 glossary_version: 34

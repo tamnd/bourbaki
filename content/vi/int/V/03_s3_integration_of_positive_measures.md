@@ -39,7 +39,7 @@ statements: 30
 exercises: 11
 content_sha256: 2c9ce2918a92f0cd6c6183e1600dba4afe4a4eb8ed7ed0f67d8d714ee618b930
 translated_from: content/en/int/V/03_s3_integration_of_positive_measures.md
-source_content_sha256: c86f6d9b6a8b568e9223ecc74e13272c1ca7d7b37e0e73528392645aac3cb190
+source_content_sha256: 23be15bf037279815015f8c1b89c7670585f5d3de886c2592ed4c05799e2051b
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini
 translation_run: translate-vi-56c0243e
 glossary_version: 34

@@ -43,7 +43,7 @@ statements: 31
 exercises: 21
 content_sha256: ca1dbe290ee7eb048ace1336d4b1872654774ea8032cbf617fc563b8d901547a
 translated_from: content/en/int/V/08_s8_products_of_measures.md
-source_content_sha256: a3e06c32a25b00ebb1bdb33d080383d36bc6c9d36cba335c108b496f0c58c969
+source_content_sha256: 17d110b54b7bba9f48ad9884564765201535db04b985cfb2373f215e541d64c7
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-646eb530
 glossary_version: 34

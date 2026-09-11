@@ -49,7 +49,7 @@ content_sha256: b05928f2a6ba22a64644efb0179035c3625ca757d62a80da1d37fe80d035b557
 translated_from: content/fr/alg/X/06_s6_utilisation_de_resolutions_non.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 908be744602e152c7d063ad7bc7de7071838f03e3a57fb041dfa7346f158a9b6
+source_content_sha256: ddafc03e2993720640987b9fbb8789eef50bf57ffc1d5f1a847e9fe1f2fe5425
 translation_model: gpt-5.4
 translation_run: translate-en-mt-0e9b7016
 glossary_version: 34

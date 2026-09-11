@@ -31,7 +31,7 @@ statements: 23
 exercises: 16
 content_sha256: fa47af91c90811f600321cb85690b0e9ef00dc8653ab40f84009660540f918e5
 translated_from: content/en/evt/V/02_s2_orthogonal_families_in_a_hilbertian.md
-source_content_sha256: 6fa9993f99ed891eed3d010811e0f5abc1a637fc976e8492d3f06438096abbc2
+source_content_sha256: 98982899e811871f72b61ccec3cbe5be8fc42cab66b8a3d6915fd55e2454c3db
 translation_model: gpt-5-6, gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-b27c62a3
 glossary_version: 34

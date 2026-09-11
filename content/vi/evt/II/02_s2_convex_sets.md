@@ -59,7 +59,7 @@ statements: 49
 exercises: 43
 content_sha256: e559f5ed32a60306a4a948c702aeb2fafe1fb58f89bb08163a0765829c648718
 translated_from: content/en/evt/II/02_s2_convex_sets.md
-source_content_sha256: 742c952fc6a2e57dc8eb5e75ac174e898ff3d3d87043cbf6c8ab24a81db58512
+source_content_sha256: ca783eb36b0dfe47339456767c2940868890099f5abed63dd23457dbac8f2ea6
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-aad0b89a
 glossary_version: 34

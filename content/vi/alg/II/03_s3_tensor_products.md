@@ -52,7 +52,7 @@ statements: 30
 exercises: 4
 content_sha256: b3f904b44fc11499887cd671aa3eab1d9b41cb5c6fa1917fa0e4405c627367c9
 translated_from: content/en/alg/II/03_s3_tensor_products.md
-source_content_sha256: 1eba95005f4ce917b7b3a9ff9847bb4bbfb2a404c0a595664fe6a6f3d7426913
+source_content_sha256: 032eef2568e0d74dea7e1cc2fbfc3e69d6e61504511704a6eff58925b95194a2
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-3b7fa4e4
 glossary_version: 34

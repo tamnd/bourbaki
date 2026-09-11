@@ -31,7 +31,7 @@ statements: 15
 exercises: 9
 content_sha256: 5f56717bf21a4053d09c06bc726fd982043506223e03fa8c314de40e8e9ca2fb
 translated_from: content/en/alg/II/04_s4_relations_between_tensor_products_and.md
-source_content_sha256: 27990209087c39671cad33c6a9b2bf6a92a19d13735d50ad71c6137ca459dfb8
+source_content_sha256: 6dfd4a7bac26e407abb6ed42b7c674028fd2545a3417e49280a736325af40e56
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-ee3a5201
 glossary_version: 34

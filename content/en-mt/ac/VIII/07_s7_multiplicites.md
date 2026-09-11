@@ -37,7 +37,7 @@ content_sha256: a4f19abfb365942a67e63df33787687df3764b32820c7d76162d6297eaee07e6
 translated_from: content/fr/ac/VIII/07_s7_multiplicites.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 7d27f7af9a7636d37dc907e076096955063e5e6fb20fe656bf883ebb44e84d33
+source_content_sha256: 44dd0128f94a514d49d51dfb10d60b7c13ea946bb09421c4528fa914d3498493
 translation_model: gpt-5.4
 translation_run: translate-en-mt-a9139937
 glossary_version: 34

@@ -58,7 +58,7 @@ statements: 54
 exercises: 10
 content_sha256: 86f65e4c29281d1db0f47d9dcc56f6d975aac9b89b400b1aa02f4b6333be7624
 translated_from: content/en/lie/III/01_s1_lie_groups.md
-source_content_sha256: e52337051d072b3fd573ec368d2951d83c152a681fdefe2f8abb0b96ea1b6e8d
+source_content_sha256: ce8eb9499400aea2758df6dd8a881d79c48c136503decc62efe033305bff7df2
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-6a201bc1
 glossary_version: 34

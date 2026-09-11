@@ -14,7 +14,7 @@ statements: 0
 exercises: 0
 content_sha256: 4e9f872375bf9f90ad6a30696554d1df563f6bb59cd9c213c5826737faa6a5fb
 translated_from: content/en/lie/index_of_notation_iv_vi.md
-source_content_sha256: e83aa93ee71000a47ca767d9ccd4f6f8e3714d8d1e66cd41ab28c3380de36b6b
+source_content_sha256: e45d34417b66f70e534f011c7e363f540b7e6a69ca53df4428f6c7f9fc75c473
 translation_model: gpt-5-mini
 translation_run: translate-vi-c0ee6700
 glossary_version: 34

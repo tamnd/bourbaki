@@ -38,7 +38,7 @@ statements: 24
 exercises: 12
 content_sha256: f7566a3394d4e02385dc6fbbba8526967a3d67259b7e4b3112f1f6e1ba3d6f6f
 translated_from: content/en/lie/II/01_s1_enveloping_bigebra_of_a_lie_algebra.md
-source_content_sha256: 3e7a2d8f31448f4a4a6b92eaec94bdcd71f89ebd6479259e802cd1212de986c2
+source_content_sha256: 62e505d8aa0f31960c6846de066bdff7085061b1fc44bb3e8c693ef8b9a5a9ca
 translation_model: gpt-5.4
 translation_run: translate-vi-696e9754
 glossary_version: 34

@@ -63,7 +63,7 @@ statements: 77
 exercises: 30
 content_sha256: db80b522eeacd0f276125bcd78fa36894a8d18f1f46c7cd0f74ab8607db4ffd2
 translated_from: content/en/int/IV/05_s5_measurable_functions_and_sets.md
-source_content_sha256: d2dd442a1870a24021fa0c3140fb4294fafea8355aea1aaaf03d6d89003a2756
+source_content_sha256: a884e01bc9079fb672558918f88286f16f20cd9512c50a20e27c6df3e8959c1e
 translation_model: gpt-5.4
 translation_run: translate-vi-67b4b1df
 glossary_version: 34

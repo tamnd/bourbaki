@@ -55,7 +55,7 @@ statements: 71
 exercises: 30
 content_sha256: 4f0ffc770feff609906c31c1d3b6a73d5f577f895f09a5e7c2d47219744ae524
 translated_from: content/en/lie/III/06_s6_real_and_complex_lie_groups.md
-source_content_sha256: a52c873bcf9c62fc8fba9209dcc1e9adccdfb18291f0cf132a2bfb157a201e58
+source_content_sha256: 60ae69926749a32341c1c992c625b3998659271b7a1f516a4d2b33c14a6ecf8e
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-mini
 translation_run: translate-vi-f0c4fab8
 glossary_version: 34
