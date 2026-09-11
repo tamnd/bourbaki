@@ -36,9 +36,9 @@ subsections:
       pdf_page: 137
 statements: 24
 exercises: 12
-content_sha256: f7566a3394d4e02385dc6fbbba8526967a3d67259b7e4b3112f1f6e1ba3d6f6f
+content_sha256: 6bbdd1cb50dceffafac58d1fc215bf4b96799fc9074f4cb369a5ae9edd307814
 translated_from: content/en/lie/II/01_s1_enveloping_bigebra_of_a_lie_algebra.md
-source_content_sha256: 62e505d8aa0f31960c6846de066bdff7085061b1fc44bb3e8c693ef8b9a5a9ca
+source_content_sha256: 48cfcdd81cc4a6c7ad70c51c1051e6072017a0a4153d365c2a032815545ccf44
 translation_model: gpt-5.4
 translation_run: translate-vi-696e9754
 glossary_version: 34
@@ -296,10 +296,10 @@ do đó suy ra kết quả.
 (e) Ta biết rằng U_0 = K . 1, U_n ⊂ U_{n+1}, U = ⋃_{n ≥ 0} U_n và U_n · U_m ⊂ U_{n+m} (chương I, § 2, no. 6). Cho a_1, ..., a_n thuộc σ(g). Khi đó
 
 $$
-c(a_1 ... a_n) = \prod_{i=1}^n c(a_i) = \prod_{i=1}^n (a_i ⊗ 1 + 1 ⊗ a_i)
+c(a_1 ... a_n) = \prod_{i=1}^n c(a_i) = \prod_{i=1}^n (a_i \otimes 1 + 1 \otimes a_i)
 $$
 $$
-= \sum_{i=0}^n \sum_{\alpha ∈ I(i)} (a_{\alpha(1)} ... a_{\alpha(i)}) ⊗ (a_{\alpha(i+1)} ... a_{\alpha(n)}),
+= \sum_{i=0}^n \sum_{\alpha \in I(i)} (a_{\alpha(1)} ... a_{\alpha(i)}) \otimes (a_{\alpha(i+1)} ... a_{\alpha(n)}),
 $$
 
 trong đó I(i) ký hiệu tập hợp các hoán vị của {1, n} tăng trên mỗi khoảng {1, i} và {i + 1, n}. Vì U_n là K-môđun được sinh bởi các tích của nhiều nhất n phần tử của σ(g), công thức (8) suy ra rằng bộ lọc (U_n) là tương thích với cấu trúc song đại số của (U, c).
@@ -314,7 +314,7 @@ trong đó I(i) ký hiệu tập hợp các hoán vị của {1, n} tăng trên 
 
 Ta chứng minh rằng (f ⊗ f) ∘ c = c_E ∘ f. Đây là hai đồng cấu đại số có đơn vị từ U vào E ⊗ E và, với a ∈ σ(g),
 
-$$(f ⊗ f)(c(a)) = f(a) ⊗ 1 + 1 ⊗ f(a) = c_E(f(a))$$
+$$(f \otimes f)(c(a)) = f(a) \otimes 1 + 1 \otimes f(a) = c_E(f(a))$$
 
 vì f(a) ∈ P(E). Tương tự, nếu ε_E là đồng đơn vị của E thì ε_E ∘ f là một đồng cấu đại số có đơn vị U → K triệt tiêu trên σ(g) (no. 1, Mệnh đề 1) và do đó trùng với ε.
 

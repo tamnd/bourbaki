@@ -24,7 +24,7 @@ subsections:
       pdf_page: 69
 statements: 17
 exercises: 0
-content_sha256: fc735c5306b3fc0f15c05bccf2c1d84803fa618435da608b41bf52df23b2ecdf
+content_sha256: 5e9be725e626d27ec9f6c1c0d374b4a35a313c37733d5f97a7a61e55bd3b449a
 translated_from: content/en-mt/alg/IX/04_s4_sous_espaces_totalement_isotropes.md
 source_lang: en-mt
 translation_method: machine
@@ -216,27 +216,27 @@ Cho hai không gian vectơ E, $E'$ trên A được trang bị tương ứng v�
 
 Dùng đẳng cấu đã cho từ E lên E', ta thấy rằng chỉ cần chứng minh rằng mọi đồng cấu metric đơn ánh u từ F vào E đều mở rộng được thành một tự đẳng cấu metric của E. Ta nhận xét rằng nếu, với i = 1, 2, $F_i$ là một không gian con của E và $u_i$ là một đồng cấu metric từ $F_i$ vào E, sao cho $F_1 \cap F_2 = {0}$ và $\Phi(u_1(x_1), u_2(x_2)) = \Phi(x_1, x_2)$ với $x_i \in F_i$ (i = 1, 2), thì đồng cấu ψ : $x_1 + x_2 \to u_1(x_1) + u_2(x_2)$ từ $F_1 + F_2$ vào E kéo dài $u_1$ và $u_2$ là metric: thật vậy, với mọi $x_i, y_i$ trong $F_i$ (i = 1, 2), khai triển của mỗi biểu thức $\Phi(x_1 + x_2, y_1 + y_2)$ và $\Phi(u_1(x_1) + u_2(x_2), u_1(y_1) + u_2(y_2))$ (tương ứng $Q(x_1 + x_2)$ và $Q(u_1(x_1) + u_2(x_2))$) chứa bốn (tương ứng ba) hạng tử bằng nhau từng đôi một theo các giả thiết đã đặt ra. Hơn nữa, nếu $u_1$ và $u_2$ là đơn ánh và nếu $u_1(F_1) \cap u_2(F_2) = {0}$, thì ψ là đơn ánh.
 
-1) Trước hết ta chứng minh định lý Witt trong trường hợp tập hợp các phần tử bất biến bởi u là một siêu phẳng U của F. Khi đó tập hợp các vectơ có dạng $u(x) − x$ với $x ∈ F$ là một D phải. Nếu F' là một không gian con trực giao với D sao cho $F' ∩ F = F' ∩ u(F) = {0}$, thì ta sẽ có $\Phi(u(x), y) = \Phi(x, y)$ với $x ∈ F$ và $y ∈ F'$; do đó nhận xét ban đầu của ta áp dụng được cho u và cho ánh xạ đồng nhất từ F' vào E, và chỉ ra rằng u mở rộng được lên $F + F'$ bằng cách giữ cố định các điểm của F'; tập hợp các vectơ có dạng $u(x) − x$ ($x ∈ F + F'$) vẫn là D phải. Bây giờ, với $x ∈ F, y ∈ F$ ta có
+1) Trước hết ta chứng minh định lý Witt trong trường hợp tập hợp các phần tử bất biến bởi u là một siêu phẳng U của F. Khi đó tập hợp các vectơ có dạng $u(x) - x$ với $x \in F$ là một D phải. Nếu F' là một không gian con trực giao với D sao cho $F' \cap F = F' \cap u(F) = {0}$, thì ta sẽ có $\Phi(u(x), y) = \Phi(x, y)$ với $x \in F$ và $y \in F'$; do đó nhận xét ban đầu của ta áp dụng được cho u và cho ánh xạ đồng nhất từ F' vào E, và chỉ ra rằng u mở rộng được lên $F + F'$ bằng cách giữ cố định các điểm của F'; tập hợp các vectơ có dạng $u(x) - x$ ($x \in F + F'$) vẫn là D phải. Bây giờ, với $x \in F, y \in F$ ta có
 
 (5) $\Phi(u(x), u(y) - y) = \Phi(u(x), u(y)) - \Phi(u(x), y) = \Phi(x - u(x), y)$,
 
-điều này, khi $x ∈ U$ (nghĩa là khi $u(x) = x$), cho thấy rằng $x ∈ D^0$; nói cách khác ta có $U ⊂ D^0$. Ta sẽ phân biệt hai trường hợp:
+điều này, khi $x \in U$ (nghĩa là khi $u(x) = x$), cho thấy rằng $x \in D^0$; nói cách khác ta có $U \subset D^0$. Ta sẽ phân biệt hai trường hợp:
 
 a) $F \not\subset D^0$. Công thức (5) cho thấy rằng $u(F)$ không được chứa trong $D^0$, do đó $F \cap D^0 = u(F) \cap D^0 = U$. Khi đó có thể lấy cho F' một không gian con bù của U trong $D^0$; vì $F + F'$ chứa siêu phẳng $D^0$ và khác nó, nên ta có $F + F' = E$, và trong trường hợp này ta đã tìm được phép mở rộng cần thiết của u lên E.
 
 b) F ⊂ D^0. Công thức (5) cho thấy rằng u(F) ⊂ D^0, và do đó
 
-D ⊂ D^0 ; vì thế D phải là đẳng hướng (tương ứng kỳ dị, vì ta có $Q(u(x) − x) = Q(u(x)) − \Phi(x, u(x)) + Q(x) = 2Q(x) − \Phi(x, x) = 0$ với $x ∈ F$). Ta sẽ chỉ ra rằng, dưới các điều kiện này, tồn tại một không gian con F' của $D^0$ bù cho F và u(F) trong $D^0$. Điều này là ngay lập tức nếu F = u(F). Nếu không, lấy x và y là các vectơ sao cho $x ∈ F, x ∉ U, y ∈ u(F), y ∉ U$; khi đó ta có $F = U + Ax, u(F) = U + Ay$, và F không chứa $x + y$ vì nếu không thì $y = (x + y) − x$ sẽ thuộc $F ∩ u(F) = U$; tương tự ta thấy rằng $x + y$ không thuộc u(F); do đó A phải $(x + y)$ bù cho F và u(F) trong không gian con $F + u(F)$; khi đó chỉ cần đặt $F' = A(x + y) + G$ trong đó G bù cho $F + u(F)$ trong $D^0$. Khi đó, ta có $F + F' = u(F) + F' = D^0$, và, trong trường hợp này, điều đã nói ở đầu 1) cho thấy rằng tồn tại một phép mở rộng của u lên siêu phẳng $D^0$ của E, và $D^0$ ổn định đối với phép mở rộng này.
+D ⊂ D^0 ; vì thế D phải là đẳng hướng (tương ứng kỳ dị, vì ta có $Q(u(x) - x) = Q(u(x)) - \Phi(x, u(x)) + Q(x) = 2Q(x) - \Phi(x, x) = 0$ với $x \in F$). Ta sẽ chỉ ra rằng, dưới các điều kiện này, tồn tại một không gian con F' của $D^0$ bù cho F và u(F) trong $D^0$. Điều này là ngay lập tức nếu F = u(F). Nếu không, lấy x và y là các vectơ sao cho $x \in F, x \notin U, y \in u(F), y \notin U$; khi đó ta có $F = U + Ax, u(F) = U + Ay$, và F không chứa $x + y$ vì nếu không thì $y = (x + y) - x$ sẽ thuộc $F \cap u(F) = U$; tương tự ta thấy rằng $x + y$ không thuộc u(F); do đó A phải $(x + y)$ bù cho F và u(F) trong không gian con $F + u(F)$; khi đó chỉ cần đặt $F' = A(x + y) + G$ trong đó G bù cho $F + u(F)$ trong $D^0$. Khi đó, ta có $F + F' = u(F) + F' = D^0$, và, trong trường hợp này, điều đã nói ở đầu 1) cho thấy rằng tồn tại một phép mở rộng của u lên siêu phẳng $D^0$ của E, và $D^0$ ổn định đối với phép mở rộng này.
 
-Vì vậy ta được đưa về trường hợp F là siêu phẳng $D^0$ và u là một tự đẳng cấu của F. Ta chứng minh rằng, với mọi $z ∈ E$, tồn tại $z' ∈ E$ sao cho
+Vì vậy ta được đưa về trường hợp F là siêu phẳng $D^0$ và u là một tự đẳng cấu của F. Ta chứng minh rằng, với mọi $z \in E$, tồn tại $z' \in E$ sao cho
 
 (6)
 $$
 \Phi(u(x), z') = \Phi(x, z)
 $$
-với mọi x ∈ F; thật vậy dạng tuyến tính $x → \Phi(u^{-1}(x), z)$ trên F là hạn chế của một dạng tuyến tính trên E, một dạng có kiểu $x → \Phi(x, z')$ vì Φ không suy biến; do đó (6) đúng. Hơn nữa, nếu $z ∉ F$, thì tồn tại một vectơ $z' ∈ E$ thỏa mãn (6) và sao cho $\Phi(z', z') = \Phi(z, z)$ (tương ứng $Q(z') = Q(z)$): thật vậy công thức (6) vẫn còn đúng nếu ta cộng vào z' một phần tử $u(y) − y$ ($y ∈ F$) của D vì $F = D^0$, và Bổ đề 1 của No. 2 cho phép kết luận vì z không trực giao với D. Nhận xét ban đầu của ta khi đó cho thấy rằng tồn tại một đồng cấu metric ϕ từ $F + Az = E$ vào E mở rộng u và biến đổi z thành z'. Vì Φ không suy biến, ϕ là tự đẳng cấu metric cần tìm của E.
+với mọi x ∈ F; thật vậy dạng tuyến tính $x \to \Phi(u^{-1}(x), z)$ trên F là hạn chế của một dạng tuyến tính trên E, một dạng có kiểu $x \to \Phi(x, z')$ vì Φ không suy biến; do đó (6) đúng. Hơn nữa, nếu $z \notin F$, thì tồn tại một vectơ $z' \in E$ thỏa mãn (6) và sao cho $\Phi(z', z') = \Phi(z, z)$ (tương ứng $Q(z') = Q(z)$): thật vậy công thức (6) vẫn còn đúng nếu ta cộng vào z' một phần tử $u(y) - y$ ($y \in F$) của D vì $F = D^0$, và Bổ đề 1 của No. 2 cho phép kết luận vì z không trực giao với D. Nhận xét ban đầu của ta khi đó cho thấy rằng tồn tại một đồng cấu metric ϕ từ $F + Az = E$ vào E mở rộng u và biến đổi z thành z'. Vì Φ không suy biến, ϕ là tự đẳng cấu metric cần tìm của E.
 
-2) Trong trường hợp tổng quát, ta lập luận bằng quy nạp theo $r = dim F$. Trường hợp $r = 0$ là tầm thường. Giả sử khi đó $r > 0$, nghĩa là $F ≠ {0}$, và gọi U là một siêu phẳng của F. Hạn chế $u_0$ của u lên U, theo giả thiết quy nạp, mở rộng được thành một tự đẳng cấu metric $\varphi_0$ của E. Nếu $\varphi_0$ mở rộng u, thì định lý được chứng minh. Nếu không, U là tập hợp các phần tử bất biến bởi $v_0^{-1}u$, và tồn tại, theo 1), một tự đẳng cấu metric $v_1$ của E mở rộng $v_0^{-1}u$. Tự đẳng cấu $v_0v_1$ khi đó là phép mở rộng cần thiết của u. QED.
+2) Trong trường hợp tổng quát, ta lập luận bằng quy nạp theo $r = dim F$. Trường hợp $r = 0$ là tầm thường. Giả sử khi đó $r > 0$, nghĩa là $F \neq {0}$, và gọi U là một siêu phẳng của F. Hạn chế $u_0$ của u lên U, theo giả thiết quy nạp, mở rộng được thành một tự đẳng cấu metric $\varphi_0$ của E. Nếu $\varphi_0$ mở rộng u, thì định lý được chứng minh. Nếu không, U là tập hợp các phần tử bất biến bởi $v_0^{-1}u$, và tồn tại, theo 1), một tự đẳng cấu metric $v_1$ của E mở rộng $v_0^{-1}u$. Tự đẳng cấu $v_0v_1$ khi đó là phép mở rộng cần thiết của u. QED.
 
 #### Hệ quả 1 {#alg-ix-s4-prop-4-cor-1 .statement}
 

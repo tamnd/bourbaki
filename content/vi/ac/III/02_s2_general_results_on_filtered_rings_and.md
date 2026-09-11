@@ -65,9 +65,9 @@ subsections:
       pdf_page: 212
 statements: 57
 exercises: 13
-content_sha256: 7dc1163f9ddf817630aacb28623da2988acb2ad2aeae931c34983b288cd25769
+content_sha256: 8fe8db8458fe828dd3653c324448e85c840f15ac303f01fb0927670c5830816a
 translated_from: content/en/ac/III/02_s2_general_results_on_filtered_rings_and.md
-source_content_sha256: 8ef1e1745e256756c336640ea25cd38dd8a13bd1f46cf491dee2874345913e91
+source_content_sha256: bb5c0ba3ec8f46dd3e98a66f30d020781e123ced6ca57aff1c0910309f89a6c6
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-61e6febe
 glossary_version: 34
@@ -158,9 +158,9 @@ Cho A là một vành được lọc, E là một A-môđun được lọc và $
 
 $$
 \begin{cases}
-v(x) = -∞ \Leftrightarrow x \notin \bigcup_{n \in \mathbf{Z}} E_n \\
+v(x) = -\infty \Leftrightarrow x \notin \bigcup_{n \in \mathbf{Z}} E_n \\
 v(x) = p \Leftrightarrow x \in E_p \text{ và } x \notin E_{p+1} \\
-v(x) = +∞ \Leftrightarrow x \in \bigcap_{n \in \mathbf{Z}} E_n
+v(x) = +\infty \Leftrightarrow x \in \bigcap_{n \in \mathbf{Z}} E_n
 \end{cases}
 $$
 

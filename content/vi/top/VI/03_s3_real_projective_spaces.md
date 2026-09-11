@@ -36,9 +36,9 @@ subsections:
       pdf_page: 59
 statements: 14
 exercises: 10
-content_sha256: 941fb554e0ec08529003e12a15f3ddefab38d5c7f7a93b48f3e0c721436a916e
+content_sha256: 25cd6d9889467a5e0b53d1aa6540cb1ed516f3bc7c81e65d6ec57ff5f3ac90fe
 translated_from: content/en/top/VI/03_s3_real_projective_spaces.md
-source_content_sha256: 53d9a6c6d16fec228a219b9d179e95bab1a2ba49b45ee6d650a09b758196d514
+source_content_sha256: cdbfaa0529c2d9178477ff39ba5fa15f3824e5ea0e5baf56c3673f8c85549196
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6
 translation_run: translate-vi-1fc55e42
 glossary_version: 34
@@ -224,7 +224,7 @@ Do đó tập $C_\sigma$ liên thông. Vì $A_\sigma$ trù mật trong $L_{n+1,p
 Ma trận $Y = g(X)$ có thể được hiểu như sau: để đơn giản, ta giả sử rằng dãy $\sigma$ gồm $p + 1$ chỉ số $n - p$, $n - p + 1$, ..., $n$, và cho $a_{ij}$ (1 ≤ i ≤ p + 1, 0 ≤ j ≤ n − p − 1) ký hiệu các phần tử của $n - p$ cột đầu của y; khi đó không gian con vectơ của $\mathbf{R}^{n+1}$ được sinh bởi các hàng của x là không gian được xác định bởi các phương trình
 
 $$
-x_j = \sum_{i=1}^{p+1} a_{ij} x_{n-p+i-1} \quad (0 ≤ j ≤ n-p-1).
+x_j = \sum_{i=1}^{p+1} a_{ij} x_{n-p+i-1} \quad (0 \leq j \leq n-p-1).
 $$
 
 ### 6. GRASSMANNIANS

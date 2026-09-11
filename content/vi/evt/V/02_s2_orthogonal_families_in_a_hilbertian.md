@@ -29,9 +29,9 @@ subsections:
       pdf_page: 281
 statements: 23
 exercises: 16
-content_sha256: fa47af91c90811f600321cb85690b0e9ef00dc8653ab40f84009660540f918e5
+content_sha256: 3fafecd082ad7da7084d5c00e50685cf5379d6b7ad8bc9e7a3d20b187e5ec511
 translated_from: content/en/evt/V/02_s2_orthogonal_families_in_a_hilbertian.md
-source_content_sha256: 98982899e811871f72b61ccec3cbe5be8fc42cab66b8a3d6915fd55e2454c3db
+source_content_sha256: 109a66b6721878b6fd9023991b492f899a3e3a39bcc94c4aaa2c3af4ce0616d9
 translation_model: gpt-5-6, gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-b27c62a3
 glossary_version: 34
@@ -162,11 +162,11 @@ Cho E là một không gian tiền Hilbert Hausdorff, $(V_i)_{i \in I}$ là mộ
 
 #### Định nghĩa 3 {#evt-v-s2-def-3 .statement}
 
-Trong một không gian tiền Hilbert, một họ $(e_i)_{i∈I}$ các vectơ được gọi là trực giao nếu $e_i$ và $e_k$ trực giao với nhau với mọi $i \neq k$, và được gọi là trực chuẩn nếu thêm nữa $\|e_i\| = 1$ với mọi $i ∈ I$.
+Trong một không gian tiền Hilbert, một họ $(e_i)_{i\in I}$ các vectơ được gọi là trực giao nếu $e_i$ và $e_k$ trực giao với nhau với mọi $i \neq k$, và được gọi là trực chuẩn nếu thêm nữa $\|e_i\| = 1$ với mọi $i \in I$.
 
-Một tập con S của E sao cho họ do ánh xạ đồng nhất từ S lên chính nó xác định là trực chuẩn được gọi là một tập trực chuẩn. Nếu $(e_i)_{i∈I}$ là một họ trực chuẩn, thì ánh xạ $i \mapsto e_i$ là đơn ánh; khi đó ta có thể nói không phân biệt về một họ trực chuẩn hay một tập trực chuẩn.
+Một tập con S của E sao cho họ do ánh xạ đồng nhất từ S lên chính nó xác định là trực chuẩn được gọi là một tập trực chuẩn. Nếu $(e_i)_{i\in I}$ là một họ trực chuẩn, thì ánh xạ $i \mapsto e_i$ là đơn ánh; khi đó ta có thể nói không phân biệt về một họ trực chuẩn hay một tập trực chuẩn.
 
-Nếu $(e_i)_{i∈I}$ là một họ trực chuẩn, thì các không gian con vectơ một chiều đầy đủ $D_i = Ke_i$ đôi một trực giao. Với mọi $x ∈ E$, phép chiếu trực giao của $x$ lên $D_i$ là $\lambda_i e_i$ với $⟨e_i|x - \lambda_i e_i⟩ = 0$, suy ra $⟨e_i|x⟩ = \lambda_i ⟨e_i|e_i⟩ = \lambda_i$. Các kết quả của No. 2 áp dụng cho các không gian con $D_i$ suy ra các mệnh đề sau:
+Nếu $(e_i)_{i\in I}$ là một họ trực chuẩn, thì các không gian con vectơ một chiều đầy đủ $D_i = Ke_i$ đôi một trực giao. Với mọi $x \in E$, phép chiếu trực giao của $x$ lên $D_i$ là $\lambda_i e_i$ với $⟨e_i|x - \lambda_i e_i⟩ = 0$, suy ra $⟨e_i|x⟩ = \lambda_i ⟨e_i|e_i⟩ = \lambda_i$. Các kết quả của No. 2 áp dụng cho các không gian con $D_i$ suy ra các mệnh đề sau:
 
 #### Mệnh đề 3 {#evt-v-s2-prop-3 .statement}
 
@@ -176,19 +176,19 @@ Ta lưu ý rằng tính chất này suy ra ngay lập tức từ đặc trưng h
 
 #### Mệnh đề 4 {#evt-v-s2-prop-4 .statement}
 
-Cho E là một không gian tiền Hilbert Hausdorff, $(e_i)_{i∈I}$ là một họ trực chuẩn trong E, V là không gian con vectơ đóng của E sinh bởi các $e_i$.
+Cho E là một không gian tiền Hilbert Hausdorff, $(e_i)_{i\in I}$ là một họ trực chuẩn trong E, V là không gian con vectơ đóng của E sinh bởi các $e_i$.
 
-1) Với mọi $x ∈ E$, ta có
+1) Với mọi $x \in E$, ta có
 
 $$
-\sum_{i∈I} |⟨e_i|x⟩|^2 \leq \|x\|^2
+\sum_{i\in I} |⟨e_i|x⟩|^2 \leq \|x\|^2
 $$
 
-(bất đẳng thức Bessel); ở đây tập hợp tất cả các $i ∈ I$ sao cho $⟨e_i|x⟩ \neq 0$ là đếm được. Hơn nữa, các điều kiện sau là tương đương : a) $x ∈ V$; b) $\|x\|^2 = \sum_{i∈I} |⟨e_i|x⟩|^2$; c) họ $⟨e_i|x⟩.e_i$ là khả tổng trong E, và $x = \sum_{i∈I} ⟨e_i|x⟩.e_i$.
+(bất đẳng thức Bessel); ở đây tập hợp tất cả các $i \in I$ sao cho $⟨e_i|x⟩ \neq 0$ là đếm được. Hơn nữa, các điều kiện sau là tương đương : a) $x \in V$; b) $\|x\|^2 = \sum_{i\in I} |⟨e_i|x⟩|^2$; c) họ $⟨e_i|x⟩.e_i$ là khả tổng trong E, và $x = \sum_{i\in I} ⟨e_i|x⟩.e_i$.
 
-2) Nếu V đầy đủ, thì họ tất cả các $⟨e_i|x⟩.e_i$ là khả tổng trong E với mọi $x ∈ E$, và $\sum_{i∈I} ⟨e_i|x⟩.e_i = p_V(x), \sum_{i∈I} |⟨e_i|x⟩|^2 = \|p_V(x)\|^2$.
+2) Nếu V đầy đủ, thì họ tất cả các $⟨e_i|x⟩.e_i$ là khả tổng trong E với mọi $x \in E$, và $\sum_{i\in I} ⟨e_i|x⟩.e_i = p_V(x), \sum_{i\in I} |⟨e_i|x⟩|^2 = \|p_V(x)\|^2$.
 
-3) Giả sử V đầy đủ. Với mọi họ $(\lambda_i)_{i∈I}$ của các số vô hướng sao cho $\sum_{i∈I} |\lambda_i|^2 < +∞$, tồn tại duy nhất một điểm $x ∈ V$ sao cho $⟨e_i|x⟩ = \lambda_i$ với mọi $i ∈ I$. Nếu $(\mu_i)_{i∈I}$ là một họ thứ hai các số vô hướng sao cho $\sum_{i∈I} |\mu_i|^2 < +∞$, và nếu $y ∈ V$ sao cho $⟨e_i|y⟩ = \mu_i$ với mọi $i ∈ I$, thì $⟨x|y⟩ = \sum_{i∈I} \overline{\lambda_i} \mu_i$.
+3) Giả sử V đầy đủ. Với mọi họ $(\lambda_i)_{i\in I}$ của các số vô hướng sao cho $\sum_{i\in I} |\lambda_i|^2 < +\infty$, tồn tại duy nhất một điểm $x \in V$ sao cho $⟨e_i|x⟩ = \lambda_i$ với mọi $i \in I$. Nếu $(\mu_i)_{i\in I}$ là một họ thứ hai các số vô hướng sao cho $\sum_{i\in I} |\mu_i|^2 < +\infty$, và nếu $y \in V$ sao cho $⟨e_i|y⟩ = \mu_i$ với mọi $i \in I$, thì $⟨x|y⟩ = \sum_{i\in I} \overline{\lambda_i} \mu_i$.
 
 #### Mệnh đề 5 {#evt-v-s2-prop-5 .statement}
 

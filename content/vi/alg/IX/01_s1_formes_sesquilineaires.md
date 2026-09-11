@@ -52,7 +52,7 @@ subsections:
       pdf_page: 30
 statements: 45
 exercises: 0
-content_sha256: b1ee3826972fa9a76e0a9f2b8230dd4c5fe08e1a2b5753fe00b8ef9828bbce5a
+content_sha256: f50f20d7630466ba59345cf3421137475f003225ee1a534803ec1df2bf1c54b3
 translated_from: content/en-mt/alg/IX/01_s1_formes_sesquilineaires.md
 source_lang: en-mt
 translation_method: machine
@@ -390,7 +390,7 @@ $$
 Bây giờ ta sẽ định nghĩa các ánh xạ tuyến tính liên kết với một dạng sesquilinear. Cho J là một tự phản đẳng cấu của A và $\Phi$ là một dạng sesquilinear (bên phải) đối với J trên E × F (F là một A-môđun trái); đặt J′ = J^{-1}. Ánh xạ $\Phi′$ từ F × E vào A được định nghĩa bởi
 
 $$
-\Phi′(y, x) = \Phi(x, y)^{J′} \quad (x ∈ E, y ∈ F)
+\Phi′(y, x) = \Phi(x, y)^{J′} \quad (x \in E, y \in F)
 $$
 
 là, như ta dễ dàng thấy, một dạng sesquilinear (bên phải) đối với J′ trên F × E. Theo No. 2 (Định nghĩa 5) các dạng sesquilinear $\Phi$ và $\Phi′$ lần lượt được đồng nhất với các dạng song tuyến tính trên E × F^{J′} và trên F × E^{J′}. Các ánh xạ $d_{\Phi}$ và $d_{\Phi′}$ liên kết với các dạng sau được gọi là các ánh xạ liên kết phải và trái với dạng sesquilinear $\Phi$, và được ký hiệu bởi $d_\Phi$ và $s_\Phi$. Do đó ta có, theo định nghĩa:

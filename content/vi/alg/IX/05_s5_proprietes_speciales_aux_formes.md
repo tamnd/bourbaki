@@ -24,7 +24,7 @@ subsections:
       pdf_page: 82
 statements: 11
 exercises: 0
-content_sha256: fb07d76b1b814223364adf50be80dd5834d90aeb1313cb628d8bdb93e9553baf
+content_sha256: aa61614446311d96600cef595ab56decefe1c2648476408f316396c7dd1c3f0f
 translated_from: content/en-mt/alg/IX/05_s5_proprietes_speciales_aux_formes.md
 source_lang: en-mt
 translation_method: machine
@@ -223,7 +223,7 @@ d) Suy ra từ c) rằng các số m_k là chẵn (dùng Bài tập 2).
 
 e) Kết luận từ d) rằng số các ước số sơ cấp của tự đồng cấu ω, tương ứng với nghiệm đặc số λ = 0, và có một bậc cho trước, là chẵn (xem Chương VII, § 5, Bài tập 20).
 
-4) Cho E là một không gian vectơ trên một trường giao hoán A, thừa nhận một cơ sở đếm được $(e_n)_{n≥1}$, và cho $\Phi$ là một dạng phản xứng không suy biến trên E. Hãy chỉ ra rằng tồn tại trong E một cơ sở $(a_n)$ sao cho Φ(a_{2n−1}, a_{2n}) = 1 với mọi n ≥ 1, và Φ(a_i, a_j) = 0 với mọi cặp chỉ số khác sao cho i < j (lập luận như trong Bài tập 13 của § 4).
+4) Cho E là một không gian vectơ trên một trường giao hoán A, thừa nhận một cơ sở đếm được $(e_n)_{n\geq1}$, và cho $\Phi$ là một dạng phản xứng không suy biến trên E. Hãy chỉ ra rằng tồn tại trong E một cơ sở $(a_n)$ sao cho Φ(a_{2n−1}, a_{2n}) = 1 với mọi n ≥ 1, và Φ(a_i, a_j) = 0 với mọi cặp chỉ số khác sao cho i < j (lập luận như trong Bài tập 13 của § 4).
 
 5) Với mọi ma trận phản xứng X = (x_{ij}) có cấp chẵn n = 2m trên một vành giao hoán, và với mọi chỉ số i, hãy chỉ ra rằng ta có
 $$

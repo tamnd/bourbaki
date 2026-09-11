@@ -24,9 +24,9 @@ subsections:
       pdf_page: 255
 statements: 10
 exercises: 0
-content_sha256: 6e766b3dca880cbcf4b6aea4bd295328ae2a32580fae7cb2410eea31f7e3d07d
+content_sha256: 39df71fac04dbe3c0e47f6989aad2221c004bf36f2b05670de0a63ae6d0e8e9a
 translated_from: content/en/lie/III/02_s2_group_of_tangent_vectors_to_a_lie_group.md
-source_content_sha256: 7845b7e2bd4a655ddc90c51d69de092ba1cf892797854eb6ec7e8069c2d39675
+source_content_sha256: 1bb3505ac4e1daf1314c53912b5ccbc1316d47cdbbdbbeaeb27158c6609ae39d
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-e80acfda
 glossary_version: 34
@@ -53,11 +53,11 @@ $$T(f)(0_a, 0_b) = 0_{f(a, b)}.$$
 
 Mặt khác, ánh xạ y ↦ f(a, y) là hợp thành của phép nhúng y ↦ (a, y) và f; do đó
 
-(3) $T(f)(0, v)$ là ảnh của v qua ánh xạ tiếp xúc của ánh xạ $y ↦ f(a, y)$.
+(3) $T(f)(0, v)$ là ảnh của v qua ánh xạ tiếp xúc của ánh xạ $y \mapsto f(a, y)$.
 
 Tương tự
 
-(4) $T(f)(u, 0)$ là ảnh của u qua ánh xạ tiếp xúc của ánh xạ $x ↦ f(x, b)$.
+(4) $T(f)(u, 0)$ là ảnh của u qua ánh xạ tiếp xúc của ánh xạ $x \mapsto f(x, b)$.
 
 Nếu ánh xạ f của X × Y vào Z được ký hiệu bởi (x, y) ↦ xy, thì uv thường được dùng để ký hiệu phần tử T(f)(u, v) với u ∈ T(X), v ∈ T(Y).
 
@@ -71,7 +71,7 @@ Từ (2) suy ra rằng
 (6)
 $$T(m)(0_x, 0_y) = 0_{m(x, y)}$$
 
-với mọi x, y trong X; nói cách khác, tiết diện không $x ↦ 0_x$ của T(X) tương thích với các luật m và T(m).
+với mọi x, y trong X; nói cách khác, tiết diện không $x \mapsto 0_x$ của T(X) tương thích với các luật m và T(m).
 
 #### Mệnh đề 1 {#lie-iii-s2-prop-1 .statement}
 

@@ -48,7 +48,7 @@ subsections:
       pdf_page: 214
 statements: 48
 exercises: 1
-content_sha256: 2fb8b52f2d83021f0edf05b386e3fcd37d417f3a591fd37e97f8dc11058218aa
+content_sha256: 787783b0f3759c07ef3858ec9e60e82200088c70ece781a3a0aad5bde2364c35
 translated_from: content/en/top/IX/06_s6_polish_spaces_souslin_spaces_borel_sets.md
 source_content_sha256: 69f92cd78f330694f81aad84eec3ecfd43d27d5eacabcc416871a1736cb0f341
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
@@ -367,7 +367,7 @@ tương ứng; và đặt $h_n(c)$ là giao của các tập hợp
 
 $g'_n(c),\ g'_{n-1}(c_{n-1}),\ ...\ ,\ g'_0(c_0)$.
 
-Vì $q_i(c_i) \supset q_n(c)$ với $0 \le i \le n − 1$, nên $h_n(c)$ chứa $g_n(c)$; cũng hiển nhiên rằng $h_n(c)$ là một tập hợp Borel và được chứa trong $g_n(c)$, và khi $c$ chạy qua $C_n$, các $h_n(c)$ là các tập hợp đôi một rời nhau; cuối cùng, theo cách dựng, với mỗi $c' \in C_{n+1}$ ta có $h_{n+1}(c') \subset h_n(p_n(c'))$. Khi đó đặt $B_n$ là hợp của các tập hợp $h_n(c)$ khi $c$ chạy qua $C_n$; $B_n$ là một tập hợp Borel, và $B_{n+1} \subset B_n$; đồng thời $B_n$ chứa hợp của các tập hợp $g_n(c)$ ($c \in C_n$), tức là $A$. Đặt $B$ là giao của dãy giảm các tập hợp $B_n$; $B$ là một tập hợp Borel và chứa $A$. Ta sẽ chứng minh rằng $B = A$, và điều này sẽ hoàn tất chứng minh.
+Vì $q_i(c_i) \supset q_n(c)$ với $0 \le i \le n - 1$, nên $h_n(c)$ chứa $g_n(c)$; cũng hiển nhiên rằng $h_n(c)$ là một tập hợp Borel và được chứa trong $g_n(c)$, và khi $c$ chạy qua $C_n$, các $h_n(c)$ là các tập hợp đôi một rời nhau; cuối cùng, theo cách dựng, với mỗi $c' \in C_{n+1}$ ta có $h_{n+1}(c') \subset h_n(p_n(c'))$. Khi đó đặt $B_n$ là hợp của các tập hợp $h_n(c)$ khi $c$ chạy qua $C_n$; $B_n$ là một tập hợp Borel, và $B_{n+1} \subset B_n$; đồng thời $B_n$ chứa hợp của các tập hợp $g_n(c)$ ($c \in C_n$), tức là $A$. Đặt $B$ là giao của dãy giảm các tập hợp $B_n$; $B$ là một tập hợp Borel và chứa $A$. Ta sẽ chứng minh rằng $B = A$, và điều này sẽ hoàn tất chứng minh.
 
 Lấy $x$ là một điểm của $B$. Khi đó, với mỗi số nguyên $n$, tồn tại duy nhất $c \in C_n$ sao cho $x \in h_n(c)$; ta ký hiệu $c$ này là $c_n(x)$. Dãy $(c_n(x))_{n\ge0}$ thuộc $L(C)$. Dãy giảm $(g_n(c_n(x)))$ hội tụ theo định nghĩa đến một điểm $a \in A$; dãy các bao đóng của các tập hợp này cũng hội tụ đến $a$ trong $X$, nên a fortiori dãy $(h_n(c_n(x)))$ cũng vậy. Nay $x$ thuộc tất cả các tập hợp $h_n(c_n(x))$, do đó $x = a \in A$. Bổ đề 7 vì thế được chứng minh, và cùng với nó là Định lý 3.
 

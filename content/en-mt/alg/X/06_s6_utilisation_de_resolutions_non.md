@@ -45,11 +45,11 @@ subsections:
       pdf_page: 117
 statements: 30
 exercises: 18
-content_sha256: b05928f2a6ba22a64644efb0179035c3625ca757d62a80da1d37fe80d035b557
+content_sha256: 448850f8a435c67cf5187f4018f37a176780ff0f323a2c5917b93aac4bd0804a
 translated_from: content/fr/alg/X/06_s6_utilisation_de_resolutions_non.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: ddafc03e2993720640987b9fbb8789eef50bf57ffc1d5f1a847e9fe1f2fe5425
+source_content_sha256: f2824ea7a326afeeb795cba28326778ff310ae6be0985b203c746f3eead38fee
 translation_model: gpt-5.4
 translation_run: translate-en-mt-0e9b7016
 glossary_version: 34
@@ -416,10 +416,10 @@ $$
 By X, p. 67, prop. 4, H(1 ⊗ a'') and H(1 ⊗ a') are bijective; on the other hand, by definition of the homomorphisms ψ, we have H(β ⊗ 1) ◦ ψ(L(P), R'') = ψ(S, R'') and H(1 ⊗ a'') ◦ ψ(L(P), R'') = ψ(L(P), M'') = ψ_p(M''), therefore
 
 $$
-\psi(S, R'') = H(\beta ⊗ 1) ◦ H(1 ⊗ a'')^{-1} ◦ \psi_p(M'');
+\psi(S, R'') = H(\beta \otimes 1) ◦ H(1 \otimes a'')^{-1} ◦ \psi_p(M'');
 $$
 
-analogously, $\psi(S, R') = H(\beta ⊗ 1) ◦ H(1 ⊗ a')^{-1} ◦ \psi_p(M')$, and the required assertion $\partial((3)) ◦ \psi(S, R'') = \psi(S, R') ◦ \partial(P, (2))$ follows from the commutativity of the preceding diagram.
+analogously, $\psi(S, R') = H(\beta \otimes 1) ◦ H(1 \otimes a')^{-1} ◦ \psi_p(M')$, and the required assertion $\partial((3)) ◦ \psi(S, R'') = \psi(S, R') ◦ \partial(P, (2))$ follows from the commutativity of the preceding diagram.
 
 #### Remark 1 {#alg-x-s6-n3-rem-1 .statement}
 

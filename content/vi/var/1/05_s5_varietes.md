@@ -68,7 +68,7 @@ subsections:
       pdf_page: 56
 statements: 0
 exercises: 0
-content_sha256: 5a3eac7c78aac7dd37dabfa1dc28ff4869a56858c5ebe6e86c1daa702a7dc6d3
+content_sha256: 2b70fdadcb031c61a38bcdbdacabc6c6f707ee35838c66e2de9148deb511e171
 translated_from: content/en-mt/var/1/05_s5_varietes.md
 source_lang: en-mt
 translation_method: machine
@@ -438,7 +438,7 @@ Nếu điều này xảy ra, ánh xạ $\mathrm{pr}_1$ cảm sinh một đẳng 
 
 Đặc biệt, đường chéo của X × X là một đa tạp con của X × X.
 
-5.8.10. Cho Y là một đa tạp, và cho $(f_i)_{i∈I}$ là một họ hữu hạn các hàm cấu xạ trên Y. Cho X là tập hợp các x ∈ Y sao cho f_i(x) = 0 với mọi i. Đặt giả thiết sau:
+5.8.10. Cho Y là một đa tạp, và cho $(f_i)_{i\in I}$ là một họ hữu hạn các hàm cấu xạ trên Y. Cho X là tập hợp các x ∈ Y sao cho f_i(x) = 0 với mọi i. Đặt giả thiết sau:
 (J) Với mọi x ∈ X, các vi phân d_x f_i là độc lập tuyến tính trong T'_x(Y).
 
 Khi đó X là một đa tạp con đóng của Y, không gian tiếp xúc T'_x(X) là không gian con của T_x(Y) tạo bởi các α sao cho α . f_i = 0 với mọi i trong I. Hơn nữa, đối chiều của X trong Y bằng Card (I) tại mỗi điểm của nó.

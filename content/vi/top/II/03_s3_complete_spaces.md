@@ -48,9 +48,9 @@ subsections:
       pdf_page: 203
 statements: 48
 exercises: 7
-content_sha256: d5698441659ad5b8ceb9af4a8d51ea95a40ad895840f8daacba99182ddb63cbc
+content_sha256: f93feefe1420faa487ef2ec2c16e6762d54a952c27c5c013e47d3da535913104
 translated_from: content/en/top/II/03_s3_complete_spaces.md
-source_content_sha256: d782c4a27c7dfb328d8d4bcb0a0fc179bed02b77ea87afcfdc15ece558d53cbb
+source_content_sha256: 25443ca38e0d74878092070846f4496eceb085af929309efb7188d13993eaa0c
 translation_model: gpt-5.4-mini, gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-b50a24e1
 glossary_version: 34
@@ -286,24 +286,24 @@ $(f_{n, n+1} \times f_{n, n+1})(V_{k, n+1}) \subset V_{kn}$.
 
 Thực vậy, cho (U_{kn})_{k∈\mathbf{N}} là một hệ cơ sở các lân cận của X_{α_n}. Nếu ta giả sử rằng các V_{kn} đã được định nghĩa cho một n cho trước và với mọi k ∈ \mathbf{N}, thì vì f_{n, n+1} liên tục đều ta có thể định nghĩa lân cận V_{k, n+1} bằng quy nạp theo k sao cho (3) được thỏa mãn và
 
-$\overset{2}{V}_{k+1, n+1} \subset V_{k, n+1} ∩ U_{k+1, n+1}$
+$\overset{2}{V}_{k+1, n+1} \subset V_{k, n+1} \cap U_{k+1, n+1}$
 
 Mệnh đề suy ra.
 
 Bây giờ cho x_0 ∈ Y_0. Ta sẽ chứng minh rằng với mỗi số nguyên k > 0 tồn tại một điểm z ∈ X sao cho [x_0, f_{α_0}(z)] ∈ V_{k-1, 0}; điều này sẽ chứng minh định lý. Vì f_{n, n+1} (Y_{n+1}) trù mật trong Y_n, ta có thể định nghĩa bằng quy nạp một dãy các điểm x_n ∈ Y_n sao cho
 
 (4)
-$$ [x_n, f_{n, n+1}(x_{n+1})] ∈ V_{k+n, n} $$
+$$ [x_n, f_{n, n+1}(x_{n+1})] \in V_{k+n, n} $$
 
 Do (3) suy ra rằng nếu m ≤ n thì
 
 (5)
-$$ [f_{mn}(x_n), f_{m, n+1}(x_{n+1})] ∈ V_{k+n, m} $$
+$$ [f_{mn}(x_n), f_{m, n+1}(x_{n+1})] \in V_{k+n, m} $$
 
 Từ đó ta kết luận rằng với m cố định dãy (f_{mn}(x_n))_{n≥m} là một dãy Cauchy trong X_{α_m} và do đó hội tụ đến một điểm z_m; vì bằng quy nạp từ (5) suy ra rằng, với mỗi cặp số nguyên p ≥ m, q > 0, ta có
 
 (6)
-$$ [f_{mp}(x_p), f_{m, p+q}(x_{p+q})] ∈ V_{k+p+q-1, m} ∘ V_{k+p+q-2, m} ∘ ... ∘ V_{k+p, m} $$
+$$ [f_{mp}(x_p), f_{m, p+q}(x_{p+q})] \in V_{k+p+q-1, m} \circ V_{k+p+q-2, m} \circ ... \circ V_{k+p, m} $$
 
 và nhờ (2) hiển nhiên rằng vế phải của (6) được chứa trong V_{k+p-1, m}. Cho q tăng vô hạn; suy ra đặc biệt rằng, với m = p = 0, ta có (x_0, z_0) ∈ V_{k-1, 0}, vì V_{k-1, 0} đóng. Mặt khác, từ các quan hệ z_m = \lim_{n→∞} f_{mn}(x_n) và từ tính liên tục của f_{m, m+1}, ta suy ra rằng f_{m, m+1}(z_{m+1}) = z_m với mỗi m ≥ 0. Với mỗi γ ∈ I tồn tại ít nhất một số nguyên n sao cho α_n ≥ γ; đặt $z_\gamma = f_{\gamma, \alpha_n}(z_n)$ ta kiểm tra ngay rằng $z_\gamma$ không phụ thuộc vào giá trị của $n$ sao cho $\alpha_n \geq \gamma$, và rằng họ $(z_\alpha)_{\alpha \in I}$ như thế được định nghĩa là một điểm $z$ của $X = \varprojlim X_\alpha$. Vì $f_{\alpha_0}(z) = z_0$, chứng minh hoàn tất.
 

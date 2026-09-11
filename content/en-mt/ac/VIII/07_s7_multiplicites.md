@@ -33,11 +33,11 @@ subsections:
       pdf_page: 81
 statements: 28
 exercises: 25
-content_sha256: a4f19abfb365942a67e63df33787687df3764b32820c7d76162d6297eaee07e6
+content_sha256: 0c64a79c5df3302209427c15825dd612b9acdfaa91017b23a402dff55f583d99
 translated_from: content/fr/ac/VIII/07_s7_multiplicites.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 44dd0128f94a514d49d51dfb10d60b7c13ea946bb09421c4528fa914d3498493
+source_content_sha256: feafddbbd3f14fcc3330dfb44683830fd40511839b2cb65ecb9bcabf3ec6b575
 translation_model: gpt-5.4
 translation_run: translate-en-mt-a9139937
 glossary_version: 34
@@ -128,7 +128,7 @@ b) Suppose A integral and let M be a finitely generated A-module such that $\dim
 *Let ρ : A → B be a local homomorphism of local noetherian rings, and let N be a finitely generated B-module, flat over A, and such that N ⊗_A κ_A is a B-module of finite length. If M is a nonzero finitely generated A-module and q an ideal of A distinct from A and such that M/qM is of finite length, then (M ⊗_A N)/(qB)(M ⊗_A N) is a B-module of finite length, and one has*
 
 $$
-e_{q_B}^B(M ⊗_A N) = \operatorname{long}_B(N ⊗_A \kappa_A).e_q^A(M).
+e_{q_B}^B(M \otimes_A N) = \operatorname{long}_B(N \otimes_A \kappa_A).e_q^A(M).
 $$
 
 Let L be an A-module of finite length r. Then L possesses a Jordan-Hölder sequence of length r, with quotients isomorphic to κ_A; since N is flat over A, the B-module L ⊗_A N possesses a composition sequence of length r, with quotients isomorphic to N ⊗_A κ_A, hence is of length r · long_B(N ⊗_A κ_A). Since the B-module (M ⊗_A N)/(qB)^n(M ⊗_A N) is isomorphic to (M/q^nM) ⊗_A N for every $n \in \mathbf{N}$, the proposition follows from the definition of multiplicities.
@@ -138,7 +138,7 @@ Let L be an A-module of finite length r. Then L possesses a Jordan-Hölder seque
 *Suppose that B is flat over A and that ρ(m_A) B = m_B. Then*
 
 $$
-e_{q_B}^B(M ⊗_A B) = e_q^A(M).
+e_{q_B}^B(M \otimes_A B) = e_q^A(M).
 $$
 
 This applies in particular when B is the completion \* or the henselisation \* of A relative to an ideal distinct from A, \* or a blowing-up of A, for example a strict henselisation of A. \*

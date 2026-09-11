@@ -25,7 +25,7 @@ subsections:
       pdf_page: 66
 statements: 24
 exercises: 12
-content_sha256: 8721f3a6581a77fdd226cf07712a316efbebf29456c8e66dc51c60dac5f56977
+content_sha256: 03b39a721456e271107e0d9086bb2de9d08d3c895cacb3a061824f135a64498d
 translated_from: content/en/int/VII/03_s3_applications_and_examples.md
 source_content_sha256: caf427efadeeaa02fdc011ad1cf3bb379a2d28c4a9395236614704236db30652
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -257,7 +257,7 @@ Cho $L'$ là một nhóm con đóng của G chứa L. Khi đó $L'$ là tích n�
 
 *Cho G là một nhóm compact địa phương và H là một nhóm con chuẩn đóng của G sao cho K = G/H là compact. Khi đó mọi biểu diễn liên tục u của H trong $\mathbf{R}$, sao cho $u(s\xi s^{-1}) = u(\xi)$ với mọi $\xi \in H$ và $s \in G$, có thể được mở rộng thành một biểu diễn liên tục của G trong $\mathbf{R}$.*
 
-Đặt $L = G \times \mathbf{R}$ và gọi M là tập hợp các $(\xi, -u(\xi))$, trong đó $\xi$ chạy trên H. Hiển nhiên M là một nhóm con chuẩn đóng của L. Đặt $L' = L/M$ và gọi $\pi$ là ánh xạ chính tắc của L lên $L'$. Nhóm con của L sinh bởi M và R là H × R, do đó là đóng; vì vậy π(R) là một nhóm con đóng N của L'. Hạn chế ρ của π lên R là một biểu diễn song ánh liên tục của R lên N. Bổ đề 2 của Phụ lục 1 chứng minh rằng ρ là song liên tục. Ngoài ra, $L'/N$ đẳng cấu với $L/(H \times R) = G/H$, nên là compact. Theo Mệnh đề 3, và xét đến sự kiện rằng N nằm trong tâm của L', L' là tích của N với một nhóm con khác. Do đó tồn tại một biểu diễn liên tục của L' lên N thu hẹp trên N thành ánh xạ đồng nhất. Vì vậy tồn tại một biểu diễn liên tục v của L vào R là tầm thường trên M và thu hẹp trên R thành ánh xạ đồng nhất. Với ξ ∈ H, ta có $v((\xi, 0)) = v((\xi, −u(\xi))(e, u(\xi))) = u(\xi)$, điều này hoàn tất chứng minh.
+Đặt $L = G \times \mathbf{R}$ và gọi M là tập hợp các $(\xi, -u(\xi))$, trong đó $\xi$ chạy trên H. Hiển nhiên M là một nhóm con chuẩn đóng của L. Đặt $L' = L/M$ và gọi $\pi$ là ánh xạ chính tắc của L lên $L'$. Nhóm con của L sinh bởi M và R là H × R, do đó là đóng; vì vậy π(R) là một nhóm con đóng N của L'. Hạn chế ρ của π lên R là một biểu diễn song ánh liên tục của R lên N. Bổ đề 2 của Phụ lục 1 chứng minh rằng ρ là song liên tục. Ngoài ra, $L'/N$ đẳng cấu với $L/(H \times R) = G/H$, nên là compact. Theo Mệnh đề 3, và xét đến sự kiện rằng N nằm trong tâm của L', L' là tích của N với một nhóm con khác. Do đó tồn tại một biểu diễn liên tục của L' lên N thu hẹp trên N thành ánh xạ đồng nhất. Vì vậy tồn tại một biểu diễn liên tục v của L vào R là tầm thường trên M và thu hẹp trên R thành ánh xạ đồng nhất. Với ξ ∈ H, ta có $v((\xi, 0)) = v((\xi, - u(\xi))(e, u(\xi))) = u(\xi)$, điều này hoàn tất chứng minh.
 
 #### Bổ đề 3 {#int-vii-s3-lem-3 .statement}
 

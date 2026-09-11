@@ -21,9 +21,9 @@ subsections:
       pdf_page: 332
 statements: 20
 exercises: 11
-content_sha256: 24833b93d3ed940adbf8f57635290fb5bfe77cabb3a98e9f6d8931858105207d
+content_sha256: 53e07e91ecc5c29309b91e63576b779539a82e0d5ea42c6c745639b8db773fce
 translated_from: content/en/int/V/07_s7_integration_with_respect_to_an_induced.md
-source_content_sha256: d6674ea139595be6c132fa589e24ce77d547ad2398a9b423a66a73d7091c401b
+source_content_sha256: f923d9ab56bf1c3407def12208ac24c9a78c015ddd76e02ea195f3e1539c70cc
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-5d1c0ce4
 glossary_version: 34
@@ -181,25 +181,25 @@ Chỉ cần nhận thấy rằng nếu g là một phần tử của $\mathscr{H
 
 #### Mệnh đề 5 {#int-v-s7-prop-5 .statement}
 
-— Cho $(\lambda_\alpha)_{\alpha ∈ A}$ là một họ có hướng tăng của các độ đo dương trên T, có một cận trên đúng λ, và cho X là một không gian con địa phương compact của T. Khi đó họ các độ đo cảm sinh $\lambda_\alpha|X$ bị chặn trên trong $\mathscr{M}(X)$, và
+— Cho $(\lambda_\alpha)_{\alpha \in A}$ là một họ có hướng tăng của các độ đo dương trên T, có một cận trên đúng λ, và cho X là một không gian con địa phương compact của T. Khi đó họ các độ đo cảm sinh $\lambda_\alpha|X$ bị chặn trên trong $\mathscr{M}(X)$, và
 
 $$
-\sup_{\alpha ∈ A} (\lambda_\alpha|X) = \lambda|X.
+\sup_{\alpha \in A} (\lambda_\alpha|X) = \lambda|X.
 $$
 
 Theo các đồng nhất nhất trong Chú giải, mệnh đề này là một trường hợp riêng của Mệnh đề 5 của §5, No. 4.
 
 #### Hệ quả {#int-v-s7-n2-cor-1 .statement}
 
-— Cho $(\mu_i)_{i ∈ I}$ là một họ tổng được của các độ đo dương trên T, với tổng μ. Khi đó họ các độ đo cảm sinh $\mu_i|X$ là tổng được, và
+— Cho $(\mu_i)_{i \in I}$ là một họ tổng được của các độ đo dương trên T, với tổng μ. Khi đó họ các độ đo cảm sinh $\mu_i|X$ là tổng được, và
 
 $$
-\sum_{i ∈ I} (\mu_i|X) = \mu|X.
+\sum_{i \in I} (\mu_i|X) = \mu|X.
 $$
 
 #### Mệnh đề 6 {#int-v-s7-prop-6 .statement}
 
-— Cho $\Lambda : t ↦ \lambda_t$ là một ánh xạ μ-thích hợp của T vào $\mathscr{M}_+(X)$, trong đó X là một không gian địa phương compact đếm được ở vô cực, và cho Y là một không gian con địa phương compact của X. Đặt $\int \lambda_t d\mu(t) = \nu$. Khi đó ánh xạ $t ↦ \lambda_t|Y$ của T vào $\mathscr{M}_+(Y)$ là μ-thích hợp, và
+— Cho $\Lambda : t \mapsto \lambda_t$ là một ánh xạ μ-thích hợp của T vào $\mathscr{M}_+(X)$, trong đó X là một không gian địa phương compact đếm được ở vô cực, và cho Y là một không gian con địa phương compact của X. Đặt $\int \lambda_t d\mu(t) = \nu$. Khi đó ánh xạ $t \mapsto \lambda_t|Y$ của T vào $\mathscr{M}_+(Y)$ là μ-thích hợp, và
 
 $$
 \int (\lambda_t|Y) d\mu(t) = \nu|Y.

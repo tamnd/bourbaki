@@ -12,7 +12,7 @@ pdf_pages: 0006-0007
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 124dbe076a6f54d93ccb2a56f6da11680867dca18fb5b9b0e5c5ff75e7feddaf
+content_sha256: bdcf475c547384403d6455673d2646d2446f4ec612362e1bf8b7547593040a83
 translated_from: content/en/lie/00_introduction.md
 source_content_sha256: 6039920d984a1193244721622035fbdcfccd3343c37bff11d7a710933b56f4fb
 translation_model: gpt-5-mini, gpt-5-6-mini
@@ -36,7 +36,7 @@ II. Cho $G$ là một nhóm Lie thực compact liên thông nửa đơn, và $g$
 
 1 Trong Lời giới thiệu này, chúng tôi sử dụng tự do thuật ngữ truyền thống cũng như các khái niệm được định nghĩa trong các Chương IV, V và VI.
 
-của $N$ trên $T$ xác định một đẳng cấu từ nhóm $N/T$ vào nhóm Weyl của $R$. Ta có $P(R) ⊃ X ⊃ Q(R)$; hơn nữa, $X = P(R)$ nếu $G$ đơn liên và $X = Q(R)$ nếu tâm của $G$ thu gọn thành phần tử đơn vị.
+của $N$ trên $T$ xác định một đẳng cấu từ nhóm $N/T$ vào nhóm Weyl của $R$. Ta có $P(R) \supset X \supset Q(R)$; hơn nữa, $X = P(R)$ nếu $G$ đơn liên và $X = Q(R)$ nếu tâm của $G$ thu gọn thành phần tử đơn vị.
 
 Đại số Lie phức hoá $g_{(C)}$ của $g$ là nửa đơn và $t_{(C)}$ là một đại số con Cartan của nó. Tồn tại một đẳng cấu chính tắc từ $V_{(C)}$ vào đối ngẫu của $t_{(C)}$ biến $R$ thành hệ nghiệm của $g_{(C)}$ đối với $t_{(C)}$.
 

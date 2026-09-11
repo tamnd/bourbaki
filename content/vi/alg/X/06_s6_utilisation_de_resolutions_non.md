@@ -45,7 +45,7 @@ subsections:
       pdf_page: 117
 statements: 30
 exercises: 18
-content_sha256: 7f5346b50eced8825279c270f4750107ca40eb7ecad46ffee95f55ed881e142c
+content_sha256: 872da96a7f06eb265f08e67dd2362e0ddeca85bb69f19988e9c80c2fe572db05
 translated_from: content/en-mt/alg/X/06_s6_utilisation_de_resolutions_non.md
 source_lang: en-mt
 translation_method: machine
@@ -416,10 +416,10 @@ $$
 Theo X, p. 67, mệnh đề 4, H(1 ⊗ a'') và H(1 ⊗ a') là song ánh; mặt khác, theo định nghĩa của các đồng cấu ψ, ta có H(β ⊗ 1) ◦ ψ(L(P), R'') = ψ(S, R'') và H(1 ⊗ a'') ◦ ψ(L(P), R'') = ψ(L(P), M'') = ψ_p(M''), do đó
 
 $$
-\psi(S, R'') = H(\beta ⊗ 1) ◦ H(1 ⊗ a'')^{-1} ◦ \psi_p(M'');
+\psi(S, R'') = H(\beta \otimes 1) ◦ H(1 \otimes a'')^{-1} ◦ \psi_p(M'');
 $$
 
-tương tự, $\psi(S, R') = H(\beta ⊗ 1) ◦ H(1 ⊗ a')^{-1} ◦ \psi_p(M')$, và mệnh đề cần chứng minh $\partial((3)) ◦ \psi(S, R'') = \psi(S, R') ◦ \partial(P, (2))$ suy ra từ tính giao hoán của biểu đồ trên.
+tương tự, $\psi(S, R') = H(\beta \otimes 1) ◦ H(1 \otimes a')^{-1} ◦ \psi_p(M')$, và mệnh đề cần chứng minh $\partial((3)) ◦ \psi(S, R'') = \psi(S, R') ◦ \partial(P, (2))$ suy ra từ tính giao hoán của biểu đồ trên.
 
 #### Nhận xét 1 {#alg-x-s6-n3-rem-1 .statement}
 
