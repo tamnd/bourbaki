@@ -395,7 +395,7 @@ chapters:
         - kind: section
           section: 1
           title: The uniformity of $\mathscr{G}$-convergence
-          path: content/en/top/X/01_s1_the_uniformity_of_mathcal_g_convergence.md
+          path: content/en/top/X/01_s1_the_uniformity_of_mathscr_g_convergence.md
           label: top-x-s1
           first_pdf_page: 280
           last_pdf_page: 327
@@ -460,7 +460,7 @@ notation_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: 75b012f0490a8aa6bd751aa27978133495d751e0e483b57e4214d7c31aaa4caf
+    content_sha256: ec8850f356cd77640d1f8fc68925b77abbfdcf0768138f378a39aac83c758f6e
 terminology_index:
     kind: terminology
     title: INDEX OF TERMINOLOGY
