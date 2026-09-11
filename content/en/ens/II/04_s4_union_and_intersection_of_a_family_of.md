@@ -46,7 +46,7 @@ subsections:
       pdf_page: 107
 statements: 22
 exercises: 8
-content_sha256: 32dab807d5a0ef307546f801f396883f1054bfe9358e046025e46f1ec896838b
+content_sha256: c8fd3f17f42e974a252f4d880619803570369c6870f994dc645984b60d03b8d3
 ---
 
 ## 4. UNION AND INTERSECTION OF A FAMILY OF SETS
@@ -63,10 +63,10 @@ is true. By virtue of the scheme S8 (§1, no. 6) the relation $(\exists \iota)(\
 
 #### Definition 1 {#ens-ii-s4-def-1 .statement tag=03I1}
 
-*Let $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ be a family of sets* (resp. *a family of subsets of a set* E). *The set $\mathcal{E}_x((\exists \iota)(\iota \in \mathrm{I}$ and $x \in \mathrm{X}_\iota))$, that is to say, the set of all $x$* *which belong to at least one set of the family $(X_l)_{l\in I}$, is called the union of the family, and is denoted by*
+*Let $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ be a family of sets* (resp. *a family of subsets of a set* E). *The set $\mathscr{E}_x((\exists \iota)(\iota \in \mathrm{I}$ and $x \in \mathrm{X}_\iota))$, that is to say, the set of all $x$* *which belong to at least one set of the family $(X_l)_{l\in I}$, is called the union of the family, and is denoted by*
 $$\bigcup_{l\in I}X_l,$$ [^1]
 
-If $(X_l)_{l\in I}$ is a family of subsets of a set $E$, then its union is a subset of $E$; notice that it does not depend on $E$, nor on the target $\mathcal{G}$ of the mapping $l\to X_l$.
+If $(X_l)_{l\in I}$ is a family of subsets of a set $E$, then its union is a subset of $E$; notice that it does not depend on $E$, nor on the target $\mathscr{G}$ of the mapping $l\to X_l$.
 
 It is clear that if $I=\varnothing$, we have $\displaystyle\bigcup_{l\in I}X_l=\varnothing$, because the relation $(\exists l)(l\in I\text{ and }x\in X_l)$ is then false.
 
@@ -76,7 +76,7 @@ implies $x\in X_\alpha$ and therefore, by virtue of C52 (§1, no. 6), this relat
 
 #### Definition 2 {#ens-ii-s4-def-2 .statement tag=03PT}
 
-*Let $(X_l)_{l\in I}$ be a family of sets whose index set $I$ is not empty. The set $\mathcal{E}_x((\forall l)((l\in I)\Longrightarrow(x\in X_l)))$, that is to say, the set of all $x$ which belong to every set of the family $(X_l)_{l\in I}$, is called the intersection of the family and is denoted by*
+*Let $(X_l)_{l\in I}$ be a family of sets whose index set $I$ is not empty. The set $\mathscr{E}_x((\forall l)((l\in I)\Longrightarrow(x\in X_l)))$, that is to say, the set of all $x$ which belong to every set of the family $(X_l)_{l\in I}$, is called the intersection of the family and is denoted by*
 $$\bigcap_{l\in I}X_l.$$
 
 If $I=\varnothing$, the relation $(\forall l)((l\in I)\Longrightarrow(x\in X_l))$ is not collectivizing in $x$; for it is a true relation and there exists no set $Y$ such that $x\in Y$ is a true relation, because $Y$ would then be the set of all objects (cf. §1, no. 7, Remark).
@@ -88,7 +88,7 @@ consequently it is collectivizing in $x$, and the set of all $x$ which satisfy t
 #### Definition 3 {#ens-ii-s4-def-3 .statement tag=03PU}
 
 *Let $(X_l)_{l\in I}$ be a family of subsets of a set $E$. The set*
-$$\mathcal{E}_x\left(x\in E\text{ and }(\forall l)((l\in I)\Longrightarrow(x\in X_l))\right),$$
+$$\mathscr{E}_x\left(x\in E\text{ and }(\forall l)((l\in I)\Longrightarrow(x\in X_l))\right),$$
 
 *in other words, the set of all $x$ which belong to* E *and to each of the sets* $X_\iota$, *is called the intersection of the family and is denoted by* $\bigcap\limits_{\iota \in I} X_\iota$.
 

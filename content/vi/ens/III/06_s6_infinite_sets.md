@@ -96,7 +96,7 @@ C63. *Cho* $S\{v\}$ *và* $a$ *là hai thuật ngữ. Khi đó tồn tại một
 
 Để suy ra C63 từ C62 [^1], đặt
 
-$$D(u) = \mathcal{E}_x(x \in \mathbf{N} \ \text{và} \ (\exists y)((x, y) \in \mathrm{pr}_1(\mathrm{pr}_1(u))))$$
+$$D(u) = \mathscr{E}_x(x \in \mathbf{N} \ \text{và} \ (\exists y)((x, y) \in \mathrm{pr}_1(\mathrm{pr}_1(u))))$$
 
 với mỗi chữ cái $u$. Nếu $u$ là một ánh xạ từ một tập con của $\mathbf{N}$ vào một tập hợp, thì $D(u)$ chỉ là miền xác định của $u$ (chương II, § 3, no. 1). Gọi $M(u)$ là cận trên bé nhất của $D(u)$ trong $\mathbf{N}$ [^2]. Gọi $\varphi$ là ánh xạ rỗng, với $\emptyset$ làm nguồn và đích, tức là (chương II, § 3, nos. 1 và 4), bộ ba $(\emptyset, \emptyset, \emptyset))$ và xét quan hệ
 

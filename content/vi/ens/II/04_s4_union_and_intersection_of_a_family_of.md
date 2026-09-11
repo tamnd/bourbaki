@@ -70,10 +70,10 @@ là đúng. Theo lược đồ S8 (§1, no. 6), quan hệ $(\exists \iota)(\iota
 
 #### Định nghĩa 1 {#ens-ii-s4-def-1 .statement tag=03I1}
 
-*Cho $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ là một họ các tập hợp* (tương ứng, *một họ các tập con của một tập hợp* E). *Tập hợp $\mathcal{E}_x((\exists \iota)(\iota \in \mathrm{I}$ and $x \in \mathrm{X}_\iota))$, nghĩa là, tập hợp mọi $x$* *thuộc ít nhất một tập hợp của họ $(X_l)_{l\in I}$, được gọi là hợp của họ, và được ký hiệu bởi*
+*Cho $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ là một họ các tập hợp* (tương ứng, *một họ các tập con của một tập hợp* E). *Tập hợp $\mathscr{E}_x((\exists \iota)(\iota \in \mathrm{I}$ and $x \in \mathrm{X}_\iota))$, nghĩa là, tập hợp mọi $x$* *thuộc ít nhất một tập hợp của họ $(X_l)_{l\in I}$, được gọi là hợp của họ, và được ký hiệu bởi*
 $$\bigcup_{l\in I}X_l,$$ [^1]
 
-Nếu $(X_l)_{l\in I}$ là một họ các tập con của một tập hợp $E$, thì hợp của nó là một tập con của $E$; lưu ý rằng nó không phụ thuộc vào $E$, cũng không phụ thuộc vào đối tượng đích $\mathcal{G}$ của ánh xạ $l\to X_l$.
+Nếu $(X_l)_{l\in I}$ là một họ các tập con của một tập hợp $E$, thì hợp của nó là một tập con của $E$; lưu ý rằng nó không phụ thuộc vào $E$, cũng không phụ thuộc vào đối tượng đích $\mathscr{G}$ của ánh xạ $l\to X_l$.
 
 Hiển nhiên là nếu $I=\varnothing$, ta có $\displaystyle\bigcup_{l\in I}X_l=\varnothing$, vì khi đó quan hệ $(\exists l)(l\in I\text{ và }x\in X_l)$ là sai.
 
@@ -83,7 +83,7 @@ suy ra $x\in X_\alpha$ và do đó, theo C52 (§1, no. 6), quan hệ này là *x
 
 #### Định nghĩa 2 {#ens-ii-s4-def-2 .statement tag=03PT}
 
-*Cho $(X_l)_{l\in I}$ là một họ các tập hợp mà tập hợp chỉ số $I$ là không rỗng. Tập hợp $\mathcal{E}_x((\forall l)((l\in I)\Longrightarrow(x\in X_l)))$, nghĩa là tập hợp của mọi $x$ thuộc mọi tập hợp của họ $(X_l)_{l\in I}$, được gọi là giao của họ đó và được ký hiệu bởi*
+*Cho $(X_l)_{l\in I}$ là một họ các tập hợp mà tập hợp chỉ số $I$ là không rỗng. Tập hợp $\mathscr{E}_x((\forall l)((l\in I)\Longrightarrow(x\in X_l)))$, nghĩa là tập hợp của mọi $x$ thuộc mọi tập hợp của họ $(X_l)_{l\in I}$, được gọi là giao của họ đó và được ký hiệu bởi*
 $$\bigcap_{l\in I}X_l.$$
 
 Nếu $I=\varnothing$, quan hệ $(\forall l)((l\in I)\Longrightarrow(x\in X_l))$ không xác định tập theo $x$; vì đó là một quan hệ đúng và không tồn tại tập hợp nào $Y$ sao cho $x\in Y$ là một quan hệ đúng, bởi khi đó $Y$ sẽ là tập hợp của mọi đối tượng (xem §1, no. 7, Nhận xét).
@@ -95,7 +95,7 @@ do đó nó xác định tập theo $x$, và tập hợp mọi $x$ thỏa mãn q
 #### Định nghĩa 3 {#ens-ii-s4-def-3 .statement tag=03PU}
 
 *Cho $(X_l)_{l\in I}$ là một họ các tập hợp con của một tập hợp $E$. Tập hợp*
-$$\mathcal{E}_x\left(x\in E\text{ và }(\forall l)((l\in I)\Longrightarrow(x\in X_l))\right),$$
+$$\mathscr{E}_x\left(x\in E\text{ và }(\forall l)((l\in I)\Longrightarrow(x\in X_l))\right),$$
 
 *nói cách khác, tập hợp tất cả các $x$ thuộc* E *và thuộc mỗi tập hợp* $X_\iota$, *được gọi là giao của họ đó và được ký hiệu bởi* $\bigcap\limits_{\iota \in I} X_\iota$.
 

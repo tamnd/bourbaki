@@ -42,7 +42,7 @@ subsections:
       pdf_page: 78
 statements: 10
 exercises: 6
-content_sha256: 66b930eb506c3b51a953913202d2c09d32c287559d09b0d8e113dcf5a16a08ac
+content_sha256: 4a9ee1e53629e655e2d44be47afe0051771af4dbac00a9502665cf0edd1589f5
 ---
 
 ## 1. COLLECTIVIZING RELATIONS
@@ -167,10 +167,10 @@ $$
 \tau_y(\forall x)((x \in y) \Longleftrightarrow R),
 $$
 
-which does not depend on the choice of the letter $y$ (distinct from $x$ and not appearing in $R$), we shall introduce a functional symbol $\mathcal{E}_x(R)$; the corresponding term does not contain $x$. This term is denoted by “the set of all $x$ such that $R$”. By definition (Chapter I, §4, no. 1) the relation
+which does not depend on the choice of the letter $y$ (distinct from $x$ and not appearing in $R$), we shall introduce a functional symbol $\mathscr{E}_x(R)$; the corresponding term does not contain $x$. This term is denoted by “the set of all $x$ such that $R$”. By definition (Chapter I, §4, no. 1) the relation
 
 $$
-(\forall x)((x \in \mathcal{E}_x(R)) \Longleftrightarrow R)
+(\forall x)((x \in \mathscr{E}_x(R)) \Longleftrightarrow R)
 $$
 
 is *identical* with $\mathrm{Coll}_x R$; consequently the relation $R$ is *equivalent* to

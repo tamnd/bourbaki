@@ -174,10 +174,10 @@ $$
 \tau_y(\forall x)((x \in y) \Longleftrightarrow R),
 $$
 
-không phụ thuộc vào sự lựa chọn của chữ cái $y$ (phân biệt với $x$ và không xuất hiện trong $R$), ta sẽ đưa vào một ký hiệu phiếm hàm $\mathcal{E}_x(R)$; số hạng tương ứng không chứa $x$. Số hạng này được ký hiệu là “tập hợp tất cả các $x$ sao cho $R$”. Theo định nghĩa (Chương I, §4, no. 1) quan hệ
+không phụ thuộc vào sự lựa chọn của chữ cái $y$ (phân biệt với $x$ và không xuất hiện trong $R$), ta sẽ đưa vào một ký hiệu phiếm hàm $\mathscr{E}_x(R)$; số hạng tương ứng không chứa $x$. Số hạng này được ký hiệu là “tập hợp tất cả các $x$ sao cho $R$”. Theo định nghĩa (Chương I, §4, no. 1) quan hệ
 
 $$
-(\forall x)((x \in \mathcal{E}_x(R)) \Longleftrightarrow R)
+(\forall x)((x \in \mathscr{E}_x(R)) \Longleftrightarrow R)
 $$
 
 là *đồng nhất* với $\mathrm{Coll}_x R$; do đó quan hệ $R$ là *tương đương* với

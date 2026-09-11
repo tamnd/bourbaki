@@ -34,7 +34,7 @@ subsections:
       pdf_page: 195
 statements: 26
 exercises: 32
-content_sha256: 9dad8d983ddd8f3b0b6298831408a4064ea8b6e7bd8b96cdff8003a923a1c904
+content_sha256: 567e0c5f3b6c1ecb2bc3cd823e4e97976fc38f1c07ab89e7b0f38f5f38c28c46
 ---
 
 ## 6. INFINITE SETS
@@ -89,7 +89,7 @@ C63. *Let* $S\{v\}$ *and* $a$ *be two terms. Then there exists a set* $V$ *and a
 
 To deduce C63 from C62 [^1], let
 
-$$D(u) = \mathcal{E}_x(x \in \mathbf{N} \ \text{and} \ (\exists y)((x, y) \in \mathrm{pr}_1(\mathrm{pr}_1(u))))$$
+$$D(u) = \mathscr{E}_x(x \in \mathbf{N} \ \text{and} \ (\exists y)((x, y) \in \mathrm{pr}_1(\mathrm{pr}_1(u))))$$
 
 for each letter $u$. If $u$ is a mapping of a subset of $\mathbf{N}$ into a set, then $D(u)$ is just the domain of $u$ (Chapter II, § 3, no. 1). Let $M(u)$ be the least upper bound of $D(u)$ in $\mathbf{N}$ [^2]. Let $\varphi$ be the empty mapping, with $\emptyset$ as source and target, i.e. (Chapter II, § 3, nos. 1 and 4), the triple $(\emptyset, \emptyset, \emptyset))$ and consider the relation
 

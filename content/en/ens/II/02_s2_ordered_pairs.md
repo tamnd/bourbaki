@@ -22,7 +22,7 @@ subsections:
       pdf_page: 81
 statements: 4
 exercises: 2
-content_sha256: f473daade1409be8bf0f14c3e035373513374f1c79945abe02bfe401f01ae8ce
+content_sha256: 30cc0208eaab54246e96f854154d361c7bc5ca97861fad03285d7ff5c5137aa4
 ---
 
 ## 2. ORDERED PAIRS
@@ -103,7 +103,7 @@ is true, by virtue of S5 (Chapter I, §4, no. 2). It then follows from S8 that t
 
 *Given two sets* X *and* Y, *the set*
 
-$$\mathcal{E}_z((\exists x)(\exists y)(z = (x, y) \text{ and } x \in X \text{ and } y \in Y))$$
+$$\mathscr{E}_z((\exists x)(\exists y)(z = (x, y) \text{ and } x \in X \text{ and } y \in Y))$$
 
 *is called the product of* X *and* Y *and is denoted by* X $\times$ Y.
 

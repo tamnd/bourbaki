@@ -110,7 +110,7 @@ $$(\forall y)(\exists A)(\forall z)(R \Rightarrow (z \in A))$$
 
 *Cho hai tập hợp* X *và* Y, *tập hợp*
 
-$$\mathcal{E}_z((\exists x)(\exists y)(z = (x, y) \text{ và } x \in X \text{ và } y \in Y))$$
+$$\mathscr{E}_z((\exists x)(\exists y)(z = (x, y) \text{ và } x \in X \text{ và } y \in Y))$$
 
 *được gọi là tích của* X *và* Y *và được ký hiệu là* X $\times$ Y.
 
