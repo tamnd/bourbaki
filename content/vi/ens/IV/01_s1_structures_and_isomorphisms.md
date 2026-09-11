@@ -40,9 +40,9 @@ subsections:
       title: EQUIVALENT SPECIES OF STRUCTURES
       page: 268
       pdf_page: 273
-statements: 11
+statements: 17
 exercises: 1
-content_sha256: 981856b45be04f79f6374ef5ccfb6406fb341079949690bf74187faabc25c98c
+content_sha256: f516c59257b887d07c4d5f3781848a80da47e79f473e759ee97e3fa85eddaa36
 translated_from: content/en/ens/IV/01_s1_structures_and_isomorphisms.md
 source_content_sha256: cb0ba0aa51c27cd635da1ba9e5c5d3b4143cd0a7ff9702c62051fac7eeb01b20
 translation_model: gpt-5.4-mini, gpt-5.4
@@ -290,9 +290,9 @@ và cho $F'_j=U_j\{E'_1,\ldots,E'_n,\mathscr{G}'\}$ $(1\leq j\leq r)$. Khi đó 
 
 Hiển nhiên là các hạng $x_1,\ldots,x_n$ là nội tại đối với $s$. Trong nhiều trường hợp, các hạng $U_1,\ldots,U_r$ là một số chữ trong các chữ $x_1,\ldots,x_n$; khi đó cấu trúc thuộc loài $\Theta$ suy ra từ $s$ bởi thủ tục $P$ được gọi là một cấu trúc nền của $s$.
 
-**Ví dụ**
+#### Ví dụ 1 {#ens-iv-s1-n6-exa-1 .statement tag=03VE}
 
-\* (1) Loài các cấu trúc nhóm tôpô có một tập hợp cơ sở chính duy nhất $A$, không có tập hợp cơ sở phụ, và cấu trúc điển hình tương ứng là một cặp $(s_1,s_2)$ ($s_1$ là đồ thị của luật hợp thành trên $A$, và $s_2$ là tập hợp các tập mở trong tôpô của $A$; xem General Topology, Chương III, § 1). Mỗi hạng trong các hạng $s_1,s_2$ là một thủ tục suy diễn và lần lượt cho cấu trúc nhóm và tôpô nền của cấu trúc nhóm tôpô $(s_1,s_2)$.
+\* Loài các cấu trúc nhóm tôpô có một tập hợp cơ sở chính duy nhất $A$, không có tập hợp cơ sở phụ, và cấu trúc điển hình tương ứng là một cặp $(s_1,s_2)$ ($s_1$ là đồ thị của luật hợp thành trên $A$, và $s_2$ là tập hợp các tập mở trong tôpô của $A$; xem General Topology, Chương III, § 1). Mỗi hạng trong các hạng $s_1,s_2$ là một thủ tục suy diễn và lần lượt cho cấu trúc nhóm và tôpô nền của cấu trúc nhóm tôpô $(s_1,s_2)$.
 
 Tương tự, từ một cấu trúc không gian vectơ có thể suy ra một cấu trúc nhóm giao hoán nền. Từ một cấu trúc vành có thể suy ra một cấu trúc nhóm giao hoán nền và một cấu trúc
 
@@ -301,7 +301,9 @@ CẤU TRÚC
 
 nửa nhóm (nhân). Từ cấu trúc của một đa tạp khả vi có thể suy ra một tôpô nền, v.v.
 
-(2) Loài các cấu trúc không gian vectơ trên $\mathbf{C}$ (resp. $\mathbf{R}$) có một tập hợp cơ sở chính $E$, một tập hợp cơ sở phụ bằng $\mathbf{C}$ (resp. $\mathbf{R}$), và đặc trưng hóa điển hình
+#### Ví dụ 2 {#ens-iv-s1-n6-exa-2 .statement tag=03VF}
+
+Loài các cấu trúc không gian vectơ trên $\mathbf{C}$ (resp. $\mathbf{R}$) có một tập hợp cơ sở chính $E$, một tập hợp cơ sở phụ bằng $\mathbf{C}$ (resp. $\mathbf{R}$), và đặc trưng hóa điển hình
 
 $$
 s_1\in\mathfrak{P}((E\times E)\times E)\qquad\text{và}\qquad s_2\in\mathfrak{P}((\mathbf{C}\times E)\times E)
@@ -311,9 +313,13 @@ $$
 
 Cặp $(s_1,s_2\cap((\mathbf{R}\times E)\times E))$ là một thủ tục suy diễn một cấu trúc không gian vectơ trên $\mathbf{R}$ từ một cấu trúc không gian vectơ trên $\mathbf{C}$ (“hạn chế trường vô hướng xuống $\mathbf{R}$”). \*
 
-(3) Giả sử rằng $\Theta$ có cùng các tập hợp cơ sở (chính và phụ) như $\Sigma$, và cùng đặc trưng hóa điển hình. Hơn nữa, nếu tiên đề của $\Sigma$ kéo theo (trong $\mathscr{T}$) tiên đề của $\Theta$, thì rõ ràng số hạng $s$ là một thủ tục suy diễn một cấu trúc thuộc loài $\Theta$ từ một cấu trúc thuộc loài $\Sigma$. Khi đó nói rằng $\Theta$ nghèo hơn $\Sigma$, và $\Sigma$ giàu hơn $\Theta$. Khi ấy mọi cấu trúc thuộc loài $\Sigma$, trong một lý thuyết $\mathscr{T}'$ mạnh hơn $\mathscr{T}$, cũng là một cấu trúc thuộc loài $\Theta$. Chẳng hạn, loài các cấu trúc của các tập hợp được sắp thứ tự toàn phần (thu được bằng cách lấy làm tiên đề phép hội của tiên đề của các cấu trúc thứ tự (no. 4, Ví dụ 1) và quan hệ $s\cup s^{-1}=A\times A$) giàu hơn loài các cấu trúc thứ tự. \*Loài các cấu trúc nhóm giao hoán giàu hơn loài các cấu trúc nhóm. Loài các cấu trúc không gian tôpô compắc giàu hơn loài các cấu trúc tôpô, v.v. \*
+#### Ví dụ 3 {#ens-iv-s1-n6-exa-3 .statement tag=03VG}
 
-\* (4) Khi mỗi loài trong $\Sigma$ và $\Theta$ là loài các cấu trúc nhóm (tương ứng, cấu trúc vành), trong đại số xác định một thủ tục suy diễn gắn với mỗi cấu trúc nhóm (tương ứng, cấu trúc vành) cấu trúc nhóm (tương ứng, cấu trúc vành) trên tâm của nó. Khi $\Sigma$ là loài các cấu trúc không gian vectơ trên một trường $K$, và khi $\Theta$ là loài các cấu trúc đại số trên $K$, thì xác định các thủ tục suy diễn gắn với mọi không gian vectơ trên $K$ đại số tenxơ hoặc đại số ngoài của nó. Về sau trong chuỗi này chúng ta sẽ gặp nhiều ví dụ khác nữa. \*
+Giả sử rằng $\Theta$ có cùng các tập hợp cơ sở (chính và phụ) như $\Sigma$, và cùng đặc trưng hóa điển hình. Hơn nữa, nếu tiên đề của $\Sigma$ kéo theo (trong $\mathscr{T}$) tiên đề của $\Theta$, thì rõ ràng số hạng $s$ là một thủ tục suy diễn một cấu trúc thuộc loài $\Theta$ từ một cấu trúc thuộc loài $\Sigma$. Khi đó nói rằng $\Theta$ nghèo hơn $\Sigma$, và $\Sigma$ giàu hơn $\Theta$. Khi ấy mọi cấu trúc thuộc loài $\Sigma$, trong một lý thuyết $\mathscr{T}'$ mạnh hơn $\mathscr{T}$, cũng là một cấu trúc thuộc loài $\Theta$. Chẳng hạn, loài các cấu trúc của các tập hợp được sắp thứ tự toàn phần (thu được bằng cách lấy làm tiên đề phép hội của tiên đề của các cấu trúc thứ tự (no. 4, Ví dụ 1) và quan hệ $s\cup s^{-1}=A\times A$) giàu hơn loài các cấu trúc thứ tự. \*Loài các cấu trúc nhóm giao hoán giàu hơn loài các cấu trúc nhóm. Loài các cấu trúc không gian tôpô compắc giàu hơn loài các cấu trúc tôpô, v.v. \*
+
+#### Ví dụ 4 {#ens-iv-s1-n6-exa-4 .statement}
+
+\* Khi mỗi loài trong $\Sigma$ và $\Theta$ là loài các cấu trúc nhóm (tương ứng, cấu trúc vành), trong đại số xác định một thủ tục suy diễn gắn với mỗi cấu trúc nhóm (tương ứng, cấu trúc vành) cấu trúc nhóm (tương ứng, cấu trúc vành) trên tâm của nó. Khi $\Sigma$ là loài các cấu trúc không gian vectơ trên một trường $K$, và khi $\Theta$ là loài các cấu trúc đại số trên $K$, thì xác định các thủ tục suy diễn gắn với mọi không gian vectơ trên $K$ đại số tenxơ hoặc đại số ngoài của nó. Về sau trong chuỗi này chúng ta sẽ gặp nhiều ví dụ khác nữa. \*
 
 #### Nhận xét {#ens-iv-s1-n6-rem-1 .statement tag=03VH}
 
@@ -339,9 +345,9 @@ CST7. *Cho $\mathscr{Y},\mathscr{Y}'$ là hai cấu trúc thuộc loài $\Sigma$
 
 Trong thực hành, ta không phân biệt giữa các lý thuyết $\mathscr{T}_{\Sigma}$ và $\mathscr{T}_{\Theta}$ của hai loài cấu trúc tương đương.
 
-## Ví dụ
+#### Ví dụ 1 {#ens-iv-s1-n7-exa-1 .statement tag=03VI}
 
-\* (1) Cho $\Sigma$ là loài các cấu trúc nhóm giao hoán; $\Sigma$ có một tập cơ sở (chính) duy nhất $A$, và cấu trúc tổng quát của nó gồm một chữ duy nhất $F$; đặc trưng hóa điển hình của $\Sigma$ là $F\in\mathscr{P}((A\times A)\times A)$, và ta ký hiệu tiên đề của $\Sigma$ bởi $R\{A,F\}$. Tiên đề này đặc biệt kéo theo rằng $F$ là đồ thị của một hàm (luật hợp thành của nhóm; x. no. 4, Ví dụ 2). Trong lý thuyết $\mathscr{T}_{\Sigma}$ (trong đó $\mathscr{T}$ ký hiệu lý thuyết tập hợp), ta định nghĩa một số hạng $M\{A,F\}$ là một đồ thị phiếm hàm trong $\mathscr{P}((\mathbf{Z}\times A)\times A)$ và thỏa mãn quan hệ sau đây $B\{M,A,F\}$:
+\* Cho $\Sigma$ là loài các cấu trúc nhóm giao hoán; $\Sigma$ có một tập cơ sở (chính) duy nhất $A$, và cấu trúc tổng quát của nó gồm một chữ duy nhất $F$; đặc trưng hóa điển hình của $\Sigma$ là $F\in\mathscr{P}((A\times A)\times A)$, và ta ký hiệu tiên đề của $\Sigma$ bởi $R\{A,F\}$. Tiên đề này đặc biệt kéo theo rằng $F$ là đồ thị của một hàm (luật hợp thành của nhóm; x. no. 4, Ví dụ 2). Trong lý thuyết $\mathscr{T}_{\Sigma}$ (trong đó $\mathscr{T}$ ký hiệu lý thuyết tập hợp), ta định nghĩa một số hạng $M\{A,F\}$ là một đồ thị phiếm hàm trong $\mathscr{P}((\mathbf{Z}\times A)\times A)$ và thỏa mãn quan hệ sau đây $B\{M,A,F\}$:
 
 $$
 (\forall x)(\forall y)(\forall n)((x\in A\ \text{và}\ y\in A\ \text{và}\ n\in\mathbf{Z})
@@ -380,7 +386,9 @@ và tiên đề
 
 Người ta kiểm tra ngay lập tức rằng các số hạng F, M cấu thành một thủ tục suy diễn một cấu trúc thuộc loài $\Theta$ từ một cấu trúc thuộc loài $\Sigma$, và rằng số hạng G là một thủ tục suy diễn một cấu trúc thuộc loài $\Sigma$ từ một cấu trúc thuộc loài $\Theta$. Hơn nữa, điều kiện (3) ở trên được thỏa mãn một cách hiển nhiên. Do đó ta có thể nói rằng loài các cấu trúc nhóm giao hoán và loài các cấu trúc $\mathbf{Z}$-môđun là tương đương.
 
-(2) Cho $\Sigma$ là loài các cấu trúc tôpô (no. 4, Ví dụ 3), cho $A$ là tập cơ sở (chính), và cho $V$ là cấu trúc tổng quát của $\Sigma$. Xét quan hệ
+#### Ví dụ 2 {#ens-iv-s1-n7-exa-2 .statement tag=03VJ}
+
+Cho $\Sigma$ là loài các cấu trúc tôpô (no. 4, Ví dụ 3), cho $A$ là tập cơ sở (chính), và cho $V$ là cấu trúc tổng quát của $\Sigma$. Xét quan hệ
 
 $$x \in A \text{ và } X \subset A \text{ và } (\forall U)((U \in V \text{ và } x \in U) \Rightarrow (X \cap U \neq \varnothing)).$$
 

@@ -48,9 +48,9 @@ subsections:
       title: CLASSES OF EQUIVALENT OBJECTS
       page: 121
       pdf_page: 128
-statements: 12
+statements: 13
 exercises: 11
-content_sha256: a9516090a3671a2c5c9ec27dc7c5d6ab4039425edcbe18341c46c83eb0eaae8c
+content_sha256: 5275117c1933bf256a07b849a9744bdfef7399a80ff01615c7685f2b15dc5823
 translated_from: content/en/ens/II/06_s6_equivalence_relations.md
 source_content_sha256: 6bc9ceffca6d2226ba430227dbf5798495a6ee810349140ce93677c7c35070e9
 translation_model: gpt-5-6, gpt-5.4
@@ -80,7 +80,7 @@ Do đó $R\{x, y\}$ và $R\{y, x\}$ là tương đương.
 
 $$(R\{x, y\} \text{ và } R\{y, z\}) \Rightarrow R\{x, z\}.$$
 
-#### Ví dụ {#ens-ii-s6-n1-exa-6 .statement tag=03TP}
+#### Ví dụ {#ens-ii-s6-n1-exa-7 .statement}
 
 Quan hệ $x = y$ là đối xứng và bắc cầu. Quan hệ $X \subset Y$ là bắc cầu nhưng không đối xứng. Quan hệ $X \cap Y = \emptyset$ là đối xứng nhưng không bắc cầu.
 
@@ -117,7 +117,10 @@ Giả sử $A \subset E$; khi đó quan hệ
 $$(x \in E - A \text{ và } y = x) \text{ hoặc } (x \in A \text{ và } y \in A)$$
 
 là một quan hệ tương đương trên E.
-(6) \* Quan hệ "$x \in \mathbf{Z}$ và $y \in \mathbf{Z}$ và $x - y$ chia được cho 4" là một quan hệ tương đương trên $\mathbf{Z}$.\*
+
+#### Ví dụ 6 {#ens-ii-s6-n1-exa-6 .statement tag=03TP}
+
+\* Quan hệ "$x \in \mathbf{Z}$ và $y \in \mathbf{Z}$ và $x - y$ chia được cho 4" là một quan hệ tương đương trên $\mathbf{Z}$.\*
 
 #### Mệnh đề 1 {#ens-ii-s6-prop-1 .statement tag=03QH}
 

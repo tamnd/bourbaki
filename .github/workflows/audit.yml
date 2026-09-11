@@ -162,7 +162,7 @@ jobs:
       # The count was zero when this step was written, and this step then sat
       # behind a tags verify that failed on every branch from August on, so it
       # has not run on a pull request since. It was 31555 when the ceiling went
-      # in and is 30032 now, and #391 has the breakdown: 23308 of them are T03,
+      # in and is 29950 now, and #391 has the breakdown: 23308 of them are T03,
       # the statements waiting to be tagged, and most of the rest is volumes
       # that are not read through yet. The 1529 that have come off since are the
       # small mathematics rules read to nothing, the 102 seals the sweeps left
@@ -192,7 +192,16 @@ jobs:
       # honest.
       #
       # The ceiling has gone up twice, and both times because the corpus grew
-      # and not because anything broke.
+      # and not because anything broke. It has come down once on its own, 30032
+      # to 29950, and that is #344: the Vietnamese was missing 71 statement
+      # anchors the English has, and a further handful carried an anchor on the
+      # wrong statement, so the two trees had drifted out of step without any
+      # of the text being wrong. Putting the anchors back took L03, the heading
+      # tree, from 52 to 14 and L04, the count of each kind, from 51 to 10, and
+      # closed L02 entirely, 2 to 0. L05 came off by one. T10 gained one, soft:
+      # content/vi/ens/II/06 had 03TP glued to the wrong statement, and with it
+      # on the right one the Vietnamese now reports exactly what the English
+      # file already reports at content/en/ens/II/06.
       #
       # The second time is 30026 to 30032, for the second fascicule of
       # Variétés. Paragraphes 8 à 15 had been read and committed under pages/
@@ -224,7 +233,7 @@ jobs:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: |
           if go run ./cmd/bourbaki audit -validate-tex -report reports/audit.md \
-               -json "$RUNNER_TEMP/audit.json" -max-hard 30032; then
+               -json "$RUNNER_TEMP/audit.json" -max-hard 29950; then
             echo "status=0" >> "$GITHUB_OUTPUT"
           else
             echo "status=$?" >> "$GITHUB_OUTPUT"

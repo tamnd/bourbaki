@@ -38,9 +38,9 @@ subsections:
       title: THE EULER-MACLAURIN SUMMATION FORMULA
       page: 0
       pdf_page: 297
-statements: 20
+statements: 21
 exercises: 3
-content_sha256: f4cef3883761f7ae01853099d79cbf6efaa25d6f26367bb6228a4d2441f43970
+content_sha256: 8c9ce9569ea1b772d017d57a28bb04fd4c98fb2f5fba900679add6fbd29a5f76
 translated_from: content/en/fvr/VI/01_s1_generalized_taylor_expansions.md
 source_content_sha256: 0001fab43420fc721b2091717a772409bf8d8ed8a052f67cffccc1674b37f714
 translation_model: gpt-5.4
@@ -88,7 +88,10 @@ $$
 #### Ví dụ 1 {#fvr-vi-s1-n1-exa-1 .statement}
 
 Với mọi $\lambda \in K$ toán tử gán cho mỗi đa thức $f(X)$ đa thức $f(X + \lambda)$ là một toán tử hợp thành.
-2) Đạo hàm D trên K[X] là một toán tử hợp thành (*xem* mệnh đề 1).
+
+#### Ví dụ 2 {#fvr-vi-s1-n1-exa-2 .statement}
+
+Đạo hàm D trên K[X] là một toán tử hợp thành (*xem* mệnh đề 1).
 
 #### Nhận xét {#fvr-vi-s1-n1-rem-1 .statement}
 
@@ -154,7 +157,7 @@ Người ta kiểm tra ngay lập tức rằng ánh xạ này là một đồng 
 
 *Đại số $\Gamma$ các toán tử hợp thành trong $K[X]$ là giao hoán.*
 
-#### Ví dụ {#fvr-vi-s1-n1-exa-2 .statement}
+#### Ví dụ {#fvr-vi-s1-n1-exa-3 .statement}
 
 Nếu $U$ là toán tử gán cho mỗi đa thức $f(X)$ đa thức $f(X + \lambda)$ (trong đó $\lambda \in K$), thì ta có $U_0(X^k) = \lambda^k$, và do đó $U = \sum_{k=0}^{\infty} \frac{1}{k!} (\lambda D)^k$. Theo phép loại suy với khai triển chuỗi của $e^{\lambda}$ (III, p. 105), ta viết $e^S$ hoặc $\exp(S)$ cho chuỗi hình thức $\sum_{n=0}^{\infty} \frac{1}{n!} S^n$ trong vành $K[[S]]$; vì thế có thể viết $U = e^{\lambda D}$. Thay thế trường $K$ bằng trường phân thức hữu tỉ $K(Y)$ trong lập luận này, ta cũng thấy tương tự rằng *toán tử tịnh tiến* $T_Y$ có thể được viết dưới dạng $e^{YD}$.
 

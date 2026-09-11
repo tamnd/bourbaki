@@ -13,16 +13,16 @@ Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 
 | Group | Hard | Soft | Not run | Failing |
 | --- | ---: | ---: | ---: | --- |
 | structure | 13 | 1 | 0 | S11 (433), S14 (798) |
-| tags | 7 | 1 | 1 | T03 (23308), T10 (8) |
+| tags | 7 | 1 | 1 | T03 (23308), T10 (9) |
 | mathematics | 10 | 5 | 0 | M03 (2), M06 (6), M13 (48), M14 (2703) |
 | figures | 6 | 0 | 0 | F01 (158) |
 | references | 3 | 0 | 0 | R01 (3369), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1392), L02 (2), L03 (52), L04 (51), L05 (339), L06 (2017), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
+| translation | 13 | 3 | 1 | L01 (1392), L03 (14), L04 (10), L05 (338), L06 (2017), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-30032 hard findings and 11283 soft, over 76 rules that ran and 2 that could not.
+29950 hard findings and 11284 soft, over 76 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -345,7 +345,7 @@ Hard, tags.
 
 and 23283 more, which `bourbaki audit -only T03` prints in full.
 
-## T10 the tags of a file climb, as they did on the run that assigned them (8)
+## T10 the tags of a file climb, as they did on the run that assigned them (9)
 
 Soft, tags.
 
@@ -356,6 +356,7 @@ Soft, tags.
 - `content/fr/ens/II/03_s3_correspondances.md:113` has 03PH after 03PI, which the same run assigned later
 - `content/fr/lie/IX/04_s4_systeme_de_racines_associe_a_un_groupe.md:376` has 01C5 after 01C7, which the same run assigned later
 - `content/vi/ens/II/03_s3_correspondences.md:133` has 03PH after 03PI, which the same run assigned later
+- `content/vi/ens/II/06_s6_equivalence_relations.md:121` has 03TP after 03TS, which the same run assigned later
 - `content/vi/lie/IX/04_s4_root_system_associated_to_a_compact.md:428` has 01C5 after 01C7, which the same run assigned later
 
 ## L01 the math spans are the English ones, in order (1392)
@@ -390,14 +391,7 @@ Hard, translation.
 
 and 1367 more, which `bourbaki audit -only L01` prints in full.
 
-## L02 the tag set is the English one (2)
-
-Hard, translation.
-
-- `content/vi/ens/II/06_s6_equivalence_relations.md:1` carries the English tags in a different order
-- `content/vi/ens/IV/01_s1_structures_and_isomorphisms.md:1` the English has 5 tags this file does not: 03VE 03VF 03VG 03VI 03VJ
-
-## L03 the heading tree is the English one (52)
+## L03 the heading tree is the English one (14)
 
 Hard, translation.
 
@@ -412,24 +406,11 @@ Hard, translation.
 - `content/en-mt/var/1/05_s5_varietes.md:1` the heading tree is 14 deep against the English 15, and the English has "### " and this file ends
 - `content/vi/ac/X/04_s4_anneaux_reguliers.md:1` the heading tree is 36 deep against the English 36, and heading 36 is "#### ac-x-s4-exercises" against "## ac-x-s4-exercises"
 - `content/vi/alg/00_to_the_reader_iv_vii.md:1` the heading tree is 0 deep against the English 1, and the English has "## " and this file ends
-- `content/vi/alg/IV/02_s2_zeros_of_polynomials.md:1` the heading tree is 24 deep against the English 25, and heading 8 is "#### alg-iv-s2-prop-4" against "#### alg-iv-s2-n1-rem-2"
-- `content/vi/alg/IV/05_s5_symmetric_tensors_and_polynomial.md:1` the heading tree is 49 deep against the English 54, and heading 33 is "#### alg-iv-s5-prop-14" against "#### alg-iv-s5-n9-exa-2"
-- `content/vi/alg/V/04_s4_algebraically_closed_extensions.md:1` the heading tree is 24 deep against the English 25, and heading 16 is "#### alg-v-s4-prop-6" against "#### alg-v-s4-n3-exa-2"
-- `content/vi/alg/V/07_s7_separable_algebraic_extensions.md:1` the heading tree is 49 deep against the English 50, and heading 46 is "### " against "#### alg-v-s7-n8-rem-2"
-- `content/vi/alg/VI/01_s1_ordered_groups_divisibility.md:1` the heading tree is 67 deep against the English 68, and heading 24 is "### " against "#### alg-vi-s1-n6-rem-2"
-- `content/vi/alg/VI/02_s2_ordered_fields.md:1` the heading tree is 40 deep against the English 42, and heading 7 is "#### alg-vi-s2-prop-1" against "#### alg-vi-s2-n1-exa-4"
-- `content/vi/alg/VII/05_s5_endomorphisms_of_vector_spaces.md:1` the heading tree is 74 deep against the English 77, and heading 71 is "#### alg-vii-s5-prop-17" against "#### alg-vii-s5-n9-rem-2"
 - `content/vi/ens/ER/02_s2_functions.md:1` the heading tree is 0 deep against the English 1, and the English has "## " and this file ends
-- `content/vi/ens/II/06_s6_equivalence_relations.md:1` the heading tree is 23 deep against the English 24, and heading 3 is "#### ens-ii-s6-n1-exa-6" against "#### ens-ii-s6-n1-exa-7"
-- `content/vi/ens/IV/01_s1_structures_and_isomorphisms.md:1` the heading tree is 21 deep against the English 26, and heading 18 is "#### ens-iv-s1-n6-rem-1" against "#### ens-iv-s1-n6-exa-1"
-- `content/vi/evt/II/02_s2_convex_sets.md:1` the heading tree is 62 deep against the English 64, and heading 5 is "#### evt-ii-s2-n1-rem-1" against "#### evt-ii-s2-n1-exa-2"
-- `content/vi/evt/IV/01_s1_duality.md:1` the heading tree is 42 deep against the English 43, and heading 29 is "#### evt-iv-s1-n3-cor-3" against "#### evt-iv-s1-n3-rem-2"
-- `content/vi/evt/IV/02_s2_bidual_reflexive_spaces.md:1` the heading tree is 37 deep against the English 39, and heading 13 is "### " against "#### evt-iv-s2-n2-rem-2"
-- `content/vi/evt/V/04_s4_some_classes_of_operators_in_hilbertian.md:1` the heading tree is 58 deep against the English 59, and heading 30 is "#### evt-v-s4-prop-13" against "#### evt-v-s4-n5-rem-2"
+- `content/vi/int/00_to_the_reader_vii_ix.md:1` the heading tree is 1 deep against the English 1, and heading 1 is "# " against "## "
+- `content/vi/ts/00_to_the_reader_i_ii.md:1` the heading tree is 0 deep against the English 1, and the English has "## " and this file ends
 
-and 27 more, which `bourbaki audit -only L03` prints in full.
-
-## L04 the statement counts are the English ones (51)
+## L04 the statement counts are the English ones (10)
 
 Hard, translation.
 
@@ -443,25 +424,8 @@ Hard, translation.
 - `content/en-mt/alg/X/02_s2_complexes_de_a_modules.md:1` has 15 of kind exa and the English has 18
 - `content/en-mt/alg/X/04_s4_produits_de_torsion.md:1` has 12 of kind cor and the English has 13
 - `content/en-mt/alg/X/04_s4_produits_de_torsion.md:1` has 2 of kind thm and the English has 3
-- `content/vi/alg/IV/02_s2_zeros_of_polynomials.md:1` has 1 of kind rem and the English has 2
-- `content/vi/alg/IV/05_s5_symmetric_tensors_and_polynomial.md:1` has 1 of kind exa and the English has 6
-- `content/vi/alg/V/04_s4_algebraically_closed_extensions.md:1` has 1 of kind exa and the English has 2
-- `content/vi/alg/V/07_s7_separable_algebraic_extensions.md:1` has 4 of kind rem and the English has 5
-- `content/vi/alg/VI/01_s1_ordered_groups_divisibility.md:1` has 8 of kind rem and the English has 9
-- `content/vi/alg/VI/02_s2_ordered_fields.md:1` has 6 of kind exa and the English has 8
-- `content/vi/alg/VII/05_s5_endomorphisms_of_vector_spaces.md:1` has 7 of kind rem and the English has 10
-- `content/vi/ens/II/06_s6_equivalence_relations.md:1` has 10 of kind exa and the English has 11
-- `content/vi/ens/IV/01_s1_structures_and_isomorphisms.md:1` has 6 of kind exa and the English has 12
-- `content/vi/evt/II/02_s2_convex_sets.md:1` has 5 of kind exa and the English has 7
-- `content/vi/evt/IV/01_s1_duality.md:1` has 8 of kind rem and the English has 9
-- `content/vi/evt/IV/02_s2_bidual_reflexive_spaces.md:1` has 5 of kind rem and the English has 7
-- `content/vi/evt/V/04_s4_some_classes_of_operators_in_hilbertian.md:1` has 11 of kind rem and the English has 12
-- `content/vi/fvr/I/01_s1_first_derivative.md:1` has 12 of kind exa and the English has 16
-- `content/vi/fvr/I/01_s1_first_derivative.md:1` has 6 of kind rem and the English has 7
 
-and 26 more, which `bourbaki audit -only L04` prints in full.
-
-## L05 source_content_sha256 is the English hash as it stands (339)
+## L05 source_content_sha256 is the English hash as it stands (338)
 
 Hard, translation.
 
@@ -491,7 +455,7 @@ Hard, translation.
 - `content/en-mt/ac/X/07_s7_algebres_lisses.md:1` was translated from d68b9c7325c8 and content/fr/ac/X/07_s7_algebres_lisses.md is now 88cf6f006be0, so it is stale
 - `content/en-mt/ac/X/08_s8_dualite_des_modules_de_longueur_finie.md:1` was translated from fbc50d377bb5 and content/fr/ac/X/08_s8_dualite_des_modules_de_longueur_finie.md is now 7d49f185df1f, so it is stale
 
-and 314 more, which `bourbaki audit -only L05` prints in full.
+and 313 more, which `bourbaki audit -only L05` prints in full.
 
 ## L06 the glossary is followed (2017)
 

@@ -63,9 +63,9 @@ subsections:
       title: Irreducible elements
       page: 17
       pdf_page: 328
-statements: 52
+statements: 53
 exercises: 34
-content_sha256: d175d0f46e886264f8fcaff18cdd8d1107f69757c12f6b6a07c0bb927e030b65
+content_sha256: 8bef78a149935dcc812ca88a7c78fccd073f236e92fc0c85dcc7a0b6face89ff
 translated_from: content/en/alg/VI/01_s1_ordered_groups_divisibility.md
 source_content_sha256: 5dfbd1ec95d8ba9a7a5492cea424d8856e8b03e0d486d93477fdfa800389bdd9
 translation_model: gpt-5.4
@@ -266,7 +266,10 @@ Cho (G_i)_i, là một họ các nhóm có thứ tự mà tập chỉ số I đ�
 #### Nhận xét 1 {#alg-vi-s1-n6-rem-1 .statement}
 
 Trong những trường hợp thông dụng nhất, tập chỉ số được sắp tốt I sẽ là một khoảng hữu hạn (1, n) trong N.
-    2) Tập hợp các phần tử dương của tích từ điển G gồm 0 và những phần tử khác không mà thành phần khác không có chỉ số nhỏ nhất là dương.
+
+#### Nhận xét 2 {#alg-vi-s1-n6-rem-2 .statement}
+
+Tập hợp các phần tử dương của tích từ điển G gồm 0 và những phần tử khác không mà thành phần khác không có chỉ số nhỏ nhất là dương.
 
 ### 7. Các đồng cấu tăng của các nhóm có thứ tự
 

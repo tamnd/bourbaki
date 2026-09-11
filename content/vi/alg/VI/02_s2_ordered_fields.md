@@ -40,9 +40,9 @@ subsections:
       title: Vector spaces over an ordered field
       page: 28
       pdf_page: 339
-statements: 31
+statements: 33
 exercises: 41
-content_sha256: c34b528de25ee6522e347ee2944d8b7ff7b92e05cd807ef59ec04e13ed8893ae
+content_sha256: 4010a2a2ca4f71e4018745cb82e05d0dc6706fac46ce249e1e350a215a05ef11
 translated_from: content/en/alg/VI/02_s2_ordered_fields.md
 source_content_sha256: 45506056239d65e13de7a37d24141821117f4fc774d40c3a5912d682cb6100c3
 translation_model: gpt-5.4
@@ -65,13 +65,19 @@ Vành $\mathbf{A}$, cùng với một thứ tự như vậy, được gọi là 
 #### Ví dụ 1 {#alg-vi-s2-n1-exa-1 .statement}
 
 Các vành $\mathbf{Q}$ và $\mathbf{Z}$, với các thứ tự thông thường, là những vành có thứ tự.
-2) Một tích của các vành có thứ tự, được trang bị thứ tự tích, là một vành có thứ tự. Đặc biệt, vành $\mathbf{A}^E$ các ánh xạ từ một tập hợp $E$ vào một vành có thứ tự $\mathbf{A}$ là một vành có thứ tự.
-3) Một vành con của một vành có thứ tự, với thứ tự cảm sinh, là một vành có thứ tự.
+
+#### Ví dụ 2 {#alg-vi-s2-n1-exa-2 .statement}
+
+Một tích của các vành có thứ tự, được trang bị thứ tự tích, là một vành có thứ tự. Đặc biệt, vành $\mathbf{A}^E$ các ánh xạ từ một tập hợp $E$ vào một vành có thứ tự $\mathbf{A}$ là một vành có thứ tự.
+
+#### Ví dụ 3 {#alg-vi-s2-n1-exa-3 .statement}
+
+Một vành con của một vành có thứ tự, với thứ tự cảm sinh, là một vành có thứ tự.
 
 Trong một vành có thứ tự, các quan hệ $x \geqslant y$ và $z \geqslant 0$ suy ra $xz \geqslant yz$. Thật vậy, các bất đẳng thức này tương đương tương ứng với $x - y \geqslant 0$, $z \geqslant 0$ và $(x - y)z \geqslant 0$.
 Tương tự ta có thể chỉ ra rằng các quan hệ $x \leqslant 0$ và $y \geqslant 0$ (resp. $y \leqslant 0$) suy ra $xy \leqslant 0$ (resp. $xy \geqslant 0$). Các kết quả này thường được viện dẫn dưới tên các quy tắc về dấu (hai phần tử được nói là có cùng dấu nếu cả hai đều $\geqslant 0$ hoặc cả hai đều $\leqslant 0$). Chúng suy ra rằng, nếu $\mathbf{A}$ là một vành được sắp thứ tự toàn phần, thì mọi bình phương đều dương, và đặc biệt mọi phần tử lũy đẳng (chẳng hạn phần tử đơn vị) đều dương.
 
-#### Ví dụ {#alg-vi-s2-n1-exa-2 .statement}
+#### Ví dụ {#alg-vi-s2-n1-exa-4 .statement}
 
 Chỉ có một cấu trúc vành được sắp thứ tự toàn phần trên $\mathbf{Z}$: thật vậy $1 > 0$, do đó $n > 0$ với mọi số tự nhiên $n \neq 0$, theo quy nạp. Trái lại, tồn tại những cấu trúc vành có thứ tự trên $\mathbf{Z}$ mà không được sắp thứ tự toàn phần (xem dưới đây).
 
@@ -93,7 +99,7 @@ $$
 (\mathrm{AP}_{IV}) \quad P \cup (-P) = \mathbf{A}.
 $$
 
-#### Ví dụ {#alg-vi-s2-n1-exa-3 .statement}
+#### Ví dụ {#alg-vi-s2-n1-exa-5 .statement}
 
 Trong $\mathbf{Z}$, nếu ta lấy $P$ là tập hợp các số nguyên chẵn dương (theo nghĩa thông thường), ta được một vành không được sắp thứ tự toàn phần.
 

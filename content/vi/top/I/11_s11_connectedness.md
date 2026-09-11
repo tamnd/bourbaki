@@ -38,9 +38,9 @@ subsections:
       title: 'APPLICATION : THE POINCARÉ-VOLTERRA THEOREM'
       page: 0
       pdf_page: 120
-statements: 28
+statements: 29
 exercises: 25
-content_sha256: f5ceec4a845f615fa669aa4a0dae6fdacad27450a0bab9dbfc5a1b3066e87511
+content_sha256: 56d9606fe89133439394580bdbfacd73bb33afbba522d4ad41e94b38c752828c
 translated_from: content/en/top/I/11_s11_connectedness.md
 source_content_sha256: f12b0f535c856eb0eec6548992165cda0fcb6dde9247c96a02db10d1ed77685b
 translation_model: gpt-5-6, gpt-5.4-mini
@@ -65,7 +65,10 @@ Nếu X liên thông và nếu A, B là hai tập con mở (tương ứng, đón
 #### Ví dụ 1 {#top-i-s11-n1-exa-1 .statement}
 
 Ta sẽ thấy trong Chương IV, § 2, no. 5 rằng đường thẳng thực là liên thông, còn đường thẳng hữu tỉ thì không. \*
-2) Một không gian rời rạc có nhiều hơn một điểm thì không liên thông.
+
+#### Ví dụ 2 {#top-i-s11-n1-exa-2 .statement}
+
+Một không gian rời rạc có nhiều hơn một điểm thì không liên thông.
 
 #### Định nghĩa 2 {#top-i-s11-def-2 .statement}
 
@@ -73,7 +76,7 @@ Ta sẽ thấy trong Chương IV, § 2, no. 5 rằng đường thẳng thực l�
 
 Để $A$ là một tập con liên thông của $X$ thì điều kiện cần và đủ là, đối với mỗi phủ của $A$ bởi hai tập con mở (hoặc đóng) $B, C$ của $X$ sao cho $A \cap B$ và $A \cap C$ là khác rỗng, ta có $A \cap B \cap C \neq \emptyset$.
 
-#### Ví dụ {#top-i-s11-n1-exa-2 .statement}
+#### Ví dụ {#top-i-s11-n1-exa-3 .statement}
 
 Trong mọi không gian tôpô, tập rỗng và mọi tập hợp gồm một điểm duy nhất đều liên thông. Trong một không gian Hausdorff $X$, mọi tập hữu hạn gồm nhiều hơn một điểm đều không liên thông, và nói chung mọi tập con của $X$ có nhiều hơn một điểm và có ít nhất một điểm cô lập đều không liên thông.
 

@@ -30,9 +30,9 @@ subsections:
       title: PASTING TOGETHER OF TOPOLOGICAL SPACES
       page: 0
       pdf_page: 40
-statements: 28
+statements: 30
 exercises: 10
-content_sha256: b5ba523bba53ee85809032fafb85bfa1a3cf472f0ea38128145fdda6e48e8d4d
+content_sha256: 6a09de70c1b4ecffb551d224b3bcd3272b6c76436952f94809179bcecabcfd09
 translated_from: content/en/top/I/02_s2_continuous_functions.md
 source_content_sha256: 16e7ac6daa7f6e8d5016ffb450612e74265560ae6512c3a4b479d5b88d5f0cf7
 translation_model: gpt-5.4
@@ -73,8 +73,14 @@ Một ánh xạ từ một không gian tôpô $X$ vào một không gian tôpô 
 #### Ví dụ 1 {#top-i-s2-n1-exa-1 .statement}
 
 Ánh xạ đồng nhất của một không gian tôpô $X$ lên chính nó là liên tục.
-2) Một ánh xạ hằng từ một không gian tôpô vào một không gian tôpô là liên tục.
-3) Mọi ánh xạ từ một không gian rời rạc vào một không gian tôpô đều liên tục.
+
+#### Ví dụ 2 {#top-i-s2-n1-exa-2 .statement}
+
+Một ánh xạ hằng từ một không gian tôpô vào một không gian tôpô là liên tục.
+
+#### Ví dụ 3 {#top-i-s2-n1-exa-3 .statement}
+
+Mọi ánh xạ từ một không gian rời rạc vào một không gian tôpô đều liên tục.
 
 #### Định lý 1 {#top-i-s2-thm-1 .statement}
 
@@ -98,7 +104,7 @@ và do đó $x \in \overline{f^{-1}(A')} \subset \overline{f^{-1}(V')}$. Theo gi
 
 Nhận xét. 1) Cho $\mathscr{B}$ là một cơ sở (§ 1, no. 3) của tôpô của $X'$; khi đó để $f : X \to X'$ liên tục, điều kiện cần và đủ là $\overline{f^{-1}(U')}$ mở trong $X$ với mọi $U' \in \mathscr{B}$.
 
-#### Ví dụ {#top-i-s2-n1-exa-2 .statement}
+#### Ví dụ {#top-i-s2-n1-exa-4 .statement}
 
 Cho $a$ là một số hữu tỉ bất kỳ. Ánh xạ $x \to a + x$ của đường thẳng hữu tỉ $\mathbf{Q}$ vào chính nó là liên tục trên $\mathbf{Q}$, vì ảnh ngược theo ánh xạ này của một khoảng mở $]b, c[$ là khoảng mở
 
@@ -110,7 +116,7 @@ Tương tự, ánh xạ $x \to ax$ là liên tục trên $\mathbf{Q}$; điều n
 
 2) Ảnh trực tiếp của một tập mở (tương ứng, đóng) của $X$ dưới một ánh xạ liên tục $f : X \to X'$ không nhất thiết là mở (tương ứng, đóng) trong $X'$ (xem § 5).
 
-#### Ví dụ {#top-i-s2-n1-exa-3 .statement}
+#### Ví dụ {#top-i-s2-n1-exa-5 .statement}
 
 \* Ánh xạ $f : x \to 1/(1 + x^2)$ từ $\mathbf{R}$ vào chính nó là liên tục, nhưng $f(\mathbf{R})$ là khoảng nửa mở $]0, 1]$, không mở cũng không đóng trong $\mathbf{R}$. \*
 

@@ -38,9 +38,9 @@ subsections:
       title: DERIVATIVES OF REAL-VALUED FUNCTIONS
       page: 0
       pdf_page: 25
-statements: 34
+statements: 36
 exercises: 9
-content_sha256: 1dac53e1d79acc59e1ba47c450d09ea7c1f1093bf202d210903fed2ac18a0406
+content_sha256: afc98318a9829413f421ef3fc665752dc822ad8307965df5b586f360e2c10f97
 translated_from: content/en/fvr/I/01_s1_first_derivative.md
 source_content_sha256: 5ac79d247600e1af8da17be22be9f55ff6aac813b9c80ef686bdb4b3e310cfcd
 translation_model: gpt-5.4
@@ -75,7 +75,10 @@ Ta tóm tắt các tính chất này bằng cách nói rằng khái niệm đạ
 #### Nhận xét 1 {#fvr-i-s1-n1-rem-1 .statement}
 
 Trong Động học, nếu điểm $\mathbf{f}(t)$ là vị trí của một điểm chuyển động trong không gian $\mathbf{R}^3$ tại thời điểm $t$, thì $\frac{\mathbf{f}(t) - \mathbf{f}(t_0)}{t - t_0}$ được gọi là vận tốc trung bình giữa các thời điểm $t_0$ và $t$, và giới hạn của nó $\mathbf{f}'(t_0)$ là vận tốc tức thời (hay đơn giản là vận tốc) tại thời điểm $t_0$ (khi giới hạn này tồn tại).*
-2) Nếu một hàm $\mathbf{f}$, xác định trên $I$, khả vi tại một điểm $x_0 \in I$, thì nó nhất thiết liên tục đối với $I$ tại điểm này.
+
+#### Nhận xét 2 {#fvr-i-s1-n1-rem-2 .statement}
+
+Nếu một hàm $\mathbf{f}$, xác định trên $I$, khả vi tại một điểm $x_0 \in I$, thì nó nhất thiết liên tục đối với $I$ tại điểm này.
 
 #### Định nghĩa 2 {#fvr-i-s1-def-2 .statement}
 
@@ -102,13 +105,16 @@ Hàm thực $1/x$ (được xác định với $x \neq 0$) khả vi tại mỗi 
 #### Ví dụ 4 {#fvr-i-s1-n1-exa-4 .statement}
 
 Hàm vô hướng $|x|$, được xác định trên $\mathbf{R}$, có đạo hàm phải $+1$ và đạo hàm trái $-1$ tại $x = 0$; nó không khả vi tại điểm này.
-*5) Hàm thực bằng 0 với $x = 0$, và bằng $x \sin 1/x$ với $x \neq 0$, được xác định và liên tục trên $\mathbf{R}$, nhưng không có cả đạo hàm phải lẫn đạo hàm trái tại điểm $x \neq 0$.* Có thể cho những ví dụ về các hàm liên tục trên một khoảng và không có đạo hàm tại mọi điểm của khoảng ấy (I, p. 35, exerc. 2 and 3).
+
+#### Ví dụ 5 {#fvr-i-s1-n1-exa-5 .statement}
+
+Hàm thực bằng 0 với $x = 0$, và bằng $x \sin 1/x$ với $x \neq 0$, được xác định và liên tục trên $\mathbf{R}$, nhưng không có cả đạo hàm phải lẫn đạo hàm trái tại điểm $x \neq 0$.* Có thể cho những ví dụ về các hàm liên tục trên một khoảng và không có đạo hàm tại mọi điểm của khoảng ấy (I, p. 35, exerc. 2 and 3).
 
 #### Định nghĩa 3 {#fvr-i-s1-def-3 .statement}
 
 *Ta nói rằng một hàm vectơ $\mathbf{f}$ xác định trên một khoảng $I \subset \mathbf{R}$ là khả vi (tương ứng, khả vi phải, khả vi trái) trên $I$ nếu nó khả vi (tương ứng, khả vi phải, khả vi trái) tại mỗi điểm của $I$; hàm $x \mapsto \mathbf{f}'(x)$ (tương ứng, $x \mapsto \mathbf{f}'_d(x)$, $x \mapsto \mathbf{f}'_g(x)$) xác định trên $I$ được gọi là hàm dẫn xuất, hoặc (do lạm dụng ngôn ngữ) là đạo hàm (tương ứng, đạo hàm phải, đạo hàm trái) của $\mathbf{f}$, và được ký hiệu bởi $\mathbf{f}'$ hoặc $\mathrm{Df}$ hoặc $d\mathbf{f}/dx$ (tương ứng, $\mathbf{f}'_d, \mathbf{f}'_g$).*
 
-#### Nhận xét {#fvr-i-s1-n1-rem-2 .statement}
+#### Nhận xét {#fvr-i-s1-n1-rem-3 .statement}
 
 Một hàm có thể khả vi trên một khoảng mà đạo hàm của nó không liên tục tại mọi điểm của khoảng ấy (*xem.* I, p. 36, exerc. 5); *điều này được chỉ ra bởi ví dụ về hàm bằng 0 khi $x = 0$ và bằng $x^2 \sin 1/x$ khi $x \neq 0$; nó có đạo hàm tại mọi nơi, nhưng đạo hàm này gián đoạn tại điểm $x = 0$.
 

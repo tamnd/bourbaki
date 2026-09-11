@@ -43,9 +43,9 @@ subsections:
       title: Relations between the spaces $\mathscr{L}_F^p$ ($1 \leq p < +\infty$)
       page: 31
       pdf_page: 138
-statements: 43
+statements: 44
 exercises: 3
-content_sha256: b5647bf2b09214188c0a100863646a9f7855bf88376cb591eb770db17fc35610
+content_sha256: 7a68892fa812c51a84ad0c16342b557dfc9fc3f2c18eb2af28def0f5b8e83017
 translated_from: content/en/int/IV/03_s3_lp_spaces.md
 source_content_sha256: 990c6868635eb8d33252eba948d26e29837eae81e092411c1ee46078be262311
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -232,7 +232,10 @@ Các hàm trong $\mathscr{L}_F^p$ (tương ứng trong $\mathscr{L}^p$) do đó 
 #### Nhận xét 1 {#int-iv-s3-n4-rem-1 .statement}
 
 Như đã được chỉ ra (§2, No. 5), các hàm khả tích theo lũy thừa $p$ với giá trị trong $\mathbf{F}$ nói chung không tạo thành một không gian vectơ.
-2) Nói chung, không gian $\mathscr{F}_\mathbf{F}^p$ phân biệt với không gian con của nó $\mathscr{L}_\mathbf{F}^p$ (§4, Exer. 8).
+
+#### Nhận xét 2 {#int-iv-s3-n4-rem-2 .statement}
+
+Nói chung, không gian $\mathscr{F}_\mathbf{F}^p$ phân biệt với không gian con của nó $\mathscr{L}_\mathbf{F}^p$ (§4, Exer. 8).
 
 Định nghĩa 2 ngay lập tức cho tiêu chuẩn sau:
 
@@ -285,11 +288,11 @@ Thật vậy, vì không gian $\mathscr{L}_F^p$ là mêtric hóa được, tồn
 
 Hệ quả 2 áp dụng đặc biệt cho trường hợp $\mathscr{E}$ được lấy là không gian $\mathscr{K}_F$ gồm các *hàm liên tục có giá compact*.
 
-#### Nhận xét 2 {#int-iv-s3-n4-rem-2 .statement}
+#### Nhận xét 2 {#int-iv-s3-n4-rem-3 .statement}
 
 Một dãy Cauchy $(f_n)$ trong $\mathscr{L}_F^p$ có thể sao cho dãy $(f_n(x))$ không hội tụ *tại bất kỳ điểm nào của* $X$ (Bài tập 1).
 
-#### Nhận xét 3 {#int-iv-s3-n4-rem-3 .statement}
+#### Nhận xét 3 {#int-iv-s3-n4-rem-4 .statement}
 
 Nếu $f$ thuộc về $\mathscr{L}_F^p$, không phải lúc nào cũng có thể tìm được một dãy $(f_n)$ gồm các hàm liên tục có giá compact sao cho dãy $(f_n(x))$ hội tụ *mọi nơi* trong $X$ đến một hàm bằng $f(x)$ hầu khắp nơi (§4, Bài tập 4 c)).
 

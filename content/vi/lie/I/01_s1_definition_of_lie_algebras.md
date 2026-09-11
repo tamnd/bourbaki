@@ -47,9 +47,9 @@ subsections:
       title: CHANGE OF BASE RING
       page: 11
       pdf_page: 29
-statements: 19
+statements: 20
 exercises: 27
-content_sha256: 884e0155b1510f139cc124e7a330792d6211b4647d4f66277f65a9881c17727f
+content_sha256: 56175bd30008211381ea4dde06cd3afa3a60b2dda340e3fb027035749afa1159
 translated_from: content/en/lie/I/01_s1_definition_of_lie_algebras.md
 source_content_sha256: 34c36ec4b6364065c59b2c64940de2dd7a1af068ca79123de094195be8edaedd
 translation_model: gpt-5.4
@@ -124,7 +124,10 @@ Trong Ví dụ 1, chọn $L$ là đại số kết hợp các nội đồng cấ
 Mọi đại số con Lie của $gl(E)$ đều là một đại số Lie trên $K$. Đặc biệt:
 (1) Nếu $E$ được cho một cấu trúc đại số (không nhất thiết kết hợp), các đạo tử của $E$ tạo thành một đại số Lie trên $K$.
 (2) Nếu $E$ có một cơ sở hữu hạn, các nội đồng cấu của $E$ có vết không tạo thành một đại số Lie trên $K$ ký hiệu bởi $sl(E)$ (hoặc $sl(n, K)$ nếu $E = K^n$).
-(3) Tập hợp $M_n(K)$ các ma trận vuông cấp $n$ có thể được xem như một đại số Lie trên K đẳng cấu chính tắc với gl(n, K). Cho $(E_{ij})$ là cơ sở chính tắc của $\mathbf{M}_n(K)$ (Đại số, Chương II, § 10, no. 3). Khi đó dễ dàng suy ra rằng:
+
+#### Ví dụ 3 {#lie-i-s1-n2-exa-3 .statement}
+
+Tập hợp $M_n(K)$ các ma trận vuông cấp $n$ có thể được xem như một đại số Lie trên K đẳng cấu chính tắc với gl(n, K). Cho $(E_{ij})$ là cơ sở chính tắc của $\mathbf{M}_n(K)$ (Đại số, Chương II, § 10, no. 3). Khi đó dễ dàng suy ra rằng:
 
 $$
 \begin{cases}
