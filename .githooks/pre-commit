@@ -58,11 +58,12 @@ BOURBAKI_CORPUS="$root"
 export BOURBAKI_CORPUS
 
 # A finding in a file this commit does not touch is somebody else's, and it is
-# already in the history. manifests/sections.yaml has been over the H03 limit
-# since before the branch that is on now (#374), and a hook that refuses every
-# commit for it is a hook that is passed --no-verify every time, which is worse
-# than no hook: the next real H04 goes through on the same habit, because the
-# author is typing the flag before reading what failed.
+# already in the history. manifests/sections.yaml was over the H03 limit for
+# weeks (#374, since fixed by splitting it a volume to a file), and a hook that
+# refuses every commit for a standing finding is a hook that is passed
+# --no-verify every time, which is worse than no hook: the next real H04 goes
+# through on the same habit, because the author is typing the flag before
+# reading what failed.
 #
 # So the finding is reported either way and only a finding in a staged file
 # stops the commit. The rules still catch what they were written to catch --
@@ -79,7 +80,7 @@ trap 'rm -rf "$tmp"' EXIT INT TERM
 # Both through -C "$root". By this point the working directory may be the
 # sibling solver checkout, which the hook cd'd into to run the rules from
 # source, and a bare git here would answer about that repository instead: it
-# listed the solver's files as the corpus's, found manifests/sections.yaml
+# listed the solver's files as the corpus's, found the corpus's manifest
 # nowhere among them, and refused the commit for a file nobody had staged.
 git -C "$root" diff --cached --name-only --diff-filter=ACMR >"$tmp/staged"
 git -C "$root" ls-files >"$tmp/tracked"
