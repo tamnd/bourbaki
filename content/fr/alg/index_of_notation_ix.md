@@ -12,7 +12,7 @@ pdf_pages: 0200-0201
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 85e17dcc7234e31bd26bb1acd485fbf4f18a775f3b0e0fffc966a34a25869e9b
+content_sha256: fb9ba8206a569acf8265d958a33eaea1c21bf5e985b6d52e8f1d7291c4ef69c6
 ---
 
 ## INDEX DES NOTATIONS
@@ -54,8 +54,8 @@ $\bar{u}(u$ similitude directe$), i, d : 10, 1.$
 $c_w, s_w, t_w, c, s, t : 10, 2.$
 $H^+ : 10, 3.$
 
-(D_1, D_2) (D_1, D_2 droites ou demi-droites) : 10, 3.
+$(D_1, D_2)$ (D_1, D_2 droites ou demi-droites) : 10, 3.
 $\mathfrak{A}, \mathfrak{A}_0, h, h'$ : 10, 3.
 |x|, \langle x, y \rangle (x, y vecteurs) : 10, 3.
 $\cos \theta, \sin \theta, \operatorname{tg} \theta, \operatorname{cotg} \theta$ : 10, 3.
-\{ D_1, D_2 \}, \{ D_1, D_2 \} (D_1, D_2 demi-droites dans un plan orienté) : 10, 4.
+$\{ D_1, D_2 \}, \{ D_1, D_2 \}$ (D_1, D_2 demi-droites dans un plan orienté) : 10, 4.

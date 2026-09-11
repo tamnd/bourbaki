@@ -12,12 +12,12 @@ pdf_pages: 0314-0315
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: c25cde8a79d1c58aa3200fe480608d8457e8f51337fb26675c245979c9435dfa
+content_sha256: bf24de5a4d80ba1a73584a2927916c3e8bf8e0c0a90ea91f38c7aabc9c8ea06a
 ---
 
 ## INDEX DES NOTATIONS
 
-T: V, 2.
+$T$: V, 2.
 $a^x$ ($a$ nombre $> 0$, $x$ nombre réel): V, 11.
 $\log_a x$ ($a$ et $x$ nombres $> 0$, $a \neq 1$): V, 12.
 $\mathbf{R}^n$: VI, 1.
@@ -36,7 +36,7 @@ $G^*$ ($G$ sous-groupe de $\mathbf{R}^n$): VII, 6.
 $T^n$: VII, 9.
 $C, i$: VIII, 1.
 $\Re(z), \Im(z), \bar{z}, |z|$ ($z$ nombre complexe): VIII, 2.
-UH: VIII, 4.
+$UH$: VIII, 4.
 $e(x)$ ($= e^{2\pi ix}$): VIII, 8.
 $(\Delta_1, \Delta_2)$ ($\Delta_1, \Delta_2$ demi-droites): VIII, 9.
 $\delta, \overline{\omega}$: VIII, 9.
@@ -55,14 +55,12 @@ $d(A, B), d(x, A)$ ($x$ point, A, B parties d’un espace métrique où la dista
 $|x|$ (valeur absolue dans un corps valué): IX, 28.
 $\| \mathbf{x} \|$ (norme dans un espace normé): IX, 34.
 $D(X)$: IX, exerc. 3, 111.
-L(C) (C crible): IX, 63.
+$L(C)$ (C crible): IX, 63.
 $\mathcal{F}_\alpha, \mathfrak{S}_\alpha$: IX, 119, exerc. 6.
 $\prod_{n \in \mathbf{N}} x_n$: IX, 78.
 $\prod_{n=h}^\infty x_n$: IX, 82.
 
-$$
-\prod_{n=0}^{\infty} x_n : \text{IX, 83.}
-$$
+$\prod_{n=0}^{\infty} x_n$: IX, 83.
 $\mathcal{F}(X; Y), H(x)$ (H partie de $\mathcal{F}(X; Y)$), $\Phi(x)$ ($\Phi$ filtre sur $\mathcal{F}(X; Y)$), $u \mid A, H \mid A$ (A partie de X, $u \in \mathcal{F}(X; Y), H \subset \mathcal{F}(X; Y)$) : X, 1.
 $W(V)$ (V entourage de Y) : X, 1.
 $\mathcal{F}_u(X; Y)$ : X, 2.

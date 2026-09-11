@@ -13,7 +13,7 @@ pdf_pages: 0625-0627
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 641e0c3993ffaf13cacc636d859b85afb80bfe6604e9d58bf0039d6861b7d1d6
+content_sha256: f645b27568c9cb74dfccb971fe808ca04a1a2b30902cadfbbe32f75c509794cf
 ---
 
 ## INDEX OF NOTATION
@@ -21,7 +21,7 @@ content_sha256: 641e0c3993ffaf13cacc636d859b85afb80bfe6604e9d58bf0039d6861b7d1d6
 The reference numbers indicate the chapter, section and sub-section (or exercise) in that order.
 
 1, (E a set), U . V, UV (U, V additive subgroups), $a^0$ (a an ideal): Preliminary conventions of Chapter I
-E : F : I.2.10
+$E : F$ : I.2.10
 $A[S^{-1}], a/s$ (A a ring, S a subset of A, $a \in A$, s a product of elements of S): II.2.1 $i_A^S$: II.2.1
 $S^{-1}A, A_p$ (S a multiplicative subset, p a prime ideal): II.2.1
 $M[S^{-1}], m/s, i_M^S$ (M an A-module, S a subset of A, $m \in M$, s a product of elements of S): II.2.2
@@ -41,40 +41,42 @@ $P(A), \operatorname{cl}(M)$ (A a ring, M a projective A-module of rank 1): II.5
 $\mathfrak{C}, \mathfrak{C}(A)$: II.5.7
 $\det(u), \chi_u$ (u an endomorphism of a projective module of rank n): II.5. Ex. 9
 $A^{(d)}, M^{(d,k)}, M^{(d)}$ (A a graded ring, M a graded A-module): III.1.3
-$A_{(p)}, M_{(p)}$ (A a graded ring, p a graded prime ideal of A, M a graded A-module): III.1.4 gr_n(G), gr(G) (G a filtered group): III.2.3
-gr(h) (h a homomorphism compatible with the filtrations): III.2.4
-\mathbf{Z}_n (n an integer > 1): III.2.12
-\hat{\mathbf{Z}}: III.2.13
-A\{X_1, \ldots, X_p\} (A a linearly topologized ring): III.4.2
-f(b_1, \ldots, b_p) (f a restricted formal power series): III.4.2
-f \circ g, M_f, M_f(\mathbf{X}), J_f, J_f(\mathbf{X}), \mathbf{X}, \mathbf{1}, (\mathbf{f}, \mathbf{g} systems of formal power series, \mathbf{g} without constant term): III.4.4
-f(x) (f a system of formal power series, x a system of topological nilpotent elements): III.4.5
-m \times n (m an ideal): III.4.5
-Ass_A(M), Ass(M) (M an A-module): IV. 1.1
-Ass_f(M): IV.1. Ex. 17
-A^G (A an algebra, G a group operating on A): V.1.9
-G^Z(p'), G^Z, A^Z(p'), A^Z (G a group operating on a ring A', p' a prime ideal of A'): V.2.2
-G^T(p'), G^T, A^T(p'), A^T (A group operating on a ring A', p' a prime ideal of A): v.2.2
-K^Z(p'), K^Z, K^T(p'), K^T (K the field of fractions of an integrally closed domain A, p' a prime ideal of the integral closure of A in a quasi-Galois extension of K): V.2.3
-Y^p (where p = (p_1, \ldots, p_m), the p_i being integers \geqslant 0): V.3.1
-m(A), \kappa(A), U(A) (A a local ring): VI
-R, a: VI.2.1
-+\infty: VI.3.1
-\Gamma_A, v_A: VI.3.2
-a(M) (M a major set): VI.3.5
-h(G) (G a totally ordered group): VI.4.4
-\mathcal{T}_v (v a valuation): VI.5.2
-e(v'/v), e(A'/A), e(L/K): VI.8.1
-f(v'/v), f(A'/A), f(L/K): VI.8.1
-\varepsilon(G, H) (G a totally ordered group, H a subgroup of G of finite index): VI.8.4
-\varepsilon(v'/v) (v a valuation, v' an extension of v): VI.8.4
-\operatorname{mod}(x), \operatorname{mod}_K(x) (K a non-discrete locally compact field, x \in K): VI.9.1
-r(G) (rational rank of a commutative group): VI.10.2
-d(K'/K), s(v'/v), r(v'/v) (v a valuation on K, v' an extension of v to a transcendental extension K' of K): VI.10.3
-I(A), D(A) (A an integral domain): VII.1.1
-a \prec b, \operatorname{div}(a), \operatorname{div}(x) (a, b fractional ideals, x an element of the field of fractions): VII.1.1
-\tilde{a} (a a fractional ideal): VII.1.1
-d_1 \leq d_2 (d_1, d_2 divisors): VII.1.1
+$A_{(p)}, M_{(p)}$ (A a graded ring, p a graded prime ideal of A, M a graded A-module): III.1.4
+
+$gr_n(G), gr(G)$ (G a filtered group): III.2.3
+$gr(h)$ (h a homomorphism compatible with the filtrations): III.2.4
+$\mathbf{Z}_n$ (n an integer > 1): III.2.12
+$\hat{\mathbf{Z}}$: III.2.13
+$A\{X_1, \ldots, X_p\}$ (A a linearly topologized ring): III.4.2
+$f(b_1, \ldots, b_p)$ (f a restricted formal power series): III.4.2
+$f \circ g, M_f, M_f(\mathbf{X}), J_f, J_f(\mathbf{X}), \mathbf{X}, \mathbf{1}$, ($\mathbf{f}, \mathbf{g}$ systems of formal power series, $\mathbf{g}$ without constant term): III.4.4
+$f(x)$ (f a system of formal power series, x a system of topological nilpotent elements): III.4.5
+$m \times n$ (m an ideal): III.4.5
+$Ass_A(M), Ass(M)$ (M an A-module): IV. 1.1
+$Ass_f(M)$: IV.1. Ex. 17
+$A^G$ (A an algebra, G a group operating on A): V.1.9
+$G^Z(p'), G^Z, A^Z(p'), A^Z$ (G a group operating on a ring A', p' a prime ideal of A'): V.2.2
+$G^T(p'), G^T, A^T(p'), A^T$ (A group operating on a ring A', p' a prime ideal of A): v.2.2
+$K^Z(p'), K^Z, K^T(p'), K^T$ (K the field of fractions of an integrally closed domain A, p' a prime ideal of the integral closure of A in a quasi-Galois extension of K): V.2.3
+$Y^p$ (where p = $(p_1, \ldots, p_m)$, the $p_i$ being integers $\geqslant 0$): V.3.1
+$m(A), \kappa(A), U(A)$ (A a local ring): VI
+$R, a$: VI.2.1
+$+\infty$: VI.3.1
+$\Gamma_A, v_A$: VI.3.2
+$a(M)$ (M a major set): VI.3.5
+$h(G)$ (G a totally ordered group): VI.4.4
+$\mathcal{T}_v$ (v a valuation): VI.5.2
+$e(v'/v), e(A'/A), e(L/K)$: VI.8.1
+$f(v'/v), f(A'/A), f(L/K)$: VI.8.1
+$\varepsilon(G, H)$ (G a totally ordered group, H a subgroup of G of finite index): VI.8.4
+$\varepsilon(v'/v)$ (v a valuation, v' an extension of v): VI.8.4
+$\operatorname{mod}(x), \operatorname{mod}_K(x)$ (K a non-discrete locally compact field, x $\in$ K): VI.9.1
+$r(G)$ (rational rank of a commutative group): VI.10.2
+$d(K'/K), s(v'/v), r(v'/v)$ (v a valuation on K, v' an extension of v to a transcendental extension K' of K): VI.10.3
+$I(A), D(A)$ (A an integral domain): VII.1.1
+$a \prec b, \operatorname{div}(a), \operatorname{div}(x)$ (a, b fractional ideals, x an element of the field of fractions): VII.1.1
+$\tilde{a}$ (a a fractional ideal): VII.1.1
+$d_1 \leq d_2$ (d_1, d_2 divisors): VII.1.1
 
 $b : a$ (a, $b$ fractional ideals): VII.1.1
 $J(A)$ (A an integral domain): VII.1.2

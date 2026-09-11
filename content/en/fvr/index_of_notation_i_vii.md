@@ -12,44 +12,44 @@ pdf_pages: 0348-0349
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 6bd79d267c6af46856f2d2d42c7f781de6a860d9958949d12bff7bd519388bc3
+content_sha256: 2884a890de3cd361e6b57eec3c71aed4b54191f7485ce040d4850b5e7932a1c9
 ---
 
 ## INDEX OF NOTATION
 
-Df(x_0): 5
-f'(x_0): 5
-f'_d(x_0): 6
-f'_g(x_0): 6
-Df: 7
-df/dx: 7
-f'_d: 7
-f'_g: 7
-D^n f: 23
-f^{(n)}: 23
-\int_{x_0}^x f: 61
-\int_{x_0}^x f(t)\,dt: 61
-\int_{x_0}^x f: 61
-\int_{x_0}^x f(t)dt: 61
-h(t)|_{x_0}^x: 62
-\int_a^{(n)} f: 66
-\int_1^a f(t)\,dt: 69
-e: 97
-\exp x: 97
-\log x\ (x\ \text{real}\ > 0): 97
-\pi: 99
-\operatorname{Arc}\cos x: 100
-\operatorname{Arc}\sin x: 100
-\operatorname{Arc}\tan x: 100
-\cos x: 100
-\cot x: 100
-\csc x: 100
-\sec x: 100
-\sin x: 100
-\tan x: 100
-e^z: 103
-\exp z: 103
-\cos z: 107 cot z: 107
+$Df(x_0)$: 5
+$f'(x_0)$: 5
+$f'_d(x_0)$: 6
+$f'_g(x_0)$: 6
+$Df$: 7
+$df/dx$: 7
+$f'_d$: 7
+$f'_g$: 7
+$D^n f$: 23
+$f^{(n)}$: 23
+$\int_{x_0}^x f$: 61
+$\int_{x_0}^x f(t)\,dt$: 61
+$\int_{x_0}^x f$: 61
+$\int_{x_0}^x f(t)dt$: 61
+$h(t)|_{x_0}^x$: 62
+$\int_a^{(n)} f$: 66
+$\int_1^a f(t)\,dt$: 69
+$e$: 97
+$\exp x$: 97
+$\log x\$ ($x\ real\$ > 0): 97
+$\pi$: 99
+$\operatorname{Arc}\cos x$: 100
+$\operatorname{Arc}\sin x$: 100
+$\operatorname{Arc}\tan x$: 100
+$\cos x$: 100
+$\cot x$: 100
+$\csc x$: 100
+$\sec x$: 100
+$\sin x$: 100
+$\tan x$: 100
+$e^z$: 103
+$\exp z$: 103
+$\cos z$: 107 cot z: 107
 log z: 105
 sin z: 107
 tan z: 107

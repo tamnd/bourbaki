@@ -12,7 +12,7 @@ pdf_pages: 0604-0609
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 5d4a61946ec90b05fa2802f168378a83c625a76207ad802109f5f3a4f79ee301
+content_sha256: 18526f8205ac795b350a0754c7249c525de8efd1613ba42ea3f28cc091428c09
 ---
 
 ## INDEX DES NOTATIONS
@@ -28,9 +28,9 @@ $\prod_{0 \leq i < j \leq n} x_{ij}$, $\prod_{i < j} x_{ij}$: I, p. 10.
 $\sum_{i = p}^q \sum_{j = r}^s x_{ij}$, $\sum_{j = r}^s \sum_{i = p}^q x_{ij}$: I, p. 10.
 $\prod_{0 \leq i_1 < i_2 < \cdots< i_p \leq n} x_{i_1 i_2 \cdots i_p}$, $\prod_{i_1 < i_2 < \cdots< i_p} x_{i_1 i_2 \cdots i_p}$: I, p. 10.
 $\prod_{i \in I} x_i$ ($(x_i)_{i \in I}$ famille à support fini): I, p. 14.
-0, 1: I, p. 14.
+$0, 1$: I, p. 14.
 $\gamma_a$, $\delta_a$, $\gamma(a)$, $\delta(a)$: I, p. 14.
-E_S (S partie d’un monoïde commutatif E): I, p. 17.
+$E_S$ (S partie d’un monoïde commutatif E): I, p. 17.
 $\mathbf{Z}$, $+$ (addition dans $\mathbf{Z}$): I, p. 20.
 $\leq$ (relation d’ordre dans $\mathbf{Z}$): I, p. 21.
 $\mathbf{N}^*$: I, p. 21.
@@ -42,23 +42,23 @@ $\frac{1}{x}$, $\frac{x}{y}$, $x/y$: I, p. 23.
 $\alpha.x$, $x.\alpha$, $x^\alpha$ ($\alpha$ opérateur): I, p. 24.
 $\alpha \perp x$, $\alpha \perp X$, $\Omega \perp X$ ($\alpha$ opérateur, $\Omega$ ensemble d’opérateurs): I, p. 24.
 $\mathfrak{S}_F$: I, p. 29.
-(G:H), G/H (H sous-groupe de G): I, p. 34.
+$(G:H), G/H$ (H sous-groupe de G): I, p. 34.
 $x \equiv y (\text{mod. } H)$, $x \equiv y (H)$ ($H$ sous-groupe distingué): I, p. 35.
-Ker f, Im f (f homomorphisme de groupes): I, p. 36.
+$Ker f, Im f$ (f homomorphisme de groupes): I, p. 36.
 $\prod_{i \in I} G_i$ ($G_i$ groupes): I, p. 43.
 $G_1 \times_H G_2$: I, p. 44.
 $\prod_{i \in I} G_i$: I, p. 45.
 $x \equiv y (\text{mod. } a)$, $x \equiv y (a)$ ($a$, $x$, $y$ entiers rationnels): I, p. 46.
-v_p(a) (p nombre premier, a entier rationnel): I, p. 49.
-Aut(G), Int(G), Int(x) (G groupe, x \in G): I, p. 53.
-N_G(A), N(A) (G groupe, A \subset G): I, p. 54.
-C_G(A), C(A) (G groupe, A \subset G): I, p. 54.
-E/G, G\backslash E (G groupe opérant dans E): I, p. 55.
-G\backslash E/H (G, H groupes opérant dans E par des actions qui commutent): I, p. 55.
-\mathfrak{S}_n: I, p. 59.
-\tau_{x, y} (transposition de support \{x, y\}): I, p. 60.
-\varepsilon(\sigma), \varepsilon_\sigma (\sigma permutation): I, p. 62.
-\mathfrak{A}_E, \mathfrak{A}_n: I, p. 62.
+$v_p(a)$ (p nombre premier, a entier rationnel): I, p. 49.
+$Aut(G), Int(G), Int(x)$ (G groupe, x $\in$ G): I, p. 53.
+$N_G(A), N(A)$ (G groupe, A $\subset$ G): I, p. 54.
+$C_G(A), C(A)$ (G groupe, A $\subset$ G): I, p. 54.
+$E/G, G\backslash E$ (G groupe opérant dans E): I, p. 55.
+$G\backslash E/H$ (G, H groupes opérant dans E par des actions qui commutent): I, p. 55.
+$\mathfrak{S}_n$: I, p. 59.
+$\tau_{x, y}$ (transposition de support $\{x, y\}$): I, p. 60.
+$\varepsilon(\sigma), \varepsilon_\sigma$ ($\sigma$ permutation): I, p. 62.
+$\mathfrak{A}_E, \mathfrak{A}_n$: I, p. 62.
 
 F \xrightarrow{i} E \xrightarrow{p} G (E, F, G groupes): I, p. 62.
 F \times_{\tau} G, \mathcal{E}_{\tau} (\tau homomorphisme de G dans Aut(F)): I, p. 64.
@@ -110,15 +110,15 @@ $\bigoplus_{i \in I} E_i$, $E_p \oplus E_{p+1} \oplus \cdots \oplus E_q$ ($(E_i)
 $\sum_{i \in I} f_i$ ($f_i : E_i \to F$ applications linéaires): II, p. 12.
 $\bigoplus_{i \in I} f_i$, $f_p \oplus f_{p+1} \oplus \cdots \oplus f_q$ ($f_i : E_i \to F_i$ applications linéaires): II, p. 13.
 
-E^{(1)} (E module): II, p. 15.
+$E^{(1)}$ (E module): II, p. 15.
 $\sum_{t \in I} M_t$ ($(M_t)_{t \in I}$ famille de sous-modules): II, p. 16.
-long_A(M), long(M) (M A-module de longueur finie): II, p. 21.
+$long_A(M), long(M)$ (M A-module de longueur finie): II, p. 21.
 $\delta_{st}$ (symbole de Kronecker): II, p. 24.
 $\sum_{t \in T} \xi_t \cdot t$ (T ensemble, $\xi_t$ éléments d’un anneau): II, p. 25.
-Ann(S), Ann(x) (S partie d’un module, x élément d’un module): II, p. 28.
+$Ann(S), Ann(x)$ (S partie d’un module, x élément d’un module): II, p. 28.
 $\rho_*(E)$, E_{[B]} (E A-module, $\rho : B \to A$ homomorphisme d’anneaux): II, p. 30.
 $\rho_*(u)$ ($\rho : B \to A$ homomorphisme d’anneaux, u application A-linéaire): II, p. 30.
-E* (E module): II, p. 40.
+$E*$ (E module): II, p. 40.
 $\langle x, x^* \rangle$ (x élément d’un module à gauche E, $x^*$ élément de son dual E*): II, p. 41.
 $\langle x^*, x \rangle$ (x élément d’un module à droite E, $x^*$ élément de son dual E*): II, p. 41.
 $^t u$ (u application linéaire ou semi-linéaire): II, p. 42–43.
@@ -127,7 +127,7 @@ $E \otimes_A F$, $E \otimes F$ ($E$ $A$-module à droite, $F$ $A$-module à gauc
 $x \otimes y$ (x \in E (A-module à droite), y \in F (A-module à gauche)): II, p. 51.
 $u \otimes v$ (u, v applications linéaires): II, p. 52.
 $u \otimes v$ (u, v applications semi-linéaires): II, p. 54.
-sA_d (A anneau): II, p. 55.
+$sA_d$ (A anneau): II, p. 55.
 $\mathcal{L}_2(E, F; G)$ (E, F, G modules sur un anneau commutatif): II, p. 56.
 $\bigotimes_{\lambda \in L} G_\lambda, \bigotimes_{\lambda \in L} x_\lambda$ (($G_\lambda$) famille de $\mathbf{Z}$-modules, $x_\lambda \in G_\lambda$ pour tout $\lambda$): II, p. 66.
 $\bigotimes_{\lambda \in L} v_\lambda$ ($v_\lambda : G_\lambda \to G'_\lambda$ applications $\mathbf{Z}$-linéaires): II, p. 66.
@@ -137,24 +137,24 @@ $E_1 \otimes_{A_1} E_2 \otimes_{A_2} E_3 \otimes \cdots \otimes_{A_{n-2}} E_{n-1
 $x_1 \otimes x_2 \otimes \cdots \otimes x_n$: II, p. 70.
 $u_1 \otimes u_2 \otimes \cdots \otimes u_n$ ($u_i$ applications linéaires): II, p. 70.
 $\mathcal{L}_n(E_1, \ldots, E_n; G)$ ($E_1, \ldots, E_n, G$ modules sur un anneau commutatif): II, p. 71.
-Tr(u) (u endomorphisme d’un module projectif de type fini sur un anneau commutatif): II, p. 78.
+$Tr(u)$ (u endomorphisme d’un module projectif de type fini sur un anneau commutatif): II, p. 78.
 $\rho^*(E)$, E_{(B)} (E A-module, $\rho : A \to B$ homomorphisme d’anneaux): II, p. 82.
 $\rho^*(u)$, u_{(B)} ($\rho : A \to B$ homomorphisme d’anneaux, u homomorphisme de A-modules): II, p. 83.
-dim_K E, dim E, [E : K] (E K-espace vectoriel): II, p. 97.
-dim_A E, dim E (E A-module dont deux bases quelconques sont équipotentes): II, p. 98.
-codim_E F, codimF (F sous-espace vectoriel d’un espace vectoriel E): II, p. 99.
-rg(u) (u application linéaire d’espaces vectoriels): II, p. 101.
-rg(u) (u élément d’un produit tensoriel d’espaces vectoriels): II, p. 112.
-dim_K E, dim E (E espace affine sur un corps K): II, p. 127.
-a + t, t + a (a point, t translation d’un espace affine): II, p. 127.
-b - a (a, b points d’un espace affine): II, p. 127.
+$dim_K E, dim E, [E : K]$ (E K-espace vectoriel): II, p. 97.
+$dim_A E, dim E$ (E A-module dont deux bases quelconques sont équipotentes): II, p. 98.
+$codim_E F, codimF$ (F sous-espace vectoriel d’un espace vectoriel E): II, p. 99.
+$rg(u)$ (u application linéaire d’espaces vectoriels): II, p. 101.
+$rg(u)$ (u élément d’un produit tensoriel d’espaces vectoriels): II, p. 112.
+$dim_K E, dim E$ (E espace affine sur un corps K): II, p. 127.
+$a + t, t + a$ (a point, t translation d’un espace affine): II, p. 127.
+$b - a$ (a, b points d’un espace affine): II, p. 127.
 $\sum_{i \in I} \lambda_i x_i$ (($x_i$)_{i \in I} famille de points d’un espace affine, ($\lambda_i$)_{i \in I} famille de scalaires, de support fini, telle que $\sum \lambda_i = 1$ ou $\sum \lambda_i = 0$): II, p. 128.
 $P(V)$, $\Delta(V)$ ($V$ espace vectoriel): II, p. 132.
 $P_n(K)$, $\Delta_n(K)$ ($K$ corps): II, p. 132.
-dim_K P(V), dim P(V) (V K-espace vectoriel): II, p. 133.
+$dim_K P(V), dim P(V)$ (V K-espace vectoriel): II, p. 133.
 $\bar{K}$, $\infty$ ($K$ corps): II, p. 136.
-PGL(V), PGL_n(K), PGL(n, K) (K corps, V espace vectoriel): II, p. 137.
-^t M (M matrice): II, p. 140.
+$PGL(V), PGL_n(K), PGL(n, K)$ (K corps, V espace vectoriel): II, p. 137.
+$^t M$ (M matrice): II, p. 140.
 
 $M' + M''$ ($M', M''$ matrices sur un groupe commutatif): II, p. 140.
 $f(M', M''), M'M''$ ($M', M''$ matrices): II, p. 140.
@@ -205,13 +205,9 @@ $\bigotimes_{i\in I} E_i$ (I ensemble infini, E$_i$ algèbres): III, p. 42.
 $\bigotimes_{i\in I} u_i$, $\bigotimes_{i\in I} x_i$ ($u_i$ homomorphismes d’algèbres, $x_i$ éléments, I infini): III, p. 43.
 $\bigotimes_{i\in I} E_i$, $\bigotimes_{i\in I} f_i$, $\varepsilon G^{\otimes n}$ (E$_i$, G algèbres graduées, $f_i$ homomorphismes d’algèbres graduées, $\varepsilon$ système de facteurs de commutation): III, p. 49.
 
-$$
-\bigotimes_{i \in I} E_i, E \otimes_A F, \varepsilon G \otimes^n, \bigotimes_{i \in I} f_i, f_1 \otimes f_2, \varepsilon f \otimes^n : \text{III, p. 49--50.}
-$$
+$\bigotimes_{i \in I} E_i, E \otimes_A F, \varepsilon G \otimes^n, \bigotimes_{i \in I} f_i, f_1 \otimes f_2, \varepsilon f \otimes^n$: III, p. 49--50.
 
-$$
-\bigotimes^n M, T^n(M), \text{Tens}^n(M), T_A^n(M), T(M), \text{Tens}(M), T_A(M) (\text{M A-module}) : \text{III, p. 55.}
-$$
+$\bigotimes^n M, T^n(M), \text{Tens}^n(M), T_A^n(M), T(M), \text{Tens}(M), T_A(M) (\text{M A-module})$: III, p. 55.
 
 $T(u), T^n(u)$ ($u$ application linéaire) : III, p. 57.
 

@@ -12,7 +12,7 @@ pdf_pages: 0124-0125
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 44fc78abcf4b999904dc916aab8933bb049889bdc50fe58e5437b197f92d8a02
+content_sha256: e3621d0906ac708fdb49499085eff93604570ec579afaa3179955f42df09455e
 ---
 
 ## INDEX DES NOTATIONS
@@ -47,9 +47,9 @@ $p_v, p_{vw}$: 6,1.
 $Q(E)$: 6,1.
 $\tilde{\lambda}$: 6,1.
 
-u(\mu) (\mu promesure): 6,2.
-\mathcal{F}_{\mu} (\mu promesure ou mesure): 6,3.
-\Gamma_{a}, \gamma_{a}: 6,5.
-\gamma_{c}: 6,6.
-\mathrm{Tr}(\mathbf{Q}/\mathbf{H}): \text{Annexe, 1}.
-u^{*}: \text{Annexe, 2}.
+$u(\mu)$ ($\mu$ promesure): 6,2.
+$\mathcal{F}_{\mu}$ ($\mu$ promesure ou mesure): 6,3.
+$\Gamma_{a}, \gamma_{a}$: 6,5.
+$\gamma_{c}$: 6,6.
+$\mathrm{Tr}(\mathbf{Q}/\mathbf{H})$: Annexe, 1.
+$u^{*}$: Annexe, 2.
