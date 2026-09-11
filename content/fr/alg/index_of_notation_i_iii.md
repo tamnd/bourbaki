@@ -12,7 +12,7 @@ pdf_pages: 0604-0609
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: d08e48984c13e39dc3e03b637e53a5e5fa3769ff02300771d2837daf8c8c189a
+content_sha256: 2e353241dc830b9dad3a8fe6b46853d5b2d169928d8fc4528d82802aa5d484df
 ---
 
 ## INDEX DES NOTATIONS
@@ -239,7 +239,7 @@ $u \wedge v, x_1 \wedge x_2 \wedge \cdots \wedge x_n$ : III, p. 77.
 
 $\wedge(u), \wedge^n(u)$ ($u$ application linéaire) : III, p. 78.
 
-$x_H$ ($H$ partie de $[1, n])$ : III, p. 79.
+$x_H$ ($H$ partie de $[1, n]$) : III, p. 79.
 
 $u(x_1, \ldots, \hat{x}_j, \ldots, x_n)$ : III, p. 81.
 
