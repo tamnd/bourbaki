@@ -193,7 +193,7 @@ chapters:
           statements: 24
           exercises: 3
           extraction: ocr
-          content_sha256: 6393d275988966957f40f77915a91adb15df38100389f3da1b06130ef11ecd50
+          content_sha256: 736f0db21b5471741cc81eb9fa608339c30363ecf23260583bbcd900c137c96f
         - kind: section
           section: 6
           title: Equivalence relations
