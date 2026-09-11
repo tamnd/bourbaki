@@ -29,9 +29,9 @@ subsections:
       pdf_page: 226
 statements: 10
 exercises: 8
-content_sha256: 705d806cc67aab09de0ad2ac411dd31056dc361ac4e89e4fd31f1279dc509027
+content_sha256: 28d3f5d63948a1e8bd96d636cc0434637071672bc6f7e7d919055110fac6dbef
 translated_from: content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md
-source_content_sha256: 8fcedbfe0628c86057164c4379e875afa32cf556d96488150fe7dbda9c9467d8
+source_content_sha256: 766c5c66bd0dd6abbb3dd5fde5679ccbfd3279efd130bac7917fb401314cfcf8
 translation_model: gpt-5.4
 translation_run: translate-vi-1f4f356d
 glossary_version: 34
@@ -131,7 +131,7 @@ Trong tiết này, $E$ ký hiệu một *không gian* chuẩn trên trường $\
 a) $\mathcal{T}$ là tôpô cảm sinh bởi chuẩn của không gian chuẩn $E$.
 b) $\mathcal{T}$ là tôpô yếu $\sigma(E, E')$ của không gian chuẩn $E$.
 c) $E$ là đối ngẫu của một không gian chuẩn $F$ và $\mathcal{T} = \sigma(F', F)$.
-d) Tồn tại hai không gian chuẩn $F_1$ và $F_2$ sao cho $E = \mathscr{L}(F_1 ; F_2)$ và $\mathcal{T}$ là tôpô hội tụ đơn giản.
+d) Tồn tại hai không gian chuẩn $F_1$ và $F_2$ sao cho $E = \mathcal{L}(F_1 ; F_2)$ và $\mathcal{T}$ là tôpô hội tụ đơn giản.
 
 *Trừ khi có nói rõ khác đi, các khái niệm tôpô đều quy chiếu đến tôpô $\mathcal{T}$.*
 

@@ -40,7 +40,7 @@ subsections:
       pdf_page: 273
 statements: 41
 exercises: 6
-content_sha256: 312664f8d7a7dbf47826ea53c362faea8c55a1f431a73181aa2cb44ced634519
+content_sha256: 629f2fe2f5d3e862a24f39985e2c2ce051b7d5dd3371dc824dc3a1de8a231f97
 translated_from: content/en/evt/V/01_s1_prehilbertian_spaces_and_hilbertian.md
 source_content_sha256: c9078a6b7eb7e8e884984c2c325d3f76b6a9adc1e03ff4786c5071fe62fa78a5
 translation_model: gpt-5.4
@@ -369,7 +369,7 @@ Sự tồn tại của phép mở rộng của $(x, y) \mapsto \langle x|y \rang
 
 Không gian Hilbert này được gọi là *phần bù đầy đủ* của không gian tiền Hilbert Hausdorff E.
 
-\* *Ví dụ 6*. — Cho U là một tập mở của $\mathbf{R}^n$ ($n \geqslant 1$). Cho $\mathscr{C}_0^1(\mathrm{U})$ là không gian vectơ của tất cả các hàm lớp $\mathrm{C}^1$ có giá compact trong U. Ta định nghĩa một cấu trúc không gian tiền Hilbert Hausdorff trên $\mathscr{C}_0^1(\mathrm{U})$ mà tích vô hướng được cho bởi
+\* *Ví dụ 6*. — Cho U là một tập mở của $\mathbf{R}^n$ ($n \geqslant 1$). Cho $\mathcal{C}_0^1(\mathrm{U})$ là không gian vectơ của tất cả các hàm lớp $\mathrm{C}^1$ có giá compact trong U. Ta định nghĩa một cấu trúc không gian tiền Hilbert Hausdorff trên $\mathcal{C}_0^1(\mathrm{U})$ mà tích vô hướng được cho bởi
 
 $$
 \langle f|g \rangle = \sum_{i=1}^{n} \int_{\mathrm{U}} \overline{\mathrm{D}_i f(x)} . \mathrm{D}_i g(x) \, dx .

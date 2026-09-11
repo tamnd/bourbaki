@@ -28,7 +28,7 @@ subsections:
       pdf_page: 42
 statements: 15
 exercises: 0
-content_sha256: d28b60958840fb6479c20b64e3b06c944a5472a72ea0c800ef6c6b129ef104b1
+content_sha256: c142ede5d36c6c2e3b5b4d8bddc5e68415321932a189580ca0fe0a1351354a27
 ---
 
 ## § 1. SEMI-NORMS
@@ -109,13 +109,13 @@ Let $E$ be a vector space over $K$, with the topology defined by a set of semi-n
 
 #### Example {#evt-ii-s1-n2-exa-1 .statement}
 
-— Let $\mathscr{C}^\infty(\mathbf{R})$ be the vector space over $\mathbf{R}$ of real valued functions that are infinitely differentiable in $\mathbf{R}$. For every function and every pair of integers $n \geq 0$, $m \geq 1$, put
+— Let $\mathcal{C}^\infty(\mathbf{R})$ be the vector space over $\mathbf{R}$ of real valued functions that are infinitely differentiable in $\mathbf{R}$. For every function and every pair of integers $n \geq 0$, $m \geq 1$, put
 
 $$
 p_{n,m}(f) = \sup_{-m \leq t \leq m} |f^{(n)}(t)|
 $$
 
-with $f^{(0)} = f$. Obviously the $p_{n,m}$ are semi-norms on $\mathscr{C}^\infty(\mathbf{R})$. In order that the functions $f_\alpha$ tend to 0 (following a filter $\mathfrak{F}$ on the set of indices) in $\mathscr{C}^\infty(\mathbf{R})$ for the topology $\mathcal{T}$ defined by the semi-norms $p_{n,m}$, it is necessary and sufficient that for all integers $n \geq 0$, the functions $f_\alpha^{(n)}$ tend to 0 (following $\mathfrak{F}$) *uniformly on every compact subset of* $\mathbf{R}$. We say that $\mathcal{T}$ is the *topology of compact convergence for the functions* $f \in \mathscr{C}^\infty(\mathbf{R})$ *and all their derivatives* (*cf.* III, p. 9).
+with $f^{(0)} = f$. Obviously the $p_{n,m}$ are semi-norms on $\mathcal{C}^\infty(\mathbf{R})$. In order that the functions $f_\alpha$ tend to 0 (following a filter $\mathfrak{F}$ on the set of indices) in $\mathcal{C}^\infty(\mathbf{R})$ for the topology $\mathcal{T}$ defined by the semi-norms $p_{n,m}$, it is necessary and sufficient that for all integers $n \geq 0$, the functions $f_\alpha^{(n)}$ tend to 0 (following $\mathfrak{F}$) *uniformly on every compact subset of* $\mathbf{R}$. We say that $\mathcal{T}$ is the *topology of compact convergence for the functions* $f \in \mathcal{C}^\infty(\mathbf{R})$ *and all their derivatives* (*cf.* III, p. 9).
 
 #### Proposition 2 {#evt-ii-s1-prop-2 .statement}
 

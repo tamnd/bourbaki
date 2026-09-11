@@ -40,7 +40,7 @@ subsections:
       pdf_page: 15
 statements: 30
 exercises: 14
-content_sha256: b69f32004219766313b9c796db5d5ebaff634a94bf3aa93dbd4b3ba310100859
+content_sha256: 637a72e1c730edd7ee90cd394684d59d0d1fee65e4c876ecff15cb306ba75e68
 ---
 
 ## § 1. ESPACES VECTORIELS TOPOLOGIQUES
@@ -302,7 +302,7 @@ En effet, le sous-espace $\varphi(E)$ de $F$ est alors complet (TG, II, p. 16, p
 
 #### Exemple {#evt-i-s1-n7-exa-1 .statement}
 
-Soient $\mathscr{D}'(\mathbf{R})$ l’espace des distributions sur $\mathbf{R}$, $p$ un nombre tel que $1 \leq p \leq +\infty$, $j : L^p(\mathbf{R}) \to \mathscr{D}'(\mathbf{R})$ l’injection canonique, qui est continue (lorsque $L^p(\mathbf{R})$ est muni de sa topologie d’espace normé et $\mathscr{D}'(\mathbf{R})$ de la topologie forte). Pour toute distribution $f \in \mathscr{D}'(\mathbf{R})$, $D(f)$ désigne sa dérivée; on rappelle que $f \mapsto D(f)$ est un endomorphisme continu de $\mathscr{D}'(\mathbf{R})$. Soit alors $E$ le sous-espace vectoriel de $L^p(\mathbf{R})$ formé des $f \in L^p(\mathbf{R})$ telles que $D(f) \in L^p(\mathbf{R})$, et munissons $E$ de la topologie la moins fine rendant continues les injections canoniques $i : E \to L^p(\mathbf{R})$ et $D : E \to L^p(\mathbf{R})$ ($L^p(\mathbf{R})$ étant muni de sa topologie d’espace normé). Pour cette topologie, l’espace $E$ est *complet*. En effet, l’image de $E$ dans $F = L^p(\mathbf{R}) \times L^p(\mathbf{R})$ par l’application $\varphi : f \mapsto (f, D(f))$ est fermée, car c’est la trace sur $L^p(\mathbf{R}) \times L^p(\mathbf{R})$ de l’image G de $\mathcal{D}'(\mathbf{R})$ dans $\mathcal{D}'(\mathbf{R}) \times \mathcal{D}'(\mathbf{R})$ par l’application
+Soient $\mathcal{D}'(\mathbf{R})$ l’espace des distributions sur $\mathbf{R}$, $p$ un nombre tel que $1 \leq p \leq +\infty$, $j : L^p(\mathbf{R}) \to \mathcal{D}'(\mathbf{R})$ l’injection canonique, qui est continue (lorsque $L^p(\mathbf{R})$ est muni de sa topologie d’espace normé et $\mathcal{D}'(\mathbf{R})$ de la topologie forte). Pour toute distribution $f \in \mathcal{D}'(\mathbf{R})$, $D(f)$ désigne sa dérivée; on rappelle que $f \mapsto D(f)$ est un endomorphisme continu de $\mathcal{D}'(\mathbf{R})$. Soit alors $E$ le sous-espace vectoriel de $L^p(\mathbf{R})$ formé des $f \in L^p(\mathbf{R})$ telles que $D(f) \in L^p(\mathbf{R})$, et munissons $E$ de la topologie la moins fine rendant continues les injections canoniques $i : E \to L^p(\mathbf{R})$ et $D : E \to L^p(\mathbf{R})$ ($L^p(\mathbf{R})$ étant muni de sa topologie d’espace normé). Pour cette topologie, l’espace $E$ est *complet*. En effet, l’image de $E$ dans $F = L^p(\mathbf{R}) \times L^p(\mathbf{R})$ par l’application $\varphi : f \mapsto (f, D(f))$ est fermée, car c’est la trace sur $L^p(\mathbf{R}) \times L^p(\mathbf{R})$ de l’image G de $\mathcal{D}'(\mathbf{R})$ dans $\mathcal{D}'(\mathbf{R}) \times \mathcal{D}'(\mathbf{R})$ par l’application
 
 $$
 \varphi_0 : f \mapsto (f, D(f)) ;

@@ -40,7 +40,7 @@ subsections:
       pdf_page: 273
 statements: 41
 exercises: 37
-content_sha256: d5f2a40e1ba87856c38a3feb6530a3ab5c1ad52e42d3e5f1d56903fdc8eb599c
+content_sha256: 8dd576344b993c08878de080baba9ab70b42b43b64d50b4794413ec889f7bc80
 ---
 
 ## § 1. PREHILBERTIAN SPACES AND HILBERTIAN SPACES
@@ -362,7 +362,7 @@ The existence of the extension of $(x, y) \mapsto \langle x|y \rangle$ to $\hat{
 
 This hilbertian space is said to be the *completion* of the Hausdorff prehilbertian space E.
 
-\* *Example 6*. — Let U be an open subset of $\mathbf{R}^n$ ($n \geqslant 1$). Let $\mathscr{C}_0^1(\mathrm{U})$ be the vector space of all functions of class $\mathrm{C}^1$ with compact support in U. We define a Hausdorff prehilbertian space structure on $\mathscr{C}_0^1(\mathrm{U})$ whose scalar product is given by
+\* *Example 6*. — Let U be an open subset of $\mathbf{R}^n$ ($n \geqslant 1$). Let $\mathcal{C}_0^1(\mathrm{U})$ be the vector space of all functions of class $\mathrm{C}^1$ with compact support in U. We define a Hausdorff prehilbertian space structure on $\mathcal{C}_0^1(\mathrm{U})$ whose scalar product is given by
 
 $$
 \langle f|g \rangle = \sum_{i=1}^{n} \int_{\mathrm{U}} \overline{\mathrm{D}_i f(x)} . \mathrm{D}_i g(x) \, dx .

@@ -36,7 +36,7 @@ chapters:
           statements: 27
           exercises: 14
           extraction: ocr
-          content_sha256: 398db9bd9bcdb6b213c67decc8be8956360219f9cdeda9be5504fd031e6583e4
+          content_sha256: bbe8152644d419ccb19ee22f297414608b9110673218136de5825d49ebb656c5
         - kind: section
           section: 2
           title: Linear varieties in a topological vector space
@@ -49,7 +49,7 @@ chapters:
           statements: 26
           exercises: 15
           extraction: ocr
-          content_sha256: 61cd6dad8d3c88edb55c2b3d99dcd153e54788854713e19386098384030e5241
+          content_sha256: 001f91ec10b82822cf53a8050a4342f37f3922472e7952d907a6a34854b2ed05
         - kind: section
           section: 3
           title: Metrisable topological vector spaces
@@ -87,7 +87,7 @@ chapters:
           statements: 15
           exercises: 0
           extraction: ocr
-          content_sha256: d28b60958840fb6479c20b64e3b06c944a5472a72ea0c800ef6c6b129ef104b1
+          content_sha256: c142ede5d36c6c2e3b5b4d8bddc5e68415321932a189580ca0fe0a1351354a27
         - kind: section
           section: 2
           title: Convex sets
@@ -126,7 +126,7 @@ chapters:
           statements: 33
           exercises: 17
           extraction: ocr
-          content_sha256: 183fe64a493ca845f33b9a913efb97564a15e0840da57b85c2de74908bd6e51d
+          content_sha256: 8868ada9c2641b4e23a77089936df9315d46683058a15b652c84bf9066eed2d4
         - kind: section
           section: 5
           title: Separation of convex sets
@@ -229,7 +229,7 @@ chapters:
           statements: 39
           exercises: 13
           extraction: ocr
-          content_sha256: 750a5a19a2ae810cd3cd4031a0b492c998c5910a610b3aba284ab9536a63d37e
+          content_sha256: 4ed1fce2dbbf61db61227afd45600a085f6c0b776ec91a9152e9b34266c0750e
         - kind: section
           section: 4
           title: The Banach-Steinhaus theorem
@@ -319,7 +319,7 @@ chapters:
           statements: 15
           exercises: 18
           extraction: ocr
-          content_sha256: a21eee49fbcec695bd9b1df3c255a93a27536274d1505cdbb376e387252d49ab
+          content_sha256: 097b37836cedc3f211eb823daa6821daa7738916d82da6f3cb7239878804a41d
         - kind: section
           section: 4
           title: Strict morphisms of Fréchet spaces
@@ -345,7 +345,7 @@ chapters:
           statements: 8
           exercises: 18
           extraction: ocr
-          content_sha256: 085907c281af7d744d2befbb56e8c8769664852f8594f22c451a42a9eddf61e0
+          content_sha256: 196b590d53d3ecfe44673a89585c238a171d9c14a0bb1144e0c66e03ceeeb4de
         - kind: appendix
           title: Fixed points of groups of affine transformations
           path: content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md
@@ -356,7 +356,7 @@ chapters:
           statements: 10
           exercises: 8
           extraction: ocr
-          content_sha256: 8fcedbfe0628c86057164c4379e875afa32cf556d96488150fe7dbda9c9467d8
+          content_sha256: 766c5c66bd0dd6abbb3dd5fde5679ccbfd3279efd130bac7917fb401314cfcf8
     - chapter: V
       title: HILBERTIAN SPACES (ELEMENTARY THEORY)
       sections:
@@ -381,7 +381,7 @@ chapters:
           statements: 41
           exercises: 37
           extraction: ocr
-          content_sha256: d5f2a40e1ba87856c38a3feb6530a3ab5c1ad52e42d3e5f1d56903fdc8eb599c
+          content_sha256: 8dd576344b993c08878de080baba9ab70b42b43b64d50b4794413ec889f7bc80
         - kind: section
           section: 2
           title: Orthogonal families in a hilbertian space
@@ -419,7 +419,7 @@ chapters:
           statements: 49
           exercises: 0
           extraction: ocr
-          content_sha256: 862397a04809e43cf52a7e0b9307c3b072c635ff34b374a17f212b67a8280c49
+          content_sha256: 357fbf959dff74964b1a3dea2596d59ae045110f70e82c07b1e7ae6f3ccdfa62
         - kind: historical
           title: Historical Note
           path: content/en/evt/V/historical_note.md

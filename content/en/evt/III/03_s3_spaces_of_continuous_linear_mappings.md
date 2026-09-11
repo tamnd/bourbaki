@@ -45,7 +45,7 @@ subsections:
       pdf_page: 154
 statements: 39
 exercises: 13
-content_sha256: 750a5a19a2ae810cd3cd4031a0b492c998c5910a610b3aba284ab9536a63d37e
+content_sha256: 4ed1fce2dbbf61db61227afd45600a085f6c0b776ec91a9152e9b34266c0750e
 ---
 
 ## § 3. SPACES OF CONTINUOUS LINEAR MAPPINGS
@@ -222,7 +222,7 @@ In the statement of prop. 5, we can therefore replace the word « total » by «
 
 #### Example {#evt-iii-s3-n4-exa-1 .statement}
 
-— *1) Let $\mu$ be the Lebesgue measure on $\mathbf{R}$, and let E be the semi-normed space $\mathcal{L}^p(\mu)$ ($1 \leq p < \infty$) (INT, IV). For every numerical function $f$ and every real number $h$, let $f_h$ be the function $x \mapsto f(x - h)$. Clearly the mapping $f \mapsto f_h$ defines a linear isometry from E onto itself. If $f$ is continuous and has compact support, then $f_h$ converges to $f$ uniformly, hence also in the mean of order $p$, as $h$ tends to 0. Since the set $\mathscr{K}(\mathbf{R})$ of all continuous functions with compact support is dense in E, and the set of linear isometries of E is equicontinuous, it follows from prop. 5 that for every $f \in E$, $f_h$ converges in the mean of order $p$ to $f$ as $h$ tends to 0.
+— *1) Let $\mu$ be the Lebesgue measure on $\mathbf{R}$, and let E be the semi-normed space $\mathcal{L}^p(\mu)$ ($1 \leq p < \infty$) (INT, IV). For every numerical function $f$ and every real number $h$, let $f_h$ be the function $x \mapsto f(x - h)$. Clearly the mapping $f \mapsto f_h$ defines a linear isometry from E onto itself. If $f$ is continuous and has compact support, then $f_h$ converges to $f$ uniformly, hence also in the mean of order $p$, as $h$ tends to 0. Since the set $\mathcal{K}(\mathbf{R})$ of all continuous functions with compact support is dense in E, and the set of linear isometries of E is equicontinuous, it follows from prop. 5 that for every $f \in E$, $f_h$ converges in the mean of order $p$ to $f$ as $h$ tends to 0.
 
 For $p = 1$, consider the Fourier transform, which associates to each $f \in \mathcal{L}^1(\mu)$ the function $\hat{f}$ on $\mathbf{R}$ defined by
 

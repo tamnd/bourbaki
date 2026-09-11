@@ -33,9 +33,9 @@ subsections:
       pdf_page: 219
 statements: 8
 exercises: 18
-content_sha256: 1ccd4005333c45b7cce68bdfa3ed4589efa23d23d165a7538e07c1da6a09f18b
+content_sha256: d922adf74e0baa750070de25dbf7e879004fdf94a6ade2328d0fb0c8053168a5
 translated_from: content/en/evt/IV/05_s5_compactness_criteria.md
-source_content_sha256: 085907c281af7d744d2befbb56e8c8769664852f8594f22c451a42a9eddf61e0
+source_content_sha256: 196b590d53d3ecfe44673a89585c238a171d9c14a0bb1144e0c66e03ceeeb4de
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-659a8e67
 glossary_version: 34
@@ -140,7 +140,7 @@ Kí hiệu $\hat{E}$ là hoàn thành của E, mà như thường lệ ta sẽ �
 
 Cho $(x'_i)_{i \in I}$ là một cơ sở của không gian vectơ E' trên trường K. Ánh xạ $f \mapsto (f(x'_i))_{i \in I}$ là một đồng phôi $\phi$ từ ${E_\sigma'}^*$ lên $K^I$; với mọi $i \in I$, ảnh của A dưới ánh xạ $x'_i$ từ E vào K là tương đối compact: thật vậy, K khả mê và mọi dãy vô hạn các phần tử của $x'_i(A)$ đều có một điểm giới hạn. Suy ra $\phi(A)$ là tương đối compact trong $K^I$, do đó bao đóng $\overline{A}$ của A trong ${E_\sigma'}^*$ là compact.
 
-*Tiếp theo ta sẽ chứng minh rằng $\overline{A}$ được chứa trong $\hat{E}$.* Cho H là một tập hợp đều liên tục của E'; gọi X là bao đóng của nó đối với $\sigma(E', E)$; X là compact (III, p. 17, h.q. 2). Với mọi $x \in {E'}^*$, gọi $\phi_x$ là hạn chế của $x' \mapsto \langle x, x' \rangle$ lên X; gọi $\tilde{A} \subset \mathscr{C}_s(X)$ là tập hợp các hàm $\phi_x$ khi x chạy trong A. Do giả thiết trên A, mọi dãy vô hạn các phần tử của $\tilde{A}$ đều có một điểm giới hạn trong $\mathscr{C}_s(X)$; theo m.đ. 2 (IV, p. 33), vì thế tập hợp $\tilde{A}$ là tương đối compact trong $\mathscr{C}_s(X)$. *Suy ra rằng với mọi $a \in \overline{A}$, hàm $\phi_a$ trên X là liên tục.* Khi đó phép bao hàm $\overline{A} \subset \hat{E}$ suy ra từ đ.l. 2 của III, p. 21.
+*Tiếp theo ta sẽ chứng minh rằng $\overline{A}$ được chứa trong $\hat{E}$.* Cho H là một tập hợp đều liên tục của E'; gọi X là bao đóng của nó đối với $\sigma(E', E)$; X là compact (III, p. 17, h.q. 2). Với mọi $x \in {E'}^*$, gọi $\phi_x$ là hạn chế của $x' \mapsto \langle x, x' \rangle$ lên X; gọi $\tilde{A} \subset \mathcal{C}_s(X)$ là tập hợp các hàm $\phi_x$ khi x chạy trong A. Do giả thiết trên A, mọi dãy vô hạn các phần tử của $\tilde{A}$ đều có một điểm giới hạn trong $\mathcal{C}_s(X)$; theo m.đ. 2 (IV, p. 33), vì thế tập hợp $\tilde{A}$ là tương đối compact trong $\mathcal{C}_s(X)$. *Suy ra rằng với mọi $a \in \overline{A}$, hàm $\phi_a$ trên X là liên tục.* Khi đó phép bao hàm $\overline{A} \subset \hat{E}$ suy ra từ đ.l. 2 của III, p. 21.
 
 *Bây giờ ta sẽ chỉ ra rằng $\overline{A}$ được chứa trong E.* Vì A là tiền compact trong $E_\sigma$ (IV, p. 32, m.đ. 1), nên nó bị chặn trong $E_\sigma$ (III, p. 3, m.đ. 2), do đó cũng bị chặn trong E (IV, p. 1, m.đ. 1). Gọi C là bao lồi cân bằng đóng của A trong E. Khi đó C bị chặn vì A bị chặn, nên đầy đủ vì E là gần đầy đủ. Nói cách khác, C là một tập con lồi và đóng của $\hat{E}$, do đó cũng của $\hat{E}_\sigma$ (IV, p. 1, m.đ. 1). Vì $A \subset C$ và tôpô của $\hat{E}_\sigma$ được cảm sinh bởi tôpô của ${E_\sigma'}^*$, nên ta có $\overline{A} \subset C$, và vì thế $\overline{A} \subset E$.
 
@@ -166,15 +166,15 @@ Vì tôpô hội tụ tiền compact trên $F'$ mịn hơn tôpô $\sigma(F', F)
 
 ### \*4. Trường hợp các không gian các hàm liên tục bị chặn*
 
-Với mọi không gian tôpô X, ký hiệu $\mathscr{C}^b(X)$ là không gian Banach gồm mọi ánh xạ liên tục và *bị chặn* từ X vào K, với chuẩn được xác định bởi
+Với mọi không gian tôpô X, ký hiệu $\mathcal{C}^b(X)$ là không gian Banach gồm mọi ánh xạ liên tục và *bị chặn* từ X vào K, với chuẩn được xác định bởi
 
 $$
 \| f \| = \sup_{x \in X} |f(x)|
 $$
 
-(GT, X, § 3, No. 2). Khi X compact, mọi hàm liên tục trên X đều bị chặn (GT, IV, § 6, No. 1), và ta viết $\mathscr{C}(X)$ thay cho $\mathscr{C}^b(X)$.
+(GT, X, § 3, No. 2). Khi X compact, mọi hàm liên tục trên X đều bị chặn (GT, IV, § 6, No. 1), và ta viết $\mathcal{C}(X)$ thay cho $\mathcal{C}^b(X)$.
 
-Trong tiết diện này và tiết diện tiếp theo, chúng tôi sẽ dùng bổ đề sau, là một trường hợp riêng của định lý Lebesgue (INT, IV, 2nd ed. § 4, No. 3, th. 2) do cách diễn giải các phần tử của $\mathscr{C}(X)'$ như những độ đo trên X.
+Trong tiết diện này và tiết diện tiếp theo, chúng tôi sẽ dùng bổ đề sau, là một trường hợp riêng của định lý Lebesgue (INT, IV, 2nd ed. § 4, No. 3, th. 2) do cách diễn giải các phần tử của $\mathcal{C}(X)'$ như những độ đo trên X.
 
 #### Bổ đề 2 {#evt-iv-s5-lem-2 .statement}
 

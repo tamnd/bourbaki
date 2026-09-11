@@ -33,7 +33,7 @@ subsections:
       pdf_page: 223
 statements: 9
 exercises: 18
-content_sha256: 9873ff7226898a8c69fd60eeea44e8d751f30d44dbd066dbc07879165c475aa5
+content_sha256: 1d0d00fce4a89f898045acee73b77fc935ebe35004d2d1b22af95bedc28d500e
 ---
 
 ## § 5. CRITÈRES DE COMPACITÉ
@@ -140,7 +140,7 @@ Notons $\hat{E}$ le complété de E, que l’on identifie comme d’habitude à 
 
 Soit $(x'_i)_{i \in I}$ une base de l’espace vectoriel E' sur le corps K. L’application $f \mapsto (f(x'_i))_{i \in I}$ est un homéomorphisme $\varphi$ de $E'_\sigma$ sur $K^I$; pour tout $i \in I$, l’image de A par l’application $x'_i$ de E dans K est relativement compacte : en effet, K est métrisable et toute suite infinie d’éléments de $x'_i(A)$ a une valeur d’adhérence. On en déduit que $\varphi(A)$ est relativement compacte dans $K^I$, donc que l’adhérence $\overline{A}$ de A dans $E'_\sigma$ est compacte.
 
-Prouvons que $\overline{A}$ est contenue dans $\hat{E}$. Soit H une partie équicontinue de E' ; soit X son adhérence pour $\sigma(E', E)$; elle est compacte (III, p. 17, cor. 2). Pour tout $x \in {E'}^*$, soit $\varphi_x$ la restriction de $x' \mapsto \langle x, x' \rangle$ à X ; soit $\tilde{A} \subset \mathscr{C}_s(X)$ l’ensemble des fonctions $\varphi_x$ pour $x$ parcourant A. Vu l’hypothèse faite sur A, toute suite infinie d’éléments de $\tilde{A}$ a une valeur d’adhérence dans $\mathscr{C}_s(X)$; d’après la prop. 2 (IV, p. 33), l’ensemble $\tilde{A}$ est donc relativement compact dans $\mathscr{C}_s(X)$. Il en résulte que pour tout $a \in \overline{A}$, la fonction $\varphi_a$ sur X est continue. L’inclusion $\overline{A} \subset \hat{E}$ résulte alors du th. 2 de III, p. 21.
+Prouvons que $\overline{A}$ est contenue dans $\hat{E}$. Soit H une partie équicontinue de E' ; soit X son adhérence pour $\sigma(E', E)$; elle est compacte (III, p. 17, cor. 2). Pour tout $x \in {E'}^*$, soit $\varphi_x$ la restriction de $x' \mapsto \langle x, x' \rangle$ à X ; soit $\tilde{A} \subset \mathcal{C}_s(X)$ l’ensemble des fonctions $\varphi_x$ pour $x$ parcourant A. Vu l’hypothèse faite sur A, toute suite infinie d’éléments de $\tilde{A}$ a une valeur d’adhérence dans $\mathcal{C}_s(X)$; d’après la prop. 2 (IV, p. 33), l’ensemble $\tilde{A}$ est donc relativement compact dans $\mathcal{C}_s(X)$. Il en résulte que pour tout $a \in \overline{A}$, la fonction $\varphi_a$ sur X est continue. L’inclusion $\overline{A} \subset \hat{E}$ résulte alors du th. 2 de III, p. 21.
 
 Montrons maintenant que $\overline{A}$ est contenue dans E. Comme A est précompacte dans $E_\sigma$ (IV, p. 32, prop. 1), elle est bornée dans $E_\sigma$ (III, p. 3, prop. 2), donc aussi dans E (IV, p. 1, prop. 1). Soit C l’enveloppe fermée convexe équilibrée de A dans E. Elle est bornée puisque A est bornée, donc complète puisque E est quasi-complet. Autrement dit, C est une partie convexe et fermée de $\hat{E}$, donc de $\hat{E}_\sigma$ (IV, p. 1, prop. 1). Comme on a $A \subset C$ et que la topologie de $\hat{E}_\sigma$ est induite par celle de ${E'_\sigma}^*$, on a donc $\overline{A} \subset C$, d’où $\overline{A} \subset E$.
 
@@ -168,13 +168,13 @@ Le th. de Šmulian peut s’étendre au cas où $E$ est limite inductive stricte
 
 ### \*4. Cas des espaces de fonctions continues bornées
 
-Pour tout espace topologique $X$, nous noterons $\mathscr{C}^b(X)$ l’espace de Banach des applications continues et *bornées* de $X$ dans $K$, avec la norme définie par
+Pour tout espace topologique $X$, nous noterons $\mathcal{C}^b(X)$ l’espace de Banach des applications continues et *bornées* de $X$ dans $K$, avec la norme définie par
 
 $$
 \| f \| = \sup_{x \in X} |f(x)|
 $$
 
-(TG, X, p. 21). Lorsque $X$ est compact, toute fonction continue sur $X$ est bornée (TG, IV, p. 28), et l’on écrit $\mathscr{C}(X)$ pour $\mathscr{C}^b(X)$.
+(TG, X, p. 21). Lorsque $X$ est compact, toute fonction continue sur $X$ est bornée (TG, IV, p. 28), et l’on écrit $\mathcal{C}(X)$ pour $\mathcal{C}^b(X)$.
 
 Dans ce numéro et le suivant, nous ferons usage du lemme suivant, qui est un cas particulier du th. de Lebesgue (INT, IV, 2e éd., § 4, n° 3, th. 2), compte tenu de l’interprétation des éléments de $\mathcal{C}(X)'$ comme des mesures sur X.
 
@@ -219,21 +219,21 @@ B) Comme C est précompact et fermé pour $\sigma(E, E')$, il est borné et ferm
 
 C) Soit $\Gamma$ l’enveloppe convexe équilibrée de A. Alors C est l’adhérence de $\Gamma$ pour $\sigma(E, E')$. D’après le th. d’Eberlein (IV, p. 35, th. 1), il s’agit de prouver que toute suite $(x_n)_{n \in \mathbf{N}}$ de points de $\Gamma$ a une valeur d’adhérence pour $\sigma(E, E')$ dans E. Or $x_n$ appartient à l’enveloppe convexe équilibrée d’une partie finie $B_n$ de A. Soit F le sous-espace vectoriel fermé de E engendré par l’ensemble dénombrable $B = \bigcup_n B_n$. Alors F est complet, la topologie $\sigma(F, F')$ sur F est induite par $\sigma(E, E')$ et l’on a $x_n \in F$ pour tout $n \in \mathbf{N}$. Il suffit donc de prouver que $(x_n)_{n \in \mathbf{N}}$ a une valeur d’adhérence pour $\sigma(F, F')$, ce qui nous ramène au cas où il existe dans E une partie dénombrable dense.
 
-Munissons A de la topologie induite par $\sigma(E, E')$, qui en fait un espace compact. Définissons l’application linéaire $u : E' \to \mathscr{C}(A)$ par
+Munissons A de la topologie induite par $\sigma(E, E')$, qui en fait un espace compact. Définissons l’application linéaire $u : E' \to \mathcal{C}(A)$ par
 
 $$
 u(x')(a) = \langle a, x' \rangle \quad (a \in A, \ x' \in E')
 $$
 
-Soit $(x'_n)_{n \in \mathbf{N}}$ une suite équicontinue dans $E'$, convergeant vers 0 pour $\sigma(E', E)$. La suite des fonctions $u(x'_n)$ est alors bornée dans $\mathscr{C}(A)$ et converge simplement vers 0. Pour tout $\mu \in \mathscr{C}(A)'$, on a $\lim_{n \to \infty} \mu(u(x'_n)) = 0$ d’après le lemme 2 (IV, p. 37). D’après le critère fourni par la remarque de III, p. 21, la forme linéaire $\mu \circ u$ sur $E'$ est donc continue pour $\sigma(E', E)$ quelle que soit $\mu \in \mathscr{C}(A)'$. Il existe donc une application linéaire $v : \mathscr{C}(A)' \to E$ satisfaisant à la relation
+Soit $(x'_n)_{n \in \mathbf{N}}$ une suite équicontinue dans $E'$, convergeant vers 0 pour $\sigma(E', E)$. La suite des fonctions $u(x'_n)$ est alors bornée dans $\mathcal{C}(A)$ et converge simplement vers 0. Pour tout $\mu \in \mathcal{C}(A)'$, on a $\lim_{n \to \infty} \mu(u(x'_n)) = 0$ d’après le lemme 2 (IV, p. 37). D’après le critère fourni par la remarque de III, p. 21, la forme linéaire $\mu \circ u$ sur $E'$ est donc continue pour $\sigma(E', E)$ quelle que soit $\mu \in \mathcal{C}(A)'$. Il existe donc une application linéaire $v : \mathcal{C}(A)' \to E$ satisfaisant à la relation
 
 $$
-\langle u(x'), \mu \rangle = \langle v(\mu), x' \rangle \quad (x' \in E', \ \mu \in \mathscr{C}(A)')
+\langle u(x'), \mu \rangle = \langle v(\mu), x' \rangle \quad (x' \in E', \ \mu \in \mathcal{C}(A)')
 $$
 
-Il est clair que $v$ est continue si l’on munit $\mathscr{C}(A)'$ de la topologie $\sigma(\mathscr{C}(A)', \mathscr{C}(A))$ et E de la topologie $\sigma(E, E')$.
+Il est clair que $v$ est continue si l’on munit $\mathcal{C}(A)'$ de la topologie $\sigma(\mathcal{C}(A)', \mathcal{C}(A))$ et E de la topologie $\sigma(E, E')$.
 
-La boule unité (fermée) B de l’espace de Banach $\mathscr{C}(A)'$ est compacte pour la topologie $\sigma(\mathscr{C}(A)', \mathscr{C}(A))$ (III, p. 17, cor. 3). Par suite, $v(B)$ est une partie de E convexe, équilibrée et compacte pour $\sigma(E, E')$. Pour tout $a \in A$, la forme linéaire continue $\varepsilon_a : f \mapsto f(a)$ sur $\mathscr{C}(A)$ appartient à B, et l’on a $v(\varepsilon_a) = a$ d’après les formules (7) et (8). On a donc $A \subset v(B)$, d’où $C \subset v(B)$. Ceci prouve que C est compacte pour $\sigma(E, E')$.
+La boule unité (fermée) B de l’espace de Banach $\mathcal{C}(A)'$ est compacte pour la topologie $\sigma(\mathcal{C}(A)', \mathcal{C}(A))$ (III, p. 17, cor. 3). Par suite, $v(B)$ est une partie de E convexe, équilibrée et compacte pour $\sigma(E, E')$. Pour tout $a \in A$, la forme linéaire continue $\varepsilon_a : f \mapsto f(a)$ sur $\mathcal{C}(A)$ appartient à B, et l’on a $v(\varepsilon_a) = a$ d’après les formules (7) et (8). On a donc $A \subset v(B)$, d’où $C \subset v(B)$. Ceci prouve que C est compacte pour $\sigma(E, E')$.
 
 C.Q.F.D. \*
 

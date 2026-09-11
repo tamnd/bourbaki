@@ -40,7 +40,7 @@ subsections:
       pdf_page: 17
 statements: 27
 exercises: 14
-content_sha256: 398db9bd9bcdb6b213c67decc8be8956360219f9cdeda9be5504fd031e6583e4
+content_sha256: bbe8152644d419ccb19ee22f297414608b9110673218136de5825d49ebb656c5
 ---
 
 ## § 1. TOPOLOGICAL VECTOR SPACES
@@ -159,7 +159,7 @@ A topological vector space is called complete if, considering its uniform struct
 
 #### Example {#evt-i-s1-n4-exa-1 .statement}
 
-If K is a non-discrete valued division ring then the space $\mathscr{B}(I ; K)$ (I, p. 4, Example) is complete (GT, X, § 3.1, cor. 1). This is also true for the space $\ell_K^1(I)$ (I, p. 4, Example) with the norm $\|x\|_1 = \sum_{i \in I} |\xi_i|$: for, if $x_n$ is a Cauchy sequence in this space and $x_n = (\xi_{m_i})_{i \in I}$, then for all $i \in I$
+If K is a non-discrete valued division ring then the space $\mathcal{B}(I ; K)$ (I, p. 4, Example) is complete (GT, X, § 3.1, cor. 1). This is also true for the space $\ell_K^1(I)$ (I, p. 4, Example) with the norm $\|x\|_1 = \sum_{i \in I} |\xi_i|$: for, if $x_n$ is a Cauchy sequence in this space and $x_n = (\xi_{m_i})_{i \in I}$, then for all $i \in I$
 
 $$
 |\xi_{m_i} - \xi_{n_i}| \leq \|x_m - x_n\|_1;

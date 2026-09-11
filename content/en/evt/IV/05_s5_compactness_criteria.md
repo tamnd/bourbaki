@@ -33,7 +33,7 @@ subsections:
       pdf_page: 219
 statements: 8
 exercises: 18
-content_sha256: 085907c281af7d744d2befbb56e8c8769664852f8594f22c451a42a9eddf61e0
+content_sha256: 196b590d53d3ecfe44673a89585c238a171d9c14a0bb1144e0c66e03ceeeb4de
 ---
 
 ## § 5. COMPACTNESS CRITERIA
@@ -133,7 +133,7 @@ Let $\hat{E}$ denote the completion of E, which we shall identify as usual with 
 
 Let $(x'_i)_{i \in I}$ be a basis of the vector space E' over the field K. The mapping $f \mapsto (f(x'_i))_{i \in I}$ is a homeomorphism $\phi$ from ${E_\sigma'}^*$ onto $K^I$; for every $i \in I$, the image of A under the mapping $x'_i$ from E into K is relatively compact : for, K is metrizable and every infinite sequence of elements of $x'_i(A)$ has a limit point. It follows that $\phi(A)$ is relatively compact in $K^I$, hence that the closure $\overline{A}$ of A in ${E_\sigma'}^*$ is compact.
 
-*Next we shall prove that $\overline{A}$ is contained in $\hat{E}$.* Let H be an equicontinuous subset of E'; let X be its closure for $\sigma(E', E)$; X is compact (III, p. 17, cor. 2). For every $x \in {E'}^*$, let $\phi_x$ be the restriction of $x' \mapsto \langle x, x' \rangle$ to X; let $\tilde{A} \subset \mathscr{C}_s(X)$ be the set of functions $\phi_x$ as x ranges over A. In view of the hypothesis on A, every infinite sequence of elements of $\tilde{A}$ has a limit point in $\mathscr{C}_s(X)$; by prop. 2 (IV, p. 33), the set $\tilde{A}$ is therefore relatively compact in $\mathscr{C}_s(X)$. *It follows that for every $a \in \overline{A}$, the function $\phi_a$ on X is continuous.* The inclusion $\overline{A} \subset \hat{E}$ then follows from th. 2 of III, p. 21.
+*Next we shall prove that $\overline{A}$ is contained in $\hat{E}$.* Let H be an equicontinuous subset of E'; let X be its closure for $\sigma(E', E)$; X is compact (III, p. 17, cor. 2). For every $x \in {E'}^*$, let $\phi_x$ be the restriction of $x' \mapsto \langle x, x' \rangle$ to X; let $\tilde{A} \subset \mathcal{C}_s(X)$ be the set of functions $\phi_x$ as x ranges over A. In view of the hypothesis on A, every infinite sequence of elements of $\tilde{A}$ has a limit point in $\mathcal{C}_s(X)$; by prop. 2 (IV, p. 33), the set $\tilde{A}$ is therefore relatively compact in $\mathcal{C}_s(X)$. *It follows that for every $a \in \overline{A}$, the function $\phi_a$ on X is continuous.* The inclusion $\overline{A} \subset \hat{E}$ then follows from th. 2 of III, p. 21.
 
 *Now we shall show that $\overline{A}$ is contained in E.* Since A is precompact in $E_\sigma$ (IV, p. 32, prop. 1), it is bounded in $E_\sigma$ (III, p. 3, prop. 2), hence also in E (IV, p. 1, prop. 1). Let C be the closed convex balanced envelope of A in E. Then C is bounded since A is bounded, hence complete since E is quasi-complete. In other words, C is a convex and closed subset of $\hat{E}$, so also of $\hat{E}_\sigma$ (IV, p. 1, prop. 1). Since $A \subset C$ and the topology of $\hat{E}_\sigma$ is induced by that of ${E_\sigma'}^*$, we have $\overline{A} \subset C$, and hence $\overline{A} \subset E$.
 
@@ -159,15 +159,15 @@ Since the topology of precompact convergence on $F'$ is finer than the topology 
 
 ### \*4. The case of spaces of bounded continuous functions*
 
-For every topological space X, let $\mathscr{C}^b(X)$ denote the Banach space of all continuous and *bounded* mappings from X into K, with the norm defined by
+For every topological space X, let $\mathcal{C}^b(X)$ denote the Banach space of all continuous and *bounded* mappings from X into K, with the norm defined by
 
 $$
 \| f \| = \sup_{x \in X} |f(x)|
 $$
 
-(GT, X, § 3, No. 2). When X is compact, every continuous function on X is bounded (GT, IV, § 6, No. 1), and we write $\mathscr{C}(X)$ for $\mathscr{C}^b(X)$.
+(GT, X, § 3, No. 2). When X is compact, every continuous function on X is bounded (GT, IV, § 6, No. 1), and we write $\mathcal{C}(X)$ for $\mathcal{C}^b(X)$.
 
-In this and the following section, we shall use the following lemma, which is a particular case of Lebesgue’s theorem (INT, IV, 2nd ed. § 4, No. 3, th. 2) on account of the interpretation of the elements of $\mathscr{C}(X)'$ as measures on X.
+In this and the following section, we shall use the following lemma, which is a particular case of Lebesgue’s theorem (INT, IV, 2nd ed. § 4, No. 3, th. 2) on account of the interpretation of the elements of $\mathcal{C}(X)'$ as measures on X.
 
 #### Lemma 2 {#evt-iv-s5-lem-2 .statement}
 

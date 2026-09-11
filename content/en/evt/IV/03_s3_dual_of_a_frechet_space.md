@@ -37,7 +37,7 @@ subsections:
       pdf_page: 208
 statements: 15
 exercises: 18
-content_sha256: a21eee49fbcec695bd9b1df3c255a93a27536274d1505cdbb376e387252d49ab
+content_sha256: 097b37836cedc3f211eb823daa6821daa7738916d82da6f3cb7239878804a41d
 ---
 
 ## § 3. DUAL OF A FRÉCHET SPACE
@@ -204,7 +204,7 @@ Let U be the polar of B in $E'_b$. This is a neighbourhood of 0 in $E'_b$ and we
 
 Let $E_1$ and $E_2$ be two reflexive Fréchet spaces, and G a locally convex Hausdorff space. For $i = 1, 2$, let $F_i$ be the strong dual of $E_i$. Then every separately continuous bilinear mapping $u : F_1 \times F_2 \to G$ is continuous.
 
-The space G is isomorphic to a subspace of a product of Banach spaces (II, p. 5, prop. 3). Therefore it is enough to prove the theorem under the additional hypothesis that G is a Banach space. But $F_1$ is barrelled and $F_2$ bornological (IV, p. 24, corollary), and $\mathscr{L}_b(F_2 ; G)$ is a Fréchet space (IV, p. 23, prop. 3). Let v denote the linear mapping from $F_1$ into $\mathscr{L}_b(F_2 , G)$ associated with u by the relation
+The space G is isomorphic to a subspace of a product of Banach spaces (II, p. 5, prop. 3). Therefore it is enough to prove the theorem under the additional hypothesis that G is a Banach space. But $F_1$ is barrelled and $F_2$ bornological (IV, p. 24, corollary), and $\mathcal{L}_b(F_2 ; G)$ is a Fréchet space (IV, p. 23, prop. 3). Let v denote the linear mapping from $F_1$ into $\mathcal{L}_b(F_2 , G)$ associated with u by the relation
 
 $$
 u(x_1, x_2) = v(x_1)(x_2) \quad (x_1 \in F_1, x_2 \in F_2).
@@ -212,7 +212,7 @@ $$
 
 Since $F_1$ is barrelled and u separately continuous, v is continuous (III, p. 31, prop. 6).
 
-Since v is continuous, lemma 1 implies the existence of a neighbourhood $U_1$ of 0 in $F_1$ whose image under v is bounded in $\mathscr{L}_b(F_2 ; G)$. In other words, for every bounded subset $B_2$ in $F_2$, the set $u(U_1 \times B_2)$ is bounded in the Banach space G. Let $U_2$ be the set of all $x_2 \in F_2$ such that $\|u(x_1, x_2)\| \leqslant 1$ for all $x_1 \in U_1$. The set $U_2$ then absorbs every bounded subset; since $F_2$ is bornological, $U_2$ is a neighbourhood of 0 in $F_2$, and this proves that u is continuous.
+Since v is continuous, lemma 1 implies the existence of a neighbourhood $U_1$ of 0 in $F_1$ whose image under v is bounded in $\mathcal{L}_b(F_2 ; G)$. In other words, for every bounded subset $B_2$ in $F_2$, the set $u(U_1 \times B_2)$ is bounded in the Banach space G. Let $U_2$ be the set of all $x_2 \in F_2$ such that $\|u(x_1, x_2)\| \leqslant 1$ for all $x_1 \in U_1$. The set $U_2$ then absorbs every bounded subset; since $F_2$ is bornological, $U_2$ is a neighbourhood of 0 in $F_2$, and this proves that u is continuous.
 
 ### Exercises {#evt-iv-s3-exercises}
 

@@ -36,7 +36,7 @@ chapters:
           statements: 30
           exercises: 14
           extraction: ocr
-          content_sha256: b69f32004219766313b9c796db5d5ebaff634a94bf3aa93dbd4b3ba310100859
+          content_sha256: 637a72e1c730edd7ee90cd394684d59d0d1fee65e4c876ecff15cb306ba75e68
         - kind: section
           section: 2
           title: Variétés linéaires dans un espace vectoriel topologique
@@ -87,7 +87,7 @@ chapters:
           statements: 18
           exercises: 0
           extraction: ocr
-          content_sha256: 1e2e0b5ae408b6adcab0d34e5f7da77d3e2ec59bbbb561a0eb07f1841fc382f4
+          content_sha256: 54448593347aad6076e9223f0f69ce3ceef90d179ee2da127b9ca7abffc501c3
         - kind: section
           section: 2
           title: Ensembles convexes
@@ -100,7 +100,7 @@ chapters:
           statements: 52
           exercises: 43
           extraction: ocr
-          content_sha256: d3793785fdbaa7cc89a387116e47a5d804504a666bbdca5f35b27681d1a80813
+          content_sha256: 946d8a0748d23d8bc1c11b4a00c2ae233db8474c5d3d4c515fca9190ebbd5a84
         - kind: section
           section: 3
           title: Le théorème de Hahn-Banach (forme analytique)
@@ -126,7 +126,7 @@ chapters:
           statements: 36
           exercises: 17
           extraction: ocr
-          content_sha256: aedd29dac4a17037c31c3c688aea1ceceb032a347f1419e3c5bceb02e6786f5d
+          content_sha256: a44afd192c5ff2cd04958373488321033cd1bf78814d9d0eac6f98f742de96d2
         - kind: section
           section: 5
           title: Séparation des ensembles convexes
@@ -229,7 +229,7 @@ chapters:
           statements: 41
           exercises: 13
           extraction: ocr
-          content_sha256: 4036bd06b513e4d7ee9938338bdc3aaecae2d1d50b8710804638150dda828362
+          content_sha256: c2deae10e3d8e1b1cdd7f2da0c9b7f3818b1ccf32dc5c17f762de7e3978a135e
         - kind: section
           section: 4
           title: Le théorème de Banach-Steinhaus
@@ -242,7 +242,7 @@ chapters:
           statements: 24
           exercises: 22
           extraction: ocr
-          content_sha256: 490179cef7db9fdb15a247a8392cfa9df1f66f815d421e2af5fe3509b3dbc120
+          content_sha256: d85be30243369195f6f10891aee7617c7568bf071886933a3b8449227249ae8c
         - kind: section
           section: 5
           title: Applications bilinéaires hypocontinues
@@ -255,7 +255,7 @@ chapters:
           statements: 16
           exercises: 15
           extraction: ocr
-          content_sha256: 96b3c7e67fbf637f3c2ae42aa81e13cb6837805427388d543e0b072a6b7f3fad
+          content_sha256: fc3f60ea65b159784248f510348de0f30e728b512eacf81e21c2931ef433822a
         - kind: section
           section: 6
           title: Le théorème du graphe borélien
@@ -268,7 +268,7 @@ chapters:
           statements: 8
           exercises: 6
           extraction: ocr
-          content_sha256: 1d0df316aa32a1cef98b3ffd839b91f09d83ef8d021b4e7b7c9685f1d2954eba
+          content_sha256: 48191057adad4a6293190de79baf5a0a016d3a9606ef890e962b7e24f6892e61
     - chapter: IV
       title: LA DUALITÉ DANS LES ESPACES VECTORIELS TOPOLOGIQUES
       sections:
@@ -319,7 +319,7 @@ chapters:
           statements: 15
           exercises: 18
           extraction: ocr
-          content_sha256: bd7596b66701026f52ecbe0f37989ecefd34492dc742d60c317df03a08c07cb4
+          content_sha256: acb8476c9a683786100596db8b0170138e85f99884634126e9d1cb2b39b815ef
         - kind: section
           section: 4
           title: Morphismes stricts d’espaces de Fréchet
@@ -345,7 +345,7 @@ chapters:
           statements: 9
           exercises: 18
           extraction: ocr
-          content_sha256: 9873ff7226898a8c69fd60eeea44e8d751f30d44dbd066dbc07879165c475aa5
+          content_sha256: 1d0d00fce4a89f898045acee73b77fc935ebe35004d2d1b22af95bedc28d500e
         - kind: appendix
           title: Points fixes des groupes de transformations affines
           path: content/fr/evt/IV/A_a_points_fixes_des_groupes_de.md
@@ -357,7 +357,7 @@ chapters:
           statements: 10
           exercises: 8
           extraction: ocr
-          content_sha256: a50fe53e1e92cccf208144f33d5cc8cae97d257dd48338d2315f380c2f77246b
+          content_sha256: 38370f771dc6586b5d7e1f0be933ed90693edf8dd33d9e6fc5d78ca083eced16
     - chapter: V
       title: ESPACES HILBERTIENS (THÉORIE ÉLÉMENTAIRE)
       sections:
@@ -421,7 +421,7 @@ chapters:
           statements: 50
           exercises: 15
           extraction: ocr
-          content_sha256: 5a9df8f95afa72d6677cf1bb5898ea09254e44bc9e991da52cd1fe75712c0047
+          content_sha256: a07e43d2ab0e21350a46f181ef589c0fa66bcfed652270b29c7880d14f4789e5
         - kind: historical
           title: Historical Note
           path: content/fr/evt/V/historical_note.md

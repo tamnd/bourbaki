@@ -28,9 +28,9 @@ subsections:
       pdf_page: 42
 statements: 15
 exercises: 0
-content_sha256: 8493bdc4159252db6d4a81e1fc3b9dffdec35b473cedbc72d2ef667c110541a0
+content_sha256: 96c5eba296bb701db966ff799d6b605016081e79ce64358feee0acfc8ff0ceec
 translated_from: content/en/evt/II/01_s1_semi_norms.md
-source_content_sha256: d28b60958840fb6479c20b64e3b06c944a5472a72ea0c800ef6c6b129ef104b1
+source_content_sha256: c142ede5d36c6c2e3b5b4d8bddc5e68415321932a189580ca0fe0a1351354a27
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-c37b3e9e
 glossary_version: 34
@@ -116,13 +116,13 @@ Cho $E$ là một không gian vectơ trên $K$, với tôpô được xác đị
 
 #### Ví dụ {#evt-ii-s1-n2-exa-1 .statement}
 
-— Cho $\mathscr{C}^\infty(\mathbf{R})$ là không gian vectơ trên $\mathbf{R}$ gồm các hàm nhận giá trị thực và khả vi vô hạn trên $\mathbf{R}$. Với mọi hàm và mọi cặp số nguyên $n \geq 0$, $m \geq 1$, đặt
+— Cho $\mathcal{C}^\infty(\mathbf{R})$ là không gian vectơ trên $\mathbf{R}$ gồm các hàm nhận giá trị thực và khả vi vô hạn trên $\mathbf{R}$. Với mọi hàm và mọi cặp số nguyên $n \geq 0$, $m \geq 1$, đặt
 
 $$
 p_{n,m}(f) = \sup_{-m \leq t \leq m} |f^{(n)}(t)|
 $$
 
-với $f^{(0)} = f$. Hiển nhiên các $p_{n,m}$ là các nửa chuẩn trên $\mathscr{C}^\infty(\mathbf{R})$. Để các hàm $f_\alpha$ tiến tới 0 (theo một bộ lọc $\mathfrak{F}$ trên tập hợp các chỉ số) trong $\mathscr{C}^\infty(\mathbf{R})$ đối với tôpô $\mathcal{T}$ được xác định bởi các nửa chuẩn $p_{n,m}$, điều kiện cần và đủ là với mọi số nguyên $n \geq 0$, các hàm $f_\alpha^{(n)}$ tiến tới 0 (theo $\mathfrak{F}$) *đều trên mọi tập con compắc của* $\mathbf{R}$. Ta nói rằng $\mathcal{T}$ là *tôpô hội tụ compắc đối với các hàm* $f \in \mathscr{C}^\infty(\mathbf{R})$ *và mọi đạo hàm của chúng* (*xem* III, p. 9).
+với $f^{(0)} = f$. Hiển nhiên các $p_{n,m}$ là các nửa chuẩn trên $\mathcal{C}^\infty(\mathbf{R})$. Để các hàm $f_\alpha$ tiến tới 0 (theo một bộ lọc $\mathfrak{F}$ trên tập hợp các chỉ số) trong $\mathcal{C}^\infty(\mathbf{R})$ đối với tôpô $\mathcal{T}$ được xác định bởi các nửa chuẩn $p_{n,m}$, điều kiện cần và đủ là với mọi số nguyên $n \geq 0$, các hàm $f_\alpha^{(n)}$ tiến tới 0 (theo $\mathfrak{F}$) *đều trên mọi tập con compắc của* $\mathbf{R}$. Ta nói rằng $\mathcal{T}$ là *tôpô hội tụ compắc đối với các hàm* $f \in \mathcal{C}^\infty(\mathbf{R})$ *và mọi đạo hàm của chúng* (*xem* III, p. 9).
 
 #### Mệnh đề 2 {#evt-ii-s1-prop-2 .statement}
 

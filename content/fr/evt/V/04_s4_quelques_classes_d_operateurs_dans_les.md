@@ -49,7 +49,7 @@ subsections:
       pdf_page: 318
 statements: 50
 exercises: 15
-content_sha256: 5a9df8f95afa72d6677cf1bb5898ea09254e44bc9e991da52cd1fe75712c0047
+content_sha256: a07e43d2ab0e21350a46f181ef589c0fa66bcfed652270b29c7880d14f4789e5
 ---
 
 ## § 4. QUELQUES CLASSES D'OPÉRATEURS DANS LES ESPACES HILBERTIENS
@@ -68,19 +68,19 @@ $$
 
 quels que soient $x \in E$ et $y \in F$. L’application $u \mapsto u^*$ de $\mathcal{L}(E; F)$ dans $\mathcal{L}(F; E)$ est bijective, isométrique et semi-linéaire (par rapport à l’automorphisme $\xi \mapsto \overline{\xi}$ de $K$).
 
-Soit $\mathscr{S}(E, F)$ l’espace des formes sesquilinéaires continues sur $E \times F$, muni de la norme
+Soit $\mathcal{S}(E, F)$ l’espace des formes sesquilinéaires continues sur $E \times F$, muni de la norme
 
 $$
 \| \Phi \| = \sup_{\| x \| \leq 1, \| y \| \leq 1} | \Phi(x, y) |
 $$
 
-On définit de manière analogue l’espace $\mathscr{S}(F, E)$. On a défini (V, p. 16, cor. 2) un isomorphisme d’espaces de Banach de $\mathcal{L}(E; F)$ sur $\mathscr{S}(F, E)$, noté $u \mapsto \Phi_u$ et caractérisé par
+On définit de manière analogue l’espace $\mathcal{S}(F, E)$. On a défini (V, p. 16, cor. 2) un isomorphisme d’espaces de Banach de $\mathcal{L}(E; F)$ sur $\mathcal{S}(F, E)$, noté $u \mapsto \Phi_u$ et caractérisé par
 
 $$
 \Phi_u(y, x) = \langle y | u(x) \rangle_F \quad (x \in E, y \in F)
 $$
 
-On définit de manière analogue un isomorphisme de $\mathcal{L}(F; E)$ sur $\mathscr{S}(E, F)$. Enfin, on définit une application $\Phi \mapsto \Phi^*$ de $\mathscr{S}(F, E)$ sur $\mathscr{S}(E, F)$ par
+On définit de manière analogue un isomorphisme de $\mathcal{L}(F; E)$ sur $\mathcal{S}(E, F)$. Enfin, on définit une application $\Phi \mapsto \Phi^*$ de $\mathcal{S}(F, E)$ sur $\mathcal{S}(E, F)$ par
 
 $$
 \Phi^*(x, y) = \overline{\Phi(y, x)} \quad (x \in E, y \in F)
@@ -346,7 +346,7 @@ Il est clair que $w = u - \lambda \cdot 1_E$ est un endomorphisme normal de $E$,
 
 Soient $E$ un espace hilbertien et $u \in \mathcal{L}(E)$. On dit que $u$ est hermitien si l’on a $u^* = u$.
 
-On note $\mathscr{H}(E)$ l’ensemble des éléments hermitiens de $\mathcal{L}(E)$; c’est un sous-espace vectoriel de l’espace vectoriel $\mathcal{L}(E)_{[\mathbf{R}]}$ sur $\mathbf{R}$ déduit de $\mathcal{L}(E)$ par restriction des scalaires.
+On note $\mathcal{H}(E)$ l’ensemble des éléments hermitiens de $\mathcal{L}(E)$; c’est un sous-espace vectoriel de l’espace vectoriel $\mathcal{L}(E)_{[\mathbf{R}]}$ sur $\mathbf{R}$ déduit de $\mathcal{L}(E)$ par restriction des scalaires.
 
 A tout $u \in \mathcal{L}(E)$, on a associé (V, p. 16, cor. 2) la forme sesquilinéaire $\Phi_u : (x, y) \mapsto \langle x | u(y) \rangle$ sur $E \times E$. On a
 

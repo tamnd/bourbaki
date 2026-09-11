@@ -41,7 +41,7 @@ subsections:
       pdf_page: 71
 statements: 33
 exercises: 17
-content_sha256: 183fe64a493ca845f33b9a913efb97564a15e0840da57b85c2de74908bd6e51d
+content_sha256: 8868ada9c2641b4e23a77089936df9315d46683058a15b652c84bf9066eed2d4
 ---
 
 ## § 4. LOCALLY CONVEX SPACES
@@ -196,7 +196,7 @@ Let A be an ordered set directed to the right and let $(E_\alpha, f_{\beta\alpha
 
 #### Example {#evt-ii-s4-n4-exa-1 .statement}
 
-— Let X be a locally compact space and $E = \mathscr{K}(X; \mathbf{R})$ the vector space of finite continuous real valued functions defined over X with compact support. For every compact subset K of X, let $E_K$ be the vector subspace of E formed by those functions $f \in E$ which are such that $x \notin K \Rightarrow f(x) = 0$. Denote by $\mathcal{T}_K$ the topology induced on $E_K$ and by $\mathcal{T}_u$ the topology of *uniform convergence* on X. The inductive limit $\mathcal{T}$ of the topologies $\mathcal{T}_K$ is finer than $\mathcal{T}_u$; we can show that if X is paracompact and not compact, then $\mathcal{T}$ is strictly finer than $\mathcal{T}_u$ (*cf.* INT, III, 2nd ed., § 1.8). The importance of $\mathcal{T}$ lies in the fact that the linear forms on E that are continuous in $\mathcal{T}$ are precisely the real *measures* on X (INT, III, 2nd., § 1.3).
+— Let X be a locally compact space and $E = \mathcal{K}(X; \mathbf{R})$ the vector space of finite continuous real valued functions defined over X with compact support. For every compact subset K of X, let $E_K$ be the vector subspace of E formed by those functions $f \in E$ which are such that $x \notin K \Rightarrow f(x) = 0$. Denote by $\mathcal{T}_K$ the topology induced on $E_K$ and by $\mathcal{T}_u$ the topology of *uniform convergence* on X. The inductive limit $\mathcal{T}$ of the topologies $\mathcal{T}_K$ is finer than $\mathcal{T}_u$; we can show that if X is paracompact and not compact, then $\mathcal{T}$ is strictly finer than $\mathcal{T}_u$ (*cf.* INT, III, 2nd ed., § 1.8). The importance of $\mathcal{T}$ lies in the fact that the linear forms on E that are continuous in $\mathcal{T}$ are precisely the real *measures* on X (INT, III, 2nd., § 1.3).
 
 #### Remark {#evt-ii-s4-n4-rem-1 .statement}
 

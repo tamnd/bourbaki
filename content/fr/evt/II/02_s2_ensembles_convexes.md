@@ -57,7 +57,7 @@ subsections:
       pdf_page: 56
 statements: 52
 exercises: 43
-content_sha256: d3793785fdbaa7cc89a387116e47a5d804504a666bbdca5f35b27681d1a80813
+content_sha256: 946d8a0748d23d8bc1c11b4a00c2ae233db8474c5d3d4c515fca9190ebbd5a84
 ---
 
 ## § 2. ENSEMBLES CONVEXES
@@ -392,7 +392,7 @@ Un espace vectoriel ordonné sur E, muni d’une topologie compatible avec sa st
 
 L’espace $\mathbf{R}^n$, muni de sa topologie usuelle et de la structure d’ordre produit des structures d’ordre de ses facteurs, est un espace vectoriel topologique ordonné. Par contre, pour $n \geqslant 2$, lorsqu’on munit $\mathbf{R}^n$ de l’ordre lexicographique (E, III, p. 23), la topologie usuelle n’est pas compatible avec la structure d’espace vectoriel ordonné de $\mathbf{R}^n$.
 
-Soit A un ensemble ; l’espace vectoriel $\mathscr{B}(A ; \mathbf{R})$ des fonctions numériques bornées dans A, muni de la topologie définie par la norme $\|x\| = \sup_{t \in A} |x(t)|$ et de la structure d’ordre induite par la structure d’ordre produit sur $\mathbf{R}^A$, est un espace vectoriel topologique ordonné.
+Soit A un ensemble ; l’espace vectoriel $\mathcal{B}(A ; \mathbf{R})$ des fonctions numériques bornées dans A, muni de la topologie définie par la norme $\|x\| = \sup_{t \in A} |x(t)|$ et de la structure d’ordre induite par la structure d’ordre produit sur $\mathbf{R}^A$, est un espace vectoriel topologique ordonné.
 
 Dans un espace vectoriel topologique ordonné E, l’ensemble des éléments $x \leqslant 0$ est fermé ; les translations étant des homéomorphismes, on en déduit que pour tout $a \in E$, l’ensemble des $x \geqslant a$ (resp. $x \leqslant a$) est fermé. Comme les relations $x \geqslant 0$ et $x \leqslant 0$ entraînent $x = 0$, $\{0\}$ est fermé, donc E est séparé.
 

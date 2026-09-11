@@ -40,9 +40,9 @@ subsections:
       pdf_page: 17
 statements: 27
 exercises: 14
-content_sha256: 28473b83949f972a609cc6d172217c98d0fab3e98ff7ad3153666d90a7cb675d
+content_sha256: 17ffe55287e0fdc7d694eaf64709da06d904fca73c32fd020f13335f78d5a6ab
 translated_from: content/en/evt/I/01_s1_topological_vector_spaces.md
-source_content_sha256: 398db9bd9bcdb6b213c67decc8be8956360219f9cdeda9be5504fd031e6583e4
+source_content_sha256: bbe8152644d419ccb19ee22f297414608b9110673218136de5825d49ebb656c5
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-52bd887b
 glossary_version: 34
@@ -166,7 +166,7 @@ Một không gian vectơ tôpô được gọi là đầy đủ nếu, xét theo
 
 #### Ví dụ {#evt-i-s1-n4-exa-1 .statement}
 
-Nếu K là một vành chia có giá trị không rời rạc thì không gian $\mathscr{B}(I ; K)$ (I, p. 4, Ví dụ) là đầy đủ (GT, X, § 3.1, cor. 1). Điều này cũng đúng cho không gian $\ell_K^1(I)$ (I, p. 4, Ví dụ) với chuẩn $\|x\|_1 = \sum_{i \in I} |\xi_i|$: vì, nếu $x_n$ là một dãy Cauchy trong không gian này và $x_n = (\xi_{m_i})_{i \in I}$, thì với mọi $i \in I$
+Nếu K là một vành chia có giá trị không rời rạc thì không gian $\mathcal{B}(I ; K)$ (I, p. 4, Ví dụ) là đầy đủ (GT, X, § 3.1, cor. 1). Điều này cũng đúng cho không gian $\ell_K^1(I)$ (I, p. 4, Ví dụ) với chuẩn $\|x\|_1 = \sum_{i \in I} |\xi_i|$: vì, nếu $x_n$ là một dãy Cauchy trong không gian này và $x_n = (\xi_{m_i})_{i \in I}$, thì với mọi $i \in I$
 
 $$
 |\xi_{m_i} - \xi_{n_i}| \leq \|x_m - x_n\|_1;

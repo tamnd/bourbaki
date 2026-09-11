@@ -41,7 +41,7 @@ subsections:
       pdf_page: 72
 statements: 36
 exercises: 17
-content_sha256: aedd29dac4a17037c31c3c688aea1ceceb032a347f1419e3c5bceb02e6786f5d
+content_sha256: a44afd192c5ff2cd04958373488321033cd1bf78814d9d0eac6f98f742de96d2
 ---
 
 ## § 4. ESPACES LOCALEMENT CONVEXES
@@ -229,7 +229,7 @@ C’est un cas particulier de la prop. 5 de II, p. 29.
 Compte tenu de la définition de la somme directe d’une famille d’espaces vectoriels (A, II, p. 12, prop. 6), on peut encore dire que la topologie $\mathcal{T}$ est la seule pour laquelle l’application canonique $g \mapsto (g \circ f_i)$ soit une bijection
 
 $$
-\mathscr{L}(E; G) \to \prod_{i \in I} \mathscr{L}(E_i; G)
+\mathcal{L}(E; G) \to \prod_{i \in I} \mathcal{L}(E_i; G)
 $$
 
 pour tout espace localement convexe $G$.

@@ -45,7 +45,7 @@ subsections:
       pdf_page: 157
 statements: 41
 exercises: 13
-content_sha256: 4036bd06b513e4d7ee9938338bdc3aaecae2d1d50b8710804638150dda828362
+content_sha256: c2deae10e3d8e1b1cdd7f2da0c9b7f3818b1ccf32dc5c17f762de7e3978a135e
 ---
 
 ## § 3. ESPACES D’APPLICATIONS LINÉAIRES CONTINUES
@@ -234,7 +234,7 @@ $$
 
 Les formes linéaires $f \mapsto \hat{f}(y)$ forment une partie équicontinue du dual de $\mathcal{L}^1(\mu)$.
 
-D’autre part, on sait que l’ensemble $T$ des fonctions caractéristiques d’intervalles fermés bornés est une partie totale de $\mathcal{L}^1(\mu)$, et on vérifie aisément que, pour $f \in T$, la transformée de Fourier $\hat{f}$ est une fonction continue tendant vers zéro à l’infini. On en déduit qu’il en est de même pour tout $f \in L^1(\mu)$ (« th. de Riemann-Lebesgue »). En effet, la relation $\sup_{y \in \mathbf{R}} |\hat{f}(y)| \leq \|f\|_1$ montre que l’application $f \mapsto \hat{f}$ est une application continue de $\mathcal{L}^1(\mu)$ dans l’espace $\mathscr{B}(\mathbf{R})$ des fonctions bornées sur $\mathbf{R}$ muni de la convergence uniforme. Comme $\hat{f}$ est continue pour $f \in T$, il en résulte que $\hat{f}$ est continue quelle que soit $f \in L^1(\mu)$. Le fait que $\hat{f}$ tende vers zéro à l’infini résulte de ce que le sous-espace $\mathscr{C}_0(\mathbf{R})$ des fonctions continues tendant vers $0$ à l’infini est fermé dans $\mathscr{B}(\mathbf{R})$.
+D’autre part, on sait que l’ensemble $T$ des fonctions caractéristiques d’intervalles fermés bornés est une partie totale de $\mathcal{L}^1(\mu)$, et on vérifie aisément que, pour $f \in T$, la transformée de Fourier $\hat{f}$ est une fonction continue tendant vers zéro à l’infini. On en déduit qu’il en est de même pour tout $f \in L^1(\mu)$ (« th. de Riemann-Lebesgue »). En effet, la relation $\sup_{y \in \mathbf{R}} |\hat{f}(y)| \leq \|f\|_1$ montre que l’application $f \mapsto \hat{f}$ est une application continue de $\mathcal{L}^1(\mu)$ dans l’espace $\mathcal{B}(\mathbf{R})$ des fonctions bornées sur $\mathbf{R}$ muni de la convergence uniforme. Comme $\hat{f}$ est continue pour $f \in T$, il en résulte que $\hat{f}$ est continue quelle que soit $f \in L^1(\mu)$. Le fait que $\hat{f}$ tende vers zéro à l’infini résulte de ce que le sous-espace $\mathcal{C}_0(\mathbf{R})$ des fonctions continues tendant vers $0$ à l’infini est fermé dans $\mathcal{B}(\mathbf{R})$.
 
 #### Exemple 2 {#evt-iii-s3-n4-exa-2 .statement}
 
@@ -254,9 +254,9 @@ Soit $(a_n)$ une suite totale dans $E$. L’application $u \mapsto (u(a_n))$ est
 
 #### Corollaire 1 {#evt-iii-s3-prop-6-cor-1 .statement}
 
-Soient E un espace localement convexe métrisable de type dénombrable et F un espace normé de type dénombrable. Alors $\mathscr{L}(E; F)$ est réunion d’une famille dénombrable de parties équicontinues et il existe dans $\mathscr{L}(E; F)$ un ensemble dénombrable dense pour la topologie de la convergence uniforme dans les parties précompactes de E.
+Soient E un espace localement convexe métrisable de type dénombrable et F un espace normé de type dénombrable. Alors $\mathcal{L}(E; F)$ est réunion d’une famille dénombrable de parties équicontinues et il existe dans $\mathcal{L}(E; F)$ un ensemble dénombrable dense pour la topologie de la convergence uniforme dans les parties précompactes de E.
 
-Soient B la boule unité de F et $(V_n)$ un système fondamental dénombrable de voisinages de 0 dans E. Pour tout entier n, l’ensemble $H_n$ des $u \in \mathscr{L}(E; F)$ telles que $u(V_n) \subset B$ est équicontinu et $\mathscr{L}(E; F)$ est la réunion des $H_n$. Le corollaire résulte donc de la prop. 6.
+Soient B la boule unité de F et $(V_n)$ un système fondamental dénombrable de voisinages de 0 dans E. Pour tout entier n, l’ensemble $H_n$ des $u \in \mathcal{L}(E; F)$ telles que $u(V_n) \subset B$ est équicontinu et $\mathcal{L}(E; F)$ est la réunion des $H_n$. Le corollaire résulte donc de la prop. 6.
 
 #### Corollaire 2 {#evt-iii-s3-prop-6-cor-2 .statement}
 
@@ -283,7 +283,7 @@ Remarquons que tout $x \in E$ définit une application $j(x): u \mapsto u(x)$ de
 
 La topologie de E est identique à la topologie de la convergence uniforme dans les parties équicontinues de $E'$.
 
-Plus généralement, soit F un espace localement convexe ; toute $u \in \mathscr{L}(E; F)$ définit une application $j(u) : (x, f) \mapsto f(u(x))$ de $E \times F'$ dans $K$ (c’est-à-dire dans $\mathbf{R}$ ou $\mathbf{C}$). Ceci permet de définir dans l’espace $\mathcal{L}(E; F)$ la topologie de la convergence uniforme dans un ensemble de parties de $E \times F'$. En particulier :
+Plus généralement, soit F un espace localement convexe ; toute $u \in \mathcal{L}(E; F)$ définit une application $j(u) : (x, f) \mapsto f(u(x))$ de $E \times F'$ dans $K$ (c’est-à-dire dans $\mathbf{R}$ ou $\mathbf{C}$). Ceci permet de définir dans l’espace $\mathcal{L}(E; F)$ la topologie de la convergence uniforme dans un ensemble de parties de $E \times F'$. En particulier :
 
 #### Corollaire 2 {#evt-iii-s3-prop-7-cor-2 .statement}
 

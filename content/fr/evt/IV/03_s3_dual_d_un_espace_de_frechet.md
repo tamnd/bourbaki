@@ -37,7 +37,7 @@ subsections:
       pdf_page: 211
 statements: 15
 exercises: 18
-content_sha256: bd7596b66701026f52ecbe0f37989ecefd34492dc742d60c317df03a08c07cb4
+content_sha256: acb8476c9a683786100596db8b0170138e85f99884634126e9d1cb2b39b815ef
 ---
 
 ## § 3. DUAL D’UN ESPACE DE FRÉCHET
@@ -99,13 +99,13 @@ Le corollaire suivant étend le th. de Banach-Steinhaus au dual d’un espace de
 
 *Soit G un espace localement convexe séparé, et soit* $(u_n)$ *une suite d’applications linéaires de F dans G, convergeant simplement vers une application u de F dans G. Alors u est continue, et la suite* $(u_n)$ *converge vers u uniformément sur toute partie précompacte de F.*
 
-Comme F est complet, l’ensemble des $u_n$, qui est borné pour la topologie de la convergence simple, est borné dans $\mathscr{L}_b(F; G)$ (III, p. 27, cor. 1). Comme l’espace F est semi-tonnelé (prop. 2), toute partie dénombrable et bornée de $\mathscr{L}_b(F; G)$ est équi-continue d’après la prop. 1 de IV, p. 20. L’ensemble des $u_n$ est donc équicontinu, et le corollaire résulte alors de III, p. 18, corollaire.
+Comme F est complet, l’ensemble des $u_n$, qui est borné pour la topologie de la convergence simple, est borné dans $\mathcal{L}_b(F; G)$ (III, p. 27, cor. 1). Comme l’espace F est semi-tonnelé (prop. 2), toute partie dénombrable et bornée de $\mathcal{L}_b(F; G)$ est équi-continue d’après la prop. 1 de IV, p. 20. L’ensemble des $u_n$ est donc équicontinu, et le corollaire résulte alors de III, p. 18, corollaire.
 
 ### 3. Bidual d’un espace localement convexe métrisable
 
 #### Proposition 3 {#evt-iv-s3-prop-3 .statement}
 
-*Soient E un espace localement convexe métrisable, $E'_b$ son dual fort et G un espace de Fréchet. L’espace $\mathscr{L}_b(E'_b; G)$ est un espace de Fréchet.*
+*Soient E un espace localement convexe métrisable, $E'_b$ son dual fort et G un espace de Fréchet. L’espace $\mathcal{L}_b(E'_b; G)$ est un espace de Fréchet.*
 
 D’après la prop. 2 (IV, p. 21), il existe une suite $(A_n)$ de parties bornées de $E'_b$ telle que toute partie bornée de $E'_b$ soit contenue dans l’une des $A_n$. Soit $(V_n)$ un système fondamental dénombrable de voisinages de 0 dans G. Soit $H_{mn}$ l’ensemble des applications linéaires $u$ de $E'_b$ dans G telles que $u(A_m) \subset V_n$. Alors $(H_{mn})$ est un système fondamental de voisinages de 0 dans $\mathcal{L}_b(E'_b ; G)$, et ce dernier espace est donc métrisable.
 

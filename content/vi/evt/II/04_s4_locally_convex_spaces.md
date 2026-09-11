@@ -41,9 +41,9 @@ subsections:
       pdf_page: 71
 statements: 33
 exercises: 17
-content_sha256: ec38dc11b5dc59c7d50302dc373f23bafbf11ab6abf86849574c6dc6a7e32ada
+content_sha256: 873022b984f7cc72241634cd893612d4f9d7b5e13a54e16e94ed752d35dd88e0
 translated_from: content/en/evt/II/04_s4_locally_convex_spaces.md
-source_content_sha256: 183fe64a493ca845f33b9a913efb97564a15e0840da57b85c2de74908bd6e51d
+source_content_sha256: 8868ada9c2641b4e23a77089936df9315d46683058a15b652c84bf9066eed2d4
 translation_model: gpt-5-6, gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-c1232c45
 glossary_version: 34
@@ -203,7 +203,7 @@ Cho A là một tập hợp có thứ tự có hướng sang phải và $(E_\alp
 
 #### Ví dụ {#evt-ii-s4-n4-exa-1 .statement}
 
-— Cho X là một không gian địa phương compact và $E = \mathscr{K}(X; \mathbf{R})$ là không gian vectơ của các hàm thực liên tục xác định trên X có giá compact. Với mỗi tập con compact K của X, cho $E_K$ là không gian con vectơ của E gồm các hàm $f \in E$ thỏa mãn $x \notin K \Rightarrow f(x) = 0$. Ký hiệu $\mathcal{T}_K$ là tôpô cảm sinh trên $E_K$ và $\mathcal{T}_u$ là tôpô của *hội tụ đều* trên X. Giới hạn quy nạp $\mathcal{T}$ của các tôpô $\mathcal{T}_K$ mịn hơn $\mathcal{T}_u$; ta có thể chứng minh rằng nếu X là paracompact và không compact, thì $\mathcal{T}$ mịn hơn một cách thực sự so với $\mathcal{T}_u$ (*xem* INT, III, 2nd ed., § 1.8). Tầm quan trọng của $\mathcal{T}$ nằm ở chỗ các dạng tuyến tính trên E liên tục theo $\mathcal{T}$ chính xác là các *độ đo* thực trên X (INT, III, 2nd., § 1.3).
+— Cho X là một không gian địa phương compact và $E = \mathcal{K}(X; \mathbf{R})$ là không gian vectơ của các hàm thực liên tục xác định trên X có giá compact. Với mỗi tập con compact K của X, cho $E_K$ là không gian con vectơ của E gồm các hàm $f \in E$ thỏa mãn $x \notin K \Rightarrow f(x) = 0$. Ký hiệu $\mathcal{T}_K$ là tôpô cảm sinh trên $E_K$ và $\mathcal{T}_u$ là tôpô của *hội tụ đều* trên X. Giới hạn quy nạp $\mathcal{T}$ của các tôpô $\mathcal{T}_K$ mịn hơn $\mathcal{T}_u$; ta có thể chứng minh rằng nếu X là paracompact và không compact, thì $\mathcal{T}$ mịn hơn một cách thực sự so với $\mathcal{T}_u$ (*xem* INT, III, 2nd ed., § 1.8). Tầm quan trọng của $\mathcal{T}$ nằm ở chỗ các dạng tuyến tính trên E liên tục theo $\mathcal{T}$ chính xác là các *độ đo* thực trên X (INT, III, 2nd., § 1.3).
 
 #### Nhận xét {#evt-ii-s4-n4-rem-1 .statement}
 

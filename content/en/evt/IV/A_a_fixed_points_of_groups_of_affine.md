@@ -29,7 +29,7 @@ subsections:
       pdf_page: 226
 statements: 10
 exercises: 8
-content_sha256: 8fcedbfe0628c86057164c4379e875afa32cf556d96488150fe7dbda9c9467d8
+content_sha256: 766c5c66bd0dd6abbb3dd5fde5679ccbfd3279efd130bac7917fb401314cfcf8
 ---
 
 ## APPENDIX
@@ -124,7 +124,7 @@ In this section, $E$ denotes a normed *space* over the field $\mathbf{R}$ and $\
 a) $\mathcal{T}$ is the topology induced by the norm of the normed space $E$.
 b) $\mathcal{T}$ is the weakened topology $\sigma(E, E')$ of the normed space $E$.
 c) $E$ is the dual of a normed space $F$ and $\mathcal{T} = \sigma(F', F)$.
-d) There exist two normed spaces $F_1$ and $F_2$ such that $E = \mathscr{L}(F_1 ; F_2)$ and $\mathcal{T}$ is the topology of simple convergence.
+d) There exist two normed spaces $F_1$ and $F_2$ such that $E = \mathcal{L}(F_1 ; F_2)$ and $\mathcal{T}$ is the topology of simple convergence.
 
 *Unless otherwise expressly stated, the topological notions refer to the topology $\mathcal{T}$.*
 

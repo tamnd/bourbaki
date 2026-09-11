@@ -37,7 +37,7 @@ subsections:
       pdf_page: 208
 statements: 15
 exercises: 2
-content_sha256: 811c1f2b5fe8d4b5d19ee6a14ed17a93aebf625fb5175eb1ffc3ad75a3900e48
+content_sha256: 1d14cd949a1441100a6a543bb61e165746b3e2bc53e1d41788b5a54d288e94b1
 translated_from: content/en/evt/IV/03_s3_dual_of_a_frechet_space.md
 source_content_sha256: 4065ed0aff089e17407855388482b96630c02240233829e9c16d410797c4c210
 translation_model: gpt-5.4
@@ -211,7 +211,7 @@ Cho U là cực của B trong $E'_b$. Đây là một lân cận của 0 trong $
 
 Cho $E_1$ và $E_2$ là hai không gian Fréchet phản xạ, và G là một không gian Hausdorff lồi địa phương. Với $i = 1, 2$, gọi $F_i$ là đối ngẫu mạnh của $E_i$. Khi đó mọi ánh xạ song tuyến tính liên tục riêng $u : F_1 \times F_2 \to G$ đều liên tục.
 
-Không gian G đẳng cấu với một không gian con của một tích các không gian Banach (II, p. 5, mệnh đề 3). Vì vậy chỉ cần chứng minh định lý dưới giả thiết bổ sung rằng G là một không gian Banach. Nhưng $F_1$ là không gian barrelled và $F_2$ là không gian bornological (IV, p. 24, hệ quả), và $\mathscr{L}_b(F_2 ; G)$ là một không gian Fréchet (IV, p. 23, mệnh đề 3). Gọi v là ánh xạ tuyến tính từ $F_1$ vào $\mathscr{L}_b(F_2 , G)$ liên kết với u bởi quan hệ
+Không gian G đẳng cấu với một không gian con của một tích các không gian Banach (II, p. 5, mệnh đề 3). Vì vậy chỉ cần chứng minh định lý dưới giả thiết bổ sung rằng G là một không gian Banach. Nhưng $F_1$ là không gian barrelled và $F_2$ là không gian bornological (IV, p. 24, hệ quả), và $\mathcal{L}_b(F_2 ; G)$ là một không gian Fréchet (IV, p. 23, mệnh đề 3). Gọi v là ánh xạ tuyến tính từ $F_1$ vào $\mathcal{L}_b(F_2 , G)$ liên kết với u bởi quan hệ
 
 $$
 u(x_1, x_2) = v(x_1)(x_2) \quad (x_1 \in F_1, x_2 \in F_2).
@@ -219,7 +219,7 @@ $$
 
 Vì $F_1$ là không gian barrelled và u liên tục riêng, v là liên tục (III, p. 31, mệnh đề 6).
 
-Vì v liên tục, bổ đề 1 kéo theo sự tồn tại của một lân cận $U_1$ của 0 trong $F_1$ mà ảnh của nó qua v bị chặn trong $\mathscr{L}_b(F_2 ; G)$. Nói cách khác, với mọi tập con bị chặn $B_2$ trong $F_2$, tập $u(U_1 \times B_2)$ bị chặn trong không gian Banach G. Gọi $U_2$ là tập hợp tất cả $x_2 \in F_2$ sao cho $\|u(x_1, x_2)\| \leqslant 1$ với mọi $x_1 \in U_1$. Khi đó tập $U_2$ hấp thụ mọi tập con bị chặn; vì $F_2$ là bornological, $U_2$ là một lân cận của 0 trong $F_2$, và điều này chứng minh rằng u là liên tục.
+Vì v liên tục, bổ đề 1 kéo theo sự tồn tại của một lân cận $U_1$ của 0 trong $F_1$ mà ảnh của nó qua v bị chặn trong $\mathcal{L}_b(F_2 ; G)$. Nói cách khác, với mọi tập con bị chặn $B_2$ trong $F_2$, tập $u(U_1 \times B_2)$ bị chặn trong không gian Banach G. Gọi $U_2$ là tập hợp tất cả $x_2 \in F_2$ sao cho $\|u(x_1, x_2)\| \leqslant 1$ với mọi $x_1 \in U_1$. Khi đó tập $U_2$ hấp thụ mọi tập con bị chặn; vì $F_2$ là bornological, $U_2$ là một lân cận của 0 trong $F_2$, và điều này chứng minh rằng u là liên tục.
 
 ### Bài tập {#evt-iv-s3-exercises}
 

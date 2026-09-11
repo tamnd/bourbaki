@@ -25,7 +25,7 @@ subsections:
       pdf_page: 162
 statements: 24
 exercises: 22
-content_sha256: 490179cef7db9fdb15a247a8392cfa9df1f66f815d421e2af5fe3509b3dbc120
+content_sha256: d85be30243369195f6f10891aee7617c7568bf071886933a3b8449227249ae8c
 ---
 
 ## § 4. LE THÉORÈME DE BANACH-STEINHAUS
@@ -108,7 +108,7 @@ On prouvera plus loin (IV, p. 14, corollaire) que tout produit d’espaces tonne
 
 #### Théorème 1 {#evt-iii-s4-thm-1 .statement}
 
-Soient E un espace tonnelé, F un espace localement convexe. Toute partie simplement bornée H de $\mathscr{L}(E; F)$ est équicontinue.
+Soient E un espace tonnelé, F un espace localement convexe. Toute partie simplement bornée H de $\mathcal{L}(E; F)$ est équicontinue.
 
 En effet, soit $p$ une semi-norme continue sur $F$; posons $q = \sup_{u \in H} (p \circ u)$. Puisque $H$ est simplement bornée, on a $q(x) < +\infty$ pour tout $x \in E$ et $q$ est une semi-norme semi-continue inférieurement, comme enveloppe supérieure finie de semi-normes continues. Comme $E$ est tonnelé, $q$ est une semi-norme continue et $H$ est donc équicontinue.
 

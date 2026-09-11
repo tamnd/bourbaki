@@ -29,9 +29,9 @@ subsections:
       pdf_page: 23
 statements: 26
 exercises: 12
-content_sha256: 7b29b5e36f80046d65c74fc796d512c5752476f261e4b3a8404bdb6b0f96a576
+content_sha256: 9a1ad934df94aa4e41fde438b4e8514a9ac288b894ec7a54eda05fced0d5245d
 translated_from: content/en/evt/I/02_s2_linear_varieties_in_a_topological.md
-source_content_sha256: 61cd6dad8d3c88edb55c2b3d99dcd153e54788854713e19386098384030e5241
+source_content_sha256: 001f91ec10b82822cf53a8050a4342f37f3922472e7952d907a6a34854b2ed05
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-41cdad82
 glossary_version: 34
@@ -67,7 +67,7 @@ Không gian con vectơ $M$ sinh bởi một tập hợp $A$, trong một không 
 
 #### Ví dụ {#evt-i-s2-n1-exa-1 .statement}
 
-— 1) Trong không gian định chuẩn $\mathscr{C}(I; \mathbf{C})$ (trên trường $\mathbf{C}$) của các hàm, liên tục trên $I = \{0, 1\}$, nhận giá trị trong $\mathbf{C}$, các phép hạn chế lên $I$ của các hàm $x^n \ (n \in \mathbf{N})$ tạo thành một tập đầy, theo định lý Weierstrass-Stone (GT, X, § 4.2, th. 3). Tương tự, các phép hạn chế lên $I$ của các hàm $e^{2n\pi ix} \ (n \in \mathbf{Z})$ tạo thành một tập đầy (GT, X, § 4.4, mệnh đề 8), trong không gian con $P$ của $\mathscr{C}(I, \mathbf{C})$ gồm các hàm sao cho $f(0) = f(1)$.
+— 1) Trong không gian định chuẩn $\mathcal{C}(I; \mathbf{C})$ (trên trường $\mathbf{C}$) của các hàm, liên tục trên $I = \{0, 1\}$, nhận giá trị trong $\mathbf{C}$, các phép hạn chế lên $I$ của các hàm $x^n \ (n \in \mathbf{N})$ tạo thành một tập đầy, theo định lý Weierstrass-Stone (GT, X, § 4.2, th. 3). Tương tự, các phép hạn chế lên $I$ của các hàm $e^{2n\pi ix} \ (n \in \mathbf{Z})$ tạo thành một tập đầy (GT, X, § 4.4, mệnh đề 8), trong không gian con $P$ của $\mathcal{C}(I, \mathbf{C})$ gồm các hàm sao cho $f(0) = f(1)$.
 
 2) Mọi tập hấp thụ trong một không gian vectơ tôpô $E$ trên một vành chia có định giá không rời rạc (và đặc biệt mọi lân cận của 0 trong $E$) đều là một tập đầy vì nó sinh ra $E$ (I, p. 7). Do đó một đa tạp tuyến tính không trù mật trong $E$ tất yếu là một tập không trù mật ở đâu cả trong $E$ (GT, IX, § 5.1) vì bao đóng của nó không thể chứa một điểm trong.
 

@@ -48,7 +48,7 @@ subsections:
       pdf_page: 315
 statements: 49
 exercises: 0
-content_sha256: 862397a04809e43cf52a7e0b9307c3b072c635ff34b374a17f212b67a8280c49
+content_sha256: 357fbf959dff74964b1a3dea2596d59ae045110f70e82c07b1e7ae6f3ccdfa62
 ---
 
 ## § 4. SOME CLASSES OF OPERATORS IN HILBERTIAN SPACES
@@ -67,19 +67,19 @@ $$
 
 for all $x \in E$ and all $y \in F$. The mapping $u \mapsto u^*$ from $\mathcal{L}(E, F)$ into $\mathcal{L}(F; E)$ is bijective, isometric and semi-linear (with respect to the automorphism $\xi \mapsto \overline{\xi}$ of K).
 
-Let $\mathscr{S}(E, F)$ be the space of all continuous sesquilinear forms on $E \times F$, endowed with the norm
+Let $\mathcal{S}(E, F)$ be the space of all continuous sesquilinear forms on $E \times F$, endowed with the norm
 
 $$
 \| \Phi \| = \sup_{\|x\| \leq 1, \|y\| \leq 1} |\Phi(x, y)| .
 $$
 
-We define the space $\mathscr{S}(F, E)$ similarly. We defined (V, p. 16, cor. 2) a Banach space isomorphism from $\mathcal{L}(E; F)$ onto $\mathscr{S}(F, E)$, denoted by $u \mapsto \Phi_u$ and characterized by
+We define the space $\mathcal{S}(F, E)$ similarly. We defined (V, p. 16, cor. 2) a Banach space isomorphism from $\mathcal{L}(E; F)$ onto $\mathcal{S}(F, E)$, denoted by $u \mapsto \Phi_u$ and characterized by
 
 $$
 \Phi_u(y, x) = \langle y|u(x) \rangle_F \quad (x \in E, \ y \in F) .
 $$
 
-In an analogous way we define an isomorphism from $\mathcal{L}(F, E)$ onto $\mathscr{S}(E, F)$. Finally we define a mapping $\Phi \mapsto \Phi^*$ from $\mathscr{S}(F, E)$ onto $\mathscr{S}(E, F)$ by
+In an analogous way we define an isomorphism from $\mathcal{L}(F, E)$ onto $\mathcal{S}(E, F)$. Finally we define a mapping $\Phi \mapsto \Phi^*$ from $\mathcal{S}(F, E)$ onto $\mathcal{S}(E, F)$ by
 
 $$
 \Phi^*(x, y) = \overline{\Phi(y, x)} \quad (x \in E, \ y \in F) .

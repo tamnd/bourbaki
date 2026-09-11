@@ -30,7 +30,7 @@ subsections:
       pdf_page: 230
 statements: 10
 exercises: 8
-content_sha256: a50fe53e1e92cccf208144f33d5cc8cae97d257dd48338d2315f380c2f77246b
+content_sha256: 38370f771dc6586b5d7e1f0be933ed90693edf8dd33d9e6fc5d78ca083eced16
 ---
 
 ## APPENDICE
@@ -117,7 +117,7 @@ Dans ce numéro, on note $E$ un espace *normé* sur le corps $\mathbf{R}$ et $\m
   a) $\mathcal{T}$ est la topologie déduite de la norme de l’espace normé $E$.
   b) $\mathcal{T}$ est la topologie affaiblie $\sigma(E, E')$ de l’espace normé $E$.
   c) $E$ est le dual d’un espace normé $F$ et l’on a $\mathcal{T} = \sigma(F', F)$.
-  d) Il existe deux espaces normés $F_1$ et $F_2$ tels que $E = \mathscr{L}(F_1; F_2)$ et que $\mathcal{T}$ soit la topologie de la convergence simple.
+  d) Il existe deux espaces normés $F_1$ et $F_2$ tels que $E = \mathcal{L}(F_1; F_2)$ et que $\mathcal{T}$ soit la topologie de la convergence simple.
 
 Sauf mention expresse du contraire, les notions topologiques se réfèrent à la topologie $\mathcal{T}$.
 

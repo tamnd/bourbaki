@@ -45,9 +45,9 @@ subsections:
       pdf_page: 154
 statements: 39
 exercises: 13
-content_sha256: b51a78e230eb81e62ff57fb8beea1e50a8ddbf77ec4b3628ebd79a06e0ecbd56
+content_sha256: b21f5c7e10c4dce260fcb4ee26d0e16471119c85b592076f86e22868407fca57
 translated_from: content/en/evt/III/03_s3_spaces_of_continuous_linear_mappings.md
-source_content_sha256: 750a5a19a2ae810cd3cd4031a0b492c998c5910a610b3aba284ab9536a63d37e
+source_content_sha256: 4ed1fce2dbbf61db61227afd45600a085f6c0b776ec91a9152e9b34266c0750e
 translation_model: gpt-5.4
 translation_run: translate-vi-23e90a2c
 glossary_version: 34
@@ -229,7 +229,7 @@ Do đó, trong mệnh đề 5, ta có thể thay từ « toàn phần » bằng 
 
 #### Ví dụ {#evt-iii-s3-n4-exa-1 .statement}
 
-— *1) Cho $\mu$ là độ đo Lebesgue trên $\mathbf{R}$, và cho E là không gian nửa chuẩn $\mathcal{L}^p(\mu)$ ($1 \leq p < \infty$) (INT, IV). Với mọi hàm số $f$ và mọi số thực $h$, gọi $f_h$ là hàm $x \mapsto f(x - h)$. Rõ ràng ánh xạ $f \mapsto f_h$ xác định một phép đẳng cự tuyến tính từ E lên chính nó. Nếu $f$ liên tục và có giá compact, thì $f_h$ hội tụ đều đến $f$, nên cũng hội tụ đến $f$ theo trung bình cấp $p$, khi $h$ tiến tới 0. Vì tập $\mathscr{K}(\mathbf{R})$ gồm mọi hàm liên tục có giá compact là trù mật trong E, và tập các phép đẳng cự tuyến tính của E là đồng liên tục, nên theo mệnh đề 5 suy ra rằng với mọi $f \in E$, $f_h$ hội tụ theo trung bình cấp $p$ đến $f$ khi $h$ tiến tới 0.
+— *1) Cho $\mu$ là độ đo Lebesgue trên $\mathbf{R}$, và cho E là không gian nửa chuẩn $\mathcal{L}^p(\mu)$ ($1 \leq p < \infty$) (INT, IV). Với mọi hàm số $f$ và mọi số thực $h$, gọi $f_h$ là hàm $x \mapsto f(x - h)$. Rõ ràng ánh xạ $f \mapsto f_h$ xác định một phép đẳng cự tuyến tính từ E lên chính nó. Nếu $f$ liên tục và có giá compact, thì $f_h$ hội tụ đều đến $f$, nên cũng hội tụ đến $f$ theo trung bình cấp $p$, khi $h$ tiến tới 0. Vì tập $\mathcal{K}(\mathbf{R})$ gồm mọi hàm liên tục có giá compact là trù mật trong E, và tập các phép đẳng cự tuyến tính của E là đồng liên tục, nên theo mệnh đề 5 suy ra rằng với mọi $f \in E$, $f_h$ hội tụ theo trung bình cấp $p$ đến $f$ khi $h$ tiến tới 0.
 
 Với $p = 1$, xét biến đổi Fourier, ánh xạ này gán cho mỗi $f \in \mathcal{L}^1(\mu)$ hàm $\hat{f}$ trên $\mathbf{R}$ được xác định bởi
 

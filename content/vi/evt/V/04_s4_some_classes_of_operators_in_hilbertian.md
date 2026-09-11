@@ -48,7 +48,7 @@ subsections:
       pdf_page: 315
 statements: 48
 exercises: 0
-content_sha256: 7dbac925289bf22c96f67bb077097e2a57c151146b3f522311451feb927b9faf
+content_sha256: fe3f4479876a982f04fce6a8560a9e39369a64cd51e0b14e2de211acfddc0c52
 translated_from: content/en/evt/V/04_s4_some_classes_of_operators_in_hilbertian.md
 source_content_sha256: e91bc304651ce770d0fd7f9268828dea76e99a75428b9ae2fa319330bd7c91db
 translation_model: gpt-5-6, gpt-5.4-mini, gpt-5-6-mini
@@ -74,19 +74,19 @@ $$
 
 với mọi $x \in E$ và mọi $y \in F$. Ánh xạ $u \mapsto u^*$ từ $\mathcal{L}(E, F)$ vào $\mathcal{L}(F; E)$ là song ánh, đẳng cự và nửa tuyến tính (đối với tự đẳng cấu $\xi \mapsto \overline{\xi}$ của K).
 
-Gọi $\mathscr{S}(E, F)$ là không gian của tất cả các dạng sesquilinear liên tục trên $E \times F$, được trang bị chuẩn
+Gọi $\mathcal{S}(E, F)$ là không gian của tất cả các dạng sesquilinear liên tục trên $E \times F$, được trang bị chuẩn
 
 $$
 \| \Phi \| = \sup_{\|x\| \leq 1, \|y\| \leq 1} |\Phi(x, y)| .
 $$
 
-Ta định nghĩa không gian $\mathscr{S}(F, E)$ một cách tương tự. Ta đã định nghĩa (V, p. 16, cor. 2) một đẳng cấu không gian Banach từ $\mathcal{L}(E; F)$ lên $\mathscr{S}(F, E)$, ký hiệu bởi $u \mapsto \Phi_u$ và được đặc trưng bởi
+Ta định nghĩa không gian $\mathcal{S}(F, E)$ một cách tương tự. Ta đã định nghĩa (V, p. 16, cor. 2) một đẳng cấu không gian Banach từ $\mathcal{L}(E; F)$ lên $\mathcal{S}(F, E)$, ký hiệu bởi $u \mapsto \Phi_u$ và được đặc trưng bởi
 
 $$
 \Phi_u(y, x) = \langle y|u(x) \rangle_F \quad (x \in E, \ y \in F) .
 $$
 
-Theo cách tương tự, ta định nghĩa một đẳng cấu từ $\mathcal{L}(F, E)$ lên $\mathscr{S}(E, F)$. Cuối cùng ta định nghĩa một ánh xạ $\Phi \mapsto \Phi^*$ từ $\mathscr{S}(F, E)$ lên $\mathscr{S}(E, F)$ bởi
+Theo cách tương tự, ta định nghĩa một đẳng cấu từ $\mathcal{L}(F, E)$ lên $\mathcal{S}(E, F)$. Cuối cùng ta định nghĩa một ánh xạ $\Phi \mapsto \Phi^*$ từ $\mathcal{S}(F, E)$ lên $\mathcal{S}(E, F)$ bởi
 
 $$
 \Phi^*(x, y) = \overline{\Phi(y, x)} \quad (x \in E, \ y \in F) .

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 41
 statements: 18
 exercises: 0
-content_sha256: 1e2e0b5ae408b6adcab0d34e5f7da77d3e2ec59bbbb561a0eb07f1841fc382f4
+content_sha256: 54448593347aad6076e9223f0f69ce3ceef90d179ee2da127b9ca7abffc501c3
 ---
 
 ## § 1. SEMI-NORMES
@@ -118,13 +118,13 @@ Même si $K = \mathbf{R}$, la topologie d’un espace vectoriel topologique sur 
 
 #### Exemple {#evt-ii-s1-n2-exa-1 .statement}
 
-Soit $\mathscr{C}^\infty(\mathbf{R})$ l’espace vectoriel sur $\mathbf{R}$ des fonctions numériques indéfiniment dérivables dans $\mathbf{R}$. Pour toute fonction $f \in \mathscr{C}^\infty(\mathbf{R})$ et tout couple d’entiers $n \geq 0$, $m \geq 1$, posons :
+Soit $\mathcal{C}^\infty(\mathbf{R})$ l’espace vectoriel sur $\mathbf{R}$ des fonctions numériques indéfiniment dérivables dans $\mathbf{R}$. Pour toute fonction $f \in \mathcal{C}^\infty(\mathbf{R})$ et tout couple d’entiers $n \geq 0$, $m \geq 1$, posons :
 
 $$
 p_{n,m}(f) = \sup_{-m \leq t \leq m} |f^{(n)}(t)|
 $$
 
-avec $f^{(0)} = f$. Il est immédiat que les $p_{n,m}$ sont des semi-normes sur $\mathscr{C}^\infty(\mathbf{R})$. Pour que des fonctions $f_\alpha$ convergent vers 0 (suivant un filtre $\mathfrak{F}$ sur l’ensemble des indices) dans $\mathscr{C}^\infty(\mathbf{R})$ pour la topologie $\mathcal{T}$ définie par les semi-normes $p_{n,m}$, il faut et il suffit que, pour tout entier $n \geq 0$, les fonctions $f_\alpha^{(n)}$ tendent vers 0 (suivant $\mathfrak{F}$) *uniformément dans toute partie compacte de* $\mathbf{R}$. On dit que $\mathcal{T}$ est la *topologie de la convergence compacte pour les fonctions* $f \in \mathscr{C}^\infty(\mathbf{R})$ *et toutes leurs dérivées* (*cf.* III, p. 9).
+avec $f^{(0)} = f$. Il est immédiat que les $p_{n,m}$ sont des semi-normes sur $\mathcal{C}^\infty(\mathbf{R})$. Pour que des fonctions $f_\alpha$ convergent vers 0 (suivant un filtre $\mathfrak{F}$ sur l’ensemble des indices) dans $\mathcal{C}^\infty(\mathbf{R})$ pour la topologie $\mathcal{T}$ définie par les semi-normes $p_{n,m}$, il faut et il suffit que, pour tout entier $n \geq 0$, les fonctions $f_\alpha^{(n)}$ tendent vers 0 (suivant $\mathfrak{F}$) *uniformément dans toute partie compacte de* $\mathbf{R}$. On dit que $\mathcal{T}$ est la *topologie de la convergence compacte pour les fonctions* $f \in \mathcal{C}^\infty(\mathbf{R})$ *et toutes leurs dérivées* (*cf.* III, p. 9).
 
 #### Proposition 2 {#evt-ii-s1-prop-2 .statement}
 
