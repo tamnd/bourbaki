@@ -25,9 +25,9 @@ subsections:
       pdf_page: 269
 statements: 12
 exercises: 4
-content_sha256: c781b94cbf10e675a45754e777a71d92dc46701e4920c2cdd70c415942db0da8
+content_sha256: 8a3d93f6e059de3455aeade9880b01842555cd5ad8cd5a90dc5e473a2350e1c8
 translated_from: content/en/int/V/02_s2_summable_families_of_positive_measures.md
-source_content_sha256: 67f5fe101b21cf538af3c09dc97e270ed6343b8689b60190287e3daa14bd9f11
+source_content_sha256: 730cfcb70644db90795e20bf6902026aa0227cd8eb96e17932cb562cdb07b859
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-2189d355
 glossary_version: 34
@@ -39,14 +39,14 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Định nghĩa về họ khả tổng của các độ đo
 
-Cho $(\lambda_\alpha)_{\alpha \in A}$ là một họ các độ đo dương trên một không gian địa phương compact X; họ $(\lambda_\alpha)_{\alpha \in A}$ được gọi là *một họ độ đo khả tổng* nếu nó khả tổng trong không gian vectơ $\mathcal{M}(X)$ các độ đo thực trên X, được trang bị tôpô mơ hồ (GT, III, §5, No. 1). Điều này tương đương với việc nói rằng với mọi hàm $f \in \mathcal{K}(X)$, họ các số $\lambda_\alpha(f)$ khả tổng trong $\mathbf{R}$. Thật vậy, điều kiện này hiển nhiên là cần thiết; ngược lại, nếu nó được thỏa mãn thì dạng tuyến tính $f \mapsto \sum_{\alpha \in A} \lambda_\alpha(f)$ trên $\mathcal{K}(X)$ là dương, do đó là một độ đo dương $\nu$ (Chương III, §1, No. 5, Định lý 1), và ta kiểm tra ngay lập tức rằng các tổng riêng hữu hạn của họ $(\lambda_\alpha)$ hội tụ mơ hồ đến $\nu$, theo bộ lọc tiết diện của tập hợp các tập con hữu hạn của A (GT, III, §5, No. 1, Định nghĩa 1).
+Cho $(\lambda_\alpha)_{\alpha \in A}$ là một họ các độ đo dương trên một không gian địa phương compact X; họ $(\lambda_\alpha)_{\alpha \in A}$ được gọi là *một họ độ đo khả tổng* nếu nó khả tổng trong không gian vectơ $\mathscr{M}(X)$ các độ đo thực trên X, được trang bị tôpô mơ hồ (GT, III, §5, No. 1). Điều này tương đương với việc nói rằng với mọi hàm $f \in \mathscr{K}(X)$, họ các số $\lambda_\alpha(f)$ khả tổng trong $\mathbf{R}$. Thật vậy, điều kiện này hiển nhiên là cần thiết; ngược lại, nếu nó được thỏa mãn thì dạng tuyến tính $f \mapsto \sum_{\alpha \in A} \lambda_\alpha(f)$ trên $\mathscr{K}(X)$ là dương, do đó là một độ đo dương $\nu$ (Chương III, §1, No. 5, Định lý 1), và ta kiểm tra ngay lập tức rằng các tổng riêng hữu hạn của họ $(\lambda_\alpha)$ hội tụ mơ hồ đến $\nu$, theo bộ lọc tiết diện của tập hợp các tập con hữu hạn của A (GT, III, §5, No. 1, Định nghĩa 1).
 
-Vì mỗi phần tử của $\mathcal{K}(X)$ là hiệu của hai phần tử của $\mathcal{K}_+(X)$, họ $(\lambda_\alpha)$ khả tổng nếu và chỉ nếu
+Vì mỗi phần tử của $\mathscr{K}(X)$ là hiệu của hai phần tử của $\mathscr{K}_+(X)$, họ $(\lambda_\alpha)$ khả tổng nếu và chỉ nếu
 $$
 \sum_{\alpha \in A} \lambda_\alpha(f) < +\infty
 $$
 
-với mọi hàm $f \in \mathcal{K}_+(X)$. Điều kiện này cũng tương đương với điều sau đây:
+với mọi hàm $f \in \mathscr{K}_+(X)$. Điều kiện này cũng tương đương với điều sau đây:
 
 (2)
 $$
@@ -54,15 +54,15 @@ $$
 $$
 với mọi tập compact $K \subset X$.
 
-Thật vậy, (2) suy ra (1) vì $f \leq \|f\| \cdot \varphi_S$, trong đó S ký hiệu giá đỡ compact của $f$. Ngược lại, nếu K là một tập compact, tồn tại một hàm $f \in \mathcal{K}_+(X)$ sao cho $\varphi_K \leq f$ (Chương III, §1, No. 2, Bổ đề 1), và suy ra rằng (1) suy ra (2).
+Thật vậy, (2) suy ra (1) vì $f \leq \|f\| \cdot \varphi_S$, trong đó S ký hiệu giá đỡ compact của $f$. Ngược lại, nếu K là một tập compact, tồn tại một hàm $f \in \mathscr{K}_+(X)$ sao cho $\varphi_K \leq f$ (Chương III, §1, No. 2, Bổ đề 1), và suy ra rằng (1) suy ra (2).
 
 #### Nhận xét 1 {#int-v-s2-n1-rem-1 .statement}
 
-Ngay lập tức thấy rằng, khi họ $(\lambda_\alpha)_{\alpha \in A}$ khả tổng, tổng của nó là cận trên đúng trong $\mathcal{M}_+(X)$ của các tổng riêng hữu hạn $\sum_{\alpha \in J} \lambda_\alpha$, trong đó J chạy qua tập hợp các tập con hữu hạn của A.
+Ngay lập tức thấy rằng, khi họ $(\lambda_\alpha)_{\alpha \in A}$ khả tổng, tổng của nó là cận trên đúng trong $\mathscr{M}_+(X)$ của các tổng riêng hữu hạn $\sum_{\alpha \in J} \lambda_\alpha$, trong đó J chạy qua tập hợp các tập con hữu hạn của A.
 
 #### Nhận xét 2 {#int-v-s2-n1-rem-2 .statement}
 
-Cho $(\theta_\alpha)_{\alpha \in A}$ là một họ các độ đo phức trên X; họ $(\theta_\alpha)$ được gọi là *khả tổng* nếu họ $(|\theta_\alpha|)$ của các độ đo dương khả tổng; *điều này chưa đủ* để họ $(\theta_\alpha)$ khả tổng trong không gian vectơ $\mathcal{M}(X; \mathbf{C})$ được trang bị tôpô mơ hồ (xem Bài tập 3).
+Cho $(\theta_\alpha)_{\alpha \in A}$ là một họ các độ đo phức trên X; họ $(\theta_\alpha)$ được gọi là *khả tổng* nếu họ $(|\theta_\alpha|)$ của các độ đo dương khả tổng; *điều này chưa đủ* để họ $(\theta_\alpha)$ khả tổng trong không gian vectơ $\mathscr{M}(X; \mathbf{C})$ được trang bị tôpô mơ hồ (xem Bài tập 3).
 
 ### 2. Tích phân đối với một tổng của các độ đo dương
 
@@ -90,7 +90,7 @@ $$*
 
 #### Hệ quả 3 {#int-v-s2-prop-1-cor-3 .statement}
 
-— *Với mọi hàm $f \in \mathcal{F}_+(X)$,
+— *Với mọi hàm $f \in \mathscr{F}_+(X)$,
 $$
 \nu^*(f) \geq \sum_{\alpha \in A} \lambda_\alpha^*(f).
 $$*
@@ -125,7 +125,7 @@ $$
 \sum_{\alpha \in A} \left| \int f \, d\lambda_\alpha \right| \leq \sum_{\alpha \in A} \int |f| \, d\lambda_\alpha = \nu(|f|)
 $$
 
-suy ra rằng họ $(\int f \, d\lambda_\alpha)$ là khả tổng tuyệt đối trong $F$, và chuẩn của tổng không lớn hơn chuẩn của $f$ trong $\mathcal{L}_F^1(\nu)$. Tập hợp các $f \in \mathcal{L}_F^1(\nu)$ thỏa mãn (6) vì thế là một không gian con tuyến tính đóng $\mathcal{H}$ của $\mathcal{L}_F^1(\nu)$; mà không gian con này cũng trù mật trong $\mathcal{L}_F^1(\nu)$, vì nó chứa các hàm dạng $f \cdot a$, trong đó $a \in F$ và $f$ là một hàm dương hữu hạn khả tích (Mệnh đề 1). Do đó $\mathcal{H} = \mathcal{L}_F^1(\nu)$ và mệnh đề được chứng minh.
+suy ra rằng họ $(\int f \, d\lambda_\alpha)$ là khả tổng tuyệt đối trong $F$, và chuẩn của tổng không lớn hơn chuẩn của $f$ trong $\mathscr{L}_F^1(\nu)$. Tập hợp các $f \in \mathscr{L}_F^1(\nu)$ thỏa mãn (6) vì thế là một không gian con tuyến tính đóng $\mathscr{H}$ của $\mathscr{L}_F^1(\nu)$; mà không gian con này cũng trù mật trong $\mathscr{L}_F^1(\nu)$, vì nó chứa các hàm dạng $f \cdot a$, trong đó $a \in F$ và $f$ là một hàm dương hữu hạn khả tích (Mệnh đề 1). Do đó $\mathscr{H} = \mathscr{L}_F^1(\nu)$ và mệnh đề được chứng minh.
 
 Mệnh đề 3 cũng có thể được suy ra từ định lý tổng quát về tích phân sẽ được chứng minh ở §3 (No. 3, Định lý 1).
 
@@ -151,11 +151,11 @@ Nếu độ đo $\mu$ là điều độ, thì tập chỉ số $A$ có thể l�
 
 Xét một họ đếm được địa phương $(K_\alpha)_{\alpha \in A}$ gồm các phần tử của $\mathfrak{K}$ rời nhau từng đôi một sao cho tập $N = T - \bigcup_{\alpha \in A} K_\alpha$ là không đáng kể địa phương đối với $\mu$
 
-(Ch. IV, §5, No. 9, Mệnh đề 14). Với mọi hàm $f \in \mathcal{K}(T)$, đặt
+(Ch. IV, §5, No. 9, Mệnh đề 14). Với mọi hàm $f \in \mathscr{K}(T)$, đặt
 $$
 \mu_\alpha(f) = \mu(f \varphi_{K_\alpha});
 $$
-dạng tuyến tính $\mu_\alpha$ trên $\mathcal{K}(T)$ là dương, do đó là một độ đo dương, có giá đỡ được chứa trong $K_\alpha$. Vì mọi tập compact được chứa trong một phần tử của $\mathfrak{K}$ đều thuộc $\mathfrak{K}$, nên $\operatorname{Supp}(\mu_\alpha) \in \mathfrak{K}$ với mọi $\alpha \in A$. Chỉ còn phải chứng minh rằng họ $(\mu_\alpha)$ là khả tổng và tổng của nó bằng $\mu$, nói cách khác là $\sum_{\alpha \in A} \mu_\alpha(f) = \mu(f)$ với mọi hàm $f \in \mathcal{K}_+(T)$.
+dạng tuyến tính $\mu_\alpha$ trên $\mathscr{K}(T)$ là dương, do đó là một độ đo dương, có giá đỡ được chứa trong $K_\alpha$. Vì mọi tập compact được chứa trong một phần tử của $\mathfrak{K}$ đều thuộc $\mathfrak{K}$, nên $\operatorname{Supp}(\mu_\alpha) \in \mathfrak{K}$ với mọi $\alpha \in A$. Chỉ còn phải chứng minh rằng họ $(\mu_\alpha)$ là khả tổng và tổng của nó bằng $\mu$, nói cách khác là $\sum_{\alpha \in A} \mu_\alpha(f) = \mu(f)$ với mọi hàm $f \in \mathscr{K}_+(T)$.
 
 Bây giờ, cho $S$ là giá đỡ compact của $f$, và cho $A'$ là tập đếm được gồm các $\alpha \in A$ sao cho $S \cap K_\alpha \neq \varnothing$. Vì tập $N \cap S$ là $\mu$-không đáng kể,
 $$

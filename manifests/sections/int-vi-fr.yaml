@@ -13,7 +13,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 0a4f02a3b6f1d9995da99dd5626d56ea071b07faf1c10a984570fff8a8fe81c2
+          content_sha256: 8fb7614aec1813c076c6d6af013cc4aba4f687f88b6429056321c02802e3a5e3
         - kind: section
           section: 1
           title: Intégration des fonctions vectorielles
@@ -25,7 +25,7 @@ chapters:
           statements: 35
           exercises: 27
           extraction: ocr
-          content_sha256: e875835b71086305b795af62de8d4f95273600fe319d2453d7260646e5d6f838
+          content_sha256: d55f4195d875a1c7fd66041b392850d568cfb68b8ac7d8cce33be44871a48fd9
         - kind: section
           section: 2
           title: Mesures vectorielles
@@ -37,7 +37,7 @@ chapters:
           statements: 46
           exercises: 27
           extraction: ocr
-          content_sha256: 6115c6b42cd15322e6df990c8dffdb5b77d30ac5140483c4ff2eb60eed5ac5d3
+          content_sha256: 79adb1883829ed8929fa8d3578eb3f7622b278974684a9cd396b39478c3dec0e
         - kind: section
           section: 3
           title: Désintégration des mesures
@@ -49,7 +49,7 @@ chapters:
           statements: 17
           exercises: 12
           extraction: ocr
-          content_sha256: 8fd75dd04c8ca5ed1327b871869540bf7fe2281e088927c93cf81151bf6373a6
+          content_sha256: db73d159a8152a9f8f8a175a80666a41168df44398c643bcf83fb45125b75a78
         - kind: appendix
           title: Compléments sur les espaces vectoriels topologiques
           path: content/fr/int/VI/A_a_complements_sur_les_espaces_vectoriels.md
@@ -60,7 +60,7 @@ chapters:
           statements: 6
           exercises: 0
           extraction: ocr
-          content_sha256: fc4e5a9873ecd9d043f4e4ef61316cb2d7a3a32d9e81413132fba59d4389faf2
+          content_sha256: e96571d89064f38b59db9859d5e3e825e324fc8128b4b8b18452b0c599eb28c5
         - kind: historical
           title: Historical Note
           path: content/fr/int/VI/historical_note.md

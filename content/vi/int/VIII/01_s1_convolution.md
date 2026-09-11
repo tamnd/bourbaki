@@ -32,7 +32,7 @@ subsections:
       pdf_page: 107
 statements: 13
 exercises: 2
-content_sha256: cb6b2977fda309353086c6540cb32d0918179b3b278a864f6e28c7c002df78d0
+content_sha256: 870217599282e5e143dd30a183928a6c48d60513829864bbc0da3fd3087cb2c1
 translated_from: content/en/int/VIII/01_s1_convolution.md
 source_content_sha256: 05a5c461e581e8c2e10046aed639d554454123e90cb161ea1a5ac41500577113
 translation_model: gpt-5.4
@@ -70,7 +70,7 @@ $$
 (1) \quad \int f\ d(\mu_1 * \cdots * \mu_n) = \int f(\varphi(x_1, \ldots, x_n)) d\mu_1(x_1) \ldots d\mu_n(x_n),
 $$
 
-một công thức có thể được xem như *định nghĩa* của $\mu_1 * \cdots * \mu_n$ khi lấy $f \in \mathcal{K}(Y)$.
+một công thức có thể được xem như *định nghĩa* của $\mu_1 * \cdots * \mu_n$ khi lấy $f \in \mathscr{K}(Y)$.
 
 Các định nghĩa lập tức suy ra rằng các $\mu_i$ lấy tích chập được nếu và chỉ nếu các $|\mu_i|$ lấy tích chập được. Khi điều đó xảy ra,
 
@@ -131,7 +131,7 @@ Bổ đề sau đây hoàn chỉnh Mệnh đề 11 của Ch. V, §8, No. 5:²
 
 Với $1 \leq i \leq n$, gọi $X_i, Y_i$ là hai không gian compact địa phương, $\mu_i$ là một độ đo trên $X_i$, và $\varphi_i$ là một ánh xạ liên tục từ $X_i$ vào $Y_i$. Đặt $X = \prod_i X_i$, $Y = \prod_i Y_i$, $\mu = \bigotimes_i \mu_i$, và $\varphi$ là ánh xạ từ $X$ vào $Y$ bằng tích của các $\varphi_i$. Nếu $\varphi$ là $\mu$-thực sự và $\mu_i \neq 0$ với mọi $i$, thì các $\varphi_i$ là $\mu_i$-thực sự và $\varphi(\mu) = \bigotimes_i \varphi_i(\mu_i)$.
 
-Ta có thể giả sử rằng các $\mu_i$ là dương và $n = 2$. Cho $f_1 \in \mathcal{K}_+(Y_1)$. Vì $\mu_2 \neq 0$, tồn tại một $f_2 \in \mathcal{K}_+(Y_2)$ sao cho $f_2 \circ \varphi_2$ không phải là $\mu_2$-không đáng kể. Hàm $(x_1, x_2) \mapsto f_1(\varphi_1(x_1)) f_2(\varphi_2(x_2))$ hầu khắp khả tích đối với $\mu$ và liên tục, nên khả tích đối với $\mu$. Do đó tồn tại một $x_2 \in X_2$ sao cho $f_2(\varphi_2(x_2)) \neq 0$ và sao cho hàm $x_1 \mapsto f_1(\varphi_1(x_1)) f_2(\varphi_2(x_2))$ khả tích đối với $\mu_1$. Do đó $f_1 \circ \varphi_1$ khả tích đối với $\mu_1$,
+Ta có thể giả sử rằng các $\mu_i$ là dương và $n = 2$. Cho $f_1 \in \mathscr{K}_+(Y_1)$. Vì $\mu_2 \neq 0$, tồn tại một $f_2 \in \mathscr{K}_+(Y_2)$ sao cho $f_2 \circ \varphi_2$ không phải là $\mu_2$-không đáng kể. Hàm $(x_1, x_2) \mapsto f_1(\varphi_1(x_1)) f_2(\varphi_2(x_2))$ hầu khắp khả tích đối với $\mu$ và liên tục, nên khả tích đối với $\mu$. Do đó tồn tại một $x_2 \in X_2$ sao cho $f_2(\varphi_2(x_2)) \neq 0$ và sao cho hàm $x_1 \mapsto f_1(\varphi_1(x_1)) f_2(\varphi_2(x_2))$ khả tích đối với $\mu_1$. Do đó $f_1 \circ \varphi_1$ khả tích đối với $\mu_1$,
 
 ²Bổ đề này suy ra bằng quy nạp theo phần b) của Mệnh đề 11 đã dẫn, tức là trường hợp $n = 2$; kết quả tương ứng trong ấn bản thứ nhất của Ch. V (§8, No. 3, Mệnh đề 7) không bao gồm kết quả của phần b).
 
@@ -222,7 +222,7 @@ $$
 $$
 (\mu, \ldots, \mu_n) \mapsto *_{\varphi} (\mu_i)
 $$
-từ $\prod_{i=1}^n \mathcal{M}^1(X_i)$ vào $\mathcal{M}^1(Y)$ là một ánh xạ đa tuyến tính liên tục.
+từ $\prod_{i=1}^n \mathscr{M}^1(X_i)$ vào $\mathscr{M}^1(Y)$ là một ánh xạ đa tuyến tính liên tục.
 Điều này suy ra từ Mệnh đề 2 và những gì đã nói ở No. 1.
 
 ### 4. Các tính chất liên quan đến giá
@@ -251,13 +251,13 @@ b) *Nếu $\varphi$ liên tục và các $\mu_i$ là dương, thì giá của $*
 
 #### Mệnh đề 6 {#int-viii-s1-prop-6 .statement}
 
-*Cho $X, Y, Z$ là các không gian địa phương compact, $\varphi$ là một ánh xạ liên tục từ $X \times Y$ vào $Z$, và $\lambda, \mu$ là các độ đo trên $X, Y$. Để $\lambda$ và $\mu$ là $\varphi$-khả chập, điều kiện cần và đủ là ánh xạ $(x, y) \mapsto \varepsilon_{\varphi(x,y)} = \varepsilon_x * \varepsilon_y$ từ $X \times Y$ vào $\mathcal{M}(Z)$ là khả tích vô hướng đối với $(\lambda \otimes \mu)$ theo tôpô $\sigma(\mathcal{M}(Z), \mathcal{H}(Z))$, khi đó*
+*Cho $X, Y, Z$ là các không gian địa phương compact, $\varphi$ là một ánh xạ liên tục từ $X \times Y$ vào $Z$, và $\lambda, \mu$ là các độ đo trên $X, Y$. Để $\lambda$ và $\mu$ là $\varphi$-khả chập, điều kiện cần và đủ là ánh xạ $(x, y) \mapsto \varepsilon_{\varphi(x,y)} = \varepsilon_x * \varepsilon_y$ từ $X \times Y$ vào $\mathscr{M}(Z)$ là khả tích vô hướng đối với $(\lambda \otimes \mu)$ theo tôpô $\sigma(\mathscr{M}(Z), \mathscr{H}(Z))$, khi đó*
 
 $$
 \lambda * \mu = \int_{X \times Y} (\varepsilon_x * \varepsilon_y) \, d\lambda(x) \, d\mu(y).
 $$
 
-Nói rằng $\lambda$ và $\mu$ là $\varphi$-chập được có nghĩa là, với mọi $f \in \mathcal{H}(Z)$, $f \circ \varphi$ là $(\lambda \otimes \mu)$-khả tích, tức là, với mọi $f \in \mathcal{H}(Z)$ hàm $(x, y) \mapsto \langle f, \varepsilon_{\varphi(x,y)} \rangle$ là $(\lambda \otimes \mu)$-khả tích, hay lại nữa, ánh xạ $(x, y) \mapsto \varepsilon_{\varphi(x,y)}$ từ $X \times Y$ vào $\mathcal{M}(Z)$ là khả tích vô hướng theo $(\lambda \otimes \mu)$ đối với $\sigma(\mathcal{M}(Z), \mathcal{K}(Z))$. Nếu đúng như vậy, thì
+Nói rằng $\lambda$ và $\mu$ là $\varphi$-chập được có nghĩa là, với mọi $f \in \mathscr{H}(Z)$, $f \circ \varphi$ là $(\lambda \otimes \mu)$-khả tích, tức là, với mọi $f \in \mathscr{H}(Z)$ hàm $(x, y) \mapsto \langle f, \varepsilon_{\varphi(x,y)} \rangle$ là $(\lambda \otimes \mu)$-khả tích, hay lại nữa, ánh xạ $(x, y) \mapsto \varepsilon_{\varphi(x,y)}$ từ $X \times Y$ vào $\mathscr{M}(Z)$ là khả tích vô hướng theo $(\lambda \otimes \mu)$ đối với $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$. Nếu đúng như vậy, thì
 
 $$
 \langle \lambda * \mu, f \rangle = \int f(\varphi(x, y)) d\lambda(x) d\mu(y) = \int_{X \times Y} \langle \varepsilon_{\varphi(x,y)}, f \rangle d\lambda(x) d\mu(y),
@@ -267,15 +267,15 @@ do đó $\lambda * \mu = \int_{X \times Y} \varepsilon_{\varphi(x,y)} d\lambda(x
 
 #### Mệnh đề 7 {#int-viii-s1-prop-7 .statement}
 
-*Cho X, Y, Z là các không gian compact địa phương, $\varphi$ là một ánh xạ liên tục từ $X \times Y$ vào Z, và $\lambda, \mu$ là các độ đo trên X, Y. Giả sử rằng với mọi $x \in X$, $\varepsilon_x$ và $\mu$ là khả chập theo $\varphi$. Để $\lambda$ và $\mu$ là khả chập theo $\varphi$, điều kiện cần và đủ là ánh xạ $x \mapsto \varepsilon_x * |\mu|$ từ X vào $\mathcal{M}(Z)$ là khả tích vô hướng theo $\lambda$ đối với tôpô $\sigma(\mathcal{M}(Z), \mathcal{K}(Z))$, khi đó $\lambda * \mu = \int_X (\varepsilon_x * \mu) d\lambda(x)$.*
+*Cho X, Y, Z là các không gian compact địa phương, $\varphi$ là một ánh xạ liên tục từ $X \times Y$ vào Z, và $\lambda, \mu$ là các độ đo trên X, Y. Giả sử rằng với mọi $x \in X$, $\varepsilon_x$ và $\mu$ là khả chập theo $\varphi$. Để $\lambda$ và $\mu$ là khả chập theo $\varphi$, điều kiện cần và đủ là ánh xạ $x \mapsto \varepsilon_x * |\mu|$ từ X vào $\mathscr{M}(Z)$ là khả tích vô hướng theo $\lambda$ đối với tôpô $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$, khi đó $\lambda * \mu = \int_X (\varepsilon_x * \mu) d\lambda(x)$.*
 
-Giả sử rằng $\lambda$ và $\mu$ là $\varphi$-khả chập. Với mọi $f \in \mathcal{K}(Z)$, $f \circ \varphi$ là $(|\lambda| \otimes |\mu|)$-khả tích, do đó hàm $x \mapsto \int_Y f(\varphi(x, y)) d|\mu|(y) = \langle f, \varepsilon_x * |\mu| \rangle$ (mà theo giả thiết được xác định với mọi $x \in X$) là $\lambda$-khả tích; vì thế $x \mapsto \varepsilon_x * |\mu|$ là khả tích vô hướng theo $\lambda$ đối với $\sigma(\mathcal{M}(Z), \mathcal{K}(Z))$, và
+Giả sử rằng $\lambda$ và $\mu$ là $\varphi$-khả chập. Với mọi $f \in \mathscr{K}(Z)$, $f \circ \varphi$ là $(|\lambda| \otimes |\mu|)$-khả tích, do đó hàm $x \mapsto \int_Y f(\varphi(x, y)) d|\mu|(y) = \langle f, \varepsilon_x * |\mu| \rangle$ (mà theo giả thiết được xác định với mọi $x \in X$) là $\lambda$-khả tích; vì thế $x \mapsto \varepsilon_x * |\mu|$ là khả tích vô hướng theo $\lambda$ đối với $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$, và
 
 $$
 \langle f, \lambda * \mu \rangle = \int_X d\lambda(x) \int_Y f(\varphi(x, y)) d\mu(y) = \int_X \langle f, \varepsilon_x * \mu \rangle d\lambda(x),
 $$
 
-do đó $\lambda * \mu = \int_X (\varepsilon_x * \mu) d\lambda(x)$. Ngược lại, giả sử rằng ánh xạ $x \mapsto \varepsilon_x * |\mu|$ từ X vào $\mathcal{M}(Z)$ là khả tích vô hướng đối với $\lambda$ cho $\sigma(\mathcal{M}(Z), \mathcal{K}(Z))$. Cho $f \in \mathcal{K}_+(Z)$. Khi đó hàm $(x, y) \mapsto f(\varphi(x, y))$ là liên tục và (Ch. V, §8, No. 3, Prop. 5)
+do đó $\lambda * \mu = \int_X (\varepsilon_x * \mu) d\lambda(x)$. Ngược lại, giả sử rằng ánh xạ $x \mapsto \varepsilon_x * |\mu|$ từ X vào $\mathscr{M}(Z)$ là khả tích vô hướng đối với $\lambda$ cho $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$. Cho $f \in \mathscr{K}_+(Z)$. Khi đó hàm $(x, y) \mapsto f(\varphi(x, y))$ là liên tục và (Ch. V, §8, No. 3, Prop. 5)
 
 $$
 \iint^* f(\varphi(x, y)) d|\lambda|(x) d|\mu|(y) = \int^* d|\lambda|(x) \int^* f(\varphi(x, y)) d|\mu|(y)

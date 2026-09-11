@@ -32,7 +32,7 @@ subsections:
       pdf_page: 27
 statements: 17
 exercises: 14
-content_sha256: f6106a7d26b3aa6d095f3aaad6040d83cbf5ebb9ee23a9bb3951da7dd5cd0605
+content_sha256: 41f3b6987643f37bdc2c6a23700270920f02c1eebe2b660973de6966f49ad13b
 ---
 
 ## § 1. Espaces de Riesz et espaces complètement réticulés
@@ -128,7 +128,7 @@ Si A est un ensemble quelconque, l’espace $\mathbf{R}^A$ des fonctions numéri
 
 #### Exemple 2 {#int-ii-s1-n3-exa-2 .statement}
 
-Soit F un ensemble quelconque; l’espace $\mathcal{B}(F)$ des fonctions numériques bornées dans F, muni de la structure d’ordre induite par celle de $\mathbf{R}^F$, est complètement réticulé. Par contre, si F est un espace topologique, l’espace $\mathcal{C}(F)$ des fonctions numériques continues dans F (muni de la structure d’ordre induite par celle de $\mathbf{R}^F$) est un espace de Riesz qui en général n’est pas complètement réticulé (cf. exerc. 13). Considérons par exemple le cas où $F = \mathbf{R}$; soient I l’intervalle ]0, 1[, $\varphi_I$ la fonction caractéristique de I, et soit H l’ensemble des fonctions continues $x(t)$ telles que $x \leqslant \varphi_I$; il est clair que H est majoré dans $\mathcal{C}(F)$. La fonction $\varphi_I$ est l’enveloppe supérieure des $x \in H$, mais non leur borne supérieure dans $C(F)$, puisque $\varphi_1$ est semi-continue inférieurement et non continue. Montrons qu’en fait $H$ n’a pas de borne supérieure dans $C(F)$; il suffit de prouver que, si $u$ est une fonction continue telle que $u \geq \varphi_1$, il existe une fonction continue $v \neq u$ telle que $u \geq v \geq \varphi_1$. Or, on a $u(0) \geq 1$, donc il existe un nombre $\alpha > 0$ tel que $u(t) > 0$ pour $-\alpha \leq t \leq 0$; si $w$ est une fonction continue nulle hors de l’intervalle $]-\alpha, 0[$, et telle que $0 < w(t) < u(t)$ dans cet intervalle, la fonction $v = u - w$ répond à la question.
+Soit F un ensemble quelconque; l’espace $\mathscr{B}(F)$ des fonctions numériques bornées dans F, muni de la structure d’ordre induite par celle de $\mathbf{R}^F$, est complètement réticulé. Par contre, si F est un espace topologique, l’espace $\mathscr{C}(F)$ des fonctions numériques continues dans F (muni de la structure d’ordre induite par celle de $\mathbf{R}^F$) est un espace de Riesz qui en général n’est pas complètement réticulé (cf. exerc. 13). Considérons par exemple le cas où $F = \mathbf{R}$; soient I l’intervalle ]0, 1[, $\varphi_I$ la fonction caractéristique de I, et soit H l’ensemble des fonctions continues $x(t)$ telles que $x \leqslant \varphi_I$; il est clair que H est majoré dans $\mathscr{C}(F)$. La fonction $\varphi_I$ est l’enveloppe supérieure des $x \in H$, mais non leur borne supérieure dans $C(F)$, puisque $\varphi_1$ est semi-continue inférieurement et non continue. Montrons qu’en fait $H$ n’a pas de borne supérieure dans $C(F)$; il suffit de prouver que, si $u$ est une fonction continue telle que $u \geq \varphi_1$, il existe une fonction continue $v \neq u$ telle que $u \geq v \geq \varphi_1$. Or, on a $u(0) \geq 1$, donc il existe un nombre $\alpha > 0$ tel que $u(t) > 0$ pour $-\alpha \leq t \leq 0$; si $w$ est une fonction continue nulle hors de l’intervalle $]-\alpha, 0[$, et telle que $0 < w(t) < u(t)$ dans cet intervalle, la fonction $v = u - w$ répond à la question.
 
 #### Proposition 1 {#int-ii-s1-prop-1 .statement}
 
@@ -152,7 +152,7 @@ En effet, on sait que la limite du filtre des sections de $H$ est la borne supé
 
 Soient E un espace complètement réticulé, H un sous-espace vectoriel de E. La structure d’ordre induite sur H par celle de E est compatible avec la structure d’espace vectoriel de H, mais l’espace vectoriel ordonné H ainsi défini n’est pas nécessairement un espace complètement réticulé.
 
-De façon précise, il peut se faire que H ne soit pas un espace de Riesz (exerc. 2), ou que H soit un espace de Riesz non complètement réticulé : ce dernier cas est celui du sous-espace $\mathcal{C}(\mathbf{R})$ de l’espace $\mathcal{B}(\mathbf{R})$ (n° 3, exemple 2).
+De façon précise, il peut se faire que H ne soit pas un espace de Riesz (exerc. 2), ou que H soit un espace de Riesz non complètement réticulé : ce dernier cas est celui du sous-espace $\mathscr{C}(\mathbf{R})$ de l’espace $\mathscr{B}(\mathbf{R})$ (n° 3, exemple 2).
 
 En outre, lorsque H est un espace de Riesz (complètement réticulé ou non) il se peut que la borne supérieure dans H de deux éléments de H soit distincte de leur borne supérieure dans E (exerc. 3 b)). Enfin, il est possible que H soit complètement réticulé, que les bornes supérieures de toute partie finie de H soient les mêmes dans E et dans H, mais qu’il existe des parties infinies de H, majorées dans H, et dont les bornes supérieures dans E et dans H soient distinctes (exerc. 13 f)).
 
@@ -188,7 +188,7 @@ Dans l’espace $\mathbf{R}^A$ des fonctions numériques finies définies dans u
 
 #### Remarque {#int-ii-s1-n5-rem-1 .statement}
 
-Dans l’espace $\mathbf{R}^A$, le sous-espace $\mathcal{B}(A)$ des fonctions numériques bornées dans A satisfait à la condition 1) de la déf. 4; en outre, pour toute partie X de $\mathcal{B}(A)$ majorée dans $\mathcal{B}(A)$, l’enveloppe supérieure de X appartient à $\mathcal{B}(A)$. Mais, si A est infini, une partie de $\mathcal{B}(A)$ peut être majorée dans $\mathbf{R}^A$ sans être majorée dans $\mathcal{B}(A)$, et par suite $\mathcal{B}(A)$ n’est pas une bande dans $\mathbf{R}^A$.
+Dans l’espace $\mathbf{R}^A$, le sous-espace $\mathscr{B}(A)$ des fonctions numériques bornées dans A satisfait à la condition 1) de la déf. 4; en outre, pour toute partie X de $\mathscr{B}(A)$ majorée dans $\mathscr{B}(A)$, l’enveloppe supérieure de X appartient à $\mathscr{B}(A)$. Mais, si A est infini, une partie de $\mathscr{B}(A)$ peut être majorée dans $\mathbf{R}^A$ sans être majorée dans $\mathscr{B}(A)$, et par suite $\mathscr{B}(A)$ n’est pas une bande dans $\mathbf{R}^A$.
 
 Il résulte aussitôt de la déf. 4 que, si B est une bande dans E, pour toute partie non vide X de B, minorée dans E, inf X appartient à B. Toute bande B dans E, munie de la structure d’espace vectoriel ordonné induite par celle de E, est un espace complètement réticulé, et pour toute partie $X \subset B$, majorée dans B, la borne supérieure de X dans B est identique à sa borne supérieure dans E.
 

@@ -33,9 +33,9 @@ subsections:
       pdf_page: 205
 statements: 22
 exercises: 20
-content_sha256: 6209032a05ab518ef78fb4658479a6032307e8021d4385e9e8c5bac7d8913dcf
+content_sha256: a266f3611b2ef4a4ae382123f5b245b142e3fe9672c45a0f115c2a07b6cffe6a
 translated_from: content/en/int/IV/06_s6_convexity_inequalities.md
-source_content_sha256: 620a678b6145f9aecb2d7fa10cb1189bf44b0c751811b2152d367e638c2e239d
+source_content_sha256: e7543f369626f54b7975ca90acc1c06c4323ed604b1e0ef42f46355d0815b55d
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-d38441a8
 glossary_version: 34
@@ -123,9 +123,9 @@ Bỏ qua trường hợp tầm thường $\int g d|\mu| = 0$, bất đẳng th�
 
 #### Định nghĩa 2 {#int-iv-s6-def-2 .statement}
 
-*Với mọi ánh xạ $f$ của $X$ vào một không gian Banach $F$, đặt $N_\infty(f) = M_\infty(|f|)$; $f$ được gọi là bị chặn theo độ đo (đối với độ đo $\mu$) nếu $N_\infty(f)$ là hữu hạn. Tập hợp các ánh xạ của $X$ vào $F$ đo được và bị chặn theo độ đo được ký hiệu là $\mathcal{L}_F^\infty(X, \mu)$ (hoặc $\mathcal{L}_F^\infty(\mu)$, hoặc đơn giản là $\mathcal{L}_F^\infty$).*
+*Với mọi ánh xạ $f$ của $X$ vào một không gian Banach $F$, đặt $N_\infty(f) = M_\infty(|f|)$; $f$ được gọi là bị chặn theo độ đo (đối với độ đo $\mu$) nếu $N_\infty(f)$ là hữu hạn. Tập hợp các ánh xạ của $X$ vào $F$ đo được và bị chặn theo độ đo được ký hiệu là $\mathscr{L}_F^\infty(X, \mu)$ (hoặc $\mathscr{L}_F^\infty(\mu)$, hoặc đơn giản là $\mathscr{L}_F^\infty$).*
 
-Một hàm $f$ trong $\mathcal{L}_F^\infty$ do đó có thể được đặc trưng bởi việc tồn tại một hàm *bị chặn đo được* bằng $f$ địa phương hầu khắp nơi.
+Một hàm $f$ trong $\mathscr{L}_F^\infty$ do đó có thể được đặc trưng bởi việc tồn tại một hàm *bị chặn đo được* bằng $f$ địa phương hầu khắp nơi.
 
 Suy ra ngay lập tức từ (1) rằng
 
@@ -133,19 +133,19 @@ $$
 N_\infty(f + g) \leqslant N_\infty(f) + N_\infty(g);
 $$
 
-mặt khác, $N_\infty(\alpha f) = |\alpha| N_\infty(f)$ với mọi vô hướng $\alpha$. Tập hợp $\mathcal{L}_F^\infty$ do đó là một *không gian con tuyến tính* của không gian tất cả các ánh xạ từ $X$ vào $F$, và $N_\infty(f)$ là một nửa chuẩn trên không gian vectơ này. Cho $(f_n)$ là một dãy các hàm thuộc $\mathcal{L}_F^\infty$ hội tụ đến $f \in \mathcal{L}_F^\infty$ theo tôpô xác định bởi nửa chuẩn $N_\infty(f)$; với mọi số nguyên $m$, tồn tại một tập hợp không đáng kể địa phương $H_m$ và một số nguyên $n_0$ sao cho $|f(x) - f_n(x)| \leq 1/m$ với mọi số nguyên $n \geq n_0$ và mọi $x \notin H_m$ (mọi hợp đếm được của các tập hợp không đáng kể địa phương đều không đáng kể địa phương); hợp $H$ của các $H_m$ là không đáng kể địa phương, và ta thấy rằng $f_n(x)$ hội tụ *đều* đến $f(x)$ trên phần bù của tập hợp không đáng kể địa phương $H$; đảo lại là ngay lập tức.
+mặt khác, $N_\infty(\alpha f) = |\alpha| N_\infty(f)$ với mọi vô hướng $\alpha$. Tập hợp $\mathscr{L}_F^\infty$ do đó là một *không gian con tuyến tính* của không gian tất cả các ánh xạ từ $X$ vào $F$, và $N_\infty(f)$ là một nửa chuẩn trên không gian vectơ này. Cho $(f_n)$ là một dãy các hàm thuộc $\mathscr{L}_F^\infty$ hội tụ đến $f \in \mathscr{L}_F^\infty$ theo tôpô xác định bởi nửa chuẩn $N_\infty(f)$; với mọi số nguyên $m$, tồn tại một tập hợp không đáng kể địa phương $H_m$ và một số nguyên $n_0$ sao cho $|f(x) - f_n(x)| \leq 1/m$ với mọi số nguyên $n \geq n_0$ và mọi $x \notin H_m$ (mọi hợp đếm được của các tập hợp không đáng kể địa phương đều không đáng kể địa phương); hợp $H$ của các $H_m$ là không đáng kể địa phương, và ta thấy rằng $f_n(x)$ hội tụ *đều* đến $f(x)$ trên phần bù của tập hợp không đáng kể địa phương $H$; đảo lại là ngay lập tức.
 
-Rõ ràng rằng mọi hàm bằng địa phương hầu khắp nơi với một hàm thuộc $\mathcal{L}_F^\infty$ đều thuộc $\mathcal{L}_F^\infty$. Đặc biệt, các hàm *không đáng kể địa phương* xác định trên $X$ với giá trị trong $F$ tạo thành một không gian con tuyến tính $\mathcal{N}_F^\infty$ của $\mathcal{L}_F^\infty$, được đặc trưng bởi quan hệ $N_\infty(f) = 0$ (bao đóng của 0 đối với tôpô xác định bởi $N_\infty(f)$). Không gian Hausdorff liên kết với $\mathcal{L}_F^\infty$, nghĩa là không gian thương $\mathcal{L}_F^\infty / \mathcal{N}_F^\infty$, được ký hiệu là $L_F^\infty(X, \mu)$ (hoặc $L_F^\infty(\mu)$ hoặc $L_F^\infty$); tôpô của nó được xác định bởi chuẩn suy ra từ $N_\infty$ bằng phép chuyển qua thương; chuẩn của một lớp $\dot{f} \in L_F^\infty$ được ký hiệu là $N_\infty(\dot{f})$, hoặc cũng là $\| \dot{f} \|_\infty$. Khi $F = \mathbf{R}$ (tương ứng $\mathbf{C}$), ta viết $\mathcal{L}^\infty$ và $L^\infty$ thay cho $\mathcal{L}_\mathbf{R}^\infty$ và $L_\mathbf{R}^\infty$ (tương ứng $\mathcal{L}_\mathbf{C}^\infty$ và $L_\mathbf{C}^\infty$) nếu điều này không gây nhầm lẫn.
+Rõ ràng rằng mọi hàm bằng địa phương hầu khắp nơi với một hàm thuộc $\mathscr{L}_F^\infty$ đều thuộc $\mathscr{L}_F^\infty$. Đặc biệt, các hàm *không đáng kể địa phương* xác định trên $X$ với giá trị trong $F$ tạo thành một không gian con tuyến tính $\mathscr{N}_F^\infty$ của $\mathscr{L}_F^\infty$, được đặc trưng bởi quan hệ $N_\infty(f) = 0$ (bao đóng của 0 đối với tôpô xác định bởi $N_\infty(f)$). Không gian Hausdorff liên kết với $\mathscr{L}_F^\infty$, nghĩa là không gian thương $\mathscr{L}_F^\infty / \mathscr{N}_F^\infty$, được ký hiệu là $L_F^\infty(X, \mu)$ (hoặc $L_F^\infty(\mu)$ hoặc $L_F^\infty$); tôpô của nó được xác định bởi chuẩn suy ra từ $N_\infty$ bằng phép chuyển qua thương; chuẩn của một lớp $\dot{f} \in L_F^\infty$ được ký hiệu là $N_\infty(\dot{f})$, hoặc cũng là $\| \dot{f} \|_\infty$. Khi $F = \mathbf{R}$ (tương ứng $\mathbf{C}$), ta viết $\mathscr{L}^\infty$ và $L^\infty$ thay cho $\mathscr{L}_\mathbf{R}^\infty$ và $L_\mathbf{R}^\infty$ (tương ứng $\mathscr{L}_\mathbf{C}^\infty$ và $L_\mathbf{C}^\infty$) nếu điều này không gây nhầm lẫn.
 
 #### Mệnh đề 2 {#int-iv-s6-prop-2 .statement}
 
-*Không gian* $\mathcal{L}_F^\infty$ *là đầy đủ; không gian* $L_F^\infty$ *là một không gian Banach*.
+*Không gian* $\mathscr{L}_F^\infty$ *là đầy đủ; không gian* $L_F^\infty$ *là một không gian Banach*.
 
-Vì, xét $(f_n)$ là một dãy Cauchy trong $\mathcal{L}_F^\infty$; với mỗi số nguyên $n$, tồn tại một số nguyên $k_n$ sao cho $N_\infty(f_r - f_s) \leq 1/n$ với $r \geq k_n$ và $s \geq k_n$; do đó, tồn tại một tập hợp không đáng kể địa phương $A_{rs}$ sao cho $|f_r(x) - f_s(x)| \leq 1/n$ với mọi $x \notin A_{rs}$. Nếu $A_n$ là hợp của các tập hợp $A_{rs}$ (với $r \geq k_n$ và $s \geq k_n$), thì $A_n$ là không đáng kể địa phương và, với mọi $x \notin A_n$, $|f_r(x) - f_s(x)| \leq 1/n$ với mọi chỉ số $r \geq k_n, s \geq k_n$. Gọi $A$ là tập hợp không đáng kể địa phương được tạo thành bởi hợp của các $A_n$, và đặt $g_n(x) = f_n(x)$ với $x \notin A$, $g_n(x) = 0$ với $x \in A$; khi đó $g_n$ thuộc $\mathcal{L}_F^\infty$ và, theo định nghĩa của $A$, dãy $(g_n)$ hội tụ *đều* trên $X$ tới một hàm $g$. Suy ra rằng hàm $g$ là đo được (§ 5, No. 4, Th. 2); hơn nữa, $g$ bị chặn trên tập hợp các $x \in X$ mà $|g_{k_1}(x)| \leq N_\infty(g_{k_1})$ và, vì phần bù của tập hợp này là không đáng kể địa phương, $g$ thuộc $\mathcal{L}_F^\infty$. Hiển nhiên rằng trong $\mathcal{L}_F^\infty$, dãy $(g_n)$ có giới hạn $g$, và do đó điều tương tự cũng đúng với dãy $(f_n)$, vì $N_\infty(f_n - g_n) = 0$ với mọi $n$. Phần thứ hai của mệnh đề được suy ra ngay lập tức từ điều này.
+Vì, xét $(f_n)$ là một dãy Cauchy trong $\mathscr{L}_F^\infty$; với mỗi số nguyên $n$, tồn tại một số nguyên $k_n$ sao cho $N_\infty(f_r - f_s) \leq 1/n$ với $r \geq k_n$ và $s \geq k_n$; do đó, tồn tại một tập hợp không đáng kể địa phương $A_{rs}$ sao cho $|f_r(x) - f_s(x)| \leq 1/n$ với mọi $x \notin A_{rs}$. Nếu $A_n$ là hợp của các tập hợp $A_{rs}$ (với $r \geq k_n$ và $s \geq k_n$), thì $A_n$ là không đáng kể địa phương và, với mọi $x \notin A_n$, $|f_r(x) - f_s(x)| \leq 1/n$ với mọi chỉ số $r \geq k_n, s \geq k_n$. Gọi $A$ là tập hợp không đáng kể địa phương được tạo thành bởi hợp của các $A_n$, và đặt $g_n(x) = f_n(x)$ với $x \notin A$, $g_n(x) = 0$ với $x \in A$; khi đó $g_n$ thuộc $\mathscr{L}_F^\infty$ và, theo định nghĩa của $A$, dãy $(g_n)$ hội tụ *đều* trên $X$ tới một hàm $g$. Suy ra rằng hàm $g$ là đo được (§ 5, No. 4, Th. 2); hơn nữa, $g$ bị chặn trên tập hợp các $x \in X$ mà $|g_{k_1}(x)| \leq N_\infty(g_{k_1})$ và, vì phần bù của tập hợp này là không đáng kể địa phương, $g$ thuộc $\mathscr{L}_F^\infty$. Hiển nhiên rằng trong $\mathscr{L}_F^\infty$, dãy $(g_n)$ có giới hạn $g$, và do đó điều tương tự cũng đúng với dãy $(f_n)$, vì $N_\infty(f_n - g_n) = 0$ với mọi $n$. Phần thứ hai của mệnh đề được suy ra ngay lập tức từ điều này.
 
 #### Nhận xét {#int-iv-s6-n3-rem-1 .statement}
 
-— 1) Mọi hàm *liên tục bị chặn* $f$ trên $X$ với các giá trị trong $F$ đều thuộc $\mathcal{L}_F^\infty$, và
+— 1) Mọi hàm *liên tục bị chặn* $f$ trên $X$ với các giá trị trong $F$ đều thuộc $\mathscr{L}_F^\infty$, và
 
 $$
 N_\infty(f) \leq \| f \| = \sup_{x \in X} |f(x)| .
@@ -153,7 +153,7 @@ $$
 
 Để $N_\infty(f) = \|f\|$ đối với mọi hàm liên tục bị chặn $f$, điều kiện cần và đủ là giá của độ đo $\mu$ bằng $X$. Thật vậy, nếu tồn tại một hàm liên tục $f$ có giá compact không đáng kể và không đồng nhất bằng không, thì $N_\infty(f) = 0$ và $\|f\| > 0$. Ngược lại, nếu giá của $\mu$ bằng $X$ thì, đối với mọi hàm liên tục bị chặn $f$ và mọi số $\alpha < \|f\|$, tập hợp các $x \in X$ sao cho $|f(x)| > \alpha$ là mở và khác rỗng, do đó có độ đo ngoài $> 0$, điều này chứng tỏ rằng $N_\infty(f) = \|f\|$.
 
-Khi giá của $\mu$ bằng $X$, do đó ta có thể đồng nhất không gian định chuẩn $C^b(X; F)$, gồm các hàm liên tục bị chặn trên $X$ với giá trị trong $F$, với một không gian con của không gian $L_F^\infty$. Vì $L_F^\infty$ nói chung không Hausdorff, không gian con $C^b(X; F)$ nói chung không đóng trong $L_F^\infty$, nhưng ảnh chính tắc của nó trong $L_F^\infty$ là một không gian con đóng của $L_F^\infty$ (hơn nữa có thể đồng nhất với $C^b(X; F)$ trong trường hợp đang xét). Nói chung, $C^b(X; F)$ khác với $L_F^\infty$, nghĩa là, đối với một hàm đo được bị chặn tùy ý $f$, nói chung không tồn tại một hàm liên tục $g$ bằng $f$ địa phương hầu khắp nơi (§ 5, Bài tập 12). Điều này suy ra rằng không gian $\mathcal{H}(X; F)$ gồm các ánh xạ từ $X$ vào $F$, liên tục với giá compact, nói chung không trù mật trong $L_F^\infty$, trong khi nó trù mật trong mỗi không gian $L_F^p$ với $1 \leq p < +\infty$ (§ 3, No. 4. Định nghĩa 2).
+Khi giá của $\mu$ bằng $X$, do đó ta có thể đồng nhất không gian định chuẩn $C^b(X; F)$, gồm các hàm liên tục bị chặn trên $X$ với giá trị trong $F$, với một không gian con của không gian $L_F^\infty$. Vì $L_F^\infty$ nói chung không Hausdorff, không gian con $C^b(X; F)$ nói chung không đóng trong $L_F^\infty$, nhưng ảnh chính tắc của nó trong $L_F^\infty$ là một không gian con đóng của $L_F^\infty$ (hơn nữa có thể đồng nhất với $C^b(X; F)$ trong trường hợp đang xét). Nói chung, $C^b(X; F)$ khác với $L_F^\infty$, nghĩa là, đối với một hàm đo được bị chặn tùy ý $f$, nói chung không tồn tại một hàm liên tục $g$ bằng $f$ địa phương hầu khắp nơi (§ 5, Bài tập 12). Điều này suy ra rằng không gian $\mathscr{H}(X; F)$ gồm các ánh xạ từ $X$ vào $F$, liên tục với giá compact, nói chung không trù mật trong $L_F^\infty$, trong khi nó trù mật trong mỗi không gian $L_F^p$ với $1 \leq p < +\infty$ (§ 3, No. 4. Định nghĩa 2).
 
 2) Hiển nhiên rằng tôpô xác định bởi bán chuẩn $N_\infty$ mịn hơn tôpô cảm sinh trên $L_F^\infty$ bởi tôpô của sự hội tụ theo độ đo (§ 5, No. 11).
 
@@ -173,7 +173,7 @@ Gọi $f_1$ (tương ứng $g_1$) là một hàm trong $L^p$ (tương ứng $L^q
 
 #### Hệ quả 1 {#int-iv-s6-thm-2-cor-1 .statement}
 
-— Cho $F, G, H$ là ba không gian Banach, và cho $(u, v) \mapsto \Phi(u, v)$ là một ánh xạ song tuyến tính liên tục của $F \times G$ vào $H$ sao cho $|\Phi(u, v)| \leq |u| \cdot |v|$. Nếu $f \in \mathcal{L}_F^p$ và $g \in \mathcal{L}_G^q$, thì hàm $\Phi(f, g)$ là khả tích và
+— Cho $F, G, H$ là ba không gian Banach, và cho $(u, v) \mapsto \Phi(u, v)$ là một ánh xạ song tuyến tính liên tục của $F \times G$ vào $H$ sao cho $|\Phi(u, v)| \leq |u| \cdot |v|$. Nếu $f \in \mathscr{L}_F^p$ và $g \in \mathscr{L}_G^q$, thì hàm $\Phi(f, g)$ là khả tích và
 
 $$
 \left| \int \Phi(f, g)\, d\mu \right| \leq \int |\Phi(f, g)|\, d|\mu| \leq N_p(f) N_q(g).
@@ -185,7 +185,7 @@ Hai trường hợp đặc biệt của Hệ quả 1 có tầm quan trọng tron
 
 #### Hệ quả 2 {#int-iv-s6-thm-2-cor-2 .statement}
 
-— Cho $F$ là một không gian Banach thực (tương ứng phức), $F'$ là đối ngẫu mạnh của nó (TVS, III, § 3, No. 1), và cho $(z, z') \mapsto \langle z, z' \rangle$ là dạng song tuyến tính chính tắc trên $F \times F'$. Nếu $f \in \mathcal{L}_F^p$ và $g \in \mathcal{L}_{F'}^q$, thì hàm thực (tương ứng phức) $\langle f, g \rangle$ là khả tích và
+— Cho $F$ là một không gian Banach thực (tương ứng phức), $F'$ là đối ngẫu mạnh của nó (TVS, III, § 3, No. 1), và cho $(z, z') \mapsto \langle z, z' \rangle$ là dạng song tuyến tính chính tắc trên $F \times F'$. Nếu $f \in \mathscr{L}_F^p$ và $g \in \mathscr{L}_{F'}^q$, thì hàm thực (tương ứng phức) $\langle f, g \rangle$ là khả tích và
 
 $$
 \left| \int \langle f, g \rangle\, d\mu \right| \leq \int |\langle f, g \rangle|\, d|\mu| \leq N_p(f) N_q(g).
@@ -207,7 +207,7 @@ xác định một cấu trúc không gian Hilbert, mà đối với nó chuẩn
 
 #### Hệ quả 4 {#int-iv-s6-thm-2-cor-4 .statement}
 
-— Cho $F$ là một không gian Banach, $f$ là một hàm trong $\mathcal{L}_F^p$, và $g$ là một hàm số thuộc $\mathcal{L}^q$; khi đó, hàm $fg$ là khả tích và
+— Cho $F$ là một không gian Banach, $f$ là một hàm trong $\mathscr{L}_F^p$, và $g$ là một hàm số thuộc $\mathscr{L}^q$; khi đó, hàm $fg$ là khả tích và
 
 $$
 \left| \int fg\, d\mu \right| \leq \int |fg|\, d|\mu| \leq N_p(f) N_q(g).
@@ -230,21 +230,21 @@ Hệ quả 2 của Th. 2 được làm sắc hơn bởi mệnh đề sau:
 
 — Cho $\mu$ là một độ đo dương trên X, F là một không gian Banach thực hoặc phức, F' là đối ngẫu mạnh của nó, và $(z, z') \mapsto \langle z, z' \rangle$ là dạng song tuyến tính chính tắc trên $F \times F'$.
 
-1° Với mọi hàm $f \in \mathcal{L}_F^p$ ($1 \leq p \leq +\infty$),
+1° Với mọi hàm $f \in \mathscr{L}_F^p$ ($1 \leq p \leq +\infty$),
 
 $$
 N_p(f) = \sup \left| \int \langle f, g \rangle \, d\mu \right|
 $$
 
-khi g chạy qua tập hợp các hàm trong $\mathcal{L}_{F'}^q$, sao cho $N_q(g) \leq 1$.
+khi g chạy qua tập hợp các hàm trong $\mathscr{L}_{F'}^q$, sao cho $N_q(g) \leq 1$.
 
-2° Với mọi hàm $g \in \mathcal{L}_{F'}^q$ ($1 \leq q \leq +\infty$),
+2° Với mọi hàm $g \in \mathscr{L}_{F'}^q$ ($1 \leq q \leq +\infty$),
 
 $$
 N_q(g) = \sup \left| \int \langle f, g \rangle \, d\mu \right|
 $$
 
-khi f chạy qua tập hợp các hàm trong $\mathcal{L}_F^p$ sao cho $N_p(f) \leq 1$.
+khi f chạy qua tập hợp các hàm trong $\mathscr{L}_F^p$ sao cho $N_p(f) \leq 1$.
 
 Trước hết ta chứng minh quan hệ (9); ta phân biệt hai trường hợp.
 
@@ -264,7 +264,7 @@ $$
 
 điều này chứng minh quan hệ (9) trong trường hợp này.
 
-Ta chuyển sang trường hợp f là một phần tử bất kỳ của $\mathcal{L}_F^p$ sao cho $N_p(f) = 1$. Với mọi $\varepsilon > 0$, tồn tại một hàm bậc thang $f_1 \in \mathcal{L}_F^p$ sao cho $N_p(f - f_1) \leq \varepsilon$ (§ 4, No. 10, Hệ quả 1 của Mệnh đề 19). Theo điều vừa thấy, tồn tại một hàm $g \in \mathcal{L}_F^q$, sao cho $N_q(g) = 1$ và
+Ta chuyển sang trường hợp f là một phần tử bất kỳ của $\mathscr{L}_F^p$ sao cho $N_p(f) = 1$. Với mọi $\varepsilon > 0$, tồn tại một hàm bậc thang $f_1 \in \mathscr{L}_F^p$ sao cho $N_p(f - f_1) \leq \varepsilon$ (§ 4, No. 10, Hệ quả 1 của Mệnh đề 19). Theo điều vừa thấy, tồn tại một hàm $g \in \mathscr{L}_F^q$, sao cho $N_q(g) = 1$ và
 
 $$
 \int \langle f_1, g \rangle d\mu \geq N_p(f_1) - \varepsilon \geq 1 - 2\varepsilon.
@@ -320,10 +320,10 @@ Ta lập luận hoàn toàn theo cùng một cách để chứng minh quan hệ 
 
 #### Nhận xét {#int-iv-s6-n4-rem-1 .statement}
 
-— 1) Cho $\mathcal{E}$ là một không gian con tuyến tính trù mật của $\mathcal{L}_{F'}^q$; khi đó công thức (9) đúng khi $g$ chạy trên giao của $\mathcal{E}$ với tập hợp $B$ gồm các hàm trong $\mathcal{L}_{F'}^q$ sao cho $N_q(g) \leq 1$. Thật vậy, chỉ cần nhận xét rằng phần trong $\overset{\circ}{B}$ của $B$ là trù mật trong $B$ và rằng $\overset{\circ}{B} \cap \mathcal{E}$ là trù mật trong $\overset{\circ}{B}$, vì $\overset{\circ}{B}$ là mở. Nhận xét này áp dụng riêng cho tập hợp $\mathcal{E} = \mathcal{K}(X; F')$ gồm các hàm liên tục có giá compact (với các giá trị trong $F'$) khi $1 \leq q < +\infty$, nghĩa là, $1 < p \leq +\infty$. Nhưng trong trường hợp này, công thức (9) đúng khi $g$ chạy trên $B \cap \mathcal{K}(X; F')$, ngay cả với $p = 1$. Thật vậy, như trên, ta có thể hạn chế về trường hợp $f$ là một hàm bậc thang. Khi đó ta đã thấy rằng nếu $N_1(f) = 1$, thì với mọi $\varepsilon > 0$ tồn tại một hàm bậc thang $g \in \mathcal{L}_{F'}^\infty$ sao cho $|g(x)| \leq 1$ với mọi $x \in X$ và $|\int \langle f, g \rangle d\mu| \geq 1 - \varepsilon$. Tồn tại một số hữu hạn các tập hợp compact rời nhau từng đôi một $K_i$ sao cho $g$ có giá trị hằng $a'_i$ trên mỗi $K_i$ và sao cho, nếu $K$ là hợp của các $K_i$, thì $\int |f| \varphi_{\mathcal{C}_K} d\mu \leq \varepsilon$. Gọi $U_i$ là một lân cận của $K_i$ sao cho các tập hợp $U_i$ rời nhau từng đôi một, và gọi $h_i$ là một ánh xạ liên tục từ $X$ vào $[0, 1]$ có giá được chứa trong $U_i$ và bằng 1 trên $K_i$. Đặt $h = \sum a'_i h_i$, ta có $h(x) = g(x)$ trên $K$ và $|h(x)| \leq 1$ trên $X$, do đó
+— 1) Cho $\mathscr{E}$ là một không gian con tuyến tính trù mật của $\mathscr{L}_{F'}^q$; khi đó công thức (9) đúng khi $g$ chạy trên giao của $\mathscr{E}$ với tập hợp $B$ gồm các hàm trong $\mathscr{L}_{F'}^q$ sao cho $N_q(g) \leq 1$. Thật vậy, chỉ cần nhận xét rằng phần trong $\overset{\circ}{B}$ của $B$ là trù mật trong $B$ và rằng $\overset{\circ}{B} \cap \mathscr{E}$ là trù mật trong $\overset{\circ}{B}$, vì $\overset{\circ}{B}$ là mở. Nhận xét này áp dụng riêng cho tập hợp $\mathscr{E} = \mathscr{K}(X; F')$ gồm các hàm liên tục có giá compact (với các giá trị trong $F'$) khi $1 \leq q < +\infty$, nghĩa là, $1 < p \leq +\infty$. Nhưng trong trường hợp này, công thức (9) đúng khi $g$ chạy trên $B \cap \mathscr{K}(X; F')$, ngay cả với $p = 1$. Thật vậy, như trên, ta có thể hạn chế về trường hợp $f$ là một hàm bậc thang. Khi đó ta đã thấy rằng nếu $N_1(f) = 1$, thì với mọi $\varepsilon > 0$ tồn tại một hàm bậc thang $g \in \mathscr{L}_{F'}^\infty$ sao cho $|g(x)| \leq 1$ với mọi $x \in X$ và $|\int \langle f, g \rangle d\mu| \geq 1 - \varepsilon$. Tồn tại một số hữu hạn các tập hợp compact rời nhau từng đôi một $K_i$ sao cho $g$ có giá trị hằng $a'_i$ trên mỗi $K_i$ và sao cho, nếu $K$ là hợp của các $K_i$, thì $\int |f| \varphi_{\mathscr{C}_K} d\mu \leq \varepsilon$. Gọi $U_i$ là một lân cận của $K_i$ sao cho các tập hợp $U_i$ rời nhau từng đôi một, và gọi $h_i$ là một ánh xạ liên tục từ $X$ vào $[0, 1]$ có giá được chứa trong $U_i$ và bằng 1 trên $K_i$. Đặt $h = \sum a'_i h_i$, ta có $h(x) = g(x)$ trên $K$ và $|h(x)| \leq 1$ trên $X$, do đó
 
 $$
-\int |\langle f, h \rangle| \varphi_{\mathcal{C}_K} d\mu \leq \varepsilon
+\int |\langle f, h \rangle| \varphi_{\mathscr{C}_K} d\mu \leq \varepsilon
 $$
 
 và do đó $|\int \langle f, h \rangle d\mu| \geq 1 - 3\varepsilon$, điều này chứng minh mệnh đề của chúng ta. Các nhận xét tương tự có thể được đưa ra cho công thức (10).
@@ -334,7 +334,7 @@ $$
 (11) \quad N_p(f) = \sup \int^* |fg| d\mu,
 $$
 
-khi $g$ chạy qua tập hợp các hàm trong $\mathcal{H}(X; \mathbf{R})$ sao cho $N_q(g) \leq 1$. Thật vậy, công thức (11) là một trường hợp đặc biệt của (9) khi $N_p(f) < +\infty$, vì khi đó $f$ tương đương với một hàm trong $\mathcal{L}^p$ (§ 5, No. 6, Định lý 5). Nếu $N_p(f) = +\infty$, với mọi số nguyên $n > 0$ đặt $f_n = \inf(n, f \varphi_{K_n})$. Khi đó
+khi $g$ chạy qua tập hợp các hàm trong $\mathscr{H}(X; \mathbf{R})$ sao cho $N_q(g) \leq 1$. Thật vậy, công thức (11) là một trường hợp đặc biệt của (9) khi $N_p(f) < +\infty$, vì khi đó $f$ tương đương với một hàm trong $\mathscr{L}^p$ (§ 5, No. 6, Định lý 5). Nếu $N_p(f) = +\infty$, với mọi số nguyên $n > 0$ đặt $f_n = \inf(n, f \varphi_{K_n})$. Khi đó
 
 $$
 N_p(f_n) = \sup \int^* |f_n g| d\mu \leq \sup \int^* |f g| d\mu,
@@ -344,7 +344,7 @@ do đó, khi chuyển qua giới hạn (giả sử, như ta có thể, rằng d�
 
 #### Hệ quả {#int-iv-s6-n4-cor-1 .statement}
 
-— *Cho $\mu$ là một độ đo dương trên $X$, $F$ là một không gian Banach, $F'$ là đối ngẫu mạnh của nó, và $g$ là một hàm bất kỳ trong $\mathcal{L}^q_{F'}$. Khi đó, dạng tuyến tính trên $L^p_F$, suy ra từ dạng tuyến tính $f \mapsto \int \langle f, g \rangle d\mu$ trên $\mathcal{L}^p_F$ bằng cách chuyển qua thương, là liên tục và có chuẩn $N_q(g)$.*
+— *Cho $\mu$ là một độ đo dương trên $X$, $F$ là một không gian Banach, $F'$ là đối ngẫu mạnh của nó, và $g$ là một hàm bất kỳ trong $\mathscr{L}^q_{F'}$. Khi đó, dạng tuyến tính trên $L^p_F$, suy ra từ dạng tuyến tính $f \mapsto \int \langle f, g \rangle d\mu$ trên $\mathscr{L}^p_F$ bằng cách chuyển qua thương, là liên tục và có chuẩn $N_q(g)$.*
 
 ### 5. Ứng dụng: các quan hệ giữa các không gian $L^p_F$ ($1 \leq p \leq +\infty$)
 
@@ -398,9 +398,9 @@ $$
 1 \leq r < p < s \leq +\infty,
 $$
 
-*thì giao* $\mathcal{L}_F^r \cap \mathcal{L}_F^s$ *được chứa trong* $\mathcal{L}_F^p$.
+*thì giao* $\mathscr{L}_F^r \cap \mathscr{L}_F^s$ *được chứa trong* $\mathscr{L}_F^p$.
 
-Nhận xét rằng nói chung các tôpô cảm sinh trên giao $\mathcal{L}_F^r \cap \mathcal{L}_F^s$ bởi các tôpô của các $\mathcal{L}_F^p$ ($r < p < s$) là *phân biệt*. Nếu không đặt thêm giả thiết nào về $\mu$, các tôpô cảm sinh trên $\mathcal{L}_F^r \cap \mathcal{L}_F^s$ bởi các tôpô của $\mathcal{L}_F^r$ và $\mathcal{L}_F^s$ nói chung không so sánh được (nói cách khác, tỉ số $N_r(f)/N_s(f)$ có thể nhận các giá trị lớn tùy ý và các giá trị nhỏ tùy ý trong $\mathcal{L}_F^r \cap \mathcal{L}_F^s$; cf. Exer. 8).
+Nhận xét rằng nói chung các tôpô cảm sinh trên giao $\mathscr{L}_F^r \cap \mathscr{L}_F^s$ bởi các tôpô của các $\mathscr{L}_F^p$ ($r < p < s$) là *phân biệt*. Nếu không đặt thêm giả thiết nào về $\mu$, các tôpô cảm sinh trên $\mathscr{L}_F^r \cap \mathscr{L}_F^s$ bởi các tôpô của $\mathscr{L}_F^r$ và $\mathscr{L}_F^s$ nói chung không so sánh được (nói cách khác, tỉ số $N_r(f)/N_s(f)$ có thể nhận các giá trị lớn tùy ý và các giá trị nhỏ tùy ý trong $\mathscr{L}_F^r \cap \mathscr{L}_F^s$; cf. Exer. 8).
 
 Mệnh đề 4 có thể được làm sắc hơn khi $\mu$ là một độ đo bị chặn:
 
@@ -412,7 +412,7 @@ Mệnh đề 4 có thể được làm sắc hơn khi $\mu$ là một độ đo 
 
 #### Hệ quả {#int-iv-s6-n5-cor-2 .statement}
 
-— Nếu độ đo $\mu$ bị chặn, quan hệ $r < s$ kéo theo $\mathcal{L}_F^s \subset \mathcal{L}_F^r$; hơn nữa, tôpô của sự hội tụ theo trung bình cấp $s$ mịn hơn tôpô của sự hội tụ theo trung bình cấp $r$ (trên $\mathcal{L}_F^s$).
+— Nếu độ đo $\mu$ bị chặn, quan hệ $r < s$ kéo theo $\mathscr{L}_F^s \subset \mathscr{L}_F^r$; hơn nữa, tôpô của sự hội tụ theo trung bình cấp $s$ mịn hơn tôpô của sự hội tụ theo trung bình cấp $r$ (trên $\mathscr{L}_F^s$).
 
 Có thể chỉ ra rằng nói chung tôpô của sự hội tụ theo trung bình cấp $s$ thực sự mịn hơn tôpô của sự hội tụ theo trung bình cấp $r$ (Exer. 8).
 
@@ -430,7 +430,7 @@ $$
 
 #### Hệ quả {#int-iv-s6-n5-cor-3 .statement}
 
-— Nếu $X$ là rời rạc và độ đo $\mu$ được xác định bởi một khối lượng $+1$ tại mỗi điểm của $X$, thì quan hệ $r < s$ kéo theo $\mathcal{L}_F^r \subset \mathcal{L}_F^s$; hơn nữa, tôpô của sự hội tụ theo trung bình cấp $r$ mịn hơn tôpô của sự hội tụ theo trung bình cấp $s$ (trên $\mathcal{L}_F^r$).
+— Nếu $X$ là rời rạc và độ đo $\mu$ được xác định bởi một khối lượng $+1$ tại mỗi điểm của $X$, thì quan hệ $r < s$ kéo theo $\mathscr{L}_F^r \subset \mathscr{L}_F^s$; hơn nữa, tôpô của sự hội tụ theo trung bình cấp $r$ mịn hơn tôpô của sự hội tụ theo trung bình cấp $s$ (trên $\mathscr{L}_F^r$).
 
 ### Bài tập {#int-iv-s6-exercises}
 

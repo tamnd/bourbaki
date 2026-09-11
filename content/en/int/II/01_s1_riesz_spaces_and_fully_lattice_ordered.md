@@ -32,7 +32,7 @@ subsections:
       pdf_page: 30
 statements: 16
 exercises: 12
-content_sha256: 32113a7d90414afcb3827cb2317f4b388db9fa35a79b7d1a5cb9dfa7b2c1ccfb
+content_sha256: 5b84a5a362e671bca452220788052e26f2c7aace50cb318625f81c1093f98e0e
 ---
 
 ## § 1. RIESZ SPACES AND FULLY LATTICE-ORDERED SPACES
@@ -160,7 +160,7 @@ It is immediate that in a fully lattice-ordered space E, every nonempty subset t
 
 — 1) If A is any set, the space $\mathbf{R}^A$ of real-valued functions defined on A is fully lattice-ordered, the supremum in $\mathbf{R}^A$ of a family that is bounded above being its *upper envelope* (GT, IV, §5, No. 5).
 
-2) Let F be any set; the space $\mathcal{B}(F)$ of *bounded* real-valued functions on F, equipped with the order structure induced by that of $\mathbf{R}^F$, is fully lattice-ordered. However, if F is a topological space, the space $\mathcal{C}(F)$ of *continuous* real-valued functions on F (equipped with the order structure induced by that of $\mathbf{R}^F$) is a Riesz space that is not in general fully lattice-ordered (cf. Exer. 13). Consider for example the case that $F = \mathbf{R}$; let I be the interval ]0, 1[, $\varphi_I$ the characteristic function of I, and let H be the set of continuous functions $x(t)$ such that $x \leq \varphi_I$; it is clear that H is bounded above in $\mathcal{C}(F)$. The function $\varphi_I$ is the *upper envelope* of the $x \in H$, but it is not their supremum in $\mathcal{C}(F)$, since $\varphi_I$ is lower semi-continuous but not continuous. Let us show that, in fact, H has no supremum in $\mathcal{C}(F)$; it suffices to prove that if $u$ is a continuous function such that $u \geq \varphi_I$, then there exists a continuous function $v \neq u$ such that $u \geq v \geq \varphi_I$. Now, $u(0) \geq 1$, therefore there exists a number $\alpha > 0$ such that $u(t) > 0$ for $-\alpha \leq t \leq 0$; if w is a continuous function that is zero outside of the interval ]$-\alpha, 0$ and is such that $0 < w(t) < u(t)$ on this interval, then the function $v = u - w$ meets the requirements.
+2) Let F be any set; the space $\mathscr{B}(F)$ of *bounded* real-valued functions on F, equipped with the order structure induced by that of $\mathbf{R}^F$, is fully lattice-ordered. However, if F is a topological space, the space $\mathscr{C}(F)$ of *continuous* real-valued functions on F (equipped with the order structure induced by that of $\mathbf{R}^F$) is a Riesz space that is not in general fully lattice-ordered (cf. Exer. 13). Consider for example the case that $F = \mathbf{R}$; let I be the interval ]0, 1[, $\varphi_I$ the characteristic function of I, and let H be the set of continuous functions $x(t)$ such that $x \leq \varphi_I$; it is clear that H is bounded above in $\mathscr{C}(F)$. The function $\varphi_I$ is the *upper envelope* of the $x \in H$, but it is not their supremum in $\mathscr{C}(F)$, since $\varphi_I$ is lower semi-continuous but not continuous. Let us show that, in fact, H has no supremum in $\mathscr{C}(F)$; it suffices to prove that if $u$ is a continuous function such that $u \geq \varphi_I$, then there exists a continuous function $v \neq u$ such that $u \geq v \geq \varphi_I$. Now, $u(0) \geq 1$, therefore there exists a number $\alpha > 0$ such that $u(t) > 0$ for $-\alpha \leq t \leq 0$; if w is a continuous function that is zero outside of the interval ]$-\alpha, 0$ and is such that $0 < w(t) < u(t)$ on this interval, then the function $v = u - w$ meets the requirements.
 
 #### Proposition 1 {#int-ii-s1-prop-1 .statement}
 
@@ -184,7 +184,7 @@ Indeed, one knows that the limit of the section filter of $H$ is the supremum of
 
 Let $E$ be a fully lattice-ordered space, $H$ a linear subspace of $E$. The order structure induced on $H$ by that of $E$ is compatible with the vector space structure of $H$, but the ordered vector space $H$ so defined *is not necessarily a fully lattice-ordered space*.
 
-More precisely, it can happen that $H$ is not a Riesz space (Exer. 2), or that $H$ is a Riesz space but is not fully lattice-ordered: the latter is the case for the subspace $\mathcal{C}(\mathbf{R})$ of the space $\mathcal{B}(\mathbf{R})$ (No. 3, Example 2).
+More precisely, it can happen that $H$ is not a Riesz space (Exer. 2), or that $H$ is a Riesz space but is not fully lattice-ordered: the latter is the case for the subspace $\mathscr{C}(\mathbf{R})$ of the space $\mathscr{B}(\mathbf{R})$ (No. 3, Example 2).
 
 Moreover, if $H$ is a Riesz space (fully lattice-ordered or not) it can happen that the supremum *in* $H$ of two elements of $H$ is different from their supremum *in* $E$ (Exer. 3 *b*). Finally, it can happen that $H$ is fully lattice-ordered, that the supremum of each *finite* subset of $H$ is the same in $E$ and in $H$, but that there exist *infinite* subsets of $H$, bounded above in $H$, for which the suprema in $E$ and $H$ are different (Exer. 13 *f*)).
 
@@ -220,7 +220,7 @@ In the space $\mathbf{R}^A$ of real-valued functions defined on a set $A$, the s
 
 #### Remark {#int-ii-s1-n5-rem-1 .statement}
 
-In the space $\mathbf{R}^A$, the subspace $\mathcal{B}(A)$ of bounded real-valued functions on $A$ satisfies condition 1) of Def. 4; moreover, for every subset $X$ of $\mathcal{B}(A)$ that is bounded above *in* $\mathcal{B}(A)$, the upper envelope of $X$ belongs to $\mathcal{B}(A)$. However, if $A$ is infinite, a subset of $\mathcal{B}(A)$ may be *bounded above in* $\mathbf{R}^A$ *without being bounded above in* $\mathcal{B}(A)$, in which case $\mathcal{B}(A)$ is not a band in $\mathbf{R}^A$.
+In the space $\mathbf{R}^A$, the subspace $\mathscr{B}(A)$ of bounded real-valued functions on $A$ satisfies condition 1) of Def. 4; moreover, for every subset $X$ of $\mathscr{B}(A)$ that is bounded above *in* $\mathscr{B}(A)$, the upper envelope of $X$ belongs to $\mathscr{B}(A)$. However, if $A$ is infinite, a subset of $\mathscr{B}(A)$ may be *bounded above in* $\mathbf{R}^A$ *without being bounded above in* $\mathscr{B}(A)$, in which case $\mathscr{B}(A)$ is not a band in $\mathbf{R}^A$.
 
 It follows at once from Def. 4 that if $B$ is a band in $E$ then, for every nonempty subset $X$ of $B$ that is bounded below in $E$, $\inf X$ belongs to $B$. Every band $B$ in $E$, equipped with the ordered vector space structure induced by that of $E$, is a fully lattice-ordered space and, for every subset $X \subset B$ that is bounded above in $B$, the supremum of $X$ in $B$ is identical with its supremum in $E$.
 

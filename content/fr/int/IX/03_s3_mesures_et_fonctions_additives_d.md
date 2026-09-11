@@ -24,7 +24,7 @@ subsections:
       pdf_page: 45
 statements: 17
 exercises: 18
-content_sha256: cca576ace558dd748b013c421254c019344178c098d8c7a5824321abf57249fa
+content_sha256: 2b49dcaef71fb3f438371ba20029bb431f78eee4a96532a8af4d576cd146b702
 ---
 
 ## § 3. Mesures et fonctions additives d'ensemble
@@ -71,21 +71,21 @@ $$
 J(K \cap S) + J(\complement K \cap S) = J(S).
 $$
 
-En considérant les restrictions de I à $\mathfrak{K}(S)$ et de J à $\mathfrak{P}(S)$, on se ramène aussitôt au cas où $S = T$. Comme T est normal, K est l’intersection de la famille filtrante décroissante de ses voisinages compacts, et la condition 4) entraîne l’existence, pour tout $\varepsilon > 0$, d’un voisinage compact H de K tel que $I(H) \leq I(K) + \varepsilon$. Soit L l’adhérence de $T - H$; L est compact, on a $L \cap K = \varnothing$, et $H \cup L = T$, donc $l = I(H \cup L) \leq I(H) + I(L) \leq I(K) + I(L) + \varepsilon$ (condition 2)), d’où la relation $J(K) + J(\mathcal{C}K) \geq I(K) + I(L) \geq l - \varepsilon$. Comme $\varepsilon$ est arbitraire, on a $J(K) + J(\mathcal{C}K) = l$. Cela prouve la formule (2), ainsi que l’inclusion $\mathfrak{A}(T) \subset \Phi$.
+En considérant les restrictions de I à $\mathfrak{K}(S)$ et de J à $\mathfrak{P}(S)$, on se ramène aussitôt au cas où $S = T$. Comme T est normal, K est l’intersection de la famille filtrante décroissante de ses voisinages compacts, et la condition 4) entraîne l’existence, pour tout $\varepsilon > 0$, d’un voisinage compact H de K tel que $I(H) \leq I(K) + \varepsilon$. Soit L l’adhérence de $T - H$; L est compact, on a $L \cap K = \varnothing$, et $H \cup L = T$, donc $l = I(H \cup L) \leq I(H) + I(L) \leq I(K) + I(L) + \varepsilon$ (condition 2)), d’où la relation $J(K) + J(\mathscr{C}K) \geq I(K) + I(L) \geq l - \varepsilon$. Comme $\varepsilon$ est arbitraire, on a $J(K) + J(\mathscr{C}K) = l$. Cela prouve la formule (2), ainsi que l’inclusion $\mathfrak{A}(T) \subset \Phi$.
 
 Prouvons maintenant que $\Phi$ est un clan. Comme $\Phi$ est évidemment stable par passage au complémentaire, il suffit de montrer que si $A_1$ et $A_2$ désignent des éléments de $\Phi$, on a $A_1 \cup A_2 \in \Phi$, ou encore que l’on a
 
 $$
-J(A_1 \cup A_2) + J(\mathcal{C}(A_1 \cup A_2)) \geq l.
+J(A_1 \cup A_2) + J(\mathscr{C}(A_1 \cup A_2)) \geq l.
 $$
 
-Désignons par $\varepsilon$ un nombre $> 0$, et, pour $i = 1, 2$, soient $K_i$ un compact contenu dans $A_i$, $L_i$ un compact contenu dans $\mathcal{C}A_i$, tels que
+Désignons par $\varepsilon$ un nombre $> 0$, et, pour $i = 1, 2$, soient $K_i$ un compact contenu dans $A_i$, $L_i$ un compact contenu dans $\mathscr{C}A_i$, tels que
 
 $$
-I(K_i) \geq J(A_i) - \varepsilon, \quad I(L_i) \geq J(\mathcal{C}A_i) - \varepsilon.
+I(K_i) \geq J(A_i) - \varepsilon, \quad I(L_i) \geq J(\mathscr{C}A_i) - \varepsilon.
 $$
 
-Posons $M_1 = K_1 \cup L_1$; les relations $l = J(M_1) + J(\mathcal{C}M_1)$, $J(M_1) = I(K_1) + I(L_1) \geq J(A_1) + J(\mathcal{C}A_1) - 2\varepsilon = l - 2\varepsilon$, entraînent $J(\mathcal{C}M_1) \leq 2\varepsilon$. Alors, si $S$ est une partie compacte de $T$, la relation (2) (appliquée à $K = M_1$) entraîne $J(S) \leq J(M_1 \cap S) + 2\varepsilon$, d’où
+Posons $M_1 = K_1 \cup L_1$; les relations $l = J(M_1) + J(\mathscr{C}M_1)$, $J(M_1) = I(K_1) + I(L_1) \geq J(A_1) + J(\mathscr{C}A_1) - 2\varepsilon = l - 2\varepsilon$, entraînent $J(\mathscr{C}M_1) \leq 2\varepsilon$. Alors, si $S$ est une partie compacte de $T$, la relation (2) (appliquée à $K = M_1$) entraîne $J(S) \leq J(M_1 \cap S) + 2\varepsilon$, d’où
 
 $$
 J(S) \leq J(K_1 \cap S) + J(L_1 \cap S) + 2\varepsilon.
@@ -95,12 +95,12 @@ Ajoutons les inégalités obtenues en faisant $S = K_2$ et $S = L_2$ et tenons c
 
 $$
 l - 2\varepsilon \leq J(K_2) + J(L_2) \leq J(C) + J(L_1 \cap L_2) + 4\varepsilon \\
-\leq J(A_1 \cup A_2) + J(\mathcal{C}(A_1 \cup A_2)) + 4\varepsilon
+\leq J(A_1 \cup A_2) + J(\mathscr{C}(A_1 \cup A_2)) + 4\varepsilon
 $$
 
 d’où aussitôt la formule (3) cherchée vu l’arbitraire de $\varepsilon$. Ceci étant acquis, les inégalités précédentes entraînent $J(C) \geq J(A_1 \cup A_2) - 6\varepsilon$; si $A_1$ et $A_2$ sont disjoints, $C$ est réunion de $K_1 \cap L_2 \subset A_1$ et de $K_2 \cap L_1 \subset A_2$, et on en déduit $J(A_1 \cup A_2) \leq J(A_1) + J(A_2)$. L’inégalité inverse étant évidente, $J$ est bien additive sur $\Phi$, et le lemme est établi.
 
-Achevons la démonstration du théorème dans le cas où $T$ est compact. Soit $\mathscr{E}(\Phi)$ l’espace vectoriel des fonctions $\Phi$-étagées sur $T$ muni de la convergence uniforme (chap. IV, 2e éd., § 4, n° 9, déf. 4); nous désignerons encore par $J$ la forme linéaire positive sur $\mathscr{E}(\Phi)$ associée à la fonction additive $J$ (loc. cit., prop. 18). Comme $J(T) = l$, $J$ est continue et de norme $l$. Soit alors $\mathcal{H}$ l’adhérence de $\mathscr{E}(\Phi)$ pour la topologie de la convergence uniforme; on vérifie aussitôt que $J$ se prolonge par continuité en une forme linéaire *positive* sur $\mathcal{H}$, encore notée $J$. Comme $\mathcal{H}$ contient $\mathcal{C}(T)$ (loc. cit., n° 10, prop. 19) la restriction de $J$ à $\mathcal{C}(T)$ est une mesure positive $\mu$. Il nous reste à montrer que l’on a $\mu^\bullet(K) = I(K)$ pour toute partie compacte $K$ de $T$. Or nous avons $\mu^\bullet(K) = \inf_{f \in S_K} \mu^\bullet(f)$, où $S_K$ désigne l’ensemble des éléments de $\mathcal{C}(T)$ qui majorent $\varphi_K$ (§ 1, n° 6, prop. 5). Comme $J(f) = \mu^\bullet(f)$ pour $f \in \mathcal{C}(T)$, il suffit évidemment de montrer que $J(K) \geq \inf_{f \in S_K} J(f)$. Or soit $H$, comme dans la démonstration du lemme 1, un voisinage compact de K tel que $J(H) \leq J(K) + \varepsilon$, et soit $f$ une fonction continue dans T, comprise entre 0 et 1, égale à 1 sur K et à 0 hors de H (*Top. gén.*, chap. IX, 3e éd., § 4, n° 1, prop. 1). On a
+Achevons la démonstration du théorème dans le cas où $T$ est compact. Soit $\mathscr{E}(\Phi)$ l’espace vectoriel des fonctions $\Phi$-étagées sur $T$ muni de la convergence uniforme (chap. IV, 2e éd., § 4, n° 9, déf. 4); nous désignerons encore par $J$ la forme linéaire positive sur $\mathscr{E}(\Phi)$ associée à la fonction additive $J$ (loc. cit., prop. 18). Comme $J(T) = l$, $J$ est continue et de norme $l$. Soit alors $\mathscr{H}$ l’adhérence de $\mathscr{E}(\Phi)$ pour la topologie de la convergence uniforme; on vérifie aussitôt que $J$ se prolonge par continuité en une forme linéaire *positive* sur $\mathscr{H}$, encore notée $J$. Comme $\mathscr{H}$ contient $\mathscr{C}(T)$ (loc. cit., n° 10, prop. 19) la restriction de $J$ à $\mathscr{C}(T)$ est une mesure positive $\mu$. Il nous reste à montrer que l’on a $\mu^\bullet(K) = I(K)$ pour toute partie compacte $K$ de $T$. Or nous avons $\mu^\bullet(K) = \inf_{f \in S_K} \mu^\bullet(f)$, où $S_K$ désigne l’ensemble des éléments de $\mathscr{C}(T)$ qui majorent $\varphi_K$ (§ 1, n° 6, prop. 5). Comme $J(f) = \mu^\bullet(f)$ pour $f \in \mathscr{C}(T)$, il suffit évidemment de montrer que $J(K) \geq \inf_{f \in S_K} J(f)$. Or soit $H$, comme dans la démonstration du lemme 1, un voisinage compact de K tel que $J(H) \leq J(K) + \varepsilon$, et soit $f$ une fonction continue dans T, comprise entre 0 et 1, égale à 1 sur K et à 0 hors de H (*Top. gén.*, chap. IX, 3e éd., § 4, n° 1, prop. 1). On a
 $$
 J(f) \leq J(H) \leq J(K) + \varepsilon;
 $$
@@ -136,13 +136,13 @@ pour toute mesure $\mu$, en vertu de la relation $\varphi_{K \cup L} + \varphi_{
 
 #### Définition 1 {#int-ix-s3-def-1 .statement}
 
-*Soit T un espace topologique, et soit $\mathcal{B}(T)$ la tribu borélienne de T; soit I une application de $\mathcal{B}(T)$ dans $\overline{\mathbf{R}}_+$.
-a) On dit que I est dénombrablement additive si, pour toute suite $(A_n)$ d’éléments de $\mathcal{B}(T)$ deux à deux disjoints, on a*
+*Soit T un espace topologique, et soit $\mathscr{B}(T)$ la tribu borélienne de T; soit I une application de $\mathscr{B}(T)$ dans $\overline{\mathbf{R}}_+$.
+a) On dit que I est dénombrablement additive si, pour toute suite $(A_n)$ d’éléments de $\mathscr{B}(T)$ deux à deux disjoints, on a*
 $$
 I(\bigcup_n A_n) = \sum_n I(A_n).
 $$
 
-b) On dit que I est intérieurement régulière si, pour tout ensemble $A \in \mathcal{B}(T)$, on a
+b) On dit que I est intérieurement régulière si, pour tout ensemble $A \in \mathscr{B}(T)$, on a
 $$
 (5) \quad I(A) = \sup_K I(K),
 $$
@@ -152,7 +152,7 @@ c) On dit que I est bornée (resp. localement bornée) si $I(T) < +\infty$ (resp
 
 #### Remarque 1 {#int-ix-s3-n2-rem-1 .statement}
 
-La condition a) entraîne évidemment que I est une application croissante de $\mathcal{B}(T)$ (ordonné par inclusion) dans $\overline{\mathbf{R}}_+$.
+La condition a) entraîne évidemment que I est une application croissante de $\mathscr{B}(T)$ (ordonné par inclusion) dans $\overline{\mathbf{R}}_+$.
 
 #### Remarque 2 {#int-ix-s3-n2-rem-2 .statement}
 
@@ -176,9 +176,9 @@ On peut montrer que si I est additive, c’est-à-dire satisfait à (4) pour les
 
 #### Théorème 2 {#int-ix-s3-thm-2 .statement}
 
-Soit T un espace topologique, et soit I une fonction définie sur $\mathcal{B}(T)$, à valeurs dans $\overline{\mathbf{R}}_+$. Pour qu’il existe une mesure $\mu$ sur T, telle que $\mu^*(A) = I(A)$ pour tout $A \in \mathcal{B}(T)$, il faut et il suffit que I soit dénombrablement additive, localement bornée et intérieurement régulière. La mesure $\mu$ est alors unique.
+Soit T un espace topologique, et soit I une fonction définie sur $\mathscr{B}(T)$, à valeurs dans $\overline{\mathbf{R}}_+$. Pour qu’il existe une mesure $\mu$ sur T, telle que $\mu^*(A) = I(A)$ pour tout $A \in \mathscr{B}(T)$, il faut et il suffit que I soit dénombrablement additive, localement bornée et intérieurement régulière. La mesure $\mu$ est alors unique.
 
-Ces trois conditions sont nécessaires : l’application $A \mapsto \mu^*(A)$ sur $\mathcal{B}(T)$ est en effet dénombrablement additive (§ 1, n° 5, cor. de la prop. 4), localement bornée d’après la définition des mesures (§ 1, n° 2, déf. 5) et intérieurement régulière d’après la Remarque 3 du § 1, n° 2.
+Ces trois conditions sont nécessaires : l’application $A \mapsto \mu^*(A)$ sur $\mathscr{B}(T)$ est en effet dénombrablement additive (§ 1, n° 5, cor. de la prop. 4), localement bornée d’après la définition des mesures (§ 1, n° 2, déf. 5) et intérieurement régulière d’après la Remarque 3 du § 1, n° 2.
 
 Passons à l’existence. Il est clair que la restriction de I à $\mathfrak{A}(T)$ satisfait aux conditions 1), 2), 3) et 5) de l’énoncé du th. 1; montrons que 4) est également satisfaite. Soit K une partie compacte de T, intersection d’une famille filtrante décroissante $(K_\alpha)_{\alpha \in A}$ d’ensembles compacts, et soit $\varepsilon$ un nombre $> 0$; I étant localement bornée, il existe un voisinage ouvert (donc borélien) V de K tel que $I(V) < +\infty$, et il existe alors un indice $\alpha$ tel que $K_\alpha \subset V$; quitte à changer de notation, nous pouvons supposer que $K_\alpha \subset V$ pour tout $\alpha \in A$. D’après la régularité intérieure de I, il existe un ensemble compact $L \subset V - K$ tel que
 
@@ -200,7 +200,7 @@ Il existe des espaces radoniens qui ne sont pas fortement radoniens.
 
 Tout espace de Lindelöf (1) radonien est fortement radonien.
 
-Soit T un espace de Lindelöf radonien, et soit I une fonction d’ensemble, positive, dénombrablement additive et localement bornée, sur la tribu 𝔽(T). Les ensembles ouverts V tels que I(V) < +∞ forment un recouvrement de T, dont on peut extraire un recouvrement dénombrable $(V_n)_{n \in \mathbf{N}}$. Posons $G_n = V_0 \cup V_1 \cup \ldots \cup V_n$ pour tout $n \in \mathbf{N}$; posons $H_0 = G_0$ et $H_n = G_n - G_{n-1}$ pour $n \geq 1$; désignons enfin par $I_n$ la fonction d’ensemble $A \mapsto I(A \cap H_n)$ sur 𝔽(T), qui est évidemment dénombrablement additive et bornée. Les ensembles $H_n$ formant une partition de T, on a $I = \sum_n I_n$. L’espace T étant radonien, il existe pour chaque $n \in \mathbf{N}$ une mesure bornée $\mu_n$ sur T telle qu’on ait $\mu_n^•(A) = I_n(A)$ pour tout $A \in \mathcal{B}(T)$; on a donc aussi $\sum_n \mu_n^•(A) = I(A)$. Comme I est localement bornée, la famille $(\mu_n)$ est sommable (§ 1, n° 7, prop. 7); si $μ$ désigne $\sum_n \mu_n$, on a $μ^•(A) = I(A)$ pour tout $A \in \mathcal{B}(T)$, et il en résulte que I est intérieurement régulière. Autrement dit, T est fortement radonien.
+Soit T un espace de Lindelöf radonien, et soit I une fonction d’ensemble, positive, dénombrablement additive et localement bornée, sur la tribu 𝔽(T). Les ensembles ouverts V tels que I(V) < +∞ forment un recouvrement de T, dont on peut extraire un recouvrement dénombrable $(V_n)_{n \in \mathbf{N}}$. Posons $G_n = V_0 \cup V_1 \cup \ldots \cup V_n$ pour tout $n \in \mathbf{N}$; posons $H_0 = G_0$ et $H_n = G_n - G_{n-1}$ pour $n \geq 1$; désignons enfin par $I_n$ la fonction d’ensemble $A \mapsto I(A \cap H_n)$ sur 𝔽(T), qui est évidemment dénombrablement additive et bornée. Les ensembles $H_n$ formant une partition de T, on a $I = \sum_n I_n$. L’espace T étant radonien, il existe pour chaque $n \in \mathbf{N}$ une mesure bornée $\mu_n$ sur T telle qu’on ait $\mu_n^•(A) = I_n(A)$ pour tout $A \in \mathscr{B}(T)$; on a donc aussi $\sum_n \mu_n^•(A) = I(A)$. Comme I est localement bornée, la famille $(\mu_n)$ est sommable (§ 1, n° 7, prop. 7); si $μ$ désigne $\sum_n \mu_n$, on a $μ^•(A) = I(A)$ pour tout $A \in \mathscr{B}(T)$, et il en résulte que I est intérieurement régulière. Autrement dit, T est fortement radonien.
 
 Rappelons qu’une partie A d’un espace topologique T est dite universellement mesurable si A est $μ$-mesurable pour toute mesure $μ$ sur T. Cela revient à dire que A est $μ$-mesurable pour toute mesure $μ$ sur T à support compact (§ 1, n° 8, prop. 9).
 
@@ -210,19 +210,19 @@ Rappelons qu’une partie A d’un espace topologique T est dite universellement
 
 Soient $X$ un espace topologique et $T$ un sous-espace de $X$.
 
-a) Supposons que $T$ soit radonien. Pour toute fonction $I$ définie sur $\mathcal{B}(X)$, positive, dénombrablement additive et bornée, on a alors
+a) Supposons que $T$ soit radonien. Pour toute fonction $I$ définie sur $\mathscr{B}(X)$, positive, dénombrablement additive et bornée, on a alors
 
 $$
-\sup_{\substack{K \text{ compact} \\ K \subset T}} I(K) = \inf_{\substack{B \in \mathcal{B}(X) \\ B \supset T}} I(B).
+\sup_{\substack{K \text{ compact} \\ K \subset T}} I(K) = \inf_{\substack{B \in \mathscr{B}(X) \\ B \supset T}} I(B).
 $$
 
 De plus, $T$ est universellement mesurable dans $X$.
 
 b) Inversement, supposons que $X$ soit radonien, et que $T$ soit universellement mesurable dans $X$; alors $T$ est radonien.
 
-Démontrons a). Désignons par $\alpha$ le second membre de (6); pour tout $n \in \mathbf{N}$, il existe un ensemble $C_n \in \mathcal{B}(X)$ contenant $T$, et tel que $I(C_n) \leq \alpha + 2^{-n}$. Si l’on pose $C = \bigcap_n C_n$, on a alors $T \subset C$, $I(C) = \alpha$. Si $A \in \mathcal{B}(T)$, choisissons une partie borélienne $B$ de $X$ telle que $A = B \cap T$ (*Top. gén.*, chap. IX, 3e éd., § 6, n° 3) et posons $J(A) = I(B \cap C)$. Ce nombre ne dépend pas du choix de $B$, car si $B'$ est un second ensemble, borélien dans $X$, tel que $A = B' \cap T$, alors $B \cap C$ et $B' \cap C$ ne diffèrent que par un ensemble borélien $M$ contenu dans $C - T$, et on a $I(M) = 0$ d’après la construction de $C$. On a évidemment $J(K) = I(K)$ pour tout ensemble compact $K \subset T$. Soit $(A_n)$ une suite de parties boréliennes de $T$, deux à deux disjointes, et, pour chaque $n$, soit $B_n$ une partie borélienne de $X$ telle que $B_n \cap T = A_n$. Quitte à remplacer $B_n$ par $B_n - (\bigcup_{k < n} B_k)$, on peut supposer que les ensembles $B_n$ sont deux à deux disjoints. Posons $A = \bigcup_n A_n$ et $B = \bigcup_n B_n$; on a $J(A) = I(B \cap C) = \sum_n I(B_n \cap C) = \sum_n J(A_n)$; $J$ est donc une fonction dénombrablement additive et bornée sur $\mathcal{B}(T)$. Comme $T$ est radonien par hypothèse, il existe une mesure bornée $\mu$ sur $T$ telle que $J(A) = \mu^*(A)$ pour tout $A \in \mathcal{B}(T)$; on a par conséquent $\alpha = J(T) = \mu^*(T) = \sup_K \mu^*(K) = \sup_K J(K)$, par définition de $\mu^*$. La formule (6) est donc établie.
+Démontrons a). Désignons par $\alpha$ le second membre de (6); pour tout $n \in \mathbf{N}$, il existe un ensemble $C_n \in \mathscr{B}(X)$ contenant $T$, et tel que $I(C_n) \leq \alpha + 2^{-n}$. Si l’on pose $C = \bigcap_n C_n$, on a alors $T \subset C$, $I(C) = \alpha$. Si $A \in \mathscr{B}(T)$, choisissons une partie borélienne $B$ de $X$ telle que $A = B \cap T$ (*Top. gén.*, chap. IX, 3e éd., § 6, n° 3) et posons $J(A) = I(B \cap C)$. Ce nombre ne dépend pas du choix de $B$, car si $B'$ est un second ensemble, borélien dans $X$, tel que $A = B' \cap T$, alors $B \cap C$ et $B' \cap C$ ne diffèrent que par un ensemble borélien $M$ contenu dans $C - T$, et on a $I(M) = 0$ d’après la construction de $C$. On a évidemment $J(K) = I(K)$ pour tout ensemble compact $K \subset T$. Soit $(A_n)$ une suite de parties boréliennes de $T$, deux à deux disjointes, et, pour chaque $n$, soit $B_n$ une partie borélienne de $X$ telle que $B_n \cap T = A_n$. Quitte à remplacer $B_n$ par $B_n - (\bigcup_{k < n} B_k)$, on peut supposer que les ensembles $B_n$ sont deux à deux disjoints. Posons $A = \bigcup_n A_n$ et $B = \bigcup_n B_n$; on a $J(A) = I(B \cap C) = \sum_n I(B_n \cap C) = \sum_n J(A_n)$; $J$ est donc une fonction dénombrablement additive et bornée sur $\mathscr{B}(T)$. Comme $T$ est radonien par hypothèse, il existe une mesure bornée $\mu$ sur $T$ telle que $J(A) = \mu^*(A)$ pour tout $A \in \mathscr{B}(T)$; on a par conséquent $\alpha = J(T) = \mu^*(T) = \sup_K \mu^*(K) = \sup_K J(K)$, par définition de $\mu^*$. La formule (6) est donc établie.
 
-Montrons que $T$ est universellement mesurable. Soit $\lambda$ une mesure bornée sur $X$; le raisonnement précédent s’applique à la fonction d’ensemble $I : A \mapsto \lambda^*(A)$ sur $\mathcal{B}(X)$, et il existe donc une suite $(K_n)$ de parties compactes de $T$ telles que l’on ait (avec les notations ci-dessus)
+Montrons que $T$ est universellement mesurable. Soit $\lambda$ une mesure bornée sur $X$; le raisonnement précédent s’applique à la fonction d’ensemble $I : A \mapsto \lambda^*(A)$ sur $\mathscr{B}(X)$, et il existe donc une suite $(K_n)$ de parties compactes de $T$ telles que l’on ait (avec les notations ci-dessus)
 
 $$
 \sup_n \lambda^*(K_n) = J(T) = \lambda^*(C).
@@ -230,7 +230,7 @@ $$
 
 Posons $K' = \bigcup_{n \in \mathbf{N}} K_n$; $K'$ est borélien dans $X$, on a $K' \subset T \subset C$, $\lambda^*(K') = \lambda^*(C)$, donc ces trois ensembles ne diffèrent que par des ensembles $\lambda$-négligeables, et $T$ est $\lambda$-mesurable. Cela achève la démonstration de a).
 
-Passons à b). Supposons que $X$ soit radonien, et que $T$ soit universellement mesurable dans $X$. Soit $I$ une fonction positive, dénombrablement additive et bornée sur $\mathcal{B}(T)$; la fonction $A \mapsto I(A \cap T)$ sur $\mathcal{B}(X)$ est alors positive, dénombrablement additive et bornée, et il existe donc une mesure bornée $\nu$ sur $X$ telle que $I(A \cap T) = v^*(A)$ pour tout $A \in \mathfrak{B}(X)$. Or $T$ est $v$-mesurable; la relation précédente montre que $v^*(K) = 0$ pour tout compact $K$ de $X$ disjoint de $T$, et $v$ est donc concentrée sur $T$. Par conséquent, pour tout ensemble borélien $A$ de $X$, on a $I(A \cap T) = v^*(A \cap T) = \mu^*(A \cap T)$, où $\mu$ est la mesure induite par $v$ sur $T$. Il en résulte enfin que $I(B) = \mu^*(B)$ pour tout ensemble $B \in \mathfrak{B}(T)$ (\emph{Top. gén.}, chap. IX, 3\textsuperscript{e} éd., § 6, no 3, *Remarque*), et $I$ est bien intérieurement régulière.
+Passons à b). Supposons que $X$ soit radonien, et que $T$ soit universellement mesurable dans $X$. Soit $I$ une fonction positive, dénombrablement additive et bornée sur $\mathscr{B}(T)$; la fonction $A \mapsto I(A \cap T)$ sur $\mathscr{B}(X)$ est alors positive, dénombrablement additive et bornée, et il existe donc une mesure bornée $\nu$ sur $X$ telle que $I(A \cap T) = v^*(A)$ pour tout $A \in \mathfrak{B}(X)$. Or $T$ est $v$-mesurable; la relation précédente montre que $v^*(K) = 0$ pour tout compact $K$ de $X$ disjoint de $T$, et $v$ est donc concentrée sur $T$. Par conséquent, pour tout ensemble borélien $A$ de $X$, on a $I(A \cap T) = v^*(A \cap T) = \mu^*(A \cap T)$, où $\mu$ est la mesure induite par $v$ sur $T$. Il en résulte enfin que $I(B) = \mu^*(B)$ pour tout ensemble $B \in \mathfrak{B}(T)$ (\emph{Top. gén.}, chap. IX, 3\textsuperscript{e} éd., § 6, no 3, *Remarque*), et $I$ est bien intérieurement régulière.
 
 #### Corollaire {#int-ix-s3-n3-cor-1 .statement}
 

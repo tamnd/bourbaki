@@ -20,14 +20,14 @@ subsections:
       pdf_page: 89
 statements: 20
 exercises: 11
-content_sha256: 6189a0d7c9b5aef26a832ec16a0af970d9fede5371f1842ab0d6e0ff6067922b
+content_sha256: a8504a3e0d4cbbf6c6eac7bc85a84601bf73ecf115f2d776dfb74d9b2d9053eb
 ---
 
 ## § 7. Intégration par rapport à une mesure induite
 
 ### 1. Intégration par rapport à une mesure induite
 
-Soient X un sous-espace localement compact de T, $\mu$ une mesure positive sur T, $\mu_X$ la mesure induite sur X par $\mu$ (chap. IV, 2e éd., § 5, n° 7). Pour tout $t \in T$, définissons une mesure $\lambda_t$ sur X de la façon suivante : $\lambda_t = \varepsilon_t$ si $t \in T$, $\lambda_t = 0$ si $t \in \mathbf{C}X$. Pour toute fonction numérique finie $g$ définie dans $X$, on a $\int g(x)\ d\lambda_t(x) = g(t)$ si $t \in X$ et $\int g(x)\ d\lambda_t(x) = 0$ si $t \in \mathbf{C}X$. Si $g$ est une fonction de $\mathcal{H}(X)$, on a donc, par définition de $\mu_X$
+Soient X un sous-espace localement compact de T, $\mu$ une mesure positive sur T, $\mu_X$ la mesure induite sur X par $\mu$ (chap. IV, 2e éd., § 5, n° 7). Pour tout $t \in T$, définissons une mesure $\lambda_t$ sur X de la façon suivante : $\lambda_t = \varepsilon_t$ si $t \in T$, $\lambda_t = 0$ si $t \in \mathbf{C}X$. Pour toute fonction numérique finie $g$ définie dans $X$, on a $\int g(x)\ d\lambda_t(x) = g(t)$ si $t \in X$ et $\int g(x)\ d\lambda_t(x) = 0$ si $t \in \mathbf{C}X$. Si $g$ est une fonction de $\mathscr{H}(X)$, on a donc, par définition de $\mu_X$
 
 (1)
 $$
@@ -99,7 +99,7 @@ Soit $g$ une fonction complexe définie dans $T$ et localement $\mu$-intégrable
 $$
 (g \cdot \mu)_X = g_X \cdot \mu_X
 $$
-Cela résulte aussitôt du th. 1, appliqué aux fonctions $fg$ ($f \in \mathcal{H}(T; \mathbf{C})$) et de la définition de la mesure induite par une mesure complexe sur $X$ (chap. IV, 2e éd., $§ 5$, no 7).
+Cela résulte aussitôt du th. 1, appliqué aux fonctions $fg$ ($f \in \mathscr{H}(T; \mathbf{C})$) et de la définition de la mesure induite par une mesure complexe sur $X$ (chap. IV, 2e éd., $§ 5$, no 7).
 
 #### Corollaire 3 {#int-v-s7-thm-1-cor-3 .statement}
 
@@ -116,7 +116,7 @@ a) Le cor. 3 a déjà été démontré par une autre méthode (chap. IV, 2e éd.
 
 #### Scholie {#int-v-s7-n1-sch-1 .statement}
 
-Pour toute fonction f (resp. g) définie dans X (resp. dans T) à valeurs dans l’espace de Banach F ou dans $\bar{\mathbf{R}}$, désignons par $\zeta(f)$ (resp. par $\rho(g)$) le prolongement par 0 de f à T (resp. la restriction de g à X). On a $\zeta(\rho(g)) = \varphi_X \cdot g$, $\rho(\zeta(f)) = f$. Désignons par $\mu'$ la mesure $\varphi_X \cdot \mu$ sur T. Pour tout $p \in \{1, +\infty\}$, les propositions 1 et 2 entraînent que $\zeta$ applique $\mathcal{L}_F^p(X, \mu_X)$ dans $\mathcal{L}_F^p(T, \mu')$, que $\rho$ applique $\mathcal{L}_F^p(T, \mu')$ sur $\mathcal{L}_F^p(X, \mu_X)$, avec conservation de la norme dans les deux cas, et de l’intégrale pour $p = 1$ (th. 1); par passage aux espaces séparés associés, on obtient deux isomorphismes réciproques l’un de l’autre. De même, si l’on applique $\zeta$ et $\rho$ à des fonctions numériques positives, il y a conservation de l’intégrale supérieure essentielle (prop. 1). Si l’on convient donc d’identifier une fonction sur X à une fonction sur T nulle sur $X - T$, et la mesure $\mu_X$ à la mesure $\mu'$, on ramène les problèmes concernant les mesures induites à des problèmes concernant les mesures définies par des densités, traités au § 5. Cette manière de raisonner s’applique d’ailleurs aussi aux mesures complexes, d’après le cor. 3 du th. 1.
+Pour toute fonction f (resp. g) définie dans X (resp. dans T) à valeurs dans l’espace de Banach F ou dans $\bar{\mathbf{R}}$, désignons par $\zeta(f)$ (resp. par $\rho(g)$) le prolongement par 0 de f à T (resp. la restriction de g à X). On a $\zeta(\rho(g)) = \varphi_X \cdot g$, $\rho(\zeta(f)) = f$. Désignons par $\mu'$ la mesure $\varphi_X \cdot \mu$ sur T. Pour tout $p \in \{1, +\infty\}$, les propositions 1 et 2 entraînent que $\zeta$ applique $\mathscr{L}_F^p(X, \mu_X)$ dans $\mathscr{L}_F^p(T, \mu')$, que $\rho$ applique $\mathscr{L}_F^p(T, \mu')$ sur $\mathscr{L}_F^p(X, \mu_X)$, avec conservation de la norme dans les deux cas, et de l’intégrale pour $p = 1$ (th. 1); par passage aux espaces séparés associés, on obtient deux isomorphismes réciproques l’un de l’autre. De même, si l’on applique $\zeta$ et $\rho$ à des fonctions numériques positives, il y a conservation de l’intégrale supérieure essentielle (prop. 1). Si l’on convient donc d’identifier une fonction sur X à une fonction sur T nulle sur $X - T$, et la mesure $\mu_X$ à la mesure $\mu'$, on ramène les problèmes concernant les mesures induites à des problèmes concernant les mesures définies par des densités, traités au § 5. Cette manière de raisonner s’applique d’ailleurs aussi aux mesures complexes, d’après le cor. 3 du th. 1.
 
 ### 2. Propriétés des mesures induites
 
@@ -139,7 +139,7 @@ $$
 \int g\, d(i(\lambda))_X = \int g'\, d(i(\lambda)) = \int (g' \circ i)\, d\lambda = \int g\, d\lambda.
 $$
 
-Cela achève de prouver l’équivalence des quatre propriétés. Si $\lambda = \theta_X$, et si $g \in \mathcal{H}(T; \mathbf{C})$, on a
+Cela achève de prouver l’équivalence des quatre propriétés. Si $\lambda = \theta_X$, et si $g \in \mathscr{H}(T; \mathbf{C})$, on a
 
 $$
 \int g\, d(i(\theta_X)) = \int (g \circ i)\, d(\theta_X) = \int g \varphi_X\, d\theta,
@@ -163,11 +163,11 @@ En effet, on a $\pi_X = \pi \circ i$, où $i$ est l’injection canonique $X \to
 
 Soient $X$ et $Y$ deux sous-espaces localement compacts de $T$, tels que $Y \subset X$. Si $\theta$ est une mesure complexe sur $T$, la mesure $(\theta_X)_Y$ induite par $\theta_X$ sur $Y$ est égale à $\theta_Y$ (« transitivité des mesures induites »).
 
-Il suffit de remarquer que, si $g$ est un élément de $\mathcal{H}(Y; \mathbf{C})$, le prolongement par 0 de $g$ à $T$ s’obtient en prolongeant par 0 le prolongement par 0 de $g$ à $X$, ou encore, en utilisant les identifications du Scholie, que $\varphi_Y \cdot \theta = \varphi_Y(\varphi_X \cdot \theta)$ ($§ 5$, n° 4, prop. 8).
+Il suffit de remarquer que, si $g$ est un élément de $\mathscr{H}(Y; \mathbf{C})$, le prolongement par 0 de $g$ à $T$ s’obtient en prolongeant par 0 le prolongement par 0 de $g$ à $X$, ou encore, en utilisant les identifications du Scholie, que $\varphi_Y \cdot \theta = \varphi_Y(\varphi_X \cdot \theta)$ ($§ 5$, n° 4, prop. 8).
 
 #### Proposition 5 {#int-v-s7-prop-5 .statement}
 
-Soit $(\lambda_\alpha)_{\alpha \in A}$ une famille filtrante croissante de mesures positives sur $T$, admettant une borne supérieure $\lambda$, et soit $X$ un sous-espace localement compact de $T$. La famille des mesures induites $\lambda_\alpha|X$ est alors majorée dans $\mathcal{M}(X)$, et on a
+Soit $(\lambda_\alpha)_{\alpha \in A}$ une famille filtrante croissante de mesures positives sur $T$, admettant une borne supérieure $\lambda$, et soit $X$ un sous-espace localement compact de $T$. La famille des mesures induites $\lambda_\alpha|X$ est alors majorée dans $\mathscr{M}(X)$, et on a
 $$
 \sup_{\alpha \in A} (\lambda_\alpha|X) = \lambda|X.
 $$
@@ -182,7 +182,7 @@ $$
 
 #### Proposition 6 {#int-v-s7-prop-6 .statement}
 
-Soit $\Lambda : t \mapsto \lambda_t$ une application $\mu$-adéquate de $T$ dans $\mathcal{M}_+(X)$, où $X$ est un espace localement compact dénombrable à l’infini, et soit $Y$ un sous-espace localement compact de $X$. Posons $\int \lambda_t d\mu(t) = v$. L’application $t \mapsto \lambda_t|Y$ de $T$ dans $\mathcal{M}_+(Y)$ est alors $\mu$-adéquate, et on a
+Soit $\Lambda : t \mapsto \lambda_t$ une application $\mu$-adéquate de $T$ dans $\mathscr{M}_+(X)$, où $X$ est un espace localement compact dénombrable à l’infini, et soit $Y$ un sous-espace localement compact de $X$. Posons $\int \lambda_t d\mu(t) = v$. L’application $t \mapsto \lambda_t|Y$ de $T$ dans $\mathscr{M}_+(Y)$ est alors $\mu$-adéquate, et on a
 $$
 \int (\lambda_t|Y) d\mu(t) = v|Y.
 $$

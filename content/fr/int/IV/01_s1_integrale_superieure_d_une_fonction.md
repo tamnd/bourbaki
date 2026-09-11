@@ -28,32 +28,32 @@ subsections:
       pdf_page: 119
 statements: 35
 exercises: 8
-content_sha256: 45f168886674dd3cf74eb971a888013faaa16e733830c13c73059b83bed27124
+content_sha256: bc246f0af134d98172e8167a60c54de5dc4e35a0339988da381d42846d6a67ff
 ---
 
 ## § 1. Intégrale supérieure d’une fonction positive
 
 ### 1. Intégrale supérieure d’une fonction positive semi-continue inférieurement
 
-Soient X un espace localement compact, $\mu$ une mesure positive sur X ; on sait que $\mu$ est une fonction croissante dans l’ensemble réticulé $\mathcal{K}_+(X)$ (que nous noterons aussi $\mathcal{K}_+$).
+Soient X un espace localement compact, $\mu$ une mesure positive sur X ; on sait que $\mu$ est une fonction croissante dans l’ensemble réticulé $\mathscr{K}_+(X)$ (que nous noterons aussi $\mathscr{K}_+$).
 
-Nous désignerons par $\mathcal{I}_+(X)$ (ou simplement $\mathcal{I}_+$) l’ensemble des fonctions numériques positives, finies ou non, et semi-continues inférieurement dans X. Rappelons que la somme d’une famille quelconque de fonctions de $\mathcal{I}_+$ appartient à $\mathcal{I}_+$; le produit d’une fonction de $\mathcal{I}_+$ par un nombre fini $\alpha > 0$ appartient à $\mathcal{I}_+$; l’enveloppe supérieure d’une famille quelconque de fonctions de $\mathcal{I}_+$ et l’enveloppe inférieure d’une famille finie de fonctions de $\mathcal{I}_+$ appartiennent aussi à $\mathcal{I}_+$ (Top. gén., chap. IV, § 6, n° 2, prop. 2 et th. 4). Nous utiliserons en outre le lemme suivant :
+Nous désignerons par $\mathscr{I}_+(X)$ (ou simplement $\mathscr{I}_+$) l’ensemble des fonctions numériques positives, finies ou non, et semi-continues inférieurement dans X. Rappelons que la somme d’une famille quelconque de fonctions de $\mathscr{I}_+$ appartient à $\mathscr{I}_+$; le produit d’une fonction de $\mathscr{I}_+$ par un nombre fini $\alpha > 0$ appartient à $\mathscr{I}_+$; l’enveloppe supérieure d’une famille quelconque de fonctions de $\mathscr{I}_+$ et l’enveloppe inférieure d’une famille finie de fonctions de $\mathscr{I}_+$ appartiennent aussi à $\mathscr{I}_+$ (Top. gén., chap. IV, § 6, n° 2, prop. 2 et th. 4). Nous utiliserons en outre le lemme suivant :
 
 #### Lemme 1 {#int-iv-s1-lem-1 .statement}
 
-Toute fonction $f \in \mathcal{I}_+$ est l’enveloppe supérieure de l’ensemble (filtrant pour la relation $\leqslant$) des fonctions $g \in \mathcal{K}_+$ telles que $g \leqslant f$.
+Toute fonction $f \in \mathscr{I}_+$ est l’enveloppe supérieure de l’ensemble (filtrant pour la relation $\leqslant$) des fonctions $g \in \mathscr{K}_+$ telles que $g \leqslant f$.
 
-En effet, pour tout $x \in X$ tel que $f(x) > 0$, et pour tout nombre réel fini $a$ tel que $0 < a < f(x)$, il existe par hypothèse un voisinage compact V de x tel que $f(y) \geq a$ dans V; d’autre part, il existe une fonction $g \in \mathcal{K}_+$, de support contenu dans V, égale à $a$ au point $x$ et $\leq a$ dans V (*Top. gén.*, chap. IX, § 1, n° 5, th. 2); on a donc $0 \leq g \leq f$ et $g(x) \geq a$, ce qui démontre le lemme.
+En effet, pour tout $x \in X$ tel que $f(x) > 0$, et pour tout nombre réel fini $a$ tel que $0 < a < f(x)$, il existe par hypothèse un voisinage compact V de x tel que $f(y) \geq a$ dans V; d’autre part, il existe une fonction $g \in \mathscr{K}_+$, de support contenu dans V, égale à $a$ au point $x$ et $\leq a$ dans V (*Top. gén.*, chap. IX, § 1, n° 5, th. 2); on a donc $0 \leq g \leq f$ et $g(x) \geq a$, ce qui démontre le lemme.
 
 #### Définition 1 {#int-iv-s1-def-1 .statement}
 
-*Etant donnée une mesure positive $\mu$ sur X, on appelle intégrale supérieure d’une fonction $f \in \mathcal{J}_+$ (par rapport à $\mu$) le nombre positif (fini ou égal à $+\infty$)
+*Etant donnée une mesure positive $\mu$ sur X, on appelle intégrale supérieure d’une fonction $f \in \mathscr{J}_+$ (par rapport à $\mu$) le nombre positif (fini ou égal à $+\infty$)
 
 $$
-\mu^*(f) = \sup_{g \in \mathcal{K}_+, g \leq f} \mu(g).
+\mu^*(f) = \sup_{g \in \mathscr{K}_+, g \leq f} \mu(g).
 $$
 
-Pour toute fonction $f \in \mathcal{K}_+$, il est clair que $\mu^*(f) = \mu(f)$, autrement dit $\mu^*$ est un prolongement de $\mu$ à $\mathcal{J}_+$.
+Pour toute fonction $f \in \mathscr{K}_+$, il est clair que $\mu^*(f) = \mu(f)$, autrement dit $\mu^*$ est un prolongement de $\mu$ à $\mathscr{J}_+$.
 
 #### Exemple {#int-iv-s1-n1-exa-1 .statement}
 
@@ -62,11 +62,11 @@ Soient X un espace *discret*, $\mu$ une mesure positive sur X, et posons $\alpha
 $$
 \sum_{x \in X} \alpha(x)f(x) = \sup_M (\sum_{x \in M} \alpha(x)f(x)),
 $$
-où M parcourt l’ensemble des parties finies de X. S’il existe $x_0 \in X$ tel que $f(x_0) = +\infty$ et $\alpha(x_0) > 0$, on a $\sum_{x \in M} \alpha(x)f(x) = +\infty$ dès que $x_0 \in M$, et d’autre part, pour tout entier $n > 0$, on a $f \geq n \cdot \varphi_{\{x_0\}}$, donc $\mu^*(f) \geq n \alpha(x_0)$, et par suite $\mu^*(f) = +\infty$. Si au contraire $\alpha(x) = 0$ en tous les points où $f(x) = +\infty$, la fonction g égale à $f$ aux points $x \in M$ où $\alpha(x) > 0$, à 0 ailleurs, appartient à $\mathcal{K}_+$, et l’on a, en vertu des conventions faites, $\mu(g) = \sum_{x \in M} \alpha(x)f(x)$, ce qui prouve encore la relation $\mu^*(f) = \sum_{x \in X} \alpha(x)f(x)$.
+où M parcourt l’ensemble des parties finies de X. S’il existe $x_0 \in X$ tel que $f(x_0) = +\infty$ et $\alpha(x_0) > 0$, on a $\sum_{x \in M} \alpha(x)f(x) = +\infty$ dès que $x_0 \in M$, et d’autre part, pour tout entier $n > 0$, on a $f \geq n \cdot \varphi_{\{x_0\}}$, donc $\mu^*(f) \geq n \alpha(x_0)$, et par suite $\mu^*(f) = +\infty$. Si au contraire $\alpha(x) = 0$ en tous les points où $f(x) = +\infty$, la fonction g égale à $f$ aux points $x \in M$ où $\alpha(x) > 0$, à 0 ailleurs, appartient à $\mathscr{K}_+$, et l’on a, en vertu des conventions faites, $\mu(g) = \sum_{x \in M} \alpha(x)f(x)$, ce qui prouve encore la relation $\mu^*(f) = \sum_{x \in X} \alpha(x)f(x)$.
 
 #### Proposition 1 {#int-iv-s1-prop-1 .statement}
 
-*Pour tout nombre réel fini $\alpha > 0$ et toute fonction $f \in \mathcal{J}_+$, on a*
+*Pour tout nombre réel fini $\alpha > 0$ et toute fonction $f \in \mathscr{J}_+$, on a*
 
 (1)
 $$
@@ -75,27 +75,27 @@ $$
 
 #### Proposition 2 {#int-iv-s1-prop-2 .statement}
 
-*Sur l’ensemble $\mathcal{J}_+$, la fonction $\mu^*$ est croissante.*
+*Sur l’ensemble $\mathscr{J}_+$, la fonction $\mu^*$ est croissante.*
 
 Les démonstrations sont immédiates à partir de la déf. 1.
 
 #### Théorème 1 {#int-iv-s1-thm-1 .statement}
 
-*Soit H un ensemble non vide de fonctions de $\mathcal{J}_+$, filtrant pour la relation $\leq$. Pour toute mesure positive $\mu$ sur X, on a
+*Soit H un ensemble non vide de fonctions de $\mathscr{J}_+$, filtrant pour la relation $\leq$. Pour toute mesure positive $\mu$ sur X, on a
 
 (2) $$
 \mu^*(\sup_{g \in H} g) = \sup_{g \in H} \mu^*(g) = \lim_{g \in H} \mu^*(g).
 $$
 
-Posons $f = \sup_{g \in H} g$. Nous démontrerons d’abord le théorème dans le cas particulier où les fonctions $g \in H$ et leur enveloppe supérieure $f$ appartiennent à $\mathcal{K}_+$. Il résulte alors du th. de Dini (*Top. gén.*, chap. X, 2e éd., § 4, n° 1, th. 1) que le filtre des sections de H converge *uniformément* vers $f$ dans toute partie compacte de X, et en particulier dans le support K de $f$. Comme $0 \leq g \leq f$ pour toute fonction $g \in H$, le support de toute fonction de H est contenu dans K ; mais par définition $\mu$ est continue dans l’espace vectoriel $\mathcal{K}(X, K; \mathbf{C})$ des fonctions continues à support contenu dans K, pour la topologie de la convergence uniforme ; d’où la relation (2) dans ce cas.
+Posons $f = \sup_{g \in H} g$. Nous démontrerons d’abord le théorème dans le cas particulier où les fonctions $g \in H$ et leur enveloppe supérieure $f$ appartiennent à $\mathscr{K}_+$. Il résulte alors du th. de Dini (*Top. gén.*, chap. X, 2e éd., § 4, n° 1, th. 1) que le filtre des sections de H converge *uniformément* vers $f$ dans toute partie compacte de X, et en particulier dans le support K de $f$. Comme $0 \leq g \leq f$ pour toute fonction $g \in H$, le support de toute fonction de H est contenu dans K ; mais par définition $\mu$ est continue dans l’espace vectoriel $\mathscr{K}(X, K; \mathbf{C})$ des fonctions continues à support contenu dans K, pour la topologie de la convergence uniforme ; d’où la relation (2) dans ce cas.
 
-Passons au cas général. Il est clair que $\mu^*(g) \leq \mu^*(f)$ pour toute fonction $g \in H$. D’après la déf. 1, tout revient à montrer que, pour toute fonction $\psi \in \mathcal{K}_+$ telle que $\psi \leq f$, on a
+Passons au cas général. Il est clair que $\mu^*(g) \leq \mu^*(f)$ pour toute fonction $g \in H$. D’après la déf. 1, tout revient à montrer que, pour toute fonction $\psi \in \mathscr{K}_+$ telle que $\psi \leq f$, on a
 
 $$
 \mu(\psi) \leq \sup_{g \in H} \mu^*(g).
 $$
 
-Pour toute fonction $g \in H$, soit $\Phi_g$ l’ensemble des fonctions $\varphi \in \mathcal{K}_+$ telles que $\varphi \leq g$, et soit $\Phi$ la réunion des ensembles $\Phi_g$ lorsque g parcourt H ; comme H est filtrant, il en est de même de $\Phi$, et on a $f = \sup_{\varphi \in \Phi} \varphi$. Comme $\psi \leq f$, $\psi$ est l’enveloppe supérieure de l’ensemble des fonctions $\inf (\psi, \varphi)$ lorsque $\varphi$ parcourt $\Phi$ ; mais comme $\psi$ et les fonctions $\inf (\psi, \varphi)$ appartiennent à $\mathcal{K}_+$, la première partie de la démonstration prouve que $\mu(\psi) = \sup_{\varphi \in \Phi} \mu(\inf(\psi, \varphi))$. Or, chaque $\varphi \in \Phi$ appartient à un ensemble $\Phi_g$, donc
+Pour toute fonction $g \in H$, soit $\Phi_g$ l’ensemble des fonctions $\varphi \in \mathscr{K}_+$ telles que $\varphi \leq g$, et soit $\Phi$ la réunion des ensembles $\Phi_g$ lorsque g parcourt H ; comme H est filtrant, il en est de même de $\Phi$, et on a $f = \sup_{\varphi \in \Phi} \varphi$. Comme $\psi \leq f$, $\psi$ est l’enveloppe supérieure de l’ensemble des fonctions $\inf (\psi, \varphi)$ lorsque $\varphi$ parcourt $\Phi$ ; mais comme $\psi$ et les fonctions $\inf (\psi, \varphi)$ appartiennent à $\mathscr{K}_+$, la première partie de la démonstration prouve que $\mu(\psi) = \sup_{\varphi \in \Phi} \mu(\inf(\psi, \varphi))$. Or, chaque $\varphi \in \Phi$ appartient à un ensemble $\Phi_g$, donc
 
 $$
 \mu(\inf (\psi, \varphi)) \leq \mu(\varphi) \leq \mu^*(g) \leq \sup_{g \in H} \mu^*(g)
@@ -105,19 +105,19 @@ d’où l’on déduit aussitôt que $\mu(\psi) \leq \sup_{g \in H} \mu^*(g)$. N
 
 #### Théorème 2 {#int-iv-s1-thm-2 .statement}
 
-*Si $f_1$ et $f_2$ sont deux fonctions de $\mathcal{J}_+$, on a*
+*Si $f_1$ et $f_2$ sont deux fonctions de $\mathscr{J}_+$, on a*
 
 (3) $$
 \mu^*(f_1 + f_2) = \mu^*(f_1) + \mu^*(f_2).
 $$
 
-En effet, lorsque $\varphi_1$ (resp. $\varphi_2$) parcourt l’ensemble des fonctions de $\mathcal{K}_+$ telles que $\varphi_1 \leq f_1$ (resp. $\varphi_2 \leq f_2$), les fonctions $\varphi_1 + \varphi_2$ forment un ensemble filtrant (pour $\leq$) dont l’enveloppe supérieure est $f_1 + f_2$. En vertu du th. 1, on a donc
+En effet, lorsque $\varphi_1$ (resp. $\varphi_2$) parcourt l’ensemble des fonctions de $\mathscr{K}_+$ telles que $\varphi_1 \leq f_1$ (resp. $\varphi_2 \leq f_2$), les fonctions $\varphi_1 + \varphi_2$ forment un ensemble filtrant (pour $\leq$) dont l’enveloppe supérieure est $f_1 + f_2$. En vertu du th. 1, on a donc
 
 $$
 \mu^*(f_1 + f_2) = \sup \mu(\varphi_1 + \varphi_2) = \sup (\mu(\varphi_1) + \mu(\varphi_2)),
 $$
 
-$(\varphi_1, \varphi_2)$ parcourant l’ensemble des couples de fonctions de $\mathcal{K}_+$ telles que $\varphi_1 \leq f_1$ et $\varphi_2 \leq f_2$; comme on a
+$(\varphi_1, \varphi_2)$ parcourant l’ensemble des couples de fonctions de $\mathscr{K}_+$ telles que $\varphi_1 \leq f_1$ et $\varphi_2 \leq f_2$; comme on a
 
 $$
 \sup (\mu(\varphi_1) + \mu(\varphi_2)) = \sup \mu(\varphi_1) + \sup \mu(\varphi_2)
@@ -127,19 +127,19 @@ $$
 
 #### Proposition 3 {#int-iv-s1-prop-3 .statement}
 
-*Pour toute famille* $(f_i)_{i \in I}$ *de fonctions de* $\mathcal{I}_+$, *on a*
+*Pour toute famille* $(f_i)_{i \in I}$ *de fonctions de* $\mathscr{I}_+$, *on a*
 
 $$
 \mu^*\left( \sum_{i \in I} f_i \right) = \sum_{i \in I} \mu^*(f_i).
 $$
 
-En effet, pour toute partie finie $J$ de $I$, il résulte du th. 2 (par récurrence sur le nombre d’éléments de $J$) que $\mu^*\left( \sum_{i \in J} f_i \right) = \sum_{i \in J} \mu^*(f_i)$; lorsque $J$ parcourt l’ensemble des parties finies de $I$, les fonctions $g_J = \sum_{i \in J} f_i$ appartiennent à $\mathcal{I}_+$ et forment un ensemble filtrant pour la relation $\leq$, dont l’enveloppe supérieure est la fonction $\sum_{i \in I} f_i$; la proposition résulte donc du th. 1.
+En effet, pour toute partie finie $J$ de $I$, il résulte du th. 2 (par récurrence sur le nombre d’éléments de $J$) que $\mu^*\left( \sum_{i \in J} f_i \right) = \sum_{i \in J} \mu^*(f_i)$; lorsque $J$ parcourt l’ensemble des parties finies de $I$, les fonctions $g_J = \sum_{i \in J} f_i$ appartiennent à $\mathscr{I}_+$ et forment un ensemble filtrant pour la relation $\leq$, dont l’enveloppe supérieure est la fonction $\sum_{i \in I} f_i$; la proposition résulte donc du th. 1.
 
 #### Proposition 4 {#int-iv-s1-prop-4 .statement}
 
-*Soit* $f$ *une fonction de* $\mathcal{I}_+$. *L’application* $\mu \mapsto \mu^*(f)$ *de l’ensemble* $\mathcal{M}_+(X)$ *des mesures positives sur* $X$, *dans la droite achevée* $\bar{\mathbf{R}}$, *est semi-continue inférieurement pour la topologie vague sur* $\mathcal{M}_+(X)$ *(chap. III, § 1, n° 9)*.
+*Soit* $f$ *une fonction de* $\mathscr{I}_+$. *L’application* $\mu \mapsto \mu^*(f)$ *de l’ensemble* $\mathscr{M}_+(X)$ *des mesures positives sur* $X$, *dans la droite achevée* $\bar{\mathbf{R}}$, *est semi-continue inférieurement pour la topologie vague sur* $\mathscr{M}_+(X)$ *(chap. III, § 1, n° 9)*.
 
-En effet, cette application est par définition l’enveloppe supérieure des applications $\mu \mapsto \mu(g)$, où $g$ parcourt l’ensemble des fonctions de $\mathcal{K}_+$ telles que $g \leq f$; et par définition de la topologie vague, les applications $\mu \mapsto \mu(g)$ sont continues dans $\mathcal{M}(X)$.
+En effet, cette application est par définition l’enveloppe supérieure des applications $\mu \mapsto \mu(g)$, où $g$ parcourt l’ensemble des fonctions de $\mathscr{K}_+$ telles que $g \leq f$; et par définition de la topologie vague, les applications $\mu \mapsto \mu(g)$ sont continues dans $\mathscr{M}(X)$.
 
 ### 2. Mesure extérieure d’un ensemble ouvert
 
@@ -155,7 +155,7 @@ La mesure extérieure d’un ensemble ouvert $G$ est donc un nombre $\geqslant 0
 
 La mesure extérieure d’un ensemble ouvert relativement compact $G$ est finie.
 
-En effet, il existe alors une fonction $f \in \mathcal{K}_+$ telle que $\varphi_G \leqslant f$ (chap. III, § 1, n° 2, lemme 1), d’où
+En effet, il existe alors une fonction $f \in \mathscr{K}_+$ telle que $\varphi_G \leqslant f$ (chap. III, § 1, n° 2, lemme 1), d’où
 $$
 \mu^*(G) = \mu^*(\varphi_G) \leqslant \mu^*(f) = \mu(f) < +\infty.
 $$
@@ -173,7 +173,7 @@ Soit $\mathfrak{G}$ un ensemble de parties ouvertes de $X$, filtrant pour la rel
 $$
 \mu^*\left( \bigcup_{G \in \mathfrak{G}} G \right) = \sup_{G \in \mathfrak{G}} \mu^*(G).
 $$
-En effet, les fonctions $\varphi_G$ forment un ensemble filtrant (pour $\leqslant$) dans $\mathcal{J}_+$ et leur enveloppe supérieure est la fonction caractéristique de la réunion des ensembles $G \in \mathfrak{G}$; la proposition est donc une conséquence du th. 1.
+En effet, les fonctions $\varphi_G$ forment un ensemble filtrant (pour $\leqslant$) dans $\mathscr{J}_+$ et leur enveloppe supérieure est la fonction caractéristique de la réunion des ensembles $G \in \mathfrak{G}$; la proposition est donc une conséquence du th. 1.
 
 #### Proposition 8 {#int-iv-s1-prop-8 .statement}
 
@@ -189,13 +189,13 @@ En effet, si $G = \bigcup_{i \in I} G_i$, on a $\varphi_G = \sup_{i \in I} \varp
 
 #### Exemple {#int-iv-s1-n2-exa-1 .statement}
 
-Prenons $X = \mathbf{R}$, et soit $\mu$ la mesure de Lebesgue sur $\mathbf{R}$ (chap. III, § 1, n° 3); nous allons déterminer la mesure extérieure d’un intervalle ouvert $G = ]a, b[$ ($-\infty \leq a < b \leq +\infty$). Supposons d’abord $a$ et $b$ finis. Pour toute fonction de $f$ de $\mathcal{K}_+$ telle que $f \leq \varphi_G$, on a, d’après le th. de la moyenne,
+Prenons $X = \mathbf{R}$, et soit $\mu$ la mesure de Lebesgue sur $\mathbf{R}$ (chap. III, § 1, n° 3); nous allons déterminer la mesure extérieure d’un intervalle ouvert $G = ]a, b[$ ($-\infty \leq a < b \leq +\infty$). Supposons d’abord $a$ et $b$ finis. Pour toute fonction de $f$ de $\mathscr{K}_+$ telle que $f \leq \varphi_G$, on a, d’après le th. de la moyenne,
 
 $$
 \int_{-\infty}^{+\infty} f(x) \, dx = \int_a^b f(x) \, dx \leq b - a,
 $$
 
-d’où $\mu^*(G) \leq b - a$. D’autre part, pour tout $\varepsilon > 0$, il existe une fonction $f \in \mathcal{K}_+$ telle que $f \leq \varphi_G$ et $f(x) = 1$ pour $a + \varepsilon \leq x \leq b - \varepsilon$; d’où $\mu^*(G) \geq b - a - 2\varepsilon$; comme $\varepsilon$ est arbitraire, on a
+d’où $\mu^*(G) \leq b - a$. D’autre part, pour tout $\varepsilon > 0$, il existe une fonction $f \in \mathscr{K}_+$ telle que $f \leq \varphi_G$ et $f(x) = 1$ pour $a + \varepsilon \leq x \leq b - \varepsilon$; d’où $\mu^*(G) \geq b - a - 2\varepsilon$; comme $\varepsilon$ est arbitraire, on a
 
 $$
 \mu^*(G) = b - a;
@@ -219,17 +219,17 @@ On notera en particulier que si $G$ est un ensemble ouvert dans $\mathbf{R}$ tel
 
 ### 3. Intégrale supérieure d’une fonction positive
 
-Pour toute fonction numérique $f \geq 0$ (finie ou non) définie dans $X$, il existe des fonctions $h \in \mathcal{J}_+$ telles que $f \leq h$, ne serait-ce que la constante $+\infty$.
+Pour toute fonction numérique $f \geq 0$ (finie ou non) définie dans $X$, il existe des fonctions $h \in \mathscr{J}_+$ telles que $f \leq h$, ne serait-ce que la constante $+\infty$.
 
 #### Définition 3 {#int-iv-s1-def-3 .statement}
 
 Soit $\mu$ une mesure positive sur $X$; pour toute fonction numérique $f \geq 0$ (finie ou non) définie dans $X$, on appelle intégrale supérieure de $f$ (par rapport à $\mu$) le nombre positif (fini ou égal à $+\infty$)
 
 $$
-\mu^*(f) = \inf_{h \geq f, h \in \mathcal{I}_+} \mu^*(h).
+\mu^*(f) = \inf_{h \geq f, h \in \mathscr{I}_+} \mu^*(h).
 $$
 
-Lorsque $f \in \mathcal{I}_+$, le nombre $\mu^*(f)$ ainsi défini est égal à l’intégrale supérieure définie dans la déf. 1, puisque $\mu^*$ est croissante dans $\mathcal{I}_+$.
+Lorsque $f \in \mathscr{I}_+$, le nombre $\mu^*(f)$ ainsi défini est égal à l’intégrale supérieure définie dans la déf. 1, puisque $\mu^*$ est croissante dans $\mathscr{I}_+$.
 
 Au lieu de la notation $\mu^*(f)$, nous utiliserons aussi les notations $\int^* f d\mu$, $\int^* f(x) d\mu(x)$, $\int^* f\mu$ et $\int^* f(x)\mu(x)$.
 
@@ -257,7 +257,7 @@ $$
 \mu^*(f_1 + f_2) \leq \mu^*(f_1) + \mu^*(f_2).
 $$
 
-En effet, pour toute fonction $h_1 \in \mathcal{I}_+$ telle que $f_1 \leq h_1$ et toute fonction $h_2 \in \mathcal{I}_+$ telle que $f_2 \leq h_2$, on a, en vertu du th. 2,
+En effet, pour toute fonction $h_1 \in \mathscr{I}_+$ telle que $f_1 \leq h_1$ et toute fonction $h_2 \in \mathscr{I}_+$ telle que $f_2 \leq h_2$, on a, en vertu du th. 2,
 
 $$
 \mu^*(f_1 + f_2) \leq \mu^*(h_1 + h_2) = \mu^*(h_1) + \mu^*(h_2)
@@ -266,7 +266,7 @@ $$
 d’où (Top. gén., chap. IV, § 5, n° 7, cor. 2 de la prop. 12)
 
 $$
-\mu^*(f_1 + f_2) \leq \inf_{h_1 \geq f_1, h_1 \in \mathcal{I}_+} \mu^*(h_1) + \inf_{h_2 \geq f_2, h_2 \in \mathcal{I}_+} \mu^*(h_2)
+\mu^*(f_1 + f_2) \leq \inf_{h_1 \geq f_1, h_1 \in \mathscr{I}_+} \mu^*(h_1) + \inf_{h_2 \geq f_2, h_2 \in \mathscr{I}_+} \mu^*(h_2)
 $$
 
 ce qui n’est autre que l’inégalité (9).
@@ -281,9 +281,9 @@ $$
 \mu^*(\sup_n f_n) = \sup_n \mu^*(f_n).
 $$
 
-Comme chacune des fonctions $f_n$ est au plus égale à $\sup_n f_n$, tout revient à prouver que $\mu^*(\sup_n f_n) \leqslant \sup_n \mu^*(f_n)$; c’est évident si le second membre de cette inégalité est $+\infty$. Dans le cas contraire, on a $\mu^*(f_n) < +\infty$ pour tout $n$; nous allons montrer que, pour tout $\varepsilon > 0$, il existe une suite croissante $(g_n)$ de fonctions de $\mathcal{I}_+$ telle que $f_n \leqslant g_n$ et que $\mu^*(g_n) \leqslant \mu^*(f_n) + \varepsilon$. Si $g$ est l’enveloppe supérieure de la suite $(g_n)$, on aura $\mu^*(g) = \sup_n \mu^*(g_n)$ (n° 1, th. 1), d’où $\mu^*(g) \leqslant \sup \mu^*(f_n) + \varepsilon$; comme $\sup f_n \leqslant g$ et que $\varepsilon$ est arbitraire, le théorème sera démontré.
+Comme chacune des fonctions $f_n$ est au plus égale à $\sup_n f_n$, tout revient à prouver que $\mu^*(\sup_n f_n) \leqslant \sup_n \mu^*(f_n)$; c’est évident si le second membre de cette inégalité est $+\infty$. Dans le cas contraire, on a $\mu^*(f_n) < +\infty$ pour tout $n$; nous allons montrer que, pour tout $\varepsilon > 0$, il existe une suite croissante $(g_n)$ de fonctions de $\mathscr{I}_+$ telle que $f_n \leqslant g_n$ et que $\mu^*(g_n) \leqslant \mu^*(f_n) + \varepsilon$. Si $g$ est l’enveloppe supérieure de la suite $(g_n)$, on aura $\mu^*(g) = \sup_n \mu^*(g_n)$ (n° 1, th. 1), d’où $\mu^*(g) \leqslant \sup \mu^*(f_n) + \varepsilon$; comme $\sup f_n \leqslant g$ et que $\varepsilon$ est arbitraire, le théorème sera démontré.
 
-Par hypothèse, il existe une fonction $h_n \in \mathcal{I}_+$ telle que $f_n \leqslant h_n$ et que $\mu^*(f_n) \leqslant \mu^*(h_n) \leqslant \mu^*(f_n) + \frac{\varepsilon}{2^n}$; montrons que les fonctions $g_n = \sup(h_1, h_2, \ldots, h_n)$ répondent à la question. Elles appartiennent à $\mathcal{I}_+$, forment une suite croissante, et l’on a $f_n \leqslant g_n$ pour tout $n$; nous allons prouver qu’on a
+Par hypothèse, il existe une fonction $h_n \in \mathscr{I}_+$ telle que $f_n \leqslant h_n$ et que $\mu^*(f_n) \leqslant \mu^*(h_n) \leqslant \mu^*(f_n) + \frac{\varepsilon}{2^n}$; montrons que les fonctions $g_n = \sup(h_1, h_2, \ldots, h_n)$ répondent à la question. Elles appartiennent à $\mathscr{I}_+$, forment une suite croissante, et l’on a $f_n \leqslant g_n$ pour tout $n$; nous allons prouver qu’on a
 
 $$
 \mu^*(g_n) \leqslant \mu^*(f_n) + \varepsilon \left(1 - \frac{1}{2^n}\right).
@@ -357,7 +357,7 @@ $$
 
 Soit $(f_n)$ une suite de fonctions numériques $\geq 0$ telle que, pour tout $x \in X$, $\lim_{n \to \infty} f_n(x) = +\infty$. Si la mesure $\mu$ n’est pas nulle, on a $\lim_{n \to \infty} \mu^*(f_n) = +\infty$.
 
-En effet, si $f_0$ est la fonction constante égale à $+\infty$, $f_0$ est l’enveloppe supérieure de toutes les fonctions de $\mathcal{K}_+$, et comme $\mu \neq 0$, on a $\mu^*(f_0) > 0$; mais comme $f_0 = \alpha f_0$ pour tout $\alpha > 0$, on a nécessairement $\mu^*(f_0) = +\infty$ (prop. 11). L’inégalité (13) montre alors que $\mu^*(f_n)$ tend vers $+\infty$ avec $n$.
+En effet, si $f_0$ est la fonction constante égale à $+\infty$, $f_0$ est l’enveloppe supérieure de toutes les fonctions de $\mathscr{K}_+$, et comme $\mu \neq 0$, on a $\mu^*(f_0) > 0$; mais comme $f_0 = \alpha f_0$ pour tout $\alpha > 0$, on a nécessairement $\mu^*(f_0) = +\infty$ (prop. 11). L’inégalité (13) montre alors que $\mu^*(f_n)$ tend vers $+\infty$ avec $n$.
 
 #### Proposition 15 {#int-iv-s1-prop-15 .statement}
 
@@ -370,7 +370,7 @@ $$
 $$
 En outre, la relation $\mu \leq \nu$ entraîne $\mu^* \leq \nu^*$.
 
-Démontrons la relation (15). Posons $\lambda = \mu + \nu$; on a donc $\lambda(f) = \mu(f) + \nu(f)$ pour $f \in \mathcal{K}_+$; pour $f \in \mathcal{J}_+$, la valeur de $\lambda^*(f)$ (resp. $\mu^*(f)$, $\nu^*(f)$) est la limite de $\lambda(g)$ (resp. $\mu(g)$, $\nu(g)$) lorsque $g$ parcourt l’ensemble filtrant (pour $\leq$) des $g \in \mathcal{K}_+$ telles que $g \leq f$; on a donc $\lambda^*(f) = \mu^*(f) + \nu^*(f)$. Enfin, si $f$ est une fonction $\geq 0$ quelconque définie dans $X$, $\lambda^*(f)$ (resp. $\mu^*(f)$, $\nu^*(f)$) est la limite de $\lambda^*(h)$ (resp. $\mu^*(h)$, $\nu^*(h)$) lorsque $h$ parcourt l’ensemble filtrant (pour $\geq$) des fonctions $h \in \mathcal{J}_+$ telles que $h \geq f$; on a donc encore, par passage à la limite, $\lambda^*(f) = \mu^*(f) + \nu^*(f)$, ce qui démontre (15). On établit de même la relation (14). Enfin, si $\mu \leq \nu$, on peut écrire $\nu = \mu + (\nu - \mu)$, où $\nu - \mu \geq 0$, donc $\nu^* = \mu^* + (\nu - \mu)^*$, ce qui montre que $\mu^* \leq \nu^*$.
+Démontrons la relation (15). Posons $\lambda = \mu + \nu$; on a donc $\lambda(f) = \mu(f) + \nu(f)$ pour $f \in \mathscr{K}_+$; pour $f \in \mathscr{J}_+$, la valeur de $\lambda^*(f)$ (resp. $\mu^*(f)$, $\nu^*(f)$) est la limite de $\lambda(g)$ (resp. $\mu(g)$, $\nu(g)$) lorsque $g$ parcourt l’ensemble filtrant (pour $\leq$) des $g \in \mathscr{K}_+$ telles que $g \leq f$; on a donc $\lambda^*(f) = \mu^*(f) + \nu^*(f)$. Enfin, si $f$ est une fonction $\geq 0$ quelconque définie dans $X$, $\lambda^*(f)$ (resp. $\mu^*(f)$, $\nu^*(f)$) est la limite de $\lambda^*(h)$ (resp. $\mu^*(h)$, $\nu^*(h)$) lorsque $h$ parcourt l’ensemble filtrant (pour $\geq$) des fonctions $h \in \mathscr{J}_+$ telles que $h \geq f$; on a donc encore, par passage à la limite, $\lambda^*(f) = \mu^*(f) + \nu^*(f)$, ce qui démontre (15). On établit de même la relation (14). Enfin, si $\mu \leq \nu$, on peut écrire $\nu = \mu + (\nu - \mu)$, où $\nu - \mu \geq 0$, donc $\nu^* = \mu^* + (\nu - \mu)^*$, ce qui montre que $\mu^* \leq \nu^*$.
 
 ### 4. Mesure extérieure d’un ensemble quelconque
 
@@ -407,7 +407,7 @@ Ces propositions sont les traductions des prop. 10 et 13 et du th. 3 du n° 3 po
 #### Proposition 19 {#int-iv-s1-prop-19 .statement}
 
 *Pour toute partie A de X, $\mu^*(A)$ est la borne inférieure des mesures extérieures des ensembles ouverts contenant A.*
-La proposition est évidente si $\mu^*(A) = +\infty$. Dans le cas contraire, pour tout $\varepsilon$ tel que $0 < \varepsilon < 1$, il existe une fonction $f \in \mathcal{J}_+$ telle que $\varphi_A \leq f$ et $\mu^*(A) \leq \mu^*(f) \leq \mu^*(A) + \varepsilon$. Soit G l’ensemble des $x \in X$ tels que $f(x) > 1 - \varepsilon$. Comme $f$ est semi-continue inférieurement, G est ouvert (*Top. gén.*, chap. IV, § 6, n° 2, prop. 1) et contient A ; on a d’autre part $f \geq (1 - \varepsilon)\varphi_G$, d’où
+La proposition est évidente si $\mu^*(A) = +\infty$. Dans le cas contraire, pour tout $\varepsilon$ tel que $0 < \varepsilon < 1$, il existe une fonction $f \in \mathscr{J}_+$ telle que $\varphi_A \leq f$ et $\mu^*(A) \leq \mu^*(f) \leq \mu^*(A) + \varepsilon$. Soit G l’ensemble des $x \in X$ tels que $f(x) > 1 - \varepsilon$. Comme $f$ est semi-continue inférieurement, G est ouvert (*Top. gén.*, chap. IV, § 6, n° 2, prop. 1) et contient A ; on a d’autre part $f \geq (1 - \varepsilon)\varphi_G$, d’où
 $$
 \mu^*(G) \leq \frac{1}{1 - \varepsilon} \mu^*(f) \leq \frac{1}{1 - \varepsilon} (\mu^*(A) + \varepsilon);
 $$

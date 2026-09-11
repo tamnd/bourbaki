@@ -33,7 +33,7 @@ subsections:
       pdf_page: 205
 statements: 22
 exercises: 20
-content_sha256: 620a678b6145f9aecb2d7fa10cb1189bf44b0c751811b2152d367e638c2e239d
+content_sha256: e7543f369626f54b7975ca90acc1c06c4323ed604b1e0ef42f46355d0815b55d
 ---
 
 ## § 6. CONVEXITY INEQUALITIES
@@ -116,9 +116,9 @@ Setting aside the trivial case that $\int g d|\mu| = 0$, the inequality (3) may 
 
 #### Definition 2 {#int-iv-s6-def-2 .statement}
 
-*For every mapping $f$ of $X$ into a Banach space $F$, one sets $N_\infty(f) = M_\infty(|f|)$; $f$ is said to be bounded in measure (for the measure $\mu$) if $N_\infty(f)$ is finite. The set of mappings of $X$ into $F$ that are measurable and bounded in measure is denoted $\mathcal{L}_F^\infty(X, \mu)$ (or $\mathcal{L}_F^\infty(\mu)$, or simply $\mathcal{L}_F^\infty$).*
+*For every mapping $f$ of $X$ into a Banach space $F$, one sets $N_\infty(f) = M_\infty(|f|)$; $f$ is said to be bounded in measure (for the measure $\mu$) if $N_\infty(f)$ is finite. The set of mappings of $X$ into $F$ that are measurable and bounded in measure is denoted $\mathscr{L}_F^\infty(X, \mu)$ (or $\mathscr{L}_F^\infty(\mu)$, or simply $\mathscr{L}_F^\infty$).*
 
-A function $f$ in $\mathcal{L}_F^\infty$ may thus be characterized by the fact that there exists a *bounded measurable* function equal locally almost everywhere to $f$.
+A function $f$ in $\mathscr{L}_F^\infty$ may thus be characterized by the fact that there exists a *bounded measurable* function equal locally almost everywhere to $f$.
 
 It follows immediately from (1) that
 
@@ -126,19 +126,19 @@ $$
 N_\infty(f + g) \leqslant N_\infty(f) + N_\infty(g);
 $$
 
-on the other hand, $N_\infty(\alpha f) = |\alpha| N_\infty(f)$ for every scalar $\alpha$. The set $\mathcal{L}_F^\infty$ is therefore a *linear subspace* of the space of all mappings of $X$ into $F$, and $N_\infty(f)$ is a semi-norm on this vector space. Let $(f_n)$ be a sequence of functions in $\mathcal{L}_F^\infty$ that converges to $f \in \mathcal{L}_F^\infty$ for the topology defined by the semi-norm $N_\infty(f)$; for every integer $m$, there exist a locally negligible set $H_m$ and an integer $n_0$ such that $|f(x) - f_n(x)| \leq 1/m$ for every integer $n \geq n_0$ and every $x \notin H_m$ (every countable union of locally negligible sets being locally negligible); the union $H$ of the $H_m$ is locally negligible, and one sees that $f_n(x)$ tends *uniformly* to $f(x)$ on the complement of the locally negligible set $H$; the converse is immediate.
+on the other hand, $N_\infty(\alpha f) = |\alpha| N_\infty(f)$ for every scalar $\alpha$. The set $\mathscr{L}_F^\infty$ is therefore a *linear subspace* of the space of all mappings of $X$ into $F$, and $N_\infty(f)$ is a semi-norm on this vector space. Let $(f_n)$ be a sequence of functions in $\mathscr{L}_F^\infty$ that converges to $f \in \mathscr{L}_F^\infty$ for the topology defined by the semi-norm $N_\infty(f)$; for every integer $m$, there exist a locally negligible set $H_m$ and an integer $n_0$ such that $|f(x) - f_n(x)| \leq 1/m$ for every integer $n \geq n_0$ and every $x \notin H_m$ (every countable union of locally negligible sets being locally negligible); the union $H$ of the $H_m$ is locally negligible, and one sees that $f_n(x)$ tends *uniformly* to $f(x)$ on the complement of the locally negligible set $H$; the converse is immediate.
 
-It is clear that every function equal locally almost everywhere to a function in $\mathcal{L}_F^\infty$ belongs to $\mathcal{L}_F^\infty$. In particular, the *locally negligible* functions defined on $X$ with values in $F$ form a linear subspace $\mathcal{N}_F^\infty$ of $\mathcal{L}_F^\infty$, characterized by the relation $N_\infty(f) = 0$ (the closure of 0 for the topology defined by $N_\infty(f)$). The Hausdorff space associated with $\mathcal{L}_F^\infty$, that is, the quotient space $\mathcal{L}_F^\infty / \mathcal{N}_F^\infty$, is denoted $L_F^\infty(X, \mu)$ (or $L_F^\infty(\mu)$ or $L_F^\infty$); its topology is defined by the *norm* deduced from $N_\infty$ by passage to the quotient; the norm of a class $\dot{f} \in L_F^\infty$ is denoted $N_\infty(\dot{f})$, or also $\| \dot{f} \|_\infty$. When $F = \mathbf{R}$ (resp. $\mathbf{C}$), we write $\mathcal{L}^\infty$ and $L^\infty$ in place of $\mathcal{L}_\mathbf{R}^\infty$ and $L_\mathbf{R}^\infty$ (resp. $\mathcal{L}_\mathbf{C}^\infty$ and $L_\mathbf{C}^\infty$) if this can cause no confusion.
+It is clear that every function equal locally almost everywhere to a function in $\mathscr{L}_F^\infty$ belongs to $\mathscr{L}_F^\infty$. In particular, the *locally negligible* functions defined on $X$ with values in $F$ form a linear subspace $\mathscr{N}_F^\infty$ of $\mathscr{L}_F^\infty$, characterized by the relation $N_\infty(f) = 0$ (the closure of 0 for the topology defined by $N_\infty(f)$). The Hausdorff space associated with $\mathscr{L}_F^\infty$, that is, the quotient space $\mathscr{L}_F^\infty / \mathscr{N}_F^\infty$, is denoted $L_F^\infty(X, \mu)$ (or $L_F^\infty(\mu)$ or $L_F^\infty$); its topology is defined by the *norm* deduced from $N_\infty$ by passage to the quotient; the norm of a class $\dot{f} \in L_F^\infty$ is denoted $N_\infty(\dot{f})$, or also $\| \dot{f} \|_\infty$. When $F = \mathbf{R}$ (resp. $\mathbf{C}$), we write $\mathscr{L}^\infty$ and $L^\infty$ in place of $\mathscr{L}_\mathbf{R}^\infty$ and $L_\mathbf{R}^\infty$ (resp. $\mathscr{L}_\mathbf{C}^\infty$ and $L_\mathbf{C}^\infty$) if this can cause no confusion.
 
 #### Proposition 2 {#int-iv-s6-prop-2 .statement}
 
-*The space* $\mathcal{L}_F^\infty$ *is complete; the space* $L_F^\infty$ *is a Banach space*.
+*The space* $\mathscr{L}_F^\infty$ *is complete; the space* $L_F^\infty$ *is a Banach space*.
 
-For, let $(f_n)$ be a Cauchy sequence in $\mathcal{L}_F^\infty$; for every integer $n$, there exists an integer $k_n$ such that $N_\infty(f_r - f_s) \leq 1/n$ for $r \geq k_n$ and $s \geq k_n$; thus, there exists a locally negligible set $A_{rs}$ such that $|f_r(x) - f_s(x)| \leq 1/n$ for all $x \notin A_{rs}$. If $A_n$ is the union of the sets $A_{rs}$ (for $r \geq k_n$ and $s \geq k_n$), then $A_n$ is locally negligible and, for every $x \notin A_n$, $|f_r(x) - f_s(x)| \leq 1/n$ for all indices $r \geq k_n, s \geq k_n$. Let $A$ be the locally negligible set formed by the union of the $A_n$, and set $g_n(x) = f_n(x)$ for $x \notin A$, $g_n(x) = 0$ for $x \in A$; then $g_n$ belongs to $\mathcal{L}_F^\infty$ and, by the definition of $A$, the sequence $(g_n)$ converges *uniformly* on $X$ to a function $g$. It follows that the function $g$ is measurable (§ 5, No. 4, Th. 2); moreover, $g$ is bounded on the set of $x \in X$ where $|g_{k_1}(x)| \leq N_\infty(g_{k_1})$ and, since the complement of this set is locally negligible, $g$ belongs to $\mathcal{L}_F^\infty$. It is clear that in $\mathcal{L}_F^\infty$, the sequence $(g_n)$ has limit $g$, and the same is therefore true of the sequence $(f_n)$, since $N_\infty(f_n - g_n) = 0$ for all $n$. The second part of the proposition may be deduced immediately from this.
+For, let $(f_n)$ be a Cauchy sequence in $\mathscr{L}_F^\infty$; for every integer $n$, there exists an integer $k_n$ such that $N_\infty(f_r - f_s) \leq 1/n$ for $r \geq k_n$ and $s \geq k_n$; thus, there exists a locally negligible set $A_{rs}$ such that $|f_r(x) - f_s(x)| \leq 1/n$ for all $x \notin A_{rs}$. If $A_n$ is the union of the sets $A_{rs}$ (for $r \geq k_n$ and $s \geq k_n$), then $A_n$ is locally negligible and, for every $x \notin A_n$, $|f_r(x) - f_s(x)| \leq 1/n$ for all indices $r \geq k_n, s \geq k_n$. Let $A$ be the locally negligible set formed by the union of the $A_n$, and set $g_n(x) = f_n(x)$ for $x \notin A$, $g_n(x) = 0$ for $x \in A$; then $g_n$ belongs to $\mathscr{L}_F^\infty$ and, by the definition of $A$, the sequence $(g_n)$ converges *uniformly* on $X$ to a function $g$. It follows that the function $g$ is measurable (§ 5, No. 4, Th. 2); moreover, $g$ is bounded on the set of $x \in X$ where $|g_{k_1}(x)| \leq N_\infty(g_{k_1})$ and, since the complement of this set is locally negligible, $g$ belongs to $\mathscr{L}_F^\infty$. It is clear that in $\mathscr{L}_F^\infty$, the sequence $(g_n)$ has limit $g$, and the same is therefore true of the sequence $(f_n)$, since $N_\infty(f_n - g_n) = 0$ for all $n$. The second part of the proposition may be deduced immediately from this.
 
 #### Remark {#int-iv-s6-n3-rem-1 .statement}
 
-— 1) Every *bounded continuous* function $f$ on $X$ with values in $F$ belongs to $\mathcal{L}_F^\infty$, and
+— 1) Every *bounded continuous* function $f$ on $X$ with values in $F$ belongs to $\mathscr{L}_F^\infty$, and
 
 $$
 N_\infty(f) \leq \| f \| = \sup_{x \in X} |f(x)| .
@@ -146,7 +146,7 @@ $$
 
 In order that $N_\infty(f) = \|f\|$ for every bounded continuous function $f$, it is necessary and sufficient that the support of the measure $\mu$ be equal to $X$. For, if there exists a continuous function $f$ with negligible compact support and not identically zero, then $N_\infty(f) = 0$ and $\|f\| > 0$. Conversely, if the support of $\mu$ is equal to $X$ then, for every bounded continuous function $f$ and every number $\alpha < \|f\|$, the set of $x \in X$ such that $|f(x)| > \alpha$ is open and nonempty, hence has outer measure $> 0$, which shows that $N_\infty(f) = \|f\|$.
 
-When the support of $\mu$ is equal to $X$, we may therefore identify the normed space $C^b(X; F)$, of bounded continuous functions on $X$ with values in $F$, with a subspace of the space $L_F^\infty$. Since $L_F^\infty$ is not in general Hausdorff, the subspace $C^b(X; F)$ is not in general closed in $L_F^\infty$, but its canonical image in $L_F^\infty$ is a closed subspace of $L_F^\infty$ (which can moreover be identified with $C^b(X; F)$ in the case contemplated). In general, $C^b(X; F)$ is distinct from $L_F^\infty$, that is, for an arbitrary bounded measurable function $f$, there does not in general exist a continuous function $g$ equal to $f$ locally almost everywhere (§ 5, Exer. 12). This implies that the space $\mathcal{H}(X; F)$ of mappings of $X$ into $F$, continuous with compact support, is in general not dense in $L_F^\infty$, whereas it is dense in each of the spaces $L_F^p$ for $1 \leq p < +\infty$ (§ 3, No. 4. Def. 2).
+When the support of $\mu$ is equal to $X$, we may therefore identify the normed space $C^b(X; F)$, of bounded continuous functions on $X$ with values in $F$, with a subspace of the space $L_F^\infty$. Since $L_F^\infty$ is not in general Hausdorff, the subspace $C^b(X; F)$ is not in general closed in $L_F^\infty$, but its canonical image in $L_F^\infty$ is a closed subspace of $L_F^\infty$ (which can moreover be identified with $C^b(X; F)$ in the case contemplated). In general, $C^b(X; F)$ is distinct from $L_F^\infty$, that is, for an arbitrary bounded measurable function $f$, there does not in general exist a continuous function $g$ equal to $f$ locally almost everywhere (§ 5, Exer. 12). This implies that the space $\mathscr{H}(X; F)$ of mappings of $X$ into $F$, continuous with compact support, is in general not dense in $L_F^\infty$, whereas it is dense in each of the spaces $L_F^p$ for $1 \leq p < +\infty$ (§ 3, No. 4. Def. 2).
 
 2) It is immediate that the topology defined by the semi-norm $N_\infty$ is finer than the topology induced on $L_F^\infty$ by the topology of convergence in measure (§ 5, No. 11).
 
@@ -166,7 +166,7 @@ Let $f_1$ (resp. $g_1$) be a function in $L^p$ (resp. $L^q$) to which $f$ (resp.
 
 #### Corollary 1 {#int-iv-s6-thm-2-cor-1 .statement}
 
-— Let $F, G, H$ be three Banach spaces, and let $(u, v) \mapsto \Phi(u, v)$ be a continuous bilinear mapping of $F \times G$ into $H$ such that $|\Phi(u, v)| \leq |u| \cdot |v|$. If $f \in \mathcal{L}_F^p$ and $g \in \mathcal{L}_G^q$, then the function $\Phi(f, g)$ is integrable and
+— Let $F, G, H$ be three Banach spaces, and let $(u, v) \mapsto \Phi(u, v)$ be a continuous bilinear mapping of $F \times G$ into $H$ such that $|\Phi(u, v)| \leq |u| \cdot |v|$. If $f \in \mathscr{L}_F^p$ and $g \in \mathscr{L}_G^q$, then the function $\Phi(f, g)$ is integrable and
 
 $$
 \left| \int \Phi(f, g)\, d\mu \right| \leq \int |\Phi(f, g)|\, d|\mu| \leq N_p(f) N_q(g).
@@ -178,7 +178,7 @@ Two special cases of Cor. 1 are important in applications:
 
 #### Corollary 2 {#int-iv-s6-thm-2-cor-2 .statement}
 
-— Let $F$ be a real (resp. complex) Banach space, $F'$ its strong dual (TVS, III, § 3, No. 1), and let $(z, z') \mapsto \langle z, z' \rangle$ be the canonical bilinear form on $F \times F'$. If $f \in \mathcal{L}_F^p$ and $g \in \mathcal{L}_{F'}^q$, then the real (resp. complex) function $\langle f, g \rangle$ is integrable and
+— Let $F$ be a real (resp. complex) Banach space, $F'$ its strong dual (TVS, III, § 3, No. 1), and let $(z, z') \mapsto \langle z, z' \rangle$ be the canonical bilinear form on $F \times F'$. If $f \in \mathscr{L}_F^p$ and $g \in \mathscr{L}_{F'}^q$, then the real (resp. complex) function $\langle f, g \rangle$ is integrable and
 
 $$
 \left| \int \langle f, g \rangle\, d\mu \right| \leq \int |\langle f, g \rangle|\, d|\mu| \leq N_p(f) N_q(g).
@@ -200,7 +200,7 @@ defines a Hilbert space structure, for which the norm is equal to $\| \widetilde
 
 #### Corollary 4 {#int-iv-s6-thm-2-cor-4 .statement}
 
-— Let $F$ be a Banach space, $f$ a function in $\mathcal{L}_F^p$, and $g$ a numerical function belonging to $\mathcal{L}^q$; then, the function $fg$ is integrable and
+— Let $F$ be a Banach space, $f$ a function in $\mathscr{L}_F^p$, and $g$ a numerical function belonging to $\mathscr{L}^q$; then, the function $fg$ is integrable and
 
 $$
 \left| \int fg\, d\mu \right| \leq \int |fg|\, d|\mu| \leq N_p(f) N_q(g).
@@ -223,21 +223,21 @@ Cor. 2 of Th. 2 is sharpened by the following proposition:
 
 — Let $\mu$ be a positive measure on X, F a real or complex Banach space, F' its strong dual, and $(z, z') \mapsto \langle z, z' \rangle$ the canonical bilinear form on $F \times F'$.
 
-1° For every function $f \in \mathcal{L}_F^p$ ($1 \leq p \leq +\infty$),
+1° For every function $f \in \mathscr{L}_F^p$ ($1 \leq p \leq +\infty$),
 
 $$
 N_p(f) = \sup \left| \int \langle f, g \rangle \, d\mu \right|
 $$
 
-as g runs over the set of functions in $\mathcal{L}_{F'}^q$, such that $N_q(g) \leq 1$.
+as g runs over the set of functions in $\mathscr{L}_{F'}^q$, such that $N_q(g) \leq 1$.
 
-2° For every function $g \in \mathcal{L}_{F'}^q$ ($1 \leq q \leq +\infty$),
+2° For every function $g \in \mathscr{L}_{F'}^q$ ($1 \leq q \leq +\infty$),
 
 $$
 N_q(g) = \sup \left| \int \langle f, g \rangle \, d\mu \right|
 $$
 
-as f runs over the set of functions in $\mathcal{L}_F^p$ such that $N_p(f) \leq 1$.
+as f runs over the set of functions in $\mathscr{L}_F^p$ such that $N_p(f) \leq 1$.
 
 Let us first prove the relation (9); we distinguish between two cases.
 
@@ -257,7 +257,7 @@ $$
 
 which proves the relation (9) in this case.
 
-Let us pass to the case that $f$ is any element of $\mathcal{L}_F^p$ such that $N_p(f) = 1$. For every $\varepsilon > 0$, there exists a step function $f_1 \in \mathcal{L}_F^p$ such that $N_p(f - f_1) \leq \varepsilon$ (§ 4, No. 10, Cor. 1 of Prop. 19). By what we have just seen, there exists a function $g \in \mathcal{L}_F^q$, such that $N_q(g) = 1$ and
+Let us pass to the case that $f$ is any element of $\mathscr{L}_F^p$ such that $N_p(f) = 1$. For every $\varepsilon > 0$, there exists a step function $f_1 \in \mathscr{L}_F^p$ such that $N_p(f - f_1) \leq \varepsilon$ (§ 4, No. 10, Cor. 1 of Prop. 19). By what we have just seen, there exists a function $g \in \mathscr{L}_F^q$, such that $N_q(g) = 1$ and
 
 $$
 \int \langle f_1, g \rangle d\mu \geq N_p(f_1) - \varepsilon \geq 1 - 2\varepsilon.
@@ -313,10 +313,10 @@ One argues in exactly the same manner to prove the relation (10), on considering
 
 #### Remark {#int-iv-s6-n4-rem-1 .statement}
 
-— 1) Let $\mathcal{E}$ be a dense linear subspace of $\mathcal{L}_{F'}^q$; then the formula (9) holds when $g$ runs over the intersection of $\mathcal{E}$ with the set $B$ of functions in $\mathcal{L}_{F'}^q$ such that $N_q(g) \leq 1$. For, it suffices to observe that the interior $\overset{\circ}{B}$ of $B$ is dense in $B$ and that $\overset{\circ}{B} \cap \mathcal{E}$ is dense in $\overset{\circ}{B}$, since $\overset{\circ}{B}$ is open. This remark applies in particular to the set $\mathcal{E} = \mathcal{K}(X; F')$ of continuous functions with compact support (with values in $F'$) when $1 \leq q < +\infty$, that is, $1 < p \leq +\infty$. But in this case, the formula (9) is true as $g$ runs over $B \cap \mathcal{K}(X; F')$, even for $p = 1$. For, we may, as above, restrict ourselves to the case that $f$ is a step function. We saw then that if $N_1(f) = 1$, then for every $\varepsilon > 0$ there exists a step function $g \in \mathcal{L}_{F'}^\infty$ such that $|g(x)| \leq 1$ for all $x \in X$ and $|\int \langle f, g \rangle d\mu| \geq 1 - \varepsilon$. There exists a finite number of pairwise disjoint compact sets $K_i$ such that $g$ has a constant value $a'_i$ on each $K_i$ and such that, if $K$ is the union of the $K_i$, then $\int |f| \varphi_{\mathcal{C}_K} d\mu \leq \varepsilon$. Let $U_i$ be a neighborhood of $K_i$ such that the sets $U_i$ are pairwise disjoint, and let $h_i$ be a continuous mapping of $X$ into $[0, 1]$ with support contained in $U_i$ and equal to 1 on $K_i$. Setting $h = \sum a'_i h_i$, we have $h(x) = g(x)$ on $K$ and $|h(x)| \leq 1$ on $X$, therefore
+— 1) Let $\mathscr{E}$ be a dense linear subspace of $\mathscr{L}_{F'}^q$; then the formula (9) holds when $g$ runs over the intersection of $\mathscr{E}$ with the set $B$ of functions in $\mathscr{L}_{F'}^q$ such that $N_q(g) \leq 1$. For, it suffices to observe that the interior $\overset{\circ}{B}$ of $B$ is dense in $B$ and that $\overset{\circ}{B} \cap \mathscr{E}$ is dense in $\overset{\circ}{B}$, since $\overset{\circ}{B}$ is open. This remark applies in particular to the set $\mathscr{E} = \mathscr{K}(X; F')$ of continuous functions with compact support (with values in $F'$) when $1 \leq q < +\infty$, that is, $1 < p \leq +\infty$. But in this case, the formula (9) is true as $g$ runs over $B \cap \mathscr{K}(X; F')$, even for $p = 1$. For, we may, as above, restrict ourselves to the case that $f$ is a step function. We saw then that if $N_1(f) = 1$, then for every $\varepsilon > 0$ there exists a step function $g \in \mathscr{L}_{F'}^\infty$ such that $|g(x)| \leq 1$ for all $x \in X$ and $|\int \langle f, g \rangle d\mu| \geq 1 - \varepsilon$. There exists a finite number of pairwise disjoint compact sets $K_i$ such that $g$ has a constant value $a'_i$ on each $K_i$ and such that, if $K$ is the union of the $K_i$, then $\int |f| \varphi_{\mathscr{C}_K} d\mu \leq \varepsilon$. Let $U_i$ be a neighborhood of $K_i$ such that the sets $U_i$ are pairwise disjoint, and let $h_i$ be a continuous mapping of $X$ into $[0, 1]$ with support contained in $U_i$ and equal to 1 on $K_i$. Setting $h = \sum a'_i h_i$, we have $h(x) = g(x)$ on $K$ and $|h(x)| \leq 1$ on $X$, therefore
 
 $$
-\int |\langle f, h \rangle| \varphi_{\mathcal{C}_K} d\mu \leq \varepsilon
+\int |\langle f, h \rangle| \varphi_{\mathscr{C}_K} d\mu \leq \varepsilon
 $$
 
 and consequently $|\int \langle f, h \rangle d\mu| \geq 1 - 3\varepsilon$, which proves our assertion. Analogous remarks can be made for the formula (10).
@@ -327,7 +327,7 @@ $$
 (11) \quad N_p(f) = \sup \int^* |fg| d\mu,
 $$
 
-as $g$ runs over the set of functions in $\mathcal{H}(X; \mathbf{R})$ such that $N_q(g) \leq 1$. For, the formula (11) is a special case of (9) when $N_p(f) < +\infty$, since $f$ is then equivalent to a function in $\mathcal{L}^p$ (§ 5, No. 6, Th. 5). If $N_p(f) = +\infty$, for every integer $n > 0$ set $f_n = \inf(n, f \varphi_{K_n})$. Then
+as $g$ runs over the set of functions in $\mathscr{H}(X; \mathbf{R})$ such that $N_q(g) \leq 1$. For, the formula (11) is a special case of (9) when $N_p(f) < +\infty$, since $f$ is then equivalent to a function in $\mathscr{L}^p$ (§ 5, No. 6, Th. 5). If $N_p(f) = +\infty$, for every integer $n > 0$ set $f_n = \inf(n, f \varphi_{K_n})$. Then
 
 $$
 N_p(f_n) = \sup \int^* |f_n g| d\mu \leq \sup \int^* |f g| d\mu,
@@ -337,7 +337,7 @@ whence, on passing to the limit (assuming, as we may, that the sequence $(K_n)$ 
 
 #### Corollary {#int-iv-s6-n4-cor-1 .statement}
 
-— *Let $\mu$ be a positive measure on $X$, $F$ a Banach space, $F'$ its strong dual, and $g$ any function in $\mathcal{L}^q_{F'}$. Then, the linear form on $L^p_F$, deduced from the linear form $f \mapsto \int \langle f, g \rangle d\mu$ on $\mathcal{L}^p_F$ by passage to the quotient, is continuous and has norm $N_q(g)$.*
+— *Let $\mu$ be a positive measure on $X$, $F$ a Banach space, $F'$ its strong dual, and $g$ any function in $\mathscr{L}^q_{F'}$. Then, the linear form on $L^p_F$, deduced from the linear form $f \mapsto \int \langle f, g \rangle d\mu$ on $\mathscr{L}^p_F$ by passage to the quotient, is continuous and has norm $N_q(g)$.*
 
 ### 5. Application: relations between the spaces $L^p_F$ ($1 \leq p \leq +\infty$)
 
@@ -383,9 +383,9 @@ $$
 1 \leq r < p < s \leq +\infty,
 $$
 
-*then the intersection* $\mathcal{L}_F^r \cap \mathcal{L}_F^s$ *is contained in* $\mathcal{L}_F^p$.
+*then the intersection* $\mathscr{L}_F^r \cap \mathscr{L}_F^s$ *is contained in* $\mathscr{L}_F^p$.
 
-Note that in general the topologies induced on the intersection $\mathcal{L}_F^r \cap \mathcal{L}_F^s$ by the topologies of the $\mathcal{L}_F^p$ ($r < p < s$) are *distinct*. If no further hypothesis is made on $\mu$, the topologies induced on $\mathcal{L}_F^r \cap \mathcal{L}_F^s$ by those of $\mathcal{L}_F^r$ and $\mathcal{L}_F^s$ are in general not comparable (in other words, the ratio $N_r(f)/N_s(f)$ can take arbitrarily large values and arbitrarily small values in $\mathcal{L}_F^r \cap \mathcal{L}_F^s$; cf. Exer. 8).
+Note that in general the topologies induced on the intersection $\mathscr{L}_F^r \cap \mathscr{L}_F^s$ by the topologies of the $\mathscr{L}_F^p$ ($r < p < s$) are *distinct*. If no further hypothesis is made on $\mu$, the topologies induced on $\mathscr{L}_F^r \cap \mathscr{L}_F^s$ by those of $\mathscr{L}_F^r$ and $\mathscr{L}_F^s$ are in general not comparable (in other words, the ratio $N_r(f)/N_s(f)$ can take arbitrarily large values and arbitrarily small values in $\mathscr{L}_F^r \cap \mathscr{L}_F^s$; cf. Exer. 8).
 
 Prop. 4 may be sharpened when $\mu$ is a bounded measure:
 
@@ -397,7 +397,7 @@ This is an immediate consequence of Prop. 4 above and of the Cor. of Prop. 4 of 
 
 #### Corollary {#int-iv-s6-n5-cor-2 .statement}
 
-— If the measure $\mu$ is bounded, the relation $r < s$ implies $\mathcal{L}_F^s \subset \mathcal{L}_F^r$; moreover, the topology of convergence in mean of order $s$ is finer than the topology of convergence in mean of order $r$ (on $\mathcal{L}_F^s$).
+— If the measure $\mu$ is bounded, the relation $r < s$ implies $\mathscr{L}_F^s \subset \mathscr{L}_F^r$; moreover, the topology of convergence in mean of order $s$ is finer than the topology of convergence in mean of order $r$ (on $\mathscr{L}_F^s$).
 
 One can show that in general the topology of convergence in mean of order $s$ is strictly finer than the topology of convergence in mean of order $r$ (Exer. 8).
 
@@ -415,7 +415,7 @@ for every finite $p$. Since the function $\log N_p(f)$ is convex with respect to
 
 #### Corollary {#int-iv-s6-n5-cor-3 .statement}
 
-— If $X$ is discrete and the measure $\mu$ is defined by a mass $+1$ at each point of $X$, then the relation $r < s$ implies $\mathcal{L}_F^r \subset \mathcal{L}_F^s$; moreover, the topology of convergence in mean of order $r$ is finer than the topology of convergence in mean of order $s$ (on $\mathcal{L}_F^r$).
+— If $X$ is discrete and the measure $\mu$ is defined by a mass $+1$ at each point of $X$, then the relation $r < s$ implies $\mathscr{L}_F^r \subset \mathscr{L}_F^s$; moreover, the topology of convergence in mean of order $r$ is finer than the topology of convergence in mean of order $s$ (on $\mathscr{L}_F^r$).
 
 ### Exercises {#int-iv-s6-exercises}
 

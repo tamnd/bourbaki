@@ -25,7 +25,7 @@ subsections:
       pdf_page: 66
 statements: 24
 exercises: 12
-content_sha256: c76e4541e5547d8b5c038a90fe3a80b286a1aebad7365bd698d5804e2f80ff3e
+content_sha256: ce159f5657658a270d833467cbc90a390d7433b79c001313cdbc155cf648cf41
 translated_from: content/en/int/VII/03_s3_applications_and_examples.md
 source_content_sha256: caf427efadeeaa02fdc011ad1cf3bb379a2d28c4a9395236614704236db30652
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -59,7 +59,7 @@ $^1$ Non dégénérée; trong EVT, thuật ngữ này được thay bằng sépa
 
 #### Bổ đề 1 {#int-vii-s3-lem-1 .statement}
 
-Cho F là một không gian Hilbert, K là một nhóm compact, và $s \mapsto U(s)$ là một biểu diễn của K trong nhóm các phần tử khả nghịch của $\mathcal{L}(F; F)$, liên tục đối với tôpô hội tụ từng điểm. Tồn tại một dạng Hermit dương không suy biến $\varphi$ trên F sao cho
+Cho F là một không gian Hilbert, K là một nhóm compact, và $s \mapsto U(s)$ là một biểu diễn của K trong nhóm các phần tử khả nghịch của $\mathscr{L}(F; F)$, liên tục đối với tôpô hội tụ từng điểm. Tồn tại một dạng Hermit dương không suy biến $\varphi$ trên F sao cho
 
 $$
 \varphi(U(s)x, U(s)y) = \varphi(x, y)
@@ -73,7 +73,7 @@ $$
 \varphi(x, y) = \int (U(s)x|U(s)y)\, d\alpha(s).
 $$
 
-Điều này là hiển nhiên rằng $\varphi(x, y)$ là một dạng song tuyến tính Hermit trên F. Vì tập các tự đồng cấu $U(s)$ là compact trong $\mathcal{L}_s(F; F)$, tồn tại một hằng số M sao cho $\|U(s)\| \leq M$ với mọi $s \in K$. Với mọi $x \in F$, do đó ta có
+Điều này là hiển nhiên rằng $\varphi(x, y)$ là một dạng song tuyến tính Hermit trên F. Vì tập các tự đồng cấu $U(s)$ là compact trong $\mathscr{L}_s(F; F)$, tồn tại một hằng số M sao cho $\|U(s)\| \leq M$ với mọi $s \in K$. Với mọi $x \in F$, do đó ta có
 
 $$
 M^{-1}\|x\| \leq \|U(s)x\| \leq M\|x\|,

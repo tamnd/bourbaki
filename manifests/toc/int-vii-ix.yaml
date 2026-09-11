@@ -445,7 +445,7 @@ chapters:
               page: 56
               pdf_page: 238
             - "no": 2
-              title: Bounded measures and linear forms on $\mathcal{C}^b(T)$
+              title: Bounded measures and linear forms on $\mathscr{C}^b(T)$
               page: 59
               pdf_page: 241
             - "no": 3
@@ -453,7 +453,7 @@ chapters:
               page: 60
               pdf_page: 242
             - "no": 4
-              title: 'Application: topological properties of the space $\mathcal{M}_+^b(T)$'
+              title: 'Application: topological properties of the space $\mathscr{M}_+^b(T)$'
               page: 63
               pdf_page: 245
             - "no": 5

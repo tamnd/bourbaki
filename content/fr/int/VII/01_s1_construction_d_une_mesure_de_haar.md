@@ -56,7 +56,7 @@ subsections:
       pdf_page: 36
 statements: 50
 exercises: 30
-content_sha256: f072591059dd7b101cc550f66919f7fb096329c53ac2e20f8fd1ce7da768b66e
+content_sha256: db1d8825cd989140492f1929a17755f450b5846eb8876515ec903798ee8bc6a8
 ---
 
 ## § 1. Construction d'une mesure de Haar.
@@ -77,7 +77,7 @@ Si f est une fonction définie sur X, $\gamma(s)f$ sera définie par transport d
 
 Si μ est une mesure définie sur X, $\gamma(s)\mu$ sera aussi définie par transport de structure, ce qui conduit à
 
-(4) $\langle f, \gamma(s)\mu \rangle = \langle \gamma(s^{-1})f, \mu \rangle$ pour $f \in \mathcal{K}(X)$.
+(4) $\langle f, \gamma(s)\mu \rangle = \langle \gamma(s^{-1})f, \mu \rangle$ pour $f \in \mathscr{K}(X)$.
 
 Autrement dit
 
@@ -106,7 +106,7 @@ c) On dit que $\mu$ est quasi-invariante par $G$ si $\gamma(s)\mu$ est équivale
 
 #### Remarque 1 {#int-vii-s1-n1-rem-1 .statement}
 
-Supposons $\mu$ invariante. Alors $|\mu|$, $\Re \mu$, $\mathcal{I}\mu$ sont invariantes. Si $\mu$ est réelle, $\mu^+$ et $\mu^-$ sont invariantes.
+Supposons $\mu$ invariante. Alors $|\mu|$, $\Re \mu$, $\mathscr{I}\mu$ sont invariantes. Si $\mu$ est réelle, $\mu^+$ et $\mu^-$ sont invariantes.
 
 #### Remarque 2 {#int-vii-s1-n1-rem-2 .statement}
 
@@ -146,7 +146,7 @@ Si $\mu$ est quasi-invariante, le support de $\mu$ est invariant par G. En parti
 
 #### Lemme 1 {#int-vii-s1-lem-1 .statement}
 
-Soient X, Y, Z trois espaces topologiques, Y étant localement compact. Soit $(x, y) \to xy$ une application continue de $X \times Y$ dans Z, qui définit une application $x \to u_x$ de X dans $\mathcal{F}(Y; Z)$ par la relation $u_x(y) = xy$. Soient $f$ une fonction continue dans Z, à valeurs dans $\overline{\mathbf{R}}$ ou dans un espace de Banach, S le support de $f$, et $µ$ une mesure sur Y. On suppose que, pour tout $x_0 \in X$, il existe un voisinage V de $x_0$ dans X tel que $\bigcup_{x \in V} u_x^{-1}(S)$ soit relativement compact dans Y. Alors :
+Soient X, Y, Z trois espaces topologiques, Y étant localement compact. Soit $(x, y) \to xy$ une application continue de $X \times Y$ dans Z, qui définit une application $x \to u_x$ de X dans $\mathscr{F}(Y; Z)$ par la relation $u_x(y) = xy$. Soient $f$ une fonction continue dans Z, à valeurs dans $\overline{\mathbf{R}}$ ou dans un espace de Banach, S le support de $f$, et $µ$ une mesure sur Y. On suppose que, pour tout $x_0 \in X$, il existe un voisinage V de $x_0$ dans X tel que $\bigcup_{x \in V} u_x^{-1}(S)$ soit relativement compact dans Y. Alors :
 
 a) pour tout $x \in X$, $f \circ u_x$ est continue dans Y et à support compact ;
 
@@ -160,7 +160,7 @@ Revenons maintenant aux notations antérieures.
 
 Supposons G localement compact. Soit $µ$ une mesure relativement invariante non nulle sur X. Alors son multiplicateur $χ$ est une fonction continue dans G.
 
-En effet, soient $f \in \mathcal{H}(X)$, S le support de $f$, $s_0$ un point de G, et V un voisinage compact de $s_0$ dans G ; alors
+En effet, soient $f \in \mathscr{H}(X)$, S le support de $f$, $s_0$ un point de G, et V un voisinage compact de $s_0$ dans G ; alors
 
 $$
 \bigcup_{s \in V} γ(s)^{-1}(S) = V^{-1}S
@@ -233,7 +233,7 @@ L’application $x \to x^{-1}$ est un homéomorphisme de $G$ sur $G$. Pour toute
 
 Pour toute mesure $\mu$ sur $G$, on définira la mesure $\tilde{\mu}$ par
 
-(13) $\tilde{\mu}(f) = \mu(\tilde{f}) \quad \text{pour } f \in \mathcal{K}(G).$
+(13) $\tilde{\mu}(f) = \mu(\tilde{f}) \quad \text{pour } f \in \mathscr{K}(G).$
 
 Autrement dit
 
@@ -257,36 +257,36 @@ Soit G un groupe localement compact. On appelle mesure de Haar à gauche (resp. 
 
 Sur tout groupe localement compact, il existe une mesure de Haar à gauche (resp. à droite), et, à un facteur constant près, il n’en existe qu’une.
 
-A) Existence. — Posons $\mathcal{K}(G) = \mathcal{K}$, $\mathcal{K}_+(G) = \mathcal{K}_+$,
+A) Existence. — Posons $\mathscr{K}(G) = \mathscr{K}$, $\mathscr{K}_+(G) = \mathscr{K}_+$,
 
 $$
-\mathcal{K}_+^* = \mathcal{K}_+ - \{0\}.
+\mathscr{K}_+^* = \mathscr{K}_+ - \{0\}.
 $$
 
-Si C est une partie compacte de G, on notera $\mathcal{K}_+^*(C)$ l’ensemble des $f \in \mathcal{K}_+^*$ à support dans C. Pour $f \in \mathcal{K}$ et $g \in \mathcal{K}_+^*$, il existe des nombres $c_1, \ldots, c_n \geq 0$ et des éléments $s_1, \ldots, s_n$ de G tels que $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$ : en effet, il existe une partie ouverte non vide U de G telle que $\inf_{s \in U} g(s) > 0$, et le support de $f$ peut être recouvert par un nombre fini de translatés à gauche de U. Soit alors $(f : g)$ la borne inférieure des nombres $\sum_{i=1}^n c_i$ pour tous les systèmes $(c_1, \ldots, c_n, s_1, \ldots, s_n)$ de nombres $\geq 0$ et d’éléments de G tels que $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$. On a :
+Si C est une partie compacte de G, on notera $\mathscr{K}_+^*(C)$ l’ensemble des $f \in \mathscr{K}_+^*$ à support dans C. Pour $f \in \mathscr{K}$ et $g \in \mathscr{K}_+^*$, il existe des nombres $c_1, \ldots, c_n \geq 0$ et des éléments $s_1, \ldots, s_n$ de G tels que $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$ : en effet, il existe une partie ouverte non vide U de G telle que $\inf_{s \in U} g(s) > 0$, et le support de $f$ peut être recouvert par un nombre fini de translatés à gauche de U. Soit alors $(f : g)$ la borne inférieure des nombres $\sum_{i=1}^n c_i$ pour tous les systèmes $(c_1, \ldots, c_n, s_1, \ldots, s_n)$ de nombres $\geq 0$ et d’éléments de G tels que $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$. On a :
 
-(i) $(\gamma(s)f : g) = (f : g)$ pour $f \in \mathcal{K}$, $g \in \mathcal{K}_+^*$, $s \in G$;
-(ii) $(\lambda f : g) = \lambda(f : g)$ pour $f \in \mathcal{K}$, $g \in \mathcal{K}_+^*$, $\lambda \geq 0$;
-(iii) $((f + f') : g) \leq (f : g) + (f' : g)$ pour $f \in \mathcal{K}$, $f' \in \mathcal{K}$, $g \in \mathcal{K}_+^*$;
-(iv) $(f : g) \geq (\sup f)/(\sup g)$ pour $f \in \mathcal{K}$, $g \in \mathcal{K}_+^*$;
-(v) $(f : h) \leq (f : g)(g : h)$ pour $f \in \mathcal{K}$, $g \in \mathcal{K}_+^*$, $h \in \mathcal{K}_+^*$;
-(vi) $0 < \frac{1}{(f_0 : f)} \leq \frac{(f : g)}{(f_0 : g)} \leq (f : f_0)$ pour $f, f_0, g$ dans $\mathcal{K}_+^*$;
-(vii) soient $f, f', h$ dans $\mathcal{K}_+$ avec $h(s) \geq 1$ dans le support de $f + f'$, et soit $\varepsilon > 0$; il existe un voisinage compact V de e tel que, pour toute $g \in \mathcal{K}_+^*(V)$, on ait
+(i) $(\gamma(s)f : g) = (f : g)$ pour $f \in \mathscr{K}$, $g \in \mathscr{K}_+^*$, $s \in G$;
+(ii) $(\lambda f : g) = \lambda(f : g)$ pour $f \in \mathscr{K}$, $g \in \mathscr{K}_+^*$, $\lambda \geq 0$;
+(iii) $((f + f') : g) \leq (f : g) + (f' : g)$ pour $f \in \mathscr{K}$, $f' \in \mathscr{K}$, $g \in \mathscr{K}_+^*$;
+(iv) $(f : g) \geq (\sup f)/(\sup g)$ pour $f \in \mathscr{K}$, $g \in \mathscr{K}_+^*$;
+(v) $(f : h) \leq (f : g)(g : h)$ pour $f \in \mathscr{K}$, $g \in \mathscr{K}_+^*$, $h \in \mathscr{K}_+^*$;
+(vi) $0 < \frac{1}{(f_0 : f)} \leq \frac{(f : g)}{(f_0 : g)} \leq (f : f_0)$ pour $f, f_0, g$ dans $\mathscr{K}_+^*$;
+(vii) soient $f, f', h$ dans $\mathscr{K}_+$ avec $h(s) \geq 1$ dans le support de $f + f'$, et soit $\varepsilon > 0$; il existe un voisinage compact V de e tel que, pour toute $g \in \mathscr{K}_+^*(V)$, on ait
 
 $$
 (f : g) + (f' : g) \leq ((f + f') : g) + \varepsilon(h : g).
 $$
 
-Les propriétés (i), (ii), (iii) sont évidentes. Soient $f \in \mathcal{K}$, $g \in \mathcal{K}_+^*$; si $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$ avec des $c_i \geq 0$, on a
+Les propriétés (i), (ii), (iii) sont évidentes. Soient $f \in \mathscr{K}$, $g \in \mathscr{K}_+^*$; si $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$ avec des $c_i \geq 0$, on a
 $$
 \sup f \leq \sum_{i=1}^n c_i g(s_i^{-1}s)
 $$
-pour un $s \in G$, donc $\sup f \leq \left( \sum_{i=1}^n c_i \right) \sup g$, d'où (iv). Prouvons (v) ; soient $f \in \mathcal{K}$, $g, h$ dans $\mathcal{K}_+^*$; si $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$ et $g \leq \sum_{j=1}^p d_j \gamma(t_j)h$ ($c_i \geq 0, \ d_j \geq 0, \ s_i, \ t_j$ dans $G$), on a
+pour un $s \in G$, donc $\sup f \leq \left( \sum_{i=1}^n c_i \right) \sup g$, d'où (iv). Prouvons (v) ; soient $f \in \mathscr{K}$, $g, h$ dans $\mathscr{K}_+^*$; si $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$ et $g \leq \sum_{j=1}^p d_j \gamma(t_j)h$ ($c_i \geq 0, \ d_j \geq 0, \ s_i, \ t_j$ dans $G$), on a
 $$
 f \leq \sum_{i,j} c_i d_j \gamma(s_i t_j)h,
 $$
 donc $(f : h) \leq \sum_{i,j} c_i d_j = \left( \sum_i c_i \right) \left( \sum_j d_j \right)$;
-donc $(f : h) \leq (f : g)(g : h)$. Si on applique (v) à $f_0, f, g$ d'une part et à $f, f_0, g$ d'autre part, on obtient (vi). Enfin, soient $f, f', h$ dans $\mathcal{K}_+$ avec $h(s) \geq 1$ dans le support de $f + f'$, et soit $\varepsilon > 0$. Posons $F = f + f' + \frac{1}{2} \varepsilon h$; les fonctions $\varphi, \varphi'$, qui coïncident respectivement avec $f/F$ et $f'/F$ dans le support de $f + f'$ et qui sont nulles en dehors de celui-ci, appartiennent à $\mathcal{K}_+$; pour tout $\eta > 0$, il existe un voisinage compact $V$ de $e$ tel que $|\varphi(s) - \varphi(t)| \leq \eta$ et $|\varphi'(s) - \varphi'(t)| \leq \eta$ pour $s^{-1}t \in V$. Soit alors $g \in \mathcal{K}_+^*(V)$; pour tous $s \in G$, on a $\varphi \cdot \gamma(s)g \leq (\varphi(s) + \eta) \cdot \gamma(s)g$: en effet, c'est évident aux points où $\gamma(s)g$ s'annule, donc hors de $sV$; et, dans $sV$, on a $\varphi \leq \varphi(s) + \eta$; de même,
+donc $(f : h) \leq (f : g)(g : h)$. Si on applique (v) à $f_0, f, g$ d'une part et à $f, f_0, g$ d'autre part, on obtient (vi). Enfin, soient $f, f', h$ dans $\mathscr{K}_+$ avec $h(s) \geq 1$ dans le support de $f + f'$, et soit $\varepsilon > 0$. Posons $F = f + f' + \frac{1}{2} \varepsilon h$; les fonctions $\varphi, \varphi'$, qui coïncident respectivement avec $f/F$ et $f'/F$ dans le support de $f + f'$ et qui sont nulles en dehors de celui-ci, appartiennent à $\mathscr{K}_+$; pour tout $\eta > 0$, il existe un voisinage compact $V$ de $e$ tel que $|\varphi(s) - \varphi(t)| \leq \eta$ et $|\varphi'(s) - \varphi'(t)| \leq \eta$ pour $s^{-1}t \in V$. Soit alors $g \in \mathscr{K}_+^*(V)$; pour tous $s \in G$, on a $\varphi \cdot \gamma(s)g \leq (\varphi(s) + \eta) \cdot \gamma(s)g$: en effet, c'est évident aux points où $\gamma(s)g$ s'annule, donc hors de $sV$; et, dans $sV$, on a $\varphi \leq \varphi(s) + \eta$; de même,
 $$
 \varphi' \cdot \gamma(s)g \leq (\varphi'(s) + \eta) \cdot \gamma(s)g.
 $$
@@ -313,23 +313,23 @@ $$
 
 et, si l’on a choisi $\eta$ tel que $\eta[2((f + f') : h) + \varepsilon] \leq \frac{1}{2} \varepsilon$, on obtient (vii).
 
-Quand V parcourt l’ensemble des voisinages compacts de e, les $\mathcal{K}_+^*(V)$ forment une base d’un filtre $\mathfrak{B}$ sur $\mathcal{K}_+^*$. Soit $\mathfrak{F}$ un ultrafiltre sur $\mathcal{K}_+^*$ plus fin que $\mathfrak{B}$. D’autre part, fixons $f_0 \in \mathcal{K}_+^*$ et posons, pour $f \in \mathcal{K}_+^*$ et $g \in \mathcal{K}_+^*$
+Quand V parcourt l’ensemble des voisinages compacts de e, les $\mathscr{K}_+^*(V)$ forment une base d’un filtre $\mathfrak{B}$ sur $\mathscr{K}_+^*$. Soit $\mathfrak{F}$ un ultrafiltre sur $\mathscr{K}_+^*$ plus fin que $\mathfrak{B}$. D’autre part, fixons $f_0 \in \mathscr{K}_+^*$ et posons, pour $f \in \mathscr{K}_+^*$ et $g \in \mathscr{K}_+^*$
 
 $$
 I_g(f) = \frac{(f : g)}{(f_0 : g)}.
 $$
 
-D’après (vi), $\lim_{g, \mathfrak{F}} I_g(f) = I(f)$ existe dans l’espace compact $\{1/(f_0 : f), (f : f_0)\}$. D’après (iii), on a $I(f + f') \leq I(f) + I(f')$. D’après (vii), on a $I(f) + I(f') \leq I(f + f') + \varepsilon I(h)$ quel que soit $\varepsilon > 0$ si $h$ est $\geq 1$ dans le support de $f + f'$; il s’ensuit que $I(f + f') = I(f) + I(f')$. D’après le chap. II, § 2, no 1, prop. 2, I se prolonge en une forme linéaire sur $\mathcal{K}$; cette forme linéaire est une mesure positive non nulle sur G, invariant à gauche d’après (i) ; c’est la mesure de Haar à gauche cherchée. Passant au groupe opposé, on en déduit l’existence d’une mesure de Haar à droite.
+D’après (vi), $\lim_{g, \mathfrak{F}} I_g(f) = I(f)$ existe dans l’espace compact $\{1/(f_0 : f), (f : f_0)\}$. D’après (iii), on a $I(f + f') \leq I(f) + I(f')$. D’après (vii), on a $I(f) + I(f') \leq I(f + f') + \varepsilon I(h)$ quel que soit $\varepsilon > 0$ si $h$ est $\geq 1$ dans le support de $f + f'$; il s’ensuit que $I(f + f') = I(f) + I(f')$. D’après le chap. II, § 2, no 1, prop. 2, I se prolonge en une forme linéaire sur $\mathscr{K}$; cette forme linéaire est une mesure positive non nulle sur G, invariant à gauche d’après (i) ; c’est la mesure de Haar à gauche cherchée. Passant au groupe opposé, on en déduit l’existence d’une mesure de Haar à droite.
 
 B) Unicité. — Soient $\mu$ une mesure de Haar à gauche, $\nu$ une mesure de Haar à droite. Alors $\check{\nu}$ est une mesure de Haar à gauche. On va montrer que $\mu$ et $\check{\nu}$ sont proportionnelles. Ceci prouvera bien que deux mesures de Haar à gauche sont proportionnelles.
 
-Soit $f \in \mathcal{K}$ telle que $\mu(f) \neq 0$. D’après le lemme 1, la fonction $D_f$, définie sur G par
+Soit $f \in \mathscr{K}$ telle que $\mu(f) \neq 0$. D’après le lemme 1, la fonction $D_f$, définie sur G par
 
 $$
 (16) \quad D_f(s) = \mu(f)^{-1} \int f(t^{-1}s) d\nu(t)
 $$
 
-est continue dans G. Soit $g \in \mathcal{K}$. La fonction $(s, t) \to f(s)g(ts)$ est continue à support compact dans $G \times G$. D’après le chap. III, § 5, n° 1, th. 2, on a
+est continue dans G. Soit $g \in \mathscr{K}$. La fonction $(s, t) \to f(s)g(ts)$ est continue à support compact dans $G \times G$. D’après le chap. III, § 5, n° 1, th. 2, on a
 
 $$
 \mu(f)\nu(g) = \left( \int f(s)d\mu(s) \right) \left( \int g(t)d\nu(t) \right)
@@ -350,13 +350,13 @@ $$
 \nu(g) = \mu(D_f \cdot g).
 $$
 
-Ceci prouve d’abord que $D_f$ ne dépend pas de $f$. Car, si $f' \in \mathcal{K}$ est telle que $\mu(f') \neq 0$, on a $D_{f'} \mu = D_f \cdot \mu$, donc $D_f = D_{f'}$ localement presque partout pour $\mu$, donc partout puisque $D_f$ et $D_{f'}$ sont continues et que le support de $\mu$ est $G$. Posons donc $D_f = D$. La formule (16) donne
+Ceci prouve d’abord que $D_f$ ne dépend pas de $f$. Car, si $f' \in \mathscr{K}$ est telle que $\mu(f') \neq 0$, on a $D_{f'} \mu = D_f \cdot \mu$, donc $D_f = D_{f'}$ localement presque partout pour $\mu$, donc partout puisque $D_f$ et $D_{f'}$ sont continues et que le support de $\mu$ est $G$. Posons donc $D_f = D$. La formule (16) donne
 
 $$
 \mu(f)D(e) = \tilde{\nu}(f).
 $$
 
-La formule (19) s’étend par linéarité aux fonctions $f \in \mathcal{K}$ telles que $\mu(f) = 0$. On a $D(e) \neq 0$ puisque $\tilde{\nu} \neq 0$. Ceci établit bien la proportionnalité de $\mu$ et $\tilde{\nu}$.
+La formule (19) s’étend par linéarité aux fonctions $f \in \mathscr{K}$ telles que $\mu(f) = 0$. On a $D(e) \neq 0$ puisque $\tilde{\nu} \neq 0$. Ceci établit bien la proportionnalité de $\mu$ et $\tilde{\nu}$.
 
 #### Corollaire {#int-vii-s1-n2-cor-1 .statement}
 
@@ -368,7 +368,7 @@ Sur le groupe additif $\mathbf{R}$, la mesure de Lebesgue $dx$ est une mesure de
 
 #### Exemple 2 {#int-vii-s1-n2-exa-2 .statement}
 
-Pour toute fonction $f \in \mathcal{K}(\mathbf{R}_+^*)$, on a (*Fonct. var. réelle*, chap. II, § 1, formule (13))
+Pour toute fonction $f \in \mathscr{K}(\mathbf{R}_+^*)$, on a (*Fonct. var. réelle*, chap. II, § 1, formule (13))
 
 $$
 \int_0^{+\infty} \frac{f(x)}{x} dx = \int_0^{+\infty} \frac{f(tx)}{tx} t dx = \int_0^{+\infty} \frac{f(tx)}{x} dx
@@ -377,7 +377,7 @@ quel que soit $t > 0$; la mesure $x^{-1} dx$ est donc une mesure de Haar sur le 
 
 #### Exemple 3 {#int-vii-s1-n2-exa-3 .statement}
 
-Prenons pour $G$ le tore $\mathbf{T} = \mathbf{R}/\mathbf{Z}$. Soit $\varphi$ l’application canonique de $\mathbf{R}$ sur $\mathbf{T}$. Pour $f \in \mathcal{H}(\mathbf{T})$, la fonction $f \circ \varphi$ est continue et périodique de période 1 sur $\mathbf{R}$, et l’intégrale
+Prenons pour $G$ le tore $\mathbf{T} = \mathbf{R}/\mathbf{Z}$. Soit $\varphi$ l’application canonique de $\mathbf{R}$ sur $\mathbf{T}$. Pour $f \in \mathscr{H}(\mathbf{T})$, la fonction $f \circ \varphi$ est continue et périodique de période 1 sur $\mathbf{R}$, et l’intégrale
 $$
 I(f) = \int_a^{a+1} f(\varphi(x)) dx
 $$
@@ -562,9 +562,9 @@ Si G est soit discret, soit compact, sa mesure de Haar normalisée est transform
 
 #### Proposition 4 {#int-vii-s1-prop-4 .statement}
 
-Soient G un groupe localement compact, $\Gamma$ un groupe topologique, et $\gamma \to u_\gamma$ un homomorphisme de $\Gamma$ dans le groupe $\mathcal{G}$ des automorphismes de G, tel que $(\gamma, x) \to u_\gamma(x)$ soit une application continue de $\Gamma \times G$ dans G. Alors l'application $\gamma \to \operatorname{mod}(u_\gamma)$ est une représentation continue de $\Gamma$ dans $\mathbf{R}_+^*$.
+Soient G un groupe localement compact, $\Gamma$ un groupe topologique, et $\gamma \to u_\gamma$ un homomorphisme de $\Gamma$ dans le groupe $\mathscr{G}$ des automorphismes de G, tel que $(\gamma, x) \to u_\gamma(x)$ soit une application continue de $\Gamma \times G$ dans G. Alors l'application $\gamma \to \operatorname{mod}(u_\gamma)$ est une représentation continue de $\Gamma$ dans $\mathbf{R}_+^*$.
 
-Cette application est évidemment une représentation (algébrique) de $\Gamma$ dans $\mathbf{R}_+^*$; il suffit de prouver sa continuité. Soient $f \in \mathcal{K}(G)$ et S son support. Soient $\gamma_0 \in \Gamma$ et U un voisinage relativement compact de $u_{\gamma_0}^{-1}(S)$. L'application $\gamma \to u_\gamma$ est une application continue de $\Gamma$ dans $\mathcal{G}$ muni de la topologie de la convergence compacte (Top. Gén., chap. X, 2e éd., § 3, no 4, th. 3); donc $u_{\gamma_0}^{-1}(S) \subset U$ pour $\gamma$ assez voisin de $\gamma_0$. Le lemme 1 du no 1 prouve alors que $\int f(u_\gamma(x)) d\mu(x)$ (où $\mu$ désigne une mesure de Haar à gauche de G) dépend continûment de $\gamma$; d'où la proposition.
+Cette application est évidemment une représentation (algébrique) de $\Gamma$ dans $\mathbf{R}_+^*$; il suffit de prouver sa continuité. Soient $f \in \mathscr{K}(G)$ et S son support. Soient $\gamma_0 \in \Gamma$ et U un voisinage relativement compact de $u_{\gamma_0}^{-1}(S)$. L'application $\gamma \to u_\gamma$ est une application continue de $\Gamma$ dans $\mathscr{G}$ muni de la topologie de la convergence compacte (Top. Gén., chap. X, 2e éd., § 3, no 4, th. 3); donc $u_{\gamma_0}^{-1}(S) \subset U$ pour $\gamma$ assez voisin de $\gamma_0$. Le lemme 1 du no 1 prouve alors que $\int f(u_\gamma(x)) d\mu(x)$ (où $\mu$ désigne une mesure de Haar à gauche de G) dépend continûment de $\gamma$; d'où la proposition.
 
 ### 5. Mesure de Haar d'un produit.
 
@@ -588,7 +588,7 @@ La mesure de Lebesgue sur $\mathbf{R}^n$ est une mesure de Haar du groupe additi
 
 #### Exemple 2 {#int-vii-s1-n5-exa-2 .statement}
 
-L’application $(r, u) \to ru$ est un isomorphisme de $\mathbf{R}_+^* \times \mathbf{U}$ sur $\mathbf{C}^*$ (*Top. gén.*, chap. VIII, § 1, no 3). Si on identifie $\mathbf{C}^*$ à $\mathbf{R}_+^* \times \mathbf{U}$ par cet isomorphisme, et si on note $du$ une mesure de Haar de $\mathbf{U}$, $r^{-1} dr du$ est une mesure de Haar de $\mathbf{C}^*$ d’après l’exemple 2 du no 2. D’autre part, la bijection $\theta \to e^{2i\pi\theta}$ de $[0, 1[$ sur $\mathbf{U}$ transforme la mesure de Lebesgue $d\theta$ de $[0, 1[$ en une mesure de Haar sur $\mathbf{U}$ d’après l’exemple 3 du no 2. Il en résulte que, si $f \in \mathcal{H}(\mathbf{C}^*)$, l’intégrale
+L’application $(r, u) \to ru$ est un isomorphisme de $\mathbf{R}_+^* \times \mathbf{U}$ sur $\mathbf{C}^*$ (*Top. gén.*, chap. VIII, § 1, no 3). Si on identifie $\mathbf{C}^*$ à $\mathbf{R}_+^* \times \mathbf{U}$ par cet isomorphisme, et si on note $du$ une mesure de Haar de $\mathbf{U}$, $r^{-1} dr du$ est une mesure de Haar de $\mathbf{C}^*$ d’après l’exemple 2 du no 2. D’autre part, la bijection $\theta \to e^{2i\pi\theta}$ de $[0, 1[$ sur $\mathbf{U}$ transforme la mesure de Lebesgue $d\theta$ de $[0, 1[$ en une mesure de Haar sur $\mathbf{U}$ d’après l’exemple 3 du no 2. Il en résulte que, si $f \in \mathscr{H}(\mathbf{C}^*)$, l’intégrale
 
 $$
 \int_0^{+\infty} \int_0^1 f(re^{2i\pi\theta}) r^{-1} dr d\theta
@@ -602,19 +602,19 @@ Soit G un groupe localement compact (donc complet). Soit $(K_\alpha)_{\alpha \in
 
 #### Lemme 2 {#int-vii-s1-lem-2 .statement}
 
-a) *Soient* $f \in \mathcal{K}_+(G)$, *S une partie compacte de* $G$ *contenant* $\mathrm{Supp}\ f$, *U un voisinage ouvert de* $S$ *dans* $G$, *et* $\varepsilon > 0$. *Il existe un* $\alpha \in A$ *et une fonction* $g \in \mathcal{K}_+(G)$, *nulle hors de* $U$, *constante sur les classes suivant* $K_\alpha$, *telle que* $|f - g| \leq \varepsilon$.
+a) *Soient* $f \in \mathscr{K}_+(G)$, *S une partie compacte de* $G$ *contenant* $\mathrm{Supp}\ f$, *U un voisinage ouvert de* $S$ *dans* $G$, *et* $\varepsilon > 0$. *Il existe un* $\alpha \in A$ *et une fonction* $g \in \mathscr{K}_+(G)$, *nulle hors de* $U$, *constante sur les classes suivant* $K_\alpha$, *telle que* $|f - g| \leq \varepsilon$.
 
 b) *Soient* $\mu$ *et* $\mu'$ *deux mesures sur* $G$ *telles que* $\varphi_\alpha(\mu) = \varphi_\alpha(\mu')$ *pour tout* $\alpha \in A$. *Alors* $\mu = \mu'$.
 
-Il existe un $\alpha_1 \in A$ tel que $K_{\alpha_1} S \cap K_{\alpha_1}(G - U) = \varnothing$ (*Top. Gén.*, chap. II, 3e éd., § 4, n° 3, prop. 4). En augmentant $S$ et en diminuant $U$, on peut donc supposer que $S$ et $U$ sont des réunions de classes suivant $K_{\alpha_1}$. Considérons les fonctions numériques continues $h$ sur $S$ qui possèdent la propriété suivante : il existe $\alpha \geq \alpha_1$ tel que $h$ soit constante sur les classes suivant $K_\alpha$. Ces fonctions forment une sous-algèbre de $\mathcal{K}(S)$ (parce que la famille $(K_\alpha)$ est filtrante décroissante) qui contient les constantes et qui sépare les points de $S$ : en effet, soient $x, y$ deux points distincts de $S$; comme l’intersection des $K_\alpha$ est $\{e\}$, il existe $\alpha \geq \alpha_1$ tel que $\varphi_\alpha(x) \neq \varphi_\alpha(y)$, puis une fonction numérique $u$ continue dans $\varphi_\alpha(S)$, telle que $u(\varphi_\alpha(x)) \neq u(\varphi_\alpha(y))$. D’après le th. de Weierstrass-Stone, il existe un $\alpha \geq \alpha_1$ et une fonction $h \geq 0$ continue dans $S$, constante sur les classes suivant $K_\alpha$, et telle que $|f - h| \leq \frac{\varepsilon}{2}$ dans $S$. Pour tout $t \in \mathbf{R}$, posons $\delta(t) = \left( t - \frac{\varepsilon}{2} \right)^+$, et posons $h' = \delta \circ h$. Alors $h'$ est une fonction $\geq 0$, continue dans $S$, constante sur les classes suivant $K_\alpha$, et l’on a $|h - h'| \leq \frac{\varepsilon}{2}$ dans $S$, donc $|f - h'| \leq \varepsilon$ dans $S$. D’autre part, on a $h'(x) = 0$ si $x$ appartient à la frontière de $S$ dans $G$, car alors $h(x) \leq \frac{\varepsilon}{2}$. Si on prolonge $h'$ par 0 dans le complémentaire de $S$, on obtient une fonction $g$ qui répond à la question, ce qui prouve a).
+Il existe un $\alpha_1 \in A$ tel que $K_{\alpha_1} S \cap K_{\alpha_1}(G - U) = \varnothing$ (*Top. Gén.*, chap. II, 3e éd., § 4, n° 3, prop. 4). En augmentant $S$ et en diminuant $U$, on peut donc supposer que $S$ et $U$ sont des réunions de classes suivant $K_{\alpha_1}$. Considérons les fonctions numériques continues $h$ sur $S$ qui possèdent la propriété suivante : il existe $\alpha \geq \alpha_1$ tel que $h$ soit constante sur les classes suivant $K_\alpha$. Ces fonctions forment une sous-algèbre de $\mathscr{K}(S)$ (parce que la famille $(K_\alpha)$ est filtrante décroissante) qui contient les constantes et qui sépare les points de $S$ : en effet, soient $x, y$ deux points distincts de $S$; comme l’intersection des $K_\alpha$ est $\{e\}$, il existe $\alpha \geq \alpha_1$ tel que $\varphi_\alpha(x) \neq \varphi_\alpha(y)$, puis une fonction numérique $u$ continue dans $\varphi_\alpha(S)$, telle que $u(\varphi_\alpha(x)) \neq u(\varphi_\alpha(y))$. D’après le th. de Weierstrass-Stone, il existe un $\alpha \geq \alpha_1$ et une fonction $h \geq 0$ continue dans $S$, constante sur les classes suivant $K_\alpha$, et telle que $|f - h| \leq \frac{\varepsilon}{2}$ dans $S$. Pour tout $t \in \mathbf{R}$, posons $\delta(t) = \left( t - \frac{\varepsilon}{2} \right)^+$, et posons $h' = \delta \circ h$. Alors $h'$ est une fonction $\geq 0$, continue dans $S$, constante sur les classes suivant $K_\alpha$, et l’on a $|h - h'| \leq \frac{\varepsilon}{2}$ dans $S$, donc $|f - h'| \leq \varepsilon$ dans $S$. D’autre part, on a $h'(x) = 0$ si $x$ appartient à la frontière de $S$ dans $G$, car alors $h(x) \leq \frac{\varepsilon}{2}$. Si on prolonge $h'$ par 0 dans le complémentaire de $S$, on obtient une fonction $g$ qui répond à la question, ce qui prouve a).
 
-Soient maintenant $\mu, \mu'$ deux mesures sur $G$ telles que $\varphi_\alpha(\mu) = \varphi_\alpha(\mu')$ pour tout $\alpha \in A$. Soit $v \in \mathcal{K}(G)$ une fonction constante sur les classes suivant $K_\alpha$ pour un $\alpha \in A$, de sorte qu’on peut écrire $v = w \circ \varphi_\alpha$ avec $w \in \mathcal{K}(G_\alpha)$; on a alors $\mu(v) = (\varphi_\alpha(\mu))(w) = (\varphi_\alpha(\mu'))(w) = \mu'(v)$; on en conclut que $\mu = \mu'$ en vertu de a).
+Soient maintenant $\mu, \mu'$ deux mesures sur $G$ telles que $\varphi_\alpha(\mu) = \varphi_\alpha(\mu')$ pour tout $\alpha \in A$. Soit $v \in \mathscr{K}(G)$ une fonction constante sur les classes suivant $K_\alpha$ pour un $\alpha \in A$, de sorte qu’on peut écrire $v = w \circ \varphi_\alpha$ avec $w \in \mathscr{K}(G_\alpha)$; on a alors $\mu(v) = (\varphi_\alpha(\mu))(w) = (\varphi_\alpha(\mu'))(w) = \mu'(v)$; on en conclut que $\mu = \mu'$ en vertu de a).
 
 #### Proposition 6 {#int-vii-s1-prop-6 .statement}
 
 *Pour tout $\alpha \in A$, soit $\mu_\alpha$ une mesure positive sur $G_\alpha$. On suppose que $\varphi_{\beta\alpha}(\mu_\alpha) = \mu_\beta$ pour $\alpha \geq \beta$. Il existe alors une mesure positive $\mu$ sur $G$ et une seule telle que $\varphi_\alpha(\mu) = \mu_\alpha$ pour tout $\alpha \in A$.*
 
-L’unicité résulte aussitôt du lemme 2 b). Prouvons l’existence de $\mu$. Soit V l’espace vectoriel des fonctions appartenant à $\mathcal{K}(G)$ et constantes sur les classes suivant un $K_\alpha$. D’après le lemme 2 a), V est un sous-espace vectoriel positivement riche (chap. III, § 2, no 5) de $\mathcal{K}(G)$. Soit $f \in V$. Il existe un $\alpha \in A$ tel que $f$ soit constante sur les classes suivant $K_\alpha$. Par passage au quotient, $f$ définit une fonction $f_\alpha \in \mathcal{K}(G_\alpha)$. Le nombre $\mu(f) = \mu_\alpha(f_\alpha)$ ne dépend pas du choix de $\alpha$; car soit $\beta$ un indice tel que $f$ soit constante sur les classes suivant $K_\beta$; soit $\gamma \in A$ tel que $\gamma \geq \alpha, \gamma \geq \beta$; alors $f$ définit des fonctions $f_\beta \in \mathcal{K}(G_\beta), f_\gamma \in \mathcal{K}(G_\gamma)$ telles que $f = f_\beta \circ \varphi_\beta = f_\gamma \circ \varphi_\gamma$; on a $f_\alpha \circ \varphi_{\alpha\gamma} = f_\gamma$, donc $\mu_\gamma(f_\gamma) = (\varphi_{\alpha\gamma}(\mu_\gamma))(f_\alpha) = \mu_\alpha(f_\alpha)$, et de même $\mu_\gamma(f_\gamma) = \mu_\beta(f_\beta)$, d’où notre assertion. Ceci posé, il est clair que $\mu$ est une forme linéaire sur V et que $\mu(f) \geq 0$ pour $f \geq 0$. D’après la prop. 2 du chap. III, § 2, no 5, $\mu$ se prolonge en une mesure positive, que nous noterons encore $\mu$, sur $G$. On a $\varphi_\alpha(\mu) = \mu_\alpha$ pour tout $\alpha \in A$ par construction même de $\mu$.
+L’unicité résulte aussitôt du lemme 2 b). Prouvons l’existence de $\mu$. Soit V l’espace vectoriel des fonctions appartenant à $\mathscr{K}(G)$ et constantes sur les classes suivant un $K_\alpha$. D’après le lemme 2 a), V est un sous-espace vectoriel positivement riche (chap. III, § 2, no 5) de $\mathscr{K}(G)$. Soit $f \in V$. Il existe un $\alpha \in A$ tel que $f$ soit constante sur les classes suivant $K_\alpha$. Par passage au quotient, $f$ définit une fonction $f_\alpha \in \mathscr{K}(G_\alpha)$. Le nombre $\mu(f) = \mu_\alpha(f_\alpha)$ ne dépend pas du choix de $\alpha$; car soit $\beta$ un indice tel que $f$ soit constante sur les classes suivant $K_\beta$; soit $\gamma \in A$ tel que $\gamma \geq \alpha, \gamma \geq \beta$; alors $f$ définit des fonctions $f_\beta \in \mathscr{K}(G_\beta), f_\gamma \in \mathscr{K}(G_\gamma)$ telles que $f = f_\beta \circ \varphi_\beta = f_\gamma \circ \varphi_\gamma$; on a $f_\alpha \circ \varphi_{\alpha\gamma} = f_\gamma$, donc $\mu_\gamma(f_\gamma) = (\varphi_{\alpha\gamma}(\mu_\gamma))(f_\alpha) = \mu_\alpha(f_\alpha)$, et de même $\mu_\gamma(f_\gamma) = \mu_\beta(f_\beta)$, d’où notre assertion. Ceci posé, il est clair que $\mu$ est une forme linéaire sur V et que $\mu(f) \geq 0$ pour $f \geq 0$. D’après la prop. 2 du chap. III, § 2, no 5, $\mu$ se prolonge en une mesure positive, que nous noterons encore $\mu$, sur $G$. On a $\varphi_\alpha(\mu) = \mu_\alpha$ pour tout $\alpha \in A$ par construction même de $\mu$.
 
 #### Définition 5 {#int-vii-s1-def-5 .statement}
 
@@ -748,7 +748,7 @@ Les notions de fonctions négligeables, localement négligeables, mesurables, lo
 
 La suffisance est évidente. Soit ν ≠ 0 une mesure quasi-invariante à gauche, et montrons que ν est équivalente à μ. On peut se borner au cas où ν > 0. Soit A une partie compacte de G. On va montrer, ce qui établira la proposition, que les conditions μ(A) = 0, ν(A) = 0 sont équivalentes (chap. V, § 5, no 5, Remarque).
 
-a) Pour toute f ∈ $\mathcal{K}_+(G)$, la fonction $(x, y) \to f(x)\varphi_A(xy)$ sur $G \times G$ est $(\nu \otimes \mu)$-intégrable, car elle est semi-continue supérieurement, bornée, et son support est contenu dans l’ensemble compact $K \times K^{-1}A$ si l’on pose $K = \mathrm{Supp}\, f$. On a donc, par le théorème de Lebesgue-Fubini
+a) Pour toute f ∈ $\mathscr{K}_+(G)$, la fonction $(x, y) \to f(x)\varphi_A(xy)$ sur $G \times G$ est $(\nu \otimes \mu)$-intégrable, car elle est semi-continue supérieurement, bornée, et son support est contenu dans l’ensemble compact $K \times K^{-1}A$ si l’on pose $K = \mathrm{Supp}\, f$. On a donc, par le théorème de Lebesgue-Fubini
 
 $$
 \int d\nu(y) \int \varphi_A(xy)f(x)d\mu(x) = \int f(x)d\mu(x) \int \varphi_A(xy)d\nu(y).
@@ -760,7 +760,7 @@ $$
 0 = \int \varphi_A(xy)f(x)d\mu(x) = \Delta_G(y)^{-1} \int \varphi_A(x)f(xy^{-1})d\mu(x).
 $$
 
-Soit B une partie compacte de G telle que ν(B) ≠ 0, et prenons pour f une fonction de $\mathcal{K}_+(G)$ égale à 1 sur AB⁻¹. Il existe alors un $y \in B$ tel que (37) soit vérifié. Mais comme
+Soit B une partie compacte de G telle que ν(B) ≠ 0, et prenons pour f une fonction de $\mathscr{K}_+(G)$ égale à 1 sur AB⁻¹. Il existe alors un $y \in B$ tel que (37) soit vérifié. Mais comme
 
 $$
 \varphi_A(x)f(xy^{-1}) = \varphi_A(x)
@@ -768,7 +768,7 @@ $$
 
 pour $y \in B$, cela prouve que $\mu(A) = 0$.
 
-c) Supposons $\mu(A) = 0$. Alors, pour toute $f \in \mathcal{K}_+(G)$, le premier membre de (36) est nul, donc aussi le second. Par suite, il existe un ensemble M localement $\mu$-négligeable tel que
+c) Supposons $\mu(A) = 0$. Alors, pour toute $f \in \mathscr{K}_+(G)$, le premier membre de (36) est nul, donc aussi le second. Par suite, il existe un ensemble M localement $\mu$-négligeable tel que
 
 $$
 \int \varphi_A(xy)d\nu(y) = 0,
@@ -861,7 +861,7 @@ $$
 (x_1, \ldots, x_n) \to (x_1 + \sum_{i=2}^n c_i x_i, x_2, \ldots, x_n).
 $$
 
-Si $f \in \mathcal{K}(E)$, on a, en notant $\alpha$ une mesure de Haar sur $K^+$,
+Si $f \in \mathscr{K}(E)$, on a, en notant $\alpha$ une mesure de Haar sur $K^+$,
 
 $$
 \int \cdots \int_{K^n} f(x_1 + \sum_{i=2}^n c_i x_i, x_2, \ldots, x_n) d\alpha(x_1) d\alpha(x_2) \cdots d\alpha(x_n)

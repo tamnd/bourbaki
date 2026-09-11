@@ -13,7 +13,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 58b563b96ae20d755de4e9e453e4a35d85e9c920ed79cf8074f36e73762e409e
+          content_sha256: d6f2e7157bbb7caee02fe75bf8c8e585313da370957d1c8963e8e49e22d73a79
         - kind: section
           section: 1
           title: Intégrale supérieure essentielle
@@ -25,7 +25,7 @@ chapters:
           statements: 25
           exercises: 6
           extraction: ocr
-          content_sha256: d11e7515e7fa3bff7befe7638d735f485c5cb79347900de3bd83aee030b88613
+          content_sha256: 71dee38cf399f6e181553daa5a081649725dc3a8e5397d2676d978efd4a91056
         - kind: section
           section: 2
           title: Familles sommables de mesures positives
@@ -37,7 +37,7 @@ chapters:
           statements: 12
           exercises: 4
           extraction: ocr
-          content_sha256: 36aae4cf3f347aee62a7fae0525d731840fcaa832efcbb7d50675316943ae79a
+          content_sha256: 9281fb2355828d7c5c8b7262f46e05909395d6fce4cdb1cb8201d230589dbe59
         - kind: section
           section: 3
           title: Intégration de mesures positives
@@ -49,7 +49,7 @@ chapters:
           statements: 30
           exercises: 11
           extraction: ocr
-          content_sha256: 6939f9e77e55465f5b85328ebbf0aba79dcbe3164f1e342f8739c9f8e659611f
+          content_sha256: 7a3cb999cc8d3de5023e3e54dae6f3f5769eaa59bce6edaccddd361a42fb3885
         - kind: section
           section: 4
           title: Intégration de mesures positives ponctuelles
@@ -61,7 +61,7 @@ chapters:
           statements: 10
           exercises: 2
           extraction: ocr
-          content_sha256: 2dd84f7048c20eb8876b7a7c7626df914539ff717856b58693d748e5902dbc30
+          content_sha256: 502b9b975ffd005784c43fe8cd0b5cc22aabb31466f1f7b00d397f42f105ddfe
         - kind: section
           section: 5
           title: Mesures définies par des densités numériques
@@ -73,7 +73,7 @@ chapters:
           statements: 48
           exercises: 31
           extraction: ocr
-          content_sha256: f31a06b30e3b499d06ddee3ce0d6d3c8db1b8e61531382c43bd475219ea28a37
+          content_sha256: b388de943b1f699f14e610dcbc08c22b00571e42f5652a700a6e18e17001f9ca
         - kind: section
           section: 6
           title: Images d'une mesure
@@ -85,7 +85,7 @@ chapters:
           statements: 31
           exercises: 22
           extraction: ocr
-          content_sha256: 39c42d717fc9eb8f91b93bf7f6a05da649e50c023a580154ac49c8c895be5ff7
+          content_sha256: a854490aab3a5a7d8f40be167f587454237cab0426ee2daabcfd82ac0281e016
         - kind: section
           section: 7
           title: Intégration par rapport à une mesure induite
@@ -97,7 +97,7 @@ chapters:
           statements: 20
           exercises: 11
           extraction: ocr
-          content_sha256: 6189a0d7c9b5aef26a832ec16a0af970d9fede5371f1842ab0d6e0ff6067922b
+          content_sha256: a8504a3e0d4cbbf6c6eac7bc85a84601bf73ecf115f2d776dfb74d9b2d9053eb
         - kind: section
           section: 8
           title: Produits de mesures
@@ -109,7 +109,7 @@ chapters:
           statements: 32
           exercises: 21
           extraction: ocr
-          content_sha256: e9a23021c716217591374b684c9924babbabd30581884ea5589fb627bba7b49d
+          content_sha256: 28e24f1394ba64a761548c1bcc04c55acd1b720d24ccc62d40d616be83b3ed2d
         - kind: historical
           title: Historical Note
           path: content/fr/int/V/historical_note.md
@@ -119,7 +119,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 34eb3c48396e1453f3d8da9dc4e3de678369874bdaee51088e6c9d60b110633e
+          content_sha256: 60a195b05218a4d4a82b89b44d05812a25480650581542ef71e51c2a20f65310
 terminology_index:
     kind: terminology
     title: INDEX TERMINOLOGIQUE

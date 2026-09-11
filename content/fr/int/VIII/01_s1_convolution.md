@@ -32,7 +32,7 @@ subsections:
       pdf_page: 126
 statements: 15
 exercises: 0
-content_sha256: 2fda2cb240ee30046e4d7ca00b89fdab933693bce9e6decfa8ba3209e8ccf533
+content_sha256: a7690dbc858b8b15547310189815cd83712f8e1eeaea0b6c823457b420303ee9
 ---
 
 ## § 1. Convolution.
@@ -64,7 +64,7 @@ $$
 \int f\, d(\mu_1 * \mu_2 * \ldots * \mu_n) = \int f(\varphi(x_1, \ldots, x_n)) d\mu_1(x_1) \ldots d\mu_n(x_n)
 $$
 
-formule qui peut être considérée comme définissant $\mu_1 * \ldots * \mu_n$ quand on y prend $f \in \mathcal{H}(Y)$.
+formule qui peut être considérée comme définissant $\mu_1 * \ldots * \mu_n$ quand on y prend $f \in \mathscr{H}(Y)$.
 
 Les définitions entraînent aussitôt que les $\mu_i$ sont convolables si et seulement si les $|\mu_i|$ le sont. On a alors
 
@@ -122,7 +122,7 @@ Le lemme suivant complète la prop. 7 du chap. V, § 8, no 3 :
 
 Pour $1 \leq i \leq n$, soient $X_i, Y_i$ deux espaces localement compacts, $\mu_i$ une mesure sur $X_i$, $\varphi_i$ une application continue de $X_i$ dans $Y_i$. Soient $X = \prod_i X_i$, $Y = \prod_i Y_i$, $\mu = \bigotimes_i \mu_i$, et $\varphi$ l’application de $X$ dans $Y$, produit des $\varphi_i$. Si $\varphi$ est $\mu$-propre et si $\mu_i \neq 0$ pour tout $i$, les $\varphi_i$ sont $\mu_i$-propres et $\varphi(\mu) = \bigotimes_i \varphi_i(\mu_i)$.
 
-On peut supposer les $\mu_i$ positives et $n = 2$. Soit $f_1 \in \mathcal{K}_+(Y_1)$. Puisque $\mu_2 \neq 0$, il existe $f_2 \in \mathcal{K}_+(Y_2)$ telle que $f_2 \circ \varphi_2$ ne soit pas $\mu_2$-négligeable. La fonction $(x_1, x_2) \to f_1(\varphi_1(x_1))f_2(\varphi_2(x_2))$ est essentiellement $\mu$-intégrable et continue, donc $\mu$-intégrable. Donc il existe $x_2 \in X_2$ tel que $f_2(\varphi_2(x_2)) \neq 0$ et que la fonction $x_1 \to f_1(\varphi_1(x_1))f_2(\varphi_2(x_2))$ soit $\mu_1$-intégrable. Donc $f_1 \circ \varphi_1$ est $\mu_1$-intégrable, ce qui prouve que $\varphi_1$ est $\mu_1$-propre. On raisonne de même pour $\varphi_2$. On a $\varphi(\mu) = \bigotimes_i \varphi_i(\mu_i)$ d’après la prop. 7 du chap. V, § 8, no 3.
+On peut supposer les $\mu_i$ positives et $n = 2$. Soit $f_1 \in \mathscr{K}_+(Y_1)$. Puisque $\mu_2 \neq 0$, il existe $f_2 \in \mathscr{K}_+(Y_2)$ telle que $f_2 \circ \varphi_2$ ne soit pas $\mu_2$-négligeable. La fonction $(x_1, x_2) \to f_1(\varphi_1(x_1))f_2(\varphi_2(x_2))$ est essentiellement $\mu$-intégrable et continue, donc $\mu$-intégrable. Donc il existe $x_2 \in X_2$ tel que $f_2(\varphi_2(x_2)) \neq 0$ et que la fonction $x_1 \to f_1(\varphi_1(x_1))f_2(\varphi_2(x_2))$ soit $\mu_1$-intégrable. Donc $f_1 \circ \varphi_1$ est $\mu_1$-intégrable, ce qui prouve que $\varphi_1$ est $\mu_1$-propre. On raisonne de même pour $\varphi_2$. On a $\varphi(\mu) = \bigotimes_i \varphi_i(\mu_i)$ d’après la prop. 7 du chap. V, § 8, no 3.
 
 Le lemme suivant complète la prop. 4 du chap. V, § 6, no 3.
 
@@ -200,7 +200,7 @@ $$
 
 #### Proposition 3 {#int-viii-s1-prop-3 .statement}
 
-*Soient $X_1, \ldots, X_n, Y$ des espaces localement compacts, $\varphi$ une application continue de $\prod_{i=1}^n X_i$ dans $Y$. Alors l’application $(\mu_1, \ldots, \mu_n) \to *_{\varphi} \mu_i$ de $\prod_{i=1}^n \mathcal{M}^1(X_i)$ dans $\mathcal{M}^1(Y)$ est multilinéaire continue.*
+*Soient $X_1, \ldots, X_n, Y$ des espaces localement compacts, $\varphi$ une application continue de $\prod_{i=1}^n X_i$ dans $Y$. Alors l’application $(\mu_1, \ldots, \mu_n) \to *_{\varphi} \mu_i$ de $\prod_{i=1}^n \mathscr{M}^1(X_i)$ dans $\mathscr{M}^1(Y)$ est multilinéaire continue.*
 
 Ceci résulte de la prop. 2 et de ce qu’on a dit au no 1.
 
@@ -236,13 +236,13 @@ Si $\varphi$ est continue, et si les $\mu_i$ sont à support compact, les $\mu_i
 
 #### Proposition 6 {#int-viii-s1-prop-6 .statement}
 
-Soient $X, Y, Z$ des espaces localement compacts, $\varphi$ une application continue de $X \times Y$ dans $Z$, et $\lambda, \mu$ des mesures sur $X, Y$. Pour que $\lambda$ et $\mu$ soient $\varphi$-convolables, il faut et il suffit que l’application $(x, y) \to \varepsilon_{\varphi(x, y)} = \varepsilon_x * \varepsilon_y$ de $X \times Y$ dans $\mathcal{M}(Z)$ soit scalairement $(\lambda \otimes \mu)$-intégrable pour la topologie $\sigma(\mathcal{M}(Z), \mathcal{K}(Z))$, et l’on a alors
+Soient $X, Y, Z$ des espaces localement compacts, $\varphi$ une application continue de $X \times Y$ dans $Z$, et $\lambda, \mu$ des mesures sur $X, Y$. Pour que $\lambda$ et $\mu$ soient $\varphi$-convolables, il faut et il suffit que l’application $(x, y) \to \varepsilon_{\varphi(x, y)} = \varepsilon_x * \varepsilon_y$ de $X \times Y$ dans $\mathscr{M}(Z)$ soit scalairement $(\lambda \otimes \mu)$-intégrable pour la topologie $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$, et l’on a alors
 
 $$
 \lambda * \mu = \int_{X \times Y} (\varepsilon_x * \varepsilon_y) d\lambda(x) d\mu(y).
 $$
 
-Dire que $\lambda$ et $\mu$ sont $\varphi$-convolables signifie que, pour toute $f \in \mathcal{K}(Z)$, $f \circ \varphi$ est $(\lambda \otimes \mu)$-intégrable, c’est-à-dire que, pour toute $f \in \mathcal{K}(Z)$, la fonction $(x, y) \to \langle f, \varepsilon_{\varphi(x, y)} \rangle$ est $(\lambda \otimes \mu)$-intégrable, c’est-à-dire encore que l’application $(x, y) \to \varepsilon_{\varphi(x, y)}$ de $X \times Y$ dans $\mathcal{M}(Z)$ est scalairement $(\lambda \otimes \mu)$-intégrable pour $\sigma(\mathcal{M}(Z), \mathcal{K}(Z))$. S’il en est ainsi, on a
+Dire que $\lambda$ et $\mu$ sont $\varphi$-convolables signifie que, pour toute $f \in \mathscr{K}(Z)$, $f \circ \varphi$ est $(\lambda \otimes \mu)$-intégrable, c’est-à-dire que, pour toute $f \in \mathscr{K}(Z)$, la fonction $(x, y) \to \langle f, \varepsilon_{\varphi(x, y)} \rangle$ est $(\lambda \otimes \mu)$-intégrable, c’est-à-dire encore que l’application $(x, y) \to \varepsilon_{\varphi(x, y)}$ de $X \times Y$ dans $\mathscr{M}(Z)$ est scalairement $(\lambda \otimes \mu)$-intégrable pour $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$. S’il en est ainsi, on a
 
 $$
 \langle \lambda * \mu, f \rangle = \int f(\varphi(x, y)) d\lambda(x) d\mu(y) = \int_{X \times Y} \langle \varepsilon_{\varphi(x, y)}, f \rangle d\lambda(x) d\mu(y),
@@ -252,15 +252,15 @@ d’où $\lambda * \mu = \int_{X \times Y} \varepsilon_{\varphi(x, y)} d\lambda(
 
 #### Proposition 7 {#int-viii-s1-prop-7 .statement}
 
-Soient $X, Y, Z$ des espaces localement compacts, $\varphi$ une application continue de $X \times Y$ dans $Z$, et $\lambda, \mu$ des mesures sur $X, Y$. On suppose que, pour tout $x \in X$, $\varepsilon_x$ et $\mu$ sont $\varphi$-convolables. Pour que $\lambda$ et $\mu$ soient $\varphi$-convolables, il faut et il suffit que l’application $x \to \varepsilon_x * |\mu|$ de $X$ dans $\mathcal{M}(Z)$ soit scalairement $\lambda$-intégrable pour la topologie $\sigma(\mathcal{M}(Z), \mathcal{K}(Z))$, et l’on a alors $\lambda * \mu = \int_X (\varepsilon_x * \mu) d\lambda(x)$.
+Soient $X, Y, Z$ des espaces localement compacts, $\varphi$ une application continue de $X \times Y$ dans $Z$, et $\lambda, \mu$ des mesures sur $X, Y$. On suppose que, pour tout $x \in X$, $\varepsilon_x$ et $\mu$ sont $\varphi$-convolables. Pour que $\lambda$ et $\mu$ soient $\varphi$-convolables, il faut et il suffit que l’application $x \to \varepsilon_x * |\mu|$ de $X$ dans $\mathscr{M}(Z)$ soit scalairement $\lambda$-intégrable pour la topologie $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$, et l’on a alors $\lambda * \mu = \int_X (\varepsilon_x * \mu) d\lambda(x)$.
 
-Supposons que $\lambda$ et $\mu$ soient $\varphi$-convolables. Pour toute $f \in \mathcal{K}(Z)$, $f \circ \varphi$ est $(|\lambda| \otimes |\mu|)$-intégrable, donc la fonction $x \to \int_Y f(\varphi(x,y))d|\mu|(y) = \langle f, \varepsilon_x * |\mu| \rangle$ (qui par hypothèse est définie pour tout $x \in X$) est $\lambda$-intégrable; donc $x \to \varepsilon_x * |\mu|$ est scalairement $\lambda$-intégrable pour $\sigma(\mathcal{M}(Z), \mathcal{K}(Z))$, et l’on a
+Supposons que $\lambda$ et $\mu$ soient $\varphi$-convolables. Pour toute $f \in \mathscr{K}(Z)$, $f \circ \varphi$ est $(|\lambda| \otimes |\mu|)$-intégrable, donc la fonction $x \to \int_Y f(\varphi(x,y))d|\mu|(y) = \langle f, \varepsilon_x * |\mu| \rangle$ (qui par hypothèse est définie pour tout $x \in X$) est $\lambda$-intégrable; donc $x \to \varepsilon_x * |\mu|$ est scalairement $\lambda$-intégrable pour $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$, et l’on a
 
 $$
 \langle f, \lambda * \mu \rangle = \int_X d\lambda(x) \int_Y f(\varphi(x,y))d\mu(y) = \int_X \langle f, \varepsilon_x * \mu \rangle d\lambda(x),
 $$
 
-d’où $\lambda * \mu = \int_X (\varepsilon_x * \mu)d\lambda(x)$. Réciproquement, supposons que l’application $x \to \varepsilon_x * |\mu|$ de $X$ dans $\mathcal{M}(Z)$ soit scalairement $\lambda$-intégrable pour $\sigma(\mathcal{M}(Z), \mathcal{K}(Z))$. Soit $f \in \mathcal{K}_+(Z)$. Alors la fonction $(x, y) \to f(\varphi(x, y))$ est continue et l’on a (chap. V, § 8, prop. 1)
+d’où $\lambda * \mu = \int_X (\varepsilon_x * \mu)d\lambda(x)$. Réciproquement, supposons que l’application $x \to \varepsilon_x * |\mu|$ de $X$ dans $\mathscr{M}(Z)$ soit scalairement $\lambda$-intégrable pour $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$. Soit $f \in \mathscr{K}_+(Z)$. Alors la fonction $(x, y) \to f(\varphi(x, y))$ est continue et l’on a (chap. V, § 8, prop. 1)
 
 $$
 \iint^* f(\varphi(x, y))\ d|\lambda|(x)d|\mu|(y) = \int^* d|\lambda|(x) \int^* f(\varphi(x, y))d|\mu|(y)

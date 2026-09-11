@@ -52,7 +52,7 @@ subsections:
       pdf_page: 72
 statements: 48
 exercises: 31
-content_sha256: f31a06b30e3b499d06ddee3ce0d6d3c8db1b8e61531382c43bd475219ea28a37
+content_sha256: b388de943b1f699f14e610dcbc08c22b00571e42f5652a700a6e18e17001f9ca
 ---
 
 ## § 5. Mesures définies par des densités numériques
@@ -85,17 +85,17 @@ Enfin, c) entraîne a). En effet, pour tout $t \in T$, soit $V$ un voisinage com
 
 On dit qu’une fonction $g$, définie localement presque partout dans $T$ (pour la mesure positive $\mu$), à valeurs dans un espace de Banach $F$ (resp. dans $\bar{\mathbf{R}}$) est localement intégrable pour $\mu$ (ou localement $\mu$-intégrable) si elle satisfait aux conditions $a), b), c)$ de la prop. 1. Si $\theta$ est une mesure complexe, on dit qu’une fonction $g$ définie localement $\theta$-presque partout est localement $\theta$-intégrable si elle est localement intégrable pour la mesure positive $|\theta|$.
 
-Si $g$ est localement $\theta$-intégrable, toute fonction égale à $g$ localement presque partout est localement intégrable. Il est clair que la somme de deux fonctions localement intégrables est localement intégrable. Les fonctions à valeurs dans $F$, partout définies et localement intégrables pour $\theta$ forment un espace vectoriel noté $\mathcal{L}_{loc}^1(T, \theta; F)$; lorsque $F = \mathbf{R}$ ou $\mathbf{C}$, la mention de $F$ est souvent omise s’il n’y a pas d’ambiguïté. Cet espace sera toujours muni (sauf mention expresse du contraire) de la topologie définie par les semi-normes $g \mapsto \int |g \varphi_K| d|\theta|$, où $K$ parcourt l’ensemble des compacts de T. L’espace séparé associé, quotient de $\mathcal{L}_{\text{loc}}^1(T, \theta ; F)$ par le sous-espace $\mathcal{N}^\infty(F)$ des applications nulles localement presque partout, est noté $L_{\text{loc}}^1(T, \theta ; F)$. Les espaces $L_{\text{loc}}^1(T, \theta ; F)$ et $L_{\text{loc}}^1(T, |\theta| ; F)$ sont identiques.
+Si $g$ est localement $\theta$-intégrable, toute fonction égale à $g$ localement presque partout est localement intégrable. Il est clair que la somme de deux fonctions localement intégrables est localement intégrable. Les fonctions à valeurs dans $F$, partout définies et localement intégrables pour $\theta$ forment un espace vectoriel noté $\mathscr{L}_{loc}^1(T, \theta; F)$; lorsque $F = \mathbf{R}$ ou $\mathbf{C}$, la mention de $F$ est souvent omise s’il n’y a pas d’ambiguïté. Cet espace sera toujours muni (sauf mention expresse du contraire) de la topologie définie par les semi-normes $g \mapsto \int |g \varphi_K| d|\theta|$, où $K$ parcourt l’ensemble des compacts de T. L’espace séparé associé, quotient de $\mathscr{L}_{\text{loc}}^1(T, \theta ; F)$ par le sous-espace $\mathscr{N}^\infty(F)$ des applications nulles localement presque partout, est noté $L_{\text{loc}}^1(T, \theta ; F)$. Les espaces $L_{\text{loc}}^1(T, \theta ; F)$ et $L_{\text{loc}}^1(T, |\theta| ; F)$ sont identiques.
 
 On peut montrer que les espaces vectoriels topologiques qui viennent d’être définis sont complets (exerc. 31).
 
-Toute fonction mesurable g essentiellement bornée dans tout ensemble compact est localement intégrable. Pour tout nombre $p$ tel que $1 \leq p \leq +\infty$, toute fonction $g \in \mathcal{L}_F^p$ est localement intégrable; en effet, pour toute fonction $h \in \mathscr{K}(T)$, $h$ appartient à $\mathcal{L}^q$ (où $q$ est l’exposant conjugué de $p$), donc $gh$ est intégrable (chap. IV, 2e éd., § 6, no 4, cor. 4 du th. 2).
+Toute fonction mesurable g essentiellement bornée dans tout ensemble compact est localement intégrable. Pour tout nombre $p$ tel que $1 \leq p \leq +\infty$, toute fonction $g \in \mathscr{L}_F^p$ est localement intégrable; en effet, pour toute fonction $h \in \mathscr{K}(T)$, $h$ appartient à $\mathscr{L}^q$ (où $q$ est l’exposant conjugué de $p$), donc $gh$ est intégrable (chap. IV, 2e éd., § 6, no 4, cor. 4 du th. 2).
 
-Soient F, G, H trois espaces de Banach, et $(\mathbf{u}, \mathbf{v}) \mapsto \Phi(\mathbf{u}, \mathbf{v})$ une application bilinéaire continue de $F \times G$ dans H. Si $f$ est localement intégrable et prend ses valeurs dans F, et si $g \in \mathcal{L}_G^\infty$, $\Phi(f, g)$ est localement intégrable (chap. IV, § 6, no 4, cor. 1 du th. 2).
+Soient F, G, H trois espaces de Banach, et $(\mathbf{u}, \mathbf{v}) \mapsto \Phi(\mathbf{u}, \mathbf{v})$ une application bilinéaire continue de $F \times G$ dans H. Si $f$ est localement intégrable et prend ses valeurs dans F, et si $g \in \mathscr{L}_G^\infty$, $\Phi(f, g)$ est localement intégrable (chap. IV, § 6, no 4, cor. 1 du th. 2).
 
 ### 2. Mesures définies par des densités numériques
 
-Soit $g$ une fonction numérique positive définie localement $\mu$-presque partout dans T, localement $\mu$-intégrable; l’ensemble des $t$ tels que $g(t) = +\infty$ est alors localement $\mu$-négligeable, car $g \varphi_K$ est $\mu$-intégrable pour tout compact K (chap. IV, § 2, no 3, prop. 7). Soit alors $g'$ une fonction localement intégrable positive et finie, égale à $g$ localement $\mu$-presque partout; posons $\lambda'_t = g'(t) \varepsilon_t$. L’application $t \mapsto \lambda'_t$ de T dans $\mathcal{M}_+(T)$ est vaguement $\mu$-mesurable et scalairement essentiellement intégrable (ou encore, le couple (I, $g'$), où I est l’application identique de T, est $\mu$-adapté); l’intégrale $\nu = \int \lambda'_t \, d\mu(t)$ ne dépend pas de la fonction $g'$, localement presque partout égale à $g$, utilisée dans la définition des mesures $\lambda'_t$. Cette mesure $\nu$ est définie par la condition
+Soit $g$ une fonction numérique positive définie localement $\mu$-presque partout dans T, localement $\mu$-intégrable; l’ensemble des $t$ tels que $g(t) = +\infty$ est alors localement $\mu$-négligeable, car $g \varphi_K$ est $\mu$-intégrable pour tout compact K (chap. IV, § 2, no 3, prop. 7). Soit alors $g'$ une fonction localement intégrable positive et finie, égale à $g$ localement $\mu$-presque partout; posons $\lambda'_t = g'(t) \varepsilon_t$. L’application $t \mapsto \lambda'_t$ de T dans $\mathscr{M}_+(T)$ est vaguement $\mu$-mesurable et scalairement essentiellement intégrable (ou encore, le couple (I, $g'$), où I est l’application identique de T, est $\mu$-adapté); l’intégrale $\nu = \int \lambda'_t \, d\mu(t)$ ne dépend pas de la fonction $g'$, localement presque partout égale à $g$, utilisée dans la définition des mesures $\lambda'_t$. Cette mesure $\nu$ est définie par la condition
 
 $$
 \int f(t) \, d\nu(t) = \int f(t)g(t) \, d\mu(t) \quad \text{pour } f \in \mathscr{K}(T).
@@ -145,7 +145,7 @@ $$
 
 Nous commencerons par un résultat auxiliaire :
 
-*Lemme 1. — Soit $\theta$ une mesure complexe, et soit $f$ un élément de $\bar{\mathcal{L}}_c^1(T, \theta)$. On a alors
+*Lemme 1. — Soit $\theta$ une mesure complexe, et soit $f$ un élément de $\bar{\mathscr{L}}_c^1(T, \theta)$. On a alors
 
 $$
 \langle |\theta|, |f| \rangle = \sup_{c \in \mathscr{K}_1} |\langle \theta, cf \rangle| = \sup_{c \in \mathscr{B}_1} |\langle \theta, cf \rangle|
@@ -157,7 +157,7 @@ Traitons d’abord le cas où $f \in \mathscr{K}(T; \mathbf{C})$. On a évidemme
 
 D’autre part, soit g un élément de $\mathscr{K}(T; \mathbf{C})$ tel que $|g| \leq |f|$; g est limite uniforme d’une suite $(g_n)$ d’éléments de $\mathscr{K}(T; \mathbf{C})$, dont les supports sont contenus dans l’ouvert U formé des t tels que $f(t) \neq 0$, et l’on peut évidemment supposer que $|g_n| \leq |f|$ pour tout n. Posons $c_n(t) = g_n(t)/f(t)$ pour $t \in U$, $c_n(t) = 0$ pour $t \notin U$; on a $c_n \in \mathscr{K}_1$, $g = \lim_{n \to \infty} c_n f$, donc $|\langle \theta, g \rangle| = \lim_{n \to \infty} |\langle \theta, c_n f \rangle|$, et finalement $\sup_{|g| \leq |f|, g \in \mathscr{K}(T; \mathbf{C})} |\langle \theta, g \rangle| \leq \sup_{c \in \mathscr{K}_1} |\langle \theta, cf \rangle|$. On conclut en remarquant que le premier membre de cette inégalité est égal à $\langle |\theta|, |f| \rangle$ (chap. III, 2e éd., § 1, n° 6, formule (12)).
 
-Désignons ensuite par f un élément de $\bar{\mathcal{L}}_c^1(\theta)$, et montrons que (4) est encore vraie : il suffit de vérifier que les trois membres de cette relation dépendent continûment de f pour la topologie de $\bar{\mathcal{L}}_c^1(\theta)$, puisqu’ils coïncident sur le sous-espace dense $\mathscr{K}(T; \mathbf{C})$. Cela résulte aussitôt des inégalités suivantes, où f et $f'$ désignent des éléments de $\bar{\mathcal{L}}_c^1(\theta)$ :
+Désignons ensuite par f un élément de $\bar{\mathscr{L}}_c^1(\theta)$, et montrons que (4) est encore vraie : il suffit de vérifier que les trois membres de cette relation dépendent continûment de f pour la topologie de $\bar{\mathscr{L}}_c^1(\theta)$, puisqu’ils coïncident sur le sous-espace dense $\mathscr{K}(T; \mathbf{C})$. Cela résulte aussitôt des inégalités suivantes, où f et $f'$ désignent des éléments de $\bar{\mathscr{L}}_c^1(\theta)$ :
 
 $$
 |\langle |\theta|, |f| \rangle - \langle |\theta|, |f'| \rangle| \leq \langle |\theta|, |f - f'| \rangle = N_1(f - f')
@@ -290,7 +290,7 @@ Si $f$ est une fonction numérique $\geqslant 0$ définie dans $B \supset A$, on
 
 #### Proposition 5 {#int-v-s5-prop-5 .statement}
 
-*Soit* $(\lambda_\alpha)_{\alpha \in A}$ *une famille de mesures positives sur* $T$, *filtrante pour la relation* $\leqslant$, *admettant dans* $\mathcal{M}(T)$ *une borne supérieure* $\lambda$. *Pour qu’une fonction numérique positive* $g$ *soit localement* $\lambda$-*intégrable*, *il faut et il suffit que* $g$ *soit localement* $\lambda_\alpha$*-intégrable pour tout* $\alpha \in A$, *et que la famille* $(g \cdot \lambda_\alpha)$ *soit majorée dans* $\mathcal{M}(T)$; *on a alors*
+*Soit* $(\lambda_\alpha)_{\alpha \in A}$ *une famille de mesures positives sur* $T$, *filtrante pour la relation* $\leqslant$, *admettant dans* $\mathscr{M}(T)$ *une borne supérieure* $\lambda$. *Pour qu’une fonction numérique positive* $g$ *soit localement* $\lambda$-*intégrable*, *il faut et il suffit que* $g$ *soit localement* $\lambda_\alpha$*-intégrable pour tout* $\alpha \in A$, *et que la famille* $(g \cdot \lambda_\alpha)$ *soit majorée dans* $\mathscr{M}(T)$; *on a alors*
 
 $$
 g \cdot \lambda = \sup_{\alpha \in A} g \cdot \lambda_\alpha.
@@ -321,17 +321,17 @@ $$
 g \cdot \mu = \sum_{\alpha \in A} g_\alpha \cdot \mu.
 $$
 
-Il est clair que $g$ est $\mu$-mesurable (chap. IV, 2e éd., § 5, n° 10, prop. 16). Pour que $g$ soit localement $\mu$-intégrable, il faut et il suffit par conséquent que $\mu^*(gf)$ soit fini pour tout $f \in \mathcal{H}_+(T)$. Or l’ensemble des $\alpha \in A$ tels que $g_\alpha f \neq 0$ étant dénombrable, on a $\mu^*(gf) = \sum_{\alpha \in A} \mu^*(g_\alpha f)$ (§ 1, n° 1, cor. de la prop. 2). Posons $v_\alpha = g_\alpha \cdot \mu$; la condition $\mu^*(gf) < +\infty$ équivaut à la condition $\sum_{\alpha \in A} v_\alpha(f) < +\infty$: autrement dit, $g$ est localement $\mu$-intégrable si et seulement si la famille $(v_\alpha)$ est sommable. Si l’on désigne alors par $v$ la somme de cette famille, le calcul précédent donne l’égalité $v(f) = \mu^*(gf)$, qui équivaut à (8).
+Il est clair que $g$ est $\mu$-mesurable (chap. IV, 2e éd., § 5, n° 10, prop. 16). Pour que $g$ soit localement $\mu$-intégrable, il faut et il suffit par conséquent que $\mu^*(gf)$ soit fini pour tout $f \in \mathscr{H}_+(T)$. Or l’ensemble des $\alpha \in A$ tels que $g_\alpha f \neq 0$ étant dénombrable, on a $\mu^*(gf) = \sum_{\alpha \in A} \mu^*(g_\alpha f)$ (§ 1, n° 1, cor. de la prop. 2). Posons $v_\alpha = g_\alpha \cdot \mu$; la condition $\mu^*(gf) < +\infty$ équivaut à la condition $\sum_{\alpha \in A} v_\alpha(f) < +\infty$: autrement dit, $g$ est localement $\mu$-intégrable si et seulement si la famille $(v_\alpha)$ est sommable. Si l’on désigne alors par $v$ la somme de cette famille, le calcul précédent donne l’égalité $v(f) = \mu^*(gf)$, qui équivaut à (8).
 
 #### Corollaire {#int-v-s5-n4-cor-2 .statement}
 
-*Soit $(g_n)$ une suite de fonctions numériques localement $\mu$-intégrables, et telle que la suite des mesures $g_n \cdot \mu$ soit croissante. Pour que cette suite soit majorée dans l’espace vectoriel ordonné $\mathcal{M}(T)$ des mesures sur $T$, il faut et il suffit que la fonction $g = \sup g_n$ soit localement $\mu$-intégrable; la borne supérieure dans $\mathcal{M}(T)$ de la suite $(g_n \cdot \mu)$ est alors la mesure $g \cdot \mu$.
+*Soit $(g_n)$ une suite de fonctions numériques localement $\mu$-intégrables, et telle que la suite des mesures $g_n \cdot \mu$ soit croissante. Pour que cette suite soit majorée dans l’espace vectoriel ordonné $\mathscr{M}(T)$ des mesures sur $T$, il faut et il suffit que la fonction $g = \sup g_n$ soit localement $\mu$-intégrable; la borne supérieure dans $\mathscr{M}(T)$ de la suite $(g_n \cdot \mu)$ est alors la mesure $g \cdot \mu$.
 
 Il suffit d’appliquer la prop. 6 aux fonctions (positives localement presque partout) $g'_n = g_{n+1} - g_n$.
 
 #### Proposition 7 {#int-v-s5-prop-7 .statement}
 
-*Soit $X$ un espace localement compact dénombrable à l’infini, et soit $t \mapsto \lambda_t$ une application $\mu$-adéquate de $T$ dans $\mathcal{M}_+(X)$. Soit $g$ une fonction numérique positive définie dans $X$, localement intégrable pour la mesure $v = \int \lambda_t \, d\mu(t)$. L’ensemble des $t \in T$ tels que $g$ ne soit pas localement $\lambda_t$-intégrable est alors localement négligeable pour $\mu$, l’application $t \mapsto g . \lambda_t$ (définie localement $\mu$-presque partout) est $\mu$-adéquate, et on a:
+*Soit $X$ un espace localement compact dénombrable à l’infini, et soit $t \mapsto \lambda_t$ une application $\mu$-adéquate de $T$ dans $\mathscr{M}_+(X)$. Soit $g$ une fonction numérique positive définie dans $X$, localement intégrable pour la mesure $v = \int \lambda_t \, d\mu(t)$. L’ensemble des $t \in T$ tels que $g$ ne soit pas localement $\lambda_t$-intégrable est alors localement négligeable pour $\mu$, l’application $t \mapsto g . \lambda_t$ (définie localement $\mu$-presque partout) est $\mu$-adéquate, et on a:
 
 $$
 g . v = \int (g . \lambda_t) \, d\mu(t).
@@ -382,13 +382,13 @@ Il est clair que 1) entraîne 2) (cor. 1 de la prop. 3), et que 2) entraîne 3).
 
 Soient $\alpha$ une mesure positive bornée sur $T$, $\beta$ une mesure réelle sur $T$ telle que $|\beta| \leq M \alpha$, où $M$ est une constante positive. Il existe alors une fonction réelle $u$, $\alpha$-intégrable, telle que $\beta = u \cdot \alpha$.
 
-Soit $g$ un élément de l’espace $\mathcal{L}^2_{\mathbf{R}}(T, \alpha)$; $g$ est $\beta$-mesurable et on a $\int^* |g|^2\, d|\beta| \leq M \int^* |g|^2\, d\alpha < +\infty$. La fonction $g$ appartient donc à $\mathcal{L}^2(T, |\beta|)$, et aussi à $\mathcal{L}^1(T, |\beta|)$ puisque $\beta$ est bornée. On a d’après l’inégalité de Cauchy–Schwarz
+Soit $g$ un élément de l’espace $\mathscr{L}^2_{\mathbf{R}}(T, \alpha)$; $g$ est $\beta$-mesurable et on a $\int^* |g|^2\, d|\beta| \leq M \int^* |g|^2\, d\alpha < +\infty$. La fonction $g$ appartient donc à $\mathscr{L}^2(T, |\beta|)$, et aussi à $\mathscr{L}^1(T, |\beta|)$ puisque $\beta$ est bornée. On a d’après l’inégalité de Cauchy–Schwarz
 
 $$
 |\beta(g)|^2 \leq (\int |g| d|\beta|)^2 \leq (\int d|\beta|)(\int |g|^2\, d|\beta|) \leq M^2 \alpha(1)\alpha(|g|^2).
 $$
 
-L’application $g \mapsto \beta(g)$ est donc une forme linéaire continue sur $\mathcal{L}^2(T, \alpha)$. L’espace séparé associé à $\mathcal{L}^2(T, \alpha)$ étant un espace hilbertien, il existe alors (*Esp. Vect. Top.*, chap. V, § 1, th. 3) une fonction réelle $u \in \mathcal{L}^2(T, \alpha)$, donc appartenant aussi à $\mathcal{L}^1(T, \alpha)$, telle que $\beta(g) = \alpha(ug)$ pour tout $g \in \mathcal{L}^2(T, \alpha)$. En appliquant cette relation pour $g \in \mathcal{H}(T)$, on voit que $\beta = u \cdot \alpha$.
+L’application $g \mapsto \beta(g)$ est donc une forme linéaire continue sur $\mathscr{L}^2(T, \alpha)$. L’espace séparé associé à $\mathscr{L}^2(T, \alpha)$ étant un espace hilbertien, il existe alors (*Esp. Vect. Top.*, chap. V, § 1, th. 3) une fonction réelle $u \in \mathscr{L}^2(T, \alpha)$, donc appartenant aussi à $\mathscr{L}^1(T, \alpha)$, telle que $\beta(g) = \alpha(ug)$ pour tout $g \in \mathscr{L}^2(T, \alpha)$. En appliquant cette relation pour $g \in \mathscr{H}(T)$, on voit que $\beta = u \cdot \alpha$.
 
 #### Lemme 3 {#int-v-s5-lem-3 .statement}
 
@@ -414,17 +414,17 @@ Posons $g = \sum_{\alpha \in A} g_\alpha$; la famille $(g_\alpha)$ étant locale
 
 #### Corollaire 1 {#int-v-s5-lem-3-cor-1 .statement}
 
-Soit $\mathcal{N}$ un ensemble de mesures positives de base $\mu$, admettant dans $\mathcal{M}(T)$ une borne supérieure $v$; alors $v$ est une mesure de base $\mu$.
+Soit $\mathscr{N}$ un ensemble de mesures positives de base $\mu$, admettant dans $\mathscr{M}(T)$ une borne supérieure $v$; alors $v$ est une mesure de base $\mu$.
 
-Le cor. de la prop. 2 permet de se ramener au cas où $\mathcal{N}$ est un ensemble filtrant croissant. On a alors, pour tout ensemble localement $\mu$-négligeable A, d’après la prop. 11 du § 1, n° 4,
+Le cor. de la prop. 2 permet de se ramener au cas où $\mathscr{N}$ est un ensemble filtrant croissant. On a alors, pour tout ensemble localement $\mu$-négligeable A, d’après la prop. 11 du § 1, n° 4,
 $$
-v^\bullet(A) = \sup_{\lambda \in \mathcal{N}} \lambda^\bullet(A) = 0.
+v^\bullet(A) = \sup_{\lambda \in \mathscr{N}} \lambda^\bullet(A) = 0.
 $$
 Le théorème 2 entraîne donc que $v$ est une mesure de base $\mu$.
 
 #### Corollaire 2 {#int-v-s5-lem-3-cor-2 .statement}
 
-Soit $v$ une mesure réelle sur T. Pour que $v$ appartienne à la bande engendrée par $\mu$ dans l’espace complètement réticulé $\mathcal{M}(T)$ (chap. II, § 1, n° 5), il faut et il suffit que $v$ soit une mesure de base $\mu$.
+Soit $v$ une mesure réelle sur T. Pour que $v$ appartienne à la bande engendrée par $\mu$ dans l’espace complètement réticulé $\mathscr{M}(T)$ (chap. II, § 1, n° 5), il faut et il suffit que $v$ soit une mesure de base $\mu$.
 
 On se ramène aussitôt, en considérant $v^+$ et $v^-$, au cas d’une mesure $v$ positive (n° 2, cor. de la prop. 2). Posons alors $v_n = \inf(n\mu, v)$; $v$ appartient à la bande engendrée par $\mu$ si et seulement si $v = \sup_n v_n$ (chap. II, 2e éd., § 1, n° 5, cor. de la prop. 6). Or $v_n$, majorée par $n\mu$, est une mesure de base $\mu$ d’après le th. 2; la relation $v = \sup_n v_n$ entraîne donc que $v$ est une mesure de base $\mu$ (cor. 1). Inversement, supposons que $v$ soit une mesure de base $\mu : v = g \cdot \mu$, où $g$ est localement $\mu$-intégrable et positive. On a alors $v_n = \inf(g, n) \cdot \mu$ (cor. de la prop. 2), et il résulte aussitôt du théorème de Lebesgue (chap. IV, § 4, n° 3, prop. 4) que $v = \sup_n v_n$.
 
@@ -472,9 +472,9 @@ Il est clair que 4) entraîne 5). Enfin, si la condition 5) est remplie, $\nu$ a
 
 #### Scholie {#int-v-s5-n5-sch-1 .statement}
 
-Pour tout $\dot{f} \in L^1_{loc}(T, \mu ; \mathbf{B})$, posons $\varphi(\dot{f}) = f . \mu$, où $f \in \dot{f}$; l’application $\varphi$ est linéaire, croissante, injective (cor. 2 de la prop. 3), et admet pour image dans $\mathcal{M}(T)$ la bande $\mathbf{B}$ engendrée par $\mu$ (cor. 2 du th. 2). L’application $\varphi$ permet donc d’identifier $L^1_{loc}(T, \mu ; \mathbf{R})$ à un espace de mesures réelles sur $T$; comme tous les espaces $L^p_R(T, \mu)$ sont des sous-espaces de $L^1_{loc}(T, \mu ; \mathbf{R})$, ils peuvent eux aussi être identifiés à des sous-espaces de $\mathcal{M}(T)$. On a des considérations analogues pour les fonctions et mesures à valeurs complexes. On notera que l’application $\varphi$ envisagée ci-dessus est un isomorphisme des structures d’espace vectoriel ordonné de $L^1_{loc}$ et de $\mathbf{B}$, mais n’est évidemment pas un isomorphisme pour les structures d’espace vectoriel topologique de ces espaces.
+Pour tout $\dot{f} \in L^1_{loc}(T, \mu ; \mathbf{B})$, posons $\varphi(\dot{f}) = f . \mu$, où $f \in \dot{f}$; l’application $\varphi$ est linéaire, croissante, injective (cor. 2 de la prop. 3), et admet pour image dans $\mathscr{M}(T)$ la bande $\mathbf{B}$ engendrée par $\mu$ (cor. 2 du th. 2). L’application $\varphi$ permet donc d’identifier $L^1_{loc}(T, \mu ; \mathbf{R})$ à un espace de mesures réelles sur $T$; comme tous les espaces $L^p_R(T, \mu)$ sont des sous-espaces de $L^1_{loc}(T, \mu ; \mathbf{R})$, ils peuvent eux aussi être identifiés à des sous-espaces de $\mathscr{M}(T)$. On a des considérations analogues pour les fonctions et mesures à valeurs complexes. On notera que l’application $\varphi$ envisagée ci-dessus est un isomorphisme des structures d’espace vectoriel ordonné de $L^1_{loc}$ et de $\mathbf{B}$, mais n’est évidemment pas un isomorphisme pour les structures d’espace vectoriel topologique de ces espaces.
 
-Comme toute bande dans un espace complètement réticulé est elle-même un espace complètement réticulé (chap. II, § 1, n° 5), on voit que l’espace $L^1_{loc}$ est complètement réticulé; mais il convient de rappeler que la borne supérieure dans $L^1_{loc}$ d’une famille non dénombrable $(\dot{f}_\alpha)$ de classes d’équivalence n’est pas nécessairement identique à la classe de l’enveloppe supérieure des fonctions $f_\alpha$. Toutefois, nous avons vu que, pour une suite croissante $(f_n)$ de fonctions localement $\mu$-intégrables, dont l’enveloppe supérieure $f$ est localement $\mu$-intégrable, $f . \mu$ est la borne supérieure de la suite de mesures $(f_n . \mu)$ dans $\mathcal{M}(T)$ (cor. de la prop. 6).
+Comme toute bande dans un espace complètement réticulé est elle-même un espace complètement réticulé (chap. II, § 1, n° 5), on voit que l’espace $L^1_{loc}$ est complètement réticulé; mais il convient de rappeler que la borne supérieure dans $L^1_{loc}$ d’une famille non dénombrable $(\dot{f}_\alpha)$ de classes d’équivalence n’est pas nécessairement identique à la classe de l’enveloppe supérieure des fonctions $f_\alpha$. Toutefois, nous avons vu que, pour une suite croissante $(f_n)$ de fonctions localement $\mu$-intégrables, dont l’enveloppe supérieure $f$ est localement $\mu$-intégrable, $f . \mu$ est la borne supérieure de la suite de mesures $(f_n . \mu)$ dans $\mathscr{M}(T)$ (cor. de la prop. 6).
 
 Voici une conséquence intéressante du corollaire 3 du th. 2:
 
@@ -482,7 +482,7 @@ Voici une conséquence intéressante du corollaire 3 du th. 2:
 
 *Soit $\theta$ une mesure complexe bornée ; pour que $\theta$ soit une mesure positive, il faut et il suffit qu’on ait $\| \theta \| = \theta(1)$.*
 
-Cette condition est évidemment nécessaire. Inversement, supposons qu’on ait $\| \theta \| = \int d\theta$, et désignons par $v$ une fonction $|\theta|$-mesurable, de valeur absolue 1, telle que $\theta = v . |\theta|$. Comme on a $\| \theta \| = \int d|\theta|$ (chap. III, 2e éd., § 1, n° 8, cor. 2 de la prop. 10), et $\int d\theta = \int v . d|\theta|$ (th. 1), l’hypothèse entraîne que $\int (1 - v) d|\theta| = 0$, et donc aussi que $\int \mathcal{R}(1 - v) d|\theta| = 0$. La fonction $\mathcal{R}(1 - v)$, étant positive, est donc nulle presque partout, ce qui entraîne que $v = 1$ presque partout, et achève la démonstration.
+Cette condition est évidemment nécessaire. Inversement, supposons qu’on ait $\| \theta \| = \int d\theta$, et désignons par $v$ une fonction $|\theta|$-mesurable, de valeur absolue 1, telle que $\theta = v . |\theta|$. Comme on a $\| \theta \| = \int d|\theta|$ (chap. III, 2e éd., § 1, n° 8, cor. 2 de la prop. 10), et $\int d\theta = \int v . d|\theta|$ (th. 1), l’hypothèse entraîne que $\int (1 - v) d|\theta| = 0$, et donc aussi que $\int \mathscr{R}(1 - v) d|\theta| = 0$. La fonction $\mathscr{R}(1 - v)$, étant positive, est donc nulle presque partout, ce qui entraîne que $v = 1$ presque partout, et achève la démonstration.
 
 ### 6. Mesures équivalentes
 
@@ -492,7 +492,7 @@ Cette condition est évidemment nécessaire. Inversement, supposons qu’on ait 
 
 a) Les ensembles localement négligeables sont les mêmes pour $\mu$ et $v$.
 
-b) Les bandes engendrées par $\mu$ et $v$ dans $\mathcal{M}(T)$ sont identiques.
+b) Les bandes engendrées par $\mu$ et $v$ dans $\mathscr{M}(T)$ sont identiques.
 
 c) On a $v = g . \mu$, où $g$ est localement $\mu$-intégrable et $g(t) > 0$ localement presque partout pour $\mu$.
 
@@ -524,11 +524,11 @@ En prenant par exemple $a_n = 2^{-n} (\int f_n \, d\mu)^{-1}$ lorsque $\int f_n 
 
 Soit $(\mu_n)$ une suite de mesures positives bornées sur $T$; il existe une mesure positive bornée $\mu$ sur $T$ telle que la relation $\mu^*(N) = 0$ soit équivalente à « quel que soit $n$, $\mu_n^*(N) = 0$ »; chacune des mesures $\mu_n$ est de base $\mu$. En outre, si $\mu'$ est une seconde mesure positive sur $T$ ayant cette propriété, $\mu$ et $\mu'$ sont équivalentes.
 
-La dernière partie de l’énoncé résulte aussitôt de la déf. 3. Pour démontrer l’existence de $\mu$, on peut se borner au cas où $\mu_n \neq 0$ pour tout $n$; la famille de mesures $\mu_n / 2^n \| \mu_n \|$ est alors sommable dans $\mathcal{M}(T)$, et sa somme $\mu$ est telle que $\| \mu \| \leq 1$. En outre, comme $\mu_n \leq 2^n \| \mu_n \| . \mu$, la relation $\mu(N) = 0$ entraîne $\mu_n(N) = 0$ pour tout $n$; inversement, si $N$ est un ensemble négligeable pour toutes les $\mu_n$, il est localement négligeable pour $\mu$ (§ 2, n° 2, cor. 2 de la prop. 1), et par suite $\mu$-négligeable puisque $\mu$ est bornée (§ 1, n° 2, cor. 2 de la prop. 7).
+La dernière partie de l’énoncé résulte aussitôt de la déf. 3. Pour démontrer l’existence de $\mu$, on peut se borner au cas où $\mu_n \neq 0$ pour tout $n$; la famille de mesures $\mu_n / 2^n \| \mu_n \|$ est alors sommable dans $\mathscr{M}(T)$, et sa somme $\mu$ est telle que $\| \mu \| \leq 1$. En outre, comme $\mu_n \leq 2^n \| \mu_n \| . \mu$, la relation $\mu(N) = 0$ entraîne $\mu_n(N) = 0$ pour tout $n$; inversement, si $N$ est un ensemble négligeable pour toutes les $\mu_n$, il est localement négligeable pour $\mu$ (§ 2, n° 2, cor. 2 de la prop. 1), et par suite $\mu$-négligeable puisque $\mu$ est bornée (§ 1, n° 2, cor. 2 de la prop. 7).
 
 ### 7. Mesures étrangères
 
-Étant données deux mesures réelles $\rho, \sigma$ sur $T$, rappelons que l’on dit que $\rho$ et $\sigma$ sont étrangères si l’on à $\inf(|\rho|, |\sigma|) = 0$ dans $\mathcal{M}(T)$ (chap. II, § 1, n° 1). On sait que les mesures réelles étrangères à une mesure donnée forment une bande (chap. II, § 1, n° 5, th. 1). Cette définition s’étend aussitôt au cas des mesures complexes.
+Étant données deux mesures réelles $\rho, \sigma$ sur $T$, rappelons que l’on dit que $\rho$ et $\sigma$ sont étrangères si l’on à $\inf(|\rho|, |\sigma|) = 0$ dans $\mathscr{M}(T)$ (chap. II, § 1, n° 1). On sait que les mesures réelles étrangères à une mesure donnée forment une bande (chap. II, § 1, n° 5, th. 1). Cette définition s’étend aussitôt au cas des mesures complexes.
 
 #### Définition 4 {#int-v-s5-def-4 .statement}
 
@@ -570,29 +570,29 @@ Désignons en effet par v (resp. w) une fonction universellement mesurable de va
 
 Toute mesure complexe θ sur T peut s’écrire d’une seule manière sous la forme θ = g . μ + θ′, où g est localement μ-intégrable, et θ′ est une mesure étrangère à μ. On a alors |θ| = |g| . μ + |θ′|.
 
-Lorsque θ est positive, ceci résulte aussitôt du th. de F. Riesz (chap. II, § 1, n° 5, th. 1) appliqué à l’espace complètement réticulé $\mathcal{M}(T)$ des mesures réelles sur T, et à la bande engendrée par μ dans cet espace, compte tenu du n° 5, cor. 2 du th. 2; de plus, θ′ et g . μ sont alors positives, ce qui entraîne que g est positive localement μ-presque partout (cor. 3 de la prop. 3). Pour traiter le cas où θ n’est pas positive, posons ν = |θ|, ν = f . μ + ν′ (où f est positive, et où ν′ et μ sont étrangères), et θ = v . ν, où v est une fonction universellement mesurable de valeur absolue 1 (cor. 3 du th. 2). Nous avons alors (prop. 8) θ = g . μ + θ′, avec g = vf (de sorte que |g| = f) et θ′ = v . ν′ (de sorte que |θ′| = ν′ d’après la prop. 2); les mesures θ′ et μ sont étrangères d’après le cor. 2 de la prop. 12. Il reste seulement à établir l’unicité de la décomposition. Supposons donc que $\theta = g . \mu + \theta' = g_1 . \mu + \theta'_1$, où $\theta_1$ et $\theta'_1$ sont étrangères à $\mu$; $|\theta' - \theta'_1|$ est majorée par $|\theta'| + |\theta'_1|$, donc $\theta' - \theta'_1$ est étrangère à $\mu$, et par conséquent aussi à $(g_1 - g) . \mu$. La relation $\theta' - \theta'_1 = (g_1 - g) . \mu$ entraîne alors que les deux membres sont nuls, ce qui prouve l’unicité.
+Lorsque θ est positive, ceci résulte aussitôt du th. de F. Riesz (chap. II, § 1, n° 5, th. 1) appliqué à l’espace complètement réticulé $\mathscr{M}(T)$ des mesures réelles sur T, et à la bande engendrée par μ dans cet espace, compte tenu du n° 5, cor. 2 du th. 2; de plus, θ′ et g . μ sont alors positives, ce qui entraîne que g est positive localement μ-presque partout (cor. 3 de la prop. 3). Pour traiter le cas où θ n’est pas positive, posons ν = |θ|, ν = f . μ + ν′ (où f est positive, et où ν′ et μ sont étrangères), et θ = v . ν, où v est une fonction universellement mesurable de valeur absolue 1 (cor. 3 du th. 2). Nous avons alors (prop. 8) θ = g . μ + θ′, avec g = vf (de sorte que |g| = f) et θ′ = v . ν′ (de sorte que |θ′| = ν′ d’après la prop. 2); les mesures θ′ et μ sont étrangères d’après le cor. 2 de la prop. 12. Il reste seulement à établir l’unicité de la décomposition. Supposons donc que $\theta = g . \mu + \theta' = g_1 . \mu + \theta'_1$, où $\theta_1$ et $\theta'_1$ sont étrangères à $\mu$; $|\theta' - \theta'_1|$ est majorée par $|\theta'| + |\theta'_1|$, donc $\theta' - \theta'_1$ est étrangère à $\mu$, et par conséquent aussi à $(g_1 - g) . \mu$. La relation $\theta' - \theta'_1 = (g_1 - g) . \mu$ entraîne alors que les deux membres sont nuls, ce qui prouve l’unicité.
 
-Rappelons (th. 2, Scholie) que l’espace $L^1_{loc}(T, \mu; \mathbf{C})$ peut être identifié (au moyen de l’application $\dot{g} \mapsto g . \mu$) à un sous-espace de $\mathcal{M}_\mathbf{C}(T)$. Avec cette convention, le théorème 3 prend la forme suivante:
+Rappelons (th. 2, Scholie) que l’espace $L^1_{loc}(T, \mu; \mathbf{C})$ peut être identifié (au moyen de l’application $\dot{g} \mapsto g . \mu$) à un sous-espace de $\mathscr{M}_\mathbf{C}(T)$. Avec cette convention, le théorème 3 prend la forme suivante:
 
 #### Corollaire {#int-v-s5-n7-cor-1 .statement}
 
-*Il existe un projecteur* $p$ *de l’espace* $\mathcal{M}_\mathbf{C}(T)$ *sur l’espace* $L^1_{loc}(T, \mu; \mathbf{C})$, *dont le noyau* $\bar{p}^1(0)$ *est l’ensemble des mesures complexes étrangères à* $\mu$, *tel que*
+*Il existe un projecteur* $p$ *de l’espace* $\mathscr{M}_\mathbf{C}(T)$ *sur l’espace* $L^1_{loc}(T, \mu; \mathbf{C})$, *dont le noyau* $\bar{p}^1(0)$ *est l’ensemble des mesures complexes étrangères à* $\mu$, *tel que*
 $$
 |\theta| = |p(\theta)| + |\theta - p(\theta)|, \qquad p(|\theta|) = |p(\theta)|
 $$
 *pour toute mesure complexe* $\theta$.
 
-Si l’on restreint $p$ à l’ensemble des mesures bornées, on obtient un projecteur $p^1$ de l’espace $\mathcal{M}_\mathbf{C}^1(T)$ sur l’espace $L^1_\mathbf{C}(T, \mu)$; la relation $\| \theta \| = | \theta |(1)$ entraîne que $\| \theta \| = \| p^1(\theta) \| + \| \theta - p^1(\theta) \|$ pour toute mesure complexe bornée $\theta$.
+Si l’on restreint $p$ à l’ensemble des mesures bornées, on obtient un projecteur $p^1$ de l’espace $\mathscr{M}_\mathbf{C}^1(T)$ sur l’espace $L^1_\mathbf{C}(T, \mu)$; la relation $\| \theta \| = | \theta |(1)$ entraîne que $\| \theta \| = \| p^1(\theta) \| + \| \theta - p^1(\theta) \|$ pour toute mesure complexe bornée $\theta$.
 
 ### 8. *Applications: I. Dualité des espaces* $L^p$
 
 Nous ne traiterons ici que le cas des espaces $L^p$ réels.
 
-Rappelons que deux nombres $p, q$ tels que $1 \leq p \leq +\infty$, $1 \leq q \leq +\infty$, $1/p + 1/q = 1$, sont appelés des *exposants conjugués* (chap. IV, § 6, n° 4). Toute fonction $g \in \mathcal{L}^q$ définit une forme linéaire continue $\theta_g$ sur $L^p$, qu’on obtient par passage au quotient à partir de la forme linéaire $f \mapsto \int fg \, d\mu$ sur $\mathcal{L}^p$, et on a $N_q(g) = \| \theta_g \|$ (chap. IV, 2e éd., § 6, n° 4, cor. de la prop. 3). Par passage au quotient, on déduit donc de l’application $g \mapsto \theta_g$ une application linéaire isométrique $\varphi$ de $L^q$ dans le dual $(L^p)'$ de $L^p$. Nous allons montrer que, pour $1 \leq p < +\infty$, $\varphi$ applique $L^q$ *sur* $(L^p)'$, de sorte que nous pourrons désormais identifier l’espace de Banach $L^q$ à l’espace de Banach $(L^p)'$ par l’isomorphisme $\varphi$. En d’autres termes :
+Rappelons que deux nombres $p, q$ tels que $1 \leq p \leq +\infty$, $1 \leq q \leq +\infty$, $1/p + 1/q = 1$, sont appelés des *exposants conjugués* (chap. IV, § 6, n° 4). Toute fonction $g \in \mathscr{L}^q$ définit une forme linéaire continue $\theta_g$ sur $L^p$, qu’on obtient par passage au quotient à partir de la forme linéaire $f \mapsto \int fg \, d\mu$ sur $\mathscr{L}^p$, et on a $N_q(g) = \| \theta_g \|$ (chap. IV, 2e éd., § 6, n° 4, cor. de la prop. 3). Par passage au quotient, on déduit donc de l’application $g \mapsto \theta_g$ une application linéaire isométrique $\varphi$ de $L^q$ dans le dual $(L^p)'$ de $L^p$. Nous allons montrer que, pour $1 \leq p < +\infty$, $\varphi$ applique $L^q$ *sur* $(L^p)'$, de sorte que nous pourrons désormais identifier l’espace de Banach $L^q$ à l’espace de Banach $(L^p)'$ par l’isomorphisme $\varphi$. En d’autres termes :
 
 #### Théorème 4 {#int-v-s5-thm-4 .statement}
 
-*Soient* $p$ *et* $q$ *deux exposants conjugués tels que* $1 \leq p < +\infty$. *Toute forme linéaire continue sur* $\mathcal{L}^p(T, \mu)$ *est du type* $f \mapsto \int fg \, d\mu$, *où* $g$ *est une fonction de* $\mathcal{L}^q(T, \mu)$ *dont la classe dans* $L^q$ *est bien déterminée.*
+*Soient* $p$ *et* $q$ *deux exposants conjugués tels que* $1 \leq p < +\infty$. *Toute forme linéaire continue sur* $\mathscr{L}^p(T, \mu)$ *est du type* $f \mapsto \int fg \, d\mu$, *où* $g$ *est une fonction de* $\mathscr{L}^q(T, \mu)$ *dont la classe dans* $L^q$ *est bien déterminée.*
 
 Montrons que $|v|(|f|) \leq a \cdot N_p(f)$ pour toute fonction $f$ de $\mathscr{K}(T)$. Il suffit de prouver cette formule pour $f \geq 0$. Or, pour toute fonction $\psi$ de $\mathscr{K}(T)$ telle que $|\psi| \leq f$, on a
 $$
@@ -600,26 +600,26 @@ $$
 $$
 notre assertion résulte de l’expression de la valeur absolue d’une mesure donnée au chap. III, 2e éd., § 1, n° 6, formule (12). La relation $|v|(|f|) \leq a(\mu(|f|^p))^{1/p}$ s’étend aussitôt au cas où $f$ est la fonction caractéristique d’un compact, grâce à un passage à l’enveloppe inférieure, et entraîne alors que tout compact $\mu$-négligeable est $v$-négligeable, de sorte que $v$ est une mesure de base $\mu$ (n° 5, th. 2).
 
-Il existe donc une fonction positive localement $\mu$-intégrable $h_1$ telle que $|v|(f) = \int f h_1 \, d\mu$ pour toute fonction $f \in \mathscr{K}(T)$. Montrons que $h_1$ est localement presque partout égale à une fonction de $\mathcal{L}^q$. Si la fonction $f \geq 0$ de $\mathscr{K}(T)$ est telle que $N_p(f) \leq 1$, on a $\int f h_1 \, d\mu = |v|(f) \leq a$. Pour toute application continue $f_0$ de $T$ dans $[0, 1]$, à support compact, on a donc $\sup \int (f_0 h_1) f \, d\mu \leq a$ lorsque $f$ parcourt l’ensemble des fonctions $\geq 0$ de $\mathscr{K}(T)$ telles que $N_p(f) \leq 1$. D’après la formule (11) du chap. IV, § 6, n° 4, on en déduit que $N_q(f_0 h_1) \leq a$. De là résulte que $\sup_K N_q(\varphi_K h_1) \leq a$ lorsque $K$ parcourt l’ensemble des parties compactes de $T$, et cela prouve notre assertion (§ 1, prop. 9).
+Il existe donc une fonction positive localement $\mu$-intégrable $h_1$ telle que $|v|(f) = \int f h_1 \, d\mu$ pour toute fonction $f \in \mathscr{K}(T)$. Montrons que $h_1$ est localement presque partout égale à une fonction de $\mathscr{L}^q$. Si la fonction $f \geq 0$ de $\mathscr{K}(T)$ est telle que $N_p(f) \leq 1$, on a $\int f h_1 \, d\mu = |v|(f) \leq a$. Pour toute application continue $f_0$ de $T$ dans $[0, 1]$, à support compact, on a donc $\sup \int (f_0 h_1) f \, d\mu \leq a$ lorsque $f$ parcourt l’ensemble des fonctions $\geq 0$ de $\mathscr{K}(T)$ telles que $N_p(f) \leq 1$. D’après la formule (11) du chap. IV, § 6, n° 4, on en déduit que $N_q(f_0 h_1) \leq a$. De là résulte que $\sup_K N_q(\varphi_K h_1) \leq a$ lorsque $K$ parcourt l’ensemble des parties compactes de $T$, et cela prouve notre assertion (§ 1, prop. 9).
 
-Soit $v$ une fonction (réelle) de valeur absolue 1 universellement mesurable, telle que $v = v \cdot |v|$ (cor. 3 du th. 2), et soit $g = v h_1$; on a $v = g \cdot \mu$, et $g$ appartient à $\mathcal{L}^q$. On a, pour toute fonction $f \in \mathscr{K}(T), \theta(f) = v(f) = \int f g \, d\mu$. Autrement dit, les formes linéaires continues $\theta$ et $\theta_g$ coïncident dans $\mathscr{K}(T)$; elles sont donc égales dans $\mathcal{L}^p$, puisque $\mathscr{K}(T)$ est partout dense dans $\mathcal{L}^p$, et cela achève la démonstration.
+Soit $v$ une fonction (réelle) de valeur absolue 1 universellement mesurable, telle que $v = v \cdot |v|$ (cor. 3 du th. 2), et soit $g = v h_1$; on a $v = g \cdot \mu$, et $g$ appartient à $\mathscr{L}^q$. On a, pour toute fonction $f \in \mathscr{K}(T), \theta(f) = v(f) = \int f g \, d\mu$. Autrement dit, les formes linéaires continues $\theta$ et $\theta_g$ coïncident dans $\mathscr{K}(T)$; elles sont donc égales dans $\mathscr{L}^p$, puisque $\mathscr{K}(T)$ est partout dense dans $\mathscr{L}^p$, et cela achève la démonstration.
 
 #### Corollaire {#int-v-s5-n8-cor-1 .statement}
 
 Pour tout nombre $p$ tel que $1 < p < \infty$, l’espace de Banach $L^p(T, \mu)$ est réflexif.
 
-En général, le dual de $L^\infty$ n’est pas isomorphe à $L^1$, et par suite $L^1$ et $L^\infty$ ne sont pas réflexifs (exerc. 10). Nous allons caractériser les formes linéaires continues sur $L^\infty$ qui proviennent, par passage au quotient, d’une forme linéaire $f \mapsto \int fg\, d\mu$ sur $\mathcal{L}^\infty$, où $g \in \mathcal{L}^1$.
+En général, le dual de $L^\infty$ n’est pas isomorphe à $L^1$, et par suite $L^1$ et $L^\infty$ ne sont pas réflexifs (exerc. 10). Nous allons caractériser les formes linéaires continues sur $L^\infty$ qui proviennent, par passage au quotient, d’une forme linéaire $f \mapsto \int fg\, d\mu$ sur $\mathscr{L}^\infty$, où $g \in \mathscr{L}^1$.
 
-L’espace vectoriel ordonné $L^\infty(T, \mu)$, qui est un sous-espace de $L^1_{loc}(T, \mu)$, est complètement réticulé; en effet, si $(f_\alpha)$ est une famille de fonctions positives de $\mathcal{L}^\infty$, dont l’ensemble des classes $(\dot{f}_\alpha)$ est majoré dans $L^\infty$, il existe $a \geq 0$ tel que $N_\infty(f_\alpha) \leq a$ pour tout $\alpha$. Comme $L^1_{loc}(T, \mu)$ est complètement réticulé, la famille $(\dot{f}_\alpha)$ admet une borne supérieure $\dot{h}$ dans $L^1_{loc}(T, \mu)$; mais comme $\dot{a} \geq \dot{f}_\alpha$ pour tout $\alpha$, on a $\dot{h} \leq \dot{a}$, et par suite $N_\infty(h) \leq a$, d’où notre assertion.
+L’espace vectoriel ordonné $L^\infty(T, \mu)$, qui est un sous-espace de $L^1_{loc}(T, \mu)$, est complètement réticulé; en effet, si $(f_\alpha)$ est une famille de fonctions positives de $\mathscr{L}^\infty$, dont l’ensemble des classes $(\dot{f}_\alpha)$ est majoré dans $L^\infty$, il existe $a \geq 0$ tel que $N_\infty(f_\alpha) \leq a$ pour tout $\alpha$. Comme $L^1_{loc}(T, \mu)$ est complètement réticulé, la famille $(\dot{f}_\alpha)$ admet une borne supérieure $\dot{h}$ dans $L^1_{loc}(T, \mu)$; mais comme $\dot{a} \geq \dot{f}_\alpha$ pour tout $\alpha$, on a $\dot{h} \leq \dot{a}$, et par suite $N_\infty(h) \leq a$, d’où notre assertion.
 
 #### Proposition 14 {#int-v-s5-prop-14 .statement}
 
-Pour qu’une forme linéaire positive $\theta$ sur $\mathcal{L}^\infty$ soit du type $f \mapsto \int fg\, d\mu$, où $g \in \mathcal{L}^1$, il faut et il suffit que, pour toute famille filtrante croissante $(f_\alpha)_{\alpha \in A}$ de fonctions positives de $\mathcal{L}^\infty$, dont l’ensemble des classes $(\dot{f}_\alpha)_{\alpha \in A}$ est majoré dans $L^\infty$ et admet $\dot{h}$ comme borne supérieure dans cet espace, on ait
+Pour qu’une forme linéaire positive $\theta$ sur $\mathscr{L}^\infty$ soit du type $f \mapsto \int fg\, d\mu$, où $g \in \mathscr{L}^1$, il faut et il suffit que, pour toute famille filtrante croissante $(f_\alpha)_{\alpha \in A}$ de fonctions positives de $\mathscr{L}^\infty$, dont l’ensemble des classes $(\dot{f}_\alpha)_{\alpha \in A}$ est majoré dans $L^\infty$ et admet $\dot{h}$ comme borne supérieure dans cet espace, on ait
 $$
 \dot{\theta}(h) = \sup_{\alpha \in A} \dot{\theta}(f_\alpha).
 $$
 
-Montrons d’abord que la condition est nécessaire. En effet, la mesure $h.\mu$ est la borne supérieure dans $\mathcal{M}(T)$ de l’ensemble des mesures $f_\alpha.\mu$ (n° 5, Scholie); donc (chap. II, § 2, n° 2), pour toute fonction $\varphi \geq 0$ de $\mathscr{K}(T)$, on a $\int h\varphi\, d\mu = \sup_{\alpha \in A} \int f_\alpha \varphi\, d\mu$. Si maintenant $a$ est un nombre $\geq 0$ tel que $N_\infty(f_\alpha) \leq a$ pour tout $\alpha \in A$ (ce qui entraîne $N_\infty(h) \leq a$), pour tout $\varepsilon > 0$, il existe $\varphi \in \mathscr{K}(T)$ telle que $\varphi \geq 0$ et $N_1(g - \varphi) \leq \varepsilon$, d’où l’on tire $\int |f_\alpha|g - \varphi|\, d\mu \leq a\varepsilon$ pour tout $\alpha \in A$, et $\int h|g - \varphi|\, d\mu \leq a\varepsilon$. Comme $\sup_{\alpha \in A} \int f_\alpha g\, d\mu \leq \int hg\, d\mu$, cela prouve que les deux membres de cette inégalité sont égaux.
+Montrons d’abord que la condition est nécessaire. En effet, la mesure $h.\mu$ est la borne supérieure dans $\mathscr{M}(T)$ de l’ensemble des mesures $f_\alpha.\mu$ (n° 5, Scholie); donc (chap. II, § 2, n° 2), pour toute fonction $\varphi \geq 0$ de $\mathscr{K}(T)$, on a $\int h\varphi\, d\mu = \sup_{\alpha \in A} \int f_\alpha \varphi\, d\mu$. Si maintenant $a$ est un nombre $\geq 0$ tel que $N_\infty(f_\alpha) \leq a$ pour tout $\alpha \in A$ (ce qui entraîne $N_\infty(h) \leq a$), pour tout $\varepsilon > 0$, il existe $\varphi \in \mathscr{K}(T)$ telle que $\varphi \geq 0$ et $N_1(g - \varphi) \leq \varepsilon$, d’où l’on tire $\int |f_\alpha|g - \varphi|\, d\mu \leq a\varepsilon$ pour tout $\alpha \in A$, et $\int h|g - \varphi|\, d\mu \leq a\varepsilon$. Comme $\sup_{\alpha \in A} \int f_\alpha g\, d\mu \leq \int hg\, d\mu$, cela prouve que les deux membres de cette inégalité sont égaux.
 
 Pour établir que la condition est suffisante, nous utiliserons le lemme suivant :
 
@@ -629,7 +629,7 @@ Pour établir que la condition est suffisante, nous utiliserons le lemme suivant
 
 2° Soit $f$ une fonction positive mesurable et bornée dans T. Alors sa classe $\dot{f}$ dans $L^\infty$ est la borne inférieure de l’ensemble des classes $\psi$, où $\psi$ parcourt l’ensemble des fonctions semi-continues inférieurement et bornées dans T, qui sont $\geq f$.
 
-1° Soit $f'$ une fonction de $\mathcal{L}^\infty$ telle que $\dot{f}'$ soit la borne supérieure dans $L^\infty$ de l’ensemble des classes $\varphi$ des fonctions $\varphi$ de $\mathscr{K}(T)$ telles que $0 \leq \varphi \leq f$; on a évidemment $\dot{f}' \leq \dot{f}$. Soit U une partie ouverte relativement compacte de T; pour toute fonction $h$ de $\mathscr{K}(T)$ telle que $0 \leq h \leq f \varphi_U$, on a, par définition, $h(t) \leq f'(t)$ localement presque partout, donc $h(t) \leq f'(t)\varphi_U(t)$ presque partout; on en conclut que $\int h\,d\mu \leq \int f'\varphi_U\,d\mu$. Mais puisque $f\varphi_U$ est semi-continue inférieurement, $\int f\varphi_U\,d\mu = \sup \int h\,d\mu$, où $h$ parcourt l’ensemble des fonctions de $\mathscr{K}(T)$ telles que $0 \leq h \leq f\varphi_U$ (chap. IV, § 1, n° 1, déf. 1); on a donc
+1° Soit $f'$ une fonction de $\mathscr{L}^\infty$ telle que $\dot{f}'$ soit la borne supérieure dans $L^\infty$ de l’ensemble des classes $\varphi$ des fonctions $\varphi$ de $\mathscr{K}(T)$ telles que $0 \leq \varphi \leq f$; on a évidemment $\dot{f}' \leq \dot{f}$. Soit U une partie ouverte relativement compacte de T; pour toute fonction $h$ de $\mathscr{K}(T)$ telle que $0 \leq h \leq f \varphi_U$, on a, par définition, $h(t) \leq f'(t)$ localement presque partout, donc $h(t) \leq f'(t)\varphi_U(t)$ presque partout; on en conclut que $\int h\,d\mu \leq \int f'\varphi_U\,d\mu$. Mais puisque $f\varphi_U$ est semi-continue inférieurement, $\int f\varphi_U\,d\mu = \sup \int h\,d\mu$, où $h$ parcourt l’ensemble des fonctions de $\mathscr{K}(T)$ telles que $0 \leq h \leq f\varphi_U$ (chap. IV, § 1, n° 1, déf. 1); on a donc
 
 $$
 \int f\varphi_U\,d\mu \leq \int f'\varphi_U\,d\mu,
@@ -637,7 +637,7 @@ $$
 
 et comme $f'\varphi_U \leq f\varphi_U$ presque partout, on a nécessairement $f\varphi_U = f'\varphi_U$ presque partout, d’où $f = f'$ localement presque partout.
 
-2° Soit $f'$ une fonction de $\mathcal{L}^\infty$ telle que $\dot{f}'$ soit la borne inférieure dans $L^\infty$ de l’ensemble des classes $\psi$ des fonctions $\psi$ semi-continues inférieurement, bornées et $\geq f$; on a $\dot{f}' \geq \dot{f}$. Soit K une partie compacte de T; pour toute fonction $h$, semi-continue inférieurement, bornée et majorant $f\varphi_K$, soit $\bar{h}$ la fonction égale à $h$ dans K, à $\|f\| + \|h\|$ dans $T - K$. Alors $\bar{h}$ est semi-continue inférieurement et $\geq f$, donc par définition $\bar{h}(t) \geq f'(t)$ localement presque partout; on en conclut que $h(t) \geq f'(t)\varphi_K(t)$ presque partout, d’où $\int h\,d\mu \geq \int f'\varphi_K\,d\mu$. Mais $\int f\varphi_K\,d\mu = \inf \int h\,d\mu$, où $h$ parcourt l’ensemble des fonctions semi-continues inférieurement, bornées et majorant $f\varphi_K$ (chap. IV, § 1, n° 3, déf. 3); on a donc
+2° Soit $f'$ une fonction de $\mathscr{L}^\infty$ telle que $\dot{f}'$ soit la borne inférieure dans $L^\infty$ de l’ensemble des classes $\psi$ des fonctions $\psi$ semi-continues inférieurement, bornées et $\geq f$; on a $\dot{f}' \geq \dot{f}$. Soit K une partie compacte de T; pour toute fonction $h$, semi-continue inférieurement, bornée et majorant $f\varphi_K$, soit $\bar{h}$ la fonction égale à $h$ dans K, à $\|f\| + \|h\|$ dans $T - K$. Alors $\bar{h}$ est semi-continue inférieurement et $\geq f$, donc par définition $\bar{h}(t) \geq f'(t)$ localement presque partout; on en conclut que $h(t) \geq f'(t)\varphi_K(t)$ presque partout, d’où $\int h\,d\mu \geq \int f'\varphi_K\,d\mu$. Mais $\int f\varphi_K\,d\mu = \inf \int h\,d\mu$, où $h$ parcourt l’ensemble des fonctions semi-continues inférieurement, bornées et majorant $f\varphi_K$ (chap. IV, § 1, n° 3, déf. 3); on a donc
 
 $$
 \int f\varphi_K\,d\mu \geq \int f'\varphi_K\,d\mu,
@@ -645,9 +645,9 @@ $$
 
 et comme $f\varphi_K \leq f'\varphi_K$ presque partout, on a nécessairement $f\varphi_K = f'\varphi_K$ presque partout, d’où $f = f'$ localement presque partout.
 
-Ce lemme étant démontré, soit $\theta$ une forme linéaire positive sur $\mathcal{L}^\infty$ satisfaisant à la condition de l’énoncé de la prop. 14. La restriction de $\theta$ à l’espace $\mathscr{K}(T)$ est une mesure positive $\nu$ sur T. Nous allons montrer que, pour toute fonction positive $f \in \mathcal{L}^\infty(T, \mu)$, on a $\theta(f) = \nu^*(f)$. Supposons d’abord que $f$ soit semi-continue inférieurement (et bornée); d’après le lemme 4, $f$ est la borne supérieure de l’ensemble filtrant croissant des classes $\varphi$, où $\varphi$ parcourt l’ensemble filtrant $\Phi$ des fonctions de $\mathscr{K}(T)$ telles que $0 \leq \varphi \leq f$. Comme par hypothèse $\theta(f) = \sup_{\varphi \in \Phi} \theta(\varphi)$, et que $\nu^*(f) = \sup_{\varphi \in \Phi} \nu(\varphi)$ par définition, notre assertion est démontrée dans ce cas. Supposons en second lieu que $f$ soit $\mu$-mesurable et bornée; on a alors, par définition, $\nu^*(f) = \inf_{\psi \in \Psi} \nu^*(\psi)$, où $\psi$ parcourt l’ensemble filtrant décroissant $\Psi$ des fonctions semi-continues inférieurement, bornées et $\geq f$. Si $a \geq \|f\|$, en appliquant l’hypothèse de l’énoncé à l’ensemble filtrant croissant des classes des fonctions $a - \psi$, où $\psi \in \Psi$ et $\psi \leq a$, on voit, en vertu du lemme, que l’on a $\theta(f) = \inf_{\psi \in \Psi} \theta(\psi)$, et on a donc bien $\theta(f) = \nu^*(f)$. En particulier, pour toute fonction $\mu$-négligeable $f \geq 0$, on a $\theta(f) = 0$, donc $\nu^*(f) = 0$, et par suite (n° 5, th. 2) $\nu$ est une mesure de base $\mu$; en outre, $\nu^*(1) = \theta(1) < +\infty$, et par suite (cor. du th. 1) $\nu = g \cdot \mu$, où $g \in \mathcal{L}^1(T, \mu)$. Enfin, toute fonction $\mu$-mesurable étant $\nu$-mesurable, toute fonction positive $f \in \mathcal{L}^\infty(T, \mu)$ est $\nu$-intégrable, et on a $\int fg \, d\mu = \nu^*(f) = \theta(f)$, ce qui achève la démonstration.
+Ce lemme étant démontré, soit $\theta$ une forme linéaire positive sur $\mathscr{L}^\infty$ satisfaisant à la condition de l’énoncé de la prop. 14. La restriction de $\theta$ à l’espace $\mathscr{K}(T)$ est une mesure positive $\nu$ sur T. Nous allons montrer que, pour toute fonction positive $f \in \mathscr{L}^\infty(T, \mu)$, on a $\theta(f) = \nu^*(f)$. Supposons d’abord que $f$ soit semi-continue inférieurement (et bornée); d’après le lemme 4, $f$ est la borne supérieure de l’ensemble filtrant croissant des classes $\varphi$, où $\varphi$ parcourt l’ensemble filtrant $\Phi$ des fonctions de $\mathscr{K}(T)$ telles que $0 \leq \varphi \leq f$. Comme par hypothèse $\theta(f) = \sup_{\varphi \in \Phi} \theta(\varphi)$, et que $\nu^*(f) = \sup_{\varphi \in \Phi} \nu(\varphi)$ par définition, notre assertion est démontrée dans ce cas. Supposons en second lieu que $f$ soit $\mu$-mesurable et bornée; on a alors, par définition, $\nu^*(f) = \inf_{\psi \in \Psi} \nu^*(\psi)$, où $\psi$ parcourt l’ensemble filtrant décroissant $\Psi$ des fonctions semi-continues inférieurement, bornées et $\geq f$. Si $a \geq \|f\|$, en appliquant l’hypothèse de l’énoncé à l’ensemble filtrant croissant des classes des fonctions $a - \psi$, où $\psi \in \Psi$ et $\psi \leq a$, on voit, en vertu du lemme, que l’on a $\theta(f) = \inf_{\psi \in \Psi} \theta(\psi)$, et on a donc bien $\theta(f) = \nu^*(f)$. En particulier, pour toute fonction $\mu$-négligeable $f \geq 0$, on a $\theta(f) = 0$, donc $\nu^*(f) = 0$, et par suite (n° 5, th. 2) $\nu$ est une mesure de base $\mu$; en outre, $\nu^*(1) = \theta(1) < +\infty$, et par suite (cor. du th. 1) $\nu = g \cdot \mu$, où $g \in \mathscr{L}^1(T, \mu)$. Enfin, toute fonction $\mu$-mesurable étant $\nu$-mesurable, toute fonction positive $f \in \mathscr{L}^\infty(T, \mu)$ est $\nu$-intégrable, et on a $\int fg \, d\mu = \nu^*(f) = \theta(f)$, ce qui achève la démonstration.
 
-On conclut de la prop. 14 que les formes linéaires sur $\mathcal{L}^\infty$ du type $f \mapsto \int fg \, d\mu$, où $g \in \mathcal{L}^1$, sont les différences $\theta_1 - \theta_2$, où $\theta_1$ et $\theta_2$ sont des formes linéaires positives satisfaisant à la condition de la prop. 14.
+On conclut de la prop. 14 que les formes linéaires sur $\mathscr{L}^\infty$ du type $f \mapsto \int fg \, d\mu$, où $g \in \mathscr{L}^1$, sont les différences $\theta_1 - \theta_2$, où $\theta_1$ et $\theta_2$ sont des formes linéaires positives satisfaisant à la condition de la prop. 14.
 
 ### 9. Applications: II. Fonctions de mesures
 
@@ -714,7 +714,7 @@ On dit qu’une mesure $\theta$ sur $T$ est diffuse si, pour tout $t \in T$, on 
 
 La mesure de Lebesgue sur $\mathbf{R}$ est diffuse (chap. IV, § 1, n° 3, Remarque 1).
 
-Dire que $\theta$ est une mesure diffuse sur $T$ revient à dire que tout ensemble de complémentaire fini porte $|\theta|$, ou encore que $|\theta|$ est étrangère à toute mesure ponctuelle. Les mesures réelles diffuses forment donc une bande dans $\mathcal{M}(T)$ (chap. II, § 1, n° 5, th. 1).
+Dire que $\theta$ est une mesure diffuse sur $T$ revient à dire que tout ensemble de complémentaire fini porte $|\theta|$, ou encore que $|\theta|$ est étrangère à toute mesure ponctuelle. Les mesures réelles diffuses forment donc une bande dans $\mathscr{M}(T)$ (chap. II, § 1, n° 5, th. 1).
 
 Rappelons (chap. III, 2e éd., § 1, n° 3) qu’une mesure complexe $\rho$ sur $T$ est dite atomique si elle est de la forme $\sum_{t \in T} \alpha(t) \varepsilon_t$, où $\alpha$ est une fonction complexe sur $T$, telle que $\sum_{t \in K} |\alpha(t)| < +\infty$ pour tout compact K de T, ce qui exprime que la famille $(\alpha(t)\varepsilon_t)_{t\in T}$ est sommable (§ 2, n° 1, remarque 2). Il résulte alors de la remarque suivant le cor. 3 du th. 2 du n° 5 que $|\rho| = \sum_{t\in T} |\alpha(t)|\varepsilon_t$. La fonction $\alpha$ qui intervient dans ces formules est uniquement déterminée, car $\alpha(t) = \rho(\{t\})$. Une mesure atomique et une mesure diffuse sont étrangères.
 

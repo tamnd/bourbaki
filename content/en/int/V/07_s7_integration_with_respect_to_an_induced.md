@@ -21,14 +21,14 @@ subsections:
       pdf_page: 332
 statements: 20
 exercises: 11
-content_sha256: e030290ab411284cc4728d9904d084897c45e06cfc755ed71d47123bee0c7221
+content_sha256: 5733973f5bdd9fd2e8b08ef663ed9020c730c1ae2dfe39d0ab80fd1f0ffc450c
 ---
 
 ## § 7. INTEGRATION WITH RESPECT TO AN INDUCED MEASURE
 
 ### 1. Integration with respect to an induced measure
 
-Let $X$ be a locally compact subspace of $T$, $\mu$ a positive measure on $T$, and $\mu_X$ the measure induced on $X$ by $\mu$ (Ch. IV, §5, No. 7). For every $t \in T$, let us define a measure $\lambda_t$ *on* $X$ in the following way: $\lambda_t = \varepsilon_t$ if $t \in X$, $\lambda_t = 0$ if $t \in \mathbf{C}X$. For every finite numerical function $g$ defined on $X$, $\int g(x) d\lambda_t(x) = g(t)$ if $t \in X$ and $\int g(x) d\lambda_t(x) = 0$ if $t \in \mathbf{C}X$. If $g$ is a function in $\mathcal{K}(X)$ we therefore have, by the definition of $\mu_X$,
+Let $X$ be a locally compact subspace of $T$, $\mu$ a positive measure on $T$, and $\mu_X$ the measure induced on $X$ by $\mu$ (Ch. IV, §5, No. 7). For every $t \in T$, let us define a measure $\lambda_t$ *on* $X$ in the following way: $\lambda_t = \varepsilon_t$ if $t \in X$, $\lambda_t = 0$ if $t \in \mathbf{C}X$. For every finite numerical function $g$ defined on $X$, $\int g(x) d\lambda_t(x) = g(t)$ if $t \in X$ and $\int g(x) d\lambda_t(x) = 0$ if $t \in \mathbf{C}X$. If $g$ is a function in $\mathscr{K}(X)$ we therefore have, by the definition of $\mu_X$,
 
 $$
 \mu_X(g) = \int \langle g, \lambda_t \rangle d\mu(t) .
@@ -104,7 +104,7 @@ $$
 (g \cdot \mu)_X = g_X \cdot \mu_X.
 $$
 
-This follows at once from Th. 1, applied to the functions $fg_X$ ($f \in \mathcal{K}(X; \mathbf{C})$), and the definition of the measure induced on X by a complex measure (Ch. IV, § 5, No. 7).
+This follows at once from Th. 1, applied to the functions $fg_X$ ($f \in \mathscr{K}(X; \mathbf{C})$), and the definition of the measure induced on X by a complex measure (Ch. IV, § 5, No. 7).
 
 #### Corollary 3 {#int-v-s7-thm-1-cor-3 .statement}
 
@@ -123,7 +123,7 @@ Set $|\theta| = \mu$ and apply Cor. 2 on taking $g$ to be a complex function of 
 
 #### Scholium {#int-v-s7-n1-sch-1 .statement}
 
-— For every function $f$ (resp. $g$) defined on $X$ (resp. $T$) with values in the Banach space $F$ or in $\overline{\mathbf{R}}$, let us denote by $\zeta(f)$ (resp. $\rho(g)$) the extension by 0 of $f$ to $T$ (resp. the restriction of $g$ to $X$). Then $\zeta(\rho(g)) = \varphi_X \cdot g$, $\rho(\zeta(f)) = f$. We denote by $\mu'$ the measure $\varphi_X \cdot \mu$ on $T$. For every $p \in [1, +\infty]$, Props. 1 and 2 imply that $\zeta$ maps $\mathcal{L}_F^p(X, \mu_X)$ into $\mathcal{L}_F^p(T, \mu')$, and that $\rho$ maps $\mathcal{L}_F^p(T, \mu')$ onto $\mathcal{L}_F^p(X, \mu_X)$, with preservation of norm in both cases, as well as of the integral when $p = 1$ (Th. 1); passing to the associated Hausdorff spaces, we obtain two isomorphisms inverse to each other. Similarly, if $\zeta$ and $\rho$ are applied to positive numerical functions, the essential upper integral is preserved (Prop. 1). Thus, if we agree to *identify* a function on $X$ with a function on T that is zero on X − T, and the measure $\mu_X$ with the measure $\mu'$, problems concerning induced measures are reduced to problems concerning measures defined by densities, treated in §5. This sort of reasoning is applicable to complex measures as well, by Cor. 3 of Th. 1.
+— For every function $f$ (resp. $g$) defined on $X$ (resp. $T$) with values in the Banach space $F$ or in $\overline{\mathbf{R}}$, let us denote by $\zeta(f)$ (resp. $\rho(g)$) the extension by 0 of $f$ to $T$ (resp. the restriction of $g$ to $X$). Then $\zeta(\rho(g)) = \varphi_X \cdot g$, $\rho(\zeta(f)) = f$. We denote by $\mu'$ the measure $\varphi_X \cdot \mu$ on $T$. For every $p \in [1, +\infty]$, Props. 1 and 2 imply that $\zeta$ maps $\mathscr{L}_F^p(X, \mu_X)$ into $\mathscr{L}_F^p(T, \mu')$, and that $\rho$ maps $\mathscr{L}_F^p(T, \mu')$ onto $\mathscr{L}_F^p(X, \mu_X)$, with preservation of norm in both cases, as well as of the integral when $p = 1$ (Th. 1); passing to the associated Hausdorff spaces, we obtain two isomorphisms inverse to each other. Similarly, if $\zeta$ and $\rho$ are applied to positive numerical functions, the essential upper integral is preserved (Prop. 1). Thus, if we agree to *identify* a function on $X$ with a function on T that is zero on X − T, and the measure $\mu_X$ with the measure $\mu'$, problems concerning induced measures are reduced to problems concerning measures defined by densities, treated in §5. This sort of reasoning is applicable to complex measures as well, by Cor. 3 of Th. 1.
 
 ### 2. Properties of induced measures
 
@@ -140,13 +140,13 @@ $$
 (i(\lambda))_X = \lambda \quad \text{and} \quad i(\lambda) = i(\theta_X) = \varphi_X \cdot \theta .
 $$
 
-The injection $i$ being continuous, the equivalence of the properties a), b) and c) follows from Prop. 1 of §6, and the remark that follows it, applied to the positive measure $|\lambda|$. If $\lambda$ is induced on X by a measure $\theta$ on T, then $|\lambda| = |\theta|_X$ (formula (6)), consequently $|\lambda|(K \cap X) = |\theta|(K \cap X) \leq |\theta|(K) < +\infty$ (Prop. 1) for every compact subset K of T, so that d) implies b). Suppose that a) is satisfied, and let us show that $(i(\lambda))_X = \lambda$, which will imply d). Let g be an element of $\mathcal{H}(X; \mathbf{C})$; denoting by $g'$ the extension by 0 of g to T we have, by the definition of induced measure and then by Prop. 7 of §6, No. 4,
+The injection $i$ being continuous, the equivalence of the properties a), b) and c) follows from Prop. 1 of §6, and the remark that follows it, applied to the positive measure $|\lambda|$. If $\lambda$ is induced on X by a measure $\theta$ on T, then $|\lambda| = |\theta|_X$ (formula (6)), consequently $|\lambda|(K \cap X) = |\theta|(K \cap X) \leq |\theta|(K) < +\infty$ (Prop. 1) for every compact subset K of T, so that d) implies b). Suppose that a) is satisfied, and let us show that $(i(\lambda))_X = \lambda$, which will imply d). Let g be an element of $\mathscr{H}(X; \mathbf{C})$; denoting by $g'$ the extension by 0 of g to T we have, by the definition of induced measure and then by Prop. 7 of §6, No. 4,
 
 $$
 \int g \, d(i(\lambda))_X = \int g' \, d(i(\lambda)) = \int (g' \circ i) \, d\lambda = \int g \, d\lambda .
 $$
 
-This completes the proof of the equivalence of the four properties. If $\lambda = \theta_X$ and $g \in \mathcal{H}(T; \mathbf{C})$, then
+This completes the proof of the equivalence of the four properties. If $\lambda = \theta_X$ and $g \in \mathscr{H}(T; \mathbf{C})$, then
 
 $$
 \int g \, d(i(\theta_X)) = \int (g \circ i) \, d(\theta_X) = \int g \varphi_X \, d\theta ,
@@ -170,11 +170,11 @@ For, π_X = π ∘ i, where i is the canonical injection X → T. When θ is pos
 
 — Let X and Y be two locally compact subspaces of T such that Y ⊂ X. If θ is a complex measure on T, then the measure (θ_X)_Y induced by θ_X on Y is equal to θ_Y ('transitivity of induced measures').
 
-It suffices to observe that if g is an element of $\mathcal{H}(Y; \mathbf{C})$, then the extension by 0 of g to T may be obtained by extending by 0 the extension by 0 of g to X, or again, making use of the identifications of the Scholium, that $φ_Y · θ = φ_Y(φ_X · θ)$ (§5, No. 4, Prop. 8).
+It suffices to observe that if g is an element of $\mathscr{H}(Y; \mathbf{C})$, then the extension by 0 of g to T may be obtained by extending by 0 the extension by 0 of g to X, or again, making use of the identifications of the Scholium, that $φ_Y · θ = φ_Y(φ_X · θ)$ (§5, No. 4, Prop. 8).
 
 #### Proposition 5 {#int-v-s7-prop-5 .statement}
 
-— Let $(\lambda_α)_{α ∈ A}$ be an increasing directed family of positive measures on T, admitting a supremum λ, and let X be a locally compact subspace of T. The family of induced measures $λ_α|X$ is then bounded above in $\mathcal{M}(X)$, and
+— Let $(\lambda_α)_{α ∈ A}$ be an increasing directed family of positive measures on T, admitting a supremum λ, and let X be a locally compact subspace of T. The family of induced measures $λ_α|X$ is then bounded above in $\mathscr{M}(X)$, and
 
 $$
 \sup_{α ∈ A} (λ_α|X) = λ|X.
@@ -192,7 +192,7 @@ $$
 
 #### Proposition 6 {#int-v-s7-prop-6 .statement}
 
-— Let $Λ : t ↦ λ_t$ be a μ-adequate mapping of T into $\mathcal{M}_+(X)$, where X is a locally compact space that is countable at infinity, and let Y be a locally compact subspace of X. Set $\int λ_t dμ(t) = ν$. The mapping $t ↦ λ_t|Y$ of T into $\mathcal{M}_+(Y)$ is then μ-adequate, and
+— Let $Λ : t ↦ λ_t$ be a μ-adequate mapping of T into $\mathscr{M}_+(X)$, where X is a locally compact space that is countable at infinity, and let Y be a locally compact subspace of X. Set $\int λ_t dμ(t) = ν$. The mapping $t ↦ λ_t|Y$ of T into $\mathscr{M}_+(Y)$ is then μ-adequate, and
 
 $$
 \int (λ_t|Y) dμ(t) = ν|Y.

@@ -28,14 +28,14 @@ subsections:
       pdf_page: 45
 statements: 10
 exercises: 2
-content_sha256: 2dd84f7048c20eb8876b7a7c7626df914539ff717856b58693d748e5902dbc30
+content_sha256: 502b9b975ffd005784c43fe8cd0b5cc22aabb31466f1f7b00d397f42f105ddfe
 ---
 
 ## § 4. Intégration de mesures positives ponctuelles
 
 ### 1. Familles de mesures ponctuelles
 
-Soient $X$ et $T$ deux espaces localement compacts, $\pi$ une application de $T$ dans $X$, $g$ une fonction numérique finie et $\geqslant 0$, définie dans $T$; ces deux fonctions définissent une application $t \mapsto \lambda_t = g(t) \varepsilon_{\pi(t)}$ de $T$ dans l’espace $\mathcal{M}(X)$ des mesures sur $X$, telle que pour tout $t \in T$, $\lambda_t$ soit une mesure ponctuelle (chap. III, 2e éd., §2, n° 4) ou soit égale à 0. Si $f$ est une fonction numérique $\geqslant 0$ définie dans $X$, on a $\int^* f(x) \, d\lambda_t(x) = \int^* f(x) \, d\lambda_t(x) = f(\pi(t))g(t)$ (rappelons qu’on a convenu de prendre ce produit égal à 0 lorsque $g(t) = 0$ et $f(\pi(t)) = +\infty$). Toute fonction (à valeurs dans un espace topologique) définie dans $X$, est $\lambda_t$-mesurable pour tout $t \in T$. Toute application $f$ de $X$ dans un espace de Banach $F$ est $\lambda_t$-intégrable pour tout $t \in T$ et on a $\int f(x) \, d\lambda_t(x) = f(\pi(t))g(t)$. Enfin, si $f$ est une fonction numérique quelconque définie dans $X$, pour que $f$ soit $\lambda_t$-intégrable, il faut et il suffit que $f(\pi(t))g(t)$ soit fini, et on a alors $\int f(x) \, d\lambda_t(x) = f(\pi(t))g(t)$.
+Soient $X$ et $T$ deux espaces localement compacts, $\pi$ une application de $T$ dans $X$, $g$ une fonction numérique finie et $\geqslant 0$, définie dans $T$; ces deux fonctions définissent une application $t \mapsto \lambda_t = g(t) \varepsilon_{\pi(t)}$ de $T$ dans l’espace $\mathscr{M}(X)$ des mesures sur $X$, telle que pour tout $t \in T$, $\lambda_t$ soit une mesure ponctuelle (chap. III, 2e éd., §2, n° 4) ou soit égale à 0. Si $f$ est une fonction numérique $\geqslant 0$ définie dans $X$, on a $\int^* f(x) \, d\lambda_t(x) = \int^* f(x) \, d\lambda_t(x) = f(\pi(t))g(t)$ (rappelons qu’on a convenu de prendre ce produit égal à 0 lorsque $g(t) = 0$ et $f(\pi(t)) = +\infty$). Toute fonction (à valeurs dans un espace topologique) définie dans $X$, est $\lambda_t$-mesurable pour tout $t \in T$. Toute application $f$ de $X$ dans un espace de Banach $F$ est $\lambda_t$-intégrable pour tout $t \in T$ et on a $\int f(x) \, d\lambda_t(x) = f(\pi(t))g(t)$. Enfin, si $f$ est une fonction numérique quelconque définie dans $X$, pour que $f$ soit $\lambda_t$-intégrable, il faut et il suffit que $f(\pi(t))g(t)$ soit fini, et on a alors $\int f(x) \, d\lambda_t(x) = f(\pi(t))g(t)$.
 
 #### Définition 1 {#int-v-s4-def-1 .statement}
 
@@ -45,7 +45,7 @@ Soit $\mu$ une mesure positive sur $T$. On dit que le couple $(\pi, g)$ est $\mu
 
 #### Proposition 1 {#int-v-s4-prop-1 .statement}
 
-Si le couple $(\pi, g)$ est $\mu$-adapté, l’application $\Lambda : t \mapsto \lambda_t = g(t) \varepsilon_{\pi(t)}$ de $T$ dans $\mathcal{M}_+(X)$ est scalairement essentiellement $\mu$-intégrable, vaguement $\mu$-mesurable et $\mu$-adéquate. Inversement, si $\Lambda$ est scalairement essentiellement $\mu$-intégrable et vaguement $\mu$-mesurable, la fonction $g$ est $\mu$-mesurable, et la restriction de $\pi$ à l’ensemble $S$ des $t \in T$ tels que $g(t) \neq 0$ est $\mu$-mesurable.
+Si le couple $(\pi, g)$ est $\mu$-adapté, l’application $\Lambda : t \mapsto \lambda_t = g(t) \varepsilon_{\pi(t)}$ de $T$ dans $\mathscr{M}_+(X)$ est scalairement essentiellement $\mu$-intégrable, vaguement $\mu$-mesurable et $\mu$-adéquate. Inversement, si $\Lambda$ est scalairement essentiellement $\mu$-intégrable et vaguement $\mu$-mesurable, la fonction $g$ est $\mu$-mesurable, et la restriction de $\pi$ à l’ensemble $S$ des $t \in T$ tels que $g(t) \neq 0$ est $\mu$-mesurable.
 
 En effet, supposons que le couple $(\pi, g)$ soit $\mu$-adapté; pour toute fonction $f \in \mathscr{K}(X)$, la fonction $t \mapsto \langle f, \lambda_t \rangle = f(\pi(t))g(t)$ est alors essentiellement $\mu$-intégrable. Montrons que $t \mapsto \lambda_t$ est vaguement $\mu$-mesurable. En effet, notons d’abord que, si $\pi$ et $g$ sont continues, l’application $t \mapsto \lambda_t$ est vaguement continue. Dans le cas général, l’ensemble des parties compactes $K$ de $T$ telles que les restrictions de $\pi$ et de $g$ à $K$ soient continues est $\mu$-dense (chap. IV, 2e éd., § 5, n° 10, prop. 15); si $K$ est un tel ensemble, la restriction de $t \mapsto \lambda_t$ à $K$ est vaguement continue, d’où la première assertion de l’énoncé. La prop. 2 du § 3, n° 1, montre que $\Lambda$ est $\mu$-adéquate.
 

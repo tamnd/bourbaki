@@ -21,7 +21,7 @@ subsections:
       pdf_page: 19
 statements: 0
 exercises: 0
-content_sha256: cb40f1b9e869217d96ad7f7523ba71cc51a8c7d70a5a52ffa1a2c9f7bc76d0ff
+content_sha256: 33ebc5202f76af5399c3ec658ee7a97d6998687a55bad49bbfb76a234ae94b56
 translated_from: content/en/int/I/00_frontmatter.md
 source_content_sha256: 7903e043f4340792f2eced78a10f941d410ff38a9f8de464278d8f409206e188
 translation_model: gpt-5.4
@@ -148,7 +148,7 @@ với $0 < t \leq 1$, do đó suy ra mệnh đề.
 
 ### 3. Các nửa chuẩn $N_p$
 
-Cho $p$ là một số thực $\geq 1$ và gọi $\mathcal{F}^p(X, M)$ là tập hợp các hàm số hữu hạn $f$ xác định trên $X$ sao cho $M(|f|^p)$ là *hữu hạn*. Hiển nhiên là nếu $g$ là một hàm thuộc $\mathcal{F}^p(X, M)$ và nếu $|f| \leq |g|$, thì $f$ cũng thuộc $\mathcal{F}^p(X, M)$; nhận xét này và bất đẳng thức Minkowski cho thấy tổng của hai hàm trong $\mathcal{F}^p(X, M)$ cũng thuộc tập hợp này; có tính đến việc $M$ là thuần nhất dương, do đó ta thấy rằng $\mathcal{F}^p(X, M)$ là một *không gian con tuyến tính* của không gian $\mathbf{R}^X$ gồm mọi hàm số hữu hạn xác định trên $X$.
+Cho $p$ là một số thực $\geq 1$ và gọi $\mathscr{F}^p(X, M)$ là tập hợp các hàm số hữu hạn $f$ xác định trên $X$ sao cho $M(|f|^p)$ là *hữu hạn*. Hiển nhiên là nếu $g$ là một hàm thuộc $\mathscr{F}^p(X, M)$ và nếu $|f| \leq |g|$, thì $f$ cũng thuộc $\mathscr{F}^p(X, M)$; nhận xét này và bất đẳng thức Minkowski cho thấy tổng của hai hàm trong $\mathscr{F}^p(X, M)$ cũng thuộc tập hợp này; có tính đến việc $M$ là thuần nhất dương, do đó ta thấy rằng $\mathscr{F}^p(X, M)$ là một *không gian con tuyến tính* của không gian $\mathbf{R}^X$ gồm mọi hàm số hữu hạn xác định trên $X$.
 
 Với mọi số $p > 0$ và mọi hàm số hữu hạn $f$ xác định trên $X$, đặt
 
@@ -162,7 +162,7 @@ $$
 N_p(f+g) \leq N_p(f) + N_p(g),
 $$
 
-điều đó chứng tỏ rằng $N_p$ là một *nửa chuẩn* trên không gian vectơ $\mathcal{F}^p(X, M)$ (TVS, II, §1).
+điều đó chứng tỏ rằng $N_p$ là một *nửa chuẩn* trên không gian vectơ $\mathscr{F}^p(X, M)$ (TVS, II, §1).
 
 **Mệnh đề 4.** — *Cho $p$ và $q$ là hai số thực $> 0$ và đặt $1/r = 1/p + 1/q$. Với mọi hàm số hữu hạn $f, g$ xác định trên $X$,*
 

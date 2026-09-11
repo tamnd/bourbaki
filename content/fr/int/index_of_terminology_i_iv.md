@@ -12,7 +12,7 @@ pdf_pages: 0278-0281
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: b3a1c81c6de3798e6e9395ab3e46737eca7e41a7daf493627a467fb2c7959593
+content_sha256: b5a777a983ab5078f4836b5c01fec163d822b9ec3d27cf3b0766b79561139650
 ---
 
 ## INDEX TERMINOLOGIQUE
@@ -56,7 +56,7 @@ Ensemble $\mu$-dense de parties compactes : IV, 5, 8.
 
 Ensemble négligeable, $\mu$-négligeable : IV, 2, 2.
 Ensemble quarrable : IV, 5, exerc. 17.
-Ensemble strictement compact dans $\mathcal{H}(X; E)$ : III, 1, 1.
+Ensemble strictement compact dans $\mathscr{H}(X; E)$ : III, 1, 1.
 Equiintégrable (ensemble) : IV, 5, 11.
 Equivalentes (fonctions) : IV, 2, 4.
 Espace complètement réticulé : II, 1, 3.
@@ -86,7 +86,7 @@ Fontions équimesurables : IV, 5, exerc. 29.
 Fonctions équivalentes, $\mu$-équivalentes : IV, 2, 4.
 Forme linéaire positive : II, 2, 1.
 Forme linéaire relativement bornée : II, 2, 2.
-$\mathcal{H}$-extrémal (point) : IV, 7, 3.
+$\mathscr{H}$-extrémal (point) : IV, 7, 3.
 Hölder (inégalité de) : I, 2 et IV, 6, 4.
 Imaginaire (partie) d’une mesure : III, 1, 5.
 Induite (mesure) sur un ensemble ouvert : III, 2, 1.
@@ -158,7 +158,7 @@ $n$-uple (intégrale): III, 4, 4.
 Ordonnée (somme directe): II, 1, 4.
 Partie réelle, partie imaginaire d’une mesure: III, 1, 5.
 $\Phi$-étagée (fonction): IV, 4, 9.
-Point $\mathcal{H}$-extrémal: IV, 7, 3.
+Point $\mathscr{H}$-extrémal: IV, 7, 3.
 Ponctuelle (mesure): III, 2, 4.
 Positive (forme linéaire): II, 2, 1.
 

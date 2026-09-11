@@ -52,7 +52,7 @@ subsections:
       pdf_page: 66
 statements: 52
 exercises: 13
-content_sha256: b81cb35830d8b77d952bbf682b6d42d2e10d45c04f9e923acd598a59705ebd05
+content_sha256: 8d7c01df218f4e974e1e6f53c424b10b39cbbb6c6e2989998608fb6fb21f2688
 ---
 
 ## § 2. Quotient d’un espace par un groupe ; espaces homogènes.
@@ -61,13 +61,13 @@ content_sha256: b81cb35830d8b77d952bbf682b6d42d2e10d45c04f9e923acd598a59705ebd05
 
 Soit X un espace localement compact dans lequel un groupe localement compact H opère à droite, continûment et proprement, par $(x, \xi) \to x\xi$ ($x \in X, \xi \in H$). La relation d’équivalence définie par H dans X est ouverte (Top. Gén., chap. III, 3e éd., § 2, no 4, lemme 2) et X/H est séparé (loc. cit., § 4, no 2, prop. 3) donc localement compact (Top. Gén., chap. I, 3e éd., § 10, no 4, prop. 10). On notera $\pi$ l’application canonique de X sur X/H. Le saturé d’une partie Y de X est $YH = \pi^{-1}(\pi(Y))$. Si K est une partie compacte de X, $\pi(K)$ est compact, et le saturé $\pi^{-1}(\pi(K))$ est fermé dans X. Toute partie compacte de X/H est l’image par $\pi$ d’une partie compacte de X (Top. Gén., chap. I, 3e éd., § 10, no 4, prop. 10). On suppose donnée une fois pour toutes une mesure de Haar à gauche $\beta$ sur H.
 
-Soit $\chi$ une représentation continue de H dans $\mathbf{R}_+^*$. Si une fonction $g$ sur X satisfait à $g(x\xi) = \chi(\xi)g(x)$ quels que soient $x \in X$ et $\xi \in H$, son support S est invariant par H et s’écrit donc $\pi^{-1}(\pi(S))$. On désignera par $\mathcal{K}^\chi(X)$ l’espace de Riesz formé des fonctions numériques continues $g$ sur X qui satisfont à $g(x\xi) = \chi(\xi)g(x)$ ($x \in X, \xi \in H$), et dont le support est le saturé d’une partie compacte de X ; on notera $\mathcal{K}_+^\chi(X)$ l’ensemble des éléments $\geq 0$ de $\mathcal{K}^\chi(X)$. En particulier, $\mathcal{K}^1(X)$ n’est autre que l’ensemble des fonctions continues sur X, constantes sur les orbites, et dont le support est le saturé d’une partie compacte.
+Soit $\chi$ une représentation continue de H dans $\mathbf{R}_+^*$. Si une fonction $g$ sur X satisfait à $g(x\xi) = \chi(\xi)g(x)$ quels que soient $x \in X$ et $\xi \in H$, son support S est invariant par H et s’écrit donc $\pi^{-1}(\pi(S))$. On désignera par $\mathscr{K}^\chi(X)$ l’espace de Riesz formé des fonctions numériques continues $g$ sur X qui satisfont à $g(x\xi) = \chi(\xi)g(x)$ ($x \in X, \xi \in H$), et dont le support est le saturé d’une partie compacte de X ; on notera $\mathscr{K}_+^\chi(X)$ l’ensemble des éléments $\geq 0$ de $\mathscr{K}^\chi(X)$. En particulier, $\mathscr{K}^1(X)$ n’est autre que l’ensemble des fonctions continues sur X, constantes sur les orbites, et dont le support est le saturé d’une partie compacte.
 
 #### Proposition 1 {#int-vii-s2-prop-1 .statement}
 
 Soit f une fonction numérique continue sur X dont le support S ait une intersection compacte avec le saturé de toute partie compacte de X.
 
-a) Pour tout $x \in X$, la fonction $\xi \to f(x\xi)$ sur H appartient à $\mathcal{K}(H)$; on pose
+a) Pour tout $x \in X$, la fonction $\xi \to f(x\xi)$ sur H appartient à $\mathscr{K}(H)$; on pose
 
 $$
 f^\chi(x) = \int_H f(x\xi)\chi(\xi)^{-1}d\beta(\xi).
@@ -99,17 +99,17 @@ $$
 
 #### Proposition 2 {#int-vii-s2-prop-2 .statement}
 
-L’application $f \to f^\chi$ de $\mathcal{K}(X)$ dans $\mathcal{K}^\chi(X)$ est linéaire, et l’image de $\mathcal{K}(X)$ (resp. $\mathcal{K}_+(X)$) est $\mathcal{K}^\chi(X)$ (resp. $\mathcal{K}_+^\chi(X)$).
+L’application $f \to f^\chi$ de $\mathscr{K}(X)$ dans $\mathscr{K}^\chi(X)$ est linéaire, et l’image de $\mathscr{K}(X)$ (resp. $\mathscr{K}_+(X)$) est $\mathscr{K}^\chi(X)$ (resp. $\mathscr{K}_+^\chi(X)$).
 
 La linéarité est immédiate. Il est clair que $f^\chi \geqslant 0$ pour $f \geqslant 0$. Il suffit alors d’appliquer le lemme suivant :
 
 #### Lemme 1 {#int-vii-s2-lem-1 .statement}
 
-Soient $K$ une partie compacte de $X$, $u$ une fonction de $\mathcal{K}_+(X)$, avec $u(x) > 0$ pour $x \in K$. Soit $g \in \mathcal{K}^\chi(X)$ telle que $\operatorname{Supp} g \subset KH$.
+Soient $K$ une partie compacte de $X$, $u$ une fonction de $\mathscr{K}_+(X)$, avec $u(x) > 0$ pour $x \in K$. Soit $g \in \mathscr{K}^\chi(X)$ telle que $\operatorname{Supp} g \subset KH$.
 
 a) On a $\inf_{x \in KH} u^1(x) > 0$.
 
-b) La fonction h égale à $g/u^1$ dans KH, à 0 dans $X - KH$, appartient à $\mathcal{K}^\times(X)$.
+b) La fonction h égale à $g/u^1$ dans KH, à 0 dans $X - KH$, appartient à $\mathscr{K}^\times(X)$.
 
 c) $g = (uh)^\times$.
 
@@ -117,23 +117,23 @@ On a $u^1(x) > 0$ pour $x \in K$, donc $\inf_{x \in KH} u^1(x) = \inf_{x \in K} 
 
 L’assertion b) en résulte aussitôt. Enfin, d’après la prop. 1 c), on a $(uh)^\times = u^1h$, et il est clair que $u^1h = g$.
 
-Soit I une forme linéaire relativement bornée (chap. II, § 2, n° 2) sur $\mathcal{K}^\times(X)$. Alors $f \to I(f^\times)$ est une forme linéaire relativement bornée sur $\mathcal{K}(X)$, c’est-à-dire une mesure $\mu_I$ sur X. L’application $I \to \mu_I$ est injective d’après la prop. 2. Les mesures $\mu_I$ ainsi obtenues sur X peuvent être caractérisées comme suit :
+Soit I une forme linéaire relativement bornée (chap. II, § 2, n° 2) sur $\mathscr{K}^\times(X)$. Alors $f \to I(f^\times)$ est une forme linéaire relativement bornée sur $\mathscr{K}(X)$, c’est-à-dire une mesure $\mu_I$ sur X. L’application $I \to \mu_I$ est injective d’après la prop. 2. Les mesures $\mu_I$ ainsi obtenues sur X peuvent être caractérisées comme suit :
 
 #### Proposition 3 {#int-vii-s2-prop-3 .statement}
 
 Soit $\mu$ une mesure sur X. Les conditions suivantes sont équivalentes :
 
-a) Il existe une forme linéaire relativement bornée I sur $\mathcal{K}^\times(X)$ telle que $I(f^\times) = \mu(f)$ pour toute $f \in \mathcal{K}(X)$.
+a) Il existe une forme linéaire relativement bornée I sur $\mathscr{K}^\times(X)$ telle que $I(f^\times) = \mu(f)$ pour toute $f \in \mathscr{K}(X)$.
 
 b) $\delta(\xi)\mu = \chi(\xi)^{-1}\Delta_H(\xi)\mu$ pour tout $\xi \in H$.
 
-c) Quelles que soient $f, g$ dans $\mathcal{K}(X)$, on a
+c) Quelles que soient $f, g$ dans $\mathscr{K}(X)$, on a
 
 $$
 \mu(f \cdot g^1) = \mu(f^\times \cdot g).
 $$
 
-d) Si $f \in \mathcal{K}(X)$ est telle que $f^\times = 0$, alors $\mu(f) = 0$.
+d) Si $f \in \mathscr{K}(X)$ est telle que $f^\times = 0$, alors $\mu(f) = 0$.
 
 $a) \Rightarrow b)$ : si $\mu(f) = I(f^\times)$, on a, compte tenu de la prop. 1 d) :
 
@@ -161,13 +161,13 @@ $$
 
 ce qui prouve c).
 
-c) $\Rightarrow$ d) : si c) est vérifiée et si $f^\chi = 0$, on a $\mu(f \cdot g^1) = 0$ pour toute $g \in \mathcal{K}(X)$, donc $\mu(f) = 0$ en choisissant $g \in \mathcal{K}(X)$ telle que $g^1 = 1$ sur Supp $f$ (ce qui est possible d'après la prop. 2 appliquée avec $\chi = 1$).
+c) $\Rightarrow$ d) : si c) est vérifiée et si $f^\chi = 0$, on a $\mu(f \cdot g^1) = 0$ pour toute $g \in \mathscr{K}(X)$, donc $\mu(f) = 0$ en choisissant $g \in \mathscr{K}(X)$ telle que $g^1 = 1$ sur Supp $f$ (ce qui est possible d'après la prop. 2 appliquée avec $\chi = 1$).
 
-d) $\Rightarrow$ a) : si la condition d) est satisfaite, il existe une forme linéaire I sur $\mathcal{K}^\chi(X)$ telle que $\mu(f) = I(f^\chi)$ pour $f \in \mathcal{K}(X)$, et cette forme est relativement bornée en vertu de la prop. 2.
+d) $\Rightarrow$ a) : si la condition d) est satisfaite, il existe une forme linéaire I sur $\mathscr{K}^\chi(X)$ telle que $\mu(f) = I(f^\chi)$ pour $f \in \mathscr{K}(X)$, et cette forme est relativement bornée en vertu de la prop. 2.
 
 ### 2. *Cas où $\chi = 1$*.
 
-Si $f$ est une fonction sur $X/H$, $f \circ \pi$ est une fonction sur $X$ constante sur les orbites, continue si et seulement si $f$ est continue. L’application $f \to f \circ \pi$ définit en particulier une *bijection* de $\mathcal{K}(X/H)$ sur $\mathcal{K}^1(X)$.
+Si $f$ est une fonction sur $X/H$, $f \circ \pi$ est une fonction sur $X$ constante sur les orbites, continue si et seulement si $f$ est continue. L’application $f \to f \circ \pi$ définit en particulier une *bijection* de $\mathscr{K}(X/H)$ sur $\mathscr{K}^1(X)$.
 
 Nous pouvons alors, dans le cas où $\chi = 1$, reformuler de la manière suivante certains résultats du no 1 :
 
@@ -193,21 +193,21 @@ $$
 
 On n’oubliera pas que la définition de $f^b$ dépend du choix de $\beta$. Si $H$ est compact et $\beta$ normalisée, la fonction $f^b$ s’appelle parfois moyenne orbitale de $f$.
 
-Si $f \in \mathcal{K}(X)$, on a $f^b \in \mathcal{K}(X/H)$. L’application $f \to f^b$ de $\mathcal{K}(X)$ dans $\mathcal{K}(X/H)$ est linéaire, et l’image de $\mathcal{K}(X)$ (resp. $\mathcal{K}_+(X)$) est $\mathcal{K}(X/H)$ (resp. $\mathcal{K}_+(X/H)$).
+Si $f \in \mathscr{K}(X)$, on a $f^b \in \mathscr{K}(X/H)$. L’application $f \to f^b$ de $\mathscr{K}(X)$ dans $\mathscr{K}(X/H)$ est linéaire, et l’image de $\mathscr{K}(X)$ (resp. $\mathscr{K}_+(X)$) est $\mathscr{K}(X/H)$ (resp. $\mathscr{K}_+(X/H)$).
 
 #### Remarque 1 {#int-vii-s2-n2-rem-1 .statement}
 
-On va montrer que l’application $f \to f^b$ est un morphisme strict (Top. gén., chap. III, 3e éd., § 2, n° 8) de $\mathcal{K}(X)$ sur $\mathcal{K}(X/H)$.
+On va montrer que l’application $f \to f^b$ est un morphisme strict (Top. gén., chap. III, 3e éd., § 2, n° 8) de $\mathscr{K}(X)$ sur $\mathscr{K}(X/H)$.
 
-a) Cette application est continue : il suffit de prouver que, pour toute partie compacte $K$ de $X$, la restriction à $\mathcal{K}(X, K)$ de $f \to f^b$ est une application continue de $\mathcal{K}(X, K)$ dans $\mathcal{K}(X/H, \pi(K))$ (Esp. vect. top., chap. II, § 2, n° 2, cor. de la prop. 1) ; comme $H$ opère proprement dans $X$, l’ensemble $P$ des $\xi \in H$ tels que $K\xi$ rencontre $K$ est compact ; on conclut de (3) que $\sup_{x \in K} |f^b(\pi(x))| \leq \beta(P) \sup_{x \in K} |f(x)|$, et ceci prouve notre assertion.
+a) Cette application est continue : il suffit de prouver que, pour toute partie compacte $K$ de $X$, la restriction à $\mathscr{K}(X, K)$ de $f \to f^b$ est une application continue de $\mathscr{K}(X, K)$ dans $\mathscr{K}(X/H, \pi(K))$ (Esp. vect. top., chap. II, § 2, n° 2, cor. de la prop. 1) ; comme $H$ opère proprement dans $X$, l’ensemble $P$ des $\xi \in H$ tels que $K\xi$ rencontre $K$ est compact ; on conclut de (3) que $\sup_{x \in K} |f^b(\pi(x))| \leq \beta(P) \sup_{x \in K} |f(x)|$, et ceci prouve notre assertion.
 
-b) Soit $K'$ une partie compacte de $X/H$. Choisissons une partie compacte $K$ de $X$ telle que $\pi(K) = K'$, et montrons que la restriction de $f \to f^b$ à $\mathcal{K}(X, K)$ est un morphisme strict de $\mathcal{K}(X, K)$ sur $\mathcal{K}(X/H, K')$. Il suffit de construire pour cette restriction un inverse à droite (Esp. vect. top., chap. I, § 1, n° 8, prop. 13). Or, d’après le lemme 1 du n° 1 (dont nous adoptons les notations), on obtient un tel inverse en composant les applications suivantes :
+b) Soit $K'$ une partie compacte de $X/H$. Choisissons une partie compacte $K$ de $X$ telle que $\pi(K) = K'$, et montrons que la restriction de $f \to f^b$ à $\mathscr{K}(X, K)$ est un morphisme strict de $\mathscr{K}(X, K)$ sur $\mathscr{K}(X/H, K')$. Il suffit de construire pour cette restriction un inverse à droite (Esp. vect. top., chap. I, § 1, n° 8, prop. 13). Or, d’après le lemme 1 du n° 1 (dont nous adoptons les notations), on obtient un tel inverse en composant les applications suivantes :
 
-α) l’application $f' \to f' \circ \pi$ de $\mathcal{K}(X/H, K')$ dans l’ensemble $E$ des fonctions de $\mathcal{K}^1(X)$ dont le support est contenu dans $KH$ ;
+α) l’application $f' \to f' \circ \pi$ de $\mathscr{K}(X/H, K')$ dans l’ensemble $E$ des fonctions de $\mathscr{K}^1(X)$ dont le support est contenu dans $KH$ ;
 β) l’application de $E$ dans $E$ qui, à toute $g \in E$, fait correspondre la fonction égale à $g/u^1$ dans $KH$, à 0 dans $X - KH$ ;
-γ) l’application de $E$ dans $\mathcal{K}(X)$ qui, à toute fonction $h \in E$, fait correspondre $uh$.
+γ) l’application de $E$ dans $\mathscr{K}(X)$ qui, à toute fonction $h \in E$, fait correspondre $uh$.
 
-c) Ceci posé, si $V$ est un voisinage convexe de 0 dans $\mathcal{K}(X)$, $V \cap \mathcal{K}(X, K)$ est un voisinage convexe de 0 dans $\mathcal{K}(X, K)$, donc $V^b \cap \mathcal{K}(X/H, K')$ est un voisinage convexe de 0 dans $\mathcal{K}(X/H, K')$ d’après b), donc $V^b$ est un voisinage de 0 dans $\mathcal{K}(X/H)$ (Esp. vect. top., chap. II, § 2, n° 4). Ceci achève la démonstration.
+c) Ceci posé, si $V$ est un voisinage convexe de 0 dans $\mathscr{K}(X)$, $V \cap \mathscr{K}(X, K)$ est un voisinage convexe de 0 dans $\mathscr{K}(X, K)$, donc $V^b \cap \mathscr{K}(X/H, K')$ est un voisinage convexe de 0 dans $\mathscr{K}(X/H, K')$ d’après b), donc $V^b$ est un voisinage de 0 dans $\mathscr{K}(X/H)$ (Esp. vect. top., chap. II, § 2, n° 4). Ceci achève la démonstration.
 
 #### Proposition 4 {#int-vii-s2-prop-4 .statement}
 
@@ -217,7 +217,7 @@ a) Soit $\lambda$ une mesure sur $X/H$. Il existe une mesure $\lambda^\#$ et une
 \int_{X/H} f^b d\lambda = \int_X f d\lambda^\#
 $$
 
-quelle que soit $f \in \mathcal{K}(X)$. On a $\delta(\xi)\lambda^\# = \Delta_H(\xi)\lambda^\#$ pour tout $\xi \in H$.
+quelle que soit $f \in \mathscr{K}(X)$. On a $\delta(\xi)\lambda^\# = \Delta_H(\xi)\lambda^\#$ pour tout $\xi \in H$.
 
 b) Réciproquement, soit $\mu$ une mesure sur $X$ telle que $\delta(\xi)\mu = \Delta_H(\xi)\mu$ pour tout $\xi \in H$. Il existe une mesure $\lambda$ et une seule sur $X/H$ telle que $\mu = \lambda^\#$.
 
@@ -227,7 +227,7 @@ C'est un cas particulier du no 1.
 
 Les hypothèses et les notations étant celles de la prop. 4, $\lambda$ s'appelle le quotient de $\mu$ par $\beta$ et se note $\frac{\mu}{\beta}$ ou $\mu/\beta$.
 
-L'application $\lambda \to \lambda^\#$ de $\mathcal{M}(X/H)$ dans $\mathcal{M}(X)$ n'est autre que la transposée de l'application $f \to f^b$ de $\mathcal{K}(X)$ dans $\mathcal{K}(X/H)$. Soit $\mathfrak{F}$ un filtre sur $\mathcal{M}(X/H)$; dire que $\lim_{\lambda,\mathfrak{F}} \lambda^\#(f) = 0$ pour toute $f \in \mathcal{K}(X)$ équivaut à dire que $\lim_{\lambda,\mathfrak{F}} \lambda(f') = 0$ pour toute $f' \in \mathcal{K}(X/H)$; l'application $\lambda \to \lambda^\#$ est donc, pour les topologies vagues, un isomorphisme de $\mathcal{M}(X/H)$ sur un sous-espace vectoriel de $\mathcal{M}(X)$. Ce sous-espace est vaguement fermé, puisqu'il est l'ensemble des $\mu \in \mathcal{M}(X)$ telles que $\delta(\xi)\mu = \Delta_H(\xi)\mu$ pour tout $\xi \in H$. Il est clair que les conditions $\lambda \geqslant 0$ et $\lambda^\# \geqslant 0$ sont équivalentes.
+L'application $\lambda \to \lambda^\#$ de $\mathscr{M}(X/H)$ dans $\mathscr{M}(X)$ n'est autre que la transposée de l'application $f \to f^b$ de $\mathscr{K}(X)$ dans $\mathscr{K}(X/H)$. Soit $\mathfrak{F}$ un filtre sur $\mathscr{M}(X/H)$; dire que $\lim_{\lambda,\mathfrak{F}} \lambda^\#(f) = 0$ pour toute $f \in \mathscr{K}(X)$ équivaut à dire que $\lim_{\lambda,\mathfrak{F}} \lambda(f') = 0$ pour toute $f' \in \mathscr{K}(X/H)$; l'application $\lambda \to \lambda^\#$ est donc, pour les topologies vagues, un isomorphisme de $\mathscr{M}(X/H)$ sur un sous-espace vectoriel de $\mathscr{M}(X)$. Ce sous-espace est vaguement fermé, puisqu'il est l'ensemble des $\mu \in \mathscr{M}(X)$ telles que $\delta(\xi)\mu = \Delta_H(\xi)\mu$ pour tout $\xi \in H$. Il est clair que les conditions $\lambda \geqslant 0$ et $\lambda^\# \geqslant 0$ sont équivalentes.
 
 La formule (6) s'écrit, par analogie avec la notation usuelle pour les intégrales doubles
 
@@ -239,7 +239,7 @@ Il s'agit d'un abus de notations, l'intégrale $\int_H f(x\xi)d\beta(\xi)$ étan
 
 #### Remarque 2 {#int-vii-s2-n2-rem-2 .statement}
 
-Soit $E$ un espace vectoriel localement convexe et soit $m$ une mesure vectorielle sur $X/H$, à valeurs dans $E$. L'application $f \to m(f^b)$ de $\mathcal{K}(X)$ dans $E$ est alors une mesure vectorielle sur $X$, à valeurs dans $E$, que nous noterons encore $m^\#$. L'application $m \to m^\#$ est encore un isomorphisme de $\mathcal{L}(\mathcal{K}(X/H); E)$ sur un sous-espace vectoriel $A$ de $\mathcal{L}(\mathcal{K}(X); E)$ (si on munit ces espaces de la topologie de la convergence simple). De plus, comme l'application $f \to f^b$ est un morphisme strict surjectif, le sous-espace $A$ se compose exactement des mesures vectorielles $n$ sur $X$ qui sont nulles sur le noyau $N$ de l’application $f \to f^\flat$. Pour que $n \in A$, il est donc nécessaire et suffisant que les mesures scalaires $z' \circ n$ soient nulles sur $N$ pour tout $z' \in E'$. On déduit alors de la prop. 3 que $n \in A$ si et seulement si l’on a
+Soit $E$ un espace vectoriel localement convexe et soit $m$ une mesure vectorielle sur $X/H$, à valeurs dans $E$. L'application $f \to m(f^b)$ de $\mathscr{K}(X)$ dans $E$ est alors une mesure vectorielle sur $X$, à valeurs dans $E$, que nous noterons encore $m^\#$. L'application $m \to m^\#$ est encore un isomorphisme de $\mathscr{L}(\mathscr{K}(X/H); E)$ sur un sous-espace vectoriel $A$ de $\mathscr{L}(\mathscr{K}(X); E)$ (si on munit ces espaces de la topologie de la convergence simple). De plus, comme l'application $f \to f^b$ est un morphisme strict surjectif, le sous-espace $A$ se compose exactement des mesures vectorielles $n$ sur $X$ qui sont nulles sur le noyau $N$ de l’application $f \to f^\flat$. Pour que $n \in A$, il est donc nécessaire et suffisant que les mesures scalaires $z' \circ n$ soient nulles sur $N$ pour tout $z' \in E'$. On déduit alors de la prop. 3 que $n \in A$ si et seulement si l’on a
 $$
 \delta(\xi)n = \Delta_H(\xi)n
 $$
@@ -247,7 +247,7 @@ pour tout $\xi \in H$.
 
 ### 3. *Autre interprétation de $\lambda^\#$*.
 
-Pour tout $x \in X$, l’application $\xi \to x\xi$ de $H$ dans $X$ est propre (*Top. Gén.*, chap. III, 3e éd., § 4, no 2, prop. 4), donc $\beta$ admet une mesure image dans $X$ par cette application, image qui est concentrée sur l’orbite $xH$ (chap. V, § 6, no 2, cor. 3 de la prop. 2); comme $\beta$ est invariante à gauche, cette mesure image ne dépend que de la classe $u = \pi(x)$ de $x$ dans $X/H$, et sera notée $\beta_u$. Par définition, pour $f \in \mathcal{K}(X)$, on a
+Pour tout $x \in X$, l’application $\xi \to x\xi$ de $H$ dans $X$ est propre (*Top. Gén.*, chap. III, 3e éd., § 4, no 2, prop. 4), donc $\beta$ admet une mesure image dans $X$ par cette application, image qui est concentrée sur l’orbite $xH$ (chap. V, § 6, no 2, cor. 3 de la prop. 2); comme $\beta$ est invariante à gauche, cette mesure image ne dépend que de la classe $u = \pi(x)$ de $x$ dans $X/H$, et sera notée $\beta_u$. Par définition, pour $f \in \mathscr{K}(X)$, on a
 $$
 \int_X f(y)d\beta_u(y) = \int_H f(x\xi)d\beta(\xi) = f^\flat(u).
 $$
@@ -270,7 +270,7 @@ $$
 $$
 Cela résulte du chap. V, § 4, prop. 2, prop. 3 et th. 2.
 
-Puisque $f^b \in \mathcal{K}(X/H)$ pour $f \in \mathcal{K}(X)$, la formule (8) prouve que l’application $u \to \beta_u$ de $X/H$ dans $\mathcal{M}(X)$ est vaguement continue, que la famille $(\beta_u)$ est $\lambda$-adéquate quelle que soit la mesure positive $\lambda$ sur $X/H$, et que
+Puisque $f^b \in \mathscr{K}(X/H)$ pour $f \in \mathscr{K}(X)$, la formule (8) prouve que l’application $u \to \beta_u$ de $X/H$ dans $\mathscr{M}(X)$ est vaguement continue, que la famille $(\beta_u)$ est $\lambda$-adéquate quelle que soit la mesure positive $\lambda$ sur $X/H$, et que
 
 $$
 \lambda^* = \int_{X/H} \beta_u d\lambda(u)
@@ -322,19 +322,19 @@ Soit $\lambda$ une mesure positive sur $X/H$.
 a) Soit $N$ une partie de $X/H$. Pour que $N$ soit localement $\lambda$-négligeable, il faut et il suffit que $\pi^{-1}(N)$ soit localement $\lambda^{\#}$-négligeable.
 b) Soit $g$ une fonction sur $X/H$, à valeurs dans un espace topologique. Pour que $g$ soit $\lambda$-mesurable, il faut et il suffit que $g \circ \pi$ soit $\lambda^{\#}$-mesurable.
 c) Soit $h$ une fonction sur $X/H$ à valeurs dans un espace de Banach ou dans $\overline{\mathbf{R}}$. Pour que $h$ soit localement $\lambda$-intégrable, il faut et il suffit que $h \circ \pi$ soit localement $\lambda^{\#}$-intégrable, et l’on a alors $(h.\lambda)^{\#} = (h \circ \pi).\lambda^{\#}$.
-Supposons $h \circ \pi$ localement $\lambda^{\#}$-intégrable. Pour toute $f \in \mathcal{K}(X)$, $f.(h \circ \pi)$ est $\lambda^{\#}$-intégrable, donc (prop. 5) la fonction $(f.(h \circ \pi))^{\flat} = f^{\flat}.h$ est $\lambda$-intégrable et l’on a
+Supposons $h \circ \pi$ localement $\lambda^{\#}$-intégrable. Pour toute $f \in \mathscr{K}(X)$, $f.(h \circ \pi)$ est $\lambda^{\#}$-intégrable, donc (prop. 5) la fonction $(f.(h \circ \pi))^{\flat} = f^{\flat}.h$ est $\lambda$-intégrable et l’on a
 
 $$
 \int_{X/H} f^{\flat}.h d\lambda = \int_{X} f.(h \circ \pi) d\lambda^{\#}.
 $$
 
-Comme $f \to f^{\flat}$ est une application surjective de $\mathcal{K}(X)$ sur $\mathcal{K}(X/H)$, cela montre que $h$ est localement $\lambda$-intégrable et que
+Comme $f \to f^{\flat}$ est une application surjective de $\mathscr{K}(X)$ sur $\mathscr{K}(X/H)$, cela montre que $h$ est localement $\lambda$-intégrable et que
 
 $$
 (h.\lambda)^{\#} = (h \circ \pi).\lambda^{\#}.
 $$
 
-En particulier, si $\pi^{-1}(N)$ est localement $\lambda^{\#}$-négligeable, $\varphi_N \circ \pi$ est localement $\lambda^{\#}$-négligeable, donc $(\varphi_N.\lambda)^{\#} = (\varphi_N \circ \pi).\lambda^{\#} = 0$, et par suite $\varphi_N.\lambda = 0$ et $N$ est localement $\lambda$-négligeable. Maintenant, supposons que $g \circ \pi$ soit $\lambda^{\#}$-mesurable. Soit $K'$ une partie compacte de X/H. Soit $f \in \mathcal{K}_+(X)$, telle que $f^\flat = 1$ dans $K'$ (no 1, prop. 2), et soit $K = \mathrm{Supp}\, f$; on a $\pi(K) \supset K'$. Il existe une partition de K formée d’un ensemble $\lambda^*$-négligeable M et d’une suite $(K_n)$ d’ensembles compacts tels que $(g \circ \pi)|K_n$ soit continue pour tout n. Alors $g|\pi(K_n)$ est continue. Soit P l’ensemble des points de K n’appartenant pas à $\pi(K_1) \cup \pi(K_2) \cup \ldots$; alors $\pi^{-1}(P) \cap K$ est contenu dans M, donc est $\lambda^*$-négligeable ; donc $f \cdot \varphi_{\pi^{-1}(P)}$ est $\lambda^*$-négligeable ; on en déduit (prop. 5)
+En particulier, si $\pi^{-1}(N)$ est localement $\lambda^{\#}$-négligeable, $\varphi_N \circ \pi$ est localement $\lambda^{\#}$-négligeable, donc $(\varphi_N.\lambda)^{\#} = (\varphi_N \circ \pi).\lambda^{\#} = 0$, et par suite $\varphi_N.\lambda = 0$ et $N$ est localement $\lambda$-négligeable. Maintenant, supposons que $g \circ \pi$ soit $\lambda^{\#}$-mesurable. Soit $K'$ une partie compacte de X/H. Soit $f \in \mathscr{K}_+(X)$, telle que $f^\flat = 1$ dans $K'$ (no 1, prop. 2), et soit $K = \mathrm{Supp}\, f$; on a $\pi(K) \supset K'$. Il existe une partition de K formée d’un ensemble $\lambda^*$-négligeable M et d’une suite $(K_n)$ d’ensembles compacts tels que $(g \circ \pi)|K_n$ soit continue pour tout n. Alors $g|\pi(K_n)$ est continue. Soit P l’ensemble des points de K n’appartenant pas à $\pi(K_1) \cup \pi(K_2) \cup \ldots$; alors $\pi^{-1}(P) \cap K$ est contenu dans M, donc est $\lambda^*$-négligeable ; donc $f \cdot \varphi_{\pi^{-1}(P)}$ est $\lambda^*$-négligeable ; on en déduit (prop. 5)
 
 $$
 0 = \int_X f \cdot \varphi_{\pi^{-1}(P)} d\lambda^* = \int_{X/H} f^\flat \cdot \varphi_P d\lambda \geq \int_{X/H}^* \varphi_P d\lambda
@@ -342,7 +342,7 @@ $$
 
 donc P est $\lambda$-négligeable, et g est $\lambda$-mesurable.
 
-Si N est localement $\lambda$-négligeable, $\pi^{-1}(N)$ est localement $\lambda^*$-négligeable (App. 2). Si g est $\lambda$-mesurable, $g \circ \pi$ est $\lambda^*$-mesurable (ibid.). Enfin, supposons h localement $\lambda$-intégrable. Alors on sait déjà que $h \circ \pi$ est $\lambda^*$-mesurable. Pour toute $f \in \mathcal{K}_+(X)$, on a, d’après la prop. 5,
+Si N est localement $\lambda$-négligeable, $\pi^{-1}(N)$ est localement $\lambda^*$-négligeable (App. 2). Si g est $\lambda$-mesurable, $g \circ \pi$ est $\lambda^*$-mesurable (ibid.). Enfin, supposons h localement $\lambda$-intégrable. Alors on sait déjà que $h \circ \pi$ est $\lambda^*$-mesurable. Pour toute $f \in \mathscr{K}_+(X)$, on a, d’après la prop. 5,
 
 $$
 \int_X^* f(x)|h|(\pi(x)) d\lambda^*(x) = \int_{X/H}^* |h|(u)f^\flat(u) d\lambda(u) < + \infty
@@ -364,7 +364,7 @@ En remplaçant f par $f/(1 + |f|)$, on se ramène au cas où f est bornée, donc
 
 #### Corollaire 3 {#int-vii-s2-prop-6-cor-3 .statement}
 
-a) *Soit* $(\lambda_i)_{i \in I}$ *une famille de mesures réelles sur* $X/H$. *Pour que la famille* $(\lambda_i)$ *soit majorée dans* $\mathcal{M}(X/H)$, *il faut et il suffit que la famille* $(\lambda_i^\#)$ *soit majorée dans* $\mathcal{M}(X)$, *et on a alors*
+a) *Soit* $(\lambda_i)_{i \in I}$ *une famille de mesures réelles sur* $X/H$. *Pour que la famille* $(\lambda_i)$ *soit majorée dans* $\mathscr{M}(X/H)$, *il faut et il suffit que la famille* $(\lambda_i^\#)$ *soit majorée dans* $\mathscr{M}(X)$, *et on a alors*
 
 $$
 \sup(\lambda_i^\#) = (\sup \lambda_i)^\#.
@@ -380,13 +380,13 @@ $$
 (\sup \lambda_i)^\# \geq \sup(\lambda_i^\#).
 $$
 
-Réciproquement, supposons la famille $(\lambda_i^\#)$ majorée et soit $v = \sup (\lambda_i^\#)$. Puisque $\delta(\xi)\lambda_i^\# = \Delta_H(\xi)\lambda_i^\#$ pour tout $\xi \in H$, on a évidemment $\delta(\xi)v = \Delta_H(\xi)v$, donc il existe une mesure $\mu' \in \mathcal{M}(X/H)$ telle que $v = {\mu'}^\#$. Comme $\lambda^\# \geq 0$ entraîne $\lambda \geq 0$, on a $\mu' \geq \lambda_i$ pour tout $i$, ce qui montre que la famille $(\lambda_i)$ est majorée et que $v = {\mu'}^\# \geq (\sup \lambda_i)^\#$, d’où
+Réciproquement, supposons la famille $(\lambda_i^\#)$ majorée et soit $v = \sup (\lambda_i^\#)$. Puisque $\delta(\xi)\lambda_i^\# = \Delta_H(\xi)\lambda_i^\#$ pour tout $\xi \in H$, on a évidemment $\delta(\xi)v = \Delta_H(\xi)v$, donc il existe une mesure $\mu' \in \mathscr{M}(X/H)$ telle que $v = {\mu'}^\#$. Comme $\lambda^\# \geq 0$ entraîne $\lambda \geq 0$, on a $\mu' \geq \lambda_i$ pour tout $i$, ce qui montre que la famille $(\lambda_i)$ est majorée et que $v = {\mu'}^\# \geq (\sup \lambda_i)^\#$, d’où
 
 $$
 \sup (\lambda_i^\#) \geq (\sup \lambda_i)^\#
 $$
 
-ce qui achève la démonstration de a). L’assertion b) en résulte aussitôt, puisque $\lambda^+$ par exemple n’est autre que $\sup(\lambda, 0)$. Pour démontrer c), il suffit de remarquer que $|\lambda| = \sup \Re(\alpha \lambda)$ pour $\alpha$ nombre complexe de module 1, et d’autre part que $\Re(\mu^\#) = (\Re \mu)^\#$ pour toute $\mu \in \mathcal{M}(X/H)$.
+ce qui achève la démonstration de a). L’assertion b) en résulte aussitôt, puisque $\lambda^+$ par exemple n’est autre que $\sup(\lambda, 0)$. Pour démontrer c), il suffit de remarquer que $|\lambda| = \sup \Re(\alpha \lambda)$ pour $\alpha$ nombre complexe de module 1, et d’autre part que $\Re(\mu^\#) = (\Re \mu)^\#$ pour toute $\mu \in \mathscr{M}(X/H)$.
 
 #### Remarque 1 {#int-vii-s2-n3-rem-1 .statement}
 
@@ -394,7 +394,7 @@ La prop. 6 a) peut s’exprimer en disant que $\lambda$ est une mesure *pseudo-i
 
 #### Remarque 2 {#int-vii-s2-n3-rem-2 .statement}
 
-Supposons $H$ compact et $\beta$ normalisée. Le saturé de toute partie compacte de $X$ est compact. Donc, si $f \in \mathcal{K}(X/H)$, on a $f \circ \pi \in \mathcal{K}(X)$; et, pour toute mesure positive $\lambda$ sur $X/H$, la prop. 5c) donne
+Supposons $H$ compact et $\beta$ normalisée. Le saturé de toute partie compacte de $X$ est compact. Donc, si $f \in \mathscr{K}(X/H)$, on a $f \circ \pi \in \mathscr{K}(X)$; et, pour toute mesure positive $\lambda$ sur $X/H$, la prop. 5c) donne
 
 $$
 \int_X (f \circ \pi)(x)d\lambda^*(x) = \int_{X/H} f(u)d\lambda(u).
@@ -416,7 +416,7 @@ Enfin, si $m$ est de base $\mu$, de densité $f$ par rapport à $\mu$ (chap. VI,
 
 ### 4. Cas où $X/H$ est paracompact.
 
-Si $X/H$ est paracompact, on va voir d’abord que les espaces vectoriels $\mathcal{K}^\chi(X)$, pour $\chi$ variable, sont tous isomorphes entre eux, et en particulier isomorphes à $\mathcal{K}^1(X)$.
+Si $X/H$ est paracompact, on va voir d’abord que les espaces vectoriels $\mathscr{K}^\chi(X)$, pour $\chi$ variable, sont tous isomorphes entre eux, et en particulier isomorphes à $\mathscr{K}^1(X)$.
 
 #### Proposition 7 {#int-vii-s2-prop-7 .statement}
 
@@ -424,7 +424,7 @@ Supposons $X/H$ paracompact. Soit $\chi$ une représentation continue de $H$ dan
 
 a) Il existe sur $X$ une fonction continue $r$, à valeurs $> 0$, telle que $r(x\xi) = \chi(\xi)r(x)$ quels que soient $x \in X$ et $\xi \in H$.
 
-b) L’application $g \to g/r$ est un isomorphisme de l’espace vectoriel $\mathcal{K}^\chi(X)$ sur l’espace vectoriel $\mathcal{K}^1(X)$.
+b) L’application $g \to g/r$ est un isomorphisme de l’espace vectoriel $\mathscr{K}^\chi(X)$ sur l’espace vectoriel $\mathscr{K}^1(X)$.
 
 Appliquons la prop. 1 du n° 1 en prenant pour $f$ une fonction $\geqslant 0$ non identiquement nulle sur chaque orbite (c’est possible d’après le lemme 1 de l’Appendice 1) ; alors $r = f^\chi$ vérifie les propriétés de $a$. L’assertion $b$ est évidente.
 
@@ -440,7 +440,7 @@ En particulier, soit $X$ un espace localement compact sur lequel opère à droit
 
 #### Remarque 2 {#int-vii-s2-n4-rem-2 .statement}
 
-Conservons les hypothèses et les notations de la prop. 8. L’application $g \to h . (g \circ \pi)$ est une application continue de $\mathcal{K}(X/H)$ dans $\mathcal{K}(X)$ qui est inverse à droite de l’application $f \to f^b$. Par suite, toute partie bornée (resp. compacte) de $\mathcal{K}(X/H)$ est l’image d’une partie bornée (resp. compacte) de $\mathcal{K}(X)$. On en déduit aussitôt que l’application $\lambda \to \lambda^\#$ est encore un isomorphisme de $\mathcal{M}(X/H)$ sur un sous-espace vectoriel fermé de $\mathcal{M}(X)$ quand on munit ces espaces de la topologie de la convergence bornée (resp. compacte).
+Conservons les hypothèses et les notations de la prop. 8. L’application $g \to h . (g \circ \pi)$ est une application continue de $\mathscr{K}(X/H)$ dans $\mathscr{K}(X)$ qui est inverse à droite de l’application $f \to f^b$. Par suite, toute partie bornée (resp. compacte) de $\mathscr{K}(X/H)$ est l’image d’une partie bornée (resp. compacte) de $\mathscr{K}(X)$. On en déduit aussitôt que l’application $\lambda \to \lambda^\#$ est encore un isomorphisme de $\mathscr{M}(X/H)$ sur un sous-espace vectoriel fermé de $\mathscr{M}(X)$ quand on munit ces espaces de la topologie de la convergence bornée (resp. compacte).
 
 #### Proposition 9 {#int-vii-s2-prop-9 .statement}
 
@@ -456,13 +456,13 @@ $$
 \int_{X/H} \mathbf{k} d\lambda = \int_X h . (\mathbf{k} \circ \pi) d\lambda^*.
 $$
 
-Soit $f \in \mathcal{K}(X/H)$. Alors $h . (f \circ \pi) \in \mathcal{K}(X)$ et l’on a
+Soit $f \in \mathscr{K}(X/H)$. Alors $h . (f \circ \pi) \in \mathscr{K}(X)$ et l’on a
 
 $$
 \int_X h(x)f(\pi(x)) d\lambda^*(x) = \int_{X/H} f(\dot{x}) d\lambda(\dot{x}) \int_H h(x\xi) d\beta(\xi) = \int_{X/H} f(\dot{x}) d\lambda(\dot{x})
 $$
 
-d’où a). L’assertion b) se démontre de même. Les assertions de c) concernant la mesurabilité, l’intégrabilité essentielle et la formule (14) s’obtiennent alors en appliquant les résultats du chap. V (§ 4, prop. 3, § 5, prop. 4, § 4, th. 2). Si $\mathbf{k}$ est $\lambda$-intégrable, $h . (\mathbf{k} \circ \pi)$ est $\lambda^*$-intégrable (chap. V, § 3, n° 4, th. 1). Si $h . (\mathbf{k} \circ \pi)$ est $\lambda^*$-intégrable, la prop. 5 prouve que $(h . (\mathbf{k} \circ \pi))^b = h^b . \mathbf{k} = \mathbf{k}$ est $\lambda$-intégrable. Si $\mathbf{k}$ est localement $\lambda$-intégrable, $h . (\mathbf{k} \circ \pi)$ est localement $\lambda^*$-intégrable (prop. 6). Enfin, supposons $h . (\mathbf{k} \circ \pi)$ localement $\lambda^*$-intégrable; pour toute $f \in \mathcal{K}(X/H)$, $h . (\mathbf{k} \circ \pi) . (f \circ \pi)$ est à support compact, et
+d’où a). L’assertion b) se démontre de même. Les assertions de c) concernant la mesurabilité, l’intégrabilité essentielle et la formule (14) s’obtiennent alors en appliquant les résultats du chap. V (§ 4, prop. 3, § 5, prop. 4, § 4, th. 2). Si $\mathbf{k}$ est $\lambda$-intégrable, $h . (\mathbf{k} \circ \pi)$ est $\lambda^*$-intégrable (chap. V, § 3, n° 4, th. 1). Si $h . (\mathbf{k} \circ \pi)$ est $\lambda^*$-intégrable, la prop. 5 prouve que $(h . (\mathbf{k} \circ \pi))^b = h^b . \mathbf{k} = \mathbf{k}$ est $\lambda$-intégrable. Si $\mathbf{k}$ est localement $\lambda$-intégrable, $h . (\mathbf{k} \circ \pi)$ est localement $\lambda^*$-intégrable (prop. 6). Enfin, supposons $h . (\mathbf{k} \circ \pi)$ localement $\lambda^*$-intégrable; pour toute $f \in \mathscr{K}(X/H)$, $h . (\mathbf{k} \circ \pi) . (f \circ \pi)$ est à support compact, et
 
 $$
 |h . (\mathbf{k} \circ \pi) . (f \circ \pi)| \leq M |h . (\mathbf{k} \circ \pi)|
@@ -476,7 +476,7 @@ en posant $M = \sup |f|$; donc $h . ((\mathbf{k}f) \circ \pi)$ est $\lambda^*$-i
 
 Supposons d’abord $X/H$ paracompact et soit $h$ une fonction sur $X$ satisfaisant aux conditions de la prop. 8. Si $k$ est une fonction numérique essentiellement $\lambda$-intégrable, $h . (k \circ \pi)$ est essentiellement $\lambda^*$-intégrable, et évidemment $(h . (k \circ \pi))^b = k$.
 
-Dans le cas général, soit $u \in L^1(X/H, \lambda)$. Il existe une fonction $f \in \mathcal{L}^1(X/H, \lambda)$, de classe $u$ et nulle en dehors d’une réunion dénombrable d’ensembles compacts $K_n$. Définissons par récurrence une suite d’ensembles ouverts relativement compacts $U_n$ de $X/H$, tels que $U_{n+1} \supset K_n \cup \overline{U}_n$, et soit $V$ la réunion des $U_n$. Alors $V$ est une partie ouverte de $X/H$, réunion dénombrable de parties compactes $\overline{U}_n$, donc paracompacte (*Top. gén.*, chap. I, 3e éd., § 9, no 10, th. 5). Posons $Y = \pi^{-1}(V)$ et soit $\lambda_V$ (resp. $\lambda_Y^\#$) la mesure induite par $\lambda$ (resp. $\lambda^\#$) sur $V$ (resp. $Y$). Il est clair que $Y/H$ s’identifie à $V$ (*Top. gén.*, chap. I, 3e éd., § 3, prop. 10) et que $\lambda_Y^\#$ s’identifie à $(\lambda_V)^\#$. De plus, $f$ est nulle en dehors de $V$ et appartient à $\mathcal{L}^1(V, \lambda_V)$. Il existe donc $g \in \mathcal{L}^1(Y, \lambda_Y^\#)$ telle que $g^b = f$ presque partout sur $V$. En prolongeant $g$ par 0 sur $X - Y$, on obtient une fonction $g_1 \in \mathcal{L}^1(X, \lambda^\#)$ et il est clair que la classe de $g_1^b$ dans $L^1(X/H, \lambda)$ n’est autre que $u$.
+Dans le cas général, soit $u \in L^1(X/H, \lambda)$. Il existe une fonction $f \in \mathscr{L}^1(X/H, \lambda)$, de classe $u$ et nulle en dehors d’une réunion dénombrable d’ensembles compacts $K_n$. Définissons par récurrence une suite d’ensembles ouverts relativement compacts $U_n$ de $X/H$, tels que $U_{n+1} \supset K_n \cup \overline{U}_n$, et soit $V$ la réunion des $U_n$. Alors $V$ est une partie ouverte de $X/H$, réunion dénombrable de parties compactes $\overline{U}_n$, donc paracompacte (*Top. gén.*, chap. I, 3e éd., § 9, no 10, th. 5). Posons $Y = \pi^{-1}(V)$ et soit $\lambda_V$ (resp. $\lambda_Y^\#$) la mesure induite par $\lambda$ (resp. $\lambda^\#$) sur $V$ (resp. $Y$). Il est clair que $Y/H$ s’identifie à $V$ (*Top. gén.*, chap. I, 3e éd., § 3, prop. 10) et que $\lambda_Y^\#$ s’identifie à $(\lambda_V)^\#$. De plus, $f$ est nulle en dehors de $V$ et appartient à $\mathscr{L}^1(V, \lambda_V)$. Il existe donc $g \in \mathscr{L}^1(Y, \lambda_Y^\#)$ telle que $g^b = f$ presque partout sur $V$. En prolongeant $g$ par 0 sur $X - Y$, on obtient une fonction $g_1 \in \mathscr{L}^1(X, \lambda^\#)$ et il est clair que la classe de $g_1^b$ dans $L^1(X/H, \lambda)$ n’est autre que $u$.
 
 #### Remarque 3 {#int-vii-s2-n4-rem-3 .statement}
 
@@ -498,13 +498,13 @@ et l’hypothèse entraîne que $\rho^{-1} . \gamma(s)\rho = {\rho'}^{-1} . \gam
 
 Soient G un groupe localement compact, H un sous-groupe fermé de G. Considérons l’espace homogène G/H des classes à gauche suivant H, sur lequel G opère continûment à gauche. Nous allons montrer qu’il existe une classe et une seule de mesures quasi-invariantes non nulles sur G/H.
 
-Remarquons que H opère sur G continûment et proprement par translations à droite ; et l’espace quotient, qui n’est autre que G/H, est paracompact (Top. Gén., chap. III, 3e éd., § 4, no 6, prop. 13). On peut ainsi appliquer les résultats des nos 1 à 4, avec X = G. On a donc des applications $f \to f^b$ de $\mathcal{K}(G)$ sur $\mathcal{K}(G/H)$, et $\lambda \to \lambda^\#$ de $\mathcal{M}(G/H)$ dans $\mathcal{M}(G)$ (une fois fixée une mesure de Haar à gauche $\beta$ dans H). Le fait que G opère à gauche dans G/H donne lieu à une propriété supplémentaire :
+Remarquons que H opère sur G continûment et proprement par translations à droite ; et l’espace quotient, qui n’est autre que G/H, est paracompact (Top. Gén., chap. III, 3e éd., § 4, no 6, prop. 13). On peut ainsi appliquer les résultats des nos 1 à 4, avec X = G. On a donc des applications $f \to f^b$ de $\mathscr{K}(G)$ sur $\mathscr{K}(G/H)$, et $\lambda \to \lambda^\#$ de $\mathscr{M}(G/H)$ dans $\mathscr{M}(G)$ (une fois fixée une mesure de Haar à gauche $\beta$ dans H). Le fait que G opère à gauche dans G/H donne lieu à une propriété supplémentaire :
 
 $$
-(15)\quad \gamma_{G/H}(s) \cdot f^b = (\gamma_G(s) \cdot f)^b \quad (s \in G,\ f \in \mathcal{K}(G))
+(15)\quad \gamma_{G/H}(s) \cdot f^b = (\gamma_G(s) \cdot f)^b \quad (s \in G,\ f \in \mathscr{K}(G))
 $$
 $$
-(16)\quad (\gamma_{G/H}(s) \cdot \lambda)^\# = \gamma_G(s) \cdot \lambda^\# \quad (s \in G,\ \lambda \in \mathcal{M}(G/H)).
+(16)\quad (\gamma_{G/H}(s) \cdot \lambda)^\# = \gamma_G(s) \cdot \lambda^\# \quad (s \in G,\ \lambda \in \mathscr{M}(G/H)).
 $$
 
 En effet, pour tout $x \in G$, on a
@@ -711,7 +711,7 @@ G/G'. Alors $\pi(v)$ est une mesure positive bornée non nulle invariante par G.
 
 Soient G un groupe localement compact, G' un sous-groupe distingué fermé, G'' le groupe G/G', $\pi$ l'application canonique de G sur G/G', $\alpha, \alpha', \alpha''$ des mesures de Haar à gauche sur G, G', G''.
 
-a) En multipliant au besoin $\alpha$ par un facteur constant, on a $\alpha'' = \alpha / \alpha'$. En particulier, si $f \in \mathcal{K}(G)$,
+a) En multipliant au besoin $\alpha$ par un facteur constant, on a $\alpha'' = \alpha / \alpha'$. En particulier, si $f \in \mathscr{K}(G)$,
 
 $$
 \int_G f(x)d\alpha(x) = \int_{G''} d\alpha''(\dot{x}) \int_{G'} f(x\xi)d\alpha'(\xi) \qquad (\dot{x} = \pi(x)).
@@ -775,7 +775,7 @@ Soit $K_1$ une partie compacte de $X$ telle que $\pi'(K_1) = K$. Soit $K_2$ l’
 
 Soit $\xi \in H$ tel que $p(\xi) \in \bigcup_{x \in L} \omega_x^{-1}(K)$. Il existe donc un $x \in L$ tel que $\omega_x(p(\xi)) \in K$, autrement dit tel que $\pi'(x\xi) \in K$. Puisque $\pi'(K_1) = K$, il existe $\xi' \in H'$ tel que $x\xi\xi' \in K_1$. Alors $\xi\xi' \in K_2$, donc $p(\xi) = p(\xi\xi') \in p(K_2)$. On a ainsi montré que $\bigcup_{x \in L} \omega_x^{-1}(K) \subset p(K_2)$.
 
-Ce lemme montre d’abord que l’application $\omega_x$ est *propre*. On peut donc former la mesure $\omega_x(\beta/\beta')$ sur $X/H'$, qui est concentrée sur $\omega_x(H/H') = \pi'(\psi_x(H)) = \pi'(xH)$. Si $f \in \mathcal{K}(X/H')$, le lemme 7, et le § 1, no 1, lemme 1 montrent que la fonction $x \to \langle f, \omega_x(\beta/\beta') \rangle$ est continue dans $X$; en outre, $\langle f, \omega_x(\beta/\beta') \rangle$ est nul quand Supp $f$ ne rencontre pas $\pi'(xH)$, autrement dit quand $\pi(x)$ n’appartient pas à l’image canonique de Supp $f$ dans $X/H$.
+Ce lemme montre d’abord que l’application $\omega_x$ est *propre*. On peut donc former la mesure $\omega_x(\beta/\beta')$ sur $X/H'$, qui est concentrée sur $\omega_x(H/H') = \pi'(\psi_x(H)) = \pi'(xH)$. Si $f \in \mathscr{K}(X/H')$, le lemme 7, et le § 1, no 1, lemme 1 montrent que la fonction $x \to \langle f, \omega_x(\beta/\beta') \rangle$ est continue dans $X$; en outre, $\langle f, \omega_x(\beta/\beta') \rangle$ est nul quand Supp $f$ ne rencontre pas $\pi'(xH)$, autrement dit quand $\pi(x)$ n’appartient pas à l’image canonique de Supp $f$ dans $X/H$.
 
 Par ailleurs, si $\xi \in H$, on a
 
@@ -783,7 +783,7 @@ $$
 \omega_{x\xi}(\beta/\beta') = \omega_x(\gamma_{H/H'}(\xi)(\beta/\beta')) = \omega_x(\beta/\beta').
 $$
 
-L’application $x \to \omega_x(\beta/\beta')$ de $X$ dans $\mathcal{M}(X/H')$ définit donc par passage au quotient une application $u \to (\beta/\beta')_u$ de $X/H$ dans $\mathcal{M}(X/H')$. Ce qui précède montre que, pour toute $f \in \mathcal{K}(X/H')$, l’application $u \to \langle f, (\beta/\beta')_u \rangle$ est continue à support compact. Par suite, l’application $u \to (\beta/\beta')_u$ *est une famille vaguement continue et* $(\mu/\beta)$*-adéquate de mesures sur* $X/H'$, *l’ensemble d’indices étant* $X/H$.
+L’application $x \to \omega_x(\beta/\beta')$ de $X$ dans $\mathscr{M}(X/H')$ définit donc par passage au quotient une application $u \to (\beta/\beta')_u$ de $X/H$ dans $\mathscr{M}(X/H')$. Ce qui précède montre que, pour toute $f \in \mathscr{K}(X/H')$, l’application $u \to \langle f, (\beta/\beta')_u \rangle$ est continue à support compact. Par suite, l’application $u \to (\beta/\beta')_u$ *est une famille vaguement continue et* $(\mu/\beta)$*-adéquate de mesures sur* $X/H'$, *l’ensemble d’indices étant* $X/H$.
 
 Soient $x \in X$, et $u = \pi(x) \in X/H$. Soit $f$ une fonction sur $X/H'$, à valeurs dans un espace de Banach ou dans $\overline{\mathbf{R}}$. D’après le chap. V, § 4, th. 2, pour que $f$ soit $(\beta/\beta')_u$-intégrable, il faut et il suffit que la fonction $p(\xi) \to f(\omega_x(p(\xi))) = f(\pi'(x\xi))$ sur $H/H'$ soit $(\beta/\beta')$-intégrable, et l’on a alors
 
@@ -799,7 +799,7 @@ $$
 (22)\quad \int_{X/H} (\beta/\beta')_u d(\mu/\beta)(u) = \mu/\beta'.
 $$
 
-Soit $f \in \mathcal{K}(X)$, et soit $f^b \in \mathcal{K}(X/H')$, définie par
+Soit $f \in \mathscr{K}(X)$, et soit $f^b \in \mathscr{K}(X/H')$, définie par
 
 $$
 f^b(\pi'(x)) = \int_{H'} f(x\xi') d\beta'(\xi').

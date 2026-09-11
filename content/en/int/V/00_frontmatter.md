@@ -12,14 +12,14 @@ pdf_pages: 0256-0256
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 577872949e784c0426901ef12430be72a26d4bed0d1e68215d2e36dc1c01e009
+content_sha256: 4418e910f3b2267c79d9d6423f2c641d878bd10d8df6c395e2f6ed0188816230
 ---
 
 ## CHAPTER V
 
 # Integration of measures
 
-Throughout this chapter, T denotes a locally compact space, $\mu$ a positive measure on T. For every subset A of a set E, $\varphi_A$ denotes the characteristic function of A (if no confusion can result thereby). By numerical function, we always mean a function taking its values in $\overline{\mathbf{R}}$, thus possibly taking on the values $+\infty$ and $-\infty$. The set of positive numerical functions defined on E will be denoted $\mathcal{F}_+(E)$, or simply by $\mathcal{F}_+$ if no confusion can result. We agree to define the products $0 \cdot (+\infty)$ and $0 \cdot (-\infty)$ by giving them the value 0; thus, if f is a numerical function defined on E, and A is a subset of E, $f \varphi_A$ denotes the function that coincides with f on A and is equal to 0 on $\mathbf{C}A$. For every point a of a locally compact space, $\varepsilon_a$ denotes the measure defined by placing a unit mass at the point a (Ch. III, §1, No. 3).
+Throughout this chapter, T denotes a locally compact space, $\mu$ a positive measure on T. For every subset A of a set E, $\varphi_A$ denotes the characteristic function of A (if no confusion can result thereby). By numerical function, we always mean a function taking its values in $\overline{\mathbf{R}}$, thus possibly taking on the values $+\infty$ and $-\infty$. The set of positive numerical functions defined on E will be denoted $\mathscr{F}_+(E)$, or simply by $\mathscr{F}_+$ if no confusion can result. We agree to define the products $0 \cdot (+\infty)$ and $0 \cdot (-\infty)$ by giving them the value 0; thus, if f is a numerical function defined on E, and A is a subset of E, $f \varphi_A$ denotes the function that coincides with f on A and is equal to 0 on $\mathbf{C}A$. For every point a of a locally compact space, $\varepsilon_a$ denotes the measure defined by placing a unit mass at the point a (Ch. III, §1, No. 3).
 
 The concept of essential upper integral (resp. essentially integrable function), which will be defined in §1, coincides, as we shall see, with the concept of upper integral (resp. integrable function) when the locally compact space T is countable at infinity (GT, I, §9, No. 9).
 

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 348
 statements: 31
 exercises: 21
-content_sha256: d20fbaf8cf5b13fbb9f6c78c48edfd9b35edc827446055d6d4a72535d873a3f7
+content_sha256: 4f54b131deb66dc2ab128f0de5a0679a4b5166acfa4009569520d895cccaa906
 translated_from: content/en/int/V/08_s8_products_of_measures.md
 source_content_sha256: a3e06c32a25b00ebb1bdb33d080383d36bc6c9d36cba335c108b496f0c58c969
 translation_model: gpt-5.4, gpt-5-6-mini
@@ -57,7 +57,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Trong suốt tiết này, T và T' ký hiệu hai không gian địa phương compact, $\mu$ là một độ đo dương trên T, $\mu'$ là một độ đo dương trên T', và $\nu = \mu \otimes \mu'$ là độ đo tích trên $X = T \times T'$ (Ch. III, §4, No. 1).
 
-Với mọi $t \in T$, ánh xạ $t' \mapsto (t, t')$ từ T' vào X là liên tục và thực sự. Gọi $\lambda'_t$ là ảnh của $\mu'$ qua ánh xạ này; $\lambda'_t$ là một độ đo dương trên X, và nếu $f \in \mathcal{K}(X)$ thì, ký hiệu bởi $f_t$ ánh xạ riêng phần $t' \mapsto f(t, t')$, ta có
+Với mọi $t \in T$, ánh xạ $t' \mapsto (t, t')$ từ T' vào X là liên tục và thực sự. Gọi $\lambda'_t$ là ảnh của $\mu'$ qua ánh xạ này; $\lambda'_t$ là một độ đo dương trên X, và nếu $f \in \mathscr{K}(X)$ thì, ký hiệu bởi $f_t$ ánh xạ riêng phần $t' \mapsto f(t, t')$, ta có
 
 $$
 \int f \, d\lambda'_t = \int f_t \, d\mu',
@@ -65,7 +65,7 @@ $$
 
 điều này cũng được biểu diễn bởi quan hệ $\lambda'_t = \varepsilon_t \otimes \mu'$.
 
-Hơn nữa, ánh xạ $t \mapsto \lambda'_t(f)$ là liên tục, có giá compact (Ch. III, §4, No. 1, Bổ đề 2), do đó ánh xạ $t \mapsto \lambda'_t$ từ T vào $\mathcal{M}(X)$ là liên tục mờ (và, *a fortiori*, $\mu$-đo được mờ); do đó, họ các độ đo $t \mapsto \lambda'_t$ là $\mu$-thích hợp ($§ 3$, No. 1, Mệnh đề 2a)). Tích phân của $f$ đối với độ đo $\int \lambda'_t \, d\mu(t)$ theo định nghĩa là
+Hơn nữa, ánh xạ $t \mapsto \lambda'_t(f)$ là liên tục, có giá compact (Ch. III, §4, No. 1, Bổ đề 2), do đó ánh xạ $t \mapsto \lambda'_t$ từ T vào $\mathscr{M}(X)$ là liên tục mờ (và, *a fortiori*, $\mu$-đo được mờ); do đó, họ các độ đo $t \mapsto \lambda'_t$ là $\mu$-thích hợp ($§ 3$, No. 1, Mệnh đề 2a)). Tích phân của $f$ đối với độ đo $\int \lambda'_t \, d\mu(t)$ theo định nghĩa là
 
 $$
 \int \langle f, \lambda'_t \rangle \, d\mu(t) = \int d\mu(t) \int f_t(t') \, d\mu'(t') = \int f(t, t') \, d\nu(t, t')
@@ -102,7 +102,7 @@ $$
 
 #### Nhận xét {#int-v-s8-n1-rem-1 .statement}
 
-Bổ đề 1,2,3 có thể được chứng minh rất đơn giản mà không cần dùng đến các kết quả của §§4 và 6, bằng một lập luận trực tiếp. Chẳng hạn, quan hệ (2) là hiển nhiên theo định nghĩa nếu $f \in \mathcal{K}(T \times T')$. Nếu $f$ là nửa liên tục dưới trên $X = T \times T'$, chỉ cần nhận xét rằng $t' \mapsto f_t(t')$ là bao trên của các hàm $t' \mapsto g_t(t') = g(t, t')$, trong đó $g$ chạy qua tập hợp các hàm thuộc $\mathcal{K}(X)$ sao cho $0 \leq g \leq f$. Cuối cùng, với $f$ tùy ý, ta nhận thấy rằng nếu $h \geq f$ là nửa liên tục dưới trên $X$, thì $t' \mapsto h(t, t')$ là nửa liên tục dưới trên $T'$; và ngược lại, nếu $t' \mapsto u(t')$ là nửa liên tục dưới trên $T'$ và sao cho $u(t') \geq f(t, t')$ với mọi $t' \in T'$, thì hàm $h$ sao cho $h(t, t') = u(t')$, $h(t_1, t') = +\infty$ với $t_1 \neq t'$, là nửa liên tục dưới trên $X$ và thỏa mãn $h \geq f$. Một khi Bổ đề 1 được chứng minh, từ đó suy ra rằng tập hợp $(T - \{t\}) \times T'$ là $\lambda'_t$-không đáng kể, và khi đó rất dễ chứng minh các Bổ đề 2 và 3.
+Bổ đề 1,2,3 có thể được chứng minh rất đơn giản mà không cần dùng đến các kết quả của §§4 và 6, bằng một lập luận trực tiếp. Chẳng hạn, quan hệ (2) là hiển nhiên theo định nghĩa nếu $f \in \mathscr{K}(T \times T')$. Nếu $f$ là nửa liên tục dưới trên $X = T \times T'$, chỉ cần nhận xét rằng $t' \mapsto f_t(t')$ là bao trên của các hàm $t' \mapsto g_t(t') = g(t, t')$, trong đó $g$ chạy qua tập hợp các hàm thuộc $\mathscr{K}(X)$ sao cho $0 \leq g \leq f$. Cuối cùng, với $f$ tùy ý, ta nhận thấy rằng nếu $h \geq f$ là nửa liên tục dưới trên $X$, thì $t' \mapsto h(t, t')$ là nửa liên tục dưới trên $T'$; và ngược lại, nếu $t' \mapsto u(t')$ là nửa liên tục dưới trên $T'$ và sao cho $u(t') \geq f(t, t')$ với mọi $t' \in T'$, thì hàm $h$ sao cho $h(t, t') = u(t')$, $h(t_1, t') = +\infty$ với $t_1 \neq t'$, là nửa liên tục dưới trên $X$ và thỏa mãn $h \geq f$. Một khi Bổ đề 1 được chứng minh, từ đó suy ra rằng tập hợp $(T - \{t\}) \times T'$ là $\lambda'_t$-không đáng kể, và khi đó rất dễ chứng minh các Bổ đề 2 và 3.
 
 Quan hệ (3) cho phép ký hiệu hai vế của nó bằng $\int f(t, t') \, d\mu'(t')$ mà không có nguy cơ nhầm lẫn. Các kết quả tương tự hiển nhiên đúng đối với các độ đo $\lambda_{t'} = \mu \otimes \varepsilon_{t'}$.
 
@@ -138,7 +138,7 @@ $$
 
 Do đó họ $(\mu_\alpha \otimes \mu'_\beta)$ là tổng được. Để chỉ ra rằng hai vế của (4) bằng nhau, chỉ cần chứng minh rằng vế thứ hai thỏa mãn tính chất đặc trưng của các độ đo tích (Ch. III, §4, No. 1, Định lý 1), điều này được chỉ ra bởi phép tính sau.
 
-Cho $f$ là một phần tử của $\mathcal{K}_+(T)$, $f'$ là một phần tử của $\mathcal{K}_+(T')$; nhắc lại rằng $f \otimes f'$ ký hiệu hàm $(t, t') \mapsto f(t)f'(t')$ trên $T \times T'$, thuộc $\mathcal{K}_+(T \times T')$ (A, II, §7, No. 7). Khi đó, theo định nghĩa của các độ đo tích,
+Cho $f$ là một phần tử của $\mathscr{K}_+(T)$, $f'$ là một phần tử của $\mathscr{K}_+(T')$; nhắc lại rằng $f \otimes f'$ ký hiệu hàm $(t, t') \mapsto f(t)f'(t')$ trên $T \times T'$, thuộc $\mathscr{K}_+(T \times T')$ (A, II, §7, No. 7). Khi đó, theo định nghĩa của các độ đo tích,
 
 $$
 \sum_{(\alpha, \beta) \in A \times B} \langle \mu_\alpha \otimes \mu'_\beta, f \otimes f' \rangle = \sum_{(\alpha, \beta) \in A \times B} (\langle \mu_\alpha, f \rangle \langle \mu'_\beta, f' \rangle)
@@ -244,13 +244,13 @@ $$
 \iint^* f(t)f'(t') \, d\mu(t) \, d\mu'(t') = \left( \int^* f(t) \, d\mu(t) \right) \left( \int^* f'(t') \, d\mu'(t') \right).
 $$
 
-Cho $G$ (resp. $G'$) là tập hợp các hàm $g \in \mathcal{K}_+(T)$ (resp. $g' \in \mathcal{K}_+(T')$) sao cho $g \leqslant f$ (resp. $g' \leqslant f'$); khi đó
+Cho $G$ (resp. $G'$) là tập hợp các hàm $g \in \mathscr{K}_+(T)$ (resp. $g' \in \mathscr{K}_+(T')$) sao cho $g \leqslant f$ (resp. $g' \leqslant f'$); khi đó
 
 $$
 f \otimes f' = \sup_{g \in G,\ g' \in G'} g \otimes g'.
 $$
 
-Vì các hàm $g \otimes g'$ thuộc $\mathcal{K}_+(T \times T')$, nên $f \otimes f'$ thực sự là nửa liên tục dưới, và (6) suy ra ngay từ Mệnh đề 5 (hoặc trực tiếp bằng cách lấy giới hạn trong công thức trước đó).
+Vì các hàm $g \otimes g'$ thuộc $\mathscr{K}_+(T \times T')$, nên $f \otimes f'$ thực sự là nửa liên tục dưới, và (6) suy ra ngay từ Mệnh đề 5 (hoặc trực tiếp bằng cách lấy giới hạn trong công thức trước đó).
 
 #### Hệ quả 2 {#int-v-s8-prop-5-cor-2 .statement}
 
@@ -482,7 +482,7 @@ a) *Nếu $\pi$ (resp. $\pi'$) là $\mu$-thực sự (resp. $\mu'$-thực sự),
 
 b) *Ngược lại, nếu $\pi \times \pi'$ là $(\mu \otimes \mu')$-thực sự và $\mu' \neq 0$, thì $\pi$ là $\mu$-thực sự.*
 
-a) Thật vậy, $\pi \times \pi'$ là $(\mu \times \mu')$-đo được theo Hệ quả 1 của Prop. 3 của No. 2. Mặt khác, nếu $K$ (resp. $K'$) là một tập con compact của $T_1$ (resp. $T'_1$), thì $\pi^{-1}(K)$ và ${\pi'}^{-1}(K')$ lần lượt khả tích thiết yếu đối với $\mu$ và $\mu'$, do đó $\pi^{-1}(K) \times {\pi'}^{-1}(K')$ khả tích thiết yếu đối với $\mu \otimes \mu'$ (Hệ quả 2 của Prop. 8). Điều này chứng minh rằng $\pi \times \pi'$ là $(\mu \times \mu')$-thực sự. Bây giờ đặt $\mu_1 = \pi(\mu)$, $\mu'_1 = \pi'(\mu')$, $\nu_1 = (\pi \times \pi')(\mu \otimes \mu')$; với $f \in \mathcal{K}(T_1)$ và $f' \in \mathcal{K}(T'_1)$, ta có
+a) Thật vậy, $\pi \times \pi'$ là $(\mu \times \mu')$-đo được theo Hệ quả 1 của Prop. 3 của No. 2. Mặt khác, nếu $K$ (resp. $K'$) là một tập con compact của $T_1$ (resp. $T'_1$), thì $\pi^{-1}(K)$ và ${\pi'}^{-1}(K')$ lần lượt khả tích thiết yếu đối với $\mu$ và $\mu'$, do đó $\pi^{-1}(K) \times {\pi'}^{-1}(K')$ khả tích thiết yếu đối với $\mu \otimes \mu'$ (Hệ quả 2 của Prop. 8). Điều này chứng minh rằng $\pi \times \pi'$ là $(\mu \times \mu')$-thực sự. Bây giờ đặt $\mu_1 = \pi(\mu)$, $\mu'_1 = \pi'(\mu')$, $\nu_1 = (\pi \times \pi')(\mu \otimes \mu')$; với $f \in \mathscr{K}(T_1)$ và $f' \in \mathscr{K}(T'_1)$, ta có
 
 $$
 \iint f(\pi(t)) f'(\pi'(t')) d\mu(t) d\mu'(t')
@@ -495,7 +495,7 @@ $$
 
 b) Bây giờ giả sử rằng $\pi \times \pi'$ là $\mu \otimes \mu'$-thực sự và $\mu' \neq 0$. Gọi $\mu_1$ là một độ đo $\leq \mu$ có giá compact. Vì hàm $\pi \times \pi'$ đo được đối với $\mu_1 \otimes \mu'$, ánh xạ $t \mapsto (\pi(t), \pi'(t'))$ là $\mu$-đo được trừ ra đối với các $t'$ tạo thành một tập địa phương $\mu'$-không đáng kể (No. 2, Mệnh đề 2). Vì $\mu' \neq 0$, suy ra $\pi$ là $\mu_1$-đo được, và cuối cùng $\pi$ là $\mu$-đo được
 
-(§2, No. 3, Mệnh đề 4 và §2, No. 2, Mệnh đề 2). Còn phải chứng minh rằng $\mu^\bullet(f \circ \pi) < +\infty$ với mọi hàm $f \in \mathcal{K}_+(\mathrm{T}_1)$. Nếu $\mu$ bằng không, tính chất này là hiển nhiên. Nếu $\mu$ khác không, thì $\mu \otimes \mu'$ cũng khác không, do đó $(\pi \times \pi')(\mu \otimes \mu') \neq 0$ (§6, No. 2, Hệ quả 1 của Mệnh đề 2). Theo Bổ đề 1 của Ch. III, §4, No. 1, tồn tại hai hàm $g \in \mathcal{K}_+(\mathrm{T}_1)$, $g' \in \mathcal{K}_+(\mathrm{T}'_1)$ sao cho
+(§2, No. 3, Mệnh đề 4 và §2, No. 2, Mệnh đề 2). Còn phải chứng minh rằng $\mu^\bullet(f \circ \pi) < +\infty$ với mọi hàm $f \in \mathscr{K}_+(\mathrm{T}_1)$. Nếu $\mu$ bằng không, tính chất này là hiển nhiên. Nếu $\mu$ khác không, thì $\mu \otimes \mu'$ cũng khác không, do đó $(\pi \times \pi')(\mu \otimes \mu') \neq 0$ (§6, No. 2, Hệ quả 1 của Mệnh đề 2). Theo Bổ đề 1 của Ch. III, §4, No. 1, tồn tại hai hàm $g \in \mathscr{K}_+(\mathrm{T}_1)$, $g' \in \mathscr{K}_+(\mathrm{T}'_1)$ sao cho
 
 $$
 \langle (\pi \times \pi')(\mu \otimes \mu'), g \otimes g' \rangle \neq 0.
@@ -518,7 +518,7 @@ Kết quả này mở rộng ngay được cho tích của hai độ đo phức 
 
 — Cho X (tương ứng X') là một không gian con compact địa phương của T (tương ứng của T'). Khi đó độ đo cảm sinh $(\mu \otimes \mu')_{X \times X'}$ trên không gian con compact địa phương $X \times X'$ của $T \times T'$ bằng tích $\mu_X \otimes \mu'_{X'}$ của các độ đo cảm sinh trên X và X' bởi $\mu$ và $\mu'$, tương ứng.
 
-Thật vậy, nếu $f \in \mathcal{K}(X)$ và $f' \in \mathcal{K}(X')$, thì
+Thật vậy, nếu $f \in \mathscr{K}(X)$ và $f' \in \mathscr{K}(X')$, thì
 
 $$
 \iint_{X \times X'} f(t)f'(t') d\mu(t) d\mu'(t') = \left( \int_X f(t) d\mu(t) \right) \left( \int_{X'} f'(t') d\mu'(t') \right)
@@ -586,7 +586,7 @@ $$
 \alpha \int_{-\infty}^{+\infty} f(\alpha x) dx = \int_{-\infty}^{+\infty} f(z) dz
 $$
 
-với $f \in \mathcal{K}(\mathbf{R})$, suy ra ngay lập tức rằng ảnh của $\mu_{n-1}$ dưới phép vị tự $\mathbf{x} \mapsto \alpha \mathbf{x}$ là độ đo $\alpha^{1-n} \mu_{n-1}$. Do đó
+với $f \in \mathscr{K}(\mathbf{R})$, suy ra ngay lập tức rằng ảnh của $\mu_{n-1}$ dưới phép vị tự $\mathbf{x} \mapsto \alpha \mathbf{x}$ là độ đo $\alpha^{1-n} \mu_{n-1}$. Do đó
 
 $$
 \mu_{n-1}(\mathbf{B}_n(z_n)) = \left( \sqrt{1 - z_n^2} \right)^{n-1} V_{n-1} .

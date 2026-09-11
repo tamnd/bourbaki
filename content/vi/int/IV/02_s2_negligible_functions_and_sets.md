@@ -37,9 +37,9 @@ subsections:
       pdf_page: 123
 statements: 15
 exercises: 0
-content_sha256: 56eed24fea44908e22ade4d7a360464fb05ec94f8609e473f96e479bbe5872d1
+content_sha256: f6f3ae39d7c7361d0a49aae5be7fc06f7e2f8a203b7c6056982d0404a3ea9826
 translated_from: content/en/int/IV/02_s2_negligible_functions_and_sets.md
-source_content_sha256: 8ed4876b66e4b93e4252c89f40e59e5df51207d878e7a01e38c48f580a5ec1d0
+source_content_sha256: 762de3cb00bf4cfa9b53b7a3a0b74ada1ed70f6aab72ccae19b058105ca629cd
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-12513e78
 glossary_version: 34
@@ -71,7 +71,7 @@ Thật vậy, $|\mu|^*(\sum_n f_n) \leq \sum_n |\mu|^*(f_n) = 0$ (§ 1, No. 3, M
 
 *Đối với một hàm nửa liên tục dưới $f \geq 0$ trên $X$, để là không đáng kể, điều kiện cần và đủ là $f$ bằng không trên giá của $\mu$.*
 
-Nếu $|\mu|^*(f) = 0$ thì $|\mu|(g) = 0$ đối với mọi hàm $g \in \mathcal{K}_+$ sao cho $g \leq f$; suy ra (Ch. III, § 2, No. 3, Mệnh đề 9) rằng $g$ bằng không trên giá $S$ của $\mu$; vì $f$ là bao trên của các hàm $g \in \mathcal{K}_+$ sao cho $g \leq f$ (§ 1, No. 1, Bổ đề), nên $f(x) = 0$ trên $S$. Ngược lại, nếu $f(x) = 0$ trên $S$ thì $g(x) = 0$ trên $S$ đối với mọi hàm $g \in \mathcal{K}_+$ sao cho $g \leq f$, do đó (Ch. III, § 2, No. 3, Mệnh đề 8) $|\mu|(g) = 0$, điều này, theo định nghĩa, kéo theo $|\mu|^*(f) = 0$.
+Nếu $|\mu|^*(f) = 0$ thì $|\mu|(g) = 0$ đối với mọi hàm $g \in \mathscr{K}_+$ sao cho $g \leq f$; suy ra (Ch. III, § 2, No. 3, Mệnh đề 9) rằng $g$ bằng không trên giá $S$ của $\mu$; vì $f$ là bao trên của các hàm $g \in \mathscr{K}_+$ sao cho $g \leq f$ (§ 1, No. 1, Bổ đề), nên $f(x) = 0$ trên $S$. Ngược lại, nếu $f(x) = 0$ trên $S$ thì $g(x) = 0$ trên $S$ đối với mọi hàm $g \in \mathscr{K}_+$ sao cho $g \leq f$, do đó (Ch. III, § 2, No. 3, Mệnh đề 8) $|\mu|(g) = 0$, điều này, theo định nghĩa, kéo theo $|\mu|^*(f) = 0$.
 
 ### 2. Các tập hợp không đáng kể
 

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 144
 statements: 38
 exercises: 28
-content_sha256: 49dae28e635f264996aa83405996b598158ace98510497220a4478b7bfbd1885
+content_sha256: b1665fd1179be03704f3694225ccbadfccbe04f954c892e971e58097b5644e43
 ---
 
 ## § 4. CONVOLUTION OF MEASURES AND FUNCTIONS
@@ -92,7 +92,7 @@ locally $\beta$-almost everywhere.
 
 *Let $\mu$ be a measure on $G$. Then $\chi$ is locally $(\mu \otimes \beta)$-integrable, and the image of $\mu \otimes \beta$ under the homeomorphism $(s, x) \mapsto (s, s^{-1}x)$ of $G \times X$ onto $G \times X$ is $\chi \cdot (\mu \otimes \beta)$.*
 
-We may suppose that $\mu \geqslant 0$. Let $F \in \mathcal{K}_+(\mathbf{G} \times \mathbf{X})$. Then
+We may suppose that $\mu \geqslant 0$. Let $F \in \mathscr{K}_+(\mathbf{G} \times \mathbf{X})$. Then
 $$
 \iint F(s, s^{-1}x) d\mu(s) d\beta(x) = \int d\mu(s) \int F(s, s^{-1}x) d\beta(x)
 $$
@@ -110,7 +110,7 @@ This proves at the same time both assertions of Lemma 1.
 
 *Let $\mu$ be a measure on $\mathbf{G}$, $f$ a locally $\beta$-integrable complex function on $\mathbf{X}$. Suppose that the function $s \mapsto f(s^{-1}x)\chi(s^{-1}, x)$ is essentially $\mu$-integrable except for a locally $\beta$-negligible set of values of $x$, and that the function $x \mapsto \int |f(s^{-1}x)|\chi(s^{-1}, x) d|\mu|(s)$, defined locally almost everywhere for $\beta$, is locally $\beta$-integrable. Then $\mu$ and $f$ are convolvable.*
 
-We may assume that $f \geqslant 0$ and $\mu \geqslant 0$. Let $h \in \mathcal{K}_+(\mathbf{X})$. We are to prove that the function $(s, x) \mapsto h(sx)$ is essentially integrable for $\mu \otimes (f \cdot \beta) = (1 \otimes f) \cdot (\mu \otimes \beta)$ (Ch. V, §8, No. 5, Prop. 10), that is, that $\iint^\bullet h(sx)f(x)\varphi_K(s) d\mu(s) d\beta(x) < +\infty$ (Ch. V, §5, No. 3, Prop. 3); it will clearly suffice to prove that there exists an $a > 0$ such that for every compact subset $K$ of $\mathbf{G}$,
+We may assume that $f \geqslant 0$ and $\mu \geqslant 0$. Let $h \in \mathscr{K}_+(\mathbf{X})$. We are to prove that the function $(s, x) \mapsto h(sx)$ is essentially integrable for $\mu \otimes (f \cdot \beta) = (1 \otimes f) \cdot (\mu \otimes \beta)$ (Ch. V, §8, No. 5, Prop. 10), that is, that $\iint^\bullet h(sx)f(x)\varphi_K(s) d\mu(s) d\beta(x) < +\infty$ (Ch. V, §5, No. 3, Prop. 3); it will clearly suffice to prove that there exists an $a > 0$ such that for every compact subset $K$ of $\mathbf{G}$,
 $$
 \iint^\bullet h(sx)f(x)\varphi_K(s) d\mu(s) d\beta(x) \leqslant a.
 $$
@@ -143,7 +143,7 @@ $$
 (\mu *_{\beta} f)(x) = \int_G f(s^{-1}x)\chi(s^{-1}, x)\, d\mu(s) = \int_G (\gamma_{\chi}(s)f)(x)\, d\mu(s).
 $$
 
-Let $h \in \mathcal{H}(X)$. Since $\mu$ and f are convolvable, the function $(s, x) \mapsto h(sx)f(x)$ is essentially $(\mu \otimes \beta)$-integrable. By Lemma 1, the function $(s, x) \mapsto h(x)f(s^{-1}x)\chi(s^{-1}, x)$ is essentially $(\mu \otimes \beta)$-integrable. Under hypothesis (i) or (ii) of the statement, one then deduces that this function is $(\mu \otimes \beta)$-integrable; for, in the first case it is continuous and one applies Prop. 3 of Ch. V, §1, No. 1, and in the second case it is zero outside a countable union of compact sets, and one applies Prop. 7, 2) of No. 2, loc. cit. By the Lebesgue–Fubini theorem,
+Let $h \in \mathscr{H}(X)$. Since $\mu$ and f are convolvable, the function $(s, x) \mapsto h(sx)f(x)$ is essentially $(\mu \otimes \beta)$-integrable. By Lemma 1, the function $(s, x) \mapsto h(x)f(s^{-1}x)\chi(s^{-1}, x)$ is essentially $(\mu \otimes \beta)$-integrable. Under hypothesis (i) or (ii) of the statement, one then deduces that this function is $(\mu \otimes \beta)$-integrable; for, in the first case it is continuous and one applies Prop. 3 of Ch. V, §1, No. 1, and in the second case it is zero outside a countable union of compact sets, and one applies Prop. 7, 2) of No. 2, loc. cit. By the Lebesgue–Fubini theorem,
 
 $$
 \iint h(sx)\, d\mu(s)\, d(f \cdot \beta)(x) = \iint h(x)f(s^{-1}x)\chi(s^{-1}, x)\, d\mu(s)\, d\beta(x)
@@ -172,55 +172,55 @@ The hypothesis (iii) of Prop. 2 is satisfied notably when $\mu$ is bounded. For,
 $$
 |\mu|(G - K_n) \leq \frac{1}{n}
 $$
-(Ch. IV, §4, No. 7), and $\mu$ is carried by the union of the $K_n$. More generally, let $\rho$ be a lower semi-continuous finite function $> 0$ on $G$ such that $\rho(st) \leq \rho(s)\rho(t)$; if $\mu \in \mathcal{M}^\rho$, the hypothesis (iii) is satisfied; for, $\rho \cdot \mu$ is bounded, and $\mu$ is carried by the same subsets as $\rho \cdot \mu$ since, on every compact subset of $G$, $\rho$ is bounded below by a constant $> 0$.
+(Ch. IV, §4, No. 7), and $\mu$ is carried by the union of the $K_n$. More generally, let $\rho$ be a lower semi-continuous finite function $> 0$ on $G$ such that $\rho(st) \leq \rho(s)\rho(t)$; if $\mu \in \mathscr{M}^\rho$, the hypothesis (iii) is satisfied; for, $\rho \cdot \mu$ is bounded, and $\mu$ is carried by the same subsets as $\rho \cdot \mu$ since, on every compact subset of $G$, $\rho$ is bounded below by a constant $> 0$.
 
 ### 2. Examples of convolvable measures and functions
 
-In Props. 3 and 4, $\mathcal{C}'(G)$ and $\mathcal{M}(G)$ are equipped with the topology of compact convergence in $\mathcal{C}(G)$ and $\mathcal{K}(G)$, respectively.
+In Props. 3 and 4, $\mathscr{C}'(G)$ and $\mathscr{M}(G)$ are equipped with the topology of compact convergence in $\mathscr{C}(G)$ and $\mathscr{K}(G)$, respectively.
 
 #### Proposition 3 {#int-viii-s4-prop-3 .statement}
 
-— Assume $\chi$ continuous. Let $\mu \in \mathcal{C}'(G)$, $f \in \mathcal{C}(X)$. Then:
+— Assume $\chi$ continuous. Let $\mu \in \mathscr{C}'(G)$, $f \in \mathscr{C}(X)$. Then:
 (i) $\mu$ and $f$ are convolvable relative to $\beta$.
-(ii) Formula (3) of No. 1 defines for every $x \in X$ a convolution product $\mu *_{\beta} f$ that is continuous and is none other than the element $\gamma_\chi(\mu)f$ defined by the continuous representation $\gamma_\chi$ of $G$ in $\mathcal{C}(X)$; moreover, the mapping $(\mu, f) \mapsto \mu *_{\beta} f$ is hypocontinuous relative to the equicontinuous subsets of $\mathcal{C}'(G)$ and the compact subsets of $\mathcal{C}(X)$.
-(iii) If in addition $f \in \mathcal{K}(X)$, then the product $\mu *_{\beta} f$ of (ii) belongs to $\mathcal{K}(X)$ and the mapping $(\mu, f) \mapsto \mu *_{\beta} f$ is hypocontinuous relative to the equicontinuous subsets of $\mathcal{C}'(G)$ and the compact subsets of $\mathcal{K}(X)$.
+(ii) Formula (3) of No. 1 defines for every $x \in X$ a convolution product $\mu *_{\beta} f$ that is continuous and is none other than the element $\gamma_\chi(\mu)f$ defined by the continuous representation $\gamma_\chi$ of $G$ in $\mathscr{C}(X)$; moreover, the mapping $(\mu, f) \mapsto \mu *_{\beta} f$ is hypocontinuous relative to the equicontinuous subsets of $\mathscr{C}'(G)$ and the compact subsets of $\mathscr{C}(X)$.
+(iii) If in addition $f \in \mathscr{K}(X)$, then the product $\mu *_{\beta} f$ of (ii) belongs to $\mathscr{K}(X)$ and the mapping $(\mu, f) \mapsto \mu *_{\beta} f$ is hypocontinuous relative to the equicontinuous subsets of $\mathscr{C}'(G)$ and the compact subsets of $\mathscr{K}(X)$.
 
 We know that $\mu$ and $f$ are convolvable (§3, No. 2, Prop. 8 (i)). On the other hand, with the notations of §2, we have
 $$
-\gamma_\chi(\mu)f = \int (\gamma_\chi(s)f)d\mu(s) \in \mathcal{C}(X)
+\gamma_\chi(\mu)f = \int (\gamma_\chi(s)f)d\mu(s) \in \mathscr{C}(X)
 $$
-since $\mathcal{C}(X)$ is complete. In particular, for every $x \in X$,
+since $\mathscr{C}(X)$ is complete. In particular, for every $x \in X$,
 $$
 (\gamma_\chi(\mu)f)(x) = \int (\gamma_\chi(s)f)(x)\,d\mu(s).
 $$
-This, combined with Prop. 2 (i), and §2, No. 6, proves (ii). Finally, if $f \in \mathcal{K}(X)$ then $\mu * (f \cdot \beta)$ has compact support (§3, No. 2, Prop. 9), therefore $\mu *_{\beta} f \in \mathcal{K}(X)$. For, let us consider the continuous representation $U$ of $G$ in the completion $\mathcal{K}(X)^{\sim}$ obtained by extending by continuity the continuous operators $\gamma_\chi(s)$ in $\mathcal{K}(X)$ (§ 2, No. 1, *Remark 3*). Let $S$ be the support of $\mu$. The functions $\gamma_\chi(s)f$, for $s \in S$, have their support contained in a fixed compact set $K$. The set $\mathcal{K}(X, K)$ is a complete linear subspace of $\mathcal{K}(X)$. Therefore $U(\mu)f \in \mathcal{K}(X)$. One sees as before that $U(\mu)f = \mu *^\beta f$, and (iii) again follows from § 2, No. 6.
+This, combined with Prop. 2 (i), and §2, No. 6, proves (ii). Finally, if $f \in \mathscr{K}(X)$ then $\mu * (f \cdot \beta)$ has compact support (§3, No. 2, Prop. 9), therefore $\mu *_{\beta} f \in \mathscr{K}(X)$. For, let us consider the continuous representation $U$ of $G$ in the completion $\mathscr{K}(X)^{\sim}$ obtained by extending by continuity the continuous operators $\gamma_\chi(s)$ in $\mathscr{K}(X)$ (§ 2, No. 1, *Remark 3*). Let $S$ be the support of $\mu$. The functions $\gamma_\chi(s)f$, for $s \in S$, have their support contained in a fixed compact set $K$. The set $\mathscr{K}(X, K)$ is a complete linear subspace of $\mathscr{K}(X)$. Therefore $U(\mu)f \in \mathscr{K}(X)$. One sees as before that $U(\mu)f = \mu *^\beta f$, and (iii) again follows from § 2, No. 6.
 
 #### Proposition 4 {#int-viii-s4-prop-4 .statement}
 
-*Assume that G operates properly in X and that $\chi$ is continuous. Let $\mu \in \mathcal{M}(G)$ and $f \in \mathcal{K}(X)$.*
+*Assume that G operates properly in X and that $\chi$ is continuous. Let $\mu \in \mathscr{M}(G)$ and $f \in \mathscr{K}(X)$.*
 
 (i) $\mu$ and $f$ are convolvable relative to $\beta$.
 
 (ii) *Formula (3) of No. 1 defines for every $x \in X$ a convolution product $\mu *^\beta f$ that is continuous.*
 
-(iii) *The mapping $(\mu, f) \mapsto \mu *^\beta f$ of $\mathcal{M}(G) \times \mathcal{K}(X)$ into $\mathcal{C}(X)$ is hypocontinuous relative to the bounded subsets of $\mathcal{M}(G)$ and the compact subsets of $\mathcal{K}(X)$ that are contained in some subspace $\mathcal{K}(X, L)$ (where $L$ is a variable compact subset of $X$).*
+(iii) *The mapping $(\mu, f) \mapsto \mu *^\beta f$ of $\mathscr{M}(G) \times \mathscr{K}(X)$ into $\mathscr{C}(X)$ is hypocontinuous relative to the bounded subsets of $\mathscr{M}(G)$ and the compact subsets of $\mathscr{K}(X)$ that are contained in some subspace $\mathscr{K}(X, L)$ (where $L$ is a variable compact subset of $X$).*
 
-We know that $\mu$ and $f$ are convolvable (§ 3, No. 2, Prop. 8 (ii)), and it is clear that the integrals occurring in (3) exist for every $x \in X$. Let $K$ and $L$ be two compact subsets of $X$. There exists a compact subset $H$ of $G$ such that the relations $x \in K$ and $s^{-1}x \in L$ imply $s \in H$; let $\varphi \in \mathcal{K}_+(G)$ with $\varphi(s) = 1$ for $s \in H$. Then, for $f \in \mathcal{K}(X, L)$ and $x \in K$,
+We know that $\mu$ and $f$ are convolvable (§ 3, No. 2, Prop. 8 (ii)), and it is clear that the integrals occurring in (3) exist for every $x \in X$. Let $K$ and $L$ be two compact subsets of $X$. There exists a compact subset $H$ of $G$ such that the relations $x \in K$ and $s^{-1}x \in L$ imply $s \in H$; let $\varphi \in \mathscr{K}_+(G)$ with $\varphi(s) = 1$ for $s \in H$. Then, for $f \in \mathscr{K}(X, L)$ and $x \in K$,
 
 $$
 \int f(s^{-1}x)\chi(s^{-1}, x)\, d\mu(s) = \int f(s^{-1}x)\chi(s^{-1}, x)\varphi(s)\, d\mu(s)
 = ((\varphi \cdot \mu) *^\beta f)(x).
 $$
 
-Consequently $\int f(s^{-1}x)\chi(s^{-1}, x)\, d\mu(s)$ is a continuous function of $x$ and defines a convolution product $\mu *^\beta f \in \mathcal{C}(X)$. Moreover, the mapping $\mu \mapsto \varphi \cdot \mu$ of $\mathcal{M}(G)$ into $\mathcal{C}'(G)$ is continuous for the topologies of compact convergence. Prop. 3 (iii) therefore implies that the mapping $(\mu, f) \mapsto \mu *^\beta f$ of $\mathcal{M}(G) \times \mathcal{K}(X, L)$ into $\mathcal{C}(X)$ is, for every compact subset $L$ of $X$, hypocontinuous relative to the compact subsets of $\mathcal{K}(X, L)$. In particular, the mapping $(\mu, f) \mapsto \mu *^\beta f$ of $\mathcal{M}(G) \times \mathcal{K}(X)$ into $\mathcal{C}(X)$ is separately continuous. Since $\mathcal{K}(X)$ is barreled, this mapping is hypocontinuous relative to the bounded subsets of $\mathcal{M}(G)$ (TVS, III, § 5, No. 3, Prop. 6).
+Consequently $\int f(s^{-1}x)\chi(s^{-1}, x)\, d\mu(s)$ is a continuous function of $x$ and defines a convolution product $\mu *^\beta f \in \mathscr{C}(X)$. Moreover, the mapping $\mu \mapsto \varphi \cdot \mu$ of $\mathscr{M}(G)$ into $\mathscr{C}'(G)$ is continuous for the topologies of compact convergence. Prop. 3 (iii) therefore implies that the mapping $(\mu, f) \mapsto \mu *^\beta f$ of $\mathscr{M}(G) \times \mathscr{K}(X, L)$ into $\mathscr{C}(X)$ is, for every compact subset $L$ of $X$, hypocontinuous relative to the compact subsets of $\mathscr{K}(X, L)$. In particular, the mapping $(\mu, f) \mapsto \mu *^\beta f$ of $\mathscr{M}(G) \times \mathscr{K}(X)$ into $\mathscr{C}(X)$ is separately continuous. Since $\mathscr{K}(X)$ is barreled, this mapping is hypocontinuous relative to the bounded subsets of $\mathscr{M}(G)$ (TVS, III, § 5, No. 3, Prop. 6).
 
 #### Remark 1 {#int-viii-s4-n2-rem-1 .statement}
 
-— Under the hypotheses of Prop. 4, the mapping $\mu \mapsto \mu *^\beta f$ of $\mathcal{M}_+(G)$ into $\mathcal{C}(X)$ is continuous when $\mathcal{M}_+(G)$ is equipped with the *vague* topology, for every $f \in \mathcal{K}(X)$. For, let $K$ be a compact subset of $X$, $S$ the (compact) support of $f$; since $G$ operates properly in $X$, the set of $s \in G$ for which there exists an $x \in K$ with $s^{-1}x \in S$ is a compact subset $L$ of $G$ (GT, III, § 4, No. 5, Th. 1). Let $\varepsilon$ be a number $> 0$, $\varphi$ a function in $\mathcal{K}_+(G)$ equal to 1 on the compact set $L$, $\mu_0$ an element of $\mathcal{M}_+(G)$; the set $W_0$ of measures $\mu \in \mathcal{M}_+(G)$ such that
+— Under the hypotheses of Prop. 4, the mapping $\mu \mapsto \mu *^\beta f$ of $\mathscr{M}_+(G)$ into $\mathscr{C}(X)$ is continuous when $\mathscr{M}_+(G)$ is equipped with the *vague* topology, for every $f \in \mathscr{K}(X)$. For, let $K$ be a compact subset of $X$, $S$ the (compact) support of $f$; since $G$ operates properly in $X$, the set of $s \in G$ for which there exists an $x \in K$ with $s^{-1}x \in S$ is a compact subset $L$ of $G$ (GT, III, § 4, No. 5, Th. 1). Let $\varepsilon$ be a number $> 0$, $\varphi$ a function in $\mathscr{K}_+(G)$ equal to 1 on the compact set $L$, $\mu_0$ an element of $\mathscr{M}_+(G)$; the set $W_0$ of measures $\mu \in \mathscr{M}_+(G)$ such that
 $$
 \left| \int \varphi(s)\, d\mu(s) - \int \varphi(s)\, d\mu_0(s) \right| \leq \varepsilon
 $$
-is a neighborhood of $\mu_0$ in $\mathcal{M}_+(G)$. On the other hand, the function $(s, x) \mapsto f(s^{-1}x)\chi(s^{-1}, x)$ is uniformly continuous on $L \times K$, therefore there exists a finite number of points $x_i \in K$ ($1 \leq i \leq n$) such that for every $x \in K$, there is an $i$ for which
+is a neighborhood of $\mu_0$ in $\mathscr{M}_+(G)$. On the other hand, the function $(s, x) \mapsto f(s^{-1}x)\chi(s^{-1}, x)$ is uniformly continuous on $L \times K$, therefore there exists a finite number of points $x_i \in K$ ($1 \leq i \leq n$) such that for every $x \in K$, there is an $i$ for which
 $$
 |f(s^{-1}x)\chi(s^{-1}, x) - f(s^{-1}x_i)\chi(s^{-1}, x_i)| \leq \varepsilon
 $$
@@ -231,7 +231,7 @@ $$
 \leq \varepsilon \left( \int \varphi(s)\, d\mu_0(s) + \varepsilon \right)
 \end{align*}
 $$
-for every $x$ satisfying the preceding inequality and every $\mu \in W_0$. Now let $W$ be the neighborhood of $\mu_0$ in $\mathcal{M}_+(G)$ formed by the measures $\mu \in W_0$ such that
+for every $x$ satisfying the preceding inequality and every $\mu \in W_0$. Now let $W$ be the neighborhood of $\mu_0$ in $\mathscr{M}_+(G)$ formed by the measures $\mu \in W_0$ such that
 $$
 \left| \int f(s^{-1}x_i)\chi(s^{-1}, x_i)\, d\mu(s) - \int f(s^{-1}x_i)\chi(s^{-1}, x_i)\, d\mu_0(s) \right| \leq \varepsilon
 $$
@@ -248,17 +248,17 @@ and since $\varepsilon$ is arbitrary, this proves our assertion.
 
 *Assume $\chi$ a continuous multiplier and each function $\chi(s, \cdot)$ bounded.*
 (i) *The function $s \mapsto \rho(s) = \sup_{x \in X} \chi(s^{-1}, x)$ on $G$ is lower semi-continuous $> 0$ and satisfies $\rho(st) \leq \rho(s)\rho(t)$ for all $s, t$ in $G$.*
-(ii) *Let $\mu \in \mathcal{M}^\rho(G)$ and $f \in L^\infty(X, \beta)$.*¹ *Then $\mu$ and $f$ are convolvable and $\mu *^\beta f$ is given locally almost everywhere by the formula (3) of No. 1. One has $\mu *^\beta f \in L^\infty(X, \beta)$, and $\| \mu *^\beta f \|_\infty \leq \| \mu \|_\rho \| f \|_\infty$.*
+(ii) *Let $\mu \in \mathscr{M}^\rho(G)$ and $f \in L^\infty(X, \beta)$.*¹ *Then $\mu$ and $f$ are convolvable and $\mu *^\beta f$ is given locally almost everywhere by the formula (3) of No. 1. One has $\mu *^\beta f \in L^\infty(X, \beta)$, and $\| \mu *^\beta f \|_\infty \leq \| \mu \|_\rho \| f \|_\infty$.*
 
 ¹For a function $f$, the expression "$f \in L^\infty(X, \beta)$" is an abuse of notation signifying that, depending on the context, the symbol $f$ is to be interpreted either as a function or the equivalence class of a function. In particular, the symbol $\mu *^\beta f$ can stand for either a function defined locally $\beta$-almost everywhere, or the equivalence class of such a function for the relation of equality locally $\beta$-almost everywhere.
 
-(iii) *If, moreover, $f \in \mathcal{C}^\infty(X)$ (resp. $\overline{\mathcal{K}(X)}$), then formula (3) of No. 1 defines for every $x$ a convolution product $\mu *^\beta f$ that belongs to $\mathcal{C}^\infty(X)$ (resp. $\mathcal{K}(X)$).
+(iii) *If, moreover, $f \in \mathscr{C}^\infty(X)$ (resp. $\overline{\mathscr{K}(X)}$), then formula (3) of No. 1 defines for every $x$ a convolution product $\mu *^\beta f$ that belongs to $\mathscr{C}^\infty(X)$ (resp. $\mathscr{K}(X)$).
 
-(iv) *If $f \in \mathcal{K}(X)$, then the convolution product $\mu *^\beta f$ defined by (3) is none other than the element $\gamma_\chi(\mu)f$ defined by the continuous representation $\gamma_\chi$ of $G$ in $\overline{\mathcal{K}(X)}$.
+(iv) *If $f \in \mathscr{K}(X)$, then the convolution product $\mu *^\beta f$ defined by (3) is none other than the element $\gamma_\chi(\mu)f$ defined by the continuous representation $\gamma_\chi$ of $G$ in $\overline{\mathscr{K}(X)}$.
 
 The identity $\chi(st, x) = \chi(s, tx)\chi(t, x)$ implies at once that $\rho(st) \leq \rho(s)\rho(t)$. On the other hand, $\rho$ is lower semi-continuous, being the upper envelope of continuous functions.
 
-Let $\mu \in \mathcal{M}^\rho(G)$. By Prop. 1 of No. 1, $\mu$ and 1 are convolvable; Prop. 2 (i) shows that $(|\mu| *^\beta 1)(x) \leq \int_G \rho(s) d|\mu|(s)$ locally $\beta$-almost everywhere. Therefore, if $f$ is $\beta$-measurable and $|f| \leq 1$, then $\mu$ and $f$ are convolvable and $N_\infty(\mu *^\beta f) \leq \int \rho(s) d|\mu|(s)$. Moreover, $\mu *^\beta f$ is given locally almost everywhere by formula (3) of No. 1, because condition (iii) of Prop. 2 of No. 1 is satisfied. This implies (ii).
+Let $\mu \in \mathscr{M}^\rho(G)$. By Prop. 1 of No. 1, $\mu$ and 1 are convolvable; Prop. 2 (i) shows that $(|\mu| *^\beta 1)(x) \leq \int_G \rho(s) d|\mu|(s)$ locally $\beta$-almost everywhere. Therefore, if $f$ is $\beta$-measurable and $|f| \leq 1$, then $\mu$ and $f$ are convolvable and $N_\infty(\mu *^\beta f) \leq \int \rho(s) d|\mu|(s)$. Moreover, $\mu *^\beta f$ is given locally almost everywhere by formula (3) of No. 1, because condition (iii) of Prop. 2 of No. 1 is satisfied. This implies (ii).
 
 Suppose $f$ continuous and bounded by 1 in absolute value. It is clear that the integrals occurring in (3) exist for all $x \in X$. Let us show that they depend continuously on $x$. We can suppose $\mu \geq 0$. Let $x_0 \in X$ and $\varepsilon > 0$. Let $K$ be a compact subset of $G$ such that $\int_{G - K} \rho(s) d\mu(s) \leq \varepsilon$. There exists a neighborhood $V$ of $x_0$ in $X$ such that $x \in V$ implies
 
@@ -275,7 +275,7 @@ $$
 \leq 2 \int_{G - K} \rho(s) d\mu(s) + \int_K \frac{\varepsilon}{\mu(K)} d\mu(s) \leq 3\varepsilon,
 $$
 
-whence our assertion. Suppose that in addition $f \in \overline{\mathcal{K}(X)}$. Let $H$ be a compact subset of $X$ such that $|f(y)| \leq \varepsilon$ for $y \notin H$. Let $x \notin KH$. Then $s^{-1}x \notin H$ for $s \in K$, therefore
+whence our assertion. Suppose that in addition $f \in \overline{\mathscr{K}(X)}$. Let $H$ be a compact subset of $X$ such that $|f(y)| \leq \varepsilon$ for $y \notin H$. Let $x \notin KH$. Then $s^{-1}x \notin H$ for $s \in K$, therefore
 
 $$
 \left| \int_G f(s^{-1}x)\chi(s^{-1}, x) d\mu(s) \right| \leq \int_{G - K} \rho(s) d\mu(s) + \int_K \varepsilon \rho(s) d\mu(s)
@@ -286,7 +286,7 @@ $$
 
 which completes the proof of (iii).
 
-Finally, if $f \in \mathcal{K}(X)$ then, since $\varepsilon_x \in \mathcal{M}^1(X)$ for all $x \in X$, we have
+Finally, if $f \in \mathscr{K}(X)$ then, since $\varepsilon_x \in \mathscr{M}^1(X)$ for all $x \in X$, we have
 
 $$
 (\gamma_\chi(\mu)f)(x) = \int (\gamma_\chi(s)f)(x) d\mu(s),
@@ -296,7 +296,7 @@ thus $\gamma_\chi(\mu)f$ is the convolution product $\mu *^\beta f$ defined by (
 
 #### Proposition 6 {#int-viii-s4-prop-6 .statement}
 
-*Assume $\chi$ a continuous multiplier and each function $\chi(s, \cdot)$ bounded. Let $\rho(s) = \sup_{x \in X} \chi(s^{-1}, x)$. Let $p$ and $q$ be two conjugate exponents ($1 \leq p < +\infty$). Let $\mu \in \mathcal{M}^{\rho^{1/q}}(G)$ and $f \in L^p(X, \beta)^2$ Then:
+*Assume $\chi$ a continuous multiplier and each function $\chi(s, \cdot)$ bounded. Let $\rho(s) = \sup_{x \in X} \chi(s^{-1}, x)$. Let $p$ and $q$ be two conjugate exponents ($1 \leq p < +\infty$). Let $\mu \in \mathscr{M}^{\rho^{1/q}}(G)$ and $f \in L^p(X, \beta)^2$ Then:
 (i) $\mu$ and $f$ are convolvable;
 (ii) the convolution product $\mu *^\beta f$ is given locally $\beta$-almost everywhere by the formula (3), and is equal locally $\beta$-almost everywhere to a function $g \in L^p(X, \beta)$ such that $\|g\|_p \leq \|\mu\|_{\rho^{1/q}} \|f\|_p$;
 (iii) $g$ is equal to the element $\gamma_\chi(\mu)f$ defined by the continuous representation $\gamma_\chi$ of $G$ in $L^p(X, \beta)$.
@@ -309,14 +309,14 @@ by §2, No. 5, formula (5). On the other hand, the mapping $s \mapsto \gamma_\ch
 $$
 g = \int_G (\gamma_\chi(s)f) d\mu(s) \in L^p(X, \beta).
 $$
-We have $\|g\|_p \leq (\int \rho^{1/q}(s) d|\mu|(s)) \|f\|_p$. Applying the preceding remarks to $|f|$, one sees that the mapping $s \mapsto \varepsilon_s * |f|$ of $G$ into $L^p(X, \beta)$ is $\mu$-integrable, therefore that, for every $h \in \mathcal{H}(X)$, the mapping $s \mapsto \langle h, \varepsilon_s * (|f| \cdot \beta) \rangle$ is $\mu$-integrable. Prop. 7 of §1, No. 5 then proves that $\mu$ and $f \cdot \beta$ are convolvable. Moreover,
+We have $\|g\|_p \leq (\int \rho^{1/q}(s) d|\mu|(s)) \|f\|_p$. Applying the preceding remarks to $|f|$, one sees that the mapping $s \mapsto \varepsilon_s * |f|$ of $G$ into $L^p(X, \beta)$ is $\mu$-integrable, therefore that, for every $h \in \mathscr{H}(X)$, the mapping $s \mapsto \langle h, \varepsilon_s * (|f| \cdot \beta) \rangle$ is $\mu$-integrable. Prop. 7 of §1, No. 5 then proves that $\mu$ and $f \cdot \beta$ are convolvable. Moreover,
 $$
 \int_X g(x)h(x) d\beta(x) = \int_G d\mu(s) \int_X (\gamma_\chi(s)f)(x)h(x) d\beta(x)
 = \int_G \langle h, \varepsilon_s * (f \cdot \beta) \rangle d\mu(s),
 $$
 and this last integral is equal to $\langle h, \mu * (f \cdot \beta) \rangle$ by Prop. 7 of §1, No. 5. One therefore sees that $g$ is a convolution product of $\mu$ and $f$. This convolution product is given locally $\beta$-almost everywhere by (3), by Prop. 2 and the *Remark* that follows it.
 
-2For a function $f$, the expression " $f \in L^p(X, \beta)$ " is an abuse of notation signifying that, depending on the context, the symbol $f$ is to be interpreted either as a function defined $\beta$-almost everywhere, or as the equivalence class of such a function for the relation of equality $\beta$-almost everywhere. Thus $f \in L^p$ can symbolize either $f \in \mathcal{L}^p$ or $\dot{f} \in L^p$.
+2For a function $f$, the expression " $f \in L^p(X, \beta)$ " is an abuse of notation signifying that, depending on the context, the symbol $f$ is to be interpreted either as a function defined $\beta$-almost everywhere, or as the equivalence class of such a function for the relation of equality $\beta$-almost everywhere. Thus $f \in L^p$ can symbolize either $f \in \mathscr{L}^p$ or $\dot{f} \in L^p$.
 
 By an abuse of notation, it is often one of the functions $g$ of the statement that is denoted $\mu *^\beta f$, which permits writing
 
@@ -328,7 +328,7 @@ If $X$ is countable at infinity, this style of notation is, moreover, entirely j
 
 #### Corollary {#int-viii-s4-n2-cor-1 .statement}
 
-*Under the hypotheses of Prop. 6, the mapping* $(\mu, f) \mapsto \mu *^\beta f$ *defines on* $L^p(X, \beta)$ *the structure of a left module over* $\mathcal{M}^{\rho^{1/q}}(G)$ $(1 \leq p \leq +\infty)$.
+*Under the hypotheses of Prop. 6, the mapping* $(\mu, f) \mapsto \mu *^\beta f$ *defines on* $L^p(X, \beta)$ *the structure of a left module over* $\mathscr{M}^{\rho^{1/q}}(G)$ $(1 \leq p \leq +\infty)$.
 
 This follows from Props. 5 and 6 and the associativity of the convolution product.
 
@@ -383,15 +383,15 @@ $$
 
 #### Example {#int-viii-s4-n3-exa-1 .statement}
 
-— 1) One can take $f \in \mathcal{C}(X)$, $\nu \in \mathcal{C}'(X)$ and $\mu \in \mathcal{C}'(G)$ by Prop. 3, and the Cor. of Prop. 5 of §1, No. 4. The formula (7) then means that the endomorphism $\nu \mapsto (\chi \cdot \check{\mu}) * \nu$ of $\mathcal{C}'(X)$ is the *transpose* of the endomorphism $f \mapsto \mu * f$ of $\mathcal{C}(X)$.
+— 1) One can take $f \in \mathscr{C}(X)$, $\nu \in \mathscr{C}'(X)$ and $\mu \in \mathscr{C}'(G)$ by Prop. 3, and the Cor. of Prop. 5 of §1, No. 4. The formula (7) then means that the endomorphism $\nu \mapsto (\chi \cdot \check{\mu}) * \nu$ of $\mathscr{C}'(X)$ is the *transpose* of the endomorphism $f \mapsto \mu * f$ of $\mathscr{C}(X)$.
 
-2) One can take $f \in \mathcal{K}(X)$, $\nu \in \mathcal{M}(X)$ and $\mu \in \mathcal{C}'(G)$ by Prop. 3, Prop. 8 of §3, No. 2, and the remark that the support of the continuous function $g(s, x)$ intersects the support of $\mu \otimes \nu$ in a compact set. The formula (7) then means that the endomorphism $\nu \mapsto (\chi \cdot \check{\mu}) * \nu$ of $\mathcal{M}(X)$ is the *transpose* of the endomorphism $f \mapsto \mu * f$ of $\mathcal{K}(X)$.
+2) One can take $f \in \mathscr{K}(X)$, $\nu \in \mathscr{M}(X)$ and $\mu \in \mathscr{C}'(G)$ by Prop. 3, Prop. 8 of §3, No. 2, and the remark that the support of the continuous function $g(s, x)$ intersects the support of $\mu \otimes \nu$ in a compact set. The formula (7) then means that the endomorphism $\nu \mapsto (\chi \cdot \check{\mu}) * \nu$ of $\mathscr{M}(X)$ is the *transpose* of the endomorphism $f \mapsto \mu * f$ of $\mathscr{K}(X)$.
 
-3) If $G$ operates properly on $X$, one can take $f \in \mathcal{K}(X)$, $\nu \in \mathcal{C}'(X)$ and $\mu \in \mathcal{M}(G)$ by Prop. 4, Prop. 8 of §3, No. 2, and the same remark as in *Example 2*.
+3) If $G$ operates properly on $X$, one can take $f \in \mathscr{K}(X)$, $\nu \in \mathscr{C}'(X)$ and $\mu \in \mathscr{M}(G)$ by Prop. 4, Prop. 8 of §3, No. 2, and the same remark as in *Example 2*.
 
 #### Proposition 8 {#int-viii-s4-prop-8 .statement}
 
-*Let $f$ and $g$ be two locally $\beta$-integrable functions on $X$ and let $\mu \in \mathcal{M}(G)$. Assume that:*
+*Let $f$ and $g$ be two locally $\beta$-integrable functions on $X$ and let $\mu \in \mathscr{M}(G)$. Assume that:*
 
 (i) $\mu$ and $f$ are convolvable and the formula (3) of No. 1 defines locally $\beta$-almost everywhere a convolution product $\mu *_{\beta} f$.
 
@@ -469,11 +469,11 @@ This proves the proposition.
 
 #### Example {#int-viii-s4-n3-exa-2 .statement}
 
-— 4) One can take $f \in \mathcal{C}(X)$, $g \in \mathcal{K}(X)$ and $\mu \in \mathcal{C}'(G)$ (with $\psi = 1$).
+— 4) One can take $f \in \mathscr{C}(X)$, $g \in \mathscr{K}(X)$ and $\mu \in \mathscr{C}'(G)$ (with $\psi = 1$).
 
-5) If G operates properly on X, one can take $f \in \mathcal{K}(X)$, $g \in \mathcal{K}(X)$ and $\mu \in \mathcal{M}(G)$ (with $\psi = 1$).
+5) If G operates properly on X, one can take $f \in \mathscr{K}(X)$, $g \in \mathscr{K}(X)$ and $\mu \in \mathscr{M}(G)$ (with $\psi = 1$).
 
-6) One can take $f \in \mathbf{L}^p(X, \beta)$, $g \in \mathbf{L}^q(X, \beta)$ and $\mu \in \mathcal{M}^\rho(G)$, where $1 \leq p < +\infty$, $\frac{1}{p} + \frac{1}{q} = 1$, $\rho = \chi^{-1/q}$. The conditions (i) and (ii) are satisfied by Props. 5 and 6. Let us prove (iii). We have seen that $\mu$ is carried by a set S that is a countable union of compact sets. Let us take for $\psi$ the characteristic function of S. The function $h$ is $(\mu \otimes \beta)$-measurable: for, the function $(s, x) \mapsto g(x)\chi(s^{-1})\psi(s)$ is so, as is the function $(s, x) \mapsto f(s^{-1}x)$ by Lemma 1. Moreover, $g$ being zero outside a countable union of $\beta$-integrable sets, $h$ is zero outside a countable union of $(\mu \otimes \beta)$-integrable sets. We then have (Ch. V, §8, No. 3, Prop. 7):
+6) One can take $f \in \mathbf{L}^p(X, \beta)$, $g \in \mathbf{L}^q(X, \beta)$ and $\mu \in \mathscr{M}^\rho(G)$, where $1 \leq p < +\infty$, $\frac{1}{p} + \frac{1}{q} = 1$, $\rho = \chi^{-1/q}$. The conditions (i) and (ii) are satisfied by Props. 5 and 6. Let us prove (iii). We have seen that $\mu$ is carried by a set S that is a countable union of compact sets. Let us take for $\psi$ the characteristic function of S. The function $h$ is $(\mu \otimes \beta)$-measurable: for, the function $(s, x) \mapsto g(x)\chi(s^{-1})\psi(s)$ is so, as is the function $(s, x) \mapsto f(s^{-1}x)$ by Lemma 1. Moreover, $g$ being zero outside a countable union of $\beta$-integrable sets, $h$ is zero outside a countable union of $(\mu \otimes \beta)$-integrable sets. We then have (Ch. V, §8, No. 3, Prop. 7):
 
 $$
 \begin{align*}
@@ -496,7 +496,7 @@ $$
 
 and J is finite since $g \in L^q$ and $|\mu| *^\beta |f| \in L^p$ (Prop. 6). Therefore h is $(\mu \otimes \beta)$-integrable.
 
-The formula (8) then means that the endomorphism $g \mapsto (\chi \cdot \check{\mu}) * g$ of $L^q(X, \beta)$ is, for $\mu \in \mathcal{M}^\rho(G)$, the transpose of the endomorphism $f \mapsto \mu * f$ of $L^p(X, \beta)$.
+The formula (8) then means that the endomorphism $g \mapsto (\chi \cdot \check{\mu}) * g$ of $L^q(X, \beta)$ is, for $\mu \in \mathscr{M}^\rho(G)$, the transpose of the endomorphism $f \mapsto \mu * f$ of $L^p(X, \beta)$.
 
 ### 4. Convolution of a measure and a function on a group
 
@@ -518,15 +518,15 @@ $$
 (f * \mu)(x) = \int_G f(xs^{-1}) \chi'(s^{-1}) d\mu(s).
 $$
 
-2) Let $p$ and $q$ be two conjugate exponents ($1 \leq p \leq +\infty$). If $\mu \in \mathcal{M}^{\chi^{-1/q}}(G)$ and $f \in L^p(G, \beta)$, then $\mu$ and $f$ are convolvable, and $\mu * f$ is equal locally $\beta$-almost everywhere to a function in $L^p(G, \beta)$; one has (with an abuse of notations already noted)
+2) Let $p$ and $q$ be two conjugate exponents ($1 \leq p \leq +\infty$). If $\mu \in \mathscr{M}^{\chi^{-1/q}}(G)$ and $f \in L^p(G, \beta)$, then $\mu$ and $f$ are convolvable, and $\mu * f$ is equal locally $\beta$-almost everywhere to a function in $L^p(G, \beta)$; one has (with an abuse of notations already noted)
 
 $$
 \| \mu * f \|_p \leq \| \mu \|_{\chi^{-1/q}} \| f \|_p .
 $$
 
-If $\mu \in \mathcal{M}^{{\chi'}^{-1/q}}(G)$ and $f \in L^p(G, \beta)$, then $f$ and $\mu$ are convolvable, and $f * \mu$ is equal locally $\beta$-almost everywhere to a function in $L^p(G, \beta)$; one has $\| f * \mu \|_p \leq \| \mu \|_{{\chi'}^{-1/q}} \| f \|_p$.
+If $\mu \in \mathscr{M}^{{\chi'}^{-1/q}}(G)$ and $f \in L^p(G, \beta)$, then $f$ and $\mu$ are convolvable, and $f * \mu$ is equal locally $\beta$-almost everywhere to a function in $L^p(G, \beta)$; one has $\| f * \mu \|_p \leq \| \mu \|_{{\chi'}^{-1/q}} \| f \|_p$.
 
-3) The mappings $(\mu, f) \mapsto \mu * f , (f, \mu) \mapsto f * \mu$ define on $L^p(G, \beta)$ the structures of a left module over $\mathcal{M}^{\chi^{-1/q}}(G)$ and a right module over $\mathcal{M}^{{\chi'}^{-1/q}}(G)$. The two external laws on $L^p(G, \beta)$ are permutable by the associativity of convolution.
+3) The mappings $(\mu, f) \mapsto \mu * f , (f, \mu) \mapsto f * \mu$ define on $L^p(G, \beta)$ the structures of a left module over $\mathscr{M}^{\chi^{-1/q}}(G)$ and a right module over $\mathscr{M}^{{\chi'}^{-1/q}}(G)$. The two external laws on $L^p(G, \beta)$ are permutable by the associativity of convolution.
 
 4) If $\mu * f$ is continuous and is given at every point by (10), then
 
@@ -544,11 +544,11 @@ $$
 
 We conserve the notations $G, \beta, \chi, \chi'$ of No. 4.
 
-Recall that if $f$ is a complex function on $G$, the property of being locally $\beta$-integrable is independent of the choice of $\beta$. Let $\mathcal{L}(G)$ be the set of functions having this property. If $f \in \mathcal{L}(G) , g \in \mathcal{L}(G)$, the relation
+Recall that if $f$ is a complex function on $G$, the property of being locally $\beta$-integrable is independent of the choice of $\beta$. Let $\mathscr{L}(G)$ be the set of functions having this property. If $f \in \mathscr{L}(G) , g \in \mathscr{L}(G)$, the relation
 
 « $f \cdot \beta$ and $g \cdot \beta$ are convolvable »
 
-is independent of the choice of $\beta$ (§ 3, No. 1, Prop. 6). We shall then say that $f$ and $g$ are *convolvable*. By No. 1, $(f \cdot \beta) * (g \cdot \beta)$ is of the form $h \cdot \beta$ with $h \in \mathcal{L}(G)$, $h$ being determined up to locally $\beta$-negligible sets. We shall write $h = f *^{\beta} g$ and we shall say that $h$ is a *convolution product* of $f$ and $g$ relative to $\beta$. (One omits $\beta$ when no confusion is possible.) If $\beta$ is replaced by $\psi \cdot \beta$, $\psi$ being a continuous representation of $G$ in $\mathbf{R}_+^*$, $h$ does not change (§ 3, No. 1, Prop. 6); if $\beta$ is replaced by $a \beta$ ($a \in \mathbf{R}_+^*$), then $h$ is replaced by $ah$. The convolution product of several functions on $G$ is defined in an analogous manner.
+is independent of the choice of $\beta$ (§ 3, No. 1, Prop. 6). We shall then say that $f$ and $g$ are *convolvable*. By No. 1, $(f \cdot \beta) * (g \cdot \beta)$ is of the form $h \cdot \beta$ with $h \in \mathscr{L}(G)$, $h$ being determined up to locally $\beta$-negligible sets. We shall write $h = f *^{\beta} g$ and we shall say that $h$ is a *convolution product* of $f$ and $g$ relative to $\beta$. (One omits $\beta$ when no confusion is possible.) If $\beta$ is replaced by $\psi \cdot \beta$, $\psi$ being a continuous representation of $G$ in $\mathbf{R}_+^*$, $h$ does not change (§ 3, No. 1, Prop. 6); if $\beta$ is replaced by $a \beta$ ($a \in \mathbf{R}_+^*$), then $h$ is replaced by $ah$. The convolution product of several functions on $G$ is defined in an analogous manner.
 
 If one of the convolutions of $f$ and $g$ is continuous, it is uniquely determined since the support of $\beta$ is $G$. It is then called *the* convolution product of $f$ and $g$ relative to $\beta$.
 
@@ -560,7 +560,7 @@ $$
 
 #### Proposition 9 {#int-viii-s4-prop-9 .statement}
 
-*Let $f, g$ be in $\mathcal{L}(G)$. Assume that the function $s \mapsto g(s^{-1}x)f(s)\chi(s^{-1})$ is essentially $\beta$-integrable except for a locally $\beta$-negligible set of values of $x$, and that the function*
+*Let $f, g$ be in $\mathscr{L}(G)$. Assume that the function $s \mapsto g(s^{-1}x)f(s)\chi(s^{-1})$ is essentially $\beta$-integrable except for a locally $\beta$-negligible set of values of $x$, and that the function*
 
 $$
 x \mapsto \int |g(s^{-1}x)f(s)|\chi(s^{-1})\, d\beta(s),
@@ -572,7 +572,7 @@ This follows from Prop. 1 of No. 1.
 
 #### Proposition 10 {#int-viii-s4-prop-10 .statement}
 
-*Let $f, g$ be in $\mathcal{L}(G)$. Assume that one of these two functions is continuous or is zero on the complement of a countable union of compact sets. If $f$ and $g$ are convolvable, then the function $f * g$ is given locally $\beta$-almost everywhere by*
+*Let $f, g$ be in $\mathscr{L}(G)$. Assume that one of these two functions is continuous or is zero on the complement of a countable union of compact sets. If $f$ and $g$ are convolvable, then the function $f * g$ is given locally $\beta$-almost everywhere by*
 
 $$
 (f * g)(x) = \int_G g(s^{-1}x)f(s)\chi(s^{-1})\, d\beta(s)
@@ -595,7 +595,7 @@ $$
 
 #### Proposition 11 {#int-viii-s4-prop-11 .statement}
 
-— Let $f, g$ be in $\mathcal{L}(G)$. Assume that one of the functions $f, g$ is continuous, and that one of the functions $f, g$ has compact support. Then $f$ and $g$ are convolvable. The formula (15) defines for all $x \in G$ a product $f * g$ that is continuous. If $f \in \mathcal{K}(G)$ and $g \in \mathcal{K}(G)$, then $f * g \in \mathcal{K}(G)$.
+— Let $f, g$ be in $\mathscr{L}(G)$. Assume that one of the functions $f, g$ is continuous, and that one of the functions $f, g$ has compact support. Then $f$ and $g$ are convolvable. The formula (15) defines for all $x \in G$ a product $f * g$ that is continuous. If $f \in \mathscr{K}(G)$ and $g \in \mathscr{K}(G)$, then $f * g \in \mathscr{K}(G)$.
 
 This follows from Props. 3 and 4 of No. 2.
 
@@ -613,7 +613,7 @@ This follows from Props. 5 and 6 of No. 2 and the remarks in No. 4.
 
 #### Proposition 13 {#int-viii-s4-prop-13 .statement}
 
-— If $f \chi^{-1} \in L^1(G, \beta)$ and $g \in \overline{\mathcal{K}(G)}$, or if $f \in \mathcal{K}(G)$ and $g {\chi'}^{-1} \in L^1(G, \beta)$, then $f$ and $g$ are convolvable, and (15) defines for every $x \in G$ a product $f * g$ that belongs to $\mathcal{K}(G)$.
+— If $f \chi^{-1} \in L^1(G, \beta)$ and $g \in \overline{\mathscr{K}(G)}$, or if $f \in \mathscr{K}(G)$ and $g {\chi'}^{-1} \in L^1(G, \beta)$, then $f$ and $g$ are convolvable, and (15) defines for every $x \in G$ a product $f * g$ that belongs to $\mathscr{K}(G)$.
 
 This follows from Prop. 5 of No. 2, and the remarks in No. 4.
 
@@ -632,7 +632,7 @@ and the latter integral is arbitrarily small provided $x'x^{-1}$ is in a suitabl
 
 #### Proposition 15 {#int-viii-s4-prop-15 .statement}
 
-— Let $p$ and $q$ be two conjugate exponents ($1 < p < +\infty$). Assume that $\beta$ is left-invariant. Let $f \in L^p(G, \beta)$, $g \in L^q(G, \check{\beta})$. Then $f$ and $g$ are convolvable. The formula (15) defines, for every $x \in G$, a product $f * g$ that belongs to $\mathcal{K}(G)$ and is such that
+— Let $p$ and $q$ be two conjugate exponents ($1 < p < +\infty$). Assume that $\beta$ is left-invariant. Let $f \in L^p(G, \beta)$, $g \in L^q(G, \check{\beta})$. Then $f$ and $g$ are convolvable. The formula (15) defines, for every $x \in G$, a product $f * g$ that belongs to $\mathscr{K}(G)$ and is such that
 $$
 \|f * g\|_\infty \leq \|f\|_p \|g\|_q.
 $$
@@ -650,21 +650,21 @@ $$
 |(f * g)(x)| \leq \|f\|_p \|\dot{g}\|_q.
 $$
 
-For $f, g$ in $\mathcal{K}(G)$, we have $f * g \in \mathcal{K}(G)$ (Prop. 11); therefore, for $f \in L^p(G, \beta)$ and $g \in L^q(G, \dot{\beta})$, the product $f * g$ furnished by (15) is the uniform limit of functions in $\mathcal{K}(G)$, hence belongs to $\overline{\mathcal{K}(G)}$.
+For $f, g$ in $\mathscr{K}(G)$, we have $f * g \in \mathscr{K}(G)$ (Prop. 11); therefore, for $f \in L^p(G, \beta)$ and $g \in L^q(G, \dot{\beta})$, the product $f * g$ furnished by (15) is the uniform limit of functions in $\mathscr{K}(G)$, hence belongs to $\overline{\mathscr{K}(G)}$.
 
 #### Corollary {#int-viii-s4-n5-cor-1 .statement}
 
-— Let $f \in L^2(G, \beta)$, $g \in L^2(G, \beta)$. Then $f$ and $\dot{g}$ are convolvable. One of the convolutions $f * \dot{g}$ belongs to $\overline{\mathcal{K}(G)}$ and its value at $e$ is $\int_G f(s)g(s) d\beta(s)$.
+— Let $f \in L^2(G, \beta)$, $g \in L^2(G, \beta)$. Then $f$ and $\dot{g}$ are convolvable. One of the convolutions $f * \dot{g}$ belongs to $\overline{\mathscr{K}(G)}$ and its value at $e$ is $\int_G f(s)g(s) d\beta(s)$.
 
 It suffices to take $p = q = 2$ in Prop. 15 and to apply (16).
 
-We no longer assume $\beta$ to be left-invariant. Let $\rho$ be a lower semi-continuous finite function $> 0$ on $G$, such that $\rho(st) \leq \rho(s)\rho(t)$ for all $s, t$ in $G$. We denote by $L^\rho(G, \beta)$ the set of equivalence classes of the complex functions on $G$ that are integrable for $\rho \cdot \beta$. By the mapping $f \mapsto f \cdot \beta$, $L^\rho(G, \beta)$ may be identified with the set of elements of $\mathcal{M}^\rho(G)$ that have base $\beta$ (a set that is independent of the choice of $\beta$). If one sets
+We no longer assume $\beta$ to be left-invariant. Let $\rho$ be a lower semi-continuous finite function $> 0$ on $G$, such that $\rho(st) \leq \rho(s)\rho(t)$ for all $s, t$ in $G$. We denote by $L^\rho(G, \beta)$ the set of equivalence classes of the complex functions on $G$ that are integrable for $\rho \cdot \beta$. By the mapping $f \mapsto f \cdot \beta$, $L^\rho(G, \beta)$ may be identified with the set of elements of $\mathscr{M}^\rho(G)$ that have base $\beta$ (a set that is independent of the choice of $\beta$). If one sets
 
 $$
 \|f\|_\rho = \int_G |f(s)| \rho(s) d\beta(s)
 $$
 
-for $f \in L^\rho(G, \beta)$, this identification is compatible with the norms, thus $L^\rho(G, \beta)$ appears as a complete normed subalgebra of $\mathcal{M}^\rho(G)$. It is even a two-sided ideal of $\mathcal{M}^\rho(G)$ by Prop. 10 of §3, No. 2. (For $\rho = 1$, one recovers one of the assertions of No. 4.) In particular, $L^1(G, \beta)$ may be identified with a closed two-sided ideal of $\mathcal{M}^1(G)$.
+for $f \in L^\rho(G, \beta)$, this identification is compatible with the norms, thus $L^\rho(G, \beta)$ appears as a complete normed subalgebra of $\mathscr{M}^\rho(G)$. It is even a two-sided ideal of $\mathscr{M}^\rho(G)$ by Prop. 10 of §3, No. 2. (For $\rho = 1$, one recovers one of the assertions of No. 4.) In particular, $L^1(G, \beta)$ may be identified with a closed two-sided ideal of $\mathscr{M}^1(G)$.
 
 #### Proposition 16 {#int-viii-s4-prop-16 .statement}
 
@@ -710,13 +710,13 @@ Set $g(x) = f(x^{-1})$ for $x \in G$. Since $f$ and $g$ are $\beta$-measurable, 
 
 #### Corollary 1 {#int-viii-s4-prop-18-cor-1 .statement}
 
-*Let $G$ be a locally compact group, $\beta$ a Haar measure on $G$, $E$ a Hausdorff barreled locally convex space, $U$ a linear representation of $G$ in $E$, such that $U(s) \in \mathcal{L}(E;E)$ for all $s \in G$, $\beta$-measurable when $\mathcal{L}(E;E)$ is equipped with the topology of pointwise convergence. Then $U$ is a continuous linear representation.*
+*Let $G$ be a locally compact group, $\beta$ a Haar measure on $G$, $E$ a Hausdorff barreled locally convex space, $U$ a linear representation of $G$ in $E$, such that $U(s) \in \mathscr{L}(E;E)$ for all $s \in G$, $\beta$-measurable when $\mathscr{L}(E;E)$ is equipped with the topology of pointwise convergence. Then $U$ is a continuous linear representation.*
 
-Let $\Gamma$ be the group of automorphisms of $E$, equipped with the topology of pointwise convergence. This topology is Hausdorff and is invariant under translations. Let $K$ be a compact subset of $\Gamma$. Then $K$ is bounded in $\mathcal{L}(E;E)$ equipped with the topology of pointwise convergence, hence is equicontinuous (TVS, III, §4, No. 2, Th. 1); therefore the mapping $(u,v) \mapsto v \circ u$ of $K \times K$ into $\mathcal{L}(E;E)$ is continuous (*loc. cit.*, §5, No. 5, Cor. 1 of Prop. 9). Therefore, for every $x \in E$, the mapping $s \mapsto U(s)x$ of $G$ into $E$ is continuous (Prop. 18). Since $E$ is barreled, $U$ is continuous (§2, No. 1, Prop. 1).
+Let $\Gamma$ be the group of automorphisms of $E$, equipped with the topology of pointwise convergence. This topology is Hausdorff and is invariant under translations. Let $K$ be a compact subset of $\Gamma$. Then $K$ is bounded in $\mathscr{L}(E;E)$ equipped with the topology of pointwise convergence, hence is equicontinuous (TVS, III, §4, No. 2, Th. 1); therefore the mapping $(u,v) \mapsto v \circ u$ of $K \times K$ into $\mathscr{L}(E;E)$ is continuous (*loc. cit.*, §5, No. 5, Cor. 1 of Prop. 9). Therefore, for every $x \in E$, the mapping $s \mapsto U(s)x$ of $G$ into $E$ is continuous (Prop. 18). Since $E$ is barreled, $U$ is continuous (§2, No. 1, Prop. 1).
 
 #### Corollary 2 {#int-viii-s4-prop-18-cor-2 .statement}
 
-*Let $G$ be a locally compact group, $\beta$ a Haar measure on $G$, $E$ a separable Banach space, and $U$ a linear representation of $G$ in $E$ such that $U(s) \in \mathcal{L}(E;E)$ for all $s \in G$. Let $(a_m)$ be a total sequence in $E$, and let $(a'_n)$ be a dense sequence in the unit ball $B'$ of the dual $E'$ of $E$, equipped with the weak topology. Assume that the functions $s \mapsto \langle U(s)a_m, a'_n \rangle$ on $G$ are $\beta$-measurable. Then $U$ is a continuous linear representation.*
+*Let $G$ be a locally compact group, $\beta$ a Haar measure on $G$, $E$ a separable Banach space, and $U$ a linear representation of $G$ in $E$ such that $U(s) \in \mathscr{L}(E;E)$ for all $s \in G$. Let $(a_m)$ be a total sequence in $E$, and let $(a'_n)$ be a dense sequence in the unit ball $B'$ of the dual $E'$ of $E$, equipped with the weak topology. Assume that the functions $s \mapsto \langle U(s)a_m, a'_n \rangle$ on $G$ are $\beta$-measurable. Then $U$ is a continuous linear representation.*
 
 Let us first show that for every $z' \in E'$, the scalar functions
 
@@ -730,21 +730,21 @@ $$
 s \mapsto \langle U(s)a_m, z' \rangle
 $$
 
-is thus the limit of a sequence of $\beta$-measurable functions, whence our assertion. It follows that the mapping $s \mapsto U(s)a_m$ of $G$ into $E$ is $\beta$-measurable for every $m$ (Ch. IV, §5, No. 5, Prop. 10). On the other hand, there exists a sequence $(b_m)$ of elements of $E$, linear combinations of the $a_i$, that is dense in the unit ball of $E$. For every $s \in G$, $\|U(s)\| = \sup_m \|U(s)b_m\|$, therefore $s \mapsto \|U(s)\|$ is measurable. Let $K$ be a compact subset of $G$ and let $\varepsilon > 0$. There exists a compact subset $K_0$ of $K$ such that $\beta(K - K_0) \leq \varepsilon$ and such that the restrictions to $K_0$ of the functions $s \mapsto U(s)a_m$ and $s \mapsto \|U(s)\|$ are continuous. Then the $U(s)$ for $s \in K_0$ are equicontinuous, and the topology of pointwise convergence induces on $U(K_0)$ the topology of pointwise convergence in the set of $a_m$ (TVS, III, §3, No. 4, Prop. 5). Consequently the mapping $s \mapsto U(s)$ of $K_0$ into $\mathcal{L}_s(E; E)$ is continuous. It then suffices to apply Cor. 1.
+is thus the limit of a sequence of $\beta$-measurable functions, whence our assertion. It follows that the mapping $s \mapsto U(s)a_m$ of $G$ into $E$ is $\beta$-measurable for every $m$ (Ch. IV, §5, No. 5, Prop. 10). On the other hand, there exists a sequence $(b_m)$ of elements of $E$, linear combinations of the $a_i$, that is dense in the unit ball of $E$. For every $s \in G$, $\|U(s)\| = \sup_m \|U(s)b_m\|$, therefore $s \mapsto \|U(s)\|$ is measurable. Let $K$ be a compact subset of $G$ and let $\varepsilon > 0$. There exists a compact subset $K_0$ of $K$ such that $\beta(K - K_0) \leq \varepsilon$ and such that the restrictions to $K_0$ of the functions $s \mapsto U(s)a_m$ and $s \mapsto \|U(s)\|$ are continuous. Then the $U(s)$ for $s \in K_0$ are equicontinuous, and the topology of pointwise convergence induces on $U(K_0)$ the topology of pointwise convergence in the set of $a_m$ (TVS, III, §3, No. 4, Prop. 5). Consequently the mapping $s \mapsto U(s)$ of $K_0$ into $\mathscr{L}_s(E; E)$ is continuous. It then suffices to apply Cor. 1.
 
 ### 7. Regularization
 
 #### Proposition 19 {#int-viii-s4-prop-19 .statement}
 
-— *Let $G$ be a locally compact group, $\beta$ a relatively invariant positive measure $\neq 0$ on $G$, $\mathcal{B}$ a base for the filter of neighborhoods of $e$ in $G$, consisting of compact neighborhoods. For every $V \in \mathcal{B}$, let $f_V$ be a continuous function $\geq 0$ on $G$, with support contained in $V$, such that $\int f_V d\beta = 1$. If $\mu$ is a measure on $G$ then, in $\mathcal{M}(G)$ equipped with the topology of compact convergence in $\mathcal{H}(G)$,
+— *Let $G$ be a locally compact group, $\beta$ a relatively invariant positive measure $\neq 0$ on $G$, $\mathscr{B}$ a base for the filter of neighborhoods of $e$ in $G$, consisting of compact neighborhoods. For every $V \in \mathscr{B}$, let $f_V$ be a continuous function $\geq 0$ on $G$, with support contained in $V$, such that $\int f_V d\beta = 1$. If $\mu$ is a measure on $G$ then, in $\mathscr{M}(G)$ equipped with the topology of compact convergence in $\mathscr{H}(G)$,
 
 $$
 \mu = \lim_V (\mu * f_V) \cdot \beta = \lim_V (f_V * \mu) \cdot \beta,
 $$
 
-the limit being taken with respect to the section filter of $\mathcal{B}$.
+the limit being taken with respect to the section filter of $\mathscr{B}$.
 
-For the topology of compact convergence in $\mathcal{C}(G)$, $f_V \cdot \beta$ tends to $\varepsilon_e$ with respect to the section filter of $\mathcal{B}$ (§ 2, No. 7, Cor. 1 of Lemma 4). Therefore $\mu = \lim_V \mu * (f_V \cdot \beta) = \lim_V (f_V \cdot \beta) * \mu$ in $\mathcal{M}(G)$ equipped with the topology of compact convergence in $\mathcal{H}(G)$ (§ 3, No. 3, Cor. of Prop. 12).
+For the topology of compact convergence in $\mathscr{C}(G)$, $f_V \cdot \beta$ tends to $\varepsilon_e$ with respect to the section filter of $\mathscr{B}$ (§ 2, No. 7, Cor. 1 of Lemma 4). Therefore $\mu = \lim_V \mu * (f_V \cdot \beta) = \lim_V (f_V \cdot \beta) * \mu$ in $\mathscr{M}(G)$ equipped with the topology of compact convergence in $\mathscr{H}(G)$ (§ 3, No. 3, Cor. of Prop. 12).
 
 #### Remark 1 {#int-viii-s4-n7-rem-1 .statement}
 
@@ -752,7 +752,7 @@ We thus see that every measure on $G$ is the limit of measures admitting a *cont
 
 #### Remark 2 {#int-viii-s4-n7-rem-2 .statement}
 
-If $G$ is metrizable, $\mathcal{B}$ can be taken to be a sequence $(V_n)$ of neighborhoods. Then $\mu$ is the limit of the sequence of measures $(\mu * f_{V_n}) \cdot \beta$ with continuous densities. *If $G$ is a real Lie group, the $f_{V_n}$ can be taken to be infinitely differentiable; we shall see later on that the densities $\mu * f_{V_n}$ are then infinitely differentiable.*
+If $G$ is metrizable, $\mathscr{B}$ can be taken to be a sequence $(V_n)$ of neighborhoods. Then $\mu$ is the limit of the sequence of measures $(\mu * f_{V_n}) \cdot \beta$ with continuous densities. *If $G$ is a real Lie group, the $f_{V_n}$ can be taken to be infinitely differentiable; we shall see later on that the densities $\mu * f_{V_n}$ are then infinitely differentiable.*
 
 #### Proposition 20 {#int-viii-s4-prop-20 .statement}
 
@@ -762,23 +762,23 @@ $$
 g = \lim_V g *^\beta f_V = \lim_V f_V *^\beta g
 $$
 
-in the sense of the norm $N_p$, the limit being taken with respect to the section filter of $\mathcal{B}$.
+in the sense of the norm $N_p$, the limit being taken with respect to the section filter of $\mathscr{B}$.
 
 It suffices to apply Prop. 6 (iii), and §2, No. 7, Cor. 3 of Lemma 4.
 
 #### Remark 3 {#int-viii-s4-n7-rem-3 .statement}
 
-By Prop. 15, the functions $g * f_V$, $f_V * g$ belong to $\mathcal{K}(G)$.
+By Prop. 15, the functions $g * f_V$, $f_V * g$ belong to $\mathscr{K}(G)$.
 
 #### Corollary {#int-viii-s4-n7-cor-1 .statement}
 
 — Let $W$ be a closed linear subspace of $L^1(G, \beta)$. For $W$ to be a left (resp. right) ideal of $L^1(G, \beta)$, it is necessary and sufficient that $W$ be invariant under the left (resp. right) translations of $G$.
 
-Suppose that $W$ is a left ideal. Let $s \in G$ and $g \in W$. We have $\varepsilon_s * g = \lim_V f_V * (\varepsilon_s * g) = \lim_V (f_V * \varepsilon_s) * g$, and $(f_V * \varepsilon_s) * g \in W$, therefore $\varepsilon_s * g \in W$, thus $\gamma(s)g \in W$. Conversely, if $W$ is invariant under the left translations, then $\mu *^\beta g \in W$ for $\mu \in \mathcal{M}^1(G)$ and $g \in W$, therefore $W$ is a fortiori a left ideal of $L^1(G, \beta)$. One argues similarly for right ideals.
+Suppose that $W$ is a left ideal. Let $s \in G$ and $g \in W$. We have $\varepsilon_s * g = \lim_V f_V * (\varepsilon_s * g) = \lim_V (f_V * \varepsilon_s) * g$, and $(f_V * \varepsilon_s) * g \in W$, therefore $\varepsilon_s * g \in W$, thus $\gamma(s)g \in W$. Conversely, if $W$ is invariant under the left translations, then $\mu *^\beta g \in W$ for $\mu \in \mathscr{M}^1(G)$ and $g \in W$, therefore $W$ is a fortiori a left ideal of $L^1(G, \beta)$. One argues similarly for right ideals.
 
 #### Example {#int-viii-s4-n7-exa-1 .statement}
 
-We take $G = \mathbf{R}$. Let us define a function $F_n \in \mathcal{K}(\mathbf{R})$ by
+We take $G = \mathbf{R}$. Let us define a function $F_n \in \mathscr{K}(\mathbf{R})$ by
 $$
 F_n(x) = (1 - x^2)^n \quad \text{if } x \in [-1, 1] \\
 F_n(x) = 0 \qquad \text{if } x \notin [-1, 1].

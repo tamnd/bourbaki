@@ -21,7 +21,7 @@ subsections:
       pdf_page: 75
 statements: 6
 exercises: 0
-content_sha256: fc4e5a9873ecd9d043f4e4ef61316cb2d7a3a32d9e81413132fba59d4389faf2
+content_sha256: e96571d89064f38b59db9859d5e3e825e324fc8128b4b8b18452b0c599eb28c5
 ---
 
 ## APPENDICE
@@ -30,7 +30,7 @@ content_sha256: fc4e5a9873ecd9d043f4e4ef61316cb2d7a3a32d9e81413132fba59d4389faf2
 
 ### 1. Formes bilinéaires et applications linéaires.
 
-Soient $(F_1, G_1), (F_2, G_2)$ deux couples d’espaces vectoriels (réels ou complexes) en dualité (*Esp. vect. top.*, chap. IV, § 1, n° 1) ; supposons chacun de ces espaces muni de la topologie *faible* correspondante (*loc. cit.*, n° 2) ; si $A$ et $B$ sont deux quelconques de ces espaces, on désignera comme d’ordinaire par $\mathcal{L}(A; B)$ l’espace vectoriel des applications linéaires continues de $A$ dans $B$, et on notera $\mathcal{B}(A, B)$ l’espace vectoriel des formes bilinéaires *séparément continues* sur $A \times B$.
+Soient $(F_1, G_1), (F_2, G_2)$ deux couples d’espaces vectoriels (réels ou complexes) en dualité (*Esp. vect. top.*, chap. IV, § 1, n° 1) ; supposons chacun de ces espaces muni de la topologie *faible* correspondante (*loc. cit.*, n° 2) ; si $A$ et $B$ sont deux quelconques de ces espaces, on désignera comme d’ordinaire par $\mathscr{L}(A; B)$ l’espace vectoriel des applications linéaires continues de $A$ dans $B$, et on notera $\mathscr{B}(A, B)$ l’espace vectoriel des formes bilinéaires *séparément continues* sur $A \times B$.
 
 Pour toute forme bilinéaire $\Phi$ séparément continue sur $F_1 \times F_2$, $x_1 \to \Phi(x_1, x_2)$ est une forme linéaire continue sur $F_1$, donc il existe un élément et un seul $^r\Phi(x_2) \in G_1$ tel que
 
@@ -39,7 +39,7 @@ $$
 \Phi(x_1, x_2) = \langle x_1, ^r\Phi(x_2) \rangle
 $$
 pour $x_1 \in F_1, x_2 \in F_2$ (*Esp. vect. top.*, chap. IV, § 1, n° 2, prop. 1). En outre cette formule montre que l’application $x_2 \to ^r\Phi(x_2)$ est linéaire et continue pour les topologies (faibles) de $F_2$ et de $G_1$. Inversement, pour toute application linéaire continue $u$ de $F_2$ dans $G_1$,
-$(x_1, x_2) \to \Phi(x_1, x_2) = \langle x_1, u(x_2) \rangle$ est une forme bilinéaire séparément continue sur $F_1 \times F_2$, et on a $^r\Phi = u$. On a ainsi défini un isomorphisme $r : \Phi \to ^r\Phi$ de $\mathcal{B}(F_1, F_2)$ sur $\mathcal{L}(F_2; G_1)$, dit *canonique*.
+$(x_1, x_2) \to \Phi(x_1, x_2) = \langle x_1, u(x_2) \rangle$ est une forme bilinéaire séparément continue sur $F_1 \times F_2$, et on a $^r\Phi = u$. On a ainsi défini un isomorphisme $r : \Phi \to ^r\Phi$ de $\mathscr{B}(F_1, F_2)$ sur $\mathscr{L}(F_2; G_1)$, dit *canonique*.
 
 La formule
 
@@ -48,27 +48,27 @@ $$
 \Phi(x_1, x_2) = \langle ^l\Phi(x_1), x_2 \rangle
 $$
 
-définit de même un *isomorphisme canonique* $l : \Phi \to {}^t\Phi$ de $\mathcal{B}(F_1, F_2)$ sur $\mathcal{L}(F_1; G_2)$; et on a évidemment le diagramme commutatif
+définit de même un *isomorphisme canonique* $l : \Phi \to {}^t\Phi$ de $\mathscr{B}(F_1, F_2)$ sur $\mathscr{L}(F_1; G_2)$; et on a évidemment le diagramme commutatif
 
 $$
 \begin{array}{ccc}
-& & \mathcal{B}(F_1, F_2) \\
+& & \mathscr{B}(F_1, F_2) \\
 & \swarrow & \downarrow r^{-1} \\
-\mathcal{L}(F_1; G_2) & \leftarrow t \rightarrow & \mathcal{L}(F_2; G_1) \\
+\mathscr{L}(F_1; G_2) & \leftarrow t \rightarrow & \mathscr{L}(F_2; G_1) \\
 & \searrow & \downarrow l^{-1} \\
-& & \mathcal{L}(F_1; G_2)
+& & \mathscr{L}(F_1; G_2)
 \end{array}
 $$
 
-où $t$ est l’isomorphisme de transposition $u \to {}^t u$. Vu la définition des topologies faibles sur $G_1$ et $G_2$, il est immédiat en outre que, lorsqu’on munit $\mathcal{B}(F_1, F_2)$, $\mathcal{L}(F_1; G_2)$ et $\mathcal{L}(F_2; G_1)$ de la topologie de la convergence simple, les isomorphismes du diagramme précédent sont des isomorphismes pour les structures d’espace vectoriel topologique.
+où $t$ est l’isomorphisme de transposition $u \to {}^t u$. Vu la définition des topologies faibles sur $G_1$ et $G_2$, il est immédiat en outre que, lorsqu’on munit $\mathscr{B}(F_1, F_2)$, $\mathscr{L}(F_1; G_2)$ et $\mathscr{L}(F_2; G_1)$ de la topologie de la convergence simple, les isomorphismes du diagramme précédent sont des isomorphismes pour les structures d’espace vectoriel topologique.
 
-Soient maintenant $E, F$ deux espaces localement convexes séparés, $E', F'$ leurs duals respectifs ; désignons par $E_\sigma, F_\sigma$ les espaces $E, F$ munis des topologies affaiblies $\sigma(E, E')$, $\sigma(F, F')$, par $E'_s, F'_s$ les espaces $E', F'$ munis des topologies faibles $\sigma(E', E)$, $\sigma(F', F)$. Les remarques précédentes établissent donc des isomorphismes canoniques entre les trois espaces $\mathcal{B}(E_\sigma, F'_s)$, $\mathcal{L}(E_\sigma; F_\sigma)$ et $\mathcal{L}(F'_s; E'_s)$, et aussi entre les trois espaces $\mathcal{B}(E_\sigma, F_s)$, $\mathcal{L}(E_\sigma; F'_s)$ et $\mathcal{L}(F_s; E'_s)$. On remarquera que $\mathcal{B}(E_\sigma, F_\sigma)$ est aussi égal à l’espace $\mathcal{B}(E, F)$ des formes bilinéaires séparément continues sur $E \times F$ ($E$ et $F$ étant munis de leurs topologies initiales), puisque toute forme linéaire continue dans $E$ (resp. $F$) est continue dans $E_\sigma$ (resp. $F_\sigma$) et réciproquement (*Esp. vect. top.*, chap. IV, § 1, no 1 et no 2, prop. 1).
+Soient maintenant $E, F$ deux espaces localement convexes séparés, $E', F'$ leurs duals respectifs ; désignons par $E_\sigma, F_\sigma$ les espaces $E, F$ munis des topologies affaiblies $\sigma(E, E')$, $\sigma(F, F')$, par $E'_s, F'_s$ les espaces $E', F'$ munis des topologies faibles $\sigma(E', E)$, $\sigma(F', F)$. Les remarques précédentes établissent donc des isomorphismes canoniques entre les trois espaces $\mathscr{B}(E_\sigma, F'_s)$, $\mathscr{L}(E_\sigma; F_\sigma)$ et $\mathscr{L}(F'_s; E'_s)$, et aussi entre les trois espaces $\mathscr{B}(E_\sigma, F_s)$, $\mathscr{L}(E_\sigma; F'_s)$ et $\mathscr{L}(F_s; E'_s)$. On remarquera que $\mathscr{B}(E_\sigma, F_\sigma)$ est aussi égal à l’espace $\mathscr{B}(E, F)$ des formes bilinéaires séparément continues sur $E \times F$ ($E$ et $F$ étant munis de leurs topologies initiales), puisque toute forme linéaire continue dans $E$ (resp. $F$) est continue dans $E_\sigma$ (resp. $F_\sigma$) et réciproquement (*Esp. vect. top.*, chap. IV, § 1, no 1 et no 2, prop. 1).
 
-Soit $\mathcal{B}(E, F)$ l’espace des formes bilinéaires continues sur $E \times F$ ($E$ et $F$ étant munis de leurs topologies initiales) ; on a $\mathcal{B}(E, F) \subset \mathcal{B}(E, F)$.
+Soit $\mathscr{B}(E, F)$ l’espace des formes bilinéaires continues sur $E \times F$ ($E$ et $F$ étant munis de leurs topologies initiales) ; on a $\mathscr{B}(E, F) \subset \mathscr{B}(E, F)$.
 
 #### Proposition 1 {#int-vi-a0-prop-1 .statement}
 
-*Pour qu’une forme bilinéaire* $\Phi \in \mathcal{B}(E, F)$ *appartienne à* $\mathcal{B}(E, F)$, *il faut et il suffit qu’il existe un voisinage de* 0 *dans* $E$ *dont l’image par* ${}^t\Phi$ *soit une partie équicontinue de* $F'$.
+*Pour qu’une forme bilinéaire* $\Phi \in \mathscr{B}(E, F)$ *appartienne à* $\mathscr{B}(E, F)$, *il faut et il suffit qu’il existe un voisinage de* 0 *dans* $E$ *dont l’image par* ${}^t\Phi$ *soit une partie équicontinue de* $F'$.
 
 En effet, dire que $\Phi$ est continue signifie qu’il existe un voisinage convexe équilibré $V$ (resp. $W$) de 0 dans $E$ (resp. $F$) tels que $|\Phi(x, y)| \leq 1$ pour $x \in V,\ y \in W$; cela s’écrit $|\langle {}^t\Phi(x), y \rangle| \leq 1$, pour $x \in V$ et $y \in W$, ou encore $l'\Phi(V) \subset W^0$; d'où la proposition, compte tenu du fait que toute partie équicontinue de $F'$ est contenue dans le polaire d'un voisinage de 0 dans $F$.
 

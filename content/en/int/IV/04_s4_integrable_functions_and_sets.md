@@ -57,14 +57,14 @@ subsections:
       pdf_page: 160
 statements: 63
 exercises: 23
-content_sha256: 04515fb1fa953c06cc0b2f25528b8c99e5a79b5ad3a2d7ec3b4743f52081eec4
+content_sha256: 44664051c6330badb1703bb68b0318df95f32abba8294f844ad108f5cee721a2
 ---
 
 ## § 4. INTEGRABLE FUNCTIONS AND SETS
 
 ### 1. Extension of the integral
 
-It follows from the definition of the space $\mathcal{L}_F^p$ that the subspace $\mathcal{K}_F$ of continuous functions with compact support is *dense* in $\mathcal{L}_F^p$ (§ 3, No. 4, Def. 2). Every continuous (for the topology of convergence in mean of order $p$) linear function, defined on $\mathcal{K}_F$ and taking its values in a *complete Hausdorff* topological vector space $G$, can therefore be *extended by continuity* in a unique manner, to a continuous linear function defined on $\mathcal{L}_F^p$ with values in $G$ (GT, II, § 3, No. 6, Th. 2 and III, § 3, No. 1, Prop. 3).
+It follows from the definition of the space $\mathscr{L}_F^p$ that the subspace $\mathscr{K}_F$ of continuous functions with compact support is *dense* in $\mathscr{L}_F^p$ (§ 3, No. 4, Def. 2). Every continuous (for the topology of convergence in mean of order $p$) linear function, defined on $\mathscr{K}_F$ and taking its values in a *complete Hausdorff* topological vector space $G$, can therefore be *extended by continuity* in a unique manner, to a continuous linear function defined on $\mathscr{L}_F^p$ with values in $G$ (GT, II, § 3, No. 6, Th. 2 and III, § 3, No. 1, Prop. 3).
 
 Now, for every continuous function $f$ with compact support, with values in the Banach space $F$, we have defined (in Ch. III, § 3, No. 1) the *integral* $\mu(f) = \int f \, d\mu$ with respect to $\mu$, which is an element of $F$, and we have proved (Ch. III, § 3, No. 2, Prop. 6) the inequality
 
@@ -72,33 +72,33 @@ $$
 \left| \int f \, d\mu \right| \leqslant \int |f| \, d|\mu| = N_1(f).
 $$
 
-This inequality proves that the linear mapping $f \mapsto \int f \, d\mu$ of $\mathcal{K}_F$ into $F$ is continuous for the topology of convergence in mean in $\mathcal{K}_F$. It can therefore be extended by continuity to the entire space $\mathcal{L}_F^1$, and we may make the following definition:
+This inequality proves that the linear mapping $f \mapsto \int f \, d\mu$ of $\mathscr{K}_F$ into $F$ is continuous for the topology of convergence in mean in $\mathscr{K}_F$. It can therefore be extended by continuity to the entire space $\mathscr{L}_F^1$, and we may make the following definition:
 
 #### Definition 1 {#int-iv-s4-def-1 .statement}
 
-*The functions belonging to $\mathcal{L}_F^1(X, \mu)$ are said to be integrable with respect to the measure $\mu$* (or, again, that they are $\mu$-integrable). *The integral (with respect to $\mu$) of the integrable function $f$ is by definition the value at $f$ of the extension by continuity to $\mathcal{L}_F^1$ of the linear mapping $g \mapsto \int g\, d\mu$ of $\mathcal{H}_F$ into $F$; it is again denoted $\mu(f)$ or $\int f\, d\mu$, or $\int f(x)\, d\mu(x)$ or $\int f\mu$, or $\int f(x)\mu(x)$.
+*The functions belonging to $\mathscr{L}_F^1(X, \mu)$ are said to be integrable with respect to the measure $\mu$* (or, again, that they are $\mu$-integrable). *The integral (with respect to $\mu$) of the integrable function $f$ is by definition the value at $f$ of the extension by continuity to $\mathscr{L}_F^1$ of the linear mapping $g \mapsto \int g\, d\mu$ of $\mathscr{H}_F$ into $F$; it is again denoted $\mu(f)$ or $\int f\, d\mu$, or $\int f(x)\, d\mu(x)$ or $\int f\mu$, or $\int f(x)\mu(x)$.
 
 #### Example {#int-iv-s4-n1-exa-1 .statement}
 
-— Let $X$ be a *discrete* space, $\mu$ a measure on $X$, and set $\alpha(x) = \mu(\varphi_{\{x\}})$ for every $x \in X$. The functions in $\mathcal{F}_F^1$ are then *integrable*, in other words $\mathcal{L}_F^1 = \mathcal{F}_F^1$; moreover, for every function $f \in \mathcal{L}_F^1$,
+— Let $X$ be a *discrete* space, $\mu$ a measure on $X$, and set $\alpha(x) = \mu(\varphi_{\{x\}})$ for every $x \in X$. The functions in $\mathscr{F}_F^1$ are then *integrable*, in other words $\mathscr{L}_F^1 = \mathscr{F}_F^1$; moreover, for every function $f \in \mathscr{L}_F^1$,
 
 $$
 \int f\, d\mu = \sum_{x \in X} \alpha(x)f(x).
 $$
 
-For, let $f \in \mathcal{F}_F^1$; we have $|\mu|^*(|f|) = \sum_{x \in X} |\alpha(x)| \cdot |f(x)| < +\infty$ (§ 1, No. 3, *Example*); for every $\varepsilon > 0$, there exists a finite subset $M$ of $X$ such that
+For, let $f \in \mathscr{F}_F^1$; we have $|\mu|^*(|f|) = \sum_{x \in X} |\alpha(x)| \cdot |f(x)| < +\infty$ (§ 1, No. 3, *Example*); for every $\varepsilon > 0$, there exists a finite subset $M$ of $X$ such that
 
 $$
 \sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon.
 $$
 
-The function $g$ equal to $f$ at the points $x \in M$ where $|f|$ is finite, and to 0 elsewhere, belongs to $\mathcal{H}(X; F)$ and, by the conventions that have been made,
+The function $g$ equal to $f$ at the points $x \in M$ where $|f|$ is finite, and to 0 elsewhere, belongs to $\mathscr{H}(X; F)$ and, by the conventions that have been made,
 
 $$
 |\mu|^*(|f - g|) \leq \sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon,
 $$
 
-which proves that $f \in \mathcal{L}_F^1$. On the other hand,
+which proves that $f \in \mathscr{L}_F^1$. On the other hand,
 
 $$
 \left| \mu(g) - \sum_{x \in X} \alpha(x)f(x) \right| \leq \sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon,
@@ -108,7 +108,7 @@ whence the second assertion.
 
 In other words, the $\mu$-integrable functions $f$ are those for which the family $(\alpha(x)f(x))_{x \in X}$ is *absolutely summable* (GT, IX, §3, No. 6), and the integral $\int f\, d\mu$ is the sum of this family.
 
-Since $\mu(f)$ is continuous on $\mathcal{L}_F^1$ by definition, and since it takes its values in a Hausdorff space, we have $\mu(f) = 0$ for every function that belongs to the closure of 0 in $\mathcal{L}_F^1$, that is, is *negligible*; if $f$ and $g$ are two *equivalent* integrable functions, then $\mu(f) = \mu(g)$. In other words, the value of $\mu(f)$ depends only on the class $\tilde{f}$ of the integrable function $f$; it is again denoted $\mu(\tilde{f})$, and the function $\tilde{f} \mapsto \mu(\tilde{f})$ is a continuous linear mapping of $L^1_F$ into $F$. If a function $f$, with values in $F$ and defined almost everywhere in $X$, is equivalent to an integrable function, we again say that $f$ is *integrable* and we write $\int f\, d\mu = \mu(\tilde{f})$; one defines similarly an integrable function with values in $\overline{\mathbf{R}}$, defined and finite almost everywhere, as well as its integral.
+Since $\mu(f)$ is continuous on $\mathscr{L}_F^1$ by definition, and since it takes its values in a Hausdorff space, we have $\mu(f) = 0$ for every function that belongs to the closure of 0 in $\mathscr{L}_F^1$, that is, is *negligible*; if $f$ and $g$ are two *equivalent* integrable functions, then $\mu(f) = \mu(g)$. In other words, the value of $\mu(f)$ depends only on the class $\tilde{f}$ of the integrable function $f$; it is again denoted $\mu(\tilde{f})$, and the function $\tilde{f} \mapsto \mu(\tilde{f})$ is a continuous linear mapping of $L^1_F$ into $F$. If a function $f$, with values in $F$ and defined almost everywhere in $X$, is equivalent to an integrable function, we again say that $f$ is *integrable* and we write $\int f\, d\mu = \mu(\tilde{f})$; one defines similarly an integrable function with values in $\overline{\mathbf{R}}$, defined and finite almost everywhere, as well as its integral.
 
 ### 2. Properties of the integral
 
@@ -120,11 +120,11 @@ $$
 \int f\, d|\mu| = \int^* f\, d|\mu| = N_1(f) \geqslant 0.
 $$
 
-For, $\int f\, d|\mu|$ and $N_1(f)$ are continuous on $\mathcal{L}^1$ and are equal for every continuous function $f \geqslant 0$ with compact support; on the other hand, every function $f \geqslant 0$ in $\mathcal{L}^1$ is the limit (in the sense of convergence in mean) of a sequence of continuous functions $\geqslant 0$ with compact support (§ 3, No. 5, Prop. 11); whence the proposition.
+For, $\int f\, d|\mu|$ and $N_1(f)$ are continuous on $\mathscr{L}^1$ and are equal for every continuous function $f \geqslant 0$ with compact support; on the other hand, every function $f \geqslant 0$ in $\mathscr{L}^1$ is the limit (in the sense of convergence in mean) of a sequence of continuous functions $\geqslant 0$ with compact support (§ 3, No. 5, Prop. 11); whence the proposition.
 
 #### Corollary 1 {#int-iv-s4-prop-1-cor-1 .statement}
 
-*For every integrable function $f \in \mathcal{L}^1_F$, $|f|$ is integrable and*
+*For every integrable function $f \in \mathscr{L}^1_F$, $|f|$ is integrable and*
 
 $$
 \int |f|\, d|\mu| = \int^* |f|\, d|\mu| = N_1(f).
@@ -132,17 +132,17 @@ $$
 
 We shall make frequent use of Prop. 1 and its Cor. 1, on replacing $\int^* f\, d|\mu|$ or $N_1(f)$ by $\int f\, d|\mu|$ when dealing with an integrable function $\geqslant 0$. For example, for two integrable functions $f, g$ to be *equivalent*, it is necessary and sufficient that $\int |f - g|\, d|\mu| = 0$.
 
-We recall that, for a function $f$ to belong to $\mathcal{L}^p_F$, it is necessary and sufficient that the function $|f|^{p-1} \cdot f$ belong to $\mathcal{L}^1_F$ (§ 3, No. 8, Cor. 1 of Th. 7), that is, that it be integrable; this is the reason for the terminology 'p-th power integrable function'. Moreover:
+We recall that, for a function $f$ to belong to $\mathscr{L}^p_F$, it is necessary and sufficient that the function $|f|^{p-1} \cdot f$ belong to $\mathscr{L}^1_F$ (§ 3, No. 8, Cor. 1 of Th. 7), that is, that it be integrable; this is the reason for the terminology 'p-th power integrable function'. Moreover:
 
 #### Corollary 2 {#int-iv-s4-prop-1-cor-2 .statement}
 
-*For every function $f \in \mathcal{L}^p_F$, the numerical function $|f|^p$ is integrable and*
+*For every function $f \in \mathscr{L}^p_F$, the numerical function $|f|^p$ is integrable and*
 
 $$
 N_p(f) = \left( \int |f|^p\, d|\mu| \right)^{1/p}.
 $$
 
-This follows at once from the fact that $|f|$ belongs to $\mathcal{L}^p$ (§ 3, No. 5, Prop. 11) and formula (2).
+This follows at once from the fact that $|f|$ belongs to $\mathscr{L}^p$ (§ 3, No. 5, Prop. 11) and formula (2).
 
 #### Proposition 2 {#int-iv-s4-prop-2 .statement}
 
@@ -152,7 +152,7 @@ $$
 \left| \int f \, d\mu \right| \leq \int |f| \, d|\mu|.
 $$
 
-This follows at once from the inequality (1) by passage to the limit, on taking into account (3) and the continuity of $N_1(f)$ on $\mathcal{L}_F^1$.
+This follows at once from the inequality (1) by passage to the limit, on taking into account (3) and the continuity of $N_1(f)$ on $\mathscr{L}_F^1$.
 
 #### Theorem 1 {#int-iv-s4-thm-1 .statement}
 
@@ -162,7 +162,7 @@ $$
 \int u(f(x)) \, d\mu(x) = u \left( \int f(x) \, d\mu(x) \right).
 $$
 
-We already know that $u \circ f$ is integrable (§ 3, No. 5, Th. 4); the relation (6), being valid for every $f \in \mathcal{H}_F$, extends to every integrable function $f$ by the principle of extension of identities: for, $f \mapsto u \circ f$ is continuous for the topology of convergence in mean, as follows from the inequality $N_1(u \circ f) \leq \|u\| \cdot N_1(f)$.
+We already know that $u \circ f$ is integrable (§ 3, No. 5, Th. 4); the relation (6), being valid for every $f \in \mathscr{H}_F$, extends to every integrable function $f$ by the principle of extension of identities: for, $f \mapsto u \circ f$ is continuous for the topology of convergence in mean, as follows from the inequality $N_1(u \circ f) \leq \|u\| \cdot N_1(f)$.
 
 #### Corollary 1 {#int-iv-s4-thm-1-cor-1 .statement}
 
@@ -186,13 +186,13 @@ $$
 
 #### Proposition 3 {#int-iv-s4-prop-3 .statement}
 
-— Let $\mathcal{B}$ be a filter base on $\mathcal{L}_F^1$. Assume that there exists a compact set $K \subset X$ such that, for every set $M \in \mathcal{B}$, all of the functions $f \in M$ have their support in $K$. Under these conditions, if $\mathcal{B}$ converges uniformly on $X$ to $f_0$, then the function $f_0$ is integrable and
+— Let $\mathscr{B}$ be a filter base on $\mathscr{L}_F^1$. Assume that there exists a compact set $K \subset X$ such that, for every set $M \in \mathscr{B}$, all of the functions $f \in M$ have their support in $K$. Under these conditions, if $\mathscr{B}$ converges uniformly on $X$ to $f_0$, then the function $f_0$ is integrable and
 
 $$
-\int f_0 \, d\mu = \lim_{\mathcal{B}} \int f \, d\mu .
+\int f_0 \, d\mu = \lim_{\mathscr{B}} \int f \, d\mu .
 $$
 
-For, $\mathcal{B}$ converges in mean to $f_0$ (§ 3, No. 3, Prop. 4).
+For, $\mathscr{B}$ converges in mean to $f_0$ (§ 3, No. 3, Prop. 4).
 
 #### Proposition 4 {#int-iv-s4-prop-4 .statement}
 
@@ -286,9 +286,9 @@ we can apply to them what has been proved above; if $g'$ is the upper envelope o
 
 #### Corollary 3 {#int-iv-s4-prop-5-cor-3 .statement}
 
-— Let $f$ be a bounded numerical function, upper semi-continuous on $X$ and with compact support. Then, the mapping $\mu \mapsto \int f\, d\mu$ is upper semi-continuous on $\mathcal{M}_+(X)$ for the vague topology.
+— Let $f$ be a bounded numerical function, upper semi-continuous on $X$ and with compact support. Then, the mapping $\mu \mapsto \int f\, d\mu$ is upper semi-continuous on $\mathscr{M}_+(X)$ for the vague topology.
 
-If $h$ is a function in $\mathcal{K}_+(X)$ such that $|f| \leq h$ (Ch. III, §1, No. 2, Lemma 1) then $0 \leq f + h \leq 2h$, and since $f + h$ is upper semi-continuous, it follows from Cor. 1 that $f$ is $\mu$-integrable for every measure $\mu$ on $X$. Moreover, $\mu(f) = \mu(h) - \mu(h - f)$ and $h - f$ is a lower semi-continuous function $\geq 0$. Since the mapping $\mu \mapsto \mu(h - f)$ is lower semi-continuous on $\mathcal{M}_+(X)$ for the vague topology (§1, No. 1, Prop. 4), this proves the corollary.
+If $h$ is a function in $\mathscr{K}_+(X)$ such that $|f| \leq h$ (Ch. III, §1, No. 2, Lemma 1) then $0 \leq f + h \leq 2h$, and since $f + h$ is upper semi-continuous, it follows from Cor. 1 that $f$ is $\mu$-integrable for every measure $\mu$ on $X$. Moreover, $\mu(f) = \mu(h) - \mu(h - f)$ and $h - f$ is a lower semi-continuous function $\geq 0$. Since the mapping $\mu \mapsto \mu(h - f)$ is lower semi-continuous on $\mathscr{M}_+(X)$ for the vague topology (§1, No. 1, Prop. 4), this proves the corollary.
 
 #### Theorem 3 {#int-iv-s4-thm-3 .statement}
 
@@ -445,9 +445,9 @@ For Lebesgue measure $\mu$ on $\mathbf{R}$, it follows from Prop. 10 that every 
 
 #### Proposition 11 {#int-iv-s4-prop-11 .statement}
 
-— Let $\mathcal{G}$ be a set, directed for the relation $\subset$, of integrable open sets in $X$; for $A = \bigcup_{G \in \mathcal{G}} G$ to be integrable, it is necessary and sufficient that $\sup_{G \in \mathcal{G}} |\mu|(G) < +\infty$, in which case $\mu(A) = \lim_\mathcal{G} \mu(G)$ and $|\mu|(A) = \sup_{G \in \mathcal{G}} |\mu|(G)$.
+— Let $\mathscr{G}$ be a set, directed for the relation $\subset$, of integrable open sets in $X$; for $A = \bigcup_{G \in \mathscr{G}} G$ to be integrable, it is necessary and sufficient that $\sup_{G \in \mathscr{G}} |\mu|(G) < +\infty$, in which case $\mu(A) = \lim_\mathscr{G} \mu(G)$ and $|\mu|(A) = \sup_{G \in \mathscr{G}} |\mu|(G)$.
 
-For, one knows that $|\mu|^*(A) = \sup_{G \in \mathcal{G}} |\mu|(G)$ (\§1, No. 2, Prop. 7); the proposition therefore follows from Prop. 10.
+For, one knows that $|\mu|^*(A) = \sup_{G \in \mathscr{G}} |\mu|(G)$ (\§1, No. 2, Prop. 7); the proposition therefore follows from Prop. 10.
 
 #### Corollary {#int-iv-s4-n6-cor-1 .statement}
 
@@ -506,7 +506,7 @@ It suffices to apply Corollary 2 to an integrable open set containing the given 
 
 — For every open set $U$ in $X$, $|\mu|^*(U)$ is the supremum of the measures $|\mu|(K)$ of the compact sets $K \subset U$.
 
-If $|\mu|^*(U) < +\infty$, this is immediate from Th. 4. The following argument covers also the case that $|\mu|^*(U) = +\infty$. Since $X$ is locally compact and $U$ is open, $\varphi_U$ is the upper envelope of the set $H$ of functions $f \in \mathcal{K}_+$ such that $f \leq \varphi_U$ and $\operatorname{Supp}(f) \subset U$ (cf. the proof of §1, No. 1, Lemma), and, since $H$ is directed for $\leq$, we have $|\mu|^*(U) = \sup_{f \in H} |\mu|(f)$ by §1, No. 1, Th. 1; the corollary is then immediate from the fact that if $f \in H$ and $K = \operatorname{Supp}(f)$, then $f \leq \varphi_K \leq \varphi_U$.
+If $|\mu|^*(U) < +\infty$, this is immediate from Th. 4. The following argument covers also the case that $|\mu|^*(U) = +\infty$. Since $X$ is locally compact and $U$ is open, $\varphi_U$ is the upper envelope of the set $H$ of functions $f \in \mathscr{K}_+$ such that $f \leq \varphi_U$ and $\operatorname{Supp}(f) \subset U$ (cf. the proof of §1, No. 1, Lemma), and, since $H$ is directed for $\leq$, we have $|\mu|^*(U) = \sup_{f \in H} |\mu|(f)$ by §1, No. 1, Th. 1; the corollary is then immediate from the fact that if $f \in H$ and $K = \operatorname{Supp}(f)$, then $f \leq \varphi_K \leq \varphi_U$.
 
 Note that $|\mu|^*(U)$ is also the supremum of the measures $|\mu|(G)$ of the relatively compact open sets such that $\overline{G} \subset U$. For, if $K$ is a compact set contained in $U$ then, for every $x \in K$, there exists a relatively compact open neighborhood $V$ of $x$ such that $\overline{V} \subset U$. On covering $K$ by a finite number of these neighborhoods, their union $G$ is a relatively compact open set such that $\overline{G} \subset U$ and $K \subset G$, whence $|\mu|(K) \leq |\mu|(G) \leq |\mu|^*(U)$.
 
@@ -528,12 +528,12 @@ It follows from Th. 4 of No. 6 that if $\mu$ is a bounded measure then, for ever
 
 #### Proposition 13 {#int-iv-s4-prop-13 .statement}
 
-— Let $\mu$ be a bounded measure on $X$. Let $\mathcal{B}$ be a filter base on $\mathcal{L}_F^p$ having the following properties:
-$1^\circ$ there exists a set $M \in \mathcal{B}$ such that the functions $f \in M$ are uniformly bounded on $X$;
-$2^\circ$ $\mathcal{B}$ converges uniformly on every compact subset of $X$ to a function $f_0$.
-Under these conditions, $f_0$ belongs to $\mathcal{L}_F^p$ and $\mathcal{B}$ converges in mean of order $p$ to $f_0$.
+— Let $\mu$ be a bounded measure on $X$. Let $\mathscr{B}$ be a filter base on $\mathscr{L}_F^p$ having the following properties:
+$1^\circ$ there exists a set $M \in \mathscr{B}$ such that the functions $f \in M$ are uniformly bounded on $X$;
+$2^\circ$ $\mathscr{B}$ converges uniformly on every compact subset of $X$ to a function $f_0$.
+Under these conditions, $f_0$ belongs to $\mathscr{L}_F^p$ and $\mathscr{B}$ converges in mean of order $p$ to $f_0$.
 
-We note first of all that if $|f(x)| \leq a$ for every $x \in X$ and every function $f \in M$, then also $|f_0(x)| \leq a$ for every $x \in X$. This being so, for every $\varepsilon > 0$ there exist a compact set $K$ such that $|\mu|(CK) \leq \varepsilon^p$ and a set $N \in \mathcal{B}$ such that, for every function $f \in N$, $|f(x) - f_0(x)| \leq \varepsilon(|\mu|(K))^{-1/p}$ for all $x \in K$. Now, we may write
+We note first of all that if $|f(x)| \leq a$ for every $x \in X$ and every function $f \in M$, then also $|f_0(x)| \leq a$ for every $x \in X$. This being so, for every $\varepsilon > 0$ there exist a compact set $K$ such that $|\mu|(CK) \leq \varepsilon^p$ and a set $N \in \mathscr{B}$ such that, for every function $f \in N$, $|f(x) - f_0(x)| \leq \varepsilon(|\mu|(K))^{-1/p}$ for all $x \in K$. Now, we may write
 
 $$
 f - f_0 = (f - f_0)\varphi_K + (f - f_0)\varphi_{CK};
@@ -543,15 +543,15 @@ it follows from the foregoing that if $f \in M \cap N$ then $N_p((f - f_0)\varph
 
 #### Corollary {#int-iv-s4-n7-cor-1 .statement}
 
-— For a bounded measure $\mu$ on $X$, every bounded continuous mapping $f$ of $X$ into $F$ belongs to each of the $\mathcal{L}_F^p$ ($1 \leq p < +\infty$).
+— For a bounded measure $\mu$ on $X$, every bounded continuous mapping $f$ of $X$ into $F$ belongs to each of the $\mathscr{L}_F^p$ ($1 \leq p < +\infty$).
 
-For every compact subset $K$ of $X$, let $M_K$ be the set of mappings of $X$ into $F$ of the form $hf$, where $h$ is a continuous mapping of $X$ into $[0, 1]$ equal to 1 on $K$ and with compact support. It is clear that the sets $M_K$ form a filter base $\mathcal{B}$ on $\mathcal{L}_F^p$, that the functions belonging to $M_K$ are uniformly bounded, and that $\mathcal{B}$ converges uniformly to $f$ on every compact subset of $X$, whence the corollary.
+For every compact subset $K$ of $X$, let $M_K$ be the set of mappings of $X$ into $F$ of the form $hf$, where $h$ is a continuous mapping of $X$ into $[0, 1]$ equal to 1 on $K$ and with compact support. It is clear that the sets $M_K$ form a filter base $\mathscr{B}$ on $\mathscr{L}_F^p$, that the functions belonging to $M_K$ are uniformly bounded, and that $\mathscr{B}$ converges uniformly to $f$ on every compact subset of $X$, whence the corollary.
 
-In particular, the function $f$ is integrable and its integral $\int f\, d\mu$ is the limit with respect to $\mathcal{B}$ of the integrals $\int h f\, d\mu$.
+In particular, the function $f$ is integrable and its integral $\int f\, d\mu$ is the limit with respect to $\mathscr{B}$ of the integrals $\int h f\, d\mu$.
 
 We will obtain anew the Cor. of Prop. 13 as a consequence of a general criterion for integrability in §5, No. 6.
 
-In the notations of Ch. III, §1, No. 2, $|f| \leq \|f\| \cdot 1$ for every function $f \in \mathcal{C}^b(X; F)$, whence, by the formulas (3) and (4) of No. 2,
+In the notations of Ch. III, §1, No. 2, $|f| \leq \|f\| \cdot 1$ for every function $f \in \mathscr{C}^b(X; F)$, whence, by the formulas (3) and (4) of No. 2,
 
 $$
 N_p(f) \leq \|f\| \cdot N_p(1) = \|f\| \cdot \|\mu\|^{1/p}.
@@ -563,7 +563,7 @@ $$
 \left| \int f\, d\mu \right| \leq \|f\| \cdot \|\mu\|,
 $$
 
-consequently the mapping $f \mapsto \int f\, d\mu$ is continuous on the Banach space $\mathcal{C}^b(X; F)$; its restriction to the closure $\mathcal{C}^0(X; F)$ of $\mathcal{K}(X; F)$ in $\mathcal{C}^b(X; F)$, that is, to the space of continuous functions tending to 0 at the point at infinity (Ch. III, §1, No. 2, Prop. 3), is therefore the extension by continuity of the integral to $\mathcal{C}^0(X; F)$.
+consequently the mapping $f \mapsto \int f\, d\mu$ is continuous on the Banach space $\mathscr{C}^b(X; F)$; its restriction to the closure $\mathscr{C}^0(X; F)$ of $\mathscr{K}(X; F)$ in $\mathscr{C}^b(X; F)$, that is, to the space of continuous functions tending to 0 at the point at infinity (Ch. III, §1, No. 2, Prop. 3), is therefore the extension by continuity of the integral to $\mathscr{C}^0(X; F)$.
 
 ### 8. Integration with respect to a measure with compact support
 
@@ -579,17 +579,17 @@ $$
 \left| \int f\, d\mu \right| \leq \|\mu\| \cdot \sup_{x \in S} |f(x)|.
 $$
 
-In particular, if $f$ is continuous on $X$ then $f$ is $\mu$-integrable, since $fh \in \mathcal{K}(X; F)$ for every function $h \in \mathcal{K}(X; \mathbf{R})$ equal to 1 on $S$ (Ch. III, §1, No. 2, Lemma 1). More precisely:
+In particular, if $f$ is continuous on $X$ then $f$ is $\mu$-integrable, since $fh \in \mathscr{K}(X; F)$ for every function $h \in \mathscr{K}(X; \mathbf{R})$ equal to 1 on $S$ (Ch. III, §1, No. 2, Lemma 1). More precisely:
 
 #### Proposition 14 {#int-iv-s4-prop-14 .statement}
 
-— Let X be a locally compact space, F a Banach space not reduced to 0; equip the space $\mathcal{C}(X; F)$ of all continuous mappings of X into F with the topology of compact convergence. For a measure $\mu$ on X to be such that the linear mapping $f \mapsto \int f d\mu$ of $\mathcal{K}(X; F)$ into F is extendible to a continuous linear mapping of $\mathcal{C}(X; F)$ into F, it is necessary and sufficient that $\operatorname{Supp}(\mu)$ be compact; such an extension is unique and coincides with the integral defined in No. 1.
+— Let X be a locally compact space, F a Banach space not reduced to 0; equip the space $\mathscr{C}(X; F)$ of all continuous mappings of X into F with the topology of compact convergence. For a measure $\mu$ on X to be such that the linear mapping $f \mapsto \int f d\mu$ of $\mathscr{K}(X; F)$ into F is extendible to a continuous linear mapping of $\mathscr{C}(X; F)$ into F, it is necessary and sufficient that $\operatorname{Supp}(\mu)$ be compact; such an extension is unique and coincides with the integral defined in No. 1.
 
-We have just seen that if $\mu$ has compact support, then the integral $\int f d\mu$ is defined for every function $f \in \mathcal{C}(X; F)$ and that the mapping $f \mapsto \int f d\mu$ of $\mathcal{C}(X; F)$ into F is continuous for the topology of compact convergence. Conversely, suppose that $f \mapsto \int f d\mu$ is continuous in $\mathcal{K}(X; F)$ for the topology of compact convergence. Then, there is a compact set $K \subset X$ and a number $a > 0$ such that $|\mu(f)| \leq a \cdot \sup_{x \in K} |f(x)|$ for every function $f \in \mathcal{K}(X; F)$; in particular, if the support of $g \in \mathcal{K}(X; F)$ does not intersect K, then $\mu(g) = 0$. Taking $g = h a$, where $a \neq 0$ is a vector in F and $h \in \mathcal{K}(X; \mathbf{C})$, we see that $\mu(h) = 0$ for every function $h \in \mathcal{K}(X; \mathbf{C})$ whose support does not intersect K, which proves that $\operatorname{Supp}(\mu) \subset K$. Finally, the uniqueness of the extension follows from the fact that $\mathcal{K}(X; F)$ is dense in $\mathcal{C}(X; F)$ for the topology of compact convergence (Ch. III, §1, No. 2, Prop. 4).
+We have just seen that if $\mu$ has compact support, then the integral $\int f d\mu$ is defined for every function $f \in \mathscr{C}(X; F)$ and that the mapping $f \mapsto \int f d\mu$ of $\mathscr{C}(X; F)$ into F is continuous for the topology of compact convergence. Conversely, suppose that $f \mapsto \int f d\mu$ is continuous in $\mathscr{K}(X; F)$ for the topology of compact convergence. Then, there is a compact set $K \subset X$ and a number $a > 0$ such that $|\mu(f)| \leq a \cdot \sup_{x \in K} |f(x)|$ for every function $f \in \mathscr{K}(X; F)$; in particular, if the support of $g \in \mathscr{K}(X; F)$ does not intersect K, then $\mu(g) = 0$. Taking $g = h a$, where $a \neq 0$ is a vector in F and $h \in \mathscr{K}(X; \mathbf{C})$, we see that $\mu(h) = 0$ for every function $h \in \mathscr{K}(X; \mathbf{C})$ whose support does not intersect K, which proves that $\operatorname{Supp}(\mu) \subset K$. Finally, the uniqueness of the extension follows from the fact that $\mathscr{K}(X; F)$ is dense in $\mathscr{C}(X; F)$ for the topology of compact convergence (Ch. III, §1, No. 2, Prop. 4).
 
-Prop. 14 permits identifying a measure on X with compact support with its continuous extension to $\mathcal{C}(X; \mathbf{C})$. The set of measures on X with compact support may therefore be identified with the dual $\mathcal{C}'(X; \mathbf{C})$ of the Hausdorff locally convex space $\mathcal{C}(X; \mathbf{C})$. Recall that $\mathcal{C}(X; \mathbf{C})$ is complete (GT, X, §1, No. 6, Cor. 3 of Th. 2), but it is not necessarily barreled (Exer. 17). However, if X is countable at infinity, hence is the union of an increasing sequence of compact sets $K_n$ such that $K_n \subset \overset{\circ}{K}_{n+1}$, then the topology of $\mathcal{C}(X; \mathbf{C})$ can be defined by the countable family of semi-norms $p_n(f) = \sup_{x \in K_n} |f(x)|$, therefore $\mathcal{C}(X; \mathbf{C})$ is a Fréchet space in this case. Consequently, for every covering $\mathcal{G}$ of $\mathcal{C}(X; \mathbf{C})$ by bounded sets, the space $\mathcal{C}'(X; \mathbf{C})$ is then quasi-complete for the $\mathcal{G}$-topology (TVS, III, §4, No. 2, Cor. 4 of Th. 1).
+Prop. 14 permits identifying a measure on X with compact support with its continuous extension to $\mathscr{C}(X; \mathbf{C})$. The set of measures on X with compact support may therefore be identified with the dual $\mathscr{C}'(X; \mathbf{C})$ of the Hausdorff locally convex space $\mathscr{C}(X; \mathbf{C})$. Recall that $\mathscr{C}(X; \mathbf{C})$ is complete (GT, X, §1, No. 6, Cor. 3 of Th. 2), but it is not necessarily barreled (Exer. 17). However, if X is countable at infinity, hence is the union of an increasing sequence of compact sets $K_n$ such that $K_n \subset \overset{\circ}{K}_{n+1}$, then the topology of $\mathscr{C}(X; \mathbf{C})$ can be defined by the countable family of semi-norms $p_n(f) = \sup_{x \in K_n} |f(x)|$, therefore $\mathscr{C}(X; \mathbf{C})$ is a Fréchet space in this case. Consequently, for every covering $\mathscr{G}$ of $\mathscr{C}(X; \mathbf{C})$ by bounded sets, the space $\mathscr{C}'(X; \mathbf{C})$ is then quasi-complete for the $\mathscr{G}$-topology (TVS, III, §4, No. 2, Cor. 4 of Th. 1).
 
-We shall consider above all on $\mathcal{C}'(X; \mathbf{C})$ the topology of compact convergence (the topology of uniform convergence on the compact subsets of $\mathcal{C}(X; \mathbf{C})$). Recall that the relatively compact subsets H of $\mathcal{C}(X; \mathbf{C})$ are characterized by the following properties (GT, X, §2, No. 5, Cor. 3 of Th. 2):
+We shall consider above all on $\mathscr{C}'(X; \mathbf{C})$ the topology of compact convergence (the topology of uniform convergence on the compact subsets of $\mathscr{C}(X; \mathbf{C})$). Recall that the relatively compact subsets H of $\mathscr{C}(X; \mathbf{C})$ are characterized by the following properties (GT, X, §2, No. 5, Cor. 3 of Th. 2):
 
 $1^\circ$ H is equicontinuous;
 
@@ -597,41 +597,41 @@ $2^\circ$ for every $x \in X$, the set $H(x)$ of the $f(x)$, where $f$ runs over
 
 #### Proposition 15 {#int-iv-s4-prop-15 .statement}
 
-— Let X be a locally compact space and, for every $x \in X$, let $\varepsilon_x$ be the Dirac measure at the point x. The mapping $x \mapsto \varepsilon_x$ of X into $\mathcal{C}'(X; \mathbf{C})$ is continuous for the topology of compact convergence on $\mathcal{C}'(X; \mathbf{C})$.
+— Let X be a locally compact space and, for every $x \in X$, let $\varepsilon_x$ be the Dirac measure at the point x. The mapping $x \mapsto \varepsilon_x$ of X into $\mathscr{C}'(X; \mathbf{C})$ is continuous for the topology of compact convergence on $\mathscr{C}'(X; \mathbf{C})$.
 
-Consider a neighborhood of $\varepsilon_{x_0}$ in $\mathcal{C}'(X; \mathbf{C})$ for this topology, which we can suppose to be defined by taking a number $\delta > 0$, a compact subset H of $\mathcal{C}(X; \mathbf{C})$, and considering the set of measures $\mu$ on X with compact support such that $|\mu(f) - \varepsilon_{x_0}(f)| \leq \delta$ for every function $f \in H$. Since H is equicontinuous, there exists a neighborhood U of $x_0$ in X such that the relation $f \in H$ implies $|f(x) - f(x_0)| \leq \delta$ for all $x \in U$, which may also be written $|\varepsilon_x(f) - \varepsilon_{x_0}(f)| \leq \delta$ and proves the proposition.(*)
+Consider a neighborhood of $\varepsilon_{x_0}$ in $\mathscr{C}'(X; \mathbf{C})$ for this topology, which we can suppose to be defined by taking a number $\delta > 0$, a compact subset H of $\mathscr{C}(X; \mathbf{C})$, and considering the set of measures $\mu$ on X with compact support such that $|\mu(f) - \varepsilon_{x_0}(f)| \leq \delta$ for every function $f \in H$. Since H is equicontinuous, there exists a neighborhood U of $x_0$ in X such that the relation $f \in H$ implies $|f(x) - f(x_0)| \leq \delta$ for all $x \in U$, which may also be written $|\varepsilon_x(f) - \varepsilon_{x_0}(f)| \leq \delta$ and proves the proposition.(*)
 
 #### Proposition 16 {#int-iv-s4-prop-16 .statement}
 
-— Let K be a compact subset of X, L the vector space of measures $\mu$ on X with support contained in K. On L, the topologies induced by the topology $\mathcal{T}$ of compact convergence on $\mathcal{C}'(X; \mathbf{C})$ and the topology $\mathcal{T}'$ of strictly compact convergence on $\mathcal{M}(X; \mathbf{C})$ (Ch. III, §1, No. 10) coincide.
+— Let K be a compact subset of X, L the vector space of measures $\mu$ on X with support contained in K. On L, the topologies induced by the topology $\mathscr{T}$ of compact convergence on $\mathscr{C}'(X; \mathbf{C})$ and the topology $\mathscr{T}'$ of strictly compact convergence on $\mathscr{M}(X; \mathbf{C})$ (Ch. III, §1, No. 10) coincide.
 
-It is clear that on L, the topology induced by $\mathcal{T}$ is finer than the topology induced by $\mathcal{T}'$. Conversely, let H be a compact subset of $\mathcal{C}(X; \mathbf{C})$, h a function in $\mathcal{K}(X; \mathbf{C})$ equal to 1 on K. It is clear that the set H' of functions $fh$, where $f$ runs over H, is strictly compact in $\mathcal{K}(X; \mathbf{C})$, and, for every measure $\mu \in L$, $\mu(f) = \mu(fh)$ for every function $f \in H$, whence the conclusion.
+It is clear that on L, the topology induced by $\mathscr{T}$ is finer than the topology induced by $\mathscr{T}'$. Conversely, let H be a compact subset of $\mathscr{C}(X; \mathbf{C})$, h a function in $\mathscr{K}(X; \mathbf{C})$ equal to 1 on K. It is clear that the set H' of functions $fh$, where $f$ runs over H, is strictly compact in $\mathscr{K}(X; \mathbf{C})$, and, for every measure $\mu \in L$, $\mu(f) = \mu(fh)$ for every function $f \in H$, whence the conclusion.
 
 #### Corollary 1 {#int-iv-s4-prop-16-cor-1 .statement}
 
-— For every compact subset K of X and every number $a > 0$, the set B of measures $\mu$ on X such that $\operatorname{Supp}(\mu) \subset K$ and $\| \mu \| \leq a$ is an equicontinuous subset of $\mathcal{C}'(X; \mathbf{C})$ that is compact for the topology $\mathcal{T}$ of compact convergence.
+— For every compact subset K of X and every number $a > 0$, the set B of measures $\mu$ on X such that $\operatorname{Supp}(\mu) \subset K$ and $\| \mu \| \leq a$ is an equicontinuous subset of $\mathscr{C}'(X; \mathbf{C})$ that is compact for the topology $\mathscr{T}$ of compact convergence.
 
-For, let H be a subset of $\mathcal{C}(X; \mathbf{C})$ consisting of functions that are uniformly bounded on K; there exists a number $c > 0$ such that $|\mu(f)| \leq c \cdot \| \mu \| \leq ac$ for every function $f \in H$ and every measure $\mu \in B$, by virtue of (22); therefore $B \subset acH^\circ$ in the dual $\mathcal{C}'(X; \mathbf{C})$ of $\mathcal{C}(X; \mathbf{C})$, which proves the equicontinuity of B; the fact that B is compact for $\mathcal{T}$ follows from the fact that, on B, $\mathcal{T}$ and the vague topology induce the same topology (Prop. 16 and Ch. III, §1, No. 10, Prop. 17) and the fact that B is vaguely compact (Ch. III, §1, No. 9, Cor. 2 of Prop. 15 and §2, No. 2, Prop. 6).
+For, let H be a subset of $\mathscr{C}(X; \mathbf{C})$ consisting of functions that are uniformly bounded on K; there exists a number $c > 0$ such that $|\mu(f)| \leq c \cdot \| \mu \| \leq ac$ for every function $f \in H$ and every measure $\mu \in B$, by virtue of (22); therefore $B \subset acH^\circ$ in the dual $\mathscr{C}'(X; \mathbf{C})$ of $\mathscr{C}(X; \mathbf{C})$, which proves the equicontinuity of B; the fact that B is compact for $\mathscr{T}$ follows from the fact that, on B, $\mathscr{T}$ and the vague topology induce the same topology (Prop. 16 and Ch. III, §1, No. 10, Prop. 17) and the fact that B is vaguely compact (Ch. III, §1, No. 9, Cor. 2 of Prop. 15 and §2, No. 2, Prop. 6).
 
 #### Corollary 2 {#int-iv-s4-prop-16-cor-2 .statement}
 
-— Every measure with compact support (resp. every positive measure with compact support) $\mu$ is in the closure in $\mathcal{C}'(X; \mathbf{C})$, for the topology $\mathcal{T}$ of compact convergence, of the set of measures (resp.
+— Every measure with compact support (resp. every positive measure with compact support) $\mu$ is in the closure in $\mathscr{C}'(X; \mathbf{C})$, for the topology $\mathscr{T}$ of compact convergence, of the set of measures (resp.
 
-(*) In fact, the mapping $x \mapsto \varepsilon_x$ is a homeomorphism of X into $\mathcal{C}'(X; \mathbf{C})$ (Ch. VI, §1, No. 6, Remark 1).
+(*) In fact, the mapping $x \mapsto \varepsilon_x$ is a homeomorphism of X into $\mathscr{C}'(X; \mathbf{C})$ (Ch. VI, §1, No. 6, Remark 1).
 
 positive measures) whose support is finite and contained in Supp(\mu) and whose norm is equal to $\| \mu \|$.
 
-For, on the set B of measures $\nu$ such that $\mathrm{Supp}(\nu) \subset \mathrm{Supp}(\mu)$ and $\| \nu \| \leq \| \mu \|$, the topology induced by the vague topology is identical to the topology induced by $\mathcal{T}$, and the corollary therefore follows from Ch. III, §2, No. 4, Cors. 2 and 3 of Th. 1.
+For, on the set B of measures $\nu$ such that $\mathrm{Supp}(\nu) \subset \mathrm{Supp}(\mu)$ and $\| \nu \| \leq \| \mu \|$, the topology induced by the vague topology is identical to the topology induced by $\mathscr{T}$, and the corollary therefore follows from Ch. III, §2, No. 4, Cors. 2 and 3 of Th. 1.
 
 ### 9. Clans and additive set functions
 
 #### Definition 3 {#int-iv-s4-def-3 .statement}
 
-*A nonempty set $\Phi$ of subsets of a set $A$ is said to be a clan if there exists an algebra $\mathcal{A}$ (over $\mathbf{R}$) consisting of real-valued functions defined on $A$, such that the relations $M \in \Phi$ and $\varphi_M \in \mathcal{A}$ are equivalent.*
+*A nonempty set $\Phi$ of subsets of a set $A$ is said to be a clan if there exists an algebra $\mathscr{A}$ (over $\mathbf{R}$) consisting of real-valued functions defined on $A$, such that the relations $M \in \Phi$ and $\varphi_M \in \mathscr{A}$ are equivalent.*
 
 #### Example {#int-iv-s4-n9-exa-1 .statement}
 
-If $\mu$ is a measure on a locally compact space $X$ then the linear combinations, with real coefficients, of the characteristic functions of integrable sets form an *algebra* $\mathcal{A}$, because, for any two integrable sets $M, N$, the function $\varphi_M \varphi_N = \varphi_{M \cap N}$ is integrable (No. 5, Prop. 7); it then follows from Defs. 2 and 3 that the set of integrable subsets of $X$ is a clan.
+If $\mu$ is a measure on a locally compact space $X$ then the linear combinations, with real coefficients, of the characteristic functions of integrable sets form an *algebra* $\mathscr{A}$, because, for any two integrable sets $M, N$, the function $\varphi_M \varphi_N = \varphi_{M \cap N}$ is integrable (No. 5, Prop. 7); it then follows from Defs. 2 and 3 that the set of integrable subsets of $X$ is a clan.
 
 #### Proposition 17 {#int-iv-s4-prop-17 .statement}
 
@@ -645,7 +645,7 @@ $$
 \varphi_{M \cup N} = \varphi_M + \varphi_N - \varphi_M \varphi_N , \quad \varphi_{M \cap \mathbf{C}N} = \varphi_M - \varphi_M \varphi_N .
 $$
 
-To show that it is *sufficient*, we first observe that it implies that, for any two sets $M, N$ in $\Phi$, $M \cap N$ belongs to $\Phi$ since $M \cap N = M \cap \mathbf{C}(M \cap \mathbf{C}N)$. Let $\mathcal{E}(\Phi)$ be the set of linear combinations, with real coefficients, of the characteristic functions of the sets of $\Phi$. Since $\varphi_M \varphi_N = \varphi_{M \cap N}$, $\mathcal{E}(\Phi)$ is an algebra. Everything comes down to showing that if $M$ is a subset of $A$ such that $\varphi_M = \sum_i c_i \varphi_{M_i}$, where the $M_i$ belong to $\Phi$, then $M \in \Phi$. This will result from the following lemma:
+To show that it is *sufficient*, we first observe that it implies that, for any two sets $M, N$ in $\Phi$, $M \cap N$ belongs to $\Phi$ since $M \cap N = M \cap \mathbf{C}(M \cap \mathbf{C}N)$. Let $\mathscr{E}(\Phi)$ be the set of linear combinations, with real coefficients, of the characteristic functions of the sets of $\Phi$. Since $\varphi_M \varphi_N = \varphi_{M \cap N}$, $\mathscr{E}(\Phi)$ is an algebra. Everything comes down to showing that if $M$ is a subset of $A$ such that $\varphi_M = \sum_i c_i \varphi_{M_i}$, where the $M_i$ belong to $\Phi$, then $M \in \Phi$. This will result from the following lemma:
 
 #### Lemma {#int-iv-s4-n9-lem-1 .statement}
 
@@ -665,15 +665,15 @@ Every clan $\Phi$ of subsets of $A$ contains the empty subset $\varnothing$ of $
 
 *Given a clan $\Phi$ of subsets of a set $A$, and a Banach space $F$, one calls step function*² *over the sets of $\Phi$ (or $\Phi$-step function), with values in $F$, every function of the form* $\sum_i a_i \varphi_{M_i}$, *where the $a_i$ belong to $F$, and the $M_i$ to $\Phi$.*
 
-It is clear that the set $\mathcal{E}_F(\Phi)$ of $\Phi$-step functions with values in $F$ is a vector space over $\mathbf{R}$ or $\mathbf{C}$. We have just seen in Prop. 17 that the set $\mathcal{E}(\Phi)$ of real-valued $\Phi$-step functions is an *algebra* over $\mathbf{R}$; it is also the linear subspace of $\mathbf{R}^A$ generated by the characteristic functions of the sets of $\Phi$.
+It is clear that the set $\mathscr{E}_F(\Phi)$ of $\Phi$-step functions with values in $F$ is a vector space over $\mathbf{R}$ or $\mathbf{C}$. We have just seen in Prop. 17 that the set $\mathscr{E}(\Phi)$ of real-valued $\Phi$-step functions is an *algebra* over $\mathbf{R}$; it is also the linear subspace of $\mathbf{R}^A$ generated by the characteristic functions of the sets of $\Phi$.
 
-By the Lemma, every function in $\mathcal{E}_F(\Phi)$ may be written $f = \sum_j c_j \varphi_{N_j}$, where the $N_j \in \Phi$ are pairwise disjoint; from this it follows that $|f| = \sum_j |c_j| \varphi_{N_j}$ belongs to $\mathcal{E}(\Phi)$. In particular, $\mathcal{E}(\Phi)$ is a *Riesz space*, since the upper envelope of two functions in $\mathcal{E}(\Phi)$ belongs to $\mathcal{E}(\Phi)$.
+By the Lemma, every function in $\mathscr{E}_F(\Phi)$ may be written $f = \sum_j c_j \varphi_{N_j}$, where the $N_j \in \Phi$ are pairwise disjoint; from this it follows that $|f| = \sum_j |c_j| \varphi_{N_j}$ belongs to $\mathscr{E}(\Phi)$. In particular, $\mathscr{E}(\Phi)$ is a *Riesz space*, since the upper envelope of two functions in $\mathscr{E}(\Phi)$ belongs to $\mathscr{E}(\Phi)$.
 
 #### Remark {#int-iv-s4-n9-rem-1 .statement}
 
 — It is easily seen that Def. 4 is equivalent to the following: a $\Phi$-step function with values in $F$ is a function $f$ that takes on only a finite number of values and which is such that, for every $a \neq 0$ in $F$, the set $f(a)^{-1}$ belongs to $\Phi$.
 
-² Fonction étagée, whence the notation $\mathcal{E}(\Phi)$ in what follows.
+² Fonction étagée, whence the notation $\mathscr{E}(\Phi)$ in what follows.
 
 #### Definition 5 {#int-iv-s4-def-5 .statement}
 
@@ -683,9 +683,9 @@ It follows in particular from this definition that $\lambda(\varnothing) = 0$.
 
 #### Proposition 18 {#int-iv-s4-prop-18 .statement}
 
-— *Let* $\lambda$ *be an additive set function defined on a clan* $\Phi$. *There exists one and only one linear form* (again denoted $\lambda$) *on the vector space* $\mathcal{E}(\Phi)$ *of real-valued* $\Phi$*-step functions*, *such that* $\lambda(\varphi_M) = \lambda(M)$ *for every set* $M \in \Phi$; *if, moreover,* $\lambda(M) \geqslant 0$ *for every* $M \in \Phi$, *then* $\lambda$ *is a positive linear form on* $\mathcal{E}(\Phi)$.
+— *Let* $\lambda$ *be an additive set function defined on a clan* $\Phi$. *There exists one and only one linear form* (again denoted $\lambda$) *on the vector space* $\mathscr{E}(\Phi)$ *of real-valued* $\Phi$*-step functions*, *such that* $\lambda(\varphi_M) = \lambda(M)$ *for every set* $M \in \Phi$; *if, moreover,* $\lambda(M) \geqslant 0$ *for every* $M \in \Phi$, *then* $\lambda$ *is a positive linear form on* $\mathscr{E}(\Phi)$.
 
-The *uniqueness* of the linear form $\lambda$ is clear, since the characteristic functions of the sets in $\Phi$ generate the vector space $\mathcal{E}(\Phi)$. To prove the *existence* of $\lambda$, it suffices to prove that the relation $\sum_i c_i \varphi_{M_i} = 0$, where the $M_i$ are nonempty sets belonging to $\Phi$, implies $\sum_i c_i \lambda(M_i) = 0$.
+The *uniqueness* of the linear form $\lambda$ is clear, since the characteristic functions of the sets in $\Phi$ generate the vector space $\mathscr{E}(\Phi)$. To prove the *existence* of $\lambda$, it suffices to prove that the relation $\sum_i c_i \varphi_{M_i} = 0$, where the $M_i$ are nonempty sets belonging to $\Phi$, implies $\sum_i c_i \lambda(M_i) = 0$.
 
 Now, by the Lemma there exists a finite family $(N_j)$ of pairwise disjoint nonempty sets in $\Phi$ such that, for every index $i$, $\varphi_{M_i} = \sum_j a_{ij} \varphi_{N_j}$ with $a_{ij} = 0$ or $a_{ij} = 1$. The relation $\sum_i c_i \varphi_{M_i} = 0$, which may be written $\sum_j \left( \sum_i c_i a_{ij} \right) \varphi_{N_j} = 0$, therefore implies that $\sum_i c_i a_{ij} = 0$ for every index $j$. By Def. 5, we then have
 
@@ -693,33 +693,33 @@ $$
 \sum_i c_i \lambda(M_i) = \sum_j \left( \sum_i c_i a_{ij} \right) \lambda(N_j) = 0,
 $$
 
-which proves the existence of $\lambda$. Finally, suppose that $\lambda(M) \geqslant 0$ for every $M \in \Phi$; for every function $f \in \mathcal{E}(\Phi)$, one can write $f = \sum_i c_i \varphi_{M_i}$, where the $M_i \in \Phi$ are pairwise disjoint; if $f \geqslant 0$, it follows that $c_i \geqslant 0$ for every index $i$ such that $M_i$ is nonempty, whence $\lambda(f) = \sum_i c_i \lambda(M_i) \geqslant 0$.
+which proves the existence of $\lambda$. Finally, suppose that $\lambda(M) \geqslant 0$ for every $M \in \Phi$; for every function $f \in \mathscr{E}(\Phi)$, one can write $f = \sum_i c_i \varphi_{M_i}$, where the $M_i \in \Phi$ are pairwise disjoint; if $f \geqslant 0$, it follows that $c_i \geqslant 0$ for every index $i$ such that $M_i$ is nonempty, whence $\lambda(f) = \sum_i c_i \lambda(M_i) \geqslant 0$.
 
 ### 10. Approximation of continuous functions by step functions
 
 #### Proposition 19 {#int-iv-s4-prop-19 .statement}
 
-— *Let* $X$ *be a locally compact space,* $\Phi$ *a clan of subsets of* $X$, *containing the set of compact subsets of* $X$. *For every continuous mapping* $f$ *of* $X$ *into a Banach space* $F$ *(resp. every continuous, real-valued function* $f \geqslant 0$ *on* $X$) *with compact support* $K$, *there exists a sequence* $(g_n)$ *of functions in* $\mathcal{E}_F(\Phi)$ *with support contained in* $K$ *(resp. a sequence* $(g_n)$ *of functions in* $\mathcal{E}(\Phi)$ *such that* $0 \leqslant g_n \leqslant f$ *for every* $n$) *that converges uniformly to* $f$ *(resp. $f$).
+— *Let* $X$ *be a locally compact space,* $\Phi$ *a clan of subsets of* $X$, *containing the set of compact subsets of* $X$. *For every continuous mapping* $f$ *of* $X$ *into a Banach space* $F$ *(resp. every continuous, real-valued function* $f \geqslant 0$ *on* $X$) *with compact support* $K$, *there exists a sequence* $(g_n)$ *of functions in* $\mathscr{E}_F(\Phi)$ *with support contained in* $K$ *(resp. a sequence* $(g_n)$ *of functions in* $\mathscr{E}(\Phi)$ *such that* $0 \leqslant g_n \leqslant f$ *for every* $n$) *that converges uniformly to* $f$ *(resp. $f$).
 
 Since $f$ is uniformly continuous on $K$, one can cover $K$ by a finite number of compact sets $M_i$ ($1 \leq i \leq m$) such that the oscillation of $f$ on each $M_i$ is $\leq 1/n$. Since the $M_i$ and $K$ belong to $\Phi$, there exists a partition of $K$ into sets $N_j \in \Phi$ such that each of the sets $M_i \cap K$ is the union of a certain number of the $N_j$ (No. 9, Lemma). Let $a_j$ be an element of $F$ such that $|f(x) - a_j| \leq 1/n$ on $N_j$. Setting $g_n = \sum_j a_j \varphi_{N_j}$, we have $|f - g_n| \leq 1/n$, whence the proposition in this case. One argues similarly for a continuous real-valued function $f$, on taking $a_j = \inf_{x \in N_j} f(x)$ and $g_n = \sum_j a_j \varphi_{N_j}$.
 
 #### Corollary 1 {#int-iv-s4-prop-19-cor-1 .statement}
 
-*Let $\mu$ be a measure on $X$; the space $\mathcal{E}_F(\Phi)$ is dense in each of the spaces $\mathcal{L}_F^p$ ($1 \leq p < +\infty$).*
+*Let $\mu$ be a measure on $X$; the space $\mathscr{E}_F(\Phi)$ is dense in each of the spaces $\mathscr{L}_F^p$ ($1 \leq p < +\infty$).*
 
-For, it follows from Prop. 19 and the criterion for convergence in mean for uniform limits of functions with compact support (§ 3, No. 3, Prop. 4) that $\mathcal{E}_F(\Phi)$ is dense, for the topology of convergence in mean of order $p$, in the closure of the space $\mathcal{K}_F$ of continuous functions with compact support, whence the corollary.
+For, it follows from Prop. 19 and the criterion for convergence in mean for uniform limits of functions with compact support (§ 3, No. 3, Prop. 4) that $\mathscr{E}_F(\Phi)$ is dense, for the topology of convergence in mean of order $p$, in the closure of the space $\mathscr{K}_F$ of continuous functions with compact support, whence the corollary.
 
 #### Corollary 2 {#int-iv-s4-prop-19-cor-2 .statement}
 
-*For every closed subset $S$ of $X$, every function $f \in \mathcal{K}(X, S; \mathbf{C})$ is the uniform limit of linear combinations $\sum_i \lambda_i \varphi_{K_i}$, where the $\lambda_i$ belong to $\mathbf{C}$ and the $K_i$ are compact subsets of $S$.*
+*For every closed subset $S$ of $X$, every function $f \in \mathscr{K}(X, S; \mathbf{C})$ is the uniform limit of linear combinations $\sum_i \lambda_i \varphi_{K_i}$, where the $\lambda_i$ belong to $\mathbf{C}$ and the $K_i$ are compact subsets of $S$.*
 
-The set $\mathcal{A}$ of such linear combinations is a $\mathbf{C}$-algebra. Let $\Phi$ be the set of subsets $M$ of $X$ such that $\varphi_M \in \mathcal{A}$; $\Phi$ is thus a *clan* all of whose elements are subsets of $S$, containing the compact subsets of $S$, and $\mathcal{E}_C(\Phi) \subset \mathcal{A}$. It then suffices to apply Prop. 19 to the locally compact space $S$ and the clan $\Phi$.
+The set $\mathscr{A}$ of such linear combinations is a $\mathbf{C}$-algebra. Let $\Phi$ be the set of subsets $M$ of $X$ such that $\varphi_M \in \mathscr{A}$; $\Phi$ is thus a *clan* all of whose elements are subsets of $S$, containing the compact subsets of $S$, and $\mathscr{E}_C(\Phi) \subset \mathscr{A}$. It then suffices to apply Prop. 19 to the locally compact space $S$ and the clan $\Phi$.
 
 #### Corollary 3 {#int-iv-s4-prop-19-cor-3 .statement}
 
 *If $\mu$ and $\nu$ are two measures on $X$ such that $\mu(K) = \nu(K)$ for every compact subset $K$ of $X$, then $\mu = \nu$.*
 
-For, it follows from Cor. 2 and the definition of a measure that, for every compact subset $S$ of $X$, $\mu$ and $\nu$ take on the same values in $\mathcal{K}(X, S; \mathbf{C})$.
+For, it follows from Cor. 2 and the definition of a measure that, for every compact subset $S$ of $X$, $\mu$ and $\nu$ take on the same values in $\mathscr{K}(X, S; \mathbf{C})$.
 
 ### 11. Extension of a measure defined on a family of sets
 
@@ -844,9 +844,9 @@ consequently $\overline{\alpha}(M \cup N) \geq \overline{\alpha}(M) + \overline{
 
 **6° Existence of the measure $\mu$.**
 
-By Prop. 18 of No. 9, there exists one and only one positive linear form $\beta$ on the vector space $\mathcal{E}(\overline{\Phi})$ of $\overline{\Phi}$-step functions, such that $\beta(\varphi_M) = \overline{\alpha}(M)$ for all $M \in \overline{\Phi}$. For every compact subset $K$ of $X$, let us denote by $\mathcal{G}(K)$ the space of *uniform limits* of functions of $\mathcal{E}(\overline{\Phi})$ whose support is contained in $K$. Since $\beta$ is positive, $|\beta(f)| \leq \overline{\alpha}(K) \cdot \|f\|$ for every function $f \in \mathcal{E}(\overline{\Phi})$ whose support is contained in $K$; the restriction of $\beta$ to the space of these functions is a *continuous* linear form for the topology of uniform convergence; it may therefore be extended to a positive continuous linear form $\overline{\beta}_K$ on $\mathcal{G}(K)$. Moreover, if $K \subset K_1$, then the restriction of $\overline{\beta}_{K_1}$ to $\mathcal{G}(K)$ is identical to $\overline{\beta}_K$, therefore there exists a positive linear form $\overline{\beta}$ on the union $\mathcal{G}$ of the $\mathcal{G}(K)$, that extends each of the forms $\overline{\beta}_K$.
+By Prop. 18 of No. 9, there exists one and only one positive linear form $\beta$ on the vector space $\mathscr{E}(\overline{\Phi})$ of $\overline{\Phi}$-step functions, such that $\beta(\varphi_M) = \overline{\alpha}(M)$ for all $M \in \overline{\Phi}$. For every compact subset $K$ of $X$, let us denote by $\mathscr{G}(K)$ the space of *uniform limits* of functions of $\mathscr{E}(\overline{\Phi})$ whose support is contained in $K$. Since $\beta$ is positive, $|\beta(f)| \leq \overline{\alpha}(K) \cdot \|f\|$ for every function $f \in \mathscr{E}(\overline{\Phi})$ whose support is contained in $K$; the restriction of $\beta$ to the space of these functions is a *continuous* linear form for the topology of uniform convergence; it may therefore be extended to a positive continuous linear form $\overline{\beta}_K$ on $\mathscr{G}(K)$. Moreover, if $K \subset K_1$, then the restriction of $\overline{\beta}_{K_1}$ to $\mathscr{G}(K)$ is identical to $\overline{\beta}_K$, therefore there exists a positive linear form $\overline{\beta}$ on the union $\mathscr{G}$ of the $\mathscr{G}(K)$, that extends each of the forms $\overline{\beta}_K$.
 
-Now, since every compact set belongs to $\overline{\Phi}$, the space $\mathcal{H}$ of continuous real-valued functions with compact support is a *subspace* of $\mathcal{G}$ (No. 10, Prop. 19); the *restriction* to $\mathcal{H}$ of the positive linear form $\overline{\beta}$ is therefore a positive *measure* $\mu$. Let us show that for every compact set $K$, $\mu(K) = \overline{\alpha}(K)$. For every $\varepsilon > 0$, there exists an open set $U \in \overline{\Phi}$ such that $K \subset U$, $\mu(U) \leq \mu(K) + \varepsilon$ and $\overline{\alpha}(U) \leq \overline{\alpha}(K) + \varepsilon$. Let $f$ be a continuous mapping of $X$ into $[0, 1]$ whose support is contained in $U$ and such that $f(x) = 1$ on $K$ (Ch. III, §1, No. 2, Lemma 1). Then $\mu(K) \leq \mu(f) \leq \mu(U) \leq \mu(K) + \varepsilon$, and, on the other hand,
+Now, since every compact set belongs to $\overline{\Phi}$, the space $\mathscr{H}$ of continuous real-valued functions with compact support is a *subspace* of $\mathscr{G}$ (No. 10, Prop. 19); the *restriction* to $\mathscr{H}$ of the positive linear form $\overline{\beta}$ is therefore a positive *measure* $\mu$. Let us show that for every compact set $K$, $\mu(K) = \overline{\alpha}(K)$. For every $\varepsilon > 0$, there exists an open set $U \in \overline{\Phi}$ such that $K \subset U$, $\mu(U) \leq \mu(K) + \varepsilon$ and $\overline{\alpha}(U) \leq \overline{\alpha}(K) + \varepsilon$. Let $f$ be a continuous mapping of $X$ into $[0, 1]$ whose support is contained in $U$ and such that $f(x) = 1$ on $K$ (Ch. III, §1, No. 2, Lemma 1). Then $\mu(K) \leq \mu(f) \leq \mu(U) \leq \mu(K) + \varepsilon$, and, on the other hand,
 
 $$
 \overline{\alpha}(K) = \beta(\varphi_K) \leq \overline{\beta}(f) \leq \beta(\varphi_U) = \overline{\alpha}(U) \leq \overline{\alpha}(K) + \varepsilon;

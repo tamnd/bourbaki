@@ -12,9 +12,9 @@ pdf_pages: 0466-0469
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 87a7281ec2ef5abc012e230dad277a52e6983ff22226e839cde519d5aed32a06
+content_sha256: 0f5c03ffca81feccf08f030a5df37e5766090ab817c8494bfc6956c7ceca2a91
 translated_from: content/en/int/index_of_notation_i_vi.md
-source_content_sha256: e0a28675d91ec0db40219d16407368c8596bab380cca5d9bd6f1948a01a81638
+source_content_sha256: 73edd71549b4643f53c5ff204b4d540f8b7bc280d34e7079e92df08bfd7b713a
 translation_model: gpt-5-mini, gpt-5-6-mini
 translation_run: translate-vi-bbc81cc1
 glossary_version: 34
@@ -28,27 +28,27 @@ Các số tham chiếu chỉ, theo thứ tự, chương, tiết và tiểu mục
 
 Chương III :
 
-$\mathcal{C}(X;E), \mathcal{C}(X), \mathcal{C}(X,A;E), \mathcal{K}(X;E), \mathcal{K}(X), \mathcal{K}(X,A;E), \mathcal{K}(X,A), \mathcal{K}_+(X)$
+$\mathscr{C}(X;E), \mathscr{C}(X), \mathscr{C}(X,A;E), \mathscr{K}(X;E), \mathscr{K}(X), \mathscr{K}(X,A;E), \mathscr{K}(X,A), \mathscr{K}_+(X)$
 (X là một không gian địa phương compact, E là một không gian vectơ tôpô) : III, 1, 1.
 Supp(f) (f là một hàm nhận giá trị trong một không gian vectơ hoặc trong $\overline{\mathbf{R}}$) : III, 1, 1.
-$\mathcal{C}^b(X;E), \mathcal{C}^0(X;E)$ : III, 1, 2.
+$\mathscr{C}^b(X;E), \mathscr{C}^0(X;E)$ : III, 1, 2.
 $\|f\|$ (f là một hàm nhận giá trị trong một không gian định chuẩn) : III, 1, 2.
-$\mu(f), \langle f, \mu \rangle, \int f d\mu, \int f \mu, \int f(x) d\mu(x), \int f(x)\mu(x)$ (f là một hàm trong $\mathcal{K}(X;\mathbf{C})$, $\mu$ là một độ đo (phức)) : III, 1, 3.
-$\mathcal{M}(X;\mathbf{C}), \mathcal{M}(X), \mathcal{M}_\sigma(X;\mathbf{C}), \mathcal{M}_\sigma(X)$ : III, 1, 3.
+$\mu(f), \langle f, \mu \rangle, \int f d\mu, \int f \mu, \int f(x) d\mu(x), \int f(x)\mu(x)$ (f là một hàm trong $\mathscr{K}(X;\mathbf{C})$, $\mu$ là một độ đo (phức)) : III, 1, 3.
+$\mathscr{M}(X;\mathbf{C}), \mathscr{M}(X), \mathscr{M}_\sigma(X;\mathbf{C}), \mathscr{M}_\sigma(X)$ : III, 1, 3.
 $\varepsilon_a$ : III, 1, 3.
-g · $\mu$ (g là một hàm trong $\mathcal{C}(X;\mathbf{C})$) : III, 1, 4.
+g · $\mu$ (g là một hàm trong $\mathscr{C}(X;\mathbf{C})$) : III, 1, 4.
 $\overline{\mu}, \Re \mu, \Im \mu$ : III, 1, 5.
-$\mathcal{M}(X;\mathbf{R}), \mathcal{M}(X), \mathcal{M}_+(X)$ : III, 1, 5.
+$\mathscr{M}(X;\mathbf{R}), \mathscr{M}(X), \mathscr{M}_+(X)$ : III, 1, 5.
 $\mu \leq \nu$ ($\mu, \nu$ là các độ đo thực) : III, 1, 5.
 $\mu^+, \mu^-, |\mu|$ ($\mu$ là một độ đo thực) : III, 1, 5.
 $|\mu|$ ($\mu$ là một độ đo phức) : III, 1, 6.
 $\|\mu\|$ ($\mu$ là một độ đo) : III, 1, 8.
-$\mathcal{M}^1(X,\mathbf{R}), \mathcal{M}^1(X)$ : III, 1, 8.
+$\mathscr{M}^1(X,\mathbf{R}), \mathscr{M}^1(X)$ : III, 1, 8.
 $\mu|Y$ ($\mu$ là một độ đo trên X, Y là một không gian con mở của X) : III, 2, 1.
 Supp($\mu$) ($\mu$ là một độ đo) : III, 2, 2.
 $\langle f, z' \rangle$ : III, 3, 1.
-$\widetilde{\mathcal{K}}(X;E)$ : III, 3, 1.
-$\int f d\mu, \int f \mu, \int f(x) d\mu(x), \int f(x)\mu(x)$ (f là một hàm trong $\widetilde{\mathcal{K}}(X;E)$) : III, 3, 1.
+$\widetilde{\mathscr{K}}(X;E)$ : III, 3, 1.
+$\int f d\mu, \int f \mu, \int f(x) d\mu(x), \int f(x)\mu(x)$ (f là một hàm trong $\widetilde{\mathscr{K}}(X;E)$) : III, 3, 1.
 $\int d\mu(y) \int f(x,y) d\lambda(x)$ : III, 4, 1.
 $\iint f d\lambda d\mu, \iint f d\mu d\lambda, \iint f \lambda \mu, \iint f \mu \lambda, \iint f(x,y) d\lambda(x) d\mu(y), \iint f(x,y) d\mu(y) d\lambda(x), \iint f(x,y) \lambda(x) \mu(y), \iint f(x,y) \mu(y) \lambda(x)$ : III, 4, 1.
 
@@ -72,45 +72,45 @@ f̃ ≤ g̃, supₙ f̃ₙ, infₙ f̃ₙ, lim supₙ→∞ f̃ₙ, lim infₙ�
 |z| (z là một điểm của một không gian định chuẩn) : IV, 3, 2.
 |f| (f là một hàm nhận giá trị trong một không gian định chuẩn) : IV, 3, 2.
 N_p(f, μ), N_p(f), N_p(f̃) (1 ≤ p < +∞) : IV, 3, 2.
-$\mathcal{G}_F(X), \mathcal{G}_F$ : IV, 3, 3.
-$\mathcal{G}_F^p(X, \mu), \mathcal{G}_F^p(\mu), \mathcal{G}_F^p$ : IV, 3, 3.
-$\mathcal{G}_F$ : IV, 3, 3.
-$\mathcal{G}_F, \mathcal{D}_F^p(X, \mu), \mathcal{D}_F^p(\mu), \mathcal{D}_F^p, L_F^p(X, \mu), L_F^p(\mu), L_F^p, \mathcal{D}^p, L^p (1 \leq p < +\infty)$ : IV, 3, 4.
+$\mathscr{G}_F(X), \mathscr{G}_F$ : IV, 3, 3.
+$\mathscr{G}_F^p(X, \mu), \mathscr{G}_F^p(\mu), \mathscr{G}_F^p$ : IV, 3, 3.
+$\mathscr{G}_F$ : IV, 3, 3.
+$\mathscr{G}_F, \mathscr{D}_F^p(X, \mu), \mathscr{D}_F^p(\mu), \mathscr{D}_F^p, L_F^p(X, \mu), L_F^p(\mu), L_F^p, \mathscr{D}^p, L^p (1 \leq p < +\infty)$ : IV, 3, 4.
 ‖f̃‖_p (1 ≤ p < +∞) : IV, 3, 4.
 μ(f), ∫ f dμ, ∫ f(x) dμ(x), ∫ fμ, ∫ f(x)μ(x), μ(f̃) (f là một hàm khả tích theo μ nhận giá trị trong một không gian Banach) : IV, 4, 1.
 μ(A) (A là một tập khả tích theo μ) : IV, 4, 5.
-$\mathcal{Q}'(X; C)$ : IV, 4, 8.
+$\mathscr{Q}'(X; C)$ : IV, 4, 8.
 𝒬(Φ), 𝒬_F(Φ) (Φ là một tộc các tập hợp) : IV, 4, 9.
 μ_*(f) (f là một hàm) : IV, 4, Bài tập 5.
 
 $\mu_*(A)$ (A là một tập hợp) : IV, 4, Bài tập 7.
 $\int_A f d\mu, \int_A f\mu, \int_A^* f d\mu, \int_A^* f\mu$ : IV, 5, 6.
-$\mathcal{S}(A, \mu; F), \mathcal{S}_F(A, \mu), \mathcal{S}_F(\mu), \mathcal{S}_F$ : IV, 5, 11.
+$\mathscr{S}(A, \mu; F), \mathscr{S}_F(A, \mu), \mathscr{S}_F(\mu), \mathscr{S}_F$ : IV, 5, 11.
 $W(V, B, \delta)$ : IV, 5, 11.
 $S(A, \mu; F), S_F(A, \mu), S_F(\mu), S_F$ : IV, 5, 11.
 $f^*$ (phân bố giảm của $f$) : IV, 5, Bài tập 29.
 $M_\infty(f), m_\infty(f)$ : IV, 6, 2.
 $N_\infty(f)$ : IV, 6, 3.
-$\mathcal{L}_F^\infty(X, \mu), \mathcal{L}_F^\infty(\mu), \mathcal{L}_F^\infty, \mathcal{N}_F^\infty$ : IV, 6, 3.
+$\mathscr{L}_F^\infty(X, \mu), \mathscr{L}_F^\infty(\mu), \mathscr{L}_F^\infty, \mathscr{N}_F^\infty$ : IV, 6, 3.
 $\|\dot{f}\|_\infty, N_\infty(\dot{f})$ : IV, 6, 3.
-$L_F^\infty(X, \mu), L_F^\infty(\mu), L_F^\infty, \mathcal{L}^\infty, L^\infty$ : IV, 6, 3.
+$L_F^\infty(X, \mu), L_F^\infty(\mu), L_F^\infty, \mathscr{L}^\infty, L^\infty$ : IV, 6, 3.
 $b_\mu$ : IV, 7, 1.
-$\mathrm{Ch}_\mathcal{H}(X), \mathrm{Ch}(X), \check{S}_\mathcal{H}(X), \check{S}(X)$ : IV, 7, 3.
+$\mathrm{Ch}_\mathscr{H}(X), \mathrm{Ch}(X), \check{S}_\mathscr{H}(X), \check{S}(X)$ : IV, 7, 3.
 
 Chương V :
 
-$\mathcal{F}_+(E), \mathcal{F}_+$ (E một tập hợp) : V, Các quy ước sơ bộ.
+$\mathscr{F}_+(E), \mathscr{F}_+$ (E một tập hợp) : V, Các quy ước sơ bộ.
 $\mu^\bullet(f), \mu^\bullet(A), \int^\bullet f d\mu, \int^\bullet f(t) d\mu(t), \int^\bullet f\mu$ : V, 1, 1.
-$\overline{\mathcal{F}}_F^p(T, \mu), \overline{\mathcal{F}}_F^p(\mu), \overline{\mathcal{F}}_F^p$ : V, 1, 3.
-$\overline{N}_p(f), \overline{\mathcal{L}}_F^p(T, \mu), \overline{\mathcal{L}}_F^p(\mu), \overline{\mathcal{L}}_F^p$ : V, 1, 3.
-$\overline{\mathcal{L}}_F^p(T, \theta)$ ($\theta$ một độ đo phức) : V, 1, 3.
+$\overline{\mathscr{F}}_F^p(T, \mu), \overline{\mathscr{F}}_F^p(\mu), \overline{\mathscr{F}}_F^p$ : V, 1, 3.
+$\overline{N}_p(f), \overline{\mathscr{L}}_F^p(T, \mu), \overline{\mathscr{L}}_F^p(\mu), \overline{\mathscr{L}}_F^p$ : V, 1, 3.
+$\overline{\mathscr{L}}_F^p(T, \theta)$ ($\theta$ một độ đo phức) : V, 1, 3.
 $\int \lambda_t d\mu(t)$ ($t \mapsto \lambda_t$ một họ các độ đo dương) : V, 3, 1.
 $\int d\mu(t) \int f(x) d\lambda_t(x)$ : V, 3, 1.
 $\|\Lambda\|$ ($\Lambda$ một khuếch tán) : V, 3, 5.
 $\langle \eta, h \rangle$ : V, 3, 5.
 $\Lambda f, \mu \Lambda$ : V, 3, 5.
 $\Lambda H$ : V, 3, 6.
-$\mathcal{L}_{\text{loc}}^1(T, \mu; F), L_{\text{loc}}^1(T, \mu; F)$ : V, 5, 1.
+$\mathscr{L}_{\text{loc}}^1(T, \mu; F), L_{\text{loc}}^1(T, \mu; F)$ : V, 5, 1.
 $u \cdot \theta$ ($u$ một hàm phức, $\theta$ một độ đo phức) : V, 5, 2.
 $\int_A^\bullet f d\mu$ : V, 5, 3.
 $u(\mu_1, \ldots, \mu_n)$ ($u$ một hàm số thuần nhất dương) : V, 5, 9.
@@ -122,27 +122,27 @@ $\iint^* f(t, t') d\mu(t) d\mu'(t'), \iint^\bullet f(t, t') d\mu(t) d\mu'(t'), \
 Chương VI:
 
 F', F'', {F'}^*, F_\sigma (F một không gian lồi địa phương Hausdorff) : VI, Mở đầu.
-\mathcal{K}(T), \mathcal{K}_R(T), \mathcal{K}_C(T), \mathcal{K}(T,A), \mathcal{K}_C(T,A) : VI, Mở đầu.
+\mathscr{K}(T), \mathscr{K}_R(T), \mathscr{K}_C(T), \mathscr{K}(T,A), \mathscr{K}_C(T,A) : VI, Mở đầu.
 \langle f, z' \rangle, \langle z', f \rangle : VI, 1.
 \int f d\mu, \int f(t) d\mu(t) (f một hàm nhận giá trị vectơ, \mu một độ đo dương) :
 VI, 1, 1.
 gf, fg (f một hàm nhận giá trị vectơ, g một hàm vô hướng) : VI, 1, 1.
-\mathcal{C}'(T) : VI, 1, 6.
+\mathscr{C}'(T) : VI, 1, 6.
 \int f dm, \int f(t) dm(t) (f một hàm số, m một độ đo vectơ) :
 VI, 2, 1 và VI, 2, 2.
 g \cdot m (g một hàm số, m một độ đo vectơ) : VI, 2, 1.
-$\mathcal{L}(m)$ : VI, 2, 2.
+$\mathscr{L}(m)$ : VI, 2, 2.
 q(m), |m| (q một nửa chuẩn, m một độ đo vectơ) : VI, 2, 3.
 f \cdot \mu (f một hàm nhận giá trị vectơ, \mu một độ đo dương) : VI, 2, 4.
-$\mathcal{L}_{F_s'}^\infty, L_{F_s'}^\infty$ : VI, 2, 5.
+$\mathscr{L}_{F_s'}^\infty, L_{F_s'}^\infty$ : VI, 2, 5.
 \langle f, g \rangle (f, g các hàm nhận giá trị vectơ) : VI, 2, 6.
 I_{\Phi,m}, \int f dm (f một hàm nhận giá trị vectơ, m một độ đo vectơ) : VI, 2, 7.
 |m|, \int f dm (m một độ đo phức) : VI, 2, 8, III, 1, 6.
-\mathcal{L}_F^p(T,m), \overline{\mathcal{L}}_F^p(T,m), L_F^p(T,m) (m một độ đo phức) : VI, 2, 8, V, 1, 3.
+\mathscr{L}_F^p(T,m), \overline{\mathscr{L}}_F^p(T,m), L_F^p(T,m) (m một độ đo phức) : VI, 2, 8, V, 1, 3.
 h \cdot m (m một độ đo phức) : VI, 2, 8.
 \overline{m} (m một độ đo phức) : VI, 2, 8, III, 1, 5.
 \|m\| (m một độ đo phức) : VI, 2, 9, III, 1, 8.
 \pi(m), m_Y, m \otimes m' (m, m' các độ đo phức) : VI, 2, 10.
-\mathcal{B}(F_1, F_2), r\Phi, l\Phi : VI, Phụ lục, 1.
-E_\sigma, F_\sigma, E'_s, F'_s, \mathcal{B}(E,F) : VI, Phụ lục, 1.
+\mathscr{B}(F_1, F_2), r\Phi, l\Phi : VI, Phụ lục, 1.
+E_\sigma, F_\sigma, E'_s, F'_s, \mathscr{B}(E,F) : VI, Phụ lục, 1.
 \Lambda_{F'}^p(T,\mu), M_p, M'_p : VI, 1, Bài tập 16.

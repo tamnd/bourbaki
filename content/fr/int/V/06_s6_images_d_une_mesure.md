@@ -36,7 +36,7 @@ subsections:
       pdf_page: 83
 statements: 31
 exercises: 22
-content_sha256: 39c42d717fc9eb8f91b93bf7f6a05da649e50c023a580154ac49c8c895be5ff7
+content_sha256: a854490aab3a5a7d8f40be167f587454237cab0426ee2daabcfd82ac0281e016
 ---
 
 ## § 6. — Images d’une mesure
@@ -202,7 +202,7 @@ $$
 
 #### Proposition 6 {#int-v-s6-prop-6 .statement}
 
-Soient $T$ et $X$ deux espaces localement compacts, $(\lambda_\alpha)_{\alpha \in A}$ une famille de mesures positives sur $T$, filtrante pour la relation $\leqslant$, admettant dans $\mathcal{M}(T)$ une borne supérieure $\mu$. Pour qu’une application de $T$ dans $X$ soit $\mu$-propre, il faut et il suffit qu’elle soit $\lambda_\alpha$-propre pour tout $\alpha \in A$, et que la famille $(\pi(\lambda_\alpha))_{\alpha \in A}$ soit majorée dans $\mathcal{M}(X)$. Dans ce cas, on a
+Soient $T$ et $X$ deux espaces localement compacts, $(\lambda_\alpha)_{\alpha \in A}$ une famille de mesures positives sur $T$, filtrante pour la relation $\leqslant$, admettant dans $\mathscr{M}(T)$ une borne supérieure $\mu$. Pour qu’une application de $T$ dans $X$ soit $\mu$-propre, il faut et il suffit qu’elle soit $\lambda_\alpha$-propre pour tout $\alpha \in A$, et que la famille $(\pi(\lambda_\alpha))_{\alpha \in A}$ soit majorée dans $\mathscr{M}(X)$. Dans ce cas, on a
 
 (5)
 $$
@@ -221,7 +221,7 @@ $$
 \int^\ast (f \circ \pi)\, d\mu = \sup_\alpha \int^\ast (f \circ \pi)\, d\lambda_\alpha = \sup_\alpha \int^\ast f\, d(\pi(\lambda_\alpha))
 $$
 
-(§ 1, n° 4, prop. 11); le premier membre est donc fini pour toute $f \in \mathscr{K}_+(T)$ si et seulement si la famille $(\pi(\lambda_\alpha))$ admet une borne supérieure $\theta$ dans $\mathcal{M}(X)$, et on a alors $\int (f \circ \pi)\, d\mu = \int f\, d\theta$, relation équivalente à (5).
+(§ 1, n° 4, prop. 11); le premier membre est donc fini pour toute $f \in \mathscr{K}_+(T)$ si et seulement si la famille $(\pi(\lambda_\alpha))$ admet une borne supérieure $\theta$ dans $\mathscr{M}(X)$, et on a alors $\int (f \circ \pi)\, d\mu = \int f\, d\theta$, relation équivalente à (5).
 
 #### Corollaire 1 {#int-v-s6-prop-6-cor-1 .statement}
 
@@ -345,7 +345,7 @@ La première partie de l’énoncé résulte de ce que la formule (12) est valab
 
 ### 6. Décomposition en tranches. Image réciproque d’une mesure par un homéomorphisme local
 
-Soient $X$ un espace localement compact, $\pi$ une application de $X$ dans un espace localement compact $T$, $\mu$ une mesure positive sur $T$, $\Lambda : t \mapsto \lambda_t$ une application scalairement essentiellement $\mu$-intégrable et vaguement $\mu$-mesurable de $T$ dans $\mathcal{M}_+(X)$. Soit $v = \int \lambda_t\, d\mu(t)$. Si $\lambda_t$ est portée par $\bar{\pi}^1(t)$ pour tout $t \in T$, on dit que l’égalité $v = \int \lambda_t\, d\mu(t)$ est une décomposition en tranches (ou une désintégration) de $v$ relativement à $\pi$. Cette notion sera étudiée de manière détaillée au chap. VI.
+Soient $X$ un espace localement compact, $\pi$ une application de $X$ dans un espace localement compact $T$, $\mu$ une mesure positive sur $T$, $\Lambda : t \mapsto \lambda_t$ une application scalairement essentiellement $\mu$-intégrable et vaguement $\mu$-mesurable de $T$ dans $\mathscr{M}_+(X)$. Soit $v = \int \lambda_t\, d\mu(t)$. Si $\lambda_t$ est portée par $\bar{\pi}^1(t)$ pour tout $t \in T$, on dit que l’égalité $v = \int \lambda_t\, d\mu(t)$ est une décomposition en tranches (ou une désintégration) de $v$ relativement à $\pi$. Cette notion sera étudiée de manière détaillée au chap. VI.
 
 #### Proposition 10 {#int-v-s6-prop-10 .statement}
 
@@ -363,7 +363,7 @@ $$
 
 du fait que $\lambda_t$ est concentrée sur $\bar{\pi}^1(t)$. On sait que $g$ est $\mu$-mesurable, puisque $\Lambda$ est $\mu$-adéquate (§ 3, n° 1, déf. 1). Dire que le premier membre est fini pour toute $f \in \mathscr{K}_+(T)$ équivaut donc à dire que $g$ est localement $\mu$-intégrable (§ 5, prop. 1), et (14) résulte aussitôt dans ce cas des relations ci-dessus.
 
-Il nous reste donc seulement à éliminer l’hypothèse auxiliaire. Si g est localement $\mu$-intégrable, g est finie localement $\mu$-presque partout, et l’hypothèse est bien satisfaite. Supposons que $\pi$ soit $\nu$-propre, et montrons que g est finie localement presque partout. Soit $\mathfrak{R}$ l’ensemble $\mu$-dense des compacts K tels que $\Lambda|K$ soit vaguement continue; comme g est $\mu$-mesurable, on est ramené à montrer que tout compact $K \in \mathfrak{R}$, tel que $g|K = +\infty$, est $\mu$-négligeable. Or soit $\mathcal{H}$ l’ensemble des fonctions $h \in \mathscr{K}_+(X)$ telles que $h \leq 1$; posons $g_h(t) = \lambda_t(h)$, désignons par $\Lambda_h$ l’application $\mu$-adéquate $t \mapsto h \cdot \lambda_t$, par $\nu_h$ l’intégrale de $\Lambda_h$, par $f$ un élément de $\mathscr{K}_+(T)$ tel que $f \geq \varphi_K$. Si nous appliquons la formule (14) à $\Lambda_h$, qui satisfait à l’hypothèse auxiliaire, nous obtenons:
+Il nous reste donc seulement à éliminer l’hypothèse auxiliaire. Si g est localement $\mu$-intégrable, g est finie localement $\mu$-presque partout, et l’hypothèse est bien satisfaite. Supposons que $\pi$ soit $\nu$-propre, et montrons que g est finie localement presque partout. Soit $\mathfrak{R}$ l’ensemble $\mu$-dense des compacts K tels que $\Lambda|K$ soit vaguement continue; comme g est $\mu$-mesurable, on est ramené à montrer que tout compact $K \in \mathfrak{R}$, tel que $g|K = +\infty$, est $\mu$-négligeable. Or soit $\mathscr{H}$ l’ensemble des fonctions $h \in \mathscr{K}_+(X)$ telles que $h \leq 1$; posons $g_h(t) = \lambda_t(h)$, désignons par $\Lambda_h$ l’application $\mu$-adéquate $t \mapsto h \cdot \lambda_t$, par $\nu_h$ l’intégrale de $\Lambda_h$, par $f$ un élément de $\mathscr{K}_+(T)$ tel que $f \geq \varphi_K$. Si nous appliquons la formule (14) à $\Lambda_h$, qui satisfait à l’hypothèse auxiliaire, nous obtenons:
 
 $$
 \int (f \circ \pi) \, d\nu \geq \int (f \circ \pi) \, d\nu_h = \int fg_h \, d\mu.
@@ -379,7 +379,7 @@ a) Si $N \subset T$ est localement $\mu$-négligeable, $\bar{\pi}^{-1}(N)$ est l
 
 b) Si $f$ est une application $\mu$-mesurable de T dans un espace topologique G, $f \circ \pi$ est $\nu$-mesurable.
 
-Reprenons les notations $\Lambda_h$, $\nu_h$, $g_h$ de la fin de la démonstration précédente: $\nu_h$ étant une mesure bornée pour tout $h \in \mathcal{H}$, $\pi$ est $\nu_h$-propre, $g_h$ est localement $\mu$-intégrable, et $\pi(\nu_h) = g_h \cdot \mu$, mesure de base $\mu$. Il en résulte que N est localement négligeable (resp. que $f$ est mesurable) pour la mesure $\pi(\nu_h)$ ($§ 5$, n° 3, cor. 1 de la prop. 3 et cor. de la prop. 4). Par conséquent, $\bar{\pi}^{-1}(N)$ est localement négligeable (resp. $f \circ \pi$ est mesurable) pour la mesure $\nu_h$ (cor. 2 de la prop. 2, resp. prop. 3). On remarque enfin que les mesures $\nu_h$ forment une famille filtrante croissante de mesures positives, dont la borne supérieure est $\nu$ ($§ 3$, n° 1, prop. 1), et on applique le cor. 1 (resp. 2) de la prop. 11 du $§ 1$, n° 4.
+Reprenons les notations $\Lambda_h$, $\nu_h$, $g_h$ de la fin de la démonstration précédente: $\nu_h$ étant une mesure bornée pour tout $h \in \mathscr{H}$, $\pi$ est $\nu_h$-propre, $g_h$ est localement $\mu$-intégrable, et $\pi(\nu_h) = g_h \cdot \mu$, mesure de base $\mu$. Il en résulte que N est localement négligeable (resp. que $f$ est mesurable) pour la mesure $\pi(\nu_h)$ ($§ 5$, n° 3, cor. 1 de la prop. 3 et cor. de la prop. 4). Par conséquent, $\bar{\pi}^{-1}(N)$ est localement négligeable (resp. $f \circ \pi$ est mesurable) pour la mesure $\nu_h$ (cor. 2 de la prop. 2, resp. prop. 3). On remarque enfin que les mesures $\nu_h$ forment une famille filtrante croissante de mesures positives, dont la borne supérieure est $\nu$ ($§ 3$, n° 1, prop. 1), et on applique le cor. 1 (resp. 2) de la prop. 11 du $§ 1$, n° 4.
 
 #### Corollaire 2 {#int-v-s6-prop-10-cor-2 .statement}
 
@@ -389,7 +389,7 @@ Cela résulte immédiatement, compte tenu de la prop. 10, du th. 1 du § 5, n° 
 
 #### Exemple {#int-v-s6-n6-exa-1 .statement}
 
-Soient $X$ et $T$ deux espaces localement compacts, et soit $\pi$ un homéomorphisme local de $X$ dans $T$. Autrement dit (Top. gén., chap. XI), nous supposons que tout point $x \in X$ admet un voisinage $V$ tel que $\pi|V$ soit un homéomorphisme de $V$ sur un voisinage de $\pi(x)$; quitte à remplacer $V$ par un voisinage ouvert relativement compact $W$ de $x$ tel que $\overline{W} \subset V$, on en déduit que l’ensemble $\mathcal{U}$ des ouverts relativement compacts $U$ de $X$, tels que $\pi|\overline{U}$ soit un homéomorphisme de $\overline{U}$ sur son image, est un recouvrement ouvert de $X$. Soit alors $\mu$ une mesure positive sur $T$; si $U$ est un élément de $\mathcal{U}$, $\pi(U)$ est un ouvert de l’espace compact $\pi(\overline{U})$, donc un sous-espace localement compact de $T$, et on sait définir la mesure $\mu|\pi(U)$ induite par $\mu$ sur $\pi(U)$ (chap. IV, 2e éd., § 5, n° 7). Soit $\nu_U$ l’image de $\mu|\pi(U)$ par l’homéomorphisme réciproque de $\pi|U$; nous allons montrer qu’il existe sur $X$ une mesure $\nu$ et une seule qui induit la mesure $\nu_U$ sur tout ouvert $U \in \mathcal{U}$. Cette mesure est appelée l’image réciproque de $\mu$ par l’homéomorphisme local $\pi$, et notée $\overline{\pi}^1(\mu)$.
+Soient $X$ et $T$ deux espaces localement compacts, et soit $\pi$ un homéomorphisme local de $X$ dans $T$. Autrement dit (Top. gén., chap. XI), nous supposons que tout point $x \in X$ admet un voisinage $V$ tel que $\pi|V$ soit un homéomorphisme de $V$ sur un voisinage de $\pi(x)$; quitte à remplacer $V$ par un voisinage ouvert relativement compact $W$ de $x$ tel que $\overline{W} \subset V$, on en déduit que l’ensemble $\mathscr{U}$ des ouverts relativement compacts $U$ de $X$, tels que $\pi|\overline{U}$ soit un homéomorphisme de $\overline{U}$ sur son image, est un recouvrement ouvert de $X$. Soit alors $\mu$ une mesure positive sur $T$; si $U$ est un élément de $\mathscr{U}$, $\pi(U)$ est un ouvert de l’espace compact $\pi(\overline{U})$, donc un sous-espace localement compact de $T$, et on sait définir la mesure $\mu|\pi(U)$ induite par $\mu$ sur $\pi(U)$ (chap. IV, 2e éd., § 5, n° 7). Soit $\nu_U$ l’image de $\mu|\pi(U)$ par l’homéomorphisme réciproque de $\pi|U$; nous allons montrer qu’il existe sur $X$ une mesure $\nu$ et une seule qui induit la mesure $\nu_U$ sur tout ouvert $U \in \mathscr{U}$. Cette mesure est appelée l’image réciproque de $\mu$ par l’homéomorphisme local $\pi$, et notée $\overline{\pi}^1(\mu)$.
 
 L’unicité de $\nu$ résulte aussitôt du principe de localisation (chap. III, 2e éd., § 2, n° 1, cor. de la prop. 1). Pour établir l’existence notons que si $t \in T$, tout point $x \in \overline{\pi}^1(t)$ admet un voisinage qui ne rencontre $\overline{\pi}^1(t)$ qu’au point $x$, de sorte que $\overline{\pi}^1(t)$ est un sous-espace discret de $X$, et que la famille $(\varepsilon_x)_{x \in \overline{\pi}^1(t)}$ est sommable; désignons par $\lambda_t$ sa somme. Montrons ensuite que l’application $t \mapsto \lambda_t$ est scalairement essentiellement $\mu$-intégrable, et que son intégrale $\nu = \int \lambda_t \, d\mu(t)$ est l’image réciproque cherchée. Cela résultera aussitôt du lemme suivant:
 
@@ -397,9 +397,9 @@ L’unicité de $\nu$ résulte aussitôt du principe de localisation (chap. III,
 
 a) Soit $f$ un élément de $\mathscr{K}_+(X)$; la fonction $t \mapsto \lambda_t(f)$ est positive, semi-continue supérieurement, à support compact, et sa restriction à $\pi(X)$ est continue.
 
-b) Soient $U$ un élément de $\mathcal{U}$, $\nu$ l’intégrale de la fonction scalairement essentiellement $\mu$-intégrable $t \mapsto \lambda_t$; l’image de la mesure $\nu|U$ par $\pi|U$ est égale à $\mu|\pi(U)$,
+b) Soient $U$ un élément de $\mathscr{U}$, $\nu$ l’intégrale de la fonction scalairement essentiellement $\mu$-intégrable $t \mapsto \lambda_t$; l’image de la mesure $\nu|U$ par $\pi|U$ est égale à $\mu|\pi(U)$,
 
-Pour établir a), on peut se ramener au moyen d’une partition de l’unité (chap. III, 2e éd., § 1, n° 2, lemme 1) au cas où le support S de f est contenu dans un ouvert $U \in \mathcal{U}$. Soit g l’application $t \mapsto \lambda_t(f) ; \pi|U$ étant un homéomorphisme, $g|\pi(U)$ appartient à $\mathscr{K}_+(\pi(U))$, et par suite ($\pi(U)$ étant un ouvert de $\pi(X)$) la restriction de g à $\pi(X)$ est continue. Comme g est positive et que la restriction de g au compact $\pi(S)$ est continue, on voit que g est semi-continue supérieurement dans T. On en déduit que g est $\mu$-intégrable.
+Pour établir a), on peut se ramener au moyen d’une partition de l’unité (chap. III, 2e éd., § 1, n° 2, lemme 1) au cas où le support S de f est contenu dans un ouvert $U \in \mathscr{U}$. Soit g l’application $t \mapsto \lambda_t(f) ; \pi|U$ étant un homéomorphisme, $g|\pi(U)$ appartient à $\mathscr{K}_+(\pi(U))$, et par suite ($\pi(U)$ étant un ouvert de $\pi(X)$) la restriction de g à $\pi(X)$ est continue. Comme g est positive et que la restriction de g au compact $\pi(S)$ est continue, on voit que g est semi-continue supérieurement dans T. On en déduit que g est $\mu$-intégrable.
 
 Pour établir b), désignons par g un élément de $\mathscr{K}(\pi(U))$, par $g^\circ$ son prolongement par 0 à T, par f la fonction $g \circ (\pi|U)$, par $f^\circ$ la prolongement par 0 de f à X. L’assertion b) équivaut à l’égalité $\int g^\circ d\mu = \int f^\circ dv$. Mais on a $f \in \mathscr{K}(U)$, donc $f^\circ \in \mathscr{K}(X)$, et la seconde intégrale est donc égale à $\int \lambda_t(f^\circ) d\mu(t)$. On a enfin $\lambda_t(f^\circ) = g^\circ(t)$, ce qui achève la démonstration.
 

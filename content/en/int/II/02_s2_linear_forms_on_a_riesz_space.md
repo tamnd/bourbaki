@@ -21,7 +21,7 @@ subsections:
       pdf_page: 34
 statements: 13
 exercises: 9
-content_sha256: a99ab6a381386c576f23c9ce042fe0f61cb8482740d72d2558bf85513a4bd7f4
+content_sha256: 9d00974d8a98c416163496def0aafa85ef87667b850822c6908abf8483ae2617
 ---
 
 ## § 2. LINEAR FORMS ON A RIESZ SPACE
@@ -46,7 +46,7 @@ Let $I = [a, b]$ be a compact interval of $\mathbf{R}$, E the Riesz space formed
 
 #### Example 3 {#int-ii-s2-n1-exa-3 .statement}
 
-Let F be any set, $\mathcal{U}$ an ultrafilter on F (GT, I, §6, No. 4), E the Riesz space $\mathcal{B}(F)$ of bounded real-valued functions on F. For every $x \in E$, $\lim_{\mathcal{U}} x(t)$ exists, because $x(\mathcal{U})$ is a base of an ultrafilter on the relatively compact set $x(F)$, hence is convergent. Moreover, if $x \geq 0$ then $\lim_{\mathcal{U}} x(t) \geq 0$ by the principle of extension of inequalities; the mapping $x \mapsto \lim_{\mathcal{U}} x$ is thus a positive linear form on E. If $\mathcal{U}$ is taken to be the ultrafilter formed by the sets containing an element $a \in F$, one recovers the positive linear form $x \mapsto x(a)$ (Example 1).
+Let F be any set, $\mathscr{U}$ an ultrafilter on F (GT, I, §6, No. 4), E the Riesz space $\mathscr{B}(F)$ of bounded real-valued functions on F. For every $x \in E$, $\lim_{\mathscr{U}} x(t)$ exists, because $x(\mathscr{U})$ is a base of an ultrafilter on the relatively compact set $x(F)$, hence is convergent. Moreover, if $x \geq 0$ then $\lim_{\mathscr{U}} x(t) \geq 0$ by the principle of extension of inequalities; the mapping $x \mapsto \lim_{\mathscr{U}} x$ is thus a positive linear form on E. If $\mathscr{U}$ is taken to be the ultrafilter formed by the sets containing an element $a \in F$, one recovers the positive linear form $x \mapsto x(a)$ (Example 1).
 
 #### Proposition 1 {#int-ii-s2-prop-1 .statement}
 
@@ -211,7 +211,7 @@ since $\varepsilon$ is arbitrary, we have $V(x) = 0$ for every $x \geq 0$, that 
 
 #### Example {#int-ii-s2-n2-exa-1 .statement}
 
-Let E be a Riesz space equipped with a locally convex topology compatible with its ordered vector space structure (TVS, II, §2, No. 7). Let E' be the topological dual of E, and suppose in addition that the cone P of elements $\geqslant 0$ of E is *complete for the weakened topology* $\sigma(E, E')$. Then every continuous linear form $x' \in E'$ is *relatively bounded*, for one knows (TVS, II, §6, No. 8, Cor. 2 of Prop. 11) that under these conditions, for every $x \geqslant 0$ in E the set of $y \in E$ such that $|y| \leqslant x$ is *compact* for $\sigma(E, E')$. From this we deduce that E is then *fully lattice-ordered*; for ($§ 1$, No. 3, Prop. 2), it suffices to show that for every set $H \subset E$ that is bounded above and directed for $\leqslant$, the section filter $\mathcal{F}$ of H is *convergent in E for the topology* $\sigma(E, E')$ (the latter being compatible with the ordered vector space structure of E). By translation, we can suppose that $H \subset P$, and it then suffices to show that $\mathcal{F}$ is a *Cauchy filter* for $\sigma(E, E')$, or again that every continuous linear form $x' \in E'$ has a limit with respect to $\mathcal{F}$. But this follows at once from the monotone limit theorem when $x'$ is a *positive* linear form, and since every linear form $x' \in E'$ is the difference of two positive linear forms (Th. 1) our assertion is proved.
+Let E be a Riesz space equipped with a locally convex topology compatible with its ordered vector space structure (TVS, II, §2, No. 7). Let E' be the topological dual of E, and suppose in addition that the cone P of elements $\geqslant 0$ of E is *complete for the weakened topology* $\sigma(E, E')$. Then every continuous linear form $x' \in E'$ is *relatively bounded*, for one knows (TVS, II, §6, No. 8, Cor. 2 of Prop. 11) that under these conditions, for every $x \geqslant 0$ in E the set of $y \in E$ such that $|y| \leqslant x$ is *compact* for $\sigma(E, E')$. From this we deduce that E is then *fully lattice-ordered*; for ($§ 1$, No. 3, Prop. 2), it suffices to show that for every set $H \subset E$ that is bounded above and directed for $\leqslant$, the section filter $\mathscr{F}$ of H is *convergent in E for the topology* $\sigma(E, E')$ (the latter being compatible with the ordered vector space structure of E). By translation, we can suppose that $H \subset P$, and it then suffices to show that $\mathscr{F}$ is a *Cauchy filter* for $\sigma(E, E')$, or again that every continuous linear form $x' \in E'$ has a limit with respect to $\mathscr{F}$. But this follows at once from the monotone limit theorem when $x'$ is a *positive* linear form, and since every linear form $x' \in E'$ is the difference of two positive linear forms (Th. 1) our assertion is proved.
 
 Exercises
 

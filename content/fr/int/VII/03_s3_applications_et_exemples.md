@@ -24,7 +24,7 @@ subsections:
       pdf_page: 78
 statements: 26
 exercises: 6
-content_sha256: 8e5a9d75c0385e0263d9a5248ee1146c952d531befa9e00f05d2bc085ff82735
+content_sha256: 768dfee427aeded9f12c9594c84f63cc38ab3411dc90105e552151ede6e554da
 ---
 
 ## § 3. Applications et exemples.
@@ -49,7 +49,7 @@ Soit $G$ un sous-groupe de $\mathrm{Aut}(E)$. Les trois propriétés suivantes s
 
 #### Lemme 1 {#int-vii-s3-lem-1 .statement}
 
-Soient F un espace hilbertien, K un groupe compact, et s → U(s) une représentation de K dans le groupe des éléments inversibles de $\mathcal{L}(F ; F)$, continue pour la topologie de la convergence simple. Il existe une forme hermitienne positive non dégénérée φ sur F telle que $\varphi(U(s)x, U(s)y) = \varphi(x, y)$ quels que soient s ∈ K, x ∈ F, y ∈ F, et telle que la structure d’espace vectoriel topologique de F définie par φ (Esp. vect. top., chap. V, § 1, no 3) soit identique à la structure initiale de F.
+Soient F un espace hilbertien, K un groupe compact, et s → U(s) une représentation de K dans le groupe des éléments inversibles de $\mathscr{L}(F ; F)$, continue pour la topologie de la convergence simple. Il existe une forme hermitienne positive non dégénérée φ sur F telle que $\varphi(U(s)x, U(s)y) = \varphi(x, y)$ quels que soient s ∈ K, x ∈ F, y ∈ F, et telle que la structure d’espace vectoriel topologique de F définie par φ (Esp. vect. top., chap. V, § 1, no 3) soit identique à la structure initiale de F.
 
 Soit α une mesure de Haar sur K. Quels que soient x, y dans F, l’application s → (U(s)x|U(s)y) est continue. Posons
 
@@ -57,7 +57,7 @@ $$
 \varphi(x, y) = \int (U(s)x|U(s)y)d\alpha(s).
 $$
 
-Il est immédiat que $\varphi(x, y)$ est une forme sesquilinéaire sur F. Comme l’ensemble des endomorphismes U(s) est compact dans $\mathcal{L}_s(F ; F)$, il existe une constante M telle que $\|U(s)\| \leq M$ pour tout s ∈ K. Pour tout x ∈ F, on a donc
+Il est immédiat que $\varphi(x, y)$ est une forme sesquilinéaire sur F. Comme l’ensemble des endomorphismes U(s) est compact dans $\mathscr{L}_s(F ; F)$, il existe une constante M telle que $\|U(s)\| \leq M$ pour tout s ∈ K. Pour tout x ∈ F, on a donc
 
 $$
 M^{-1}\|x\| \leq \|U(s)x\| \leq M\|x\|,
@@ -761,7 +761,7 @@ a) X est la matrice d’une application de la forme
 
 $$(x_1, \ldots, x_n) \to (x_{\sigma(1)}, \ldots, x_{\sigma(n)})$$
 
-où $\sigma \in \mathcal{S}_n$. Dans ce cas, une puissance de X est égale à 1, donc $|\det \widetilde{X}| = |N(X)| = 1$.
+où $\sigma \in \mathscr{S}_n$. Dans ce cas, une puissance de X est égale à 1, donc $|\det \widetilde{X}| = |N(X)| = 1$.
 
 b) X est la matrice d’une application de la forme
 

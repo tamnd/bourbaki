@@ -20,7 +20,7 @@ subsections:
       pdf_page: 31
 statements: 13
 exercises: 9
-content_sha256: 080eaeb1342cb91bb7c4e79644e2b0d0cebe3959a9403f0bbb63ee675c0b32cc
+content_sha256: 63474f4f43367b1c205371ee83d30c05411c3a4de084f65d8841982483d7baa5
 ---
 
 ## § 2. Formes linéaires sur un espace de Riesz
@@ -45,7 +45,7 @@ Soit $I = [a, b]$ un intervalle compact de $\mathbf{R}$, E l’espace de Riesz f
 
 #### Exemple 3 {#int-ii-s2-n1-exa-3 .statement}
 
-Soient F un ensemble quelconque, $\mathcal{U}$ un ultrafiltre sur F (Top. gén., chap. I, 3e éd., § 6, n° 4), E l’espace de Riesz $\mathcal{B}(F)$ des fonctions numériques bornées dans F. Pour tout $x \in E$, $\lim_{\mathcal{U}} x(t)$ existe, car $x(\mathcal{U})$ est une base d’ultrafiltre sur l’ensemble relativement compact $x(F)$, et par suite est convergente. En outre, si $x \geqslant 0$, on a $\lim_{\mathcal{U}} x(t) \geqslant 0$ en vertu du principe de prolongement des inégalités; l’application $x \mapsto \lim_{\mathcal{U}} x$ est donc une forme linéaire positive sur E. Si on prend pour $\mathcal{U}$ l’ultrafiltre formé des ensembles contenant un élément $a \in F$, on retrouve la forme linéaire positive $x \mapsto x(a)$ (exemple 1).
+Soient F un ensemble quelconque, $\mathscr{U}$ un ultrafiltre sur F (Top. gén., chap. I, 3e éd., § 6, n° 4), E l’espace de Riesz $\mathscr{B}(F)$ des fonctions numériques bornées dans F. Pour tout $x \in E$, $\lim_{\mathscr{U}} x(t)$ existe, car $x(\mathscr{U})$ est une base d’ultrafiltre sur l’ensemble relativement compact $x(F)$, et par suite est convergente. En outre, si $x \geqslant 0$, on a $\lim_{\mathscr{U}} x(t) \geqslant 0$ en vertu du principe de prolongement des inégalités; l’application $x \mapsto \lim_{\mathscr{U}} x$ est donc une forme linéaire positive sur E. Si on prend pour $\mathscr{U}$ l’ultrafiltre formé des ensembles contenant un élément $a \in F$, on retrouve la forme linéaire positive $x \mapsto x(a)$ (exemple 1).
 
 #### Proposition 1 {#int-ii-s2-prop-1 .statement}
 

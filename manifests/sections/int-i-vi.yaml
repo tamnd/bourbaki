@@ -35,7 +35,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 8dfb748700d8c874a76b6a8ae10c7b04bf3ec4fb555aaceacec1955706524daf
+          content_sha256: f9fb1f9ad9415bc967e08205858a5af5eecf03e7f2b0b9123eb6a2caf75a5af8
         - kind: historical
           title: Historical Note
           path: content/en/int/I/historical_note.md
@@ -70,7 +70,7 @@ chapters:
           statements: 16
           exercises: 12
           extraction: ocr
-          content_sha256: 32113a7d90414afcb3827cb2317f4b388db9fa35a79b7d1a5cb9dfa7b2c1ccfb
+          content_sha256: 5b84a5a362e671bca452220788052e26f2c7aace50cb318625f81c1093f98e0e
         - kind: section
           section: 2
           title: Linear forms on a Riesz space
@@ -83,7 +83,7 @@ chapters:
           statements: 13
           exercises: 9
           extraction: ocr
-          content_sha256: a99ab6a381386c576f23c9ce042fe0f61cb8482740d72d2558bf85513a4bd7f4
+          content_sha256: 9d00974d8a98c416163496def0aafa85ef87667b850822c6908abf8483ae2617
     - chapter: III
       title: MEASURES ON LOCALLY COMPACT SPACES
       sections:
@@ -108,7 +108,7 @@ chapters:
           statements: 41
           exercises: 18
           extraction: ocr
-          content_sha256: 74e10d794dcc33a0b67626dc69fa7c6ea7030ecbbbd4205c33f259bdb11d23d8
+          content_sha256: 00986b691c65a2a7abb7f49215452b85e68d9c52ccb2f5e7843609329b047859
         - kind: section
           section: 2
           title: Support of a measure
@@ -121,7 +121,7 @@ chapters:
           statements: 26
           exercises: 5
           extraction: ocr
-          content_sha256: 7734d12336d925e72881f81d6d32fad0063a3ed5a19a0cac962d4a91f9de9a67
+          content_sha256: 46c486b51ca243c057666628468799e401c5bc5336074d5902418d0aa50dca37
         - kind: section
           section: 3
           title: Integrals of continuous vector-valued functions
@@ -134,7 +134,7 @@ chapters:
           statements: 17
           exercises: 4
           extraction: ocr
-          content_sha256: 08e80431efbc022e93acec00bafa9892334f63e19b825a718a5f6da8a6173417
+          content_sha256: 938c5e2bae835b9fb977b9a8f0dcf6fd97e78aa85cb2ffbe500b20097c85aa10
         - kind: section
           section: 4
           title: Products of measures
@@ -147,7 +147,7 @@ chapters:
           statements: 22
           exercises: 8
           extraction: ocr
-          content_sha256: 6cce27b93cc8eb2432ea6f68fe801fc213586fdca8c9bffffb15f6d695b84b75
+          content_sha256: 46090ffe596a66de5ee06a18db66166b3f5d84751493c9d0ef4a1e9a6e249f77
     - chapter: IV
       title: EXTENSION OF A MEASURE. LP SPACES
       sections:
@@ -172,7 +172,7 @@ chapters:
           statements: 34
           exercises: 8
           extraction: ocr
-          content_sha256: fa8000aa164879c2412ecb823292e3a5f4f5f1167337ccfcb52c5077f1353f4a
+          content_sha256: 27c3b10ab223f74e9d41604f25c42351e7053a1d516f28ea68c66ff76d01477c
         - kind: section
           section: 2
           title: Negligible functions and sets
@@ -185,7 +185,7 @@ chapters:
           statements: 15
           exercises: 0
           extraction: ocr
-          content_sha256: 8ed4876b66e4b93e4252c89f40e59e5df51207d878e7a01e38c48f580a5ec1d0
+          content_sha256: 762de3cb00bf4cfa9b53b7a3a0b74ada1ed70f6aab72ccae19b058105ca629cd
         - kind: section
           section: 3
           title: LP spaces
@@ -198,7 +198,7 @@ chapters:
           statements: 44
           exercises: 3
           extraction: ocr
-          content_sha256: 812a66340239f25b1828be683de3b5699da898ca431dfbaf5ded37921ceceef0
+          content_sha256: 9f2223bce07c7f2bdc7ff4a17f3c536cce4b25f2d7c349ff5472bbb926cf2d7d
         - kind: section
           section: 4
           title: Integrable functions and sets
@@ -211,7 +211,7 @@ chapters:
           statements: 63
           exercises: 23
           extraction: ocr
-          content_sha256: 04515fb1fa953c06cc0b2f25528b8c99e5a79b5ad3a2d7ec3b4743f52081eec4
+          content_sha256: 44664051c6330badb1703bb68b0318df95f32abba8294f844ad108f5cee721a2
         - kind: section
           section: 5
           title: Measurable functions and sets
@@ -224,7 +224,7 @@ chapters:
           statements: 79
           exercises: 30
           extraction: ocr
-          content_sha256: b85b814c3ae5bcb32e9f9e7e5987a050289d1baf92bbcdace651dab5b897aa7f
+          content_sha256: d00fa574ed220b842b3c2d951df663dea01863acd4f469051e0003748ad7283e
         - kind: section
           section: 6
           title: Convexity inequalities
@@ -237,7 +237,7 @@ chapters:
           statements: 22
           exercises: 20
           extraction: ocr
-          content_sha256: 620a678b6145f9aecb2d7fa10cb1189bf44b0c751811b2152d367e638c2e239d
+          content_sha256: e7543f369626f54b7975ca90acc1c06c4323ed604b1e0ef42f46355d0815b55d
         - kind: section
           section: 7
           title: Barycenters
@@ -250,7 +250,7 @@ chapters:
           statements: 31
           exercises: 10
           extraction: ocr
-          content_sha256: d918fc8bfca5bdbfb7f09764b73864ce7ca0e6b0610a120b0c82f1ca0bbd082a
+          content_sha256: 01a859140339b63e2a3d681a5357be92cc6f3b9feeb7530ab638a41830f20290
     - chapter: V
       title: INTEGRATION OF MEASURES
       sections:
@@ -263,7 +263,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 577872949e784c0426901ef12430be72a26d4bed0d1e68215d2e36dc1c01e009
+          content_sha256: 4418e910f3b2267c79d9d6423f2c641d878bd10d8df6c395e2f6ed0188816230
         - kind: section
           section: 1
           title: Essential upper integral
@@ -276,7 +276,7 @@ chapters:
           statements: 22
           exercises: 6
           extraction: ocr
-          content_sha256: 9adb07a62fadd6e5f8620bda6421cb8411520345e999c2b98de2982037c52e39
+          content_sha256: ed3f86d415aca60dc4b5aac4b085985e62b299c49c4cf9f6e524280c4a654cc5
         - kind: section
           section: 2
           title: Summable families of positive measures
@@ -289,7 +289,7 @@ chapters:
           statements: 12
           exercises: 4
           extraction: ocr
-          content_sha256: 67f5fe101b21cf538af3c09dc97e270ed6343b8689b60190287e3daa14bd9f11
+          content_sha256: 730cfcb70644db90795e20bf6902026aa0227cd8eb96e17932cb562cdb07b859
         - kind: section
           section: 3
           title: Integration of positive measures
@@ -302,7 +302,7 @@ chapters:
           statements: 30
           exercises: 11
           extraction: ocr
-          content_sha256: 66a4d2a7bbfc4da3f2fa95c05151924ec8dffdd2326f34d8fc3c79fc8502f6b4
+          content_sha256: c86f6d9b6a8b568e9223ecc74e13272c1ca7d7b37e0e73528392645aac3cb190
         - kind: section
           section: 4
           title: Integration of positive point measures
@@ -315,7 +315,7 @@ chapters:
           statements: 10
           exercises: 2
           extraction: ocr
-          content_sha256: 3c0c4299b63b198ba8be5789099b080c2d5176490f2fda987ee1745f2a1fbb81
+          content_sha256: bf86c912bfbf840d62882f953aad2b6c1a84d05aab80bb348e1c142949b363e1
         - kind: section
           section: 5
           title: Measures defined by numerical densities
@@ -328,7 +328,7 @@ chapters:
           statements: 52
           exercises: 31
           extraction: ocr
-          content_sha256: 558c461f3e10e0b61d6e6a8d8129f54ba980ff5cc18f3a572913b450c90ee96e
+          content_sha256: a6af753e0363e53ed203d1339626c47d280bd8e41fec91dee692edb693588182
         - kind: section
           section: 6
           title: Images of a measure
@@ -341,7 +341,7 @@ chapters:
           statements: 29
           exercises: 22
           extraction: ocr
-          content_sha256: 0f32530c10e9761e5e1f1b4d8eee193fc1d3fd60b517404acc2a1858e06ffd2e
+          content_sha256: 93c9532dc8cfbbf18cb9e8db65200691e35dca8d22197e8a6eb067f46937d314
         - kind: section
           section: 7
           title: Integration with respect to an induced measure
@@ -354,7 +354,7 @@ chapters:
           statements: 20
           exercises: 11
           extraction: ocr
-          content_sha256: e030290ab411284cc4728d9904d084897c45e06cfc755ed71d47123bee0c7221
+          content_sha256: 5733973f5bdd9fd2e8b08ef663ed9020c730c1ae2dfe39d0ab80fd1f0ffc450c
         - kind: section
           section: 8
           title: Products of measures
@@ -367,7 +367,7 @@ chapters:
           statements: 31
           exercises: 21
           extraction: ocr
-          content_sha256: ea7732202a28d5050059674952e2d77a76b99bccdd01471ea0bafeea43972ee2
+          content_sha256: 181455724264e053d97bda81d66f9070cb5f0b9fb9becba9fd1eab23696302d8
         - kind: historical
           title: Historical Note
           path: content/en/int/V/historical_note.md
@@ -377,7 +377,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: de9c8c802c394e314ca6c9e4a81858bb488b10a79f1988b006573d45b08db7f0
+          content_sha256: 3d00fa85741617d26ce8593d9add45983d1d1f40fc67094a9040d7407e36d0dc
     - chapter: VI
       title: VECTORIAL INTEGRATION
       sections:
@@ -390,7 +390,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 8c285082422a6aa04885456e695d66f245796c6ea72c734b193cf78a7b9feb1f
+          content_sha256: 6082053ef3aa32b6a51584c62c7874c83fba1a6873895693bb1d7ae4bd30480c
         - kind: section
           section: 1
           title: Integration of vector-valued functions
@@ -402,7 +402,7 @@ chapters:
           statements: 34
           exercises: 27
           extraction: ocr
-          content_sha256: 700f5238b6835a0128f0c9da6a8c0df48ca0c3db61ed62e430c13385c23f98e2
+          content_sha256: 20b28e28c77d2e87f4b2cd1d85b6dade4c7468179f0c916ec9f4ddd2097b44f5
         - kind: section
           section: 2
           title: Vectorial measures . "
@@ -415,7 +415,7 @@ chapters:
           statements: 42
           exercises: 18
           extraction: ocr
-          content_sha256: c0699a05fcd003d689d1ef7236f74dbeccc9be256b88164dca1de27936510c0a
+          content_sha256: 8fe03c3f5b6cea3701d070ac512ded117c1bc41304800a37609294fa64057f25
         - kind: section
           section: 3
           title: Disintegration of measures
@@ -428,7 +428,7 @@ chapters:
           statements: 16
           exercises: 12
           extraction: ocr
-          content_sha256: 8879ed2dcbac290dcceecb297da3c70b77ffea9c231d05f50a9508eb784557f9
+          content_sha256: 750dc65d96c7938829c2e5588a97c1f03c8e0f04512b8bc62408a08635b07019
         - kind: appendix
           title: Complements on topological vector spaces
           path: content/en/int/VI/A_a_complements_on_topological_vector_spaces.md
@@ -439,7 +439,7 @@ chapters:
           statements: 6
           exercises: 0
           extraction: ocr
-          content_sha256: 8240c45f1ffa0d8d8e08d1eb351824879072712524201a0c8f5557c34643b259
+          content_sha256: fa681336d1c7c3ce37804fe10a6c5f646652b8a98de152b669f16c59e6f5d371
         - kind: historical
           title: Historical Note
           path: content/en/int/VI/historical_note.md

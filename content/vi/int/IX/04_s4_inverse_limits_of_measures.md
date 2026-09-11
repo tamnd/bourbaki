@@ -25,9 +25,9 @@ subsections:
       pdf_page: 236
 statements: 7
 exercises: 2
-content_sha256: f48585208cb7e6d951f003312b91bff4d77e509f8f6ca5f5ece8489386b05c9d
+content_sha256: 19f3ed84a75afabf313978664d95c6ab37447981ebe129f449ae6f18afa7dacc
 translated_from: content/en/int/IX/04_s4_inverse_limits_of_measures.md
-source_content_sha256: b4e7cd1d1788dbad199a14046cb0e8a2678d3219bed052cfd2b9150b2bbab48e
+source_content_sha256: f6b86d94d23d998e501a81e7ce38d28415459097713e8eb85fec3ccfe744d0c1
 translation_model: gpt-5.4
 translation_run: translate-vi-145f2a6b
 glossary_version: 34
@@ -72,11 +72,11 @@ Do đó, tồn tại một chỉ số i sao cho $M_i = \varnothing$. Với $j \g
 
 #### Định nghĩa 1 {#int-ix-s4-def-1 .statement}
 
-— Cho $\mathcal{T} = (T_i, p_{ij})$ là một hệ ngược các không gian tôpô được chỉ số hóa bởi I. Người ta gọi một hệ ngược (tương ứng, một hệ con ngược) các độ đo trên $\mathcal{T}$ là một họ $(\mu_i)_{i \in I}$, trong đó $\mu_i$ là một độ đo bị chặn trên $T_i$ với mọi $i \in I$, và trong đó $\mu_i = p_{ij}(\mu_j)$ (tương ứng, $\mu_i \geq p_{ij}(\mu_j)$) nếu $i \leq j$.
+— Cho $\mathscr{T} = (T_i, p_{ij})$ là một hệ ngược các không gian tôpô được chỉ số hóa bởi I. Người ta gọi một hệ ngược (tương ứng, một hệ con ngược) các độ đo trên $\mathscr{T}$ là một họ $(\mu_i)_{i \in I}$, trong đó $\mu_i$ là một độ đo bị chặn trên $T_i$ với mọi $i \in I$, và trong đó $\mu_i = p_{ij}(\mu_j)$ (tương ứng, $\mu_i \geq p_{ij}(\mu_j)$) nếu $i \leq j$.
 
 #### Mệnh đề 3 {#int-ix-s4-prop-3 .statement}
 
-*Cho một hệ ngược các không gian tôpô $\mathcal{T} = (T_i, p_{ij})$ được đánh chỉ số bởi $I$, một không gian tôpô $T$, một họ kết hợp và tách biệt các ánh xạ liên tục $p_i : T \to T_i$ (với $i \in I$) và một hệ con ngược $(\mu_i)_{i \in I}$ các độ đo trên $\mathcal{T}$. Với mọi tập con compact K của $T$, đặt*
+*Cho một hệ ngược các không gian tôpô $\mathscr{T} = (T_i, p_{ij})$ được đánh chỉ số bởi $I$, một không gian tôpô $T$, một họ kết hợp và tách biệt các ánh xạ liên tục $p_i : T \to T_i$ (với $i \in I$) và một hệ con ngược $(\mu_i)_{i \in I}$ các độ đo trên $\mathscr{T}$. Với mọi tập con compact K của $T$, đặt*
 
 $$
 J(K) = \inf_{i \in I} \mu_i^\bullet(p_i(K)).
@@ -113,15 +113,15 @@ J(K) = \inf_{i \in I} \mu_i^\bullet(p_i(K)) = \inf_{i \in I} \inf_{\alpha \in A}
 $$
 5) Hãy chọn một $i \in I$ và đặt $c = \mu_i^\bullet(T_i)$. Khi đó $c$ là hữu hạn và $J(K) \leq \mu_i^\bullet(p_i(K)) \leq \mu_i^\bullet(T_i)$, vậy $J(K) \leq c$ với mọi tập compact $K$ trong $T$.
 
-Các tính chất đi trước cho phép áp dụng Đl. 1 của § 3, No. 1; ta kết luận rằng tồn tại một và chỉ một độ đo bị chặn $\pi$ trên $T$ sao cho $\pi^\bullet(K) = J(K)$ với mọi tập con compắc $K$ của $T$. Với mỗi $i \in I$, ký hiệu bởi $\nu_i$ độ đo trên $T_i$ là ảnh của $\pi$ qua $p_i$. Cho $i \in I$, $A$ là một tập con compắc của $T_i$, và $\mathcal{L}$ là tập hợp các tập con compắc của $\overline{p_i^{-1}(A)}$. Theo Nhận xét 3 của § 1, No. 2, ta có $\pi^\bullet(\overline{p_i^{-1}(A)}) = \sup_{K \in \mathcal{L}} \pi^\bullet(K)$; hơn nữa, $\nu_i^\bullet(A) = \pi^\bullet(\overline{p_i^{-1}(A)})$ và $J(K) = \pi^\bullet(K)$ với $K \in \mathcal{L}$, do đó $\nu_i^\bullet(A) = \sup_{K \in \mathcal{L}} J(K)$.
+Các tính chất đi trước cho phép áp dụng Đl. 1 của § 3, No. 1; ta kết luận rằng tồn tại một và chỉ một độ đo bị chặn $\pi$ trên $T$ sao cho $\pi^\bullet(K) = J(K)$ với mọi tập con compắc $K$ của $T$. Với mỗi $i \in I$, ký hiệu bởi $\nu_i$ độ đo trên $T_i$ là ảnh của $\pi$ qua $p_i$. Cho $i \in I$, $A$ là một tập con compắc của $T_i$, và $\mathscr{L}$ là tập hợp các tập con compắc của $\overline{p_i^{-1}(A)}$. Theo Nhận xét 3 của § 1, No. 2, ta có $\pi^\bullet(\overline{p_i^{-1}(A)}) = \sup_{K \in \mathscr{L}} \pi^\bullet(K)$; hơn nữa, $\nu_i^\bullet(A) = \pi^\bullet(\overline{p_i^{-1}(A)})$ và $J(K) = \pi^\bullet(K)$ với $K \in \mathscr{L}$, do đó $\nu_i^\bullet(A) = \sup_{K \in \mathscr{L}} J(K)$.
 
-Với $K \in \mathcal{L}$, ta có $p_i(K) \subset A$, do đó $J(K) \leq \mu_i^\bullet(p_i(K)) \leq \mu_i^\bullet(A)$ và cuối cùng $\nu_i^\bullet(A) \leq \mu_i^\bullet(A)$. Vì $A$ là một tập compact tùy ý trong $T_i$, ta kết luận rằng $\nu_i \leq \mu_i$. Khẳng định cuối cùng của mệnh đề là hiển nhiên.
+Với $K \in \mathscr{L}$, ta có $p_i(K) \subset A$, do đó $J(K) \leq \mu_i^\bullet(p_i(K)) \leq \mu_i^\bullet(A)$ và cuối cùng $\nu_i^\bullet(A) \leq \mu_i^\bullet(A)$. Vì $A$ là một tập compact tùy ý trong $T_i$, ta kết luận rằng $\nu_i \leq \mu_i$. Khẳng định cuối cùng của mệnh đề là hiển nhiên.
 
 Q.E.D.
 
 #### Định lý 1 (Prokhorov) {#int-ix-s4-thm-1 .statement}
 
-— *Cho $\mathcal{T} = (T_i, p_{ij})$ là một hệ ngược các không gian tôpô được đánh chỉ số bởi $I$, $T$ là một không gian tôpô và $(p_i)_{i \in I}$ là một họ tương thích và phân biệt các ánh xạ liên tục $p_i : T \to T_i$. Sau hết, giả sử $(\mu_i)_{i \in I}$ là một hệ ngược các độ đo trên $\mathcal{T}$.
+— *Cho $\mathscr{T} = (T_i, p_{ij})$ là một hệ ngược các không gian tôpô được đánh chỉ số bởi $I$, $T$ là một không gian tôpô và $(p_i)_{i \in I}$ là một họ tương thích và phân biệt các ánh xạ liên tục $p_i : T \to T_i$. Sau hết, giả sử $(\mu_i)_{i \in I}$ là một hệ ngược các độ đo trên $\mathscr{T}$.
 
 Để tồn tại một độ đo bị chặn $\mu$ trên $T$ sao cho $p_i(\mu) = \mu_i$ với mọi $i \in I$, điều kiện cần và đủ là điều kiện sau được thỏa mãn:
 
@@ -146,9 +146,9 @@ Theo Mệnh đề 3, tồn tại một độ đo bị chặn $\pi$ trên $T$ sao
 
 Với $i \leq j$, ta có $\mu_i = p_{ij}(\mu_j)$, do đó $\mu_i^\bullet(T_i) = \mu_j^\bullet(T_j)$; vì $I$ có hướng, tồn tại một số hữu hạn $c \geq 0$ sao cho $\mu_i^\bullet(T_i) = c$ với mọi $i \in I$. Theo Mệnh đề 3, độ đo $\mu_i - p_i(\pi)$ là dương, do đó nó bằng không khi và chỉ khi khối lượng toàn phần của nó bằng không, nghĩa là khi $\mu_i(T_i) = p_i(\pi)^\bullet(T_i)$. Vì $p_i(\pi)^\bullet(T_i) = \pi^\bullet(T)$, nên điều kiện (P') do đó tương đương với $\pi^\bullet(T) = c$, tức là (§ 1, No. 2, Nhận xét 3) với tính chất:
 
-(P'') $\sup_{K \in \mathcal{K}} \pi^\bullet(K) = c$, trong đó $\mathcal{K}$ là tập hợp các tập con compact của $T$.
+(P'') $\sup_{K \in \mathscr{K}} \pi^\bullet(K) = c$, trong đó $\mathscr{K}$ là tập hợp các tập con compact của $T$.
 
-Bây giờ, với $K \in \mathcal{K}$, ta có
+Bây giờ, với $K \in \mathscr{K}$, ta có
 
 $$
 \pi^\bullet(K) = \inf_{i \in I} \mu_i^\bullet(p_i(K)) = c - \sup_{i \in I} \mu_i^\bullet(T_i - p_i(K))
@@ -162,7 +162,7 @@ Cho $(T_i, p_{ij})$ là một hệ ngược các không gian tôpô. Đặt $T =
 
 #### Nhận xét {#int-ix-s4-n2-rem-1 .statement}
 
-— Cho $(\mu_i)_{i \in I}$ là một hệ ngược các độ đo trên hệ ngược các không gian $\mathcal{T} = (T_i, p_{ij})$. Giả sử đã cho một không gian tôpô $T'$ và các ánh xạ liên tục $p'_i : T' \to T_i$; giả sử rằng họ $(p'_i)_{i \in I}$ là tương hợp, nhưng không nhất thiết phân biệt các điểm. *Nếu điều kiện Prokhorov (P) được thỏa mãn bởi họ* $(p'_i)_{i \in I}$, *thì tồn tại một độ đo* $\mu'$ (*không nhất thiết duy nhất*) *trên* $T'$ *sao cho* $p'_i(\mu') = \mu_i$ *với mọi* $i \in I$.
+— Cho $(\mu_i)_{i \in I}$ là một hệ ngược các độ đo trên hệ ngược các không gian $\mathscr{T} = (T_i, p_{ij})$. Giả sử đã cho một không gian tôpô $T'$ và các ánh xạ liên tục $p'_i : T' \to T_i$; giả sử rằng họ $(p'_i)_{i \in I}$ là tương hợp, nhưng không nhất thiết phân biệt các điểm. *Nếu điều kiện Prokhorov (P) được thỏa mãn bởi họ* $(p'_i)_{i \in I}$, *thì tồn tại một độ đo* $\mu'$ (*không nhất thiết duy nhất*) *trên* $T'$ *sao cho* $p'_i(\mu') = \mu_i$ *với mọi* $i \in I$.
 
 Thật vậy, đặt $T = \lim_{\leftarrow} T_i$ và $p' = (p'_i)_{i \in I}$, và ký hiệu bởi $p_i$ ánh xạ chính tắc từ $T$ vào $T_i$; điều kiện của Prokhorov được thỏa mãn bởi $T$ và các $p_i$, vì $p_i(p'(K')) = p'_i(K')$ và $p'(K')$ là compact trong $T$ với mọi tập con compact $K'$ của $T'$. Theo Định lý 1, tồn tại một độ đo bị chặn $\mu$ trên $T$ sao cho $p_i(\mu) = \mu_i$ với mọi $i \in I$. Cho $K'$ là một tập compact trong $T'$; khi đó $\mu^\bullet(p'(K')) = \inf_{i \in I} \mu_i^\bullet(p'_i(K'))$, do đó
 $$
@@ -174,7 +174,7 @@ Cho $\varepsilon > 0$; bởi vì điều kiện (P) của Prokhorov được th�
 
 #### Định lý 2 {#int-ix-s4-thm-2 .statement}
 
-— *Giả sử tập tiền thứ tự có hướng I có một tập con đồng cuối đếm được. Cho $\mathcal{T} = (T_i, p_{ij})$ là một hệ ngược các không gian tôpô, $T = \lim_{\leftarrow} T_i$ và $p_i$ là ánh xạ chính tắc từ $T$ vào $T_i$. Khi đó mọi hệ ngược $(\mu_i)_{i \in I}$ các độ đo trên $\mathcal{T}$ đều thừa nhận một giới hạn ngược.*
+— *Giả sử tập tiền thứ tự có hướng I có một tập con đồng cuối đếm được. Cho $\mathscr{T} = (T_i, p_{ij})$ là một hệ ngược các không gian tôpô, $T = \lim_{\leftarrow} T_i$ và $p_i$ là ánh xạ chính tắc từ $T$ vào $T_i$. Khi đó mọi hệ ngược $(\mu_i)_{i \in I}$ các độ đo trên $\mathscr{T}$ đều thừa nhận một giới hạn ngược.*
 
 Trước hết ta xét trường hợp $I = \mathbf{N}$ và đặt $q_n = p_{n,n+1}$. Cho $\varepsilon > 0$. Định nghĩa quy nạp một dãy các tập compact $L_n \subset T_n$ như sau: $L_0$ là một tập compact của $T_0$ sao cho $\mu_0^\bullet(T_0 - L_0) \leq \varepsilon/2$, và với $n \geq 0$ tập compact $L_{n+1}$ được chứa trong $\overline{q_n^{-1}(L_n)}$ và thỏa mãn
 $$

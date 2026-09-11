@@ -12,7 +12,7 @@ pdf_pages: 0302-0332
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 686e455fd1bc761ce7ef4ea6e90431fd7178a3bf36ff3025d0a35ef4e90e4f6c
+content_sha256: 2de55ed34e82b268a16cb95da25dc5d7eb00757ea34c10f73c5e635c84fe40eb
 translated_from: content/en/int/IX/historical_note.md
 source_content_sha256: 99a55fef46c115102e6ca090941abc261582890dfee3c615e90b28ab94c2f2b9
 translation_model: gpt-5.4-mini, gpt-5-6-mini
@@ -84,13 +84,13 @@ Ta mang ơn Wiener về tiến bộ cốt yếu: nếu không có một độ đ
 (4) Chính xác hơn, ta có kết quả sau. Cho $U$ là một tự đẳng cấu của không gian Hilbert $l^2$, và $(u_{mn})$ là ma trận của $U$. Gọi E là không gian vectơ của tất cả các dãy thực $(x_n)_{n \geqslant 1}$ và F là không gian con của E tạo bởi các dãy $(x_n)_{n \geqslant 1}$ mà đối với chúng chuỗi $\sum_{n \geqslant 1} u_{mn} x_n$ hội tụ với mọi $m \geqslant 1$. Công thức $(\widetilde{U}x)_m = \sum_{n \geqslant 1} u_{mn} x_n$ định nghĩa một ánh xạ tuyến tính $\widetilde{U}$ từ F vào E, độ đo $\Gamma$ tập trung trên F, và $\widetilde{U}(\Gamma) = \Gamma$.
 
 (5) Khái niệm này được đưa vào dưới tên gọi “phân bố chính tắc yếu” bởi I. E. Segal (*Trans. Amer. Math. Soc.* **88** (1958), 12–42). Ta phải ghi công tác giả này về một nghiên cứu chi tiết các độ đo pro-Gauss, và sự áp dụng của chúng vào một số bài toán trong lý thuyết trường lượng tử.
-} xây dựng bằng phép toán nguyên thủy một độ đo $w$ trên một không gian các hàm liên tục bắt đầu từ một độ đo pro-Gauss (xem §6, No. 7, Định lý 1 về các chi tiết). Ta sẽ giải thích ngắn gọn phép dựng ban đầu của Wiener đối với $w$ (X); nó chịu ảnh hưởng trực tiếp bởi quan hệ $\Gamma = \lim_{m \to \infty} \sigma_{m, \sqrt{m}}$ của Gâteaux và Lévy. Với mỗi số nguyên $m \geqslant 1$, ký hiệu $H_m$ là tập hợp các hàm trên $T = ]0, 1]$ không đổi trên mỗi khoảng $\left[ \frac{k-1}{m}, \frac{k}{m} \right]$ (với $k = 1, 2, \ldots, m$), và ký hiệu $\pi_m$ là độ đo khối lượng 1, bất biến qua phép quay, trên mặt cầu Euclid bán kính 1 trong $\mathbf{R}^m$. Gọi $f_m$ là đẳng cấu của $H_m$ lên $\mathbf{R}^m$ gán cho mỗi hàm nhận giá trị $a_k$ trên khoảng $\left[ \frac{k-1}{m}, \frac{k}{m} \right]$ vectơ $(a_1, a_2 - a_1, \ldots, a_m - a_{m-1})$ (do đó có thuật ngữ ‘không gian vi phân’ được Wiener ưa dùng); ký hiệu $w_m$ là độ đo trên $H_m$ là ảnh của $\pi_m$ qua $f_m^{-1}$. Wiener định nghĩa độ đo mong muốn $w$ là giới hạn của các độ đo $w_m$. Chính xác hơn, hãy ký hiệu $H$ là tập hợp các hàm điều hòa từng đoạn trên $T$, với tôpô hội tụ đều (ta có $H_m \subset H$ với mọi số nguyên $m \geqslant 1$); với mọi hàm $F$ bị chặn liên tục đều trên $H$, giới hạn $A\{F\} = \lim_{m \to \infty} \int_{H_m} F(x) \, dw_m(x)$ tồn tại; tiếp theo, Wiener thu được một số chặn trên nhờ một phân tích tinh tế các dao động của trò chơi sấp-ngửa, và tiếp tục các lập luận về tính compact được Daniell nêu bật, ông chỉ ra rằng ta đang ở trong các điều kiện để áp dụng định lý mở rộng Daniell. Ta kết luận sự tồn tại của một độ đo $w$ mang bởi $\mathcal{C}(T)$ và sao cho $A\{F\} = \int_{\mathcal{C}(T)} F(x) \, dw(x)$. Khi đó Wiener có thể chỉ ra rằng độ đo $w$ tương ứng với các giả thuyết của Einstein,(6) và các ước lượng của ông cho phép ông đưa ra ý nghĩa chính xác cho nhận xét của Perrin về các hàm không có đạo hàm: tập hợp các hàm thỏa mãn điều kiện Lipschitz cấp $\frac{1}{2}$ là không đáng kể đối với $w$ (tuy nhiên, với mọi $a$ sao cho $0 < a < \frac{1}{2}$, hầu hết mọi hàm đều thỏa mãn điều kiện Lipschitz cấp $a$).
+} xây dựng bằng phép toán nguyên thủy một độ đo $w$ trên một không gian các hàm liên tục bắt đầu từ một độ đo pro-Gauss (xem §6, No. 7, Định lý 1 về các chi tiết). Ta sẽ giải thích ngắn gọn phép dựng ban đầu của Wiener đối với $w$ (X); nó chịu ảnh hưởng trực tiếp bởi quan hệ $\Gamma = \lim_{m \to \infty} \sigma_{m, \sqrt{m}}$ của Gâteaux và Lévy. Với mỗi số nguyên $m \geqslant 1$, ký hiệu $H_m$ là tập hợp các hàm trên $T = ]0, 1]$ không đổi trên mỗi khoảng $\left[ \frac{k-1}{m}, \frac{k}{m} \right]$ (với $k = 1, 2, \ldots, m$), và ký hiệu $\pi_m$ là độ đo khối lượng 1, bất biến qua phép quay, trên mặt cầu Euclid bán kính 1 trong $\mathbf{R}^m$. Gọi $f_m$ là đẳng cấu của $H_m$ lên $\mathbf{R}^m$ gán cho mỗi hàm nhận giá trị $a_k$ trên khoảng $\left[ \frac{k-1}{m}, \frac{k}{m} \right]$ vectơ $(a_1, a_2 - a_1, \ldots, a_m - a_{m-1})$ (do đó có thuật ngữ ‘không gian vi phân’ được Wiener ưa dùng); ký hiệu $w_m$ là độ đo trên $H_m$ là ảnh của $\pi_m$ qua $f_m^{-1}$. Wiener định nghĩa độ đo mong muốn $w$ là giới hạn của các độ đo $w_m$. Chính xác hơn, hãy ký hiệu $H$ là tập hợp các hàm điều hòa từng đoạn trên $T$, với tôpô hội tụ đều (ta có $H_m \subset H$ với mọi số nguyên $m \geqslant 1$); với mọi hàm $F$ bị chặn liên tục đều trên $H$, giới hạn $A\{F\} = \lim_{m \to \infty} \int_{H_m} F(x) \, dw_m(x)$ tồn tại; tiếp theo, Wiener thu được một số chặn trên nhờ một phân tích tinh tế các dao động của trò chơi sấp-ngửa, và tiếp tục các lập luận về tính compact được Daniell nêu bật, ông chỉ ra rằng ta đang ở trong các điều kiện để áp dụng định lý mở rộng Daniell. Ta kết luận sự tồn tại của một độ đo $w$ mang bởi $\mathscr{C}(T)$ và sao cho $A\{F\} = \int_{\mathscr{C}(T)} F(x) \, dw(x)$. Khi đó Wiener có thể chỉ ra rằng độ đo $w$ tương ứng với các giả thuyết của Einstein,(6) và các ước lượng của ông cho phép ông đưa ra ý nghĩa chính xác cho nhận xét của Perrin về các hàm không có đạo hàm: tập hợp các hàm thỏa mãn điều kiện Lipschitz cấp $\frac{1}{2}$ là không đáng kể đối với $w$ (tuy nhiên, với mọi $a$ sao cho $0 < a < \frac{1}{2}$, hầu hết mọi hàm đều thỏa mãn điều kiện Lipschitz cấp $a$).
 
 Ngày nay, đã biết nhiều phép dựng độ đo Wiener. Chẳng hạn, Paley và Wiener dùng các chuỗi Fourier ngẫu nhiên (XI, Ch. IX): với mỗi số thực
 
 (6) Điều này có thể được biểu diễn bằng công thức
 $$
-\int_{\mathcal{C}(T)} f(x(t_1), \ldots, x(t_n)) \, dw(x) =
+\int_{\mathscr{C}(T)} f(x(t_1), \ldots, x(t_n)) \, dw(x) =
 (2\pi)^{-n/2} \prod_{i=1}^n (t_i - t_{i-1})^{-1/2} \int \cdots \int f(x_1, \ldots, x_n) \exp \left( -\frac{1}{2} \sum_{i=1}^n \frac{(x_i - x_{i-1})^2}{t_i - t_{i-1}} \right) dx_1 \cdots dx_n,
 $$
 trong đó $f$ là một hàm liên tục bị chặn tùy ý trên $\mathbf{R}^n$ và trong đó $0 = t_0 < t_1 < \cdots < t_n \leqslant 1$ (ta quy ước $x_0 = 0$). Wiener, được Hardy rèn luyện về tính chặt chẽ giải tích, và hoàn toàn có lý do để nghi ngờ các nền tảng của Lý thuyết Xác suất vào thời đó, đã cẩn thận không sử dụng thuật ngữ hoặc kết quả xác suất. Do đó các hồi ký của ông đầy những công thức đáng sợ mà công thức trên đây là một ví dụ; hoàn cảnh này là một trong những yếu tố làm chậm sự phổ biến các ý tưởng của Wiener.
@@ -111,7 +111,7 @@ Giới hạn ngược của các độ đo
 
 Steinhaus (V) dường như là người đầu tiên cảm thấy cần phải xét (đối với trò tung đồng xu) không chỉ hệ ngược $(P_n)_{n \geq 1}$ mà cả giới hạn của nó nữa. Hơi sớm hơn một chút, năm 1919, Daniell (VI, $b$) đã chứng minh một cách tổng quát sự tồn tại của những giới hạn ngược như thế,$^{(7)}$ nhưng kết quả này dường như đã không được biết đến ở châu Âu. Nó được Kolmogoroff phát hiện lại vào năm 1933 trong công trình (XII), nơi tác giả trình bày quan niệm tiên đề của Lý thuyết xác suất. Các chứng minh của Daniell và Kolmogoroff dùng một lập luận về tính compact, về thực chất cũng giống như lập luận mà chúng tôi đã dùng trong ĐL. 2 của §4, No. 3 và dựa trên định lý của Dini.
 
-Định lý Daniell–Kolmogoroff quả thật không để lại điều gì phải mong đợi trong trường hợp các dãy ngẫu nhiên $(X_n)_{n \geq 1}$, nhưng việc nghiên cứu các hàm ngẫu nhiên do Kolmogoroff, Feller và Doob tiến hành từ năm 1935 lại chứa đựng những khó khăn thuộc một bậc hoàn toàn khác. Xét chẳng hạn một khoảng $T$ của $\mathbf{R}$, biểu thị tập hợp các thời điểm quan sát của một 'quá trình ngẫu nhiên'; tập hợp các quỹ đạo có thể là không gian tích $\mathbf{R}^T$, được xem như giới hạn ngược của các tích từng phần $\mathbf{R}^H$, trong đó $H$ chạy qua tập hợp các tập con hữu hạn của $T$; nói chung người ta giả thiết đã cho một hệ ngược các độ đo $(\mu_H)$ (xem §4, No. 2). Định lý của Kolmogoroff quả thật cho một độ đo trên $\mathbf{R}^T$, nhưng nó chỉ được xác định trên một σ-đại số nhỏ hơn đáng kể so với σ-đại số Borel.$^{(8)}$ Một biến thể của phép dựng của Kolmogoroff, cho ra một độ đo trên một không gian tôpô, là do Kakutani (*Proc. Imp. Acad. Tokyo* 19 (1943), 184–188), và từ đó đã nhiều lần được phát hiện lại: người ta xem $\mu_H$ như một độ đo trên $\overline{\mathbf{R}}^H$ mang bởi $\mathbf{R}^H$;$^{(9)}$ không gian compact $E = \overline{\mathbf{R}}^T$ là giới hạn ngược của các tích hữu hạn $\overline{\mathbf{R}}^H$ và có thể định nghĩa một độ đo $\mu$ trên $E$ như là giới hạn ngược của các $\mu_H$ (xem Ch. III, §4, No. 5). Tuy nhiên, phương pháp này có một bất tiện nghiêm trọng; các phần tử của $\overline{\mathbf{R}}^T$ không có tính chất chính quy nào cho phép tiến hành việc nghiên cứu xác suất của quá trình - hay thậm chí chỉ đơn giản xóa bỏ các giá trị ký sinh $\pm \infty$ do phép compact hóa $\overline{\mathbf{R}}$ của $\mathbf{R}$ đưa vào. Điều này có thể khắc phục bằng cách cảm sinh độ đo $\mu$ của $\overline{\mathbf{R}}^T$ trên một không gian con cụ thể (chẳng hạn $\mathcal{C}(T)$ trong trường hợp chuyển động Brown); khó khăn cơ bản phát sinh từ thực tế rằng một không gian hàm, ngay cả một không gian thuộc kiểu thường gặp, không nhất thiết là $\mu$-đo được trong $\overline{\mathbf{R}}^T$, và ngay cả việc lựa chọn không gian hàm cũng có thể gây nghi vấn.$^{(10)}$
+Định lý Daniell–Kolmogoroff quả thật không để lại điều gì phải mong đợi trong trường hợp các dãy ngẫu nhiên $(X_n)_{n \geq 1}$, nhưng việc nghiên cứu các hàm ngẫu nhiên do Kolmogoroff, Feller và Doob tiến hành từ năm 1935 lại chứa đựng những khó khăn thuộc một bậc hoàn toàn khác. Xét chẳng hạn một khoảng $T$ của $\mathbf{R}$, biểu thị tập hợp các thời điểm quan sát của một 'quá trình ngẫu nhiên'; tập hợp các quỹ đạo có thể là không gian tích $\mathbf{R}^T$, được xem như giới hạn ngược của các tích từng phần $\mathbf{R}^H$, trong đó $H$ chạy qua tập hợp các tập con hữu hạn của $T$; nói chung người ta giả thiết đã cho một hệ ngược các độ đo $(\mu_H)$ (xem §4, No. 2). Định lý của Kolmogoroff quả thật cho một độ đo trên $\mathbf{R}^T$, nhưng nó chỉ được xác định trên một σ-đại số nhỏ hơn đáng kể so với σ-đại số Borel.$^{(8)}$ Một biến thể của phép dựng của Kolmogoroff, cho ra một độ đo trên một không gian tôpô, là do Kakutani (*Proc. Imp. Acad. Tokyo* 19 (1943), 184–188), và từ đó đã nhiều lần được phát hiện lại: người ta xem $\mu_H$ như một độ đo trên $\overline{\mathbf{R}}^H$ mang bởi $\mathbf{R}^H$;$^{(9)}$ không gian compact $E = \overline{\mathbf{R}}^T$ là giới hạn ngược của các tích hữu hạn $\overline{\mathbf{R}}^H$ và có thể định nghĩa một độ đo $\mu$ trên $E$ như là giới hạn ngược của các $\mu_H$ (xem Ch. III, §4, No. 5). Tuy nhiên, phương pháp này có một bất tiện nghiêm trọng; các phần tử của $\overline{\mathbf{R}}^T$ không có tính chất chính quy nào cho phép tiến hành việc nghiên cứu xác suất của quá trình - hay thậm chí chỉ đơn giản xóa bỏ các giá trị ký sinh $\pm \infty$ do phép compact hóa $\overline{\mathbf{R}}$ của $\mathbf{R}$ đưa vào. Điều này có thể khắc phục bằng cách cảm sinh độ đo $\mu$ của $\overline{\mathbf{R}}^T$ trên một không gian con cụ thể (chẳng hạn $\mathscr{C}(T)$ trong trường hợp chuyển động Brown); khó khăn cơ bản phát sinh từ thực tế rằng một không gian hàm, ngay cả một không gian thuộc kiểu thường gặp, không nhất thiết là $\mu$-đo được trong $\overline{\mathbf{R}}^T$, và ngay cả việc lựa chọn không gian hàm cũng có thể gây nghi vấn.$^{(10)}$
 
 
 (7) Daniell đã xét trường hợp các độ đo trên một tích $\prod_{n \geq 1} I_n$ của các khoảng compact của $\mathbf{R}$, nhưng phương pháp của ông mở rộng ngay lập tức sang trường hợp một tích tùy ý của các không gian compact; về thực chất đó là phương pháp chúng tôi đã dùng trong Ch. III, §4, No. 5.
@@ -140,9 +140,9 @@ Việc nghiên cứu các mối liên hệ giữa tôpô và lý thuyết độ 
 
 tầm quan trọng của các không gian này đã tăng lên rất nhiều, thậm chí còn hơn nữa khi người ta nhận ra rằng lý thuyết của chúng có thể được xây dựng mà không cần giả thiết mêtric hóa, và rằng gần như toàn bộ các không gian hàm đều là Souslin (thường hơn nữa, là Lusin).(15) Đây là những lý do khiến chúng tôi đặt trọng tâm vào các độ đo chính quy trong trong chương này.
 
-Việc định nghĩa một mode hội tụ (mơ hồ hay chặt) cho các độ đo được làm thuận tiện nhất bằng cách đặt không gian các độ đo vào thế đối ngẫu với một không gian các hàm liên tục. Khái quát hóa một kết quả cũ của F. Riesz, A. A. Markoff đã thiết lập năm 1938 một sự tương ứng một-một giữa các phiếm hàm dương trên $\mathcal{C}(X)$ và các độ đo chính quy trên một không gian compact X. Trong công trình (XIX) đã được dẫn ở trên, A. D. Alexandroff mở rộng các kết quả này sang trường hợp một không gian hoàn toàn chính quy: ông đưa vào một thứ bậc trong tập hợp các dạng tuyến tính dương trên không gian $\mathcal{C}^b(X)$ của các hàm liên tục bị chặn trên một không gian hoàn toàn chính quy X,(16) ông định nghĩa sự hội tụ chặt của các độ đo bị chặn và chứng minh trong số đó, ngoài ra, hai định lý sau:
+Việc định nghĩa một mode hội tụ (mơ hồ hay chặt) cho các độ đo được làm thuận tiện nhất bằng cách đặt không gian các độ đo vào thế đối ngẫu với một không gian các hàm liên tục. Khái quát hóa một kết quả cũ của F. Riesz, A. A. Markoff đã thiết lập năm 1938 một sự tương ứng một-một giữa các phiếm hàm dương trên $\mathscr{C}(X)$ và các độ đo chính quy trên một không gian compact X. Trong công trình (XIX) đã được dẫn ở trên, A. D. Alexandroff mở rộng các kết quả này sang trường hợp một không gian hoàn toàn chính quy: ông đưa vào một thứ bậc trong tập hợp các dạng tuyến tính dương trên không gian $\mathscr{C}^b(X)$ của các hàm liên tục bị chặn trên một không gian hoàn toàn chính quy X,(16) ông định nghĩa sự hội tụ chặt của các độ đo bị chặn và chứng minh trong số đó, ngoài ra, hai định lý sau:
 
-a) nếu X là Polish, tập hợp các dạng tuyến tính trên $\mathcal{C}^b(X)$ tương ứng với các độ đo là đóng đối với sự hội tụ yếu của các dãy;
+a) nếu X là Polish, tập hợp các dạng tuyến tính trên $\mathscr{C}^b(X)$ tương ứng với các độ đo là đóng đối với sự hội tụ yếu của các dãy;
 b) nếu một dãy các độ đo bị chặn có một giới hạn chặt, thì 'không có khối lượng nào thoát ra ở vô cực' (đây là một dạng yếu của mệnh đề đảo của định lý Prokhorov về hội tụ chặt).
 
 Từ sự phong phú của các khái niệm và định lý này, Prokhorov đã có thể rút ra những kết quả quan trọng cho lý thuyết các quá trình ngẫu nhiên, và trình bày chúng dưới một dạng đơn giản và nổi bật. Trong công trình lớn năm 1956 đã được dẫn ở trên (XIII), một phần lớn dành cho các độ đo dương bị chặn trên một không gian Polish; khái quát hóa một phép dựng của Lévy, ông định nghĩa một mêtric trên tập hợp các độ đo dương có khối lượng 1 làm cho nó trở thành một không gian Polish, rồi thiết lập một tiêu chuẩn compact quan trọng cho sự hội tụ chặt (xem §5, No. 5, Th. 1). Độc lập với Prokhorov, Le Cam (XX) đã thu được một số kết quả compact cho sự hội tụ chặt của các độ đo; ông không đặt ra giả thiết khả metr hóa nào trên các không gian mà ông xét, và các kết quả của ông rút gọn về các định lý trước đó của Dieudonné trong trường hợp compact địa phương.
@@ -207,7 +207,7 @@ $\mathrm{mod}_G \varphi ,\ \mathrm{mod}\varphi$ ($\varphi$ là một tự đẳn
 $\mathbf{Z}_p$ ($p$ là một số nguyên tố): VII, 1, 6.
 $K^+$ ($K$ là một trường): VII, 1, 10.
 $\mathrm{mod}_K a ,\ \mathrm{mod}\ a$ ($a$ là một phần tử của một trường địa phương compact $K$): VII, 1, 10.
-$\mathcal{H}^\chi(X) ,\ \mathcal{H}_+^\chi(X) ,\ \mathcal{H}^1(X) ,\ f^\chi ,\ f^1$ ($X$ là một không gian địa phương compact trong đó một nhóm địa phương compact $H$ tác động, $\chi$ là một biểu diễn liên tục của $H$ trong $\mathbf{R}_+^*$): VII, 2, 1.
+$\mathscr{H}^\chi(X) ,\ \mathscr{H}_+^\chi(X) ,\ \mathscr{H}^1(X) ,\ f^\chi ,\ f^1$ ($X$ là một không gian địa phương compact trong đó một nhóm địa phương compact $H$ tác động, $\chi$ là một biểu diễn liên tục của $H$ trong $\mathbf{R}_+^*$): VII, 2, 1.
 $f^b$: VII, 2, 2.
 $\lambda^{\#} ,\ \frac{\mu}{\beta} ,\ \mu/\beta$: VII, 2, 2.
 $m^{\#}$ ($m$ là một độ đo vectơ): VII, 2, 2.
@@ -219,16 +219,16 @@ $*_{i=1}^n \mu_i ,\ *\varphi(\mu_i)_{1 \leq i \leq n} ,\ \mu_1 * \mu_2 * \cdots 
 $\gamma_\chi$: VIII, 2, 3 and VIII, 2, 4.
 $\gamma_{\chi,p}$: VIII, 2, 5.
 $U(\mu)$ ($U$ là một biểu diễn của một nhóm địa phương compact $G$, $\mu$ là một độ đo trên $G$): VIII, 2, 6.
-$\mathcal{M}^\rho(G)$ ($G$ là một nhóm địa phương compact): VIII, 3, 1.
+$\mathscr{M}^\rho(G)$ ($G$ là một nhóm địa phương compact): VIII, 3, 1.
 $\mu *^\beta f ,\ \mu * f$ ($\mu$ là một độ đo, $f$ là một hàm): VIII, 4, 1.
-$\mathcal{L}(G)$ ($G$ là một nhóm địa phương compact): VIII, 4, 5.
-$\mathcal{U}_s^\infty(G)$ ($G$ là một nhóm địa phương compact): VIII, 4, Exer. 21.
+$\mathscr{L}(G)$ ($G$ là một nhóm địa phương compact): VIII, 4, 5.
+$\mathscr{U}_s^\infty(G)$ ($G$ là một nhóm địa phương compact): VIII, 4, Exer. 21.
 
 Chương IX:
 
-\mathcal{F}_+(T), \mathcal{F}_+, f_A, f^0: các quy ước sơ bộ.
+\mathscr{F}_+(T), \mathscr{F}_+, f_A, f^0: các quy ước sơ bộ.
 \pi(p), p_A \text{ or } p|A: IX, 1, 1.
-$\mathcal{P}(T; \mathbf{C}), \mathcal{P}(T; \mathbf{R}), \mathcal{P}(T), \mathcal{P}_+(T)$ : IX, 1, 2.
+$\mathscr{P}(T; \mathbf{C}), \mathscr{P}(T; \mathbf{R}), \mathscr{P}(T), \mathscr{P}_+(T)$ : IX, 1, 2.
 w^\bullet(f), \int^\bullet f dw, \int^\bullet f(t) dw(t): IX, 1, 2.
 $w^\bullet, w_K^\bullet$ : IX, 1, 2.
 $w^+, w^-, |w|$ : IX, 1, 2.
@@ -237,25 +237,25 @@ $w^+, w^-, |w|$ : IX, 1, 2.
 $\sum_{i \in I} \mu_i$ : IX, 1, 7.
 \mu^*(f), \mu^*(A), \int^* f d\mu, \int^* f(t) d\mu(t): IX, 1, 9.
 $\mu^*$ : IX, 1, 9.
-\overline{\mathcal{L}}^p(T, \mu), \overline{\mathcal{L}}_F^p(T, \mu), \mathcal{L}^p(T, \mu), \mathcal{L}_F^p(T, \mu) \text{ (cho } 1 \leq p \leq +\infty): IX, 1, 10.
-$\overline{\mathcal{L}}_F^p(\mu), \overline{\mathcal{L}}_F^p, \overline{\mathcal{L}}^p, \overline{\mathcal{L}}^p(\mu), \mathcal{L}^p(\mu), \mathcal{L}^p$ : IX, 1, 10.
-$\overline{N}_p(f), N_p(f), \overline{\mathcal{N}}_F, \mathcal{N}_F$ : IX, 1, 10.
+\overline{\mathscr{L}}^p(T, \mu), \overline{\mathscr{L}}_F^p(T, \mu), \mathscr{L}^p(T, \mu), \mathscr{L}_F^p(T, \mu) \text{ (cho } 1 \leq p \leq +\infty): IX, 1, 10.
+$\overline{\mathscr{L}}_F^p(\mu), \overline{\mathscr{L}}_F^p, \overline{\mathscr{L}}^p, \overline{\mathscr{L}}^p(\mu), \mathscr{L}^p(\mu), \mathscr{L}^p$ : IX, 1, 10.
+$\overline{N}_p(f), N_p(f), \overline{\mathscr{N}}_F, \mathscr{N}_F$ : IX, 1, 10.
 $L_F^p(\mu), L_F^p$ : IX, 1, 10.
 $\int f d\mu, \mu(f), \int f(t) d\mu(t)$ : IX, 1, 10.
 $\mu_X^\bullet, \mu_X, \mu|X$ : IX, 2, 1.
 $f \cdot \mu$ : IX, 2, 2.
 \pi(\mu): IX, 2, 3.
 $\lambda \otimes \mu$ : IX, 2, 5.
-\mathcal{K}(T), \mathcal{B}(T): các quy ước của §3.
-\mathcal{C}^b(T; F), \mathcal{C}^b(T), \mathcal{C}^b, \mathcal{C}_+^b(T), \mathcal{C}_+^b: các quy ước của §5.
-\mathcal{M}^b(T; \mathbf{C}), \mathcal{M}^b(T), \mathcal{M}^b, \mathcal{M}_+^b(T), \mathcal{M}_+^b: các quy ước của §5.
-$\mathcal{L}\mu$ : IX, 5, 7.
-$\mathcal{F}(E)$ : IX, 6, 1.
+\mathscr{K}(T), \mathscr{B}(T): các quy ước của §3.
+\mathscr{C}^b(T; F), \mathscr{C}^b(T), \mathscr{C}^b, \mathscr{C}_+^b(T), \mathscr{C}_+^b: các quy ước của §5.
+\mathscr{M}^b(T; \mathbf{C}), \mathscr{M}^b(T), \mathscr{M}^b, \mathscr{M}_+^b(T), \mathscr{M}_+^b: các quy ước của §5.
+$\mathscr{L}\mu$ : IX, 5, 7.
+$\mathscr{F}(E)$ : IX, 6, 1.
 p_V, p_{VW}: IX, 6, 1.
-$\mathcal{Q}(E)$ : IX, 6, 1.
+$\mathscr{Q}(E)$ : IX, 6, 1.
 $\tilde{\lambda}$ : IX, 6, 1.
 u(\mu) ($\mu$ là một tiền độ đo): IX, 6, 2.
-\mathcal{F}\mu ($\mu$ là một tiền độ đo hoặc một độ đo): IX, 6, 3.
+\mathscr{F}\mu ($\mu$ là một tiền độ đo hoặc một độ đo): IX, 6, 3.
 \Gamma_Q, \gamma_a: IX, 6, 5.
 \gamma_C: IX, 6, 6.
 \operatorname{Tr}(Q/H): IX, Annex, 1.
@@ -592,24 +592,24 @@ $\mu$ có giá đỡ compact, $\nu$ tùy ý.
 
 (c) \* được xác định bởi phép nhân trong một nhóm $G$:
 một trong hai độ đo có giá đỡ compact.
-$\mu, \nu$ trong $\mathcal{M}^\rho(G)$ (khi đó $\mu * \nu \in \mathcal{M}^\rho(G)$, và $\| \mu * \nu \|_\rho \leq \| \mu \|_\rho \| \nu \|_\rho$).
+$\mu, \nu$ trong $\mathscr{M}^\rho(G)$ (khi đó $\mu * \nu \in \mathscr{M}^\rho(G)$, và $\| \mu * \nu \|_\rho \leq \| \mu \|_\rho \| \nu \|_\rho$).
 
 II. — Trường hợp tích chập $\mu * f$ của một độ đo và một hàm tồn tại:
 
 (a) \* được định nghĩa bởi một nhóm $G$ tác động liên tục bên trái trên một không gian $X$ được trang bị một độ đo $\beta \geq 0$ sao cho $\gamma(s)\beta = \chi(s^{-1}, \cdot)\beta$, với $\chi$ liên tục:
 $\mu$ có giá compact, $f$ khả tích địa phương theo $\beta$ (nếu $f$ liên tục, $\mu * f$ liên tục; nếu $f$ liên tục có giá compact, $\mu * f$ liên tục có giá compact).
-$G$ tác động đúng đắn trên $X$, $f \in \mathcal{K}(X)$ ($\mu * f$ liên tục).
+$G$ tác động đúng đắn trên $X$, $f \in \mathscr{K}(X)$ ($\mu * f$ liên tục).
 
 (b) các $\chi(s, \cdot)$ bị chặn; đặt $\rho(s) = \sup_{x \in X} \chi(s^{-1}, x)$:
-$\mu \in \mathcal{M}^\rho(G)$, $f \in L^\infty(X, \beta)$ (thì $\mu * f \in L^\infty(X, \beta)$; nếu $f \in C^\infty(X)$,
-$\mu * f \in C^\infty(X)$; nếu $f \in \mathcal{K}(X)$, $\mu * f \in \mathcal{K}(X)$).
-$\mu \in \mathcal{M}^{\rho^{1/q}}(G)$, $f \in L^p(X, \beta)$ với $1/p + 1/q = 1$ (thì $\mu * f \in L^p(X, \beta)$)
+$\mu \in \mathscr{M}^\rho(G)$, $f \in L^\infty(X, \beta)$ (thì $\mu * f \in L^\infty(X, \beta)$; nếu $f \in C^\infty(X)$,
+$\mu * f \in C^\infty(X)$; nếu $f \in \mathscr{K}(X)$, $\mu * f \in \mathscr{K}(X)$).
+$\mu \in \mathscr{M}^{\rho^{1/q}}(G)$, $f \in L^p(X, \beta)$ với $1/p + 1/q = 1$ (thì $\mu * f \in L^p(X, \beta)$)
 và $\| \mu * f \|_p \leq \| \mu \|_{\rho^{1/q}} \| f \|_p$.
 
 III. — Trường hợp tích chập $f * g$ của hai hàm khả tích địa phương theo $\beta$ tồn tại ($\beta$ là một độ đo tương đối bất biến $\geq 0$ trên một nhóm $G$, với các hệ số nhân trái và phải $\chi$ và $\chi'$):
 
 $f$ hoặc $g$ liên tục, $f$ hoặc $g$ có giá compact (thì $f * g$ liên tục;
-nếu $f, g$ thuộc $\mathcal{K}(G)$ thì $f * g \in \mathcal{K}(G)$).
+nếu $f, g$ thuộc $\mathscr{K}(G)$ thì $f * g \in \mathscr{K}(G)$).
 
 $$
 f \chi^{-1/q} \in L^1(G, \beta) \text{ và } g \in L^p(G, \beta), \text{ với } 1/p + 1/q = 1 \text{ (thì } f * g \in L^p(G, \beta) \text{ và } \|f * g\|_p \leq \|f \chi^{-1/q}\|_1 \|g\|_p).
@@ -618,13 +618,13 @@ $$
 f \in L^p(G, \beta) \text{ và } g {\chi'}^{-1/q} \in L^1(G, \beta) \text{ (thì } f * g \in L^p(G, \beta) \text{ và } \|f * g\|_p \leq \|f\|_p \|g {\chi'}^{-1/q}\|_1 ).
 $$
 $$
-f \chi^{-1} \in L^1(G, \beta) \text{ và } g \in \mathcal{C}^\infty(G) \text{ (resp. } \overline{\mathcal{K}(G)} ) \text{ (thì } f * g \in \mathcal{C}^\infty(G) \text{ (resp. } \mathcal{K}(G) ) ).
+f \chi^{-1} \in L^1(G, \beta) \text{ và } g \in \mathscr{C}^\infty(G) \text{ (resp. } \overline{\mathscr{K}(G)} ) \text{ (thì } f * g \in \mathscr{C}^\infty(G) \text{ (resp. } \mathscr{K}(G) ) ).
 $$
 $$
-f \in \mathcal{C}^\infty(G, \beta) \text{ (resp. } \overline{\mathcal{K}(G)} ) \text{ và } g {\chi'}^{-1} \in L^1(G, \beta) \text{ (thì } f * g \in \mathcal{C}^\infty(G) \text{ (resp. } \mathcal{K}(G) ) ).
+f \in \mathscr{C}^\infty(G, \beta) \text{ (resp. } \overline{\mathscr{K}(G)} ) \text{ và } g {\chi'}^{-1} \in L^1(G, \beta) \text{ (thì } f * g \in \mathscr{C}^\infty(G) \text{ (resp. } \mathscr{K}(G) ) ).
 $$
 $$
-f \in L^p(G, \beta), \ g \in L^q(G, \dot{\beta}) \text{ với } 1/p + 1/q = 1, \ 1 < p < +\infty, \ \beta \text{ trái bất biến (thì } f * g \in \overline{\mathcal{K}(G)} \text{ và } \|f * g\|_\infty \leq \|f\|_p \|g\|_q ).
+f \in L^p(G, \beta), \ g \in L^q(G, \dot{\beta}) \text{ với } 1/p + 1/q = 1, \ 1 < p < +\infty, \ \beta \text{ trái bất biến (thì } f * g \in \overline{\mathscr{K}(G)} \text{ và } \|f * g\|_\infty \leq \|f\|_p \|g\|_q ).
 $$
 
 Mục lục
@@ -726,9 +726,9 @@ Chương IX. — Độ đo trên các không gian tôpô Hausdorff IX.1
 
 §5. Độ đo trên các không gian hoàn toàn chính quy ................................. IX.56
     1. Độ đo và các hàm liên tục bị chặn ............... IX.56
-    2. Các độ đo bị chặn và các dạng tuyến tính trên $\mathcal{C}^b(T)$ .......... IX.59
+    2. Các độ đo bị chặn và các dạng tuyến tính trên $\mathscr{C}^b(T)$ .......... IX.59
     3. Sự hội tụ chặt của các độ đo bị chặn ..................... IX.60
-    4. Ứng dụng: các tính chất tôpô của không gian $\mathcal{M}_+^b(T)$ IX.63
+    4. Ứng dụng: các tính chất tôpô của không gian $\mathscr{M}_+^b(T)$ IX.63
     5. Tiêu chuẩn compact cho sự hội tụ chặt ............. IX.64
     6. Sự hội tụ chặt của các độ đo và sự hội tụ compact của các hàm .................................................. IX.67
     7. Ứng dụng: Biến đổi Laplace .................. IX.68

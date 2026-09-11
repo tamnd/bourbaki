@@ -28,36 +28,36 @@ subsections:
       pdf_page: 117
 statements: 34
 exercises: 8
-content_sha256: fa8000aa164879c2412ecb823292e3a5f4f5f1167337ccfcb52c5077f1353f4a
+content_sha256: 27c3b10ab223f74e9d41604f25c42351e7053a1d516f28ea68c66ff76d01477c
 ---
 
 ## § 1. UPPER INTEGRAL OF A POSITIVE FUNCTION
 
 ### 1. Upper integral of a lower semi-continuous positive function
 
-Let X be a locally compact space, $\mu$ a positive measure on X; we know that $\mu$ is an increasing function on the lattice $\mathcal{K}_+(X)$ (which will also be denoted $\mathcal{K}_+$).
+Let X be a locally compact space, $\mu$ a positive measure on X; we know that $\mu$ is an increasing function on the lattice $\mathscr{K}_+(X)$ (which will also be denoted $\mathscr{K}_+$).
 
-We denote by $\mathcal{I}_+(X)$ (or simply $\mathcal{I}_+$) the set of numerical functions on X, finite or not, that are positive and lower semi-continuous on X.\footnote{1} Recall that the sum of any family of functions in $\mathcal{I}_+$ belongs to $\mathcal{I}_+$; the product of a function in $\mathcal{I}_+$ by a finite number $\alpha > 0$ belongs to $\mathcal{I}_+$; the upper envelope of *any* family of functions in $\mathcal{I}_+$ and the lower envelope of a *finite* family of functions in $\mathcal{I}_+$ also belong to $\mathcal{I}_+$ (GT, IV, §6, No. 2, Prop. 2 and Th. 4). We shall also make use of the following lemma:
+We denote by $\mathscr{I}_+(X)$ (or simply $\mathscr{I}_+$) the set of numerical functions on X, finite or not, that are positive and lower semi-continuous on X.\footnote{1} Recall that the sum of any family of functions in $\mathscr{I}_+$ belongs to $\mathscr{I}_+$; the product of a function in $\mathscr{I}_+$ by a finite number $\alpha > 0$ belongs to $\mathscr{I}_+$; the upper envelope of *any* family of functions in $\mathscr{I}_+$ and the lower envelope of a *finite* family of functions in $\mathscr{I}_+$ also belong to $\mathscr{I}_+$ (GT, IV, §6, No. 2, Prop. 2 and Th. 4). We shall also make use of the following lemma:
 
 #### Lemma {#int-iv-s1-n1-lem-1 .statement}
 
-— *Every function* $f \in \mathcal{I}_+$ *is the upper envelope of the set* (directed for the relation $\leq$) *of all functions* $g \in \mathcal{K}_+$ *such that* $g \leq f$.
+— *Every function* $f \in \mathscr{I}_+$ *is the upper envelope of the set* (directed for the relation $\leq$) *of all functions* $g \in \mathscr{K}_+$ *such that* $g \leq f$.
 
-For every $x \in X$ such that $f(x) > 0$, and for every real number $a$ such that $0 < a < f(x)$, there exists by hypothesis a compact neighborhood V of $x$ such that $f(y) \geq a$ on V; on the other hand, there exists a function $g \in \mathcal{K}_+$, with support contained in V, equal to $a$ at the point $x$ and $\leq a$
+For every $x \in X$ such that $f(x) > 0$, and for every real number $a$ such that $0 < a < f(x)$, there exists by hypothesis a compact neighborhood V of $x$ such that $f(y) \geq a$ on V; on the other hand, there exists a function $g \in \mathscr{K}_+$, with support contained in V, equal to $a$ at the point $x$ and $\leq a$
 
-(1) 'I' as in 'inferior'; the letter $\mathcal{L}$ (as in 'lower') is preempted for other function spaces, to be discussed in §3.
+(1) 'I' as in 'inferior'; the letter $\mathscr{L}$ (as in 'lower') is preempted for other function spaces, to be discussed in §3.
 
 on V (GT, IX, §1, No. 5, Th. 2); therefore $0 \leq g \leq f$ and $g(x) \geq a$, which proves the lemma.
 
 #### Definition 1 {#int-iv-s1-def-1 .statement}
 
-*Given a positive measure $\mu$ on $X$, one calls upper integral of a function $f \in \mathcal{J}_+$ (with respect to $\mu$) the positive number (finite or equal to $+\infty$)*
+*Given a positive measure $\mu$ on $X$, one calls upper integral of a function $f \in \mathscr{J}_+$ (with respect to $\mu$) the positive number (finite or equal to $+\infty$)*
 
 $$
-\mu^*(f) = \sup_{g \in \mathcal{H}_+, g \leq f} \mu(g).
+\mu^*(f) = \sup_{g \in \mathscr{H}_+, g \leq f} \mu(g).
 $$
 
-For every function $f \in \mathcal{H}_+$, it is clear that $\mu^*(f) = \mu(f)$, in other words $\mu^*$ is an *extension* of $\mu$ to $\mathcal{J}_+$.
+For every function $f \in \mathscr{H}_+$, it is clear that $\mu^*(f) = \mu(f)$, in other words $\mu^*$ is an *extension* of $\mu$ to $\mathscr{J}_+$.
 
 #### Example {#int-iv-s1-n1-exa-1 .statement}
 
@@ -65,36 +65,36 @@ For every function $f \in \mathcal{H}_+$, it is clear that $\mu^*(f) = \mu(f)$, 
 $$
 \sum_{x \in X} \alpha(x)f(x) = \sup_M \left( \sum_{x \in M} \alpha(x)f(x) \right),
 $$
-where $M$ runs over the set of all finite subsets of $X$. If there exists an $x_0 \in X$ such that $f(x_0) = +\infty$ and $\alpha(x_0) > 0$, then $\sum_{x \in M} \alpha(x)f(x) = +\infty$ whenever $x_0 \in M$, and, on the other hand, $f \geq n \cdot \varphi_{\{x_0\}}$ for every integer $n > 0$, therefore $\mu^*(f) \geq n \alpha(x_0)$ and so $\mu^*(f) = +\infty$. If, on the contrary, $\alpha(x) = 0$ at all the points where $f(x) = +\infty$, then the function $g$ equal to $f$ at the points $x \in M$ where $\alpha(x) > 0$ and to 0 elsewhere belongs to $\mathcal{H}_+$, and so, by virtue of the conventions made, $\mu(g) = \sum_{x \in M} \alpha(x)f(x)$, which again proves the relation $\mu^*(f) = \sum_{x \in X} \alpha(x)f(x)$.
+where $M$ runs over the set of all finite subsets of $X$. If there exists an $x_0 \in X$ such that $f(x_0) = +\infty$ and $\alpha(x_0) > 0$, then $\sum_{x \in M} \alpha(x)f(x) = +\infty$ whenever $x_0 \in M$, and, on the other hand, $f \geq n \cdot \varphi_{\{x_0\}}$ for every integer $n > 0$, therefore $\mu^*(f) \geq n \alpha(x_0)$ and so $\mu^*(f) = +\infty$. If, on the contrary, $\alpha(x) = 0$ at all the points where $f(x) = +\infty$, then the function $g$ equal to $f$ at the points $x \in M$ where $\alpha(x) > 0$ and to 0 elsewhere belongs to $\mathscr{H}_+$, and so, by virtue of the conventions made, $\mu(g) = \sum_{x \in M} \alpha(x)f(x)$, which again proves the relation $\mu^*(f) = \sum_{x \in X} \alpha(x)f(x)$.
 
 #### Proposition 1 {#int-iv-s1-prop-1 .statement}
 
-*For every finite real number $\alpha > 0$ and every function $f \in \mathcal{J}_+$,*
+*For every finite real number $\alpha > 0$ and every function $f \in \mathscr{J}_+$,*
 $$
 \mu^*(\alpha f) = \alpha \mu^*(f).
 $$
 
 #### Proposition 2 {#int-iv-s1-prop-2 .statement}
 
-*On the set $\mathcal{J}_+$, the function $\mu^*$ is increasing.*
+*On the set $\mathscr{J}_+$, the function $\mu^*$ is increasing.*
 The proofs are immediate from Def. 1.
 
 #### Theorem 1 {#int-iv-s1-thm-1 .statement}
 
-*Let $H$ be a nonempty set of functions in $\mathcal{J}_+$, directed for the relation $\leq$. For every positive measure $\mu$ on $X$,*
+*Let $H$ be a nonempty set of functions in $\mathscr{J}_+$, directed for the relation $\leq$. For every positive measure $\mu$ on $X$,*
 $$
 \mu^*\left( \sup_{g \in H} g \right) = \sup_{g \in H} \mu^*(g) = \lim_{g \in H} \mu^*(g).
 $$
 
-Let $f = \sup_{g \in H} g$. We shall first prove the theorem for the special case that the functions $g \in H$ and their upper envelope $f$ *belong to* $\mathcal{H}_+$. It then follows from Dini’s theorem (GT, X, §4, No. 1, Th. 1) that the section filter of $H$ converges *uniformly* to $f$ on every compact subset of $X$, and in particular on the support K of $f$. Since $0 \leq g \leq f$ for every function $g \in \mathbf{H}$, the support of every function in $\mathbf{H}$ is contained in $K$; but by definition $\mu$ is continuous on the vector space $\mathcal{K}(X, K; \mathbf{C})$ of continuous functions with support contained in $K$, for the topology of uniform convergence; whence the relation (2) in this case.
+Let $f = \sup_{g \in H} g$. We shall first prove the theorem for the special case that the functions $g \in H$ and their upper envelope $f$ *belong to* $\mathscr{H}_+$. It then follows from Dini’s theorem (GT, X, §4, No. 1, Th. 1) that the section filter of $H$ converges *uniformly* to $f$ on every compact subset of $X$, and in particular on the support K of $f$. Since $0 \leq g \leq f$ for every function $g \in \mathbf{H}$, the support of every function in $\mathbf{H}$ is contained in $K$; but by definition $\mu$ is continuous on the vector space $\mathscr{K}(X, K; \mathbf{C})$ of continuous functions with support contained in $K$, for the topology of uniform convergence; whence the relation (2) in this case.
 
-Let us pass to the general case. It is clear that $\mu^*(g) \leq \mu^*(f)$ for every function $g \in \mathbf{H}$. By Def. 1, it all comes down to showing that, for every function $\psi \in \mathcal{K}_+$ such that $\psi \leq f$,
+Let us pass to the general case. It is clear that $\mu^*(g) \leq \mu^*(f)$ for every function $g \in \mathbf{H}$. By Def. 1, it all comes down to showing that, for every function $\psi \in \mathscr{K}_+$ such that $\psi \leq f$,
 
 $$
 \mu(\psi) \leq \sup_{g \in \mathbf{H}} \mu^*(g).
 $$
 
-For every function $g \in \mathbf{H}$, let $\Phi_g$ be the set of functions $\varphi \in \mathcal{K}_+$ such that $\varphi \leq g$, and let $\Phi$ be the union of the sets $\Phi_g$ as $g$ runs over $\mathbf{H}$; since $\mathbf{H}$ is directed, so is $\Phi$, and $f = \sup_{\varphi \in \Phi} \varphi$. Since $\psi \leq f$, $\psi$ is the upper envelope of the set of functions $\inf(\psi, \varphi)$ as $\varphi$ runs over $\Phi$; but since $\psi$ and the functions $\inf(\psi, \varphi)$ belong to $\mathcal{K}_+$, the first part of the proof shows that $\mu(\psi) = \sup_{\varphi \in \Phi} \mu(\inf(\psi, \varphi))$. Now, each $\varphi \in \Phi$ belongs to a set $\Phi_g$, therefore
+For every function $g \in \mathbf{H}$, let $\Phi_g$ be the set of functions $\varphi \in \mathscr{K}_+$ such that $\varphi \leq g$, and let $\Phi$ be the union of the sets $\Phi_g$ as $g$ runs over $\mathbf{H}$; since $\mathbf{H}$ is directed, so is $\Phi$, and $f = \sup_{\varphi \in \Phi} \varphi$. Since $\psi \leq f$, $\psi$ is the upper envelope of the set of functions $\inf(\psi, \varphi)$ as $\varphi$ runs over $\Phi$; but since $\psi$ and the functions $\inf(\psi, \varphi)$ belong to $\mathscr{K}_+$, the first part of the proof shows that $\mu(\psi) = \sup_{\varphi \in \Phi} \mu(\inf(\psi, \varphi))$. Now, each $\varphi \in \Phi$ belongs to a set $\Phi_g$, therefore
 
 $$
 \mu(\inf(\psi, \varphi)) \leq \mu(\varphi) \leq \mu^*(g) \leq \sup_{g \in \mathbf{H}} \mu^*(g),
@@ -104,19 +104,19 @@ from which it follows at once that $\mu(\psi) \leq \sup_{g \in \mathbf{H}} \mu^*
 
 #### Theorem 2 {#int-iv-s1-thm-2 .statement}
 
-*If $f_1$ and $f_2$ are two functions in $\mathcal{I}_+$ then*
+*If $f_1$ and $f_2$ are two functions in $\mathscr{I}_+$ then*
 
 $$
 \mu^*(f_1 + f_2) = \mu^*(f_1) + \mu^*(f_2).
 $$
 
-As $\varphi_1$ (resp. $\varphi_2$) runs over the set of functions in $\mathcal{K}_+$ such that $\varphi_1 \leq f_1$ (resp. $\varphi_2 \leq f_2$), the functions $\varphi_1 + \varphi_2$ form a directed set (for $\leq$) whose upper envelope is $f_1 + f_2$. Therefore, by Th. 1,
+As $\varphi_1$ (resp. $\varphi_2$) runs over the set of functions in $\mathscr{K}_+$ such that $\varphi_1 \leq f_1$ (resp. $\varphi_2 \leq f_2$), the functions $\varphi_1 + \varphi_2$ form a directed set (for $\leq$) whose upper envelope is $f_1 + f_2$. Therefore, by Th. 1,
 
 $$
 \mu^*(f_1 + f_2) = \sup \mu(\varphi_1 + \varphi_2) = \sup (\mu(\varphi_1) + \mu(\varphi_2)),
 $$
 
-where $(\varphi_1, \varphi_2)$ runs over the set of pairs of functions in $\mathcal{K}_+$ such that $\varphi_1 \leq f_1$ and $\varphi_2 \leq f_2$; since
+where $(\varphi_1, \varphi_2)$ runs over the set of pairs of functions in $\mathscr{K}_+$ such that $\varphi_1 \leq f_1$ and $\varphi_2 \leq f_2$; since
 
 $$
 \sup (\mu(\varphi_1) + \mu(\varphi_2)) = \sup \mu(\varphi_1) + \sup \mu(\varphi_2)
@@ -136,9 +136,9 @@ For every finite subset $J$ of $I$, it follows from Th. 2 (by induction on the n
 
 #### Proposition 4 {#int-iv-s1-prop-4 .statement}
 
-— *Let* $f$ *be a function in* $J_+$. *The mapping* $\mu \mapsto \mu^*(f)$ *of the set* $\mathcal{M}_+(X)$ *of positive measures on* $X$, *into the extended real line* $\overline{\mathbf{R}}$, *is lower semi-continuous for the vague topology on* $\mathcal{M}_+(X)$ *(Ch. III, §1, No. 9)*.
+— *Let* $f$ *be a function in* $J_+$. *The mapping* $\mu \mapsto \mu^*(f)$ *of the set* $\mathscr{M}_+(X)$ *of positive measures on* $X$, *into the extended real line* $\overline{\mathbf{R}}$, *is lower semi-continuous for the vague topology on* $\mathscr{M}_+(X)$ *(Ch. III, §1, No. 9)*.
 
-For, this mapping is by definition the upper envelope of the mappings $\mu \mapsto \mu(g)$, where $g$ runs over the set of functions in $\mathcal{K}_+$ such that $g \leq f$; and by definition of the vague topology, the mappings $\mu \mapsto \mu(g)$ are continuous on $\mathcal{M}(X)$.
+For, this mapping is by definition the upper envelope of the mappings $\mu \mapsto \mu(g)$, where $g$ runs over the set of functions in $\mathscr{K}_+$ such that $g \leq f$; and by definition of the vague topology, the mappings $\mu \mapsto \mu(g)$ are continuous on $\mathscr{M}(X)$.
 
 ### 2. Outer measure of an open set
 
@@ -154,7 +154,7 @@ The outer measure of an open set $G$ is thus a number $\geq 0$, finite or equal 
 
 — *The outer measure of a relatively compact open set* $G$ *is finite*.
 
-For, there exists in this case a function $f \in \mathcal{K}_+$ such that $\varphi_G \leq f$ (Ch. III, §1, No. 2, Lemma 1), whence
+For, there exists in this case a function $f \in \mathscr{K}_+$ such that $\varphi_G \leq f$ (Ch. III, §1, No. 2, Lemma 1), whence
 
 $$
 \mu^*(G) = \mu^*(\varphi_G) \leq \mu^*(f) = \mu(f) < +\infty.
@@ -175,7 +175,7 @@ $$
 \mu^*\left(\bigcup_{G \in \mathfrak{B}} G\right) = \sup_{G \in \mathfrak{B}} \mu^*(G).
 $$
 
-The functions φ_G form a directed set (for ≤) in $\mathcal{I}_+$ and their upper envelope is the characteristic function of the union of the sets G ∈ 𝔅; the proposition is thus a consequence of Th. 1.
+The functions φ_G form a directed set (for ≤) in $\mathscr{I}_+$ and their upper envelope is the characteristic function of the union of the sets G ∈ 𝔅; the proposition is thus a consequence of Th. 1.
 
 #### Proposition 8 {#int-iv-s1-prop-8 .statement}
 
@@ -195,13 +195,13 @@ For, if G = $\bigcup_{ι \in I} G_ι$ then φ_G = sup_{ι \in I} φ_{G_ι} ≤ $
 
 #### Example {#int-iv-s1-n2-exa-1 .statement}
 
-— Let X = \mathbf{R} and let μ be Lebesgue measure on \mathbf{R} (Ch. III, §1, No. 3); we are going to determine the outer measure of an *open interval* G = ]a, b[ (−∞ ≤ a < b ≤ +∞). Suppose first that a and b are finite. For every function f in $\mathcal{K}_+$ such that f ≤ φ_G, we have, by the theorem of the mean (FRV, II, §1, No. 5, Prop. 6),
+— Let X = \mathbf{R} and let μ be Lebesgue measure on \mathbf{R} (Ch. III, §1, No. 3); we are going to determine the outer measure of an *open interval* G = ]a, b[ (−∞ ≤ a < b ≤ +∞). Suppose first that a and b are finite. For every function f in $\mathscr{K}_+$ such that f ≤ φ_G, we have, by the theorem of the mean (FRV, II, §1, No. 5, Prop. 6),
 
 $$
 \int_{-\infty}^{+\infty} f(x)\, dx = \int_a^b f(x)\, dx \leq b - a,
 $$
 
-whence $\mu^*(G) \leq b - a$. On the other hand, for every $\varepsilon > 0$ there exists a function $f \in \mathcal{K}_+$ such that $f \leq \varphi_G$ and $f(x) = 1$ for $a + \varepsilon \leq x \leq b - \varepsilon$, whence $\mu^*(G) \geq b - a - 2\varepsilon$; since $\varepsilon$ is arbitrary, $\mu^*(G) = b - a$; in other words, the outer measure of $G$ is equal to its *length*. This result extends at once to the case that $G$ is an unbounded open interval, since it then contains bounded open intervals of arbitrarily large length; thus $\mu^*(G) = +\infty$ in this case.
+whence $\mu^*(G) \leq b - a$. On the other hand, for every $\varepsilon > 0$ there exists a function $f \in \mathscr{K}_+$ such that $f \leq \varphi_G$ and $f(x) = 1$ for $a + \varepsilon \leq x \leq b - \varepsilon$, whence $\mu^*(G) \geq b - a - 2\varepsilon$; since $\varepsilon$ is arbitrary, $\mu^*(G) = b - a$; in other words, the outer measure of $G$ is equal to its *length*. This result extends at once to the case that $G$ is an unbounded open interval, since it then contains bounded open intervals of arbitrarily large length; thus $\mu^*(G) = +\infty$ in this case.
 
 Now let $G$ be any open set in $\mathbf{R}$; $G$ is the union of a countable set (finite or infinite) of pairwise disjoint open intervals $]a_k, b_k[$ (GT, IV, §2, No. 5, Prop. 2), consequently
 
@@ -219,19 +219,19 @@ Note in particular that if $G$ is an open set in $\mathbf{R}$ such that $\mu^*(G
 
 ### 3. Upper integral of a positive function
 
-For every numerical function $f \geq 0$ (finite or not) defined on $X$, there exist functions $h \in \mathcal{I}_+$ such that $f \leq h$, if none other then the constant $+\infty$.
+For every numerical function $f \geq 0$ (finite or not) defined on $X$, there exist functions $h \in \mathscr{I}_+$ such that $f \leq h$, if none other then the constant $+\infty$.
 
 #### Definition 3 {#int-iv-s1-def-3 .statement}
 
 *Let $\mu$ be a positive measure on $X$; for every numerical function $f \geq 0$ (finite or not) defined on $X$, the positive number*
 
 $$
-\mu^*(f) = \inf_{h \geq f, h \in \mathcal{I}_+} \mu^*(h)
+\mu^*(f) = \inf_{h \geq f, h \in \mathscr{I}_+} \mu^*(h)
 $$
 
 (*finite or equal to $+\infty$) *is called the upper integral of $f$ (with respect to $\mu$).*
 
-When $f \in \mathcal{I}_+$, the number $\mu^*(f)$ thus defined is equal to the upper integral defined in Def. 1, since $\mu^*$ is increasing in $\mathcal{I}_+$.
+When $f \in \mathscr{I}_+$, the number $\mu^*(f)$ thus defined is equal to the upper integral defined in Def. 1, since $\mu^*$ is increasing in $\mathscr{I}_+$.
 
 In place of the notation $\mu^*(f)$, we shall also employ the notations $\int^* f d\mu$, $\int^* f(x) d\mu(x)$, $\int^* f \mu$ and $\int^* f(x) \mu(x)$.
 
@@ -259,7 +259,7 @@ $$
 \mu^*(f_1 + f_2) \leqslant \mu^*(f_1) + \mu^*(f_2).
 $$
 
-For every function $h_1 \in \mathcal{I}_+$ such that $f_1 \leqslant h_1$ and every function $h_2 \in \mathcal{I}_+$ such that $f_2 \leqslant h_2$, we have, by Th. 2,
+For every function $h_1 \in \mathscr{I}_+$ such that $f_1 \leqslant h_1$ and every function $h_2 \in \mathscr{I}_+$ such that $f_2 \leqslant h_2$, we have, by Th. 2,
 
 $$
 \mu^*(f_1 + f_2) \leqslant \mu^*(h_1 + h_2) = \mu^*(h_1) + \mu^*(h_2),
@@ -267,7 +267,7 @@ $$
 whence (GT, IV, §5, No. 7, Cor. 2 of Prop. 12)
 
 $$
-\mu^*(f_1 + f_2) \leqslant \inf_{h_1 \geqslant f_1, h_1 \in \mathcal{I}_+} \mu^*(h_1) + \inf_{h_2 \geqslant f_2, h_2 \in \mathcal{I}_+} \mu^*(h_2),
+\mu^*(f_1 + f_2) \leqslant \inf_{h_1 \geqslant f_1, h_1 \in \mathscr{I}_+} \mu^*(h_1) + \inf_{h_2 \geqslant f_2, h_2 \in \mathscr{I}_+} \mu^*(h_2),
 $$
 which is none other than the inequality (9).
 
@@ -281,9 +281,9 @@ $$
 \mu^*\left( \sup_n f_n \right) = \sup_n \mu^*(f_n).
 $$
 
-Since each of the functions $f_n$ is less than or equal to $\sup_n f_n$, everything comes down to proving that $\mu^*(\sup_n f_n) \leqslant \sup_n \mu^*(f_n)$; this is obvious if the second member of the inequality is $+\infty$. In the contrary case, $\mu^*(f_n) < +\infty$ for all $n$; we are going to show that, for every $\varepsilon > 0$, there exists an *increasing* sequence $(g_n)$ of functions in $\mathcal{I}_+$ such that $f_n \leqslant g_n$ and $\mu^*(g_n) \leqslant \mu^*(f_n) + \varepsilon$. If $g$ is the upper envelope of the sequence $(g_n)$, we will then have $\mu^*(g) = \sup_n \mu^*(g_n)$ (No. 1, Th. 1), whence $\mu^*(g) \leqslant \sup \mu^*(f_n) + \varepsilon$; since $\sup f_n \leqslant g$ and $\varepsilon$ is arbitrary, the theorem will then have been proved.
+Since each of the functions $f_n$ is less than or equal to $\sup_n f_n$, everything comes down to proving that $\mu^*(\sup_n f_n) \leqslant \sup_n \mu^*(f_n)$; this is obvious if the second member of the inequality is $+\infty$. In the contrary case, $\mu^*(f_n) < +\infty$ for all $n$; we are going to show that, for every $\varepsilon > 0$, there exists an *increasing* sequence $(g_n)$ of functions in $\mathscr{I}_+$ such that $f_n \leqslant g_n$ and $\mu^*(g_n) \leqslant \mu^*(f_n) + \varepsilon$. If $g$ is the upper envelope of the sequence $(g_n)$, we will then have $\mu^*(g) = \sup_n \mu^*(g_n)$ (No. 1, Th. 1), whence $\mu^*(g) \leqslant \sup \mu^*(f_n) + \varepsilon$; since $\sup f_n \leqslant g$ and $\varepsilon$ is arbitrary, the theorem will then have been proved.
 
-By hypothesis, there exists a function $h_n \in \mathcal{J}_+$ such that $f_n \leq h_n$ and $\mu^*(f_n) \leq \mu^*(h_n) \leq \mu^*(f_n) + \varepsilon/2^n$; let us show that the functions $g_n = \sup(h_1, h_2, \ldots, h_n)$ meet the requirements. They belong to $\mathcal{J}_+$, form an increasing sequence, and satisfy $f_n \leq g_n$ for all $n$; we shall prove that
+By hypothesis, there exists a function $h_n \in \mathscr{J}_+$ such that $f_n \leq h_n$ and $\mu^*(f_n) \leq \mu^*(h_n) \leq \mu^*(f_n) + \varepsilon/2^n$; let us show that the functions $g_n = \sup(h_1, h_2, \ldots, h_n)$ meet the requirements. They belong to $\mathscr{J}_+$, form an increasing sequence, and satisfy $f_n \leq g_n$ for all $n$; we shall prove that
 
 $$
 \mu^*(g_n) \leq \mu^*(f_n) + \varepsilon \left( 1 - \frac{1}{2^n} \right).
@@ -320,7 +320,7 @@ For, there exists an increasing sequence of functions in $\mathfrak{G}$ having t
 
 #### Remark {#int-iv-s1-n3-rem-1 .statement}
 
-— 1) The relation (11) does not necessarily hold when $\mathfrak{F}$ is an *uncountable* directed set of functions $\geq 0$ that are not lower semi-continuous. Take for example $X = \mathbf{R}$, $\mu$ being Lebesgue measure on $\mathbf{R}$, and consider the directed (for $\leq$) set $\mathfrak{F}$ of characteristic functions $\varphi_M$ of all the *finite* subsets M of $\mathbf{R}$. Then $\mu^*(\varphi_M) = 0$ for every finite subset M, because a point is contained in an open interval of arbitrarily small length, and the characteristic function of a set reduced to a point therefore has upper integral zero by Def. 3 and Prop. 9 of No. 2. But the upper envelope of $\mathcal{F}$ is the constant function equal to 1, and $\mu^*(1) = +\infty$.
+— 1) The relation (11) does not necessarily hold when $\mathfrak{F}$ is an *uncountable* directed set of functions $\geq 0$ that are not lower semi-continuous. Take for example $X = \mathbf{R}$, $\mu$ being Lebesgue measure on $\mathbf{R}$, and consider the directed (for $\leq$) set $\mathfrak{F}$ of characteristic functions $\varphi_M$ of all the *finite* subsets M of $\mathbf{R}$. Then $\mu^*(\varphi_M) = 0$ for every finite subset M, because a point is contained in an open interval of arbitrarily small length, and the characteristic function of a set reduced to a point therefore has upper integral zero by Def. 3 and Prop. 9 of No. 2. But the upper envelope of $\mathscr{F}$ is the constant function equal to 1, and $\mu^*(1) = +\infty$.
 
 2) Note that for a *decreasing* sequence $(f_n)$ of functions $\geqslant 0$, one does not necessarily have $\mu^*(\inf_n f_n) = \inf_n \mu^*(f_n)$, even if $\mu^*(f_n) < +\infty$ for all $n$ (cf. §4, Exer. 8 c)).
 
@@ -364,7 +364,7 @@ $$
 
 *Let* $(f_n)$ *be a sequence of numerical functions* $\geqslant 0$ *such that, for every* $x \in X$, $\lim_{n \to \infty} f_n(x) = +\infty$. *If* $\mu$ *is not the zero measure, then* $\lim_{n \to \infty} \mu^*(f_n) = +\infty$.
 
-If $f_0$ is the constant function equal to $+\infty$, then $f_0$ is the upper envelope of all the functions of $\mathcal{K}_+$, and, since $\mu \neq 0$, we have $\mu^*(f_0) > 0$; but since $f_0 = \alpha f_0$ for every $\alpha > 0$, necessarily $\mu^*(f_0) = +\infty$ (Prop. 11). The inequality (13) then shows that $\mu^*(f_n)$ tends to $+\infty$ with $n$.
+If $f_0$ is the constant function equal to $+\infty$, then $f_0$ is the upper envelope of all the functions of $\mathscr{K}_+$, and, since $\mu \neq 0$, we have $\mu^*(f_0) > 0$; but since $f_0 = \alpha f_0$ for every $\alpha > 0$, necessarily $\mu^*(f_0) = +\infty$ (Prop. 11). The inequality (13) then shows that $\mu^*(f_n)$ tends to $+\infty$ with $n$.
 
 #### Proposition 15 {#int-iv-s1-prop-15 .statement}
 
@@ -379,7 +379,7 @@ $$
 
 *Moreover, the relation $\mu \leq \nu$ implies $\mu^* \leq \nu^*$.*
 
-Let us prove the relation (15). Set $\lambda = \mu + \nu$; thus $\lambda(f) = \mu(f) + \nu(f)$ for $f \in \mathcal{K}_+$; for $f \in \mathcal{J}_+$, the value of $\lambda^*(f)$ (resp. $\mu^*(f)$, $\nu^*(f)$) is the limit of $\lambda(g)$ (resp. $\mu(g)$, $\nu(g)$) as $g$ runs over the directed set (for $\leq$) of all $g \in \mathcal{K}_+$ such that $g \leq f$; therefore $\lambda^*(f) = \mu^*(f) + \nu^*(f)$. Finally, if $f$ is any function $\geq 0$ defined on $X$, then $\lambda^*(f)$ (resp. $\mu^*(f)$, $\nu^*(f)$) is the limit of $\lambda^*(h)$ (resp. $\mu^*(h)$, $\nu^*(h)$) as $h$ runs over the directed set (for $\geq$) of all functions $h \in \mathcal{J}_+$ such that $h \geq f$; again, by passage to the limit, we therefore have $\lambda^*(f) = \mu^*(f) + \nu^*(f)$, which proves (15). The relation (14) is established similarly. Finally, if $\mu \leq \nu$ one can write $\nu = \mu + (\nu - \mu)$, where $\nu - \mu \geq 0$, therefore $\nu^* = \mu^* + (\nu - \mu)^*$, which shows that $\mu^* \leq \nu^*$.
+Let us prove the relation (15). Set $\lambda = \mu + \nu$; thus $\lambda(f) = \mu(f) + \nu(f)$ for $f \in \mathscr{K}_+$; for $f \in \mathscr{J}_+$, the value of $\lambda^*(f)$ (resp. $\mu^*(f)$, $\nu^*(f)$) is the limit of $\lambda(g)$ (resp. $\mu(g)$, $\nu(g)$) as $g$ runs over the directed set (for $\leq$) of all $g \in \mathscr{K}_+$ such that $g \leq f$; therefore $\lambda^*(f) = \mu^*(f) + \nu^*(f)$. Finally, if $f$ is any function $\geq 0$ defined on $X$, then $\lambda^*(f)$ (resp. $\mu^*(f)$, $\nu^*(f)$) is the limit of $\lambda^*(h)$ (resp. $\mu^*(h)$, $\nu^*(h)$) as $h$ runs over the directed set (for $\geq$) of all functions $h \in \mathscr{J}_+$ such that $h \geq f$; again, by passage to the limit, we therefore have $\lambda^*(f) = \mu^*(f) + \nu^*(f)$, which proves (15). The relation (14) is established similarly. Finally, if $\mu \leq \nu$ one can write $\nu = \mu + (\nu - \mu)$, where $\nu - \mu \geq 0$, therefore $\nu^* = \mu^* + (\nu - \mu)^*$, which shows that $\mu^* \leq \nu^*$.
 
 ### 4. Outer measure of an arbitrary set
 
@@ -417,7 +417,7 @@ These propositions are the translations of Props. 10 and 13 and of Th. 3 of No. 
 
 — *For every subset A of X*, $\mu^*(A)$ *is the infimum of the outer measures of the open sets containing A*.
 
-The proposition is obvious if $\mu^*(A) = +\infty$. In the contrary case, for every $\varepsilon$ such that $0 < \varepsilon < 1$, there exists a function $f \in \mathcal{J}_+$ such that $\varphi_A \leq f$ and $\mu^*(A) \leq \mu^*(f) \leq \mu^*(A) + \varepsilon$. Let G be the set of $x \in X$ such that $f(x) > 1 - \varepsilon$. Since $f$ is lower semi-continuous, G is *open* (GT, IV, §6, No. 2, Prop. 1) and contains A; on the other hand $f \geq (1 - \varepsilon)\varphi_G$, whence
+The proposition is obvious if $\mu^*(A) = +\infty$. In the contrary case, for every $\varepsilon$ such that $0 < \varepsilon < 1$, there exists a function $f \in \mathscr{J}_+$ such that $\varphi_A \leq f$ and $\mu^*(A) \leq \mu^*(f) \leq \mu^*(A) + \varepsilon$. Let G be the set of $x \in X$ such that $f(x) > 1 - \varepsilon$. Since $f$ is lower semi-continuous, G is *open* (GT, IV, §6, No. 2, Prop. 1) and contains A; on the other hand $f \geq (1 - \varepsilon)\varphi_G$, whence
 
 $$
 \mu^*(G) \leq \frac{1}{1 - \varepsilon} \mu^*(f) \leq \frac{1}{1 - \varepsilon} (\mu^*(A) + \varepsilon);

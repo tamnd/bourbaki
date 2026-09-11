@@ -61,7 +61,7 @@ subsections:
       pdf_page: 193
 statements: 79
 exercises: 30
-content_sha256: b85b814c3ae5bcb32e9f9e7e5987a050289d1baf92bbcdace651dab5b897aa7f
+content_sha256: d00fa574ed220b842b3c2d951df663dea01863acd4f469051e0003748ad7283e
 ---
 
 ## § 5. MEASURABLE FUNCTIONS AND SETS
@@ -393,19 +393,19 @@ Let us pass to the general case. If $z'$ is a continuous linear form on F, its r
 
 — In order that a mapping f of X into a Banach space F be p-th power integrable ($1 \leq p < +\infty$), it is necessary and sufficient that f be measurable and that $N_p(f)$ be finite.
 
-The condition is necessary: for, if $f \in \mathcal{L}_F^p$ then there exists a sequence $(g_n)$ of continuous functions with compact support that converges almost everywhere to f ($§ 3$, No. 4, Cor. 2 of Th. 3); by Th. 2 of No. 4, f is measurable.
+The condition is necessary: for, if $f \in \mathscr{L}_F^p$ then there exists a sequence $(g_n)$ of continuous functions with compact support that converges almost everywhere to f ($§ 3$, No. 4, Cor. 2 of Th. 3); by Th. 2 of No. 4, f is measurable.
 
 To prove that the conditions are sufficient, we first establish a lemma:
 
 #### Lemma 1 {#int-iv-s5-lem-1 .statement}
 
-*Let g be a function with values in F, such that N_p(g) < +\infty* (in other words, a function in $\mathcal{F}_F^p$). *The set A of points x \in X such that g(x) \neq 0 is contained in the union of a negligible set and a sequence of compact sets.*
+*Let g be a function with values in F, such that N_p(g) < +\infty* (in other words, a function in $\mathscr{F}_F^p$). *The set A of points x \in X such that g(x) \neq 0 is contained in the union of a negligible set and a sequence of compact sets.*
 
 Let $A_n$ be the set of points $x \in X$ such that $|g(x)| \geq 1/n$; A is the union of the $A_n$, and $\varphi_{A_n} \leq n|g|$, whence $|\mu|^*(A_n) \leq (n N_p(g))^p$; it follows that $A_n$ is contained in the union of a negligible set and a sequence of compact sets (§ 4, No. 6, Cor. 3 of Th. 4), therefore so is A.
 
-The lemma proved, consider first the case that f has *compact* support K. By Cor. 1 of Th. 3 of No. 5, there exists a sequence $(g_n)$ of measurable step functions such that $|g_n(x)| \leq |f(x)|$ at every point $x \in X$ and such that $g_n(x)$ tends to $f(x)$ almost everywhere. Now, $g_n$ is a linear combination of characteristic functions of measurable sets contained in K; since these sets are integrable by Prop. 3 of No. 1, $g_n$ belongs to $\mathcal{L}_F^p$. Since $N_p(f) < +\infty$, Lebesgue’s theorem (§ 3, No. 7, Th. 6) shows that f belongs to $\mathcal{L}_F^p$.
+The lemma proved, consider first the case that f has *compact* support K. By Cor. 1 of Th. 3 of No. 5, there exists a sequence $(g_n)$ of measurable step functions such that $|g_n(x)| \leq |f(x)|$ at every point $x \in X$ and such that $g_n(x)$ tends to $f(x)$ almost everywhere. Now, $g_n$ is a linear combination of characteristic functions of measurable sets contained in K; since these sets are integrable by Prop. 3 of No. 1, $g_n$ belongs to $\mathscr{L}_F^p$. Since $N_p(f) < +\infty$, Lebesgue’s theorem (§ 3, No. 7, Th. 6) shows that f belongs to $\mathscr{L}_F^p$.
 
-In the general case, it follows from Lemma 1 that there exists an increasing sequence $(K_n)$ of compact sets such that $f(x)$ is zero almost everywhere in the complement of the union of the $K_n$. Let $f_n$ be the function equal to $f(x)$ on $K_n$ and to 0 elsewhere; $f_n$ is measurable by No. 3, Cor. 5 of Th. 1; since $|f_n| \leq |f|$, $f_n$ belongs to $\mathcal{L}_F^p$ by the first part of the argument. Since $f(x)$ is equal almost everywhere to the limit of the sequence $f_n(x)$, Lebesgue’s theorem again proves that $f \in \mathcal{L}_F^p$, which completes the proof.
+In the general case, it follows from Lemma 1 that there exists an increasing sequence $(K_n)$ of compact sets such that $f(x)$ is zero almost everywhere in the complement of the union of the $K_n$. Let $f_n$ be the function equal to $f(x)$ on $K_n$ and to 0 elsewhere; $f_n$ is measurable by No. 3, Cor. 5 of Th. 1; since $|f_n| \leq |f|$, $f_n$ belongs to $\mathscr{L}_F^p$ by the first part of the argument. Since $f(x)$ is equal almost everywhere to the limit of the sequence $f_n(x)$, Lebesgue’s theorem again proves that $f \in \mathscr{L}_F^p$, which completes the proof.
 
 One should take care to note that a function that is *locally negligible but not negligible* is not integrable; thus, a function equal *locally almost everywhere* to an integrable function is not necessarily integrable.
 
@@ -455,7 +455,7 @@ This follows from Cor. 4 applied to the $\varphi_{A_n}$.
 
 ### 7. Measure induced on a locally compact subspace
 
-Let $X$ be a locally compact space, $\mu$ a measure on $X$, and $Y$ a *locally compact subspace* of $X$. Since $Y$ is the intersection of an open set and a closed set in $X$ (GT, I, §9, No. 7, Prop. 12), it is $\mu$-measurable (No. 1, Cor. of Prop. 3). For every function $g \in \mathcal{H}(Y; \mathbf{C})$ let $g'$ be the function, defined on all of $X$, equal to $g$ on $Y$ and to 0 on $X - Y$; let us show that $g'$ is $\mu$-*integrable*. We can restrict ourselves to the case that $g$ is real and $\geqslant 0$ (on writing $g$ as a linear combination of such functions); since $g'$ is bounded and has compact support, it suffices to show that $g'$ is $\mu$-measurable (No. 6, Th. 5); but this follows from the fact that $g'$ is upper semi-continuous on $X$ (No. 5, Cor. of Prop. 8). We may therefore make the following definition:
+Let $X$ be a locally compact space, $\mu$ a measure on $X$, and $Y$ a *locally compact subspace* of $X$. Since $Y$ is the intersection of an open set and a closed set in $X$ (GT, I, §9, No. 7, Prop. 12), it is $\mu$-measurable (No. 1, Cor. of Prop. 3). For every function $g \in \mathscr{H}(Y; \mathbf{C})$ let $g'$ be the function, defined on all of $X$, equal to $g$ on $Y$ and to 0 on $X - Y$; let us show that $g'$ is $\mu$-*integrable*. We can restrict ourselves to the case that $g$ is real and $\geqslant 0$ (on writing $g$ as a linear combination of such functions); since $g'$ is bounded and has compact support, it suffices to show that $g'$ is $\mu$-measurable (No. 6, Th. 5); but this follows from the fact that $g'$ is upper semi-continuous on $X$ (No. 5, Cor. of Prop. 8). We may therefore make the following definition:
 
 #### Definition 4 {#int-iv-s5-def-4 .statement}
 
@@ -465,7 +465,7 @@ $$
 \int g \, d\mu_Y = \int g' \, d\mu
 $$
 
-*for every function $g \in \mathcal{K}(Y; \mathbf{C})$, where $g'$ denotes the function equal to $g$ on $Y$ and to 0 on $X - Y$.*
+*for every function $g \in \mathscr{K}(Y; \mathbf{C})$, where $g'$ denotes the function equal to $g$ on $Y$ and to 0 on $X - Y$.*
 
 #### Example {#int-iv-s5-n7-exa-1 .statement}
 
@@ -475,9 +475,9 @@ $$
 g \mapsto \int_a^b g(x) \, dx
 $$
 
-on $\mathcal{K}(I; \mathbf{C})$, where $a$ and $b$ are the endpoints (finite or not) of I (cf. § 4, No. 4, *Example*), in other words, what we have called *Lebesgue measure on I*.
+on $\mathscr{K}(I; \mathbf{C})$, where $a$ and $b$ are the endpoints (finite or not) of I (cf. § 4, No. 4, *Example*), in other words, what we have called *Lebesgue measure on I*.
 
-When Y is an *open* subspace of X, Def. 4 coincides with the definition of the measure induced by $\mu$ on Y (or the restriction of $\mu$ to Y) given in Ch. III, §2, No. 1: indeed, for every function $g \in \mathcal{K}(Y; \mathbf{C})$ the function $g'$ is then continuous on X.
+When Y is an *open* subspace of X, Def. 4 coincides with the definition of the measure induced by $\mu$ on Y (or the restriction of $\mu$ to Y) given in Ch. III, §2, No. 1: indeed, for every function $g \in \mathscr{K}(Y; \mathbf{C})$ the function $g'$ is then continuous on X.
 
 We shall study integration with respect to an induced measure in detail in Ch. V, §7, and until then we shall need only the following results:
 
@@ -491,7 +491,7 @@ We shall study integration with respect to an induced measure in detail in Ch. V
 
 (iii) *If S is the support of $\mu_K$, then* $\mathrm{Supp}(\mu_S) = S$.
 
-(i) We can restrict ourselves to the case that H is compact. Denote by $f$ the characteristic function of H in the space K; $f$ is upper semi-continuous, hence is the lower envelope of a decreasing directed family $(g_\alpha)$ of functions in $\mathcal{K}_+(K)$; we have $\mu_K(H) = \inf_\alpha \int g_\alpha \, d\mu_K$ (§ 4, No. 4, Cor. 2 of Prop. 5). If $g'_\alpha$ is the function equal to $g_\alpha$ on K and to 0 on $X - K$, then $g'_\alpha$ is upper semi-continuous, and the lower envelope of the decreasing directed family $(g'_\alpha)$ is the characteristic function $\varphi_H$ of H in the space X; therefore
+(i) We can restrict ourselves to the case that H is compact. Denote by $f$ the characteristic function of H in the space K; $f$ is upper semi-continuous, hence is the lower envelope of a decreasing directed family $(g_\alpha)$ of functions in $\mathscr{K}_+(K)$; we have $\mu_K(H) = \inf_\alpha \int g_\alpha \, d\mu_K$ (§ 4, No. 4, Cor. 2 of Prop. 5). If $g'_\alpha$ is the function equal to $g_\alpha$ on K and to 0 on $X - K$, then $g'_\alpha$ is upper semi-continuous, and the lower envelope of the decreasing directed family $(g'_\alpha)$ is the characteristic function $\varphi_H$ of H in the space X; therefore
 
 $$
 \mu(H) = \inf_\alpha \int g'_\alpha \, d\mu = \inf_\alpha \int g_\alpha \, d\mu_K = \mu_K(H)
@@ -507,7 +507,7 @@ by (1).
 
 *Let Y be a locally compact subspace of X; for every measure $\mu$ on X, $|\mu_Y| = |\mu|_Y$.*
 
-Let f be a function in $\mathcal{K}_+(Y)$ and $\varepsilon$ any number $> 0$; by definition, there exists a function $g \in \mathcal{K}(Y; \mathbf{C})$ such that $|g| \leq f$ and $|\mu_Y|(f) \leq |\mu_Y(g)| + \varepsilon$. Denoting by $f'$ and $g'$ the functions obtained by extending f and g, respectively, to be 0 on $X - Y$, we have $\mu_Y(g) = \mu(g')$ and, since $|g'| \leq f'$,
+Let f be a function in $\mathscr{K}_+(Y)$ and $\varepsilon$ any number $> 0$; by definition, there exists a function $g \in \mathscr{K}(Y; \mathbf{C})$ such that $|g| \leq f$ and $|\mu_Y|(f) \leq |\mu_Y(g)| + \varepsilon$. Denoting by $f'$ and $g'$ the functions obtained by extending f and g, respectively, to be 0 on $X - Y$, we have $\mu_Y(g) = \mu(g')$ and, since $|g'| \leq f'$,
 
 $$
 |\mu(g')| \leq |\mu|(|g'|) \leq |\mu|(f') = |\mu|_Y(f),
@@ -519,7 +519,7 @@ $$
 |\mu_Y|(f) \leq |\mu|_Y(f).
 $$
 
-On the other hand, let K be the support of f and let U be a compact neighborhood of K in X such that $|\mu|(U - K) \leq \varepsilon$; by Urysohn's theorem, there exists a function $f_1 \in \mathcal{K}_+(X)$, extending f, with support contained in U and such that $\|f_1\| = \|f\|$. There exists a function $h_1 \in \mathcal{K}(X; \mathbf{C})$ such that $|h_1| \leq f_1$ and $|\mu|(f_1) \leq |\mu(h_1)| + \varepsilon$. If h is the restriction of $h_1$ to Y, then $h \in \mathcal{K}(Y; \mathbf{C})$, $|h| \leq f$ and $\mu(h_1) - \mu_Y(h) = \mu(h_1 \varphi_{U-K})$, therefore
+On the other hand, let K be the support of f and let U be a compact neighborhood of K in X such that $|\mu|(U - K) \leq \varepsilon$; by Urysohn's theorem, there exists a function $f_1 \in \mathscr{K}_+(X)$, extending f, with support contained in U and such that $\|f_1\| = \|f\|$. There exists a function $h_1 \in \mathscr{K}(X; \mathbf{C})$ such that $|h_1| \leq f_1$ and $|\mu|(f_1) \leq |\mu(h_1)| + \varepsilon$. If h is the restriction of $h_1$ to Y, then $h \in \mathscr{K}(Y; \mathbf{C})$, $|h| \leq f$ and $\mu(h_1) - \mu_Y(h) = \mu(h_1 \varphi_{U-K})$, therefore
 
 $$
 |\mu(h_1) - \mu_Y(h)| \leq \|f\| \cdot |\mu|(U - K) \leq \varepsilon \|f\|;
@@ -543,28 +543,28 @@ and since $\varepsilon$ is arbitrary, $|\mu|_Y(f) \leq |\mu_Y|(f)$, which comple
 
 #### Proposition 12 {#int-iv-s5-prop-12 .statement}
 
-— Let $\mu$ be a measure on a locally compact space $X$, $A$ a $\mu$-measurable subset of $X$, and $\mathcal{K}$ a set of compact subsets of $A$ satisfying the following conditions:
-(PLI) Every closed (hence compact) subset of a set of $\mathcal{K}$ belongs to $\mathcal{K}$.
-(PLII) Every finite union of sets of $\mathcal{K}$ belongs to $\mathcal{K}$.
+— Let $\mu$ be a measure on a locally compact space $X$, $A$ a $\mu$-measurable subset of $X$, and $\mathscr{K}$ a set of compact subsets of $A$ satisfying the following conditions:
+(PLI) Every closed (hence compact) subset of a set of $\mathscr{K}$ belongs to $\mathscr{K}$.
+(PLII) Every finite union of sets of $\mathscr{K}$ belongs to $\mathscr{K}$.
 The following four properties are then equivalent:
-a) For a subset $B$ of $A$ to be locally $\mu$-negligible, it is necessary and sufficient that $|\mu|^*(B \cap K) = 0$ for all $K \in \mathcal{K}$.
-b) For every compact subset $K_0$ of $A$ and every $\varepsilon > 0$, there exists a set $K \in \mathcal{K}$, contained in $K_0$ and such that $|\mu|(K_0 - K) \leq \varepsilon$.
-c) For every compact subset $B$ of $A$, there exists a partition of $B$ formed by a $\mu$-negligible set $N$ and a sequence $(H_n)$ of compact sets belonging to $\mathcal{K}$.
-d) For every compact subset $B$ of $A$, there exists an increasing sequence $(K_n)$ of compact sets belonging to $\mathcal{K}$, contained in $B$ and such that the set $N = B - \bigcup_n K_n$ is $\mu$-negligible.
+a) For a subset $B$ of $A$ to be locally $\mu$-negligible, it is necessary and sufficient that $|\mu|^*(B \cap K) = 0$ for all $K \in \mathscr{K}$.
+b) For every compact subset $K_0$ of $A$ and every $\varepsilon > 0$, there exists a set $K \in \mathscr{K}$, contained in $K_0$ and such that $|\mu|(K_0 - K) \leq \varepsilon$.
+c) For every compact subset $B$ of $A$, there exists a partition of $B$ formed by a $\mu$-negligible set $N$ and a sequence $(H_n)$ of compact sets belonging to $\mathscr{K}$.
+d) For every compact subset $B$ of $A$, there exists an increasing sequence $(K_n)$ of compact sets belonging to $\mathscr{K}$, contained in $B$ and such that the set $N = B - \bigcup_n K_n$ is $\mu$-negligible.
 
-It is immediate (No. 2, Prop. 5) that d) implies $a); c)$ implies d) on taking $K_n$ to be the union of the $H_p$ for $p \leq n$ and citing (PLII). To prove that b) implies c), one defines recursively a sequence $(H_p)$ of sets of $\mathcal{K}$ such that $H_{n+1} \subset B - \bigcup_{p \leq n} H_p$ and $|\mu|(B - \bigcup_{p \leq n} H_p) \leq 1/n$ (§ 4, No. 6, Th. 4).
+It is immediate (No. 2, Prop. 5) that d) implies $a); c)$ implies d) on taking $K_n$ to be the union of the $H_p$ for $p \leq n$ and citing (PLII). To prove that b) implies c), one defines recursively a sequence $(H_p)$ of sets of $\mathscr{K}$ such that $H_{n+1} \subset B - \bigcup_{p \leq n} H_p$ and $|\mu|(B - \bigcup_{p \leq n} H_p) \leq 1/n$ (§ 4, No. 6, Th. 4).
 
-It remains to prove that a) implies b). Let us argue by contradiction, and suppose that the supremum $\alpha$ of the numbers $|\mu|(K)$, where $K$ runs over the set of subsets of $K_0$ belonging to $\mathcal{K}$, is $< |\mu|(K_0)$. By (PLII), there exists an increasing sequence $(L_n)$ of compact subsets of $K_0$, belonging to $\mathcal{K}$ and such that $\sup_n |\mu|(L_n) = \alpha$. Set $B = \bigcup_n L_n$; $B$ is integrable and $|\mu|(B) = \alpha$, therefore $|\mu|(K_0 - B) = |\mu|(K_0) - \alpha > 0$. On the other hand, we shall see that for every set $K \in \mathcal{K}$, $|\mu|(K \cap (K_0 - B)) = 0$, which, by virtue of a), will imply a contradiction. Indeed, if there existed a set $K \in \mathcal{K}$ such that $|\mu|(K \cap (K_0 - B)) > 0$, then there would exist a compact subset $H$ of $K \cap (K_0 - B)$ such that $|\mu|(H) > 0$. By (PLI), we would have $H \in \mathcal{K}$, and, for $n$ sufficiently large,
+It remains to prove that a) implies b). Let us argue by contradiction, and suppose that the supremum $\alpha$ of the numbers $|\mu|(K)$, where $K$ runs over the set of subsets of $K_0$ belonging to $\mathscr{K}$, is $< |\mu|(K_0)$. By (PLII), there exists an increasing sequence $(L_n)$ of compact subsets of $K_0$, belonging to $\mathscr{K}$ and such that $\sup_n |\mu|(L_n) = \alpha$. Set $B = \bigcup_n L_n$; $B$ is integrable and $|\mu|(B) = \alpha$, therefore $|\mu|(K_0 - B) = |\mu|(K_0) - \alpha > 0$. On the other hand, we shall see that for every set $K \in \mathscr{K}$, $|\mu|(K \cap (K_0 - B)) = 0$, which, by virtue of a), will imply a contradiction. Indeed, if there existed a set $K \in \mathscr{K}$ such that $|\mu|(K \cap (K_0 - B)) > 0$, then there would exist a compact subset $H$ of $K \cap (K_0 - B)$ such that $|\mu|(H) > 0$. By (PLI), we would have $H \in \mathscr{K}$, and, for $n$ sufficiently large,
 
 $$
 |\mu|(L_n \cup H) = |\mu|(L_n) + |\mu|(H) > \alpha .
 $$
 
-But $L_n \cup H$ belongs to $\mathcal{K}$ by (PLII), and this contradicts the definition of $\alpha$.
+But $L_n \cup H$ belongs to $\mathscr{K}$ by (PLII), and this contradicts the definition of $\alpha$.
 
 #### Definition 6 {#int-iv-s5-def-6 .statement}
 
-— Let $A$ be a $\mu$-measurable subset of $X$. A set $\mathcal{K}$ of compact subsets of $A$ is said to be $\mu$-dense in $A$ if it satisfies the conditions (PLI), (PLII), $a), b), c), d)$ of Prop. 12.
+— Let $A$ be a $\mu$-measurable subset of $X$. A set $\mathscr{K}$ of compact subsets of $A$ is said to be $\mu$-dense in $A$ if it satisfies the conditions (PLI), (PLII), $a), b), c), d)$ of Prop. 12.
 
 The set of *all* compact subsets of $A$ is $\mu$-dense in $A$.
 
@@ -572,15 +572,15 @@ When $A = X$, we shall say simply ' $\mu$-dense set' in place of 'set $\mu$-dens
 
 #### Remark {#int-iv-s5-n8-rem-1 .statement}
 
-— Suppose that $A$ is the union of a sequence $(L_n)$ of compact sets and a $\mu$-negligible (resp. locally $\mu$-negligible) set, and let $\mathcal{K}$ be a set of compact subsets that is $\mu$-dense in $A$. Applying to each $L_n$ the property *c*) of the statement of Prop. 12, we see that $A$ is the union a sequence of compact sets *belonging to* $\mathcal{K}$ and a $\mu$-negligible (resp. locally $\mu$-negligible) set.
+— Suppose that $A$ is the union of a sequence $(L_n)$ of compact sets and a $\mu$-negligible (resp. locally $\mu$-negligible) set, and let $\mathscr{K}$ be a set of compact subsets that is $\mu$-dense in $A$. Applying to each $L_n$ the property *c*) of the statement of Prop. 12, we see that $A$ is the union a sequence of compact sets *belonging to* $\mathscr{K}$ and a $\mu$-negligible (resp. locally $\mu$-negligible) set.
 
 If $K$ is a compact subset of $X$, it comes to the same to say that a set of compact subsets of $K$ is $\mu$-dense in $K$ or that it is $\mu_K$-*dense* in $K$; this follows from Lemmas 2 and 3 of No. 7 and condition *b*) of Prop. 12.
 
 #### Proposition 13 {#int-iv-s5-prop-13 .statement}
 
-*Let $A$ be a $\mu$-measurable subset of $X$, $\mathcal{K}$ a set of compact subsets that is $\mu$-dense in $A$. Let $\mathfrak{H}$ be a set of compact subsets of $A$ satisfying (PL$_I$) and (PL$_{II}$) and such that, for every $K \in \mathcal{K}$, the set of $H \in \mathfrak{H}$ such that $H \subset K$ is $\mu_K$-*dense* (or, what amounts to the same, $\mu$-*dense*) in $K$. Then $\mathfrak{H}$ is $\mu$-dense in $A$.*
+*Let $A$ be a $\mu$-measurable subset of $X$, $\mathscr{K}$ a set of compact subsets that is $\mu$-dense in $A$. Let $\mathfrak{H}$ be a set of compact subsets of $A$ satisfying (PL$_I$) and (PL$_{II}$) and such that, for every $K \in \mathscr{K}$, the set of $H \in \mathfrak{H}$ such that $H \subset K$ is $\mu_K$-*dense* (or, what amounts to the same, $\mu$-*dense*) in $K$. Then $\mathfrak{H}$ is $\mu$-dense in $A$.*
 
-For, let $L$ be a compact subset of $A$. For every $\varepsilon > 0$ there exists a $K \in \mathcal{K}$ such that $K \subset L$ and $|\mu|(L - K) \leq \varepsilon/2$, and then an $H \in \mathfrak{H}$ such that $H \subset K$ and $|\mu|(K - H) \leq \varepsilon/2$; it follows that $|\mu|(L - H) \leq \varepsilon$, whence the proposition.
+For, let $L$ be a compact subset of $A$. For every $\varepsilon > 0$ there exists a $K \in \mathscr{K}$ such that $K \subset L$ and $|\mu|(L - K) \leq \varepsilon/2$, and then an $H \in \mathfrak{H}$ such that $H \subset K$ and $|\mu|(K - H) \leq \varepsilon/2$; it follows that $|\mu|(L - H) \leq \varepsilon$, whence the proposition.
 
 ### 9. Locally countable partitions
 
@@ -594,9 +594,9 @@ Def. 7 shows that the *union* of a locally countable set of $\mu$-measurable (re
 
 #### Proposition 14 {#int-iv-s5-prop-14 .statement}
 
-*Let $X$ be a locally compact space, $\mu$ a measure on $X$, $A$ a $\mu$-measurable subset of $X$, and $\mathcal{K}$ a set of compact subsets of $A$ that is $\mu$-dense in $A$. There exists a locally countable set $\mathfrak{H} \subset \mathcal{K}$, formed of pairwise disjoint sets, such that $A - \bigcup_{K \in \mathfrak{H}} K$ is locally $\mu$-negligible and such that, for every $K \in \mathfrak{H}$, the support of $\mu_K$ is all of $K$.*
+*Let $X$ be a locally compact space, $\mu$ a measure on $X$, $A$ a $\mu$-measurable subset of $X$, and $\mathscr{K}$ a set of compact subsets of $A$ that is $\mu$-dense in $A$. There exists a locally countable set $\mathfrak{H} \subset \mathscr{K}$, formed of pairwise disjoint sets, such that $A - \bigcup_{K \in \mathfrak{H}} K$ is locally $\mu$-negligible and such that, for every $K \in \mathfrak{H}$, the support of $\mu_K$ is all of $K$.*
 
-Consider sets $\mathcal{L} \subset \mathfrak{K}$ formed of pairwise disjoint sets such that, for every $L \in \mathcal{L}$, $\operatorname{Supp}(\mu_L) = L$. The sets $\mathcal{L}$ form a subset $\mathcal{H}$ of $\mathcal{P}(\mathfrak{K})$ that is nonempty (because it contains the element $\varnothing$) and which we shall order by the relation of inclusion in $\mathcal{P}(\mathfrak{K})$. It is immediate that $\mathcal{H}$ is *inductive*; let $\mathfrak{H}$ be a maximal element of $\mathcal{H}$ (S, R, §6, No. 10). Let us first show that $\mathfrak{H}$ is *locally countable*. Indeed, for every $x \in X$, let $V$ be a relatively compact open neighborhood of $x$; if $(K_i)_{1 \leq i \leq n}$ is a finite family of distinct sets of $\mathfrak{H}$ that intersect $V$, then
+Consider sets $\mathscr{L} \subset \mathfrak{K}$ formed of pairwise disjoint sets such that, for every $L \in \mathscr{L}$, $\operatorname{Supp}(\mu_L) = L$. The sets $\mathscr{L}$ form a subset $\mathscr{H}$ of $\mathscr{P}(\mathfrak{K})$ that is nonempty (because it contains the element $\varnothing$) and which we shall order by the relation of inclusion in $\mathscr{P}(\mathfrak{K})$. It is immediate that $\mathscr{H}$ is *inductive*; let $\mathfrak{H}$ be a maximal element of $\mathscr{H}$ (S, R, §6, No. 10). Let us first show that $\mathfrak{H}$ is *locally countable*. Indeed, for every $x \in X$, let $V$ be a relatively compact open neighborhood of $x$; if $(K_i)_{1 \leq i \leq n}$ is a finite family of distinct sets of $\mathfrak{H}$ that intersect $V$, then
 
 $$
 \sum_{i=1}^n |\mu|(K_i \cap V) = |\mu|\left(V \cap \left( \bigcup_{i=1}^n K_i \right)\right)
@@ -608,7 +608,7 @@ $$
 \sum_{K \in \mathfrak{H}_V} |\mu|(K \cap V) < +\infty,
 $$
 
-and since $|\mu|(K \cap V) > 0$ for every $K \in \mathfrak{H}_V$, $\mathfrak{H}_V$ is necessarily countable. Next, let us prove that $N = A - \bigcup_{K \in \mathfrak{H}} K$ is locally $\mu$-negligible. We saw above that $N$ is $\mu$-measurable. If $N$ were not locally negligible, it would contain a non-negligible compact set $L_0$, hence (No. 8, Prop. 12) a non-negligible compact set $L \subset L_0$ belonging to $\mathfrak{K}$. Since $|\mu_L|(L) = |\mu|(L) > 0$ (No. 7, Lemmas 2 and 3), the measure $\mu_L$ induced on $L$ by $\mu$ is nonzero; its support $S$ is therefore a nonempty compact set belonging to $\mathfrak{K}$ by (PL₁), and $\operatorname{Supp}(\mu_S) = S$ (No. 7, Lemma 2, (iii)). It follows that the set $\mathfrak{H} \cup \{S\}$ belongs to $\mathcal{H}$, which contradicts the definition of $\mathfrak{H}$; the set $N$ is therefore locally negligible, which completes the proof.
+and since $|\mu|(K \cap V) > 0$ for every $K \in \mathfrak{H}_V$, $\mathfrak{H}_V$ is necessarily countable. Next, let us prove that $N = A - \bigcup_{K \in \mathfrak{H}} K$ is locally $\mu$-negligible. We saw above that $N$ is $\mu$-measurable. If $N$ were not locally negligible, it would contain a non-negligible compact set $L_0$, hence (No. 8, Prop. 12) a non-negligible compact set $L \subset L_0$ belonging to $\mathfrak{K}$. Since $|\mu_L|(L) = |\mu|(L) > 0$ (No. 7, Lemmas 2 and 3), the measure $\mu_L$ induced on $L$ by $\mu$ is nonzero; its support $S$ is therefore a nonempty compact set belonging to $\mathfrak{K}$ by (PL₁), and $\operatorname{Supp}(\mu_S) = S$ (No. 7, Lemma 2, (iii)). It follows that the set $\mathfrak{H} \cup \{S\}$ belongs to $\mathscr{H}$, which contradicts the definition of $\mathfrak{H}$; the set $N$ is therefore locally negligible, which completes the proof.
 
 ### 10. Measurable functions defined on a measurable subset
 
@@ -624,13 +624,13 @@ c) There exist a homeomorphism $j$ of $F$ onto a subspace of a topological space
 
 d) Every extension of $f$ to a mapping of $X$ into $F$, constant on $X - A$, is $\mu$-measurable.
 
-It is clear that a) implies b) and that d) implies c). The fact that c) implies a) follows from condition c) of Prop. 12 of No. 8. On the other hand, b) implies a): for, Def. 1 shows that, for each $K \in \mathcal{K}$, the set of subsets $H \in \mathcal{H}$ contained in $K$ is $\mu_K$-dense in $K$ (No. 8, Prop. 12, c)), and Prop. 13 of No. 8 shows that $\mathcal{H}$ is $\mu$-dense in $A$. It remains to see that a) implies d). Let $g$ be an extension of $f$ to $X$, constant on $X - A$. For every compact subset $L$ of $X$, $L \cap A$ and $L \cap (X - A)$ are $\mu$-integrable; therefore, for every $\varepsilon > 0$, there exist a compact subset $P \subset L \cap A$ and a compact subset $Q \subset L \cap (X - A)$ such that
+It is clear that a) implies b) and that d) implies c). The fact that c) implies a) follows from condition c) of Prop. 12 of No. 8. On the other hand, b) implies a): for, Def. 1 shows that, for each $K \in \mathscr{K}$, the set of subsets $H \in \mathscr{H}$ contained in $K$ is $\mu_K$-dense in $K$ (No. 8, Prop. 12, c)), and Prop. 13 of No. 8 shows that $\mathscr{H}$ is $\mu$-dense in $A$. It remains to see that a) implies d). Let $g$ be an extension of $f$ to $X$, constant on $X - A$. For every compact subset $L$ of $X$, $L \cap A$ and $L \cap (X - A)$ are $\mu$-integrable; therefore, for every $\varepsilon > 0$, there exist a compact subset $P \subset L \cap A$ and a compact subset $Q \subset L \cap (X - A)$ such that
 
 $$
 |\mu|((L \cap A) - P) \leq \varepsilon/4 \quad \text{and} \quad |\mu|\left((L \cap (X - A)) - Q\right) \leq \varepsilon/4.
 $$
 
-On the other hand, there exists a set $H \in \mathcal{H}$ contained in $P$ such that $|\mu|(P - H) \leq \varepsilon/2$; the restriction of $g$ to the compact set $K = H \cup Q$ is then continuous ($g$ being constant on $Q$) and $|\mu|(L - K) \leq \varepsilon$, which completes the proof.
+On the other hand, there exists a set $H \in \mathscr{H}$ contained in $P$ such that $|\mu|(P - H) \leq \varepsilon/2$; the restriction of $g$ to the compact set $K = H \cup Q$ is then continuous ($g$ being constant on $Q$) and $|\mu|(L - K) \leq \varepsilon$, which completes the proof.
 
 #### Definition 8 {#int-iv-s5-def-8 .statement}
 
@@ -640,9 +640,9 @@ If $A$ is locally $\mu$-negligible, then *every* mapping of $A$ into $F$ is ther
 
 #### Corollary 1 {#int-iv-s5-def-8-cor-1 .statement}
 
-*Let $X$ be a locally compact space, $\mu$ a measure on $X$, $A$ a $\mu$-measurable subset of $X$, and $f$ a $\mu$-measurable mapping of $A$ into a topological space $F$. Let $\mathcal{K}$ be a set of compact subsets of $X$, $\mu$-dense in $X$. Then, there exists a partition of $A$ formed by a locally negligible set $N$ and a locally countable family $(K_\lambda)_{\lambda \in L}$ of sets $K_\lambda \in \mathcal{K}$, such that $f|K_\lambda$ is continuous for every $\lambda \in L$.
+*Let $X$ be a locally compact space, $\mu$ a measure on $X$, $A$ a $\mu$-measurable subset of $X$, and $f$ a $\mu$-measurable mapping of $A$ into a topological space $F$. Let $\mathscr{K}$ be a set of compact subsets of $X$, $\mu$-dense in $X$. Then, there exists a partition of $A$ formed by a locally negligible set $N$ and a locally countable family $(K_\lambda)_{\lambda \in L}$ of sets $K_\lambda \in \mathscr{K}$, such that $f|K_\lambda$ is continuous for every $\lambda \in L$.
 
-In view of No. 9, Prop. 14, it suffices to show that the set $\mathcal{H} \subset \mathcal{K}$ of subsets $K \in \mathcal{K}$ such that $K \subset A$ and $f|K$ is continuous, is $\mu$-dense in $A$. Now, it follows at once from Prop. 1 of No. 1 and condition d) of Prop. 15 that, for every compact subset $K_0$ of $A$ and every $\varepsilon > 0$, there exists a subset $K \subset K_0$ belonging to $\mathcal{K}$ such that $|\mu|(K_0 - K) \leq \varepsilon$ and $f|K$ is continuous; the conclusion therefore follows from Prop. 12 of No. 8.
+In view of No. 9, Prop. 14, it suffices to show that the set $\mathscr{H} \subset \mathscr{K}$ of subsets $K \in \mathscr{K}$ such that $K \subset A$ and $f|K$ is continuous, is $\mu$-dense in $A$. Now, it follows at once from Prop. 1 of No. 1 and condition d) of Prop. 15 that, for every compact subset $K_0$ of $A$ and every $\varepsilon > 0$, there exists a subset $K \subset K_0$ belonging to $\mathscr{K}$ such that $|\mu|(K_0 - K) \leq \varepsilon$ and $f|K$ is continuous; the conclusion therefore follows from Prop. 12 of No. 8.
 
 #### Corollary 2 {#int-iv-s5-def-8-cor-2 .statement}
 
@@ -664,7 +664,7 @@ Property d) of Prop. 15 makes it possible to immediately generalize the properti
 
 ### 11. Convergence in measure
 
-Let $X$ be a locally compact space, $\mu$ a measure on $X$, $A$ a $\mu$-measurable subset of $X$, and $F$ a *uniform space*; we shall denote by $\mathcal{S}(A, \mu; F)$, or $\mathcal{S}_F(A, \mu)$ (or simply $\mathcal{S}_F(\mu)$, or even $\mathcal{S}_F$, when $A = X$) the set of $\mu$-*measurable mappings of $A$ into $F*$ (No. 10, Def. 8). For every entourage $V$ of the uniform structure of $F$, every $\mu$-integrable set $B \subset A$ and every number $\delta > 0$, we shall denote by $W(V, B, \delta)$ the set of pairs $(f, g)$ of functions in $\mathcal{S}(A, \mu; F)$ having the following property: the set $M$ of all $x \in B$ for which $(f(x), g(x)) \notin V$ is such that $|\mu|^*(M) \leq \delta$. Let us show that the sets $W(V, B, \delta)$ form a *fundamental system of entourages* for a uniform structure on $\mathcal{S}(A, \mu; F)$: it is clear that $W(V, B, \delta)$ is symmetric if $V$ is, and that if $V' \subset V,\ B' \supset B$ and $\delta' \leq \delta$, then
+Let $X$ be a locally compact space, $\mu$ a measure on $X$, $A$ a $\mu$-measurable subset of $X$, and $F$ a *uniform space*; we shall denote by $\mathscr{S}(A, \mu; F)$, or $\mathscr{S}_F(A, \mu)$ (or simply $\mathscr{S}_F(\mu)$, or even $\mathscr{S}_F$, when $A = X$) the set of $\mu$-*measurable mappings of $A$ into $F*$ (No. 10, Def. 8). For every entourage $V$ of the uniform structure of $F$, every $\mu$-integrable set $B \subset A$ and every number $\delta > 0$, we shall denote by $W(V, B, \delta)$ the set of pairs $(f, g)$ of functions in $\mathscr{S}(A, \mu; F)$ having the following property: the set $M$ of all $x \in B$ for which $(f(x), g(x)) \notin V$ is such that $|\mu|^*(M) \leq \delta$. Let us show that the sets $W(V, B, \delta)$ form a *fundamental system of entourages* for a uniform structure on $\mathscr{S}(A, \mu; F)$: it is clear that $W(V, B, \delta)$ is symmetric if $V$ is, and that if $V' \subset V,\ B' \supset B$ and $\delta' \leq \delta$, then
 
 $$
 W(V', B', \delta') \subset W(V, B, \delta);
@@ -680,13 +680,13 @@ Note that as $K$ runs over a $\mu$-dense set $\mathfrak{K}$ of *compact* subsets
 
 #### Definition 9 {#int-iv-s5-def-9 .statement}
 
-*The uniform structure on $\mathcal{S}(A, \mu; F)$ of which the $W(V, B, \delta)$ form a fundamental system of entourages is called the uniform structure of convergence in measure in $A$.*.
+*The uniform structure on $\mathscr{S}(A, \mu; F)$ of which the $W(V, B, \delta)$ form a fundamental system of entourages is called the uniform structure of convergence in measure in $A$.*.
 
 The corresponding topology is called the *topology of convergence in measure in $A$*, and a filter (or a sequence) that converges for this topology is said to be *convergent in measure in $A$*; the mention of $A$ is often suppressed when $A = X$.
 
 Suppose $F$ is *Hausdorff*; then, for every $\mu$-integrable set $B \subset A$, the intersection of the entourages $W(V, B, \delta)$, where $V$ runs over a fundamental system of entourages of $F$ and $\delta$ runs over the set of numbers $> 0$, is the set of pairs $(f, g)$ such that $f(x) = g(x)$ *almost everywhere in $B$* (*with respect to $\mu$*). For, the set $M$ of $x \in B$ such that $f(x) \neq g(x)$ is $\mu$-integrable, because it is the inverse image, under the $\mu$-measurable mapping $x \mapsto (f(x), g(x))$, of the complement of the diagonal in $F \times F$, which is open (No. 5, Prop. 7); if $|\mu|(M) = \alpha > 0$, there exists a compact subset $K \subset M$ such that $|\mu|(M - K) < \alpha/2$ and such that the restrictions of $f$ and $g$ to $K$ are continuous; therefore, there exists an entourage $V_0$ of $F$ such that $(f(x), g(x)) \notin V_0$ for all $x \in K$, consequently $(f, g) \notin W(V_0, B, \alpha/2)$.
 
-From this it follows that if $F$ is Hausdorff, then the intersection of *all* the entourages of $\mathcal{S}(A, \mu; F)$ is the set of pairs $(f, g)$ such that $f(x) = g(x)$ *locally almost everywhere in $A$*. The Hausdorff uniform space associated with $\mathcal{S}(A, \mu; F)$, which we shall denote $S(A, \mu; F)$ or $S_F(A, \mu)$ (or even $S_F(\mu)$ or $S_F$ when $A = X$), therefore consists of the *equivalence classes* for the relation « $f(x) = g(x)$ locally almost everywhere in $A$ » in the set $\mathcal{S}(A, \mu; F)$.
+From this it follows that if $F$ is Hausdorff, then the intersection of *all* the entourages of $\mathscr{S}(A, \mu; F)$ is the set of pairs $(f, g)$ such that $f(x) = g(x)$ *locally almost everywhere in $A$*. The Hausdorff uniform space associated with $\mathscr{S}(A, \mu; F)$, which we shall denote $S(A, \mu; F)$ or $S_F(A, \mu)$ (or even $S_F(\mu)$ or $S_F$ when $A = X$), therefore consists of the *equivalence classes* for the relation « $f(x) = g(x)$ locally almost everywhere in $A$ » in the set $\mathscr{S}(A, \mu; F)$.
 
 #### Proposition 17 {#int-iv-s5-prop-17 .statement}
 
@@ -712,7 +712,7 @@ Since each $A_n$ is the union of a negligible set and a sequence of compact sets
 
 Suppose first that $B$ is integrable, and denote by $d$ a metric compatible with the uniform structure of $F$. We shall define recursively a double sequence $(f_{mn})$ of functions in $S(A, \mu; F)$ such that $f_{0n} = f_n$ for every $n$, $(f_{mn})_{n \geq 0}$ is a subsequence of $(f_{m-1,n})_{n \geq 0}$ for every $m > 0$ and, finally, such that for every $m > 0$ the set $M_{mn}$ of $x \in B$ for which $d(f_{mn}(x), f_{m,n+1}(x)) > 1/2^{m+n+1}$ has measure $|\mu|(M_{mn}) \leq 1/2^{m+n+1}$;
 
-the possibility of such a definition follows from the fact that $(f_n)$ is a Cauchy sequence in $\mathcal{S}(A, \mu; F)$. Set $M_m = \bigcup_{n \geq 0} M_{mn}$; then
+the possibility of such a definition follows from the fact that $(f_n)$ is a Cauchy sequence in $\mathscr{S}(A, \mu; F)$. Set $M_m = \bigcup_{n \geq 0} M_{mn}$; then
 
 $$
 |\mu|(M_m) \leq \sum_{n=0}^{\infty} |\mu|(M_{mn}) \leq 1/2^m
@@ -726,7 +726,7 @@ If now $B$ is the union of a sequence $(B_m)$ of integrable sets, one can define
 
 *If the uniform space $F$ is metrizable and complete, then the uniform space $S(A, \mu; F)$ is complete.*
 
-There exists a locally countable family $(K_{\lambda})_{\lambda \in L}$ of compact subsets of $A$ such that the $K_{\lambda}$ are pairwise disjoint and $A - \bigcup_{\lambda} K_{\lambda}$ is locally negligible (No. 9, Prop. 14). By Prop. 17, $S(A, \mu; F)$ is isomorphic to the product $\prod_{\lambda \in L} S(K_{\lambda}, \mu; F)$; we are thus reduced to proving the proposition when $A$ is *integrable*; $S(A, \mu; F)$ is then metrizable (Prop. 18) and, by Lemma 4, for every Cauchy sequence $(f_n)$ in $\mathcal{S}(A, \mu; F)$ there exists a subsequence $(f_{n_k})$ that is convergent in $A - N$, where $N$ is negligible; the limit $f$ of $(f_{n_k})$ (extended in any way whatsoever to all of $A$) is then $\mu$-measurable, and it follows from the extension of Egoroff’s theorem mentioned in No. 10 that the sequence $(f_{n_k})$ *converges in measure* to $f$ in $A$. This implies that $f$ is a cluster point of the sequence $(f_n)$ in $\mathcal{S}(A, \mu; F)$, and since the sequence $(f_n)$ is by hypothesis a Cauchy sequence, it converges to $f$.
+There exists a locally countable family $(K_{\lambda})_{\lambda \in L}$ of compact subsets of $A$ such that the $K_{\lambda}$ are pairwise disjoint and $A - \bigcup_{\lambda} K_{\lambda}$ is locally negligible (No. 9, Prop. 14). By Prop. 17, $S(A, \mu; F)$ is isomorphic to the product $\prod_{\lambda \in L} S(K_{\lambda}, \mu; F)$; we are thus reduced to proving the proposition when $A$ is *integrable*; $S(A, \mu; F)$ is then metrizable (Prop. 18) and, by Lemma 4, for every Cauchy sequence $(f_n)$ in $\mathscr{S}(A, \mu; F)$ there exists a subsequence $(f_{n_k})$ that is convergent in $A - N$, where $N$ is negligible; the limit $f$ of $(f_{n_k})$ (extended in any way whatsoever to all of $A$) is then $\mu$-measurable, and it follows from the extension of Egoroff’s theorem mentioned in No. 10 that the sequence $(f_{n_k})$ *converges in measure* to $f$ in $A$. This implies that $f$ is a cluster point of the sequence $(f_n)$ in $\mathscr{S}(A, \mu; F)$, and since the sequence $(f_n)$ is by hypothesis a Cauchy sequence, it converges to $f$.
 
 Q.E.D.
 
@@ -734,9 +734,9 @@ Q.E.D.
 
 — Let F be a metrizable uniform space.
 
-(i) Every sequence $(f_n)$ of elements of $\mathcal{S}(A, \mu; F)$ that converges locally almost everywhere to a mapping $f$ (necessarily $\mu$-measurable) of A into F, converges in measure to $f$ in A.
+(i) Every sequence $(f_n)$ of elements of $\mathscr{S}(A, \mu; F)$ that converges locally almost everywhere to a mapping $f$ (necessarily $\mu$-measurable) of A into F, converges in measure to $f$ in A.
 
-(ii) Let $(f_n)$ be a sequence of elements of $\mathcal{S}(A, \mu; F)$ that converges in measure to a mapping $f$ of A into F. For every set $B \subset A$ that is a countable union of integrable sets, there exists a subsequence $(f_{n_k})$ of $(f_n)$ such that the sequence $(f_{n_k}(x))$ converges in F to $f(x)$ for almost every $x \in B$.
+(ii) Let $(f_n)$ be a sequence of elements of $\mathscr{S}(A, \mu; F)$ that converges in measure to a mapping $f$ of A into F. For every set $B \subset A$ that is a countable union of integrable sets, there exists a subsequence $(f_{n_k})$ of $(f_n)$ such that the sequence $(f_{n_k}(x))$ converges in F to $f(x)$ for almost every $x \in B$.
 
 (i) The assertion follows at once from the extension of Egoroff’s theorem mentioned in No. 10.
 
@@ -746,13 +746,13 @@ Q.E.D.
 
 — Let F be a Banach space, equipped with the uniform structure defined by its norm.
 
-(i) For every $\mu$-measurable subset A of X, the topology of convergence in measure is compatible with the vector space structure of $\mathcal{S}(A, \mu; F)$.
+(i) For every $\mu$-measurable subset A of X, the topology of convergence in measure is compatible with the vector space structure of $\mathscr{S}(A, \mu; F)$.
 
-(ii) The space $\mathcal{K}(X; F)$ is dense in $\mathcal{S}(X, \mu; F)$.
+(ii) The space $\mathscr{K}(X; F)$ is dense in $\mathscr{S}(X, \mu; F)$.
 
-(iii) For every real number $p \geq 1$, the topology induced on the space $\mathcal{L}_F^p(X, \mu)$ by the topology of convergence in measure is coarser than the topology of convergence in mean of order $p$.
+(iii) For every real number $p \geq 1$, the topology induced on the space $\mathscr{L}_F^p(X, \mu)$ by the topology of convergence in measure is coarser than the topology of convergence in mean of order $p$.
 
-(i) For every $\mu$-integrable subset B of A and every $\delta > 0$, denote by $T(B, \delta)$ the set of $f \in \mathcal{S}(A, \mu; F)$ for which the set C of $x \in B$ such that $|f(x)| \geq \delta$ satisfies the relation $|\mu|(C) \leq \delta$; it is clear that if $V_\delta$ is the entourage of F formed by the pairs $(y, z)$ such that $|y - z| \leq \delta$, the entourage $W(V_\delta, B, \delta)$ is the set of pairs $(f, g)$ of measurable mappings of A into F such that $f - g \in T(B, \delta)$. It is clear that the sets $T(B, \delta)$ are symmetric, and that $T(B, \delta) + T(B, \delta) \subset T(B, 2\delta)$ and $T(B, |\alpha|\delta) \subset \alpha T(B, \delta)$ for every nonzero scalar $\alpha$ such that $|\alpha| \leq 1$; it therefore suffices to verify that the sets $T(B, \delta)$ are absorbent (TVS, I, §1, No. 5, Prop. 4). Now, if $f$ is a $\mu$-measurable mapping of A into F, the numerical function $|f|$ is also $\mu$-measurable (No. 3, Cor. 6 of Th. 1). Let $C_n$ be the set of $x \in B$ such that $|f(x)| \geq n$; the $C_n$ form a decreasing sequence of integrable sets whose intersection is empty; therefore there exists an integer $n$ such that $|\mu|(C_n) \leq \delta$ (§ 4, No. 5, Cor. of Prop. 7); we can moreover suppose that $n$ is taken sufficiently large that $1/n \leq \delta$; then $f/n^2 \in T(B, \delta)$, which completes the proof of assertion (i).
+(i) For every $\mu$-integrable subset B of A and every $\delta > 0$, denote by $T(B, \delta)$ the set of $f \in \mathscr{S}(A, \mu; F)$ for which the set C of $x \in B$ such that $|f(x)| \geq \delta$ satisfies the relation $|\mu|(C) \leq \delta$; it is clear that if $V_\delta$ is the entourage of F formed by the pairs $(y, z)$ such that $|y - z| \leq \delta$, the entourage $W(V_\delta, B, \delta)$ is the set of pairs $(f, g)$ of measurable mappings of A into F such that $f - g \in T(B, \delta)$. It is clear that the sets $T(B, \delta)$ are symmetric, and that $T(B, \delta) + T(B, \delta) \subset T(B, 2\delta)$ and $T(B, |\alpha|\delta) \subset \alpha T(B, \delta)$ for every nonzero scalar $\alpha$ such that $|\alpha| \leq 1$; it therefore suffices to verify that the sets $T(B, \delta)$ are absorbent (TVS, I, §1, No. 5, Prop. 4). Now, if $f$ is a $\mu$-measurable mapping of A into F, the numerical function $|f|$ is also $\mu$-measurable (No. 3, Cor. 6 of Th. 1). Let $C_n$ be the set of $x \in B$ such that $|f(x)| \geq n$; the $C_n$ form a decreasing sequence of integrable sets whose intersection is empty; therefore there exists an integer $n$ such that $|\mu|(C_n) \leq \delta$ (§ 4, No. 5, Cor. of Prop. 7); we can moreover suppose that $n$ is taken sufficiently large that $1/n \leq \delta$; then $f/n^2 \in T(B, \delta)$, which completes the proof of assertion (i).
 
 (iii) The relation $\int |f|^p d|\mu| \leq \delta^{p+1}$ implies that if $C$ is the set of $x \in X$ such that $|f(x)| \geq \delta$, then
 
@@ -762,16 +762,16 @@ $$
 
 whence $|\mu|^*(C) \leq \delta$, which proves (iii).
 
-(ii) In view of (iii), it suffices to show for example that $\mathcal{L}_F^1$ is dense in $\mathcal{S}_F$, since by definition $\mathcal{H}(X; F)$ is dense in $\mathcal{L}_F^1$ for the topology of convergence in mean. Now, let $f$ be any element of $\mathcal{S}_F$ and let $T(B, \delta)$ be a neighborhood of 0 in this space; we see as in (i) that there exists an integrable subset $C$ of $B$ such that $|\mu|(C) \leq \delta$ and such that $f$ is *bounded* on $B - C$; denoting then by $g$ the function equal to $f$ on $B - C$ and to 0 on $X - (B - C)$, it follows from No. 6, Th. 5 that $g$ is integrable, and obviously $f - g \in T(B, \delta)$.
+(ii) In view of (iii), it suffices to show for example that $\mathscr{L}_F^1$ is dense in $\mathscr{S}_F$, since by definition $\mathscr{H}(X; F)$ is dense in $\mathscr{L}_F^1$ for the topology of convergence in mean. Now, let $f$ be any element of $\mathscr{S}_F$ and let $T(B, \delta)$ be a neighborhood of 0 in this space; we see as in (i) that there exists an integrable subset $C$ of $B$ such that $|\mu|(C) \leq \delta$ and such that $f$ is *bounded* on $B - C$; denoting then by $g$ the function equal to $f$ on $B - C$ and to 0 on $X - (B - C)$, it follows from No. 6, Th. 5 that $g$ is integrable, and obviously $f - g \in T(B, \delta)$.
 
 #### Remark {#int-iv-s5-n11-rem-1 .statement}
 
-— 1) The topological vector space $\mathcal{S}(X, \mu; F)$ is not necessarily locally convex (Exer. 24).
+— 1) The topological vector space $\mathscr{S}(X, \mu; F)$ is not necessarily locally convex (Exer. 24).
 2) The topology induced on the set of $f$ such that $N_p(f) \leq 1$ by the topology of convergence in measure may be strictly coarser than the topology induced on this set by the topology of convergence in mean of order $p$ (Exer. 22). However, see Prop. 21 below.
 
 #### Definition 10 {#int-iv-s5-def-10 .statement}
 
-*Let $X$ be a locally compact space, $\mu$ a measure on $X$, $F$ a Banach space, and $p \in [1, +\infty[$. A subset $H$ of $\mathcal{L}_F^p(X, \mu)$ is said to be equi-integrable of order $p$ (for $\mu$) if it satisfies the following conditions:*
+*Let $X$ be a locally compact space, $\mu$ a measure on $X$, $F$ a Banach space, and $p \in [1, +\infty[$. A subset $H$ of $\mathscr{L}_F^p(X, \mu)$ is said to be equi-integrable of order $p$ (for $\mu$) if it satisfies the following conditions:*
 
 (i) *For every $\varepsilon > 0$ there exists a $\delta > 0$ such that, for every integrable set $A$ of measure $|\mu|(A) \leq \delta$ and every $f \in H$,*
 
@@ -789,7 +789,7 @@ When $p = 1$ we say 'equi-integrable' instead of 'equi-integrable of order 1'.
 
 #### Proposition 21 {#int-iv-s5-prop-21 .statement}
 
-*Let $H$ be a subset of $\mathcal{L}_F^p(X, \mu)$ that is equi-integrable of order $p$. On $H$, the uniform structure of convergence in measure is equal to the uniform structure induced by that of $\mathcal{L}_F^p(X, \mu)$.*
+*Let $H$ be a subset of $\mathscr{L}_F^p(X, \mu)$ that is equi-integrable of order $p$. On $H$, the uniform structure of convergence in measure is equal to the uniform structure induced by that of $\mathscr{L}_F^p(X, \mu)$.*
 
 Let $\varepsilon > 0$. There exist $\delta$ and $K$ with the properties (i) and (ii) of Def. 10. Let $f, g$ in $H$ be such that
 
@@ -818,7 +818,7 @@ $$
 \leq 2^p \varepsilon + 2^p \varepsilon + \frac{\varepsilon}{|\mu|(K)} |\mu|(K-M) \leq (2^{p+1} + 1)\varepsilon.
 $$
 
-Thus, the uniform structure of convergence in measure on $H$ is finer than the uniform structure induced by that of $\mathcal{L}_F^p(X, \mu)$. It then suffices to apply Prop. 20.
+Thus, the uniform structure of convergence in measure on $H$ is finer than the uniform structure induced by that of $\mathscr{L}_F^p(X, \mu)$. It then suffices to apply Prop. 20.
 
 ### 12. A property of vague convergence
 
@@ -828,13 +828,13 @@ Thus, the uniform structure of convergence in measure on $H$ is finer than the u
 
 (i) *The set of points of discontinuity of $f$ is $\mu$-negligible.*
 
-(ii) *For every $\varepsilon > 0$, there exist elements $a_1, \ldots, a_n$ of $F$, functions $g_1, \ldots, g_n$ belonging to $\mathcal{K}(X)$, and a bounded continuous function $h \geq 0$ on $X$ such that $|f - g_1 a_1 - \cdots - g_n a_n| \leq h \leq 2 \sup |f|$ on $X$, and $\int h d\mu \leq \varepsilon$.*
+(ii) *For every $\varepsilon > 0$, there exist elements $a_1, \ldots, a_n$ of $F$, functions $g_1, \ldots, g_n$ belonging to $\mathscr{K}(X)$, and a bounded continuous function $h \geq 0$ on $X$ such that $|f - g_1 a_1 - \cdots - g_n a_n| \leq h \leq 2 \sup |f|$ on $X$, and $\int h d\mu \leq \varepsilon$.*
 
 Denote by $N$ the set of points of discontinuity of $f$, and let $M = \sup |f|$.
 
-(i) $\Rightarrow$ (ii). Suppose that condition (i) is satisfied. Let $\varepsilon > 0$. The function $f$ is $\mu$-integrable (No. 2, Cor. 4 of Prop. 5, and No. 6, Th. 5), therefore there exist $a_1, \ldots, a_n$ in $F$ and $g_1, \ldots, g_n$ in $\mathcal{K}(X)$ such that, on setting $k = |f - g_1 a_1 - \cdots - g_n a_n|$, we have $\int k d\mu \leq \varepsilon/2$ (§ 3, No. 5,
+(i) $\Rightarrow$ (ii). Suppose that condition (i) is satisfied. Let $\varepsilon > 0$. The function $f$ is $\mu$-integrable (No. 2, Cor. 4 of Prop. 5, and No. 6, Th. 5), therefore there exist $a_1, \ldots, a_n$ in $F$ and $g_1, \ldots, g_n$ in $\mathscr{K}(X)$ such that, on setting $k = |f - g_1 a_1 - \cdots - g_n a_n|$, we have $\int k d\mu \leq \varepsilon/2$ (§ 3, No. 5,
 
-Prop. 10). Multiplying $g_1, \ldots, g_n$ by a suitable same element of $\mathcal{K}(X)$, we can suppose in addition that
+Prop. 10). Multiplying $g_1, \ldots, g_n$ by a suitable same element of $\mathscr{K}(X)$, we can suppose in addition that
 
 $$
 |g_1 a_1 + \cdots + g_n a_n| \leq M = \sup |f|
@@ -848,22 +848,22 @@ Then $2M \geq l \geq k$ on X, and $l = k$ on $X - N'$, that is, almost everywher
 
 #### Proposition 22 {#int-iv-s5-prop-22 .statement}
 
-— *Let F be a Banach space, X a locally compact space, $\mathcal{E}$ the set of bounded positive measures on X, $\mu$ an element of $\mathcal{E}$, and $\mathcal{B}$ a filter base on $\mathcal{E}$. Assume that $\mathcal{B}$ converges vaguely to $\mu$ and that $\| \nu \|$ tends to $\| \mu \|$ with respect to $\mathcal{B}$. Let f be a mapping of X into F satisfying the following conditions:
+— *Let F be a Banach space, X a locally compact space, $\mathscr{E}$ the set of bounded positive measures on X, $\mu$ an element of $\mathscr{E}$, and $\mathscr{B}$ a filter base on $\mathscr{E}$. Assume that $\mathscr{B}$ converges vaguely to $\mu$ and that $\| \nu \|$ tends to $\| \mu \|$ with respect to $\mathscr{B}$. Let f be a mapping of X into F satisfying the following conditions:
 
-(i) f is bounded, and is integrable for $\mu$ and for every measure that belongs to some element of $\mathcal{B}$;
+(i) f is bounded, and is integrable for $\mu$ and for every measure that belongs to some element of $\mathscr{B}$;
 (ii) the set of points of discontinuity of f is $\mu$-negligible.
-Then $\int f \, d\nu$ tends to $\int f \, d\mu$ with respect to $\mathcal{B}$.
+Then $\int f \, d\nu$ tends to $\int f \, d\mu$ with respect to $\mathscr{B}$.
 
-Let $\varepsilon > 0$. There exist elements $a_1, \ldots, a_n$ in F, functions $g_1, \ldots, g_n$ in $\mathcal{K}(X)$, and a bounded continuous function $h \geq 0$ on X, such that
+Let $\varepsilon > 0$. There exist elements $a_1, \ldots, a_n$ in F, functions $g_1, \ldots, g_n$ in $\mathscr{K}(X)$, and a bounded continuous function $h \geq 0$ on X, such that
 
 $$
 |f - g_1 a_1 - \cdots - g_n a_n| \leq h \leq 2 \sup |f|
 $$
 
-on X and $\int h \, d\mu \leq \varepsilon$ (Lemma 5). Let $M = \sup |f|$. There exist a compact subset K of X such that $\mu^*(X - K) \leq \varepsilon$ (§ 4, No. 7, Prop. 12 and No. 6, Th. 4), a compact neighborhood $K'$ of K in X, and a continuous mapping $h'$ of X into $[0, 2M]$ such that $h' = h$ on K, $h' = 2M$ on $X - K'$; replacing $h'$ by $\sup(h, h')$, we can suppose in addition that $h' \geq h$. Then $\int (h' - h) \, d\mu \leq 2M \mu^*(X - K) \leq 2M \varepsilon$. On the other hand, $h' = h_1 + 2M$, where $h_1 \in \mathcal{K}(X)$. Taking into account § 4, No. 7, Prop. 12, the number
+on X and $\int h \, d\mu \leq \varepsilon$ (Lemma 5). Let $M = \sup |f|$. There exist a compact subset K of X such that $\mu^*(X - K) \leq \varepsilon$ (§ 4, No. 7, Prop. 12 and No. 6, Th. 4), a compact neighborhood $K'$ of K in X, and a continuous mapping $h'$ of X into $[0, 2M]$ such that $h' = h$ on K, $h' = 2M$ on $X - K'$; replacing $h'$ by $\sup(h, h')$, we can suppose in addition that $h' \geq h$. Then $\int (h' - h) \, d\mu \leq 2M \mu^*(X - K) \leq 2M \varepsilon$. On the other hand, $h' = h_1 + 2M$, where $h_1 \in \mathscr{K}(X)$. Taking into account § 4, No. 7, Prop. 12, the number
 
 $$
-\int h' \, d\nu = \int h_1 \, d\nu + 2M \|\nu\| \text{ tends to } \int h_1 \, d\mu + 2M \|\mu\| = \int h' \, d\mu \text{ with respect to } \mathcal{B}. \text{ There then exists an } A \in \mathcal{B} \text{ such that, for every } \nu \in A,
+\int h' \, d\nu = \int h_1 \, d\nu + 2M \|\nu\| \text{ tends to } \int h_1 \, d\mu + 2M \|\mu\| = \int h' \, d\mu \text{ with respect to } \mathscr{B}. \text{ There then exists an } A \in \mathscr{B} \text{ such that, for every } \nu \in A,
 $$
 $$
 \left| \int (g_1 a_1 + \cdots + g_n a_n) \, d\nu - \int (g_1 a_1 + \cdots + g_n a_n) \, d\mu \right| \leq \varepsilon,
@@ -889,11 +889,11 @@ The conditions (i) and (ii) of Proposition 22 are satisfied if $f$ is continuous
 
 #### Example {#int-iv-s5-n12-exa-1 .statement}
 
-Let us take for $X$ the compact space $\mathbf{U}$ of complex numbers of absolute value 1. On setting $\mu(f) = \int_0^1 f(e^{2i\pi t}) \, dt$ for every $f \in \mathcal{H}(\mathbf{U})$, one defines a positive measure of mass 1 on $\mathbf{U}$. On the other hand, let $\theta$ be a real number; for every integer $n \geq 0$, let $\nu_n$ be the unit mass placed at the point $e^{2i\pi n \theta}$ of $\mathbf{U}$, and let
+Let us take for $X$ the compact space $\mathbf{U}$ of complex numbers of absolute value 1. On setting $\mu(f) = \int_0^1 f(e^{2i\pi t}) \, dt$ for every $f \in \mathscr{H}(\mathbf{U})$, one defines a positive measure of mass 1 on $\mathbf{U}$. On the other hand, let $\theta$ be a real number; for every integer $n \geq 0$, let $\nu_n$ be the unit mass placed at the point $e^{2i\pi n \theta}$ of $\mathbf{U}$, and let
 $$
 \mu_n = \frac{1}{n+1} (\nu_0 + \cdots + \nu_n),
 $$
-so that $\mu_n$ is a positive measure of mass 1 on $\mathbf{U}$. Then, if $\theta$ is irrational, $\mu_n$ tends vaguely to $\mu$. For, since the linear combinations of the functions $z \mapsto z^k$ ($k \in \mathbf{Z}$) are dense in $\mathcal{H}(\mathbf{U})$ (GT, X, §4, No. 4, Prop. 8), it suffices to prove that $\mu_n(z^k)$ tends to $\mu(z^k)$ for $k \in \mathbf{Z}$. Now, for $k = 0$, $\mu_n(z^k) = \mu(z^k) = 1$; for $k \neq 0$,
+so that $\mu_n$ is a positive measure of mass 1 on $\mathbf{U}$. Then, if $\theta$ is irrational, $\mu_n$ tends vaguely to $\mu$. For, since the linear combinations of the functions $z \mapsto z^k$ ($k \in \mathbf{Z}$) are dense in $\mathscr{H}(\mathbf{U})$ (GT, X, §4, No. 4, Prop. 8), it suffices to prove that $\mu_n(z^k)$ tends to $\mu(z^k)$ for $k \in \mathbf{Z}$. Now, for $k = 0$, $\mu_n(z^k) = \mu(z^k) = 1$; for $k \neq 0$,
 $$
 \mu_n(z^k) = \frac{1}{n+1} (1 + e^{2i\pi k \theta} + e^{4i\pi k \theta} + \cdots + e^{2i\pi k n \theta}).
 $$

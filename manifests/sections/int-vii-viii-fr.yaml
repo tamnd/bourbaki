@@ -13,7 +13,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: e948d6888e2a37f572150dbae8955e7926204f0ed90ba104f7bf626f89eb4d99
+          content_sha256: d46f6564b9bc2452304d11f7ca17abbd99feaf562b27be44a557b26c4545ff80
         - kind: section
           section: 1
           title: Construction d'une mesure de Haar
@@ -25,7 +25,7 @@ chapters:
           statements: 50
           exercises: 30
           extraction: ocr
-          content_sha256: f072591059dd7b101cc550f66919f7fb096329c53ac2e20f8fd1ce7da768b66e
+          content_sha256: db1d8825cd989140492f1929a17755f450b5846eb8876515ec903798ee8bc6a8
         - kind: section
           section: 2
           title: Quotient d'un espace par un groupe ; espaces homogènes
@@ -37,7 +37,7 @@ chapters:
           statements: 52
           exercises: 13
           extraction: ocr
-          content_sha256: b81cb35830d8b77d952bbf682b6d42d2e10d45c04f9e923acd598a59705ebd05
+          content_sha256: 8d7c01df218f4e974e1e6f53c424b10b39cbbb6c6e2989998608fb6fb21f2688
         - kind: section
           section: 3
           title: Applications et exemples
@@ -49,7 +49,7 @@ chapters:
           statements: 26
           exercises: 6
           extraction: ocr
-          content_sha256: 8e5a9d75c0385e0263d9a5248ee1146c952d531befa9e00f05d2bc085ff82735
+          content_sha256: 768dfee427aeded9f12c9594c84f63cc38ab3411dc90105e552151ede6e554da
         - kind: appendix
           section: 1
           path: content/fr/int/VII/A1_a1_.md
@@ -60,7 +60,7 @@ chapters:
           statements: 2
           exercises: 0
           extraction: ocr
-          content_sha256: a92163703c66882e96ce7bc5268dffaed391879dad0ce127a3c16c94a54f8af9
+          content_sha256: afd4bf67075bd4e0ab24763f478ef82e1e4ae7c5e65e63a017f2b628d75a206d
         - kind: appendix
           section: 2
           path: content/fr/int/VII/A2_a2_.md
@@ -96,7 +96,7 @@ chapters:
           statements: 15
           exercises: 0
           extraction: ocr
-          content_sha256: 2fda2cb240ee30046e4d7ca00b89fdab933693bce9e6decfa8ba3209e8ccf533
+          content_sha256: a7690dbc858b8b15547310189815cd83712f8e1eeaea0b6c823457b420303ee9
         - kind: section
           section: 2
           title: Représentations linéaires des groupes
@@ -108,7 +108,7 @@ chapters:
           statements: 22
           exercises: 0
           extraction: ocr
-          content_sha256: ac3267937a8d1c81aa3a8d0f11424c548a42ba2bc11b6231a92e9a2e2a0ef532
+          content_sha256: ce35b7e4035bc5840e4a8f5761611768f6f8557690bf5fbbd1fd292fa246252f
         - kind: section
           section: 3
           title: Convolution des mesures sur les groupes
@@ -120,7 +120,7 @@ chapters:
           statements: 17
           exercises: 28
           extraction: ocr
-          content_sha256: ffd68731804fc84a7304dfbcffafa38d713f3e4132092ee65ad0d122f18fe0d9
+          content_sha256: efc67622d60dde2e3802e9a9d9ac1274c0f02e798cbe9657be03362fb3fcc9dd
         - kind: section
           section: 4
           title: Convolution des mesures et des fonctions
@@ -132,7 +132,7 @@ chapters:
           statements: 42
           exercises: 0
           extraction: ocr
-          content_sha256: 7b9318ac12b36891a37785640a5341c5ac5427b9203e683edc18ba23ebaadd06
+          content_sha256: 1c2958722c9dc8e6797b6dd25b249cf1ab703afc6da9500bd4c03f73d72c8e0f
         - kind: section
           section: 5
           title: L’espace des sous-groupes fermés
@@ -144,7 +144,7 @@ chapters:
           statements: 20
           exercises: 6
           extraction: ocr
-          content_sha256: 2a4d88d0df05ce67fab7feaefe0f479d58be4ed1625be0a2d33482f3b2e87045
+          content_sha256: 48df3c6461e214c8133695e15c2026050f16c24d60ff952eb261dcf004b40a22
         - kind: historical
           title: Historical Note
           path: content/fr/int/VIII/historical_note.md

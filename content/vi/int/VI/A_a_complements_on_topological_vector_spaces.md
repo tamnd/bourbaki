@@ -21,9 +21,9 @@ subsections:
       pdf_page: 445
 statements: 6
 exercises: 0
-content_sha256: 226c74e444e74b02a69dfc8aef5cc92f317a17096719fab2fff67051292b8827
+content_sha256: 00b3f2d5ad85832cc420909477bc9838fd297266db61cfba15be1cb3013367c4
 translated_from: content/en/int/VI/A_a_complements_on_topological_vector_spaces.md
-source_content_sha256: 8240c45f1ffa0d8d8e08d1eb351824879072712524201a0c8f5557c34643b259
+source_content_sha256: fa681336d1c7c3ce37804fe10a6c5f646652b8a98de152b669f16c59e6f5d371
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-8e8fb815
 glossary_version: 34
@@ -37,7 +37,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Các dạng song tuyến tính và các ánh xạ tuyến tính
 
-Cho $(F_1, G_1), (F_2, G_2)$ là hai cặp không gian vectơ (thực hoặc phức) trong đối ngẫu tách biệt (TVS, II, §6, No. 1); giả sử mỗi không gian này được trang bị tôpô yếu tương ứng (*loc. cit.*, No. 2); nếu A và B là bất kỳ hai không gian nào trong các không gian này, như thường lệ ta ký hiệu $\mathcal{L}(A; B)$ là không gian vectơ các ánh xạ tuyến tính liên tục của A vào B, và $\mathfrak{B}(A, B)$ là không gian vectơ các dạng song tuyến tính *liên tục riêng rẽ* trên $A \times B$.
+Cho $(F_1, G_1), (F_2, G_2)$ là hai cặp không gian vectơ (thực hoặc phức) trong đối ngẫu tách biệt (TVS, II, §6, No. 1); giả sử mỗi không gian này được trang bị tôpô yếu tương ứng (*loc. cit.*, No. 2); nếu A và B là bất kỳ hai không gian nào trong các không gian này, như thường lệ ta ký hiệu $\mathscr{L}(A; B)$ là không gian vectơ các ánh xạ tuyến tính liên tục của A vào B, và $\mathfrak{B}(A, B)$ là không gian vectơ các dạng song tuyến tính *liên tục riêng rẽ* trên $A \times B$.
 
 Với mọi dạng song tuyến tính liên tục riêng rẽ $\Phi$ trên $F_1 \times F_2$, $x_1 \mapsto \Phi(x_1, x_2)$ là một dạng tuyến tính liên tục trên $F_1$, do đó tồn tại một và chỉ một phần tử ${}^r\Phi(x_2) \in G_1$ sao cho
 
@@ -45,7 +45,7 @@ $$
 \Phi(x_1, x_2) = \langle x_1, {}^r\Phi(x_2) \rangle
 $$
 
-với $x_1 \in F_1, x_2 \in F_2$ (TVS, III, §5, No. 1, (1)). Hơn nữa, công thức này cho thấy ánh xạ $x_2 \mapsto {}^r\Phi(x_2)$ là tuyến tính và liên tục đối với các tôpô (yếu) của $F_2$ và $G_1$. Ngược lại, với mọi ánh xạ tuyến tính liên tục $u$ từ $F_2$ vào $G_1$, $(x_1, x_2) \mapsto \Phi(x_1, x_2) = \langle x_1, u(x_2) \rangle$ là một dạng song tuyến tính liên tục riêng rẽ trên $F_1 \times F_2$, và ${}^r\Phi = u$. Do đó ta định nghĩa một đẳng cấu $r : \Phi \mapsto {}^r\Phi$ của $\mathfrak{B}(F_1, F_2)$ lên $\mathcal{L}(F_2; G_1)$, được gọi là *chính tắc*.
+với $x_1 \in F_1, x_2 \in F_2$ (TVS, III, §5, No. 1, (1)). Hơn nữa, công thức này cho thấy ánh xạ $x_2 \mapsto {}^r\Phi(x_2)$ là tuyến tính và liên tục đối với các tôpô (yếu) của $F_2$ và $G_1$. Ngược lại, với mọi ánh xạ tuyến tính liên tục $u$ từ $F_2$ vào $G_1$, $(x_1, x_2) \mapsto \Phi(x_1, x_2) = \langle x_1, u(x_2) \rangle$ là một dạng song tuyến tính liên tục riêng rẽ trên $F_1 \times F_2$, và ${}^r\Phi = u$. Do đó ta định nghĩa một đẳng cấu $r : \Phi \mapsto {}^r\Phi$ của $\mathfrak{B}(F_1, F_2)$ lên $\mathscr{L}(F_2; G_1)$, được gọi là *chính tắc*.
 
 Tương tự, công thức
 
@@ -53,26 +53,26 @@ $$
 \Phi(x_1, x_2) = \langle {}^l\Phi(x_1), x_2 \rangle
 $$
 
-xác định một *đẳng cấu chính tắc* $l : \Phi \mapsto {}^l\Phi$ của $\mathfrak{B}(F_1, F_2)$ lên $\mathcal{L}(F_1; G_2)$; và hiển nhiên ta có biểu đồ giao hoán
+xác định một *đẳng cấu chính tắc* $l : \Phi \mapsto {}^l\Phi$ của $\mathfrak{B}(F_1, F_2)$ lên $\mathscr{L}(F_1; G_2)$; và hiển nhiên ta có biểu đồ giao hoán
 
 $$
 \begin{array}{ccc}
-\mathcal{B}(F_1, F_2) & & \\
+\mathscr{B}(F_1, F_2) & & \\
 l & l^{-1} & r^{-1} \\
 & & \\
-\mathcal{L}(F_1; G_2) & \xleftarrow{t} & \mathcal{L}(F_2; G_1)
+\mathscr{L}(F_1; G_2) & \xleftarrow{t} & \mathscr{L}(F_2; G_1)
 \end{array}
 $$
 
-trong đó $t$ là đẳng cấu chuyển vị $u \mapsto {}^t u$. Xét theo định nghĩa các tôpô yếu trên $G_1$ và $G_2$, hơn nữa hiển nhiên rằng khi $\mathcal{B}(F_1, F_2)$, $\mathcal{L}(F_1; G_2)$ và $\mathcal{L}(F_2; G_1)$ được trang bị tôpô hội tụ điểm, các đẳng cấu trong biểu đồ trên là các đẳng cấu của cấu trúc không gian vectơ tôpô.
+trong đó $t$ là đẳng cấu chuyển vị $u \mapsto {}^t u$. Xét theo định nghĩa các tôpô yếu trên $G_1$ và $G_2$, hơn nữa hiển nhiên rằng khi $\mathscr{B}(F_1, F_2)$, $\mathscr{L}(F_1; G_2)$ và $\mathscr{L}(F_2; G_1)$ được trang bị tôpô hội tụ điểm, các đẳng cấu trong biểu đồ trên là các đẳng cấu của cấu trúc không gian vectơ tôpô.
 
-Bây giờ cho $E, F$ là hai không gian lồi địa phương Hausdorff, $E', F'$ là các không gian đối ngẫu tương ứng của chúng; ta ký hiệu $E_\sigma, F_\sigma$ là các không gian $E, F$ được trang bị các tôpô yếu hóa $\sigma(E, E')$, $\sigma(F, F')$, và $E'_s, F'_s$ là các không gian $E', F'$ được trang bị các tôpô yếu $\sigma(E', E)$, $\sigma(F', F)$. Vì thế, các nhận xét trên thiết lập các đẳng cấu chính tắc giữa ba không gian $\mathcal{B}(E_\sigma, F'_s)$, $\mathcal{L}(E_\sigma; F_\sigma)$ và $\mathcal{L}(F'_s; E'_s)$, và cũng giữa ba không gian $\mathcal{B}(E_\sigma, F_\sigma)$, $\mathcal{L}(E_\sigma; F'_s)$ và $\mathcal{L}(F_\sigma; E'_s)$. Ta sẽ nhận thấy rằng $\mathcal{B}(E_\sigma, F_\sigma)$ cũng bằng không gian $\mathcal{B}(E, F)$ các dạng song tuyến tính liên tục riêng rẽ trên $E \times F$ ($E$ và $F$ được trang bị các tôpô ban đầu của chúng), vì mọi dạng tuyến tính liên tục trên $E$ (resp. $F$) đều liên tục trên $E_\sigma$ (resp. $F_\sigma$) và ngược lại (TVS, II, §6, No. 1 and No. 2, Mệnh đề 3).
+Bây giờ cho $E, F$ là hai không gian lồi địa phương Hausdorff, $E', F'$ là các không gian đối ngẫu tương ứng của chúng; ta ký hiệu $E_\sigma, F_\sigma$ là các không gian $E, F$ được trang bị các tôpô yếu hóa $\sigma(E, E')$, $\sigma(F, F')$, và $E'_s, F'_s$ là các không gian $E', F'$ được trang bị các tôpô yếu $\sigma(E', E)$, $\sigma(F', F)$. Vì thế, các nhận xét trên thiết lập các đẳng cấu chính tắc giữa ba không gian $\mathscr{B}(E_\sigma, F'_s)$, $\mathscr{L}(E_\sigma; F_\sigma)$ và $\mathscr{L}(F'_s; E'_s)$, và cũng giữa ba không gian $\mathscr{B}(E_\sigma, F_\sigma)$, $\mathscr{L}(E_\sigma; F'_s)$ và $\mathscr{L}(F_\sigma; E'_s)$. Ta sẽ nhận thấy rằng $\mathscr{B}(E_\sigma, F_\sigma)$ cũng bằng không gian $\mathscr{B}(E, F)$ các dạng song tuyến tính liên tục riêng rẽ trên $E \times F$ ($E$ và $F$ được trang bị các tôpô ban đầu của chúng), vì mọi dạng tuyến tính liên tục trên $E$ (resp. $F$) đều liên tục trên $E_\sigma$ (resp. $F_\sigma$) và ngược lại (TVS, II, §6, No. 1 and No. 2, Mệnh đề 3).
 
-Cho $\mathcal{B}(E, F)$ là không gian các dạng song tuyến tính liên tục trên $E \times F$ ($E$ và $F$ được trang bị với các tôpô ban đầu của chúng); thì $\mathcal{B}(E, F) \subset \mathcal{B}(E, F)$.
+Cho $\mathscr{B}(E, F)$ là không gian các dạng song tuyến tính liên tục trên $E \times F$ ($E$ và $F$ được trang bị với các tôpô ban đầu của chúng); thì $\mathscr{B}(E, F) \subset \mathscr{B}(E, F)$.
 
 #### Mệnh đề 1 {#int-vi-a0-prop-1 .statement}
 
-*Để một dạng song tuyến tính $\Phi \in \mathcal{B}(E, F)$ thuộc $\mathcal{B}(E, F)$, điều cần và đủ là tồn tại một lân cận của 0 trong $E$ mà ảnh của nó qua ${}^l \Phi$ là một tập con đều liên tục của $F'$.*
+*Để một dạng song tuyến tính $\Phi \in \mathscr{B}(E, F)$ thuộc $\mathscr{B}(E, F)$, điều cần và đủ là tồn tại một lân cận của 0 trong $E$ mà ảnh của nó qua ${}^l \Phi$ là một tập con đều liên tục của $F'$.*
 
 Thật vậy, nói rằng $\Phi$ liên tục có nghĩa là tồn tại một lân cận lồi cân bằng $V$ (resp. $W$) của 0 trong $E$ (resp. $F$) sao cho $|\Phi(x, y)| \leq 1$ với $x \in V$, $y \in W$; điều này có thể viết là $|\langle {}^l \Phi(x), y \rangle| \leq 1$ với $x \in V$, $y \in W$, hoặc cũng có thể là ${}^l \Phi(V) \subset W^\circ$; do đó suy ra mệnh đề, lưu ý rằng mọi tập con đều liên tục của $F'$ đều được chứa trong đối cực của một lân cận của 0 trong $F$.
 

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 123
 statements: 15
 exercises: 0
-content_sha256: 8ed4876b66e4b93e4252c89f40e59e5df51207d878e7a01e38c48f580a5ec1d0
+content_sha256: 762de3cb00bf4cfa9b53b7a3a0b74ada1ed70f6aab72ccae19b058105ca629cd
 ---
 
 ## § 2. NEGLIGIBLE FUNCTIONS AND SETS
@@ -64,7 +64,7 @@ For, $|\mu|^*(\sum_n f_n) \leq \sum_n |\mu|^*(f_n) = 0$ (§ 1, No. 3, Prop. 13) 
 
 *For a lower semi-continuous function $f \geq 0$ on $X$ to be negligible, it is necessary and sufficient that $f$ be zero on the support of $\mu$.*
 
-If $|\mu|^*(f) = 0$ then $|\mu|(g) = 0$ for every function $g \in \mathcal{K}_+$ such that $g \leq f$; it follows (Ch. III, § 2, No. 3, Prop. 9) that $g$ is zero on the support $S$ of $\mu$; since $f$ is the upper envelope of the functions $g \in \mathcal{K}_+$ such that $g \leq f$ (§ 1, No. 1, Lemma), $f(x) = 0$ on $S$. Conversely, if $f(x) = 0$ on $S$ then $g(x) = 0$ on $S$ for every function $g \in \mathcal{K}_+$ such that $g \leq f$, therefore (Ch. III, § 2, No. 3, Prop. 8) $|\mu|(g) = 0$, which, by definition, implies that $|\mu|^*(f) = 0$.
+If $|\mu|^*(f) = 0$ then $|\mu|(g) = 0$ for every function $g \in \mathscr{K}_+$ such that $g \leq f$; it follows (Ch. III, § 2, No. 3, Prop. 9) that $g$ is zero on the support $S$ of $\mu$; since $f$ is the upper envelope of the functions $g \in \mathscr{K}_+$ such that $g \leq f$ (§ 1, No. 1, Lemma), $f(x) = 0$ on $S$. Conversely, if $f(x) = 0$ on $S$ then $g(x) = 0$ on $S$ for every function $g \in \mathscr{K}_+$ such that $g \leq f$, therefore (Ch. III, § 2, No. 3, Prop. 8) $|\mu|(g) = 0$, which, by definition, implies that $|\mu|^*(f) = 0$.
 
 ### 2. Negligible sets
 

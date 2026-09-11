@@ -37,7 +37,7 @@ subsections:
       pdf_page: 222
 statements: 31
 exercises: 10
-content_sha256: d918fc8bfca5bdbfb7f09764b73864ce7ca0e6b0610a120b0c82f1ca0bbd082a
+content_sha256: 01a859140339b63e2a3d681a5357be92cc6f3b9feeb7530ab638a41830f20290
 ---
 
 ## § 7. BARYCENTERS
@@ -100,7 +100,7 @@ Let U be a neighborhood of $\mu$ for the vague topology; we can suppose that U c
 $$
 |\mu(f_i) - \nu(f_i)| \leq \delta
 $$
-for a finite number of functions $f_i \in \mathcal{C}(K; \mathbf{C})$ ($1 \leq i \leq p$) and a number $\delta > 0$. For every point $a \in K$, there exists a closed convex neighborhood $V_a$ of 0 in E such that
+for a finite number of functions $f_i \in \mathscr{C}(K; \mathbf{C})$ ($1 \leq i \leq p$) and a number $\delta > 0$. For every point $a \in K$, there exists a closed convex neighborhood $V_a$ of 0 in E such that
 $$
 |f_i(y) - f_i(a)| \leq \delta/2
 $$
@@ -198,7 +198,7 @@ But since $u(\mathbf{x}) \leq \overline{u}(\mathbf{x})$ on K, the relation (8) i
 
 *Let E be a Hausdorff locally convex space over $\mathbf{R}$, and K a metrizable compact convex subset of E. Then, there exists a strictly convex numerical function on K.*
 
-For, the Banach space $\mathcal{C}(K; \mathbf{R})$ is separable (GT, X, §3, No. 3, Th. 1), therefore so is the subspace $\mathcal{A}$ of $\mathcal{C}(K; \mathbf{R})$ formed by the restrictions to K of the *continuous affine linear functions on* E. Thus let $(h_n)$ be a sequence dense in $\mathcal{A}$, and let $\alpha_n > \sup_{\mathbf{x} \in K} |h_n(\mathbf{x})|$. Then each of the functions $h_n^2 / n^2 \alpha_n^2$ is convex in K (TVS, II, §2, No. 8, *Examples*), and the series with general term $h_n^2 / n^2 \alpha_n^2$ is normally convergent, therefore its sum $u$ is continuous and convex in K. It remains to see that $u$ is strictly convex, and for this it suffices to prove that for any two distinct points $\mathbf{x}, \mathbf{x}'$ of K, there is an integer $n$ such that the restriction of $h_n^2$ to the segment with endpoints $\mathbf{x}, \mathbf{x}'$ is strictly convex; but for this it suffices that $h_n(\mathbf{x}) \neq h_n(\mathbf{x}')$ (*loc. cit.*). Now, there exists a function $h \in \mathcal{A}$ such that $h(\mathbf{x}) \neq h(\mathbf{x}')$ (TVS, II, §4, No. 1, Cor. 1 of Prop. 2) and since the sequence $(h_n)$ is dense in $\mathcal{A}$, there exists an $n$ such that $h_n(\mathbf{x}) \neq h_n(\mathbf{x}')$.
+For, the Banach space $\mathscr{C}(K; \mathbf{R})$ is separable (GT, X, §3, No. 3, Th. 1), therefore so is the subspace $\mathscr{A}$ of $\mathscr{C}(K; \mathbf{R})$ formed by the restrictions to K of the *continuous affine linear functions on* E. Thus let $(h_n)$ be a sequence dense in $\mathscr{A}$, and let $\alpha_n > \sup_{\mathbf{x} \in K} |h_n(\mathbf{x})|$. Then each of the functions $h_n^2 / n^2 \alpha_n^2$ is convex in K (TVS, II, §2, No. 8, *Examples*), and the series with general term $h_n^2 / n^2 \alpha_n^2$ is normally convergent, therefore its sum $u$ is continuous and convex in K. It remains to see that $u$ is strictly convex, and for this it suffices to prove that for any two distinct points $\mathbf{x}, \mathbf{x}'$ of K, there is an integer $n$ such that the restriction of $h_n^2$ to the segment with endpoints $\mathbf{x}, \mathbf{x}'$ is strictly convex; but for this it suffices that $h_n(\mathbf{x}) \neq h_n(\mathbf{x}')$ (*loc. cit.*). Now, there exists a function $h \in \mathscr{A}$ such that $h(\mathbf{x}) \neq h(\mathbf{x}')$ (TVS, II, §4, No. 1, Cor. 1 of Prop. 2) and since the sequence $(h_n)$ is dense in $\mathscr{A}$, there exists an $n$ such that $h_n(\mathbf{x}) \neq h_n(\mathbf{x}')$.
 
 Q.E.D.
 
@@ -210,63 +210,63 @@ For, $\mathbf{x}$ belongs to a cap K of C (TVS, II, §7, No. 2, Prop. 5), and $M
 
 ### 3. Applications: I. Vector spaces of continuous real functions
 
-Let X be a nonempty compact space, $\mathcal{H}$ a linear subspace of the Banach space $\mathcal{C}(X; \mathbf{R})$ that contains the constants and *separates* the points of X (GT, X, §4, No. 1, Def. 1). We equip $\mathcal{H}$ with the normed space topology induced by that of $C(X; \mathbf{R})$, and denote by $\mathcal{H}'$ the dual of this normed space. For every $x \in X$, the mapping $f \mapsto f(x)$ is a continuous linear form on $\mathcal{H}$ (the restriction to $\mathcal{H}$ of the Dirac measure $\varepsilon_x$), thus is an element of $\mathcal{H}'$ that will be denoted $i_{\mathcal{H}}(x)$, so that
+Let X be a nonempty compact space, $\mathscr{H}$ a linear subspace of the Banach space $\mathscr{C}(X; \mathbf{R})$ that contains the constants and *separates* the points of X (GT, X, §4, No. 1, Def. 1). We equip $\mathscr{H}$ with the normed space topology induced by that of $C(X; \mathbf{R})$, and denote by $\mathscr{H}'$ the dual of this normed space. For every $x \in X$, the mapping $f \mapsto f(x)$ is a continuous linear form on $\mathscr{H}$ (the restriction to $\mathscr{H}$ of the Dirac measure $\varepsilon_x$), thus is an element of $\mathscr{H}'$ that will be denoted $i_{\mathscr{H}}(x)$, so that
 
 $$
-\langle f, i_{\mathcal{H}}(x) \rangle = f(x)
+\langle f, i_{\mathscr{H}}(x) \rangle = f(x)
 $$
 
-for every function $f \in \mathcal{H}$ and every $x \in X$.
+for every function $f \in \mathscr{H}$ and every $x \in X$.
 
-The mapping $i_{\mathcal{H}}$ of X into $\mathcal{H}'$ is injective and continuous when $\mathcal{H}'$ is equipped with the weak topology $\sigma(\mathcal{H}', \mathcal{H})$; the second assertion follows at once from the definitions and (9); as for the first, note that if $x, x'$ are two distinct points of X, by hypothesis there exists a function $h \in \mathcal{H}$ such that $h(x) \neq h(x')$, therefore, by (9), $\langle h, i_{\mathcal{H}}(x) \rangle \neq \langle h, i_{\mathcal{H}}(x') \rangle$ and *a fortiori* $i_{\mathcal{H}}(x) \neq i_{\mathcal{H}}(x')$. The image $i_{\mathcal{H}}(X)$ is therefore a *compact* subset of $\mathcal{H}'$ (for the weak topology), and $i_{\mathcal{H}}$ is a *homeomorphism* of X onto $i_{\mathcal{H}}(X)$.
+The mapping $i_{\mathscr{H}}$ of X into $\mathscr{H}'$ is injective and continuous when $\mathscr{H}'$ is equipped with the weak topology $\sigma(\mathscr{H}', \mathscr{H})$; the second assertion follows at once from the definitions and (9); as for the first, note that if $x, x'$ are two distinct points of X, by hypothesis there exists a function $h \in \mathscr{H}$ such that $h(x) \neq h(x')$, therefore, by (9), $\langle h, i_{\mathscr{H}}(x) \rangle \neq \langle h, i_{\mathscr{H}}(x') \rangle$ and *a fortiori* $i_{\mathscr{H}}(x) \neq i_{\mathscr{H}}(x')$. The image $i_{\mathscr{H}}(X)$ is therefore a *compact* subset of $\mathscr{H}'$ (for the weak topology), and $i_{\mathscr{H}}$ is a *homeomorphism* of X onto $i_{\mathscr{H}}(X)$.
 
 #### Proposition 4 {#int-iv-s7-prop-4 .statement}
 
-(i) *The closed convex envelope* C *of* $i_{\mathcal{H}}(X)$ *in* $\mathcal{H}'$ *(for the weak topology* $\sigma(\mathcal{H}', \mathcal{H})$) *is compact*.
+(i) *The closed convex envelope* C *of* $i_{\mathscr{H}}(X)$ *in* $\mathscr{H}'$ *(for the weak topology* $\sigma(\mathscr{H}', \mathscr{H})$) *is compact*.
 
-(ii) *For a point* $i_{\mathcal{H}}(x)$ *to be an extremal point of* C, *it is necessary and sufficient that the only positive measure* $\lambda$ *on* X *such that*
+(ii) *For a point* $i_{\mathscr{H}}(x)$ *to be an extremal point of* C, *it is necessary and sufficient that the only positive measure* $\lambda$ *on* X *such that*
 
 $$
 h(x) = \int h \, d\lambda
 $$
 
-*for every function* $h \in \mathcal{H}$ (which implies in particular that $\lambda$ has total mass 1, since $1 \in \mathcal{H}$) *be the Dirac measure* $\varepsilon_x$.
+*for every function* $h \in \mathscr{H}$ (which implies in particular that $\lambda$ has total mass 1, since $1 \in \mathscr{H}$) *be the Dirac measure* $\varepsilon_x$.
 
-It follows that, for each $h \in \mathcal{H}$, the function $z' \mapsto \langle h, z' \rangle$ on C attains its supremum at at least one extremal point of C (TVS, II, §7, No. 1, Prop. 1), and this point belongs to $i_{\mathcal{H}}(X)$ (*loc. cit.*, Cor. of Prop. 2).
+It follows that, for each $h \in \mathscr{H}$, the function $z' \mapsto \langle h, z' \rangle$ on C attains its supremum at at least one extremal point of C (TVS, II, §7, No. 1, Prop. 1), and this point belongs to $i_{\mathscr{H}}(X)$ (*loc. cit.*, Cor. of Prop. 2).
 
-(i) By (9), $\| i_{\mathcal{H}}(x) \| \leq 1$ in the normed space $\mathcal{H}'$, in other words $i_{\mathcal{H}}(X)$ is bounded, and the assertion follows from the fact that $\mathcal{H}'$, equipped with the weak topology $\sigma(\mathcal{H}', \mathcal{H})$, is *quasi-complete* (TVS, III, §4, No. 2, Cor. 5 of Th. 1).
+(i) By (9), $\| i_{\mathscr{H}}(x) \| \leq 1$ in the normed space $\mathscr{H}'$, in other words $i_{\mathscr{H}}(X)$ is bounded, and the assertion follows from the fact that $\mathscr{H}'$, equipped with the weak topology $\sigma(\mathscr{H}', \mathscr{H})$, is *quasi-complete* (TVS, III, §4, No. 2, Cor. 5 of Th. 1).
 
-(ii) Every positive measure $\mu$ of mass 1 on $i_{\mathcal{H}}(X)$ arises, by transport of structure by means of the homeomorphism $i_{\mathcal{H}}$, from a positive measure $\lambda$ of mass 1 on X, the Dirac measure $\varepsilon_{i_{\mathcal{H}}(x)}$ arising from $\varepsilon_x$. To say that $\mu$ admits $i_{\mathcal{H}}(x)$ as barycenter means, by definition, that
+(ii) Every positive measure $\mu$ of mass 1 on $i_{\mathscr{H}}(X)$ arises, by transport of structure by means of the homeomorphism $i_{\mathscr{H}}$, from a positive measure $\lambda$ of mass 1 on X, the Dirac measure $\varepsilon_{i_{\mathscr{H}}(x)}$ arising from $\varepsilon_x$. To say that $\mu$ admits $i_{\mathscr{H}}(x)$ as barycenter means, by definition, that
 
 $$
-\int_X \langle h, i_{\mathcal{H}}(z) \rangle \, d\lambda(z) = \langle h, i_{\mathcal{H}}(x) \rangle
+\int_X \langle h, i_{\mathscr{H}}(z) \rangle \, d\lambda(z) = \langle h, i_{\mathscr{H}}(x) \rangle
 $$
 
-for every function $h \in \mathcal{H}$. Taking (9) into account, the assertion (ii) is just the translation of the criterion of No. 2, Cor. of Prop. 3 for $i_{\mathcal{H}}(x)$ to be an extremal point of C.
+for every function $h \in \mathscr{H}$. Taking (9) into account, the assertion (ii) is just the translation of the criterion of No. 2, Cor. of Prop. 3 for $i_{\mathscr{H}}(x)$ to be an extremal point of C.
 
-We shall say that a point $x \in X$ satisfying condition (ii) of Prop. 4 is $\mathcal{H}$-extremal; we denote by $\mathrm{Ch}_{\mathcal{H}}(X)$ (or simply $\mathrm{Ch}(X)$) the set of these points, and by $\check{S}_{\mathcal{H}}(X)$ (or simply $\check{S}(X)$) the closure of $\mathrm{Ch}_{\mathcal{H}}(X)$ in $X$.
+We shall say that a point $x \in X$ satisfying condition (ii) of Prop. 4 is $\mathscr{H}$-extremal; we denote by $\mathrm{Ch}_{\mathscr{H}}(X)$ (or simply $\mathrm{Ch}(X)$) the set of these points, and by $\check{S}_{\mathscr{H}}(X)$ (or simply $\check{S}(X)$) the closure of $\mathrm{Ch}_{\mathscr{H}}(X)$ in $X$.
 
 #### Proposition 5 {#int-iv-s7-prop-5 .statement}
 
-*Every function* $h \in \mathcal{H}$ *attains its supremum at at least one* $\mathcal{H}$*-extremal point*.
+*Every function* $h \in \mathscr{H}$ *attains its supremum at at least one* $\mathscr{H}$*-extremal point*.
 
-Let $x$ be a point of $X$, $h$ a function in $\mathcal{H}$. The relation $h(z) \leq h(x)$ for all $z \in X$ may be written $\langle h, i_{\mathcal{H}}(z) \rangle \leq \langle h, i_{\mathcal{H}}(x) \rangle$ for all $z \in X$, and therefore means that the weakly closed hyperplane of $\mathcal{H}'$ with equation $\langle h, t' \rangle = \langle h, i_{\mathcal{H}}(x) \rangle$ is a *support hyperplane* of $i_{\mathcal{H}}(X)$. It is known (TVS, II, §7, No. 1, Cor. of Prop. 1) that such a hyperplane contains at least one extremal point of the closed convex envelope of $i_{\mathcal{H}}(X)$, and such a point $i_{\mathcal{H}}(y)$ is the image of an $\mathcal{H}$-extremal point $y$ by definition; $h(y)$ is therefore equal to the supremum of $h$ in $X$.
+Let $x$ be a point of $X$, $h$ a function in $\mathscr{H}$. The relation $h(z) \leq h(x)$ for all $z \in X$ may be written $\langle h, i_{\mathscr{H}}(z) \rangle \leq \langle h, i_{\mathscr{H}}(x) \rangle$ for all $z \in X$, and therefore means that the weakly closed hyperplane of $\mathscr{H}'$ with equation $\langle h, t' \rangle = \langle h, i_{\mathscr{H}}(x) \rangle$ is a *support hyperplane* of $i_{\mathscr{H}}(X)$. It is known (TVS, II, §7, No. 1, Cor. of Prop. 1) that such a hyperplane contains at least one extremal point of the closed convex envelope of $i_{\mathscr{H}}(X)$, and such a point $i_{\mathscr{H}}(y)$ is the image of an $\mathscr{H}$-extremal point $y$ by definition; $h(y)$ is therefore equal to the supremum of $h$ in $X$.
 
 #### Proposition 6 {#int-iv-s7-prop-6 .statement}
 
 *For every point* $x \in X$, *the following properties are equivalent*:
 
-a) $x$ *is* $\mathcal{H}$*-extremal*.
+a) $x$ *is* $\mathscr{H}$*-extremal*.
 
-b) *For every open neighborhood* $U$ *of* $x$ *in* $X$ *and every* $\varepsilon > 0$, *there exists a function* $h \geq 0$ *in* $\mathcal{H}$ *such that* $h(x) \leq \varepsilon$ *and* $h(y) \geq 1$ *for every* $y \in X - U$.
+b) *For every open neighborhood* $U$ *of* $x$ *in* $X$ *and every* $\varepsilon > 0$, *there exists a function* $h \geq 0$ *in* $\mathscr{H}$ *such that* $h(x) \leq \varepsilon$ *and* $h(y) \geq 1$ *for every* $y \in X - U$.
 
-Let $x$ be any point of $X$, $f$ a function in $\mathcal{C}(X; \mathbf{R})$; it is known (TVS, II, §3, No. 1, Prop. 1) that the infimum of the numbers $\lambda(f)$, for all the positive measures on $X$ such that $\lambda(h) = h(x)$ for every function $h \in \mathcal{H}$, is equal to the supremum of the numbers $h(x)$, where $h$ runs over the set of functions $h \in \mathcal{H}$ such that $h \leq f$. Suppose that $x$ is $\mathcal{H}$-extremal; it then follows from Prop. 4, (ii) that for every function $f \in \mathcal{C}(X; \mathbf{R})$,
+Let $x$ be any point of $X$, $f$ a function in $\mathscr{C}(X; \mathbf{R})$; it is known (TVS, II, §3, No. 1, Prop. 1) that the infimum of the numbers $\lambda(f)$, for all the positive measures on $X$ such that $\lambda(h) = h(x)$ for every function $h \in \mathscr{H}$, is equal to the supremum of the numbers $h(x)$, where $h$ runs over the set of functions $h \in \mathscr{H}$ such that $h \leq f$. Suppose that $x$ is $\mathscr{H}$-extremal; it then follows from Prop. 4, (ii) that for every function $f \in \mathscr{C}(X; \mathbf{R})$,
 
 $$
-f(x) = \sup_{h \in \mathcal{H}, h \leq f} h(x).
+f(x) = \sup_{h \in \mathscr{H}, h \leq f} h(x).
 $$
 
-To show that *a)* implies *b)*, we take for $f$ a continuous mapping of $X$ into $[0, 1]$, with support contained in $U$, such that $f(x) = 1$; then, by (11), there exists a function $h' \in \mathcal{H}$ such that $h' \leq f$ and $h'(x) \geq 1 - \varepsilon$. Since $1 \in \mathcal{H}$, the function $h = 1 - h'$ meets the conditions of *b)*.
+To show that *a)* implies *b)*, we take for $f$ a continuous mapping of $X$ into $[0, 1]$, with support contained in $U$, such that $f(x) = 1$; then, by (11), there exists a function $h' \in \mathscr{H}$ such that $h' \leq f$ and $h'(x) \geq 1 - \varepsilon$. Since $1 \in \mathscr{H}$, the function $h = 1 - h'$ meets the conditions of *b)*.
 
 Conversely, suppose that the condition *b)* is verified; this condition implies that $1 - h \leq \varphi_U$; for every positive measure $\lambda$ on $X$ satisfying the condition (10), we therefore have
 
@@ -280,37 +280,37 @@ $$
 \lambda(\{x\}) = \inf_U \lambda(U) \geq 1 - \varepsilon
 $$
 
-for every $\varepsilon > 0$, therefore $\lambda(\{x\}) = 1$. Since $\lambda$ is positive and of total mass 1, necessarily $\lambda = \varepsilon_x$, which proves that $x$ is $\mathcal{H}$-extremal, by virtue of Prop. 4, (ii).
+for every $\varepsilon > 0$, therefore $\lambda(\{x\}) = 1$. Since $\lambda$ is positive and of total mass 1, necessarily $\lambda = \varepsilon_x$, which proves that $x$ is $\mathscr{H}$-extremal, by virtue of Prop. 4, (ii).
 
 #### Proposition 7 {#int-iv-s7-prop-7 .statement}
 
 *Let F be a closed subset of X. The following properties are equivalent:*
 
-a) *F contains $\check{S}_{\mathcal{H}}(X)$.*
+a) *F contains $\check{S}_{\mathscr{H}}(X)$.*
 
-b) *For every function $h \in \mathcal{H}$, the set F intersects the set of points of X where h attains its supremum.*
+b) *For every function $h \in \mathscr{H}$, the set F intersects the set of points of X where h attains its supremum.*
 
-c) *For every point $x \in X$, there exists a positive measure $\mu$ of total mass 1 on X, such that $\operatorname{Supp}(\mu) \subset F$ and $h(x) = \int h \, d\mu$ for every function $h \in \mathcal{H}$.*
+c) *For every point $x \in X$, there exists a positive measure $\mu$ of total mass 1 on X, such that $\operatorname{Supp}(\mu) \subset F$ and $h(x) = \int h \, d\mu$ for every function $h \in \mathscr{H}$.*
 
-Let $G = i_{\mathcal{H}}(F)$. The condition *a)* signifies that G contains the set of extremal points of C. The condition *b)* signifies that G meets the intersection of $i_{\mathcal{H}}(X)$ with each of the closed support hyperplanes of $i_{\mathcal{H}}(X)$. Finally, the condition *c)* signifies that every point of $i_{\mathcal{H}}(X)$ is the barycenter of a measure with support contained in G; by No. 1, Prop. 1, this is also equivalent to saying that the closed convex envelope of $i_{\mathcal{H}}(X)$ is equal to the closed convex envelope of G. The equivalence of the conditions *a)*, *b)* and *c)* therefore follows from TVS, II, §7, No. 1, Cor. of Prop. 2.
+Let $G = i_{\mathscr{H}}(F)$. The condition *a)* signifies that G contains the set of extremal points of C. The condition *b)* signifies that G meets the intersection of $i_{\mathscr{H}}(X)$ with each of the closed support hyperplanes of $i_{\mathscr{H}}(X)$. Finally, the condition *c)* signifies that every point of $i_{\mathscr{H}}(X)$ is the barycenter of a measure with support contained in G; by No. 1, Prop. 1, this is also equivalent to saying that the closed convex envelope of $i_{\mathscr{H}}(X)$ is equal to the closed convex envelope of G. The equivalence of the conditions *a)*, *b)* and *c)* therefore follows from TVS, II, §7, No. 1, Cor. of Prop. 2.
 
 #### Proposition 8 {#int-iv-s7-prop-8 .statement}
 
-*Suppose X is metrizable. Then the set $\operatorname{Ch}_{\mathcal{H}}(X)$ of $\mathcal{H}$-extremal points of X is the intersection of a countable family of open sets in X, and for every $x \in X$, there exists a positive measure $\mu$ of total mass 1 on X such that*
+*Suppose X is metrizable. Then the set $\operatorname{Ch}_{\mathscr{H}}(X)$ of $\mathscr{H}$-extremal points of X is the intersection of a countable family of open sets in X, and for every $x \in X$, there exists a positive measure $\mu$ of total mass 1 on X such that*
 
 $$
-\mu(X - \operatorname{Ch}_{\mathcal{H}}(X)) = 0 \quad \text{and} \quad \int h \, d\mu = h(x)
+\mu(X - \operatorname{Ch}_{\mathscr{H}}(X)) = 0 \quad \text{and} \quad \int h \, d\mu = h(x)
 $$
 
-*for every $h \in \mathcal{H}$.*
+*for every $h \in \mathscr{H}$.*
 
-This is the translation of Th. 1 of No. 2, by transport of structure by means of the homeomorphism $x \mapsto i_{\mathcal{H}}(x)$, as in Prop. 5.
+This is the translation of Th. 1 of No. 2, by transport of structure by means of the homeomorphism $x \mapsto i_{\mathscr{H}}(x)$, as in Prop. 5.
 
-A certain number of results of this No. may be extended when $\mathcal{H}$ is replaced by a set $\mathcal{P}$ of functions defined on X, with values in $\mathbf{R} \cup \{+\infty\}$, that are lower semi-continuous, $\mathcal{P}$ being assumed to contain the constants and to satisfy $\mathcal{P} + \mathcal{P} \subset \mathcal{P}$ (Exer. 2).
+A certain number of results of this No. may be extended when $\mathscr{H}$ is replaced by a set $\mathscr{P}$ of functions defined on X, with values in $\mathbf{R} \cup \{+\infty\}$, that are lower semi-continuous, $\mathscr{P}$ being assumed to contain the constants and to satisfy $\mathscr{P} + \mathscr{P} \subset \mathscr{P}$ (Exer. 2).
 
 #### Example {#int-iv-s7-n3-exa-1 .statement}
 
-— Take X to be the unit ball $\|x\| \leq 1$ in $\mathbf{R}^3$, and let $\mathcal{H}$ be a vector space of continuous functions on X, containing the restrictions to X of the affine linear functions on $\mathbf{R}^3$ and satisfying the *maximum principle*, that is, for every non-constant function $h \in \mathcal{H}$, the set of points of X where h attains its supremum is contained in the sphere $S_2$. It then follows easily from Props. 5 and 7 that $\operatorname{Ch}_{\mathcal{H}}(X) = \check{S}_{\mathcal{H}}(X) = S_2$. An important example of a vector space $\mathcal{H}$ satisfying the preceding conditions is the set of functions continuous on X and *harmonic* in the open ball $\|x\| < 1$. For these functions, one proves that the positive measure $\mu$ of mass 1 such that $\operatorname{Supp}(\mu) \subset S_2$ and $h(x) = \int h \, d\mu$ for all $h \in \mathcal{H}$ is given, if $\|x\| < 1$, by Poisson’s formula
+— Take X to be the unit ball $\|x\| \leq 1$ in $\mathbf{R}^3$, and let $\mathscr{H}$ be a vector space of continuous functions on X, containing the restrictions to X of the affine linear functions on $\mathbf{R}^3$ and satisfying the *maximum principle*, that is, for every non-constant function $h \in \mathscr{H}$, the set of points of X where h attains its supremum is contained in the sphere $S_2$. It then follows easily from Props. 5 and 7 that $\operatorname{Ch}_{\mathscr{H}}(X) = \check{S}_{\mathscr{H}}(X) = S_2$. An important example of a vector space $\mathscr{H}$ satisfying the preceding conditions is the set of functions continuous on X and *harmonic* in the open ball $\|x\| < 1$. For these functions, one proves that the positive measure $\mu$ of mass 1 such that $\operatorname{Supp}(\mu) \subset S_2$ and $h(x) = \int h \, d\mu$ for all $h \in \mathscr{H}$ is given, if $\|x\| < 1$, by Poisson’s formula
 
 $$
 d\mu(z) = \frac{1 - \|z\|^2}{\|z - x\|^3} d\sigma(z),
@@ -320,11 +320,11 @@ where $\sigma$ is the measure on $S_2$ invariant under the orthogonal group and 
 
 ### 4. Applications: II. Vector spaces of continuous complex functions
 
-Let $X$ be a nonempty compact space, $\mathcal{H}$ a linear subspace of the complex Banach space $\mathcal{C}(X; \mathbf{C})$ that contains the constants and separates the points of $X$. The set of real parts $\Re(f)$ of the functions $f \in \mathcal{H}$ is a linear subspace $\mathcal{H}_r$ of the real vector space $\mathcal{C}(X; \mathbf{R})$; for every $f \in \mathcal{H}$, the set $\mathcal{H}_r$ also contains $\mathcal{I}(f) = \Re(-if)$; it follows that $\mathcal{H}_r$ separates the points of $X$, because the relation $h(x) = h(y)$ for all $h \in \mathcal{H}_r$ implies that $\Re(f(x)) = \Re(f(y))$ and $\mathcal{I}(f(x)) = \mathcal{I}(f(y))$ and so $f(x) = f(y)$ for all $f \in \mathcal{H}$. The $\mathcal{H}_r$-extremal points in $X$ are again called $\mathcal{H}$-extremal, the set of them is denoted $\mathrm{Ch}_{\mathcal{H}}(X)$, and the closure of the latter set is denoted $\check{S}_{\mathcal{H}}(X)$. The analogues of Props. 5 and 7 are the following:
+Let $X$ be a nonempty compact space, $\mathscr{H}$ a linear subspace of the complex Banach space $\mathscr{C}(X; \mathbf{C})$ that contains the constants and separates the points of $X$. The set of real parts $\Re(f)$ of the functions $f \in \mathscr{H}$ is a linear subspace $\mathscr{H}_r$ of the real vector space $\mathscr{C}(X; \mathbf{R})$; for every $f \in \mathscr{H}$, the set $\mathscr{H}_r$ also contains $\mathscr{I}(f) = \Re(-if)$; it follows that $\mathscr{H}_r$ separates the points of $X$, because the relation $h(x) = h(y)$ for all $h \in \mathscr{H}_r$ implies that $\Re(f(x)) = \Re(f(y))$ and $\mathscr{I}(f(x)) = \mathscr{I}(f(y))$ and so $f(x) = f(y)$ for all $f \in \mathscr{H}$. The $\mathscr{H}_r$-extremal points in $X$ are again called $\mathscr{H}$-extremal, the set of them is denoted $\mathrm{Ch}_{\mathscr{H}}(X)$, and the closure of the latter set is denoted $\check{S}_{\mathscr{H}}(X)$. The analogues of Props. 5 and 7 are the following:
 
 #### Proposition 9 {#int-iv-s7-prop-9 .statement}
 
-*For every function $f \in \mathcal{H}$, $\mathrm{Ch}_{\mathcal{H}}(X)$ intersects the set of points where $|f|$ attains its supremum.*
+*For every function $f \in \mathscr{H}$, $\mathrm{Ch}_{\mathscr{H}}(X)$ intersects the set of points where $|f|$ attains its supremum.*
 
 We may limit ourselves to the case that $f$ is not the constant 0. Let $a$ be a point of $X$ where $|f|$ attains its supremum, and set $g = f/f(a)$; then $g(a) = 1$ and $|g(x)| \leq 1$ for all $x \in X$, whence
 
@@ -332,47 +332,47 @@ $$
 \Re(g(a)) = 1 \quad \text{and} \quad \Re(g(x)) \leq 1 \quad \text{for all } x \in X.
 $$
 
-By Prop. 5 of No. 3 applied to $\mathcal{H}_r$, there exists $b \in \mathrm{Ch}_{\mathcal{H}}(X)$ where $\Re((g(x))$ attains its supremum 1, whence $|g(b)| = 1$ since $|g(b)| \leq 1$; it follows that $|f(b)| = |(f(a)| \geq |f(x)|$ for all $x \in X$.
+By Prop. 5 of No. 3 applied to $\mathscr{H}_r$, there exists $b \in \mathrm{Ch}_{\mathscr{H}}(X)$ where $\Re((g(x))$ attains its supremum 1, whence $|g(b)| = 1$ since $|g(b)| \leq 1$; it follows that $|f(b)| = |(f(a)| \geq |f(x)|$ for all $x \in X$.
 
 #### Proposition 10 {#int-iv-s7-prop-10 .statement}
 
 *Let $F$ be a closed subset of $X$. The following properties are equivalent:
-a) $F$ contains $\check{S}_{\mathcal{H}}(X)$.
-b) For every function $f \in \mathcal{H}$, $F$ intersects the set of points of $X$ where $|f|$ attains its supremum.
-c) For every point $x \in X$, there exists a positive measure $\mu$ of total mass 1 on $X$ such that $\mathrm{Supp}(\mu) \subset F$ and $f(x) = \int f d\mu$ for every function $f \in \mathcal{H}$.
-Let us prove the equivalence of the conditions a) and c): let $f = f_1 + i f_2$ with $f_1, f_2$ in $\mathcal{H}_r$; the relation $f(x) = \int f d\mu$ is equivalent to the two relations $f_1(x) = \int f_1 d\mu$ and $f_2(x) = \int f_2 d\mu$; it thus suffices to apply to $\mathcal{H}_r$ the equivalence of the conditions a) and c) of Prop. 7 of No. 3. The fact that a) implies b) follows from Prop. 9. Let us show that b) implies a); this is a matter of seeing that if b) is verified, then, for every $h \in \mathcal{H}_r$, F intersects the set of points where $h$ attains its infimum in X. The condition b) implies that F is nonempty; since F is compact, there exists $a \in F$ such that $h(a) \leq h(y)$ for all $y \in F$. Let $f \in \mathcal{H}$ be such that $h = \mathcal{R}(f)$; for every $\varepsilon > 0$, the function $g = f - h(a) + \varepsilon$ belongs to $\mathcal{H}$, and
+a) $F$ contains $\check{S}_{\mathscr{H}}(X)$.
+b) For every function $f \in \mathscr{H}$, $F$ intersects the set of points of $X$ where $|f|$ attains its supremum.
+c) For every point $x \in X$, there exists a positive measure $\mu$ of total mass 1 on $X$ such that $\mathrm{Supp}(\mu) \subset F$ and $f(x) = \int f d\mu$ for every function $f \in \mathscr{H}$.
+Let us prove the equivalence of the conditions a) and c): let $f = f_1 + i f_2$ with $f_1, f_2$ in $\mathscr{H}_r$; the relation $f(x) = \int f d\mu$ is equivalent to the two relations $f_1(x) = \int f_1 d\mu$ and $f_2(x) = \int f_2 d\mu$; it thus suffices to apply to $\mathscr{H}_r$ the equivalence of the conditions a) and c) of Prop. 7 of No. 3. The fact that a) implies b) follows from Prop. 9. Let us show that b) implies a); this is a matter of seeing that if b) is verified, then, for every $h \in \mathscr{H}_r$, F intersects the set of points where $h$ attains its infimum in X. The condition b) implies that F is nonempty; since F is compact, there exists $a \in F$ such that $h(a) \leq h(y)$ for all $y \in F$. Let $f \in \mathscr{H}$ be such that $h = \mathscr{R}(f)$; for every $\varepsilon > 0$, the function $g = f - h(a) + \varepsilon$ belongs to $\mathscr{H}$, and
 $$
-\mathcal{R}(g(y)) = h(y) - h(a) + \varepsilon \geq \varepsilon
+\mathscr{R}(g(y)) = h(y) - h(a) + \varepsilon \geq \varepsilon
 $$
 for all $y \in F$. Let $c$ be the supremum of $|g|$ in X, and set $b = c^2 / 2\varepsilon$; for every $y \in F$,
 $$
-|g(y) - b|^2 = |g(y)|^2 - 2b \mathcal{R}((g(y))) + b^2 \leq c^2 - 2b\varepsilon + b^2 = b^2,
+|g(y) - b|^2 = |g(y)|^2 - 2b \mathscr{R}((g(y))) + b^2 \leq c^2 - 2b\varepsilon + b^2 = b^2,
 $$
-in other words, the supremum in F of the function $|g - b|$ is $\leq b$. Since $g - b \in \mathcal{H}$, the hypothesis on F implies that $|g - b| \leq b$, whence
+in other words, the supremum in F of the function $|g - b|$ is $\leq b$. Since $g - b \in \mathscr{H}$, the hypothesis on F implies that $|g - b| \leq b$, whence
 $$
-b^2 \geq |g - b|^2 = |g|^2 - 2b \mathcal{R}(g) + b^2
+b^2 \geq |g - b|^2 = |g|^2 - 2b \mathscr{R}(g) + b^2
 $$
-and so $\mathcal{R}(g) \geq |g|^2 / 2b \geq 0$; since $\mathcal{R}(g) = h - h(a) + \varepsilon$, and $\varepsilon > 0$ is arbitrary, we have $h \geq h(a)$, and $h(a)$ is the infimum of $h$ in X, which completes the proof.
+and so $\mathscr{R}(g) \geq |g|^2 / 2b \geq 0$; since $\mathscr{R}(g) = h - h(a) + \varepsilon$, and $\varepsilon > 0$ is arbitrary, we have $h \geq h(a)$, and $h(a)$ is the infimum of $h$ in X, which completes the proof.
 
 #### Remark {#int-iv-s7-n4-rem-1 .statement}
 
-If $f$ is a continuous real function, a point where $|f|$ attains its supremum is a point where one of the functions $f, -f$ attains its supremum. For a vector space $\mathcal{H}$ of continuous real functions satisfying the hypotheses of No. 3, the Props. 9 and 10 are thus trivial corollaries of Props. 5 and 7, respectively.
+If $f$ is a continuous real function, a point where $|f|$ attains its supremum is a point where one of the functions $f, -f$ attains its supremum. For a vector space $\mathscr{H}$ of continuous real functions satisfying the hypotheses of No. 3, the Props. 9 and 10 are thus trivial corollaries of Props. 5 and 7, respectively.
 
 ### 5. Applications: III. Algebras of continuous functions
 
 #### Lemma 4 {#int-iv-s7-lem-4 .statement}
 
-Let X be a compact space, $\mathcal{H}$ a closed linear subspace of the Banach space $\mathcal{C}(X; \mathbf{C})$ (resp. $\mathcal{C}(X; \mathbf{R})$). Let a be a point of X admitting a countable fundamental system of neighborhoods; assume that, for any numbers c and d such that $0 < c < d < 1$ and any open neighborhood U of a, there exists an $f \in \mathcal{H}$ such that
+Let X be a compact space, $\mathscr{H}$ a closed linear subspace of the Banach space $\mathscr{C}(X; \mathbf{C})$ (resp. $\mathscr{C}(X; \mathbf{R})$). Let a be a point of X admitting a countable fundamental system of neighborhoods; assume that, for any numbers c and d such that $0 < c < d < 1$ and any open neighborhood U of a, there exists an $f \in \mathscr{H}$ such that
 $$
 |f| \leq 1,\quad |f(a)| \geq d,\quad |f(x)| \leq c \text{ for all } x \in X - U.
 $$
-Then there exists a function $u \in \mathcal{H}$ such that $|u(x)| < |u(a)|$ for all $x \neq a$.
+Then there exists a function $u \in \mathscr{H}$ such that $|u(x)| < |u(a)|$ for all $x \neq a$.
 
 Let $(V_n)$ ($n \geq 1$) be a fundamental system of neighborhoods of $a$, and let $\lambda, \mu, \varepsilon$ be numbers such that
 $$
 0 < \lambda < 1,\quad 1 < \mu < \mu + \varepsilon \leq 1 + \lambda.
 $$
-Thus $0 < \lambda / \mu < 1 / \mu < 1$. We are going to define, by induction on $n$ ($n \geq 1$), a decreasing sequence $(U_n)$ of open neighborhoods of $a$ such that $U_n \subset V_n$ for all $n$, and a sequence $(h_n)$ of functions in $\mathcal{H}$ satisfying the relations
+Thus $0 < \lambda / \mu < 1 / \mu < 1$. We are going to define, by induction on $n$ ($n \geq 1$), a decreasing sequence $(U_n)$ of open neighborhoods of $a$ such that $U_n \subset V_n$ for all $n$, and a sequence $(h_n)$ of functions in $\mathscr{H}$ satisfying the relations
 $$
 \begin{align*}
 (13_n) &\quad |h_n(x)| \leq \mu \quad \text{for all } x \in X \\
@@ -386,7 +386,7 @@ The function $\sum_{j=1}^{n-1} \lambda^j h_j$ (equal to 0 if $n = 1$) is continu
 $$
 \left| \sum_{j=1}^{n-1} \lambda^j h_j(y) \right| < \sum_{j=1}^{n-1} \lambda^j + \varepsilon \lambda^n \quad \text{for all } y \in U_n.
 $$
-By hypothesis there exists a function $f \in \mathcal{H}$ such that
+By hypothesis there exists a function $f \in \mathscr{H}$ such that
 $$
 \begin{align*}
 |f(x)| &\leq 1 \quad \text{for all } x \in X , \quad |f(a)| \geq 1 / \mu , \\
@@ -408,7 +408,7 @@ $$
 $$
 which completes the proof of $(16_n)$.
 
-This being so, the series $\sum_{n=1}^{\infty} \lambda^n h_n$ is normally convergent in $X$ since $\lambda < 1$ and $|h_n(x)| \leq \mu$ for all $n$ and all $x \in X$; let $u$ be its sum, which belongs to $\mathcal{H}$ since $\mathcal{H}$ is closed. By the relation $(14_n)$, we have $u(a) = \sum_{n=1}^{\infty} \lambda^n$; on the other hand if $x \neq a$, there exists an integer $n$ such that $x \notin U_{n+1}$; therefore $|h_{n+k}(x)| \leq \lambda$ for all $k \geq 1$ by the relation $(15_n)$; it follows, using $(16_n)$, that
+This being so, the series $\sum_{n=1}^{\infty} \lambda^n h_n$ is normally convergent in $X$ since $\lambda < 1$ and $|h_n(x)| \leq \mu$ for all $n$ and all $x \in X$; let $u$ be its sum, which belongs to $\mathscr{H}$ since $\mathscr{H}$ is closed. By the relation $(14_n)$, we have $u(a) = \sum_{n=1}^{\infty} \lambda^n$; on the other hand if $x \neq a$, there exists an integer $n$ such that $x \notin U_{n+1}$; therefore $|h_{n+k}(x)| \leq \lambda$ for all $k \geq 1$ by the relation $(15_n)$; it follows, using $(16_n)$, that
 $$
 |u(x)| \leq \left| \sum_{j=1}^n \lambda^j h_j(x) \right| + \left| \sum_{j=n+1}^{\infty} \lambda^j h_j(x) \right| < \sum_{j=1}^{n+1} \lambda^j + \lambda \sum_{j=n+1}^{\infty} \lambda^j
 $$
@@ -418,20 +418,20 @@ $$
 
 #### Theorem 2 (E. Bishop) {#int-iv-s7-thm-2 .statement}
 
-— *Let $X$ be a compact space, $\mathcal{A}$ a closed subalgebra of the complex Banach algebra $\mathcal{C}(X; \mathbf{C})$. Assume that $\mathcal{A}$ contains the constants and separates the points of $X$. Let $a$ be a point of $X$; the following conditions are equivalent:
+— *Let $X$ be a compact space, $\mathscr{A}$ a closed subalgebra of the complex Banach algebra $\mathscr{C}(X; \mathbf{C})$. Assume that $\mathscr{A}$ contains the constants and separates the points of $X$. Let $a$ be a point of $X$; the following conditions are equivalent:
 
-a) There exists a function $f \in \mathcal{A}$ such that $|f(x)| < |f(a)|$ for all $x \neq a$.
+a) There exists a function $f \in \mathscr{A}$ such that $|f(x)| < |f(a)|$ for all $x \neq a$.
 
-b) The point $a$ is $\mathcal{A}$-extremal and admits a countable fundamental system of neighborhoods.
+b) The point $a$ is $\mathscr{A}$-extremal and admits a countable fundamental system of neighborhoods.
 
-a) $\Rightarrow$ b): Let $f \in \mathcal{A}$ be such that $|f(a)| > |f(x)|$ for $x \neq a$; by Prop. 9 of No. 4, $a$ is an $\mathcal{A}$-extremal point. On the other hand, if $U_n$ is the set of $x \in X$ such that $|f(x)| > |f(a)| - 1/n$, then $U_n$ is an open neighborhood of $a$, and the intersection of the $U_n$ reduces to $a$; since $X$ is compact, the $U_n$ form a fundamental system of neighborhoods of $a$ (GT, I, §9, No. 1, Th. 1).
+a) $\Rightarrow$ b): Let $f \in \mathscr{A}$ be such that $|f(a)| > |f(x)|$ for $x \neq a$; by Prop. 9 of No. 4, $a$ is an $\mathscr{A}$-extremal point. On the other hand, if $U_n$ is the set of $x \in X$ such that $|f(x)| > |f(a)| - 1/n$, then $U_n$ is an open neighborhood of $a$, and the intersection of the $U_n$ reduces to $a$; since $X$ is compact, the $U_n$ form a fundamental system of neighborhoods of $a$ (GT, I, §9, No. 1, Th. 1).
 
-b) $\Rightarrow$ a): It suffices to verify that b) implies the hypotheses of Lemma 4. With the notations of that lemma, set $\varepsilon = \log d / \log c$; thus $0 < \varepsilon < 1$. Since $a$ is an $\mathcal{A}_r$-extremal point, there exists a function $g \in \mathcal{A}$ such that
+b) $\Rightarrow$ a): It suffices to verify that b) implies the hypotheses of Lemma 4. With the notations of that lemma, set $\varepsilon = \log d / \log c$; thus $0 < \varepsilon < 1$. Since $a$ is an $\mathscr{A}_r$-extremal point, there exists a function $g \in \mathscr{A}$ such that
 $$
-\mathcal{R}(g) \geq 0,\quad \mathcal{R}(g(a)) \leq \varepsilon,\quad \mathcal{R}(g(x)) \geq 1 \text{ for } x \in X - U
+\mathscr{R}(g) \geq 0,\quad \mathscr{R}(g(a)) \leq \varepsilon,\quad \mathscr{R}(g(x)) \geq 1 \text{ for } x \in X - U
 $$
 
-(No. 3, Prop. 6, b)). Set $f = c^g$; since $f$ is the sum of the normally convergent series $\sum_{n=0}^{\infty} (\log c)^n g^n / n!$, we have $f \in \mathcal{A}$ and
+(No. 3, Prop. 6, b)). Set $f = c^g$; since $f$ is the sum of the normally convergent series $\sum_{n=0}^{\infty} (\log c)^n g^n / n!$, we have $f \in \mathscr{A}$ and
 
 $$
 |f| \leq 1,\quad |f(a)| \geq c^{\varepsilon} = d,\quad |f(x)| \leq c \text{ for } x \in X - U.
@@ -443,29 +443,29 @@ Q.E.D.
 
 — *Suppose in addition that $X$ is metrizable. Then the following properties are equivalent*:
 
-a) *$a$ is an $\mathcal{A}$-extremal point of $X$*.
+a) *$a$ is an $\mathscr{A}$-extremal point of $X$*.
 
-b) *There exists $u \in \mathcal{A}$ such that $|u(x)| < |u(a)|$ for all $x \neq a$*.
+b) *There exists $u \in \mathscr{A}$ such that $|u(x)| < |u(a)|$ for all $x \neq a$*.
 
-c) *Let $\mathfrak{M}$ be the set of subsets $M$ of $X$ such that for every function $f \in \mathcal{A}$, $|f|$ attains its supremum in $X$ at at least one point of $M$. Then $a$ belongs to all of the sets $M \in \mathfrak{M}$*.
+c) *Let $\mathfrak{M}$ be the set of subsets $M$ of $X$ such that for every function $f \in \mathscr{A}$, $|f|$ attains its supremum in $X$ at at least one point of $M$. Then $a$ belongs to all of the sets $M \in \mathfrak{M}$*.
 
-d) *Let $\mathfrak{N}$ be the set of subsets $N$ of $X$ such that, for every function $f \in \mathcal{A}$, $\mathcal{R}(f)$ attains its supremum in $X$ at at least one point of $N$. Then $a$ belongs to all of the sets $N \in \mathfrak{N}$*.
+d) *Let $\mathfrak{N}$ be the set of subsets $N$ of $X$ such that, for every function $f \in \mathscr{A}$, $\mathscr{R}(f)$ attains its supremum in $X$ at at least one point of $N$. Then $a$ belongs to all of the sets $N \in \mathfrak{N}$*.
 
 *In other words*,
 
 $$
-\mathrm{Ch}_{\mathcal{A}}(X) = \bigcap_{M \in \mathfrak{M}} M = \bigcap_{N \in \mathfrak{N}} N.
+\mathrm{Ch}_{\mathscr{A}}(X) = \bigcap_{M \in \mathfrak{M}} M = \bigcap_{N \in \mathfrak{N}} N.
 $$
 
-Since, in a metrizable space, every point admits a countable fundamental system of neighborhoods, the equivalence of a) and b) follows from Th. 2. Let us show that b) implies c): indeed, $a$ is the unique point where $|u|$ attains its supremum; on the other hand, c) implies a) because, for every $f \in \mathcal{A}$, $\mathrm{Ch}_{\mathcal{A}}(X)$ intersects the set of points where $|f|$ attains its supremum (No. 4, Prop. 9). The same reasoning, using Prop. 5 of No. 3, shows that d) implies a). Finally, to see that b) implies d), we can restrict ourselves to the case that $X$ does not reduce to the single point $a$, therefore $u(a) \neq 0$; the function $v = u/u(a)$ then belongs to $\mathcal{A}$, and we have $v(a) = 1$ and $|v(x)| < 1$ for $x \neq a$, whence $\mathcal{R}(v(a)) = 1$ and $\mathcal{R}(v(x)) < 1$ for $x \neq a$. Since the function $\mathcal{R}(v)$ attains its supremum only at the point $a$, we have indeed $a \in N$ for every $N \in \mathfrak{N}$.
+Since, in a metrizable space, every point admits a countable fundamental system of neighborhoods, the equivalence of a) and b) follows from Th. 2. Let us show that b) implies c): indeed, $a$ is the unique point where $|u|$ attains its supremum; on the other hand, c) implies a) because, for every $f \in \mathscr{A}$, $\mathrm{Ch}_{\mathscr{A}}(X)$ intersects the set of points where $|f|$ attains its supremum (No. 4, Prop. 9). The same reasoning, using Prop. 5 of No. 3, shows that d) implies a). Finally, to see that b) implies d), we can restrict ourselves to the case that $X$ does not reduce to the single point $a$, therefore $u(a) \neq 0$; the function $v = u/u(a)$ then belongs to $\mathscr{A}$, and we have $v(a) = 1$ and $|v(x)| < 1$ for $x \neq a$, whence $\mathscr{R}(v(a)) = 1$ and $\mathscr{R}(v(x)) < 1$ for $x \neq a$. Since the function $\mathscr{R}(v)$ attains its supremum only at the point $a$, we have indeed $a \in N$ for every $N \in \mathfrak{N}$.
 
 #### Example {#int-iv-s7-n5-exa-1 .statement}
 
-— Let $X_1$ be the set of points $(z_1, z_2) \in \mathbf{C}^2$ such that $|z_1|^2 + |z_2|^2 \leq 1$ (the unit ball in $\mathbf{R}^4$) and let $\mathcal{A}_1'$ be the set of restrictions to $X_1$ of the holomorphic functions, with values in $\mathbf{C}$, defined in a neighborhood of $X_1$ in $\mathbf{C}^2$ (the neighborhood depending on the function considered); let $\mathcal{A}_1$ be the closure of $\mathcal{A}_1'$ in $\mathcal{C}(X_1; \mathbf{C})$, which is obviously a closed complex subalgebra of $\mathcal{C}(X_1; \mathbf{C})$ and separates the points of $X_1$. Application of the 'maximum principle' for holomorphic functions shows that $\mathrm{Ch}_{\mathcal{A}_1}(X_1)$ is the sphere $S_3$.
+— Let $X_1$ be the set of points $(z_1, z_2) \in \mathbf{C}^2$ such that $|z_1|^2 + |z_2|^2 \leq 1$ (the unit ball in $\mathbf{R}^4$) and let $\mathscr{A}_1'$ be the set of restrictions to $X_1$ of the holomorphic functions, with values in $\mathbf{C}$, defined in a neighborhood of $X_1$ in $\mathbf{C}^2$ (the neighborhood depending on the function considered); let $\mathscr{A}_1$ be the closure of $\mathscr{A}_1'$ in $\mathscr{C}(X_1; \mathbf{C})$, which is obviously a closed complex subalgebra of $\mathscr{C}(X_1; \mathbf{C})$ and separates the points of $X_1$. Application of the 'maximum principle' for holomorphic functions shows that $\mathrm{Ch}_{\mathscr{A}_1}(X_1)$ is the sphere $S_3$.
 
-In the preceding definition, let us replace $X_1$ by the 'polydisk' $X_2$ defined by the relations $|z_1| \leq 1$ and $|z_2| \leq 1$, which yields subalgebras $\mathcal{A}_2'$ and $\mathcal{A}_2$ (the closure of $\mathcal{A}_2'$ of $\mathcal{C}(X_2; \mathbf{C})$. Here, the maximum principle shows that $\mathrm{Ch}_{\mathcal{A}_2}(X_2)$ is the 'torus' defined by the relations $|z_1| = 1$ and $|z_2| = 1$.
+In the preceding definition, let us replace $X_1$ by the 'polydisk' $X_2$ defined by the relations $|z_1| \leq 1$ and $|z_2| \leq 1$, which yields subalgebras $\mathscr{A}_2'$ and $\mathscr{A}_2$ (the closure of $\mathscr{A}_2'$ of $\mathscr{C}(X_2; \mathbf{C})$. Here, the maximum principle shows that $\mathrm{Ch}_{\mathscr{A}_2}(X_2)$ is the 'torus' defined by the relations $|z_1| = 1$ and $|z_2| = 1$.
 
-From these results, one deduces that there does not exist an *analytic isomorphism* of an open neighborhood of $X_1$ onto an open neighborhood of $X_2$ that *transforms* $X_1$ *into* $X_2$; for, if $v$ were the restriction to $X_1$ of such a mapping, one would have $\mathcal{A}_2 = v \mathcal{A}_1 v^{-1}$ and so $v$ would transform $S_3$ into a space homeomorphic to $T^2$, which is absurd since $S_3$ is simply connected but $T^2$ is not. One will observe, however, that the spaces $X_1$ and $X_2$ are *homeomorphic*, both being bounded convex sets in $\mathbf{R}^4$ with nonempty interior.*
+From these results, one deduces that there does not exist an *analytic isomorphism* of an open neighborhood of $X_1$ onto an open neighborhood of $X_2$ that *transforms* $X_1$ *into* $X_2$; for, if $v$ were the restriction to $X_1$ of such a mapping, one would have $\mathscr{A}_2 = v \mathscr{A}_1 v^{-1}$ and so $v$ would transform $S_3$ into a space homeomorphic to $T^2$, which is absurd since $S_3$ is simply connected but $T^2$ is not. One will observe, however, that the spaces $X_1$ and $X_2$ are *homeomorphic*, both being bounded convex sets in $\mathbf{R}^4$ with nonempty interior.*
 
 ### 6. Uniqueness of integral representations
 
@@ -473,7 +473,7 @@ Let E be a Hausdorff weak locally convex space (TVS, II, §6, No. 2), C a proper
 
 #### Lemma 5 {#int-iv-s7-lem-5 .statement}
 
-*Assume that C is weakly complete. Let $\mathcal{A}$ be the set of restrictions to C of the continuous linear forms on E. Let $(f_\lambda)_{\lambda \in \Lambda}$ be a finite family of elements of $\mathcal{A}$, and $f = \sup(f_\lambda)$. For every $x \in C$, define*
+*Assume that C is weakly complete. Let $\mathscr{A}$ be the set of restrictions to C of the continuous linear forms on E. Let $(f_\lambda)_{\lambda \in \Lambda}$ be a finite family of elements of $\mathscr{A}$, and $f = \sup(f_\lambda)$. For every $x \in C$, define*
 
 $$
 \overline{f}(x) = \sup \left( f(x_1) + f(x_2) + \cdots + f(x_n) \right),
@@ -527,24 +527,24 @@ Since $\varepsilon$ is an arbitrary number $> 0$, we have proved that $\overline
 
 *Let $E$ be a Hausdorff weak locally convex space, $C$ a weakly complete proper convex cone with vertex 0 in $E$, $G$ the union of the extremal generators of $C$, $K$ a compact convex subset of $C$, $\lambda$ and $\lambda'$ positive measures of mass 1 on $K$, admitting the same barycenter, such that $\lambda^*(K - (K \cap G)) = {\lambda'}^*(K - (K \cap G)) = 0$. Assume that $C$ is lattice-ordered. Then, for every lower semi-continuous, positively homogeneous convex function $f \geq 0$ on $C$, $\lambda^*(f|K) = {\lambda'}^*(f|K)$.*
 
-Let $\mathcal{A}$ (resp. $\mathcal{A}'$) be the set of restrictions to $C$ of the continuous linear forms (resp. affine functions) on $E$. We know (TVS, II, §5, No. 4, Remark 2) that $f$ is the upper envelope of the set of elements of $\mathcal{A}$ that are $\leq f$. The set of functions of the form $\sup(f_1, \ldots, f_p)$, where $f_1, \ldots, f_p$ belong to $\mathcal{A}$, $f_1 \geq 0, \ldots, f_p \geq 0$, is an increasing directed set and has $f$ as its upper envelope. Taking into account §1, No. 1, Th. 1, it suffices to verify the equality $\lambda(f|K) = \lambda'(f|K)$ when $f$ is of the preceding form.
+Let $\mathscr{A}$ (resp. $\mathscr{A}'$) be the set of restrictions to $C$ of the continuous linear forms (resp. affine functions) on $E$. We know (TVS, II, §5, No. 4, Remark 2) that $f$ is the upper envelope of the set of elements of $\mathscr{A}$ that are $\leq f$. The set of functions of the form $\sup(f_1, \ldots, f_p)$, where $f_1, \ldots, f_p$ belong to $\mathscr{A}$, $f_1 \geq 0, \ldots, f_p \geq 0$, is an increasing directed set and has $f$ as its upper envelope. Taking into account §1, No. 1, Th. 1, it suffices to verify the equality $\lambda(f|K) = \lambda'(f|K)$ when $f$ is of the preceding form.
 
-Define $\overline{f}$ as in Lemma 5. It is clear that $\overline{f}(y) = f(y)$ if $y \in G$. Since $\lambda^*(K - (K \cap G)) = 0$, we have $\lambda(f|K) = \lambda(\overline{f}|K)$. By Lemma 6, $\overline{f}$ is affine and upper semi-continuous. Therefore $\overline{f}|K$ is the lower envelope of a decreasing directed set of restrictions of elements of $\mathcal{A}'$ to K (TVS, II, §5, No. 4, Prop. 6). Let $x \in K$ be the barycenter of $\lambda$. If $g \in \mathcal{A}$ then $\lambda(g|K) = g(x)$. Therefore $\lambda(\overline{f}|K) = \overline{f}(x)$ (§ 4, No. 4, Cor. 2 of Prop. 5). Thus $\lambda(f|K) = \overline{f}(x)$, and one sees similarly that $\lambda'(f|K) = \overline{f}(x)$.
+Define $\overline{f}$ as in Lemma 5. It is clear that $\overline{f}(y) = f(y)$ if $y \in G$. Since $\lambda^*(K - (K \cap G)) = 0$, we have $\lambda(f|K) = \lambda(\overline{f}|K)$. By Lemma 6, $\overline{f}$ is affine and upper semi-continuous. Therefore $\overline{f}|K$ is the lower envelope of a decreasing directed set of restrictions of elements of $\mathscr{A}'$ to K (TVS, II, §5, No. 4, Prop. 6). Let $x \in K$ be the barycenter of $\lambda$. If $g \in \mathscr{A}$ then $\lambda(g|K) = g(x)$. Therefore $\lambda(\overline{f}|K) = \overline{f}(x)$ (§ 4, No. 4, Cor. 2 of Prop. 5). Thus $\lambda(f|K) = \overline{f}(x)$, and one sees similarly that $\lambda'(f|K) = \overline{f}(x)$.
 
 #### Corollary {#int-iv-s7-n6-cor-1 .statement}
 
 *Let E be a Hausdorff locally convex space, C a proper convex cone with vertex 0 in E, admitting a compact sole M, and let G be the union of the extremal generators of C. Let $x \in M$. If C is lattice-ordered, then there exists at most one positive measure $\lambda$ of mass 1 on M, such that $\lambda^*(M - (G \cap M)) = 0$, and admitting x as barycenter.*
 
-Replacing the topology of E by the weakened topology (which does not change the topology of M), one can suppose E to be a weak space. Let $\lambda$ and $\lambda'$ be two measures on M having the stated properties, and let h be a continuous linear form on E such that M is the intersection of C and the hyperplane with equation $h(x) = 1$. Let $\mathcal{S}$ be the subset of $\mathcal{C}(M)$ consisting of the restrictions to M of the positively homogeneous and continuous convex functions $\geq 0$ on C. The cone C is weakly complete (TVS, II, §7, No. 3). By Th. 3, $\lambda(f) = \lambda'(f)$ for every $f \in \mathcal{S}$.
+Replacing the topology of E by the weakened topology (which does not change the topology of M), one can suppose E to be a weak space. Let $\lambda$ and $\lambda'$ be two measures on M having the stated properties, and let h be a continuous linear form on E such that M is the intersection of C and the hyperplane with equation $h(x) = 1$. Let $\mathscr{S}$ be the subset of $\mathscr{C}(M)$ consisting of the restrictions to M of the positively homogeneous and continuous convex functions $\geq 0$ on C. The cone C is weakly complete (TVS, II, §7, No. 3). By Th. 3, $\lambda(f) = \lambda'(f)$ for every $f \in \mathscr{S}$.
 
-If $f_1, f_2, f_3, f_4$ belong to $\mathcal{S}$, then
+If $f_1, f_2, f_3, f_4$ belong to $\mathscr{S}$, then
 $$
 \begin{align*}
-\sup(f_1 - f_2, f_3 - f_4) &= \sup(f_1 + f_4, f_3 + f_2) - (f_2 + f_4) \in \mathcal{S} - \mathcal{S} \\
-\inf(f_1 - f_2, f_3 - f_4) &= -\sup(f_2 - f_1, f_4 - f_3) \in \mathcal{S} - \mathcal{S}.
+\sup(f_1 - f_2, f_3 - f_4) &= \sup(f_1 + f_4, f_3 + f_2) - (f_2 + f_4) \in \mathscr{S} - \mathscr{S} \\
+\inf(f_1 - f_2, f_3 - f_4) &= -\sup(f_2 - f_1, f_4 - f_3) \in \mathscr{S} - \mathscr{S}.
 \end{align*}
 $$
-Since $h|M \in \mathcal{S}$, $\mathcal{S} - \mathcal{S}$ contains the constant functions. If x and y are two distinct points of M, there exists a continuous linear form on E that separates x and y, and this form is the difference of two continuous linear forms that are positive on C (TVS, II, §6, No. 8, Lemma 1). It follows from the foregoing that for $\alpha, \beta$ real, there exists $f \in \mathcal{S} - \mathcal{S}$ such that $f(x) = \alpha, f(y) = \beta$. Then $\mathcal{S} - \mathcal{S}$ is dense in $\mathcal{C}(M)$ for the topology of uniform convergence (GT, X, §4, No. 1, Cor. of Prop. 2). Since $\lambda$ and $\lambda'$ coincide on $\mathcal{S} - \mathcal{S}$, we have $\lambda = \lambda'$.
+Since $h|M \in \mathscr{S}$, $\mathscr{S} - \mathscr{S}$ contains the constant functions. If x and y are two distinct points of M, there exists a continuous linear form on E that separates x and y, and this form is the difference of two continuous linear forms that are positive on C (TVS, II, §6, No. 8, Lemma 1). It follows from the foregoing that for $\alpha, \beta$ real, there exists $f \in \mathscr{S} - \mathscr{S}$ such that $f(x) = \alpha, f(y) = \beta$. Then $\mathscr{S} - \mathscr{S}$ is dense in $\mathscr{C}(M)$ for the topology of uniform convergence (GT, X, §4, No. 1, Cor. of Prop. 2). Since $\lambda$ and $\lambda'$ coincide on $\mathscr{S} - \mathscr{S}$, we have $\lambda = \lambda'$.
 
 Exercises
 

@@ -12,7 +12,7 @@ pdf_pages: 0216-0216
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: ca04a62cffe3e9422c7030d63acc0bf92b67f75828a22304fc640847b6ff429d
+content_sha256: 4c1caa4c5f38a3710a2d9a01e9a8222fb7a86a7813203d6296620c65a6825ffe
 ---
 
 ## INDEX DES NOTATIONS
@@ -30,7 +30,7 @@ $\mathbf{Z}_p$ (p nombre premier) : VII, 1, 6.
 $K^+$ (K corps) : VII, 1, 10.
 $mod_K a, mod a$ (a élément d’un corps localement compact K) : VII, 1, 10.
 $α*$ (α mesure sur le groupe additif d’un corps localement compact K) : VII, 1, 10.
-$\mathcal{H}^\chi(X), \mathcal{H}_+^\chi(X), \mathcal{H}^1(X), f^\chi, f^1$ (X espace localement compact où opère un groupe localement compact H, χ représentation continue de H dans $\mathbf{R}_+$) : VII, 2, 1.
+$\mathscr{H}^\chi(X), \mathscr{H}_+^\chi(X), \mathscr{H}^1(X), f^\chi, f^1$ (X espace localement compact où opère un groupe localement compact H, χ représentation continue de H dans $\mathbf{R}_+$) : VII, 2, 1.
 $f^b$ : VII, 2, 2.
 $λ\#, \frac{\mu}{\beta}, \mu/\beta$ : VII, 2, 2.
 $m\#$ (m mesure vectorielle) : VII, 2, 2.
@@ -39,6 +39,6 @@ $\prod_{i=1}^n * \mu_i, {*_{\varphi(\mu_i)}}_{1 \leq i \leq n}, \mu_1 * \mu_2 * 
 $γ_χ$ : VIII, 2, 3 et VIII, 2, 4.
 $γ_{χ,p}$ : VIII, 2, 5.
 $U(μ)$ (U représentation d’un groupe localement compact G, μ mesure sur G) : VIII, 2, 6.
-$\mathcal{M}^p(G)$ (G groupe localement compact) : VIII, 3, 1.
+$\mathscr{M}^p(G)$ (G groupe localement compact) : VIII, 3, 1.
 $μ *^β f, μ * f$ (μ mesure, f fonction) : VIII, 4, 1.
-$\mathcal{L}(G)$ (G groupe localement compact) : VIII, 4, 5.
+$\mathscr{L}(G)$ (G groupe localement compact) : VIII, 4, 5.

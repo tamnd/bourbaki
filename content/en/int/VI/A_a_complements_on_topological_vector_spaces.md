@@ -21,7 +21,7 @@ subsections:
       pdf_page: 445
 statements: 6
 exercises: 0
-content_sha256: 8240c45f1ffa0d8d8e08d1eb351824879072712524201a0c8f5557c34643b259
+content_sha256: fa681336d1c7c3ce37804fe10a6c5f646652b8a98de152b669f16c59e6f5d371
 ---
 
 ## APPENDIX
@@ -30,7 +30,7 @@ content_sha256: 8240c45f1ffa0d8d8e08d1eb351824879072712524201a0c8f5557c34643b259
 
 ### 1. Bilinear forms and linear mappings
 
-Let $(F_1, G_1), (F_2, G_2)$ be two pairs of (real or complex) vector spaces in separating duality (TVS, II, §6, No. 1); assume each of these spaces to be equipped with the corresponding weak topology (*loc. cit.*, No. 2); if A and B are any two of these spaces, as usual we denote by $\mathcal{L}(A; B)$ the vector space of continuous linear mappings of A into B, and by $\mathfrak{B}(A, B)$ the vector space of *separately continuous* bilinear forms on $A \times B$.
+Let $(F_1, G_1), (F_2, G_2)$ be two pairs of (real or complex) vector spaces in separating duality (TVS, II, §6, No. 1); assume each of these spaces to be equipped with the corresponding weak topology (*loc. cit.*, No. 2); if A and B are any two of these spaces, as usual we denote by $\mathscr{L}(A; B)$ the vector space of continuous linear mappings of A into B, and by $\mathfrak{B}(A, B)$ the vector space of *separately continuous* bilinear forms on $A \times B$.
 
 For every separately continuous bilinear form $\Phi$ on $F_1 \times F_2$, $x_1 \mapsto \Phi(x_1, x_2)$ is a continuous linear form on $F_1$, therefore there exists one and only one element ${}^r\Phi(x_2) \in G_1$ such that
 
@@ -38,7 +38,7 @@ $$
 \Phi(x_1, x_2) = \langle x_1, {}^r\Phi(x_2) \rangle
 $$
 
-for $x_1 \in F_1, x_2 \in F_2$ (TVS, III, §5, No. 1, (1)). Moreover, this formula shows that the mapping $x_2 \mapsto {}^r\Phi(x_2)$ is linear and continuous for the (weak) topologies of $F_2$ and $G_1$. Conversely, for every continuous linear mapping $u$ of $F_2$ into $G_1$, $(x_1, x_2) \mapsto \Phi(x_1, x_2) = \langle x_1, u(x_2) \rangle$ is a separately continuous bilinear form on $F_1 \times F_2$, and ${}^r\Phi = u$. One thus defines an isomorphism $r : \Phi \mapsto {}^r\Phi$ of $\mathfrak{B}(F_1, F_2)$ onto $\mathcal{L}(F_2; G_1)$, said to be *canonical*.
+for $x_1 \in F_1, x_2 \in F_2$ (TVS, III, §5, No. 1, (1)). Moreover, this formula shows that the mapping $x_2 \mapsto {}^r\Phi(x_2)$ is linear and continuous for the (weak) topologies of $F_2$ and $G_1$. Conversely, for every continuous linear mapping $u$ of $F_2$ into $G_1$, $(x_1, x_2) \mapsto \Phi(x_1, x_2) = \langle x_1, u(x_2) \rangle$ is a separately continuous bilinear form on $F_1 \times F_2$, and ${}^r\Phi = u$. One thus defines an isomorphism $r : \Phi \mapsto {}^r\Phi$ of $\mathfrak{B}(F_1, F_2)$ onto $\mathscr{L}(F_2; G_1)$, said to be *canonical*.
 
 Similarly, the formula
 
@@ -46,26 +46,26 @@ $$
 \Phi(x_1, x_2) = \langle {}^l\Phi(x_1), x_2 \rangle
 $$
 
-defines a *canonical isomorphism* $l : \Phi \mapsto {}^l\Phi$ of $\mathfrak{B}(F_1, F_2)$ onto $\mathcal{L}(F_1; G_2)$; and one obviously has the commutative diagram
+defines a *canonical isomorphism* $l : \Phi \mapsto {}^l\Phi$ of $\mathfrak{B}(F_1, F_2)$ onto $\mathscr{L}(F_1; G_2)$; and one obviously has the commutative diagram
 
 $$
 \begin{array}{ccc}
-\mathcal{B}(F_1, F_2) & & \\
+\mathscr{B}(F_1, F_2) & & \\
 l & l^{-1} & r^{-1} \\
 & & \\
-\mathcal{L}(F_1; G_2) & \xleftarrow{t} & \mathcal{L}(F_2; G_1)
+\mathscr{L}(F_1; G_2) & \xleftarrow{t} & \mathscr{L}(F_2; G_1)
 \end{array}
 $$
 
-where $t$ is the isomorphism of transposition $u \mapsto {}^t u$. In view of the definition of the weak topologies on $G_1$ and $G_2$, it is moreover immediate that when $\mathcal{B}(F_1, F_2)$, $\mathcal{L}(F_1; G_2)$ and $\mathcal{L}(F_2; G_1)$ are equipped with the topology of pointwise convergence, the isomorphisms in the preceding diagram are isomorphisms for the topological vector space structures.
+where $t$ is the isomorphism of transposition $u \mapsto {}^t u$. In view of the definition of the weak topologies on $G_1$ and $G_2$, it is moreover immediate that when $\mathscr{B}(F_1, F_2)$, $\mathscr{L}(F_1; G_2)$ and $\mathscr{L}(F_2; G_1)$ are equipped with the topology of pointwise convergence, the isomorphisms in the preceding diagram are isomorphisms for the topological vector space structures.
 
-Now let $E, F$ be two Hausdorff locally convex spaces, $E', F'$ their respective duals; we denote by $E_\sigma, F_\sigma$ the spaces $E, F$ equipped with the weakened topologies $\sigma(E, E')$, $\sigma(F, F')$, and by $E'_s, F'_s$ the spaces $E', F'$ equipped with the weak topologies $\sigma(E', E)$, $\sigma(F', F)$. Thus, the preceding remarks establish canonical isomorphisms between the three spaces $\mathcal{B}(E_\sigma, F'_s)$, $\mathcal{L}(E_\sigma; F_\sigma)$ and $\mathcal{L}(F'_s; E'_s)$, and also between the three spaces $\mathcal{B}(E_\sigma, F_\sigma)$, $\mathcal{L}(E_\sigma; F'_s)$ and $\mathcal{L}(F_\sigma; E'_s)$. One will observe that $\mathcal{B}(E_\sigma, F_\sigma)$ is also equal to the space $\mathcal{B}(E, F)$ of separately continuous bilinear forms on $E \times F$ ($E$ and $F$ being equipped with their original topologies), since every continuous linear form on $E$ (resp. $F$) is continuous on $E_\sigma$ (resp. $F_\sigma$) and conversely (TVS, II, §6, No. 1 and No. 2, Prop. 3).
+Now let $E, F$ be two Hausdorff locally convex spaces, $E', F'$ their respective duals; we denote by $E_\sigma, F_\sigma$ the spaces $E, F$ equipped with the weakened topologies $\sigma(E, E')$, $\sigma(F, F')$, and by $E'_s, F'_s$ the spaces $E', F'$ equipped with the weak topologies $\sigma(E', E)$, $\sigma(F', F)$. Thus, the preceding remarks establish canonical isomorphisms between the three spaces $\mathscr{B}(E_\sigma, F'_s)$, $\mathscr{L}(E_\sigma; F_\sigma)$ and $\mathscr{L}(F'_s; E'_s)$, and also between the three spaces $\mathscr{B}(E_\sigma, F_\sigma)$, $\mathscr{L}(E_\sigma; F'_s)$ and $\mathscr{L}(F_\sigma; E'_s)$. One will observe that $\mathscr{B}(E_\sigma, F_\sigma)$ is also equal to the space $\mathscr{B}(E, F)$ of separately continuous bilinear forms on $E \times F$ ($E$ and $F$ being equipped with their original topologies), since every continuous linear form on $E$ (resp. $F$) is continuous on $E_\sigma$ (resp. $F_\sigma$) and conversely (TVS, II, §6, No. 1 and No. 2, Prop. 3).
 
-Let $\mathcal{B}(E, F)$ be the space of continuous bilinear forms on $E \times F$ ($E$ and $F$ being equipped with their original topologies); then $\mathcal{B}(E, F) \subset \mathcal{B}(E, F)$.
+Let $\mathscr{B}(E, F)$ be the space of continuous bilinear forms on $E \times F$ ($E$ and $F$ being equipped with their original topologies); then $\mathscr{B}(E, F) \subset \mathscr{B}(E, F)$.
 
 #### Proposition 1 {#int-vi-a0-prop-1 .statement}
 
-*For a bilinear form $\Phi \in \mathcal{B}(E, F)$ to belong to $\mathcal{B}(E, F)$, it is necessary and sufficient that there exist a neighborhood of 0 in $E$ whose image under ${}^l \Phi$ is an equicontinuous subset of $F'$.*
+*For a bilinear form $\Phi \in \mathscr{B}(E, F)$ to belong to $\mathscr{B}(E, F)$, it is necessary and sufficient that there exist a neighborhood of 0 in $E$ whose image under ${}^l \Phi$ is an equicontinuous subset of $F'$.*
 
 For, to say that $\Phi$ is continuous means that there exists a balanced convex neighborhood $V$ (resp. $W$) of 0 in $E$ (resp. $F$) such that $|\Phi(x, y)| \leq 1$ for $x \in V$, $y \in W$; this may be written $|\langle {}^l \Phi(x), y \rangle| \leq 1$ for $x \in V$, $y \in W$, or also ${}^l \Phi(V) \subset W^\circ$; whence the proposition, taking into account the fact that every equicontinuous subset of $F'$ is contained in the polar of a neighborhood of 0 in $F$.
 

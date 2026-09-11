@@ -25,7 +25,7 @@ subsections:
       pdf_page: 236
 statements: 7
 exercises: 2
-content_sha256: b4e7cd1d1788dbad199a14046cb0e8a2678d3219bed052cfd2b9150b2bbab48e
+content_sha256: f6b86d94d23d998e501a81e7ce38d28415459097713e8eb85fec3ccfe744d0c1
 ---
 
 ## § 4. INVERSE LIMITS OF MEASURES
@@ -65,11 +65,11 @@ Consequently, there exists an index i such that $M_i = \varnothing$. For $j \geq
 
 #### Definition 1 {#int-ix-s4-def-1 .statement}
 
-— Let $\mathcal{T} = (T_i, p_{ij})$ be an inverse system of topological spaces indexed by I. One calls inverse system (resp. sub-inverse system) of measures on $\mathcal{T}$ a family $(\mu_i)_{i \in I}$, where $\mu_i$ is a bounded measure on $T_i$ for all $i \in I$, and where $\mu_i = p_{ij}(\mu_j)$ (resp. $\mu_i \geq p_{ij}(\mu_j)$) for $i \leq j$.
+— Let $\mathscr{T} = (T_i, p_{ij})$ be an inverse system of topological spaces indexed by I. One calls inverse system (resp. sub-inverse system) of measures on $\mathscr{T}$ a family $(\mu_i)_{i \in I}$, where $\mu_i$ is a bounded measure on $T_i$ for all $i \in I$, and where $\mu_i = p_{ij}(\mu_j)$ (resp. $\mu_i \geq p_{ij}(\mu_j)$) for $i \leq j$.
 
 #### Proposition 3 {#int-ix-s4-prop-3 .statement}
 
-*Let there be given an inverse system of topological spaces $\mathcal{T} = (T_i, p_{ij})$ indexed by $I$, a topological space $T$, a coherent and separating family of continuous mappings $p_i : T \to T_i$ (for $i \in I$) and a sub-inverse system $(\mu_i)_{i \in I}$ of measures on $\mathcal{T}$. For every compact subset K of $T$, set*
+*Let there be given an inverse system of topological spaces $\mathscr{T} = (T_i, p_{ij})$ indexed by $I$, a topological space $T$, a coherent and separating family of continuous mappings $p_i : T \to T_i$ (for $i \in I$) and a sub-inverse system $(\mu_i)_{i \in I}$ of measures on $\mathscr{T}$. For every compact subset K of $T$, set*
 
 $$
 J(K) = \inf_{i \in I} \mu_i^\bullet(p_i(K)).
@@ -106,15 +106,15 @@ J(K) = \inf_{i \in I} \mu_i^\bullet(p_i(K)) = \inf_{i \in I} \inf_{\alpha \in A}
 $$
 5) Let us choose an $i \in I$ and set $c = \mu_i^\bullet(T_i)$. Then $c$ is finite and $J(K) \leq \mu_i^\bullet(p_i(K)) \leq \mu_i^\bullet(T_i)$, thus $J(K) \leq c$ for every compact set $K$ in $T$.
 
-The preceding properties permit applying Th. 1 of § 3, No. 1; we conclude that there exists one and only one bounded measure $\pi$ on $T$ such that $\pi^\bullet(K) = J(K)$ for every compact subset $K$ of $T$. For every $i \in I$, let us denote by $\nu_i$ the measure on $T_i$ that is the image of $\pi$ under $p_i$. Let $i \in I$, $A$ a compact subset of $T_i$, and $\mathcal{L}$ the set of compact subsets of $\overline{p_i^{-1}(A)}$. By Remark 3 of § 1, No. 2, we have $\pi^\bullet(\overline{p_i^{-1}(A)}) = \sup_{K \in \mathcal{L}} \pi^\bullet(K)$; moreover, $\nu_i^\bullet(A) = \pi^\bullet(\overline{p_i^{-1}(A)})$ and $J(K) = \pi^\bullet(K)$ for $K \in \mathcal{L}$, whence $\nu_i^\bullet(A) = \sup_{K \in \mathcal{L}} J(K)$.
+The preceding properties permit applying Th. 1 of § 3, No. 1; we conclude that there exists one and only one bounded measure $\pi$ on $T$ such that $\pi^\bullet(K) = J(K)$ for every compact subset $K$ of $T$. For every $i \in I$, let us denote by $\nu_i$ the measure on $T_i$ that is the image of $\pi$ under $p_i$. Let $i \in I$, $A$ a compact subset of $T_i$, and $\mathscr{L}$ the set of compact subsets of $\overline{p_i^{-1}(A)}$. By Remark 3 of § 1, No. 2, we have $\pi^\bullet(\overline{p_i^{-1}(A)}) = \sup_{K \in \mathscr{L}} \pi^\bullet(K)$; moreover, $\nu_i^\bullet(A) = \pi^\bullet(\overline{p_i^{-1}(A)})$ and $J(K) = \pi^\bullet(K)$ for $K \in \mathscr{L}$, whence $\nu_i^\bullet(A) = \sup_{K \in \mathscr{L}} J(K)$.
 
-For $K \in \mathcal{L}$, we have $p_i(K) \subset A$, whence $J(K) \leq \mu_i^\bullet(p_i(K)) \leq \mu_i^\bullet(A)$ and finally $\nu_i^\bullet(A) \leq \mu_i^\bullet(A)$. Since $A$ is an arbitrary compact set in $T_i$, we conclude that $\nu_i \leq \mu_i$. The last assertion of the proposition is obvious.
+For $K \in \mathscr{L}$, we have $p_i(K) \subset A$, whence $J(K) \leq \mu_i^\bullet(p_i(K)) \leq \mu_i^\bullet(A)$ and finally $\nu_i^\bullet(A) \leq \mu_i^\bullet(A)$. Since $A$ is an arbitrary compact set in $T_i$, we conclude that $\nu_i \leq \mu_i$. The last assertion of the proposition is obvious.
 
 Q.E.D.
 
 #### Theorem 1 (Prokhorov) {#int-ix-s4-thm-1 .statement}
 
-— *Let $\mathcal{T} = (T_i, p_{ij})$ be an inverse system of topological spaces indexed by $I$, $T$ a topological space and $(p_i)_{i \in I}$ a coherent and separating family of continuous mappings $p_i : T \to T_i$. Finally, let $(\mu_i)_{i \in I}$ be an inverse system of measures on $\mathcal{T}$.
+— *Let $\mathscr{T} = (T_i, p_{ij})$ be an inverse system of topological spaces indexed by $I$, $T$ a topological space and $(p_i)_{i \in I}$ a coherent and separating family of continuous mappings $p_i : T \to T_i$. Finally, let $(\mu_i)_{i \in I}$ be an inverse system of measures on $\mathscr{T}$.
 
 For there to exist a bounded measure $\mu$ on $T$ such that $p_i(\mu) = \mu_i$ for all $i \in I$, it is necessary and sufficient that the following condition be satisfied:
 
@@ -139,9 +139,9 @@ By Prop. 3, there exists a bounded measure $\pi$ on $T$ such that $\pi^\bullet(K
 
 For $i \leq j$, we have $\mu_i = p_{ij}(\mu_j)$, whence $\mu_i^\bullet(T_i) = \mu_j^\bullet(T_j)$; since $I$ is directed, there exists a finite number $c \geq 0$ such that $\mu_i^\bullet(T_i) = c$ for all $i \in I$. By Prop. 3, the measure $\mu_i - p_i(\pi)$ is positive, hence is zero if and only if its total mass is zero, that is, if $\mu_i(T_i) = p_i(\pi)^\bullet(T_i)$. Since $p_i(\pi)^\bullet(T_i) = \pi^\bullet(T)$, the condition (P') is thus equivalent to $\pi^\bullet(T) = c$, that is (§ 1, No. 2, Remark 3) to the property:
 
-(P'') $\sup_{K \in \mathcal{K}} \pi^\bullet(K) = c$, where $\mathcal{K}$ is the set of compact subsets of $T$.
+(P'') $\sup_{K \in \mathscr{K}} \pi^\bullet(K) = c$, where $\mathscr{K}$ is the set of compact subsets of $T$.
 
-Now, for $K \in \mathcal{K}$, we have
+Now, for $K \in \mathscr{K}$, we have
 
 $$
 \pi^\bullet(K) = \inf_{i \in I} \mu_i^\bullet(p_i(K)) = c - \sup_{i \in I} \mu_i^\bullet(T_i - p_i(K))
@@ -155,7 +155,7 @@ Let $(T_i, p_{ij})$ be an inverse system of topological spaces. Set $T = \lim_{\
 
 #### Remark {#int-ix-s4-n2-rem-1 .statement}
 
-— Let $(\mu_i)_{i \in I}$ be an inverse system of measures on the inverse system of spaces $\mathcal{T} = (T_i, p_{ij})$. Assume given a topological space $T'$ and continuous mappings $p'_i : T' \to T_i$; assume that the family $(p'_i)_{i \in I}$ is coherent, but not necessarily separating. *If Prokhorov's condition (P) is satisfied by the family* $(p'_i)_{i \in I}$, *there exists a measure* $\mu'$ (*not necessarily unique*) *on* $T'$ *such that* $p'_i(\mu') = \mu_i$ *for all* $i \in I$.
+— Let $(\mu_i)_{i \in I}$ be an inverse system of measures on the inverse system of spaces $\mathscr{T} = (T_i, p_{ij})$. Assume given a topological space $T'$ and continuous mappings $p'_i : T' \to T_i$; assume that the family $(p'_i)_{i \in I}$ is coherent, but not necessarily separating. *If Prokhorov's condition (P) is satisfied by the family* $(p'_i)_{i \in I}$, *there exists a measure* $\mu'$ (*not necessarily unique*) *on* $T'$ *such that* $p'_i(\mu') = \mu_i$ *for all* $i \in I$.
 
 For, set $T = \lim_{\leftarrow} T_i$ and $p' = (p'_i)_{i \in I}$, and denote by $p_i$ the canonical mapping of $T$ into $T_i$; Prokhorov's condition is satisfied by $T$ and the $p_i$, because $p_i(p'(K')) = p'_i(K')$ and $p'(K')$ is compact in $T$ for every compact subset $K'$ of $T'$. By Th. 1, there exists a bounded measure $\mu$ on $T$ such that $p_i(\mu) = \mu_i$ for all $i \in I$. Let $K'$ be a compact set in $T'$; then $\mu^\bullet(p'(K')) = \inf_{i \in I} \mu_i^\bullet(p'_i(K'))$, whence
 $$
@@ -167,7 +167,7 @@ Let $\varepsilon > 0$; since Prokhorov’s condition (P) is satisfied by the $p_
 
 #### Theorem 2 {#int-ix-s4-thm-2 .statement}
 
-— *Assume that the directed preordered set I has a countable cofinal subset. Let $\mathcal{T} = (T_i, p_{ij})$ be an inverse system of topological spaces, $T = \lim_{\leftarrow} T_i$ and $p_i$ the canonical mapping of $T$ into $T_i$. Then every inverse system $(\mu_i)_{i \in I}$ of measures on $\mathcal{T}$ admits an inverse limit.*
+— *Assume that the directed preordered set I has a countable cofinal subset. Let $\mathscr{T} = (T_i, p_{ij})$ be an inverse system of topological spaces, $T = \lim_{\leftarrow} T_i$ and $p_i$ the canonical mapping of $T$ into $T_i$. Then every inverse system $(\mu_i)_{i \in I}$ of measures on $\mathscr{T}$ admits an inverse limit.*
 
 We shall first treat the case that $I = \mathbf{N}$ and set $q_n = p_{n,n+1}$. Let $\varepsilon > 0$. Define recursively a sequence of compact sets $L_n \subset T_n$ as follows: $L_0$ is a compact subset of $T_0$ such that $\mu_0^\bullet(T_0 - L_0) \leq \varepsilon/2$, and for $n \geq 0$ the compact set $L_{n+1}$ is contained in $\overline{q_n^{-1}(L_n)}$ and satisfies
 $$

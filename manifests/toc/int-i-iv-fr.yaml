@@ -129,7 +129,7 @@ chapters:
               page: 59
               pdf_page: 63
             - "no": 10
-              title: Convergence compacte dans $\mathcal{M}(X; \mathbf{C})$
+              title: Convergence compacte dans $\mathscr{M}(X; \mathbf{C})$
               page: 62
               pdf_page: 66
           exercises:
@@ -292,7 +292,7 @@ chapters:
               page: 124
               pdf_page: 128
             - "no": 3
-              title: Les espaces $\mathcal{F}_F^p$
+              title: Les espaces $\mathscr{F}_F^p$
               page: 126
               pdf_page: 130
             - "no": 4
@@ -304,7 +304,7 @@ chapters:
               page: 132
               pdf_page: 136
             - "no": 6
-              title: Ensembles filtrants dans $L^p$ et suites croissantes dans $\mathcal{L}^p$
+              title: Ensembles filtrants dans $L^p$ et suites croissantes dans $\mathscr{L}^p$
               page: 134
               pdf_page: 138
             - "no": 7
@@ -312,7 +312,7 @@ chapters:
               page: 137
               pdf_page: 141
             - "no": 8
-              title: Relations entre les espaces $\mathcal{L}_F^p$ ($1 \leq p < +\infty$)
+              title: Relations entre les espaces $\mathscr{L}_F^p$ ($1 \leq p < +\infty$)
               page: 139
               pdf_page: 143
           exercises:

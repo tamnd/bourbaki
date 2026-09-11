@@ -52,9 +52,9 @@ subsections:
       pdf_page: 202
 statements: 52
 exercises: 10
-content_sha256: 1a8a2cb0fa2a55cbd7cdbe93b205cd8ec5d59004319cc6cc7627726b3d95ca1b
+content_sha256: cead97b31663598d992afff2a5c524b979202fc92c5562d1a01c17d27aeced3b
 translated_from: content/en/int/IX/01_s1_premeasures_and_measures_on_a.md
-source_content_sha256: 396f9305e8378565df6b6843f0c7f2210c00d7f2557e26f83d0d7eb3f062b066
+source_content_sha256: 9def8ab1f124d61a4573dcf64e25627940e31a5690f91afe3c4981c332244b6f
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-3557822e
 glossary_version: 34
@@ -68,15 +68,15 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 #### Định nghĩa 1 {#int-ix-s1-def-1 .statement}
 
-— Cho T là một tập hợp. Người ta gọi một định lượng trên T bất kỳ ánh xạ p của $\mathcal{F}_+(T)$ vào $\overline{\mathbf{R}}_+$ thỏa các tính chất sau:
-a) Nếu f và g là hai phần tử của $\mathcal{F}_+$ sao cho $f \leq g$, thì $p(f) \leq p(g)$.
-b) Nếu f là một phần tử của $\mathcal{F}_+$, và t là một số $\geq 0$, thì $p(tf) = tp(f)$.
+— Cho T là một tập hợp. Người ta gọi một định lượng trên T bất kỳ ánh xạ p của $\mathscr{F}_+(T)$ vào $\overline{\mathbf{R}}_+$ thỏa các tính chất sau:
+a) Nếu f và g là hai phần tử của $\mathscr{F}_+$ sao cho $f \leq g$, thì $p(f) \leq p(g)$.
+b) Nếu f là một phần tử của $\mathscr{F}_+$, và t là một số $\geq 0$, thì $p(tf) = tp(f)$.
 
-c) *Nếu f và g là hai phần tử của $\mathcal{F}_+$, thì $p(f + g) \leq p(f) + p(g)$.*
-d) *Nếu $(f_n)$ là một dãy tăng của các phần tử của $\mathcal{F}_+$, và nếu $f = \lim_{n \to \infty} f_n$, thì $p(f) = \lim_{n \to \infty} p(f_n)$.*
+c) *Nếu f và g là hai phần tử của $\mathscr{F}_+$, thì $p(f + g) \leq p(f) + p(g)$.*
+d) *Nếu $(f_n)$ là một dãy tăng của các phần tử của $\mathscr{F}_+$, và nếu $f = \lim_{n \to \infty} f_n$, thì $p(f) = \lim_{n \to \infty} p(f_n)$.*
 *Nếu A là một tập con của T, ta viết $p(A)$ thay cho $p(\varphi_A)$.*
 
-Điều kiện b) suy ra rằng $p(0) = 0$. Mặt khác, cho $(f_n)$ là một dãy các phần tử của $\mathcal{F}_+$; các điều kiện c) và d) suy ra bất đẳng thức
+Điều kiện b) suy ra rằng $p(0) = 0$. Mặt khác, cho $(f_n)$ là một dãy các phần tử của $\mathscr{F}_+$; các điều kiện c) và d) suy ra bất đẳng thức
 
 $$
 p\left( \sum_n f_n \right) \leq \sum_n p(f_n)
@@ -88,7 +88,7 @@ Chẳng hạn, cho T là một không gian địa phương compact, $\mu$ là m�
 
 #### Mệnh đề 1 {#int-ix-s1-prop-1 .statement}
 
-*Cho $(p_\alpha)_{\alpha \in A}$ là một họ các định lượng trên T. Khi đó tổng và bao trên của họ $(p_\alpha)$ (trong $\mathcal{F}_+(\mathcal{F}_+(T))$) là các định lượng.*
+*Cho $(p_\alpha)_{\alpha \in A}$ là một họ các định lượng trên T. Khi đó tổng và bao trên của họ $(p_\alpha)$ (trong $\mathscr{F}_+(\mathscr{F}_+(T))$) là các định lượng.*
 
 Tổng của một họ hữu hạn các định lượng hiển nhiên là một định lượng, nên chỉ cần xét trường hợp bao trên. Các tính chất a), b), c) của Định nghĩa 1 hiển nhiên được thỏa mãn, chỉ còn phải chứng minh d). Đặt $p = \sup_\alpha p_\alpha$; khi đó, với các ký hiệu của Định nghĩa 1 d),
 
@@ -102,9 +102,9 @@ $$
 
 Từ các tính chất a) và c) của Định nghĩa 1 suy ra rằng $p(K) < +\infty$ đối với mọi tập con compact K của T. Đặc biệt, nếu T compact, thì mọi định lượng địa phương bị chặn trên T đều bị chặn.
 
-Cho p là một định lượng trên một tập hợp T, và A là một tập con của T. Với mọi hàm $f \in \mathcal{F}_+(A)$, cho $f^0$ là phần kéo dài bởi 0 của f lên T; ánh xạ $f \mapsto p(f^0)$ trên $\mathcal{F}_+(A)$ khi đó là một định lượng, gọi là *định lượng cảm sinh bởi p* trên A, và được ký hiệu bởi $p|A$ hoặc $p_A$.
+Cho p là một định lượng trên một tập hợp T, và A là một tập con của T. Với mọi hàm $f \in \mathscr{F}_+(A)$, cho $f^0$ là phần kéo dài bởi 0 của f lên T; ánh xạ $f \mapsto p(f^0)$ trên $\mathscr{F}_+(A)$ khi đó là một định lượng, gọi là *định lượng cảm sinh bởi p* trên A, và được ký hiệu bởi $p|A$ hoặc $p_A$.
 
-Cho T và U là hai tập hợp, $\pi$ là một ánh xạ từ T vào U, và p là một định lượng trên T. Định lượng $\pi(p)$ trên U, có giá trị với $f \in \mathcal{F}_+(U)$ được cho bởi
+Cho T và U là hai tập hợp, $\pi$ là một ánh xạ từ T vào U, và p là một định lượng trên T. Định lượng $\pi(p)$ trên U, có giá trị với $f \in \mathscr{F}_+(U)$ được cho bởi
 
 $$
 (\pi(p))(f) = p(f \circ \pi),
@@ -116,7 +116,7 @@ Cho $p$ là một định lượng trên một tập hợp $T$; p được gọi
 
 #### Bổ đề 1 {#int-ix-s1-lem-1 .statement}
 
-— *Nếu định lượng $p$ tập trung trên $A \subset T$, thì $p(f) = p(f \varphi_A)$ với mọi $f \in \mathcal{F}_+(T)$.*
+— *Nếu định lượng $p$ tập trung trên $A \subset T$, thì $p(f) = p(f \varphi_A)$ với mọi $f \in \mathscr{F}_+(T)$.*
 
 Vì, đặt $T - A = B$, do đó $p(\varphi_B) = 0$; khi đó
 
@@ -128,7 +128,7 @@ do đó $p(f \varphi_B) = 0$ theo các tính chất $a), b), d)$ của Định n
 
 ### 2. Tiền độ đo và độ đo
 
-Cho $T$ là một không gian tôpô, và cho $\mathfrak{K}$ là tập hợp các tập con compact của $T$, được sắp thứ tự bởi phép bao hàm. Với mọi $K \in \mathfrak{K}$, đặt $\mathcal{M}(K; \mathbf{C})$ là tập hợp các độ đo phức trên $K$. Với mọi cặp $(K, L)$ gồm các phần tử của $\mathfrak{K}$ sao cho $K \subset L$, hãy gọi $\iota_{KL}$ là ánh xạ từ $\mathcal{M}(L; \mathbf{C})$ vào $\mathcal{M}(K; \mathbf{C})$ gán cho mỗi độ đo $\mu$ trên $L$ độ đo $\mu_K$ cảm sinh bởi $\mu$ trên $K$ (Ch. IV, §5, No. 7, Định nghĩa 4). Khi đó $\iota_{KM} = \iota_{KL} \circ \iota_{LM}$ khi $K$, $L$ và $M$ là các tập con compact của $T$ sao cho $K \subset L \subset M$; điều này suy ra từ tính bắc cầu của các độ đo cảm sinh (Ch. V, §7, No. 2, Mệnh đề 4). Các phần tử của *giới hạn ngược* của họ $(\mathcal{M}(K; \mathbf{C}))_{K \in \mathfrak{K}}$ đối với các ánh xạ $\iota_{KL}$ sẽ được gọi là *tiền độ đo* trên $T$. Nói cách khác:
+Cho $T$ là một không gian tôpô, và cho $\mathfrak{K}$ là tập hợp các tập con compact của $T$, được sắp thứ tự bởi phép bao hàm. Với mọi $K \in \mathfrak{K}$, đặt $\mathscr{M}(K; \mathbf{C})$ là tập hợp các độ đo phức trên $K$. Với mọi cặp $(K, L)$ gồm các phần tử của $\mathfrak{K}$ sao cho $K \subset L$, hãy gọi $\iota_{KL}$ là ánh xạ từ $\mathscr{M}(L; \mathbf{C})$ vào $\mathscr{M}(K; \mathbf{C})$ gán cho mỗi độ đo $\mu$ trên $L$ độ đo $\mu_K$ cảm sinh bởi $\mu$ trên $K$ (Ch. IV, §5, No. 7, Định nghĩa 4). Khi đó $\iota_{KM} = \iota_{KL} \circ \iota_{LM}$ khi $K$, $L$ và $M$ là các tập con compact của $T$ sao cho $K \subset L \subset M$; điều này suy ra từ tính bắc cầu của các độ đo cảm sinh (Ch. V, §7, No. 2, Mệnh đề 4). Các phần tử của *giới hạn ngược* của họ $(\mathscr{M}(K; \mathbf{C}))_{K \in \mathfrak{K}}$ đối với các ánh xạ $\iota_{KL}$ sẽ được gọi là *tiền độ đo* trên $T$. Nói cách khác:
 
 #### Định nghĩa 3 {#int-ix-s1-def-3 .statement}
 
@@ -138,7 +138,7 @@ Cho $T$ là một không gian tôpô, và cho $\mathfrak{K}$ là tập hợp cá
 
 Tiền độ đo $w$ được gọi là thực (resp. dương) nếu mọi độ đo $w_K$ đều là thực (resp. dương).*
 
-Cho $w$ và $w'$ là hai tiền độ đo trên $T$, $t$ là một số phức; các tiền độ đo $w + w'$ và $tw$ được xác định bởi các công thức $(w + w')_K = w_K + w'_K$, $(tw)_K = tw_K$ với mọi tập con compact $K$ của $T$. Các tiền độ đo trên $T$ hiển nhiên lập thành một không gian vectơ, được ký hiệu $\mathcal{P}(T; \mathbf{C})$; không gian các tiền độ đo thực sẽ được ký hiệu $\mathcal{P}(T; \mathbf{R})$, hay thường hơn $\mathcal{P}(T)$, và nón lồi của các tiền độ đo dương sẽ được ký hiệu $\mathcal{P}_+(T)$. Cho $w$ là một tiền độ đo; ánh xạ $K \mapsto |w_K|$ khi đó là một tiền độ đo trên $T$ (Ch. IV, §5, No. 7, Bổ đề 3), và sẽ được ký hiệu là $|w|$. Nếu $w$ là thực, ta đặt w^+ = \frac{1}{2}(|w| + w),\ w^- = \frac{1}{2}(|w| - w); hai tiền độ đo này dương, suy ra mọi tiền độ đo thực là hiệu của hai tiền độ đo dương. Rõ ràng $(w^+)_K = (w_K)^+$, $(w^-)_K = (w_K)^-$ với mọi tập con compact K của T.
+Cho $w$ và $w'$ là hai tiền độ đo trên $T$, $t$ là một số phức; các tiền độ đo $w + w'$ và $tw$ được xác định bởi các công thức $(w + w')_K = w_K + w'_K$, $(tw)_K = tw_K$ với mọi tập con compact $K$ của $T$. Các tiền độ đo trên $T$ hiển nhiên lập thành một không gian vectơ, được ký hiệu $\mathscr{P}(T; \mathbf{C})$; không gian các tiền độ đo thực sẽ được ký hiệu $\mathscr{P}(T; \mathbf{R})$, hay thường hơn $\mathscr{P}(T)$, và nón lồi của các tiền độ đo dương sẽ được ký hiệu $\mathscr{P}_+(T)$. Cho $w$ là một tiền độ đo; ánh xạ $K \mapsto |w_K|$ khi đó là một tiền độ đo trên $T$ (Ch. IV, §5, No. 7, Bổ đề 3), và sẽ được ký hiệu là $|w|$. Nếu $w$ là thực, ta đặt w^+ = \frac{1}{2}(|w| + w),\ w^- = \frac{1}{2}(|w| - w); hai tiền độ đo này dương, suy ra mọi tiền độ đo thực là hiệu của hai tiền độ đo dương. Rõ ràng $(w^+)_K = (w_K)^+$, $(w^-)_K = (w_K)^-$ với mọi tập con compact K của T.
 
 Không gian vectơ $P(T)$ được sắp thứ tự bởi nón $P_+(T)$. Rõ ràng $w^+ = \sup(w, 0),\ w^- = \sup(-w, 0)$; do đó, $P(T)$ là một dàn có thứ tự và $\sup(w, w') = w + (w' - w)^+,\ \inf(w, w') = w - (w' - w)^-$. Hơn nữa, rõ ràng
 
@@ -150,7 +150,7 @@ với mọi tập con compact K của T.
 
 #### Định nghĩa 4 {#int-ix-s1-def-4 .statement}
 
-*Cho w là một tiền độ đo dương trên T. Ta sẽ đặt, với mọi hàm $f \in \mathcal{F}_+(T)$,*
+*Cho w là một tiền độ đo dương trên T. Ta sẽ đặt, với mọi hàm $f \in \mathscr{F}_+(T)$,*
 
 $$(1)$$
 $$
@@ -165,7 +165,7 @@ Với mỗi tập compact K, gọi $p^K$ là ảnh tải của tải $(w_K)^\bul
 
 #### Mệnh đề 2 {#int-ix-s1-prop-2 .statement}
 
-*a) Cho w là một tiền độ đo dương. Với mọi tập con compact K của T, tải $(w^\bullet)_K$ cảm sinh bởi $w^\bullet$ trên K bằng $(w_K)^\bullet$. Với mọi hàm $f \in \mathcal{F}_+(T)$, ta có các hệ thức $(w_K)^\bullet(f_K) = w^\bullet(f_{\varphi_K})$ và*
+*a) Cho w là một tiền độ đo dương. Với mọi tập con compact K của T, tải $(w^\bullet)_K$ cảm sinh bởi $w^\bullet$ trên K bằng $(w_K)^\bullet$. Với mọi hàm $f \in \mathscr{F}_+(T)$, ta có các hệ thức $(w_K)^\bullet(f_K) = w^\bullet(f_{\varphi_K})$ và*
 
 $$(2)$$
 $$
@@ -174,10 +174,10 @@ $$
 
 *b) Ngược lại, cho p là một tải trên T thỏa mãn các điều kiện sau:
 1) Với mọi tập con compact K của T, tồn tại một độ đo dương $w_K$ trên K sao cho $p_K = (w_K)^\bullet$.
-2) Với mọi hàm $f \in \mathcal{F}_+(T)$, $p(f) = \sup_K p(f_{\varphi_K})$.
+2) Với mọi hàm $f \in \mathscr{F}_+(T)$, $p(f) = \sup_K p(f_{\varphi_K})$.
 Ánh xạ $w : K \mapsto w_K$ khi đó là một tiền độ đo dương trên T, và $p = w^\bullet$.
 
-Chứng minh a: cho $g \in \mathcal{F}_+(K)$ và gọi $g^0$ là phần mở rộng bằng không của g lên T; khi đó, theo định nghĩa của các tải cảm sinh,
+Chứng minh a: cho $g \in \mathscr{F}_+(K)$ và gọi $g^0$ là phần mở rộng bằng không của g lên T; khi đó, theo định nghĩa của các tải cảm sinh,
 
 $$
 (w^\bullet)_K(g) = w^\bullet(g^0) = \sup_L (w_L)^\bullet(g^0|L),
@@ -189,7 +189,7 @@ $$
 (w_K)^\bullet(f_K) = (w^\bullet)_K(f_K) = w^\bullet((f_K)^0) = w^\bullet(f_{\varphi_K})
 $$
 
-với mọi $f \in \mathcal{F}_+(T)$, và (2) chỉ là cách viết lại công thức (1).
+với mọi $f \in \mathscr{F}_+(T)$, và (2) chỉ là cách viết lại công thức (1).
 
 Ta hãy chuyển sang $b$: độ đo $w_K$ xét trong 1) là duy nhất (Ch. V, §1, No. 1). Ta hãy chứng minh rằng ánh xạ $K \mapsto w_K$ là một tiền độ đo: cho $K$ và $L$ là hai tập compact sao cho $K \subset L$, và cho $\lambda$ là độ đo cảm sinh bởi $w_L$ trên $K$; mọi việc quy về chứng minh rằng $\lambda^\bullet = (w_K)^\bullet$. Bây giờ, $\lambda^\bullet = ((w_L)^\bullet)_K$ (Ch. V, §7, No. 1, Mệnh đề 1); vì $(w_L)^\bullet = p_L$, ta có $\lambda^\bullet = (p_L)_K = p_K = (w_K)^\bullet$.
 
@@ -215,7 +215,7 @@ theo Mệnh đề 2; do đó $w_K = v_K$ (Ch. IV, §4, No. 10, Hệ quả 3 củ
 
 — *Cho $w$ là một tiền độ đo trên một không gian tôpô $T$. Người ta nói rằng $w$ là một độ đo (tương ứng, một độ đo bị chặn) nếu độ đo $|w|^\bullet$ là địa phương bị chặn (tương ứng, bị chặn) (xem No. 1, Định nghĩa 2)*.
 
-Tập hợp các độ đo phức trên $T$ hiển nhiên là một không gian vectơ (*Nhận xét* 1), ký hiệu $\mathcal{M}(T; \mathbf{C})$. Không gian các độ đo thực sẽ được ký hiệu $\mathcal{M}(T; \mathbf{R})$ hoặc thường hơn là $\mathcal{M}(T)$, và nón các độ đo dương sẽ được ký hiệu $\mathcal{M}_+(T)$.
+Tập hợp các độ đo phức trên $T$ hiển nhiên là một không gian vectơ (*Nhận xét* 1), ký hiệu $\mathscr{M}(T; \mathbf{C})$. Không gian các độ đo thực sẽ được ký hiệu $\mathscr{M}(T; \mathbf{R})$ hoặc thường hơn là $\mathscr{M}(T)$, và nón các độ đo dương sẽ được ký hiệu $\mathscr{M}_+(T)$.
 
 Nếu $w$ là một độ đo phức, thì phần thực và phần ảo của nó là các độ đo thực. Nếu $w$ là một độ đo thực, thì $w^+$ và $w^-$ là các độ đo dương. Mọi độ đo phức (tương ứng thực) do đó là một tổ hợp tuyến tính (tương ứng hiệu) của các độ đo dương.
 
@@ -239,19 +239,19 @@ theo Hệ quả 1 của ĐL. 4 của Ch. IV, §4, No. 6.
 
 — *Độ đo trên một không gian địa phương compact.*
 
-Mệnh đề sau cho thấy lý thuyết của chương này bao hàm lý thuyết của Ch. IV. Trong phát biểu, từ 'measure' và ký hiệu $\mathcal{M}(T; \mathbf{C})$ được hiểu theo nghĩa của các chương trước.
+Mệnh đề sau cho thấy lý thuyết của chương này bao hàm lý thuyết của Ch. IV. Trong phát biểu, từ 'measure' và ký hiệu $\mathscr{M}(T; \mathbf{C})$ được hiểu theo nghĩa của các chương trước.
 
 #### Mệnh đề 3 {#int-ix-s1-prop-3 .statement}
 
-*Cho $T$ là một không gian địa phương compact, và cho $\mu$ là một độ đo trên $T$. Kí hiệu $W(\mu)$ là ánh xạ gán cho mỗi tập con compact $K$ của $T$ độ đo cảm sinh $\mu_K$. Khi đó $W(\mu)$ là một tiền độ đo trên $T$, ta có $W(|\mu|) = |W(\mu)|$, và ánh xạ tuyến tính $W : \mu \mapsto W(\mu)$ là một song ánh từ không gian $\mathcal{M}(T; \mathbf{C})$ lên không gian $\mathcal{P}(T; \mathbf{C})$ của các tiền độ đo trên $T$. Hơn nữa, nếu $\mu$ dương thì $\mu^* = (W(\mu))^*$.*
+*Cho $T$ là một không gian địa phương compact, và cho $\mu$ là một độ đo trên $T$. Kí hiệu $W(\mu)$ là ánh xạ gán cho mỗi tập con compact $K$ của $T$ độ đo cảm sinh $\mu_K$. Khi đó $W(\mu)$ là một tiền độ đo trên $T$, ta có $W(|\mu|) = |W(\mu)|$, và ánh xạ tuyến tính $W : \mu \mapsto W(\mu)$ là một song ánh từ không gian $\mathscr{M}(T; \mathbf{C})$ lên không gian $\mathscr{P}(T; \mathbf{C})$ của các tiền độ đo trên $T$. Hơn nữa, nếu $\mu$ dương thì $\mu^* = (W(\mu))^*$.*
 
-Hiển nhiên rằng $W(\mu)$ là một tiền độ đo (Ch. V, §7, No. 2, Mệnh đề 4) và rằng ánh xạ $W$ là tuyến tính. Quan hệ $W(\mu) = 0$ có nghĩa là $\mu$ cảm sinh độ đo 0 trên mọi tập compact trong $T$; khi đó $\mu(f) = 0$ với $f \in \mathcal{H}(T; \mathbf{C})$, do đó $\mu = 0$, điều này chứng tỏ rằng $W$ là đơn ánh. Còn phải chứng minh rằng $W$ là toàn ánh. Vì mọi tiền độ đo đều là một tổ hợp tuyến tính của các tiền độ đo dương, nên chỉ cần xây dựng, cho mỗi *tiền độ đo dương* $w$, một độ đo dương $\mu$ sao cho $w = W(\mu)$. Cho $f \in \mathcal{H}(T)$ là một hàm cho trước, và cho $L$ là một tập compact chứa giá đỡ của $f$; số $w_L(f_L)$ không phụ thuộc vào lựa chọn của $L$, theo định nghĩa của các độ đo cảm sinh, nên có thể đặt $\mu(f) = w_L(f_L)$; khi đó $\mu$ là một dạng tuyến tính dương trên $\mathcal{H}(T)$, tức là một độ đo dương. Ta hãy kiểm tra rằng $w = W(\mu)$; trước hết, quan hệ $\mu^\bullet(f) = w_L^\bullet(f_L)$ mở rộng sang trường hợp $f$ là một hàm nửa liên tục trên hữu hạn, dương và bằng 0 ngoài $L$. Thật vậy, cho $M$ là một lân cận compact của $L$, và $\mathcal{H}$ là tập (có hướng giảm) các hàm liên tục trên $T$, có giá đỡ được chứa trong $M$, sao cho chúng $\geq f$. Khi đó (Ch. IV, §4, No. 4, Hệ quả 2 của Mệnh đề 5)
+Hiển nhiên rằng $W(\mu)$ là một tiền độ đo (Ch. V, §7, No. 2, Mệnh đề 4) và rằng ánh xạ $W$ là tuyến tính. Quan hệ $W(\mu) = 0$ có nghĩa là $\mu$ cảm sinh độ đo 0 trên mọi tập compact trong $T$; khi đó $\mu(f) = 0$ với $f \in \mathscr{H}(T; \mathbf{C})$, do đó $\mu = 0$, điều này chứng tỏ rằng $W$ là đơn ánh. Còn phải chứng minh rằng $W$ là toàn ánh. Vì mọi tiền độ đo đều là một tổ hợp tuyến tính của các tiền độ đo dương, nên chỉ cần xây dựng, cho mỗi *tiền độ đo dương* $w$, một độ đo dương $\mu$ sao cho $w = W(\mu)$. Cho $f \in \mathscr{H}(T)$ là một hàm cho trước, và cho $L$ là một tập compact chứa giá đỡ của $f$; số $w_L(f_L)$ không phụ thuộc vào lựa chọn của $L$, theo định nghĩa của các độ đo cảm sinh, nên có thể đặt $\mu(f) = w_L(f_L)$; khi đó $\mu$ là một dạng tuyến tính dương trên $\mathscr{H}(T)$, tức là một độ đo dương. Ta hãy kiểm tra rằng $w = W(\mu)$; trước hết, quan hệ $\mu^\bullet(f) = w_L^\bullet(f_L)$ mở rộng sang trường hợp $f$ là một hàm nửa liên tục trên hữu hạn, dương và bằng 0 ngoài $L$. Thật vậy, cho $M$ là một lân cận compact của $L$, và $\mathscr{H}$ là tập (có hướng giảm) các hàm liên tục trên $T$, có giá đỡ được chứa trong $M$, sao cho chúng $\geq f$. Khi đó (Ch. IV, §4, No. 4, Hệ quả 2 của Mệnh đề 5)
 
 $$
-\mu^\bullet(f) = \inf_{h \in \mathcal{H}} \mu(h) = \inf_{h \in \mathcal{H}} w_M(h_M) = w_M^\bullet(f_M),
+\mu^\bullet(f) = \inf_{h \in \mathscr{H}} \mu(h) = \inf_{h \in \mathscr{H}} w_M(h_M) = w_M^\bullet(f_M),
 $$
 
-và mặt khác $w_M^\bullet(f_M) = w_L^\bullet(f_L)$ vì $f_M$ bằng 0 trên $M - L$ (Ch. V, §7, No. 1, Mệnh đề 1). Đặc biệt, nếu lấy $f$ là mở rộng bằng 0 của một phần tử của $\mathcal{H}_+(L)$, công thức này cho thấy $\mu_L = w_L$ theo định nghĩa của các độ đo cảm sinh, do đó thật vậy $W(\mu) = w$.
+và mặt khác $w_M^\bullet(f_M) = w_L^\bullet(f_L)$ vì $f_M$ bằng 0 trên $M - L$ (Ch. V, §7, No. 1, Mệnh đề 1). Đặc biệt, nếu lấy $f$ là mở rộng bằng 0 của một phần tử của $\mathscr{H}_+(L)$, công thức này cho thấy $\mu_L = w_L$ theo định nghĩa của các độ đo cảm sinh, do đó thật vậy $W(\mu) = w$.
 
 Nếu $\mu$ là dương, thì
 
@@ -259,11 +259,11 @@ $$
 \mu^\bullet(f) = \sup_K \mu^\bullet(f \varphi_K) = \sup_K \mu_K^\bullet(f_K) = (W(\mu))^\bullet(f)
 $$
 
-với mọi $f \in \mathcal{F}_+(T)$ (Ch. V, §1, Định nghĩa 1 và §7, Mệnh đề 1). Quan hệ $|W(\mu)| = W(|\mu|)$ là hiển nhiên (Ch. IV, §5, No. 7, Bổ đề 3).
+với mọi $f \in \mathscr{F}_+(T)$ (Ch. V, §1, Định nghĩa 1 và §7, Mệnh đề 1). Quan hệ $|W(\mu)| = W(|\mu|)$ là hiển nhiên (Ch. IV, §5, No. 7, Bổ đề 3).
 
 ĐPCM.
 
-Khi $T$ là *compact địa phương*, từ nay về sau ta sẽ *đồng nhất* các không gian $\mathcal{M}(T; \mathbf{C})$ và $\mathcal{P}(T; \mathbf{C})$ bằng song ánh $W$.
+Khi $T$ là *compact địa phương*, từ nay về sau ta sẽ *đồng nhất* các không gian $\mathscr{M}(T; \mathbf{C})$ và $\mathscr{P}(T; \mathbf{C})$ bằng song ánh $W$.
 
 #### Ví dụ 2 {#int-ix-s1-n3-exa-2 .statement}
 
@@ -271,14 +271,14 @@ Khi $T$ là *compact địa phương*, từ nay về sau ta sẽ *đồng nhất
 
 #### Bổ đề 2 {#int-ix-s1-lem-2 .statement}
 
-— *Cho $T$ là một không gian tôpô, $L$ là một tập con compact của $T$, và $\lambda$ là một độ đo dương trên $L$. Tồn tại duy nhất một độ đo dương $\mu$ trên $T$ sao cho, với mọi hàm $f \in \mathcal{F}_+(T)$,*
+— *Cho $T$ là một không gian tôpô, $L$ là một tập con compact của $T$, và $\lambda$ là một độ đo dương trên $L$. Tồn tại duy nhất một độ đo dương $\mu$ trên $T$ sao cho, với mọi hàm $f \in \mathscr{F}_+(T)$,*
 
 (2)
 $$
 \mu^\bullet(f) = \lambda^\bullet(f_L).
 $$
 
-Chúng ta đặt $p(f) = \lambda^\bullet(f_L)$ với mọi $f \in \mathcal{F}_+(T)$, và hãy chứng minh rằng các điều kiện 1) và 2) của Mệnh đề 2 *b*) được thỏa mãn. Điều kiện thứ hai hiển nhiên được thỏa mãn: thật vậy, $p(f) = p(f \varphi_K)$ nếu $K$ chứa $L$. Nếu $K \subset T$ là compact, và nếu $h \in \mathcal{F}_+(K)$, thì
+Chúng ta đặt $p(f) = \lambda^\bullet(f_L)$ với mọi $f \in \mathscr{F}_+(T)$, và hãy chứng minh rằng các điều kiện 1) và 2) của Mệnh đề 2 *b*) được thỏa mãn. Điều kiện thứ hai hiển nhiên được thỏa mãn: thật vậy, $p(f) = p(f \varphi_K)$ nếu $K$ chứa $L$. Nếu $K \subset T$ là compact, và nếu $h \in \mathscr{F}_+(K)$, thì
 
 $$
 p_K(h) = p(h^0) = \lambda^\bullet(h^0|L).
@@ -288,7 +288,7 @@ Nhưng $h^0|L$ là phép mở rộng bởi 0 của $h_{K \cap L}$ lên $L$: do �
 
 Q.E.D.
 
-Ta sẽ nói rằng $\mu$ là độ đo trên T *được xác định* bởi $\lambda$. Đặc biệt, với mọi điểm $x$ của T, ta có thể định nghĩa độ đo $\varepsilon_x$; nó được đặc trưng bởi $(\varepsilon_x)^*(f) = f(x)$ với $f \in \mathcal{F}_+(T)$.
+Ta sẽ nói rằng $\mu$ là độ đo trên T *được xác định* bởi $\lambda$. Đặc biệt, với mọi điểm $x$ của T, ta có thể định nghĩa độ đo $\varepsilon_x$; nó được đặc trưng bởi $(\varepsilon_x)^*(f) = f(x)$ với $f \in \mathscr{F}_+(T)$.
 
 #### Nhận xét {#int-ix-s1-n3-rem-1 .statement}
 
@@ -303,7 +303,7 @@ Nhiều kết quả trong các tiểu mục sau có thể được mở rộng c
 
 #### Định nghĩa 6 {#int-ix-s1-def-6 .statement}
 
-*Một hàm* $f \in \mathcal{F}_+$ *(hoặc một tập con* A *của* T) *được gọi là không đáng kể địa phương đối với độ đo* $\mu$ *nếu* $\mu^*(f) = 0$ *(hoặc* $\mu^*(A) = 0$). *Người ta nói rằng* $\mu$ *tập trung trên một tập con* A *của* T *nếu* T − A *là không đáng kể theo* $\mu$ *ở địa phương*.
+*Một hàm* $f \in \mathscr{F}_+$ *(hoặc một tập con* A *của* T) *được gọi là không đáng kể địa phương đối với độ đo* $\mu$ *nếu* $\mu^*(f) = 0$ *(hoặc* $\mu^*(A) = 0$). *Người ta nói rằng* $\mu$ *tập trung trên một tập con* A *của* T *nếu* T − A *là không đáng kể theo* $\mu$ *ở địa phương*.
 
 #### Nhận xét {#int-ix-s1-n4-rem-1 .statement}
 
@@ -314,9 +314,9 @@ Nhiều kết quả trong các tiểu mục sau có thể được mở rộng c
 
 #### Ví dụ {#int-ix-s1-n4-exa-1 .statement}
 
-— Cho L là một tập con compact của T, $\lambda$ là một độ đo trên L, và $\mu$ là độ đo trên T được xác định bởi $\lambda$ (No. 3, *Ví dụ* 2). Công thức (3) suy ra ngay rằng một hàm $f \in \mathcal{F}_+(T)$ là không đáng kể địa phương đối với $\mu$ nếu và chỉ nếu $f_L$ là không đáng kể đối với $\lambda$.
+— Cho L là một tập con compact của T, $\lambda$ là một độ đo trên L, và $\mu$ là độ đo trên T được xác định bởi $\lambda$ (No. 3, *Ví dụ* 2). Công thức (3) suy ra ngay rằng một hàm $f \in \mathscr{F}_+(T)$ là không đáng kể địa phương đối với $\mu$ nếu và chỉ nếu $f_L$ là không đáng kể đối với $\lambda$.
 
-Suy ra ngay từ công thức (1) rằng một hàm $f \in \mathcal{F}_+(T)$ là không đáng kể địa phương đối với $\mu$ nếu và chỉ nếu $f_K$ là không đáng kể đối với $\mu_K$ với mọi tập con compact K của T. Do đó các tính chất của các tập hợp không đáng kể địa phương quy về ngay các tính chất của các tập không đáng kể trong các không gian compact, đã được xét trong Ch. IV. Sau đây là một số kết quả sẽ được dùng từ nay về sau mà không nhắc lại.
+Suy ra ngay từ công thức (1) rằng một hàm $f \in \mathscr{F}_+(T)$ là không đáng kể địa phương đối với $\mu$ nếu và chỉ nếu $f_K$ là không đáng kể đối với $\mu_K$ với mọi tập con compact K của T. Do đó các tính chất của các tập hợp không đáng kể địa phương quy về ngay các tính chất của các tập không đáng kể trong các không gian compact, đã được xét trong Ch. IV. Sau đây là một số kết quả sẽ được dùng từ nay về sau mà không nhắc lại.
 
 — Để một hàm $f \geqslant 0$ là không đáng kể địa phương, điều kiện cần và đủ là $f(t) = 0$ hầu khắp nơi địa phương (Ch. IV, §2, No. 3, Th. 1). Nếu $f$ là một hàm nhận giá trị trong một không gian Banach, thì do đó tương đương khi nói rằng $f = 0$ hầu khắp nơi địa phương hay rằng $\mu^*(|f|) = 0$; trong trường hợp này ta lại nói rằng $f$ là không đáng kể địa phương.
 
@@ -436,7 +436,7 @@ Nếu $\mu$ là một số đo phức, giá của $\mu$ được định nghĩa 
 
 #### Nhận xét 2 {#int-ix-s1-n6-rem-2 .statement}
 
-Hãy chứng minh rằng các số đo được đưa vào trong *Ví dụ 2* của No. 3 là các số đo có giá compact trong $T$. Cho $\mu$ là một số đo dương trên $T$ có giá là một tập compact $K$, và cho $\nu$ là số đo được xác định bởi $\mu_K$ (theo nghĩa của No. 3). Cho $f \in \mathcal{F}_+(T)$; khi đó
+Hãy chứng minh rằng các số đo được đưa vào trong *Ví dụ 2* của No. 3 là các số đo có giá compact trong $T$. Cho $\mu$ là một số đo dương trên $T$ có giá là một tập compact $K$, và cho $\nu$ là số đo được xác định bởi $\mu_K$ (theo nghĩa của No. 3). Cho $f \in \mathscr{F}_+(T)$; khi đó
 
 $$
 \nu^\bullet(f) = \mu_K^\bullet(f_K) \quad \text{(No. 3, công thức (3))}.
@@ -454,25 +454,25 @@ do đó $\mu^\bullet = \nu^\bullet$, và cuối cùng $\mu = \nu$. Ngược lạ
 
 #### Mệnh đề 6 {#int-ix-s1-prop-6 .statement}
 
-— *Cho $(\lambda_\alpha)_{\alpha \in A}$ là một họ tăng có hướng các độ đo trên $T$, và đặt $p = \sup_\alpha \lambda_\alpha^\bullet$. Để họ $(\lambda_\alpha)$ bị chặn trên trong $\mathcal{M}(T)$, điều kiện cần và đủ là bao $p$ địa phương bị chặn. Khi đó họ $(\lambda_\alpha)$ có một cận trên đúng $\lambda$ trong $\mathcal{M}(T)$, và $\lambda^\bullet = p$. Với mọi tập compact $K$, độ đo $\lambda_K$ là cận trên đúng của các độ đo $(\lambda_\alpha)_K$ trong $\mathcal{M}(K)$*.
+— *Cho $(\lambda_\alpha)_{\alpha \in A}$ là một họ tăng có hướng các độ đo trên $T$, và đặt $p = \sup_\alpha \lambda_\alpha^\bullet$. Để họ $(\lambda_\alpha)$ bị chặn trên trong $\mathscr{M}(T)$, điều kiện cần và đủ là bao $p$ địa phương bị chặn. Khi đó họ $(\lambda_\alpha)$ có một cận trên đúng $\lambda$ trong $\mathscr{M}(T)$, và $\lambda^\bullet = p$. Với mọi tập compact $K$, độ đo $\lambda_K$ là cận trên đúng của các độ đo $(\lambda_\alpha)_K$ trong $\mathscr{M}(K)$*.
 
-Nếu họ $(\lambda_\alpha)$ bị chặn trên trong $\mathcal{M}(T)$, thì $p$ hiển nhiên địa phương bị chặn. Ngược lại, giả sử $p$ địa phương bị chặn, và hãy chứng minh rằng nó thỏa mãn các điều kiện 1) và 2) của Mệnh đề 2 b) của No. 2. Đối với 2), điều này suy ra từ các đẳng thức sau:
+Nếu họ $(\lambda_\alpha)$ bị chặn trên trong $\mathscr{M}(T)$, thì $p$ hiển nhiên địa phương bị chặn. Ngược lại, giả sử $p$ địa phương bị chặn, và hãy chứng minh rằng nó thỏa mãn các điều kiện 1) và 2) của Mệnh đề 2 b) của No. 2. Đối với 2), điều này suy ra từ các đẳng thức sau:
 
 $$
 p(f) = \sup_\alpha \lambda_\alpha^\bullet(f) = \sup_\alpha \sup_K \lambda_\alpha^\bullet(f \varphi_K) = \sup_K \sup_\alpha \lambda_\alpha^\bullet(f \varphi_K) = \sup_K p(f \varphi_K).
 $$
 
-Mặt khác, cho K là một tập compact; bao $p_K$ bằng với bao trên của các bao $(\lambda_\alpha^\bullet)_K$ và nó bị chặn vì $p$ địa phương bị chặn. Do đó các độ đo $(\lambda_\alpha)_K$ có một cận trên đúng $\lambda_K$ trong $\mathcal{M}(K)$, và $\lambda_K^\bullet = p_K$ (Ch. V, §1, No. 4, Mệnh đề 11). Vì vậy điều kiện 1) của Mệnh đề 2 b) của No. 2 được thỏa mãn, do đó tồn tại một độ đo $\lambda$ trên T sao cho $\lambda^\bullet = p$; rõ ràng $\lambda$ là cận trên đúng của các độ đo $\lambda_\alpha$.
+Mặt khác, cho K là một tập compact; bao $p_K$ bằng với bao trên của các bao $(\lambda_\alpha^\bullet)_K$ và nó bị chặn vì $p$ địa phương bị chặn. Do đó các độ đo $(\lambda_\alpha)_K$ có một cận trên đúng $\lambda_K$ trong $\mathscr{M}(K)$, và $\lambda_K^\bullet = p_K$ (Ch. V, §1, No. 4, Mệnh đề 11). Vì vậy điều kiện 1) của Mệnh đề 2 b) của No. 2 được thỏa mãn, do đó tồn tại một độ đo $\lambda$ trên T sao cho $\lambda^\bullet = p$; rõ ràng $\lambda$ là cận trên đúng của các độ đo $\lambda_\alpha$.
 
 #### Định nghĩa 9 {#int-ix-s1-def-9 .statement}
 
-*Cho $(\mu_i)_{i \in I}$ là một họ các độ đo trên T. Cho A là tập các tập con hữu hạn của I; với mọi $\alpha \in A$ đặt $\lambda_\alpha = \sum_{i \in \alpha} \mu_i$. Nếu họ $(\lambda_\alpha)$ có một cận trên đúng $\mu$ trong $\mathcal{M}(T)$, thì họ $(\mu_i)$ được gọi là cộng được, $\mu$ được gọi là tổng của họ $(\mu_i)$, và ta viết $\mu = \sum_{i \in I} \mu_i$.*
+*Cho $(\mu_i)_{i \in I}$ là một họ các độ đo trên T. Cho A là tập các tập con hữu hạn của I; với mọi $\alpha \in A$ đặt $\lambda_\alpha = \sum_{i \in \alpha} \mu_i$. Nếu họ $(\lambda_\alpha)$ có một cận trên đúng $\mu$ trong $\mathscr{M}(T)$, thì họ $(\mu_i)$ được gọi là cộng được, $\mu$ được gọi là tổng của họ $(\mu_i)$, và ta viết $\mu = \sum_{i \in I} \mu_i$.*
 
 Định nghĩa này mở rộng định nghĩa ở Ch. V, §2, No. 1.
 
 #### Mệnh đề 7 {#int-ix-s1-prop-7 .statement}
 
-*Để họ $(\mu_i)_{i \in I}$ cộng được, với tổng $\mu$, điều kiện cần và đủ là bao $p = \sum_{i \in I} \mu_i^\bullet$ địa phương bị chặn, trong trường hợp đó $p = \mu^\bullet$. Với mọi tập con compact K của T, họ $((\mu_i)_K)_{i \in I}$ khi đó cộng được trong $\mathcal{M}(K)$, và $\mu_K = \sum_{i \in I} (\mu_i)_K$.*
+*Để họ $(\mu_i)_{i \in I}$ cộng được, với tổng $\mu$, điều kiện cần và đủ là bao $p = \sum_{i \in I} \mu_i^\bullet$ địa phương bị chặn, trong trường hợp đó $p = \mu^\bullet$. Với mọi tập con compact K của T, họ $((\mu_i)_K)_{i \in I}$ khi đó cộng được trong $\mathscr{M}(K)$, và $\mu_K = \sum_{i \in I} (\mu_i)_K$.*
 
 Với các ký hiệu như ở ĐN. 9, $\lambda_\alpha^\bullet = \sum_{i \in \alpha} \mu_i^\bullet$ với mọi tập con hữu hạn $\alpha$ của I (No. 2, *Nhận xét* 1). Mệnh đề này là hệ quả ngay lập tức của Mệnh đề 6.
 
@@ -491,7 +491,7 @@ Quan hệ $\mu_K = \sum_{i \in I} (\mu_i)_K$ và Mệnh đề 2 của Ch. V, §2
 #### Mệnh đề 9 {#int-ix-s1-prop-9 .statement}
 
 *a) Tồn tại một phân hoạch $(K_\alpha)_{\alpha \in A}$ của T đối với $\mu$.
-b) Cho $(K_\alpha)_{\alpha \in A}$ là một phân hoạch của T đối với $\mu$. Nếu $\mu_\alpha$ là độ đo trên T được xác định bởi $\mu_{K_\alpha}$ (No. 3, Ví dụ 2), thì họ $(\mu_\alpha)_{\alpha \in A}$ là có thể cộng được,* tổng của nó bằng $\mu$, và, với mọi hàm $f \in \mathcal{F}_+(T)$,
+b) Cho $(K_\alpha)_{\alpha \in A}$ là một phân hoạch của T đối với $\mu$. Nếu $\mu_\alpha$ là độ đo trên T được xác định bởi $\mu_{K_\alpha}$ (No. 3, Ví dụ 2), thì họ $(\mu_\alpha)_{\alpha \in A}$ là có thể cộng được,* tổng của nó bằng $\mu$, và, với mọi hàm $f \in \mathscr{F}_+(T)$,
 
 $$
 \mu^\bullet(f) = \sum_{\alpha \in A} \mu_\alpha^\bullet(f) = \sum_{\alpha \in A} \mu_{K_\alpha}^\bullet(f_{K_\alpha}) . \tag{1}
@@ -501,7 +501,7 @@ $$
 
 A) *Sự tồn tại của một phân hoạch*:
 
-Chứng minh là lặp lại chứng minh của Mệnh đề 14 của Ch. IV, §5, No. 9, với một vài sửa đổi nhỏ. Cho $\mathcal{K}$ là tập hợp các tập con compact $K$ của $T$ sao cho $\mathrm{Supp}(\mu_K) = K$, và cho $\mathcal{H}$ là tập hợp (được sắp thứ tự bởi bao hàm) các tập con $\mathcal{L}$ của $\mathcal{K}$ gồm các tập rời nhau từng đôi một. Trước hết, hãy chứng minh rằng mọi phần tử $\mathcal{L}$ của $\mathcal{H}$ đều là *địa phương đếm được*. Cho $x$ là một điểm của $T$, và $V$ là một lân cận mở của $x$ sao cho $\mu^\bullet(V) < +\infty$; cho $\mathcal{L}_V$ là tập hợp các $K \in \mathcal{L}$ cắt $V$. Nếu $(K_i)_{1 \leq i \leq n}$ là một dãy hữu hạn gồm các phần tử phân biệt của $\mathcal{L}_V$, ta có, theo Hệ quả của Mệnh đề 4,
+Chứng minh là lặp lại chứng minh của Mệnh đề 14 của Ch. IV, §5, No. 9, với một vài sửa đổi nhỏ. Cho $\mathscr{K}$ là tập hợp các tập con compact $K$ của $T$ sao cho $\mathrm{Supp}(\mu_K) = K$, và cho $\mathscr{H}$ là tập hợp (được sắp thứ tự bởi bao hàm) các tập con $\mathscr{L}$ của $\mathscr{K}$ gồm các tập rời nhau từng đôi một. Trước hết, hãy chứng minh rằng mọi phần tử $\mathscr{L}$ của $\mathscr{H}$ đều là *địa phương đếm được*. Cho $x$ là một điểm của $T$, và $V$ là một lân cận mở của $x$ sao cho $\mu^\bullet(V) < +\infty$; cho $\mathscr{L}_V$ là tập hợp các $K \in \mathscr{L}$ cắt $V$. Nếu $(K_i)_{1 \leq i \leq n}$ là một dãy hữu hạn gồm các phần tử phân biệt của $\mathscr{L}_V$, ta có, theo Hệ quả của Mệnh đề 4,
 
 $$
 \sum_{i=1}^n \mu^\bullet(K_i \cap V) = \mu^\bullet\left(V \cap \left( \bigcup_{i=1}^n K_i \right) \right) \leq \mu^\bullet(V),
@@ -510,10 +510,10 @@ $$
 vì các $K_i$ rời nhau từng đôi một. Do đó,
 
 $$
-\sum_{K \in \mathcal{L}_V} \mu^\bullet(K \cap V) < +\infty.
+\sum_{K \in \mathscr{L}_V} \mu^\bullet(K \cap V) < +\infty.
 $$
 
-$\mu^\bullet(K \cap V) = \mu_K^\bullet(K \cap V) > 0$ với mọi $K \in \mathcal{L}_V$, vì $K \cap V$ là khác rỗng, mở trong $K$, và giá đỡ của $\mu_K$ là toàn bộ $K$; do đó $\mathcal{L}_V$ là đếm được, và quả thật $\mathcal{L}$ là địa phương đếm được. Rõ ràng $\mathcal{H}$ là quy nạp, và không rỗng (ta có $\varnothing \in \mathcal{H}$). Vì thế, hãy để $\mathfrak{H}$ là một phần tử cực đại của $\mathcal{H}$. Ta sẽ chứng minh rằng tập $N = T - \bigcup_{K \in \mathfrak{H}} K$ là địa phương không đáng kể. Theo Mệnh đề 2, chỉ cần kiểm tra rằng $\mu^\bullet(N \cap L) = 0$ với mọi tập compact $L$, hay cũng có thể nói rằng $\mu_L^\bullet(N \cap L) = 0$. Ta sẽ lập luận bằng phản chứng. Vì thế, giả sử rằng $\mu_L^\bullet(N \cap L) > 0$. Vì tập các $K \in \mathfrak{H}$ cắt $L$ là đếm được, $N \cap L$ là $\mu_L$-khả đo; do đó tồn tại một tập compact $J$ được chứa trong $N \cap L$ sao cho $\mu_L^\bullet(J) > 0$. Hãy để $S$ là giá đỡ của độ đo khác không $(\mu_L)_J = \mu_J$; nó được chứa trong $N$, độ đo $\mu_S$ là khác không, và $\mathrm{Supp}(\mu_S) = S$ (Ch. IV, §5, No. 7, Bổ đề 2). Tập $\mathfrak{H} \cup \{S\}$ do đó thuộc $\mathcal{H}$, mâu thuẫn với tính cực đại của $\mathfrak{H}$. Điều này chứng minh sự tồn tại của một phép nén.
+$\mu^\bullet(K \cap V) = \mu_K^\bullet(K \cap V) > 0$ với mọi $K \in \mathscr{L}_V$, vì $K \cap V$ là khác rỗng, mở trong $K$, và giá đỡ của $\mu_K$ là toàn bộ $K$; do đó $\mathscr{L}_V$ là đếm được, và quả thật $\mathscr{L}$ là địa phương đếm được. Rõ ràng $\mathscr{H}$ là quy nạp, và không rỗng (ta có $\varnothing \in \mathscr{H}$). Vì thế, hãy để $\mathfrak{H}$ là một phần tử cực đại của $\mathscr{H}$. Ta sẽ chứng minh rằng tập $N = T - \bigcup_{K \in \mathfrak{H}} K$ là địa phương không đáng kể. Theo Mệnh đề 2, chỉ cần kiểm tra rằng $\mu^\bullet(N \cap L) = 0$ với mọi tập compact $L$, hay cũng có thể nói rằng $\mu_L^\bullet(N \cap L) = 0$. Ta sẽ lập luận bằng phản chứng. Vì thế, giả sử rằng $\mu_L^\bullet(N \cap L) > 0$. Vì tập các $K \in \mathfrak{H}$ cắt $L$ là đếm được, $N \cap L$ là $\mu_L$-khả đo; do đó tồn tại một tập compact $J$ được chứa trong $N \cap L$ sao cho $\mu_L^\bullet(J) > 0$. Hãy để $S$ là giá đỡ của độ đo khác không $(\mu_L)_J = \mu_J$; nó được chứa trong $N$, độ đo $\mu_S$ là khác không, và $\mathrm{Supp}(\mu_S) = S$ (Ch. IV, §5, No. 7, Bổ đề 2). Tập $\mathfrak{H} \cup \{S\}$ do đó thuộc $\mathscr{H}$, mâu thuẫn với tính cực đại của $\mathfrak{H}$. Điều này chứng minh sự tồn tại của một phép nén.
 
 (1) Sau này ta sẽ thấy (§2, No. 2) rằng $\mu_\alpha$ là độ đo $\varphi_{K_\alpha} \cdot \mu$.
 
@@ -522,7 +522,7 @@ Với mọi $\alpha \in A$, $\mu_\alpha^\bullet(f) = \mu_{K_\alpha}^\bullet(f_{K
 $$
 \mu_K^\bullet = \sum_{\alpha \in A} (\mu_\alpha)_K^\bullet
 $$
-với mọi tập con compact K của T. Bây giờ, K đã cố định, tập $A'$ gồm các $\alpha \in A$ sao cho $K_\alpha$ cắt K là đếm được. Hãy lấy $g \in \mathcal{F}_+(K)$; khi đó $g^0 = g^0 \varphi_N + \sum_{\alpha \in A} g^0 \varphi_{K_\alpha}$, và $g^0 \varphi_{K_\alpha} = 0$ với $\alpha \in A - A'$; theo Mệnh đề 4 của No. 5, suy ra $\mu^\bullet(g^0) = \sum_{\alpha \in A} \mu^\bullet(g^0 \varphi_{K_\alpha})$, do đó
+với mọi tập con compact K của T. Bây giờ, K đã cố định, tập $A'$ gồm các $\alpha \in A$ sao cho $K_\alpha$ cắt K là đếm được. Hãy lấy $g \in \mathscr{F}_+(K)$; khi đó $g^0 = g^0 \varphi_N + \sum_{\alpha \in A} g^0 \varphi_{K_\alpha}$, và $g^0 \varphi_{K_\alpha} = 0$ với $\alpha \in A - A'$; theo Mệnh đề 4 của No. 5, suy ra $\mu^\bullet(g^0) = \sum_{\alpha \in A} \mu^\bullet(g^0 \varphi_{K_\alpha})$, do đó
 $$
 \mu_K^\bullet(g) = \mu^\bullet(g^0) = \sum_{\alpha \in A} \mu^\bullet(g^0 \varphi_{K_\alpha}) = \sum_{\alpha \in A} \mu_\alpha^\bullet(g^0) = \sum_{\alpha \in A} (\mu_\alpha)_K^\bullet(g);
 $$
@@ -557,7 +557,7 @@ Cho $f$ là hàm đặc trưng của $X$, và cho $(K_\alpha)_{\alpha \in A}$ l�
 
 #### Định nghĩa 11 {#int-ix-s1-def-11 .statement}
 
-*Với mọi hàm $f \in \mathcal{F}_+(T)$, người ta định nghĩa tích phân trên của $f$ (đối với độ đo $\mu$) là số dương hữu hạn hoặc vô hạn*
+*Với mọi hàm $f \in \mathscr{F}_+(T)$, người ta định nghĩa tích phân trên của $f$ (đối với độ đo $\mu$) là số dương hữu hạn hoặc vô hạn*
 
 $$
 \mu^*(f) = \inf_g \mu^\bullet(g),
@@ -603,20 +603,20 @@ Tuy nhiên, hãy lưu ý rằng sự tồn tại của một dãy các tập Bor
 
 #### Mệnh đề 14 {#int-ix-s1-prop-14 .statement}
 
-Cho $f \in \mathcal{F}_+(T)$. Nếu $f$ là $\mu$-điều độ, thì $\mu^*(f) = \mu^\bullet(f)$; nếu $f$ không $\mu$-điều độ, thì $\mu^*(f) = +\infty$.
+Cho $f \in \mathscr{F}_+(T)$. Nếu $f$ là $\mu$-điều độ, thì $\mu^*(f) = \mu^\bullet(f)$; nếu $f$ không $\mu$-điều độ, thì $\mu^*(f) = +\infty$.
 
 Nếu $\mu^*(f) < +\infty$, tồn tại một hàm nửa liên tục dưới $g \geq f$ sao cho $\mu^\bullet(g) < +\infty$. Với mọi $n \in \mathbf{N}$, đặt $G_n$ là tập các $t \in T$ sao cho $g(t) > 1/n$; tập $G_n$ là mở, ta có $\mu^\bullet(G_n) \leq n \mu^\bullet(g) < +\infty$, và $f$ bằng không ở ngoài hợp của các $G_n$: do đó hàm $f$ là điều độ.
 
 Tiếp theo, hãy chứng minh rằng $\mu^*$ và $\mu^\bullet$ có cùng giá trị đối với các hàm điều độ. Vì $\mu^*$ và $\mu^\bullet$ là các bao trùm, nên chỉ cần thiết lập quan hệ $\mu^*(f) = \mu^\bullet(f)$ khi $f$ là một hàm dương, bị chặn trên bởi một hằng số M, và bằng không ở ngoài một tập mở G có độ đo hữu hạn, điều mà ta sẽ làm ngay bây giờ.
 
-Độ đo $\mu$ là cận trên đúng, trong $\mathcal{M}(T)$, của một họ tăng có hướng $(\mu_i)_{i \in I}$ các độ đo có giá compact: điều này suy ra ngay từ Mệnh đề 9 của No. 8. Cho $g$ là một hàm nửa liên tục dưới trên T, nằm giữa $f$ và hàm nửa liên tục dưới $M \varphi_G$. Đặt $\nu_i = \mu - \mu_i$; khi đó $\mu^\bullet = \mu_i^\bullet + \nu_i^\bullet$ (No. 2, Nhận xét 1), do đó
+Độ đo $\mu$ là cận trên đúng, trong $\mathscr{M}(T)$, của một họ tăng có hướng $(\mu_i)_{i \in I}$ các độ đo có giá compact: điều này suy ra ngay từ Mệnh đề 9 của No. 8. Cho $g$ là một hàm nửa liên tục dưới trên T, nằm giữa $f$ và hàm nửa liên tục dưới $M \varphi_G$. Đặt $\nu_i = \mu - \mu_i$; khi đó $\mu^\bullet = \mu_i^\bullet + \nu_i^\bullet$ (No. 2, Nhận xét 1), do đó
 $$
 \mu^\bullet(g) - \mu^\bullet(f) = (\mu_i^\bullet(g) - \mu_i^\bullet(f)) + (\nu_i^\bullet(g) - \nu_i^\bullet(f))
 $$
 $$
 \leq (\mu_i^\bullet(g) - \mu_i^\bullet(f)) + \nu_i^\bullet(M \varphi_G).
 $$
-Ta có $\nu_i^\bullet(M \varphi_G) = \mu^\bullet(M \varphi_G) - \mu_i^\bullet(M \varphi_G)$ và $\mu^\bullet(M \varphi_G) = \sup \mu_i^\bullet(M \varphi_G)$ (No. 7, Mệnh đề 6); vì thế số $\nu_i^\bullet(M \varphi_G)$ có thể được làm tùy ý nhỏ bằng cách chọn $i$ thích hợp. Vậy mọi việc quy về việc chứng minh rằng, với mọi số $c > 0$ và mọi chỉ số $i \in I$, ta có thể tìm được một hàm nửa liên tục dưới $g$ nằm giữa $f$ và $M \varphi_G$, sao cho $\mu_i^\bullet(g) - \mu_i^\bullet(f) \leq c$. Bây giờ, cho L là giá compact của độ đo $\mu_i$, và cho $\lambda$ là độ đo $(\mu_i)_L$; vì $\mu_i$ tập trung trên L, ta có $\mu_i^\bullet(h) = \mu_i^\bullet(h \varphi_L) = \lambda^\bullet(h_L)$ đối với mọi hàm $h \in \mathcal{F}_+(T)$ (No. 1, Bổ đề 1 và No. 2, Mệnh đề 2); do đó
+Ta có $\nu_i^\bullet(M \varphi_G) = \mu^\bullet(M \varphi_G) - \mu_i^\bullet(M \varphi_G)$ và $\mu^\bullet(M \varphi_G) = \sup \mu_i^\bullet(M \varphi_G)$ (No. 7, Mệnh đề 6); vì thế số $\nu_i^\bullet(M \varphi_G)$ có thể được làm tùy ý nhỏ bằng cách chọn $i$ thích hợp. Vậy mọi việc quy về việc chứng minh rằng, với mọi số $c > 0$ và mọi chỉ số $i \in I$, ta có thể tìm được một hàm nửa liên tục dưới $g$ nằm giữa $f$ và $M \varphi_G$, sao cho $\mu_i^\bullet(g) - \mu_i^\bullet(f) \leq c$. Bây giờ, cho L là giá compact của độ đo $\mu_i$, và cho $\lambda$ là độ đo $(\mu_i)_L$; vì $\mu_i$ tập trung trên L, ta có $\mu_i^\bullet(h) = \mu_i^\bullet(h \varphi_L) = \lambda^\bullet(h_L)$ đối với mọi hàm $h \in \mathscr{F}_+(T)$ (No. 1, Bổ đề 1 và No. 2, Mệnh đề 2); do đó
 $$
 \mu_i^\bullet(g) - \mu_i^\bullet(f) = \lambda^\bullet(g_L) - \lambda^\bullet(f_L).
 $$
@@ -655,7 +655,7 @@ Vì, đẳng thức $\mu^* = \nu^*$ suy ra rằng $\mu^*(f) = \nu^*(f)$ đối v
 
 *Nếu $\mu$ là một độ đo được điều hòa trên T, thì tồn tại một dãy $(\mu_n)_{n \in \mathbf{N}}$ các độ đo có giá đỡ compact sao cho $\mu = \sum_{n \in \mathbf{N}} \mu_n$.*
 
-Theo giả thiết, hàm hằng 1 là $\mu$-điều hòa. Hãy áp dụng Hệ quả 3 cho trường hợp $f = 1$; do đó, tồn tại một dãy $(K_n)_{n \in \mathbf{N}}$ các tập con compact từng đôi một rời nhau của T sao cho $1 = \sum_{n \in \mathbf{N}} \varphi_{K_n}$ $\mu$-hầu khắp mọi nơi. Gọi $\mu_n$ là độ đo trên T được xác định bởi độ đo $\mu_{K_n}$ trên $K_n$ (No. 3, Ví dụ 2). Ta biết (No. 6, Nhận xét 2) rằng $\mu_n$ có giá đỡ compact, và rằng $\mu_n^\bullet(f) = \mu^\bullet(f \varphi_{K_n})$ với $f \in \mathcal{F}_+(T)$. Bây giờ, $f$ bằng $\sum_{n \in \mathbf{N}} f \varphi_{K_n}$ $\mu$-hầu khắp mọi nơi, do đó
+Theo giả thiết, hàm hằng 1 là $\mu$-điều hòa. Hãy áp dụng Hệ quả 3 cho trường hợp $f = 1$; do đó, tồn tại một dãy $(K_n)_{n \in \mathbf{N}}$ các tập con compact từng đôi một rời nhau của T sao cho $1 = \sum_{n \in \mathbf{N}} \varphi_{K_n}$ $\mu$-hầu khắp mọi nơi. Gọi $\mu_n$ là độ đo trên T được xác định bởi độ đo $\mu_{K_n}$ trên $K_n$ (No. 3, Ví dụ 2). Ta biết (No. 6, Nhận xét 2) rằng $\mu_n$ có giá đỡ compact, và rằng $\mu_n^\bullet(f) = \mu^\bullet(f \varphi_{K_n})$ với $f \in \mathscr{F}_+(T)$. Bây giờ, $f$ bằng $\sum_{n \in \mathbf{N}} f \varphi_{K_n}$ $\mu$-hầu khắp mọi nơi, do đó
 
 $$
 \mu^\bullet(f) = \sum_{n \in \mathbf{N}} \mu^\bullet(f \varphi_{K_n}) = \sum_{n \in \mathbf{N}} \mu_n^\bullet(f).
@@ -667,27 +667,27 @@ Suy ra $\mu = \sum_{n \in \mathbf{N}} \mu_n$ (No. 7, Mệnh đề 7).
 
 #### Định nghĩa 13 {#int-ix-s1-def-13 .statement}
 
-— *Cho* $p \in [1, +\infty[$; *người ta ký hiệu bởi* $\overline{\mathcal{L}}^p(T, \mu)$ *(tương ứng* $\overline{\mathcal{L}}_F^p(T, \mu)$ *nếu F là một không gian Banach) tập hợp các ánh xạ* $\mathbf{f}$ *từ T vào* $\overline{\mathbf{R}}$ *(tương ứng vào F) sao cho chúng đo được theo $\mu$ và thỏa mãn* $\mu^\bullet(|\mathbf{f}|^p) < +\infty$. *Người ta ký hiệu bởi* $\mathcal{L}^p(T, \mu)$ *(tương ứng* $\mathcal{L}_F^p(T, \mu)$*) tập hợp các phần tử được điều hòa theo $\mu$ của* $\overline{\mathcal{L}}^p(T, \mu)$ *(tương ứng* $\overline{\mathcal{L}}_F^p(T, \mu)$*).*
+— *Cho* $p \in [1, +\infty[$; *người ta ký hiệu bởi* $\overline{\mathscr{L}}^p(T, \mu)$ *(tương ứng* $\overline{\mathscr{L}}_F^p(T, \mu)$ *nếu F là một không gian Banach) tập hợp các ánh xạ* $\mathbf{f}$ *từ T vào* $\overline{\mathbf{R}}$ *(tương ứng vào F) sao cho chúng đo được theo $\mu$ và thỏa mãn* $\mu^\bullet(|\mathbf{f}|^p) < +\infty$. *Người ta ký hiệu bởi* $\mathscr{L}^p(T, \mu)$ *(tương ứng* $\mathscr{L}_F^p(T, \mu)$*) tập hợp các phần tử được điều hòa theo $\mu$ của* $\overline{\mathscr{L}}^p(T, \mu)$ *(tương ứng* $\overline{\mathscr{L}}_F^p(T, \mu)$*).*
 
-Ta sẽ viết $\overline{N}_p(\mathbf{f}) = \left( \mu^\bullet(|\mathbf{f}|^p) \right)^{1/p}$, $N_p(\mathbf{f}) = \left( \mu^*(|\mathbf{f}|^p) \right)^{1/p}$. Ta ký hiệu $\overline{N}_\infty(\mathbf{f})$ là cận dưới đúng của các số $k \geq 0$ sao cho $|\mathbf{f}| \leq k$ cục bộ $\mu$-hầu khắp mọi nơi; nếu $\overline{N}_\infty(\mathbf{f}) < +\infty$, thì $\mathbf{f}$ được gọi là hầu như bị chặn. Tập hợp các ánh xạ đo được và hầu như bị chặn từ T vào $\overline{\mathbf{R}}$ (tương ứng vào F) được ký hiệu là $\overline{\mathcal{L}}^\infty(T, \mu)$ (tương ứng $\overline{\mathcal{L}}_F^\infty(T, \mu)$). Các phần tử của $\overline{\mathcal{L}}_F^1(T, \mu)$ (tương ứng $\mathcal{L}_F^1(T, \mu)$) được gọi là các hàm khả tích theo nghĩa rộng (tương ứng các hàm khả tích) với giá trị trong F.
+Ta sẽ viết $\overline{N}_p(\mathbf{f}) = \left( \mu^\bullet(|\mathbf{f}|^p) \right)^{1/p}$, $N_p(\mathbf{f}) = \left( \mu^*(|\mathbf{f}|^p) \right)^{1/p}$. Ta ký hiệu $\overline{N}_\infty(\mathbf{f})$ là cận dưới đúng của các số $k \geq 0$ sao cho $|\mathbf{f}| \leq k$ cục bộ $\mu$-hầu khắp mọi nơi; nếu $\overline{N}_\infty(\mathbf{f}) < +\infty$, thì $\mathbf{f}$ được gọi là hầu như bị chặn. Tập hợp các ánh xạ đo được và hầu như bị chặn từ T vào $\overline{\mathbf{R}}$ (tương ứng vào F) được ký hiệu là $\overline{\mathscr{L}}^\infty(T, \mu)$ (tương ứng $\overline{\mathscr{L}}_F^\infty(T, \mu)$). Các phần tử của $\overline{\mathscr{L}}_F^1(T, \mu)$ (tương ứng $\mathscr{L}_F^1(T, \mu)$) được gọi là các hàm khả tích theo nghĩa rộng (tương ứng các hàm khả tích) với giá trị trong F.
 
 Nếu $\mu$ là một độ đo phức, ta đặt
 
 $$
-\overline{\mathcal{L}}_F^p(T, \mu) = \overline{\mathcal{L}}_F^p(T, |\mu|) \quad \text{và} \quad \mathcal{L}_F^p(T, \mu) = \mathcal{L}_F^p(T, |\mu|).
+\overline{\mathscr{L}}_F^p(T, \mu) = \overline{\mathscr{L}}_F^p(T, |\mu|) \quad \text{và} \quad \mathscr{L}_F^p(T, \mu) = \mathscr{L}_F^p(T, |\mu|).
 $$
 
-Các ký hiệu trên thường được viết tắt thành $\overline{\mathcal{L}}_F^p(\mu)$, $\overline{\mathcal{L}}_F^p$ hoặc $\mathcal{L}^p(\mu)$, $\mathcal{L}^p$, nếu điều đó không dẫn đến nhầm lẫn.
+Các ký hiệu trên thường được viết tắt thành $\overline{\mathscr{L}}_F^p(\mu)$, $\overline{\mathscr{L}}_F^p$ hoặc $\mathscr{L}^p(\mu)$, $\mathscr{L}^p$, nếu điều đó không dẫn đến nhầm lẫn.
 
-Chúng ta đã thấy ở No. 8 (*Chú giải*) rằng có thể xây dựng một không gian địa phương compact T', có cùng tập nền với T và một tôpô mịn hơn tôpô của T, rồi trang bị cho T' một độ đo $\mu'$ sao cho các hàm đo được theo $\mu$ và các hàm đo được theo $\mu'$ là như nhau, và sao cho các nguyên trên cốt yếu của các hàm dương đối với $\mu$ và $\mu'$ bằng nhau. Suy ra rằng các tập $\overline{\mathcal{L}}_F^p(\mu)$ và $\overline{\mathcal{L}}_F^p(\mu')$ là đồng nhất với nhau đối với $1 \leq p \leq +\infty$ $^{(1)}$. Điều này cũng suy ra ngay không cần chứng minh mới rằng $\overline{\mathcal{L}}_F^p$ là một không gian vectơ, và hàm $\overline{N}_p$ là một bán chuẩn trên $\overline{\mathcal{L}}_F^p(\mu)$, với bán chuẩn đó không gian này đầy đủ.
+Chúng ta đã thấy ở No. 8 (*Chú giải*) rằng có thể xây dựng một không gian địa phương compact T', có cùng tập nền với T và một tôpô mịn hơn tôpô của T, rồi trang bị cho T' một độ đo $\mu'$ sao cho các hàm đo được theo $\mu$ và các hàm đo được theo $\mu'$ là như nhau, và sao cho các nguyên trên cốt yếu của các hàm dương đối với $\mu$ và $\mu'$ bằng nhau. Suy ra rằng các tập $\overline{\mathscr{L}}_F^p(\mu)$ và $\overline{\mathscr{L}}_F^p(\mu')$ là đồng nhất với nhau đối với $1 \leq p \leq +\infty$ $^{(1)}$. Điều này cũng suy ra ngay không cần chứng minh mới rằng $\overline{\mathscr{L}}_F^p$ là một không gian vectơ, và hàm $\overline{N}_p$ là một bán chuẩn trên $\overline{\mathscr{L}}_F^p(\mu)$, với bán chuẩn đó không gian này đầy đủ.
 
-Cho $\mathbf{f}$ là một phần tử của $\overline{\mathcal{L}}_F^p$ ($1 \leq p < +\infty$); vì ta có $\mu^\bullet(|\mathbf{f}|^p) = {\mu'}^\bullet(|\mathbf{f}|^p) < +\infty$, Mệnh đề 7 của Ch. V, §1, No. 2 suy ra rằng $\mathbf{f}$ bằng 0 ngoài
+Cho $\mathbf{f}$ là một phần tử của $\overline{\mathscr{L}}_F^p$ ($1 \leq p < +\infty$); vì ta có $\mu^\bullet(|\mathbf{f}|^p) = {\mu'}^\bullet(|\mathbf{f}|^p) < +\infty$, Mệnh đề 7 của Ch. V, §1, No. 2 suy ra rằng $\mathbf{f}$ bằng 0 ngoài
 
-(1) Chú ý rằng không gian $\mathcal{L}_F^p(\mu)$ được chứa trong $\mathcal{L}_F^p(\mu')$, nhưng nói chung khác với nó.
+(1) Chú ý rằng không gian $\mathscr{L}_F^p(\mu)$ được chứa trong $\mathscr{L}_F^p(\mu')$, nhưng nói chung khác với nó.
 
-hợp của một dãy các tập con compact của T' và một tập địa phương $\mu'$-không đáng kể; vì tập sau đó là địa phương $\mu$-không đáng kể, và mọi tập con compact của T' đều compact trong T, suy ra f địa phương bằng 0 hầu khắp nơi theo $\mu$ đối với một hàm $\mu$-điều độ. Ta ký hiệu $\overline{\mathcal{N}}_F$ (resp. $\mathcal{N}_F$) không gian các hàm địa phương $\mu$-không đáng kể (resp. $\mu$-không đáng kể); do đó ta có $\overline{\mathcal{L}}_F^p = \mathcal{L}_F^p + \overline{\mathcal{N}}_F$, và $\mathcal{N}_F = \mathcal{L}_F^p \cap \overline{\mathcal{N}}_F$ (No. 9, Hệ quả 1 của Mệnh đề 14). Vì vậy không gian $\overline{\mathcal{L}}_F^p / \overline{\mathcal{N}}_F$ có thể được đồng nhất một cách chính tắc với $\mathcal{L}_F^p / \mathcal{N}_F$, và ta kiểm tra ngay rằng sự đồng nhất này bảo toàn chuẩn; không gian thương này được ký hiệu là $L_F^p(\mu)$. Nó có thể được diễn giải như không gian có chuẩn liên kết với mỗi một trong các không gian bán chuẩn $\overline{\mathcal{L}}_F^p(\mu)$ và $\mathcal{L}_F^p(\mu)$; vì $\overline{\mathcal{L}}_F^p$ đầy đủ, điều tương tự đúng với $L_F^p$ và $\mathcal{L}_F^p$.
+hợp của một dãy các tập con compact của T' và một tập địa phương $\mu'$-không đáng kể; vì tập sau đó là địa phương $\mu$-không đáng kể, và mọi tập con compact của T' đều compact trong T, suy ra f địa phương bằng 0 hầu khắp nơi theo $\mu$ đối với một hàm $\mu$-điều độ. Ta ký hiệu $\overline{\mathscr{N}}_F$ (resp. $\mathscr{N}_F$) không gian các hàm địa phương $\mu$-không đáng kể (resp. $\mu$-không đáng kể); do đó ta có $\overline{\mathscr{L}}_F^p = \mathscr{L}_F^p + \overline{\mathscr{N}}_F$, và $\mathscr{N}_F = \mathscr{L}_F^p \cap \overline{\mathscr{N}}_F$ (No. 9, Hệ quả 1 của Mệnh đề 14). Vì vậy không gian $\overline{\mathscr{L}}_F^p / \overline{\mathscr{N}}_F$ có thể được đồng nhất một cách chính tắc với $\mathscr{L}_F^p / \mathscr{N}_F$, và ta kiểm tra ngay rằng sự đồng nhất này bảo toàn chuẩn; không gian thương này được ký hiệu là $L_F^p(\mu)$. Nó có thể được diễn giải như không gian có chuẩn liên kết với mỗi một trong các không gian bán chuẩn $\overline{\mathscr{L}}_F^p(\mu)$ và $\mathscr{L}_F^p(\mu)$; vì $\overline{\mathscr{L}}_F^p$ đầy đủ, điều tương tự đúng với $L_F^p$ và $\mathscr{L}_F^p$.
 
-Tập các hàm f nhận giá trị trong F, liên tục trên T' với giá đỡ compact, trù mật trong $\overline{\mathcal{L}}_F^p(\mu') = \overline{\mathcal{L}}_F^p(\mu)$ (Ch. IV, §3, No. 4, Định nghĩa 2). Ta xét lại các ký hiệu của Chú giải ở No. 8. Vì một tập con compact của T' chỉ cắt một số hữu hạn các tập compact $K_\alpha$, nên mọi hàm liên tục f trên T' với giá đỡ compact đều có thể được viết thành một tổng
+Tập các hàm f nhận giá trị trong F, liên tục trên T' với giá đỡ compact, trù mật trong $\overline{\mathscr{L}}_F^p(\mu') = \overline{\mathscr{L}}_F^p(\mu)$ (Ch. IV, §3, No. 4, Định nghĩa 2). Ta xét lại các ký hiệu của Chú giải ở No. 8. Vì một tập con compact của T' chỉ cắt một số hữu hạn các tập compact $K_\alpha$, nên mọi hàm liên tục f trên T' với giá đỡ compact đều có thể được viết thành một tổng
 $$
 f = \sum_{\alpha \in A} f_\alpha + g,
 $$
@@ -695,7 +695,7 @@ trong đó $f_\alpha$ là, với mọi $\alpha$, phần mở rộng bởi 0 củ
 
 #### Mệnh đề 15 {#int-ix-s1-prop-15 .statement}
 
-*Tập các hàm f nhận giá trị trong F, sao cho Supp(f) là compact và sao cho hạn chế của f lên Supp(f) là liên tục, trù mật trong $\overline{\mathcal{L}}_F^p(\mu)$ và trong $\mathcal{L}_F^p(\mu)$, với $1 \leq p < +\infty$.*
+*Tập các hàm f nhận giá trị trong F, sao cho Supp(f) là compact và sao cho hạn chế của f lên Supp(f) là liên tục, trù mật trong $\overline{\mathscr{L}}_F^p(\mu)$ và trong $\mathscr{L}_F^p(\mu)$, với $1 \leq p < +\infty$.*
 
 Chú ý rằng các hàm này *không phải là* các hàm liên tục *trên* T với giá đỡ compact.
 
@@ -703,16 +703,16 @@ Ta chuyển sang định nghĩa của nguyên.
 
 #### Mệnh đề 16 {#int-ix-s1-prop-16 .statement}
 
-*Tồn tại duy nhất một ánh xạ tuyến tính liên tục $f \mapsto \int f d\mu$, từ không gian $\overline{\mathcal{L}}_F^1(\mu)$ vào F, có tính chất sau:
+*Tồn tại duy nhất một ánh xạ tuyến tính liên tục $f \mapsto \int f d\mu$, từ không gian $\overline{\mathscr{L}}_F^1(\mu)$ vào F, có tính chất sau:
 Nếu f có dạng $t \mapsto g(t)a$, với $a \in F$, và g là một hàm dương, hữu hạn, $\mu$-đo được và thỏa mãn $\mu^*(g) < +\infty$, thì $\int f d\mu = \mu^*(g) \cdot a$.*
 
-Vì thế, các không gian nửa chuẩn $\overline{\mathcal{L}}_F^1(\mu)$ và $\overline{\mathcal{L}}_F^1(\mu')$ là trùng nhau. Vì $\mu^* = {\mu'}^*$, ánh xạ $f \mapsto \int f d\mu'$ thỏa mãn các điều kiện của mệnh đề. Mặt khác, tập hợp các hàm có dạng $f = g \cdot a$ được xét trong mệnh đề là *toàn phần* trong $\overline{\mathcal{L}}_F^1(\mu')$ (Ch. IV, §3, No. 5, Mệnh đề 10), do đó có tính duy nhất.
+Vì thế, các không gian nửa chuẩn $\overline{\mathscr{L}}_F^1(\mu)$ và $\overline{\mathscr{L}}_F^1(\mu')$ là trùng nhau. Vì $\mu^* = {\mu'}^*$, ánh xạ $f \mapsto \int f d\mu'$ thỏa mãn các điều kiện của mệnh đề. Mặt khác, tập hợp các hàm có dạng $f = g \cdot a$ được xét trong mệnh đề là *toàn phần* trong $\overline{\mathscr{L}}_F^1(\mu')$ (Ch. IV, §3, No. 5, Mệnh đề 10), do đó có tính duy nhất.
 
 Người ta nói rằng $\int f\, d\mu$ là nguyên của $f$ đối với $\mu$, và vectơ này cũng được ký hiệu là $\mu(f)$ hoặc $\int f(t)\, d\mu(t)$.
 
 Vì $\int f\, d\mu = \int f\, d\mu'$ với mọi hàm khả tích cốt yếu nhận giá trị trong $F$, toàn bộ lý thuyết về nguyên cốt yếu được mở rộng sang các độ đo trên các không gian Hausdorff, mà không cần chứng minh mới; từ đó, ta suy ra các kết quả liên quan đến nguyên thông thường bằng cách chỉ xét các hàm điều độ. Đặc biệt, ta trích dẫn các kết quả sau:
 
-— Định lý 3 của Ch. IV, §3, No. 4, phần mở rộng của nó sang $\overline{\mathcal{L}}_F^p$, và hai hệ quả của nó.
+— Định lý 3 của Ch. IV, §3, No. 4, phần mở rộng của nó sang $\overline{\mathscr{L}}_F^p$, và hai hệ quả của nó.
 — Định lý 4 của Ch. IV, §3, No. 5 (hợp thành với một ánh xạ tuyến tính liên tục) và các hệ quả của nó; các Mệnh đề 9, 11 và 12 của cùng No.
 — Tất cả các kết quả của Ch. IV, §3, No. 6, liên quan đến cấu trúc không gian vectơ có thứ tự của $L^p$.
 — Tất cả các kết quả của Ch. IV, §3, No. 7, và đặc biệt là định lý Lebesgue.

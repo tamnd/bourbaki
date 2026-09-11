@@ -12,9 +12,9 @@ pdf_pages: 0470-0480
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: cf0f4a1e61a7da51372c3fa05a55457e4c93bf0b02d43828c254616722c76d5a
+content_sha256: b09e348477e5fe147e344687326a5123533ac32fb0e971dbe8e4901dea47c59c
 translated_from: content/en/int/index_of_terminology_i_vi.md
-source_content_sha256: a45db1078278655d8fd4b2d592638391be56a7b58b5a4baa69a40a3853d42faf
+source_content_sha256: 827c2255db2508ef1d854635cb7717ac0f99279849f638c22ccaf83b5863c9a8
 translation_model: gpt-5-6-mini, gpt-5-mini
 translation_run: translate-vi-5e02eb97
 glossary_version: 34
@@ -114,7 +114,7 @@ Hàm khả tích theo nghĩa cốt yếu, lũy thừa $p$- : V, 1, 3.
 Hàm khả tích theo nghĩa cốt yếu, đối với một độ đo vectơ : VI, 2, 2.
 Hàm khả tích theo nghĩa cốt yếu trên $A$ : V, 5, 3.
 Tập khai triển (phải-, trái-) của một hàm : V, 6, Bài tập 12.
-Điểm cực biên, $\mathcal{H}^-$ : IV, 7, 3.
+Điểm cực biên, $\mathscr{H}^-$ : IV, 7, 3.
 Hàm hữu hạn hầu khắp nơi : IV, 2, 6.
 Dạng tuyến tính dương : II, 2, 1.
 Dạng tuyến tính bị chặn tương đối : II, 2, 2.
@@ -157,7 +157,7 @@ Các hàm tương đương, tương đương $\mu$ : IV, 2, 4.
 Tính chất (GDF) : VI, 1, 4.
 Định lý Gelfand–Dunford : VI, 1, 4.
 Phương pháp bướu trượt : V, 5, Bài tập 13.
-Điểm cực biên $\mathcal{H}$ : IV, 7, 3.
+Điểm cực biên $\mathscr{H}$ : IV, 7, 3.
 Bất đẳng thức Hölder : I, 2 và IV, 6, 4.
 Hệ trực chuẩn Haar : IV, 6, Bài tập 17.
 Bất đẳng thức Hardy : IV, 6, Bài tập 19.
@@ -315,14 +315,14 @@ Cấp $n$, tích phân bội của : III, 4, 4.
 Cấp $p$, hội tụ theo trung bình của : IV, 3, 3.
 Cấp $p$, khả tích đều của (tập các hàm) : IV, 5, 11.
 Tổng trực tiếp có thứ tự : II, 1, 4.
-Dãy trực chuẩn, trong $\mathcal{L}^2$ : IV, 6, Exer. 15.
+Dãy trực chuẩn, trong $\mathscr{L}^2$ : IV, 6, Exer. 15.
 Hệ trực chuẩn, Haar : IV, 6, Exer. 17.
 Độ đo ngoài : IV, 1, 2 và IV, 1, 4.
 Hàm khả tích lũy thừa bậc $p$ : IV, 3, 4.
 Các phần của một độ đo, thực và ảo : III, 1, 5 và VI, 2, 8.
 Hàm bậc thang $\Phi$ : IV, 4, 9.
 Độ đo điểm : III, 2, 4.
-Điểm, $\mathcal{H}$-cực trị : IV, 7, 3.
+Điểm, $\mathscr{H}$-cực trị : IV, 7, 3.
 Dạng tuyến tính dương : II, 2, 1.
 Độ đo dương : III, 1, 5.
 Ánh xạ tiền thích hợp, $\mu$- : V, 3, 1.
@@ -380,7 +380,7 @@ Hàm bậc thang, đo được : IV, 5, 5.
 Độ đo Stieltjes : V, 6, Bài tập 5.
 Không gian Stone : II, 1, Bài tập 13.
 Hội tụ compact ngặt (trong không gian các độ đo) : III, 1, 10.
-Tập compact ngặt, trong $\mathcal{K}(X;E)$ : III, 1, 1.
+Tập compact ngặt, trong $\mathscr{K}(X;E)$ : III, 1, 1.
 Họ khả tổng của các độ đo dương : V, 2, 1.
 Giá đỡ của một hàm : III, 1, 1.
 Giá đỡ của một độ đo : III, 2, 2.

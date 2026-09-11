@@ -29,7 +29,7 @@ subsections:
       pdf_page: 265
 statements: 22
 exercises: 6
-content_sha256: 9adb07a62fadd6e5f8620bda6421cb8411520345e999c2b98de2982037c52e39
+content_sha256: ed3f86d415aca60dc4b5aac4b085985e62b299c49c4cf9f6e524280c4a654cc5
 ---
 
 ## § 1. ESSENTIAL UPPER INTEGRAL
@@ -38,7 +38,7 @@ content_sha256: 9adb07a62fadd6e5f8620bda6421cb8411520345e999c2b98de2982037c52e39
 
 #### Definition 1 {#int-v-s1-def-1 .statement}
 
-For every function $f \in \mathcal{F}_+(T)$ one calls essential upper integral of $f$ with respect to $\mu$, and denotes by $\mu^\bullet(f)$, the supremum, finite or not, of the set of numbers $\mu^*(f \varphi_K)$, where $K$ runs over the set of compact subsets of $T$. For every subset $A$ of $T$, one sets $\mu^\bullet(A) = \mu^\bullet(\varphi_A)$.
+For every function $f \in \mathscr{F}_+(T)$ one calls essential upper integral of $f$ with respect to $\mu$, and denotes by $\mu^\bullet(f)$, the supremum, finite or not, of the set of numbers $\mu^*(f \varphi_K)$, where $K$ runs over the set of compact subsets of $T$. For every subset $A$ of $T$, one sets $\mu^\bullet(A) = \mu^\bullet(\varphi_A)$.
 
 The notations $\int^\bullet f d\mu$, $\int^\bullet f(t) d\mu(t)$, $\int^\bullet f \mu$ are also used.
 Since $f \varphi_K \leq f$ for every compact subset $K$ of $T$, one has
@@ -49,7 +49,7 @@ $$
 
 It can happen that $\mu^\bullet(f) \neq \mu^*(f)$; for, the condition $\mu^*(f) = 0$ means that $f$ is negligible, whereas the condition $\mu^\bullet(f) = 0$ means that $f$ is locally negligible (Ch. IV, §5, No. 2, Prop. 5), and there may exist locally negligible sets that are not negligible (Ch. IV, §1, Exer. 5).
 
-The mapping $\mu^\bullet$ of $\mathcal{F}_+(T)$ into $\overline{\mathbf{R}}$ coincides with $\mu$ on $\mathcal{K}_+(T)$. It follows that two measures $\mu_1$ and $\mu_2$ such that $\mu_1^\bullet = \mu_2^\bullet$ are equal.
+The mapping $\mu^\bullet$ of $\mathscr{F}_+(T)$ into $\overline{\mathbf{R}}$ coincides with $\mu$ on $\mathscr{K}_+(T)$. It follows that two measures $\mu_1$ and $\mu_2$ such that $\mu_1^\bullet = \mu_2^\bullet$ are equal.
 
 #### Proposition 1 {#int-v-s1-prop-1 .statement}
 
@@ -70,7 +70,7 @@ Equality holds in the relation d) if $f$ and $g$ are measurable, by Cor. 4 of Th
 
 #### Proposition 2 {#int-v-s1-prop-2 .statement}
 
-*Let $f, g, h$ be three elements of $\mathcal{F}_+$; if $g$ and $h$ are measurable, then*
+*Let $f, g, h$ be three elements of $\mathscr{F}_+$; if $g$ and $h$ are measurable, then*
 
 $$
 \int^\bullet f(g + h)\, d\mu = \int^\bullet fg\, d\mu + \int^\bullet fh\, d\mu.
@@ -120,7 +120,7 @@ The proof is immediate from the analogous statement in Ch. IV (§1, No. 3, Prop.
 
 — *For every numerical function* $f \geqslant 0$ *that is lower semi-continuous on* $T$, $\mu^\bullet(f) = \mu^*(f)$.
 
-For, let $g$ be a function in $\mathcal{K}_+(T)$ such that $g \leqslant f$. If $K$ is the (compact) support of $g$, then $\mu(g) \leqslant \mu^*(f \varphi_K) \leqslant \mu^\bullet(f)$. It follows, by the definition of upper integral, that $\mu^*(f) \leqslant \mu^\bullet(f)$, therefore $\mu^*(f) = \mu^\bullet(f)$ (formula (1)).
+For, let $g$ be a function in $\mathscr{K}_+(T)$ such that $g \leqslant f$. If $K$ is the (compact) support of $g$, then $\mu(g) \leqslant \mu^*(f \varphi_K) \leqslant \mu^\bullet(f)$. It follows, by the definition of upper integral, that $\mu^*(f) \leqslant \mu^\bullet(f)$, therefore $\mu^*(f) = \mu^\bullet(f)$ (formula (1)).
 
 ### 2. Moderated functions and measures
 
@@ -149,7 +149,7 @@ If $\mu$ is a moderated measure, then every function on $T$ is $\mu$-moderated a
 
 #### Proposition 6 {#int-v-s1-prop-6 .statement}
 
-— *Let $f$ be a positive numerical function defined on $T$ that is $\mu$-measurable and $\mu$-moderated. Then there exists a sequence $(h_n)_{n \in \mathbf{N}}$ of elements of $\mathcal{F}_+(T)$, with sum equal to $f$, having the following properties:*
+— *Let $f$ be a positive numerical function defined on $T$ that is $\mu$-measurable and $\mu$-moderated. Then there exists a sequence $(h_n)_{n \in \mathbf{N}}$ of elements of $\mathscr{F}_+(T)$, with sum equal to $f$, having the following properties:*
 
 1) *The function $h_0$ is $\mu$-negligible.*
 2) *For every $n \geq 1$, there exists a compact set $K_n$ such that $h_n$ is zero outside $K_n$, and such that the restriction of $h_n$ to $K_n$ is finite and continuous.*
@@ -160,13 +160,13 @@ f_n = \inf(f, n+1) - \inf(f, n)
 $$
 for every $n \in \mathbf{N}$; since $f$ is equal to the sum of the sequence $(f_n)$, it will thus suffice to establish the proposition assuming $f$ to be moderated and *bounded*. Denote then by $A$ the set of $t \in T$ such that $f(t) > 0$; $A$ is measurable and moderated, therefore there exists a sequence $(A_n)$ of pairwise disjoint integrable sets such that $A = \bigcup_n A_n$. We are reduced to proving the statement for the functions $f \varphi_{A_n}$; in other words, we may suppose $f$ to be bounded and to be zero outside an integrable set $I$. But $I$ is the union of a negligible set $N$ and a sequence $(L_n)$ of pairwise disjoint compact sets (Ch. IV, §4, No. 6, Cor. 2 of Th. 4). We are thus reduced to treating the case that $f$ is bounded and is zero outside a compact set $L$.
 
-Let $\mathcal{K}$ be the set of compact subsets $K$ of $T$ such that $f|K$ is continuous; since $\mathcal{K}$ is $\mu$-dense (Ch. IV, §5, No. 10, Prop. 15), $L$ is the union of a negligible set $N$ and a sequence $(K_n)_{n \geq 1}$ of pairwise disjoint elements of $\mathcal{K}$ (Ch. IV, §5, No. 8, Def. 6). The functions $h_0 = f \varphi_N$, $h_n = f \varphi_{K_n}$ for $n \geq 1$ then satisfy the conditions of the statement.
+Let $\mathscr{K}$ be the set of compact subsets $K$ of $T$ such that $f|K$ is continuous; since $\mathscr{K}$ is $\mu$-dense (Ch. IV, §5, No. 10, Prop. 15), $L$ is the union of a negligible set $N$ and a sequence $(K_n)_{n \geq 1}$ of pairwise disjoint elements of $\mathscr{K}$ (Ch. IV, §5, No. 8, Def. 6). The functions $h_0 = f \varphi_N$, $h_n = f \varphi_{K_n}$ for $n \geq 1$ then satisfy the conditions of the statement.
 
 The following proposition makes it possible to reduce the study of the upper integral to that of the essential upper integral.
 
 #### Proposition 7 {#int-v-s1-prop-7 .statement}
 
-— *Let $f$ be an element of $\mathcal{F}_+(T)$.*
+— *Let $f$ be an element of $\mathscr{F}_+(T)$.*
 1) *If the function $f$ is not $\mu$-moderated, then $\mu^*(f) = +\infty$.*
 2) *If the function $f$ is $\mu$-moderated, then $\mu^*(f) = \mu^*(f)$.*
 3) *If $\mu^*(f) < +\infty$ then there exists a $\mu$-moderated subset $A$, the union of a sequence of compact subsets of $T$, such that $f = f \varphi_A$ locally almost everywhere.*
@@ -229,7 +229,7 @@ The inequality $\mu^\bullet(\eta) \leqslant \inf_{h \in H} \mu^\bullet(h)$ being
 
 ### 3. Essentially integrable functions
 
-Let $F$ be a real Banach space; recall that the elements of the spaces $\mathcal{F}_F^p$ (Ch. IV, §3, No. 3) and $\mathcal{L}_F^p$ (Ch. IV, §3, No. 4, Def. 2) are $\mu$-moderated functions (Ch. IV, §5, No. 6, Lemma 1); with $\mathcal{N}_F$ still denoting the space of negligible mappings of $T$ into $F$, we shall introduce the space $\mathcal{N}_F^\infty$ of locally negligible mappings of $T$ into $F$.
+Let $F$ be a real Banach space; recall that the elements of the spaces $\mathscr{F}_F^p$ (Ch. IV, §3, No. 3) and $\mathscr{L}_F^p$ (Ch. IV, §3, No. 4, Def. 2) are $\mu$-moderated functions (Ch. IV, §5, No. 6, Lemma 1); with $\mathscr{N}_F$ still denoting the space of negligible mappings of $T$ into $F$, we shall introduce the space $\mathscr{N}_F^\infty$ of locally negligible mappings of $T$ into $F$.
 
 #### Lemma {#int-v-s1-n3-lem-1 .statement}
 
@@ -237,15 +237,15 @@ Let $F$ be a real Banach space; recall that the elements of the spaces $\mathcal
 
 For, let $D$ be the set of $t \in T$ such that $g(t) \neq g'(t)$; $D$ is locally negligible and moderated, therefore negligible (Cor. 1 of Prop. 7).
 
-We shall denote by $\overline{\mathcal{F}}_F^p(T, \mu)$ (or simply $\overline{\mathcal{F}}_F^p(\mu)$, $\overline{\mathcal{F}}_F^p$, if no confusion can result) the set of mappings $f$ of $T$ into $F$, such that there exists a function $g \in \mathcal{F}_F^p$ equal to $f$ locally almost everywhere. Since the number $N_p(g)$ depends only on $f$ by the Lemma, we will write $\overline{N}_p(f) = N_p(g)$. The function $\overline{N}_p$ is obviously a semi-norm on $\overline{\mathcal{F}}_F^p$, and we shall always assume that $\overline{\mathcal{F}}_F^p$ is equipped with the topology defined by $\overline{N}_p$. The closure of 0 for this topology is the space $\mathcal{N}_F^\infty$; the relations $\overline{\mathcal{F}}_F^p = \mathcal{F}_F^p + \mathcal{N}_F^\infty$, $\mathcal{N}_F^\infty \cap \mathcal{F}_F^p = \mathcal{N}_F$ (Lemma) show that the normed space $\overline{\mathcal{F}}_F^p / \mathcal{N}_F^\infty$ may be canonically identified with $\mathcal{F}_F^p / \mathcal{N}_F$, which is complete (Ch. IV, §3, No. 3, Prop. 5); therefore $\overline{\mathcal{F}}_F^p$ is itself complete.
+We shall denote by $\overline{\mathscr{F}}_F^p(T, \mu)$ (or simply $\overline{\mathscr{F}}_F^p(\mu)$, $\overline{\mathscr{F}}_F^p$, if no confusion can result) the set of mappings $f$ of $T$ into $F$, such that there exists a function $g \in \mathscr{F}_F^p$ equal to $f$ locally almost everywhere. Since the number $N_p(g)$ depends only on $f$ by the Lemma, we will write $\overline{N}_p(f) = N_p(g)$. The function $\overline{N}_p$ is obviously a semi-norm on $\overline{\mathscr{F}}_F^p$, and we shall always assume that $\overline{\mathscr{F}}_F^p$ is equipped with the topology defined by $\overline{N}_p$. The closure of 0 for this topology is the space $\mathscr{N}_F^\infty$; the relations $\overline{\mathscr{F}}_F^p = \mathscr{F}_F^p + \mathscr{N}_F^\infty$, $\mathscr{N}_F^\infty \cap \mathscr{F}_F^p = \mathscr{N}_F$ (Lemma) show that the normed space $\overline{\mathscr{F}}_F^p / \mathscr{N}_F^\infty$ may be canonically identified with $\mathscr{F}_F^p / \mathscr{N}_F$, which is complete (Ch. IV, §3, No. 3, Prop. 5); therefore $\overline{\mathscr{F}}_F^p$ is itself complete.
 
-We shall similarly denote by $\overline{\mathcal{L}}_F^p(T, \mu)$ (or $\overline{\mathcal{L}}_F^p(\mu)$, or $\overline{\mathcal{L}}_F^p$) the subspace $\mathcal{L}_F^p + \mathcal{N}_F^\infty$ of $\overline{\mathcal{F}}_F^p$; one can also characterize $\overline{\mathcal{L}}_F^p$ as the subspace of $\overline{\mathcal{F}}_F^p$ constituted by the *measurable* mappings (Ch. IV, §5, No. 6, Th. 5).
+We shall similarly denote by $\overline{\mathscr{L}}_F^p(T, \mu)$ (or $\overline{\mathscr{L}}_F^p(\mu)$, or $\overline{\mathscr{L}}_F^p$) the subspace $\mathscr{L}_F^p + \mathscr{N}_F^\infty$ of $\overline{\mathscr{F}}_F^p$; one can also characterize $\overline{\mathscr{L}}_F^p$ as the subspace of $\overline{\mathscr{F}}_F^p$ constituted by the *measurable* mappings (Ch. IV, §5, No. 6, Th. 5).
 
-The normed space $\overline{\mathcal{L}}_F^p / \mathcal{N}_F^\infty$ may be canonically identified with $L_F^p$; $\overline{\mathcal{L}}_F^p$ is therefore complete. Its elements are called the *p-th power essentially integrable functions*, this terminology being justified by the following proposition:
+The normed space $\overline{\mathscr{L}}_F^p / \mathscr{N}_F^\infty$ may be canonically identified with $L_F^p$; $\overline{\mathscr{L}}_F^p$ is therefore complete. Its elements are called the *p-th power essentially integrable functions*, this terminology being justified by the following proposition:
 
 #### Proposition 9 {#int-v-s1-prop-9 .statement}
 
-*For a mapping f of T into F to belong to $\overline{\mathcal{F}}_F^p$ (resp. to $\overline{\mathcal{L}}_F^p$), if is necessary and sufficient that* (resp. *that f be measurable and that*)
+*For a mapping f of T into F to belong to $\overline{\mathscr{F}}_F^p$ (resp. to $\overline{\mathscr{L}}_F^p$), if is necessary and sufficient that* (resp. *that f be measurable and that*)
 
 $$
 \mu^\bullet(|f|^p) < +\infty .
@@ -253,7 +253,7 @@ $$
 
 *One then has* $\overline{N}_p(f) = (\mu^\bullet(|f|^p))^{1/p}$.
 
-We may clearly limit ourselves to the assertion concerning $\overline{\mathcal{F}}_F^p$. If f belongs to $\overline{\mathcal{F}}_F^p$, let g be a function belonging to $\mathcal{F}_F^p$ that is equal to f locally almost everywhere; then $|f|^p = |g|^p$ locally almost everywhere, therefore
+We may clearly limit ourselves to the assertion concerning $\overline{\mathscr{F}}_F^p$. If f belongs to $\overline{\mathscr{F}}_F^p$, let g be a function belonging to $\mathscr{F}_F^p$ that is equal to f locally almost everywhere; then $|f|^p = |g|^p$ locally almost everywhere, therefore
 
 $$
 \mu^\bullet(|f|^p) = \mu^\bullet(|g|^p) = \mu^*(|g|^p) < +\infty
@@ -265,15 +265,15 @@ $$
 \overline{N}_p(f) = N_p(g) = (\mu^*(|g|^p))^{1/p} .
 $$
 
-Conversely, suppose that $\mu^\bullet(|f|^p) < +\infty$; then there exists a moderated set A such that f is zero locally almost everywhere in T − A (Prop. 7). The function $f \varphi_A$, equal locally almost everywhere to f, is such that $N_p(f \varphi_A) = \overline{N}_p(f) < +\infty$, therefore it belongs to $\mathcal{F}_F^p$, and $f \in \overline{\mathcal{F}}_F^p$.
+Conversely, suppose that $\mu^\bullet(|f|^p) < +\infty$; then there exists a moderated set A such that f is zero locally almost everywhere in T − A (Prop. 7). The function $f \varphi_A$, equal locally almost everywhere to f, is such that $N_p(f \varphi_A) = \overline{N}_p(f) < +\infty$, therefore it belongs to $\mathscr{F}_F^p$, and $f \in \overline{\mathscr{F}}_F^p$.
 
 #### Corollary {#int-v-s1-n3-cor-1 .statement}
 
-*For f to belong to $\mathcal{L}_F^p$, it is necessary and sufficient that f belong to $\overline{\mathcal{L}}_F^p$ and be moderated.*
+*For f to belong to $\mathscr{L}_F^p$, it is necessary and sufficient that f belong to $\overline{\mathscr{L}}_F^p$ and be moderated.*
 
 #### Definition 3 {#int-v-s1-def-3 .statement}
 
-*The elements of $\overline{\mathcal{L}}_F^1$ are called essentially $\mu$-integrable functions with values in F. On composing the mapping $\tilde{f} \mapsto \mu(f)$ of $L_F^1$ into F with the canonical mapping of $\overline{\mathcal{L}}_F^1$ onto $L_F^1$, one obtains a continuous linear mapping of $\overline{\mathcal{L}}_F^1$ into F that extends the mapping $f \mapsto \int f d\mu$ of $\mathcal{L}_F^1$ into F. One again denotes by $\int f d\mu$ or $\mu(f)$ the value of this mapping for $f \in \overline{\mathcal{L}}_F^1$, and this element is called the integral of f with respect to $\mu$.*
+*The elements of $\overline{\mathscr{L}}_F^1$ are called essentially $\mu$-integrable functions with values in F. On composing the mapping $\tilde{f} \mapsto \mu(f)$ of $L_F^1$ into F with the canonical mapping of $\overline{\mathscr{L}}_F^1$ onto $L_F^1$, one obtains a continuous linear mapping of $\overline{\mathscr{L}}_F^1$ into F that extends the mapping $f \mapsto \int f d\mu$ of $\mathscr{L}_F^1$ into F. One again denotes by $\int f d\mu$ or $\mu(f)$ the value of this mapping for $f \in \overline{\mathscr{L}}_F^1$, and this element is called the integral of f with respect to $\mu$.*
 
 Two essentially integrable functions that are equal locally almost everywhere have the same integral. For every function $f \geq 0$ that is finite and essentially integrable, $\int^\bullet f d\mu = \int f d\mu$. If A is a set whose characteristic function is essentially integrable, then A is said to be an *essentially $\mu$-integrable set*; $\int \varphi_A d\mu$ is also denoted $\mu(A)$ and is again called the *measure* of A.
 
@@ -308,7 +308,7 @@ $$
 $$
 where $K$ runs over the set of subsets of $L$ belonging to $\mathfrak{K}$. Since $L$ is the union of a negligible set and an increasing sequence $(K_n)$ of elements of $\mathfrak{K}$ (Ch. IV, §5, No. 8, Prop. 12), this follows from the theorem on passage to the limit in upper integrals (Ch. IV, §1, No. 3, Th. 3).
 
-Suppose now that $f$ belongs to $\mathcal{L}_F^1$; let $\varepsilon$ be a number $> 0$, and let $K$ be an element of $\mathfrak{K}$ such that
+Suppose now that $f$ belongs to $\mathscr{L}_F^1$; let $\varepsilon$ be a number $> 0$, and let $K$ be an element of $\mathfrak{K}$ such that
 $$
 \int |f| \varphi_K\, d\mu \geq \int |f|\, d\mu - \varepsilon
 $$
@@ -319,9 +319,9 @@ $$
 \left| \int f \, d\mu - \int f \varphi_H \, d\mu \right| \leq \int |f| \varphi_{\mathbf{C}_H} \, d\mu \leq \int |f| \varphi_{\mathbf{C}_K} \, d\mu \leq \varepsilon .
 $$
 
-Extension to complex Banach spaces and measures. Let F be a complex Banach space; by an abuse of notation, the real Banach space underlying F will also be denoted by F. The Banach space $\overline{\mathcal{L}}_F^p(T, \mu)$ may then be equipped with a natural complex Banach space structure, and it is necessary to be specific as to whether one is using the real or the complex structure of this space. In this chapter, and absent express mention to the contrary, it will always be understood to be the real structure.
+Extension to complex Banach spaces and measures. Let F be a complex Banach space; by an abuse of notation, the real Banach space underlying F will also be denoted by F. The Banach space $\overline{\mathscr{L}}_F^p(T, \mu)$ may then be equipped with a natural complex Banach space structure, and it is necessary to be specific as to whether one is using the real or the complex structure of this space. In this chapter, and absent express mention to the contrary, it will always be understood to be the real structure.
 
-Let $\theta$ be a complex measure; we set $\overline{\mathcal{L}}_F^p(T, \theta) = \overline{\mathcal{L}}_F^p(T, |\theta|)$; if F is a complex Banach space, one can make the same remarks as above. In particular, a function f with values in F will be called essentially integrable for $\theta$ if it is essentially integrable for $|\theta|$. Assertion b) of Prop. 10 then extends at once to complex measures.
+Let $\theta$ be a complex measure; we set $\overline{\mathscr{L}}_F^p(T, \theta) = \overline{\mathscr{L}}_F^p(T, |\theta|)$; if F is a complex Banach space, one can make the same remarks as above. In particular, a function f with values in F will be called essentially integrable for $\theta$ if it is essentially integrable for $|\theta|$. Assertion b) of Prop. 10 then extends at once to complex measures.
 
 ### 4. A property special to the essential upper integral
 
@@ -329,24 +329,24 @@ The following result will be used frequently in the sequel. In the statement, on
 
 #### Proposition 11 {#int-v-s1-prop-11 .statement}
 
-— Let $(\lambda_\alpha)_{\alpha \in A}$ be a family of positive measures on T, directed for the relation $\leq$ and having a supremum $\lambda$ in $\mathcal{M}(T)$. Then, for every numerical function $f \geq 0$,
+— Let $(\lambda_\alpha)_{\alpha \in A}$ be a family of positive measures on T, directed for the relation $\leq$ and having a supremum $\lambda$ in $\mathscr{M}(T)$. Then, for every numerical function $f \geq 0$,
 
 $$
 \lambda^\bullet(f) = \sup_{\alpha \in A} \lambda_\alpha^\bullet(f).
 $$
 
-When $f$ belongs to $\mathcal{K}(T)$, this relation reduces to the definition of the supremum of a directed set in $\mathcal{M}(T)$ (Ch. II, §2, No. 2, Lemma). Suppose next that $f \leq g$ for some function $g \in \mathcal{K}_+$ (in other words, that $f$ is bounded and is zero outside a compact set K); let $\alpha$ be an index such that $\lambda_\alpha(g) \geq \lambda(g) - \varepsilon$, where $\varepsilon$ is a number $> 0$; since the measure $\nu = \lambda - \lambda_\alpha$ is positive, we have $\nu^*(f) \leq \nu(g) \leq \varepsilon$, or $\lambda_\alpha^*(f) \geq \lambda^*(f) - \varepsilon$ (Ch. IV, §1, No. 3, Prop. 15). It follows (since $\varepsilon$ is arbitrary) that the second member of (5) is $\geq$ the first; the reverse inequality being obvious, (5) is established for the special case under consideration. Next, suppose that $f$ is zero outside K but is not necessarily bounded, and set $f_n = \inf(f, n)$ for every integer $n$. Then
+When $f$ belongs to $\mathscr{K}(T)$, this relation reduces to the definition of the supremum of a directed set in $\mathscr{M}(T)$ (Ch. II, §2, No. 2, Lemma). Suppose next that $f \leq g$ for some function $g \in \mathscr{K}_+$ (in other words, that $f$ is bounded and is zero outside a compact set K); let $\alpha$ be an index such that $\lambda_\alpha(g) \geq \lambda(g) - \varepsilon$, where $\varepsilon$ is a number $> 0$; since the measure $\nu = \lambda - \lambda_\alpha$ is positive, we have $\nu^*(f) \leq \nu(g) \leq \varepsilon$, or $\lambda_\alpha^*(f) \geq \lambda^*(f) - \varepsilon$ (Ch. IV, §1, No. 3, Prop. 15). It follows (since $\varepsilon$ is arbitrary) that the second member of (5) is $\geq$ the first; the reverse inequality being obvious, (5) is established for the special case under consideration. Next, suppose that $f$ is zero outside K but is not necessarily bounded, and set $f_n = \inf(f, n)$ for every integer $n$. Then
 
 $$
 \lambda^\bullet(f) = \sup_{n \in \mathbf{N}} \lambda^\bullet(f_n) = \sup_{n \in \mathbf{N}} \sup_{\alpha \in A} \lambda_\alpha^\bullet(f_n) = \sup_{\alpha \in A} \sup_{n \in \mathbf{N}} \lambda_\alpha^\bullet(f_n) = \sup_{\alpha \in A} \lambda_\alpha^\bullet(f).
 $$
 
-Finally, with no restriction made on $f$, denoting by $\mathcal{K}$ the set of compact subsets of $T$ we have
+Finally, with no restriction made on $f$, denoting by $\mathscr{K}$ the set of compact subsets of $T$ we have
 $$
-\lambda^\bullet(f) = \sup_{K \in \mathcal{K}} \lambda^\bullet(f \varphi_K) = \sup_{K \in \mathcal{K}} \sup_{\alpha \in A} \lambda_\alpha^\bullet(f \varphi_K)
+\lambda^\bullet(f) = \sup_{K \in \mathscr{K}} \lambda^\bullet(f \varphi_K) = \sup_{K \in \mathscr{K}} \sup_{\alpha \in A} \lambda_\alpha^\bullet(f \varphi_K)
 $$
 $$
-= \sup_{\alpha \in A} \sup_{K \in \mathcal{K}} \lambda_\alpha^\bullet(f \varphi_K) = \sup_{\alpha \in A} \lambda_\alpha^\bullet(f).
+= \sup_{\alpha \in A} \sup_{K \in \mathscr{K}} \lambda_\alpha^\bullet(f \varphi_K) = \sup_{\alpha \in A} \lambda_\alpha^\bullet(f).
 $$
 
 #### Corollary 1 {#int-v-s1-prop-11-cor-1 .statement}
@@ -357,7 +357,7 @@ $$
 
 *For a mapping g of T into a topological space G to be $\lambda$-measurable, it is necessary and sufficient that it be $\lambda_\alpha$-measurable for every $\alpha \in A$.*
 
-The condition is obviously necessary, since $\lambda_\alpha \leq \lambda$ for every $\alpha$ (Ch. IV, §1, No. 3, Prop. 15). Conversely, suppose that $g$ is $\lambda_\alpha$-measurable for all $\alpha$, denote by $\mathcal{K}$ the set of compact subsets K of T such that $g|K$ is continuous, and let L be a compact set such that $L \cap K$ is $\lambda$-negligible for every $K \in \mathcal{K}$. Since the set $\mathcal{K}$ is $\lambda_\alpha$-dense, L is $\lambda_\alpha$-negligible for every $\alpha$ (Ch. IV, §5, No. 8, Prop. 12), hence is $\lambda$-negligible (Cor. 1). It follows that $\mathcal{K}$ is $\lambda$-dense and that $g$ is $\lambda$-measurable (Ch. IV, §5, No. 10, Prop. 15).
+The condition is obviously necessary, since $\lambda_\alpha \leq \lambda$ for every $\alpha$ (Ch. IV, §1, No. 3, Prop. 15). Conversely, suppose that $g$ is $\lambda_\alpha$-measurable for all $\alpha$, denote by $\mathscr{K}$ the set of compact subsets K of T such that $g|K$ is continuous, and let L be a compact set such that $L \cap K$ is $\lambda$-negligible for every $K \in \mathscr{K}$. Since the set $\mathscr{K}$ is $\lambda_\alpha$-dense, L is $\lambda_\alpha$-negligible for every $\alpha$ (Ch. IV, §5, No. 8, Prop. 12), hence is $\lambda$-negligible (Cor. 1). It follows that $\mathscr{K}$ is $\lambda$-dense and that $g$ is $\lambda$-measurable (Ch. IV, §5, No. 10, Prop. 15).
 
 ### Exercises {#int-v-s1-exercises}
 

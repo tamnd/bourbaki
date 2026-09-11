@@ -296,7 +296,7 @@ chapters:
               page: 19
               pdf_page: 126
             - "no": 3
-              title: The spaces $\mathcal{F}_F^p$
+              title: The spaces $\mathscr{F}_F^p$
               page: 20
               pdf_page: 127
             - "no": 4

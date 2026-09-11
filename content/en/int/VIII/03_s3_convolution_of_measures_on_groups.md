@@ -25,7 +25,7 @@ subsections:
       pdf_page: 122
 statements: 16
 exercises: 13
-content_sha256: bbc3bfbb386ed5b01dfe7de3c4352d1ddc946f12da4b5fadc42e3c96d19e4eef
+content_sha256: d7b8f6ce67aab9318c4bf1d66eb3da65db7aa355768329905786e678f3dc2cd4
 ---
 
 ## § 3. CONVOLUTION OF MEASURES ON GROUPS
@@ -45,7 +45,7 @@ $$
 \varepsilon_s * \varepsilon_t = \varepsilon_{st}.
 $$
 
-If $s \in G$ and $\mu \in \mathcal{M}(G)$, then
+If $s \in G$ and $\mu \in \mathscr{M}(G)$, then
 
 (2)
 $$
@@ -74,15 +74,15 @@ This follows from Prop. 1 of §1, No. 2.
 
 There can exist measures $\lambda, \mu, \nu$ on G such that the convolution products $\lambda * \mu$, $(\lambda * \mu) * \nu$, $\mu * \nu$, $\lambda * (\mu * \nu)$ are all defined, and yet $(\lambda * \mu) * \nu \neq \lambda * (\mu * \nu)$ (cf. Exer. 4).
 
-Let $\rho$ be a lower semi-continuous finite function $> 0$ on $G$ such that $\rho(st) \leq \rho(s)\rho(t)$ for all $s, t$ in $G$. We denote by $\mathcal{M}^\rho(G)$ the vector space of measures $\lambda$ on $G$ such that $\rho$ is $\lambda$-integrable, and by $\| \lambda \|_\rho$ (or simply $\| \lambda \|$) the norm $\int_G \rho(s) d|\lambda|(s)$ on this space. When $\rho = 1$, one recovers the set $\mathcal{M}^1(G)$ of bounded measures on $G$.
+Let $\rho$ be a lower semi-continuous finite function $> 0$ on $G$ such that $\rho(st) \leq \rho(s)\rho(t)$ for all $s, t$ in $G$. We denote by $\mathscr{M}^\rho(G)$ the vector space of measures $\lambda$ on $G$ such that $\rho$ is $\lambda$-integrable, and by $\| \lambda \|_\rho$ (or simply $\| \lambda \|$) the norm $\int_G \rho(s) d|\lambda|(s)$ on this space. When $\rho = 1$, one recovers the set $\mathscr{M}^1(G)$ of bounded measures on $G$.
 
 #### Proposition 2 {#int-viii-s3-prop-2 .statement}
 
-(i) *Any two elements of $\mathcal{M}^\rho(G)$ are convolvable.*
-(ii) *For convolution, and for the norm $\| \lambda \|$, $\mathcal{M}^\rho(G)$ is a complete normed algebra, admitting $\varepsilon_e$ as unity element.*
-(iii) $\mathcal{C}'(G)$ *is a subalgebra of $\mathcal{M}^\rho(G)$*.
+(i) *Any two elements of $\mathscr{M}^\rho(G)$ are convolvable.*
+(ii) *For convolution, and for the norm $\| \lambda \|$, $\mathscr{M}^\rho(G)$ is a complete normed algebra, admitting $\varepsilon_e$ as unity element.*
+(iii) $\mathscr{C}'(G)$ *is a subalgebra of $\mathscr{M}^\rho(G)$*.
 
-Let $\lambda, \mu$ be in $\mathcal{M}^\rho(G)$, and let us show that $\lambda$ and $\mu$ are convolvable. Let $f \in \mathcal{K}_+(G)$. Since $\rho$ is $> 0$ and lower semi-continuous, there exists a constant $k > 0$ such that $f \leq k\rho$. Then
+Let $\lambda, \mu$ be in $\mathscr{M}^\rho(G)$, and let us show that $\lambda$ and $\mu$ are convolvable. Let $f \in \mathscr{K}_+(G)$. Since $\rho$ is $> 0$ and lower semi-continuous, there exists a constant $k > 0$ such that $f \leq k\rho$. Then
 
 $$
 \int^* f(st) d|\lambda|(s) d|\mu|(t) \leq k \int^* \rho(st) d|\lambda|(s) d|\mu|(t)
@@ -106,7 +106,7 @@ $$
 = \int_{G \times G}^* \rho(s)\rho(t) d|\lambda|(s) d|\mu|(t) = \| \lambda \| \cdot \| \mu \|.
 $$
 
-One sees that $\lambda * \mu \in \mathcal{M}^\rho(G)$ and that $\| \lambda * \mu \| \leq \| \lambda \| \cdot \| \mu \|$. In view of Prop. 1, $\mathcal{M}^\rho(G)$ is an algebra. The mapping $\lambda \mapsto \rho \cdot \lambda$ is an isometric linear mapping $\theta$ of $\mathcal{M}^\rho(G)$ into $\mathcal{M}^1(G)$; if $\mu \in \mathcal{M}^1(G)$ then $1/\rho$, which is locally bounded and upper semi-continuous, is locally $\mu$-integrable, and $\rho$ is $(1/\rho) \cdot \mu$-integrable, thus $(1/\rho) \cdot \mu \in \mathcal{M}^\rho(G)$; this proves that $\theta$ is surjective; therefore $\mathcal{M}^\rho(G)$ is a complete normed algebra. Finally, it is clear that $\varepsilon_e$ is a unity element for $\mathcal{M}^\rho(G)$ and that $\mathcal{C}'(G)$ is a subalgebra of $\mathcal{M}^\rho(G)$ (§1, No. 4, Cor. of Prop. 5).
+One sees that $\lambda * \mu \in \mathscr{M}^\rho(G)$ and that $\| \lambda * \mu \| \leq \| \lambda \| \cdot \| \mu \|$. In view of Prop. 1, $\mathscr{M}^\rho(G)$ is an algebra. The mapping $\lambda \mapsto \rho \cdot \lambda$ is an isometric linear mapping $\theta$ of $\mathscr{M}^\rho(G)$ into $\mathscr{M}^1(G)$; if $\mu \in \mathscr{M}^1(G)$ then $1/\rho$, which is locally bounded and upper semi-continuous, is locally $\mu$-integrable, and $\rho$ is $(1/\rho) \cdot \mu$-integrable, thus $(1/\rho) \cdot \mu \in \mathscr{M}^\rho(G)$; this proves that $\theta$ is surjective; therefore $\mathscr{M}^\rho(G)$ is a complete normed algebra. Finally, it is clear that $\varepsilon_e$ is a unity element for $\mathscr{M}^\rho(G)$ and that $\mathscr{C}'(G)$ is a subalgebra of $\mathscr{M}^\rho(G)$ (§1, No. 4, Cor. of Prop. 5).
 
 If $\rho = 1$, Prop. 2, (i) and (ii) also follow from §1, Prop. 2.
 
@@ -124,15 +124,15 @@ Therefore the $\mu_i$ are convolvable (§1, No. 4, Prop. 4).
 
 #### Proposition 4 {#int-viii-s3-prop-4 .statement}
 
-*The mapping $(\lambda, \mu) \mapsto \lambda * \mu$ (resp. $(\lambda, \mu) \mapsto \mu * \lambda$), where $\lambda \in \mathcal{C}'(G)$, $\mu \in \mathcal{M}(G)$, defines on $\mathcal{M}(G)$ the structure of a left (resp. right) module over the algebra $\mathcal{C}'(G)$.*
+*The mapping $(\lambda, \mu) \mapsto \lambda * \mu$ (resp. $(\lambda, \mu) \mapsto \mu * \lambda$), where $\lambda \in \mathscr{C}'(G)$, $\mu \in \mathscr{M}(G)$, defines on $\mathscr{M}(G)$ the structure of a left (resp. right) module over the algebra $\mathscr{C}'(G)$.*
 
 This follows from Props. 1 and 3.
 
 #### Proposition 5 {#int-viii-s3-prop-5 .statement}
 
-*Let $\lambda$ be a left (resp. right) Haar measure on G, and $\mu \in \mathcal{M}^1(G)$. Then $\mu$ and $\lambda$ (resp. $\lambda$ and $\mu$) are convolvable, and $\mu * \lambda = \mu(1)\lambda$ (resp. $\lambda * \mu = \mu(1)\lambda$).*
+*Let $\lambda$ be a left (resp. right) Haar measure on G, and $\mu \in \mathscr{M}^1(G)$. Then $\mu$ and $\lambda$ (resp. $\lambda$ and $\mu$) are convolvable, and $\mu * \lambda = \mu(1)\lambda$ (resp. $\lambda * \mu = \mu(1)\lambda$).*
 
-We can suppose that $\mu \geqslant 0$. Let $f \in \mathcal{K}_+(G)$. When $\lambda$ is a left Haar measure,
+We can suppose that $\mu \geqslant 0$. Let $f \in \mathscr{K}_+(G)$. When $\lambda$ is a left Haar measure,
 
 $$
 \int^* d\mu(x) \int^* f(xy)\, d\lambda(y) = \int^* d\mu(x) \int f(y)\, d\lambda(y) = \lambda(f)\|\mu\| ,
@@ -144,7 +144,7 @@ therefore the function $(x, y) \mapsto f(xy)$ is $(\mu \otimes \lambda)$-integra
 
 *Let $\mu$ and $\nu$ be two convolvable measures on G. Let $\chi$ be a continuous representation of G in $\mathbf{C}^*$. Then $\chi \cdot \mu$ and $\chi \cdot \nu$ are convolvable and $(\chi \cdot \mu) * (\chi \cdot \nu) = \chi \cdot (\mu * \nu)$.*
 
-Let $f \in \mathcal{K}(G)$. Then $f\chi \in \mathcal{K}(G)$, therefore the function
+Let $f \in \mathscr{K}(G)$. Then $f\chi \in \mathscr{K}(G)$, therefore the function
 
 $$
 (x, y) \mapsto f(xy)\chi(xy) = f(xy)\chi(x)\chi(y)
@@ -199,7 +199,7 @@ $$
 \varepsilon_s * \varepsilon_x = \varepsilon_{sx}.
 $$
 
-If $s \in G$ and $\mu \in \mathcal{M}(X)$, then
+If $s \in G$ and $\mu \in \mathscr{M}(X)$, then
 
 (5)
 $$
@@ -216,7 +216,7 @@ This follows from Prop. 4 of §1, No. 4.
 
 #### Proposition 9 {#int-viii-s3-prop-9 .statement}
 
-— For convolution, $\mathcal{M}^1(X)$ is a left module over $\mathcal{M}^1(G)$, while $\mathcal{M}(X)$ and $\mathcal{C}'(X)$ are left modules over $\mathcal{C}'(G)$.
+— For convolution, $\mathscr{M}^1(X)$ is a left module over $\mathscr{M}^1(G)$, while $\mathscr{M}(X)$ and $\mathscr{C}'(X)$ are left modules over $\mathscr{C}'(G)$.
 This follows from Prop. 8, and from §1, Props. 1, 3 and the Cor. of Prop. 5.
 
 #### Proposition 10 {#int-viii-s3-prop-10 .statement}
@@ -233,9 +233,9 @@ $$
 #### Proposition 11 {#int-viii-s3-prop-11 .statement}
 
 — Let $G$ be a locally compact group, $E$ a quasi-complete locally convex space, $U$ a continuous representation of $G$ in $E$.
-(i) If $\lambda \in \mathcal{C}'(G)$, $\mu \in \mathcal{C}'(G)$, then $U(\lambda * \mu) = U(\lambda)U(\mu)$.
-(ii) Suppose that $E$ is a Banach space, and let $\rho(s) = \|U(s)\|$ for $s \in G$. If $\lambda \in \mathcal{M}^\rho(G)$, $\mu \in \mathcal{M}^\rho(G)$, then $U(\lambda * \mu) = U(\lambda)U(\mu)$.
-Let $\lambda, \mu$ be in $\mathcal{C}'(G)$. For any $x \in E$ one has, by applying notably Props. 1 and 4 of Ch. VI, §1, No. 1,
+(i) If $\lambda \in \mathscr{C}'(G)$, $\mu \in \mathscr{C}'(G)$, then $U(\lambda * \mu) = U(\lambda)U(\mu)$.
+(ii) Suppose that $E$ is a Banach space, and let $\rho(s) = \|U(s)\|$ for $s \in G$. If $\lambda \in \mathscr{M}^\rho(G)$, $\mu \in \mathscr{M}^\rho(G)$, then $U(\lambda * \mu) = U(\lambda)U(\mu)$.
+Let $\lambda, \mu$ be in $\mathscr{C}'(G)$. For any $x \in E$ one has, by applying notably Props. 1 and 4 of Ch. VI, §1, No. 1,
 $$
 U(\lambda * \mu)x = \int_G U(s)x\, d(\lambda * \mu)(s)
 $$
@@ -247,11 +247,11 @@ $$
 $$
 whence (i). An analogous argument may be applied in case (ii).
 
-With G still a locally compact group, let us assume that G operates continuously on the left in a locally compact space X. This defines (§2, No. 4) a continuous linear representation $\gamma$ of G in $\mathcal{M}(X)$ (equipped with the topology of compact convergence in $\mathcal{H}(X)$).
+With G still a locally compact group, let us assume that G operates continuously on the left in a locally compact space X. This defines (§2, No. 4) a continuous linear representation $\gamma$ of G in $\mathscr{M}(X)$ (equipped with the topology of compact convergence in $\mathscr{H}(X)$).
 
 #### Proposition 12 {#int-viii-s3-prop-12 .statement}
 
-*If $\lambda \in \mathcal{C}'(G)$ and $\mu \in \mathcal{M}(X)$, then*
+*If $\lambda \in \mathscr{C}'(G)$ and $\mu \in \mathscr{M}(X)$, then*
 
 $$
 \gamma(\lambda)\mu = \lambda * \mu.
@@ -273,39 +273,39 @@ by the definition of $\gamma(\lambda)$.
 
 #### Corollary {#int-viii-s3-n3-cor-1 .statement}
 
-*The mapping $(\lambda, \mu) \mapsto \lambda * \mu$ of $\mathcal{C}'(G) \times \mathcal{M}(X)$ into $\mathcal{M}(X)$ is hypocontinuous relative to the equicontinuous subsets of $\mathcal{C}'(G)$ and the compact subsets of $\mathcal{M}(X)$ ($\mathcal{C}'(G)$ and $\mathcal{M}(X)$ being equipped with the topology of compact convergence in $\mathcal{C}(G)$ and $\mathcal{H}(X)$, respectively).*
+*The mapping $(\lambda, \mu) \mapsto \lambda * \mu$ of $\mathscr{C}'(G) \times \mathscr{M}(X)$ into $\mathscr{M}(X)$ is hypocontinuous relative to the equicontinuous subsets of $\mathscr{C}'(G)$ and the compact subsets of $\mathscr{M}(X)$ ($\mathscr{C}'(G)$ and $\mathscr{M}(X)$ being equipped with the topology of compact convergence in $\mathscr{C}(G)$ and $\mathscr{H}(X)$, respectively).*
 
-For, $\mathcal{M}(X)$, equipped with the topology of compact convergence in $\mathcal{H}(X)$, is quasi-complete. Therefore the mapping $(\lambda, \mu) \mapsto \gamma(\lambda)\mu$ of $\mathcal{C}'(G) \times \mathcal{M}(X)$ into $\mathcal{M}(X)$ is hypocontinuous relative to the equicontinuous subsets of $\mathcal{C}'(G)$ and the compact subsets of $\mathcal{M}(X)$ (§2, No. 6). It then suffices to apply Prop. 12.
+For, $\mathscr{M}(X)$, equipped with the topology of compact convergence in $\mathscr{H}(X)$, is quasi-complete. Therefore the mapping $(\lambda, \mu) \mapsto \gamma(\lambda)\mu$ of $\mathscr{C}'(G) \times \mathscr{M}(X)$ into $\mathscr{M}(X)$ is hypocontinuous relative to the equicontinuous subsets of $\mathscr{C}'(G)$ and the compact subsets of $\mathscr{M}(X)$ (§2, No. 6). It then suffices to apply Prop. 12.
 
 #### Remark {#int-viii-s3-n3-rem-1 .statement}
 
-— 1) Let $\lambda_0 \in \mathcal{C}'(G)$. The mapping $\mu \mapsto \lambda_0 * \mu$ of $\mathcal{M}(X)$ into $\mathcal{M}(X)$ is vaguely continuous. For, let $f \in \mathcal{H}(X)$. One has
+— 1) Let $\lambda_0 \in \mathscr{C}'(G)$. The mapping $\mu \mapsto \lambda_0 * \mu$ of $\mathscr{M}(X)$ into $\mathscr{M}(X)$ is vaguely continuous. For, let $f \in \mathscr{H}(X)$. One has
 
 $$
 \langle \lambda_0 * \mu, f \rangle = \int f(sx) d\lambda_0(s) d\mu(x) = \langle \mu, g \rangle,
 $$
 
-where $g(x) = \int f(sx) d\lambda_0(s)$. Now, $g$ is continuous (Ch. VII, §1, No. 1, Lemma 1). On the other hand, let S be the support of $\lambda_0$ and K that of $f$. The conditions $sx \in K$ and $s \in S$ imply $x \in S^{-1}K$; therefore the support of $g$ is contained in $S^{-1}K$, so that $g \in \mathcal{H}(X)$. Then $\langle \lambda_0 * \mu, f \rangle = \langle \mu, g \rangle$ is a vaguely continuous function of $\mu$, which proves our assertion.
+where $g(x) = \int f(sx) d\lambda_0(s)$. Now, $g$ is continuous (Ch. VII, §1, No. 1, Lemma 1). On the other hand, let S be the support of $\lambda_0$ and K that of $f$. The conditions $sx \in K$ and $s \in S$ imply $x \in S^{-1}K$; therefore the support of $g$ is contained in $S^{-1}K$, so that $g \in \mathscr{H}(X)$. Then $\langle \lambda_0 * \mu, f \rangle = \langle \mu, g \rangle$ is a vaguely continuous function of $\mu$, which proves our assertion.
 
-2) Let $\mu_0 \in \mathcal{M}(X)$. The mapping $\lambda \mapsto \lambda * \mu_0$ of $\mathcal{C}'(G)$ into $\mathcal{M}(X)$ is continuous for the topologies $\sigma(\mathcal{C}'(G), \mathcal{C}(G))$ and $\sigma(\mathcal{M}(X), \mathcal{H}(X))$. For, let $f \in \mathcal{K}(X)$. Setting $h(s) = \int f(sx)\, d\mu_0(x)$, we have $\langle f, \lambda * \mu_0 \rangle = \langle h, \lambda \rangle$, and $h \in \mathcal{C}(G)$ (Ch. VII, §1, No. 1, Lemma 1).
+2) Let $\mu_0 \in \mathscr{M}(X)$. The mapping $\lambda \mapsto \lambda * \mu_0$ of $\mathscr{C}'(G)$ into $\mathscr{M}(X)$ is continuous for the topologies $\sigma(\mathscr{C}'(G), \mathscr{C}(G))$ and $\sigma(\mathscr{M}(X), \mathscr{H}(X))$. For, let $f \in \mathscr{K}(X)$. Setting $h(s) = \int f(sx)\, d\mu_0(x)$, we have $\langle f, \lambda * \mu_0 \rangle = \langle h, \lambda \rangle$, and $h \in \mathscr{C}(G)$ (Ch. VII, §1, No. 1, Lemma 1).
 
 #### Proposition 13 {#int-viii-s3-prop-13 .statement}
 
-*The mapping* $(s, \mu) \mapsto \gamma(s)\mu$ *of* $G \times \mathcal{M}_+(X)$ *into* $\mathcal{M}_+(X)$ *is continuous when the set* $\mathcal{M}_+(X)$ *of positive measures on* $X$ *is equipped with the vague topology*.
+*The mapping* $(s, \mu) \mapsto \gamma(s)\mu$ *of* $G \times \mathscr{M}_+(X)$ *into* $\mathscr{M}_+(X)$ *is continuous when the set* $\mathscr{M}_+(X)$ *of positive measures on* $X$ *is equipped with the vague topology*.
 
-Since $\gamma(s)\mu = \gamma(ss_0^{-1})\gamma(s_0)\mu$, it follows from *Remark 1* that it suffices to prove the continuity of the mapping under consideration at a point of the form $(e, \mu_0)$ with $\mu_0 \in \mathcal{M}_+(X)$. Given a function $f \in \mathcal{K}(X)$ and a number $\varepsilon > 0$, it is thus a matter of showing that there exist a neighborhood U of e in G and a neighborhood W of $\mu_0$ in $\mathcal{M}_+(X)$ such that the relations $s \in U, \mu \in W$ imply
+Since $\gamma(s)\mu = \gamma(ss_0^{-1})\gamma(s_0)\mu$, it follows from *Remark 1* that it suffices to prove the continuity of the mapping under consideration at a point of the form $(e, \mu_0)$ with $\mu_0 \in \mathscr{M}_+(X)$. Given a function $f \in \mathscr{K}(X)$ and a number $\varepsilon > 0$, it is thus a matter of showing that there exist a neighborhood U of e in G and a neighborhood W of $\mu_0$ in $\mathscr{M}_+(X)$ such that the relations $s \in U, \mu \in W$ imply
 
 $$
 \left| \int f(sx)\, d\mu(x) - \int f(x)\, d\mu_0(x) \right| \leq \varepsilon .
 $$
 
-Let V be a compact neighborhood of the support K of $f$ in X, and let $\varphi \in \mathcal{K}_+(X)$ be such that $\varphi(x) = 1$ on V; there exists a neighborhood $W_0$ of $\mu_0$ in $\mathcal{M}_+(X)$ such that $a = \sup_{\mu \in W_0} \mu(V)$ is finite: it suffices to take for $W_0$ the set of $\mu \in \mathcal{M}_+(X)$ such that $|\langle \varphi, \mu - \mu_0 \rangle| \leq 1$. Since the mapping $(s, x) \mapsto sx$ is continuous, there is, on the other hand, a compact neighborhood $U_0$ of e in G such that $sK \subset V$ for all $s \in U_0$; the function $(s, x) \mapsto f(sx)$ is then uniformly continuous in $U_0 \times V$ and so there is a neighborhood $U \subset U_0$ of e such that $|f(sx) - f(x)| \leq \varepsilon / 2a$ for all $s \in U$ and $x \in V$. For $s \in U$ and $\mu \in W_0$, we therefore have
+Let V be a compact neighborhood of the support K of $f$ in X, and let $\varphi \in \mathscr{K}_+(X)$ be such that $\varphi(x) = 1$ on V; there exists a neighborhood $W_0$ of $\mu_0$ in $\mathscr{M}_+(X)$ such that $a = \sup_{\mu \in W_0} \mu(V)$ is finite: it suffices to take for $W_0$ the set of $\mu \in \mathscr{M}_+(X)$ such that $|\langle \varphi, \mu - \mu_0 \rangle| \leq 1$. Since the mapping $(s, x) \mapsto sx$ is continuous, there is, on the other hand, a compact neighborhood $U_0$ of e in G such that $sK \subset V$ for all $s \in U_0$; the function $(s, x) \mapsto f(sx)$ is then uniformly continuous in $U_0 \times V$ and so there is a neighborhood $U \subset U_0$ of e such that $|f(sx) - f(x)| \leq \varepsilon / 2a$ for all $s \in U$ and $x \in V$. For $s \in U$ and $\mu \in W_0$, we therefore have
 
 $$
 \left| \int f(sx)\, d\mu(x) - \int f(x)\, d\mu(x) \right| \leq \varepsilon / 2 ;
 $$
 
-if $W \subset W_0$ is the neighborhood of $\mu_0$ in $\mathcal{M}_+(X)$ formed by the measures $\mu \in W_0$ such that $\left| \int f(x)\, d\mu(x) - \int f(x)\, d\mu_0(x) \right| \leq \varepsilon / 2$, U and W meet the requirements.
+if $W \subset W_0$ is the neighborhood of $\mu_0$ in $\mathscr{M}_+(X)$ formed by the measures $\mu \in W_0$ such that $\left| \int f(x)\, d\mu(x) - \int f(x)\, d\mu_0(x) \right| \leq \varepsilon / 2$, U and W meet the requirements.
 
 ### Exercises {#int-viii-s3-exercises}
 

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 117
 statements: 34
 exercises: 8
-content_sha256: b0c262a75703bcfe9dc0a2e6d654a66f3d7000fcac8cb07f90c2792b5c5bcdba
+content_sha256: fcb24006a18200a6624403255689bb9f2571c0f6e71ba8ae966b903a1300b707
 translated_from: content/en/int/IV/01_s1_upper_integral_of_a_positive_function.md
 source_content_sha256: 4efc1f3cfe523060663c90bb9b64343469cc31d0bbbed2b5f147d96fa86f496e
 translation_model: gpt-5.4
@@ -42,29 +42,29 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Tích phân trên của một hàm dương nửa liên tục dưới
 
-Cho X là một không gian compact địa phương, $\mu$ một độ đo dương trên X; ta biết rằng $\mu$ là một hàm tăng trên dàn $\mathcal{K}_+(X)$ (dàn này cũng sẽ được ký hiệu là $\mathcal{K}_+$).
+Cho X là một không gian compact địa phương, $\mu$ một độ đo dương trên X; ta biết rằng $\mu$ là một hàm tăng trên dàn $\mathscr{K}_+(X)$ (dàn này cũng sẽ được ký hiệu là $\mathscr{K}_+$).
 
-Ta ký hiệu bởi $\mathcal{I}_+(X)$ (hoặc đơn giản là $\mathcal{I}_+$) tập hợp các hàm số trên X, hữu hạn hoặc không, dương và nửa liên tục dưới trên X.\footnote{1} Nhắc lại rằng tổng của một họ bất kỳ các hàm thuộc $\mathcal{I}_+$ thuộc $\mathcal{I}_+$; tích của một hàm thuộc $\mathcal{I}_+$ với một số hữu hạn $\alpha > 0$ thuộc $\mathcal{I}_+$; bao trên của *mọi* họ hàm thuộc $\mathcal{I}_+$ và bao dưới của một họ *hữu hạn* các hàm thuộc $\mathcal{I}_+$ cũng thuộc $\mathcal{I}_+$ (GT, IV, §6, No. 2, Mệnh đề 2 và Định lý 4). Ta cũng sẽ dùng bổ đề sau:
+Ta ký hiệu bởi $\mathscr{I}_+(X)$ (hoặc đơn giản là $\mathscr{I}_+$) tập hợp các hàm số trên X, hữu hạn hoặc không, dương và nửa liên tục dưới trên X.\footnote{1} Nhắc lại rằng tổng của một họ bất kỳ các hàm thuộc $\mathscr{I}_+$ thuộc $\mathscr{I}_+$; tích của một hàm thuộc $\mathscr{I}_+$ với một số hữu hạn $\alpha > 0$ thuộc $\mathscr{I}_+$; bao trên của *mọi* họ hàm thuộc $\mathscr{I}_+$ và bao dưới của một họ *hữu hạn* các hàm thuộc $\mathscr{I}_+$ cũng thuộc $\mathscr{I}_+$ (GT, IV, §6, No. 2, Mệnh đề 2 và Định lý 4). Ta cũng sẽ dùng bổ đề sau:
 
 #### Bổ đề {#int-iv-s1-n1-lem-1 .statement}
 
-— *Mọi hàm* $f \in \mathcal{I}_+$ *đều là bao trên của tập hợp* (có hướng đối với quan hệ $\leq$) *của mọi hàm* $g \in \mathcal{K}_+$ *sao cho* $g \leq f$.
+— *Mọi hàm* $f \in \mathscr{I}_+$ *đều là bao trên của tập hợp* (có hướng đối với quan hệ $\leq$) *của mọi hàm* $g \in \mathscr{K}_+$ *sao cho* $g \leq f$.
 
-Với mọi $x \in X$ sao cho $f(x) > 0$, và với mọi số thực $a$ sao cho $0 < a < f(x)$, theo giả thiết tồn tại một lân cận compắc V của $x$ sao cho $f(y) \geq a$ trên V; mặt khác, tồn tại một hàm $g \in \mathcal{K}_+$, có giá được chứa trong V, bằng $a$ tại điểm $x$ và $\leq a$
+Với mọi $x \in X$ sao cho $f(x) > 0$, và với mọi số thực $a$ sao cho $0 < a < f(x)$, theo giả thiết tồn tại một lân cận compắc V của $x$ sao cho $f(y) \geq a$ trên V; mặt khác, tồn tại một hàm $g \in \mathscr{K}_+$, có giá được chứa trong V, bằng $a$ tại điểm $x$ và $\leq a$
 
-(1) 'I' như trong 'inferior'; chữ cái $\mathcal{L}$ (như trong 'lower') đã được dành cho các không gian hàm khác, sẽ được bàn trong §3.
+(1) 'I' như trong 'inferior'; chữ cái $\mathscr{L}$ (như trong 'lower') đã được dành cho các không gian hàm khác, sẽ được bàn trong §3.
 
 trên V (GT, IX, §1, No. 5, Định lý 2); do đó $0 \leq g \leq f$ và $g(x) \geq a$, điều này chứng minh bổ đề.
 
 #### Định nghĩa 1 {#int-iv-s1-def-1 .statement}
 
-*Cho một độ đo dương $\mu$ trên $X$, người ta gọi tích phân trên của một hàm $f \in \mathcal{J}_+$ (đối với $\mu$) là số dương (hữu hạn hoặc bằng $+\infty$)*
+*Cho một độ đo dương $\mu$ trên $X$, người ta gọi tích phân trên của một hàm $f \in \mathscr{J}_+$ (đối với $\mu$) là số dương (hữu hạn hoặc bằng $+\infty$)*
 
 $$
-\mu^*(f) = \sup_{g \in \mathcal{H}_+, g \leq f} \mu(g).
+\mu^*(f) = \sup_{g \in \mathscr{H}_+, g \leq f} \mu(g).
 $$
 
-Đối với mọi hàm $f \in \mathcal{H}_+$, rõ ràng là $\mu^*(f) = \mu(f)$, nói cách khác $\mu^*$ là một *mở rộng* của $\mu$ lên $\mathcal{J}_+$.
+Đối với mọi hàm $f \in \mathscr{H}_+$, rõ ràng là $\mu^*(f) = \mu(f)$, nói cách khác $\mu^*$ là một *mở rộng* của $\mu$ lên $\mathscr{J}_+$.
 
 #### Ví dụ {#int-iv-s1-n1-exa-1 .statement}
 
@@ -72,36 +72,36 @@ $$
 $$
 \sum_{x \in X} \alpha(x)f(x) = \sup_M \left( \sum_{x \in M} \alpha(x)f(x) \right),
 $$
-trong đó $M$ chạy qua tập hợp tất cả các tập con hữu hạn của $X$. Nếu tồn tại một $x_0 \in X$ sao cho $f(x_0) = +\infty$ và $\alpha(x_0) > 0$, thì $\sum_{x \in M} \alpha(x)f(x) = +\infty$ mỗi khi $x_0 \in M$, và mặt khác $f \geq n \cdot \varphi_{\{x_0\}}$ với mọi số nguyên $n > 0$, do đó $\mu^*(f) \geq n \alpha(x_0)$ và vì thế $\mu^*(f) = +\infty$. Nếu ngược lại, $\alpha(x) = 0$ tại mọi điểm mà ở đó $f(x) = +\infty$, thì hàm $g$ bằng $f$ tại các điểm $x \in M$ mà $\alpha(x) > 0$ và bằng 0 ở nơi khác thuộc $\mathcal{H}_+$, và do đó, theo các quy ước đã đặt ra, $\mu(g) = \sum_{x \in M} \alpha(x)f(x)$, điều này lại chứng minh quan hệ $\mu^*(f) = \sum_{x \in X} \alpha(x)f(x)$.
+trong đó $M$ chạy qua tập hợp tất cả các tập con hữu hạn của $X$. Nếu tồn tại một $x_0 \in X$ sao cho $f(x_0) = +\infty$ và $\alpha(x_0) > 0$, thì $\sum_{x \in M} \alpha(x)f(x) = +\infty$ mỗi khi $x_0 \in M$, và mặt khác $f \geq n \cdot \varphi_{\{x_0\}}$ với mọi số nguyên $n > 0$, do đó $\mu^*(f) \geq n \alpha(x_0)$ và vì thế $\mu^*(f) = +\infty$. Nếu ngược lại, $\alpha(x) = 0$ tại mọi điểm mà ở đó $f(x) = +\infty$, thì hàm $g$ bằng $f$ tại các điểm $x \in M$ mà $\alpha(x) > 0$ và bằng 0 ở nơi khác thuộc $\mathscr{H}_+$, và do đó, theo các quy ước đã đặt ra, $\mu(g) = \sum_{x \in M} \alpha(x)f(x)$, điều này lại chứng minh quan hệ $\mu^*(f) = \sum_{x \in X} \alpha(x)f(x)$.
 
 #### Mệnh đề 1 {#int-iv-s1-prop-1 .statement}
 
-*Với mọi số thực hữu hạn $\alpha > 0$ và mọi hàm $f \in \mathcal{J}_+$,*
+*Với mọi số thực hữu hạn $\alpha > 0$ và mọi hàm $f \in \mathscr{J}_+$,*
 $$
 \mu^*(\alpha f) = \alpha \mu^*(f).
 $$
 
 #### Mệnh đề 2 {#int-iv-s1-prop-2 .statement}
 
-*Trên tập hợp $\mathcal{J}_+$, hàm $\mu^*$ là tăng.*
+*Trên tập hợp $\mathscr{J}_+$, hàm $\mu^*$ là tăng.*
 Các chứng minh suy ra ngay lập tức từ Định nghĩa 1.
 
 #### Định lý 1 {#int-iv-s1-thm-1 .statement}
 
-*Cho $H$ là một tập hợp khác rỗng các hàm trong $\mathcal{J}_+$, có hướng đối với quan hệ $\leq$. Với mọi độ đo dương $\mu$ trên $X$,*
+*Cho $H$ là một tập hợp khác rỗng các hàm trong $\mathscr{J}_+$, có hướng đối với quan hệ $\leq$. Với mọi độ đo dương $\mu$ trên $X$,*
 $$
 \mu^*\left( \sup_{g \in H} g \right) = \sup_{g \in H} \mu^*(g) = \lim_{g \in H} \mu^*(g).
 $$
 
-Cho $f = \sup_{g \in H} g$. Trước hết ta sẽ chứng minh định lý trong trường hợp riêng khi các hàm $g \in H$ và bao trên của chúng $f$ *thuộc* $\mathcal{H}_+$. Khi đó, theo định lý Dini (GT, X, §4, No. 1, ĐL. 1), bộ lọc các tiết diện của $H$ hội tụ *đều* tới $f$ trên mọi tập compắc con của $X$, và đặc biệt trên giá đỡ K của $f$. Vì $0 \leq g \leq f$ đối với mọi hàm $g \in \mathbf{H}$, giá đỡ của mọi hàm trong $\mathbf{H}$ đều được chứa trong $K$; nhưng theo định nghĩa, $\mu$ liên tục trên không gian vectơ $\mathcal{K}(X, K; \mathbf{C})$ của các hàm liên tục có giá đỡ được chứa trong $K$, đối với tôpô hội tụ đều; do đó có quan hệ (2) trong trường hợp này.
+Cho $f = \sup_{g \in H} g$. Trước hết ta sẽ chứng minh định lý trong trường hợp riêng khi các hàm $g \in H$ và bao trên của chúng $f$ *thuộc* $\mathscr{H}_+$. Khi đó, theo định lý Dini (GT, X, §4, No. 1, ĐL. 1), bộ lọc các tiết diện của $H$ hội tụ *đều* tới $f$ trên mọi tập compắc con của $X$, và đặc biệt trên giá đỡ K của $f$. Vì $0 \leq g \leq f$ đối với mọi hàm $g \in \mathbf{H}$, giá đỡ của mọi hàm trong $\mathbf{H}$ đều được chứa trong $K$; nhưng theo định nghĩa, $\mu$ liên tục trên không gian vectơ $\mathscr{K}(X, K; \mathbf{C})$ của các hàm liên tục có giá đỡ được chứa trong $K$, đối với tôpô hội tụ đều; do đó có quan hệ (2) trong trường hợp này.
 
-Xét trường hợp tổng quát. Rõ ràng là $\mu^*(g) \leq \mu^*(f)$ đối với mọi hàm $g \in \mathbf{H}$. Theo Định nghĩa 1, toàn bộ vấn đề quy về việc chứng minh rằng, với mọi hàm $\psi \in \mathcal{K}_+$ sao cho $\psi \leq f$,
+Xét trường hợp tổng quát. Rõ ràng là $\mu^*(g) \leq \mu^*(f)$ đối với mọi hàm $g \in \mathbf{H}$. Theo Định nghĩa 1, toàn bộ vấn đề quy về việc chứng minh rằng, với mọi hàm $\psi \in \mathscr{K}_+$ sao cho $\psi \leq f$,
 
 $$
 \mu(\psi) \leq \sup_{g \in \mathbf{H}} \mu^*(g).
 $$
 
-Với mọi hàm $g \in \mathbf{H}$, gọi $\Phi_g$ là tập hợp các hàm $\varphi \in \mathcal{K}_+$ sao cho $\varphi \leq g$, và gọi $\Phi$ là hợp của các tập hợp $\Phi_g$ khi $g$ chạy trên $\mathbf{H}$; vì $\mathbf{H}$ có hướng nên $\Phi$ cũng có hướng, và $f = \sup_{\varphi \in \Phi} \varphi$. Vì $\psi \leq f$, nên $\psi$ là bao trên của tập hợp các hàm $\inf(\psi, \varphi)$ khi $\varphi$ chạy trên $\Phi$; nhưng vì $\psi$ và các hàm $\inf(\psi, \varphi)$ thuộc $\mathcal{K}_+$, nên phần đầu của chứng minh cho thấy rằng $\mu(\psi) = \sup_{\varphi \in \Phi} \mu(\inf(\psi, \varphi))$. Bây giờ, mỗi $\varphi \in \Phi$ thuộc một tập hợp $\Phi_g$, do đó
+Với mọi hàm $g \in \mathbf{H}$, gọi $\Phi_g$ là tập hợp các hàm $\varphi \in \mathscr{K}_+$ sao cho $\varphi \leq g$, và gọi $\Phi$ là hợp của các tập hợp $\Phi_g$ khi $g$ chạy trên $\mathbf{H}$; vì $\mathbf{H}$ có hướng nên $\Phi$ cũng có hướng, và $f = \sup_{\varphi \in \Phi} \varphi$. Vì $\psi \leq f$, nên $\psi$ là bao trên của tập hợp các hàm $\inf(\psi, \varphi)$ khi $\varphi$ chạy trên $\Phi$; nhưng vì $\psi$ và các hàm $\inf(\psi, \varphi)$ thuộc $\mathscr{K}_+$, nên phần đầu của chứng minh cho thấy rằng $\mu(\psi) = \sup_{\varphi \in \Phi} \mu(\inf(\psi, \varphi))$. Bây giờ, mỗi $\varphi \in \Phi$ thuộc một tập hợp $\Phi_g$, do đó
 
 $$
 \mu(\inf(\psi, \varphi)) \leq \mu(\varphi) \leq \mu^*(g) \leq \sup_{g \in \mathbf{H}} \mu^*(g),
@@ -111,19 +111,19 @@ từ đó suy ra ngay rằng $\mu(\psi) \leq \sup_{g \in \mathbf{H}} \mu^*(g)$. 
 
 #### Định lý 2 {#int-iv-s1-thm-2 .statement}
 
-*Nếu $f_1$ và $f_2$ là hai hàm thuộc $\mathcal{I}_+$ thì*
+*Nếu $f_1$ và $f_2$ là hai hàm thuộc $\mathscr{I}_+$ thì*
 
 $$
 \mu^*(f_1 + f_2) = \mu^*(f_1) + \mu^*(f_2).
 $$
 
-Khi $\varphi_1$ (tương ứng $\varphi_2$) chạy qua tập các hàm trong $\mathcal{K}_+$ sao cho $\varphi_1 \leq f_1$ (tương ứng $\varphi_2 \leq f_2$), các hàm $\varphi_1 + \varphi_2$ tạo thành một tập có hướng (đối với $\leq$) có bao trên là $f_1 + f_2$. Vì vậy, theo Định lý 1,
+Khi $\varphi_1$ (tương ứng $\varphi_2$) chạy qua tập các hàm trong $\mathscr{K}_+$ sao cho $\varphi_1 \leq f_1$ (tương ứng $\varphi_2 \leq f_2$), các hàm $\varphi_1 + \varphi_2$ tạo thành một tập có hướng (đối với $\leq$) có bao trên là $f_1 + f_2$. Vì vậy, theo Định lý 1,
 
 $$
 \mu^*(f_1 + f_2) = \sup \mu(\varphi_1 + \varphi_2) = \sup (\mu(\varphi_1) + \mu(\varphi_2)),
 $$
 
-trong đó $(\varphi_1, \varphi_2)$ chạy qua tập các cặp hàm trong $\mathcal{K}_+$ sao cho $\varphi_1 \leq f_1$ và $\varphi_2 \leq f_2$; vì
+trong đó $(\varphi_1, \varphi_2)$ chạy qua tập các cặp hàm trong $\mathscr{K}_+$ sao cho $\varphi_1 \leq f_1$ và $\varphi_2 \leq f_2$; vì
 
 $$
 \sup (\mu(\varphi_1) + \mu(\varphi_2)) = \sup \mu(\varphi_1) + \sup \mu(\varphi_2)
@@ -143,9 +143,9 @@ Với mọi tập con hữu hạn $J$ của $I$, suy ra từ Định lý 2 (bằ
 
 #### Mệnh đề 4 {#int-iv-s1-prop-4 .statement}
 
-— *Cho* $f$ *là một hàm trong* $J_+$. *Ánh xạ* $\mu \mapsto \mu^*(f)$ *của tập hợp* $\mathcal{M}_+(X)$ *các độ đo dương trên* $X$, *vào đường thẳng thực mở rộng* $\overline{\mathbf{R}}$, *là nửa liên tục dưới đối với tôpô mơ hồ trên* $\mathcal{M}_+(X)$ *(Ch. III, §1, No. 9)*.
+— *Cho* $f$ *là một hàm trong* $J_+$. *Ánh xạ* $\mu \mapsto \mu^*(f)$ *của tập hợp* $\mathscr{M}_+(X)$ *các độ đo dương trên* $X$, *vào đường thẳng thực mở rộng* $\overline{\mathbf{R}}$, *là nửa liên tục dưới đối với tôpô mơ hồ trên* $\mathscr{M}_+(X)$ *(Ch. III, §1, No. 9)*.
 
-Thật vậy, ánh xạ này theo định nghĩa là bao trên của các ánh xạ $\mu \mapsto \mu(g)$, trong đó $g$ chạy qua tập hợp các hàm trong $\mathcal{K}_+$ sao cho $g \leq f$; và theo định nghĩa của tôpô mơ hồ, các ánh xạ $\mu \mapsto \mu(g)$ là liên tục trên $\mathcal{M}(X)$.
+Thật vậy, ánh xạ này theo định nghĩa là bao trên của các ánh xạ $\mu \mapsto \mu(g)$, trong đó $g$ chạy qua tập hợp các hàm trong $\mathscr{K}_+$ sao cho $g \leq f$; và theo định nghĩa của tôpô mơ hồ, các ánh xạ $\mu \mapsto \mu(g)$ là liên tục trên $\mathscr{M}(X)$.
 
 ### 2. Độ đo ngoài của một tập hợp mở
 
@@ -161,7 +161,7 @@ Do đó độ đo ngoài của một tập hợp mở $G$ là một số $\geq 0
 
 — *Độ đo ngoài của một tập hợp mở compact tương đối* $G$ *là hữu hạn*.
 
-Vì, trong trường hợp này, tồn tại một hàm $f \in \mathcal{K}_+$ sao cho $\varphi_G \leq f$ (Ch. III, §1, No. 2, Bổ đề 1), do đó
+Vì, trong trường hợp này, tồn tại một hàm $f \in \mathscr{K}_+$ sao cho $\varphi_G \leq f$ (Ch. III, §1, No. 2, Bổ đề 1), do đó
 
 $$
 \mu^*(G) = \mu^*(\varphi_G) \leq \mu^*(f) = \mu(f) < +\infty.
@@ -182,7 +182,7 @@ $$
 \mu^*\left(\bigcup_{G \in \mathfrak{B}} G\right) = \sup_{G \in \mathfrak{B}} \mu^*(G).
 $$
 
-Các hàm φ_G lập thành một tập có hướng (đối với ≤) trong $\mathcal{I}_+$ và bao trên của chúng là hàm đặc số của hợp các tập hợp G ∈ 𝔅; vì vậy mệnh đề là một hệ quả của Định lý 1.
+Các hàm φ_G lập thành một tập có hướng (đối với ≤) trong $\mathscr{I}_+$ và bao trên của chúng là hàm đặc số của hợp các tập hợp G ∈ 𝔅; vì vậy mệnh đề là một hệ quả của Định lý 1.
 
 #### Mệnh đề 8 {#int-iv-s1-prop-8 .statement}
 
@@ -202,13 +202,13 @@ Thật vậy, nếu G = $\bigcup_{ι \in I} G_ι$ thì φ_G = sup_{ι \in I} φ_
 
 #### Ví dụ {#int-iv-s1-n2-exa-1 .statement}
 
-— Cho X = \mathbf{R} và cho μ là độ đo Lebesgue trên \mathbf{R} (Ch. III, §1, No. 3); chúng ta sẽ xác định ngoại độ đo của một *khoảng mở* G = ]a, b[ (−∞ ≤ a < b ≤ +∞). Trước hết giả sử rằng a và b là hữu hạn. Với mọi hàm f trong $\mathcal{K}_+$ sao cho f ≤ φ_G, ta có, theo định lý giá trị trung bình (FRV, II, §1, No. 5, Prop. 6),
+— Cho X = \mathbf{R} và cho μ là độ đo Lebesgue trên \mathbf{R} (Ch. III, §1, No. 3); chúng ta sẽ xác định ngoại độ đo của một *khoảng mở* G = ]a, b[ (−∞ ≤ a < b ≤ +∞). Trước hết giả sử rằng a và b là hữu hạn. Với mọi hàm f trong $\mathscr{K}_+$ sao cho f ≤ φ_G, ta có, theo định lý giá trị trung bình (FRV, II, §1, No. 5, Prop. 6),
 
 $$
 \int_{-\infty}^{+\infty} f(x)\, dx = \int_a^b f(x)\, dx \leq b - a,
 $$
 
-do đó $\mu^*(G) \leq b - a$. Mặt khác, với mọi $\varepsilon > 0$ tồn tại một hàm $f \in \mathcal{K}_+$ sao cho $f \leq \varphi_G$ và $f(x) = 1$ với $a + \varepsilon \leq x \leq b - \varepsilon$, do đó $\mu^*(G) \geq b - a - 2\varepsilon$; vì $\varepsilon$ là tùy ý, nên $\mu^*(G) = b - a$; nói cách khác, độ đo ngoài của $G$ bằng *độ dài* của nó. Kết quả này mở rộng ngay cho trường hợp $G$ là một khoảng mở không bị chặn, vì khi đó nó chứa các khoảng mở bị chặn có độ dài lớn tùy ý; do đó trong trường hợp này $\mu^*(G) = +\infty$.
+do đó $\mu^*(G) \leq b - a$. Mặt khác, với mọi $\varepsilon > 0$ tồn tại một hàm $f \in \mathscr{K}_+$ sao cho $f \leq \varphi_G$ và $f(x) = 1$ với $a + \varepsilon \leq x \leq b - \varepsilon$, do đó $\mu^*(G) \geq b - a - 2\varepsilon$; vì $\varepsilon$ là tùy ý, nên $\mu^*(G) = b - a$; nói cách khác, độ đo ngoài của $G$ bằng *độ dài* của nó. Kết quả này mở rộng ngay cho trường hợp $G$ là một khoảng mở không bị chặn, vì khi đó nó chứa các khoảng mở bị chặn có độ dài lớn tùy ý; do đó trong trường hợp này $\mu^*(G) = +\infty$.
 
 Bây giờ xét $G$ là một tập mở bất kỳ trong $\mathbf{R}$; $G$ là hợp của một tập đếm được (hữu hạn hoặc vô hạn) các khoảng mở rời nhau từng đôi một $]a_k, b_k[$ (GT, IV, §2, No. 5, Prop. 2), do đó
 
@@ -226,19 +226,19 @@ $$
 
 ### 3. Tích phân trên của một hàm dương
 
-Với mọi hàm số $f \geq 0$ (hữu hạn hoặc không) xác định trên $X$, tồn tại các hàm $h \in \mathcal{I}_+$ sao cho $f \leq h$, nếu không có hàm nào khác thì ít ra cũng có hàm hằng $+\infty$.
+Với mọi hàm số $f \geq 0$ (hữu hạn hoặc không) xác định trên $X$, tồn tại các hàm $h \in \mathscr{I}_+$ sao cho $f \leq h$, nếu không có hàm nào khác thì ít ra cũng có hàm hằng $+\infty$.
 
 #### Định nghĩa 3 {#int-iv-s1-def-3 .statement}
 
 *Cho $\mu$ là một độ đo dương trên $X$; với mọi hàm số $f \geq 0$ (hữu hạn hoặc không) xác định trên $X$, số dương*
 
 $$
-\mu^*(f) = \inf_{h \geq f, h \in \mathcal{I}_+} \mu^*(h)
+\mu^*(f) = \inf_{h \geq f, h \in \mathscr{I}_+} \mu^*(h)
 $$
 
 (*hữu hạn hoặc bằng $+\infty$) *được gọi là tích phân trên của $f$ (đối với $\mu$).*
 
-Khi $f \in \mathcal{I}_+$, số $\mu^*(f)$ được định nghĩa như vậy bằng với tích phân trên được định nghĩa trong Đn. 1, vì $\mu^*$ tăng trên $\mathcal{I}_+$.
+Khi $f \in \mathscr{I}_+$, số $\mu^*(f)$ được định nghĩa như vậy bằng với tích phân trên được định nghĩa trong Đn. 1, vì $\mu^*$ tăng trên $\mathscr{I}_+$.
 
 Thay cho ký hiệu $\mu^*(f)$, chúng tôi cũng sẽ dùng các ký hiệu $\int^* f d\mu$, $\int^* f(x) d\mu(x)$, $\int^* f \mu$ và $\int^* f(x) \mu(x)$.
 
@@ -266,7 +266,7 @@ $$
 \mu^*(f_1 + f_2) \leqslant \mu^*(f_1) + \mu^*(f_2).
 $$
 
-Với mọi hàm $h_1 \in \mathcal{I}_+$ sao cho $f_1 \leqslant h_1$ và mọi hàm $h_2 \in \mathcal{I}_+$ sao cho $f_2 \leqslant h_2$, theo ĐL. 2 ta có
+Với mọi hàm $h_1 \in \mathscr{I}_+$ sao cho $f_1 \leqslant h_1$ và mọi hàm $h_2 \in \mathscr{I}_+$ sao cho $f_2 \leqslant h_2$, theo ĐL. 2 ta có
 
 $$
 \mu^*(f_1 + f_2) \leqslant \mu^*(h_1 + h_2) = \mu^*(h_1) + \mu^*(h_2),
@@ -274,7 +274,7 @@ $$
 do đó (GT, IV, §5, No. 7, Hệ quả 2 của Mệnh đề 12)
 
 $$
-\mu^*(f_1 + f_2) \leqslant \inf_{h_1 \geqslant f_1, h_1 \in \mathcal{I}_+} \mu^*(h_1) + \inf_{h_2 \geqslant f_2, h_2 \in \mathcal{I}_+} \mu^*(h_2),
+\mu^*(f_1 + f_2) \leqslant \inf_{h_1 \geqslant f_1, h_1 \in \mathscr{I}_+} \mu^*(h_1) + \inf_{h_2 \geqslant f_2, h_2 \in \mathscr{I}_+} \mu^*(h_2),
 $$
 đó chính là bất đẳng thức (9).
 
@@ -288,9 +288,9 @@ $$
 \mu^*\left( \sup_n f_n \right) = \sup_n \mu^*(f_n).
 $$
 
-Vì mỗi hàm $f_n$ đều nhỏ hơn hoặc bằng $\sup_n f_n$, mọi sự quy về việc chứng minh rằng $\mu^*(\sup_n f_n) \leqslant \sup_n \mu^*(f_n)$; điều này hiển nhiên nếu vế thứ hai của bất đẳng thức là $+\infty$. Trong trường hợp ngược lại, $\mu^*(f_n) < +\infty$ với mọi $n$; ta sẽ chỉ ra rằng, với mọi $\varepsilon > 0$, tồn tại một dãy *tăng* $(g_n)$ các hàm trong $\mathcal{I}_+$ sao cho $f_n \leqslant g_n$ và $\mu^*(g_n) \leqslant \mu^*(f_n) + \varepsilon$. Nếu $g$ là bao trên của dãy $(g_n)$, thì khi đó ta sẽ có $\mu^*(g) = \sup_n \mu^*(g_n)$ (No. 1, Đl. 1), do đó $\mu^*(g) \leqslant \sup \mu^*(f_n) + \varepsilon$; vì $\sup f_n \leqslant g$ và $\varepsilon$ là tùy ý, khi đó định lý sẽ được chứng minh.
+Vì mỗi hàm $f_n$ đều nhỏ hơn hoặc bằng $\sup_n f_n$, mọi sự quy về việc chứng minh rằng $\mu^*(\sup_n f_n) \leqslant \sup_n \mu^*(f_n)$; điều này hiển nhiên nếu vế thứ hai của bất đẳng thức là $+\infty$. Trong trường hợp ngược lại, $\mu^*(f_n) < +\infty$ với mọi $n$; ta sẽ chỉ ra rằng, với mọi $\varepsilon > 0$, tồn tại một dãy *tăng* $(g_n)$ các hàm trong $\mathscr{I}_+$ sao cho $f_n \leqslant g_n$ và $\mu^*(g_n) \leqslant \mu^*(f_n) + \varepsilon$. Nếu $g$ là bao trên của dãy $(g_n)$, thì khi đó ta sẽ có $\mu^*(g) = \sup_n \mu^*(g_n)$ (No. 1, Đl. 1), do đó $\mu^*(g) \leqslant \sup \mu^*(f_n) + \varepsilon$; vì $\sup f_n \leqslant g$ và $\varepsilon$ là tùy ý, khi đó định lý sẽ được chứng minh.
 
-Theo giả thiết, tồn tại một hàm $h_n \in \mathcal{J}_+$ sao cho $f_n \leq h_n$ và $\mu^*(f_n) \leq \mu^*(h_n) \leq \mu^*(f_n) + \varepsilon/2^n$; hãy chứng minh rằng các hàm $g_n = \sup(h_1, h_2, \ldots, h_n)$ thỏa mãn các yêu cầu. Chúng thuộc $\mathcal{J}_+$, tạo thành một dãy tăng, và thỏa mãn $f_n \leq g_n$ với mọi $n$; ta sẽ chứng minh rằng
+Theo giả thiết, tồn tại một hàm $h_n \in \mathscr{J}_+$ sao cho $f_n \leq h_n$ và $\mu^*(f_n) \leq \mu^*(h_n) \leq \mu^*(f_n) + \varepsilon/2^n$; hãy chứng minh rằng các hàm $g_n = \sup(h_1, h_2, \ldots, h_n)$ thỏa mãn các yêu cầu. Chúng thuộc $\mathscr{J}_+$, tạo thành một dãy tăng, và thỏa mãn $f_n \leq g_n$ với mọi $n$; ta sẽ chứng minh rằng
 
 $$
 \mu^*(g_n) \leq \mu^*(f_n) + \varepsilon \left( 1 - \frac{1}{2^n} \right).
@@ -327,7 +327,7 @@ Thật vậy, tồn tại một dãy tăng các hàm trong $\mathfrak{G}$ có c�
 
 #### Nhận xét {#int-iv-s1-n3-rem-1 .statement}
 
-— 1) Quan hệ (11) không nhất thiết đúng khi $\mathfrak{F}$ là một tập có hướng *không đếm được* các hàm $\geq 0$ không nửa liên tục dưới. Chẳng hạn, lấy $X = \mathbf{R}$, $\mu$ là độ đo Lebesgue trên $\mathbf{R}$, và xét tập có hướng (đối với $\leq$) $\mathfrak{F}$ gồm các hàm đặc trưng $\varphi_M$ của mọi tập con *hữu hạn* M của $\mathbf{R}$. Khi đó $\mu^*(\varphi_M) = 0$ với mọi tập con hữu hạn M, vì một điểm được chứa trong một khoảng mở có độ dài nhỏ tùy ý, và do đó hàm đặc trưng của một tập hợp thu về một điểm có tích phân trên bằng không theo Định nghĩa 3 và Mệnh đề 9 của No. 2. Nhưng bao trên của $\mathcal{F}$ là hàm hằng bằng 1, và $\mu^*(1) = +\infty$.
+— 1) Quan hệ (11) không nhất thiết đúng khi $\mathfrak{F}$ là một tập có hướng *không đếm được* các hàm $\geq 0$ không nửa liên tục dưới. Chẳng hạn, lấy $X = \mathbf{R}$, $\mu$ là độ đo Lebesgue trên $\mathbf{R}$, và xét tập có hướng (đối với $\leq$) $\mathfrak{F}$ gồm các hàm đặc trưng $\varphi_M$ của mọi tập con *hữu hạn* M của $\mathbf{R}$. Khi đó $\mu^*(\varphi_M) = 0$ với mọi tập con hữu hạn M, vì một điểm được chứa trong một khoảng mở có độ dài nhỏ tùy ý, và do đó hàm đặc trưng của một tập hợp thu về một điểm có tích phân trên bằng không theo Định nghĩa 3 và Mệnh đề 9 của No. 2. Nhưng bao trên của $\mathscr{F}$ là hàm hằng bằng 1, và $\mu^*(1) = +\infty$.
 
 2) Chú ý rằng đối với một dãy *giảm* $(f_n)$ các hàm số $\geqslant 0$, không nhất thiết có $\mu^*(\inf_n f_n) = \inf_n \mu^*(f_n)$, ngay cả khi $\mu^*(f_n) < +\infty$ với mọi $n$ (xem §4, Exer. 8 c)).
 
@@ -371,7 +371,7 @@ $$
 
 *Cho* $(f_n)$ *là một dãy các hàm số* $\geqslant 0$ *sao cho, với mọi* $x \in X$, $\lim_{n \to \infty} f_n(x) = +\infty$. *Nếu* $\mu$ *không phải là độ đo không, thì* $\lim_{n \to \infty} \mu^*(f_n) = +\infty$.
 
-Nếu $f_0$ là hàm hằng bằng $+\infty$, thì $f_0$ là bao trên của tất cả các hàm của $\mathcal{K}_+$, và, vì $\mu \neq 0$, ta có $\mu^*(f_0) > 0$; nhưng do $f_0 = \alpha f_0$ với mọi $\alpha > 0$, tất yếu $\mu^*(f_0) = +\infty$ (Mệnh đề 11). Khi đó bất đẳng thức (13) cho thấy rằng $\mu^*(f_n)$ tiến tới $+\infty$ khi $n$ tăng.
+Nếu $f_0$ là hàm hằng bằng $+\infty$, thì $f_0$ là bao trên của tất cả các hàm của $\mathscr{K}_+$, và, vì $\mu \neq 0$, ta có $\mu^*(f_0) > 0$; nhưng do $f_0 = \alpha f_0$ với mọi $\alpha > 0$, tất yếu $\mu^*(f_0) = +\infty$ (Mệnh đề 11). Khi đó bất đẳng thức (13) cho thấy rằng $\mu^*(f_n)$ tiến tới $+\infty$ khi $n$ tăng.
 
 #### Mệnh đề 15 {#int-iv-s1-prop-15 .statement}
 
@@ -386,7 +386,7 @@ $$
 
 *Hơn nữa, quan hệ $\mu \leq \nu$ kéo theo $\mu^* \leq \nu^*$.*
 
-Hãy chứng minh quan hệ (15). Đặt $\lambda = \mu + \nu$; do đó $\lambda(f) = \mu(f) + \nu(f)$ với $f \in \mathcal{K}_+$; với $f \in \mathcal{J}_+$, giá trị của $\lambda^*(f)$ (tương ứng $\mu^*(f)$, $\nu^*(f)$) là giới hạn của $\lambda(g)$ (tương ứng $\mu(g)$, $\nu(g)$) khi $g$ chạy trên tập có hướng (đối với $\leq$) gồm mọi $g \in \mathcal{K}_+$ sao cho $g \leq f$; vì vậy $\lambda^*(f) = \mu^*(f) + \nu^*(f)$. Cuối cùng, nếu $f$ là một hàm bất kỳ $\geq 0$ xác định trên $X$, thì $\lambda^*(f)$ (tương ứng $\mu^*(f)$, $\nu^*(f)$) là giới hạn của $\lambda^*(h)$ (tương ứng $\mu^*(h)$, $\nu^*(h)$) khi $h$ chạy trên tập có hướng (đối với $\geq$) gồm mọi hàm $h \in \mathcal{J}_+$ sao cho $h \geq f$; một lần nữa, bằng cách chuyển sang giới hạn, do đó ta có $\lambda^*(f) = \mu^*(f) + \nu^*(f)$, điều này chứng minh (15). Quan hệ (14) được thiết lập tương tự. Cuối cùng, nếu $\mu \leq \nu$ thì ta có thể viết $\nu = \mu + (\nu - \mu)$, trong đó $\nu - \mu \geq 0$, do đó $\nu^* = \mu^* + (\nu - \mu)^*$, điều này cho thấy $\mu^* \leq \nu^*$.
+Hãy chứng minh quan hệ (15). Đặt $\lambda = \mu + \nu$; do đó $\lambda(f) = \mu(f) + \nu(f)$ với $f \in \mathscr{K}_+$; với $f \in \mathscr{J}_+$, giá trị của $\lambda^*(f)$ (tương ứng $\mu^*(f)$, $\nu^*(f)$) là giới hạn của $\lambda(g)$ (tương ứng $\mu(g)$, $\nu(g)$) khi $g$ chạy trên tập có hướng (đối với $\leq$) gồm mọi $g \in \mathscr{K}_+$ sao cho $g \leq f$; vì vậy $\lambda^*(f) = \mu^*(f) + \nu^*(f)$. Cuối cùng, nếu $f$ là một hàm bất kỳ $\geq 0$ xác định trên $X$, thì $\lambda^*(f)$ (tương ứng $\mu^*(f)$, $\nu^*(f)$) là giới hạn của $\lambda^*(h)$ (tương ứng $\mu^*(h)$, $\nu^*(h)$) khi $h$ chạy trên tập có hướng (đối với $\geq$) gồm mọi hàm $h \in \mathscr{J}_+$ sao cho $h \geq f$; một lần nữa, bằng cách chuyển sang giới hạn, do đó ta có $\lambda^*(f) = \mu^*(f) + \nu^*(f)$, điều này chứng minh (15). Quan hệ (14) được thiết lập tương tự. Cuối cùng, nếu $\mu \leq \nu$ thì ta có thể viết $\nu = \mu + (\nu - \mu)$, trong đó $\nu - \mu \geq 0$, do đó $\nu^* = \mu^* + (\nu - \mu)^*$, điều này cho thấy $\mu^* \leq \nu^*$.
 
 ### 4. Độ đo ngoài của một tập hợp tùy ý
 
@@ -424,7 +424,7 @@ Các mệnh đề này là các bản dịch của các Mệnh đề 10 và 13 v
 
 — *Với mọi tập con A của X*, $\mu^*(A)$ *là cận dưới đúng của các độ đo ngoài của những tập mở chứa A*.
 
-Mệnh đề là hiển nhiên nếu $\mu^*(A) = +\infty$. Trong trường hợp ngược lại, với mọi $\varepsilon$ sao cho $0 < \varepsilon < 1$, tồn tại một hàm $f \in \mathcal{J}_+$ sao cho $\varphi_A \leq f$ và $\mu^*(A) \leq \mu^*(f) \leq \mu^*(A) + \varepsilon$. Gọi G là tập hợp các $x \in X$ sao cho $f(x) > 1 - \varepsilon$. Vì $f$ là nửa liên tục dưới, G là *mở* (GT, IV, §6, No. 2, Prop. 1) và chứa A; mặt khác $f \geq (1 - \varepsilon)\varphi_G$, do đó
+Mệnh đề là hiển nhiên nếu $\mu^*(A) = +\infty$. Trong trường hợp ngược lại, với mọi $\varepsilon$ sao cho $0 < \varepsilon < 1$, tồn tại một hàm $f \in \mathscr{J}_+$ sao cho $\varphi_A \leq f$ và $\mu^*(A) \leq \mu^*(f) \leq \mu^*(A) + \varepsilon$. Gọi G là tập hợp các $x \in X$ sao cho $f(x) > 1 - \varepsilon$. Vì $f$ là nửa liên tục dưới, G là *mở* (GT, IV, §6, No. 2, Prop. 1) và chứa A; mặt khác $f \geq (1 - \varepsilon)\varphi_G$, do đó
 
 $$
 \mu^*(G) \leq \frac{1}{1 - \varepsilon} \mu^*(f) \leq \frac{1}{1 - \varepsilon} (\mu^*(A) + \varepsilon);

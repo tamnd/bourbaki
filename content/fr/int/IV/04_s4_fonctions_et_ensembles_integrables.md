@@ -56,14 +56,14 @@ subsections:
       pdf_page: 167
 statements: 62
 exercises: 3
-content_sha256: 2bf015cef8413c98fa143b37c0b590a25fc09fb58b95fb620e54f9673e895e9a
+content_sha256: 5465b1d367cafb0c75dc2f2462a214832ff759ed1e0077af0dd23fbffb7b6b3d
 ---
 
 ## § 4. Fonctions et ensembles intégrables
 
 ### 1. Prolongement de l’intégrale
 
-Il résulte de la définition de l’espace $\mathcal{L}_F^p$ que le sous-espace $\mathcal{K}_F$ des fonctions continues à support compact est partout dense dans $\mathcal{L}_F^p$ (§ 3, n° 4, déf. 2). Toute fonction linéaire continue (pour la topologie de la convergence en moyenne d’ordre $p$), définie dans $\mathcal{K}_F$ et prenant ses valeurs dans un espace vectoriel topologique séparé et complet $G$, peut donc être prolongée par continuité de façon unique, en une fonction linéaire continue définie dans $\mathcal{L}_F^p$ et à valeurs dans $G$ (Top. gén., chap. II, 3e éd., § 3, n° 6, th. 2 et chap. III, § 3, prop. 3).
+Il résulte de la définition de l’espace $\mathscr{L}_F^p$ que le sous-espace $\mathscr{K}_F$ des fonctions continues à support compact est partout dense dans $\mathscr{L}_F^p$ (§ 3, n° 4, déf. 2). Toute fonction linéaire continue (pour la topologie de la convergence en moyenne d’ordre $p$), définie dans $\mathscr{K}_F$ et prenant ses valeurs dans un espace vectoriel topologique séparé et complet $G$, peut donc être prolongée par continuité de façon unique, en une fonction linéaire continue définie dans $\mathscr{L}_F^p$ et à valeurs dans $G$ (Top. gén., chap. II, 3e éd., § 3, n° 6, th. 2 et chap. III, § 3, prop. 3).
 
 Or, pour toute fonction $f$ continue et à support compact, à valeurs dans l’espace de Banach $F$, nous avons défini (chap. III, § 3, n° 1) l’intégrale $\mu(f) = \int f\, d\mu$ par rapport à $\mu$, qui est un élément de $F$, et nous avons démontré (chap. III, § 3, n° 2, prop 5) l’inégalité
 
@@ -71,19 +71,19 @@ $$
 \left| \int f\, d\mu \right| \leq \int |f|\, d|\mu| = N_1(f).
 $$
 
-Cette inégalité prouve que $f \mapsto \int f\, d\mu$ est une application linéaire de $\mathcal{K}_F$ dans $F$, continue pour la topologie de la convergence en moyenne dans $\mathcal{K}_F$. On peut donc la prolonger par continuité à l’espace $\mathcal{L}_F^1$ tout entier, et poser la définition suivante:
+Cette inégalité prouve que $f \mapsto \int f\, d\mu$ est une application linéaire de $\mathscr{K}_F$ dans $F$, continue pour la topologie de la convergence en moyenne dans $\mathscr{K}_F$. On peut donc la prolonger par continuité à l’espace $\mathscr{L}_F^1$ tout entier, et poser la définition suivante:
 
 #### Définition 1 {#int-iv-s4-def-1 .statement}
 
-On dit que les fonctions appartenant à $\mathcal{L}_F^1(X, \mu)$ sont intégrables pour la mesure $\mu$ (ou encore, sont $\mu$-intégrables). L’intégrale (par rapport à $\mu$) de la fonction intégrable $f$ est par définition la valeur pour $f$ du prolongement par continuité à $\mathcal{L}_F^1$ de l’application linéaire $g \mapsto \int g\, d\mu$ de $\mathcal{K}_F$ dans $F$; on la note encore $\mu(f)$ ou $\int f\, d\mu$, ou $\int f(x)\, d\mu(x)$ ou $\int f\mu$, ou $\int f(x)\mu(x)$.
+On dit que les fonctions appartenant à $\mathscr{L}_F^1(X, \mu)$ sont intégrables pour la mesure $\mu$ (ou encore, sont $\mu$-intégrables). L’intégrale (par rapport à $\mu$) de la fonction intégrable $f$ est par définition la valeur pour $f$ du prolongement par continuité à $\mathscr{L}_F^1$ de l’application linéaire $g \mapsto \int g\, d\mu$ de $\mathscr{K}_F$ dans $F$; on la note encore $\mu(f)$ ou $\int f\, d\mu$, ou $\int f(x)\, d\mu(x)$ ou $\int f\mu$, ou $\int f(x)\mu(x)$.
 
-Exemple — Soient X un espace discret, $\mu$ une mesure sur X et posons $\alpha(x) = \mu(\varphi_{\{x\}})$ pour tout $x \in X$. Les fonctions de $\mathcal{F}_F^1$ sont alors intégrables, autrement dit, $\mathcal{L}_F^1 = \mathcal{F}_F^1$; en outre, pour toute fonction $f \in \mathcal{L}_F^1$, on a
+Exemple — Soient X un espace discret, $\mu$ une mesure sur X et posons $\alpha(x) = \mu(\varphi_{\{x\}})$ pour tout $x \in X$. Les fonctions de $\mathscr{F}_F^1$ sont alors intégrables, autrement dit, $\mathscr{L}_F^1 = \mathscr{F}_F^1$; en outre, pour toute fonction $f \in \mathscr{L}_F^1$, on a
 
 $$
 \int f d\mu = \sum_{x \in X} \alpha(x)f(x).
 $$
 
-En effet, soit $f \in \mathcal{F}_F^1$; on a $|\mu|^*(|f|) = \sum_{x \in X} |\alpha(x)| \cdot |f(x)| < +\infty$ ($§ 1$, n° 3, Exemple); pour tout $\varepsilon > 0$, il existe une partie finie M de X telle que $\sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon$. La fonction g égale à f aux points $x \in M$ où f est finie, à 0 ailleurs, appartient à $\mathcal{K}(X; F)$ et l’on a, en vertu des conventions faites, $|\mu|^*(|f - g|) \leq \sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon$, ce qui prouve que $f \in \mathcal{L}_F^1$. D’autre part
+En effet, soit $f \in \mathscr{F}_F^1$; on a $|\mu|^*(|f|) = \sum_{x \in X} |\alpha(x)| \cdot |f(x)| < +\infty$ ($§ 1$, n° 3, Exemple); pour tout $\varepsilon > 0$, il existe une partie finie M de X telle que $\sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon$. La fonction g égale à f aux points $x \in M$ où f est finie, à 0 ailleurs, appartient à $\mathscr{K}(X; F)$ et l’on a, en vertu des conventions faites, $|\mu|^*(|f - g|) \leq \sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon$, ce qui prouve que $f \in \mathscr{L}_F^1$. D’autre part
 
 $$
 |\mu(g) - \sum_{x \in X} \alpha(x)f(x)| \leq \sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon
@@ -93,7 +93,7 @@ d’où la seconde assertion.
 
 En d’autres termes, les fonctions $\mu$-intégrables f sont celles pour lesquelles la famille $(\alpha(x)f(x))_{x \in X}$ est absolument sommable (Top. gén., chap. IX, § 3, n° 6), et l’intégrale $\int f d\mu$ est la somme de cette famille.
 
-Comme $\mu(f)$ est continue dans $\mathcal{L}_F^1$ par définition et prend ses valeurs dans un espace séparé, on a $\mu(f) = 0$ pour toute fonction adhérente à 0 dans $\mathcal{L}_F^1$, c’est-à-dire négligeable ; si f et g sont deux fonctions intégrables équivalentes, on a $\mu(f) = \mu(g)$. En d’autres termes, la valeur de $\mu(f)$ ne dépend que de la classe $\tilde{f}$ de la fonction intégrable f ; on la note encore $\mu(\tilde{f})$, et la fonction $\tilde{f} \mapsto \mu(\tilde{f})$ est une application linéaire continue de $L_F^1$ dans F. Si une fonction f, à valeurs dans F, définie presque partout dans X, est équivalente à une fonction intégrable, on dit encore que f est intégrable, et on pose $\int f d\mu = \mu(\tilde{f})$; on définit de même une fonction intégrable à valeurs dans $\bar{\mathbf{R}}$, définie et finie presque partout, et son intégrale.
+Comme $\mu(f)$ est continue dans $\mathscr{L}_F^1$ par définition et prend ses valeurs dans un espace séparé, on a $\mu(f) = 0$ pour toute fonction adhérente à 0 dans $\mathscr{L}_F^1$, c’est-à-dire négligeable ; si f et g sont deux fonctions intégrables équivalentes, on a $\mu(f) = \mu(g)$. En d’autres termes, la valeur de $\mu(f)$ ne dépend que de la classe $\tilde{f}$ de la fonction intégrable f ; on la note encore $\mu(\tilde{f})$, et la fonction $\tilde{f} \mapsto \mu(\tilde{f})$ est une application linéaire continue de $L_F^1$ dans F. Si une fonction f, à valeurs dans F, définie presque partout dans X, est équivalente à une fonction intégrable, on dit encore que f est intégrable, et on pose $\int f d\mu = \mu(\tilde{f})$; on définit de même une fonction intégrable à valeurs dans $\bar{\mathbf{R}}$, définie et finie presque partout, et son intégrale.
 
 ### 2. Propriétés de l’intégrale
 
@@ -105,11 +105,11 @@ $$
 \int f d|\mu| = \int^* f d|\mu| = N_1(f) \geq 0.
 $$
 
-En effet, $\int f d|\mu|$ et $N_1(f)$ sont continues dans $\mathcal{L}^1$ et égales pour toute fonction continue $f \geq 0$ à support compact; d’autre part, toute fonction $f \geq 0$ dans $\mathcal{L}^1$ est limite (au sens de la convergence en moyenne) d’une suite de fonctions $\geq 0$, continues et à support compact (§ 3, n° 5, prop. 11); d’où la proposition.
+En effet, $\int f d|\mu|$ et $N_1(f)$ sont continues dans $\mathscr{L}^1$ et égales pour toute fonction continue $f \geq 0$ à support compact; d’autre part, toute fonction $f \geq 0$ dans $\mathscr{L}^1$ est limite (au sens de la convergence en moyenne) d’une suite de fonctions $\geq 0$, continues et à support compact (§ 3, n° 5, prop. 11); d’où la proposition.
 
 #### Corollaire 1 {#int-iv-s4-prop-1-cor-1 .statement}
 
-Pour toute fonction intégrable $f \in \mathcal{L}_F^1$, $|f|$ est intégrable, et l’on a
+Pour toute fonction intégrable $f \in \mathscr{L}_F^1$, $|f|$ est intégrable, et l’on a
 
 $$
 \int |f| d|\mu| = \int^* |f| d|\mu| = N_1(f).
@@ -121,17 +121,17 @@ $$
 \int |f - g| d|\mu| = 0.
 $$
 
-Rappelons que, pour qu’une fonction $f$ appartienne à $\mathcal{L}_F^p$, il faut et il suffit que la fonction $|f|^{p-1} \cdot f$ appartienne à $\mathcal{L}_F^1$ (§ 3, n° 8, cor 1. du th. 7), c’est-à-dire soit intégrable; cela explique la terminologie de « fonction de puissance $p$-ième intégrable ». En outre:
+Rappelons que, pour qu’une fonction $f$ appartienne à $\mathscr{L}_F^p$, il faut et il suffit que la fonction $|f|^{p-1} \cdot f$ appartienne à $\mathscr{L}_F^1$ (§ 3, n° 8, cor 1. du th. 7), c’est-à-dire soit intégrable; cela explique la terminologie de « fonction de puissance $p$-ième intégrable ». En outre:
 
 #### Corollaire 2 {#int-iv-s4-prop-1-cor-2 .statement}
 
-Pour toute fonction $f \in \mathcal{L}_F^p$, la fonction numérique $|f|^p$ est intégrable, et l’on a
+Pour toute fonction $f \in \mathscr{L}_F^p$, la fonction numérique $|f|^p$ est intégrable, et l’on a
 
 $$
 N_p(f) = \left( \int |f|^p d|\mu| \right)^{1/p}.
 $$
 
-Cela résulte aussitôt de ce que $|f|$ appartient à $\mathcal{L}^p$ (§ 3, n° 5, prop. 11), et de la formule (2).
+Cela résulte aussitôt de ce que $|f|$ appartient à $\mathscr{L}^p$ (§ 3, n° 5, prop. 11), et de la formule (2).
 
 #### Proposition 2 {#int-iv-s4-prop-2 .statement}
 
@@ -141,7 +141,7 @@ $$
 \left| \int f d\mu \right| \leq \int |f| d|\mu|.
 $$
 
-Cela résulte aussitôt de l’inégalité (1) par passage à la limite, compte tenu de (3) et de la continuité de $N_1(f)$ dans $\mathcal{L}_F^1$.
+Cela résulte aussitôt de l’inégalité (1) par passage à la limite, compte tenu de (3) et de la continuité de $N_1(f)$ dans $\mathscr{L}_F^1$.
 
 #### Théorème 1 {#int-iv-s4-thm-1 .statement}
 
@@ -151,7 +151,7 @@ $$
 \int u(f(x)) d\mu(x) = u \left( \int f(x) d\mu(x) \right).
 $$
 
-Nous savons déjà que $u \circ f$ est intégrable (§ 3, n° 5, th. 4); la relation (6) étant valable pour $f \in \mathcal{K}_F$, s’étend à toute fonction intégrable $f$ par le principe de prolongement des identités : en effet, $f \mapsto u \circ f$ est continue pour la topologie de la convergence en moyenne, comme il résulte de l’inégalité $N_1(u \circ f) \leq \|u\| \cdot N_1(f)$.
+Nous savons déjà que $u \circ f$ est intégrable (§ 3, n° 5, th. 4); la relation (6) étant valable pour $f \in \mathscr{K}_F$, s’étend à toute fonction intégrable $f$ par le principe de prolongement des identités : en effet, $f \mapsto u \circ f$ est continue pour la topologie de la convergence en moyenne, comme il résulte de l’inégalité $N_1(u \circ f) \leq \|u\| \cdot N_1(f)$.
 
 #### Corollaire 1 {#int-iv-s4-thm-1-cor-1 .statement}
 
@@ -172,11 +172,11 @@ $$
 
 #### Proposition 3 {#int-iv-s4-prop-3 .statement}
 
-Soit $\mathcal{B}$ une base de filtre sur $\mathcal{L}_F^1$. On suppose qu’il existe un ensemble compact $K \subset X$ tel que, pour toute partie $M \in \mathcal{B}$, toutes les fonctions $f \in M$ aient leur support dans $K$. Dans ces conditions, si $\mathcal{B}$ converge uniformément dans $X$ vers $f_0$, la fonction $f_0$ est intégrable, et l’on a
+Soit $\mathscr{B}$ une base de filtre sur $\mathscr{L}_F^1$. On suppose qu’il existe un ensemble compact $K \subset X$ tel que, pour toute partie $M \in \mathscr{B}$, toutes les fonctions $f \in M$ aient leur support dans $K$. Dans ces conditions, si $\mathscr{B}$ converge uniformément dans $X$ vers $f_0$, la fonction $f_0$ est intégrable, et l’on a
 $$
-\int f_0 d\mu = \lim_{\mathcal{B}} \int f d\mu.
+\int f_0 d\mu = \lim_{\mathscr{B}} \int f d\mu.
 $$
-En effet, $\mathcal{B}$ converge en moyenne vers $f_0$ (§ 3, n° 3, prop. 4).
+En effet, $\mathscr{B}$ converge en moyenne vers $f_0$ (§ 3, n° 3, prop. 4).
 
 #### Proposition 4 {#int-iv-s4-prop-4 .statement}
 
@@ -253,9 +253,9 @@ on peut leur appliquer ce qui a été démontré ci-dessus; si $g'$ est l’enve
 
 #### Corollaire 3 {#int-iv-s4-prop-5-cor-3 .statement}
 
-Soit $f$ une fonction numérique bornée, semi-continue supérieurement dans $X$ et à support compact. Alors l’application $\mu \mapsto \int f d\mu$ est semi-continue supérieurement dans $\mathcal{M}_+(X)$ pour la topologie vague.
+Soit $f$ une fonction numérique bornée, semi-continue supérieurement dans $X$ et à support compact. Alors l’application $\mu \mapsto \int f d\mu$ est semi-continue supérieurement dans $\mathscr{M}_+(X)$ pour la topologie vague.
 
-Si $h$ est une fonction de $\mathcal{K}_+(X)$ telle que $|f| \leqslant h$ (chap. III, § 1, n° 2, lemme 1), on a $0 \leqslant f + h \leqslant 2h$, et comme $f + h$ est semi-continue supérieurement, il résulte du cor. 1 que $f$ est $\mu$-intégrable pour toute mesure $\mu$ sur $X$. En outre, on a $\mu(f) = \mu(h) - \mu(h - f)$ et $h - f$ est une fonction semi-continue inférieurement et $\geqslant 0$. Comme l’application $\mu \mapsto \mu(h - f)$ est semi-continue inférieurement dans $\mathcal{M}_+(X)$ pour la topologie vague (§ 1, n° 1, prop. 4), cela démontre le corollaire.
+Si $h$ est une fonction de $\mathscr{K}_+(X)$ telle que $|f| \leqslant h$ (chap. III, § 1, n° 2, lemme 1), on a $0 \leqslant f + h \leqslant 2h$, et comme $f + h$ est semi-continue supérieurement, il résulte du cor. 1 que $f$ est $\mu$-intégrable pour toute mesure $\mu$ sur $X$. En outre, on a $\mu(f) = \mu(h) - \mu(h - f)$ et $h - f$ est une fonction semi-continue inférieurement et $\geqslant 0$. Comme l’application $\mu \mapsto \mu(h - f)$ est semi-continue inférieurement dans $\mathscr{M}_+(X)$ pour la topologie vague (§ 1, n° 1, prop. 4), cela démontre le corollaire.
 
 #### Théorème 3 {#int-iv-s4-thm-3 .statement}
 
@@ -387,9 +387,9 @@ Pour la mesure de Lebesgue $\mu$ sur $\mathbf{R}$, il résulte de la prop. 10 qu
 
 #### Proposition 11 {#int-iv-s4-prop-11 .statement}
 
-*Soit $\mathcal{G}$ un ensemble, filtrant pour la relation $\subset$, d’ensembles ouverts intégrables de $X$; pour que $A = \bigcup_{G \in \mathcal{G}} G$ soit intégrable, il faut et il suffit que $\sup_{G \in \mathcal{G}} |\mu|(G) < +\infty$, et l’on a alors $\mu(A) = \lim_{\mathcal{G}} \mu(G)$ et $|\mu|(A) = \sup_{G \in \mathcal{G}} |\mu|(G)$.*
+*Soit $\mathscr{G}$ un ensemble, filtrant pour la relation $\subset$, d’ensembles ouverts intégrables de $X$; pour que $A = \bigcup_{G \in \mathscr{G}} G$ soit intégrable, il faut et il suffit que $\sup_{G \in \mathscr{G}} |\mu|(G) < +\infty$, et l’on a alors $\mu(A) = \lim_{\mathscr{G}} \mu(G)$ et $|\mu|(A) = \sup_{G \in \mathscr{G}} |\mu|(G)$.*
 
-On sait en effet que $|\mu|^*(A) = \sup_{G \in \mathcal{G}} |\mu|(G)$ (§ 1, n° 2, prop. 7); la proposition résulte donc de la prop. 10.
+On sait en effet que $|\mu|^*(A) = \sup_{G \in \mathscr{G}} |\mu|(G)$ (§ 1, n° 2, prop. 7); la proposition résulte donc de la prop. 10.
 
 #### Corollaire {#int-iv-s4-n6-cor-1 .statement}
 
@@ -456,7 +456,7 @@ Il suffit d’appliquer le cor. 2 à un ensemble ouvert intégrable contenant l�
 
 Pour tout ensemble ouvert $U$ dans $E$, $|\mu|^*(U)$ est la borne supérieure des mesures $|\mu|(K)$ des ensembles compacts $K \subset U$.
 
-C’est immédiat si $|\mu|^*(U) < +\infty$ en raison du th. 4. Si $|\mu|^*(U) = +\infty$, pour tout entier $n$, il existe par hypothèse une fonction $f \in \mathcal{K}_+$ telle que $f \leq \varphi_U$ et $|\mu|(f) \geq n$. Si $K$ est le support compact de $f$, on a $f \leq \varphi_K \leq \varphi_U$, d’où $|\mu|(K) \geq n$, ce qui démontre le corollaire.
+C’est immédiat si $|\mu|^*(U) < +\infty$ en raison du th. 4. Si $|\mu|^*(U) = +\infty$, pour tout entier $n$, il existe par hypothèse une fonction $f \in \mathscr{K}_+$ telle que $f \leq \varphi_U$ et $|\mu|(f) \geq n$. Si $K$ est le support compact de $f$, on a $f \leq \varphi_K \leq \varphi_U$, d’où $|\mu|(K) \geq n$, ce qui démontre le corollaire.
 
 On notera que $|\mu|^*(U)$ est aussi la borne supérieure des mesures $|\mu|(G)$ des ensembles ouverts relativement compacts tels que $\bar{G} \subset U$. En effet, si $K$ est un ensemble compact contenu dans $U$, pour tout $x \in K$, il existe un voisinage ouvert relativement compact $V$ de $x$ tel que $\bar{V} \subset U$. En recouvrant $K$ par un nombre fini de ces voisinages, leur réunion $G$ est un ensemble ouvert relativement compact tel que $\bar{G} \subset U$ et $K \subset G$, d’où
 $$
@@ -479,11 +479,11 @@ Il résulte du th. 4 n° 5 que si $\mu$ est une mesure bornée, pour tout $\vare
 
 #### Proposition 13 {#int-iv-s4-prop-13 .statement}
 
-Soit $\mu$ une mesure bornée sur $X$. Soit $\mathcal{B}$ une base de filtre sur $\mathcal{L}_F^p$, ayant les propriétés suivantes :
-1° il existe un ensemble $M \in \mathcal{B}$ tel que les fonctions $f \in M$ soient uniformément bornées dans $X$;
-2° $\mathcal{B}$ converge uniformément dans toute partie compacte de $X$ vers une fonction $f_0$.
-Dans ces conditions, $f_0$ appartient à $\mathcal{L}_F^p$ et $\mathcal{B}$ converge en moyenne d’ordre $p$ vers $f_0$.
-Remarquons d’abord que si $|f(x)| \leq a$ pour tout $x \in X$ et toute fonction $f \in M$, on a aussi $|f_0(x)| \leq a$ pour tout $x \in X$. Cela étant, pour tout $\varepsilon > 0$, il existe un ensemble compact $K$ tel que $|\mu|(C K) \leq \varepsilon^p$ et un ensemble $N \in \mathcal{B}$ tel que, pour toute fonction $f \in N$, on ait $|f(x) - f_0(x)| \leq \varepsilon(|\mu|(K))^{-1/p}$ pour tout $x \in K$. Or, on peut écrire
+Soit $\mu$ une mesure bornée sur $X$. Soit $\mathscr{B}$ une base de filtre sur $\mathscr{L}_F^p$, ayant les propriétés suivantes :
+1° il existe un ensemble $M \in \mathscr{B}$ tel que les fonctions $f \in M$ soient uniformément bornées dans $X$;
+2° $\mathscr{B}$ converge uniformément dans toute partie compacte de $X$ vers une fonction $f_0$.
+Dans ces conditions, $f_0$ appartient à $\mathscr{L}_F^p$ et $\mathscr{B}$ converge en moyenne d’ordre $p$ vers $f_0$.
+Remarquons d’abord que si $|f(x)| \leq a$ pour tout $x \in X$ et toute fonction $f \in M$, on a aussi $|f_0(x)| \leq a$ pour tout $x \in X$. Cela étant, pour tout $\varepsilon > 0$, il existe un ensemble compact $K$ tel que $|\mu|(C K) \leq \varepsilon^p$ et un ensemble $N \in \mathscr{B}$ tel que, pour toute fonction $f \in N$, on ait $|f(x) - f_0(x)| \leq \varepsilon(|\mu|(K))^{-1/p}$ pour tout $x \in K$. Or, on peut écrire
 $$
 f - f_0 = (f - f_0)\varphi_K + (f - f_0)\varphi_{C K};
 $$
@@ -491,14 +491,14 @@ il résulte de ce qui précède que, si $f \in M \cap N$, on a $N_p((f - f_0)\va
 
 #### Corollaire {#int-iv-s4-n7-cor-1 .statement}
 
-Pour une mesure $\mu$ bornée sur $X$, toute application $f$ continue et bornée de $X$ dans $F$ appartient à chacun des $\mathcal{L}_F^p (1 \leq p < +\infty)$.
-En effet, pour toute partie compacte $K$ de $X$, soit $M_K$ l’ensemble des applications de $X$ dans $F$ de la forme $h f$, où $h$ est une application continue de $X$ dans $\{0, 1\}$ égale à 1 dans $K$ et à support compact. Il est clair que les ensembles $M_K$ forment dans $\mathcal{L}_F^p$ une base de filtre $\mathcal{B}$, que les fonctions appartenant à $M_K$ sont uniformément bornées, et que $\mathcal{B}$ converge uniformément vers $f$ dans toute partie compacte de $X$, d’où le corollaire.
+Pour une mesure $\mu$ bornée sur $X$, toute application $f$ continue et bornée de $X$ dans $F$ appartient à chacun des $\mathscr{L}_F^p (1 \leq p < +\infty)$.
+En effet, pour toute partie compacte $K$ de $X$, soit $M_K$ l’ensemble des applications de $X$ dans $F$ de la forme $h f$, où $h$ est une application continue de $X$ dans $\{0, 1\}$ égale à 1 dans $K$ et à support compact. Il est clair que les ensembles $M_K$ forment dans $\mathscr{L}_F^p$ une base de filtre $\mathscr{B}$, que les fonctions appartenant à $M_K$ sont uniformément bornées, et que $\mathscr{B}$ converge uniformément vers $f$ dans toute partie compacte de $X$, d’où le corollaire.
 
-En particulier, la fonction $f$ est intégrable, et son intégrale $\int f \, d\mu$ est la limite suivant $\mathcal{B}$ des intégrales $\int h f \, d\mu$.
+En particulier, la fonction $f$ est intégrable, et son intégrale $\int f \, d\mu$ est la limite suivant $\mathscr{B}$ des intégrales $\int h f \, d\mu$.
 
 Nous retrouverons le cor. de la prop. 13 comme conséquence d’un critère général d’intégrabilité au § 5, n° 6.
 
-Avec les notations du chap. III, § 1, n° 2, on a $|f| \leq \|f\| . 1$ pour toute fonction $f \in \mathcal{C}^b(X; F)$, d’où, en vertu des formules (3) et (4) du n° 2,
+Avec les notations du chap. III, § 1, n° 2, on a $|f| \leq \|f\| . 1$ pour toute fonction $f \in \mathscr{C}^b(X; F)$, d’où, en vertu des formules (3) et (4) du n° 2,
 
 (19)
 $$
@@ -512,7 +512,7 @@ $$
 |\int f d\mu| \leq \|f\| \cdot \|\mu\|
 $$
 
-et par suite l’application $f \mapsto \int f d\mu$ est continue dans l’espace de Banach $C^b(X; F)$; sa restriction à l’adhérence $C^0(X; F)$ de $\mathcal{K}(X; F)$ dans $C^b(X; F)$, espace des fonctions continues tendant vers 0 au point à l’infini (chap. III, § 1, n° 2, prop. 3), est donc le prolongement par continuité de l’intégrale à $C^0(X; F)$.
+et par suite l’application $f \mapsto \int f d\mu$ est continue dans l’espace de Banach $C^b(X; F)$; sa restriction à l’adhérence $C^0(X; F)$ de $\mathscr{K}(X; F)$ dans $C^b(X; F)$, espace des fonctions continues tendant vers 0 au point à l’infini (chap. III, § 1, n° 2, prop. 3), est donc le prolongement par continuité de l’intégrale à $C^0(X; F)$.
 
 ### 8. Intégration par rapport à une mesure à support compact
 
@@ -530,25 +530,25 @@ $$
 |\int f d\mu| \leq \|\mu\| \cdot \sup_{x \in S} |f(x)|.
 $$
 
-En particulier si $f$ est continue dans $X$, $f$ est $\mu$-intégrable puisque $fh \in \mathcal{K}(X; F)$ pour toute fonction $h \in \mathcal{K}(X; \mathbf{R})$ égale à 1 dans $S$ (chap. III, § 1, n° 2, lemme 1). Plus précisément :
+En particulier si $f$ est continue dans $X$, $f$ est $\mu$-intégrable puisque $fh \in \mathscr{K}(X; F)$ pour toute fonction $h \in \mathscr{K}(X; \mathbf{R})$ égale à 1 dans $S$ (chap. III, § 1, n° 2, lemme 1). Plus précisément :
 
 #### Proposition 14 {#int-iv-s4-prop-14 .statement}
 
-Soient $X$ un espace localement compact, $F$ un espace de Banach non réduit à 0 ; on munit l’espace $C(X; F)$ de toutes les applications continues de $X$ dans $F$ de la topologie de la convergence compacte. Pour qu’une mesure $\mu$ sur $X$ soit telle que l’application linéaire $f \mapsto \int f d\mu$ de $\mathcal{K}(X; F)$ dans $X$ se prolonge en une application linéaire continue de $C(X; F)$ dans $F$, il faut et il suffit que $\mathrm{Supp}(\mu)$ soit compact ; un tel prolongement est unique et coïncide avec l’intégrale définie au n° 1.
+Soient $X$ un espace localement compact, $F$ un espace de Banach non réduit à 0 ; on munit l’espace $C(X; F)$ de toutes les applications continues de $X$ dans $F$ de la topologie de la convergence compacte. Pour qu’une mesure $\mu$ sur $X$ soit telle que l’application linéaire $f \mapsto \int f d\mu$ de $\mathscr{K}(X; F)$ dans $X$ se prolonge en une application linéaire continue de $C(X; F)$ dans $F$, il faut et il suffit que $\mathrm{Supp}(\mu)$ soit compact ; un tel prolongement est unique et coïncide avec l’intégrale définie au n° 1.
 
-On vient de voir en effet que si $\mu$ a un support compact, l’intégrale $\int f d\mu$ est définie pour toute fonction $f \in C(X; F)$ et que l’application $f \mapsto \int f d\mu$ de $C(X; F)$ dans $F$ est continue pour la topologie de la convergence compacte. Inversement, supposons que $f \mapsto \int f\, d\mu$ soit continue *dans* $\mathcal{K}(X; F)$ pour la topologie de la convergence compacte. Il y a alors un ensemble compact $K \subset X$ et un nombre $a > 0$ tels que $|\mu(f)| \leq a \cdot \sup_{x \in K} |f(x)|$ pour toute fonction $f \in \mathcal{K}(X; F)$; en particulier, si le support de $g \in \mathcal{K}(X; F)$ ne rencontre pas $K$, on a $\mu(g) = 0$. Prenant $g = h a$, où $a \neq 0$ est un vecteur de $F$ et $h \in \mathcal{K}(X; C)$, on voit que $\mu(h) = 0$ pour toute fonction $h \in \mathcal{K}(X; C)$ dont le support ne rencontre pas $K$, ce qui prouve que $\operatorname{Supp}(\mu) \subset K$. Enfin, l’unicité du prolongement résulte de ce que $\mathcal{K}(X; F)$ est *dense* dans $\mathcal{C}(X; F)$ pour la topologie de la convergence compacte (chap. III, § 1, no 2, prop. 4).
+On vient de voir en effet que si $\mu$ a un support compact, l’intégrale $\int f d\mu$ est définie pour toute fonction $f \in C(X; F)$ et que l’application $f \mapsto \int f d\mu$ de $C(X; F)$ dans $F$ est continue pour la topologie de la convergence compacte. Inversement, supposons que $f \mapsto \int f\, d\mu$ soit continue *dans* $\mathscr{K}(X; F)$ pour la topologie de la convergence compacte. Il y a alors un ensemble compact $K \subset X$ et un nombre $a > 0$ tels que $|\mu(f)| \leq a \cdot \sup_{x \in K} |f(x)|$ pour toute fonction $f \in \mathscr{K}(X; F)$; en particulier, si le support de $g \in \mathscr{K}(X; F)$ ne rencontre pas $K$, on a $\mu(g) = 0$. Prenant $g = h a$, où $a \neq 0$ est un vecteur de $F$ et $h \in \mathscr{K}(X; C)$, on voit que $\mu(h) = 0$ pour toute fonction $h \in \mathscr{K}(X; C)$ dont le support ne rencontre pas $K$, ce qui prouve que $\operatorname{Supp}(\mu) \subset K$. Enfin, l’unicité du prolongement résulte de ce que $\mathscr{K}(X; F)$ est *dense* dans $\mathscr{C}(X; F)$ pour la topologie de la convergence compacte (chap. III, § 1, no 2, prop. 4).
 
-La prop. 14 permet d’identifier une mesure à support compact sur $X$ à son prolongement continu à $\mathcal{C}(X; C)$. L’ensemble des mesures à support compact sur $X$ s’identifie donc au *dual* $\mathcal{C}'(X; C)$ de l’espace localement convexe séparé $\mathcal{C}(X; C)$. Rappelons que $\mathcal{C}(X; C)$ est *complet* (*Top. gén.*, chap. X, 2e éd., § 1, no 6, cor. 3 du th. 2); mais il n’est pas nécessairement tonnelé (exerc. 17). Toutefois, si $X$ est *dénombrable à l’infini*, donc réunion d’une suite croissante d’ensembles compacts $K_n$ tels que $K_n \subset \dot{K}_{n+1}$, alors la topologie de $\mathcal{C}(X; C)$ peut être définie par la famille dénombrable de semi-normes $p_n(f) = \sup_{x \in K_n} |f(x)|$, donc $\mathcal{C}(X; C)$ est un *espace de Fréchet* dans ce cas. Par suite, pour tout recouvrement $\mathfrak{S}$ de $\mathcal{C}(X; C)$ par des ensembles bornés, l’espace $\mathcal{C}'(X; C)$ est alors *quasi-complet* pour la $\mathfrak{S}$-topologie (*Esp. vect. top.*, chap. III, § 3, no 7, cor. 2 du th. 4).
+La prop. 14 permet d’identifier une mesure à support compact sur $X$ à son prolongement continu à $\mathscr{C}(X; C)$. L’ensemble des mesures à support compact sur $X$ s’identifie donc au *dual* $\mathscr{C}'(X; C)$ de l’espace localement convexe séparé $\mathscr{C}(X; C)$. Rappelons que $\mathscr{C}(X; C)$ est *complet* (*Top. gén.*, chap. X, 2e éd., § 1, no 6, cor. 3 du th. 2); mais il n’est pas nécessairement tonnelé (exerc. 17). Toutefois, si $X$ est *dénombrable à l’infini*, donc réunion d’une suite croissante d’ensembles compacts $K_n$ tels que $K_n \subset \dot{K}_{n+1}$, alors la topologie de $\mathscr{C}(X; C)$ peut être définie par la famille dénombrable de semi-normes $p_n(f) = \sup_{x \in K_n} |f(x)|$, donc $\mathscr{C}(X; C)$ est un *espace de Fréchet* dans ce cas. Par suite, pour tout recouvrement $\mathfrak{S}$ de $\mathscr{C}(X; C)$ par des ensembles bornés, l’espace $\mathscr{C}'(X; C)$ est alors *quasi-complet* pour la $\mathfrak{S}$-topologie (*Esp. vect. top.*, chap. III, § 3, no 7, cor. 2 du th. 4).
 
-Nous considérerons surtout sur $\mathcal{C}'(X; C)$ la topologie de la *convergence compacte* (topologie de la convergence uniforme dans les parties compactes de $\mathcal{C}(X; C)$). Rappelons que les parties relativement compactes $H$ de $\mathcal{C}(X; C)$ sont caractérisées par les propriétés suivantes (*Top. gén.*, chap. X, 2e éd., § 2, no 5, cor. 3 du th. 2):
+Nous considérerons surtout sur $\mathscr{C}'(X; C)$ la topologie de la *convergence compacte* (topologie de la convergence uniforme dans les parties compactes de $\mathscr{C}(X; C)$). Rappelons que les parties relativement compactes $H$ de $\mathscr{C}(X; C)$ sont caractérisées par les propriétés suivantes (*Top. gén.*, chap. X, 2e éd., § 2, no 5, cor. 3 du th. 2):
 1° $H$ est équicontinue ;
 2° pour tout $x \in X$, l’ensemble $H(x)$ des $f(x)$, où $f$ parcourt $H$, est borné dans $C$.
 
 #### Proposition 15 {#int-iv-s4-prop-15 .statement}
 
-*Soient* $X$ *un espace localement compact et, pour tout* $x \in X$, *soit* $\varepsilon_x$ *la mesure de Dirac au point* $x$. *L’application* $x \mapsto \varepsilon_x$ *de* $X$ *dans* $\mathcal{C}'(X; C)$ *est continue pour la topologie de la convergence compacte sur* $\mathcal{C}'(X; C)$.
+*Soient* $X$ *un espace localement compact et, pour tout* $x \in X$, *soit* $\varepsilon_x$ *la mesure de Dirac au point* $x$. *L’application* $x \mapsto \varepsilon_x$ *de* $X$ *dans* $\mathscr{C}'(X; C)$ *est continue pour la topologie de la convergence compacte sur* $\mathscr{C}'(X; C)$.
 
-Considérons un voisinage de $\varepsilon_{x_0}$ dans $\mathcal{C}'(X; C)$ pour cette topologie, que l’on peut supposer défini en prenant un nombre δ > 0, une partie compacte H de $\mathcal{C}(X; \mathbf{C})$ et en considérant l’ensemble des mesures $\mu$ sur X telles que $|\mu(f) - \varepsilon_{x_0}(f)| \leq \delta$ pour toute fonction $f \in H$. Comme H est équicontinue, il existe un voisinage U de $x_0$ dans X tel que la relation $f \in H$ entraîne $|f(x) - f(x_0)| \leq \delta$ pour tout $x \in U$, ce qui s’écrit aussi
+Considérons un voisinage de $\varepsilon_{x_0}$ dans $\mathscr{C}'(X; C)$ pour cette topologie, que l’on peut supposer défini en prenant un nombre δ > 0, une partie compacte H de $\mathscr{C}(X; \mathbf{C})$ et en considérant l’ensemble des mesures $\mu$ sur X telles que $|\mu(f) - \varepsilon_{x_0}(f)| \leq \delta$ pour toute fonction $f \in H$. Comme H est équicontinue, il existe un voisinage U de $x_0$ dans X tel que la relation $f \in H$ entraîne $|f(x) - f(x_0)| \leq \delta$ pour tout $x \in U$, ce qui s’écrit aussi
 
 $$
 |\varepsilon_x(f) - \varepsilon_{x_0}(f)| \leq \delta,
@@ -558,35 +558,35 @@ et prouve la proposition.
 
 #### Proposition 16 {#int-iv-s4-prop-16 .statement}
 
-*Soient K une partie compacte de X, L l’espace vectoriel des mesures $\mu$ sur X de support contenu dans K. Sur L, les topologies induites par la topologie $\mathcal{T}$ de la convergence compacte sur $\mathcal{C}'(X; \mathbf{C})$ et la topologie $\mathcal{T}'$ de la convergence strictement compacte sur $\mathcal{M}(X; \mathbf{C})$ (chap. III, § 1, n° 10) coïncident.*
+*Soient K une partie compacte de X, L l’espace vectoriel des mesures $\mu$ sur X de support contenu dans K. Sur L, les topologies induites par la topologie $\mathscr{T}$ de la convergence compacte sur $\mathscr{C}'(X; \mathbf{C})$ et la topologie $\mathscr{T}'$ de la convergence strictement compacte sur $\mathscr{M}(X; \mathbf{C})$ (chap. III, § 1, n° 10) coïncident.*
 
-Il est clair que sur L, la topologie induite par $\mathcal{T}$ est plus fine que la topologie induite par $\mathcal{T}'$. Inversement, soient H une partie compacte de $\mathcal{C}(X; \mathbf{C})$, h une fonction de $\mathcal{K}(X; \mathbf{C})$ égale à 1 dans K. Il est clair que l’ensemble H’ des fonctions $fh$, où $f$ parcourt H, est strictement compact dans $\mathcal{K}(X; \mathbf{C})$, et, pour toute mesure $\mu \in L$, on a $\mu(f) = \mu(fh)$ pour toute fonction $f \in H$, d’où la conclusion.
+Il est clair que sur L, la topologie induite par $\mathscr{T}$ est plus fine que la topologie induite par $\mathscr{T}'$. Inversement, soient H une partie compacte de $\mathscr{C}(X; \mathbf{C})$, h une fonction de $\mathscr{K}(X; \mathbf{C})$ égale à 1 dans K. Il est clair que l’ensemble H’ des fonctions $fh$, où $f$ parcourt H, est strictement compact dans $\mathscr{K}(X; \mathbf{C})$, et, pour toute mesure $\mu \in L$, on a $\mu(f) = \mu(fh)$ pour toute fonction $f \in H$, d’où la conclusion.
 
 #### Corollaire 1 {#int-iv-s4-prop-16-cor-1 .statement}
 
-*Pour toute partie compacte K de X et tout nombre $a > 0$, l’ensemble B des mesures $\mu$ sur X telles que $\mathrm{Supp}(\mu) \subset K$ et $\| \mu \| \leq a$ est une partie équicontinue de $\mathcal{C}'(X; \mathbf{C})$, qui est compacte pour la topologie $\mathcal{T}$ de la convergence compacte.*
+*Pour toute partie compacte K de X et tout nombre $a > 0$, l’ensemble B des mesures $\mu$ sur X telles que $\mathrm{Supp}(\mu) \subset K$ et $\| \mu \| \leq a$ est une partie équicontinue de $\mathscr{C}'(X; \mathbf{C})$, qui est compacte pour la topologie $\mathscr{T}$ de la convergence compacte.*
 
-En effet, soit H une partie de $\mathcal{C}(X; \mathbf{C})$, formée de fonctions uniformément bornées dans K ; il existe un nombre $c > 0$ tel que $|\mu(f)| \leq c.\| \mu \| \leq ac$ pour toute fonction $f \in H$ et toute mesure $\mu \in B$, en vertu de (22) ; on a donc $B \subset acH^0$ dans le dual $\mathcal{C}'(X; \mathbf{C})$ de $\mathcal{C}(X; \mathbf{C})$, ce qui prouve l’équicontinuité de B ; le fait que B est compact pour $\mathcal{T}$ résulte de ce que, sur B, $\mathcal{T}$ et la topologie vague induisent la même topologie (prop. 16 et chap. III, § 1, n° 10, prop. 17) et du fait que B est vaguement compact (chap. III, § 1, n° 9, cor. 2 de la prop. 15 et § 2, n° 2, prop. 6).
+En effet, soit H une partie de $\mathscr{C}(X; \mathbf{C})$, formée de fonctions uniformément bornées dans K ; il existe un nombre $c > 0$ tel que $|\mu(f)| \leq c.\| \mu \| \leq ac$ pour toute fonction $f \in H$ et toute mesure $\mu \in B$, en vertu de (22) ; on a donc $B \subset acH^0$ dans le dual $\mathscr{C}'(X; \mathbf{C})$ de $\mathscr{C}(X; \mathbf{C})$, ce qui prouve l’équicontinuité de B ; le fait que B est compact pour $\mathscr{T}$ résulte de ce que, sur B, $\mathscr{T}$ et la topologie vague induisent la même topologie (prop. 16 et chap. III, § 1, n° 10, prop. 17) et du fait que B est vaguement compact (chap. III, § 1, n° 9, cor. 2 de la prop. 15 et § 2, n° 2, prop. 6).
 
 #### Corollaire 2 {#int-iv-s4-prop-16-cor-2 .statement}
 
-*Toute mesure à support compact (resp. positive à support compact) $\mu$ est adhérente dans $\mathcal{C}'(X; \mathbf{C})$, pour la topologie $\mathcal{T}$ de la convergence compacte, à l’ensemble des mesures (resp. des mesures positives) dont le support est fini et contenu dans $\mathrm{Supp}(\mu)$ et dont la norme est égale à $\| \mu \|$.*
+*Toute mesure à support compact (resp. positive à support compact) $\mu$ est adhérente dans $\mathscr{C}'(X; \mathbf{C})$, pour la topologie $\mathscr{T}$ de la convergence compacte, à l’ensemble des mesures (resp. des mesures positives) dont le support est fini et contenu dans $\mathrm{Supp}(\mu)$ et dont la norme est égale à $\| \mu \|$.*
 
 En effet, sur l’ensemble B des mesures $\nu$ telles que
 $$
 \operatorname{Supp}(\nu) \subset \operatorname{Supp}(\mu) \quad \text{et} \quad \| \nu \| \leq \| \mu \|,
 $$
-la topologie induite par la topologie vague est identique à la topologie induite par $\mathcal{T}$, et le corollaire résulte donc du chap. III, § 2, n° 4, cor. 2 et 3 du th. 1.
+la topologie induite par la topologie vague est identique à la topologie induite par $\mathscr{T}$, et le corollaire résulte donc du chap. III, § 2, n° 4, cor. 2 et 3 du th. 1.
 
 ### 9. Clans et fonctions additives d’ensemble
 
 #### Définition 3 {#int-iv-s4-def-3 .statement}
 
-On dit qu’un ensemble non vide $\Phi$ de parties d’un ensemble A est un clan s’il existe une algèbre $\mathcal{A}$ (sur $\mathbf{R}$) formée de fonctions numériques finies, définies dans A, telle que les relations $M \in \Phi$ et $\varphi_M \in \mathcal{A}$ soient équivalentes.
+On dit qu’un ensemble non vide $\Phi$ de parties d’un ensemble A est un clan s’il existe une algèbre $\mathscr{A}$ (sur $\mathbf{R}$) formée de fonctions numériques finies, définies dans A, telle que les relations $M \in \Phi$ et $\varphi_M \in \mathscr{A}$ soient équivalentes.
 
 #### Exemple {#int-iv-s4-n9-exa-1 .statement}
 
-Si $\mu$ est une mesure sur un espace localement compact X, les combinaisons linéaires à coefficients réels de fonctions caractéristiques d’ensembles intégrables forment une algèbre $\mathcal{A}$, car pour deux ensembles intégrables M, N,
+Si $\mu$ est une mesure sur un espace localement compact X, les combinaisons linéaires à coefficients réels de fonctions caractéristiques d’ensembles intégrables forment une algèbre $\mathscr{A}$, car pour deux ensembles intégrables M, N,
 $$
 \varphi_M \varphi_N = \varphi_{M \cap N}
 $$
@@ -602,7 +602,7 @@ $$
 \varphi_{M \cup N} = \varphi_M + \varphi_N - \varphi_M \varphi_N, \qquad \varphi_{M \cap \mathbf{C} N} = \varphi_M - \varphi_M \varphi_N.
 $$
 
-Pour montrer qu’elle est suffisante, remarquons d’abord qu’elle entraîne que, pour deux ensembles quelconques M, N de $\Phi$, $M \cap N$ appartient à $\Phi$, puisque $M \cap N = M \cap (\mathbf{C}(M \cap \mathbf{C} N))$. Soit alors $\mathcal{E}(\Phi)$ l’ensemble des combinaisons linéaires à coefficients réels de fonctions caractéristiques d’ensembles de $\Phi$. Comme $\varphi_M \varphi_N = \varphi_{M \cap N}$, $\mathcal{E}(\Phi)$ est une algèbre. Tout revient à montrer que, si M est une partie de A telle que $\varphi_M = \sum_i c_i \varphi_{M_i}$, où les $M_i \in \Phi$, on a $M \in \Phi$.
+Pour montrer qu’elle est suffisante, remarquons d’abord qu’elle entraîne que, pour deux ensembles quelconques M, N de $\Phi$, $M \cap N$ appartient à $\Phi$, puisque $M \cap N = M \cap (\mathbf{C}(M \cap \mathbf{C} N))$. Soit alors $\mathscr{E}(\Phi)$ l’ensemble des combinaisons linéaires à coefficients réels de fonctions caractéristiques d’ensembles de $\Phi$. Comme $\varphi_M \varphi_N = \varphi_{M \cap N}$, $\mathscr{E}(\Phi)$ est une algèbre. Tout revient à montrer que, si M est une partie de A telle que $\varphi_M = \sum_i c_i \varphi_{M_i}$, où les $M_i \in \Phi$, on a $M \in \Phi$.
 
 Cela va résulter du lemme suivant:
 
@@ -620,9 +620,9 @@ Tout clan $\Phi$ de parties de $A$ contient la partie vide $\emptyset$ de $A$; e
 
 Etant donné un clan $\Phi$ de parties d’un ensemble $A$, et un espace de Banach $F$, on appelle fonction étagée sur les ensembles de $\Phi$ (ou fonction $\Phi$-étagée), à valeurs dans $F$, toute fonction de la forme $\sum_i a_i \varphi_{M_i}$, où les $a_i$ appartiennent à $F$, et les $M_i$ à $\Phi$.
 
-Il est clair que l’ensemble $\mathcal{E}_F(\Phi)$ des fonctions $\Phi$-étagées à valeurs dans $F$, est un espace vectoriel sur $\mathbf{R}$ ou $\mathbf{C}$. Nous venons de voir dans la prop. 17 que l’ensemble $\mathcal{E}(\Phi)$ des fonctions numériques finies $\Phi$-étagées est une algèbre sur $\mathbf{R}$; c’est aussi le sous-espace vectoriel de $\mathbf{R}^A$ engendré par les fonctions caractéristiques des ensembles de $\Phi$.
+Il est clair que l’ensemble $\mathscr{E}_F(\Phi)$ des fonctions $\Phi$-étagées à valeurs dans $F$, est un espace vectoriel sur $\mathbf{R}$ ou $\mathbf{C}$. Nous venons de voir dans la prop. 17 que l’ensemble $\mathscr{E}(\Phi)$ des fonctions numériques finies $\Phi$-étagées est une algèbre sur $\mathbf{R}$; c’est aussi le sous-espace vectoriel de $\mathbf{R}^A$ engendré par les fonctions caractéristiques des ensembles de $\Phi$.
 
-Toute fonction de $\mathcal{E}_F(\Phi)$ peut s’écrire $f = \sum_j c_j \varphi_{N_j}$, où les $N_j \in \Phi$ sont deux à deux sans point commun, en raison du lemme 1 ; on en déduit que $|f| = \sum_j |c_j| \varphi_{N_j}$ appartient à $\mathcal{E}(\Phi)$. En particulier, $\mathcal{E}(\Phi)$ est un espace de Riesz, l’enveloppe supérieure de deux fonctions de $\mathcal{E}(\Phi)$ appartenant à $\mathcal{E}(\Phi)$.
+Toute fonction de $\mathscr{E}_F(\Phi)$ peut s’écrire $f = \sum_j c_j \varphi_{N_j}$, où les $N_j \in \Phi$ sont deux à deux sans point commun, en raison du lemme 1 ; on en déduit que $|f| = \sum_j |c_j| \varphi_{N_j}$ appartient à $\mathscr{E}(\Phi)$. En particulier, $\mathscr{E}(\Phi)$ est un espace de Riesz, l’enveloppe supérieure de deux fonctions de $\mathscr{E}(\Phi)$ appartenant à $\mathscr{E}(\Phi)$.
 
 #### Remarque {#int-iv-s4-n9-rem-1 .statement}
 
@@ -636,40 +636,40 @@ Il résulte en particulier de cette définition que $\lambda(\emptyset) = 0$.
 
 #### Proposition 18 {#int-iv-s4-prop-18 .statement}
 
-Soit $\lambda$ une fonction additive d’ensemble, définie dans un clan $\Phi$. Il existe une forme linéaire et une seule (notée encore $\lambda$) sur l’espace vectoriel $\mathcal{E}(\Phi)$ des fonctions $\Phi$-étagées numériques finies, telle que $\lambda(\varphi_M) = \lambda(M)$ pour tout ensemble $M \in \Phi$; en outre, si $\lambda(M) \geq 0$ pour tout $M \in \Phi$, $\lambda$ est une forme linéaire positive sur $\mathcal{E}(\Phi)$.
+Soit $\lambda$ une fonction additive d’ensemble, définie dans un clan $\Phi$. Il existe une forme linéaire et une seule (notée encore $\lambda$) sur l’espace vectoriel $\mathscr{E}(\Phi)$ des fonctions $\Phi$-étagées numériques finies, telle que $\lambda(\varphi_M) = \lambda(M)$ pour tout ensemble $M \in \Phi$; en outre, si $\lambda(M) \geq 0$ pour tout $M \in \Phi$, $\lambda$ est une forme linéaire positive sur $\mathscr{E}(\Phi)$.
 
-L’unicité de la forme linéaire $\lambda$ est évidente, puisque les fonctions caractéristiques d’ensembles de $\Phi$ engendrent l’espace vectoriel $\mathcal{E}(\Phi)$. Pour prouver l’existence de $\lambda$, il suffit de prouver que la relation $\sum_i c_i \varphi_{M_i} = 0$, où les $M_i$ sont des ensembles non vides appartenant à $\Phi$, entraîne $\sum_i c_i \lambda(M_i) = 0$. Or, en vertu du lemme 1, il existe une famille finie $(N_j)$ d’ensembles non vides de $\Phi$, deux à deux sans point commun, telle que pour chaque indice $i$, on ait $\varphi_{M_i} = \sum_j a_{ij} \varphi_{N_j}$, avec $a_{ij} = 0$ ou $a_{ij} = 1$. La relation $\sum_i c_i \varphi_{M_i} = 0$, qui s’écrit $\sum_j \left( \sum_i c_i a_{ij} \right) \varphi_{N_j} = 0$, entraîne donc $\sum_i c_i a_{ij} = 0$ pour tout indice $j$. En vertu de la déf. 5, on a alors
+L’unicité de la forme linéaire $\lambda$ est évidente, puisque les fonctions caractéristiques d’ensembles de $\Phi$ engendrent l’espace vectoriel $\mathscr{E}(\Phi)$. Pour prouver l’existence de $\lambda$, il suffit de prouver que la relation $\sum_i c_i \varphi_{M_i} = 0$, où les $M_i$ sont des ensembles non vides appartenant à $\Phi$, entraîne $\sum_i c_i \lambda(M_i) = 0$. Or, en vertu du lemme 1, il existe une famille finie $(N_j)$ d’ensembles non vides de $\Phi$, deux à deux sans point commun, telle que pour chaque indice $i$, on ait $\varphi_{M_i} = \sum_j a_{ij} \varphi_{N_j}$, avec $a_{ij} = 0$ ou $a_{ij} = 1$. La relation $\sum_i c_i \varphi_{M_i} = 0$, qui s’écrit $\sum_j \left( \sum_i c_i a_{ij} \right) \varphi_{N_j} = 0$, entraîne donc $\sum_i c_i a_{ij} = 0$ pour tout indice $j$. En vertu de la déf. 5, on a alors
 
 $$
 \sum_i c_i \lambda(M_i) = \sum_j \left( \sum_i c_i a_{ij} \right) \lambda(N_j) = 0,
 $$
 
-ce qui démontre l’existence de $\lambda$. Supposons enfin que $\lambda(M) \geq 0$ pour tout $M \in \Phi$; pour toute fonction $f \in \mathcal{E}(\Phi)$, on peut écrire $f = \sum_i c_i \varphi_{M_i}$, où les $M_i \in \Phi$ sont deux à deux sans point commun; si $f \geqslant 0$, on a donc $c_i \geqslant 0$ pour tout indice $i$ tel que $M_i$ soit non vide, d’où $\lambda(f) = \sum_i c_i \lambda(M_i) \geqslant 0$.
+ce qui démontre l’existence de $\lambda$. Supposons enfin que $\lambda(M) \geq 0$ pour tout $M \in \Phi$; pour toute fonction $f \in \mathscr{E}(\Phi)$, on peut écrire $f = \sum_i c_i \varphi_{M_i}$, où les $M_i \in \Phi$ sont deux à deux sans point commun; si $f \geqslant 0$, on a donc $c_i \geqslant 0$ pour tout indice $i$ tel que $M_i$ soit non vide, d’où $\lambda(f) = \sum_i c_i \lambda(M_i) \geqslant 0$.
 
 ### 10. Approximation des fonctions continues par les fonctions étagées
 
 #### Proposition 19 {#int-iv-s4-prop-19 .statement}
 
-*Soient X un espace localement compact, $\Phi$ un clan de parties de X, contenant l’ensemble des parties compactes de X. Pour toute application continue $f$ de X dans un espace de Banach F (resp. toute fonction numérique $f$ finie, continue et $\geqslant 0$ dans X), à support compact K, il existe une suite $(g_n)$ de fonctions de $\mathcal{E}_F(\Phi)$, dont le support est contenu dans K (resp. une suite $(g_n)$ de fonctions de $\mathcal{E}(\Phi)$, telle que $0 \leqslant g_n \leqslant f$ pour tout n), qui converge uniformément vers $f$ (resp. $f$).
+*Soient X un espace localement compact, $\Phi$ un clan de parties de X, contenant l’ensemble des parties compactes de X. Pour toute application continue $f$ de X dans un espace de Banach F (resp. toute fonction numérique $f$ finie, continue et $\geqslant 0$ dans X), à support compact K, il existe une suite $(g_n)$ de fonctions de $\mathscr{E}_F(\Phi)$, dont le support est contenu dans K (resp. une suite $(g_n)$ de fonctions de $\mathscr{E}(\Phi)$, telle que $0 \leqslant g_n \leqslant f$ pour tout n), qui converge uniformément vers $f$ (resp. $f$).
 
 En effet, comme $f$ est uniformément continue dans K, on peut recouvrir K par un nombre fini d’ensembles compacts $M_i$ ($1 \leqslant i \leqslant m$) tels que l’oscillation de $f$ dans chacun des $M_i$ soit $\leqslant 1/n$. Comme les $M_i$ et K appartiennent à $\Phi$, il existe une partition de K en ensembles $N_j \in \Phi$ tels que chacun des ensembles $M_i \cap K$ soit réunion d’un certain nombre des $N_j$ (n° 9, lemme 1). Soit $a_j$ un élément de F tel que $|f(x) - a_j| \leqslant 1/n$ dans $N_j$. Si on pose $g_n = \sum_j a_j \varphi_{N_j}$, on a $|f - g_n| \leqslant 1/n$, d’où la proposition dans ce cas. On raisonne de même pour une fonction continue numérique $f$, en prenant $a_j = \inf_{x \in N_j} f(x)$, et $g_n = \sum_j a_j \varphi_{N_j}$.
 
 #### Corollaire 1 {#int-iv-s4-prop-19-cor-1 .statement}
 
-*Soit $\mu$ une mesure positive sur X; l’espace $\mathcal{E}_F(\Phi)$ est partout dense dans chacun des espaces $\mathcal{L}_F^p$ ($1 \leqslant p < +\infty$).
+*Soit $\mu$ une mesure positive sur X; l’espace $\mathscr{E}_F(\Phi)$ est partout dense dans chacun des espaces $\mathscr{L}_F^p$ ($1 \leqslant p < +\infty$).
 
-En effet, il résulte de la prop. 19 et du critère de convergence en moyenne pour les limites uniformes de fonctions à support compact ($§ 3$, n° 3, prop. 4) que $\mathcal{E}_F(\Phi)$ est dense, pour la topologie de la convergence en moyenne d’ordre $p$, dans l’adhérence de l’espace $\mathcal{K}_F$ des fonctions continues à support compact; d’où le corollaire.
+En effet, il résulte de la prop. 19 et du critère de convergence en moyenne pour les limites uniformes de fonctions à support compact ($§ 3$, n° 3, prop. 4) que $\mathscr{E}_F(\Phi)$ est dense, pour la topologie de la convergence en moyenne d’ordre $p$, dans l’adhérence de l’espace $\mathscr{K}_F$ des fonctions continues à support compact; d’où le corollaire.
 
 #### Corollaire 2 {#int-iv-s4-prop-19-cor-2 .statement}
 
-*Pour toute partie fermée S de X, toute fonction $f \in \mathcal{K}(X, S; \mathbf{C})$ est limite uniforme de combinaisons linéaires $\sum_i \lambda_i \varphi_{K_i}$, où les $\lambda_i$ appartiennent à $\mathbf{C}$ et les $K_i$ sont des parties compactes de S.*
+*Pour toute partie fermée S de X, toute fonction $f \in \mathscr{K}(X, S; \mathbf{C})$ est limite uniforme de combinaisons linéaires $\sum_i \lambda_i \varphi_{K_i}$, où les $\lambda_i$ appartiennent à $\mathbf{C}$ et les $K_i$ sont des parties compactes de S.*
 
-En effet, l’ensemble $\mathcal{A}$ des combinaisons linéaires considérées est une $\mathbf{C}$-algèbre. Soit $\Phi$ l’ensemble des parties $M$ de $X$ telles que $\varphi_M \in \mathcal{A}$; $\Phi$ est donc un *clan* dont tous les éléments sont des parties de $S$, contenant les parties compactes de $S$, et l’on a $\mathcal{E}_c(\Phi) \subset \mathcal{A}$. Il suffit alors d’appliquer la prop. 19 à l’espace localement compact $S$ et au clan $\Phi$.
+En effet, l’ensemble $\mathscr{A}$ des combinaisons linéaires considérées est une $\mathbf{C}$-algèbre. Soit $\Phi$ l’ensemble des parties $M$ de $X$ telles que $\varphi_M \in \mathscr{A}$; $\Phi$ est donc un *clan* dont tous les éléments sont des parties de $S$, contenant les parties compactes de $S$, et l’on a $\mathscr{E}_c(\Phi) \subset \mathscr{A}$. Il suffit alors d’appliquer la prop. 19 à l’espace localement compact $S$ et au clan $\Phi$.
 
 #### Corollaire 3 {#int-iv-s4-prop-19-cor-3 .statement}
 
 *Si $\mu$ et $\nu$ sont deux mesures sur $X$ telles que $\mu(K) = \nu(K)$ pour toute partie compacte $K$ de $X$, on a $\mu = \nu$.*
-En effet, il résulte du cor. 2 et de la définition d’une mesure que pour toute partie compacte $S$ de $X$, $\mu$ et $\nu$ prennent les mêmes valeurs dans $\mathcal{K}(X, S ; \mathbf{C})$.
+En effet, il résulte du cor. 2 et de la définition d’une mesure que pour toute partie compacte $S$ de $X$, $\mu$ et $\nu$ prennent les mêmes valeurs dans $\mathscr{K}(X, S ; \mathbf{C})$.
 
 ### 11. Prolongement d’une mesure définie sur une famille d’ensembles
 
@@ -721,13 +721,13 @@ $$
 I(K, U) \cap I(K', U') = I(K \cup K', U \cap U').
 $$
 
-Soit $\mathcal{T}$ la topologie sur $\mathfrak{P}(X)$ engendrée par l’ensemble des parties $I(K, U)$ lorsque $K$ parcourt l’ensemble des parties compactes de $X$, et $U$ l’ensemble des parties ouvertes de $X$; d’après ce qui précède, les $I(K, U)$ forment une base de la topologie $\mathcal{T}$ (*Top. gén.*, chap. I, 3e éd., § 1, n° 3).
+Soit $\mathscr{T}$ la topologie sur $\mathfrak{P}(X)$ engendrée par l’ensemble des parties $I(K, U)$ lorsque $K$ parcourt l’ensemble des parties compactes de $X$, et $U$ l’ensemble des parties ouvertes de $X$; d’après ce qui précède, les $I(K, U)$ forment une base de la topologie $\mathscr{T}$ (*Top. gén.*, chap. I, 3e éd., § 1, n° 3).
 
-On notera que la définition de $\mathcal{T}$ entraîne que, dans $\mathfrak{P}(X)$, l’ensemble des parties compactes de $X$ est *partout dense*. La condition (PC$_{\text{II}}$) exprime que $\Phi$ est *dense* dans $\mathfrak{P}(X)$, et la condition (PM$_{\text{IV}}$) exprime que la fonction $\alpha$ est *continue* dans $\Phi$, pour la topologie induite par $\mathcal{T}$. Enfin, le th. 4 exprime que la fonction $M \mapsto \mu(M)$ est *continue* dans le clan des ensembles $\mu$-intégrables, pour la topologie induite par $\mathcal{T}$.
+On notera que la définition de $\mathscr{T}$ entraîne que, dans $\mathfrak{P}(X)$, l’ensemble des parties compactes de $X$ est *partout dense*. La condition (PC$_{\text{II}}$) exprime que $\Phi$ est *dense* dans $\mathfrak{P}(X)$, et la condition (PM$_{\text{IV}}$) exprime que la fonction $\alpha$ est *continue* dans $\Phi$, pour la topologie induite par $\mathscr{T}$. Enfin, le th. 4 exprime que la fonction $M \mapsto \mu(M)$ est *continue* dans le clan des ensembles $\mu$-intégrables, pour la topologie induite par $\mathscr{T}$.
 
 *2° Unicité de $\mu$*
 
-Désignons par $\bar{\Phi}$ l’ensemble des parties $M \subset X$ telles que $\alpha(N)$ tende vers une limite finie lorsque $N$ tend vers $M$ (pour la topologie $\mathcal{T}$) en restant dans $\Phi$; on peut alors prolonger d’une seule manière $\alpha$ en une application *continue* $\bar{\alpha}$ de $\bar{\Phi}$ dans $\mathbf{R}$ (*Top. gén.*, chap. I, 3e éd., § 8, n° 5, th. 1). S’il existe une mesure $\mu$ répondant à la question, les remarques faites ci-dessus prouvent que le clan $\Psi$ des ensembles $\mu$-intégrables est contenu dans $\bar{\Phi}$, et que $\mu(M) = \bar{\alpha}(M)$ pour tout $M \in \Psi$; cette relation a lieu en particulier pour toute partie compacte $M$ de $X$, ce qui prouve l’unicité de $\mu$ (cor. 2 de la prop. 19).
+Désignons par $\bar{\Phi}$ l’ensemble des parties $M \subset X$ telles que $\alpha(N)$ tende vers une limite finie lorsque $N$ tend vers $M$ (pour la topologie $\mathscr{T}$) en restant dans $\Phi$; on peut alors prolonger d’une seule manière $\alpha$ en une application *continue* $\bar{\alpha}$ de $\bar{\Phi}$ dans $\mathbf{R}$ (*Top. gén.*, chap. I, 3e éd., § 8, n° 5, th. 1). S’il existe une mesure $\mu$ répondant à la question, les remarques faites ci-dessus prouvent que le clan $\Psi$ des ensembles $\mu$-intégrables est contenu dans $\bar{\Phi}$, et que $\mu(M) = \bar{\alpha}(M)$ pour tout $M \in \Psi$; cette relation a lieu en particulier pour toute partie compacte $M$ de $X$, ce qui prouve l’unicité de $\mu$ (cor. 2 de la prop. 19).
 
 *3° Prolongement de $\alpha$ aux ensembles compacts.*
 
@@ -809,11 +809,11 @@ et par suite $\bar{\alpha}(M \cup N) \geq \bar{\alpha}(M) + \bar{\alpha}(N) - 2\
 
 6° Existence de la mesure $\mu$.
 
-En vertu de la prop. 18 du n° 9, il existe une forme linéaire positive $\beta$ et une seule sur l’espace vectoriel $\mathcal{E}(\bar{\Phi})$ des fonctions $\bar{\Phi}$-étagées, telle que $\beta(\varphi_M) = \bar{\alpha}(M)$ pour tout $M \in \bar{\Phi}$. Pour toute partie compacte $K$ de $X$, désignons par $\mathcal{G}(K)$ l’espace des limites uniformes de fonctions de $\mathcal{E}(\bar{\Phi})$ dont le support est contenu dans $K$. Comme $\beta$ est positive, on a $|\beta(f)| \leq \bar{\alpha}(K) \cdot \|f\|$ pour toute fonction $f \in \mathcal{E}(\bar{\Phi})$ dont le support est contenu dans $K$; la restriction de $\beta$ à l’espace de ces fonctions est une forme linéaire continue pour la topologie de la convergence uniforme ; elle se prolonge donc en une forme linéaire continue positive $\bar{\beta}_K$ sur $\mathcal{G}(K)$. En outre, si $K$ et $K_1$ sont deux ensembles compacts tels que
+En vertu de la prop. 18 du n° 9, il existe une forme linéaire positive $\beta$ et une seule sur l’espace vectoriel $\mathscr{E}(\bar{\Phi})$ des fonctions $\bar{\Phi}$-étagées, telle que $\beta(\varphi_M) = \bar{\alpha}(M)$ pour tout $M \in \bar{\Phi}$. Pour toute partie compacte $K$ de $X$, désignons par $\mathscr{G}(K)$ l’espace des limites uniformes de fonctions de $\mathscr{E}(\bar{\Phi})$ dont le support est contenu dans $K$. Comme $\beta$ est positive, on a $|\beta(f)| \leq \bar{\alpha}(K) \cdot \|f\|$ pour toute fonction $f \in \mathscr{E}(\bar{\Phi})$ dont le support est contenu dans $K$; la restriction de $\beta$ à l’espace de ces fonctions est une forme linéaire continue pour la topologie de la convergence uniforme ; elle se prolonge donc en une forme linéaire continue positive $\bar{\beta}_K$ sur $\mathscr{G}(K)$. En outre, si $K$ et $K_1$ sont deux ensembles compacts tels que
 
-K ⊂ K₁, la restriction de $\bar{\beta}_{K_1}$ à $\mathcal{G}(K)$ est identique à $\bar{\beta}_K$, donc il existe une forme linéaire positive $\bar{\beta}$ sur la réunion $\mathcal{G}$ des $\mathcal{G}(K)$, qui prolonge chacune des formes $\bar{\beta}_K$.
+K ⊂ K₁, la restriction de $\bar{\beta}_{K_1}$ à $\mathscr{G}(K)$ est identique à $\bar{\beta}_K$, donc il existe une forme linéaire positive $\bar{\beta}$ sur la réunion $\mathscr{G}$ des $\mathscr{G}(K)$, qui prolonge chacune des formes $\bar{\beta}_K$.
 
-Or, comme tout ensemble compact appartient à $\bar{\Phi}$, l’espace $\mathcal{H}$ des fonctions numériques continues et à support compact est un sous-espace de $\mathcal{G}$ (n° 10, prop. 19); la restriction à $\mathcal{H}$ de la forme linéaire positive $\bar{\beta}$ est donc une mesure positive $\mu$. Montrons que pour tout ensemble compact K, on a $\mu(K) = \bar{\alpha}(K)$. Pour tout $\varepsilon > 0$, il existe un ensemble ouvert $U \in \bar{\Phi}$ tel que $K \subset U$, $\mu(U) \leq \mu(K) + \varepsilon$ et $\bar{\alpha}(U) \leq \bar{\alpha}(K) + \varepsilon$. Soit $f$ une application continue de X dans $[0, 1]$ dont le support est contenu dans U et telle que $f(x) = 1$ dans K (chap. III, § 1, n° 2, lemme 1). On a $\mu(K) \leq \mu(f) \leq \mu(U) \leq \mu(K) + \varepsilon$, et d’autre part
+Or, comme tout ensemble compact appartient à $\bar{\Phi}$, l’espace $\mathscr{H}$ des fonctions numériques continues et à support compact est un sous-espace de $\mathscr{G}$ (n° 10, prop. 19); la restriction à $\mathscr{H}$ de la forme linéaire positive $\bar{\beta}$ est donc une mesure positive $\mu$. Montrons que pour tout ensemble compact K, on a $\mu(K) = \bar{\alpha}(K)$. Pour tout $\varepsilon > 0$, il existe un ensemble ouvert $U \in \bar{\Phi}$ tel que $K \subset U$, $\mu(U) \leq \mu(K) + \varepsilon$ et $\bar{\alpha}(U) \leq \bar{\alpha}(K) + \varepsilon$. Soit $f$ une application continue de X dans $[0, 1]$ dont le support est contenu dans U et telle que $f(x) = 1$ dans K (chap. III, § 1, n° 2, lemme 1). On a $\mu(K) \leq \mu(f) \leq \mu(U) \leq \mu(K) + \varepsilon$, et d’autre part
 
 $$
 \bar{\alpha}(K) = \beta(\varphi_K) \leq \bar{\beta}(f) \leq \beta(\varphi_U) = \bar{\alpha}(U) \leq \bar{\alpha}(K) + \varepsilon;

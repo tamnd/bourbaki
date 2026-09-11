@@ -25,7 +25,7 @@ subsections:
       pdf_page: 66
 statements: 24
 exercises: 12
-content_sha256: 115130034ff32aecbc68fd3f27ca1befb61f88d64371feb493dd57eb6931a24f
+content_sha256: b33c3af20533f634637eeae9ecde4c3946af5230812cc4bb8b5565c82a4eb1f3
 ---
 
 ## § 3. APPLICATIONS AND EXAMPLES
@@ -52,7 +52,7 @@ $^1$ Non dégénérée; in EVT, the term is replaced by séparante, subsequently
 
 #### Lemma 1 {#int-vii-s3-lem-1 .statement}
 
-Let F be a Hilbert space, K a compact group, and s ↦ U(s) a representation of K in the group of invertible elements of $\mathcal{L}(F; F)$, continuous for the topology of pointwise convergence. There exists a nondegenerate positive hermitian form $\varphi$ on F such that
+Let F be a Hilbert space, K a compact group, and s ↦ U(s) a representation of K in the group of invertible elements of $\mathscr{L}(F; F)$, continuous for the topology of pointwise convergence. There exists a nondegenerate positive hermitian form $\varphi$ on F such that
 
 $$
 \varphi(U(s)x, U(s)y) = \varphi(x, y)
@@ -66,7 +66,7 @@ $$
 \varphi(x, y) = \int (U(s)x|U(s)y)\, d\alpha(s).
 $$
 
-It is immediate that $\varphi(x, y)$ is a sesquilinear form on F. Since the set of endomorphisms $U(s)$ is compact in $\mathcal{L}_s(F; F)$, there exists a constant M such that $\|U(s)\| \leq M$ for all $s \in K$. For every $x \in F$, we therefore have
+It is immediate that $\varphi(x, y)$ is a sesquilinear form on F. Since the set of endomorphisms $U(s)$ is compact in $\mathscr{L}_s(F; F)$, there exists a constant M such that $\|U(s)\| \leq M$ for all $s \in K$. For every $x \in F$, we therefore have
 
 $$
 M^{-1}\|x\| \leq \|U(s)x\| \leq M\|x\|,

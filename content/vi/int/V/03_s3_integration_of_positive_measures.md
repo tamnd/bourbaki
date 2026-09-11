@@ -37,9 +37,9 @@ subsections:
       pdf_page: 284
 statements: 30
 exercises: 11
-content_sha256: c656f57d88839ba969213b3afac5dab45b86c09d324c6e97f8ba77f476b614c1
+content_sha256: 9f584263ec74b60f52a013ab219a7303a8540feac36a48dc679916a346d05c66
 translated_from: content/en/int/V/03_s3_integration_of_positive_measures.md
-source_content_sha256: 66a4d2a7bbfc4da3f2fa95c05151924ec8dffdd2326f34d8fc3c79fc8502f6b4
+source_content_sha256: c86f6d9b6a8b568e9223ecc74e13272c1ca7d7b37e0e73528392645aac3cb190
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini
 translation_run: translate-vi-56c0243e
 glossary_version: 34
@@ -51,13 +51,13 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Các hàm có giá trị trong một không gian các độ đo
 
-Cho $X$ là một không gian compact địa phương, $\mathcal{M}_+(X)$ là nón lồi của các độ đo dương trên $X$. Trong suốt phần còn lại của chương này, $\mathcal{M}_+(X)$ sẽ được trang bị tôpô cảm sinh bởi tôpô yếu trên $\mathcal{M}(X)$ (Ch. III, §1, No. 9); do đó, nói rằng một ánh xạ $\Lambda : t \mapsto \lambda_t$ của không gian compact địa phương $T$ vào $\mathcal{M}_+(X)$ là liên tục có nghĩa là, với mọi hàm $f \in \mathcal{K}(X)$, hàm số $t \mapsto \lambda_t(f)$ là liên tục. Trong trường hợp này ta cũng sẽ nói rằng $\Lambda$ là liên tục yếu trên $T$. Nói rằng một ánh xạ $\Lambda : t \mapsto \lambda_t$ là $\mu$-đo được có nghĩa là tập hợp các tập con compact $K$ của $T$, sao cho hạn chế của $\Lambda$ lên $K$ là liên tục yếu, là
+Cho $X$ là một không gian compact địa phương, $\mathscr{M}_+(X)$ là nón lồi của các độ đo dương trên $X$. Trong suốt phần còn lại của chương này, $\mathscr{M}_+(X)$ sẽ được trang bị tôpô cảm sinh bởi tôpô yếu trên $\mathscr{M}(X)$ (Ch. III, §1, No. 9); do đó, nói rằng một ánh xạ $\Lambda : t \mapsto \lambda_t$ của không gian compact địa phương $T$ vào $\mathscr{M}_+(X)$ là liên tục có nghĩa là, với mọi hàm $f \in \mathscr{K}(X)$, hàm số $t \mapsto \lambda_t(f)$ là liên tục. Trong trường hợp này ta cũng sẽ nói rằng $\Lambda$ là liên tục yếu trên $T$. Nói rằng một ánh xạ $\Lambda : t \mapsto \lambda_t$ là $\mu$-đo được có nghĩa là tập hợp các tập con compact $K$ của $T$, sao cho hạn chế của $\Lambda$ lên $K$ là liên tục yếu, là
 
-Cho $\Lambda : t \mapsto \lambda_t$ là một ánh xạ của T vào $\mathcal{M}_+(X)$; ta sẽ nói rằng Λ là khả tích cốt yếu vô hướng đối với độ đo μ nếu, với mọi hàm $f \in \mathcal{K}(X)$, hàm $t \mapsto \lambda_t(f)$ là khả tích cốt yếu μ. Nếu đặt $\nu(f) = \int \lambda_t(f)\, d\mu(t)$, thì rõ ràng ν là một dạng tuyến tính dương trên $\mathcal{K}(X)$, do đó là một độ đo trên X (Ch. III, §1, No. 5, Th. 1). Ta sẽ nói rằng ν là tích phân của hàm Λ có giá trị trong $\mathcal{M}_+(X)$, và ta sẽ viết $\nu = \int \lambda_t\, d\mu(t)$.
+Cho $\Lambda : t \mapsto \lambda_t$ là một ánh xạ của T vào $\mathscr{M}_+(X)$; ta sẽ nói rằng Λ là khả tích cốt yếu vô hướng đối với độ đo μ nếu, với mọi hàm $f \in \mathscr{K}(X)$, hàm $t \mapsto \lambda_t(f)$ là khả tích cốt yếu μ. Nếu đặt $\nu(f) = \int \lambda_t(f)\, d\mu(t)$, thì rõ ràng ν là một dạng tuyến tính dương trên $\mathscr{K}(X)$, do đó là một độ đo trên X (Ch. III, §1, No. 5, Th. 1). Ta sẽ nói rằng ν là tích phân của hàm Λ có giá trị trong $\mathscr{M}_+(X)$, và ta sẽ viết $\nu = \int \lambda_t\, d\mu(t)$.
 
 Định nghĩa trên là một trường hợp đặc biệt của khái niệm tích phân yếu, khái niệm này sẽ được xét một cách tổng quát trong Ch. VI.
 
-Nếu $f$ biểu thị một phần tử của $\mathcal{K}(X)$, tích phân $\int \lambda_t(f)\, d\mu(t)$ cũng sẽ, do một sự lạm dụng ký hiệu, được ký hiệu là $\int d\mu(t) \int f(x)\, d\lambda_t(x)$; khi đó định nghĩa của tích phân $\nu = \int \lambda_t\, d\mu(t)$ có thể được viết
+Nếu $f$ biểu thị một phần tử của $\mathscr{K}(X)$, tích phân $\int \lambda_t(f)\, d\mu(t)$ cũng sẽ, do một sự lạm dụng ký hiệu, được ký hiệu là $\int d\mu(t) \int f(x)\, d\lambda_t(x)$; khi đó định nghĩa của tích phân $\nu = \int \lambda_t\, d\mu(t)$ có thể được viết
 
 $$
 \int f(x)\, d\nu(x) = \int d\mu(t) \int f(x)\, d\lambda_t(x).
@@ -69,21 +69,21 @@ Ta sẽ thực hiện những sự lạm dụng ký hiệu tương tự trong ph
 
 Giả sử rằng T là một không gian rời rạc, và μ là độ đo trên T được xác định bằng cách đặt một khối lượng +1 tại mỗi điểm của T (Ch. III, §1, No. 3). Cho h là một hàm $\geqslant 0$ xác định trên T; vì hàm h là nửa liên tục dưới (thậm chí liên tục) trên T, $\mu^*(h) = \mu^\bullet(h) = \sum_{t \in T} h(t)$ (Ch. IV, §1, No. 1, Ví dụ).
 
-Đối với độ đo μ, các khái niệm hàm khả tích và hàm khả tích cốt yếu do đó là đồng nhất. Như vậy, nói rằng một ánh xạ $t \mapsto \lambda_t$ của T vào $\mathcal{M}_+(X)$ là khả tích cốt yếu μ vô hướng tương đương với việc nói rằng họ $(\lambda_t)_{t \in T}$ là cộng được (§2, No. 1), và khi đó ta có $\int \lambda_t\, d\mu(t) = \sum_{t \in T} \lambda_t$. Chú ý rằng ánh xạ $t \mapsto \lambda_t$ là liên tục yếu.
+Đối với độ đo μ, các khái niệm hàm khả tích và hàm khả tích cốt yếu do đó là đồng nhất. Như vậy, nói rằng một ánh xạ $t \mapsto \lambda_t$ của T vào $\mathscr{M}_+(X)$ là khả tích cốt yếu μ vô hướng tương đương với việc nói rằng họ $(\lambda_t)_{t \in T}$ là cộng được (§2, No. 1), và khi đó ta có $\int \lambda_t\, d\mu(t) = \sum_{t \in T} \lambda_t$. Chú ý rằng ánh xạ $t \mapsto \lambda_t$ là liên tục yếu.
 
 #### Ví dụ 2 {#int-v-s3-n1-exa-2 .statement}
 
-Ánh xạ $t \mapsto \varepsilon_t$ của T vào $\mathcal{M}_+(T)$ là liên tục yếu, khả tích cốt yếu μ vô hướng đối với mọi độ đo dương μ trên T, và ta có $\int \varepsilon_t\, d\mu(t) = \mu$.
+Ánh xạ $t \mapsto \varepsilon_t$ của T vào $\mathscr{M}_+(T)$ là liên tục yếu, khả tích cốt yếu μ vô hướng đối với mọi độ đo dương μ trên T, và ta có $\int \varepsilon_t\, d\mu(t) = \mu$.
 
 #### Mệnh đề 1 {#int-v-s3-prop-1 .statement}
 
-Giả sử rằng μ là cận trên của một họ có hướng tăng $(\mu_i)_{i \in I}$ các độ đo dương trên T; để $\Lambda : t \mapsto \lambda_t$ là khả tích cốt yếu μ vô hướng, điều kiện cần và đủ là Λ khả tích cốt yếu $\mu_i$ vô hướng với mọi $i \in I$ và họ $(\int \lambda_t\, d\mu_i(t))_{i \in I}$ bị chặn trên trong $\mathcal{M}(X)$. Khi đó,
+Giả sử rằng μ là cận trên của một họ có hướng tăng $(\mu_i)_{i \in I}$ các độ đo dương trên T; để $\Lambda : t \mapsto \lambda_t$ là khả tích cốt yếu μ vô hướng, điều kiện cần và đủ là Λ khả tích cốt yếu $\mu_i$ vô hướng với mọi $i \in I$ và họ $(\int \lambda_t\, d\mu_i(t))_{i \in I}$ bị chặn trên trong $\mathscr{M}(X)$. Khi đó,
 
 $$
 \int \lambda_t\, d\mu(t) = \sup_{i \in I} \int \lambda_t\, d\mu_i(t).
 $$
 
-Thật vậy, việc kiểm tra rằng $\Lambda$ là khả tích cốt yếu vô hướng đối với một độ đo dương $\eta$ trên $T$ quy về việc kiểm tra rằng $t \mapsto \lambda_t(g)$ là $\eta$-đo được và nhận một tích phân trên cốt yếu hữu hạn, đối với $\eta$, với mọi hàm $g \in \mathcal{H}_+(X)$. Vì vậy mệnh đề suy ra ngay từ Mệnh đề 11 của §1, No. 4 và Hệ quả 2 của nó.
+Thật vậy, việc kiểm tra rằng $\Lambda$ là khả tích cốt yếu vô hướng đối với một độ đo dương $\eta$ trên $T$ quy về việc kiểm tra rằng $t \mapsto \lambda_t(g)$ là $\eta$-đo được và nhận một tích phân trên cốt yếu hữu hạn, đối với $\eta$, với mọi hàm $g \in \mathscr{H}_+(X)$. Vì vậy mệnh đề suy ra ngay từ Mệnh đề 11 của §1, No. 4 và Hệ quả 2 của nó.
 
 #### Hệ quả {#int-v-s3-n1-cor-1 .statement}
 
@@ -95,11 +95,11 @@ $$
 
 Suy ra ngay lập tức rằng mọi ánh xạ khả tích vô hướng thiết yếu $\mu$ cũng là khả tích vô hướng thiết yếu $\mu'$ đối với mọi độ đo $\mu' \leq \mu$.
 
-Trong tiết này chúng ta sẽ chỉ giới hạn vào việc nghiên cứu các ánh xạ khả tích vô hướng thiết yếu từ $T$ vào $\mathcal{M}_+(X)$ có tính chất được xét đến trong định nghĩa sau:
+Trong tiết này chúng ta sẽ chỉ giới hạn vào việc nghiên cứu các ánh xạ khả tích vô hướng thiết yếu từ $T$ vào $\mathscr{M}_+(X)$ có tính chất được xét đến trong định nghĩa sau:
 
 #### Định nghĩa 1 {#int-v-s3-def-1 .statement}
 
-— *Cho $X$ là một không gian compact địa phương, $\Lambda : t \mapsto \lambda_t$ là một ánh xạ khả tích vô hướng thiết yếu $\mu$ từ $T$ vào $\mathcal{M}_+(X)$, và $\nu$ là tích phân của $\Lambda$.
+— *Cho $X$ là một không gian compact địa phương, $\Lambda : t \mapsto \lambda_t$ là một ánh xạ khả tích vô hướng thiết yếu $\mu$ từ $T$ vào $\mathscr{M}_+(X)$, và $\nu$ là tích phân của $\Lambda$.
 
 Ta nói rằng $\Lambda$ là $\mu$-tiền thích hợp nếu, với mọi hàm nửa liên tục dưới $f \geq 0$ xác định trên $X$, hàm $t \mapsto \int^\bullet f d\lambda_t$ là $\mu$-đo được trên $T$ và*
 
@@ -117,7 +117,7 @@ Mệnh đề sau đây thường cho phép kiểm tra rằng một ánh xạ đ�
 
 #### Mệnh đề 2 {#int-v-s3-prop-2 .statement}
 
-— Cho $\Lambda : t \mapsto \lambda_t$ là một ánh xạ khả tích vô hướng thiết yếu $\mu$ từ $T$ vào $\mathcal{M}_+(X)$, và cho $\nu = \int \lambda_t \, d\mu(t)$.
+— Cho $\Lambda : t \mapsto \lambda_t$ là một ánh xạ khả tích vô hướng thiết yếu $\mu$ từ $T$ vào $\mathscr{M}_+(X)$, và cho $\nu = \int \lambda_t \, d\mu(t)$.
 
 a) *Nếu $\Lambda$ liên tục yếu, thì ánh xạ $t \mapsto \lambda_t^\bullet(f)$ là nửa liên tục dưới đối với mọi hàm nửa liên tục dưới $f \geqslant 0$ xác định trên $X$, $\Lambda$ là $\mu$-thích hợp, và ta có quan hệ*
 
@@ -129,7 +129,7 @@ b) *Nếu $\Lambda$ là đo được mơ hồ $\mu$, thì $\Lambda$ là $\mu$-th
 
 c) *Nếu tôpô của $X$ có một cơ sở đếm được, thì $\Lambda$ là đo được mơ hồ $\mu$ (do đó cũng $\mu$-thích hợp).*
 
-Cho $f$ là một hàm nửa liên tục dưới $\geqslant 0$ xác định trên $X$. Cho $F$ là tập hợp, có hướng đối với quan hệ $\leqslant$, của các hàm $g \in \mathcal{K}(X)$ sao cho $0 \leqslant g \leqslant f$. Với $g \in F$, ký hiệu $h_g$ là hàm xác định trên $T$ bởi $h_g(t) = \lambda_t(g)$. Tương tự, đặt
+Cho $f$ là một hàm nửa liên tục dưới $\geqslant 0$ xác định trên $X$. Cho $F$ là tập hợp, có hướng đối với quan hệ $\leqslant$, của các hàm $g \in \mathscr{K}(X)$ sao cho $0 \leqslant g \leqslant f$. Với $g \in F$, ký hiệu $h_g$ là hàm xác định trên $T$ bởi $h_g(t) = \lambda_t(g)$. Tương tự, đặt
 
 $$
 h_f(t) = \lambda_t^*(f) = \lambda_t^\bullet(f) = \sup_{g \in F} h_g(t)
@@ -145,7 +145,7 @@ $$
 
 Giả sử $\Lambda$ là liên tục theo nghĩa mơ hồ; ta có thể lấy $S = T$; khi đó $h_f = \overline{h}_f$ là nửa liên tục dưới, điều này hoàn tất chứng minh phần a) của mệnh đề.
 
-Giả sử rằng $\Lambda$ là $\mu$-đo được theo nghĩa mơ hồ và ta chứng minh b). Tập $\mathcal{K}$ gồm các tập con compact K của T sao cho hạn chế của $\Lambda$ trên K là liên tục là $\mu$-trù mật (Ch. IV, §5, No. 10, Mệnh đề 15), tồn tại một họ tổng được $(\mu_\alpha)_{\alpha \in A}$ các độ đo trên T sao cho $\mu = \sum_{\alpha \in A} \mu_\alpha$ và giá của mỗi độ đo $\mu_\alpha$ thuộc $\mathcal{K}$ (§2, No. 3, Mệnh đề 4). Với mọi $\alpha \in A$, ánh xạ $\Lambda$ là khả tích thiết yếu theo vô hướng $\mu_\alpha$, và ta đặt $\nu_\alpha = \int \lambda_t d\mu_\alpha(t)$; họ $(\nu_\alpha)$ là tổng được, và tổng của nó bằng $\nu$ (Hệ quả của Mệnh đề 1). Nếu $f$ là một hàm dương nửa liên tục dưới xác định trên X, phần thứ nhất của chứng minh, áp dụng cho các độ đo $\mu_\alpha$ và các tập đóng $S_\alpha$, chỉ ra rằng:
+Giả sử rằng $\Lambda$ là $\mu$-đo được theo nghĩa mơ hồ và ta chứng minh b). Tập $\mathscr{K}$ gồm các tập con compact K của T sao cho hạn chế của $\Lambda$ trên K là liên tục là $\mu$-trù mật (Ch. IV, §5, No. 10, Mệnh đề 15), tồn tại một họ tổng được $(\mu_\alpha)_{\alpha \in A}$ các độ đo trên T sao cho $\mu = \sum_{\alpha \in A} \mu_\alpha$ và giá của mỗi độ đo $\mu_\alpha$ thuộc $\mathscr{K}$ (§2, No. 3, Mệnh đề 4). Với mọi $\alpha \in A$, ánh xạ $\Lambda$ là khả tích thiết yếu theo vô hướng $\mu_\alpha$, và ta đặt $\nu_\alpha = \int \lambda_t d\mu_\alpha(t)$; họ $(\nu_\alpha)$ là tổng được, và tổng của nó bằng $\nu$ (Hệ quả của Mệnh đề 1). Nếu $f$ là một hàm dương nửa liên tục dưới xác định trên X, phần thứ nhất của chứng minh, áp dụng cho các độ đo $\mu_\alpha$ và các tập đóng $S_\alpha$, chỉ ra rằng:
 
 $1^\circ$ $h_f$ là $\mu_\alpha$-đo được với mọi $\alpha \in A$, do đó là $\mu$-đo được (§2, No. 2, Mệnh đề 2), và
 
@@ -153,19 +153,19 @@ $2^\circ$ $\int^* f(x) d\nu_\alpha(x) = \int^* d\mu_\alpha(t) \int^* f(x) d\lamb
 
 Công thức (4) suy ra bằng cách lấy tổng theo $\alpha$ (§2, No. 2, Mệnh đề 1). Áp dụng lập luận trước cho một độ đo tùy ý $\mu' \leq \mu$ (điều này là hợp lệ, vì $\Lambda$ là khả tích thiết yếu theo vô hướng $\mu'$ và $\mu'$-đo được theo nghĩa mơ hồ, cf. §2, No. 2, Mệnh đề 2), ta kết luận rằng $\Lambda$ là $\mu'$-tiền-thích đáng, và b) được chứng minh.
 
-Cuối cùng, giả sử rằng tôpô của X có một cơ sở đếm được, ta chứng minh rằng mọi ánh xạ khả tích thiết yếu theo vô hướng $\mu$ $\Lambda : t \mapsto \lambda_t$ của T vào $\mathcal{M}_+(X)$ đều là $\mu$-đo được theo nghĩa mơ hồ. Điều này sẽ suy ra từ bổ đề sau:
+Cuối cùng, giả sử rằng tôpô của X có một cơ sở đếm được, ta chứng minh rằng mọi ánh xạ khả tích thiết yếu theo vô hướng $\mu$ $\Lambda : t \mapsto \lambda_t$ của T vào $\mathscr{M}_+(X)$ đều là $\mu$-đo được theo nghĩa mơ hồ. Điều này sẽ suy ra từ bổ đề sau:
 
 #### Bổ đề {#int-v-s3-n1-lem-1 .statement}
 
-*Cho X là một không gian compact địa phương có một cơ sở đếm được. Khi đó, tồn tại trong $\mathcal{K}(X)$ một tập con đếm được S có tính chất sau: với mọi hàm $f \in \mathcal{K}(X)$, tồn tại một dãy $(f_n)$ các phần tử của S và một hàm dương $\varphi \in S$ sao cho, với mọi số $\varepsilon > 0$, $|f_n - f| \leq \varepsilon \varphi$ với điều kiện n đủ lớn.*
+*Cho X là một không gian compact địa phương có một cơ sở đếm được. Khi đó, tồn tại trong $\mathscr{K}(X)$ một tập con đếm được S có tính chất sau: với mọi hàm $f \in \mathscr{K}(X)$, tồn tại một dãy $(f_n)$ các phần tử của S và một hàm dương $\varphi \in S$ sao cho, với mọi số $\varepsilon > 0$, $|f_n - f| \leq \varepsilon \varphi$ với điều kiện n đủ lớn.*
 
-Gọi $X'$ là compact hóa Alexandroff của X, là một không gian compact mêtric hóa được (GT, IX, §2, No. 9, Prop. 16 và Cor.); ta đồng nhất $\mathcal{K}(X)$ với một tập con của $\mathcal{C}(X')$. Gọi $S'$ là một tập con đếm được trù mật của không gian Banach $\mathcal{C}(X')$ (GT, X, §3, No. 3, Th. 1); ta có thể giả sử rằng $S'$ chứa hàm hằng $n$ với mọi $n \in \mathbf{N}$. Gọi $(U_n)$ là một dãy các tập mở tương đối compact trong X, có hợp là X, sao cho $\overline{U}_n \subset U_{n+1}$ với mọi n (GT, I, §9, No. 9, Prop. 15), và gọi $\varphi_n$ là một hàm trong $\mathcal{K}_+(X)$ bằng 1 trên $\overline{U}_n$. Ta ký hiệu S là tập hợp đếm được các phần tử của $\mathcal{K}(X)$ có dạng $\varphi_n g$ ($n \in \mathbf{N}, g \in S'$). Nếu $f \in \mathcal{K}(X)$, gọi $(g_n)$ là một dãy các phần tử của $S'$ hội tụ đều đến $f$, và gọi k là một số nguyên sao cho giá của $f$ được chứa trong $U_k$. Cuối cùng, gọi m là một số nguyên là cận trên của các chuẩn của các hàm $g_n$. Các hàm $f_n = \varphi_k g_n$ thuộc S và thỏa mãn mệnh đề, với $\varphi = m \varphi_k$.
+Gọi $X'$ là compact hóa Alexandroff của X, là một không gian compact mêtric hóa được (GT, IX, §2, No. 9, Prop. 16 và Cor.); ta đồng nhất $\mathscr{K}(X)$ với một tập con của $\mathscr{C}(X')$. Gọi $S'$ là một tập con đếm được trù mật của không gian Banach $\mathscr{C}(X')$ (GT, X, §3, No. 3, Th. 1); ta có thể giả sử rằng $S'$ chứa hàm hằng $n$ với mọi $n \in \mathbf{N}$. Gọi $(U_n)$ là một dãy các tập mở tương đối compact trong X, có hợp là X, sao cho $\overline{U}_n \subset U_{n+1}$ với mọi n (GT, I, §9, No. 9, Prop. 15), và gọi $\varphi_n$ là một hàm trong $\mathscr{K}_+(X)$ bằng 1 trên $\overline{U}_n$. Ta ký hiệu S là tập hợp đếm được các phần tử của $\mathscr{K}(X)$ có dạng $\varphi_n g$ ($n \in \mathbf{N}, g \in S'$). Nếu $f \in \mathscr{K}(X)$, gọi $(g_n)$ là một dãy các phần tử của $S'$ hội tụ đều đến $f$, và gọi k là một số nguyên sao cho giá của $f$ được chứa trong $U_k$. Cuối cùng, gọi m là một số nguyên là cận trên của các chuẩn của các hàm $g_n$. Các hàm $f_n = \varphi_k g_n$ thuộc S và thỏa mãn mệnh đề, với $\varphi = m \varphi_k$.
 
-Sau khi bổ đề đã được thiết lập, và ánh xạ $t \mapsto \lambda_t(g)$ là khả tích $\mu$-theo nghĩa thực chất đối với mọi $g \in S$, ánh xạ $t \mapsto (\lambda_t(g))_{g \in S}$ từ T vào $\mathbf{R}^S$ là $\mu$-đo được (Ch. IV, §5, No. 3, Th. 1). Tập hợp $\mathcal{K}$, gồm các tập compact K của T sao cho hạn chế của ánh xạ này lên K là liên tục, do đó là $\mu$-trù mật, và chỉ cần chứng minh rằng hạn chế của $\Lambda$ lên mọi $K \in \mathcal{K}$ là liên tục. Bây giờ, gọi $f$ là một phần tử bất kỳ của $\mathcal{K}(X)$, $f_n$ và $\varphi$ là các phần tử của S thỏa mãn mệnh đề của Bổ đề; khi đó hàm $t \mapsto \lambda_t(f)$ là giới hạn đều trên K của các hàm liên tục $t \mapsto \lambda_t(f_n)$; do đó nó liên tục trên K, và mệnh đề được chứng minh.
+Sau khi bổ đề đã được thiết lập, và ánh xạ $t \mapsto \lambda_t(g)$ là khả tích $\mu$-theo nghĩa thực chất đối với mọi $g \in S$, ánh xạ $t \mapsto (\lambda_t(g))_{g \in S}$ từ T vào $\mathbf{R}^S$ là $\mu$-đo được (Ch. IV, §5, No. 3, Th. 1). Tập hợp $\mathscr{K}$, gồm các tập compact K của T sao cho hạn chế của ánh xạ này lên K là liên tục, do đó là $\mu$-trù mật, và chỉ cần chứng minh rằng hạn chế của $\Lambda$ lên mọi $K \in \mathscr{K}$ là liên tục. Bây giờ, gọi $f$ là một phần tử bất kỳ của $\mathscr{K}(X)$, $f_n$ và $\varphi$ là các phần tử của S thỏa mãn mệnh đề của Bổ đề; khi đó hàm $t \mapsto \lambda_t(f)$ là giới hạn đều trên K của các hàm liên tục $t \mapsto \lambda_t(f_n)$; do đó nó liên tục trên K, và mệnh đề được chứng minh.
 
 ### 2. Các tích phân chồng của các hàm dương
 
-Trong phần còn lại của tiết này, nếu không có chỉ rõ ngược lại, ta sẽ ký hiệu X là một không gian địa phương compact, $\Lambda : t \mapsto \lambda_t$ là một ánh xạ $\mu$-thích hợp từ T vào $\mathcal{M}_+(X)$, và $\nu$ là tích phân của $\Lambda$.
+Trong phần còn lại của tiết này, nếu không có chỉ rõ ngược lại, ta sẽ ký hiệu X là một không gian địa phương compact, $\Lambda : t \mapsto \lambda_t$ là một ánh xạ $\mu$-thích hợp từ T vào $\mathscr{M}_+(X)$, và $\nu$ là tích phân của $\Lambda$.
 
 #### Mệnh đề 3 {#int-v-s3-prop-3 .statement}
 
@@ -202,7 +202,7 @@ $$
 
 Bất đẳng thức thứ nhất trong các bất đẳng thức (6) sau đó suy ra từ định nghĩa của $\int^* f(x)\, d\nu(x)$ (Ch. IV, §1, No. 3, Def. 3), và bất đẳng thức thứ hai suy ra ngay lập tức từ nó. Bất đẳng thức (7) được chứng minh theo cách tương tự nếu $\Lambda$ liên tục yếu, sử dụng (5) thay cho (4).
 
-Ta chuyển sang chứng minh của (8). Ánh xạ $t \mapsto \lambda_t^*(1)$ là đo được, và hữu hạn địa phương $\mu$-hầu khắp nơi. Tập $\mathcal{K}$ các tập con compact của $T$ sao cho hạn chế của $t \mapsto \lambda_t^*(1)$ trên $K$ là hữu hạn và liên tục do đó là $\mu$-trù mật, và Mệnh đề 4 của §2, No. 3 suy ra sự tồn tại của một họ tổng được $(\mu_\alpha)_{\alpha \in A}$ các độ đo dương, với các giá đỡ thuộc $\mathcal{K}$, sao cho $\mu = \sum_{\alpha \in A} \mu_\alpha$. Ánh xạ $\Lambda$ là $\mu_\alpha$-thích hợp đối với mọi $\alpha \in A$; đặt $\nu_\alpha = \int \lambda_t d\mu_\alpha(t)$. Mệnh đề 1 chỉ ra rằng $\nu = \sum_{\alpha \in A} \nu_\alpha$, và quan hệ (4), áp dụng cho độ đo $\mu_\alpha$ và hàm 1, chỉ ra rằng $\nu_\alpha$ là một độ đo bị chặn (vì $\lambda_t^*(1)$ bị chặn trên $\operatorname{Supp}(\mu_\alpha)$). Khi đó ta viết công thức (6) cho độ đo $\mu_\alpha$, thay thế ký hiệu $\int^*$ trong vế thứ nhất bằng $\int^\bullet$, điều này hợp lệ theo Mệnh đề 7 của §1; khi đó
+Ta chuyển sang chứng minh của (8). Ánh xạ $t \mapsto \lambda_t^*(1)$ là đo được, và hữu hạn địa phương $\mu$-hầu khắp nơi. Tập $\mathscr{K}$ các tập con compact của $T$ sao cho hạn chế của $t \mapsto \lambda_t^*(1)$ trên $K$ là hữu hạn và liên tục do đó là $\mu$-trù mật, và Mệnh đề 4 của §2, No. 3 suy ra sự tồn tại của một họ tổng được $(\mu_\alpha)_{\alpha \in A}$ các độ đo dương, với các giá đỡ thuộc $\mathscr{K}$, sao cho $\mu = \sum_{\alpha \in A} \mu_\alpha$. Ánh xạ $\Lambda$ là $\mu_\alpha$-thích hợp đối với mọi $\alpha \in A$; đặt $\nu_\alpha = \int \lambda_t d\mu_\alpha(t)$. Mệnh đề 1 chỉ ra rằng $\nu = \sum_{\alpha \in A} \nu_\alpha$, và quan hệ (4), áp dụng cho độ đo $\mu_\alpha$ và hàm 1, chỉ ra rằng $\nu_\alpha$ là một độ đo bị chặn (vì $\lambda_t^*(1)$ bị chặn trên $\operatorname{Supp}(\mu_\alpha)$). Khi đó ta viết công thức (6) cho độ đo $\mu_\alpha$, thay thế ký hiệu $\int^*$ trong vế thứ nhất bằng $\int^\bullet$, điều này hợp lệ theo Mệnh đề 7 của §1; khi đó
 
 $$
 \int^\bullet f(x) d\nu_\alpha(x) \geq \int^\bullet d\mu_\alpha(t) \int^* f(x) d\lambda_t(x) = \int^\bullet d\mu_\alpha(t) \int^\bullet f(x) d\lambda_t(x)
@@ -307,14 +307,14 @@ b) *Nếu $f$ là $\nu$-khả tích và $\Lambda$ là liên tục yếu, thì $H
 
 c) *Nếu $\lambda_t^*(1) < +\infty$ địa phương $\mu$-hầu khắp nơi, thì các kết luận của a) vẫn đúng đối với $f$ là một hàm $\nu$-khả tích thiết yếu.*
 
-Trước hết ta sẽ thiết lập a) (tương ứng b)). Mệnh đề này đúng khi $f$ là một hàm số dương (Mệnh đề 5); nếu $f$ là một hàm khả tích nhận giá trị trong $\overline{\mathbf{R}}$, kết quả này có thể áp dụng cho các hàm dương $f^+$ và $f^-$, và do đó ngay lập tức mở rộng đến $f$ bằng phép trừ. Còn lại cần xét trường hợp các hàm nhận giá trị trong $F$. Gọi $\mathcal{H}$ là không gian con của $\mathcal{L}_F^1(\nu)$ tạo bởi các tổ hợp tuyến tính, với các hệ số trong $F$, của các hàm thuộc $\mathcal{K}(X)$; kết quả liên quan đến các hàm thực suy ra ngay tính đúng đắn của mệnh đề đối với các phần tử của $\mathcal{H}$. Bây giờ, $\mathcal{H}$ trù mật trong $\mathcal{L}_F^1(\nu)$; do đó, với mọi $f \in \mathcal{L}_F^1(\nu)$, tồn tại một dãy $(f_n)$ các phần tử của $\mathcal{H}$ có các tính chất sau:
+Trước hết ta sẽ thiết lập a) (tương ứng b)). Mệnh đề này đúng khi $f$ là một hàm số dương (Mệnh đề 5); nếu $f$ là một hàm khả tích nhận giá trị trong $\overline{\mathbf{R}}$, kết quả này có thể áp dụng cho các hàm dương $f^+$ và $f^-$, và do đó ngay lập tức mở rộng đến $f$ bằng phép trừ. Còn lại cần xét trường hợp các hàm nhận giá trị trong $F$. Gọi $\mathscr{H}$ là không gian con của $\mathscr{L}_F^1(\nu)$ tạo bởi các tổ hợp tuyến tính, với các hệ số trong $F$, của các hàm thuộc $\mathscr{K}(X)$; kết quả liên quan đến các hàm thực suy ra ngay tính đúng đắn của mệnh đề đối với các phần tử của $\mathscr{H}$. Bây giờ, $\mathscr{H}$ trù mật trong $\mathscr{L}_F^1(\nu)$; do đó, với mọi $f \in \mathscr{L}_F^1(\nu)$, tồn tại một dãy $(f_n)$ các phần tử của $\mathscr{H}$ có các tính chất sau:
 
-1) dãy $(f_n)$ hội tụ đến $f$ theo trung bình trong $\mathcal{L}_F^1(\nu)$, và $\nu$-hầu khắp nơi;
+1) dãy $(f_n)$ hội tụ đến $f$ theo trung bình trong $\mathscr{L}_F^1(\nu)$, và $\nu$-hầu khắp nơi;
 2) hàm $g = |f_0| + \sum_{n \in \mathbf{N}} |f_{n+1} - f_n|$ sao cho $\nu^*(g) < +\infty$ (Ch. IV, §3, No. 4, Đl. 3).
 
-Gọi $N_1$ là tập hợp các $t \in T$ sao cho $\lambda_t^*(g) = +\infty$; $N_1$ là địa phương $\mu$-không đáng kể (tương ứng $\mu$-không đáng kể) theo công thức (6) (tương ứng (7)). Với $t \notin N_1$, các $f_n$ thuộc $\mathcal{L}_F^1(\lambda_t)$, dãy $(f_n)$ hội tụ $\lambda_t$-hầu khắp nơi, cũng như đối với tôpô của sự hội tụ theo trung bình trong $\mathcal{L}_F^1(\lambda_t)$ (Ch. IV, §3, No. 3, Mệnh đề 6). Gọi $M$ là tập hợp các $x \in X$ sao cho $f_n(x)$ không hội tụ đến $f(x)$: vì $M$ là $\nu$-không đáng kể, tập hợp $N_2$ gồm các $t \in T$ sao cho $M$ không là $\lambda_t$-không đáng kể là địa phương $\mu$-không đáng kể (tương ứng $\mu$-không đáng kể) theo Hệ quả 1 của Mệnh đề 3.
+Gọi $N_1$ là tập hợp các $t \in T$ sao cho $\lambda_t^*(g) = +\infty$; $N_1$ là địa phương $\mu$-không đáng kể (tương ứng $\mu$-không đáng kể) theo công thức (6) (tương ứng (7)). Với $t \notin N_1$, các $f_n$ thuộc $\mathscr{L}_F^1(\lambda_t)$, dãy $(f_n)$ hội tụ $\lambda_t$-hầu khắp nơi, cũng như đối với tôpô của sự hội tụ theo trung bình trong $\mathscr{L}_F^1(\lambda_t)$ (Ch. IV, §3, No. 3, Mệnh đề 6). Gọi $M$ là tập hợp các $x \in X$ sao cho $f_n(x)$ không hội tụ đến $f(x)$: vì $M$ là $\nu$-không đáng kể, tập hợp $N_2$ gồm các $t \in T$ sao cho $M$ không là $\lambda_t$-không đáng kể là địa phương $\mu$-không đáng kể (tương ứng $\mu$-không đáng kể) theo Hệ quả 1 của Mệnh đề 3.
 
-Giả sử rằng $t$ không thuộc $N_1 \cup N_2$; dãy $(f_n)$ hội tụ theo trung bình trong $\mathcal{L}_F^1(\lambda_t)$, và hội tụ $\lambda_t$-hầu khắp nơi đến $f$. Do đó $f \in \mathcal{L}_F^1(\lambda_t)$ và $\int f\, d\lambda_t = \lim_{n \to \infty} \int f_n\, d\lambda_t$ (Ch. IV, §4, No. 1). Tập hợp $H$ của mệnh đề do đó được chứa trong $N_1 \cup N_2$; vì vậy nó là địa phương $\mu$-không đáng kể (tương ứng $\mu$-không đáng kể). Mặt khác, hàm $t \mapsto \int f\, d\lambda_t$ bằng địa phương $\mu$-hầu khắp nơi với giới hạn của một dãy các hàm $\mu$-đo được; do đó nó là $\mu$-đo được. Cuối cùng, với mọi $t \notin N_1 \cup N_2$ và mọi $n$, ta có
+Giả sử rằng $t$ không thuộc $N_1 \cup N_2$; dãy $(f_n)$ hội tụ theo trung bình trong $\mathscr{L}_F^1(\lambda_t)$, và hội tụ $\lambda_t$-hầu khắp nơi đến $f$. Do đó $f \in \mathscr{L}_F^1(\lambda_t)$ và $\int f\, d\lambda_t = \lim_{n \to \infty} \int f_n\, d\lambda_t$ (Ch. IV, §4, No. 1). Tập hợp $H$ của mệnh đề do đó được chứa trong $N_1 \cup N_2$; vì vậy nó là địa phương $\mu$-không đáng kể (tương ứng $\mu$-không đáng kể). Mặt khác, hàm $t \mapsto \int f\, d\lambda_t$ bằng địa phương $\mu$-hầu khắp nơi với giới hạn của một dãy các hàm $\mu$-đo được; do đó nó là $\mu$-đo được. Cuối cùng, với mọi $t \notin N_1 \cup N_2$ và mọi $n$, ta có
 $$
 \left| \int f_n(x)\, d\lambda_t(x) \right| \leq \int^* g(x)\, d\lambda_t(x)
 $$
@@ -328,7 +328,7 @@ Bây giờ giả sử rằng $\lambda_t^\bullet(1) < +\infty$ địa phương $\
 
 #### Nhận xét {#int-v-s3-n3-rem-1 .statement}
 
-Cho $\Lambda : t \mapsto \lambda_t$ là một ánh xạ $\mu$-thích hợp của $T$ vào $\mathcal{M}_+(X)$. Nếu một ánh xạ $\Lambda' : t \mapsto \lambda'_t$ của $T$ vào $\mathcal{M}_+(X)$ bằng $\Lambda$ địa phương $\mu$-hầu khắp nơi, thì suy ra ngay từ các định nghĩa rằng $\Lambda'$ cũng là $\mu$-thích hợp, và rằng $\Lambda$ và $\Lambda'$ có cùng tích phân. Nếu bây giờ $H : t \mapsto \eta_t$ là một hàm nhận giá trị trong $\mathcal{M}_+(X)$, được xác định địa phương $\mu$-hầu khắp nơi, ta lại nói rằng $H$ là $\mu$-thích hợp nếu nó bằng địa phương $\mu$-hầu khắp nơi với một ánh xạ $\Lambda : t \mapsto \lambda_t$ xác định khắp nơi và $\mu$-thích hợp. Khi đó ta đặt $\int \eta_t\, d\mu(t) = \int \lambda_t\, d\mu(t)$, một định nghĩa không phụ thuộc vào hàm $\Lambda$ được sử dụng. Ta để cho người đọc kiểm chứng rằng các mệnh đề đã chứng minh trong các Số trước mở rộng được cho các hàm $\mu$-thích hợp được xác định địa phương $\mu$-hầu khắp nơi.
+Cho $\Lambda : t \mapsto \lambda_t$ là một ánh xạ $\mu$-thích hợp của $T$ vào $\mathscr{M}_+(X)$. Nếu một ánh xạ $\Lambda' : t \mapsto \lambda'_t$ của $T$ vào $\mathscr{M}_+(X)$ bằng $\Lambda$ địa phương $\mu$-hầu khắp nơi, thì suy ra ngay từ các định nghĩa rằng $\Lambda'$ cũng là $\mu$-thích hợp, và rằng $\Lambda$ và $\Lambda'$ có cùng tích phân. Nếu bây giờ $H : t \mapsto \eta_t$ là một hàm nhận giá trị trong $\mathscr{M}_+(X)$, được xác định địa phương $\mu$-hầu khắp nơi, ta lại nói rằng $H$ là $\mu$-thích hợp nếu nó bằng địa phương $\mu$-hầu khắp nơi với một ánh xạ $\Lambda : t \mapsto \lambda_t$ xác định khắp nơi và $\mu$-thích hợp. Khi đó ta đặt $\int \eta_t\, d\mu(t) = \int \lambda_t\, d\mu(t)$, một định nghĩa không phụ thuộc vào hàm $\Lambda$ được sử dụng. Ta để cho người đọc kiểm chứng rằng các mệnh đề đã chứng minh trong các Số trước mở rộng được cho các hàm $\mu$-thích hợp được xác định địa phương $\mu$-hầu khắp nơi.
 
 ### 4. Các hàm đo được phổ quát
 
@@ -348,7 +348,7 @@ Các tập con của T mà hàm đặc trưng của chúng là đo được ph�
 
 *Cho $\mu$ là một độ đo dương trên T, và cho $f$ là một ánh xạ $\mu$-đo được của T vào một không gian tôpô F. Khi đó tồn tại một ánh xạ đo được phổ quát $f'$ của T vào F sao cho $f = f'$ địa phương $\mu$-hầu khắp nơi.*
 
-Gọi $\mathcal{K}$ là tập hợp các tập compact trong T sao cho hạn chế của $f$ lên K là liên tục; vì $\mathcal{K}$ là $\mu$-trù mật (Ch. IV, §5, No. 10, Mệnh đề 15), tồn tại một họ đếm được địa phương $(K_i)_{i \in I}$ gồm các phần tử rời nhau từng đôi một của $\mathcal{K}$ sao cho tập $N = T - \bigcup_{i \in I} K_i$ là không đáng kể địa phương $\mu$ (Ch. IV, §5, No. 9, Mệnh đề 14). Cho $x$ là một phần tử của F; đặt
+Gọi $\mathscr{K}$ là tập hợp các tập compact trong T sao cho hạn chế của $f$ lên K là liên tục; vì $\mathscr{K}$ là $\mu$-trù mật (Ch. IV, §5, No. 10, Mệnh đề 15), tồn tại một họ đếm được địa phương $(K_i)_{i \in I}$ gồm các phần tử rời nhau từng đôi một của $\mathscr{K}$ sao cho tập $N = T - \bigcup_{i \in I} K_i$ là không đáng kể địa phương $\mu$ (Ch. IV, §5, No. 9, Mệnh đề 14). Cho $x$ là một phần tử của F; đặt
 
 $$
 f'(t) = f(t) \quad \text{nếu } t \in \bigcup_{i \in I} K_i,
@@ -363,26 +363,26 @@ Các hàm $f$ và $f'$ bằng nhau địa phương $\mu$-hầu khắp nơi. Mặ
 
 #### Định nghĩa 3 {#int-v-s3-def-3 .statement}
 
-*Cho X là một không gian compact địa phương, và cho $\Lambda : t \mapsto \lambda_t$ là một ánh xạ của T vào $\mathcal{M}_+(X)$. Ánh xạ $\Lambda$ được gọi là một khuếch tán* của T trong X nếu Λ là thích hợp đối với mọi độ đo dương trên T có giá compact. Khuếch tán Λ được gọi là bị chặn nếu tất cả các độ đo λ_t là bị chặn và $\sup_{t \in T} \| \lambda_t \| < +\infty$; đại lượng này khi đó được gọi là chuẩn của Λ và được ký hiệu $\| \Lambda \|$.
+*Cho X là một không gian compact địa phương, và cho $\Lambda : t \mapsto \lambda_t$ là một ánh xạ của T vào $\mathscr{M}_+(X)$. Ánh xạ $\Lambda$ được gọi là một khuếch tán* của T trong X nếu Λ là thích hợp đối với mọi độ đo dương trên T có giá compact. Khuếch tán Λ được gọi là bị chặn nếu tất cả các độ đo λ_t là bị chặn và $\sup_{t \in T} \| \lambda_t \| < +\infty$; đại lượng này khi đó được gọi là chuẩn của Λ và được ký hiệu $\| \Lambda \|$.
 
 Mệnh đề sau đây chỉ đơn giản là dịch lại định nghĩa:
 
 #### Mệnh đề 8 {#int-v-s3-prop-8 .statement}
 
-— Để một ánh xạ $\Lambda : t \mapsto \lambda_t$ của T vào $\mathcal{M}_+(X)$ là một phép khuếch tán, điều kiện cần và đủ là các điều kiện sau được thỏa mãn:
+— Để một ánh xạ $\Lambda : t \mapsto \lambda_t$ của T vào $\mathscr{M}_+(X)$ là một phép khuếch tán, điều kiện cần và đủ là các điều kiện sau được thỏa mãn:
 1) Với mọi hàm nửa liên tục dưới $f \geqslant 0$ xác định trên X, hàm $t \mapsto \lambda_t^\bullet(f)$ là khả đo được phổ dụng trên T.
-2) Với mọi hàm $g \in \mathcal{K}_+(X)$, hàm $t \mapsto \lambda_t(g)$ bị chặn địa phương trên T.
+2) Với mọi hàm $g \in \mathscr{K}_+(X)$, hàm $t \mapsto \lambda_t(g)$ bị chặn địa phương trên T.
 3) Với mọi hàm nửa liên tục dưới $f \geqslant 0$ xác định trên X và với mọi độ đo dương $\mu$ trên T có giá compact, đẳng thức sau đúng, trong đó $\nu$ ký hiệu $\int \lambda_t d\mu(t)$:
 
 $$
 \int^\bullet f(x) d\nu(x) = \int^\bullet d\mu(t) \int^\bullet f(x) d\lambda_t(x).
 $$
 
-Giả sử rằng $\Lambda$ là một phép khuếch tán. Khi đó điều kiện 1) được thỏa mãn theo định nghĩa các ánh xạ thích đáng (No. 1, Định nghĩa 1) và Mệnh đề 6; điều kiện 3) được thỏa mãn bởi công thức (4), vì $\Lambda$ là $\mu$-thích đáng. Cho $g \in \mathcal{K}_+(X)$ và cho $u$ là hàm $t \mapsto \lambda_t(g)$ (khả đo được phổ dụng, theo 1)); giả sử rằng $u$ không bị chặn địa phương. Khi đó sẽ tồn tại một tập compact K sao cho $u$ không bị chặn trên K, do đó sẽ tồn tại một dãy $(t_n)$ gồm các phần tử của K sao cho $u(t_n) \geqslant n^2$ với mọi $n \geqslant 1$; khi đó $u$ không khả tích đối với độ đo $\mu = \sum_{n \geqslant 1} \frac{1}{n^2} \varepsilon_{t_n}$ có giá compact, trái với giả thiết về $\Lambda$, giả thiết này suy ra rằng $t \mapsto \lambda_t(g)$ khả tích đối với mọi độ đo dương có giá compact. Vậy ba điều kiện trên là cần thiết. Ngược lại, các điều kiện 1) và 2) suy ra rằng $\Lambda$ khả tích thiết yếu theo vô hướng đối với $\mu$ với mọi độ đo $\mu$ có giá compact. Vì mọi độ đo $\mu' \geq 0$ bị chặn trên bởi một độ đo $\mu$ có giá compact thì cũng có giá compact, các điều kiện 1) và 3) diễn đạt rằng $\Lambda$ là $\mu$-thích đáng đối với mọi độ đo dương có giá compact, và đó chính là kết quả cần tìm.
+Giả sử rằng $\Lambda$ là một phép khuếch tán. Khi đó điều kiện 1) được thỏa mãn theo định nghĩa các ánh xạ thích đáng (No. 1, Định nghĩa 1) và Mệnh đề 6; điều kiện 3) được thỏa mãn bởi công thức (4), vì $\Lambda$ là $\mu$-thích đáng. Cho $g \in \mathscr{K}_+(X)$ và cho $u$ là hàm $t \mapsto \lambda_t(g)$ (khả đo được phổ dụng, theo 1)); giả sử rằng $u$ không bị chặn địa phương. Khi đó sẽ tồn tại một tập compact K sao cho $u$ không bị chặn trên K, do đó sẽ tồn tại một dãy $(t_n)$ gồm các phần tử của K sao cho $u(t_n) \geqslant n^2$ với mọi $n \geqslant 1$; khi đó $u$ không khả tích đối với độ đo $\mu = \sum_{n \geqslant 1} \frac{1}{n^2} \varepsilon_{t_n}$ có giá compact, trái với giả thiết về $\Lambda$, giả thiết này suy ra rằng $t \mapsto \lambda_t(g)$ khả tích đối với mọi độ đo dương có giá compact. Vậy ba điều kiện trên là cần thiết. Ngược lại, các điều kiện 1) và 2) suy ra rằng $\Lambda$ khả tích thiết yếu theo vô hướng đối với $\mu$ với mọi độ đo $\mu$ có giá compact. Vì mọi độ đo $\mu' \geq 0$ bị chặn trên bởi một độ đo $\mu$ có giá compact thì cũng có giá compact, các điều kiện 1) và 3) diễn đạt rằng $\Lambda$ là $\mu$-thích đáng đối với mọi độ đo dương có giá compact, và đó chính là kết quả cần tìm.
 
 #### Mệnh đề 9 {#int-v-s3-prop-9 .statement}
 
-— Cho $\Lambda : t \mapsto \lambda_t$ là một ánh xạ từ T vào $\mathcal{M}_+(X)$, sao cho hàm $t \mapsto \lambda_t(g)$ là khả đo được phổ dụng và bị chặn địa phương trên T với mọi $g \in \mathcal{K}_+(X)$. Có thể khẳng định rằng $\Lambda$ là một phép khuếch tán trong mỗi trường hợp sau:
+— Cho $\Lambda : t \mapsto \lambda_t$ là một ánh xạ từ T vào $\mathscr{M}_+(X)$, sao cho hàm $t \mapsto \lambda_t(g)$ là khả đo được phổ dụng và bị chặn địa phương trên T với mọi $g \in \mathscr{K}_+(X)$. Có thể khẳng định rằng $\Lambda$ là một phép khuếch tán trong mỗi trường hợp sau:
 
 a) *tôpô của X có một cơ sở đếm được*;
 b) *Λ khả đo được phổ dụng đối với tôpô mơ hồ*.
@@ -392,7 +392,7 @@ Thật vậy, cho $μ$ là một độ đo dương trên T có giá compact; án
 Đối với phần còn lại của tiết này, ta sẽ dùng các ký hiệu sau: ta sẽ ký hiệu bởi $⟨η, h⟩$ tích phân thiết yếu trên, đối với một độ đo dương $η$, của một hàm dương khả đo được theo $η$ là $h$. Ánh xạ $Λ : t ↦ λ_t$ sẽ là một phép khuếch tán của $T$ trong $X$. Nếu $f$ là một hàm dương khả đo được phổ dụng xác định trên $X$, ta sẽ ký hiệu bởi $Λf$ ánh xạ $t ↦ λ_t^*(f)$. Nếu $μ$ là một độ đo dương trên $T$ sao cho $Λ$ khả tích thiết yếu theo vô hướng đối với $μ$, ta sẽ ký hiệu bởi $μΛ$ độ đo $∫ λ_t dμ(t)$. Định nghĩa của tích phân khi đó có dạng
 
 $$
-⟨μΛ, f⟩ = ⟨μ, Λf⟩ \quad \text{với } f ∈ \mathcal{K}_+(X).
+⟨μΛ, f⟩ = ⟨μ, Λf⟩ \quad \text{với } f ∈ \mathscr{K}_+(X).
 $$
 
 Ta sẽ nói rằng một độ đo dương $μ$ trên $T$ *thuộc miền của $Λ$* nếu $Λ$ là $μ$-thích hợp: điều đó có nghĩa là nói (theo Mệnh đề 8) rằng $Λ$ là khả tích cốt yếu theo vô hướng đối với $μ$ và $⟨μ'Λ, f⟩ = ⟨μ', Λf⟩$ với mọi độ đo dương $μ' ≤ μ$ và mọi hàm dương nửa liên tục dưới $f$.
@@ -462,7 +462,7 @@ $$
 (\mu \Lambda)H = \mu(\Lambda H); \quad \Lambda(Hf) = (\Lambda H)f.
 $$
 
-Đặt $\gamma_t = \lambda_t H$; ta sẽ ký hiệu bằng $\Gamma$ ánh xạ $\Lambda H$ của T vào $\mathcal{M}_+(Y)$, và bằng $\Gamma f$ hàm $t \mapsto \langle \gamma_t, f \rangle$ (lạm dụng ký hiệu, vì ta vẫn chưa biết liệu $\Gamma$ có phải là một khuếch tán hay không). Khi đó $\langle \gamma_t, f \rangle = \langle \lambda_t H, f \rangle = \langle \lambda_t, Hf \rangle$ theo (13); vì hàm $Hf$ là dương và đo được phổ quát trên X (Hệ quả của Mệnh đề 12), suy ra trước hết rằng $\Gamma f = \Lambda(Hf)$, và rồi $\Gamma f$ là đo được phổ quát trên T (tham chiếu như trên). Rõ ràng mọi độ đo $\gamma_t$ đều có tổng khối lượng nhiều nhất bằng $\| \Lambda \| \| H \|$. Do đó $\Gamma g$ là đo được phổ quát và bị chặn với mọi hàm $g \in \mathcal{K}_+(Y)$; vì thế $\Gamma$ khả tích thiết yếu theo vô hướng đối với mọi độ đo bị chặn trên T, và đặc biệt là đối với mọi độ đo có giá compact. Tổng quát hơn, nếu $\mu$ là một độ đo thuộc miền xác định của $\Lambda$, sao cho $\mu \Lambda$ thuộc miền xác định của H, thì, với $g \in \mathcal{K}_+(Y)$,
+Đặt $\gamma_t = \lambda_t H$; ta sẽ ký hiệu bằng $\Gamma$ ánh xạ $\Lambda H$ của T vào $\mathscr{M}_+(Y)$, và bằng $\Gamma f$ hàm $t \mapsto \langle \gamma_t, f \rangle$ (lạm dụng ký hiệu, vì ta vẫn chưa biết liệu $\Gamma$ có phải là một khuếch tán hay không). Khi đó $\langle \gamma_t, f \rangle = \langle \lambda_t H, f \rangle = \langle \lambda_t, Hf \rangle$ theo (13); vì hàm $Hf$ là dương và đo được phổ quát trên X (Hệ quả của Mệnh đề 12), suy ra trước hết rằng $\Gamma f = \Lambda(Hf)$, và rồi $\Gamma f$ là đo được phổ quát trên T (tham chiếu như trên). Rõ ràng mọi độ đo $\gamma_t$ đều có tổng khối lượng nhiều nhất bằng $\| \Lambda \| \| H \|$. Do đó $\Gamma g$ là đo được phổ quát và bị chặn với mọi hàm $g \in \mathscr{K}_+(Y)$; vì thế $\Gamma$ khả tích thiết yếu theo vô hướng đối với mọi độ đo bị chặn trên T, và đặc biệt là đối với mọi độ đo có giá compact. Tổng quát hơn, nếu $\mu$ là một độ đo thuộc miền xác định của $\Lambda$, sao cho $\mu \Lambda$ thuộc miền xác định của H, thì, với $g \in \mathscr{K}_+(Y)$,
 
 $$
 \langle \mu, \Gamma g \rangle = \langle \mu, \Lambda(Hg) \rangle = \langle \mu \Lambda, Hg \rangle = \langle (\mu \Lambda)H, g \rangle.
@@ -474,7 +474,7 @@ $$
 \langle \mu \Gamma, g \rangle = \langle (\mu \Lambda)H, g \rangle,
 $$
 
-hoặc cũng có thể là $\mu \Gamma = (\mu \Lambda)H$ vì $g$ tùy ý trong $\mathcal{K}_+(Y)$.
+hoặc cũng có thể là $\mu \Gamma = (\mu \Lambda)H$ vì $g$ tùy ý trong $\mathscr{K}_+(Y)$.
 
 Xét lại hàm đo được phổ quát $f \geqslant 0$. Ta có
 

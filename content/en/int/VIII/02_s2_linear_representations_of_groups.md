@@ -41,7 +41,7 @@ subsections:
       pdf_page: 116
 statements: 22
 exercises: 10
-content_sha256: b0678881b7cd3a56d5f8b131d0c35b22044fde9c44f2a5b66f9c2d07b90f0958
+content_sha256: 7fbe5cf422ed070aee2ead944edcb220562f94e36786bf655fe054c3d57eba39
 ---
 
 ## § 2. LINEAR REPRESENTATIONS OF GROUPS
@@ -60,7 +60,7 @@ Let G be a topological group, E a locally convex space, U a linear representatio
 
 #### Remark 1 {#int-viii-s2-n1-rem-1 .statement}
 
-To say that $U$ is separately continuous means that $s \mapsto U(s)$ is a continuous mapping of $G$ into the space $\mathcal{L}(E; E)$ of continuous endomorphisms of $E$, equipped with the topology of pointwise convergence.
+To say that $U$ is separately continuous means that $s \mapsto U(s)$ is a continuous mapping of $G$ into the space $\mathscr{L}(E; E)$ of continuous endomorphisms of $E$, equipped with the topology of pointwise convergence.
 
 #### Remark 2 {#int-viii-s2-n1-rem-2 .statement}
 
@@ -119,9 +119,9 @@ Let U be a separately continuous linear representation of G in E. Let E' be the 
 
 #### Lemma 3 {#int-viii-s2-lem-3 .statement}
 
-Let X be a locally compact space, Y and Z topological spaces, $\varphi$ a continuous mapping of $X \times Y$ into Z, and $\varphi_x$ the mapping $y \mapsto \varphi(x,y)$ of Y into Z. The spaces $\mathcal{C}(Y), \mathcal{C}(Z)$ being equipped with the topology of compact convergence, the mapping $(x,f) \mapsto f \circ \varphi_x$ of $X \times \mathcal{C}(Z)$ into $\mathcal{C}(Y)$ is continuous.
+Let X be a locally compact space, Y and Z topological spaces, $\varphi$ a continuous mapping of $X \times Y$ into Z, and $\varphi_x$ the mapping $y \mapsto \varphi(x,y)$ of Y into Z. The spaces $\mathscr{C}(Y), \mathscr{C}(Z)$ being equipped with the topology of compact convergence, the mapping $(x,f) \mapsto f \circ \varphi_x$ of $X \times \mathscr{C}(Z)$ into $\mathscr{C}(Y)$ is continuous.
 
-It clearly suffices to consider the case that X is compact. Let $(x_0, f_0) \in X \times \mathcal{C}(Z)$, K a compact subset of Y, and $\varepsilon > 0$. Let $K' = \varphi(X \times K)$. Since f_0 \circ \varphi \text{ is uniformly continuous in } X \times K, \text{ there exists a neighborhood W of } x_0 \text{ such that } |f_0(\varphi(x,y)) - f_0(\varphi(x_0,y))| \leq \varepsilon \text{ for } x \in W \text{ and } y \in K. \text{ On the other hand, if one takes } f \in \mathcal{C}(Z) \text{ to be such that } |f(z) - f_0(z)| \leq \varepsilon \text{ for all } z \in K', \text{ one will have } |f(\varphi(x,y)) - f_0(\varphi(x,y))| \leq \varepsilon \text{ for } x \in X, y \in K, \text{ and therefore } |f(\varphi(x,y)) - f_0(\varphi(x_0,y))| \leq 2\varepsilon \text{ for } x \in W, y \in K. \text{ Whence the lemma.}
+It clearly suffices to consider the case that X is compact. Let $(x_0, f_0) \in X \times \mathscr{C}(Z)$, K a compact subset of Y, and $\varepsilon > 0$. Let $K' = \varphi(X \times K)$. Since f_0 \circ \varphi \text{ is uniformly continuous in } X \times K, \text{ there exists a neighborhood W of } x_0 \text{ such that } |f_0(\varphi(x,y)) - f_0(\varphi(x_0,y))| \leq \varepsilon \text{ for } x \in W \text{ and } y \in K. \text{ On the other hand, if one takes } f \in \mathscr{C}(Z) \text{ to be such that } |f(z) - f_0(z)| \leq \varepsilon \text{ for all } z \in K', \text{ one will have } |f(\varphi(x,y)) - f_0(\varphi(x,y))| \leq \varepsilon \text{ for } x \in X, y \in K, \text{ and therefore } |f(\varphi(x,y)) - f_0(\varphi(x_0,y))| \leq 2\varepsilon \text{ for } x \in W, y \in K. \text{ Whence the lemma.}
 
 Let us now return to the earlier notations.
 
@@ -183,7 +183,7 @@ It is clear that $\gamma_\chi$ leaves $\overline{K(X)}$ stable and that each of 
 
 ### 4. Example: linear representations in spaces of measures
 
-Again let G be a locally compact group, operating continuously on the left in a locally compact space X, and let $\chi$ be a *continuous* multiplier on $G \times X$. The linear representation $\gamma_\chi$ of $G$ in $\mathcal{K}(X)$ admits a contragredient representation in $\mathcal{M}(X)$, which we shall again denote by $\gamma_\chi$, and which is defined by the following formula (where $\mu \in \mathcal{M}(X) , f \in \mathcal{K}(X)$):
+Again let G be a locally compact group, operating continuously on the left in a locally compact space X, and let $\chi$ be a *continuous* multiplier on $G \times X$. The linear representation $\gamma_\chi$ of $G$ in $\mathscr{K}(X)$ admits a contragredient representation in $\mathscr{M}(X)$, which we shall again denote by $\gamma_\chi$, and which is defined by the following formula (where $\mu \in \mathscr{M}(X) , f \in \mathscr{K}(X)$):
 
 $$
 \langle \gamma_\chi(s)\mu, f \rangle = \langle \mu, \gamma_\chi(s^{-1})f \rangle = \langle \chi(s, \cdot) \cdot \mu, \gamma(s^{-1})f \rangle = \langle \gamma(s)(\chi(s, \cdot) \cdot \mu), f \rangle ,
@@ -201,15 +201,15 @@ $$
 (\gamma(s)\chi(s, \cdot))(x) = \chi(s, s^{-1}x) .
 $$
 
-The linear representation $\gamma_\chi$ of $G$ in $\mathcal{C}(X)$ admits a contragredient representation in the space $\mathcal{C}'(X)$ of measures on $X$ with compact support, a representation which we again denote by $\gamma_\chi$; the endomorphisms $\gamma_\chi(s)$ of $\mathcal{C}'(X)$ are the restrictions of the endomorphisms $\gamma_\chi(s)$ of $\mathcal{M}(X)$.
+The linear representation $\gamma_\chi$ of $G$ in $\mathscr{C}(X)$ admits a contragredient representation in the space $\mathscr{C}'(X)$ of measures on $X$ with compact support, a representation which we again denote by $\gamma_\chi$; the endomorphisms $\gamma_\chi(s)$ of $\mathscr{C}'(X)$ are the restrictions of the endomorphisms $\gamma_\chi(s)$ of $\mathscr{M}(X)$.
 
 #### Proposition 6 {#int-viii-s2-prop-6 .statement}
 
-*If one equips $\mathcal{M}(X)$ (resp. $\mathcal{C}'(X)$) with the topology of uniform convergence in the compact subsets of $\mathcal{K}(X)$ (resp. $\mathcal{C}(X)$), then the linear representation $\gamma_\chi$ of $G$ in $\mathcal{M}(X)$ (resp. $\mathcal{C}'(X)$) is continuous.*
+*If one equips $\mathscr{M}(X)$ (resp. $\mathscr{C}'(X)$) with the topology of uniform convergence in the compact subsets of $\mathscr{K}(X)$ (resp. $\mathscr{C}(X)$), then the linear representation $\gamma_\chi$ of $G$ in $\mathscr{M}(X)$ (resp. $\mathscr{C}'(X)$) is continuous.*
 
 #### Proposition 7 {#int-viii-s2-prop-7 .statement}
 
-*Suppose that each function $\chi(s, \cdot)$ is bounded. Then $\gamma_\chi$ leaves stable $\mathcal{M}^1(X)$ and, if $\mathcal{M}^1(X)$ is equipped with the topology of uniform convergence in the compact subsets of $\mathcal{K}(X)$, then the linear representation $\gamma_\chi$ of $G$ in $\mathcal{M}^1(X)$ is continuous.*
+*Suppose that each function $\chi(s, \cdot)$ is bounded. Then $\gamma_\chi$ leaves stable $\mathscr{M}^1(X)$ and, if $\mathscr{M}^1(X)$ is equipped with the topology of uniform convergence in the compact subsets of $\mathscr{K}(X)$, then the linear representation $\gamma_\chi$ of $G$ in $\mathscr{M}^1(X)$ is continuous.*
 These propositions result from Props. 3, 4, 5.
 
 ### 5. Example: linear representations in the spaces $L^p$
@@ -236,7 +236,7 @@ $$
 $$
 locally $\beta$-almost everywhere, consequently everywhere, since $\chi$ is continuous and $\beta$ has support $X$.
 
-Let $p \in [1, +\infty[$. For every $f \in \mathcal{L}_C^p(X, \beta)$ and every $s \in G$, let $\gamma_{\chi,p}(s)f$ be the function on $X$ defined by
+Let $p \in [1, +\infty[$. For every $f \in \mathscr{L}_C^p(X, \beta)$ and every $s \in G$, let $\gamma_{\chi,p}(s)f$ be the function on $X$ defined by
 $$
 (\gamma_{\chi,p}(s)f)(x) = \chi(s^{-1}, x)^{1/p} f(s^{-1}x).
 $$
@@ -247,13 +247,13 @@ $$
 $$
 = \int |f(x)|^p d\beta(x),
 $$
-therefore $\gamma_{\chi,p}(s)f \in \mathcal{L}_C^p(X, \beta)$. One sees that $\gamma_{\chi,p}(s)$ is an *isometric* endomorphism of $\mathcal{L}_C^p(X, \beta)$ and defines, by passage to the quotient, an isometric endomorphism of $L_C^p(X, \beta)$, also denoted $\gamma_{\chi,p}(s)$. On the other hand, $\chi^{1/p}$ is obviously a multiplier, therefore $\gamma_{\chi,p}$ is a linear representation of $G$ in $L_C^p(X, \beta)$ by what we have seen in No. 3.
+therefore $\gamma_{\chi,p}(s)f \in \mathscr{L}_C^p(X, \beta)$. One sees that $\gamma_{\chi,p}(s)$ is an *isometric* endomorphism of $\mathscr{L}_C^p(X, \beta)$ and defines, by passage to the quotient, an isometric endomorphism of $L_C^p(X, \beta)$, also denoted $\gamma_{\chi,p}(s)$. On the other hand, $\chi^{1/p}$ is obviously a multiplier, therefore $\gamma_{\chi,p}$ is a linear representation of $G$ in $L_C^p(X, \beta)$ by what we have seen in No. 3.
 
 #### Proposition 8 {#int-viii-s2-prop-8 .statement}
 
 *The linear representation $\gamma_{\chi,p}$ of $G$ in $L_C^p(X, \beta)$ is continuous and isometric.*
 
-Let $f \in \mathcal{K}(X)$. When $s$ tends to $s_0$ in $G$, $\gamma_{\chi,p}(s)f$ tends to $\gamma_{\chi,p}(s_0)f$ in $\mathcal{K}(X)$, hence in $L_C^p(X, \beta)$. Since the $\gamma_{\chi,p}(s)$ are isometric, Prop. 8 is obtained by applying *Remark 2* of No. 1.
+Let $f \in \mathscr{K}(X)$. When $s$ tends to $s_0$ in $G$, $\gamma_{\chi,p}(s)f$ tends to $\gamma_{\chi,p}(s_0)f$ in $\mathscr{K}(X)$, hence in $L_C^p(X, \beta)$. Since the $\gamma_{\chi,p}(s)$ are isometric, Prop. 8 is obtained by applying *Remark 2* of No. 1.
 
 For the case that $\chi$ is not assumed continuous, cf. §4, Exer. 13.
 
@@ -261,7 +261,7 @@ For the case that $\chi$ is not assumed continuous, cf. §4, Exer. 13.
 
 *Suppose that each function $\chi(s, \cdot)$ is bounded. Then $\gamma_\chi$ leaves $L_C^p(X, \beta)$ stable, and the linear representation $\gamma_\chi$ of $G$ in $L_C^p(X, \beta)$ is continuous.*
 
-Let $f \in \mathcal{L}_C^p(X, \beta)$. Then
+Let $f \in \mathscr{L}_C^p(X, \beta)$. Then
 $$
 \int^* |\chi(s^{-1}, x)f(s^{-1}x)|^p d\beta(x)
 $$
@@ -271,42 +271,42 @@ $$
 $$
 = \sup_{x \in X} \chi(s^{-1}, x)^{p-1} \int |f(x)|^p d\beta(x),
 $$
-therefore $\gamma_\chi(s)f \in \mathcal{L}_C^p(X, \beta)$, and
+therefore $\gamma_\chi(s)f \in \mathscr{L}_C^p(X, \beta)$, and
 $$
 \| \gamma_\chi(s) \| \leq \sup_{x \in X} \chi(s^{-1}, x)^{1/q},
 $$
-(5) where $q$ denotes the exponent conjugate to $p$. If $f \in \mathcal{K}(X)$, then $\gamma_{\chi}(s)f$ tends to $\gamma_{\chi}(s_0)f$ in $\mathcal{K}(X)$, hence in $\mathcal{L}_C^p(X, \beta)$, as $s$ tends to $s_0$. Therefore the representation $\gamma_{\chi}$ of $G$ in $L_C^p(X, \beta)$ is continuous (No. 1, Prop. 2).
+(5) where $q$ denotes the exponent conjugate to $p$. If $f \in \mathscr{K}(X)$, then $\gamma_{\chi}(s)f$ tends to $\gamma_{\chi}(s_0)f$ in $\mathscr{K}(X)$, hence in $\mathscr{L}_C^p(X, \beta)$, as $s$ tends to $s_0$. Therefore the representation $\gamma_{\chi}$ of $G$ in $L_C^p(X, \beta)$ is continuous (No. 1, Prop. 2).
 
 Properties analogous to those of Nos. 3, 4, 5 hold if $G$ operates on the right in $X$.
 
-In particular, if one regards $G$ as operating on itself by left or right translations, and if one takes $\chi = 1$, one obtains the *left* and *right regular representations* of $G$ in $\mathcal{C}(G)$, $\mathcal{K}(G)$, $\overline{\mathcal{K}}(G)$, $\mathcal{C}'(G)$, $\mathcal{M}(G)$, $\mathcal{M}^1(G)$. If one takes $\beta$ to be a left (resp. right) Haar measure on $G$, and if one takes $\chi = 1$, one obtains the *left* (resp. *right*) *regular representation* of $G$ in $L_C^p(G, \beta)$.
+In particular, if one regards $G$ as operating on itself by left or right translations, and if one takes $\chi = 1$, one obtains the *left* and *right regular representations* of $G$ in $\mathscr{C}(G)$, $\mathscr{K}(G)$, $\overline{\mathscr{K}}(G)$, $\mathscr{C}'(G)$, $\mathscr{M}(G)$, $\mathscr{M}^1(G)$. If one takes $\beta$ to be a left (resp. right) Haar measure on $G$, and if one takes $\chi = 1$, one obtains the *left* (resp. *right*) *regular representation* of $G$ in $L_C^p(G, \beta)$.
 
 ### 6. Extension of a linear representation of $G$ to the measures on $G$
 
-Let $G$ be a locally compact group, $E$ a locally convex space, $U$ a linear representation of $G$ in $E$. Assume $U$ to be continuous and $E$ quasi-complete. Then, for every measure $\mu \in \mathcal{C}'(G)$, one has
+Let $G$ be a locally compact group, $E$ a locally convex space, $U$ a linear representation of $G$ in $E$. Assume $U$ to be continuous and $E$ quasi-complete. Then, for every measure $\mu \in \mathscr{C}'(G)$, one has
 
 $$
-\int_G U(s)\, d\mu(s) \in \mathcal{L}(E; E)
+\int_G U(s)\, d\mu(s) \in \mathscr{L}(E; E)
 $$
 
-(Ch. VI, §1, No. 7). We shall write $U(\mu) = \int_G U(s)\, d\mu(s)$. We equip $\mathcal{C}'(G)$ with the topology of compact convergence in $\mathcal{C}(G)$. The mapping $(\mu, x) \mapsto U(\mu)x$ of $\mathcal{C}'(G) \times E$ into $E$ is *hypocontinuous* relative to the equicontinuous subsets of $\mathcal{C}'(G)$ and the compact subsets of $E$; in particular, the mapping $\mu \mapsto U(\mu)$ of $\mathcal{C}'(G)$ into $\mathcal{L}(E; E)$ (equipped with the topology of compact convergence) is continuous (*loc. cit.*, Prop. 16).
+(Ch. VI, §1, No. 7). We shall write $U(\mu) = \int_G U(s)\, d\mu(s)$. We equip $\mathscr{C}'(G)$ with the topology of compact convergence in $\mathscr{C}(G)$. The mapping $(\mu, x) \mapsto U(\mu)x$ of $\mathscr{C}'(G) \times E$ into $E$ is *hypocontinuous* relative to the equicontinuous subsets of $\mathscr{C}'(G)$ and the compact subsets of $E$; in particular, the mapping $\mu \mapsto U(\mu)$ of $\mathscr{C}'(G)$ into $\mathscr{L}(E; E)$ (equipped with the topology of compact convergence) is continuous (*loc. cit.*, Prop. 16).
 
-In order to be able to apply these results later on, we note that if $X$ is a locally compact space then $\mathcal{C}(X)$, equipped with the topology of compact convergence, is complete (GT, X, §1, No. 6, Cor. 3 of Th. 2). On the other hand, $\mathcal{K}(X)$ is barreled, therefore its dual $\mathcal{M}(X)$, equipped with the topology of compact convergence in $\mathcal{K}(X)$, is quasi-complete (TVS, III, §4, No. 2, Cor. 4 of Th. 1). Of course, $\mathcal{K}(X)$ is complete for the topology deduced from its norm, therefore its *dual* $\mathcal{M}^1(X)$ is quasi-complete for the topology of compact convergence in $\mathcal{K}(X)$ (*loc. cit.*).
+In order to be able to apply these results later on, we note that if $X$ is a locally compact space then $\mathscr{C}(X)$, equipped with the topology of compact convergence, is complete (GT, X, §1, No. 6, Cor. 3 of Th. 2). On the other hand, $\mathscr{K}(X)$ is barreled, therefore its dual $\mathscr{M}(X)$, equipped with the topology of compact convergence in $\mathscr{K}(X)$, is quasi-complete (TVS, III, §4, No. 2, Cor. 4 of Th. 1). Of course, $\mathscr{K}(X)$ is complete for the topology deduced from its norm, therefore its *dual* $\mathscr{M}^1(X)$ is quasi-complete for the topology of compact convergence in $\mathscr{K}(X)$ (*loc. cit.*).
 
-Let us now assume that $U$ is a continuous linear representation of the locally compact group $G$ on a *Banach space* $E$. Set $g(s) = \|U(s)\|$ for all $s \in G$. Then, if $\mu$ is a measure on $G$ such that $g$ is $\mu$-integrable, one has $\int_G U(s)\, d\mu(s) \in \mathcal{L}(E; E)$ and $\|\int_G U(s)\, d\mu(s)\| \leq \int g(s)\, d|\mu|(s)$ (Ch. VI, §1, No. 7, *Remark* 1). We again write $U(\mu) = \int_G U(s)\, d\mu(s)$.
+Let us now assume that $U$ is a continuous linear representation of the locally compact group $G$ on a *Banach space* $E$. Set $g(s) = \|U(s)\|$ for all $s \in G$. Then, if $\mu$ is a measure on $G$ such that $g$ is $\mu$-integrable, one has $\int_G U(s)\, d\mu(s) \in \mathscr{L}(E; E)$ and $\|\int_G U(s)\, d\mu(s)\| \leq \int g(s)\, d|\mu|(s)$ (Ch. VI, §1, No. 7, *Remark* 1). We again write $U(\mu) = \int_G U(s)\, d\mu(s)$.
 
 ### 7. Relations between the endomorphisms $U(\mu)$ and the endomorphisms $U(s)$
 
 #### Lemma 4 {#int-viii-s2-lem-4 .statement}
 
-Let $T$ be a locally compact space, $a$ a point of $T$, $M$ a subset of $\mathcal{M}(T)$, and $\mathfrak{F}$ a filter on $M$. Assume that:
+Let $T$ be a locally compact space, $a$ a point of $T$, $M$ a subset of $\mathscr{M}(T)$, and $\mathfrak{F}$ a filter on $M$. Assume that:
 (i) for every compact subset $K$ of $T$, the numbers $|\mu|(K)$, for $\mu \in M$, are bounded above;
 (ii) $\lim_{\mu,\mathfrak{F}} |\mu|(K) = 0$ for every compact subset $K$ of $T - \{a\}$.
 (iii) there exists a compact neighborhood $V$ of $a$ in $T$ such that $\lim_{\mu,\mathfrak{F}} \mu(V) = 1$.
 
-Then the filter $\mathfrak{F}$ converges to $\varepsilon_a$ in $\mathcal{M}(T)$ equipped with the topology of compact convergence in $\mathcal{H}(T)$.
+Then the filter $\mathfrak{F}$ converges to $\varepsilon_a$ in $\mathscr{M}(T)$ equipped with the topology of compact convergence in $\mathscr{H}(T)$.
 
-By the hypothesis (i), $M$ is an equicontinuous subset of $\mathcal{M}(T)$ since it is vaguely bounded and $\mathcal{H}(T)$ is barreled (TVS, III, §4, No. 2, Th. 1). It therefore suffices (GT, X, §2, No. 4, Th. 1) to prove that if $f \in \mathcal{H}(T)$, then $\lim_{\mu,\mathfrak{F}} \mu(f) = f(a)$. Let $K$ be the union of $V$ and the support of $f$; if $K'$ is the closure of $K - V$, one has
+By the hypothesis (i), $M$ is an equicontinuous subset of $\mathscr{M}(T)$ since it is vaguely bounded and $\mathscr{H}(T)$ is barreled (TVS, III, §4, No. 2, Th. 1). It therefore suffices (GT, X, §2, No. 4, Th. 1) to prove that if $f \in \mathscr{H}(T)$, then $\lim_{\mu,\mathfrak{F}} \mu(f) = f(a)$. Let $K$ be the union of $V$ and the support of $f$; if $K'$ is the closure of $K - V$, one has
 
 $$
 |\mu(K) - \mu(V)| = |\mu(K - V)| \leq |\mu|(K');
@@ -328,9 +328,9 @@ Since the first and third terms on the right side tend to 0 with respect to $\ma
 
 #### Corollary 1 {#int-viii-s2-lem-4-cor-1 .statement}
 
-With hypotheses as in Lemma 4, suppose in addition that there exists a compact subset $K_0$ of $T$ containing the supports of all of the measures $\mu \in M$. Then $\mathfrak{F}$ also converges to $\varepsilon_a$ in $\mathcal{C}'(T)$ equipped with the topology of compact convergence in $\mathcal{C}(T)$.
+With hypotheses as in Lemma 4, suppose in addition that there exists a compact subset $K_0$ of $T$ containing the supports of all of the measures $\mu \in M$. Then $\mathfrak{F}$ also converges to $\varepsilon_a$ in $\mathscr{C}'(T)$ equipped with the topology of compact convergence in $\mathscr{C}(T)$.
 
-For, the restriction mapping of $\mathcal{C}(T)$ into $\mathcal{C}(K_0)$ is continuous; therefore, if $H$ is a compact subset of $\mathcal{C}(T)$, then the restrictions to $K_0$ of the functions in $H$ form a compact subset of $\mathcal{C}(K_0)$. It then suffices to apply Lemma 4 on replacing $T$ by $K_0$.
+For, the restriction mapping of $\mathscr{C}(T)$ into $\mathscr{C}(K_0)$ is continuous; therefore, if $H$ is a compact subset of $\mathscr{C}(T)$, then the restrictions to $K_0$ of the functions in $H$ form a compact subset of $\mathscr{C}(K_0)$. It then suffices to apply Lemma 4 on replacing $T$ by $K_0$.
 
 #### Corollary 2 {#int-viii-s2-lem-4-cor-2 .statement}
 
@@ -344,23 +344,23 @@ This follows from Cor. 1, and Prop. 14 of Ch. VI, §1, No. 6.
 
 #### Corollary 3 {#int-viii-s2-lem-4-cor-3 .statement}
 
-*Let $G$ be a locally compact group, $E$ a quasi-complete locally convex space, and $U$ a continuous linear representation of $G$ in $E$. Let $\beta$ be a positive measure on $G$, $a$ an element of $G$, and $\mathcal{B}$ a base for the filter of neighborhoods of $a$, formed of compact neighborhoods. For every $V \in \mathcal{B}$, let $f_V$ be a continuous function $\geqslant 0$ on $G$, with support contained in $V$, and such that $\int f_V\, d\beta = 1$. Then, for every $x \in E$,
+*Let $G$ be a locally compact group, $E$ a quasi-complete locally convex space, and $U$ a continuous linear representation of $G$ in $E$. Let $\beta$ be a positive measure on $G$, $a$ an element of $G$, and $\mathscr{B}$ a base for the filter of neighborhoods of $a$, formed of compact neighborhoods. For every $V \in \mathscr{B}$, let $f_V$ be a continuous function $\geqslant 0$ on $G$, with support contained in $V$, and such that $\int f_V\, d\beta = 1$. Then, for every $x \in E$,
 
 $$
 U(a)x = \lim_V U(f_V \cdot \beta)x,
 $$
 
-*the limit being taken with respect to the section filter of $\mathcal{B}$.*
+*the limit being taken with respect to the section filter of $\mathscr{B}$.*
 
-The mapping $s \mapsto U(s)x$ of $G$ into $E$ is continuous. By Cor. 2, $U(a)x = \lim_V \int (U(s)x) \cdot f_V(s)\, d\beta(s)$ with respect to the section filter of $\mathcal{B}$, that is, $U(a)x = \lim_V U(f_V \cdot \beta)x$.
+The mapping $s \mapsto U(s)x$ of $G$ into $E$ is continuous. By Cor. 2, $U(a)x = \lim_V \int (U(s)x) \cdot f_V(s)\, d\beta(s)$ with respect to the section filter of $\mathscr{B}$, that is, $U(a)x = \lim_V U(f_V \cdot \beta)x$.
 
 #### Proposition 10 {#int-viii-s2-prop-10 .statement}
 
 *Let $G$ be a locally compact group, $E$ a quasi-complete locally convex space, $U$ a continuous linear representation of $G$ in $E$, and $\beta$ a positive measure on $G$ with support $G$.
 
-(i) The vectors $U(f \cdot \beta)x$, where $f$ runs over $\mathcal{K}(G)$ and $x$ runs over $E$, are dense in $E$.
+(i) The vectors $U(f \cdot \beta)x$, where $f$ runs over $\mathscr{K}(G)$ and $x$ runs over $E$, are dense in $E$.
 
-(ii) *Let $F$ be a closed linear subspace of $E$. If $F$ is stable for $U$, then $U(\mu)(F) \subset F$ for every $\mu \in \mathcal{C}'(G)$. Conversely, if $U(f \cdot \beta) \subset F$ for every $f \in \mathcal{K}(G)$, then $F$ is stable for $U$.*
+(ii) *Let $F$ be a closed linear subspace of $E$. If $F$ is stable for $U$, then $U(\mu)(F) \subset F$ for every $\mu \in \mathscr{C}'(G)$. Conversely, if $U(f \cdot \beta) \subset F$ for every $f \in \mathscr{K}(G)$, then $F$ is stable for $U$.*
 
 The first part of (ii) is immediate, since the restrictions of the $U(s)$ to $F$ ($s \in G$) define a continuous linear representation of $G$ in the quasi-complete locally convex space $F$. The second part of (ii), and (i), follow from Cor. 3 of Lemma 4.
 

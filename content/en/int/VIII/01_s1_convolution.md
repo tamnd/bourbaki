@@ -32,7 +32,7 @@ subsections:
       pdf_page: 107
 statements: 13
 exercises: 2
-content_sha256: 23461812a4cd3b8d4e684dfa0e018182d8a45e92e458b99cea4216962610a384
+content_sha256: c3123595600507d1dcd535d2ba519b7f886a472216d8ed1124633da152f2decc
 ---
 
 ## § 1. CONVOLUTION
@@ -63,7 +63,7 @@ $$
 (1) \quad \int f\ d(\mu_1 * \cdots * \mu_n) = \int f(\varphi(x_1, \ldots, x_n)) d\mu_1(x_1) \ldots d\mu_n(x_n),
 $$
 
-a formula that may be regarded as *defining* $\mu_1 * \cdots * \mu_n$ when one takes $f \in \mathcal{K}(Y)$.
+a formula that may be regarded as *defining* $\mu_1 * \cdots * \mu_n$ when one takes $f \in \mathscr{K}(Y)$.
 
 The definitions imply at once that the $\mu_i$ are convolvable if and only if the $|\mu_i|$ are. When this is the case,
 
@@ -124,7 +124,7 @@ The following lemma completes Prop. 11 of Ch. V, §8, No. 5:²
 
 For $1 \leq i \leq n$, let $X_i, Y_i$ be two locally compact spaces, $\mu_i$ a measure on $X_i$, and $\varphi_i$ a continuous mapping of $X_i$ into $Y_i$. Let $X = \prod_i X_i$, $Y = \prod_i Y_i$, $\mu = \bigotimes_i \mu_i$, and $\varphi$ the mapping of $X$ into $Y$ that is the product of the $\varphi_i$. If $\varphi$ is $\mu$-proper and $\mu_i \neq 0$ for each $i$, then the $\varphi_i$ are $\mu_i$-proper and $\varphi(\mu) = \bigotimes_i \varphi_i(\mu_i)$.
 
-We can suppose that the $\mu_i$ are positive and $n = 2$. Let $f_1 \in \mathcal{K}_+(Y_1)$. Since $\mu_2 \neq 0$, there exists an $f_2 \in \mathcal{K}_+(Y_2)$ such that $f_2 \circ \varphi_2$ is not $\mu_2$-negligible. The function $(x_1, x_2) \mapsto f_1(\varphi_1(x_1)) f_2(\varphi_2(x_2))$ is essentially $\mu$-integrable and continuous, hence $\mu$-integrable. Therefore there exists an $x_2 \in X_2$ such that $f_2(\varphi_2(x_2)) \neq 0$ and such that the function $x_1 \mapsto f_1(\varphi_1(x_1)) f_2(\varphi_2(x_2))$ is $\mu_1$-integrable. Therefore $f_1 \circ \varphi_1$ is $\mu_1$-integrable,
+We can suppose that the $\mu_i$ are positive and $n = 2$. Let $f_1 \in \mathscr{K}_+(Y_1)$. Since $\mu_2 \neq 0$, there exists an $f_2 \in \mathscr{K}_+(Y_2)$ such that $f_2 \circ \varphi_2$ is not $\mu_2$-negligible. The function $(x_1, x_2) \mapsto f_1(\varphi_1(x_1)) f_2(\varphi_2(x_2))$ is essentially $\mu$-integrable and continuous, hence $\mu$-integrable. Therefore there exists an $x_2 \in X_2$ such that $f_2(\varphi_2(x_2)) \neq 0$ and such that the function $x_1 \mapsto f_1(\varphi_1(x_1)) f_2(\varphi_2(x_2))$ is $\mu_1$-integrable. Therefore $f_1 \circ \varphi_1$ is $\mu_1$-integrable,
 
 ²The lemma follows by induction on part b) of the cited Prop. 11, which is the case $n = 2$; the corresponding result in the first edition of Ch. V (§8, No. 3, Prop. 7) did not include the result of part b).
 
@@ -215,7 +215,7 @@ $$
 $$
 (\mu, \ldots, \mu_n) \mapsto *_{\varphi} (\mu_i)
 $$
-of $\prod_{i=1}^n \mathcal{M}^1(X_i)$ into $\mathcal{M}^1(Y)$ is a continuous multilinear mapping.
+of $\prod_{i=1}^n \mathscr{M}^1(X_i)$ into $\mathscr{M}^1(Y)$ is a continuous multilinear mapping.
 This follows from Prop. 2 and what has been said in No. 1.
 
 ### 4. Properties concerning supports
@@ -244,13 +244,13 @@ Let $S = \prod_i S_i$ be the support of $\mu$. The support of $*_{i} \mu_i$ is c
 
 #### Proposition 6 {#int-viii-s1-prop-6 .statement}
 
-*Let $X, Y, Z$ be locally compact spaces, $\varphi$ a continuous mapping of $X \times Y$ into $Z$, and $\lambda, \mu$ measures on $X, Y$. For $\lambda$ and $\mu$ to be $\varphi$-convolvable, it is necessary and sufficient that the mapping $(x, y) \mapsto \varepsilon_{\varphi(x,y)} = \varepsilon_x * \varepsilon_y$ of $X \times Y$ into $\mathcal{M}(Z)$ be scalarly $(\lambda \otimes \mu)$-integrable for the topology $\sigma(\mathcal{M}(Z), \mathcal{H}(Z))$, in which case*
+*Let $X, Y, Z$ be locally compact spaces, $\varphi$ a continuous mapping of $X \times Y$ into $Z$, and $\lambda, \mu$ measures on $X, Y$. For $\lambda$ and $\mu$ to be $\varphi$-convolvable, it is necessary and sufficient that the mapping $(x, y) \mapsto \varepsilon_{\varphi(x,y)} = \varepsilon_x * \varepsilon_y$ of $X \times Y$ into $\mathscr{M}(Z)$ be scalarly $(\lambda \otimes \mu)$-integrable for the topology $\sigma(\mathscr{M}(Z), \mathscr{H}(Z))$, in which case*
 
 $$
 \lambda * \mu = \int_{X \times Y} (\varepsilon_x * \varepsilon_y) \, d\lambda(x) \, d\mu(y).
 $$
 
-To say that $\lambda$ and $\mu$ are $\varphi$-convolvable signifies that, for every $f \in \mathcal{H}(Z)$, $f \circ \varphi$ is $(\lambda \otimes \mu)$-integrable, that is, for every $f \in \mathcal{H}(Z)$ the function $(x, y) \mapsto \langle f, \varepsilon_{\varphi(x,y)} \rangle$ is $(\lambda \otimes \mu)$-integrable, that is, again, that the mapping $(x, y) \mapsto \varepsilon_{\varphi(x,y)}$ of $X \times Y$ into $\mathcal{M}(Z)$ is scalarly $(\lambda \otimes \mu)$-integrable for $\sigma(\mathcal{M}(Z), \mathcal{K}(Z))$. If this is the case, then
+To say that $\lambda$ and $\mu$ are $\varphi$-convolvable signifies that, for every $f \in \mathscr{H}(Z)$, $f \circ \varphi$ is $(\lambda \otimes \mu)$-integrable, that is, for every $f \in \mathscr{H}(Z)$ the function $(x, y) \mapsto \langle f, \varepsilon_{\varphi(x,y)} \rangle$ is $(\lambda \otimes \mu)$-integrable, that is, again, that the mapping $(x, y) \mapsto \varepsilon_{\varphi(x,y)}$ of $X \times Y$ into $\mathscr{M}(Z)$ is scalarly $(\lambda \otimes \mu)$-integrable for $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$. If this is the case, then
 
 $$
 \langle \lambda * \mu, f \rangle = \int f(\varphi(x, y)) d\lambda(x) d\mu(y) = \int_{X \times Y} \langle \varepsilon_{\varphi(x,y)}, f \rangle d\lambda(x) d\mu(y),
@@ -260,15 +260,15 @@ whence $\lambda * \mu = \int_{X \times Y} \varepsilon_{\varphi(x,y)} d\lambda(x)
 
 #### Proposition 7 {#int-viii-s1-prop-7 .statement}
 
-*Let X, Y, Z be locally compact spaces, $\varphi$ a continuous mapping of $X \times Y$ into Z, and $\lambda, \mu$ measures on X, Y. Assume that for every $x \in X$, $\varepsilon_x$ and $\mu$ are $\varphi$-convolvable. For $\lambda$ and $\mu$ to be $\varphi$-convolvable, it is necessary and sufficient that the mapping $x \mapsto \varepsilon_x * |\mu|$ of X into $\mathcal{M}(Z)$ be scalarly $\lambda$-integrable for the topology $\sigma(\mathcal{M}(Z), \mathcal{K}(Z))$, in which case $\lambda * \mu = \int_X (\varepsilon_x * \mu) d\lambda(x)$.*
+*Let X, Y, Z be locally compact spaces, $\varphi$ a continuous mapping of $X \times Y$ into Z, and $\lambda, \mu$ measures on X, Y. Assume that for every $x \in X$, $\varepsilon_x$ and $\mu$ are $\varphi$-convolvable. For $\lambda$ and $\mu$ to be $\varphi$-convolvable, it is necessary and sufficient that the mapping $x \mapsto \varepsilon_x * |\mu|$ of X into $\mathscr{M}(Z)$ be scalarly $\lambda$-integrable for the topology $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$, in which case $\lambda * \mu = \int_X (\varepsilon_x * \mu) d\lambda(x)$.*
 
-Suppose that $\lambda$ and $\mu$ are $\varphi$-convolvable. For every $f \in \mathcal{K}(Z)$, $f \circ \varphi$ is $(|\lambda| \otimes |\mu|)$-integrable, therefore the function $x \mapsto \int_Y f(\varphi(x, y)) d|\mu|(y) = \langle f, \varepsilon_x * |\mu| \rangle$ (which by hypothesis is defined for all $x \in X$) is $\lambda$-integrable; thus $x \mapsto \varepsilon_x * |\mu|$ is scalarly $\lambda$-integrable for $\sigma(\mathcal{M}(Z), \mathcal{K}(Z))$, and
+Suppose that $\lambda$ and $\mu$ are $\varphi$-convolvable. For every $f \in \mathscr{K}(Z)$, $f \circ \varphi$ is $(|\lambda| \otimes |\mu|)$-integrable, therefore the function $x \mapsto \int_Y f(\varphi(x, y)) d|\mu|(y) = \langle f, \varepsilon_x * |\mu| \rangle$ (which by hypothesis is defined for all $x \in X$) is $\lambda$-integrable; thus $x \mapsto \varepsilon_x * |\mu|$ is scalarly $\lambda$-integrable for $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$, and
 
 $$
 \langle f, \lambda * \mu \rangle = \int_X d\lambda(x) \int_Y f(\varphi(x, y)) d\mu(y) = \int_X \langle f, \varepsilon_x * \mu \rangle d\lambda(x),
 $$
 
-whence $\lambda * \mu = \int_X (\varepsilon_x * \mu) d\lambda(x)$. Conversely, suppose that the mapping $x \mapsto \varepsilon_x * |\mu|$ of X into $\mathcal{M}(Z)$ is scalarly $\lambda$-integrable for $\sigma(\mathcal{M}(Z), \mathcal{K}(Z))$. Let $f \in \mathcal{K}_+(Z)$. Then the function $(x, y) \mapsto f(\varphi(x, y))$ is continuous and (Ch. V, §8, No. 3, Prop. 5)
+whence $\lambda * \mu = \int_X (\varepsilon_x * \mu) d\lambda(x)$. Conversely, suppose that the mapping $x \mapsto \varepsilon_x * |\mu|$ of X into $\mathscr{M}(Z)$ is scalarly $\lambda$-integrable for $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$. Let $f \in \mathscr{K}_+(Z)$. Then the function $(x, y) \mapsto f(\varphi(x, y))$ is continuous and (Ch. V, §8, No. 3, Prop. 5)
 
 $$
 \iint^* f(\varphi(x, y)) d|\lambda|(x) d|\mu|(y) = \int^* d|\lambda|(x) \int^* f(\varphi(x, y)) d|\mu|(y)

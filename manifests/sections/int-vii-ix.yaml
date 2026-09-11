@@ -24,7 +24,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 86c97c0adfca7b9a80065d38a05dc72538aad1f6a4ba1ebe9bb27a2f027fe9cb
+          content_sha256: 9f56b14eb30ba4cf8eea0713aa8e23acde4e421b6c9e019e67d1a45505632e50
         - kind: section
           section: 1
           title: Construction of a Haar measure
@@ -36,7 +36,7 @@ chapters:
           statements: 42
           exercises: 23
           extraction: ocr
-          content_sha256: f223846d7e283fe3e359c0fdab7593b17359f020a6953967222d4e06deabaf12
+          content_sha256: 62132d69780c5384e8642c385d846a4c29ae205f8f3be600977656dc11934c19
         - kind: section
           section: 2
           title: Quotient of a space by a group; homogeneous spaces
@@ -49,7 +49,7 @@ chapters:
           statements: 53
           exercises: 13
           extraction: ocr
-          content_sha256: 808d1febed5e98d1a4693836305c73d1f084d7d8ef2e3631777c1dd0a2f4de4b
+          content_sha256: 3aabe8a9f84764ceec630f987422af79ccf2772ed683c26819c59b116cd6b62c
         - kind: section
           section: 3
           title: Applications and examples
@@ -62,7 +62,7 @@ chapters:
           statements: 24
           exercises: 12
           extraction: ocr
-          content_sha256: 115130034ff32aecbc68fd3f27ca1befb61f88d64371feb493dd57eb6931a24f
+          content_sha256: b33c3af20533f634637eeae9ecde4c3946af5230812cc4bb8b5565c82a4eb1f3
         - kind: appendix
           section: 1
           path: content/en/int/VII/A1_a1_.md
@@ -73,7 +73,7 @@ chapters:
           statements: 1
           exercises: 0
           extraction: ocr
-          content_sha256: 6db0b53e0b7f07010244afd1913b782cdb78e42328f98e84583c066b74f37f67
+          content_sha256: 0554f9175f83a5955662a8bde5aac46e3c71b54855836b9c760e786a5a6cb77b
         - kind: appendix
           section: 2
           path: content/en/int/VII/A2_a2_.md
@@ -109,7 +109,7 @@ chapters:
           statements: 13
           exercises: 2
           extraction: ocr
-          content_sha256: 23461812a4cd3b8d4e684dfa0e018182d8a45e92e458b99cea4216962610a384
+          content_sha256: c3123595600507d1dcd535d2ba519b7f886a472216d8ed1124633da152f2decc
         - kind: section
           section: 2
           title: Linear representations of groups
@@ -122,7 +122,7 @@ chapters:
           statements: 22
           exercises: 10
           extraction: ocr
-          content_sha256: b0678881b7cd3a56d5f8b131d0c35b22044fde9c44f2a5b66f9c2d07b90f0958
+          content_sha256: 7fbe5cf422ed070aee2ead944edcb220562f94e36786bf655fe054c3d57eba39
         - kind: section
           section: 3
           title: Convolution of measures on groups
@@ -135,7 +135,7 @@ chapters:
           statements: 16
           exercises: 13
           extraction: ocr
-          content_sha256: bbc3bfbb386ed5b01dfe7de3c4352d1ddc946f12da4b5fadc42e3c96d19e4eef
+          content_sha256: d7b8f6ce67aab9318c4bf1d66eb3da65db7aa355768329905786e678f3dc2cd4
         - kind: section
           section: 4
           title: Convolution of measures and functions
@@ -148,7 +148,7 @@ chapters:
           statements: 38
           exercises: 28
           extraction: ocr
-          content_sha256: 49dae28e635f264996aa83405996b598158ace98510497220a4478b7bfbd1885
+          content_sha256: b1665fd1179be03704f3694225ccbadfccbe04f954c892e971e58097b5644e43
         - kind: section
           section: 5
           title: The space of closed subgroups
@@ -161,7 +161,7 @@ chapters:
           statements: 20
           exercises: 6
           extraction: ocr
-          content_sha256: 7d184455525d2ba7513695a8b259d67f7396176a88053deba2f15605de4ee78a
+          content_sha256: df6249adfaf1d62d12fcf5b895066464710db932ad537976ee4ab047e0e962fe
         - kind: historical
           title: Historical Note
           path: content/en/int/VIII/historical_note.md
@@ -184,7 +184,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: ac024c6569f7c5ba5acaccd60bd37d93b909616467da5669630e23ecc5330c88
+          content_sha256: d8333c7f7e13b3b348f6bb0abdbe1a4c101cb7042e220cb214ccd8eb756aac76
         - kind: section
           section: 1
           title: Premeasures and measures on a topological space
@@ -196,7 +196,7 @@ chapters:
           statements: 52
           exercises: 10
           extraction: ocr
-          content_sha256: 396f9305e8378565df6b6843f0c7f2210c00d7f2557e26f83d0d7eb3f062b066
+          content_sha256: 9def8ab1f124d61a4573dcf64e25627940e31a5690f91afe3c4981c332244b6f
         - kind: section
           section: 2
           title: Operations on measures
@@ -209,7 +209,7 @@ chapters:
           statements: 41
           exercises: 3
           extraction: ocr
-          content_sha256: d9bc2ab4e638db5dda4f89c6afbad51bda18dd1833902ed2a3c45d0a0829ae21
+          content_sha256: aa1a25f21809b034285694893d76958aa34170055061e9e5e71c5c63af56953a
         - kind: section
           section: 3
           title: Measures and additive set functions
@@ -222,7 +222,7 @@ chapters:
           statements: 17
           exercises: 18
           extraction: ocr
-          content_sha256: 5db0abf26db4c41996c8caffc0ffac0b3f37ac41d3a27e6162dd9585fb8acae3
+          content_sha256: c8e5e6d7c3b2307cb63e315e8689da890304f906e25ea65d78d2f88a020702fa
         - kind: section
           section: 4
           title: Inverse limits of measures
@@ -235,7 +235,7 @@ chapters:
           statements: 7
           exercises: 2
           extraction: ocr
-          content_sha256: b4e7cd1d1788dbad199a14046cb0e8a2678d3219bed052cfd2b9150b2bbab48e
+          content_sha256: f6b86d94d23d998e501a81e7ce38d28415459097713e8eb85fec3ccfe744d0c1
         - kind: section
           section: 5
           title: Measures on completely regular spaces
@@ -248,7 +248,7 @@ chapters:
           statements: 33
           exercises: 13
           extraction: ocr
-          content_sha256: 58103c2c457c58b000a2920115ae10c4f462f32dd4b4a8e8eb6d2753005ef40f
+          content_sha256: dbdde57c4c4c8f4f32c2c83c2bd5d0997de00534af5f926e0d43c41a8bb7f918
         - kind: section
           section: 6
           title: Promeasures and measures on a locally convex space
@@ -261,7 +261,7 @@ chapters:
           statements: 33
           exercises: 1
           extraction: ocr
-          content_sha256: af3d3a4a2c7550e173843161f890afe06b0ee09104498dbfffc394315b766082
+          content_sha256: 9014150dd23621beb068a9cff949348c6c1889c2a84b07cd06313dd80e417bed
         - kind: appendix
           title: Complements on Hilbert spaces
           path: content/en/int/IX/A_a_complements_on_hilbert_spaces.md
@@ -283,7 +283,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 8bbd7aaea3af77bf68fa9e40057d6b9d5050982e2b307c294f6db6b1aebe7e78
+          content_sha256: bdade34b7cba37740a59431245d21e998b2354e188820e734097d82be2331764
 notation_index:
     kind: notation
     title: INDEX OF NOTATIONS

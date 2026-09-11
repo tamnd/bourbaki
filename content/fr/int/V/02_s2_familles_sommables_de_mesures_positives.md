@@ -24,22 +24,22 @@ subsections:
       pdf_page: 20
 statements: 12
 exercises: 4
-content_sha256: 36aae4cf3f347aee62a7fae0525d731840fcaa832efcbb7d50675316943ae79a
+content_sha256: 9281fb2355828d7c5c8b7262f46e05909395d6fce4cdb1cb8201d230589dbe59
 ---
 
 ## § 2. Familles sommables de mesures positives
 
 ### 1. Définition des familles sommables de mesures
 
-Soit $(\lambda_\alpha)_{\alpha \in A}$ une famille de mesures positives sur un espace localement compact X ; on dit que la famille $(\lambda_\alpha)_{\alpha \in A}$ est une famille sommable de mesures si elle est sommable dans l’espace vectoriel $\mathcal{M}(X)$ des mesures réelles sur X, muni de la topologie vague (Top. Gén., chap. III, 3e éd., § 5, n° 1). Cela revient à dire que, pour toute fonction $f \in \mathcal{H}(X)$, la famille des nombres $\lambda_\alpha(f)$ est sommable dans $\mathbf{R}$. En effet, cette condition est évidemment nécessaire ; inversement, si elle est réalisée, la forme linéaire $f \mapsto \sum_{\alpha \in A} \lambda_\alpha(f)$ sur $\mathcal{H}(X)$ est positive, c’est donc une mesure positive $\nu$ (chap. III, 2e éd., § 3, th. 1), et l’on vérifie aussitôt que les sommes partielles finies de la famille $(\lambda_\alpha)$ convergent vaguement vers $\nu$, suivant le filtre des sections de l’ensemble des parties finies de A (Top. Gén., chap. III, 3e éd., § 5, n° 1, déf. 1).
+Soit $(\lambda_\alpha)_{\alpha \in A}$ une famille de mesures positives sur un espace localement compact X ; on dit que la famille $(\lambda_\alpha)_{\alpha \in A}$ est une famille sommable de mesures si elle est sommable dans l’espace vectoriel $\mathscr{M}(X)$ des mesures réelles sur X, muni de la topologie vague (Top. Gén., chap. III, 3e éd., § 5, n° 1). Cela revient à dire que, pour toute fonction $f \in \mathscr{H}(X)$, la famille des nombres $\lambda_\alpha(f)$ est sommable dans $\mathbf{R}$. En effet, cette condition est évidemment nécessaire ; inversement, si elle est réalisée, la forme linéaire $f \mapsto \sum_{\alpha \in A} \lambda_\alpha(f)$ sur $\mathscr{H}(X)$ est positive, c’est donc une mesure positive $\nu$ (chap. III, 2e éd., § 3, th. 1), et l’on vérifie aussitôt que les sommes partielles finies de la famille $(\lambda_\alpha)$ convergent vaguement vers $\nu$, suivant le filtre des sections de l’ensemble des parties finies de A (Top. Gén., chap. III, 3e éd., § 5, n° 1, déf. 1).
 
-Tout élément de $\mathcal{H}(X)$ étant différence de deux éléments de $\mathcal{H}_+(X)$, la famille $(\lambda_\alpha)$ est sommable si et seulement si l’on a
+Tout élément de $\mathscr{H}(X)$ étant différence de deux éléments de $\mathscr{H}_+(X)$, la famille $(\lambda_\alpha)$ est sommable si et seulement si l’on a
 
 (1)
 $$
 \sum_{\alpha \in A} \lambda_\alpha(f) < +\infty
 $$
-pour toute fonction $f \in \mathcal{H}_+(X)$. Cette condition équivaut encore à la suivante :
+pour toute fonction $f \in \mathscr{H}_+(X)$. Cette condition équivaut encore à la suivante :
 
 (2)
 $$
@@ -49,11 +49,11 @@ pour tout compact $K \subset X$.
 
 #### Remarque 1 {#int-v-s2-n1-rem-1 .statement}
 
-Il est immédiat que, lorsque la famille $(\lambda_\alpha)_{\alpha \in A}$ est sommable, sa somme est la borne supérieure, dans $\mathcal{M}_+(X)$, des sommes partielles finies $\sum_{\alpha \in J} \lambda_\alpha$, où J parcourt l’ensemble des parties finies de A.
+Il est immédiat que, lorsque la famille $(\lambda_\alpha)_{\alpha \in A}$ est sommable, sa somme est la borne supérieure, dans $\mathscr{M}_+(X)$, des sommes partielles finies $\sum_{\alpha \in J} \lambda_\alpha$, où J parcourt l’ensemble des parties finies de A.
 
 #### Remarque 2 {#int-v-s2-n1-rem-2 .statement}
 
-Soit $(\theta_\alpha)_{\alpha \in A}$ une famille de mesures complexes sur X ; on dira que la famille $(\theta_\alpha)$ est sommable si la famille $(|\theta_\alpha|)$ de mesures positives est sommable ; *il ne suffit pas pour cela* que la famille $(\theta_\alpha)$ soit sommable dans l’espace vectoriel $\mathcal{M}(X; \mathbf{C})$ muni de la topologie vague (cf. exerc. 3).
+Soit $(\theta_\alpha)_{\alpha \in A}$ une famille de mesures complexes sur X ; on dira que la famille $(\theta_\alpha)$ est sommable si la famille $(|\theta_\alpha|)$ de mesures positives est sommable ; *il ne suffit pas pour cela* que la famille $(\theta_\alpha)$ soit sommable dans l’espace vectoriel $\mathscr{M}(X; \mathbf{C})$ muni de la topologie vague (cf. exerc. 3).
 
 ### 2. Intégration par rapport à une somme de mesures positives
 
@@ -83,7 +83,7 @@ Pour qu’une partie N de X soit localement $\nu$-négligeable, il faut et il su
 
 #### Corollaire 3 {#int-v-s2-prop-1-cor-3 .statement}
 
-On a pour toute fonction $f \in \mathcal{F}_+(X)$
+On a pour toute fonction $f \in \mathscr{F}_+(X)$
 
 (4)
 $$
@@ -120,7 +120,7 @@ $$
 \sum_{\alpha \in A} \left| \int f \, d\lambda_\alpha \right| \leq \sum_{\alpha \in A} \int |f| \, d\lambda_\alpha = \nu(|f|)
 $$
 
-entraîne que la famille $(\int f \, d\lambda_\alpha)$ est absolument sommable dans $F$, et que la norme de sa somme est au plus égale à la norme de $f$ dans $\mathcal{L}_F^1(\nu)$. L’ensemble des $f \in \mathcal{L}_F^1(\nu)$ qui satisfont à (6) est donc un sous-espace fermé $\mathcal{H}$ de $\mathcal{L}_F^1(\nu)$; or ce sous-espace est aussi dense dans $\mathcal{L}_F^1(\nu)$, car il contient les fonctions de la forme $f . a$, où $a \in F$, et où $f$ désigne une fonction intégrable finie et positive (prop. 1). On a donc $\mathcal{H} = \mathcal{L}_F^1(\nu)$, et la proposition est établie.
+entraîne que la famille $(\int f \, d\lambda_\alpha)$ est absolument sommable dans $F$, et que la norme de sa somme est au plus égale à la norme de $f$ dans $\mathscr{L}_F^1(\nu)$. L’ensemble des $f \in \mathscr{L}_F^1(\nu)$ qui satisfont à (6) est donc un sous-espace fermé $\mathscr{H}$ de $\mathscr{L}_F^1(\nu)$; or ce sous-espace est aussi dense dans $\mathscr{L}_F^1(\nu)$, car il contient les fonctions de la forme $f . a$, où $a \in F$, et où $f$ désigne une fonction intégrable finie et positive (prop. 1). On a donc $\mathscr{H} = \mathscr{L}_F^1(\nu)$, et la proposition est établie.
 
 La prop. 3 peut aussi se déduire du théorème général d’intégration qui sera prouvé au paragraphe 3 (n° 3, th. 1).
 
@@ -140,7 +140,7 @@ Si $f$ est mesurable (resp. essentiellement intégrable, intégrable) pour $\the
 
 #### Proposition 4 {#int-v-s2-prop-4 .statement}
 
-Soit $\mu$ une mesure positive sur un espace localement compact $T$, et soit $\mathcal{R}$ un ensemble $\mu$-dense de parties compactes de $T$. Il existe une famille sommable $(\mu_\alpha)_{\alpha \in A}$ de mesures positives sur $T$, telle qu’on ait $\mu = \sum_{\alpha \in A} \mu_\alpha$, que les supports des mesures $\mu_\alpha$ appartiennent à $\mathcal{R}$, et forment une famille localement dénombrable de compacts deux à deux disjoints.
+Soit $\mu$ une mesure positive sur un espace localement compact $T$, et soit $\mathscr{R}$ un ensemble $\mu$-dense de parties compactes de $T$. Il existe une famille sommable $(\mu_\alpha)_{\alpha \in A}$ de mesures positives sur $T$, telle qu’on ait $\mu = \sum_{\alpha \in A} \mu_\alpha$, que les supports des mesures $\mu_\alpha$ appartiennent à $\mathscr{R}$, et forment une famille localement dénombrable de compacts deux à deux disjoints.
 
 Si la mesure $\mu$ est modérée, l’ensemble d’indices $A$ peut être supposé dénombrable.
 

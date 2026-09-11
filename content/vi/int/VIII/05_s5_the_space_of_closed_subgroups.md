@@ -37,9 +37,9 @@ subsections:
       pdf_page: 156
 statements: 20
 exercises: 6
-content_sha256: f9fe783a27241d7ff7a869a46dd70615b2531cb8ea206fb544f8ec22c9f96d34
+content_sha256: 0cc4a011cf90df70c7c954a5ab2abc7963ad037156c1a1c0793fa4929863d939
 translated_from: content/en/int/VIII/05_s5_the_space_of_closed_subgroups.md
-source_content_sha256: 7d184455525d2ba7513695a8b259d67f7396176a88053deba2f15605de4ee78a
+source_content_sha256: df6249adfaf1d62d12fcf5b895066464710db932ad537976ee4ab047e0e962fe
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-1ea08f37
 glossary_version: 34
@@ -65,27 +65,27 @@ Trong phần còn lại của tiết này, ta ký hiệu bằng $\Gamma$ tập h
 
 #### Mệnh đề 1 {#int-viii-s5-prop-1 .statement}
 
-Tập hợp $\Gamma$ là đóng trong không gian $\mathcal{M}_+(G) - \{0\}$ với tôpô mơ hồ.
+Tập hợp $\Gamma$ là đóng trong không gian $\mathscr{M}_+(G) - \{0\}$ với tôpô mơ hồ.
 Trước hết ta chứng minh các bổ đề sau:
 
 #### Bổ đề 2 {#int-viii-s5-lem-2 .statement}
 
-Cho X là một không gian địa phương compact và với mọi độ đo $\alpha \in \mathcal{M}_+(X) - \{0\}$, ký hiệu $S_\alpha$ là giá đỡ của $\alpha$. Cho $\Phi$ là một bộ lọc trên $\mathcal{M}_+(X) - \{0\}$ hội tụ mơ hồ đến một độ đo $\alpha_0 \neq 0$. Khi đó, với mọi lân cận V của một điểm s thuộc giá đỡ của $\alpha_0$, tồn tại một tập $M \in \Phi$ sao cho, với mọi $\alpha \in M$, ta có $V \cap S_\alpha \neq \varnothing$.
-Thật vậy, nếu $\varphi \in \mathcal{K}_+(X)$ là một hàm có giá đỡ chứa trong V và sao cho $\int \varphi(x) d\alpha_0(x) > 0$, thì theo định nghĩa tồn tại một tập $M \in \Phi$ sao cho $\int \varphi(x) d\alpha(x) > 0$ với mọi $\alpha \in M$, điều này suy ra $V \cap S_\alpha \neq \varnothing$.
+Cho X là một không gian địa phương compact và với mọi độ đo $\alpha \in \mathscr{M}_+(X) - \{0\}$, ký hiệu $S_\alpha$ là giá đỡ của $\alpha$. Cho $\Phi$ là một bộ lọc trên $\mathscr{M}_+(X) - \{0\}$ hội tụ mơ hồ đến một độ đo $\alpha_0 \neq 0$. Khi đó, với mọi lân cận V của một điểm s thuộc giá đỡ của $\alpha_0$, tồn tại một tập $M \in \Phi$ sao cho, với mọi $\alpha \in M$, ta có $V \cap S_\alpha \neq \varnothing$.
+Thật vậy, nếu $\varphi \in \mathscr{K}_+(X)$ là một hàm có giá đỡ chứa trong V và sao cho $\int \varphi(x) d\alpha_0(x) > 0$, thì theo định nghĩa tồn tại một tập $M \in \Phi$ sao cho $\int \varphi(x) d\alpha(x) > 0$ với mọi $\alpha \in M$, điều này suy ra $V \cap S_\alpha \neq \varnothing$.
 
 #### Bổ đề 3 {#int-viii-s5-lem-3 .statement}
 
 Cho E là một tập được lọc bởi một bộ lọc $\Phi$, và cho $\xi \mapsto \alpha(\xi)$ là một ánh xạ từ E vào $\Gamma$ hội tụ mơ hồ đối với $\Phi$ tới một độ đo $\alpha_0 \neq 0$. Mặt khác, cho $\xi \mapsto t_\xi$ là một ánh xạ từ E vào G sao cho $t_\xi \in H_{\alpha(\xi)}$ với mọi $\xi \in E$. Nếu s là một điểm tụ của ánh xạ $\xi \mapsto t_\xi$ đối với $\Phi$, thì $\delta(s)\alpha_0 = \alpha_0$.
 
-Nếu cần, thay $\Phi$ bằng một bộ lọc mịn hơn, ta có thể giả sử rằng $s$ là một giới hạn của $\xi \mapsto t_\xi$ đối với $\Phi$; theo Bổ đề 1, $\delta(t_\xi)\alpha(\xi) = \alpha(\xi)$ với mọi $\xi \in E$, và kết luận suy ra từ tính liên tục của ánh xạ $(u, \lambda) \mapsto \delta(u)\lambda$ trên $G \times \mathcal{M}_+(G)$ (§ 3, No. 3, Mệnh đề 13).
+Nếu cần, thay $\Phi$ bằng một bộ lọc mịn hơn, ta có thể giả sử rằng $s$ là một giới hạn của $\xi \mapsto t_\xi$ đối với $\Phi$; theo Bổ đề 1, $\delta(t_\xi)\alpha(\xi) = \alpha(\xi)$ với mọi $\xi \in E$, và kết luận suy ra từ tính liên tục của ánh xạ $(u, \lambda) \mapsto \delta(u)\lambda$ trên $G \times \mathscr{M}_+(G)$ (§ 3, No. 3, Mệnh đề 13).
 
 Để chứng minh Mệnh đề 1, theo Bổ đề 1, chỉ cần chỉ ra rằng nếu một bộ lọc $\Psi$ trên $\Gamma$ hội tụ một cách mơ hồ đến một độ đo $\alpha_0 \neq 0$ và nếu $s$ thuộc giá đỡ của $\alpha_0$, thì $\delta(s)\alpha_0 = \alpha_0$. Thật vậy, với mọi lân cận $V$ của $s$ trong $G$, tồn tại một $M \in \Psi$ sao cho, với mọi $\alpha \in M$, ta có $V \cap H_\alpha \neq \varnothing$, theo Bổ đề 2. Với mọi lân cận $V$ của $s$ và mọi $\alpha \in \Gamma$, hãy lấy $t_{V,\alpha}$ là một điểm của $V \cap H_\alpha$ nếu $V \cap H_\alpha \neq \varnothing$, và là bất kỳ điểm nào của $H_\alpha$ trong trường hợp ngược lại; nếu $\Theta$ là bộ lọc tiết diện của bộ lọc các lân cận của $s$, và $\Phi$ là bộ lọc tích $\Theta \times \Psi$, thì theo điều trên, $s$ là một điểm tụ của $(V, \alpha) \mapsto t_{V,\alpha}$ đối với $\Phi$. Mặt khác, vì ánh xạ $(V, \alpha) \mapsto \alpha$ có giới hạn $\alpha_0$ đối với $\Phi$, mệnh đề suy ra từ Bổ đề 3.
 
 #### Mệnh đề 2 {#int-viii-s5-prop-2 .statement}
 
-— Cho $\varphi$ là một hàm trong $\mathcal{K}_+(G)$ sao cho $\varphi(e) > 0$. Khi đó tập $\Gamma_\varphi$ các độ đo $\alpha \in \Gamma$ sao cho $\int \varphi(x)\,d\alpha(x) = 1$ là compact theo tôpô mơ hồ.
+— Cho $\varphi$ là một hàm trong $\mathscr{K}_+(G)$ sao cho $\varphi(e) > 0$. Khi đó tập $\Gamma_\varphi$ các độ đo $\alpha \in \Gamma$ sao cho $\int \varphi(x)\,d\alpha(x) = 1$ là compact theo tôpô mơ hồ.
 
-Tập $\Gamma_\varphi$ là giao của $\Gamma$ với siêu phẳng của $\mathcal{M}(G)$ được tạo bởi các $\alpha$ sao cho $\int \varphi(x)\,d\alpha(x) = 1$; vì siêu phẳng này đóng mơ hồ trong $\mathcal{M}(G)$ và không chứa 0, suy ra từ Mệnh đề 1 rằng $\Gamma_\varphi$ đóng mơ hồ trong $\mathcal{M}(G)$. Do đó chỉ cần chứng minh rằng với mọi tập con compact $K$ của $G$, ta có $\sup_{\alpha \in \Gamma_\varphi} \alpha(K) < +\infty$ (Ch. III, §1, No. 9, Mệnh đề 15). Bây giờ, cho $U$ là lân cận mở của $e$ trong $G$ được xác định bởi bất đẳng thức $\varphi(x) > \varphi(e)/2$; vì $1 = \int \varphi(x)\,d\alpha(x) \geq \int_U \varphi(x)\,d\alpha(x)$ đối với $\alpha \in \Gamma_\varphi$, ta thấy rằng, khi đặt $c = 2/\varphi(e)$, ta có $\alpha(U) \leq c$ với mọi $\alpha \in \Gamma_\varphi$. Cho $V$ là một lân cận mở đối xứng của $e$ trong $G$ sao cho $V^2 \subset U$; hãy chứng minh rằng $\alpha(Vx) \leq c$ với mọi $x \in G$ và mọi $\alpha \in \Gamma_\varphi$. Thật vậy, quan hệ này là tầm thường nếu $Vx$ không giao với giá đỡ $H_\alpha$ của $\alpha$; nếu, ngược lại, tồn tại một $h \in Vx \cap H_\alpha$, thì $h = vx$ với một $v \in V$, do đó
+Tập $\Gamma_\varphi$ là giao của $\Gamma$ với siêu phẳng của $\mathscr{M}(G)$ được tạo bởi các $\alpha$ sao cho $\int \varphi(x)\,d\alpha(x) = 1$; vì siêu phẳng này đóng mơ hồ trong $\mathscr{M}(G)$ và không chứa 0, suy ra từ Mệnh đề 1 rằng $\Gamma_\varphi$ đóng mơ hồ trong $\mathscr{M}(G)$. Do đó chỉ cần chứng minh rằng với mọi tập con compact $K$ của $G$, ta có $\sup_{\alpha \in \Gamma_\varphi} \alpha(K) < +\infty$ (Ch. III, §1, No. 9, Mệnh đề 15). Bây giờ, cho $U$ là lân cận mở của $e$ trong $G$ được xác định bởi bất đẳng thức $\varphi(x) > \varphi(e)/2$; vì $1 = \int \varphi(x)\,d\alpha(x) \geq \int_U \varphi(x)\,d\alpha(x)$ đối với $\alpha \in \Gamma_\varphi$, ta thấy rằng, khi đặt $c = 2/\varphi(e)$, ta có $\alpha(U) \leq c$ với mọi $\alpha \in \Gamma_\varphi$. Cho $V$ là một lân cận mở đối xứng của $e$ trong $G$ sao cho $V^2 \subset U$; hãy chứng minh rằng $\alpha(Vx) \leq c$ với mọi $x \in G$ và mọi $\alpha \in \Gamma_\varphi$. Thật vậy, quan hệ này là tầm thường nếu $Vx$ không giao với giá đỡ $H_\alpha$ của $\alpha$; nếu, ngược lại, tồn tại một $h \in Vx \cap H_\alpha$, thì $h = vx$ với một $v \in V$, do đó
 $$
 Vx = Vv^{-1}h \subset V^2h \subset Uh,
 $$
@@ -107,7 +107,7 @@ $$
 
 và kí hiệu $\pi_\alpha$ là ánh xạ chính tắc $G \to Q_\alpha$.
 
-Cho $\Gamma^0$ là tập con của $\Gamma$ gồm các độ đo $\alpha$ sao cho nhóm con $H_\alpha$ của $G$ là *đơn môđula*; các phần tử của $\Gamma^0$ được đặc trưng bởi tính chất rằng $\alpha(f) = \alpha(\dot{f})$ với mọi hàm $f \in \mathcal{K}(G)$ (mọi hàm của $\mathcal{K}(H_\alpha)$ đều có thể mở rộng thành một hàm của $\mathcal{K}(G)$ theo định lý Urysohn); suy ra $\Gamma^0$ là một tập con *đóng* của $\Gamma$. Nhắc lại rằng với mọi $\alpha \in \Gamma^0$, độ đo thương $\mu_\alpha = \mu / \alpha$ trên $Q_\alpha$ được xác định và là bất biến tương đối dưới $G$ (Ch. VII, §2, No. 6, Th. 3); cũng nhắc lại rằng với mọi hàm $f \in \mathcal{K}(G)$,
+Cho $\Gamma^0$ là tập con của $\Gamma$ gồm các độ đo $\alpha$ sao cho nhóm con $H_\alpha$ của $G$ là *đơn môđula*; các phần tử của $\Gamma^0$ được đặc trưng bởi tính chất rằng $\alpha(f) = \alpha(\dot{f})$ với mọi hàm $f \in \mathscr{K}(G)$ (mọi hàm của $\mathscr{K}(H_\alpha)$ đều có thể mở rộng thành một hàm của $\mathscr{K}(G)$ theo định lý Urysohn); suy ra $\Gamma^0$ là một tập con *đóng* của $\Gamma$. Nhắc lại rằng với mọi $\alpha \in \Gamma^0$, độ đo thương $\mu_\alpha = \mu / \alpha$ trên $Q_\alpha$ được xác định và là bất biến tương đối dưới $G$ (Ch. VII, §2, No. 6, Th. 3); cũng nhắc lại rằng với mọi hàm $f \in \mathscr{K}(G)$,
 
 $$
 \int_G f(x) d\mu(x) = \int_{Q_\alpha} d\mu_\alpha(\dot{x}) \int_{H_\alpha} f(xs) d\alpha(s) ,
@@ -119,16 +119,16 @@ trong đó $\dot{x} = \pi_\alpha(x)$ là ảnh chính tắc của $x \in G$ tron
 
 — *Cho* $\Gamma^0$ *là tập các độ đo* $\alpha \in \Gamma$ *sao cho* $H_\alpha$ *là đơn môđula, và với mọi* $\alpha \in \Gamma^0$ *đặt* $\mu_\alpha = \mu / \alpha$; *khi đó ánh xạ* $\alpha \mapsto \| \mu_\alpha \|$ *từ* $\Gamma^0$ *vào* $\overline{\mathbf{R}}$ *là nửa liên tục dưới đối với tôpô mơ hồ*.
 
-Với mọi $\alpha \in \Gamma^0$ và mọi hàm $f \in \mathcal{K}(G)$, đặt
+Với mọi $\alpha \in \Gamma^0$ và mọi hàm $f \in \mathscr{K}(G)$, đặt
 
 $$
 f_\alpha(\dot{x}) = \int_{H_\alpha} f(xs) d\alpha(s) = (f * \alpha)(x) ,
 $$
 
-trong đó tích chập được lấy tương ứng với độ đo Haar phải $\mu$ và trong đó ta dùng đến thực tế là $\dot{\alpha} = \alpha$ (§ 4, No. 4, công thức (11)). Ta biết (Ch. VII, §2, No. 1, Prop. 2) rằng ánh xạ $f \mapsto f_\alpha$ của $\mathcal{K}_+(G)$ vào $\mathcal{K}_+(Q_\alpha)$ là *toàn ánh*; do đó, theo (2),
+trong đó tích chập được lấy tương ứng với độ đo Haar phải $\mu$ và trong đó ta dùng đến thực tế là $\dot{\alpha} = \alpha$ (§ 4, No. 4, công thức (11)). Ta biết (Ch. VII, §2, No. 1, Prop. 2) rằng ánh xạ $f \mapsto f_\alpha$ của $\mathscr{K}_+(G)$ vào $\mathscr{K}_+(Q_\alpha)$ là *toàn ánh*; do đó, theo (2),
 
 $$
-\| \mu_\alpha \| = \sup_{f \in \mathcal{K}_+(G), f \neq 0} \mu_\alpha(f_\alpha) / \| f_\alpha \| = \sup_{f \in \mathcal{K}_+(G), f \neq 0} \mu(f) / \| f_\alpha \|,
+\| \mu_\alpha \| = \sup_{f \in \mathscr{K}_+(G), f \neq 0} \mu_\alpha(f_\alpha) / \| f_\alpha \| = \sup_{f \in \mathscr{K}_+(G), f \neq 0} \mu(f) / \| f_\alpha \|,
 $$
 
 trong đó ta đã đặt
@@ -137,13 +137,13 @@ $$
 \|f_\alpha\| = \sup_{\dot{x} \in Q_\alpha} |f_\alpha(\dot{x})| = \sup_{x \in G} |(f * \alpha)(x)| .
 $$
 
-Để chứng minh mệnh đề, chỉ cần chỉ ra rằng, cho trước $f \in \mathcal{H}_+(G)$, ánh xạ $\alpha \mapsto \|f_\alpha\|$ là liên tục theo tôpô mơ hồ. Bây giờ, gọi K là giá đỡ của f; hàm $f * \alpha$ có giá đỡ được chứa trong $KH_\alpha$ và bất biến phải dưới $H_\alpha$; do đó
+Để chứng minh mệnh đề, chỉ cần chỉ ra rằng, cho trước $f \in \mathscr{H}_+(G)$, ánh xạ $\alpha \mapsto \|f_\alpha\|$ là liên tục theo tôpô mơ hồ. Bây giờ, gọi K là giá đỡ của f; hàm $f * \alpha$ có giá đỡ được chứa trong $KH_\alpha$ và bất biến phải dưới $H_\alpha$; do đó
 
 $$
 \|f_\alpha\| = \sup_{x \in K} |(f * \alpha)(x)| .
 $$
 
-Suy ra kết luận từ thực tế rằng ánh xạ $\alpha \mapsto f * \alpha$ của $\mathcal{M}_+(G)$, được trang bị tôpô mơ hồ, vào $\mathcal{C}(G)$, được trang bị tôpô hội tụ trên các tập compact, là liên tục (§ 4, No. 2, Nhận xét 1).
+Suy ra kết luận từ thực tế rằng ánh xạ $\alpha \mapsto f * \alpha$ của $\mathscr{M}_+(G)$, được trang bị tôpô mơ hồ, vào $\mathscr{C}(G)$, được trang bị tôpô hội tụ trên các tập compact, là liên tục (§ 4, No. 2, Nhận xét 1).
 
 Nhắc lại rằng nếu, với một độ đo $\alpha \in \Gamma^0$, $\|\mu_\alpha\|$ là hữu hạn, thì G tất yếu là đơn môđula (Ch. VII, §2, No. 6, Hệ quả 3 của Th. 3).
 
@@ -163,7 +163,7 @@ $$
 \int_G g(x)\, d\mu(x) = \int_{Q_\alpha} g_\alpha(\dot{x})\, d\mu_\alpha(\dot{x}) .
 $$
 
-Xét theo Mệnh đề 4, chỉ cần chứng minh rằng, trong $\Gamma^0(g)$, $\alpha \mapsto \|\mu_\alpha\|$ là *nửa liên tục trên*. Cố định một độ đo $\alpha \in \Gamma^0(g)$, và cho $K$ là một tập con compact của $G$. Có một hàm liên tục trên $Q_\alpha$ với giá compact, nhận các giá trị trong $[0, 1]$, bằng 1 trên tập compact $\pi_\alpha(K)$; vì ánh xạ $f \mapsto f_\alpha$ của $\mathcal{H}_+(G)$ vào $\mathcal{H}_+(Q_\alpha)$ là toàn ánh (Ch. VII, §2, No. 1, Mệnh đề 2), suy ra tồn tại một hàm $f \in \mathcal{H}_+(G)$ sao cho
+Xét theo Mệnh đề 4, chỉ cần chứng minh rằng, trong $\Gamma^0(g)$, $\alpha \mapsto \|\mu_\alpha\|$ là *nửa liên tục trên*. Cố định một độ đo $\alpha \in \Gamma^0(g)$, và cho $K$ là một tập con compact của $G$. Có một hàm liên tục trên $Q_\alpha$ với giá compact, nhận các giá trị trong $[0, 1]$, bằng 1 trên tập compact $\pi_\alpha(K)$; vì ánh xạ $f \mapsto f_\alpha$ của $\mathscr{H}_+(G)$ vào $\mathscr{H}_+(Q_\alpha)$ là toàn ánh (Ch. VII, §2, No. 1, Mệnh đề 2), suy ra tồn tại một hàm $f \in \mathscr{H}_+(G)$ sao cho
 
 $$
 (f * \alpha)(x) = \int_G f(xs)\, d\alpha(s) \left\{ \begin{array}{ll}
@@ -172,7 +172,7 @@ $$
 \end{array} \right.
 $$
 
-Vì $\beta \mapsto f * \beta$ là một ánh xạ liên tục từ $\mathcal{M}_+(G)$, được trang bị tôpô mơ hồ, vào $\mathcal{C}(G)$ được trang bị tôpô hội tụ compact (§ 4, No. 2, Nhận xét 1), ta thấy rằng với mọi $\varepsilon > 0$, tập $U_\varepsilon$ gồm các $\beta \in \Gamma^0(G)$ sao cho
+Vì $\beta \mapsto f * \beta$ là một ánh xạ liên tục từ $\mathscr{M}_+(G)$, được trang bị tôpô mơ hồ, vào $\mathscr{C}(G)$ được trang bị tôpô hội tụ compact (§ 4, No. 2, Nhận xét 1), ta thấy rằng với mọi $\varepsilon > 0$, tập $U_\varepsilon$ gồm các $\beta \in \Gamma^0(G)$ sao cho
 $$
 f_\beta(\dot{x}) = \int_G f(xs)\, d\beta(s) > 1 - \varepsilon \quad \text{với mọi } x \in K
 $$
@@ -180,7 +180,7 @@ là một lân cận mở của $\alpha$ trong $\Gamma^0(g)$; với mọi $\beta
 $$
 (5) \quad \| \mu_\alpha \| \geq \int_G f(x)\, d\mu(x) = \int_{Q_\beta} f_\beta(\dot{x})\, d\mu_\beta(\dot{x}) \geq (1 - \varepsilon) \mu_\beta(\pi_\beta(K)).
 $$
-Cho một số $\varepsilon > 0$, ta chọn một hàm $h \in \mathcal{K}_+(G)$ sao cho $\int_G |g(x) - h(x)|\, d\mu(x) \leq \varepsilon$, và trong phần trên lấy $K = \mathrm{Supp}(h)$. Với mọi $\beta \in \Gamma^0(g)$, theo giả thiết $g_\beta(\dot{x}) \geq 1$ hầu khắp (đối với $\mu_\beta$) trên $Q_\beta$, do đó
+Cho một số $\varepsilon > 0$, ta chọn một hàm $h \in \mathscr{K}_+(G)$ sao cho $\int_G |g(x) - h(x)|\, d\mu(x) \leq \varepsilon$, và trong phần trên lấy $K = \mathrm{Supp}(h)$. Với mọi $\beta \in \Gamma^0(g)$, theo giả thiết $g_\beta(\dot{x}) \geq 1$ hầu khắp (đối với $\mu_\beta$) trên $Q_\beta$, do đó
 $$
 \mu_\beta(Q_\beta - \pi_\beta(K)) \leq \int_{Q_\beta - \pi_\beta(K)} g_\beta(\dot{x})\, d\mu_\beta(\dot{x}) = \int_{G - KH_\beta} g(x)\, d\mu(x)
 $$
@@ -199,7 +199,7 @@ khi $\beta \in U_\varepsilon$, và điều đó hoàn tất chứng minh.
 
 — Cho $K$ là một tập con compact của $G$, $V$ là một lân cận compact đối xứng của $e$ trong $G$, $c$ là một số thực $> 0$. Hạn chế của ánh xạ $\alpha \mapsto \| \mu_\alpha \|$ lên tập các $\alpha \in \Gamma^0$ sao cho $G = KH_\alpha$ và $\alpha(V) \geq c$ là liên tục theo tôpô mơ hồ.
 
-Vì, cho $g \in \mathcal{K}_+(G)$ là một hàm sao cho $g(x) \geq 1/c$ với $x \in KV$. Với mọi $x \in K$,
+Vì, cho $g \in \mathscr{K}_+(G)$ là một hàm sao cho $g(x) \geq 1/c$ với $x \in KV$. Với mọi $x \in K$,
 $$
 \int g(xs)\, d\alpha(s) \geq \int_V g(xs)\, d\alpha(s) \geq 1
 $$
@@ -240,13 +240,13 @@ Tính chất (ii) sẽ là hệ quả của mệnh đề sau:
 
 *Giả sử rằng nhóm địa phương compact G được sinh bởi một lân cận compact của e. Khi đó tập $\Gamma_c^0$ của các độ đo $\alpha \in \Gamma^0$* sao cho $G/H_\alpha$ là compact là mở trong $\Gamma^0$, và sự hạn chế lên $\Gamma_c^0$ của ánh xạ $\alpha \mapsto \| \mu_\alpha \|$ là liên tục mơ hồ.
 
-Với các ký hiệu của Mệnh đề 5 của No. 2, ta có, với $g \in \mathcal{K}_+(G)$,
+Với các ký hiệu của Mệnh đề 5 của No. 2, ta có, với $g \in \mathscr{K}_+(G)$,
 
 $$
 \Gamma^0(g) \subset \Gamma_c^0.
 $$
 
-Vì, nếu K là giá đỡ của $g$, thì quan hệ $\int g(xs)\, d\alpha(s) \geq 1$ với mọi $x \in G$ suy ra $KH_\alpha = G$, do tích phân hiển nhiên bằng không trên phần bù của $KH_\alpha$, do đó $G/H_\alpha = \pi_\alpha(K)$ là compact. Cho một độ đo $\alpha \in \Gamma_c^0$, vì thế chỉ cần định nghĩa một hàm $g \in \mathcal{K}_+(G)$ sao cho $\Gamma^0(g)$ là một lân cận của $\alpha$ trong $\Gamma^0$. Vì $G/H_\alpha$ là compact và ánh xạ chính tắc $f \mapsto f_\alpha$ của $\mathcal{K}_+(G)$ vào $\mathcal{K}_+(G/H_\alpha)$ là toàn ánh (Ch. VII, §2, No. 2), nên tồn tại một hàm $g \in \mathcal{K}_+(G)$ sao cho $\int g(xs)\, d\alpha(s) = 2$ với mọi $x \in G$. Cho K là giá đỡ (compact) của $g$, L là một lân cận compact đối xứng của $e$ trong G sinh ra G; vì ánh xạ $\beta \mapsto g * \beta$ của $\mathcal{M}_+(G)$ vào $\mathcal{C}(G)$ là liên tục mờ (§ 4, No. 2, *Nhận xét* 1), nên tồn tại một lân cận $W$ của $\alpha$ trong $\Gamma^0$ sao cho
+Vì, nếu K là giá đỡ của $g$, thì quan hệ $\int g(xs)\, d\alpha(s) \geq 1$ với mọi $x \in G$ suy ra $KH_\alpha = G$, do tích phân hiển nhiên bằng không trên phần bù của $KH_\alpha$, do đó $G/H_\alpha = \pi_\alpha(K)$ là compact. Cho một độ đo $\alpha \in \Gamma_c^0$, vì thế chỉ cần định nghĩa một hàm $g \in \mathscr{K}_+(G)$ sao cho $\Gamma^0(g)$ là một lân cận của $\alpha$ trong $\Gamma^0$. Vì $G/H_\alpha$ là compact và ánh xạ chính tắc $f \mapsto f_\alpha$ của $\mathscr{K}_+(G)$ vào $\mathscr{K}_+(G/H_\alpha)$ là toàn ánh (Ch. VII, §2, No. 2), nên tồn tại một hàm $g \in \mathscr{K}_+(G)$ sao cho $\int g(xs)\, d\alpha(s) = 2$ với mọi $x \in G$. Cho K là giá đỡ (compact) của $g$, L là một lân cận compact đối xứng của $e$ trong G sinh ra G; vì ánh xạ $\beta \mapsto g * \beta$ của $\mathscr{M}_+(G)$ vào $\mathscr{C}(G)$ là liên tục mờ (§ 4, No. 2, *Nhận xét* 1), nên tồn tại một lân cận $W$ của $\alpha$ trong $\Gamma^0$ sao cho
 
 $$
 (g * \beta)(x) = \int g(xs)\, d\beta(s) \geq 1
@@ -277,7 +277,7 @@ $$
 \alpha(\{e\}) \geq 1 \quad \text{và} \quad \alpha(U) \leq 1.
 $$
 
-Bây giờ, nếu $A$ là compact (resp. open and relatively compact) trong $G$, thì ánh xạ $\alpha \mapsto \alpha(A)$ của $\mathcal{M}_+(G)$ vào $\mathbf{R}$ là nửa liên tục trên (resp. nửa liên tục dưới) đối với tôpô mơ hồ (Ch. IV, §4, No. 4, Hệ quả 3 của Mệnh đề 5 và loc. cit., §1, No. 1, Mệnh đề 4); do đó ta thấy rằng $N_U$ là một tập con đóng của $\Gamma^0$. Hơn nữa, cho $\varphi \in \mathcal{K}_+(G)$ là một hàm sao cho $\varphi(e) = 1$ và $\varphi(x) = 0$ trên $G - U$; hiển nhiên là $\int \varphi(x) d\alpha(x) = 1$ với mọi $\alpha \in N_U$; Mệnh đề 2 của No. 1 do đó cho thấy rằng $N_U$ là một tập compact, điều này chứng minh a). Mặt khác, hãy cho $V$ là một lân cận mở compact tương đối của $e$ trong $G$ sao cho $\overline{V} \subset U$, và cho $\varphi \in \mathcal{K}_+(G)$, với giá được chứa trong $U$ và sao cho $\varphi(x) = 1$ trên $V$. Khi đó $\alpha(\varphi) = 1$ với $\alpha \in N_U$, do đó tồn tại một lân cận $W$ của $\alpha$ trong $N$ sao cho $\beta(\varphi) < 2$ với $\beta \in W$; khi đó hiển nhiên là $W \subset N_V$, do đó $N_V$ là một lân cận của $N_U$. Vì các $N_U$ phủ $N$, điều này chứng minh b). Cuối cùng, mọi tập con compact $M$ của $N$ đều được chứa trong một hợp hữu hạn các tập $N_{U_i}$ ($1 \leq i \leq n$), và vì $\bigcup_i N_{U_i} \subset N_U$, với $U = \bigcap_i U_i$, điều này chứng minh c).
+Bây giờ, nếu $A$ là compact (resp. open and relatively compact) trong $G$, thì ánh xạ $\alpha \mapsto \alpha(A)$ của $\mathscr{M}_+(G)$ vào $\mathbf{R}$ là nửa liên tục trên (resp. nửa liên tục dưới) đối với tôpô mơ hồ (Ch. IV, §4, No. 4, Hệ quả 3 của Mệnh đề 5 và loc. cit., §1, No. 1, Mệnh đề 4); do đó ta thấy rằng $N_U$ là một tập con đóng của $\Gamma^0$. Hơn nữa, cho $\varphi \in \mathscr{K}_+(G)$ là một hàm sao cho $\varphi(e) = 1$ và $\varphi(x) = 0$ trên $G - U$; hiển nhiên là $\int \varphi(x) d\alpha(x) = 1$ với mọi $\alpha \in N_U$; Mệnh đề 2 của No. 1 do đó cho thấy rằng $N_U$ là một tập compact, điều này chứng minh a). Mặt khác, hãy cho $V$ là một lân cận mở compact tương đối của $e$ trong $G$ sao cho $\overline{V} \subset U$, và cho $\varphi \in \mathscr{K}_+(G)$, với giá được chứa trong $U$ và sao cho $\varphi(x) = 1$ trên $V$. Khi đó $\alpha(\varphi) = 1$ với $\alpha \in N_U$, do đó tồn tại một lân cận $W$ của $\alpha$ trong $N$ sao cho $\beta(\varphi) < 2$ với $\beta \in W$; khi đó hiển nhiên là $W \subset N_V$, do đó $N_V$ là một lân cận của $N_U$. Vì các $N_U$ phủ $N$, điều này chứng minh b). Cuối cùng, mọi tập con compact $M$ của $N$ đều được chứa trong một hợp hữu hạn các tập $N_{U_i}$ ($1 \leq i \leq n$), và vì $\bigcup_i N_{U_i} \subset N_U$, với $U = \bigcap_i U_i$, điều này chứng minh c).
 
 #### Hệ quả {#int-viii-s5-n3-cor-1 .statement}
 
@@ -308,7 +308,7 @@ Bây giờ, nếu $\Gamma_d$ là tập các độ đo Haar trên các nhóm con 
 
 *Nếu nhóm* G *thỏa mãn điều kiện (L), thì ánh xạ* $\alpha \mapsto \alpha(\{e\})$ *của* $\Gamma_d$ *vào* $\mathbf{R}_+^*$ *là liên tục mơ hồ.*
 
-Cho ta xét một độ đo $\alpha \in \Gamma_d$; cho $V_0$ là một lân cận mở tương đối compact của $e$ trong $G$ sao cho $H_\alpha \cap V_0 = \{e\}$ và sao cho không có nhóm con hữu hạn nào của $G$ được chứa trong $V_0$ mà không thu gọn về $e$. Cho $V$ là một lân cận compact đối xứng của $e$ sao cho $V^3 \subset V_0$, và cho $U$ là một lân cận đối xứng của $e$ sao cho $U^2 \subset V$. Cho $\varphi$ (tương ứng $\psi$) là một hàm trong $\mathcal{H}_+(G)$, với giá trị trong $[0, 1]$, bằng 1 trên $V^3$ (tương ứng tại điểm $e$) và có giá đỡ được chứa trong $V_0$ (tương ứng trong $U$). Tập các độ đo $\beta \in \Gamma_d$ sao cho $|\beta(\varphi) - \alpha(\varphi)| \leq \varepsilon$ và $|\beta(\psi) - \alpha(\psi)| \leq \varepsilon$ là một lân cận $W$ của $\alpha$. Ta sẽ chứng minh rằng, nếu lấy $\varepsilon$ đủ nhỏ, thì $H_\beta \cap V = \{e\}$ *với mọi* $\beta \in W$; khi đó suy ra $\beta(\psi) = \beta(\{e\})$, do đó $|\beta(\{e\}) - \alpha(\{e\})| \leq \varepsilon$, và điều này sẽ chứng minh bổ đề.
+Cho ta xét một độ đo $\alpha \in \Gamma_d$; cho $V_0$ là một lân cận mở tương đối compact của $e$ trong $G$ sao cho $H_\alpha \cap V_0 = \{e\}$ và sao cho không có nhóm con hữu hạn nào của $G$ được chứa trong $V_0$ mà không thu gọn về $e$. Cho $V$ là một lân cận compact đối xứng của $e$ sao cho $V^3 \subset V_0$, và cho $U$ là một lân cận đối xứng của $e$ sao cho $U^2 \subset V$. Cho $\varphi$ (tương ứng $\psi$) là một hàm trong $\mathscr{H}_+(G)$, với giá trị trong $[0, 1]$, bằng 1 trên $V^3$ (tương ứng tại điểm $e$) và có giá đỡ được chứa trong $V_0$ (tương ứng trong $U$). Tập các độ đo $\beta \in \Gamma_d$ sao cho $|\beta(\varphi) - \alpha(\varphi)| \leq \varepsilon$ và $|\beta(\psi) - \alpha(\psi)| \leq \varepsilon$ là một lân cận $W$ của $\alpha$. Ta sẽ chứng minh rằng, nếu lấy $\varepsilon$ đủ nhỏ, thì $H_\beta \cap V = \{e\}$ *với mọi* $\beta \in W$; khi đó suy ra $\beta(\psi) = \beta(\{e\})$, do đó $|\beta(\{e\}) - \alpha(\{e\})| \leq \varepsilon$, và điều này sẽ chứng minh bổ đề.
 
 Chỉ cần chứng minh rằng, với $\beta \in W$,
 
@@ -366,27 +366,27 @@ $$
 v(H) = |\det(a_1, \ldots, a_n)|
 $$
 
-(định thức được lấy theo cơ sở chính tắc của $\mathbf{R}^n$) (Ch. VII, §2, No. 10, Định lý 4). Không gian $D_c$ ở đây có thể được diễn giải theo cách sau: mọi nhóm con $H \in D_c$ đều là biến đổi $g \cdot \mathbf{Z}^n$ của nhóm con $\mathbf{Z}^n$ bởi một phần tử $g \in \mathbf{GL}(n, \mathbf{R})$, và nhóm con của $\mathbf{GL}(n, \mathbf{R})$ để lại $\mathbf{Z}^n$ ổn định có thể được đồng nhất với $\mathbf{GL}(n, \mathbf{Z})$. Do đó $D_c$ có thể được đồng nhất một cách chính tắc, như một không gian thuần nhất (phi tôpô), với $\mathbf{GL}(n, \mathbf{R})/\mathbf{GL}(n, \mathbf{Z})$. Mặt khác, $\mathbf{GL}(n, \mathbf{R})$ tác động liên tục trên $\mathbf{R}^n$, suy ra cũng trên $\mathcal{M}_+(\mathbf{R}^n)$ đối với tôpô mơ hồ (§3, No. 3, Mệnh đề 13), suy ra trên không gian con $N_c$ của $\mathcal{M}_+(\mathbf{R}^n)$; hơn nữa, đồng phôi chính tắc (No. 4, Mệnh đề 8) của $N_c$ lên $D_c$ tương thích với các luật tác động của $\mathbf{GL}(n, \mathbf{R})$. Vì $\mathbf{GL}(n, \mathbf{R})$ là đếm được ở vô cực và $D_c$ là địa phương compact, song ánh của $\mathbf{GL}(n, \mathbf{R})/\mathbf{GL}(n, \mathbf{Z})$ lên $D_c$ được định nghĩa ở trên là một *đồng phôi* (Ch. VII, App. I, Bổ đề 2). Do đó Hệ quả của Mệnh đề 9 cho một tiêu chuẩn compact trong không gian thuần nhất $\mathbf{GL}(n, \mathbf{R})/\mathbf{GL}(n, \mathbf{Z})$.
+(định thức được lấy theo cơ sở chính tắc của $\mathbf{R}^n$) (Ch. VII, §2, No. 10, Định lý 4). Không gian $D_c$ ở đây có thể được diễn giải theo cách sau: mọi nhóm con $H \in D_c$ đều là biến đổi $g \cdot \mathbf{Z}^n$ của nhóm con $\mathbf{Z}^n$ bởi một phần tử $g \in \mathbf{GL}(n, \mathbf{R})$, và nhóm con của $\mathbf{GL}(n, \mathbf{R})$ để lại $\mathbf{Z}^n$ ổn định có thể được đồng nhất với $\mathbf{GL}(n, \mathbf{Z})$. Do đó $D_c$ có thể được đồng nhất một cách chính tắc, như một không gian thuần nhất (phi tôpô), với $\mathbf{GL}(n, \mathbf{R})/\mathbf{GL}(n, \mathbf{Z})$. Mặt khác, $\mathbf{GL}(n, \mathbf{R})$ tác động liên tục trên $\mathbf{R}^n$, suy ra cũng trên $\mathscr{M}_+(\mathbf{R}^n)$ đối với tôpô mơ hồ (§3, No. 3, Mệnh đề 13), suy ra trên không gian con $N_c$ của $\mathscr{M}_+(\mathbf{R}^n)$; hơn nữa, đồng phôi chính tắc (No. 4, Mệnh đề 8) của $N_c$ lên $D_c$ tương thích với các luật tác động của $\mathbf{GL}(n, \mathbf{R})$. Vì $\mathbf{GL}(n, \mathbf{R})$ là đếm được ở vô cực và $D_c$ là địa phương compact, song ánh của $\mathbf{GL}(n, \mathbf{R})/\mathbf{GL}(n, \mathbf{Z})$ lên $D_c$ được định nghĩa ở trên là một *đồng phôi* (Ch. VII, App. I, Bổ đề 2). Do đó Hệ quả của Mệnh đề 9 cho một tiêu chuẩn compact trong không gian thuần nhất $\mathbf{GL}(n, \mathbf{R})/\mathbf{GL}(n, \mathbf{Z})$.
 
 ### 6. Một cách diễn giải khác của tôpô của không gian các nhóm con đóng
 
-Cho $\mathfrak{F}$ là tập hợp các tập con đóng của $G$; ta định nghĩa một *cấu trúc đều Hausdorff* trên $\mathfrak{F}$ theo cách sau: với mọi tập con compắc $K$ của $G$ và mọi lân cận $V$ của $e$ trong $G$, gọi $P(K, V)$ là tập hợp các cặp $(X, Y)$ của các phần tử của $\mathcal{F}$ sao cho cả hai điều sau đều đúng
+Cho $\mathfrak{F}$ là tập hợp các tập con đóng của $G$; ta định nghĩa một *cấu trúc đều Hausdorff* trên $\mathfrak{F}$ theo cách sau: với mọi tập con compắc $K$ của $G$ và mọi lân cận $V$ của $e$ trong $G$, gọi $P(K, V)$ là tập hợp các cặp $(X, Y)$ của các phần tử của $\mathscr{F}$ sao cho cả hai điều sau đều đúng
 
 $$
 (9) \quad X \cap K \subset VY \quad \text{và} \quad Y \cap K \subset VX.
 $$
 
-Hãy chứng minh rằng tập hợp các $P(K, V)$ là một hệ cơ bản các lân cận chéo của một cấu trúc đều Hausdorff $\mathcal{U}$ trên $\mathcal{F}$. Các tiên đề $(U'_I)$ và $(U'_{II})$ của GT, II, §1, No. 1 hiển nhiên được thỏa mãn; hơn nữa, các hệ thức $K \subset K'$ và $V' \subset V$ suy ra $P(K', V') \subset P(K, V)$; để kiểm tra $(U'_{III})$, do đó ta có thể chỉ xét trường hợp $V$ là một lân cận compắc đối xứng của $e$, sao cho $VK$ là compắc. Giả sử rằng $(X, Y) \in P(VK, V)$ và $(Y, Z) \in P(VK, V)$; khi đó $X \cap K \subset X \cap VK \subset VY$, và nếu $y \in Y$ sao cho $vy \in K$ với một $v \in V$, thì tất yếu $y \in VK$, do đó
+Hãy chứng minh rằng tập hợp các $P(K, V)$ là một hệ cơ bản các lân cận chéo của một cấu trúc đều Hausdorff $\mathscr{U}$ trên $\mathscr{F}$. Các tiên đề $(U'_I)$ và $(U'_{II})$ của GT, II, §1, No. 1 hiển nhiên được thỏa mãn; hơn nữa, các hệ thức $K \subset K'$ và $V' \subset V$ suy ra $P(K', V') \subset P(K, V)$; để kiểm tra $(U'_{III})$, do đó ta có thể chỉ xét trường hợp $V$ là một lân cận compắc đối xứng của $e$, sao cho $VK$ là compắc. Giả sử rằng $(X, Y) \in P(VK, V)$ và $(Y, Z) \in P(VK, V)$; khi đó $X \cap K \subset X \cap VK \subset VY$, và nếu $y \in Y$ sao cho $vy \in K$ với một $v \in V$, thì tất yếu $y \in VK$, do đó
 
 $$
 X \cap K \subset V(Y \cap VK);
 $$
 
-mặt khác, $Y \cap VK \subset VZ$, suy ra $X \cap K \subset V^2Z$, và người ta chứng minh tương tự rằng $Z \cap K \subset V^2X$, điều đó chứng minh $(U'_{III})$. Cuối cùng, nếu $X, Y$ là hai phần tử phân biệt của $\mathcal{F}$, thì chẳng hạn tồn tại một điểm $a \in X$ sao cho $a \notin Y$, suy ra tồn tại một lân cận compắc đối xứng $V$ của $e$ sao cho $Va \cap Y = \varnothing$, tức là $a \notin VY$; *a fortiori* $(X, Y) \notin P(Va, V)$, và điều đó hoàn tất chứng minh mệnh đề của chúng ta.
+mặt khác, $Y \cap VK \subset VZ$, suy ra $X \cap K \subset V^2Z$, và người ta chứng minh tương tự rằng $Z \cap K \subset V^2X$, điều đó chứng minh $(U'_{III})$. Cuối cùng, nếu $X, Y$ là hai phần tử phân biệt của $\mathscr{F}$, thì chẳng hạn tồn tại một điểm $a \in X$ sao cho $a \notin Y$, suy ra tồn tại một lân cận compắc đối xứng $V$ của $e$ sao cho $Va \cap Y = \varnothing$, tức là $a \notin VY$; *a fortiori* $(X, Y) \notin P(Va, V)$, và điều đó hoàn tất chứng minh mệnh đề của chúng ta.
 
-Điều đó đã được thiết lập, ta xét trên tập $\Sigma$ các nhóm con đóng của $G$ tôpô $\mathcal{T}$ cảm sinh bởi tôpô của không gian đều $\mathcal{F}$ vừa được định nghĩa. Ta sẽ thấy tôpô này *đồng nhất với tôpô được định nghĩa trong No. 3*. Sẽ đủ để chứng minh rằng ánh xạ $\alpha \mapsto H_\alpha$ của $\Gamma$ vào $\Sigma$ là *liên tục* khi $\Sigma$ được trang bị tôpô $\mathcal{T}$: vì khi đó, điều tương tự cũng đúng với hạn chế của ánh xạ này lên $\Gamma_\varphi$ (với ký hiệu như trong No. 1, Mệnh đề 2), mà nó là song ánh; nhưng vì $\Gamma_\varphi$ là compắc và tôpô $\mathcal{T}$ là tách biệt, ánh xạ $\alpha \mapsto H_\alpha$ của $\Gamma_\varphi$ vào $\Sigma$ sẽ là một đồng phôi.
+Điều đó đã được thiết lập, ta xét trên tập $\Sigma$ các nhóm con đóng của $G$ tôpô $\mathscr{T}$ cảm sinh bởi tôpô của không gian đều $\mathscr{F}$ vừa được định nghĩa. Ta sẽ thấy tôpô này *đồng nhất với tôpô được định nghĩa trong No. 3*. Sẽ đủ để chứng minh rằng ánh xạ $\alpha \mapsto H_\alpha$ của $\Gamma$ vào $\Sigma$ là *liên tục* khi $\Sigma$ được trang bị tôpô $\mathscr{T}$: vì khi đó, điều tương tự cũng đúng với hạn chế của ánh xạ này lên $\Gamma_\varphi$ (với ký hiệu như trong No. 1, Mệnh đề 2), mà nó là song ánh; nhưng vì $\Gamma_\varphi$ là compắc và tôpô $\mathscr{T}$ là tách biệt, ánh xạ $\alpha \mapsto H_\alpha$ của $\Gamma_\varphi$ vào $\Sigma$ sẽ là một đồng phôi.
 
-Vậy hãy cho $\alpha_0$ là một điểm của $\Gamma$ và cho $\Phi$ là một bộ lọc trên $\Gamma$ hội tụ đến $\alpha_0$; ta sẽ chứng minh rằng, đối với $\Phi$, $H_\alpha$ tiến tới $H_{\alpha_0}$ theo tôpô $\mathcal{T}$. Cho $K$ là một tập con compact của $G$, $V$ là một lân cận compact đối xứng của $e$ trong $G$; với mọi $x \in H_{\alpha_0} \cap K$, tồn tại một tập $M(x) \in \Phi$ sao cho với mọi $\alpha \in M(x)$, ta có $Vx \cap H_\alpha \neq \varnothing$ (No. 1, Bổ đề 2), do đó $Vx \subset V^2H_\alpha$; bằng cách phủ $H_{\alpha_0} \cap K$ bởi một số hữu hạn các tập $Vx_i$, ta thấy rằng nếu $M = \bigcap_i M(x_i)$ thì $H_{\alpha_0} \cap K \subset V^2H_\alpha$ với mọi $\alpha \in M$.
+Vậy hãy cho $\alpha_0$ là một điểm của $\Gamma$ và cho $\Phi$ là một bộ lọc trên $\Gamma$ hội tụ đến $\alpha_0$; ta sẽ chứng minh rằng, đối với $\Phi$, $H_\alpha$ tiến tới $H_{\alpha_0}$ theo tôpô $\mathscr{T}$. Cho $K$ là một tập con compact của $G$, $V$ là một lân cận compact đối xứng của $e$ trong $G$; với mọi $x \in H_{\alpha_0} \cap K$, tồn tại một tập $M(x) \in \Phi$ sao cho với mọi $\alpha \in M(x)$, ta có $Vx \cap H_\alpha \neq \varnothing$ (No. 1, Bổ đề 2), do đó $Vx \subset V^2H_\alpha$; bằng cách phủ $H_{\alpha_0} \cap K$ bởi một số hữu hạn các tập $Vx_i$, ta thấy rằng nếu $M = \bigcap_i M(x_i)$ thì $H_{\alpha_0} \cap K \subset V^2H_\alpha$ với mọi $\alpha \in M$.
 
 Ngược lại, giả sử tồn tại một lân cận mở $U$ của $e$ trong $G$ sao cho, với mọi tập $L \in \Phi$, có ít nhất một $\alpha \in L$ sao cho $H_\alpha \cap K \not\subset UH_{\alpha_0}$; nếu $\omega(L)$ là tập các $\alpha \in L$ có tính chất này, thì các $\omega(L)$ sẽ tạo thành một cơ sở của một bộ lọc $\Phi'$ trên $\Gamma$ mịn hơn $\Phi$, và, với mọi $\alpha$ thuộc hợp $E$ của các $\omega(L)$ khi $L \in \Phi$, sẽ tồn tại một t_\alpha \in H_\alpha \cap K \text{ không thuộc } UH_{\alpha_0}; \text{ với } \alpha \notin E, \text{ lấy } t_\alpha \text{ là bất kỳ điểm nào của } H_\alpha. \text{ Vì } K \cap C(UH_{\alpha_0}) \text{ là compact, sẽ tồn tại một điểm tụ } s \text{ của } \alpha \mapsto t_\alpha \text{ đối với } \Phi', \text{ thuộc } K \cap C(UH_{\alpha_0}); \text{ nhưng vì } \Phi' \text{ hội tụ đến } \alpha_0 \text{ trong } \Gamma, \text{ điều này mâu thuẫn với Bổ đề 3 của No. 1.}
 

@@ -12,7 +12,7 @@ pdf_pages: 0470-0480
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: a45db1078278655d8fd4b2d592638391be56a7b58b5a4baa69a40a3853d42faf
+content_sha256: 827c2255db2508ef1d854635cb7717ac0f99279849f638c22ccaf83b5863c9a8
 ---
 
 ## INDEX OF TERMINOLOGY
@@ -107,7 +107,7 @@ Essentially integrable function, $p$-th power : V, 1, 3.
 Essentially integrable function, for a vectorial measure : VI, 2, 2.
 Essentially integrable on $A$, function : V, 5, 3.
 Expansion set (right-, left-) of a function : V, 6, Exer. 12.
-Extremal point, $\mathcal{H}^-$ : IV, 7, 3.
+Extremal point, $\mathscr{H}^-$ : IV, 7, 3.
 Finite almost everywhere, function : IV, 2, 6.
 Form, positive linear : II, 2, 1.
 Form, relatively bounded linear : II, 2, 2.
@@ -150,7 +150,7 @@ Functions, equivalent, $\mu$-equivalent : IV, 2, 4.
 (GDF) property : VI, 1, 4.
 Gelfand–Dunford theorem : VI, 1, 4.
 Gliding hump method : V, 5, Exer. 13.
-$\mathcal{H}$-extremal point : IV, 7, 3.
+$\mathscr{H}$-extremal point : IV, 7, 3.
 Hölder’s inequality : I, 2 and IV, 6, 4.
 Haar orthonormal system : IV, 6, Exer. 17.
 Hardy’s inequality : IV, 6, Exer. 19.
@@ -308,14 +308,14 @@ Order $n$, multiple integral of : III, 4, 4.
 Order $p$, convergence in mean of : IV, 3, 3.
 Order $p$, equi-integrable of (set of functions) : IV, 5, 11.
 Ordered direct sum : II, 1, 4.
-Orthonormal sequence, in $\mathcal{L}^2$ : IV, 6, Exer. 15.
+Orthonormal sequence, in $\mathscr{L}^2$ : IV, 6, Exer. 15.
 Orthonormal system, Haar : IV, 6, Exer. 17.
 Outer measure : IV, 1, 2 and IV, 1, 4.
 $p$-th power integrable function : IV, 3, 4.
 Parts of a measure, real and imaginary : III, 1, 5 and VI, 2, 8.
 $\Phi$-step function : IV, 4, 9.
 Point measure : III, 2, 4.
-Point, $\mathcal{H}$-extremal : IV, 7, 3.
+Point, $\mathscr{H}$-extremal : IV, 7, 3.
 Positive linear form : II, 2, 1.
 Positive measure : III, 1, 5.
 Pre-adequate mapping, $\mu$- : V, 3, 1.
@@ -373,7 +373,7 @@ Step function, measurable : IV, 5, 5.
 Stieltjes measure : V, 6, Exer. 5.
 Stone space : II, 1, Exer. 13.
 Strictly compact convergence (in the space of measures) : III, 1, 10.
-Strictly compact set, in $\mathcal{K}(X;E)$ : III, 1, 1.
+Strictly compact set, in $\mathscr{K}(X;E)$ : III, 1, 1.
 Summable family of positive measures : V, 2, 1.
 Support of a function : III, 1, 1.
 Support of a measure : III, 2, 2.

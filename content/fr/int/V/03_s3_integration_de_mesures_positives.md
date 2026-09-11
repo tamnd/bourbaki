@@ -36,16 +36,16 @@ subsections:
       pdf_page: 37
 statements: 30
 exercises: 11
-content_sha256: 6939f9e77e55465f5b85328ebbf0aba79dcbe3164f1e342f8739c9f8e659611f
+content_sha256: 7a3cb999cc8d3de5023e3e54dae6f3f5769eaa59bce6edaccddd361a42fb3885
 ---
 
 ## § 3. Intégration de mesures positives
 
 ### 1. Fonctions à valeurs dans un espace de mesures
 
-Soient $X$ un espace localement compact, $\mathcal{M}_+(X)$ le cône convexe des mesures positives sur $X$. Dans toute la suite de ce chapitre, $\mathcal{M}_+(X)$ sera muni de la topologie induite par la topologie vague sur $\mathcal{M}(X)$ (chap. III, 2e éd., § 1, n° 9); dire qu’une application $\Lambda : t \mapsto \lambda_t$ de l’espace localement compact $T$ dans $\mathcal{M}_+(X)$ est continue signifie donc que, pour toute fonction $f \in \mathscr{K}(X)$, la
+Soient $X$ un espace localement compact, $\mathscr{M}_+(X)$ le cône convexe des mesures positives sur $X$. Dans toute la suite de ce chapitre, $\mathscr{M}_+(X)$ sera muni de la topologie induite par la topologie vague sur $\mathscr{M}(X)$ (chap. III, 2e éd., § 1, n° 9); dire qu’une application $\Lambda : t \mapsto \lambda_t$ de l’espace localement compact $T$ dans $\mathscr{M}_+(X)$ est continue signifie donc que, pour toute fonction $f \in \mathscr{K}(X)$, la
 
-Soit $\Lambda : t \mapsto \lambda_t$ une application de T dans $\mathcal{M}_+(X)$; nous dirons que $\Lambda$ est *scalairement essentiellement intégrable* pour la mesure $\mu$ si, pour toute fonction $f \in \mathscr{K}(X)$, la fonction $t \mapsto \lambda_t(f)$ est essentiellement $\mu$-intégrable. Si l’on pose $v(f) = \int \lambda_t(f)\ d\mu(t)$, il est clair que $v$ est une forme linéaire positive sur $\mathscr{K}(X)$, et par suite (chap. III, 2e éd., § 1, n° 6, th. 1) une mesure sur X. Nous dirons que $v$ est l’intégrale de la fonction $\Lambda$ à valeurs dans $\mathcal{M}_+(X)$, et nous écrirons $v = \int \lambda_t\ d\mu(t)$.
+Soit $\Lambda : t \mapsto \lambda_t$ une application de T dans $\mathscr{M}_+(X)$; nous dirons que $\Lambda$ est *scalairement essentiellement intégrable* pour la mesure $\mu$ si, pour toute fonction $f \in \mathscr{K}(X)$, la fonction $t \mapsto \lambda_t(f)$ est essentiellement $\mu$-intégrable. Si l’on pose $v(f) = \int \lambda_t(f)\ d\mu(t)$, il est clair que $v$ est une forme linéaire positive sur $\mathscr{K}(X)$, et par suite (chap. III, 2e éd., § 1, n° 6, th. 1) une mesure sur X. Nous dirons que $v$ est l’intégrale de la fonction $\Lambda$ à valeurs dans $\mathscr{M}_+(X)$, et nous écrirons $v = \int \lambda_t\ d\mu(t)$.
 
 La définition précédente est un cas particulier de la notion d’intégrale faible, qui sera traitée de façon générale au chap. VI.
 
@@ -60,15 +60,15 @@ Nous ferons des abus de notation analogues dans la suite, pour les intégrales s
 
 #### Exemple 1 {#int-v-s3-n1-exa-1 .statement}
 
-Supposons que T soit un espace discret, et que $\mu$ soit la mesure sur T définie par la masse +1 placée en chaque point de T (chap. III, 2e éd., § 1, n° 3). Soit $h$ une fonction $\geqslant 0$ définie dans T : la fonction $h$ étant semi-continue inférieurement (et même continue) dans T, on a $\mu^*(h) = \mu^*(h) = \sum_{t \in T} h(t)$ (chap. IV, § 1, n° 1, *Exemple*). Pour la mesure $\mu$, les notions de fonction intégrable et de fonction essentiellement intégrable sont donc identiques. Cela étant, dire qu’une application $t \mapsto \lambda_t$ de T dans $\mathcal{M}_+(X)$ est scalairement essentiellement $\mu$-intégrable revient à dire que la famille $(\lambda_t)_{t \in T}$ est sommable (§ 2, n° 1), et on a alors $\int \lambda_t\ d\mu(t) = \sum_{t \in T} \lambda_t$. On notera que l’application $t \mapsto \lambda_t$ est vaguement continue.
+Supposons que T soit un espace discret, et que $\mu$ soit la mesure sur T définie par la masse +1 placée en chaque point de T (chap. III, 2e éd., § 1, n° 3). Soit $h$ une fonction $\geqslant 0$ définie dans T : la fonction $h$ étant semi-continue inférieurement (et même continue) dans T, on a $\mu^*(h) = \mu^*(h) = \sum_{t \in T} h(t)$ (chap. IV, § 1, n° 1, *Exemple*). Pour la mesure $\mu$, les notions de fonction intégrable et de fonction essentiellement intégrable sont donc identiques. Cela étant, dire qu’une application $t \mapsto \lambda_t$ de T dans $\mathscr{M}_+(X)$ est scalairement essentiellement $\mu$-intégrable revient à dire que la famille $(\lambda_t)_{t \in T}$ est sommable (§ 2, n° 1), et on a alors $\int \lambda_t\ d\mu(t) = \sum_{t \in T} \lambda_t$. On notera que l’application $t \mapsto \lambda_t$ est vaguement continue.
 
 #### Exemple 2 {#int-v-s3-n1-exa-2 .statement}
 
-L’application $t \mapsto \varepsilon_t$ de T dans $\mathcal{M}_+(T)$ est vaguement continue, scalairement essentiellement $\mu$-intégrable pour toute mesure positive $\mu$ sur T, et on a $\int \varepsilon_t\ d\mu(t) = \mu$.
+L’application $t \mapsto \varepsilon_t$ de T dans $\mathscr{M}_+(T)$ est vaguement continue, scalairement essentiellement $\mu$-intégrable pour toute mesure positive $\mu$ sur T, et on a $\int \varepsilon_t\ d\mu(t) = \mu$.
 
 #### Proposition 1 {#int-v-s3-prop-1 .statement}
 
-Supposons que $\mu$ soit la borne supérieure d’une famille filtrante croissante $(\mu_i)_{i \in I}$ de mesures positives sur $T$; pour que $\Lambda : t \mapsto \lambda_t$ soit scalairement essentiellement $\mu$-intégrable, il faut et il suffit que $\Lambda$ soit scalairement essentiellement $\mu_i$-intégrable pour tout $i \in I$, et que la famille $(\int \lambda_t \, d\mu_i(t))_{i \in I}$ soit majorée dans $\mathcal{M}(X)$. On a dans ce cas
+Supposons que $\mu$ soit la borne supérieure d’une famille filtrante croissante $(\mu_i)_{i \in I}$ de mesures positives sur $T$; pour que $\Lambda : t \mapsto \lambda_t$ soit scalairement essentiellement $\mu$-intégrable, il faut et il suffit que $\Lambda$ soit scalairement essentiellement $\mu_i$-intégrable pour tout $i \in I$, et que la famille $(\int \lambda_t \, d\mu_i(t))_{i \in I}$ soit majorée dans $\mathscr{M}(X)$. On a dans ce cas
 $$
 \int \lambda_t \, d\mu(t) = \sup_{i \in I} \int \lambda_t \, d\mu_i(t).
 $$
@@ -82,11 +82,11 @@ $$
 $$
 Il en résulte immédiatement que toute application scalairement essentiellement $\mu$-intégrable est aussi scalairement essentiellement $\mu'$-intégrable pour toute mesure $\mu' \leq \mu$.
 
-Nous nous bornerons dans ce paragraphe à l’étude des applications scalairement essentiellement intégrables de $T$ dans $\mathcal{M}_+(X)$ qui possèdent la propriété envisagée dans la définition suivante.
+Nous nous bornerons dans ce paragraphe à l’étude des applications scalairement essentiellement intégrables de $T$ dans $\mathscr{M}_+(X)$ qui possèdent la propriété envisagée dans la définition suivante.
 
 #### Définition 1 {#int-v-s3-def-1 .statement}
 
-Soient $X$ un espace localement compact, $\Lambda : t \mapsto \lambda_t$ une application scalairement essentiellement $\mu$-intégrable de $T$ dans $\mathcal{M}_+(X)$, et $v$ l’intégrale de $\Lambda$.
+Soient $X$ un espace localement compact, $\Lambda : t \mapsto \lambda_t$ une application scalairement essentiellement $\mu$-intégrable de $T$ dans $\mathscr{M}_+(X)$, et $v$ l’intégrale de $\Lambda$.
 On dit que $\Lambda$ est $\mu$-pré-adéquate si, pour toute fonction semi-continue inférieurement $f \geq 0$ définie dans $X$, la fonction $t \mapsto \int^\cdot f \, d\lambda_t$ est $\mu$-mesurable dans $T$, et si l’on a
 $$
 \int^\cdot f(x) \, dv(x) = \int^\cdot d\mu(t) \int^\cdot f(x) \, d\lambda_t(x).
@@ -100,7 +100,7 @@ La proposition suivante permet souvent de vérifier qu’une application donnée
 
 #### Proposition 2 {#int-v-s3-prop-2 .statement}
 
-Soit $\Lambda : t \mapsto \lambda_t$ une application scalairement essentiellement intégrable de $T$ dans $\mathcal{M}_+(X)$, et soit $\nu = \int \lambda_t \, d\mu(t)$.
+Soit $\Lambda : t \mapsto \lambda_t$ une application scalairement essentiellement intégrable de $T$ dans $\mathscr{M}_+(X)$, et soit $\nu = \int \lambda_t \, d\mu(t)$.
 
 a) Si $\Lambda$ est vaguement continue, l’application $t \mapsto \lambda_t^\bullet(f)$ est semi-continue inférieurement pour toute fonction semi-continue inférieurement $f \geq 0$ définie dans $X$, $\Lambda$ est $\mu$-adéquate, et on a la relation
 $$
@@ -112,7 +112,7 @@ b) Si $\Lambda$ est vaguement $\mu$-mesurable, $\Lambda$ est $\mu$-adéquate.
 
 c) Si la topologie de $X$ admet une base dénombrable, $\Lambda$ est vaguement mesurable (et donc aussi $\mu$-adéquate).
 
-Soit $f$ une fonction semi-continue inférieurement $\geq 0$ définie dans $X$. Soit $F$ l’ensemble, filtrant pour la relation $\leq$, des fonctions $g \in \mathcal{H}(X)$ telles que $0 \leq g \leq f$. Pour $g \in F$, notons $h_g$ la fonction définie dans $T$ par $h_g(t) = \lambda_t(g)$. Posons de même
+Soit $f$ une fonction semi-continue inférieurement $\geq 0$ définie dans $X$. Soit $F$ l’ensemble, filtrant pour la relation $\leq$, des fonctions $g \in \mathscr{H}(X)$ telles que $0 \leq g \leq f$. Pour $g \in F$, notons $h_g$ la fonction définie dans $T$ par $h_g(t) = \lambda_t(g)$. Posons de même
 $$
 h_f(t) = \lambda_t^*(f) = \lambda_t^\bullet(f) = \sup_{g \in F} h_g(t)
 $$
@@ -141,19 +141,19 @@ $$
 
 La formule (4) s’en déduit en sommant sur $\alpha$ (§ 2, n° 2, prop. 1). En appliquant le raisonnement précédent à une mesure $\mu'$ quelconque majorée par $\mu$ (ce qui est légitime, car $\Lambda$ est scalairement essentiellement $\mu'$-intégrable et vaguement $\mu'$-mesurable, cf. § 2, n° 2, prop. 2), on constate que $\Lambda$ est $\mu$-adéquate, et b) est démontrée.
 
-Enfin, supposons que la topologie de X admette une base dénombrable, et montrons que toute application scalairement essentiellement $\mu$-intégrable $\Lambda : t \mapsto \lambda_t$ de $T$ dans $\mathcal{M}_+(X)$ est vaguement $\mu$-mesurable. Cela résultera du lemme suivant:
+Enfin, supposons que la topologie de X admette une base dénombrable, et montrons que toute application scalairement essentiellement $\mu$-intégrable $\Lambda : t \mapsto \lambda_t$ de $T$ dans $\mathscr{M}_+(X)$ est vaguement $\mu$-mesurable. Cela résultera du lemme suivant:
 
 #### Lemme 1 {#int-v-s3-lem-1 .statement}
 
 *Soit X un espace localement compact ayant une base dénombrable. Il existe alors dans $\mathscr{K}(X)$ une partie dénombrable S possédant la propriété suivante: pour toute fonction $f \in \mathscr{K}(X)$, il existe une suite $(f_n)$ d’éléments de S, une fonction positive $\varphi \in S$, telles que, quel que soit le nombre $\varepsilon > 0$, l’on ait $|f_n - f| \leq \varepsilon \varphi$ dès que n est suffisamment grand.*
 
-Soit $X'$ le compactifié d’Alexandroff de X, qui est un compact métrisable (*Top. gén.*, chap. IX, n° 9, prop. 16 et cor.); nous identifierons $\mathscr{K}(X)$ à une partie de $\mathcal{C}(X')$. Soit $S'$ une partie dénombrable dense de l’espace de Banach $\mathcal{C}(X')$ (*Top. gén.*, chap. X, 2e éd., § 3, th. 1); on peut supposer que $S'$ contient la fonction constante $n$ pour tout $n \in \mathbf{N}$. Soit $(U_n)$ une suite d’ouverts relativement compacts de X, de réunion X; tels que $\overline{U}_n \subset U_{n+1}$ pour tout $n$ (*Top. gén.*, chap. I, 4e éd., § 9, prop. 15), et soit $\varphi_n$ une fonction de $\mathscr{K}_+(X)$ égale à 1 sur $\overline{U}_n$. Nous désignerons par S l’ensemble dénombrable des éléments de $\mathscr{K}(X)$ de la forme $\varphi_n g$ ($n \in \mathbf{N}$, $g \in S'$). Si $f \in \mathscr{K}(X)$, soit $(g_n)$ une suite d’éléments de S’ qui converge uniformément vers $f$, et soit $k$ un entier tel que le support de $f$ soit contenu dans $U_k$. Soit enfin $m$ un entier qui majore les normes des fonctions $g_n$. Les fonctions $f_n = \varphi_k g_n$ appartiennent à S, et satisfont à l’énoncé, avec $\varphi = m \varphi_k$.
+Soit $X'$ le compactifié d’Alexandroff de X, qui est un compact métrisable (*Top. gén.*, chap. IX, n° 9, prop. 16 et cor.); nous identifierons $\mathscr{K}(X)$ à une partie de $\mathscr{C}(X')$. Soit $S'$ une partie dénombrable dense de l’espace de Banach $\mathscr{C}(X')$ (*Top. gén.*, chap. X, 2e éd., § 3, th. 1); on peut supposer que $S'$ contient la fonction constante $n$ pour tout $n \in \mathbf{N}$. Soit $(U_n)$ une suite d’ouverts relativement compacts de X, de réunion X; tels que $\overline{U}_n \subset U_{n+1}$ pour tout $n$ (*Top. gén.*, chap. I, 4e éd., § 9, prop. 15), et soit $\varphi_n$ une fonction de $\mathscr{K}_+(X)$ égale à 1 sur $\overline{U}_n$. Nous désignerons par S l’ensemble dénombrable des éléments de $\mathscr{K}(X)$ de la forme $\varphi_n g$ ($n \in \mathbf{N}$, $g \in S'$). Si $f \in \mathscr{K}(X)$, soit $(g_n)$ une suite d’éléments de S’ qui converge uniformément vers $f$, et soit $k$ un entier tel que le support de $f$ soit contenu dans $U_k$. Soit enfin $m$ un entier qui majore les normes des fonctions $g_n$. Les fonctions $f_n = \varphi_k g_n$ appartiennent à S, et satisfont à l’énoncé, avec $\varphi = m \varphi_k$.
 
 Ce lemme étant établi, et l’application $t \mapsto \lambda_t(g)$ étant scalairement essentiellement intégrable pour tout $g \in S$, l’application $t \mapsto (\lambda_t(g))_{g \in S}$ de T dans $\mathbf{R}^S$ est $\mu$-mesurable (chap. IV, § 5, n° 3, th. 1). L’ensemble $\mathfrak{R}$ des compacts K de T tels que la restriction de cette application à K soit continue est donc $\mu$-dense, et il nous suffira de montrer que la restriction de $\Lambda$ à tout $K \in \mathfrak{R}$ est continue. Or soient $f$ un élément quelconque de $\mathscr{K}(X)$, $f_n$ et $\varphi$ des éléments de S satisfaisant à l’énoncé du lemme 1; la fonction $t \mapsto \lambda_t(f)$ est alors limite uniforme dans K des fonctions continues $t \mapsto \lambda_t(f_n)$; elle est donc continue dans K, et la proposition est démontrée.
 
 ### 2. Intégrales superposées de fonctions positives
 
-Dans toute la suite de ce paragraphe, sauf mention expresse du contraire, nous désignons par X un espace localement compact, par $\Lambda : t \mapsto \lambda_t$ une application $\mu$-adéquate de T dans $\mathcal{M}_+(X)$, et par $v$ l’intégrale de $\Lambda$.
+Dans toute la suite de ce paragraphe, sauf mention expresse du contraire, nous désignons par X un espace localement compact, par $\Lambda : t \mapsto \lambda_t$ une application $\mu$-adéquate de T dans $\mathscr{M}_+(X)$, et par $v$ l’intégrale de $\Lambda$.
 
 #### Proposition 3 {#int-v-s3-prop-3 .statement}
 
@@ -278,14 +278,14 @@ b) Si $f$ est $v$-intégrable, et si $\Lambda$ est vaguement continue, $H$ est d
 
 c) Si l’on a $\lambda_t^*(1) < +\infty$ localement $\mu$-presque partout, les conclusions de a) restent vraies pour une fonction $f$ essentiellement $v$-intégrable.
 
-Nous allons établir d’abord a) (resp. b)). Cet énoncé est vrai lorsque $f$ est une fonction numérique positive (prop. 5); si $f$ est une fonction intégrable à valeurs dans $\bar{\mathbf{R}}$, ce résultat s’applique aux fonctions positives $f^+$ et $f^-$, et s’étend donc à $f$ par différence. Reste à traiter le cas des fonctions à valeurs dans $F$. Soit $\mathcal{H}$ le sous-espace de $\mathcal{L}_F^1(v)$ constitué par les combinaisons linéaires, à coefficients dans $F$, de fonctions de $\mathscr{K}(X)$: le résultat relatif aux fonctions réelles entraîne aussitôt la validité de l’énoncé pour les éléments de $\mathcal{H}$. Or $\mathcal{H}$ est dense dans $\mathcal{L}_F^1(v)$; pour tout $f \in \mathcal{L}_F^1(v)$, il existe donc une suite $(f_n)$ d’éléments de $\mathcal{H}$, qui possède les propriétés suivantes:
+Nous allons établir d’abord a) (resp. b)). Cet énoncé est vrai lorsque $f$ est une fonction numérique positive (prop. 5); si $f$ est une fonction intégrable à valeurs dans $\bar{\mathbf{R}}$, ce résultat s’applique aux fonctions positives $f^+$ et $f^-$, et s’étend donc à $f$ par différence. Reste à traiter le cas des fonctions à valeurs dans $F$. Soit $\mathscr{H}$ le sous-espace de $\mathscr{L}_F^1(v)$ constitué par les combinaisons linéaires, à coefficients dans $F$, de fonctions de $\mathscr{K}(X)$: le résultat relatif aux fonctions réelles entraîne aussitôt la validité de l’énoncé pour les éléments de $\mathscr{H}$. Or $\mathscr{H}$ est dense dans $\mathscr{L}_F^1(v)$; pour tout $f \in \mathscr{L}_F^1(v)$, il existe donc une suite $(f_n)$ d’éléments de $\mathscr{H}$, qui possède les propriétés suivantes:
 
-1) la suite $(f_n)$ converge vers $f$ en moyenne dans $\mathcal{L}_F^1(v)$, et $v$-presque partout;
+1) la suite $(f_n)$ converge vers $f$ en moyenne dans $\mathscr{L}_F^1(v)$, et $v$-presque partout;
 2) la fonction $g = |f_0| + \sum_{n \in \mathbf{N}} |f_{n+1} - f_n|$ est telle que $v^*(g) < +\infty$ (chap. IV, § 3, n° 4, th. 3).
 
-Soit $N_1$ l’ensemble des $t \in T$ tels que $\lambda_t^*(g) = +\infty$: $N_1$ est localement $\mu$-négligeable (resp. $\mu$-négligeable) d’après la formule (6) (resp. (7)). Pour $t \notin N_1$, les $f_n$ appartiennent à $\mathcal{L}_F^1(\lambda_t)$, la suite $(f_n)$ converge $\lambda_t$-presque partout, ainsi que pour la topologie de la convergence en moyenne dans $\mathcal{L}_F^1(\lambda_t)$ (chap. IV, § 3, n° 3, prop. 6). Soit $M$ l’ensemble des $x \in X$ tels que $f_n(x)$ ne converge pas vers $f(x)$: $M$ étant $v$-négligeable, l’ensemble $N_2$ des $t \in T$ tels que $M$ ne soit pas $\lambda_t$-négligeable est localement $\mu$-négligeable (resp. $\mu$-négligeable) d’après le cor. 1 de la prop. 3.
+Soit $N_1$ l’ensemble des $t \in T$ tels que $\lambda_t^*(g) = +\infty$: $N_1$ est localement $\mu$-négligeable (resp. $\mu$-négligeable) d’après la formule (6) (resp. (7)). Pour $t \notin N_1$, les $f_n$ appartiennent à $\mathscr{L}_F^1(\lambda_t)$, la suite $(f_n)$ converge $\lambda_t$-presque partout, ainsi que pour la topologie de la convergence en moyenne dans $\mathscr{L}_F^1(\lambda_t)$ (chap. IV, § 3, n° 3, prop. 6). Soit $M$ l’ensemble des $x \in X$ tels que $f_n(x)$ ne converge pas vers $f(x)$: $M$ étant $v$-négligeable, l’ensemble $N_2$ des $t \in T$ tels que $M$ ne soit pas $\lambda_t$-négligeable est localement $\mu$-négligeable (resp. $\mu$-négligeable) d’après le cor. 1 de la prop. 3.
 
-Supposons que $t$ n’appartienne pas à $N_1 \cup N_2$; la suite $(f_n)$ converge en moyenne dans $\mathcal{L}_F^1(\lambda_t)$, et converge $\lambda_t$-presque partout vers $f$. On a donc $f \in \mathcal{L}_F^1(\lambda_t)$, et $\int f\ d\lambda_t = \lim_{n \to \infty} \int f_n\ d\lambda_t$ (chap. IV, § 4, n° 1). L’ensemble $H$ de l’énoncé est donc contenu dans $N_1 \cup N_2$;
+Supposons que $t$ n’appartienne pas à $N_1 \cup N_2$; la suite $(f_n)$ converge en moyenne dans $\mathscr{L}_F^1(\lambda_t)$, et converge $\lambda_t$-presque partout vers $f$. On a donc $f \in \mathscr{L}_F^1(\lambda_t)$, et $\int f\ d\lambda_t = \lim_{n \to \infty} \int f_n\ d\lambda_t$ (chap. IV, § 4, n° 1). L’ensemble $H$ de l’énoncé est donc contenu dans $N_1 \cup N_2$;
 
 il est par suite localement $\mu$-négligeable (resp. $\mu$-négligeable). D’autre part, la fonction $t \mapsto \int f\, d\lambda_t$ est égale localement $\mu$-presque partout à la limite d’une suite de fonctions $\mu$-mesurables ; elle est donc $\mu$-mesurable. Enfin, on a pour tout $t \notin N_1 \cup N_2$ et tout $n$,
 
@@ -305,7 +305,7 @@ Supposons maintenant que $\lambda_t^*(1) < +\infty$ localement $\mu$-presque par
 
 #### Remarque {#int-v-s3-n3-rem-1 .statement}
 
-Soit $\Lambda : t \mapsto \lambda_t$ une application $\mu$-adéquate de $T$ dans $\mathcal{M}_+(X)$. Si une application $\Lambda' : t \mapsto \lambda'_t$ de $T$ dans $\mathcal{M}_+(X)$ est égale à $\Lambda$ localement $\mu$-presque partout, il résulte aussitôt des définitions que $\Lambda'$ est aussi $\mu$-adéquate, et que $\Lambda$ et $\Lambda'$ ont même intégrale. Si maintenant $H : t \mapsto \eta_t$ est une fonction à valeurs dans $\mathcal{M}_+(X)$, définie localement $\mu$-presque partout, nous dirons encore que $H$ est $\mu$-adéquate si elle est égale localement $\mu$-presque partout à une application $\Lambda : t \mapsto \lambda_t$, partout définie et $\mu$-adéquate. On pose alors $\int \eta_t\, d\mu(t) = \int \lambda_t\, d\mu(t)$, définition qui ne dépend pas de la fonction $\Lambda$ utilisée. Nous laisserons au lecteur le soin de vérifier que les propositions démontrées dans les numéros précédents s’étendent aux fonctions $\mu$-adéquates définies localement $\mu$-presque partout.
+Soit $\Lambda : t \mapsto \lambda_t$ une application $\mu$-adéquate de $T$ dans $\mathscr{M}_+(X)$. Si une application $\Lambda' : t \mapsto \lambda'_t$ de $T$ dans $\mathscr{M}_+(X)$ est égale à $\Lambda$ localement $\mu$-presque partout, il résulte aussitôt des définitions que $\Lambda'$ est aussi $\mu$-adéquate, et que $\Lambda$ et $\Lambda'$ ont même intégrale. Si maintenant $H : t \mapsto \eta_t$ est une fonction à valeurs dans $\mathscr{M}_+(X)$, définie localement $\mu$-presque partout, nous dirons encore que $H$ est $\mu$-adéquate si elle est égale localement $\mu$-presque partout à une application $\Lambda : t \mapsto \lambda_t$, partout définie et $\mu$-adéquate. On pose alors $\int \eta_t\, d\mu(t) = \int \lambda_t\, d\mu(t)$, définition qui ne dépend pas de la fonction $\Lambda$ utilisée. Nous laisserons au lecteur le soin de vérifier que les propositions démontrées dans les numéros précédents s’étendent aux fonctions $\mu$-adéquates définies localement $\mu$-presque partout.
 
 ### 4. Fonctions universellement mesurables
 
@@ -340,13 +340,13 @@ Les fonctions $f$ et $f'$ sont égales localement $\mu$-presque partout.
 
 #### Définition 3 {#int-v-s3-def-3 .statement}
 
-Soit $X$ un espace localement compact, et soit $\Lambda : t \mapsto \lambda_t$ une application de $T$ dans $\mathcal{M}_+(X)$. On dit que $\Lambda$ est une diffusion de $T$ dans $X$ si $\Lambda$ est adéquate pour toute mesure positive sur $T$ à support compact. On dit que la diffusion $\Lambda$ est bornée si toutes les mesures $\lambda_t$ sont bornées et si on a $\sup_{t \in T} \| \lambda_t \| < +\infty$; cette quantité est alors appelée la norme de $\Lambda$, et notée $\| \Lambda \|$.
+Soit $X$ un espace localement compact, et soit $\Lambda : t \mapsto \lambda_t$ une application de $T$ dans $\mathscr{M}_+(X)$. On dit que $\Lambda$ est une diffusion de $T$ dans $X$ si $\Lambda$ est adéquate pour toute mesure positive sur $T$ à support compact. On dit que la diffusion $\Lambda$ est bornée si toutes les mesures $\lambda_t$ sont bornées et si on a $\sup_{t \in T} \| \lambda_t \| < +\infty$; cette quantité est alors appelée la norme de $\Lambda$, et notée $\| \Lambda \|$.
 
 La proposition suivante ne fait que traduire la définition :
 
 #### Proposition 8 {#int-v-s3-prop-8 .statement}
 
-Pour qu’une application $\Lambda : t \mapsto \lambda_t$ de $T$ dans $\mathcal{M}_+(X)$ soit une diffusion, il faut et il suffit que les conditions suivantes soient satisfaites :
+Pour qu’une application $\Lambda : t \mapsto \lambda_t$ de $T$ dans $\mathscr{M}_+(X)$ soit une diffusion, il faut et il suffit que les conditions suivantes soient satisfaites :
 1) Pour toute fonction semi-continue inférieurement $f \geqslant 0$ définie dans $X$, la fonction $t \mapsto \lambda_t^*(f)$ est universellement mesurable dans $T$.
 2) Pour toute fonction $g \in \mathscr{K}_+(X)$, la fonction $t \mapsto \lambda_t(g)$ est localement bornée dans $T$.
 3) Pour toute fonction semi-continue inférieurement $f \geqslant 0$ définie dans $X$, et toute mesure positive $\mu$ à support compact dans $T$, on a la relation suivante, où $v$ désigne $\int \lambda_t \, d\mu(t)$:
@@ -359,7 +359,7 @@ Supposons que $\Lambda$ soit une diffusion. La condition 1) est alors satisfaite
 
 #### Proposition 9 {#int-v-s3-prop-9 .statement}
 
-*Soit $\Lambda : t \mapsto \lambda_t$ une application de $T$ dans $\mathcal{M}_+(X)$, telle que la fonction $t \mapsto \lambda_t(g)$ soit universellement mesurable et localement bornée dans $T$ pour tout $g \in \mathscr{K}_+(X)$. On peut affirmer que $\Lambda$ est une diffusion dans chacun des cas suivants :
+*Soit $\Lambda : t \mapsto \lambda_t$ une application de $T$ dans $\mathscr{M}_+(X)$, telle que la fonction $t \mapsto \lambda_t(g)$ soit universellement mesurable et localement bornée dans $T$ pour tout $g \in \mathscr{K}_+(X)$. On peut affirmer que $\Lambda$ est une diffusion dans chacun des cas suivants :
 a) la topologie de $X$ admet une base dénombrable ;
 b) $\Lambda$ est universellement mesurable pour la topologie vague.*
 En effet, soit $\mu$ une mesure positive à support compact dans $T$; l’application $\Lambda$ est scalairement essentiellement $\mu$-intégrable, donc $\mu$-adéquate si a) ou b) est satisfaite (prop. 2).
@@ -442,7 +442,7 @@ $$
 (\mu \Lambda) H &= \mu(\Lambda H); \quad \Lambda(H f) = (\Lambda H) f.
 \end{align}
 $$
-Posons $\gamma_t = \lambda_t H$; nous désignerons par $\Gamma$ l’application $\Lambda H$ de $T$ dans $\mathcal{M}_+(Y)$, et par $\Gamma f$ la fonction $t \mapsto \langle \gamma_t, f \rangle$ (par abus de notation, car nous ignorons encore si $\Gamma$ est une diffusion). On a $\langle \gamma_t, f \rangle = \langle \lambda_t H, f \rangle = \langle \lambda_t, H f \rangle$ d’après (13); la fonction $H f$ étant positive et universellement mesurable dans $X$ (cor. de la prop. 12), il en résulte d’abord que $\Gamma f = \Lambda(Hf)$, et ensuite que $\Gamma f$ est universellement mesurable dans $T$ (même référence). Il est clair que toutes les mesures $\gamma_t$ ont une masse totale au plus égale à $\| \Lambda \| \| H \|$. Par conséquent, $\Gamma g$ est universellement mesurable et bornée pour toute fonction $g \in \mathscr{K}_+(Y)$; $\Gamma$ est donc scalairement essentiellement intégrable pour toute mesure bornée sur $T$, et en particulier pour toute mesure à support compact. Plus généralement, si $\mu$ est une mesure du domaine de $\Lambda$, telle que $\mu \Lambda$ appartenne au domaine de $H$, on a, pour $g \in \mathscr{K}_+(Y)$,
+Posons $\gamma_t = \lambda_t H$; nous désignerons par $\Gamma$ l’application $\Lambda H$ de $T$ dans $\mathscr{M}_+(Y)$, et par $\Gamma f$ la fonction $t \mapsto \langle \gamma_t, f \rangle$ (par abus de notation, car nous ignorons encore si $\Gamma$ est une diffusion). On a $\langle \gamma_t, f \rangle = \langle \lambda_t H, f \rangle = \langle \lambda_t, H f \rangle$ d’après (13); la fonction $H f$ étant positive et universellement mesurable dans $X$ (cor. de la prop. 12), il en résulte d’abord que $\Gamma f = \Lambda(Hf)$, et ensuite que $\Gamma f$ est universellement mesurable dans $T$ (même référence). Il est clair que toutes les mesures $\gamma_t$ ont une masse totale au plus égale à $\| \Lambda \| \| H \|$. Par conséquent, $\Gamma g$ est universellement mesurable et bornée pour toute fonction $g \in \mathscr{K}_+(Y)$; $\Gamma$ est donc scalairement essentiellement intégrable pour toute mesure bornée sur $T$, et en particulier pour toute mesure à support compact. Plus généralement, si $\mu$ est une mesure du domaine de $\Lambda$, telle que $\mu \Lambda$ appartenne au domaine de $H$, on a, pour $g \in \mathscr{K}_+(Y)$,
 
 $$
 \langle \mu, \Gamma g \rangle = \langle \mu, \Lambda(Hg) \rangle = \langle \mu \Lambda, Hg \rangle = \langle (\mu \Lambda)H, g \rangle.

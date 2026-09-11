@@ -41,7 +41,7 @@ subsections:
       pdf_page: 348
 statements: 31
 exercises: 21
-content_sha256: ea7732202a28d5050059674952e2d77a76b99bccdd01471ea0bafeea43972ee2
+content_sha256: 181455724264e053d97bda81d66f9070cb5f0b9fb9becba9fd1eab23696302d8
 ---
 
 ## § 8. PRODUCTS OF MEASURES
@@ -50,7 +50,7 @@ content_sha256: ea7732202a28d5050059674952e2d77a76b99bccdd01471ea0bafeea43972ee2
 
 Throughout this section, T and T' denote two locally compact spaces, $\mu$ a positive measure on T, $\mu'$ a positive measure on T', and $\nu = \mu \otimes \mu'$ the product measure on $X = T \times T'$ (Ch. III, §4, No. 1).
 
-For every $t \in T$, the mapping $t' \mapsto (t, t')$ of T' into X is continuous and proper. Let $\lambda'_t$ be the image of $\mu'$ under this mapping; $\lambda'_t$ is a positive measure on X, and if $f \in \mathcal{K}(X)$ then, denoting by $f_t$ the partial mapping $t' \mapsto f(t, t')$, we have
+For every $t \in T$, the mapping $t' \mapsto (t, t')$ of T' into X is continuous and proper. Let $\lambda'_t$ be the image of $\mu'$ under this mapping; $\lambda'_t$ is a positive measure on X, and if $f \in \mathscr{K}(X)$ then, denoting by $f_t$ the partial mapping $t' \mapsto f(t, t')$, we have
 
 $$
 \int f \, d\lambda'_t = \int f_t \, d\mu',
@@ -58,7 +58,7 @@ $$
 
 which is also expressed by the relation $\lambda'_t = \varepsilon_t \otimes \mu'$.
 
-Moreover, the mapping $t \mapsto \lambda'_t(f)$ is continuous, with compact support (Ch. III, §4, No. 1, Lemma 2), therefore the mapping $t \mapsto \lambda'_t$ of T into $\mathcal{M}(X)$ is vaguely continuous (and, *a fortiori*, vaguely $\mu$-measurable); consequently, the family of measures $t \mapsto \lambda'_t$ is $\mu$-adequate ($§ 3$, No. 1, Prop. 2a)). The integral of $f$ with respect to the measure $\int \lambda'_t \, d\mu(t)$ is by definition
+Moreover, the mapping $t \mapsto \lambda'_t(f)$ is continuous, with compact support (Ch. III, §4, No. 1, Lemma 2), therefore the mapping $t \mapsto \lambda'_t$ of T into $\mathscr{M}(X)$ is vaguely continuous (and, *a fortiori*, vaguely $\mu$-measurable); consequently, the family of measures $t \mapsto \lambda'_t$ is $\mu$-adequate ($§ 3$, No. 1, Prop. 2a)). The integral of $f$ with respect to the measure $\int \lambda'_t \, d\mu(t)$ is by definition
 
 $$
 \int \langle f, \lambda'_t \rangle \, d\mu(t) = \int d\mu(t) \int f_t(t') \, d\mu'(t') = \int f(t, t') \, d\nu(t, t')
@@ -95,7 +95,7 @@ This follows from Th. 2 of §4, No. 4, on taking into account the fact that $t' 
 
 #### Remark {#int-v-s8-n1-rem-1 .statement}
 
-Lemmas 1,2,3 can be proved very simply without making use of the results of §§4 and 6, by a direct argument. For example, the relation (2) is obvious by definition if $f \in \mathcal{K}(T \times T')$. If $f$ is lower semi-continuous on $X = T \times T'$, it suffices to observe that $t' \mapsto f_t(t')$ is the upper envelope of the functions $t' \mapsto g_t(t') = g(t, t')$, where $g$ runs over the set of functions in $\mathcal{K}(X)$ such that $0 \leq g \leq f$. Finally, for arbitrary $f$, one notes that if $h \geq f$ is lower semi-continuous on $X$, then $t' \mapsto h(t, t')$ is lower semi-continuous on $T'$; and conversely, if $t' \mapsto u(t')$ is lower semi-continuous on $T'$ and is such that $u(t') \geq f(t, t')$ for all $t' \in T'$, then the function $h$ such that $h(t, t') = u(t')$, $h(t_1, t') = +\infty$ for $t_1 \neq t'$, is lower semi-continuous on $X$ and satisfies $h \geq f$. Once Lemma 1 is proved, one deduces from it that the set $(T - \{t\}) \times T'$ is $\lambda'_t$-negligible, and it is then every easy to prove Lemmas 2 and 3.
+Lemmas 1,2,3 can be proved very simply without making use of the results of §§4 and 6, by a direct argument. For example, the relation (2) is obvious by definition if $f \in \mathscr{K}(T \times T')$. If $f$ is lower semi-continuous on $X = T \times T'$, it suffices to observe that $t' \mapsto f_t(t')$ is the upper envelope of the functions $t' \mapsto g_t(t') = g(t, t')$, where $g$ runs over the set of functions in $\mathscr{K}(X)$ such that $0 \leq g \leq f$. Finally, for arbitrary $f$, one notes that if $h \geq f$ is lower semi-continuous on $X$, then $t' \mapsto h(t, t')$ is lower semi-continuous on $T'$; and conversely, if $t' \mapsto u(t')$ is lower semi-continuous on $T'$ and is such that $u(t') \geq f(t, t')$ for all $t' \in T'$, then the function $h$ such that $h(t, t') = u(t')$, $h(t_1, t') = +\infty$ for $t_1 \neq t'$, is lower semi-continuous on $X$ and satisfies $h \geq f$. Once Lemma 1 is proved, one deduces from it that the set $(T - \{t\}) \times T'$ is $\lambda'_t$-negligible, and it is then every easy to prove Lemmas 2 and 3.
 
 The relation (3) permits denoting its two members by $\int f(t, t') \, d\mu'(t')$ without risk of confusion. The analogous results obviously hold for the measures $\lambda_{t'} = \mu \otimes \varepsilon_{t'}$.
 
@@ -131,7 +131,7 @@ $$
 
 The family $(\mu_\alpha \otimes \mu'_\beta)$ is therefore summable. To show that the two members of (4) are equal, it suffices to prove that the second member satisfies the characteristic property of product measures (Ch. III, §4, No. 1, Th. 1), which is shown by the following calculation.
 
-Let $f$ be an element of $\mathcal{K}_+(T)$, $f'$ an element of $\mathcal{K}_+(T')$; recall that $f \otimes f'$ denotes the function $(t, t') \mapsto f(t)f'(t')$ on $T \times T'$, which belongs to $\mathcal{K}_+(T \times T')$ (A, II, §7, No. 7). Then, by the definition of product measures,
+Let $f$ be an element of $\mathscr{K}_+(T)$, $f'$ an element of $\mathscr{K}_+(T')$; recall that $f \otimes f'$ denotes the function $(t, t') \mapsto f(t)f'(t')$ on $T \times T'$, which belongs to $\mathscr{K}_+(T \times T')$ (A, II, §7, No. 7). Then, by the definition of product measures,
 
 $$
 \sum_{(\alpha, \beta) \in A \times B} \langle \mu_\alpha \otimes \mu'_\beta, f \otimes f' \rangle = \sum_{(\alpha, \beta) \in A \times B} (\langle \mu_\alpha, f \rangle \langle \mu'_\beta, f' \rangle)
@@ -237,13 +237,13 @@ $$
 \iint^* f(t)f'(t') \, d\mu(t) \, d\mu'(t') = \left( \int^* f(t) \, d\mu(t) \right) \left( \int^* f'(t') \, d\mu'(t') \right).
 $$
 
-Let $G$ (resp. $G'$) be the set of functions $g \in \mathcal{K}_+(T)$ (resp. $g' \in \mathcal{K}_+(T')$) such that $g \leqslant f$ (resp. $g' \leqslant f'$); then
+Let $G$ (resp. $G'$) be the set of functions $g \in \mathscr{K}_+(T)$ (resp. $g' \in \mathscr{K}_+(T')$) such that $g \leqslant f$ (resp. $g' \leqslant f'$); then
 
 $$
 f \otimes f' = \sup_{g \in G,\ g' \in G'} g \otimes g'.
 $$
 
-Since the functions $g \otimes g'$ belong to $\mathcal{K}_+(T \times T')$, $f \otimes f'$ is indeed lower semi-continuous, and (6) follows at once from Prop. 5 (or directly by passage to the limit in the preceding formula).
+Since the functions $g \otimes g'$ belong to $\mathscr{K}_+(T \times T')$, $f \otimes f'$ is indeed lower semi-continuous, and (6) follows at once from Prop. 5 (or directly by passage to the limit in the preceding formula).
 
 #### Corollary 2 {#int-v-s8-prop-5-cor-2 .statement}
 
@@ -475,7 +475,7 @@ a) *If $\pi$ (resp. $\pi'$) is $\mu$-proper (resp. $\mu'$-proper), then the mapp
 
 b) *Conversely, if $\pi \times \pi'$ is $(\mu \otimes \mu')$-proper and $\mu' \neq 0$, then $\pi$ is $\mu$-proper.*
 
-a) For, $\pi \times \pi'$ is $(\mu \times \mu')$-measurable by Cor. 1 of Prop. 3 of No. 2. On the other hand, if $K$ (resp. $K'$) is a compact subset of $T_1$ (resp. $T'_1$), then $\pi^{-1}(K)$ and ${\pi'}^{-1}(K')$ are essentially integrable for $\mu$ and $\mu'$, respectively, therefore $\pi^{-1}(K) \times {\pi'}^{-1}(K')$ is essentially integrable for $\mu \otimes \mu'$ (Cor. 2 of Prop. 8). This proves that $\pi \times \pi'$ is $(\mu \times \mu')$-proper. Now let $\mu_1 = \pi(\mu)$, $\mu'_1 = \pi'(\mu')$, $\nu_1 = (\pi \times \pi')(\mu \otimes \mu')$; for $f \in \mathcal{K}(T_1)$ and $f' \in \mathcal{K}(T'_1)$, we have
+a) For, $\pi \times \pi'$ is $(\mu \times \mu')$-measurable by Cor. 1 of Prop. 3 of No. 2. On the other hand, if $K$ (resp. $K'$) is a compact subset of $T_1$ (resp. $T'_1$), then $\pi^{-1}(K)$ and ${\pi'}^{-1}(K')$ are essentially integrable for $\mu$ and $\mu'$, respectively, therefore $\pi^{-1}(K) \times {\pi'}^{-1}(K')$ is essentially integrable for $\mu \otimes \mu'$ (Cor. 2 of Prop. 8). This proves that $\pi \times \pi'$ is $(\mu \times \mu')$-proper. Now let $\mu_1 = \pi(\mu)$, $\mu'_1 = \pi'(\mu')$, $\nu_1 = (\pi \times \pi')(\mu \otimes \mu')$; for $f \in \mathscr{K}(T_1)$ and $f' \in \mathscr{K}(T'_1)$, we have
 
 $$
 \iint f(\pi(t)) f'(\pi'(t')) d\mu(t) d\mu'(t')
@@ -488,7 +488,7 @@ $$
 
 b) Now suppose that $\pi \times \pi'$ is $\mu \otimes \mu'$-proper and that $\mu' \neq 0$. Let $\mu_1$ be a measure $\leq \mu$ with compact support. The function $\pi \times \pi'$ being measurable for $\mu_1 \otimes \mu'$, the mapping $t \mapsto (\pi(t), \pi'(t'))$ is $\mu$-measurable except for $t'$ forming a locally $\mu'$-negligible set (No. 2, Prop. 2). Since $\mu' \neq 0$, it follows that $\pi$ is $\mu_1$-measurable, and finally that $\pi$ is $\mu$-measurable
 
-(§2, No. 3, Prop. 4 and §2, No. 2, Prop. 2). It remains to show that $\mu^\bullet(f \circ \pi) < +\infty$ for every function $f \in \mathcal{K}_+(\mathrm{T}_1)$. If $\mu$ is zero, this property is obvious. If $\mu$ is not zero, then neither is $\mu \otimes \mu'$, consequently $(\pi \times \pi')(\mu \otimes \mu') \neq 0$ (§6, No. 2, Cor. 1 of Prop. 2). By Lemma 1 of Ch. III, §4, No. 1, there exist two functions $g \in \mathcal{K}_+(\mathrm{T}_1)$, $g' \in \mathcal{K}_+(\mathrm{T}'_1)$ such that
+(§2, No. 3, Prop. 4 and §2, No. 2, Prop. 2). It remains to show that $\mu^\bullet(f \circ \pi) < +\infty$ for every function $f \in \mathscr{K}_+(\mathrm{T}_1)$. If $\mu$ is zero, this property is obvious. If $\mu$ is not zero, then neither is $\mu \otimes \mu'$, consequently $(\pi \times \pi')(\mu \otimes \mu') \neq 0$ (§6, No. 2, Cor. 1 of Prop. 2). By Lemma 1 of Ch. III, §4, No. 1, there exist two functions $g \in \mathscr{K}_+(\mathrm{T}_1)$, $g' \in \mathscr{K}_+(\mathrm{T}'_1)$ such that
 
 $$
 \langle (\pi \times \pi')(\mu \otimes \mu'), g \otimes g' \rangle \neq 0.
@@ -511,7 +511,7 @@ This result extends at once to the product of two complex measures (apply the st
 
 — Let X (resp. X') be a locally compact subspace of T (resp. T'). Then, the induced measure $(\mu \otimes \mu')_{X \times X'}$ on the locally compact subspace $X \times X'$ of $T \times T'$ is equal to the product $\mu_X \otimes \mu'_{X'}$ of the measures induced on X and X' by $\mu$ and $\mu'$, respectively.
 
-For, if $f \in \mathcal{K}(X)$ and $f' \in \mathcal{K}(X')$, then
+For, if $f \in \mathscr{K}(X)$ and $f' \in \mathscr{K}(X')$, then
 
 $$
 \iint_{X \times X'} f(t)f'(t') d\mu(t) d\mu'(t') = \left( \int_X f(t) d\mu(t) \right) \left( \int_{X'} f'(t') d\mu'(t') \right)
@@ -579,7 +579,7 @@ $$
 \alpha \int_{-\infty}^{+\infty} f(\alpha x) dx = \int_{-\infty}^{+\infty} f(z) dz
 $$
 
-for $f \in \mathcal{K}(\mathbf{R})$, that the image of $\mu_{n-1}$ under the homothety $\mathbf{x} \mapsto \alpha \mathbf{x}$ is the measure $\alpha^{1-n} \mu_{n-1}$. Therefore
+for $f \in \mathscr{K}(\mathbf{R})$, that the image of $\mu_{n-1}$ under the homothety $\mathbf{x} \mapsto \alpha \mathbf{x}$ is the measure $\alpha^{1-n} \mu_{n-1}$. Therefore
 
 $$
 \mu_{n-1}(\mathbf{B}_n(z_n)) = \left( \sqrt{1 - z_n^2} \right)^{n-1} V_{n-1} .

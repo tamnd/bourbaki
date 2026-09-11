@@ -40,7 +40,7 @@ subsections:
       pdf_page: 37
 statements: 40
 exercises: 3
-content_sha256: 66020068ded1ac45c1a2eb80c727490afc00ca33f16b07ac3958bb16389ce06a
+content_sha256: f71aebe1ebf70d1dc10e7686f9e7032fdcc738eb4c0517affda874dc7f9319f1
 ---
 
 ## § 2. Opérations sur les mesures
@@ -63,8 +63,8 @@ Soit $X$ une partie $\mu$-mesurable de $T$. On appelle mesure induite par $\mu$ 
 
 #### Proposition 1 {#int-ix-s2-prop-1 .statement}
 
-Soit $X$ une partie $\mu$-mesurable de $T$. L’encombrement $(\mu_X)^*$ est égal à l’encombrement $(\mu^*)_x$ induit par $\mu^*$ sur $X$ (§ 1, n° 1). Autrement dit, on a $(\mu_X)^*(g) = \mu^*(g^0)$ pour toute fonction $g \in \mathcal{F}_+(X)$.
-Soient $f \in \mathcal{F}_+(X)$ et $f^0$ le prolongement par 0 de $f$ à $T$. On a $(\mu^*)_x(f) =$ n° 2.2.
+Soit $X$ une partie $\mu$-mesurable de $T$. L’encombrement $(\mu_X)^*$ est égal à l’encombrement $(\mu^*)_x$ induit par $\mu^*$ sur $X$ (§ 1, n° 1). Autrement dit, on a $(\mu_X)^*(g) = \mu^*(g^0)$ pour toute fonction $g \in \mathscr{F}_+(X)$.
+Soient $f \in \mathscr{F}_+(X)$ et $f^0$ le prolongement par 0 de $f$ à $T$. On a $(\mu^*)_x(f) =$ n° 2.2.
 
 $\mu^*(f^0) = \sup_L \mu^*(f^0 \varphi_L)$, L parcourant l’ensemble des parties compactes de T ($§ 1$, n° 2, prop. 2); de même, on a $(\mu_X)^*(f) = \sup_K \mu_K^*(f_K) = \sup_K \mu^*(f^0 \varphi_K)$, K parcourant l’ensemble des parties compactes de X. Tout revient donc à montrer que $\mu^*(f^0 \varphi_L) = \sup_K \mu^*(f^0 \varphi_K)$ pour tout compact L de T, K parcourant l’ensemble des compacts de $L \cap X$. Or soit $(K_n)$ une suite croissante d’ensembles compacts contenus dans $L \cap X$, telle que $(L \cap X) - \bigcup_n K_n$ soit localement $\mu$-négligeable ($§ 1$, n° 8, prop. 11); $f^0$ étant nulle hors de X, $f^0 \varphi_L$ est nulle hors de $L \cap X$, et donc égale localement presque partout à l’enveloppe supérieure de la suite $(f^0 \varphi_{K_n})$. Cela entraîne $\mu^*(f^0 \varphi_L) = \sup_n \mu^*(f^0 \varphi_{K_n})$, d’où le résultat cherché.
 
@@ -92,7 +92,7 @@ Soit $f$ une fonction positive localement $\mu$-intégrable; l’application $K 
 
 #### Proposition 2 {#int-ix-s2-prop-2 .statement}
 
-*Si $f$ est une fonction localement $\mu$-intégrable positive, on a, pour toute fonction $g \in \mathcal{F}_+(T)$, la relation*
+*Si $f$ est une fonction localement $\mu$-intégrable positive, on a, pour toute fonction $g \in \mathscr{F}_+(T)$, la relation*
 
 $$
 (f.\mu)^*(g) = \mu^*(fg).
@@ -120,7 +120,7 @@ Soient alors $x \in T$ et $V$ un voisinage de $x$ tel que $\mu^*(f \varphi_V) < 
 
 *Soit $\nu$ une mesure sur $T$. Pour que $\nu$ soit de la forme $f.\mu$, où $f$ est une fonction positive localement $\mu$-intégrable, il faut et il suffit que tout ensemble compact $\mu$-négligeable soit $\nu$-négligeable. Si $f'$ est une seconde fonction localement $\mu$-intégrable telle que $\nu = f'.\mu$, on a $f = f'$ localement $\mu$-presque partout.*
 
-La condition est évidemment nécessaire (prop. 2). Inversement, supposons que tout ensemble compact $\mu$-négligeable soit $\nu$-négligeable. Introduisons un concassage $(K_\alpha)_{\alpha \in A}$ de $T$ pour la mesure $\mu + \nu$ et posons $N = T - \bigcup_{\alpha \in A} K_\alpha$. Il est clair que $(K_\alpha)_{\alpha \in A}$ est un concassage pour $\mu$ et pour $\nu$, et la prop. 9 du § 1, n° 8 entraîne donc les relations suivantes pour tout $g \in \mathcal{F}_+$:
+La condition est évidemment nécessaire (prop. 2). Inversement, supposons que tout ensemble compact $\mu$-négligeable soit $\nu$-négligeable. Introduisons un concassage $(K_\alpha)_{\alpha \in A}$ de $T$ pour la mesure $\mu + \nu$ et posons $N = T - \bigcup_{\alpha \in A} K_\alpha$. Il est clair que $(K_\alpha)_{\alpha \in A}$ est un concassage pour $\mu$ et pour $\nu$, et la prop. 9 du § 1, n° 8 entraîne donc les relations suivantes pour tout $g \in \mathscr{F}_+$:
 
 $$
 \mu^*(g) = \sum_{\alpha \in A} \mu_{K_\alpha}^*(g_{K_\alpha}), \quad \nu^*(g) = \sum_{\alpha \in A} \nu_{K_\alpha}^*(g_{K_\alpha}).
@@ -128,7 +128,7 @@ $$
 
 n° 2.3.
 
-Considérons un compact $C \subset K_\alpha$ qui soit $\mu_{K_\alpha}$-négligeable; alors $C$ est localement $\mu$-négligeable, donc localement $\nu$-négligeable, et enfin $\nu_{K_\alpha}$-négligeable par définition de $\nu$. Il résulte alors du th. de Lebesgue–Nikodym (chap. V, 2e éd., § 5, n° 5, th. 2) que $\nu_{K_\alpha}$ admet une densité $f_\alpha$ par rapport à $\mu_{K_\alpha}$. Soit $f$ la fonction qui coïncide avec $f_\alpha$ dans chacun des ensembles $K_\alpha$, et avec 0 dans $\mathbf{N}$; la fonction $f$ est $\mu$-mesurable (chap. IV, 2e éd., § 5, n° 10, prop. 16), et on a pour toute fonction $g \in \mathcal{F}_+$, d’après les relations ci-dessus, et la prop. 3 du chap. V, 2e éd., § 5, n° 3,
+Considérons un compact $C \subset K_\alpha$ qui soit $\mu_{K_\alpha}$-négligeable; alors $C$ est localement $\mu$-négligeable, donc localement $\nu$-négligeable, et enfin $\nu_{K_\alpha}$-négligeable par définition de $\nu$. Il résulte alors du th. de Lebesgue–Nikodym (chap. V, 2e éd., § 5, n° 5, th. 2) que $\nu_{K_\alpha}$ admet une densité $f_\alpha$ par rapport à $\mu_{K_\alpha}$. Soit $f$ la fonction qui coïncide avec $f_\alpha$ dans chacun des ensembles $K_\alpha$, et avec 0 dans $\mathbf{N}$; la fonction $f$ est $\mu$-mesurable (chap. IV, 2e éd., § 5, n° 10, prop. 16), et on a pour toute fonction $g \in \mathscr{F}_+$, d’après les relations ci-dessus, et la prop. 3 du chap. V, 2e éd., § 5, n° 3,
 
 $$
 \nu^\bullet(g) = \sum_{\alpha \in A} \nu_{K_\alpha}^\bullet(g_{K_\alpha}) = \sum_{\alpha \in A} \mu_{K_\alpha}^\bullet(f_\alpha g_{K_\alpha}) = \sum_{\alpha \in A} \mu_{K_\alpha}^\bullet((f g)_{K_\alpha}) = \mu^\bullet(fg).
@@ -162,9 +162,9 @@ Si $\theta$ est une mesure complexe sur $T$, on dira que $\pi$ est $\theta$-prop
 
 #### Proposition 4 {#int-ix-s2-prop-4 .statement}
 
-Soit $\pi$ une application $\mu$-propre de $T$ dans un espace topologique $X$. Il existe sur $X$ une mesure $\nu$ et une seule telle que $\nu^*$ soit égal à l’encombrement image $\pi(\mu^*)$ ($§ 1, n^o 1$), autrement dit, telle que $\nu^*(g) = \mu^*(g \circ \pi)$ pour tout $g \in \mathcal{F}_+(X)$.
+Soit $\pi$ une application $\mu$-propre de $T$ dans un espace topologique $X$. Il existe sur $X$ une mesure $\nu$ et une seule telle que $\nu^*$ soit égal à l’encombrement image $\pi(\mu^*)$ ($§ 1, n^o 1$), autrement dit, telle que $\nu^*(g) = \mu^*(g \circ \pi)$ pour tout $g \in \mathscr{F}_+(X)$.
 
-L’unicité est évidente ($§ 1, n^o 2$, cor. de la prop. 2). Pour établir l’existence, nous traiterons d’abord le cas où $\mu$ est portée par un ensemble compact $K$, tel que la restriction de $\pi$ à $K$ soit continue. Alors $L = \pi(K)$ est compact; soit $\pi'$ l’application continue de $K$ dans $L$ induite par $\pi$, et soient $\nu'$ la mesure image $\pi'(\mu_K)$ sur $L$, $\nu$ la mesure sur $X$ définie par $\nu'$ ($§ 1, n^o 3$, Exemple 2). On a, pour tout $g \in \mathcal{F}_+(X)$,
+L’unicité est évidente ($§ 1, n^o 2$, cor. de la prop. 2). Pour établir l’existence, nous traiterons d’abord le cas où $\mu$ est portée par un ensemble compact $K$, tel que la restriction de $\pi$ à $K$ soit continue. Alors $L = \pi(K)$ est compact; soit $\pi'$ l’application continue de $K$ dans $L$ induite par $\pi$, et soient $\nu'$ la mesure image $\pi'(\mu_K)$ sur $L$, $\nu$ la mesure sur $X$ définie par $\nu'$ ($§ 1, n^o 3$, Exemple 2). On a, pour tout $g \in \mathscr{F}_+(X)$,
 
 $$
 \nu^*(g) = {\nu'}^*(g_L) = \mu_K^*(g_L \circ \pi') = \mu_K^*((g \circ \pi)_K) = \mu^*((g \circ \pi)_K^o) = \mu^*(g \circ \pi)
@@ -172,7 +172,7 @@ $$
 
 (on a utilisé successivement la formule (3) du $§ 1, n^o 3$, la prop. 2 du chap. V, 2e éd., $§ 6, n^o 2$, la définition de $\mu_K^*$, et le fait que $\mu$ est portée par $K$). Autrement dit, on a $\nu^* = \pi(\mu^*)$.
 
-Passons maintenant au cas général; d’après les prop. 10 et 9 du $§ 1, n^o 8$, $\mu$ est somme d’une famille sommable $(\mu_\alpha)_{\alpha \in A}$ de mesures à support compact, telles que la restriction de $\pi$ au support $K_\alpha$ de $\mu_\alpha$ soit continue pour tout $\alpha \in A$. Le cas particulier traité plus haut permet d’associer à chaque mesure $\mu_\alpha$ sur $T$ une mesure $\nu_\alpha$ sur $X$ telle que $\nu_\alpha^* = \pi(\mu_\alpha^*)$. On a alors, pour $g \in \mathcal{F}_+(X)$,
+Passons maintenant au cas général; d’après les prop. 10 et 9 du $§ 1, n^o 8$, $\mu$ est somme d’une famille sommable $(\mu_\alpha)_{\alpha \in A}$ de mesures à support compact, telles que la restriction de $\pi$ au support $K_\alpha$ de $\mu_\alpha$ soit continue pour tout $\alpha \in A$. Le cas particulier traité plus haut permet d’associer à chaque mesure $\mu_\alpha$ sur $T$ une mesure $\nu_\alpha$ sur $X$ telle que $\nu_\alpha^* = \pi(\mu_\alpha^*)$. On a alors, pour $g \in \mathscr{F}_+(X)$,
 
 $$
 \sum_{\alpha \in A} \nu_\alpha^*(g) = \sum_{\alpha \in A} \mu_\alpha^*(g \circ \pi) = \mu^*(g \circ \pi).
@@ -182,7 +182,7 @@ L’encombrement $\pi(\mu^*)$ est localement borné, puisque $\pi$ est $\mu$-pro
 
 #### Définition 5 {#int-ix-s2-def-5 .statement}
 
-Si $\pi$ est une application $\mu$-propre de $T$ dans un espace topologique $X$, l’unique mesure $\nu$ sur $X$ telle que $\nu^*(g) = \mu^*(g \circ \pi)$ pour tout $g \in \mathcal{F}_+(X)$ est appelée la mesure image de $\mu$ par $\pi$, et notée $\pi(\mu)$.
+Si $\pi$ est une application $\mu$-propre de $T$ dans un espace topologique $X$, l’unique mesure $\nu$ sur $X$ telle que $\nu^*(g) = \mu^*(g \circ \pi)$ pour tout $g \in \mathscr{F}_+(X)$ est appelée la mesure image de $\mu$ par $\pi$, et notée $\pi(\mu)$.
 
 #### Exemple {#int-ix-s2-n3-exa-1 .statement}
 
@@ -214,7 +214,7 @@ $$
 (\pi(\mu))_B = (\pi_A(\mu_A))_B = \pi'(\mu_A).
 $$
 
-L’ensemble $A$ est $\mu$-mesurable d’après la prop. 5 appliquée à $\varphi_B$; l’application $\pi_A$ est évidemment $\mu_A$-mesurable d’après la définition des mesures induites (no 1), et il en résulte que $\pi'$ est mesurable. Soit $f$ un élément de $\mathcal{F}_+(B)$; en désignant par des exposants zéros les prolongements par 0 dans $X$ et dans $T$, on a
+L’ensemble $A$ est $\mu$-mesurable d’après la prop. 5 appliquée à $\varphi_B$; l’application $\pi_A$ est évidemment $\mu_A$-mesurable d’après la définition des mesures induites (no 1), et il en résulte que $\pi'$ est mesurable. Soit $f$ un élément de $\mathscr{F}_+(B)$; en désignant par des exposants zéros les prolongements par 0 dans $X$ et dans $T$, on a
 
 $$
 (\pi(\mu)_B)^*(f) = \pi(\mu)^*(f^0) = \mu^*(f^0 \circ \pi) = \mu^*((f \circ \pi')^0) = \mu_A^*(f \circ \pi'),
@@ -234,7 +234,7 @@ a) Posons $\nu = i(\mu)$; la relation $\nu^*(A) = \mu^*(A \cap T)$, appliquée �
 
 b) Soit $f$ une fonction positive définie dans $X$; si l’on pose $\mu = \lambda_T$, on a $\mu^*(f \circ i) = \lambda_T^*(f_T) = \lambda^*(f_{\varphi_T}) \leq \lambda^*(f)$ (prop. 1); il en résulte que $i$ est $\mu$-propre. D’autre part, $\mu^*(f \circ i)$ (resp. $\lambda^*(f_{\varphi_T})$) est l’intégrale supérieure essentielle de $f$ par rapport à $i(\mu)$ (resp. $\varphi_T \cdot \lambda$). Ces deux mesures sont donc égales.
 
-Remarque 6). — Soit $\pi$ une application $\mu$-propre de $T$ dans un espace topologique $X$. On ramène la théorie de l’intégration par rapport à la mesure image $\nu = \pi(\mu)$ à la théorie traitée au chap. V, 2e éd., § 6, de la manière suivante. Soit $(K_\alpha)_{\alpha \in A}$ (resp. $(L_\beta)_{\beta \in B}$) un concassage de $T$ (resp. de $X$) pour $\mu$ (resp. pour $\nu$), et posons $N = T - \bigcup_{\alpha \in A} K_\alpha, P = X - \bigcup_{\beta \in B} L_\beta$. Nous pouvons supposer que la restriction de $\pi$ à chacun des $K_\alpha$ est continue ($§ 1, n° 8,$ prop. 10). Soient $T', X'$ les espaces localement compacts construits comme dans le scholie du $§ 1, n° 8$ et soient $\mu'$ et $\nu'$ les mesures sur ces espaces associées à $\mu$ et $\nu$. La topologie de $T'$ étant somme des topologies des sous-espaces $K_\alpha$ et de la topologie discrète sur $N$, $\pi$ est une application continue de $T'$ dans $X$ et la relation ${\mu'}^*(g \circ \pi) = \mu^*(g \circ \pi) = \nu^*(g)$ (pour $g \in \mathcal{F}_+(X)$) montre que $\pi$ est $\mu'$-propre et que $\pi(\mu') = \nu$. D’autre part, l’application identique $i$ de $X$ sur $X'$ est $\nu$-propre, et on a $i(\nu) = \nu'$. Il en résulte que $\pi$ est une application $\mu'$-propre de $T'$ dans $X'$, et que l’image de $\mu'$ par $\pi$ est $\nu'$ (cor. de la prop. 5). Nous laissons au lecteur le soin de transcrire les résultats du chap. V, 2e éd., § 6.
+Remarque 6). — Soit $\pi$ une application $\mu$-propre de $T$ dans un espace topologique $X$. On ramène la théorie de l’intégration par rapport à la mesure image $\nu = \pi(\mu)$ à la théorie traitée au chap. V, 2e éd., § 6, de la manière suivante. Soit $(K_\alpha)_{\alpha \in A}$ (resp. $(L_\beta)_{\beta \in B}$) un concassage de $T$ (resp. de $X$) pour $\mu$ (resp. pour $\nu$), et posons $N = T - \bigcup_{\alpha \in A} K_\alpha, P = X - \bigcup_{\beta \in B} L_\beta$. Nous pouvons supposer que la restriction de $\pi$ à chacun des $K_\alpha$ est continue ($§ 1, n° 8,$ prop. 10). Soient $T', X'$ les espaces localement compacts construits comme dans le scholie du $§ 1, n° 8$ et soient $\mu'$ et $\nu'$ les mesures sur ces espaces associées à $\mu$ et $\nu$. La topologie de $T'$ étant somme des topologies des sous-espaces $K_\alpha$ et de la topologie discrète sur $N$, $\pi$ est une application continue de $T'$ dans $X$ et la relation ${\mu'}^*(g \circ \pi) = \mu^*(g \circ \pi) = \nu^*(g)$ (pour $g \in \mathscr{F}_+(X)$) montre que $\pi$ est $\mu'$-propre et que $\pi(\mu') = \nu$. D’autre part, l’application identique $i$ de $X$ sur $X'$ est $\nu$-propre, et on a $i(\nu) = \nu'$. Il en résulte que $\pi$ est une application $\mu'$-propre de $T'$ dans $X'$, et que l’image de $\mu'$ par $\pi$ est $\nu'$ (cor. de la prop. 5). Nous laissons au lecteur le soin de transcrire les résultats du chap. V, 2e éd., § 6.
 
 ### 4. Relèvement de mesures
 
@@ -255,13 +255,13 @@ Pour montrer que la condition est suffisante, nous traiterons d’abord un cas p
 
 #### Lemme 1 {#int-ix-s2-lem-1 .statement}
 
-Soient U et V deux espaces compacts, h une application continue de U sur V. L’application $\lambda \mapsto h(\lambda)$ de $\mathcal{M}_+(U)$ dans $\mathcal{M}_+(V)$ est alors surjective.
+Soient U et V deux espaces compacts, h une application continue de U sur V. L’application $\lambda \mapsto h(\lambda)$ de $\mathscr{M}_+(U)$ dans $\mathscr{M}_+(V)$ est alors surjective.
 
-En effet, soit a l’application linéaire $f \mapsto f \circ h$ de $\mathcal{C}(V)$ dans $\mathcal{C}(U)$; comme h est surjective, a est une isométrie de $\mathcal{C}(V)$ sur un sous-espace H de $\mathcal{C}(U)$. Soit $\theta$ une mesure positive sur V; alors $\theta \circ a^{-1}$ est une forme linéaire continue sur H, qui est prolongeable en une forme linéaire $\eta$ sur $\mathcal{C}(U)$ de même norme, en vertu du th. de Hahn–Banach (*Esp. vect. top.*, chap. II, 2e éd., § 3, n° 2, cor. 1 du th. 1); $\eta$ est alors une mesure sur U, et on a $\theta(f) = \eta(f \circ h)$ pour tout $f \in \mathcal{C}(V)$, de sorte que $\theta = h(\eta)$. Enfin on a $\theta(1) = \| \theta \| = \| \eta \|$, et $\theta(1) = \eta(1)$, de sorte que $\eta$ est positive (chap. V, 2e éd., § 5, n° 5, prop. 9).
+En effet, soit a l’application linéaire $f \mapsto f \circ h$ de $\mathscr{C}(V)$ dans $\mathscr{C}(U)$; comme h est surjective, a est une isométrie de $\mathscr{C}(V)$ sur un sous-espace H de $\mathscr{C}(U)$. Soit $\theta$ une mesure positive sur V; alors $\theta \circ a^{-1}$ est une forme linéaire continue sur H, qui est prolongeable en une forme linéaire $\eta$ sur $\mathscr{C}(U)$ de même norme, en vertu du th. de Hahn–Banach (*Esp. vect. top.*, chap. II, 2e éd., § 3, n° 2, cor. 1 du th. 1); $\eta$ est alors une mesure sur U, et on a $\theta(f) = \eta(f \circ h)$ pour tout $f \in \mathscr{C}(V)$, de sorte que $\theta = h(\eta)$. Enfin on a $\theta(1) = \| \theta \| = \| \eta \|$, et $\theta(1) = \eta(1)$, de sorte que $\eta$ est positive (chap. V, 2e éd., § 5, n° 5, prop. 9).
 
 Démontrons alors la suffisance de la condition énoncée dans a). Cette condition entraîne l’existence d’une suite $(K_n)_{n \geq 1}$ de parties compactes de T, telle que la restriction de $\pi$ à chacun des $K_n$ soit continue, et qu’on ait, pour tout n, $\nu^*(X - \pi(K_n)) < 1/n$. La suite $(K_n)$ peut-être supposée croissante. Posons $L_n = \pi(K_n)$ et désignons par $\nu'_n$ la mesure $\varphi_{L_n - L_{n-1}} \cdot \nu_{L_n}$ sur $L_n$, en convenant que $L_0 = \emptyset$.
 
-La restriction $\pi_{K_n}$ étant continue, il existe une mesure $\mu'_n$ sur $K_n$ telle que $\pi_{K_n}(\mu'_n) = \nu'_n$ (lemme 1). Soit $\mu_n$ l’image de $\mu'_n$ par l’injection canonique de $K_n$ dans T, et soit g un élément de $\mathcal{F}_+(X)$. En utilisant successivement le fait que $\nu$ est concentrée sur $\bigcup_n L_n$, la prop. 4 du § 1, n° 5, la prop. 2 du § 1, n° 2, la prop. 4 du n° 3 et enfin la prop. 7 du n° 3, il vient
+La restriction $\pi_{K_n}$ étant continue, il existe une mesure $\mu'_n$ sur $K_n$ telle que $\pi_{K_n}(\mu'_n) = \nu'_n$ (lemme 1). Soit $\mu_n$ l’image de $\mu'_n$ par l’injection canonique de $K_n$ dans T, et soit g un élément de $\mathscr{F}_+(X)$. En utilisant successivement le fait que $\nu$ est concentrée sur $\bigcup_n L_n$, la prop. 4 du § 1, n° 5, la prop. 2 du § 1, n° 2, la prop. 4 du n° 3 et enfin la prop. 7 du n° 3, il vient
 
 $$
 \nu^*(g) = \sum_n \nu^*(\varphi_{L_n - L_{n-1}} g) = \sum_n {\nu'_n}^*(g_{L_n}) = \sum_n {\mu'_n}^*(g_{L_n} \circ \pi_{K_n})
@@ -272,7 +272,7 @@ $$
 
 En prenant $g = 1$ dans cette formule, on voit que la famille $(\mu_n)$ est sommable et que sa somme est une mesure bornée $\mu$ (§ 1, n° 7, prop. 7). D’après la prop. 5 du n° 3, l’application $\pi$ est $\mu_n$-mesurable pour tout n, car $\pi_{K_n}$ est continue, donc $\mu'_n$-mesurable; il en résulte que $\pi$ est $\mu$-mesurable (§ 1, n° 7, prop. 8), donc $\mu$-propre puisque $\mu$ est bornée. Les relations ci-dessus prouvent alors que les mesures $\pi(\mu)$ et $\nu$ ont même intégrale supérieure essentielle, et sont donc égales (§ 1, n° 2, cor. de la prop. 2).
 
-Supposons enfin que $\pi$ soit injective, et démontrons b). Soit f un élément de $\mathcal{F}_+(T)$; comme $\pi$ est injective, il existe une fonction $g \in \mathcal{F}_+(X)$ telle que $f = g \circ \pi$, et on a, d’après la prop. 4 du n° 3, en posant $\nu = \pi(\mu) = \pi(\mu')$,
+Supposons enfin que $\pi$ soit injective, et démontrons b). Soit f un élément de $\mathscr{F}_+(T)$; comme $\pi$ est injective, il existe une fonction $g \in \mathscr{F}_+(X)$ telle que $f = g \circ \pi$, et on a, d’après la prop. 4 du n° 3, en posant $\nu = \pi(\mu) = \pi(\mu')$,
 
 $$
 \mu^*(f) = \mu^*(g \circ \pi) = \nu^*(g) = {\mu'}^*(g \circ \pi) = {\mu'}^*(f).
@@ -317,7 +317,7 @@ valeurs dans $\overline{\mathbf{R}}_+$ ou dans $\mathbf{C}$, la fonction $(s, t)
 
 #### Proposition 10 {#int-ix-s2-prop-10 .statement}
 
-*Soit $\nu$ la prémesure produit de $\lambda$ et $\mu$; on a, pour toute fonction $f \in \mathcal{F}_+(S)$ et toute fonction $g \in \mathcal{F}_+(T)$,*
+*Soit $\nu$ la prémesure produit de $\lambda$ et $\mu$; on a, pour toute fonction $f \in \mathscr{F}_+(S)$ et toute fonction $g \in \mathscr{F}_+(T)$,*
 
 $$
 \nu^*(f \otimes g) = \lambda^*(f)\mu^*(g).
@@ -337,13 +337,13 @@ $$
 
 d’après la prop. 8 du chap. V, § 8, n° 3.
 
-Soit $\eta$ une seconde prémesure sur $S \times T$ satisfaisant à (4), et soient $K$ et $L$ deux parties compactes de $S$ et $T$ respectivement, $f$ et $g$ deux éléments de $\mathcal{F}_+(K)$ et de $\mathcal{F}_+(L)$ respectivement. On a la relation $(f \otimes g)^0 = f^0 \otimes g^0$ entre les prolongements par 0, et donc (§ 1, n° 2, prop. 2)
+Soit $\eta$ une seconde prémesure sur $S \times T$ satisfaisant à (4), et soient $K$ et $L$ deux parties compactes de $S$ et $T$ respectivement, $f$ et $g$ deux éléments de $\mathscr{F}_+(K)$ et de $\mathscr{F}_+(L)$ respectivement. On a la relation $(f \otimes g)^0 = f^0 \otimes g^0$ entre les prolongements par 0, et donc (§ 1, n° 2, prop. 2)
 
 $$
 \eta_{K \times L}^*(f \otimes g) = \eta^*((f \otimes g)^0) = \eta^*(f^0 \otimes g^0) = \lambda^*(f^0)\mu^*(g^0) = \lambda_K^*(f)\mu_L^*(g).
 $$
 
-En particulier, si l’on prend $f \in \mathcal{K}_+(K)$, $g \in \mathcal{K}_+(L)$, on voit que $\eta_{K \times L}$ possède la propriété caractéristique de la mesure produit $\lambda_K \otimes \mu_L$ (chap. III, 2e éd., § 4, n° 1, th. 1). On a donc $\eta_{K \times L} = \nu_{K \times L}$; comme toute partie compacte de $S \times T$ est contenue dans un ensemble de la forme $K \times L$, la transitivité des mesures induites entraîne que $\eta = \nu$.
+En particulier, si l’on prend $f \in \mathscr{K}_+(K)$, $g \in \mathscr{K}_+(L)$, on voit que $\eta_{K \times L}$ possède la propriété caractéristique de la mesure produit $\lambda_K \otimes \mu_L$ (chap. III, 2e éd., § 4, n° 1, th. 1). On a donc $\eta_{K \times L} = \nu_{K \times L}$; comme toute partie compacte de $S \times T$ est contenue dans un ensemble de la forme $K \times L$, la transitivité des mesures induites entraîne que $\eta = \nu$.
 
 #### Corollaire 1 {#int-ix-s2-prop-10-cor-1 .statement}
 
@@ -361,7 +361,7 @@ Ce résultat s’étend aussitôt aux mesures complexes.
 
 *Supposons que $\lambda$ (resp. $\mu$) soit somme d’une famille sommable $(\lambda_\alpha)_{\alpha \in A}$ (resp. $(\mu_\beta)_{\beta \in B}$) de mesures sur $S$ (resp. $T$). La famille $(\lambda_\alpha \otimes \mu_\beta)_{(\alpha, \beta) \in A \times B}$ est alors sommable, et sa somme est $\lambda \otimes \mu$.*
 
-En effet, soit $p$ l’encombrement $\sum_{\alpha, \beta} (\lambda_\alpha \otimes \mu_\beta)^*$; si $f \in \mathcal{F}_+(S)$, $g \in \mathcal{F}_+(T)$, on a évidemment $p(f \otimes g) = \lambda^*(f)\mu^*(g)$. La démonstration du cor. 1 montre alors que $p$ est localement borné, de sorte que la famille $(\lambda_\alpha \otimes \mu_\beta)$ est sommable (§ 1, n° 7, prop. 7). Sa somme $\eta$ est alors telle que $\eta^* = p$ (§ 1, n° 7, prop. 7), et la prop. 10 entraîne $\eta = \nu$.
+En effet, soit $p$ l’encombrement $\sum_{\alpha, \beta} (\lambda_\alpha \otimes \mu_\beta)^*$; si $f \in \mathscr{F}_+(S)$, $g \in \mathscr{F}_+(T)$, on a évidemment $p(f \otimes g) = \lambda^*(f)\mu^*(g)$. La démonstration du cor. 1 montre alors que $p$ est localement borné, de sorte que la famille $(\lambda_\alpha \otimes \mu_\beta)$ est sommable (§ 1, n° 7, prop. 7). Sa somme $\eta$ est alors telle que $\eta^* = p$ (§ 1, n° 7, prop. 7), et la prop. 10 entraîne $\eta = \nu$.
 
 ### 6. Intégration par rapport au produit de deux mesures
 
@@ -410,13 +410,13 @@ Etant donnés deux entiers $k \geqslant 1$ et $n \geqslant 1$, notons $J_{kn}$ l
 
 Passons à la démonstration de b). La fonction $I_f$ étant l’enveloppe supérieure de la famille filtrante croissante des fonctions $I^L_f$, où $L$ parcourt l’ensemble des parties compactes de $T$ (lemme 2), il nous suffit de montrer que les fonctions $I^L_f$ sont semi-continues inférieurement; la formule (9) se déduit alors de (6) en passant à l’enveloppe supérieure sur $L$ (§ 1, no 6, prop. 5).
 
-Soit donc $\mathcal{H}$ l’ensemble des fonctions semi-continues inférieurement positives $f$ sur $S \times T$ telles que $I^L_f$ soit semi-continue inférieurement pour tout compact $L$ de $T$. D’après la prop. 5 du § 1, no 6, la borne supérieure de tout ensemble filtrant croissant d’éléments de $\mathcal{H}$ appartient à $\mathcal{H}$. D’après le lemme 3, il nous suffit donc de prouver que la fonction caractéristique d’un ouvert $W$ de $S \times T$ appartient à $\mathcal{H}$. De plus, d’après la définition de la topologie produit sur $S \times T$, l’ouvert $W$ est réunion d’une famille filtrante croissante $(W_\alpha)_{\alpha \in A}$ d’ouverts de la forme
+Soit donc $\mathscr{H}$ l’ensemble des fonctions semi-continues inférieurement positives $f$ sur $S \times T$ telles que $I^L_f$ soit semi-continue inférieurement pour tout compact $L$ de $T$. D’après la prop. 5 du § 1, no 6, la borne supérieure de tout ensemble filtrant croissant d’éléments de $\mathscr{H}$ appartient à $\mathscr{H}$. D’après le lemme 3, il nous suffit donc de prouver que la fonction caractéristique d’un ouvert $W$ de $S \times T$ appartient à $\mathscr{H}$. De plus, d’après la définition de la topologie produit sur $S \times T$, l’ouvert $W$ est réunion d’une famille filtrante croissante $(W_\alpha)_{\alpha \in A}$ d’ouverts de la forme
 
 $$
 W = \bigcup_{1 \leq i \leq n} (U_i \times V_i)
 $$
 
-où les $U_i$ sont ouverts dans $S$ et les $V_i$ ouverts dans $T$; d’après les remarques faites plus haut, il nous suffit de montrer que la fonction caractéristique d’un tel ouvert appartient à $\mathcal{H}$. Soient alors $s \in S$, et $U$ l’intersection de la famille (éventuellement vide) formée des ouverts $U_i$ contenant $s$; on voit immédiatement que $\varphi_W(s, t) \leq \varphi_W(s', t)$ pour tout $s' \in U$ et tout $t \in T$, d’où par intégration $I^L_{\varphi_W}(s) \leq I^L_{\varphi_W}(s')$ pour tout $s' \in U$. Par conséquent $I^L_{\varphi_W}$ est semi-continue inférieurement, et la proposition est établie.
+où les $U_i$ sont ouverts dans $S$ et les $V_i$ ouverts dans $T$; d’après les remarques faites plus haut, il nous suffit de montrer que la fonction caractéristique d’un tel ouvert appartient à $\mathscr{H}$. Soient alors $s \in S$, et $U$ l’intersection de la famille (éventuellement vide) formée des ouverts $U_i$ contenant $s$; on voit immédiatement que $\varphi_W(s, t) \leq \varphi_W(s', t)$ pour tout $s' \in U$ et tout $t \in T$, d’où par intégration $I^L_{\varphi_W}(s) \leq I^L_{\varphi_W}(s')$ pour tout $s' \in U$. Par conséquent $I^L_{\varphi_W}$ est semi-continue inférieurement, et la proposition est établie.
 
 #### Corollaire 1 {#int-ix-s2-lem-3-cor-1 .statement}
 
@@ -462,13 +462,13 @@ Supposons que $\mu$ soit portée par une partie compacte $L$ de $T$; alors, on a
 
 #### Remarque {#int-ix-s2-n6-rem-1 .statement}
 
-Soient $(K_\alpha)_{\alpha \in A}$ un concassage de $S$ pour $\lambda$ et $M = S - \bigcup_{\alpha \in A} K_\alpha$; définissons de manière analogue $(L_\beta)_{\beta \in B}$ et $N$ pour la mesure $\mu$ sur $T$. On note $S'$ l’espace localement compact somme des sous-espaces $K_\alpha$ de $S$ et de l’espace discret $M$; l’espace $T'$ est défini de manière analogue, et l’on pose $X' = S' \times T'$. L’espace localement compact $X'$ est somme de la famille $(K_\alpha \times L_\beta)_{(\alpha, \beta) \in A \times B}$ de sous-espaces compacts de $X$, et d’un sous-espace $P = (M \times T) \cup (S \times N)$ qui est une partie localement $\nu$-négligeable de $X$ (on notera que $P$ n’est pas un espace discret en général). On a vu dans le Scholie du $§ 1$, n° 8 qu’il existe une mesure $\lambda'$ sur $S'$ telle que les fonctions mesurables, l’intégrale supérieure essentielle des fonctions positives, les fonctions essentiellement intégrables et leurs intégrales soient les mêmes pour $\lambda$ et $\lambda'$. Associons la mesure $\mu'$ sur $T'$ à $\mu$ et la mesure $\nu'$ sur $X'$ à $\nu$, conformément au Scholie cité; on voit immédiatement que l’on a $\nu'(f \otimes g) = \lambda'(f) \mu'(g)$ pour $f \in \mathcal{F}_+(S)$ et $g \in \mathcal{F}_+(T)$; on a donc $\nu' = \lambda' \otimes \mu'$ d’après la prop. 10 du n° 5. Comme la topologie de $X'$ est plus fine que celle de $X$, toute fonction $\nu$-modérée est $\nu'$-modérée. Ce procédé permet d’étendre sans nouvelle démonstration le th. de Lebesgue–Fubini (chap. V, 2e éd., § 8, n° 4, th. 1) à la situation présente.
+Soient $(K_\alpha)_{\alpha \in A}$ un concassage de $S$ pour $\lambda$ et $M = S - \bigcup_{\alpha \in A} K_\alpha$; définissons de manière analogue $(L_\beta)_{\beta \in B}$ et $N$ pour la mesure $\mu$ sur $T$. On note $S'$ l’espace localement compact somme des sous-espaces $K_\alpha$ de $S$ et de l’espace discret $M$; l’espace $T'$ est défini de manière analogue, et l’on pose $X' = S' \times T'$. L’espace localement compact $X'$ est somme de la famille $(K_\alpha \times L_\beta)_{(\alpha, \beta) \in A \times B}$ de sous-espaces compacts de $X$, et d’un sous-espace $P = (M \times T) \cup (S \times N)$ qui est une partie localement $\nu$-négligeable de $X$ (on notera que $P$ n’est pas un espace discret en général). On a vu dans le Scholie du $§ 1$, n° 8 qu’il existe une mesure $\lambda'$ sur $S'$ telle que les fonctions mesurables, l’intégrale supérieure essentielle des fonctions positives, les fonctions essentiellement intégrables et leurs intégrales soient les mêmes pour $\lambda$ et $\lambda'$. Associons la mesure $\mu'$ sur $T'$ à $\mu$ et la mesure $\nu'$ sur $X'$ à $\nu$, conformément au Scholie cité; on voit immédiatement que l’on a $\nu'(f \otimes g) = \lambda'(f) \mu'(g)$ pour $f \in \mathscr{F}_+(S)$ et $g \in \mathscr{F}_+(T)$; on a donc $\nu' = \lambda' \otimes \mu'$ d’après la prop. 10 du n° 5. Comme la topologie de $X'$ est plus fine que celle de $X$, toute fonction $\nu$-modérée est $\nu'$-modérée. Ce procédé permet d’étendre sans nouvelle démonstration le th. de Lebesgue–Fubini (chap. V, 2e éd., § 8, n° 4, th. 1) à la situation présente.
 
 ### 7. Un résultat sur la désintégration des mesures
 
 #### Proposition 13 {#int-ix-s2-prop-13 .statement}
 
-Soient $X$ un espace topologique, $\nu$ une mesure modérée sur $X$, $p$ une application $\nu$-propre de $X$ dans un espace topologique $T$, et $\mu = p(\nu)$. On suppose que tout sous-espace compact de $X$ est métrisable. Il existe alors une application $t \mapsto \lambda_t$ de $T$ dans $\mathcal{M}_+(X)$ ayant les propriétés suivantes:
+Soient $X$ un espace topologique, $\nu$ une mesure modérée sur $X$, $p$ une application $\nu$-propre de $X$ dans un espace topologique $T$, et $\mu = p(\nu)$. On suppose que tout sous-espace compact de $X$ est métrisable. Il existe alors une application $t \mapsto \lambda_t$ de $T$ dans $\mathscr{M}_+(X)$ ayant les propriétés suivantes:
 a) pour tout $t \in T$, la mesure $\lambda_t$ est portée par $p^{-1}(t)$;
 b) pour toute fonction universellement mesurable$^{(1)}$ positive $f$ sur $X$, la fonction $t \mapsto \lambda_t^*(f)$ est universellement mesurable sur $T$ et l’on a
 
@@ -479,7 +479,7 @@ $$
 (1) On dit qu’une application d’un espace topologique $X$ dans un espace topologique $Y$ est universellement mesurable si elle est $\mu$-mesurable pour toute mesure $\mu$ sur $X$ (cf. chap. V, 2e éd., § 3, n° 4).
 
 c) l’ensemble des $t \in T$ tels que $\lambda_t(1) \neq 1$ est localement $\mu$-négligeable.
-De plus, si $t \mapsto \lambda'_t$ est une application de $T$ dans $\mathcal{M}_+(\mathbf{X})$ satisfaisant aux conditions a) et b), l’ensemble des $t \in T$ tels que $\lambda_t \neq \lambda'_t$ est localement $\mu$-négligeable.
+De plus, si $t \mapsto \lambda'_t$ est une application de $T$ dans $\mathscr{M}_+(\mathbf{X})$ satisfaisant aux conditions a) et b), l’ensemble des $t \in T$ tels que $\lambda_t \neq \lambda'_t$ est localement $\mu$-négligeable.
 Nous aurons besoin d’un résultat auxiliaire:
 
 #### Lemme 4 {#int-ix-s2-lem-4 .statement}
@@ -488,10 +488,10 @@ Soient $X$ un espace topologique, $\nu$ une mesure sur $X$ et $f$ une applicatio
 La démonstration est identique à celle de la prop. 7 du chap. V, 2e éd., § 3, n° 4, compte tenu de la prop. 10 du § 1, n° 8.
 Passons à la démonstration de la prop. 13.
 A) On suppose que $X$ est compact et métrisable et que $p$ est continue et surjective:
-L’espace $T$ est alors compact et métrisable (Top. gén., chap. IX, 3e éd., § 2, n° 10). D’après le th. 1 du chap. VI, § 3, n° 1, il existe une application vaguement $\mu$-mesurable et scalairement essentiellement $\mu$-intégrable $H : t \mapsto \eta_t$ de $T$ dans $\mathcal{M}_+(X)$ telle que $\nu = \int_T \eta_t \, d\mu(t)$ et que $\eta_t$ soit de masse totale 1 et portée par $p^{-1}(t)$ pour tout $t \in T$. Soit $(S_n)_{n \in \mathbf{N}}$ un concassage de $T$ pour $\mu$, tel que la restriction de $H$ à chacun des ensembles $S_n$ soit continue (§ 1, n° 8, prop. 10 et 11); on notera $\Lambda : t \mapsto \lambda_t$ l’application de $T$ dans $\mathcal{M}_+(X)$ égale à $H$ sur $S = \bigcup_{n \in \mathbf{N}} S_n$ et à 0 sur $T - S$. Il est clair que l’on a $\nu = \int_T \lambda_t \, d\mu(t)$ et que $\Lambda$ satisfait à la condition a) de l’énoncé; la formule (12) résulte de la prop. 5 du chap. V, 2e éd., § 3, n° 2.
+L’espace $T$ est alors compact et métrisable (Top. gén., chap. IX, 3e éd., § 2, n° 10). D’après le th. 1 du chap. VI, § 3, n° 1, il existe une application vaguement $\mu$-mesurable et scalairement essentiellement $\mu$-intégrable $H : t \mapsto \eta_t$ de $T$ dans $\mathscr{M}_+(X)$ telle que $\nu = \int_T \eta_t \, d\mu(t)$ et que $\eta_t$ soit de masse totale 1 et portée par $p^{-1}(t)$ pour tout $t \in T$. Soit $(S_n)_{n \in \mathbf{N}}$ un concassage de $T$ pour $\mu$, tel que la restriction de $H$ à chacun des ensembles $S_n$ soit continue (§ 1, n° 8, prop. 10 et 11); on notera $\Lambda : t \mapsto \lambda_t$ l’application de $T$ dans $\mathscr{M}_+(X)$ égale à $H$ sur $S = \bigcup_{n \in \mathbf{N}} S_n$ et à 0 sur $T - S$. Il est clair que l’on a $\nu = \int_T \lambda_t \, d\mu(t)$ et que $\Lambda$ satisfait à la condition a) de l’énoncé; la formule (12) résulte de la prop. 5 du chap. V, 2e éd., § 3, n° 2.
 Soit $\theta$ une mesure sur $T$; l’application $\Lambda$ est vaguement $\theta$-mesurable et scalairement essentiellement $\theta$-intégrable, donc aussi $\theta$-adéquate (chap. V, 2e éd., § 3, n° 1, prop. 2, b)). Soit $f$ une fonction positive universellement mesurable sur $X$; d’après la prop. 5 du chap. V, 2e éd., § 3, n° 2, appliquée à $\int \lambda_t d\theta(t)$ l’application $t \mapsto \lambda_t^*(f)$ est $\theta$-mesurable, donc universellement mesurable vu l’arbitraire de $\theta$.
 B) On suppose qu’il existe une partie compacte $X'$ de $X$ portant la mesure $\nu$ et telle que $p_{X'}$ soit continue:
-Posons alors $T' = p(X')$, et $p' = p_{X'}$; nous noterons $\nu'$ la mesure $\nu_{X'}$ et $\mu'$ la mesure image $p'(\nu')$ sur $T'$. Comme $p'$ est continue et surjective et que $X'$ est compact et métrisable, il existe d’après A) une application $\Lambda' : t' \mapsto \lambda'_{t'}$ de $T'$ dans $\mathcal{M}_+(X')$ satisfaisant aux conditions suivantes:
+Posons alors $T' = p(X')$, et $p' = p_{X'}$; nous noterons $\nu'$ la mesure $\nu_{X'}$ et $\mu'$ la mesure image $p'(\nu')$ sur $T'$. Comme $p'$ est continue et surjective et que $X'$ est compact et métrisable, il existe d’après A) une application $\Lambda' : t' \mapsto \lambda'_{t'}$ de $T'$ dans $\mathscr{M}_+(X')$ satisfaisant aux conditions suivantes:
 a') pour tout $t' \in T'$, la mesure $\lambda'_{t'}$ est portée par $X' \cap {p'}^{-1}(t')$;
 b') pour toute fonction positive universellement mesurable $f'$ sur $X'$, la fonction $t' \mapsto {\lambda'_{t'}}^*(f')$ est universellement mesurable sur $T'$ et l’on a
 $$
@@ -501,7 +501,7 @@ Soit $t \in T$; si $t$ appartient à $T'$, nous noterons $\lambda_t$ l’image d
 
 C) *Existence dans le cas général*:
 
-La mesure $\nu$ sur $X$ étant modérée, nous pouvons choisir un recouvrement $(\mathbf{U}_m)_{m \in \mathbf{N}}$ de $X$ formé d’ouverts $\nu$-intégrables. Soit par ailleurs $(X_n)_{n \in \mathbf{N}}$ un $\nu$-concassage de $X$ tel que la restriction de $p$ à chaque ensemble $X_n$ soit continue ($§ 1$, n° 8, prop. 10 et 11); on notera $\nu_n$ la mesure $\varphi_{X_n} \cdot \nu$ sur $X$ et $\mu_n$ son image par $p$. D’après B), il existe, pour tout entier $n \in \mathbf{N}$, une application $t \mapsto \alpha^n_t$ de $T$ dans $\mathcal{M}_+(X)$ satisfaisant aux conditions suivantes:
+La mesure $\nu$ sur $X$ étant modérée, nous pouvons choisir un recouvrement $(\mathbf{U}_m)_{m \in \mathbf{N}}$ de $X$ formé d’ouverts $\nu$-intégrables. Soit par ailleurs $(X_n)_{n \in \mathbf{N}}$ un $\nu$-concassage de $X$ tel que la restriction de $p$ à chaque ensemble $X_n$ soit continue ($§ 1$, n° 8, prop. 10 et 11); on notera $\nu_n$ la mesure $\varphi_{X_n} \cdot \nu$ sur $X$ et $\mu_n$ son image par $p$. D’après B), il existe, pour tout entier $n \in \mathbf{N}$, une application $t \mapsto \alpha^n_t$ de $T$ dans $\mathscr{M}_+(X)$ satisfaisant aux conditions suivantes:
 $a'')$ La mesure $\alpha^n_t$ est portée par $p^{-1}(t)$ pour tout $t \in T$.
 $b'')$ Si $f$ est une fonction positive universellement mesurable sur $X$, la fonction positive $t \mapsto (\alpha^n_t)^*(f)$ sur $T$ est universellement mesurable et l’on a
 
@@ -534,9 +534,9 @@ ce qui établit la relation $\mu_f = h_f \cdot \mu$.
 Faisant $f = 1$, on voit que la fonction $h_1 : t \mapsto \| \lambda_t \|$ est une densité de la mesure $\mu_1 = \mu$ par rapport à $\mu$, donc est égale à 1 localement $\mu$-presque partout sur $T$.
 
 E) Unicité:
-Soient $t \mapsto \lambda_t^i$ (pour $i = 1, 2$) deux applications de $T$ dans $\mathcal{M}_+(X)$ satisfaisant aux conditions a) et b) de l'énoncé. Comme dans C), choisissons un $\mu$-concassage $(X_n)_{n \in \mathbf{N}}$ de $X$ tel que $p_{X_n}$ soit continue pour tout $n \in \mathbf{N}$, et posons $N = X - \bigcup_{n \in \mathbf{N}} X_n$.
+Soient $t \mapsto \lambda_t^i$ (pour $i = 1, 2$) deux applications de $T$ dans $\mathscr{M}_+(X)$ satisfaisant aux conditions a) et b) de l'énoncé. Comme dans C), choisissons un $\mu$-concassage $(X_n)_{n \in \mathbf{N}}$ de $X$ tel que $p_{X_n}$ soit continue pour tout $n \in \mathbf{N}$, et posons $N = X - \bigcup_{n \in \mathbf{N}} X_n$.
 
-Pour tout entier $n \in \mathbf{N}$, choisissons un ensemble dénombrable $D_n$ de fonctions positives sur $X$, nulles hors de $X_n$, dont les restrictions à $X_n$ forment un ensemble dense dans l'espace normé $\mathcal{C}(X_n)$ (appliquer le th. 1 de Top. gén., chap. X, 2e éd., § 3, n° 3 à l'espace compact métrisable $X_n$). Nous poserons $D = \bigcup_{n \in \mathbf{N}} D_n$.
+Pour tout entier $n \in \mathbf{N}$, choisissons un ensemble dénombrable $D_n$ de fonctions positives sur $X$, nulles hors de $X_n$, dont les restrictions à $X_n$ forment un ensemble dense dans l'espace normé $\mathscr{C}(X_n)$ (appliquer le th. 1 de Top. gén., chap. X, 2e éd., § 3, n° 3 à l'espace compact métrisable $X_n$). Nous poserons $D = \bigcup_{n \in \mathbf{N}} D_n$.
 
 Soit $f \in D$; d'après D), les fonctions $t \mapsto (\lambda_t^1)^*(f)$ et $t \mapsto (\lambda_t^2)^*(f)$ sont des densités de la mesure $\mu_f$ par rapport à $\mu$, et il existe donc un ensemble localement $\mu$-négligeable $E_f$ dans $T$ tel que $(\lambda_t^1)^*(f) = (\lambda_t^2)^*(f)$ pour $t \in T - E_f$. De plus, d'après (12), l'ensemble $F_i$ des $t \in T$ tels que $(\lambda_t^i)^*(N) \neq 0$ est localement $\mu$-négligeable pour $i = 1, 2$. Comme $D$ est dénombrable, l'ensemble $G = (\bigcup_{f \in D} E_f) \cup F_1 \cup F_2$ est localement $\mu$-négligeable; pour $t \in T - G$ on a $(\lambda_t^1)^*(N) = (\lambda_t^2)^*(N) = 0$ et $(\lambda_t^1)_{X_n} = (\lambda_t^2)_{X_n}$, d'où $\lambda_t^1 = \lambda_t^2$ d'après la prop. 9 du § 1, n° 8.
 

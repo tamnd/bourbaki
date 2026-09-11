@@ -53,9 +53,9 @@ subsections:
       pdf_page: 316
 statements: 52
 exercises: 31
-content_sha256: 59ae08b2722925a6a198a4adf210da3a3eb4a8ed7bb17b1a44fcd6110338c92c
+content_sha256: fb87c6e60145d7b4b71c7496c3f182bb1184a4f74cee896a13b1fc640f7767a9
 translated_from: content/en/int/V/05_s5_measures_defined_by_numerical_densities.md
-source_content_sha256: 558c461f3e10e0b61d6e6a8d8129f54ba980ff5cc18f3a572913b450c90ee96e
+source_content_sha256: a6af753e0363e53ed203d1339626c47d280bd8e41fec91dee692edb693588182
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-57dece11
 glossary_version: 34
@@ -75,7 +75,7 @@ a) *Với mọi điểm $t \in T$, tồn tại một lân cận V của t sao ch
 
 b) *Hàm g là $\mu$-đo được và, với mọi tập compact $K \subset T$, $\int^* |g|\varphi_K\,d\mu < +\infty$.*
 
-c) *Với mọi hàm số $h \in \mathcal{K}(T)$, $gh$ là $\mu$-khả tích.*
+c) *Với mọi hàm số $h \in \mathscr{K}(T)$, $gh$ là $\mu$-khả tích.*
 
 Ta chứng minh rằng a) suy ra b); thật vậy, hàm g đo được theo nguyên lý địa phương hóa (Ch. IV, §5, No. 2, Mệnh đề 4). Mặt khác, với mọi $t \in K$ tồn tại, theo giả thiết, một lân cận $V_t$ của $t$ trong $T$ sao cho $g \varphi_{V_t}$ khả tích; do đó có thể phủ $K$ bởi một số hữu hạn các lân cận $V_i$ ($1 \leq i \leq n$) sao cho các hàm $g \varphi_{V_i}$ khả tích. Vì $|g| \varphi_K \leq \sum_{i=1}^n |g| \varphi_{V_i}$, nên $\int^* |g| \varphi_K \, d\mu < +\infty$.
 
@@ -87,20 +87,20 @@ Cuối cùng, c) suy ra a). Thật vậy, với mọi $t \in T$ hãy lấy $V$ l
 
 *Một hàm* $g$, *được định nghĩa địa phương hầu khắp nơi trong* $T$ *(đối với độ đo dương* $\mu$*), *với giá trị trong một không gian Banach* $F$ *(resp. in* $\overline{\mathbf{R}}$*), *được gọi là khả tích địa phương đối với* $\mu$ *(hay khả tích địa phương theo* $\mu$*) nếu nó thỏa mãn các điều kiện* a), b), c) *của Mệnh đề 1.* *Nếu* $\theta$ *là một độ đo phức, một hàm* $g$ *được định nghĩa địa phương* $\theta$*-hầu khắp nơi được gọi là khả tích địa phương theo* $\theta$ *nếu nó khả tích địa phương đối với độ đo dương* $|\theta|$.
 
-Nếu $g$ khả tích địa phương theo $\theta$, thì mọi hàm bằng $g$ địa phương hầu khắp nơi đều khả tích địa phương. Hiển nhiên tổng của hai hàm khả tích địa phương là khả tích địa phương. Các hàm nhận giá trị trong $F$, *được xác định khắp nơi* và khả tích địa phương đối với $\theta$, tạo thành một không gian vectơ ký hiệu $\mathcal{L}_{loc}^1(T, \theta; F)$; khi $F = \mathbf{R}$ hoặc $\mathbf{C}$, người ta thường lược bỏ nhắc đến $F$ nếu không có nhập nhằng. Không gian này luôn được trang bị (trừ khi có nói rõ ngược lại) tôpô được xác định bởi các nửa chuẩn $g \mapsto \int |g \varphi_K| \, d|\theta|$, trong đó $K$ chạy qua tập hợp các tập con compact của $T$. Không gian Hausdorff liên kết, tức thương của $\mathcal{L}_{loc}^1(T, \theta; F)$ theo không gian con $\mathcal{N}_F^\infty$ gồm các ánh xạ bằng không địa phương hầu khắp nơi, được ký hiệu là $L_{loc}^1(T, \theta; F)$. Các không gian $L_{loc}^1(T, \theta; F)$ và $L_{loc}^1(T, |\theta|; F)$ là như nhau.
+Nếu $g$ khả tích địa phương theo $\theta$, thì mọi hàm bằng $g$ địa phương hầu khắp nơi đều khả tích địa phương. Hiển nhiên tổng của hai hàm khả tích địa phương là khả tích địa phương. Các hàm nhận giá trị trong $F$, *được xác định khắp nơi* và khả tích địa phương đối với $\theta$, tạo thành một không gian vectơ ký hiệu $\mathscr{L}_{loc}^1(T, \theta; F)$; khi $F = \mathbf{R}$ hoặc $\mathbf{C}$, người ta thường lược bỏ nhắc đến $F$ nếu không có nhập nhằng. Không gian này luôn được trang bị (trừ khi có nói rõ ngược lại) tôpô được xác định bởi các nửa chuẩn $g \mapsto \int |g \varphi_K| \, d|\theta|$, trong đó $K$ chạy qua tập hợp các tập con compact của $T$. Không gian Hausdorff liên kết, tức thương của $\mathscr{L}_{loc}^1(T, \theta; F)$ theo không gian con $\mathscr{N}_F^\infty$ gồm các ánh xạ bằng không địa phương hầu khắp nơi, được ký hiệu là $L_{loc}^1(T, \theta; F)$. Các không gian $L_{loc}^1(T, \theta; F)$ và $L_{loc}^1(T, |\theta|; F)$ là như nhau.
 
 Có thể chứng minh rằng các không gian vectơ tôpô vừa định nghĩa là *đầy đủ* (Bài tập 31).
 
-Mọi hàm đo được $g$, tức bị chặn hầu khắp trên mọi tập compact, đều khả tích địa phương. Với mọi số $p$ sao cho $1 \leq p \leq +\infty$, mọi hàm $g \in \mathcal{L}_F^p$ đều khả tích địa phương; thật vậy, với mọi hàm $h \in \mathcal{H}(T)$, $h$ thuộc $\mathcal{L}^q$ (trong đó $q$ là số mũ liên hợp của $p$), do đó $gh$ là khả tích (Chương IV, §6, No. 4, Hệ quả 4 của Định lý 2).
+Mọi hàm đo được $g$, tức bị chặn hầu khắp trên mọi tập compact, đều khả tích địa phương. Với mọi số $p$ sao cho $1 \leq p \leq +\infty$, mọi hàm $g \in \mathscr{L}_F^p$ đều khả tích địa phương; thật vậy, với mọi hàm $h \in \mathscr{H}(T)$, $h$ thuộc $\mathscr{L}^q$ (trong đó $q$ là số mũ liên hợp của $p$), do đó $gh$ là khả tích (Chương IV, §6, No. 4, Hệ quả 4 của Định lý 2).
 
-Cho $F, G, H$ là ba không gian Banach, và $(u, v) \mapsto \Phi(u, v)$ là một ánh xạ song tuyến tính liên tục của $F \times G$ vào $H$. Nếu $f$ khả tích địa phương và nhận giá trị trong F, và nếu $g \in \mathcal{L}_G^\infty$, thì $\Phi(f, g)$ khả tích địa phương (Chương IV, §6, No. 4, Hệ quả 1 của Định lý 2).
+Cho $F, G, H$ là ba không gian Banach, và $(u, v) \mapsto \Phi(u, v)$ là một ánh xạ song tuyến tính liên tục của $F \times G$ vào $H$. Nếu $f$ khả tích địa phương và nhận giá trị trong F, và nếu $g \in \mathscr{L}_G^\infty$, thì $\Phi(f, g)$ khả tích địa phương (Chương IV, §6, No. 4, Hệ quả 1 của Định lý 2).
 
 ### 2. Các độ đo được xác định bởi mật độ số
 
-Cho $g$ là một hàm số dương được định nghĩa địa phương hầu khắp nơi theo $\mu$ trong T và khả tích địa phương theo $\mu$; khi đó tập các $t$ sao cho $g(t) = +\infty$ là một tập địa phương $\mu$-không đáng kể, vì $g \varphi_K$ là $\mu$-khả tích với mọi tập compact K (Chương IV, §2, No. 3, Mệnh đề 7). Bây giờ cho $g'$ là một hàm khả tích địa phương, dương và hữu hạn, bằng $g$ địa phương hầu khắp nơi theo $\mu$; đặt $\lambda'_t = g'(t) \varepsilon_t$. Ánh xạ $t \mapsto \lambda'_t$ của T vào $\mathcal{M}_+(T)$ là đo được yếu theo $\mu$ và khả tích theo vô hướng một cách thiết yếu (hay cũng vậy, cặp $(I, g')$, trong đó I là ánh xạ đồng nhất của T, là $\mu$-thích nghi); nguyên $\nu = \int \lambda'_t d\mu(t)$ không phụ thuộc vào hàm $g'$ cụ thể, bằng $g$ ở địa phương hầu khắp nơi, được dùng trong định nghĩa các độ đo $\lambda'_t$. Độ đo này $\nu$ được xác định bởi điều kiện
+Cho $g$ là một hàm số dương được định nghĩa địa phương hầu khắp nơi theo $\mu$ trong T và khả tích địa phương theo $\mu$; khi đó tập các $t$ sao cho $g(t) = +\infty$ là một tập địa phương $\mu$-không đáng kể, vì $g \varphi_K$ là $\mu$-khả tích với mọi tập compact K (Chương IV, §2, No. 3, Mệnh đề 7). Bây giờ cho $g'$ là một hàm khả tích địa phương, dương và hữu hạn, bằng $g$ địa phương hầu khắp nơi theo $\mu$; đặt $\lambda'_t = g'(t) \varepsilon_t$. Ánh xạ $t \mapsto \lambda'_t$ của T vào $\mathscr{M}_+(T)$ là đo được yếu theo $\mu$ và khả tích theo vô hướng một cách thiết yếu (hay cũng vậy, cặp $(I, g')$, trong đó I là ánh xạ đồng nhất của T, là $\mu$-thích nghi); nguyên $\nu = \int \lambda'_t d\mu(t)$ không phụ thuộc vào hàm $g'$ cụ thể, bằng $g$ ở địa phương hầu khắp nơi, được dùng trong định nghĩa các độ đo $\lambda'_t$. Độ đo này $\nu$ được xác định bởi điều kiện
 
 $$
-\int f(t)\,d\nu(t) = \int f(t)g(t)\,d\mu(t) \quad \text{cho } f \in \mathcal{K}(T).
+\int f(t)\,d\nu(t) = \int f(t)g(t)\,d\mu(t) \quad \text{cho } f \in \mathscr{K}(T).
 $$
 
 Nếu bây giờ $\theta$ là một phép đo phức, và nếu $u$ là một hàm phức (hay một hàm nhận giá trị trong $\overline{\mathbf{R}}$) được xác định địa phương $\theta$-hầu khắp nơi và địa phương khả tích đối với $\theta$, ta có thể viết
@@ -118,7 +118,7 @@ $$
 f \mapsto \int f(t)u(t)\,d\theta(t)
 $$
 
-trên $\mathcal{K}(T)$ là một phép đo phức.
+trên $\mathscr{K}(T)$ là một phép đo phức.
 
 #### Định nghĩa 2 {#int-v-s5-def-2 .statement}
 
@@ -150,29 +150,29 @@ Ta bắt đầu với một kết quả phụ trợ:
 
 #### Bổ đề 1 {#int-v-s5-lem-1 .statement}
 
-— *Cho $\theta$ là một phép đo phức, và cho $f$ là một phần tử của $\overline{\mathcal{L}}^1_C(T, \theta)$. Khi đó*
+— *Cho $\theta$ là một phép đo phức, và cho $f$ là một phần tử của $\overline{\mathscr{L}}^1_C(T, \theta)$. Khi đó*
 
 $$
-\langle|\theta|, |f|\rangle = \sup_{c \in \mathcal{K}_1} |\langle\theta, cf\rangle| = \sup_{c \in \mathcal{B}_1} |\langle\theta, cf\rangle|,
+\langle|\theta|, |f|\rangle = \sup_{c \in \mathscr{K}_1} |\langle\theta, cf\rangle| = \sup_{c \in \mathscr{B}_1} |\langle\theta, cf\rangle|,
 $$
 
-*trong đó $\mathcal{K}_1$ (tương ứng $\mathcal{B}_1$) ký hiệu tập hợp các hàm phức $c$, liên tục với giá compact (tương ứng Borel), sao cho $|c| \leq 1$.
+*trong đó $\mathscr{K}_1$ (tương ứng $\mathscr{B}_1$) ký hiệu tập hợp các hàm phức $c$, liên tục với giá compact (tương ứng Borel), sao cho $|c| \leq 1$.
 
-Trước hết xét trường hợp $f \in \mathcal{K}(T; \mathbf{C})$. Hiển nhiên
-
-$$
-\sup_{c \in \mathcal{K}_1} |\langle\theta, cf\rangle| \leq \sup_{c \in \mathcal{B}_1} |\langle\theta, cf\rangle| \leq \langle|\theta|, |f|\rangle
-$$
-
-(Ch. IV, §4, No. 2, Mệnh đề 2). Mặt khác, cho $g$ là một phần tử của $\mathcal{K}(T; \mathbf{C})$ sao cho $|g| \leq |f|$; $g$ là giới hạn đều của một dãy $(g_n)$ gồm các phần tử của $\mathcal{K}(T; \mathbf{C})$ có giá được chứa trong tập mở $U$ gồm các $t$ sao cho $f(t) \neq 0$, và rõ ràng có thể giả sử rằng $|g_n| \leq |f|$ với mọi $n$. Đặt $c_n(t) = g_n(t)/f(t)$ với $t \in U$, $c_n(t) = 0$ với $t \notin U$; khi đó $c_n \in \mathcal{K}_1$, $g = \lim_{n \to \infty} c_n f$, vì thế $|\langle\theta, g\rangle| = \lim_{n \to \infty} |\langle\theta, c_n f\rangle|$, và cuối cùng
+Trước hết xét trường hợp $f \in \mathscr{K}(T; \mathbf{C})$. Hiển nhiên
 
 $$
-\sup_{|g| \leq |f|, g \in \mathcal{K}(T; \mathbf{C})} |\langle\theta, g\rangle| \leq \sup_{c \in \mathcal{K}_1} |\langle\theta, cf\rangle|.
+\sup_{c \in \mathscr{K}_1} |\langle\theta, cf\rangle| \leq \sup_{c \in \mathscr{B}_1} |\langle\theta, cf\rangle| \leq \langle|\theta|, |f|\rangle
+$$
+
+(Ch. IV, §4, No. 2, Mệnh đề 2). Mặt khác, cho $g$ là một phần tử của $\mathscr{K}(T; \mathbf{C})$ sao cho $|g| \leq |f|$; $g$ là giới hạn đều của một dãy $(g_n)$ gồm các phần tử của $\mathscr{K}(T; \mathbf{C})$ có giá được chứa trong tập mở $U$ gồm các $t$ sao cho $f(t) \neq 0$, và rõ ràng có thể giả sử rằng $|g_n| \leq |f|$ với mọi $n$. Đặt $c_n(t) = g_n(t)/f(t)$ với $t \in U$, $c_n(t) = 0$ với $t \notin U$; khi đó $c_n \in \mathscr{K}_1$, $g = \lim_{n \to \infty} c_n f$, vì thế $|\langle\theta, g\rangle| = \lim_{n \to \infty} |\langle\theta, c_n f\rangle|$, và cuối cùng
+
+$$
+\sup_{|g| \leq |f|, g \in \mathscr{K}(T; \mathbf{C})} |\langle\theta, g\rangle| \leq \sup_{c \in \mathscr{K}_1} |\langle\theta, cf\rangle|.
 $$
 
 Người ta kết luận bằng cách nhận thấy rằng vế thứ nhất của bất đẳng thức này bằng $\langle |\theta|, |f| \rangle$ (Ch. III, §1, No. 6, công thức (12)).
 
-Tiếp theo, ký hiệu bởi $f$ một phần tử của $\overline{\mathcal{L}}_C^1(\theta)$, và ta hãy chứng minh rằng (4) lại đúng: chỉ cần kiểm tra rằng ba vế của quan hệ này phụ thuộc liên tục vào $f$ theo tôpô của $\overline{\mathcal{L}}_C^1(\theta)$, vì chúng trùng nhau trên không gian con trù mật $\mathcal{K}(T; \mathbf{C})$. Điều này suy ra ngay từ các bất đẳng thức sau, trong đó $f$ và $f'$ ký hiệu các phần tử của $\overline{\mathcal{L}}_C^1(\theta)$:
+Tiếp theo, ký hiệu bởi $f$ một phần tử của $\overline{\mathscr{L}}_C^1(\theta)$, và ta hãy chứng minh rằng (4) lại đúng: chỉ cần kiểm tra rằng ba vế của quan hệ này phụ thuộc liên tục vào $f$ theo tôpô của $\overline{\mathscr{L}}_C^1(\theta)$, vì chúng trùng nhau trên không gian con trù mật $\mathscr{K}(T; \mathbf{C})$. Điều này suy ra ngay từ các bất đẳng thức sau, trong đó $f$ và $f'$ ký hiệu các phần tử của $\overline{\mathscr{L}}_C^1(\theta)$:
 
 $$
 |\langle |\theta|, |f| \rangle - \langle |\theta|, |f'| \rangle| \leq \langle |\theta|, |f - f'| \rangle = \overline{N}_1(f - f')
@@ -181,12 +181,12 @@ $$
 |\langle \theta, cf \rangle - \langle \theta, cf' \rangle| \leq \langle |\theta|, |c||f - f'| \rangle \leq \overline{N}_1(f - f')
 $$
 
-với mọi $c \in \mathcal{B}_1$. Bổ đề như vậy đã được thiết lập.
+với mọi $c \in \mathscr{B}_1$. Bổ đề như vậy đã được thiết lập.
 
-Chuyển sang chứng minh Mệnh đề 2, ta áp dụng bổ đề cho hàm số $uh$, trong đó $h$ thuộc $\mathcal{K}_+(T)$. Suy ra:
+Chuyển sang chứng minh Mệnh đề 2, ta áp dụng bổ đề cho hàm số $uh$, trong đó $h$ thuộc $\mathscr{K}_+(T)$. Suy ra:
 
 $$
-\langle |\theta|, |uh| \rangle = \sup_{c \in \mathcal{K}_1} |\langle \theta, cuh \rangle| = \sup_{c \in \mathcal{K}_1} |\langle u \cdot \theta, ch \rangle| = \langle |u \cdot \theta|, h \rangle .
+\langle |\theta|, |uh| \rangle = \sup_{c \in \mathscr{K}_1} |\langle \theta, cuh \rangle| = \sup_{c \in \mathscr{K}_1} |\langle u \cdot \theta, ch \rangle| = \langle |u \cdot \theta|, h \rangle .
 $$
 
 Tuy nhiên, vế thứ nhất cũng bằng
@@ -305,11 +305,11 @@ $$
 $$
 và ta nói rằng $\int_A f \, d\mu$ là *tích phân của* $f$ *trên* $A$ (hay *mở rộng đến* $A$). Nếu $f$ là một hàm số $\geqslant 0$ xác định trên $B \supset A$, ta định nghĩa tương tự $\int_A^* f \, d\mu$ và $\int_A^\bullet f \, d\mu$. Cuối cùng, một hàm số $g$ xác định trên $B \supset A$ được gọi là *khả tích địa phương* theo $\mu$ *trên* $A$ nếu một mở rộng $\overline{g}$ lên $T$ của hạn chế của $g$ lên $A$ là khả tích địa phương theo $\nu$: điều này tương đương với việc nói rằng, với mọi tập con compact $K$ của $T$, $\overline{g} \varphi_{K \cap A}$ là $\mu$-khả tích.
 
-*Cho* $(\lambda_\alpha)_{\alpha \in A}$ *là một họ các độ đo dương trên* $T$, *có hướng theo quan hệ* $\leqslant$, *thừa nhận trong* $\mathcal{M}(T)$ *một supremum* $\lambda$. *Để một hàm số trị dương* $g$ *địa phương khả tích theo* $\lambda$, *cần và đủ rằng* $g$ *địa phương khả tích theo* $\lambda_\alpha$ *với mọi* $\alpha \in A$ *và rằng họ* $(g \cdot \lambda_\alpha)$ *bị chặn trên trong* $\mathcal{M}(T)$; *trong trường hợp này,
+*Cho* $(\lambda_\alpha)_{\alpha \in A}$ *là một họ các độ đo dương trên* $T$, *có hướng theo quan hệ* $\leqslant$, *thừa nhận trong* $\mathscr{M}(T)$ *một supremum* $\lambda$. *Để một hàm số trị dương* $g$ *địa phương khả tích theo* $\lambda$, *cần và đủ rằng* $g$ *địa phương khả tích theo* $\lambda_\alpha$ *với mọi* $\alpha \in A$ *và rằng họ* $(g \cdot \lambda_\alpha)$ *bị chặn trên trong* $\mathscr{M}(T)$; *trong trường hợp này,
 $$
 g \cdot \lambda = \sup_{\alpha \in A} g \cdot \lambda_\alpha.
 $$
-Rõ ràng điều kiện là cần. Ngược lại, giả sử rằng $g$ địa phương khả tích đối với từng độ đo $\lambda_\alpha$ và rằng họ $(g \cdot \lambda_\alpha)_{\alpha \in A}$ bị chặn trên; ký hiệu supremum của nó là $\lambda'$. Khi đó hàm $g$ là $\lambda$-đo được (§ 1, No. 4, Hệ quả 2 của Mệnh đề 11); hơn nữa, với mọi hàm $h \in \mathcal{K}_+(T)$,
+Rõ ràng điều kiện là cần. Ngược lại, giả sử rằng $g$ địa phương khả tích đối với từng độ đo $\lambda_\alpha$ và rằng họ $(g \cdot \lambda_\alpha)_{\alpha \in A}$ bị chặn trên; ký hiệu supremum của nó là $\lambda'$. Khi đó hàm $g$ là $\lambda$-đo được (§ 1, No. 4, Hệ quả 2 của Mệnh đề 11); hơn nữa, với mọi hàm $h \in \mathscr{K}_+(T)$,
 $$
 \int^\bullet (hg) \, d\lambda = \sup_{\alpha \in A} \int^\bullet (hg) \, d\lambda_\alpha = \sup_{\alpha \in A} \int^\bullet h \, d(g \cdot \lambda_\alpha) = \int^\bullet h \, d\lambda'
 $$
@@ -333,17 +333,17 @@ $$
 g \cdot \mu = \sum_{\alpha \in A} g_\alpha \cdot \mu.
 $$
 
-It là rõ ràng rằng $g$ là $\mu$-đo được (Chương IV, §5, No. 2, Mệnh đề 4 và No. 4, Hệ quả 1 của Định lý 2). Để $g$ khả tích địa phương theo $\mu$, do đó cần và đủ rằng $\mu^\bullet(gf)$ hữu hạn với mọi $f \in \mathcal{H}_+(T)$. Bây giờ, vì tập các $\alpha \in A$ sao cho $g_\alpha f \neq 0$ là đếm được, ta có $\mu^\bullet(gf) = \sum_{\alpha \in A} \mu^\bullet(g_\alpha f)$ (§1, No. 1, Hệ quả của Mệnh đề 2). Đặt $\nu_\alpha = g_\alpha \cdot \mu$; điều kiện $\mu^\bullet(gf) < +\infty$ tương đương với điều kiện $\sum_{\alpha \in A} \nu_\alpha(f) < +\infty$: nói cách khác, $g$ khả tích địa phương theo $\mu$ khi và chỉ khi họ $(\nu_\alpha)$ khả tổng. Ký hiệu tổng của họ này là $\nu$, phép tính trên cho đẳng thức $\nu(f) = \mu^\bullet(gf)$, đẳng thức này tương đương với (8).
+It là rõ ràng rằng $g$ là $\mu$-đo được (Chương IV, §5, No. 2, Mệnh đề 4 và No. 4, Hệ quả 1 của Định lý 2). Để $g$ khả tích địa phương theo $\mu$, do đó cần và đủ rằng $\mu^\bullet(gf)$ hữu hạn với mọi $f \in \mathscr{H}_+(T)$. Bây giờ, vì tập các $\alpha \in A$ sao cho $g_\alpha f \neq 0$ là đếm được, ta có $\mu^\bullet(gf) = \sum_{\alpha \in A} \mu^\bullet(g_\alpha f)$ (§1, No. 1, Hệ quả của Mệnh đề 2). Đặt $\nu_\alpha = g_\alpha \cdot \mu$; điều kiện $\mu^\bullet(gf) < +\infty$ tương đương với điều kiện $\sum_{\alpha \in A} \nu_\alpha(f) < +\infty$: nói cách khác, $g$ khả tích địa phương theo $\mu$ khi và chỉ khi họ $(\nu_\alpha)$ khả tổng. Ký hiệu tổng của họ này là $\nu$, phép tính trên cho đẳng thức $\nu(f) = \mu^\bullet(gf)$, đẳng thức này tương đương với (8).
 
 #### Hệ quả {#int-v-s5-n4-cor-2 .statement}
 
-— Cho $(g_\alpha)$ là một dãy các hàm số thực khả tích địa phương theo $\mu$, sao cho dãy các độ đo $g_n \cdot \mu$ là tăng. Để dãy này có một cận trên trong không gian vectơ có thứ tự $\mathcal{M}(T)$ của các độ đo thực trên T, cần và đủ rằng hàm số $g = \sup g_n$ khả tích địa phương theo $\mu$; khi đó cận trên đúng trong $\mathcal{M}(T)$ của dãy $(g_n \cdot \mu)$ là độ đo $g \cdot \mu$.
+— Cho $(g_\alpha)$ là một dãy các hàm số thực khả tích địa phương theo $\mu$, sao cho dãy các độ đo $g_n \cdot \mu$ là tăng. Để dãy này có một cận trên trong không gian vectơ có thứ tự $\mathscr{M}(T)$ của các độ đo thực trên T, cần và đủ rằng hàm số $g = \sup g_n$ khả tích địa phương theo $\mu$; khi đó cận trên đúng trong $\mathscr{M}(T)$ của dãy $(g_n \cdot \mu)$ là độ đo $g \cdot \mu$.
 
 Chỉ cần áp dụng Mệnh đề 6 cho các hàm số (dương địa phương hầu khắp nơi) $g'_n = g_{n+1} - g_n$.
 
 #### Mệnh đề 7 {#int-v-s5-prop-7 .statement}
 
-— Cho X là một không gian compact địa phương đếm được ở vô cùng, và cho $t \mapsto \lambda_t$ là một ánh xạ $\mu$-thích hợp của T vào $\mathcal{M}_+(X)$.
+— Cho X là một không gian compact địa phương đếm được ở vô cùng, và cho $t \mapsto \lambda_t$ là một ánh xạ $\mu$-thích hợp của T vào $\mathscr{M}_+(X)$.
 
 Cho $g$ là một hàm số dương xác định trên $X$, khả tích địa phương đối với độ đo $\nu = \int \lambda_t d\mu(t)$. Khi đó tập các $t \in T$ sao cho $g$ không khả tích địa phương theo $\lambda_t$ là không đáng kể địa phương đối với $\mu$, ánh xạ $t \mapsto g \cdot \lambda_t$ (được định nghĩa địa phương $\mu$-hầu khắp nơi) là $\mu$-thích hợp, và
 
@@ -357,7 +357,7 @@ $$
 \int^\bullet h d(g \cdot \nu) = \int^\bullet (gh) d\nu = \int^\bullet d\mu(t) \int^\bullet (gh) d\lambda_t = \int^\bullet d\mu(t) \int^\bullet h d(g \cdot \lambda_t).
 $$
 
-Công thức này và Mệnh đề 5 của § 3, Số 2 trước hết chỉ ra (khi lấy $h \in \mathcal{K}_+(X)$) rằng ánh xạ $t \mapsto g \cdot \lambda_t$ là khả tích thiết yếu theo vô hướng đối với $\mu$, và tích phân của nó là $g \cdot \nu$; nói cách khác, hệ thức (9) đúng. Tiếp theo, thay $\mu$ bởi một độ đo dương $\mu' \leq \mu$, và lấy $h$ là một hàm nửa liên tục dưới dương: từ các hệ thức này suy ra ngay rằng $t \mapsto g \cdot \lambda_t$ là $\mu$-thích đáng (§ 3, Số 1, Định nghĩa 1).
+Công thức này và Mệnh đề 5 của § 3, Số 2 trước hết chỉ ra (khi lấy $h \in \mathscr{K}_+(X)$) rằng ánh xạ $t \mapsto g \cdot \lambda_t$ là khả tích thiết yếu theo vô hướng đối với $\mu$, và tích phân của nó là $g \cdot \nu$; nói cách khác, hệ thức (9) đúng. Tiếp theo, thay $\mu$ bởi một độ đo dương $\mu' \leq \mu$, và lấy $h$ là một hàm nửa liên tục dưới dương: từ các hệ thức này suy ra ngay rằng $t \mapsto g \cdot \lambda_t$ là $\mu$-thích đáng (§ 3, Số 1, Định nghĩa 1).
 
 #### Mệnh đề 8 {#int-v-s5-prop-8 .statement}
 
@@ -368,7 +368,7 @@ g_2 \cdot \theta_1 = g_2 \cdot (g_1 \cdot \theta) = (g_2 g_1) \cdot \theta
 $$
 ('công thức tính kết hợp').
 
-Theo hệ quả của Prop. 4, nói rằng $g_2$ là $\theta_1$-đo được là tương đương với nói rằng $g_2 g_1$ là $\theta$-đo được. Giả sử điều kiện này được thỏa mãn. Với mọi hàm $f \in \mathcal{K}_+(T)$, nhờ các Mệnh đề 2 và 3, ta có
+Theo hệ quả của Prop. 4, nói rằng $g_2$ là $\theta_1$-đo được là tương đương với nói rằng $g_2 g_1$ là $\theta$-đo được. Giả sử điều kiện này được thỏa mãn. Với mọi hàm $f \in \mathscr{K}_+(T)$, nhờ các Mệnh đề 2 và 3, ta có
 
 $$
 \int^\bullet |g_2| f d|\theta_1| = \int^\bullet |g_2| f |g_1| d|\theta| = \int^\bullet |g_2 g_1| f d|\theta|.
@@ -398,22 +398,22 @@ Rõ ràng 1) kéo theo 2) (Hệ quả 1 của Mệnh đề 3), và 2) kéo theo 
 
 — *Cho $\alpha$ là một độ đo dương bị chặn trên $T$, và $\beta$ là một độ đo thực trên $T$ sao cho $|\beta| \leq M \alpha$, trong đó $M$ là một hằng số dương. Khi đó, tồn tại một hàm thực $u$, khả tích theo $\alpha$, sao cho $\beta = u \cdot \alpha$*.
 
-Cho $g$ là một phần tử của không gian $\mathcal{L}_\mathbf{R}^2(T, \alpha)$; $g$ là $\beta$-đo được và $\int^\bullet |g|^2 \, d|\beta| \leq M \int^\bullet |g|^2 \, d\alpha < +\infty$. Vì vậy hàm $g$ thuộc $\mathcal{L}^2(T, |\beta|)$, và cũng thuộc $\mathcal{L}^1(T, |\beta|)$ vì $\beta$ bị chặn. Theo bất đẳng thức Cauchy–Schwarz,
+Cho $g$ là một phần tử của không gian $\mathscr{L}_\mathbf{R}^2(T, \alpha)$; $g$ là $\beta$-đo được và $\int^\bullet |g|^2 \, d|\beta| \leq M \int^\bullet |g|^2 \, d\alpha < +\infty$. Vì vậy hàm $g$ thuộc $\mathscr{L}^2(T, |\beta|)$, và cũng thuộc $\mathscr{L}^1(T, |\beta|)$ vì $\beta$ bị chặn. Theo bất đẳng thức Cauchy–Schwarz,
 
 $$
 |\beta(g)|^2 \leq \left( \int |g| \, d|\beta| \right)^2 \leq \left( \int d|\beta| \right) \left( \int |g|^2 \, d|\beta| \right) \leq M^2 \alpha(1) \, \alpha(|g|^2).
 $$
 
-Ánh xạ $g \mapsto \beta(g)$ do đó là một dạng tuyến tính liên tục trên $\mathcal{L}^2(T, \alpha)$. Vì không gian Hausdorff gắn với $\mathcal{L}^2(T, \alpha)$ là một không gian Hilbert, nên tồn tại (TVS, Ch. V, § 1, No. 7, Định lý 3) một hàm thực $u \in \mathcal{L}^2(T, \alpha)$, do đó cũng thuộc $\mathcal{L}^1(T, \alpha)$, sao cho $\beta(g) = \alpha(ug)$ với mọi $g \in \mathcal{L}^2(T, \alpha)$. Áp dụng quan hệ này cho $g \in \mathcal{K}(T)$, ta thấy rằng $\beta = u \cdot \alpha$.
+Ánh xạ $g \mapsto \beta(g)$ do đó là một dạng tuyến tính liên tục trên $\mathscr{L}^2(T, \alpha)$. Vì không gian Hausdorff gắn với $\mathscr{L}^2(T, \alpha)$ là một không gian Hilbert, nên tồn tại (TVS, Ch. V, § 1, No. 7, Định lý 3) một hàm thực $u \in \mathscr{L}^2(T, \alpha)$, do đó cũng thuộc $\mathscr{L}^1(T, \alpha)$, sao cho $\beta(g) = \alpha(ug)$ với mọi $g \in \mathscr{L}^2(T, \alpha)$. Áp dụng quan hệ này cho $g \in \mathscr{K}(T)$, ta thấy rằng $\beta = u \cdot \alpha$.
 
 #### Bổ đề 3 {#int-v-s5-lem-3 .statement}
 
 — *Giả sử độ đo dương $\nu$ sao cho mọi tập compact $\mu$-không đáng kể đều $\nu$-không đáng kể. Gọi $\mathfrak{K}$ là tập hợp các tập compact $K$ của $T$ có tính chất sau:*
 
 (11) Tồn tại một hằng số $M \geq 0$ sao cho $\varphi_K \cdot \nu \leq M \varphi_K \cdot \mu$.
-Khi đó tập $\mathcal{K}$ trù mật trong $T$.
+Khi đó tập $\mathscr{K}$ trù mật trong $T$.
 
-Nếu $K$ thỏa mãn (11), và nếu $A$ là một tập Borel được chứa trong $K$, thì suy ra ngay từ Mệnh đề 8 rằng $\varphi_A \cdot \nu \leq M \varphi_A \cdot \mu$; từ đó, ta suy ra rằng hợp của hai phần tử $K, K'$ của $\mathcal{K}$ thuộc $\mathcal{K}$ vì $\varphi_{K \cup K'} = \varphi_K + \varphi_A$, trong đó $A = K' \cap \complement K$. Để chứng minh bổ đề, còn lại phải chứng minh rằng mọi tập compact $L$ sao cho $\mu(L) > 0$ đều chứa một tập compact $K \in \mathcal{K}$ sao cho $\mu(K) > 0$ (Ch. IV, §5, No. 8, Mệnh đề 12). Chọn một số $M > \nu(L)/\mu(L)$ và áp dụng Bổ đề 1 cho độ đo dương bị chặn $\alpha = \varphi_L \cdot (\nu + M \mu)$ và độ đo $\beta = \varphi_L \cdot (\nu - M \mu)$. Nếu cần, thay hàm $u$ sao cho $\beta = u \cdot \alpha$ bằng một hàm bằng nó ở mọi nơi trừ một tập $\alpha$-gần như khắp, ta có thể giả sử rằng $u$ là đo được một cách phổ dụng (§3, No. 4, Mệnh đề 7) và bằng không ở ngoài $L$. Tập $H$ gồm các $t \in T$ sao cho $u(t) < 0$, vốn được chứa trong $L$, không thể là không đáng kể theo $\mu$, vì khi đó nó sẽ là không đáng kể theo $\nu$ (theo nhận xét đã nêu ở đầu chứng minh của Định lý 2), do đó là không đáng kể theo $\alpha$, và ta sẽ có $\beta(L) > 0$, điều này mâu thuẫn với việc chọn $M$. Gọi $K$ là một tập compact được chứa trong $H$, sao cho $\mu(K) > 0$; ta sẽ chứng minh rằng $K \in \mathcal{K}$, điều này sẽ hoàn tất chứng minh bổ đề. Theo Mệnh đề 8,
+Nếu $K$ thỏa mãn (11), và nếu $A$ là một tập Borel được chứa trong $K$, thì suy ra ngay từ Mệnh đề 8 rằng $\varphi_A \cdot \nu \leq M \varphi_A \cdot \mu$; từ đó, ta suy ra rằng hợp của hai phần tử $K, K'$ của $\mathscr{K}$ thuộc $\mathscr{K}$ vì $\varphi_{K \cup K'} = \varphi_K + \varphi_A$, trong đó $A = K' \cap \complement K$. Để chứng minh bổ đề, còn lại phải chứng minh rằng mọi tập compact $L$ sao cho $\mu(L) > 0$ đều chứa một tập compact $K \in \mathscr{K}$ sao cho $\mu(K) > 0$ (Ch. IV, §5, No. 8, Mệnh đề 12). Chọn một số $M > \nu(L)/\mu(L)$ và áp dụng Bổ đề 1 cho độ đo dương bị chặn $\alpha = \varphi_L \cdot (\nu + M \mu)$ và độ đo $\beta = \varphi_L \cdot (\nu - M \mu)$. Nếu cần, thay hàm $u$ sao cho $\beta = u \cdot \alpha$ bằng một hàm bằng nó ở mọi nơi trừ một tập $\alpha$-gần như khắp, ta có thể giả sử rằng $u$ là đo được một cách phổ dụng (§3, No. 4, Mệnh đề 7) và bằng không ở ngoài $L$. Tập $H$ gồm các $t \in T$ sao cho $u(t) < 0$, vốn được chứa trong $L$, không thể là không đáng kể theo $\mu$, vì khi đó nó sẽ là không đáng kể theo $\nu$ (theo nhận xét đã nêu ở đầu chứng minh của Định lý 2), do đó là không đáng kể theo $\alpha$, và ta sẽ có $\beta(L) > 0$, điều này mâu thuẫn với việc chọn $M$. Gọi $K$ là một tập compact được chứa trong $H$, sao cho $\mu(K) > 0$; ta sẽ chứng minh rằng $K \in \mathscr{K}$, điều này sẽ hoàn tất chứng minh bổ đề. Theo Mệnh đề 8,
 
 $$
 \varphi_K \cdot (\nu - M \mu) = \varphi_K \cdot \beta = \varphi_K \cdot (u \cdot \alpha) = (\varphi_K u) \cdot \alpha .
@@ -421,7 +421,7 @@ $$
 
 Hàm $\varphi_K u$ là âm, do đó quả thật ta có $\varphi_K \cdot \nu \leq M \varphi_K \cdot \mu$.
 
-Bây giờ ta hãy hoàn tất chứng minh Định lý 2. Giả sử điều kiện 3) được thỏa và định nghĩa $\mathcal{K}$ như trong Bổ đề 3. Cho $(K_\alpha)_{\alpha \in A}$ là một họ địa phương đếm được các phần tử từng đôi một rời nhau của $\mathcal{K}$, sao cho tập $N = T - \bigcup_{\alpha \in A} K_\alpha$ là không đáng kể theo $\mu$ một cách địa phương (Ch. IV, §5, No. 9, Mệnh đề 14); vì họ $(K_\alpha)$ là địa phương đếm được, nên $N$ là đo được một cách phổ dụng và do đó là không đáng kể theo $\nu$ một cách địa phương. Đặt $\mu_\alpha = \varphi_{K_\alpha} \cdot \mu$, $\nu_\alpha = \varphi_{K_\alpha} \cdot \nu$; vì các hàm $\varphi_{K_\alpha}$ tạo thành một họ địa phương đếm được, có tổng bằng 1 gần như khắp một cách địa phương đối với $\mu$ và đối với $\nu$, Mệnh đề 6 suy ra rằng $\mu = \sum_{\alpha \in A} \mu_\alpha$, $\nu = \sum_{\alpha \in A} \nu_\alpha$. Mặt khác, theo định nghĩa của $\mathcal{K}$, với mọi $\alpha$ tồn tại một hằng số $M_\alpha$ sao cho $\nu_\alpha \leq M_\alpha \mu_\alpha$; do đó Bổ đề 2 suy ra sự tồn tại của một hàm $g_\alpha$, mà ta có thể giả sử bằng không ở ngoài $K_\alpha$ và dương (Hệ quả 3 của Mệnh đề 3), sao cho $\nu_\alpha = g_\alpha \cdot \mu_\alpha$. Do đó (No. 4, Mệnh đề 8)
+Bây giờ ta hãy hoàn tất chứng minh Định lý 2. Giả sử điều kiện 3) được thỏa và định nghĩa $\mathscr{K}$ như trong Bổ đề 3. Cho $(K_\alpha)_{\alpha \in A}$ là một họ địa phương đếm được các phần tử từng đôi một rời nhau của $\mathscr{K}$, sao cho tập $N = T - \bigcup_{\alpha \in A} K_\alpha$ là không đáng kể theo $\mu$ một cách địa phương (Ch. IV, §5, No. 9, Mệnh đề 14); vì họ $(K_\alpha)$ là địa phương đếm được, nên $N$ là đo được một cách phổ dụng và do đó là không đáng kể theo $\nu$ một cách địa phương. Đặt $\mu_\alpha = \varphi_{K_\alpha} \cdot \mu$, $\nu_\alpha = \varphi_{K_\alpha} \cdot \nu$; vì các hàm $\varphi_{K_\alpha}$ tạo thành một họ địa phương đếm được, có tổng bằng 1 gần như khắp một cách địa phương đối với $\mu$ và đối với $\nu$, Mệnh đề 6 suy ra rằng $\mu = \sum_{\alpha \in A} \mu_\alpha$, $\nu = \sum_{\alpha \in A} \nu_\alpha$. Mặt khác, theo định nghĩa của $\mathscr{K}$, với mọi $\alpha$ tồn tại một hằng số $M_\alpha$ sao cho $\nu_\alpha \leq M_\alpha \mu_\alpha$; do đó Bổ đề 2 suy ra sự tồn tại của một hàm $g_\alpha$, mà ta có thể giả sử bằng không ở ngoài $K_\alpha$ và dương (Hệ quả 3 của Mệnh đề 3), sao cho $\nu_\alpha = g_\alpha \cdot \mu_\alpha$. Do đó (No. 4, Mệnh đề 8)
 
 $$
 \nu_\alpha = g_\alpha \cdot \mu_\alpha = g_\alpha \cdot (\varphi_{K_\alpha} \cdot \mu) = (g_\alpha \varphi_{K_\alpha}) \cdot \mu = g_\alpha \cdot \mu .
@@ -431,19 +431,19 @@ Tập hợp $g = \sum_{\alpha \in A} g_\alpha$; vì họ $(g_\alpha)$ là địa
 
 #### Hệ quả 1 {#int-v-s5-thm-2-cor-1 .statement}
 
-— Cho $\mathcal{N}$ là một tập các độ đo dương có cơ sở $\mu$, có supremum $\nu$ trong $\mathcal{M}(T)$; khi đó $\nu$ là một độ đo có cơ sở $\mu$.
+— Cho $\mathscr{N}$ là một tập các độ đo dương có cơ sở $\mu$, có supremum $\nu$ trong $\mathscr{M}(T)$; khi đó $\nu$ là một độ đo có cơ sở $\mu$.
 
-Hệ quả của Mệnh đề 2 cho phép quy về trường hợp $\mathcal{N}$ là một tập có hướng tăng. Với mọi tập địa phương $\mu$-không đáng kể $A$ ta khi đó có, theo Mệnh đề 11 của §1, No. 4,
+Hệ quả của Mệnh đề 2 cho phép quy về trường hợp $\mathscr{N}$ là một tập có hướng tăng. Với mọi tập địa phương $\mu$-không đáng kể $A$ ta khi đó có, theo Mệnh đề 11 của §1, No. 4,
 
 $$
-\nu^\bullet(A) = \sup_{\lambda \in \mathcal{N}} \lambda^\bullet(A) = 0.
+\nu^\bullet(A) = \sup_{\lambda \in \mathscr{N}} \lambda^\bullet(A) = 0.
 $$
 
 Do đó Định lý 2 suy ra rằng $\nu$ là một độ đo có cơ sở $\mu$.
 
 #### Hệ quả 2 {#int-v-s5-thm-2-cor-2 .statement}
 
-— Cho $\nu$ là một độ đo thực trên $T$. Để $\nu$ thuộc vào dải được sinh bởi $\mu$ trong không gian có thứ tự theo dàn đầy đủ $\mathcal{M}(T)$ (Ch. II, §1, No. 5), điều kiện cần và đủ là $\nu$ là một độ đo có cơ sở $\mu$.
+— Cho $\nu$ là một độ đo thực trên $T$. Để $\nu$ thuộc vào dải được sinh bởi $\mu$ trong không gian có thứ tự theo dàn đầy đủ $\mathscr{M}(T)$ (Ch. II, §1, No. 5), điều kiện cần và đủ là $\nu$ là một độ đo có cơ sở $\mu$.
 
 Xét $\nu^+$ và $\nu^-$, ta ngay lập tức quy về trường hợp một độ đo dương $\nu$ (No. 2, Hệ quả của Mệnh đề 2). Khi đó đặt $\nu_n = \inf(n\mu, \nu)$; $\nu$ thuộc vào dải được sinh bởi $\mu$ khi và chỉ khi $\nu = \sup_n \nu_n$ (Ch. II, §1, No. 5, Hệ quả của Mệnh đề 6). Bây giờ $\nu_n$, vì bị chặn trên bởi $n\mu$, là một độ đo có cơ sở $\mu$ theo Định lý 2; do đó quan hệ $\nu = \sup_n \nu_n$ suy ra rằng $\nu$ là một độ đo có cơ sở $\mu$ (Hệ quả 1). Ngược lại, giả sử rằng $\nu$ là một độ đo có cơ sở $\mu$: $\nu = g \cdot \mu$, trong đó $g$ là địa phương $\mu$-khả tích và dương. Khi đó $\nu_n = \inf(g, n) \cdot \mu$ (Hệ quả của Mệnh đề 2), và từ định lý của Lebesgue (Ch. IV, §4, No. 3, Mệnh đề 4) suy ra ngay rằng $\nu = \sup_n \nu_n$.
 
@@ -473,7 +473,7 @@ Nếu $|\theta| \leq a \mu$, trong đó $\mu$ là một độ đo dương và $a
 
 4) Với mọi hàm số thực $f \geq 0$ khả tích theo $\nu$ và với mọi số $\varepsilon > 0$, tồn tại một $\delta > 0$ sao cho các hệ thức $0 \leq h \leq f$ và $\int^* h \, d\mu \leq \delta$ suy ra $\int^* h \, d\nu < \varepsilon$.
 
-5) Với mọi hàm $g \in \mathcal{K}_+(\mathrm{T})$ và mọi số $\varepsilon > 0$, tồn tại một $\delta > 0$ sao cho, với mọi $h \in \mathcal{K}_+(\mathrm{T})$ bị chặn trên bởi $g$ và thỏa mãn $\int h \, d\mu \leq \delta$, ta có $\int h \, d\nu \leq \varepsilon$.
+5) Với mọi hàm $g \in \mathscr{K}_+(\mathrm{T})$ và mọi số $\varepsilon > 0$, tồn tại một $\delta > 0$ sao cho, với mọi $h \in \mathscr{K}_+(\mathrm{T})$ bị chặn trên bởi $g$ và thỏa mãn $\int h \, d\mu \leq \delta$, ta có $\int h \, d\nu \leq \varepsilon$.
 
 6) Với mọi tập compact $K \subset \mathrm{T}$ và mọi số $\varepsilon > 0$, tồn tại một $\delta > 0$ sao cho các hệ thức $A \subset K$ và $\mu^*(A) \leq \delta$ suy ra $\nu^*(A) \leq \varepsilon$.
 
@@ -497,9 +497,9 @@ Hiển nhiên 4) suy ra 5). Sau cùng, nếu điều kiện 5) được thỏa m
 
 #### Chú giải {#int-v-s5-n5-sch-1 .statement}
 
-Với mọi $\dot{f} \in L^1_{\mathrm{loc}}(\mathrm{T}, \mu; \mathbf{R})$, đặt $\varphi(\dot{f}) = f \cdot \mu$, trong đó $f \in \dot{f}$; ánh xạ $\varphi$ là tuyến tính, tăng và đơn ánh (Hệ quả 2 của Mệnh đề 3), và ảnh của nó trong $\mathcal{M}(T)$ là dải B được sinh bởi $\mu$ (Hệ quả 2 của Định lý 2). Do đó ánh xạ $\varphi$ cho phép đồng nhất $L^1_{\text{loc}}(T, \mu; \mathbf{R})$ với một không gian các độ đo thực trên T; vì mọi không gian $L^p_R(T, \mu)$ đều là các không gian con của $L^1_{\text{loc}}(T, \mu; \mathbf{R})$, chúng cũng có thể được đồng nhất với các không gian con của $\mathcal{M}(T)$. Những xét đoán tương tự đúng cho các hàm và độ đo phức. Chú ý rằng ánh xạ $\varphi$ xét ở trên là một đẳng cấu của cấu trúc không gian vectơ có thứ tự của $L^1_{\text{loc}}$ và B, nhưng hiển nhiên không phải là một đẳng cấu đối với các cấu trúc *không gian vectơ tôpô* của các không gian này.
+Với mọi $\dot{f} \in L^1_{\mathrm{loc}}(\mathrm{T}, \mu; \mathbf{R})$, đặt $\varphi(\dot{f}) = f \cdot \mu$, trong đó $f \in \dot{f}$; ánh xạ $\varphi$ là tuyến tính, tăng và đơn ánh (Hệ quả 2 của Mệnh đề 3), và ảnh của nó trong $\mathscr{M}(T)$ là dải B được sinh bởi $\mu$ (Hệ quả 2 của Định lý 2). Do đó ánh xạ $\varphi$ cho phép đồng nhất $L^1_{\text{loc}}(T, \mu; \mathbf{R})$ với một không gian các độ đo thực trên T; vì mọi không gian $L^p_R(T, \mu)$ đều là các không gian con của $L^1_{\text{loc}}(T, \mu; \mathbf{R})$, chúng cũng có thể được đồng nhất với các không gian con của $\mathscr{M}(T)$. Những xét đoán tương tự đúng cho các hàm và độ đo phức. Chú ý rằng ánh xạ $\varphi$ xét ở trên là một đẳng cấu của cấu trúc không gian vectơ có thứ tự của $L^1_{\text{loc}}$ và B, nhưng hiển nhiên không phải là một đẳng cấu đối với các cấu trúc *không gian vectơ tôpô* của các không gian này.
 
-Vì mỗi dải trong một không gian hoàn toàn có thứ tự dàn tự nó cũng là một không gian hoàn toàn có thứ tự dàn (Ch. II, §1, No. 5), ta thấy rằng không gian $L^1_{\text{loc}}$ là *hoàn toàn có thứ tự dàn*; nhưng đáng nhớ rằng cận trên đúng trong $L^1_{\text{loc}}$ của một họ không đếm được $(\dot{f}_\alpha)$ các lớp tương đương chưa nhất thiết trùng với lớp của bao trên của các hàm $f_\alpha$. Tuy nhiên, ta đã thấy rằng đối với một *dãy tăng* $(f_n)$ các hàm khả tích địa phương theo $\mu$ có bao trên $f$ cũng khả tích địa phương theo $\mu$, thì $f \cdot \mu$ là cận trên đúng của dãy các độ đo $(f_n \cdot \mu)$ trong $\mathcal{M}(T)$ (Hệ quả của Mệnh đề 6).
+Vì mỗi dải trong một không gian hoàn toàn có thứ tự dàn tự nó cũng là một không gian hoàn toàn có thứ tự dàn (Ch. II, §1, No. 5), ta thấy rằng không gian $L^1_{\text{loc}}$ là *hoàn toàn có thứ tự dàn*; nhưng đáng nhớ rằng cận trên đúng trong $L^1_{\text{loc}}$ của một họ không đếm được $(\dot{f}_\alpha)$ các lớp tương đương chưa nhất thiết trùng với lớp của bao trên của các hàm $f_\alpha$. Tuy nhiên, ta đã thấy rằng đối với một *dãy tăng* $(f_n)$ các hàm khả tích địa phương theo $\mu$ có bao trên $f$ cũng khả tích địa phương theo $\mu$, thì $f \cdot \mu$ là cận trên đúng của dãy các độ đo $(f_n \cdot \mu)$ trong $\mathscr{M}(T)$ (Hệ quả của Mệnh đề 6).
 
 Sau đây là một hệ quả thú vị của Hệ quả 3 của Định lý 2:
 
@@ -507,7 +507,7 @@ Sau đây là một hệ quả thú vị của Hệ quả 3 của Định lý 2:
 
 *Cho $\theta$ là một độ đo phức bị chặn; để $\theta$ là một độ đo dương, điều kiện cần và đủ là $\| \theta \| = \theta(1)$.*.
 
-Điều kiện này hiển nhiên là cần. Ngược lại, giả sử $\| \theta \| = \int d\theta$, và ký hiệu bởi $v$ một hàm đo được theo $|\theta|$ có trị tuyệt đối bằng 1 sao cho $\theta = v \cdot |\theta|$. Vì $\| \theta \| = \int d|\theta|$ (Ch. IV, §4, No. 7, Mệnh đề 12) và $\int d\theta = \int v \cdot d|\theta|$ (Định lý 1), giả thiết suy ra rằng $\int (1 - v) \, d|\theta| = 0$ và do đó $\int \mathcal{R}(1 - v) \, d|\theta| = 0$. Hàm $\mathcal{R}(1 - v)$, vì dương, nên bằng không hầu khắp nơi, điều này suy ra rằng $v = 1$ hầu khắp nơi và kết thúc chứng minh.
+Điều kiện này hiển nhiên là cần. Ngược lại, giả sử $\| \theta \| = \int d\theta$, và ký hiệu bởi $v$ một hàm đo được theo $|\theta|$ có trị tuyệt đối bằng 1 sao cho $\theta = v \cdot |\theta|$. Vì $\| \theta \| = \int d|\theta|$ (Ch. IV, §4, No. 7, Mệnh đề 12) và $\int d\theta = \int v \cdot d|\theta|$ (Định lý 1), giả thiết suy ra rằng $\int (1 - v) \, d|\theta| = 0$ và do đó $\int \mathscr{R}(1 - v) \, d|\theta| = 0$. Hàm $\mathscr{R}(1 - v)$, vì dương, nên bằng không hầu khắp nơi, điều này suy ra rằng $v = 1$ hầu khắp nơi và kết thúc chứng minh.
 
 ### 6. Các độ đo tương đương
 
@@ -515,7 +515,7 @@ Sau đây là một hệ quả thú vị của Hệ quả 3 của Định lý 2:
 
 *Cho $\mu$ và $\nu$ là hai độ đo dương trên T. Các điều kiện sau là tương đương:
 a) Các tập hợp không đáng kể địa phương là như nhau đối với $\mu$ và $\nu$.
-b) Các dải do $\mu$ và $\nu$ sinh ra trong $\mathcal{M}(T)$ là trùng nhau.
+b) Các dải do $\mu$ và $\nu$ sinh ra trong $\mathscr{M}(T)$ là trùng nhau.
 c) Ta có $\nu = g \cdot \mu$, trong đó $g$ là khả tích địa phương theo $\mu$ và $g(t) > 0$ hầu khắp nơi địa phương đối với $\mu$.*
 
 Các điều kiện a) và b) tương đương theo Hệ quả 2 của Định lý 2 của No. 5. Nếu chúng được thỏa mãn, thì $\nu = g \cdot \mu$ và $\mu = h \cdot \nu$, trong đó $g$ (tương ứng $h$) là dương và khả tích địa phương theo $\mu$ (tương ứng $\nu$). Vì vậy (No. 4, Mệnh đề 8) $hg$ là khả tích địa phương theo $\mu$ và $\mu = (hg) \cdot \mu$. Suy ra (No. 3, Hệ quả 2 của Mệnh đề 3) rằng $hg$ bằng 1 hầu khắp nơi địa phương theo $\mu$, do đó $g(t) > 0$ và $h(t) = 1/g(t)$ hầu khắp nơi địa phương theo $\mu$. Ngược lại, giả sử rằng $\nu = g \cdot \mu$ với $g(t) > 0$ hầu khắp nơi địa phương theo $\mu$;
@@ -536,7 +536,7 @@ Vì thế, để $\theta$ và $\theta'$ tương đương thì điều kiện c�
 
 *Cho $\mu$ là một độ đo dương trên $T$. Nếu $T$ đếm được ở vô cực, thì tồn tại một hàm liên tục $h$ sao cho $h(t) > 0$ với mọi $t \in T$ và sao cho độ đo $\nu = h \cdot \mu$ (tương đương với $\mu$) bị chặn.*
 
-Cho $(K_n)$ là một dãy các tập compact lập thành một phủ của $T$ và, với mọi $n$, cho $f_n$ là một hàm trong $\mathcal{H}(T)$ sao cho $0 \leq f_n \leq 1$ và $f_n(t) = 1$ trên $K_n$ (Chương III, §1, No. 2, Bổ đề 1). Cho $(a_n)$ là một dãy các số $> 0$ sao cho $\sum_n a_n < +\infty$; khi đó chuỗi $h = \sum_n a_n f_n$ hội tụ chuẩn trong $T$, do đó $h$ là một hàm liên tục trên $T$, sao cho $h(t) > 0$ với mọi $t \in T$, theo cách dựng. Đặt $\nu = h \cdot \mu$, ta có (Mệnh đề 3 và Chương IV, §1, No. 3, Mệnh đề 13)
+Cho $(K_n)$ là một dãy các tập compact lập thành một phủ của $T$ và, với mọi $n$, cho $f_n$ là một hàm trong $\mathscr{H}(T)$ sao cho $0 \leq f_n \leq 1$ và $f_n(t) = 1$ trên $K_n$ (Chương III, §1, No. 2, Bổ đề 1). Cho $(a_n)$ là một dãy các số $> 0$ sao cho $\sum_n a_n < +\infty$; khi đó chuỗi $h = \sum_n a_n f_n$ hội tụ chuẩn trong $T$, do đó $h$ là một hàm liên tục trên $T$, sao cho $h(t) > 0$ với mọi $t \in T$, theo cách dựng. Đặt $\nu = h \cdot \mu$, ta có (Mệnh đề 3 và Chương IV, §1, No. 3, Mệnh đề 13)
 
 $$
 \nu^*(1) = \int^* h \, d\mu \leq \sum_n a_n \int f_n \, d\mu .
@@ -548,13 +548,13 @@ Lấy chẳng hạn $a_n = 2^{-n} (\int f_n \, d\mu)^{-1}$ khi $\int f_n \, d\mu
 
 *Cho $(\mu_n)$ là một dãy các độ đo dương bị chặn trên $T$; tồn tại một độ đo dương bị chặn $\mu$ trên $T$ sao cho quan hệ $\mu^*(N) = 0$ tương đương với «$\mu_n^*(N) = 0$ với mọi $n$»; mỗi độ đo $\mu_n$ có cơ sở là $\mu$. Hơn nữa, nếu $\mu'$ là một độ đo dương thứ hai trên $T$ có tính chất này, thì $\mu$ và $\mu'$ tương đương.*
 
-Phần cuối của mệnh đề suy ra ngay từ Định nghĩa 3. Để chứng minh sự tồn tại của $\mu$, ta có thể chỉ xét trường hợp $\mu_n \neq 0$ với mọi $n$; họ các độ đo $\mu_n / 2^n \| \mu_n \|$ khi đó khả tổng trong $\mathcal{M}(T)$, và tổng của nó $\mu$ thỏa $\| \mu \| \leq 1$. Hơn nữa, vì $\mu_n \leq 2^n \| \mu_n \| \cdot \mu$, quan hệ $\mu(N) = 0$ suy ra rằng $\mu_n(N) = 0$ với mọi $n$; ngược lại, nếu $N$ là một tập không đáng kể đối với mọi $\mu_n$, thì nó là địa phương không đáng kể đối với $\mu$
+Phần cuối của mệnh đề suy ra ngay từ Định nghĩa 3. Để chứng minh sự tồn tại của $\mu$, ta có thể chỉ xét trường hợp $\mu_n \neq 0$ với mọi $n$; họ các độ đo $\mu_n / 2^n \| \mu_n \|$ khi đó khả tổng trong $\mathscr{M}(T)$, và tổng của nó $\mu$ thỏa $\| \mu \| \leq 1$. Hơn nữa, vì $\mu_n \leq 2^n \| \mu_n \| \cdot \mu$, quan hệ $\mu(N) = 0$ suy ra rằng $\mu_n(N) = 0$ với mọi $n$; ngược lại, nếu $N$ là một tập không đáng kể đối với mọi $\mu_n$, thì nó là địa phương không đáng kể đối với $\mu$
 
 (§2, No. 2, Hệ quả 2 của Mệnh đề 1), do đó là $\mu$-không đáng kể vì $\mu$ bị chặn (§1, No. 2, Hệ quả 2 của Mệnh đề 7).
 
 ### 7. Các độ đo xa lạ
 
-Cho hai độ đo thực $\rho, \sigma$ trên $T$, nhắc lại rằng $\rho$ và $\sigma$ được gọi là xa lạ với nhau nếu $\inf(|\rho|, |\sigma|) = 0$ trong $\mathcal{M}(T)$ (Ch. II, §1, No. 1). Các độ đo thực xa lạ với một độ đo cho trước được biết là tạo thành một dải (Ch. II, §1, No. 5, Định lý 1). Định nghĩa này có thể được mở rộng ngay lập tức sang trường hợp các độ đo phức.
+Cho hai độ đo thực $\rho, \sigma$ trên $T$, nhắc lại rằng $\rho$ và $\sigma$ được gọi là xa lạ với nhau nếu $\inf(|\rho|, |\sigma|) = 0$ trong $\mathscr{M}(T)$ (Ch. II, §1, No. 1). Các độ đo thực xa lạ với một độ đo cho trước được biết là tạo thành một dải (Ch. II, §1, No. 5, Định lý 1). Định nghĩa này có thể được mở rộng ngay lập tức sang trường hợp các độ đo phức.
 
 #### Định nghĩa 4 {#int-v-s5-def-4 .statement}
 
@@ -596,13 +596,13 @@ Ký hiệu bởi $v$ (tương ứng $w$) một hàm khả đo được một cá
 
 — Mỗi độ đo phức $\theta$ trên T có thể được viết theo một và chỉ một cách dưới dạng $\theta = g \cdot \mu + \theta'$, trong đó $g$ là địa phương $\mu$-khả tích và $\theta'$ là một độ đo rời nhau với $\mu$. Khi đó $|\theta| = |g| \cdot \mu + |\theta'|$.
 
-Khi $\theta$ dương, điều này suy ra ngay từ định lý của F. Riesz (Ch. II, §1, No. 5, Định lý 1) áp dụng cho không gian có thứ tự dàn đầy đủ $\mathcal{M}(T)$ của các độ đo thực trên T, và cho dải sinh bởi $\mu$ trong không gian này, xét đến Hệ quả 2 của No. 5, Định lý 2; hơn nữa, $\theta'$ và $g \cdot \mu$ khi đó đều dương, điều này kéo theo rằng $g$ dương địa phương hầu khắp nơi theo $\mu$ (Hệ quả 3 của Mệnh đề 3). Để xét trường hợp $\theta$ không dương, đặt $\nu = |\theta|$, $\nu = f \cdot \mu + \nu'$ (trong đó $f$ dương và trong đó $\nu'$ và $\mu$ rời nhau với nhau), và $\theta = v \cdot \nu$, trong đó $v$ là một hàm khả đo được một cách phổ quát có giá trị tuyệt đối bằng 1 (Hệ quả 3 của Định lý 2). Khi đó ta có (Mệnh đề 8) $\theta = g \cdot \mu + \theta'$, với $g = v f$ (sao cho $|g| = f$) và $\theta' = v \cdot \nu'$ (sao cho $|\theta'| = \nu'$ theo Mệnh đề 2); các độ đo $\theta'$ và $\mu$ rời nhau với nhau theo Hệ quả 2 của Mệnh đề 13. Chỉ còn phải thiết lập tính duy nhất của phân tích. Vậy, giả sử rằng $\theta = g \cdot \mu + \theta' = g_1 \cdot \mu + \theta'_1$, trong đó $\theta'$ và $\theta'_1$ rời nhau với $\mu$; $|\theta' - \theta'_1|$ bị chặn trên bởi $|\theta'| + |\theta'_1|$, do đó $\theta' - \theta'_1$ rời nhau với $\mu$, suy ra cũng rời nhau với $(g_1 - g) \cdot \mu$. Quan hệ $\theta' - \theta'_1 = (g_1 - g) \cdot \mu$ khi đó suy ra rằng hai vế đều bằng không, điều này chứng minh tính duy nhất.
+Khi $\theta$ dương, điều này suy ra ngay từ định lý của F. Riesz (Ch. II, §1, No. 5, Định lý 1) áp dụng cho không gian có thứ tự dàn đầy đủ $\mathscr{M}(T)$ của các độ đo thực trên T, và cho dải sinh bởi $\mu$ trong không gian này, xét đến Hệ quả 2 của No. 5, Định lý 2; hơn nữa, $\theta'$ và $g \cdot \mu$ khi đó đều dương, điều này kéo theo rằng $g$ dương địa phương hầu khắp nơi theo $\mu$ (Hệ quả 3 của Mệnh đề 3). Để xét trường hợp $\theta$ không dương, đặt $\nu = |\theta|$, $\nu = f \cdot \mu + \nu'$ (trong đó $f$ dương và trong đó $\nu'$ và $\mu$ rời nhau với nhau), và $\theta = v \cdot \nu$, trong đó $v$ là một hàm khả đo được một cách phổ quát có giá trị tuyệt đối bằng 1 (Hệ quả 3 của Định lý 2). Khi đó ta có (Mệnh đề 8) $\theta = g \cdot \mu + \theta'$, với $g = v f$ (sao cho $|g| = f$) và $\theta' = v \cdot \nu'$ (sao cho $|\theta'| = \nu'$ theo Mệnh đề 2); các độ đo $\theta'$ và $\mu$ rời nhau với nhau theo Hệ quả 2 của Mệnh đề 13. Chỉ còn phải thiết lập tính duy nhất của phân tích. Vậy, giả sử rằng $\theta = g \cdot \mu + \theta' = g_1 \cdot \mu + \theta'_1$, trong đó $\theta'$ và $\theta'_1$ rời nhau với $\mu$; $|\theta' - \theta'_1|$ bị chặn trên bởi $|\theta'| + |\theta'_1|$, do đó $\theta' - \theta'_1$ rời nhau với $\mu$, suy ra cũng rời nhau với $(g_1 - g) \cdot \mu$. Quan hệ $\theta' - \theta'_1 = (g_1 - g) \cdot \mu$ khi đó suy ra rằng hai vế đều bằng không, điều này chứng minh tính duy nhất.
 
-Nhắc lại (No. 5, Th. 2 và Chú giải) rằng không gian $L^1_{loc}(T, \mu; \mathbf{C})$ có thể được đồng nhất (nhờ ánh xạ $g \mapsto g \cdot \mu$) với một không gian con của $\mathcal{M}_\mathbf{C}(T)$. Với quy ước này, Định lý 3 có dạng sau:
+Nhắc lại (No. 5, Th. 2 và Chú giải) rằng không gian $L^1_{loc}(T, \mu; \mathbf{C})$ có thể được đồng nhất (nhờ ánh xạ $g \mapsto g \cdot \mu$) với một không gian con của $\mathscr{M}_\mathbf{C}(T)$. Với quy ước này, Định lý 3 có dạng sau:
 
 #### Hệ quả {#int-v-s5-n7-cor-1 .statement}
 
-— *Tồn tại một phép chiếu p của không gian $\mathcal{M}_\mathbf{C}(T)$ lên không gian $L^1_{\text{loc}}(T, \mu; \mathbf{C})$, có hạt nhân $\overline{p}^{-1}(0)$ là tập hợp các độ đo phức ngoại lai đối với $\mu$, sao cho*
+— *Tồn tại một phép chiếu p của không gian $\mathscr{M}_\mathbf{C}(T)$ lên không gian $L^1_{\text{loc}}(T, \mu; \mathbf{C})$, có hạt nhân $\overline{p}^{-1}(0)$ là tập hợp các độ đo phức ngoại lai đối với $\mu$, sao cho*
 
 $$
 |\theta| = |p(\theta)| + |\theta - p(\theta)|,\quad p(|\theta|) = |p(\theta)|
@@ -610,57 +610,57 @@ $$
 
 *đối với mọi độ đo phức $\theta$.*
 
-Nếu $p$ được hạn chế trên tập các độ đo bị chặn, ta thu được một phép chiếu $p^1$ của không gian $\mathcal{M}_\mathbf{C}^1(T)$ lên không gian $L^1_\mathbf{C}(T, \mu)$; quan hệ $\| \theta \| = |\theta|(1)$ suy ra rằng $\| \theta \| = \| p^1(\theta) \| + \| \theta - p^1(\theta) \|$ đối với mọi độ đo phức bị chặn $\theta$.
+Nếu $p$ được hạn chế trên tập các độ đo bị chặn, ta thu được một phép chiếu $p^1$ của không gian $\mathscr{M}_\mathbf{C}^1(T)$ lên không gian $L^1_\mathbf{C}(T, \mu)$; quan hệ $\| \theta \| = |\theta|(1)$ suy ra rằng $\| \theta \| = \| p^1(\theta) \| + \| \theta - p^1(\theta) \|$ đối với mọi độ đo phức bị chặn $\theta$.
 
 ### 8. Ứng dụng: I. Tính đối ngẫu của các không gian $L^p$
 
 Ở đây ta chỉ xét trường hợp các không gian thực $L^p$.
 
-Nhắc lại rằng hai số $p, q$ sao cho $1 \leq p \leq +\infty$, $1 \leq q \leq +\infty$, $1/p + 1/q = 1$ được gọi là *số mũ liên hợp* (Ch. IV, §6, No. 4). Mỗi hàm $g \in \mathcal{L}^q$ xác định một dạng tuyến tính liên tục $\theta_g$ trên $L^p$, thu được bằng cách chuyển qua thương bắt đầu từ dạng tuyến tính $f \mapsto \int fg\,d\mu$ trên $\mathcal{L}^p$, và ta có $N_q(g) = \| \theta_g \|$ (Ch. IV, §6, No. 4, Hệ quả của Mệnh đề 3). Chuyển qua thương, do đó từ ánh xạ $g \mapsto \theta_g$ ta suy ra một ánh xạ tuyến tính đẳng cự $\varphi$ của $L^q$ vào đối ngẫu $(L^p)'$ của $L^p$. Ta sẽ chứng minh rằng, với $1 \leq p < +\infty$, $\varphi$ ánh xạ $L^q$ *lên* $(L^p)'$, do đó về sau ta có thể đồng nhất không gian Banach $L^q$ với không gian Banach $(L^p)'$ nhờ đẳng cấu $\varphi$. Phát biểu theo cách khác:
+Nhắc lại rằng hai số $p, q$ sao cho $1 \leq p \leq +\infty$, $1 \leq q \leq +\infty$, $1/p + 1/q = 1$ được gọi là *số mũ liên hợp* (Ch. IV, §6, No. 4). Mỗi hàm $g \in \mathscr{L}^q$ xác định một dạng tuyến tính liên tục $\theta_g$ trên $L^p$, thu được bằng cách chuyển qua thương bắt đầu từ dạng tuyến tính $f \mapsto \int fg\,d\mu$ trên $\mathscr{L}^p$, và ta có $N_q(g) = \| \theta_g \|$ (Ch. IV, §6, No. 4, Hệ quả của Mệnh đề 3). Chuyển qua thương, do đó từ ánh xạ $g \mapsto \theta_g$ ta suy ra một ánh xạ tuyến tính đẳng cự $\varphi$ của $L^q$ vào đối ngẫu $(L^p)'$ của $L^p$. Ta sẽ chứng minh rằng, với $1 \leq p < +\infty$, $\varphi$ ánh xạ $L^q$ *lên* $(L^p)'$, do đó về sau ta có thể đồng nhất không gian Banach $L^q$ với không gian Banach $(L^p)'$ nhờ đẳng cấu $\varphi$. Phát biểu theo cách khác:
 
 #### Định lý 4 {#int-v-s5-thm-4 .statement}
 
-— *Cho p và q là hai số mũ liên hợp sao cho $1 \leq p < +\infty$. Mỗi dạng tuyến tính liên tục trên $\mathcal{L}^p(T, \mu)$ đều có dạng $f \mapsto \int fg\,d\mu$, trong đó g là một hàm trong $\mathcal{L}^q(T, \mu)$ mà lớp của nó trong $L^q$ được xác định.*
+— *Cho p và q là hai số mũ liên hợp sao cho $1 \leq p < +\infty$. Mỗi dạng tuyến tính liên tục trên $\mathscr{L}^p(T, \mu)$ đều có dạng $f \mapsto \int fg\,d\mu$, trong đó g là một hàm trong $\mathscr{L}^q(T, \mu)$ mà lớp của nó trong $L^q$ được xác định.*
 
-Cho $\theta$ là một dạng tuyến tính liên tục trên $\mathcal{L}^p$; do đó, tồn tại một số $a \geq 0$ sao cho $|\theta(f)| \leq a \cdot N_p(f)$ với mọi hàm $f \in \mathcal{L}^p$. Xét hạn chế của $\theta$ lên không gian $\mathcal{K}(T)$ các hàm liên tục có giá compact: với mọi tập con compact K của T và mọi hàm $f \in \mathcal{K}(T, K)$ (không gian các hàm liên tục có giá compact được chứa trong K), ta có $N_p(f) \leq (\mu(K))^{1/p} \| f \|$; do đó tôpô cảm sinh trên $\mathcal{K}(T, K)$ bởi tôpô của $\mathcal{L}^p$ thô hơn tôpô hội tụ đều, và hạn chế của $\theta$ lên từng $\mathcal{K}(T, K)$ vì thế liên tục đối với tôpô sau. Điều này có nghĩa là hạn chế của $\theta$ lên $\mathcal{K}(T)$ là một *độ đo thực* $\nu$ (Ch. III, §1, No. 3, Định nghĩa 2).
+Cho $\theta$ là một dạng tuyến tính liên tục trên $\mathscr{L}^p$; do đó, tồn tại một số $a \geq 0$ sao cho $|\theta(f)| \leq a \cdot N_p(f)$ với mọi hàm $f \in \mathscr{L}^p$. Xét hạn chế của $\theta$ lên không gian $\mathscr{K}(T)$ các hàm liên tục có giá compact: với mọi tập con compact K của T và mọi hàm $f \in \mathscr{K}(T, K)$ (không gian các hàm liên tục có giá compact được chứa trong K), ta có $N_p(f) \leq (\mu(K))^{1/p} \| f \|$; do đó tôpô cảm sinh trên $\mathscr{K}(T, K)$ bởi tôpô của $\mathscr{L}^p$ thô hơn tôpô hội tụ đều, và hạn chế của $\theta$ lên từng $\mathscr{K}(T, K)$ vì thế liên tục đối với tôpô sau. Điều này có nghĩa là hạn chế của $\theta$ lên $\mathscr{K}(T)$ là một *độ đo thực* $\nu$ (Ch. III, §1, No. 3, Định nghĩa 2).
 
-Ta chứng minh rằng $|\nu|(|f|) \leq a \cdot N_p(f)$ với mọi hàm $f$ trong $\mathcal{K}(T)$. Chỉ cần chứng minh công thức này cho $f \geq 0$. Bây giờ, với mọi hàm $\psi$ trong $\mathcal{K}(T)$ sao cho $|\psi| \leq f$, ta có
+Ta chứng minh rằng $|\nu|(|f|) \leq a \cdot N_p(f)$ với mọi hàm $f$ trong $\mathscr{K}(T)$. Chỉ cần chứng minh công thức này cho $f \geq 0$. Bây giờ, với mọi hàm $\psi$ trong $\mathscr{K}(T)$ sao cho $|\psi| \leq f$, ta có
 $$
 |\nu(\psi)| \leq a \cdot N_p(\psi) \leq a \cdot N_p(f);
 $$
 mệnh đề của chúng ta suy ra từ biểu thức của giá trị tuyệt đối của một độ đo cho trong Ch. III, §1, No. 6, công thức (12). Quan hệ $|\nu|(|f|) \leq a (\mu(|f|^p))^{1/p}$ được suy rộng ngay sang trường hợp $f$ là hàm đặc trưng của một tập compact, bằng cách chuyển sang bao dưới, và rồi suy ra rằng mọi tập compact $\mu$-không đáng kể đều là $\nu$-không đáng kể, sao cho $\nu$ là một độ đo *có cơ sở* $\mu$ (No. 5, Định lý 2).
 
-Do đó, tồn tại một hàm dương $h_1$ khả tích địa phương theo $\mu$ sao cho $|\nu|(f) = \int f h_1 d\mu$ với mọi hàm $f \in \mathcal{K}(T)$. Ta chứng minh rằng $h_1$ địa phương hầu khắp nơi bằng một hàm trong $\mathcal{L}^q$. Nếu hàm $f \geq 0$ trong $\mathcal{K}(T)$ sao cho $N_p(f) \leq 1$, thì $\int f h_1 d\mu = |\nu|(f) \leq a$. Vì thế, với mọi ánh xạ liên tục $f_0$ của T vào $[0,1]$ có giá compact, ta có $\sup \int (f_0 h_1) f d\mu \leq a$ khi $f$ chạy qua tập các hàm $\geq 0$ trong $\mathcal{K}(T)$ sao cho $N_p(f) \leq 1$. Từ đó suy ra, bằng công thức (11) của Ch. IV, §6, No. 4, rằng $N_q(f_0 h_1) \leq a$. Suy ra từ đây rằng $\sup_{K} N_q(\varphi_K h_1) \leq a$ khi K chạy qua tập các tập con compact của T, và điều này chứng minh mệnh đề của chúng ta (§1, Mệnh đề 9).
+Do đó, tồn tại một hàm dương $h_1$ khả tích địa phương theo $\mu$ sao cho $|\nu|(f) = \int f h_1 d\mu$ với mọi hàm $f \in \mathscr{K}(T)$. Ta chứng minh rằng $h_1$ địa phương hầu khắp nơi bằng một hàm trong $\mathscr{L}^q$. Nếu hàm $f \geq 0$ trong $\mathscr{K}(T)$ sao cho $N_p(f) \leq 1$, thì $\int f h_1 d\mu = |\nu|(f) \leq a$. Vì thế, với mọi ánh xạ liên tục $f_0$ của T vào $[0,1]$ có giá compact, ta có $\sup \int (f_0 h_1) f d\mu \leq a$ khi $f$ chạy qua tập các hàm $\geq 0$ trong $\mathscr{K}(T)$ sao cho $N_p(f) \leq 1$. Từ đó suy ra, bằng công thức (11) của Ch. IV, §6, No. 4, rằng $N_q(f_0 h_1) \leq a$. Suy ra từ đây rằng $\sup_{K} N_q(\varphi_K h_1) \leq a$ khi K chạy qua tập các tập con compact của T, và điều này chứng minh mệnh đề của chúng ta (§1, Mệnh đề 9).
 
-Cho $v$ là một hàm thực đo được mọi nơi có giá trị tuyệt đối bằng 1 sao cho $\nu = v \cdot |\nu|$ (Hệ quả 3 của Định lý 2) và cho $g = v h_1$; khi đó $\nu = g \cdot \mu$, và $g$ thuộc $\mathcal{L}^q$. Với mọi hàm $f \in \mathcal{K}(T)$, ta có $\theta(f) = \nu(f) = \int f g d\mu$. Nói cách khác, các dạng tuyến tính liên tục $\theta$ và $\theta_g$ trùng nhau trên $\mathcal{K}(T)$; do đó chúng bằng nhau trên $\mathcal{L}^p$, vì $\mathcal{K}(T)$ trù mật trong $\mathcal{L}^p$, và điều này hoàn tất chứng minh.
+Cho $v$ là một hàm thực đo được mọi nơi có giá trị tuyệt đối bằng 1 sao cho $\nu = v \cdot |\nu|$ (Hệ quả 3 của Định lý 2) và cho $g = v h_1$; khi đó $\nu = g \cdot \mu$, và $g$ thuộc $\mathscr{L}^q$. Với mọi hàm $f \in \mathscr{K}(T)$, ta có $\theta(f) = \nu(f) = \int f g d\mu$. Nói cách khác, các dạng tuyến tính liên tục $\theta$ và $\theta_g$ trùng nhau trên $\mathscr{K}(T)$; do đó chúng bằng nhau trên $\mathscr{L}^p$, vì $\mathscr{K}(T)$ trù mật trong $\mathscr{L}^p$, và điều này hoàn tất chứng minh.
 
 #### Hệ quả {#int-v-s5-n8-cor-1 .statement}
 
 — *Với mọi số p sao cho $1 < p < +\infty$, không gian Banach $L^p(T, \mu)$ là phản xạ.*
 
-Nói chung, đối ngẫu của $L^\infty$ không đẳng cấu với $L^1$, do đó $L^1$ và $L^\infty$ không phản xạ (Bài tập 10). Chúng ta sẽ đặc trưng các dạng tuyến tính liên tục trên $L^\infty$ phát sinh, bằng cách chuyển sang thương, từ một dạng tuyến tính $g \mapsto \int f g d\mu$ trên $\mathcal{L}^\infty$, với $g \in \mathcal{L}^1$.
+Nói chung, đối ngẫu của $L^\infty$ không đẳng cấu với $L^1$, do đó $L^1$ và $L^\infty$ không phản xạ (Bài tập 10). Chúng ta sẽ đặc trưng các dạng tuyến tính liên tục trên $L^\infty$ phát sinh, bằng cách chuyển sang thương, từ một dạng tuyến tính $g \mapsto \int f g d\mu$ trên $\mathscr{L}^\infty$, với $g \in \mathscr{L}^1$.
 
-Không gian vectơ có thứ tự $L^\infty(T, \mu)$, là một không gian con của $L^1_{loc}(T, \mu)$, được sắp theo dàn đầy đủ; thật vậy, nếu $(f_\alpha)$ là một họ các hàm dương trong $\mathcal{L}^\infty$ mà tập hợp các lớp $(\dot{f}_\alpha)$ của nó bị chặn trên trong $L^\infty$, thì tồn tại một $a \geq 0$ sao cho $N_\infty(f_\alpha) \leq a$ với mọi $\alpha$. Vì $L^1_{loc}(T, \mu)$ được sắp theo dàn đầy đủ, họ $(\dot{f}_\alpha)$ có một cận trên đúng $\dot{h}$ trong $L^1_{loc}(T, \mu)$; nhưng vì $\dot{a} \geq \dot{f}_\alpha$ với mọi $\alpha$, ta có $\dot{h} \leq \dot{a}$, do đó $N_\infty(h) \leq a$, suy ra mệnh đề đã nêu.
+Không gian vectơ có thứ tự $L^\infty(T, \mu)$, là một không gian con của $L^1_{loc}(T, \mu)$, được sắp theo dàn đầy đủ; thật vậy, nếu $(f_\alpha)$ là một họ các hàm dương trong $\mathscr{L}^\infty$ mà tập hợp các lớp $(\dot{f}_\alpha)$ của nó bị chặn trên trong $L^\infty$, thì tồn tại một $a \geq 0$ sao cho $N_\infty(f_\alpha) \leq a$ với mọi $\alpha$. Vì $L^1_{loc}(T, \mu)$ được sắp theo dàn đầy đủ, họ $(\dot{f}_\alpha)$ có một cận trên đúng $\dot{h}$ trong $L^1_{loc}(T, \mu)$; nhưng vì $\dot{a} \geq \dot{f}_\alpha$ với mọi $\alpha$, ta có $\dot{h} \leq \dot{a}$, do đó $N_\infty(h) \leq a$, suy ra mệnh đề đã nêu.
 
 #### Mệnh đề 14 {#int-v-s5-prop-14 .statement}
 
-— *Để cho một dạng tuyến tính dương $\theta$ trên $\mathcal{L}^\infty$ có dạng $f \mapsto \int f g d\mu$, với $g \in \mathcal{L}^1$, thì cần và đủ rằng, với mọi họ có hướng tăng $(f_\alpha)_{\alpha \in A}$ các hàm dương trong $\mathcal{L}^\infty$ mà tập hợp các lớp $(\dot{f}_\alpha)_{\alpha \in A}$ của nó bị chặn trên trong $L^\infty$ và có $\dot{h}$ làm cận trên đúng trong không gian này, ta có*
+— *Để cho một dạng tuyến tính dương $\theta$ trên $\mathscr{L}^\infty$ có dạng $f \mapsto \int f g d\mu$, với $g \in \mathscr{L}^1$, thì cần và đủ rằng, với mọi họ có hướng tăng $(f_\alpha)_{\alpha \in A}$ các hàm dương trong $\mathscr{L}^\infty$ mà tập hợp các lớp $(\dot{f}_\alpha)_{\alpha \in A}$ của nó bị chặn trên trong $L^\infty$ và có $\dot{h}$ làm cận trên đúng trong không gian này, ta có*
 
 $$
 \theta(h) = \sup_{\alpha \in A} \theta(f_\alpha).
 $$
 
-Trước hết ta chứng minh rằng điều kiện là cần thiết. Độ đo $h \cdot \mu$ là cận trên đúng trong $\mathcal{M}(T)$ của tập các độ đo $f_\alpha \cdot \mu$ (No. 5, Chú giải); do đó (Ch. II, §2, No. 2), với mọi hàm $\varphi \geq 0$ trong $\mathcal{K}(T)$, ta có $\int h \varphi \, d\mu = \sup_{\alpha \in A} \int f_\alpha \varphi \, d\mu$. Nếu bây giờ $a$ là một số $\geq 0$ sao cho $N_\infty(f_\alpha) \leq a$ với mọi $\alpha \in A$ (điều này suy ra $N_\infty(h) \leq a$), thì với mọi $\varepsilon > 0$ tồn tại một $\varphi \in \mathcal{K}(T)$ sao cho $\varphi \geq 0$ và $N_1(g - \varphi) \leq \varepsilon$, từ đó suy ra rằng $\int f_\alpha |g - \varphi| \, d\mu \leq a \varepsilon$ với mọi $\alpha \in A$, và $\int h |g - \varphi| \, d\mu \leq a \varepsilon$. Vì $\sup_{\alpha \in A} \int f_\alpha g \, d\mu \leq \int h g \, d\mu$, điều này chứng tỏ rằng hai vế của bất đẳng thức này bằng nhau.
+Trước hết ta chứng minh rằng điều kiện là cần thiết. Độ đo $h \cdot \mu$ là cận trên đúng trong $\mathscr{M}(T)$ của tập các độ đo $f_\alpha \cdot \mu$ (No. 5, Chú giải); do đó (Ch. II, §2, No. 2), với mọi hàm $\varphi \geq 0$ trong $\mathscr{K}(T)$, ta có $\int h \varphi \, d\mu = \sup_{\alpha \in A} \int f_\alpha \varphi \, d\mu$. Nếu bây giờ $a$ là một số $\geq 0$ sao cho $N_\infty(f_\alpha) \leq a$ với mọi $\alpha \in A$ (điều này suy ra $N_\infty(h) \leq a$), thì với mọi $\varepsilon > 0$ tồn tại một $\varphi \in \mathscr{K}(T)$ sao cho $\varphi \geq 0$ và $N_1(g - \varphi) \leq \varepsilon$, từ đó suy ra rằng $\int f_\alpha |g - \varphi| \, d\mu \leq a \varepsilon$ với mọi $\alpha \in A$, và $\int h |g - \varphi| \, d\mu \leq a \varepsilon$. Vì $\sup_{\alpha \in A} \int f_\alpha g \, d\mu \leq \int h g \, d\mu$, điều này chứng tỏ rằng hai vế của bất đẳng thức này bằng nhau.
 
 Để chứng minh rằng điều kiện là đủ, ta sẽ dùng bổ đề sau:
 
 #### Bổ đề 4 {#int-v-s5-lem-4 .statement}
 
-1° *Cho $f$ là một hàm nửa liên tục dưới và bị chặn, không âm trên $T$. Khi đó lớp $\dot{f}$ của nó trong $L^\infty$ là cận trên đúng của tập các lớp $\dot{\varphi}$, trong đó $\varphi$ chạy qua tập các hàm trong $\mathcal{K}(T)$ thỏa mãn $0 \leq \varphi \leq f$.*
+1° *Cho $f$ là một hàm nửa liên tục dưới và bị chặn, không âm trên $T$. Khi đó lớp $\dot{f}$ của nó trong $L^\infty$ là cận trên đúng của tập các lớp $\dot{\varphi}$, trong đó $\varphi$ chạy qua tập các hàm trong $\mathscr{K}(T)$ thỏa mãn $0 \leq \varphi \leq f$.*
 
 2° *Cho $f$ là một hàm đo được và bị chặn, không âm trên $T$. Khi đó lớp $\dot{f}$ của nó trong $L^\infty$ là cận dưới đúng của tập các lớp $\dot{\psi}$, trong đó $\psi$ chạy qua tập các hàm nửa liên tục dưới và bị chặn trên $T$ sao cho $\psi \geq f$.*
 
-1° Cho $f'$ là một hàm trong $\mathcal{L}^\infty$ sao cho $\dot{f}'$ là cận trên đúng trong $L^\infty$ của tập các lớp $\dot{\varphi}$ của các hàm $\varphi$ trong $\mathcal{K}(T)$ thỏa mãn $0 \leq \varphi \leq f$; hiển nhiên $\dot{f}' \leq \dot{f}$. Cho $U$ là một tập con mở tương đối compact của $T$; với mọi hàm $h$ trong $\mathcal{K}(T)$ thỏa mãn $0 \leq h \leq f \varphi_U$ ta có, theo định nghĩa, $h(t) \leq f'(t)$ địa phương hầu khắp nơi, do đó $h(t) \leq f'(t) \varphi_U(t)$ hầu khắp nơi; suy ra $\int h \, d\mu \leq \int f' \varphi_U \, d\mu$. Tuy nhiên, vì $f \varphi_U$ là nửa liên tục dưới, $\int f \varphi_U \, d\mu = \sup \int h \, d\mu$, trong đó $h$ chạy qua tập các hàm trong $\mathcal{K}(T)$ thỏa mãn $0 \leq h \leq f \varphi_U$ (Ch. IV, §1, No. 1, Định nghĩa 1); do đó
+1° Cho $f'$ là một hàm trong $\mathscr{L}^\infty$ sao cho $\dot{f}'$ là cận trên đúng trong $L^\infty$ của tập các lớp $\dot{\varphi}$ của các hàm $\varphi$ trong $\mathscr{K}(T)$ thỏa mãn $0 \leq \varphi \leq f$; hiển nhiên $\dot{f}' \leq \dot{f}$. Cho $U$ là một tập con mở tương đối compact của $T$; với mọi hàm $h$ trong $\mathscr{K}(T)$ thỏa mãn $0 \leq h \leq f \varphi_U$ ta có, theo định nghĩa, $h(t) \leq f'(t)$ địa phương hầu khắp nơi, do đó $h(t) \leq f'(t) \varphi_U(t)$ hầu khắp nơi; suy ra $\int h \, d\mu \leq \int f' \varphi_U \, d\mu$. Tuy nhiên, vì $f \varphi_U$ là nửa liên tục dưới, $\int f \varphi_U \, d\mu = \sup \int h \, d\mu$, trong đó $h$ chạy qua tập các hàm trong $\mathscr{K}(T)$ thỏa mãn $0 \leq h \leq f \varphi_U$ (Ch. IV, §1, No. 1, Định nghĩa 1); do đó
 
 $$
 \int f \varphi_U \, d\mu \leq \int f' \varphi_U \, d\mu,
@@ -668,7 +668,7 @@ $$
 
 và vì $f' \varphi_U \leq f \varphi_U$ hầu khắp nơi, tất yếu $f \varphi_U = f' \varphi_U$ hầu khắp nơi, do đó $f = f'$ hầu khắp nơi địa phương.
 
-2° Cho $f'$ là một hàm trong $\mathcal{L}^\infty$ sao cho $\dot{f}'$ là cận dưới đúng trong $L^\infty$ của tập các lớp $\dot{\psi}$ của các hàm nửa liên tục dưới $\psi$ bị chặn và $\geq f$; khi đó $\dot{f}' \geq \dot{f}$. Cho $K$ là một tập con compact của $T$; với mọi hàm nửa liên tục dưới $h$ bị chặn và $\geq f \varphi_K$, đặt $\overline{h}$ là hàm bằng $h$ trên $K$ và bằng $\|f\| + \|h\|$ trên $T - K$. Khi đó $\overline{h}$ là nửa liên tục dưới và $\geq f$, do đó theo định nghĩa $\overline{h}(t) \geq f'(t)$ hầu khắp nơi địa phương; suy ra $h(t) \geq f'(t)\varphi_K(t)$ hầu khắp nơi, do đó $\int h d\mu \geq \int f'\varphi_K d\mu$. Nhưng $\int f\varphi_K d\mu = \inf \int h d\mu$, trong đó $h$ chạy trên tập các hàm nửa liên tục dưới bị chặn và $\geq f\varphi_K$ (Ch. IV, §1, No. 3, Def. 3); do đó
+2° Cho $f'$ là một hàm trong $\mathscr{L}^\infty$ sao cho $\dot{f}'$ là cận dưới đúng trong $L^\infty$ của tập các lớp $\dot{\psi}$ của các hàm nửa liên tục dưới $\psi$ bị chặn và $\geq f$; khi đó $\dot{f}' \geq \dot{f}$. Cho $K$ là một tập con compact của $T$; với mọi hàm nửa liên tục dưới $h$ bị chặn và $\geq f \varphi_K$, đặt $\overline{h}$ là hàm bằng $h$ trên $K$ và bằng $\|f\| + \|h\|$ trên $T - K$. Khi đó $\overline{h}$ là nửa liên tục dưới và $\geq f$, do đó theo định nghĩa $\overline{h}(t) \geq f'(t)$ hầu khắp nơi địa phương; suy ra $h(t) \geq f'(t)\varphi_K(t)$ hầu khắp nơi, do đó $\int h d\mu \geq \int f'\varphi_K d\mu$. Nhưng $\int f\varphi_K d\mu = \inf \int h d\mu$, trong đó $h$ chạy trên tập các hàm nửa liên tục dưới bị chặn và $\geq f\varphi_K$ (Ch. IV, §1, No. 3, Def. 3); do đó
 
 $$
 \int f\varphi_K d\mu \geq \int f'\varphi_K d\mu,
@@ -676,9 +676,9 @@ $$
 
 và vì $f\varphi_K \leq f'\varphi_K$ hầu khắp nơi, tất yếu $f\varphi_K = f'\varphi_K$ hầu khắp nơi, do đó $f = f'$ hầu khắp nơi địa phương.
 
-Bổ đề đã được chứng minh, cho $\theta$ là một dạng tuyến tính dương trên $\mathcal{L}^\infty$ thỏa mãn điều kiện trong phát biểu của Mệnh đề 14. Hạn chế của $\theta$ lên không gian $\mathcal{K}(T)$ là một độ đo dương $\nu$ trên $T$. Ta sẽ chứng minh rằng, với mọi hàm dương $f \in \mathcal{L}^\infty(T, \mu)$, ta có $\theta(f) = \nu^*(f)$. Trước hết, giả sử $f$ nửa liên tục dưới (và bị chặn); theo Bổ đề 4, $f$ là cận trên đúng của tập có hướng tăng các lớp $\dot{\varphi}$, trong đó $\varphi$ chạy qua tập có hướng $\Phi$ của các hàm trong $\mathcal{K}(T)$ sao cho $0 \leq \varphi \leq f$. Vì theo giả thiết $\theta(f) = \sup_{\varphi \in \Phi} \theta(\varphi)$, và $\nu^*(f) = \sup_{\varphi \in \Phi} \nu(\varphi)$ theo định nghĩa, nên mệnh đề của chúng ta được chứng minh trong trường hợp này. Thứ hai, giả sử $f$ là $\mu$-đo được và bị chặn; khi đó, theo định nghĩa, $\nu^*(f) = \inf_{\psi \in \Psi} \nu^*(\psi)$, trong đó $\psi$ chạy qua tập có hướng giảm $\Psi$ gồm các hàm nửa liên tục dưới, bị chặn và $\geq f$. Nếu $a \geq \|f\|$ thì, áp dụng giả thiết của phát biểu cho tập có hướng tăng các lớp của các hàm $a - \psi$, trong đó $\psi \in \Psi$ và $\psi \leq a$, ta thấy, nhờ bổ đề, rằng $\theta(f) = \inf_{\psi \in \Psi} \theta(\psi)$, do đó thật vậy $\theta(f) = \nu^*(f)$. Đặc biệt, với mọi hàm không đáng kể theo $\mu$ thỏa mãn $f \geq 0$, ta có $\theta(f) = 0$, do đó $\nu^*(f) = 0$ và suy ra (No. 5, Th. 2) $\nu$ là một độ đo *với cơ sở* $\mu$; hơn nữa, $\nu^*(1) = \theta(1) < +\infty$, suy ra (Cor. of Th. 1) $\nu = g \cdot \mu$ với $g \in \mathcal{L}^1(T, \mu)$. Cuối cùng, vì mọi hàm đo được theo $\mu$ đều đo được theo $\nu$, mọi hàm dương $f \in \mathcal{L}^\infty(T, \mu)$ đều khả tích theo $\nu$ và $\int fg d\mu = \nu^*(f) = \theta(f)$, điều đó kết thúc chứng minh.
+Bổ đề đã được chứng minh, cho $\theta$ là một dạng tuyến tính dương trên $\mathscr{L}^\infty$ thỏa mãn điều kiện trong phát biểu của Mệnh đề 14. Hạn chế của $\theta$ lên không gian $\mathscr{K}(T)$ là một độ đo dương $\nu$ trên $T$. Ta sẽ chứng minh rằng, với mọi hàm dương $f \in \mathscr{L}^\infty(T, \mu)$, ta có $\theta(f) = \nu^*(f)$. Trước hết, giả sử $f$ nửa liên tục dưới (và bị chặn); theo Bổ đề 4, $f$ là cận trên đúng của tập có hướng tăng các lớp $\dot{\varphi}$, trong đó $\varphi$ chạy qua tập có hướng $\Phi$ của các hàm trong $\mathscr{K}(T)$ sao cho $0 \leq \varphi \leq f$. Vì theo giả thiết $\theta(f) = \sup_{\varphi \in \Phi} \theta(\varphi)$, và $\nu^*(f) = \sup_{\varphi \in \Phi} \nu(\varphi)$ theo định nghĩa, nên mệnh đề của chúng ta được chứng minh trong trường hợp này. Thứ hai, giả sử $f$ là $\mu$-đo được và bị chặn; khi đó, theo định nghĩa, $\nu^*(f) = \inf_{\psi \in \Psi} \nu^*(\psi)$, trong đó $\psi$ chạy qua tập có hướng giảm $\Psi$ gồm các hàm nửa liên tục dưới, bị chặn và $\geq f$. Nếu $a \geq \|f\|$ thì, áp dụng giả thiết của phát biểu cho tập có hướng tăng các lớp của các hàm $a - \psi$, trong đó $\psi \in \Psi$ và $\psi \leq a$, ta thấy, nhờ bổ đề, rằng $\theta(f) = \inf_{\psi \in \Psi} \theta(\psi)$, do đó thật vậy $\theta(f) = \nu^*(f)$. Đặc biệt, với mọi hàm không đáng kể theo $\mu$ thỏa mãn $f \geq 0$, ta có $\theta(f) = 0$, do đó $\nu^*(f) = 0$ và suy ra (No. 5, Th. 2) $\nu$ là một độ đo *với cơ sở* $\mu$; hơn nữa, $\nu^*(1) = \theta(1) < +\infty$, suy ra (Cor. of Th. 1) $\nu = g \cdot \mu$ với $g \in \mathscr{L}^1(T, \mu)$. Cuối cùng, vì mọi hàm đo được theo $\mu$ đều đo được theo $\nu$, mọi hàm dương $f \in \mathscr{L}^\infty(T, \mu)$ đều khả tích theo $\nu$ và $\int fg d\mu = \nu^*(f) = \theta(f)$, điều đó kết thúc chứng minh.
 
-Suy ra từ Mệnh đề 14 rằng các dạng tuyến tính trên $\mathcal{L}^\infty$ có dạng $f \mapsto \int fg d\mu$, với $g \in \mathcal{L}^1$, là các hiệu $\theta_1 - \theta_2$, trong đó $\theta_1$ và $\theta_2$ là các dạng tuyến tính dương thỏa mãn điều kiện của Mệnh đề 14.
+Suy ra từ Mệnh đề 14 rằng các dạng tuyến tính trên $\mathscr{L}^\infty$ có dạng $f \mapsto \int fg d\mu$, với $g \in \mathscr{L}^1$, là các hiệu $\theta_1 - \theta_2$, trong đó $\theta_1$ và $\theta_2$ là các dạng tuyến tính dương thỏa mãn điều kiện của Mệnh đề 14.
 
 ### 9. Ứng dụng: II. Các hàm của các độ đo
 
@@ -746,7 +746,7 @@ Phương pháp này có thể áp dụng cho hàm số vô hướng thuần nh�
 
 — Độ đo Lebesgue trên $\mathbf{R}$ là phân tán (Ch. IV, §1, No. 3, *Nhận xét* 1).
 
-Nói rằng $\theta$ là một độ đo phân tán trên $T$ tức là nói rằng mọi tập có phần bù hữu hạn đều mang $|\theta|$, hay nói cách khác $|\theta|$ xung khắc với mọi độ đo điểm. Do đó các độ đo phân tán tạo thành một dải trong $\mathcal{M}(T)$ (Ch. II, §1, No. 5, ĐL. 1).
+Nói rằng $\theta$ là một độ đo phân tán trên $T$ tức là nói rằng mọi tập có phần bù hữu hạn đều mang $|\theta|$, hay nói cách khác $|\theta|$ xung khắc với mọi độ đo điểm. Do đó các độ đo phân tán tạo thành một dải trong $\mathscr{M}(T)$ (Ch. II, §1, No. 5, ĐL. 1).
 
 Nhắc lại (Ch. III, §1, No. 3) rằng một độ đo phức $\rho$ trên $T$ được gọi là *nguyên tử* nếu nó có dạng $\sum_{t \in T} \alpha(t) \varepsilon_t$, trong đó $\alpha$ là một hàm phức trên $T$ sao cho $\sum_{t \in K} |\alpha(t)| < +\infty$ với mọi tập con compact $K$ của $T$, điều đó biểu thị rằng họ $(\alpha(t) \varepsilon_t)_{t \in T}$ là khả tổng (§2, No. 1, Nhận xét 2). Khi đó suy ra từ nhận xét theo sau Hệ quả 3 của Mệnh đề 2 của No. 5 rằng $|\rho| = \sum_{t \in T} |\alpha(t)| \varepsilon_t$. Hàm $\alpha$ xuất hiện trong các công thức này được xác định duy nhất, vì $\alpha(t) = \rho(\{t\})$. Một độ đo nguyên tử và một độ đo phân tán xung khắc với nhau.
 

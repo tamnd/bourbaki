@@ -21,9 +21,9 @@ subsections:
       pdf_page: 34
 statements: 13
 exercises: 9
-content_sha256: b133c9a87d3d79ac1f029f636c7c643a48f3319af7f346fe7a4a75c0e1a5fd88
+content_sha256: 1061863f140042d60832ad7e011217ecac630cddd2dfc22f3e0a17e03db85720
 translated_from: content/en/int/II/02_s2_linear_forms_on_a_riesz_space.md
-source_content_sha256: a99ab6a381386c576f23c9ce042fe0f61cb8482740d72d2558bf85513a4bd7f4
+source_content_sha256: 9d00974d8a98c416163496def0aafa85ef87667b850822c6908abf8483ae2617
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-90bd1f49
 glossary_version: 34
@@ -53,7 +53,7 @@ Cho $I = [a, b]$ là một khoảng compact của $\mathbf{R}$, E là không gia
 
 #### Ví dụ 3 {#int-ii-s2-n1-exa-3 .statement}
 
-Cho F là một tập hợp bất kỳ, $\mathcal{U}$ là một siêu lọc trên F (GT, I, §6, No. 4), E là không gian Riesz $\mathcal{B}(F)$ của các hàm giá trị thực bị chặn trên F. Với mọi $x \in E$, $\lim_{\mathcal{U}} x(t)$ tồn tại, bởi vì $x(\mathcal{U})$ là một cơ sở của một siêu lọc trên tập compact tương đối $x(F)$, do đó là hội tụ. Hơn nữa, nếu $x \geq 0$ thì $\lim_{\mathcal{U}} x(t) \geq 0$ theo nguyên lý mở rộng của các bất đẳng thức; ánh xạ $x \mapsto \lim_{\mathcal{U}} x$ do đó là một dạng tuyến tính dương trên E. Nếu $\mathcal{U}$ được lấy là siêu lọc tạo bởi các tập chứa một phần tử $a \in F$, ta thu được lại dạng tuyến tính dương $x \mapsto x(a)$ (Ví dụ 1).
+Cho F là một tập hợp bất kỳ, $\mathscr{U}$ là một siêu lọc trên F (GT, I, §6, No. 4), E là không gian Riesz $\mathscr{B}(F)$ của các hàm giá trị thực bị chặn trên F. Với mọi $x \in E$, $\lim_{\mathscr{U}} x(t)$ tồn tại, bởi vì $x(\mathscr{U})$ là một cơ sở của một siêu lọc trên tập compact tương đối $x(F)$, do đó là hội tụ. Hơn nữa, nếu $x \geq 0$ thì $\lim_{\mathscr{U}} x(t) \geq 0$ theo nguyên lý mở rộng của các bất đẳng thức; ánh xạ $x \mapsto \lim_{\mathscr{U}} x$ do đó là một dạng tuyến tính dương trên E. Nếu $\mathscr{U}$ được lấy là siêu lọc tạo bởi các tập chứa một phần tử $a \in F$, ta thu được lại dạng tuyến tính dương $x \mapsto x(a)$ (Ví dụ 1).
 
 #### Mệnh đề 1 {#int-ii-s2-prop-1 .statement}
 
@@ -218,7 +218,7 @@ vì $\varepsilon$ là tùy ý, ta có $V(x) = 0$ với mọi $x \geq 0$, tức l
 
 #### Ví dụ {#int-ii-s2-n2-exa-1 .statement}
 
-Cho E là một không gian Riesz được trang bị một tôpô lồi địa phương tương thích với cấu trúc không gian vectơ có thứ tự của nó (TVS, II, §2, No. 7). Gọi E' là đối ngẫu tôpô của E, và giả sử thêm rằng nón P gồm các phần tử $\geqslant 0$ của E là *đầy đủ đối với tôpô yếu đi* $\sigma(E, E')$. Khi đó mọi dạng tuyến tính liên tục $x' \in E'$ đều *bị chặn tương đối*, vì người ta biết (TVS, II, §6, No. 8, Hệ quả 2 của Mệnh đề 11) rằng dưới các điều kiện ấy, với mọi $x \geqslant 0$ trong E, tập các $y \in E$ sao cho $|y| \leqslant x$ là *compact* đối với $\sigma(E, E')$. Từ đó ta suy ra rằng khi đó E là *dàn đầy đủ*; thật vậy, theo ($§ 1$, No. 3, Mệnh đề 2), chỉ cần chỉ ra rằng với mọi tập hợp $H \subset E$ bị chặn trên và có hướng đối với $\leqslant$, bộ lọc tiết diện $\mathcal{F}$ của H là *hội tụ trong E đối với tôpô* $\sigma(E, E')$ (tôpô sau tương thích với cấu trúc không gian vectơ có thứ tự của E). Bằng phép tịnh tiến, ta có thể giả sử rằng $H \subset P$, và khi đó chỉ cần chỉ ra rằng $\mathcal{F}$ là một *bộ lọc Cauchy* đối với $\sigma(E, E')$, hay cũng thế, rằng mọi dạng tuyến tính liên tục $x' \in E'$ đều có một giới hạn đối với $\mathcal{F}$. Nhưng điều này suy ra ngay từ định lý giới hạn đơn điệu khi $x'$ là một dạng tuyến tính *dương*, và vì mọi dạng tuyến tính $x' \in E'$ là hiệu của hai dạng tuyến tính dương (Định lý 1) nên mệnh đề của chúng ta được chứng minh.
+Cho E là một không gian Riesz được trang bị một tôpô lồi địa phương tương thích với cấu trúc không gian vectơ có thứ tự của nó (TVS, II, §2, No. 7). Gọi E' là đối ngẫu tôpô của E, và giả sử thêm rằng nón P gồm các phần tử $\geqslant 0$ của E là *đầy đủ đối với tôpô yếu đi* $\sigma(E, E')$. Khi đó mọi dạng tuyến tính liên tục $x' \in E'$ đều *bị chặn tương đối*, vì người ta biết (TVS, II, §6, No. 8, Hệ quả 2 của Mệnh đề 11) rằng dưới các điều kiện ấy, với mọi $x \geqslant 0$ trong E, tập các $y \in E$ sao cho $|y| \leqslant x$ là *compact* đối với $\sigma(E, E')$. Từ đó ta suy ra rằng khi đó E là *dàn đầy đủ*; thật vậy, theo ($§ 1$, No. 3, Mệnh đề 2), chỉ cần chỉ ra rằng với mọi tập hợp $H \subset E$ bị chặn trên và có hướng đối với $\leqslant$, bộ lọc tiết diện $\mathscr{F}$ của H là *hội tụ trong E đối với tôpô* $\sigma(E, E')$ (tôpô sau tương thích với cấu trúc không gian vectơ có thứ tự của E). Bằng phép tịnh tiến, ta có thể giả sử rằng $H \subset P$, và khi đó chỉ cần chỉ ra rằng $\mathscr{F}$ là một *bộ lọc Cauchy* đối với $\sigma(E, E')$, hay cũng thế, rằng mọi dạng tuyến tính liên tục $x' \in E'$ đều có một giới hạn đối với $\mathscr{F}$. Nhưng điều này suy ra ngay từ định lý giới hạn đơn điệu khi $x'$ là một dạng tuyến tính *dương*, và vì mọi dạng tuyến tính $x' \in E'$ là hiệu của hai dạng tuyến tính dương (Định lý 1) nên mệnh đề của chúng ta được chứng minh.
 
 Bài tập
 

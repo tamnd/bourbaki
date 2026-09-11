@@ -40,7 +40,7 @@ subsections:
       pdf_page: 106
 statements: 32
 exercises: 21
-content_sha256: e9a23021c716217591374b684c9924babbabd30581884ea5589fb627bba7b49d
+content_sha256: 28e24f1394ba64a761548c1bcc04c55acd1b720d24ccc62d40d616be83b3ed2d
 ---
 
 ## § 8. — Produits de mesures
@@ -91,7 +91,7 @@ Cela résulte du th. 2 du § 4, n° 4, compte tenu de ce que $t' \mapsto (t, t')
 
 #### Remarque {#int-v-s8-n1-rem-1 .statement}
 
-On peut démontrer fort simplement les lemmes 1, 2, 3 sans faire usage des résultats des §§ 4 et 6, par un raisonnement direct. Par exemple, la relation (2) est évidente par définition si $f \in \mathcal{H}(T \times T')$. Si $f$ est semi-continue inférieurement dans $X = T \times T'$, il suffit de remarquer que $t' \mapsto f_t(t')$ est l’enveloppe supérieure des fonctions $t' \mapsto g_t(t') = g(t, t')$, où $g$ parcourt l’ensemble des fonctions de $\mathscr{K}(X)$ telles que $0 \leq g \leq f$. Enfin, pour $f$ quelconque, on notera que si $h \geq f$ est semi-continue inférieurement dans $X$, $t' \mapsto h(t, t')$ est semi-continue inférieurement dans $T'$; et réciproquement, si $t' \mapsto u(t')$ est semi-continue inférieurement dans $T'$ et telle que $u(t') \geq f(t, t')$ pour tout $t' \in T'$, la fonction $h$ telle que $h(t, t') = u(t'), h(t_1, t') = +\infty$ pour $t_1 \neq t$, est semi-continue inférieurement dans $X$ et telle que $h \geq f$. Une fois le lemme 1 démontré, on en déduit que l’ensemble $(T - \{t\}) \times T'$ est $\lambda'_t$-négligeable, et il est alors très facile de démontrer les lemmes 2 et 3.
+On peut démontrer fort simplement les lemmes 1, 2, 3 sans faire usage des résultats des §§ 4 et 6, par un raisonnement direct. Par exemple, la relation (2) est évidente par définition si $f \in \mathscr{H}(T \times T')$. Si $f$ est semi-continue inférieurement dans $X = T \times T'$, il suffit de remarquer que $t' \mapsto f_t(t')$ est l’enveloppe supérieure des fonctions $t' \mapsto g_t(t') = g(t, t')$, où $g$ parcourt l’ensemble des fonctions de $\mathscr{K}(X)$ telles que $0 \leq g \leq f$. Enfin, pour $f$ quelconque, on notera que si $h \geq f$ est semi-continue inférieurement dans $X$, $t' \mapsto h(t, t')$ est semi-continue inférieurement dans $T'$; et réciproquement, si $t' \mapsto u(t')$ est semi-continue inférieurement dans $T'$ et telle que $u(t') \geq f(t, t')$ pour tout $t' \in T'$, la fonction $h$ telle que $h(t, t') = u(t'), h(t_1, t') = +\infty$ pour $t_1 \neq t$, est semi-continue inférieurement dans $X$ et telle que $h \geq f$. Une fois le lemme 1 démontré, on en déduit que l’ensemble $(T - \{t\}) \times T'$ est $\lambda'_t$-négligeable, et il est alors très facile de démontrer les lemmes 2 et 3.
 
 La relation (3) permet de noter les deux membres $\int \mathbf{f}(t, t')\ d\mu'(t')$ sans risque de confusion. On a évidemment des résultats analogues pour les mesures $\lambda_{t'} = \mu \otimes \varepsilon_{t'}$.
 
@@ -468,7 +468,7 @@ Ce résultat s’étend aussitôt au produit de deux mesures complexes (applique
 
 Soit X (resp. X') un sous-espace localement compact de T (resp. T'). Alors la mesure induite $(\mu \otimes \mu')_{X \times X'}$ sur le sous-espace localement compact $X \times X'$ de $T \times T'$ est égale au produit $\mu_X \otimes \mu'_{X'}$ des mesures induites sur X et X' par $\mu$ et $\mu'$ respectivement.
 
-En effet, si $f \in \mathcal{H}(X)$ et $f' \in \mathcal{H}(X')$, on a
+En effet, si $f \in \mathscr{H}(X)$ et $f' \in \mathscr{H}(X')$, on a
 
 $$
 \iint_{X \times X'} f(t)f'(t')\, d\mu(t)\, d\mu'(t') = \left( \int_X f(t)\, d\mu(t) \right) \left( \int_{X'} f'(t')\, d\mu'(t') \right)

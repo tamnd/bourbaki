@@ -56,7 +56,7 @@ subsections:
       pdf_page: 90
 statements: 36
 exercises: 1
-content_sha256: 0b5b3f4a4f362a6f69b7c16f24e0c4ae99f4af32847706523f3c692b32578883
+content_sha256: ff833bcdb95c00c4a1d79240bf1b3c1523ab0295443d6a66843db7fa15dc03f1
 ---
 
 ## § 6. Promesures et mesures sur un espace localement convexe
@@ -65,45 +65,45 @@ Dans tout ce paragraphe, on ne considère que des espaces vectoriels sur le corp
 
 ### 1. Promesures sur un espace localement convexe
 
-Soit $E$ un espace localement convexe. On note $\mathcal{F}(E)$ l’ensemble des sous-espaces vectoriels fermés de codimension finie de $E$, ordonné par la relation $\supset$. Pour tout $V \in \mathcal{F}(E)$, on note $p_V$ l’application canonique de $E$ sur $E/V$. Soient $V$ et $W$ deux éléments de $\mathcal{F}(E)$ tels que $V \supset W$; on note $p_{VW}$ l’application de $E/W$ dans $E/V$ déduite par passage aux quotients de l’application identique de $E$. La famille $\mathcal{Q}(E) = (E/V, p_{VW})$ est un système projectif d’espaces localement convexes, indexé par $\mathcal{F}(E)$. On l’appelle le *système projectif des quotients de dimension finie de* $E$.
+Soit $E$ un espace localement convexe. On note $\mathscr{F}(E)$ l’ensemble des sous-espaces vectoriels fermés de codimension finie de $E$, ordonné par la relation $\supset$. Pour tout $V \in \mathscr{F}(E)$, on note $p_V$ l’application canonique de $E$ sur $E/V$. Soient $V$ et $W$ deux éléments de $\mathscr{F}(E)$ tels que $V \supset W$; on note $p_{VW}$ l’application de $E/W$ dans $E/V$ déduite par passage aux quotients de l’application identique de $E$. La famille $\mathscr{Q}(E) = (E/V, p_{VW})$ est un système projectif d’espaces localement convexes, indexé par $\mathscr{F}(E)$. On l’appelle le *système projectif des quotients de dimension finie de* $E$.
 
-On peut montrer que la limite projective du système projectif $\mathcal{Q}(E)$ est canoniquement isomorphe au dual algébrique ${E'}^*$ de $E'$, muni de la topologie faible $\sigma({E'}^*, E')$.
+On peut montrer que la limite projective du système projectif $\mathscr{Q}(E)$ est canoniquement isomorphe au dual algébrique ${E'}^*$ de $E'$, muni de la topologie faible $\sigma({E'}^*, E')$.
 
 #### Définition 1 {#int-ix-s6-def-1 .statement}
 
 *Soit $E$ un espace localement convexe. On appelle promesure sur $E$ tout système projectif de mesures ($§ 4$, no 2, déf. 1) sur le système projectif des quotients de dimension finie de $E$.*
 
-En d’autres termes, une promesure $\mu$ sur $E$ est une famille $(\mu_V)_{V \in \mathcal{F}(E)}$, où $\mu_V$ est une mesure (positive) bornée sur l’espace de dimension finie E/V, et où $\mu_V = p_{VW}(\mu_W)$ lorsque V ⊃ W. Toutes les mesures $\mu_V$ ont la même masse totale que l’on appelle la *masse totale* de la promesure $\mu$.
+En d’autres termes, une promesure $\mu$ sur $E$ est une famille $(\mu_V)_{V \in \mathscr{F}(E)}$, où $\mu_V$ est une mesure (positive) bornée sur l’espace de dimension finie E/V, et où $\mu_V = p_{VW}(\mu_W)$ lorsque V ⊃ W. Toutes les mesures $\mu_V$ ont la même masse totale que l’on appelle la *masse totale* de la promesure $\mu$.
 
-Pour qu’un sous-espace V de E appartienne à $\mathcal{F}(E)$, il faut et il suffit qu’il existe un nombre fini d’éléments $x'_1, \ldots, x'_n$ de E’ tels que V se compose des $x \in E$ satisfaisant à $\langle x, x'_i \rangle = 0$ pour $1 \leq i \leq n$ (*Esp. vect. top.*, chap. II, 2e éd., § 6, n° 3, cor. 2 du th. 1 et n° 5, cor. 2 de la prop. 7). De plus, il existe sur un espace vectoriel de dimension finie une seule topologie séparée d’espace vectoriel topologique (*loc. cit.*, chap. I, § 2, n° 3, th. 2). Par suite, la notion de promesure sur E ne dépend que du dual E’ de E.
+Pour qu’un sous-espace V de E appartienne à $\mathscr{F}(E)$, il faut et il suffit qu’il existe un nombre fini d’éléments $x'_1, \ldots, x'_n$ de E’ tels que V se compose des $x \in E$ satisfaisant à $\langle x, x'_i \rangle = 0$ pour $1 \leq i \leq n$ (*Esp. vect. top.*, chap. II, 2e éd., § 6, n° 3, cor. 2 du th. 1 et n° 5, cor. 2 de la prop. 7). De plus, il existe sur un espace vectoriel de dimension finie une seule topologie séparée d’espace vectoriel topologique (*loc. cit.*, chap. I, § 2, n° 3, th. 2). Par suite, la notion de promesure sur E ne dépend que du dual E’ de E.
 
-Soit $\lambda$ une mesure bornée sur E. Pour tout $V \in \mathcal{F}(E)$, notons $\tilde{\lambda}_V$ l’image de $\lambda$ par l’application canonique $p_V$ de E sur E/V. On a $p_V = p_{VW} \circ p_W$ pour deux éléments V et W de $\mathcal{F}(E)$ tels que V ⊃ W; par suite, la famille $\tilde{\lambda} = (\tilde{\lambda}_V)_{V \in \mathcal{F}(E)}$ est une promesure sur E. Nous dirons que $\tilde{\lambda}$ est la promesure *associée* à la mesure $\lambda$. On voit immédiatement que $\lambda$ et $\tilde{\lambda}$ ont même masse totale.
+Soit $\lambda$ une mesure bornée sur E. Pour tout $V \in \mathscr{F}(E)$, notons $\tilde{\lambda}_V$ l’image de $\lambda$ par l’application canonique $p_V$ de E sur E/V. On a $p_V = p_{VW} \circ p_W$ pour deux éléments V et W de $\mathscr{F}(E)$ tels que V ⊃ W; par suite, la famille $\tilde{\lambda} = (\tilde{\lambda}_V)_{V \in \mathscr{F}(E)}$ est une promesure sur E. Nous dirons que $\tilde{\lambda}$ est la promesure *associée* à la mesure $\lambda$. On voit immédiatement que $\lambda$ et $\tilde{\lambda}$ ont même masse totale.
 
 #### Proposition 1 {#int-ix-s6-prop-1 .statement}
 
-*Soit E un espace localement convexe. L’application $\lambda \mapsto \tilde{\lambda}$ est une bijection de l’ensemble des mesures bornées sur E sur l’ensemble des promesures $(\mu_V)_{V \in \mathcal{F}(E)}$ sur E satisfaisant à la condition suivante*:
+*Soit E un espace localement convexe. L’application $\lambda \mapsto \tilde{\lambda}$ est une bijection de l’ensemble des mesures bornées sur E sur l’ensemble des promesures $(\mu_V)_{V \in \mathscr{F}(E)}$ sur E satisfaisant à la condition suivante*:
 
-*Pour tout $\varepsilon > 0$, il existe une partie compacte K de E telle que l’on ait $\mu_V(E/V - p_V(K)) \leq \varepsilon$ pour tout $V \in \mathcal{F}(E)$.*
+*Pour tout $\varepsilon > 0$, il existe une partie compacte K de E telle que l’on ait $\mu_V(E/V - p_V(K)) \leq \varepsilon$ pour tout $V \in \mathscr{F}(E)$.*
 
-On sait que l’intersection des noyaux des formes linéaires continues sur E est égale à 0 (*Esp. vect. top.*, chap. II, 2e éd., § 4, n° 2, cor. 1 de la prop. 2); on a par suite $\bigcap_{V \in \mathcal{F}(E)} V = \{0\}$ et la famille $(p_V)_{V \in \mathcal{F}(E)}$ est cohérente et séparante. La proposition résulte alors du th. 1 du § 4, n° 2.
+On sait que l’intersection des noyaux des formes linéaires continues sur E est égale à 0 (*Esp. vect. top.*, chap. II, 2e éd., § 4, n° 2, cor. 1 de la prop. 2); on a par suite $\bigcap_{V \in \mathscr{F}(E)} V = \{0\}$ et la famille $(p_V)_{V \in \mathscr{F}(E)}$ est cohérente et séparante. La proposition résulte alors du th. 1 du § 4, n° 2.
 
-En particulier, l’application $\lambda \mapsto \tilde{\lambda}$ est injective. Si $\mu$ est une promesure sur E, et s’il existe une mesure bornée $\lambda$ sur E telle que $\mu = \tilde{\lambda}$, nous dirons par abus de langage que $\mu$ est une mesure. Si E est de dimension finie, toute promesure $\mu = (\mu_V)_{V \in \mathcal{F}(E)}$ est une mesure: en effet, on a $\{0\} \in \mathcal{F}(E)$, $E/\{0\} = E$ et $p_{V,\{0\}} = p_V$, d’où $\mu_V = p_V(\mu_{\{0\}})$ pour tout $V \in \mathcal{F}(E)$; autrement dit, on a $\mu = \tilde{\lambda}$ avec $\lambda = \mu_{\{0\}}$.
+En particulier, l’application $\lambda \mapsto \tilde{\lambda}$ est injective. Si $\mu$ est une promesure sur E, et s’il existe une mesure bornée $\lambda$ sur E telle que $\mu = \tilde{\lambda}$, nous dirons par abus de langage que $\mu$ est une mesure. Si E est de dimension finie, toute promesure $\mu = (\mu_V)_{V \in \mathscr{F}(E)}$ est une mesure: en effet, on a $\{0\} \in \mathscr{F}(E)$, $E/\{0\} = E$ et $p_{V,\{0\}} = p_V$, d’où $\mu_V = p_V(\mu_{\{0\}})$ pour tout $V \in \mathscr{F}(E)$; autrement dit, on a $\mu = \tilde{\lambda}$ avec $\lambda = \mu_{\{0\}}$.
 
 #### Proposition 2 {#int-ix-s6-prop-2 .statement}
 
 *Soient T un ensemble dénombrable, et E l’espace des fonctions réelles sur T, muni de la topologie de la convergence simple. Toute promesure sur E est une mesure.*
 
-Pour tout $t \in T$, soit $\varepsilon_t$ la forme linéaire $f \mapsto f(t)$ sur E. On sait (*Esp. vect. top.*, chap. II, 2e éd., § 6, n° 6, cor. 2 de la prop. 8) que la famille $(\varepsilon_t)_{t \in T}$ est une base de l’espace vectoriel E’. On note par ailleurs $\Phi$ l’ensemble des parties finies de T, et pour tout $J \in \Phi$, on note $E_J$ l’ensemble des fonctions sur T nulles en tout point de J. Soit $F \in \mathcal{F}(E)$; comme l’orthogonal $F^0$ de F est un sous-espace de dimension finie de E’, il existe $J \in \Phi$ telle que $F^0$ soit contenu dans le sous-espace G de E’ engendré par les $\varepsilon_t$ pour $t \in J$. Comme $F^0 \subset G$, on a
+Pour tout $t \in T$, soit $\varepsilon_t$ la forme linéaire $f \mapsto f(t)$ sur E. On sait (*Esp. vect. top.*, chap. II, 2e éd., § 6, n° 6, cor. 2 de la prop. 8) que la famille $(\varepsilon_t)_{t \in T}$ est une base de l’espace vectoriel E’. On note par ailleurs $\Phi$ l’ensemble des parties finies de T, et pour tout $J \in \Phi$, on note $E_J$ l’ensemble des fonctions sur T nulles en tout point de J. Soit $F \in \mathscr{F}(E)$; comme l’orthogonal $F^0$ de F est un sous-espace de dimension finie de E’, il existe $J \in \Phi$ telle que $F^0$ soit contenu dans le sous-espace G de E’ engendré par les $\varepsilon_t$ pour $t \in J$. Comme $F^0 \subset G$, on a
 
 $$
 E_J = G^0 \subset F^{00} = F
 $$
 
-et la famille *dénombrable* $(E_J)_{J \in \Phi}$ est cofinale dans $\mathcal{F}(E)$. La prop. résulte alors du th. 2 du § 4, n° 3.
+et la famille *dénombrable* $(E_J)_{J \in \Phi}$ est cofinale dans $\mathscr{F}(E)$. La prop. résulte alors du th. 2 du § 4, n° 3.
 
 ### 2. Image d'une promesure
 
-Soient $E$ et $E_1$ deux espaces localement convexes, et $u$ une application linéaire continue de $E$ dans $E_1$. Pour tout $V_1 \in \mathcal{F}(E_1)$, le sous-espace $V = u^{-1}(V_1)$ de $E$ appartient à $\mathcal{F}(E)$, et $u$ définit par passage aux quotients une application linéaire $u_{V_1}$ de $E/V$ dans $E_1/V_1$. Soient $V_1$ et $W_1$ dans $\mathcal{F}(E_1)$ tels que $V_1 \supset W_1$; posons $V = u^{-1}(V_1)$ et $W = u^{-1}(W_1)$. On a $V \supset W$ et un diagramme commutatif
+Soient $E$ et $E_1$ deux espaces localement convexes, et $u$ une application linéaire continue de $E$ dans $E_1$. Pour tout $V_1 \in \mathscr{F}(E_1)$, le sous-espace $V = u^{-1}(V_1)$ de $E$ appartient à $\mathscr{F}(E)$, et $u$ définit par passage aux quotients une application linéaire $u_{V_1}$ de $E/V$ dans $E_1/V_1$. Soient $V_1$ et $W_1$ dans $\mathscr{F}(E_1)$ tels que $V_1 \supset W_1$; posons $V = u^{-1}(V_1)$ et $W = u^{-1}(W_1)$. On a $V \supset W$ et un diagramme commutatif
 
 $$
 \begin{array}{ccc}
@@ -120,30 +120,30 @@ E_1/W_1 & \xrightarrow{p_{V_1W_1}} & E_1/V_1.
 \end{array}
 $$
 
-Soit alors $\mu = (\mu_V)_{V \in \mathcal{F}(E)}$ une promesure sur $E$. Pour tout $V_1 \in \mathcal{F}(E_1)$, posons
+Soit alors $\mu = (\mu_V)_{V \in \mathscr{F}(E)}$ une promesure sur $E$. Pour tout $V_1 \in \mathscr{F}(E_1)$, posons
 $$(1)$$
 $$\nu_{V_1} = u_{V_1}(\mu_{u^{-1}(V_1)}).$$
-La commutativité du diagramme précédent montre que la famille $\nu = (\nu_{V_1})_{V_1 \in \mathcal{F}(E_1)}$ est une promesure sur $E_1$. On dit que $\nu$ *est l'image de* $\mu$ *par* $u$, et on la note $u(\mu)$.
+La commutativité du diagramme précédent montre que la famille $\nu = (\nu_{V_1})_{V_1 \in \mathscr{F}(E_1)}$ est une promesure sur $E_1$. On dit que $\nu$ *est l'image de* $\mu$ *par* $u$, et on la note $u(\mu)$.
 
 Soient $\lambda$ une mesure bornée sur $E$ et $u(\lambda)$ la mesure sur $E_1$ image de $\lambda$ par $u$. Si la promesure $\mu$ est associée à $\lambda$, la promesure $u(\mu)$ est associée à $u(\lambda)$. Cela résulte de la commutativité du diagramme précédent.
 
-Soit $V \in \mathcal{F}(E)$. Il est immédiat que la promesure sur $E/V$ image de la promesure $\mu$ par l'application canonique $p_V : E \to E/V$ est associée à la mesure $\mu_V$.
+Soit $V \in \mathscr{F}(E)$. Il est immédiat que la promesure sur $E/V$ image de la promesure $\mu$ par l'application canonique $p_V : E \to E/V$ est associée à la mesure $\mu_V$.
 
 Soit $u_1$ une application linéaire continue de $E_1$ dans un espace localement convexe $E_2$. On établit sans peine la relation $(u_1 \circ u)(\mu) = u_1(u(\mu))$ (« transitivité de l'image des promesures »).
 
 ### 3. Transformée de Fourier d'une promesure
 
-Soient $E$ un espace localement convexe et $\mu = (\mu_V)_{V \in \mathcal{F}(E)}$ une promesure sur $E$. Pour toute forme linéaire continue $x'$ sur $E$, on note $\mu_{x'}$ la mesure sur $\mathbf{R}$ image par $x'$ de la promesure $\mu$ sur $E$. La transformée de Fourier de $\mu$ est la fonction $\mathcal{F}\mu$ sur $E'$ définie par
+Soient $E$ un espace localement convexe et $\mu = (\mu_V)_{V \in \mathscr{F}(E)}$ une promesure sur $E$. Pour toute forme linéaire continue $x'$ sur $E$, on note $\mu_{x'}$ la mesure sur $\mathbf{R}$ image par $x'$ de la promesure $\mu$ sur $E$. La transformée de Fourier de $\mu$ est la fonction $\mathscr{F}\mu$ sur $E'$ définie par
 $$(2)$$
-$$(\mathcal{F}\mu)(x') = \int_{\mathbf{R}} e^{it} d\mu_{x'}(t).$$
+$$(\mathscr{F}\mu)(x') = \int_{\mathbf{R}} e^{it} d\mu_{x'}(t).$$
 
 Soit $\lambda$ une mesure bornée sur E. La transformée de Fourier de $\lambda$ est la fonction sur $E'$ définie par
 
 $$
-(\mathcal{F}\lambda)(x') = \int_E e^{i\langle x, x' \rangle} d\lambda(x).
+(\mathscr{F}\lambda)(x') = \int_E e^{i\langle x, x' \rangle} d\lambda(x).
 $$
 
-Soit $\mu$ la promesure associée à $\lambda$. Pour tout $x' \in E'$, la mesure $\mu_{x'}$ sur $\mathbf{R}$ est l’image par $x': E \to \mathbf{R}$ de la mesure $\lambda$ sur E; des formules (2) et (3), on déduit aussitôt $\mathcal{F}\mu = \mathcal{F}\lambda$.
+Soit $\mu$ la promesure associée à $\lambda$. Pour tout $x' \in E'$, la mesure $\mu_{x'}$ sur $\mathbf{R}$ est l’image par $x': E \to \mathbf{R}$ de la mesure $\lambda$ sur E; des formules (2) et (3), on déduit aussitôt $\mathscr{F}\mu = \mathscr{F}\lambda$.
 
 Soient $\mu$ une promesure quelconque sur E, $u$ une application linéaire continue de E dans un espace localement convexe $E_1$. Notons $^t u$ l’application linéaire de $E'_1$ dans $E'$ transposée de $u$ et $v$ la promesure $u(\mu)$ sur $E_1$. Pour tout $x'_1 \in E'_1$, on a $^t u(x'_1) = x'_1 \circ u$, d’où
 
@@ -154,20 +154,20 @@ $$
 On a par suite
 
 $$
-\mathcal{F}(u(\mu)) = (\mathcal{F}\mu) \circ ^t u.
+\mathscr{F}(u(\mu)) = (\mathscr{F}\mu) \circ ^t u.
 $$
 
-En particulier, prenons pour $u$ l’application canonique $p_V$ de E sur $E/V$ (pour $V \in \mathcal{F}(E)$). La promesure $p_V(\mu)$ sur $E/V$ est associée à la mesure $\mu_V$, et $^t p_V$ est un isomorphisme du dual de $E/V$ sur le sous-espace $V^0$ de $E'$ orthogonal à V. Si nous identifions $(E/V)'$ à $V^0$ par $^t p_V$, on a
+En particulier, prenons pour $u$ l’application canonique $p_V$ de E sur $E/V$ (pour $V \in \mathscr{F}(E)$). La promesure $p_V(\mu)$ sur $E/V$ est associée à la mesure $\mu_V$, et $^t p_V$ est un isomorphisme du dual de $E/V$ sur le sous-espace $V^0$ de $E'$ orthogonal à V. Si nous identifions $(E/V)'$ à $V^0$ par $^t p_V$, on a
 
 $$
-(\mathcal{F}\mu)(x') = \int_{E/V} e^{i\langle x, x' \rangle} d\mu_V(x)
+(\mathscr{F}\mu)(x') = \int_{E/V} e^{i\langle x, x' \rangle} d\mu_V(x)
 $$
 
-pour tout $x' \in V^0$. On a $E' = \bigcup_{V \in \mathcal{F}(E)} V^0$, de sorte que la formule précédente caractérise la fonction $\mathcal{F}\mu$ sur $E'$. Enfin, si l’on fait $x' = 0$ dans (5), on voit que la masse totale de $\mu$ est égale à $(\mathcal{F}\mu)(0)$.
+pour tout $x' \in V^0$. On a $E' = \bigcup_{V \in \mathscr{F}(E)} V^0$, de sorte que la formule précédente caractérise la fonction $\mathscr{F}\mu$ sur $E'$. Enfin, si l’on fait $x' = 0$ dans (5), on voit que la masse totale de $\mu$ est égale à $(\mathscr{F}\mu)(0)$.
 
 #### Proposition 3 {#int-ix-s6-prop-3 .statement}
 
-*Soit E un espace localement convexe. L’application $\mu \mapsto \mathcal{F}\mu$ de l’ensemble des promesures sur E dans l’ensemble des fonctions sur E’ est injective.*
+*Soit E un espace localement convexe. L’application $\mu \mapsto \mathscr{F}\mu$ de l’ensemble des promesures sur E dans l’ensemble des fonctions sur E’ est injective.*
 
 La formule (5) permet de se ramener au cas où E est de dimension finie; comme tout espace de dimension finie est isomorphe à un espace $\mathbf{R}^n$, nous pouvons même supposer qu’il existe un entier $n \geqslant 0$ tel que $E = \mathbf{R}^n$. Nous avons donc à prouver que si $\mu$ est une mesure bornée (non nécessairement positive) sur $\mathbf{R}^n$ et si
 
@@ -177,9 +177,9 @@ $$
 
 pour toute forme linéaire $y$ sur $\mathbf{R}^n$, on a $\mu = 0$.
 
-Pour tout entier $m \geqslant 0$, soit $G_m$ le sous-groupe $m.\mathbf{Z}^n$ de $\mathbf{R}^n$. On note $\mathcal{C}_m$ l’espace vectoriel des fonctions continues $f$ sur $\mathbf{R}^n$ telles que $f(x + a) = f(x)$ pour $x \in \mathbf{R}^n$ et $a \in G_m$. D’après la prop. 8 de Top. gén., chap. X, 2e éd., § 4, n° 4, toute fonction de $\mathcal{C}_m$ est limite uniforme de combinaisons linéaires finies de fonctions du type $x \mapsto e^{2\pi i \langle x, q \rangle}$ avec $q \in m^{-1}.\mathbf{Z}^n$. On a donc $\mu(f) = 0$ pour toute fonction $f \in \mathcal{C}_m$.
+Pour tout entier $m \geqslant 0$, soit $G_m$ le sous-groupe $m.\mathbf{Z}^n$ de $\mathbf{R}^n$. On note $\mathscr{C}_m$ l’espace vectoriel des fonctions continues $f$ sur $\mathbf{R}^n$ telles que $f(x + a) = f(x)$ pour $x \in \mathbf{R}^n$ et $a \in G_m$. D’après la prop. 8 de Top. gén., chap. X, 2e éd., § 4, n° 4, toute fonction de $\mathscr{C}_m$ est limite uniforme de combinaisons linéaires finies de fonctions du type $x \mapsto e^{2\pi i \langle x, q \rangle}$ avec $q \in m^{-1}.\mathbf{Z}^n$. On a donc $\mu(f) = 0$ pour toute fonction $f \in \mathscr{C}_m$.
 
-Soit $f$ une fonction continue à support compact sur $\mathbf{R}^n$. Pour tout entier $m \geq 0$, posons $f_m(x) = \sum_{q \in G_m} f(x + q)$. Il est immédiat que pour tout $x \in \mathbf{R}^n$, la série précédente n’a qu’un nombre fini de termes, et que $f_m$ appartient à $\mathcal{C}_m$. De plus, on voit facilement que la suite $(f_m)$ tend uniformément vers $f$ sur tout compact, et qu’il existe une constante $C \geq 0$ telle que $|f_m| \leq C$ pour tout $m$. On a par suite $\mu(f) = \lim_{m \to \infty} \mu(f_m)$ d’après la prop. 12 du § 5, n° 6. Comme on a $f_m \in \mathcal{C}_m$, on a $\mu(f_m) = 0$, d’où finalement $\mu(f) = 0$. On a donc $\mu = 0$.
+Soit $f$ une fonction continue à support compact sur $\mathbf{R}^n$. Pour tout entier $m \geq 0$, posons $f_m(x) = \sum_{q \in G_m} f(x + q)$. Il est immédiat que pour tout $x \in \mathbf{R}^n$, la série précédente n’a qu’un nombre fini de termes, et que $f_m$ appartient à $\mathscr{C}_m$. De plus, on voit facilement que la suite $(f_m)$ tend uniformément vers $f$ sur tout compact, et qu’il existe une constante $C \geq 0$ telle que $|f_m| \leq C$ pour tout $m$. On a par suite $\mu(f) = \lim_{m \to \infty} \mu(f_m)$ d’après la prop. 12 du § 5, n° 6. Comme on a $f_m \in \mathscr{C}_m$, on a $\mu(f_m) = 0$, d’où finalement $\mu(f) = 0$. On a donc $\mu = 0$.
 
 *Remarque. — Lorsque E est de dimension finie, tout caractère de E est de la forme $x \mapsto e^{i\langle x, x' \rangle}$ avec $x' \in E'$ (Théor. spect., chap. II, § 1, n° 9, cor. 3 de la prop. 12). La prop. 3 résulte dans ce cas du théorème d’unicité pour la transformation de Fourier (loc. cit., § 1, n° 6, cor. de la prop. 6).*
 
@@ -294,9 +294,9 @@ d’après (14). La formule (11) résulte alors de (12).
 
 #### Proposition 4 {#int-ix-s6-prop-4 .statement}
 
-Soit E un espace localement convexe. Pour toute forme quadratique positive Q sur E', il existe une promesure $\Gamma_Q$ sur E et une seule, telle que $\mathcal{F}\Gamma_Q = e^{-Q/2}$. La masse totale de $\Gamma_Q$ est égale à 1.
+Soit E un espace localement convexe. Pour toute forme quadratique positive Q sur E', il existe une promesure $\Gamma_Q$ sur E et une seule, telle que $\mathscr{F}\Gamma_Q = e^{-Q/2}$. La masse totale de $\Gamma_Q$ est égale à 1.
 
-L’unicité de $\Gamma_Q$ résulte de la proposition 3 du n° 3. La masse totale de $\Gamma_Q$ est égale à $(\mathcal{F}\Gamma_Q)(0) = e^{-Q(0)/2} = 1$. Nous démontrons l’existence par étapes.
+L’unicité de $\Gamma_Q$ résulte de la proposition 3 du n° 3. La masse totale de $\Gamma_Q$ est égale à $(\mathscr{F}\Gamma_Q)(0) = e^{-Q(0)/2} = 1$. Nous démontrons l’existence par étapes.
 
 A) E est de dimension finie n et Q est non dégénérée.
 
@@ -324,21 +324,21 @@ $$
 = \exp \left( -\frac{1}{2}(a_1^2 + \cdots + a_n^2) \right) = \exp \left( -\frac{1}{2}Q(x') \right).
 $$
 
-Par suite, on a $\mathcal{F}\Gamma_Q = e^{-Q/2}$.
+Par suite, on a $\mathscr{F}\Gamma_Q = e^{-Q/2}$.
 
 B) E est de dimension finie.
 
-Soit N le sous-espace vectoriel de E' formé des $x'$ tels que $Q(x') = 0$. Notons M l’orthogonal de N dans E et j l’injection canonique de M dans E. L’application linéaire $t j : E' \to M'$ est surjective, de noyau N, et il existe donc sur M' une forme quadratique positive non dégénérée q telle que $Q = q \circ t j$. D’après ce qui précède, il existe sur M une mesure bornée $\Gamma$ telle que $\mathcal{F}\Gamma = e^{-q/2}$. Si l’on pose $\Gamma_Q = j(\Gamma)$, on a
+Soit N le sous-espace vectoriel de E' formé des $x'$ tels que $Q(x') = 0$. Notons M l’orthogonal de N dans E et j l’injection canonique de M dans E. L’application linéaire $t j : E' \to M'$ est surjective, de noyau N, et il existe donc sur M' une forme quadratique positive non dégénérée q telle que $Q = q \circ t j$. D’après ce qui précède, il existe sur M une mesure bornée $\Gamma$ telle que $\mathscr{F}\Gamma = e^{-q/2}$. Si l’on pose $\Gamma_Q = j(\Gamma)$, on a
 
 $$
-\mathcal{F}\Gamma_Q = (\mathcal{F}\Gamma) \circ t j = \exp \left( -q \circ t j / 2 \right) = e^{-Q/2}
+\mathscr{F}\Gamma_Q = (\mathscr{F}\Gamma) \circ t j = \exp \left( -q \circ t j / 2 \right) = e^{-Q/2}
 $$
 
 d’après la formule (4) du n° 3.
 
 C) Cas général.
 
-Soit $V \in \mathcal{F}(E)$. Notons $p_V$ l’application canonique de E sur E/V et $Q_V$ la forme quadratique positive $Q \circ t p_V$ sur $(E/V)'$; enfin, soit $\mu_V$ la mesure sur $E/V$ de transformée de Fourier $e^{-Q_V/2}$ (cf. B)). Si $W \in \mathcal{F}(E)$ est contenu dans $V$, on a $p_V = p_{VW} \circ p_W$, d'où $Q_V = Q_W \circ t p_{VW}$; d'après la formule (4) du n° 3, la mesure $p_{VW}(\mu_W)$ a pour transformée de Fourier la fonction $(e^{-Q_W/2}) \circ t p_{VW} = e^{-Q_V/2}$, donc est égale à $\mu_V$. La famille $(\mu_V)_{V \in \mathcal{F}(E)}$ est donc une promesure $\mu$ sur $E$. La formule (5) du n° 3 montre que $\mathcal{F} \mu$ est égale à $e^{-Q/2}$.
+Soit $V \in \mathscr{F}(E)$. Notons $p_V$ l’application canonique de E sur E/V et $Q_V$ la forme quadratique positive $Q \circ t p_V$ sur $(E/V)'$; enfin, soit $\mu_V$ la mesure sur $E/V$ de transformée de Fourier $e^{-Q_V/2}$ (cf. B)). Si $W \in \mathscr{F}(E)$ est contenu dans $V$, on a $p_V = p_{VW} \circ p_W$, d'où $Q_V = Q_W \circ t p_{VW}$; d'après la formule (4) du n° 3, la mesure $p_{VW}(\mu_W)$ a pour transformée de Fourier la fonction $(e^{-Q_W/2}) \circ t p_{VW} = e^{-Q_V/2}$, donc est égale à $\mu_V$. La famille $(\mu_V)_{V \in \mathscr{F}(E)}$ est donc une promesure $\mu$ sur $E$. La formule (5) du n° 3 montre que $\mathscr{F} \mu$ est égale à $e^{-Q/2}$.
 
 #### Définition 2 {#int-ix-s6-def-2 .statement}
 
@@ -348,7 +348,7 @@ Par abus de langage, on dira qu'une mesure bornée $\mu$ sur $E$ est gaussienne 
 
 #### Remarque 1 {#int-ix-s6-n5-rem-1 .statement}
 
-Soit $E$ un espace vectoriel de dimension finie, et soit $\mu$ une mesure positive de masse 1 sur $E$, telle que toute forme linéaire sur $E$ appartienne à $\mathcal{L}^2(E, \mu)$. On définit un élément $m$ de $E$ et une forme quadratique positive $V$ sur $E'$ par les formules
+Soit $E$ un espace vectoriel de dimension finie, et soit $\mu$ une mesure positive de masse 1 sur $E$, telle que toute forme linéaire sur $E$ appartienne à $\mathscr{L}^2(E, \mu)$. On définit un élément $m$ de $E$ et une forme quadratique positive $V$ sur $E'$ par les formules
 $$
 \langle m, x' \rangle = \int_E \langle x, x' \rangle \, d\mu(x), \qquad V(x') = \int_E \langle x - m, x' \rangle^2 \, d\mu(x).
 $$
@@ -364,7 +364,7 @@ Soit $Q$ une forme quadratique sur le dual $E'$ d'un espace localement convexe $
 
 Le dual de $\mathbf{R}$ est canoniquement isomorphe à $\mathbf{R}$ et les formes quadratiques positives sur $\mathbf{R}$ sont les fonctions de la forme $t \mapsto a t^2$ avec $a \geqslant 0$. Pour tout $a \geqslant 0$, il existe donc une mesure bornée $\gamma_a$ sur $\mathbf{R}$ et une seule dont la transformée de Fourier soit égale à la fonction $t \mapsto e^{-a t^2/2}$; on dit par abus de langage que $\gamma_a$ est la mesure gaussienne sur $\mathbf{R}$ de variance $a$.
 
-La transformée de Fourier de $\gamma_0$ est la constante 1, d'où $\gamma_0 = \varepsilon_0$ (masse unité à l'origine de $\mathbf{R}$). Supposons $a > 0$ et notons $u_a$ l'application linéaire $x \mapsto a^{1/2} x$; on a $\mathcal{F} \gamma_a = \mathcal{F} \gamma_1 \circ t u_a$ d'où $\gamma_a = u_a(\gamma_1)$. Le lemme 2 montre que $\gamma_1$ est la mesure de densité $x \mapsto (2\pi)^{-1/2} e^{-x^2/2}$ par rapport à la mesure de Lebesgue; on en déduit facilement
+La transformée de Fourier de $\gamma_0$ est la constante 1, d'où $\gamma_0 = \varepsilon_0$ (masse unité à l'origine de $\mathbf{R}$). Supposons $a > 0$ et notons $u_a$ l'application linéaire $x \mapsto a^{1/2} x$; on a $\mathscr{F} \gamma_a = \mathscr{F} \gamma_1 \circ t u_a$ d'où $\gamma_a = u_a(\gamma_1)$. Le lemme 2 montre que $\gamma_1$ est la mesure de densité $x \mapsto (2\pi)^{-1/2} e^{-x^2/2}$ par rapport à la mesure de Lebesgue; on en déduit facilement
 $$
 (15) \qquad d\gamma_a(x) = (2\pi a)^{-1/2} e^{-x^2/2a} \, dx.
 $$
@@ -376,7 +376,7 @@ L'image d'une promesure gaussienne par une application linéaire continue est un
 Soient E et E₁ deux espaces localement convexes et u une application linéaire continue de E dans E₁. Soient Q une forme quadratique positive sur E' et Q₁ la forme quadratique positive Q o t u sur E₁'. On a u(Γ_Q) = Γ_{Q₁}.
 Posons μ = u(Γ_Q). D’après la formule (4) du n° 3, on a
 $$
-\mathcal{F}μ = (\mathcal{F}Γ_Q) o t u = e^{-Q/2} o t u = e^{-Q_1/2} = \mathcal{F}Γ_{Q_1}
+\mathscr{F}μ = (\mathscr{F}Γ_Q) o t u = e^{-Q/2} o t u = e^{-Q_1/2} = \mathscr{F}Γ_{Q_1}
 $$
 d’où μ = Γ_{Q₁} d’après la prop. 3 du n° 3.
 
@@ -422,12 +422,12 @@ Soient E un espace localement convexe et μ une promesure sur E. On suppose que 
 Pour tout $x' \in E'$, soit $Q(x')$ la variance de la mesure gaussienne $x'(\mu)$ sur $\mathbf{R}$. On a $x'(\mu) = \gamma_{Q(x')}$, d'où
 
 $$
-(\mathcal{F}\mu)(x') = \int_{\mathbf{R}} e^{it.1} d\gamma_{Q(x')}(t) = e^{-Q(x').1^2/2}
+(\mathscr{F}\mu)(x') = \int_{\mathbf{R}} e^{it.1} d\gamma_{Q(x')}(t) = e^{-Q(x').1^2/2}
 $$
 
-d’après la définition de $\mathcal{F}\mu$ (n° 3, formule (2)). Autrement dit, on a $\mathcal{F}\mu = e^{-Q/2}$, et il reste à prouver que $Q$ est une forme quadratique positive sur $E'$.
+d’après la définition de $\mathscr{F}\mu$ (n° 3, formule (2)). Autrement dit, on a $\mathscr{F}\mu = e^{-Q/2}$, et il reste à prouver que $Q$ est une forme quadratique positive sur $E'$.
 
-Pour tout sous-espace vectoriel fermé $V$ de $E$, de codimension finie, notons $p_V$ l’application canonique de $E$ sur $E/V$, $\mu_V$ la mesure $p_V(\mu)$ sur $E/V$ et posons $Q_V = Q \circ {}^t p_V$. Comme on a $E' = \bigcup_{V \in \mathcal{F}(E)} \operatorname{Im}({}^t p_V)$ et que ${}^t p_V$ est injectif, il suffit de prouver que $Q_V$ est une forme quadratique positive sur $(E/V)'$. Soient $u \in (E/V)'$ et $x' = {}^t p_V(u)$. On a
+Pour tout sous-espace vectoriel fermé $V$ de $E$, de codimension finie, notons $p_V$ l’application canonique de $E$ sur $E/V$, $\mu_V$ la mesure $p_V(\mu)$ sur $E/V$ et posons $Q_V = Q \circ {}^t p_V$. Comme on a $E' = \bigcup_{V \in \mathscr{F}(E)} \operatorname{Im}({}^t p_V)$ et que ${}^t p_V$ est injectif, il suffit de prouver que $Q_V$ est une forme quadratique positive sur $(E/V)'$. Soient $u \in (E/V)'$ et $x' = {}^t p_V(u)$. On a
 
 $$
 u(\mu_V) = u(p_V(\mu)) = x'(\mu) = \gamma_{Q(x')};
@@ -555,9 +555,9 @@ La formule (28) résulte alors de là.
 
 ### 7. Mesure de Wiener
 
-Dans ce n°, nous notons $T$ l’intervalle $]0, 1]$ de $\mathbf{R}$ et $\mathcal{H}$ l’espace de Hilbert des fonctions réelles de carré intégrable par rapport à la mesure de Lebesgue sur $T$, où l’on note $(f|g)$ le produit scalaire. On note aussi $\mathcal{C}$ l’espace des fonctions continues réelles sur $T$, tendant vers 0 au point 0; on munit $\mathcal{C}$ de la norme $\|f\| = \sup_{t \in T} |f(t)|$. L’intervalle compact $[0, 1] = T \cup \{0\}$ est le compactifié d’Alexandroff de l’intervalle localement compact mais non compact $T$; par suite, l’ensemble des fonctions continues à support compact sur $T$ est dense dans $\mathcal{C}$ et le dual de $\mathcal{C}$ s’identifie à l’espace $\mathcal{M}^1$ des mesures bornées (non nécessairement positives) sur $T$ (chap. III, 2e éd., § 1, n° 8, déf. 3).
+Dans ce n°, nous notons $T$ l’intervalle $]0, 1]$ de $\mathbf{R}$ et $\mathscr{H}$ l’espace de Hilbert des fonctions réelles de carré intégrable par rapport à la mesure de Lebesgue sur $T$, où l’on note $(f|g)$ le produit scalaire. On note aussi $\mathscr{C}$ l’espace des fonctions continues réelles sur $T$, tendant vers 0 au point 0; on munit $\mathscr{C}$ de la norme $\|f\| = \sup_{t \in T} |f(t)|$. L’intervalle compact $[0, 1] = T \cup \{0\}$ est le compactifié d’Alexandroff de l’intervalle localement compact mais non compact $T$; par suite, l’ensemble des fonctions continues à support compact sur $T$ est dense dans $\mathscr{C}$ et le dual de $\mathscr{C}$ s’identifie à l’espace $\mathscr{M}^1$ des mesures bornées (non nécessairement positives) sur $T$ (chap. III, 2e éd., § 1, n° 8, déf. 3).
 
-Pour toute fonction $f \in \mathcal{H}$, on définit une fonction $Pf$ sur $T$ par
+Pour toute fonction $f \in \mathscr{H}$, on définit une fonction $Pf$ sur $T$ par
 
 $$
 (Pf)(t) = \int_0^t f(x) \, dx = (f|I_t),
@@ -572,9 +572,9 @@ $$
 |(Pf)(t) - (Pf)(t')| \leq \|f\|_2 \cdot |t - t'|^{1/2};
 $$
 
-par suite, $Pf$ appartient à $\mathcal{C}$, et l’application linéaire $P$ de $\mathcal{H}$ dans $\mathcal{C}$ est continue de norme $\leq 1$.
+par suite, $Pf$ appartient à $\mathscr{C}$, et l’application linéaire $P$ de $\mathscr{H}$ dans $\mathscr{C}$ est continue de norme $\leq 1$.
 
-Identifions l’espace de Hilbert $\mathcal{H}$ à son dual ($Esp.\ vect.\ top.$, chap. V, § 1, n° 6, th. 3), et notons $\Pi : \mathcal{M}^1 \to \mathcal{H}$ la transposée de $P : \mathcal{H} \to \mathcal{C}$. Pour toute mesure $\mu \in \mathcal{M}^1$ et toute fonction $f \in \mathcal{H}$, on a
+Identifions l’espace de Hilbert $\mathscr{H}$ à son dual ($Esp.\ vect.\ top.$, chap. V, § 1, n° 6, th. 3), et notons $\Pi : \mathscr{M}^1 \to \mathscr{H}$ la transposée de $P : \mathscr{H} \to \mathscr{C}$. Pour toute mesure $\mu \in \mathscr{M}^1$ et toute fonction $f \in \mathscr{H}$, on a
 
 $$
 (\Pi \mu | f) = \mu(Pf) = \int_T d\mu(t) \int_T I_t(x) f(x) \, dx
@@ -595,7 +595,7 @@ $$
 (\Pi \mu)(x) = \mu([x, 1]) \quad \text{pour } x \in T.
 $$
 
-Soient $\mu, \nu$ dans $\mathcal{M}^1$. On a
+Soient $\mu, \nu$ dans $\mathscr{M}^1$. On a
 
 $$
 (\Pi \mu | \Pi \nu) = \int_T \Pi \mu(x) \, \Pi \nu(x) \, dx = \int_T dx \int_T I_t(x) \, d\mu(t) \int_T I_{t'}(x) \, d\nu(t')
@@ -616,7 +616,7 @@ $$
 (\Pi \mu | \Pi \nu) = \int_T \int_T \inf (t, t') \, d\mu(t) \, d\nu(t').
 $$
 
-D’après le résultat précédent, on définit une forme quadratique positive $W$ sur $\mathcal{M}^1$ par la formule
+D’après le résultat précédent, on définit une forme quadratique positive $W$ sur $\mathscr{M}^1$ par la formule
 
 $$
 W(\mu) = \int_T \int_T \inf (t, t') \, d\mu(t) \, d\mu(t') = \| \Pi \mu \|_2^2.
@@ -630,9 +630,9 @@ et comme $W$ est positive, la fonction $(t, t') \mapsto \inf (t, t')$ est un noy
 
 #### Théorème 1 (Wiener) {#int-ix-s6-thm-1 .statement}
 
-Soit $w$ l’image par $P : \mathcal{H} \to \mathcal{C}$ de la promesure gaussienne canonique sur l’espace de Hilbert $\mathcal{H}$. Alors $w$ est une mesure gaussienne de variance $W$ sur $\mathcal{C}$.
+Soit $w$ l’image par $P : \mathscr{H} \to \mathscr{C}$ de la promesure gaussienne canonique sur l’espace de Hilbert $\mathscr{H}$. Alors $w$ est une mesure gaussienne de variance $W$ sur $\mathscr{C}$.
 
-Par construction, on a $W(\mu) = \| tP(\mu) \|_2^2$; la prop. 5 du n° 5 montre que $w$ est une promesure gaussienne de variance $W$. Il reste à prouver que $w$ est une mesure sur $\mathcal{C}$.
+Par construction, on a $W(\mu) = \| tP(\mu) \|_2^2$; la prop. 5 du n° 5 montre que $w$ est une promesure gaussienne de variance $W$. Il reste à prouver que $w$ est une mesure sur $\mathscr{C}$.
 
 A) Construction d’un espace mesuré auxiliaire $(\Omega, m)$:
 Pour tout entier $n \geq 0$, on note $D_n$ l’ensemble des nombres de la forme $k/2^n$ avec $k = 1, 2, 3, \ldots, 2^n$. On pose $D = \bigcup_{n \geq 0} D_n$ (ensemble des nombres dyadiques contenus dans $T$) et $\Omega = \mathbf{R}^D$. Pour tout $t \in D$, on note $X(t)$ la forme linéaire $f \mapsto f(t)$ sur $\Omega$.
@@ -660,8 +660,8 @@ $$
 $$
 le lemme résulte immédiatement des formules (40) et (41).
 
-B) Construction d'une application u de $\Omega$ dans $\mathcal{C}$:
-Pour tout entier $n \geqslant 0$, on note $E_n$ le sous-espace de $\mathcal{C}$ formé des fonctions qui sont affines dans chacun des intervalles $\left[ \frac{k-1}{2^n}, \frac{k}{2^n} \right]$ pour $1 \leqslant k \leqslant 2^n$. Une fonction affine dans un intervalle compact I de $\mathbf{R}$ atteint ses bornes aux extrémités de I; par suite, on a
+B) Construction d'une application u de $\Omega$ dans $\mathscr{C}$:
+Pour tout entier $n \geqslant 0$, on note $E_n$ le sous-espace de $\mathscr{C}$ formé des fonctions qui sont affines dans chacun des intervalles $\left[ \frac{k-1}{2^n}, \frac{k}{2^n} \right]$ pour $1 \leqslant k \leqslant 2^n$. Une fonction affine dans un intervalle compact I de $\mathbf{R}$ atteint ses bornes aux extrémités de I; par suite, on a
 
 $$
 \| f \| = \sup_{1 \leqslant k \leqslant 2^n} \left| f \left( \frac{k}{2^n} \right) \right|
@@ -669,7 +669,7 @@ $$
 
 pour $f \in E_n$.
 
-Pour toute fonction $g \in \Omega$ et tout entier $n \geqslant 0$, il existe une fonction $u_n(g)$ et une seule qui appartienne à $E_n$ et coïncide avec $g$ en tout point de $D_n$; on posera $T_n g = u_{n+1}(g) - u_n(g)$. Comme $D_n$ est fini, l'application $T_n$ de $\Omega$ dans $\mathcal{C}$ est continue, donc $m$-mesurable.
+Pour toute fonction $g \in \Omega$ et tout entier $n \geqslant 0$, il existe une fonction $u_n(g)$ et une seule qui appartienne à $E_n$ et coïncide avec $g$ en tout point de $D_n$; on posera $T_n g = u_{n+1}(g) - u_n(g)$. Comme $D_n$ est fini, l'application $T_n$ de $\Omega$ dans $\mathscr{C}$ est continue, donc $m$-mesurable.
 
 #### Lemme 4 {#int-ix-s6-lem-4 .statement}
 
@@ -707,9 +707,9 @@ $$ \int_\Omega \|T_n g\|^3 dm(g) \leq \sum_{k=1}^{2^n} \int_\Omega \left| T_n g\
 
 d'où le lemme.
 
-D'après le lemme 4, l'application $T_n$ de $\Omega$ dans l'espace de Banach $\mathcal{C}$ appartient à $L_3^3(\Omega, m)$ et l'on a $N_3(T_n) \leq \frac{1}{(8\pi)^{1/6}} (2^{-1/6})^n$, d'où $\sum_{n=0}^\infty N_3(T_n) < +\infty$.
+D'après le lemme 4, l'application $T_n$ de $\Omega$ dans l'espace de Banach $\mathscr{C}$ appartient à $L_3^3(\Omega, m)$ et l'on a $N_3(T_n) \leq \frac{1}{(8\pi)^{1/6}} (2^{-1/6})^n$, d'où $\sum_{n=0}^\infty N_3(T_n) < +\infty$.
 
-D'après la prop. 6 du chap. IV, 2e éd., § 3, n° 3, il existe un ensemble $\Omega_0 \subset \Omega$ tel que $\Omega - \Omega_0$ soit $m$-négligeable et que la série $\sum_{n=0}^\infty T_n(g)$ converge absolument dans $\mathcal{C}$ pour tout $g \in \Omega_0$. On définit alors une application $m$-mesurable $u$ de $\Omega$ dans $\mathcal{C}$ par
+D'après la prop. 6 du chap. IV, 2e éd., § 3, n° 3, il existe un ensemble $\Omega_0 \subset \Omega$ tel que $\Omega - \Omega_0$ soit $m$-négligeable et que la série $\sum_{n=0}^\infty T_n(g)$ converge absolument dans $\mathscr{C}$ pour tout $g \in \Omega_0$. On définit alors une application $m$-mesurable $u$ de $\Omega$ dans $\mathscr{C}$ par
 
 (47)
 $$
@@ -721,17 +721,17 @@ $$
 
 Comme $u_n(g)$ et $g$ coïncident sur $D_m \subset D_n$ pour $0 \leq m \leq n$, il est immédiat que la restriction de $u(g)$ à $D$ est égale à $g$ pour tout $g \in \Omega_0$.
 
-C) Construction d'une mesure gaussienne sur $\mathcal{C}$:
+C) Construction d'une mesure gaussienne sur $\mathscr{C}$:
 
-Soit $w'$ la mesure bornée sur $\mathcal{C}$, image de $m$ par l'application $m$-mesurable $u : \Omega \to \mathcal{C}$. Nous allons montrer que $w'$ est une mesure gaussienne sur $\mathcal{C}$, de variance $W$, d'où $w = w'$. On notera $\mathcal{D}$ le sous-espace vectoriel de $\mathcal{M}^1$ engendré par les mesures $\varepsilon_t$ pour $t$ parcourant $D$.
+Soit $w'$ la mesure bornée sur $\mathscr{C}$, image de $m$ par l'application $m$-mesurable $u : \Omega \to \mathscr{C}$. Nous allons montrer que $w'$ est une mesure gaussienne sur $\mathscr{C}$, de variance $W$, d'où $w = w'$. On notera $\mathscr{D}$ le sous-espace vectoriel de $\mathscr{M}^1$ engendré par les mesures $\varepsilon_t$ pour $t$ parcourant $D$.
 
 #### Lemme 5 {#int-ix-s6-lem-5 .statement}
 
-Pour toute mesure $\mu \in \mathcal{D}$, on a
+Pour toute mesure $\mu \in \mathscr{D}$, on a
 
 (48)
 $$
-\int_\mathcal{C} e^{i\langle f, \mu \rangle} dw'(f) = e^{-W(\mu)/2}.
+\int_\mathscr{C} e^{i\langle f, \mu \rangle} dw'(f) = e^{-W(\mu)/2}.
 $$
 
 Posons $\mu = c_1 \varepsilon_{t_1} + c_2 \varepsilon_{t_2} + \cdots + c_n \varepsilon_{t_n}$ avec $t_1, \ldots, t_n$ dans $D$ et $c_1, \ldots, c_n$ dans $\mathbf{R}$. Pour tout $g \in \Omega_0$, la fonction $u(g)$ coïncide avec $g$ sur $D$; on a donc
@@ -755,16 +755,16 @@ $$
 Or, $\Omega - \Omega_0$ est $m$-négligeable et l’on a $w' = u(m)$; on en déduit
 
 $$
-\int_{\mathcal{C}} e^{i \langle f, \mu \rangle} d\omega'(f) = \int_{\Omega_0} e^{i \langle u(g), \mu \rangle} dm(g).
+\int_{\mathscr{C}} e^{i \langle f, \mu \rangle} d\omega'(f) = \int_{\Omega_0} e^{i \langle u(g), \mu \rangle} dm(g).
 $$
 
 La formule (48) résulte immédiatement des formules (49) à (52).
 
 #### Lemme 6 {#int-ix-s6-lem-6 .statement}
 
-*Soit $\mu \in \mathcal{M}^1$. Il existe une suite de mesures $\mu_n \in \mathcal{D}$ telles que $\mu(f) = \lim_{n \to \infty} \mu_n(f)$ pour tout $f \in \mathcal{C}$ et $W(\mu) = \lim_{n \to \infty} W(\mu_n)$.*
+*Soit $\mu \in \mathscr{M}^1$. Il existe une suite de mesures $\mu_n \in \mathscr{D}$ telles que $\mu(f) = \lim_{n \to \infty} \mu_n(f)$ pour tout $f \in \mathscr{C}$ et $W(\mu) = \lim_{n \to \infty} W(\mu_n)$.*
 
-Soit $I = (0, 1]$. L’espace $\mathcal{M}^1$ des mesures bornées sur $T = ]0, 1]$ sera identifié au sous-espace de $\mathcal{M}(I)$ formé des mesures qui ne chargent pas 0. On munit $\mathcal{M}(I)$ de la topologie vague. L’application $t \mapsto \varepsilon_t$ de $I$ dans $\mathcal{M}(I)$ est continue (chap. III, 2e éd., § 1, n° 9, prop. 13); comme $D$ est dense dans $I$, l’adhérence $\overline{\mathcal{D}}$ de $\mathcal{D}$ contient toutes les mesures ponctuelles. Soit $A$ l’ensemble des mesures $v \in \mathcal{D}$ telles que $\|v\| \leq \|u\|$; la mesure $\mu$ est adhérente à $A$ (chap. III, 2e éd., § 2, n° 4, cor. 1 du th. 1). L’ensemble $A$ est relativement compact dans $\mathcal{M}(I)$ (chap. III, 2e éd., § 1, n° 9, prop. 15) et les parties compactes de $\mathcal{M}(I)$ sont métrisables (*Esp. vect. top.*, chap. IV, § 5, n° 1, prop. 2, et *Top. gén.*, chap. X, 2e éd, § 3, n° 3, th. 1). Il existe donc une suite de mesures $\mu_n \in A$ convergeant vers $\mu$ dans $\mathcal{M}(I)$. Comme $\mathcal{C}$ est identifié au sous-espace des fonctions continues sur $I$ nulles à l’origine, on a $\mu(f) = \lim_{n \to \infty} \mu_n(f)$ pour tout $f \in \mathcal{C}$. Par ailleurs, comme $\mathcal{C}(I) \otimes \mathcal{C}(I)$ est dense dans l’espace normé $\mathcal{C}(I \times I)$ (chap. III, 2e éd., § 4, n° 1, lemme 1), les relations $\lim_{n \to \infty} \mu_n = \mu$ et $\|\mu_n\| \leq \|\mu\|$ entraînent $\lim_{n \to \infty} (\mu_n \otimes \mu_n) = \mu \otimes \mu$ (chap. III, 2e éd., § 1, n° 10, prop. 17); comme les mesures $\mu_n$ et $\mu$ ne chargent pas 0, on a
+Soit $I = (0, 1]$. L’espace $\mathscr{M}^1$ des mesures bornées sur $T = ]0, 1]$ sera identifié au sous-espace de $\mathscr{M}(I)$ formé des mesures qui ne chargent pas 0. On munit $\mathscr{M}(I)$ de la topologie vague. L’application $t \mapsto \varepsilon_t$ de $I$ dans $\mathscr{M}(I)$ est continue (chap. III, 2e éd., § 1, n° 9, prop. 13); comme $D$ est dense dans $I$, l’adhérence $\overline{\mathscr{D}}$ de $\mathscr{D}$ contient toutes les mesures ponctuelles. Soit $A$ l’ensemble des mesures $v \in \mathscr{D}$ telles que $\|v\| \leq \|u\|$; la mesure $\mu$ est adhérente à $A$ (chap. III, 2e éd., § 2, n° 4, cor. 1 du th. 1). L’ensemble $A$ est relativement compact dans $\mathscr{M}(I)$ (chap. III, 2e éd., § 1, n° 9, prop. 15) et les parties compactes de $\mathscr{M}(I)$ sont métrisables (*Esp. vect. top.*, chap. IV, § 5, n° 1, prop. 2, et *Top. gén.*, chap. X, 2e éd, § 3, n° 3, th. 1). Il existe donc une suite de mesures $\mu_n \in A$ convergeant vers $\mu$ dans $\mathscr{M}(I)$. Comme $\mathscr{C}$ est identifié au sous-espace des fonctions continues sur $I$ nulles à l’origine, on a $\mu(f) = \lim_{n \to \infty} \mu_n(f)$ pour tout $f \in \mathscr{C}$. Par ailleurs, comme $\mathscr{C}(I) \otimes \mathscr{C}(I)$ est dense dans l’espace normé $\mathscr{C}(I \times I)$ (chap. III, 2e éd., § 4, n° 1, lemme 1), les relations $\lim_{n \to \infty} \mu_n = \mu$ et $\|\mu_n\| \leq \|\mu\|$ entraînent $\lim_{n \to \infty} (\mu_n \otimes \mu_n) = \mu \otimes \mu$ (chap. III, 2e éd., § 1, n° 10, prop. 17); comme les mesures $\mu_n$ et $\mu$ ne chargent pas 0, on a
 
 $$
 W(\mu_n) = \int_I \int_I \inf (t, t') \, d\mu_n(t) \, d\mu_n(t')
@@ -776,10 +776,10 @@ $$
 
 d'où $\lim_{n \to \infty} W(\mu_n) = W(\mu)$.
 
-Il reste à prouver que la transformée de Fourier de $w'$ est égale à $e^{-W/2}$. Soit $\mu \in \mathcal{M}^1$; choisissons les mesures $\mu_n \in \mathcal{D}$ comme dans le lemme 6. La mesure $w'$ est bornée et l'on a $|e^{i\langle f, \mu_n \rangle}| = 1$ pour tout $n$; le lemme 5 et le théorème de convergence de Lebesgue (chap. IV, 2e éd., § 4, n° 3, th. 2) entraînent alors
+Il reste à prouver que la transformée de Fourier de $w'$ est égale à $e^{-W/2}$. Soit $\mu \in \mathscr{M}^1$; choisissons les mesures $\mu_n \in \mathscr{D}$ comme dans le lemme 6. La mesure $w'$ est bornée et l'on a $|e^{i\langle f, \mu_n \rangle}| = 1$ pour tout $n$; le lemme 5 et le théorème de convergence de Lebesgue (chap. IV, 2e éd., § 4, n° 3, th. 2) entraînent alors
 
 $$
-\int_\mathcal{C} e^{i\langle f, \mu \rangle} \, dw'(f) = \lim_{n \to \infty} \int_\mathcal{C} e^{i\langle f, \mu_n \rangle} \, dw'(f)
+\int_\mathscr{C} e^{i\langle f, \mu \rangle} \, dw'(f) = \lim_{n \to \infty} \int_\mathscr{C} e^{i\langle f, \mu_n \rangle} \, dw'(f)
 $$
 $$
 = \lim_{n \to \infty} e^{-W(\mu_n)/2} = e^{-W(\mu)/2}.
@@ -787,12 +787,12 @@ $$
 
 C.Q.F.D.
 
-La mesure $w$ sur $\mathcal{C}$, dont la transformée de Fourier est égale à $e^{-W/2}$ s'appelle la mesure de Wiener sur $\mathcal{C}$.
+La mesure $w$ sur $\mathscr{C}$, dont la transformée de Fourier est égale à $e^{-W/2}$ s'appelle la mesure de Wiener sur $\mathscr{C}$.
 
 #### Remarque {#int-ix-s6-n7-rem-1 .statement}
 
-Pour tout intervalle semi-ouvert $J = ]a, b]$ contenu dans $T$, posons $l(J) = b - a$ (longueur de $J$) et notons $A_J$ la forme linéaire $f \mapsto f(b) - f(a)$ sur $\mathcal{C}$. On peut montrer que la mesure de Wiener est caractérisée par la propriété suivante:
-Soient $J_1, \ldots, J_n$ des intervalles semi-ouverts contenus dans $T$ et deux à deux disjoints. L'image de la mesure $w$ par l'application linéaire $f \mapsto (A_{J_1}(f), \ldots, A_{J_n}(f))$ de $\mathcal{C}$ dans $\mathbf{R}^n$ est égale à $\gamma_{a_1} \otimes \cdots \otimes \gamma_{a_n}$ avec $a_i = l(J_i)^{1/2}$ pour $1 \leq i \leq n$.
+Pour tout intervalle semi-ouvert $J = ]a, b]$ contenu dans $T$, posons $l(J) = b - a$ (longueur de $J$) et notons $A_J$ la forme linéaire $f \mapsto f(b) - f(a)$ sur $\mathscr{C}$. On peut montrer que la mesure de Wiener est caractérisée par la propriété suivante:
+Soient $J_1, \ldots, J_n$ des intervalles semi-ouverts contenus dans $T$ et deux à deux disjoints. L'image de la mesure $w$ par l'application linéaire $f \mapsto (A_{J_1}(f), \ldots, A_{J_n}(f))$ de $\mathscr{C}$ dans $\mathbf{R}^n$ est égale à $\gamma_{a_1} \otimes \cdots \otimes \gamma_{a_n}$ avec $a_i = l(J_i)^{1/2}$ pour $1 \leq i \leq n$.
 
 ### 8. Continuité de la transformée de Fourier
 
@@ -834,10 +834,10 @@ d’où (54).
 Munissons E’ d’une topologie compatible avec sa structure d’espace vectoriel. Pour que $\Phi$ soit continue, il faut et il suffit que sa partie réelle $\Re \Phi$ soit continue à l’origine, et alors $\Phi$ est uniformément continue.
 Cela résulte de l’inégalité (54).
 
-Soit F un espace localement convexe. On munit le dual F’ de F d’une topologie compatible avec la dualité entre F et F’ et l’on identifie F au dual de F’. Par suite, la transformée de Fourier d’une mesure bornée $\mu$ sur F’ est la fonction $\mathcal{F} \mu$ sur F définie par
+Soit F un espace localement convexe. On munit le dual F’ de F d’une topologie compatible avec la dualité entre F et F’ et l’on identifie F au dual de F’. Par suite, la transformée de Fourier d’une mesure bornée $\mu$ sur F’ est la fonction $\mathscr{F} \mu$ sur F définie par
 
 $$
-(\mathcal{F} \mu)(x) = \int_{F'} e^{i\langle x, x' \rangle}\, d\mu(x').
+(\mathscr{F} \mu)(x) = \int_{F'} e^{i\langle x, x' \rangle}\, d\mu(x').
 $$
 
 #### Proposition 9 {#int-ix-s6-prop-9 .statement}
@@ -869,7 +869,7 @@ Soient T un espace vectoriel de dimension finie et $\mu$ une mesure bornée sur 
 
 #### Proposition 10 {#int-ix-s6-prop-10 .statement}
 
-Sous l’hypothèse $\Phi(0) - \mathcal{R}\Phi \leq \varepsilon + q$, on a
+Sous l’hypothèse $\Phi(0) - \mathscr{R}\Phi \leq \varepsilon + q$, on a
 $$
 \mu(T' - C_r) \leq 3(\varepsilon + r^{-2} \operatorname{Tr}(q/h))
 $$
@@ -960,11 +960,11 @@ C.Q.F.D
 
 ### 10. Mesures sur le dual d’un espace nucléaire
 
-Soit F un espace localement convexe. Soit $\mathcal{T}_s$ la topologie faible $\sigma(F', F)$ sur $F'$ et $\mathcal{T}_c$ la topologie de la convergence uniforme sur les parties compactes convexes de F. D’après le théorème de Mackey, (*Esp. vect. top.*, chap. IV, § 2, n° 3, th. 2) les topologies $\mathcal{T}_s$ et $\mathcal{T}_c$ sur $F'$ sont compatibles avec la dualité entre F et $F'$; il en est donc de même de toute topologie localement convexe $\mathcal{T}$ sur $F'$ intermédiaire entre $\mathcal{T}_s$ et $\mathcal{T}_c$. Si $\mathcal{T}$ est une telle topologie, et si $F'_\mathcal{T}$ désigne l’espace $F'$ muni de $\mathcal{T}$, on identifiera F au dual de $F'_\mathcal{T}$. Les promesures sur $F'$ sont donc les mêmes pour toutes les topologies $\mathcal{T}$ du type précédent, et si $\mu$ est une telle promesure, sa transformée de Fourier est une fonction sur F.
+Soit F un espace localement convexe. Soit $\mathscr{T}_s$ la topologie faible $\sigma(F', F)$ sur $F'$ et $\mathscr{T}_c$ la topologie de la convergence uniforme sur les parties compactes convexes de F. D’après le théorème de Mackey, (*Esp. vect. top.*, chap. IV, § 2, n° 3, th. 2) les topologies $\mathscr{T}_s$ et $\mathscr{T}_c$ sur $F'$ sont compatibles avec la dualité entre F et $F'$; il en est donc de même de toute topologie localement convexe $\mathscr{T}$ sur $F'$ intermédiaire entre $\mathscr{T}_s$ et $\mathscr{T}_c$. Si $\mathscr{T}$ est une telle topologie, et si $F'_\mathscr{T}$ désigne l’espace $F'$ muni de $\mathscr{T}$, on identifiera F au dual de $F'_\mathscr{T}$. Les promesures sur $F'$ sont donc les mêmes pour toutes les topologies $\mathscr{T}$ du type précédent, et si $\mu$ est une telle promesure, sa transformée de Fourier est une fonction sur F.
 
-On appelle *topologie de Sazonov* sur F la topologie localement convexe $\mathcal{S}$ définie par les semi-normes continues N satisfaisant à la condition suivante: $N^2$ *est une forme quadratique positive sur F et il existe une forme quadratique positive continue H sur F telle que* $\mathrm{Tr}(N^2/H) < +\infty$. La topologie $\mathcal{S}$ est moins fine que la topologie donnée sur F; on dit que F est *nucléaire* si ces topologies sont identiques. Cette classe d’espaces sera étudiée plus tard en détail.
+On appelle *topologie de Sazonov* sur F la topologie localement convexe $\mathscr{S}$ définie par les semi-normes continues N satisfaisant à la condition suivante: $N^2$ *est une forme quadratique positive sur F et il existe une forme quadratique positive continue H sur F telle que* $\mathrm{Tr}(N^2/H) < +\infty$. La topologie $\mathscr{S}$ est moins fine que la topologie donnée sur F; on dit que F est *nucléaire* si ces topologies sont identiques. Cette classe d’espaces sera étudiée plus tard en détail.
 
-**Théorème 2** (Minlos). — *Soient F un espace localement convexe, $\mathcal{T}$ une topologie localement convexe sur $F'$ intermédiaire entre $\mathcal{T}_s$ et $\mathcal{T}_c$ et $\mu$ une promesure sur $F'_\mathcal{T}$. On suppose que transformée de Fourier $\Phi$ de $\mu$ est continue sur F pour la topologie de Sazonov. Alors $\mu$ est une mesure sur $F'_\mathcal{T}$*.
+**Théorème 2** (Minlos). — *Soient F un espace localement convexe, $\mathscr{T}$ une topologie localement convexe sur $F'$ intermédiaire entre $\mathscr{T}_s$ et $\mathscr{T}_c$ et $\mu$ une promesure sur $F'_\mathscr{T}$. On suppose que transformée de Fourier $\Phi$ de $\mu$ est continue sur F pour la topologie de Sazonov. Alors $\mu$ est une mesure sur $F'_\mathscr{T}$*.
 
 Soit $\varepsilon > 0$. Comme $\Phi$ est continue pour la topologie de Sazonov de F, il existe deux formes quadratiques positives continues Q et H sur F, telles que $\mathrm{Tr}(Q/H) < +\infty$ et que l’on ait
 $$
@@ -976,34 +976,34 @@ $$
 $$
 pour tout $x \in F$.
 
-Posons $r = (12\Phi(0)\ \mathrm{Tr}(Q/H)\varepsilon^{-1})^{1/2}$ et notons K l’ensemble des $x' \in F'_\mathcal{T}$ tels que $\langle x, x' \rangle^2 \leq r^2H(x)$ pour tout $x \in F$. Comme $H^{1/2}$ est une semi-norme continue sur F, l’ensemble K est équicontinu et fermé dans $F'_\mathcal{T}$; il est donc compact dans $F'_\mathcal{T}$ d’après le théorème d’Ascoli (*Top. gén.*, chap. X, 2e éd., § 2, n° 5, cor. 1 du th. 2).
+Posons $r = (12\Phi(0)\ \mathrm{Tr}(Q/H)\varepsilon^{-1})^{1/2}$ et notons K l’ensemble des $x' \in F'_\mathscr{T}$ tels que $\langle x, x' \rangle^2 \leq r^2H(x)$ pour tout $x \in F$. Comme $H^{1/2}$ est une semi-norme continue sur F, l’ensemble K est équicontinu et fermé dans $F'_\mathscr{T}$; il est donc compact dans $F'_\mathscr{T}$ d’après le théorème d’Ascoli (*Top. gén.*, chap. X, 2e éd., § 2, n° 5, cor. 1 du th. 2).
 
-Soit V un sous-espace vectoriel fermé de codimension finie de $F'_\mathcal{T}$; alors, V est l’orthogonal d’un sous-espace vectoriel T de dimension finie de F. Soit $\mu_V$ la mesure sur T’ image de la promesure $\mu$ sur $F'_\mathcal{T}$ par l’application $p_V$ transposée de l’injection canonique de T dans F; sa transformée de Fourier est la restriction de $\Phi$ à T. Enfin, d’après le théorème de Hahn–Banach (*Esp. vect. top.*, chap. II, 2e éd., § 3, n° 2, cor. 1 du th. 1), $p_V(K)$ est égal à l’ensemble $C_r$ des $x' \in T'$ tels que $\langle x, x' \rangle^2 \leq r^2 H(x)$ pour tout $x \in T$. D’après l’inégalité (63), on peut appliquer la prop. 10 du n° 9 à la mesure $\mu_v$ sur $T'$, en prenant pour $q$ la restriction de $2\Phi(0)Q$ à $T$ et pour $h$ celle de $H$. On a $\mathrm{Tr}(q/h) \leq 2\Phi(0)\mathrm{Tr}(Q/H)$, d’où
+Soit V un sous-espace vectoriel fermé de codimension finie de $F'_\mathscr{T}$; alors, V est l’orthogonal d’un sous-espace vectoriel T de dimension finie de F. Soit $\mu_V$ la mesure sur T’ image de la promesure $\mu$ sur $F'_\mathscr{T}$ par l’application $p_V$ transposée de l’injection canonique de T dans F; sa transformée de Fourier est la restriction de $\Phi$ à T. Enfin, d’après le théorème de Hahn–Banach (*Esp. vect. top.*, chap. II, 2e éd., § 3, n° 2, cor. 1 du th. 1), $p_V(K)$ est égal à l’ensemble $C_r$ des $x' \in T'$ tels que $\langle x, x' \rangle^2 \leq r^2 H(x)$ pour tout $x \in T$. D’après l’inégalité (63), on peut appliquer la prop. 10 du n° 9 à la mesure $\mu_v$ sur $T'$, en prenant pour $q$ la restriction de $2\Phi(0)Q$ à $T$ et pour $h$ celle de $H$. On a $\mathrm{Tr}(q/h) \leq 2\Phi(0)\mathrm{Tr}(Q/H)$, d’où
 
 $$
 \mu_v(T' - C_r) \leq 3 \left( \frac{\varepsilon}{6} + 2\Phi(0)\mathrm{Tr}(Q/H)r^{-2} \right) = \varepsilon.
 $$
 
-Comme $p_v$ définit par passage au quotient un isomorphisme de $F_{\mathcal{T}}'/V$ sur $T'$, la prop. 1 du n° 1 montre alors que $\mu$ est une mesure sur $F_{\mathcal{T}}'$.
+Comme $p_v$ définit par passage au quotient un isomorphisme de $F_{\mathscr{T}}'/V$ sur $T'$, la prop. 1 du n° 1 montre alors que $\mu$ est une mesure sur $F_{\mathscr{T}}'$.
 
 C.Q.F.D.
 
 #### Corollaire {#int-ix-s6-n10-cor-1 .statement}
 
-Soient $F$ un espace nucléaire tonnelé, $\mathcal{T}$ une topologie localement convexe intermédiaire entre $\mathcal{T}_s$ et $\mathcal{T}_c$ sur $F'$, $\mu$ une promesure sur $F_{\mathcal{T}}'$ et $\Phi$ la transformée de Fourier de $\mu$. Pour que $\mu$ soit une mesure, il faut et il suffit que $\Phi$ soit continue sur $F$.
+Soient $F$ un espace nucléaire tonnelé, $\mathscr{T}$ une topologie localement convexe intermédiaire entre $\mathscr{T}_s$ et $\mathscr{T}_c$ sur $F'$, $\mu$ une promesure sur $F_{\mathscr{T}}'$ et $\Phi$ la transformée de Fourier de $\mu$. Pour que $\mu$ soit une mesure, il faut et il suffit que $\Phi$ soit continue sur $F$.
 
 La nécessité résulte de la prop. 9 du n° 8 et la suffisance du th. 2.
 
 #### Remarque {#int-ix-s6-n10-rem-1 .statement}
 
-Soient $F$ un espace tonnelé et $\mathcal{T}$ une topologie localement convexe sur $F'$ intermédiaire entre $\mathcal{T}_s$ et $\mathcal{T}_c$. Toute partie de $F'$ compacte pour $\mathcal{T}$ est compacte pour la topologie moins fine $\mathcal{T}_s$. Réciproquement, soit $K$ une partie de $F'$ compacte pour $\mathcal{T}_s$. Comme $F$ est tonnelé, $K$ est équicontinue ($Esp.\ vect.\ top.$, chap. IV, § 2, n° 2, th. 1); mais d’après le théorème d’Ascoli, toute partie équicontinue de $F'$ est relativement compacte pour $\mathcal{T}_c$ et $a fortiori$ pour $\mathcal{T}$, donc $K$ est contenu dans une partie de $F'$ compacte pour $\mathcal{T}$. Il n’est pas difficile d’en conclure que l’application identique de $F_{\mathcal{T}}'$ sur $F_{\mathcal{T}_s}'$ définit une bijection entre les ensembles de mesures de ces deux espaces.
+Soient $F$ un espace tonnelé et $\mathscr{T}$ une topologie localement convexe sur $F'$ intermédiaire entre $\mathscr{T}_s$ et $\mathscr{T}_c$. Toute partie de $F'$ compacte pour $\mathscr{T}$ est compacte pour la topologie moins fine $\mathscr{T}_s$. Réciproquement, soit $K$ une partie de $F'$ compacte pour $\mathscr{T}_s$. Comme $F$ est tonnelé, $K$ est équicontinue ($Esp.\ vect.\ top.$, chap. IV, § 2, n° 2, th. 1); mais d’après le théorème d’Ascoli, toute partie équicontinue de $F'$ est relativement compacte pour $\mathscr{T}_c$ et $a fortiori$ pour $\mathscr{T}$, donc $K$ est contenu dans une partie de $F'$ compacte pour $\mathscr{T}$. Il n’est pas difficile d’en conclure que l’application identique de $F_{\mathscr{T}}'$ sur $F_{\mathscr{T}_s}'$ définit une bijection entre les ensembles de mesures de ces deux espaces.
 
 ### 11. Mesures sur un espace de Hilbert
 
-Soit $E$ un espace hilbertien réel, dans lequel le produit scalaire est noté $(x|y)$. Il existe un isomorphisme $j$ de $E$ sur son dual $E'$, caractérisé par la formule $\langle x, j(y) \rangle = (x|y)$ pour $x, y$ dans $E$ ($Esp.\ vect.\ top.$, chap. V, § 1, n° 6, th. 3). Nous identifierons $E$ et $E'$ au moyen de $j$. La transformée de Fourier d’une promesure $\mu$ sur $E$ est donc une fonction $\mathcal{F}\mu$ sur $E$; lorsque $\mu$ est une mesure, on a
+Soit $E$ un espace hilbertien réel, dans lequel le produit scalaire est noté $(x|y)$. Il existe un isomorphisme $j$ de $E$ sur son dual $E'$, caractérisé par la formule $\langle x, j(y) \rangle = (x|y)$ pour $x, y$ dans $E$ ($Esp.\ vect.\ top.$, chap. V, § 1, n° 6, th. 3). Nous identifierons $E$ et $E'$ au moyen de $j$. La transformée de Fourier d’une promesure $\mu$ sur $E$ est donc une fonction $\mathscr{F}\mu$ sur $E$; lorsque $\mu$ est une mesure, on a
 
 $$
-(\mathcal{F}\mu)(x) = \int_E e^{i(x|y)}\,d\mu(y) \qquad (x \in E).
+(\mathscr{F}\mu)(x) = \int_E e^{i(x|y)}\,d\mu(y) \qquad (x \in E).
 $$
 
 #### Théorème 3 (Prokhorov–Sazonov) {#int-ix-s6-thm-3 .statement}
@@ -1032,7 +1032,7 @@ donc $Q$ est nucléaire.
 
 Par ailleurs, on a $1 - \cos t \leq \inf \left(2, \frac{t^2}{2}\right)$ pour tout nombre réel $t$, d’où
 $$
-\Phi(0) - \mathcal{R}\Phi(x) = \int_E (1 - \cos (x|y)) \, d\mu(y)
+\Phi(0) - \mathscr{R}\Phi(x) = \int_E (1 - \cos (x|y)) \, d\mu(y)
 $$
 $$
 \leq \int_{B_n} \frac{1}{2} (x|y)^2 \, d\mu(y) + \int_{E - B_n} 2 \, d\mu(y)
@@ -1048,7 +1048,7 @@ C.Q.F.D.
 
 Soient $E_1$ et $E_2$ deux espaces de Hilbert, $u$ une application de Hilbert–Schmidt de $E_1$ dans $E_2$ et $\mu$ une promesure sur $E_1$. On suppose que la transformée de Fourier $\Phi$ de $\mu$ est continue sur $E_1$. Alors la promesure $\nu = u(\mu)$ est une mesure sur $E_2$ muni de la topologie faible.
 
-Avec les identifications de $E_1$ et $E_2$ à leurs duals introduites dans ce n°, la transformée de Fourier de $\nu$ est égale à $\Phi \circ u^*$ où $u^*$ est l’adjointe de $u$. Or $u^*$ est une application de Hilbert–Schmidt de $E_2$ dans $E_1$ (Annexe, n° 2), et la forme quadratique $y \mapsto \|u^*(y)\|^2$ sur $E_2$ est donc nucléaire. Si $(E_2)_\mathcal{S}$ désigne $E_2$ muni de la topologie de Sazonov, $u^*$ est donc une application linéaire continue de $(E_2)_\mathcal{S}$ dans $E_1$ et $\mathcal{F}_\nu = \Phi \circ u^*$ est continue sur $(E_2)_\mathcal{S}$; le théorème 3 montre alors que $\nu$ est une mesure sur l’espace $E_2$ muni de la topologie faible.
+Avec les identifications de $E_1$ et $E_2$ à leurs duals introduites dans ce n°, la transformée de Fourier de $\nu$ est égale à $\Phi \circ u^*$ où $u^*$ est l’adjointe de $u$. Or $u^*$ est une application de Hilbert–Schmidt de $E_2$ dans $E_1$ (Annexe, n° 2), et la forme quadratique $y \mapsto \|u^*(y)\|^2$ sur $E_2$ est donc nucléaire. Si $(E_2)_\mathscr{S}$ désigne $E_2$ muni de la topologie de Sazonov, $u^*$ est donc une application linéaire continue de $(E_2)_\mathscr{S}$ dans $E_1$ et $\mathscr{F}_\nu = \Phi \circ u^*$ est continue sur $(E_2)_\mathscr{S}$; le théorème 3 montre alors que $\nu$ est une mesure sur l’espace $E_2$ muni de la topologie faible.
 
 #### Corollaire 2 {#int-ix-s6-thm-3-cor-2 .statement}
 
@@ -1103,19 +1103,19 @@ On peut démontrer une réciproque connue sous le nom de théorème de Bochner: 
 
 Soit E un espace localement convexe. La transformation de Fourier est une bijection de l’ensemble des promesures sur E sur l’ensemble des fonctions de type positif sur E’ dont la restriction à tout sous-espace de dimension finie est continue.
 
-On sait (n° 3, prop. 3) que la transformation de Fourier est injective. Soient $\mu = (\mu_V)_{V \in \mathcal{F}(E)}$ une promesure sur E et $\Phi$ sa transformée de Fourier. Soit T un sous-espace de dimension finie de E’ et soit V l’orthogonal de T dans E. On peut identifier T au dual de E/V ; la restriction $\Phi_T$ de $\Phi$ à T est la transformée de Fourier de la mesure bornée $\mu_V$ sur E/V. D’après la prop. 11, $\Phi_T$ est continue et de type positif sur T. Vu l’arbitraire de T, il est clair que $\Phi$ est de type positif sur E’.
+On sait (n° 3, prop. 3) que la transformation de Fourier est injective. Soient $\mu = (\mu_V)_{V \in \mathscr{F}(E)}$ une promesure sur E et $\Phi$ sa transformée de Fourier. Soit T un sous-espace de dimension finie de E’ et soit V l’orthogonal de T dans E. On peut identifier T au dual de E/V ; la restriction $\Phi_T$ de $\Phi$ à T est la transformée de Fourier de la mesure bornée $\mu_V$ sur E/V. D’après la prop. 11, $\Phi_T$ est continue et de type positif sur T. Vu l’arbitraire de T, il est clair que $\Phi$ est de type positif sur E’.
 
-Réciproquement, soit $\Phi$ une fonction de type positif sur E’ dont la restriction à tout sous-espace de dimension finie de E soit continue. Pour tout $V \in \mathcal{F}(E)$, on identifie le dual de E/V à l’orthogonal $V^0$ de V dans E’ ; la restriction $\Phi_V$ de $\Phi$ à $V^0$ est continue et de type positif, et d’après le théorème de Bochner, il existe donc une mesure (positive) bornée $\mu_V$ sur E/V dont la transformée de Fourier soit $\Phi_V$. Soient V et W dans $\mathcal{F}(E)$ avec $W \subset V$, et soit $p_{VW}$ l’application canonique de E/W sur E/V ; avec les identifications faites, $t p_{VW}$ est l’injection de $V^0$ dans $W^0$. D’après la formule (4) du n° 3, on a alors
+Réciproquement, soit $\Phi$ une fonction de type positif sur E’ dont la restriction à tout sous-espace de dimension finie de E soit continue. Pour tout $V \in \mathscr{F}(E)$, on identifie le dual de E/V à l’orthogonal $V^0$ de V dans E’ ; la restriction $\Phi_V$ de $\Phi$ à $V^0$ est continue et de type positif, et d’après le théorème de Bochner, il existe donc une mesure (positive) bornée $\mu_V$ sur E/V dont la transformée de Fourier soit $\Phi_V$. Soient V et W dans $\mathscr{F}(E)$ avec $W \subset V$, et soit $p_{VW}$ l’application canonique de E/W sur E/V ; avec les identifications faites, $t p_{VW}$ est l’injection de $V^0$ dans $W^0$. D’après la formule (4) du n° 3, on a alors
 
 $$
-\mathcal{F}(p_{VW}(\mu_W)) = (\mathcal{F}\mu_W) \circ t p_{VW} = \Phi_W \circ t p_{VW} = \Phi_V = \mathcal{F}\mu_V
+\mathscr{F}(p_{VW}(\mu_W)) = (\mathscr{F}\mu_W) \circ t p_{VW} = \Phi_W \circ t p_{VW} = \Phi_V = \mathscr{F}\mu_V
 $$
 
-d’où $p_{VW}(\mu_W) = \mu_V$ d’après la prop. 3 du n° 3. Par suite, la famille $\mu = (\mu_V)_{V \in \mathcal{F}(E)}$ est une promesure sur E ; il est clair que $\Phi$ est la transformée de Fourier de $\mu$.
+d’où $p_{VW}(\mu_W) = \mu_V$ d’après la prop. 3 du n° 3. Par suite, la famille $\mu = (\mu_V)_{V \in \mathscr{F}(E)}$ est une promesure sur E ; il est clair que $\Phi$ est la transformée de Fourier de $\mu$.
 
 #### Corollaire {#int-ix-s6-n11-cor-1 .statement}
 
-Soit F un espace nucléaire tonnelé ; on munit F’ d’une topologie localement convexe $\mathcal{T}$ intermédiaire entre la topologie faible $\sigma(F', F)$ et la topologie de la convergence uniforme sur les parties compactes et convexes de F. La transformation de Fourier est une bijection de l’ensemble des mesures (positives) bornées sur F’ sur l’ensemble des fonctions continues de type positif sur F.
+Soit F un espace nucléaire tonnelé ; on munit F’ d’une topologie localement convexe $\mathscr{T}$ intermédiaire entre la topologie faible $\sigma(F', F)$ et la topologie de la convergence uniforme sur les parties compactes et convexes de F. La transformation de Fourier est une bijection de l’ensemble des mesures (positives) bornées sur F’ sur l’ensemble des fonctions continues de type positif sur F.
 
 Cela résulte immédiatement du th. 4 et du cor. du th. 2 du n° 10.*
 

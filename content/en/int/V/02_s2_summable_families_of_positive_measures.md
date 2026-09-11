@@ -25,21 +25,21 @@ subsections:
       pdf_page: 269
 statements: 12
 exercises: 4
-content_sha256: 67f5fe101b21cf538af3c09dc97e270ed6343b8689b60190287e3daa14bd9f11
+content_sha256: 730cfcb70644db90795e20bf6902026aa0227cd8eb96e17932cb562cdb07b859
 ---
 
 ## § 2. SUMMABLE FAMILIES OF POSITIVE MEASURES
 
 ### 1. Definition of summable families of measures
 
-Let $(\lambda_\alpha)_{\alpha \in A}$ be a family of positive measures on a locally compact space X; the family $(\lambda_\alpha)_{\alpha \in A}$ is said to be a *summable family of measures* if it is summable in the vector space $\mathcal{M}(X)$ of real measures on X, equipped with the vague topology (GT, III, §5, No. 1). This amounts to saying that for every function $f \in \mathcal{K}(X)$, the family of numbers $\lambda_\alpha(f)$ is summable in $\mathbf{R}$. For, this condition is obviously necessary; conversely, if it is satisfied then the linear form $f \mapsto \sum_{\alpha \in A} \lambda_\alpha(f)$ on $\mathcal{K}(X)$ is positive, hence is a positive measure $\nu$ (Ch. III, §1, No. 5, Th. 1), and one verifies immediately that the finite partial sums of the family $(\lambda_\alpha)$ converge vaguely to $\nu$, with respect to the section filter of the set of finite subsets of A (GT, III, §5, No. 1, Def. 1).
+Let $(\lambda_\alpha)_{\alpha \in A}$ be a family of positive measures on a locally compact space X; the family $(\lambda_\alpha)_{\alpha \in A}$ is said to be a *summable family of measures* if it is summable in the vector space $\mathscr{M}(X)$ of real measures on X, equipped with the vague topology (GT, III, §5, No. 1). This amounts to saying that for every function $f \in \mathscr{K}(X)$, the family of numbers $\lambda_\alpha(f)$ is summable in $\mathbf{R}$. For, this condition is obviously necessary; conversely, if it is satisfied then the linear form $f \mapsto \sum_{\alpha \in A} \lambda_\alpha(f)$ on $\mathscr{K}(X)$ is positive, hence is a positive measure $\nu$ (Ch. III, §1, No. 5, Th. 1), and one verifies immediately that the finite partial sums of the family $(\lambda_\alpha)$ converge vaguely to $\nu$, with respect to the section filter of the set of finite subsets of A (GT, III, §5, No. 1, Def. 1).
 
-Since every element of $\mathcal{K}(X)$ is the difference of two elements of $\mathcal{K}_+(X)$, the family $(\lambda_\alpha)$ is summable if and only if
+Since every element of $\mathscr{K}(X)$ is the difference of two elements of $\mathscr{K}_+(X)$, the family $(\lambda_\alpha)$ is summable if and only if
 $$
 \sum_{\alpha \in A} \lambda_\alpha(f) < +\infty
 $$
 
-for every function $f \in \mathcal{K}_+(X)$. This condition is also equivalent to the following:
+for every function $f \in \mathscr{K}_+(X)$. This condition is also equivalent to the following:
 
 (2)
 $$
@@ -47,15 +47,15 @@ $$
 $$
 for every compact set $K \subset X$.
 
-For, (2) implies (1) because $f \leq \|f\| \cdot \varphi_S$, where S denotes the compact support of $f$. Conversely, if K is a compact set, there exists a function $f \in \mathcal{K}_+(X)$ such that $\varphi_K \leq f$ (Ch. III, §1, No. 2, Lemma 1), and it follows that (1) implies (2).
+For, (2) implies (1) because $f \leq \|f\| \cdot \varphi_S$, where S denotes the compact support of $f$. Conversely, if K is a compact set, there exists a function $f \in \mathscr{K}_+(X)$ such that $\varphi_K \leq f$ (Ch. III, §1, No. 2, Lemma 1), and it follows that (1) implies (2).
 
 #### Remark 1 {#int-v-s2-n1-rem-1 .statement}
 
-It is immediate that, when the family $(\lambda_\alpha)_{\alpha \in A}$ is summable, its sum is the supremum in $\mathcal{M}_+(X)$ of the finite partial sums $\sum_{\alpha \in J} \lambda_\alpha$, where J runs over the set of finite subsets of A.
+It is immediate that, when the family $(\lambda_\alpha)_{\alpha \in A}$ is summable, its sum is the supremum in $\mathscr{M}_+(X)$ of the finite partial sums $\sum_{\alpha \in J} \lambda_\alpha$, where J runs over the set of finite subsets of A.
 
 #### Remark 2 {#int-v-s2-n1-rem-2 .statement}
 
-Let $(\theta_\alpha)_{\alpha \in A}$ be a family of complex measures on X; the family $(\theta_\alpha)$ is said to be *summable* if the family $(|\theta_\alpha|)$ of positive measures is summable; *it is not sufficient for this* that the family $(\theta_\alpha)$ be summable in the vector space $\mathcal{M}(X; \mathbf{C})$ equipped with the vague topology (cf. Exer. 3).
+Let $(\theta_\alpha)_{\alpha \in A}$ be a family of complex measures on X; the family $(\theta_\alpha)$ is said to be *summable* if the family $(|\theta_\alpha|)$ of positive measures is summable; *it is not sufficient for this* that the family $(\theta_\alpha)$ be summable in the vector space $\mathscr{M}(X; \mathbf{C})$ equipped with the vague topology (cf. Exer. 3).
 
 ### 2. Integration with respect to a sum of positive measures
 
@@ -83,7 +83,7 @@ $$*
 
 #### Corollary 3 {#int-v-s2-prop-1-cor-3 .statement}
 
-— *For every function $f \in \mathcal{F}_+(X)$,
+— *For every function $f \in \mathscr{F}_+(X)$,
 $$
 \nu^*(f) \geq \sum_{\alpha \in A} \lambda_\alpha^*(f).
 $$*
@@ -118,7 +118,7 @@ $$
 \sum_{\alpha \in A} \left| \int f \, d\lambda_\alpha \right| \leq \sum_{\alpha \in A} \int |f| \, d\lambda_\alpha = \nu(|f|)
 $$
 
-implies that the family $(\int f \, d\lambda_\alpha)$ is absolutely summable in $F$, and that the norm of the sum is less than or equal to the norm of $f$ in $\mathcal{L}_F^1(\nu)$. The set of $f \in \mathcal{L}_F^1(\nu)$ that satisfy (6) is thus a closed linear subspace $\mathcal{H}$ of $\mathcal{L}_F^1(\nu)$; now, this subspace is also dense in $\mathcal{L}_F^1(\nu)$, because it contains the functions of the form $f \cdot a$, where $a \in F$ and $f$ denotes a finite integrable positive function (Prop. 1). Therefore $\mathcal{H} = \mathcal{L}_F^1(\nu)$ and the proposition is established.
+implies that the family $(\int f \, d\lambda_\alpha)$ is absolutely summable in $F$, and that the norm of the sum is less than or equal to the norm of $f$ in $\mathscr{L}_F^1(\nu)$. The set of $f \in \mathscr{L}_F^1(\nu)$ that satisfy (6) is thus a closed linear subspace $\mathscr{H}$ of $\mathscr{L}_F^1(\nu)$; now, this subspace is also dense in $\mathscr{L}_F^1(\nu)$, because it contains the functions of the form $f \cdot a$, where $a \in F$ and $f$ denotes a finite integrable positive function (Prop. 1). Therefore $\mathscr{H} = \mathscr{L}_F^1(\nu)$ and the proposition is established.
 
 Prop. 3 can also be deduced from the general theorem on integration that will be proved in §3 (No. 3, Th. 1).
 
@@ -144,11 +144,11 @@ If the measure $\mu$ is moderated, the index set $A$ may be taken to be countabl
 
 Consider a locally countable family $(K_\alpha)_{\alpha \in A}$ of pairwise disjoint elements of $\mathfrak{K}$ such that the set $N = T - \bigcup_{\alpha \in A} K_\alpha$ is locally $\mu$-negligible
 
-(Ch. IV, §5, No. 9, Prop. 14). For every function $f \in \mathcal{K}(T)$, set
+(Ch. IV, §5, No. 9, Prop. 14). For every function $f \in \mathscr{K}(T)$, set
 $$
 \mu_\alpha(f) = \mu(f \varphi_{K_\alpha});
 $$
-the linear form $\mu_\alpha$ on $\mathcal{K}(T)$ is positive, therefore is a positive measure, with support contained in $K_\alpha$. Since every compact set contained in an element of $\mathfrak{K}$ belongs to $\mathfrak{K}$, $\operatorname{Supp}(\mu_\alpha) \in \mathfrak{K}$ for all $\alpha \in A$. It remains only to show that the family $(\mu_\alpha)$ is summable and that its sum is equal to $\mu$, in other words that $\sum_{\alpha \in A} \mu_\alpha(f) = \mu(f)$ for every function $f \in \mathcal{K}_+(T)$.
+the linear form $\mu_\alpha$ on $\mathscr{K}(T)$ is positive, therefore is a positive measure, with support contained in $K_\alpha$. Since every compact set contained in an element of $\mathfrak{K}$ belongs to $\mathfrak{K}$, $\operatorname{Supp}(\mu_\alpha) \in \mathfrak{K}$ for all $\alpha \in A$. It remains only to show that the family $(\mu_\alpha)$ is summable and that its sum is equal to $\mu$, in other words that $\sum_{\alpha \in A} \mu_\alpha(f) = \mu(f)$ for every function $f \in \mathscr{K}_+(T)$.
 
 Now, let $S$ be the (compact) support of $f$, and let $A'$ be the countable set formed by the $\alpha \in A$ such that $S \cap K_\alpha \neq \varnothing$. Since the set $N \cap S$ is $\mu$-negligible,
 $$

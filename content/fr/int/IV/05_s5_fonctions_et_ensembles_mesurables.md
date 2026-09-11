@@ -60,7 +60,7 @@ subsections:
       pdf_page: 204
 statements: 81
 exercises: 30
-content_sha256: 6bdd095286c47d4811268ccb4b6ba9aa2c24f0c091a64fbb36dbabb250f104a1
+content_sha256: 278f0eecc4d22d028e8a65725dfa2a39af4fbeb96577be0fe3d79e8704173e09
 ---
 
 ## § 5. Fonctions et ensembles mesurables
@@ -239,13 +239,13 @@ Soient $X$ un espace localement compact, $\mu$ une mesure sur $X$, $A$ un ensemb
 1° la fonction $f$ (prolongée de façon arbitraire dans $N$) est mesurable ;
 2° pour toute partie compacte $K$ de $X$ et tout $\varepsilon > 0$, il existe un ensemble compact $K_1 \subset K$ tel que $|\mu|(K - K_1) \leq \varepsilon$, et tel que les restrictions des $f_\alpha$ à $K_1$ soient continues et convergent uniformément vers $f$ dans $K_1$.
 
-La première assertion résulte évidemment de la seconde, que nous allons démontrer. Il existe un ensemble compact $K_0 \subset K$ tel que $|\mu|(K - K_0) \leq \varepsilon/2$, et que les restrictions à $K_0$ de toutes les fonctions $f_\alpha$ soient continues (n° 1, prop. 2). Soit $(A_n)$ une base dénombrable décroissante du filtre $\mathcal{F}$; soit $d$ une distance sur $F$ compatible avec la topologie. Pour tout couple d’entiers $n > 0$, $r > 0$, soit $B_{n,r}$ l’ensemble des points $x \in K_0$ tels que, pour au moins un couple d’indices $\alpha, \beta$ appartenant à $A_n$, on ait $d(f_\alpha(x), f_\beta(x)) \geq 1/r$; pour $\alpha$ et $\beta$ fixés, l’ensemble des $x \in K_0$ tels que $d(f_\alpha(x), f_\beta(x)) \geq 1/r$ est fermé dans $K_0$, donc compact; par suite, $B_{n,r}$ est réunion dénombrable d’ensembles compacts contenus dans $K_0$, donc est intégrable ($§ 4$, n° 5, prop. 6 et 8). Si l’on fixe $r$, l’intersection de la suite décroissante des ensembles $B_{n,r}$ ($n = 1, 2, \ldots$) est de mesure nulle, puisque $f_\alpha(x)$ tend presque partout vers $f(x)$ dans $K_0$ suivant le filtre $\mathcal{F}$; on a donc $\lim_{n \to \infty} |\mu|(B_{n,r}) = 0$ ($§ 4$, n° 5, cor. de la prop. 7), et il existe par suite un entier $n_r$ tel que $|\mu|(B_{n_r,r}) \leq \varepsilon/2^{r+2}$. Soit $B$ la réunion (pour $r = 1, 2, \ldots$) des ensembles $B_{n_r,r}$; $B$ est intégrable, et on a
+La première assertion résulte évidemment de la seconde, que nous allons démontrer. Il existe un ensemble compact $K_0 \subset K$ tel que $|\mu|(K - K_0) \leq \varepsilon/2$, et que les restrictions à $K_0$ de toutes les fonctions $f_\alpha$ soient continues (n° 1, prop. 2). Soit $(A_n)$ une base dénombrable décroissante du filtre $\mathscr{F}$; soit $d$ une distance sur $F$ compatible avec la topologie. Pour tout couple d’entiers $n > 0$, $r > 0$, soit $B_{n,r}$ l’ensemble des points $x \in K_0$ tels que, pour au moins un couple d’indices $\alpha, \beta$ appartenant à $A_n$, on ait $d(f_\alpha(x), f_\beta(x)) \geq 1/r$; pour $\alpha$ et $\beta$ fixés, l’ensemble des $x \in K_0$ tels que $d(f_\alpha(x), f_\beta(x)) \geq 1/r$ est fermé dans $K_0$, donc compact; par suite, $B_{n,r}$ est réunion dénombrable d’ensembles compacts contenus dans $K_0$, donc est intégrable ($§ 4$, n° 5, prop. 6 et 8). Si l’on fixe $r$, l’intersection de la suite décroissante des ensembles $B_{n,r}$ ($n = 1, 2, \ldots$) est de mesure nulle, puisque $f_\alpha(x)$ tend presque partout vers $f(x)$ dans $K_0$ suivant le filtre $\mathscr{F}$; on a donc $\lim_{n \to \infty} |\mu|(B_{n,r}) = 0$ ($§ 4$, n° 5, cor. de la prop. 7), et il existe par suite un entier $n_r$ tel que $|\mu|(B_{n_r,r}) \leq \varepsilon/2^{r+2}$. Soit $B$ la réunion (pour $r = 1, 2, \ldots$) des ensembles $B_{n_r,r}$; $B$ est intégrable, et on a
 $$
 |\mu|(B) \leq \sum_{r=1}^\infty |\mu|(B_{n_r,r}) \leq \varepsilon/4
 $$
-($§ 4$, n° 5, cor. de la prop. 8). Soit $C$ le complémentaire de $B$ dans $K_0$; par construction, $f_\alpha(x)$ converge uniformément vers $f(x)$ dans $C$ suivant le filtre $\mathcal{F}$, et comme les restrictions des $f_\alpha$ à $C$ sont continues, il en est de même de la restriction de $f$ à $C$. Il suffit alors de prendre un ensemble compact $K_1 \subset C$ tel que $|\mu|(C - K_1) \leq \varepsilon/4$ pour satisfaire aux conditions de l’énoncé, puisque $|\mu|(K - K_1) = |\mu|(K - K_0) + |\mu|(B) + |\mu|(C - K_1) \leq \varepsilon$.
+($§ 4$, n° 5, cor. de la prop. 8). Soit $C$ le complémentaire de $B$ dans $K_0$; par construction, $f_\alpha(x)$ converge uniformément vers $f(x)$ dans $C$ suivant le filtre $\mathscr{F}$, et comme les restrictions des $f_\alpha$ à $C$ sont continues, il en est de même de la restriction de $f$ à $C$. Il suffit alors de prendre un ensemble compact $K_1 \subset C$ tel que $|\mu|(C - K_1) \leq \varepsilon/4$ pour satisfaire aux conditions de l’énoncé, puisque $|\mu|(K - K_1) = |\mu|(K - K_0) + |\mu|(B) + |\mu|(C - K_1) \leq \varepsilon$.
 
-Les conclusions du th. 2 ne subsistent plus nécessairement si $F$ n’est pas métrisable (exerc. 1). Si $F$ est métrisable et si l’ensemble $A$ n’est pas dénombrable, mais si le filtre $\mathcal{F}$ possède une base dénombrable, la première conclusion du th. 2 est encore valable; en effet, si $(A_n)$ est une base dénombrable de $\mathcal{F}$, et $\alpha_n$ un élément de $A_n$, $f$ est limite localement presque partout de la suite $(f_{\alpha_n})$, donc est mesurable; mais la seconde conclusion du th. 2 n’est plus nécessairement valable (cf. exerc. 4).
+Les conclusions du th. 2 ne subsistent plus nécessairement si $F$ n’est pas métrisable (exerc. 1). Si $F$ est métrisable et si l’ensemble $A$ n’est pas dénombrable, mais si le filtre $\mathscr{F}$ possède une base dénombrable, la première conclusion du th. 2 est encore valable; en effet, si $(A_n)$ est une base dénombrable de $\mathscr{F}$, et $\alpha_n$ un élément de $A_n$, $f$ est limite localement presque partout de la suite $(f_{\alpha_n})$, donc est mesurable; mais la seconde conclusion du th. 2 n’est plus nécessairement valable (cf. exerc. 4).
 
 #### Corollaire 1 {#int-iv-s5-thm-2-cor-1 .statement}
 
@@ -388,13 +388,13 @@ Passons au cas général. Si $z'$ est une forme linéaire continue sur F, sa res
 
 Pour qu’une application $f$ de $X$ dans un espace de Banach $F$ soit de puissance $p$-ième intégrable ($1 \leq p < +\infty$), il faut et il suffit que $f$ soit mesurable et que $N_p(f)$ soit finie.
 
-La condition est nécessaire : en effet, si $f \in \mathcal{L}_F^p$, il existe une suite $(g_n)$ de fonctions continues à support compact qui converge presque partout vers $f$ ($§ 3$, n° 4, cor. 2 du th. 3); en vertu du th. 2 du n° 4, $f$ est mesurable.
+La condition est nécessaire : en effet, si $f \in \mathscr{L}_F^p$, il existe une suite $(g_n)$ de fonctions continues à support compact qui converge presque partout vers $f$ ($§ 3$, n° 4, cor. 2 du th. 3); en vertu du th. 2 du n° 4, $f$ est mesurable.
 
 Pour prouver que les conditions sont suffisantes, nous établirons d’abord un lemme :
 
 #### Lemme 1 {#int-iv-s5-lem-1 .statement}
 
-Soit $g$ une fonction à valeurs dans $F$, telle que $N_p(g) < +\infty$ (autrement dit, une fonction de $\mathcal{F}_F^p$). L’ensemble $A$ de points $x \in X$ tels que $g(x) \neq 0$ est contenu dans la réunion d’un ensemble négligeable et d’une suite d’ensembles compacts.
+Soit $g$ une fonction à valeurs dans $F$, telle que $N_p(g) < +\infty$ (autrement dit, une fonction de $\mathscr{F}_F^p$). L’ensemble $A$ de points $x \in X$ tels que $g(x) \neq 0$ est contenu dans la réunion d’un ensemble négligeable et d’une suite d’ensembles compacts.
 
 En effet, soit $A_n$ l’ensemble des points $x \in X$ tels que $|g(x)| \geq 1/n$; $A$ est réunion des $A_n$, et on a $\varphi_{A_n} \leq n|g|$, d’où $|\mu|^*(A_n) \leq (nN_p(g))^p$; $A_n$ est donc contenu dans la réunion d’un ensemble négligeable et d’une suite d’ensembles compacts ($§ 4$, n° 6, cor. 3 du th. 4); par suite, il en est de même de $A$.
 
@@ -404,9 +404,9 @@ $$
 |g_n(x)| \leq |f(x)|
 $$
 
-en tout point $x \in X$, et que $g_n(x)$ tende presque partout vers $f(x)$. Or, $g_n$ est combinaison linéaire de fonctions caractéristiques d’ensembles mesurables contenus dans $K$; ces ensembles étant intégrables en vertu de la prop. 3 du n° 1, $g_n$ appartient à $\mathcal{L}_F^p$. Comme $N_p(f) < +\infty$, le th. de Lebesgue ($§ 3$, n° 7, th. 6) montre que $f$ appartient à $\mathcal{L}_F^p$.
+en tout point $x \in X$, et que $g_n(x)$ tende presque partout vers $f(x)$. Or, $g_n$ est combinaison linéaire de fonctions caractéristiques d’ensembles mesurables contenus dans $K$; ces ensembles étant intégrables en vertu de la prop. 3 du n° 1, $g_n$ appartient à $\mathscr{L}_F^p$. Comme $N_p(f) < +\infty$, le th. de Lebesgue ($§ 3$, n° 7, th. 6) montre que $f$ appartient à $\mathscr{L}_F^p$.
 
-Dans le cas général, il résulte du lemme 1 qu’il existe une suite croissante $(K_n)$ d’ensembles compacts telle que $f(x)$ soit nulle presque partout dans le complémentaire de la réunion des $K_n$. Soit $f_n$ la fonction égale à $f(x)$ dans $K_n$, et à 0 ailleurs ; $f_n$ est mesurable en vertu du n° 3, cor. 5 du th. 1; comme $|f_n| \leq |f|$, $f_n$ appartient à $\mathcal{L}_F^p$ en vertu de la première partie du raisonnement. Comme $f(x)$ est presque partout égale à la limite de la suite des $f_n(x)$, le th. de Lebesgue prouve encore que $f \in \mathcal{L}_F^p$, ce qui achève la démonstration.
+Dans le cas général, il résulte du lemme 1 qu’il existe une suite croissante $(K_n)$ d’ensembles compacts telle que $f(x)$ soit nulle presque partout dans le complémentaire de la réunion des $K_n$. Soit $f_n$ la fonction égale à $f(x)$ dans $K_n$, et à 0 ailleurs ; $f_n$ est mesurable en vertu du n° 3, cor. 5 du th. 1; comme $|f_n| \leq |f|$, $f_n$ appartient à $\mathscr{L}_F^p$ en vertu de la première partie du raisonnement. Comme $f(x)$ est presque partout égale à la limite de la suite des $f_n(x)$, le th. de Lebesgue prouve encore que $f \in \mathscr{L}_F^p$, ce qui achève la démonstration.
 
 On aura soin de noter qu’une fonction localement négligeable mais non négligeable n’est pas intégrable; une fonction égale localement presque partout à une fonction intégrable n’est donc pas nécessairement intégrable.
 
@@ -456,7 +456,7 @@ Cela résulte du cor. 4 appliqué aux $\varphi_{A_n}$.
 
 ### 7. Mesure induite sur un sous-espace localement compact
 
-Soient X un espace localement compact, $\mu$ une mesure sur X, Y un sous-espace localement compact de X. Comme Y est l’intersection d’un ensemble ouvert et d’un ensemble fermé dans X (Top. gén., chap. I, 3e éd., §9, n° 7, prop. 12), il est $\mu$-mesurable (n° 1, cor. de la prop. 3). Pour toute fonction $g \in \mathcal{K}(Y; \mathbf{C})$, soit $g'$ la fonction définie dans X, égale à g dans Y et à 0 dans X − Y ; montrons que $g'$ est $\mu$-intégrable. On peut se borner au cas où g est réelle et $\geqslant 0$ (en écrivant g comme combinaison linéaire de telles fonctions); comme $g'$ est bornée et à support compact, il suffit de montrer que $g'$ est $\mu$-mesurable (n° 6, th. 5); mais cela résulte de ce que $g'$ est semi-continue supérieurement dans X (n° 5, cor. de la prop. 8). On peut donc poser la définition suivante :
+Soient X un espace localement compact, $\mu$ une mesure sur X, Y un sous-espace localement compact de X. Comme Y est l’intersection d’un ensemble ouvert et d’un ensemble fermé dans X (Top. gén., chap. I, 3e éd., §9, n° 7, prop. 12), il est $\mu$-mesurable (n° 1, cor. de la prop. 3). Pour toute fonction $g \in \mathscr{K}(Y; \mathbf{C})$, soit $g'$ la fonction définie dans X, égale à g dans Y et à 0 dans X − Y ; montrons que $g'$ est $\mu$-intégrable. On peut se borner au cas où g est réelle et $\geqslant 0$ (en écrivant g comme combinaison linéaire de telles fonctions); comme $g'$ est bornée et à support compact, il suffit de montrer que $g'$ est $\mu$-mesurable (n° 6, th. 5); mais cela résulte de ce que $g'$ est semi-continue supérieurement dans X (n° 5, cor. de la prop. 8). On peut donc poser la définition suivante :
 
 #### Définition 4 {#int-iv-s5-def-4 .statement}
 
@@ -464,7 +464,7 @@ Etant donné un sous-espace localement compact Y d’un espace localement compac
 $$
 \int g\, d\mu_Y = \int g'\, d\mu
 $$
-pour toute fonction $g \in \mathcal{K}(Y; \mathbf{C})$, $g'$ désignant la fonction égale à g dans Y et à 0 dans X − Y.
+pour toute fonction $g \in \mathscr{K}(Y; \mathbf{C})$, $g'$ désignant la fonction égale à g dans Y et à 0 dans X − Y.
 
 #### Exemple {#int-iv-s5-n7-exa-1 .statement}
 
@@ -472,9 +472,9 @@ Soient $\mu$ la mesure de Lebesgue sur $\mathbf{R}$, I un intervalle quelconque 
 $$
 g \mapsto \int_a^b g(x)\, dx
 $$
-sur $\mathcal{K}(I; \mathbf{C})$, en désignant par $a$ et $b$ l’origine et l’extrémité (finies ou non) de I (cf. §4, n° 4, Exemple), autrement dit ce que nous avons appelé la mesure de Lebesgue sur I.
+sur $\mathscr{K}(I; \mathbf{C})$, en désignant par $a$ et $b$ l’origine et l’extrémité (finies ou non) de I (cf. §4, n° 4, Exemple), autrement dit ce que nous avons appelé la mesure de Lebesgue sur I.
 
-Lorsque Y est un sous-espace ouvert de X, la déf. 1 coïncide avec la définition de la mesure induite par $\mu$ sur Y (ou restriction de $\mu$ à Y) donnée au chap. III, § 2, n° 1 : en effet, pour toute fonction $g \in \mathcal{K}(Y; \mathbf{C})$, la fonction $g'$ est alors continue dans X.
+Lorsque Y est un sous-espace ouvert de X, la déf. 1 coïncide avec la définition de la mesure induite par $\mu$ sur Y (ou restriction de $\mu$ à Y) donnée au chap. III, § 2, n° 1 : en effet, pour toute fonction $g \in \mathscr{K}(Y; \mathbf{C})$, la fonction $g'$ est alors continue dans X.
 
 Nous étudierons en détail au chap. V, § 5 l’intégration par rapport à une mesure induite, et n’aurons besoin jusque-là que des résultats suivants :
 
@@ -488,7 +488,7 @@ Soient $\mu$ une mesure positive sur X, K une partie compacte de X.
 
 (iii) Si S est le support de $\mu_K$, on a $\mathrm{Supp}(\mu_S) = S$.
 
-(i) On peut se borner au cas où H est compact. Désignons par $f$ la fonction caractéristique de H dans l’espace K ; $f$ est semi-continue supérieurement, et est donc enveloppe inférieure d’une famille filtrante décroissante $(g_\alpha)$ de fonctions de $\mathcal{K}_+(K)$; on a $\mu_K(H) = \inf \int g_\alpha d\mu_K$ ($§ 4$, n° 4, cor. 2 de la prop. 5). Si $g'_\alpha$ est la fonction égale à $g_\alpha$ dans K, à 0 dans $X - K$, $g'_\alpha$ est semi-continue supérieurement, et l’enveloppe inférieure de la famille filtrante décroissante $(g'_\alpha)$ est la fonction caractéristique $\varphi_H$ de H dans l’espace X ; on a donc
+(i) On peut se borner au cas où H est compact. Désignons par $f$ la fonction caractéristique de H dans l’espace K ; $f$ est semi-continue supérieurement, et est donc enveloppe inférieure d’une famille filtrante décroissante $(g_\alpha)$ de fonctions de $\mathscr{K}_+(K)$; on a $\mu_K(H) = \inf \int g_\alpha d\mu_K$ ($§ 4$, n° 4, cor. 2 de la prop. 5). Si $g'_\alpha$ est la fonction égale à $g_\alpha$ dans K, à 0 dans $X - K$, $g'_\alpha$ est semi-continue supérieurement, et l’enveloppe inférieure de la famille filtrante décroissante $(g'_\alpha)$ est la fonction caractéristique $\varphi_H$ de H dans l’espace X ; on a donc
 $$
 \mu(H) = \inf_\alpha \int g'_\alpha d\mu = \inf_\alpha \int g_\alpha d\mu_K = \mu_K(H)
 $$
@@ -506,7 +506,7 @@ donc $\mu(N) = 0$ puisque $\varepsilon$ est arbitraire.
 
 Soit Y un sous-espace localement compact de X ; pour toute mesure $\mu$ sur X, on a $|\mu_Y| = |\mu|_Y$.
 
-Soient $f$ une fonction de $\mathcal{K}_+(Y)$, $\varepsilon$ un nombre $> 0$ arbitraire ; par définition, il existe une fonction $g \in \mathcal{K}(Y; \mathbf{C})$ telle que $|g| \leq f$ et $|\mu_Y|(f) \leq |\mu_Y(g)| + \varepsilon$. Si l’on désigne par $f'$ et $g'$ les fonctions obtenues respectivement en prolongeant $f$ et $g$ par 0 dans $X - Y$, on a $\mu_Y(g) = \mu(g')$, et comme $|g'| \leq f'$,
+Soient $f$ une fonction de $\mathscr{K}_+(Y)$, $\varepsilon$ un nombre $> 0$ arbitraire ; par définition, il existe une fonction $g \in \mathscr{K}(Y; \mathbf{C})$ telle que $|g| \leq f$ et $|\mu_Y|(f) \leq |\mu_Y(g)| + \varepsilon$. Si l’on désigne par $f'$ et $g'$ les fonctions obtenues respectivement en prolongeant $f$ et $g$ par 0 dans $X - Y$, on a $\mu_Y(g) = \mu(g')$, et comme $|g'| \leq f'$,
 
 $$
 |\mu(g')| \leq |\mu|(|g'|) \leq |\mu|(f') = |\mu|_Y(f)
@@ -518,7 +518,7 @@ $$
 |\mu_Y|(f) \leq |\mu|_Y(f).
 $$
 
-D’autre part, soient $K$ le support de $f$, $U$ un voisinage compact de $K$ dans $X$ tel que $|\mu|(U - K) \leq \varepsilon$; en vertu du th. d’Urysohn, il existe une fonction $f_1 \in \mathcal{K}_+(X)$, prolongeant $f$, de support contenu dans $U$ et telle que $\|f_1\| = \|f\|$. Il existe une fonction $h_1 \in \mathcal{K}(X; \mathbf{C})$ telle que $|h_1| \leq f_1$ et que $|\mu|(f_1) \leq |\mu(h_1)| + \varepsilon$. Si $h$ est la restriction de $h_1$ à $Y$, on a $h \in \mathcal{K}(Y; \mathbf{C}), |h| \leq f$, et $\mu(h_1) - \mu_Y(h) = \mu(h_1 \varphi_{U-K})$, donc $|\mu(h_1) - \mu_Y(h)| \leq \|f\| \cdot |\mu|(U - K) \leq \varepsilon \|f\|$; par ailleurs, on a de même
+D’autre part, soient $K$ le support de $f$, $U$ un voisinage compact de $K$ dans $X$ tel que $|\mu|(U - K) \leq \varepsilon$; en vertu du th. d’Urysohn, il existe une fonction $f_1 \in \mathscr{K}_+(X)$, prolongeant $f$, de support contenu dans $U$ et telle que $\|f_1\| = \|f\|$. Il existe une fonction $h_1 \in \mathscr{K}(X; \mathbf{C})$ telle que $|h_1| \leq f_1$ et que $|\mu|(f_1) \leq |\mu(h_1)| + \varepsilon$. Si $h$ est la restriction de $h_1$ à $Y$, on a $h \in \mathscr{K}(Y; \mathbf{C}), |h| \leq f$, et $\mu(h_1) - \mu_Y(h) = \mu(h_1 \varphi_{U-K})$, donc $|\mu(h_1) - \mu_Y(h)| \leq \|f\| \cdot |\mu|(U - K) \leq \varepsilon \|f\|$; par ailleurs, on a de même
 
 $$
 |\mu|(f_1) - |\mu|_Y(f) = |\mu|(f_1 \varphi_{U-K}) \quad \text{et} \quad ||\mu|(f_1) - |\mu|_Y(f)|| \leq \varepsilon \|f\|.
@@ -590,13 +590,13 @@ La déf. 7 montre que la réunion d’une ensemble localement dénombrable de pa
 
 #### Proposition 14 {#int-iv-s5-prop-14 .statement}
 
-Soient X un espace localement compact, $\mu$ une mesure sur X, A une partie $\mu$-mesurable de X, $\mathfrak{R}$ un ensemble de parties compactes de A, $\mu$-dense dans A. Il existe un ensemble $\mathfrak{H} \subset \mathfrak{R}$ localement dénombrable, formé de parties deux à deux disjointes, tel que $A - \bigcup_{K \in \mathcal{H}} K$ soit localement $\mu$-négligeable et que, pour tout $K \in \mathcal{H}$, le support de $\mu_K$ soit $K$ tout entier.
+Soient X un espace localement compact, $\mu$ une mesure sur X, A une partie $\mu$-mesurable de X, $\mathfrak{R}$ un ensemble de parties compactes de A, $\mu$-dense dans A. Il existe un ensemble $\mathfrak{H} \subset \mathfrak{R}$ localement dénombrable, formé de parties deux à deux disjointes, tel que $A - \bigcup_{K \in \mathscr{H}} K$ soit localement $\mu$-négligeable et que, pour tout $K \in \mathscr{H}$, le support de $\mu_K$ soit $K$ tout entier.
 
-Considérons les ensembles $\Omega \subset \mathfrak{R}$ formés d’ensembles deux à deux disjoints tels que, pour tout $L \in \Omega$, on ait $\mathrm{Supp}(\mu_L) = L$. Ces ensembles $\Omega$ forment une partie $\mathcal{H}$ de $\mathfrak{P}(\mathfrak{R})$, qui est non vide (car elle contient l’élément $\emptyset$) et que nous ordonnerons par la relation d’inclusion dans $\mathfrak{P}(\mathfrak{R})$. Il est immédiat que $\mathcal{H}$ est *inductif* ; soit $\mathcal{H}$ un élément maximal de $\mathcal{H}$ (*Ens. R*, § 6, no 10). Montrons tout d’abord que $\mathcal{H}$ est *localement dénombrable*. En effet, pour tout $x \in X$, soit $V$ un voisinage ouvert relativement compact de $x$; si $(K_i)_{1 \leq i \leq n}$ est une famille finie d’ensembles distincts de $\mathcal{H}$ rencontrant $V$, on a $\sum_{i=1}^n |\mu|(K_i \cap V) = |\mu|\left(V \cap \left( \bigcup_{i=1}^n K_i \right)\right)$ puisque les $K_i$ sont deux à deux disjoints, d’où $\sum_{i=1}^n |\mu|(K_i \cap V) \leq |\mu|(V)$. Si $\mathcal{H}_V$ est l’ensemble des $K \in \mathcal{H}$ rencontrant $V$, on a donc
+Considérons les ensembles $\Omega \subset \mathfrak{R}$ formés d’ensembles deux à deux disjoints tels que, pour tout $L \in \Omega$, on ait $\mathrm{Supp}(\mu_L) = L$. Ces ensembles $\Omega$ forment une partie $\mathscr{H}$ de $\mathfrak{P}(\mathfrak{R})$, qui est non vide (car elle contient l’élément $\emptyset$) et que nous ordonnerons par la relation d’inclusion dans $\mathfrak{P}(\mathfrak{R})$. Il est immédiat que $\mathscr{H}$ est *inductif* ; soit $\mathscr{H}$ un élément maximal de $\mathscr{H}$ (*Ens. R*, § 6, no 10). Montrons tout d’abord que $\mathscr{H}$ est *localement dénombrable*. En effet, pour tout $x \in X$, soit $V$ un voisinage ouvert relativement compact de $x$; si $(K_i)_{1 \leq i \leq n}$ est une famille finie d’ensembles distincts de $\mathscr{H}$ rencontrant $V$, on a $\sum_{i=1}^n |\mu|(K_i \cap V) = |\mu|\left(V \cap \left( \bigcup_{i=1}^n K_i \right)\right)$ puisque les $K_i$ sont deux à deux disjoints, d’où $\sum_{i=1}^n |\mu|(K_i \cap V) \leq |\mu|(V)$. Si $\mathscr{H}_V$ est l’ensemble des $K \in \mathscr{H}$ rencontrant $V$, on a donc
 $$
-\sum_{K \in \mathcal{H}_V} |\mu|(K \cap V) < +\infty,
+\sum_{K \in \mathscr{H}_V} |\mu|(K \cap V) < +\infty,
 $$
-et comme $|\mu|(K \cap V) > 0$ pour tout $K \in \mathcal{H}_V$, $\mathcal{H}_V$ est nécessairement dénombrable. Prouvons ensuite que $N = A - \bigcup_{K \in \mathcal{H}} K$ est localement $\mu$-négligeable. On a vu plus haut que $N$ est $\mu$-mesurable. Si $N$ n’était pas localement négligeable, il contiendrait un ensemble compact non négligeable $L_0$, et par suite (no 8, prop. 12) un ensemble compact non négligeable $L \subset L_0$ appartenant à $\mathfrak{R}$. Comme $|\mu_L|(L) = |\mu|(L) > 0$ (no 7, lemmes 2 et 3), la mesure induite $\mu_L$ sur $L$ par $\mu$ n’est pas nulle; son support $S$ est donc une partie compacte non vide appartenant à $\mathfrak{R}$ en vertu de (PL₁), et l’on a $\mathrm{Supp}(\mu_S) = S$ (no 7, lemme 2, (iii)). On en conclut que l’ensemble $\mathcal{H} \cup \{S\}$ appartiendrait à $\mathcal{H}$, ce qui contredit la définition de $\mathcal{H}$; l’ensemble $N$ est donc localement négligeable, ce qui achève la démonstration.
+et comme $|\mu|(K \cap V) > 0$ pour tout $K \in \mathscr{H}_V$, $\mathscr{H}_V$ est nécessairement dénombrable. Prouvons ensuite que $N = A - \bigcup_{K \in \mathscr{H}} K$ est localement $\mu$-négligeable. On a vu plus haut que $N$ est $\mu$-mesurable. Si $N$ n’était pas localement négligeable, il contiendrait un ensemble compact non négligeable $L_0$, et par suite (no 8, prop. 12) un ensemble compact non négligeable $L \subset L_0$ appartenant à $\mathfrak{R}$. Comme $|\mu_L|(L) = |\mu|(L) > 0$ (no 7, lemmes 2 et 3), la mesure induite $\mu_L$ sur $L$ par $\mu$ n’est pas nulle; son support $S$ est donc une partie compacte non vide appartenant à $\mathfrak{R}$ en vertu de (PL₁), et l’on a $\mathrm{Supp}(\mu_S) = S$ (no 7, lemme 2, (iii)). On en conclut que l’ensemble $\mathscr{H} \cup \{S\}$ appartiendrait à $\mathscr{H}$, ce qui contredit la définition de $\mathscr{H}$; l’ensemble $N$ est donc localement négligeable, ce qui achève la démonstration.
 
 ### 10. Fonctions mesurables définies dans une partie mesurable
 
@@ -652,7 +652,7 @@ La propriété d) de la prop. 15 permet aussitôt de généraliser aux fonctions
 
 ### 11. Convergence en mesure
 
-Soient X un espace localement compact, $\mu$ une mesure sur X, A une partie $\mu$-mesurable de X, F un espace uniforme; nous désignerons par $\mathcal{S}(A, \mu ; F)$, ou $\mathcal{S}_F(A, \mu)$ (ou simplement $\mathcal{S}_F(\mu)$, ou même $\mathcal{S}_F$, lorsque $A = X$) l’ensemble des applications $\mu$-mesurables de A dans F (n° 10, déf. 8). Pour tout entourage V de la structure uniforme de F, tout ensemble $\mu$-intégrable $B \subset A$ et tout nombre $\delta > 0$, nous désignerons par $W(V, B, \delta)$ l’ensemble des couples $(f, g)$ de fonctions de $\mathcal{S}(A, \mu ; F)$ ayant la propriété suivante: l’ensemble M des $x \in B$ pour lesquels $(f(x), g(x)) \notin V$ est tel que $|\mu|^*(M) \leq \delta$. Montrons que les ensembles $W(V, B, \delta)$ forment un système fondamental d’entourages d’une structure uniforme sur $\mathcal{S}(A, \mu ; F)$: il est clair que $W(V, B, \delta)$ est symétrique si V l’est, et que si $V' \subset V, B' \supset B$ et $\delta' \leq \delta$, on a
+Soient X un espace localement compact, $\mu$ une mesure sur X, A une partie $\mu$-mesurable de X, F un espace uniforme; nous désignerons par $\mathscr{S}(A, \mu ; F)$, ou $\mathscr{S}_F(A, \mu)$ (ou simplement $\mathscr{S}_F(\mu)$, ou même $\mathscr{S}_F$, lorsque $A = X$) l’ensemble des applications $\mu$-mesurables de A dans F (n° 10, déf. 8). Pour tout entourage V de la structure uniforme de F, tout ensemble $\mu$-intégrable $B \subset A$ et tout nombre $\delta > 0$, nous désignerons par $W(V, B, \delta)$ l’ensemble des couples $(f, g)$ de fonctions de $\mathscr{S}(A, \mu ; F)$ ayant la propriété suivante: l’ensemble M des $x \in B$ pour lesquels $(f(x), g(x)) \notin V$ est tel que $|\mu|^*(M) \leq \delta$. Montrons que les ensembles $W(V, B, \delta)$ forment un système fondamental d’entourages d’une structure uniforme sur $\mathscr{S}(A, \mu ; F)$: il est clair que $W(V, B, \delta)$ est symétrique si V l’est, et que si $V' \subset V, B' \supset B$ et $\delta' \leq \delta$, on a
 $$
 W(V', B', \delta') \subset W(V, B, \delta);
 $$
@@ -664,13 +664,13 @@ On notera que lorsque K parcourt un ensemble $\mu$-dense $\mathfrak{K}$ de parti
 
 #### Définition 9 {#int-iv-s5-def-9 .statement}
 
-On dit que la structure uniforme sur $\mathcal{S}(A, \mu ; F)$ dont les $W(V, B, \delta)$ forment un système fondamental d’entourages est la structure uniforme de la convergence en mesure dans A.
+On dit que la structure uniforme sur $\mathscr{S}(A, \mu ; F)$ dont les $W(V, B, \delta)$ forment un système fondamental d’entourages est la structure uniforme de la convergence en mesure dans A.
 
 La topologie correspondante est dite topologie de la convergence en mesure dans A, et on dit qu’un filtre (resp. une suite) qui converge pour cette topologie est convergent (resp. convergente) en mesure dans A; on supprime souvent la mention de A lorsque $A = X$.
 
 Supposons F séparé; alors, pour tout ensemble $\mu$-intégrable $B \subset A$, l’intersection des entourages $W(V, B, \delta)$, où V parcourt un système fondamental d’entourages de F et $\delta$ parcourt l’ensemble des nombres > 0, est l’ensemble des couples $(f, g)$ tels que $f(x) = g(x)$ presque partout (pour $\mu$) dans B. En effet, l’ensemble M des $x \in B$ tels que $f(x) \neq g(x)$ est $\mu$-intégrable, puisque c’est l’image réciproque par l’application $\mu$-mesurable $x \mapsto (f(x), g(x))$ du complémentaire de la diagonale dans $F \times F$, qui est ouvert (n° 5, prop. 7); si $|\mu|(M) = \alpha > 0$, il existe une partie compacte $K \subset M$ telle que $|\mu|(M - K) < \alpha/2$ et que les restrictions de $f$ et $g$ à $K$ soient continues; il y a donc un entourage $V_0$ de $F$ tel que $(f(x), g(x)) \notin V_0$ pour tout $x \in K$, et par suite, on a $(f, g) \notin W(V_0, B, \alpha/2)$.
 
-On en conclut que, lorsque $F$ est séparé, l’intersection de tous les entourages de $\mathcal{S}(A, \mu; F)$ est l’ensemble des couples $(f, g)$ tels que $f(x) = g(x)$ localement presque partout dans $A$. L’espace uniforme séparé associé à $\mathcal{S}(A, \mu; F)$, que nous noterons $S(A, \mu; F)$ ou $S_F(A, \mu)$ (ou même $S_F(\mu)$ ou $S_F$ lorsque $A = X$) est donc formé des classes d’équivalence pour la relation «$f(x) = g(x)$ localement presque partout dans $A$ » dans l’ensemble $\mathcal{S}(A, \mu; F)$.
+On en conclut que, lorsque $F$ est séparé, l’intersection de tous les entourages de $\mathscr{S}(A, \mu; F)$ est l’ensemble des couples $(f, g)$ tels que $f(x) = g(x)$ localement presque partout dans $A$. L’espace uniforme séparé associé à $\mathscr{S}(A, \mu; F)$, que nous noterons $S(A, \mu; F)$ ou $S_F(A, \mu)$ (ou même $S_F(\mu)$ ou $S_F$ lorsque $A = X$) est donc formé des classes d’équivalence pour la relation «$f(x) = g(x)$ localement presque partout dans $A$ » dans l’ensemble $\mathscr{S}(A, \mu; F)$.
 
 #### Proposition 17 {#int-iv-s5-prop-17 .statement}
 
@@ -686,13 +686,13 @@ Ceci posé, l’image de $T$ par $\psi \times \psi$ est contenue dans l’image 
 
 Si F est métrisable, et si A est réunion d’un ensemble localement μ-négligeable et d’une suite (A_n) d’ensembles μ-intégrables, l’espace S(A, μ; F) est métrisable.
 
-Comme chaque A_n est réunion d’un ensemble négligeable et d’une suite d’ensembles compacts, on peut déjà supposer que les A_n sont compacts et deux à deux disjoints. La prop. 17 permet ensuite de supposer que A est compact. Si (V_n) est un système fondamental dénombrable d’entourages de F, il est clair que les W(V_n, K, 1/n) forment un système fondamental d’entourages de $\mathcal{S}(A, \mu; F)$ lorsque n parcourt $\mathbf{N}$, d’où la proposition.
+Comme chaque A_n est réunion d’un ensemble négligeable et d’une suite d’ensembles compacts, on peut déjà supposer que les A_n sont compacts et deux à deux disjoints. La prop. 17 permet ensuite de supposer que A est compact. Si (V_n) est un système fondamental dénombrable d’entourages de F, il est clair que les W(V_n, K, 1/n) forment un système fondamental d’entourages de $\mathscr{S}(A, \mu; F)$ lorsque n parcourt $\mathbf{N}$, d’où la proposition.
 
 #### Lemme 4 {#int-iv-s5-lem-4 .statement}
 
-Soit F un espace uniforme métrisable, et soit B ⊂ A une réunion dénombrable d’ensembles μ-intégrables. Alors, pour toute suite de Cauchy (f_n) dans $\mathcal{S}(A, \mu; F)$, il existe une suite (f_{n_k}) extraite de (f_n), telle que (f_{n_k}(x)) soit une suite de Cauchy dans F pour presque tout x ∈ B.
+Soit F un espace uniforme métrisable, et soit B ⊂ A une réunion dénombrable d’ensembles μ-intégrables. Alors, pour toute suite de Cauchy (f_n) dans $\mathscr{S}(A, \mu; F)$, il existe une suite (f_{n_k}) extraite de (f_n), telle que (f_{n_k}(x)) soit une suite de Cauchy dans F pour presque tout x ∈ B.
 
-Supposons d’abord B intégrable, et désignons par d une distance compatible avec la structure uniforme de F. Nous allons définir par récurrence une suite double (f_{mn}) de fonctions de $\mathcal{S}(A, \mu; F)$ telle que f_{0n} = f_n pour tout n, que (f_{mn})_{n ≥ 0} soit extraite de (f_{m-1,n})_{n ≥ 0} pour tout m > 0, et enfin que, pour m > 0, l’ensemble M_{mn} des x ∈ B pour lesquels d(f_{mn}(x), f_{m,n+1}(x)) > 1/2^{m+n+1} ait une mesure |μ|(M_{mn}) ≤ 1/2^{m+n+1}; la possibilité de cette définition résulte de ce que (f_n) est une suite de Cauchy dans $\mathcal{S}(A, \mu; F)$. Posons $M_m = \bigcup_{n ≥ 0} M_{mn}$; on a
+Supposons d’abord B intégrable, et désignons par d une distance compatible avec la structure uniforme de F. Nous allons définir par récurrence une suite double (f_{mn}) de fonctions de $\mathscr{S}(A, \mu; F)$ telle que f_{0n} = f_n pour tout n, que (f_{mn})_{n ≥ 0} soit extraite de (f_{m-1,n})_{n ≥ 0} pour tout m > 0, et enfin que, pour m > 0, l’ensemble M_{mn} des x ∈ B pour lesquels d(f_{mn}(x), f_{m,n+1}(x)) > 1/2^{m+n+1} ait une mesure |μ|(M_{mn}) ≤ 1/2^{m+n+1}; la possibilité de cette définition résulte de ce que (f_n) est une suite de Cauchy dans $\mathscr{S}(A, \mu; F)$. Posons $M_m = \bigcup_{n ≥ 0} M_{mn}$; on a
 
 $$
 |\mu|(M_m) \leq \sum_{n=0}^{\infty} |\mu|(M_{mn}) \leq 1/2^m
@@ -708,15 +708,15 @@ Si maintenant B est réunion d’une suite (B_m) d’ensembles intégrables, on 
 
 *Si l’espace uniforme $F$ est métrisable et complet, l’espace uniforme $S(A, \mu; F)$ est complet.*
 
-Il existe une famille $(K_\lambda)_{\lambda \in L}$ de parties compactes de $A$, localement dénombrable, telle que les $K_\lambda$ soient deux à deux disjointes et que $A - \bigcup_\lambda K_\lambda$ soit localement négligeable (n° 9, prop. 14). En vertu de la prop. 17, $S(A, \mu; F)$ est isomorphe au produit $\prod_{\lambda \in L} S(K_\lambda, \mu; F)$; on est donc ramené à démontrer la proposition lorsque $A$ est *intégrable*; alors (prop. 18), $S(A, \mu; F)$ est métrisable, et en vertu du lemme 4, pour toute suite de Cauchy $(f_n)$ dans $\mathcal{S}(A, \mu; F)$, il y a une suite extraite $(f_{n_k})$ qui est convergente dans $A - N$, où $N$ est négligeable; la limite $f$ de $(f_{n_k})$ (prolongée de façon arbitraire à $A$ tout entier) est alors $\mu$-mesurable, et il résulte de l’extension du th. d’Egoroff mentionnée au n° 10 que la suite $(f_{n_k})$ converge *en mesure* vers $f$ dans $A$. Cela entraîne que $f$ est une valeur d’adhérence de la suite $(f_n)$ dans $\mathcal{S}(A, \mu; F)$, et comme la suite $(f_n)$ est par hypothèse une suite de Cauchy, elle converge vers $f$.
+Il existe une famille $(K_\lambda)_{\lambda \in L}$ de parties compactes de $A$, localement dénombrable, telle que les $K_\lambda$ soient deux à deux disjointes et que $A - \bigcup_\lambda K_\lambda$ soit localement négligeable (n° 9, prop. 14). En vertu de la prop. 17, $S(A, \mu; F)$ est isomorphe au produit $\prod_{\lambda \in L} S(K_\lambda, \mu; F)$; on est donc ramené à démontrer la proposition lorsque $A$ est *intégrable*; alors (prop. 18), $S(A, \mu; F)$ est métrisable, et en vertu du lemme 4, pour toute suite de Cauchy $(f_n)$ dans $\mathscr{S}(A, \mu; F)$, il y a une suite extraite $(f_{n_k})$ qui est convergente dans $A - N$, où $N$ est négligeable; la limite $f$ de $(f_{n_k})$ (prolongée de façon arbitraire à $A$ tout entier) est alors $\mu$-mesurable, et il résulte de l’extension du th. d’Egoroff mentionnée au n° 10 que la suite $(f_{n_k})$ converge *en mesure* vers $f$ dans $A$. Cela entraîne que $f$ est une valeur d’adhérence de la suite $(f_n)$ dans $\mathscr{S}(A, \mu; F)$, et comme la suite $(f_n)$ est par hypothèse une suite de Cauchy, elle converge vers $f$.
 
 C.Q.F.D.
 
 #### Corollaire {#int-iv-s5-n11-cor-1 .statement}
 
 *Soit $F$ un espace uniforme métrisable.*
-(i) *Toute suite* $(f_n)$ *d’éléments de* $\mathcal{S}(A, \mu; F)$ *qui converge localement presque partout vers une application* $f$ *(nécessairement $\mu$-mesurable)* *de* $A$ *dans* $F$, *converge en mesure vers* $f$ *dans* $A$.
-(ii) *Soit* $(f_n)$ *une suite d’éléments de* $\mathcal{S}(A, \mu; F)$, *qui converge en mesure vers une application* $f$ *de* $A$ *dans* $F$. *Pour tout ensemble* $B \subset A$ *réunion dénombrable d’ensembles intégrables*, *il existe une suite* $(f_{n_k})$ *extraite de* $(f_n)$ *telle que la suite* $(f_{n_k}(x))$ *converge dans* $F$ *vers* $f(x)$ *pour presque tout* $x \in B$.
+(i) *Toute suite* $(f_n)$ *d’éléments de* $\mathscr{S}(A, \mu; F)$ *qui converge localement presque partout vers une application* $f$ *(nécessairement $\mu$-mesurable)* *de* $A$ *dans* $F$, *converge en mesure vers* $f$ *dans* $A$.
+(ii) *Soit* $(f_n)$ *une suite d’éléments de* $\mathscr{S}(A, \mu; F)$, *qui converge en mesure vers une application* $f$ *de* $A$ *dans* $F$. *Pour tout ensemble* $B \subset A$ *réunion dénombrable d’ensembles intégrables*, *il existe une suite* $(f_{n_k})$ *extraite de* $(f_n)$ *telle que la suite* $(f_{n_k}(x))$ *converge dans* $F$ *vers* $f(x)$ *pour presque tout* $x \in B$.
 
 (i) L’assertion résulte aussitôt de l’extension du th. d’Egoroff mentionnée au n° 10.
 (ii) En vertu du lemme 4, il existe une suite $(f_{n_k})$ extraite de $(f_n)$ telle que $(f_{n_k}(x))$ soit une suite de Cauchy dans $F$ pour tout x ∈ B − N, où N est négligeable ; soit f′(x) ∈ $\hat{F}$ la limite de cette suite pour x ∈ B − N. Il est clair que f′ est une application μ-mesurable de B − N dans $\hat{F}$, et la suite (f_n) converge en mesure vers f′ dans B − N, en vertu de (i); f′ est par suite égale à f presque partout dans B.
@@ -725,13 +725,13 @@ C.Q.F.D.
 
 Soit F un espace de Banach, muni de la structure uniforme définie par sa norme.
 
-(i) Pour toute partie μ-mesurable A de X, la topologie de la convergence en mesure est compatible avec la structure d’espace vectoriel de $\mathcal{S}(A, \mu; F)$.
+(i) Pour toute partie μ-mesurable A de X, la topologie de la convergence en mesure est compatible avec la structure d’espace vectoriel de $\mathscr{S}(A, \mu; F)$.
 
-(ii) L’espace $\mathcal{K}(X; F)$ est partout dense dans $\mathcal{S}(X, \mu; F)$.
+(ii) L’espace $\mathscr{K}(X; F)$ est partout dense dans $\mathscr{S}(X, \mu; F)$.
 
-(iii) Pour tout nombre réel fini p ≥ 1, la topologie induite par la topologie de la convergence en mesure sur l’espace $\mathcal{L}_F^p(X, \mu)$ est moins fine que la topologie de la convergence en moyenne d’ordre p.
+(iii) Pour tout nombre réel fini p ≥ 1, la topologie induite par la topologie de la convergence en mesure sur l’espace $\mathscr{L}_F^p(X, \mu)$ est moins fine que la topologie de la convergence en moyenne d’ordre p.
 
-(i) Pour toute partie μ-intégrable B de A et tout δ > 0, désignons par $T(B, \delta)$ l’ensemble des $f \in \mathcal{S}(A, \mu; F)$ tels que l’ensemble C des $x \in B$ tels que $|f(x)| \geq \delta$ vérifie la relation $|\mu|(C) \leq \delta$; il est clair que si $V_\delta$ est l’entourage de F formé des couples (y, z) tels que $|y - z| \leq \delta$, l’entourage $W(V_\delta, B, \delta)$ est l’ensemble des couples (f, g) d’applications mesurables de A dans F telles que $f - g \in T(B, \delta)$. Il est clair que les ensembles $T(B, \delta)$ sont symétriques, et que l’on a $T(B, \delta) + T(B, \delta) \subset T(B, 2\delta)$ et $T(B, \alpha \delta) \subset \alpha T(B, \delta)$ pour tout scalaire $\alpha$ tel que $|\alpha| \leq 1$; il suffit donc de vérifier que les ensembles $T(B, \delta)$ sont absorbants (Esp. vect. top., 2e éd., chap. I, § 1, n° 5, prop. 4). Or, si f est une application μ-mesurable de A dans F, la fonction numérique $|f|$ est aussi μ-mesurable (n° 3, cor. 6 du th. 1). Soit $C_n$ l’ensemble des $x \in B$ tels que $|f(x)| \geq n$; les $C_n$ forment une suite décroissante d’ensembles intégrables dont l’intersection est vide; donc il existe un entier n tel que $|\mu|(C_n) \leq \delta$ (§ 4, n° 5, cor. de la prop. 7); on peut en outre supposer n pris assez grand pour que $1/n \leq \delta$; alors on a $f/n^2 \in T(B, \delta)$, ce qui achève de prouver l’assertion (i).
+(i) Pour toute partie μ-intégrable B de A et tout δ > 0, désignons par $T(B, \delta)$ l’ensemble des $f \in \mathscr{S}(A, \mu; F)$ tels que l’ensemble C des $x \in B$ tels que $|f(x)| \geq \delta$ vérifie la relation $|\mu|(C) \leq \delta$; il est clair que si $V_\delta$ est l’entourage de F formé des couples (y, z) tels que $|y - z| \leq \delta$, l’entourage $W(V_\delta, B, \delta)$ est l’ensemble des couples (f, g) d’applications mesurables de A dans F telles que $f - g \in T(B, \delta)$. Il est clair que les ensembles $T(B, \delta)$ sont symétriques, et que l’on a $T(B, \delta) + T(B, \delta) \subset T(B, 2\delta)$ et $T(B, \alpha \delta) \subset \alpha T(B, \delta)$ pour tout scalaire $\alpha$ tel que $|\alpha| \leq 1$; il suffit donc de vérifier que les ensembles $T(B, \delta)$ sont absorbants (Esp. vect. top., 2e éd., chap. I, § 1, n° 5, prop. 4). Or, si f est une application μ-mesurable de A dans F, la fonction numérique $|f|$ est aussi μ-mesurable (n° 3, cor. 6 du th. 1). Soit $C_n$ l’ensemble des $x \in B$ tels que $|f(x)| \geq n$; les $C_n$ forment une suite décroissante d’ensembles intégrables dont l’intersection est vide; donc il existe un entier n tel que $|\mu|(C_n) \leq \delta$ (§ 4, n° 5, cor. de la prop. 7); on peut en outre supposer n pris assez grand pour que $1/n \leq \delta$; alors on a $f/n^2 \in T(B, \delta)$, ce qui achève de prouver l’assertion (i).
 
 (iii) La relation $\int |f|^p d|\mu| \leq \delta^{p+1}$ entraîne que si C est l’ensemble des $x \in X$ tels que $|f(x)| \geq \delta$, on a
 
@@ -741,11 +741,11 @@ $$
 
 d’où $|\mu|^*(C) \leq \delta$, ce qui démontre (iii).
 
-(ii) En vertu de (iii), il suffit de montrer par exemple que $\mathcal{L}_F^1$ est partout dense dans $\mathcal{S}_F$, puisque par définition $\mathcal{K}(X; F)$ est dense dans $\mathcal{L}_F^1$ pour la topologie de la convergence en moyenne. Or, soient $f$ un élément quelconque de $\mathcal{S}_F$, et $T(B, \delta)$ un voisinage de 0 dans cet espace ; on voit comme dans (i) qu’il existe une partie intégrable $C$ de $B$ telle que $|\mu|(C) \leq \delta$ et que $f$ soit *bornée* dans $B - C$; désignant alors par $g$ la fonction égale à $f$ dans $B - C$, à 0 dans $X - (B - C)$, il résulte du n° 6, th. 5 que $g$ est intégrable, et l’on a évidemment $f - g \in T(B, \delta)$.
+(ii) En vertu de (iii), il suffit de montrer par exemple que $\mathscr{L}_F^1$ est partout dense dans $\mathscr{S}_F$, puisque par définition $\mathscr{K}(X; F)$ est dense dans $\mathscr{L}_F^1$ pour la topologie de la convergence en moyenne. Or, soient $f$ un élément quelconque de $\mathscr{S}_F$, et $T(B, \delta)$ un voisinage de 0 dans cet espace ; on voit comme dans (i) qu’il existe une partie intégrable $C$ de $B$ telle que $|\mu|(C) \leq \delta$ et que $f$ soit *bornée* dans $B - C$; désignant alors par $g$ la fonction égale à $f$ dans $B - C$, à 0 dans $X - (B - C)$, il résulte du n° 6, th. 5 que $g$ est intégrable, et l’on a évidemment $f - g \in T(B, \delta)$.
 
 #### Remarque 1 {#int-iv-s5-n11-rem-1 .statement}
 
-L’espace vectoriel topologique $\mathcal{S}(X, \mu; F)$ n’est pas nécessairement localement convexe (exerc. 24).
+L’espace vectoriel topologique $\mathscr{S}(X, \mu; F)$ n’est pas nécessairement localement convexe (exerc. 24).
 
 #### Remarque 2 {#int-iv-s5-n11-rem-2 .statement}
 
@@ -753,7 +753,7 @@ La topologie induite par la topologie de la convergence en mesure sur l’ensemb
 
 #### Définition 10 {#int-iv-s5-def-10 .statement}
 
-Soient $X$ un espace localement compact, $\mu$ une mesure sur $X$, $F$ un espace de Banach, et $p \in [1, +\infty[$. Une partie $H$ de $\mathcal{L}_F^p(X, \mu)$ est dite équiintégrable d’ordre $p$ (pour $\mu$) si elle satisfait aux conditions suivantes :
+Soient $X$ un espace localement compact, $\mu$ une mesure sur $X$, $F$ un espace de Banach, et $p \in [1, +\infty[$. Une partie $H$ de $\mathscr{L}_F^p(X, \mu)$ est dite équiintégrable d’ordre $p$ (pour $\mu$) si elle satisfait aux conditions suivantes :
 (i) Pour tout $\varepsilon > 0$, il existe $\delta > 0$ tel que, pour tout ensemble intégrable $A$ de mesure $|\mu|(A) \leq \delta$ et pour toute $f \in H$, on ait
 $$
 \int |f|^p \varphi_A d|\mu| \leq \varepsilon.
@@ -768,7 +768,7 @@ Supposons $\mu$ bornée. Pour tout $a > 0$, l’ensemble des applications mesura
 
 #### Proposition 21 {#int-iv-s5-prop-21 .statement}
 
-Soit $H$ une partie de $\mathcal{L}_F^p(X, \mu)$ équiintégrable d’ordre $p$. Sur $H$, la structure uniforme de la convergence en mesure est égale à la structure uniforme induite par celle de $\mathcal{L}_F^p(X, \mu)$.
+Soit $H$ une partie de $\mathscr{L}_F^p(X, \mu)$ équiintégrable d’ordre $p$. Sur $H$, la structure uniforme de la convergence en mesure est égale à la structure uniforme induite par celle de $\mathscr{L}_F^p(X, \mu)$.
 
 Soit $\varepsilon > 0$. Il existe $\delta$ et $K$ avec les propriétés (i) et (ii) de la déf. 10. Soient $f, g$ dans $H$ telles que
 
@@ -803,7 +803,7 @@ $$
 \leq 2^p \varepsilon + 2^p \varepsilon + \frac{\varepsilon}{|\mu|(K)} |\mu|(K-M) \leq (2^{p+1} + 1)\varepsilon.
 $$
 
-Donc la structure uniforme de la convergence en mesure sur $H$ est plus fine que la structure uniforme induite par celle de $\mathcal{L}_F^p(X, \mu)$. Il suffit alors d’appliquer la prop. 20.
+Donc la structure uniforme de la convergence en mesure sur $H$ est plus fine que la structure uniforme induite par celle de $\mathscr{L}_F^p(X, \mu)$. Il suffit alors d’appliquer la prop. 20.
 
 ### 12. Une propriété de la convergence vague
 
@@ -813,11 +813,11 @@ Soient $X$ un espace localement compact, $\mu$ une mesure positive bornée sur $
 
 (i) L’ensemble des points de discontinuité de $f$ est $\mu$-négligeable.
 
-(ii) Pour tout $\varepsilon > 0$, il existe des éléments $a_1, \ldots, a_n$ de $F$, des fonctions $g_1, \ldots, g_n$ appartenant à $\mathcal{H}(X)$, et une fonction $h \geq 0$ continue bornée sur $X$, tels que $|f - g_1 a_1 - \cdots - g_n a_n| \leq h \leq 2 \sup |f|$ partout sur $X$, et $\int h \, d\mu \leq \varepsilon$.
+(ii) Pour tout $\varepsilon > 0$, il existe des éléments $a_1, \ldots, a_n$ de $F$, des fonctions $g_1, \ldots, g_n$ appartenant à $\mathscr{H}(X)$, et une fonction $h \geq 0$ continue bornée sur $X$, tels que $|f - g_1 a_1 - \cdots - g_n a_n| \leq h \leq 2 \sup |f|$ partout sur $X$, et $\int h \, d\mu \leq \varepsilon$.
 
 Nous noterons N l’ensemble des points de discontinuité de f, et nous poserons M = sup |f|.
 
-(i) ⇒ (ii). Supposons la condition (i) satisfaite. Soit ε > 0. La fonction f est μ-intégrable (n° 2, cor. 4 de la prop. 5 et n° 6, th. 5), donc il existe a_1, ..., a_n dans F, g_1, ..., g_n dans $\mathcal{K}(X)$ tels que, posant $k = |f - g_1 a_1 - ... - g_n a_n|$, on ait $\int k\ d\mu \leq \varepsilon/2$ (§ 3, n° 5, prop. 10). En multipliant g_1, ..., g_n par un même élément convenable de $\mathcal{K}(X)$, on peut en outre supposer que
+(i) ⇒ (ii). Supposons la condition (i) satisfaite. Soit ε > 0. La fonction f est μ-intégrable (n° 2, cor. 4 de la prop. 5 et n° 6, th. 5), donc il existe a_1, ..., a_n dans F, g_1, ..., g_n dans $\mathscr{K}(X)$ tels que, posant $k = |f - g_1 a_1 - ... - g_n a_n|$, on ait $\int k\ d\mu \leq \varepsilon/2$ (§ 3, n° 5, prop. 10). En multipliant g_1, ..., g_n par un même élément convenable de $\mathscr{K}(X)$, on peut en outre supposer que
 $$
 |g_1 a_1 + ... + g_n a_n| \leq |f|
 $$
@@ -827,19 +827,19 @@ sur X, d’où $k \leq 2M$. L’ensemble N’ des points de discontinuité de k 
 
 #### Proposition 22 {#int-iv-s5-prop-22 .statement}
 
-Soient F un espace de Banach, X un espace localement compact, $\mathcal{E}$ l’ensemble des mesures positives bornées sur X, $\mu$ un élément de $\mathcal{E}$, $\mathcal{B}$ une base de filtre sur $\mathcal{E}$. On suppose que $\mathcal{B}$ converge vaguement vers $\mu$ et que $\|v\|$ tend vers $\|\mu\|$ suivant $\mathcal{B}$. Soit f une application de X dans F vérifiant les conditions suivantes:
-(i) f est bornée, intégrable pour $\mu$ et pour toute mesure appartenant à un élément de $\mathcal{B}$;
+Soient F un espace de Banach, X un espace localement compact, $\mathscr{E}$ l’ensemble des mesures positives bornées sur X, $\mu$ un élément de $\mathscr{E}$, $\mathscr{B}$ une base de filtre sur $\mathscr{E}$. On suppose que $\mathscr{B}$ converge vaguement vers $\mu$ et que $\|v\|$ tend vers $\|\mu\|$ suivant $\mathscr{B}$. Soit f une application de X dans F vérifiant les conditions suivantes:
+(i) f est bornée, intégrable pour $\mu$ et pour toute mesure appartenant à un élément de $\mathscr{B}$;
 (ii) l’ensemble des points de discontinuité de f est $\mu$-négligeable.
 
-Alors $\int f\ dv$ tend vers $\int f\ d\mu$ suivant $\mathcal{B}$.
+Alors $\int f\ dv$ tend vers $\int f\ d\mu$ suivant $\mathscr{B}$.
 
-Soit $\varepsilon > 0$. Il existe des éléments a_1, ..., a_n de F, des fonctions g_1, ..., g_n de $\mathcal{K}(X)$, et une fonction h $\geq 0$ continue bornée sur X, tels que $|f - g_1 a_1 - ... - g_n a_n| \leq h \leq 2 \sup |f|$ sur X et $\int h\ d\mu \leq \varepsilon$ (lemme 5). Soit M = sup|f|. Il existe une partie compacte K de X telle que $\mu^*(X - K) \leq \varepsilon$ (§ 4, n° 7, prop. 12, et n° 6, th. 4), un voisinage compact K' de K dans X, et une application continue h' de X dans [0, 2M] tels que h' = h sur K, h' = 2M sur X - K'; en remplaçant h par sup(h, h'), on peut supposer en outre que h' majore h. On a $\int (h' - h) d\mu \leq 2M \mu^*(X - K) \leq 2M \varepsilon$. D’autre part, $h' = h_1 + 2M$, où $h_1 \in \mathcal{K}(X)$. Compte tenu du § 4, n° 7, prop. 12, le nombre $\int h' dv = \int h_1 dv + 2M \|v\|$ tend suivant $\mathcal{B}$ vers
+Soit $\varepsilon > 0$. Il existe des éléments a_1, ..., a_n de F, des fonctions g_1, ..., g_n de $\mathscr{K}(X)$, et une fonction h $\geq 0$ continue bornée sur X, tels que $|f - g_1 a_1 - ... - g_n a_n| \leq h \leq 2 \sup |f|$ sur X et $\int h\ d\mu \leq \varepsilon$ (lemme 5). Soit M = sup|f|. Il existe une partie compacte K de X telle que $\mu^*(X - K) \leq \varepsilon$ (§ 4, n° 7, prop. 12, et n° 6, th. 4), un voisinage compact K' de K dans X, et une application continue h' de X dans [0, 2M] tels que h' = h sur K, h' = 2M sur X - K'; en remplaçant h par sup(h, h'), on peut supposer en outre que h' majore h. On a $\int (h' - h) d\mu \leq 2M \mu^*(X - K) \leq 2M \varepsilon$. D’autre part, $h' = h_1 + 2M$, où $h_1 \in \mathscr{K}(X)$. Compte tenu du § 4, n° 7, prop. 12, le nombre $\int h' dv = \int h_1 dv + 2M \|v\|$ tend suivant $\mathscr{B}$ vers
 
 $$
 \int h_1 d\mu + 2M \|\mu\| = \int h' d\mu.
 $$
 
-Il existe alors un $A \in \mathcal{B}$ tel que, pour toute $v \in A$, on ait
+Il existe alors un $A \in \mathscr{B}$ tel que, pour toute $v \in A$, on ait
 
 $$
 \left| \int (g_1 a_1 + \ldots + g_n a_n) dv - \int (g_1 a_1 + \ldots + g_n a_n) d\mu \right| \leq \varepsilon,
@@ -868,7 +868,7 @@ Les conditions (i) et (ii) de la proposition 22 sont satisfaites si f est contin
 
 #### Exemple {#int-iv-s5-n12-exa-1 .statement}
 
-Prenons pour X l’espace compact U des nombres complexes de valeur absolue 1. En posant, pour toute $f \in \mathcal{K}(U)$,
+Prenons pour X l’espace compact U des nombres complexes de valeur absolue 1. En posant, pour toute $f \in \mathscr{K}(U)$,
 $$
 \mu(f) = \int_0^1 f(e^{2i\pi t}) dt,
 $$
@@ -876,7 +876,7 @@ on définit une mesure positive de masse 1 sur X. D’autre part, soit $\theta$ 
 $$
 \mu_n = \frac{1}{n+1} (v_0 + \ldots + v_n),
 $$
-de sorte que $\mu_n$ est une mesure positive de masse 1 sur U. Alors, si $\theta$ est irrationnel, $\mu_n$ tend vaguement vers $\mu$. En effet, comme les combinaisons linéaires des fonctions $z \mapsto z^k$ ($k \in \mathbf{Z}$) sont partout denses dans $\mathcal{K}(U)$ (Top. gén., chap. X, 2e éd., § 4, n° 4, prop. 8), il suffit de prouver que $\mu_n(z^k)$ tend vers $\mu(z^k)$ pour $k \in \mathbf{Z}$. Or, pour $k = 0$, on a $\mu_n(z^k) = \mu(z^k) = 1$; pour $k \neq 0$, on a
+de sorte que $\mu_n$ est une mesure positive de masse 1 sur U. Alors, si $\theta$ est irrationnel, $\mu_n$ tend vaguement vers $\mu$. En effet, comme les combinaisons linéaires des fonctions $z \mapsto z^k$ ($k \in \mathbf{Z}$) sont partout denses dans $\mathscr{K}(U)$ (Top. gén., chap. X, 2e éd., § 4, n° 4, prop. 8), il suffit de prouver que $\mu_n(z^k)$ tend vers $\mu(z^k)$ pour $k \in \mathbf{Z}$. Or, pour $k = 0$, on a $\mu_n(z^k) = \mu(z^k) = 1$; pour $k \neq 0$, on a
 $$
 \mu_n(z^k) = \frac{1}{n+1}(1 + e^{2i\pi k\theta} + e^{4i\pi k\theta} + \ldots + e^{2i\pi kn\theta}).
 $$

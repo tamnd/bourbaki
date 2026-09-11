@@ -53,7 +53,7 @@ subsections:
       pdf_page: 56
 statements: 53
 exercises: 13
-content_sha256: 808d1febed5e98d1a4693836305c73d1f084d7d8ef2e3631777c1dd0a2f4de4b
+content_sha256: 3aabe8a9f84764ceec630f987422af79ccf2772ed683c26819c59b116cd6b62c
 ---
 
 ## § 2. QUOTIENT OF A SPACE BY A GROUP; HOMOGENEOUS SPACES
@@ -62,13 +62,13 @@ content_sha256: 808d1febed5e98d1a4693836305c73d1f084d7d8ef2e3631777c1dd0a2f4de4b
 
 Let X be a locally compact space in which a locally compact group H operates on the right, continuously and properly, by $(x, \xi) \mapsto x\xi$ ($x \in X, \xi \in H$). The equivalence relation in X defined by H is open (GT, III, §2, No. 4, Lemma 2) and X/H is Hausdorff (*loc. cit.*, §4, No. 2, Prop. 3) hence locally compact (GT, I, §10, No. 4, Prop. 10). We denote by $\pi$ the canonical mapping of X onto X/H. The saturation of a subset Y of X is $YH = \pi^{-1}(\pi(Y))$. If K is a compact subset of X, then $\pi(K)$ is compact and the saturation $\pi^{-1}(\pi(K))$ of K is closed in X. Every compact subset of X/H is the image under $\pi$ of a compact subset of X (GT, I, §10, No. 4, Prop. 10). *We assume given once and for all a left Haar measure $\beta$ on H*.
 
-Let $\chi$ be a continuous representation of H in $\mathbf{R}_+^*$. If a function g on X satisfies $g(x\xi) = \chi(\xi)g(x)$ for all $x \in X$ and $\xi \in H$, its support S is invariant under H hence may be written $\pi^{-1}(\pi(S))$. We shall denote by $\mathcal{K}^\chi(X)$ the Riesz space formed by the continuous real-valued functions g on X that satisfy $g(x\xi) = \chi(\xi)g(x)$ ($x \in X, \xi \in H$) and whose support is the saturation of a compact subset of X; we denote by $\mathcal{K}_+^\chi(X)$ the set of elements $\geqslant 0$ of $\mathcal{K}^\chi(X)$. In particular, $\mathcal{K}^1(X)$ is none other than the set of continuous functions on X, constant on the orbits, whose support is the saturation of a compact subset.
+Let $\chi$ be a continuous representation of H in $\mathbf{R}_+^*$. If a function g on X satisfies $g(x\xi) = \chi(\xi)g(x)$ for all $x \in X$ and $\xi \in H$, its support S is invariant under H hence may be written $\pi^{-1}(\pi(S))$. We shall denote by $\mathscr{K}^\chi(X)$ the Riesz space formed by the continuous real-valued functions g on X that satisfy $g(x\xi) = \chi(\xi)g(x)$ ($x \in X, \xi \in H$) and whose support is the saturation of a compact subset of X; we denote by $\mathscr{K}_+^\chi(X)$ the set of elements $\geqslant 0$ of $\mathscr{K}^\chi(X)$. In particular, $\mathscr{K}^1(X)$ is none other than the set of continuous functions on X, constant on the orbits, whose support is the saturation of a compact subset.
 
 #### Proposition 1 {#int-vii-s2-prop-1 .statement}
 
 *Let f be a continuous real-valued function on X whose support S has compact intersection with the saturation of every compact subset of X.*
 
-a) *For every $x \in X$, the function $\xi \mapsto f(x\xi)$ on H belongs to $\mathcal{K}(H)$; one sets*
+a) *For every $x \in X$, the function $\xi \mapsto f(x\xi)$ on H belongs to $\mathscr{K}(H)$; one sets*
 
 $$
 f^\chi(x) = \int_H f(x\xi)\chi(\xi)^{-1}\, d\beta(\xi).
@@ -101,35 +101,35 @@ $$
 
 #### Proposition 2 {#int-vii-s2-prop-2 .statement}
 
-*The mapping* $f \mapsto f^{\chi}$ *of* $\mathcal{K}(X)$ *into* $\mathcal{K}^{\chi}(X)$ *is linear, and the image of* $\mathcal{K}(X)$ *(resp. $\mathcal{K}_{+}(X)$) is* $\mathcal{K}^{\chi}(X)$ *(resp. $\mathcal{K}_{+}^{\chi}(X)$).*
+*The mapping* $f \mapsto f^{\chi}$ *of* $\mathscr{K}(X)$ *into* $\mathscr{K}^{\chi}(X)$ *is linear, and the image of* $\mathscr{K}(X)$ *(resp. $\mathscr{K}_{+}(X)$) is* $\mathscr{K}^{\chi}(X)$ *(resp. $\mathscr{K}_{+}^{\chi}(X)$).*
 
 Linearity is immediate. It is clear that $f^{\chi} \geqslant 0$ for $f \geqslant 0$. It then suffices to apply the following lemma:
 
 #### Lemma 1 {#int-vii-s2-lem-1 .statement}
 
-— *Let* $K$ *be a compact subset of* $X$, *u a function of* $\mathcal{K}_{+}(X)$ *with* $u(x) > 0$ *for* $x \in K$. *Let* $g \in \mathcal{K}^{\chi}(X)$ *be such that* $\operatorname{Supp} g \subset KH$.
+— *Let* $K$ *be a compact subset of* $X$, *u a function of* $\mathscr{K}_{+}(X)$ *with* $u(x) > 0$ *for* $x \in K$. *Let* $g \in \mathscr{K}^{\chi}(X)$ *be such that* $\operatorname{Supp} g \subset KH$.
 a) *One has* $\inf_{x \in KH} u^{1}(x) > 0$.
-b) *The function* $h$ *equal to* $g/u^{1}$ *on* $KH$, *and to* $0$ *on* $X - KH$, *belongs to* $\mathcal{K}^{\chi}(X)$.
+b) *The function* $h$ *equal to* $g/u^{1}$ *on* $KH$, *and to* $0$ *on* $X - KH$, *belongs to* $\mathscr{K}^{\chi}(X)$.
 c) $g = (uh)^{\chi}$.
 One has $u^{1}(x) > 0$ for $x \in K$, therefore $\inf_{x \in KH} u^{1}(x) = \inf_{x \in K} u^{1}(x) > 0$.
 Assertion b) follows from this at once. Finally, $(uh)^{\chi} = u^{1}h$ by Prop. 1 c), and it is clear that $u^{1}h = g$.
 
-Let I be a relatively bounded linear form (Ch. II, §2, No. 2) on $\mathcal{K}^{\chi}(X)$. Then $f \mapsto I(f^{\chi})$ is a relatively bounded linear form on $\mathcal{K}(X)$, that is, a *measure* $\mu_{I}$ on $X$. The mapping $I \mapsto \mu_{I}$ is injective by Prop. 2. The measures $\mu_{I}$ on $X$ so obtained may be characterized as follows:
+Let I be a relatively bounded linear form (Ch. II, §2, No. 2) on $\mathscr{K}^{\chi}(X)$. Then $f \mapsto I(f^{\chi})$ is a relatively bounded linear form on $\mathscr{K}(X)$, that is, a *measure* $\mu_{I}$ on $X$. The mapping $I \mapsto \mu_{I}$ is injective by Prop. 2. The measures $\mu_{I}$ on $X$ so obtained may be characterized as follows:
 
 #### Proposition 3 {#int-vii-s2-prop-3 .statement}
 
 *Let* $\mu$ *be a measure on* $X$. *The following conditions are equivalent:*
 
-a) There exists a relatively bounded linear form I on $\mathcal{K}^\chi(X)$ such that $I(f^\chi) = \mu(f)$ for all $f \in \mathcal{K}(X)$.
+a) There exists a relatively bounded linear form I on $\mathscr{K}^\chi(X)$ such that $I(f^\chi) = \mu(f)$ for all $f \in \mathscr{K}(X)$.
 b) $\delta(\xi)\mu = \chi(\xi)^{-1} \Delta_H(\xi)\mu$ for all $\xi \in H$.
-c) For all $f, g$ in $\mathcal{K}(X)$,
+c) For all $f, g$ in $\mathscr{K}(X)$,
 
 (2)
 $$
 \mu(f \cdot g^1) = \mu(f^\chi \cdot g) .
 $$
 
-d) If $f \in \mathcal{K}(X)$ is such that $f^\chi = 0$, then $\mu(f) = 0$.
+d) If $f \in \mathscr{K}(X)$ is such that $f^\chi = 0$, then $\mu(f) = 0$.
 
 a) $\Rightarrow$ b): If $\mu(f) = I(f^\chi)$ then, taking into account Prop. 1 d),
 
@@ -152,13 +152,13 @@ $$
 
 which proves c).
 
-c) $\Rightarrow$ d): If c) is verified and if $f^\chi = 0$, then $\mu(f \cdot g^1) = 0$ for all $g \in \mathcal{K}(X)$, thus $\mu(f) = 0$ on choosing $g \in \mathcal{K}(X)$ such that $g^1 = 1$ on $\mathrm{Supp}\, f$ (which is possible by Prop. 2 applied with $\chi = 1$).
+c) $\Rightarrow$ d): If c) is verified and if $f^\chi = 0$, then $\mu(f \cdot g^1) = 0$ for all $g \in \mathscr{K}(X)$, thus $\mu(f) = 0$ on choosing $g \in \mathscr{K}(X)$ such that $g^1 = 1$ on $\mathrm{Supp}\, f$ (which is possible by Prop. 2 applied with $\chi = 1$).
 
-d) $\Rightarrow$ a): If condition d) is satisfied, there exists a linear form I on $\mathcal{K}^\chi(X)$ such that $\mu(f) = I(f^\chi)$ for $f \in \mathcal{K}(X)$, and this form is relatively bounded by virtue of Prop. 2.
+d) $\Rightarrow$ a): If condition d) is satisfied, there exists a linear form I on $\mathscr{K}^\chi(X)$ such that $\mu(f) = I(f^\chi)$ for $f \in \mathscr{K}(X)$, and this form is relatively bounded by virtue of Prop. 2.
 
 ### 2. The case $\chi = 1$
 
-If $f$ is a function on $X/H$, then $f \circ \pi$ is a function on $X$ constant on the orbits, continuous if and only if $f$ is continuous. The mapping $f \mapsto f \circ \pi$ defines in particular a bijection of $\mathcal{K}(X/H)$ onto $\mathcal{K}^1(X)$.
+If $f$ is a function on $X/H$, then $f \circ \pi$ is a function on $X$ constant on the orbits, continuous if and only if $f$ is continuous. The mapping $f \mapsto f \circ \pi$ defines in particular a bijection of $\mathscr{K}(X/H)$ onto $\mathscr{K}^1(X)$.
 
 We can then, in the case that $\chi = 1$, reformulate certain results of No. 1 in the following way:
 
@@ -182,20 +182,20 @@ $$
 
 One must not forget that the definition of $f^b$ depends on the choice of $\beta$. If $H$ is compact and $\beta$ is normalized, the function $f^b$ is sometimes called the *orbital mean* of $f$.
 
-If $f \in \mathcal{K}(X)$, then $f^b \in \mathcal{K}(X/H)$. The mapping $f \mapsto f^b$ of $\mathcal{K}(X)$ into $\mathcal{K}(X/H)$ is linear, and the image of $\mathcal{K}(X)$ (resp. $\mathcal{K}_+(X)$) is $\mathcal{K}(X/H)$ (resp. $\mathcal{K}_+(X/H)$).
+If $f \in \mathscr{K}(X)$, then $f^b \in \mathscr{K}(X/H)$. The mapping $f \mapsto f^b$ of $\mathscr{K}(X)$ into $\mathscr{K}(X/H)$ is linear, and the image of $\mathscr{K}(X)$ (resp. $\mathscr{K}_+(X)$) is $\mathscr{K}(X/H)$ (resp. $\mathscr{K}_+(X/H)$).
 
 #### Remark 1 {#int-vii-s2-n2-rem-1 .statement}
 
-— We are going to show that the mapping $f \mapsto f^b$ is a *strict morphism* (GT, III, §2, No. 8) of $\mathcal{K}(X)$ onto $\mathcal{K}(X/H)$.
+— We are going to show that the mapping $f \mapsto f^b$ is a *strict morphism* (GT, III, §2, No. 8) of $\mathscr{K}(X)$ onto $\mathscr{K}(X/H)$.
 
-a) The mapping is continuous: it suffices to prove that, for every compact subset $K$ of $X$, the restriction of $f \mapsto f^b$ to $\mathcal{K}(X, K)$ is a continuous mapping of $\mathcal{K}(X, K)$ into $\mathcal{K}(X/H, \pi(K))$ (TVS, II, §4, No. 4, Prop. 5); since $H$ operates properly in $X$, the set $P$ of $\xi \in H$ such that $K\xi$ intersects $K$ is compact; one concludes from (3) that $\sup_{x \in K} |f^b(\pi(x))| \leq \beta(P) \sup_{x \in K} |f(x)|$, and this proves our assertion.
+a) The mapping is continuous: it suffices to prove that, for every compact subset $K$ of $X$, the restriction of $f \mapsto f^b$ to $\mathscr{K}(X, K)$ is a continuous mapping of $\mathscr{K}(X, K)$ into $\mathscr{K}(X/H, \pi(K))$ (TVS, II, §4, No. 4, Prop. 5); since $H$ operates properly in $X$, the set $P$ of $\xi \in H$ such that $K\xi$ intersects $K$ is compact; one concludes from (3) that $\sup_{x \in K} |f^b(\pi(x))| \leq \beta(P) \sup_{x \in K} |f(x)|$, and this proves our assertion.
 
-b) Let $K'$ be a compact subset of $X/H$. Let us choose a compact subset $K$ of $X$ such that $\pi(K) = K'$, and let us show that the restriction of $f \mapsto f^b$ to $\mathcal{K}(X, K)$ is a strict morphism of $\mathcal{K}(X, K)$ onto $\mathcal{K}(X/H, K')$. It suffices to construct a right inverse for this restriction (GT, III, §6, No. 2, Prop. 3). Now, by Lemma 1 of No. 1 (whose notations we adopt), one obtains such an inverse by composing the following mappings:
-$\alpha)$ the mapping $f' \mapsto f' \circ \pi$ of $\mathcal{K}(X/H, K')$ into the set $E$ of functions of $\mathcal{K}^1(X)$ whose support is contained in $KH$;
+b) Let $K'$ be a compact subset of $X/H$. Let us choose a compact subset $K$ of $X$ such that $\pi(K) = K'$, and let us show that the restriction of $f \mapsto f^b$ to $\mathscr{K}(X, K)$ is a strict morphism of $\mathscr{K}(X, K)$ onto $\mathscr{K}(X/H, K')$. It suffices to construct a right inverse for this restriction (GT, III, §6, No. 2, Prop. 3). Now, by Lemma 1 of No. 1 (whose notations we adopt), one obtains such an inverse by composing the following mappings:
+$\alpha)$ the mapping $f' \mapsto f' \circ \pi$ of $\mathscr{K}(X/H, K')$ into the set $E$ of functions of $\mathscr{K}^1(X)$ whose support is contained in $KH$;
 $\beta)$ the mapping of $E$ into $E$ that, to every $g \in E$, makes correspond the function equal to $g/u^1$ on $KH$, and to 0 on $X - KH$;
-$\gamma)$ the mapping of $E$ into $\mathcal{K}(X)$ that, to every function $h \in E$, makes correspond $uh$.
+$\gamma)$ the mapping of $E$ into $\mathscr{K}(X)$ that, to every function $h \in E$, makes correspond $uh$.
 
-c) This established, if $V$ is a convex neighborhood of 0 in $\mathcal{K}(X)$, then $V \cap \mathcal{K}(X, K)$ is a convex neighborhood of 0 in $\mathcal{K}(X, K)$, therefore $V^b \cap \mathcal{K}(X/H, K')$ is a convex neighborhood of 0 in $\mathcal{K}(X/H, K')$ by b), therefore $V^b$ is a neighborhood of 0 in $\mathcal{K}(X/H)$ (TVS, II, §4, No. 4). This completes the proof.
+c) This established, if $V$ is a convex neighborhood of 0 in $\mathscr{K}(X)$, then $V \cap \mathscr{K}(X, K)$ is a convex neighborhood of 0 in $\mathscr{K}(X, K)$, therefore $V^b \cap \mathscr{K}(X/H, K')$ is a convex neighborhood of 0 in $\mathscr{K}(X/H, K')$ by b), therefore $V^b$ is a neighborhood of 0 in $\mathscr{K}(X/H)$ (TVS, II, §4, No. 4). This completes the proof.
 
 #### Proposition 4 {#int-vii-s2-prop-4 .statement}
 
@@ -203,7 +203,7 @@ a) *Let $\lambda$ be a measure on $X/H$. There exists one and only one measure $
 $$
 \int_{X/H} f^b d\lambda = \int_X f d\lambda^\#
 $$
-*for all $f \in \mathcal{K}(X)$. One has $\delta(\xi)\lambda^\# = \Delta_H(\xi)\lambda^\#$ for all $\xi \in H$.*
+*for all $f \in \mathscr{K}(X)$. One has $\delta(\xi)\lambda^\# = \Delta_H(\xi)\lambda^\#$ for all $\xi \in H$.*
 
 b) *Conversely, let $\mu$ be a measure on $X$ such that $\delta(\xi)\mu = \Delta_H(\xi)\mu$ for all $\xi \in H$. There exists one and only one measure $\lambda$ on $X/H$ such that $\mu = \lambda^\#$.*
 
@@ -213,7 +213,7 @@ This is a special case of No. 1, Prop. 3.
 
 *With hypotheses and notations as in Prop. 4, $\lambda$ is called the quotient of $\mu$ by $\beta$ and is denoted $\frac{\mu}{\beta}$ or $\mu/\beta$.*
 
-The mapping $\lambda \mapsto \lambda^\#$ of $\mathcal{M}(X/H)$ into $\mathcal{M}(X)$ is none other than the transpose of the mapping $f \mapsto f^b$ of $\mathcal{K}(X)$ into $\mathcal{K}(X/H)$. Let $\mathfrak{F}$ be a filter on $\mathcal{M}(X/H)$; to say that $\lim_{\lambda,\mathfrak{F}} \lambda^\#(f) = 0$ for all $f \in \mathcal{K}(X)$ is equivalent to saying that $\lim_{\lambda,\mathfrak{F}} \lambda(f') = 0$ for all $f' \in \mathcal{K}(X/H)$; therefore the mapping $\lambda \mapsto \lambda^\#$ is, for the vague topologies, an *isomorphism* of $\mathcal{M}(X/H)$ onto a linear subspace of $\mathcal{M}(X)$. This subspace is *vaguely closed*, since it is the set of $\mu \in \mathcal{M}(X)$ such that $\delta(\xi)\mu = \Delta_H(\xi)\mu$ for all $\xi \in H$. It is clear that the conditions $\lambda \geqslant 0$ and $\lambda^\# \geqslant 0$ are equivalent.
+The mapping $\lambda \mapsto \lambda^\#$ of $\mathscr{M}(X/H)$ into $\mathscr{M}(X)$ is none other than the transpose of the mapping $f \mapsto f^b$ of $\mathscr{K}(X)$ into $\mathscr{K}(X/H)$. Let $\mathfrak{F}$ be a filter on $\mathscr{M}(X/H)$; to say that $\lim_{\lambda,\mathfrak{F}} \lambda^\#(f) = 0$ for all $f \in \mathscr{K}(X)$ is equivalent to saying that $\lim_{\lambda,\mathfrak{F}} \lambda(f') = 0$ for all $f' \in \mathscr{K}(X/H)$; therefore the mapping $\lambda \mapsto \lambda^\#$ is, for the vague topologies, an *isomorphism* of $\mathscr{M}(X/H)$ onto a linear subspace of $\mathscr{M}(X)$. This subspace is *vaguely closed*, since it is the set of $\mu \in \mathscr{M}(X)$ such that $\delta(\xi)\mu = \Delta_H(\xi)\mu$ for all $\xi \in H$. It is clear that the conditions $\lambda \geqslant 0$ and $\lambda^\# \geqslant 0$ are equivalent.
 
 The formula (6) may, by analogy with the usual notation for double integrals, be written
 $$
@@ -223,11 +223,11 @@ This involves an abuse of notation, the integral $\int_H f(x\xi) d\beta(\xi)$ be
 
 #### Remark 2 {#int-vii-s2-n2-rem-2 .statement}
 
-— Let E be a locally convex vector space and let m be a vectorial measure on $X/H$ with values in E. The mapping $f \mapsto m(f^b)$ of $\mathcal{K}(X)$ into E is then a vectorial measure on X, with values in E, which we shall again denote by $m^\#$. The mapping $m \mapsto m^\#$ is again an *isomorphism* of $\mathcal{L}(\mathcal{K}(X/H); E)$ onto a linear subspace A of $\mathcal{L}(\mathcal{K}(X); E)$ (when these spaces are equipped with the topology of pointwise convergence). Moreover, since the mapping $f \mapsto f^b$ is a surjective strict morphism, the subspace A consists precisely of the vectorial measures n on X that are zero on the kernel N of the mapping $f \mapsto f^b$. In order that $n \in A$, it is therefore necessary and sufficient that the scalar measures $z' \circ n$ be zero on N for every $z' \in E'$. One then deduces from Prop. 3 that $n \in A$ if and only if $\delta(\xi)n = \Delta_H(\xi)n$ for all $\xi \in H$.
+— Let E be a locally convex vector space and let m be a vectorial measure on $X/H$ with values in E. The mapping $f \mapsto m(f^b)$ of $\mathscr{K}(X)$ into E is then a vectorial measure on X, with values in E, which we shall again denote by $m^\#$. The mapping $m \mapsto m^\#$ is again an *isomorphism* of $\mathscr{L}(\mathscr{K}(X/H); E)$ onto a linear subspace A of $\mathscr{L}(\mathscr{K}(X); E)$ (when these spaces are equipped with the topology of pointwise convergence). Moreover, since the mapping $f \mapsto f^b$ is a surjective strict morphism, the subspace A consists precisely of the vectorial measures n on X that are zero on the kernel N of the mapping $f \mapsto f^b$. In order that $n \in A$, it is therefore necessary and sufficient that the scalar measures $z' \circ n$ be zero on N for every $z' \in E'$. One then deduces from Prop. 3 that $n \in A$ if and only if $\delta(\xi)n = \Delta_H(\xi)n$ for all $\xi \in H$.
 
 ### 3. Another interpretation of $\lambda^\#$
 
-For every $x \in X$, the mapping $\xi \mapsto x\xi$ of H into X is proper (GT, III, §4, No. 2, Prop. 4), therefore $\beta$ admits an image measure on X under this mapping, which image is concentrated on the orbit $xH$ (Ch. V, §6, No. 2, Cor. 3 of Prop. 2); since $\beta$ is left-invariant, this image measure depends only on the class $u = \pi(x)$ of $x$ in $X/H$, and will be denoted $\beta_u$. By definition, for $f \in \mathcal{K}(X)$,
+For every $x \in X$, the mapping $\xi \mapsto x\xi$ of H into X is proper (GT, III, §4, No. 2, Prop. 4), therefore $\beta$ admits an image measure on X under this mapping, which image is concentrated on the orbit $xH$ (Ch. V, §6, No. 2, Cor. 3 of Prop. 2); since $\beta$ is left-invariant, this image measure depends only on the class $u = \pi(x)$ of $x$ in $X/H$, and will be denoted $\beta_u$. By definition, for $f \in \mathscr{K}(X)$,
 
 $$
 \int_X f(y)\, d\beta_u(y) = \int_H f(x\xi)\, d\beta(\xi) = f^\flat(u).
@@ -255,7 +255,7 @@ c) *Suppose that f is a function on X, with values in a Banach space or in $\ove
 
 This follows from Ch. V, §4, Prop. 2, Prop. 3 and Th. 2.
 
-Since $f^\flat \in \mathcal{K}(X/H)$ for $f \in \mathcal{K}(X)$, formula (8) proves that the mapping $u \mapsto \beta_u$ of $X/H$ into $\mathcal{M}(X)$ is vaguely continuous, that the family $(\beta_u)$ is $\lambda$-adequate$^1$ for any positive measure $\lambda$ on $X/H$, and that
+Since $f^\flat \in \mathscr{K}(X/H)$ for $f \in \mathscr{K}(X)$, formula (8) proves that the mapping $u \mapsto \beta_u$ of $X/H$ into $\mathscr{M}(X)$ is vaguely continuous, that the family $(\beta_u)$ is $\lambda$-adequate$^1$ for any positive measure $\lambda$ on $X/H$, and that
 
 $$
 \lambda^\# = \int_{X/H} \beta_u\, d\lambda(u),
@@ -313,19 +313,19 @@ b) Let g be a function on X/H, with values in a topological space. For g to be $
 
 c) Let h be a function on X/H, with values in a Banach space or in $\overline{\mathbf{R}}$. For h to be locally $\lambda$-integrable, it is necessary and sufficient that $h \circ \pi$ be locally $\lambda^\#$-integrable, in which case $(h \cdot \lambda)^\# = (h \circ \pi) \cdot \lambda^\#$.
 
-Suppose $h \circ \pi$ is locally $\lambda^\#$-integrable. For every $f \in \mathcal{K}(X)$, $f \cdot (h \circ \pi)$ is $\lambda^\#$-integrable, therefore (Prop. 5) the function $(f \cdot (h \circ \pi))^b = f^b \cdot h$ is $\lambda$-integrable and
+Suppose $h \circ \pi$ is locally $\lambda^\#$-integrable. For every $f \in \mathscr{K}(X)$, $f \cdot (h \circ \pi)$ is $\lambda^\#$-integrable, therefore (Prop. 5) the function $(f \cdot (h \circ \pi))^b = f^b \cdot h$ is $\lambda$-integrable and
 
 $$
 \int_{X/H} f^b \cdot h \, d\lambda = \int_X f \cdot (h \circ \pi) \, d\lambda^\#.
 $$
 
-Since $f \mapsto f^b$ is a surjective mapping of $\mathcal{K}(X)$ onto $\mathcal{K}(X/H)$, this shows that h is locally $\lambda$-integrable and that
+Since $f \mapsto f^b$ is a surjective mapping of $\mathscr{K}(X)$ onto $\mathscr{K}(X/H)$, this shows that h is locally $\lambda$-integrable and that
 
 $$
 (h \cdot \lambda)^\# = (h \circ \pi) \cdot \lambda^\#.
 $$
 
-In particular, if $\pi^{-1}(N)$ is locally $\lambda^\#$-negligible, then $\varphi_N \circ \pi$ is locally $\lambda^\#$-negligible, therefore $(\varphi_N \cdot \lambda)^\# = (\varphi_N \circ \pi) \cdot \lambda^\# = 0$, consequently $\varphi_N \cdot \lambda = 0$ and N is locally $\lambda$-negligible. Now suppose that $g \circ \pi$ is $\lambda^\#$-measurable. Let K' be a compact subset of X/H. Let $f \in \mathcal{K}_+(X)$ be such that $f^b = 1$ on K' (No. 1, Prop. 2), and let $K = \operatorname{Supp} f$; one has $\pi(K) \supset K'$. There exists a partition of K formed of a $\lambda^\#$-negligible set M and a sequence $(K_n)$ of compact sets such that $(g \circ \pi)|K_n$ is continuous for every n. Then $g|_{\pi(K_n)}$ is continuous. Let P be the set of points of K' not belonging to $\pi(K_1) \cup \pi(K_2) \cup \ldots$; then $\pi^{-1}(P) \cap K$ is contained in M, hence is $\lambda^\#$-negligible; therefore $f \cdot \varphi_{\pi^{-1}(P)}$ is $\lambda^\#$-negligible; it follows (Prop. 5) that
+In particular, if $\pi^{-1}(N)$ is locally $\lambda^\#$-negligible, then $\varphi_N \circ \pi$ is locally $\lambda^\#$-negligible, therefore $(\varphi_N \cdot \lambda)^\# = (\varphi_N \circ \pi) \cdot \lambda^\# = 0$, consequently $\varphi_N \cdot \lambda = 0$ and N is locally $\lambda$-negligible. Now suppose that $g \circ \pi$ is $\lambda^\#$-measurable. Let K' be a compact subset of X/H. Let $f \in \mathscr{K}_+(X)$ be such that $f^b = 1$ on K' (No. 1, Prop. 2), and let $K = \operatorname{Supp} f$; one has $\pi(K) \supset K'$. There exists a partition of K formed of a $\lambda^\#$-negligible set M and a sequence $(K_n)$ of compact sets such that $(g \circ \pi)|K_n$ is continuous for every n. Then $g|_{\pi(K_n)}$ is continuous. Let P be the set of points of K' not belonging to $\pi(K_1) \cup \pi(K_2) \cup \ldots$; then $\pi^{-1}(P) \cap K$ is contained in M, hence is $\lambda^\#$-negligible; therefore $f \cdot \varphi_{\pi^{-1}(P)}$ is $\lambda^\#$-negligible; it follows (Prop. 5) that
 
 $$
 0 = \int_X f \cdot \varphi_{\pi^{-1}(P)} \, d\lambda^\# = \int_{X/H} f^b \cdot \varphi_P \, d\lambda \geq \int_{X/H}^* \varphi_P \, d\lambda,
@@ -333,7 +333,7 @@ $$
 
 therefore P is $\lambda$-negligible, and g is $\lambda$-measurable.
 
-If N is locally $\lambda$-negligible, then $\pi^{-1}(N)$ is locally $\lambda^\#$-negligible (Ch. V, §6, No. 6, Cor. 1 of Prop. 10). If g is $\lambda$-measurable, then $g \circ \pi$ is $\lambda^\#$-measurable (*ibid.*). Finally, suppose h is locally $\lambda$-integrable. Then we already know that $h \circ \pi$ is $\lambda^\#$-measurable. For every $f \in \mathcal{K}_+(X)$ we have, by Prop. 5,
+If N is locally $\lambda$-negligible, then $\pi^{-1}(N)$ is locally $\lambda^\#$-negligible (Ch. V, §6, No. 6, Cor. 1 of Prop. 10). If g is $\lambda$-measurable, then $g \circ \pi$ is $\lambda^\#$-measurable (*ibid.*). Finally, suppose h is locally $\lambda$-integrable. Then we already know that $h \circ \pi$ is $\lambda^\#$-measurable. For every $f \in \mathscr{K}_+(X)$ we have, by Prop. 5,
 
 $$
 \int_X^* f(x)|h|(\pi(x)) \, d\lambda^\#(x) = \int_{X/H}^* |h|(u)f^b(u) \, d\lambda(u) < +\infty,
@@ -355,7 +355,7 @@ Replacing $f$ by $f/(1+|f|)$, one reduces to the case that $f$ is bounded, hence
 
 #### Corollary 3 {#int-vii-s2-prop-6-cor-3 .statement}
 
-— a) Let $(\lambda_\iota)_{\iota \in I}$ be a family of real measures on $X/H$. For the family $(\lambda_\iota)$ to be bounded above in $\mathcal{M}(X/H)$, it is necessary and sufficient that the family $(\lambda_\iota^\#)$ be bounded above in $\mathcal{M}(X)$, in which case
+— a) Let $(\lambda_\iota)_{\iota \in I}$ be a family of real measures on $X/H$. For the family $(\lambda_\iota)$ to be bounded above in $\mathscr{M}(X/H)$, it is necessary and sufficient that the family $(\lambda_\iota^\#)$ be bounded above in $\mathscr{M}(X)$, in which case
 
 $$
 \sup(\lambda_\iota^\#) = (\sup \lambda_\iota)^\#.
@@ -371,13 +371,13 @@ $$
 (\sup \lambda_\iota)^\# \geq \sup(\lambda_\iota^\#).
 $$
 
-Conversely, assume the family $(\lambda_\iota^\#)$ to be bounded above and let $\nu = \sup(\lambda_\iota^\#)$. Since $\delta(\xi)\lambda_\iota^\# = \Delta_H(\xi)\lambda_\iota^\#$ for all $\xi \in H$, obviously $\delta(\xi)\nu = \Delta_H(\xi)\nu$, therefore there exists a measure $\mu' \in \mathcal{M}(X/H)$ such that $\nu = {\mu'}^\#$. Since $\lambda^\# \geq 0$ implies $\lambda \geq 0$, we have $\mu' \geq \lambda_\iota$ for all $\iota$, which shows that the family $(\lambda_\iota)$ is bounded above and that $\nu = {\mu'}^\# \geq (\sup \lambda_\iota)^\#$, whence
+Conversely, assume the family $(\lambda_\iota^\#)$ to be bounded above and let $\nu = \sup(\lambda_\iota^\#)$. Since $\delta(\xi)\lambda_\iota^\# = \Delta_H(\xi)\lambda_\iota^\#$ for all $\xi \in H$, obviously $\delta(\xi)\nu = \Delta_H(\xi)\nu$, therefore there exists a measure $\mu' \in \mathscr{M}(X/H)$ such that $\nu = {\mu'}^\#$. Since $\lambda^\# \geq 0$ implies $\lambda \geq 0$, we have $\mu' \geq \lambda_\iota$ for all $\iota$, which shows that the family $(\lambda_\iota)$ is bounded above and that $\nu = {\mu'}^\# \geq (\sup \lambda_\iota)^\#$, whence
 
 $$
 \sup(\lambda_\iota^\#) \geq (\sup \lambda_\iota)^\#,
 $$
 
-which completes the proof of a). The assertion b) then follows at once since, for example, $\lambda^+$ is none other than $\sup(\lambda, 0)$. To prove c), it suffices to note that $|\lambda| = \sup \mathcal{R}(\alpha \lambda)$ over the complex numbers $\alpha$ of absolute value 1, and on the other hand that $\mathcal{R}(\mu^\#) = (\mathcal{R}\mu)^\#$ for every $\mu \in \mathcal{M}(X/H)$.
+which completes the proof of a). The assertion b) then follows at once since, for example, $\lambda^+$ is none other than $\sup(\lambda, 0)$. To prove c), it suffices to note that $|\lambda| = \sup \mathscr{R}(\alpha \lambda)$ over the complex numbers $\alpha$ of absolute value 1, and on the other hand that $\mathscr{R}(\mu^\#) = (\mathscr{R}\mu)^\#$ for every $\mu \in \mathscr{M}(X/H)$.
 
 #### Remark 1 {#int-vii-s2-n3-rem-1 .statement}
 
@@ -385,7 +385,7 @@ Prop. 6 a) may be expressed by saying that $\lambda$ is a *pseudo-image* measure
 
 #### Remark 2 {#int-vii-s2-n3-rem-2 .statement}
 
-Suppose $H$ is *compact* and $\beta$ is normalized. The saturation of every compact subset of $X$ is compact. Therefore, if $f \in \mathcal{K}(X/H)$ then $f \circ \pi \in \mathcal{K}(X)$; and, for every positive measure $\lambda$ on $X/H$, Prop. 5 c) gives
+Suppose $H$ is *compact* and $\beta$ is normalized. The saturation of every compact subset of $X$ is compact. Therefore, if $f \in \mathscr{K}(X/H)$ then $f \circ \pi \in \mathscr{K}(X)$; and, for every positive measure $\lambda$ on $X/H$, Prop. 5 c) gives
 
 $$
 \int_X (f \circ \pi)(x)\, d\lambda^\#(x) = \int_{X/H} f(u)\, d\lambda(u).
@@ -407,7 +407,7 @@ Finally, if $m$ has base $\mu$, with density $f$ with respect to $\mu$ (Ch. VI, 
 
 ### 4. The case that $X/H$ is paracompact
 
-If $X/H$ is paracompact, we shall first see that the vector spaces $\mathcal{K}^\chi(X)$, for variable $\chi$, are all *isomorphic* to each other, and in particular isomorphic to $\mathcal{K}^1(X)$.
+If $X/H$ is paracompact, we shall first see that the vector spaces $\mathscr{K}^\chi(X)$, for variable $\chi$, are all *isomorphic* to each other, and in particular isomorphic to $\mathscr{K}^1(X)$.
 
 #### Proposition 7 {#int-vii-s2-prop-7 .statement}
 
@@ -415,7 +415,7 @@ If $X/H$ is paracompact, we shall first see that the vector spaces $\mathcal{K}^
 
 a) *There exists on $X$ a continuous function $r$, with values $> 0$, such that $r(x\xi) = \chi(\xi)r(x)$ for all $x \in X$ and $\xi \in H$.*
 
-b) *The mapping $g \mapsto g/r$ is an isomorphism of the vector space $\mathcal{K}^\chi(X)$ onto the vector space $\mathcal{K}^1(X)$.*
+b) *The mapping $g \mapsto g/r$ is an isomorphism of the vector space $\mathscr{K}^\chi(X)$ onto the vector space $\mathscr{K}^1(X)$.*
 
 Let us apply Prop. 1 of No. 1 on taking $f$ to be a function $\geqslant 0$ that is not identically zero on any orbit (this is possible by Lemma 1 of Appendix 1); then $r = f^\chi$ satisfies the properties of a). The assertion b) is obvious.
 
@@ -431,7 +431,7 @@ In particular, let $X$ be a locally compact space on which a discrete group $D$ 
 
 #### Remark 2 {#int-vii-s2-n4-rem-2 .statement}
 
-Let us conserve the hypotheses and notations of Prop. 8. The mapping $g \mapsto h \cdot (g \circ \pi)$ is a continuous mapping of $\mathcal{K}(X/H)$ into $\mathcal{K}(X)$ that is a right inverse of the mapping $f \mapsto f^b$. Consequently, every bounded (resp. compact) subset of $\mathcal{K}(X/H)$ is the image of a bounded (resp. compact) subset of $\mathcal{K}(X)$. From this, one deduces immediately that the mapping $\lambda \mapsto \lambda^\#$ is again an isomorphism of $\mathcal{M}(X/H)$ onto a closed linear subspace of $\mathcal{M}(X)$ when these spaces are equipped with the topology of bounded (resp. compact) convergence.
+Let us conserve the hypotheses and notations of Prop. 8. The mapping $g \mapsto h \cdot (g \circ \pi)$ is a continuous mapping of $\mathscr{K}(X/H)$ into $\mathscr{K}(X)$ that is a right inverse of the mapping $f \mapsto f^b$. Consequently, every bounded (resp. compact) subset of $\mathscr{K}(X/H)$ is the image of a bounded (resp. compact) subset of $\mathscr{K}(X)$. From this, one deduces immediately that the mapping $\lambda \mapsto \lambda^\#$ is again an isomorphism of $\mathscr{M}(X/H)$ onto a closed linear subspace of $\mathscr{M}(X)$ when these spaces are equipped with the topology of bounded (resp. compact) convergence.
 
 #### Proposition 9 {#int-vii-s2-prop-9 .statement}
 
@@ -447,13 +447,13 @@ $$
 \int_{X/H} k \, d\lambda = \int_X h \cdot (k \circ \pi) \, d\lambda^\#.
 $$
 
-Let $f \in \mathcal{K}(X/H)$. Then $h \cdot (f \circ \pi) \in \mathcal{K}(X)$ and
+Let $f \in \mathscr{K}(X/H)$. Then $h \cdot (f \circ \pi) \in \mathscr{K}(X)$ and
 
 $$
 \int_X h(x) f(\pi(x)) d\lambda^\#(x) = \int_{X/H} f(\dot{x}) d\lambda(\dot{x}) \int_H h(x\xi) d\beta(\xi) = \int_{X/H} f(\dot{x}) d\lambda(\dot{x}),
 $$
 
-whence a). The assertion b) is proved similarly. The assertions of c) concerning measurability, essential integrability and formula (14) may then be obtained by applying the results of Ch. V (§ 4, Prop. 3, § 5, Th. 1, § 4, Th. 2). If $k$ is $\lambda$-integrable, then $h \cdot (k \circ \pi)$ is $\lambda^\#$-integrable (Ch. V, § 3, No. 3, Th. 1). If $h \cdot (k \circ \pi)$ is $\lambda^\#$-integrable, Prop. 5 proves that $(h \cdot (k \circ \pi))^b = h^b \cdot k = k$ is $\lambda$-integrable. If $k$ is locally $\lambda$-integrable, then $h \cdot (k \circ \pi)$ is locally $\lambda^\#$-integrable (Prop. 6). Finally, suppose $h \cdot (k \circ \pi)$ locally $\lambda^\#$-integrable; for every $f \in \mathcal{H}(X/H)$, $h \cdot (k \circ \pi) \cdot (f \circ \pi)$ has compact support, and
+whence a). The assertion b) is proved similarly. The assertions of c) concerning measurability, essential integrability and formula (14) may then be obtained by applying the results of Ch. V (§ 4, Prop. 3, § 5, Th. 1, § 4, Th. 2). If $k$ is $\lambda$-integrable, then $h \cdot (k \circ \pi)$ is $\lambda^\#$-integrable (Ch. V, § 3, No. 3, Th. 1). If $h \cdot (k \circ \pi)$ is $\lambda^\#$-integrable, Prop. 5 proves that $(h \cdot (k \circ \pi))^b = h^b \cdot k = k$ is $\lambda$-integrable. If $k$ is locally $\lambda$-integrable, then $h \cdot (k \circ \pi)$ is locally $\lambda^\#$-integrable (Prop. 6). Finally, suppose $h \cdot (k \circ \pi)$ locally $\lambda^\#$-integrable; for every $f \in \mathscr{H}(X/H)$, $h \cdot (k \circ \pi) \cdot (f \circ \pi)$ has compact support, and
 $$
 |h \cdot (k \circ \pi) \cdot (f \circ \pi)| \leq M |h \cdot (k \circ \pi)|,
 $$
@@ -465,7 +465,7 @@ where $M = \sup |f|$; therefore $h \cdot ((kf) \circ \pi)$ is $\lambda^\#$-integ
 
 Suppose first that $X/H$ is paracompact and let $h$ be a function on $X$ satisfying the conditions of Prop. 8. If $k$ is a $\lambda$-integrable numerical function on $X/H$, then $h \cdot (k \circ \pi)$ is $\lambda^\#$-integrable and $(h \cdot (k \circ \pi))^b = k$ (Prop. 9).
 
-In the general case, let $u \in L^1(X/H, \lambda)$. There exists a function $f \in \mathcal{L}^1(X/H, \lambda)$ with class $u$ and zero outside a countable union of compact sets $K_n$. Let us define recursively a sequence of relatively compact open sets $U_n$ of $X/H$ such that $U_{n+1} \supset K_n \cup \overline{U}_n$, and let $V$ be the union of the $U_n$. Then $V$ is an open subset of $X/H$, a countable union of compact subsets $\overline{U}_n$, hence is paracompact (GT, I, § 9, No. 10, Th. 5). Set $Y = \overline{\pi}^{-1}(V)$ and let $\lambda_V$ (resp. $\lambda_Y^\#$) be the measure induced by $\lambda$ (resp. $\lambda^\#$) on $V$ (resp. $Y$). It is clear that $Y/H$ may be identified with $V$ (GT, I, § 3, Prop. 10) and that $\lambda_Y^\#$ may be identified with $(\lambda_V)^\#$. Moreover, $f$ is zero outside $V$ and belongs to $\mathcal{L}^1(V, \lambda_V)$. Therefore, there exists $g \in \mathcal{L}^1(Y, \lambda_Y^\#)$ such that $g^b = f$ almost everywhere in $V$. Extending $g$ by 0 on $X - Y$, one obtains a function $g_1 \in \mathcal{L}^1(X, \lambda^\#)$, and it is clear that the class of $g_1^b$ in $L^1(X/H, \lambda)$ is none other than $u$.
+In the general case, let $u \in L^1(X/H, \lambda)$. There exists a function $f \in \mathscr{L}^1(X/H, \lambda)$ with class $u$ and zero outside a countable union of compact sets $K_n$. Let us define recursively a sequence of relatively compact open sets $U_n$ of $X/H$ such that $U_{n+1} \supset K_n \cup \overline{U}_n$, and let $V$ be the union of the $U_n$. Then $V$ is an open subset of $X/H$, a countable union of compact subsets $\overline{U}_n$, hence is paracompact (GT, I, § 9, No. 10, Th. 5). Set $Y = \overline{\pi}^{-1}(V)$ and let $\lambda_V$ (resp. $\lambda_Y^\#$) be the measure induced by $\lambda$ (resp. $\lambda^\#$) on $V$ (resp. $Y$). It is clear that $Y/H$ may be identified with $V$ (GT, I, § 3, Prop. 10) and that $\lambda_Y^\#$ may be identified with $(\lambda_V)^\#$. Moreover, $f$ is zero outside $V$ and belongs to $\mathscr{L}^1(V, \lambda_V)$. Therefore, there exists $g \in \mathscr{L}^1(Y, \lambda_Y^\#)$ such that $g^b = f$ almost everywhere in $V$. Extending $g$ by 0 on $X - Y$, one obtains a function $g_1 \in \mathscr{L}^1(X, \lambda^\#)$, and it is clear that the class of $g_1^b$ in $L^1(X/H, \lambda)$ is none other than $u$.
 
 #### Remark 3 {#int-vii-s2-n4-rem-3 .statement}
 
@@ -487,12 +487,12 @@ and the hypothesis implies that $\rho^{-1} \cdot \gamma(s)\rho = {\rho'}^{-1} \c
 
 Let $G$ be a locally compact group, $H$ a closed subgroup of $G$. Consider the homogeneous space $G/H$ of left cosets with respect to $H$, on which $G$ operates continuously on the left. We are going to show that there exists one and only one class of nonzero quasi-invariant measures on $G/H$.
 
-Note that $H$ operates on $G$ continuously and properly by right translations; and the quotient space, which is none other than $G/H$, is paracompact (GT, III, $§ 4$, No. 6, Prop. 13). We may therefore apply the results of Nos. 1 to 4, with $X = G$. We thus have mappings $f \mapsto f^b$ of $\mathcal{K}(G)$ onto $\mathcal{K}(G/H)$, and $\lambda \mapsto \lambda^\#$ of $\mathcal{M}(G/H)$ into $\mathcal{M}(G)$ (once a left Haar measure $\beta$ on $H$ has been fixed). The fact that $G$ operates on the left in $G/H$ gives rise to a supplementary property:
+Note that $H$ operates on $G$ continuously and properly by right translations; and the quotient space, which is none other than $G/H$, is paracompact (GT, III, $§ 4$, No. 6, Prop. 13). We may therefore apply the results of Nos. 1 to 4, with $X = G$. We thus have mappings $f \mapsto f^b$ of $\mathscr{K}(G)$ onto $\mathscr{K}(G/H)$, and $\lambda \mapsto \lambda^\#$ of $\mathscr{M}(G/H)$ into $\mathscr{M}(G)$ (once a left Haar measure $\beta$ on $H$ has been fixed). The fact that $G$ operates on the left in $G/H$ gives rise to a supplementary property:
 
 $$
 \begin{align*}
-(15) \qquad & \gamma_{G/H}(s) \cdot f^b = (\gamma_G(s) \cdot f)^b \qquad (s \in G,\ f \in \mathcal{K}(G)) \\
-(16) \qquad & (\gamma_{G/H}(s) \cdot \lambda)^\# = \gamma_G(s) \cdot \lambda^\# \qquad (s \in G,\ \lambda \in \mathcal{M}(G/H)).
+(15) \qquad & \gamma_{G/H}(s) \cdot f^b = (\gamma_G(s) \cdot f)^b \qquad (s \in G,\ f \in \mathscr{K}(G)) \\
+(16) \qquad & (\gamma_{G/H}(s) \cdot \lambda)^\# = \gamma_G(s) \cdot \lambda^\# \qquad (s \in G,\ \lambda \in \mathscr{M}(G/H)).
 \end{align*}
 $$
 
@@ -699,7 +699,7 @@ Let $\chi$ be the multiplier of $\nu$. For every $s \in G$, $\nu$ and $\gamma(s)
 
 — Let $G$ be a locally compact group, $G'$ a closed normal subgroup, $G''$ the group $G/G'$, $\pi$ the canonical mapping of $G$ onto $G/G'$, and $\alpha, \alpha', \alpha''$ left Haar measures on $G, G', G''$.
 
-a) Multiplying $\alpha$ by a constant factor if necessary, we can suppose that $\alpha'' = \alpha/\alpha'$. In particular, if $f \in \mathcal{K}(G)$ then
+a) Multiplying $\alpha$ by a constant factor if necessary, we can suppose that $\alpha'' = \alpha/\alpha'$. In particular, if $f \in \mathscr{K}(G)$ then
 
 $$
 \int_G f(x)\,d\alpha(x) = \int_{G''} d\alpha''(\dot{x}) \int_{G'} f(x\xi)\,d\alpha'(\xi) \quad (\dot{x} = \pi(x)).
@@ -756,7 +756,7 @@ The mapping $(x, \xi) \mapsto \pi'(x\xi)$ of $X \times H$ into $X/H'$ is continu
 
 Let $K_1$ be a compact subset of X such that $\pi'(K_1) = K$. Let $K_2$ be the set of $\xi \in H$ such that $L\xi$ intersects $K_1$. Then $K_2$ is compact (GT, III, §4, No. 5, Th. 1). Let $\xi \in H$ be such that $p(\xi) \in \bigcup_{x \in L} \omega_x^{-1}(K)$. Thus, there exists an $x \in L$ such that $\omega_x(p(\xi)) \in K$, in other words such that $\pi'(x\xi) \in K$. Since $\pi'(K_1) = K$, there exists $\xi' \in H'$ such that $x\xi\xi' \in K_1$. Then $\xi\xi' \in K_2$, therefore $p(\xi) = p(\xi\xi') \in p(K_2)$. We have thus shown that $\bigcup_{x \in L} \omega_x^{-1}(K) \subset p(K_2)$.
 
-This lemma shows first of all that the mapping $\omega_x$ is *proper*. One can therefore form the measure $\omega_x(\beta/\beta')$ on $X/H'$, which is concentrated on $\omega_x(H/H') = \pi'(\psi_x(H)) = \pi'(xH)$. If $f \in \mathcal{K}(X/H')$, Lemma 7 and §1, No. 1, Lemma 1 show that the function $x \mapsto \langle f, \omega_x(\beta/\beta') \rangle$ is continuous on X; moreover, $\langle f, \omega_x(\beta/\beta') \rangle$ is zero when Supp $f$ does not intersect $\pi'(xH)$, in other words when $\pi(x)$ does not belong to the canonical image of Supp $f$ in $X/H$.
+This lemma shows first of all that the mapping $\omega_x$ is *proper*. One can therefore form the measure $\omega_x(\beta/\beta')$ on $X/H'$, which is concentrated on $\omega_x(H/H') = \pi'(\psi_x(H)) = \pi'(xH)$. If $f \in \mathscr{K}(X/H')$, Lemma 7 and §1, No. 1, Lemma 1 show that the function $x \mapsto \langle f, \omega_x(\beta/\beta') \rangle$ is continuous on X; moreover, $\langle f, \omega_x(\beta/\beta') \rangle$ is zero when Supp $f$ does not intersect $\pi'(xH)$, in other words when $\pi(x)$ does not belong to the canonical image of Supp $f$ in $X/H$.
 
 Moreover, if $x \in H$ then
 
@@ -764,7 +764,7 @@ $$
 \omega_{x\xi}(\beta/\beta') = \omega_x(\gamma_{H/H'}(\xi)(\beta/\beta')) = \omega_x(\beta/\beta').
 $$
 
-The mapping $x \mapsto \omega_x(\beta/\beta')$ of X into $\mathcal{M}(X/H')$ therefore defines by passage to the quotient a mapping $u \mapsto (\beta/\beta')_u$ of $X/H$ into $\mathcal{M}(X/H')$. The foregoing shows that, for every $f \in \mathcal{K}(X/H')$, the mapping $u \mapsto \langle f, (\beta/\beta')_u \rangle$ is continuous with compact support. Consequently the mapping $u \mapsto (\beta/\beta')_u$ *is a vaguely continuous and* $(\mu/\beta)$*-adequate family of measures on* $X/H'$, *with* $X/H$ *as index set*.
+The mapping $x \mapsto \omega_x(\beta/\beta')$ of X into $\mathscr{M}(X/H')$ therefore defines by passage to the quotient a mapping $u \mapsto (\beta/\beta')_u$ of $X/H$ into $\mathscr{M}(X/H')$. The foregoing shows that, for every $f \in \mathscr{K}(X/H')$, the mapping $u \mapsto \langle f, (\beta/\beta')_u \rangle$ is continuous with compact support. Consequently the mapping $u \mapsto (\beta/\beta')_u$ *is a vaguely continuous and* $(\mu/\beta)$*-adequate family of measures on* $X/H'$, *with* $X/H$ *as index set*.
 
 Let $x \in X$, and $u = \pi(x) \in X/H$. Let $f$ be a function on $X/H'$, with values in a Banach space or in $\overline{\mathbf{R}}$. By Ch. V, §4, Th. 2, for $f$ to be $(\beta/\beta')_u$-integrable, it is necessary and sufficient that the function $p(\xi) \mapsto f(\omega_x(p(\xi))) = f(\pi'(x\xi))$ on $H/H'$ be $(\beta/\beta')$-integrable, in which case
 
@@ -782,7 +782,7 @@ $$
 \int_{X/H} (\beta/\beta')_u d(\mu/\beta)(u) = \mu/\beta'.
 $$
 
-Let $f \in \mathcal{K}(X)$, and let $f^b \in \mathcal{K}(X/H')$, defined by
+Let $f \in \mathscr{K}(X)$, and let $f^b \in \mathscr{K}(X/H')$, defined by
 
 $$
 f^b(\pi'(x)) = \int_{H'} f(x\xi') d\beta'(\xi').
@@ -981,7 +981,7 @@ $$
 \int_{X/H} k \, d\lambda = \int_F n^{-1}(k \circ \pi) \, d\mu.
 $$
 
-We have $\mu = \lambda^\sharp$. Let $f \in \mathcal{H}_+(X/H)$. Then $n^{-1}\varphi_F(f \circ \pi)$ is μ-measurable and $\geq 0$, and by Prop. 5 b) of No. 3 we have
+We have $\mu = \lambda^\sharp$. Let $f \in \mathscr{H}_+(X/H)$. Then $n^{-1}\varphi_F(f \circ \pi)$ is μ-measurable and $\geq 0$, and by Prop. 5 b) of No. 3 we have
 
 $$
 \int_X^* n(x)^{-1} \varphi_F(x) f(\pi(x)) d\mu(x) = \int_{X/H}^* f(\dot{x}) d\lambda(\dot{x}) \int_H^* n(x\xi)^{-1} \varphi_F(x\xi) d\beta(\xi)

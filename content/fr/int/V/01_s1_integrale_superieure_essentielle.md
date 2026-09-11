@@ -28,7 +28,7 @@ subsections:
       pdf_page: 16
 statements: 25
 exercises: 6
-content_sha256: d11e7515e7fa3bff7befe7638d735f485c5cb79347900de3bd83aee030b88613
+content_sha256: 71dee38cf399f6e181553daa5a081649725dc3a8e5397d2676d978efd4a91056
 ---
 
 ## § 1. Intégrale supérieure essentielle
@@ -37,7 +37,7 @@ content_sha256: d11e7515e7fa3bff7befe7638d735f485c5cb79347900de3bd83aee030b88613
 
 #### Définition 1 {#int-v-s1-def-1 .statement}
 
-Pour toute fonction $f \in \mathcal{F}_+(T)$, on appelle intégrale supérieure essentielle de $f$ par rapport à $\mu$, et on note $\mu^*(f)$, la borne supérieure, finie ou non, de l’ensemble des nombres $\mu^*(f\varphi_K)$ où $K$ parcourt l’ensemble des parties compactes de $T$. Pour toute partie $A$ de $T$, on pose $\mu^*(A) = \mu^*(\varphi_A)$.
+Pour toute fonction $f \in \mathscr{F}_+(T)$, on appelle intégrale supérieure essentielle de $f$ par rapport à $\mu$, et on note $\mu^*(f)$, la borne supérieure, finie ou non, de l’ensemble des nombres $\mu^*(f\varphi_K)$ où $K$ parcourt l’ensemble des parties compactes de $T$. Pour toute partie $A$ de $T$, on pose $\mu^*(A) = \mu^*(\varphi_A)$.
 
 On utilise aussi les notations $\int^* f d\mu$, $\int^* f(t) d\mu(t)$, $\int^* f\mu$.
 Comme $f\varphi_K \leq f$ pour toute partie compacte $K$ de $T$, on a
@@ -48,7 +48,7 @@ $$
 
 On peut avoir $\mu^*(f) \neq \mu^*(f)$; en effet, la condition $\mu^*(f) = 0$ signifie que $f$ est négligeable tandis que la condition $\mu^*(f) = 0$ signifie que $f$ est localement négligeable (chap. IV, § 5, n° 2, prop. 5), et il peut exister des ensembles localement négligeables et non négligeables (chap. IV, § 1, exerc. 5).
 
-L’application $\mu^*$ de $\mathcal{F}_+(T)$ dans $\bar{\mathbf{R}}$ coïncide avec $\mu$ sur $\mathscr{K}_+(T)$.
+L’application $\mu^*$ de $\mathscr{F}_+(T)$ dans $\bar{\mathbf{R}}$ coïncide avec $\mu$ sur $\mathscr{K}_+(T)$.
 Il en résulte que deux mesures $\mu_1$ et $\mu_2$ telles que $\mu_1^* = \mu_2^*$ sont égales.
 
 #### Proposition 1 {#int-v-s1-prop-1 .statement}
@@ -72,7 +72,7 @@ On a l’égalité dans la relation d) si $f$ et $g$ sont mesurables, d’après
 
 #### Proposition 2 {#int-v-s1-prop-2 .statement}
 
-Soient $f, g, h$ trois éléments de $\mathcal{F}_+$; si $g$ et $h$ sont mesurables, on a:
+Soient $f, g, h$ trois éléments de $\mathscr{F}_+$; si $g$ et $h$ sont mesurables, on a:
 
 (2)
 $$
@@ -161,7 +161,7 @@ Une fonction égale presque partout à une fonction modérée est modérée.
 
 #### Proposition 6 {#int-v-s1-prop-6 .statement}
 
-Soit $f$ une fonction numérique positive définie dans T, $\mu$-mesurable et $\mu$-modérée. Il existe alors une suite $(h_n)_{n \in \mathbf{N}}$ d’éléments de $\mathcal{F}_+(T)$, dont la somme est égale à $f$, possédant les propriétés suivantes:
+Soit $f$ une fonction numérique positive définie dans T, $\mu$-mesurable et $\mu$-modérée. Il existe alors une suite $(h_n)_{n \in \mathbf{N}}$ d’éléments de $\mathscr{F}_+(T)$, dont la somme est égale à $f$, possédant les propriétés suivantes:
 
 1) La fonction $h_0$ est $\mu$-négligeable.
 
@@ -181,7 +181,7 @@ La proposition suivante permet de ramener l’étude de l’intégrale supérieu
 
 #### Proposition 7 {#int-v-s1-prop-7 .statement}
 
-Soit $f$ un élément de $\mathcal{F}_+(T)$.
+Soit $f$ un élément de $\mathscr{F}_+(T)$.
 
 1) *Si la fonction $f$ n’est pas $\mu$-modérée*, $\mu^*(f) = +\infty$.
 2) *Si la fonction $f$ est $\mu$-modérée*, $\mu^*(f) = \mu^*(f)$.
@@ -241,7 +241,7 @@ L’inégalité $\mu^*(\eta) \leq \inf_{h \in H} \mu^*(h)$ étant évidente, et 
 
 ### 3. Fonctions essentiellement intégrables
 
-Soit F un espace de Banach réel; rappelons que les éléments des espaces $\mathcal{F}_F^p$ (chap. IV, § 3, n° 3) et $\mathcal{L}_F^p$ (chap. IV, § 3, n° 4, déf. 2) sont des fonctions $\mu$-modérées (chap. IV, 2e éd., § 5, n° 6, lemme 1); $\mathcal{N}_F$ désignant toujours l’espace des applications négligeables de T dans F, nous introduirons l’espace $\mathcal{N}_F^\infty$ des applications localement négligeables de T dans F.
+Soit F un espace de Banach réel; rappelons que les éléments des espaces $\mathscr{F}_F^p$ (chap. IV, § 3, n° 3) et $\mathscr{L}_F^p$ (chap. IV, § 3, n° 4, déf. 2) sont des fonctions $\mu$-modérées (chap. IV, 2e éd., § 5, n° 6, lemme 1); $\mathscr{N}_F$ désignant toujours l’espace des applications négligeables de T dans F, nous introduirons l’espace $\mathscr{N}_F^\infty$ des applications localement négligeables de T dans F.
 
 #### Lemme 1 {#int-v-s1-lem-1 .statement}
 
@@ -249,13 +249,13 @@ Soient g et $g'$ deux applications $\mu$-modérées à valeurs dans F; si g et $
 
 En effet, soit D l’ensemble des $t \in T$ tels que $g(t) \neq g'(t)$; D est localement négligeable et modéré, donc négligeable (cor. 1 de la prop. 7).
 
-Nous désignerons par $\bar{\mathcal{F}}_F^p(T, \mu)$ (ou simplement $\bar{\mathcal{F}}_F^p(\mu)$, $\bar{\mathcal{F}}_F^p$, si aucune confusion n’en résulte) l’ensemble des applications f de T dans F, telles qu’il existe une fonction $g \in \mathcal{F}_F^p$ égale à f localement presque partout. Le nombre $N_p(g)$ ne dépendant que de f d’après le lemme 1, nous poserons $\overline{N}_p(f) = N_p(g)$. La fonction $\overline{N}_p$ est évidemment une semi-norme sur $\bar{\mathcal{F}}_F^p$, et nous supposerons toujours que $\bar{\mathcal{F}}_F^p$ est muni de la topologie définie par $\overline{N}_p$. L’adhérence de 0 pour cette topologie est l’espace $\mathcal{N}_F^\infty$; les relations $\bar{\mathcal{F}}_F^p = \mathcal{F}_F^p + \mathcal{N}_F^\infty$, $\mathcal{N}_F^\infty \cap \mathcal{F}_F^p = \mathcal{N}_F$ (lemme 1), montrent que l’espace normé $\bar{\mathcal{F}}_F^p / \mathcal{N}_F^\infty$ s’identifie canoniquement à $\mathcal{F}_F^p / \mathcal{N}_F$, qui est complet (chap. IV, § 3, n° 3, prop. 5); $\bar{\mathcal{F}}_F^p$ est donc lui-même complet.
+Nous désignerons par $\bar{\mathscr{F}}_F^p(T, \mu)$ (ou simplement $\bar{\mathscr{F}}_F^p(\mu)$, $\bar{\mathscr{F}}_F^p$, si aucune confusion n’en résulte) l’ensemble des applications f de T dans F, telles qu’il existe une fonction $g \in \mathscr{F}_F^p$ égale à f localement presque partout. Le nombre $N_p(g)$ ne dépendant que de f d’après le lemme 1, nous poserons $\overline{N}_p(f) = N_p(g)$. La fonction $\overline{N}_p$ est évidemment une semi-norme sur $\bar{\mathscr{F}}_F^p$, et nous supposerons toujours que $\bar{\mathscr{F}}_F^p$ est muni de la topologie définie par $\overline{N}_p$. L’adhérence de 0 pour cette topologie est l’espace $\mathscr{N}_F^\infty$; les relations $\bar{\mathscr{F}}_F^p = \mathscr{F}_F^p + \mathscr{N}_F^\infty$, $\mathscr{N}_F^\infty \cap \mathscr{F}_F^p = \mathscr{N}_F$ (lemme 1), montrent que l’espace normé $\bar{\mathscr{F}}_F^p / \mathscr{N}_F^\infty$ s’identifie canoniquement à $\mathscr{F}_F^p / \mathscr{N}_F$, qui est complet (chap. IV, § 3, n° 3, prop. 5); $\bar{\mathscr{F}}_F^p$ est donc lui-même complet.
 
-Nous désignerons de même par $\bar{\mathcal{L}}_F^p(T, \mu)$ (ou $\bar{\mathcal{L}}_F^p(\mu)$, ou $\bar{\mathcal{L}}_F^p$) le sous-espace $\mathcal{L}_F^p + \mathcal{N}_F^\infty$ de $\bar{\mathcal{F}}_F^p$: on peut aussi caractériser $\bar{\mathcal{L}}_F^p$ comme le sous-espace de $\bar{\mathcal{F}}_F^p$ constitué par les applications mesurables (chap. IV, § 5, n° 6, th. 5). L’espace normé $\bar{\mathcal{L}}_F^p / \mathcal{N}_F^\infty$ s’identifie canoniquement à $L_F^p$; $\bar{\mathcal{L}}_F^p$ est donc complet. Ses éléments sont appelés fonctions de puissance p-ième essentiellement intégrable, cette terminologie étant justifiée par la proposition suivante:
+Nous désignerons de même par $\bar{\mathscr{L}}_F^p(T, \mu)$ (ou $\bar{\mathscr{L}}_F^p(\mu)$, ou $\bar{\mathscr{L}}_F^p$) le sous-espace $\mathscr{L}_F^p + \mathscr{N}_F^\infty$ de $\bar{\mathscr{F}}_F^p$: on peut aussi caractériser $\bar{\mathscr{L}}_F^p$ comme le sous-espace de $\bar{\mathscr{F}}_F^p$ constitué par les applications mesurables (chap. IV, § 5, n° 6, th. 5). L’espace normé $\bar{\mathscr{L}}_F^p / \mathscr{N}_F^\infty$ s’identifie canoniquement à $L_F^p$; $\bar{\mathscr{L}}_F^p$ est donc complet. Ses éléments sont appelés fonctions de puissance p-ième essentiellement intégrable, cette terminologie étant justifiée par la proposition suivante:
 
 #### Proposition 9 {#int-v-s1-prop-9 .statement}
 
-Pour qu’une application f de T dans F appartienne à $\bar{\mathcal{F}}_F^p$ (resp. à $\bar{\mathcal{L}}_F^p$) il faut et il suffit que l’on ait (resp. que f soit mesurable et que l’on ait)
+Pour qu’une application f de T dans F appartienne à $\bar{\mathscr{F}}_F^p$ (resp. à $\bar{\mathscr{L}}_F^p$) il faut et il suffit que l’on ait (resp. que f soit mesurable et que l’on ait)
 
 $$
 \mu^*(|f|^p) < +\infty.
@@ -263,21 +263,21 @@ $$
 
 On a alors $\overline{N}_p(f) = \mu^*(|f|^p))^{1/p}$.
 
-On peut évidemment se limiter à l’assertion concernant $\bar{\mathcal{F}}_F^p$. Si f appartient à $\bar{\mathcal{F}}_F^p$, soit g une fonction appartenant à $\mathcal{F}_F^p$, égale à f localement presque partout; on a alors $|f|^p = |g|^p$ localement presque partout, donc $\mu^*(|f|^p) = \mu^*(|g|^p) = \mu^*(|g|^p) < +\infty$ (prop. 1, a) et prop. 7), et d’autre part, par définition de $\overline{N}_p$,
+On peut évidemment se limiter à l’assertion concernant $\bar{\mathscr{F}}_F^p$. Si f appartient à $\bar{\mathscr{F}}_F^p$, soit g une fonction appartenant à $\mathscr{F}_F^p$, égale à f localement presque partout; on a alors $|f|^p = |g|^p$ localement presque partout, donc $\mu^*(|f|^p) = \mu^*(|g|^p) = \mu^*(|g|^p) < +\infty$ (prop. 1, a) et prop. 7), et d’autre part, par définition de $\overline{N}_p$,
 
 $$
 \overline{N}_p(f) = N_p(g) = (\mu^*(|g|^p))^{1/p}.
 $$
 
-Inversement, supposons que l’on ait $\mu^*(|f|^p) < +\infty$; il existe alors un ensemble modéré $A$ tel que $f$ soit nulle localement presque partout dans $T - A$ (prop. 7). La fonction $f \varphi_A$, égale localement presque partout à $f$, est telle que $N_p(f \varphi_A) = \overline{N}_p(f) < +\infty$; elle appartient donc à $\mathcal{F}_F^p$, et on a $f \in \mathcal{F}_F^p$.
+Inversement, supposons que l’on ait $\mu^*(|f|^p) < +\infty$; il existe alors un ensemble modéré $A$ tel que $f$ soit nulle localement presque partout dans $T - A$ (prop. 7). La fonction $f \varphi_A$, égale localement presque partout à $f$, est telle que $N_p(f \varphi_A) = \overline{N}_p(f) < +\infty$; elle appartient donc à $\mathscr{F}_F^p$, et on a $f \in \mathscr{F}_F^p$.
 
 #### Corollaire {#int-v-s1-n3-cor-1 .statement}
 
-Pour que $f$ appartienne à $\mathcal{L}_F^p$, il faut et il suffit que $f$ appartienne à $\overline{\mathcal{L}}_F^p$ et soit modérée.
+Pour que $f$ appartienne à $\mathscr{L}_F^p$, il faut et il suffit que $f$ appartienne à $\overline{\mathscr{L}}_F^p$ et soit modérée.
 
 #### Définition 3 {#int-v-s1-def-3 .statement}
 
-Les éléments de $\overline{\mathcal{L}}_F^1$ sont appelés fonctions essentiellement $\mu$-intégrables à valeurs dans $F$. En composant l’application $\tilde{f} \mapsto \mu(\tilde{f})$ de $L_F^1$ dans $F$ avec l’application canonique de $\overline{\mathcal{L}}_F^1$ sur $L_F^1$, on obtient une application linéaire continue de $\overline{\mathcal{L}}_F^1$ dans $F$, qui prolonge l’application $f \mapsto \int f \, d\mu$ de $\mathcal{L}_F^1$ dans $F$. On note encore $\int f \, d\mu$ ou $\mu(f)$ la valeur de cette application pour $f \in \overline{\mathcal{L}}_F^1$, et on dit que cet élément est l’intégrale de $f$ par rapport à $\mu$.
+Les éléments de $\overline{\mathscr{L}}_F^1$ sont appelés fonctions essentiellement $\mu$-intégrables à valeurs dans $F$. En composant l’application $\tilde{f} \mapsto \mu(\tilde{f})$ de $L_F^1$ dans $F$ avec l’application canonique de $\overline{\mathscr{L}}_F^1$ sur $L_F^1$, on obtient une application linéaire continue de $\overline{\mathscr{L}}_F^1$ dans $F$, qui prolonge l’application $f \mapsto \int f \, d\mu$ de $\mathscr{L}_F^1$ dans $F$. On note encore $\int f \, d\mu$ ou $\mu(f)$ la valeur de cette application pour $f \in \overline{\mathscr{L}}_F^1$, et on dit que cet élément est l’intégrale de $f$ par rapport à $\mu$.
 
 Deux fonctions essentiellement intégrables et égales localement presque partout ont même intégrale. Pour toute fonction $f \geqslant 0$, finie et essentiellement intégrable, on a $\int^* f \, d\mu = \int f \, d\mu$. Si $A$ est un ensemble dont la fonction caractéristique est essentiellement intégrable, on dit que $A$ est un ensemble essentiellement $\mu$-intégrable; $\int \varphi_A \, d\mu$ se note aussi $\mu(A)$ et s’appelle encore la mesure de $A$.
 
@@ -315,7 +315,7 @@ $$
 
 Pour établir a), il suffit de montrer que pour toute partie compacte $L$ de $T$, on a $\int^* f \varphi_L\,d\mu = \sup_K \int^* f \varphi_K\,d\mu$, où $K$ parcourt l’ensemble des parties de $L$ appartenant à $\mathfrak{R}$. Comme $L$ est réunion d’un ensemble négligeable et d’une suite croissante ($K_n$) d’éléments de $\mathfrak{R}$ (chap. IV, 2e éd., § 5, n° 8, prop. 12), cela résulte du théorème de passage à la limite dans les intégrales supérieures (chap. IV, § 1, n° 3, th. 3).
 
-Supposons maintenant que $f$ appartienne à $\overline{\mathcal{L}}_F^1$; soit $\varepsilon$ un nombre $> 0$, et soit $K$ un élément de $\mathfrak{R}$ tel que
+Supposons maintenant que $f$ appartienne à $\overline{\mathscr{L}}_F^1$; soit $\varepsilon$ un nombre $> 0$, et soit $K$ un élément de $\mathfrak{R}$ tel que
 
 $$
 \int |f|\varphi_K\,d\mu \geq \int |f|\,d\mu - \varepsilon
@@ -327,9 +327,9 @@ $$
 \left| \int f\,d\mu - \int f \varphi_H\,d\mu \right| \leq \int |f|\varphi_{\mathbf{C}_H}\,d\mu \leq \int |f|\varphi_{\mathbf{C}_K}\,d\mu \leq \varepsilon.
 $$
 
-*Extension aux espaces de Banach et aux mesures complexes.* Soit $F$ un espace de Banach complexe; par abus de notation, nous désignerons encore par $F$ l’espace de Banach réel sous-jacent à $F$. L’espace de Banach $\overline{\mathcal{L}}_F^p(T, \mu)$ peut alors être muni d’une structure d’espace de Banach complexe naturelle, et il conviendra de préciser si l’on utilise la structure réelle ou complexe de cet espace. Dans ce chapitre, et sauf mention expresse du contraire, il s’agira toujours de la structure réelle.
+*Extension aux espaces de Banach et aux mesures complexes.* Soit $F$ un espace de Banach complexe; par abus de notation, nous désignerons encore par $F$ l’espace de Banach réel sous-jacent à $F$. L’espace de Banach $\overline{\mathscr{L}}_F^p(T, \mu)$ peut alors être muni d’une structure d’espace de Banach complexe naturelle, et il conviendra de préciser si l’on utilise la structure réelle ou complexe de cet espace. Dans ce chapitre, et sauf mention expresse du contraire, il s’agira toujours de la structure réelle.
 
-Soit $\theta$ une mesure complexe ; on posera $\mathcal{L}_F^p(T, \theta) = \mathcal{L}_F^p(T, |\theta|)$; si F est un espace de Banach complexe, il y a lieu de faire les mêmes remarques que ci-dessus. En particulier, une fonction $f$ à valeurs dans F sera dite essentiellement intégrable pour $\theta$ si elle est essentiellement intégrable pour $|\theta|$. L’assertion b) de la prop. 10 s’étend aussitôt aux mesures complexes.
+Soit $\theta$ une mesure complexe ; on posera $\mathscr{L}_F^p(T, \theta) = \mathscr{L}_F^p(T, |\theta|)$; si F est un espace de Banach complexe, il y a lieu de faire les mêmes remarques que ci-dessus. En particulier, une fonction $f$ à valeurs dans F sera dite essentiellement intégrable pour $\theta$ si elle est essentiellement intégrable pour $|\theta|$. L’assertion b) de la prop. 10 s’étend aussitôt aux mesures complexes.
 
 ### 4. Une propriété spéciale à l’intégrale supérieure essentielle
 
@@ -337,13 +337,13 @@ Le résultat suivant sera fréquemment utilisé dans la suite. On ne peut pas re
 
 #### Proposition 11 {#int-v-s1-prop-11 .statement}
 
-Soit $(\lambda_\alpha)_{\alpha \in A}$ une famille de mesures positives sur T, filtrante pour la relation $\leq$ et admettant dans $\mathcal{M}(T)$ une borne supérieure $\lambda$. On a alors pour toute fonction numérique $f \geq 0$
+Soit $(\lambda_\alpha)_{\alpha \in A}$ une famille de mesures positives sur T, filtrante pour la relation $\leq$ et admettant dans $\mathscr{M}(T)$ une borne supérieure $\lambda$. On a alors pour toute fonction numérique $f \geq 0$
 
 $$
 \lambda^\bullet(f) = \sup_{\alpha \in A} \lambda_\alpha^\bullet(f).
 $$
 
-Lorsque $f$ appartient à $\mathscr{K}(T)$, cette relation se réduit à la définition de la borne supérieure d’un ensemble filtrant dans $\mathcal{M}(T)$ (chap. II, § 2, n° 2, lemme 1). Supposons ensuite que $f$ soit majorée par une fonction $g \in \mathscr{K}_+$ (autrement dit, que $f$ soit bornée et nulle hors d’un compact K); soit $\alpha$ un indice tel que l’on ait $\lambda_\alpha(g) \geq \lambda(g) - \varepsilon$, où $\varepsilon$ est un nombre $> 0$; la mesure $\nu = \lambda - \lambda_\alpha$ étant positive, on a $\nu^\ast(f) \leq \nu(g) \leq \varepsilon$, ou $\lambda_\alpha^\ast(f) \geq \lambda^\ast(f) - \varepsilon$ (chap. IV, § 1, n° 3, prop. 15). Il en résulte ($\varepsilon$ étant arbitraire) que le second membre de (6) majore le premier ; l’inégalité inverse étant évidente, (6) est établie dans le cas particulier envisagé. Supposons ensuite que $f$ soit nulle hors de K, mais non nécessairement bornée, et posons $f_n = \inf(f, n)$ pour tout entier $n$. On a :
+Lorsque $f$ appartient à $\mathscr{K}(T)$, cette relation se réduit à la définition de la borne supérieure d’un ensemble filtrant dans $\mathscr{M}(T)$ (chap. II, § 2, n° 2, lemme 1). Supposons ensuite que $f$ soit majorée par une fonction $g \in \mathscr{K}_+$ (autrement dit, que $f$ soit bornée et nulle hors d’un compact K); soit $\alpha$ un indice tel que l’on ait $\lambda_\alpha(g) \geq \lambda(g) - \varepsilon$, où $\varepsilon$ est un nombre $> 0$; la mesure $\nu = \lambda - \lambda_\alpha$ étant positive, on a $\nu^\ast(f) \leq \nu(g) \leq \varepsilon$, ou $\lambda_\alpha^\ast(f) \geq \lambda^\ast(f) - \varepsilon$ (chap. IV, § 1, n° 3, prop. 15). Il en résulte ($\varepsilon$ étant arbitraire) que le second membre de (6) majore le premier ; l’inégalité inverse étant évidente, (6) est établie dans le cas particulier envisagé. Supposons ensuite que $f$ soit nulle hors de K, mais non nécessairement bornée, et posons $f_n = \inf(f, n)$ pour tout entier $n$. On a :
 
 $$
 \lambda^\bullet(f) = \sup_{n \in \mathbf{N}} \lambda^\bullet(f_n) = \sup_{n \in \mathbf{N}} \sup_{\alpha \in A} \lambda_\alpha^\bullet(f_n) = \sup_{\alpha \in A} \sup_{n \in \mathbf{N}} \lambda_\alpha^\bullet(f_n) = \sup_{\alpha \in A} \lambda_\alpha^\bullet(f).

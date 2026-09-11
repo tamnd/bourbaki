@@ -52,7 +52,7 @@ subsections:
       pdf_page: 202
 statements: 52
 exercises: 10
-content_sha256: 396f9305e8378565df6b6843f0c7f2210c00d7f2557e26f83d0d7eb3f062b066
+content_sha256: 9def8ab1f124d61a4573dcf64e25627940e31a5690f91afe3c4981c332244b6f
 ---
 
 ## § 1. PREMEASURES AND MEASURES ON A TOPOLOGICAL SPACE
@@ -61,15 +61,15 @@ content_sha256: 396f9305e8378565df6b6843f0c7f2210c00d7f2557e26f83d0d7eb3f062b066
 
 #### Definition 1 {#int-ix-s1-def-1 .statement}
 
-— Let T be a set. One calls encumbrance on T any mapping p of $\mathcal{F}_+(T)$ into $\overline{\mathbf{R}}_+$ that has the following properties:
-a) If f and g are two elements of $\mathcal{F}_+$ such that $f \leq g$, then $p(f) \leq p(g)$.
-b) If f is an element of $\mathcal{F}_+$, and t is a number $\geq 0$, then $p(tf) = tp(f)$.
+— Let T be a set. One calls encumbrance on T any mapping p of $\mathscr{F}_+(T)$ into $\overline{\mathbf{R}}_+$ that has the following properties:
+a) If f and g are two elements of $\mathscr{F}_+$ such that $f \leq g$, then $p(f) \leq p(g)$.
+b) If f is an element of $\mathscr{F}_+$, and t is a number $\geq 0$, then $p(tf) = tp(f)$.
 
-c) *If f and g are two elements of $\mathcal{F}_+$, then $p(f + g) \leq p(f) + p(g)$.*
-d) *If $(f_n)$ is an increasing sequence of elements of $\mathcal{F}_+$, and if $f = \lim_{n \to \infty} f_n$, then $p(f) = \lim_{n \to \infty} p(f_n)$.*
+c) *If f and g are two elements of $\mathscr{F}_+$, then $p(f + g) \leq p(f) + p(g)$.*
+d) *If $(f_n)$ is an increasing sequence of elements of $\mathscr{F}_+$, and if $f = \lim_{n \to \infty} f_n$, then $p(f) = \lim_{n \to \infty} p(f_n)$.*
 *If A is a subset of T, we write $p(A)$ instead of $p(\varphi_A)$.*
 
-The condition b) implies that $p(0) = 0$. On the other hand, let $(f_n)$ be a sequence of elements of $\mathcal{F}_+$; the conditions c) and d) imply the inequality
+The condition b) implies that $p(0) = 0$. On the other hand, let $(f_n)$ be a sequence of elements of $\mathscr{F}_+$; the conditions c) and d) imply the inequality
 
 $$
 p\left( \sum_n f_n \right) \leq \sum_n p(f_n)
@@ -81,7 +81,7 @@ For example, let T be a locally compact space, $\mu$ a positive measure on T; th
 
 #### Proposition 1 {#int-ix-s1-prop-1 .statement}
 
-*Let $(p_\alpha)_{\alpha \in A}$ be a family of encumbrances on T. The sum and upper envelope of the family $(p_\alpha)$ (in $\mathcal{F}_+(\mathcal{F}_+(T))$) are then encumbrances.*
+*Let $(p_\alpha)_{\alpha \in A}$ be a family of encumbrances on T. The sum and upper envelope of the family $(p_\alpha)$ (in $\mathscr{F}_+(\mathscr{F}_+(T))$) are then encumbrances.*
 
 The sum of a finite family of encumbrances obviously being an encumbrance, it suffices to treat the case of the upper envelope. The properties a), b), c) of Definition 1 being obviously satisfied, it remains to establish d). Set $p = \sup_\alpha p_\alpha$; then, with the notations of Definition 1 d),
 
@@ -95,9 +95,9 @@ $$
 
 It then follows from the properties a) and c) of Def. 1 that $p(K) < +\infty$ for every compact subset K of T. In particular, if T is compact, then every locally bounded encumbrance on T is bounded.
 
-Let p be an encumbrance on a set T, and A a subset of T. For every function $f \in \mathcal{F}_+(A)$, let $f^0$ be the extension by 0 of f to T; the mapping $f \mapsto p(f^0)$ on $\mathcal{F}_+(A)$ is then an encumbrance, called *the encumbrance induced by p* on A, and is denoted $p|A$ or $p_A$.
+Let p be an encumbrance on a set T, and A a subset of T. For every function $f \in \mathscr{F}_+(A)$, let $f^0$ be the extension by 0 of f to T; the mapping $f \mapsto p(f^0)$ on $\mathscr{F}_+(A)$ is then an encumbrance, called *the encumbrance induced by p* on A, and is denoted $p|A$ or $p_A$.
 
-Let T and U be two sets, $\pi$ a mapping of T into U, and p an encumbrance on T. The encumbrance $\pi(p)$ on U, whose value for $f \in \mathcal{F}_+(U)$ is given by
+Let T and U be two sets, $\pi$ a mapping of T into U, and p an encumbrance on T. The encumbrance $\pi(p)$ on U, whose value for $f \in \mathscr{F}_+(U)$ is given by
 
 $$
 (\pi(p))(f) = p(f \circ \pi),
@@ -109,7 +109,7 @@ Let $p$ be an encumbrance on a set $T$; $p$ is said to be *concentrated* on a su
 
 #### Lemma 1 {#int-ix-s1-lem-1 .statement}
 
-— *If the encumbrance $p$ is concentrated on $A \subset T$, then $p(f) = p(f \varphi_A)$ for every $f \in \mathcal{F}_+(T)$.*
+— *If the encumbrance $p$ is concentrated on $A \subset T$, then $p(f) = p(f \varphi_A)$ for every $f \in \mathscr{F}_+(T)$.*
 
 For, set $T - A = B$, so that $p(\varphi_B) = 0$; then
 
@@ -121,7 +121,7 @@ therefore $p(f \varphi_B) = 0$ by properties $a), b), d)$ of Def. 1. It follows 
 
 ### 2. Premeasures and measures
 
-Let $T$ be a topological space, and let $\mathfrak{K}$ be the set of compact subsets of $T$, ordered by inclusion. For every $K \in \mathfrak{K}$, let $\mathcal{M}(K; \mathbf{C})$ be the set of complex measures on $K$. For every pair $(K, L)$ of elements of $\mathfrak{K}$ such that $K \subset L$, let $\iota_{KL}$ be the mapping of $\mathcal{M}(L; \mathbf{C})$ into $\mathcal{M}(K; \mathbf{C})$ that associates to each measure $\mu$ on $L$ the measure $\mu_K$ induced by $\mu$ on $K$ (Ch. IV, §5, No. 7, Def. 4). Then $\iota_{KM} = \iota_{KL} \circ \iota_{LM}$ when $K, L$ and $M$ are compact subsets of $T$ such that $K \subset L \subset M$; this follows from the transitivity of induced measures (Ch. V, §7, No. 2, Prop. 4). The elements of the *inverse limit* of the family $(\mathcal{M}(K; \mathbf{C}))_{K \in \mathfrak{K}}$ for the mappings $\iota_{KL}$ will be called *premeasures* on $T$. In other words:
+Let $T$ be a topological space, and let $\mathfrak{K}$ be the set of compact subsets of $T$, ordered by inclusion. For every $K \in \mathfrak{K}$, let $\mathscr{M}(K; \mathbf{C})$ be the set of complex measures on $K$. For every pair $(K, L)$ of elements of $\mathfrak{K}$ such that $K \subset L$, let $\iota_{KL}$ be the mapping of $\mathscr{M}(L; \mathbf{C})$ into $\mathscr{M}(K; \mathbf{C})$ that associates to each measure $\mu$ on $L$ the measure $\mu_K$ induced by $\mu$ on $K$ (Ch. IV, §5, No. 7, Def. 4). Then $\iota_{KM} = \iota_{KL} \circ \iota_{LM}$ when $K, L$ and $M$ are compact subsets of $T$ such that $K \subset L \subset M$; this follows from the transitivity of induced measures (Ch. V, §7, No. 2, Prop. 4). The elements of the *inverse limit* of the family $(\mathscr{M}(K; \mathbf{C}))_{K \in \mathfrak{K}}$ for the mappings $\iota_{KL}$ will be called *premeasures* on $T$. In other words:
 
 #### Definition 3 {#int-ix-s1-def-3 .statement}
 
@@ -131,7 +131,7 @@ Let $T$ be a topological space, and let $\mathfrak{K}$ be the set of compact sub
 
 The premeasure $w$ is said to be real (resp. positive) if all of the measures $w_K$ are real (resp. positive).*
 
-Let $w$ and $w'$ be two premeasures on $T$, $t$ a complex number; the premeasures $w + w'$ and $tw$ are defined by the formulas $(w + w')_K = w_K + w'_K$, $(tw)_K = tw_K$ for every compact subset $K$ of $T$. The premeasures on $T$ obviously form a vector space, which is denoted $\mathcal{P}(T; \mathbf{C})$; the space of real premeasures will be denoted $\mathcal{P}(T; \mathbf{R})$, or more often $\mathcal{P}(T)$, and the convex cone of positive premeasures will be denoted $\mathcal{P}_+(T)$. Let $w$ be a premeasure; the mapping $K \mapsto |w_K|$ is then a premeasure on $T$ (Ch. IV, §5, No. 7, Lemma 3), which will be denoted $|w|$. If $w$ is real, one sets w^+ = \frac{1}{2}(|w| + w),\ w^- = \frac{1}{2}(|w| - w); these two premeasures being positive, one sees that every real premeasure is the difference of two positive premeasures. Clearly $(w^+)_K = (w_K)^+$, $(w^-)_K = (w_K)^-$ for every compact subset K of T.
+Let $w$ and $w'$ be two premeasures on $T$, $t$ a complex number; the premeasures $w + w'$ and $tw$ are defined by the formulas $(w + w')_K = w_K + w'_K$, $(tw)_K = tw_K$ for every compact subset $K$ of $T$. The premeasures on $T$ obviously form a vector space, which is denoted $\mathscr{P}(T; \mathbf{C})$; the space of real premeasures will be denoted $\mathscr{P}(T; \mathbf{R})$, or more often $\mathscr{P}(T)$, and the convex cone of positive premeasures will be denoted $\mathscr{P}_+(T)$. Let $w$ be a premeasure; the mapping $K \mapsto |w_K|$ is then a premeasure on $T$ (Ch. IV, §5, No. 7, Lemma 3), which will be denoted $|w|$. If $w$ is real, one sets w^+ = \frac{1}{2}(|w| + w),\ w^- = \frac{1}{2}(|w| - w); these two premeasures being positive, one sees that every real premeasure is the difference of two positive premeasures. Clearly $(w^+)_K = (w_K)^+$, $(w^-)_K = (w_K)^-$ for every compact subset K of T.
 
 The vector space $P(T)$ is ordered by the cone $P_+(T)$. It is clear that $w^+ = \sup(w, 0),\ w^- = \sup(-w, 0)$; consequently, $P(T)$ is lattice-ordered and $\sup(w, w') = w + (w' - w)^+,\ \inf(w, w') = w - (w' - w)^-$. Moreover, clearly
 
@@ -143,7 +143,7 @@ for every compact subset K of T.
 
 #### Definition 4 {#int-ix-s1-def-4 .statement}
 
-*Let w be a positive premeasure on T. We shall set, for every function $f \in \mathcal{F}_+(T)$,*
+*Let w be a positive premeasure on T. We shall set, for every function $f \in \mathscr{F}_+(T)$,*
 
 $$(1)$$
 $$
@@ -158,7 +158,7 @@ For each compact set K, let $p^K$ be the image encumbrance of the encumbrance $(
 
 #### Proposition 2 {#int-ix-s1-prop-2 .statement}
 
-*a) Let w be a positive premeasure. For every compact subset K of T, the encumbrance $(w^\bullet)_K$ induced by $w^\bullet$ on K is equal to $(w_K)^\bullet$. For every function $f \in \mathcal{F}_+(T)$, one has the relations $(w_K)^\bullet(f_K) = w^\bullet(f_{\varphi_K})$ and*
+*a) Let w be a positive premeasure. For every compact subset K of T, the encumbrance $(w^\bullet)_K$ induced by $w^\bullet$ on K is equal to $(w_K)^\bullet$. For every function $f \in \mathscr{F}_+(T)$, one has the relations $(w_K)^\bullet(f_K) = w^\bullet(f_{\varphi_K})$ and*
 
 $$(2)$$
 $$
@@ -167,10 +167,10 @@ $$
 
 *b) Conversely, let p be an encumbrance on T satisfying the following conditions:
 1) For every compact subset K of T, there exists a positive measure $w_K$ on K such that $p_K = (w_K)^\bullet$.
-2) For every function $f \in \mathcal{F}_+(T)$, $p(f) = \sup_K p(f_{\varphi_K})$.
+2) For every function $f \in \mathscr{F}_+(T)$, $p(f) = \sup_K p(f_{\varphi_K})$.
 The mapping $w : K \mapsto w_K$ is then a positive premeasure on T, and $p = w^\bullet$.
 
-Let us prove $a$: let $g \in \mathcal{F}_+(K)$ and let $g^0$ be the extension by zero of $g$ to $T$; then, by the definition of induced encumbrances,
+Let us prove $a$: let $g \in \mathscr{F}_+(K)$ and let $g^0$ be the extension by zero of $g$ to $T$; then, by the definition of induced encumbrances,
 
 $$
 (w^\bullet)_K(g) = w^\bullet(g^0) = \sup_L (w_L)^\bullet(g^0|L),
@@ -182,7 +182,7 @@ $$
 (w_K)^\bullet(f_K) = (w^\bullet)_K(f_K) = w^\bullet((f_K)^0) = w^\bullet(f_{\varphi_K})
 $$
 
-for all $f \in \mathcal{F}_+(T)$, and (2) merely translates the formula (1).
+for all $f \in \mathscr{F}_+(T)$, and (2) merely translates the formula (1).
 
 Let us pass to $b$: the measure $w_K$ considered in 1) is unique (Ch. V, §1, No. 1). Let us show that the mapping $K \mapsto w_K$ is a premeasure: let $K$ and $L$ be two compact subsets such that $K \subset L$, and let $\lambda$ be the measure induced by $w_L$ on $K$; everything comes down to showing that $\lambda^\bullet = (w_K)^\bullet$. Now, $\lambda^\bullet = ((w_L)^\bullet)_K$ (Ch. V, §7, No. 1, Prop. 1); since $(w_L)^\bullet = p_L$, we have $\lambda^\bullet = (p_L)_K = p_K = (w_K)^\bullet$.
 
@@ -208,7 +208,7 @@ by Prop. 2; therefore $w_K = v_K$ (Ch. IV, §4, No. 10, Cor. 3 of Prop. 19), and
 
 — *Let $w$ be a premeasure on a topological space $T$. One says that $w$ is a measure (resp. a bounded measure) if the encumbrance $|w|^\bullet$ is locally bounded (resp. bounded) (cf. No. 1, Def. 2)*.
 
-The set of complex measures on $T$ is obviously a vector space (*Remark* 1), which will be denoted $\mathcal{M}(T; \mathbf{C})$. The space of real measures will be denoted $\mathcal{M}(T; \mathbf{R})$ or more often $\mathcal{M}(T)$, and the cone of positive measures will be denoted $\mathcal{M}_+(T)$.
+The set of complex measures on $T$ is obviously a vector space (*Remark* 1), which will be denoted $\mathscr{M}(T; \mathbf{C})$. The space of real measures will be denoted $\mathscr{M}(T; \mathbf{R})$ or more often $\mathscr{M}(T)$, and the cone of positive measures will be denoted $\mathscr{M}_+(T)$.
 
 If $w$ is a complex measure, its real part and its imaginary part are real measures. If $w$ is a real measure, $w^+$ and $w^-$ are positive measures. Every complex (resp. real) measure is thus a linear combination (resp. difference) of positive measures.
 
@@ -232,19 +232,19 @@ by Cor. 1 of Th. 4 of Ch. IV, §4, No. 6.
 
 — *Measures on a locally compact space.*
 
-The following proposition shows that the theory of this chapter contains that of Ch. IV. In the statement, the word 'measure' and the notation $\mathcal{M}(T; \mathbf{C})$ are taken in the sense of the earlier chapters.
+The following proposition shows that the theory of this chapter contains that of Ch. IV. In the statement, the word 'measure' and the notation $\mathscr{M}(T; \mathbf{C})$ are taken in the sense of the earlier chapters.
 
 #### Proposition 3 {#int-ix-s1-prop-3 .statement}
 
-*Let $T$ be a locally compact space, and let $\mu$ be a measure on $T$. Denote by $W(\mu)$ the mapping that associates to each compact subset $K$ of $T$ the induced measure $\mu_K$. Then $W(\mu)$ is a premeasure on $T$, one has $W(|\mu|) = |W(\mu)|$, and the linear mapping $W : \mu \mapsto W(\mu)$ is a bijection of the space $\mathcal{M}(T; \mathbf{C})$ onto the space $\mathcal{P}(T; \mathbf{C})$ of premeasures on $T$. Moreover, if $\mu$ is positive then $\mu^* = (W(\mu))^*$.
+*Let $T$ be a locally compact space, and let $\mu$ be a measure on $T$. Denote by $W(\mu)$ the mapping that associates to each compact subset $K$ of $T$ the induced measure $\mu_K$. Then $W(\mu)$ is a premeasure on $T$, one has $W(|\mu|) = |W(\mu)|$, and the linear mapping $W : \mu \mapsto W(\mu)$ is a bijection of the space $\mathscr{M}(T; \mathbf{C})$ onto the space $\mathscr{P}(T; \mathbf{C})$ of premeasures on $T$. Moreover, if $\mu$ is positive then $\mu^* = (W(\mu))^*$.
 
-It is clear that $W(\mu)$ is a premeasure (Ch. V, §7, No. 2, Prop. 4) and that the mapping $W$ is linear. The relation $W(\mu) = 0$ means that $\mu$ induces the measure 0 on every compact set in $T$; then $\mu(f) = 0$ for $f \in \mathcal{H}(T; \mathbf{C})$, thus $\mu = 0$, which proves that $W$ is injective. It remains to prove that $W$ is surjective. Since every premeasure is a linear combination of positive premeasures, it will suffice to construct, for every *positive* premeasure $w$, a positive measure $\mu$ such that $w = W(\mu)$. Let $f \in \mathcal{H}(T)$ be a given function, and let $L$ be a compact set containing the support of $f$; the number $w_L(f_L)$ is independent of the choice of $L$, by the definition of induced measures, so that one can set $\mu(f) = w_L(f_L)$; then $\mu$ is a positive linear form on $\mathcal{H}(T)$, that is, a positive measure. Let us verify that $w = W(\mu)$; first, the relation $\mu^\bullet(f) = w_L^\bullet(f_L)$ extends to the case that $f$ is a finite upper semi-continuous function that is positive and is zero outside $L$. For, let $M$ be a compact neighborhood of $L$, and $\mathcal{H}$ the (decreasing directed) set of continuous functions on $T$, with support contained in $M$, that are $\geq f$. Then (Ch. IV, §4, No. 4, Cor. 2 of Prop. 5)
+It is clear that $W(\mu)$ is a premeasure (Ch. V, §7, No. 2, Prop. 4) and that the mapping $W$ is linear. The relation $W(\mu) = 0$ means that $\mu$ induces the measure 0 on every compact set in $T$; then $\mu(f) = 0$ for $f \in \mathscr{H}(T; \mathbf{C})$, thus $\mu = 0$, which proves that $W$ is injective. It remains to prove that $W$ is surjective. Since every premeasure is a linear combination of positive premeasures, it will suffice to construct, for every *positive* premeasure $w$, a positive measure $\mu$ such that $w = W(\mu)$. Let $f \in \mathscr{H}(T)$ be a given function, and let $L$ be a compact set containing the support of $f$; the number $w_L(f_L)$ is independent of the choice of $L$, by the definition of induced measures, so that one can set $\mu(f) = w_L(f_L)$; then $\mu$ is a positive linear form on $\mathscr{H}(T)$, that is, a positive measure. Let us verify that $w = W(\mu)$; first, the relation $\mu^\bullet(f) = w_L^\bullet(f_L)$ extends to the case that $f$ is a finite upper semi-continuous function that is positive and is zero outside $L$. For, let $M$ be a compact neighborhood of $L$, and $\mathscr{H}$ the (decreasing directed) set of continuous functions on $T$, with support contained in $M$, that are $\geq f$. Then (Ch. IV, §4, No. 4, Cor. 2 of Prop. 5)
 
 $$
-\mu^\bullet(f) = \inf_{h \in \mathcal{H}} \mu(h) = \inf_{h \in \mathcal{H}} w_M(h_M) = w_M^\bullet(f_M),
+\mu^\bullet(f) = \inf_{h \in \mathscr{H}} \mu(h) = \inf_{h \in \mathscr{H}} w_M(h_M) = w_M^\bullet(f_M),
 $$
 
-and on the other hand $w_M^\bullet(f_M) = w_L^\bullet(f_L)$ since $f_M$ is zero on $M - L$ (Ch. V, §7, No. 1, Prop. 1). In particular, if $f$ is taken to be the extension by 0 of an element of $\mathcal{H}_+(L)$, this formula shows that $\mu_L = w_L$ by the definition of induced measures, thus indeed $W(\mu) = w$.
+and on the other hand $w_M^\bullet(f_M) = w_L^\bullet(f_L)$ since $f_M$ is zero on $M - L$ (Ch. V, §7, No. 1, Prop. 1). In particular, if $f$ is taken to be the extension by 0 of an element of $\mathscr{H}_+(L)$, this formula shows that $\mu_L = w_L$ by the definition of induced measures, thus indeed $W(\mu) = w$.
 
 If $\mu$ is positive, then
 
@@ -252,11 +252,11 @@ $$
 \mu^\bullet(f) = \sup_K \mu^\bullet(f \varphi_K) = \sup_K \mu_K^\bullet(f_K) = (W(\mu))^\bullet(f)
 $$
 
-for every $f \in \mathcal{F}_+(T)$ (Ch. V, §1, Def. 1 and §7, Prop. 1). The relation $|W(\mu)| = W(|\mu|)$ is obvious (Ch. IV, §5, No. 7, Lemma 3).
+for every $f \in \mathscr{F}_+(T)$ (Ch. V, §1, Def. 1 and §7, Prop. 1). The relation $|W(\mu)| = W(|\mu|)$ is obvious (Ch. IV, §5, No. 7, Lemma 3).
 
 Q.E.D.
 
-When $T$ is *locally compact*, we shall from now on *identify* the spaces $\mathcal{M}(T; \mathbf{C})$ and $\mathcal{P}(T; \mathbf{C})$ by means of the bijection $W$.
+When $T$ is *locally compact*, we shall from now on *identify* the spaces $\mathscr{M}(T; \mathbf{C})$ and $\mathscr{P}(T; \mathbf{C})$ by means of the bijection $W$.
 
 #### Example 2 {#int-ix-s1-n3-exa-2 .statement}
 
@@ -264,14 +264,14 @@ When $T$ is *locally compact*, we shall from now on *identify* the spaces $\math
 
 #### Lemma 2 {#int-ix-s1-lem-2 .statement}
 
-— *Let $T$ be a topological space, $L$ a compact subset of $T$, and $\lambda$ a positive measure on $L$. There exists a unique positive measure $\mu$ on $T$ such that, for every function $f \in \mathcal{F}_+(T)$,*
+— *Let $T$ be a topological space, $L$ a compact subset of $T$, and $\lambda$ a positive measure on $L$. There exists a unique positive measure $\mu$ on $T$ such that, for every function $f \in \mathscr{F}_+(T)$,*
 
 (2)
 $$
 \mu^\bullet(f) = \lambda^\bullet(f_L).
 $$
 
-Let us set $p(f) = \lambda^\bullet(f_L)$ for every $f \in \mathcal{F}_+(T)$, and let us show that the conditions 1) and 2) of Prop. 2 *b*) are satisfied. The second is obviously satisfied: indeed, $p(f) = p(f \varphi_K)$ if $K$ contains $L$. If $K \subset T$ is compact, and if $h \in \mathcal{F}_+(K)$, then
+Let us set $p(f) = \lambda^\bullet(f_L)$ for every $f \in \mathscr{F}_+(T)$, and let us show that the conditions 1) and 2) of Prop. 2 *b*) are satisfied. The second is obviously satisfied: indeed, $p(f) = p(f \varphi_K)$ if $K$ contains $L$. If $K \subset T$ is compact, and if $h \in \mathscr{F}_+(K)$, then
 
 $$
 p_K(h) = p(h^0) = \lambda^\bullet(h^0|L).
@@ -281,7 +281,7 @@ But $h^0|L$ is the extension by 0 of $h_{K \cap L}$ to $L$: the last expression 
 
 Q.E.D.
 
-We shall say that $\mu$ is the measure on T *defined* by $\lambda$. In particular, for every point $x$ of T one can define the measure $\varepsilon_x$; it is characterized by $(\varepsilon_x)^*(f) = f(x)$ for $f \in \mathcal{F}_+(T)$.
+We shall say that $\mu$ is the measure on T *defined* by $\lambda$. In particular, for every point $x$ of T one can define the measure $\varepsilon_x$; it is characterized by $(\varepsilon_x)^*(f) = f(x)$ for $f \in \mathscr{F}_+(T)$.
 
 #### Remark {#int-ix-s1-n3-rem-1 .statement}
 
@@ -296,7 +296,7 @@ Numerous results in the following subsections may be extended to positive premea
 
 #### Definition 6 {#int-ix-s1-def-6 .statement}
 
-*A function* $f \in \mathcal{F}_+$ (resp. *a subset* A *of* T) *is said to be locally negligible for the measure* $\mu$ *if* $\mu^*(f) = 0$ (resp. $\mu^*(A) = 0$). *One says that* $\mu$ *is concentrated on a subset* A *of* T *if* T − A *is locally* $\mu$*-negligible*.
+*A function* $f \in \mathscr{F}_+$ (resp. *a subset* A *of* T) *is said to be locally negligible for the measure* $\mu$ *if* $\mu^*(f) = 0$ (resp. $\mu^*(A) = 0$). *One says that* $\mu$ *is concentrated on a subset* A *of* T *if* T − A *is locally* $\mu$*-negligible*.
 
 #### Remark {#int-ix-s1-n4-rem-1 .statement}
 
@@ -307,9 +307,9 @@ Numerous results in the following subsections may be extended to positive premea
 
 #### Example {#int-ix-s1-n4-exa-1 .statement}
 
-— Let L be a compact subset of T, $\lambda$ a measure on L, and $\mu$ the measure on T defined by $\lambda$ (No. 3, *Example* 2). The formula (3) implies at once that a function $f \in \mathcal{F}_+(T)$ is locally $\mu$-negligible if and only if $f_L$ is $\lambda$-negligible.
+— Let L be a compact subset of T, $\lambda$ a measure on L, and $\mu$ the measure on T defined by $\lambda$ (No. 3, *Example* 2). The formula (3) implies at once that a function $f \in \mathscr{F}_+(T)$ is locally $\mu$-negligible if and only if $f_L$ is $\lambda$-negligible.
 
-It follows immediately from formula (1) that a function $f \in \mathcal{F}_+(T)$ is locally $\mu$-negligible if and only if $f_K$ is $\mu_K$-negligible for every compact subset K of T. Thus the properties of locally negligible sets reduce at once to those of negligible sets in compact spaces, treated in Ch. IV. Here are some results that will be used henceforth without further reference.
+It follows immediately from formula (1) that a function $f \in \mathscr{F}_+(T)$ is locally $\mu$-negligible if and only if $f_K$ is $\mu_K$-negligible for every compact subset K of T. Thus the properties of locally negligible sets reduce at once to those of negligible sets in compact spaces, treated in Ch. IV. Here are some results that will be used henceforth without further reference.
 
 — For a function $f \geqslant 0$ to be locally negligible, it is necessary and sufficient that $f(t) = 0$ locally almost everywhere (Ch. IV, §2, No. 3, Th. 1). If $f$ is a function with values in a Banach space, it is therefore equivalent to say that $f = 0$ locally almost everywhere or that $\mu^*(|f|) = 0$; in this case we shall again say that $f$ is locally negligible.
 
@@ -431,7 +431,7 @@ If $\mu$ is a complex measure, the support of $\mu$ is defined to be the support
 
 #### Remark 2 {#int-ix-s1-n6-rem-2 .statement}
 
-Let us show that the measures introduced in *Example 2* of No. 3 are measures with compact support in $T$. Let $\mu$ be a positive measure on $T$ whose support is a compact set $K$, and let $\nu$ be the measure defined by $\mu_K$ (in the sense of No. 3). Let $f \in \mathcal{F}_+(T)$; then
+Let us show that the measures introduced in *Example 2* of No. 3 are measures with compact support in $T$. Let $\mu$ be a positive measure on $T$ whose support is a compact set $K$, and let $\nu$ be the measure defined by $\mu_K$ (in the sense of No. 3). Let $f \in \mathscr{F}_+(T)$; then
 
 $$
 \nu^\bullet(f) = \mu_K^\bullet(f_K) \quad \text{(No. 3, formula (3))}.
@@ -449,25 +449,25 @@ whence $\mu^\bullet = \nu^\bullet$, and finally $\mu = \nu$. Conversely, if $K$ 
 
 #### Proposition 6 {#int-ix-s1-prop-6 .statement}
 
-— *Let $(\lambda_\alpha)_{\alpha \in A}$ be an increasing directed family of measures on $T$, and let $p = \sup_\alpha \lambda_\alpha^\bullet$. For the family $(\lambda_\alpha)$ to be bounded above in $\mathcal{M}(T)$, it is necessary and sufficient that the encumbrance $p$ be locally bounded. The family $(\lambda_\alpha)$ then admits a supremum $\lambda$ in $\mathcal{M}(T)$, and $\lambda^\bullet = p$. For every compact set $K$, the measure $\lambda_K$ is the supremum of the measures $(\lambda_\alpha)_K$ in $\mathcal{M}(K)$*.
+— *Let $(\lambda_\alpha)_{\alpha \in A}$ be an increasing directed family of measures on $T$, and let $p = \sup_\alpha \lambda_\alpha^\bullet$. For the family $(\lambda_\alpha)$ to be bounded above in $\mathscr{M}(T)$, it is necessary and sufficient that the encumbrance $p$ be locally bounded. The family $(\lambda_\alpha)$ then admits a supremum $\lambda$ in $\mathscr{M}(T)$, and $\lambda^\bullet = p$. For every compact set $K$, the measure $\lambda_K$ is the supremum of the measures $(\lambda_\alpha)_K$ in $\mathscr{M}(K)$*.
 
-If the family $(\lambda_\alpha)$ is bounded above in $\mathcal{M}(T)$, then $p$ is obviously locally bounded. Conversely, let us assume $p$ to be locally bounded, and let us show that it satisfies the conditions 1) and 2) of Prop. 2 b) of No. 2. For 2), this results from the following equalities:
+If the family $(\lambda_\alpha)$ is bounded above in $\mathscr{M}(T)$, then $p$ is obviously locally bounded. Conversely, let us assume $p$ to be locally bounded, and let us show that it satisfies the conditions 1) and 2) of Prop. 2 b) of No. 2. For 2), this results from the following equalities:
 
 $$
 p(f) = \sup_\alpha \lambda_\alpha^\bullet(f) = \sup_\alpha \sup_K \lambda_\alpha^\bullet(f \varphi_K) = \sup_K \sup_\alpha \lambda_\alpha^\bullet(f \varphi_K) = \sup_K p(f \varphi_K).
 $$
 
-On the other hand, let K be a compact set; the encumbrance $p_K$ is equal to the upper envelope of the encumbrances $(\lambda_\alpha^\bullet)_K$ and it is bounded since $p$ is locally bounded. The measures $(\lambda_\alpha)_K$ therefore admit a supremum $\lambda_K$ in $\mathcal{M}(K)$, and $\lambda_K^\bullet = p_K$ (Ch. V, §1, No. 4, Prop. 11). The condition 1) of Prop. 2 b) of No. 2 is thus satisfied, therefore there exists a measure $\lambda$ on T such that $\lambda^\bullet = p$; it is clear that $\lambda$ is the supremum of the measures $\lambda_\alpha$.
+On the other hand, let K be a compact set; the encumbrance $p_K$ is equal to the upper envelope of the encumbrances $(\lambda_\alpha^\bullet)_K$ and it is bounded since $p$ is locally bounded. The measures $(\lambda_\alpha)_K$ therefore admit a supremum $\lambda_K$ in $\mathscr{M}(K)$, and $\lambda_K^\bullet = p_K$ (Ch. V, §1, No. 4, Prop. 11). The condition 1) of Prop. 2 b) of No. 2 is thus satisfied, therefore there exists a measure $\lambda$ on T such that $\lambda^\bullet = p$; it is clear that $\lambda$ is the supremum of the measures $\lambda_\alpha$.
 
 #### Definition 9 {#int-ix-s1-def-9 .statement}
 
-*Let $(\mu_i)_{i \in I}$ be a family of measures on T. Let A be the set of finite subsets of I; for every $\alpha \in A$ let $\lambda_\alpha = \sum_{i \in \alpha} \mu_i$. If the family $(\lambda_\alpha)$ admits a supremum $\mu$ in $\mathcal{M}(T)$, the family $(\mu_i)$ is said to be summable, $\mu$ is called the sum of the family $(\mu_i)$, and one writes $\mu = \sum_{i \in I} \mu_i$.*
+*Let $(\mu_i)_{i \in I}$ be a family of measures on T. Let A be the set of finite subsets of I; for every $\alpha \in A$ let $\lambda_\alpha = \sum_{i \in \alpha} \mu_i$. If the family $(\lambda_\alpha)$ admits a supremum $\mu$ in $\mathscr{M}(T)$, the family $(\mu_i)$ is said to be summable, $\mu$ is called the sum of the family $(\mu_i)$, and one writes $\mu = \sum_{i \in I} \mu_i$.*
 
 This definition extends the definition of Ch. V, §2, No. 1.
 
 #### Proposition 7 {#int-ix-s1-prop-7 .statement}
 
-*For the family $(\mu_i)_{i \in I}$ to be summable, with sum $\mu$, it is necessary and sufficient that the encumbrance $p = \sum_{i \in I} \mu_i^\bullet$ be locally bounded, in which case $p = \mu^\bullet$. For every compact subset K of T, the family $((\mu_i)_K)_{i \in I}$ is then summable in $\mathcal{M}(K)$, and $\mu_K = \sum_{i \in I} (\mu_i)_K$.*
+*For the family $(\mu_i)_{i \in I}$ to be summable, with sum $\mu$, it is necessary and sufficient that the encumbrance $p = \sum_{i \in I} \mu_i^\bullet$ be locally bounded, in which case $p = \mu^\bullet$. For every compact subset K of T, the family $((\mu_i)_K)_{i \in I}$ is then summable in $\mathscr{M}(K)$, and $\mu_K = \sum_{i \in I} (\mu_i)_K$.*
 
 With notations as in Def. 9, $\lambda_\alpha^\bullet = \sum_{i \in \alpha} \mu_i^\bullet$ for every finite subset $\alpha$ of I (No. 2, *Remark* 1). The statement is then an immediate consequence of Prop. 6.
 
@@ -486,7 +486,7 @@ The relation $\mu_K = \sum_{i \in I} (\mu_i)_K$ and Prop. 2 of Ch. V, §2, No. 2
 #### Proposition 9 {#int-ix-s1-prop-9 .statement}
 
 *a) There exists a crushing $(K_\alpha)_{\alpha \in A}$ of T for $\mu$.
-b) Let $(K_\alpha)_{\alpha \in A}$ be a crushing of T for $\mu$. If $\mu_\alpha$ is the measure on T defined by $\mu_{K_\alpha}$ (No. 3, Example 2), then the family $(\mu_\alpha)_{\alpha \in A}$ is summable,* its sum is equal to $\mu$, and, for every function $f \in \mathcal{F}_+(T)$,
+b) Let $(K_\alpha)_{\alpha \in A}$ be a crushing of T for $\mu$. If $\mu_\alpha$ is the measure on T defined by $\mu_{K_\alpha}$ (No. 3, Example 2), then the family $(\mu_\alpha)_{\alpha \in A}$ is summable,* its sum is equal to $\mu$, and, for every function $f \in \mathscr{F}_+(T)$,
 
 $$
 \mu^\bullet(f) = \sum_{\alpha \in A} \mu_\alpha^\bullet(f) = \sum_{\alpha \in A} \mu_{K_\alpha}^\bullet(f_{K_\alpha}) . \tag{1}
@@ -496,7 +496,7 @@ For a mapping $g$ of $T$ into a topological space $G$ (Hausdorff or not) to be $
 
 A) *Existence of a crushing*:
 
-The proof is a repetition of that of Prop. 14 of Ch. IV, §5, No. 9, with slight modifications. Let $\mathcal{K}$ be the set of compact subsets $K$ of $T$ such that $\mathrm{Supp}(\mu_K) = K$, and let $\mathcal{H}$ be the set (ordered by inclusion) of subsets $\mathcal{L}$ of $\mathcal{K}$ consisting of pairwise disjoint sets. Let us first show that every element $\mathcal{L}$ of $\mathcal{H}$ is *locally countable*. Let $x$ be a point of $T$, and $V$ an open neighborhood of $x$ such that $\mu^\bullet(V) < +\infty$; let $\mathcal{L}_V$ be the set of $K \in \mathcal{L}$ that intersect $V$. If $(K_i)_{1 \leq i \leq n}$ is a finite sequence of distinct elements of $\mathcal{L}_V$, we have, by the Cor. of Prop. 4,
+The proof is a repetition of that of Prop. 14 of Ch. IV, §5, No. 9, with slight modifications. Let $\mathscr{K}$ be the set of compact subsets $K$ of $T$ such that $\mathrm{Supp}(\mu_K) = K$, and let $\mathscr{H}$ be the set (ordered by inclusion) of subsets $\mathscr{L}$ of $\mathscr{K}$ consisting of pairwise disjoint sets. Let us first show that every element $\mathscr{L}$ of $\mathscr{H}$ is *locally countable*. Let $x$ be a point of $T$, and $V$ an open neighborhood of $x$ such that $\mu^\bullet(V) < +\infty$; let $\mathscr{L}_V$ be the set of $K \in \mathscr{L}$ that intersect $V$. If $(K_i)_{1 \leq i \leq n}$ is a finite sequence of distinct elements of $\mathscr{L}_V$, we have, by the Cor. of Prop. 4,
 
 $$
 \sum_{i=1}^n \mu^\bullet(K_i \cap V) = \mu^\bullet\left(V \cap \left( \bigcup_{i=1}^n K_i \right) \right) \leq \mu^\bullet(V),
@@ -505,10 +505,10 @@ $$
 because the $K_i$ are pairwise disjoint. Thus,
 
 $$
-\sum_{K \in \mathcal{L}_V} \mu^\bullet(K \cap V) < +\infty.
+\sum_{K \in \mathscr{L}_V} \mu^\bullet(K \cap V) < +\infty.
 $$
 
-Now, $\mu^\bullet(K \cap V) = \mu_K^\bullet(K \cap V) > 0$ for every $K \in \mathcal{L}_V$, because $K \cap V$ is nonempty, open in $K$, and the support of $\mu_K$ is all of $K$; $\mathcal{L}_V$ is therefore countable, and $\mathcal{L}$ is indeed locally countable. It is immediate that $\mathcal{H}$ is inductive, and nonempty (one has $\varnothing \in \mathcal{H}$). Thus, let $\mathfrak{H}$ be a maximal element of $\mathcal{H}$. We are going to show that the set $N = T - \bigcup_{K \in \mathfrak{H}} K$ is locally negligible. By Prop. 2, it suffices to verify that $\mu^\bullet(N \cap L) = 0$ for every compact set $L$, or again that $\mu_L^\bullet(N \cap L) = 0$. We shall argue by contradiction. Thus, suppose that $\mu_L^\bullet(N \cap L) > 0$. Since the set of $K \in \mathfrak{H}$ that intersect $L$ is countable, $N \cap L$ is $\mu_L$-measurable; therefore there exists a compact set $J$ contained in $N \cap L$ such that $\mu_L^\bullet(J) > 0$. Let $S$ be the support of the nonzero measure $(\mu_L)_J = \mu_J$; it is contained in $N$, the measure $\mu_S$ is nonzero, and $\mathrm{Supp}(\mu_S) = S$ (Ch. IV, §5, No. 7, Lemma 2). The set $\mathfrak{H} \cup \{S\}$ therefore belongs to $\mathcal{H}$, in contradiction with the maximal character of $\mathfrak{H}$. This proves the existence of a crushing.
+Now, $\mu^\bullet(K \cap V) = \mu_K^\bullet(K \cap V) > 0$ for every $K \in \mathscr{L}_V$, because $K \cap V$ is nonempty, open in $K$, and the support of $\mu_K$ is all of $K$; $\mathscr{L}_V$ is therefore countable, and $\mathscr{L}$ is indeed locally countable. It is immediate that $\mathscr{H}$ is inductive, and nonempty (one has $\varnothing \in \mathscr{H}$). Thus, let $\mathfrak{H}$ be a maximal element of $\mathscr{H}$. We are going to show that the set $N = T - \bigcup_{K \in \mathfrak{H}} K$ is locally negligible. By Prop. 2, it suffices to verify that $\mu^\bullet(N \cap L) = 0$ for every compact set $L$, or again that $\mu_L^\bullet(N \cap L) = 0$. We shall argue by contradiction. Thus, suppose that $\mu_L^\bullet(N \cap L) > 0$. Since the set of $K \in \mathfrak{H}$ that intersect $L$ is countable, $N \cap L$ is $\mu_L$-measurable; therefore there exists a compact set $J$ contained in $N \cap L$ such that $\mu_L^\bullet(J) > 0$. Let $S$ be the support of the nonzero measure $(\mu_L)_J = \mu_J$; it is contained in $N$, the measure $\mu_S$ is nonzero, and $\mathrm{Supp}(\mu_S) = S$ (Ch. IV, §5, No. 7, Lemma 2). The set $\mathfrak{H} \cup \{S\}$ therefore belongs to $\mathscr{H}$, in contradiction with the maximal character of $\mathfrak{H}$. This proves the existence of a crushing.
 
 (1) We shall see later on (§2, No. 2) that $\mu_\alpha$ is the measure $\varphi_{K_\alpha} \cdot \mu$.
 
@@ -517,7 +517,7 @@ For every $\alpha \in A$, $\mu_\alpha^\bullet(f) = \mu_{K_\alpha}^\bullet(f_{K_\
 $$
 \mu_K^\bullet = \sum_{\alpha \in A} (\mu_\alpha)_K^\bullet
 $$
-for every compact subset K of T. Now, K being fixed, the set $A'$ of $\alpha \in A$ such that $K_\alpha$ intersects K is countable. Let $g \in \mathcal{F}_+(K)$; then $g^0 = g^0 \varphi_N + \sum_{\alpha \in A} g^0 \varphi_{K_\alpha}$, and $g^0 \varphi_{K_\alpha} = 0$ for $\alpha \in A - A'$; by Prop. 4 of No. 5, it follows that $\mu^\bullet(g^0) = \sum_{\alpha \in A} \mu^\bullet(g^0 \varphi_{K_\alpha})$, whence
+for every compact subset K of T. Now, K being fixed, the set $A'$ of $\alpha \in A$ such that $K_\alpha$ intersects K is countable. Let $g \in \mathscr{F}_+(K)$; then $g^0 = g^0 \varphi_N + \sum_{\alpha \in A} g^0 \varphi_{K_\alpha}$, and $g^0 \varphi_{K_\alpha} = 0$ for $\alpha \in A - A'$; by Prop. 4 of No. 5, it follows that $\mu^\bullet(g^0) = \sum_{\alpha \in A} \mu^\bullet(g^0 \varphi_{K_\alpha})$, whence
 $$
 \mu_K^\bullet(g) = \mu^\bullet(g^0) = \sum_{\alpha \in A} \mu^\bullet(g^0 \varphi_{K_\alpha}) = \sum_{\alpha \in A} \mu_\alpha^\bullet(g^0) = \sum_{\alpha \in A} (\mu_\alpha)_K^\bullet(g);
 $$
@@ -552,7 +552,7 @@ Let $f$ be the characteristic function of $X$, and let $(K_\alpha)_{\alpha \in A
 
 #### Definition 11 {#int-ix-s1-def-11 .statement}
 
-*For every function $f \in \mathcal{F}_+(T)$, one defines the upper integral of $f$ (with respect to the measure $\mu$) to be the finite or infinite positive number*
+*For every function $f \in \mathscr{F}_+(T)$, one defines the upper integral of $f$ (with respect to the measure $\mu$) to be the finite or infinite positive number*
 
 $$
 \mu^*(f) = \inf_g \mu^\bullet(g),
@@ -598,20 +598,20 @@ Beware, however, that the existence of a sequence of Borel sets of finite measur
 
 #### Proposition 14 {#int-ix-s1-prop-14 .statement}
 
-Let $f \in \mathcal{F}_+(T)$. If $f$ is $\mu$-moderated, then $\mu^*(f) = \mu^\bullet(f)$; if $f$ is not $\mu$-moderated, then $\mu^*(f) = +\infty$.
+Let $f \in \mathscr{F}_+(T)$. If $f$ is $\mu$-moderated, then $\mu^*(f) = \mu^\bullet(f)$; if $f$ is not $\mu$-moderated, then $\mu^*(f) = +\infty$.
 
 If $\mu^*(f) < +\infty$, there exists a lower semi-continuous function $g \geq f$ such that $\mu^\bullet(g) < +\infty$. For every $n \in \mathbf{N}$, let $G_n$ be the set of $t \in T$ such that $g(t) > 1/n$; the set $G_n$ is open, one has $\mu^\bullet(G_n) \leq n \mu^\bullet(g) < +\infty$, and $f$ is zero outside the union of the $G_n$: the function $f$ is therefore moderated.
 
 Next, let us show that $\mu^*$ and $\mu^\bullet$ have the same value for moderated functions. Since $\mu^*$ and $\mu^\bullet$ are encumbrances, it suffices to establish the relation $\mu^*(f) = \mu^\bullet(f)$ when $f$ is a positive function, bounded above by a constant M, and zero outside an open set G of finite measure, which we shall now do.
 
-The measure $\mu$ is the supremum, in $\mathcal{M}(T)$, of an increasing directed family $(\mu_i)_{i \in I}$ of measures with compact support: this follows at once from Prop. 9 of No. 8. Let $g$ be a lower semi-continuous function on T, between $f$ and the lower semi-continuous function $M \varphi_G$. Set $\nu_i = \mu - \mu_i$; then $\mu^\bullet = \mu_i^\bullet + \nu_i^\bullet$ (No. 2, Remark 1), consequently
+The measure $\mu$ is the supremum, in $\mathscr{M}(T)$, of an increasing directed family $(\mu_i)_{i \in I}$ of measures with compact support: this follows at once from Prop. 9 of No. 8. Let $g$ be a lower semi-continuous function on T, between $f$ and the lower semi-continuous function $M \varphi_G$. Set $\nu_i = \mu - \mu_i$; then $\mu^\bullet = \mu_i^\bullet + \nu_i^\bullet$ (No. 2, Remark 1), consequently
 $$
 \mu^\bullet(g) - \mu^\bullet(f) = (\mu_i^\bullet(g) - \mu_i^\bullet(f)) + (\nu_i^\bullet(g) - \nu_i^\bullet(f))
 $$
 $$
 \leq (\mu_i^\bullet(g) - \mu_i^\bullet(f)) + \nu_i^\bullet(M \varphi_G).
 $$
-One has $\nu_i^\bullet(M \varphi_G) = \mu^\bullet(M \varphi_G) - \mu_i^\bullet(M \varphi_G)$ and $\mu^\bullet(M \varphi_G) = \sup \mu_i^\bullet(M \varphi_G)$ (No. 7, Prop. 6); the number $\nu_i^\bullet(M \varphi_G)$ may therefore be made arbitrarily small by a suitable choice of $i$. Thus everything comes down to showing that one can find, for any number $c > 0$ and any index $i \in I$, a lower semi-continuous function $g$ between $f$ and $M \varphi_G$, such that $\mu_i^\bullet(g) - \mu_i^\bullet(f) \leq c$. Now, let L be the compact support of the measure $\mu_i$, and let $\lambda$ be the measure $(\mu_i)_L$; since $\mu_i$ is concentrated on L, one has $\mu_i^\bullet(h) = \mu_i^\bullet(h \varphi_L) = \lambda^\bullet(h_L)$ for every function $h \in \mathcal{F}_+(T)$ (No. 1, Lemma 1 and No. 2, Prop. 2); therefore
+One has $\nu_i^\bullet(M \varphi_G) = \mu^\bullet(M \varphi_G) - \mu_i^\bullet(M \varphi_G)$ and $\mu^\bullet(M \varphi_G) = \sup \mu_i^\bullet(M \varphi_G)$ (No. 7, Prop. 6); the number $\nu_i^\bullet(M \varphi_G)$ may therefore be made arbitrarily small by a suitable choice of $i$. Thus everything comes down to showing that one can find, for any number $c > 0$ and any index $i \in I$, a lower semi-continuous function $g$ between $f$ and $M \varphi_G$, such that $\mu_i^\bullet(g) - \mu_i^\bullet(f) \leq c$. Now, let L be the compact support of the measure $\mu_i$, and let $\lambda$ be the measure $(\mu_i)_L$; since $\mu_i$ is concentrated on L, one has $\mu_i^\bullet(h) = \mu_i^\bullet(h \varphi_L) = \lambda^\bullet(h_L)$ for every function $h \in \mathscr{F}_+(T)$ (No. 1, Lemma 1 and No. 2, Prop. 2); therefore
 $$
 \mu_i^\bullet(g) - \mu_i^\bullet(f) = \lambda^\bullet(g_L) - \lambda^\bullet(f_L).
 $$
@@ -650,7 +650,7 @@ For, the equality $\mu^* = \nu^*$ implies that $\mu^*(f) = \nu^*(f)$ for every p
 
 *If $\mu$ is a moderated measure on T, there exists a sequence $(\mu_n)_{n \in \mathbf{N}}$ of measures with compact support such that $\mu = \sum_{n \in \mathbf{N}} \mu_n$.*
 
-By hypothesis, the constant function 1 is $\mu$-moderated. Let us apply Cor. 3 to the case $f = 1$; thus, there exists a sequence $(K_n)_{n \in \mathbf{N}}$ of pairwise disjoint compact subsets of T such that $1 = \sum_{n \in \mathbf{N}} \varphi_{K_n}$ $\mu$-almost everywhere. Let $\mu_n$ be the measure on T defined by the measure $\mu_{K_n}$ on $K_n$ (No. 3, Example 2). One knows (No. 6, Remark 2) that $\mu_n$ has compact support, and that $\mu_n^\bullet(f) = \mu^\bullet(f \varphi_{K_n})$ for $f \in \mathcal{F}_+(T)$. Now, $f$ is equal to $\sum_{n \in \mathbf{N}} f \varphi_{K_n}$ $\mu$-almost everywhere, whence
+By hypothesis, the constant function 1 is $\mu$-moderated. Let us apply Cor. 3 to the case $f = 1$; thus, there exists a sequence $(K_n)_{n \in \mathbf{N}}$ of pairwise disjoint compact subsets of T such that $1 = \sum_{n \in \mathbf{N}} \varphi_{K_n}$ $\mu$-almost everywhere. Let $\mu_n$ be the measure on T defined by the measure $\mu_{K_n}$ on $K_n$ (No. 3, Example 2). One knows (No. 6, Remark 2) that $\mu_n$ has compact support, and that $\mu_n^\bullet(f) = \mu^\bullet(f \varphi_{K_n})$ for $f \in \mathscr{F}_+(T)$. Now, $f$ is equal to $\sum_{n \in \mathbf{N}} f \varphi_{K_n}$ $\mu$-almost everywhere, whence
 
 $$
 \mu^\bullet(f) = \sum_{n \in \mathbf{N}} \mu^\bullet(f \varphi_{K_n}) = \sum_{n \in \mathbf{N}} \mu_n^\bullet(f).
@@ -662,27 +662,27 @@ It follows that $\mu = \sum_{n \in \mathbf{N}} \mu_n$ (No. 7, Prop. 7).
 
 #### Definition 13 {#int-ix-s1-def-13 .statement}
 
-— *Let* $p \in [1, +\infty[$; *one denotes by* $\overline{\mathcal{L}}^p(T, \mu)$ *(resp.* $\overline{\mathcal{L}}_F^p(T, \mu)$ *if F is a Banach space) the set of mappings* $\mathbf{f}$ *of T into* $\overline{\mathbf{R}}$ *(resp. into F) that are $\mu$-measurable and satisfy* $\mu^\bullet(|\mathbf{f}|^p) < +\infty$. *One denotes by* $\mathcal{L}^p(T, \mu)$ *(resp.* $\mathcal{L}_F^p(T, \mu)$*) the set of $\mu$-moderated elements of* $\overline{\mathcal{L}}^p(T, \mu)$ *(resp.* $\overline{\mathcal{L}}_F^p(T, \mu)$*).*
+— *Let* $p \in [1, +\infty[$; *one denotes by* $\overline{\mathscr{L}}^p(T, \mu)$ *(resp.* $\overline{\mathscr{L}}_F^p(T, \mu)$ *if F is a Banach space) the set of mappings* $\mathbf{f}$ *of T into* $\overline{\mathbf{R}}$ *(resp. into F) that are $\mu$-measurable and satisfy* $\mu^\bullet(|\mathbf{f}|^p) < +\infty$. *One denotes by* $\mathscr{L}^p(T, \mu)$ *(resp.* $\mathscr{L}_F^p(T, \mu)$*) the set of $\mu$-moderated elements of* $\overline{\mathscr{L}}^p(T, \mu)$ *(resp.* $\overline{\mathscr{L}}_F^p(T, \mu)$*).*
 
-We will write $\overline{N}_p(\mathbf{f}) = \left( \mu^\bullet(|\mathbf{f}|^p) \right)^{1/p}$, $N_p(\mathbf{f}) = \left( \mu^*(|\mathbf{f}|^p) \right)^{1/p}$. We denote by $\overline{N}_\infty(\mathbf{f})$ the infimum of the numbers $k \geq 0$ such that $|\mathbf{f}| \leq k$ locally $\mu$-almost everywhere; if $\overline{N}_\infty(\mathbf{f}) < +\infty$, $\mathbf{f}$ is said to be essentially bounded. The set of measurable and essentially bounded mappings of T into $\overline{\mathbf{R}}$ (resp. into F) is denoted $\overline{\mathcal{L}}^\infty(T, \mu)$ (resp. $\overline{\mathcal{L}}_F^\infty(T, \mu)$). The elements of $\overline{\mathcal{L}}_F^1(T, \mu)$ (resp. $\mathcal{L}_F^1(T, \mu)$) are called essentially integrable functions (resp. integrable functions) with values in F.
+We will write $\overline{N}_p(\mathbf{f}) = \left( \mu^\bullet(|\mathbf{f}|^p) \right)^{1/p}$, $N_p(\mathbf{f}) = \left( \mu^*(|\mathbf{f}|^p) \right)^{1/p}$. We denote by $\overline{N}_\infty(\mathbf{f})$ the infimum of the numbers $k \geq 0$ such that $|\mathbf{f}| \leq k$ locally $\mu$-almost everywhere; if $\overline{N}_\infty(\mathbf{f}) < +\infty$, $\mathbf{f}$ is said to be essentially bounded. The set of measurable and essentially bounded mappings of T into $\overline{\mathbf{R}}$ (resp. into F) is denoted $\overline{\mathscr{L}}^\infty(T, \mu)$ (resp. $\overline{\mathscr{L}}_F^\infty(T, \mu)$). The elements of $\overline{\mathscr{L}}_F^1(T, \mu)$ (resp. $\mathscr{L}_F^1(T, \mu)$) are called essentially integrable functions (resp. integrable functions) with values in F.
 
 If $\mu$ is a complex measure, one sets
 
 $$
-\overline{\mathcal{L}}_F^p(T, \mu) = \overline{\mathcal{L}}_F^p(T, |\mu|) \quad \text{and} \quad \mathcal{L}_F^p(T, \mu) = \mathcal{L}_F^p(T, |\mu|).
+\overline{\mathscr{L}}_F^p(T, \mu) = \overline{\mathscr{L}}_F^p(T, |\mu|) \quad \text{and} \quad \mathscr{L}_F^p(T, \mu) = \mathscr{L}_F^p(T, |\mu|).
 $$
 
-The above notations are often abbreviated to $\overline{\mathcal{L}}_F^p(\mu)$, $\overline{\mathcal{L}}_F^p$ or $\mathcal{L}^p(\mu)$, $\mathcal{L}^p$, if this does not lead to any confusion.
+The above notations are often abbreviated to $\overline{\mathscr{L}}_F^p(\mu)$, $\overline{\mathscr{L}}_F^p$ or $\mathscr{L}^p(\mu)$, $\mathscr{L}^p$, if this does not lead to any confusion.
 
-We saw in No. 8 (*Scholium*) that one can construct a locally compact space T', having the same underlying set as T and a topology finer than that of T, and equip T' with a measure $\mu'$ such that the $\mu$-measurable functions and the $\mu'$-measurable functions are the same, and such that the essential upper integrals of positive functions for $\mu$ and $\mu'$ are equal. It follows that the sets $\overline{\mathcal{L}}_F^p(\mu)$ and $\overline{\mathcal{L}}_F^p(\mu')$ are identical for $1 \leq p \leq +\infty$ $^{(1)}$. This also implies without new proof that $\overline{\mathcal{L}}_F^p$ is a vector space, and that the function $\overline{N}_p$ is a semi-norm on $\overline{\mathcal{L}}_F^p(\mu)$, for which this space is complete.
+We saw in No. 8 (*Scholium*) that one can construct a locally compact space T', having the same underlying set as T and a topology finer than that of T, and equip T' with a measure $\mu'$ such that the $\mu$-measurable functions and the $\mu'$-measurable functions are the same, and such that the essential upper integrals of positive functions for $\mu$ and $\mu'$ are equal. It follows that the sets $\overline{\mathscr{L}}_F^p(\mu)$ and $\overline{\mathscr{L}}_F^p(\mu')$ are identical for $1 \leq p \leq +\infty$ $^{(1)}$. This also implies without new proof that $\overline{\mathscr{L}}_F^p$ is a vector space, and that the function $\overline{N}_p$ is a semi-norm on $\overline{\mathscr{L}}_F^p(\mu)$, for which this space is complete.
 
-Let $\mathbf{f}$ be an element of $\overline{\mathcal{L}}_F^p$ ($1 \leq p < +\infty$); since one has $\mu^\bullet(|\mathbf{f}|^p) = {\mu'}^\bullet(|\mathbf{f}|^p) < +\infty$, Prop. 7 of Ch. V, §1, No. 2 implies that $\mathbf{f}$ is zero outside
+Let $\mathbf{f}$ be an element of $\overline{\mathscr{L}}_F^p$ ($1 \leq p < +\infty$); since one has $\mu^\bullet(|\mathbf{f}|^p) = {\mu'}^\bullet(|\mathbf{f}|^p) < +\infty$, Prop. 7 of Ch. V, §1, No. 2 implies that $\mathbf{f}$ is zero outside
 
-(1) Note that the space $\mathcal{L}_F^p(\mu)$ is contained in $\mathcal{L}_F^p(\mu')$, but is in general distinct from it.
+(1) Note that the space $\mathscr{L}_F^p(\mu)$ is contained in $\mathscr{L}_F^p(\mu')$, but is in general distinct from it.
 
-the union of a sequence of compact subsets of T' and a locally $\mu'$-negligible set; the latter set being locally $\mu$-negligible, and every compact subset of T' being compact in T, it follows that f is equal locally $\mu$-almost everywhere to a $\mu$-moderated function. Let us denote by $\overline{\mathcal{N}}_F$ (resp. $\mathcal{N}_F$) the space of locally $\mu$-negligible (resp. $\mu$-negligible) functions; we thus have $\overline{\mathcal{L}}_F^p = \mathcal{L}_F^p + \overline{\mathcal{N}}_F$, and $\mathcal{N}_F = \mathcal{L}_F^p \cap \overline{\mathcal{N}}_F$ (No. 9, Cor. 1 of Prop. 14). The space $\overline{\mathcal{L}}_F^p / \overline{\mathcal{N}}_F$ may therefore be canonically identified with $\mathcal{L}_F^p / \mathcal{N}_F$, and one verifies immediately that this identification preserves norm; this quotient space is denoted $L_F^p(\mu)$. It can be interpreted as the normed space associated with each of the semi-normed spaces $\overline{\mathcal{L}}_F^p(\mu)$ and $\mathcal{L}_F^p(\mu)$; since $\overline{\mathcal{L}}_F^p$ is complete, the same is true of $L_F^p$ and $\mathcal{L}_F^p$.
+the union of a sequence of compact subsets of T' and a locally $\mu'$-negligible set; the latter set being locally $\mu$-negligible, and every compact subset of T' being compact in T, it follows that f is equal locally $\mu$-almost everywhere to a $\mu$-moderated function. Let us denote by $\overline{\mathscr{N}}_F$ (resp. $\mathscr{N}_F$) the space of locally $\mu$-negligible (resp. $\mu$-negligible) functions; we thus have $\overline{\mathscr{L}}_F^p = \mathscr{L}_F^p + \overline{\mathscr{N}}_F$, and $\mathscr{N}_F = \mathscr{L}_F^p \cap \overline{\mathscr{N}}_F$ (No. 9, Cor. 1 of Prop. 14). The space $\overline{\mathscr{L}}_F^p / \overline{\mathscr{N}}_F$ may therefore be canonically identified with $\mathscr{L}_F^p / \mathscr{N}_F$, and one verifies immediately that this identification preserves norm; this quotient space is denoted $L_F^p(\mu)$. It can be interpreted as the normed space associated with each of the semi-normed spaces $\overline{\mathscr{L}}_F^p(\mu)$ and $\mathscr{L}_F^p(\mu)$; since $\overline{\mathscr{L}}_F^p$ is complete, the same is true of $L_F^p$ and $\mathscr{L}_F^p$.
 
-The set of functions f with values in F, continuous on T' with compact support, is dense in $\overline{\mathcal{L}}_F^p(\mu') = \overline{\mathcal{L}}_F^p(\mu)$ (Ch. IV, §3, No. 4, Def. 2). Let us take up again the notations of the Scholium of No. 8. Since a compact subset of T' intersects only a finite number of the compact sets $K_\alpha$, every continuous function f on T' with compact support may be written as a sum
+The set of functions f with values in F, continuous on T' with compact support, is dense in $\overline{\mathscr{L}}_F^p(\mu') = \overline{\mathscr{L}}_F^p(\mu)$ (Ch. IV, §3, No. 4, Def. 2). Let us take up again the notations of the Scholium of No. 8. Since a compact subset of T' intersects only a finite number of the compact sets $K_\alpha$, every continuous function f on T' with compact support may be written as a sum
 $$
 f = \sum_{\alpha \in A} f_\alpha + g,
 $$
@@ -690,7 +690,7 @@ where $f_\alpha$ is, for every $\alpha$, the extension by 0 of a continuous func
 
 #### Proposition 15 {#int-ix-s1-prop-15 .statement}
 
-*The set of functions f with values in F, such that Supp(f) is compact and such that the restriction of f to Supp(f) is continuous, is dense in $\overline{\mathcal{L}}_F^p(\mu)$ and in $\mathcal{L}_F^p(\mu)$, for $1 \leq p < +\infty$.*
+*The set of functions f with values in F, such that Supp(f) is compact and such that the restriction of f to Supp(f) is continuous, is dense in $\overline{\mathscr{L}}_F^p(\mu)$ and in $\mathscr{L}_F^p(\mu)$, for $1 \leq p < +\infty$.*
 
 Note that these functions *are not* continuous functions *on* T with compact support.
 
@@ -698,16 +698,16 @@ Let us pass to the definition of the integral.
 
 #### Proposition 16 {#int-ix-s1-prop-16 .statement}
 
-*There exists one and only one continuous linear mapping $f \mapsto \int f d\mu$, of the space $\overline{\mathcal{L}}_F^1(\mu)$ into F, having the following property:
+*There exists one and only one continuous linear mapping $f \mapsto \int f d\mu$, of the space $\overline{\mathscr{L}}_F^1(\mu)$ into F, having the following property:
 If f is of the form $t \mapsto g(t)a$, where $a \in F$, and where g is a positive function, finite, $\mu$-measurable and such that $\mu^*(g) < +\infty$, then $\int f d\mu = \mu^*(g) \cdot a$.*
 
-For, the semi-normed spaces $\overline{\mathcal{L}}_F^1(\mu)$ and $\overline{\mathcal{L}}_F^1(\mu')$ are identical. Since $\mu^* = {\mu'}^*$, the mapping $f \mapsto \int f d\mu'$ satisfies the conditions of the statement. On the other hand, the set of functions of the form $f = g \cdot a$ considered in the statement is *total* in $\overline{\mathcal{L}}_F^1(\mu')$ (Ch. IV, §3, No. 5, Prop. 10), whence uniqueness.
+For, the semi-normed spaces $\overline{\mathscr{L}}_F^1(\mu)$ and $\overline{\mathscr{L}}_F^1(\mu')$ are identical. Since $\mu^* = {\mu'}^*$, the mapping $f \mapsto \int f d\mu'$ satisfies the conditions of the statement. On the other hand, the set of functions of the form $f = g \cdot a$ considered in the statement is *total* in $\overline{\mathscr{L}}_F^1(\mu')$ (Ch. IV, §3, No. 5, Prop. 10), whence uniqueness.
 
 One says that $\int f\, d\mu$ is the integral of $f$ with respect to $\mu$, and this vector is also denoted $\mu(f)$ or $\int f(t)\, d\mu(t)$.
 
 Since $\int f\, d\mu = \int f\, d\mu'$ for every essentially integrable function $f$ with values in $F$, all of the theory of the essential integral extends to measures on Hausdorff spaces, without new proofs; from it, one deduces results relative to the ordinary integral by restricting oneself to moderated functions. We cite in particular the following results:
 
-— Th. 3 of Ch. IV, §3, No. 4, its extension to $\overline{\mathcal{L}}_F^p$, and its two corollaries.
+— Th. 3 of Ch. IV, §3, No. 4, its extension to $\overline{\mathscr{L}}_F^p$, and its two corollaries.
 — Th. 4 of Ch. IV, §3, No. 5 (composition with a continuous linear mapping) and its corollaries; Props. 9, 11 and 12 of the same No.
 — All of the results of Ch. IV, §3, No. 6, relative to the ordered vector space structure of $L^p$.
 — All of the results of Ch. IV, §3, No. 7, and in particular Lebesgue’s theorem.

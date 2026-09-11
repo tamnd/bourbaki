@@ -12,9 +12,9 @@ pdf_pages: 0315-0316
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 889e0f4abe9c86fb0b01795ba6ddf2d362c53f7f8789b152527a6f6bcdbf94db
+content_sha256: 1acf8da79cea687ddcf85307a23551e745c0207103cbbcebec01497b6f987c64
 translated_from: content/en/int/index_of_notation_vii_ix.md
-source_content_sha256: 4c71ed8267e18007354739b3fd86af83174c5af30384c2730a82ecc2b7705267
+source_content_sha256: b5804c3a1677ee79e9dd1e6db421b603cc2619ce03f4e1765f2e0f45cce16271
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-8557fee0
 glossary_version: 34
@@ -38,7 +38,7 @@ $\mathrm{mod}_G \varphi ,\ \mathrm{mod}\varphi$ ($\varphi$ một tự đẳng c�
 $\mathbf{Z}_p$ ($p$ một số nguyên tố): VII, 1, 6.
 $K^+$ ($K$ một trường): VII, 1, 10.
 $\mathrm{mod}_K a ,\ \mathrm{mod}\ a$ ($a$ một phần tử của một trường địa phương compact $K$): VII, 1, 10.
-$\mathcal{H}^\chi(X) ,\ \mathcal{H}_+^\chi(X) ,\ \mathcal{H}^1(X) ,\ f^\chi ,\ f^1$ ($X$ một không gian địa phương compact trong đó một nhóm địa phương compact $H$ tác động, $\chi$ một biểu diễn liên tục của $H$ trong $\mathbf{R}_+^*$): VII, 2, 1.
+$\mathscr{H}^\chi(X) ,\ \mathscr{H}_+^\chi(X) ,\ \mathscr{H}^1(X) ,\ f^\chi ,\ f^1$ ($X$ một không gian địa phương compact trong đó một nhóm địa phương compact $H$ tác động, $\chi$ một biểu diễn liên tục của $H$ trong $\mathbf{R}_+^*$): VII, 2, 1.
 $f^b$: VII, 2, 2.
 $\lambda^\# ,\ \frac{\mu}{\beta} ,\ \mu/\beta$: VII, 2, 2.
 $m^\#$ ($m$ một độ đo vectơ): VII, 2, 2.
@@ -50,16 +50,16 @@ $*_{i=1}^n \mu_i ,\ *\varphi(\mu_i)_{1 \leq i \leq n} ,\ \mu_1 * \mu_2 * \cdots 
 $\gamma_\chi$: VIII, 2, 3 và VIII, 2, 4.
 $\gamma_{\chi,p}$: VIII, 2, 5.
 $U(\mu)$ ($U$ một biểu diễn của một nhóm địa phương compact $G$, $\mu$ một độ đo trên $G$): VIII, 2, 6.
-$\mathcal{M}^\rho(G)$ ($G$ một nhóm địa phương compact): VIII, 3, 1.
+$\mathscr{M}^\rho(G)$ ($G$ một nhóm địa phương compact): VIII, 3, 1.
 $\mu *^\beta f ,\ \mu * f$ ($\mu$ một độ đo, $f$ một hàm): VIII, 4, 1.
-$\mathcal{L}(G)$ ($G$ một nhóm địa phương compact): VIII, 4, 5.
-$\mathcal{U}_s^\infty(G)$ ($G$ một nhóm địa phương compact): VIII, 4, Bài tập 21.
+$\mathscr{L}(G)$ ($G$ một nhóm địa phương compact): VIII, 4, 5.
+$\mathscr{U}_s^\infty(G)$ ($G$ một nhóm địa phương compact): VIII, 4, Bài tập 21.
 
 Chương IX:
 
-\mathcal{F}_+(T), \mathcal{F}_+, f_A, f^0: các quy ước ban đầu.
+\mathscr{F}_+(T), \mathscr{F}_+, f_A, f^0: các quy ước ban đầu.
 \pi(p), p_A \text{ hoặc } p|A: IX, 1, 1.
-$\mathcal{P}(T; \mathbf{C}), \mathcal{P}(T; \mathbf{R}), \mathcal{P}(T), \mathcal{P}_+(T)$ : IX, 1, 2.
+$\mathscr{P}(T; \mathbf{C}), \mathscr{P}(T; \mathbf{R}), \mathscr{P}(T), \mathscr{P}_+(T)$ : IX, 1, 2.
 w^\bullet(f), \int^\bullet f dw, \int^\bullet f(t) dw(t): IX, 1, 2.
 $w^\bullet, w_K^\bullet$ : IX, 1, 2.
 $w^+, w^-, |w|$ : IX, 1, 2.
@@ -68,25 +68,25 @@ $w^+, w^-, |w|$ : IX, 1, 2.
 $\sum_{i \in I} \mu_i$ : IX, 1, 7.
 \mu^*(f), \mu^*(A), \int^* f d\mu, \int^* f(t) d\mu(t): IX, 1, 9.
 $\mu^*$ : IX, 1, 9.
-\overline{\mathcal{L}}^p(T, \mu), \overline{\mathcal{L}}_F^p(T, \mu), \mathcal{L}^p(T, \mu), \mathcal{L}_F^p(T, \mu) \text{ (đối với } 1 \leq p \leq +\infty): IX, 1, 10.
-$\overline{\mathcal{L}}_F^p(\mu), \overline{\mathcal{L}}_F^p, \overline{\mathcal{L}}^p, \overline{\mathcal{L}}^p(\mu), \mathcal{L}^p(\mu), \mathcal{L}^p$ : IX, 1, 10.
-$\overline{N}_p(f), N_p(f), \overline{\mathcal{N}}_F, \mathcal{N}_F$ : IX, 1, 10.
+\overline{\mathscr{L}}^p(T, \mu), \overline{\mathscr{L}}_F^p(T, \mu), \mathscr{L}^p(T, \mu), \mathscr{L}_F^p(T, \mu) \text{ (đối với } 1 \leq p \leq +\infty): IX, 1, 10.
+$\overline{\mathscr{L}}_F^p(\mu), \overline{\mathscr{L}}_F^p, \overline{\mathscr{L}}^p, \overline{\mathscr{L}}^p(\mu), \mathscr{L}^p(\mu), \mathscr{L}^p$ : IX, 1, 10.
+$\overline{N}_p(f), N_p(f), \overline{\mathscr{N}}_F, \mathscr{N}_F$ : IX, 1, 10.
 $L_F^p(\mu), L_F^p$ : IX, 1, 10.
 $\int f d\mu, \mu(f), \int f(t) d\mu(t)$ : IX, 1, 10.
 $\mu_X^\bullet, \mu_X, \mu|X$ : IX, 2, 1.
 $f \cdot \mu$ : IX, 2, 2.
 \pi(\mu): IX, 2, 3.
 $\lambda \otimes \mu$ : IX, 2, 5.
-\mathcal{K}(T), \mathcal{B}(T): các quy ước của §3.
-\mathcal{C}^b(T; F), \mathcal{C}^b(T), \mathcal{C}^b, \mathcal{C}_+^b(T), \mathcal{C}_+^b: các quy ước của §5.
-\mathcal{M}^b(T; \mathbf{C}), \mathcal{M}^b(T), \mathcal{M}^b, \mathcal{M}_+^b(T), \mathcal{M}_+^b: các quy ước của §5.
-$\mathcal{L}\mu$ : IX, 5, 7.
-$\mathcal{F}(E)$ : IX, 6, 1.
+\mathscr{K}(T), \mathscr{B}(T): các quy ước của §3.
+\mathscr{C}^b(T; F), \mathscr{C}^b(T), \mathscr{C}^b, \mathscr{C}_+^b(T), \mathscr{C}_+^b: các quy ước của §5.
+\mathscr{M}^b(T; \mathbf{C}), \mathscr{M}^b(T), \mathscr{M}^b, \mathscr{M}_+^b(T), \mathscr{M}_+^b: các quy ước của §5.
+$\mathscr{L}\mu$ : IX, 5, 7.
+$\mathscr{F}(E)$ : IX, 6, 1.
 p_V, p_{VW}: IX, 6, 1.
-$\mathcal{Q}(E)$ : IX, 6, 1.
+$\mathscr{Q}(E)$ : IX, 6, 1.
 $\tilde{\lambda}$ : IX, 6, 1.
 u(\mu) (\mu \text{ một độ đo tiền}): IX, 6, 2.
-\mathcal{F}\mu (\mu \text{ một độ đo tiền hoặc một độ đo}): IX, 6, 3.
+\mathscr{F}\mu (\mu \text{ một độ đo tiền hoặc một độ đo}): IX, 6, 3.
 $\Gamma_Q, \gamma_a$ : IX, 6, 5.
 $\gamma_C$ : IX, 6, 6.
 \operatorname{Tr}(Q/H): IX, Phụ lục, 1.

@@ -25,9 +25,9 @@ subsections:
       pdf_page: 122
 statements: 16
 exercises: 13
-content_sha256: 2d26e2a1e49823bc8900b2f449ce134ea8370ed2d889dfed092e709513346eba
+content_sha256: 85d63bf862348b8069868317faade0f3ea08d029b869e25cc8e2890cdda76ba2
 translated_from: content/en/int/VIII/03_s3_convolution_of_measures_on_groups.md
-source_content_sha256: bbc3bfbb386ed5b01dfe7de3c4352d1ddc946f12da4b5fadc42e3c96d19e4eef
+source_content_sha256: d7b8f6ce67aab9318c4bf1d66eb3da65db7aa355768329905786e678f3dc2cd4
 translation_model: gpt-5.4
 translation_run: translate-vi-cf425743
 glossary_version: 34
@@ -52,7 +52,7 @@ $$
 \varepsilon_s * \varepsilon_t = \varepsilon_{st}.
 $$
 
-Nếu $s \in G$ và $\mu \in \mathcal{M}(G)$, thì
+Nếu $s \in G$ và $\mu \in \mathscr{M}(G)$, thì
 
 (2)
 $$
@@ -81,15 +81,15 @@ $$
 
 Có thể tồn tại các độ đo $\lambda, \mu, \nu$ trên G sao cho các tích chập $\lambda * \mu$, $(\lambda * \mu) * \nu$, $\mu * \nu$, $\lambda * (\mu * \nu)$ đều được xác định, nhưng $(\lambda * \mu) * \nu \neq \lambda * (\mu * \nu)$ (xem Bài tập 4).
 
-Cho $\rho$ là một hàm hữu hạn nửa liên tục dưới $> 0$ trên $G$ sao cho $\rho(st) \leq \rho(s)\rho(t)$ với mọi $s, t$ trong $G$. Ta ký hiệu bởi $\mathcal{M}^\rho(G)$ không gian vectơ các độ đo $\lambda$ trên $G$ sao cho $\rho$ khả tích đối với $\lambda$, và bởi $\| \lambda \|_\rho$ (hoặc đơn giản là $\| \lambda \|$) chuẩn $\int_G \rho(s) d|\lambda|(s)$ trên không gian này. Khi $\rho = 1$, ta thu được tập hợp $\mathcal{M}^1(G)$ các độ đo bị chặn trên $G$.
+Cho $\rho$ là một hàm hữu hạn nửa liên tục dưới $> 0$ trên $G$ sao cho $\rho(st) \leq \rho(s)\rho(t)$ với mọi $s, t$ trong $G$. Ta ký hiệu bởi $\mathscr{M}^\rho(G)$ không gian vectơ các độ đo $\lambda$ trên $G$ sao cho $\rho$ khả tích đối với $\lambda$, và bởi $\| \lambda \|_\rho$ (hoặc đơn giản là $\| \lambda \|$) chuẩn $\int_G \rho(s) d|\lambda|(s)$ trên không gian này. Khi $\rho = 1$, ta thu được tập hợp $\mathscr{M}^1(G)$ các độ đo bị chặn trên $G$.
 
 #### Mệnh đề 2 {#int-viii-s3-prop-2 .statement}
 
-(i) *Hai phần tử bất kỳ của $\mathcal{M}^\rho(G)$ đều có thể chập được.*
-(ii) *Đối với phép chập, và đối với chuẩn $\| \lambda \|$, $\mathcal{M}^\rho(G)$ là một đại số chuẩn đầy đủ, nhận $\varepsilon_e$ làm phần tử đơn vị.*
-(iii) $\mathcal{C}'(G)$ *là một đại số con của $\mathcal{M}^\rho(G)$*.
+(i) *Hai phần tử bất kỳ của $\mathscr{M}^\rho(G)$ đều có thể chập được.*
+(ii) *Đối với phép chập, và đối với chuẩn $\| \lambda \|$, $\mathscr{M}^\rho(G)$ là một đại số chuẩn đầy đủ, nhận $\varepsilon_e$ làm phần tử đơn vị.*
+(iii) $\mathscr{C}'(G)$ *là một đại số con của $\mathscr{M}^\rho(G)$*.
 
-Cho $\lambda, \mu$ thuộc $\mathcal{M}^\rho(G)$, và ta sẽ chỉ ra rằng $\lambda$ và $\mu$ có thể chập được. Cho $f \in \mathcal{K}_+(G)$. Vì $\rho$ là $> 0$ và nửa liên tục dưới, tồn tại một hằng $k > 0$ sao cho $f \leq k\rho$. Khi đó
+Cho $\lambda, \mu$ thuộc $\mathscr{M}^\rho(G)$, và ta sẽ chỉ ra rằng $\lambda$ và $\mu$ có thể chập được. Cho $f \in \mathscr{K}_+(G)$. Vì $\rho$ là $> 0$ và nửa liên tục dưới, tồn tại một hằng $k > 0$ sao cho $f \leq k\rho$. Khi đó
 
 $$
 \int^* f(st) d|\lambda|(s) d|\mu|(t) \leq k \int^* \rho(st) d|\lambda|(s) d|\mu|(t)
@@ -113,7 +113,7 @@ $$
 = \int_{G \times G}^* \rho(s)\rho(t) d|\lambda|(s) d|\mu|(t) = \| \lambda \| \cdot \| \mu \|.
 $$
 
-Ta thấy rằng $\lambda * \mu \in \mathcal{M}^\rho(G)$ và $\| \lambda * \mu \| \leq \| \lambda \| \cdot \| \mu \|$. Theo Mệnh đề 1, $\mathcal{M}^\rho(G)$ là một đại số. Ánh xạ $\lambda \mapsto \rho \cdot \lambda$ là một ánh xạ tuyến tính đẳng cự $\theta$ từ $\mathcal{M}^\rho(G)$ vào $\mathcal{M}^1(G)$; nếu $\mu \in \mathcal{M}^1(G)$ thì $1/\rho$, vốn bị chặn địa phương và nửa liên tục trên, là khả tích địa phương đối với $\mu$, và $\rho$ là khả tích đối với $(1/\rho) \cdot \mu$, do đó $(1/\rho) \cdot \mu \in \mathcal{M}^\rho(G)$; điều này chứng tỏ rằng $\theta$ là toàn ánh; vì thế $\mathcal{M}^\rho(G)$ là một đại số định chuẩn đầy đủ. Sau hết, hiển nhiên là $\varepsilon_e$ là một phần tử đơn vị của $\mathcal{M}^\rho(G)$ và $\mathcal{C}'(G)$ là một đại số con của $\mathcal{M}^\rho(G)$ (§1, No. 4, Hệ quả của Mệnh đề 5).
+Ta thấy rằng $\lambda * \mu \in \mathscr{M}^\rho(G)$ và $\| \lambda * \mu \| \leq \| \lambda \| \cdot \| \mu \|$. Theo Mệnh đề 1, $\mathscr{M}^\rho(G)$ là một đại số. Ánh xạ $\lambda \mapsto \rho \cdot \lambda$ là một ánh xạ tuyến tính đẳng cự $\theta$ từ $\mathscr{M}^\rho(G)$ vào $\mathscr{M}^1(G)$; nếu $\mu \in \mathscr{M}^1(G)$ thì $1/\rho$, vốn bị chặn địa phương và nửa liên tục trên, là khả tích địa phương đối với $\mu$, và $\rho$ là khả tích đối với $(1/\rho) \cdot \mu$, do đó $(1/\rho) \cdot \mu \in \mathscr{M}^\rho(G)$; điều này chứng tỏ rằng $\theta$ là toàn ánh; vì thế $\mathscr{M}^\rho(G)$ là một đại số định chuẩn đầy đủ. Sau hết, hiển nhiên là $\varepsilon_e$ là một phần tử đơn vị của $\mathscr{M}^\rho(G)$ và $\mathscr{C}'(G)$ là một đại số con của $\mathscr{M}^\rho(G)$ (§1, No. 4, Hệ quả của Mệnh đề 5).
 
 Nếu $\rho = 1$, Mệnh đề 2, (i) và (ii) cũng suy ra từ §1, Mệnh đề 2.
 
@@ -131,15 +131,15 @@ Vậy các $\mu_i$ là khả chập (§1, No. 4, Mệnh đề 4).
 
 #### Mệnh đề 4 {#int-viii-s3-prop-4 .statement}
 
-*Ánh xạ $(\lambda, \mu) \mapsto \lambda * \mu$ (tương ứng, $(\lambda, \mu) \mapsto \mu * \lambda$), trong đó $\lambda \in \mathcal{C}'(G)$, $\mu \in \mathcal{M}(G)$, xác định trên $\mathcal{M}(G)$ cấu trúc của một môđun trái (tương ứng, phải) trên đại số $\mathcal{C}'(G)$.*
+*Ánh xạ $(\lambda, \mu) \mapsto \lambda * \mu$ (tương ứng, $(\lambda, \mu) \mapsto \mu * \lambda$), trong đó $\lambda \in \mathscr{C}'(G)$, $\mu \in \mathscr{M}(G)$, xác định trên $\mathscr{M}(G)$ cấu trúc của một môđun trái (tương ứng, phải) trên đại số $\mathscr{C}'(G)$.*
 
 Điều này suy ra từ các Mệnh đề 1 và 3.
 
 #### Mệnh đề 5 {#int-viii-s3-prop-5 .statement}
 
-*Cho $\lambda$ là một độ đo Haar trái (tương ứng, phải) trên G, và $\mu \in \mathcal{M}^1(G)$. Khi đó $\mu$ và $\lambda$ (tương ứng, $\lambda$ và $\mu$) chập được, và $\mu * \lambda = \mu(1)\lambda$ (tương ứng, $\lambda * \mu = \mu(1)\lambda$).*
+*Cho $\lambda$ là một độ đo Haar trái (tương ứng, phải) trên G, và $\mu \in \mathscr{M}^1(G)$. Khi đó $\mu$ và $\lambda$ (tương ứng, $\lambda$ và $\mu$) chập được, và $\mu * \lambda = \mu(1)\lambda$ (tương ứng, $\lambda * \mu = \mu(1)\lambda$).*
 
-Ta có thể giả sử rằng $\mu \geqslant 0$. Cho $f \in \mathcal{K}_+(G)$. Khi $\lambda$ là một độ đo Haar trái,
+Ta có thể giả sử rằng $\mu \geqslant 0$. Cho $f \in \mathscr{K}_+(G)$. Khi $\lambda$ là một độ đo Haar trái,
 
 $$
 \int^* d\mu(x) \int^* f(xy)\, d\lambda(y) = \int^* d\mu(x) \int f(y)\, d\lambda(y) = \lambda(f)\|\mu\| ,
@@ -151,7 +151,7 @@ do đó hàm $(x, y) \mapsto f(xy)$ là khả tích đối với $(\mu \otimes \
 
 *Cho $\mu$ và $\nu$ là hai độ đo khả tích chập trên G. Cho $\chi$ là một biểu diễn liên tục của G trong $\mathbf{C}^*$. Khi đó $\chi \cdot \mu$ và $\chi \cdot \nu$ là khả tích chập và $(\chi \cdot \mu) * (\chi \cdot \nu) = \chi \cdot (\mu * \nu)$.*
 
-Cho $f \in \mathcal{K}(G)$. Khi đó $f\chi \in \mathcal{K}(G)$, do đó hàm
+Cho $f \in \mathscr{K}(G)$. Khi đó $f\chi \in \mathscr{K}(G)$, do đó hàm
 
 $$
 (x, y) \mapsto f(xy)\chi(xy) = f(xy)\chi(x)\chi(y)
@@ -206,7 +206,7 @@ $$
 \varepsilon_s * \varepsilon_x = \varepsilon_{sx}.
 $$
 
-Nếu $s \in G$ và $\mu \in \mathcal{M}(X)$, thì
+Nếu $s \in G$ và $\mu \in \mathscr{M}(X)$, thì
 
 (5)
 $$
@@ -223,7 +223,7 @@ theo §1, No. 1, Ví dụ 3.
 
 #### Mệnh đề 9 {#int-viii-s3-prop-9 .statement}
 
-— Đối với phép chập, $\mathcal{M}^1(X)$ là một môđun trái trên $\mathcal{M}^1(G)$, còn $\mathcal{M}(X)$ và $\mathcal{C}'(X)$ là những môđun trái trên $\mathcal{C}'(G)$.
+— Đối với phép chập, $\mathscr{M}^1(X)$ là một môđun trái trên $\mathscr{M}^1(G)$, còn $\mathscr{M}(X)$ và $\mathscr{C}'(X)$ là những môđun trái trên $\mathscr{C}'(G)$.
 Điều này suy ra từ Mệnh đề 8, và từ §1, các Mệnh đề 1, 3 và Hệ quả của Mệnh đề 5.
 
 #### Mệnh đề 10 {#int-viii-s3-prop-10 .statement}
@@ -240,9 +240,9 @@ $$
 #### Mệnh đề 11 {#int-viii-s3-prop-11 .statement}
 
 — Cho $G$ là một nhóm compact địa phương, $E$ là một không gian lồi địa phương tựa-đầy đủ, $U$ là một biểu diễn liên tục của $G$ trong $E$.
-(i) Nếu $\lambda \in \mathcal{C}'(G)$, $\mu \in \mathcal{C}'(G)$, thì $U(\lambda * \mu) = U(\lambda)U(\mu)$.
-(ii) Giả sử rằng $E$ là một không gian Banach, và đặt $\rho(s) = \|U(s)\|$ với $s \in G$. Nếu $\lambda \in \mathcal{M}^\rho(G)$, $\mu \in \mathcal{M}^\rho(G)$, thì $U(\lambda * \mu) = U(\lambda)U(\mu)$.
-Cho $\lambda, \mu$ thuộc $\mathcal{C}'(G)$. Với mọi $x \in E$ ta có, khi áp dụng đặc biệt các Mệnh đề 1 và 4 của Ch. VI, §1, No. 1,
+(i) Nếu $\lambda \in \mathscr{C}'(G)$, $\mu \in \mathscr{C}'(G)$, thì $U(\lambda * \mu) = U(\lambda)U(\mu)$.
+(ii) Giả sử rằng $E$ là một không gian Banach, và đặt $\rho(s) = \|U(s)\|$ với $s \in G$. Nếu $\lambda \in \mathscr{M}^\rho(G)$, $\mu \in \mathscr{M}^\rho(G)$, thì $U(\lambda * \mu) = U(\lambda)U(\mu)$.
+Cho $\lambda, \mu$ thuộc $\mathscr{C}'(G)$. Với mọi $x \in E$ ta có, khi áp dụng đặc biệt các Mệnh đề 1 và 4 của Ch. VI, §1, No. 1,
 $$
 U(\lambda * \mu)x = \int_G U(s)x\, d(\lambda * \mu)(s)
 $$
@@ -254,11 +254,11 @@ $$
 $$
 do đó suy ra (i). Một lập luận tương tự có thể được áp dụng trong trường hợp (ii).
 
-Vẫn với G là một nhóm địa phương compact, giả sử rằng G tác động liên tục bên trái trên một không gian địa phương compact X. Điều này xác định (§2, No. 4) một biểu diễn tuyến tính liên tục $\gamma$ của G trong $\mathcal{M}(X)$ (được trang bị tôpô hội tụ compact trong $\mathcal{H}(X)$).
+Vẫn với G là một nhóm địa phương compact, giả sử rằng G tác động liên tục bên trái trên một không gian địa phương compact X. Điều này xác định (§2, No. 4) một biểu diễn tuyến tính liên tục $\gamma$ của G trong $\mathscr{M}(X)$ (được trang bị tôpô hội tụ compact trong $\mathscr{H}(X)$).
 
 #### Mệnh đề 12 {#int-viii-s3-prop-12 .statement}
 
-*Nếu $\lambda \in \mathcal{C}'(G)$ và $\mu \in \mathcal{M}(X)$, thì*
+*Nếu $\lambda \in \mathscr{C}'(G)$ và $\mu \in \mathscr{M}(X)$, thì*
 
 $$
 \gamma(\lambda)\mu = \lambda * \mu.
@@ -280,39 +280,39 @@ theo định nghĩa của $\gamma(\lambda)$.
 
 #### Hệ quả {#int-viii-s3-n3-cor-1 .statement}
 
-*Ánh xạ $(\lambda, \mu) \mapsto \lambda * \mu$ từ $\mathcal{C}'(G) \times \mathcal{M}(X)$ vào $\mathcal{M}(X)$ là hypoliên tục đối với các tập con đồng liên tục của $\mathcal{C}'(G)$ và các tập con compact của $\mathcal{M}(X)$ ($\mathcal{C}'(G)$ và $\mathcal{M}(X)$ lần lượt được trang bị tôpô hội tụ compact trong $\mathcal{C}(G)$ và $\mathcal{H}(X)$).*
+*Ánh xạ $(\lambda, \mu) \mapsto \lambda * \mu$ từ $\mathscr{C}'(G) \times \mathscr{M}(X)$ vào $\mathscr{M}(X)$ là hypoliên tục đối với các tập con đồng liên tục của $\mathscr{C}'(G)$ và các tập con compact của $\mathscr{M}(X)$ ($\mathscr{C}'(G)$ và $\mathscr{M}(X)$ lần lượt được trang bị tôpô hội tụ compact trong $\mathscr{C}(G)$ và $\mathscr{H}(X)$).*
 
-Thật vậy, $\mathcal{M}(X)$, được trang bị tôpô hội tụ compact trong $\mathcal{H}(X)$, là gần đầy đủ. Do đó ánh xạ $(\lambda, \mu) \mapsto \gamma(\lambda)\mu$ từ $\mathcal{C}'(G) \times \mathcal{M}(X)$ vào $\mathcal{M}(X)$ là hypocontinuous đối với các tập con đẳng liên tục của $\mathcal{C}'(G)$ và các tập con compact của $\mathcal{M}(X)$ (§2, No. 6). Khi đó chỉ cần áp dụng Mệnh đề 12.
+Thật vậy, $\mathscr{M}(X)$, được trang bị tôpô hội tụ compact trong $\mathscr{H}(X)$, là gần đầy đủ. Do đó ánh xạ $(\lambda, \mu) \mapsto \gamma(\lambda)\mu$ từ $\mathscr{C}'(G) \times \mathscr{M}(X)$ vào $\mathscr{M}(X)$ là hypocontinuous đối với các tập con đẳng liên tục của $\mathscr{C}'(G)$ và các tập con compact của $\mathscr{M}(X)$ (§2, No. 6). Khi đó chỉ cần áp dụng Mệnh đề 12.
 
 #### Nhận xét {#int-viii-s3-n3-rem-1 .statement}
 
-— 1) Cho $\lambda_0 \in \mathcal{C}'(G)$. Ánh xạ $\mu \mapsto \lambda_0 * \mu$ từ $\mathcal{M}(X)$ vào $\mathcal{M}(X)$ là liên tục theo nghĩa mơ hồ. Thật vậy, cho $f \in \mathcal{H}(X)$. Ta có
+— 1) Cho $\lambda_0 \in \mathscr{C}'(G)$. Ánh xạ $\mu \mapsto \lambda_0 * \mu$ từ $\mathscr{M}(X)$ vào $\mathscr{M}(X)$ là liên tục theo nghĩa mơ hồ. Thật vậy, cho $f \in \mathscr{H}(X)$. Ta có
 
 $$
 \langle \lambda_0 * \mu, f \rangle = \int f(sx) d\lambda_0(s) d\mu(x) = \langle \mu, g \rangle,
 $$
 
-trong đó $g(x) = \int f(sx) d\lambda_0(s)$. Khi đó, $g$ liên tục (Ch. VII, §1, No. 1, Bổ đề 1). Mặt khác, gọi S là giá của $\lambda_0$ và K là giá của $f$. Các điều kiện $sx \in K$ và $s \in S$ kéo theo $x \in S^{-1}K$; do đó giá của $g$ được chứa trong $S^{-1}K$, nên $g \in \mathcal{H}(X)$. Khi ấy $\langle \lambda_0 * \mu, f \rangle = \langle \mu, g \rangle$ là một hàm liên tục theo tôpô mờ của $\mu$, điều đó chứng minh mệnh đề của chúng ta.
+trong đó $g(x) = \int f(sx) d\lambda_0(s)$. Khi đó, $g$ liên tục (Ch. VII, §1, No. 1, Bổ đề 1). Mặt khác, gọi S là giá của $\lambda_0$ và K là giá của $f$. Các điều kiện $sx \in K$ và $s \in S$ kéo theo $x \in S^{-1}K$; do đó giá của $g$ được chứa trong $S^{-1}K$, nên $g \in \mathscr{H}(X)$. Khi ấy $\langle \lambda_0 * \mu, f \rangle = \langle \mu, g \rangle$ là một hàm liên tục theo tôpô mờ của $\mu$, điều đó chứng minh mệnh đề của chúng ta.
 
-2) Cho $\mu_0 \in \mathcal{M}(X)$. Ánh xạ $\lambda \mapsto \lambda * \mu_0$ từ $\mathcal{C}'(G)$ vào $\mathcal{M}(X)$ là liên tục đối với các tôpô $\sigma(\mathcal{C}'(G), \mathcal{C}(G))$ và $\sigma(\mathcal{M}(X), \mathcal{H}(X))$. Thật vậy, lấy $f \in \mathcal{K}(X)$. Đặt $h(s) = \int f(sx)\, d\mu_0(x)$, ta có $\langle f, \lambda * \mu_0 \rangle = \langle h, \lambda \rangle$, và $h \in \mathcal{C}(G)$ (Ch. VII, §1, No. 1, Bổ đề 1).
+2) Cho $\mu_0 \in \mathscr{M}(X)$. Ánh xạ $\lambda \mapsto \lambda * \mu_0$ từ $\mathscr{C}'(G)$ vào $\mathscr{M}(X)$ là liên tục đối với các tôpô $\sigma(\mathscr{C}'(G), \mathscr{C}(G))$ và $\sigma(\mathscr{M}(X), \mathscr{H}(X))$. Thật vậy, lấy $f \in \mathscr{K}(X)$. Đặt $h(s) = \int f(sx)\, d\mu_0(x)$, ta có $\langle f, \lambda * \mu_0 \rangle = \langle h, \lambda \rangle$, và $h \in \mathscr{C}(G)$ (Ch. VII, §1, No. 1, Bổ đề 1).
 
 #### Mệnh đề 13 {#int-viii-s3-prop-13 .statement}
 
-*Ánh xạ* $(s, \mu) \mapsto \gamma(s)\mu$ *từ* $G \times \mathcal{M}_+(X)$ *vào* $\mathcal{M}_+(X)$ *là liên tục khi tập hợp* $\mathcal{M}_+(X)$ *các độ đo dương trên* $X$ *được trang bị tôpô mờ*.
+*Ánh xạ* $(s, \mu) \mapsto \gamma(s)\mu$ *từ* $G \times \mathscr{M}_+(X)$ *vào* $\mathscr{M}_+(X)$ *là liên tục khi tập hợp* $\mathscr{M}_+(X)$ *các độ đo dương trên* $X$ *được trang bị tôpô mờ*.
 
-Vì $\gamma(s)\mu = \gamma(ss_0^{-1})\gamma(s_0)\mu$, suy ra từ *Nhận xét 1* rằng chỉ cần chứng minh tính liên tục của ánh xạ đang xét tại một điểm có dạng $(e, \mu_0)$ với $\mu_0 \in \mathcal{M}_+(X)$. Cho một hàm $f \in \mathcal{K}(X)$ và một số $\varepsilon > 0$, khi đó vấn đề là chỉ ra rằng tồn tại một lân cận U của e trong G và một lân cận W của $\mu_0$ trong $\mathcal{M}_+(X)$ sao cho các quan hệ $s \in U, \mu \in W$ kéo theo
+Vì $\gamma(s)\mu = \gamma(ss_0^{-1})\gamma(s_0)\mu$, suy ra từ *Nhận xét 1* rằng chỉ cần chứng minh tính liên tục của ánh xạ đang xét tại một điểm có dạng $(e, \mu_0)$ với $\mu_0 \in \mathscr{M}_+(X)$. Cho một hàm $f \in \mathscr{K}(X)$ và một số $\varepsilon > 0$, khi đó vấn đề là chỉ ra rằng tồn tại một lân cận U của e trong G và một lân cận W của $\mu_0$ trong $\mathscr{M}_+(X)$ sao cho các quan hệ $s \in U, \mu \in W$ kéo theo
 
 $$
 \left| \int f(sx)\, d\mu(x) - \int f(x)\, d\mu_0(x) \right| \leq \varepsilon .
 $$
 
-Cho V là một lân cận compact của giá đỡ K của $f$ trong X, và cho $\varphi \in \mathcal{K}_+(X)$ sao cho $\varphi(x) = 1$ trên V; tồn tại một lân cận $W_0$ của $\mu_0$ trong $\mathcal{M}_+(X)$ sao cho $a = \sup_{\mu \in W_0} \mu(V)$ là hữu hạn: chỉ cần lấy $W_0$ là tập hợp các $\mu \in \mathcal{M}_+(X)$ sao cho $|\langle \varphi, \mu - \mu_0 \rangle| \leq 1$. Vì ánh xạ $(s, x) \mapsto sx$ là liên tục, mặt khác tồn tại một lân cận compact $U_0$ của e trong G sao cho $sK \subset V$ với mọi $s \in U_0$; khi đó hàm $(s, x) \mapsto f(sx)$ liên tục đều trên $U_0 \times V$ và do đó tồn tại một lân cận $U \subset U_0$ của e sao cho $|f(sx) - f(x)| \leq \varepsilon / 2a$ với mọi $s \in U$ và $x \in V$. Do đó, với $s \in U$ và $\mu \in W_0$, ta có
+Cho V là một lân cận compact của giá đỡ K của $f$ trong X, và cho $\varphi \in \mathscr{K}_+(X)$ sao cho $\varphi(x) = 1$ trên V; tồn tại một lân cận $W_0$ của $\mu_0$ trong $\mathscr{M}_+(X)$ sao cho $a = \sup_{\mu \in W_0} \mu(V)$ là hữu hạn: chỉ cần lấy $W_0$ là tập hợp các $\mu \in \mathscr{M}_+(X)$ sao cho $|\langle \varphi, \mu - \mu_0 \rangle| \leq 1$. Vì ánh xạ $(s, x) \mapsto sx$ là liên tục, mặt khác tồn tại một lân cận compact $U_0$ của e trong G sao cho $sK \subset V$ với mọi $s \in U_0$; khi đó hàm $(s, x) \mapsto f(sx)$ liên tục đều trên $U_0 \times V$ và do đó tồn tại một lân cận $U \subset U_0$ của e sao cho $|f(sx) - f(x)| \leq \varepsilon / 2a$ với mọi $s \in U$ và $x \in V$. Do đó, với $s \in U$ và $\mu \in W_0$, ta có
 
 $$
 \left| \int f(sx)\, d\mu(x) - \int f(x)\, d\mu(x) \right| \leq \varepsilon / 2 ;
 $$
 
-nếu $W \subset W_0$ là lân cận của $\mu_0$ trong $\mathcal{M}_+(X)$ được tạo bởi các độ đo $\mu \in W_0$ sao cho $\left| \int f(x)\, d\mu(x) - \int f(x)\, d\mu_0(x) \right| \leq \varepsilon / 2$, thì U và W thỏa mãn các yêu cầu.
+nếu $W \subset W_0$ là lân cận của $\mu_0$ trong $\mathscr{M}_+(X)$ được tạo bởi các độ đo $\mu \in W_0$ sao cho $\left| \int f(x)\, d\mu(x) - \int f(x)\, d\mu_0(x) \right| \leq \varepsilon / 2$, thì U và W thỏa mãn các yêu cầu.
 
 ### Bài tập {#int-viii-s3-exercises}
 

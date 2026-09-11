@@ -25,7 +25,7 @@ subsections:
       pdf_page: 16
 statements: 0
 exercises: 0
-content_sha256: 750573dc1b78042da94b5170de3eeaa68556c47ddaef22f45ce3409e701e20d2
+content_sha256: d9b7c074c4834c039c26c59cbfbbae6e8164eb7646ec4a0ddb91a3e79c3fa72f
 ---
 
 ## CHAPITRE I
@@ -109,7 +109,7 @@ pour $0 < t \leq 1$, d’où la proposition.
 
 ### 3. Les semi-normes $N_p$
 
-Soit $p$ un nombre réel fini et $\geq 1$, et soit $\mathcal{F}^p(X, M)$ l’ensemble des fonctions numériques finies $f$, définies dans $X$ et telles que $M(|f|^p)$ soit *fini*. Il est évident que, si $g$ est une fonction appartenant à $\mathcal{F}^p(X, M)$, et si $|f| \leq |g|$, $f$ appartient aussi à $\mathcal{F}^p(X, M)$; cette remarque et l’inégalité de Minkowski montrent que la somme de deux fonctions de $\mathcal{F}^p(X, M)$ appartient encore à cet ensemble ; compte tenu du fait que $M$ est positivement homogène on voit donc que $\mathcal{F}^p(X, M)$ est un *sous-espace vectoriel* de l’espace $\mathbf{R}^X$ de toutes les fonctions numérique finies définies dans $X$.
+Soit $p$ un nombre réel fini et $\geq 1$, et soit $\mathscr{F}^p(X, M)$ l’ensemble des fonctions numériques finies $f$, définies dans $X$ et telles que $M(|f|^p)$ soit *fini*. Il est évident que, si $g$ est une fonction appartenant à $\mathscr{F}^p(X, M)$, et si $|f| \leq |g|$, $f$ appartient aussi à $\mathscr{F}^p(X, M)$; cette remarque et l’inégalité de Minkowski montrent que la somme de deux fonctions de $\mathscr{F}^p(X, M)$ appartient encore à cet ensemble ; compte tenu du fait que $M$ est positivement homogène on voit donc que $\mathscr{F}^p(X, M)$ est un *sous-espace vectoriel* de l’espace $\mathbf{R}^X$ de toutes les fonctions numérique finies définies dans $X$.
 
 Pour tout nombre $p > 0$ et toute fonction numérique finie $f$ définie dans $X$, on pose
 $$
@@ -119,7 +119,7 @@ on a $N_p(\lambda f) = |\lambda| N_p(f)$ pour tout scalaire $\lambda$; en outre,
 $$
 N_p(f + g) \leq N_p(f) + N_p(g)
 $$
-ce qui prouve que $N_p$ est une *semi-norme* sur l’espace vectoriel $\mathcal{F}^p(X, M)$ (*Esp. vect. top.*, chap. II, 2e éd., § 1).
+ce qui prouve que $N_p$ est une *semi-norme* sur l’espace vectoriel $\mathscr{F}^p(X, M)$ (*Esp. vect. top.*, chap. II, 2e éd., § 1).
 
 **Proposition 4.** — *Soient* $p$ *et* $q$ *deux nombres finis et* $> 0$, *et posons* $1/r = 1/p + 1/q$. *Quelles que soient les fonctions numériques finies* $f, g$ *définies dans* $X$, *on a*
 $$

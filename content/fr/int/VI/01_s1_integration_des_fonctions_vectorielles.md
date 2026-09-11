@@ -40,7 +40,7 @@ subsections:
       pdf_page: 25
 statements: 35
 exercises: 27
-content_sha256: e875835b71086305b795af62de8d4f95273600fe319d2453d7260646e5d6f838
+content_sha256: d55f4195d875a1c7fd66041b392850d568cfb68b8ac7d8cce33be44871a48fd9
 ---
 
 ## § 1. Intégration des fonctions vectorielles
@@ -65,7 +65,7 @@ Si $f$ est continue à support compact, elle est scalairement intégrable et la 
 
 #### Exemple {#int-vi-s1-n1-exa-1 .statement}
 
-Soient X un espace localement compact, $t \to \lambda_t$ une application de T dans l'espace $\mathcal{M}(X)$ des mesures sur X. Dire que la famille $t \to \lambda_t$ est $\mu$-adéquate (chap. V, § 3, no 1, déf. 1) signifie qu'elle est formée de mesures positives et que l'application $t \to \lambda_t$ est scalairement essentiellement $\mu$-intégrable et $\mu$-mesurable pour la topologie $\sigma(\mathcal{M}(X), \mathcal{K}(X))$. Son intégrale par rapport à $\mu$ est la mesure qui a été notée $\int \lambda_t d\mu(t)$ au chap. V, § 3, no 1.
+Soient X un espace localement compact, $t \to \lambda_t$ une application de T dans l'espace $\mathscr{M}(X)$ des mesures sur X. Dire que la famille $t \to \lambda_t$ est $\mu$-adéquate (chap. V, § 3, no 1, déf. 1) signifie qu'elle est formée de mesures positives et que l'application $t \to \lambda_t$ est scalairement essentiellement $\mu$-intégrable et $\mu$-mesurable pour la topologie $\sigma(\mathscr{M}(X), \mathscr{K}(X))$. Son intégrale par rapport à $\mu$ est la mesure qui a été notée $\int \lambda_t d\mu(t)$ au chap. V, § 3, no 1.
 
 #### Remarque 1 {#int-vi-s1-n1-rem-1 .statement}
 
@@ -190,23 +190,23 @@ Comme S est µ-intégrable, il existe une partition de S formée d’un ensemble
 
 ### 3. Intégrales d’opérateurs.
 
-Soient G et H deux espaces localement convexes séparés sur $\mathbf{R}$, et supposons maintenant que F soit l’espace $\mathcal{L}(G; H)$ des applications linéaires continues de G dans H, muni de la topologie de la convergence simple. Le dual F' de F est alors l'espace G ⊗ H' (Esp. vect. top., chap. IV, § 2, no 9, cor. de la prop. 11), et dire qu'une application U de T dans F est scalairement essentiellement μ-intégrable signifie que, pour tout a ∈ G et tout b ∈ H', la fonction numérique $t \to \langle U(t), a \otimes b' \rangle = \langle U(t).a, b' \rangle$ est essentiellement μ-intégrable.
+Soient G et H deux espaces localement convexes séparés sur $\mathbf{R}$, et supposons maintenant que F soit l’espace $\mathscr{L}(G; H)$ des applications linéaires continues de G dans H, muni de la topologie de la convergence simple. Le dual F' de F est alors l'espace G ⊗ H' (Esp. vect. top., chap. IV, § 2, no 9, cor. de la prop. 11), et dire qu'une application U de T dans F est scalairement essentiellement μ-intégrable signifie que, pour tout a ∈ G et tout b ∈ H', la fonction numérique $t \to \langle U(t), a \otimes b' \rangle = \langle U(t).a, b' \rangle$ est essentiellement μ-intégrable.
 
 #### Proposition 9 {#int-vi-s1-prop-9 .statement}
 
-Soit U une application scalairement essentiellement μ-intégrable de T dans F = $\mathcal{L}_s(G; H)$. Pour que l'on ait $\int Ud\mu \in F$, il faut et il suffit que les deux conditions suivantes soient vérifiées :
+Soit U une application scalairement essentiellement μ-intégrable de T dans F = $\mathscr{L}_s(G; H)$. Pour que l'on ait $\int Ud\mu \in F$, il faut et il suffit que les deux conditions suivantes soient vérifiées :
 
 a) Pour tout x ∈ G, on a $\int (U(t).x)d\mu(t) \in H$.
 
 b) Pour toute partie équicontinue B' de H', l'ensemble des formes linéaires $u_{y'} : x \to \int \langle U(t).x, y' \rangle d\mu(t)$, où y' parcourt B', est équicontinu.
 
-Les conditions a) et b) sont nécessaires. En effet, pour tout x ∈ G, l'application $\tilde{x} : V \to V.x$ de $\mathcal{L}_s(G; H)$ dans H étant linéaire et continue, on voit (no 1, prop. 1) que $\tilde{x} \circ U : t \to U(t).x$ est scalairement essentiellement μ-intégrable et que l'on a
+Les conditions a) et b) sont nécessaires. En effet, pour tout x ∈ G, l'application $\tilde{x} : V \to V.x$ de $\mathscr{L}_s(G; H)$ dans H étant linéaire et continue, on voit (no 1, prop. 1) que $\tilde{x} \circ U : t \to U(t).x$ est scalairement essentiellement μ-intégrable et que l'on a
 
 (1)
 $$
 S.x = \int (U(t).x)d\mu(t)
 $$
-en posant $S = \int Ud\mu \in \mathcal{L}_s(G; H)$. Cela prouve a). De plus, (1) s'écrit aussi
+en posant $S = \int Ud\mu \in \mathscr{L}_s(G; H)$. Cela prouve a). De plus, (1) s'écrit aussi
 
 (2)
 $$
@@ -214,15 +214,15 @@ $$
 $$
 autrement dit on a 'S.y' = $u_{y'}$. Comme S est continue, 'S transforme toute partie équicontinue de H' en une partie équicontinue de G', d'où b).
 
-Inversement, supposons a) et b) vérifiées. En vertu de a), la formule (1) définit une application linéaire S de G dans H, et pour tout y' ∈ H', cette application vérifie (2) (no 1, prop. 1); mais alors la condition b) exprime que S est continue (Esp. vect. top., chap. IV, § 4, n° 1, prop. 1 et 2, et § 2, n° 2, prop. 1), donc $S \in \mathcal{L}_s(G; H)$. Enfin, la formule (2) prouve que $S = \int U d\mu$.
+Inversement, supposons a) et b) vérifiées. En vertu de a), la formule (1) définit une application linéaire S de G dans H, et pour tout y' ∈ H', cette application vérifie (2) (no 1, prop. 1); mais alors la condition b) exprime que S est continue (Esp. vect. top., chap. IV, § 4, n° 1, prop. 1 et 2, et § 2, n° 2, prop. 1), donc $S \in \mathscr{L}_s(G; H)$. Enfin, la formule (2) prouve que $S = \int U d\mu$.
 
 #### Corollaire {#int-vi-s1-n3-cor-1 .statement}
 
 La condition b) de la prop. 9 est vérifiée dans chacun des deux cas suivants :
 
-1° La mesure $\mu$ est bornée, et si S est son support, $U(S)$ est une partie équicontinue de $\mathcal{L}(G; H)$.
+1° La mesure $\mu$ est bornée, et si S est son support, $U(S)$ est une partie équicontinue de $\mathscr{L}(G; H)$.
 
-2° La condition a) de la prop. 9 est vérifiée, l’espace G est tonnelé, et pour toute partie compacte K de T, $U(K)$ est une partie bornée de $\mathcal{L}_s(G; H)$.
+2° La condition a) de la prop. 9 est vérifiée, l’espace G est tonnelé, et pour toute partie compacte K de T, $U(K)$ est une partie bornée de $\mathscr{L}_s(G; H)$.
 
 Plaçons-nous d’abord dans le cas 1°. On peut se borner au cas où $S = T$ (chap. V, § 7, n° 1, th. 1). Alors, pour toute partie équicontinue B′ de H′, il existe une partie équicontinue, convexe, équilibrée et faiblement fermée $A' \subset G'$ telle que $^tU(t) . y' \in A'$ pour tout $y' \in B'$ et tout $t \in T$ (Esp. vect. top., chap. IV, § 4, n° 1, prop. 2). Comme $U$ est scalairement $\mu$-intégrable, l’application $t \to ^tU(t) . y'$ de T dans le dual $G'$ de G muni de $\sigma(G', G)$, est scalairement $\mu$-intégrable, et on peut écrire
 
@@ -238,7 +238,7 @@ $$
 u_{K, y'} = \int \varphi_K(t) (^tU(t) . y') d\mu(t),
 $$
 
-élément du dual algébrique $G^*$ de G. Comme G est tonnelé, toute partie bornée de $\mathcal{L}_s(G; H)$ est équicontinue (Esp. vect. top., chap. III, § 3, n° 6, th. 2); la première partie du raisonnement, appliquée à la fonction $\varphi_K U$ et à la mesure bornée $\varphi_K . \mu$, montre que l’on a $u_{K, y'} \in G'$. En outre, pour la topologie $\sigma(G^*, G)$, on a $u_{y'} = \lim_K u_{K, y'}$, la limite étant prise suivant l’ensemble filtrant croissant des parties compactes de T (chap. V, § 2, no 2, prop. 8). Pour vérifier la condition b) de la prop. 9, il suffit, d’après la prop. 9, de prouver que l’application linéaire S de G dans H définie par (1) est continue ; en outre, G est tonnelé, et il suffit donc de prouver que S est continue quand on munit G et H de leurs topologies affaiblies (Esp. vect. top., chap. IV, § 4, no 2, cor. de la prop. 7); finalement, en vertu de (2), on est ramené à montrer que pour tout y' ∈ H', on a u_{y'} ∈ G'. Comme u_{y'} est adhérent pour σ(G*, G) à l’ensemble M' des u_{K, y'}, où K parcourt l’ensemble des parties compactes de T, il suffit de prouver que M' est équicontinu ; et comme G est tonnelé, il revient au même de dire que pour tout x ∈ G, l’ensemble des ⟨x, u_{K, y'}⟩ est borné (Esp. vect. top., chap. III, § 3, no 6, th. 2). Mais cela résulte aussitôt des relations
+élément du dual algébrique $G^*$ de G. Comme G est tonnelé, toute partie bornée de $\mathscr{L}_s(G; H)$ est équicontinue (Esp. vect. top., chap. III, § 3, n° 6, th. 2); la première partie du raisonnement, appliquée à la fonction $\varphi_K U$ et à la mesure bornée $\varphi_K . \mu$, montre que l’on a $u_{K, y'} \in G'$. En outre, pour la topologie $\sigma(G^*, G)$, on a $u_{y'} = \lim_K u_{K, y'}$, la limite étant prise suivant l’ensemble filtrant croissant des parties compactes de T (chap. V, § 2, no 2, prop. 8). Pour vérifier la condition b) de la prop. 9, il suffit, d’après la prop. 9, de prouver que l’application linéaire S de G dans H définie par (1) est continue ; en outre, G est tonnelé, et il suffit donc de prouver que S est continue quand on munit G et H de leurs topologies affaiblies (Esp. vect. top., chap. IV, § 4, no 2, cor. de la prop. 7); finalement, en vertu de (2), on est ramené à montrer que pour tout y' ∈ H', on a u_{y'} ∈ G'. Comme u_{y'} est adhérent pour σ(G*, G) à l’ensemble M' des u_{K, y'}, où K parcourt l’ensemble des parties compactes de T, il suffit de prouver que M' est équicontinu ; et comme G est tonnelé, il revient au même de dire que pour tout x ∈ G, l’ensemble des ⟨x, u_{K, y'}⟩ est borné (Esp. vect. top., chap. III, § 3, no 6, th. 2). Mais cela résulte aussitôt des relations
 
 $$
 |\langle x, u_{K, y'} \rangle| = \left| \int \varphi_K(t) \langle U(t) \cdot x, y' \rangle d\mu(t) \right| \leq \int |\langle U(t) \cdot x, y' \rangle| d\mu(t).
@@ -246,7 +246,7 @@ $$
 
 #### Proposition 10 {#int-vi-s1-prop-10 .statement}
 
-*Soit U une application de T dans F = $\mathcal{L}_s(G; H)$. Dans chacun des trois cas suivants, U est scalairement essentiellement $\mu$-intégrable, et on a $\int U d\mu \in \mathcal{L}_s(G; H)$:*
+*Soit U une application de T dans F = $\mathscr{L}_s(G; H)$. Dans chacun des trois cas suivants, U est scalairement essentiellement $\mu$-intégrable, et on a $\int U d\mu \in \mathscr{L}_s(G; H)$:*
 
 a) H est quasi-complet, $\mu$ est bornée, et si S est son support, U est $\mu$-mesurable et U(S) est équicontinu.
 
@@ -270,10 +270,10 @@ Tout espace de Fréchet possède la propriété (GDF) (Esp. vect. top., chap. I,
 
 Tout espace localement convexe séparé F possédant la propriété (GDF) est tonnelé.
 
-Soient V un tonneau dans F, q sa jauge, qui est une semi-norme sur F ; soit H l’espace séparé associé à l’espace F muni de la topologie définie par cette seule semi-norme. Le complété $\widehat{H}$ de H est un espace de Banach ; soit $\pi$ l’application canonique de F dans $\widehat{H}$ ; nous allons montrer que $\pi$ est continue (pour la topologie initiale de F) ; cela établira la proposition, car V, image réciproque par $\pi$ de la boule unité de $\widehat{H}$, sera alors un voisinage de 0 dans F. Pour établir la continuité de $\pi$, il suffira, en vertu de (GDF), de montrer que le graphe de $\pi$ est fermé dans $F \times \widehat{H}$ ; en d’autres termes, nous devons voir que si $\mathcal{F}$ est un filtre sur F, convergent vers $x \in F$, et si son image $\pi(\mathcal{F})$ converge vers $y \in \widehat{H}$, on a $y = \pi(x)$. Or tout élément $x'$ du polaire $V^0$ de V dans $F'$ se prolonge d’une seule manière en une forme linéaire continue sur $\widehat{H}$ (notée encore $x'$), et l’ensemble de ces formes est la boule unité du dual de $\widehat{H}$ ; il suffit donc de montrer que $\langle y, x' \rangle = \langle \pi(x), x' \rangle$ pour tout $x' \in V^0$. Mais cela résulte des relations
+Soient V un tonneau dans F, q sa jauge, qui est une semi-norme sur F ; soit H l’espace séparé associé à l’espace F muni de la topologie définie par cette seule semi-norme. Le complété $\widehat{H}$ de H est un espace de Banach ; soit $\pi$ l’application canonique de F dans $\widehat{H}$ ; nous allons montrer que $\pi$ est continue (pour la topologie initiale de F) ; cela établira la proposition, car V, image réciproque par $\pi$ de la boule unité de $\widehat{H}$, sera alors un voisinage de 0 dans F. Pour établir la continuité de $\pi$, il suffira, en vertu de (GDF), de montrer que le graphe de $\pi$ est fermé dans $F \times \widehat{H}$ ; en d’autres termes, nous devons voir que si $\mathscr{F}$ est un filtre sur F, convergent vers $x \in F$, et si son image $\pi(\mathscr{F})$ converge vers $y \in \widehat{H}$, on a $y = \pi(x)$. Or tout élément $x'$ du polaire $V^0$ de V dans $F'$ se prolonge d’une seule manière en une forme linéaire continue sur $\widehat{H}$ (notée encore $x'$), et l’ensemble de ces formes est la boule unité du dual de $\widehat{H}$ ; il suffit donc de montrer que $\langle y, x' \rangle = \langle \pi(x), x' \rangle$ pour tout $x' \in V^0$. Mais cela résulte des relations
 
 $$
-\langle y, x' \rangle = \lim_{\mathcal{F}} \langle \pi(z), x' \rangle = \lim_{\mathcal{F}} \langle z, x' \rangle = \langle x, x' \rangle = \langle \pi(x), x' \rangle.
+\langle y, x' \rangle = \lim_{\mathscr{F}} \langle \pi(z), x' \rangle = \lim_{\mathscr{F}} \langle z, x' \rangle = \langle x, x' \rangle = \langle \pi(x), x' \rangle.
 $$
 
 #### Théorème 1 (Gelfand-Dunford) {#int-vi-s1-thm-1 .statement}
@@ -286,9 +286,9 @@ Pour montrer que $\int f d\mu \in F'$, il faut établir que la forme linéaire $
 
 #### Lemme 2 {#int-vi-s1-lem-2 .statement}
 
-*Soit $f$ une application de $T$ dans $F_s'$, telle que, pour tout $z \in F$, la fonction numérique $\langle z, f \rangle$ appartienne à $\mathcal{L}^p(\mu)$ ($1 \leq p \leq +\infty$); soit $\theta(z)$ la classe de cette fonction dans $L^p(\mu)$. Alors $z \mapsto \theta(z)$ est une application linéaire continue de $F$ dans $L^p(\mu)$.
+*Soit $f$ une application de $T$ dans $F_s'$, telle que, pour tout $z \in F$, la fonction numérique $\langle z, f \rangle$ appartienne à $\mathscr{L}^p(\mu)$ ($1 \leq p \leq +\infty$); soit $\theta(z)$ la classe de cette fonction dans $L^p(\mu)$. Alors $z \mapsto \theta(z)$ est une application linéaire continue de $F$ dans $L^p(\mu)$.
 
-En vertu de la propriété (GDF), il suffit de montrer que pour toute suite $(z_n)$ d’éléments de $F$ convergente vers $z$ et telle que $(\theta(z_n))$ converge vers $u \in L^p(\mu)$, on a $u = \theta(z)$. Or, en remplaçant éventuellement la suite $(z_n)$ par une suite extraite, on peut supposer que la suite des fonctions $\langle z_n, f \rangle$ converge localement presque partout vers une fonction $h \in \mathcal{L}^p(\mu)$, de classe $u$ dans $L^p(\mu)$ (chap. IV, § 3, no 4, th. 3 et chap. V, § 2, no 2, prop. 6). Comme par hypothèse, pour tout $t \in T$, la suite $(\langle z_n, f(t) \rangle)$ converge vers $\langle z, f(t) \rangle$, on a $h(t) = \langle z, f(t) \rangle$ localement presque partout, et par suite $u = \theta(z)$.
+En vertu de la propriété (GDF), il suffit de montrer que pour toute suite $(z_n)$ d’éléments de $F$ convergente vers $z$ et telle que $(\theta(z_n))$ converge vers $u \in L^p(\mu)$, on a $u = \theta(z)$. Or, en remplaçant éventuellement la suite $(z_n)$ par une suite extraite, on peut supposer que la suite des fonctions $\langle z_n, f \rangle$ converge localement presque partout vers une fonction $h \in \mathscr{L}^p(\mu)$, de classe $u$ dans $L^p(\mu)$ (chap. IV, § 3, no 4, th. 3 et chap. V, § 2, no 2, prop. 6). Comme par hypothèse, pour tout $t \in T$, la suite $(\langle z_n, f(t) \rangle)$ converge vers $\langle z, f(t) \rangle$, on a $h(t) = \langle z, f(t) \rangle$ localement presque partout, et par suite $u = \theta(z)$.
 
 #### Corollaire 1 {#int-vi-s1-lem-2-cor-1 .statement}
 
@@ -300,9 +300,9 @@ D’après le th. 1, on a $\int (\lambda_i(z) \circ f)d\mu \in G_i'$ pour $1 \le
 
 #### Corollaire 2 {#int-vi-s1-lem-2-cor-2 .statement}
 
-Soient $G$ un espace localement convexe séparé possédant la propriété (GDF), $H$ un espace semi-réflexif dont le dual fort $H_b'$ possède la propriété (GDF) (cf. App., n° 2, prop. 3). Soit $F$ l’espace $\mathcal{L}_s(G; H)$; pour toute application $U$ de $T$ dans $F$, scalairement essentiellement $\mu$-intégrable, l’intégrale $\int Ud\mu$ appartient à $F$.
+Soient $G$ un espace localement convexe séparé possédant la propriété (GDF), $H$ un espace semi-réflexif dont le dual fort $H_b'$ possède la propriété (GDF) (cf. App., n° 2, prop. 3). Soit $F$ l’espace $\mathscr{L}_s(G; H)$; pour toute application $U$ de $T$ dans $F$, scalairement essentiellement $\mu$-intégrable, l’intégrale $\int Ud\mu$ appartient à $F$.
 
-Comme $G$ est tonnelé (prop. 11), on a $\mathcal{L}(G; H) = \mathcal{L}(G_\sigma; H_\sigma)$ (*Esp. vect. top.*, chap. IV, § 4, n° 2, cor. de la prop. 7); en outre, on peut remplacer $F = \mathcal{L}_s(G; H)$ par l’espace $\mathcal{L}_s(G_\sigma; H_\sigma)$, les deux espaces ayant même dual $G \otimes H'$ (*Esp. vect. top.*, chap. IV, § 2, n° 9, cor. de la prop. 11, et § 1, n° 2, prop. 1). Si pour tout $u \in \mathcal{L}(G; H) = \mathcal{L}(G_\sigma; H_\sigma)$, on pose $\tilde{u}(x, y') = \langle u(x), y' \rangle$ (pour $x \in G$, $y' \in H'$), l’application linéaire $u \to \tilde{u}$ est une bijection de $F$ sur l’espace $F_1$ des formes bilinéaires séparément continues sur $G_\sigma \times H'_\sigma$, où $H'_\sigma$ désigne le dual $H'$ muni de la topologie faible $\sigma(H', H)$ (*App.*, n° 1); en outre cette application est un isomorphisme de $\mathcal{L}_s(G_\sigma; H_\sigma)$ sur $F_1$ muni de la topologie de la convergence simple (*loc. cit.*). Mais comme par hypothèse $H$ est le dual de $H_b'$, $F_1$ est aussi l’espace des formes bilinéaires séparément continues sur $G \times H_b'$. Le cor. 2 résulte donc du cor. 1.
+Comme $G$ est tonnelé (prop. 11), on a $\mathscr{L}(G; H) = \mathscr{L}(G_\sigma; H_\sigma)$ (*Esp. vect. top.*, chap. IV, § 4, n° 2, cor. de la prop. 7); en outre, on peut remplacer $F = \mathscr{L}_s(G; H)$ par l’espace $\mathscr{L}_s(G_\sigma; H_\sigma)$, les deux espaces ayant même dual $G \otimes H'$ (*Esp. vect. top.*, chap. IV, § 2, n° 9, cor. de la prop. 11, et § 1, n° 2, prop. 1). Si pour tout $u \in \mathscr{L}(G; H) = \mathscr{L}(G_\sigma; H_\sigma)$, on pose $\tilde{u}(x, y') = \langle u(x), y' \rangle$ (pour $x \in G$, $y' \in H'$), l’application linéaire $u \to \tilde{u}$ est une bijection de $F$ sur l’espace $F_1$ des formes bilinéaires séparément continues sur $G_\sigma \times H'_\sigma$, où $H'_\sigma$ désigne le dual $H'$ muni de la topologie faible $\sigma(H', H)$ (*App.*, n° 1); en outre cette application est un isomorphisme de $\mathscr{L}_s(G_\sigma; H_\sigma)$ sur $F_1$ muni de la topologie de la convergence simple (*loc. cit.*). Mais comme par hypothèse $H$ est le dual de $H_b'$, $F_1$ est aussi l’espace des formes bilinéaires séparément continues sur $G \times H_b'$. Le cor. 2 résulte donc du cor. 1.
 
 On notera que le cor. 2 s’applique en particulier lorsque G est un espace de Banach et H un espace de Banach réflexif.
 
@@ -346,41 +346,41 @@ L’application $t \to \varepsilon_t$ est un *homéomorphisme* de $T$ dans l’e
 
 On notera que dans la démonstration de la continuité de $\lambda \to \int \mathbf{f} d\lambda$, on n’a pas utilisé le fait que $F$ est quasi-complet. La conclusion de la prop. 14 est donc encore valable sans cette hypothèse, lorsqu’on sait par ailleurs que $\int \mathbf{f} d\mu \in F$ pour toute mesure positive $\mu$ à support compact.
 
-Supposons maintenant que $\mathbf{f}(T)$ soit une partie *bornée* de $F$. Alors, pour toute mesure positive *bornée* $\mu$ sur $T$, $\mathbf{f}$ est scalairement $\mu$-intégrable et on a $\int \mathbf{f} d\mu \in F$ (no 2, prop. 8). Si $\lambda$ est une mesure réelle bornée quelconque sur $T$, $\lambda^+$ et $\lambda^-$ sont bornées, et on voit aussitôt que $\lambda \to \int \mathbf{f} d\lambda$ définie comme ci-dessus est une application linéaire de l’espace $\mathcal{M}^1(T)$ des mesures bornées sur T, dans l’espace localement convexe F, qui prolonge évidemment l’application $\lambda \to \int f d\lambda$ de $C'(T)$ dans F.
+Supposons maintenant que $\mathbf{f}(T)$ soit une partie *bornée* de $F$. Alors, pour toute mesure positive *bornée* $\mu$ sur $T$, $\mathbf{f}$ est scalairement $\mu$-intégrable et on a $\int \mathbf{f} d\mu \in F$ (no 2, prop. 8). Si $\lambda$ est une mesure réelle bornée quelconque sur $T$, $\lambda^+$ et $\lambda^-$ sont bornées, et on voit aussitôt que $\lambda \to \int \mathbf{f} d\lambda$ définie comme ci-dessus est une application linéaire de l’espace $\mathscr{M}^1(T)$ des mesures bornées sur T, dans l’espace localement convexe F, qui prolonge évidemment l’application $\lambda \to \int f d\lambda$ de $C'(T)$ dans F.
 
 #### Proposition 15 {#int-vi-s1-prop-15 .statement}
 
-*Soient T un espace localement compact, F un espace localement convexe séparé et quasi-complet, f une application continue de T dans F telle que f(T) soit borné. Si on munit l’espace $\mathcal{M}^1(T)$ de sa topologie d’espace de Banach, l’application linéaire $\lambda \to \int f d\lambda$ de $\mathcal{M}^1(T)$ dans F est continue.*
+*Soient T un espace localement compact, F un espace localement convexe séparé et quasi-complet, f une application continue de T dans F telle que f(T) soit borné. Si on munit l’espace $\mathscr{M}^1(T)$ de sa topologie d’espace de Banach, l’application linéaire $\lambda \to \int f d\lambda$ de $\mathscr{M}^1(T)$ dans F est continue.*
 
 En effet, pour tout voisinage convexe équilibré fermé V de 0 dans F, il existe $\rho > 0$ tel que $f(T) \subset \rho V$; l’enveloppe convexe fermée B de f(T) est donc contenue dans $\rho V$, et elle est complète par hypothèse. Si alors $\| \lambda \| \leq 1/\rho$ il résulte du no 2, prop. 8, et de la relation $\| \lambda \| = \lambda^+(T) + \lambda^-(T)$, que l’on a $\int f d\lambda \in B/\rho \subset V$.
 
 ### 7. *Applications : II. Extension à un espace de mesures d’une fonction continue à valeurs dans un espace d’opérateurs.*
 
-Soient G un espace localement convexe séparé, H un espace localement convexe séparé et quasi-complet, et désignons par F l’espace $\mathcal{L}(G; H)$ des applications linéaires continues de G dans H, muni de la topologie de la *convergence compacte*. L’espace F n’est pas nécessairement quasi-complet, et si $t \to U(t)$ est une application continue de T dans F et $\mu$ une mesure positive sur T, à support compact, on n’a pas nécessairement $\int U d\mu \in F$ (exerc. 27). Toutefois, si pour toute partie compacte K de T, $U(K)$ est *équicontinu*, son enveloppe convexe équilibrée dans F est aussi équicontinue (*Esp. vect. top.*, chap. III, § 3, no 5), et comme H est quasi-complet, l’adhérence de cette enveloppe convexe sera une partie complète de F (*Esp. vect. top.*, chap. III, § 3, no 7, th. 4); on aura donc bien alors $\int U d\mu \in F$ (no 2, prop. 8).
+Soient G un espace localement convexe séparé, H un espace localement convexe séparé et quasi-complet, et désignons par F l’espace $\mathscr{L}(G; H)$ des applications linéaires continues de G dans H, muni de la topologie de la *convergence compacte*. L’espace F n’est pas nécessairement quasi-complet, et si $t \to U(t)$ est une application continue de T dans F et $\mu$ une mesure positive sur T, à support compact, on n’a pas nécessairement $\int U d\mu \in F$ (exerc. 27). Toutefois, si pour toute partie compacte K de T, $U(K)$ est *équicontinu*, son enveloppe convexe équilibrée dans F est aussi équicontinue (*Esp. vect. top.*, chap. III, § 3, no 5), et comme H est quasi-complet, l’adhérence de cette enveloppe convexe sera une partie complète de F (*Esp. vect. top.*, chap. III, § 3, no 7, th. 4); on aura donc bien alors $\int U d\mu \in F$ (no 2, prop. 8).
 
 La condition supplémentaire imposée à $U$ peut s’exprimer autrement :
 
 #### Lemme 3 {#int-vi-s1-lem-3 .statement}
 
-*Soient G, H deux espaces localement convexes, U une application d’un espace localement compact T dans $\mathcal{L}(G; H)$. Les conditions suivantes sont équivalentes :*
+*Soient G, H deux espaces localement convexes, U une application d’un espace localement compact T dans $\mathscr{L}(G; H)$. Les conditions suivantes sont équivalentes :*
 
 a) *L’application* $(t, x) \to U(t) . x$ *de* $T \times G$ *dans* $H$ *est continue.*
 
 b) *Pour toute partie compacte K de T, U(K) est équicontinu, et il existe un ensemble total D \subset G tel que pour tout* $x \in D$, *l’application* $t \to U(t) . x$ *soit continue dans* $T$.
 
-*De plus, lorsque U vérifie ces conditions, U est une application continue de T dans* $\mathcal{L}(G; H)$ *muni de la topologie de la convergence compacte.*
+*De plus, lorsque U vérifie ces conditions, U est une application continue de T dans* $\mathscr{L}(G; H)$ *muni de la topologie de la convergence compacte.*
 
 Pour voir que a) entraîne b), observons que pour tout voisinage V de 0 dans H et tout $t \in K$, il existe par hypothèse un voisinage $L_t$ de $t$ dans T et un voisinage $W_t$ de 0 dans G tels que les relations $t' \in L_t$ et $x \in W_t$ entraînent $U(t') . x \in V$. Il suffit de recouvrir K par un nombre fini de voisinages $L_{t_i}$ et de prendre $W = \bigcap_i W_{t_i}$ pour avoir $U(t) . x \in V$ lorsque $t \in K$ et $x \in W$, ce qui démontre l’équicontinuité de $U(K)$.
 
-Inversement, supposons vérifié b); il suffit de montrer que pour toute partie compacte K de T, l’application $(t, x) \to U(t) . x$ est continue dans $K \times G$. Soit $M = U(K)$; comme M est équicontinu, il en résulte que sur M, la topologie de la convergence simple dans G est identique à la topologie de la convergence simple dans D (*Top. gén.*, chap. X, 2e éd., § 2, no 4, th. 1); l’hypothèse b) entraîne donc que $t \to U(t)$ est une application continue de K dans $\mathcal{L}(G; H)$ lorsqu’on munit $\mathcal{L}(G; H)$ de la topologie de la convergence simple. D’autre part, $(A, x) \to A . x$ est une application continue de $M \times G$ dans H lorsqu’on munit M de la topologie de la convergence simple (*Top. gén.*, chap. X, 2e éd., § 2, no 2, cor. 4 de la prop. 1). Comme l’application $(t, x) \to U(t) . x$ se factorise en $(t, x) \to (U(t), x) \to U(t) . x$, on en conclut qu’elle est continue.
+Inversement, supposons vérifié b); il suffit de montrer que pour toute partie compacte K de T, l’application $(t, x) \to U(t) . x$ est continue dans $K \times G$. Soit $M = U(K)$; comme M est équicontinu, il en résulte que sur M, la topologie de la convergence simple dans G est identique à la topologie de la convergence simple dans D (*Top. gén.*, chap. X, 2e éd., § 2, no 4, th. 1); l’hypothèse b) entraîne donc que $t \to U(t)$ est une application continue de K dans $\mathscr{L}(G; H)$ lorsqu’on munit $\mathscr{L}(G; H)$ de la topologie de la convergence simple. D’autre part, $(A, x) \to A . x$ est une application continue de $M \times G$ dans H lorsqu’on munit M de la topologie de la convergence simple (*Top. gén.*, chap. X, 2e éd., § 2, no 2, cor. 4 de la prop. 1). Comme l’application $(t, x) \to U(t) . x$ se factorise en $(t, x) \to (U(t), x) \to U(t) . x$, on en conclut qu’elle est continue.
 
 Enfin, la dernière assertion du lemme résulte de ce que, sur M, la topologie de la convergence compacte est identique à celle de la convergence simple (*Top. gén.*, chap. X, 2e éd., § 2, no 4, th. 1).
 
-Supposons donc que $U$ vérifie les conditions du lemme 3 ; alors (si $H$ est quasi-complet), on définit comme au n° 6 une application linéaire $\lambda \to \int Ud\lambda$ de $C'(T)$ dans $F = \mathcal{L}(G, H)$. Nous poserons $U(\lambda) = \int Ud\lambda$.
+Supposons donc que $U$ vérifie les conditions du lemme 3 ; alors (si $H$ est quasi-complet), on définit comme au n° 6 une application linéaire $\lambda \to \int Ud\lambda$ de $C'(T)$ dans $F = \mathscr{L}(G, H)$. Nous poserons $U(\lambda) = \int Ud\lambda$.
 
 #### Proposition 16 {#int-vi-s1-prop-16 .statement}
 
-*Soient G, H deux espaces localement convexes séparés, H étant supposé quasi-complet. Soit U une application de T dans $\mathcal{L}(G; H)$ telle que $(t, x) \to U(t).x$ soit une application continue de $T \times G$ dans H. Alors l’application bilinéaire $(\lambda, x) \to U(\lambda).x$ de $C'(T) \times G$ dans H est hypocontinue relativement aux parties équicontinues de $C'(T)$ et aux parties compactes de G (ce qui entraîne que l’application linéaire $\lambda \to U(\lambda)$ de $C'(T)$ dans F est continue).
+*Soient G, H deux espaces localement convexes séparés, H étant supposé quasi-complet. Soit U une application de T dans $\mathscr{L}(G; H)$ telle que $(t, x) \to U(t).x$ soit une application continue de $T \times G$ dans H. Alors l’application bilinéaire $(\lambda, x) \to U(\lambda).x$ de $C'(T) \times G$ dans H est hypocontinue relativement aux parties équicontinues de $C'(T)$ et aux parties compactes de G (ce qui entraîne que l’application linéaire $\lambda \to U(\lambda)$ de $C'(T)$ dans F est continue).
 
 La continuité de $\lambda \to U(\lambda)$ comme application de $C'(T)$ dans F résulte du lemme 3 et de la *Remarque 2* suivant la prop. 14 du n° 6. Reste donc à prouver que pour tout voisinage convexe, équilibré et fermé V de 0 dans H et toute partie équicontinue N de $C'(T)$, il existe un voisinage W de 0 dans G tel que les relations $x \in W, \lambda \in N$ entraînent $U(\lambda).x \in V$. On peut supposer que $N = S^0$, où S est un voisinage de 0 dans $C(T)$, et par suite on peut supposer que S est l’ensemble des fonctions $g \in C(T)$ telles que $|g(t)| \leq 1$ dans une partie compacte K de T. Il suffit de montrer que $|\langle U(\lambda).x, x'\rangle| \leq 1$ pour $x \in W, x' \in V^0$ et $\lambda \in S^0$. Or, comme $U(K)$ est équicontinu, il existe un voisinage W de 0 dans G tel que les relations $t \in K, x \in W$ entraînent $U(t).x \in V$; les relations $x \in W, x' \in V^0$ entraînent donc que la fonction $t \to \langle U(t).x, x'\rangle$ appartient à S, et par suite, que
 $$
@@ -389,18 +389,18 @@ $$
 
 Supposons maintenant que $U$ soit une application continue de T dans F et en outre que $U(T)$ soit équicontinu. Alors, le même raisonnement que ci-dessus montre (puisque H est quasi-complet) que pour toute mesure positive *bornée* $\mu$ sur T, on a $\int Ud\mu \in F$. On définit donc comme plus haut une application linéaire
 
-λ → ∫ U dλ = U(λ) de $\mathcal{M}^1(T)$ dans F prolongeant l’application analogue de $C'(T)$ dans F. En outre, pour tout voisinage convexe équilibré fermé V de 0 dans H, il existe par hypothèse un voisinage W de 0 dans G tel que pour tout $x \in W$ et tout $t \in T$, on ait $U(t).x \in V$, et par suite (V étant faiblement fermé)
+λ → ∫ U dλ = U(λ) de $\mathscr{M}^1(T)$ dans F prolongeant l’application analogue de $C'(T)$ dans F. En outre, pour tout voisinage convexe équilibré fermé V de 0 dans H, il existe par hypothèse un voisinage W de 0 dans G tel que pour tout $x \in W$ et tout $t \in T$, on ait $U(t).x \in V$, et par suite (V étant faiblement fermé)
 $$
 \int (U(t).x)d\lambda(t) \in \| \lambda \| . V \ (\text{n}^\circ 2, \text{prop. } 5). \text{ Autrement dit :}
 $$
 
 #### Proposition 17 {#int-vi-s1-prop-17 .statement}
 
-*Soient G, H, deux espaces localement convexes séparés, H étant supposé quasi-complet. Soit U une application de T dans $\mathcal{L}(G; H)$ telle que $(t, x) \to U(t).x$ soit continue dans $T \times G$, et que $U(T)$ soit équicontinu. Alors si on munit $\mathcal{M}^1(T)$ de sa topologie d’espace de Banach, l’application bilinéaire $(\lambda, x) \to U(\lambda).x$ de $\mathcal{M}^1(T) \times G$ dans H est continue (ce qui entraîne en particulier que l’application linéaire $\lambda \to U(\lambda)$ de $\mathcal{M}^1(T)$ dans $\mathcal{L}(G; H)$ est continue lorsqu’on munit $\mathcal{L}(G, H)$ de la topologie de la convergence bornée).
+*Soient G, H, deux espaces localement convexes séparés, H étant supposé quasi-complet. Soit U une application de T dans $\mathscr{L}(G; H)$ telle que $(t, x) \to U(t).x$ soit continue dans $T \times G$, et que $U(T)$ soit équicontinu. Alors si on munit $\mathscr{M}^1(T)$ de sa topologie d’espace de Banach, l’application bilinéaire $(\lambda, x) \to U(\lambda).x$ de $\mathscr{M}^1(T) \times G$ dans H est continue (ce qui entraîne en particulier que l’application linéaire $\lambda \to U(\lambda)$ de $\mathscr{M}^1(T)$ dans $\mathscr{L}(G; H)$ est continue lorsqu’on munit $\mathscr{L}(G, H)$ de la topologie de la convergence bornée).
 
 #### Proposition 18 {#int-vi-s1-prop-18 .statement}
 
-*Soient $G_1, G_2, H_1, H_2$ quatre espaces localement convexes séparés, $H_1$ et $H_2$ étant supposés quasi-complets. Soient $A : G_1 \to G_2$ et $B : H_1 \to H_2$ deux applications linéaires continues. Soient $U_1 : T \to \mathcal{L}(G_1; H_1)$, $U_2 : T \to \mathcal{L}(G_2; H_2)$ deux applications vérifiant les conditions de la prop. 16 (resp. 17), et supposons que pour tout $t \in T$ on ait $B \circ U_1(t) = U_2(t) \circ A$. Alors, pour toute mesure à support compact (resp. bornée) $\lambda$ sur T, on a $B \circ U_1(\lambda) = U_2(\lambda) \circ A$.
+*Soient $G_1, G_2, H_1, H_2$ quatre espaces localement convexes séparés, $H_1$ et $H_2$ étant supposés quasi-complets. Soient $A : G_1 \to G_2$ et $B : H_1 \to H_2$ deux applications linéaires continues. Soient $U_1 : T \to \mathscr{L}(G_1; H_1)$, $U_2 : T \to \mathscr{L}(G_2; H_2)$ deux applications vérifiant les conditions de la prop. 16 (resp. 17), et supposons que pour tout $t \in T$ on ait $B \circ U_1(t) = U_2(t) \circ A$. Alors, pour toute mesure à support compact (resp. bornée) $\lambda$ sur T, on a $B \circ U_1(\lambda) = U_2(\lambda) \circ A$.
 
 En effet, pour tout $x \in G$, on a (n° 1, prop. 1)
 
@@ -413,7 +413,7 @@ $$
 
 #### Remarque 1 {#int-vi-s1-n7-rem-1 .statement}
 
-Supposons que G et H soient des espaces de Banach, et soit U une application de T dans $\mathcal{L}(G; H)$ telle que $(t, x) \to U(t).x$ soit continue dans $T \times G$. Notons que cela entraîne que la fonction finie $t \to \| U(t) \|$ est bornée dans toute partie compacte de T et semi-continue inférieurement dans T, étant l’enveloppe supérieure des fonctions continues $t \to | U(t).x |$ lorsque $x$ parcourt la boule $|\mathbf{x}| \leq 1$ dans G. Posons $h(t) = \| U(t) \|$. Alors, pour toute mesure positive $\mu$ sur T telle que $h$ soit $\mu$-intégrable, on a encore $\int Ud\mu \in \mathcal{L}(G; H)$. En effet, la mesure $\nu = h.\mu$ est bornée par hypothèse ; il existe donc une partition de T formée d’un ensemble $\nu$-négligeable N et d’une suite $(K_n)$ de parties compactes. Le raisonnement fait au début de ce n°, appliqué à la mesure $\varphi_{K_n}.\mu$ montre que $A_n = \int \varphi_{K_n} Ud\mu \in F = \mathcal{L}(G; H)$, et en outre (n° 2, prop. 6) $\|A_n\| \leq \int \varphi_{K_n} \|U\| d\mu \leq \nu(K_n)$. La série de terme général $A_n$ est donc absolument convergente dans l’espace de Banach $\mathcal{L}(G; H)$, et il est immédiat que sa somme est $\int Ud\mu$ et que l’on a $\left\| \int Ud\mu \right\| \leq \int \|U\| d\mu$.
+Supposons que G et H soient des espaces de Banach, et soit U une application de T dans $\mathscr{L}(G; H)$ telle que $(t, x) \to U(t).x$ soit continue dans $T \times G$. Notons que cela entraîne que la fonction finie $t \to \| U(t) \|$ est bornée dans toute partie compacte de T et semi-continue inférieurement dans T, étant l’enveloppe supérieure des fonctions continues $t \to | U(t).x |$ lorsque $x$ parcourt la boule $|\mathbf{x}| \leq 1$ dans G. Posons $h(t) = \| U(t) \|$. Alors, pour toute mesure positive $\mu$ sur T telle que $h$ soit $\mu$-intégrable, on a encore $\int Ud\mu \in \mathscr{L}(G; H)$. En effet, la mesure $\nu = h.\mu$ est bornée par hypothèse ; il existe donc une partition de T formée d’un ensemble $\nu$-négligeable N et d’une suite $(K_n)$ de parties compactes. Le raisonnement fait au début de ce n°, appliqué à la mesure $\varphi_{K_n}.\mu$ montre que $A_n = \int \varphi_{K_n} Ud\mu \in F = \mathscr{L}(G; H)$, et en outre (n° 2, prop. 6) $\|A_n\| \leq \int \varphi_{K_n} \|U\| d\mu \leq \nu(K_n)$. La série de terme général $A_n$ est donc absolument convergente dans l’espace de Banach $\mathscr{L}(G; H)$, et il est immédiat que sa somme est $\int Ud\mu$ et que l’on a $\left\| \int Ud\mu \right\| \leq \int \|U\| d\mu$.
 
 #### Remarque 2 {#int-vi-s1-n7-rem-2 .statement}
 

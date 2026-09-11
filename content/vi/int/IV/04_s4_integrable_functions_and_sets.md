@@ -57,9 +57,9 @@ subsections:
       pdf_page: 160
 statements: 63
 exercises: 23
-content_sha256: 189965e66749ee96b2cce7d7dabbe37cdbee928d2cab22deb65f7b7ecbb01cbe
+content_sha256: 1453e04455499f5e0b03812976d117ee6cd12128b5c81f26846061877c3d3a8c
 translated_from: content/en/int/IV/04_s4_integrable_functions_and_sets.md
-source_content_sha256: 04515fb1fa953c06cc0b2f25528b8c99e5a79b5ad3a2d7ec3b4743f52081eec4
+source_content_sha256: 44664051c6330badb1703bb68b0318df95f32abba8294f844ad108f5cee721a2
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-20725f8a
 glossary_version: 34
@@ -71,7 +71,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Mở rộng của nguyên hàm
 
-Từ định nghĩa của không gian $\mathcal{L}_F^p$ suy ra rằng không gian con $\mathcal{K}_F$ của các hàm liên tục có giá compact là *trù mật* trong $\mathcal{L}_F^p$ (§ 3, No. 4, Định nghĩa 2). Mọi hàm tuyến tính liên tục (đối với tôpô hội tụ trung bình cấp $p$), xác định trên $\mathcal{K}_F$ và nhận các giá trị của nó trong một không gian vectơ tôpô Hausdorff *đầy đủ* $G$, do đó có thể được *mở rộng bằng tính liên tục* một cách duy nhất, thành một hàm tuyến tính liên tục xác định trên $\mathcal{L}_F^p$ với các giá trị trong $G$ (GT, II, § 3, No. 6, Định lý 2 và III, § 3, No. 1, Mệnh đề 3).
+Từ định nghĩa của không gian $\mathscr{L}_F^p$ suy ra rằng không gian con $\mathscr{K}_F$ của các hàm liên tục có giá compact là *trù mật* trong $\mathscr{L}_F^p$ (§ 3, No. 4, Định nghĩa 2). Mọi hàm tuyến tính liên tục (đối với tôpô hội tụ trung bình cấp $p$), xác định trên $\mathscr{K}_F$ và nhận các giá trị của nó trong một không gian vectơ tôpô Hausdorff *đầy đủ* $G$, do đó có thể được *mở rộng bằng tính liên tục* một cách duy nhất, thành một hàm tuyến tính liên tục xác định trên $\mathscr{L}_F^p$ với các giá trị trong $G$ (GT, II, § 3, No. 6, Định lý 2 và III, § 3, No. 1, Mệnh đề 3).
 
 Bây giờ, đối với mọi hàm liên tục $f$ có giá compact, nhận các giá trị trong không gian Banach $F$, ta đã định nghĩa (trong Ch. III, § 3, No. 1) *nguyên* $\mu(f) = \int f \, d\mu$ đối với $\mu$, là một phần tử của $F$, và ta đã chứng minh (Ch. III, § 3, No. 2, Mệnh đề 6) bất đẳng thức
 
@@ -79,33 +79,33 @@ $$
 \left| \int f \, d\mu \right| \leqslant \int |f| \, d|\mu| = N_1(f).
 $$
 
-Bất đẳng thức này chứng minh rằng ánh xạ tuyến tính $f \mapsto \int f \, d\mu$ từ $\mathcal{K}_F$ vào $F$ là liên tục đối với tôpô hội tụ trung bình trong $\mathcal{K}_F$. Do đó nó có thể được mở rộng bằng tính liên tục đến toàn bộ không gian $\mathcal{L}_F^1$, và ta có thể đưa ra định nghĩa sau:
+Bất đẳng thức này chứng minh rằng ánh xạ tuyến tính $f \mapsto \int f \, d\mu$ từ $\mathscr{K}_F$ vào $F$ là liên tục đối với tôpô hội tụ trung bình trong $\mathscr{K}_F$. Do đó nó có thể được mở rộng bằng tính liên tục đến toàn bộ không gian $\mathscr{L}_F^1$, và ta có thể đưa ra định nghĩa sau:
 
 #### Định nghĩa 1 {#int-iv-s4-def-1 .statement}
 
-*Các hàm thuộc $\mathcal{L}_F^1(X, \mu)$ được gọi là khả tích đối với độ đo $\mu$* (hoặc, một lần nữa, được gọi là $\mu$-khả tích). *Nguyên (đối với $\mu$) của hàm khả tích $f$ theo định nghĩa là giá trị tại $f$ của mở rộng bằng tính liên tục lên $\mathcal{L}_F^1$ của ánh xạ tuyến tính $g \mapsto \int g\, d\mu$ từ $\mathcal{H}_F$ vào $F$; nó lại được ký hiệu là $\mu(f)$ hoặc $\int f\, d\mu$, hoặc $\int f(x)\, d\mu(x)$ hoặc $\int f\mu$, hoặc $\int f(x)\mu(x)$.
+*Các hàm thuộc $\mathscr{L}_F^1(X, \mu)$ được gọi là khả tích đối với độ đo $\mu$* (hoặc, một lần nữa, được gọi là $\mu$-khả tích). *Nguyên (đối với $\mu$) của hàm khả tích $f$ theo định nghĩa là giá trị tại $f$ của mở rộng bằng tính liên tục lên $\mathscr{L}_F^1$ của ánh xạ tuyến tính $g \mapsto \int g\, d\mu$ từ $\mathscr{H}_F$ vào $F$; nó lại được ký hiệu là $\mu(f)$ hoặc $\int f\, d\mu$, hoặc $\int f(x)\, d\mu(x)$ hoặc $\int f\mu$, hoặc $\int f(x)\mu(x)$.
 
 #### Ví dụ {#int-iv-s4-n1-exa-1 .statement}
 
-— Cho $X$ là một không gian *rời rạc*, $\mu$ là một độ đo trên $X$, và đặt $\alpha(x) = \mu(\varphi_{\{x\}})$ đối với mọi $x \in X$. Khi đó các hàm trong $\mathcal{F}_F^1$ là *khả tích*, nói cách khác $\mathcal{L}_F^1 = \mathcal{F}_F^1$; hơn nữa, đối với mọi hàm $f \in \mathcal{L}_F^1$,
+— Cho $X$ là một không gian *rời rạc*, $\mu$ là một độ đo trên $X$, và đặt $\alpha(x) = \mu(\varphi_{\{x\}})$ đối với mọi $x \in X$. Khi đó các hàm trong $\mathscr{F}_F^1$ là *khả tích*, nói cách khác $\mathscr{L}_F^1 = \mathscr{F}_F^1$; hơn nữa, đối với mọi hàm $f \in \mathscr{L}_F^1$,
 
 $$
 \int f\, d\mu = \sum_{x \in X} \alpha(x)f(x).
 $$
 
-Thật vậy, cho $f \in \mathcal{F}_F^1$; ta có $|\mu|^*(|f|) = \sum_{x \in X} |\alpha(x)| \cdot |f(x)| < +\infty$ (§ 1, No. 3, *Ví dụ*); với mọi $\varepsilon > 0$, tồn tại một tập con hữu hạn $M$ của $X$ sao cho
+Thật vậy, cho $f \in \mathscr{F}_F^1$; ta có $|\mu|^*(|f|) = \sum_{x \in X} |\alpha(x)| \cdot |f(x)| < +\infty$ (§ 1, No. 3, *Ví dụ*); với mọi $\varepsilon > 0$, tồn tại một tập con hữu hạn $M$ của $X$ sao cho
 
 $$
 \sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon.
 $$
 
-Hàm $g$ bằng $f$ tại các điểm $x \in M$ nơi $|f|$ là hữu hạn, và bằng 0 ở các nơi khác, thuộc về $\mathcal{H}(X; F)$ và, theo các quy ước đã được đưa ra,
+Hàm $g$ bằng $f$ tại các điểm $x \in M$ nơi $|f|$ là hữu hạn, và bằng 0 ở các nơi khác, thuộc về $\mathscr{H}(X; F)$ và, theo các quy ước đã được đưa ra,
 
 $$
 |\mu|^*(|f - g|) \leq \sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon,
 $$
 
-điều này chứng minh rằng $f \in \mathcal{L}_F^1$. Mặt khác,
+điều này chứng minh rằng $f \in \mathscr{L}_F^1$. Mặt khác,
 
 $$
 \left| \mu(g) - \sum_{x \in X} \alpha(x)f(x) \right| \leq \sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon,
@@ -115,7 +115,7 @@ do đó có mệnh đề thứ hai.
 
 Nói cách khác, các hàm $\mu$-khả tích $f$ là những hàm sao cho họ $(\alpha(x)f(x))_{x \in X}$ là *khả tổng tuyệt đối* (GT, IX, §3, No. 6), và nguyên $\int f\, d\mu$ là tổng của họ này.
 
-Vì $\mu(f)$ là liên tục trên $\mathcal{L}_F^1$ theo định nghĩa, và vì nó nhận các giá trị trong một không gian Hausdorff, ta có $\mu(f) = 0$ đối với mọi hàm thuộc bao đóng của 0 trong $\mathcal{L}_F^1$, tức là *không đáng kể*; nếu $f$ và $g$ là hai hàm khả tích *tương đương*, thì $\mu(f) = \mu(g)$. Nói cách khác, giá trị của $\mu(f)$ chỉ phụ thuộc vào lớp $\tilde{f}$ của hàm khả tích $f$; nó lại được ký hiệu là $\mu(\tilde{f})$, và ánh xạ $\tilde{f} \mapsto \mu(\tilde{f})$ là một ánh xạ tuyến tính liên tục của $L^1_F$ vào $F$. Nếu một hàm $f$, có giá trị trong $F$ và được xác định gần khắp nơi trong $X$, tương đương với một hàm khả tích, ta lại nói rằng $f$ là *khả tích* và viết $\int f\, d\mu = \mu(\tilde{f})$; người ta cũng định nghĩa tương tự một hàm khả tích có giá trị trong $\overline{\mathbf{R}}$, được xác định và hữu hạn gần khắp nơi, cũng như nguyên của nó.
+Vì $\mu(f)$ là liên tục trên $\mathscr{L}_F^1$ theo định nghĩa, và vì nó nhận các giá trị trong một không gian Hausdorff, ta có $\mu(f) = 0$ đối với mọi hàm thuộc bao đóng của 0 trong $\mathscr{L}_F^1$, tức là *không đáng kể*; nếu $f$ và $g$ là hai hàm khả tích *tương đương*, thì $\mu(f) = \mu(g)$. Nói cách khác, giá trị của $\mu(f)$ chỉ phụ thuộc vào lớp $\tilde{f}$ của hàm khả tích $f$; nó lại được ký hiệu là $\mu(\tilde{f})$, và ánh xạ $\tilde{f} \mapsto \mu(\tilde{f})$ là một ánh xạ tuyến tính liên tục của $L^1_F$ vào $F$. Nếu một hàm $f$, có giá trị trong $F$ và được xác định gần khắp nơi trong $X$, tương đương với một hàm khả tích, ta lại nói rằng $f$ là *khả tích* và viết $\int f\, d\mu = \mu(\tilde{f})$; người ta cũng định nghĩa tương tự một hàm khả tích có giá trị trong $\overline{\mathbf{R}}$, được xác định và hữu hạn gần khắp nơi, cũng như nguyên của nó.
 
 ### 2. Các tính chất của nguyên
 
@@ -127,11 +127,11 @@ $$
 \int f\, d|\mu| = \int^* f\, d|\mu| = N_1(f) \geqslant 0.
 $$
 
-Thật vậy, $\int f\, d|\mu|$ và $N_1(f)$ là liên tục trên $\mathcal{L}^1$ và bằng nhau đối với mọi hàm liên tục $f \geqslant 0$ có giá đỡ compact; mặt khác, mọi hàm $f \geqslant 0$ trong $\mathcal{L}^1$ là giới hạn (theo nghĩa hội tụ theo trung bình) của một dãy các hàm liên tục $\geqslant 0$ có giá đỡ compact (§ 3, No. 5, Mệnh đề 11); do đó mệnh đề.
+Thật vậy, $\int f\, d|\mu|$ và $N_1(f)$ là liên tục trên $\mathscr{L}^1$ và bằng nhau đối với mọi hàm liên tục $f \geqslant 0$ có giá đỡ compact; mặt khác, mọi hàm $f \geqslant 0$ trong $\mathscr{L}^1$ là giới hạn (theo nghĩa hội tụ theo trung bình) của một dãy các hàm liên tục $\geqslant 0$ có giá đỡ compact (§ 3, No. 5, Mệnh đề 11); do đó mệnh đề.
 
 #### Hệ quả 1 {#int-iv-s4-prop-1-cor-1 .statement}
 
-*Với mọi hàm khả tích $f \in \mathcal{L}^1_F$, $|f|$ là khả tích và*
+*Với mọi hàm khả tích $f \in \mathscr{L}^1_F$, $|f|$ là khả tích và*
 
 $$
 \int |f|\, d|\mu| = \int^* |f|\, d|\mu| = N_1(f).
@@ -139,17 +139,17 @@ $$
 
 Chúng ta sẽ thường xuyên dùng Mệnh đề 1 và Hệ quả 1 của nó, khi thay $\int^* f\, d|\mu|$ hoặc $N_1(f)$ bằng $\int f\, d|\mu|$ khi xét một hàm khả tích $\geqslant 0$. Chẳng hạn, để hai hàm khả tích $f, g$ là *tương đương*, điều kiện cần và đủ là $\int |f - g|\, d|\mu| = 0$.
 
-Ta nhắc lại rằng, để một hàm $f$ thuộc $\mathcal{L}^p_F$, điều kiện cần và đủ là hàm $|f|^{p-1} \cdot f$ thuộc $\mathcal{L}^1_F$ (§ 3, No. 8, Hệ quả 1 của ĐL. 7), tức là nó khả tích; đó là lý do của thuật ngữ 'hàm khả tích lũy thừa bậc $p$'. Hơn nữa:
+Ta nhắc lại rằng, để một hàm $f$ thuộc $\mathscr{L}^p_F$, điều kiện cần và đủ là hàm $|f|^{p-1} \cdot f$ thuộc $\mathscr{L}^1_F$ (§ 3, No. 8, Hệ quả 1 của ĐL. 7), tức là nó khả tích; đó là lý do của thuật ngữ 'hàm khả tích lũy thừa bậc $p$'. Hơn nữa:
 
 #### Hệ quả 2 {#int-iv-s4-prop-1-cor-2 .statement}
 
-*Với mọi hàm $f \in \mathcal{L}^p_F$, hàm số $|f|^p$ là khả tích và*
+*Với mọi hàm $f \in \mathscr{L}^p_F$, hàm số $|f|^p$ là khả tích và*
 
 $$
 N_p(f) = \left( \int |f|^p\, d|\mu| \right)^{1/p}.
 $$
 
-Điều này suy ra ngay từ việc $|f|$ thuộc $\mathcal{L}^p$ (§ 3, No. 5, Mệnh đề 11) và công thức (2).
+Điều này suy ra ngay từ việc $|f|$ thuộc $\mathscr{L}^p$ (§ 3, No. 5, Mệnh đề 11) và công thức (2).
 
 #### Mệnh đề 2 {#int-iv-s4-prop-2 .statement}
 
@@ -159,7 +159,7 @@ $$
 \left| \int f \, d\mu \right| \leq \int |f| \, d|\mu|.
 $$
 
-Điều này suy ra ngay từ bất đẳng thức (1) bằng cách lấy giới hạn, có xét đến (3) và tính liên tục của $N_1(f)$ trên $\mathcal{L}_F^1$.
+Điều này suy ra ngay từ bất đẳng thức (1) bằng cách lấy giới hạn, có xét đến (3) và tính liên tục của $N_1(f)$ trên $\mathscr{L}_F^1$.
 
 #### Định lý 1 {#int-iv-s4-thm-1 .statement}
 
@@ -169,7 +169,7 @@ $$
 \int u(f(x)) \, d\mu(x) = u \left( \int f(x) \, d\mu(x) \right).
 $$
 
-Ta đã biết rằng $u \circ f$ là khả tích (§ 3, No. 5, Định lý 4); quan hệ (6), vì đúng với mọi $f \in \mathcal{H}_F$, được mở rộng cho mọi hàm khả tích $f$ bởi nguyên lý mở rộng các đẳng thức: thật vậy, $f \mapsto u \circ f$ là liên tục đối với tôpô hội tụ theo trung bình, như suy ra từ bất đẳng thức $N_1(u \circ f) \leq \|u\| \cdot N_1(f)$.
+Ta đã biết rằng $u \circ f$ là khả tích (§ 3, No. 5, Định lý 4); quan hệ (6), vì đúng với mọi $f \in \mathscr{H}_F$, được mở rộng cho mọi hàm khả tích $f$ bởi nguyên lý mở rộng các đẳng thức: thật vậy, $f \mapsto u \circ f$ là liên tục đối với tôpô hội tụ theo trung bình, như suy ra từ bất đẳng thức $N_1(u \circ f) \leq \|u\| \cdot N_1(f)$.
 
 #### Hệ quả 1 {#int-iv-s4-thm-1-cor-1 .statement}
 
@@ -193,13 +193,13 @@ $$
 
 #### Mệnh đề 3 {#int-iv-s4-prop-3 .statement}
 
-— Cho $\mathcal{B}$ là một cơ sở lọc trên $\mathcal{L}_F^1$. Giả sử tồn tại một tập compact $K \subset X$ sao cho, với mọi tập $M \in \mathcal{B}$, mọi hàm $f \in M$ đều có giá trong $K$. Trong những điều kiện này, nếu $\mathcal{B}$ hội tụ đều trên $X$ đến $f_0$, thì hàm $f_0$ khả tích và
+— Cho $\mathscr{B}$ là một cơ sở lọc trên $\mathscr{L}_F^1$. Giả sử tồn tại một tập compact $K \subset X$ sao cho, với mọi tập $M \in \mathscr{B}$, mọi hàm $f \in M$ đều có giá trong $K$. Trong những điều kiện này, nếu $\mathscr{B}$ hội tụ đều trên $X$ đến $f_0$, thì hàm $f_0$ khả tích và
 
 $$
-\int f_0 \, d\mu = \lim_{\mathcal{B}} \int f \, d\mu .
+\int f_0 \, d\mu = \lim_{\mathscr{B}} \int f \, d\mu .
 $$
 
-Thật vậy, $\mathcal{B}$ hội tụ theo trung bình đến $f_0$ (§ 3, No. 3, Mệnh đề 4).
+Thật vậy, $\mathscr{B}$ hội tụ theo trung bình đến $f_0$ (§ 3, No. 3, Mệnh đề 4).
 
 #### Mệnh đề 4 {#int-iv-s4-prop-4 .statement}
 
@@ -297,9 +297,9 @@ ta có thể áp dụng cho chúng điều đã được chứng minh ở trên;
 
 #### Hệ quả 3 {#int-iv-s4-prop-5-cor-3 .statement}
 
-— Cho $f$ là một hàm số thực bị chặn, nửa liên tục trên trên $X$ và có giá compact. Khi đó, ánh xạ $\mu \mapsto \int f\, d\mu$ là nửa liên tục trên trên $\mathcal{M}_+(X)$ đối với tôpô vague.
+— Cho $f$ là một hàm số thực bị chặn, nửa liên tục trên trên $X$ và có giá compact. Khi đó, ánh xạ $\mu \mapsto \int f\, d\mu$ là nửa liên tục trên trên $\mathscr{M}_+(X)$ đối với tôpô vague.
 
-Nếu $h$ là một hàm thuộc $\mathcal{K}_+(X)$ sao cho $|f| \leq h$ (Chương III, §1, No. 2, Bổ đề 1) thì $0 \leq f + h \leq 2h$, và vì $f + h$ là nửa liên tục trên, suy ra từ Hệ quả 1 rằng $f$ là $\mu$-khả tích với mọi độ đo $\mu$ trên $X$. Hơn nữa, $\mu(f) = \mu(h) - \mu(h - f)$ và $h - f$ là một hàm nửa liên tục dưới $\geq 0$. Vì ánh xạ $\mu \mapsto \mu(h - f)$ là nửa liên tục dưới trên $\mathcal{M}_+(X)$ đối với tôpô vague (§1, No. 1, Mệnh đề 4), điều này chứng minh hệ quả.
+Nếu $h$ là một hàm thuộc $\mathscr{K}_+(X)$ sao cho $|f| \leq h$ (Chương III, §1, No. 2, Bổ đề 1) thì $0 \leq f + h \leq 2h$, và vì $f + h$ là nửa liên tục trên, suy ra từ Hệ quả 1 rằng $f$ là $\mu$-khả tích với mọi độ đo $\mu$ trên $X$. Hơn nữa, $\mu(f) = \mu(h) - \mu(h - f)$ và $h - f$ là một hàm nửa liên tục dưới $\geq 0$. Vì ánh xạ $\mu \mapsto \mu(h - f)$ là nửa liên tục dưới trên $\mathscr{M}_+(X)$ đối với tôpô vague (§1, No. 1, Mệnh đề 4), điều này chứng minh hệ quả.
 
 #### Định lý 3 {#int-iv-s4-thm-3 .statement}
 
@@ -456,9 +456,9 @@ Vì khi đó $\varphi_A$ nửa liên tục dưới (tương ứng, nửa liên t
 
 #### Mệnh đề 11 {#int-iv-s4-prop-11 .statement}
 
-— Cho $\mathcal{G}$ là một tập hợp, có hướng theo quan hệ $\subset$, gồm các tập hợp mở khả tích trong $X$; để $A = \bigcup_{G \in \mathcal{G}} G$ là khả tích, cần và đủ rằng $\sup_{G \in \mathcal{G}} |\mu|(G) < +\infty$, trong trường hợp đó $\mu(A) = \lim_\mathcal{G} \mu(G)$ và $|\mu|(A) = \sup_{G \in \mathcal{G}} |\mu|(G)$.
+— Cho $\mathscr{G}$ là một tập hợp, có hướng theo quan hệ $\subset$, gồm các tập hợp mở khả tích trong $X$; để $A = \bigcup_{G \in \mathscr{G}} G$ là khả tích, cần và đủ rằng $\sup_{G \in \mathscr{G}} |\mu|(G) < +\infty$, trong trường hợp đó $\mu(A) = \lim_\mathscr{G} \mu(G)$ và $|\mu|(A) = \sup_{G \in \mathscr{G}} |\mu|(G)$.
 
-Vì, ta biết rằng $|\mu|^*(A) = \sup_{G \in \mathcal{G}} |\mu|(G)$ (§ 1, No. 2, Mệnh đề 7); do đó mệnh đề suy ra từ Mệnh đề 10.
+Vì, ta biết rằng $|\mu|^*(A) = \sup_{G \in \mathscr{G}} |\mu|(G)$ (§ 1, No. 2, Mệnh đề 7); do đó mệnh đề suy ra từ Mệnh đề 10.
 
 #### Hệ quả {#int-iv-s4-n6-cor-1 .statement}
 
@@ -517,7 +517,7 @@ Chỉ cần áp dụng Hệ quả 2 cho một tập mở khả tích chứa tậ
 
 — Với mọi tập mở $U$ trong $X$, $|\mu|^*(U)$ là cận trên đúng của các độ đo $|\mu|(K)$ của các tập compact $K \subset U$.
 
-Nếu $|\mu|^*(U) < +\infty$, điều này suy ra ngay từ Th. 4. Lập luận sau cũng bao quát trường hợp $|\mu|^*(U) = +\infty$. Vì $X$ compact địa phương và $U$ mở, nên $\varphi_U$ là bao trên của tập $H$ các hàm $f \in \mathcal{K}_+$ sao cho $f \leq \varphi_U$ và $\operatorname{Supp}(f) \subset U$ (xem chứng minh của §1, No. 1, Bổ đề), và, vì $H$ có hướng đối với $\leq$, ta có $|\mu|^*(U) = \sup_{f \in H} |\mu|(f)$ theo §1, No. 1, Th. 1; khi đó hệ quả suy ra ngay từ việc nếu $f \in H$ và $K = \operatorname{Supp}(f)$, thì $f \leq \varphi_K \leq \varphi_U$.
+Nếu $|\mu|^*(U) < +\infty$, điều này suy ra ngay từ Th. 4. Lập luận sau cũng bao quát trường hợp $|\mu|^*(U) = +\infty$. Vì $X$ compact địa phương và $U$ mở, nên $\varphi_U$ là bao trên của tập $H$ các hàm $f \in \mathscr{K}_+$ sao cho $f \leq \varphi_U$ và $\operatorname{Supp}(f) \subset U$ (xem chứng minh của §1, No. 1, Bổ đề), và, vì $H$ có hướng đối với $\leq$, ta có $|\mu|^*(U) = \sup_{f \in H} |\mu|(f)$ theo §1, No. 1, Th. 1; khi đó hệ quả suy ra ngay từ việc nếu $f \in H$ và $K = \operatorname{Supp}(f)$, thì $f \leq \varphi_K \leq \varphi_U$.
 
 Chú ý rằng $|\mu|^*(U)$ cũng là cận trên đúng của các số đo $|\mu|(G)$ của các tập mở tương đối compact sao cho $\overline{G} \subset U$. Thật vậy, nếu $K$ là một tập compact được chứa trong $U$ thì, với mọi $x \in K$, tồn tại một lân cận mở tương đối compact $V$ của $x$ sao cho $\overline{V} \subset U$. Phủ $K$ bởi một số hữu hạn các lân cận đó, hợp của chúng $G$ là một tập mở tương đối compact sao cho $\overline{G} \subset U$ và $K \subset G$, do đó $|\mu|(K) \leq |\mu|(G) \leq |\mu|^*(U)$.
 
@@ -539,12 +539,12 @@ Suy ra từ ĐL. 4 của No. 6 rằng nếu $\mu$ là một độ đo bị chặ
 
 #### Mệnh đề 13 {#int-iv-s4-prop-13 .statement}
 
-— Cho $\mu$ là một độ đo bị chặn trên $X$. Cho $\mathcal{B}$ là một cơ sở lọc trên $\mathcal{L}_F^p$ có các tính chất sau:
-$1^\circ$ tồn tại một tập $M \in \mathcal{B}$ sao cho các hàm $f \in M$ bị chặn đều trên $X$;
-$2^\circ$ $\mathcal{B}$ hội tụ đều trên mọi tập con compact của $X$ tới một hàm $f_0$.
-Dưới các điều kiện này, $f_0$ thuộc $\mathcal{L}_F^p$ và $\mathcal{B}$ hội tụ trong trung bình cấp $p$ tới $f_0$.
+— Cho $\mu$ là một độ đo bị chặn trên $X$. Cho $\mathscr{B}$ là một cơ sở lọc trên $\mathscr{L}_F^p$ có các tính chất sau:
+$1^\circ$ tồn tại một tập $M \in \mathscr{B}$ sao cho các hàm $f \in M$ bị chặn đều trên $X$;
+$2^\circ$ $\mathscr{B}$ hội tụ đều trên mọi tập con compact của $X$ tới một hàm $f_0$.
+Dưới các điều kiện này, $f_0$ thuộc $\mathscr{L}_F^p$ và $\mathscr{B}$ hội tụ trong trung bình cấp $p$ tới $f_0$.
 
-Trước hết ta lưu ý rằng nếu $|f(x)| \leq a$ với mọi $x \in X$ và mọi hàm $f \in M$, thì cũng có $|f_0(x)| \leq a$ với mọi $x \in X$. Khi đó, với mọi $\varepsilon > 0$ tồn tại một tập compact $K$ sao cho $|\mu|(CK) \leq \varepsilon^p$ và một tập $N \in \mathcal{B}$ sao cho, với mọi hàm $f \in N$, $|f(x) - f_0(x)| \leq \varepsilon(|\mu|(K))^{-1/p}$ với mọi $x \in K$. Bây giờ, ta có thể viết
+Trước hết ta lưu ý rằng nếu $|f(x)| \leq a$ với mọi $x \in X$ và mọi hàm $f \in M$, thì cũng có $|f_0(x)| \leq a$ với mọi $x \in X$. Khi đó, với mọi $\varepsilon > 0$ tồn tại một tập compact $K$ sao cho $|\mu|(CK) \leq \varepsilon^p$ và một tập $N \in \mathscr{B}$ sao cho, với mọi hàm $f \in N$, $|f(x) - f_0(x)| \leq \varepsilon(|\mu|(K))^{-1/p}$ với mọi $x \in K$. Bây giờ, ta có thể viết
 
 $$
 f - f_0 = (f - f_0)\varphi_K + (f - f_0)\varphi_{CK};
@@ -554,15 +554,15 @@ Suy ra từ điều trên rằng nếu $f \in M \cap N$ thì $N_p((f - f_0)\varp
 
 #### Hệ quả {#int-iv-s4-n7-cor-1 .statement}
 
-— Đối với một độ đo bị chặn $\mu$ trên $X$, mọi ánh xạ liên tục bị chặn $f$ của $X$ vào $F$ đều thuộc vào từng $\mathcal{L}_F^p$ ($1 \leq p < +\infty$).
+— Đối với một độ đo bị chặn $\mu$ trên $X$, mọi ánh xạ liên tục bị chặn $f$ của $X$ vào $F$ đều thuộc vào từng $\mathscr{L}_F^p$ ($1 \leq p < +\infty$).
 
-Với mọi tập con compact $K$ của $X$, cho $M_K$ là tập hợp các ánh xạ của $X$ vào $F$ có dạng $hf$, trong đó $h$ là một ánh xạ liên tục của $X$ vào $[0, 1]$ bằng 1 trên $K$ và có giá đỡ compact. Hiển nhiên các tập hợp $M_K$ tạo thành một cơ sở lọc $\mathcal{B}$ trên $\mathcal{L}_F^p$, các hàm thuộc $M_K$ đều bị chặn đều, và $\mathcal{B}$ hội tụ đều về $f$ trên mọi tập con compact của $X$, do đó có hệ quả.
+Với mọi tập con compact $K$ của $X$, cho $M_K$ là tập hợp các ánh xạ của $X$ vào $F$ có dạng $hf$, trong đó $h$ là một ánh xạ liên tục của $X$ vào $[0, 1]$ bằng 1 trên $K$ và có giá đỡ compact. Hiển nhiên các tập hợp $M_K$ tạo thành một cơ sở lọc $\mathscr{B}$ trên $\mathscr{L}_F^p$, các hàm thuộc $M_K$ đều bị chặn đều, và $\mathscr{B}$ hội tụ đều về $f$ trên mọi tập con compact của $X$, do đó có hệ quả.
 
-Đặc biệt, hàm $f$ khả tích và tích phân $\int f\, d\mu$ của nó là giới hạn đối với $\mathcal{B}$ của các tích phân $\int h f\, d\mu$.
+Đặc biệt, hàm $f$ khả tích và tích phân $\int f\, d\mu$ của nó là giới hạn đối với $\mathscr{B}$ của các tích phân $\int h f\, d\mu$.
 
 Chúng ta sẽ thu được lại Hệ quả của Mệnh đề 13 như một hệ quả của một tiêu chuẩn tổng quát về tính khả tích trong §5, No. 6.
 
-Theo ký hiệu của Ch. III, §1, No. 2, $|f| \leq \|f\| \cdot 1$ đối với mọi hàm $f \in \mathcal{C}^b(X; F)$, do đó, theo các công thức (3) và (4) của No. 2,
+Theo ký hiệu của Ch. III, §1, No. 2, $|f| \leq \|f\| \cdot 1$ đối với mọi hàm $f \in \mathscr{C}^b(X; F)$, do đó, theo các công thức (3) và (4) của No. 2,
 
 $$
 N_p(f) \leq \|f\| \cdot N_p(1) = \|f\| \cdot \|\mu\|^{1/p}.
@@ -574,7 +574,7 @@ $$
 \left| \int f\, d\mu \right| \leq \|f\| \cdot \|\mu\|,
 $$
 
-do đó ánh xạ $f \mapsto \int f\, d\mu$ liên tục trên không gian Banach $\mathcal{C}^b(X; F)$; do hạn chế của nó lên bao đóng $\mathcal{C}^0(X; F)$ của $\mathcal{K}(X; F)$ trong $\mathcal{C}^b(X; F)$, tức là lên không gian các hàm liên tục tiến tới 0 tại điểm ở vô cực (Ch. III, §1, No. 2, Prop. 3), vì thế là sự mở rộng liên tục của tích phân lên $\mathcal{C}^0(X; F)$.
+do đó ánh xạ $f \mapsto \int f\, d\mu$ liên tục trên không gian Banach $\mathscr{C}^b(X; F)$; do hạn chế của nó lên bao đóng $\mathscr{C}^0(X; F)$ của $\mathscr{K}(X; F)$ trong $\mathscr{C}^b(X; F)$, tức là lên không gian các hàm liên tục tiến tới 0 tại điểm ở vô cực (Ch. III, §1, No. 2, Prop. 3), vì thế là sự mở rộng liên tục của tích phân lên $\mathscr{C}^0(X; F)$.
 
 ### 8. Tích phân đối với một độ đo có giá đỡ compact
 
@@ -590,17 +590,17 @@ $$
 \left| \int f\, d\mu \right| \leq \|\mu\| \cdot \sup_{x \in S} |f(x)|.
 $$
 
-Đặc biệt, nếu $f$ liên tục trên $X$ thì $f$ là $\mu$-khả tích, vì $fh \in \mathcal{K}(X; F)$ đối với mọi hàm $h \in \mathcal{K}(X; \mathbf{R})$ bằng 1 trên $S$ (Ch. III, §1, No. 2, Bổ đề 1). Chính xác hơn:
+Đặc biệt, nếu $f$ liên tục trên $X$ thì $f$ là $\mu$-khả tích, vì $fh \in \mathscr{K}(X; F)$ đối với mọi hàm $h \in \mathscr{K}(X; \mathbf{R})$ bằng 1 trên $S$ (Ch. III, §1, No. 2, Bổ đề 1). Chính xác hơn:
 
 #### Mệnh đề 14 {#int-iv-s4-prop-14 .statement}
 
-— Cho X là một không gian địa phương compact, F là một không gian Banach không bằng 0; trang bị cho không gian $\mathcal{C}(X; F)$ gồm tất cả các ánh xạ liên tục từ X vào F tôpô của sự hội tụ compact. Đối với một độ đo $\mu$ trên X, điều kiện cần và đủ để ánh xạ tuyến tính $f \mapsto \int f d\mu$ của $\mathcal{K}(X; F)$ vào F có thể mở rộng thành một ánh xạ tuyến tính liên tục của $\mathcal{C}(X; F)$ vào F là $\operatorname{Supp}(\mu)$ compact; sự mở rộng như vậy là duy nhất và trùng với tích phân được định nghĩa ở No. 1.
+— Cho X là một không gian địa phương compact, F là một không gian Banach không bằng 0; trang bị cho không gian $\mathscr{C}(X; F)$ gồm tất cả các ánh xạ liên tục từ X vào F tôpô của sự hội tụ compact. Đối với một độ đo $\mu$ trên X, điều kiện cần và đủ để ánh xạ tuyến tính $f \mapsto \int f d\mu$ của $\mathscr{K}(X; F)$ vào F có thể mở rộng thành một ánh xạ tuyến tính liên tục của $\mathscr{C}(X; F)$ vào F là $\operatorname{Supp}(\mu)$ compact; sự mở rộng như vậy là duy nhất và trùng với tích phân được định nghĩa ở No. 1.
 
-Ta vừa thấy rằng nếu $\mu$ có hỗ trợ compact, thì tích phân $\int f d\mu$ được định nghĩa cho mọi hàm $f \in \mathcal{C}(X; F)$ và rằng ánh xạ $f \mapsto \int f d\mu$ của $\mathcal{C}(X; F)$ vào F liên tục đối với tôpô của sự hội tụ compact. Ngược lại, giả sử rằng $f \mapsto \int f d\mu$ liên tục trên $\mathcal{K}(X; F)$ đối với tôpô của sự hội tụ compact. Khi đó, có một tập compact $K \subset X$ và một số $a > 0$ sao cho $|\mu(f)| \leq a \cdot \sup_{x \in K} |f(x)|$ đối với mọi hàm $f \in \mathcal{K}(X; F)$; đặc biệt, nếu hỗ trợ của $g \in \mathcal{K}(X; F)$ không giao với K, thì $\mu(g) = 0$. Lấy $g = h a$, trong đó $a \neq 0$ là một vectơ trong F và $h \in \mathcal{K}(X; \mathbf{C})$, ta thấy rằng $\mu(h) = 0$ đối với mọi hàm $h \in \mathcal{K}(X; \mathbf{C})$ có hỗ trợ không giao với K, điều này chứng tỏ rằng $\operatorname{Supp}(\mu) \subset K$. Cuối cùng, tính duy nhất của mở rộng suy ra từ thực tế là $\mathcal{K}(X; F)$ trù mật trong $\mathcal{C}(X; F)$ đối với tôpô của sự hội tụ compact (Ch. III, §1, No. 2, Mệnh đề 4).
+Ta vừa thấy rằng nếu $\mu$ có hỗ trợ compact, thì tích phân $\int f d\mu$ được định nghĩa cho mọi hàm $f \in \mathscr{C}(X; F)$ và rằng ánh xạ $f \mapsto \int f d\mu$ của $\mathscr{C}(X; F)$ vào F liên tục đối với tôpô của sự hội tụ compact. Ngược lại, giả sử rằng $f \mapsto \int f d\mu$ liên tục trên $\mathscr{K}(X; F)$ đối với tôpô của sự hội tụ compact. Khi đó, có một tập compact $K \subset X$ và một số $a > 0$ sao cho $|\mu(f)| \leq a \cdot \sup_{x \in K} |f(x)|$ đối với mọi hàm $f \in \mathscr{K}(X; F)$; đặc biệt, nếu hỗ trợ của $g \in \mathscr{K}(X; F)$ không giao với K, thì $\mu(g) = 0$. Lấy $g = h a$, trong đó $a \neq 0$ là một vectơ trong F và $h \in \mathscr{K}(X; \mathbf{C})$, ta thấy rằng $\mu(h) = 0$ đối với mọi hàm $h \in \mathscr{K}(X; \mathbf{C})$ có hỗ trợ không giao với K, điều này chứng tỏ rằng $\operatorname{Supp}(\mu) \subset K$. Cuối cùng, tính duy nhất của mở rộng suy ra từ thực tế là $\mathscr{K}(X; F)$ trù mật trong $\mathscr{C}(X; F)$ đối với tôpô của sự hội tụ compact (Ch. III, §1, No. 2, Mệnh đề 4).
 
-Mệnh đề 14 cho phép đồng nhất một độ đo trên X có hỗ trợ compact với phần mở rộng liên tục của nó đến $\mathcal{C}(X; \mathbf{C})$. Do đó, tập các độ đo trên X có hỗ trợ compact có thể được đồng nhất với đối ngẫu $\mathcal{C}'(X; \mathbf{C})$ của không gian lồi địa phương Hausdorff $\mathcal{C}(X; \mathbf{C})$. Nhắc lại rằng $\mathcal{C}(X; \mathbf{C})$ đầy đủ (GT, X, §1, No. 6, Hệ quả 3 của Định lý 2), nhưng không nhất thiết là barreled (Bài tập 17). Tuy nhiên, nếu X đếm được ở vô cực, do đó là hợp của một dãy tăng các tập compact $K_n$ sao cho $K_n \subset \overset{\circ}{K}_{n+1}$, thì tôpô của $\mathcal{C}(X; \mathbf{C})$ có thể được xác định bởi họ đếm được các nửa chuẩn $p_n(f) = \sup_{x \in K_n} |f(x)|$, do đó $\mathcal{C}(X; \mathbf{C})$ là một không gian Fréchet trong trường hợp này. Do đó, với mọi phủ $\mathcal{G}$ của $\mathcal{C}(X; \mathbf{C})$ bởi các tập bị chặn, không gian $\mathcal{C}'(X; \mathbf{C})$ khi đó là quasi-đầy đủ đối với tôpô $\mathcal{G}$ (TVS, III, §4, No. 2, Hệ quả 4 của Định lý 1).
+Mệnh đề 14 cho phép đồng nhất một độ đo trên X có hỗ trợ compact với phần mở rộng liên tục của nó đến $\mathscr{C}(X; \mathbf{C})$. Do đó, tập các độ đo trên X có hỗ trợ compact có thể được đồng nhất với đối ngẫu $\mathscr{C}'(X; \mathbf{C})$ của không gian lồi địa phương Hausdorff $\mathscr{C}(X; \mathbf{C})$. Nhắc lại rằng $\mathscr{C}(X; \mathbf{C})$ đầy đủ (GT, X, §1, No. 6, Hệ quả 3 của Định lý 2), nhưng không nhất thiết là barreled (Bài tập 17). Tuy nhiên, nếu X đếm được ở vô cực, do đó là hợp của một dãy tăng các tập compact $K_n$ sao cho $K_n \subset \overset{\circ}{K}_{n+1}$, thì tôpô của $\mathscr{C}(X; \mathbf{C})$ có thể được xác định bởi họ đếm được các nửa chuẩn $p_n(f) = \sup_{x \in K_n} |f(x)|$, do đó $\mathscr{C}(X; \mathbf{C})$ là một không gian Fréchet trong trường hợp này. Do đó, với mọi phủ $\mathscr{G}$ của $\mathscr{C}(X; \mathbf{C})$ bởi các tập bị chặn, không gian $\mathscr{C}'(X; \mathbf{C})$ khi đó là quasi-đầy đủ đối với tôpô $\mathscr{G}$ (TVS, III, §4, No. 2, Hệ quả 4 của Định lý 1).
 
-Trước hết ta sẽ xét trên $\mathcal{C}'(X; \mathbf{C})$ tôpô của sự hội tụ compact (tôpô của sự hội tụ đều trên các tập compact của $\mathcal{C}(X; \mathbf{C})$). Nhắc lại rằng các tập con tương đối compact H của $\mathcal{C}(X; \mathbf{C})$ được đặc trưng bởi các tính chất sau (GT, X, §2, No. 5, Hệ quả 3 của Định lý 2):
+Trước hết ta sẽ xét trên $\mathscr{C}'(X; \mathbf{C})$ tôpô của sự hội tụ compact (tôpô của sự hội tụ đều trên các tập compact của $\mathscr{C}(X; \mathbf{C})$). Nhắc lại rằng các tập con tương đối compact H của $\mathscr{C}(X; \mathbf{C})$ được đặc trưng bởi các tính chất sau (GT, X, §2, No. 5, Hệ quả 3 của Định lý 2):
 
 $1^\circ$ H là đồng đều liên tục;
 
@@ -608,41 +608,41 @@ $2^\circ$ với mọi $x \in X$, tập $H(x)$ gồm các $f(x)$, khi $f$ chạy 
 
 #### Mệnh đề 15 {#int-iv-s4-prop-15 .statement}
 
-— Cho X là một không gian địa phương compact và, với mọi $x \in X$, cho $\varepsilon_x$ là độ đo Dirac tại điểm x. Ánh xạ $x \mapsto \varepsilon_x$ của X vào $\mathcal{C}'(X; \mathbf{C})$ liên tục đối với tôpô của sự hội tụ compact trên $\mathcal{C}'(X; \mathbf{C})$.
+— Cho X là một không gian địa phương compact và, với mọi $x \in X$, cho $\varepsilon_x$ là độ đo Dirac tại điểm x. Ánh xạ $x \mapsto \varepsilon_x$ của X vào $\mathscr{C}'(X; \mathbf{C})$ liên tục đối với tôpô của sự hội tụ compact trên $\mathscr{C}'(X; \mathbf{C})$.
 
-Xét một lân cận của $\varepsilon_{x_0}$ trong $\mathcal{C}'(X; \mathbf{C})$ đối với tôpô này, mà ta có thể giả sử được xác định bằng cách lấy một số $\delta > 0$, một tập con compact H của $\mathcal{C}(X; \mathbf{C})$, và xét tập các độ đo $\mu$ trên X có giá compact sao cho $|\mu(f) - \varepsilon_{x_0}(f)| \leq \delta$ với mọi hàm $f \in H$. Vì H đều liên tục, tồn tại một lân cận U của $x_0$ trong X sao cho quan hệ $f \in H$ kéo theo $|f(x) - f(x_0)| \leq \delta$ với mọi $x \in U$, điều này cũng có thể viết là $|\varepsilon_x(f) - \varepsilon_{x_0}(f)| \leq \delta$ và chứng minh mệnh đề.(*)
+Xét một lân cận của $\varepsilon_{x_0}$ trong $\mathscr{C}'(X; \mathbf{C})$ đối với tôpô này, mà ta có thể giả sử được xác định bằng cách lấy một số $\delta > 0$, một tập con compact H của $\mathscr{C}(X; \mathbf{C})$, và xét tập các độ đo $\mu$ trên X có giá compact sao cho $|\mu(f) - \varepsilon_{x_0}(f)| \leq \delta$ với mọi hàm $f \in H$. Vì H đều liên tục, tồn tại một lân cận U của $x_0$ trong X sao cho quan hệ $f \in H$ kéo theo $|f(x) - f(x_0)| \leq \delta$ với mọi $x \in U$, điều này cũng có thể viết là $|\varepsilon_x(f) - \varepsilon_{x_0}(f)| \leq \delta$ và chứng minh mệnh đề.(*)
 
 #### Mệnh đề 16 {#int-iv-s4-prop-16 .statement}
 
-— Cho K là một tập con compact của X, L là không gian vectơ của các độ đo $\mu$ trên X có giá nằm trong K. Trên L, các tôpô cảm sinh bởi tôpô $\mathcal{T}$ của sự hội tụ compact trên $\mathcal{C}'(X; \mathbf{C})$ và tôpô $\mathcal{T}'$ của sự hội tụ compact chặt trên $\mathcal{M}(X; \mathbf{C})$ (Ch. III, §1, No. 10) trùng nhau.
+— Cho K là một tập con compact của X, L là không gian vectơ của các độ đo $\mu$ trên X có giá nằm trong K. Trên L, các tôpô cảm sinh bởi tôpô $\mathscr{T}$ của sự hội tụ compact trên $\mathscr{C}'(X; \mathbf{C})$ và tôpô $\mathscr{T}'$ của sự hội tụ compact chặt trên $\mathscr{M}(X; \mathbf{C})$ (Ch. III, §1, No. 10) trùng nhau.
 
-Hiển nhiên là trên L, tôpô cảm sinh bởi $\mathcal{T}$ mịn hơn tôpô cảm sinh bởi $\mathcal{T}'$. Ngược lại, cho H là một tập con compact của $\mathcal{C}(X; \mathbf{C})$, h là một hàm trong $\mathcal{K}(X; \mathbf{C})$ bằng 1 trên K. Hiển nhiên tập H' gồm các hàm fh, khi f chạy qua H, là compact chặt trong $\mathcal{K}(X; \mathbf{C})$, và, với mọi độ đo $\mu \in L$, $\mu(f) = \mu(fh)$ với mọi hàm $f \in H$, do đó suy ra kết luận.
+Hiển nhiên là trên L, tôpô cảm sinh bởi $\mathscr{T}$ mịn hơn tôpô cảm sinh bởi $\mathscr{T}'$. Ngược lại, cho H là một tập con compact của $\mathscr{C}(X; \mathbf{C})$, h là một hàm trong $\mathscr{K}(X; \mathbf{C})$ bằng 1 trên K. Hiển nhiên tập H' gồm các hàm fh, khi f chạy qua H, là compact chặt trong $\mathscr{K}(X; \mathbf{C})$, và, với mọi độ đo $\mu \in L$, $\mu(f) = \mu(fh)$ với mọi hàm $f \in H$, do đó suy ra kết luận.
 
 #### Hệ quả 1 {#int-iv-s4-prop-16-cor-1 .statement}
 
-— Với mọi tập con compact K của X và mọi số $a > 0$, tập B gồm các độ đo $\mu$ trên X sao cho $\operatorname{Supp}(\mu) \subset K$ và $\| \mu \| \leq a$ là một tập con đều liên tục của $\mathcal{C}'(X; \mathbf{C})$ và compact đối với tôpô $\mathcal{T}$ của sự hội tụ compact.
+— Với mọi tập con compact K của X và mọi số $a > 0$, tập B gồm các độ đo $\mu$ trên X sao cho $\operatorname{Supp}(\mu) \subset K$ và $\| \mu \| \leq a$ là một tập con đều liên tục của $\mathscr{C}'(X; \mathbf{C})$ và compact đối với tôpô $\mathscr{T}$ của sự hội tụ compact.
 
-Thật vậy, cho H là một tập con của $\mathcal{C}(X; \mathbf{C})$ gồm các hàm bị chặn đều trên K; tồn tại một số $c > 0$ sao cho $|\mu(f)| \leq c \cdot \| \mu \| \leq ac$ với mọi hàm $f \in H$ và mọi độ đo $\mu \in B$, nhờ (22); do đó $B \subset acH^\circ$ trong đối ngẫu $\mathcal{C}'(X; \mathbf{C})$ của $\mathcal{C}(X; \mathbf{C})$, điều này chứng minh tính đều liên tục của B; thực tế là B compact đối với $\mathcal{T}$ suy ra từ thực tế là, trên B, $\mathcal{T}$ và tôpô mơ hồ cảm sinh cùng một tôpô (Mệnh đề 16 và Ch. III, §1, No. 10, Mệnh đề 17) và thực tế là B compact theo tôpô mơ hồ (Ch. III, §1, No. 9, Hệ quả 2 của Mệnh đề 15 và §2, No. 2, Mệnh đề 6).
+Thật vậy, cho H là một tập con của $\mathscr{C}(X; \mathbf{C})$ gồm các hàm bị chặn đều trên K; tồn tại một số $c > 0$ sao cho $|\mu(f)| \leq c \cdot \| \mu \| \leq ac$ với mọi hàm $f \in H$ và mọi độ đo $\mu \in B$, nhờ (22); do đó $B \subset acH^\circ$ trong đối ngẫu $\mathscr{C}'(X; \mathbf{C})$ của $\mathscr{C}(X; \mathbf{C})$, điều này chứng minh tính đều liên tục của B; thực tế là B compact đối với $\mathscr{T}$ suy ra từ thực tế là, trên B, $\mathscr{T}$ và tôpô mơ hồ cảm sinh cùng một tôpô (Mệnh đề 16 và Ch. III, §1, No. 10, Mệnh đề 17) và thực tế là B compact theo tôpô mơ hồ (Ch. III, §1, No. 9, Hệ quả 2 của Mệnh đề 15 và §2, No. 2, Mệnh đề 6).
 
 #### Hệ quả 2 {#int-iv-s4-prop-16-cor-2 .statement}
 
-— Mọi độ đo có giá compact (resp. mọi độ đo dương có giá compact) $\mu$ đều nằm trong bao đóng của $\mathcal{C}'(X; \mathbf{C})$, đối với tôpô $\mathcal{T}$ của sự hội tụ compact, của tập các độ đo (resp.
+— Mọi độ đo có giá compact (resp. mọi độ đo dương có giá compact) $\mu$ đều nằm trong bao đóng của $\mathscr{C}'(X; \mathbf{C})$, đối với tôpô $\mathscr{T}$ của sự hội tụ compact, của tập các độ đo (resp.
 
-(*) Thực ra, ánh xạ $x \mapsto \varepsilon_x$ là một đồng phôi của X vào $\mathcal{C}'(X; \mathbf{C})$ (Ch. VI, §1, No. 6, Nhận xét 1).
+(*) Thực ra, ánh xạ $x \mapsto \varepsilon_x$ là một đồng phôi của X vào $\mathscr{C}'(X; \mathbf{C})$ (Ch. VI, §1, No. 6, Nhận xét 1).
 
 các độ đo dương) có giá hữu hạn và nằm trong $\operatorname{Supp}(\mu)$ và có chuẩn bằng $\| \mu \|$.
 
-Thật vậy, trên tập B gồm các độ đo $\nu$ sao cho $\mathrm{Supp}(\nu) \subset \mathrm{Supp}(\mu)$ và $\| \nu \| \leq \| \mu \|$, tôpô cảm sinh bởi tôpô mơ hồ trùng với tôpô cảm sinh bởi $\mathcal{T}$, và do đó hệ quả suy ra từ Ch. III, §2, No. 4, Hệ quả 2 và 3 của Định lý 1.
+Thật vậy, trên tập B gồm các độ đo $\nu$ sao cho $\mathrm{Supp}(\nu) \subset \mathrm{Supp}(\mu)$ và $\| \nu \| \leq \| \mu \|$, tôpô cảm sinh bởi tôpô mơ hồ trùng với tôpô cảm sinh bởi $\mathscr{T}$, và do đó hệ quả suy ra từ Ch. III, §2, No. 4, Hệ quả 2 và 3 của Định lý 1.
 
 ### 9. Các họ và các hàm tập cộng tính
 
 #### Định nghĩa 3 {#int-iv-s4-def-3 .statement}
 
-*Một tập hợp khác rỗng $\Phi$ gồm các tập con của một tập hợp $A$ được gọi là một clan nếu tồn tại một đại số $\mathcal{A}$ (trên $\mathbf{R}$) gồm các hàm giá trị thực xác định trên $A$, sao cho các quan hệ $M \in \Phi$ và $\varphi_M \in \mathcal{A}$ là tương đương.*
+*Một tập hợp khác rỗng $\Phi$ gồm các tập con của một tập hợp $A$ được gọi là một clan nếu tồn tại một đại số $\mathscr{A}$ (trên $\mathbf{R}$) gồm các hàm giá trị thực xác định trên $A$, sao cho các quan hệ $M \in \Phi$ và $\varphi_M \in \mathscr{A}$ là tương đương.*
 
 #### Ví dụ {#int-iv-s4-n9-exa-1 .statement}
 
-Nếu $\mu$ là một độ đo trên một không gian compact địa phương $X$ thì các tổ hợp tuyến tính, với hệ số thực, của các hàm đặc trưng của các tập hợp khả tích lập thành một *đại số* $\mathcal{A}$, vì, với bất kỳ hai tập hợp khả tích nào $M, N$, hàm $\varphi_M \varphi_N = \varphi_{M \cap N}$ là khả tích (No. 5, Mệnh đề 7); do đó suy ra từ Định nghĩa 2 và 3 rằng tập hợp các tập con khả tích của $X$ là một clan.
+Nếu $\mu$ là một độ đo trên một không gian compact địa phương $X$ thì các tổ hợp tuyến tính, với hệ số thực, của các hàm đặc trưng của các tập hợp khả tích lập thành một *đại số* $\mathscr{A}$, vì, với bất kỳ hai tập hợp khả tích nào $M, N$, hàm $\varphi_M \varphi_N = \varphi_{M \cap N}$ là khả tích (No. 5, Mệnh đề 7); do đó suy ra từ Định nghĩa 2 và 3 rằng tập hợp các tập con khả tích của $X$ là một clan.
 
 #### Mệnh đề 17 {#int-iv-s4-prop-17 .statement}
 
@@ -656,7 +656,7 @@ $$
 \varphi_{M \cup N} = \varphi_M + \varphi_N - \varphi_M \varphi_N , \quad \varphi_{M \cap \mathbf{C}N} = \varphi_M - \varphi_M \varphi_N .
 $$
 
-Để chứng minh rằng nó *đủ*, trước hết ta nhận thấy rằng điều đó kéo theo: với bất kỳ hai tập hợp $M, N$ trong $\Phi$, $M \cap N$ thuộc $\Phi$ vì $M \cap N = M \cap \mathbf{C}(M \cap \mathbf{C}N)$. Đặt $\mathcal{E}(\Phi)$ là tập hợp các tổ hợp tuyến tính, với hệ số thực, của các hàm đặc trưng của các tập hợp của $\Phi$. Vì $\varphi_M \varphi_N = \varphi_{M \cap N}$, $\mathcal{E}(\Phi)$ là một đại số. Mọi việc quy về chứng minh rằng nếu $M$ là một tập con của $A$ sao cho $\varphi_M = \sum_i c_i \varphi_{M_i}$, trong đó các $M_i$ thuộc $\Phi$, thì $M \in \Phi$. Điều này sẽ suy ra từ bổ đề sau:
+Để chứng minh rằng nó *đủ*, trước hết ta nhận thấy rằng điều đó kéo theo: với bất kỳ hai tập hợp $M, N$ trong $\Phi$, $M \cap N$ thuộc $\Phi$ vì $M \cap N = M \cap \mathbf{C}(M \cap \mathbf{C}N)$. Đặt $\mathscr{E}(\Phi)$ là tập hợp các tổ hợp tuyến tính, với hệ số thực, của các hàm đặc trưng của các tập hợp của $\Phi$. Vì $\varphi_M \varphi_N = \varphi_{M \cap N}$, $\mathscr{E}(\Phi)$ là một đại số. Mọi việc quy về chứng minh rằng nếu $M$ là một tập con của $A$ sao cho $\varphi_M = \sum_i c_i \varphi_{M_i}$, trong đó các $M_i$ thuộc $\Phi$, thì $M \in \Phi$. Điều này sẽ suy ra từ bổ đề sau:
 
 #### Bổ đề {#int-iv-s4-n9-lem-1 .statement}
 
@@ -676,15 +676,15 @@ Mỗi họ $\Phi$ các tập con của $A$ đều chứa tập con rỗng $\varn
 
 *Cho một họ $\Phi$ các tập con của một tập $A$, và một không gian Banach $F$, người ta gọi* hàm bậc thang² *trên các tập của $\Phi$ (hay hàm bậc thang $\Phi$), nhận giá trị trong $F$, mọi hàm có dạng* $\sum_i a_i \varphi_{M_i}$, *trong đó các $a_i$ thuộc $F$, và các $M_i$ thuộc $\Phi$.*
 
-Rõ ràng tập $\mathcal{E}_F(\Phi)$ các hàm bậc thang $\Phi$ nhận giá trị trong $F$ là một không gian vectơ trên $\mathbf{R}$ hoặc $\mathbf{C}$. Ta vừa thấy trong Mệnh đề 17 rằng tập $\mathcal{E}(\Phi)$ các hàm bậc thang nhận giá trị thực là một *đại số* trên $\mathbf{R}$; nó cũng là không gian con tuyến tính của $\mathbf{R}^A$ sinh bởi các hàm đặc trưng của các tập của $\Phi$.
+Rõ ràng tập $\mathscr{E}_F(\Phi)$ các hàm bậc thang $\Phi$ nhận giá trị trong $F$ là một không gian vectơ trên $\mathbf{R}$ hoặc $\mathbf{C}$. Ta vừa thấy trong Mệnh đề 17 rằng tập $\mathscr{E}(\Phi)$ các hàm bậc thang nhận giá trị thực là một *đại số* trên $\mathbf{R}$; nó cũng là không gian con tuyến tính của $\mathbf{R}^A$ sinh bởi các hàm đặc trưng của các tập của $\Phi$.
 
-Theo Bổ đề, mọi hàm trong $\mathcal{E}_F(\Phi)$ đều có thể viết $f = \sum_j c_j \varphi_{N_j}$, trong đó các $N_j \in \Phi$ đôi một rời nhau; từ đó suy ra rằng $|f| = \sum_j |c_j| \varphi_{N_j}$ thuộc $\mathcal{E}(\Phi)$. Đặc biệt, $\mathcal{E}(\Phi)$ là một *không gian Riesz*, vì cận trên của hai hàm trong $\mathcal{E}(\Phi)$ thuộc $\mathcal{E}(\Phi)$.
+Theo Bổ đề, mọi hàm trong $\mathscr{E}_F(\Phi)$ đều có thể viết $f = \sum_j c_j \varphi_{N_j}$, trong đó các $N_j \in \Phi$ đôi một rời nhau; từ đó suy ra rằng $|f| = \sum_j |c_j| \varphi_{N_j}$ thuộc $\mathscr{E}(\Phi)$. Đặc biệt, $\mathscr{E}(\Phi)$ là một *không gian Riesz*, vì cận trên của hai hàm trong $\mathscr{E}(\Phi)$ thuộc $\mathscr{E}(\Phi)$.
 
 #### Nhận xét {#int-iv-s4-n9-rem-1 .statement}
 
 — Dễ thấy rằng Định nghĩa 4 tương đương với phát biểu sau đây: một hàm bậc thang $\Phi$ với giá trị trong $F$ là một hàm $f$ chỉ nhận một số hữu hạn giá trị và sao cho, với mọi $a \neq 0$ trong $F$, tập $f(a)^{-1}$ thuộc $\Phi$.
 
-² Hàm bậc thang, do đó ký hiệu $\mathcal{E}(\Phi)$ trong phần sau.
+² Hàm bậc thang, do đó ký hiệu $\mathscr{E}(\Phi)$ trong phần sau.
 
 #### Định nghĩa 5 {#int-iv-s4-def-5 .statement}
 
@@ -694,9 +694,9 @@ Từ định nghĩa này suy ra ngay rằng $\lambda(\varnothing) = 0$.
 
 #### Mệnh đề 18 {#int-iv-s4-prop-18 .statement}
 
-— *Cho* $\lambda$ *là một hàm tập hợp cộng tính xác định trên một họ* $\Phi$. *Tồn tại một và chỉ một dạng tuyến tính* (cũng ký hiệu $\lambda$) *trên không gian vectơ* $\mathcal{E}(\Phi)$ *của các hàm bậc thang* $\Phi$* nhận giá trị thực*, *sao cho* $\lambda(\varphi_M) = \lambda(M)$ *với mọi tập hợp* $M \in \Phi$; *nếu, hơn nữa,* $\lambda(M) \geqslant 0$ *với mọi* $M \in \Phi$, *thì* $\lambda$ *là một dạng tuyến tính dương trên* $\mathcal{E}(\Phi)$.
+— *Cho* $\lambda$ *là một hàm tập hợp cộng tính xác định trên một họ* $\Phi$. *Tồn tại một và chỉ một dạng tuyến tính* (cũng ký hiệu $\lambda$) *trên không gian vectơ* $\mathscr{E}(\Phi)$ *của các hàm bậc thang* $\Phi$* nhận giá trị thực*, *sao cho* $\lambda(\varphi_M) = \lambda(M)$ *với mọi tập hợp* $M \in \Phi$; *nếu, hơn nữa,* $\lambda(M) \geqslant 0$ *với mọi* $M \in \Phi$, *thì* $\lambda$ *là một dạng tuyến tính dương trên* $\mathscr{E}(\Phi)$.
 
-*Tính duy nhất* của dạng tuyến tính $\lambda$ là hiển nhiên, vì các hàm đặc trưng của các tập trong $\Phi$ sinh ra không gian vectơ $\mathcal{E}(\Phi)$. Để chứng minh *sự tồn tại* của $\lambda$, chỉ cần chứng minh rằng hệ thức $\sum_i c_i \varphi_{M_i} = 0$, trong đó các $M_i$ là các tập khác rỗng thuộc $\Phi$, suy ra $\sum_i c_i \lambda(M_i) = 0$.
+*Tính duy nhất* của dạng tuyến tính $\lambda$ là hiển nhiên, vì các hàm đặc trưng của các tập trong $\Phi$ sinh ra không gian vectơ $\mathscr{E}(\Phi)$. Để chứng minh *sự tồn tại* của $\lambda$, chỉ cần chứng minh rằng hệ thức $\sum_i c_i \varphi_{M_i} = 0$, trong đó các $M_i$ là các tập khác rỗng thuộc $\Phi$, suy ra $\sum_i c_i \lambda(M_i) = 0$.
 
 Bây giờ, theo Bổ đề, tồn tại một họ hữu hạn $(N_j)$ gồm các tập khác rỗng đôi một rời nhau trong $\Phi$ sao cho, với mọi chỉ số $i$, $\varphi_{M_i} = \sum_j a_{ij} \varphi_{N_j}$ với $a_{ij} = 0$ hoặc $a_{ij} = 1$. Hệ thức $\sum_i c_i \varphi_{M_i} = 0$, có thể viết thành $\sum_j \left( \sum_i c_i a_{ij} \right) \varphi_{N_j} = 0$, do đó suy ra rằng $\sum_i c_i a_{ij} = 0$ với mọi chỉ số $j$. Theo Định nghĩa 5, ta có
 
@@ -704,33 +704,33 @@ $$
 \sum_i c_i \lambda(M_i) = \sum_j \left( \sum_i c_i a_{ij} \right) \lambda(N_j) = 0,
 $$
 
-mà điều này chứng minh sự tồn tại của $\lambda$. Sau cùng, giả sử rằng $\lambda(M) \geqslant 0$ đối với mọi $M \in \Phi$; với mọi hàm $f \in \mathcal{E}(\Phi)$, ta có thể viết $f = \sum_i c_i \varphi_{M_i}$, trong đó các $M_i \in \Phi$ từng đôi một rời nhau; nếu $f \geqslant 0$, suy ra rằng $c_i \geqslant 0$ đối với mọi chỉ số $i$ sao cho $M_i$ khác rỗng, do đó $\lambda(f) = \sum_i c_i \lambda(M_i) \geqslant 0$.
+mà điều này chứng minh sự tồn tại của $\lambda$. Sau cùng, giả sử rằng $\lambda(M) \geqslant 0$ đối với mọi $M \in \Phi$; với mọi hàm $f \in \mathscr{E}(\Phi)$, ta có thể viết $f = \sum_i c_i \varphi_{M_i}$, trong đó các $M_i \in \Phi$ từng đôi một rời nhau; nếu $f \geqslant 0$, suy ra rằng $c_i \geqslant 0$ đối với mọi chỉ số $i$ sao cho $M_i$ khác rỗng, do đó $\lambda(f) = \sum_i c_i \lambda(M_i) \geqslant 0$.
 
 ### 10. Xấp xỉ các hàm liên tục bởi các hàm bậc thang
 
 #### Mệnh đề 19 {#int-iv-s4-prop-19 .statement}
 
-— *Cho* $X$ *là một không gian địa phương compact,* $\Phi$ *một họ các tập con của* $X$, *chứa tập hợp các tập con compact của* $X$. *Với mọi ánh xạ liên tục* $f$ *từ* $X$ *vào một không gian Banach* $F$ *(tức là, mọi hàm liên tục, giá trị thực* $f \geqslant 0$ *trên* $X$) *có giá đỡ compact* $K$, *tồn tại một dãy* $(g_n)$ *các hàm trong* $\mathcal{E}_F(\Phi)$ *có giá đỡ được chứa trong* $K$ *(tức là một dãy* $(g_n)$ *các hàm trong* $\mathcal{E}(\Phi)$ *sao cho* 0 \leqslant g_n \leqslant f *đối với mọi* n) *hội tụ đều đến* $f$ *(tức là* $f$).
+— *Cho* $X$ *là một không gian địa phương compact,* $\Phi$ *một họ các tập con của* $X$, *chứa tập hợp các tập con compact của* $X$. *Với mọi ánh xạ liên tục* $f$ *từ* $X$ *vào một không gian Banach* $F$ *(tức là, mọi hàm liên tục, giá trị thực* $f \geqslant 0$ *trên* $X$) *có giá đỡ compact* $K$, *tồn tại một dãy* $(g_n)$ *các hàm trong* $\mathscr{E}_F(\Phi)$ *có giá đỡ được chứa trong* $K$ *(tức là một dãy* $(g_n)$ *các hàm trong* $\mathscr{E}(\Phi)$ *sao cho* 0 \leqslant g_n \leqslant f *đối với mọi* n) *hội tụ đều đến* $f$ *(tức là* $f$).
 
 Vì $f$ liên tục đều trên $K$, ta có thể phủ $K$ bởi một số hữu hạn các tập compact $M_i$ ($1 \leq i \leq m$) sao cho dao động của $f$ trên mỗi $M_i$ là $\leq 1/n$. Vì các $M_i$ và $K$ thuộc $\Phi$, tồn tại một phân hoạch của $K$ thành các tập $N_j \in \Phi$ sao cho mỗi tập $M_i \cap K$ là hợp của một số nhất định các $N_j$ (No. 9, Bổ đề). Cho $a_j$ là một phần tử của $F$ sao cho $|f(x) - a_j| \leq 1/n$ trên $N_j$. Đặt $g_n = \sum_j a_j \varphi_{N_j}$, ta có $|f - g_n| \leqslant 1/n$, do đó mệnh đề trong trường hợp này. Ta lập luận tương tự đối với một hàm liên tục giá trị thực $f$, bằng cách lấy $a_j = \inf_{x \in N_j} f(x)$ và $g_n = \sum_j a_j \varphi_{N_j}$.
 
 #### Hệ quả 1 {#int-iv-s4-prop-19-cor-1 .statement}
 
-*Cho $\mu$ là một độ đo trên $X$; không gian $\mathcal{E}_F(\Phi)$ trù mật trong mỗi không gian của các không gian $\mathcal{L}_F^p$ ($1 \leq p < +\infty$).*
+*Cho $\mu$ là một độ đo trên $X$; không gian $\mathscr{E}_F(\Phi)$ trù mật trong mỗi không gian của các không gian $\mathscr{L}_F^p$ ($1 \leq p < +\infty$).*
 
-Vì, từ Mệnh đề 19 và tiêu chuẩn hội tụ theo trung bình cho các giới hạn đều của các hàm có giá compact (§ 3, No. 3, Mệnh đề 4) suy ra rằng $\mathcal{E}_F(\Phi)$ là trù mật, đối với tôpô của sự hội tụ theo trung bình cấp $p$, trong bao đóng của không gian $\mathcal{K}_F$ gồm các hàm liên tục có giá compact, do đó suy ra hệ quả.
+Vì, từ Mệnh đề 19 và tiêu chuẩn hội tụ theo trung bình cho các giới hạn đều của các hàm có giá compact (§ 3, No. 3, Mệnh đề 4) suy ra rằng $\mathscr{E}_F(\Phi)$ là trù mật, đối với tôpô của sự hội tụ theo trung bình cấp $p$, trong bao đóng của không gian $\mathscr{K}_F$ gồm các hàm liên tục có giá compact, do đó suy ra hệ quả.
 
 #### Hệ quả 2 {#int-iv-s4-prop-19-cor-2 .statement}
 
-*Với mọi tập con đóng $S$ của $X$, mọi hàm $f \in \mathcal{K}(X, S; \mathbf{C})$ là giới hạn đều của các tổ hợp tuyến tính $\sum_i \lambda_i \varphi_{K_i}$, trong đó các $\lambda_i$ thuộc $\mathbf{C}$ và các $K_i$ là các tập con compact của $S$.*
+*Với mọi tập con đóng $S$ của $X$, mọi hàm $f \in \mathscr{K}(X, S; \mathbf{C})$ là giới hạn đều của các tổ hợp tuyến tính $\sum_i \lambda_i \varphi_{K_i}$, trong đó các $\lambda_i$ thuộc $\mathbf{C}$ và các $K_i$ là các tập con compact của $S$.*
 
-Tập $\mathcal{A}$ gồm những tổ hợp tuyến tính như vậy là một $\mathbf{C}$-đại số. Cho $\Phi$ là tập các tập con $M$ của $X$ sao cho $\varphi_M \in \mathcal{A}$; do đó $\Phi$ là một *clan* mà mọi phần tử của nó đều là các tập con của S, chứa các tập compact của $S$, và $\mathcal{E}_C(\Phi) \subset \mathcal{A}$. Khi đó chỉ cần áp dụng Mệnh đề 19 cho không gian địa phương compact $S$ và *clan* $\Phi$.
+Tập $\mathscr{A}$ gồm những tổ hợp tuyến tính như vậy là một $\mathbf{C}$-đại số. Cho $\Phi$ là tập các tập con $M$ của $X$ sao cho $\varphi_M \in \mathscr{A}$; do đó $\Phi$ là một *clan* mà mọi phần tử của nó đều là các tập con của S, chứa các tập compact của $S$, và $\mathscr{E}_C(\Phi) \subset \mathscr{A}$. Khi đó chỉ cần áp dụng Mệnh đề 19 cho không gian địa phương compact $S$ và *clan* $\Phi$.
 
 #### Hệ quả 3 {#int-iv-s4-prop-19-cor-3 .statement}
 
 *Nếu $\mu$ và $\nu$ là hai độ đo trên $X$ sao cho $\mu(K) = \nu(K)$ với mọi tập con compact $K$ của $X$, thì $\mu = \nu$.*
 
-Vì, từ Hệ quả 2 và định nghĩa của một độ đo suy ra rằng, với mọi tập con compact $S$ của $X$, $\mu$ và $\nu$ nhận cùng giá trị trên $\mathcal{K}(X, S; \mathbf{C})$.
+Vì, từ Hệ quả 2 và định nghĩa của một độ đo suy ra rằng, với mọi tập con compact $S$ của $X$, $\mu$ và $\nu$ nhận cùng giá trị trên $\mathscr{K}(X, S; \mathbf{C})$.
 
 ### 11. Mở rộng một độ đo xác định trên một họ các tập hợp
 
@@ -855,9 +855,9 @@ do đó $\overline{\alpha}(M \cup N) \geq \overline{\alpha}(M) + \overline{\alph
 
 **6° Sự tồn tại của độ đo $\mu$.**
 
-Theo Mệnh đề 18 của No. 9, tồn tại duy nhất một dạng tuyến tính dương $\beta$ trên không gian vectơ $\mathcal{E}(\overline{\Phi})$ của các hàm bậc thang $\overline{\Phi}$, sao cho $\beta(\varphi_M) = \overline{\alpha}(M)$ với mọi $M \in \overline{\Phi}$. Với mọi tập compact $K$ của $X$, ta ký hiệu bởi $\mathcal{G}(K)$ không gian các *giới hạn đều* của các hàm của $\mathcal{E}(\overline{\Phi})$ có giá đỡ được chứa trong $K$. Vì $\beta$ là dương, $|\beta(f)| \leq \overline{\alpha}(K) \cdot \|f\|$ với mọi hàm $f \in \mathcal{E}(\overline{\Phi})$ có giá đỡ được chứa trong $K$; *hạn chế* của $\beta$ lên không gian các hàm ấy là một dạng tuyến tính *liên tục* đối với tôpô hội tụ đều; do đó nó có thể được mở rộng thành một dạng tuyến tính dương *liên tục* $\overline{\beta}_K$ trên $\mathcal{G}(K)$. Hơn nữa, nếu $K \subset K_1$, thì hạn chế của $\overline{\beta}_{K_1}$ lên $\mathcal{G}(K)$ trùng với $\overline{\beta}_K$, do đó tồn tại một dạng tuyến tính dương $\overline{\beta}$ trên hợp $\mathcal{G}$ của các $\mathcal{G}(K)$, mở rộng mỗi một trong các dạng $\overline{\beta}_K$.
+Theo Mệnh đề 18 của No. 9, tồn tại duy nhất một dạng tuyến tính dương $\beta$ trên không gian vectơ $\mathscr{E}(\overline{\Phi})$ của các hàm bậc thang $\overline{\Phi}$, sao cho $\beta(\varphi_M) = \overline{\alpha}(M)$ với mọi $M \in \overline{\Phi}$. Với mọi tập compact $K$ của $X$, ta ký hiệu bởi $\mathscr{G}(K)$ không gian các *giới hạn đều* của các hàm của $\mathscr{E}(\overline{\Phi})$ có giá đỡ được chứa trong $K$. Vì $\beta$ là dương, $|\beta(f)| \leq \overline{\alpha}(K) \cdot \|f\|$ với mọi hàm $f \in \mathscr{E}(\overline{\Phi})$ có giá đỡ được chứa trong $K$; *hạn chế* của $\beta$ lên không gian các hàm ấy là một dạng tuyến tính *liên tục* đối với tôpô hội tụ đều; do đó nó có thể được mở rộng thành một dạng tuyến tính dương *liên tục* $\overline{\beta}_K$ trên $\mathscr{G}(K)$. Hơn nữa, nếu $K \subset K_1$, thì hạn chế của $\overline{\beta}_{K_1}$ lên $\mathscr{G}(K)$ trùng với $\overline{\beta}_K$, do đó tồn tại một dạng tuyến tính dương $\overline{\beta}$ trên hợp $\mathscr{G}$ của các $\mathscr{G}(K)$, mở rộng mỗi một trong các dạng $\overline{\beta}_K$.
 
-Bây giờ, vì mọi tập compact đều thuộc $\overline{\Phi}$, không gian $\mathcal{H}$ của các hàm liên tục nhận giá trị thực có giá đỡ compact là một *không gian con* của $\mathcal{G}$ (No. 10, Mệnh đề 19); vì thế *hạn chế* lên $\mathcal{H}$ của dạng tuyến tính dương $\overline{\beta}$ là một *độ đo* dương $\mu$. Ta hãy chứng minh rằng với mọi tập compact $K$, $\mu(K) = \overline{\alpha}(K)$. Với mọi $\varepsilon > 0$, tồn tại một tập mở $U \in \overline{\Phi}$ sao cho $K \subset U$, $\mu(U) \leq \mu(K) + \varepsilon$ và $\overline{\alpha}(U) \leq \overline{\alpha}(K) + \varepsilon$. Cho $f$ là một ánh xạ liên tục của $X$ vào $[0, 1]$ có giá đỡ được chứa trong $U$ và sao cho $f(x) = 1$ trên $K$ (Ch. III, §1, No. 2, Bổ đề 1). Khi đó $\mu(K) \leq \mu(f) \leq \mu(U) \leq \mu(K) + \varepsilon$, và, mặt khác,
+Bây giờ, vì mọi tập compact đều thuộc $\overline{\Phi}$, không gian $\mathscr{H}$ của các hàm liên tục nhận giá trị thực có giá đỡ compact là một *không gian con* của $\mathscr{G}$ (No. 10, Mệnh đề 19); vì thế *hạn chế* lên $\mathscr{H}$ của dạng tuyến tính dương $\overline{\beta}$ là một *độ đo* dương $\mu$. Ta hãy chứng minh rằng với mọi tập compact $K$, $\mu(K) = \overline{\alpha}(K)$. Với mọi $\varepsilon > 0$, tồn tại một tập mở $U \in \overline{\Phi}$ sao cho $K \subset U$, $\mu(U) \leq \mu(K) + \varepsilon$ và $\overline{\alpha}(U) \leq \overline{\alpha}(K) + \varepsilon$. Cho $f$ là một ánh xạ liên tục của $X$ vào $[0, 1]$ có giá đỡ được chứa trong $U$ và sao cho $f(x) = 1$ trên $K$ (Ch. III, §1, No. 2, Bổ đề 1). Khi đó $\mu(K) \leq \mu(f) \leq \mu(U) \leq \mu(K) + \varepsilon$, và, mặt khác,
 
 $$
 \overline{\alpha}(K) = \beta(\varphi_K) \leq \overline{\beta}(f) \leq \beta(\varphi_U) = \overline{\alpha}(U) \leq \overline{\alpha}(K) + \varepsilon;

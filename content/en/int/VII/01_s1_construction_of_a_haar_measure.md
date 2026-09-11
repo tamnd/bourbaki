@@ -56,7 +56,7 @@ subsections:
       pdf_page: 31
 statements: 42
 exercises: 23
-content_sha256: f223846d7e283fe3e359c0fdab7593b17359f020a6953967222d4e06deabaf12
+content_sha256: 62132d69780c5384e8642c385d846a4c29ae205f8f3be600977656dc11934c19
 ---
 
 ## § 1. CONSTRUCTION OF A HAAR MEASURE
@@ -88,7 +88,7 @@ If $\mu$ is a measure defined on $X$, $\gamma(s)\mu$ will also be defined by tra
 
 (4)
 $$
-\langle f, \gamma(s)\mu \rangle = \langle \gamma(s^{-1})f, \mu \rangle \quad \text{for } f \in \mathcal{K}(X).
+\langle f, \gamma(s)\mu \rangle = \langle \gamma(s^{-1})f, \mu \rangle \quad \text{for } f \in \mathscr{K}(X).
 $$
 
 In other words,
@@ -124,7 +124,7 @@ c) $\mu$ *is said to be quasi-invariant under $G$* if $\gamma(s)\mu$ *is equival
 
 #### Remark {#int-vii-s1-n1-rem-1 .statement}
 
-— 1) Assume $\mu$ invariant. Then $|\mu|$, $\mathcal{R}(\mu)$, $\mathcal{I}(\mu)$ are invariant. If $\mu$ is real, then $\mu^+$ and $\mu^-$ are invariant.
+— 1) Assume $\mu$ invariant. Then $|\mu|$, $\mathscr{R}(\mu)$, $\mathscr{I}(\mu)$ are invariant. If $\mu$ is real, then $\mu^+$ and $\mu^-$ are invariant.
 2) Assume $\mu$ relatively invariant and nonzero. There exists, for every $s \in G$, a unique complex number $\chi(s)$ such that
 
 (7)
@@ -160,7 +160,7 @@ If $\mu$ is quasi-invariant, then the support of $\mu$ is invariant under $G$. I
 
 #### Lemma 1 {#int-vii-s1-lem-1 .statement}
 
-— *Let $X, Y, Z$ be three topological spaces, with $Y$ locally compact. Let $(x, y) \mapsto xy$ be a continuous mapping of $X \times Y$ into $Z$, which defines a mapping $x \mapsto u_x$ of $X$ into $\mathcal{F}(Y; Z)$ by the relation $u_x(y) = xy$. Let $f$ be a continuous function on $Z$ with values in $\mathbf{R}$ or in a Banach space, S the support of $f$, and $\mu$ a measure on $Y$. Assume that for every $x_0 \in X$, there exists a neighborhood $V$ of $x_0$ in $X$ such that $\bigcup_{x \in V} u_x^{-1}(S)$ is relatively compact in $Y$. Then:
+— *Let $X, Y, Z$ be three topological spaces, with $Y$ locally compact. Let $(x, y) \mapsto xy$ be a continuous mapping of $X \times Y$ into $Z$, which defines a mapping $x \mapsto u_x$ of $X$ into $\mathscr{F}(Y; Z)$ by the relation $u_x(y) = xy$. Let $f$ be a continuous function on $Z$ with values in $\mathbf{R}$ or in a Banach space, S the support of $f$, and $\mu$ a measure on $Y$. Assume that for every $x_0 \in X$, there exists a neighborhood $V$ of $x_0$ in $X$ such that $\bigcup_{x \in V} u_x^{-1}(S)$ is relatively compact in $Y$. Then:
 a) for every $x \in X$, $f \circ u_x$ is continuous on $Y$, with compact support;
 b) the mapping $x \mapsto \int_Y f(xy)\, d\mu(y)$, which is defined by a), is continuous on $X$.
 
@@ -174,7 +174,7 @@ Let us now return to the previous notations.
 
 — *Assume that G is locally compact. Let $\mu$ be a nonzero relatively invariant measure on X. Then its multiplier $\chi$ is a continuous function on G.*
 
-For, let $f \in \mathcal{K}(X)$, S the support of $f$, $s_0$ a point of G, and V a compact neighborhood of $s_0$ in G; then, the set
+For, let $f \in \mathscr{K}(X)$, S the support of $f$, $s_0$ a point of G, and V a compact neighborhood of $s_0$ in G; then, the set
 
 $$
 \bigcup_{s \in V} \gamma(s)^{-1}(S) = V^{-1}S
@@ -255,7 +255,7 @@ $$
 For every measure $\mu$ on G, we define the measure $\check{\mu}$ by
 
 $$
-(13) \quad \check{\mu}(f) = \mu(\check{f}) \quad \text{for } f \in \mathcal{K}(G).
+(13) \quad \check{\mu}(f) = \mu(\check{f}) \quad \text{for } f \in \mathscr{K}(G).
 $$
 
 In other words,
@@ -286,21 +286,21 @@ $$
 
 *On every locally compact group, there exists a left (resp. right) Haar measure, and, up to a constant factor, there exists only one.*
 
-A) *Existence.* — Set $\mathcal{K}(G) = \mathcal{K}$, $\mathcal{K}_+(G) = \mathcal{K}_+$, $\mathcal{K}_+^* = \mathcal{K}_+ - \{0\}$. If C is a compact subset of G, we denote by $\mathcal{K}_+^*(C)$ the set of $f \in \mathcal{K}_+^*$ with support in C. For $f \in \mathcal{K}$ and $g \in \mathcal{K}_+^*$, there exist numbers $c_1, \ldots, c_n \geq 0$ and elements $s_1, \ldots, s_n$ of G such that $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$: for, there exists a nonempty open set U in G such that $\inf_{s \in U} g(s) > 0$, and the support of $f$ can be covered by a finite number of left-translates of U. Let $(f : g)$ be the infimum of the numbers $\sum_{i=1}^n c_i$ for all systems $(c_1, \ldots, c_n, s_1, \ldots, s_n)$ of numbers $\geq 0$ and elements of G such that $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$. Then:
+A) *Existence.* — Set $\mathscr{K}(G) = \mathscr{K}$, $\mathscr{K}_+(G) = \mathscr{K}_+$, $\mathscr{K}_+^* = \mathscr{K}_+ - \{0\}$. If C is a compact subset of G, we denote by $\mathscr{K}_+^*(C)$ the set of $f \in \mathscr{K}_+^*$ with support in C. For $f \in \mathscr{K}$ and $g \in \mathscr{K}_+^*$, there exist numbers $c_1, \ldots, c_n \geq 0$ and elements $s_1, \ldots, s_n$ of G such that $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$: for, there exists a nonempty open set U in G such that $\inf_{s \in U} g(s) > 0$, and the support of $f$ can be covered by a finite number of left-translates of U. Let $(f : g)$ be the infimum of the numbers $\sum_{i=1}^n c_i$ for all systems $(c_1, \ldots, c_n, s_1, \ldots, s_n)$ of numbers $\geq 0$ and elements of G such that $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$. Then:
 
-(i) $(\gamma(s)f : g) = (f : g)$ for $f \in \mathcal{K}$, $g \in \mathcal{K}_+^*$, $s \in G$;
-(ii) $(\lambda f : g) = \lambda(f : g)$ for $f \in \mathcal{K}$, $g \in \mathcal{K}_+^*$, $\lambda \geq 0$;
-(iii) $((f + f') : g) \leq (f : g) + (f' : g)$ for $f \in \mathcal{K}$, $f' \in \mathcal{K}$, $g \in \mathcal{K}_+^*$;
-(iv) $(f : g) \geq (\sup f)/(\sup g)$ for $f \in \mathcal{K}$, $g \in \mathcal{K}_+^*$;
-(v) $(f : h) \leq (f : g)(g : h)$ for $f \in \mathcal{K}$, $g \in \mathcal{K}_+^*$, $h \in \mathcal{K}_+^*$;
-(vi) $0 < \frac{1}{(f_0 : f)} \leq \frac{(f : g)}{(f_0 : g)} \leq (f : f_0)$ for $f, f_0, g$ in $\mathcal{K}_+^*$;
-(vii) let $f, f', h$ be in $\mathcal{K}_+$ with $h(s) \geq 1$ on the support of $f + f'$, and let $\varepsilon > 0$; there exists a compact neighborhood V of e such that, for every $g \in \mathcal{K}_+^*(V)$,
+(i) $(\gamma(s)f : g) = (f : g)$ for $f \in \mathscr{K}$, $g \in \mathscr{K}_+^*$, $s \in G$;
+(ii) $(\lambda f : g) = \lambda(f : g)$ for $f \in \mathscr{K}$, $g \in \mathscr{K}_+^*$, $\lambda \geq 0$;
+(iii) $((f + f') : g) \leq (f : g) + (f' : g)$ for $f \in \mathscr{K}$, $f' \in \mathscr{K}$, $g \in \mathscr{K}_+^*$;
+(iv) $(f : g) \geq (\sup f)/(\sup g)$ for $f \in \mathscr{K}$, $g \in \mathscr{K}_+^*$;
+(v) $(f : h) \leq (f : g)(g : h)$ for $f \in \mathscr{K}$, $g \in \mathscr{K}_+^*$, $h \in \mathscr{K}_+^*$;
+(vi) $0 < \frac{1}{(f_0 : f)} \leq \frac{(f : g)}{(f_0 : g)} \leq (f : f_0)$ for $f, f_0, g$ in $\mathscr{K}_+^*$;
+(vii) let $f, f', h$ be in $\mathscr{K}_+$ with $h(s) \geq 1$ on the support of $f + f'$, and let $\varepsilon > 0$; there exists a compact neighborhood V of e such that, for every $g \in \mathscr{K}_+^*(V)$,
 
 $$
 (f : g) + (f' : g) \leq ((f + f') : g) + \varepsilon(h : g).
 $$
 
-The properties (i), (ii), (iii) are obvious. Let $f \in \mathcal{K}$, $g \in \mathcal{K}_+^*$; if $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$ with the $c_i \geq 0$, then $\sup f \leq \sum_{i=1}^n c_i g(s_i^{-1}s)$ for some s \in G, therefore $\sup f \leq (\sum_{i=1}^n c_i) \sup g$, whence (iv). Let us now prove (v); let $f \in \mathcal{K}$, $g, h$ in $\mathcal{K}_+^*$; if $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$ and $g \leq \sum_{j=1}^p d_j \gamma(t_j)h$ ($c_i \geq 0, d_j \geq 0, s_i, t_j$ in $G$), then $f \leq \sum_{i,j} c_i d_j \gamma(s_i t_j)h$, therefore $(f : h) \leq \sum_{i,j} c_i d_j = (\sum_i c_i)(\sum_j d_j)$; thus $(f : h) \leq (f : g)(g : h)$. Applying (v) to $f_0, f, g$ on the one hand and to $f, f_0, g$ on the other, one obtains (vi). Finally, let $f, f', h$ be in $\mathcal{K}_+$ with $h(s) \geq 1$ on the support of $f + f'$, and let $\varepsilon > 0$. Set $F = f + f' + \frac{1}{2} \varepsilon h$; the functions $\varphi, \varphi'$, that coincide respectively with $f/F$ and $f'/F$ on the support of $f + f'$ and are zero outside it, belong to $\mathcal{K}_+$; for every $\eta > 0$, there exists a compact neighborhood $V$ of $e$ such that $|\varphi(s) - \varphi(t)| \leq \eta$ and $|\varphi'(s) - \varphi'(t)| \leq \eta$ for $s^{-1} t \in V$. Then let $g \in \mathcal{K}_+^*(V)$; for every $s \in G$,
+The properties (i), (ii), (iii) are obvious. Let $f \in \mathscr{K}$, $g \in \mathscr{K}_+^*$; if $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$ with the $c_i \geq 0$, then $\sup f \leq \sum_{i=1}^n c_i g(s_i^{-1}s)$ for some s \in G, therefore $\sup f \leq (\sum_{i=1}^n c_i) \sup g$, whence (iv). Let us now prove (v); let $f \in \mathscr{K}$, $g, h$ in $\mathscr{K}_+^*$; if $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$ and $g \leq \sum_{j=1}^p d_j \gamma(t_j)h$ ($c_i \geq 0, d_j \geq 0, s_i, t_j$ in $G$), then $f \leq \sum_{i,j} c_i d_j \gamma(s_i t_j)h$, therefore $(f : h) \leq \sum_{i,j} c_i d_j = (\sum_i c_i)(\sum_j d_j)$; thus $(f : h) \leq (f : g)(g : h)$. Applying (v) to $f_0, f, g$ on the one hand and to $f, f_0, g$ on the other, one obtains (vi). Finally, let $f, f', h$ be in $\mathscr{K}_+$ with $h(s) \geq 1$ on the support of $f + f'$, and let $\varepsilon > 0$. Set $F = f + f' + \frac{1}{2} \varepsilon h$; the functions $\varphi, \varphi'$, that coincide respectively with $f/F$ and $f'/F$ on the support of $f + f'$ and are zero outside it, belong to $\mathscr{K}_+$; for every $\eta > 0$, there exists a compact neighborhood $V$ of $e$ such that $|\varphi(s) - \varphi(t)| \leq \eta$ and $|\varphi'(s) - \varphi'(t)| \leq \eta$ for $s^{-1} t \in V$. Then let $g \in \mathscr{K}_+^*(V)$; for every $s \in G$,
 
 $$
 \varphi \cdot \gamma(s)g \leq (\varphi(s) + \eta) \cdot \gamma(s)g;
@@ -332,25 +332,25 @@ $$
 
 and, if $\eta$ has been chosen so that $\eta[2((f + f') : h) + \varepsilon] \leq \frac{1}{2}\varepsilon$, one obtains (vii).
 
-As V runs over the set of compact neighborhoods of e, the $\mathcal{K}_+^*(V)$ form a base of a filter $\mathcal{B}$ on $\mathcal{K}_+^*$. Let $\mathcal{F}$ be an ultrafilter on $\mathcal{K}_+^*$ finer than $\mathcal{B}$. On the other hand, let us fix $f_0 \in \mathcal{K}_+^*$ and let us set, for $f \in \mathcal{K}_+^*$ and $g \in \mathcal{K}_+^*$,
+As V runs over the set of compact neighborhoods of e, the $\mathscr{K}_+^*(V)$ form a base of a filter $\mathscr{B}$ on $\mathscr{K}_+^*$. Let $\mathscr{F}$ be an ultrafilter on $\mathscr{K}_+^*$ finer than $\mathscr{B}$. On the other hand, let us fix $f_0 \in \mathscr{K}_+^*$ and let us set, for $f \in \mathscr{K}_+^*$ and $g \in \mathscr{K}_+^*$,
 
 $$
 I_g(f) = \frac{(f : g)}{(f_0 : g)}.
 $$
 
-By (vi), $\lim_{g,\mathcal{F}} I_g(f) = I(f)$ exists in the compact space $[1/(f_0 : f), (f : f_0)]$.
+By (vi), $\lim_{g,\mathscr{F}} I_g(f) = I(f)$ exists in the compact space $[1/(f_0 : f), (f : f_0)]$.
 
-By (iii), $I(f + f') \leq I(f) + I(f')$. By (vii), $I(f) + I(f') \leq I(f + f') + \varepsilon I(h)$ for all $\varepsilon > 0$ provided $h$ is $\geq 1$ on the support of $f + f'$; it follows that $I(f + f') = I(f) + I(f')$. By Ch. II, §2, No. 1, Prop. 2, I is extendible to a linear form on $\mathcal{K}$; this linear form is a nonzero positive measure on G, left-invariant by (i); this is the sought-for left Haar measure. Passing to the opposite group, one deduces from this the existence of a right Haar measure.
+By (iii), $I(f + f') \leq I(f) + I(f')$. By (vii), $I(f) + I(f') \leq I(f + f') + \varepsilon I(h)$ for all $\varepsilon > 0$ provided $h$ is $\geq 1$ on the support of $f + f'$; it follows that $I(f + f') = I(f) + I(f')$. By Ch. II, §2, No. 1, Prop. 2, I is extendible to a linear form on $\mathscr{K}$; this linear form is a nonzero positive measure on G, left-invariant by (i); this is the sought-for left Haar measure. Passing to the opposite group, one deduces from this the existence of a right Haar measure.
 
 B) *Uniqueness.* — Let $\mu$ be a left Haar measure, $\nu$ a right Haar measure. Then $\check{\nu}$ is a left Haar measure. We are going to show that $\mu$ and $\check{\nu}$ are proportional. This will prove that any two left Haar measures are indeed proportional.
 
-Let $f \in \mathcal{K}$ be such that $\mu(f) \neq 0$. By Lemma 1, the function $D_f$ defined on G by the formula
+Let $f \in \mathscr{K}$ be such that $\mu(f) \neq 0$. By Lemma 1, the function $D_f$ defined on G by the formula
 
 $$
 D_f(s) = \mu(f)^{-1} \int f(t^{-1}s) d\nu(t)
 $$
 
-is continuous on G. Let $g \in \mathcal{K}$. The function $(s, t) \mapsto f(s)g(ts)$ is continuous with compact support in $G \times G$. By Ch. III, §4, No. 1, Th. 2,
+is continuous on G. Let $g \in \mathscr{K}$. The function $(s, t) \mapsto f(s)g(ts)$ is continuous with compact support in $G \times G$. By Ch. III, §4, No. 1, Th. 2,
 
 $$
 \begin{align*}
@@ -367,13 +367,13 @@ $$
 \nu(g) = \mu(D_f \cdot g).
 $$
 
-This proves, first, that $D_f$ does not depend on $f$. For, if $f' \in \mathcal{K}$ is such that $\mu(f') \neq 0$, then $D_f \cdot \mu = D_{f'} \cdot \mu$, therefore $D_f = D_{f'}$ locally almost everywhere for $\mu$, hence everywhere, since $D_f$ and $D_{f'}$ are continuous and the support of $\mu$ is $G$. We may therefore write $D_f = D$. The formula (16) gives
+This proves, first, that $D_f$ does not depend on $f$. For, if $f' \in \mathscr{K}$ is such that $\mu(f') \neq 0$, then $D_f \cdot \mu = D_{f'} \cdot \mu$, therefore $D_f = D_{f'}$ locally almost everywhere for $\mu$, hence everywhere, since $D_f$ and $D_{f'}$ are continuous and the support of $\mu$ is $G$. We may therefore write $D_f = D$. The formula (16) gives
 
 $$
 \mu(f)D(e) = \check{\nu}(f).
 $$
 
-The formula (19) may be extended by linearity to the functions $f \in \mathcal{K}$ such that $\mu(f) = 0$. We have $D(e) \neq 0$ since $\check{\nu} \neq 0$. This indeed establishes the proportionality of $\mu$ and $\check{\nu}$.
+The formula (19) may be extended by linearity to the functions $f \in \mathscr{K}$ such that $\mu(f) = 0$. We have $D(e) \neq 0$ since $\check{\nu} \neq 0$. This indeed establishes the proportionality of $\mu$ and $\check{\nu}$.
 
 #### Corollary {#int-vii-s1-n2-cor-1 .statement}
 
@@ -383,7 +383,7 @@ The formula (19) may be extended by linearity to the functions $f \in \mathcal{K
 
 — 1) On the additive group $\mathbf{R}$, the Lebesgue measure $dx$ is a Haar measure (Ch. III, §1, No. 3, *Example*).
 
-2) For every function $f \in \mathcal{K}(\mathbf{R}_+^*)$, we have (FRV, II, §1, formula (12))
+2) For every function $f \in \mathscr{K}(\mathbf{R}_+^*)$, we have (FRV, II, §1, formula (12))
 
 $$
 \int_0^{+\infty} \frac{f(x)}{x} dx = \int_0^{+\infty} \frac{f(tx)}{tx} t dx = \int_0^{+\infty} \frac{f(tx)}{x} dx
@@ -391,7 +391,7 @@ $$
 
 for all $t > 0$; the measure $x^{-1} dx$ is thus a Haar measure on the multiplicative group $\mathbf{R}_+^*$.
 
-3) Let us take for $G$ the torus $T = \mathbf{R}/\mathbf{Z}$. Let $\varphi$ be the canonical mapping of $\mathbf{R}$ onto $T$. For $f \in \mathcal{K}(T)$, the function $f \circ \varphi$ is continuous and periodic with period 1 on $\mathbf{R}$, and the integral
+3) Let us take for $G$ the torus $T = \mathbf{R}/\mathbf{Z}$. Let $\varphi$ be the canonical mapping of $\mathbf{R}$ onto $T$. For $f \in \mathscr{K}(T)$, the function $f \circ \varphi$ is continuous and periodic with period 1 on $\mathbf{R}$, and the integral
 
 $$
 I(f) = \int_a^{a+1} f(\varphi(x)) dx
@@ -403,13 +403,13 @@ is independent of the choice of $a \in \mathbf{R}$; it is immediate that it is i
 
 — *Let* $G$ *be a locally compact group*, $\mu$ *a left or right Haar measure on* $G$. *For* $G$ *to be discrete, it is necessary and sufficient that* $\mu(\{e\}) > 0$. *For* $G$ *to be compact, it is necessary and sufficient that* $\mu^*(G) < +\infty$.
 
-The conditions are obviously necessary. Let us show their sufficiency. Let $V$ be a compact neighborhood of $e$. If $\mu(\{e\}) > 0$, then $V$ is a finite set since $\mu(V) < +\infty$; since $G$ is Hausdorff, it is therefore discrete. Suppose $\mu^*(G) < +\infty$ and $\mu$ is, for example, left-invariant. Consider the set $\mathcal{E}$ of finite subsets $\{s_1, \ldots, s_n\}$ of $G$ such that $s_i V \cap s_j V = \varnothing$ for $i \neq j$; then
+The conditions are obviously necessary. Let us show their sufficiency. Let $V$ be a compact neighborhood of $e$. If $\mu(\{e\}) > 0$, then $V$ is a finite set since $\mu(V) < +\infty$; since $G$ is Hausdorff, it is therefore discrete. Suppose $\mu^*(G) < +\infty$ and $\mu$ is, for example, left-invariant. Consider the set $\mathscr{E}$ of finite subsets $\{s_1, \ldots, s_n\}$ of $G$ such that $s_i V \cap s_j V = \varnothing$ for $i \neq j$; then
 
 $$
 n \mu(V) = \mu(s_1 V \cup \ldots \cup s_n V) \leq \mu^*(G),
 $$
 
-therefore $n \leq \mu^*(G)/\mu(V)$. We may therefore choose in $\mathcal{E}$ a maximal element $\{s_1, \ldots, s_n\}$. Then, for every $s \in G$, there exists an $i$ such that $s V \cap s_i V \neq \varnothing$, hence such that $s \in s_i V V^{-1}$. Thus $G$ is the union of the compact sets $s_i V V^{-1}$, hence is compact.
+therefore $n \leq \mu^*(G)/\mu(V)$. We may therefore choose in $\mathscr{E}$ a maximal element $\{s_1, \ldots, s_n\}$. Then, for every $s \in G$, there exists an $i$ such that $s V \cap s_i V \neq \varnothing$, hence such that $s \in s_i V V^{-1}$. Thus $G$ is the union of the compact sets $s_i V V^{-1}$, hence is compact.
 
 ### 3. Modulus
 
@@ -587,11 +587,11 @@ If G is either discrete or compact, then its normalized Haar measure is transfor
 
 #### Proposition 4 {#int-vii-s1-prop-4 .statement}
 
-*Let G be a locally compact group, $\Gamma$ a topological group, and $\gamma \mapsto u_\gamma$ a homomorphism of $\Gamma$ into the group $\mathcal{G}$ of automorphism of G, such that $(\gamma, x) \mapsto u_\gamma(x)$ is a continuous mapping of $\Gamma \times G$ into G. Then, the mapping $\gamma \mapsto \operatorname{mod}(u_\gamma)$ is a continuous representation of $\Gamma$ in $\mathbf{R}_+^*$.
+*Let G be a locally compact group, $\Gamma$ a topological group, and $\gamma \mapsto u_\gamma$ a homomorphism of $\Gamma$ into the group $\mathscr{G}$ of automorphism of G, such that $(\gamma, x) \mapsto u_\gamma(x)$ is a continuous mapping of $\Gamma \times G$ into G. Then, the mapping $\gamma \mapsto \operatorname{mod}(u_\gamma)$ is a continuous representation of $\Gamma$ in $\mathbf{R}_+^*$.
 
-This mapping is obviously a representation (algebraic) of $\Gamma$ in $\mathbf{R}_+^*$; it will suffice to prove its continuity. Let $f \in \mathcal{K}(G)$ and let S be its support.*
+This mapping is obviously a representation (algebraic) of $\Gamma$ in $\mathbf{R}_+^*$; it will suffice to prove its continuity. Let $f \in \mathscr{K}(G)$ and let S be its support.*
 
-Let $\gamma_0 \in \Gamma$ and let $U$ be a relatively compact neighborhood of $u_{\gamma_0}^{-1}(S)$. The mapping $\gamma \mapsto u_\gamma$ is a continuous mapping of $\Gamma$ into $\mathcal{G}$ equipped with the topology of compact convergence (GT, X, §3, No. 4, Th. 3); therefore $u_\gamma^{-1}(S) \subset U$ for $\gamma$ sufficiently near $\gamma_0$. Lemma 1 of No. 1 then proves that $\int f(u_\gamma(x)) d\mu(x)$ (where $\mu$ denotes a left Haar measure of $G$) depends continuously on $\gamma$; whence the proposition.
+Let $\gamma_0 \in \Gamma$ and let $U$ be a relatively compact neighborhood of $u_{\gamma_0}^{-1}(S)$. The mapping $\gamma \mapsto u_\gamma$ is a continuous mapping of $\Gamma$ into $\mathscr{G}$ equipped with the topology of compact convergence (GT, X, §3, No. 4, Th. 3); therefore $u_\gamma^{-1}(S) \subset U$ for $\gamma$ sufficiently near $\gamma_0$. Lemma 1 of No. 1 then proves that $\int f(u_\gamma(x)) d\mu(x)$ (where $\mu$ denotes a left Haar measure of $G$) depends continuously on $\gamma$; whence the proposition.
 
 ### 5. Haar measure of a product
 
@@ -611,7 +611,7 @@ whence $\Delta_G(x) = \prod_{\iota \in I} \Delta_{G_\iota}(x_\iota)$.
 
 — 1) Lebesgue measure on $\mathbf{R}^n$ is a Haar measure of the additive group $\mathbf{R}^n$.
 
-2) The mapping $(r, u) \mapsto ru$ is an isomorphism of $\mathbf{R}_+^* \times \mathbf{U}$ onto $\mathbf{C}^*$ (GT, VIII, §1, No. 3). If $\mathbf{C}^*$ is identified with $\mathbf{R}_+^* \times \mathbf{U}$ by means of this isomorphism, and if $du$ denotes a Haar measure on $\mathbf{U}$, then $r^{-1} dr du$ is a Haar measure on $\mathbf{C}^*$ by Example 2 of No. 2. On the other hand, the bijection $\theta \mapsto e^{2i\pi \theta}$ of $[0, 1[$ onto $\mathbf{U}$ transforms the Lebesgue measure $d\theta$ on $[0, 1[$ into a Haar measure on $\mathbf{U}$ by Example 3 of No. 2. It follows that if $f \in \mathcal{H}(\mathbf{C}^*)$, the integral
+2) The mapping $(r, u) \mapsto ru$ is an isomorphism of $\mathbf{R}_+^* \times \mathbf{U}$ onto $\mathbf{C}^*$ (GT, VIII, §1, No. 3). If $\mathbf{C}^*$ is identified with $\mathbf{R}_+^* \times \mathbf{U}$ by means of this isomorphism, and if $du$ denotes a Haar measure on $\mathbf{U}$, then $r^{-1} dr du$ is a Haar measure on $\mathbf{C}^*$ by Example 2 of No. 2. On the other hand, the bijection $\theta \mapsto e^{2i\pi \theta}$ of $[0, 1[$ onto $\mathbf{U}$ transforms the Lebesgue measure $d\theta$ on $[0, 1[$ into a Haar measure on $\mathbf{U}$ by Example 3 of No. 2. It follows that if $f \in \mathscr{H}(\mathbf{C}^*)$, the integral
 $$
 \int_0^{+\infty} \int_0^1 f(re^{2i\pi \theta}) r^{-1} dr\, d\theta
 $$
@@ -621,13 +621,13 @@ defines a Haar measure on $\mathbf{C}^*$.
 
 Let G be a locally compact group (hence complete). Let $(K_\alpha)_{\alpha \in A}$ be a decreasing directed family of compact normal subgroups of G, with intersection $\{e\}$ (so that the filter base formed by the $K_\alpha$ converges to e). Set $G_\alpha = G / K_\alpha$; let $\varphi_\alpha : G \to G_\alpha$ and $\varphi_{\beta \alpha} : G_\alpha \to G_\beta \ (\alpha \geq \beta)$ be the canonical homomorphisms. Then, the inverse limit of the inverse system $(G_\alpha, \varphi_{\beta \alpha})$ may be identified with G, and the canonical mapping of this inverse limit into $G_\alpha$ is identified with $\varphi_\alpha$ (GT, III, §7, No. 3, Prop. 2). The mappings $\varphi_\alpha$ and $\varphi_{\beta \alpha}$ are proper (*loc. cit.*, §4, No. 1, Cor. 2 of Prop. 1). These assumptions remain fixed throughout this subsection.
 
-\* Lemma 2. — a) *Let $f \in \mathcal{K}_+(G)$, S a compact subset of G containing Supp $f$, U an open neighborhood of S in G, and $\varepsilon > 0$. There exist an $\alpha \in A$ and a function $g \in \mathcal{K}_+(G)$, zero outside U and constant on the cosets of $K_\alpha$, such that $|f - g| \leq \varepsilon$.
+\* Lemma 2. — a) *Let $f \in \mathscr{K}_+(G)$, S a compact subset of G containing Supp $f$, U an open neighborhood of S in G, and $\varepsilon > 0$. There exist an $\alpha \in A$ and a function $g \in \mathscr{K}_+(G)$, zero outside U and constant on the cosets of $K_\alpha$, such that $|f - g| \leq \varepsilon$.
 
 b) *Let $\mu$ and $\mu'$ be two measures on G such that $\varphi_\alpha(\mu) = \varphi_\alpha(\mu')$ for all $\alpha \in A$. Then $\mu = \mu'$.
 
-There exists an $\alpha_1 \in A$ such that $K_{\alpha_1} S \cap K_{\alpha_1}(G - U) = \emptyset$ (GT, II, §4, No. 3, Prop. 4). Augmenting S and diminishing U, we may therefore assume that S and U are unions of cosets of $K_{\alpha_1}$. Consider the continuous numerical functions $h$ on S having the following property: there exists an $\alpha \geq \alpha_1$ such that $h$ is constant on the cosets of $K_\alpha$. These functions form a subalgebra of $\mathcal{K}(S)$ (because $(K_\alpha)$ is a decreasing directed family) that contains the constants and separates the points of S: for, let $x, y$ be two distinct points of S; since the intersection of the $K_\alpha$ is $\{e\}$, there exists an $\alpha \geq \alpha_1$ such that $\varphi_\alpha(x) \neq \varphi_\alpha(y)$, then a numerical function $u$ continuous on $\varphi_\alpha(S)$ such that $u(\varphi_\alpha(x)) \neq u(\varphi_\alpha(y))$. By the Stone–Weierstrass theorem, there exist an $\alpha \geq \alpha_1$ and a continuous function $h \geq 0$ on S, constant on the cosets of $K_\alpha$, such that $|f - h| \leq \frac{\varepsilon}{2}$ on S. For every $t \in \mathbf{R}$, set $\delta(t) = \left( t - \frac{\varepsilon}{2} \right)^+$, and set $h' = \delta \circ h$. Then $h'$ is a function $\geq 0$, continuous on S, constant on the cosets of $K_\alpha$, and $|h - h'| \leq \frac{\varepsilon}{2}$ on S, therefore $|f - h'| \leq \varepsilon$ on S. On the other hand, $h'(x) = 0$ if x belongs to the boundary of S in G, because then $h(x) \leq \frac{\varepsilon}{2}$. If $h'$ is extended by 0 on the complement of S, one obtains a function $g$ that meets the requirements, which proves a).
+There exists an $\alpha_1 \in A$ such that $K_{\alpha_1} S \cap K_{\alpha_1}(G - U) = \emptyset$ (GT, II, §4, No. 3, Prop. 4). Augmenting S and diminishing U, we may therefore assume that S and U are unions of cosets of $K_{\alpha_1}$. Consider the continuous numerical functions $h$ on S having the following property: there exists an $\alpha \geq \alpha_1$ such that $h$ is constant on the cosets of $K_\alpha$. These functions form a subalgebra of $\mathscr{K}(S)$ (because $(K_\alpha)$ is a decreasing directed family) that contains the constants and separates the points of S: for, let $x, y$ be two distinct points of S; since the intersection of the $K_\alpha$ is $\{e\}$, there exists an $\alpha \geq \alpha_1$ such that $\varphi_\alpha(x) \neq \varphi_\alpha(y)$, then a numerical function $u$ continuous on $\varphi_\alpha(S)$ such that $u(\varphi_\alpha(x)) \neq u(\varphi_\alpha(y))$. By the Stone–Weierstrass theorem, there exist an $\alpha \geq \alpha_1$ and a continuous function $h \geq 0$ on S, constant on the cosets of $K_\alpha$, such that $|f - h| \leq \frac{\varepsilon}{2}$ on S. For every $t \in \mathbf{R}$, set $\delta(t) = \left( t - \frac{\varepsilon}{2} \right)^+$, and set $h' = \delta \circ h$. Then $h'$ is a function $\geq 0$, continuous on S, constant on the cosets of $K_\alpha$, and $|h - h'| \leq \frac{\varepsilon}{2}$ on S, therefore $|f - h'| \leq \varepsilon$ on S. On the other hand, $h'(x) = 0$ if x belongs to the boundary of S in G, because then $h(x) \leq \frac{\varepsilon}{2}$. If $h'$ is extended by 0 on the complement of S, one obtains a function $g$ that meets the requirements, which proves a).
 
-Now let $\mu, \mu'$ be two measures on G such that $\varphi_\alpha(\mu) = \varphi_\alpha(\mu')$ for all $\alpha \in A$. Let $v \in \mathcal{K}(G)$ be a function constant on the cosets of $K_\alpha$ for some $\alpha \in A$, so that we may write $v = w \circ \varphi_\alpha$ with $w \in \mathcal{K}(G_\alpha)$; then
+Now let $\mu, \mu'$ be two measures on G such that $\varphi_\alpha(\mu) = \varphi_\alpha(\mu')$ for all $\alpha \in A$. Let $v \in \mathscr{K}(G)$ be a function constant on the cosets of $K_\alpha$ for some $\alpha \in A$, so that we may write $v = w \circ \varphi_\alpha$ with $w \in \mathscr{K}(G_\alpha)$; then
 
 \* Cf. Ch. III, §4, No. 5.
 
@@ -639,7 +639,7 @@ $$
 
 *For every* $\alpha \in A$, *let* $\mu_\alpha$ *be a positive measure on* $G_\alpha$. *Suppose that* $\varphi_{\beta\alpha}(\mu_\alpha) = \mu_\beta$ *for* $\alpha \geq \beta$. *Then, there exists one and only one positive measure* $\mu$ *on* $G$ *such that* $\varphi_\alpha(\mu) = \mu_\alpha$ *for all* $\alpha \in A$.
 
-Uniqueness follows immediately from Lemma 2 b). Let us prove the existence of $\mu$. Let $V$ be the vector space of functions belonging to $\mathcal{K}(G)$ and constant on the cosets of some $K_\alpha$ ($\alpha$ may depend on the function). It follows from Lemma 2 a) that $V$ satisfies the condition (P) of Ch. III, §1, No. 7, Prop. 9: for, let $K$ be a compact set in $G$ and choose $f \in \mathcal{K}_+(G)$ with $f(x) > 0$ for all $x \in K$; let $a > 0$ be the smallest value of $f$ on $K$; by Lemma 2 a), there exists a function $g \in V \cap \mathcal{K}_+(G)$ such that $|f - g| \leq a/2$, therefore $g(x) > 0$ for all $x \in K$, and condition (P) is verified. Let $f \in V$. There exists an $\alpha \in A$ such that $f$ is constant on the cosets of $K_\alpha$. By passage to the quotient, $f$ defines a function $f_\alpha \in \mathcal{K}(G_\alpha)$. The number $\mu(f) = \mu_\alpha(f_\alpha)$ does not depend on the choice of $\alpha$: for, let $\beta$ be any index such that $f$ is constant on the cosets of $K_\beta$; let $\gamma \in A$ be such that $\gamma \geq \alpha, \gamma \geq \beta$; then $f$ defines functions $f_\beta \in \mathcal{K}(G_\beta)$, $f_\gamma \in \mathcal{K}(G_\gamma)$ such that $f = f_\beta \circ \varphi_\beta = f_\gamma \circ \varphi_\gamma$; then $f_\alpha \circ \varphi_{\alpha\gamma} = f_\gamma$, therefore $\mu_\gamma(f_\gamma) = (\varphi_{\alpha\gamma}(\mu_\gamma))(f_\alpha) = \mu_\alpha(f_\alpha)$, and similarly $\mu_\gamma(f_\gamma) = \mu_\beta(f_\beta)$, whence our assertion. This established, it is clear that $\mu$ is a linear form on $V$ and that $\mu(f) \geq 0$ for $f \geq 0$. By Prop. 9 of Ch. III, §1, No. 7, $\mu$ may be extended to a positive measure on $G$, which we again denote by $\mu$. One has $\varphi_\alpha(\mu) = \mu_\alpha$ for all $\alpha \in A$ by the very construction of $\mu$.
+Uniqueness follows immediately from Lemma 2 b). Let us prove the existence of $\mu$. Let $V$ be the vector space of functions belonging to $\mathscr{K}(G)$ and constant on the cosets of some $K_\alpha$ ($\alpha$ may depend on the function). It follows from Lemma 2 a) that $V$ satisfies the condition (P) of Ch. III, §1, No. 7, Prop. 9: for, let $K$ be a compact set in $G$ and choose $f \in \mathscr{K}_+(G)$ with $f(x) > 0$ for all $x \in K$; let $a > 0$ be the smallest value of $f$ on $K$; by Lemma 2 a), there exists a function $g \in V \cap \mathscr{K}_+(G)$ such that $|f - g| \leq a/2$, therefore $g(x) > 0$ for all $x \in K$, and condition (P) is verified. Let $f \in V$. There exists an $\alpha \in A$ such that $f$ is constant on the cosets of $K_\alpha$. By passage to the quotient, $f$ defines a function $f_\alpha \in \mathscr{K}(G_\alpha)$. The number $\mu(f) = \mu_\alpha(f_\alpha)$ does not depend on the choice of $\alpha$: for, let $\beta$ be any index such that $f$ is constant on the cosets of $K_\beta$; let $\gamma \in A$ be such that $\gamma \geq \alpha, \gamma \geq \beta$; then $f$ defines functions $f_\beta \in \mathscr{K}(G_\beta)$, $f_\gamma \in \mathscr{K}(G_\gamma)$ such that $f = f_\beta \circ \varphi_\beta = f_\gamma \circ \varphi_\gamma$; then $f_\alpha \circ \varphi_{\alpha\gamma} = f_\gamma$, therefore $\mu_\gamma(f_\gamma) = (\varphi_{\alpha\gamma}(\mu_\gamma))(f_\alpha) = \mu_\alpha(f_\alpha)$, and similarly $\mu_\gamma(f_\gamma) = \mu_\beta(f_\beta)$, whence our assertion. This established, it is clear that $\mu$ is a linear form on $V$ and that $\mu(f) \geq 0$ for $f \geq 0$. By Prop. 9 of Ch. III, §1, No. 7, $\mu$ may be extended to a positive measure on $G$, which we again denote by $\mu$. One has $\varphi_\alpha(\mu) = \mu_\alpha$ for all $\alpha \in A$ by the very construction of $\mu$.
 
 #### Definition 5 {#int-vii-s1-def-5 .statement}
 
@@ -763,7 +763,7 @@ The concepts of negligible, locally negligible, measurable and locally integrabl
 
 Sufficiency is obvious. Let $\nu \neq 0$ be a left quasi-invariant measure, and let us show that $\nu$ is equivalent to $\mu$. We can restrict ourselves to the case that $\nu > 0$. Let A be a compact subset of G. We will show, as will establish the proposition, that the conditions $\mu(A) = 0$, $\nu(A) = 0$ are equivalent (Ch. V, §5, No. 5, Th. 2).
 
-a) For every $f \in \mathcal{K}_+(G)$, the function $(x, y) \mapsto f(x)\varphi_A(xy)$ on $G \times G$ is $(\nu \otimes \mu)$-integrable, because it is upper semi-continuous, bounded, and its support is contained in the compact set $K \times K^{-1}A$ if one sets $K = \operatorname{Supp} f$. Therefore, by the Lebesgue–Fubini theorem,
+a) For every $f \in \mathscr{K}_+(G)$, the function $(x, y) \mapsto f(x)\varphi_A(xy)$ on $G \times G$ is $(\nu \otimes \mu)$-integrable, because it is upper semi-continuous, bounded, and its support is contained in the compact set $K \times K^{-1}A$ if one sets $K = \operatorname{Supp} f$. Therefore, by the Lebesgue–Fubini theorem,
 
 $$
 \int d\nu(y) \int \varphi_A(xy)f(x)\,d\mu(x) = \int f(x)\,d\mu(x) \int \varphi_A(xy)\,d\nu(y).
@@ -775,9 +775,9 @@ $$
 (37) \quad 0 = \int \varphi_A(xy)f(x)\,d\mu(x) = \Delta_G(y)^{-1} \int \varphi_A(x)f(xy^{-1})\,d\mu(x).
 $$
 
-Let B be a compact subset of G such that $\nu(B) \neq 0$, and take for $f$ a function in $\mathcal{K}_+(G)$ equal to 1 on $AB^{-1}$. There then exists a $y \in B$ such that (37) is verified. But since $\varphi_A(x)f(xy^{-1}) = \varphi_A(x)$ for $y \in B$, this proves that $\mu(A) = 0$.
+Let B be a compact subset of G such that $\nu(B) \neq 0$, and take for $f$ a function in $\mathscr{K}_+(G)$ equal to 1 on $AB^{-1}$. There then exists a $y \in B$ such that (37) is verified. But since $\varphi_A(x)f(xy^{-1}) = \varphi_A(x)$ for $y \in B$, this proves that $\mu(A) = 0$.
 
-c) Suppose $\mu(A) = 0$. Then, for every $f \in \mathcal{K}_+(G)$, the left side of (36) is zero, hence also the right side. Consequently, there exists a locally $\mu$-negligible set M such that $\int \varphi_A(xy)\,d\nu(y) = 0$ for $x \notin M$. Since $\mu \neq 0$, it follows that $\nu(xA) = 0$ for some $x \in G$, whence $\nu(A) = 0$.
+c) Suppose $\mu(A) = 0$. Then, for every $f \in \mathscr{K}_+(G)$, the left side of (36) is zero, hence also the right side. Consequently, there exists a locally $\mu$-negligible set M such that $\int \varphi_A(xy)\,d\nu(y) = 0$ for $x \notin M$. Since $\mu \neq 0$, it follows that $\nu(xA) = 0$ for some $x \in G$, whence $\nu(A) = 0$.
 
 Applying Prop. 11 to $G^0$, one sees that the right quasi-invariant measures are identical with the left quasi-invariant measures. They are called simply quasi-invariant measures on G.
 
@@ -862,7 +862,7 @@ $$
 (x_1, \ldots, x_n) \mapsto (x_1 + \sum_{i=2}^n c_i x_i, x_2, \ldots, x_n).
 $$
 
-If $f \in \mathcal{H}(E)$ then, denoting by $\alpha$ a Haar measure on $K^+$,
+If $f \in \mathscr{H}(E)$ then, denoting by $\alpha$ a Haar measure on $K^+$,
 
 $$
 \int \cdots \int_{K^n} f(x_1 + \sum_{i=2}^n c_i x_i, x_2, \ldots, x_n) d\alpha(x_1) d\alpha(x_2) \ldots d\alpha(x_n)

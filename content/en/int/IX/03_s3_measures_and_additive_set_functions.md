@@ -25,18 +25,18 @@ subsections:
       pdf_page: 228
 statements: 17
 exercises: 18
-content_sha256: 5db0abf26db4c41996c8caffc0ffac0b3f37ac41d3a27e6162dd9585fb8acae3
+content_sha256: c8e5e6d7c3b2307cb63e315e8689da890304f906e25ea65d78d2f88a020702fa
 ---
 
 ## § 3. MEASURES AND ADDITIVE SET FUNCTIONS
 
-In this section, we shall denote by $\mathcal{K}(T)$ and $\mathcal{B}(T)$, respectively, the set of compact subsets of a Hausdorff topological space T and the Borel tribe of T.
+In this section, we shall denote by $\mathscr{K}(T)$ and $\mathscr{B}(T)$, respectively, the set of compact subsets of a Hausdorff topological space T and the Borel tribe of T.
 
 ### 1. Measures and additive set functions of compact sets
 
 #### Theorem 1 {#int-ix-s3-thm-1 .statement}
 
-— Let T be a topological space, and I a mapping of $\mathcal{K}(T)$ into $\mathbf{R}_+$. In order that there exist a measure $\mu$ on T such that $I(K) = \mu^\bullet(K)$ for all $K \in \mathcal{K}(T)$, it is necessary and sufficient that I satisfy the following conditions:
+— Let T be a topological space, and I a mapping of $\mathscr{K}(T)$ into $\mathbf{R}_+$. In order that there exist a measure $\mu$ on T such that $I(K) = \mu^\bullet(K)$ for all $K \in \mathscr{K}(T)$, it is necessary and sufficient that I satisfy the following conditions:
 
 1) If K and L are compact subsets of T such that $K \subset L$, then $I(K) \leq I(L)$ ('I is increasing').
 
@@ -48,7 +48,7 @@ In this section, we shall denote by $\mathcal{K}(T)$ and $\mathcal{B}(T)$, respe
 
 5) For every $x \in T$, there exists a neighborhood V of x such that
 $$
-\sup_{\substack{K \in \mathcal{K}(T) \\ K \subset V}} I(K) < +\infty
+\sup_{\substack{K \in \mathscr{K}(T) \\ K \subset V}} I(K) < +\infty
 $$
 ('I is locally bounded').
 
@@ -63,10 +63,10 @@ To show that these conditions are sufficient, we begin by treating the case that
 Assume that T is compact, and set l = I(T). For every $A \subset T$, set
 
 $$
-J(A) = \sup_{\substack{K \in \mathcal{K}(T) \\ K \subset A}} I(K)
+J(A) = \sup_{\substack{K \in \mathscr{K}(T) \\ K \subset A}} I(K)
 $$
 
-and let $\Phi$ be the set of $A \subset T$ such that $J(A) + J(\mathbf{C}A) = l$. The set $\Phi$ is then a clan that contains $\mathcal{K}(T)$, and the function $J$ on $\Phi$ is increasing and additive.
+and let $\Phi$ be the set of $A \subset T$ such that $J(A) + J(\mathbf{C}A) = l$. The set $\Phi$ is then a clan that contains $\mathscr{K}(T)$, and the function $J$ on $\Phi$ is increasing and additive.
 
 It is clear that $J$ is an increasing set function, extending $I$, and that $J(A) + J(\mathbf{C}A) \leq l$ for every $A \subset T$.
 
@@ -76,7 +76,7 @@ $$
 J(K \cap S) + J(\mathbf{C}K \cap S) = J(S).
 $$
 
-On considering the restrictions of $I$ to $\mathcal{K}(S)$ and of $J$ to $\mathfrak{P}(S)$, one reduces immediately to the case that $S = T$. Since $T$ is normal, $K$ is the intersection of the decreasing directed family of its compact neighborhoods, and condition 4) implies the existence, for every $\varepsilon > 0$, of a compact neighborhood $H$ of $K$ such that $I(H) \leq I(K) + \varepsilon$. Let $L$ be the closure of $T - H$; $L$ is compact, $L \cap K = \varnothing$ and $H \cup L = T$, therefore $l = I(H \cup L) \leq I(H) + I(L) \leq I(K) + I(L) + \varepsilon$ (condition 2)), whence the relation $J(K) + J(\mathbf{C}K) \geq I(K) + I(L) \geq l - \varepsilon$. Since $\varepsilon$ is arbitrary, $J(K) + J(\mathbf{C}K) = l$. This proves the formula (2), as well as the inclusion $\mathcal{K}(T) \subset \Phi$.
+On considering the restrictions of $I$ to $\mathscr{K}(S)$ and of $J$ to $\mathfrak{P}(S)$, one reduces immediately to the case that $S = T$. Since $T$ is normal, $K$ is the intersection of the decreasing directed family of its compact neighborhoods, and condition 4) implies the existence, for every $\varepsilon > 0$, of a compact neighborhood $H$ of $K$ such that $I(H) \leq I(K) + \varepsilon$. Let $L$ be the closure of $T - H$; $L$ is compact, $L \cap K = \varnothing$ and $H \cup L = T$, therefore $l = I(H \cup L) \leq I(H) + I(L) \leq I(K) + I(L) + \varepsilon$ (condition 2)), whence the relation $J(K) + J(\mathbf{C}K) \geq I(K) + I(L) \geq l - \varepsilon$. Since $\varepsilon$ is arbitrary, $J(K) + J(\mathbf{C}K) = l$. This proves the formula (2), as well as the inclusion $\mathscr{K}(T) \subset \Phi$.
 
 Let us now prove that $\Phi$ is a clan. Since $\Phi$ is obviously stable under passage to the complement, it suffices to show that if $A_1$ and $A_2$ denote elements of $\Phi$, then $A_1 \cup A_2 \in \Phi$, or again that
 
@@ -106,12 +106,12 @@ Let us add the inequalities obtained by making $S = K_2$ and $S = L_2$, and take
 
 $$
 l - 2\varepsilon \leq J(K_2) + J(L_2) \leq J(C) + J(L_1 \cap L_2) + 4\varepsilon \\
-\leq J(A_1 \cup A_2) + J(\mathcal{C}(A_1 \cup A_2)) + 4\varepsilon,
+\leq J(A_1 \cup A_2) + J(\mathscr{C}(A_1 \cup A_2)) + 4\varepsilon,
 $$
 
 whence immediately the desired formula (3), in view of the arbitrariness of $\varepsilon$. This having been established, the preceding inequalities imply that $J(C) \geq J(A_1 \cup A_2) - 6\varepsilon$; if $A_1$ and $A_2$ are disjoint, then $C$ is the union of $K_1 \cap L_2 \subset A_1$ and $K_2 \cap L_1 \subset A_2$, from which one deduces that $J(A_1 \cup A_2) \leq J(A_1) + J(A_2)$. The reverse inequality being obvious, $J$ is indeed additive on $\Phi$, and the lemma is established.
 
-Let us complete the proof of the theorem for the case that $T$ is compact. Let $\mathcal{E}(\Phi)$ be the vector space of $\Phi$-step functions on $T$, equipped with the topology of uniform convergence (Ch. IV, §4, No. 9, Def. 4); we shall again denote by $J$ the positive linear form on $\mathcal{E}(\Phi)$ associated with the additive function $J$ (loc. cit., Prop. 18). Since $J(T) = l$, $J$ is continuous and has norm $l$. Let then $\mathcal{H}$ be the closure of $\mathcal{E}(\Phi)$ for the topology of uniform convergence; one verifies at once that $J$ may be extended by continuity to a *positive* linear form on $\mathcal{H}$, again denoted $J$. Since $\mathcal{H}$ contains $\mathcal{C}(T)$ (loc. cit., No. 10, Prop. 19) the restriction of $J$ to $\mathcal{C}(T)$ is a positive measure $\mu$. It remains to show that $\mu^\bullet(K) = I(K)$ for every compact subset $K$ of $T$. Now, we have $\mu^\bullet(K) = \inf_{f \in S_K} \mu^\bullet(f)$, where $S_K$ denotes the set of elements of $\mathcal{C}(T)$ that are $\geq \varphi_K$ (§ 1, No. 6, Prop. 5). Since $J(f) = \mu^\bullet(f)$ for $f \in \mathcal{C}(T)$, it clearly suffices to show that $J(K) \geq \inf_{f \in S_K} J(f)$. As in the proof of Lemma 1, let $H$ be a compact neighborhood of $K$ such that $J(H) \leq J(K) + \varepsilon$, and let $f$ be a continuous function on $T$, between 0 and 1, equal to 1 on $K$ and to 0 outside $H$ (GT, IX, §4, No. 1, Prop. 1). Then
+Let us complete the proof of the theorem for the case that $T$ is compact. Let $\mathscr{E}(\Phi)$ be the vector space of $\Phi$-step functions on $T$, equipped with the topology of uniform convergence (Ch. IV, §4, No. 9, Def. 4); we shall again denote by $J$ the positive linear form on $\mathscr{E}(\Phi)$ associated with the additive function $J$ (loc. cit., Prop. 18). Since $J(T) = l$, $J$ is continuous and has norm $l$. Let then $\mathscr{H}$ be the closure of $\mathscr{E}(\Phi)$ for the topology of uniform convergence; one verifies at once that $J$ may be extended by continuity to a *positive* linear form on $\mathscr{H}$, again denoted $J$. Since $\mathscr{H}$ contains $\mathscr{C}(T)$ (loc. cit., No. 10, Prop. 19) the restriction of $J$ to $\mathscr{C}(T)$ is a positive measure $\mu$. It remains to show that $\mu^\bullet(K) = I(K)$ for every compact subset $K$ of $T$. Now, we have $\mu^\bullet(K) = \inf_{f \in S_K} \mu^\bullet(f)$, where $S_K$ denotes the set of elements of $\mathscr{C}(T)$ that are $\geq \varphi_K$ (§ 1, No. 6, Prop. 5). Since $J(f) = \mu^\bullet(f)$ for $f \in \mathscr{C}(T)$, it clearly suffices to show that $J(K) \geq \inf_{f \in S_K} J(f)$. As in the proof of Lemma 1, let $H$ be a compact neighborhood of $K$ such that $J(H) \leq J(K) + \varepsilon$, and let $f$ be a continuous function on $T$, between 0 and 1, equal to 1 on $K$ and to 0 outside $H$ (GT, IX, §4, No. 1, Prop. 1). Then
 
 $$
 J(f) \leq J(H) \leq J(K) + \varepsilon;
@@ -124,7 +124,7 @@ Let us now pass to the general case. For every compact set $L$ in $T$, let $I_L$
 #### Remark 1 {#int-ix-s3-n1-rem-1 .statement}
 
 The condition 4) may be replaced, in the statement of Theorem 1, by the following condition ('right-continuity'):
-$4')$ For every $K \in \mathcal{K}(T)$ and every $\varepsilon > 0$, there exists an open set $U$ containing $K$, such that $I(H) \leq I(K) + \varepsilon$ for every compact set $H \subset U$.
+$4')$ For every $K \in \mathscr{K}(T)$ and every $\varepsilon > 0$, there exists an open set $U$ containing $K$, such that $I(H) \leq I(K) + \varepsilon$ for every compact set $H \subset U$.
 For, if $\mu$ is a measure, the function $I : K \mapsto \mu^*(K)$ satisfies $4'$ (§ 1, No. 9, Prop. 13). Conversely, suppose that $I$ satisfies 1) and $4'$; let us show that $I$ then satisfies 4). With notations as in the statement of Theorem 1, choose an $\varepsilon > 0$ and an open set $U$ containing the compact set $K = \bigcap_{\alpha \in A} K_\alpha$ and such that $4'$) is satisfied. There then exists an index $\beta \in A$ such that $K_\beta \subset U$, and this implies
 $$
 \inf_{\alpha \in A} I(K_\alpha) \leq I(K_\beta) \leq I(K) + \varepsilon
@@ -148,12 +148,12 @@ for every measure $\mu$, by virtue of the relation $\varphi_{K \cup L} + \varphi
 
 #### Definition 1 {#int-ix-s3-def-1 .statement}
 
-Let $T$ be a topological space, and let $\mathcal{B}(T)$ be the Borel tribe of $T$; let $I$ be a mapping of $\mathcal{B}(T)$ into $\overline{\mathbf{R}}_+$.
-a) $I$ is said to be countably additive if, for every sequence $(A_n)$ of pairwise disjoint elements of $\mathcal{B}(T)$,
+Let $T$ be a topological space, and let $\mathscr{B}(T)$ be the Borel tribe of $T$; let $I$ be a mapping of $\mathscr{B}(T)$ into $\overline{\mathbf{R}}_+$.
+a) $I$ is said to be countably additive if, for every sequence $(A_n)$ of pairwise disjoint elements of $\mathscr{B}(T)$,
 $$
 I\left( \bigcup_n A_n \right) = \sum_n I(A_n).
 $$
-b) $I$ is said to be inner regular if, for every set $A \in \mathcal{B}(T)$,
+b) $I$ is said to be inner regular if, for every set $A \in \mathscr{B}(T)$,
 $$
 I(A) = \sup_K I(K),
 $$
@@ -163,7 +163,7 @@ c) I is said to be bounded (resp. locally bounded) if $I(T) < +\infty$ (resp. if
 
 #### Remark 1 {#int-ix-s3-n2-rem-1 .statement}
 
-The condition a) clearly implies that I is an increasing mapping of $\mathcal{B}(T)$ (ordered by inclusion) into $\overline{\mathbf{R}}_+$.
+The condition a) clearly implies that I is an increasing mapping of $\mathscr{B}(T)$ (ordered by inclusion) into $\overline{\mathbf{R}}_+$.
 
 #### Remark 2 {#int-ix-s3-n2-rem-2 .statement}
 
@@ -189,19 +189,19 @@ One can show that if I is additive, that is, satisfies (4) for finite sequences,
 
 #### Theorem 2 {#int-ix-s3-thm-2 .statement}
 
-— Let T be a topological space, and let I be a function defined on $\mathcal{B}(T)$, with values in $\overline{\mathbf{R}}_+$. In order that there exist a measure $\mu$ on T such that $\mu^*(A) = I(A)$ for every $A \in \mathcal{B}(T)$, it is necessary and sufficient that I be countably additive, locally bounded and inner regular. The measure $\mu$ is then unique.
+— Let T be a topological space, and let I be a function defined on $\mathscr{B}(T)$, with values in $\overline{\mathbf{R}}_+$. In order that there exist a measure $\mu$ on T such that $\mu^*(A) = I(A)$ for every $A \in \mathscr{B}(T)$, it is necessary and sufficient that I be countably additive, locally bounded and inner regular. The measure $\mu$ is then unique.
 
-These three conditions are necessary: for, the mapping $A \mapsto \mu^*(A)$ on $\mathcal{B}(T)$ is countably additive (§ 1, No. 5, Cor. of Prop. 4), locally bounded by the definition of measures (§ 1, No. 2, Def. 5), and inner regular by Remark 3 of § 1, No. 2.
+These three conditions are necessary: for, the mapping $A \mapsto \mu^*(A)$ on $\mathscr{B}(T)$ is countably additive (§ 1, No. 5, Cor. of Prop. 4), locally bounded by the definition of measures (§ 1, No. 2, Def. 5), and inner regular by Remark 3 of § 1, No. 2.
 
-We pass to existence. It is clear that the restriction of I to $\mathcal{K}(T)$ satisfies conditions 1), 2), 3) and 5) of the statement of Th. 1; let us show that 4) is satisfied as well. Let K be a compact subset of T, the intersection of a decreasing directed family $(K_\alpha)_{\alpha \in A}$ of compact sets, and let $\varepsilon$ be a number $> 0$; I being locally bounded, there exists an open (hence Borel) neighborhood V of K such that $I(V) < +\infty$, and then there exists an index $\alpha$ such that $K_\alpha \subset V$; changing notation if necessary, we can suppose that $K_\alpha \subset V$ for all $\alpha \in A$. By the inner regularity of I, there exists a compact set $L \subset V - K$ such that $I(L) \geq I(V - K) - \varepsilon$; since L does not intersect K, there exists an index $\alpha$ such that $L \cap K_\alpha = \varnothing$, and one then has $I(V - K_\alpha) \geq I(L) \geq I(V - K) - \varepsilon$. Since $K_\alpha \subset V$, it follows that $I(K_\alpha) \leq I(K) + \varepsilon$ and the condition 4) is verified.
+We pass to existence. It is clear that the restriction of I to $\mathscr{K}(T)$ satisfies conditions 1), 2), 3) and 5) of the statement of Th. 1; let us show that 4) is satisfied as well. Let K be a compact subset of T, the intersection of a decreasing directed family $(K_\alpha)_{\alpha \in A}$ of compact sets, and let $\varepsilon$ be a number $> 0$; I being locally bounded, there exists an open (hence Borel) neighborhood V of K such that $I(V) < +\infty$, and then there exists an index $\alpha$ such that $K_\alpha \subset V$; changing notation if necessary, we can suppose that $K_\alpha \subset V$ for all $\alpha \in A$. By the inner regularity of I, there exists a compact set $L \subset V - K$ such that $I(L) \geq I(V - K) - \varepsilon$; since L does not intersect K, there exists an index $\alpha$ such that $L \cap K_\alpha = \varnothing$, and one then has $I(V - K_\alpha) \geq I(L) \geq I(V - K) - \varepsilon$. Since $K_\alpha \subset V$, it follows that $I(K_\alpha) \leq I(K) + \varepsilon$ and the condition 4) is verified.
 
-By Th. 1, there exists a measure $\mu$ such that $\mu^\bullet(K) = I(K)$ for all $K \in \mathcal{K}(T)$. The inner regularity of the set functions $\mu^\bullet$ and $I$ on $\mathcal{B}(T)$ then implies that $\mu^\bullet(A) = I(A)$ for all $A \in \mathcal{B}(T)$, and existence is proved. The uniqueness of $\mu$ follows from the uniqueness assertion of Th. 1.
+By Th. 1, there exists a measure $\mu$ such that $\mu^\bullet(K) = I(K)$ for all $K \in \mathscr{K}(T)$. The inner regularity of the set functions $\mu^\bullet$ and $I$ on $\mathscr{B}(T)$ then implies that $\mu^\bullet(A) = I(A)$ for all $A \in \mathscr{B}(T)$, and existence is proved. The uniqueness of $\mu$ follows from the uniqueness assertion of Th. 1.
 
 ### 3. Radon spaces
 
 #### Definition 2 {#int-ix-s3-def-2 .statement}
 
-*Let T be a topological space. One says that T is a Radon (resp. strongly Radon) space if T is Hausdorff and if every function defined on the Borel tribe $\mathcal{B}(T)$ of T, with values in $\overline{\mathbf{R}}_+$, that is countably additive and bounded (resp. locally bounded) is inner regular.*
+*Let T be a topological space. One says that T is a Radon (resp. strongly Radon) space if T is Hausdorff and if every function defined on the Borel tribe $\mathscr{B}(T)$ of T, with values in $\overline{\mathbf{R}}_+$, that is countably additive and bounded (resp. locally bounded) is inner regular.*
 
 For example, we shall see later on (Prop. 3) that every Polish space is strongly Radon. In particular, every locally compact space with a countable base is strongly Radon.
 
@@ -211,7 +211,7 @@ There exist Radon spaces that are not strongly Radon.
 
 *Every Lindelöf*$^{(1)}$* Radon space is strongly Radon.*
 
-Let T be a Lindelöf space that is Radon, and let I be a set function on the tribe $\mathcal{B}(T)$ that is positive, countably additive and locally bounded. The open sets V such that $I(V) < +\infty$ form a covering of T, from which one can extract a countable covering $(V_n)_{n \in \mathbf{N}}$. Set $G_n = V_0 \cup V_1 \cup \cdots \cup V_n$ for every $n \in \mathbf{N}$; set $H_0 = G_0$ and $H_n = G_n - G_{n-1}$ for $n \geq 1$; finally, denote by $I_n$ the set function $A \mapsto I(A \cap H_n)$ on $\mathcal{B}(T)$, which is obviously countably additive and bounded. Since the sets $H_n$ form a partition of T, we have $I = \sum_n I_n$. The space T being Radon, for every $n \in \mathbf{N}$ there exists a bounded measure $\mu_n$ on T such that $\mu_n^\bullet(A) = I_n(A)$ for all $A \in \mathcal{B}(T)$; therefore also $\sum_n \mu_n^\bullet(A) = I(A)$. Since I is locally bounded, the family $(\mu_n)$ is summable (§ 1, No. 7, Prop. 7); if $\mu$ denotes $\sum_n \mu_n$, we have $\mu^\bullet(A) = I(A)$ for all $A \in \mathcal{B}(T)$, and it follows that I is inner regular. In other words, T is strongly Radon.
+Let T be a Lindelöf space that is Radon, and let I be a set function on the tribe $\mathscr{B}(T)$ that is positive, countably additive and locally bounded. The open sets V such that $I(V) < +\infty$ form a covering of T, from which one can extract a countable covering $(V_n)_{n \in \mathbf{N}}$. Set $G_n = V_0 \cup V_1 \cup \cdots \cup V_n$ for every $n \in \mathbf{N}$; set $H_0 = G_0$ and $H_n = G_n - G_{n-1}$ for $n \geq 1$; finally, denote by $I_n$ the set function $A \mapsto I(A \cap H_n)$ on $\mathscr{B}(T)$, which is obviously countably additive and bounded. Since the sets $H_n$ form a partition of T, we have $I = \sum_n I_n$. The space T being Radon, for every $n \in \mathbf{N}$ there exists a bounded measure $\mu_n$ on T such that $\mu_n^\bullet(A) = I_n(A)$ for all $A \in \mathscr{B}(T)$; therefore also $\sum_n \mu_n^\bullet(A) = I(A)$. Since I is locally bounded, the family $(\mu_n)$ is summable (§ 1, No. 7, Prop. 7); if $\mu$ denotes $\sum_n \mu_n$, we have $\mu^\bullet(A) = I(A)$ for all $A \in \mathscr{B}(T)$, and it follows that I is inner regular. In other words, T is strongly Radon.
 
 Recall that a subset A of a topological space T is said to be *universally measurable* if A is $\mu$-measurable for every measure $\mu$ on T. This is equivalent to saying that A is $\mu$-measurable for every measure $\mu$ on T with *compact support* (§ 1, No. 8, Prop. 9).
 
@@ -221,23 +221,23 @@ Recall that a subset A of a topological space T is said to be *universally measu
 
 — Let X be a topological space and T a subspace of X.
 
-a) Suppose that T is a Radon space. Then, for every function I defined on $\mathcal{B}(X)$ that is positive, countably additive and bounded, one has
+a) Suppose that T is a Radon space. Then, for every function I defined on $\mathscr{B}(X)$ that is positive, countably additive and bounded, one has
 
 $$
-\sup_{\substack{K \text{ compact} \\ K \subset T}} I(K) = \inf_{\substack{B \in \mathcal{B}(X) \\ B \supset T}} I(B).
+\sup_{\substack{K \text{ compact} \\ K \subset T}} I(K) = \inf_{\substack{B \in \mathscr{B}(X) \\ B \supset T}} I(B).
 $$
 
 Moreover, T is universally measurable in X.
 
 b) Conversely, suppose that X is a Radon space and that T is universally measurable in X; then T is a Radon space.
 
-Let us prove a). We denote by $\alpha$ the right side of (6); for every $n \in \mathbf{N}$, there exists a set $C_n \in \mathcal{B}(X)$ containing T, such that $I(C_n) \leq \alpha + 2^{-n}$. Setting $C = \bigcap_n C_n$, we then have $T \subset C$, $I(C) = \alpha$. If $A \in \mathcal{B}(T)$, let us choose a Borel set B of X such that $A = B \cap T$ (GT, IX, §6, No. 3) and set $J(A) = I(B \cap C)$. This number does not depend on the choice of B, for if $B'$ is a second Borel set in X such that $A = B' \cap T$, then $B \cap C$ and $B' \cap C$ differ only by a Borel set M contained in $C - T$, and $I(M) = 0$ by the construction of C. Clearly $J(K) = I(K)$ for every compact set $K \subset T$. Let $(A_n)$ be a sequence of Borel sets of T, pairwise disjoint, and, for each $n$, let $B_n$ be a Borel set of X such that $B_n \cap T = A_n$. Replacing $B_n$ by $B_n - \left( \bigcup_{k < n} B_k \right)$ if necessary, we can suppose that the sets $B_n$ are pairwise disjoint. Set $A = \bigcup_n A_n$ and $B = \bigcup_n B_n$; then
+Let us prove a). We denote by $\alpha$ the right side of (6); for every $n \in \mathbf{N}$, there exists a set $C_n \in \mathscr{B}(X)$ containing T, such that $I(C_n) \leq \alpha + 2^{-n}$. Setting $C = \bigcap_n C_n$, we then have $T \subset C$, $I(C) = \alpha$. If $A \in \mathscr{B}(T)$, let us choose a Borel set B of X such that $A = B \cap T$ (GT, IX, §6, No. 3) and set $J(A) = I(B \cap C)$. This number does not depend on the choice of B, for if $B'$ is a second Borel set in X such that $A = B' \cap T$, then $B \cap C$ and $B' \cap C$ differ only by a Borel set M contained in $C - T$, and $I(M) = 0$ by the construction of C. Clearly $J(K) = I(K)$ for every compact set $K \subset T$. Let $(A_n)$ be a sequence of Borel sets of T, pairwise disjoint, and, for each $n$, let $B_n$ be a Borel set of X such that $B_n \cap T = A_n$. Replacing $B_n$ by $B_n - \left( \bigcup_{k < n} B_k \right)$ if necessary, we can suppose that the sets $B_n$ are pairwise disjoint. Set $A = \bigcup_n A_n$ and $B = \bigcup_n B_n$; then
 
 $$
 J(A) = I(B \cap C) = \sum_n I(B_n \cap C) = \sum_n J(A_n);
 $$
 
-J is thus a countably additive and bounded function on $\mathcal{B}(T)$. Since T is by hypothesis a Radon space, there exists a bounded measure $\mu$ on T such that $J(A) = \mu^\bullet(A)$ for every $A \in \mathcal{B}(T)$; consequently
+J is thus a countably additive and bounded function on $\mathscr{B}(T)$. Since T is by hypothesis a Radon space, there exists a bounded measure $\mu$ on T such that $J(A) = \mu^\bullet(A)$ for every $A \in \mathscr{B}(T)$; consequently
 
 $$
 \alpha = J(T) = \mu^\bullet(T) = \sup_K \mu^\bullet(K) = \sup_K J(K),
@@ -245,7 +245,7 @@ $$
 
 by the definition of $\mu^\bullet$. Formula (6) is thus established.
 
-Let us now show that T is universally measurable. Let $\lambda$ be a bounded measure on X; the preceding argument may be applied to the set function $I : A \mapsto \lambda^\bullet(A)$ on $\mathcal{B}(X)$, thus there exists a sequence $(K_n)$ of compact subsets of T such that (with the above notations)
+Let us now show that T is universally measurable. Let $\lambda$ be a bounded measure on X; the preceding argument may be applied to the set function $I : A \mapsto \lambda^\bullet(A)$ on $\mathscr{B}(X)$, thus there exists a sequence $(K_n)$ of compact subsets of T such that (with the above notations)
 
 $$
 \sup_n \lambda^\bullet(K_n) = J(T) = \lambda^\bullet(C).
@@ -253,7 +253,7 @@ $$
 
 Set $K' = \bigcup_{n \in \mathbf{N}} K_n$; $K'$ is Borel in $X$, $K' \subset T \subset C$, $\lambda^*(K') = \lambda^*(C)$, therefore these three sets differ only by $\lambda$-negligible sets, and so $T$ is $\lambda$-measurable. This completes the proof of a).
 
-Let us pass to b). Suppose that $X$ is a Radon space, and that $T$ is universally measurable in $X$. Let $I$ be a positive function on $\mathcal{B}(T)$ that is countably additive and bounded; the function $A \mapsto I(A \cap T)$ on $\mathcal{B}(X)$ is then positive, countably additive and bounded, therefore there exists a bounded measure $\nu$ on $X$ such that $I(A \cap T) = \nu^*(A)$ for all $A \in \mathcal{B}(X)$. Now, $T$ is $\nu$-measurable; the preceding relation shows that $\nu^*(K) = 0$ for every compact subset $K$ of $X$ that is disjoint from $T$, therefore $\nu$ is concentrated on $T$. Consequently, for every Borel set $A$ of $X$, we have $I(A \cap T) = \nu^*(A \cap T) = \mu^*(A \cap T)$, where $\mu$ is the measure induced by $\nu$ on $T$. Finally, it follows that $I(B) = \mu^*(B)$ for every set $B \in \mathcal{B}(T)$ (GT, IX, §6, No. 3, *Remark 2*), and $I$ is indeed inner regular.
+Let us pass to b). Suppose that $X$ is a Radon space, and that $T$ is universally measurable in $X$. Let $I$ be a positive function on $\mathscr{B}(T)$ that is countably additive and bounded; the function $A \mapsto I(A \cap T)$ on $\mathscr{B}(X)$ is then positive, countably additive and bounded, therefore there exists a bounded measure $\nu$ on $X$ such that $I(A \cap T) = \nu^*(A)$ for all $A \in \mathscr{B}(X)$. Now, $T$ is $\nu$-measurable; the preceding relation shows that $\nu^*(K) = 0$ for every compact subset $K$ of $X$ that is disjoint from $T$, therefore $\nu$ is concentrated on $T$. Consequently, for every Borel set $A$ of $X$, we have $I(A \cap T) = \nu^*(A \cap T) = \mu^*(A \cap T)$, where $\mu$ is the measure induced by $\nu$ on $T$. Finally, it follows that $I(B) = \mu^*(B)$ for every set $B \in \mathscr{B}(T)$ (GT, IX, §6, No. 3, *Remark 2*), and $I$ is indeed inner regular.
 
 #### Corollary {#int-ix-s3-n3-cor-1 .statement}
 
@@ -265,10 +265,10 @@ For, $T$ is universally measurable in $X$.
 
 — *Every Souslin space (in particular, every Polish or Lusin space) is strongly Radon.*
 
-Let $T$ be a Souslin space; since $T$ is a Lindelöf space (TG, IX, Appendix I, Cor. of Prop. 1),(2) it suffices to show that $T$ is Radon (Prop. 1). Let $I$ be a function defined on $\mathcal{B}(T)$, positive, countably additive and bounded. We extend $I$ to $\mathcal{P}(T)$ by setting, for every subset $A$ of $T$,
+Let $T$ be a Souslin space; since $T$ is a Lindelöf space (TG, IX, Appendix I, Cor. of Prop. 1),(2) it suffices to show that $T$ is Radon (Prop. 1). Let $I$ be a function defined on $\mathscr{B}(T)$, positive, countably additive and bounded. We extend $I$ to $\mathscr{P}(T)$ by setting, for every subset $A$ of $T$,
 
 $$
-I(A) = \inf_{\substack{B \in \mathcal{B}(T) \\ B \supseteq A}} I(B).
+I(A) = \inf_{\substack{B \in \mathscr{B}(T) \\ B \supseteq A}} I(B).
 $$
 
 Let us show that this extension is a *capacity* on $T$ (GT, IX, §6, No. 9). It is clear that the relation $A \subset A'$ implies $I(A) \leq I(A')$. Let $(A_n)$ be an increasing sequence of subsets of $T$, and let $A = \bigcup_n A_n$. The set of Borel sets that contain $A_n$ being stable for countable intersections, there exists for each $n$ a Borel set $B_n$ such that $A_n \subset B_n$ and $I(A_n) = I(B_n)$ (cf. the proof of Prop. 2). Set $C_n = \bigcap_{p \geq n} B_p$; $C_n$ is Borel, and $A_n \subset C_n \subset B_n$, therefore $I(A_n) = I(C_n)$. On the other hand, the sequence $(C_n)$ is increasing. Let $C = \bigcup_n C_n$: the relation $A \subset C$ implies that

@@ -32,7 +32,7 @@ subsections:
       pdf_page: 30
 statements: 16
 exercises: 12
-content_sha256: 465cbeca4ee541d56f9f6c588475b8491eaf8bb2e3dd819501bacdeb6b08b435
+content_sha256: 8683d5018af12062d6e635f916667e3a2b13635267e5f807ec8845184e11fd52
 translated_from: content/en/int/II/01_s1_riesz_spaces_and_fully_lattice_ordered.md
 source_content_sha256: 3b9eb027da08c7a53f7df3e86e6b00d1cb2b27951fa304777c39b88f1388325d
 translation_model: gpt-5.4
@@ -168,7 +168,7 @@ Ngay lập tức suy ra rằng trong một không gian được sắp dàn đầ
 
 — 1) Nếu A là một tập hợp bất kỳ, không gian $\mathbf{R}^A$ các hàm thực xác định trên A là được sắp dàn đầy đủ, supremum trong $\mathbf{R}^A$ của một họ bị chặn trên là *bao trên* của nó (GT, IV, §5, No. 5).
 
-2) Cho F là một tập hợp bất kỳ; không gian $\mathcal{B}(F)$ các hàm thực *bị chặn* trên F, được trang bị cấu trúc thứ tự cảm sinh bởi cấu trúc của $\mathbf{R}^F$, là một không gian được sắp thứ tự dàn đầy đủ. Tuy nhiên, nếu F là một không gian tôpô, thì không gian $\mathcal{C}(F)$ các hàm thực *liên tục* trên F (được trang bị cấu trúc thứ tự cảm sinh bởi cấu trúc của $\mathbf{R}^F$) là một không gian Riesz mà nói chung không được sắp thứ tự dàn đầy đủ (x. Bài tập 13). Chẳng hạn xét trường hợp $F = \mathbf{R}$; đặt I là khoảng ]0, 1[, $\varphi_I$ là hàm đặc trưng của I, và H là tập hợp các hàm liên tục $x(t)$ sao cho $x \leq \varphi_I$; hiển nhiên H bị chặn trên trong $\mathcal{C}(F)$. Hàm $\varphi_I$ là *bao trên* của các $x \in H$, nhưng nó không phải là cận trên bé nhất của chúng trong $\mathcal{C}(F)$, vì $\varphi_I$ là nửa liên tục dưới nhưng không liên tục. Ta hãy chỉ ra rằng thật ra H không có cận trên bé nhất trong $\mathcal{C}(F)$; chỉ cần chứng minh rằng nếu $u$ là một hàm liên tục sao cho $u \geq \varphi_I$, thì tồn tại một hàm liên tục $v \neq u$ sao cho $u \geq v \geq \varphi_I$. Thật vậy, $u(0) \geq 1$, do đó tồn tại một số $\alpha > 0$ sao cho $u(t) > 0$ với $-\alpha \leq t \leq 0$; nếu w là một hàm liên tục bằng không ở ngoài khoảng ]$-\alpha, 0$ và sao cho $0 < w(t) < u(t)$ trên khoảng này, thì hàm $v = u - w$ thỏa mãn các yêu cầu.
+2) Cho F là một tập hợp bất kỳ; không gian $\mathscr{B}(F)$ các hàm thực *bị chặn* trên F, được trang bị cấu trúc thứ tự cảm sinh bởi cấu trúc của $\mathbf{R}^F$, là một không gian được sắp thứ tự dàn đầy đủ. Tuy nhiên, nếu F là một không gian tôpô, thì không gian $\mathscr{C}(F)$ các hàm thực *liên tục* trên F (được trang bị cấu trúc thứ tự cảm sinh bởi cấu trúc của $\mathbf{R}^F$) là một không gian Riesz mà nói chung không được sắp thứ tự dàn đầy đủ (x. Bài tập 13). Chẳng hạn xét trường hợp $F = \mathbf{R}$; đặt I là khoảng ]0, 1[, $\varphi_I$ là hàm đặc trưng của I, và H là tập hợp các hàm liên tục $x(t)$ sao cho $x \leq \varphi_I$; hiển nhiên H bị chặn trên trong $\mathscr{C}(F)$. Hàm $\varphi_I$ là *bao trên* của các $x \in H$, nhưng nó không phải là cận trên bé nhất của chúng trong $\mathscr{C}(F)$, vì $\varphi_I$ là nửa liên tục dưới nhưng không liên tục. Ta hãy chỉ ra rằng thật ra H không có cận trên bé nhất trong $\mathscr{C}(F)$; chỉ cần chứng minh rằng nếu $u$ là một hàm liên tục sao cho $u \geq \varphi_I$, thì tồn tại một hàm liên tục $v \neq u$ sao cho $u \geq v \geq \varphi_I$. Thật vậy, $u(0) \geq 1$, do đó tồn tại một số $\alpha > 0$ sao cho $u(t) > 0$ với $-\alpha \leq t \leq 0$; nếu w là một hàm liên tục bằng không ở ngoài khoảng ]$-\alpha, 0$ và sao cho $0 < w(t) < u(t)$ trên khoảng này, thì hàm $v = u - w$ thỏa mãn các yêu cầu.
 
 #### Mệnh đề 1 {#int-ii-s1-prop-1 .statement}
 
@@ -192,7 +192,7 @@ Thật vậy, người ta biết rằng giới hạn của bộ lọc tiết di�
 
 Cho $E$ là một không gian được sắp thứ tự dàn đầy đủ, $H$ là một không gian con tuyến tính của $E$. Cấu trúc thứ tự cảm sinh trên $H$ bởi cấu trúc thứ tự của $E$ là tương thích với cấu trúc không gian vectơ của $H$, nhưng không gian vectơ có thứ tự $H$ được xác định như vậy *không nhất thiết là một không gian được sắp thứ tự dàn đầy đủ*.
 
-Chính xác hơn, có thể xảy ra việc $H$ không phải là một không gian Riesz (Bài tập 2), hoặc $H$ là một không gian Riesz nhưng không được sắp thứ tự dàn đầy đủ: trường hợp sau xảy ra với không gian con $\mathcal{C}(\mathbf{R})$ của không gian $\mathcal{B}(\mathbf{R})$ (No. 3, Ví dụ 2).
+Chính xác hơn, có thể xảy ra việc $H$ không phải là một không gian Riesz (Bài tập 2), hoặc $H$ là một không gian Riesz nhưng không được sắp thứ tự dàn đầy đủ: trường hợp sau xảy ra với không gian con $\mathscr{C}(\mathbf{R})$ của không gian $\mathscr{B}(\mathbf{R})$ (No. 3, Ví dụ 2).
 
 Hơn nữa, nếu $H$ là một không gian Riesz (được sắp thứ tự dàn đầy đủ hay không) thì có thể xảy ra việc cận trên đúng *trong* $H$ của hai phần tử của $H$ khác với cận trên đúng của chúng *trong* $E$ (Bài tập 3 *b*). Sau cùng, có thể xảy ra việc $H$ được sắp thứ tự dàn đầy đủ, cận trên đúng của mỗi tập con *hữu hạn* của $H$ là như nhau trong $E$ và trong $H$, nhưng lại tồn tại các tập con *vô hạn* của $H$, bị chặn trên trong $H$, mà các cận trên đúng trong $E$ và trong $H$ là khác nhau (Bài tập 13 *f*)).
 
@@ -228,7 +228,7 @@ Trong không gian $\mathbf{R}^A$ các hàm thực xác định trên một tập
 
 #### Nhận xét {#int-ii-s1-n5-rem-1 .statement}
 
-Trong không gian $\mathbf{R}^A$, không gian con $\mathcal{B}(A)$ các hàm thực bị chặn trên $A$ thỏa mãn điều kiện 1) của Định nghĩa 4; hơn nữa, với mọi tập con $X$ của $\mathcal{B}(A)$ bị chặn trên *trong* $\mathcal{B}(A)$, bao trên của $X$ thuộc về $\mathcal{B}(A)$. Tuy nhiên, nếu $A$ là vô hạn, một tập con của $\mathcal{B}(A)$ có thể *bị chặn trên trong* $\mathbf{R}^A$ *mà không bị chặn trên trong* $\mathcal{B}(A)$; trong trường hợp đó $\mathcal{B}(A)$ không phải là một dải trong $\mathbf{R}^A$.
+Trong không gian $\mathbf{R}^A$, không gian con $\mathscr{B}(A)$ các hàm thực bị chặn trên $A$ thỏa mãn điều kiện 1) của Định nghĩa 4; hơn nữa, với mọi tập con $X$ của $\mathscr{B}(A)$ bị chặn trên *trong* $\mathscr{B}(A)$, bao trên của $X$ thuộc về $\mathscr{B}(A)$. Tuy nhiên, nếu $A$ là vô hạn, một tập con của $\mathscr{B}(A)$ có thể *bị chặn trên trong* $\mathbf{R}^A$ *mà không bị chặn trên trong* $\mathscr{B}(A)$; trong trường hợp đó $\mathscr{B}(A)$ không phải là một dải trong $\mathbf{R}^A$.
 
 Suy ra ngay từ Định nghĩa 4 rằng nếu $B$ là một dải trong $E$ thì, với mọi tập con khác rỗng $X$ của $B$ bị chặn dưới trong $E$, $\inf X$ thuộc về $B$. Mọi dải $B$ trong $E$, khi được trang bị cấu trúc không gian vectơ có thứ tự cảm sinh bởi cấu trúc của $E$, là một không gian dàn có thứ tự đầy đủ và, với mọi tập con $X \subset B$ bị chặn trên trong $B$, cận trên đúng của $X$ trong $B$ đồng nhất với cận trên đúng của nó trong $E$.
 

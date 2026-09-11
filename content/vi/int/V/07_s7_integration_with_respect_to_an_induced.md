@@ -21,9 +21,9 @@ subsections:
       pdf_page: 332
 statements: 20
 exercises: 11
-content_sha256: 5012d3d9fae3921499312646b9d0c4254f99cfa930bdd821649d601fe325e25d
+content_sha256: 277e5708c428060e558434f58c38bf5dc807b660ce178279d76d78d85ba8fd6b
 translated_from: content/en/int/V/07_s7_integration_with_respect_to_an_induced.md
-source_content_sha256: e030290ab411284cc4728d9904d084897c45e06cfc755ed71d47123bee0c7221
+source_content_sha256: 5733973f5bdd9fd2e8b08ef663ed9020c730c1ae2dfe39d0ab80fd1f0ffc450c
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-5d1c0ce4
 glossary_version: 34
@@ -35,7 +35,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Tích phân đối với một độ đo cảm sinh
 
-Cho $X$ là một không gian con địa phương compact của $T$, $\mu$ là một độ đo dương trên $T$, và $\mu_X$ là độ đo cảm sinh trên $X$ bởi $\mu$ (Ch. IV, §5, No. 7). Với mọi $t \in T$, ta định nghĩa một độ đo $\lambda_t$ *trên* $X$ theo cách sau: $\lambda_t = \varepsilon_t$ nếu $t \in X$, $\lambda_t = 0$ nếu $t \in \mathbf{C}X$. Với mọi hàm số hữu hạn $g$ xác định trên $X$, $\int g(x) d\lambda_t(x) = g(t)$ nếu $t \in X$ và $\int g(x) d\lambda_t(x) = 0$ nếu $t \in \mathbf{C}X$. Nếu $g$ là một hàm trong $\mathcal{K}(X)$ thì do đó, theo định nghĩa của $\mu_X$,
+Cho $X$ là một không gian con địa phương compact của $T$, $\mu$ là một độ đo dương trên $T$, và $\mu_X$ là độ đo cảm sinh trên $X$ bởi $\mu$ (Ch. IV, §5, No. 7). Với mọi $t \in T$, ta định nghĩa một độ đo $\lambda_t$ *trên* $X$ theo cách sau: $\lambda_t = \varepsilon_t$ nếu $t \in X$, $\lambda_t = 0$ nếu $t \in \mathbf{C}X$. Với mọi hàm số hữu hạn $g$ xác định trên $X$, $\int g(x) d\lambda_t(x) = g(t)$ nếu $t \in X$ và $\int g(x) d\lambda_t(x) = 0$ nếu $t \in \mathbf{C}X$. Nếu $g$ là một hàm trong $\mathscr{K}(X)$ thì do đó, theo định nghĩa của $\mu_X$,
 
 $$
 \mu_X(g) = \int \langle g, \lambda_t \rangle d\mu(t) .
@@ -111,7 +111,7 @@ $$
 (g \cdot \mu)_X = g_X \cdot \mu_X.
 $$
 
-Điều này suy ra ngay từ Định lý 1, áp dụng cho các hàm $fg_X$ ($f \in \mathcal{K}(X; \mathbf{C})$), và định nghĩa của độ đo cảm sinh trên X bởi một độ đo phức (Ch. IV, § 5, No. 7).
+Điều này suy ra ngay từ Định lý 1, áp dụng cho các hàm $fg_X$ ($f \in \mathscr{K}(X; \mathbf{C})$), và định nghĩa của độ đo cảm sinh trên X bởi một độ đo phức (Ch. IV, § 5, No. 7).
 
 #### Hệ quả 3 {#int-v-s7-thm-1-cor-3 .statement}
 
@@ -130,7 +130,7 @@ $$
 
 #### Chú giải {#int-v-s7-n1-sch-1 .statement}
 
-— Với mọi hàm $f$ (tương ứng $g$) xác định trên $X$ (tương ứng $T$) với các giá trị trong không gian Banach $F$ hoặc trong $\overline{\mathbf{R}}$, ký hiệu $\zeta(f)$ (tương ứng $\rho(g)$) là mở rộng bằng 0 của $f$ lên $T$ (tương ứng là hạn chế của $g$ lên $X$). Khi đó $\zeta(\rho(g)) = \varphi_X \cdot g$, $\rho(\zeta(f)) = f$. Ta ký hiệu $\mu'$ là độ đo $\varphi_X \cdot \mu$ trên $T$. Với mọi $p \in [1, +\infty]$, các Mệnh đề 1 và 2 kéo theo rằng $\zeta$ ánh xạ $\mathcal{L}_F^p(X, \mu_X)$ vào $\mathcal{L}_F^p(T, \mu')$, và rằng $\rho$ ánh xạ $\mathcal{L}_F^p(T, \mu')$ lên $\mathcal{L}_F^p(X, \mu_X)$, với sự bảo toàn chuẩn trong cả hai trường hợp, cũng như bảo toàn tích phân khi $p = 1$ (Định lý 1); chuyển qua các không gian Hausdorff liên kết, ta thu được hai đẳng cấu nghịch đảo của nhau. Tương tự, nếu $\zeta$ và $\rho$ được áp dụng cho các hàm số dương, tích phân trên cốt yếu được bảo toàn (Mệnh đề 1). Như vậy, nếu ta đồng nhất một hàm trên $X$ với một hàm trên T bằng 0 trên X − T, và độ đo $\mu_X$ với độ đo $\mu'$, thì các bài toán liên quan đến các độ đo cảm sinh được quy về các bài toán liên quan đến các độ đo được xác định bởi mật độ, đã được xét trong §5. Kiểu lập luận này cũng áp dụng được cho các độ đo phức, theo Hệ quả 3 của Định lý 1.
+— Với mọi hàm $f$ (tương ứng $g$) xác định trên $X$ (tương ứng $T$) với các giá trị trong không gian Banach $F$ hoặc trong $\overline{\mathbf{R}}$, ký hiệu $\zeta(f)$ (tương ứng $\rho(g)$) là mở rộng bằng 0 của $f$ lên $T$ (tương ứng là hạn chế của $g$ lên $X$). Khi đó $\zeta(\rho(g)) = \varphi_X \cdot g$, $\rho(\zeta(f)) = f$. Ta ký hiệu $\mu'$ là độ đo $\varphi_X \cdot \mu$ trên $T$. Với mọi $p \in [1, +\infty]$, các Mệnh đề 1 và 2 kéo theo rằng $\zeta$ ánh xạ $\mathscr{L}_F^p(X, \mu_X)$ vào $\mathscr{L}_F^p(T, \mu')$, và rằng $\rho$ ánh xạ $\mathscr{L}_F^p(T, \mu')$ lên $\mathscr{L}_F^p(X, \mu_X)$, với sự bảo toàn chuẩn trong cả hai trường hợp, cũng như bảo toàn tích phân khi $p = 1$ (Định lý 1); chuyển qua các không gian Hausdorff liên kết, ta thu được hai đẳng cấu nghịch đảo của nhau. Tương tự, nếu $\zeta$ và $\rho$ được áp dụng cho các hàm số dương, tích phân trên cốt yếu được bảo toàn (Mệnh đề 1). Như vậy, nếu ta đồng nhất một hàm trên $X$ với một hàm trên T bằng 0 trên X − T, và độ đo $\mu_X$ với độ đo $\mu'$, thì các bài toán liên quan đến các độ đo cảm sinh được quy về các bài toán liên quan đến các độ đo được xác định bởi mật độ, đã được xét trong §5. Kiểu lập luận này cũng áp dụng được cho các độ đo phức, theo Hệ quả 3 của Định lý 1.
 
 ### 2. Các tính chất của các độ đo cảm sinh
 
@@ -147,13 +147,13 @@ $$
 (i(\lambda))_X = \lambda \quad \text{và} \quad i(\lambda) = i(\theta_X) = \varphi_X \cdot \theta .
 $$
 
-Vì đơn ánh $i$ liên tục, tính tương đương của các tính chất a), b) và c) suy ra từ Mệnh đề 1 của §6, và nhận xét theo sau đó, áp dụng cho độ đo dương $|\lambda|$. Nếu $\lambda$ được cảm sinh trên X bởi một độ đo $\theta$ trên T, thì $|\lambda| = |\theta|_X$ (công thức (6)), do đó $|\lambda|(K \cap X) = |\theta|(K \cap X) \leq |\theta|(K) < +\infty$ (Mệnh đề 1) với mọi tập con compact K của T, nên d) suy ra b). Giả sử a) được thỏa mãn, và ta chứng minh rằng $(i(\lambda))_X = \lambda$, điều này sẽ suy ra d). Cho g là một phần tử của $\mathcal{H}(X; \mathbf{C})$; ký hiệu $g'$ là mở rộng bằng 0 của g lên T, ta có, theo định nghĩa của độ đo cảm sinh và sau đó theo Mệnh đề 7 của §6, No. 4,
+Vì đơn ánh $i$ liên tục, tính tương đương của các tính chất a), b) và c) suy ra từ Mệnh đề 1 của §6, và nhận xét theo sau đó, áp dụng cho độ đo dương $|\lambda|$. Nếu $\lambda$ được cảm sinh trên X bởi một độ đo $\theta$ trên T, thì $|\lambda| = |\theta|_X$ (công thức (6)), do đó $|\lambda|(K \cap X) = |\theta|(K \cap X) \leq |\theta|(K) < +\infty$ (Mệnh đề 1) với mọi tập con compact K của T, nên d) suy ra b). Giả sử a) được thỏa mãn, và ta chứng minh rằng $(i(\lambda))_X = \lambda$, điều này sẽ suy ra d). Cho g là một phần tử của $\mathscr{H}(X; \mathbf{C})$; ký hiệu $g'$ là mở rộng bằng 0 của g lên T, ta có, theo định nghĩa của độ đo cảm sinh và sau đó theo Mệnh đề 7 của §6, No. 4,
 
 $$
 \int g \, d(i(\lambda))_X = \int g' \, d(i(\lambda)) = \int (g' \circ i) \, d\lambda = \int g \, d\lambda .
 $$
 
-Điều này hoàn tất chứng minh tính tương đương của bốn tính chất. Nếu $\lambda = \theta_X$ và $g \in \mathcal{H}(T; \mathbf{C})$, thì
+Điều này hoàn tất chứng minh tính tương đương của bốn tính chất. Nếu $\lambda = \theta_X$ và $g \in \mathscr{H}(T; \mathbf{C})$, thì
 
 $$
 \int g \, d(i(\theta_X)) = \int (g \circ i) \, d(\theta_X) = \int g \varphi_X \, d\theta ,
@@ -177,11 +177,11 @@ Thật vậy, π_X = π ∘ i, trong đó i là đơn ánh chính tắc X → T.
 
 — Cho X và Y là hai không gian con địa phương compact của T sao cho Y ⊂ X. Nếu θ là một độ đo phức trên T, thì độ đo (θ_X)_Y được cảm sinh bởi θ_X trên Y bằng θ_Y ('tính bắc cầu của các độ đo cảm sinh').
 
-Chỉ cần nhận thấy rằng nếu g là một phần tử của $\mathcal{H}(Y; \mathbf{C})$, thì mở rộng bằng 0 của g lên T có thể nhận được bằng cách mở rộng bằng 0 mở rộng bằng 0 của g lên X, hoặc lại nữa, sử dụng các đồng nhất nhất trong Chú giải, rằng $φ_Y · θ = φ_Y(φ_X · θ)$ (§5, No. 4, Mệnh đề 8).
+Chỉ cần nhận thấy rằng nếu g là một phần tử của $\mathscr{H}(Y; \mathbf{C})$, thì mở rộng bằng 0 của g lên T có thể nhận được bằng cách mở rộng bằng 0 mở rộng bằng 0 của g lên X, hoặc lại nữa, sử dụng các đồng nhất nhất trong Chú giải, rằng $φ_Y · θ = φ_Y(φ_X · θ)$ (§5, No. 4, Mệnh đề 8).
 
 #### Mệnh đề 5 {#int-v-s7-prop-5 .statement}
 
-— Cho $(\lambda_α)_{α ∈ A}$ là một họ có hướng tăng của các độ đo dương trên T, có một cận trên đúng λ, và cho X là một không gian con địa phương compact của T. Khi đó họ các độ đo cảm sinh $λ_α|X$ bị chặn trên trong $\mathcal{M}(X)$, và
+— Cho $(\lambda_α)_{α ∈ A}$ là một họ có hướng tăng của các độ đo dương trên T, có một cận trên đúng λ, và cho X là một không gian con địa phương compact của T. Khi đó họ các độ đo cảm sinh $λ_α|X$ bị chặn trên trong $\mathscr{M}(X)$, và
 
 $$
 \sup_{α ∈ A} (λ_α|X) = λ|X.
@@ -199,7 +199,7 @@ $$
 
 #### Mệnh đề 6 {#int-v-s7-prop-6 .statement}
 
-— Cho $Λ : t ↦ λ_t$ là một ánh xạ μ-thích hợp của T vào $\mathcal{M}_+(X)$, trong đó X là một không gian địa phương compact đếm được ở vô cực, và cho Y là một không gian con địa phương compact của X. Đặt $\int λ_t dμ(t) = ν$. Khi đó ánh xạ $t ↦ λ_t|Y$ của T vào $\mathcal{M}_+(Y)$ là μ-thích hợp, và
+— Cho $Λ : t ↦ λ_t$ là một ánh xạ μ-thích hợp của T vào $\mathscr{M}_+(X)$, trong đó X là một không gian địa phương compact đếm được ở vô cực, và cho Y là một không gian con địa phương compact của X. Đặt $\int λ_t dμ(t) = ν$. Khi đó ánh xạ $t ↦ λ_t|Y$ của T vào $\mathscr{M}_+(Y)$ là μ-thích hợp, và
 
 $$
 \int (λ_t|Y) dμ(t) = ν|Y.

@@ -32,7 +32,7 @@ subsections:
       pdf_page: 217
 statements: 23
 exercises: 20
-content_sha256: 78ba0bd49ab0823a93c596fc4105262a03df9d467b9312a50193311a98a88519
+content_sha256: af81f067a5e3acc267fe175e6df1e7af0e529ace4d439ab4bab117289a276276
 ---
 
 ## § 6. Inégalités de convexité
@@ -110,33 +110,33 @@ appartient à la frontière de $D$ (exerc. 2).
 
 #### Définition 2 {#int-iv-s6-def-2 .statement}
 
-Pour toute application $f$ de $X$ dans un espace de Banach $F$, on pose $N_\infty(f) = M_\infty(|f|)$; on dit que $f$ est bornée en mesure (pour la mesure $\mu$) si $N_\infty(f)$ est fini. On désigne par $\mathcal{L}_F^\infty(X, \mu)$ (ou $\mathcal{L}_F^\infty(\mu)$, ou simplement $\mathcal{L}_F^\infty$) l’ensemble des applications mesurables et bornées en mesure de $X$ dans $F$.
+Pour toute application $f$ de $X$ dans un espace de Banach $F$, on pose $N_\infty(f) = M_\infty(|f|)$; on dit que $f$ est bornée en mesure (pour la mesure $\mu$) si $N_\infty(f)$ est fini. On désigne par $\mathscr{L}_F^\infty(X, \mu)$ (ou $\mathscr{L}_F^\infty(\mu)$, ou simplement $\mathscr{L}_F^\infty$) l’ensemble des applications mesurables et bornées en mesure de $X$ dans $F$.
 
-Une fonction $f$ de $\mathcal{L}_F^\infty$ peut donc être caractérisée par le fait qu’il existe une fonction *mesurable et bornée* égale localement presque partout à $f$.
+Une fonction $f$ de $\mathscr{L}_F^\infty$ peut donc être caractérisée par le fait qu’il existe une fonction *mesurable et bornée* égale localement presque partout à $f$.
 
 Il résulte aussitôt de (1) qu’on a
 $$
 N_\infty(f + g) \leq N_\infty(f) + N_\infty(g);
 $$
-d’autre part, on a $N_\infty(\alpha f) = |\alpha| N_\infty(f)$ pour tout scalaire $\alpha$. L’ensemble $\mathcal{L}_F^\infty$ est donc un *sous-espace vectoriel* de l’espace de toutes les applications de $X$ dans $F$, et $N_\infty(f)$ est une semi-norme sur cet espace vectoriel. Soit $(f_n)$ une suite de fonctions de $\mathcal{L}_F^\infty$, qui converge vers $f \in \mathcal{L}_F^\infty$ pour la topologie définie par la semi-norme $N_\infty(f)$; pour tout entier $m$, il existe un ensemble localement négligeable $H_m$ et un entier $n_0$ tels que, pour tout entier $n \geq n_0$ et tout $x \notin H_m$, on ait $|f(x) - f_n(x)| \leq 1/m$ (toute réunion dénombrable d’ensembles localement négligeables étant localement négligeable); la réunion $H$ des $H_m$ est localement négligeable, et on voit que $f_n(x)$ tend *uniformément* vers $f(x)$ dans le complémentaire de l’ensemble localement négligeable $H$; la réciproque est immédiate.
+d’autre part, on a $N_\infty(\alpha f) = |\alpha| N_\infty(f)$ pour tout scalaire $\alpha$. L’ensemble $\mathscr{L}_F^\infty$ est donc un *sous-espace vectoriel* de l’espace de toutes les applications de $X$ dans $F$, et $N_\infty(f)$ est une semi-norme sur cet espace vectoriel. Soit $(f_n)$ une suite de fonctions de $\mathscr{L}_F^\infty$, qui converge vers $f \in \mathscr{L}_F^\infty$ pour la topologie définie par la semi-norme $N_\infty(f)$; pour tout entier $m$, il existe un ensemble localement négligeable $H_m$ et un entier $n_0$ tels que, pour tout entier $n \geq n_0$ et tout $x \notin H_m$, on ait $|f(x) - f_n(x)| \leq 1/m$ (toute réunion dénombrable d’ensembles localement négligeables étant localement négligeable); la réunion $H$ des $H_m$ est localement négligeable, et on voit que $f_n(x)$ tend *uniformément* vers $f(x)$ dans le complémentaire de l’ensemble localement négligeable $H$; la réciproque est immédiate.
 
-Il est clair que toute fonction égale localement presque partout à une fonction de $\mathcal{L}_F^\infty$ appartient à $\mathcal{L}_F^\infty$. En particulier, les fonctions *localement négligeables* définies dans $X$ et à valeurs dans $F$ forment un sous-espace vectoriel $\mathcal{N}_F^\infty$ de $\mathcal{L}_F^\infty$, caractérisé par la relation $N_\infty(f) = 0$ (adhérence de 0 pour la topologie définie par $N_\infty(f)$). On désigne par $L_F^\infty(X, \mu)$ (ou $L_F^\infty(\mu)$ ou $L_F^\infty$) l’espace séparé associé à $\mathcal{L}_F^\infty$, c’est-à-dire l’espace quotient $\mathcal{L}_F^\infty / \mathcal{N}_F^\infty$; sa topologie est définie par la *norme* déduite de $N_\infty$ par passage au quotient; la norme d’une classe $\dot{f} \in L_F^\infty$ s’écrit $N_\infty(\dot{f})$, ou encore $\| \dot{f} \|_\infty$. Lorsque $F = \mathbf{R}$ (resp. $\mathbf{C}$), on écrit $\mathcal{L}^\infty$ et $L^\infty$ au lieu de $\mathcal{L}_\mathbf{R}^\infty$ et $L_\mathbf{R}^\infty$ (resp. $\mathcal{L}_\mathbf{C}^\infty$ et $L_\mathbf{C}^\infty$) s’il n’en résulte pas de confusion.
+Il est clair que toute fonction égale localement presque partout à une fonction de $\mathscr{L}_F^\infty$ appartient à $\mathscr{L}_F^\infty$. En particulier, les fonctions *localement négligeables* définies dans $X$ et à valeurs dans $F$ forment un sous-espace vectoriel $\mathscr{N}_F^\infty$ de $\mathscr{L}_F^\infty$, caractérisé par la relation $N_\infty(f) = 0$ (adhérence de 0 pour la topologie définie par $N_\infty(f)$). On désigne par $L_F^\infty(X, \mu)$ (ou $L_F^\infty(\mu)$ ou $L_F^\infty$) l’espace séparé associé à $\mathscr{L}_F^\infty$, c’est-à-dire l’espace quotient $\mathscr{L}_F^\infty / \mathscr{N}_F^\infty$; sa topologie est définie par la *norme* déduite de $N_\infty$ par passage au quotient; la norme d’une classe $\dot{f} \in L_F^\infty$ s’écrit $N_\infty(\dot{f})$, ou encore $\| \dot{f} \|_\infty$. Lorsque $F = \mathbf{R}$ (resp. $\mathbf{C}$), on écrit $\mathscr{L}^\infty$ et $L^\infty$ au lieu de $\mathscr{L}_\mathbf{R}^\infty$ et $L_\mathbf{R}^\infty$ (resp. $\mathscr{L}_\mathbf{C}^\infty$ et $L_\mathbf{C}^\infty$) s’il n’en résulte pas de confusion.
 
 #### Proposition 2 {#int-iv-s6-prop-2 .statement}
 
-L’espace $\mathcal{L}_F^\infty$ est complet ; l’espace $L_F^\infty$ est un espace de Banach.
+L’espace $\mathscr{L}_F^\infty$ est complet ; l’espace $L_F^\infty$ est un espace de Banach.
 
-Soit en effet $(\mathbf{f}_n)$ une suite de Cauchy dans $\mathcal{L}_F^\infty$; pour tout entier $n$, il existe un entier $k_n$ tel que, pour $r \geq k_n$ et $s \geq k_n$, on ait $N_\infty(\mathbf{f}_r - \mathbf{f}_s) \leq 1/n$; il existe donc un ensemble localement négligeable $A_{rs}$ tel que l’on ait $|\mathbf{f}_r(x) - \mathbf{f}_s(x)| \leq 1/n$ pour tout $x \notin A_{rs}$. Si $A_n$ est la réunion des ensembles $A_{rs}$ (pour $r \geq k_n$ et $s \geq k_n$), $A_n$ est localement négligeable, et pour tout $x \notin A_n$, on a $|\mathbf{f}_r(x) - \mathbf{f}_s(x)| \leq 1/n$ pour tous les indices $r \geq k_n, s \geq k_n$. Soit $A$ l’ensemble localement négligeable réunion des $A_n$, et posons $g_n(x) = \mathbf{f}_n(x)$ pour $x \notin A$, $g_n(x) = 0$ pour $x \in A$; $g_n$ appartient à $\mathcal{L}_F^\infty$, et d’après la définition de $A$, la suite $(g_n)$ converge uniformément dans $X$ vers une fonction $g$. Il en résulte que la fonction $g$ est mesurable (§ 5, n° 4, th. 2); en outre, $g$ est bornée dans l’ensemble des $x \in X$ où $|g_{k_1}(x)| \leq N_\infty(g_{k_1})$, et comme le complémentaire de cet ensemble est localement négligeable, $g$ appartient à $\mathcal{L}_F^\infty$. Il est clair que dans $\mathcal{L}_F^\infty$, la suite $(g_n)$ a pour limite $g$, et il en est donc de même de la suite $(\mathbf{f}_n)$, puisque $N_\infty(\mathbf{f}_n - g_n) = 0$ pour tout $n$. La seconde partie de la proposition s’en déduit immédiatement.
+Soit en effet $(\mathbf{f}_n)$ une suite de Cauchy dans $\mathscr{L}_F^\infty$; pour tout entier $n$, il existe un entier $k_n$ tel que, pour $r \geq k_n$ et $s \geq k_n$, on ait $N_\infty(\mathbf{f}_r - \mathbf{f}_s) \leq 1/n$; il existe donc un ensemble localement négligeable $A_{rs}$ tel que l’on ait $|\mathbf{f}_r(x) - \mathbf{f}_s(x)| \leq 1/n$ pour tout $x \notin A_{rs}$. Si $A_n$ est la réunion des ensembles $A_{rs}$ (pour $r \geq k_n$ et $s \geq k_n$), $A_n$ est localement négligeable, et pour tout $x \notin A_n$, on a $|\mathbf{f}_r(x) - \mathbf{f}_s(x)| \leq 1/n$ pour tous les indices $r \geq k_n, s \geq k_n$. Soit $A$ l’ensemble localement négligeable réunion des $A_n$, et posons $g_n(x) = \mathbf{f}_n(x)$ pour $x \notin A$, $g_n(x) = 0$ pour $x \in A$; $g_n$ appartient à $\mathscr{L}_F^\infty$, et d’après la définition de $A$, la suite $(g_n)$ converge uniformément dans $X$ vers une fonction $g$. Il en résulte que la fonction $g$ est mesurable (§ 5, n° 4, th. 2); en outre, $g$ est bornée dans l’ensemble des $x \in X$ où $|g_{k_1}(x)| \leq N_\infty(g_{k_1})$, et comme le complémentaire de cet ensemble est localement négligeable, $g$ appartient à $\mathscr{L}_F^\infty$. Il est clair que dans $\mathscr{L}_F^\infty$, la suite $(g_n)$ a pour limite $g$, et il en est donc de même de la suite $(\mathbf{f}_n)$, puisque $N_\infty(\mathbf{f}_n - g_n) = 0$ pour tout $n$. La seconde partie de la proposition s’en déduit immédiatement.
 
 #### Remarque 1 {#int-iv-s6-n3-rem-1 .statement}
 
-Toute fonction $f$ continue et bornée dans $X$, à valeurs dans $F$, appartient à $\mathcal{L}_F^\infty$, et l’on a
+Toute fonction $f$ continue et bornée dans $X$, à valeurs dans $F$, appartient à $\mathscr{L}_F^\infty$, et l’on a
 $$
 N_\infty(f) \leq \|f\| = \sup_{x \in X} |f(x)|.
 $$
 Pour que l’on ait $N_\infty(f) = \|f\|$ pour toute fonction continue et bornée $f$, il faut et il suffit que le support de la mesure $\mu$ soit égal à $X$. En effet, s’il existe une fonction continue $f$ à support compact négligeable et non identiquement nulle, on a $N_\infty(f) = 0$ et $\|f\| > 0$. Inversement, si le support de $\mu$ est égal à $X$, pour toute fonction continue et bornée $f$ et tout nombre $\alpha < \|f\|$, l’ensemble des $x \in X$ tels que $|f(x)| > \alpha$ est ouvert et non vide, donc de mesure extérieure $> 0$, ce qui montre que $N_\infty(f) = \|f\|$.
 
-Lorsque le support de $\mu$ est égal à $X$, on peut donc identifier l’espace normé $C^b(X; F)$ des fonctions continues et bornées dans $X$, à valeurs dans $F$, avec un sous-espace de l’espace $\mathcal{L}_F^\infty$. Comme $\mathcal{L}_F^\infty$ n’est pas en général séparé, le sous-espace $C^b(X; F)$ n’est pas en général fermé dans $\mathcal{L}_F^\infty$, mais son image canonique dans $L_F^\infty$ est un sous-espace fermé de $L_F^\infty$ (qu’on peut d’ailleurs identifier à $C^b(X; F)$ dans le cas envisagé). En général, $C^b(X; F)$ est distinct de $L_F^\infty$, c’est-à-dire que, pour une fonction mesurable et bornée quelconque $f$, il n’existe pas en général de fonction $g$ continue et égale à $f$ localement presque partout (§ 5, exerc. 12). Cela entraîne que l’espace $\mathcal{K}(X; F)$ des applications de $X$ dans $F$, continues et à support compact, $n’est pas partout dense dans L_F^\infty$ en général, alors qu’il est partout dense dans chacun des espaces $L_F^p$ pour
+Lorsque le support de $\mu$ est égal à $X$, on peut donc identifier l’espace normé $C^b(X; F)$ des fonctions continues et bornées dans $X$, à valeurs dans $F$, avec un sous-espace de l’espace $\mathscr{L}_F^\infty$. Comme $\mathscr{L}_F^\infty$ n’est pas en général séparé, le sous-espace $C^b(X; F)$ n’est pas en général fermé dans $\mathscr{L}_F^\infty$, mais son image canonique dans $L_F^\infty$ est un sous-espace fermé de $L_F^\infty$ (qu’on peut d’ailleurs identifier à $C^b(X; F)$ dans le cas envisagé). En général, $C^b(X; F)$ est distinct de $L_F^\infty$, c’est-à-dire que, pour une fonction mesurable et bornée quelconque $f$, il n’existe pas en général de fonction $g$ continue et égale à $f$ localement presque partout (§ 5, exerc. 12). Cela entraîne que l’espace $\mathscr{K}(X; F)$ des applications de $X$ dans $F$, continues et à support compact, $n’est pas partout dense dans L_F^\infty$ en général, alors qu’il est partout dense dans chacun des espaces $L_F^p$ pour
 $$
 1 \leq p < +\infty
 $$
@@ -144,7 +144,7 @@ $$
 
 #### Remarque 2 {#int-iv-s6-n3-rem-2 .statement}
 
-Il est immédiat que la topologie définie par la semi-norme $N_\infty$ est plus fine que la topologie induite sur $\mathcal{L}_F^\infty$ par la topologie de la convergence en mesure ($§ 5, n° 11$).
+Il est immédiat que la topologie définie par la semi-norme $N_\infty$ est plus fine que la topologie induite sur $\mathscr{L}_F^\infty$ par la topologie de la convergence en mesure ($§ 5, n° 11$).
 
 ### 4. L’inégalité de Hölder
 
@@ -152,13 +152,13 @@ Dans ce numéro, $p$ et $q$ désigneront deux nombres réels tels que $1 \leq p 
 
 #### Théorème 2 (inégalité de Hölder) {#int-iv-s6-thm-2 .statement}
 
-Soient $f$ et $g$ deux fonctions numériques finies presque partout et telles que $f$ soit égale presque partout à une fonction de $\mathcal{L}^p$ et $g$ à une fonction de $\mathcal{L}^q$. Alors la fonction $fg$ (définie presque partout) est intégrable, et on a
+Soient $f$ et $g$ deux fonctions numériques finies presque partout et telles que $f$ soit égale presque partout à une fonction de $\mathscr{L}^p$ et $g$ à une fonction de $\mathscr{L}^q$. Alors la fonction $fg$ (définie presque partout) est intégrable, et on a
 
 $$
 N_1(fg) \leq N_p(f)N_q(g).
 $$
 
-Soit $f_1$ (resp. $g_1$) une fonction de $\mathcal{L}^p$ (resp. $\mathcal{L}^q$) à laquelle $f$ (resp. $g$) est presque partout égale; $fg$ est égale presque partout à la fonction $f_1g_1$ partout définie et finie, qui est mesurable comme produit de deux fonctions mesurables ($§ 5,$ th. 1 et 5). Si
+Soit $f_1$ (resp. $g_1$) une fonction de $\mathscr{L}^p$ (resp. $\mathscr{L}^q$) à laquelle $f$ (resp. $g$) est presque partout égale; $fg$ est égale presque partout à la fonction $f_1g_1$ partout définie et finie, qui est mesurable comme produit de deux fonctions mesurables ($§ 5,$ th. 1 et 5). Si
 
 $$
 1 < p < +\infty,
@@ -168,7 +168,7 @@ l’inégalité de Hölder pour l’intégrale supérieure (chap. I, n° 3, prop
 
 #### Corollaire 1 {#int-iv-s6-thm-2-cor-1 .statement}
 
-Soient $F, G, H$ trois espaces de Banach, et $(\mathbf{u}, \mathbf{v}) \mapsto \Phi(\mathbf{u}, \mathbf{v})$ une application bilinéaire continue de $F \times G$ dans $H$, telle que $|\Phi(\mathbf{u}, \mathbf{v})| \leq |\mathbf{u}| \cdot |\mathbf{v}|$. Si $\mathbf{f} \in \mathcal{L}_F^p$ et $\mathbf{g} \in \mathcal{L}_G^q$, la fonction $\Phi(\mathbf{f}, \mathbf{g})$ est intégrable, et on a
+Soient $F, G, H$ trois espaces de Banach, et $(\mathbf{u}, \mathbf{v}) \mapsto \Phi(\mathbf{u}, \mathbf{v})$ une application bilinéaire continue de $F \times G$ dans $H$, telle que $|\Phi(\mathbf{u}, \mathbf{v})| \leq |\mathbf{u}| \cdot |\mathbf{v}|$. Si $\mathbf{f} \in \mathscr{L}_F^p$ et $\mathbf{g} \in \mathscr{L}_G^q$, la fonction $\Phi(\mathbf{f}, \mathbf{g})$ est intégrable, et on a
 
 $$
 \left| \int \Phi(\mathbf{f}, \mathbf{g}) \, d\mu \right| \leq \int |\Phi(\mathbf{f}, \mathbf{g})| \, d|\mu| \leq N_p(\mathbf{f})N_q(\mathbf{g}).
@@ -180,7 +180,7 @@ Deux cas particuliers du cor. 1 sont importants dans les applications :
 
 #### Corollaire 2 {#int-iv-s6-thm-2-cor-2 .statement}
 
-Soit F un espace de Banach réel (resp. complexe), F' son dual fort (Esp. vect. top., chap. IV, § 3), et soit (z, z') \mapsto \langle z, z' \rangle la forme bilinéaire canonique sur F × F'. Si f \in \mathcal{L}_F^p et g \in \mathcal{L}_{F'}^q, la fonction numérique (resp. complexe) $\langle f, g \rangle$ est intégrable, et on a
+Soit F un espace de Banach réel (resp. complexe), F' son dual fort (Esp. vect. top., chap. IV, § 3), et soit (z, z') \mapsto \langle z, z' \rangle la forme bilinéaire canonique sur F × F'. Si f \in \mathscr{L}_F^p et g \in \mathscr{L}_{F'}^q, la fonction numérique (resp. complexe) $\langle f, g \rangle$ est intégrable, et on a
 
 $$
 \left| \int \langle f, g \rangle \, d\mu \right| \leq \int \left| \langle f, g \rangle \right| \, d|\mu| \leq N_p(f)N_q(g).
@@ -202,7 +202,7 @@ définit une structure d’espace hilbertien, pour laquelle la norme est égale 
 
 #### Corollaire 4 {#int-iv-s6-thm-2-cor-4 .statement}
 
-Soient F un espace de Banach, f une fonction de $\mathcal{L}_F^p$, g une fonction numérique appartenant à $\mathcal{L}^q$; la fonction fg est intégrable et on a
+Soient F un espace de Banach, f une fonction de $\mathscr{L}_F^p$, g une fonction numérique appartenant à $\mathscr{L}^q$; la fonction fg est intégrable et on a
 
 $$
 \left| \int fg \, d\mu \right| \leq \int |fg| \, d|\mu| \leq N_p(f)N_q(g).
@@ -224,17 +224,17 @@ Le cor. 2 du th. 2 se précise par la proposition suivante:
 
 *Soient $\mu$ une mesure positive sur $X$, $F$ un espace de Banach réel ou complexe, $F'$ son dual fort, $(z, z') \mapsto \langle z, z' \rangle$ la forme bilinéaire canonique sur $F \times F'$.
 
-1° *Pour toute fonction* $f \in \mathcal{L}_F^p (1 \leq p \leq +\infty)$, *on a*
+1° *Pour toute fonction* $f \in \mathscr{L}_F^p (1 \leq p \leq +\infty)$, *on a*
 $$
 N_p(f) = \sup \left| \int \langle f, g \rangle \, d\mu \right|
 $$
-*lorsque* $g$ *parcourt l’ensemble des fonctions de* $\mathcal{L}_F^q$, *telles que* $N_q(g) \leq 1$.
+*lorsque* $g$ *parcourt l’ensemble des fonctions de* $\mathscr{L}_F^q$, *telles que* $N_q(g) \leq 1$.
 
-2° *Pour toute fonction* $g \in \mathcal{L}_F^q$ (*$1 \leq q \leq +\infty$*), *on a*
+2° *Pour toute fonction* $g \in \mathscr{L}_F^q$ (*$1 \leq q \leq +\infty$*), *on a*
 $$
 N_q(g) = \sup \left| \int \langle f, g \rangle \, d\mu \right|
 $$
-*lorsque* $f$ *parcourt l’ensemble des fonctions de* $\mathcal{L}_F^p$ *telles que* $N_p(f) \leq 1$.
+*lorsque* $f$ *parcourt l’ensemble des fonctions de* $\mathscr{L}_F^p$ *telles que* $N_p(f) \leq 1$.
 
 Démontrons d’abord la relation (9); nous distinguerons deux cas.
 
@@ -255,7 +255,7 @@ $$
 
 ce qui démontre dans ce cas la relation (9).
 
-Passons au cas où $f$ est un élément quelconque de $\mathcal{L}_F^p$ tel que $N_p(f) = 1$. Pour tout $\varepsilon > 0$, il existe une fonction étagée $f_1 \in \mathcal{L}_F^p$ telle que $N_p(f - f_1) \leq \varepsilon$ (§ 4, n° 10, cor. 1 de la prop. 19). D’après ce que nous venons de voir, il existe une fonction $g \in \mathcal{L}_F^q$, telle que $N_q(g) = 1$ et que $\int \langle f_1, g \rangle d\mu \geq N_p(f_1) - \varepsilon \geq 1 - 2\varepsilon$. Or, on a
+Passons au cas où $f$ est un élément quelconque de $\mathscr{L}_F^p$ tel que $N_p(f) = 1$. Pour tout $\varepsilon > 0$, il existe une fonction étagée $f_1 \in \mathscr{L}_F^p$ telle que $N_p(f - f_1) \leq \varepsilon$ (§ 4, n° 10, cor. 1 de la prop. 19). D’après ce que nous venons de voir, il existe une fonction $g \in \mathscr{L}_F^q$, telle que $N_q(g) = 1$ et que $\int \langle f_1, g \rangle d\mu \geq N_p(f_1) - \varepsilon \geq 1 - 2\varepsilon$. Or, on a
 
 $$
 \int \langle f, g \rangle d\mu = \int \langle f_1, g \rangle d\mu + \int \langle f - f_1, g \rangle d\mu
@@ -301,7 +301,7 @@ On raisonne exactement de la même manière pour démontrer la relation (10), en
 
 #### Remarque 1 {#int-iv-s6-n4-rem-1 .statement}
 
-Soit $\mathcal{E}$ un sous-espace vectoriel partout dense de $\mathcal{L}_{F'}^q$; alors la formule (9) subsiste lorsque $g$ parcourt l’intersection de $\mathcal{E}$ avec l’ensemble $B$ des fonctions de $\mathcal{L}_{F'}^q$, telles que $N_q(g) \leq 1$. Il suffit en effet de remarquer que l’intérieur $\dot{B}$ de $B$ est dense par rapport à $B$, et que $\dot{B} \cap \mathcal{E}$ est dense par rapport à $\dot{B}$, puisque $\dot{B}$ est ouvert. Cette remarque s’applique en particulier à l’ensemble $\mathcal{E} = \mathcal{K}(X; F')$ des fonctions continues à support compact (à valeurs dans $F'$) lorsque $1 \leq q < +\infty$, c’est-à-dire $1 < p \leq +\infty$. Mais dans ce cas, la formule (9) est vraie lorsque $g$ parcourt $B \cap \mathcal{K}(X; F')$, même pour $p = 1$. En effet, on peut comme ci-dessus se borner au cas où $f$ est étagée. On a vu alors que si $N_1(f) = 1$, pour tout $\varepsilon > 0$, il existe une fonction étagée $g \in \mathcal{L}_{F'}^\infty$ telle que $|g(x)| \leq 1$ pour tout $x \in X$ et que $|\int \langle f, g \rangle d\mu| \geq 1 - \varepsilon$. Il existe un nombre fini d’ensembles compacts $K_i$ deux à deux sans point commun, tels que $g$ ait une valeur constante $a'_i$ dans chacun des $K_i$ et que, si $K$ est la réunion des $K_i$, on ait $\int |f| \varphi_{CK} d\mu \leq \varepsilon$. Soit $U_i$ un voisinage de $K_i$ tel que les ensembles $U_i$ soient deux à deux sans point commun, et soit $h_i$ une application continue de $X$ dans $\{0, 1\}$, de support contenu dans $U_i$ et égale à 1 dans $K_i$. Si on pose $h = \sum a'_i h_i$, on a $h(x) = g(x)$ dans $K$ et $|h(x)| \leq 1$ dans $X$, donc
+Soit $\mathscr{E}$ un sous-espace vectoriel partout dense de $\mathscr{L}_{F'}^q$; alors la formule (9) subsiste lorsque $g$ parcourt l’intersection de $\mathscr{E}$ avec l’ensemble $B$ des fonctions de $\mathscr{L}_{F'}^q$, telles que $N_q(g) \leq 1$. Il suffit en effet de remarquer que l’intérieur $\dot{B}$ de $B$ est dense par rapport à $B$, et que $\dot{B} \cap \mathscr{E}$ est dense par rapport à $\dot{B}$, puisque $\dot{B}$ est ouvert. Cette remarque s’applique en particulier à l’ensemble $\mathscr{E} = \mathscr{K}(X; F')$ des fonctions continues à support compact (à valeurs dans $F'$) lorsque $1 \leq q < +\infty$, c’est-à-dire $1 < p \leq +\infty$. Mais dans ce cas, la formule (9) est vraie lorsque $g$ parcourt $B \cap \mathscr{K}(X; F')$, même pour $p = 1$. En effet, on peut comme ci-dessus se borner au cas où $f$ est étagée. On a vu alors que si $N_1(f) = 1$, pour tout $\varepsilon > 0$, il existe une fonction étagée $g \in \mathscr{L}_{F'}^\infty$ telle que $|g(x)| \leq 1$ pour tout $x \in X$ et que $|\int \langle f, g \rangle d\mu| \geq 1 - \varepsilon$. Il existe un nombre fini d’ensembles compacts $K_i$ deux à deux sans point commun, tels que $g$ ait une valeur constante $a'_i$ dans chacun des $K_i$ et que, si $K$ est la réunion des $K_i$, on ait $\int |f| \varphi_{CK} d\mu \leq \varepsilon$. Soit $U_i$ un voisinage de $K_i$ tel que les ensembles $U_i$ soient deux à deux sans point commun, et soit $h_i$ une application continue de $X$ dans $\{0, 1\}$, de support contenu dans $U_i$ et égale à 1 dans $K_i$. Si on pose $h = \sum a'_i h_i$, on a $h(x) = g(x)$ dans $K$ et $|h(x)| \leq 1$ dans $X$, donc
 $$
 \int |\langle f, h \rangle| \varphi_{CK} d\mu \leq \varepsilon
 $$
@@ -313,9 +313,9 @@ Soient $\mu$ une mesure positive sur $X$, $f$ une fonction mesurable $\geq 0$ (f
 $$
 N_p(f) = \sup \int^* |f g| d\mu
 $$
-lorsque $g$ parcourt l’ensemble des fonctions de $\mathcal{K}(X; \mathbf{R})$ telles que
+lorsque $g$ parcourt l’ensemble des fonctions de $\mathscr{K}(X; \mathbf{R})$ telles que
 
-N_q(g) \leq 1. En effet, la formule (11) est un cas particulier de (9) lorsque N_p(f) < +\infty, puisque alors f est équivalente à une fonction de $\mathcal{L}^p$ (§ 5, n° 6, th. 5). Si N_p(f) = +\infty, posons, pour tout entier n > 0, $f_n = \inf(n, f \varphi_{K_n})$. On a
+N_q(g) \leq 1. En effet, la formule (11) est un cas particulier de (9) lorsque N_p(f) < +\infty, puisque alors f est équivalente à une fonction de $\mathscr{L}^p$ (§ 5, n° 6, th. 5). Si N_p(f) = +\infty, posons, pour tout entier n > 0, $f_n = \inf(n, f \varphi_{K_n})$. On a
 
 $$
 N_p(f_n) = \sup \int^* |f_n g| d\mu \leq \sup \int^* |f g| d\mu,
@@ -325,7 +325,7 @@ d’où, en passant à la limite (§ 1, n° 3, th. 3), $\sup \int^* |f g| d\mu =
 
 #### Corollaire {#int-iv-s6-n4-cor-1 .statement}
 
-Soient $\mu$ une mesure positive sur X, F un espace de Banach, F' son dual fort, g une fonction quelconque de $\mathcal{L}^q_{F'}$. La forme linéaire sur $L^p_F$, déduite par passage au quotient de la forme linéaire $f \mapsto \int \langle f, g \rangle d\mu$ sur $\mathcal{L}^p_F$, est continue et a pour norme $N_q(g)$.
+Soient $\mu$ une mesure positive sur X, F un espace de Banach, F' son dual fort, g une fonction quelconque de $\mathscr{L}^q_{F'}$. La forme linéaire sur $L^p_F$, déduite par passage au quotient de la forme linéaire $f \mapsto \int \langle f, g \rangle d\mu$ sur $\mathscr{L}^p_F$, est continue et a pour norme $N_q(g)$.
 
 ### 5. Application: relations entre les espaces $L^p_F$ ($1 \leqslant p \leqslant +\infty$)
 
@@ -359,9 +359,9 @@ Le même raisonnement s’applique au point s si $s < +\infty$. Supposons enfin 
 
 #### Corollaire {#int-iv-s6-n5-cor-1 .statement}
 
-Si $r, s, p$ sont trois nombres tels que $1 \leq r < p < s \leq +\infty$, l’intersection $\mathcal{L}_F^r \cap \mathcal{L}_F^s$ est contenue dans $\mathcal{L}_F^p$.
+Si $r, s, p$ sont trois nombres tels que $1 \leq r < p < s \leq +\infty$, l’intersection $\mathscr{L}_F^r \cap \mathscr{L}_F^s$ est contenue dans $\mathscr{L}_F^p$.
 
-On notera qu’en général, les topologies induites sur l’intersection $\mathcal{L}_F^r \cap \mathcal{L}_F^s$ par les topologies des $\mathcal{L}_F^p$ ($r < p < s$) sont distinctes. Si on ne fait aucune hypothèse supplémentaire sur $\mu$, les topologies induites sur $\mathcal{L}_F^r \cap \mathcal{L}_F^s$ par celles de $\mathcal{L}_F^r$ et de $\mathcal{L}_F^s$ sont en général non comparables (en d’autres termes, le rapport $N_r(f)/N_s(f)$ peut prendre des valeurs arbitrairement grandes et des valeurs arbitrairement petites dans $\mathcal{L}_F^r \cap \mathcal{L}_F^s$; cf. exerc. 8).
+On notera qu’en général, les topologies induites sur l’intersection $\mathscr{L}_F^r \cap \mathscr{L}_F^s$ par les topologies des $\mathscr{L}_F^p$ ($r < p < s$) sont distinctes. Si on ne fait aucune hypothèse supplémentaire sur $\mu$, les topologies induites sur $\mathscr{L}_F^r \cap \mathscr{L}_F^s$ par celles de $\mathscr{L}_F^r$ et de $\mathscr{L}_F^s$ sont en général non comparables (en d’autres termes, le rapport $N_r(f)/N_s(f)$ peut prendre des valeurs arbitrairement grandes et des valeurs arbitrairement petites dans $\mathscr{L}_F^r \cap \mathscr{L}_F^s$; cf. exerc. 8).
 
 La prop. 4 peut être précisée lorsque $\mu$ est une mesure bornée :
 
@@ -375,7 +375,7 @@ C’est une conséquence immédiate de la prop. 4 ci-dessus, et du cor. de la pr
 
 #### Corollaire {#int-iv-s6-n5-cor-2 .statement}
 
-Si la mesure $\mu$ est bornée, la relation $r < s$ entraîne $\mathcal{L}_F^s \subset \mathcal{L}_F^r$; en outre, la topologie de la convergence en moyenne d’ordre $s$ est plus fine que la topologie de la convergence en moyenne d’ordre $r$ (sur $\mathcal{L}_F^s$).
+Si la mesure $\mu$ est bornée, la relation $r < s$ entraîne $\mathscr{L}_F^s \subset \mathscr{L}_F^r$; en outre, la topologie de la convergence en moyenne d’ordre $s$ est plus fine que la topologie de la convergence en moyenne d’ordre $r$ (sur $\mathscr{L}_F^s$).
 
 On peut montrer qu’en général la topologie de la convergence en moyenne d’ordre $s$ est strictement plus fine que la topologie de la convergence en moyenne d’ordre $r$ (exerc. 8).
 
@@ -391,7 +391,7 @@ pour tout $p$ fini. Comme la fonction $\log N_p(f)$ est convexe par rapport à $
 
 #### Corollaire {#int-iv-s6-n5-cor-3 .statement}
 
-Si $X$ est discret et si la mesure $\mu$ est définie par la masse $+1$ en chaque point de $X$, la relation $r < s$ entraîne $\mathcal{L}_F^r \subset \mathcal{L}_F^s$; en outre, la topologie de la convergence en moyenne d’ordre $r$ est plus fine que la topologie de la convergence en moyenne d’ordre $s$ (sur $\mathcal{L}_F^r$).
+Si $X$ est discret et si la mesure $\mu$ est définie par la masse $+1$ en chaque point de $X$, la relation $r < s$ entraîne $\mathscr{L}_F^r \subset \mathscr{L}_F^s$; en outre, la topologie de la convergence en moyenne d’ordre $r$ est plus fine que la topologie de la convergence en moyenne d’ordre $s$ (sur $\mathscr{L}_F^r$).
 
 ## EXERCICES {#int-iv-s6-exercises}
 

@@ -56,9 +56,9 @@ subsections:
       pdf_page: 31
 statements: 42
 exercises: 23
-content_sha256: 3e96de994d31b25bce10d187ed9a08cdcbf2c75e49005efa44aee7101205e503
+content_sha256: 01b31290c0cbc456a7c9cee9f72468919171a2c02a35568e12f95a4c7a74abf6
 translated_from: content/en/int/VII/01_s1_construction_of_a_haar_measure.md
-source_content_sha256: f223846d7e283fe3e359c0fdab7593b17359f020a6953967222d4e06deabaf12
+source_content_sha256: 62132d69780c5384e8642c385d846a4c29ae205f8f3be600977656dc11934c19
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-ae8ef630
 glossary_version: 34
@@ -95,7 +95,7 @@ Nếu $\mu$ là một độ đo xác định trên $X$, thì $\gamma(s)\mu$ cũn
 
 (4)
 $$
-\langle f, \gamma(s)\mu \rangle = \langle \gamma(s^{-1})f, \mu \rangle \quad \text{với } f \in \mathcal{K}(X).
+\langle f, \gamma(s)\mu \rangle = \langle \gamma(s^{-1})f, \mu \rangle \quad \text{với } f \in \mathscr{K}(X).
 $$
 
 Nói cách khác,
@@ -131,7 +131,7 @@ c) $\mu$ *được gọi là* **gần bất biến dưới $G$** *nếu* $\gamma
 
 #### Nhận xét {#int-vii-s1-n1-rem-1 .statement}
 
-— 1) Giả sử $\mu$ bất biến. Khi đó $|\mu|$, $\mathcal{R}(\mu)$, $\mathcal{I}(\mu)$ đều bất biến. Nếu $\mu$ thực, thì $\mu^+$ và $\mu^-$ đều bất biến.
+— 1) Giả sử $\mu$ bất biến. Khi đó $|\mu|$, $\mathscr{R}(\mu)$, $\mathscr{I}(\mu)$ đều bất biến. Nếu $\mu$ thực, thì $\mu^+$ và $\mu^-$ đều bất biến.
 2) Giả sử $\mu$ tương đối bất biến và khác không. Với mọi $s \in G$, tồn tại duy nhất một số phức $\chi(s)$ sao cho
 
 (7)
@@ -167,7 +167,7 @@ Nếu $\mu$ là gần bất biến, thì giá đỡ của $\mu$ bất biến dư
 
 #### Bổ đề 1 {#int-vii-s1-lem-1 .statement}
 
-— *Cho $X, Y, Z$ là ba không gian tôpô, với $Y$ địa phương compact. Cho $(x, y) \mapsto xy$ là một ánh xạ liên tục của $X \times Y$ vào $Z$, xác định một ánh xạ $x \mapsto u_x$ của $X$ vào $\mathcal{F}(Y; Z)$ bởi quan hệ $u_x(y) = xy$. Cho $f$ là một hàm liên tục trên $Z$ lấy giá trị trong $\mathbf{R}$ hoặc trong một không gian Banach, S là giá đỡ của $f$, và $\mu$ là một độ đo trên $Y$. Giả sử rằng với mọi $x_0 \in X$, tồn tại một lân cận $V$ của $x_0$ trong $X$ sao cho $\bigcup_{x \in V} u_x^{-1}(S)$ tương đối compact trong $Y$. Khi đó:
+— *Cho $X, Y, Z$ là ba không gian tôpô, với $Y$ địa phương compact. Cho $(x, y) \mapsto xy$ là một ánh xạ liên tục của $X \times Y$ vào $Z$, xác định một ánh xạ $x \mapsto u_x$ của $X$ vào $\mathscr{F}(Y; Z)$ bởi quan hệ $u_x(y) = xy$. Cho $f$ là một hàm liên tục trên $Z$ lấy giá trị trong $\mathbf{R}$ hoặc trong một không gian Banach, S là giá đỡ của $f$, và $\mu$ là một độ đo trên $Y$. Giả sử rằng với mọi $x_0 \in X$, tồn tại một lân cận $V$ của $x_0$ trong $X$ sao cho $\bigcup_{x \in V} u_x^{-1}(S)$ tương đối compact trong $Y$. Khi đó:
 a) với mọi $x \in X$, $f \circ u_x$ liên tục trên $Y$, với giá đỡ compact;
 b) ánh xạ $x \mapsto \int_Y f(xy)\, d\mu(y)$, được xác định bởi a), là liên tục trên $X$.
 
@@ -181,7 +181,7 @@ Bây giờ ta trở lại các ký hiệu trước.
 
 — *Giả sử rằng G là địa phương compact. Cho $\mu$ là một độ đo bất biến tương đối khác không trên X. Khi đó nhân tử $\chi$ của nó là một hàm liên tục trên G.*
 
-Thật vậy, cho $f \in \mathcal{K}(X)$, S là giá đỡ của $f$, $s_0$ là một điểm của G, và V là một lân cận compact của $s_0$ trong G; khi đó, tập hợp
+Thật vậy, cho $f \in \mathscr{K}(X)$, S là giá đỡ của $f$, $s_0$ là một điểm của G, và V là một lân cận compact của $s_0$ trong G; khi đó, tập hợp
 
 $$
 \bigcup_{s \in V} \gamma(s)^{-1}(S) = V^{-1}S
@@ -262,7 +262,7 @@ $$
 Với mọi độ đo $\mu$ trên G, ta định nghĩa độ đo $\check{\mu}$ bởi
 
 $$
-(13) \quad \check{\mu}(f) = \mu(\check{f}) \quad \text{cho } f \in \mathcal{K}(G).
+(13) \quad \check{\mu}(f) = \mu(\check{f}) \quad \text{cho } f \in \mathscr{K}(G).
 $$
 
 Nói cách khác,
@@ -293,21 +293,21 @@ $$
 
 *Trên mọi nhóm địa phương compact, tồn tại một độ đo Haar trái (resp. phải), và, cho đến một thừa số hằng, chỉ có một.*
 
-A) *Tồn tại.* — Đặt $\mathcal{K}(G) = \mathcal{K}$, $\mathcal{K}_+(G) = \mathcal{K}_+$, $\mathcal{K}_+^* = \mathcal{K}_+ - \{0\}$. Nếu C là một tập con compact của G, ta ký hiệu bởi $\mathcal{K}_+^*(C)$ tập các $f \in \mathcal{K}_+^*$ có giá đỡ trong C. Với $f \in \mathcal{K}$ và $g \in \mathcal{K}_+^*$, tồn tại các số $c_1, \ldots, c_n \geq 0$ và các phần tử $s_1, \ldots, s_n$ của G sao cho $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$: quả vậy, tồn tại một tập mở khác rỗng U trong G sao cho $\inf_{s \in U} g(s) > 0$, và giá đỡ của $f$ có thể được phủ bởi một số hữu hạn các ảnh tịnh tiến trái của U. Cho $(f : g)$ là cận dưới đúng của các số $\sum_{i=1}^n c_i$ đối với mọi hệ $(c_1, \ldots, c_n, s_1, \ldots, s_n)$ các số $\geq 0$ và các phần tử của G sao cho $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$. Khi đó:
+A) *Tồn tại.* — Đặt $\mathscr{K}(G) = \mathscr{K}$, $\mathscr{K}_+(G) = \mathscr{K}_+$, $\mathscr{K}_+^* = \mathscr{K}_+ - \{0\}$. Nếu C là một tập con compact của G, ta ký hiệu bởi $\mathscr{K}_+^*(C)$ tập các $f \in \mathscr{K}_+^*$ có giá đỡ trong C. Với $f \in \mathscr{K}$ và $g \in \mathscr{K}_+^*$, tồn tại các số $c_1, \ldots, c_n \geq 0$ và các phần tử $s_1, \ldots, s_n$ của G sao cho $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$: quả vậy, tồn tại một tập mở khác rỗng U trong G sao cho $\inf_{s \in U} g(s) > 0$, và giá đỡ của $f$ có thể được phủ bởi một số hữu hạn các ảnh tịnh tiến trái của U. Cho $(f : g)$ là cận dưới đúng của các số $\sum_{i=1}^n c_i$ đối với mọi hệ $(c_1, \ldots, c_n, s_1, \ldots, s_n)$ các số $\geq 0$ và các phần tử của G sao cho $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$. Khi đó:
 
-(i) $(\gamma(s)f : g) = (f : g)$ với $f \in \mathcal{K}$, $g \in \mathcal{K}_+^*$, $s \in G$;
-(ii) $(\lambda f : g) = \lambda(f : g)$ với $f \in \mathcal{K}$, $g \in \mathcal{K}_+^*$, $\lambda \geq 0$;
-(iii) $((f + f') : g) \leq (f : g) + (f' : g)$ với $f \in \mathcal{K}$, $f' \in \mathcal{K}$, $g \in \mathcal{K}_+^*$;
-(iv) $(f : g) \geq (\sup f)/(\sup g)$ với $f \in \mathcal{K}$, $g \in \mathcal{K}_+^*$;
-(v) $(f : h) \leq (f : g)(g : h)$ với $f \in \mathcal{K}$, $g \in \mathcal{K}_+^*$, $h \in \mathcal{K}_+^*$;
-(vi) $0 < \frac{1}{(f_0 : f)} \leq \frac{(f : g)}{(f_0 : g)} \leq (f : f_0)$ với $f, f_0, g$ trong $\mathcal{K}_+^*$;
-(vii) cho $f, f', h$ thuộc $\mathcal{K}_+$ với $h(s) \geq 1$ trên hỗ trợ của $f + f'$, và cho $\varepsilon > 0$; tồn tại một lân cận compact V của e sao cho, với mọi $g \in \mathcal{K}_+^*(V)$,
+(i) $(\gamma(s)f : g) = (f : g)$ với $f \in \mathscr{K}$, $g \in \mathscr{K}_+^*$, $s \in G$;
+(ii) $(\lambda f : g) = \lambda(f : g)$ với $f \in \mathscr{K}$, $g \in \mathscr{K}_+^*$, $\lambda \geq 0$;
+(iii) $((f + f') : g) \leq (f : g) + (f' : g)$ với $f \in \mathscr{K}$, $f' \in \mathscr{K}$, $g \in \mathscr{K}_+^*$;
+(iv) $(f : g) \geq (\sup f)/(\sup g)$ với $f \in \mathscr{K}$, $g \in \mathscr{K}_+^*$;
+(v) $(f : h) \leq (f : g)(g : h)$ với $f \in \mathscr{K}$, $g \in \mathscr{K}_+^*$, $h \in \mathscr{K}_+^*$;
+(vi) $0 < \frac{1}{(f_0 : f)} \leq \frac{(f : g)}{(f_0 : g)} \leq (f : f_0)$ với $f, f_0, g$ trong $\mathscr{K}_+^*$;
+(vii) cho $f, f', h$ thuộc $\mathscr{K}_+$ với $h(s) \geq 1$ trên hỗ trợ của $f + f'$, và cho $\varepsilon > 0$; tồn tại một lân cận compact V của e sao cho, với mọi $g \in \mathscr{K}_+^*(V)$,
 
 $$
 (f : g) + (f' : g) \leq ((f + f') : g) + \varepsilon(h : g).
 $$
 
-Các tính chất (i), (ii), (iii) là hiển nhiên. Cho $f \in \mathcal{K}$, $g \in \mathcal{K}_+^*$; nếu $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$ với $c_i \geq 0$, thì $\sup f \leq \sum_{i=1}^n c_i g(s_i^{-1}s)$ với một số s \in G, do đó $\sup f \leq (\sum_{i=1}^n c_i) \sup g$, suy ra (iv). Bây giờ chứng minh (v); cho $f \in \mathcal{K}$, $g, h$ trong $\mathcal{K}_+^*$; nếu $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$ và $g \leq \sum_{j=1}^p d_j \gamma(t_j)h$ ($c_i \geq 0, d_j \geq 0, s_i, t_j$ trong $G$), thì $f \leq \sum_{i,j} c_i d_j \gamma(s_i t_j)h$, do đó $(f : h) \leq \sum_{i,j} c_i d_j = (\sum_i c_i)(\sum_j d_j)$; vậy $(f : h) \leq (f : g)(g : h)$. Áp dụng (v) cho $f_0, f, g$ một mặt và cho $f, f_0, g$ mặt khác, suy ra (vi). Cuối cùng, cho $f, f', h$ thuộc $\mathcal{K}_+$ với $h(s) \geq 1$ trên giá đỡ của $f + f'$, và cho $\varepsilon > 0$. Đặt $F = f + f' + \frac{1}{2} \varepsilon h$; các hàm $\varphi, \varphi'$, trùng nhau lần lượt với $f/F$ và $f'/F$ trên giá đỡ của $f + f'$ và bằng không ở ngoài đó, thuộc $\mathcal{K}_+$; với mọi $\eta > 0$, tồn tại một lân cận compact $V$ của $e$ sao cho $|\varphi(s) - \varphi(t)| \leq \eta$ và $|\varphi'(s) - \varphi'(t)| \leq \eta$ khi $s^{-1} t \in V$. Khi đó cho $g \in \mathcal{K}_+^*(V)$; với mọi $s \in G$,
+Các tính chất (i), (ii), (iii) là hiển nhiên. Cho $f \in \mathscr{K}$, $g \in \mathscr{K}_+^*$; nếu $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$ với $c_i \geq 0$, thì $\sup f \leq \sum_{i=1}^n c_i g(s_i^{-1}s)$ với một số s \in G, do đó $\sup f \leq (\sum_{i=1}^n c_i) \sup g$, suy ra (iv). Bây giờ chứng minh (v); cho $f \in \mathscr{K}$, $g, h$ trong $\mathscr{K}_+^*$; nếu $f \leq \sum_{i=1}^n c_i \gamma(s_i)g$ và $g \leq \sum_{j=1}^p d_j \gamma(t_j)h$ ($c_i \geq 0, d_j \geq 0, s_i, t_j$ trong $G$), thì $f \leq \sum_{i,j} c_i d_j \gamma(s_i t_j)h$, do đó $(f : h) \leq \sum_{i,j} c_i d_j = (\sum_i c_i)(\sum_j d_j)$; vậy $(f : h) \leq (f : g)(g : h)$. Áp dụng (v) cho $f_0, f, g$ một mặt và cho $f, f_0, g$ mặt khác, suy ra (vi). Cuối cùng, cho $f, f', h$ thuộc $\mathscr{K}_+$ với $h(s) \geq 1$ trên giá đỡ của $f + f'$, và cho $\varepsilon > 0$. Đặt $F = f + f' + \frac{1}{2} \varepsilon h$; các hàm $\varphi, \varphi'$, trùng nhau lần lượt với $f/F$ và $f'/F$ trên giá đỡ của $f + f'$ và bằng không ở ngoài đó, thuộc $\mathscr{K}_+$; với mọi $\eta > 0$, tồn tại một lân cận compact $V$ của $e$ sao cho $|\varphi(s) - \varphi(t)| \leq \eta$ và $|\varphi'(s) - \varphi'(t)| \leq \eta$ khi $s^{-1} t \in V$. Khi đó cho $g \in \mathscr{K}_+^*(V)$; với mọi $s \in G$,
 
 $$
 \varphi \cdot \gamma(s)g \leq (\varphi(s) + \eta) \cdot \gamma(s)g;
@@ -339,25 +339,25 @@ $$
 
 và, nếu $\eta$ đã được chọn sao cho $\eta[2((f + f') : h) + \varepsilon] \leq \frac{1}{2}\varepsilon$, thì suy ra (vii).
 
-Khi $\mathcal{K}_+^*(V)$ chạy qua tập hợp các lân cận compact của e, thì các $\mathcal{K}_+^*(V)$ tạo thành một cơ sở của một bộ lọc $\mathcal{B}$ trên $\mathcal{K}_+^*$. Cho $\mathcal{F}$ là một siêu bộ lọc trên $\mathcal{K}_+^*$ mịn hơn $\mathcal{B}$. Mặt khác, hãy cố định $f_0 \in \mathcal{K}_+^*$ và hãy đặt, với $f \in \mathcal{K}_+^*$ và $g \in \mathcal{K}_+^*$,
+Khi $\mathscr{K}_+^*(V)$ chạy qua tập hợp các lân cận compact của e, thì các $\mathscr{K}_+^*(V)$ tạo thành một cơ sở của một bộ lọc $\mathscr{B}$ trên $\mathscr{K}_+^*$. Cho $\mathscr{F}$ là một siêu bộ lọc trên $\mathscr{K}_+^*$ mịn hơn $\mathscr{B}$. Mặt khác, hãy cố định $f_0 \in \mathscr{K}_+^*$ và hãy đặt, với $f \in \mathscr{K}_+^*$ và $g \in \mathscr{K}_+^*$,
 
 $$
 I_g(f) = \frac{(f : g)}{(f_0 : g)}.
 $$
 
-Theo (vi), $\lim_{g,\mathcal{F}} I_g(f) = I(f)$ tồn tại trong không gian compact $[1/(f_0 : f), (f : f_0)]$.
+Theo (vi), $\lim_{g,\mathscr{F}} I_g(f) = I(f)$ tồn tại trong không gian compact $[1/(f_0 : f), (f : f_0)]$.
 
-Theo (iii), $I(f + f') \leq I(f) + I(f')$. Theo (vii), $I(f) + I(f') \leq I(f + f') + \varepsilon I(h)$ với mọi $\varepsilon > 0$ miễn là $h$ là $\geq 1$ trên giá của $f + f'$; suy ra $I(f + f') = I(f) + I(f')$. Theo Ch. II, §2, No. 1, ĐL. 2, I có thể được mở rộng thành một dạng tuyến tính trên $\mathcal{K}$; dạng tuyến tính này là một độ đo dương khác không trên G, bất biến trái theo (i); đó là độ đo Haar trái cần tìm. Chuyển qua nhóm đối, từ đó suy ra sự tồn tại của một độ đo Haar phải.
+Theo (iii), $I(f + f') \leq I(f) + I(f')$. Theo (vii), $I(f) + I(f') \leq I(f + f') + \varepsilon I(h)$ với mọi $\varepsilon > 0$ miễn là $h$ là $\geq 1$ trên giá của $f + f'$; suy ra $I(f + f') = I(f) + I(f')$. Theo Ch. II, §2, No. 1, ĐL. 2, I có thể được mở rộng thành một dạng tuyến tính trên $\mathscr{K}$; dạng tuyến tính này là một độ đo dương khác không trên G, bất biến trái theo (i); đó là độ đo Haar trái cần tìm. Chuyển qua nhóm đối, từ đó suy ra sự tồn tại của một độ đo Haar phải.
 
 B) *Tính duy nhất.* — Cho $\mu$ là một độ đo Haar trái, $\nu$ là một độ đo Haar phải. Khi đó $\check{\nu}$ là một độ đo Haar trái. Ta sẽ chứng minh rằng $\mu$ và $\check{\nu}$ tỉ lệ với nhau. Điều này sẽ chứng tỏ rằng bất kỳ hai độ đo Haar trái nào cũng thật vậy tỉ lệ với nhau.
 
-Cho $f \in \mathcal{K}$ sao cho $\mu(f) \neq 0$. Theo Bổ đề 1, hàm $D_f$ được xác định trên G bởi công thức
+Cho $f \in \mathscr{K}$ sao cho $\mu(f) \neq 0$. Theo Bổ đề 1, hàm $D_f$ được xác định trên G bởi công thức
 
 $$
 D_f(s) = \mu(f)^{-1} \int f(t^{-1}s) d\nu(t)
 $$
 
-là liên tục trên G. Cho $g \in \mathcal{K}$. Hàm $(s, t) \mapsto f(s)g(ts)$ liên tục và có giá compact trong $G \times G$. Theo Ch. III, §4, No. 1, ĐL. 2,
+là liên tục trên G. Cho $g \in \mathscr{K}$. Hàm $(s, t) \mapsto f(s)g(ts)$ liên tục và có giá compact trong $G \times G$. Theo Ch. III, §4, No. 1, ĐL. 2,
 
 $$
 \begin{align*}
@@ -374,13 +374,13 @@ $$
 \nu(g) = \mu(D_f \cdot g).
 $$
 
-Điều này trước hết chứng minh rằng $D_f$ không phụ thuộc vào $f$. Thật vậy, nếu $f' \in \mathcal{K}$ sao cho $\mu(f') \neq 0$, thì $D_f \cdot \mu = D_{f'} \cdot \mu$, do đó $D_f = D_{f'}$ gần như khắp nơi địa phương đối với $\mu$, nên khắp nơi, vì $D_f$ và $D_{f'}$ là liên tục và giá đỡ của $\mu$ là $G$. Vì thế ta có thể viết $D_f = D$. Công thức (16) cho
+Điều này trước hết chứng minh rằng $D_f$ không phụ thuộc vào $f$. Thật vậy, nếu $f' \in \mathscr{K}$ sao cho $\mu(f') \neq 0$, thì $D_f \cdot \mu = D_{f'} \cdot \mu$, do đó $D_f = D_{f'}$ gần như khắp nơi địa phương đối với $\mu$, nên khắp nơi, vì $D_f$ và $D_{f'}$ là liên tục và giá đỡ của $\mu$ là $G$. Vì thế ta có thể viết $D_f = D$. Công thức (16) cho
 
 $$
 \mu(f)D(e) = \check{\nu}(f).
 $$
 
-Công thức (19) có thể được mở rộng theo tính tuyến tính cho các hàm $f \in \mathcal{K}$ sao cho $\mu(f) = 0$. Ta có $D(e) \neq 0$ vì $\check{\nu} \neq 0$. Điều này quả thực thiết lập tính tỉ lệ của $\mu$ và $\check{\nu}$.
+Công thức (19) có thể được mở rộng theo tính tuyến tính cho các hàm $f \in \mathscr{K}$ sao cho $\mu(f) = 0$. Ta có $D(e) \neq 0$ vì $\check{\nu} \neq 0$. Điều này quả thực thiết lập tính tỉ lệ của $\mu$ và $\check{\nu}$.
 
 #### Hệ quả {#int-vii-s1-n2-cor-1 .statement}
 
@@ -390,7 +390,7 @@ Công thức (19) có thể được mở rộng theo tính tuyến tính cho c�
 
 — 1) Trên nhóm cộng $\mathbf{R}$, độ đo Lebesgue $dx$ là một độ đo Haar (Ch. III, §1, No. 3, *Ví dụ*).
 
-2) Với mọi hàm $f \in \mathcal{K}(\mathbf{R}_+^*)$, ta có (FRV, II, §1, công thức (12))
+2) Với mọi hàm $f \in \mathscr{K}(\mathbf{R}_+^*)$, ta có (FRV, II, §1, công thức (12))
 
 $$
 \int_0^{+\infty} \frac{f(x)}{x} dx = \int_0^{+\infty} \frac{f(tx)}{tx} t dx = \int_0^{+\infty} \frac{f(tx)}{x} dx
@@ -398,7 +398,7 @@ $$
 
 với mọi $t > 0$; độ đo $x^{-1} dx$ như vậy là một độ đo Haar trên nhóm nhân $\mathbf{R}_+^*$.
 
-3) Lấy xuyến $T = \mathbf{R}/\mathbf{Z}$ làm $G$. Cho $\varphi$ là ánh xạ chính tắc của $\mathbf{R}$ lên $T$. Với $f \in \mathcal{K}(T)$, hàm $f \circ \varphi$ liên tục và tuần hoàn với chu kỳ 1 trên $\mathbf{R}$, và tích phân
+3) Lấy xuyến $T = \mathbf{R}/\mathbf{Z}$ làm $G$. Cho $\varphi$ là ánh xạ chính tắc của $\mathbf{R}$ lên $T$. Với $f \in \mathscr{K}(T)$, hàm $f \circ \varphi$ liên tục và tuần hoàn với chu kỳ 1 trên $\mathbf{R}$, và tích phân
 
 $$
 I(f) = \int_a^{a+1} f(\varphi(x)) dx
@@ -410,13 +410,13 @@ không phụ thuộc vào lựa chọn $a \in \mathbf{R}$; hiển nhiên nó b�
 
 — *Cho* $G$ *là một nhóm địa phương compact*, $\mu$ *là một độ đo Haar trái hoặc phải trên* $G$. *Để* $G$ *rời rạc, điều kiện cần và đủ là* $\mu(\{e\}) > 0$. *Để* $G$ *compact, điều kiện cần và đủ là* $\mu^*(G) < +\infty$.
 
-Các điều kiện là hiển nhiên cần thiết. Ta chứng minh tính đủ của chúng. Cho $V$ là một lân cận compact của $e$. Nếu $\mu(\{e\}) > 0$, thì $V$ là một tập hợp hữu hạn vì $\mu(V) < +\infty$; do $G$ là Hausdorff, nên $G$ rời rạc. Giả sử $\mu^*(G) < +\infty$ và $\mu$ chẳng hạn bất biến trái. Xét tập hợp $\mathcal{E}$ gồm các tập hợp con hữu hạn $\{s_1, \ldots, s_n\}$ của $G$ sao cho $s_i V \cap s_j V = \varnothing$ với $i \neq j$; khi đó
+Các điều kiện là hiển nhiên cần thiết. Ta chứng minh tính đủ của chúng. Cho $V$ là một lân cận compact của $e$. Nếu $\mu(\{e\}) > 0$, thì $V$ là một tập hợp hữu hạn vì $\mu(V) < +\infty$; do $G$ là Hausdorff, nên $G$ rời rạc. Giả sử $\mu^*(G) < +\infty$ và $\mu$ chẳng hạn bất biến trái. Xét tập hợp $\mathscr{E}$ gồm các tập hợp con hữu hạn $\{s_1, \ldots, s_n\}$ của $G$ sao cho $s_i V \cap s_j V = \varnothing$ với $i \neq j$; khi đó
 
 $$
 n \mu(V) = \mu(s_1 V \cup \ldots \cup s_n V) \leq \mu^*(G),
 $$
 
-do đó $n \leq \mu^*(G)/\mu(V)$. Vì vậy ta có thể chọn trong $\mathcal{E}$ một phần tử cực đại $\{s_1, \ldots, s_n\}$. Khi đó, với mọi $s \in G$, tồn tại một $i$ sao cho $s V \cap s_i V \neq \varnothing$, tức là sao cho $s \in s_i V V^{-1}$. Vậy $G$ là hợp của các tập hợp compact $s_i V V^{-1}$, nên compact.
+do đó $n \leq \mu^*(G)/\mu(V)$. Vì vậy ta có thể chọn trong $\mathscr{E}$ một phần tử cực đại $\{s_1, \ldots, s_n\}$. Khi đó, với mọi $s \in G$, tồn tại một $i$ sao cho $s V \cap s_i V \neq \varnothing$, tức là sao cho $s \in s_i V V^{-1}$. Vậy $G$ là hợp của các tập hợp compact $s_i V V^{-1}$, nên compact.
 
 ### 3. Môđun
 
@@ -594,11 +594,11 @@ Nếu G hoặc rời rạc hoặc compact, thì độ đo Haar chuẩn hóa củ
 
 #### Mệnh đề 4 {#int-vii-s1-prop-4 .statement}
 
-*Cho G là một nhóm địa phương compact, $\Gamma$ là một nhóm tôpô, và $\gamma \mapsto u_\gamma$ là một đồng cấu từ $\Gamma$ vào nhóm $\mathcal{G}$ các tự đẳng cấu của G, sao cho $(\gamma, x) \mapsto u_\gamma(x)$ là một ánh xạ liên tục từ $\Gamma \times G$ vào G. Khi đó, ánh xạ $\gamma \mapsto \operatorname{mod}(u_\gamma)$ là một biểu diễn liên tục của $\Gamma$ trong $\mathbf{R}_+^*$. \*
+*Cho G là một nhóm địa phương compact, $\Gamma$ là một nhóm tôpô, và $\gamma \mapsto u_\gamma$ là một đồng cấu từ $\Gamma$ vào nhóm $\mathscr{G}$ các tự đẳng cấu của G, sao cho $(\gamma, x) \mapsto u_\gamma(x)$ là một ánh xạ liên tục từ $\Gamma \times G$ vào G. Khi đó, ánh xạ $\gamma \mapsto \operatorname{mod}(u_\gamma)$ là một biểu diễn liên tục của $\Gamma$ trong $\mathbf{R}_+^*$. \*
 
-Đây hiển nhiên là một biểu diễn (đại số) của $\Gamma$ trong $\mathbf{R}_+^*$; chỉ cần chứng minh tính liên tục của nó. Cho $f \in \mathcal{K}(G)$ và gọi S là giá đỡ của nó.*
+Đây hiển nhiên là một biểu diễn (đại số) của $\Gamma$ trong $\mathbf{R}_+^*$; chỉ cần chứng minh tính liên tục của nó. Cho $f \in \mathscr{K}(G)$ và gọi S là giá đỡ của nó.*
 
-Cho $\gamma_0 \in \Gamma$ và cho $U$ là một láng giềng tương đối compact của $u_{\gamma_0}^{-1}(S)$. Ánh xạ $\gamma \mapsto u_\gamma$ là một ánh xạ liên tục từ $\Gamma$ vào $\mathcal{G}$ được trang bị tôpô hội tụ compact (GT, X, §3, No. 4, Th. 3); do đó $u_\gamma^{-1}(S) \subset U$ với $\gamma$ đủ gần $\gamma_0$. Bổ đề 1 của No. 1 khi đó chứng minh rằng $\int f(u_\gamma(x)) d\mu(x)$ (trong đó $\mu$ ký hiệu một độ đo Haar trái của $G$) phụ thuộc liên tục vào $\gamma$; do đó mệnh đề.
+Cho $\gamma_0 \in \Gamma$ và cho $U$ là một láng giềng tương đối compact của $u_{\gamma_0}^{-1}(S)$. Ánh xạ $\gamma \mapsto u_\gamma$ là một ánh xạ liên tục từ $\Gamma$ vào $\mathscr{G}$ được trang bị tôpô hội tụ compact (GT, X, §3, No. 4, Th. 3); do đó $u_\gamma^{-1}(S) \subset U$ với $\gamma$ đủ gần $\gamma_0$. Bổ đề 1 của No. 1 khi đó chứng minh rằng $\int f(u_\gamma(x)) d\mu(x)$ (trong đó $\mu$ ký hiệu một độ đo Haar trái của $G$) phụ thuộc liên tục vào $\gamma$; do đó mệnh đề.
 
 ### 5. Độ đo Haar của một tích
 
@@ -618,7 +618,7 @@ suy ra $\Delta_G(x) = \prod_{\iota \in I} \Delta_{G_\iota}(x_\iota)$.
 
 — 1) Độ đo Lebesgue trên $\mathbf{R}^n$ là một độ đo Haar của nhóm cộng $\mathbf{R}^n$.
 
-2) Ánh xạ $(r, u) \mapsto ru$ là một đẳng cấu từ $\mathbf{R}_+^* \times \mathbf{U}$ lên $\mathbf{C}^*$ (GT, VIII, §1, No. 3). Nếu $\mathbf{C}^*$ được đồng nhất với $\mathbf{R}_+^* \times \mathbf{U}$ nhờ đẳng cấu này, và nếu $du$ ký hiệu một độ đo Haar trên $\mathbf{U}$, thì $r^{-1} dr du$ là một độ đo Haar trên $\mathbf{C}^*$ theo Ví dụ 2 của No. 2. Mặt khác, song ánh $\theta \mapsto e^{2i\pi \theta}$ của $[0, 1[$ lên $\mathbf{U}$ biến độ đo Lebesgue $d\theta$ trên $[0, 1[$ thành một độ đo Haar trên $\mathbf{U}$ theo Ví dụ 3 của No. 2. Suy ra rằng nếu $f \in \mathcal{H}(\mathbf{C}^*)$, thì tích phân
+2) Ánh xạ $(r, u) \mapsto ru$ là một đẳng cấu từ $\mathbf{R}_+^* \times \mathbf{U}$ lên $\mathbf{C}^*$ (GT, VIII, §1, No. 3). Nếu $\mathbf{C}^*$ được đồng nhất với $\mathbf{R}_+^* \times \mathbf{U}$ nhờ đẳng cấu này, và nếu $du$ ký hiệu một độ đo Haar trên $\mathbf{U}$, thì $r^{-1} dr du$ là một độ đo Haar trên $\mathbf{C}^*$ theo Ví dụ 2 của No. 2. Mặt khác, song ánh $\theta \mapsto e^{2i\pi \theta}$ của $[0, 1[$ lên $\mathbf{U}$ biến độ đo Lebesgue $d\theta$ trên $[0, 1[$ thành một độ đo Haar trên $\mathbf{U}$ theo Ví dụ 3 của No. 2. Suy ra rằng nếu $f \in \mathscr{H}(\mathbf{C}^*)$, thì tích phân
 $$
 \int_0^{+\infty} \int_0^1 f(re^{2i\pi \theta}) r^{-1} dr\, d\theta
 $$
@@ -628,13 +628,13 @@ xác định một độ đo Haar trên $\mathbf{C}^*$.
 
 Khi đó, giới hạn ngược của hệ ngược $(G_\alpha, \varphi_{\beta \alpha})$ có thể được đồng nhất với G, và ánh xạ chính tắc của giới hạn ngược này vào $G_\alpha$ được đồng nhất với $\varphi_\alpha$ (GT, III, §7, No. 3, Mệnh đề 2). Các ánh xạ $\varphi_\alpha$ và $\varphi_{\beta \alpha}$ là riêng (*loc. cit.*, §4, No. 1, Hệ quả 2 của Mệnh đề 1). Các giả thiết này được giữ cố định trong suốt tiểu mục này.
 
-\* Bổ đề 2. — a) *Cho $f \in \mathcal{K}_+(G)$, S là một tập con compact của G chứa giá đỡ $f$, U là một lân cận mở của S trong G, và $\varepsilon > 0$. Tồn tại một $\alpha \in A$ và một hàm $g \in \mathcal{K}_+(G)$, bằng không ở ngoài U và hằng trên các lớp kề của $K_\alpha$, sao cho $|f - g| \leq \varepsilon$.
+\* Bổ đề 2. — a) *Cho $f \in \mathscr{K}_+(G)$, S là một tập con compact của G chứa giá đỡ $f$, U là một lân cận mở của S trong G, và $\varepsilon > 0$. Tồn tại một $\alpha \in A$ và một hàm $g \in \mathscr{K}_+(G)$, bằng không ở ngoài U và hằng trên các lớp kề của $K_\alpha$, sao cho $|f - g| \leq \varepsilon$.
 
 b) *Cho $\mu$ và $\mu'$ là hai độ đo trên G sao cho $\varphi_\alpha(\mu) = \varphi_\alpha(\mu')$ với mọi $\alpha \in A$. Khi đó $\mu = \mu'$.
 
-Tồn tại một $\alpha_1 \in A$ sao cho $K_{\alpha_1} S \cap K_{\alpha_1}(G - U) = \emptyset$ (GT, II, §4, No. 3, Mệnh đề 4). Sau khi nới rộng S và thu hẹp U, do đó ta có thể giả sử rằng S và U là các hợp của các lớp kề của $K_{\alpha_1}$. Xét các hàm số thực liên tục $h$ trên S có tính chất sau: tồn tại một $\alpha \geq \alpha_1$ sao cho $h$ hằng trên các lớp kề của $K_\alpha$. Các hàm này tạo thành một đại số con của $\mathcal{K}(S)$ (vì $(K_\alpha)$ là một họ giảm có hướng) chứa các hằng số và phân biệt các điểm của S: thật vậy, cho $x, y$ là hai điểm phân biệt của S; vì giao của các $K_\alpha$ là $\{e\}$, tồn tại một $\alpha \geq \alpha_1$ sao cho $\varphi_\alpha(x) \neq \varphi_\alpha(y)$, rồi một hàm số thực liên tục $u$ trên $\varphi_\alpha(S)$ sao cho $u(\varphi_\alpha(x)) \neq u(\varphi_\alpha(y))$. Theo định lý Stone–Weierstrass, tồn tại một $\alpha \geq \alpha_1$ và một hàm liên tục $h \geq 0$ trên S, hằng trên các lớp kề của $K_\alpha$, sao cho $|f - h| \leq \frac{\varepsilon}{2}$ trên S. Với mọi $t \in \mathbf{R}$, đặt $\delta(t) = \left( t - \frac{\varepsilon}{2} \right)^+$, và đặt $h' = \delta \circ h$. Khi đó $h'$ là một hàm $\geq 0$, liên tục trên S, hằng trên các lớp kề của $K_\alpha$, và $|h - h'| \leq \frac{\varepsilon}{2}$ trên S, do đó $|f - h'| \leq \varepsilon$ trên S. Mặt khác, $h'(x) = 0$ nếu x thuộc biên của S trong G, vì khi đó $h(x) \leq \frac{\varepsilon}{2}$. Nếu mở rộng $h'$ bằng 0 trên phần bù của S, ta thu được một hàm $g$ thỏa các yêu cầu, do đó chứng minh a).
+Tồn tại một $\alpha_1 \in A$ sao cho $K_{\alpha_1} S \cap K_{\alpha_1}(G - U) = \emptyset$ (GT, II, §4, No. 3, Mệnh đề 4). Sau khi nới rộng S và thu hẹp U, do đó ta có thể giả sử rằng S và U là các hợp của các lớp kề của $K_{\alpha_1}$. Xét các hàm số thực liên tục $h$ trên S có tính chất sau: tồn tại một $\alpha \geq \alpha_1$ sao cho $h$ hằng trên các lớp kề của $K_\alpha$. Các hàm này tạo thành một đại số con của $\mathscr{K}(S)$ (vì $(K_\alpha)$ là một họ giảm có hướng) chứa các hằng số và phân biệt các điểm của S: thật vậy, cho $x, y$ là hai điểm phân biệt của S; vì giao của các $K_\alpha$ là $\{e\}$, tồn tại một $\alpha \geq \alpha_1$ sao cho $\varphi_\alpha(x) \neq \varphi_\alpha(y)$, rồi một hàm số thực liên tục $u$ trên $\varphi_\alpha(S)$ sao cho $u(\varphi_\alpha(x)) \neq u(\varphi_\alpha(y))$. Theo định lý Stone–Weierstrass, tồn tại một $\alpha \geq \alpha_1$ và một hàm liên tục $h \geq 0$ trên S, hằng trên các lớp kề của $K_\alpha$, sao cho $|f - h| \leq \frac{\varepsilon}{2}$ trên S. Với mọi $t \in \mathbf{R}$, đặt $\delta(t) = \left( t - \frac{\varepsilon}{2} \right)^+$, và đặt $h' = \delta \circ h$. Khi đó $h'$ là một hàm $\geq 0$, liên tục trên S, hằng trên các lớp kề của $K_\alpha$, và $|h - h'| \leq \frac{\varepsilon}{2}$ trên S, do đó $|f - h'| \leq \varepsilon$ trên S. Mặt khác, $h'(x) = 0$ nếu x thuộc biên của S trong G, vì khi đó $h(x) \leq \frac{\varepsilon}{2}$. Nếu mở rộng $h'$ bằng 0 trên phần bù của S, ta thu được một hàm $g$ thỏa các yêu cầu, do đó chứng minh a).
 
-Giả sử $\mu, \mu'$ là hai độ đo trên G sao cho $\varphi_\alpha(\mu) = \varphi_\alpha(\mu')$ với mọi $\alpha \in A$. Cho $v \in \mathcal{K}(G)$ là một hàm hằng trên các lớp kề của $K_\alpha$ với một $\alpha \in A$ nào đó, để ta có thể viết $v = w \circ \varphi_\alpha$ với $w \in \mathcal{K}(G_\alpha)$; khi đó
+Giả sử $\mu, \mu'$ là hai độ đo trên G sao cho $\varphi_\alpha(\mu) = \varphi_\alpha(\mu')$ với mọi $\alpha \in A$. Cho $v \in \mathscr{K}(G)$ là một hàm hằng trên các lớp kề của $K_\alpha$ với một $\alpha \in A$ nào đó, để ta có thể viết $v = w \circ \varphi_\alpha$ với $w \in \mathscr{K}(G_\alpha)$; khi đó
 
 \* Xem Ch. III, §4, No. 5.
 
@@ -646,7 +646,7 @@ $$
 
 *Với mọi* $\alpha \in A$, *hãy cho* $\mu_\alpha$ *là một độ đo dương trên* $G_\alpha$. *Giả sử rằng* $\varphi_{\beta\alpha}(\mu_\alpha) = \mu_\beta$ *khi* $\alpha \geq \beta$. *Khi đó, tồn tại một và chỉ một độ đo dương* $\mu$ *trên* $G$ *sao cho* $\varphi_\alpha(\mu) = \mu_\alpha$ *với mọi* $\alpha \in A$.
 
-Tính duy nhất suy ra ngay từ Bổ đề 2 b). Hãy chứng minh sự tồn tại của $\mu$. Cho $V$ là không gian vectơ các hàm thuộc $\mathcal{K}(G)$ và hằng trên các lớp kề của một $K_\alpha$ nào đó ($\alpha$ có thể phụ thuộc vào hàm). Từ Bổ đề 2 a) suy ra rằng $V$ thỏa điều kiện (P) của Ch. III, §1, No. 7, Mệnh đề 9: thật vậy, cho $K$ là một tập compact trong $G$ và chọn $f \in \mathcal{K}_+(G)$ sao cho $f(x) > 0$ với mọi $x \in K$; cho $a > 0$ là giá trị nhỏ nhất của $f$ trên $K$; theo Bổ đề 2 a), tồn tại một hàm $g \in V \cap \mathcal{K}_+(G)$ sao cho $|f - g| \leq a/2$, do đó $g(x) > 0$ với mọi $x \in K$, và điều kiện (P) được thỏa mãn. Cho $f \in V$. Tồn tại một $\alpha \in A$ sao cho $f$ hằng trên các lớp kề của $K_\alpha$. Bằng cách chuyển sang thương, $f$ xác định một hàm $f_\alpha \in \mathcal{K}(G_\alpha)$. Số $\mu(f) = \mu_\alpha(f_\alpha)$ không phụ thuộc vào lựa chọn $\alpha$: thật vậy, cho $\beta$ là bất kỳ chỉ số nào sao cho $f$ hằng trên các lớp kề của $K_\beta$; cho $\gamma \in A$ sao cho $\gamma \geq \alpha, \gamma \geq \beta$; khi đó $f$ xác định các hàm $f_\beta \in \mathcal{K}(G_\beta)$, $f_\gamma \in \mathcal{K}(G_\gamma)$ sao cho $f = f_\beta \circ \varphi_\beta = f_\gamma \circ \varphi_\gamma$; khi đó $f_\alpha \circ \varphi_{\alpha\gamma} = f_\gamma$, do đó $\mu_\gamma(f_\gamma) = (\varphi_{\alpha\gamma}(\mu_\gamma))(f_\alpha) = \mu_\alpha(f_\alpha)$, và tương tự $\mu_\gamma(f_\gamma) = \mu_\beta(f_\beta)$, suy ra mệnh đề đã nêu. Điều đó đã được thiết lập, hiển nhiên $\mu$ là một dạng tuyến tính trên $V$ và $\mu(f) \geq 0$ khi $f \geq 0$. Theo Mệnh đề 9 của Ch. III, §1, No. 7, $\mu$ có thể được mở rộng thành một độ đo dương trên $G$, mà ta lại ký hiệu là $\mu$. Ta có $\varphi_\alpha(\mu) = \mu_\alpha$ với mọi $\alpha \in A$ theo chính phép dựng của $\mu$.
+Tính duy nhất suy ra ngay từ Bổ đề 2 b). Hãy chứng minh sự tồn tại của $\mu$. Cho $V$ là không gian vectơ các hàm thuộc $\mathscr{K}(G)$ và hằng trên các lớp kề của một $K_\alpha$ nào đó ($\alpha$ có thể phụ thuộc vào hàm). Từ Bổ đề 2 a) suy ra rằng $V$ thỏa điều kiện (P) của Ch. III, §1, No. 7, Mệnh đề 9: thật vậy, cho $K$ là một tập compact trong $G$ và chọn $f \in \mathscr{K}_+(G)$ sao cho $f(x) > 0$ với mọi $x \in K$; cho $a > 0$ là giá trị nhỏ nhất của $f$ trên $K$; theo Bổ đề 2 a), tồn tại một hàm $g \in V \cap \mathscr{K}_+(G)$ sao cho $|f - g| \leq a/2$, do đó $g(x) > 0$ với mọi $x \in K$, và điều kiện (P) được thỏa mãn. Cho $f \in V$. Tồn tại một $\alpha \in A$ sao cho $f$ hằng trên các lớp kề của $K_\alpha$. Bằng cách chuyển sang thương, $f$ xác định một hàm $f_\alpha \in \mathscr{K}(G_\alpha)$. Số $\mu(f) = \mu_\alpha(f_\alpha)$ không phụ thuộc vào lựa chọn $\alpha$: thật vậy, cho $\beta$ là bất kỳ chỉ số nào sao cho $f$ hằng trên các lớp kề của $K_\beta$; cho $\gamma \in A$ sao cho $\gamma \geq \alpha, \gamma \geq \beta$; khi đó $f$ xác định các hàm $f_\beta \in \mathscr{K}(G_\beta)$, $f_\gamma \in \mathscr{K}(G_\gamma)$ sao cho $f = f_\beta \circ \varphi_\beta = f_\gamma \circ \varphi_\gamma$; khi đó $f_\alpha \circ \varphi_{\alpha\gamma} = f_\gamma$, do đó $\mu_\gamma(f_\gamma) = (\varphi_{\alpha\gamma}(\mu_\gamma))(f_\alpha) = \mu_\alpha(f_\alpha)$, và tương tự $\mu_\gamma(f_\gamma) = \mu_\beta(f_\beta)$, suy ra mệnh đề đã nêu. Điều đó đã được thiết lập, hiển nhiên $\mu$ là một dạng tuyến tính trên $V$ và $\mu(f) \geq 0$ khi $f \geq 0$. Theo Mệnh đề 9 của Ch. III, §1, No. 7, $\mu$ có thể được mở rộng thành một độ đo dương trên $G$, mà ta lại ký hiệu là $\mu$. Ta có $\varphi_\alpha(\mu) = \mu_\alpha$ với mọi $\alpha \in A$ theo chính phép dựng của $\mu$.
 
 #### Định nghĩa 5 {#int-vii-s1-def-5 .statement}
 
@@ -770,7 +770,7 @@ Các khái niệm về hàm không đáng kể, hàm không đáng kể địa p
 
 Điều kiện đủ là hiển nhiên. Cho $\nu \neq 0$ là một độ đo nửa bất biến trái, và ta hãy chứng minh rằng $\nu$ tương đương với $\mu$. Ta có thể chỉ xét trường hợp $\nu > 0$. Cho A là một tập con compact của G. Ta sẽ chứng minh, và điều đó sẽ thiết lập mệnh đề, rằng các điều kiện $\mu(A) = 0$, $\nu(A) = 0$ là tương đương (Chương V, §5, No. 5, Định lý 2).
 
-a) Với mọi $f \in \mathcal{K}_+(G)$, hàm $(x, y) \mapsto f(x)\varphi_A(xy)$ trên $G \times G$ là khả tích $(\nu \otimes \mu)$, vì nó là nửa liên tục trên, bị chặn, và giá đỡ của nó được chứa trong tập compact $K \times K^{-1}A$ nếu đặt $K = \operatorname{Supp} f$. Do đó, theo định lý Lebesgue–Fubini,
+a) Với mọi $f \in \mathscr{K}_+(G)$, hàm $(x, y) \mapsto f(x)\varphi_A(xy)$ trên $G \times G$ là khả tích $(\nu \otimes \mu)$, vì nó là nửa liên tục trên, bị chặn, và giá đỡ của nó được chứa trong tập compact $K \times K^{-1}A$ nếu đặt $K = \operatorname{Supp} f$. Do đó, theo định lý Lebesgue–Fubini,
 
 $$
 \int d\nu(y) \int \varphi_A(xy)f(x)\,d\mu(x) = \int f(x)\,d\mu(x) \int \varphi_A(xy)\,d\nu(y).
@@ -782,9 +782,9 @@ $$
 (37) \quad 0 = \int \varphi_A(xy)f(x)\,d\mu(x) = \Delta_G(y)^{-1} \int \varphi_A(x)f(xy^{-1})\,d\mu(x).
 $$
 
-Cho B là một tập con compact của G sao cho $\nu(B) \neq 0$, và lấy làm $f$ một hàm trong $\mathcal{K}_+(G)$ bằng 1 trên $AB^{-1}$. Khi đó tồn tại một $y \in B$ sao cho (37) được thỏa mãn. Nhưng vì $\varphi_A(x)f(xy^{-1}) = \varphi_A(x)$ với $y \in B$, điều này chứng tỏ rằng $\mu(A) = 0$.
+Cho B là một tập con compact của G sao cho $\nu(B) \neq 0$, và lấy làm $f$ một hàm trong $\mathscr{K}_+(G)$ bằng 1 trên $AB^{-1}$. Khi đó tồn tại một $y \in B$ sao cho (37) được thỏa mãn. Nhưng vì $\varphi_A(x)f(xy^{-1}) = \varphi_A(x)$ với $y \in B$, điều này chứng tỏ rằng $\mu(A) = 0$.
 
-c) Giả sử $\mu(A) = 0$. Khi đó, với mọi $f \in \mathcal{K}_+(G)$, vế trái của (36) bằng 0, nên vế phải cũng vậy. Do đó, tồn tại một tập M địa phương $\mu$-bỏ qua được sao cho $\int \varphi_A(xy)\,d\nu(y) = 0$ với $x \notin M$. Vì $\mu \neq 0$, suy ra $\nu(xA) = 0$ với một $x \in G$, do đó $\nu(A) = 0$.
+c) Giả sử $\mu(A) = 0$. Khi đó, với mọi $f \in \mathscr{K}_+(G)$, vế trái của (36) bằng 0, nên vế phải cũng vậy. Do đó, tồn tại một tập M địa phương $\mu$-bỏ qua được sao cho $\int \varphi_A(xy)\,d\nu(y) = 0$ với $x \notin M$. Vì $\mu \neq 0$, suy ra $\nu(xA) = 0$ với một $x \in G$, do đó $\nu(A) = 0$.
 
 Áp dụng Mệnh đề 11 cho $G^0$, ta thấy rằng các độ đo gần bất biến phải trùng với các độ đo gần bất biến trái. Chúng được gọi đơn giản là các độ đo gần bất biến trên G.
 
@@ -869,7 +869,7 @@ $$
 (x_1, \ldots, x_n) \mapsto (x_1 + \sum_{i=2}^n c_i x_i, x_2, \ldots, x_n).
 $$
 
-Nếu $f \in \mathcal{H}(E)$ thì, ký hiệu $\alpha$ là một độ đo Haar trên $K^+$,
+Nếu $f \in \mathscr{H}(E)$ thì, ký hiệu $\alpha$ là một độ đo Haar trên $K^+$,
 
 $$
 \int \cdots \int_{K^n} f(x_1 + \sum_{i=2}^n c_i x_i, x_2, \ldots, x_n) d\alpha(x_1) d\alpha(x_2) \ldots d\alpha(x_n)

@@ -52,7 +52,7 @@ subsections:
       pdf_page: 22
 statements: 55
 exercises: 10
-content_sha256: ddb97d7f4116a213d97fd01f4d22e4174345bbe69f86228c0ebec05791f616cc
+content_sha256: 75307d5fa26ca44599f55e94fb694e68b8d1205d588903363e407f4b0f035a84
 ---
 
 ## § 1. Prémesures et mesures sur un espace topologique
@@ -61,16 +61,16 @@ content_sha256: ddb97d7f4116a213d97fd01f4d22e4174345bbe69f86228c0ebec05791f616cc
 
 #### Définition 1 {#int-ix-s1-def-1 .statement}
 
-Soit T un ensemble. On appelle encombrement sur T toute application p de $\mathcal{F}_+(T)$ dans $\overline{\mathbf{R}}_+$ qui possède les propriétés suivantes:
+Soit T un ensemble. On appelle encombrement sur T toute application p de $\mathscr{F}_+(T)$ dans $\overline{\mathbf{R}}_+$ qui possède les propriétés suivantes:
 
-a) Si f et g sont deux éléments de $\mathcal{F}_+$ tels que $f \leqslant g$, on a $p(f) \leqslant p(g)$.
-b) Si f est un élément de $\mathcal{F}_+$, et t un nombre $\geqslant 0$, on a $p(tf) = tp(f)$.
-c) Si f et g sont deux éléments de $\mathcal{F}_+$, on a $p(f + g) \leqslant p(f) + p(g)$.
-d) Si $(f_n)$ est une suite croissante d’éléments de $\mathcal{F}_+$, et si $f = \lim_{n \to \infty} f_n$, on a $p(f) = \lim_{n \to \infty} p(f_n)$.
+a) Si f et g sont deux éléments de $\mathscr{F}_+$ tels que $f \leqslant g$, on a $p(f) \leqslant p(g)$.
+b) Si f est un élément de $\mathscr{F}_+$, et t un nombre $\geqslant 0$, on a $p(tf) = tp(f)$.
+c) Si f et g sont deux éléments de $\mathscr{F}_+$, on a $p(f + g) \leqslant p(f) + p(g)$.
+d) Si $(f_n)$ est une suite croissante d’éléments de $\mathscr{F}_+$, et si $f = \lim_{n \to \infty} f_n$, on a $p(f) = \lim_{n \to \infty} p(f_n)$.
 
 Si A est une partie de T, on écrit $p(A)$ au lieu de $p(\varphi_A)$.
 
-La condition b) entraîne $p(0) = 0$. D’autre part, soit $(f_n)$ une suite d’éléments de $\mathcal{F}_+$; les conditions c) et d) entraînent l’inégalité
+La condition b) entraîne $p(0) = 0$. D’autre part, soit $(f_n)$ une suite d’éléments de $\mathscr{F}_+$; les conditions c) et d) entraînent l’inégalité
 
 $$
 p \left( \sum_n f_n \right) \leqslant \sum_n p(f_n) \quad \text{(«inégalité de convexité dénombrable»)}.
@@ -80,7 +80,7 @@ Par exemple, soient T un espace localement compact, $\mu$ une mesure positive su
 
 #### Proposition 1 {#int-ix-s1-prop-1 .statement}
 
-*Soit* $(p_\alpha)_{\alpha \in A}$ *une famille d’encombrements sur* T. *La somme et l’enveloppe supérieure de la famille* $(p_\alpha)$ *(dans* $\mathcal{F}_+ (\mathcal{F}_+ (T))$) *sont alors des encombrements*.
+*Soit* $(p_\alpha)_{\alpha \in A}$ *une famille d’encombrements sur* T. *La somme et l’enveloppe supérieure de la famille* $(p_\alpha)$ *(dans* $\mathscr{F}_+ (\mathscr{F}_+ (T))$) *sont alors des encombrements*.
 
 La somme d’une famille finie d’encombrements étant évidemment un encombrement, il suffit de traiter le cas de l’enveloppe supérieure. Les propriétés $a), b), c)$ de la définition 1 étant évidemment satisfaites, il reste à établir d). Posons $p = \sup_\alpha p_\alpha$; on a, avec les notations de la définition 1, d)
 
@@ -94,9 +94,9 @@ $$
 
 Il résulte alors des propriétés a) et c) de la déf. 1 que $p(K) < +\infty$ pour toute partie compacte K de T. En particulier, si T est compact, tout encombrement localement borné sur T est borné.
 
-Soient p un encombrement sur un ensemble T, et A une partie de T. Pour toute fonction $f \in \mathcal{F}_+(A)$, soit $f^0$ le prolongement par 0 de f à T; l’application $f \mapsto p(f^0)$ sur $\mathcal{F}_+(A)$ est alors un encombrement, qu’on appelle *l’encombrement induit par* p *sur* A, et qu’on note $p|A$ ou $p_A$.
+Soient p un encombrement sur un ensemble T, et A une partie de T. Pour toute fonction $f \in \mathscr{F}_+(A)$, soit $f^0$ le prolongement par 0 de f à T; l’application $f \mapsto p(f^0)$ sur $\mathscr{F}_+(A)$ est alors un encombrement, qu’on appelle *l’encombrement induit par* p *sur* A, et qu’on note $p|A$ ou $p_A$.
 
-Soient T et U deux ensembles, $\pi$ une application de T dans U et p un encombrement sur T. On appelle *encombrement image* de p par $\pi$ l’encombrement $\pi(p)$ sur U, dont la valeur pour $f \in \mathcal{F}_+(U)$ est donnée par
+Soient T et U deux ensembles, $\pi$ une application de T dans U et p un encombrement sur T. On appelle *encombrement image* de p par $\pi$ l’encombrement $\pi(p)$ sur U, dont la valeur pour $f \in \mathscr{F}_+(U)$ est donnée par
 
 $$
 (\pi(p))(f) = p(f \circ \pi).
@@ -106,7 +106,7 @@ Soit p un encombrement sur un ensemble T; on dit que p est *concentré* sur une 
 
 #### Lemme 1 {#int-ix-s1-lem-1 .statement}
 
-*Si l’encombrement* p *est concentré sur* A $\subset$ T, *on a* $p(f) = p(f \varphi_A)$ *pour tout* $f \in \mathcal{F}_+(T)$.
+*Si l’encombrement* p *est concentré sur* A $\subset$ T, *on a* $p(f) = p(f \varphi_A)$ *pour tout* $f \in \mathscr{F}_+(T)$.
 
 Posons en effet $T - A = B$, d’où $p(\varphi_B) = 0$; on a
 
@@ -118,7 +118,7 @@ donc $p(f \varphi_B) = 0$ d’après les propriétés $a), b), d)$, de la déf. 
 
 ### 2. Prémesures et mesures
 
-Soit T un espace topologique, et soit $\mathfrak{A}$ l’ensemble des parties compactes de T, ordonné par inclusion. Pour tout $K \in \mathfrak{A}$, soit $\mathcal{M}(K; \mathbf{C})$ l’ensemble des mesures complexes sur K. Pour tout couple (K, L) d’éléments de $\mathfrak{A}$, tel que $K \subset L$, soit $t_{KL}$ l’application de $\mathcal{M}(L; \mathbf{C})$ dans $\mathcal{M}(K; \mathbf{C})$ qui associe à toute mesure $\mu$ sur L la mesure $\mu_K$ induite par $\mu$ sur K (chap. IV, 2e éd., § 5, n° 7, déf. 4). On a $t_{KM} = t_{KL} \circ t_{LM}$ lorsque K, L et M sont des parties compactes de T telles que $K \subset L \subset M$; ceci résulte de la transitivité des mesures induites (chap. V, 2e éd., § 7, n° 2, prop. 4). Les éléments de la limite projective de la famille $(\mathcal{M}(K; \mathbf{C}))_{K \in \mathfrak{A}}$ pour les applications $t_{KL}$ seront appelés prémesures sur T. Autrement dit:
+Soit T un espace topologique, et soit $\mathfrak{A}$ l’ensemble des parties compactes de T, ordonné par inclusion. Pour tout $K \in \mathfrak{A}$, soit $\mathscr{M}(K; \mathbf{C})$ l’ensemble des mesures complexes sur K. Pour tout couple (K, L) d’éléments de $\mathfrak{A}$, tel que $K \subset L$, soit $t_{KL}$ l’application de $\mathscr{M}(L; \mathbf{C})$ dans $\mathscr{M}(K; \mathbf{C})$ qui associe à toute mesure $\mu$ sur L la mesure $\mu_K$ induite par $\mu$ sur K (chap. IV, 2e éd., § 5, n° 7, déf. 4). On a $t_{KM} = t_{KL} \circ t_{LM}$ lorsque K, L et M sont des parties compactes de T telles que $K \subset L \subset M$; ceci résulte de la transitivité des mesures induites (chap. V, 2e éd., § 7, n° 2, prop. 4). Les éléments de la limite projective de la famille $(\mathscr{M}(K; \mathbf{C}))_{K \in \mathfrak{A}}$ pour les applications $t_{KL}$ seront appelés prémesures sur T. Autrement dit:
 
 #### Définition 3 {#int-ix-s1-def-3 .statement}
 
@@ -127,9 +127,9 @@ On appelle prémesure sur un espace topologique T toute application w qui associ
 Si K et L sont deux parties compactes de T telles que $K \subset L$, la mesure $(w_L)_K$ induite par $w_L$ sur K est égale à $w_K$.
 On dit que la prémesure w est réelle (resp. positive) si toutes les mesures $w_K$ sont réelles (resp. positives).
 
-Soient w et w' deux prémesures sur T, t un nombre complexe; on définit les prémesures $w + w'$ et $tw$ par les formules $(w + w')_K = w_K + w'_K, (tw)_K = tw_K$ pour toute partie compacte $K \subset T$. Les prémesures sur T forment évidemment un espace vectoriel, noté $\mathcal{P}(T; \mathbf{C})$; l’espace des prémesures réelles sera noté $\mathcal{P}(T; \mathbf{R})$ ou plus souvent $\mathcal{P}(T)$, et le cône convexe des prémesures positives sera désigné par la notation $\mathcal{P}_+(T)$. Soit w une prémesure; l’application $K \mapsto |w_K|$ est alors une prémesure sur T (chap. IV, 2e éd., § 5, n° 7, lemme 3) que l’on notera $|w|$. Si w est réelle, on posera $w^+ = \frac{1}{2}(|w| + w), w^- = \frac{1}{2}(|w| - w)$; ces deux prémesures étant positives, on voit que toute prémesure réelle est différence de deux prémesures positives. On a évidemment $(w^+)_K = (w_K)^+, (w^-)_K = (w_K)^-$ pour toute partie compacte K de T.
+Soient w et w' deux prémesures sur T, t un nombre complexe; on définit les prémesures $w + w'$ et $tw$ par les formules $(w + w')_K = w_K + w'_K, (tw)_K = tw_K$ pour toute partie compacte $K \subset T$. Les prémesures sur T forment évidemment un espace vectoriel, noté $\mathscr{P}(T; \mathbf{C})$; l’espace des prémesures réelles sera noté $\mathscr{P}(T; \mathbf{R})$ ou plus souvent $\mathscr{P}(T)$, et le cône convexe des prémesures positives sera désigné par la notation $\mathscr{P}_+(T)$. Soit w une prémesure; l’application $K \mapsto |w_K|$ est alors une prémesure sur T (chap. IV, 2e éd., § 5, n° 7, lemme 3) que l’on notera $|w|$. Si w est réelle, on posera $w^+ = \frac{1}{2}(|w| + w), w^- = \frac{1}{2}(|w| - w)$; ces deux prémesures étant positives, on voit que toute prémesure réelle est différence de deux prémesures positives. On a évidemment $(w^+)_K = (w_K)^+, (w^-)_K = (w_K)^-$ pour toute partie compacte K de T.
 
-L’espace vectoriel $\mathcal{P}(T)$ est ordonné par le cône $\mathcal{P}_+(T)$. Il est clair qu’on a $w^+ = \sup (w, 0), w^- = \sup (-w, 0)$; par suite, $\mathcal{P}(T)$ est réticulé et $\sup (w, w') = w + (w' - w)^+$, $\inf (w, w') = w - (w' - w)^-$. De plus, on a évidemment
+L’espace vectoriel $\mathscr{P}(T)$ est ordonné par le cône $\mathscr{P}_+(T)$. Il est clair qu’on a $w^+ = \sup (w, 0), w^- = \sup (-w, 0)$; par suite, $\mathscr{P}(T)$ est réticulé et $\sup (w, w') = w + (w' - w)^+$, $\inf (w, w') = w - (w' - w)^-$. De plus, on a évidemment
 $$
 (\sup (w, w'))_K = \sup (w_K, w'_K), \quad (\inf (w, w'))_K = \inf (w_K, w'_K),
 $$
@@ -137,7 +137,7 @@ pour toute partie compacte K de T.
 
 #### Définition 4 {#int-ix-s1-def-4 .statement}
 
-Soit w une prémesure positive sur T. Nous poserons pour toute fonction $f \in \mathcal{F}_+(T)$
+Soit w une prémesure positive sur T. Nous poserons pour toute fonction $f \in \mathscr{F}_+(T)$
 (1)
 $$
 w^*(f) = \sup_K (w_K)^*(f_K),
@@ -152,7 +152,7 @@ Remarque 1). — Si $v$ et $w$ sont deux prémesures positives, on a $(v + w)^\b
 
 #### Proposition 2 {#int-ix-s1-prop-2 .statement}
 
-a) Soit $w$ une prémesure positive. Pour toute partie compacte $K$ de $T$, l’encombrement $(w^\bullet)_K$ induit par $w^\bullet$ sur $K$ est égal à $(w_K)^\bullet$. Pour toute fonction $f \in \mathcal{F}_+(T)$, on a les relations $(w_K)^\bullet(f_K) = w^\bullet(f_{\varphi_K})$ et
+a) Soit $w$ une prémesure positive. Pour toute partie compacte $K$ de $T$, l’encombrement $(w^\bullet)_K$ induit par $w^\bullet$ sur $K$ est égal à $(w_K)^\bullet$. Pour toute fonction $f \in \mathscr{F}_+(T)$, on a les relations $(w_K)^\bullet(f_K) = w^\bullet(f_{\varphi_K})$ et
 $$
 w^\bullet(f) = \sup_K w^\bullet(f_{\varphi_K}).
 $$
@@ -160,11 +160,11 @@ $$
 
 b) Inversement, soit $p$ un encombrement sur $T$ satisfaisant aux conditions suivantes:
 1) Pour toute partie compacte $K$ de $T$, il existe une mesure positive $w_K$ sur $K$ telle que $p_K = (w_K)^\bullet$.
-2) Pour toute fonction $f \in \mathcal{F}_+(T)$, on a $p(f) = \sup_K p(f_{\varphi_K})$.
+2) Pour toute fonction $f \in \mathscr{F}_+(T)$, on a $p(f) = \sup_K p(f_{\varphi_K})$.
 
 L’application $w : K \mapsto w_K$ est alors une prémesure positive sur $T$, et on a $p = w^\bullet$.
 
-Démontrons a): soient $g \in \mathcal{F}_+(K)$ et $g^0$ le prolongement par zéro de $g$ à $T$; on a, d’après la définition des encombremens induits, $(w^\bullet)_K(g) = w^\bullet(g^0) = \sup_L (w_L)^\bullet(g^0|L)$, $L$ parcourant l’ensemble des parties compactes de $T$, ou seulement l’ensemble de celles qui contiennent $K$. Mais si $L$ contient $K$, on a $(w_L)^\bullet(g^0|L) = (w_K)^\bullet(g)$ du fait que $g^0|L$ est nulle hors de $K$ (chap. V, 2e éd., § 7, n° 1, prop. 1), ce qui prouve la première assertion. On a donc $(w_K)^\bullet(f_K) = (w^\bullet)_K(f_K) = w^\bullet((f_K)^0) = w^\bullet(f_{\varphi_K})$ pour tout $f \in \mathcal{F}_+(T)$, et (2) ne fait que traduire la formule (1).
+Démontrons a): soient $g \in \mathscr{F}_+(K)$ et $g^0$ le prolongement par zéro de $g$ à $T$; on a, d’après la définition des encombremens induits, $(w^\bullet)_K(g) = w^\bullet(g^0) = \sup_L (w_L)^\bullet(g^0|L)$, $L$ parcourant l’ensemble des parties compactes de $T$, ou seulement l’ensemble de celles qui contiennent $K$. Mais si $L$ contient $K$, on a $(w_L)^\bullet(g^0|L) = (w_K)^\bullet(g)$ du fait que $g^0|L$ est nulle hors de $K$ (chap. V, 2e éd., § 7, n° 1, prop. 1), ce qui prouve la première assertion. On a donc $(w_K)^\bullet(f_K) = (w^\bullet)_K(f_K) = w^\bullet((f_K)^0) = w^\bullet(f_{\varphi_K})$ pour tout $f \in \mathscr{F}_+(T)$, et (2) ne fait que traduire la formule (1).
 
 Passons à b): la mesure $w_K$ considérée en 1) est unique (chap. V, 2e éd., § 1, n° 1). Montrons que l’application $K \mapsto w_K$ est une prémesure: soient $K$ et $L$ deux parties compactes telles que $K \subset L$, et soit $\lambda$ la mesure induite par $w_L$ sur $K$; tout revient à montrer que $\lambda^\bullet = (w_K)^\bullet$. Or on a $\lambda^\bullet = ((w_L)^\bullet)_K$ (chap. V, 2e éd., § 7, n° 1, prop. 1); comme $(w_L)^\bullet = p_L$, on a $\lambda^\bullet = (p_L)_K = p_K = (w_K)^\bullet$.
 
@@ -189,7 +189,7 @@ d’après la prop. 2; on a donc $w_K = v_K$ (chap. IV, 2e éd., § 4, n° 10, c
 
 Soit $w$ une prémesure sur un espace topologique $T$. On dit que $w$ est une mesure (resp. une mesure bornée) si l’encombrement $|w|^*$ est localement borné (resp. borné) (cf. n° 1, déf. 2).
 
-L’ensemble des mesures complexes sur $T$ est évidemment un espace vectoriel (Remarque 1), qui sera noté $\mathcal{M}(T; \mathbf{C})$. L’espace des mesures réelles sera noté $\mathcal{M}(T; \mathbf{R})$ ou plus souvent $\mathcal{M}(T)$, et on désignera par $\mathcal{M}_+(T)$ le cône des mesures positives.
+L’ensemble des mesures complexes sur $T$ est évidemment un espace vectoriel (Remarque 1), qui sera noté $\mathscr{M}(T; \mathbf{C})$. L’espace des mesures réelles sera noté $\mathscr{M}(T; \mathbf{R})$ ou plus souvent $\mathscr{M}(T)$, et on désignera par $\mathscr{M}_+(T)$ le cône des mesures positives.
 
 Si $w$ est une mesure complexe, sa partie réelle et sa partie imaginaire sont des mesures réelles. Si $w$ est une mesure réelle, $w^+$ et $w^-$ sont des mesures positives. Toute mesure complexe (resp. réelle) est donc combinaison linéaire (resp. différence) de mesures positives.
 
@@ -211,19 +211,19 @@ d’après le cor. 1 du th. 4 du chap. IV, § 4, n° 6 (2e éd.).
 
 Mesures sur un espace localement compact
 
-La proposition suivante montre que la théorie de ce chapitre contient celle du chap. IV. Dans l’énoncé, le mot « mesure » et la notation $\mathcal{M}(T; \mathbf{C})$ sont pris au sens des chapitres antérieurs.
+La proposition suivante montre que la théorie de ce chapitre contient celle du chap. IV. Dans l’énoncé, le mot « mesure » et la notation $\mathscr{M}(T; \mathbf{C})$ sont pris au sens des chapitres antérieurs.
 
 #### Proposition 3 {#int-ix-s1-prop-3 .statement}
 
-Soit $T$ un espace localement compact, et soit $\mu$ une mesure sur $T$. Désignons par $W(\mu)$ l’application qui à chaque partie compacte $K$ de $T$ associe la mesure induite $\mu_K$. Alors $W(\mu)$ est une prémesure sur $T$, on a $W(|\mu|) = |W(\mu)|$, et l’application linéaire $W : \mu \mapsto W(\mu)$ est une bijection de l’espace $\mathcal{M}(T; \mathbf{C})$ sur l’espace $\mathcal{P}(T; \mathbf{C})$ des prémesures sur $T$. En outre, si $\mu$ est positive, on a $\mu^* = (W(\mu))^*$.
+Soit $T$ un espace localement compact, et soit $\mu$ une mesure sur $T$. Désignons par $W(\mu)$ l’application qui à chaque partie compacte $K$ de $T$ associe la mesure induite $\mu_K$. Alors $W(\mu)$ est une prémesure sur $T$, on a $W(|\mu|) = |W(\mu)|$, et l’application linéaire $W : \mu \mapsto W(\mu)$ est une bijection de l’espace $\mathscr{M}(T; \mathbf{C})$ sur l’espace $\mathscr{P}(T; \mathbf{C})$ des prémesures sur $T$. En outre, si $\mu$ est positive, on a $\mu^* = (W(\mu))^*$.
 
-Il est évident que $W(\mu)$ est une prémesure (chap. V, 2e éd., § 7, n° 2, prop. 4), et que l’application $W$ est linéaire. La relation $W(\mu) = 0$ signifie que $\mu$ induit la mesure 0 sur tout ensemble compact dans $T$; on a alors $\mu(f) = 0$ pour $f \in \mathcal{H}(T; \mathbf{C})$, donc $\mu = 0$, ce qui prouve que $W$ est injective. Reste à prouver que $W$ est surjective. Comme toute prémesure est combinaison linéaire de prémesures positives, il nous suffira de construire, pour toute prémesure positive $w$, une mesure positive $\mu$ telle que $w = W(\mu)$. Soit donnée une fonction $f \in \mathcal{K}(T)$, et soit $L$ un ensemble compact contenant le support de $f$; le nombre $w_L(f_L)$ ne dépend pas du choix de $L$, d’après la définition des mesures induites, et l’on peut donc poser $\mu(f) = w_L(f_L)$; alors $\mu$ est une forme linéaire positive sur $\mathcal{K}(T)$, c’est-à-dire une mesure positive. Vérifions que $w = W(\mu)$; tout d’abord, la relation $\mu^*(f) = w_L^*(f_L)$ s’étend au cas où $f$ est une fonction finie semi-continue supérieurement, positive, nulle hors de $L$. En effet, soient $M$ un voisinage compact de $L$, et $\mathcal{H}$ l’ensemble (filtrant décroissant) des fonctions continues sur $T$, à support contenu dans $M$, qui majorent $f$. On a (chap. IV, 2e éd., § 4, n° 4, cor. 2 de la prop. 5)
+Il est évident que $W(\mu)$ est une prémesure (chap. V, 2e éd., § 7, n° 2, prop. 4), et que l’application $W$ est linéaire. La relation $W(\mu) = 0$ signifie que $\mu$ induit la mesure 0 sur tout ensemble compact dans $T$; on a alors $\mu(f) = 0$ pour $f \in \mathscr{H}(T; \mathbf{C})$, donc $\mu = 0$, ce qui prouve que $W$ est injective. Reste à prouver que $W$ est surjective. Comme toute prémesure est combinaison linéaire de prémesures positives, il nous suffira de construire, pour toute prémesure positive $w$, une mesure positive $\mu$ telle que $w = W(\mu)$. Soit donnée une fonction $f \in \mathscr{K}(T)$, et soit $L$ un ensemble compact contenant le support de $f$; le nombre $w_L(f_L)$ ne dépend pas du choix de $L$, d’après la définition des mesures induites, et l’on peut donc poser $\mu(f) = w_L(f_L)$; alors $\mu$ est une forme linéaire positive sur $\mathscr{K}(T)$, c’est-à-dire une mesure positive. Vérifions que $w = W(\mu)$; tout d’abord, la relation $\mu^*(f) = w_L^*(f_L)$ s’étend au cas où $f$ est une fonction finie semi-continue supérieurement, positive, nulle hors de $L$. En effet, soient $M$ un voisinage compact de $L$, et $\mathscr{H}$ l’ensemble (filtrant décroissant) des fonctions continues sur $T$, à support contenu dans $M$, qui majorent $f$. On a (chap. IV, 2e éd., § 4, n° 4, cor. 2 de la prop. 5)
 
 $$
-\mu^*(f) = \inf_{h \in \mathcal{H}} \mu(h) = \inf_{h \in \mathcal{H}} w_M(h_M) = w_M^*(f_M)
+\mu^*(f) = \inf_{h \in \mathscr{H}} \mu(h) = \inf_{h \in \mathscr{H}} w_M(h_M) = w_M^*(f_M)
 $$
 
-et d’autre part $w_M^*(f_M) = w_L^*(f_L)$ puisque $f_M$ est nulle dans $M - L$ (chap. V, 2e éd., § 7, n° 1, prop. 1). En particulier, si l’on prend pour $f$ le prolongement par 0 d’un élément de $\mathcal{K}_+(L)$, cette formule montre que $\mu_L = w_L$ d’après la définition des mesures induites, et on a donc bien $W(\mu) = w$.
+et d’autre part $w_M^*(f_M) = w_L^*(f_L)$ puisque $f_M$ est nulle dans $M - L$ (chap. V, 2e éd., § 7, n° 1, prop. 1). En particulier, si l’on prend pour $f$ le prolongement par 0 d’un élément de $\mathscr{K}_+(L)$, cette formule montre que $\mu_L = w_L$ d’après la définition des mesures induites, et on a donc bien $W(\mu) = w$.
 
 Si $\mu$ est positive, on a
 
@@ -231,11 +231,11 @@ $$
 \mu^*(f) = \sup_K \mu^*(f_{\varphi_K}) = \sup_K \mu_K^*(f_K) = (W(\mu))^*(f)
 $$
 
-pour tout $f \in \mathcal{F}_+(T)$ (chap. V, 2e éd., § 1, déf. 1 et § 7, prop. 1). La relation $|W(\mu)| = W(|\mu|)$ est évidente (chap. IV, 2e éd., § 5, n° 7, lemme 3).
+pour tout $f \in \mathscr{F}_+(T)$ (chap. V, 2e éd., § 1, déf. 1 et § 7, prop. 1). La relation $|W(\mu)| = W(|\mu|)$ est évidente (chap. IV, 2e éd., § 5, n° 7, lemme 3).
 
 C.Q.F.D.
 
-Lorsque $T$ est *localement compact*, nous *identifierons* dans toute la suite les espaces $\mathcal{M}(T; \mathbf{C})$ et $\mathcal{P}(T; \mathbf{C})$ au moyen de la bijection $W$.
+Lorsque $T$ est *localement compact*, nous *identifierons* dans toute la suite les espaces $\mathscr{M}(T; \mathbf{C})$ et $\mathscr{P}(T; \mathbf{C})$ au moyen de la bijection $W$.
 
 #### Exemple 2 {#int-ix-s1-n3-exa-2 .statement}
 
@@ -243,14 +243,14 @@ Lorsque $T$ est *localement compact*, nous *identifierons* dans toute la suite l
 
 #### Lemme 2 {#int-ix-s1-lem-2 .statement}
 
-*Soient* $T$ *un espace topologique, L une partie compacte de* $T$, $\lambda$ *une mesure positive sur* $L$. *Il existe une mesure positive unique* $\mu$ *sur* $T$, *telle que l’on ait, pour toute fonction* $f \in \mathcal{F}_+(T)$,
+*Soient* $T$ *un espace topologique, L une partie compacte de* $T$, $\lambda$ *une mesure positive sur* $L$. *Il existe une mesure positive unique* $\mu$ *sur* $T$, *telle que l’on ait, pour toute fonction* $f \in \mathscr{F}_+(T)$,
 
 (3)
 $$
 \mu^*(f) = \lambda^*(f_L).
 $$
 
-Posons en effet $p(f) = \lambda^*(f_L)$ pour tout $f \in \mathcal{F}_+(T)$, et montrons que les conditions 1) et 2) de la prop. 2, *b*) sont vérifiées. La seconde est évidemment vérifiée: on a en fait $p(f) = p(f_{\varphi_K})$ si $K$ contient $L$. Si $K \subset T$ est compact, et si $h \in \mathcal{F}_+(K)$, on a
+Posons en effet $p(f) = \lambda^*(f_L)$ pour tout $f \in \mathscr{F}_+(T)$, et montrons que les conditions 1) et 2) de la prop. 2, *b*) sont vérifiées. La seconde est évidemment vérifiée: on a en fait $p(f) = p(f_{\varphi_K})$ si $K$ contient $L$. Si $K \subset T$ est compact, et si $h \in \mathscr{F}_+(K)$, on a
 
 $$
 p_K(h) = p(h^0) = \lambda^*(h^0|L).
@@ -260,7 +260,7 @@ Mais $h^0|L$ est le prolongement par 0 de $h_{K \cap L}$ à $L$: la dernière ex
 
 C.Q.F.D.
 
-On dira que $\mu$ est la mesure sur $T$ définie par $\lambda$. En particulier, pour tout point $x$ de $T$, on peut définir la mesure $\varepsilon_x$; elle est caractérisée par $(\varepsilon_x)^*(f) = f(x)$ pour $f \in \mathcal{F}_+(T)$.
+On dira que $\mu$ est la mesure sur $T$ définie par $\lambda$. En particulier, pour tout point $x$ de $T$, on peut définir la mesure $\varepsilon_x$; elle est caractérisée par $(\varepsilon_x)^*(f) = f(x)$ pour $f \in \mathscr{F}_+(T)$.
 
 #### Remarque 1 {#int-ix-s1-n3-rem-1 .statement}
 
@@ -278,7 +278,7 @@ De nombreux résultats des n°s suivants s’étendent aux prémesures positives
 
 #### Définition 6 {#int-ix-s1-def-6 .statement}
 
-On dit qu’une fonction $f \in \mathcal{F}_+$ (resp. une partie $A$ de $T$) est localement négligeable pour la mesure $\mu$ si $\mu^*(f) = 0$ (resp. $\mu^*(A) = 0$). On dit que $\mu$ est concentrée sur une partie $A$ de $T$ si $T - A$ est localement $\mu$-négligeable.
+On dit qu’une fonction $f \in \mathscr{F}_+$ (resp. une partie $A$ de $T$) est localement négligeable pour la mesure $\mu$ si $\mu^*(f) = 0$ (resp. $\mu^*(A) = 0$). On dit que $\mu$ est concentrée sur une partie $A$ de $T$ si $T - A$ est localement $\mu$-négligeable.
 
 #### Remarque 1 {#int-ix-s1-n4-rem-1 .statement}
 
@@ -295,9 +295,9 @@ Comme aux chap. IV et V, l’expression « localement presque partout » sera sy
 #### Remarque 4 {#int-ix-s1-n4-rem-4 .statement}
 
 Si $\theta$ est une mesure complexe, on dira qu’une fonction (resp. une partie de $T$) est localement négligeable pour $\theta$ si elle l’est pour la mesure positive $|\theta|$.
-Exemple. — Soient $L$ une partie compacte de $T$, $\lambda$ une mesure sur $L$, et $\mu$ la mesure sur $T$ définie par $\lambda$ (n° 3, Exemple 2). La formule (3) entraîne aussitôt qu’une fonction $f \in \mathcal{F}_+(T)$ est localement $\mu$-négligeable si et seulement si $f_L$ est $\lambda$-négligeable.
+Exemple. — Soient $L$ une partie compacte de $T$, $\lambda$ une mesure sur $L$, et $\mu$ la mesure sur $T$ définie par $\lambda$ (n° 3, Exemple 2). La formule (3) entraîne aussitôt qu’une fonction $f \in \mathscr{F}_+(T)$ est localement $\mu$-négligeable si et seulement si $f_L$ est $\lambda$-négligeable.
 
-Il résulte immédiatement de la formule (1) qu’une fonction $f \in \mathcal{F}_+(T)$ est localement $\mu$-négligeable si et seulement si $f_K$ est $\mu_K$-négligeable pour toute partie compacte $K$ de $T$. Les propriétés des ensembles localement négligeables se ramènent donc aussitôt à celles des ensembles négligeables dans les espaces compacts, traitées au chap. IV. Voici quelques résultats qui seront utilisés par la suite sans autre référence.
+Il résulte immédiatement de la formule (1) qu’une fonction $f \in \mathscr{F}_+(T)$ est localement $\mu$-négligeable si et seulement si $f_K$ est $\mu_K$-négligeable pour toute partie compacte $K$ de $T$. Les propriétés des ensembles localement négligeables se ramènent donc aussitôt à celles des ensembles négligeables dans les espaces compacts, traitées au chap. IV. Voici quelques résultats qui seront utilisés par la suite sans autre référence.
 
 — Pour qu’une fonction $f \geqslant 0$ soit localement négligeable, il faut et il suffit que $f(t) = 0$ localement presque partout (chap. IV, 2e éd., § 2, n° 3, th. 1). Si $\mathbf{f}$ est une fonction à valeurs dans un espace de Banach, il est donc équivalent de dire que $\mathbf{f} = 0$ localement presque partout, ou que $\mu^*(|\mathbf{f}|) = 0$; nous dirons encore dans ce cas que $\mathbf{f}$ est localement négligeable.
 — La somme et l’enveloppe supérieure d’une suite de fonctions $\geqslant 0$, localement négligeables, sont localement négligeables (loc. cit., n° 1, prop. 2).
@@ -409,7 +409,7 @@ Si $\mu$ est une mesure complexe, on appelle support de $\mu$ le support de la m
 
 #### Remarque 2 {#int-ix-s1-n6-rem-2 .statement}
 
-Montrons que les mesures introduites dans l’Exemple 2 du n° 3 sont les mesures à support compact dans $T$. Soit $\mu$ une mesure positive sur $T$ dont le support est un ensemble compact $K$, et soit $\nu$ la mesure définie par $\mu_K$ (au sens du n° 3). Soit $f \in \mathcal{F}_+(T)$; on a
+Montrons que les mesures introduites dans l’Exemple 2 du n° 3 sont les mesures à support compact dans $T$. Soit $\mu$ une mesure positive sur $T$ dont le support est un ensemble compact $K$, et soit $\nu$ la mesure définie par $\mu_K$ (au sens du n° 3). Soit $f \in \mathscr{F}_+(T)$; on a
 
 $$
 \nu^*(f) = \mu_K^*(f_K) \quad (\text{n° 3, formule (3)}).
@@ -427,25 +427,25 @@ d’où $\mu^* = \nu^*$, et enfin $\mu = \nu$. Inversement, si $K$ est un ensemb
 
 #### Proposition 6 {#int-ix-s1-prop-6 .statement}
 
-Soit $(\lambda_\alpha)_{\alpha \in A}$ une famille filtrante croissante de mesures sur $T$, et soit $p = \sup_\alpha \lambda_\alpha^\bullet$. Pour que la famille $(\lambda_\alpha)$ soit majorée dans $\mathcal{M}(T)$, il faut et il suffit que l’encombrement $p$ soit localement borné. La famille $(\lambda_\alpha)$ admet alors une borne supérieure $\lambda$ dans $\mathcal{M}(T)$, et on a $\lambda^\bullet = p$. Pour tout ensemble compact $K$, la mesure $\lambda_K$ est la borne supérieure des mesures $(\lambda_\alpha)_K$ dans $\mathcal{M}(K)$.
+Soit $(\lambda_\alpha)_{\alpha \in A}$ une famille filtrante croissante de mesures sur $T$, et soit $p = \sup_\alpha \lambda_\alpha^\bullet$. Pour que la famille $(\lambda_\alpha)$ soit majorée dans $\mathscr{M}(T)$, il faut et il suffit que l’encombrement $p$ soit localement borné. La famille $(\lambda_\alpha)$ admet alors une borne supérieure $\lambda$ dans $\mathscr{M}(T)$, et on a $\lambda^\bullet = p$. Pour tout ensemble compact $K$, la mesure $\lambda_K$ est la borne supérieure des mesures $(\lambda_\alpha)_K$ dans $\mathscr{M}(K)$.
 
-Si la famille $(\lambda_\alpha)$ est majorée dans $\mathcal{M}(T)$, $p$ est évidemment localement borné. Inversement, supposons $p$ localement borné, et montrons qu’il satisfait aux conditions 1) et 2) de la prop. 2, b) du n° 2. Pour 2), cela résulte des égalités suivantes:
+Si la famille $(\lambda_\alpha)$ est majorée dans $\mathscr{M}(T)$, $p$ est évidemment localement borné. Inversement, supposons $p$ localement borné, et montrons qu’il satisfait aux conditions 1) et 2) de la prop. 2, b) du n° 2. Pour 2), cela résulte des égalités suivantes:
 
 $$
 p(f) = \sup_\alpha \lambda_\alpha^\bullet(f) = \sup_\alpha \sup_K \lambda_\alpha^\bullet(f \varphi_K) = \sup_K \sup_\alpha \lambda_\alpha^\bullet(f \varphi_K) = \sup_K p(f \varphi_K).
 $$
 
-D’autre part, soit $K$ un ensemble compact; l’encombrement $p_K$ est égal à l’enveloppe supérieure des encombremens $(\lambda_\alpha^\bullet)_K$, et il est borné puisque $p$ est localement borné. Les mesures $(\lambda_\alpha)_K$ admettent donc une borne supérieure $\lambda_K$ dans $\mathcal{M}(K)$, et on a $\lambda_K^\bullet = p_K$ (chap. V, 2e éd., § 1, n° 4, prop. 11). La condition 1) de la prop. 2, b) du n° 2 est donc satisfaite, et il existe donc une mesure $\lambda$ sur $T$ telle que $\lambda^\bullet = p$; il est clair que $\lambda$ est la borne supérieure des mesures $\lambda_\alpha$.
+D’autre part, soit $K$ un ensemble compact; l’encombrement $p_K$ est égal à l’enveloppe supérieure des encombremens $(\lambda_\alpha^\bullet)_K$, et il est borné puisque $p$ est localement borné. Les mesures $(\lambda_\alpha)_K$ admettent donc une borne supérieure $\lambda_K$ dans $\mathscr{M}(K)$, et on a $\lambda_K^\bullet = p_K$ (chap. V, 2e éd., § 1, n° 4, prop. 11). La condition 1) de la prop. 2, b) du n° 2 est donc satisfaite, et il existe donc une mesure $\lambda$ sur $T$ telle que $\lambda^\bullet = p$; il est clair que $\lambda$ est la borne supérieure des mesures $\lambda_\alpha$.
 
 #### Définition 9 {#int-ix-s1-def-9 .statement}
 
-Soit $(\mu_i)_{i \in I}$ une famille de mesures sur $T$. Soit $A$ l’ensemble des parties finies de $I$; pour tout $\alpha \in A$, soit $\lambda_\alpha = \sum_{i \in \alpha} \mu_i$. Si la famille $(\lambda_\alpha)$ admet dans $\mathcal{M}(T)$ une borne supérieure $\mu$, on dit que la famille $(\mu_i)$ est sommable, que $\mu$ est la somme de la famille $(\mu_i)$, et on écrit $\mu = \sum_{i \in I} \mu_i$.
+Soit $(\mu_i)_{i \in I}$ une famille de mesures sur $T$. Soit $A$ l’ensemble des parties finies de $I$; pour tout $\alpha \in A$, soit $\lambda_\alpha = \sum_{i \in \alpha} \mu_i$. Si la famille $(\lambda_\alpha)$ admet dans $\mathscr{M}(T)$ une borne supérieure $\mu$, on dit que la famille $(\mu_i)$ est sommable, que $\mu$ est la somme de la famille $(\mu_i)$, et on écrit $\mu = \sum_{i \in I} \mu_i$.
 
 Cette définition étend la déf. du chap. V, 2e éd., § 2, n° 1.
 
 #### Proposition 7 {#int-ix-s1-prop-7 .statement}
 
-Pour que la famille $(\mu_i)_{i \in I}$ soit sommable, il faut et il suffit que l’encombrement $p = \sum_{i \in I} \mu_i^\bullet$ soit localement borné, et l’on a dans ce cas $p = \mu^\bullet$. Pour toute partie compacte $K$ de $T$, la famille $((\mu_i)_K)_{i \in I}$ est alors sommable dans $\mathcal{M}(K)$, et l’on a $\mu_K = \sum_{i \in I} (\mu_i)_K$.
+Pour que la famille $(\mu_i)_{i \in I}$ soit sommable, il faut et il suffit que l’encombrement $p = \sum_{i \in I} \mu_i^\bullet$ soit localement borné, et l’on a dans ce cas $p = \mu^\bullet$. Pour toute partie compacte $K$ de $T$, la famille $((\mu_i)_K)_{i \in I}$ est alors sommable dans $\mathscr{M}(K)$, et l’on a $\mu_K = \sum_{i \in I} (\mu_i)_K$.
 
 Les notations étant celles de la déf. 9, on a $\lambda_\alpha^\bullet = \sum_{i \in \alpha} \mu_i^\bullet$ pour toute partie finie $\alpha$ de $A$ (n° 2, Remarque 1). L’énoncé est alors une conséquence immédiate de la prop. 6.
 
@@ -461,7 +461,7 @@ On appelle concassage de T pour μ, ou μ-concassage, une famille localement dé
 #### Proposition 9 {#int-ix-s1-prop-9 .statement}
 
 a) Il existe un concassage $(K_\alpha)_{\alpha \in A}$ de T pour μ.
-b) Soit $(K_\alpha)_{\alpha \in A}$ un concassage de T pour μ. Si $\mu_\alpha$ est la mesure sur T définie par $\mu_{K_\alpha}$ (n° 3, Exemple 2), la famille $(\mu_\alpha)_{\alpha \in A}$ est sommable, sa somme est égale à μ, et on a pour toute fonction $f \in \mathcal{F}_+(T)$ la relation
+b) Soit $(K_\alpha)_{\alpha \in A}$ un concassage de T pour μ. Si $\mu_\alpha$ est la mesure sur T définie par $\mu_{K_\alpha}$ (n° 3, Exemple 2), la famille $(\mu_\alpha)_{\alpha \in A}$ est sommable, sa somme est égale à μ, et on a pour toute fonction $f \in \mathscr{F}_+(T)$ la relation
 $$
 \mu^\bullet(f) = \sum_{\alpha \in A} \mu_\alpha^\bullet(f) = \sum_{\alpha \in A} \mu_{K_\alpha}^\bullet(f_{K_\alpha}). \tag{1}
 $$
@@ -480,7 +480,7 @@ Or on a $\mu^\bullet(K \cap V) = \mu_K^\bullet(K \cap V) > 0$ pour tout $K \in L
 
 (1) Nous verrons plus loin (§ 2, n° 2) que $\mu_\alpha$ est la mesure $\varphi_{K_\alpha} \cdot \mu$.
 
-(chap. IV, 2e éd., § 5, n° 7, lemme 2). L’ensemble $\mathfrak{S} \cup \{ S \}$ appartient donc à $\mathcal{H}$, en contradiction avec le caractère maximal de $\mathfrak{S}$. Ceci prouve l’existence d’un concassage.
+(chap. IV, 2e éd., § 5, n° 7, lemme 2). L’ensemble $\mathfrak{S} \cup \{ S \}$ appartient donc à $\mathscr{H}$, en contradiction avec le caractère maximal de $\mathfrak{S}$. Ceci prouve l’existence d’un concassage.
 
 B) Démonstration de (7):
 
@@ -492,7 +492,7 @@ $$
 \mu_K^\bullet = \sum_{\alpha \in A} (\mu_\alpha)_K^\bullet
 $$
 
-pour toute partie compacte K de T. Or, K étant fixée, l’ensemble A’ des $\alpha \in A$ tels que $K_\alpha$ rencontre K est dénombrable. Soit $g \in \mathcal{F}_+(K)$; on a $g^0 = g^0 \varphi_N + \sum_{\alpha \in A} g^0 \varphi_{K_\alpha}$, et $g^0 \varphi_{K_\alpha} = 0$ pour $\alpha \in A - A'$; d’après la prop. 4 du n° 5, on a donc $\mu^\bullet(g^0) = \sum_{\alpha \in A} \mu^\bullet(g^0 \varphi_{K_\alpha})$, d’où
+pour toute partie compacte K de T. Or, K étant fixée, l’ensemble A’ des $\alpha \in A$ tels que $K_\alpha$ rencontre K est dénombrable. Soit $g \in \mathscr{F}_+(K)$; on a $g^0 = g^0 \varphi_N + \sum_{\alpha \in A} g^0 \varphi_{K_\alpha}$, et $g^0 \varphi_{K_\alpha} = 0$ pour $\alpha \in A - A'$; d’après la prop. 4 du n° 5, on a donc $\mu^\bullet(g^0) = \sum_{\alpha \in A} \mu^\bullet(g^0 \varphi_{K_\alpha})$, d’où
 
 $$
 \mu_K^\bullet(g) = \mu^\bullet(g^0) = \sum_{\alpha \in A} \mu^\bullet(g^0 \varphi_{K_\alpha}) = \sum_{\alpha \in A} \mu_\alpha^\bullet(g^0) = \sum_{\alpha \in A} (\mu_\alpha)_K^\bullet(g);
@@ -532,7 +532,7 @@ Mais soit $K$ un ensemble compact; la famille $(L_\alpha)_{\alpha \in A}$ étant
 
 #### Définition 11 {#int-ix-s1-def-11 .statement}
 
-Pour toute fonction $f \in \mathcal{F}_+(\mathrm{T})$, on appelle intégrale supérieure de $f$ (par rapport à la mesure $\mu$) le nombre positif fini ou infini
+Pour toute fonction $f \in \mathscr{F}_+(\mathrm{T})$, on appelle intégrale supérieure de $f$ (par rapport à la mesure $\mu$) le nombre positif fini ou infini
 
 $$
 \mu^*(f) = \inf_g \mu^*(g)
@@ -578,13 +578,13 @@ On prendra garde que l’existence d’une suite d’ensembles boréliens de mes
 
 #### Proposition 14 {#int-ix-s1-prop-14 .statement}
 
-Soit $f \in \mathcal{F}_+(T)$. Si $f$ est $\mu$-modérée, on a $\mu^*(f) = \mu^*(f)$; si $f$ n’est pas $\mu$-modérée, on a $\mu^*(f) = +\infty$.
+Soit $f \in \mathscr{F}_+(T)$. Si $f$ est $\mu$-modérée, on a $\mu^*(f) = \mu^*(f)$; si $f$ n’est pas $\mu$-modérée, on a $\mu^*(f) = +\infty$.
 
 Si $\mu^*(f) < +\infty$, il existe une fonction semi-continue inférieurement $g \geq f$ telle que $\mu^*(g) < +\infty$. Pour tout $n \in \mathbf{N}$, soit $G_n$ l’ensemble des $t \in T$ tels que $g(t) > 1/n$; l’ensemble $G_n$ est ouvert, on a $\mu^*(G_n) \leq n \mu^*(g) < +\infty$, et $f$ est nulle hors de la réunion des $G_n$: la fonction $f$ est donc modérée.
 
 Montrons ensuite que $\mu^*$ et $\mu^*$ ont même valeur pour les fonctions modérées. Comme $\mu^*$ et $\mu^*$ sont des encombrements, il suffit d’établir la relation $\mu^*(f) = \mu^*(f)$ lorsque $f$ est une fonction positive, majorée par une constante M, et nulle hors d’un ensemble ouvert G de mesure finie, ce que nous allons faire à présent.
 
-La mesure $\mu$ est la borne supérieure, dans $\mathcal{M}(T)$, d’une famille filtrante croissante $(\mu_i)_{i \in I}$ de mesures à support compact: cela résulte aussitôt de la prop. 9 du n° 8. Soit $g$ une fonction semi-continue inférieurement dans T, comprise entre $f$ et la fonction semi-continue inférieurement $M_{\varphi_G}$. Posons $v_i = \mu - \mu_i$; on a $\mu^* = \mu_i^* + v_i^*$ (n° 2, Remarque 1) et par conséquent
+La mesure $\mu$ est la borne supérieure, dans $\mathscr{M}(T)$, d’une famille filtrante croissante $(\mu_i)_{i \in I}$ de mesures à support compact: cela résulte aussitôt de la prop. 9 du n° 8. Soit $g$ une fonction semi-continue inférieurement dans T, comprise entre $f$ et la fonction semi-continue inférieurement $M_{\varphi_G}$. Posons $v_i = \mu - \mu_i$; on a $\mu^* = \mu_i^* + v_i^*$ (n° 2, Remarque 1) et par conséquent
 
 $$
 \mu^*(g) - \mu^*(f) = (\mu_i^*(g) - \mu_i^*(f)) + (v_i^*(g) - v_i^*(f))
@@ -593,7 +593,7 @@ $$
 \leq (\mu_i^*(g) - \mu_i^*(f)) + v_i^*(M_{\varphi_G}).
 $$
 
-On a $v_i^*(M_{\varphi_G}) = \mu^*(M_{\varphi_G}) - \mu_i^*(M_{\varphi_G})$ et $\mu^*(M_{\varphi_G}) = \sup \mu_i^*(M_{\varphi_G})$ (n° 7, prop. 6); le nombre $v_i^*(M_{\varphi_G})$ peut donc être rendu arbitrairement petit par un choix convenable de $i$. Tout revient donc à montrer qu’on peut trouver, quels que soient le nombre $c > 0$ et l’indice $i \in I$, une fonction semi-continue inférieurement $g$ comprise entre $f$ et $M_{\varphi_G}$, telle que $\mu_i^*(g) - \mu_i^*(f) \leq c$. Or soit L le support compact de la mesure $\mu_i$, et soit $\lambda$ la mesure $(\mu_i)_L$; puisque $\mu_i$ est concentrée sur L, on a $\mu_i^*(h) = \mu_i^*(h_{\varphi_L}) = \lambda^*(h_L)$ pour toute fonction $h \in \mathcal{F}_+(T)$ (n° 1, lemme 1 et n° 2, prop. 2); on a donc
+On a $v_i^*(M_{\varphi_G}) = \mu^*(M_{\varphi_G}) - \mu_i^*(M_{\varphi_G})$ et $\mu^*(M_{\varphi_G}) = \sup \mu_i^*(M_{\varphi_G})$ (n° 7, prop. 6); le nombre $v_i^*(M_{\varphi_G})$ peut donc être rendu arbitrairement petit par un choix convenable de $i$. Tout revient donc à montrer qu’on peut trouver, quels que soient le nombre $c > 0$ et l’indice $i \in I$, une fonction semi-continue inférieurement $g$ comprise entre $f$ et $M_{\varphi_G}$, telle que $\mu_i^*(g) - \mu_i^*(f) \leq c$. Or soit L le support compact de la mesure $\mu_i$, et soit $\lambda$ la mesure $(\mu_i)_L$; puisque $\mu_i$ est concentrée sur L, on a $\mu_i^*(h) = \mu_i^*(h_{\varphi_L}) = \lambda^*(h_L)$ pour toute fonction $h \in \mathscr{F}_+(T)$ (n° 1, lemme 1 et n° 2, prop. 2); on a donc
 
 $$
 \mu_i^*(g) - \mu_i^*(f) = \lambda^*(g_L) - \lambda^*(f_L).
@@ -631,29 +631,29 @@ En effet, l’égalité $\mu^* = \nu^*$ entraîne $\mu^*(f) = \nu^*(f)$ pour tou
 
 Si $\mu$ est une mesure modérée sur $T$, il existe une suite $(\mu_n)_{n \in \mathbf{N}}$ de mesures à support compact telle que $\mu = \sum_{n \in \mathbf{N}} \mu_n$.
 
-Par hypothèse, la fonction constante 1 est $\mu$-modérée. Appliquons le cor. 3 au cas $f = 1$; il existe donc une suite $(K_n)_{n \in \mathbf{N}}$ de parties compactes de $T$ deux à deux disjointes telle que $1 = \sum_{n \in \mathbf{N}} \varphi_{K_n}$ $\mu$-presque partout. Soit $\mu_n$ la mesure définie par la mesure $\mu_{K_n}$ sur $K_n$ (n° 3, Exemple 2). On sait (n° 6, Remarque 2) que $\mu_n$ est à support compact, et que l’on a $\mu_n^*(f) = \mu^*(f_{\varphi_{K_n}})$ pour $f \in \mathcal{F}_+(T)$. Or $f$ est égale à $\sum_{n \in \mathbf{N}} f_{\varphi_{K_n}}$ $\mu$-presque partout, d’où $\mu^*(f) = \sum_{n \in \mathbf{N}} \mu^*(f_{\varphi_{K_n}}) = \sum_{n \in \mathbf{N}} \mu_n^*(f)$. On en déduit $\mu = \sum_{n \in \mathbf{N}} \mu_n$ (n° 7, prop. 7).
+Par hypothèse, la fonction constante 1 est $\mu$-modérée. Appliquons le cor. 3 au cas $f = 1$; il existe donc une suite $(K_n)_{n \in \mathbf{N}}$ de parties compactes de $T$ deux à deux disjointes telle que $1 = \sum_{n \in \mathbf{N}} \varphi_{K_n}$ $\mu$-presque partout. Soit $\mu_n$ la mesure définie par la mesure $\mu_{K_n}$ sur $K_n$ (n° 3, Exemple 2). On sait (n° 6, Remarque 2) que $\mu_n$ est à support compact, et que l’on a $\mu_n^*(f) = \mu^*(f_{\varphi_{K_n}})$ pour $f \in \mathscr{F}_+(T)$. Or $f$ est égale à $\sum_{n \in \mathbf{N}} f_{\varphi_{K_n}}$ $\mu$-presque partout, d’où $\mu^*(f) = \sum_{n \in \mathbf{N}} \mu^*(f_{\varphi_{K_n}}) = \sum_{n \in \mathbf{N}} \mu_n^*(f)$. On en déduit $\mu = \sum_{n \in \mathbf{N}} \mu_n$ (n° 7, prop. 7).
 
 ### 10. Théorie de l’intégration
 
 #### Définition 13 {#int-ix-s1-def-13 .statement}
 
-Soit $p \in (1, +\infty[ ;$ on désigne par $\overline{\mathcal{L}}^p(T, \mu)$ (resp. $\overline{\mathcal{L}}_F^p(T, \mu)$ si F est un espace de Banach) l’ensemble des applications $f$ de T dans $\overline{\mathbf{R}}$ (resp. dans F), $\mu$-mesurables et telles que $\mu^*(|f|^p) < +\infty$. On désigne par $\mathcal{L}^p(T, \mu)$ (resp. $\mathcal{L}_F^p(T, \mu)$) l’ensemble des éléments $\mu$-modérés de $\overline{\mathcal{L}}^p(T, \mu)$ (resp. $\overline{\mathcal{L}}_F^p(T, \mu)$).
+Soit $p \in (1, +\infty[ ;$ on désigne par $\overline{\mathscr{L}}^p(T, \mu)$ (resp. $\overline{\mathscr{L}}_F^p(T, \mu)$ si F est un espace de Banach) l’ensemble des applications $f$ de T dans $\overline{\mathbf{R}}$ (resp. dans F), $\mu$-mesurables et telles que $\mu^*(|f|^p) < +\infty$. On désigne par $\mathscr{L}^p(T, \mu)$ (resp. $\mathscr{L}_F^p(T, \mu)$) l’ensemble des éléments $\mu$-modérés de $\overline{\mathscr{L}}^p(T, \mu)$ (resp. $\overline{\mathscr{L}}_F^p(T, \mu)$).
 
-On posera $\overline{N}_p(f) = (\mu^*(|f|^p))^{1/p}$, $N_p(f) = (\mu^*(|f|^p))^{1/p}$. On désigne par $\overline{N}_\infty(f)$ la borne inférieure des nombres $k \geq 0$ tels que $|f| \leq k$ localement $\mu$-presque partout; si $\overline{N}_\infty(f) < +\infty$, on dit que $f$ est essentiellement bornée. L’ensemble des applications mesurables et essentiellement bornées de T dans $\overline{\mathbf{R}}$ (resp. dans F) est désigné par $\overline{\mathcal{L}}^\infty(T, \mu)$ (resp $\overline{\mathcal{L}}_F^\infty(T, \mu)$). Les éléments de $\overline{\mathcal{L}}_F^1(T, \mu)$ (resp. $\mathcal{L}_F^1(T, \mu)$) sont appelés fonctions essentiellement intégrables (resp. fonctions intégrables) à valeurs dans F.
+On posera $\overline{N}_p(f) = (\mu^*(|f|^p))^{1/p}$, $N_p(f) = (\mu^*(|f|^p))^{1/p}$. On désigne par $\overline{N}_\infty(f)$ la borne inférieure des nombres $k \geq 0$ tels que $|f| \leq k$ localement $\mu$-presque partout; si $\overline{N}_\infty(f) < +\infty$, on dit que $f$ est essentiellement bornée. L’ensemble des applications mesurables et essentiellement bornées de T dans $\overline{\mathbf{R}}$ (resp. dans F) est désigné par $\overline{\mathscr{L}}^\infty(T, \mu)$ (resp $\overline{\mathscr{L}}_F^\infty(T, \mu)$). Les éléments de $\overline{\mathscr{L}}_F^1(T, \mu)$ (resp. $\mathscr{L}_F^1(T, \mu)$) sont appelés fonctions essentiellement intégrables (resp. fonctions intégrables) à valeurs dans F.
 
 Si $\mu$ est une mesure complexe, on posera
 $$
-\overline{\mathcal{L}}_F^p(T, \mu) = \overline{\mathcal{L}}_F^p(T, |\mu|) \quad \text{et} \quad \mathcal{L}_F^p(T, \mu) = \mathcal{L}_F^p(T, |\mu|).
+\overline{\mathscr{L}}_F^p(T, \mu) = \overline{\mathscr{L}}_F^p(T, |\mu|) \quad \text{et} \quad \mathscr{L}_F^p(T, \mu) = \mathscr{L}_F^p(T, |\mu|).
 $$
-Les notations ci-dessus sont fréquemment abrégées en $\overline{\mathcal{L}}_F^p(\mu)$, $\overline{\mathcal{L}}_F^p$ ou $\mathcal{L}^p(\mu)$, $\mathcal{L}^p$, si cela ne prête pas à confusion.
+Les notations ci-dessus sont fréquemment abrégées en $\overline{\mathscr{L}}_F^p(\mu)$, $\overline{\mathscr{L}}_F^p$ ou $\mathscr{L}^p(\mu)$, $\mathscr{L}^p$, si cela ne prête pas à confusion.
 
-Nous avons vu au n° 8 (Scholie) que l’on peut construire un espace localement compact $T'$, ayant même ensemble sous-jacent que T et une topologie plus fine que celle de T, et munir $T'$ d’une mesure $\mu'$, telle que les fonctions $\mu$-mesurables et les fonctions $\mu'$-mesurables soient les mêmes et que les intégrales supérieures essentielles des fonctions positives pour $\mu$ et $\mu'$ soient égales. Il en résulte que les ensembles $\overline{\mathcal{L}}_F^p(\mu)$ et $\overline{\mathcal{L}}_F^p(\mu')$ sont identiques pour $1 \leq p \leq +\infty$. Cela entraîne aussi sans nouvelle démonstration que $\overline{\mathcal{L}}_F^p$ est un espace vectoriel, et que la fonction $\overline{N}_p$ est une semi-norme sur $\overline{\mathcal{L}}_F^p(\mu)$, pour laquelle cet espace est complet.
+Nous avons vu au n° 8 (Scholie) que l’on peut construire un espace localement compact $T'$, ayant même ensemble sous-jacent que T et une topologie plus fine que celle de T, et munir $T'$ d’une mesure $\mu'$, telle que les fonctions $\mu$-mesurables et les fonctions $\mu'$-mesurables soient les mêmes et que les intégrales supérieures essentielles des fonctions positives pour $\mu$ et $\mu'$ soient égales. Il en résulte que les ensembles $\overline{\mathscr{L}}_F^p(\mu)$ et $\overline{\mathscr{L}}_F^p(\mu')$ sont identiques pour $1 \leq p \leq +\infty$. Cela entraîne aussi sans nouvelle démonstration que $\overline{\mathscr{L}}_F^p$ est un espace vectoriel, et que la fonction $\overline{N}_p$ est une semi-norme sur $\overline{\mathscr{L}}_F^p(\mu)$, pour laquelle cet espace est complet.
 
-Soit $f$ un élément de $\overline{\mathcal{L}}_F^p (1 \leq p < \infty)$; comme on a $\mu^*(|f|^p) = {\mu'}^*(|f|^p) < +\infty$, la prop. 7 du chap. V, 2e éd., § 1, n° 2 entraîne que $f$ est nulle hors de la réunion d’une suite de parties compactes de $T'$ et d’un ensemble localement $\mu'$-négligeable; ce dernier ensemble étant localement $\mu$-négligeable, et tout ensemble compact de $T'$ étant compact dans T, on en déduit que $f$ est égale localement $\mu$-presque partout à une fonction $\mu$-modérée. Désignons par $\overline{\mathcal{N}}_F$ (resp. $\mathcal{N}_F$) l’espace des fonctions localement $\mu$-négligeables (resp. $\mu$-négligeables); nous avons donc $\overline{\mathcal{L}}_F^p = \mathcal{L}_F^p + \overline{\mathcal{N}}_F$, et $\mathcal{N}_F = \mathcal{L}_F^p \cap \overline{\mathcal{N}}_F$ (n° 9, cor. 1 de la prop. 14). L’espace $\overline{\mathcal{L}}_F^p / \overline{\mathcal{N}}_F$ s’identifie donc canoniquement à $\mathcal{L}_F^p / \mathcal{N}_F$, et on vérifie immédiatement que cette identification préserve la norme; cet espace quotient est noté $L_F^p(\mu)$. On peut l’interpréter comme l’espace normé associé à chacun des espaces semi-normés $\overline{\mathcal{L}}_F^p(\mu)$ ou $\mathcal{L}_F^p(\mu)$; $\overline{\mathcal{L}}_F^p$ étant complet, il en est de même de $L_F^p$ et de $\mathcal{L}_F^p$.
+Soit $f$ un élément de $\overline{\mathscr{L}}_F^p (1 \leq p < \infty)$; comme on a $\mu^*(|f|^p) = {\mu'}^*(|f|^p) < +\infty$, la prop. 7 du chap. V, 2e éd., § 1, n° 2 entraîne que $f$ est nulle hors de la réunion d’une suite de parties compactes de $T'$ et d’un ensemble localement $\mu'$-négligeable; ce dernier ensemble étant localement $\mu$-négligeable, et tout ensemble compact de $T'$ étant compact dans T, on en déduit que $f$ est égale localement $\mu$-presque partout à une fonction $\mu$-modérée. Désignons par $\overline{\mathscr{N}}_F$ (resp. $\mathscr{N}_F$) l’espace des fonctions localement $\mu$-négligeables (resp. $\mu$-négligeables); nous avons donc $\overline{\mathscr{L}}_F^p = \mathscr{L}_F^p + \overline{\mathscr{N}}_F$, et $\mathscr{N}_F = \mathscr{L}_F^p \cap \overline{\mathscr{N}}_F$ (n° 9, cor. 1 de la prop. 14). L’espace $\overline{\mathscr{L}}_F^p / \overline{\mathscr{N}}_F$ s’identifie donc canoniquement à $\mathscr{L}_F^p / \mathscr{N}_F$, et on vérifie immédiatement que cette identification préserve la norme; cet espace quotient est noté $L_F^p(\mu)$. On peut l’interpréter comme l’espace normé associé à chacun des espaces semi-normés $\overline{\mathscr{L}}_F^p(\mu)$ ou $\mathscr{L}_F^p(\mu)$; $\overline{\mathscr{L}}_F^p$ étant complet, il en est de même de $L_F^p$ et de $\mathscr{L}_F^p$.
 
-1. On notera que l’espace $\mathcal{L}_F^p(\mu)$ est contenu dans $\mathcal{L}_F^p(\mu')$, mais qu’il en est distinct en général.
+1. On notera que l’espace $\mathscr{L}_F^p(\mu)$ est contenu dans $\mathscr{L}_F^p(\mu')$, mais qu’il en est distinct en général.
 
-L’ensemble des fonctions $\mathbf{f}$ à valeurs dans $F$, continues à support compact sur $T'$, est dense dans $\overline{\mathcal{L}}_F^p(\mu') = \overline{\mathcal{L}}_F^p(\mu)$ (chap. IV, 2e édit., § 3, n° 4, déf. 2). Reprenons les notations du Scholie du n° 8. Une partie compacte de $T'$ ne rencontrant qu’un nombre fini d’ensembles compacts $K_\alpha$, toute fonction $\mathbf{f}$ continue à support compact sur $T'$ s’écrit comme une somme
+L’ensemble des fonctions $\mathbf{f}$ à valeurs dans $F$, continues à support compact sur $T'$, est dense dans $\overline{\mathscr{L}}_F^p(\mu') = \overline{\mathscr{L}}_F^p(\mu)$ (chap. IV, 2e édit., § 3, n° 4, déf. 2). Reprenons les notations du Scholie du n° 8. Une partie compacte de $T'$ ne rencontrant qu’un nombre fini d’ensembles compacts $K_\alpha$, toute fonction $\mathbf{f}$ continue à support compact sur $T'$ s’écrit comme une somme
 
 $$
 \mathbf{f} = \sum_{\alpha \in A} \mathbf{f}_\alpha + \mathbf{g}
@@ -663,7 +663,7 @@ où $\mathbf{f}_\alpha$ est, pour tout $\alpha$, le prolongement par 0 d’une f
 
 #### Proposition 15 {#int-ix-s1-prop-15 .statement}
 
-*L’ensemble des fonctions $\mathbf{f}$ à valeurs dans $F$, telles que $\mathrm{Supp}(\mathbf{f})$ soit compact, et que la restriction de $\mathbf{f}$ à $\mathrm{Supp}(\mathbf{f})$ soit continue, est dense dans $\overline{\mathcal{L}}_F^p(\mu)$ et dans $\mathcal{L}_F^p(\mu)$, pour $1 \leq p < +\infty$.*
+*L’ensemble des fonctions $\mathbf{f}$ à valeurs dans $F$, telles que $\mathrm{Supp}(\mathbf{f})$ soit compact, et que la restriction de $\mathbf{f}$ à $\mathrm{Supp}(\mathbf{f})$ soit continue, est dense dans $\overline{\mathscr{L}}_F^p(\mu)$ et dans $\mathscr{L}_F^p(\mu)$, pour $1 \leq p < +\infty$.*
 
 On notera que ces fonctions *ne sont pas* des fonctions continues *dans* $T$ à support compact.
 
@@ -671,16 +671,16 @@ Passons à la définition de l’intégrale.
 
 #### Proposition 16 {#int-ix-s1-prop-16 .statement}
 
-*Il existe une application linéaire continue et une seule $\mathbf{f} \mapsto \int \mathbf{f} \, d\mu$, de l’espace $\overline{\mathcal{L}}_F^1(\mu)$ dans $F$, qui possède la propriété suivante:
+*Il existe une application linéaire continue et une seule $\mathbf{f} \mapsto \int \mathbf{f} \, d\mu$, de l’espace $\overline{\mathscr{L}}_F^1(\mu)$ dans $F$, qui possède la propriété suivante:
 Si $\mathbf{f}$ est de la forme $t \mapsto g(t)\mathbf{a}$, avec $\mathbf{a} \in F$, et où $g$ est une fonction positive, finie, $\mu$-mesurable et telle que $\mu^*(g) < +\infty$, on a $\int \mathbf{f} \, d\mu = \mu^*(g) \cdot \mathbf{a}$.
 
-En effet, les espaces semi-normés $\overline{\mathcal{L}}_F^1(\mu)$ et $\overline{\mathcal{L}}_F^1(\mu')$ sont identiques. Comme $\mu^* = {\mu'}^*$, l’application $\mathbf{f} \mapsto \int \mathbf{f} \, d\mu'$ satisfait à l’énoncé. D’autre part, l’ensemble des fonctions de la forme $\mathbf{f} = g \cdot \mathbf{a}$ considérées dans l’énoncé est *total* dans $\overline{\mathcal{L}}_F^1(\mu')$ (chap. IV, 2e éd., § 3, n° 5, prop. 10), d’où l’unicité.
+En effet, les espaces semi-normés $\overline{\mathscr{L}}_F^1(\mu)$ et $\overline{\mathscr{L}}_F^1(\mu')$ sont identiques. Comme $\mu^* = {\mu'}^*$, l’application $\mathbf{f} \mapsto \int \mathbf{f} \, d\mu'$ satisfait à l’énoncé. D’autre part, l’ensemble des fonctions de la forme $\mathbf{f} = g \cdot \mathbf{a}$ considérées dans l’énoncé est *total* dans $\overline{\mathscr{L}}_F^1(\mu')$ (chap. IV, 2e éd., § 3, n° 5, prop. 10), d’où l’unicité.
 
 *On dit que* $\int \mathbf{f} \, d\mu$ *est l’intégrale de* $\mathbf{f}$ *par rapport à* $\mu$ *et on note aussi ce vecteur* $\mu(\mathbf{f})$ *ou* $\int \mathbf{f}(t) d\mu(t)$.
 
 Comme $\int \mathbf{f} \, d\mu = \int \mathbf{f} \, d\mu'$ pour toute fonction essentiellement intégrable $\mathbf{f}$ à valeurs dans $F$, toute la théorie de l’intégrale essentielle s’étend aux mesures sur les espaces séparés sans nouvelle démonstration; on en déduit les résultats relatifs à l’intégrale ordinaire en se restreignant aux fonctions modérées. Citons en particulier les résultats suivants:
 
-— le th. 3 du chap. IV, 2e éd., § 3, n° 4, son extension à $\overline{\mathcal{L}}_F^p$, et ses deux corollaires.
+— le th. 3 du chap. IV, 2e éd., § 3, n° 4, son extension à $\overline{\mathscr{L}}_F^p$, et ses deux corollaires.
 — Le th. 4 du chap. IV, 2e éd., § 3, n° 5 (composition avec une application linéaire continue) et ses corollaires; les prop. 9, 11 et 12 de ce même numéro.
 
 — Tous les résultats du chap. IV, 2e éd., § 3, n° 6, relatifs à la structure d’espace vectoriel ordonné de $L^p$.

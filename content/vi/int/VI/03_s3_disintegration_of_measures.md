@@ -33,9 +33,9 @@ subsections:
       pdf_page: 441
 statements: 16
 exercises: 12
-content_sha256: 56798dc47dd81cf53b56a86323ba48cbe3ad59b0d050ec9749d442d8a38f3235
+content_sha256: f58bb7c2b5c6ec0b9e3ebc77403d89a11b44dd208124558d5ca1afd98616ce6a
 translated_from: content/en/int/VI/03_s3_disintegration_of_measures.md
-source_content_sha256: 8879ed2dcbac290dcceecb297da3c70b77ffea9c231d05f50a9508eb784557f9
+source_content_sha256: 750dc65d96c7938829c2e5588a97c1f03c8e0f04512b8bc62408a08635b07019
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-71f41523
 glossary_version: 34
@@ -51,21 +51,21 @@ Cho T là một không gian compact địa phương có một cơ sở đếm đ
 
 #### Bổ đề 1 {#int-vi-s3-lem-1 .statement}
 
-*Nếu Y là một không gian compact địa phương có một cơ sở đếm được, không gian $\mathcal{H}(Y)$ chứa một tập con trù mật đếm được. Chính xác hơn, tồn tại trong $\mathcal{H}(Y)$ một tập con đếm được S gồm các hàm $\geq 0$, sao cho, đối với mọi hàm $f \geq 0$ của $\mathcal{H}(Y)$, tồn tại một dãy các hàm $f_n \in S$ ($n \geq 0$) hội tụ đều đến $f$ và sao cho $f_n \leq f_0$ với mọi $n \geq 0$.*
+*Nếu Y là một không gian compact địa phương có một cơ sở đếm được, không gian $\mathscr{H}(Y)$ chứa một tập con trù mật đếm được. Chính xác hơn, tồn tại trong $\mathscr{H}(Y)$ một tập con đếm được S gồm các hàm $\geq 0$, sao cho, đối với mọi hàm $f \geq 0$ của $\mathscr{H}(Y)$, tồn tại một dãy các hàm $f_n \in S$ ($n \geq 0$) hội tụ đều đến $f$ và sao cho $f_n \leq f_0$ với mọi $n \geq 0$.*
 
-Vì Y là hợp của một dãy tăng $(U_n)$ các tập mở tương đối compact sao cho $\overline{U}_n \subset U_{n+1}$ với mọi $n$ (GT, I, §9, No. 9, Mệnh đề 15); không gian $\mathcal{H}(Y)$ là hợp của dãy tăng các không gian Banach $\mathcal{H}(Y, \overline{U}_n)$, và mỗi không gian sau cùng này được biết là tách được (GT, Ch. X, §3, No. 3, Định lý 1). Cho $S'_n$ là một tập con trù mật đếm được trong $\mathcal{H}(Y, \overline{U}_n)$, $S_n$ là tập hợp các hàm $\varphi^+$ đối với $\varphi \in S'_n$, và $u_n$ là một hàm trong $\mathcal{H}(Y, \overline{U}_{n+1})$, có các giá trị trong $[0, 1]$ và bằng 1 trên $U_n$. Ta lấy cho S hợp của các $S_n$ và tập hợp các $m u_n$ với $m$ và $n$ là các số nguyên $\geq 0$. Đối với mọi hàm $f \geq 0$ của $\mathcal{H}(Y)$, $f$ có giá chứa được trong một trong các $U_n$, do đó là giới hạn đều của một dãy các hàm $f_p \in S_n$ ($p \geq 1$). Các hàm $f_p$ này bị chặn đều bởi một số nguyên dương $m$, và chỉ cần lấy $f_0 = m u_n$.*
+Vì Y là hợp của một dãy tăng $(U_n)$ các tập mở tương đối compact sao cho $\overline{U}_n \subset U_{n+1}$ với mọi $n$ (GT, I, §9, No. 9, Mệnh đề 15); không gian $\mathscr{H}(Y)$ là hợp của dãy tăng các không gian Banach $\mathscr{H}(Y, \overline{U}_n)$, và mỗi không gian sau cùng này được biết là tách được (GT, Ch. X, §3, No. 3, Định lý 1). Cho $S'_n$ là một tập con trù mật đếm được trong $\mathscr{H}(Y, \overline{U}_n)$, $S_n$ là tập hợp các hàm $\varphi^+$ đối với $\varphi \in S'_n$, và $u_n$ là một hàm trong $\mathscr{H}(Y, \overline{U}_{n+1})$, có các giá trị trong $[0, 1]$ và bằng 1 trên $U_n$. Ta lấy cho S hợp của các $S_n$ và tập hợp các $m u_n$ với $m$ và $n$ là các số nguyên $\geq 0$. Đối với mọi hàm $f \geq 0$ của $\mathscr{H}(Y)$, $f$ có giá chứa được trong một trong các $U_n$, do đó là giới hạn đều của một dãy các hàm $f_p \in S_n$ ($p \geq 1$). Các hàm $f_p$ này bị chặn đều bởi một số nguyên dương $m$, và chỉ cần lấy $f_0 = m u_n$.*
 
 #### Bổ đề 2 {#int-vi-s3-lem-2 .statement}
 
-*Nếu T là một không gian compact địa phương với một cơ sở đếm được, thì không gian Banach $\mathcal{K}(Y)$ gồm các hàm số liên tục tiến về 0 tại điểm vô hạn là tách được.*
+*Nếu T là một không gian compact địa phương với một cơ sở đếm được, thì không gian Banach $\mathscr{K}(Y)$ gồm các hàm số liên tục tiến về 0 tại điểm vô hạn là tách được.*
 
-Bổ đề này không gì khác hơn là Hệ quả của Định lý 1 của GT, X, §3, No. 3. Ta có thể nhận xét rằng nó cũng suy ra từ Bổ đề 1 và sự kiện rằng tôpô của sự hội tụ đều trên $\mathcal{K}(Y)$ thô hơn tôpô giới hạn trực tiếp của các tôpô của các không gian con $\mathcal{K}(Y, \overline{U}_n)$.
+Bổ đề này không gì khác hơn là Hệ quả của Định lý 1 của GT, X, §3, No. 3. Ta có thể nhận xét rằng nó cũng suy ra từ Bổ đề 1 và sự kiện rằng tôpô của sự hội tụ đều trên $\mathscr{K}(Y)$ thô hơn tôpô giới hạn trực tiếp của các tôpô của các không gian con $\mathscr{K}(Y, \overline{U}_n)$.
 
 #### Bổ đề 3 {#int-vi-s3-lem-3 .statement}
 
-— *Cho T và X là hai không gian compact địa phương có các cơ sở đếm được, $\mu$ là một đo lường dương trên T, và $t \mapsto \lambda_t$ ($t \in T$) là một họ các đo lường dương trên X. Nếu ánh xạ $t \mapsto \lambda_t$ là $\mu$-nguyên theo vô hướng (đối với tôpô $\sigma(\mathcal{M}(X), \mathcal{K}(X))$), thì họ $t \mapsto \lambda_t$ là $\mu$-thích hợp ($§ 1$, No. 1, Ví dụ).*
+— *Cho T và X là hai không gian compact địa phương có các cơ sở đếm được, $\mu$ là một đo lường dương trên T, và $t \mapsto \lambda_t$ ($t \in T$) là một họ các đo lường dương trên X. Nếu ánh xạ $t \mapsto \lambda_t$ là $\mu$-nguyên theo vô hướng (đối với tôpô $\sigma(\mathscr{M}(X), \mathscr{K}(X))$), thì họ $t \mapsto \lambda_t$ là $\mu$-thích hợp ($§ 1$, No. 1, Ví dụ).*
 
-Vì, Bổ đề 1, áp dụng cho $\mathcal{K}(X)$, chỉ ra rằng ánh xạ $t \mapsto \lambda_t$ là đo được theo nghĩa mơ hồ đối với $\mu$ ($§ 1$, No. 5, Mệnh đề 13).
+Vì, Bổ đề 1, áp dụng cho $\mathscr{K}(X)$, chỉ ra rằng ánh xạ $t \mapsto \lambda_t$ là đo được theo nghĩa mơ hồ đối với $\mu$ ($§ 1$, No. 5, Mệnh đề 13).
 
 #### Định lý 1 {#int-vi-s3-thm-1 .statement}
 
@@ -79,53 +79,53 @@ c) $\mu = \int \lambda_b d\nu(b)$.
 
 Hơn nữa, nếu $b \mapsto \lambda'_b$ ($b \in B$) là một họ $\nu$-thích hợp thứ hai các độ đo dương trên T có các tính chất b) và c), thì $\lambda'_b = \lambda_b$ hầu khắp nơi trong B đối với độ đo $\nu$.
 
-1) *Tính duy nhất.* Với mọi hàm $f \in \mathcal{K}(B)$, $f \circ p$ là $\mu$-khả tích vì p là $\mu$-thực sự (Ch. V, §6, No. 2, Định lý 1); với mọi hàm $g \in \mathcal{K}(T)$, hàm $t \mapsto g(t)f(p(t))$ do đó là $\mu$-khả tích. Suy ra (Ch. V, §3, No. 3, Định lý 1) rằng với hầu hết mọi $b \in B$, hàm $t \mapsto g(t)f(p(t))$ là $\lambda_b$-khả tích và
+1) *Tính duy nhất.* Với mọi hàm $f \in \mathscr{K}(B)$, $f \circ p$ là $\mu$-khả tích vì p là $\mu$-thực sự (Ch. V, §6, No. 2, Định lý 1); với mọi hàm $g \in \mathscr{K}(T)$, hàm $t \mapsto g(t)f(p(t))$ do đó là $\mu$-khả tích. Suy ra (Ch. V, §3, No. 3, Định lý 1) rằng với hầu hết mọi $b \in B$, hàm $t \mapsto g(t)f(p(t))$ là $\lambda_b$-khả tích và
 
 $$
 \int g(t)f(p(t)) d\mu(t) = \int d\nu(b) \int g(t)f(p(t)) d\lambda_b(t).
 $$
 
-Nhưng vì $\lambda_b$ tập trung trên $\overline{p}^{-1}(b)$, ta có, với mọi $b \in B$, $f(p(t)) = f(b)$ hầu khắp nơi đối với $\lambda_b$, do đó vế thứ hai của (1) bằng $\int f(b)\langle g, \lambda_b \rangle d\nu(b)$. Công thức tương tự đối với $\lambda'_b$ cũng đúng; do đó $\int f(b)\langle g, \lambda_b \rangle d\nu(b) = \int f(b)\langle g, \lambda'_b \rangle d\nu(b)$ với mọi $f \in \mathcal{K}(B)$ và $g \in \mathcal{K}(T)$. Nói cách khác, hai ánh xạ $b \mapsto \lambda_b$ và $b \mapsto \lambda'_b$ của B vào $\mathcal{M}(T)$ bằng nhau vô hướng hầu khắp nơi địa phương đối với $\nu$, do đó bằng nhau hầu khắp nơi đối với $\nu$ (Bổ đề 1 và §1, No. 1, Nhận xét 2).
+Nhưng vì $\lambda_b$ tập trung trên $\overline{p}^{-1}(b)$, ta có, với mọi $b \in B$, $f(p(t)) = f(b)$ hầu khắp nơi đối với $\lambda_b$, do đó vế thứ hai của (1) bằng $\int f(b)\langle g, \lambda_b \rangle d\nu(b)$. Công thức tương tự đối với $\lambda'_b$ cũng đúng; do đó $\int f(b)\langle g, \lambda_b \rangle d\nu(b) = \int f(b)\langle g, \lambda'_b \rangle d\nu(b)$ với mọi $f \in \mathscr{K}(B)$ và $g \in \mathscr{K}(T)$. Nói cách khác, hai ánh xạ $b \mapsto \lambda_b$ và $b \mapsto \lambda'_b$ của B vào $\mathscr{M}(T)$ bằng nhau vô hướng hầu khắp nơi địa phương đối với $\nu$, do đó bằng nhau hầu khắp nơi đối với $\nu$ (Bổ đề 1 và §1, No. 1, Nhận xét 2).
 
-2) *Định nghĩa tạm thời của họ* $b \mapsto \lambda_b$. Với mọi hàm $f \in \mathcal{L}^1(\nu)$, $f \circ p$ là $\mu$-khả tích (Ch. V, §6, No. 2, Định lý 1), do đó $(f \circ p) \cdot \mu$ là một độ đo bị chặn trên T, và
+2) *Định nghĩa tạm thời của họ* $b \mapsto \lambda_b$. Với mọi hàm $f \in \mathscr{L}^1(\nu)$, $f \circ p$ là $\mu$-khả tích (Ch. V, §6, No. 2, Định lý 1), do đó $(f \circ p) \cdot \mu$ là một độ đo bị chặn trên T, và
 
 $$
 \|(f \circ p) \cdot \mu\| = \int |f \circ p| \, d\mu = \int |f| \, d\nu = N_1(f)
 $$
 
-(Ch. IV, §4, No. 7, Prop. 12; Ch. V, §5, No. 3, Th. 1 và §6, No. 2, Th. 1). Suy ra rằng $(f \circ p) \cdot \mu$ chỉ phụ thuộc vào lớp $\tilde{f}$ của $f$ trong $L^1(\nu)$ và rằng $\tilde{f} \mapsto (f \circ p) \cdot \mu$ là một ánh xạ tuyến tính *đẳng cự* từ $L^1(\nu)$ vào không gian Banach $\mathcal{M}^1(T)$ của các độ đo bị chặn trên T, đối ngẫu mạnh của không gian Banach $\mathcal{K}(T)$, là tách được (Bổ đề 2). Theo định lý Dunford–Pettis (§2, No. 5, Hệ quả 2 của Th. 1), tồn tại một ánh xạ $b \mapsto \lambda_b$ của B vào quả cầu đơn vị của $\mathcal{M}^1(T)$, đo được vô hướng theo $\nu$ (đối với tôpô $\sigma(\mathcal{M}^1(T), \overline{\mathcal{K}(T)})$) và sao cho, với mọi hàm $f \in \mathcal{L}^1(\nu)$,
+(Ch. IV, §4, No. 7, Prop. 12; Ch. V, §5, No. 3, Th. 1 và §6, No. 2, Th. 1). Suy ra rằng $(f \circ p) \cdot \mu$ chỉ phụ thuộc vào lớp $\tilde{f}$ của $f$ trong $L^1(\nu)$ và rằng $\tilde{f} \mapsto (f \circ p) \cdot \mu$ là một ánh xạ tuyến tính *đẳng cự* từ $L^1(\nu)$ vào không gian Banach $\mathscr{M}^1(T)$ của các độ đo bị chặn trên T, đối ngẫu mạnh của không gian Banach $\mathscr{K}(T)$, là tách được (Bổ đề 2). Theo định lý Dunford–Pettis (§2, No. 5, Hệ quả 2 của Th. 1), tồn tại một ánh xạ $b \mapsto \lambda_b$ của B vào quả cầu đơn vị của $\mathscr{M}^1(T)$, đo được vô hướng theo $\nu$ (đối với tôpô $\sigma(\mathscr{M}^1(T), \overline{\mathscr{K}(T)})$) và sao cho, với mọi hàm $f \in \mathscr{L}^1(\nu)$,
 
 $$
 (f \circ p) \cdot \mu = \int f(b) \lambda_b \, d\nu(b),
 $$
 
-cũng có thể được viết, với mọi hàm $g \in \overline{\mathcal{K}(T)}$
+cũng có thể được viết, với mọi hàm $g \in \overline{\mathscr{K}(T)}$
 
 $$
 \int g(t) f(p(t)) \, d\mu(t) = \int f(b) \, d\nu(b) \int g(t) \, d\lambda_b(t).
 $$
 
-Nếu $f \geq 0$ và $g \geq 0$, vế thứ nhất của (3) là $\geq 0$, điều này chứng minh rằng với mọi hàm $g \geq 0$ trong $\mathcal{K}(T)$, độ đo $(\int g(t) \, d\lambda_b(t)) \cdot \nu$ là $\geq 0$, do đó $\int g(t) \, d\lambda_b(t) \geq 0$ ngoại trừ với $b$ thuộc một tập hợp $\nu$-không đáng kể $N(g)$ (Ch. V, §5, No. 3, Hệ quả 3 của Prop. 3). Bây giờ, tồn tại một dãy trù mật $(g_n)$ trong không gian $\mathcal{K}_+(T)$ của các hàm $\geq 0$ của $\mathcal{K}(T)$ (Bổ đề 1). Hợp N của các $N(g_n)$ là $\nu$-không đáng kể và, với $b \notin N$, ta có $\int g_n(t) \, d\lambda_b(t) \geq 0$ với mọi $n$, do đó $\int g(t) \, d\lambda_b(t) \geq 0$ với mọi hàm $g \in \mathcal{K}_+(T)$, nói cách khác $\lambda_b \geq 0$.
+Nếu $f \geq 0$ và $g \geq 0$, vế thứ nhất của (3) là $\geq 0$, điều này chứng minh rằng với mọi hàm $g \geq 0$ trong $\mathscr{K}(T)$, độ đo $(\int g(t) \, d\lambda_b(t)) \cdot \nu$ là $\geq 0$, do đó $\int g(t) \, d\lambda_b(t) \geq 0$ ngoại trừ với $b$ thuộc một tập hợp $\nu$-không đáng kể $N(g)$ (Ch. V, §5, No. 3, Hệ quả 3 của Prop. 3). Bây giờ, tồn tại một dãy trù mật $(g_n)$ trong không gian $\mathscr{K}_+(T)$ của các hàm $\geq 0$ của $\mathscr{K}(T)$ (Bổ đề 1). Hợp N của các $N(g_n)$ là $\nu$-không đáng kể và, với $b \notin N$, ta có $\int g_n(t) \, d\lambda_b(t) \geq 0$ với mọi $n$, do đó $\int g(t) \, d\lambda_b(t) \geq 0$ với mọi hàm $g \in \mathscr{K}_+(T)$, nói cách khác $\lambda_b \geq 0$.
 
 Vì vậy, ta có thể thay thế $\lambda_b$ bởi 0 với mọi $b \in N$ mà không làm thay đổi tính đúng đắn của (3); do đó ta có thể giả sử rằng sự thay đổi này đã được thực hiện, sao cho $\lambda_b \geq 0$ với mọi $b \in B$.
 
 3) *Mở rộng của công thức* (3).
 
-$\alpha)$ Với mọi hàm $f \in \mathcal{L}^1(\nu)$, suy ra từ (3) rằng ánh xạ $b \mapsto \lambda_b$ của B vào $\mathcal{M}(T)$ là khả tích vô hướng đối với độ đo $|f \cdot \nu|$ và tôpô $\sigma(\mathcal{M}(T), \mathcal{K}(T))$, do đó (Bổ đề 3) họ $b \mapsto \lambda_b$ là $|f \cdot \nu|$-*thích hợp*. Bây giờ cho $g$ là một hàm số được xác định trên T, khả tích đối với độ đo $|(f \circ p) \cdot \mu|$, nghĩa là (Ch. V, §5, No. 3, Th. 1), sao cho $t \mapsto g(t)f((p(t)))$ là $\mu$-khả tích; khi đó suy ra từ (2), từ Th. 1 của Ch. V, §3, No. 3 và từ Th. 1 của Ch. V, §5, No. 3 rằng, với hầu hết mọi $b \in B$, $g$ khả tích đối với $\lambda_b$, rằng hàm (được xác định hầu khắp nơi) $b \mapsto \int g(t)\, d\lambda_b(t)$ là khả tích đối với $|f \cdot \nu|$, và rằng công thức (3) lại đúng.
+$\alpha)$ Với mọi hàm $f \in \mathscr{L}^1(\nu)$, suy ra từ (3) rằng ánh xạ $b \mapsto \lambda_b$ của B vào $\mathscr{M}(T)$ là khả tích vô hướng đối với độ đo $|f \cdot \nu|$ và tôpô $\sigma(\mathscr{M}(T), \mathscr{K}(T))$, do đó (Bổ đề 3) họ $b \mapsto \lambda_b$ là $|f \cdot \nu|$-*thích hợp*. Bây giờ cho $g$ là một hàm số được xác định trên T, khả tích đối với độ đo $|(f \circ p) \cdot \mu|$, nghĩa là (Ch. V, §5, No. 3, Th. 1), sao cho $t \mapsto g(t)f((p(t)))$ là $\mu$-khả tích; khi đó suy ra từ (2), từ Th. 1 của Ch. V, §3, No. 3 và từ Th. 1 của Ch. V, §5, No. 3 rằng, với hầu hết mọi $b \in B$, $g$ khả tích đối với $\lambda_b$, rằng hàm (được xác định hầu khắp nơi) $b \mapsto \int g(t)\, d\lambda_b(t)$ là khả tích đối với $|f \cdot \nu|$, và rằng công thức (3) lại đúng.
 
-$\beta)$ Với mọi hàm $g \in \overline{\mathcal{K}(T)}$, suy ra từ (3), áp dụng cho $f \in \mathcal{K}(B)$, rằng ánh xạ $p$ là thực sự đối với độ đo $|g \cdot \mu|$ (Ch. V, §6, No. 1, Định nghĩa 1) và ảnh qua $p$ của độ đo $g \cdot \mu$ là độ đo có mật độ $b \mapsto \int g(t)\, d\lambda_b(t)$ đối với $\nu$. Nếu khi đó lấy $f$ là một hàm sao cho $f \circ p$ là khả tích đối với độ đo $|g \cdot \mu|$, tức là sao cho $t \mapsto g(t)f(p(t))$ là $\mu$-khả tích (Ch. V, §5, No. 3, Định lý 1), thì công thức (3) lại đúng (Ch. V, §6, No. 2, Định lý 1).
+$\beta)$ Với mọi hàm $g \in \overline{\mathscr{K}(T)}$, suy ra từ (3), áp dụng cho $f \in \mathscr{K}(B)$, rằng ánh xạ $p$ là thực sự đối với độ đo $|g \cdot \mu|$ (Ch. V, §6, No. 1, Định nghĩa 1) và ảnh qua $p$ của độ đo $g \cdot \mu$ là độ đo có mật độ $b \mapsto \int g(t)\, d\lambda_b(t)$ đối với $\nu$. Nếu khi đó lấy $f$ là một hàm sao cho $f \circ p$ là khả tích đối với độ đo $|g \cdot \mu|$, tức là sao cho $t \mapsto g(t)f(p(t))$ là $\mu$-khả tích (Ch. V, §5, No. 3, Định lý 1), thì công thức (3) lại đúng (Ch. V, §6, No. 2, Định lý 1).
 
-4) *Các tính chất của họ* $b \mapsto \lambda_b$. Theo tính chất $\beta)$, ta có thể áp dụng công thức (3) bằng cách lấy $f = 1,\ g \in \mathcal{K}(T)$; điều này chứng tỏ rằng $b \mapsto \lambda_b$ là khả tích vô hướng theo $\nu$ (đối với tôpô $\sigma(\mathcal{M}(T), \mathcal{K}(T))$), do đó là $\nu$-*thích hợp* (Bổ đề 3), và rằng $\mu = \int \lambda_b\, d\nu(b)$.
+4) *Các tính chất của họ* $b \mapsto \lambda_b$. Theo tính chất $\beta)$, ta có thể áp dụng công thức (3) bằng cách lấy $f = 1,\ g \in \mathscr{K}(T)$; điều này chứng tỏ rằng $b \mapsto \lambda_b$ là khả tích vô hướng theo $\nu$ (đối với tôpô $\sigma(\mathscr{M}(T), \mathscr{K}(T))$), do đó là $\nu$-*thích hợp* (Bổ đề 3), và rằng $\mu = \int \lambda_b\, d\nu(b)$.
 
-Bây giờ cho $\psi$ là bất kỳ hàm nào trong $\mathcal{K}(B)$; các điều kiện của tính chất $\alpha)$ được thỏa mãn bằng cách lấy $f \in \mathcal{K}(B)$ và $g = \psi \circ p$, vì hàm $\psi(p(t))f(p(t))$ là $\mu$-khả tích do $f\psi$ thuộc $\mathcal{K}(B)$ và $p$ là $\mu$-thực sự. Khi đó $\psi \circ p$ là $\lambda_b$-khả tích với hầu hết mọi $b \in B$, và
+Bây giờ cho $\psi$ là bất kỳ hàm nào trong $\mathscr{K}(B)$; các điều kiện của tính chất $\alpha)$ được thỏa mãn bằng cách lấy $f \in \mathscr{K}(B)$ và $g = \psi \circ p$, vì hàm $\psi(p(t))f(p(t))$ là $\mu$-khả tích do $f\psi$ thuộc $\mathscr{K}(B)$ và $p$ là $\mu$-thực sự. Khi đó $\psi \circ p$ là $\lambda_b$-khả tích với hầu hết mọi $b \in B$, và
 
 $$
 \int f(p(t))\psi(p(t))\, d\mu(t) = \int f(b)\, d\nu(b) \int \psi(p(t))\, d\lambda_b(t);
 $$
 
-nhưng vế thứ nhất theo định nghĩa là $\int f(b)\psi(b)\, d\nu(b)$. Do đó ta thấy rằng với mọi hàm $\psi \in \mathcal{K}(B)$, độ đo $\psi \cdot \nu$ và độ đo có mật độ $b \mapsto \int \psi(p(t))\, d\lambda_b(t)$ là trùng nhau. Do đó (Ch. V, §5, No. 3, Hệ quả 2 của Mệnh đề 3) tồn tại một tập hợp bỏ qua được theo $\nu$ $N'(\psi)$ sao cho, với mọi $b \notin N'(\psi)$, hàm $\psi \circ p$ là $\lambda_b$-khả tích và $\psi(b) = \int \psi(p(t))\, d\lambda_b(t)$.
+nhưng vế thứ nhất theo định nghĩa là $\int f(b)\psi(b)\, d\nu(b)$. Do đó ta thấy rằng với mọi hàm $\psi \in \mathscr{K}(B)$, độ đo $\psi \cdot \nu$ và độ đo có mật độ $b \mapsto \int \psi(p(t))\, d\lambda_b(t)$ là trùng nhau. Do đó (Ch. V, §5, No. 3, Hệ quả 2 của Mệnh đề 3) tồn tại một tập hợp bỏ qua được theo $\nu$ $N'(\psi)$ sao cho, với mọi $b \notin N'(\psi)$, hàm $\psi \circ p$ là $\lambda_b$-khả tích và $\psi(b) = \int \psi(p(t))\, d\lambda_b(t)$.
 
-Cho $S$ là một tập con đếm được của $\mathcal{K}(B)$ thỏa mãn các tính chất đã nêu trong Bổ đề 1 (với $Y = B$), và cho $N'$ là tập không đáng kể theo $\nu$ là hợp của các $N'(\psi)$ với $\psi \in S$. Mọi hàm $\psi \geq 0$ của $\mathcal{K}(B)$ đều là giới hạn đều của một dãy $(\psi_n)$ gồm các phần tử của S với $\psi_n \leq \psi_0$. Do đó, với $b \notin N'$, định lý Lebesgue cho thấy, một mặt, rằng $\psi \circ p$ là khả tích theo $\lambda_b$, nói cách khác là $p$ là $\lambda_b$-thực sự, và mặt khác rằng $\psi(b) = \int \psi(p(t))\, d\lambda_b(t)$. Nói cách khác, các ánh xạ $b \mapsto \varepsilon_b$ và $b \mapsto p(\lambda_b)$ của B vào $\mathcal{M}(B)$ (ánh xạ sau được xác định hầu khắp nơi) là bằng nhau hầu khắp nơi theo vô hướng đối với $\nu$ (và đối với tôpô $\sigma(\mathcal{M}(B), \mathcal{K}(B))$); suy ra rằng các ánh xạ này bằng nhau hầu khắp nơi đối với $\nu$ (Bổ đề 1 và §1, No. 1, *Nhận xét* 2). Cuối cùng, nếu $p(\lambda_b) = \varepsilon_b$, thì tập $B - \{b\}$ là $\varepsilon_b$-không đáng kể, do đó tập $T - \bar{p}^{-1}(B)$ là $\lambda_b$-không đáng kể (Ch. V, §6, No. 2, Hệ quả 2 của Mệnh đề 2), nói cách khác $\lambda_b$ tập trung trên $\overline{p}^{-1}(b)$; và, mặt khác, $\| \lambda_b \| = \int d\lambda_b = \int d((p(\lambda_b))) = \| \varepsilon_b \| = 1$ (Ch. V, §6, No. 2, Định lý 1).
+Cho $S$ là một tập con đếm được của $\mathscr{K}(B)$ thỏa mãn các tính chất đã nêu trong Bổ đề 1 (với $Y = B$), và cho $N'$ là tập không đáng kể theo $\nu$ là hợp của các $N'(\psi)$ với $\psi \in S$. Mọi hàm $\psi \geq 0$ của $\mathscr{K}(B)$ đều là giới hạn đều của một dãy $(\psi_n)$ gồm các phần tử của S với $\psi_n \leq \psi_0$. Do đó, với $b \notin N'$, định lý Lebesgue cho thấy, một mặt, rằng $\psi \circ p$ là khả tích theo $\lambda_b$, nói cách khác là $p$ là $\lambda_b$-thực sự, và mặt khác rằng $\psi(b) = \int \psi(p(t))\, d\lambda_b(t)$. Nói cách khác, các ánh xạ $b \mapsto \varepsilon_b$ và $b \mapsto p(\lambda_b)$ của B vào $\mathscr{M}(B)$ (ánh xạ sau được xác định hầu khắp nơi) là bằng nhau hầu khắp nơi theo vô hướng đối với $\nu$ (và đối với tôpô $\sigma(\mathscr{M}(B), \mathscr{K}(B))$); suy ra rằng các ánh xạ này bằng nhau hầu khắp nơi đối với $\nu$ (Bổ đề 1 và §1, No. 1, *Nhận xét* 2). Cuối cùng, nếu $p(\lambda_b) = \varepsilon_b$, thì tập $B - \{b\}$ là $\varepsilon_b$-không đáng kể, do đó tập $T - \bar{p}^{-1}(B)$ là $\lambda_b$-không đáng kể (Ch. V, §6, No. 2, Hệ quả 2 của Mệnh đề 2), nói cách khác $\lambda_b$ tập trung trên $\overline{p}^{-1}(b)$; và, mặt khác, $\| \lambda_b \| = \int d\lambda_b = \int d((p(\lambda_b))) = \| \varepsilon_b \| = 1$ (Ch. V, §6, No. 2, Định lý 1).
 
 5) *Sự biến đổi của họ* $b \mapsto \lambda_b$. Như vậy ta đã định nghĩa một họ $\nu$-thích hợp $b \mapsto \lambda_b$ các độ đo $\geqslant 0$ trên T, thỏa mãn điều kiện c) của mệnh đề và sao cho, với hầu hết mọi $b \in B$, $p$ là $\lambda_b$-thực sự, và $\lambda_b$ tập trung trên $\overline{p}^{-1}(b)$ và có chuẩn 1. Gọi $N''$ là tập không đáng kể theo $\nu$ gồm các điểm $b \in B$ tại đó một trong ba tính chất cuối cùng không được thỏa mãn; khi đó ta có thể sửa đổi $\lambda_b$ theo cách sau. Nếu $b \in B - p(T)$, đặt $\lambda_b = 0$; nếu $b \in p(T) \cap N''$, đặt $\lambda_b = \varepsilon_{\xi(b)}$, trong đó $\xi(b)$ là một điểm bất kỳ của $\overline{p}^{-1}(b)$. Vì $B - p(T)$ là tập không đáng kể theo $\nu$ (Ch. V, §6, No. 2, Hệ quả 3 của Mệnh đề 2), ta chỉ mới sửa đổi $\lambda_b$ tại các điểm của một tập không đáng kể, do đó họ $b \mapsto \lambda_b$ vẫn là $\nu$-thích hợp và có tính chất c); hơn nữa, nó nay thỏa mãn a) và b), điều đó hoàn tất chứng minh.
 
@@ -172,7 +172,7 @@ Tồn tại một hàm số liên tục và hữu hạn $f$ xác định trên T
 2) $\lambda''_b$ tập trung trên $\overline{p^{-1}}(b)$ với mọi $b \in B$;
 3) $\mu'' = \int \lambda''_b \, d\nu''(b)$.
 
-Với mỗi $b \in B$, ta định nghĩa một độ đo dương $\lambda_b$ trên T bởi công thức $\lambda_b = (1/f) \cdot (g(b)\lambda''_b)$. Hiển nhiên rằng họ $b \mapsto \lambda_b$ có các tính chất a) và b) của mệnh đề. Mặt khác, với mọi hàm $h \in \mathcal{K}(T)$, $h/f$ thuộc $\mathcal{K}(T)$, do đó
+Với mỗi $b \in B$, ta định nghĩa một độ đo dương $\lambda_b$ trên T bởi công thức $\lambda_b = (1/f) \cdot (g(b)\lambda''_b)$. Hiển nhiên rằng họ $b \mapsto \lambda_b$ có các tính chất a) và b) của mệnh đề. Mặt khác, với mọi hàm $h \in \mathscr{K}(T)$, $h/f$ thuộc $\mathscr{K}(T)$, do đó
 
 $$
 \int h(t) \, d\mu(t) = \int (h(t)/f(t)) \, d\mu''(t) = \int d\nu''(b) \int (h(t)/f(t)) \, d\lambda''_b(t).
@@ -182,7 +182,7 @@ Nhưng vì hàm $b \mapsto \int (h(t)/f(t)) \, d\lambda''_b(t)$ là $\nu''$-kh�
 
 Theo định nghĩa của $\lambda_b$, hàm này là $b \mapsto \int h(t) d\lambda_b(t)$, do đó (*loc. cit.*) $\int h(t) d\mu(t) = \int d\nu(b) \int h(t) d\lambda_b(t)$, điều này chứng minh rằng $\mu = \int \lambda_b d\nu(b)$.
 
-Để thiết lập phần thứ hai của mệnh đề, ta nhận xét rằng có thể giả sử rằng $r(b) > 0$ với mọi $b \in B$ (Ch. V, §5, No. 6, Prop. 10); đặt $\lambda'''_b = f \cdot \left( (r(b)/g(b)) \lambda'_b \right)$; ta chỉ ra, như trên, rằng với mọi hàm $h \in \mathcal{K}(T)$, quan hệ
+Để thiết lập phần thứ hai của mệnh đề, ta nhận xét rằng có thể giả sử rằng $r(b) > 0$ với mọi $b \in B$ (Ch. V, §5, No. 6, Prop. 10); đặt $\lambda'''_b = f \cdot \left( (r(b)/g(b)) \lambda'_b \right)$; ta chỉ ra, như trên, rằng với mọi hàm $h \in \mathscr{K}(T)$, quan hệ
 
 $$
 \int h(t) d\mu(t) = \int d\nu'(b) \int h(t) d\lambda'_b(t)
@@ -288,7 +288,7 @@ a) *Ánh xạ $f$ (được định nghĩa hầu khắp trên $B$) là $\nu$-kh�
 
 b) *Với mọi $b \in B - N$, độ đo $\lambda'_{f(b)}$ trên $T$ có dạng $r(b)\lambda_b$, trong đó $r(b) \neq 0$ và $r$ là địa phương $\nu$-tích phân.*
 
-Để chứng minh a), ta có thể hạn chế vào trường hợp $\nu$ và $\nu'$ là các độ đo *bị chặn* (Ch. V, §5, No. 6, Mệnh đề 11). Đặt $N_0 = B - p(T)$, $N'_0 = B' - p'(T)$; ta biết rằng $N_0$ (resp. $N'_0$) là không đáng kể đối với $\nu$ (resp. $\nu'$) (No. 2). Tồn tại một song ánh f từ B - $N_0$ lên B' - $N'_0$ được xác định bởi $f(p(t)) = p'(t)$ với mọi $t \in T$; gọi $f'$ là ánh xạ nghịch đảo của $f$, sao cho $f'(p'(t)) = p(t)$. Với mọi tập con M của B, quan hệ « M là $\nu$-đo được » tương đương với « $\overline{p}^{-1}(M)$ là $\mu$-đo được », tức là với « $p'(f(M))$ là $\mu$-đo được », do đó cuối cùng tương đương với « $f(M)$ là $\nu'$-đo được » (Ch. V, §6, No. 2, Hệ quả của Mệnh đề 3). Do đó ta thấy rằng $f$ (resp. $f'$) biến mọi tập $\nu$-đo được (resp. $\nu'$-đo được) thành một tập $\nu'$-đo được (resp. $\nu$-đo được); vì B và $B'$ là khả metric và có cơ sở đếm được, suy ra $f$ và $f'$ là đo được (Ch. IV, §5, No. 5, Định lý 4). Hơn nữa, nếu $M \subset B$ là $\nu$-không đáng kể thì $\overline{p}^{-1}(M) = p'(f(M))$ là $\mu$-không đáng kể, do đó $f(M)$ là $\nu'$-không đáng kể (Ch. V, §6, No. 2, Hệ quả 2 của Mệnh đề 2); tương tự, $f'$ biến mọi tập $\nu'$-không đáng kể thành một tập $\nu$-không đáng kể. Do đó, ảnh của $\nu$ qua $f$ (được định nghĩa vì $\nu$ bị chặn, điều này suy ra rằng $f$ là $\nu$-thực sự) tương đương với $\nu'$, và ảnh của $\nu'$ qua $f'$ tương đương với $\nu$ (Ch. V, §5, No. 6, Mệnh đề 10). Còn phải chứng minh b). Nhờ Định lý 2 của No. 3, ta có thể chỉ xét trường hợp $\nu' = f(\nu)$. Vì $\mu = \int \lambda_{b'}' d\nu'(b')$, ta có, với mọi hàm $h \in \mathcal{K}(T)$,
+Để chứng minh a), ta có thể hạn chế vào trường hợp $\nu$ và $\nu'$ là các độ đo *bị chặn* (Ch. V, §5, No. 6, Mệnh đề 11). Đặt $N_0 = B - p(T)$, $N'_0 = B' - p'(T)$; ta biết rằng $N_0$ (resp. $N'_0$) là không đáng kể đối với $\nu$ (resp. $\nu'$) (No. 2). Tồn tại một song ánh f từ B - $N_0$ lên B' - $N'_0$ được xác định bởi $f(p(t)) = p'(t)$ với mọi $t \in T$; gọi $f'$ là ánh xạ nghịch đảo của $f$, sao cho $f'(p'(t)) = p(t)$. Với mọi tập con M của B, quan hệ « M là $\nu$-đo được » tương đương với « $\overline{p}^{-1}(M)$ là $\mu$-đo được », tức là với « $p'(f(M))$ là $\mu$-đo được », do đó cuối cùng tương đương với « $f(M)$ là $\nu'$-đo được » (Ch. V, §6, No. 2, Hệ quả của Mệnh đề 3). Do đó ta thấy rằng $f$ (resp. $f'$) biến mọi tập $\nu$-đo được (resp. $\nu'$-đo được) thành một tập $\nu'$-đo được (resp. $\nu$-đo được); vì B và $B'$ là khả metric và có cơ sở đếm được, suy ra $f$ và $f'$ là đo được (Ch. IV, §5, No. 5, Định lý 4). Hơn nữa, nếu $M \subset B$ là $\nu$-không đáng kể thì $\overline{p}^{-1}(M) = p'(f(M))$ là $\mu$-không đáng kể, do đó $f(M)$ là $\nu'$-không đáng kể (Ch. V, §6, No. 2, Hệ quả 2 của Mệnh đề 2); tương tự, $f'$ biến mọi tập $\nu'$-không đáng kể thành một tập $\nu$-không đáng kể. Do đó, ảnh của $\nu$ qua $f$ (được định nghĩa vì $\nu$ bị chặn, điều này suy ra rằng $f$ là $\nu$-thực sự) tương đương với $\nu'$, và ảnh của $\nu'$ qua $f'$ tương đương với $\nu$ (Ch. V, §5, No. 6, Mệnh đề 10). Còn phải chứng minh b). Nhờ Định lý 2 của No. 3, ta có thể chỉ xét trường hợp $\nu' = f(\nu)$. Vì $\mu = \int \lambda_{b'}' d\nu'(b')$, ta có, với mọi hàm $h \in \mathscr{K}(T)$,
 
 $$
 \int h(t) d\mu(t) = \int d\nu'(b') \int h(t) d\lambda_{b'}'(t) = \int d\nu(b) \int h(t) d\lambda_{f(b)}'(t)

@@ -36,7 +36,7 @@ subsections:
       pdf_page: 126
 statements: 15
 exercises: 0
-content_sha256: a972bec1a97a6ae98c38d6651435818b6e27108e993a851d20ed336bf9d34e48
+content_sha256: 7094df0568fedb3c7c1a6e5b6bec10d295268198e1446354d141551c83183931
 ---
 
 ## § 2. Fonctions et ensembles négligeables
@@ -62,7 +62,7 @@ En effet, on a $|\mu|^*\left( \sum_n f_n \right) \leqslant \sum_n |\mu|^*(f_n) =
 #### Proposition 3 {#int-iv-s2-prop-3 .statement}
 
 *Pour qu’une fonction $f \geqslant 0$, semi-continue inférieurement dans $X$, soit négligeable, il faut et il suffit que $f$ soit nulle dans le support de $\mu$.*
-En effet, si $|\mu|^*(f) = 0$, on a $|\mu|(g) = 0$ pour toute fonction $g \in \mathcal{K}_+$ telle que $g \leqslant f$; il en résulte (chap. III, $§ 2$, no 3, prop. 9) que $g$ est nulle dans le support $S$ de $\mu$; comme $f$ est l’enveloppe supérieure des fonctions $g \in \mathcal{K}_+$ telles que $g \leqslant f$ ($§ 1$, no 1, lemme 1), on a $f(x) = 0$ dans $S$. Réciproquement, si $f(x) = 0$ dans $S$, on a $g(x) = 0$ dans $S$ pour toute fonction $g \in \mathcal{K}_+$ telle que $g \leqslant f$, et par suite (chap. III, $§ 3$, no 3, prop. 8) $|\mu|(g) = 0$, ce qui, par définition, entraîne $|\mu|^*(f) = 0$.
+En effet, si $|\mu|^*(f) = 0$, on a $|\mu|(g) = 0$ pour toute fonction $g \in \mathscr{K}_+$ telle que $g \leqslant f$; il en résulte (chap. III, $§ 2$, no 3, prop. 9) que $g$ est nulle dans le support $S$ de $\mu$; comme $f$ est l’enveloppe supérieure des fonctions $g \in \mathscr{K}_+$ telles que $g \leqslant f$ ($§ 1$, no 1, lemme 1), on a $f(x) = 0$ dans $S$. Réciproquement, si $f(x) = 0$ dans $S$, on a $g(x) = 0$ dans $S$ pour toute fonction $g \in \mathscr{K}_+$ telle que $g \leqslant f$, et par suite (chap. III, $§ 3$, no 3, prop. 8) $|\mu|(g) = 0$, ce qui, par définition, entraîne $|\mu|^*(f) = 0$.
 
 ### 2. Ensembles négligeables
 
