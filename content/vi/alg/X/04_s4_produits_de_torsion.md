@@ -49,7 +49,7 @@ subsections:
       pdf_page: 86
 statements: 39
 exercises: 9
-content_sha256: c92df4bdac3129af165b2bc4212adb44c67b764ca99b4ebf0db93297ed79b3db
+content_sha256: 89b20b9fd560d914e6238bcbeaf626fc3d20e104e0368e014572c1a4af3bd3e1
 translated_from: content/en-mt/alg/X/04_s4_produits_de_torsion.md
 source_lang: en-mt
 translation_method: machine
@@ -657,14 +657,14 @@ $$
 
 đã được định nghĩa trong tiết diện trước (X, p. 69, prop. 5). Cho
 
-$$(\mathcal{E})$$
+$$(\mathscr{E})$$
 $$
 0 \to N' \xrightarrow{u} N \xrightarrow{v} N'' \to 0
 $$
 
 là một dãy khớp của các $A$-môđun trái; khi đó dãy các phức $k$
 
-$$(\mathcal{ME})$$
+$$(\mathscr{ME})$$
 $$
 0 \longrightarrow L(M) \otimes_A N' \xrightarrow{1 \otimes u} L(M) \otimes_A N \xrightarrow{1 \otimes v} L(M) \otimes_A N'' \longrightarrow 0
 $$
@@ -672,20 +672,20 @@ $$
 là khớp (X, p. 66, Bổ đề 1); ký hiệu bởi
 
 $$
-\partial^{(\mathcal{ME})} : H(L(M) \otimes_A N'') \to H(L(M) \otimes_A N')
+\partial^{(\mathscr{ME})} : H(L(M) \otimes_A N'') \to H(L(M) \otimes_A N')
 $$
 
 đồng cấu liên kết tương ứng (X, p. 29).
 
 #### Định nghĩa 2 {#alg-x-s4-def-2 .statement}
 
-Đồng cấu liên kết của các tích xoắn, tương ứng với môđun $M$ và dãy khớp $\mathcal{E}$, là đồng cấu hợp thành
+Đồng cấu liên kết của các tích xoắn, tương ứng với môđun $M$ và dãy khớp $\mathscr{E}$, là đồng cấu hợp thành
 
 $$
-\partial(M, \mathcal{E}) = \psi_M(N')^{-1} \circ \partial^{(M\mathcal{E})} \circ \psi_M(N'') : \mathrm{Tor}^A(M, N'') \to \mathrm{Tor}^A(M, N')
+\partial(M, \mathscr{E}) = \psi_M(N')^{-1} \circ \partial^{(M\mathscr{E})} \circ \psi_M(N'') : \mathrm{Tor}^A(M, N'') \to \mathrm{Tor}^A(M, N')
 $$
 
-Đây là một $k$-đồng cấu phân bậc bậc $-1$, các thành phần thuần nhất của nó được ký hiệu là $\partial_n(M, \mathcal{E}) : \mathrm{Tor}_n^A(M, N'') \to \mathrm{Tor}_{n-1}^A(M, N')$.
+Đây là một $k$-đồng cấu phân bậc bậc $-1$, các thành phần thuần nhất của nó được ký hiệu là $\partial_n(M, \mathscr{E}) : \mathrm{Tor}_n^A(M, N'') \to \mathrm{Tor}_{n-1}^A(M, N')$.
 
 #### Định lý 1 {#alg-x-s4-thm-1 .statement}
 
@@ -695,10 +695,10 @@ $$
 \cdots \longrightarrow \mathrm{Tor}_n^A(M, N') \xrightarrow{\mathrm{Tor}_n^A(1, u)} \mathrm{Tor}_n^A(M, N) \xrightarrow{\mathrm{Tor}_n^A(1, v)} \mathrm{Tor}_n^A(M, N'')
 $$
 $$
-\xrightarrow{\partial_n(M, \mathcal{E})} \mathrm{Tor}_{n-1}^A(M, N') \xrightarrow{\mathrm{Tor}_{n-1}^A(1, u)} \cdots \xrightarrow{\mathrm{Tor}_1^A(1, v)} \mathrm{Tor}_1^A(M, N'')
+\xrightarrow{\partial_n(M, \mathscr{E})} \mathrm{Tor}_{n-1}^A(M, N') \xrightarrow{\mathrm{Tor}_{n-1}^A(1, u)} \cdots \xrightarrow{\mathrm{Tor}_1^A(1, v)} \mathrm{Tor}_1^A(M, N'')
 $$
 $$
-\xrightarrow{\hat{c}_1(M, \mathcal{E})} M \otimes_A N' \xrightarrow{1 \otimes u} M \otimes_A N \xrightarrow{1 \otimes v} M \otimes_A N'' \longrightarrow 0
+\xrightarrow{\hat{c}_1(M, \mathscr{E})} M \otimes_A N' \xrightarrow{1 \otimes u} M \otimes_A N \xrightarrow{1 \otimes v} M \otimes_A N'' \longrightarrow 0
 $$
 
 là khớp.
@@ -707,9 +707,9 @@ là khớp.
 
 $$
 \begin{array}{ccccccccc}
-\mathrm{Tor}(M, N') & \xrightarrow{\mathrm{Tor}(1, u)} & \mathrm{Tor}(M, N) & \xrightarrow{\mathrm{Tor}(1, v)} & \mathrm{Tor}(M, N'') & \xrightarrow{\partial(M, \mathcal{E})} & \mathrm{Tor}(M, N') & \xrightarrow{\mathrm{Tor}(1, u)} & \mathrm{Tor}(M, N) \\
+\mathrm{Tor}(M, N') & \xrightarrow{\mathrm{Tor}(1, u)} & \mathrm{Tor}(M, N) & \xrightarrow{\mathrm{Tor}(1, v)} & \mathrm{Tor}(M, N'') & \xrightarrow{\partial(M, \mathscr{E})} & \mathrm{Tor}(M, N') & \xrightarrow{\mathrm{Tor}(1, u)} & \mathrm{Tor}(M, N) \\
 \psi_M(N') \downarrow & & \psi_M(N) \downarrow & & \psi_M(N'') \downarrow & & \psi_M(N') \downarrow & & \psi_M(N') \downarrow \\
-H(L(M) \otimes N') & \xrightarrow{H(1 \otimes u)} & H(L(M) \otimes N) & \xrightarrow{H(1 \otimes v)} & H(L(M \otimes N'') & \xrightarrow{\partial^{(M\mathcal{ME})}} & H(L(M) \otimes N') & \xrightarrow{H(1 \otimes u)} & H(L(M) \otimes N)
+H(L(M) \otimes N') & \xrightarrow{H(1 \otimes u)} & H(L(M) \otimes N) & \xrightarrow{H(1 \otimes v)} & H(L(M \otimes N'') & \xrightarrow{\partial^{(M\mathscr{ME})}} & H(L(M) \otimes N') & \xrightarrow{H(1 \otimes u)} & H(L(M) \otimes N)
 \end{array}
 $$
 
@@ -813,17 +813,17 @@ $$
 \partial_n(F, N) : \operatorname{Tor}_n^A(M'', N) \to \operatorname{Tor}_{n-1}^A(M', N)
 $$
 
-bởi $\partial(\mathcal F,\mathbf N)=\overline{\psi}_{\mathbf N}(M')^{-1}\circ\partial(\mathcal F^{\mathbf N})\circ\overline{\psi}_{\mathbf N}(M'')$, trong đó $\partial(\mathcal F^{\mathbf N})$ là đồng cấu liên kết của dãy khớp
+bởi $\partial(\mathscr F,\mathbf N)=\overline{\psi}_{\mathbf N}(M')^{-1}\circ\partial(\mathscr F^{\mathbf N})\circ\overline{\psi}_{\mathbf N}(M'')$, trong đó $\partial(\mathscr F^{\mathbf N})$ là đồng cấu liên kết của dãy khớp
 
-$$(\mathcal F_{\mathbf N})\qquad 0\longrightarrow M'\otimes_A L(N)\longrightarrow M\otimes_A L(N)\longrightarrow M''\otimes_A L(N)\longrightarrow 0$$
+$$(\mathscr F_{\mathbf N})\qquad 0\longrightarrow M'\otimes_A L(N)\longrightarrow M\otimes_A L(N)\longrightarrow M''\otimes_A L(N)\longrightarrow 0$$
 
-suy ra từ $\mathcal F$, và ta có:
+suy ra từ $\mathscr F$, và ta có:
 
 **ĐỊNH LÝ 1 bis.** — *Dãy không bị chặn về bên trái của các đồng cấu của các k-môđun*
 
-$$\longrightarrow \operatorname{Tor}_n^A(M',N)\xrightarrow{\operatorname{Tor}_n^A(r,1)}\operatorname{Tor}_n^A(M,N)\xrightarrow{\operatorname{Tor}_n^A(s,1)}\operatorname{Tor}_n^A(M'',N)\xrightarrow{\partial_n(\mathcal F,N)}\operatorname{Tor}_{n-1}^A(M',N)$$
+$$\longrightarrow \operatorname{Tor}_n^A(M',N)\xrightarrow{\operatorname{Tor}_n^A(r,1)}\operatorname{Tor}_n^A(M,N)\xrightarrow{\operatorname{Tor}_n^A(s,1)}\operatorname{Tor}_n^A(M'',N)\xrightarrow{\partial_n(\mathscr F,N)}\operatorname{Tor}_{n-1}^A(M',N)$$
 
-$$\cdots\longrightarrow \operatorname{Tor}_1^A(M'',N)\xrightarrow{\partial_1(\mathcal F,N)}M'\otimes_A N\xrightarrow{r\otimes1}M\otimes_A N\xrightarrow{s\otimes1}M''\otimes_A N\longrightarrow0$$
+$$\cdots\longrightarrow \operatorname{Tor}_1^A(M'',N)\xrightarrow{\partial_1(\mathscr F,N)}M'\otimes_A N\xrightarrow{r\otimes1}M\otimes_A N\xrightarrow{s\otimes1}M''\otimes_A N\longrightarrow0$$
 
 *là khớp.*
 
@@ -831,7 +831,7 @@ Ta để lại cho độc giả nhiệm vụ phát biểu và chứng minh các 
 
 #### Mệnh đề 10 {#alg-x-s4-prop-10 .statement}
 
-*Ta ký hiệu bởi $(\mathcal F^\circ)$ dãy khớp của các A-môđun trái*
+*Ta ký hiệu bởi $(\mathscr F^\circ)$ dãy khớp của các A-môđun trái*
 
 $$0\longrightarrow M'\xrightarrow{r}M\xrightarrow{s}M''\longrightarrow0.$$
 
@@ -839,9 +839,9 @@ $$0\longrightarrow M'\xrightarrow{r}M\xrightarrow{s}M''\longrightarrow0.$$
 
 $$
 \begin{array}{ccccc}
-\operatorname{Tor}^A(M'',N)&\xrightarrow{\partial(\mathcal F,N)}&\operatorname{Tor}^A(M',N)\\
+\operatorname{Tor}^A(M'',N)&\xrightarrow{\partial(\mathscr F,N)}&\operatorname{Tor}^A(M',N)\\
 \Big\downarrow{\sigma_{M'',N}}&&\Big\downarrow{\sigma_{M',N}}\\
-\operatorname{Tor}^{A^\circ}(N^\circ,{M''}^\circ)&\xrightarrow{\partial(N^\circ,\mathcal F^\circ)}&\operatorname{Tor}^{A^\circ}(N^\circ,{M'}^\circ)
+\operatorname{Tor}^{A^\circ}(N^\circ,{M''}^\circ)&\xrightarrow{\partial(N^\circ,\mathscr F^\circ)}&\operatorname{Tor}^{A^\circ}(N^\circ,{M'}^\circ)
 \end{array}
 $$
 
@@ -1148,9 +1148,9 @@ $$
 
 Điều này chỉ ra một mặt rằng nón của $u$ có đồng điều không, do đó $u$ là một đồng luân, mặt khác rằng môđun $P_b$ là *phẳng* (X, p. 76, hệ quả 2) ; vì $P_b$ là sinh hữu hạn như một thương của $L_{b+1}$, nó là *xạ ảnh* (X, p. 13, hệ quả). Cặp $(P,u)$ khi đó thỏa mãn điều kiện yêu cầu. Khẳng định cuối cùng suy ra từ X, p. 79, hệ quả 5.
 
-\* **Ví dụ.** — Cho A là một vành giao hoán Noether, X là một lược đồ A-thực sự và phẳng, $\mathcal F$ là một $\mathcal C_X$-môđun thuần nhất, phẳng trên A. Tồn tại một phức bị chặn P gồm các A-môđun xạ ảnh sinh hữu hạn sao cho với mọi A-môđun M, $H(X,\mathcal F\otimes_A M)$ đẳng cấu tự nhiên với $H(P\otimes_A M)$. Thật vậy, cho $\mathcal U$ là một phủ của X bởi một số hữu hạn các tập mở affine, $\mathcal C(\mathcal U,\mathcal F)$ là phức Čech liên kết. Ta chứng minh rằng $H^i(\mathcal C(\mathcal U,\mathcal F))$ đẳng cấu với A-môđun $H^i(X,\mathcal F)$, và rằng môđun sau sinh hữu hạn; hơn nữa, với mọi A-môđun M, phức $\mathcal C(\mathcal U,\mathcal F)\otimes_A M$ đẳng cấu với $\mathcal C(\mathcal U,\mathcal F\otimes_A M)$. Áp dụng Mệnh đề 11 cho phức $\mathcal C(\mathcal U,\mathcal F)$ (là phức bị chặn), ta thu được một phức P trả lời câu hỏi.
+\* **Ví dụ.** — Cho A là một vành giao hoán Noether, X là một lược đồ A-thực sự và phẳng, $\mathscr F$ là một $\mathscr C_X$-môđun thuần nhất, phẳng trên A. Tồn tại một phức bị chặn P gồm các A-môđun xạ ảnh sinh hữu hạn sao cho với mọi A-môđun M, $H(X,\mathscr F\otimes_A M)$ đẳng cấu tự nhiên với $H(P\otimes_A M)$. Thật vậy, cho $\mathscr U$ là một phủ của X bởi một số hữu hạn các tập mở affine, $\mathscr C(\mathscr U,\mathscr F)$ là phức Čech liên kết. Ta chứng minh rằng $H^i(\mathscr C(\mathscr U,\mathscr F))$ đẳng cấu với A-môđun $H^i(X,\mathscr F)$, và rằng môđun sau sinh hữu hạn; hơn nữa, với mọi A-môđun M, phức $\mathscr C(\mathscr U,\mathscr F)\otimes_A M$ đẳng cấu với $\mathscr C(\mathscr U,\mathscr F\otimes_A M)$. Áp dụng Mệnh đề 11 cho phức $\mathscr C(\mathscr U,\mathscr F)$ (là phức bị chặn), ta thu được một phức P trả lời câu hỏi.
 
-Với mọi điểm $y$ của Spec (A), ký hiệu $\kappa(y)$ là trường thặng dư của A tại $y$, $X_y=X\otimes_A\kappa(y)$ là thớ của X trên $y$, $\mathcal F_y=\mathcal F\otimes_A\kappa(y)$, và đặt $h^p(y)=\dim_{\kappa(y)}H^p(X_y,\mathcal F_y)$ với $p\geq 0$.
+Với mọi điểm $y$ của Spec (A), ký hiệu $\kappa(y)$ là trường thặng dư của A tại $y$, $X_y=X\otimes_A\kappa(y)$ là thớ của X trên $y$, $\mathscr F_y=\mathscr F\otimes_A\kappa(y)$, và đặt $h^p(y)=\dim_{\kappa(y)}H^p(X_y,\mathscr F_y)$ với $p\geq 0$.
 
 Từ sự tồn tại của phức P ta dễ dàng suy ra các kết quả sau :
 

@@ -30,7 +30,7 @@ subsections:
       pdf_page: 371
 statements: 22
 exercises: 15
-content_sha256: b73a5f55a0428c0bfdc4c56f769d57b1fd5438c4b81624e9f5d24d90a72de89f
+content_sha256: 18b16f95020a8a741d96574eaeeb64be1473fe323bf1aaba2c7e0f2b696c695b
 ---
 
 ## § 2. TORSION MODULES OVER A PRINCIPAL IDEAL DOMAIN
@@ -113,7 +113,7 @@ This follows from the fact that N ∩ M, is the π-primary component N, of N.
 
 — *The submodule N of the torsion A-module M is a direct factor if and only if N, is a direct factor of M, for every irreducible element π of A*.
 
-Indeed, if N and N' are two submodules of M, then M = N ⊕ N' if and only if M, − N, ⊕ N'_π for every irreducible element π of $\mathcal{A}$ (Cor. 1).
+Indeed, if N and N' are two submodules of M, then M = N ⊕ N' if and only if M, − N, ⊕ N'_π for every irreducible element π of $\mathscr{A}$ (Cor. 1).
 
 #### Corollary 3 {#alg-vii-s2-thm-1-cor-3 .statement}
 
@@ -127,13 +127,13 @@ An A-module M is called *semi-simple* if every submodule of M is a direct factor
 
 — *Let A be a principal ideal domain which is not a field, and let M be an A-module. Then M is semi-simple if and only if M is a torsion module and M, = M(π) for every irreducible element π of A*.
 
-First suppose that M is semi-simple; let x ∈ M and let π be an irreducible element of $\mathcal{A}$. If N is a complement of $Annx$ in M, then we can write $x = \alpha \pi x + y$, with $\alpha \in \mathcal{A}$ and $y \in N$; but that implies $y = (1 - \alpha n)x$, so
+First suppose that M is semi-simple; let x ∈ M and let π be an irreducible element of $\mathscr{A}$. If N is a complement of $Annx$ in M, then we can write $x = \alpha \pi x + y$, with $\alpha \in \mathscr{A}$ and $y \in N$; but that implies $y = (1 - \alpha n)x$, so
 $$
 \pi(1 - \alpha \pi)x \in A\pi x \cap N = 0 .
 $$
 It follows first of all that M is a torsion module; if moreover $x \in M_π$, then $\pi(1 - \alpha \pi)x = 0$, thus $\pi x = \alpha \pi^2 x = \alpha^2 \pi^3 x = \cdots = \alpha^n \pi^{n+1} x$ is zero and $M_π = M(\pi)$.
 
-Conversely, by Cor. 2 it is enough to prove that an A-module M annihilated by an irreducible element π is semi-simple; but that is clear, since M then has a natural structure of a vector space over the field $\mathcal{A}/(\pi)$, and the submodules of M are precisely the vector subspaces under this structure.
+Conversely, by Cor. 2 it is enough to prove that an A-module M annihilated by an irreducible element π is semi-simple; but that is clear, since M then has a natural structure of a vector space over the field $\mathscr{A}/(\pi)$, and the submodules of M are precisely the vector subspaces under this structure.
 
 #### Remark 1 {#alg-vii-s2-n2-rem-1 .statement}
 
@@ -143,7 +143,7 @@ Conversely, by Cor. 2 it is enough to prove that an A-module M annihilated by an
 
 — *If M is a finitely generated torsion module over a principal ideal domain A, then the n-primary components of M are zero except for a finite number of them, and the projectors of M onto these components $M_\pi$ are homotheties*.
 
-This follows immediately from Lemma 1, for by Lemma 2 there exists $\alpha \neq 0$ in $\mathcal{A}$ such that $M = M(\alpha)$.
+This follows immediately from Lemma 1, for by Lemma 2 there exists $\alpha \neq 0$ in $\mathscr{A}$ such that $M = M(\alpha)$.
 
 #### Remark 2 {#alg-vii-s2-n2-rem-2 .statement}
 

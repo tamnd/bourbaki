@@ -58,7 +58,7 @@ subsections:
       pdf_page: 68
 statements: 41
 exercises: 16
-content_sha256: 51f13a5580b2e2351bd4779c2123e3ce1e7e21872b1d3d653856b766108511cf
+content_sha256: f47f4b9cf4a7294de2542ded6f6bf6387062aeb864268807c570804ae0d539bb
 ---
 
 ## § 5. SYMMETRIC TENSORS AND POLYNOMIAL MAPPINGS
@@ -350,15 +350,15 @@ $$
 
 #### Remark 2 {#alg-iv-s5-n4-rem-2 .statement}
 
-Let $\mathcal{M}$ be the set of mappings of $(1, p)$ into I. We define a mapping $\rho \mapsto \rho^*$ of $\mathcal{M}$ into $\mathbf{N}^{(1)}$ by putting
+Let $\mathscr{M}$ be the set of mappings of $(1, p)$ into I. We define a mapping $\rho \mapsto \rho^*$ of $\mathscr{M}$ into $\mathbf{N}^{(1)}$ by putting
 $$
 \rho^*(i) = \operatorname{Card} \rho^{-1}(i)
 $$
 
-For two elements $\rho_1, \rho_2$ of $\mathcal{M}$ to satisfy $\rho_1^* = \rho_2^*$ it is necessary and sufficient that there should exist $\sigma \in \mathfrak{S}_p$ such that $\rho_2 = \rho_1 \circ \sigma$ (I, p. 95). By Prop. 3 (iii) we have, for $|\nu| = p$,
+For two elements $\rho_1, \rho_2$ of $\mathscr{M}$ to satisfy $\rho_1^* = \rho_2^*$ it is necessary and sufficient that there should exist $\sigma \in \mathfrak{S}_p$ such that $\rho_2 = \rho_1 \circ \sigma$ (I, p. 95). By Prop. 3 (iii) we have, for $|\nu| = p$,
 
 $$
-x_\nu = \sum_{\rho \in \mathcal{M}, \rho^* = \nu} x_{\rho(1)} \otimes x_{\rho(2)} \otimes \ldots \otimes x_{\rho(p)}
+x_\nu = \sum_{\rho \in \mathscr{M}, \rho^* = \nu} x_{\rho(1)} \otimes x_{\rho(2)} \otimes \ldots \otimes x_{\rho(p)}
 $$
 
 ### 5. Symmetric tensors over a free module
@@ -371,7 +371,7 @@ $$
 
 (ii) For each $p \in N$, $\mathbf{TS}^p(M)$ is a direct factor of the $A$-module $\mathbf{T}^p(M)$.
 
-Let us use the notation of the Remark 2 above. The family $(e_{\rho(1)} \otimes \ldots \otimes e_{\rho(p)})_{\rho \in \mathcal{M}}$ is a basis of $\mathbf{T}^p(M)$. Hence Prop. 4 follows from formula (7) and the following lemma, applied with $H = \mathfrak{S}_p$ and $U = \mathbf{T}^p(M)$.
+Let us use the notation of the Remark 2 above. The family $(e_{\rho(1)} \otimes \ldots \otimes e_{\rho(p)})_{\rho \in \mathscr{M}}$ is a basis of $\mathbf{T}^p(M)$. Hence Prop. 4 follows from formula (7) and the following lemma, applied with $H = \mathfrak{S}_p$ and $U = \mathbf{T}^p(M)$.
 
 #### Lemma 1 {#alg-iv-s5-lem-1 .statement}
 
@@ -710,7 +710,7 @@ $$
 Prop. 13 (i) defines a homomorphism of A-modules :
 
 $$
-\mathcal{L}_q(M, ..., M; N) \to \mathrm{Pol}^q(M, N).
+\mathscr{L}_q(M, ..., M; N) \to \mathrm{Pol}^q(M, N).
 $$
 
 Prop. 13 (ii) defines a homomorphism of A-modules

@@ -36,7 +36,7 @@ chapters:
           statements: 30
           exercises: 6
           extraction: ocr
-          content_sha256: 3ce7b549cf06b07802cd50498dea7e2f4b7ead610ff4dd91377872cb26fa1b03
+          content_sha256: 77979a5e5f95ac59baeb8ba8707e9bdfa7de503f1dc60c1e86eb0e3bfe224d78
         - kind: section
           section: 2
           title: ZÉROS DES POLYNÔMES
@@ -75,7 +75,7 @@ chapters:
           statements: 24
           exercises: 8
           extraction: ocr
-          content_sha256: 7a592736783269f8b506d8046056c2b13387cfba462ab06ae14927b62e778474
+          content_sha256: c4648703f719b739079564df913d9acedd14990c89e5fd71692ed49df40f0ba6
         - kind: section
           section: 5
           title: TENSEURS SYMÉTRIQUES ET APPLICATIONS POLYNOMIALES
@@ -88,7 +88,7 @@ chapters:
           statements: 42
           exercises: 16
           extraction: ocr
-          content_sha256: 9712b22bb1d9580135fa7ae6661371bc4864b7aadadee70ac29466c3afde8d03
+          content_sha256: 5f7349b7058da4a43f5802632e88e9a95c7fc9b2a8a31a550a3378f025befef8
         - kind: section
           section: 6
           title: FONCTIONS SYMÉTRIQUES
@@ -138,7 +138,7 @@ chapters:
           statements: 18
           exercises: 4
           extraction: ocr
-          content_sha256: 250c081eb584c11f7eac4d91a8f73c54227e3e2bb0e07fca4af64854d2088e19
+          content_sha256: ecfcd134b18af5868f8731f6bee6180e13e66b31be31a1119f7e34ede17de5f1
         - kind: section
           section: 3
           title: EXTENSIONS ALGÉBRIQUES
@@ -190,7 +190,7 @@ chapters:
           statements: 20
           exercises: 2
           extraction: ocr
-          content_sha256: 8181457df575d1d33da33311edde292d95015c19f2ec41a221890f0ec1d9c27a
+          content_sha256: fbf2c9f9cdef16161c0aea94d3854ca972eb289ad761d1948e5e34e4f8655f7e
         - kind: section
           section: 7
           title: EXTENSIONS ALGÉBRIQUES SÉPARABLES
@@ -242,7 +242,7 @@ chapters:
           statements: 51
           exercises: 23
           extraction: ocr
-          content_sha256: d5887dc184e32c14705ba2fd592afc40349b31482eec49a947ee4ea3c59c8fef
+          content_sha256: 28d3a34fb02207fe7aab1c75378cf65bfb25e1149053f8a7f1062cc40cf11c8a
         - kind: section
           section: 11
           title: EXTENSIONS ABÉLIENNES
@@ -281,7 +281,7 @@ chapters:
           statements: 22
           exercises: 6
           extraction: ocr
-          content_sha256: 6316f010144f544cbd464dc697739758c97518d59738e53e3a3e3a059078ac56
+          content_sha256: 329bde6223f048fad085e0ed26dc91ce01d4f8a4c562dfe55fb41913ec26b775
         - kind: section
           section: 14
           title: EXTENSIONS TRANSCENDANTES
@@ -332,7 +332,7 @@ chapters:
           statements: 20
           exercises: 5
           extraction: ocr
-          content_sha256: 3aaa25d7fe09d3724420e137a51a07835fc20991d574e1bfd4e14531f8a3e577
+          content_sha256: 5dc0d9e3e0335cdf3478b8704b3836f234eebd2b163e35eeb1039ba11b3fe512
     - chapter: VI
       title: Groupes et corps ordonnés
       sections:
@@ -357,7 +357,7 @@ chapters:
           statements: 54
           exercises: 36
           extraction: ocr
-          content_sha256: d459aee49edffec36fa4551da478366cdc6f77c17893a082abca75e768bd0144
+          content_sha256: 5210751720bc4d1470a1f313e1aa8fe306859300b0709e0c18bfe5f5cb9bb663
         - kind: section
           section: 2
           title: CORPS ORDONNÉS
@@ -395,7 +395,7 @@ chapters:
           statements: 15
           exercises: 28
           extraction: ocr
-          content_sha256: 9dc599f9b4c10081b93a10c9bf65a28d23367b7369c57f86f2d79b8655b439f0
+          content_sha256: 53c4ffd11123f80905f3154656c4bf60087bc05a670533b86885dee5fc68c2c7
         - kind: section
           section: 2
           title: MODULES DE TORSION SUR UN ANNEAU PRINCIPAL

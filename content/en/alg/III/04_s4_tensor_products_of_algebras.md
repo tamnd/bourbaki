@@ -50,7 +50,7 @@ subsections:
       pdf_page: 506
 statements: 43
 exercises: 2
-content_sha256: 104babe43ca0f7b29fb3d06064b2db49850bf4ce36b16bfb4fc025a8d61a1f77
+content_sha256: e4f97fce390410665271a3fec7e11e3f97e3ebed511a8bc2d0ba2eea7c3667d7
 ---
 
 ## § 4. TENSOR PRODUCTS OF ALGEBRAS
@@ -409,7 +409,7 @@ This says that the rank over K of the surjective canonical homomorphism h : E \o
 
 ### 5. TENSOR PRODUCT OF AN INFINITE FAMILY OF ALGEBRAS
 
-Let A be a commutative ring and (E_i)_{i \in I} an arbitrary family of (unital) A-algebras. For every finite subset J of I, let E_J denote the tensor product $\bigotimes_{i \in J} E_i$ of the algebras E_i of index $i \in J$; let $e_i$ denote the unit element of E_i and $e_J = \bigotimes_{i \in J} e_i$ the unit element of E_J; let $f_{J,i}$ denote the canonical homomorphism $E_i \to E_J$ for $i \in J$ (no. 2, Proposition 5). If J, J' are two finite subsets of I such that $J \subset J'$, a homomorphism $f_{J'J} : E_J \to E_{J'}$ is canonically derived (no. 2, Proposition 5), by the condition $f_{J'J} \circ f_{J,i} = f_{J',i}$ for all $i \in J$. Moreover the uniqueness of $f_{J'J}$ implies that if J, J', J'' are three finite subsets of I such that $J \subset J' \subset J''$, then $f_{J''J} = f_{J''J'} \circ f_{J'J}$. In other words, $(E_J, f_{J'J})$ is a direct system of A-algebras whose indexing set is the right directed set $\mathcal{F}(I)$ of finite subsets of I.
+Let A be a commutative ring and (E_i)_{i \in I} an arbitrary family of (unital) A-algebras. For every finite subset J of I, let E_J denote the tensor product $\bigotimes_{i \in J} E_i$ of the algebras E_i of index $i \in J$; let $e_i$ denote the unit element of E_i and $e_J = \bigotimes_{i \in J} e_i$ the unit element of E_J; let $f_{J,i}$ denote the canonical homomorphism $E_i \to E_J$ for $i \in J$ (no. 2, Proposition 5). If J, J' are two finite subsets of I such that $J \subset J'$, a homomorphism $f_{J'J} : E_J \to E_{J'}$ is canonically derived (no. 2, Proposition 5), by the condition $f_{J'J} \circ f_{J,i} = f_{J',i}$ for all $i \in J$. Moreover the uniqueness of $f_{J'J}$ implies that if J, J', J'' are three finite subsets of I such that $J \subset J' \subset J''$, then $f_{J''J} = f_{J''J'} \circ f_{J'J}$. In other words, $(E_J, f_{J'J})$ is a direct system of A-algebras whose indexing set is the right directed set $\mathscr{F}(I)$ of finite subsets of I.
 
 #### Definition 5 {#alg-iii-s4-def-5 .statement}
 
@@ -417,7 +417,7 @@ Let A be a commutative ring and (E_i)_{i \in I} an arbitrary family of (unital) 
 
 If I is finite, E is identified with $\bigotimes_{i \in I} E_i$. By an abuse of notation, E is also denoted by $\bigotimes_{i \in I} E_i$ even if I is infinite.
 
-For every finite subset J of I, let $f_J$ denote the canonical homomorphism $\bigotimes_{i \in J} E_i \to \bigotimes_{i \in I} E_i$ (writing $f_i$ instead of $f_{\{i\}}$); if e is the unit element of $\bigotimes_{i \in I} E_i$, then $f_J(e_J) = e$ for all $J \in \mathcal{F}(I)$. It is immediate that if all the algebras E_i are commutative, so is $\bigotimes_{i \in I} E_i$.
+For every finite subset J of I, let $f_J$ denote the canonical homomorphism $\bigotimes_{i \in J} E_i \to \bigotimes_{i \in I} E_i$ (writing $f_i$ instead of $f_{\{i\}}$); if e is the unit element of $\bigotimes_{i \in I} E_i$, then $f_J(e_J) = e$ for all $J \in \mathscr{F}(I)$. It is immediate that if all the algebras E_i are commutative, so is $\bigotimes_{i \in I} E_i$.
 
 #### Proposition 8 {#alg-iii-s4-prop-8 .statement}
 
@@ -425,7 +425,7 @@ For every finite subset J of I, let $f_J$ denote the canonical homomorphism $\bi
 
 (ii) *Let F be an A-algebra and, for all* $i \in I$, *let* $u_i : E_i \to F$ *be an A-algebra homomorphism such that, for* $i \neq j$, $u_i(x_i)$ *and* $u_j(x_j)$ *commute in* F *for all* $x_i \in E_i$ *and* $x_j \in E_j$. *Then there exists one and only one A-algebra homomorphism* $u : E \to F$ *such that* $u_i = u \circ f_i$ *for all* $i \in I$.
 
-(i) As, for every finite subset J of I, $f_i = f_J \circ f_{J,i}$, the first assertion in (i) follows from no. 2, Proposition 5, taking J containing i and j; the second also follows from no. 2, Proposition 5, taking account of the fact that E is the union of the $f_J(E_J)$ when J runs through $\mathcal{F}(I)$.
+(i) As, for every finite subset J of I, $f_i = f_J \circ f_{J,i}$, the first assertion in (i) follows from no. 2, Proposition 5, taking J containing i and j; the second also follows from no. 2, Proposition 5, taking account of the fact that E is the union of the $f_J(E_J)$ when J runs through $\mathscr{F}(I)$.
 
 (ii) For every finite subset J of I, it follows from no. 2, Proposition 5 that there exists a unique homomorphism $u_J : E_J \to F$ such that $u_J \circ f_{J,i} = u_i$ for all $i \in J$; it immediately follows from this uniqueness property that, for $J \subset J'$, $u_J = u_{J'} \circ f_{J'J}$; in other words, the $u_J$ form a *direct system* of homomorphisms. Let $u = \lim \to u_J : E \to F$; then by definition $u_J = u \circ f_J$ for every finite subset $J$ of $I$ and in particular $u_i = u \circ f_i$ for all $i \in I$; the uniqueness of $u$ follows from these relations and the fact that the $f_i(E_i)$ generate the algebra $E$.
 
@@ -459,7 +459,7 @@ The common value of the $f_J((x_i)_{i \in J})$ for the finite subsets $J \supset
 
 *Let* $(E_i)_{i \in I}$ *be a family of* $A$*-algebras and for each* $i \in I$ *let* $B_i$ *be a basis of* $E_i$ *such that the unit element* $e_i$ *belongs to* $B_i$. *Let* $B$ *be the set of elements of the form* $\bigotimes_{i \in I} x_i$, *where* $(x_i)$ *runs through the set of elements of* $\prod_{i \in I} B_i$ *such that the family* $(x_i - e_i)$ *has finite support*. *Then* $B$ *is a basis of the algebra* $\bigotimes_{i \in I} E_i$ *and this basis contains the unit element* $e$.
 
-For every finite subset $J$ of $I$, let $B_J$ be the basis of $E_J = \bigotimes_{i \in J} E_i$ the tensor product of the bases $B_i$ for $i \in J$ (II, § 3, no. 9). It follows immediately from the definitions that $B$ is the union of the $f_J(B_J)$ when $J$ runs through $\mathcal{F}(I)$ and that $f_{J',J}(B_J) \subset B_{J'}$ when $J \subset J'$; hence $(B_J)$ is a direct system of subsets of the $E_J$ and $B = \lim \rightarrow B_J$; the conclusion then follows from II, § 6, no. 2, Corollary to Proposition 5.
+For every finite subset $J$ of $I$, let $B_J$ be the basis of $E_J = \bigotimes_{i \in J} E_i$ the tensor product of the bases $B_i$ for $i \in J$ (II, § 3, no. 9). It follows immediately from the definitions that $B$ is the union of the $f_J(B_J)$ when $J$ runs through $\mathscr{F}(I)$ and that $f_{J',J}(B_J) \subset B_{J'}$ when $J \subset J'$; hence $(B_J)$ is a direct system of subsets of the $E_J$ and $B = \lim \rightarrow B_J$; the conclusion then follows from II, § 6, no. 2, Corollary to Proposition 5.
 
 The basis $B$ is also called the *tensor product* of the bases $B_i$ for $i \in I$; when the conditions of Proposition 9 are fulfilled, the canonical homomorphisms $f_J : E_J \to E = \bigotimes_{i \in I} E_i$ are *injective* for every subset $J$ of $I$, for if $B_J$ is the basis of $E_J$ the tensor product of the $B_i$ for $i \in J$, it is immediately verified that the restriction of $f_J$ to $B_J$ is injective and maps $B_J$ onto a subset of $B$.
 

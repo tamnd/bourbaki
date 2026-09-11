@@ -38,9 +38,9 @@ subsections:
       pdf_page: 527
 statements: 17
 exercises: 5
-content_sha256: 634206c7da9b3748506f383c0b92f206785adb68709423d53f2e0386c1b1e22a
+content_sha256: ad78d64ca804af6d9e453076f0b191a0476945840339b16bc9164d392a8fe72a
 translated_from: content/en/alg/III/06_s6_symmetric_algebras.md
-source_content_sha256: 7f4b0decff4799e889dd38358965a5bc9fb77813b04c8c87de2e5c514aa78d3c
+source_content_sha256: c190d357f4119eec01190353a132ffb2391abe105d6d6797abe8e8ab04c5ad59
 translation_model: gpt-5.4
 translation_run: translate-vi-136a3468
 glossary_version: 34
@@ -167,13 +167,13 @@ N được gọi là không gian con vectơ của M *liên kết* với z.
 
 ### 3. Lũy thừa đối xứng bậc n của một môđun và các ánh xạ đa tuyến tính đối xứng
 
-Cho X, Y là hai tập hợp và $n$ là một số nguyên $\geqslant 1$. Một *ánh xạ đối xứng* từ $X^n$ vào Y là mọi ánh xạ $f : X^n \to Y$ sao cho, với mọi phép hoán vị $\sigma \in \mathcal{S}_n$ và mọi phần tử $(x_i) \in X^n$,
+Cho X, Y là hai tập hợp và $n$ là một số nguyên $\geqslant 1$. Một *ánh xạ đối xứng* từ $X^n$ vào Y là mọi ánh xạ $f : X^n \to Y$ sao cho, với mọi phép hoán vị $\sigma \in \mathscr{S}_n$ và mọi phần tử $(x_i) \in X^n$,
 
 $$
 f(x_{\sigma(1)}, x_{\sigma(2)}, \ldots, x_{\sigma(n)}) = f(x_1, x_2, \ldots, x_n).
 $$
 
-Vì các phép đổi chỗ trao đổi hai số nguyên liên tiếp sinh ra nhóm $\mathcal{S}_n$ (I, § 5, no. 7), nên điều kiện (5) chỉ cần đúng khi $\sigma$ là một phép đổi chỗ như vậy.
+Vì các phép đổi chỗ trao đổi hai số nguyên liên tiếp sinh ra nhóm $\mathscr{S}_n$ (I, § 5, no. 7), nên điều kiện (5) chỉ cần đúng khi $\sigma$ là một phép đổi chỗ như vậy.
 
 Khi Y là một *môđun* trên một vành giao hoán A, rõ ràng tập hợp các ánh xạ đối xứng từ $X^n$ vào Y là một *môđun con* của A-môđun $Y^{X^n}$ gồm mọi ánh xạ từ $X^n$ vào Y.
 
@@ -187,7 +187,7 @@ $$
 
 *(trong đó ở vế phải tích được lấy trong đại số $S(M)$), thì thu được một ánh xạ A-tuyến tính song ánh từ A-môđun $\operatorname{Hom}_A(S^n(M), N)$ lên A-môđun các ánh xạ n-tuyến tính đối xứng từ $M^n$ vào N.*
 
-Nhắc lại rằng (II, § 3, no. 9) có một song ánh chính tắc của A-môđun $\operatorname{Hom}_A(T^n(M), N)$ lên A-môđun $\mathcal{L}_n(M, \ldots, M; N)$ gồm *mọi* ánh xạ n-tuyến tính từ $M^n$ vào N, thu được bằng cách gắn với mỗi ánh xạ A-tuyến tính $f : T^n(M) \to N$ ánh xạ n-tuyến tính
+Nhắc lại rằng (II, § 3, no. 9) có một song ánh chính tắc của A-môđun $\operatorname{Hom}_A(T^n(M), N)$ lên A-môđun $\mathscr{L}_n(M, \ldots, M; N)$ gồm *mọi* ánh xạ n-tuyến tính từ $M^n$ vào N, thu được bằng cách gắn với mỗi ánh xạ A-tuyến tính $f : T^n(M) \to N$ ánh xạ n-tuyến tính
 
 $$
 \tilde{f} : (x_1, x_2, \ldots, x_n) \mapsto f(x_1 \otimes x_2 \otimes \cdots \otimes x_n).
@@ -348,7 +348,7 @@ $$
 $$
 là giao hoán, như suy ra từ các định nghĩa (§ 4, no. 5, Hệ quả của Mệnh đề 8).
 
-Môđun con của $\bigotimes_{\lambda \in L} S(M_\lambda)$ mà $S^n(M)$ được đồng nhất với nó bằng đẳng cấu $g$ có thể được mô tả chính xác hơn. Với mọi tập con hữu hạn $J$ của $L$, ta viết $E_J = \bigotimes_{\lambda \in J} S(M_\lambda)$, sao cho $\bigotimes_{\lambda \in L} S(M_\lambda) = \varprojlim E_J$ đối với tập có hướng $\mathcal{F}(L)$ gồm các tập con hữu hạn của $L$, theo định nghĩa (§ 4, no. 5). Với mọi họ $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ (do đó có giá *hữu hạn*) sao cho $\sum_{\lambda \in L} n_\lambda = n$ và mọi tập con hữu hạn $J$ của $L$ chứa giá của họ $\nu$, ta viết
+Môđun con của $\bigotimes_{\lambda \in L} S(M_\lambda)$ mà $S^n(M)$ được đồng nhất với nó bằng đẳng cấu $g$ có thể được mô tả chính xác hơn. Với mọi tập con hữu hạn $J$ của $L$, ta viết $E_J = \bigotimes_{\lambda \in J} S(M_\lambda)$, sao cho $\bigotimes_{\lambda \in L} S(M_\lambda) = \varprojlim E_J$ đối với tập có hướng $\mathscr{F}(L)$ gồm các tập con hữu hạn của $L$, theo định nghĩa (§ 4, no. 5). Với mọi họ $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ (do đó có giá *hữu hạn*) sao cho $\sum_{\lambda \in L} n_\lambda = n$ và mọi tập con hữu hạn $J$ của $L$ chứa giá của họ $\nu$, ta viết
 
 $$
 S^{J,\nu}(M) = \bigotimes_{\lambda \in J} S^{n_\lambda}(M_\lambda)

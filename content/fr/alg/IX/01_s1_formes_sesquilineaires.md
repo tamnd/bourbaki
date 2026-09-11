@@ -52,7 +52,7 @@ subsections:
       pdf_page: 30
 statements: 46
 exercises: 0
-content_sha256: c520c3715bc6f8f016eb5da7058dbfa506012e55e322d1d89755e18c9663396f
+content_sha256: 17986366f0f9cb39e9339cdf8d35b5609cef7944d2ad9ea4884702b4d365a501
 ---
 
 ## § 1. Formes sesquilinéaires
@@ -74,7 +74,7 @@ On dit qu’une application $\Phi$ du produit $E \times F$ dans $G$ est bilinéa
 
 Le produit tensoriel $E \otimes_{\mathbf{Z}} F$ est canoniquement muni d’une structure de $(A, B)$-bimodule caractérisée par $a(x \otimes y)b = ax \otimes yb$ (Chap. III, 2e éd., App. II, n° 3), et la donnée d’une application bilinéaire $\Phi$ de $E \times F$ dans $G$ équivaut à celle d’une application $\Psi$ de $E \otimes_{\mathbf{Z}} F$ dans $G$ qui soit un homomorphisme pour les structures de $(A, B)$-bimodules et qui vérifie $\Psi(x \otimes y) = \Phi(x, y)$ quels que soient $x \in E$ et $y \in F$.
 
-Les conditions imposées à $\Phi$ par la définition 1 signifient que les applications partielles $d_\Phi(y) : x \to \Phi(x, y)$ et $s_\Phi(x) : y \to \Phi(x, y)$ sont respectivement une application A-linéaire de $E$ dans $G$ et une application B-linéaire de $F$ dans $G$. Munissons le groupe commutatif $\mathcal{L}_A(E, G)$ (resp. $\mathcal{L}_B(F, G)$) de la structure de B-module à droite (resp. de A-module à gauche) définie par $ub(x) = u(x) . b$ ($u \in \mathcal{L}_A(E, G)$, $x \in E$, $b \in B$) (resp. $a \nu(y) = a . \nu(y)$ ($a \in A$, $\nu \in \mathcal{L}_B(F, G)$, $y \in F$)). Alors les conditions (1) à (4) sont respectivement équivalentes à :
+Les conditions imposées à $\Phi$ par la définition 1 signifient que les applications partielles $d_\Phi(y) : x \to \Phi(x, y)$ et $s_\Phi(x) : y \to \Phi(x, y)$ sont respectivement une application A-linéaire de $E$ dans $G$ et une application B-linéaire de $F$ dans $G$. Munissons le groupe commutatif $\mathscr{L}_A(E, G)$ (resp. $\mathscr{L}_B(F, G)$) de la structure de B-module à droite (resp. de A-module à gauche) définie par $ub(x) = u(x) . b$ ($u \in \mathscr{L}_A(E, G)$, $x \in E$, $b \in B$) (resp. $a \nu(y) = a . \nu(y)$ ($a \in A$, $\nu \in \mathscr{L}_B(F, G)$, $y \in F$)). Alors les conditions (1) à (4) sont respectivement équivalentes à :
 
 $$
 \begin{align*}
@@ -85,15 +85,15 @@ $$
 \end{align*}
 $$
 
-quels que soient $x, x'$ dans $E$, $y, y'$ dans $F$, $a \in A$, $b \in B$; autrement dit, l’application $d_\Phi$ de $F$ dans $\mathcal{L}_A(E, G)$ est B-linéaire, et l’application $s_\Phi$ de $E$ dans $\mathcal{L}_B(F, G)$ est A-linéaire. On a, par définition
+quels que soient $x, x'$ dans $E$, $y, y'$ dans $F$, $a \in A$, $b \in B$; autrement dit, l’application $d_\Phi$ de $F$ dans $\mathscr{L}_A(E, G)$ est B-linéaire, et l’application $s_\Phi$ de $E$ dans $\mathscr{L}_B(F, G)$ est A-linéaire. On a, par définition
 
 $$(5) \quad \Phi(x, y) = d_\Phi(y)(x) = s_\Phi(x)(y) \text{ quels que soient } x \in E, y \in F.$$
 
 #### Définition 2 {#alg-ix-s1-def-2 .statement}
 
-Etant donnée une application bilinéaire $\Phi$ de $E \times F$ dans $G$, l’application $d_\Phi$ de $F$ dans $\mathcal{L}_A(E, G)$ (resp. l’application $s_\Phi$ de $E$ dans $\mathcal{L}_B(F, G)$) caractérisée par (5) est appelée l’application linéaire associée à droite (resp. à gauche) à $\Phi$.
+Etant donnée une application bilinéaire $\Phi$ de $E \times F$ dans $G$, l’application $d_\Phi$ de $F$ dans $\mathscr{L}_A(E, G)$ (resp. l’application $s_\Phi$ de $E$ dans $\mathscr{L}_B(F, G)$) caractérisée par (5) est appelée l’application linéaire associée à droite (resp. à gauche) à $\Phi$.
 
-Inversement la donnée d’une application B-linéaire $d$ de $F$ dans $\mathcal{L}_A(E, G)$ (resp. d’une application A-linéaire $s$ de $E$ dans $\mathcal{L}_B(F, G)$) détermine de façon unique, par la formule
+Inversement la donnée d’une application B-linéaire $d$ de $F$ dans $\mathscr{L}_A(E, G)$ (resp. d’une application A-linéaire $s$ de $E$ dans $\mathscr{L}_B(F, G)$) détermine de façon unique, par la formule
 
 $$
 \Phi(x, y) = d(y)(x) \quad \text{(resp. } \Phi(x, y) = s(x)(y))
@@ -247,15 +247,15 @@ $(a \in A, b \in B, a' \in A', b' \in B', x \in E, y \in F)$.
 
 Il existe donc une application $\mathbf{Z}$-bilinéaire $\Phi'$ de $E' \times F'$ dans $G'$ vérifiant (13) (Chap. III, 2e éd., App. II, n° 1, prop. 2). Cette relation et la définition des structures de modules de $E'$ et $F'$ par (12) montrent que $\Phi'$ est bilinéaire, ce qui termine la démonstration.
 
-Les hypothèses et notations étant celles de la proposition 1, étudions maintenant les *applications linéaires associées* à $\Phi$ et à $\Phi'$ (n° 1, déf. 2). Pour cela nous allons d’abord définir un homomorphisme canonique de $\mathcal{L}_A(E, G)$ dans $\mathcal{L}_{A'}(E', G')$. Pour tout $\nu \in \mathcal{L}_A(E, G)$ l’application $(a', x) \to a'.u(\nu(x))$ de $A' \times E$ dans $G'$ est $\mathbf{Z}$-bilinéaire, et, vu (11), applique $(a'h(a), x)$ et $(a', ax)$ $(a \in A)$ sur le même élément de $G'$; elle définit donc (chap. III, 2e éd.,
+Les hypothèses et notations étant celles de la proposition 1, étudions maintenant les *applications linéaires associées* à $\Phi$ et à $\Phi'$ (n° 1, déf. 2). Pour cela nous allons d’abord définir un homomorphisme canonique de $\mathscr{L}_A(E, G)$ dans $\mathscr{L}_{A'}(E', G')$. Pour tout $\nu \in \mathscr{L}_A(E, G)$ l’application $(a', x) \to a'.u(\nu(x))$ de $A' \times E$ dans $G'$ est $\mathbf{Z}$-bilinéaire, et, vu (11), applique $(a'h(a), x)$ et $(a', ax)$ $(a \in A)$ sur le même élément de $G'$; elle définit donc (chap. III, 2e éd.,
 
-App. II, n°s 1 et 10) une application $k(\nu)$ de $E' = A' \otimes_A E$ dans $G'$ telle que $k(\nu)(a' \otimes x) = a'.u(\nu(x))$, et qui, vu (12), est $A'$-linéaire. En outre l’on déduit immédiatement de (12) que l’application $\nu \to k(\nu)$ de $\mathcal{L}_A(E, G)$ dans $\mathcal{L}_{A'}(E', G')$ vérifie $k(\nu b) = k(\nu)h'(b)$ pour tout $b \in B$. Notons $i$ l’application canonique $y \to y \otimes 1$ de $F$ dans $F'$. Alors le diagramme
+App. II, n°s 1 et 10) une application $k(\nu)$ de $E' = A' \otimes_A E$ dans $G'$ telle que $k(\nu)(a' \otimes x) = a'.u(\nu(x))$, et qui, vu (12), est $A'$-linéaire. En outre l’on déduit immédiatement de (12) que l’application $\nu \to k(\nu)$ de $\mathscr{L}_A(E, G)$ dans $\mathscr{L}_{A'}(E', G')$ vérifie $k(\nu b) = k(\nu)h'(b)$ pour tout $b \in B$. Notons $i$ l’application canonique $y \to y \otimes 1$ de $F$ dans $F'$. Alors le diagramme
 
 $$
 \begin{array}{ccc}
-F & \xrightarrow{d_\Phi} & \mathcal{L}_A(E, G) \\
+F & \xrightarrow{d_\Phi} & \mathscr{L}_A(E, G) \\
 |_i & & |_k \\
-F' & \xrightarrow{d_{\Phi'}} & \mathcal{L}_{A'}(E', G')
+F' & \xrightarrow{d_{\Phi'}} & \mathscr{L}_{A'}(E', G')
 \end{array}
 $$
 

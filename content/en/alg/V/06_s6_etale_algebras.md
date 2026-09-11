@@ -42,7 +42,7 @@ subsections:
       pdf_page: 148
 statements: 22
 exercises: 2
-content_sha256: 1c0ff6eab8a369a6cc0ba7a81f2a00f665a45cec046137d9abeebe3c7a4842b7
+content_sha256: e670b4dd83c9bc46bd6f7c58972d023f4c6f04736f4be78ca1443a9c27857fd0
 ---
 
 ## § 6. ETALE ALGEBRAS
@@ -61,13 +61,13 @@ for $x \in V,\ a \in L$ and $f,\ g$ in $\mathrm{Hom}_K(V, L)$. Let $V_{(L)} = L 
 
 #### Theorem 1 {#alg-v-s6-thm-1 .statement}
 
-— *Let L be an extension of a field K and A an algebra over K; let $\mathcal{H}$ be the set of all K-algebra homomorphisms of A into L. Then $\mathcal{H}$ is a free subset of the vector space $\mathrm{Hom}_K(A, L)$ over L.*
+— *Let L be an extension of a field K and A an algebra over K; let $\mathscr{H}$ be the set of all K-algebra homomorphisms of A into L. Then $\mathscr{H}$ is a free subset of the vector space $\mathrm{Hom}_K(A, L)$ over L.*
 
-Let us show by induction on the integer $n \geq 0$ that every sequence $(u_1, \ldots, u_n)$ of distinct elements of $\mathcal{H}$ is free. The case $n = 0$ being trivial, we may henceforth suppose that $n \geq 1$; let $a_1, \ldots, a_n$ be elements of L such that $$\sum_{i=1}^n \alpha_i u_i = 0.$$ For $x,\ y$ in A we have
+Let us show by induction on the integer $n \geq 0$ that every sequence $(u_1, \ldots, u_n)$ of distinct elements of $\mathscr{H}$ is free. The case $n = 0$ being trivial, we may henceforth suppose that $n \geq 1$; let $a_1, \ldots, a_n$ be elements of L such that $$\sum_{i=1}^n \alpha_i u_i = 0.$$ For $x,\ y$ in A we have
 $$
 \sum_{i=1}^{n-1} \alpha_i [u_i(x) - u_n(x)] \cdot u_i(y) = \sum_{i=1}^n \alpha_i u_i(xy) - u_n(x) \sum_{i=1}^n \alpha_i u_i(y) = 0,
 $$
-whence $$\sum_{i=1}^{n-1} \alpha_i [u_i(x) - u_n(x)] \cdot u_i = 0.$$ By the induction hypothesis, the elements $u_1, \ldots, u_{n-1}$ of $\mathcal{H}$ are linearly independent, whence $\alpha_i [u_i(x) - u_n(x)] = 0$ for $1 \leq i \leq n-1$ and for all $x$ in A. Since the $u_i$ are distinct, this implies that $\alpha_i = 0$ for $i \neq n$, hence $\alpha_n u_n = 0$ and so $\alpha_n = \alpha_n u_n(1) = 0$ (on denoting by 1 the unit element of A). We have thus shown that $a_1, \ldots, a_{n-1}, \alpha_n$ are zero, and this proves the theorem.
+whence $$\sum_{i=1}^{n-1} \alpha_i [u_i(x) - u_n(x)] \cdot u_i = 0.$$ By the induction hypothesis, the elements $u_1, \ldots, u_{n-1}$ of $\mathscr{H}$ are linearly independent, whence $\alpha_i [u_i(x) - u_n(x)] = 0$ for $1 \leq i \leq n-1$ and for all $x$ in A. Since the $u_i$ are distinct, this implies that $\alpha_i = 0$ for $i \neq n$, hence $\alpha_n u_n = 0$ and so $\alpha_n = \alpha_n u_n(1) = 0$ (on denoting by 1 the unit element of A). We have thus shown that $a_1, \ldots, a_{n-1}, \alpha_n$ are zero, and this proves the theorem.
 
 #### Corollary 1 {#alg-v-s6-thm-1-cor-1 .statement}
 
@@ -142,9 +142,9 @@ Conversely suppose that *d)* holds and consider the A-module A,. There exists th
 
 #### Corollary {#alg-v-s6-n3-cor-1 .statement}
 
-*Let L be an extension of K and $\mathcal{H}$ the set of algebra homomorphisms of A into L. We have Card $\mathcal{H} \leq [A : K]$, with equality if and only if A is diagonalized by L. If A is diagonalized by L, then $\mathcal{H}$ is a basis of the vector L-space $\mathrm{Hom}_K(A, L)$.*
+*Let L be an extension of K and $\mathscr{H}$ the set of algebra homomorphisms of A into L. We have Card $\mathscr{H} \leq [A : K]$, with equality if and only if A is diagonalized by L. If A is diagonalized by L, then $\mathscr{H}$ is a basis of the vector L-space $\mathrm{Hom}_K(A, L)$.*
 
-The vector space $\mathrm{Hom}_K(A, L)$ over L has dimension $[A : K]$, by Formula (2), and $\mathcal{H}$ is a free subset of $\mathrm{Hom}_K(A, L)$ by Th. 1 (*V*, p. 27). We thus have Card $\mathcal{H} \leq [A : K]$ with equality if and only if $\mathcal{H}$ is a basis of $\mathrm{Hom}_K(A, L)$. There exists an isomorphism of vector L-spaces, say $\pi : \mathrm{Hom}_K(A, L) \to A_{(L)}^*$, characterized by $u(x) = (\pi u)(1 \otimes x)$ for $x \in A$, and $\pi$ maps $\mathcal{H}$ onto the set $\mathcal{H}_L$ of L-algebra homomorphisms of $A(\cdot)$ into L. Finally the equivalence of a) and c) in Prop. 1 shows that the algebra $A_{(L)}$ over L is diagonalizable if and only if $\mathcal{H}_L$ generates the vector space $A_{(L)}^*$ over L. This completes the proof of the Corollary.
+The vector space $\mathrm{Hom}_K(A, L)$ over L has dimension $[A : K]$, by Formula (2), and $\mathscr{H}$ is a free subset of $\mathrm{Hom}_K(A, L)$ by Th. 1 (*V*, p. 27). We thus have Card $\mathscr{H} \leq [A : K]$ with equality if and only if $\mathscr{H}$ is a basis of $\mathrm{Hom}_K(A, L)$. There exists an isomorphism of vector L-spaces, say $\pi : \mathrm{Hom}_K(A, L) \to A_{(L)}^*$, characterized by $u(x) = (\pi u)(1 \otimes x)$ for $x \in A$, and $\pi$ maps $\mathscr{H}$ onto the set $\mathscr{H}_L$ of L-algebra homomorphisms of $A(\cdot)$ into L. Finally the equivalence of a) and c) in Prop. 1 shows that the algebra $A_{(L)}$ over L is diagonalizable if and only if $\mathscr{H}_L$ generates the vector space $A_{(L)}^*$ over L. This completes the proof of the Corollary.
 
 #### Proposition 2 {#alg-v-s6-prop-2 .statement}
 
@@ -154,7 +154,7 @@ a) *The algebra A is etale*.
 b) *There exists an extension of finite degree which diagonalizes A*.
 c) *The extension $\Omega$ of K diagonalizes A*.
 
-Suppose that A is etale. Let $n$ be the degree of A over K, let L be an extension of K which diagonalizes A and let $\mathcal{H}$ be the set of algebra homomorphisms of A into L. By the Cor. to Prop. 1 we have Card $\mathcal{H} = n$. On the other hand, for each $u \in \mathcal{H}$, we have $[u(A):K] \leq n$. By V, p. 18, Th. 2, the subextension L' of L generated by the images of elements of $\mathcal{H}$ is of finite degree over K. Since there exist $n$ distinct homomorphisms of A into L', the extension L' diagonalizes A, by the Cor. 1 of Prop. 1. This shows that a) implies b).
+Suppose that A is etale. Let $n$ be the degree of A over K, let L be an extension of K which diagonalizes A and let $\mathscr{H}$ be the set of algebra homomorphisms of A into L. By the Cor. to Prop. 1 we have Card $\mathscr{H} = n$. On the other hand, for each $u \in \mathscr{H}$, we have $[u(A):K] \leq n$. By V, p. 18, Th. 2, the subextension L' of L generated by the images of elements of $\mathscr{H}$ is of finite degree over K. Since there exist $n$ distinct homomorphisms of A into L', the extension L' diagonalizes A, by the Cor. 1 of Prop. 1. This shows that a) implies b).
 
 Since every extension of finite degree of K is isomorphic to a subextension of $\Omega$ (V, p. 20, Th. 1), b) implies c). Finally c) clearly implies a).
 
@@ -198,7 +198,7 @@ $$
 [A \otimes_K B : K]_s = [A : K]_s \cdot [B : K]_s .
 $$
 
-Let $L$ be an algebraically closed extension of $K$ and denote by $\mathcal{H}(A)$ the set of algebra homomorphisms of $A$ into $L$, and similarly define $\mathcal{H}(B)$ and $\mathcal{H}(A \otimes_K B)$. By definition we have Card $\mathcal{H}(A) = [A : K]$, and corresponding formulae for [B : K], and [A \otimes_K B : K]. Moreover (III, p. 465, Formula (6)), the formula $(u * v)(a \otimes b) = u(a)v(b)$ defines a bijection $(u, v) \mapsto u * v$ of $\mathcal{H}(A) \times \mathcal{H}(B)$ onto $\mathcal{H}(A \otimes_K B)$, whence Formula (7) follows.
+Let $L$ be an algebraically closed extension of $K$ and denote by $\mathscr{H}(A)$ the set of algebra homomorphisms of $A$ into $L$, and similarly define $\mathscr{H}(B)$ and $\mathscr{H}(A \otimes_K B)$. By definition we have Card $\mathscr{H}(A) = [A : K]$, and corresponding formulae for [B : K], and [A \otimes_K B : K]. Moreover (III, p. 465, Formula (6)), the formula $(u * v)(a \otimes b) = u(a)v(b)$ defines a bijection $(u, v) \mapsto u * v$ of $\mathscr{H}(A) \times \mathscr{H}(B)$ onto $\mathscr{H}(A \otimes_K B)$, whence Formula (7) follows.
 
 Let $K'$ be an extension of $K$; we shall prove the formula
 $$

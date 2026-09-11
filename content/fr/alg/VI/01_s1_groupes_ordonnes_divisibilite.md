@@ -64,7 +64,7 @@ subsections:
       pdf_page: 305
 statements: 54
 exercises: 36
-content_sha256: d459aee49edffec36fa4551da478366cdc6f77c17893a082abca75e768bd0144
+content_sha256: 5210751720bc4d1470a1f313e1aa8fe306859300b0709e0c18bfe5f5cb9bb663
 ---
 
 ## § 1. GROUPES ORDONNÉS. DIVISIBILITÉ
@@ -223,11 +223,11 @@ L’idéal principal fractionnaire $Ax$ se note aussi $(x)$. On écrira $x \equi
 
 On notera que $x \equiv x'$ (mod. $y$) n’entraîne pas $zx \equiv zx'$ (mod. $y$) à moins que l’on ait $z \in A$. Ainsi, dans $\mathbf{Q}$, relativement à $\mathbf{Z}$, on a $4 \equiv 2$ (mod. 2) mais non $2 \equiv 1$ (mod. 2).
 
-La relation $x|y$ équivaut évidemment à $(x) \supset (y)$. L’application $x \mapsto (x)$ de $K^*$ sur l’ensemble $\mathcal{P}^*$ des idéaux principaux fractionnaires $\neq (0)$ de K définit donc, par passage au quotient, une application bijective de $K^*/A^*$ sur $\mathcal{P}^*$; en transportant à $\mathcal{P}^*$, au moyen de cette application, la structure de groupe de $K^*/A^*$, on est conduit à définir comme produit des idéaux principaux fractionnaires $(x)$ et $(y)$ l’idéal $(xy)$, celui-ci ne dépendant que de $(x)$ et $(y)$. Muni de cette loi et de la relation d’ordre $(x) \supset (y)$, $\mathcal{P}^*$ est un groupe ordonné, isomorphe à $K^*/A^*$, et qu’on conviendra d’identifier à $K^*/A^*$ au moyen de l’application ci-dessus.
+La relation $x|y$ équivaut évidemment à $(x) \supset (y)$. L’application $x \mapsto (x)$ de $K^*$ sur l’ensemble $\mathscr{P}^*$ des idéaux principaux fractionnaires $\neq (0)$ de K définit donc, par passage au quotient, une application bijective de $K^*/A^*$ sur $\mathscr{P}^*$; en transportant à $\mathscr{P}^*$, au moyen de cette application, la structure de groupe de $K^*/A^*$, on est conduit à définir comme produit des idéaux principaux fractionnaires $(x)$ et $(y)$ l’idéal $(xy)$, celui-ci ne dépendant que de $(x)$ et $(y)$. Muni de cette loi et de la relation d’ordre $(x) \supset (y)$, $\mathscr{P}^*$ est un groupe ordonné, isomorphe à $K^*/A^*$, et qu’on conviendra d’identifier à $K^*/A^*$ au moyen de l’application ci-dessus.
 
 On notera que la relation « $x$ divise $y$ » qui, dans le cas des entiers positifs, implique que $x$ est plus petit que $y$, correspond à l’inclusion $(x) \supset (y)$ où l’idéal $(x)$ est « plus grand » que l’idéal $(y)$. On se souviendra de ce « renversement d’ordre » en notant par exemple que 7 a « plus de multiples » que 91.
 
-Lorsqu’on étend la relation $x|y$ à tous les éléments de K, cette relation est encore équivalente à $(x) \supset (y)$ dans l’ensemble $\mathcal{P}$ de tous les idéaux principaux fractionnaires de K (dans lequel $(0)$ est le plus petit élément pour la relation d’inclusion).
+Lorsqu’on étend la relation $x|y$ à tous les éléments de K, cette relation est encore équivalente à $(x) \supset (y)$ dans l’ensemble $\mathscr{P}$ de tous les idéaux principaux fractionnaires de K (dans lequel $(0)$ est le plus petit élément pour la relation d’inclusion).
 
 Comme dans les nos précédents, nous allons utiliser dans la suite de ce paragraphe la notation additive. Cependant l’introduction de la terminologie relative à la divisibilité sera faite après l’introduction de la terminologie additive correspondante, dans des alinéas précédés du signe (DIV) (où il est entendu que les notations sont celles de ce no). Afin de faciliter le travail du lecteur, certains résultats importants seront traduits dans le langage de la divisibilité, la traduction de la prop. 7, par exemple, étant notée « PROPOSITION 7 (DIV) ».
 
@@ -265,7 +265,7 @@ Rappelons (E, III, p. 10) que, si l’ensemble des majorants d’une partie $F$ 
 
 Rappelons (E, loc. cit.) que, si $F$ est une partie d’un ensemble ordonné $E$, et $(x_i)$ une famille d’éléments de $F$, l’existence de $\sup(x_i)$ dans $E$ (que l’on peut noter $\sup_E(x_i)$) n’entraîne pas l’existence d’une borne supérieure des $x_i$ dans $F$ (que l’on peut noter $\sup_F(x_i)$ lorsqu’elle existe); si toutes deux existent, on a seulement $\sup_E(x_i) \leq \sup_F(x_i)$; en revanche si $\sup_E(x_i)$ existe et appartient à $F$, $\sup_F(x_i)$ existe et est égal à $\sup_E(x_i)$. Par exemple, dans l’anneau de polynômes $A = K[X, Y]$ ($K$ corps commutatif), les idéaux principaux $AX$ et $AY$ ont l’idéal $AX + AY$ pour borne supérieure (pour la relation $\subset$) dans l’ensemble ordonné de tous les idéaux de $A$, mais ont l’anneau $A$ pour borne supérieure dans l’ensemble des idéaux principaux de $A$.
 
-(DIV) On dit qu’un élément $d$ de $K^*$ est un plus grand commun diviseur, ou, en abrégé, un $pgcd$, d’une famille $(x_i)$ d’éléments de $K^*$, si l’idéal principal fractionnaire $(d)$ est, dans $\mathcal{P}^*$, la borne supérieure (pour la relation $\subset$) de la famille d’idéaux $((x_i))$, ou, autrement dit, si, pour $z \in K^*$, la relation $z|d$ équivaut à « $z|x_i$ pour tout $i$ ». On dira de même que $m \in K^*$ est un plus petit commun multiple ou un $ppcm$ de la famille $(x_i)$ si $(m)$ est, dans $\mathcal{P}^*$, la borne inférieure de la famille d’idéaux $((x_i))$, c’est-à-dire si $m|z$ équivaut à « $x_i|z$ pour tout $i$ ». Il revient au même de dire que $(m) = \bigcap (x_i)$; en effet, la condition $x_i|z$ pour tout $i$ équivaut à $z \in Ax_i$ pour tout $i$, c’est-à-dire à $z \in \bigcap (x_i)$, et la condition $m|z$ équivaut à $z \in (m)$^1.
+(DIV) On dit qu’un élément $d$ de $K^*$ est un plus grand commun diviseur, ou, en abrégé, un $pgcd$, d’une famille $(x_i)$ d’éléments de $K^*$, si l’idéal principal fractionnaire $(d)$ est, dans $\mathscr{P}^*$, la borne supérieure (pour la relation $\subset$) de la famille d’idéaux $((x_i))$, ou, autrement dit, si, pour $z \in K^*$, la relation $z|d$ équivaut à « $z|x_i$ pour tout $i$ ». On dira de même que $m \in K^*$ est un plus petit commun multiple ou un $ppcm$ de la famille $(x_i)$ si $(m)$ est, dans $\mathscr{P}^*$, la borne inférieure de la famille d’idéaux $((x_i))$, c’est-à-dire si $m|z$ équivaut à « $x_i|z$ pour tout $i$ ». Il revient au même de dire que $(m) = \bigcap (x_i)$; en effet, la condition $x_i|z$ pour tout $i$ équivaut à $z \in Ax_i$ pour tout $i$, c’est-à-dire à $z \in \bigcap (x_i)$, et la condition $m|z$ équivaut à $z \in (m)$^1.
 
 1 Lorsque $A$ est l’anneau des entiers (resp. l’anneau des polynômes à une indéterminée à coefficients dans un corps commutatif), ces définitions coïncident avec celles de I, p. 106 (resp. IV, p. 12, déf. 1).
 
@@ -422,7 +422,7 @@ On déduit de d) que $|x| = 0$ entraîne $x = 0$ (car $x^+$ et $x^-$ sont positi
 
 #### Proposition 9 {#alg-vi-s1-div-prop-9 .statement}
 
-Si le groupe $\mathcal{P}^*$ des idéaux principaux fractionnaires de $K$ est réticulé, tout élément $x$ de $K^*$ peut être mis sous la forme $x = uv^{-1}$, où $u$ et $v$ sont des éléments de $A$ tels que $1 = \operatorname{pgcd}(u, v)$; pour toute autre expression $x = u'{v'}^{-1}$ de $x$ comme quotient de deux éléments de $A$, on a $u' = uw, v' = vw$, où $w \in A$ est un pgcd de $u'$ et $v'$; en particulier si $1 = \operatorname{pgcd}(u', v')$, $u'$ et $v'$ sont respectivement associés à $u$ et $v$.
+Si le groupe $\mathscr{P}^*$ des idéaux principaux fractionnaires de $K$ est réticulé, tout élément $x$ de $K^*$ peut être mis sous la forme $x = uv^{-1}$, où $u$ et $v$ sont des éléments de $A$ tels que $1 = \operatorname{pgcd}(u, v)$; pour toute autre expression $x = u'{v'}^{-1}$ de $x$ comme quotient de deux éléments de $A$, on a $u' = uw, v' = vw$, où $w \in A$ est un pgcd de $u'$ et $v'$; en particulier si $1 = \operatorname{pgcd}(u', v')$, $u'$ et $v'$ sont respectivement associés à $u$ et $v$.
 
 Une telle expression $uv^{-1}$ d’un élément $x$ de $K^*$ est souvent appelée une fraction irréductible.
 
@@ -440,7 +440,7 @@ Les $x_i$ peuvent être étrangers dans leur ensemble sans être étrangers deux
 
 Si $x$ et $y$ sont étrangers, on dit aussi que $x$ est étranger à $y$, ou que $y$ est étranger à $x$.
 
-(DIV) On dit que deux éléments $x$ et $y$ de $K$ sont étrangers si les idéaux principaux $(x)$ et $(y)$ sont non nuls et étrangers dans $\mathcal{P}^*$; ceci revient à dire que $1$ est un pgcd de $x$ et $y$, et implique que $x$ et $y$ appartiennent à $A$. Par exemple le numératuer et le dénominateur d’une fraction irréductible sont étrangers. On définit de même les notions d’éléments étrangers deux à deux, et d’éléments étrangers dans leur ensemble.
+(DIV) On dit que deux éléments $x$ et $y$ de $K$ sont étrangers si les idéaux principaux $(x)$ et $(y)$ sont non nuls et étrangers dans $\mathscr{P}^*$; ceci revient à dire que $1$ est un pgcd de $x$ et $y$, et implique que $x$ et $y$ appartiennent à $A$. Par exemple le numératuer et le dénominateur d’une fraction irréductible sont étrangers. On définit de même les notions d’éléments étrangers deux à deux, et d’éléments étrangers dans leur ensemble.
 
 (DIV) On dit souvent, quand $x$ et $y$ sont étrangers, que $x$ et $y$ sont « premiers entre eux »; il convient d’éviter cette terminologie, qui entraîne confusion avec la notion d’entier premier (I, p. 48, déf. 16).
 
@@ -491,7 +491,7 @@ On a en effet nx = nx^+ − nx^- ; comme x^+ et x^- sont étrangers, il en est d
 
 #### Proposition 11 {#alg-vi-s1-div-prop-11 .statement}
 
-L’ensemble $\mathcal{P}^*$ étant supposé réticulé, soient $(a_i), (b_j)$ deux familles finies d’éléments de $\mathbf{A}$. Alors tout pgcd de $\prod_i a_i$ et de $\prod_j b_j$ divise le produit $\prod_{i,j} \operatorname{pgcd}(a_i, b_j)$.
+L’ensemble $\mathscr{P}^*$ étant supposé réticulé, soient $(a_i), (b_j)$ deux familles finies d’éléments de $\mathbf{A}$. Alors tout pgcd de $\prod_i a_i$ et de $\prod_j b_j$ divise le produit $\prod_{i,j} \operatorname{pgcd}(a_i, b_j)$.
 
 #### Corollaire 1 {#alg-vi-s1-div-prop-11-cor-1 .statement}
 
@@ -576,7 +576,7 @@ Cette propriété de distributivité est spéciale aux *groupes* réticulés et 
 
 Soit $x$ un élément extrémal du groupe ordonné $G$; si $y$ est un élément positif de $G$, l’élément $\inf(x, y)$, s’il existe, ne peut donc être égal qu’à $x$ ou à 0. Ainsi, dans un groupe réticulé $G$, tout $y$ positif est, soit supérieur, soit étranger à l’élément extrémal $x$; en particulier deux éléments extrémaux distincts sont étrangers.
 
-(DIV) Un élément $p$ de $A$ est dit *extrémal* si l’idéal $(p)$ est un élément extrémal du groupe ordonné $\mathcal{P}^*$; ceci exprime que $p$ n’est ni nul, ni inversible, et que tout élément de $A$ qui divise $p$ est associé, soit à $p$, soit à 1. Si $\mathcal{P}^*$ est réticulé, tout $a \in A$ est, soit étranger à $p$, soit multiple de $p$.
+(DIV) Un élément $p$ de $A$ est dit *extrémal* si l’idéal $(p)$ est un élément extrémal du groupe ordonné $\mathscr{P}^*$; ceci exprime que $p$ n’est ni nul, ni inversible, et que tout élément de $A$ qui divise $p$ est associé, soit à $p$, soit à 1. Si $\mathscr{P}^*$ est réticulé, tout $a \in A$ est, soit étranger à $p$, soit multiple de $p$.
 
 *Exemples* (DIV). — 1) Un entier $p > 0$ est extrémal dans $\mathbf{Z}$ si et seulement s’il est *premier* (I, p. 48).
 2) Un polynôme à une indéterminée sur un corps $K$ est extrémal dans l’anneau $K[X]$ si et seulement s’il est *irréductible* (IV, p. 13).
@@ -591,11 +591,11 @@ Si G est réticulé et si x est extrémal, nous venons de voir que y est, soit s
 
 #### Proposition 14 {#alg-vi-s1-div-prop-14 .statement}
 
-Pour qu’un élément p non nul de A soit extrémal, il suffit qu’il ne soit pas une unité, et qu’il ne puisse diviser un produit de deux éléments de A sans diviser l’un d’eux. Cette condition est nécessaire si $\mathcal{P}^*$ est réticulé.
+Pour qu’un élément p non nul de A soit extrémal, il suffit qu’il ne soit pas une unité, et qu’il ne puisse diviser un produit de deux éléments de A sans diviser l’un d’eux. Cette condition est nécessaire si $\mathscr{P}^*$ est réticulé.
 
 #### Remarque {#alg-vi-s1-n13-rem-1 .statement}
 
-On peut aussi exprimer la proposition 14 (DIV) comme suit : si p est un élément non nul de A tel que l’idéal (p) soit premier (I, p. 111, déf. 3), alors p est extrémal ; inversement, si $\mathcal{P}^*$ est réticulé et p extrémal, l’idéal (p) est premier.
+On peut aussi exprimer la proposition 14 (DIV) comme suit : si p est un élément non nul de A tel que l’idéal (p) soit premier (I, p. 111, déf. 3), alors p est extrémal ; inversement, si $\mathscr{P}^*$ est réticulé et p extrémal, l’idéal (p) est premier.
 
 #### Proposition 15 {#alg-vi-s1-prop-15 .statement}
 

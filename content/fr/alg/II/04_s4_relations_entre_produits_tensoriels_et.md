@@ -29,7 +29,7 @@ subsections:
       pdf_page: 256
 statements: 15
 exercises: 9
-content_sha256: b14f871e442d2c9eb946f3fc7cf7f12be5c3e58f35a9cdf3ae02e8ccec04e962
+content_sha256: 842e7d7a56be95f40e0af26c55e8df269080f7d1ff3b15f1df5758a7197aabfe
 ---
 
 ## § 4. RELATIONS ENTRE PRODUITS TENSORIELS ET MODULES D’HOMOMORPHISMES
@@ -113,7 +113,7 @@ sont canoniquement isomorphes au $\Gamma$-module des applications $\Gamma$-*bili
 $$
 \begin{array}{ll}
 \mathrm{Hom}_C(E \otimes_C F, G), & \mathrm{Hom}_C(E, \mathrm{Hom}_C(F, G)), \\
-\mathrm{Hom}_C(F, \mathrm{Hom}_C(E, G)), & \mathcal{L}_2(E, F; G)
+\mathrm{Hom}_C(F, \mathrm{Hom}_C(E, G)), & \mathscr{L}_2(E, F; G)
 \end{array}
 $$
 

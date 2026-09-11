@@ -34,7 +34,7 @@ subsections:
       pdf_page: 53
 statements: 14
 exercises: 10
-content_sha256: ea8e120387da4eeeb5565a60d17f5eac8359a45e81eafde8841009256e414458
+content_sha256: fefea5c72fe036c89a879762938486baeb1decc5d9be21d1053e8bc5fabd4729
 ---
 
 ## § 3. ACTIONS
@@ -57,13 +57,13 @@ instead of "law of left action". The element $f_\alpha(x)$ of E (for $\alpha \in
 
 (1) Let E be an associative magma written multiplicatively. The mapping which associates with a strictly positive integer $n$ the mapping $x \mapsto x^n$ of E into itself is an action of $\mathbf{N}^*$ on E. If E is a group, the mapping which associates with a rational integer $a$ the mapping $x \mapsto x^a$ of E into E is an action of $\mathbf{Z}$ on E.
 
-(2) Let E be a magma with law denoted by $\top$. The mapping which associates with $x \in E$ the mapping $A \mapsto x \top A$ of the set of subsets of E into itself is an action of E on $\mathcal{P}(E)$.
+(2) Let E be a magma with law denoted by $\top$. The mapping which associates with $x \in E$ the mapping $A \mapsto x \top A$ of the set of subsets of E into itself is an action of E on $\mathscr{P}(E)$.
 
 (3) Let E be a set. The identity mapping of $E^E$ is an action of $E^E$ on E, called the *canonical action*. The corresponding law of action is the mapping $(f, x) \mapsto f(x)$ of $E^E \times E$ into E.
 
 (4) Let $(\Omega_i)_{i \in I}$ be a family of sets. For all $i \in I$, let $f_i : \Omega_i \to E^E$ be an action of $\Omega_i$ on E. Let $\Omega$ be the sum of the $\Omega_i$ (*Set Theory*, II, § 4, no. 8). The mapping $f$ of $\Omega$ onto $E^E$, extending the $f_i$, is an action of $\Omega$ on E. This allows us to reduce the study of a family of actions to that of a single action.
 
-(5) Given an action of $\Omega$ on E with law denoted by $\perp$, a subset $\Xi$ of $\Omega$ and a subset X of E, $\Xi \perp X$ denotes the set of $\alpha \perp x$ with $\alpha \in \Xi$ and $x \in X$; when $\Xi$ consists of a single element $\alpha$, we generally write $\alpha \perp X$ instead of $\{\alpha\} \perp X$. The mapping which associates with $\alpha \in \Omega$ the mapping $X \mapsto \alpha \perp X$ is an action of $\Omega$ on $\mathcal{P}(E)$, which is said to be *derived* from the given action by extension to the set of subsets.
+(5) Given an action of $\Omega$ on E with law denoted by $\perp$, a subset $\Xi$ of $\Omega$ and a subset X of E, $\Xi \perp X$ denotes the set of $\alpha \perp x$ with $\alpha \in \Xi$ and $x \in X$; when $\Xi$ consists of a single element $\alpha$, we generally write $\alpha \perp X$ instead of $\{\alpha\} \perp X$. The mapping which associates with $\alpha \in \Omega$ the mapping $X \mapsto \alpha \perp X$ is an action of $\Omega$ on $\mathscr{P}(E)$, which is said to be *derived* from the given action by extension to the set of subsets.
 
 (6) Let $\alpha \mapsto f_\alpha$ be an action of $\Omega$ on E. Let g be a mapping of $\Omega'$ into $\Omega$. Then the mapping $\beta \mapsto f_{g(\beta)}$ is an action of $\Omega'$ on E.
 
@@ -250,7 +250,7 @@ $$
 
 #### Example {#alg-i-s3-n5-exa-1 .statement}
 
-(1) In the set $\mathcal{P}(E)$ of subsets of a set E, each of the internal laws $\cap$ and $\cup$ is distributive with respect to itself and the other. This follows from formulae of the form
+(1) In the set $\mathscr{P}(E)$ of subsets of a set E, each of the internal laws $\cap$ and $\cup$ is distributive with respect to itself and the other. This follows from formulae of the form
 
 $$
 A \cap (B \cup C) = (A \cap B) \cup (A \cap C)

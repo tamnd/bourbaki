@@ -26,9 +26,9 @@ subsections:
       pdf_page: 218
 statements: 21
 exercises: 6
-content_sha256: 92a2f35c1715913bbc13d270839d3c3d138a41845483501d46bb0fa484205095
+content_sha256: ead619fbe19a5133bafc7a857ead078acbdfbf952f6bab843161f51782586fcb
 translated_from: content/en/alg/V/13_s13_p_radical_extensions_of_height_1.md
-source_content_sha256: 2e86155015b6398452126421acca82c8b97152bd71e23dcc83bf4cd83ef2aabb
+source_content_sha256: 919da70d2816cf67fbcdc62af1b32659189ff776273e42b53f86573e4471cd39
 translation_model: gpt-5.4, gpt-5-6-mini, copied
 translation_run: translate-vi-d004b81c
 glossary_version: 34
@@ -228,11 +228,11 @@ $$[aD, a'D'] = aa' \cdot [D, D'] + (aD(a')) \cdot D' - (a'D'(a)) \cdot D.$$
 
 Đặc biệt, ánh xạ $(D, D') \mapsto [D, D']$ từ $g \times g$ vào $g$ là $E^p$-tuyến tính.
 
-Ta ký hiệu bởi $\mathcal{C}$ tập hợp các trường con $K$ của $E$ sao cho $E^p \subset K$ và $[E : K]$ là hữu hạn; với mỗi $K \in \mathcal{C}$ ta ký hiệu bởi $g(K)$ tập hợp các K-đạo hàm của E. Hơn nữa, ta ký hiệu bởi $\mathcal{L}$ tập hợp các không gian con vectơ $l$ của $g$ có số chiều hữu hạn trên E và sao cho $[D, D'] \in h$ và $D^p \in h$ với mọi $D, D'$ trong $h$; với mỗi $h \in \mathcal{L}$ ta ký hiệu bởi $I(h)$ tập hợp các $x \in E$ sao cho $D(x) = 0$ với mọi $D \in h$.
+Ta ký hiệu bởi $\mathscr{C}$ tập hợp các trường con $K$ của $E$ sao cho $E^p \subset K$ và $[E : K]$ là hữu hạn; với mỗi $K \in \mathscr{C}$ ta ký hiệu bởi $g(K)$ tập hợp các K-đạo hàm của E. Hơn nữa, ta ký hiệu bởi $\mathscr{L}$ tập hợp các không gian con vectơ $l$ của $g$ có số chiều hữu hạn trên E và sao cho $[D, D'] \in h$ và $D^p \in h$ với mọi $D, D'$ trong $h$; với mỗi $h \in \mathscr{L}$ ta ký hiệu bởi $I(h)$ tập hợp các $x \in E$ sao cho $D(x) = 0$ với mọi $D \in h$.
 
 #### Định lý 3 (Jacobson) {#alg-v-s13-thm-3 .statement}
 
-— *Các ánh xạ $K \mapsto g(K)$ và $l \mapsto I(h)$ lần lượt là các song ánh của $\mathcal{C}$ lên $\mathcal{L}$ và của $\mathcal{L}$ lên $\mathcal{C}$, nghịch đảo của nhau. Nếu $K \in \mathcal{C}$ và $h \in \mathcal{L}$ tương ứng với nhau, thì $[E : K] = p^{[h : E]}$*.
+— *Các ánh xạ $K \mapsto g(K)$ và $l \mapsto I(h)$ lần lượt là các song ánh của $\mathscr{C}$ lên $\mathscr{L}$ và của $\mathscr{L}$ lên $\mathscr{C}$, nghịch đảo của nhau. Nếu $K \in \mathscr{C}$ và $h \in \mathscr{L}$ tương ứng với nhau, thì $[E : K] = p^{[h : E]}$*.
 
 Chứng minh cần đến một số bổ đề sơ bộ.
 
@@ -264,7 +264,7 @@ do đó $xu \in K_{i+1}$. Vì x khác không, phép nhân với x là một tự
 
 #### Bổ đề 3 {#alg-v-s13-lem-3 .statement}
 
-*Cho $\mathfrak{h} \in \mathcal{L}$ có chiều s trên E. Khi đó $I(\mathfrak{h})$ thuộc $\mathcal{C}$ và ta có $[E : I(\mathfrak{h})] = p^s$.*
+*Cho $\mathfrak{h} \in \mathscr{L}$ có chiều s trên E. Khi đó $I(\mathfrak{h})$ thuộc $\mathscr{C}$ và ta có $[E : I(\mathfrak{h})] = p^s$.*
 
 Hiển nhiên $I(\mathfrak{h})$ là một trường con của $E$ chứa $E^p$. Với mỗi $x \in E$, gọi $f_x$ là dạng tuyến tính E trên I) xác định bởi $D \mapsto D(x)$. Vì giao của các hạt nhân của các dạng tuyến tính này bằng 0, chúng sinh không gian đối ngẫu với $\mathfrak{h}$ (II, p. 301, Định lý 7); do đó tồn tại các phần tử $x_1, \ldots, x_s$ của $E$ sao cho các dạng tuyến tính $f_{x_1}, \ldots, f_{x_s}$ lập thành một cơ sở của không gian đối ngẫu này. Gọi $(A,, \ldots, A,)$ là cơ sở của $\mathfrak{h}$ được đặc trưng bởi các hệ thức $\Delta_i(x_j) = f_{x_j}(\Delta_i) = \delta_{ij}$. Đặt $D_i = x_i \Delta_i$, khi đó $(D_1, \ldots, D_s)$ là một cơ sở của I) trên E và ta có $D_i(x_j) = x_i \delta_{ij}$. Các phép đạo hàm $D_i^p - D_i$ và $[D_i, D_j]$ với $i, j = 1, \ldots, s$ thuộc I) và triệt tiêu $x_1, \ldots, x_s$; do đó ta có
 $$
@@ -276,15 +276,15 @@ E = K_0 \supset K_1 \supset \ldots \supset K_{s-1} \supset K_s = I(\mathfrak{h})
 $$
 Cho i nằm giữa 0 và $s-1$; khi đó $K_i$ ổn định dưới tác dụng của $D_{i+1}$ vì $D_{i+1}$ giao hoán với $D_1, \ldots, D_i$. Hơn nữa ta có $D_{i+1}^p = D_{i+1}$, $D_{i+1}(x_{i+1}) = x_{i+1} \neq 0$ và $x_{i+1} \in K_i$. Vì thế Bổ đề 1 suy ra rằng $[K_i : K_{i+1}] = p$, do đó cuối cùng $[E : K] = [K_0 : K_s] = p^s$.
 
-Bây giờ ta đi đến chứng minh định lý. Cho I) $\in \mathcal{L}$ có chiều s trên E và đặt $K = I(\mathfrak{h})$; khi đó $[E : K] = p^s$ theo Bổ đề 3, do đó $[\Omega_K(E) : E] = s$ theo
+Bây giờ ta đi đến chứng minh định lý. Cho I) $\in \mathscr{L}$ có chiều s trên E và đặt $K = I(\mathfrak{h})$; khi đó $[E : K] = p^s$ theo Bổ đề 3, do đó $[\Omega_K(E) : E] = s$ theo
 
 ĐL. 2, c) (V, p. 103). Theo tính chất phổ quát của môđun vi phân, ánh xạ $u \mapsto u \circ d_{E/K}$ là một đẳng cấu từ đối ngẫu của $\Omega_K(E)$ lên $g(K)$, nên $[g(K):E] = s$. Bây giờ ta có $[\mathfrak{h}:E] = s$ và $\mathfrak{h} \subset g(K)$, do đó $\mathfrak{h} = g(K)$, tức là $\mathfrak{h} = g(I(\mathfrak{h}))$.
 
-Ngược lại, với mọi trường $K \in \mathcal{C}$ thì hiển nhiên $g(K)$ thuộc $\mathcal{L}$ (V, p. 103, Th. 2, c)). *Nếu* $x$ thuộc $I(g(K))$, thì ta có $u(d_{E/K}x) = 0$ với mọi dạng tuyến tính $u$ trên $\Omega_K(E)$, do đó $d_{E/K}x = 0$ và sau cùng $x \in K$ theo Hệ quả 2 của Mệnh đề 5 (V, p. 102). Vậy ta có $K = I(g(K))$.
+Ngược lại, với mọi trường $K \in \mathscr{C}$ thì hiển nhiên $g(K)$ thuộc $\mathscr{L}$ (V, p. 103, Th. 2, c)). *Nếu* $x$ thuộc $I(g(K))$, thì ta có $u(d_{E/K}x) = 0$ với mọi dạng tuyến tính $u$ trên $\Omega_K(E)$, do đó $d_{E/K}x = 0$ và sau cùng $x \in K$ theo Hệ quả 2 của Mệnh đề 5 (V, p. 102). Vậy ta có $K = I(g(K))$.
 
 #### Nhận xét {#alg-v-s13-n3-rem-1 .statement}
 
-— 1) Các song ánh nghịch đảo lẫn nhau $K \mapsto g(K)$ và $\mathfrak{h} \mapsto I(\mathfrak{h})$ làm đảo quan hệ bao hàm; do đó $\mathfrak{h} \mapsto I(\mathfrak{h})$ là một đẳng cấu từ tập hợp có thứ tự $\mathcal{L}$ lên tập hợp có thứ tự đối của $\mathcal{C}$. Vì thế ta thu được quan hệ $I(\mathfrak{h} \cap \mathfrak{h}') = E^p(I(\mathfrak{h}), I(\mathfrak{h}'))$ với $\mathfrak{h}, \mathfrak{h}'$ trong $\mathcal{L}$, bởi vì $\mathfrak{h} \cap \mathfrak{h}'$ là phần tử lớn nhất của $\mathcal{L}$ được chứa đồng thời trong $\mathfrak{h}$ và trong $\mathfrak{h}'$.
+— 1) Các song ánh nghịch đảo lẫn nhau $K \mapsto g(K)$ và $\mathfrak{h} \mapsto I(\mathfrak{h})$ làm đảo quan hệ bao hàm; do đó $\mathfrak{h} \mapsto I(\mathfrak{h})$ là một đẳng cấu từ tập hợp có thứ tự $\mathscr{L}$ lên tập hợp có thứ tự đối của $\mathscr{C}$. Vì thế ta thu được quan hệ $I(\mathfrak{h} \cap \mathfrak{h}') = E^p(I(\mathfrak{h}), I(\mathfrak{h}'))$ với $\mathfrak{h}, \mathfrak{h}'$ trong $\mathscr{L}$, bởi vì $\mathfrak{h} \cap \mathfrak{h}'$ là phần tử lớn nhất của $\mathscr{L}$ được chứa đồng thời trong $\mathfrak{h}$ và trong $\mathfrak{h}'$.
 
 2) Có thể chỉ ra rằng mọi không gian con có số chiều hữu hạn của $g$ ổn định đối với ánh xạ $D \mapsto D^p$ cũng ổn định đối với phép toán ngoặc.
 

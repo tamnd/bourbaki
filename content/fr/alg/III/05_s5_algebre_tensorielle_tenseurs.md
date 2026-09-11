@@ -37,7 +37,7 @@ subsections:
       pdf_page: 450
 statements: 14
 exercises: 10
-content_sha256: 06b53b876114cba75ae4c0014d6ae6dfc48cf40de6aaf3b4739f8867e2c85cb3
+content_sha256: fd13539cf49475bfc3bf63278449cbc3b0ef56a7fcd21260f4b3ded73a2b487b
 ---
 
 ## § 5. ALGÈBRE TENSORIELLE, TENSEURS
@@ -198,7 +198,7 @@ On notera en particulier que les hypothèses de la prop. 4 sont toujours vérifi
 
 *Soient K un corps commutatif, M un espace vectoriel sur K. Pour tout élément $z \in T(M)$, il existe un plus petit sous-espace vectoriel N de M tel que $z \in T(N)$, et N est de rang fini sur K.*
 
-Il est sous-entendu dans cet énoncé que pour tout sous-espace vectoriel $P$ de $M$, on identifie canoniquement $T(P)$ à une sous-algèbre de $T(M)$. Soit $z \in T(M)$; $z$ s’exprime comme combinaison linéaire d’éléments dont chacun est un produit fini d’éléments de $M = T^1(M)$; tous les éléments de $M$ qui interviennent dans ces produits engendrent un sous-espace vectoriel $Q$ de rang fini et l’on a $z \in T(Q)$. Soit $\mathcal{F}$ l’ensemble (non vide) des sous-espaces vectoriels $P$ de rang fini tels que $z \in T(P)$. Toute suite décroissante d’éléments de $\mathcal{F}$ est stationnaire, puisque ce sont des espaces vectoriels de rang fini. Donc $\mathcal{F}$ possède un élément minimal $N$ (E, III, p. 51). Il reste à voir que tout $P \in \mathcal{F}$ contient $N$; or, on a $z \in T(P) \cap T(N) = T(P \cap N)$ (III, p. 58, prop. 4); vu la définition de $N$, cela entraîne $N \cap P = N$, c’est-à-dire $P \supset N$.
+Il est sous-entendu dans cet énoncé que pour tout sous-espace vectoriel $P$ de $M$, on identifie canoniquement $T(P)$ à une sous-algèbre de $T(M)$. Soit $z \in T(M)$; $z$ s’exprime comme combinaison linéaire d’éléments dont chacun est un produit fini d’éléments de $M = T^1(M)$; tous les éléments de $M$ qui interviennent dans ces produits engendrent un sous-espace vectoriel $Q$ de rang fini et l’on a $z \in T(Q)$. Soit $\mathscr{F}$ l’ensemble (non vide) des sous-espaces vectoriels $P$ de rang fini tels que $z \in T(P)$. Toute suite décroissante d’éléments de $\mathscr{F}$ est stationnaire, puisque ce sont des espaces vectoriels de rang fini. Donc $\mathscr{F}$ possède un élément minimal $N$ (E, III, p. 51). Il reste à voir que tout $P \in \mathscr{F}$ contient $N$; or, on a $z \in T(P) \cap T(N) = T(P \cap N)$ (III, p. 58, prop. 4); vu la définition de $N$, cela entraîne $N \cap P = N$, c’est-à-dire $P \supset N$.
 
 On dit que le sous-espace $N$ de $M$ est *associé* à $z$.
 
@@ -281,7 +281,7 @@ $$
 M_{\lambda_1} \otimes M_{\lambda_2} \otimes \cdots \otimes M_{\lambda_n} \to T^n(M) = M^{\otimes n}
 $$
 
-relatives à toutes les suites $(\lambda_i) \in L^n$. Identifiant $M_{\lambda_1} \otimes M_{\lambda_2} \otimes \cdots \otimes M_{\lambda_n}$ à cette image, on voit que $\mathcal{T}(M)$ est somme directe de tous les modules
+relatives à toutes les suites $(\lambda_i) \in L^n$. Identifiant $M_{\lambda_1} \otimes M_{\lambda_2} \otimes \cdots \otimes M_{\lambda_n}$ à cette image, on voit que $\mathscr{T}(M)$ est somme directe de tous les modules
 
 $$
 M_{\lambda_1} \otimes M_{\lambda_2} \otimes \cdots \otimes M_{\lambda_n},
@@ -293,7 +293,7 @@ On en déduit d’abord la conséquence suivante:
 
 #### Théorème 1 {#alg-iii-s5-thm-1 .statement}
 
-Soient $A$ un anneau commutatif, $M$ un $A$-module libre, $(e_\lambda)_{\lambda \in L}$ une base de $M$. Alors les éléments $e_s = e_{\lambda_1} \otimes e_{\lambda_2} \otimes \cdots \otimes e_{\lambda_n}$, où $s = (\lambda_1 \ldots, \lambda_n)$ parcourt l’ensemble de toutes les suites finies d’éléments de $L$, et où on convient que $e_\varnothing$ est l’élément unité de $\mathcal{T}(M)$, forment une base du $A$-module $\mathcal{T}(M)$.
+Soient $A$ un anneau commutatif, $M$ un $A$-module libre, $(e_\lambda)_{\lambda \in L}$ une base de $M$. Alors les éléments $e_s = e_{\lambda_1} \otimes e_{\lambda_2} \otimes \cdots \otimes e_{\lambda_n}$, où $s = (\lambda_1 \ldots, \lambda_n)$ parcourt l’ensemble de toutes les suites finies d’éléments de $L$, et où on convient que $e_\varnothing$ est l’élément unité de $\mathscr{T}(M)$, forment une base du $A$-module $\mathscr{T}(M)$.
 
 Les éléments de cette base sont évidemment homogènes, et la table de multiplication est donnée par
 
@@ -303,7 +303,7 @@ $$
 
 en notant $st$ la suite d’éléments de $L$ obtenue par juxtaposition des suites $s$ et $t$ (I, p. 79).
 
-On voit que la base $(e_s)$ de $\mathcal{T}(M)$, munie de la loi multiplicative (10), est canoniquement isomorphe au monoïde libre construit sur l’ensemble $L$ (I, p. 79), l’isomorphisme s’obtenant en faisant correspondre à chaque mot $s$ de ce monoïde l’élément $e_s$. On en conclut (III, p. 22) que l’algèbre tensorielle $\mathcal{T}(M)$ d’un module libre $M$ muni d’une base dont $L$ est l’ensemble d’indices, est canoniquement isomorphe à l’algèbre associative libre de $L$ sur $A$. En particulier (III, p. 22, prop. 7) pour toute application $f : L \to E$ de $L$ dans une $A$-algèbre $E$, il existe un homomorphisme $\tilde{f} : \mathcal{T}(M) \to E$ de $A$-algèbres et un seul tel que $\tilde{f}(e_\lambda) = f(\lambda)$.
+On voit que la base $(e_s)$ de $\mathscr{T}(M)$, munie de la loi multiplicative (10), est canoniquement isomorphe au monoïde libre construit sur l’ensemble $L$ (I, p. 79), l’isomorphisme s’obtenant en faisant correspondre à chaque mot $s$ de ce monoïde l’élément $e_s$. On en conclut (III, p. 22) que l’algèbre tensorielle $\mathscr{T}(M)$ d’un module libre $M$ muni d’une base dont $L$ est l’ensemble d’indices, est canoniquement isomorphe à l’algèbre associative libre de $L$ sur $A$. En particulier (III, p. 22, prop. 7) pour toute application $f : L \to E$ de $L$ dans une $A$-algèbre $E$, il existe un homomorphisme $\tilde{f} : \mathscr{T}(M) \to E$ de $A$-algèbres et un seul tel que $\tilde{f}(e_\lambda) = f(\lambda)$.
 
 #### Remarque {#alg-iii-s5-n5-rem-1 .statement}
 
@@ -311,21 +311,21 @@ Les résultats précédents peuvent également s’obtenir comme conséquence de
 
 #### Corollaire {#alg-iii-s5-n5-cor-1 .statement}
 
-Si $M$ est un $A$-module projectif, $\mathcal{T}(M)$ est un $A$-module projectif.
+Si $M$ est un $A$-module projectif, $\mathscr{T}(M)$ est un $A$-module projectif.
 
-En effet, $M$ est facteur direct d’un $A$-module libre $N$ (II, p. 39, prop. 4), donc $\mathcal{T}(M)$ est facteur direct de $\mathcal{T}(N)$ (III, p. 58); comme $\mathcal{T}(N)$ est libre (th. 1), cela montre que $\mathcal{T}(M)$ est projectif (II, p. 39).
+En effet, $M$ est facteur direct d’un $A$-module libre $N$ (II, p. 39, prop. 4), donc $\mathscr{T}(M)$ est facteur direct de $\mathscr{T}(N)$ (III, p. 58); comme $\mathscr{T}(N)$ est libre (th. 1), cela montre que $\mathscr{T}(M)$ est projectif (II, p. 39).
 
 #### Proposition 7 {#alg-iii-s5-prop-7 .statement}
 
-Soient $\Delta$ un monoïde commutatif, $M$ un $A$-module gradué de type $\Delta$, $(M_\alpha)_{\alpha \in \Delta}$ sa graduation. Pour tout couple $(\alpha, n) \in \Delta \times \mathbf{N}$, soit $\mathcal{T}^{\alpha, n}(M)$ la somme (directe) des sous-modules $M_{\alpha_1} \otimes M_{\alpha_2} \otimes \cdots \otimes M_{\alpha_n}$ de $\mathcal{T}^n(M)$ tels que
+Soient $\Delta$ un monoïde commutatif, $M$ un $A$-module gradué de type $\Delta$, $(M_\alpha)_{\alpha \in \Delta}$ sa graduation. Pour tout couple $(\alpha, n) \in \Delta \times \mathbf{N}$, soit $\mathscr{T}^{\alpha, n}(M)$ la somme (directe) des sous-modules $M_{\alpha_1} \otimes M_{\alpha_2} \otimes \cdots \otimes M_{\alpha_n}$ de $\mathscr{T}^n(M)$ tels que
 
 $$
 \sum_{i=1}^n \alpha_i = \alpha;
 $$
 
-alors $(\mathcal{T}^{\alpha, n}(M))_{(\alpha, n) \in \Delta \times \mathbf{N}}$ est la seule graduation de type $\Delta \times \mathbf{N}$ compatible avec la structure d’algèbre de $\mathcal{T}(M)$ et qui induise sur $M = \mathcal{T}^1(M)$ la graduation donnée.
+alors $(\mathscr{T}^{\alpha, n}(M))_{(\alpha, n) \in \Delta \times \mathbf{N}}$ est la seule graduation de type $\Delta \times \mathbf{N}$ compatible avec la structure d’algèbre de $\mathscr{T}(M)$ et qui induise sur $M = \mathscr{T}^1(M)$ la graduation donnée.
 
-On a vu au début de ce n° que $\mathcal{T}(M)$ est somme directe des $\mathcal{T}^{\alpha, n}(M)$, et le fait qu’il s’agisse d’une graduation compatible avec la structure d’algèbre résulte aussitôt des définitions. Si $(\mathcal{{T}'}^{\alpha, n})$ est une autre graduation de type $\Delta \times \mathbf{N}$ sur
+On a vu au début de ce n° que $\mathscr{T}(M)$ est somme directe des $\mathscr{T}^{\alpha, n}(M)$, et le fait qu’il s’agisse d’une graduation compatible avec la structure d’algèbre résulte aussitôt des définitions. Si $(\mathscr{{T}'}^{\alpha, n})$ est une autre graduation de type $\Delta \times \mathbf{N}$ sur
 
 T(M), compatible avec la structure d’algèbre, et telle que $T^{\alpha,1}(M) = T^{\prime\alpha,1}$ pour $\alpha \in \Delta$, il résulte aussitôt des définitions que l’on aura, pour tout $n \geq 1$ et tout $\alpha \in \Delta$, $T^{\alpha,n}(M) \subset T^{\prime\alpha,n}$; mais puisque $T(M)$ est aussi somme directe des $T^{\alpha,n}(M)$, cela entraîne $T^{\prime\alpha,n} = T^{\alpha,n}(M)$ (II, p. 18, Remarque).
 
@@ -452,10 +452,10 @@ $$
 \theta : (M \otimes_A M)^* \otimes_A M \to \mathrm{Hom}_A(M \otimes_A M, M)
 $$
 
-(II, p. 77, corollaire); d’ailleurs $\mathrm{Hom}_A(M \otimes_A M, M)$ est canoniquement isomorphe au $A$-module $\mathcal{L}_2(M, M; M)$ des applications *A-bilinéaires* de $M \times M$ dans $M$ (II, p. 71). Composant ces isomorphismes, on obtient un isomorphisme canonique
+(II, p. 77, corollaire); d’ailleurs $\mathrm{Hom}_A(M \otimes_A M, M)$ est canoniquement isomorphe au $A$-module $\mathscr{L}_2(M, M; M)$ des applications *A-bilinéaires* de $M \times M$ dans $M$ (II, p. 71). Composant ces isomorphismes, on obtient un isomorphisme canonique
 
 $$
-\chi_M : T^{[3]}_{\{1,2\}}(M) = M^* \otimes M^* \otimes M \to \mathcal{L}_2(M, M; M)
+\chi_M : T^{[3]}_{\{1,2\}}(M) = M^* \otimes M^* \otimes M \to \mathscr{L}_2(M, M; M)
 $$
 
 tel que, pour $x^*, y^*$ dans $M^*$, $z \in M$, $\chi_M(x^* \otimes y^* \otimes z)$ soit l’application bilinéaire
@@ -464,7 +464,7 @@ $$
 (u, v) \mapsto \langle u, x^*\rangle \langle v, y^*\rangle z.
 $$
 
-On peut donc, au moyen de $\chi_M$, identifier $T^{[3]}_{\{1,2\}}(M)$ (isomorphe à $T^1_2(M)$) au $A$-module $\mathcal{L}_2(M, M; M)$. Supposons que $M$ soit un module libre et soit $(e_\lambda)_{\lambda \in L}$ une base de $M$; on note donc $\zeta_{\lambda \mu}^{;\nu}$ les coordonnées d’un tenseur $z \in M^* \otimes M^* \otimes M$ relativement à la base $(e^\lambda \otimes e^\mu \otimes e_\nu)$ de ce module. L’application bilinéaire $\chi_M(z)$ transforme le couple $(e_\lambda, e_\mu)$ en
+On peut donc, au moyen de $\chi_M$, identifier $T^{[3]}_{\{1,2\}}(M)$ (isomorphe à $T^1_2(M)$) au $A$-module $\mathscr{L}_2(M, M; M)$. Supposons que $M$ soit un module libre et soit $(e_\lambda)_{\lambda \in L}$ une base de $M$; on note donc $\zeta_{\lambda \mu}^{;\nu}$ les coordonnées d’un tenseur $z \in M^* \otimes M^* \otimes M$ relativement à la base $(e^\lambda \otimes e^\mu \otimes e_\nu)$ de ce module. L’application bilinéaire $\chi_M(z)$ transforme le couple $(e_\lambda, e_\mu)$ en
 
 $$
 \sum_{\nu \in L} \zeta_{\lambda \mu}^{;\nu} e_\nu

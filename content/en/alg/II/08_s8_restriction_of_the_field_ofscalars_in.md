@@ -42,7 +42,7 @@ subsections:
       pdf_page: 347
 statements: 17
 exercises: 5
-content_sha256: 6810d0ad2d7a1ac57e96581b1b317b077f67da34f1fea1aceace9aa72bc903be
+content_sha256: b7ddfff3fdb23622cfdd5652b1283f65d322555654087069cf4ce0f35b45076e
 ---
 
 ## § 8. RESTRICTION OF THE FIELD OF SCALARS IN VECTOR SPACES
@@ -239,19 +239,19 @@ Having proved this lemma, it is known that W is rational over a subfield L of K 
 
 ### 7. CRITERIA FOR RATIONALITY
 
-For every subfield L of K, let $\mathrm{End}_L(K)$ denote the endomorphism ring of K considered as a *left vector space* over L; if L contains K', $\mathrm{End}_L(K)$ is a subring of $\mathrm{End}_{K'}(K)$. For every subset $\mathcal{M}$ of $\mathrm{End}_{K'}(K)$, there exists a *largest subfield* L of K containing K' and such that $\mathcal{M}$ is contained in $\mathrm{End}_L(K)$, namely the set of $\xi \in K$ such that $\phi(\xi \eta) = \xi \cdot \phi(\eta)$ for all $\eta \in K$ and all $\phi \in \mathcal{M}$ (it is immediately verified that this set is a ring and, on the other hand, replacing $\eta$ by $\xi^{-1} \eta$ in the preceding relation, we obtain $\phi(\xi^{-1} \eta) = \xi^{-1} \cdot \phi(\eta)$ when $\xi \neq 0$). We shall call this field the *centralizer* of $\mathcal{M}$ in K and denote it by $\chi(\mathcal{M})$.
+For every subfield L of K, let $\mathrm{End}_L(K)$ denote the endomorphism ring of K considered as a *left vector space* over L; if L contains K', $\mathrm{End}_L(K)$ is a subring of $\mathrm{End}_{K'}(K)$. For every subset $\mathscr{M}$ of $\mathrm{End}_{K'}(K)$, there exists a *largest subfield* L of K containing K' and such that $\mathscr{M}$ is contained in $\mathrm{End}_L(K)$, namely the set of $\xi \in K$ such that $\phi(\xi \eta) = \xi \cdot \phi(\eta)$ for all $\eta \in K$ and all $\phi \in \mathscr{M}$ (it is immediately verified that this set is a ring and, on the other hand, replacing $\eta$ by $\xi^{-1} \eta$ in the preceding relation, we obtain $\phi(\xi^{-1} \eta) = \xi^{-1} \cdot \phi(\eta)$ when $\xi \neq 0$). We shall call this field the *centralizer* of $\mathscr{M}$ in K and denote it by $\chi(\mathscr{M})$.
 
 Now let V be a right vector K-space with a K'-structure V'. For all $\phi \in \mathrm{End}_{K'}(K)$, there exists one and only one endomorphism $\phi_v$ of the $\mathbf{Z}$-module V such that $\phi_V(x'.\xi) = x'.\phi(\xi)$ for $x' \in V'$ and $\xi \in K$: for, in no. 1, a $\mathbf{Z}$-isomorphism $\lambda$ of $V' \otimes_{K'} K$ onto V was defined which maps $x' \otimes \xi$ to $x'.\xi$ and $\phi_V$ is necessarily equal to $\lambda \circ (1_{V'} \otimes \phi) \circ \lambda^{-1}$.
 
 #### Theorem 1 {#alg-ii-s8-thm-1 .statement}
 
-*Let $\mathcal{M}$ be a subset of $\mathrm{End}_{K'}(K)$ and $L = \chi(\mathcal{M})$ the subfield of K the centralizer of $\mathcal{M}$.*
+*Let $\mathscr{M}$ be a subset of $\mathrm{End}_{K'}(K)$ and $L = \chi(\mathscr{M})$ the subfield of K the centralizer of $\mathscr{M}$.*
 
-(i) *Let V be a right vector K-space with a K'-structure. For a vector $x \in V$ to be rational over L, it is necessary and sufficient that $\phi_V(x.\eta) = x.\phi(\eta)$ for all $\phi \in \mathcal{M}$ and all $\eta \in K$. For a vector sub-K-space W of V to be rational over L, it is necessary and sufficient that $\phi_V(W) \subset W$ for all $\phi \in \mathcal{M}$.*
+(i) *Let V be a right vector K-space with a K'-structure. For a vector $x \in V$ to be rational over L, it is necessary and sufficient that $\phi_V(x.\eta) = x.\phi(\eta)$ for all $\phi \in \mathscr{M}$ and all $\eta \in K$. For a vector sub-K-space W of V to be rational over L, it is necessary and sufficient that $\phi_V(W) \subset W$ for all $\phi \in \mathscr{M}$.*
 
-(ii) *Let $V_1, V_2$ be two right vector K-spaces each with a K'-structure. For a K-linear mapping f of $V_1$ into $V_2$ to be rational over L, it is necessary and sufficient that $f(\phi_{V_1}(x_1)) = \phi_{V_2}(f(x_1))$ for all $x_1 \in V_1$ and all $\phi \in \mathcal{M}$.*
+(ii) *Let $V_1, V_2$ be two right vector K-spaces each with a K'-structure. For a K-linear mapping f of $V_1$ into $V_2$ to be rational over L, it is necessary and sufficient that $f(\phi_{V_1}(x_1)) = \phi_{V_2}(f(x_1))$ for all $x_1 \in V_1$ and all $\phi \in \mathscr{M}$.*
 
-We first prove assertion (i) for x. Let B be a basis of V rational over K' and write $x = \sum_{b \in B} b.\xi_b$; then, for $\phi \in \mathcal{M}$ and $\eta \in K$,
+We first prove assertion (i) for x. Let B be a basis of V rational over K' and write $x = \sum_{b \in B} b.\xi_b$; then, for $\phi \in \mathscr{M}$ and $\eta \in K$,
 
 $$
 \phi_V(x.\eta) - x.\phi(\eta) = \sum_{b \in B} b.(\phi(\xi_b\eta) - \xi_b.\phi(\eta))
@@ -259,24 +259,24 @@ $$
 
 and therefore, the relations
 
-"for all $\phi \in \mathcal{M}$ and all $\eta \in K$, $\phi_V(x.\eta) = x.\phi(\eta)$"
+"for all $\phi \in \mathscr{M}$ and all $\eta \in K$, $\phi_V(x.\eta) = x.\phi(\eta)$"
 
 and
 
-"for all $\phi \in \mathcal{M}$, all $b \in B$ and all $\eta \in K$, $\phi(\xi_b\eta) = \xi_b.\phi(\eta)$"
+"for all $\phi \in \mathscr{M}$, all $b \in B$ and all $\eta \in K$, $\phi(\xi_b\eta) = \xi_b.\phi(\eta)$"
 
-are equivalent. The second of these relations means that for all $b \in B$, $\xi_b \in \chi(\mathcal{M})$, which proves the first assertion of (i).
+are equivalent. The second of these relations means that for all $b \in B$, $\xi_b \in \chi(\mathscr{M})$, which proves the first assertion of (i).
 
 We next prove (ii). For f to be rational over L, it is necessary and sufficient that, for all $x'_1 \in V_1$ rational over K', $f(x'_1)$ is a vector in $V_2$ rational over L; this will imply that $f(x_1)$ is rational over L for every vector $x_1$ of $V_1$ rational over L, such a vector being a linear combination with coefficients in L of vectors rational over K'. The above condition is equivalent, by the first part of the argument, to the relation
 
 $$
-f(x'_1).\phi(\eta) = \phi_{V_2}(f(x'_1).\eta) \quad \text{for } \phi \in \mathcal{M} \text{ and } \eta \in K
+f(x'_1).\phi(\eta) = \phi_{V_2}(f(x'_1).\eta) \quad \text{for } \phi \in \mathscr{M} \text{ and } \eta \in K
 $$
 
 which may also be written
 
 $$
-f(\phi_{V_1}(x'_1.\eta)) = \phi_{V_2}(f(x'_1.\eta)) \quad \text{for } \phi \in \mathcal{M} \text{ and } \eta \in K.
+f(\phi_{V_1}(x'_1.\eta)) = \phi_{V_2}(f(x'_1.\eta)) \quad \text{for } \phi \in \mathscr{M} \text{ and } \eta \in K.
 $$
 
 As every element of $V_1$ is a linear combination with coefficients in K of elements of $V_1$ rational over K', condition (5) is equivalent to
@@ -285,9 +285,9 @@ $$
 f(\phi_{V_1}(x_1)) = \phi_{V_2}(f(x_1))
 $$
 
-for all $x_1 \in V_1$ and all $\phi \in \mathcal{M}$.
+for all $x_1 \in V_1$ and all $\phi \in \mathscr{M}$.
 
-Finally, to prove the second assertion in (i), we use no. 6, Lemma 1: W is the graph of a K-linear mapping $g : W_1 \to W_2$ and W is rational over if and only if the mapping g is rational over L (no. 3, Proposition 4). By (ii), for g to be rational over L, it is necessary and sufficient that $g(\phi_{W_1}(x_1)) = \phi_{W_2}(g(x_1))$ for all $x_1 \in W_1$ and all $\phi \in \mathcal{M}$; as $\phi_v = \phi_{W_1} \times \phi_{W_2}$, the above condition means that the graph W of g is stable under $\phi_v$ for all $\phi \in \mathcal{M}$.
+Finally, to prove the second assertion in (i), we use no. 6, Lemma 1: W is the graph of a K-linear mapping $g : W_1 \to W_2$ and W is rational over if and only if the mapping g is rational over L (no. 3, Proposition 4). By (ii), for g to be rational over L, it is necessary and sufficient that $g(\phi_{W_1}(x_1)) = \phi_{W_2}(g(x_1))$ for all $x_1 \in W_1$ and all $\phi \in \mathscr{M}$; as $\phi_v = \phi_{W_1} \times \phi_{W_2}$, the above condition means that the graph W of g is stable under $\phi_v$ for all $\phi \in \mathscr{M}$.
 
 ### Exercises {#alg-ii-s8-exercises}
 

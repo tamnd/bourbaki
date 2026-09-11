@@ -53,11 +53,11 @@ subsections:
       pdf_page: 49
 statements: 56
 exercises: 18
-content_sha256: ab5958edd2bf5cadb9c2a47267962bdcf91e894f0d0cffa1cfd207ca30a09746
+content_sha256: 323d94bc64f1ca7aaad7f39500ab0953ad160ee220cd93273a34c6d3eec56ad5
 translated_from: content/en-mt/alg/X/02_s2_complexes_de_a_modules.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 861a391434771556fa8eb6b95600862c1fab35a9ef0810851b123295d669544a
+source_content_sha256: 6857aa8cf459b7e70d7ac71bc9c667d40a8dc3e14e68ee4fc017dc432d3193c9
 translation_model: gpt-5.4
 translation_run: translate-vi-8787b258
 glossary_version: 34
@@ -868,52 +868,52 @@ Vậy ta có $\partial(u,v)=H(\delta)\circ H(\varphi)^{-1}$, điều này cung c
 
 ### 8. Đặc trưng Euler-Poincaré
 
-Trong no này, xét một tập hợp $\mathcal C$ các lớp A-môđun *cộng tính và khớp trái*, nghĩa là thỏa mãn hai điều kiện sau:
+Trong no này, xét một tập hợp $\mathscr C$ các lớp A-môđun *cộng tính và khớp trái*, nghĩa là thỏa mãn hai điều kiện sau:
 
-(A) *Nếu* $M$ *và* $N$ *là hai A-môđun kiểu* $\mathcal C$, $M\oplus N$ *thuộc kiểu* $\mathcal C$.
+(A) *Nếu* $M$ *và* $N$ *là hai A-môđun kiểu* $\mathscr C$, $M\oplus N$ *thuộc kiểu* $\mathscr C$.
 
-(G) Nếu $0\to M'\to M\to M''\to0$ là một dãy khớp các A-môđun và nếu $M$ và $M''$ thuộc kiểu $\mathcal C$, thì $M'$ thuộc kiểu $\mathcal C$.
+(G) Nếu $0\to M'\to M\to M''\to0$ là một dãy khớp các A-môđun và nếu $M$ và $M''$ thuộc kiểu $\mathscr C$, thì $M'$ thuộc kiểu $\mathscr C$.
 
-Ta nói rằng $\mathcal C$ là ổn định nếu nó thỏa mãn các điều kiện sau, các điều kiện này kéo theo (A) và (G):
+Ta nói rằng $\mathscr C$ là ổn định nếu nó thỏa mãn các điều kiện sau, các điều kiện này kéo theo (A) và (G):
 
-(E) ("$\mathcal C$ ổn định dưới các mở rộng.") Nếu $0\to M'\to M\to M''\to0$ là một dãy khớp các A-môđun và nếu $M'$ và $M''$ thuộc kiểu $\mathcal C$, thì $M$ thuộc kiểu $\mathcal C$.
+(E) ("$\mathscr C$ ổn định dưới các mở rộng.") Nếu $0\to M'\to M\to M''\to0$ là một dãy khớp các A-môđun và nếu $M'$ và $M''$ thuộc kiểu $\mathscr C$, thì $M$ thuộc kiểu $\mathscr C$.
 
-(S) ("$\mathcal C$ ổn định dưới các hạt nhân và đối hạt nhân.") Với mọi đồng cấu $f$ của các A-môđun thuộc kiểu $\mathcal C$, các A-môđun $\operatorname{Ker}f$ và $\operatorname{Coker}f$ thuộc kiểu $\mathcal C$.
+(S) ("$\mathscr C$ ổn định dưới các hạt nhân và đối hạt nhân.") Với mọi đồng cấu $f$ của các A-môđun thuộc kiểu $\mathscr C$, các A-môđun $\operatorname{Ker}f$ và $\operatorname{Coker}f$ thuộc kiểu $\mathscr C$.
 
-Ta ký hiệu bởi $K(\mathcal C)$ nhóm Grothendieck của $\mathcal C$ và bởi $[M]_{\mathcal C}$ hoặc $[M]$ phần tử của $K(\mathcal C)$ được xác định bởi A-môđun $M$ (VIII, §6, No. 2). Cho $G$ là một nhóm giao hoán và $\varphi$ là một đồng cấu từ $K(\mathcal C)$ vào $G$.
+Ta ký hiệu bởi $K(\mathscr C)$ nhóm Grothendieck của $\mathscr C$ và bởi $[M]_{\mathscr C}$ hoặc $[M]$ phần tử của $K(\mathscr C)$ được xác định bởi A-môđun $M$ (VIII, §6, No. 2). Cho $G$ là một nhóm giao hoán và $\varphi$ là một đồng cấu từ $K(\mathscr C)$ vào $G$.
 
 #### Ví dụ 1 {#alg-x-s2-n8-exa-1 .statement}
 
-Nếu A là một trường, ta có thể lấy $\mathcal C$ là tập hợp các lớp của các không gian vectơ hữu hạn chiều và $\varphi$ là đẳng cấu từ $K(\mathcal C)$ lên $\mathbf Z$ được xác định bởi $\varphi([M]) = \dim(M)$.
+Nếu A là một trường, ta có thể lấy $\mathscr C$ là tập hợp các lớp của các không gian vectơ hữu hạn chiều và $\varphi$ là đẳng cấu từ $K(\mathscr C)$ lên $\mathbf Z$ được xác định bởi $\varphi([M]) = \dim(M)$.
 
 #### Ví dụ 2 {#alg-x-s2-n8-exa-2 .statement}
 
-Ta có thể lấy $\mathcal C$ là tập hợp các lớp của các môđun có độ dài hữu hạn và $\varphi: K(\mathcal C) \to \mathbf Z$ là đồng cấu được xác định bởi $\varphi([M]) = \operatorname{long}_A(M)$.
+Ta có thể lấy $\mathscr C$ là tập hợp các lớp của các môđun có độ dài hữu hạn và $\varphi: K(\mathscr C) \to \mathbf Z$ là đồng cấu được xác định bởi $\varphi([M]) = \operatorname{long}_A(M)$.
 
-Ta nói rằng một A-môđun phân bậc M thuộc kiểu $\mathcal C$ nếu $M_n$ thuộc kiểu $\mathcal C$ với mọi n (điều này là cần thiết khi M bị chặn và là đủ khi $\mathcal C$ ổn định để môđun M thuộc kiểu $\mathcal C$).
+Ta nói rằng một A-môđun phân bậc M thuộc kiểu $\mathscr C$ nếu $M_n$ thuộc kiểu $\mathscr C$ với mọi n (điều này là cần thiết khi M bị chặn và là đủ khi $\mathscr C$ ổn định để môđun M thuộc kiểu $\mathscr C$).
 
 #### Định nghĩa 8 {#alg-x-s2-def-8 .statement}
 
-Cho M là một A-môđun phân bậc bị chặn thuộc kiểu $\mathcal C$ và $(M_n)$ là phân bậc của nó. Ta gọi **đặc số**-$\varphi$ của M, và ký hiệu nó bởi $\chi_\varphi(M)$ hoặc đơn giản là $\chi(M)$, là phần tử $\sum (-1)^n \varphi([M_n])$ của G.
+Cho M là một A-môđun phân bậc bị chặn thuộc kiểu $\mathscr C$ và $(M_n)$ là phân bậc của nó. Ta gọi **đặc số**-$\varphi$ của M, và ký hiệu nó bởi $\chi_\varphi(M)$ hoặc đơn giản là $\chi(M)$, là phần tử $\sum (-1)^n \varphi([M_n])$ của G.
 
 Định nghĩa này áp dụng đặc biệt khi M là môđun phân bậc nền của một phức các A-môđun.
 
 #### Ví dụ 3 {#alg-x-s2-n8-exa-3 .statement}
 
-Nếu M bị chặn và thuộc kiểu $\mathcal{C}$, thì tương tự cũng đúng đối với $M(p)$ với mọi $p \in \mathbf{Z}$, và ta có $\chi(M(p)) = (-1)^p \chi(M)$.
+Nếu M bị chặn và thuộc kiểu $\mathscr{C}$, thì tương tự cũng đúng đối với $M(p)$ với mọi $p \in \mathbf{Z}$, và ta có $\chi(M(p)) = (-1)^p \chi(M)$.
 
-4) Cho $0 \to M' \to M \to M'' \to 0$ là một dãy khớp các A-môđun phân bậc và các đồng cấu phân bậc bậc 0. Nếu M, M' và M'' bị chặn và thuộc kiểu $\mathcal{C}$, ta có
+4) Cho $0 \to M' \to M \to M'' \to 0$ là một dãy khớp các A-môđun phân bậc và các đồng cấu phân bậc bậc 0. Nếu M, M' và M'' bị chặn và thuộc kiểu $\mathscr{C}$, ta có
 $$
 \chi(M) = \chi(M') + \chi(M'').
 $$
-Nếu M và M'' bị chặn và thuộc kiểu $\mathcal{C}$, thì tương tự cũng đúng đối với M'; nếu $\mathcal{C}$ ổn định và nếu hai trong ba môđun bị chặn và thuộc kiểu $\mathcal{C}$, thì tương tự cũng đúng đối với môđun thứ ba.
+Nếu M và M'' bị chặn và thuộc kiểu $\mathscr{C}$, thì tương tự cũng đúng đối với M'; nếu $\mathscr{C}$ ổn định và nếu hai trong ba môđun bị chặn và thuộc kiểu $\mathscr{C}$, thì tương tự cũng đúng đối với môđun thứ ba.
 
-5) Cho $u : C' \to C$ là một cấu xạ của các phức bị chặn kiểu $\mathcal{C}$. Khi đó Con ($u$) bị chặn kiểu $\mathcal{C}$, và ta có:
+5) Cho $u : C' \to C$ là một cấu xạ của các phức bị chặn kiểu $\mathscr{C}$. Khi đó Con ($u$) bị chặn kiểu $\mathscr{C}$, và ta có:
 $$
 \chi(\operatorname{Con}(u)) = \chi(C) - \chi(C').
 $$
 
-6) Có thể lấy cho G chính nhóm $K(\mathcal{C})$, và cho $\varphi$ cấu xạ đồng nhất; trong trường hợp này người ta ký hiệu bởi $\chi_{\mathcal{C}}(M)$ phần tử $\chi_\varphi(M) = \sum (-1)^n[M_n]$ của $K(\mathcal{C})$.
+6) Có thể lấy cho G chính nhóm $K(\mathscr{C})$, và cho $\varphi$ cấu xạ đồng nhất; trong trường hợp này người ta ký hiệu bởi $\chi_{\mathscr{C}}(M)$ phần tử $\chi_\varphi(M) = \sum (-1)^n[M_n]$ của $K(\mathscr{C})$.
 
 #### Nhận xét {#alg-x-s2-n8-rem-1 .statement}
 
@@ -921,23 +921,23 @@ Người ta gọi đa thức Poincaré của M đối với $\varphi$ là phần
 
 #### Bổ đề 4 {#alg-x-s2-lem-4 .statement}
 
-Cho C là một phức bị chặn kiểu $\mathcal{C}$. Nếu $H(C) = 0$, thì ta có $\chi(C) = 0$.
+Cho C là một phức bị chặn kiểu $\mathscr{C}$. Nếu $H(C) = 0$, thì ta có $\chi(C) = 0$.
 Điều này suy ra từ VIII, § 6, No. 1, hệ quả của Mệnh đề 1.
 
 #### Mệnh đề 10 {#alg-x-s2-prop-10 .statement}
 
-Cho C và C' là hai phức bị chặn kiểu $\mathcal{C}$. Nếu tồn tại một cấu xạ đồng điều $u : C' \to C$, thì ta có $\chi(C) = \chi(C')$.
-Thật vậy, Con ($u$) bị chặn kiểu $\mathcal{C}$ và ta có $\chi(\operatorname{Con}(u)) = \chi(C) - \chi(C')$; mặt khác, $H(\operatorname{Con}(u)) = 0$ theo X, p. 38, hệ quả, do đó $\chi(\operatorname{Con}(u)) = 0$ (bổ đề 4).
+Cho C và C' là hai phức bị chặn kiểu $\mathscr{C}$. Nếu tồn tại một cấu xạ đồng điều $u : C' \to C$, thì ta có $\chi(C) = \chi(C')$.
+Thật vậy, Con ($u$) bị chặn kiểu $\mathscr{C}$ và ta có $\chi(\operatorname{Con}(u)) = \chi(C) - \chi(C')$; mặt khác, $H(\operatorname{Con}(u)) = 0$ theo X, p. 38, hệ quả, do đó $\chi(\operatorname{Con}(u)) = 0$ (bổ đề 4).
 
 #### Mệnh đề 11 {#alg-x-s2-prop-11 .statement}
 
-Cho C là một phức bị chặn kiểu $\mathcal{C}$.
-a) Nếu $\mathcal{C}$ ổn định, thì $H(C)$ là kiểu $\mathcal{C}$.
-b) Nếu $H(C)$ là kiểu $\mathcal{C}$, thì tương tự cũng vậy đối với $B(C)$ và $Z(C)$, và ta có $\chi(H(C)) = \chi(C)$.
+Cho C là một phức bị chặn kiểu $\mathscr{C}$.
+a) Nếu $\mathscr{C}$ ổn định, thì $H(C)$ là kiểu $\mathscr{C}$.
+b) Nếu $H(C)$ là kiểu $\mathscr{C}$, thì tương tự cũng vậy đối với $B(C)$ và $Z(C)$, và ta có $\chi(H(C)) = \chi(C)$.
 
-a) Nếu $\mathcal{C}$ ổn định, thì với mọi $n$ môđun $Z_n(C)$ là kiểu $\mathcal{C}$ như hạt nhân của $d_n : C_n \to C_{n-1}$, và $H_n(C)$ là kiểu $\mathcal{C}$ như đối hạt nhân của $C_{n+1} \to Z_n$. Mặt khác, $H_n(C) = 0$ ngay khi $C_n = 0$.
+a) Nếu $\mathscr{C}$ ổn định, thì với mọi $n$ môđun $Z_n(C)$ là kiểu $\mathscr{C}$ như hạt nhân của $d_n : C_n \to C_{n-1}$, và $H_n(C)$ là kiểu $\mathscr{C}$ như đối hạt nhân của $C_{n+1} \to Z_n$. Mặt khác, $H_n(C) = 0$ ngay khi $C_n = 0$.
 
-b) Giả sử $H(C)$ là kiểu $\mathcal{C}$. Các dãy khớp chính tắc:
+b) Giả sử $H(C)$ là kiểu $\mathscr{C}$. Các dãy khớp chính tắc:
 
 $$
 0 \to Z_n(C) \to C_n \to B_{n-1}(C) \to 0
@@ -946,7 +946,7 @@ $$
 0 \to B_n(C) \to Z_n(C) \to H_n(C) \to 0
 $$
 
-cho thấy bằng quy nạp theo $n$, bắt đầu từ cận phải của $C$, rằng $Z_n(C)$ và $B_n(C)$ đều là kiểu $\mathcal{C}$ với mọi $n$. Khi đó ta có
+cho thấy bằng quy nạp theo $n$, bắt đầu từ cận phải của $C$, rằng $Z_n(C)$ và $B_n(C)$ đều là kiểu $\mathscr{C}$ với mọi $n$. Khi đó ta có
 
 $$
 \chi(C) = \chi(Z(C)) + \chi(B(C) (-1)) = \chi(Z(C)) - \chi(B(C)) = \chi(H(C)) .
@@ -954,27 +954,27 @@ $$
 
 #### Hệ quả {#alg-x-s2-n8-cor-1 .statement}
 
-*Nếu $\mathcal{C}$ ổn định và $C$ bị chặn kiểu $\mathcal{C}$, thì môđun phân bậc $H(C)$ bị chặn kiểu $\mathcal{C}$ và ta có $\chi(H(C)) = \chi(C)$.*
+*Nếu $\mathscr{C}$ ổn định và $C$ bị chặn kiểu $\mathscr{C}$, thì môđun phân bậc $H(C)$ bị chặn kiểu $\mathscr{C}$ và ta có $\chi(H(C)) = \chi(C)$.*
 
 #### Mệnh đề 12 {#alg-x-s2-prop-12 .statement}
 
 *Cho $0 \to C' \to C \to C'' \to 0$ là một dãy khớp các phức.*
 
-*a) Nếu $H(C), H(C')$ và $H(C'')$ bị chặn kiểu $\mathcal{C}$, thì ta có*
+*a) Nếu $H(C), H(C')$ và $H(C'')$ bị chặn kiểu $\mathscr{C}$, thì ta có*
 $$
 \chi(H(C)) = \chi(H(C')) + \chi(H(C'')) .
 $$
 
-*b) Nếu $\mathcal{C}$ ổn định, và nếu hai trong ba môđun phân bậc $H(C), H(C')$ và $H(C'')$ bị chặn kiểu $\mathcal{C}$, thì điều tương tự cũng đúng với môđun thứ ba.*
+*b) Nếu $\mathscr{C}$ ổn định, và nếu hai trong ba môđun phân bậc $H(C), H(C')$ và $H(C'')$ bị chặn kiểu $\mathscr{C}$, thì điều tương tự cũng đúng với môđun thứ ba.*
 
 Phần a) suy ra từ Bổ đề 4 áp dụng cho phức có đồng điều không được xác định bởi dãy khớp đồng điều liên kết với dãy khớp đã cho. Phần b) suy ra, khi xét dãy khớp đồng điều này, từ bổ đề sau:
 
-*Bổ đề 5. — Cho $M \to N \to P \to Q \to R$ là một dãy khớp các $A$-môđun. Nếu $\mathcal{C}$ ổn định, và nếu $M, N, Q$ và $R$ thuộc kiểu $\mathcal{C}$, thì môđun $P$ thuộc kiểu $\mathcal{C}$.
-Đặt $N' = \operatorname{Coker}(M \to N)$ và $Q' = \operatorname{Ker}(Q \to R)$. Các môđun $N'$ và $Q'$ thuộc kiểu $\mathcal{C}$, và ta có một dãy khớp $0 \to N' \to P \to Q' \to 0$.*
+*Bổ đề 5. — Cho $M \to N \to P \to Q \to R$ là một dãy khớp các $A$-môđun. Nếu $\mathscr{C}$ ổn định, và nếu $M, N, Q$ và $R$ thuộc kiểu $\mathscr{C}$, thì môđun $P$ thuộc kiểu $\mathscr{C}$.
+Đặt $N' = \operatorname{Coker}(M \to N)$ và $Q' = \operatorname{Ker}(Q \to R)$. Các môđun $N'$ và $Q'$ thuộc kiểu $\mathscr{C}$, và ta có một dãy khớp $0 \to N' \to P \to Q' \to 0$.*
 
 #### Hệ quả {#alg-x-s2-n8-cor-2 .statement}
 
-*Giả sử $\mathcal{C}$ ổn định, và cho $u : C' \to C$ là một cấu xạ các phức sao cho $H(C)$ và $H(C')$ bị chặn kiểu $\mathcal{C}$. Khi đó $H(\operatorname{Con}(u))$ bị chặn kiểu $\mathcal{C}$, và ta có*
+*Giả sử $\mathscr{C}$ ổn định, và cho $u : C' \to C$ là một cấu xạ các phức sao cho $H(C)$ và $H(C')$ bị chặn kiểu $\mathscr{C}$. Khi đó $H(\operatorname{Con}(u))$ bị chặn kiểu $\mathscr{C}$, và ta có*
 $$
 \chi(H(\operatorname{Con}(u))) = \chi(H(C)) - \chi(H(C')) .
 $$
@@ -984,7 +984,7 @@ $$
 0 \to C \to \operatorname{Con}(u) \to C'(-1) \to 0 .
 $$
 
-*Nhận xét. — Cho $E$ là một phức, $h : E \to C$ và $h' : E \to C'$ là các tương đương đồng luân với $C$ và $C'$ bị chặn kiểu $\mathcal{C}$. Khi đó $\chi(C) = \chi(C')$. Thật vậy, nếu $h_1$ là một nghịch đảo của $h$ với sai khác đồng luân, thì $h' \circ h_1$ là một tương đương đồng luân, do đó là một đẳng cấu đồng điều từ $C$ tới $C'$, và ta có thể áp dụng Mệnh đề 10. Do đó, ta có thể mở rộng Định nghĩa 8 bằng cách đặt $\chi(E) = \chi(C)$ mỗi khi tồn tại một tương đương đồng luân từ $E$ tới một phức $C$ bị chặn kiểu $\mathcal{C}$. Các Mệnh đề 10, 11, 12 và các hệ quả của chúng được tổng quát hóa trong cách đặt này.*
+*Nhận xét. — Cho $E$ là một phức, $h : E \to C$ và $h' : E \to C'$ là các tương đương đồng luân với $C$ và $C'$ bị chặn kiểu $\mathscr{C}$. Khi đó $\chi(C) = \chi(C')$. Thật vậy, nếu $h_1$ là một nghịch đảo của $h$ với sai khác đồng luân, thì $h' \circ h_1$ là một tương đương đồng luân, do đó là một đẳng cấu đồng điều từ $C$ tới $C'$, và ta có thể áp dụng Mệnh đề 10. Do đó, ta có thể mở rộng Định nghĩa 8 bằng cách đặt $\chi(E) = \chi(C)$ mỗi khi tồn tại một tương đương đồng luân từ $E$ tới một phức $C$ bị chặn kiểu $\mathscr{C}$. Các Mệnh đề 10, 11, 12 và các hệ quả của chúng được tổng quát hóa trong cách đặt này.*
 
 Áp dụng:
 
@@ -995,7 +995,7 @@ $$
     \Sigma (-1)^i c_i = \Sigma (-1)^i c'_i .
     $$
     c) Với các ký hiệu của a) và b), ta có $\Sigma (-1)^i c_i = \Sigma (--1)^i b_i$.
-    Các tính chất a) và b) suy ra từ c), và c) suy ra từ mệnh đề 11 áp dụng cho phức $\Gamma$ được mô tả ở No. 3, lấy cho $\mathcal{C}$ lớp các K-không gian vectơ hữu hạn chiều và cho $\varphi$ hàm được xác định bởi $\varphi([M]) = \dim_K(M)$ (X, p. 40, ví dụ 1).
+    Các tính chất a) và b) suy ra từ c), và c) suy ra từ mệnh đề 11 áp dụng cho phức $\Gamma$ được mô tả ở No. 3, lấy cho $\mathscr{C}$ lớp các K-không gian vectơ hữu hạn chiều và cho $\varphi$ hàm được xác định bởi $\varphi([M]) = \dim_K(M)$ (X, p. 40, ví dụ 1).
 
 ### 9. Phức các môđun phải, phức các đa môđun
 

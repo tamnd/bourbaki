@@ -53,7 +53,7 @@ subsections:
       pdf_page: 49
 statements: 59
 exercises: 18
-content_sha256: 000a48d0cc41203e5b65717dc12655c3172e383b3cbca3cef557d81d8756d9cb
+content_sha256: 430152bcc98fc2931ac47eba9dc6e194f4feee804d0e32a7b37bca5016da5f06
 ---
 
 ## § 2. COMPLEXES DE A-MODULES
@@ -862,57 +862,57 @@ On a donc $\partial(u,v)=H(\delta)\circ H(\varphi)^{-1}$, ce qui fournit une *no
 
 ### 8. Caractéristiques d’Euler-Poincaré
 
-Dans ce n<sup>o</sup>, on considère un ensemble $\mathcal C$ de classes de A-modules qui est *additif et exact à gauche*, c’est-à-dire qui satisfait aux deux conditions suivantes :
+Dans ce n<sup>o</sup>, on considère un ensemble $\mathscr C$ de classes de A-modules qui est *additif et exact à gauche*, c’est-à-dire qui satisfait aux deux conditions suivantes :
 
-(A) *Si* $M$ *et* $N$ *sont deux A-modules de type* $\mathcal C$, $M\oplus N$ *est de type* $\mathcal C$.
+(A) *Si* $M$ *et* $N$ *sont deux A-modules de type* $\mathscr C$, $M\oplus N$ *est de type* $\mathscr C$.
 
-(G) *Si* $0\to M'\to M\to M''\to0$ *est une suite exacte de A-modules et si* $M$ *et* $M''$ *sont de type* $\mathcal C$, *alors* $M'$ *est de type* $\mathcal C$.
+(G) *Si* $0\to M'\to M\to M''\to0$ *est une suite exacte de A-modules et si* $M$ *et* $M''$ *sont de type* $\mathscr C$, *alors* $M'$ *est de type* $\mathscr C$.
 
-On dit que $\mathcal C$ est stable s’il satisfait aux conditions suivantes qui impliquent (A) et (G) :
+On dit que $\mathscr C$ est stable s’il satisfait aux conditions suivantes qui impliquent (A) et (G) :
 
-(E) (« $\mathcal C$ est stable par extensions. ») *Si* $0\to M'\to M\to M''\to0$ *est une suite exacte de A-modules et si* $M'$ *et* $M''$ *sont de type* $\mathcal C$, *alors* $M$ *est de type* $\mathcal C$.
+(E) (« $\mathscr C$ est stable par extensions. ») *Si* $0\to M'\to M\to M''\to0$ *est une suite exacte de A-modules et si* $M'$ *et* $M''$ *sont de type* $\mathscr C$, *alors* $M$ *est de type* $\mathscr C$.
 
-(S) (« $\mathcal C$ est stable par noyaux et conoyaux. ») *Pour tout homomorphisme* $f$ *de A-modules de type* $\mathcal C$, *les A-modules* $\operatorname{Ker}f$ *et* $\operatorname{Coker}f$ *sont de type* $\mathcal C$.
+(S) (« $\mathscr C$ est stable par noyaux et conoyaux. ») *Pour tout homomorphisme* $f$ *de A-modules de type* $\mathscr C$, *les A-modules* $\operatorname{Ker}f$ *et* $\operatorname{Coker}f$ *sont de type* $\mathscr C$.
 
-On note $K(\mathcal C)$ le groupe de Grothendieck de $\mathcal C$ et $[M]_{\mathcal C}$ ou $[M]$ l’élément de $K(\mathcal C)$ défini par le A-module $M$ (VIII, § 6, n<sup>o</sup> 2). Soient $G$ un groupe commutatif et $\varphi$ un homomorphisme de $K(\mathcal C)$ dans $G$.
+On note $K(\mathscr C)$ le groupe de Grothendieck de $\mathscr C$ et $[M]_{\mathscr C}$ ou $[M]$ l’élément de $K(\mathscr C)$ défini par le A-module $M$ (VIII, § 6, n<sup>o</sup> 2). Soient $G$ un groupe commutatif et $\varphi$ un homomorphisme de $K(\mathscr C)$ dans $G$.
 
 #### Exemple 1 {#alg-x-s2-n8-exa-1 .statement}
 
-Si A est un corps, on peut prendre pour $\mathcal C$ l’ensemble des classes d’espaces vectoriels de dimension finie et pour $\varphi$ l’isomorphisme de $K(\mathcal C)$ sur $\mathbf Z$ défini par $\varphi([M])=\dim(M)$.
+Si A est un corps, on peut prendre pour $\mathscr C$ l’ensemble des classes d’espaces vectoriels de dimension finie et pour $\varphi$ l’isomorphisme de $K(\mathscr C)$ sur $\mathbf Z$ défini par $\varphi([M])=\dim(M)$.
 
 #### Exemple 2 {#alg-x-s2-n8-exa-2 .statement}
 
-On peut prendre pour $\mathcal{C}$ l’ensemble des classes de modules de longueur finie et pour $\varphi : K(\mathcal{C}) \to \mathbf{Z}$ l’homomorphisme défini par $\varphi([M]) = \operatorname{long}_A(M)$.
+On peut prendre pour $\mathscr{C}$ l’ensemble des classes de modules de longueur finie et pour $\varphi : K(\mathscr{C}) \to \mathbf{Z}$ l’homomorphisme défini par $\varphi([M]) = \operatorname{long}_A(M)$.
 
-On dit qu’un A-module gradué M est de type $\mathcal{C}$ si $M_n$ est de type $\mathcal{C}$ pour tout $n$ (pour cela, il faut si M est borné, et il suffit si $\mathcal{C}$ est stable, que le module M soit de type $\mathcal{C}$).
+On dit qu’un A-module gradué M est de type $\mathscr{C}$ si $M_n$ est de type $\mathscr{C}$ pour tout $n$ (pour cela, il faut si M est borné, et il suffit si $\mathscr{C}$ est stable, que le module M soit de type $\mathscr{C}$).
 
 #### Définition 8 {#alg-x-s2-def-8 .statement}
 
-Soient M un A-module gradué borné de type $\mathcal{C}$ et $(M_n)$ sa graduation. On appelle $\varphi$-caractéristique de M et on note $\chi_\varphi(M)$ ou simplement $\chi(M)$ l’élément $\sum (-1)^n \varphi([M_n])$ de G.
+Soient M un A-module gradué borné de type $\mathscr{C}$ et $(M_n)$ sa graduation. On appelle $\varphi$-caractéristique de M et on note $\chi_\varphi(M)$ ou simplement $\chi(M)$ l’élément $\sum (-1)^n \varphi([M_n])$ de G.
 Cette définition s’applique en particulier lorsque M est le module gradué sous-jacent à un complexe de A-modules.
 
 #### Exemple 3 {#alg-x-s2-n8-exa-3 .statement}
 
-Si M est borné de type $\mathcal{C}$, il en est de même de $M(p)$ pour tout $p \in \mathbf{Z}$, et on a $\chi(M(p)) = (-1)^p \chi(M)$.
+Si M est borné de type $\mathscr{C}$, il en est de même de $M(p)$ pour tout $p \in \mathbf{Z}$, et on a $\chi(M(p)) = (-1)^p \chi(M)$.
 
 #### Exemple 4 {#alg-x-s2-n8-exa-4 .statement}
 
-Soit $0 \to M' \to M \to M'' \to 0$ une suite exacte de A-modules gradués et d’homomorphismes gradués de degré 0. Si M, M’ et M'' sont bornés de type $\mathcal{C}$, on a
+Soit $0 \to M' \to M \to M'' \to 0$ une suite exacte de A-modules gradués et d’homomorphismes gradués de degré 0. Si M, M’ et M'' sont bornés de type $\mathscr{C}$, on a
 $$
 \chi(M) = \chi(M') + \chi(M'').
 $$
-Si M et M'' sont bornés de type $\mathcal{C}$, il en est de même de M’ ; si $\mathcal{C}$ est stable et si deux des trois modules sont bornés de type $\mathcal{C}$, il en est de même du troisième.
+Si M et M'' sont bornés de type $\mathscr{C}$, il en est de même de M’ ; si $\mathscr{C}$ est stable et si deux des trois modules sont bornés de type $\mathscr{C}$, il en est de même du troisième.
 
 #### Exemple 5 {#alg-x-s2-n8-exa-5 .statement}
 
-Soit $u : C' \to C$ un morphisme de complexes bornés de type $\mathcal{C}$. Alors Con ($u$) est borné de type $\mathcal{C}$, et on a :
+Soit $u : C' \to C$ un morphisme de complexes bornés de type $\mathscr{C}$. Alors Con ($u$) est borné de type $\mathscr{C}$, et on a :
 $$
 \chi(\operatorname{Con}(u)) = \chi(C) - \chi(C').
 $$
 
 #### Exemple 6 {#alg-x-s2-n8-exa-6 .statement}
 
-On peut prendre pour G le groupe $K(\mathcal{C})$ lui-même, et pour $\varphi$ l’identité ; on note dans ce cas $\chi_{\mathcal{C}}(M)$ l’élément $\chi_\varphi(M) = \sum (-1)^n[M_n]$ de $K(\mathcal{C})$.
+On peut prendre pour G le groupe $K(\mathscr{C})$ lui-même, et pour $\varphi$ l’identité ; on note dans ce cas $\chi_{\mathscr{C}}(M)$ l’élément $\chi_\varphi(M) = \sum (-1)^n[M_n]$ de $K(\mathscr{C})$.
 
 #### Remarque {#alg-x-s2-n8-rem-1 .statement}
 
@@ -920,23 +920,23 @@ On appelle polynôme de Poincaré de M relativement à $\varphi$ l’élément $
 
 #### Lemme 4 {#alg-x-s2-lem-4 .statement}
 
-Soit C un complexe borné de type $\mathcal{C}$. Si $H(C) = 0$, on a $\chi(C) = 0$.
+Soit C un complexe borné de type $\mathscr{C}$. Si $H(C) = 0$, on a $\chi(C) = 0$.
 Cela résulte de VIII, § 6, no 1, cor. de la prop. 1.
 
 #### Proposition 10 {#alg-x-s2-prop-10 .statement}
 
-Soient C et C’ deux complexes bornés de type $\mathcal{C}$. S’il existe un homologisme $u : C' \to C$, on a $\chi(C) = \chi(C')$.
-En effet, Con ($u$) est borné de type $\mathcal{C}$ et on a $\chi(\operatorname{Con}(u)) = \chi(C) - \chi(C')$; d’autre part, $H(\operatorname{Con}(u)) = 0$ d’après X, p. 38, cor., donc $\chi(\operatorname{Con}(u)) = 0$ (lemme 4).
+Soient C et C’ deux complexes bornés de type $\mathscr{C}$. S’il existe un homologisme $u : C' \to C$, on a $\chi(C) = \chi(C')$.
+En effet, Con ($u$) est borné de type $\mathscr{C}$ et on a $\chi(\operatorname{Con}(u)) = \chi(C) - \chi(C')$; d’autre part, $H(\operatorname{Con}(u)) = 0$ d’après X, p. 38, cor., donc $\chi(\operatorname{Con}(u)) = 0$ (lemme 4).
 
 #### Proposition 11 {#alg-x-s2-prop-11 .statement}
 
-Soit C un complexe borné de type $\mathcal{C}$.
-a) Si $\mathcal{C}$ est stable, $H(C)$ est de type $\mathcal{C}$.
-b) Si $H(C)$ est de type $\mathcal{C}$, il en est de même de $B(C)$ et de $Z(C)$, et on a $\chi(H(C)) = \chi(C)$.
+Soit C un complexe borné de type $\mathscr{C}$.
+a) Si $\mathscr{C}$ est stable, $H(C)$ est de type $\mathscr{C}$.
+b) Si $H(C)$ est de type $\mathscr{C}$, il en est de même de $B(C)$ et de $Z(C)$, et on a $\chi(H(C)) = \chi(C)$.
 
-a) Si $\mathcal{C}$ est stable, pour tout $n$ le module $Z_n(C)$ est de type $\mathcal{C}$ comme noyau de $d_n : C_n \to C_{n-1}$, et $H_n(C)$ est de type $\mathcal{C}$ comme conoyau de $C_{n+1} \to Z_n$. D’autre part, $H_n(C) = 0$ dès que $C_n = 0$.
+a) Si $\mathscr{C}$ est stable, pour tout $n$ le module $Z_n(C)$ est de type $\mathscr{C}$ comme noyau de $d_n : C_n \to C_{n-1}$, et $H_n(C)$ est de type $\mathscr{C}$ comme conoyau de $C_{n+1} \to Z_n$. D’autre part, $H_n(C) = 0$ dès que $C_n = 0$.
 
-b) Supposons $H(C)$ de type $\mathcal{C}$. Les suites exactes canoniques :
+b) Supposons $H(C)$ de type $\mathscr{C}$. Les suites exactes canoniques :
 
 $$
 0 \to Z_n(C) \to C_n \to B_{n-1}(C) \to 0
@@ -945,7 +945,7 @@ $$
 0 \to B_n(C) \to Z_n(C) \to H_n(C) \to 0
 $$
 
-montrent par récurrence sur $n$ à partir de la borne droite de $C$ que $Z_n(C)$ et $B_n(C)$ sont de type $\mathcal{C}$ pour tout $n$. On a alors
+montrent par récurrence sur $n$ à partir de la borne droite de $C$ que $Z_n(C)$ et $B_n(C)$ sont de type $\mathscr{C}$ pour tout $n$. On a alors
 
 $$
 \chi(C) = \chi(Z(C)) + \chi(B(C) (-1)) = \chi(Z(C)) - \chi(B(C)) = \chi(H(C)) .
@@ -953,27 +953,27 @@ $$
 
 #### Corollaire {#alg-x-s2-n8-cor-1 .statement}
 
-*Si $\mathcal{C}$ est stable et $C$ borné de type $\mathcal{C}$, le module gradué $H(C)$ est borné de type $\mathcal{C}$ et on a $\chi(H(C)) = \chi(C)$.*
+*Si $\mathscr{C}$ est stable et $C$ borné de type $\mathscr{C}$, le module gradué $H(C)$ est borné de type $\mathscr{C}$ et on a $\chi(H(C)) = \chi(C)$.*
 
 #### Proposition 12 {#alg-x-s2-prop-12 .statement}
 
 *Soit $0 \to C' \to C \to C'' \to 0$ une suite exacte de complexes.*
 
-a) *Si $H(C), H(C')$ et $H(C'')$ sont bornés de type $\mathcal{C}$, on a*
+a) *Si $H(C), H(C')$ et $H(C'')$ sont bornés de type $\mathscr{C}$, on a*
 $$
 \chi(H(C)) = \chi(H(C')) + \chi(H(C'')) .
 $$
 
-b) *Si $\mathcal{C}$ est stable, et si deux des modules gradués $H(C), H(C')$ et $H(C'')$ sont bornés de type $\mathcal{C}$, il en est de même du troisième.*
+b) *Si $\mathscr{C}$ est stable, et si deux des modules gradués $H(C), H(C')$ et $H(C'')$ sont bornés de type $\mathscr{C}$, il en est de même du troisième.*
 
 La partie a) résulte du lemme 4 appliqué au complexe d’homologie nulle défini par la suite exacte d’homologie associée à la suite exacte donnée. La partie b) résulte, en considérant cette suite exacte d’homologie, du lemme suivant :
 
-*Lemme 5. — Soit $M \to N \to P \to Q \to R$ une suite exacte de $A$-modules. Si $\mathcal{C}$ est stable, et si $M, N, Q$ et $R$ sont de type $\mathcal{C}$, le module $P$ est de type $\mathcal{C}$.
-Posons $N' = \operatorname{Coker}(M \to N)$ et $Q' = \operatorname{Ker}(Q \to R)$. Les modules $N'$ et $Q'$ sont de type $\mathcal{C}$, et on a une suite exacte $0 \to N' \to P \to Q' \to 0$.*
+*Lemme 5. — Soit $M \to N \to P \to Q \to R$ une suite exacte de $A$-modules. Si $\mathscr{C}$ est stable, et si $M, N, Q$ et $R$ sont de type $\mathscr{C}$, le module $P$ est de type $\mathscr{C}$.
+Posons $N' = \operatorname{Coker}(M \to N)$ et $Q' = \operatorname{Ker}(Q \to R)$. Les modules $N'$ et $Q'$ sont de type $\mathscr{C}$, et on a une suite exacte $0 \to N' \to P \to Q' \to 0$.*
 
 #### Corollaire {#alg-x-s2-n8-cor-2 .statement}
 
-*Supposons $\mathcal{C}$ stable, et soit $u : C' \to C$ un morphisme de complexes tels que $H(C)$ et $H(C')$ soient bornés de type $\mathcal{C}$. Alors $H(\operatorname{Con}(u))$ est borné de type $\mathcal{C}$, et on a*
+*Supposons $\mathscr{C}$ stable, et soit $u : C' \to C$ un morphisme de complexes tels que $H(C)$ et $H(C')$ soient bornés de type $\mathscr{C}$. Alors $H(\operatorname{Con}(u))$ est borné de type $\mathscr{C}$, et on a*
 $$
 \chi(H(\operatorname{Con}(u))) = \chi(H(C)) - \chi(H(C')) .
 $$
@@ -983,9 +983,9 @@ $$
 0 \to C \to \operatorname{Con}(u) \to C'(-1) \to 0 .
 $$
 
-*Remarque. — Soient $E$ un complexe, $h : E \to C$ et $h' : E \to C'$ des homotopismes avec $C$ et $C'$ bornés de type $\mathcal{C}$. On a alors $\chi(C) = \chi(C')$. En effet, si $h_1$ est un inverse de $h$ à homotopie près, $h' \circ h_1$ est un homotopisme, donc un homologisme de $C$ dans
+*Remarque. — Soient $E$ un complexe, $h : E \to C$ et $h' : E \to C'$ des homotopismes avec $C$ et $C'$ bornés de type $\mathscr{C}$. On a alors $\chi(C) = \chi(C')$. En effet, si $h_1$ est un inverse de $h$ à homotopie près, $h' \circ h_1$ est un homotopisme, donc un homologisme de $C$ dans
 
-C' et on peut appliquer la prop. 10. Par suite, on peut étendre la définition 8 en posant $\chi(E) = \chi(C)$ dès qu’il existe un homotopisme de E sur un complexe C borné de type $\mathcal{C}$. Les propositions 10, 11, 12 et leurs corollaires se généralisent dans ce cadre.
+C' et on peut appliquer la prop. 10. Par suite, on peut étendre la définition 8 en posant $\chi(E) = \chi(C)$ dès qu’il existe un homotopisme de E sur un complexe C borné de type $\mathscr{C}$. Les propositions 10, 11, 12 et leurs corollaires se généralisent dans ce cadre.
 
 Application :
 
@@ -996,7 +996,7 @@ Application :
     \Sigma (-1)^i c_i = \Sigma (-1)^i c'_i .
     $$
     c) Avec les notations de a) et b), on a $\Sigma (-1)^i c_i = \Sigma (--1)^i b_i$.
-    Les propriétés a) et b) résultent de c), et c) résulte de la prop. 11 appliquée au complexe $\Gamma$ décrit au n° 3, en prenant pour $\mathcal{C}$ la classe des K-espaces vectoriels de dimension finie et pour $\varphi$ la fonction définie par $\varphi([M]) = \dim_K(M)$ (X, p. 40, exemple 1).
+    Les propriétés a) et b) résultent de c), et c) résulte de la prop. 11 appliquée au complexe $\Gamma$ décrit au n° 3, en prenant pour $\mathscr{C}$ la classe des K-espaces vectoriels de dimension finie et pour $\varphi$ la fonction définie par $\varphi([M]) = \dim_K(M)$ (X, p. 40, exemple 1).
 
 ### 9. Complexes de modules à droite, complexes de multimodules
 

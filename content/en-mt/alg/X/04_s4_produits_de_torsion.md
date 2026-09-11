@@ -49,7 +49,7 @@ subsections:
       pdf_page: 86
 statements: 39
 exercises: 9
-content_sha256: 1e9d4f753de7f9be6f651b6d95c57033b3cee123d3b97133eeb5db3f8cebd78e
+content_sha256: e98a40cd40f46d665e4de44061e8ca3ce8fa3849ad79dd27eb21891b4881be45
 translated_from: content/fr/alg/X/04_s4_produits_de_torsion.md
 source_lang: fr
 translation_method: machine
@@ -657,14 +657,14 @@ $$
 
 was defined in the previous section (X, p. 69, prop. 5). Let
 
-$$(\mathcal{E})$$
+$$(\mathscr{E})$$
 $$
 0 \to N' \xrightarrow{u} N \xrightarrow{v} N'' \to 0
 $$
 
 be an exact sequence of left $A$-modules; then the sequence of $k$-complexes
 
-$$(\mathcal{ME})$$
+$$(\mathscr{ME})$$
 $$
 0 \longrightarrow L(M) \otimes_A N' \xrightarrow{1 \otimes u} L(M) \otimes_A N \xrightarrow{1 \otimes v} L(M) \otimes_A N'' \longrightarrow 0
 $$
@@ -672,20 +672,20 @@ $$
 is then exact (X, p. 66, Lemma 1); denote by
 
 $$
-\partial^{(\mathcal{ME})} : H(L(M) \otimes_A N'') \to H(L(M) \otimes_A N')
+\partial^{(\mathscr{ME})} : H(L(M) \otimes_A N'') \to H(L(M) \otimes_A N')
 $$
 
 the corresponding linking homomorphism (X, p. 29).
 
 #### Definition 2 {#alg-x-s4-def-2 .statement}
 
-The linking homomorphism of torsion products, relative to the module $M$ and the exact sequence $\mathcal{E}$, is the composite homomorphism
+The linking homomorphism of torsion products, relative to the module $M$ and the exact sequence $\mathscr{E}$, is the composite homomorphism
 
 $$
-\partial(M, \mathcal{E}) = \psi_M(N')^{-1} \circ \partial^{(M\mathcal{E})} \circ \psi_M(N'') : \mathrm{Tor}^A(M, N'') \to \mathrm{Tor}^A(M, N')
+\partial(M, \mathscr{E}) = \psi_M(N')^{-1} \circ \partial^{(M\mathscr{E})} \circ \psi_M(N'') : \mathrm{Tor}^A(M, N'') \to \mathrm{Tor}^A(M, N')
 $$
 
-This is a graded $k$-homomorphism of degree $-1$, whose homogeneous components are denoted $\partial_n(M, \mathcal{E}) : \mathrm{Tor}_n^A(M, N'') \to \mathrm{Tor}_{n-1}^A(M, N')$.
+This is a graded $k$-homomorphism of degree $-1$, whose homogeneous components are denoted $\partial_n(M, \mathscr{E}) : \mathrm{Tor}_n^A(M, N'') \to \mathrm{Tor}_{n-1}^A(M, N')$.
 
 #### Theorem 1 {#alg-x-s4-thm-1 .statement}
 
@@ -695,10 +695,10 @@ $$
 \cdots \longrightarrow \mathrm{Tor}_n^A(M, N') \xrightarrow{\mathrm{Tor}_n^A(1, u)} \mathrm{Tor}_n^A(M, N) \xrightarrow{\mathrm{Tor}_n^A(1, v)} \mathrm{Tor}_n^A(M, N'')
 $$
 $$
-\xrightarrow{\partial_n(M, \mathcal{E})} \mathrm{Tor}_{n-1}^A(M, N') \xrightarrow{\mathrm{Tor}_{n-1}^A(1, u)} \cdots \xrightarrow{\mathrm{Tor}_1^A(1, v)} \mathrm{Tor}_1^A(M, N'')
+\xrightarrow{\partial_n(M, \mathscr{E})} \mathrm{Tor}_{n-1}^A(M, N') \xrightarrow{\mathrm{Tor}_{n-1}^A(1, u)} \cdots \xrightarrow{\mathrm{Tor}_1^A(1, v)} \mathrm{Tor}_1^A(M, N'')
 $$
 $$
-\xrightarrow{\hat{c}_1(M, \mathcal{E})} M \otimes_A N' \xrightarrow{1 \otimes u} M \otimes_A N \xrightarrow{1 \otimes v} M \otimes_A N'' \longrightarrow 0
+\xrightarrow{\hat{c}_1(M, \mathscr{E})} M \otimes_A N' \xrightarrow{1 \otimes u} M \otimes_A N \xrightarrow{1 \otimes v} M \otimes_A N'' \longrightarrow 0
 $$
 
 is exact.
@@ -707,9 +707,9 @@ To see this, consider the diagram
 
 $$
 \begin{array}{ccccccccc}
-\mathrm{Tor}(M, N') & \xrightarrow{\mathrm{Tor}(1, u)} & \mathrm{Tor}(M, N) & \xrightarrow{\mathrm{Tor}(1, v)} & \mathrm{Tor}(M, N'') & \xrightarrow{\partial(M, \mathcal{E})} & \mathrm{Tor}(M, N') & \xrightarrow{\mathrm{Tor}(1, u)} & \mathrm{Tor}(M, N) \\
+\mathrm{Tor}(M, N') & \xrightarrow{\mathrm{Tor}(1, u)} & \mathrm{Tor}(M, N) & \xrightarrow{\mathrm{Tor}(1, v)} & \mathrm{Tor}(M, N'') & \xrightarrow{\partial(M, \mathscr{E})} & \mathrm{Tor}(M, N') & \xrightarrow{\mathrm{Tor}(1, u)} & \mathrm{Tor}(M, N) \\
 \psi_M(N') \downarrow & & \psi_M(N) \downarrow & & \psi_M(N'') \downarrow & & \psi_M(N') \downarrow & & \psi_M(N') \downarrow \\
-H(L(M) \otimes N') & \xrightarrow{H(1 \otimes u)} & H(L(M) \otimes N) & \xrightarrow{H(1 \otimes v)} & H(L(M \otimes N'') & \xrightarrow{\partial^{(M\mathcal{ME})}} & H(L(M) \otimes N') & \xrightarrow{H(1 \otimes u)} & H(L(M) \otimes N)
+H(L(M) \otimes N') & \xrightarrow{H(1 \otimes u)} & H(L(M) \otimes N) & \xrightarrow{H(1 \otimes v)} & H(L(M \otimes N'') & \xrightarrow{\partial^{(M\mathscr{ME})}} & H(L(M) \otimes N') & \xrightarrow{H(1 \otimes u)} & H(L(M) \otimes N)
 \end{array}
 $$
 
@@ -813,18 +813,18 @@ $$
 \partial_n(F, N) : \operatorname{Tor}_n^A(M'', N) \to \operatorname{Tor}_{n-1}^A(M', N)
 $$
 
-by $\partial(\mathcal F,\mathbf N)=\overline{\psi}_{\mathbf N}(M')^{-1}\circ\partial(\mathcal F^{\mathbf N})\circ\overline{\psi}_{\mathbf N}(M'')$, where $\partial(\mathcal F^{\mathbf N})$ is the linking homomorphism of
+by $\partial(\mathscr F,\mathbf N)=\overline{\psi}_{\mathbf N}(M')^{-1}\circ\partial(\mathscr F^{\mathbf N})\circ\overline{\psi}_{\mathbf N}(M'')$, where $\partial(\mathscr F^{\mathbf N})$ is the linking homomorphism of
 the exact sequence
 
-$$(\mathcal F_{\mathbf N})\qquad 0\longrightarrow M'\otimes_A L(N)\longrightarrow M\otimes_A L(N)\longrightarrow M''\otimes_A L(N)\longrightarrow 0$$
+$$(\mathscr F_{\mathbf N})\qquad 0\longrightarrow M'\otimes_A L(N)\longrightarrow M\otimes_A L(N)\longrightarrow M''\otimes_A L(N)\longrightarrow 0$$
 
-deduced from $\mathcal F$, and one has:
+deduced from $\mathscr F$, and one has:
 
 **THEOREM 1 bis.** — *The left-unbounded sequence of homomorphisms of $k$-modules*
 
-$$\longrightarrow \operatorname{Tor}_n^A(M',N)\xrightarrow{\operatorname{Tor}_n^A(r,1)}\operatorname{Tor}_n^A(M,N)\xrightarrow{\operatorname{Tor}_n^A(s,1)}\operatorname{Tor}_n^A(M'',N)\xrightarrow{\partial_n(\mathcal F,N)}\operatorname{Tor}_{n-1}^A(M',N)$$
+$$\longrightarrow \operatorname{Tor}_n^A(M',N)\xrightarrow{\operatorname{Tor}_n^A(r,1)}\operatorname{Tor}_n^A(M,N)\xrightarrow{\operatorname{Tor}_n^A(s,1)}\operatorname{Tor}_n^A(M'',N)\xrightarrow{\partial_n(\mathscr F,N)}\operatorname{Tor}_{n-1}^A(M',N)$$
 
-$$\cdots\longrightarrow \operatorname{Tor}_1^A(M'',N)\xrightarrow{\partial_1(\mathcal F,N)}M'\otimes_A N\xrightarrow{r\otimes1}M\otimes_A N\xrightarrow{s\otimes1}M''\otimes_A N\longrightarrow0$$
+$$\cdots\longrightarrow \operatorname{Tor}_1^A(M'',N)\xrightarrow{\partial_1(\mathscr F,N)}M'\otimes_A N\xrightarrow{r\otimes1}M\otimes_A N\xrightarrow{s\otimes1}M''\otimes_A N\longrightarrow0$$
 
 *is exact.*
 
@@ -832,7 +832,7 @@ We leave to the reader the task of stating and proving the properties analogous 
 
 #### Proposition 10 {#alg-x-s4-prop-10 .statement}
 
-*Let us denote by $(\mathcal F^\circ)$ the exact sequence of left $A$-modules*
+*Let us denote by $(\mathscr F^\circ)$ the exact sequence of left $A$-modules*
 
 $$0\longrightarrow M'\xrightarrow{r}M\xrightarrow{s}M''\longrightarrow0.$$
 
@@ -840,9 +840,9 @@ $$0\longrightarrow M'\xrightarrow{r}M\xrightarrow{s}M''\longrightarrow0.$$
 
 $$
 \begin{array}{ccccc}
-\operatorname{Tor}^A(M'',N)&\xrightarrow{\partial(\mathcal F,N)}&\operatorname{Tor}^A(M',N)\\
+\operatorname{Tor}^A(M'',N)&\xrightarrow{\partial(\mathscr F,N)}&\operatorname{Tor}^A(M',N)\\
 \Big\downarrow{\sigma_{M'',N}}&&\Big\downarrow{\sigma_{M',N}}\\
-\operatorname{Tor}^{A^\circ}(N^\circ,{M''}^\circ)&\xrightarrow{\partial(N^\circ,\mathcal F^\circ)}&\operatorname{Tor}^{A^\circ}(N^\circ,{M'}^\circ)
+\operatorname{Tor}^{A^\circ}(N^\circ,{M''}^\circ)&\xrightarrow{\partial(N^\circ,\mathscr F^\circ)}&\operatorname{Tor}^{A^\circ}(N^\circ,{M'}^\circ)
 \end{array}
 $$
 
@@ -1150,9 +1150,9 @@ $$
 
 This shows on the one hand that the cone of $u$ is of zero homology, so that $u$ is a homologism, on the other hand that the module $P_b$ is *flat* (X, p. 76, cor. 2) ; since $P_b$ is finitely generated as a quotient of $L_{b+1}$, it is *projective* (X, p. 13, cor.). The pair $(P,u)$ then satisfies the required condition. The last assertion follows from X, p. 79, cor. 5.
 
-\* **Example.** — Let A be a commutative noetherian ring, X a proper and flat A-scheme, $\mathcal F$ a coherent $\mathcal C_X$-module, flat over A. There exists a bounded complex P consisting of finitely generated projective A-modules such that for every A-module M, $H(X,\mathcal F\otimes_A M)$ identifies naturally with $H(P\otimes_A M)$. Indeed, let $\mathcal U$ be a covering of X by a finite number of affine open sets, $\mathcal C(\mathcal U,\mathcal F)$ the associated Čech complex. One shows that $H^i(\mathcal C(\mathcal U,\mathcal F))$ is isomorphic to the A-module $H^i(X,\mathcal F)$, and that the latter is finitely generated; moreover, for every A-module M, the complex $\mathcal C(\mathcal U,\mathcal F)\otimes_A M$ is isomorphic to $\mathcal C(\mathcal U,\mathcal F\otimes_A M)$. Applying Prop. 11 to the complex $\mathcal C(\mathcal U,\mathcal F)$ (which is bounded), one obtains a complex P that answers the question.
+\* **Example.** — Let A be a commutative noetherian ring, X a proper and flat A-scheme, $\mathscr F$ a coherent $\mathscr C_X$-module, flat over A. There exists a bounded complex P consisting of finitely generated projective A-modules such that for every A-module M, $H(X,\mathscr F\otimes_A M)$ identifies naturally with $H(P\otimes_A M)$. Indeed, let $\mathscr U$ be a covering of X by a finite number of affine open sets, $\mathscr C(\mathscr U,\mathscr F)$ the associated Čech complex. One shows that $H^i(\mathscr C(\mathscr U,\mathscr F))$ is isomorphic to the A-module $H^i(X,\mathscr F)$, and that the latter is finitely generated; moreover, for every A-module M, the complex $\mathscr C(\mathscr U,\mathscr F)\otimes_A M$ is isomorphic to $\mathscr C(\mathscr U,\mathscr F\otimes_A M)$. Applying Prop. 11 to the complex $\mathscr C(\mathscr U,\mathscr F)$ (which is bounded), one obtains a complex P that answers the question.
 
-For every point $y$ of Spec (A), let $\kappa(y)$ denote the residue field of A at $y$, $X_y=X\otimes_A\kappa(y)$ the fibre of X over $y$, $\mathcal F_y=\mathcal F\otimes_A\kappa(y)$, and set $h^p(y)=\dim_{\kappa(y)}H^p(X_y,\mathcal F_y)$ for $p\geq 0$.
+For every point $y$ of Spec (A), let $\kappa(y)$ denote the residue field of A at $y$, $X_y=X\otimes_A\kappa(y)$ the fibre of X over $y$, $\mathscr F_y=\mathscr F\otimes_A\kappa(y)$, and set $h^p(y)=\dim_{\kappa(y)}H^p(X_y,\mathscr F_y)$ for $p\geq 0$.
 
 One easily deduces the following results from the existence of the complex P :
 

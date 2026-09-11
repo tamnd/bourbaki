@@ -38,7 +38,7 @@ subsections:
       pdf_page: 516
 statements: 15
 exercises: 10
-content_sha256: b01af1209083500779bdaaa884eccbc676d09c23fa0febe97dcb3f92583136bd
+content_sha256: 5c03097c6701aa89319bcb1f79ac5061cb1f128e8ae0772c05c9607c5417b89e
 ---
 
 ## § 5. TENSOR ALGEBRA, TENSORS
@@ -242,7 +242,7 @@ Note in particular that the hypotheses of Proposition 4 always hold for arbitrar
 
 It is understood in this statement that for every vector subspace $P$ of $M$, $T(P)$ is canonically identified with a subalgebra of $T(M)$. Let $z \in T(M)$; $z$ can be expressed as a linear combination of elements each of which is a finite product of elements of $M = T^1(M)$; all the elements of $M$ which occur in these products generate a vector subspace $Q$ of finite rank and $z \in T(Q)$.
 
-Let $\mathcal{F}$ be the (non-empty) set of vector subspaces $P$ of finite rank such that $z \in T(P)$. Every decreasing sequence of elements of $\mathcal{F}$ is stationary, since they are vector spaces of finite rank. Hence $\mathcal{F}$ has a minimal element $N$ (Set Theory, III, § 6, no. 5). It remains to verify that every $P \in \mathcal{F}$ contains $N$; now, $z \in T(P) \cap T(N) = T(P \cap N)$ (Proposition 4); in view of the definition of $N$, this implies $N \cap P = N$, that is $P \supset N$.
+Let $\mathscr{F}$ be the (non-empty) set of vector subspaces $P$ of finite rank such that $z \in T(P)$. Every decreasing sequence of elements of $\mathscr{F}$ is stationary, since they are vector spaces of finite rank. Hence $\mathscr{F}$ has a minimal element $N$ (Set Theory, III, § 6, no. 5). It remains to verify that every $P \in \mathscr{F}$ contains $N$; now, $z \in T(P) \cap T(N) = T(P \cap N)$ (Proposition 4); in view of the definition of $N$, this implies $N \cap P = N$, that is $P \supset N$.
 
 The subspace $N$ of $M$ is said to be *associated* with $z$.
 
@@ -516,17 +516,17 @@ $$
 \theta : (M \otimes_A M)^* \otimes_A M \to \operatorname{Hom}_A(M \otimes_A M, M)
 $$
 
-(II, § 4, no. 2, Corollary to Proposition 2); also $\operatorname{Hom}_A(M \otimes_A M, M)$ is canonically isomorphic to the A-module $\mathcal{L}_2(M, M; M)$ of A-*bilinear* mappings of $M \times M$ into $M$ (II, § 3, no. 9). Composing these isomorphisms, a canonical isomorphism is obtained
+(II, § 4, no. 2, Corollary to Proposition 2); also $\operatorname{Hom}_A(M \otimes_A M, M)$ is canonically isomorphic to the A-module $\mathscr{L}_2(M, M; M)$ of A-*bilinear* mappings of $M \times M$ into $M$ (II, § 3, no. 9). Composing these isomorphisms, a canonical isomorphism is obtained
 
 $$
-\chi_M : T^{(3)}_{\{1, 2\}}(M) = M^* \otimes M^* \otimes M \to \mathcal{L}_2(M, M; M)
+\chi_M : T^{(3)}_{\{1, 2\}}(M) = M^* \otimes M^* \otimes M \to \mathscr{L}_2(M, M; M)
 $$
 
 such that, for $x^*, y^*$ in $M^*$, $z \in M$, $\chi_M(x^* \otimes y^* \otimes z)$ is the bilinear mapping
 $$
 (u, v) \mapsto \langle u, x^*\rangle \langle v, y^*\rangle z.
 $$
-Hence, by means of $\chi_M$, $T_{\{1, 2\}}^{(3)}(M)$ (isomorphic to $T_2^1(M)$) can be identified with the A-module $\mathcal{L}_2(M, M; M)$. Suppose that M is a free A-module and let $(e_\lambda)_{\lambda \in L}$ be a basis of M; then the coordinates of a tensor $z \in M^* \otimes M^* \otimes M$ relative to the basis $(e^\lambda \otimes e^\mu \otimes e_\nu)$ of this module are denoted by $\zeta_{\lambda \mu \nu}$. The bilinear mapping $\chi_M(z)$ maps the ordered pair $(e_\lambda, e_\mu)$ to
+Hence, by means of $\chi_M$, $T_{\{1, 2\}}^{(3)}(M)$ (isomorphic to $T_2^1(M)$) can be identified with the A-module $\mathscr{L}_2(M, M; M)$. Suppose that M is a free A-module and let $(e_\lambda)_{\lambda \in L}$ be a basis of M; then the coordinates of a tensor $z \in M^* \otimes M^* \otimes M$ relative to the basis $(e^\lambda \otimes e^\mu \otimes e_\nu)$ of this module are denoted by $\zeta_{\lambda \mu \nu}$. The bilinear mapping $\chi_M(z)$ maps the ordered pair $(e_\lambda, e_\mu)$ to
 $$
 \sum_{\nu \in L} \zeta_{\lambda \mu \nu} e_\nu
 $$

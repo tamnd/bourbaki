@@ -49,11 +49,11 @@ subsections:
       pdf_page: 64
 statements: 29
 exercises: 19
-content_sha256: c57955eb40177cc2abb99be907d9e2f65a9faf2bd88c182740f8f765ea29ea52
+content_sha256: 520880b426762855d2bd08d35cc074e9d780dfb046d0ee3df8fc430683ad7a94
 translated_from: content/en-mt/alg/X/03_s3_resolutions.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: ec6866e0de0c595cd616d3181eec4de64acddca12deb95ce15ed831c73093802
+source_content_sha256: c05936a5e49a7ca9ba15fa03a52f256d31b380ff6a87b5e567ae6972feaa8852
 translation_model: gpt-5.4
 translation_run: translate-vi-950f1267
 glossary_version: 34
@@ -723,15 +723,15 @@ Nếu $A$ và $M$ là các $k$-môđun xạ ảnh (resp. tự do, resp. phẳng)
 
 ### 9. Phân giải và các nhóm Grothendieck
 
-Nếu $\mathcal{C}$ là một tập hợp các lớp các A-môđun, ta sẽ nói rằng một phân giải trái $(P, p)$ bị chặn kiểu $\mathcal{C}$ nếu phức $P$ bị chặn kiểu $\mathcal{C}$ (X, p. 41).
+Nếu $\mathscr{C}$ là một tập hợp các lớp các A-môđun, ta sẽ nói rằng một phân giải trái $(P, p)$ bị chặn kiểu $\mathscr{C}$ nếu phức $P$ bị chặn kiểu $\mathscr{C}$ (X, p. 41).
 
 #### Định lý 1 {#alg-x-s3-thm-1 .statement}
 
-Cho $\mathcal{C}_0$ và $\mathcal{C}$ là hai lớp các tập hợp môđun $A$ cộng tính và khớp trái sao cho $\mathcal{C}_0 \subset \mathcal{C}$ và mọi $A$-môđun thuộc kiểu $\mathcal{C}$ đều có một phân giải trái hữu hạn thuộc kiểu $\mathcal{C}_0$. Khi đó đồng cấu $\alpha : K(\mathcal{C}_0) \to K(\mathcal{C})$ suy ra từ bao hàm của $\mathcal{C}_0$ trong $\mathcal{C}$ là song ánh; nếu $M$ là một $A$-môđun thuộc kiểu $\mathcal{C}$ và $P$ là một phân giải trái hữu hạn của $M$ thuộc kiểu $\mathcal{C}_0$, thì ta có $\alpha^{-1}([M]_{\mathcal{C}}) = \chi_{\mathcal{C}_0}(P)$ (X, p. 41, ví dụ 6).
+Cho $\mathscr{C}_0$ và $\mathscr{C}$ là hai lớp các tập hợp môđun $A$ cộng tính và khớp trái sao cho $\mathscr{C}_0 \subset \mathscr{C}$ và mọi $A$-môđun thuộc kiểu $\mathscr{C}$ đều có một phân giải trái hữu hạn thuộc kiểu $\mathscr{C}_0$. Khi đó đồng cấu $\alpha : K(\mathscr{C}_0) \to K(\mathscr{C})$ suy ra từ bao hàm của $\mathscr{C}_0$ trong $\mathscr{C}$ là song ánh; nếu $M$ là một $A$-môđun thuộc kiểu $\mathscr{C}$ và $P$ là một phân giải trái hữu hạn của $M$ thuộc kiểu $\mathscr{C}_0$, thì ta có $\alpha^{-1}([M]_{\mathscr{C}}) = \chi_{\mathscr{C}_0}(P)$ (X, p. 41, ví dụ 6).
 
 #### Bổ đề 4 {#alg-x-s3-lem-4 .statement}
 
-Cho $f : M' \to M$ là một đồng cấu của các $A$-môđun thuộc kiểu $\mathcal{C}$, và $p : P \to M$ là một phân giải trái hữu hạn của $P$ thuộc kiểu $\mathcal{C}_0$. Tồn tại một phân giải trái hữu hạn $p' : P' \to M'$ thuộc kiểu $\mathcal{C}_0$ và một cấu xạ phức $u : P' \to P$ sao cho $p \circ u = f \circ p'$.
+Cho $f : M' \to M$ là một đồng cấu của các $A$-môđun thuộc kiểu $\mathscr{C}$, và $p : P \to M$ là một phân giải trái hữu hạn của $P$ thuộc kiểu $\mathscr{C}_0$. Tồn tại một phân giải trái hữu hạn $p' : P' \to M'$ thuộc kiểu $\mathscr{C}_0$ và một cấu xạ phức $u : P' \to P$ sao cho $p \circ u = f \circ p'$.
 
 Ta lập luận bằng quy nạp theo độ dài $n$ của $P$, mệnh đề là tầm thường khi độ dài này $< 0$. Xét ánh xạ $g : M' \times P_0 \to M$ sao cho
 
@@ -740,7 +740,7 @@ g(x, r') = f(x) - p_0(r')
 $$
 với $x \in M', r' \in P_0$,
 
-và hạt nhân của nó là $K$; $A$-môđun $K$ thuộc kiểu $\mathcal{C}$ vì $g$ là toàn ánh và $M' \times P_0$ và $M$ thuộc kiểu $\mathcal{C}$. Cho $h : P'_0 \to K$ là một đồng cấu toàn ánh, trong đó $P'_0$ thuộc kiểu $\mathcal{C}_0$; ký hiệu $p'_0 : P'_0 \to M'$ (tương ứng $u_0 : P'_0 \to P_0$) là đồng cấu hợp thành của $h$ với phép chiếu $K \to M$ (tương ứng $K \to P_0$); đồng cấu $p'_0$ là toàn ánh và ta có biểu đồ giao hoán
+và hạt nhân của nó là $K$; $A$-môđun $K$ thuộc kiểu $\mathscr{C}$ vì $g$ là toàn ánh và $M' \times P_0$ và $M$ thuộc kiểu $\mathscr{C}$. Cho $h : P'_0 \to K$ là một đồng cấu toàn ánh, trong đó $P'_0$ thuộc kiểu $\mathscr{C}_0$; ký hiệu $p'_0 : P'_0 \to M'$ (tương ứng $u_0 : P'_0 \to P_0$) là đồng cấu hợp thành của $h$ với phép chiếu $K \to M$ (tương ứng $K \to P_0$); đồng cấu $p'_0$ là toàn ánh và ta có biểu đồ giao hoán
 
 $$
 \begin{array}{ccc}
@@ -791,11 +791,11 @@ Theo X, p. 38, bổ đề 3 a), ta có $\partial = - H_0(u)$. Vì $H_n(P) = 0 = 
 
 Bây giờ ta chứng minh định lý.
 
-a) Cho M là một A-môđun kiểu $\mathcal{C}$. Với mọi phân giải trái bị chặn $(P, p)$ của M kiểu $\mathcal{C}_0$, phần tử $\chi_{\mathcal{C}_0}(P)$ của $K(\mathcal{C}_0)$ chỉ phụ thuộc vào M. Thật vậy, cho $(P_1, p_1)$ và $(P_2, p_2)$ là hai phân giải thuộc kiểu này. Xét phân giải
+a) Cho M là một A-môđun kiểu $\mathscr{C}$. Với mọi phân giải trái bị chặn $(P, p)$ của M kiểu $\mathscr{C}_0$, phần tử $\chi_{\mathscr{C}_0}(P)$ của $K(\mathscr{C}_0)$ chỉ phụ thuộc vào M. Thật vậy, cho $(P_1, p_1)$ và $(P_2, p_2)$ là hai phân giải thuộc kiểu này. Xét phân giải
 $$
 (P_1 \times P_2, p_1 \times p_2)
 $$
-của A-môđun $M \times M$ và đồng cấu $\Delta : x \mapsto (x, x)$ từ M vào $M \times M$. Theo bổ đề 4, tồn tại một phân giải trái bị chặn $(Q, q)$ của M kiểu $\mathcal{C}_0$ và một biểu đồ giao hoán
+của A-môđun $M \times M$ và đồng cấu $\Delta : x \mapsto (x, x)$ từ M vào $M \times M$. Theo bổ đề 4, tồn tại một phân giải trái bị chặn $(Q, q)$ của M kiểu $\mathscr{C}_0$ và một biểu đồ giao hoán
 $$
 \begin{array}{ccc}
 Q & \xrightarrow{u} & P_1 \times P_2 \\
@@ -811,13 +811,13 @@ q \downarrow & & \downarrow p_i \\
 M & \xrightarrow{1_M} & M , \quad i = 1, 2 .
 \end{array}
 $$
-Theo bổ đề 5, Con $(u \circ pr_i)$ có đồng điều không, do đó $u \circ pr_i$ là một đồng cấu đồng điều và $\chi_{\mathcal{C}_0}(Q) = \chi_{\mathcal{C}_0}(P_i)$ (X, p. 41, mệnh đề 10); suy ra $\chi_{\mathcal{C}_0}(P_1) = \chi_{\mathcal{C}_0}(P_2)$ như đã thông báo.
+Theo bổ đề 5, Con $(u \circ pr_i)$ có đồng điều không, do đó $u \circ pr_i$ là một đồng cấu đồng điều và $\chi_{\mathscr{C}_0}(Q) = \chi_{\mathscr{C}_0}(P_i)$ (X, p. 41, mệnh đề 10); suy ra $\chi_{\mathscr{C}_0}(P_1) = \chi_{\mathscr{C}_0}(P_2)$ như đã thông báo.
 
-b) Với mọi A-môđun M kiểu $\mathcal{C}$, đặt $\varphi(M) \in K(\mathcal{C}_0)$ là giá trị chung của các $\chi_{\mathcal{C}_0}(P)$ đối với mọi phân giải trái bị chặn P của M kiểu $\mathcal{C}_0$. Ta sẽ chỉ ra rằng hàm $\varphi : \mathcal{C} \to K(\mathcal{C}_0)$ là cộng tính. Vậy cho
+b) Với mọi A-môđun M kiểu $\mathscr{C}$, đặt $\varphi(M) \in K(\mathscr{C}_0)$ là giá trị chung của các $\chi_{\mathscr{C}_0}(P)$ đối với mọi phân giải trái bị chặn P của M kiểu $\mathscr{C}_0$. Ta sẽ chỉ ra rằng hàm $\varphi : \mathscr{C} \to K(\mathscr{C}_0)$ là cộng tính. Vậy cho
 $$
 0 \to M' \xrightarrow{f} M \to M'' \to 0
 $$
-là một dãy khớp các A-môđun kiểu $\mathcal{C}$. Theo Bổ đề 4, tồn tại một biểu đồ giao hoán
+là một dãy khớp các A-môđun kiểu $\mathscr{C}$. Theo Bổ đề 4, tồn tại một biểu đồ giao hoán
 $$
 \begin{array}{ccc}
 P' & \xrightarrow{u} & P \\
@@ -825,17 +825,17 @@ p' \downarrow & & \downarrow p \\
 0 & \xrightarrow{f} & M \xrightarrow{g} M'' \to 0
 \end{array}
 $$
-trong đó $(P, p)$ và $(P', p')$ là các phân giải trái bị chặn kiểu $\mathcal{C}_0$. Khi đó ta có
+trong đó $(P, p)$ và $(P', p')$ là các phân giải trái bị chặn kiểu $\mathscr{C}_0$. Khi đó ta có
 $$
-\varphi(M) = \chi_{\mathcal{C}_0}(P) , \qquad \varphi(M') = \chi_{\mathcal{C}_0}(P')
+\varphi(M) = \chi_{\mathscr{C}_0}(P) , \qquad \varphi(M') = \chi_{\mathscr{C}_0}(P')
 $$
 và theo Bổ đề 5
 $$
-\varphi(M'') = \chi_{\mathcal{C}_0}(\mathrm{Con}\,(u)) = \chi_{\mathcal{C}_0}(P) - \chi_{\mathcal{C}_0}(P') = \varphi(M) - \varphi(M') ;
+\varphi(M'') = \chi_{\mathscr{C}_0}(\mathrm{Con}\,(u)) = \chi_{\mathscr{C}_0}(P) - \chi_{\mathscr{C}_0}(P') = \varphi(M) - \varphi(M') ;
 $$
 điều phải chứng minh.
 
-c) Khi đó, cho $\beta : K(\mathcal{C}) \to K(\mathcal{C}_0)$ là đồng cấu sao cho, với các ký hiệu đứng trước, ta có $\beta([M]_{\mathcal{C}})=\chi_{\mathcal{C}_0}(P)$. Vì $p$ là một đồng cấu, ta có $\chi_{\mathcal{C}}(P)=[M]_{\mathcal{C}}$, do đó $\alpha\circ\beta([M]_{\mathcal{C}})=\alpha(\chi_{\mathcal{C}_0}(P))=\chi_{\mathcal{C}}(P)=[M]_{\mathcal{C}}$ và $\alpha\circ\beta=1_{K(\mathcal{C})}$. Nếu $M$ là kiểu $\mathcal{C}_0$, thì $(M,1_M)$ là một phân giải của $M$, do đó $\varphi(M)=[M]_{\mathcal{C}_0}$ và $\beta\circ\alpha=1_{K(\mathcal{C}_0)}$, điều này hoàn tất chứng minh.
+c) Khi đó, cho $\beta : K(\mathscr{C}) \to K(\mathscr{C}_0)$ là đồng cấu sao cho, với các ký hiệu đứng trước, ta có $\beta([M]_{\mathscr{C}})=\chi_{\mathscr{C}_0}(P)$. Vì $p$ là một đồng cấu, ta có $\chi_{\mathscr{C}}(P)=[M]_{\mathscr{C}}$, do đó $\alpha\circ\beta([M]_{\mathscr{C}})=\alpha(\chi_{\mathscr{C}_0}(P))=\chi_{\mathscr{C}}(P)=[M]_{\mathscr{C}}$ và $\alpha\circ\beta=1_{K(\mathscr{C})}$. Nếu $M$ là kiểu $\mathscr{C}_0$, thì $(M,1_M)$ là một phân giải của $M$, do đó $\varphi(M)=[M]_{\mathscr{C}_0}$ và $\beta\circ\alpha=1_{K(\mathscr{C}_0)}$, điều này hoàn tất chứng minh.
 
 Ta sẽ áp dụng định lý này cho các môđun có "chiều xạ ảnh hữu hạn" trong § 8 (X, p. 137).
 

@@ -47,7 +47,7 @@ chapters:
           statements: 39
           exercises: 16
           extraction: ocr
-          content_sha256: 98981d8a76eff4ef9c3ae9531a90332a2920fc7ebc27e9bd371149b6a89c8204
+          content_sha256: fc49cfc51b454432caf238e360515b3d9c8fce04de20f440b3eca2f4a7a8e020
         - kind: section
           section: 2
           title: Élément neutre ; éléments simplifiables ; éléments inversibles
@@ -60,7 +60,7 @@ chapters:
           statements: 32
           exercises: 17
           extraction: ocr
-          content_sha256: 4880a04b336c37ceb7d316aa21575e7af6a3cff1983d9e99b72ead7f2fd1608f
+          content_sha256: 6cd82371ad499c7e4fc53f696e4bd99a01dd048130d9fa0a268632dba11a8580
         - kind: section
           section: 3
           title: Actions
@@ -73,7 +73,7 @@ chapters:
           statements: 23
           exercises: 10
           extraction: ocr
-          content_sha256: ee4b2e3ff8b24219c1460bf40c37c82b11b0657ccfb5d0937024d65174be79fe
+          content_sha256: 5c753331d16f0c78a23dc4b65dd48fd15e2f3b77d3fb32449f05a89098a29884
         - kind: section
           section: 4
           title: Groupes et groupes à opérateurs
@@ -86,7 +86,7 @@ chapters:
           statements: 66
           exercises: 26
           extraction: ocr
-          content_sha256: a711b3ebd89b32c5ea3ea2e1f026589a09b73c0afb90ab9651e4a83e25fe9554
+          content_sha256: 9b83a6e54c23b3061dc3b6e71175f255d35071be33cb53e145f0b55a0b44ab2a
         - kind: section
           section: 5
           title: Groupes opérant sur un ensemble
@@ -99,7 +99,7 @@ chapters:
           statements: 41
           exercises: 29
           extraction: ocr
-          content_sha256: 466abed96462daccdedffc80de9cccaece9d32428771c5f38a074e2040ecc878
+          content_sha256: 688c7c52037a8d03be1fa07dc3f24bddf0190f059762ac6c561f8c9b2ea072cf
         - kind: section
           section: 6
           title: Extensions, groupes résolubles, groupes nilpotents
@@ -112,7 +112,7 @@ chapters:
           statements: 68
           exercises: 41
           extraction: ocr
-          content_sha256: 9a17e5ddfce7be6cf12f2f03d20e1760bf61223d7661f7b621abde2958295d00
+          content_sha256: fd56f848b75e700c61a9151fe7bedae5c2c70f554e68a1940affbc42e0e7d6aa
         - kind: section
           section: 7
           title: Monoïdes libres, groupes libres
@@ -138,7 +138,7 @@ chapters:
           statements: 40
           exercises: 16
           extraction: ocr
-          content_sha256: bf3ea45c41f5440bd1c826701322175fa5fb68e476ae52dac742e21634f09164
+          content_sha256: c1cf787be6101666de84cd5a43abcb94f72966453d71281ba1ec3c9890f55ea5
         - kind: section
           section: 9
           title: Corps
@@ -199,7 +199,7 @@ chapters:
           statements: 101
           exercises: 27
           extraction: ocr
-          content_sha256: b4b28b6d75dc77acfe9906f6f9c66595795db5a2a42ad9cb4f6e8f929e93d20d
+          content_sha256: 2e06c39aabc65cfc4bd7360ab41d47d960fff0e93904d8ef9ce133abfdd93269
         - kind: section
           section: 2
           title: Modules d’applications linéaires. Dualité
@@ -212,7 +212,7 @@ chapters:
           statements: 43
           exercises: 24
           extraction: ocr
-          content_sha256: 6fdcfa5713a3f71bb37e31c09d327449f1f66ff64a8caee1f42d7e5c6821200b
+          content_sha256: 9bc51dded0ad3dcb4f786f21c924b77574d5a0c190ca4e0da3b8d5527607e9b3
         - kind: section
           section: 3
           title: Produits tensoriels
@@ -225,7 +225,7 @@ chapters:
           statements: 30
           exercises: 4
           extraction: ocr
-          content_sha256: d26ec4b68efcde524605462fda65b1b4beac96752c5790a331e7f59fa5f3203d
+          content_sha256: b27a4e0838d7ae7dc02937a6edc79938bfc1a13ec7d07f1e79b1e305be56d687
         - kind: section
           section: 4
           title: Relations entre produits tensoriels et modules d'homomorphismes
@@ -238,7 +238,7 @@ chapters:
           statements: 15
           exercises: 9
           extraction: ocr
-          content_sha256: b14f871e442d2c9eb946f3fc7cf7f12be5c3e58f35a9cdf3ae02e8ccec04e962
+          content_sha256: 842e7d7a56be95f40e0af26c55e8df269080f7d1ff3b15f1df5758a7197aabfe
         - kind: section
           section: 5
           title: Extension de l'anneau des scalaires
@@ -277,7 +277,7 @@ chapters:
           statements: 90
           exercises: 39
           extraction: ocr
-          content_sha256: 386b4d53f1bf1b11f241fa5820cbc5ce9e01de77eef1252ee5d8401beab95644
+          content_sha256: 4a4d85f4524d1c42c36513fecd719ef08de0e9bc6f928a307ab1fc31367ab371
         - kind: section
           section: 8
           title: Restriction du corps des scalaires dans les espaces vectoriels
@@ -290,7 +290,7 @@ chapters:
           statements: 17
           exercises: 5
           extraction: ocr
-          content_sha256: 4729d446b1507616c621f4747b8a2f39bd8ee7b4be4522eb01d76377e8bc1968
+          content_sha256: f17623809b75a67fd83d70bd528327b5f45c5d4ec8016f1d12bd165e9de0c2df
         - kind: section
           section: 9
           title: Espaces affines et espaces projectifs
@@ -403,7 +403,7 @@ chapters:
           statements: 48
           exercises: 2
           extraction: ocr
-          content_sha256: d9bbe0fc55c42c5d36796ffedea959ba728313abd54b5a73198589e0ca4bf05f
+          content_sha256: a18b0aaf982ca60eec9c3b2dd390885fe59495cb41bdf03f6e9d574d11322b84
         - kind: section
           section: 5
           title: Algèbre tensorielle, tenseurs
@@ -416,7 +416,7 @@ chapters:
           statements: 14
           exercises: 10
           extraction: ocr
-          content_sha256: 06b53b876114cba75ae4c0014d6ae6dfc48cf40de6aaf3b4739f8867e2c85cb3
+          content_sha256: fd13539cf49475bfc3bf63278449cbc3b0ef56a7fcd21260f4b3ded73a2b487b
         - kind: section
           section: 6
           title: Algèbre symétrique
@@ -429,7 +429,7 @@ chapters:
           statements: 19
           exercises: 5
           extraction: ocr
-          content_sha256: 40f152bcd1e869e851df2deb19631a5d9be1b26d27d6a38bfc42fdabc3f51e63
+          content_sha256: 535fa5c20aafed0aad81abf47bab473f5fb0f8f01b8d7f1857b86721917d0577
         - kind: section
           section: 7
           title: Algèbre extérieure
@@ -442,7 +442,7 @@ chapters:
           statements: 30
           exercises: 15
           extraction: ocr
-          content_sha256: 50eb4d0f6b35bf47dec4073c1ae82fe5673ae979ce273833b17ead7fdc947f74
+          content_sha256: d61f51f314120a8ecb61ca8624e76af2c6cfe6fdec09cff73c9a5ddcfef31069
         - kind: section
           section: 8
           title: Déterminants
@@ -455,7 +455,7 @@ chapters:
           statements: 38
           exercises: 26
           extraction: ocr
-          content_sha256: f14742f5d87ea50c10c3c63903bc1086452d4e9b2213b7d83714481f7b4af3cf
+          content_sha256: d2d798dfab17a5c0343f839e74e8a47b8e44f87abb3f10a44d40fa48f3f80611
         - kind: section
           section: 9
           title: Normes et traces
@@ -494,7 +494,7 @@ chapters:
           statements: 52
           exercises: 27
           extraction: ocr
-          content_sha256: f6dcc52805a2027d7331d2a760de2a8e098554e1ccf596c97d18989220a50b2c
+          content_sha256: 3a92b97a82cbf57a60083098a6cd1faa94c593a5cd255446fe757eac42b00200
         - kind: appendix
           title: Algèbres alternatives. Octonions
           path: content/fr/alg/III/A_a_algebres_alternatives_octonions.md

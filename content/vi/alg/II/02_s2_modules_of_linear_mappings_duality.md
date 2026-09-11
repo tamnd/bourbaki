@@ -46,9 +46,9 @@ subsections:
       pdf_page: 264
 statements: 42
 exercises: 3
-content_sha256: 8fc4d77b713a86190e8a1f7b0eee5083f4871cb5ac01920a76dd2cbab0557fd3
+content_sha256: 92bc803d41ff9e0cfe62a538078a806c3e328e4ad70c8d0e8c4d26472a1e1d18
 translated_from: content/en/alg/II/02_s2_modules_of_linear_mappings_duality.md
-source_content_sha256: ada77bb5d3f2991282d1d80427eaa87544335c7c3fafa597f5d0bcfabf29858d
+source_content_sha256: 258255c57ca3524e48d9ff71cc97eff6aa8bc4291c0e15cf968c9c2efb97b55c
 translation_model: gpt-5.4
 translation_run: translate-vi-b0e91fc7
 glossary_version: 34
@@ -667,7 +667,7 @@ Theo Mệnh đề 14, để một phương trình tuyến tính $u(x) = y_0$ có
 
 Nói rằng $u(x) = y_0$ có một nghiệm nghĩa là $y_0 \in u(E)$, và mệnh đề suy ra từ no. 5, Hệ quả của Mệnh đề 8.
 
-† Thực ra đây là một sự lạm dụng ngôn ngữ; theo quan điểm lôgic, ở đây ta không định nghĩa từ "nghiệm", mà chỉ đơn giản coi mệnh đề "$x_0$ là một nghiệm của phương trình $u(x) = y_0$" là tương đương với quan hệ "$x_0 \in E$ và $u(x_0) = y_0$". Hãy nhận xét rằng trong một lý thuyết toán học $\mathcal{T}$ mà quan hệ "$A$ là một vành, $E$ và $F$ là các $A$-môđun, $u$ là một đồng cấu từ $E$ vào $F$, $y_0$ là một phần tử của $F$" là một định lý, mọi *số hạng* $T$ của $\mathcal{T}$ sao cho quan hệ "$T \in E$ và $u(T) = y_0$" là đúng trong $\mathcal{T}$ đều là một *nghiệm* của phương trình $u(x) = y_0$ theo nghĩa của *Set Theory*, I, § 5, no. 2; điều này biện minh cho sự lạm dụng ngôn ngữ nói trên.
+† Thực ra đây là một sự lạm dụng ngôn ngữ; theo quan điểm lôgic, ở đây ta không định nghĩa từ "nghiệm", mà chỉ đơn giản coi mệnh đề "$x_0$ là một nghiệm của phương trình $u(x) = y_0$" là tương đương với quan hệ "$x_0 \in E$ và $u(x_0) = y_0$". Hãy nhận xét rằng trong một lý thuyết toán học $\mathscr{T}$ mà quan hệ "$A$ là một vành, $E$ và $F$ là các $A$-môđun, $u$ là một đồng cấu từ $E$ vào $F$, $y_0$ là một phần tử của $F$" là một định lý, mọi *số hạng* $T$ của $\mathscr{T}$ sao cho quan hệ "$T \in E$ và $u(T) = y_0$" là đúng trong $\mathscr{T}$ đều là một *nghiệm* của phương trình $u(x) = y_0$ theo nghĩa của *Set Theory*, I, § 5, no. 2; điều này biện minh cho sự lạm dụng ngôn ngữ nói trên.
 
 Hãy nhận xét rằng tiêu chuẩn cần để tồn tại một nghiệm của $u(x) = y_0$, được cho bởi Mệnh đề 15, là đủ khi $A$ là một trường (§ 7, no. 6, Mệnh đề 12), nhưng *không đúng trong trường hợp tổng quát* (Bài tập 10).
 

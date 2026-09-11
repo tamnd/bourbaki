@@ -42,7 +42,7 @@ subsections:
       pdf_page: 339
 statements: 33
 exercises: 41
-content_sha256: adc51298a55c9801428cc2053528e349dbe7b461889119285aefa5f90ba1837a
+content_sha256: 085bdbaa158b3451b1406ac74b0dc1768d25be4112fb7e750530e7530abbe3da
 ---
 
 ## § 2. ORDERED FIELDS
@@ -178,13 +178,13 @@ Condition (OE) is necessary: if E is an ordered extension of K then the elements
 
 Conversely, suppose condition (OE) is satisfied, then we will define an ordering on E by constructing a subset P of E which satisfies conditions (AP,,), (APII), (AP,,,) and (APIV), and which contains the set $K_+$ of positive elements of K. Such a subset P will certainly make E an ordered extension of K, for we will have $K \cap P = K_+$; indeed, if P were to contain an element $-a < 0$ of K, then a would belong to $P \cap (-P)$, contradicting (APIII).
 
-To define P, let us consider the set $\mathcal{M}$ of subsets of E which satisfy (API), (AP,,) and (AP,,,), and which contain the union of $K_+$ and the set C of squares of elements of E. This set $\mathcal{M}$ is nonempty, for it contains the set $P_0$ of elements of the form $\sum p_i x_i^2$ (that $P_0$ satisfies (AP,,,) follows immediately from (OE)).
+To define P, let us consider the set $\mathscr{M}$ of subsets of E which satisfy (API), (AP,,) and (AP,,,), and which contain the union of $K_+$ and the set C of squares of elements of E. This set $\mathscr{M}$ is nonempty, for it contains the set $P_0$ of elements of the form $\sum p_i x_i^2$ (that $P_0$ satisfies (AP,,,) follows immediately from (OE)).
 
-Moreover $\mathcal{M}$ is inductive (*Set Theory*, III, p. 154, Def. 3). Thus there exists, by Th. 2 of *Set Theory*, III, p. 154, a maximal element in $\mathcal{M}$, which it remains for us to prove satisfies (APIV); now this follows from the following lemma:
+Moreover $\mathscr{M}$ is inductive (*Set Theory*, III, p. 154, Def. 3). Thus there exists, by Th. 2 of *Set Theory*, III, p. 154, a maximal element in $\mathscr{M}$, which it remains for us to prove satisfies (APIV); now this follows from the following lemma:
 
 #### Lemma {#alg-vi-s2-n3-lem-1 .statement}
 
-— *Let* $P \in \mathcal{M}$ *and* $x \notin P$; *then there exists* $P' \in \mathcal{M}$ *such that* $P \subset P'$ *and* $-x \in P'$.
+— *Let* $P \in \mathscr{M}$ *and* $x \notin P$; *then there exists* $P' \in \mathscr{M}$ *such that* $P \subset P'$ *and* $-x \in P'$.
 
 Take $P' = P - xP$, and check that $P'$ has the required properties. Since $0 \in C \subset P$, we have $P \subset P'$. Whence $C \subset P'$ and $K_+ \subset P'$. Since $1 \in C \subset P$ we have $-x \in P'$. We have
 $$
@@ -213,7 +213,7 @@ There does *not* exist any ordered field structure on a field E in which $-1$ is
 
 *Let E be an extension of K admitting the structure of an ordered extension of K. For an element $x \in E$ to be positive under every such structure on E, it is necessary and sufficient that x be of the form $\sum_i p_i x_i^2$, where $x_i \in E$ and the $p_i$ are positive elements of K.*
 
-The condition is obviously sufficient; it is also necessary, for (in the notation of the proof of Th. 1), if $x \notin P_0$ there exists a maximal element P of $\mathcal{M}$ such that $x \notin P$; then $-x \in P$ by the Lemma, and x is not positive under the ordering defined by P, since $x \neq 0$.
+The condition is obviously sufficient; it is also necessary, for (in the notation of the proof of Th. 1), if $x \notin P_0$ there exists a maximal element P of $\mathscr{M}$ such that $x \notin P$; then $-x \in P$ by the Lemma, and x is not positive under the ordering defined by P, since $x \neq 0$.
 
 ### 4. Algebraic extensions of ordered fields
 

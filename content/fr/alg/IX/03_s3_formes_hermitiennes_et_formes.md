@@ -28,7 +28,7 @@ subsections:
       pdf_page: 52
 statements: 9
 exercises: 0
-content_sha256: d7b1f86699f25f6c6342441758539ed5b9788cef94369639bf68282d401e93ee
+content_sha256: 59890c4cfc29f67b7763bf10b7b99e7cabc078626426c0e3a6f3ddbf5cd0c469
 ---
 
 ## § 3. Formes hermitiennes et formes quadratiques
@@ -94,7 +94,7 @@ Enfin, lorsque l’anneau $A$ est commutatif, les prolongements canoniques d’u
 
 ### 2. *Modules sur une extension quadratique*.
 
-Soit $K$ un anneau commutatif. On prend pour $A$ l’extension quadratique $A = K(i)$ avec $i^2 = -1$, et pour $J$ l’automorphisme λ + iμ → λ − iμ ($\lambda \in K, \mu \in K$) (chap. II, § 7, n° 7). Si E est un A-module, nous noterons $E_0$ le K-module déduit de E par restriction de l’anneau des scalaires, et par j l’automorphisme $x \to ix$ de $E_0$; on a évidemment $j^2 = -I$, où I est l’application identique de $E_0$. Inversement soit $E_0$ un K-module et soit j un automorphisme de $E_0$ tel que $j^2 = -I$; l’application $\lambda + i\mu \to \lambda I + \mu j$ est évidemment un homomorphisme de A dans l’anneau $\mathcal{L}(E_0)$ des endomorphismes de $E_0$; on a donc défini sur $E_0$ une structure de A-module, pour laquelle on a
+Soit $K$ un anneau commutatif. On prend pour $A$ l’extension quadratique $A = K(i)$ avec $i^2 = -1$, et pour $J$ l’automorphisme λ + iμ → λ − iμ ($\lambda \in K, \mu \in K$) (chap. II, § 7, n° 7). Si E est un A-module, nous noterons $E_0$ le K-module déduit de E par restriction de l’anneau des scalaires, et par j l’automorphisme $x \to ix$ de $E_0$; on a évidemment $j^2 = -I$, où I est l’application identique de $E_0$. Inversement soit $E_0$ un K-module et soit j un automorphisme de $E_0$ tel que $j^2 = -I$; l’application $\lambda + i\mu \to \lambda I + \mu j$ est évidemment un homomorphisme de A dans l’anneau $\mathscr{L}(E_0)$ des endomorphismes de $E_0$; on a donc défini sur $E_0$ une structure de A-module, pour laquelle on a
 
 (2) $$(\lambda + i\mu)x = \lambda x + \mu j(x)$$ $(x \in E_0, \lambda \in K, \mu \in K).$
 
@@ -307,7 +307,7 @@ $$
 $$
 on a alors $Q(\sum a_i x_i) = \sum_{\{i, j\}} b_{ij} a_i a_j$. En déduire une nouvelle démonstration de la prop. 3 du no 4. (Remarquer que les $x'_i = 1 \otimes x_i$ forment un système de générateurs de $A' \otimes_A E$, et que le $A'$-module $A' \otimes_A E$ est isomorphe à ${A'}^{(1)}/R'$, où ${A'}^{(1)}$ est identifié à $A' \otimes_A A^{(1)}$ et $R'$ est engendré par l’image de R par l’application canonique de $A^{(1)}$ dans ${A'}^{(1)}$.
 
-6) Soient $A$ un anneau commutatif de caractéristique 2, $E$ un $A$-module libre, $\mathcal{A}$ (resp. $\mathcal{S}$, $\mathcal{Q}$) le $A$-module des formes bilinéaires alternées (resp. bilinéaires symétriques, quadratiques) sur $E$. On a $\mathcal{A} \subset \mathcal{S}$; on définit en outre une application linéaire $\omega$ de $\mathcal{S}$ dans $\mathcal{Q}$, et une application linéaire $\theta$ de $\mathcal{Q}$ dans $\mathcal{A}$ de la façon suivante : pour toute forme bilinéaire $\Phi \in \mathcal{S}$, $\omega(\Phi)$ est la forme quadratique $x \to \Phi(x, x)$, et pour toute forme quadratique $Q \in \mathcal{Q}$, $\theta(Q)$ est la forme bilinéaire associée à $Q$, qui est alternée. Montrer que $\omega(0) = \mathcal{A}$, $\theta(\mathcal{Q}) = \mathcal{A}$ et $\theta(0) = \omega(\mathcal{S})$.
+6) Soient $A$ un anneau commutatif de caractéristique 2, $E$ un $A$-module libre, $\mathscr{A}$ (resp. $\mathscr{S}$, $\mathscr{Q}$) le $A$-module des formes bilinéaires alternées (resp. bilinéaires symétriques, quadratiques) sur $E$. On a $\mathscr{A} \subset \mathscr{S}$; on définit en outre une application linéaire $\omega$ de $\mathscr{S}$ dans $\mathscr{Q}$, et une application linéaire $\theta$ de $\mathscr{Q}$ dans $\mathscr{A}$ de la façon suivante : pour toute forme bilinéaire $\Phi \in \mathscr{S}$, $\omega(\Phi)$ est la forme quadratique $x \to \Phi(x, x)$, et pour toute forme quadratique $Q \in \mathscr{Q}$, $\theta(Q)$ est la forme bilinéaire associée à $Q$, qui est alternée. Montrer que $\omega(0) = \mathscr{A}$, $\theta(\mathscr{Q}) = \mathscr{A}$ et $\theta(0) = \omega(\mathscr{S})$.
 
 ¶ 7) Soient $A$ un anneau commutatif, $E, F$ deux $A$-modules. On dit qu’une application $Q$ de $E$ dans $F$ est *quadratique* si elle satisfait aux conditions suivantes : $1^\circ$ $Q(\alpha x) = \alpha^2 Q(x)$ pour $\alpha \in A, x \in E$; $2^\circ$ l’application $(x, y) \to Q(x + y) - Q(x) - Q(y)$ de $E \times E$ dans $F$ est bilinéaire. Si $f$ est une application linéaire d’un $A$-module $E_1$ dans $E$, $Q \circ f$ est une application quadratique de $E_1$ dans $F$.
 

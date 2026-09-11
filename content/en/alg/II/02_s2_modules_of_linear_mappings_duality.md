@@ -46,7 +46,7 @@ subsections:
       pdf_page: 264
 statements: 42
 exercises: 26
-content_sha256: ada77bb5d3f2991282d1d80427eaa87544335c7c3fafa597f5d0bcfabf29858d
+content_sha256: 258255c57ca3524e48d9ff71cc97eff6aa8bc4291c0e15cf968c9c2efb97b55c
 ---
 
 ## § 2. MODULES OF LINEAR MAPPINGS. DUALITY
@@ -660,7 +660,7 @@ By virtue of Proposition 14, for a linear equation $u(x) = y_0$ to have *exactly
 
 To say that $u(x) = y_0$ admits a solution means that $y_0 \in u(E)$ and the proposition follows from no. 5, Corollary to Proposition 8.
 
-† This is in fact an abuse of language; from the logical point of view, we are not here defining the word "solution", but simply the sentence "$x_0$ is a solution of the equation $u(x) = y_0$" as equivalent to the relation "$x_0 \in E$ and $u(x_0) = y_0$". Observe that in a mathematical theory $\mathcal{T}$ where the relation "$A$ is a ring, $E$ and $F$ are $A$-modules, $u$ is a homomorphism of $E$ into $F$, $y_0$ an element of $F$" is a theorem, every *term* $T$ of $\mathcal{T}$ such that the relation "$T \in E$ and $u(T) = y_0$" is true in $\mathcal{T}$ is a *solution* of the equation $u(x) = y_0$ in the sense of *Set Theory*, I, § 5, no. 2; this justifies the above abuse of language.
+† This is in fact an abuse of language; from the logical point of view, we are not here defining the word "solution", but simply the sentence "$x_0$ is a solution of the equation $u(x) = y_0$" as equivalent to the relation "$x_0 \in E$ and $u(x_0) = y_0$". Observe that in a mathematical theory $\mathscr{T}$ where the relation "$A$ is a ring, $E$ and $F$ are $A$-modules, $u$ is a homomorphism of $E$ into $F$, $y_0$ an element of $F$" is a theorem, every *term* $T$ of $\mathscr{T}$ such that the relation "$T \in E$ and $u(T) = y_0$" is true in $\mathscr{T}$ is a *solution* of the equation $u(x) = y_0$ in the sense of *Set Theory*, I, § 5, no. 2; this justifies the above abuse of language.
 
 Observe that the necessary criterion for the existence of a solution of $u(x) = y_0$, given by Proposition 15, is sufficient when $A$ is a field (§ 7, no. 6, Proposition 12), but *not in general* (Exercise 10).
 

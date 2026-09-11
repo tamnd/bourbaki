@@ -54,9 +54,9 @@ subsections:
       pdf_page: 48
 statements: 23
 exercises: 8
-content_sha256: fc8275dec4003fbb4e3c9d35aae4d5c73375afefe0722e4f007d4e2c1e4cf027
+content_sha256: dce7b366d7b060051568633213502aebe7dd5052fb220e54d7bfb13eeb8a91fc
 translated_from: content/en/alg/IV/04_s4_formal_power_series.md
-source_content_sha256: 1ae2452e09c6aae656d15e99ae783f3b775e219c73ee5639bef38a58f20ea3cb
+source_content_sha256: 97abd39154e8116dbd7036aeda3b726bb4c49fc23082a657e7c8c9ba4f4f0f02
 translation_model: gpt-5.4
 translation_run: translate-vi-1e020711
 glossary_version: 34
@@ -134,13 +134,13 @@ c) Cho $(u_\lambda)_{\lambda \in L}$ là một họ các phần tử của $A[[I
 
 #### Mệnh đề 1 {#alg-iv-s4-prop-1 .statement}
 
-*Cho* $(u,)_{\mu \in \mathcal{J}}$ *và* $(v_\mu)_{\mu \in \mathcal{J}}$ *là hai họ khả tổng các phần tử của* $\mathbf{A}[[\mathbf{I}]]$. *Khi đó họ* $(u_\lambda v_\mu)_{(\lambda, \mu) \in \mathcal{J} \times M}$ *là khả tổng và ta có*
+*Cho* $(u,)_{\mu \in \mathscr{J}}$ *và* $(v_\mu)_{\mu \in \mathscr{J}}$ *là hai họ khả tổng các phần tử của* $\mathbf{A}[[\mathbf{I}]]$. *Khi đó họ* $(u_\lambda v_\mu)_{(\lambda, \mu) \in \mathscr{J} \times M}$ *là khả tổng và ta có*
 
 $$
 \sum_{(\lambda, \mu) \in L \times M} u_\lambda v_\mu = \left( \sum_{\lambda \in L} u_\lambda \right) \left( \sum_{\mu \in M} v_\mu \right)
 $$
 
-Gọi $(\alpha_{\lambda, \nu})_{\nu \in \mathbf{N}^{(1)}}$ (resp. $(\beta_{\mu, \nu})_{\nu \in \mathbf{N}^{(1)}}$) là họ các hệ số của $u_\lambda$ (resp. $v_\nu$). Với mỗi $\nu \in \mathbf{N}^{(1)}$ chỉ tồn tại một số hữu hạn cặp $(\nu_1, \nu_2) \in \mathbf{N}^{(1)} \times \mathbf{N}^{(1)}$ sao cho $\nu_1 + \nu_2 = \nu$, do đó chỉ tồn tại một số hữu hạn cặp $(\lambda, \mu) \in L \times M$ sao cho hệ số của $X^\nu$ trong $u_\lambda v_\mu$ là $\neq 0$. Suy ra họ $(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times \mathcal{J}}$ là khả tổng. Bây giờ công thức (2) suy ra từ tính kết hợp của tổng (Gen. Top., III, p. 265, công thức (2)).
+Gọi $(\alpha_{\lambda, \nu})_{\nu \in \mathbf{N}^{(1)}}$ (resp. $(\beta_{\mu, \nu})_{\nu \in \mathbf{N}^{(1)}}$) là họ các hệ số của $u_\lambda$ (resp. $v_\nu$). Với mỗi $\nu \in \mathbf{N}^{(1)}$ chỉ tồn tại một số hữu hạn cặp $(\nu_1, \nu_2) \in \mathbf{N}^{(1)} \times \mathbf{N}^{(1)}$ sao cho $\nu_1 + \nu_2 = \nu$, do đó chỉ tồn tại một số hữu hạn cặp $(\lambda, \mu) \in L \times M$ sao cho hệ số của $X^\nu$ trong $u_\lambda v_\mu$ là $\neq 0$. Suy ra họ $(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times \mathscr{J}}$ là khả tổng. Bây giờ công thức (2) suy ra từ tính kết hợp của tổng (Gen. Top., III, p. 265, công thức (2)).
 
 Trong $\mathbf{A}[[\mathbf{I}]]$ tích là một luật hợp thành kết hợp và giao hoán. Do đó ta có thể nói về một *họ khả nhân* các phần tử của $\mathbf{A}[[\mathbf{I}]]$ và về *tích* của một họ khả nhân (Gen. Top., III, p. 262, nhận xét 3).
 
@@ -148,13 +148,13 @@ Trong $\mathbf{A}[[\mathbf{I}]]$ tích là một luật hợp thành kết hợp
 
 *Cho* $(u_\lambda)_\lambda$ *là một họ khả tổng các phần tử của* $\mathbf{A}[[\mathbf{I}]]$.
 (i) *Họ* $(1 + u_\lambda)_\lambda$ *là khả nhân*.
-(ii) *Gọi* $\mathfrak{T}$ *là tập hợp tất cả các tập con hữu hạn của* $L$. *Với mọi* $M \in \mathcal{S}$ *đặt* $u_M = \prod_{\lambda \in M} u_\lambda$. *Khi đó họ* $(u_M)_{M \in \mathfrak{T}}$ *là khả tổng và ta có*
+(ii) *Gọi* $\mathfrak{T}$ *là tập hợp tất cả các tập con hữu hạn của* $L$. *Với mọi* $M \in \mathscr{S}$ *đặt* $u_M = \prod_{\lambda \in M} u_\lambda$. *Khi đó họ* $(u_M)_{M \in \mathfrak{T}}$ *là khả tổng và ta có*
 
 $$
 \sum_{M \in \mathfrak{T}} u_M = \prod_{\lambda \in L} (1 + u_\lambda).
 $$
 
-Hãy định nghĩa các iđêan $\mathfrak{a}_\beta$ như ở đầu số này, và lấy $\beta \in \mathbf{N}^{(1)}$. Tồn tại một tập con hữu hạn $L_0$ của $L$ sao cho $u_\lambda \in \mathfrak{a}_\beta$ với mọi $\lambda \notin L_0$. Khi đó với mọi $M \in \mathcal{S}$ sao cho $M \not\subset L_0$ ta có $u_M \in \mathfrak{a}_\beta$. Do đó họ $(u_M)_{M \in \mathfrak{T}}$ là khả tổng. Mặt khác, với mọi tập con hữu hạn $M_0$ của $L$ ta có
+Hãy định nghĩa các iđêan $\mathfrak{a}_\beta$ như ở đầu số này, và lấy $\beta \in \mathbf{N}^{(1)}$. Tồn tại một tập con hữu hạn $L_0$ của $L$ sao cho $u_\lambda \in \mathfrak{a}_\beta$ với mọi $\lambda \notin L_0$. Khi đó với mọi $M \in \mathscr{S}$ sao cho $M \not\subset L_0$ ta có $u_M \in \mathfrak{a}_\beta$. Do đó họ $(u_M)_{M \in \mathfrak{T}}$ là khả tổng. Mặt khác, với mọi tập con hữu hạn $M_0$ của $L$ ta có
 
 $$
 \sum_{M \subset M_0} u_M = \prod_{\lambda \in M_0} (1 + u_\lambda).
@@ -260,7 +260,7 @@ Ngược lại, giả sử số hạng hằng $a$ của $u$ là khả nghịch. 
 
 — Gọi $A$ là tập hợp tất cả các chuỗi lũy thừa hình thức có số hạng hằng bằng 1. Theo Mệnh đề 6, $M$ là một nhóm giao hoán đối với phép nhân; vì vậy nhóm nhân của $A[[I]]$ là tích trực tiếp của $M$ và nhóm nhân của $A$. Ta sẽ trang bị cho $A$ tôpô cảm sinh từ tôpô của $A[[I]]$. Với mỗi $\beta \in \mathbf{N}^{(1)}$ ta đã định nghĩa trong IV, p. 26 iđêan $a_\beta$ của $A[[I]]$; khi đó $1 + a_\beta$ là một nhóm con của $M$ và họ $(1 + a_{\beta'})$ là một hệ cơ bản các lân cận của 1 trong $M$. Vì phép nhân trong $M$ là liên tục, suy ra $A$ là một nhóm tôpô (Gen. Top., III, p. 223); nói cách khác, *ánh xạ* $f \mapsto f^{-1}$ *liên tục trong* $M$.
 
-Cho $K$ là một trường giao hoán và $\mathcal{O}$ là vành con của trường các phân thức hữu tỉ $K((X_i)_{i,,})$ gồm các phân thức hữu tỉ trong đó phần tử 0 của $K^1$ có thể được thế vào. Nếu $f \in \mathcal{O}$, ta có $f = \frac{u}{v}$, trong đó $u$ và $v$ là các đa thức sao cho số hạng hằng của $v$ là $\neq 0$, do đó $v$ là khả nghịch trong $K[[I]]$. Ta kiểm tra ngay được rằng phần tử $uv^{-1}$ của $K[[I]]$ chỉ phụ thuộc vào $f$; ta nói rằng chuỗi lũy thừa hình thức $uv^{-1}$ là *khai triển tại gốc của phân thức hữu tỉ* $\frac{u}{v}$. Ánh xạ $f \mapsto uv^{-1}$ là một đồng cấu đơn cấu từ $\mathcal{O}$ vào $K[[I]]$; ta sẽ thường đồng nhất $\mathcal{O}$ với ảnh của nó qua ánh xạ này.
+Cho $K$ là một trường giao hoán và $\mathscr{O}$ là vành con của trường các phân thức hữu tỉ $K((X_i)_{i,,})$ gồm các phân thức hữu tỉ trong đó phần tử 0 của $K^1$ có thể được thế vào. Nếu $f \in \mathscr{O}$, ta có $f = \frac{u}{v}$, trong đó $u$ và $v$ là các đa thức sao cho số hạng hằng của $v$ là $\neq 0$, do đó $v$ là khả nghịch trong $K[[I]]$. Ta kiểm tra ngay được rằng phần tử $uv^{-1}$ của $K[[I]]$ chỉ phụ thuộc vào $f$; ta nói rằng chuỗi lũy thừa hình thức $uv^{-1}$ là *khai triển tại gốc của phân thức hữu tỉ* $\frac{u}{v}$. Ánh xạ $f \mapsto uv^{-1}$ là một đồng cấu đơn cấu từ $\mathscr{O}$ vào $K[[I]]$; ta sẽ thường đồng nhất $\mathscr{O}$ với ảnh của nó qua ánh xạ này.
 
 ### 5. Công thức Taylor cho chuỗi lũy thừa hình thức
 
@@ -661,23 +661,23 @@ $$
 
 do đó $I(e(X)) = X$.
 
-Cho K là một Q-đại số, khi đó các phần tử của K[[I]] không có số hạng hằng tạo thành một nhóm giao hoán $\mathcal{E}$ đối với phép cộng. Các phần tử của K[[I]] có số hạng hằng bằng 1 tạo thành một nhóm giao hoán $\mathbf{A}$ đối với phép nhân (IV, p. 30). Với mỗi $f \in \mathcal{E}$, ta có thể định nghĩa các phần tử $e \circ f$ và $I \circ f$ của $\mathcal{E}$, và theo Mệnh đề 14 ở trên, các ánh xạ $f \mapsto l \circ f$ và $f \mapsto e \circ f$ là các hoán vị nghịch đảo lẫn nhau của $\mathcal{E}$; rõ ràng chúng liên tục. Vì $\exp X = e(X) + 1$, ta thấy rằng ánh xạ mũ $f \mapsto \exp f = e \circ f + 1$ là một song ánh liên tục từ $\mathcal{E}$ lên $\mathcal{M}$. Theo công thức (4) của IV, p. 29 và Mệnh đề 13, ta có $\exp(f+g) = (\exp f)(\exp g)$ với $f, g \in \mathcal{E}$. Như vậy phép mũ là một đẳng cấu của nhóm tôpô $\mathcal{E}$ lên nhóm tôpô $\mathbf{A}$.
+Cho K là một Q-đại số, khi đó các phần tử của K[[I]] không có số hạng hằng tạo thành một nhóm giao hoán $\mathscr{E}$ đối với phép cộng. Các phần tử của K[[I]] có số hạng hằng bằng 1 tạo thành một nhóm giao hoán $\mathbf{A}$ đối với phép nhân (IV, p. 30). Với mỗi $f \in \mathscr{E}$, ta có thể định nghĩa các phần tử $e \circ f$ và $I \circ f$ của $\mathscr{E}$, và theo Mệnh đề 14 ở trên, các ánh xạ $f \mapsto l \circ f$ và $f \mapsto e \circ f$ là các hoán vị nghịch đảo lẫn nhau của $\mathscr{E}$; rõ ràng chúng liên tục. Vì $\exp X = e(X) + 1$, ta thấy rằng ánh xạ mũ $f \mapsto \exp f = e \circ f + 1$ là một song ánh liên tục từ $\mathscr{E}$ lên $\mathscr{M}$. Theo công thức (4) của IV, p. 29 và Mệnh đề 13, ta có $\exp(f+g) = (\exp f)(\exp g)$ với $f, g \in \mathscr{E}$. Như vậy phép mũ là một đẳng cấu của nhóm tôpô $\mathscr{E}$ lên nhóm tôpô $\mathbf{A}$.
 
-Đẳng cấu nghịch đảo từ $\mathcal{M}$ lên $\mathcal{E}$ được gọi là lôgarit và được viết là $g \mapsto \log g$. Do đó ta có $\log g = l(g-1)$ với $g$ trong $\mathcal{M}$, và đặc biệt,
+Đẳng cấu nghịch đảo từ $\mathscr{M}$ lên $\mathscr{E}$ được gọi là lôgarit và được viết là $g \mapsto \log g$. Do đó ta có $\log g = l(g-1)$ với $g$ trong $\mathscr{M}$, và đặc biệt,
 
 (38)
 $$
 \log(1+X) = l(X).
 $$
 
-Vì lôgarit là một đồng cấu từ $\mathcal{M}$ vào $\mathcal{E}$, công thức $(1+X)(1+Y) = 1 + (X+Y+XY)$ kéo theo
+Vì lôgarit là một đồng cấu từ $\mathscr{M}$ vào $\mathscr{E}$, công thức $(1+X)(1+Y) = 1 + (X+Y+XY)$ kéo theo
 
 (39)
 $$
 l(X) + l(Y) = l(X+Y+XY).
 $$
 
-Cho $(u,)_{\lambda}$ là một họ cộng được của các phần tử của $\mathcal{B}$, khi đó họ $(\exp u_{\lambda})_{\lambda \in L}$ là nhân được và ta có
+Cho $(u,)_{\lambda}$ là một họ cộng được của các phần tử của $\mathscr{B}$, khi đó họ $(\exp u_{\lambda})_{\lambda \in L}$ là nhân được và ta có
 
 (40)
 $$

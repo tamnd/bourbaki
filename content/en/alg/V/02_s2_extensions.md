@@ -34,7 +34,7 @@ subsections:
       pdf_page: 127
 statements: 19
 exercises: 4
-content_sha256: f5ab5e04d3eb0e0fa7469ebb3e3437d16a597eaa2e4cb424a810b0ba52fe9011
+content_sha256: 09cba64f2578226807f14f1ac7820f2dc2a012899df8f1b95971dbe87135f71b
 ---
 
 ## § 2. EXTENSIONS
@@ -110,9 +110,9 @@ We shall sometimes write $K(M, N)$ instead of $K(M \cup N)$.
 
 #### Proposition 3 {#alg-v-s2-prop-3 .statement}
 
-— *Let $\mathcal{F}$ be a set of subfields of a field E, directed with respect to the relation $\subset$. The union L of the fields of $\mathcal{F}$ is a field.*
+— *Let $\mathscr{F}$ be a set of subfields of a field E, directed with respect to the relation $\subset$. The union L of the fields of $\mathscr{F}$ is a field.*
 
-For if x and y are two elements of L, there exist two fields R, S of $\mathcal{F}$ such that $x \in R,\ y \in S$; let T be a field of $\mathcal{F}$ containing R and S; then $x \in T,\ y \in T$, hence $x + y,\ xy$ and $x^{-1}$ (if $x \neq 0$) belong to T, hence to L.
+For if x and y are two elements of L, there exist two fields R, S of $\mathscr{F}$ such that $x \in R,\ y \in S$; let T be a field of $\mathscr{F}$ containing R and S; then $x \in T,\ y \in T$, hence $x + y,\ xy$ and $x^{-1}$ (if $x \neq 0$) belong to T, hence to L.
 
 #### Corollary {#alg-v-s2-n3-cor-1 .statement}
 

@@ -12,7 +12,7 @@ pdf_pages: 0412-0413
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 9321c075198874b91e8d7e37edee5ab1f33fb38836cc299b08a5087764412faa
+content_sha256: 2921437d0a7762a6998aa5c71c32e4bb8766d95783a5ff0955bf94e34833553d
 ---
 
 ## INDEX DES NOTATIONS
@@ -35,7 +35,7 @@ exp X, e^X, e(X), l(X) : IV, p. 37 et 38.
 $exp f, log g$ : IV, p. 38.
 M^H, Tr_{H/G} : IV, p. 39 et 40.
 TS^n(M), TS(M) : IV, p. 40.
-$\mathcal{S}_{p|q}, \mathcal{S}_{p,q}, \mathcal{S}_{p_1|...|p_n}$ : IV, p. 41.
+$\mathscr{S}_{p|q}, \mathscr{S}_{p,q}, \mathscr{S}_{p_1|...|p_n}$ : IV, p. 41.
 \gamma_k(x), x \in M : IV, p. 43.
 $\varphi_M, \psi_M$ : IV, p. 49.
 Pol_A^q(M, N), Pol^q(M, N) : IV, p. 52.
@@ -54,7 +54,7 @@ $K[S]$ : V, p. 4.
 S^{p-\infty}, A^{p-\infty} : V, p. 5 et 6
 $[A : K]$ : V, p. 9.
 K(x_i), K(x), K(x_1, ..., x_n) : V, p. 10.
-h(L), [A : K]_s, \mathcal{H}(A) : V, p. 30 et 31.
+h(L), [A : K]_s, \mathscr{H}(A) : V, p. 30 et 31.
 E_s : V, p. 44.
 [E : K]_s, [E : K]_i : V, p. 30 et V, p. 44 et 45.
 N_{A/K}(x), \operatorname{Tr}_{A/K}(x), D_{A/K}(x_1, ..., x_n) : V, p. 46.

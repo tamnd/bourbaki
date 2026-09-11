@@ -49,7 +49,7 @@ subsections:
       pdf_page: 242
 statements: 30
 exercises: 4
-content_sha256: d26ec4b68efcde524605462fda65b1b4beac96752c5790a331e7f59fa5f3203d
+content_sha256: b27a4e0838d7ae7dc02937a6edc79938bfc1a13ec7d07f1e79b1e305be56d687
 ---
 
 ## § 3. PRODUITS TENSORIELS
@@ -242,9 +242,9 @@ Pour tout C-module G, les applications $\mathbf{Z}$-bilinéaires $f$ de $E \time
 $$
 f(\gamma x, y) = f(x, \gamma y) = \gamma f(x, y) \quad \text{pour } x \in E, y \in F, \gamma \in C
 $$
-sont alors appelées C-*bilinéaires*, et forment un C-*module* que l’on note $\mathcal{L}_2(E, F; G)$; la prop. 3 (II, p. 54) définit un *isomorphisme canonique de C-modules* (cf. II, p. 35, *Remarque* 1)
+sont alors appelées C-*bilinéaires*, et forment un C-*module* que l’on note $\mathscr{L}_2(E, F; G)$; la prop. 3 (II, p. 54) définit un *isomorphisme canonique de C-modules* (cf. II, p. 35, *Remarque* 1)
 $$
-\mathcal{L}_2(E, F; G) \to \mathrm{Hom}_C(E \otimes_C F, G).
+\mathscr{L}_2(E, F; G) \to \mathrm{Hom}_C(E \otimes_C F, G).
 $$
 Soient $E', F'$ deux C-modules, $u : E \to E'$, $v : F \to F'$ deux applications C-linéaires; alors (II, p. 55) $u \otimes v$ est une application C-*linéaire* de $E \otimes_C F$ dans $E' \otimes_C F'$. En outre, il est immédiat que $(u, v) \mapsto u \otimes v$ est une application C-bilinéaire de $\mathrm{Hom}_C(E, E') \times \mathrm{Hom}_C(F, F')$ dans $\mathrm{Hom}_C(E \otimes_C F, E' \otimes_C F')$; il lui correspond donc canoniquement une application C-linéaire, dite canonique:
 
@@ -722,9 +722,9 @@ Lorsqu’on parle du produit tensoriel (34) (II, p. 70) comme d’un C-module, c
 $$
 f(x_1, \ldots, x_{i-1}, \gamma x_i, x_{i+1}, \ldots, x_n) = \gamma f(x_1, \ldots, x_n)
 $$
-pour $\gamma \in \mathbf{C}$ et $(x_i) \in \prod_i E_i$ sont alors dites C-multilinéaires et forment un C-module que l’on note $\mathcal{L}_n(E_1, \ldots, E_n; G)$; la propriété universelle du produit tensoriel (34) (II, p.70) permet donc de définir un isomorphisme canonique de C-modules
+pour $\gamma \in \mathbf{C}$ et $(x_i) \in \prod_i E_i$ sont alors dites C-multilinéaires et forment un C-module que l’on note $\mathscr{L}_n(E_1, \ldots, E_n; G)$; la propriété universelle du produit tensoriel (34) (II, p.70) permet donc de définir un isomorphisme canonique de C-modules
 $$
-\mathcal{L}_n(E_1, \ldots, E_n; G) \to \mathrm{Hom}_\mathbf{C}(E_1 \otimes_\mathbf{C} E_2 \otimes \cdots \otimes_\mathbf{C} E_n, G)
+\mathscr{L}_n(E_1, \ldots, E_n; G) \to \mathrm{Hom}_\mathbf{C}(E_1 \otimes_\mathbf{C} E_2 \otimes \cdots \otimes_\mathbf{C} E_n, G)
 $$
 qui à toute application C-multilinéaire $f$, fait correspondre l’application C-linéaire $g$ telle que
 $$

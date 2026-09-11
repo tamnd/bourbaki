@@ -32,7 +32,7 @@ subsections:
       pdf_page: 148
 statements: 24
 exercises: 0
-content_sha256: e2c4e69fdd13a741a502879f76e3145e94bb7fd20f1e9d2440ff7b50608cba33
+content_sha256: 605650a8a358bd85dd5c216b93044be92390e523e70d47a2b35b34ce5652fcfd
 ---
 
 ## § 9. Algèbres de Clifford
@@ -109,7 +109,7 @@ $$
 i_f \circ e_x + e_x \circ i_f = f(x).I \tag{5}
 $$
 pour tout $x \in E$
-(où I désigne l’application identique). L’application $f \to i_f$ de $E^*$ dans $\mathcal{L}(T(E))$ est linéaire. On a $i_f(T^n) \subset T^{n-1}$, $(i_f)^2 = 0$, et $i_f \circ i_g + i_g \circ i_f = 0$ pour $f, g$ dans $E^*$. L’application $i_f$ est nulle sur la sous-algèbre de
+(où I désigne l’application identique). L’application $f \to i_f$ de $E^*$ dans $\mathscr{L}(T(E))$ est linéaire. On a $i_f(T^n) \subset T^{n-1}$, $(i_f)^2 = 0$, et $i_f \circ i_g + i_g \circ i_f = 0$ pour $f, g$ dans $E^*$. L’application $i_f$ est nulle sur la sous-algèbre de
 
 T(E) engendrée par le noyau de f. L’idéal I(Q) est stable par $i_f$; par passage au quotient $i_f$ définit donc une application linéaire (notée encore $i_f$) de $C(Q)$ dans elle-même.
 
@@ -292,19 +292,19 @@ $$
 e'_n \circ i_p + i_p \circ e'_n = \Phi(n, p) \qquad (n \in \mathbf{N}, \ p \in \mathbf{P}).
 $$
 
-Posons, pour $x = n + p \in E$ (avec $n \in \mathbf{N}$ et $p \in \mathbf{P}$), $s(x) = e'_n + i_p$. Il est clair que s est une application linéaire de E dans $\mathcal{L}(S)$. Comme on a
+Posons, pour $x = n + p \in E$ (avec $n \in \mathbf{N}$ et $p \in \mathbf{P}$), $s(x) = e'_n + i_p$. Il est clair que s est une application linéaire de E dans $\mathscr{L}(S)$. Comme on a
 $$
 s(x)^2 = (e'_n + i_p)^2 = Q(n) + \Phi(n, p) = Q(x)
 $$
-en vertu de (12) et du lemme 1 (no 2), s se prolonge en un homomorphisme (que nous noterons encore s) de C(Q) dans $\mathcal{L}(S)$ (no 1, prop. 1). Nous allons montrer que cet homomorphisme est surjectif, ce qui, puisque C(Q) et $\mathcal{L}(S)$ sont toutes deux de dimension $2^{2r}$, entraînera que s est un isomorphisme et démontrera notre première assertion.
+en vertu de (12) et du lemme 1 (no 2), s se prolonge en un homomorphisme (que nous noterons encore s) de C(Q) dans $\mathscr{L}(S)$ (no 1, prop. 1). Nous allons montrer que cet homomorphisme est surjectif, ce qui, puisque C(Q) et $\mathscr{L}(S)$ sont toutes deux de dimension $2^{2r}$, entraînera que s est un isomorphisme et démontrera notre première assertion.
 
-Notons en effet I l’intervalle $[1, r]$. Pour toute partie H de I, nous poserons $H' = I - H$ et nous désignerons par $n_H$ (resp. $p_H$) le produit des $n_i$ (resp. $p_i$) pour $i \in H$, rangés dans l’ordre croissant des indices. Rappelons que les $n_H$ forment une base de S (no 3, th. 1). Posons enfin, pour deux parties quelconques H, K de I, $x_{H, K} = n_H p_I n_K$. Nous allons montrer que les éléments $s(x_{H, K})$ de $s(C(Q))$ engendrent $\mathcal{L}(S)$. Or, si $j \notin H$, on a $s(p_j)(n_H) = i_{p_j}(n_H) = 0$ d’après le lemme 1, puisque les $n_i$ pour $i \in H$ appartiennent au noyau de la forme linéaire $n \to \Phi(n, p_j)$ sur N ; d’autre part on a
+Notons en effet I l’intervalle $[1, r]$. Pour toute partie H de I, nous poserons $H' = I - H$ et nous désignerons par $n_H$ (resp. $p_H$) le produit des $n_i$ (resp. $p_i$) pour $i \in H$, rangés dans l’ordre croissant des indices. Rappelons que les $n_H$ forment une base de S (no 3, th. 1). Posons enfin, pour deux parties quelconques H, K de I, $x_{H, K} = n_H p_I n_K$. Nous allons montrer que les éléments $s(x_{H, K})$ de $s(C(Q))$ engendrent $\mathscr{L}(S)$. Or, si $j \notin H$, on a $s(p_j)(n_H) = i_{p_j}(n_H) = 0$ d’après le lemme 1, puisque les $n_i$ pour $i \in H$ appartiennent au noyau de la forme linéaire $n \to \Phi(n, p_j)$ sur N ; d’autre part on a
 $$
 s(p_j)(n_j n_H) = (i_{p_j} \circ e'_{n_j})(n_H) = \Phi(p_j, n_j)n_H - n_j \cdot s(p_j)(n_H) = n_H
 $$
-(d’après (12)). Comme s est un homomorphisme, on en déduit, pour deux parties quelconques H, K de I, que $s(p_K)(n_H) = 0$ si $K \not\subset H$, et que $s(p_K)(n_H) = \pm n_{H-K}$ si $K \subset H$. Comme, pour $M \subset I$ et $L \subset I$, on a par définition $s(n_M)(n_L) = n_M n_L$, et que $n_M n_L$ est nul si $M \cap L \neq \emptyset$ et est égal à $\pm n_{M \cup L}$ dans le cas contraire, on conclut de ce qui précède que, pour des parties quelconques $H, K, L$ de $I$, $s(x_{H,K})(n_L) = s(n_H)s(p_I)s(n_{K'}) (n_L)$ est nul si $K \neq L$ et est égal à $\pm n_H$ si $K = L$. Ceci montre que les $s(x_{H,K})$ engendrent $\mathcal{L}(S)$ et termine la démonstration de la première assertion.
+(d’après (12)). Comme s est un homomorphisme, on en déduit, pour deux parties quelconques H, K de I, que $s(p_K)(n_H) = 0$ si $K \not\subset H$, et que $s(p_K)(n_H) = \pm n_{H-K}$ si $K \subset H$. Comme, pour $M \subset I$ et $L \subset I$, on a par définition $s(n_M)(n_L) = n_M n_L$, et que $n_M n_L$ est nul si $M \cap L \neq \emptyset$ et est égal à $\pm n_{M \cup L}$ dans le cas contraire, on conclut de ce qui précède que, pour des parties quelconques $H, K, L$ de $I$, $s(x_{H,K})(n_L) = s(n_H)s(p_I)s(n_{K'}) (n_L)$ est nul si $K \neq L$ et est égal à $\pm n_H$ si $K = L$. Ceci montre que les $s(x_{H,K})$ engendrent $\mathscr{L}(S)$ et termine la démonstration de la première assertion.
 
-Pour démontrer la seconde assertion, posons $S^+ = S \cap C^+$ et $S^- = S \cap C^-$; il est clair que $S^+$ (resp. $S^-$) est le sous-espace de $S$ engendré par les $n_H$ tels que $H$ ait un nombre pair (resp. impair) d’éléments, que $S$ est somme directe de $S^+$ et $S^-$, et que $s(C^+)$ laisse $S^+$ et $S^-$ stables. Par suite $s$ applique $C^+$ dans une sous-algèbre de $\mathcal{L}(S)$, isomorphe au produit $\mathcal{L}(S^+) \times \mathcal{L}(S^-)$; la restriction de $s$ à $C^+$ est un isomorphisme de $C^+$ sur cette sous-algèbre, puisque $s$ est injective et que $C^+$ et $\mathcal{L}(S^+) \times \mathcal{L}(S^-)$ sont toutes deux de dimension $2^{2r-1}$ (no 2, cor. 1 du th. 1). CQFD.
+Pour démontrer la seconde assertion, posons $S^+ = S \cap C^+$ et $S^- = S \cap C^-$; il est clair que $S^+$ (resp. $S^-$) est le sous-espace de $S$ engendré par les $n_H$ tels que $H$ ait un nombre pair (resp. impair) d’éléments, que $S$ est somme directe de $S^+$ et $S^-$, et que $s(C^+)$ laisse $S^+$ et $S^-$ stables. Par suite $s$ applique $C^+$ dans une sous-algèbre de $\mathscr{L}(S)$, isomorphe au produit $\mathscr{L}(S^+) \times \mathscr{L}(S^-)$; la restriction de $s$ à $C^+$ est un isomorphisme de $C^+$ sur cette sous-algèbre, puisque $s$ est injective et que $C^+$ et $\mathscr{L}(S^+) \times \mathscr{L}(S^-)$ sont toutes deux de dimension $2^{2r-1}$ (no 2, cor. 1 du th. 1). CQFD.
 
 #### Corollaire {#alg-ix-s9-n4-cor-1 .statement}
 
@@ -492,7 +492,7 @@ e) Soit $u \in \mathbf{O}(Q)$, et supposons $\Lambda$ algébriquement clos. Mont
 
 $§ 10$ On suppose que $A$ est un corps, $E$ un espace vectoriel de dimension finie, $Q$ une forme quadratique dégénérée sur $E$; soient $M$ un sous-espace supplémentaire de $E^0$ dans $E$, $B$ l’algèbre de Clifford (semi-simple) de la restriction de $Q$ à $M$.
 
-a) On suppose d’abord $A$ de caractéristique $\neq 2$. Soient $L$ l’algèbre de Clifford de la restriction de $Q$ à $E^0$ (isomorphe à $\wedge E^0$), $\mathcal{R}_0$ son radical (idéal engendré dans $L$ par $E^0$, et de codimension 1 dans $L$); montrer que le radical $\mathcal{R}$ de $C(Q)$ s’obtient (à une isomorphie près) en définissant la structure d’algèbre sur $B \otimes_A \mathcal{R}_0$ comme dans le cor. 4 du th. 1, que $C(Q)/\mathcal{R}$ est isomorphe à $B$ et $C(Q)$ est somme directe de $B$ et de $\mathcal{R}$.
+a) On suppose d’abord $A$ de caractéristique $\neq 2$. Soient $L$ l’algèbre de Clifford de la restriction de $Q$ à $E^0$ (isomorphe à $\wedge E^0$), $\mathscr{R}_0$ son radical (idéal engendré dans $L$ par $E^0$, et de codimension 1 dans $L$); montrer que le radical $\mathscr{R}$ de $C(Q)$ s’obtient (à une isomorphie près) en définissant la structure d’algèbre sur $B \otimes_A \mathscr{R}_0$ comme dans le cor. 4 du th. 1, que $C(Q)/\mathscr{R}$ est isomorphe à $B$ et $C(Q)$ est somme directe de $B$ et de $\mathscr{R}$.
 
 b) On suppose A de caractéristique 2. Soit F le sous-espace de E⁰ formé des vecteurs singuliers $x \in E^0$, et soit N un supplémentaire de F par rapport à E⁰. Si $(a_i)_{1 \leq i \leq d}$ est une base de N, et Q$(a_i) = \alpha_i$, les éléments $\alpha_i^{1/2}$, dans une clôture algébrique de A, sont linéairement indépendants sur A. Soit $(\alpha_i^{1/2})_{1 \leq i \leq e}$ une 2-base du corps $A_1 = A(\alpha_1^{1/2}, \ldots, \alpha_d^{1/2})$ sur A (chap. V, § 8, exerc. 1), et soit $h = \dim F$. Si B₁ est l’algèbre centrale simple $B \otimes_A A_1$, montrer que C(Q) est isomorphe à l’algèbre $B_1 \otimes_{A_1} L_1$, où $L_1$ est l’algèbre extérieure d’un espace vectoriel de dimension $h + d - e$ sur $A_1$. Si $R_1$ est le radical de $L_1$ (de codimension 1 (sur $A_1$) dans $L_1$), le radical $R$ de C(Q) est isomorphe à l’algèbre $B_1 \otimes_{A_1} R_1$, $C(Q)/R$ est isomorphe à $B_1$, et C(Q) est somme directe de $B_1$ et de $R$.
 

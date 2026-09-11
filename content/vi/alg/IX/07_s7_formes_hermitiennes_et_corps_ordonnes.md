@@ -24,11 +24,11 @@ subsections:
       pdf_page: 116
 statements: 42
 exercises: 0
-content_sha256: 121108f22228a6f45994ce132cdcbe4b41f089fb78e8df61a906a163c1ae1fe7
+content_sha256: ddebbc62e05e2816009f202e74bf3cdebebcccd4dc48f797f4e97faeaa052cc3
 translated_from: content/en-mt/alg/IX/07_s7_formes_hermitiennes_et_corps_ordonnes.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 4f0c80812b75ece3f8fe3269f0264a75cbbe436bedea3cd029330b3a85055bd4
+source_content_sha256: 4b3d59dafaca691ca1e54fde9df97f63b805107c7fdd2ffdad3a96a25c18db1e
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5-mini
 translation_run: translate-vi-99a2622d
 glossary_version: 34
@@ -161,7 +161,7 @@ Thật vậy, cho V là một không gian con của E ổn định dưới S; v�
 
 #### Hệ quả 1 {#alg-ix-s7-thm-2-cor-1 .statement}
 
-Giả sử rằng A = K hoặc rằng A = K(i). Cho B là một đại số con của $\mathcal{L}_A(E)$, ổn định dưới ánh xạ u → u*. Khi đó E là một B-môđun nửa đơn, và là tổng trực tiếp của các môđun con đơn trực giao từng đôi một. Đại số B là nửa đơn.
+Giả sử rằng A = K hoặc rằng A = K(i). Cho B là một đại số con của $\mathscr{L}_A(E)$, ổn định dưới ánh xạ u → u*. Khi đó E là một B-môđun nửa đơn, và là tổng trực tiếp của các môđun con đơn trực giao từng đôi một. Đại số B là nửa đơn.
 
 Thật vậy, vì mọi B-môđun con V của E đều có một phần bù, chẳng hạn V⁰, nên B-môđun V là nửa đơn (chương VIII, § 3, No. 3, mệnh đề 7). Vì mọi B-môđun con ≠ {0} và cực tiểu trong E đều đơn, nên E là tổng trực tiếp của các môđun con đơn trực giao từng đôi một. Cuối cùng B là một đại số nửa đơn, vì nó có một môđun nửa đơn và trung thành E mà đối môđun của nó có kiểu hữu hạn (chương VIII, § 5, No. 1, mệnh đề 3).
 
@@ -175,7 +175,7 @@ Mệnh đề đầu tiên suy ra từ chương VIII, § 9, No. 1, mệnh đề 2
 
 Cho u là một tự đồng cấu chuẩn của E. Khi A bằng K(i) hoặc trường quaternion trên K, tồn tại một cơ sở trực chuẩn (đối với Φ) của E được tạo bởi các vectơ riêng của u. Khi A = K, u là nửa đơn và E là tổng trực tiếp của các không gian con ổn định đối với u, trực giao từng đôi một, và có chiều 1 hoặc 2.
 
-Trước hết xét trường hợp A là giao hoán (A = K hoặc A = K(i)). Khi đó đại số con B = A[u, u*] của $\mathcal{L}_A(E)$ là giao hoán vì u là chuẩn; nó ổn định dưới ánh xạ $\varphi \to \varphi^*$ nhờ các công thức (32) và (33) của § 1, No. 8. Mệnh đề liên quan đến trường hợp A = K khi đó suy ra ngay lập tức từ hệ quả 2 của định lý 2. Khi A = K(i), hệ quả này cũng chỉ ra rằng E là tổng trực tiếp của các không gian con vectơ $Ax_i$ ($i = 1, \ldots, n$) có chiều 1, trực giao từng đôi một và ổn định đối với u; nếu đặt $e_i = (\Phi(x_i, x_i))^{-1/2} x_i$, $(e_i)$ là cơ sở trực chuẩn cần tìm.
+Trước hết xét trường hợp A là giao hoán (A = K hoặc A = K(i)). Khi đó đại số con B = A[u, u*] của $\mathscr{L}_A(E)$ là giao hoán vì u là chuẩn; nó ổn định dưới ánh xạ $\varphi \to \varphi^*$ nhờ các công thức (32) và (33) của § 1, No. 8. Mệnh đề liên quan đến trường hợp A = K khi đó suy ra ngay lập tức từ hệ quả 2 của định lý 2. Khi A = K(i), hệ quả này cũng chỉ ra rằng E là tổng trực tiếp của các không gian con vectơ $Ax_i$ ($i = 1, \ldots, n$) có chiều 1, trực giao từng đôi một và ổn định đối với u; nếu đặt $e_i = (\Phi(x_i, x_i))^{-1/2} x_i$, $(e_i)$ là cơ sở trực chuẩn cần tìm.
 
 Khi A là trường quaternion trên K, tương tự chỉ cần chứng minh, nhờ định lý 2, rằng mọi phần tử cực tiểu của tập hợp các không gian con $\neq \{0\}$ của E ổn định đối với u và $u^*$ đều có chiều 1. Nhưng một không gian con V như vậy nhất thiết chứa một vectơ riêng $x \neq 0$ của u (*), như nhận thấy được bằng cách quan sát rằng trường quaternion A chứa K(i) như một trường con đóng đại số, và bằng cách hạn chế trường
 

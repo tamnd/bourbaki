@@ -53,11 +53,11 @@ subsections:
       pdf_page: 28
 statements: 55
 exercises: 17
-content_sha256: 6e71fcd452db9e4d5d5b12afd86496b1b964442f466d664c4b246241d056d8ce
+content_sha256: 519ec6fa55a4e08ffbb6df897d5eadf251ac25ff851b7bbaaa9517a3a4376a88
 translated_from: content/en-mt/alg/X/01_s1_complements_d_algebre_lineaire.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: f55d142614aa6d7f23af6851df91ee735ca380fab8afe681cb5dd6ea12aba4d1
+source_content_sha256: 599a7a8a145892c66f08a00e34f9084f8d556e84ef352ab94226e738fcd3a22c
 translation_model: gpt-5.4
 translation_run: translate-vi-ee54513d
 glossary_version: 34
@@ -484,7 +484,7 @@ Spec (A). Điều kiện trên có nghĩa là tập đóng này là rỗng, nói
 
 #### Ví dụ 11 {#alg-x-s1-n3-exa-11 .statement}
 
-\* Cho S và X là hai không gian giải tích phức và cho $f : X \to S$ là một cấu xạ. Ta nói rằng $f$ là phẳng tại một điểm $x$ của X nếu $\mathcal{O}_{X,x}$, được xét như $\mathcal{O}_{S,f(x)}$-môđun nhờ đồng cấu $f^* : \mathcal{O}_{S,f(x)} \to \mathcal{O}_{X,x}$, là phẳng. Tập các điểm của X mà tại đó $f$ phẳng là một tập mở của X, và hạn chế của $f$ lên tập mở này là một ánh xạ mở. Nếu X và S là các đa tạp giải tích liên thông có số chiều hữu hạn, thì $f$ là phẳng (tại mọi điểm của X) khi và chỉ khi $f(X)$ mở trong S và các thớ $f^{-1}(s)$, với $s \in f(X)$, đều có cùng chiều. \*
+\* Cho S và X là hai không gian giải tích phức và cho $f : X \to S$ là một cấu xạ. Ta nói rằng $f$ là phẳng tại một điểm $x$ của X nếu $\mathscr{O}_{X,x}$, được xét như $\mathscr{O}_{S,f(x)}$-môđun nhờ đồng cấu $f^* : \mathscr{O}_{S,f(x)} \to \mathscr{O}_{X,x}$, là phẳng. Tập các điểm của X mà tại đó $f$ phẳng là một tập mở của X, và hạn chế của $f$ lên tập mở này là một ánh xạ mở. Nếu X và S là các đa tạp giải tích liên thông có số chiều hữu hạn, thì $f$ là phẳng (tại mọi điểm của X) khi và chỉ khi $f(X)$ mở trong S và các thớ $f^{-1}(s)$, với $s \in f(X)$, đều có cùng chiều. \*
 
 ### 4. Môđun có trình bày hữu hạn
 
@@ -812,7 +812,7 @@ $$
 
 với mọi $a\in a$.
 
-Ngược lại, giả sử điều kiện của mệnh đề được thỏa mãn, cho $M$ là một A-môđun, $N$ là một môđun con của $M$, $u : N\to E$ là một A-đồng cấu, và chứng minh rằng tồn tại một A-đồng cấu $\bar u : M\to E$ mở rộng $u$ (x. *bổ đề* 3). Gọi $\mathcal P$ là tập hợp các cặp $(P,v)$ trong đó $P$ là một môđun con của $M$ chứa $N$ và $v$ là một đồng cấu từ $P$ vào $E$ mở rộng $u$. Tập hợp $\mathcal P$ được sắp thứ tự bởi quan hệ mở rộng là *quy nạp*: nếu $(P_j, v_j)$ là một họ được sắp thứ tự toàn phần các phần tử của $\mathcal{P}$, đặt $Q = \cup P_j$ và gọi $w : Q \to E$ là ánh xạ duy nhất cảm sinh $v_j$ trên $P_j$ với mọi $j$; khi đó $(Q, w) \in \mathcal{P}$ và $(Q, w)$ trội hơn $(P_j, v_j)$ với mọi $j$. Khi đó gọi $(P, v)$ là một phần tử cực đại của $\mathcal{P}$ (E, III, p. 20, Định lý 2); chỉ cần chứng minh rằng $P = M$. Lấy $x \in M$ và gọi $\alpha$ là iđêan của các $a \in A$ sao cho $ax \in P$; đặt $f(a) = v(ax)$ với $a \in \alpha$; như vậy thu được một A-đồng cấu $f : \alpha \to E$. Khi đó gọi $e$ là một phần tử của $E$ sao cho $f(a) = ae$ với mọi $a \in \alpha$. Đặt $P' = P + Ax$ và gọi $v' : P' \to E$ là A-đồng cấu duy nhất sao cho $v'(p + ax) = v(p) + ae$ với $p \in P, a \in A$; khi đó $(P', v')$ thuộc $\mathcal{P}$ và trội hơn $(P, v)$, do đó $P' = P$, nghĩa là $x \in P$, điều này hoàn tất chứng minh.
+Ngược lại, giả sử điều kiện của mệnh đề được thỏa mãn, cho $M$ là một A-môđun, $N$ là một môđun con của $M$, $u : N\to E$ là một A-đồng cấu, và chứng minh rằng tồn tại một A-đồng cấu $\bar u : M\to E$ mở rộng $u$ (x. *bổ đề* 3). Gọi $\mathscr P$ là tập hợp các cặp $(P,v)$ trong đó $P$ là một môđun con của $M$ chứa $N$ và $v$ là một đồng cấu từ $P$ vào $E$ mở rộng $u$. Tập hợp $\mathscr P$ được sắp thứ tự bởi quan hệ mở rộng là *quy nạp*: nếu $(P_j, v_j)$ là một họ được sắp thứ tự toàn phần các phần tử của $\mathscr{P}$, đặt $Q = \cup P_j$ và gọi $w : Q \to E$ là ánh xạ duy nhất cảm sinh $v_j$ trên $P_j$ với mọi $j$; khi đó $(Q, w) \in \mathscr{P}$ và $(Q, w)$ trội hơn $(P_j, v_j)$ với mọi $j$. Khi đó gọi $(P, v)$ là một phần tử cực đại của $\mathscr{P}$ (E, III, p. 20, Định lý 2); chỉ cần chứng minh rằng $P = M$. Lấy $x \in M$ và gọi $\alpha$ là iđêan của các $a \in A$ sao cho $ax \in P$; đặt $f(a) = v(ax)$ với $a \in \alpha$; như vậy thu được một A-đồng cấu $f : \alpha \to E$. Khi đó gọi $e$ là một phần tử của $E$ sao cho $f(a) = ae$ với mọi $a \in \alpha$. Đặt $P' = P + Ax$ và gọi $v' : P' \to E$ là A-đồng cấu duy nhất sao cho $v'(p + ax) = v(p) + ae$ với $p \in P, a \in A$; khi đó $(P', v')$ thuộc $\mathscr{P}$ và trội hơn $(P, v)$, do đó $P' = P$, nghĩa là $x \in P$, điều này hoàn tất chứng minh.
 
 #### Hệ quả 1 {#alg-x-s1-prop-10-cor-1 .statement}
 
@@ -1048,7 +1048,7 @@ $$(J' \cap M) \cap N \subset J' \cap I_1 = 0.$$
 
 Môđun con N′ = (J′ ∩ M) + N của M là tổng trực tiếp của J′ ∩ M và N, nên thực sự chứa N. Hơn nữa, N′ được chứa trong môđun con J′ + I₁ của J, là tổng trực tiếp của J′ và I₁, do đó nội xạ. Theo tính chất cực đại của N, điều này kéo theo J′ + I₁ = I, do đó J′ = J, và J là không phân tích được.
 
-Kí hiệu $\mathcal{I}$ là tập hợp (X, p. 21, hệ quả 1) các lớp các A-môđun nội xạ không phân tích được.
+Kí hiệu $\mathscr{I}$ là tập hợp (X, p. 21, hệ quả 1) các lớp các A-môđun nội xạ không phân tích được.
 
 Nhắc lại (X, p. 17, hệ quả 1) rằng, nếu A là Noether trái, thì mọi A-môđun là tổng trực tiếp của các A-môđun nội xạ đều là nội xạ.
 
@@ -1060,18 +1060,18 @@ a) Nếu I là bao nội xạ của một A-môđun Noether M, thì I là tổng
 
 b) Nếu A là Noether trái, thì I là tổng trực tiếp của một họ các môđun con (nội xạ) không phân tích được.
 
-c) Nếu I là tổng trực tiếp của các môđun con (nội xạ) không phân tích được, thì tồn tại một và chỉ một họ các số lực lượng $(a_E)_{E \in \mathcal{I}}$ sao cho I đẳng cấu với
+c) Nếu I là tổng trực tiếp của các môđun con (nội xạ) không phân tích được, thì tồn tại một và chỉ một họ các số lực lượng $(a_E)_{E \in \mathscr{I}}$ sao cho I đẳng cấu với
 
-$$\bigoplus_{E \in \mathcal{I}} E^{(a_E)}.$$
+$$\bigoplus_{E \in \mathscr{I}} E^{(a_E)}.$$
 
 Trước hết nhận thấy rằng c) suy ra từ mệnh đề 14 (X, p. 21) và từ VIII, § 1, No. 7, định lý 2. Hãy chứng minh a).
 
 Cho N là một môđun con của M mà các bao nội xạ của nó là tổng trực tiếp của một họ hữu hạn các môđun con không phân tích được, và là cực đại đối với tính chất này (có ít nhất một môđun con như vậy vì M là Noether). Theo nhận xét 2 (X, p. 21), tồn tại một môđun con I₁ của I là một bao nội xạ của N. Nếu I₁ = I, thì chứng minh hoàn tất; nếu không, gọi $J$ là một phần bù nhân tử trực tiếp của $I_1$ trong $I$. Khi đó $J$ là bao nội xạ của môđun Noether $J\cap M$ (loc. cit.), nên có một môđun con nội xạ không phân tích được khác không $J'$ (bổ đề 4). Khi đó $I_1+J'$ là nội xạ, là tổng trực tiếp của một họ hữu hạn các môđun con không phân tích được, và là bao nội xạ của môđun con $(I_1+J')\cap M$ của $M$ mà thực sự chứa $N$, do đó mâu thuẫn.
 
-Giả sử $A$ là Noether trái và hãy chứng minh b). Cho $X$ là hợp của các tập $\operatorname{Hom}_A(E,I)$ với $E\in\mathcal{J}$. Với mỗi tập con $Y$ của $X$, gán một A-môđun $E_Y$ và một A-đồng cấu $f_Y:E_Y\to I$ theo cách sau: $Y$ là hợp của một họ $(Y(E))_{E\in\mathcal{J}}$ trong đó $Y(E)\subset\operatorname{Hom}_A(E,I)$, và đặt
+Giả sử $A$ là Noether trái và hãy chứng minh b). Cho $X$ là hợp của các tập $\operatorname{Hom}_A(E,I)$ với $E\in\mathscr{J}$. Với mỗi tập con $Y$ của $X$, gán một A-môđun $E_Y$ và một A-đồng cấu $f_Y:E_Y\to I$ theo cách sau: $Y$ là hợp của một họ $(Y(E))_{E\in\mathscr{J}}$ trong đó $Y(E)\subset\operatorname{Hom}_A(E,I)$, và đặt
 
 $$
-E_Y=\bigoplus_{E\in\mathcal{J}}E^{(Y(E))}
+E_Y=\bigoplus_{E\in\mathscr{J}}E^{(Y(E))}
 $$
 
 và thành phần của $f$ trên nhân tử trực tiếp của $E_Y$ tương ứng với phần tử $y$ của $Y(E)\subset\operatorname{Hom}_A(E,I)$ là $y:E\to I$. Cho $Y$ là một tập con của $X$ sao cho $f_Y$ là đơn ánh và $Y$ là cực đại đối với tính chất này (một tập con như vậy tồn tại theo E, III, p. 20); chỉ cần chứng minh rằng $f_Y$ là song ánh. Nếu không, gọi $J$ là một phần bù nhân tử trực tiếp của môđun con nội xạ $\operatorname{Im}(f_Y)$ của $I$; vì $J$ khác không, nó có một môđun con Noether khác không (vì A được giả sử là Noether), do đó cũng có một môđun con nội xạ khác không $J'$ là bao nội xạ của một môđun Noether. Theo a), $J'$ là tổng trực tiếp của một họ hữu hạn khác rỗng các môđun con không phân tích được. Do đó tồn tại một tập con hữu hạn khác rỗng $Y'$ của $X$ sao cho $f_{Y'}$ ánh xạ song ánh $E_{Y'}$ lên $J'$. Vì $\operatorname{Im}(f_Y)\cap J'=0$, ta có $Y\cap Y'=\varnothing$ và $f_{Y\cup Y'}$ là đơn ánh; điều này mâu thuẫn với tính chất cực đại của $Y$ và hoàn tất chứng minh.

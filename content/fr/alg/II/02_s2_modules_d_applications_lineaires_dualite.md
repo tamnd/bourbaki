@@ -45,7 +45,7 @@ subsections:
       pdf_page: 225
 statements: 43
 exercises: 24
-content_sha256: 6fdcfa5713a3f71bb37e31c09d327449f1f66ff64a8caee1f42d7e5c6821200b
+content_sha256: 9bc51dded0ad3dcb4f786f21c924b77574d5a0c190ca4e0da3b8d5527607e9b3
 ---
 
 ## § 2. MODULES D’APPLICATIONS LINÉAIRES. DUALITÉ
@@ -589,7 +589,7 @@ Si $x_0$ est une solution de l’équation linéaire $u(x) = y_0$, l’ensemble 
 
 En effet, la relation $u(x) = y_0$ s’écrit $u(x) = u(x_0)$, équivalente à $u(x - x_0) = 0$.
 
-¹ Il s’agit en fait d’un abus de langage; du point du vue logique, nous ne définissons pas ici le mot « solution », mais simplement la phrase « $x_0$ est solution de l’équation $u(x) = y_0$ » comme équivalente à la relation « $x_0 \in E$ et $u(x_0) = y_0$ ». On observera que dans une théorie mathématique $\mathcal{T}$ où la relation « A est un anneau, E et F des A-modules, u un homomorphisme de E dans F, $y_0$ un élément de F » est un théorème, tout terme $T$ de $\mathcal{T}$ tel que la relation « $T \in E$ et $u(T) = y_0$ » soit vraie dans $\mathcal{T}$ est une solution de l’équation $u(x) = y_0$ au sens de E, I, p. 40; ce qui justifie l’abus de langage précédent.
+¹ Il s’agit en fait d’un abus de langage; du point du vue logique, nous ne définissons pas ici le mot « solution », mais simplement la phrase « $x_0$ est solution de l’équation $u(x) = y_0$ » comme équivalente à la relation « $x_0 \in E$ et $u(x_0) = y_0$ ». On observera que dans une théorie mathématique $\mathscr{T}$ où la relation « A est un anneau, E et F des A-modules, u un homomorphisme de E dans F, $y_0$ un élément de F » est un théorème, tout terme $T$ de $\mathscr{T}$ tel que la relation « $T \in E$ et $u(T) = y_0$ » soit vraie dans $\mathscr{T}$ est une solution de l’équation $u(x) = y_0$ au sens de E, I, p. 40; ce qui justifie l’abus de langage précédent.
 
 Autrement dit, si l’équation $u(x) = y_0$ a au moins une solution $x_0$, l’ensemble de ses solutions est l’ensemble $x_0 + \overline{u}^1(0)$, obtenu par translation à partir du noyau $\overline{u}^1(0)$ de $u$. On observera que $\overline{u}^1(0)$, étant un sous-module, n’est jamais vide, puisqu’il contient 0 (appelé la solution nulle, ou solution banale, de l’équation homogène $u(x) = 0$).
 

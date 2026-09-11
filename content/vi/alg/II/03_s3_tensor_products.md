@@ -50,7 +50,7 @@ subsections:
       pdf_page: 283
 statements: 30
 exercises: 4
-content_sha256: b72e8149f4c3c1a44d18eb412808f3941c048825b72f27f82f0d03cbc56bfbac
+content_sha256: 252d312313551f6b68543f942a3ec716bf69666fd7b53c19445e66098ec813bb
 translated_from: content/en/alg/II/03_s3_tensor_products.md
 source_content_sha256: 1eba95005f4ce917b7b3a9ff9847bb4bbfb2a404c0a595664fe6a6f3d7426913
 translation_model: gpt-5.4, gpt-5-6-mini
@@ -290,10 +290,10 @@ $$
 f(\gamma x, y) = f(x, \gamma y) = \gamma f(x, y) \quad \text{với } x \in E, y \in F, \gamma \in C
 $$
 
-khi đó được gọi là C-song tuyến tính và tạo thành một C-môđun ký hiệu bởi $\mathcal{L}_2(E, F; G)$; Mệnh đề 3 (no. 4) xác định một đẳng cấu C-môđun chính tắc (x. § 1, no. 14, Nhận xét 1).
+khi đó được gọi là C-song tuyến tính và tạo thành một C-môđun ký hiệu bởi $\mathscr{L}_2(E, F; G)$; Mệnh đề 3 (no. 4) xác định một đẳng cấu C-môđun chính tắc (x. § 1, no. 14, Nhận xét 1).
 
 $$
-\mathcal{L}_2(E, F; G) \to \mathrm{Hom}_C(E \otimes_C F, G).
+\mathscr{L}_2(E, F; G) \to \mathrm{Hom}_C(E \otimes_C F, G).
 $$
 
 Cho E', F' là hai C-môđun và $u : E \to E'$, $v : F \to F'$ là hai ánh xạ C-tuyến tính; khi đó (no. 4) $u \otimes v$ là một ánh xạ C-tuyến tính của $E \otimes_C F$ vào $E' \otimes_C F'$. Hơn nữa, ngay lập tức thấy rằng $(u, v) \mapsto u \otimes v$ là một ánh xạ C-song tuyến tính của $\mathrm{Hom}_C(E, E') \times \mathrm{Hom}_C(F, F')$ vào $\mathrm{Hom}_C(E \otimes_C F, E' \otimes_C F')$; do đó tương ứng với nó một cách chính tắc có một ánh xạ C-tuyến tính, gọi là chính tắc:
@@ -867,10 +867,10 @@ $$
 f(x_1, \ldots, x_{i-1}, \gamma x_i, x_{i+1}, \ldots, x_n) = \gamma f(x_1, \ldots, x_n)
 $$
 
-với $\gamma \in \mathbf{C}$ và $(x_i) \in \prod_i E_i$ khi đó được gọi là C-đa tuyến tính và tạo thành một C-môđun ký hiệu là $\mathcal{L}_n(E_1, \ldots, E_n; G)$; khi đó tính chất phổ quát của tích tenxơ (34) cho phép ta định nghĩa một đẳng cấu C-môđun chính tắc
+với $\gamma \in \mathbf{C}$ và $(x_i) \in \prod_i E_i$ khi đó được gọi là C-đa tuyến tính và tạo thành một C-môđun ký hiệu là $\mathscr{L}_n(E_1, \ldots, E_n; G)$; khi đó tính chất phổ quát của tích tenxơ (34) cho phép ta định nghĩa một đẳng cấu C-môđun chính tắc
 
 $$
-\mathcal{L}_n(E_1, \ldots, E_n; G) \to \operatorname{Hom}_\mathbf{C}(E_1 \otimes_\mathbf{C} E_2 \otimes \cdots \otimes_\mathbf{C} E_n, G)
+\mathscr{L}_n(E_1, \ldots, E_n; G) \to \operatorname{Hom}_\mathbf{C}(E_1 \otimes_\mathbf{C} E_2 \otimes \cdots \otimes_\mathbf{C} E_n, G)
 $$
 
 gắn với mỗi ánh xạ C-đa tuyến tính f ánh xạ C-tuyến tính g sao cho

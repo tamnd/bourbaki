@@ -26,7 +26,7 @@ subsections:
       pdf_page: 218
 statements: 21
 exercises: 6
-content_sha256: 2e86155015b6398452126421acca82c8b97152bd71e23dcc83bf4cd83ef2aabb
+content_sha256: 919da70d2816cf67fbcdc62af1b32659189ff776273e42b53f86573e4471cd39
 ---
 
 ## § 13. $p$-RADICAL EXTENSIONS OF HEIGHT $\leq 1$
@@ -221,11 +221,11 @@ $$[aD, a'D'] = aa' \cdot [D, D'] + (aD(a')) \cdot D' - (a'D'(a)) \cdot D.$$
 
 In particular, the mapping $(D, D') \mapsto [D, D']$ of $g \times g$ into $g$ is $E^p$-linear.
 
-We denote by $\mathcal{C}$ the set of subfields $K$ of $E$ such that $E^p \subset K$ and $[E : K]$ is finite; for each $K \in \mathcal{C}$ we denote by $g(K)$ the set of K-derivations of E. Further, we denote by $\mathcal{L}$ the set of vector subspaces $l$ of $g$ of finite dimension over E and such that $[D, D'] \in h$ and $D^p \in h$ for any $D, D'$ in $h$; for each $h \in \mathcal{L}$ we denote by $I(h)$ the set of $x \in E$ such that $D(x) = 0$ for all $D \in h$.
+We denote by $\mathscr{C}$ the set of subfields $K$ of $E$ such that $E^p \subset K$ and $[E : K]$ is finite; for each $K \in \mathscr{C}$ we denote by $g(K)$ the set of K-derivations of E. Further, we denote by $\mathscr{L}$ the set of vector subspaces $l$ of $g$ of finite dimension over E and such that $[D, D'] \in h$ and $D^p \in h$ for any $D, D'$ in $h$; for each $h \in \mathscr{L}$ we denote by $I(h)$ the set of $x \in E$ such that $D(x) = 0$ for all $D \in h$.
 
 #### Theorem 3 (Jacobson) {#alg-v-s13-thm-3 .statement}
 
-— *The mappings $K \mapsto g(K)$ and $l \mapsto I(h)$ are bijections of $\mathcal{C}$ onto $\mathcal{L}$ and of $\mathcal{L}$ onto $\mathcal{C}$ respectively, which are mutually inverse. If $K \in \mathcal{C}$ and $h \in \mathcal{L}$ correspond to each other, then $[E : K] = p^{[h : E]}$*.
+— *The mappings $K \mapsto g(K)$ and $l \mapsto I(h)$ are bijections of $\mathscr{C}$ onto $\mathscr{L}$ and of $\mathscr{L}$ onto $\mathscr{C}$ respectively, which are mutually inverse. If $K \in \mathscr{C}$ and $h \in \mathscr{L}$ correspond to each other, then $[E : K] = p^{[h : E]}$*.
 
 The proof requires several preliminary lemmas.
 
@@ -257,7 +257,7 @@ whence $xu \in K_{i+1}$. Since x is non-zero, multiplication by x is an automorp
 
 #### Lemma 3 {#alg-v-s13-lem-3 .statement}
 
-*Let $\mathfrak{h} \in \mathcal{L}$ be of dimension s over E. Then $I(\mathfrak{h})$ belongs to $\mathcal{C}$ and we have $[E : I(\mathfrak{h})] = p^s$.*
+*Let $\mathfrak{h} \in \mathscr{L}$ be of dimension s over E. Then $I(\mathfrak{h})$ belongs to $\mathscr{C}$ and we have $[E : I(\mathfrak{h})] = p^s$.*
 
 It is clear that $I(\mathfrak{h})$ is a subfield of $E$ containing $E^p$. For each $x \in E$ let $f_x$ be the E-linear form $D \mapsto D(x)$ on I). Since the intersection of the kcrncls of these linear forms is equal to 0, they generate the vector space dual to $\mathfrak{h}$ (II, p. 301, Th. 7); hence there exist $x_1, \ldots, x_s$ in $E$ such that the linear forms $f_{x_1}, \ldots, f_{x_s}$ form a basis of this dual. Let $(A,, \ldots, A,)$ be the basis of $\mathfrak{h}$ characterized by $\Delta_i(x_j) = f_{x_j}(\Delta_i) = \delta_{ij}$. Put $D_i = x_i \Delta_i$, then $(D_1, \ldots, D_s)$ is a basis of I) over E and we have $D_i(x_j) = x_i \delta_{ij}$. The derivations $D_i^p - D_i$ and $[D_i, D_j]$ for $i, j = 1, \ldots, s$ belong to I) and annihilate $x_1, \ldots, x_s$; we thus have
 $$
@@ -269,15 +269,15 @@ E = K_0 \supset K_1 \supset \ldots \supset K_{s-1} \supset K_s = I(\mathfrak{h})
 $$
 Let i be between 0 and $s-1$; then $K_i$ is stable under $D_{i+1}$ because $D_{i+1}$ commutes with $D_1, \ldots, D_i$. Moreover we have $D_{i+1}^p = D_{i+1}$, $D_{i+1}(x_{i+1}) = x_{i+1} \neq 0$ and $x_{i+1} \in K_i$. Hence Lemma 1 implies that $[K_i : K_{i+1}] = p$, whence finally $[E : K] = [K_0 : K_s] = p^s$.
 
-We now come to the proof of the theorem. Let I) $\in \mathcal{L}$ be of dimension s over E and put $K = I(\mathfrak{h})$; then $[E : K] = p^s$ by Lemma 3, whence $[\Omega_K(E) : E] = s$ by
+We now come to the proof of the theorem. Let I) $\in \mathscr{L}$ be of dimension s over E and put $K = I(\mathfrak{h})$; then $[E : K] = p^s$ by Lemma 3, whence $[\Omega_K(E) : E] = s$ by
 
 Th. 2, c) (V, p. 103). By the universal property of the module of differentials the mapping $u \mapsto u \circ d_{E/K}$ is an isomorphism of the dual of $\Omega_K(E)$ onto $g(K)$, hence $[g(K):E] = s$. Now we have $[\mathfrak{h}:E] = s$ and $\mathfrak{h} \subset g(K)$, whence $\mathfrak{h} = g(K)$, that is $\mathfrak{h} = g(I(\mathfrak{h}))$.
 
-Conversely, for every field $K \in \mathcal{C}$ it is clear that $g(K)$ belongs to $\mathcal{L}$ (V, p. 103, Th. 2, c)). *If* $x$ belongs to $I(g(K))$, we have $u(d_{E/K}x) = 0$ for each linear form $u$ on $\Omega_K(E)$, whence $d_{E/K}x = 0$ and so finally $x \in K$ by Cor. 2 of Prop. 5 (V, p. 102). Thus we have $K = I(g(K))$.
+Conversely, for every field $K \in \mathscr{C}$ it is clear that $g(K)$ belongs to $\mathscr{L}$ (V, p. 103, Th. 2, c)). *If* $x$ belongs to $I(g(K))$, we have $u(d_{E/K}x) = 0$ for each linear form $u$ on $\Omega_K(E)$, whence $d_{E/K}x = 0$ and so finally $x \in K$ by Cor. 2 of Prop. 5 (V, p. 102). Thus we have $K = I(g(K))$.
 
 #### Remark {#alg-v-s13-n3-rem-1 .statement}
 
-— 1) The mutually inverse bijections $K \mapsto g(K)$ and $\mathfrak{h} \mapsto I(\mathfrak{h})$ are inclusion reversing; therefore $\mathfrak{h} \mapsto I(\mathfrak{h})$ is an isomorphism of the ordered set $\mathcal{L}$ onto the ordered set opposite to $\mathcal{C}$. Hence we obtain the relation $I(\mathfrak{h} \cap \mathfrak{h}') = E^p(I(\mathfrak{h}), I(\mathfrak{h}'))$ for $\mathfrak{h}, \mathfrak{h}'$ in $\mathcal{L}$, because $\mathfrak{h} \cap \mathfrak{h}'$ is the largest element of $\mathcal{L}$ contained both in $\mathfrak{h}$ and in $\mathfrak{h}'$.
+— 1) The mutually inverse bijections $K \mapsto g(K)$ and $\mathfrak{h} \mapsto I(\mathfrak{h})$ are inclusion reversing; therefore $\mathfrak{h} \mapsto I(\mathfrak{h})$ is an isomorphism of the ordered set $\mathscr{L}$ onto the ordered set opposite to $\mathscr{C}$. Hence we obtain the relation $I(\mathfrak{h} \cap \mathfrak{h}') = E^p(I(\mathfrak{h}), I(\mathfrak{h}'))$ for $\mathfrak{h}, \mathfrak{h}'$ in $\mathscr{L}$, because $\mathfrak{h} \cap \mathfrak{h}'$ is the largest element of $\mathscr{L}$ contained both in $\mathfrak{h}$ and in $\mathfrak{h}'$.
 
 2) It can be shown that every subspace of finite dimension of $g$ which is stable under the mapping $D \mapsto D^p$ is also stable under the bracket operation.
 

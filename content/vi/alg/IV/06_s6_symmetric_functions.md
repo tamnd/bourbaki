@@ -42,9 +42,9 @@ subsections:
       pdf_page: 90
 statements: 43
 exercises: 12
-content_sha256: eaa169ea47ec336b4218c8df22f943c48eec43bba64abcfb8156446e2522b5b5
+content_sha256: 922f123d34a31fafaafc349609c033dbc788c41128cd3f0ec12ce27b163f1dba
 translated_from: content/en/alg/IV/06_s6_symmetric_functions.md
-source_content_sha256: 66d5b546694854d26bf604a12708aa73db5a74ae8a57a81ea44881ad8cc99f4c
+source_content_sha256: d8efcc08bfe9d3491c2c0f0dc26b32418d3c6a63d8ced19164e7875914007cb1
 translation_model: gpt-5.4, gpt-5-6, gpt-5-mini, gpt-5-6-mini
 translation_run: translate-vi-fa2660c6
 glossary_version: 34
@@ -354,10 +354,10 @@ $$
 trong đó chuỗi lũy thừa hình thức $s_k \in A[[X]]$ được định nghĩa bởi
 
 $$
-s_k = \sum_{H \in \mathcal{P}_k} \left( \prod_{i \in H} X_i \right) \quad (k \geq 1)
+s_k = \sum_{H \in \mathscr{P}_k} \left( \prod_{i \in H} X_i \right) \quad (k \geq 1)
 $$
 
-(ta ký hiệu bởi $\mathcal{P}_k$ tập hợp tất cả các tập con gồm k phần tử của I). Đặc biệt ta có $s_1 = \sum_{i \in I} X_i$. Khi I là hữu hạn với $n$ phần tử ta có $s_k = 0$ với $k > n$; chính xác hơn, khi $I = \{1, \ldots, n\}$ thì chuỗi lũy thừa hình thức $s_k$ không gì khác hơn là đa thức đối xứng sơ cấp bậc k theo $X_1, \ldots, X_n$.
+(ta ký hiệu bởi $\mathscr{P}_k$ tập hợp tất cả các tập con gồm k phần tử của I). Đặc biệt ta có $s_1 = \sum_{i \in I} X_i$. Khi I là hữu hạn với $n$ phần tử ta có $s_k = 0$ với $k > n$; chính xác hơn, khi $I = \{1, \ldots, n\}$ thì chuỗi lũy thừa hình thức $s_k$ không gì khác hơn là đa thức đối xứng sơ cấp bậc k theo $X_1, \ldots, X_n$.
 
 Cho $S = (S_k)_{k \geq 1}$ là một dãy các bất định. Vì chuỗi lũy thừa hình thức $s_k$ có cấp $\geq k$, và thuộc $A[[X]]^{\text{sym}}$, các điều kiện a) và b) của Prop. 4 của IV, p. 28 được thỏa mãn với $E = A[[X]]^{\text{sym}}$; do đó tồn tại một đồng cấu đại số A liên tục duy nhất
 
@@ -564,7 +564,7 @@ $$
 
 trong B. Vì các quan hệ (24) xác định một cách cho bởi các sinh và quan hệ của $E_f$, Mệnh đề 4 được suy ra.
 
-Mệnh đề 4 biện minh cho tên gọi « đại số phân tích phổ quát của $f$ » dành cho $E_f$. Quan hệ $f(X) = \prod_{i=1}^n (X - x_{i,f})$ được gọi là « phân tích phổ quát của $f$ ». Cho $\sigma \in S_n$ là một phép hoán vị ; vì $f(X) = \prod_{i=1}^n (X - x_{\sigma(i),f})$, tồn tại một tự đẳng cấu $t_\sigma$ của A-đại số $E_f$ được đặc trưng bởi $t_\sigma(x_{i,f}) = x_{\sigma(i),f}$ với $1 \leq i \leq n$. Ta có $t_{\sigma \tau} = t_\sigma \circ t_\tau$ với $\sigma, \tau$ trong $S_n$, và do đó thu được một tác động của nhóm $\mathcal{G}$, trên A-đại số $E_f$.
+Mệnh đề 4 biện minh cho tên gọi « đại số phân tích phổ quát của $f$ » dành cho $E_f$. Quan hệ $f(X) = \prod_{i=1}^n (X - x_{i,f})$ được gọi là « phân tích phổ quát của $f$ ». Cho $\sigma \in S_n$ là một phép hoán vị ; vì $f(X) = \prod_{i=1}^n (X - x_{\sigma(i),f})$, tồn tại một tự đẳng cấu $t_\sigma$ của A-đại số $E_f$ được đặc trưng bởi $t_\sigma(x_{i,f}) = x_{\sigma(i),f}$ với $1 \leq i \leq n$. Ta có $t_{\sigma \tau} = t_\sigma \circ t_\tau$ với $\sigma, \tau$ trong $S_n$, và do đó thu được một tác động của nhóm $\mathscr{G}$, trên A-đại số $E_f$.
 
 #### Mệnh đề 5 {#alg-iv-s6-prop-5 .statement}
 

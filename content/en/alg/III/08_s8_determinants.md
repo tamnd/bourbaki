@@ -58,7 +58,7 @@ subsections:
       pdf_page: 564
 statements: 36
 exercises: 26
-content_sha256: 1e5ab9b1b4d971390aac6594c7ace13e50ab50b6000f64da271cff3a45c6bbac
+content_sha256: 7a6d262d01e84dc838f1687d01b6bcca82ec10cb21e250bf7406a9c385bada95
 ---
 
 ## § 8. DETERMINANTS
@@ -303,10 +303,10 @@ $$
 With the notation of Lemma 1, comparing formulae (10) and (12) gives
 
 $$
-x_1 \wedge x_2 \wedge \cdots \wedge x_p = \sum_{H \in \mathcal{F}_p(J)} \det(x_{H,1}, x_{H,2}, \ldots, x_{H,p}) e_H
+x_1 \wedge x_2 \wedge \cdots \wedge x_p = \sum_{H \in \mathscr{F}_p(J)} \det(x_{H,1}, x_{H,2}, \ldots, x_{H,p}) e_H
 $$
 
-where $\mathcal{F}_p(J)$ is the set of subsets of $J$ with $p$ elements and, for every subset $H \in \mathcal{F}_p(J)$, we write $x_{H,i} = \sum_{j \in H} \xi_{ji} e_j$ and $e_H = e_{j_1} \wedge e_{j_2} \wedge \cdots \wedge e_{j_p}$, $(j_k)_{1 \leq k \leq p}$ being the sequence of elements of $H$ arranged in increasing order, it being understood that $\det(x_{H,1}, \ldots, x_{H,p})$ is taken with respect to the basis $(e_{jk})_{1 \leq k \leq p}$.
+where $\mathscr{F}_p(J)$ is the set of subsets of $J$ with $p$ elements and, for every subset $H \in \mathscr{F}_p(J)$, we write $x_{H,i} = \sum_{j \in H} \xi_{ji} e_j$ and $e_H = e_{j_1} \wedge e_{j_2} \wedge \cdots \wedge e_{j_p}$, $(j_k)_{1 \leq k \leq p}$ being the sequence of elements of $H$ arranged in increasing order, it being understood that $\det(x_{H,1}, \ldots, x_{H,p})$ is taken with respect to the basis $(e_{jk})_{1 \leq k \leq p}$.
 
 #### Proposition 7 {#alg-iii-s8-prop-7 .statement}
 
@@ -488,12 +488,12 @@ $$
 (20) \quad (\wedge^q(u)(e_H)) \wedge (\wedge^{n-q}(u)(e_K)) = \sum_R \rho_{R, R'} \det(X_{R, H}) \det(X_{R', K}) e_I
 $$
 
-where $R$ runs through the set $\mathcal{F}_q(I)$ of subsets of $I$ with $q$ elements.
+where $R$ runs through the set $\mathscr{F}_q(I)$ of subsets of $I$ with $q$ elements.
 
 If we take $K = H'$, it follows from the definition of $\wedge^n(u)$ (§ 7, no. 2, formula (4)) and § 7, no. 3, Corollary 1 to Proposition 5 that the right hand side of (20) is $\rho_{H, H'} \wedge^n(u)(e_I)$. Hence (no. 1, formula (1) and § 7, no. 2, formula (4))
 
 $$
-(21) \quad \det(X) = \rho_{H, H'} \sum_{R \in \mathcal{F}_q; R' \neq R} \rho_{R, R'} \det(X_{R, H}) \det(X_{R', H'}).
+(21) \quad \det(X) = \rho_{H, H'} \sum_{R \in \mathscr{F}_q; R' \neq R} \rho_{R, R'} \det(X_{R, H}) \det(X_{R', H'}).
 $$
 
 If on the other hand $K \neq H'$, then $H \cap K \neq \varnothing$; as the left hand side of (20) is $\pm \wedge^n(u)(e_H \wedge e_K)$, it is zero, whence

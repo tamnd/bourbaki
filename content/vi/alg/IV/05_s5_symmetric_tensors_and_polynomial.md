@@ -58,7 +58,7 @@ subsections:
       pdf_page: 68
 statements: 36
 exercises: 16
-content_sha256: 273cbbbac0f6c1b6ed8269fa1faaa142c8df29d1035eed05417b5e3cb464ac91
+content_sha256: 462aec25f00404261753c697857eb883fefa2991279b2a01e1513b1b6508f871
 translated_from: content/en/alg/IV/05_s5_symmetric_tensors_and_polynomial.md
 source_content_sha256: 6da98969b53ee5df6cf503b3f80c244de4578e27ef1ee1edd5bf16c915b72321
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4, gpt-5.4-mini
@@ -357,15 +357,15 @@ $$
 
 #### Nhận xét 2 {#alg-iv-s5-n4-rem-2 .statement}
 
-Cho $\mathcal{M}$ là tập hợp các ánh xạ từ $(1, p)$ vào I. Ta định nghĩa một ánh xạ $\rho \mapsto \rho^*$ từ $\mathcal{M}$ vào $\mathbf{N}^{(1)}$ bằng cách đặt
+Cho $\mathscr{M}$ là tập hợp các ánh xạ từ $(1, p)$ vào I. Ta định nghĩa một ánh xạ $\rho \mapsto \rho^*$ từ $\mathscr{M}$ vào $\mathbf{N}^{(1)}$ bằng cách đặt
 $$
 \rho^*(i) = \operatorname{Card} \rho^{-1}(i)
 $$
 
-Đối với hai phần tử $\rho_1, \rho_2$ của $\mathcal{M}$, điều kiện $\rho_1^* = \rho_2^*$ là cần và đủ để tồn tại $\sigma \in \mathfrak{S}_p$ sao cho $\rho_2 = \rho_1 \circ \sigma$ (I, p. 95). Theo Mệnh đề 3 (iii), với $|\nu| = p$, ta có
+Đối với hai phần tử $\rho_1, \rho_2$ của $\mathscr{M}$, điều kiện $\rho_1^* = \rho_2^*$ là cần và đủ để tồn tại $\sigma \in \mathfrak{S}_p$ sao cho $\rho_2 = \rho_1 \circ \sigma$ (I, p. 95). Theo Mệnh đề 3 (iii), với $|\nu| = p$, ta có
 
 $$
-x_\nu = \sum_{\rho \in \mathcal{M}, \rho^* = \nu} x_{\rho(1)} \otimes x_{\rho(2)} \otimes \ldots \otimes x_{\rho(p)}
+x_\nu = \sum_{\rho \in \mathscr{M}, \rho^* = \nu} x_{\rho(1)} \otimes x_{\rho(2)} \otimes \ldots \otimes x_{\rho(p)}
 $$
 
 ### 5. Tenxơ đối xứng trên một môđun tự do
@@ -378,7 +378,7 @@ $$
 
 (ii) Với mỗi $p \in N$, $\mathbf{TS}^p(M)$ là một nhân tử trực tiếp của $A$-môđun $\mathbf{T}^p(M)$.
 
-Ta dùng ký hiệu của Nhận xét 2 ở trên. Họ $(e_{\rho(1)} \otimes \ldots \otimes e_{\rho(p)})_{\rho \in \mathcal{M}}$ là một cơ sở của $\mathbf{T}^p(M)$. Do đó Mệnh đề 4 suy ra từ công thức (7) và bổ đề sau đây, áp dụng với $H = \mathfrak{S}_p$ và $U = \mathbf{T}^p(M)$.
+Ta dùng ký hiệu của Nhận xét 2 ở trên. Họ $(e_{\rho(1)} \otimes \ldots \otimes e_{\rho(p)})_{\rho \in \mathscr{M}}$ là một cơ sở của $\mathbf{T}^p(M)$. Do đó Mệnh đề 4 suy ra từ công thức (7) và bổ đề sau đây, áp dụng với $H = \mathfrak{S}_p$ và $U = \mathbf{T}^p(M)$.
 
 #### Bổ đề 1 {#alg-iv-s5-lem-1 .statement}
 
@@ -717,7 +717,7 @@ $$
 Mệnh đề 13 (i) xác định một đồng cấu của các A-môđun:
 
 $$
-\mathcal{L}_q(M, ..., M; N) \to \mathrm{Pol}^q(M, N).
+\mathscr{L}_q(M, ..., M; N) \to \mathrm{Pol}^q(M, N).
 $$
 
 Mệnh đề 13 (ii) xác định một đồng cấu của các A-môđun

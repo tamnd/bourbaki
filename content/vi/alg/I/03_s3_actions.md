@@ -33,9 +33,9 @@ subsections:
       pdf_page: 53
 statements: 14
 exercises: 10
-content_sha256: d2d3cca86ad8c530e41d836f7e59c0b73e4c944111149381e2331d97036adfce
+content_sha256: 2d565017ff2865c7eb8b8709abedb3b3bc26908c58f4c60dc4e6c4b11f226b7f
 translated_from: content/en/alg/I/03_s3_actions.md
-source_content_sha256: ea8e120387da4eeeb5565a60d17f5eac8359a45e81eafde8841009256e414458
+source_content_sha256: fefea5c72fe036c89a879762938486baeb1decc5d9be21d1053e8bc5fabd4729
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-3445099e
 glossary_version: 34
@@ -63,13 +63,13 @@ thay cho "luật tác động trái". Phần tử $f_\alpha(x)$ của E (với $
 
 (1) Cho E là một nửa magma kết hợp được viết theo phép nhân. Ánh xạ liên kết với một số nguyên dương ngặt $n$ ánh xạ $x \mapsto x^n$ của E vào chính nó là một tác động của $\mathbf{N}^*$ trên E. Nếu E là một nhóm, ánh xạ liên kết với một số nguyên hữu tỉ $a$ ánh xạ $x \mapsto x^a$ của E vào E là một tác động của $\mathbf{Z}$ trên E.
 
-(2) Cho E là một nửa magma với luật được ký hiệu bởi $\top$. Ánh xạ liên kết với $x \in E$ ánh xạ $A \mapsto x \top A$ của tập hợp các tập con của E vào chính nó là một tác động của E trên $\mathcal{P}(E)$.
+(2) Cho E là một nửa magma với luật được ký hiệu bởi $\top$. Ánh xạ liên kết với $x \in E$ ánh xạ $A \mapsto x \top A$ của tập hợp các tập con của E vào chính nó là một tác động của E trên $\mathscr{P}(E)$.
 
 (3) Cho E là một tập hợp. Ánh xạ đồng nhất của $E^E$ là một tác động của $E^E$ trên E, được gọi là *tác động chính tắc*. Luật tác động tương ứng là ánh xạ $(f, x) \mapsto f(x)$ của $E^E \times E$ vào E.
 
 (4) Cho $(\Omega_i)_{i \in I}$ là một họ các tập hợp. Với mọi $i \in I$, cho $f_i : \Omega_i \to E^E$ là một tác động của $\Omega_i$ trên E. Cho $\Omega$ là tổng của các $\Omega_i$ (*Lý thuyết tập hợp*, II, § 4, no. 8). Ánh xạ $f$ của $\Omega$ lên $E^E$, mở rộng các $f_i$, là một tác động của $\Omega$ trên E. Điều này cho phép ta rút gọn việc nghiên cứu một họ các tác động về việc nghiên cứu một tác động duy nhất.
 
-(5) Cho một tác động của $\Omega$ lên E với luật được ký hiệu bởi $\perp$, một tập con $\Xi$ của $\Omega$ và một tập con X của E, $\Xi \perp X$ ký hiệu tập hợp các $\alpha \perp x$ với $\alpha \in \Xi$ và $x \in X$; khi $\Xi$ gồm một phần tử duy nhất $\alpha$, nói chung ta viết $\alpha \perp X$ thay cho $\{\alpha\} \perp X$. Ánh xạ gắn với $\alpha \in \Omega$ ánh xạ $X \mapsto \alpha \perp X$ là một tác động của $\Omega$ lên $\mathcal{P}(E)$, được gọi là *dẫn xuất* từ tác động đã cho bằng cách mở rộng lên tập hợp các tập con.
+(5) Cho một tác động của $\Omega$ lên E với luật được ký hiệu bởi $\perp$, một tập con $\Xi$ của $\Omega$ và một tập con X của E, $\Xi \perp X$ ký hiệu tập hợp các $\alpha \perp x$ với $\alpha \in \Xi$ và $x \in X$; khi $\Xi$ gồm một phần tử duy nhất $\alpha$, nói chung ta viết $\alpha \perp X$ thay cho $\{\alpha\} \perp X$. Ánh xạ gắn với $\alpha \in \Omega$ ánh xạ $X \mapsto \alpha \perp X$ là một tác động của $\Omega$ lên $\mathscr{P}(E)$, được gọi là *dẫn xuất* từ tác động đã cho bằng cách mở rộng lên tập hợp các tập con.
 
 (6) Cho $\alpha \mapsto f_\alpha$ là một tác động của $\Omega$ lên E. Cho g là một ánh xạ từ $\Omega'$ vào $\Omega$. Khi đó ánh xạ $\beta \mapsto f_{g(\beta)}$ là một tác động của $\Omega'$ lên E.
 
@@ -256,7 +256,7 @@ $$
 
 #### Ví dụ {#alg-i-s3-n5-exa-1 .statement}
 
-(1) Trong tập hợp $\mathcal{P}(E)$ các tập con của một tập hợp E, mỗi luật nội tại $\cap$ và $\cup$ đều phân phối được đối với chính nó và đối với luật kia. Điều này suy ra từ các công thức dạng
+(1) Trong tập hợp $\mathscr{P}(E)$ các tập con của một tập hợp E, mỗi luật nội tại $\cap$ và $\cup$ đều phân phối được đối với chính nó và đối với luật kia. Điều này suy ra từ các công thức dạng
 
 $$
 A \cap (B \cup C) = (A \cap B) \cup (A \cap C)

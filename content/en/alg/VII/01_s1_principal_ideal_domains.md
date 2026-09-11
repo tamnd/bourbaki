@@ -33,7 +33,7 @@ subsections:
       pdf_page: 364
 statements: 15
 exercises: 15
-content_sha256: d2178e31c081e0480a4d4b238d5f836620d03ea14b805f7aa3091d47b48f145d
+content_sha256: 0050bfc3f4dbfbdb2e52eb4c6a6132f3b0e2feca0cb54735e5fef0922a664345
 ---
 
 ## § 1. PRINCIPAL IDEAL DOMAINS
@@ -56,7 +56,7 @@ The polynomial ring $K[X, Y]$ in two indeterminates over a field $K$ is not a pr
 
 ### 2. Divisibility in principal ideal domains
 
-Let $A$ be a principal ideal domain and let $K$ be its field of fractions (I, p. 116); we will see that the ordered group $\mathcal{P}^*$ of principal fractional ideals (*VI*, p. 6) of $K$ is lattice ordered; more precisely:
+Let $A$ be a principal ideal domain and let $K$ be its field of fractions (I, p. 116); we will see that the ordered group $\mathscr{P}^*$ of principal fractional ideals (*VI*, p. 6) of $K$ is lattice ordered; more precisely:
 
 #### Proposition 1 {#alg-vii-s1-prop-1 .statement}
 
@@ -79,7 +79,7 @@ Indeed $d$ is a common divisor of the $x_i$ in $B$. On the other hand the relati
 
 An important application of this corollary is when $A = K[X]$ and $B = E[X]$, where $K$ is a field and $E$ is an extension of $K$ (IV, p. 12, Cor. 1).
 
-The first assertion of Prop. 1 shows that the ordered group $\mathcal{P}^*$ is lattice ordered ($VI,$ p. 10). In particular every finite family of elements of $K$ admits an lcm. We can thus apply the results denoted (DIV) in $VI$, pp. 10 to 17 to principal ideal domains.
+The first assertion of Prop. 1 shows that the ordered group $\mathscr{P}^*$ is lattice ordered ($VI,$ p. 10). In particular every finite family of elements of $K$ admits an lcm. We can thus apply the results denoted (DIV) in $VI$, pp. 10 to 17 to principal ideal domains.
 
 The following result is a consequence of the second assertion of Prop. I :
 
@@ -132,7 +132,7 @@ $$
 
 where $u$ is an invertible element of $\mathbf{A}$, and where the $n_{\alpha}$ are integers, all but finitely many of which are zero. For $x$ to belong to $\mathbf{A}$ it is necessary and sufficient that all the $n_{\alpha}$ be positive.
 
-We will use the theorem about decomposition as a sum of irreducible elements (VI, p. 18, Th. 2), of which the above statement is only a translation. Since $\mathcal{P}^*$ is a lattice ordered group it will be sufficient for us to show that every nonempty set of principal ideals of $\mathbf{A}$ contains a maximal element, in order to check that the hypotheses of this theorem are indeed satisfied; now this follows from the next Lemma:
+We will use the theorem about decomposition as a sum of irreducible elements (VI, p. 18, Th. 2), of which the above statement is only a translation. Since $\mathscr{P}^*$ is a lattice ordered group it will be sufficient for us to show that every nonempty set of principal ideals of $\mathbf{A}$ contains a maximal element, in order to check that the hypotheses of this theorem are indeed satisfied; now this follows from the next Lemma:
 
 #### Lemma 1 {#alg-vii-s1-lem-1 .statement}
 
@@ -157,7 +157,7 @@ The property expressed by Th. 2 is true for a more general class of rings than p
 
 ### 4. Divisibility of rational integers
 
-As was pointed out in section 1, the ring $\mathbf{Z}$ of rational integers is a principal ideal domain; its field of fractions is $\mathbf{Q}$. The multiplicative group $U$ of invertible elements of $\mathbf{Z}$ has two elements 1 and $-1$. The group $Q_+^*$ of rational numbers $> 0$ contains precisely one element from each class of associate elements of $\mathbf{Q}$; it is thus isomorphic to the multiplicative group $\mathcal{P}^* = Q^*/U$ of principal fractional ideals of $\mathbf{Q}$, with which it is usually identified. In particular, whenever gcd or lcm is used in the field $\mathbf{Q}$ (with respect to the ring $\mathbf{Z}$), it is understood that these are elements $\geqslant 0$; this convention allows us to speak of the gcd and the lcm of a family of rational numbers.
+As was pointed out in section 1, the ring $\mathbf{Z}$ of rational integers is a principal ideal domain; its field of fractions is $\mathbf{Q}$. The multiplicative group $U$ of invertible elements of $\mathbf{Z}$ has two elements 1 and $-1$. The group $Q_+^*$ of rational numbers $> 0$ contains precisely one element from each class of associate elements of $\mathbf{Q}$; it is thus isomorphic to the multiplicative group $\mathscr{P}^* = Q^*/U$ of principal fractional ideals of $\mathbf{Q}$, with which it is usually identified. In particular, whenever gcd or lcm is used in the field $\mathbf{Q}$ (with respect to the ring $\mathbf{Z}$), it is understood that these are elements $\geqslant 0$; this convention allows us to speak of the gcd and the lcm of a family of rational numbers.
 
 The irreducible integers $> 0$ in $\mathbf{Z}$ are precisely those we have called prime numbers (I, p. 50) (they are sometimes called rational prime numbers); every irreducible element of $\mathbf{Z}$ is thus of the form $p$ or $-p$, where $p$ is a prime number, and the set $P$ of prime numbers is a system of representatives of irreducible elements of $\mathbf{Z}$.
 
@@ -172,7 +172,7 @@ Indeed, given an arbitrary finite family $(p_i)$ ($1 \leq i \leq n$) of distinct
 The polynomial ring $K[X]$ in one indeterminate over a commutative field $K$ is a principal ideal domain (IV, p. 11, Prop. 11). Its field of fractions is the field $K(X)$ of rational functions in $X$ with coefficients from $K$. The ring $K[X]$ contains the subring of polynomials of degree 0, that is the field of constants, which is identified with $K$; the elements of $K^*$ are invertible in $K$, and hence in $K[X]$; conversely the formula $\deg(uv) = \deg(u) + \deg(v)$ shows that every invertible polynomial has degree 0; the group $U$ of invertible elements of $K[X]$ is thus precisely $K^*$. Thus two associate polynomials differ only by a nonzero constant factor; in particular every class of associate polynomials contains a unique monic polynomial. The subgroup of the multiplicative group $K(X)^*$ generated by the monic polynomials thus contains a unique element from each class of associate rational functions, and consequently is isomorphic to the group
 
 $$
-\mathcal{P}^* = K(X)^*/U
+\mathscr{P}^* = K(X)^*/U
 $$
 
 of principal fractional ideals of $K(X)$. In particular, whenever gcd or lcm in the field $K(X)$ (with respect to the ring $K[X]$) is mentioned, it will usually be understood that these are quotients of monic polynomials (or 0); this convention allows us to speak of the gcd or the lcm of a family of rational functions.

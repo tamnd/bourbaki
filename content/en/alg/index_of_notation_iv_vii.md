@@ -13,7 +13,7 @@ pdf_pages: 0444-0445
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 3ca1e9d7e6930a337dee194860bc07b75dad4b6515fffff2d7cc81614072ccd6
+content_sha256: 061f854cc7156c98872071bae8b9a417af3d3094376c562063d673befa000479
 ---
 
 ## INDEX OF NOTATION
@@ -44,7 +44,7 @@ Map(M, N), Pol_A(M, N), Pol(M, N) : IV, p. 57.
 s_k, s_{k,n}, A[X_1, ..., X_n]^{\text{sym}} : IV, p. 61.
 $S(\alpha), M(\alpha)$ : IV, p. 65 and 66.
 s_k, A[[X]]^{\text{sym}} : IV, p. 67 and 68.
-$\mathcal{B}_k$ : IV, p. 70.
+$\mathscr{B}_k$ : IV, p. 70.
 M(f, g, p, q), res_{p,q}(f, g), res(f, g) : IV, p. 76.
 dis(f), f monic polynomial : IV, p. 81.
 dis_m(f), f polynomial of degree \leq m : IV, p. 83.
@@ -56,7 +56,7 @@ $K[S]$ : V, p. 4.
 $S^{p^{-f}}, A^{p^{-\infty}}$: V, p. 5 and 6.
 [A : K]: V, p. 10.
 K(x_i), K(x), K(x_1, ..., x_n): V, p. 10.
-h(L), [A : K], $\mathcal{H}(A)$: V, p. 31.
+h(L), [A : K], $\mathscr{H}(A)$: V, p. 31.
 $E_s$ : V, p. 44.
 $[E:K]_s, [E:K],$ : V, p. 31 and 46.
 $N_{A/K}(x), \mathrm{Tr}_{A/K}(x), D_{A/K}(x_1, ..., x_n)$ : V, p. 47.

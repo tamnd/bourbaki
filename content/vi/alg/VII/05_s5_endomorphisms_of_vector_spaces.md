@@ -50,7 +50,7 @@ subsections:
       pdf_page: 402
 statements: 63
 exercises: 14
-content_sha256: f3471b0d1b04ed05858d3252973260151edcc24175571bbe339b6129dffd7fbf
+content_sha256: 1ad5600867d8ea934686893828d84c3c5d79a264157358b9fc4f308eecac2a2d
 translated_from: content/en/alg/VII/05_s5_endomorphisms_of_vector_spaces.md
 source_content_sha256: d38ce52748be68ee166866fa84d36a43db5be6707be3eb6d063fae4baa77523d
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -540,12 +540,12 @@ Thật vậy đa thức tối tiểu chia hết đa thức đặc trưng.
 
 #### Mệnh đề 13 {#alg-vii-s5-prop-13 .statement}
 
-— Cho E là một không gian vectơ hữu hạn chiều trên một trường giao hoán K, cho $\mathcal{S}$ là một tập hợp các tự đồng cấu của E, và cho A là đại số con của $\mathrm{End}_K(E)$ sinh bởi $\mathcal{S}$ và $\mathrm{Id}_E$. Khi đó các điều kiện sau là tương đương:
-(i) $\mathcal{S}$ là chéo hóa được.
+— Cho E là một không gian vectơ hữu hạn chiều trên một trường giao hoán K, cho $\mathscr{S}$ là một tập hợp các tự đồng cấu của E, và cho A là đại số con của $\mathrm{End}_K(E)$ sinh bởi $\mathscr{S}$ và $\mathrm{Id}_E$. Khi đó các điều kiện sau là tương đương:
+(i) $\mathscr{S}$ là chéo hóa được.
 (ii) Đại số trên K A là chéo hóa được.
-(iii) Các phần tử của $\mathcal{S}$ là chéo hóa được và giao hoán với nhau.
+(iii) Các phần tử của $\mathscr{S}$ là chéo hóa được và giao hoán với nhau.
 
-Nếu $(e,)$ là một cơ sở của E sao cho $\mathcal{S}$ là đường chéo đối với cơ sở này, thì A được chứa trong đại số các tự đồng cấu đường chéo đối với cơ sở này, do đó cũng là chéo hóa được; nếu A là chéo hóa được, thì cùng một lập luận cho thấy rằng $\mathcal{S}$ là chéo hóa được. Điều này chứng minh sự tương đương của (i) và (ii). Vì hai ma trận đường chéo bất kỳ giao hoán với nhau, ta có (i) $\rightarrow$ (iii), và còn lại là chứng minh chiều đảo. Giả sử khi đó rằng các phần tử của $\mathcal{S}$ là chéo hóa được và giao hoán với nhau. Ta sẽ sử dụng bổ đề sau:
+Nếu $(e,)$ là một cơ sở của E sao cho $\mathscr{S}$ là đường chéo đối với cơ sở này, thì A được chứa trong đại số các tự đồng cấu đường chéo đối với cơ sở này, do đó cũng là chéo hóa được; nếu A là chéo hóa được, thì cùng một lập luận cho thấy rằng $\mathscr{S}$ là chéo hóa được. Điều này chứng minh sự tương đương của (i) và (ii). Vì hai ma trận đường chéo bất kỳ giao hoán với nhau, ta có (i) $\rightarrow$ (iii), và còn lại là chứng minh chiều đảo. Giả sử khi đó rằng các phần tử của $\mathscr{S}$ là chéo hóa được và giao hoán với nhau. Ta sẽ sử dụng bổ đề sau:
 
 #### Bổ đề 3 {#alg-vii-s5-lem-3 .statement}
 
@@ -557,7 +557,7 @@ gh \cdot x = hg \cdot x = h \cdot \lambda x = \lambda h \cdot x ,
 $$
 điều này nói rằng $h \cdot x \in W_\lambda$.
 
-Bây giờ ta trở lại chứng minh của Mệnh đề 13. Trong tất cả các phân tích của E thành tổng trực tiếp của các không gian con khác không, mỗi không gian con được đóng dưới tất cả các phần tử của $\mathcal{S}$, hãy chọn một phân tích có số thành phần lớn nhất (chiều của E là một cận trên cho số này), ký hiệu $E = \sum_{i \in I} E_i$. Cho $u \in \mathcal{S}$ và cho $E = \sum V_\alpha$ là phân tích của E thành tổng trực tiếp của các không gian riêng của $u$. Theo Bổ đề 3, mỗi $V_\alpha$ được đóng dưới $\mathcal{S}$, và do đó mỗi $V_i \cap E_i$ cũng vậy; theo Mệnh đề 12 mỗi $E_i$ là tổng trực tiếp của các $V_i \cap E_i$. Sự lựa chọn các $E_i$ do đó buộc mỗi $E_i$ được chứa trong một trong các $V_\alpha$; do đó hạn chế của $u$ trên mỗi $E_i$ là một phép vị tự. Vì điều này đúng với mọi phần tử của $\mathcal{S}$, suy ra rằng $\mathcal{S}$ là chéo hóa được.
+Bây giờ ta trở lại chứng minh của Mệnh đề 13. Trong tất cả các phân tích của E thành tổng trực tiếp của các không gian con khác không, mỗi không gian con được đóng dưới tất cả các phần tử của $\mathscr{S}$, hãy chọn một phân tích có số thành phần lớn nhất (chiều của E là một cận trên cho số này), ký hiệu $E = \sum_{i \in I} E_i$. Cho $u \in \mathscr{S}$ và cho $E = \sum V_\alpha$ là phân tích của E thành tổng trực tiếp của các không gian riêng của $u$. Theo Bổ đề 3, mỗi $V_\alpha$ được đóng dưới $\mathscr{S}$, và do đó mỗi $V_i \cap E_i$ cũng vậy; theo Mệnh đề 12 mỗi $E_i$ là tổng trực tiếp của các $V_i \cap E_i$. Sự lựa chọn các $E_i$ do đó buộc mỗi $E_i$ được chứa trong một trong các $V_\alpha$; do đó hạn chế của $u$ trên mỗi $E_i$ là một phép vị tự. Vì điều này đúng với mọi phần tử của $\mathscr{S}$, suy ra rằng $\mathscr{S}$ là chéo hóa được.
 
 #### Hệ quả {#alg-vii-s5-n7-cor-2 .statement}
 
@@ -730,11 +730,11 @@ và $\chi_u = \chi_U = \chi_{U'}\chi_{U''} = \chi_{u'}\chi_{u''}$ (xem III, p. 5
 
 #### Mệnh đề 19 {#alg-vii-s5-prop-19 .statement}
 
-— *Cho E là một không gian vectơ hữu hạn chiều trên một trường giao hoán K, và cho $\mathcal{S}$ là một tập hợp các tự đồng cấu tam giác hoá được giao hoán của E. Khi đó tồn tại một cơ sở của E sao cho, đối với cơ sở đó, ma trận của mỗi phần tử u của $\mathcal{S}$ là tam giác dưới và ma trận của $u_s$ là đường chéo, với cùng các phần tử đường chéo như của u.*
+— *Cho E là một không gian vectơ hữu hạn chiều trên một trường giao hoán K, và cho $\mathscr{S}$ là một tập hợp các tự đồng cấu tam giác hoá được giao hoán của E. Khi đó tồn tại một cơ sở của E sao cho, đối với cơ sở đó, ma trận của mỗi phần tử u của $\mathscr{S}$ là tam giác dưới và ma trận của $u_s$ là đường chéo, với cùng các phần tử đường chéo như của u.*
 
-Theo Hệ quả 3 của VII, p. 4.5, tập hợp $\mathfrak{T}_s$ các thành phần nửa đơn tuyệt đối của các phần tử của $\mathfrak{T}$ gồm các phần tử chéo hoá được giao hoán với nhau, do đó là chéo hoá được (VII, p. 41, Mệnh đề 13), tập hợp $\mathfrak{T}_n$ các thành phần lũy linh của các phần tử của $\mathcal{S}$ gồm các phần tử lũy linh giao hoán với nhau, và mỗi phần tử của $\mathfrak{T}_n$ giao hoán với mỗi phần tử của $\mathfrak{T}_s$. Lập luận như trong chứng minh của Mệnh đề 13 (VII, p. 41), ta thấy rằng tồn tại một phân tích của E thành tổng trực tiếp của các không gian con $E_i$, bất biến đối với $\mathfrak{T}_s$ và $\mathfrak{T}_n$, và sao cho hạn chế của mỗi phần tử của $\mathcal{S}$, trên mỗi $E$, là một phép vị tự. Thay thế $E$ lần lượt bởi mỗi $E$, ta có thể giả sử rằng các phần tử của $\mathcal{S}$, là các phép vị tự; chỉ cần chứng minh rằng tồn tại một cơ sở của E sao cho các phần tử của $\mathfrak{T}_n$ được biểu diễn bởi các ma trận tam giác dưới với đường chéo không; do đó ta quy về trường hợp $\mathcal{S}$ gồm các phần tử lũy linh.
+Theo Hệ quả 3 của VII, p. 4.5, tập hợp $\mathfrak{T}_s$ các thành phần nửa đơn tuyệt đối của các phần tử của $\mathfrak{T}$ gồm các phần tử chéo hoá được giao hoán với nhau, do đó là chéo hoá được (VII, p. 41, Mệnh đề 13), tập hợp $\mathfrak{T}_n$ các thành phần lũy linh của các phần tử của $\mathscr{S}$ gồm các phần tử lũy linh giao hoán với nhau, và mỗi phần tử của $\mathfrak{T}_n$ giao hoán với mỗi phần tử của $\mathfrak{T}_s$. Lập luận như trong chứng minh của Mệnh đề 13 (VII, p. 41), ta thấy rằng tồn tại một phân tích của E thành tổng trực tiếp của các không gian con $E_i$, bất biến đối với $\mathfrak{T}_s$ và $\mathfrak{T}_n$, và sao cho hạn chế của mỗi phần tử của $\mathscr{S}$, trên mỗi $E$, là một phép vị tự. Thay thế $E$ lần lượt bởi mỗi $E$, ta có thể giả sử rằng các phần tử của $\mathscr{S}$, là các phép vị tự; chỉ cần chứng minh rằng tồn tại một cơ sở của E sao cho các phần tử của $\mathfrak{T}_n$ được biểu diễn bởi các ma trận tam giác dưới với đường chéo không; do đó ta quy về trường hợp $\mathscr{S}$ gồm các phần tử lũy linh.
 
-Bây giờ giả sử $E \neq 0$, và cho F là một không gian con khác không của $E$, bất biến dưới $\mathfrak{T}$, có chiều nhỏ nhất. Khi đó với mỗi $u \in \mathfrak{T}$, hạt nhân của hạn chế của $u$ lên F là khác không và bất biến dưới $\mathfrak{T}$ (VII, p. 41, Bổ đề 3); theo lựa chọn F, hạn chế của $u$ lên F do đó bằng không với mọi $u \in \mathfrak{T}$. Cho $x \in F,\ x \neq 0$; khi đó $u(x) = 0$ với mọi $u \in \mathcal{S}$; bằng quy nạp theo chiều của E, ta có thể giả sử rằng tồn tại một cơ sở $(\bar{e}_1, ..., \bar{e}_{n-1})$ của không gian thương $E' = E/Kx$ sao cho, với mọi $u \in \mathfrak{T}$, tự đồng cấu $\bar{u}$ của $E'$ cảm sinh bởi $u$ có một ma trận đối với cơ sở này là tam giác dưới với đường chéo bằng không; nếu $e_i \in E$ chiếu lên a, với $i = 1, ..., n-1$, thì cơ sở $(e_1, ..., e_{n-1}, x)$ thỏa mãn các điều kiện yêu cầu.
+Bây giờ giả sử $E \neq 0$, và cho F là một không gian con khác không của $E$, bất biến dưới $\mathfrak{T}$, có chiều nhỏ nhất. Khi đó với mỗi $u \in \mathfrak{T}$, hạt nhân của hạn chế của $u$ lên F là khác không và bất biến dưới $\mathfrak{T}$ (VII, p. 41, Bổ đề 3); theo lựa chọn F, hạn chế của $u$ lên F do đó bằng không với mọi $u \in \mathfrak{T}$. Cho $x \in F,\ x \neq 0$; khi đó $u(x) = 0$ với mọi $u \in \mathscr{S}$; bằng quy nạp theo chiều của E, ta có thể giả sử rằng tồn tại một cơ sở $(\bar{e}_1, ..., \bar{e}_{n-1})$ của không gian thương $E' = E/Kx$ sao cho, với mọi $u \in \mathfrak{T}$, tự đồng cấu $\bar{u}$ của $E'$ cảm sinh bởi $u$ có một ma trận đối với cơ sở này là tam giác dưới với đường chéo bằng không; nếu $e_i \in E$ chiếu lên a, với $i = 1, ..., n-1$, thì cơ sở $(e_1, ..., e_{n-1}, x)$ thỏa mãn các điều kiện yêu cầu.
 
 Exercises
 

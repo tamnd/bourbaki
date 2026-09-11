@@ -36,7 +36,7 @@ chapters:
           statements: 30
           exercises: 5
           extraction: ocr
-          content_sha256: 78a1c956c17e8c6954812712d02a47970dfa87cf440c161f1bac0e40ebfcd00f
+          content_sha256: b8b80d9898f9cf21392fb6f0bb0bbc23767e2fcb884e61793b42fec1a38a96d4
         - kind: section
           section: 2
           title: Zeros of polynomials
@@ -75,7 +75,7 @@ chapters:
           statements: 23
           exercises: 8
           extraction: ocr
-          content_sha256: 1ae2452e09c6aae656d15e99ae783f3b775e219c73ee5639bef38a58f20ea3cb
+          content_sha256: 97abd39154e8116dbd7036aeda3b726bb4c49fc23082a657e7c8c9ba4f4f0f02
         - kind: section
           section: 5
           title: Symmetric tensors and polynomial mappings
@@ -88,7 +88,7 @@ chapters:
           statements: 41
           exercises: 16
           extraction: ocr
-          content_sha256: 51f13a5580b2e2351bd4779c2123e3ce1e7e21872b1d3d653856b766108511cf
+          content_sha256: f47f4b9cf4a7294de2542ded6f6bf6387062aeb864268807c570804ae0d539bb
         - kind: section
           section: 6
           title: Symmetric functions
@@ -101,7 +101,7 @@ chapters:
           statements: 43
           exercises: 12
           extraction: ocr
-          content_sha256: 66d5b546694854d26bf604a12708aa73db5a74ae8a57a81ea44881ad8cc99f4c
+          content_sha256: d8efcc08bfe9d3491c2c0f0dc26b32418d3c6a63d8ced19164e7875914007cb1
     - chapter: V
       title: COMMUTATIVE FIELDS
       sections:
@@ -139,7 +139,7 @@ chapters:
           statements: 19
           exercises: 4
           extraction: ocr
-          content_sha256: f5ab5e04d3eb0e0fa7469ebb3e3437d16a597eaa2e4cb424a810b0ba52fe9011
+          content_sha256: 09cba64f2578226807f14f1ac7820f2dc2a012899df8f1b95971dbe87135f71b
         - kind: section
           section: 3
           title: Algebraic extensions
@@ -191,7 +191,7 @@ chapters:
           statements: 22
           exercises: 2
           extraction: ocr
-          content_sha256: 1c0ff6eab8a369a6cc0ba7a81f2a00f665a45cec046137d9abeebe3c7a4842b7
+          content_sha256: e670b4dd83c9bc46bd6f7c58972d023f4c6f04736f4be78ca1443a9c27857fd0
         - kind: section
           section: 7
           title: Separable algebraic extensions
@@ -243,7 +243,7 @@ chapters:
           statements: 49
           exercises: 23
           extraction: ocr
-          content_sha256: 1951a382ea0abf06806d7fc373c368decf9961b78978e229e615903b12278ed4
+          content_sha256: 1bd3bcbbec124c4730c75c90bb6dee375cff9fd7993676e0bee4491243019efd
         - kind: section
           section: 11
           title: Abelian extensions
@@ -256,7 +256,7 @@ chapters:
           statements: 45
           exercises: 23
           extraction: ocr
-          content_sha256: eaa826bc9a37a72bf6f16905e7367e09dee16967336ee35e8c2913ec5a31d9d0
+          content_sha256: 8023a6f85abe8852bcad1698cef3120cc4c2d381bfe10b702f412bae1976458d
         - kind: section
           section: 12
           title: Finite fields
@@ -282,7 +282,7 @@ chapters:
           statements: 21
           exercises: 6
           extraction: ocr
-          content_sha256: 2e86155015b6398452126421acca82c8b97152bd71e23dcc83bf4cd83ef2aabb
+          content_sha256: 919da70d2816cf67fbcdc62af1b32659189ff776273e42b53f86573e4471cd39
         - kind: section
           section: 14
           title: Transcendental extensions
@@ -334,7 +334,7 @@ chapters:
           statements: 20
           exercises: 5
           extraction: ocr
-          content_sha256: 0970c4aa41158ef33231d08b21a0ce6a9b85ee1660b0f424d771a6b9760e1253
+          content_sha256: 1c4cb5cb0d3cdf74638b2b9d83f632710263ccc2f6f485a362711f2198471fb5
         - kind: historical
           title: Historical Note
           path: content/en/alg/V/historical_note.md
@@ -369,7 +369,7 @@ chapters:
           statements: 53
           exercises: 36
           extraction: ocr
-          content_sha256: 45ea8a5517b0127a37e1be405e3a76dfd0eb57ebebc488e6233af177c1bfd38c
+          content_sha256: 543b0f8166310a925c67adda31939b3ce4aaad06cdecb22ecd1ead9aff696009
         - kind: section
           section: 2
           title: Ordered fields
@@ -382,7 +382,7 @@ chapters:
           statements: 33
           exercises: 41
           extraction: ocr
-          content_sha256: adc51298a55c9801428cc2053528e349dbe7b461889119285aefa5f90ba1837a
+          content_sha256: 085bdbaa158b3451b1406ac74b0dc1768d25be4112fb7e750530e7530abbe3da
     - chapter: VII
       title: MODULES OVER PRINCIPAL IDEAL DOMAINS
       sections:
@@ -407,7 +407,7 @@ chapters:
           statements: 15
           exercises: 15
           extraction: ocr
-          content_sha256: d2178e31c081e0480a4d4b238d5f836620d03ea14b805f7aa3091d47b48f145d
+          content_sha256: 0050bfc3f4dbfbdb2e52eb4c6a6132f3b0e2feca0cb54735e5fef0922a664345
         - kind: section
           section: 2
           title: Torsion modules over a principal ideal domain
@@ -420,7 +420,7 @@ chapters:
           statements: 22
           exercises: 15
           extraction: ocr
-          content_sha256: b73a5f55a0428c0bfdc4c56f769d57b1fd5438c4b81624e9f5d24d90a72de89f
+          content_sha256: 18b16f95020a8a741d96574eaeeb64be1473fe323bf1aaba2c7e0f2b696c695b
         - kind: section
           section: 3
           title: Free modules over a principal ideal domain
@@ -459,7 +459,7 @@ chapters:
           statements: 66
           exercises: 14
           extraction: ocr
-          content_sha256: 401598d42054d38d5ca36d56ed424c7580ad8d37583d5454e8faf96bc8dcb0ab
+          content_sha256: 4acd72c67112f3a7bbd23a118fc3d1180057562951881475f19ac71ab5edea04
         - kind: historical
           title: Historical Note
           path: content/en/alg/VII/historical_note.md

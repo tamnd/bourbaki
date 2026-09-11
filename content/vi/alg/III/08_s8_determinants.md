@@ -57,7 +57,7 @@ subsections:
       pdf_page: 564
 statements: 36
 exercises: 26
-content_sha256: dfc9904116578fb1b8f108e3aa37e38eb3b713789c01dbec29bb736f00207691
+content_sha256: 269f13105090b9239203a014ce9a80a7b96893ebb5af470edd42aedba5194d33
 translated_from: content/en/alg/III/08_s8_determinants.md
 source_content_sha256: da71ef2a4eba72daedbf68293924b26a3111360474a947e52b32b6bd9d0a572c
 translation_model: gpt-5-6-mini, gpt-5-mini
@@ -309,10 +309,10 @@ $$
 Với ký hiệu của Bổ đề 1, so sánh các công thức (10) và (12) cho
 
 $$
-x_1 \wedge x_2 \wedge \cdots \wedge x_p = \sum_{H \in \mathcal{F}_p(J)} \det(x_{H,1}, x_{H,2}, \ldots, x_{H,p}) e_H
+x_1 \wedge x_2 \wedge \cdots \wedge x_p = \sum_{H \in \mathscr{F}_p(J)} \det(x_{H,1}, x_{H,2}, \ldots, x_{H,p}) e_H
 $$
 
-trong đó $\mathcal{F}_p(J)$ là tập hợp các tập con của $J$ có $p$ phần tử và, với mọi tập con $H \in \mathcal{F}_p(J)$, ta viết $x_{H,i} = \sum_{j \in H} \xi_{ji} e_j$ và $e_H = e_{j_1} \wedge e_{j_2} \wedge \cdots \wedge e_{j_p}$, $(j_k)_{1 \leq k \leq p}$ là dãy các phần tử của $H$ được sắp theo thứ tự tăng, với quy ước rằng $\det(x_{H,1}, \ldots, x_{H,p})$ được lấy đối với cơ sở $(e_{jk})_{1 \leq k \leq p}$.
+trong đó $\mathscr{F}_p(J)$ là tập hợp các tập con của $J$ có $p$ phần tử và, với mọi tập con $H \in \mathscr{F}_p(J)$, ta viết $x_{H,i} = \sum_{j \in H} \xi_{ji} e_j$ và $e_H = e_{j_1} \wedge e_{j_2} \wedge \cdots \wedge e_{j_p}$, $(j_k)_{1 \leq k \leq p}$ là dãy các phần tử của $H$ được sắp theo thứ tự tăng, với quy ước rằng $\det(x_{H,1}, \ldots, x_{H,p})$ được lấy đối với cơ sở $(e_{jk})_{1 \leq k \leq p}$.
 
 #### Mệnh đề 7 {#alg-iii-s8-prop-7 .statement}
 
@@ -494,12 +494,12 @@ $$
 (20) \quad (\wedge^q(u)(e_H)) \wedge (\wedge^{n-q}(u)(e_K)) = \sum_R \rho_{R, R'} \det(X_{R, H}) \det(X_{R', K}) e_I
 $$
 
-trong đó $R$ chạy qua tập hợp $\mathcal{F}_q(I)$ gồm các tập con của $I$ có $q$ phần tử.
+trong đó $R$ chạy qua tập hợp $\mathscr{F}_q(I)$ gồm các tập con của $I$ có $q$ phần tử.
 
 Nếu lấy $K = H'$, từ định nghĩa của $\wedge^n(u)$ (§ 7, no. 2, công thức (4)) và $§ 7$, no. 3, Hệ quả 1 của Mệnh đề 5 suy ra vế phải của (20) là $\rho_{H, H'} \wedge^n(u)(e_I)$. Do đó (no. 1, công thức (1) và $§ 7$, no. 2, công thức (4))
 
 $$
-(21) \quad \det(X) = \rho_{H, H'} \sum_{R \in \mathcal{F}_q; R' \neq R} \rho_{R, R'} \det(X_{R, H}) \det(X_{R', H'}).
+(21) \quad \det(X) = \rho_{H, H'} \sum_{R \in \mathscr{F}_q; R' \neq R} \rho_{R, R'} \det(X_{R, H}) \det(X_{R', H'}).
 $$
 
 Mặt khác, nếu $K \neq H'$, thì $H \cap K \neq \varnothing$; vì vế trái của (20) là $\pm \wedge^n(u)(e_H \wedge e_K)$, nên nó bằng không, do đó

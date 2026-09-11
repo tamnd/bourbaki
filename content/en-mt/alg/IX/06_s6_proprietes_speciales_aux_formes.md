@@ -36,11 +36,11 @@ subsections:
       pdf_page: 98
 statements: 17
 exercises: 0
-content_sha256: 0a78bb4f9097987044d8c3ed41f08dfb8b84d8c4686fda2d034f7fc2795186ac
+content_sha256: af4e5b341bf764c4e7348301ffe17124285c8e5d72b873990f56aed558591993
 translated_from: content/fr/alg/IX/06_s6_proprietes_speciales_aux_formes.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 47f1f659ab524c37f71e815f6a42017440fa35076b74ec187bcb8b0be0c99277
+source_content_sha256: 64c120cd8fea231fd01df69e4b0842413cd496d71f9958164a6a57198bd868df
 translation_model: gpt-5-6-mini
 translation_run: translate-en-mt-bddeeb87
 glossary_version: 34
@@ -192,7 +192,7 @@ Throughout this No., we suppose that the scalar 2 is invertible in $A$ (for exam
 
 For an endomorphism $u$ of $E$ to be such that $u^2 = 1$, it is necessary and sufficient that $\frac{1}{2}(1 - u)$ be a projector in $E$; then $u$ is the difference of the two projectors $\frac{1}{2}(1 + u)$ and $\frac{1}{2}(1 - u)$.
 
-Indeed, in the ring $\mathcal{L}(E)$, the relation $\left( \frac{1}{2}(1 - u) \right)^2 = \frac{1}{2}(1 - u)$ is equivalent to $u^2 = 1$. The rest is trivial.
+Indeed, in the ring $\mathscr{L}(E)$, the relation $\left( \frac{1}{2}(1 - u) \right)^2 = \frac{1}{2}(1 - u)$ is equivalent to $u^2 = 1$. The rest is trivial.
 
 An endomorphism $u$ of $E$ such that $u^2 = 1$ (which is then necessarily an automorphism of $E$ equal to its inverse) is called an involution. Put $\varphi = \frac{1}{2}(1 - u)$, $U^- = \varphi(E)$, $U^+ = \varphi^{-1}(0)$ ($= \omega(E)$ on putting $\omega = \frac{1}{2}(1 + u)$); it is known that $E$ is the direct sum of $U^+$ and $U^-$ (Chap. VIII, § 1, No. 1), and we have $u(x) = x$ in $U^+$, $u(x) = -x$ in $U^-$. When $A$ is a field and $E$ is finite-dimensional, it follows, since $A$ is of characteristic $\neq 2$, that the only eigenvectors $\neq 0$ of $u$ are the elements ≠ 0 in U^+ or in U^-; they correspond respectively to the eigenvalues + 1 and -1.
 

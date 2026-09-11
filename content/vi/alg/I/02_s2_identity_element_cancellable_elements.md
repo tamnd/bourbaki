@@ -45,9 +45,9 @@ subsections:
       pdf_page: 47
 statements: 25
 exercises: 17
-content_sha256: 67b5e6d2a424bbd2d2ecd6557887a91d89f3a03f640ad3c934bf8ca7fddbfe50
+content_sha256: 9b987003a7cac544c0b60178a4e27238fad106dee72ef03edb7310e1cbe8c373
 translated_from: content/en/alg/I/02_s2_identity_element_cancellable_elements.md
-source_content_sha256: 14262eeea309ef0eeb9e6269c13480b3d9f7d00e819290b8524e10ac95ff8282
+source_content_sha256: ea4324c278765be303f76b877f875161c0b03258af35442379758f5aace5c86f
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-f1e6c316
 glossary_version: 34
@@ -264,13 +264,13 @@ Cho E là một monoid giao hoán, S là một tập con của E và S' là mono
 
 #### Bổ đề 1 {#alg-i-s2-lem-1 .statement}
 
-Trong E $\times$ S', quan hệ R$\mathcal{R}$x, y$\mathcal{R}$ được xác định bởi:
+Trong E $\times$ S', quan hệ R$\mathscr{R}$x, y$\mathscr{R}$ được xác định bởi:
 
 "tồn tại $a, b \in E$ và $p, q, s \in S'$ sao cho $x = (a, p), y = (b, q)$ và $aqs = bps$"
 
 là một quan hệ tương đương tương thích với luật trên monoid tích E $\times$ S'.
 
-Hiển nhiên là R có tính phản xạ và đối xứng. Cho $x = (a, p), y = (b, q)$ và $z = (c, r)$ là các phần tử của E $\times$ S' sao cho R$\mathcal{R}$x, y$\mathcal{R}$ và R$\mathcal{R}$y, z$\mathcal{R}$ đúng. Khi đó tồn tại hai phần tử s và t của S' sao cho
+Hiển nhiên là R có tính phản xạ và đối xứng. Cho $x = (a, p), y = (b, q)$ và $z = (c, r)$ là các phần tử của E $\times$ S' sao cho R$\mathscr{R}$x, y$\mathscr{R}$ và R$\mathscr{R}$y, z$\mathscr{R}$ đúng. Khi đó tồn tại hai phần tử s và t của S' sao cho
 $$
 aq s = bps, \quad br t = cqt,
 $$

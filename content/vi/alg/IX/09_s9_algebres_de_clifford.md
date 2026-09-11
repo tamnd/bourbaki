@@ -32,11 +32,11 @@ subsections:
       pdf_page: 148
 statements: 24
 exercises: 0
-content_sha256: ee2d1a682ff713a4454555f5034513e6261d1632c48f8b019209328165737a4b
+content_sha256: 798420593ecc49aa273cf857143e3c7eb0710dd352c94f8a20672506dcba6670
 translated_from: content/en-mt/alg/IX/09_s9_algebres_de_clifford.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 355af7c8ef8453df16903a634621da0925a1f8d1741b4a808ddc188a9e4815d8
+source_content_sha256: 2eec79ce1854d5e89cbac10ff43f6e7ad9d809e0fb77e832fb5ea748a108d58f
 translation_model: gpt-5.4
 translation_run: translate-vi-35f4c7df
 glossary_version: 34
@@ -118,7 +118,7 @@ $$
 i_f \circ e_x + e_x \circ i_f = f(x).I \tag{5}
 $$
 với mọi $x \in E$
-(trong đó I ký hiệu ánh xạ đồng nhất). Ánh xạ $f \to i_f$ từ $E^*$ vào $\mathcal{L}(T(E))$ là tuyến tính. Ta có $i_f(T^n) \subset T^{n-1}$, $(i_f)^2 = 0$, và $i_f \circ i_g + i_g \circ i_f = 0$ với $f, g$ trong $E^*$. Ánh xạ $i_f$ bằng không trên đại số con của
+(trong đó I ký hiệu ánh xạ đồng nhất). Ánh xạ $f \to i_f$ từ $E^*$ vào $\mathscr{L}(T(E))$ là tuyến tính. Ta có $i_f(T^n) \subset T^{n-1}$, $(i_f)^2 = 0$, và $i_f \circ i_g + i_g \circ i_f = 0$ với $f, g$ trong $E^*$. Ánh xạ $i_f$ bằng không trên đại số con của
 
 T(E) sinh bởi hạt nhân của f. Iđêan I(Q) ổn định dưới $i_f$; chuyển qua thương, do đó $i_f$ xác định một ánh xạ tuyến tính (vẫn ký hiệu bởi $i_f$) từ $C(Q)$ vào chính nó.
 
@@ -301,19 +301,19 @@ $$
 e'_n \circ i_p + i_p \circ e'_n = \Phi(n, p) \qquad (n \in \mathbf{N}, \ p \in \mathbf{P}).
 $$
 
-Đặt, với $x = n + p \in E$ (với $n \in \mathbf{N}$ và $p \in \mathbf{P}$), $s(x) = e'_n + i_p$. Hiển nhiên s là một ánh xạ tuyến tính từ E vào $\mathcal{L}(S)$. Vì ta có
+Đặt, với $x = n + p \in E$ (với $n \in \mathbf{N}$ và $p \in \mathbf{P}$), $s(x) = e'_n + i_p$. Hiển nhiên s là một ánh xạ tuyến tính từ E vào $\mathscr{L}(S)$. Vì ta có
 $$
 s(x)^2 = (e'_n + i_p)^2 = Q(n) + \Phi(n, p) = Q(x)
 $$
-theo (12) và bổ đề 1 (số 2), s mở rộng thành một đồng cấu (mà ta vẫn sẽ ký hiệu là s) từ C(Q) vào $\mathcal{L}(S)$ (no. 1, mệnh đề 1). Bây giờ ta chứng minh rằng đồng cấu này là toàn ánh; điều này, vì C(Q) và $\mathcal{L}(S)$ đều có chiều $2^{2r}$, sẽ suy ra rằng s là một đẳng cấu và sẽ chứng minh mệnh đề thứ nhất của ta.
+theo (12) và bổ đề 1 (số 2), s mở rộng thành một đồng cấu (mà ta vẫn sẽ ký hiệu là s) từ C(Q) vào $\mathscr{L}(S)$ (no. 1, mệnh đề 1). Bây giờ ta chứng minh rằng đồng cấu này là toàn ánh; điều này, vì C(Q) và $\mathscr{L}(S)$ đều có chiều $2^{2r}$, sẽ suy ra rằng s là một đẳng cấu và sẽ chứng minh mệnh đề thứ nhất của ta.
 
-Thật vậy, gọi $I$ là khoảng $[1, r]$. Với mọi tập con H của I, đặt $H' = I - H$ và ký hiệu bởi $n_H$ (tương ứng $p_H$) tích của các $n_i$ (tương ứng $p_i$) với $i \in H$, được sắp theo thứ tự tăng của các chỉ số. Nhớ rằng các $n_H$ tạo thành một cơ sở của S (No. 3, Định lý 1). Cuối cùng, với mọi hai tập con H, K của I, đặt $x_{H, K} = n_H p_I n_K$. Bây giờ chúng ta sẽ chứng minh rằng các phần tử $s(x_{H, K})$ của $s(C(Q))$ sinh ra $\mathcal{L}(S)$. Thật vậy, nếu $j \notin H$, ta có $s(p_j)(n_H) = i_{p_j}(n_H) = 0$ theo Bổ đề 1, vì các $n_i$ với $i \in H$ thuộc hạt nhân của dạng tuyến tính $n \to \Phi(n, p_j)$ trên N; mặt khác, ta có
+Thật vậy, gọi $I$ là khoảng $[1, r]$. Với mọi tập con H của I, đặt $H' = I - H$ và ký hiệu bởi $n_H$ (tương ứng $p_H$) tích của các $n_i$ (tương ứng $p_i$) với $i \in H$, được sắp theo thứ tự tăng của các chỉ số. Nhớ rằng các $n_H$ tạo thành một cơ sở của S (No. 3, Định lý 1). Cuối cùng, với mọi hai tập con H, K của I, đặt $x_{H, K} = n_H p_I n_K$. Bây giờ chúng ta sẽ chứng minh rằng các phần tử $s(x_{H, K})$ của $s(C(Q))$ sinh ra $\mathscr{L}(S)$. Thật vậy, nếu $j \notin H$, ta có $s(p_j)(n_H) = i_{p_j}(n_H) = 0$ theo Bổ đề 1, vì các $n_i$ với $i \in H$ thuộc hạt nhân của dạng tuyến tính $n \to \Phi(n, p_j)$ trên N; mặt khác, ta có
 $$
 s(p_j)(n_j n_H) = (i_{p_j} \circ e'_{n_j})(n_H) = \Phi(p_j, n_j)n_H - n_j \cdot s(p_j)(n_H) = n_H
 $$
-(theo (12)). Vì s là một đồng cấu, do đó suy ra rằng, với mọi hai tập con H, K của I, $s(p_K)(n_H) = 0$ nếu $K \not\subset H$, và $s(p_K)(n_H) = \pm n_{H-K}$ nếu $K \subset H$. Vì, với $M \subset I$ và $L \subset I$, theo định nghĩa $s(n_M)(n_L) = n_M n_L$, và $n_M n_L$ bằng không nếu $M \cap L \neq \emptyset$ và bằng $\pm n_{M \cup L}$ trong trường hợp ngược lại, nên từ điều trên suy ra rằng, với mọi tập con $H, K, L$ của $I$, $s(x_{H,K})(n_L) = s(n_H)s(p_I)s(n_{K'}) (n_L)$ bằng không nếu $K \neq L$ và bằng $\pm n_H$ nếu $K = L$. Điều này cho thấy rằng các $s(x_{H,K})$ sinh ra $\mathcal{L}(S)$ và hoàn tất chứng minh của mệnh đề thứ nhất.
+(theo (12)). Vì s là một đồng cấu, do đó suy ra rằng, với mọi hai tập con H, K của I, $s(p_K)(n_H) = 0$ nếu $K \not\subset H$, và $s(p_K)(n_H) = \pm n_{H-K}$ nếu $K \subset H$. Vì, với $M \subset I$ và $L \subset I$, theo định nghĩa $s(n_M)(n_L) = n_M n_L$, và $n_M n_L$ bằng không nếu $M \cap L \neq \emptyset$ và bằng $\pm n_{M \cup L}$ trong trường hợp ngược lại, nên từ điều trên suy ra rằng, với mọi tập con $H, K, L$ của $I$, $s(x_{H,K})(n_L) = s(n_H)s(p_I)s(n_{K'}) (n_L)$ bằng không nếu $K \neq L$ và bằng $\pm n_H$ nếu $K = L$. Điều này cho thấy rằng các $s(x_{H,K})$ sinh ra $\mathscr{L}(S)$ và hoàn tất chứng minh của mệnh đề thứ nhất.
 
-Để chứng minh mệnh đề thứ hai, đặt $S^+ = S \cap C^+$ và $S^- = S \cap C^-$; hiển nhiên $S^+$ (tương ứng $S^-$) là không gian con của S được sinh bởi các $n_H$ sao cho H có một số chẵn (tương ứng lẻ) phần tử, rằng S là tổng trực tiếp của $S^+$ và $S^-$, và rằng $s(C^+)$ giữ cho $S^+$ và $S^-$ ổn định. Do đó $s$ ánh xạ $C^+$ vào một đại số con của $\mathcal{L}(S)$, đẳng cấu với tích $\mathcal{L}(S^+) \times \mathcal{L}(S^-)$; hạn chế của $s$ lên $C^+$ là một đẳng cấu từ $C^+$ lên đại số con này, vì $s$ là đơn ánh và $C^+$ và $\mathcal{L}(S^+) \times \mathcal{L}(S^-)$ đều có chiều $2^{2r-1}$ (No. 2, Hệ quả 1 của Định lý 1). QED.
+Để chứng minh mệnh đề thứ hai, đặt $S^+ = S \cap C^+$ và $S^- = S \cap C^-$; hiển nhiên $S^+$ (tương ứng $S^-$) là không gian con của S được sinh bởi các $n_H$ sao cho H có một số chẵn (tương ứng lẻ) phần tử, rằng S là tổng trực tiếp của $S^+$ và $S^-$, và rằng $s(C^+)$ giữ cho $S^+$ và $S^-$ ổn định. Do đó $s$ ánh xạ $C^+$ vào một đại số con của $\mathscr{L}(S)$, đẳng cấu với tích $\mathscr{L}(S^+) \times \mathscr{L}(S^-)$; hạn chế của $s$ lên $C^+$ là một đẳng cấu từ $C^+$ lên đại số con này, vì $s$ là đơn ánh và $C^+$ và $\mathscr{L}(S^+) \times \mathscr{L}(S^-)$ đều có chiều $2^{2r-1}$ (No. 2, Hệ quả 1 của Định lý 1). QED.
 
 #### Hệ quả {#alg-ix-s9-n4-cor-1 .statement}
 
@@ -493,7 +493,7 @@ e) Cho $u \in \mathbf{O}(Q)$, và giả sử $\Lambda$ đóng đại số. Hãy 
 
 $§ 10$ Ta giả sử rằng $A$ là một trường, $E$ là một không gian vectơ hữu hạn chiều, $Q$ là một dạng toàn phương suy biến trên $E$; gọi $M$ là một không gian con bù của $E^0$ trong $E$, $B$ là đại số Clifford (nửa đơn) của hạn chế của $Q$ lên $M$.
 
-a) Trước hết giả sử rằng $A$ có đặc số $\neq 2$. Gọi $L$ là đại số Clifford của hạn chế của $Q$ lên $E^0$ (đẳng cấu với $\wedge E^0$), $\mathcal{R}_0$ là căn của nó (iđêan sinh trong $L$ bởi $E^0$, và có đối chiều 1 trong $L$); hãy chứng minh rằng căn $\mathcal{R}$ của $C(Q)$ thu được (lên đến một đẳng cấu) bằng cách xác định cấu trúc đại số trên $B \otimes_A \mathcal{R}_0$ như trong Hệ quả 4 của Định lý 1, rằng $C(Q)/\mathcal{R}$ đẳng cấu với $B$ và $C(Q)$ là tổng trực tiếp của $B$ và $\mathcal{R}$.
+a) Trước hết giả sử rằng $A$ có đặc số $\neq 2$. Gọi $L$ là đại số Clifford của hạn chế của $Q$ lên $E^0$ (đẳng cấu với $\wedge E^0$), $\mathscr{R}_0$ là căn của nó (iđêan sinh trong $L$ bởi $E^0$, và có đối chiều 1 trong $L$); hãy chứng minh rằng căn $\mathscr{R}$ của $C(Q)$ thu được (lên đến một đẳng cấu) bằng cách xác định cấu trúc đại số trên $B \otimes_A \mathscr{R}_0$ như trong Hệ quả 4 của Định lý 1, rằng $C(Q)/\mathscr{R}$ đẳng cấu với $B$ và $C(Q)$ là tổng trực tiếp của $B$ và $\mathscr{R}$.
 
 b) Giả sử rằng A có đặc số 2. Gọi F là không gian con của E⁰ tạo bởi các vectơ kỳ dị $x \in E^0$, và gọi N là một không gian con bù của F trong E⁰. Nếu $(a_i)_{1 \leq i \leq d}$ là một cơ sở của N, và Q$(a_i) = \alpha_i$, thì các phần tử $\alpha_i^{1/2}$, trong một bao đóng đại số của A, độc lập tuyến tính trên A. Gọi $(\alpha_i^{1/2})_{1 \leq i \leq e}$ là một 2-cơ sở của trường $A_1 = A(\alpha_1^{1/2}, \ldots, \alpha_d^{1/2})$ trên A (ch. V, § 8, bài tập 1), và đặt $h = \dim F$. Nếu B₁ là đại số đơn tâm $B \otimes_A A_1$, bây giờ chứng minh rằng C(Q) đẳng cấu với đại số $B_1 \otimes_{A_1} L_1$, trong đó $L_1$ là đại số ngoài của một không gian vectơ chiều $h + d - e$ trên $A_1$. Nếu $R_1$ là căn của $L_1$ (có đối chiều 1 (trên $A_1$) trong $L_1$), thì căn $R$ của C(Q) đẳng cấu với đại số $B_1 \otimes_{A_1} R_1$, $C(Q)/R$ đẳng cấu với $B_1$, và C(Q) là tổng trực tiếp của $B_1$ và $R$.
 

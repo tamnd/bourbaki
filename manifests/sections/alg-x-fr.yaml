@@ -37,7 +37,7 @@ chapters:
           statements: 57
           exercises: 17
           extraction: ocr
-          content_sha256: 661e6e611980bcb19421cb07584e3f5831d587913d409a3e231582141cc21e03
+          content_sha256: 5b86281421f2b3fe1ea28f8a34e0c89f54f6f0972b453a5ccd60eb0df1bb828b
         - kind: section
           section: 2
           title: Complexes de A-modules
@@ -50,7 +50,7 @@ chapters:
           statements: 59
           exercises: 18
           extraction: ocr
-          content_sha256: 000a48d0cc41203e5b65717dc12655c3172e383b3cbca3cef557d81d8756d9cb
+          content_sha256: 430152bcc98fc2931ac47eba9dc6e194f4feee804d0e32a7b37bca5016da5f06
         - kind: section
           section: 3
           title: Résolutions
@@ -63,7 +63,7 @@ chapters:
           statements: 29
           exercises: 19
           extraction: ocr
-          content_sha256: eefdeb9c83cb1d5c7454a349a45c438c67860c27947a2da7eaf95bef1cfe789b
+          content_sha256: 78ca3fd785b2b1360a93f67d9c559b085dcd26f276ad74007f29b76e87929cb9
         - kind: section
           section: 4
           title: Produits de torsion
@@ -76,7 +76,7 @@ chapters:
           statements: 41
           exercises: 9
           extraction: ocr
-          content_sha256: c87130263c1fe5d434cb536f82ba52bf0f60574aa0ecfea673d0882688a5ac07
+          content_sha256: 339ca7832854415ba24c73f21a5671d353b7286e033de89341609251515f3f77
         - kind: section
           section: 5
           title: Modules d’extensions
@@ -89,7 +89,7 @@ chapters:
           statements: 36
           exercises: 8
           extraction: ocr
-          content_sha256: fc6a14f95feff6e18ee557c23684f8b351f1e029bb29cd31eb44e7305d9c3204
+          content_sha256: e9ed17b2d3cbb9a0578a822c30375ad097e46c0bb5c548d2f513ffd5d8da6e26
         - kind: section
           section: 6
           title: Utilisation de résolutions non canoniques
@@ -115,7 +115,7 @@ chapters:
           statements: 34
           exercises: 11
           extraction: ocr
-          content_sha256: c72b3079baabb98afd4dd1c4c959e340a9fa65afd9bcb2aafcb4e94723f2c40b
+          content_sha256: 2b00ee560983d75c09c92892f0d1097acdd749dd9087b712875a76d8fb9a271d
         - kind: section
           section: 8
           title: Dimension homologique
@@ -128,7 +128,7 @@ chapters:
           statements: 34
           exercises: 28
           extraction: ocr
-          content_sha256: 01423d7f9d05c6000bce1884bf08ce49ac1e4be4045d9ae6bb8edef4dbad7463
+          content_sha256: 6b6ef7217185b84aafaf4ab67bc95ef54fd023c3c53ad5941fa9ffc7a938ed05
         - kind: section
           section: 9
           title: Complexes de Koszul
@@ -141,7 +141,7 @@ chapters:
           statements: 35
           exercises: 10
           extraction: ocr
-          content_sha256: 234fe2945aa4e961036016372d407d506dc8b4e0d5b9dad9251bdb87e41d0c74
+          content_sha256: e050c0ace3b6ae09e3ac8402d6d075509f24c1315d70999695129d52b67dfc1f
 notation_index:
     kind: notation
     title: INDEX DES NOTATIONS

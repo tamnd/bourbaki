@@ -41,9 +41,9 @@ subsections:
       pdf_page: 85
 statements: 32
 exercises: 29
-content_sha256: 670d657ad93a01b85a056f5a60619cac88476ef2fd1ce78c70f60a94979d888d
+content_sha256: 4f61fbf02ed37e8ad57cf601d5991d4ab6fac1df228fce1a86643fa7a7e86b02
 translated_from: content/en/alg/I/05_s5_groups_operating_on_a_set.md
-source_content_sha256: 605c0e618797b31a8a044a2bed5b6ec188866b18a0efb8640705a9dbb17c2a1b
+source_content_sha256: d92fcadd5cf3457976d613413dc10c6bce670352e24cbb59900cd4f89d17b9dd
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-4c9756fc
 glossary_version: 34
@@ -149,7 +149,7 @@ Tương tự, ta thấy rằng, nếu A và B là hai tập con của E và T l�
 
 ### 3. TỰ ĐẲNG CẤU NỘI
 
-Cho G là một nhóm. Tập hợp Aut(G) các tự đẳng cấu của nhóm G là một nhóm con của $\mathcal{G}_G$ (§ 4, no. 1, Ví dụ 2).
+Cho G là một nhóm. Tập hợp Aut(G) các tự đẳng cấu của nhóm G là một nhóm con của $\mathscr{G}_G$ (§ 4, no. 1, Ví dụ 2).
 
 #### Mệnh đề 3 {#alg-i-s5-prop-3 .statement}
 
@@ -217,7 +217,7 @@ G được nói là tác động tự do trên E nếu, với mọi $x \in E$, �
 
 #### Ví dụ {#alg-i-s5-n4-exa-1 .statement}
 
-(1) Cho G là một nhóm và xét tác động của G lên chính nó bởi các tự đẳng cấu trong. Hai phần tử của G liên hợp dưới tác động này được gọi là liên hợp dưới các tự đẳng cấu trong hoặc đơn giản là liên hợp. Các quỹ đạo được gọi là các lớp liên hợp. Tương tự, hai tập con H và H' của G được gọi là liên hợp nếu tồn tại một phần tử $\alpha \in G$ sao cho $H' = \alpha . H . \alpha^{-1}$, tức là nếu chúng liên hợp dưới mở rộng lên $\mathcal{P}(G)$ của tác động của G lên chính nó bởi các tự đẳng cấu trong.
+(1) Cho G là một nhóm và xét tác động của G lên chính nó bởi các tự đẳng cấu trong. Hai phần tử của G liên hợp dưới tác động này được gọi là liên hợp dưới các tự đẳng cấu trong hoặc đơn giản là liên hợp. Các quỹ đạo được gọi là các lớp liên hợp. Tương tự, hai tập con H và H' của G được gọi là liên hợp nếu tồn tại một phần tử $\alpha \in G$ sao cho $H' = \alpha . H . \alpha^{-1}$, tức là nếu chúng liên hợp dưới mở rộng lên $\mathscr{P}(G)$ của tác động của G lên chính nó bởi các tự đẳng cấu trong.
 
 (2) *Trong không gian $\mathbf{R}^n$, quỹ đạo của một điểm x dưới tác động của nhóm trực giao $\mathbf{O}(n, \mathbf{R})$ là mặt cầu Euclid bán kính $\|x\|_*$.*
 
@@ -276,7 +276,7 @@ N/H tác động trung thành trên G/H ở bên phải và $\phi$ là đơn án
 
 #### Nhận xét {#alg-i-s5-n5-rem-1 .statement}
 
-(1) Cho G là một nhóm, H là một nhóm con của G và $\phi : G \to \mathcal{S}_{G/H}$ là đồng cấu tương ứng với phép toán của G trên G/H. Hạt nhân của $\phi$ là giao của các liên hợp của H (no. 2, Mệnh đề 2). Nó cũng là nhóm con chuẩn tắc lớn nhất được chứa trong H (no. 3). Đặc biệt, G tác động trung thành trên G/H khi và chỉ khi giao của các liên hợp của H thu gọn thành $\{e\}$.
+(1) Cho G là một nhóm, H là một nhóm con của G và $\phi : G \to \mathscr{S}_{G/H}$ là đồng cấu tương ứng với phép toán của G trên G/H. Hạt nhân của $\phi$ là giao của các liên hợp của H (no. 2, Mệnh đề 2). Nó cũng là nhóm con chuẩn tắc lớn nhất được chứa trong H (no. 3). Đặc biệt, G tác động trung thành trên G/H khi và chỉ khi giao của các liên hợp của H thu gọn thành $\{e\}$.
 
 (2) Cho G là một nhóm và H và K là các nhóm con sao cho H là một nhóm con chuẩn tắc của K. K/H tác động trên G-tập hợp G/H ở bên phải và ánh xạ chính tắc từ G/H lên G/K xác định, khi chuyển qua thương, một G-tập hợp đẳng cấu $(G/H)/(K/H) \to G/K$ (xem no. 4).
 

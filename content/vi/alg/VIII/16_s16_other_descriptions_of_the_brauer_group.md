@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: c70a26ceb1abd13f3c068f8f76029b9f8b736074fd0ffafc0411bdad67406d91
+content_sha256: 6e62aa9ee51e5ebd163c082cc987dab2dc90de8195f2f898cc6a7f3bf07c07ef
 translated_from: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md
 source_content_sha256: 6c35cd6354d0f0bf0ee5aba1c12fa4ef850055db3db4c07151700df3ae0b526b
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6
@@ -404,7 +404,7 @@ $$
 
 và từ Hệ quả 2 của VIII, p. 288; Hệ quả 2 của VIII, p. 291; và Mệnh đề 3 của VIII, p. 292.
 
-Cho $\Delta : F \to F \times F$ là ánh xạ đường chéo $f \mapsto (f, f)$. Cho $\mathcal{E} = (\Gamma, \iota, \pi)$ là một mở rộng $\tau$. Cho $\tilde{\Delta} : \Gamma \to \Gamma \times_G \Gamma$ là đồng cấu nhóm được cho bởi $\gamma \mapsto (\gamma, \gamma)$. Biểu đồ sau giao hoán:
+Cho $\Delta : F \to F \times F$ là ánh xạ đường chéo $f \mapsto (f, f)$. Cho $\mathscr{E} = (\Gamma, \iota, \pi)$ là một mở rộng $\tau$. Cho $\tilde{\Delta} : \Gamma \to \Gamma \times_G \Gamma$ là đồng cấu nhóm được cho bởi $\gamma \mapsto (\gamma, \gamma)$. Biểu đồ sau giao hoán:
 
 $$
 \begin{array}{ccccc}
@@ -414,9 +414,9 @@ F \times F & \longrightarrow & \Gamma \times_G \Gamma & \longrightarrow & G.
 \end{array}
 $$
 
-Theo Mệnh đề 2 của VIII, p. 290, suy ra rằng mở rộng $(\tau \times \tau) \circ \delta$- $\delta^*(\mathcal{E} \times \mathcal{E})$ là đẳng cấu với $\Delta_*(\mathcal{E})$.
+Theo Mệnh đề 2 của VIII, p. 290, suy ra rằng mở rộng $(\tau \times \tau) \circ \delta$- $\delta^*(\mathscr{E} \times \mathscr{E})$ là đẳng cấu với $\Delta_*(\mathscr{E})$.
 
-Ký hiệu $c : F \to F$ là đồng cấu hằng $f \mapsto 1$. Theo Ví dụ 1 của VIII, p. 292, sự kiện rằng $\mathscr{I}_\tau$ là một phần tử đơn vị đối với luật hợp thành này suy ra từ đẳng cấu từ $\delta^*(\mathcal{E} \times \mathcal{E})$ đến $\Delta_*(\mathcal{E})$ và biểu đồ giao hoán
+Ký hiệu $c : F \to F$ là đồng cấu hằng $f \mapsto 1$. Theo Ví dụ 1 của VIII, p. 292, sự kiện rằng $\mathscr{I}_\tau$ là một phần tử đơn vị đối với luật hợp thành này suy ra từ đẳng cấu từ $\delta^*(\mathscr{E} \times \mathscr{E})$ đến $\Delta_*(\mathscr{E})$ và biểu đồ giao hoán
 
 $$
 \begin{array}{ccc}
@@ -438,7 +438,7 @@ F \times F & \xrightarrow{m} & F.
 \end{array}
 $$
 
-Cho $\mathcal{E}_1 = (\Gamma_1, \iota_1, \pi_1)$ và $\mathcal{E}_2 = (\Gamma_2, \iota_2, \pi_2)$ là các mở rộng $\tau$. Đẳng cấu nhóm $\Gamma_1 \times \Gamma_2 \to \Gamma_2 \times \Gamma_1$ cho bởi $(\gamma_1, \gamma_2) \mapsto (\gamma_2, \gamma_1)$ hạn chế thành một đẳng cấu nhóm $\sigma : \Gamma_1 \times_G \Gamma_2 \to \Gamma_2 \times_G \Gamma_1$. Do các hệ thức
+Cho $\mathscr{E}_1 = (\Gamma_1, \iota_1, \pi_1)$ và $\mathscr{E}_2 = (\Gamma_2, \iota_2, \pi_2)$ là các mở rộng $\tau$. Đẳng cấu nhóm $\Gamma_1 \times \Gamma_2 \to \Gamma_2 \times \Gamma_1$ cho bởi $(\gamma_1, \gamma_2) \mapsto (\gamma_2, \gamma_1)$ hạn chế thành một đẳng cấu nhóm $\sigma : \Gamma_1 \times_G \Gamma_2 \to \Gamma_2 \times_G \Gamma_1$. Do các hệ thức
 
 $$
 \sigma(\iota_1(f), \iota_2(f)^{-1}) = (\iota_2(f^{-1}), \iota_1(f^{-1})^{-1})

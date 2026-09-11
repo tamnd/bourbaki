@@ -42,9 +42,9 @@ subsections:
       pdf_page: 347
 statements: 17
 exercises: 5
-content_sha256: 02adb484107943da4542e43084602b2e6216175222343519c7265dc45d89e2d8
+content_sha256: dd494d7bcd33a5449aeeb8d98706a409cfc6a9717ff546bdd03313a675077c1e
 translated_from: content/en/alg/II/08_s8_restriction_of_the_field_ofscalars_in.md
-source_content_sha256: 6810d0ad2d7a1ac57e96581b1b317b077f67da34f1fea1aceace9aa72bc903be
+source_content_sha256: b7ddfff3fdb23622cfdd5652b1283f65d322555654087069cf4ce0f35b45076e
 translation_model: gpt-5.4
 translation_run: translate-vi-2f9cd8fa
 glossary_version: 34
@@ -246,19 +246,19 @@ Sau khi đã chứng minh bổ đề này, ta biết rằng W là hữu tỉ tr�
 
 ### 7. CÁC TIÊU CHUẨN CHO TÍNH HỮU TỈ
 
-Với mỗi trường con L của K, gọi $\mathrm{End}_L(K)$ là vành tự đồng cấu của K được xét như một *không gian vectơ trái* trên L; nếu L chứa K', thì $\mathrm{End}_L(K)$ là một vành con của $\mathrm{End}_{K'}(K)$. Với mỗi tập con $\mathcal{M}$ của $\mathrm{End}_{K'}(K)$, tồn tại một *trường con lớn nhất* L của K chứa K' và sao cho $\mathcal{M}$ được chứa trong $\mathrm{End}_L(K)$, cụ thể là tập hợp các $\xi \in K$ sao cho $\phi(\xi \eta) = \xi \cdot \phi(\eta)$ với mọi $\eta \in K$ và mọi $\phi \in \mathcal{M}$ (người ta kiểm tra ngay lập tức rằng tập hợp này là một vành và, mặt khác, thay thế $\eta$ bởi $\xi^{-1} \eta$ trong quan hệ trước, ta được $\phi(\xi^{-1} \eta) = \xi^{-1} \cdot \phi(\eta)$ khi $\xi \neq 0$). Ta sẽ gọi trường này là *bộ tập trung hóa* của $\mathcal{M}$ trong K và ký hiệu nó bởi $\chi(\mathcal{M})$.
+Với mỗi trường con L của K, gọi $\mathrm{End}_L(K)$ là vành tự đồng cấu của K được xét như một *không gian vectơ trái* trên L; nếu L chứa K', thì $\mathrm{End}_L(K)$ là một vành con của $\mathrm{End}_{K'}(K)$. Với mỗi tập con $\mathscr{M}$ của $\mathrm{End}_{K'}(K)$, tồn tại một *trường con lớn nhất* L của K chứa K' và sao cho $\mathscr{M}$ được chứa trong $\mathrm{End}_L(K)$, cụ thể là tập hợp các $\xi \in K$ sao cho $\phi(\xi \eta) = \xi \cdot \phi(\eta)$ với mọi $\eta \in K$ và mọi $\phi \in \mathscr{M}$ (người ta kiểm tra ngay lập tức rằng tập hợp này là một vành và, mặt khác, thay thế $\eta$ bởi $\xi^{-1} \eta$ trong quan hệ trước, ta được $\phi(\xi^{-1} \eta) = \xi^{-1} \cdot \phi(\eta)$ khi $\xi \neq 0$). Ta sẽ gọi trường này là *bộ tập trung hóa* của $\mathscr{M}$ trong K và ký hiệu nó bởi $\chi(\mathscr{M})$.
 
 Bây giờ, cho V là một không gian vectơ phải K với một cấu trúc-K' V'. Với mọi $\phi \in \mathrm{End}_{K'}(K)$, tồn tại một và chỉ một tự đồng cấu $\phi_v$ của $\mathbf{Z}$-môđun V sao cho $\phi_V(x'.\xi) = x'.\phi(\xi)$ với $x' \in V'$ và $\xi \in K$: thật vậy, ở no. 1, một $\mathbf{Z}$-đẳng cấu $\lambda$ từ $V' \otimes_{K'} K$ lên V đã được xác định, ánh xạ $x' \otimes \xi$ thành $x'.\xi$, và $\phi_V$ tất yếu bằng $\lambda \circ (1_{V'} \otimes \phi) \circ \lambda^{-1}$.
 
 #### Định lý 1 {#alg-ii-s8-thm-1 .statement}
 
-*Cho $\mathcal{M}$ là một tập con của $\mathrm{End}_{K'}(K)$ và $L = \chi(\mathcal{M})$ là trường con của K là bộ tập trung hóa của $\mathcal{M}$.*
+*Cho $\mathscr{M}$ là một tập con của $\mathrm{End}_{K'}(K)$ và $L = \chi(\mathscr{M})$ là trường con của K là bộ tập trung hóa của $\mathscr{M}$.*
 
-(i) *Cho V là một không gian vectơ phải K với một cấu trúc-K'. Để một vectơ $x \in V$ là hữu tỉ trên L, điều kiện cần và đủ là $\phi_V(x.\eta) = x.\phi(\eta)$ với mọi $\phi \in \mathcal{M}$ và mọi $\eta \in K$. Để một không gian vectơ con-K W của V là hữu tỉ trên L, điều kiện cần và đủ là $\phi_V(W) \subset W$ với mọi $\phi \in \mathcal{M}$.*
+(i) *Cho V là một không gian vectơ phải K với một cấu trúc-K'. Để một vectơ $x \in V$ là hữu tỉ trên L, điều kiện cần và đủ là $\phi_V(x.\eta) = x.\phi(\eta)$ với mọi $\phi \in \mathscr{M}$ và mọi $\eta \in K$. Để một không gian vectơ con-K W của V là hữu tỉ trên L, điều kiện cần và đủ là $\phi_V(W) \subset W$ với mọi $\phi \in \mathscr{M}$.*
 
-(ii) *Cho $V_1, V_2$ là hai không gian vectơ phải K, mỗi không gian đều có một cấu trúc-K'. Để một ánh xạ K-tuyến tính f từ $V_1$ vào $V_2$ là hữu tỉ trên L, điều kiện cần và đủ là $f(\phi_{V_1}(x_1)) = \phi_{V_2}(f(x_1))$ với mọi $x_1 \in V_1$ và mọi $\phi \in \mathcal{M}$.*
+(ii) *Cho $V_1, V_2$ là hai không gian vectơ phải K, mỗi không gian đều có một cấu trúc-K'. Để một ánh xạ K-tuyến tính f từ $V_1$ vào $V_2$ là hữu tỉ trên L, điều kiện cần và đủ là $f(\phi_{V_1}(x_1)) = \phi_{V_2}(f(x_1))$ với mọi $x_1 \in V_1$ và mọi $\phi \in \mathscr{M}$.*
 
-Trước hết ta chứng minh mệnh đề (i) đối với x. Lấy B là một cơ sở của V hữu tỉ trên K' và viết $x = \sum_{b \in B} b.\xi_b$; khi đó, với $\phi \in \mathcal{M}$ và $\eta \in K$,
+Trước hết ta chứng minh mệnh đề (i) đối với x. Lấy B là một cơ sở của V hữu tỉ trên K' và viết $x = \sum_{b \in B} b.\xi_b$; khi đó, với $\phi \in \mathscr{M}$ và $\eta \in K$,
 
 $$
 \phi_V(x.\eta) - x.\phi(\eta) = \sum_{b \in B} b.(\phi(\xi_b\eta) - \xi_b.\phi(\eta))
@@ -266,24 +266,24 @@ $$
 
 và do đó, các quan hệ
 
-"với mọi $\phi \in \mathcal{M}$ và mọi $\eta \in K$, $\phi_V(x.\eta) = x.\phi(\eta)$"
+"với mọi $\phi \in \mathscr{M}$ và mọi $\eta \in K$, $\phi_V(x.\eta) = x.\phi(\eta)$"
 
 và
 
-"với mọi $\phi \in \mathcal{M}$, mọi $b \in B$ và mọi $\eta \in K$, $\phi(\xi_b\eta) = \xi_b.\phi(\eta)$"
+"với mọi $\phi \in \mathscr{M}$, mọi $b \in B$ và mọi $\eta \in K$, $\phi(\xi_b\eta) = \xi_b.\phi(\eta)$"
 
-là tương đương. Quan hệ thứ hai trong các quan hệ này có nghĩa là với mọi $b \in B$, $\xi_b \in \chi(\mathcal{M})$, điều đó chứng minh mệnh đề thứ nhất của (i).
+là tương đương. Quan hệ thứ hai trong các quan hệ này có nghĩa là với mọi $b \in B$, $\xi_b \in \chi(\mathscr{M})$, điều đó chứng minh mệnh đề thứ nhất của (i).
 
 Tiếp theo ta chứng minh (ii). Để f là hữu tỉ trên L, điều kiện cần và đủ là, với mọi $x'_1 \in V_1$ hữu tỉ trên K', $f(x'_1)$ là một vectơ của $V_2$ hữu tỉ trên L; điều này sẽ kéo theo rằng $f(x_1)$ là hữu tỉ trên L với mọi vectơ $x_1$ của $V_1$ hữu tỉ trên L, vì một vectơ như thế là một tổ hợp tuyến tính với các hệ số trong L của các vectơ hữu tỉ trên K'. Theo phần đầu của lập luận, điều kiện trên tương đương với quan hệ
 
 $$
-f(x'_1).\phi(\eta) = \phi_{V_2}(f(x'_1).\eta) \quad \text{với } \phi \in \mathcal{M} \text{ và } \eta \in K
+f(x'_1).\phi(\eta) = \phi_{V_2}(f(x'_1).\eta) \quad \text{với } \phi \in \mathscr{M} \text{ và } \eta \in K
 $$
 
 quan hệ này cũng có thể viết thành
 
 $$
-f(\phi_{V_1}(x'_1.\eta)) = \phi_{V_2}(f(x'_1.\eta)) \quad \text{với } \phi \in \mathcal{M} \text{ và } \eta \in K.
+f(\phi_{V_1}(x'_1.\eta)) = \phi_{V_2}(f(x'_1.\eta)) \quad \text{với } \phi \in \mathscr{M} \text{ và } \eta \in K.
 $$
 
 Vì mọi phần tử của $V_1$ là một tổ hợp tuyến tính với các hệ số trong K của các phần tử của $V_1$ hữu tỉ trên K', nên điều kiện (5) tương đương với
@@ -292,9 +292,9 @@ $$
 f(\phi_{V_1}(x_1)) = \phi_{V_2}(f(x_1))
 $$
 
-với mọi $x_1 \in V_1$ và mọi $\phi \in \mathcal{M}$.
+với mọi $x_1 \in V_1$ và mọi $\phi \in \mathscr{M}$.
 
-Sau cùng, để chứng minh mệnh đề thứ hai trong (i), ta dùng no. 6, Bổ đề 1: W là đồ thị của một ánh xạ K-tuyến tính $g : W_1 \to W_2$ và W là hữu tỉ trên khi và chỉ khi ánh xạ g là hữu tỉ trên L (no. 3, Mệnh đề 4). Theo (ii), để g là hữu tỉ trên L, điều kiện cần và đủ là $g(\phi_{W_1}(x_1)) = \phi_{W_2}(g(x_1))$ với mọi $x_1 \in W_1$ và mọi $\phi \in \mathcal{M}$; vì $\phi_v = \phi_{W_1} \times \phi_{W_2}$, điều kiện trên có nghĩa là đồ thị W của g ổn định dưới $\phi_v$ với mọi $\phi \in \mathcal{M}$.
+Sau cùng, để chứng minh mệnh đề thứ hai trong (i), ta dùng no. 6, Bổ đề 1: W là đồ thị của một ánh xạ K-tuyến tính $g : W_1 \to W_2$ và W là hữu tỉ trên khi và chỉ khi ánh xạ g là hữu tỉ trên L (no. 3, Mệnh đề 4). Theo (ii), để g là hữu tỉ trên L, điều kiện cần và đủ là $g(\phi_{W_1}(x_1)) = \phi_{W_2}(g(x_1))$ với mọi $x_1 \in W_1$ và mọi $\phi \in \mathscr{M}$; vì $\phi_v = \phi_{W_1} \times \phi_{W_2}$, điều kiện trên có nghĩa là đồ thị W của g ổn định dưới $\phi_v$ với mọi $\phi \in \mathscr{M}$.
 
 ### Bài tập {#alg-ii-s8-exercises}
 

@@ -42,7 +42,7 @@ subsections:
       pdf_page: 90
 statements: 43
 exercises: 12
-content_sha256: 66d5b546694854d26bf604a12708aa73db5a74ae8a57a81ea44881ad8cc99f4c
+content_sha256: d8efcc08bfe9d3491c2c0f0dc26b32418d3c6a63d8ced19164e7875914007cb1
 ---
 
 ## § 6. SYMMETRIC FUNCTIONS
@@ -347,10 +347,10 @@ $$
 where the formal power series $s_k \in A[[X]]$ is defined by
 
 $$
-s_k = \sum_{H \in \mathcal{P}_k} \left( \prod_{i \in H} X_i \right) \quad (k \geq 1)
+s_k = \sum_{H \in \mathscr{P}_k} \left( \prod_{i \in H} X_i \right) \quad (k \geq 1)
 $$
 
-(we denote by $\mathcal{P}_k$ the set of all k-element subsets of I). In particular we have $s_1 = \sum_{i \in I} X_i$. When I is finite with $n$ elements we have $s_k = 0$ for $k > n$; more precisely, when $I = \{1, \ldots, n\}$ then the formal power series $s_k$ is nothing other than the elementary symmetric polynomial of degree k in $X_1, \ldots, X_n$.
+(we denote by $\mathscr{P}_k$ the set of all k-element subsets of I). In particular we have $s_1 = \sum_{i \in I} X_i$. When I is finite with $n$ elements we have $s_k = 0$ for $k > n$; more precisely, when $I = \{1, \ldots, n\}$ then the formal power series $s_k$ is nothing other than the elementary symmetric polynomial of degree k in $X_1, \ldots, X_n$.
 
 Let $S = (S_k)_{k \geq 1}$ be a sequence of indeterminates. Since the formal power series $s_k$ is of order $\geq k$, and belongs to $A[[X]]^{\text{sym}}$, conditions a) and b) of Prop. 4 of IV, p. 28 are satisfied with $E = A[[X]]^{\text{sym}}$; there exists thus a unique continuous A-algebra homomorphism
 
@@ -557,7 +557,7 @@ $$
 
 in B. Since the relations (24) define a presentation of $E_f$, Prop. 4 follows.
 
-Prop. 4 justifies the name « universal decomposition algebra of $f$ » for $E_f$. The relation $f(X) = \prod_{i=1}^n (X - x_{i,f})$ is called the « universal decomposition of $f$ ». Let $\sigma \in S_n$ be a permutation ; since $f(X) = \prod_{i=1}^n (X - x_{\sigma(i),f})$, there exists an automorphism $t_\sigma$ of the A-algebra $E_f$ characterized by $t_\sigma(x_{i,f}) = x_{\sigma(i),f}$ for $1 \leq i \leq n$. We have $t_{\sigma \tau} = t_\sigma \circ t_\tau$ for $\sigma, \tau$ in $S_n$, and hence obtain an action of the group $\mathcal{G}$, an the A-algebra $E_f$.
+Prop. 4 justifies the name « universal decomposition algebra of $f$ » for $E_f$. The relation $f(X) = \prod_{i=1}^n (X - x_{i,f})$ is called the « universal decomposition of $f$ ». Let $\sigma \in S_n$ be a permutation ; since $f(X) = \prod_{i=1}^n (X - x_{\sigma(i),f})$, there exists an automorphism $t_\sigma$ of the A-algebra $E_f$ characterized by $t_\sigma(x_{i,f}) = x_{\sigma(i),f}$ for $1 \leq i \leq n$. We have $t_{\sigma \tau} = t_\sigma \circ t_\tau$ for $\sigma, \tau$ in $S_n$, and hence obtain an action of the group $\mathscr{G}$, an the A-algebra $E_f$.
 
 #### Proposition 5 {#alg-iv-s6-prop-5 .statement}
 

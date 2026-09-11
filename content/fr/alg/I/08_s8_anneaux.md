@@ -61,7 +61,7 @@ subsections:
       pdf_page: 117
 statements: 40
 exercises: 16
-content_sha256: bf3ea45c41f5440bd1c826701322175fa5fb68e476ae52dac742e21634f09164
+content_sha256: c1cf787be6101666de84cd5a43abcb94f72966453d71281ba1ec3c9890f55ea5
 ---
 
 ## § 8. ANNEAUX
@@ -223,7 +223,7 @@ $$
 (-1)^n n! x_1 x_2 \ldots x_n = \sum_{H \subset I} (-1)^{\mathrm{Card}\ H}(x_H)^n.
 $$
 
-Soit C l’ensemble des applications de I dans \{0, 1\}. Si à tout $H \subset I$, on fait correspondre sa fonction caractéristique, on obtient une bijection de $\mathcal{P}(I)$ sur C. Le second membre de (16) est donc égal à:
+Soit C l’ensemble des applications de I dans \{0, 1\}. Si à tout $H \subset I$, on fait correspondre sa fonction caractéristique, on obtient une bijection de $\mathscr{P}(I)$ sur C. Le second membre de (16) est donc égal à:
 
 $$
 \sum_{a \in C} (-1)^{a(1)+\ldots+a(n)} \left( \sum_{i \in I} a(i)x_i \right)^n

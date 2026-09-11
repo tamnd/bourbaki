@@ -36,7 +36,7 @@ subsections:
       pdf_page: 241
 statements: 20
 exercises: 5
-content_sha256: 3aaa25d7fe09d3724420e137a51a07835fc20991d574e1bfd4e14531f8a3e577
+content_sha256: 5dc0d9e3e0335cdf3478b8704b3836f234eebd2b163e35eeb1039ba11b3fe512
 ---
 
 ## § 17. EXTENSIONS RÉGULIÈRES
@@ -181,7 +181,7 @@ Soit $L$ une extension d’un corps $K$. Si $L$ est régulière, toute sous-exte
 
 La première assertion résulte de la prop. 3, $a$.
 
-Soit $M$ une extension de $K$, et soit $\mathcal{U}$ l’ensemble des sous-extensions de type fini de $L$. Pour tout $E \in \mathcal{U}$, l’anneau $M \otimes_K E$ s’identifie à un sous-anneau de $M \otimes_K L$, et l’on définit ainsi une famille filtrante croissante de sous-anneaux de $M \otimes_K L$, de réunion $M \otimes_K L$. On en déduit immédiatement la seconde assertion.
+Soit $M$ une extension de $K$, et soit $\mathscr{U}$ l’ensemble des sous-extensions de type fini de $L$. Pour tout $E \in \mathscr{U}$, l’anneau $M \otimes_K E$ s’identifie à un sous-anneau de $M \otimes_K L$, et l’on définit ainsi une famille filtrante croissante de sous-anneaux de $M \otimes_K L$, de réunion $M \otimes_K L$. On en déduit immédiatement la seconde assertion.
 
 #### Proposition 7 {#alg-v-s17-prop-7 .statement}
 

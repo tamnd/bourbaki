@@ -53,11 +53,11 @@ subsections:
       pdf_page: 171
 statements: 35
 exercises: 10
-content_sha256: 821f9d1849e2b16a7a07bfbb3cadd1ad6e6c8c85308dfbc4206eaab9a6a27149
+content_sha256: 3f24aec3f6935aa2116317db1e5631f6ab93a6075b00ee0efd74f6b291f40c08
 translated_from: content/en-mt/alg/X/09_s9_complexes_de_koszul.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: d4957bb3ac1fc8e376a572314bfd00cbabab87776df84d39b3e13113c9574cf0
+source_content_sha256: 2c2264c9a2d176b8cd1e6006adf7a403ebf0cd48c85ede8acfc2273cdd89c0ef
 translation_model: gpt-5.4
 translation_run: translate-vi-e14adcd1
 glossary_version: 34
@@ -346,7 +346,7 @@ $$
 Chú ý rằng $d$ biến $S^p(L) \otimes \Lambda^q(L)$ thành $S^{p+1}(L) \otimes \Lambda^{q-1}(L)$, do đó *phức các $A$-môđun* $S(L) \otimes \Lambda(L)$ phân tích thành tổng trực tiếp của các phức được mô tả bởi các biểu đồ sau:
 
 $$
-(\mathcal{E}_n) : 0 \to S^0 L \otimes_A \Lambda^n L \to S^1 L \otimes_A \Lambda^{n-1} L \to ... \to S^n L \otimes_A \Lambda^0 L \to 0, \quad n \in \mathbf{N}.
+(\mathscr{E}_n) : 0 \to S^0 L \otimes_A \Lambda^n L \to S^1 L \otimes_A \Lambda^{n-1} L \to ... \to S^n L \otimes_A \Lambda^0 L \to 0, \quad n \in \mathbf{N}.
 $$
 
 Nếu A-môđun L là tổng trực tiếp của một họ hữu hạn $(L_i)_{i \in I}$ trong đó I được sắp thứ tự toàn phần, song ánh chính tắc
@@ -359,7 +359,7 @@ là một đẳng cấu của các phức A-môđun (điều này suy ra từ m�
 
 #### Mệnh đề 3 {#alg-x-s9-prop-3 .statement}
 
-*Nếu A-môđun L là phẳng, các dãy $(\mathcal{E}_n)$ ở trên là khớp với $n > 0$.*
+*Nếu A-môđun L là phẳng, các dãy $(\mathscr{E}_n)$ ở trên là khớp với $n > 0$.*
 
 *a)* Trước hết ta nhận thấy rằng, nếu $p_L$ là đồng cấu hợp thành
 
@@ -401,7 +401,7 @@ Nếu A là một $\mathbf{Q}$-đại số, kết luận của mệnh đề 3 v�
 
 #### Nhận xét 3 {#alg-x-s9-n3-rem-3 .statement}
 
-Cho G là một nhóm và $\rho : G \to \mathbf{GL}(L)$ một biểu diễn tuyến tính của G trong một A-môđun phẳng L. Khi đó các $(\mathcal{E}_n)$ là các dãy khớp của các biểu diễn tuyến tính. Giả sử L xạ ảnh sinh hữu hạn, và ký hiệu $R_A(G)$ là vành biểu diễn của G trong các A-môđun xạ ảnh sinh hữu hạn. Từ mệnh đề 3 suy ra rằng trong R_A(G) ta có các hệ thức
+Cho G là một nhóm và $\rho : G \to \mathbf{GL}(L)$ một biểu diễn tuyến tính của G trong một A-môđun phẳng L. Khi đó các $(\mathscr{E}_n)$ là các dãy khớp của các biểu diễn tuyến tính. Giả sử L xạ ảnh sinh hữu hạn, và ký hiệu $R_A(G)$ là vành biểu diễn của G trong các A-môđun xạ ảnh sinh hữu hạn. Từ mệnh đề 3 suy ra rằng trong R_A(G) ta có các hệ thức
 
 $$
 \sum_{i=0}^{n} (-1)^i [\mathbf{S}^i(L)] [\Lambda^{n-i}(L)] = 0 , \quad n > 0 .
@@ -858,9 +858,9 @@ từ đó suy ra một đẳng cấu của $(t'/{t'}^{r+1}) \otimes_{A_0} M$ lê
 
 $$
 \begin{array}{ccc}
-(A_0[X_1, ..., X_n]/\mathcal{D}_0) \otimes_{A_0} M & \xrightarrow{\bar{u} \otimes 1_M} & \bigoplus_{r \geq 0} (t' \otimes_{A_0} M) \\
+(A_0[X_1, ..., X_n]/\mathscr{D}_0) \otimes_{A_0} M & \xrightarrow{\bar{u} \otimes 1_M} & \bigoplus_{r \geq 0} (t' \otimes_{A_0} M) \\
 \downarrow e & & \downarrow \oplus m_r \\
-(A[X_1, ..., X_n]/\mathcal{D}) \otimes_A M & \xrightarrow{\alpha_M^x} & \bigoplus_{r \geq 0} x' M
+(A[X_1, ..., X_n]/\mathscr{D}) \otimes_A M & \xrightarrow{\alpha_M^x} & \bigoplus_{r \geq 0} x' M
 \end{array}
 $$
 

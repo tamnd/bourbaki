@@ -53,7 +53,7 @@ subsections:
       pdf_page: 44
 statements: 24
 exercises: 8
-content_sha256: 7a592736783269f8b506d8046056c2b13387cfba462ab06ae14927b62e778474
+content_sha256: c4648703f719b739079564df913d9acedd14990c89e5fd71692ed49df40f0ba6
 ---
 
 ## § 4. SÉRIES FORMELLES
@@ -145,19 +145,19 @@ Soit $(u_\lambda)_{\lambda \in L}$ une famille sommable d’éléments de $\math
 (i) La famille $(1 + u_\lambda)_{\lambda \in L}$ est multipliable.
 (ii) Soit $\mathfrak{F}$ l’ensemble des parties finies de $L$. Pour $M \in \mathfrak{F}$, posons $u_M = \prod_{\lambda \in M} u_\lambda$.
 
-Alors la famille $(u_M)_{M \in \mathcal{F}}$ est sommable, et l’on a
+Alors la famille $(u_M)_{M \in \mathscr{F}}$ est sommable, et l’on a
 
 $$
-\sum_{M \in \mathcal{F}} u_M = \prod_{\lambda \in L} (1 + u_\lambda).
+\sum_{M \in \mathscr{F}} u_M = \prod_{\lambda \in L} (1 + u_\lambda).
 $$
 
-Définissons les idéaux $a_\beta$ comme au début de ce numéro. Soit $\beta \in \mathbf{N}^{(1)}$. Il existe une partie finie $L_0$ de $L$ telle que l’on ait $u_\lambda \in a_\beta$ pour $\lambda \notin L_0$. Alors pour tout $M \in \mathcal{F}$ tel que $M \notin L_0$, on a $u_M \in a_\beta$. On en déduit que la famille $(u_M)_{M \in \mathcal{F}}$ est sommable. D’autre part, si $M_0$ est une partie finie de $L$, on a
+Définissons les idéaux $a_\beta$ comme au début de ce numéro. Soit $\beta \in \mathbf{N}^{(1)}$. Il existe une partie finie $L_0$ de $L$ telle que l’on ait $u_\lambda \in a_\beta$ pour $\lambda \notin L_0$. Alors pour tout $M \in \mathscr{F}$ tel que $M \notin L_0$, on a $u_M \in a_\beta$. On en déduit que la famille $(u_M)_{M \in \mathscr{F}}$ est sommable. D’autre part, si $M_0$ est une partie finie de $L$, on a
 
 $$
 \sum_{M \subset M_0} u_M = \prod_{\lambda \in M_0} (1 + u_\lambda).
 $$
 
-Suivant l’ensemble ordonné filtrant $\mathcal{F}$, le membre de gauche a pour limite $\sum_{M \in \mathcal{F}} u_M$. Donc le membre de droite a pour limite $\sum_{M \in \mathcal{F}} u_M$, ce qui prouve à la fois (i) et (ii).
+Suivant l’ensemble ordonné filtrant $\mathscr{F}$, le membre de gauche a pour limite $\sum_{M \in \mathscr{F}} u_M$. Donc le membre de droite a pour limite $\sum_{M \in \mathscr{F}} u_M$, ce qui prouve à la fois (i) et (ii).
 
 #### Proposition 3 {#alg-iv-s4-prop-3 .statement}
 
@@ -254,7 +254,7 @@ Réciproquement, supposons que le terme constant $\alpha$ de $u$ soit inversible
 
 #### Remarque {#alg-iv-s4-n4-rem-1 .statement}
 
-Soit $\mathcal{M}$ l’ensemble des séries formelles de terme constant égal à 1. D’après la prop. 6, $\mathcal{M}$ est un groupe commutatif pour la multiplication ; le groupe multiplicatif de $A[[I]]$ est produit direct de $\mathcal{M}$ et du groupe multiplicatif de $A$. Nous munirons $\mathcal{M}$ de la topologie induite par celle de $A[[I]]$. Pour tout $\beta \in \mathbf{N}^{(l)}$, on a défini dans IV, p. 24, l’idéal $a_\beta$ de $A[[I]]$ ; alors $1 + a_\beta$ est un sous-groupe de $\mathcal{M}$, et la famille $(1 + a_\beta)$ est un système fondamental de voisinages de 1 dans $\mathcal{M}$. Comme la multiplication dans $\mathcal{M}$ est continue, on voit que $\mathcal{M}$ est un groupe topologique (TG, III, p. 5) ; autrement dit, *l’application* $f \mapsto f^{-1}$ *est continue dans* $\mathcal{M}$.
+Soit $\mathscr{M}$ l’ensemble des séries formelles de terme constant égal à 1. D’après la prop. 6, $\mathscr{M}$ est un groupe commutatif pour la multiplication ; le groupe multiplicatif de $A[[I]]$ est produit direct de $\mathscr{M}$ et du groupe multiplicatif de $A$. Nous munirons $\mathscr{M}$ de la topologie induite par celle de $A[[I]]$. Pour tout $\beta \in \mathbf{N}^{(l)}$, on a défini dans IV, p. 24, l’idéal $a_\beta$ de $A[[I]]$ ; alors $1 + a_\beta$ est un sous-groupe de $\mathscr{M}$, et la famille $(1 + a_\beta)$ est un système fondamental de voisinages de 1 dans $\mathscr{M}$. Comme la multiplication dans $\mathscr{M}$ est continue, on voit que $\mathscr{M}$ est un groupe topologique (TG, III, p. 5) ; autrement dit, *l’application* $f \mapsto f^{-1}$ *est continue dans* $\mathscr{M}$.
 
 Soient $K$ un corps commutatif et $\mathfrak{D}$ le sous-anneau du corps des fractions rationnelles $K((X_i)_{i \in I})$ formé des fractions rationnelles dans lesquelles l’élément 0 de $K^1$ est substituable. Soit $f \in \mathfrak{D}$. On a $f = \frac{u}{v}$ où $u$ et $v$ sont des polynômes tels que le terme constant de $v$ soit $\neq 0$. Donc $v$ est inversible dans $K[[I]]$. On vérifie aussitôt que l’élément $uv^{-1}$ de $K[[I]]$ ne dépend que de $f$ ; on dit que la série formelle $uv^{-1}$ est le *développement à l’origine de la fraction rationnelle* $\frac{u}{v}$. L’application $f \mapsto uv^{-1}$ est un homomorphisme injectif de $\mathfrak{D}$ dans $K[[I]]$ ; on identifie souvent $\mathfrak{D}$ à son image par cette application.
 
@@ -661,15 +661,15 @@ $$
 $$
 d’où $l(e(X)) = X$.
 
-Soit $K$ une $\mathbf{Q}$-algèbre. Les éléments de $K[[I]]$ sans terme constant forment pour l’addition un groupe commutatif $\mathscr{E}$. Les éléments de $K[[I]]$ de terme constant 1 forment pour la multiplication un groupe commutatif $\mathcal{M}$ (IV, p. 29). On peut définir, pour tout $f \in \mathscr{E}$, les éléments $e \circ f$ et $l \circ f$ de $\mathscr{E}$. D’après la prop. 14 ci-dessus, les applications $f \mapsto l \circ f$ et $f \mapsto e \circ f$ sont des permutations réciproques de $\mathscr{E}$. Elles sont évidemment continues. Comme on a $\exp X = e(X) + 1$, on voit que l’application exponentielle $f \mapsto \exp f = e \circ f + 1$ est une bijection bicontinue de $\mathscr{E}$ sur $\mathcal{M}$. D’après la formule (4) de IV, p. 28, et la prop. 13, on a $\exp(f+g) = (\exp f)(\exp g)$ si $f, g \in \mathscr{E}$. Donc l’exponentielle est un isomorphisme du groupe topologique $\mathscr{E}$ sur le groupe topologique $\mathcal{M}$.
+Soit $K$ une $\mathbf{Q}$-algèbre. Les éléments de $K[[I]]$ sans terme constant forment pour l’addition un groupe commutatif $\mathscr{E}$. Les éléments de $K[[I]]$ de terme constant 1 forment pour la multiplication un groupe commutatif $\mathscr{M}$ (IV, p. 29). On peut définir, pour tout $f \in \mathscr{E}$, les éléments $e \circ f$ et $l \circ f$ de $\mathscr{E}$. D’après la prop. 14 ci-dessus, les applications $f \mapsto l \circ f$ et $f \mapsto e \circ f$ sont des permutations réciproques de $\mathscr{E}$. Elles sont évidemment continues. Comme on a $\exp X = e(X) + 1$, on voit que l’application exponentielle $f \mapsto \exp f = e \circ f + 1$ est une bijection bicontinue de $\mathscr{E}$ sur $\mathscr{M}$. D’après la formule (4) de IV, p. 28, et la prop. 13, on a $\exp(f+g) = (\exp f)(\exp g)$ si $f, g \in \mathscr{E}$. Donc l’exponentielle est un isomorphisme du groupe topologique $\mathscr{E}$ sur le groupe topologique $\mathscr{M}$.
 
-L’isomorphisme réciproque de $\mathcal{M}$ sur $\mathscr{E}$ s’appelle le logarithme et se note $g \mapsto \log g$. On a donc $\log g = l(g-1)$ pour $g$ dans $\mathcal{M}$, et, en particulier
+L’isomorphisme réciproque de $\mathscr{M}$ sur $\mathscr{E}$ s’appelle le logarithme et se note $g \mapsto \log g$. On a donc $\log g = l(g-1)$ pour $g$ dans $\mathscr{M}$, et, en particulier
 (38)
 $$
 \log(1+X) = l(X).
 $$
 
-Comme le logarithme est un homomorphisme de $\mathcal{M}$ dans $\mathscr{E}$, la formule
+Comme le logarithme est un homomorphisme de $\mathscr{M}$ dans $\mathscr{E}$, la formule
 
 (1 + X)(1 + Y) = 1 + (X + Y + XY) entraîne
 

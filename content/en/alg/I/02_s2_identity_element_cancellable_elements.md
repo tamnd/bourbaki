@@ -46,7 +46,7 @@ subsections:
       pdf_page: 47
 statements: 25
 exercises: 17
-content_sha256: 14262eeea309ef0eeb9e6269c13480b3d9f7d00e819290b8524e10ac95ff8282
+content_sha256: ea4324c278765be303f76b877f875161c0b03258af35442379758f5aace5c86f
 ---
 
 ## § 2. IDENTITY ELEMENT; CANCELLABLE ELEMENTS; INVERTIBLE ELEMENTS
@@ -258,13 +258,13 @@ Let E be a commutative monoid, S a subset of E and S' the submonoid of E generat
 
 #### Lemma 1 {#alg-i-s2-lem-1 .statement}
 
-In E $\times$ S' the relation R$\mathcal{R}$x, y$\mathcal{R}$ defined by:
+In E $\times$ S' the relation R$\mathscr{R}$x, y$\mathscr{R}$ defined by:
 
 "there exist $a, b \in E$ and $p, q, s \in S'$ such that $x = (a, p), y = (b, q)$ and $aqs = bps$"
 
 is an equivalence relation compatible with the law on the product monoid E $\times$ S'.
 
-It is immediate that R is reflexive and symmetric. Let $x = (a, p), y = (b, q)$ and $z = (c, r)$ be elements of E $\times$ S' such that R$\mathcal{R}$x, y$\mathcal{R}$ and R$\mathcal{R}$y, z$\mathcal{R}$ hold. Then there exist two elements s and t of S' such that
+It is immediate that R is reflexive and symmetric. Let $x = (a, p), y = (b, q)$ and $z = (c, r)$ be elements of E $\times$ S' such that R$\mathscr{R}$x, y$\mathscr{R}$ and R$\mathscr{R}$y, z$\mathscr{R}$ hold. Then there exist two elements s and t of S' such that
 $$
 aq s = bps, \quad br t = cqt,
 $$

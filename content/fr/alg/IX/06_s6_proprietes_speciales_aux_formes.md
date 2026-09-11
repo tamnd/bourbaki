@@ -36,7 +36,7 @@ subsections:
       pdf_page: 98
 statements: 17
 exercises: 0
-content_sha256: 47f1f659ab524c37f71e815f6a42017440fa35076b74ec187bcb8b0be0c99277
+content_sha256: 64c120cd8fea231fd01df69e4b0842413cd496d71f9958164a6a57198bd868df
 ---
 
 ## § 6. Propriétés spéciales aux formes hermitiennes
@@ -183,7 +183,7 @@ Dans tout ce n°, on suppose que le scalaire 2 est inversible dans $A$ (par exem
 
 Pour qu’un endomorphisme $u$ de $E$ soit tel que $u^2 = 1$, il faut et il suffit que $\frac{1}{2}(1 - u)$ soit un projecteur dans $E$; alors $u$ est la différence des deux projecteurs $\frac{1}{2}(1 + u)$ et $\frac{1}{2}(1 - u)$.
 
-En effet, dans l’anneau $\mathcal{L}(E)$, la relation $\left( \frac{1}{2}(1 - u) \right)^2 = \frac{1}{2}(1 - u)$ équivaut à $u^2 = 1$. Le reste est trivial.
+En effet, dans l’anneau $\mathscr{L}(E)$, la relation $\left( \frac{1}{2}(1 - u) \right)^2 = \frac{1}{2}(1 - u)$ équivaut à $u^2 = 1$. Le reste est trivial.
 
 Un endomorphisme $u$ de $E$ tel que $u^2 = 1$ (qui est alors nécessairement un automorphisme de $E$ égal à son inverse) est appelé une involution. Posons $\varphi = \frac{1}{2}(1 - u)$, $U^- = \varphi(E)$, $U^+ = \varphi^{-1}(0)$ ($= \omega(E)$ en posant $\omega = \frac{1}{2}(1 + u)$); on sait que $E$ est somme directe de $U^+$ et de $U^-$ (chap. VIII, § 1, n° 1), et on a $u(x) = x$ dans $U^+$, $u(x) = -x$ dans $U^-$. Lorsque $A$ est un corps et $E$ de dimension finie, il en résulte, puisque $A$ est de caractéristique $\neq 2$, que les seuls vecteurs propres $\neq 0$ de $u$ sont les éléments ≠ 0 dans U^+ ou dans U^- ; ils correspondent respectivement aux valeurs propres + 1 et -1.
 

@@ -49,11 +49,11 @@ subsections:
       pdf_page: 138
 statements: 34
 exercises: 11
-content_sha256: 508554e7b85d1e30ccb16b00a5b7ebd7eb2a64c9b343442451ab43a998a070fa
+content_sha256: 54416da4450aedf0d055abbb198abf4094049266e29324c7d4875ba55d0197ad
 translated_from: content/fr/alg/X/07_s7_produit_de_composition.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: c72b3079baabb98afd4dd1c4c959e340a9fa65afd9bcb2aafcb4e94723f2c40b
+source_content_sha256: 2b00ee560983d75c09c92892f0d1097acdd749dd9087b712875a76d8fb9a271d
 translation_model: laguna-s-2.1-free, hy3-free, gpt-5-mini
 translation_run: translate-en-mt-71c9c53e
 glossary_version: 34
@@ -692,11 +692,11 @@ and where $R''_1=R_1\times_M R'_1$.
 
 Let
 
-$$(\mathcal{E})\qquad 0\longrightarrow M'\xrightarrow{\,f\,}M\xrightarrow{\,g\,}M''\longrightarrow0$$
+$$(\mathscr{E})\qquad 0\longrightarrow M'\xrightarrow{\,f\,}M\xrightarrow{\,g\,}M''\longrightarrow0$$
 
 be an exact sequence of left $A$-modules, $\theta\in\operatorname{Ext}^1_A(M'',M')$ the associated class, $N$ a left $A$-module, $n$ an integer.
 
-a) The connecting homomorphism $\delta^n(N,\mathcal{E}):\operatorname{Ext}^n_A(N,M'')\longrightarrow\operatorname{Ext}^{n+1}_A(N,M')$ is the composition product $\alpha\mapsto\theta\circ\alpha$ with $\theta$.
+a) The connecting homomorphism $\delta^n(N,\mathscr{E}):\operatorname{Ext}^n_A(N,M'')\longrightarrow\operatorname{Ext}^{n+1}_A(N,M')$ is the composition product $\alpha\mapsto\theta\circ\alpha$ with $\theta$.
 
 #### Corollaire 1 {#alg-x-s7-prop-5-cor-1 .statement}
 
@@ -738,7 +738,7 @@ $$
 Consider a short exact sequence of left A-modules
 
 $$
-(\mathcal{S}) \qquad 0 \to N \to R_n \xrightarrow{f_n} R_{n-1} \xrightarrow{f_{n-1}} \cdots \to R_1 \xrightarrow{f_1} M \to 0
+(\mathscr{S}) \qquad 0 \to N \to R_n \xrightarrow{f_n} R_{n-1} \xrightarrow{f_{n-1}} \cdots \to R_1 \xrightarrow{f_1} M \to 0
 $$
 
 and set $K_0=M$, $K_i=\operatorname{Ker}f_i$, $i=1,\ldots,n-1$, $K_n=N$. We therefore have exact sequences
@@ -757,33 +757,33 @@ $$
 \operatorname{Ext}_A^m(K_i,P)\to\operatorname{Ext}_A^{m+1}(K_{i-1},P),
 $$
 
-whence by composition of the *iterated connecting homomorphisms*, associated with $(\mathcal{S})$
+whence by composition of the *iterated connecting homomorphisms*, associated with $(\mathscr{S})$
 
 $$
-\delta^m(P,\mathcal{S}):\operatorname{Ext}_A^m(P,M)\to\operatorname{Ext}_A^{m+n}(P,N)
+\delta^m(P,\mathscr{S}):\operatorname{Ext}_A^m(P,M)\to\operatorname{Ext}_A^{m+n}(P,N)
 $$
 
 $$
-\delta^m(\mathcal{S},P):\operatorname{Ext}_A^m(N,P)\to\operatorname{Ext}_A^{m+n}(M,P).
+\delta^m(\mathscr{S},P):\operatorname{Ext}_A^m(N,P)\to\operatorname{Ext}_A^{m+n}(M,P).
 $$
 
 #### Corollary 3 {#alg-x-s7-prop-5-cor-3 .statement}
 
-If $\theta\in\operatorname{Ext}_A^n(M,N)$ is the class of the exact sequence $(\mathcal{S})$, we have
+If $\theta\in\operatorname{Ext}_A^n(M,N)$ is the class of the exact sequence $(\mathscr{S})$, we have
 
 $$
-\delta^m(P,\mathcal{S})(\alpha)=\theta\circ\alpha,\qquad
-\delta^m(\mathcal{S},P)(\beta)=(-1)^{mn+n(n+1)/2}\beta\circ\theta.
+\delta^m(P,\mathscr{S})(\alpha)=\theta\circ\alpha,\qquad
+\delta^m(\mathscr{S},P)(\beta)=(-1)^{mn+n(n+1)/2}\beta\circ\theta.
 $$
 
 If $\theta_i\in\operatorname{Ext}_A^1(K_{i-1},K_i)$ is the class associated with the exact sequence (9), we have by Proposition 5
 
 $$
-\delta^m(P,\mathcal{S})(\alpha)=\theta_n\circ\cdots\circ\theta_2\circ\theta_1\circ\alpha
+\delta^m(P,\mathscr{S})(\alpha)=\theta_n\circ\cdots\circ\theta_2\circ\theta_1\circ\alpha
 $$
 
 $$
-\delta^m(\mathcal{S},P)(\beta)=(-1)^{(m+1)+\cdots+(m+n)}\beta\circ\theta_n\circ\cdots\circ\theta_1.
+\delta^m(\mathscr{S},P)(\beta)=(-1)^{(m+1)+\cdots+(m+n)}\beta\circ\theta_n\circ\cdots\circ\theta_1.
 $$
 
 Moreover, by Proposition 3 (X, p. 118), we have $\theta=\theta_n\circ\cdots\circ\theta_1$. The corollary follows immediately from this, and from the relation (E, III, p. 44)
@@ -910,7 +910,7 @@ $$
 $$
 be an exact sequence of right $A$-modules, $\theta \in \mathrm{Ext}_A^1(P'', P')$ the associated class, $M$ a left $A$-module. The connecting homomorphism
 $$
-\delta_n(\mathcal{E}, M) : \mathrm{Tor}_n^A(P'', M) \to \mathrm{Tor}_{n-1}^A(P', M) \text{ is the mapping } \gamma \mapsto \theta \circ \gamma .
+\delta_n(\mathscr{E}, M) : \mathrm{Tor}_n^A(P'', M) \to \mathrm{Tor}_{n-1}^A(P', M) \text{ is the mapping } \gamma \mapsto \theta \circ \gamma .
 $$
 
 b) Let
@@ -921,7 +921,7 @@ $$
 $$
 be an exact sequence of left $A$-modules, $\theta_1 \in \mathrm{Ext}_A^1(M'', M')$ the associated class, $P$ a right $A$-module. The connecting homomorphism
 $$
-\delta_n(P, \mathcal{E}_1) : \mathrm{Tor}_n^A(P, M'') \to \mathrm{Tor}_{n-1}^A(P, M') \text{ is the mapping } \gamma \mapsto \theta_1 \circ \gamma .
+\delta_n(P, \mathscr{E}_1) : \mathrm{Tor}_n^A(P, M'') \to \mathrm{Tor}_{n-1}^A(P, M') \text{ is the mapping } \gamma \mapsto \theta_1 \circ \gamma .
 $$
 Let $\gamma \in \mathrm{Tor}_n^A(P'', M)$ be the class of a cycle $z'' \in \dot{Z}_n(L(P'') \otimes_A L(M))$, and let
 $$
@@ -973,19 +973,19 @@ $$
 
 Indeed, if $\theta$ and $\theta_1$ are the classes associated with the given exact sequences, and if $\gamma \in \mathrm{Tor}_n^A(P'', M'')$, the images of $\gamma$ are respectively $\theta \circ (\theta_1 \circ \gamma)$ and $\theta_1 \circ (\theta \circ \gamma)$, hence are opposite by prop. 6.
 
-Let us resume the notations of X, p. 127 and consider the sequence $(\mathcal{S})$ of left $A$-modules and the connecting homomorphisms associated with the exact sequences (9)
+Let us resume the notations of X, p. 127 and consider the sequence $(\mathscr{S})$ of left $A$-modules and the connecting homomorphisms associated with the exact sequences (9)
 $$
 \mathrm{Tor}_m^A(P, K_{i-1}) \to \mathrm{Tor}_{m-1}^A(P, K_i);
 $$
 we deduce from this by composition of the *iterated connecting homomorphisms*
 $$
-\hat{\partial}_m(P, \mathcal{S}) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A(P, N).
+\hat{\partial}_m(P, \mathscr{S}) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A(P, N).
 $$
 Then by prop. 7 and prop. 3 of X, p. 118 :
 
 #### Corollary 2 {#alg-x-s7-prop-7-cor-2 .statement}
 
-If $\theta \in \mathrm{Ext}_A^n(M, N)$ is the class associated with the exact sequence $(\mathcal{S})$, we have $\hat{\partial}_m(P, \mathcal{S})(\alpha) = \theta \circ \alpha$ for all $\alpha \in \mathrm{Tor}_m^A(P, M)$.
+If $\theta \in \mathrm{Ext}_A^n(M, N)$ is the class associated with the exact sequence $(\mathscr{S})$, we have $\hat{\partial}_m(P, \mathscr{S})(\alpha) = \theta \circ \alpha$ for all $\alpha \in \mathrm{Tor}_m^A(P, M)$.
 
 #### Corollary 3 {#alg-x-s7-prop-7-cor-3 .statement}
 
@@ -1001,18 +1001,18 @@ where the extreme terms are zero by hypothesis.
 
 Analogously, if
 
-$$(\mathcal{S}_1)$$
+$$(\mathscr{S}_1)$$
 $$0 \to Q \to S_n \to S_{n-1} \to \ldots \to S_1 \to P \to 0$$
 
 is an exact sequence of right $A$-modules, and $M$ a left $A$-module, we define *iterated connecting homomorphisms*
 
-$$\partial^m(\mathcal{S}_1, M) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A(Q, M)$$
+$$\partial^m(\mathscr{S}_1, M) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A(Q, M)$$
 
 and we have:
 
 #### Corollary 4 {#alg-x-s7-prop-7-cor-4 .statement}
 
-If $\theta_1 \in \mathrm{Ext}_A^n(P, Q)$ is the class associated with the exact sequence $(\mathcal{S}_1)$, we have $\partial^m(\mathcal{S}_1, M)(\alpha) = \theta_1 \circ \alpha$ for all $\alpha \in \mathrm{Tor}_m^A(P, M)$.
+If $\theta_1 \in \mathrm{Ext}_A^n(P, Q)$ is the class associated with the exact sequence $(\mathscr{S}_1)$, we have $\partial^m(\mathscr{S}_1, M)(\alpha) = \theta_1 \circ \alpha$ for all $\alpha \in \mathrm{Tor}_m^A(P, M)$.
 
 ### 9. Computation of Composition Products by Resolution Shifts
 

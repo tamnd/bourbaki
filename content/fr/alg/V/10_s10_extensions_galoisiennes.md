@@ -37,7 +37,7 @@ subsections:
       pdf_page: 167
 statements: 51
 exercises: 23
-content_sha256: d5887dc184e32c14705ba2fd592afc40349b31482eec49a947ee4ea3c59c8fef
+content_sha256: 28d3a34fb02207fe7aab1c75378cf65bfb25e1149053f8a7f1062cc40cf11c8a
 ---
 
 ## § 10. EXTENSIONS GALOISIENNES
@@ -332,8 +332,8 @@ Enfin, l’assertion c) résulte du th. 2 (V, p. 63) qui prouve l’*existence* 
 
 #### Théorème 4 {#alg-v-s10-thm-4 .statement}
 
-*Soient $\mathbf{N}$ une extension galoisienne de $\mathbf{K}$ et $\Gamma$ son groupe de Galois. Soit $\mathcal{K}$ l’ensemble des sous-extensions de $\mathbf{N}$ et soit $\mathcal{G}$ l’ensemble des sous-groupes fermés de $\Gamma$. Pour tout sous-groupe $\Delta \in \mathcal{G}$, on note $k(\Delta)$ le corps des invariants de $\Delta$ et pour tout sous-corps $E \in \mathcal{K}$, on note $g(E)$ le groupe des $E$-automorphismes de $\mathbf{N}$. Alors $\Delta \mapsto k(\Delta)$ est une bijection de $\mathcal{G}$ sur $\mathcal{K}$, et $E \mapsto g(E)$ est la bijection réciproque.*
-A) La relation $E = k(g(E))$ (pour $E \in \mathcal{K}$) résulte du lemme plus précis suivant :
+*Soient $\mathbf{N}$ une extension galoisienne de $\mathbf{K}$ et $\Gamma$ son groupe de Galois. Soit $\mathscr{K}$ l’ensemble des sous-extensions de $\mathbf{N}$ et soit $\mathscr{G}$ l’ensemble des sous-groupes fermés de $\Gamma$. Pour tout sous-groupe $\Delta \in \mathscr{G}$, on note $k(\Delta)$ le corps des invariants de $\Delta$ et pour tout sous-corps $E \in \mathscr{K}$, on note $g(E)$ le groupe des $E$-automorphismes de $\mathbf{N}$. Alors $\Delta \mapsto k(\Delta)$ est une bijection de $\mathscr{G}$ sur $\mathscr{K}$, et $E \mapsto g(E)$ est la bijection réciproque.*
+A) La relation $E = k(g(E))$ (pour $E \in \mathscr{K}$) résulte du lemme plus précis suivant :
 
 #### Lemme 1 {#alg-v-s10-lem-1 .statement}
 
@@ -346,7 +346,7 @@ V(x_1, \ldots, x_n) = U(x_1, \ldots, x_n) \cap \Delta.
 $$
 Alors la famille des ensembles $U(x_1, \ldots, x_n)$ (resp. $V(x_1, \ldots, x_n)$) est une base de voisinages de $\sigma$ dans $\Gamma$ (resp. $\Delta$). Donc la topologie de $\Delta$ est induite par celle de $\Gamma$.
 
-B) La relation $\Delta = g(k(\Delta))$ (pour $\Delta \in \mathcal{G}$) résulte du lemme plus précis suivant :
+B) La relation $\Delta = g(k(\Delta))$ (pour $\Delta \in \mathscr{G}$) résulte du lemme plus précis suivant :
 
 #### Lemme 2 {#alg-v-s10-lem-2 .statement}
 
@@ -386,7 +386,7 @@ Soit $E$ un sous-corps de $N$ contenant $K$. Pour que $E$ soit de degré fini su
 
 Pour que $g(E)$ soit ouvert, il faut et il suffit qu’il existe une sous-extension $F$ de $N$, de degré fini sur $K$, telle que, avec les notations de V, p. 58, $g(E)$ contienne $U_F(\mathrm{Id}_N) = g(F)$. La relation $g(E) \supset g(F)$ équivaut à $E \subset F$ d’après le cor. 1 (V, p. 65), d’où la première assertion du cor. 5.
 
-Supposons $[E : K]$ fini. Soit $\Omega$ une clôture algébrique de $K$ contenant $N$ comme sous-extension (V, p. 22, th. 2) et soit $\mathcal{H}$ l’ensemble des $K$-homomorphismes de $E$ dans $\Omega$. Tout élément de $\mathcal{H}$ est induit par un $K$-automorphisme de $\Omega$ (V, p. 50, prop. 1), et comme $N$ est quasi-galoisienne sur $K$, l’application $\sigma \mapsto \sigma|E$ de $\Gamma$ dans $\mathcal{H}$ est surjective. Pour que $\sigma \in \Gamma$ et $\sigma' \in \Gamma$ aient même restriction à $E$, il faut et il suffit qu’on ait $\sigma^{-1} \sigma' \in g(E)$, d’où $\mathrm{Card} \, \mathcal{H} = (\Gamma : g(E))$. Enfin, comme $E$ est une algèbre étale sur $K$, on a $\mathrm{Card} \, \mathcal{H} = [E : K]$ (V, p. 31, prop. 4). En conclusion, on a $(\Gamma : g(E)) = [E : K]$.
+Supposons $[E : K]$ fini. Soit $\Omega$ une clôture algébrique de $K$ contenant $N$ comme sous-extension (V, p. 22, th. 2) et soit $\mathscr{H}$ l’ensemble des $K$-homomorphismes de $E$ dans $\Omega$. Tout élément de $\mathscr{H}$ est induit par un $K$-automorphisme de $\Omega$ (V, p. 50, prop. 1), et comme $N$ est quasi-galoisienne sur $K$, l’application $\sigma \mapsto \sigma|E$ de $\Gamma$ dans $\mathscr{H}$ est surjective. Pour que $\sigma \in \Gamma$ et $\sigma' \in \Gamma$ aient même restriction à $E$, il faut et il suffit qu’on ait $\sigma^{-1} \sigma' \in g(E)$, d’où $\mathrm{Card} \, \mathscr{H} = (\Gamma : g(E))$. Enfin, comme $E$ est une algèbre étale sur $K$, on a $\mathrm{Card} \, \mathscr{H} = [E : K]$ (V, p. 31, prop. 4). En conclusion, on a $(\Gamma : g(E)) = [E : K]$.
 
 #### Corollaire 6 {#alg-v-s10-lem-2-cor-6 .statement}
 
@@ -566,15 +566,15 @@ Le lemme suivant est un cas particulier de résultats plus généraux démontré
 
 Soit M un A-module de torsion engendré par un nombre fini d’éléments $x_1, \ldots, x_h$. Il existe alors un élément x de M dont l’annulateur (II, p. 28) est égal à l’annulateur de M.
 
-Dans les deux cas, A est un anneau intègre et tout idéal de A est principal. Lorsque $A = \mathbf{Z}$ (resp. $A = K[X]$), on note $\mathcal{P}$ l’ensemble des nombres premiers (resp. l’ensemble des polynômes unitaires irréductibles de $K[X]$). Pour tout élément $a \neq 0$ de A, il existe alors un élément inversible u de A et une famille $(v_p(a))_{p \in \mathcal{P}}$ à support fini d’entiers positifs tels que $a = u \prod_{p \in \mathcal{P}} p^{v_p(a)}$, et u et les entiers $v_p(a)$ sont déterminés de manière unique (I, p. 49 et IV, p. 13, prop. 13).
+Dans les deux cas, A est un anneau intègre et tout idéal de A est principal. Lorsque $A = \mathbf{Z}$ (resp. $A = K[X]$), on note $\mathscr{P}$ l’ensemble des nombres premiers (resp. l’ensemble des polynômes unitaires irréductibles de $K[X]$). Pour tout élément $a \neq 0$ de A, il existe alors un élément inversible u de A et une famille $(v_p(a))_{p \in \mathscr{P}}$ à support fini d’entiers positifs tels que $a = u \prod_{p \in \mathscr{P}} p^{v_p(a)}$, et u et les entiers $v_p(a)$ sont déterminés de manière unique (I, p. 49 et IV, p. 13, prop. 13).
 
 Soient $a_i$ l’annulateur de $x_i$ (pour $1 \leq i \leq h$) et a l’annulateur de M. Soient $a_1, \ldots, a_h, a$ des éléments non nuls de A tels que $a_i = Aa_i$ et $a = Aa$; comme on a $a = a_1 \cap \ldots \cap a_h$, il résulte de ce qui précède qu’on a
 
 $$
-v_p(a) = \sup_{1 \leq i \leq h} v_p(a_i) \quad \text{pour tout } p \in \mathcal{P}.
+v_p(a) = \sup_{1 \leq i \leq h} v_p(a_i) \quad \text{pour tout } p \in \mathscr{P}.
 $$
 
-Écrivons $a$ sous la forme $up_1^{n(1)} \cdots p_r^{n(r)}$ avec $p_1, \ldots, p_r$ distincts dans $\mathcal{P}$, des entiers $n(1) > 0, \ldots, n(r) > 0$ et un élément inversible u de A. Soit $j = 1, \ldots, r$; d’après la formule (10), il existe un entier $c(j)$ tel que $1 \leq c(j) \leq h$ et $v_{p_j}(a_{c(j)}) = n(j)$; il existe $b_j$ dans A avec $a_{c(j)} = p_j^{n(j)} b_j$, et l’élément $y_j = b_j x_{c(j)}$ a pour annulateur l’idéal $Ap_j^{n(j)}$.
+Écrivons $a$ sous la forme $up_1^{n(1)} \cdots p_r^{n(r)}$ avec $p_1, \ldots, p_r$ distincts dans $\mathscr{P}$, des entiers $n(1) > 0, \ldots, n(r) > 0$ et un élément inversible u de A. Soit $j = 1, \ldots, r$; d’après la formule (10), il existe un entier $c(j)$ tel que $1 \leq c(j) \leq h$ et $v_{p_j}(a_{c(j)}) = n(j)$; il existe $b_j$ dans A avec $a_{c(j)} = p_j^{n(j)} b_j$, et l’élément $y_j = b_j x_{c(j)}$ a pour annulateur l’idéal $Ap_j^{n(j)}$.
 
 Montrons que l’annulateur b de $y = y_1 + \cdots + y_r$ est égal à l’annulateur a de M. On a en tout cas $a \subset b$, donc b est de la forme $Ap_1^{m(1)} \cdots p_r^{m(r)}$ avec $0 \leq m(j) \leq n(j)$
 

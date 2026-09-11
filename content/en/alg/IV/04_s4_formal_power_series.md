@@ -54,7 +54,7 @@ subsections:
       pdf_page: 48
 statements: 23
 exercises: 8
-content_sha256: 1ae2452e09c6aae656d15e99ae783f3b775e219c73ee5639bef38a58f20ea3cb
+content_sha256: 97abd39154e8116dbd7036aeda3b726bb4c49fc23082a657e7c8c9ba4f4f0f02
 ---
 
 ## § 4. FORMAL POWER SERIES
@@ -127,13 +127,13 @@ c) Let $(u_\lambda)_{\lambda \in L}$ be a family of elements of $A[[I]]$ and sup
 
 #### Proposition 1 {#alg-iv-s4-prop-1 .statement}
 
-*Let* $(u,)_{\mu \in \mathcal{J}}$ *and* $(v_\mu)_{\mu \in \mathcal{J}}$ *be two summable families of elements of* $\mathbf{A}[[\mathbf{I}]]$. *Then the family* $(u_\lambda v_\mu)_{(\lambda, \mu) \in \mathcal{J} \times M}$ *is summable and we have*
+*Let* $(u,)_{\mu \in \mathscr{J}}$ *and* $(v_\mu)_{\mu \in \mathscr{J}}$ *be two summable families of elements of* $\mathbf{A}[[\mathbf{I}]]$. *Then the family* $(u_\lambda v_\mu)_{(\lambda, \mu) \in \mathscr{J} \times M}$ *is summable and we have*
 
 $$
 \sum_{(\lambda, \mu) \in L \times M} u_\lambda v_\mu = \left( \sum_{\lambda \in L} u_\lambda \right) \left( \sum_{\mu \in M} v_\mu \right)
 $$
 
-Let $(\alpha_{\lambda, \nu})_{\nu \in \mathbf{N}^{(1)}}$ (resp. $(\beta_{\mu, \nu})_{\nu \in \mathbf{N}^{(1)}}$) be the family of coefficients of $u_\lambda$ (resp. $v_\nu$). For each $\nu \in \mathbf{N}^{(1)}$ there exists only a finite number of pairs $(\nu_1, \nu_2) \in \mathbf{N}^{(1)} \times \mathbf{N}^{(1)}$ such that $\nu_1 + \nu_2 = \nu$, hence only a finite number of pairs $(\lambda, \mu) \in L \times M$ such that the coefficient of $X^\nu$ in $u_\lambda v_\mu$ is $\neq 0$. Hence the family $(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times \mathcal{J}}$ is summable. Now the formula (2) follows from the associativity of the sum (Gen. Top., III, p. 265, formula (2)).
+Let $(\alpha_{\lambda, \nu})_{\nu \in \mathbf{N}^{(1)}}$ (resp. $(\beta_{\mu, \nu})_{\nu \in \mathbf{N}^{(1)}}$) be the family of coefficients of $u_\lambda$ (resp. $v_\nu$). For each $\nu \in \mathbf{N}^{(1)}$ there exists only a finite number of pairs $(\nu_1, \nu_2) \in \mathbf{N}^{(1)} \times \mathbf{N}^{(1)}$ such that $\nu_1 + \nu_2 = \nu$, hence only a finite number of pairs $(\lambda, \mu) \in L \times M$ such that the coefficient of $X^\nu$ in $u_\lambda v_\mu$ is $\neq 0$. Hence the family $(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times \mathscr{J}}$ is summable. Now the formula (2) follows from the associativity of the sum (Gen. Top., III, p. 265, formula (2)).
 
 In $\mathbf{A}[[\mathbf{I}]]$ the product is an associative and commutative composition law. We may therefore speak of a *multipliable family* of elements of $\mathbf{A}[[\mathbf{I}]]$ and of the *product* of a multipliable family (Gen. Top., III, p. 262, remark 3).
 
@@ -141,13 +141,13 @@ In $\mathbf{A}[[\mathbf{I}]]$ the product is an associative and commutative comp
 
 *Let* $(u_\lambda)_\lambda$ *be a summable family of elements of* $\mathbf{A}[[\mathbf{I}]]$.
 (i) *The family* $(1 + u_\lambda)_\lambda$ *is multipliable*.
-(ii) *Let* $\mathfrak{T}$ *be the set of all finite subsets of* $L$. *For any* $M \in \mathcal{S}$ *put* $u_M = \prod_{\lambda \in M} u_\lambda$. *Then the family* $(u_M)_{M \in \mathfrak{T}}$ *is summable and we have*
+(ii) *Let* $\mathfrak{T}$ *be the set of all finite subsets of* $L$. *For any* $M \in \mathscr{S}$ *put* $u_M = \prod_{\lambda \in M} u_\lambda$. *Then the family* $(u_M)_{M \in \mathfrak{T}}$ *is summable and we have*
 
 $$
 \sum_{M \in \mathfrak{T}} u_M = \prod_{\lambda \in L} (1 + u_\lambda).
 $$
 
-Let us define the ideals $\mathfrak{a}_\beta$ as at the beginning of this No., and let $\beta \in \mathbf{N}^{(1)}$. There exists a finite subset $L_0$ of $L$ such that $u_\lambda \in \mathfrak{a}_\beta$ for $\lambda \notin L_0$. Then for every $M \in \mathcal{S}$ such that $M \not\subset L_0$ we have $u_M \in \mathfrak{a}_\beta$. It follows that the family $(u_M)_{M \in \mathfrak{T}}$ is summable. On the other hand, for any finite subset $M_0$ of $L$ we have
+Let us define the ideals $\mathfrak{a}_\beta$ as at the beginning of this No., and let $\beta \in \mathbf{N}^{(1)}$. There exists a finite subset $L_0$ of $L$ such that $u_\lambda \in \mathfrak{a}_\beta$ for $\lambda \notin L_0$. Then for every $M \in \mathscr{S}$ such that $M \not\subset L_0$ we have $u_M \in \mathfrak{a}_\beta$. It follows that the family $(u_M)_{M \in \mathfrak{T}}$ is summable. On the other hand, for any finite subset $M_0$ of $L$ we have
 
 $$
 \sum_{M \subset M_0} u_M = \prod_{\lambda \in M_0} (1 + u_\lambda).
@@ -253,7 +253,7 @@ Conversely, suppose that the constant term $a$ of $u$ is invertible. Then there 
 
 — Let $A$ be the set of all formal power series with constant term 1. By Prop. 6, $M$ is a commutative group under multiplication; the multiplicative group of $A[[I]]$ is thus the direct product of $M$ and the multiplicative group of $A$. We shall equip $A$ with the topology induced from that of $A[[I]]$. For each $\beta \in \mathbf{N}^{(1)}$ we have in IV, p. 26 defined the ideal $a_\beta$ of $A[[I]]$; then $1 + a_\beta$ is a subgroup of $M$ and the family $(1 + a_{\beta'})$ is a fundamental system of neighbourhoods of 1 in $M$. Since the multiplication in $M$ is continuous, we see that $A$ is a topological group (Gen. Top., III, p. 223); in other words, the *mapping* $f \mapsto f^{-1}$ *is continuous in* $M$.
 
-Let $K$ be a commutative field and $\mathcal{O}$ the subring of the field of rational fractions $K((X_i)_{i,,})$ formed of rational fractions in which the element 0 of $K^1$ is substitutable. If $f \in \mathcal{O}$, we have $f = \frac{u}{v}$, where $u$ and $v$ are polynomials such that the constant term of $v$ is $\neq 0$, hence $v$ is invertible in $K[[I]]$. We can verify at once that the element $uv^{-1}$ of $K[[I]]$ depends only on $f$; we say that the formal power series $uv^{-1}$ is the *expansion at the origin of the rational fraction* $\frac{u}{v}$. The mapping $f \mapsto uv^{-1}$ is an injective homomorphism of $\mathcal{O}$ into $K[[I]]$; we shall often identify $\mathcal{O}$ with its image under this mapping.
+Let $K$ be a commutative field and $\mathscr{O}$ the subring of the field of rational fractions $K((X_i)_{i,,})$ formed of rational fractions in which the element 0 of $K^1$ is substitutable. If $f \in \mathscr{O}$, we have $f = \frac{u}{v}$, where $u$ and $v$ are polynomials such that the constant term of $v$ is $\neq 0$, hence $v$ is invertible in $K[[I]]$. We can verify at once that the element $uv^{-1}$ of $K[[I]]$ depends only on $f$; we say that the formal power series $uv^{-1}$ is the *expansion at the origin of the rational fraction* $\frac{u}{v}$. The mapping $f \mapsto uv^{-1}$ is an injective homomorphism of $\mathscr{O}$ into $K[[I]]$; we shall often identify $\mathscr{O}$ with its image under this mapping.
 
 ### 5. Taylor's formula for formal power series
 
@@ -654,23 +654,23 @@ $$
 
 whence $I(e(X)) = X$.
 
-Let K be a Q-algebra, then the elements of K[[I]] without constant term form a commutative group $\mathcal{E}$ under addition. The elements of K[[I]] with constant term 1 form a commutative group $\mathbf{A}$ under multiplication (IV, p. 30). For each $f \in \mathcal{E}$, we can define the elements $e \circ f$ and $I \circ f$ of $\mathcal{E}$, and by Prop. 14 above, the mappings $f \mapsto l \circ f$ and $f \mapsto e \circ f$ are mutually inverse permutations of $\mathcal{E}$; clearly they are continuous. Since $\exp X = e(X) + 1$, we see that the exponential mapping $f \mapsto \exp f = e \circ f + 1$ is a continuous bijection of $\mathcal{E}$ onto $\mathcal{M}$. By formula (4) of IV, p. 29 and Prop. 13, we have $\exp(f+g) = (\exp f)(\exp g)$ for $f, g \in \mathcal{E}$. Thus the exponential is an isomorphism of the topological group $\mathcal{E}$ onto the topological group $\mathbf{A}$.
+Let K be a Q-algebra, then the elements of K[[I]] without constant term form a commutative group $\mathscr{E}$ under addition. The elements of K[[I]] with constant term 1 form a commutative group $\mathbf{A}$ under multiplication (IV, p. 30). For each $f \in \mathscr{E}$, we can define the elements $e \circ f$ and $I \circ f$ of $\mathscr{E}$, and by Prop. 14 above, the mappings $f \mapsto l \circ f$ and $f \mapsto e \circ f$ are mutually inverse permutations of $\mathscr{E}$; clearly they are continuous. Since $\exp X = e(X) + 1$, we see that the exponential mapping $f \mapsto \exp f = e \circ f + 1$ is a continuous bijection of $\mathscr{E}$ onto $\mathscr{M}$. By formula (4) of IV, p. 29 and Prop. 13, we have $\exp(f+g) = (\exp f)(\exp g)$ for $f, g \in \mathscr{E}$. Thus the exponential is an isomorphism of the topological group $\mathscr{E}$ onto the topological group $\mathbf{A}$.
 
-The inverse isomorphism of $\mathcal{M}$ onto $\mathcal{E}$ is called the logarithm and is written $g \mapsto \log g$. We thus have $\log g = l(g-1)$ for $g$ in $\mathcal{M}$, and in particular,
+The inverse isomorphism of $\mathscr{M}$ onto $\mathscr{E}$ is called the logarithm and is written $g \mapsto \log g$. We thus have $\log g = l(g-1)$ for $g$ in $\mathscr{M}$, and in particular,
 
 (38)
 $$
 \log(1+X) = l(X).
 $$
 
-Since the logarithm is a homomorphism of $\mathcal{M}$ into $\mathcal{E}$, the formula $(1+X)(1+Y) = 1 + (X+Y+XY)$ implies
+Since the logarithm is a homomorphism of $\mathscr{M}$ into $\mathscr{E}$, the formula $(1+X)(1+Y) = 1 + (X+Y+XY)$ implies
 
 (39)
 $$
 l(X) + l(Y) = l(X+Y+XY).
 $$
 
-Let $(u,)_{\lambda}$ be a summable family of elements of $\mathcal{B}$, then the family $(\exp u_{\lambda})_{\lambda \in L}$ is multipliable and we have
+Let $(u,)_{\lambda}$ be a summable family of elements of $\mathscr{B}$, then the family $(\exp u_{\lambda})_{\lambda \in L}$ is multipliable and we have
 
 (40)
 $$

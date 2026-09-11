@@ -53,7 +53,7 @@ subsections:
       pdf_page: 49
 statements: 56
 exercises: 18
-content_sha256: 861a391434771556fa8eb6b95600862c1fab35a9ef0810851b123295d669544a
+content_sha256: 6857aa8cf459b7e70d7ac71bc9c667d40a8dc3e14e68ee4fc017dc432d3193c9
 translated_from: content/fr/alg/X/02_s2_complexes_de_a_modules.md
 source_lang: fr
 translation_method: machine
@@ -870,52 +870,52 @@ On a donc $\partial(u,v)=H(\delta)\circ H(\varphi)^{-1}$, ce qui fournit une *no
 
 ### 8. Caractéristiques d'Euler-Poincaré
 
-Dans ce no, on considère un ensemble $\mathcal C$ de classes de A-modules qui est *additif et exact à gauche*, c'est-à-dire qui satisfait aux deux conditions suivantes :
+Dans ce no, on considère un ensemble $\mathscr C$ de classes de A-modules qui est *additif et exact à gauche*, c'est-à-dire qui satisfait aux deux conditions suivantes :
 
-(A) *Si* $M$ *et* $N$ *sont deux A-modules de type* $\mathcal C$, $M\oplus N$ *est de type* $\mathcal C$.
+(A) *Si* $M$ *et* $N$ *sont deux A-modules de type* $\mathscr C$, $M\oplus N$ *est de type* $\mathscr C$.
 
-(G) If $0\to M'\to M\to M''\to0$ is an exact sequence of A-modules and if $M$ and $M''$ are of type $\mathcal C$, then $M'$ is of type $\mathcal C$.
+(G) If $0\to M'\to M\to M''\to0$ is an exact sequence of A-modules and if $M$ and $M''$ are of type $\mathscr C$, then $M'$ is of type $\mathscr C$.
 
-We say that $\mathcal C$ is stable if it satisfies the following conditions which imply (A) and (G):
+We say that $\mathscr C$ is stable if it satisfies the following conditions which imply (A) and (G):
 
-(E) ("$\mathcal C$ is stable under extensions.") If $0\to M'\to M\to M''\to0$ is an exact sequence of A-modules and if $M'$ and $M''$ are of type $\mathcal C$, then $M$ is of type $\mathcal C$.
+(E) ("$\mathscr C$ is stable under extensions.") If $0\to M'\to M\to M''\to0$ is an exact sequence of A-modules and if $M'$ and $M''$ are of type $\mathscr C$, then $M$ is of type $\mathscr C$.
 
-(S) ("$\mathcal C$ is stable under kernels and cokernels.") For every homomorphism $f$ of A-modules of type $\mathcal C$, the A-modules $\operatorname{Ker}f$ and $\operatorname{Coker}f$ are of type $\mathcal C$.
+(S) ("$\mathscr C$ is stable under kernels and cokernels.") For every homomorphism $f$ of A-modules of type $\mathscr C$, the A-modules $\operatorname{Ker}f$ and $\operatorname{Coker}f$ are of type $\mathscr C$.
 
-We denote by $K(\mathcal C)$ the grothendieck group of $\mathcal C$ and by $[M]_{\mathcal C}$ or $[M]$ the element of $K(\mathcal C)$ defined by the A-module $M$ (VIII, §6, No. 2). Let $G$ be a commutative group and $\varphi$ a homomorphism of $K(\mathcal C)$ into $G$.
+We denote by $K(\mathscr C)$ the grothendieck group of $\mathscr C$ and by $[M]_{\mathscr C}$ or $[M]$ the element of $K(\mathscr C)$ defined by the A-module $M$ (VIII, §6, No. 2). Let $G$ be a commutative group and $\varphi$ a homomorphism of $K(\mathscr C)$ into $G$.
 
 #### Example 1 {#alg-x-s2-n8-exa-1 .statement}
 
-If A is a field, we may take as $\mathcal C$ the set of classes of finite-dimensional vector spaces and as $\varphi$ the isomorphism of $K(\mathcal C)$ onto $\mathbf Z$ defined by $\varphi([M]) = \dim(M)$.
+If A is a field, we may take as $\mathscr C$ the set of classes of finite-dimensional vector spaces and as $\varphi$ the isomorphism of $K(\mathscr C)$ onto $\mathbf Z$ defined by $\varphi([M]) = \dim(M)$.
 
 #### Example 2 {#alg-x-s2-n8-exa-2 .statement}
 
-We may take as $\mathcal C$ the set of classes of modules of finite length and as $\varphi: K(\mathcal C) \to \mathbf Z$ the homomorphism defined by $\varphi([M]) = \operatorname{long}_A(M)$.
+We may take as $\mathscr C$ the set of classes of modules of finite length and as $\varphi: K(\mathscr C) \to \mathbf Z$ the homomorphism defined by $\varphi([M]) = \operatorname{long}_A(M)$.
 
-We say that a graded A-module M is of type $\mathcal C$ if $M_n$ is of type $\mathcal C$ for all n (for this, it is necessary when M is bounded and sufficient when $\mathcal C$ is stable that the module M be of type $\mathcal C$).
+We say that a graded A-module M is of type $\mathscr C$ if $M_n$ is of type $\mathscr C$ for all n (for this, it is necessary when M is bounded and sufficient when $\mathscr C$ is stable that the module M be of type $\mathscr C$).
 
 #### Definition 8 {#alg-x-s2-def-8 .statement}
 
-Let M be a bounded graded A-module of type $\mathcal C$ and $(M_n)$ its grading. We call the $\varphi$-characteristic of M and denote $\chi_\varphi(M)$ or simply $\chi(M)$ the element $\sum (-1)^n \varphi([M_n])$ of G.
+Let M be a bounded graded A-module of type $\mathscr C$ and $(M_n)$ its grading. We call the $\varphi$-characteristic of M and denote $\chi_\varphi(M)$ or simply $\chi(M)$ the element $\sum (-1)^n \varphi([M_n])$ of G.
 
 This definition applies in particular when M is the graded module underlying a complex of A-modules.
 
 #### Example 3 {#alg-x-s2-n8-exa-3 .statement}
 
-If M is bounded of type $\mathcal{C}$, it is analogously the case for $M(p)$ for every $p \in \mathbf{Z}$, and one has $\chi(M(p)) = (-1)^p \chi(M)$.
+If M is bounded of type $\mathscr{C}$, it is analogously the case for $M(p)$ for every $p \in \mathbf{Z}$, and one has $\chi(M(p)) = (-1)^p \chi(M)$.
 
-4) Let $0 \to M' \to M \to M'' \to 0$ be an exact sequence of graded A-modules and graded homomorphisms of degree 0. If M, M' and M'' are bounded of type $\mathcal{C}$, one has
+4) Let $0 \to M' \to M \to M'' \to 0$ be an exact sequence of graded A-modules and graded homomorphisms of degree 0. If M, M' and M'' are bounded of type $\mathscr{C}$, one has
 $$
 \chi(M) = \chi(M') + \chi(M'').
 $$
-If M and M'' are bounded of type $\mathcal{C}$, it is analogously the case for M'; if $\mathcal{C}$ is stable and if two of the three modules are bounded of type $\mathcal{C}$, it is analogously the case for the third.
+If M and M'' are bounded of type $\mathscr{C}$, it is analogously the case for M'; if $\mathscr{C}$ is stable and if two of the three modules are bounded of type $\mathscr{C}$, it is analogously the case for the third.
 
-5) Let $u : C' \to C$ be a morphism of bounded complexes of type $\mathcal{C}$. Then Con ($u$) is bounded of type $\mathcal{C}$, and one has:
+5) Let $u : C' \to C$ be a morphism of bounded complexes of type $\mathscr{C}$. Then Con ($u$) is bounded of type $\mathscr{C}$, and one has:
 $$
 \chi(\operatorname{Con}(u)) = \chi(C) - \chi(C').
 $$
 
-6) One may take for G the group $K(\mathcal{C})$ itself, and for $\varphi$ the identity; in this case one denotes by $\chi_{\mathcal{C}}(M)$ the element $\chi_\varphi(M) = \sum (-1)^n[M_n]$ of $K(\mathcal{C})$.
+6) One may take for G the group $K(\mathscr{C})$ itself, and for $\varphi$ the identity; in this case one denotes by $\chi_{\mathscr{C}}(M)$ the element $\chi_\varphi(M) = \sum (-1)^n[M_n]$ of $K(\mathscr{C})$.
 
 #### Remark {#alg-x-s2-n8-rem-1 .statement}
 
@@ -923,23 +923,23 @@ One calls the Poincaré polynomial of M relative to $\varphi$ the element $P_M(t
 
 #### Lemma 4 {#alg-x-s2-lem-4 .statement}
 
-Let C be a bounded complex of type $\mathcal{C}$. If $H(C) = 0$, one has $\chi(C) = 0$.
+Let C be a bounded complex of type $\mathscr{C}$. If $H(C) = 0$, one has $\chi(C) = 0$.
 This follows from VIII, § 6, No. 1, cor. of Prop. 1.
 
 #### Proposition 10 {#alg-x-s2-prop-10 .statement}
 
-Let C and C' be two bounded complexes of type $\mathcal{C}$. If there exists a homologism $u : C' \to C$, one has $\chi(C) = \chi(C')$.
-Indeed, Con ($u$) is bounded of type $\mathcal{C}$ and one has $\chi(\operatorname{Con}(u)) = \chi(C) - \chi(C')$; on the other hand, $H(\operatorname{Con}(u)) = 0$ by X, p. 38, cor., hence $\chi(\operatorname{Con}(u)) = 0$ (lemma 4).
+Let C and C' be two bounded complexes of type $\mathscr{C}$. If there exists a homologism $u : C' \to C$, one has $\chi(C) = \chi(C')$.
+Indeed, Con ($u$) is bounded of type $\mathscr{C}$ and one has $\chi(\operatorname{Con}(u)) = \chi(C) - \chi(C')$; on the other hand, $H(\operatorname{Con}(u)) = 0$ by X, p. 38, cor., hence $\chi(\operatorname{Con}(u)) = 0$ (lemma 4).
 
 #### Proposition 11 {#alg-x-s2-prop-11 .statement}
 
-Let C be a bounded complex of type $\mathcal{C}$.
-a) If $\mathcal{C}$ is stable, $H(C)$ is of type $\mathcal{C}$.
-b) If $H(C)$ is of type $\mathcal{C}$, it is analogously the case for $B(C)$ and $Z(C)$, and one has $\chi(H(C)) = \chi(C)$.
+Let C be a bounded complex of type $\mathscr{C}$.
+a) If $\mathscr{C}$ is stable, $H(C)$ is of type $\mathscr{C}$.
+b) If $H(C)$ is of type $\mathscr{C}$, it is analogously the case for $B(C)$ and $Z(C)$, and one has $\chi(H(C)) = \chi(C)$.
 
-a) If $\mathcal{C}$ is stable, for every $n$ the module $Z_n(C)$ is of type $\mathcal{C}$ as kernel of $d_n : C_n \to C_{n-1}$, and $H_n(C)$ is of type $\mathcal{C}$ as cokernel of $C_{n+1} \to Z_n$. On the other hand, $H_n(C) = 0$ as soon as $C_n = 0$.
+a) If $\mathscr{C}$ is stable, for every $n$ the module $Z_n(C)$ is of type $\mathscr{C}$ as kernel of $d_n : C_n \to C_{n-1}$, and $H_n(C)$ is of type $\mathscr{C}$ as cokernel of $C_{n+1} \to Z_n$. On the other hand, $H_n(C) = 0$ as soon as $C_n = 0$.
 
-b) Suppose $H(C)$ of type $\mathcal{C}$. The canonical exact sequences:
+b) Suppose $H(C)$ of type $\mathscr{C}$. The canonical exact sequences:
 
 $$
 0 \to Z_n(C) \to C_n \to B_{n-1}(C) \to 0
@@ -948,7 +948,7 @@ $$
 0 \to B_n(C) \to Z_n(C) \to H_n(C) \to 0
 $$
 
-show by induction on $n$ starting from the right bound of $C$ that $Z_n(C)$ and $B_n(C)$ are of type $\mathcal{C}$ for all $n$. One then has
+show by induction on $n$ starting from the right bound of $C$ that $Z_n(C)$ and $B_n(C)$ are of type $\mathscr{C}$ for all $n$. One then has
 
 $$
 \chi(C) = \chi(Z(C)) + \chi(B(C) (-1)) = \chi(Z(C)) - \chi(B(C)) = \chi(H(C)) .
@@ -956,27 +956,27 @@ $$
 
 #### Corollary {#alg-x-s2-n8-cor-1 .statement}
 
-*If $\mathcal{C}$ is stable and $C$ is bounded of type $\mathcal{C}$, the graded module $H(C)$ is bounded of type $\mathcal{C}$ and one has $\chi(H(C)) = \chi(C)$.*
+*If $\mathscr{C}$ is stable and $C$ is bounded of type $\mathscr{C}$, the graded module $H(C)$ is bounded of type $\mathscr{C}$ and one has $\chi(H(C)) = \chi(C)$.*
 
 #### Proposition 12 {#alg-x-s2-prop-12 .statement}
 
 *Let $0 \to C' \to C \to C'' \to 0$ be an exact sequence of complexes.*
 
-*a) If $H(C), H(C')$ and $H(C'')$ are bounded of type $\mathcal{C}$, one has*
+*a) If $H(C), H(C')$ and $H(C'')$ are bounded of type $\mathscr{C}$, one has*
 $$
 \chi(H(C)) = \chi(H(C')) + \chi(H(C'')) .
 $$
 
-*b) If $\mathcal{C}$ is stable, and if two of the graded modules $H(C), H(C')$ and $H(C'')$ are bounded of type $\mathcal{C}$, the same holds for the third.*
+*b) If $\mathscr{C}$ is stable, and if two of the graded modules $H(C), H(C')$ and $H(C'')$ are bounded of type $\mathscr{C}$, the same holds for the third.*
 
 Part a) follows from Lemma 4 applied to the complex with zero homology defined by the homology exact sequence associated with the given exact sequence. Part b) follows, by considering this homology exact sequence, from the following lemma:
 
-*Lemma 5. — Let $M \to N \to P \to Q \to R$ be an exact sequence of $A$-modules. If $\mathcal{C}$ is stable, and if $M, N, Q$ and $R$ are of type $\mathcal{C}$, the module $P$ is of type $\mathcal{C}$.
-Set $N' = \operatorname{Coker}(M \to N)$ and $Q' = \operatorname{Ker}(Q \to R)$. The modules $N'$ and $Q'$ are of type $\mathcal{C}$, and one has an exact sequence $0 \to N' \to P \to Q' \to 0$.*
+*Lemma 5. — Let $M \to N \to P \to Q \to R$ be an exact sequence of $A$-modules. If $\mathscr{C}$ is stable, and if $M, N, Q$ and $R$ are of type $\mathscr{C}$, the module $P$ is of type $\mathscr{C}$.
+Set $N' = \operatorname{Coker}(M \to N)$ and $Q' = \operatorname{Ker}(Q \to R)$. The modules $N'$ and $Q'$ are of type $\mathscr{C}$, and one has an exact sequence $0 \to N' \to P \to Q' \to 0$.*
 
 #### Corollary {#alg-x-s2-n8-cor-2 .statement}
 
-*Assume $\mathcal{C}$ stable, and let $u : C' \to C$ be a morphism of complexes such that $H(C)$ and $H(C')$ are bounded of type $\mathcal{C}$. Then $H(\operatorname{Con}(u))$ is bounded of type $\mathcal{C}$, and one has*
+*Assume $\mathscr{C}$ stable, and let $u : C' \to C$ be a morphism of complexes such that $H(C)$ and $H(C')$ are bounded of type $\mathscr{C}$. Then $H(\operatorname{Con}(u))$ is bounded of type $\mathscr{C}$, and one has*
 $$
 \chi(H(\operatorname{Con}(u))) = \chi(H(C)) - \chi(H(C')) .
 $$
@@ -986,7 +986,7 @@ $$
 0 \to C \to \operatorname{Con}(u) \to C'(-1) \to 0 .
 $$
 
-*Remark. — Let $E$ be a complex, $h : E \to C$ and $h' : E \to C'$ be homotopy equivalences with $C$ and $C'$ bounded of type $\mathcal{C}$. Then $\chi(C) = \chi(C')$. Indeed, if $h_1$ is an inverse of $h$ up to homotopy, $h' \circ h_1$ is a homotopy equivalence, hence a homology isomorphism from $C$ to $C'$, and one can apply Prop. 10. Consequently, one can extend Definition 8 by setting $\chi(E) = \chi(C)$ whenever there exists a homotopy equivalence from $E$ to a complex $C$ bounded of type $\mathcal{C}$. Propositions 10, 11, 12 and their corollaries generalise in this setting.*
+*Remark. — Let $E$ be a complex, $h : E \to C$ and $h' : E \to C'$ be homotopy equivalences with $C$ and $C'$ bounded of type $\mathscr{C}$. Then $\chi(C) = \chi(C')$. Indeed, if $h_1$ is an inverse of $h$ up to homotopy, $h' \circ h_1$ is a homotopy equivalence, hence a homology isomorphism from $C$ to $C'$, and one can apply Prop. 10. Consequently, one can extend Definition 8 by setting $\chi(E) = \chi(C)$ whenever there exists a homotopy equivalence from $E$ to a complex $C$ bounded of type $\mathscr{C}$. Propositions 10, 11, 12 and their corollaries generalise in this setting.*
 
 Application:
 
@@ -997,7 +997,7 @@ Application:
     \Sigma (-1)^i c_i = \Sigma (-1)^i c'_i .
     $$
     c) With the notations of a) and b), one has $\Sigma (-1)^i c_i = \Sigma (--1)^i b_i$.
-    The properties a) and b) result from c), and c) results from prop. 11 applied to the complex $\Gamma$ described in No. 3, taking for $\mathcal{C}$ the class of finite-dimensional K-vector spaces and for $\varphi$ the function defined by $\varphi([M]) = \dim_K(M)$ (X, p. 40, example 1).
+    The properties a) and b) result from c), and c) results from prop. 11 applied to the complex $\Gamma$ described in No. 3, taking for $\mathscr{C}$ the class of finite-dimensional K-vector spaces and for $\varphi$ the function defined by $\varphi([M]) = \dim_K(M)$ (X, p. 40, example 1).
 
 ### 9. Complexes of right modules, complexes of multimodules
 

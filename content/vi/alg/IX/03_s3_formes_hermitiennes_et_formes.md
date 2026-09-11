@@ -28,11 +28,11 @@ subsections:
       pdf_page: 52
 statements: 7
 exercises: 0
-content_sha256: 0721c975ef982c3ee1f687d783aa2b23bf0f56322b211ba8868c1f951d1b502f
+content_sha256: 012ea469a6d8f4f84c653796b72dd8df91b730b4b540f119fb910b73c96d885c
 translated_from: content/en-mt/alg/IX/03_s3_formes_hermitiennes_et_formes.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: d377fe8e8b62ddb12247032d22e12f921fdb53e65ce67e7cd126d8fc7cc7a270
+source_content_sha256: 27b84893a39333c19790ba165aa5017e09f8fb6d3a3d95a17abab48421323382
 translation_model: gpt-5.4
 translation_run: translate-vi-be0708bf
 glossary_version: 34
@@ -100,7 +100,7 @@ Cuối cùng, khi vành $A$ là giao hoán, các mở rộng chính tắc của 
 
 ### 2. *Môđun trên một mở rộng bậc hai*.
 
-Cho $K$ là một vành giao hoán. Lấy $A$ là mở rộng bậc hai $A = K(i)$ với $i^2 = -1$, và lấy $J$ là tự đẳng cấu λ + iμ → λ − iμ ($\lambda \in K, \mu \in K$) (chap. II, § 7, No. 7). Nếu E là một A-môđun, ta sẽ ký hiệu bởi $E_0$ K-môđun suy ra từ E bằng cách hạn chế vành các vô hướng, và bởi j tự đẳng cấu $x \to ix$ của $E_0$; hiển nhiên ta có $j^2 = -I$, trong đó I là ánh xạ đồng nhất của $E_0$. Ngược lại, cho $E_0$ là một K-môđun và cho j là một tự đẳng cấu của $E_0$ sao cho $j^2 = -I$; ánh xạ $\lambda + i\mu \to \lambda I + \mu j$ hiển nhiên là một đồng cấu từ A vào vành $\mathcal{L}(E_0)$ các tự đồng cấu của $E_0$; do đó ta đã xác định trên $E_0$ một cấu trúc A-môđun, đối với cấu trúc này ta có
+Cho $K$ là một vành giao hoán. Lấy $A$ là mở rộng bậc hai $A = K(i)$ với $i^2 = -1$, và lấy $J$ là tự đẳng cấu λ + iμ → λ − iμ ($\lambda \in K, \mu \in K$) (chap. II, § 7, No. 7). Nếu E là một A-môđun, ta sẽ ký hiệu bởi $E_0$ K-môđun suy ra từ E bằng cách hạn chế vành các vô hướng, và bởi j tự đẳng cấu $x \to ix$ của $E_0$; hiển nhiên ta có $j^2 = -I$, trong đó I là ánh xạ đồng nhất của $E_0$. Ngược lại, cho $E_0$ là một K-môđun và cho j là một tự đẳng cấu của $E_0$ sao cho $j^2 = -I$; ánh xạ $\lambda + i\mu \to \lambda I + \mu j$ hiển nhiên là một đồng cấu từ A vào vành $\mathscr{L}(E_0)$ các tự đồng cấu của $E_0$; do đó ta đã xác định trên $E_0$ một cấu trúc A-môđun, đối với cấu trúc này ta có
 
 (2) $$(\lambda + i\mu)x = \lambda x + \mu j(x)$$ $(x \in E_0, \lambda \in K, \mu \in K).$
 
@@ -310,7 +310,7 @@ $$
 $$
 khi đó cũng có $Q(\sum a_i x_i) = \sum_{\{i, j\}} b_{ij} a_i a_j$. Suy ra một chứng minh mới của Mệnh đề 3 của No. 4. (Chú ý rằng các $x'_i = 1 \otimes x_i$ tạo thành một hệ sinh của $A' \otimes_A E$, và $A'$-môđun $A' \otimes_A E$ đẳng cấu với ${A'}^{(1)}/R'$, trong đó ${A'}^{(1)}$ được đồng nhất với $A' \otimes_A A^{(1)}$ và $R'$ được sinh bởi ảnh của R dưới ánh xạ chính tắc từ $A^{(1)}$ vào ${A'}^{(1)}$.
 
-6) Cho $A$ là một vành giao hoán có đặc số 2, $E$ là một A-môđun tự do, $\mathcal{A}$ (tương ứng, $\mathcal{S}$, $\mathcal{Q}$) là A-môđun các dạng song tuyến tính phản xứng (tương ứng, các dạng song tuyến tính đối xứng, các dạng toàn phương) trên $E$. Ta có $\mathcal{A} \subset \mathcal{S}$; hơn nữa định nghĩa một ánh xạ tuyến tính $\omega$ từ $\mathcal{S}$ vào $\mathcal{Q}$, và một ánh xạ tuyến tính $\theta$ từ $\mathcal{Q}$ vào $\mathcal{A}$ như sau: với mọi dạng song tuyến tính $\Phi \in \mathcal{S}$, $\omega(\Phi)$ là dạng toàn phương $x \to \Phi(x, x)$, và với mọi dạng toàn phương $Q \in \mathcal{Q}$, $\theta(Q)$ là dạng song tuyến tính liên kết với $Q$, và dạng này là phản xứng. Chứng minh rằng $\omega(0) = \mathcal{A}$, $\theta(\mathcal{Q}) = \mathcal{A}$ và $\theta(0) = \omega(\mathcal{S})$.
+6) Cho $A$ là một vành giao hoán có đặc số 2, $E$ là một A-môđun tự do, $\mathscr{A}$ (tương ứng, $\mathscr{S}$, $\mathscr{Q}$) là A-môđun các dạng song tuyến tính phản xứng (tương ứng, các dạng song tuyến tính đối xứng, các dạng toàn phương) trên $E$. Ta có $\mathscr{A} \subset \mathscr{S}$; hơn nữa định nghĩa một ánh xạ tuyến tính $\omega$ từ $\mathscr{S}$ vào $\mathscr{Q}$, và một ánh xạ tuyến tính $\theta$ từ $\mathscr{Q}$ vào $\mathscr{A}$ như sau: với mọi dạng song tuyến tính $\Phi \in \mathscr{S}$, $\omega(\Phi)$ là dạng toàn phương $x \to \Phi(x, x)$, và với mọi dạng toàn phương $Q \in \mathscr{Q}$, $\theta(Q)$ là dạng song tuyến tính liên kết với $Q$, và dạng này là phản xứng. Chứng minh rằng $\omega(0) = \mathscr{A}$, $\theta(\mathscr{Q}) = \mathscr{A}$ và $\theta(0) = \omega(\mathscr{S})$.
 
 ¶ 7) Cho $A$ là một vành giao hoán, $E, F$ là hai A-môđun. Một ánh xạ $Q$ từ $E$ vào $F$ được gọi là *toàn phương* nếu nó thỏa mãn các điều kiện sau: $1^\circ$ $Q(\alpha x) = \alpha^2 Q(x)$ với $\alpha \in A, x \in E$; $2^\circ$ ánh xạ $(x, y) \to Q(x + y) - Q(x) - Q(y)$ từ $E \times E$ vào $F$ là song tuyến tính. Nếu $f$ là một ánh xạ tuyến tính của một A-môđun $E_1$ vào $E$, thì $Q \circ f$ là một ánh xạ toàn phương từ $E_1$ vào $F$.
 

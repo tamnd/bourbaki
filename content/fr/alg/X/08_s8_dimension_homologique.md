@@ -41,7 +41,7 @@ subsections:
       pdf_page: 149
 statements: 34
 exercises: 28
-content_sha256: 01423d7f9d05c6000bce1884bf08ce49ac1e4be4045d9ae6bb8edef4dbad7463
+content_sha256: 6b6ef7217185b84aafaf4ab67bc95ef54fd023c3c53ad5941fa9ffc7a938ed05
 ---
 
 ## § 8. DIMENSION HOMOLOGIQUE
@@ -193,9 +193,9 @@ D’après (v) et X, p. 131, cor. 3, on a $\operatorname{Tor}^A_1(A/a,K)=0$ pour
 
 #### Corollaire {#alg-x-s8-n1-cor-1 .statement}
 
-Supposons $A$ noethérien à gauche et soit $\mathcal{C}_0$ (resp. $\mathcal{C}$) l’ensemble des classes des $A$-modules projectifs de type fini (resp. des $A$-modules de dimension projective finie et de type fini). Alors l’homomorphisme des groupes de Grothendieck $K(\mathcal{C}_0) \to K(\mathcal{C})$ est bijectif.
+Supposons $A$ noethérien à gauche et soit $\mathscr{C}_0$ (resp. $\mathscr{C}$) l’ensemble des classes des $A$-modules projectifs de type fini (resp. des $A$-modules de dimension projective finie et de type fini). Alors l’homomorphisme des groupes de Grothendieck $K(\mathscr{C}_0) \to K(\mathscr{C})$ est bijectif.
 
-Cela résulte de X, p. 58, th. 1 (notons que $\mathcal{C}_0$ et $\mathcal{C}$ sont exacts à gauche d’après le cor. 2).
+Cela résulte de X, p. 58, th. 1 (notons que $\mathscr{C}_0$ et $\mathscr{C}$ sont exacts à gauche d’après le cor. 2).
 
 ### 2. L’homomorphisme $\operatorname{Tor}_n^A(P, M) \to \operatorname{Hom}_A(\operatorname{Ext}_A^n(M, A), P)$
 
@@ -365,7 +365,7 @@ D’après l’équivalence de (i) et (iii), on a $\mathrm{dh}(A) = \mathrm{dh}(
 
 #### Proposition 5 {#alg-x-s8-prop-5 .statement}
 
-Supposons $A$ noethérien à gauche et de dimension homologique finie et soit $\mathcal{C}_0$ (resp. $\mathcal{C}$) l’ensemble des classes de $A$-modules projectifs de type fini (resp. des $A$-modules de type fini). Alors l’homomorphisme canonique des groupes de Grothendieck $K(\mathcal{C}_0) \to K(\mathcal{C})$ est bijectif.
+Supposons $A$ noethérien à gauche et de dimension homologique finie et soit $\mathscr{C}_0$ (resp. $\mathscr{C}$) l’ensemble des classes de $A$-modules projectifs de type fini (resp. des $A$-modules de type fini). Alors l’homomorphisme canonique des groupes de Grothendieck $K(\mathscr{C}_0) \to K(\mathscr{C})$ est bijectif.
 
 Cela résulte de X, p. 137, cor.
 

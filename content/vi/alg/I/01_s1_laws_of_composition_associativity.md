@@ -37,9 +37,9 @@ subsections:
       pdf_page: 35
 statements: 31
 exercises: 16
-content_sha256: 843fbf05a07f129303afefbc44f480b298e18baedca0d2ce35e05b34adcc246a
+content_sha256: ae83b2d34d7644246954ff9d67c90ee91439dacef531ba0d90857677abcf98de
 translated_from: content/en/alg/I/01_s1_laws_of_composition_associativity.md
-source_content_sha256: ee4e463c2bea3d268def69cc870b68653ee33956e50d1763ff66c0f237db3f9e
+source_content_sha256: eaaedbec437fbe10ada976447d7ff373c517077b94d3572b3e47bdbac09779cc
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-88bac9d5
 glossary_version: 34
@@ -99,9 +99,9 @@ Tổng quát hơn:
 
 † Sau đây là một ví dụ trong đó nguyên lý này sẽ dẫn đến nhầm lẫn và do đó không nên được sử dụng. Giả sử rằng luật hợp thành đang xét là luật $(A, B) \mapsto A \cup B$ giữa các tập con của một tập hợp E; một luật hợp thành
 $$
-(\mathcal{A}, \mathcal{B}) \mapsto F(\mathcal{A}, \mathcal{B})
+(\mathscr{A}, \mathscr{B}) \mapsto F(\mathscr{A}, \mathscr{B})
 $$
-được dẫn xuất giữa các tập con của $\mathfrak{P}(E)$, trong đó $F(\mathcal{A}, \mathcal{B})$ là tập hợp các $A \cup B$ với $A \in \mathcal{A}, B \in \mathcal{B}$; nhưng $F(\mathcal{A}, \mathcal{B})$ không nên được ký hiệu bởi $\mathcal{A} \cup \mathcal{B}$, vì ký hiệu này đã có một nghĩa khác (hợp của $\mathcal{A}$ và $\mathcal{B}$ được xem như các tập con của $\mathfrak{P}(E)$).
+được dẫn xuất giữa các tập con của $\mathfrak{P}(E)$, trong đó $F(\mathscr{A}, \mathscr{B})$ là tập hợp các $A \cup B$ với $A \in \mathscr{A}, B \in \mathscr{B}$; nhưng $F(\mathscr{A}, \mathscr{B})$ không nên được ký hiệu bởi $\mathscr{A} \cup \mathscr{B}$, vì ký hiệu này đã có một nghĩa khác (hợp của $\mathscr{A}$ và $\mathscr{B}$ được xem như các tập con của $\mathfrak{P}(E)$).
 
 Để một ánh xạ $f$ của E vào E' là một đẳng cấu, điều kiện cần và đủ là nó là một đồng cấu song ánh và khi đó $f^{-1}$ là một đẳng cấu của E' lên E.
 

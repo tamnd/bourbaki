@@ -57,7 +57,7 @@ subsections:
       pdf_page: 494
 statements: 38
 exercises: 26
-content_sha256: f14742f5d87ea50c10c3c63903bc1086452d4e9b2213b7d83714481f7b4af3cf
+content_sha256: d2d798dfab17a5c0343f839e74e8a47b8e44f87abb3f10a44d40fa48f3f80611
 ---
 
 ## § 8. DÉTERMINANTS
@@ -292,10 +292,10 @@ $$
 Les notations étant celles du lemme 1, la comparaison des formules (10) et (11) permet d’écrire
 
 $$
-x_1 \wedge x_2 \wedge \cdots \wedge x_p = \sum_{H \in \mathcal{F}_p(J)} \det(x_{H, 1}, x_{H, 2}, \ldots, x_{H, p}) e_H
+x_1 \wedge x_2 \wedge \cdots \wedge x_p = \sum_{H \in \mathscr{F}_p(J)} \det(x_{H, 1}, x_{H, 2}, \ldots, x_{H, p}) e_H
 $$
 
-où $\mathcal{F}_p(J)$ est l’ensemble des parties de $J$ ayant $p$ éléments et, pour toute partie $H \in \mathcal{F}_p(J)$, on pose $x_{H, i} = \sum_{j \in H} \xi_{ji} e_j$ et $e_H = e_{j_1} \wedge e_{j_2} \wedge \cdots \wedge e_{j_p}$, $(j_k)_{1 \leq k \leq p}$ étant la suite des éléments de $H$ rangés par ordre croissant, étant entendu que $\det(x_{H, 1}, \ldots, x_{H, p})$ est pris par rapport à la base $(e_{j_k})_{1 \leq k \leq p}$.
+où $\mathscr{F}_p(J)$ est l’ensemble des parties de $J$ ayant $p$ éléments et, pour toute partie $H \in \mathscr{F}_p(J)$, on pose $x_{H, i} = \sum_{j \in H} \xi_{ji} e_j$ et $e_H = e_{j_1} \wedge e_{j_2} \wedge \cdots \wedge e_{j_p}$, $(j_k)_{1 \leq k \leq p}$ étant la suite des éléments de $H$ rangés par ordre croissant, étant entendu que $\det(x_{H, 1}, \ldots, x_{H, p})$ est pris par rapport à la base $(e_{j_k})_{1 \leq k \leq p}$.
 
 #### Proposition 7 {#alg-iii-s8-prop-7 .statement}
 
@@ -378,7 +378,7 @@ Soit $X$ une matrice rectangulaire $(\xi_{ij})_{(i,j) \in I \times J}$ de type (
 
 #### Proposition 9 {#alg-iii-s8-prop-9 .statement}
 
-*Soit $M$ un $A$-module ayant une base $(e_i)_{i \in J}$ (finie ou non) dont l’ensemble d’indices $J$ est totalement ordonné. Pour tout entier $p > 0$, soit $(e_H)_{H \in \mathcal{F}_p(J)}$ la base correspondante de $\wedge^p(M)$ (III, p. 86). Soit $(x_i)_{1 \leq i \leq p}$ une suite de $p$ éléments de $M$; posons*
+*Soit $M$ un $A$-module ayant une base $(e_i)_{i \in J}$ (finie ou non) dont l’ensemble d’indices $J$ est totalement ordonné. Pour tout entier $p > 0$, soit $(e_H)_{H \in \mathscr{F}_p(J)}$ la base correspondante de $\wedge^p(M)$ (III, p. 86). Soit $(x_i)_{1 \leq i \leq p}$ une suite de $p$ éléments de $M$; posons*
 
 $$
 x_i = \sum_{j \in J} \xi_{ji} e_j \quad \text{pour } i \in I = \{1, p\}
@@ -387,16 +387,16 @@ $$
 *et notons $X$ la matrice $(\xi_{ji})$ de type $(J, I)$. On a alors*
 
 $$
-x_1 \wedge x_2 \wedge \cdots \wedge x_p = \sum_{H \in \mathcal{F}_p(J)} (\det X_{H, I}) e_H,
+x_1 \wedge x_2 \wedge \cdots \wedge x_p = \sum_{H \in \mathscr{F}_p(J)} (\det X_{H, I}) e_H,
 $$
 
-$H$ parcourant l’ensemble $\mathcal{F}_p(J)$ des parties à $p$ éléments de $J$.
+$H$ parcourant l’ensemble $\mathscr{F}_p(J)$ des parties à $p$ éléments de $J$.
 
 Cela résulte en effet de la formule (12) de III, p. 94 et de la formule (6) de III, p. 92.
 
 #### Proposition 10 {#alg-iii-s8-prop-10 .statement}
 
-*Soient $M$ et $N$ deux $A$-modules libres de dimensions respectives $m$ et $n$, $u : M \to N$ une application linéaire, $X$ la matrice de $u$ par rapport à une base $(e_i)_{1 \leq i \leq m}$ de $M$ et une base $(f_j)_{1 \leq j \leq n}$ de $N$. Alors, pour tout entier $p \leq \inf(m, n)$, la matrice de $\wedge^p(u)$ par rapport à la base $(e_K)_{K \in \mathcal{F}_p(I)}$ de $\wedge^p(M)$ et à la base $(f_H)_{H \in \mathcal{F}_p(J)}$ de $\wedge^p(N)$ (où l’on a posé $I = \{1, m\}$ et $J = \{1, n\}$) est la matrice $(\det(X_{H, K}))$ de type $(\mathcal{F}_p(J), \mathcal{F}_p(I))$ (donc à $\binom{n}{p}$ lignes et $\binom{m}{p}$ colonnes).
+*Soient $M$ et $N$ deux $A$-modules libres de dimensions respectives $m$ et $n$, $u : M \to N$ une application linéaire, $X$ la matrice de $u$ par rapport à une base $(e_i)_{1 \leq i \leq m}$ de $M$ et une base $(f_j)_{1 \leq j \leq n}$ de $N$. Alors, pour tout entier $p \leq \inf(m, n)$, la matrice de $\wedge^p(u)$ par rapport à la base $(e_K)_{K \in \mathscr{F}_p(I)}$ de $\wedge^p(M)$ et à la base $(f_H)_{H \in \mathscr{F}_p(J)}$ de $\wedge^p(N)$ (où l’on a posé $I = \{1, m\}$ et $J = \{1, n\}$) est la matrice $(\det(X_{H, K}))$ de type $(\mathscr{F}_p(J), \mathscr{F}_p(I))$ (donc à $\binom{n}{p}$ lignes et $\binom{m}{p}$ colonnes).
 
 En effet, pour une partie $K \subset J$ à $p$ éléments, soit $(j_k)_{1 \leq k \leq p}$ la suite des éléments de $K$ rangés par ordre croissant; par définition de $\wedge^p(u)$, on a (III, p. 78, formule (4))
 

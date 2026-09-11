@@ -53,7 +53,7 @@ subsections:
       pdf_page: 291
 statements: 90
 exercises: 39
-content_sha256: 386b4d53f1bf1b11f241fa5820cbc5ce9e01de77eef1252ee5d8401beab95644
+content_sha256: 4a4d85f4524d1c42c36513fecd719ef08de0e9bc6f928a307ab1fc31367ab371
 ---
 
 ## § 7. ESPACES VECTORIELS.
@@ -72,7 +72,7 @@ Il faut prouver que tout espace vectoriel admet une *base*; cela va résulter du
 
 Le th. 1 résultera de cet énoncé en prenant $L = \varnothing$.
 
-Pour prouver le th. 2, notons que l’ensemble $\mathcal{L}$ des parties libres de $E$ contenues dans $S$, ordonné par inclusion, est *un ensemble inductif* (E, III, p. 20), en vertu de II, p. 26; il en est de même de l’ensemble $\mathfrak{M}$ des parties libres contenant $L$ et contenues dans $S$. En vertu du th. de Zorn, $\mathfrak{M}$ admet un élément maximal $B$, et il suffit de prouver que le sous-espace vectoriel de $E$ engendré par $B$ est égal à $E$. Cela résulte aussitôt de la définition de $B$ et du lemme suivant:
+Pour prouver le th. 2, notons que l’ensemble $\mathscr{L}$ des parties libres de $E$ contenues dans $S$, ordonné par inclusion, est *un ensemble inductif* (E, III, p. 20), en vertu de II, p. 26; il en est de même de l’ensemble $\mathfrak{M}$ des parties libres contenant $L$ et contenues dans $S$. En vertu du th. de Zorn, $\mathfrak{M}$ admet un élément maximal $B$, et il suffit de prouver que le sous-espace vectoriel de $E$ engendré par $B$ est égal à $E$. Cela résulte aussitôt de la définition de $B$ et du lemme suivant:
 
 #### Lemme 1 {#alg-ii-s7-lem-1 .statement}
 
@@ -275,7 +275,7 @@ On notera que si E est de dimension finie, (10) est conséquence de (7) et (9) (
 
 En effet, si $F = \bigcap_i F_i$, E/F est isomorphe à un sous-espace de la somme directe des E/F$_i$ (II, p. 15, formule (27)).
 
-On donne souvent aux sous-espaces vectoriels de dimension 1 (resp. de dimension 2) d’un espace vectoriel E le nom de *droites passant par* 0 (resp. *plans passant par* 0) (ou simplement *droites* (resp. *plans*)) s’il n’en résulte pas de confusion (cf. II, p. 129), par analogie avec le langage de la Géométrie classique; on dit qu’un sous-espace de E est un *hyperplan passant par* 0 (ou simplement un *hyperplan*) s’il est de codimension 1. On peut encore définir les hyperplans comme les éléments *maximaux* de l’ensemble $\mathcal{S}$ des sous-espaces vectoriels de E *distincts de* E, ordonné par inclusion. En effet, il y a correspondance biunivoque entre les sous-espaces de E contenant un sous-espace H et les sous-espaces de E/H (I, p. 39, th. 4); si E est de dimension $\geqslant 1$, $\mathcal{S}$ est non vide, et dire que H est maximal dans $\mathcal{S}$ signifie que E/H ne contient aucun sous-espace distinct de {0} et de E/H, ce qui entraîne que E/H est engendré par un quelconque de ses éléments $\neq 0$, autrement dit est de dimension 1.
+On donne souvent aux sous-espaces vectoriels de dimension 1 (resp. de dimension 2) d’un espace vectoriel E le nom de *droites passant par* 0 (resp. *plans passant par* 0) (ou simplement *droites* (resp. *plans*)) s’il n’en résulte pas de confusion (cf. II, p. 129), par analogie avec le langage de la Géométrie classique; on dit qu’un sous-espace de E est un *hyperplan passant par* 0 (ou simplement un *hyperplan*) s’il est de codimension 1. On peut encore définir les hyperplans comme les éléments *maximaux* de l’ensemble $\mathscr{S}$ des sous-espaces vectoriels de E *distincts de* E, ordonné par inclusion. En effet, il y a correspondance biunivoque entre les sous-espaces de E contenant un sous-espace H et les sous-espaces de E/H (I, p. 39, th. 4); si E est de dimension $\geqslant 1$, $\mathscr{S}$ est non vide, et dire que H est maximal dans $\mathscr{S}$ signifie que E/H ne contient aucun sous-espace distinct de {0} et de E/H, ce qui entraîne que E/H est engendré par un quelconque de ses éléments $\neq 0$, autrement dit est de dimension 1.
 
 Dans un espace vectoriel de dimension finie $n \geqslant 1$, les hyperplans sont les sous-espaces *de dimension* $n - 1$, en vertu de II, p. 98, formule (3).
 

@@ -54,7 +54,7 @@ subsections:
       pdf_page: 72
 statements: 63
 exercises: 26
-content_sha256: 4e2db9f086cc50fe763891b92a677519247beb4dcab57f7cc8c6398ff2e2e3db
+content_sha256: 6eef711940212b0b20d202432c8526dca7827895352d9ffae4fd826f3d1b073b
 ---
 
 ## § 4. GROUPS AND GROUPS WITH OPERATORS
@@ -79,7 +79,7 @@ A group G is called *finite* if the underlying set of G is finite; otherwise it 
 
 If a law of composition on G determines a group structure on G, so does the opposite law. The mapping of a group G onto itself which associates with each $x \in G$ the inverse of $x$ is an *isomorphism* of G onto the opposite group (§ 2, no. 3, Proposition 4).
 
-Following our general conventions (*Set Theory*, II, § 3, no. 1), we shall denote by $A^{-1}$ the image of a subset A of G under the mapping $x \mapsto x^{-1}$. But it is important to note that, in spite of the analogy of notation, $A^{-1}$ is definitely not the inverse element of A under the law of composition $(X, Y) \mapsto XY$ between subsets of G (recall that XY is the set of $xy$ with $x \in X, y \in Y$): the identity element under this law is $\{e\}$ and the only invertible elements of $\mathcal{P}(G)$ under this law are the sets A consisting of a single element (such an A, moreover, certainly has inverse $A^{-1}$). The identity
+Following our general conventions (*Set Theory*, II, § 3, no. 1), we shall denote by $A^{-1}$ the image of a subset A of G under the mapping $x \mapsto x^{-1}$. But it is important to note that, in spite of the analogy of notation, $A^{-1}$ is definitely not the inverse element of A under the law of composition $(X, Y) \mapsto XY$ between subsets of G (recall that XY is the set of $xy$ with $x \in X, y \in Y$): the identity element under this law is $\{e\}$ and the only invertible elements of $\mathscr{P}(G)$ under this law are the sets A consisting of a single element (such an A, moreover, certainly has inverse $A^{-1}$). The identity
 
 $(AB)^{-1}=B^{-1}A^{-1}$ holds for $A\subset G$, $B\subset G$. $A$ is called a symmetric subset of $G$ if $A=A^{-1}$. For all $A\subset G$, $A\cup A^{-1}$, $A\cap A^{-1}$ and $AA^{-1}$ are symmetric.
 
@@ -142,7 +142,7 @@ If H is a stable subgroup of G, the structure induced on H by the structure of a
 
 Let G be a group. A stable subgroup of G with the action of $\varnothing$ (no. 2), which is a subset of G satisfying conditions (i), (ii), (iii) of Definition 4, is called a *subgroup* of G. When we speak of a subgroup of a group of operators we shall always mean a subgroup of the underlying group of G. A subgroup of a group with operators G is not necessarily a stable subgroup of G.
 
-*Example* (1). Let $\Sigma$ be a species of structure (*Set Theory*, IV, § 1, no. 4) and S a structure of species $\Sigma$ on a set E (*loc. cit.*). The set of *automorphisms* of S is a subgroup of $\mathcal{G}_E$.
+*Example* (1). Let $\Sigma$ be a species of structure (*Set Theory*, IV, § 1, no. 4) and S a structure of species $\Sigma$ on a set E (*loc. cit.*). The set of *automorphisms* of S is a subgroup of $\mathscr{G}_E$.
 
 #### Proposition 1 {#alg-i-s4-prop-1 .statement}
 
@@ -348,7 +348,7 @@ whence $H' = f(G')$; the restriction of $f$ to $G'$ is a homomorphism $f'$ of $G
 
 #### Corollary 1 {#alg-i-s4-prop-7-cor-1 .statement}
 
-*Suppose that $f$ is surjective. Let $\mathcal{G}$ (resp. $\mathcal{G}'$) be the set of stable (resp. normal stable) subgroups of $G$ containing $N$ and $\mathfrak{H}$ (resp. $\mathfrak{H}'$) the set of stable (resp. normal stable) subgroups of $H$, these sets being ordered by inclusion. The mapping $G' \mapsto f(G')$ is an ordered set isomorphism $\Phi : \mathcal{G} \to \mathfrak{H}$; the inverse isomorphism $\Psi : \mathfrak{H} \to \mathcal{G}$ is the mapping $H' \mapsto f^{-1}(H')$. Further $\Phi$ and $\Psi$ induce isomorphisms $\Phi' : \mathcal{G}' \to \mathfrak{H}'$ and $\Psi' : \mathfrak{H}' \to \mathcal{G}'$.
+*Suppose that $f$ is surjective. Let $\mathscr{G}$ (resp. $\mathscr{G}'$) be the set of stable (resp. normal stable) subgroups of $G$ containing $N$ and $\mathfrak{H}$ (resp. $\mathfrak{H}'$) the set of stable (resp. normal stable) subgroups of $H$, these sets being ordered by inclusion. The mapping $G' \mapsto f(G')$ is an ordered set isomorphism $\Phi : \mathscr{G} \to \mathfrak{H}$; the inverse isomorphism $\Psi : \mathfrak{H} \to \mathscr{G}$ is the mapping $H' \mapsto f^{-1}(H')$. Further $\Phi$ and $\Psi$ induce isomorphisms $\Phi' : \mathscr{G}' \to \mathfrak{H}'$ and $\Psi' : \mathfrak{H}' \to \mathscr{G}'$.
 
 #### Corollary 2 {#alg-i-s4-prop-7-cor-2 .statement}
 

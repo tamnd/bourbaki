@@ -50,7 +50,7 @@ subsections:
       pdf_page: 205
 statements: 45
 exercises: 23
-content_sha256: 0c835588a93e662f8c1c9a3840c4fa06f2d7200dde9ef381855ff83e7382c8c9
+content_sha256: 932738ab0f836472516e6d3a7ac80f6a72ba9bf6ce292872efb1909172676f25
 translated_from: content/en/alg/V/11_s11_abelian_extensions.md
 source_content_sha256: 43c5af3342ac0bbbafe453022e04b05ece3c6ec94573a34e2d29b581bf13d362
 translation_model: gpt-5.4
@@ -598,17 +598,17 @@ $$
 [\sigma, \overline{\varphi(x)}] = \sigma(x) - x.
 $$
 
-Ánh xạ này là song tuyến tính trên Z (với $\sigma, \tau \in \mathrm{Gal}(L/K)$, $a, b \in (\mathcal{P}(L) \cap K)/\mathcal{P}(K)$, ta có $[\sigma \tau, a) = [\sigma, a) + [\tau, a)$, $[\sigma, a + b) = [\sigma, a) + [a, b)$).
+Ánh xạ này là song tuyến tính trên Z (với $\sigma, \tau \in \mathrm{Gal}(L/K)$, $a, b \in (\mathscr{P}(L) \cap K)/\mathscr{P}(K)$, ta có $[\sigma \tau, a) = [\sigma, a) + [\tau, a)$, $[\sigma, a + b) = [\sigma, a) + [a, b)$).
 
-Thật vậy, vế phải của (15) là một phần tử của $\mathbf{F}_p$ chỉ phụ thuộc vào lớp thặng dư của $\mathcal{P}(x) \mod \mathcal{P}(K)$; điều này chứng minh mệnh đề thứ nhất; mệnh đề thứ hai có thể được kiểm tra không khó khăn.
+Thật vậy, vế phải của (15) là một phần tử của $\mathbf{F}_p$ chỉ phụ thuộc vào lớp thặng dư của $\mathscr{P}(x) \mod \mathscr{P}(K)$; điều này chứng minh mệnh đề thứ nhất; mệnh đề thứ hai có thể được kiểm tra không khó khăn.
 
 Với mọi mở rộng Galois $L$ của $K$, ta viết
 
 $$
-a_ : (\mathcal{P}(L) \cap K)/\mathcal{P}(K) \to \mathrm{Hom}(\mathrm{Gal}(L/K), \mathbf{F}_p)
+a_ : (\mathscr{P}(L) \cap K)/\mathscr{P}(K) \to \mathrm{Hom}(\mathrm{Gal}(L/K), \mathbf{F}_p)
 $$
 $$
-a_L' : \mathrm{Gal}(L/K) \to \mathrm{Hom}((\mathcal{P}(L) \cap K)/\mathcal{P}(K), \mathbf{F}_p)
+a_L' : \mathrm{Gal}(L/K) \to \mathrm{Hom}((\mathscr{P}(L) \cap K)/\mathscr{P}(K), \mathbf{F}_p)
 $$
 
 cho các đồng cấu thu được từ ánh xạ song tuyến tính trên Z ở trên (V, p. 87).
@@ -617,13 +617,13 @@ cho các đồng cấu thu được từ ánh xạ song tuyến tính trên Z �
 
 *Với mọi mở rộng Galois $L$ bậc hữu hạn của $K$, đồng cấu $a_L$ là song ánh.*
 
-Cho $x \in L$ sao cho $\mathcal{P}(x) \in K$ và lớp thặng dư của $\mathcal{P}(x) \mod \mathcal{P}(K)$ nằm trong hạt nhân của $a_L$. Với mọi $\sigma \in \mathrm{Gal}(L/K)$, theo định nghĩa ta có $\sigma(x) = x$; do đó $x \in K$ và $\mathcal{P}(x) \in \mathcal{P}(K)$. Điều này chứng minh tính đơn ánh của $a_L$. Bây giờ, cho $f : \mathrm{Gal}(L/K) \to \mathbf{F}_p$ là một đồng cấu; với mọi $\sigma, \tau \in \mathrm{Gal}(L/K)$ ta có
+Cho $x \in L$ sao cho $\mathscr{P}(x) \in K$ và lớp thặng dư của $\mathscr{P}(x) \mod \mathscr{P}(K)$ nằm trong hạt nhân của $a_L$. Với mọi $\sigma \in \mathrm{Gal}(L/K)$, theo định nghĩa ta có $\sigma(x) = x$; do đó $x \in K$ và $\mathscr{P}(x) \in \mathscr{P}(K)$. Điều này chứng minh tính đơn ánh của $a_L$. Bây giờ, cho $f : \mathrm{Gal}(L/K) \to \mathbf{F}_p$ là một đồng cấu; với mọi $\sigma, \tau \in \mathrm{Gal}(L/K)$ ta có
 
 $$
 f(\sigma \tau) = f(\sigma) + \sigma(f(\tau)), \quad f(\sigma) \in \mathbf{F}_p.
 $$
 
-Theo V, p. 65, Hệ quả 2 tồn tại $x \in L$ sao cho $f(u) = \sigma(x) - x$ với mọi $o \in \mathrm{Gal}(L/K)$. Vì $f(o) \in \mathbf{F}_p$ nên ta có $\mathcal{P}(\sigma(x)) = \mathcal{P}(x)$, do đó $\sigma(\mathcal{P}(x)) = \mathcal{P}(x)$ với mọi $a \in \mathrm{Gal}(L/K)$ và $\mathcal{P}(x) \in K$. Nếu $a$ là lớp thặng dư của $\mathcal{P}(x) \mod \mathcal{P}(K)$, ta có $f(\sigma) = [\sigma, a)$, nên $f = a_L(a)$.
+Theo V, p. 65, Hệ quả 2 tồn tại $x \in L$ sao cho $f(u) = \sigma(x) - x$ với mọi $o \in \mathrm{Gal}(L/K)$. Vì $f(o) \in \mathbf{F}_p$ nên ta có $\mathscr{P}(\sigma(x)) = \mathscr{P}(x)$, do đó $\sigma(\mathscr{P}(x)) = \mathscr{P}(x)$ với mọi $a \in \mathrm{Gal}(L/K)$ và $\mathscr{P}(x) \in K$. Nếu $a$ là lớp thặng dư của $\mathscr{P}(x) \mod \mathscr{P}(K)$, ta có $f(\sigma) = [\sigma, a)$, nên $f = a_L(a)$.
 
 #### Hệ quả {#alg-v-s11-n9-cor-1 .statement}
 
@@ -633,15 +633,15 @@ Theo V, p. 65, Hệ quả 2 tồn tại $x \in L$ sao cho $f(u) = \sigma(x) - x$
 
 #### Định lý 5 {#alg-v-s11-thm-5 .statement}
 
-*a) Ánh xạ $A \mapsto K(\mathcal{P}^{-1}(A))$ là một song ánh từ tập hợp các nhóm con của $K$ chứa $\mathcal{P}(K)$ lên tập hợp các mở rộng con Abel có số mũ chia hết cho $p$ trong $\Omega$. Ánh xạ nghịch đảo là $L \mapsto \mathcal{P}(L) \cap K$.
-b) Với mọi nhóm con $A$ của $K$ chứa $\mathcal{P}(K)$, đồng cấu
+*a) Ánh xạ $A \mapsto K(\mathscr{P}^{-1}(A))$ là một song ánh từ tập hợp các nhóm con của $K$ chứa $\mathscr{P}(K)$ lên tập hợp các mở rộng con Abel có số mũ chia hết cho $p$ trong $\Omega$. Ánh xạ nghịch đảo là $L \mapsto \mathscr{P}(L) \cap K$.
+b) Với mọi nhóm con $A$ của $K$ chứa $\mathscr{P}(K)$, đồng cấu
 
 $$
-a' : \mathrm{Gal}(K(\mathcal{P}^{-1}(A))/K) \to \mathrm{Hom}(A/\mathcal{P}(K), \mathbf{F}_p)
+a' : \mathrm{Gal}(K(\mathscr{P}^{-1}(A))/K) \to \mathrm{Hom}(A/\mathscr{P}(K), \mathbf{F}_p)
 $$
 
-là song ánh, và là một đồng phôi khi $\mathrm{Hom}(A/\mathcal{P}(K), \mathbf{F}_p)$ được trang bị tôpô hội tụ đơn.
-c) Cho $A$ là một nhóm con của $K$ chứa $\mathcal{P}(K)$ và cho $B$ là một cơ sở của không gian vectơ $\mathbf{F}_p$ $A/\mathcal{P}(K)$. Với mỗi $a \in B$ cho $x_a$ là một phần tử của $\Omega$ sao cho $\mathcal{P}(x_a)$ là một đại diện của $a$ trong $A$. Khi đó các đơn thức $x^\alpha = \prod_{a \in B} x_a^{\alpha(a)}$ với a = (\alpha(a)) in N^{(B)} such that 0 \leq \alpha(a) < p for each a \in B form a basis of the vector K-space K(\mathfrak{p}^{-1}(A)). In particular we have [K(\mathfrak{p}^{-1}(A)):K] = (A:\mathfrak{p}(K)).
+là song ánh, và là một đồng phôi khi $\mathrm{Hom}(A/\mathscr{P}(K), \mathbf{F}_p)$ được trang bị tôpô hội tụ đơn.
+c) Cho $A$ là một nhóm con của $K$ chứa $\mathscr{P}(K)$ và cho $B$ là một cơ sở của không gian vectơ $\mathbf{F}_p$ $A/\mathscr{P}(K)$. Với mỗi $a \in B$ cho $x_a$ là một phần tử của $\Omega$ sao cho $\mathscr{P}(x_a)$ là một đại diện của $a$ trong $A$. Khi đó các đơn thức $x^\alpha = \prod_{a \in B} x_a^{\alpha(a)}$ với a = (\alpha(a)) in N^{(B)} such that 0 \leq \alpha(a) < p for each a \in B form a basis of the vector K-space K(\mathfrak{p}^{-1}(A)). In particular we have [K(\mathfrak{p}^{-1}(A)):K] = (A:\mathfrak{p}(K)).
 
 Định lý 5 được chứng minh theo cùng một cách như Định lý 4 (V, p. 89) *mutatis mutandis*.
 

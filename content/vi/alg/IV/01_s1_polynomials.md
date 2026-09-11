@@ -45,9 +45,9 @@ subsections:
       pdf_page: 22
 statements: 30
 exercises: 5
-content_sha256: 5cb25d4bdd8879a58d3b20e9dc6358f14374649d19a9278ed2d4e87cc2604ad6
+content_sha256: 786c21a520f1cb6af0b8dd39a5772b97ce8101a44b1c20ab15c91cd6402eed89
 translated_from: content/en/alg/IV/01_s1_polynomials.md
-source_content_sha256: 78a1c956c17e8c6954812712d02a47970dfa87cf440c161f1bac0e40ebfcd00f
+source_content_sha256: b8b80d9898f9cf21392fb6f0bb0bbc23767e2fcb884e61793b42fec1a38a96d4
 translation_model: gpt-5-6, gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-df5a3f08
 glossary_version: 34
@@ -119,15 +119,15 @@ Nói chung hơn, cho A là một monoïde giao hoán và $(\delta_i)_{i \in I}$ 
 
 ### 3. Phép thế
 
-Cho E là một đại số kết hợp có đơn vị trên $\mathcal{A}$ và $x = (x_i)_{i \in I}$ là một họ các phần tử của E giao hoán từng đôi một. Cho $X = (X_i)_{i \in I}$ là một họ các ẩn. Theo III, Prop. 7, p. 449, tồn tại một đồng cấu có đơn vị duy nhất $f$ từ $\mathcal{A}[X]$ vào $E$ sao cho $f(X_i) = x_i$ với mọi $i \in I$. Ảnh của một phần tử $u$ của $\mathcal{A}[X]$ qua $f$ được viết là $u(x)$ và được gọi là *phần tử của E thu được bằng cách thay $x_i$ cho $X_i$ trong $u$*, hoặc cũng là *giá trị của $u$ với $X_i = x_i$*. Đặc biệt, $u = u((X_i)_{i \in I})$. Nếu $I = \{1, \ldots, n\}$, ta viết $u(x_1, \ldots, x_n)$ thay cho $u((x_i)_{i \in I})$. Tổng quát hơn, nếu M là một A-môđun và nếu o là một phần tử của
+Cho E là một đại số kết hợp có đơn vị trên $\mathscr{A}$ và $x = (x_i)_{i \in I}$ là một họ các phần tử của E giao hoán từng đôi một. Cho $X = (X_i)_{i \in I}$ là một họ các ẩn. Theo III, Prop. 7, p. 449, tồn tại một đồng cấu có đơn vị duy nhất $f$ từ $\mathscr{A}[X]$ vào $E$ sao cho $f(X_i) = x_i$ với mọi $i \in I$. Ảnh của một phần tử $u$ của $\mathscr{A}[X]$ qua $f$ được viết là $u(x)$ và được gọi là *phần tử của E thu được bằng cách thay $x_i$ cho $X_i$ trong $u$*, hoặc cũng là *giá trị của $u$ với $X_i = x_i$*. Đặc biệt, $u = u((X_i)_{i \in I})$. Nếu $I = \{1, \ldots, n\}$, ta viết $u(x_1, \ldots, x_n)$ thay cho $u((x_i)_{i \in I})$. Tổng quát hơn, nếu M là một A-môđun và nếu o là một phần tử của
 
 $$
-M[(X_i)_{i \in I}] = M \otimes_A \mathcal{A}[(X_i)_{i \in I}],
+M[(X_i)_{i \in I}] = M \otimes_A \mathscr{A}[(X_i)_{i \in I}],
 $$
 
 thì ta ký hiệu ảnh của $v$ trong $M \otimes_A E = M_{(E)}$ qua ánh xạ $1_M \otimes f$ là $v(x)$.
 
-Nếu đồng cấu $u \mapsto u(x)$ từ $\mathcal{A}[X]$ vào E là đơn ánh, ta nói rằng họ $x$ là *đại số tự do* trên $\mathcal{A}$, hoặc rằng các $x_i$ là *độc lập đại số* trên $\mathcal{A}$. Điều đó cũng có nghĩa là các đơn thức $x^{\nu}$ ($\nu \in \mathbf{N}^{(I)}$) độc lập tuyến tính trên $\mathcal{A}$.
+Nếu đồng cấu $u \mapsto u(x)$ từ $\mathscr{A}[X]$ vào E là đơn ánh, ta nói rằng họ $x$ là *đại số tự do* trên $\mathscr{A}$, hoặc rằng các $x_i$ là *độc lập đại số* trên $\mathscr{A}$. Điều đó cũng có nghĩa là các đơn thức $x^{\nu}$ ($\nu \in \mathbf{N}^{(I)}$) độc lập tuyến tính trên $\mathscr{A}$.
 
 Nếu $\lambda$ là một đồng cấu có đơn vị từ E vào một A-đại số kết hợp có đơn vị E', ta có
 
@@ -135,17 +135,17 @@ $$
 \lambda(u((x_i)_{i \in I})) = u((\lambda(x_i)_{i \in I})) ,
 $$
 
-vì $\lambda \circ f$ là một đồng cấu từ $\mathcal{A}[X]$ vào E' biến $X_i$ thành $\lambda(x_i)$.
+vì $\lambda \circ f$ là một đồng cấu từ $\mathscr{A}[X]$ vào E' biến $X_i$ thành $\lambda(x_i)$.
 
-Cho $u \in \mathcal{A}[X]$. Nếu $E$ là giao hoán, ánh xạ $x \mapsto u(x)$ từ $E^1$ vào E được gọi là *hàm đa thức* xác định bởi $u$ (và đại số $E$) ; đôi khi ta sẽ ký hiệu nó bởi $\tilde{u}$ (hoặc thậm chí chỉ bởi $u$).
+Cho $u \in \mathscr{A}[X]$. Nếu $E$ là giao hoán, ánh xạ $x \mapsto u(x)$ từ $E^1$ vào E được gọi là *hàm đa thức* xác định bởi $u$ (và đại số $E$) ; đôi khi ta sẽ ký hiệu nó bởi $\tilde{u}$ (hoặc thậm chí chỉ bởi $u$).
 
-Cho $Y = (Y_j)_{j \in J}$ là một họ ẩn khác, và lấy cho E đại số đa thức $\mathcal{A}[Y]$. Với $u \in \mathcal{A}[X]$, lấy $g_i \in \mathcal{A}[Y]$ với $i \in I$ và đặt $g = (g_i)_{i \in I}$; gọi $u(g) \in \mathcal{A}/[Y]$ là đa thức thu được bằng cách thay các đa thức $g_i$ vào chỗ $X_i$ trong $u$. Cho $y = (y_j)_{j \in J}$ là một họ các phần tử hoán vị từng đôi một của một $A$-đại số kết hợp có đơn vị E' ; áp dụng (1) và lấy cho $\mathcal{A}$ đồng cấu $g \mapsto g(y)$ từ $E$ vào $E'$, ta được
+Cho $Y = (Y_j)_{j \in J}$ là một họ ẩn khác, và lấy cho E đại số đa thức $\mathscr{A}[Y]$. Với $u \in \mathscr{A}[X]$, lấy $g_i \in \mathscr{A}[Y]$ với $i \in I$ và đặt $g = (g_i)_{i \in I}$; gọi $u(g) \in \mathscr{A}/[Y]$ là đa thức thu được bằng cách thay các đa thức $g_i$ vào chỗ $X_i$ trong $u$. Cho $y = (y_j)_{j \in J}$ là một họ các phần tử hoán vị từng đôi một của một $A$-đại số kết hợp có đơn vị E' ; áp dụng (1) và lấy cho $\mathscr{A}$ đồng cấu $g \mapsto g(y)$ từ $E$ vào $E'$, ta được
 
 $$
 (u(g))(y) = u((g_i(y))) .
 $$
 
-Nếu $f = (f_i)_{i \in I} \in (\mathcal{A}[(X_j)_{j \in J}])^I$ và $g = (g_j)_{j \in J} \in (\mathcal{A}[(Y_k)_{k \in K}])^J$, ta ký hiệu bởi $f \circ g$ hoặc $f(g)$ họ các đa thức $(f_i(g))_{i \in I} \in (\mathcal{A}[(Y_k)_{k \in K}])^I$. Nếu ta ký hiệu bởi $\tilde{f}$ ánh xạ $x \mapsto (f_i(x))_{i \in I}$ từ ${E'}^J$ vào ${E'}^I$ (trong đó $E'$ là một $A$-đại số có đơn vị, kết hợp và giao hoán), thì quan hệ (2) kéo theo
+Nếu $f = (f_i)_{i \in I} \in (\mathscr{A}[(X_j)_{j \in J}])^I$ và $g = (g_j)_{j \in J} \in (\mathscr{A}[(Y_k)_{k \in K}])^J$, ta ký hiệu bởi $f \circ g$ hoặc $f(g)$ họ các đa thức $(f_i(g))_{i \in I} \in (\mathscr{A}[(Y_k)_{k \in K}])^I$. Nếu ta ký hiệu bởi $\tilde{f}$ ánh xạ $x \mapsto (f_i(x))_{i \in I}$ từ ${E'}^J$ vào ${E'}^I$ (trong đó $E'$ là một $A$-đại số có đơn vị, kết hợp và giao hoán), thì quan hệ (2) kéo theo
 
 $$(3)$$
 $$(\mathrm{fog})'' = \tilde{f} \circ \tilde{g}.$$
@@ -514,17 +514,17 @@ Nói rằng $f$ và $g$ nguyên tố cùng nhau do đó có nghĩa là tồn t�
 
 #### Mệnh đề 13 {#alg-iv-s1-prop-13 .statement}
 
-— Cho $\mathcal{I}$ là tập các đa thức đơn nhất bất khả quy trong $K[X]$. Cho f là một phần tử khác không của $K[X]$ và a là hệ số cao nhất của nó; khi đó tồn tại chính xác một họ các số nguyên dương $(v_p)_{p \in \mathcal{S}}$ có giá hữu hạn, sao cho ta có một phân tích
+— Cho $\mathscr{I}$ là tập các đa thức đơn nhất bất khả quy trong $K[X]$. Cho f là một phần tử khác không của $K[X]$ và a là hệ số cao nhất của nó; khi đó tồn tại chính xác một họ các số nguyên dương $(v_p)_{p \in \mathscr{S}}$ có giá hữu hạn, sao cho ta có một phân tích
 
 $$
-f = \alpha \prod_{p \in \mathcal{S}} p^{v_p}.
+f = \alpha \prod_{p \in \mathscr{S}} p^{v_p}.
 $$
 
 Chỉ cần chứng minh mệnh đề khi $f$ là đơn nhất, tức là khi $\alpha = 1$. Ta sẽ lập luận bằng quy nạp theo bậc $n$ của f, trường hợp $n = 0$ là tầm thường. Khi đó giả sử rằng $n \geq 1$ và mệnh đề đã được thiết lập cho mọi đa thức có bậc $< n$.
 
 Cho $E$ là tập hợp các đa thức đơn khởi $\neq 1$ chia hết cho $f$; ta có $f \in E$ nên $E$ không rỗng và tồn tại trong $E$ một đa thức $g$ có bậc nhỏ nhất. Rõ ràng $g$ là bất khả quy và tồn tại một đa thức đơn khởi $h$ có bậc $< n$ sao cho $f = gh$; theo giả thiết quy nạp, $h$ là tích của một họ hữu hạn các đa thức đơn khởi bất khả quy, do đó $f$ có cùng tính chất. Điều này chứng minh sự tồn tại của phân tích (18).
 
-Bây giờ chứng minh tính duy nhất của phân tích (18). Cho $(w_p)_{p \in \mathcal{S}}$ là một họ các số nguyên dương có giá hữu hạn, sao cho $f = \prod_{p \in \mathcal{S}} p^{w_p}$. Vì $f$ có bậc $n \geq 1$, tồn tại $p \in \mathcal{S}$ sao cho $w_p > 0$; nếu $v_p = 0$, thì $f$ là tích của một họ các phần tử của $\mathcal{S}$ phân biệt với $p$, do đó nó nguyên tố cùng nhau với $p$ (IV, p. 13, Hệ quả 6), trái với việc $p$ chia hết $f$. Theo giả thiết quy nạp, đa thức $f/p$ có một phân tích duy nhất kiểu (18); do đó ta kết luận đẳng thức $w_q = v_q$ với mọi $q \in \mathbf{4}$.
+Bây giờ chứng minh tính duy nhất của phân tích (18). Cho $(w_p)_{p \in \mathscr{S}}$ là một họ các số nguyên dương có giá hữu hạn, sao cho $f = \prod_{p \in \mathscr{S}} p^{w_p}$. Vì $f$ có bậc $n \geq 1$, tồn tại $p \in \mathscr{S}$ sao cho $w_p > 0$; nếu $v_p = 0$, thì $f$ là tích của một họ các phần tử của $\mathscr{S}$ phân biệt với $p$, do đó nó nguyên tố cùng nhau với $p$ (IV, p. 13, Hệ quả 6), trái với việc $p$ chia hết $f$. Theo giả thiết quy nạp, đa thức $f/p$ có một phân tích duy nhất kiểu (18); do đó ta kết luận đẳng thức $w_q = v_q$ với mọi $q \in \mathbf{4}$.
 
 Cho $f$ là một đa thức khác không trong $\mathbf{K}[X]$. Ta nói rằng $f$ không có các nhân tử bội nếu các số mũ $v_p$ trong phân tích (18) đều $\leq 1$; cũng có thể nói rằng $f$ là tích của một dãy hữu hạn các đa thức bất khả quy từng đôi một phân biệt, hoặc cũng có thể nói rằng $f$ không chia hết cho bình phương của bất kỳ đa thức không hằng nào của $\mathbf{K}[X]$.
 

@@ -62,7 +62,7 @@ subsections:
       pdf_page: 136
 statements: 31
 exercises: 16
-content_sha256: 82f3b9f6c044b6246eb0c2be0d3c2c67423e560bf34edc83e7cf960aed7cd234
+content_sha256: 600239b0486664ec0165048e94fa40ec6465929fc46d8da2e621fa3bd93e27d1
 ---
 
 ## § 8. RINGS
@@ -223,7 +223,7 @@ $$
 (-1)^n n! x_1 x_2 \cdots x_n = \sum_{H \subset I} (-1)^{\mathrm{Card}\, H}(x_H)^n.
 $$
 
-Let $C$ be the set of mappings of $I$ into $\{0, 1\}$. If each $H \subset I$ is mapped to its characteristic function, a bijection is obtained of $\mathcal{P}(I)$ onto $C$. The right hand side of (16) is thus equal to:
+Let $C$ be the set of mappings of $I$ into $\{0, 1\}$. If each $H \subset I$ is mapped to its characteristic function, a bijection is obtained of $\mathscr{P}(I)$ onto $C$. The right hand side of (16) is thus equal to:
 
 $$
 \sum_{a \in C} (-1)^{a(1)+\cdots+a(n)} \left( \sum_{i \in I} a(i) x_i \right)^n

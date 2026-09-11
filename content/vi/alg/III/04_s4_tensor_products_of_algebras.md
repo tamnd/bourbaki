@@ -50,9 +50,9 @@ subsections:
       pdf_page: 506
 statements: 43
 exercises: 2
-content_sha256: aec2dc96f9a432987b2e1c8246cc1a75cdba73cb523b5c8551059dd17aeac1a1
+content_sha256: d6abe7f6a386e0e18581b2fc8fdadc7e0ab9dbf6bbc5cbb3beeb8c56e11c3276
 translated_from: content/en/alg/III/04_s4_tensor_products_of_algebras.md
-source_content_sha256: 104babe43ca0f7b29fb3d06064b2db49850bf4ce36b16bfb4fc025a8d61a1f77
+source_content_sha256: e4f97fce390410665271a3fec7e11e3f97e3ebed511a8bc2d0ba2eea7c3667d7
 translation_model: gpt-5.4
 translation_run: translate-vi-b55d44b5
 glossary_version: 34
@@ -416,7 +416,7 @@ $$
 
 ### 5. TÍCH TENXƠ CỦA MỘT HỌ VÔ HẠN CÁC ĐẠI SỐ
 
-Cho A là một vành giao hoán và $(E_i)_{i \in I}$ là một họ tùy ý các A-đại số (có đơn vị). Với mọi tập con hữu hạn J của I, ký hiệu E_J là tích tenxơ $\bigotimes_{i \in J} E_i$ của các đại số E_i có chỉ số $i \in J$; ký hiệu $e_i$ là phần tử đơn vị của E_i và $e_J = \bigotimes_{i \in J} e_i$ là phần tử đơn vị của E_J; ký hiệu $f_{J,i}$ là đồng cấu chính tắc $E_i \to E_J$ với $i \in J$ (no. 2, Mệnh đề 5). Nếu J, J' là hai tập con hữu hạn của I sao cho $J \subset J'$, thì một đồng cấu $f_{J'J} : E_J \to E_{J'}$ được dẫn xuất một cách chính tắc (no. 2, Mệnh đề 5), bởi điều kiện $f_{J'J} \circ f_{J,i} = f_{J',i}$ với mọi $i \in J$. Hơn nữa tính duy nhất của $f_{J'J}$ suy ra rằng nếu J, J', J'' là ba tập con hữu hạn của I sao cho $J \subset J' \subset J''$, thì $f_{J''J} = f_{J''J'} \circ f_{J'J}$. Nói cách khác, $(E_J, f_{J'J})$ là một hệ trực tiếp các A-đại số mà tập chỉ số là tập có hướng phải $\mathcal{F}(I)$ của các tập con hữu hạn của I.
+Cho A là một vành giao hoán và $(E_i)_{i \in I}$ là một họ tùy ý các A-đại số (có đơn vị). Với mọi tập con hữu hạn J của I, ký hiệu E_J là tích tenxơ $\bigotimes_{i \in J} E_i$ của các đại số E_i có chỉ số $i \in J$; ký hiệu $e_i$ là phần tử đơn vị của E_i và $e_J = \bigotimes_{i \in J} e_i$ là phần tử đơn vị của E_J; ký hiệu $f_{J,i}$ là đồng cấu chính tắc $E_i \to E_J$ với $i \in J$ (no. 2, Mệnh đề 5). Nếu J, J' là hai tập con hữu hạn của I sao cho $J \subset J'$, thì một đồng cấu $f_{J'J} : E_J \to E_{J'}$ được dẫn xuất một cách chính tắc (no. 2, Mệnh đề 5), bởi điều kiện $f_{J'J} \circ f_{J,i} = f_{J',i}$ với mọi $i \in J$. Hơn nữa tính duy nhất của $f_{J'J}$ suy ra rằng nếu J, J', J'' là ba tập con hữu hạn của I sao cho $J \subset J' \subset J''$, thì $f_{J''J} = f_{J''J'} \circ f_{J'J}$. Nói cách khác, $(E_J, f_{J'J})$ là một hệ trực tiếp các A-đại số mà tập chỉ số là tập có hướng phải $\mathscr{F}(I)$ của các tập con hữu hạn của I.
 
 #### Định nghĩa 5 {#alg-iii-s4-def-5 .statement}
 
@@ -424,7 +424,7 @@ Cho A là một vành giao hoán và $(E_i)_{i \in I}$ là một họ tùy ý c�
 
 Nếu I là hữu hạn, E được đồng nhất với $\bigotimes_{i \in I} E_i$. Theo một lạm dụng ký hiệu, E cũng được ký hiệu bởi $\bigotimes_{i \in I} E_i$ ngay cả khi I là vô hạn.
 
-Với mọi tập con hữu hạn J của I, ký hiệu $f_J$ là đồng cấu chính tắc $\bigotimes_{i \in J} E_i \to \bigotimes_{i \in I} E_i$ (viết $f_i$ thay cho $f_{\{i\}}$); nếu e là phần tử đơn vị của $\bigotimes_{i \in I} E_i$, thì $f_J(e_J) = e$ với mọi $J \in \mathcal{F}(I)$. Ngay lập tức thấy rằng nếu mọi đại số E_i đều giao hoán, thì $\bigotimes_{i \in I} E_i$ cũng giao hoán.
+Với mọi tập con hữu hạn J của I, ký hiệu $f_J$ là đồng cấu chính tắc $\bigotimes_{i \in J} E_i \to \bigotimes_{i \in I} E_i$ (viết $f_i$ thay cho $f_{\{i\}}$); nếu e là phần tử đơn vị của $\bigotimes_{i \in I} E_i$, thì $f_J(e_J) = e$ với mọi $J \in \mathscr{F}(I)$. Ngay lập tức thấy rằng nếu mọi đại số E_i đều giao hoán, thì $\bigotimes_{i \in I} E_i$ cũng giao hoán.
 
 #### Mệnh đề 8 {#alg-iii-s4-prop-8 .statement}
 
@@ -432,7 +432,7 @@ Với mọi tập con hữu hạn J của I, ký hiệu $f_J$ là đồng cấu 
 
 (ii) *Cho F là một đại số trên A và, với mọi* $i \in I$, *cho* $u_i : E_i \to F$ *là một đồng cấu đại số trên A sao cho, với* $i \neq j$, $u_i(x_i)$ *và* $u_j(x_j)$ *giao hoán trong* F *với mọi* $x_i \in E_i$ *và* $x_j \in E_j$. *Khi đó tồn tại một và chỉ một đồng cấu đại số trên A* $u : E \to F$ *sao cho* $u_i = u \circ f_i$ *với mọi* $i \in I$.
 
-(i) Vì, với mọi tập con hữu hạn J của I, $f_i = f_J \circ f_{J,i}$, mệnh đề đầu tiên trong (i) suy ra từ No. 2, Mệnh đề 5, khi lấy J chứa i và j; mệnh đề thứ hai cũng suy ra từ No. 2, Mệnh đề 5, có tính đến sự kiện rằng E là hợp của các $f_J(E_J)$ khi J chạy qua $\mathcal{F}(I)$.
+(i) Vì, với mọi tập con hữu hạn J của I, $f_i = f_J \circ f_{J,i}$, mệnh đề đầu tiên trong (i) suy ra từ No. 2, Mệnh đề 5, khi lấy J chứa i và j; mệnh đề thứ hai cũng suy ra từ No. 2, Mệnh đề 5, có tính đến sự kiện rằng E là hợp của các $f_J(E_J)$ khi J chạy qua $\mathscr{F}(I)$.
 
 (ii) Với mọi tập con hữu hạn J của I, suy ra từ No. 2, Mệnh đề 5 rằng tồn tại một đồng cấu duy nhất $u_J : E_J \to F$ sao cho $u_J \circ f_{J,i} = u_i$ với mọi $i \in J$; ngay lập tức suy ra từ tính duy nhất này rằng, với $J \subset J'$, $u_J = u_{J'} \circ f_{J'J}$; nói cách khác, các $u_J$ tạo thành một *hệ trực tiếp* các đồng cấu. Đặt $u = \lim \to u_J : E \to F$; khi đó theo định nghĩa ta có $u_J = u \circ f_J$ với mọi tập con hữu hạn $J$ của $I$ và đặc biệt $u_i = u \circ f_i$ với mọi $i \in I$; tính duy nhất của $u$ suy ra từ các hệ thức này và từ sự kiện rằng các $f_i(E_i)$ sinh đại số $E$.
 
@@ -466,7 +466,7 @@ Giá trị chung của các $f_J((x_i)_{i \in J})$ đối với các tập con h
 
 *Cho* $(E_i)_{i \in I}$ *là một họ các* $A$*-đại số và với mỗi* $i \in I$ *cho* $B_i$ *là một cơ sở của* $E_i$ *sao cho phần tử đơn vị* $e_i$ *thuộc về* $B_i$. *Gọi* $B$ *là tập hợp các phần tử có dạng* $\bigotimes_{i \in I} x_i$, *trong đó* $(x_i)$ *chạy qua tập hợp các phần tử của* $\prod_{i \in I} B_i$ *sao cho họ* $(x_i - e_i)$ *có giá hữu hạn*. *Khi đó* $B$ *là một cơ sở của đại số* $\bigotimes_{i \in I} E_i$ *và cơ sở này chứa phần tử đơn vị* $e$.
 
-Với mọi tập con hữu hạn $J$ của $I$, gọi $B_J$ là cơ sở của $E_J = \bigotimes_{i \in J} E_i$, là tích tenxơ của các cơ sở $B_i$ với $i \in J$ (II, § 3, no. 9). Ngay từ các định nghĩa suy ra rằng $B$ là hợp của các $f_J(B_J)$ khi $J$ chạy qua $\mathcal{F}(I)$ và rằng $f_{J',J}(B_J) \subset B_{J'}$ khi $J \subset J'$; do đó $(B_J)$ là một hệ trực tiếp các tập con của các $E_J$ và $B = \lim \rightarrow B_J$; kết luận khi đó suy ra từ II, § 6, no. 2, Hệ quả của Mệnh đề 5.
+Với mọi tập con hữu hạn $J$ của $I$, gọi $B_J$ là cơ sở của $E_J = \bigotimes_{i \in J} E_i$, là tích tenxơ của các cơ sở $B_i$ với $i \in J$ (II, § 3, no. 9). Ngay từ các định nghĩa suy ra rằng $B$ là hợp của các $f_J(B_J)$ khi $J$ chạy qua $\mathscr{F}(I)$ và rằng $f_{J',J}(B_J) \subset B_{J'}$ khi $J \subset J'$; do đó $(B_J)$ là một hệ trực tiếp các tập con của các $E_J$ và $B = \lim \rightarrow B_J$; kết luận khi đó suy ra từ II, § 6, no. 2, Hệ quả của Mệnh đề 5.
 
 Cơ sở $B$ cũng được gọi là *tích tenxơ* của các cơ sở $B_i$ với $i \in I$; khi các điều kiện của Mệnh đề 9 được thỏa mãn, các đồng cấu chính tắc $f_J : E_J \to E = \bigotimes_{i \in I} E_i$ là *đơn ánh* với mọi tập con $J$ của $I$, vì nếu $B_J$ là cơ sở của $E_J$, là tích tenxơ của các $B_i$ với $i \in J$, thì kiểm tra ngay lập tức được rằng hạn chế của $f_J$ lên $B_J$ là đơn ánh và ánh xạ $B_J$ lên một tập con của $B$.
 

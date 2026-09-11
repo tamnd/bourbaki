@@ -49,7 +49,7 @@ subsections:
       pdf_page: 86
 statements: 41
 exercises: 9
-content_sha256: c87130263c1fe5d434cb536f82ba52bf0f60574aa0ecfea673d0882688a5ac07
+content_sha256: 339ca7832854415ba24c73f21a5671d353b7286e033de89341609251515f3f77
 ---
 
 ## § 4. PRODUIT DE TORSION
@@ -655,14 +655,14 @@ $$
 
 Soit
 
-$$(\mathcal{E})$$
+$$(\mathscr{E})$$
 $$
 0 \to N' \xrightarrow{u} N \xrightarrow{v} N'' \to 0
 $$
 
 une suite exacte de $A$-modules à gauche ; la suite de $k$-complexes
 
-$$(\mathcal{M}\mathcal{E})$$
+$$(\mathscr{M}\mathscr{E})$$
 $$
 0 \longrightarrow L(M) \otimes_A N' \xrightarrow{1 \otimes u} L(M) \otimes_A N \xrightarrow{1 \otimes v} L(M) \otimes_A N'' \longrightarrow 0
 $$
@@ -670,20 +670,20 @@ $$
 est alors exacte (X, p. 66, *lemme* 1); soit
 
 $$
-\partial^{(\mathcal{M}\mathcal{E})} : H(L(M) \otimes_A N'') \to H(L(M) \otimes_A N')
+\partial^{(\mathscr{M}\mathscr{E})} : H(L(M) \otimes_A N'') \to H(L(M) \otimes_A N')
 $$
 
 l’homomorphisme de liaison correspondant (X, p. 29).
 
 #### Définition 2 {#alg-x-s4-def-2 .statement}
 
-On appelle homomorphisme de liaison des produits de torsion, relatif au module M et à la suite exacte $\mathcal{E}$, l’homomorphisme composé
+On appelle homomorphisme de liaison des produits de torsion, relatif au module M et à la suite exacte $\mathscr{E}$, l’homomorphisme composé
 
 $$
-\partial(M, \mathcal{E}) = \psi_M(N')^{-1} \circ \partial^{(M\mathcal{E})} \circ \psi_M(N'') : \mathrm{Tor}^A(M, N'') \to \mathrm{Tor}^A(M, N')
+\partial(M, \mathscr{E}) = \psi_M(N')^{-1} \circ \partial^{(M\mathscr{E})} \circ \psi_M(N'') : \mathrm{Tor}^A(M, N'') \to \mathrm{Tor}^A(M, N')
 $$
 
-C’est un $k$-homomorphisme gradué de degré ($-1$), dont les composantes homogènes sont notées $\partial_n(M, \mathcal{E}) : \mathrm{Tor}_n^A(M, N'') \to \mathrm{Tor}_{n-1}^A(M, N')$.
+C’est un $k$-homomorphisme gradué de degré ($-1$), dont les composantes homogènes sont notées $\partial_n(M, \mathscr{E}) : \mathrm{Tor}_n^A(M, N'') \to \mathrm{Tor}_{n-1}^A(M, N')$.
 
 #### Théorème 1 {#alg-x-s4-thm-1 .statement}
 
@@ -693,10 +693,10 @@ $$
 \cdots \longrightarrow \mathrm{Tor}_n^A(M, N') \xrightarrow{\mathrm{Tor}_n^A(1, u)} \mathrm{Tor}_n^A(M, N) \xrightarrow{\mathrm{Tor}_n^A(1, v)} \mathrm{Tor}_n^A(M, N'')
 $$
 $$
-\xrightarrow{\partial_n(M, \mathcal{E})} \mathrm{Tor}_{n-1}^A(M, N') \xrightarrow{\mathrm{Tor}_{n-1}^A(1, u)} \cdots \xrightarrow{\mathrm{Tor}_1^A(1, v)} \mathrm{Tor}_1^A(M, N'')
+\xrightarrow{\partial_n(M, \mathscr{E})} \mathrm{Tor}_{n-1}^A(M, N') \xrightarrow{\mathrm{Tor}_{n-1}^A(1, u)} \cdots \xrightarrow{\mathrm{Tor}_1^A(1, v)} \mathrm{Tor}_1^A(M, N'')
 $$
 $$
-\xrightarrow{\hat{c}_1(M, \mathcal{E})} M \otimes_A N' \xrightarrow{1 \otimes u} M \otimes_A N \xrightarrow{1 \otimes v} M \otimes_A N'' \longrightarrow 0
+\xrightarrow{\hat{c}_1(M, \mathscr{E})} M \otimes_A N' \xrightarrow{1 \otimes u} M \otimes_A N \xrightarrow{1 \otimes v} M \otimes_A N'' \longrightarrow 0
 $$
 
 est exacte.
@@ -705,9 +705,9 @@ Considérons en effet le diagramme
 
 $$
 \begin{array}{ccccccccc}
-\mathrm{Tor}(M, N') & \xrightarrow{\mathrm{Tor}(1, u)} & \mathrm{Tor}(M, N) & \xrightarrow{\mathrm{Tor}(1, v)} & \mathrm{Tor}(M, N'') & \xrightarrow{\partial(M, \mathcal{E})} & \mathrm{Tor}(M, N') & \xrightarrow{\mathrm{Tor}(1, u)} & \mathrm{Tor}(M, N) \\
+\mathrm{Tor}(M, N') & \xrightarrow{\mathrm{Tor}(1, u)} & \mathrm{Tor}(M, N) & \xrightarrow{\mathrm{Tor}(1, v)} & \mathrm{Tor}(M, N'') & \xrightarrow{\partial(M, \mathscr{E})} & \mathrm{Tor}(M, N') & \xrightarrow{\mathrm{Tor}(1, u)} & \mathrm{Tor}(M, N) \\
 \psi_M(N') \downarrow & & \psi_M(N) \downarrow & & \psi_M(N'') \downarrow & & \psi_M(N') \downarrow & & \psi_M(N') \downarrow \\
-H(L(M) \otimes N') & \xrightarrow{H(1 \otimes u)} & H(L(M) \otimes N) & \xrightarrow{H(1 \otimes v)} & H(L(M \otimes N'') & \xrightarrow{\partial^{(M\mathcal{E})}} & H(L(M) \otimes N') & \xrightarrow{H(1 \otimes u)} & H(L(M) \otimes N)
+H(L(M) \otimes N') & \xrightarrow{H(1 \otimes u)} & H(L(M) \otimes N) & \xrightarrow{H(1 \otimes v)} & H(L(M \otimes N'') & \xrightarrow{\partial^{(M\mathscr{E})}} & H(L(M) \otimes N') & \xrightarrow{H(1 \otimes u)} & H(L(M) \otimes N)
 \end{array}
 $$
 
@@ -811,18 +811,18 @@ $$
 \partial_n(F, N) : \operatorname{Tor}_n^A(M'', N) \to \operatorname{Tor}_{n-1}^A(M', N)
 $$
 
-par $\partial(\mathcal F,\mathbf N)=\overline{\psi}_{\mathbf N}(M')^{-1}\circ\partial(\mathcal F^{\mathbf N})\circ\overline{\psi}_{\mathbf N}(M'')$, où $\partial(\mathcal F^{\mathbf N})$ est l’homomorphisme de
+par $\partial(\mathscr F,\mathbf N)=\overline{\psi}_{\mathbf N}(M')^{-1}\circ\partial(\mathscr F^{\mathbf N})\circ\overline{\psi}_{\mathbf N}(M'')$, où $\partial(\mathscr F^{\mathbf N})$ est l’homomorphisme de
 liaison de la suite exacte
 
-$$(\mathcal F_{\mathbf N})\qquad 0\longrightarrow M'\otimes_A L(N)\longrightarrow M\otimes_A L(N)\longrightarrow M''\otimes_A L(N)\longrightarrow 0$$
+$$(\mathscr F_{\mathbf N})\qquad 0\longrightarrow M'\otimes_A L(N)\longrightarrow M\otimes_A L(N)\longrightarrow M''\otimes_A L(N)\longrightarrow 0$$
 
-déduite de $\mathcal F$, et on a :
+déduite de $\mathscr F$, et on a :
 
 **THÉORÈME 1 bis.** — *La suite illimitée à gauche d’homomorphismes de $k$-modules*
 
-$$\longrightarrow \operatorname{Tor}_n^A(M',N)\xrightarrow{\operatorname{Tor}_n^A(r,1)}\operatorname{Tor}_n^A(M,N)\xrightarrow{\operatorname{Tor}_n^A(s,1)}\operatorname{Tor}_n^A(M'',N)\xrightarrow{\partial_n(\mathcal F,N)}\operatorname{Tor}_{n-1}^A(M',N)$$
+$$\longrightarrow \operatorname{Tor}_n^A(M',N)\xrightarrow{\operatorname{Tor}_n^A(r,1)}\operatorname{Tor}_n^A(M,N)\xrightarrow{\operatorname{Tor}_n^A(s,1)}\operatorname{Tor}_n^A(M'',N)\xrightarrow{\partial_n(\mathscr F,N)}\operatorname{Tor}_{n-1}^A(M',N)$$
 
-$$\cdots\longrightarrow \operatorname{Tor}_1^A(M'',N)\xrightarrow{\partial_1(\mathcal F,N)}M'\otimes_A N\xrightarrow{r\otimes1}M\otimes_A N\xrightarrow{s\otimes1}M''\otimes_A N\longrightarrow0$$
+$$\cdots\longrightarrow \operatorname{Tor}_1^A(M'',N)\xrightarrow{\partial_1(\mathscr F,N)}M'\otimes_A N\xrightarrow{r\otimes1}M\otimes_A N\xrightarrow{s\otimes1}M''\otimes_A N\longrightarrow0$$
 
 *est exacte.*
 
@@ -831,7 +831,7 @@ aux corollaires du th. 1 et à la prop. 9. D’ailleurs :
 
 #### Proposition 10 {#alg-x-s4-prop-10 .statement}
 
-*Notons $(\mathcal F^\circ)$ la suite exacte de $A$-modules à gauche*
+*Notons $(\mathscr F^\circ)$ la suite exacte de $A$-modules à gauche*
 
 $$0\longrightarrow M'\xrightarrow{r}M\xrightarrow{s}M''\longrightarrow0.$$
 
@@ -839,9 +839,9 @@ $$0\longrightarrow M'\xrightarrow{r}M\xrightarrow{s}M''\longrightarrow0.$$
 
 $$
 \begin{array}{ccccc}
-\operatorname{Tor}^A(M'',N)&\xrightarrow{\partial(\mathcal F,N)}&\operatorname{Tor}^A(M',N)\\
+\operatorname{Tor}^A(M'',N)&\xrightarrow{\partial(\mathscr F,N)}&\operatorname{Tor}^A(M',N)\\
 \Big\downarrow{\sigma_{M'',N}}&&\Big\downarrow{\sigma_{M',N}}\\
-\operatorname{Tor}^{A^\circ}(N^\circ,{M''}^\circ)&\xrightarrow{\partial(N^\circ,\mathcal F^\circ)}&\operatorname{Tor}^{A^\circ}(N^\circ,{M'}^\circ)
+\operatorname{Tor}^{A^\circ}(N^\circ,{M''}^\circ)&\xrightarrow{\partial(N^\circ,\mathscr F^\circ)}&\operatorname{Tor}^{A^\circ}(N^\circ,{M'}^\circ)
 \end{array}
 $$
 
@@ -1155,9 +1155,9 @@ $$
 
 Cela montre d’une part que le cône de $u$ est d’homologie nulle, donc que $u$ est un homologisme, d’autre part que le module $P_b$ est *plat* (X, p. 76, cor. 2) ; comme $P_b$ est de type fini comme quotient de $L_{b+1}$, il est *projectif* (X, p. 13, cor.). Le couple $(P,u)$ répond donc à la condition exigée. La dernière assertion résulte de X, p. 79, cor. 5.
 
-\* **Exemple.** — Soient A un anneau commutatif noethérien, X un A-schéma propre et plat, $\mathcal F$ un $\mathcal C_X$-module cohérent, plat sur A. Il existe un complexe P borné formé de A-modules projectifs de type fini tel que pour tout A-module M, $H(X,\mathcal F\otimes_A M)$ s’identifie naturellement à $H(P\otimes_A M)$. En effet, soit $\mathcal U$ un recouvrement de X par un nombre fini d’ouverts affines, $\mathcal C(\mathcal U,\mathcal F)$ le complexe de Čech associé. On montre que $H^i(\mathcal C(\mathcal U,\mathcal F))$ est isomorphe au A-module $H^i(X,\mathcal F)$, et que ce dernier est de type fini ; de plus, pour tout A-module M, le complexe $\mathcal C(\mathcal U,\mathcal F)\otimes_A M$ est isomorphe à $\mathcal C(\mathcal U,\mathcal F\otimes_A M)$. En appliquant la prop. 11 au complexe $\mathcal C(\mathcal U,\mathcal F)$ (qui est borné), on obtient un complexe P qui répond à la question.
+\* **Exemple.** — Soient A un anneau commutatif noethérien, X un A-schéma propre et plat, $\mathscr F$ un $\mathscr C_X$-module cohérent, plat sur A. Il existe un complexe P borné formé de A-modules projectifs de type fini tel que pour tout A-module M, $H(X,\mathscr F\otimes_A M)$ s’identifie naturellement à $H(P\otimes_A M)$. En effet, soit $\mathscr U$ un recouvrement de X par un nombre fini d’ouverts affines, $\mathscr C(\mathscr U,\mathscr F)$ le complexe de Čech associé. On montre que $H^i(\mathscr C(\mathscr U,\mathscr F))$ est isomorphe au A-module $H^i(X,\mathscr F)$, et que ce dernier est de type fini ; de plus, pour tout A-module M, le complexe $\mathscr C(\mathscr U,\mathscr F)\otimes_A M$ est isomorphe à $\mathscr C(\mathscr U,\mathscr F\otimes_A M)$. En appliquant la prop. 11 au complexe $\mathscr C(\mathscr U,\mathscr F)$ (qui est borné), on obtient un complexe P qui répond à la question.
 
-Pour tout point $y$ de Spec (A), notons $\kappa(y)$ le corps résiduel de A en $y$, $X_y=X\otimes_A\kappa(y)$ la fibre de X au-dessus de $y$, $\mathcal F_y=\mathcal F\otimes_A\kappa(y)$, et posons $h^p(y)=\dim_{\kappa(y)}H^p(X_y,\mathcal F_y)$ pour $p\geq 0$.
+Pour tout point $y$ de Spec (A), notons $\kappa(y)$ le corps résiduel de A en $y$, $X_y=X\otimes_A\kappa(y)$ la fibre de X au-dessus de $y$, $\mathscr F_y=\mathscr F\otimes_A\kappa(y)$, et posons $h^p(y)=\dim_{\kappa(y)}H^p(X_y,\mathscr F_y)$ pour $p\geq 0$.
 
 On déduit aisément de l’existence du complexe P les résultats suivants :
 

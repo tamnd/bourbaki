@@ -50,9 +50,9 @@ subsections:
       pdf_page: 543
 statements: 31
 exercises: 15
-content_sha256: a85bdaefd42957f8fd00237d59037c1f0ec3ed049a7324d67dac382722b052d2
+content_sha256: 392227cd45eb4ce8542ebdf8c40371c1fda09d6c6d3a9b32894e8cde9a438215
 translated_from: content/en/alg/III/07_s7_exterior_algebras.md
-source_content_sha256: c5c58d36fea84ed5e26883e391f20cf1b187d6e1a3de33d7c9e483038c5c4be1
+source_content_sha256: a65164e0213b01ccd25a9de8102ce235ce980145680f285182c0cfa7cdce4ac7
 translation_model: gpt-5.4
 translation_run: translate-vi-ad8b440c
 glossary_version: 34
@@ -250,7 +250,7 @@ $$
 $$
 *thì thu được một ánh xạ A-tuyến tính song ánh của A-môđun $\operatorname{Hom}_A(\bigwedge^n(M), N)$ lên A-môđun các ánh xạ n-tuyến tính phản xứng của $M^n$ vào N.*
 
-Ta xét song ánh chính tắc của A-môđun $\operatorname{Hom}_A(T^n(M), N)$ lên A-môđun $\mathcal{L}_n(M, \ldots, M; N)$ gồm *mọi* ánh xạ n-tuyến tính của $M^n$ vào N, thu được bằng cách liên kết với mỗi ánh xạ A-tuyến tính $f : T^n(M) \to N$ ánh xạ n-tuyến tính
+Ta xét song ánh chính tắc của A-môđun $\operatorname{Hom}_A(T^n(M), N)$ lên A-môđun $\mathscr{L}_n(M, \ldots, M; N)$ gồm *mọi* ánh xạ n-tuyến tính của $M^n$ vào N, thu được bằng cách liên kết với mỗi ánh xạ A-tuyến tính $f : T^n(M) \to N$ ánh xạ n-tuyến tính
 $$
 \tilde{f} : (x_1, \ldots, x_n) \mapsto f(x_1 \otimes x_2 \otimes \cdots \otimes x_n)
 $$
@@ -432,7 +432,7 @@ $$
 
 là giao hoán (xem § 4, no. 5, Hệ quả của Mệnh đề 8).
 
-A-môđun con của $\bigotimes_{\lambda \in L} \Lambda(M_\lambda)$ mà với nó $\Lambda^n(M)$ được đồng nhất nhờ đẳng cấu $g$ có thể được mô tả chính xác hơn. Với mọi tập con hữu hạn $J$ của $L$, ta viết $E_J = \bigotimes_{\lambda \in J} \Lambda(M_\lambda)$, sao cho $\bigotimes_{\lambda \in L} \Lambda(M_\lambda) = \lim \to E_J$ đối với tập có hướng $\mathcal{F}(L)$ các tập con hữu hạn của $L$, theo định nghĩa ($§ 4$, no. 8, *Nhận xét* 1). Với mọi họ $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ (do đó có giá *hữu hạn* khác không) sao cho $\sum_{\lambda \in L} n_\lambda = n$ và mọi tập con hữu hạn $J$ của $L$ chứa giá của họ $\nu$, ta viết
+A-môđun con của $\bigotimes_{\lambda \in L} \Lambda(M_\lambda)$ mà với nó $\Lambda^n(M)$ được đồng nhất nhờ đẳng cấu $g$ có thể được mô tả chính xác hơn. Với mọi tập con hữu hạn $J$ của $L$, ta viết $E_J = \bigotimes_{\lambda \in J} \Lambda(M_\lambda)$, sao cho $\bigotimes_{\lambda \in L} \Lambda(M_\lambda) = \lim \to E_J$ đối với tập có hướng $\mathscr{F}(L)$ các tập con hữu hạn của $L$, theo định nghĩa ($§ 4$, no. 8, *Nhận xét* 1). Với mọi họ $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ (do đó có giá *hữu hạn* khác không) sao cho $\sum_{\lambda \in L} n_\lambda = n$ và mọi tập con hữu hạn $J$ của $L$ chứa giá của họ $\nu$, ta viết
 
 $$
 \Lambda^{J,\nu}(M) = \bigotimes_{\lambda \in J} \Lambda^{n_\lambda}(M_\lambda)
@@ -476,9 +476,9 @@ $$
 e_J = e_{\lambda_1} \wedge e_{\lambda_2} \wedge \cdots \wedge e_{\lambda_n}
 $$
 
-trong đó $(\lambda_k)_{1 \leq k \leq n}$ là dãy các phần tử của J được sắp theo thứ tự tăng (Lý thuyết tập hợp, III, § 5, no. 3, Mệnh đề 6); ta viết $e_\varnothing = 1$, phần tử đơn vị của A. Khi đó các $e_J$, khi J chạy qua tập $\mathcal{F}(L)$ các tập con hữu hạn của L, tạo thành một cơ sở của đại số ngoài $\bigwedge(M)$.
+trong đó $(\lambda_k)_{1 \leq k \leq n}$ là dãy các phần tử của J được sắp theo thứ tự tăng (Lý thuyết tập hợp, III, § 5, no. 3, Mệnh đề 6); ta viết $e_\varnothing = 1$, phần tử đơn vị của A. Khi đó các $e_J$, khi J chạy qua tập $\mathscr{F}(L)$ các tập con hữu hạn của L, tạo thành một cơ sở của đại số ngoài $\bigwedge(M)$.
 
-Vì các $e_\lambda$ sinh A-môđun M, mọi phần tử của $\bigwedge(M)$ là một tổ hợp tuyến tính của một số hữu hạn tích của các phần tử $e_\lambda$ và do đó (có tính đến no. 3, Mệnh đề 5) là một tổ hợp tuyến tính của một số hữu hạn phần tử $e_J$ với $J \in \mathcal{F}(L)$. Vậy chỉ còn phải chứng minh rằng các $e_J$ độc lập tuyến tính trên A. Nếu không, sẽ tồn tại giữa các phần tử ấy một quan hệ tuyến tính với các hệ số không phải tất cả đều bằng không; hợp của các tập con J tương ứng với các $e_J$ mà các hệ số của chúng trong quan hệ này là $\neq 0$ là một tập con hữu hạn K của L (vì chỉ có một số hữu hạn hệ số $\neq 0$). Gọi N là môđun con của M sinh bởi các $e_\lambda$ sao cho $\lambda \in K$; N là một nhân tử trực tiếp của M, do đó (no. 2) $\bigwedge(N)$ được đồng nhất với một đại số con của $\bigwedge(M)$ và, nếu ta chỉ ra rằng các $e_J$ với $J \subset K$ tạo thành một cơ sở của $\bigwedge(N)$, thì ta sẽ thu được mâu thuẫn cần tìm.
+Vì các $e_\lambda$ sinh A-môđun M, mọi phần tử của $\bigwedge(M)$ là một tổ hợp tuyến tính của một số hữu hạn tích của các phần tử $e_\lambda$ và do đó (có tính đến no. 3, Mệnh đề 5) là một tổ hợp tuyến tính của một số hữu hạn phần tử $e_J$ với $J \in \mathscr{F}(L)$. Vậy chỉ còn phải chứng minh rằng các $e_J$ độc lập tuyến tính trên A. Nếu không, sẽ tồn tại giữa các phần tử ấy một quan hệ tuyến tính với các hệ số không phải tất cả đều bằng không; hợp của các tập con J tương ứng với các $e_J$ mà các hệ số của chúng trong quan hệ này là $\neq 0$ là một tập con hữu hạn K của L (vì chỉ có một số hữu hạn hệ số $\neq 0$). Gọi N là môđun con của M sinh bởi các $e_\lambda$ sao cho $\lambda \in K$; N là một nhân tử trực tiếp của M, do đó (no. 2) $\bigwedge(N)$ được đồng nhất với một đại số con của $\bigwedge(M)$ và, nếu ta chỉ ra rằng các $e_J$ với $J \subset K$ tạo thành một cơ sở của $\bigwedge(N)$, thì ta sẽ thu được mâu thuẫn cần tìm.
 
 Do đó điều này quy về việc đưa ra Định lý 1 khi cơ sở của M là hữu hạn; vì vậy ta có thể giả sử rằng $L = \{1, m\} \subset N$. Với mỗi $i \in L$, gọi $M_i$ là môđun con tự do $Ae_i$ của M; M là tổng trực tiếp của các $M_i$ và $\bigwedge(M_i)$ là tổng trực tiếp của $\bigwedge^0(M_i) = A$ và $\bigwedge^1(M_i) = M_i$ (no. 3, Mệnh đề 6). Đồng nhất một cách chính tắc $\bigwedge(M)$ với A-môđun là tích tenxơ của các $\bigwedge(M_i)$ (no. 7, Mệnh đề 10); môđun sau có cơ sở là tích tenxơ của các cơ sở $(1, e_i)$ của các $\bigwedge(M_i)$ (II, § 3, no. 7, Hệ quả 2 của Mệnh đề 7); do đó ta thu được tất cả các phần tử
 
@@ -490,7 +490,7 @@ trong đó hoặc $u_i = 1$ hoặc $u_i = e_i$; nếu J là tập hợp các ch�
 
 #### Hệ quả 1 {#alg-iii-s7-thm-1-cor-1 .statement}
 
-Giả sử rằng $L = \{1, m\}$; khi đó cơ sở $(e_J)_{J \in \mathcal{P}(L)}$ của $\bigwedge(M)$ có $2^m$ phần tử. Với $p > m$, $\bigwedge^p(M) = \{0\}$; $\bigwedge^m(M)$ có một cơ sở gồm một phần tử duy nhất $e_L$; với $0 \leq p \leq m$ số phần tử trong cơ sở $(e_J)$ của $\bigwedge^p(M)$ gồm các $e_J$ sao cho $\mathrm{Card}(J) = p$ là
+Giả sử rằng $L = \{1, m\}$; khi đó cơ sở $(e_J)_{J \in \mathscr{P}(L)}$ của $\bigwedge(M)$ có $2^m$ phần tử. Với $p > m$, $\bigwedge^p(M) = \{0\}$; $\bigwedge^m(M)$ có một cơ sở gồm một phần tử duy nhất $e_L$; với $0 \leq p \leq m$ số phần tử trong cơ sở $(e_J)$ của $\bigwedge^p(M)$ gồm các $e_J$ sao cho $\mathrm{Card}(J) = p$ là
 
 $$
 \binom{m}{p} = \frac{m!}{p!(m-p)!}

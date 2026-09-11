@@ -41,7 +41,7 @@ subsections:
       pdf_page: 86
 statements: 68
 exercises: 41
-content_sha256: 9a17e5ddfce7be6cf12f2f03d20e1760bf61223d7661f7b621abde2958295d00
+content_sha256: fd56f848b75e700c61a9151fe7bedae5c2c70f554e68a1940affbc42e0e7d6aa
 ---
 
 ## § 6. EXTENSIONS, GROUPES RÉSOLUBLES, GROUPES NILPOTENTS
@@ -52,15 +52,15 @@ Dans tout ce paragraphe, les lois de groupe sont, sauf mention expresse du contr
 
 #### Définition 1 {#alg-i-s6-def-1 .statement}
 
-Soient $F$ et $G$ deux groupes. Une extension de $G$ par $F$ est un triplet $\mathcal{E} = (E, i, p)$, où $E$ est un groupe, $i$ un homomorphisme injectif de $F$ dans $E$ et $p$ un homomorphisme surjectif de $E$ sur $G$ tels que $\operatorname{Im}(i) = \operatorname{Ker}(p)$. On appelle section (resp. rétraction) de l’extension $\mathcal{E}$ un homomorphisme $s : G \to E$ (resp. $r : E \to F$) tel que $p \circ s = \operatorname{Id}_G$ (resp. $r \circ i = \operatorname{Id}_F$).
+Soient $F$ et $G$ deux groupes. Une extension de $G$ par $F$ est un triplet $\mathscr{E} = (E, i, p)$, où $E$ est un groupe, $i$ un homomorphisme injectif de $F$ dans $E$ et $p$ un homomorphisme surjectif de $E$ sur $G$ tels que $\operatorname{Im}(i) = \operatorname{Ker}(p)$. On appelle section (resp. rétraction) de l’extension $\mathscr{E}$ un homomorphisme $s : G \to E$ (resp. $r : E \to F$) tel que $p \circ s = \operatorname{Id}_G$ (resp. $r \circ i = \operatorname{Id}_F$).
 
-Une extension $\mathcal{E} = (E, i, p)$ de $G$ par $F$ est souvent désignée par le diagramme $\mathcal{E} : F \xrightarrow{i} E \xrightarrow{p} G$, dans lequel on omet parfois $i$ et $p$ lorsqu’aucune confusion n’est à craindre. On dit parfois simplement que le groupe $E$ est extension de $G$ par $F$.
+Une extension $\mathscr{E} = (E, i, p)$ de $G$ par $F$ est souvent désignée par le diagramme $\mathscr{E} : F \xrightarrow{i} E \xrightarrow{p} G$, dans lequel on omet parfois $i$ et $p$ lorsqu’aucune confusion n’est à craindre. On dit parfois simplement que le groupe $E$ est extension de $G$ par $F$.
 
 Pour qu’un groupe E soit extension de G par F, il faut et il suffit qu’il contienne un sous-groupe distingué F’ isomorphe à F, tel que le groupe quotient E/F’ soit isomorphe à G.
 
-Une extension $\mathcal{E}: F \xrightarrow{i} E \xrightarrow{p} G$ est dite centrale si l’image $i(F)$ est contenue dans le centre de E ; ceci n’est possible que si F est commutatif.
+Une extension $\mathscr{E}: F \xrightarrow{i} E \xrightarrow{p} G$ est dite centrale si l’image $i(F)$ est contenue dans le centre de E ; ceci n’est possible que si F est commutatif.
 
-Soient $\mathcal{E}: F \xrightarrow{i} E \xrightarrow{p} G$ et $\mathcal{E}': F \xrightarrow{i'} E' \xrightarrow{p'} G$ deux extensions de G par F. On appelle morphisme de $\mathcal{E}$ dans $\mathcal{E}'$ un homomorphisme $u: E \to E'$ tel que $p' \circ u = p$ et $u \circ i = i'$, ou en d’autres termes, tel que le diagramme ci-après soit commutatif:
+Soient $\mathscr{E}: F \xrightarrow{i} E \xrightarrow{p} G$ et $\mathscr{E}': F \xrightarrow{i'} E' \xrightarrow{p'} G$ deux extensions de G par F. On appelle morphisme de $\mathscr{E}$ dans $\mathscr{E}'$ un homomorphisme $u: E \to E'$ tel que $p' \circ u = p$ et $u \circ i = i'$, ou en d’autres termes, tel que le diagramme ci-après soit commutatif:
 
 $$
 \begin{array}{ccccc}
@@ -74,24 +74,24 @@ $$
 
 #### Proposition 1 {#alg-i-s6-prop-1 .statement}
 
-*Soient $\mathcal{E}: F \xrightarrow{i} E \xrightarrow{p} G$ et $\mathcal{E}': F \xrightarrow{i'} E' \xrightarrow{p'} G$ des extensions de G par F. Si $u: E \to E'$ est un morphisme de $\mathcal{E}$ dans $\mathcal{E}'$, u est un isomorphisme de E sur $E'$ et $u^{-1}$ est un morphisme de $\mathcal{E}'$ dans $\mathcal{E}$.*
+*Soient $\mathscr{E}: F \xrightarrow{i} E \xrightarrow{p} G$ et $\mathscr{E}': F \xrightarrow{i'} E' \xrightarrow{p'} G$ des extensions de G par F. Si $u: E \to E'$ est un morphisme de $\mathscr{E}$ dans $\mathscr{E}'$, u est un isomorphisme de E sur $E'$ et $u^{-1}$ est un morphisme de $\mathscr{E}'$ dans $\mathscr{E}$.*
 
 Soit $x \in E$ tel que $u(x) = e$. On a $p(x) = p'(u(x)) = e$ d’où $x \in i(F)$. Soit $y \in F$ tel que $x = i(y)$; on a $i'(y) = u(i(y)) = e$. Comme $i'$ est injectif, $y = e$ et $x = e$. Par suite $u$ est injectif. En vertu de I, p. 38, cor. 1, $u$ est surjectif puisque $u(i(F)) = i'(F)$. La dernière assertion est immédiate.
 
-En d’autres termes, les extensions $\mathcal{E}$ et $\mathcal{E}'$ sont isomorphes si et seulement s’il existe un morphisme de $\mathcal{E}$ dans $\mathcal{E}'$.
+En d’autres termes, les extensions $\mathscr{E}$ et $\mathscr{E}'$ sont isomorphes si et seulement s’il existe un morphisme de $\mathscr{E}$ dans $\mathscr{E}'$.
 
-Soient F et G deux groupes ; posons $E_0 = F \times G$; soient $i : F \to E_0$ l’injection canonique et $p : E_0 \to G$ la surjection canonique. Toute extension de G par F isomorphe à l’extension $\mathcal{E}_0 : F \xrightarrow{i} E_0 \xrightarrow{p} G$ est appelée extension triviale.
+Soient F et G deux groupes ; posons $E_0 = F \times G$; soient $i : F \to E_0$ l’injection canonique et $p : E_0 \to G$ la surjection canonique. Toute extension de G par F isomorphe à l’extension $\mathscr{E}_0 : F \xrightarrow{i} E_0 \xrightarrow{p} G$ est appelée extension triviale.
 
 #### Proposition 2 {#alg-i-s6-prop-2 .statement}
 
-*Soit $\mathcal{E}: F \xrightarrow{i} E \xrightarrow{p} G$ une extension de G par F. Les conditions suivantes sont équivalentes :
-(i) $\mathcal{E}$ est une extension triviale ;
-(ii) $\mathcal{E}$ possède une rétraction r ;
-(iii) $\mathcal{E}$ possède une section s telle que $s(G)$ soit contenu dans le centralisateur de $i(F)$.*
+*Soit $\mathscr{E}: F \xrightarrow{i} E \xrightarrow{p} G$ une extension de G par F. Les conditions suivantes sont équivalentes :
+(i) $\mathscr{E}$ est une extension triviale ;
+(ii) $\mathscr{E}$ possède une rétraction r ;
+(iii) $\mathscr{E}$ possède une section s telle que $s(G)$ soit contenu dans le centralisateur de $i(F)$.*
 
-Il est clair que (i) entraîne (ii) et (iii). Si (ii) est vérifiée, l’application $(r, p): E \to F \times G$ est un morphisme de $\mathcal{E}$ dans $\mathcal{E}_0$, d’où (i). Si (iii) est vérifiée, l’homomorphisme de $F \times G$ dans E correspondant à $(i, s)$ (I, p. 45, prop. 12) est un morphisme de $\mathcal{E}_0$ dans $\mathcal{E}$, d’où (i).
+Il est clair que (i) entraîne (ii) et (iii). Si (ii) est vérifiée, l’application $(r, p): E \to F \times G$ est un morphisme de $\mathscr{E}$ dans $\mathscr{E}_0$, d’où (i). Si (iii) est vérifiée, l’homomorphisme de $F \times G$ dans E correspondant à $(i, s)$ (I, p. 45, prop. 12) est un morphisme de $\mathscr{E}_0$ dans $\mathscr{E}$, d’où (i).
 
-Il peut arriver qu’une extension $\mathcal{E}: F \to E \to G$ ne soit pas triviale, et que cependant le groupe $E$ soit isomorphe à $F \times G$ (I, p. 135, exerc. 6).
+Il peut arriver qu’une extension $\mathscr{E}: F \to E \to G$ ne soit pas triviale, et que cependant le groupe $E$ soit isomorphe à $F \times G$ (I, p. 135, exerc. 6).
 
 #### Définition 2 {#alg-i-s6-def-2 .statement}
 
@@ -116,9 +116,9 @@ $$
 $$
 On a $^g (f' \cdot ^{g'} f'') = ^g f' \cdot ^{gg'} f''$, ce qui montre que la loi de composition définie par (1) est associative. L’élément $(e, e)$ est neutre pour cette loi. L’élément $(f, g)$ admet pour inverse $(g^{-1} f^{-1}, g^{-1})$. Donc la loi de composition de $F \times_{\tau} G$ est une loi de groupe. Les autres assertions sont immédiates.
 
-Avec les notations de la prop. 3, on notera $\mathcal{E}_{\tau}$ l’extension $F \xrightarrow{i} F \times_{\tau} G \xrightarrow{p} G$.
+Avec les notations de la prop. 3, on notera $\mathscr{E}_{\tau}$ l’extension $F \xrightarrow{i} F \times_{\tau} G \xrightarrow{p} G$.
 
-Soient $\mathcal{E}' : F \xrightarrow{i'} E' \xrightarrow{p'} G$ une extension de $G$ par $F$ et $s' : G \to E'$ une section de $\mathcal{E}'$. Définissons une loi d’opération $\tau$ de $G$ sur le groupe $F$ par:
+Soient $\mathscr{E}' : F \xrightarrow{i'} E' \xrightarrow{p'} G$ une extension de $G$ par $F$ et $s' : G \to E'$ une section de $\mathscr{E}'$. Définissons une loi d’opération $\tau$ de $G$ sur le groupe $F$ par:
 
 $$
 i'(\tau(g, f)) = s'(g)i'(f)s'(g)^{-1} = \operatorname{Int}(s'(g))(i'(f)).
@@ -126,7 +126,7 @@ $$
 
 #### Proposition 4 {#alg-i-s6-prop-4 .statement}
 
-Avec les notations ci-dessus, il existe un isomorphisme $u$ de $\mathcal{E}_{\tau}$ sur $\mathcal{E}'$ et un seul tel que $u \circ s = s'$.
+Avec les notations ci-dessus, il existe un isomorphisme $u$ de $\mathscr{E}_{\tau}$ sur $\mathscr{E}'$ et un seul tel que $u \circ s = s'$.
 
 On a $(f, g) = (f, e) \cdot_{\tau} (e, g) = i(f) \cdot_{\tau} s(g)$. Par suite, si $u$ répond à la question, on a nécessairement $u(f, g) = i'(f) \cdot s'(g)$, d’où l’unicité de $u$. Démontrons l’existence. Posons $u(f, g) = i'(f) \cdot s'(g)$. On a
 $$
@@ -142,9 +142,9 @@ Par suite, $u$ est un homomorphisme de $F \times_{\tau} G$ dans $E'$. On a évid
 
 #### Remarque {#alg-i-s6-n1-rem-1 .statement}
 
-La définition de l’opération $\tau$ par la formule (2) fait intervenir l’extension $\mathcal{E}'$ et la section $s'$. Lorsque $F$ est commutatif, l’opération $\tau$ ne dépend pas de $s'$. En effet, $\operatorname{Int}(s'(g))|i'(F)$ ne dépend alors que de la classe de $s'(g)$ mod. $i'(F)$.
+La définition de l’opération $\tau$ par la formule (2) fait intervenir l’extension $\mathscr{E}'$ et la section $s'$. Lorsque $F$ est commutatif, l’opération $\tau$ ne dépend pas de $s'$. En effet, $\operatorname{Int}(s'(g))|i'(F)$ ne dépend alors que de la classe de $s'(g)$ mod. $i'(F)$.
 
-Plus généralement, soit $\mathcal{E} : F \to E \to G$ une extension de $G$ par un groupe commutatif $F$ (on ne suppose pas que $\mathcal{E}$ admette une section). Le groupe $E$ opère sur $F$ par automorphismes intérieurs, et cette opération est triviale sur l’image de F, donc définit une opération de G sur F. Si $\mathcal{E}$ admet une section, cette opération est celle définie par la formule (2).
+Plus généralement, soit $\mathscr{E} : F \to E \to G$ une extension de $G$ par un groupe commutatif $F$ (on ne suppose pas que $\mathscr{E}$ admette une section). Le groupe $E$ opère sur $F$ par automorphismes intérieurs, et cette opération est triviale sur l’image de F, donc définit une opération de G sur F. Si $\mathscr{E}$ admet une section, cette opération est celle définie par la formule (2).
 
 #### Corollaire {#alg-i-s6-n1-cor-1 .statement}
 
@@ -673,7 +673,7 @@ Soit $P$ un $p$-sous-groupe de Sylow de $G$ (I, p. 74, th. 2), et soit $H$ un $p
 
 Si $H$ est un $p$-sous-groupe de Sylow, on a $\operatorname{Card}(H) = \operatorname{Card}(P) = \operatorname{Card}(gPg^{-1})$, d’où $H = gPg^{-1}$, ce qui prouve la première assertion de a).
 
-Démontrons la seconde assertion de a). Soit $\mathcal{S}$ l’ensemble des $p$-sous-groupes de Sylow de $G$, et faisons opérer $P$ sur $\mathcal{S}$ par automorphismes intérieurs. L’élément $P \in \mathcal{S}$ est point fixe pour cette opération; montrons que c’est le seul. Soit $Q \in \mathcal{S}$ un point fixe; $Q$ est un sous-groupe de Sylow de $G$ normalisé par $P$, donc $P$ est contenu dans le normalisateur $N$ de $Q$. Les groupes $P$ et $Q$ sont des $p$-sous-groupes de Sylow de $N$; il existe donc $n \in N$ tel que $P = nQn^{-1} = Q$. D’après I, p. 73, prop. 11, on a $\operatorname{Card}(\mathcal{S}) \equiv \operatorname{Card}(\mathcal{S}^P) = 1$ (mod. $p$).
+Démontrons la seconde assertion de a). Soit $\mathscr{S}$ l’ensemble des $p$-sous-groupes de Sylow de $G$, et faisons opérer $P$ sur $\mathscr{S}$ par automorphismes intérieurs. L’élément $P \in \mathscr{S}$ est point fixe pour cette opération; montrons que c’est le seul. Soit $Q \in \mathscr{S}$ un point fixe; $Q$ est un sous-groupe de Sylow de $G$ normalisé par $P$, donc $P$ est contenu dans le normalisateur $N$ de $Q$. Les groupes $P$ et $Q$ sont des $p$-sous-groupes de Sylow de $N$; il existe donc $n \in N$ tel que $P = nQn^{-1} = Q$. D’après I, p. 73, prop. 11, on a $\operatorname{Card}(\mathscr{S}) \equiv \operatorname{Card}(\mathscr{S}^P) = 1$ (mod. $p$).
 
 #### Corollaire 1 {#alg-i-s6-thm-3-cor-1 .statement}
 

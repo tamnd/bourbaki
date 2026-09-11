@@ -65,7 +65,7 @@ subsections:
       pdf_page: 557
 statements: 52
 exercises: 27
-content_sha256: f6dcc52805a2027d7331d2a760de2a8e098554e1ccf596c97d18989220a50b2c
+content_sha256: 3a92b97a82cbf57a60083098a6cd1faa94c593a5cd255446fe757eac42b00200
 ---
 
 ## § 11. COGÈBRES, PRODUITS DE FORMES MULTILINÉAIRES, PRODUITS INTÉRIEURS ET DUALITÉ
@@ -277,13 +277,13 @@ $$
 E \xrightarrow{c} E \otimes E \xrightarrow{1_E \otimes c} E \otimes E \otimes E \xrightarrow{u \otimes v \otimes w} B \otimes B \otimes B \xrightarrow{m_3} B.
 $$
 
-Il en résulte que si le diagramme (12) est commutatif, l’algèbre $\mathrm{Hom}_A(E, B)$ est associative pour toute A-algèbre associative B. Pour établir la réciproque, il suffit de montrer qu’il existe une A-algèbre associative B et trois applications A-linéaires $u, v, w$ de E dans B telles que l’application $m_3 \circ (u \otimes v \otimes w)$ de $E \otimes E \otimes E$ dans B soit injective. Prenons pour B la A-algèbre $\mathcal{T}(E)$ et pour $u, v, w$ l’application canonique de E dans $\mathcal{T}(E)$. L’application $m_3 \circ (u \otimes v \otimes w)$ est alors l’application canonique $E \otimes E \otimes E = \mathcal{T}^3(E) \to \mathcal{T}(E)$ qui est injective.
+Il en résulte que si le diagramme (12) est commutatif, l’algèbre $\mathrm{Hom}_A(E, B)$ est associative pour toute A-algèbre associative B. Pour établir la réciproque, il suffit de montrer qu’il existe une A-algèbre associative B et trois applications A-linéaires $u, v, w$ de E dans B telles que l’application $m_3 \circ (u \otimes v \otimes w)$ de $E \otimes E \otimes E$ dans B soit injective. Prenons pour B la A-algèbre $\mathscr{T}(E)$ et pour $u, v, w$ l’application canonique de E dans $\mathscr{T}(E)$. L’application $m_3 \circ (u \otimes v \otimes w)$ est alors l’application canonique $E \otimes E \otimes E = \mathscr{T}^3(E) \to \mathscr{T}(E)$ qui est injective.
 
 Lorsque la cogèbre E vérifie la condition de la prop. 1, on dit qu’elle est coassociative.
 
 #### Exemple 4 {#alg-iii-s11-n2-exa-4 .statement}
 
-On vérifie aussitôt que la cogèbre A (III, p. 139, Exemple 1), la cogèbre $A^{(x)}$ (III, p. 139, Exemple 4) et la cogèbre $\mathcal{T}(M)$ (III, p. 139, Exemple 5) sont coassociatives. Si B est une A-algèbre associative qui est un A-module projectif de type fini, la cogèbre $B^*$ (III, p. 139, Exemple 3) est coassociative : en effet, la commutativité du diagramme (12) de III, p. 143, se déduit alors par transposition de celle du diagramme qui exprime l’associativité de B (III, p. 5). Réciproquement, le même raisonnement et l’identification canonique du A-module B avec son bidual (II, p. 47, cor. 4) montrent que si la cogèbre $B^*$ est coassociative, l’algèbre B est associative. Enfin, les cogèbres $S(M)$ et $\Lambda(M)$ (III, p. 139, Exemple 6 et p. 140, Exemple 7) sont coassociatives ; cela résulte de la commutativité du diagramme
+On vérifie aussitôt que la cogèbre A (III, p. 139, Exemple 1), la cogèbre $A^{(x)}$ (III, p. 139, Exemple 4) et la cogèbre $\mathscr{T}(M)$ (III, p. 139, Exemple 5) sont coassociatives. Si B est une A-algèbre associative qui est un A-module projectif de type fini, la cogèbre $B^*$ (III, p. 139, Exemple 3) est coassociative : en effet, la commutativité du diagramme (12) de III, p. 143, se déduit alors par transposition de celle du diagramme qui exprime l’associativité de B (III, p. 5). Réciproquement, le même raisonnement et l’identification canonique du A-module B avec son bidual (II, p. 47, cor. 4) montrent que si la cogèbre $B^*$ est coassociative, l’algèbre B est associative. Enfin, les cogèbres $S(M)$ et $\Lambda(M)$ (III, p. 139, Exemple 6 et p. 140, Exemple 7) sont coassociatives ; cela résulte de la commutativité du diagramme
 
 $$
 \begin{array}{ccc}
@@ -925,19 +925,19 @@ Ici encore, l’élément $u$ qui « opère » sur $x$ est placé à l’extrém
 
 Pour deux éléments quelconques $u, v$ de $E^{*\mathrm{gr}}$, on a
 $$
-x \mathbin{\mathcal{L}} (uv) = (x \mathbin{\mathcal{L}} u) \mathbin{\mathcal{L}} v,
+x \mathbin{\mathscr{L}} (uv) = (x \mathbin{\mathscr{L}} u) \mathbin{\mathscr{L}} v,
 $$
 autrement dit
 $$
 i(uv) = i(v) \circ i(u).
 $$
-En effet, posons comme ci-dessus $c(x) = \sum_i y_i \otimes z_i$, de sorte que $x \mathbin{\mathcal{L}} (uv) = \sum_i (uv)(y_i)z_i$. Si $c(y_i) = \sum_j y_{ij}' \otimes y_{ij}''$, on a donc
+En effet, posons comme ci-dessus $c(x) = \sum_i y_i \otimes z_i$, de sorte que $x \mathbin{\mathscr{L}} (uv) = \sum_i (uv)(y_i)z_i$. Si $c(y_i) = \sum_j y_{ij}' \otimes y_{ij}''$, on a donc
 $$
-x \mathbin{\mathcal{L}} (uv) = \sum_{i,j} u(y_{ij}')v(y_{ij}'')z_i.
+x \mathbin{\mathscr{L}} (uv) = \sum_{i,j} u(y_{ij}')v(y_{ij}'')z_i.
 $$
 D’autre part, si $c(z_i) = \sum_k z_{ik}' \otimes z_{ik}''$, on a
 $$
-(x \mathbin{\mathcal{L}} u) \mathbin{\mathcal{L}} v = \sum_{i,k} u(y_i)v(z_{ik}')z_{ik}''.
+(x \mathbin{\mathscr{L}} u) \mathbin{\mathscr{L}} v = \sum_{i,k} u(y_i)v(z_{ik}')z_{ik}''.
 $$
 Or, la coassociativité de $E$ montre que l’on a (III, p. 143, prop. 1)
 $$
@@ -947,9 +947,9 @@ et l’égalité des expressions (49) et (50) provient de ce que ce sont respect
 
 Rappelons d’autre part (III, p. 145, prop. 3) que l’élément unité de l’algèbre $E^{*\mathrm{gr}}$ est la forme linéaire $e : x \mapsto \gamma(x).1$; on a donc
 $$
-x \mathbin{\mathcal{L}} e = \sum_i \gamma(y_i)z_i = x
+x \mathbin{\mathscr{L}} e = \sum_i \gamma(y_i)z_i = x
 $$
-en vertu de la définition d’une coïunité. Comme l’application $u \mapsto i(u)$ est linéaire, on voit que sur $E$, la loi d’action $(u, x) \mapsto x \mathbin{\mathcal{L}} u$ définit une structure de $E^{*\mathrm{gr}}$-module à droite.
+en vertu de la définition d’une coïunité. Comme l’application $u \mapsto i(u)$ est linéaire, on voit que sur $E$, la loi d’action $(u, x) \mapsto x \mathbin{\mathscr{L}} u$ définit une structure de $E^{*\mathrm{gr}}$-module à droite.
 
 On définit de même, pour tout $u \in E^{*\mathrm{gr}}$, l’endomorphisme de $E$
 $$
@@ -957,11 +957,11 @@ i'(u) = (1_E \otimes u) \circ c
 $$
 et, pour tout $x \in E$, on pose
 $$
-(i'(u))(x) = u \mathbin{\mathcal{L}} x
+(i'(u))(x) = u \mathbin{\mathscr{L}} x
 $$
-et on dit que cet élément de $E$ est le produit intérieur gauche de $x$ par $u$. On voit comme ci-dessus que la loi d’action $(u, x) \mapsto u \mathbin{\mathcal{L}} x$ définit sur $E$ une structure de $E^{*\mathrm{gr}}$-module à gauche. En outre, ces deux structures sont compatibles, autrement dit, on a
+et on dit que cet élément de $E$ est le produit intérieur gauche de $x$ par $u$. On voit comme ci-dessus que la loi d’action $(u, x) \mapsto u \mathbin{\mathscr{L}} x$ définit sur $E$ une structure de $E^{*\mathrm{gr}}$-module à gauche. En outre, ces deux structures sont compatibles, autrement dit, on a
 $$
-(u \mathbin{\mathcal{L}} x) \mathbin{\mathcal{L}} v = u \mathbin{\mathcal{L}} (x \mathbin{\mathcal{L}} v)
+(u \mathbin{\mathscr{L}} x) \mathbin{\mathscr{L}} v = u \mathbin{\mathscr{L}} (x \mathbin{\mathscr{L}} v)
 $$
 pour $u, v$ dans $E^{*\mathrm{gr}}$ (II, p. 33). En effet, avec les mêmes notations que ci-dessus, le premier membre de (54) est $\sum_{i,j} u(z_i)v(y_{ij}')y_{ij}'$ et le second est $\sum_{i,k} v(y_i)u(z_{ik}')z_{ik}'$; leur égalité résulte de ce que ce sont les images respectives du premier et du second membre de (51) par l’application linéaire $g$ de $E \otimes E \otimes E$ dans $A$ telle que $g(x \otimes y \otimes z) = v(x)u(z)y$.
 
@@ -1364,7 +1364,7 @@ $$
 \langle \theta_\wedge(x^*), u^* \perp z \rangle = \langle \theta_\wedge(u^* \wedge x^*), z \rangle = (-1)^{p-1} \langle \theta_\wedge(x^* \wedge u^*), z \rangle \\
 = (-1)^{p-1} \langle \theta_\wedge(u^*), x^* \perp z \rangle.
 $$
-Par suite, pour que $x^*$ soit orthogonal à $N$, il faut et il suffit que $x^* \perp z$ soit orthogonal à $\theta_\wedge(\wedge(E^*))$. Or, cette dernière condition équivaut à dire que $x^* \perp z = 0$; en effet, soit $(e_\lambda)_{\lambda \in L}$ une base de $E$; en munissant $L$ d’une structure d’ordre total, on a vu (III, p. 86, th. 1) que les $e_J$, pour $J$ parcourant l’ensemble $\mathcal{F}(L)$ des parties finies de $L$, forment une base de $\wedge(E)$; il résulte alors de la formule (30) de III, p. 153 que les éléments $\theta_\wedge(e_J^*)$ sont, au signe près, les formes coordonnées sur $\wedge(E)$ relatives à la base $(e_J)$; d’où notre assertion.
+Par suite, pour que $x^*$ soit orthogonal à $N$, il faut et il suffit que $x^* \perp z$ soit orthogonal à $\theta_\wedge(\wedge(E^*))$. Or, cette dernière condition équivaut à dire que $x^* \perp z = 0$; en effet, soit $(e_\lambda)_{\lambda \in L}$ une base de $E$; en munissant $L$ d’une structure d’ordre total, on a vu (III, p. 86, th. 1) que les $e_J$, pour $J$ parcourant l’ensemble $\mathscr{F}(L)$ des parties finies de $L$, forment une base de $\wedge(E)$; il résulte alors de la formule (30) de III, p. 153 que les éléments $\theta_\wedge(e_J^*)$ sont, au signe près, les formes coordonnées sur $\wedge(E)$ relatives à la base $(e_J)$; d’où notre assertion.
 
 L’orthogonal de $N$ est donc formé des $x^* \in E^*$ tels que $x^* \perp z = 0$ et la conclusion de (i) résultera donc de (ii).
 

@@ -52,11 +52,11 @@ subsections:
       pdf_page: 30
 statements: 45
 exercises: 0
-content_sha256: f82552c03564e4cf2063db2814d2e113bf00894e5f0df883ad43298c0629d10a
+content_sha256: 34e1db051ebbc164e4435f08bcaf55631e046f756afd5103d84e55ef7fe92acf
 translated_from: content/en-mt/alg/IX/01_s1_formes_sesquilineaires.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: a788ed40848999c0d18ff945a803189841c5bd0cc9a81227b38d5b0ae7369e0a
+source_content_sha256: 7296b831cfc29ec7fd6fbe846eb87c9c951399c6183adbdc2773584393f0791d
 translation_model: gpt-5-6, gpt-5-mini, gpt-5-6-mini
 translation_run: translate-vi-8df81c1a
 glossary_version: 34
@@ -83,7 +83,7 @@ Một ánh xạ $\Phi$ của tích $E \times F$ vào $G$ được gọi là song
 
 Tích tenxơ $E \otimes_{\mathbf{Z}} F$ được trang bị một cách chính tắc một cấu trúc của $(A, B)$-song môđun được đặc trưng bởi $a(x \otimes y)b = ax \otimes yb$ (Chương III, 2e éd., Phụ lục II, n° 3), và việc cho một ánh xạ song tuyến tính $\Phi$ của $E \times F$ vào $G$ tương đương với việc cho một ánh xạ $\Psi$ của $E \otimes_{\mathbf{Z}} F$ vào $G$ là một đồng cấu đối với các cấu trúc $(A, B)$-song môđun và thỏa mãn $\Psi(x \otimes y) = \Phi(x, y)$ với mọi $x \in E$ và $y \in F$.
 
-Các điều kiện áp đặt lên $\Phi$ bởi Định nghĩa 1 có nghĩa là các ánh xạ từng phần $d_\Phi(y) : x \to \Phi(x, y)$ và $s_\Phi(x) : y \to \Phi(x, y)$ lần lượt là một ánh xạ A-tuyến tính từ $E$ vào $G$ và một ánh xạ B-tuyến tính từ $F$ vào $G$. Ta trang bị cho nhóm giao hoán $\mathcal{L}_A(E, G)$ (resp. $\mathcal{L}_B(F, G)$) cấu trúc của B-môđun phải (resp. A-môđun trái) được xác định bởi $ub(x) = u(x) . b$ ($u \in \mathcal{L}_A(E, G)$, $x \in E$, $b \in B$) (resp. $a \nu(y) = a . \nu(y)$ ($a \in A$, $\nu \in \mathcal{L}_B(F, G)$, $y \in F$)). Khi đó các điều kiện (1) đến (4) lần lượt tương đương với:
+Các điều kiện áp đặt lên $\Phi$ bởi Định nghĩa 1 có nghĩa là các ánh xạ từng phần $d_\Phi(y) : x \to \Phi(x, y)$ và $s_\Phi(x) : y \to \Phi(x, y)$ lần lượt là một ánh xạ A-tuyến tính từ $E$ vào $G$ và một ánh xạ B-tuyến tính từ $F$ vào $G$. Ta trang bị cho nhóm giao hoán $\mathscr{L}_A(E, G)$ (resp. $\mathscr{L}_B(F, G)$) cấu trúc của B-môđun phải (resp. A-môđun trái) được xác định bởi $ub(x) = u(x) . b$ ($u \in \mathscr{L}_A(E, G)$, $x \in E$, $b \in B$) (resp. $a \nu(y) = a . \nu(y)$ ($a \in A$, $\nu \in \mathscr{L}_B(F, G)$, $y \in F$)). Khi đó các điều kiện (1) đến (4) lần lượt tương đương với:
 
 $$
 \begin{align*}
@@ -94,15 +94,15 @@ $$
 \end{align*}
 $$
 
-với mọi $x, x'$ trong $E$, $y, y'$ trong $F$, $a \in A$, $b \in B$; nói cách khác, ánh xạ $d_\Phi$ từ $F$ vào $\mathcal{L}_A(E, G)$ là B-tuyến tính, và ánh xạ $s_\Phi$ từ $E$ vào $\mathcal{L}_B(F, G)$ là A-tuyến tính. Theo định nghĩa, ta có
+với mọi $x, x'$ trong $E$, $y, y'$ trong $F$, $a \in A$, $b \in B$; nói cách khác, ánh xạ $d_\Phi$ từ $F$ vào $\mathscr{L}_A(E, G)$ là B-tuyến tính, và ánh xạ $s_\Phi$ từ $E$ vào $\mathscr{L}_B(F, G)$ là A-tuyến tính. Theo định nghĩa, ta có
 
 $$(5) \quad \Phi(x, y) = d_\Phi(y)(x) = s_\Phi(x)(y) \text{ với mọi } x \in E, y \in F.$$
 
 #### Định nghĩa 2 {#alg-ix-s1-def-2 .statement}
 
-Cho một ánh xạ song tuyến tính $\Phi$ từ $E \times F$ vào $G$, ánh xạ $d_\Phi$ từ $F$ vào $\mathcal{L}_A(E, G)$ (resp. ánh xạ $s_\Phi$ từ $E$ vào $\mathcal{L}_B(F, G)$) được đặc trưng bởi (5) được gọi là ánh xạ tuyến tính liên kết bên phải (resp. bên trái) với $\Phi$.
+Cho một ánh xạ song tuyến tính $\Phi$ từ $E \times F$ vào $G$, ánh xạ $d_\Phi$ từ $F$ vào $\mathscr{L}_A(E, G)$ (resp. ánh xạ $s_\Phi$ từ $E$ vào $\mathscr{L}_B(F, G)$) được đặc trưng bởi (5) được gọi là ánh xạ tuyến tính liên kết bên phải (resp. bên trái) với $\Phi$.
 
-Ngược lại, dữ liệu của một ánh xạ B-tuyến tính $d$ từ $F$ vào $\mathcal{L}_A(E, G)$ (resp. của một ánh xạ A-tuyến tính $s$ từ $E$ vào $\mathcal{L}_B(F, G)$) xác định duy nhất, bởi công thức
+Ngược lại, dữ liệu của một ánh xạ B-tuyến tính $d$ từ $F$ vào $\mathscr{L}_A(E, G)$ (resp. của một ánh xạ A-tuyến tính $s$ từ $E$ vào $\mathscr{L}_B(F, G)$) xác định duy nhất, bởi công thức
 
 $$
 \Phi(x, y) = d(y)(x) \quad \text{(resp. } \Phi(x, y) = s(x)(y))
@@ -256,15 +256,15 @@ $(a \in A, b \in B, a' \in A', b' \in B', x \in E, y \in F)$.
 
 Do đó tồn tại một ánh xạ song tuyến tính trên $\mathbf{Z}$ $\Phi'$ từ $E' \times F'$ vào $G'$ thỏa mãn (13) (Chap. III, 2nd ed., App. II, No. 1, prop. 2). Quan hệ này và định nghĩa các cấu trúc môđun của $E'$ và $F'$ bởi (12) cho thấy rằng $\Phi'$ là song tuyến tính, điều này hoàn thành chứng minh.
 
-Các giả thiết và ký hiệu là những cái của Mệnh đề 1, bây giờ ta hãy nghiên cứu các *ánh xạ tuyến tính liên kết* của $\Phi$ và $\Phi'$ (No. 1, def. 2). Vì mục đích này trước hết ta sẽ định nghĩa một đồng cấu chính tắc từ $\mathcal{L}_A(E, G)$ vào $\mathcal{L}_{A'}(E', G')$. Với mọi $\nu \in \mathcal{L}_A(E, G)$, ánh xạ $(a', x) \to a'.u(\nu(x))$ từ $A' \times E$ vào $G'$ là song tuyến tính trên $\mathbf{Z}$, và, được xem như (11), biến $(a'h(a), x)$ và $(a', ax)$ $(a \in A)$ thành cùng một phần tử của $G'$; do đó nó định nghĩa (Chap. III, 2nd ed.,
+Các giả thiết và ký hiệu là những cái của Mệnh đề 1, bây giờ ta hãy nghiên cứu các *ánh xạ tuyến tính liên kết* của $\Phi$ và $\Phi'$ (No. 1, def. 2). Vì mục đích này trước hết ta sẽ định nghĩa một đồng cấu chính tắc từ $\mathscr{L}_A(E, G)$ vào $\mathscr{L}_{A'}(E', G')$. Với mọi $\nu \in \mathscr{L}_A(E, G)$, ánh xạ $(a', x) \to a'.u(\nu(x))$ từ $A' \times E$ vào $G'$ là song tuyến tính trên $\mathbf{Z}$, và, được xem như (11), biến $(a'h(a), x)$ và $(a', ax)$ $(a \in A)$ thành cùng một phần tử của $G'$; do đó nó định nghĩa (Chap. III, 2nd ed.,
 
-App. II, Nos. 1 và 10) một ánh xạ $k(\nu)$ từ $E' = A' \otimes_A E$ vào $G'$ sao cho $k(\nu)(a' \otimes x) = a'.u(\nu(x))$, và ánh xạ này, được xem như (12), là $A'$-tuyến tính. Hơn nữa, ta ngay lập tức suy ra từ (12) rằng ánh xạ $\nu \to k(\nu)$ từ $\mathcal{L}_A(E, G)$ vào $\mathcal{L}_{A'}(E', G')$ thỏa mãn $k(\nu b) = k(\nu)h'(b)$ với mọi $b \in B$. Gọi $i$ là ánh xạ chính tắc $y \to y \otimes 1$ từ $F$ vào $F'$. Khi đó biểu đồ
+App. II, Nos. 1 và 10) một ánh xạ $k(\nu)$ từ $E' = A' \otimes_A E$ vào $G'$ sao cho $k(\nu)(a' \otimes x) = a'.u(\nu(x))$, và ánh xạ này, được xem như (12), là $A'$-tuyến tính. Hơn nữa, ta ngay lập tức suy ra từ (12) rằng ánh xạ $\nu \to k(\nu)$ từ $\mathscr{L}_A(E, G)$ vào $\mathscr{L}_{A'}(E', G')$ thỏa mãn $k(\nu b) = k(\nu)h'(b)$ với mọi $b \in B$. Gọi $i$ là ánh xạ chính tắc $y \to y \otimes 1$ từ $F$ vào $F'$. Khi đó biểu đồ
 
 $$
 \begin{array}{ccc}
-F & \xrightarrow{d_\Phi} & \mathcal{L}_A(E, G) \\
+F & \xrightarrow{d_\Phi} & \mathscr{L}_A(E, G) \\
 |_i & & |_k \\
-F' & \xrightarrow{d_{\Phi'}} & \mathcal{L}_{A'}(E', G')
+F' & \xrightarrow{d_{\Phi'}} & \mathscr{L}_{A'}(E', G')
 \end{array}
 $$
 

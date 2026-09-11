@@ -12,7 +12,7 @@ pdf_pages: 0216-0216
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 8f583d89304d407a99b4a049223d5095e7a4c7c5d88af11516bec033c6ebdbad
+content_sha256: 276e7055f0bb8473b7c0c6e58a454c8d725de3be67ef9a2f4aa749fa9aa16947
 ---
 
 ## INDEX DES NOTATIONS
@@ -28,13 +28,13 @@ $H(u), Z(u), B(u)$ : p. 26.
 
 $C(p)$ : p. 26.
 
-$A(\mathcal{E})$ : p. 27.
+$A(\mathscr{E})$ : p. 27.
 
 $\hat{\partial}_{u,v}, \hat{\partial}$ : p. 29.
 
 $\operatorname{Con}(u), \operatorname{Cyl}(u)$ : p. 36.
 
-$K(\mathcal{E}), [M]_{\mathcal{E}}, [M]$ : p. 40.
+$K(\mathscr{E}), [M]_{\mathscr{E}}, [M]$ : p. 40.
 
 $\chi_p(M), \chi(M)$ : p. 41.
 
@@ -71,9 +71,9 @@ $\operatorname{Ext}^A(M,N), \operatorname{Ext}_A(M,N)$ : p. 86.
 
 $\varphi_M(N), \varphi_N(M)$ : p. 88.
 
-$\delta(M,\mathcal{E})$ : p. 90.
+$\delta(M,\mathscr{E})$ : p. 90.
 
-$\delta(\mathcal{F},N)$ : p. 92.
+$\delta(\mathscr{F},N)$ : p. 92.
 
 $\psi(S,R), \varphi(R,E)$ : p. 100.
 
@@ -85,7 +85,7 @@ $a_{M,N}$ : p. 113.
 
 $c_{M,N}, u \circ v$ : p. 114.
 
-$\partial^m(P,\mathcal{P}), \partial^m(\mathcal{P},P), \partial^m(P,\mathcal{J}), \partial^m(\mathcal{J},M)$ :
+$\partial^m(P,\mathscr{P}), \partial^m(\mathscr{P},P), \partial^m(P,\mathscr{J}), \partial^m(\mathscr{J},M)$ :
 127, 131, 132.
 
 $c_{P,Q;M}$ : p. 128.

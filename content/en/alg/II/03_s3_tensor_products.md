@@ -50,7 +50,7 @@ subsections:
       pdf_page: 283
 statements: 30
 exercises: 4
-content_sha256: ffa23e32a5b250afa6702426ba06760cf9ccc1d88226680fcc821ece3bb2d997
+content_sha256: 7813b67312bbb261712d83c5cefe26e4e2d490a7339a463a028293bdd8b639f2
 ---
 
 ## § 3. TENSOR PRODUCTS
@@ -283,10 +283,10 @@ $$
 f(\gamma x, y) = f(x, \gamma y) = \gamma f(x, y) \quad \text{for } x \in E, y \in F, \gamma \in C
 $$
 
-are then called C-bilinear and form a C-module denoted by $\mathcal{L}_2(E, F; G)$; Proposition 3 (no. 4) defines a canonical C-module isomorphism (cf. § 1, no. 14, Remark 1).
+are then called C-bilinear and form a C-module denoted by $\mathscr{L}_2(E, F; G)$; Proposition 3 (no. 4) defines a canonical C-module isomorphism (cf. § 1, no. 14, Remark 1).
 
 $$
-\mathcal{L}_2(E, F; G) \to \mathrm{Hom}_C(E \otimes_C F, G).
+\mathscr{L}_2(E, F; G) \to \mathrm{Hom}_C(E \otimes_C F, G).
 $$
 
 Let E', F' be two C-modules and $u : E \to E'$, $v : F \to F'$ two C-linear mappings; then (no. 4) $u \otimes v$ is a C-linear mapping of $E \otimes_C F$ into $E' \otimes_C F'$. Further, it is immediate that $(u, v) \mapsto u \otimes v$ is a C-bilinear mapping of $\mathrm{Hom}_C(E, E') \times \mathrm{Hom}_C(F, F')$ into $\mathrm{Hom}_C(E \otimes_C F, E' \otimes_C F')$; hence there canonically corresponds to it a C-linear mapping, called canonical:
@@ -860,10 +860,10 @@ $$
 f(x_1, \ldots, x_{i-1}, \gamma x_i, x_{i+1}, \ldots, x_n) = \gamma f(x_1, \ldots, x_n)
 $$
 
-for $\gamma \in \mathbf{C}$ and $(x_i) \in \prod_i E_i$ are then called C-multilinear and form a C-module denoted by $\mathcal{L}_n(E_1, \ldots, E_n; G)$; the universal property of the tensor product (34) then allows us to define a canonical C-module isomorphism
+for $\gamma \in \mathbf{C}$ and $(x_i) \in \prod_i E_i$ are then called C-multilinear and form a C-module denoted by $\mathscr{L}_n(E_1, \ldots, E_n; G)$; the universal property of the tensor product (34) then allows us to define a canonical C-module isomorphism
 
 $$
-\mathcal{L}_n(E_1, \ldots, E_n; G) \to \operatorname{Hom}_\mathbf{C}(E_1 \otimes_\mathbf{C} E_2 \otimes \cdots \otimes_\mathbf{C} E_n, G)
+\mathscr{L}_n(E_1, \ldots, E_n; G) \to \operatorname{Hom}_\mathbf{C}(E_1 \otimes_\mathbf{C} E_2 \otimes \cdots \otimes_\mathbf{C} E_n, G)
 $$
 
 which associates with every C-multilinear mapping f the C-linear mapping g such that

@@ -36,11 +36,11 @@ subsections:
       pdf_page: 98
 statements: 17
 exercises: 0
-content_sha256: dd3e7055202ca685d6a88023f3c4abf2bb71e56a54c9be1fb6ebe4c1c121c387
+content_sha256: 460f5689061071829a97ed203ae28cd9696fe4c9889b96084a5398685084646c
 translated_from: content/en-mt/alg/IX/06_s6_proprietes_speciales_aux_formes.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 0a78bb4f9097987044d8c3ed41f08dfb8b84d8c4686fda2d034f7fc2795186ac
+source_content_sha256: af4e5b341bf764c4e7348301ffe17124285c8e5d72b873990f56aed558591993
 translation_model: gpt-5-6, gpt-5-mini, gpt-5-6-mini
 translation_run: translate-vi-fe17b08a
 glossary_version: 34
@@ -192,7 +192,7 @@ Trong suốt No. này, ta giả sử rằng vô hướng 2 là khả nghịch tr
 
 Để một tự đồng cấu $u$ của $E$ thỏa mãn $u^2 = 1$, điều kiện cần và đủ là $\frac{1}{2}(1 - u)$ là một phép chiếu trong $E$; khi đó $u$ là hiệu của hai phép chiếu $\frac{1}{2}(1 + u)$ và $\frac{1}{2}(1 - u)$.
 
-Thật vậy, trong vành $\mathcal{L}(E)$, quan hệ $\left( \frac{1}{2}(1 - u) \right)^2 = \frac{1}{2}(1 - u)$ tương đương với $u^2 = 1$. Phần còn lại là tầm thường.
+Thật vậy, trong vành $\mathscr{L}(E)$, quan hệ $\left( \frac{1}{2}(1 - u) \right)^2 = \frac{1}{2}(1 - u)$ tương đương với $u^2 = 1$. Phần còn lại là tầm thường.
 
 Một tự đồng cấu $u$ của $E$ sao cho $u^2 = 1$ (khi đó tất nhiên là một tự đẳng cấu của $E$ bằng với nghịch đảo của nó) được gọi là một phép đối hợp. Đặt $\varphi = \frac{1}{2}(1 - u)$, $U^- = \varphi(E)$, $U^+ = \varphi^{-1}(0)$ ($= \omega(E)$ khi đặt $\omega = \frac{1}{2}(1 + u)$); ta biết rằng $E$ là tổng trực tiếp của $U^+$ và $U^-$ (Chương VIII, § 1, No. 1), và ta có $u(x) = x$ trong $U^+$, $u(x) = -x$ trong $U^-$. Khi $A$ là một trường và $E$ là hữu hạn chiều, suy ra, vì $A$ có đặc số $\neq 2$, rằng các vectơ riêng duy nhất $\neq 0$ của $u$ là các phần tử ≠ 0 trong U^+ hoặc trong U^-; chúng tương ứng lần lượt với các giá trị riêng + 1 và -1.
 

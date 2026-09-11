@@ -53,11 +53,11 @@ subsections:
       pdf_page: 171
 statements: 35
 exercises: 10
-content_sha256: d4957bb3ac1fc8e376a572314bfd00cbabab87776df84d39b3e13113c9574cf0
+content_sha256: 2c2264c9a2d176b8cd1e6006adf7a403ebf0cd48c85ede8acfc2273cdd89c0ef
 translated_from: content/fr/alg/X/09_s9_complexes_de_koszul.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 234fe2945aa4e961036016372d407d506dc8b4e0d5b9dad9251bdb87e41d0c74
+source_content_sha256: e050c0ace3b6ae09e3ac8402d6d075509f24c1315d70999695129d52b67dfc1f
 translation_model: gpt-5-6, gpt-5.4, gpt-5-6-mini
 translation_run: translate-en-mt-2cb97f2e
 glossary_version: 34
@@ -346,7 +346,7 @@ $$
 Note that $d$ maps $S^p(L) \otimes \Lambda^q(L)$ into $S^{p+1}(L) \otimes \Lambda^{q-1}(L)$, hence that the *complex of $A$-modules* $S(L) \otimes \Lambda(L)$ decomposes into the direct sum of the complexes described by the following diagrams:
 
 $$
-(\mathcal{E}_n) : 0 \to S^0 L \otimes_A \Lambda^n L \to S^1 L \otimes_A \Lambda^{n-1} L \to ... \to S^n L \otimes_A \Lambda^0 L \to 0, \quad n \in \mathbf{N}.
+(\mathscr{E}_n) : 0 \to S^0 L \otimes_A \Lambda^n L \to S^1 L \otimes_A \Lambda^{n-1} L \to ... \to S^n L \otimes_A \Lambda^0 L \to 0, \quad n \in \mathbf{N}.
 $$
 
 If the A-module L is the direct sum of a finite family $(L_i)_{i \in I}$ where I is totally ordered, the canonical bijection
@@ -359,7 +359,7 @@ is an isomorphism of complexes of A-modules (this follows from prop. 2 of X, p. 
 
 #### Proposition 3 {#alg-x-s9-prop-3 .statement}
 
-*If the A-module L is flat, the sequences $(\mathcal{E}_n)$ above are exact for $n > 0$.*
+*If the A-module L is flat, the sequences $(\mathscr{E}_n)$ above are exact for $n > 0$.*
 
 *a)* Let us first note that, if $p_L$ is the composite homomorphism
 
@@ -401,7 +401,7 @@ If A is a $\mathbf{Q}$-algebra, the conclusion of prop. 3 remains true without a
 
 #### Remark 3 {#alg-x-s9-n3-rem-3 .statement}
 
-Let G be a group and $\rho : G \to \mathbf{GL}(L)$ a linear representation of G in a flat A-module L. Then the $(\mathcal{E}_n)$ are exact sequences of linear representations. Suppose L finitely generated projective, and denote by $R_A(G)$ the ring of representations of G in finitely generated projective A-modules. It follows from prop. 3 that one has in R_A(G) the relations
+Let G be a group and $\rho : G \to \mathbf{GL}(L)$ a linear representation of G in a flat A-module L. Then the $(\mathscr{E}_n)$ are exact sequences of linear representations. Suppose L finitely generated projective, and denote by $R_A(G)$ the ring of representations of G in finitely generated projective A-modules. It follows from prop. 3 that one has in R_A(G) the relations
 
 $$
 \sum_{i=0}^{n} (-1)^i [\mathbf{S}^i(L)] [\Lambda^{n-i}(L)] = 0 , \quad n > 0 .
@@ -858,9 +858,9 @@ To prove (iv), it remains to observe that the diagram
 
 $$
 \begin{array}{ccc}
-(A_0[X_1, ..., X_n]/\mathcal{D}_0) \otimes_{A_0} M & \xrightarrow{\bar{u} \otimes 1_M} & \bigoplus_{r \geq 0} (t' \otimes_{A_0} M) \\
+(A_0[X_1, ..., X_n]/\mathscr{D}_0) \otimes_{A_0} M & \xrightarrow{\bar{u} \otimes 1_M} & \bigoplus_{r \geq 0} (t' \otimes_{A_0} M) \\
 \downarrow e & & \downarrow \oplus m_r \\
-(A[X_1, ..., X_n]/\mathcal{D}) \otimes_A M & \xrightarrow{\alpha_M^x} & \bigoplus_{r \geq 0} x' M
+(A[X_1, ..., X_n]/\mathscr{D}) \otimes_A M & \xrightarrow{\alpha_M^x} & \bigoplus_{r \geq 0} x' M
 \end{array}
 $$
 

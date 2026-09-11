@@ -53,7 +53,7 @@ subsections:
       pdf_page: 28
 statements: 57
 exercises: 17
-content_sha256: 661e6e611980bcb19421cb07584e3f5831d587913d409a3e231582141cc21e03
+content_sha256: 5b86281421f2b3fe1ea28f8a34e0c89f54f6f0972b453a5ccd60eb0df1bb828b
 ---
 
 ## § 1. COMPLÉMENTS D’ALGÈBRE LINÉAIRE
@@ -475,7 +475,7 @@ Spec (A). La condition précédente signifie que ce fermé est vide, autrement d
 
 #### Exemple 11 {#alg-x-s1-n3-exa-11 .statement}
 
-\* Soient S et X deux espaces analytiques complexes et $f : X \to S$ un morphisme. On dit que $f$ est plat en un point $x$ de X si $\mathcal{O}_{X,x}$, considéré comme $\mathcal{O}_{S,f(x)}$-module au moyen de l’homomorphisme $f^* : \mathcal{O}_{S,f(x)} \to \mathcal{O}_{X,x}$, est plat. L’ensemble des points de X où $f$ est plat est un ouvert de X, et la restriction de $f$ à cet ouvert est une application ouverte. Si X et S sont des variétés analytiques connexes de dimension finie, $f$ est plat (en tout point de X) si et seulement si $f(X)$ est ouvert dans S et les fibres $f^{-1}(s)$, pour $s \in f(X)$, ont toutes la même dimension. \*
+\* Soient S et X deux espaces analytiques complexes et $f : X \to S$ un morphisme. On dit que $f$ est plat en un point $x$ de X si $\mathscr{O}_{X,x}$, considéré comme $\mathscr{O}_{S,f(x)}$-module au moyen de l’homomorphisme $f^* : \mathscr{O}_{S,f(x)} \to \mathscr{O}_{X,x}$, est plat. L’ensemble des points de X où $f$ est plat est un ouvert de X, et la restriction de $f$ à cet ouvert est une application ouverte. Si X et S sont des variétés analytiques connexes de dimension finie, $f$ est plat (en tout point de X) si et seulement si $f(X)$ est ouvert dans S et les fibres $f^{-1}(s)$, pour $s \in f(X)$, ont toutes la même dimension. \*
 
 ### 4. Modules de présentation finie
 
@@ -803,7 +803,7 @@ $$
 
 pour tout $a\in a$.
 
-Inversement, supposons la condition de l’énoncé vérifiée, soient $M$ un A-module, $N$ un sous-module de $M$, $u : N\to E$ un A-homomorphisme, et prouvons qu’il existe un A-homomorphisme $\bar u : M\to E$ prolongeant $u$ (cf. *lemme* 3). Soit $\mathcal P$ l’ensemble des couples $(P,v)$ où $P$ est un sous-module de $M$ contenant $N$ et $v$ un homomorphisme de $P$ dans $E$ prolongeant $u$. L’ensemble $\mathcal P$ ordonné par la relation de prolongement est *inductif* : si $(P_j, v_j)$ est une famille totalement ordonnée d’éléments de $\mathcal{P}$, posons $Q = \cup P_j$ et soit $w : Q \to E$ l’unique application induisant $v_j$ sur $P_j$ pour tout $j$; alors $(Q, w) \in \mathcal{P}$ et $(Q, w)$ majore $(P_j, v_j)$ pour tout $j$. Soit alors $(P, v)$ un élément maximal de $\mathcal{P}$ (E, III, p. 20, th. 2); il suffit de prouver que $P = M$. Soit $x \in M$ et soit $\alpha$ l’idéal des $a \in A$ tels que $ax \in P$; posons $f(a) = v(ax)$ pour $a \in \alpha$; on obtient ainsi un $A$-homomorphisme $f : \alpha \to E$. Soit alors $e$ un élément de $E$ tel que $f(a) = ae$ pour tout $a \in \alpha$. Posons $P' = P + Ax$ et soit $v' : P' \to E$ l’unique $A$-homomorphisme tel que $v'(p + ax) = v(p) + ae$ pour $p \in P, a \in A$; alors $(P', v')$ appartient à $\mathcal{P}$ et majore $(P, v)$, donc $P' = P$, c’est-à-dire $x \in P$, ce qui achève la démonstration.
+Inversement, supposons la condition de l’énoncé vérifiée, soient $M$ un A-module, $N$ un sous-module de $M$, $u : N\to E$ un A-homomorphisme, et prouvons qu’il existe un A-homomorphisme $\bar u : M\to E$ prolongeant $u$ (cf. *lemme* 3). Soit $\mathscr P$ l’ensemble des couples $(P,v)$ où $P$ est un sous-module de $M$ contenant $N$ et $v$ un homomorphisme de $P$ dans $E$ prolongeant $u$. L’ensemble $\mathscr P$ ordonné par la relation de prolongement est *inductif* : si $(P_j, v_j)$ est une famille totalement ordonnée d’éléments de $\mathscr{P}$, posons $Q = \cup P_j$ et soit $w : Q \to E$ l’unique application induisant $v_j$ sur $P_j$ pour tout $j$; alors $(Q, w) \in \mathscr{P}$ et $(Q, w)$ majore $(P_j, v_j)$ pour tout $j$. Soit alors $(P, v)$ un élément maximal de $\mathscr{P}$ (E, III, p. 20, th. 2); il suffit de prouver que $P = M$. Soit $x \in M$ et soit $\alpha$ l’idéal des $a \in A$ tels que $ax \in P$; posons $f(a) = v(ax)$ pour $a \in \alpha$; on obtient ainsi un $A$-homomorphisme $f : \alpha \to E$. Soit alors $e$ un élément de $E$ tel que $f(a) = ae$ pour tout $a \in \alpha$. Posons $P' = P + Ax$ et soit $v' : P' \to E$ l’unique $A$-homomorphisme tel que $v'(p + ax) = v(p) + ae$ pour $p \in P, a \in A$; alors $(P', v')$ appartient à $\mathscr{P}$ et majore $(P, v)$, donc $P' = P$, c’est-à-dire $x \in P$, ce qui achève la démonstration.
 
 #### Corollaire 1 {#alg-x-s1-prop-10-cor-1 .statement}
 
@@ -1045,7 +1045,7 @@ $$(J' \cap M) \cap N \subset J' \cap I_1 = 0.$$
 
 Le sous-module N′ = (J′ ∩ M) + N de M est somme directe de J′ ∩ M et N, donc contient strictement N. Par ailleurs N′ est contenu dans le sous-module J′ + I₁ de J, qui est somme directe de J′ et I₁, donc injectif. D’après le caractère maximal de N, cela implique J′ + I₁ = I, donc J′ = J, et J est indécomposable.
 
-Notons $\mathcal{I}$ l’ensemble (X, p. 21, cor. 1) des classes de A-modules injectifs indécomposables.
+Notons $\mathscr{I}$ l’ensemble (X, p. 21, cor. 1) des classes de A-modules injectifs indécomposables.
 
 Rappelons (X, p. 17, cor. 1) que, si A est nœthérien à gauche, tout A-module somme directe de A-modules injectifs est injectif.
 
@@ -1057,18 +1057,18 @@ a) Si I est l’enveloppe injective d’un A-module nœthérien M, I est somme d
 
 b) Si A est nœthérien à gauche, I est somme directe d’une famille de sous-modules (injectifs) indécomposables.
 
-c) Si I est somme directe de sous-modules (injectifs) indécomposables, il existe une famille de cardinaux $(a_E)_{E \in \mathcal{I}}$, et une seule, telle que I soit isomorphe à
+c) Si I est somme directe de sous-modules (injectifs) indécomposables, il existe une famille de cardinaux $(a_E)_{E \in \mathscr{I}}$, et une seule, telle que I soit isomorphe à
 
-$$\bigoplus_{E \in \mathcal{I}} E^{(a_E)}.$$
+$$\bigoplus_{E \in \mathscr{I}} E^{(a_E)}.$$
 
 Notons d’abord que c) résulte de la prop. 14 (X, p. 21) et de VIII, § 1, n° 7, théorème 2. Démontrons a).
 
 Soit N un sous-module de M dont les enveloppes injectives soient somme directe d’une famille finie de sous-modules indécomposables, et maximal pour cette propriété (il en existe puisque M est nœthérien). D’après la remarque 2 (X, p. 21), il existe un sous-module I₁ de I qui est une enveloppe injective de N. Si I₁ = I, la démonstration est achevée ; sinon, soit $J$ un supplémentaire de $I_1$ dans $I$. Alors $J$ est enveloppe injective du module nœthérien $J\cap M$ (loc. cit.), donc possède un sous-module injectif indécomposable $J'$ (lemme 4). Alors $I_1+J'$ est injectif, somme directe d’une famille finie de sous-modules indécomposables, et enveloppe injective du sous-module $(I_1+J')\cap M$ de $M$ qui majore strictement $N$, d’où une contradiction.
 
-Supposons $A$ nœthérien à gauche et démontrons b). Soit $X$ l’ensemble somme des ensembles $\operatorname{Hom}_A(E,I)$ pour $E\in\mathcal{J}$. A chaque partie $Y$ de $X$ associons un $A$-module $E_Y$ et un $A$-homomorphisme $f_Y:E_Y\to I$ de la façon suivante : $Y$ est la somme d’une famille $(Y(E))_{E\in\mathcal{J}}$ où $Y(E)\subset\operatorname{Hom}_A(E,I)$, on pose
+Supposons $A$ nœthérien à gauche et démontrons b). Soit $X$ l’ensemble somme des ensembles $\operatorname{Hom}_A(E,I)$ pour $E\in\mathscr{J}$. A chaque partie $Y$ de $X$ associons un $A$-module $E_Y$ et un $A$-homomorphisme $f_Y:E_Y\to I$ de la façon suivante : $Y$ est la somme d’une famille $(Y(E))_{E\in\mathscr{J}}$ où $Y(E)\subset\operatorname{Hom}_A(E,I)$, on pose
 
 $$
-E_Y=\bigoplus_{E\in\mathcal{J}}E^{(Y(E))}
+E_Y=\bigoplus_{E\in\mathscr{J}}E^{(Y(E))}
 $$
 
 et la composante de $f$ sur le facteur direct de $E_Y$ correspondant à l’élément $y$ de $Y(E)\subset\operatorname{Hom}_A(E,I)$ est $y:E\to I$. Soit $Y$ une partie de $X$, telle que $f_Y$ soit injectif et que $Y$ soit maximal pour cette propriété (une telle partie existe d’après E, III, p. 20) ; il suffit de prouver que $f_Y$ est bijectif. Sinon, soit $J$ un supplémentaire du sous-module injectif $\operatorname{Im}(f_Y)$ de $I$ ; puisque $J$ est non nul, il possède un sous-module nœthérien non nul (parce que $A$ est supposé nœthérien), donc aussi un sous-module injectif $J'$ non nul enveloppe injective d’un module nœthérien. D’après a), $J'$ est somme directe d’une famille finie non vide de sous-modules indécomposables. Il existe donc une partie finie $Y'$ non vide de $X$ telle que $f_{Y'}$ applique bijectivement $E_{Y'}$ sur $J'$. Comme $\operatorname{Im}(f_Y)\cap J'=0$, on a $Y\cap Y'=\varnothing$ et $f_{Y\cup Y'}$ est injectif ; cela contredit le caractère maximal de $Y$ et achève la démonstration.

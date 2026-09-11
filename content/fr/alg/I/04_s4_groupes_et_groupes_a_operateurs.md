@@ -53,7 +53,7 @@ subsections:
       pdf_page: 56
 statements: 66
 exercises: 26
-content_sha256: a711b3ebd89b32c5ea3ea2e1f026589a09b73c0afb90ab9651e4a83e25fe9554
+content_sha256: 9b83a6e54c23b3061dc3b6e71175f255d35071be33cb53e145f0b55a0b44ab2a
 ---
 
 ## § 4. GROUPES ET GROUPES A OPÉRATEURS
@@ -70,7 +70,7 @@ Autrement dit, un groupe est un monoïde (I, p. 12, déf. 2) dans lequel tout é
 
 #### Exemple {#alg-i-s4-n1-exa-1 .statement}
 
-Dans un monoïde quelconque E, l’ensemble des éléments inversibles, muni de la structure induite par celle de E, est un groupe. En particulier, l’ensemble des applications bijectives d’un ensemble F sur lui-même (ou ensemble des permutations de F) est un groupe pour la loi $(f, g) \mapsto f \circ g$, qu’on appelle groupe symétrique de l’ensemble F et qu’on note $\mathcal{S}_F$.
+Dans un monoïde quelconque E, l’ensemble des éléments inversibles, muni de la structure induite par celle de E, est un groupe. En particulier, l’ensemble des applications bijectives d’un ensemble F sur lui-même (ou ensemble des permutations de F) est un groupe pour la loi $(f, g) \mapsto f \circ g$, qu’on appelle groupe symétrique de l’ensemble F et qu’on note $\mathscr{S}_F$.
 
 Dans ce paragraphe, sauf indication contraire, nous noterons toujours multiplicativement la loi de composition d’un groupe, et nous désignerons par e l’élément neutre d’une loi de groupe ainsi notée.
 

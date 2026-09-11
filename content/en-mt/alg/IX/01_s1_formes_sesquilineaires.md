@@ -52,7 +52,7 @@ subsections:
       pdf_page: 30
 statements: 45
 exercises: 0
-content_sha256: a788ed40848999c0d18ff945a803189841c5bd0cc9a81227b38d5b0ae7369e0a
+content_sha256: 7296b831cfc29ec7fd6fbe846eb87c9c951399c6183adbdc2773584393f0791d
 translated_from: content/fr/alg/IX/01_s1_formes_sesquilineaires.md
 source_lang: fr
 translation_method: machine
@@ -83,7 +83,7 @@ A mapping $\Phi$ of the product $E \times F$ into $G$ is said to be bilinear if 
 
 The tensor product $E \otimes_{\mathbf{Z}} F$ is canonically endowed with a structure of $(A, B)$-bimodule characterized by $a(x \otimes y)b = ax \otimes yb$ (Chap. III, 2e éd., App. II, n° 3), and the giving of a bilinear mapping $\Phi$ of $E \times F$ into $G$ is equivalent to that of a mapping $\Psi$ of $E \otimes_{\mathbf{Z}} F$ into $G$ which is a homomorphism for the structures of $(A, B)$-bimodules and which satisfies $\Psi(x \otimes y) = \Phi(x, y)$ for all $x \in E$ and $y \in F$.
 
-The conditions imposed on $\Phi$ by Definition 1 signify that the partial mappings $d_\Phi(y) : x \to \Phi(x, y)$ and $s_\Phi(x) : y \to \Phi(x, y)$ are respectively an A-linear mapping from $E$ into $G$ and a B-linear mapping from $F$ into $G$. Let us endow the commutative group $\mathcal{L}_A(E, G)$ (resp. $\mathcal{L}_B(F, G)$) with the structure of right B-module (resp. left A-module) defined by $ub(x) = u(x) . b$ ($u \in \mathcal{L}_A(E, G)$, $x \in E$, $b \in B$) (resp. $a \nu(y) = a . \nu(y)$ ($a \in A$, $\nu \in \mathcal{L}_B(F, G)$, $y \in F$)). Then conditions (1) to (4) are respectively equivalent to:
+The conditions imposed on $\Phi$ by Definition 1 signify that the partial mappings $d_\Phi(y) : x \to \Phi(x, y)$ and $s_\Phi(x) : y \to \Phi(x, y)$ are respectively an A-linear mapping from $E$ into $G$ and a B-linear mapping from $F$ into $G$. Let us endow the commutative group $\mathscr{L}_A(E, G)$ (resp. $\mathscr{L}_B(F, G)$) with the structure of right B-module (resp. left A-module) defined by $ub(x) = u(x) . b$ ($u \in \mathscr{L}_A(E, G)$, $x \in E$, $b \in B$) (resp. $a \nu(y) = a . \nu(y)$ ($a \in A$, $\nu \in \mathscr{L}_B(F, G)$, $y \in F$)). Then conditions (1) to (4) are respectively equivalent to:
 
 $$
 \begin{align*}
@@ -94,15 +94,15 @@ $$
 \end{align*}
 $$
 
-for all $x, x'$ in $E$, $y, y'$ in $F$, $a \in A$, $b \in B$; in other words, the mapping $d_\Phi$ from $F$ into $\mathcal{L}_A(E, G)$ is B-linear, and the mapping $s_\Phi$ from $E$ into $\mathcal{L}_B(F, G)$ is A-linear. We have, by definition
+for all $x, x'$ in $E$, $y, y'$ in $F$, $a \in A$, $b \in B$; in other words, the mapping $d_\Phi$ from $F$ into $\mathscr{L}_A(E, G)$ is B-linear, and the mapping $s_\Phi$ from $E$ into $\mathscr{L}_B(F, G)$ is A-linear. We have, by definition
 
 $$(5) \quad \Phi(x, y) = d_\Phi(y)(x) = s_\Phi(x)(y) \text{ for all } x \in E, y \in F.$$
 
 #### Definition 2 {#alg-ix-s1-def-2 .statement}
 
-Given a bilinear mapping $\Phi$ from $E \times F$ into $G$, the mapping $d_\Phi$ from $F$ into $\mathcal{L}_A(E, G)$ (resp. the mapping $s_\Phi$ from $E$ into $\mathcal{L}_B(F, G)$) characterized by (5) is called the linear mapping associated on the right (resp. on the left) with $\Phi$.
+Given a bilinear mapping $\Phi$ from $E \times F$ into $G$, the mapping $d_\Phi$ from $F$ into $\mathscr{L}_A(E, G)$ (resp. the mapping $s_\Phi$ from $E$ into $\mathscr{L}_B(F, G)$) characterized by (5) is called the linear mapping associated on the right (resp. on the left) with $\Phi$.
 
-Conversely, the data of a B-linear mapping $d$ from $F$ into $\mathcal{L}_A(E, G)$ (resp. of an A-linear mapping $s$ from $E$ into $\mathcal{L}_B(F, G)$) determines uniquely, by the formula
+Conversely, the data of a B-linear mapping $d$ from $F$ into $\mathscr{L}_A(E, G)$ (resp. of an A-linear mapping $s$ from $E$ into $\mathscr{L}_B(F, G)$) determines uniquely, by the formula
 
 $$
 \Phi(x, y) = d(y)(x) \quad \text{(resp. } \Phi(x, y) = s(x)(y))
@@ -256,15 +256,15 @@ $(a \in A, b \in B, a' \in A', b' \in B', x \in E, y \in F)$.
 
 There therefore exists a $\mathbf{Z}$-bilinear mapping $\Phi'$ from $E' \times F'$ into $G'$ satisfying (13) (Chap. III, 2nd ed., App. II, No. 1, prop. 2). This relation and the definition of the module structures of $E'$ and $F'$ by (12) show that $\Phi'$ is bilinear, which completes the proof.
 
-The hypotheses and notations being those of Proposition 1, let us now study the *associated linear mappings* of $\Phi$ and $\Phi'$ (No. 1, def. 2). For this purpose we shall first define a canonical homomorphism from $\mathcal{L}_A(E, G)$ into $\mathcal{L}_{A'}(E', G')$. For every $\nu \in \mathcal{L}_A(E, G)$ the mapping $(a', x) \to a'.u(\nu(x))$ from $A' \times E$ into $G'$ is $\mathbf{Z}$-bilinear, and, viewed (11), maps $(a'h(a), x)$ and $(a', ax)$ $(a \in A)$ onto the same element of $G'$; it therefore defines (Chap. III, 2nd ed.,
+The hypotheses and notations being those of Proposition 1, let us now study the *associated linear mappings* of $\Phi$ and $\Phi'$ (No. 1, def. 2). For this purpose we shall first define a canonical homomorphism from $\mathscr{L}_A(E, G)$ into $\mathscr{L}_{A'}(E', G')$. For every $\nu \in \mathscr{L}_A(E, G)$ the mapping $(a', x) \to a'.u(\nu(x))$ from $A' \times E$ into $G'$ is $\mathbf{Z}$-bilinear, and, viewed (11), maps $(a'h(a), x)$ and $(a', ax)$ $(a \in A)$ onto the same element of $G'$; it therefore defines (Chap. III, 2nd ed.,
 
-App. II, Nos. 1 and 10) a mapping $k(\nu)$ from $E' = A' \otimes_A E$ into $G'$ such that $k(\nu)(a' \otimes x) = a'.u(\nu(x))$, and which, viewed (12), is $A'$-linear. Moreover one immediately deduces from (12) that the mapping $\nu \to k(\nu)$ from $\mathcal{L}_A(E, G)$ into $\mathcal{L}_{A'}(E', G')$ satisfies $k(\nu b) = k(\nu)h'(b)$ for every $b \in B$. Let $i$ denote the canonical mapping $y \to y \otimes 1$ from $F$ into $F'$. Then the diagram
+App. II, Nos. 1 and 10) a mapping $k(\nu)$ from $E' = A' \otimes_A E$ into $G'$ such that $k(\nu)(a' \otimes x) = a'.u(\nu(x))$, and which, viewed (12), is $A'$-linear. Moreover one immediately deduces from (12) that the mapping $\nu \to k(\nu)$ from $\mathscr{L}_A(E, G)$ into $\mathscr{L}_{A'}(E', G')$ satisfies $k(\nu b) = k(\nu)h'(b)$ for every $b \in B$. Let $i$ denote the canonical mapping $y \to y \otimes 1$ from $F$ into $F'$. Then the diagram
 
 $$
 \begin{array}{ccc}
-F & \xrightarrow{d_\Phi} & \mathcal{L}_A(E, G) \\
+F & \xrightarrow{d_\Phi} & \mathscr{L}_A(E, G) \\
 |_i & & |_k \\
-F' & \xrightarrow{d_{\Phi'}} & \mathcal{L}_{A'}(E', G')
+F' & \xrightarrow{d_{\Phi'}} & \mathscr{L}_{A'}(E', G')
 \end{array}
 $$
 

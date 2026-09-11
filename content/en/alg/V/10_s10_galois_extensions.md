@@ -58,7 +58,7 @@ subsections:
       pdf_page: 190
 statements: 49
 exercises: 23
-content_sha256: 1951a382ea0abf06806d7fc373c368decf9961b78978e229e615903b12278ed4
+content_sha256: 1bd3bcbbec124c4730c75c90bb6dee375cff9fd7993676e0bee4491243019efd
 ---
 
 ## § 10. GALOIS EXTENSIONS
@@ -172,7 +172,7 @@ More generally, consider two subextensions L and L' of N, and a K-isomorphism $u
 
 Let N be a Galois extension of K and $\Gamma$ the Galois group of N over K. We equip N with the discrete topology, the set $N^N$ of all mappings of N into itself with the product topology of the discrete topology of the factors ("topology of simple convergence in N") and the group $\Gamma$ with the topology induced from $N^N$.
 
-Let A be the set of all subextensions of N of finite degree over K. For $\sigma \in \Gamma$ and $E \in A$ we shall write $U_E(\sigma)$ for the set of elements $\tau$ of $\Gamma$ which have the same restriction as $\sigma$ to E. If $E = K(x_1, ..., x_n)$, the set $U_E(\sigma)$ consists of the elements $\tau \in \Gamma$ such that $\tau(x_i) = \sigma(x_i), ..., \tau(x_n) = \sigma(x_n)$. It follows that the family $(U_F(\sigma))_{F \in \mathcal{F}}$ is a base of the filter of neighbourhoods of $\sigma$ in $\Gamma$.
+Let A be the set of all subextensions of N of finite degree over K. For $\sigma \in \Gamma$ and $E \in A$ we shall write $U_E(\sigma)$ for the set of elements $\tau$ of $\Gamma$ which have the same restriction as $\sigma$ to E. If $E = K(x_1, ..., x_n)$, the set $U_E(\sigma)$ consists of the elements $\tau \in \Gamma$ such that $\tau(x_i) = \sigma(x_i), ..., \tau(x_n) = \sigma(x_n)$. It follows that the family $(U_F(\sigma))_{F \in \mathscr{F}}$ is a base of the filter of neighbourhoods of $\sigma$ in $\Gamma$.
 
 When N is of finite degree over K, we have $N \in A$ and $U_N(\sigma) = \{\sigma\}$, hence the topology of $\mathrm{Gal}(N/K)$ is discrete; we recall (V, p. 58), that the group $\mathrm{Gal}(N/K)$ is finite in this case.
 
@@ -361,9 +361,9 @@ Finally, c) follows from Th. 2 (V, p. 65) which proves the existence of a family
 
 #### Theorem 4 {#alg-v-s10-thm-4 .statement}
 
-— Let N be a Galois extension of K and $\Gamma$ its Galois group. Let $\mathcal{K}$ be the set of subextensions of N and $\mathcal{G}$ the set of closed subgroups of $\Gamma$. For every subgroup $A \in \mathcal{G}$ we denote by $k(\Delta)$ the field of invariants of A and for every *subfield* $E \in \mathcal{K}$ we denote by $g(E)$ the group of E-*automorphisms* of N. *Then* $A \mapsto k(\Delta)$ is a bijection of $\mathcal{G}$ onto $\mathcal{K}$, and $E \mapsto g(E)$ is the inverse bijection.
+— Let N be a Galois extension of K and $\Gamma$ its Galois group. Let $\mathscr{K}$ be the set of subextensions of N and $\mathscr{G}$ the set of closed subgroups of $\Gamma$. For every subgroup $A \in \mathscr{G}$ we denote by $k(\Delta)$ the field of invariants of A and for every *subfield* $E \in \mathscr{K}$ we denote by $g(E)$ the group of E-*automorphisms* of N. *Then* $A \mapsto k(\Delta)$ is a bijection of $\mathscr{G}$ onto $\mathscr{K}$, and $E \mapsto g(E)$ is the inverse bijection.
 
-A) The relation $E = k(g(E))$ (for $E \in \mathcal{K}$) is a consequence of the following more precise lemma:
+A) The relation $E = k(g(E))$ (for $E \in \mathscr{K}$) is a consequence of the following more precise lemma:
 
 #### Lemma 1 {#alg-v-s10-lem-1 .statement}
 
@@ -423,7 +423,7 @@ For $g(E)$ to be open it is necessary and sufficient that there should exist a s
 
 g(E) contains $U_F(\mathrm{Id}_N) = g(F)$. The relation $g(E) \supset g(F)$ is equivalent to $E \subset F$ by Cor. 1 (V, p. 68), whence the first assertion of Cor. 5.
 
-Suppose that $[E : K]$ is finite. Let $\Omega$ be an algebraic closure of $K$ containing $N$ as subextension (V, p. 23, Th. 2) and let $\mathcal{H}$ be the set of $K$-homomorphisms of $E$ into $\Omega$. Every element of $\mathcal{H}$ is induced by a $K$-automorphism of $\Omega$ (V, p. 52, Prop. 1), and since $N$ is quasi-Galois over $K$, the mapping $\sigma \mapsto \sigma|_E$ of $\Gamma$ into $\mathcal{H}$ is surjective. For $\sigma$ and $\sigma'$ in $\Gamma$ to have the same restriction to $E$ it is necessary and sufficient that $\sigma^{-1}\sigma' \in g(E)$, whence Card $A? = (\Gamma : g(E))$. Finally since $E$ is an etale algebra over $K$, we have Card $\mathcal{H} = [E : K]$ (V, p. 32, Prop. 4), so in conclusion we have $(\Gamma : g(E)) = [E : K]$.
+Suppose that $[E : K]$ is finite. Let $\Omega$ be an algebraic closure of $K$ containing $N$ as subextension (V, p. 23, Th. 2) and let $\mathscr{H}$ be the set of $K$-homomorphisms of $E$ into $\Omega$. Every element of $\mathscr{H}$ is induced by a $K$-automorphism of $\Omega$ (V, p. 52, Prop. 1), and since $N$ is quasi-Galois over $K$, the mapping $\sigma \mapsto \sigma|_E$ of $\Gamma$ into $\mathscr{H}$ is surjective. For $\sigma$ and $\sigma'$ in $\Gamma$ to have the same restriction to $E$ it is necessary and sufficient that $\sigma^{-1}\sigma' \in g(E)$, whence Card $A? = (\Gamma : g(E))$. Finally since $E$ is an etale algebra over $K$, we have Card $\mathscr{H} = [E : K]$ (V, p. 32, Prop. 4), so in conclusion we have $(\Gamma : g(E)) = [E : K]$.
 
 #### Corollary 6 {#alg-v-s10-lem-2-cor-6 .statement}
 
@@ -591,15 +591,15 @@ The following lemma is a particular case of more general results proved in Chapt
 
 Let M be a torsion A-module generated by a finite number $x_1, ..., x_h$ of elements; then there exists an element x of M whose annihilator (II, p. 219) is equal to the annihilator of M.
 
-In both cases $A$ is an integral domain and every ideal of $A$ is principal. When $A = \mathbf{Z}$ (resp. $A = K[X]$), we denote by $\mathcal{P}$ the set of prime numbers (resp. the set of irreducible monic polynomials in $K[X]$). For every element $a \neq 0$ of $A$ there exists then an invertible element $u$ of $A$ and a family $(v_p(a))_{p \in \mathcal{P}}$, with finite support, of positive integers such that $a = u \prod_{p \in \mathcal{P}} p^{v_p(a)}$ and $u$ and the integers $v_p(a)$ are uniquely determined (I, p. 51 and IV, p. 13, Prop. 13).
+In both cases $A$ is an integral domain and every ideal of $A$ is principal. When $A = \mathbf{Z}$ (resp. $A = K[X]$), we denote by $\mathscr{P}$ the set of prime numbers (resp. the set of irreducible monic polynomials in $K[X]$). For every element $a \neq 0$ of $A$ there exists then an invertible element $u$ of $A$ and a family $(v_p(a))_{p \in \mathscr{P}}$, with finite support, of positive integers such that $a = u \prod_{p \in \mathscr{P}} p^{v_p(a)}$ and $u$ and the integers $v_p(a)$ are uniquely determined (I, p. 51 and IV, p. 13, Prop. 13).
 
 Let $a_i$ be the annihilator of $x_i$, (for $1 \leq i \leq h$) and $a$ the annihilator of M; let $a_1, ..., a_h, a$ be non-zero elements of $A$ such that $a_i = Aa_i$, and $a = Aa$; since $a = a_1 \cap ... \cap a_h$, it follows from what has been said that
 
 $$
-v_p(a) = \sup_{1 \leq i \leq h} v_p(a_i) \quad \text{for all } p \in \mathcal{P}.
+v_p(a) = \sup_{1 \leq i \leq h} v_p(a_i) \quad \text{for all } p \in \mathscr{P}.
 $$
 
-Let us write $a$ in the form $up_1^{n(1)} ... p_r^{n(r)}$, with $p_1, ..., p_r$ distinct in $\mathcal{P}$, $n(1) > 0, ..., n(r) > 0$ and $u$ an invertible element of $A$. Let $j = 1, ..., r$; by (10) there exists an integer $c(j)$ such that $1 \leq c(j) \leq h$ and $v_{p_j}(a_{c(j)}) = n(j)$; there exists $b_j$ in $A$ with $a_{c(j)} = p_j^{n(j)} b_j$ and the element $y_j = b_j x_{c(j)}$ has as annihilator the ideal $Ap_j^{n(j)}$.
+Let us write $a$ in the form $up_1^{n(1)} ... p_r^{n(r)}$, with $p_1, ..., p_r$ distinct in $\mathscr{P}$, $n(1) > 0, ..., n(r) > 0$ and $u$ an invertible element of $A$. Let $j = 1, ..., r$; by (10) there exists an integer $c(j)$ such that $1 \leq c(j) \leq h$ and $v_{p_j}(a_{c(j)}) = n(j)$; there exists $b_j$ in $A$ with $a_{c(j)} = p_j^{n(j)} b_j$ and the element $y_j = b_j x_{c(j)}$ has as annihilator the ideal $Ap_j^{n(j)}$.
 
 Let us show that the annihilator b of $y = y_1 + ... + y_r$ is equal to the annihilator a of M. In any case we have $a \subset b$, so b is of the form $Ap_1^{m(1)} ... p_r^{m(r)}$ with $0 \leq m(j) \leq n(j)$ for $1 \leq j \leq r$. If we had $a \neq b$, there would exist an integer jsuch that $1 \leq j \leq r$ and $m(j) < n(j)$, and hence $d_j = a/p_j$ would annihilate $y$. Now we have $d_j y_k = 0$ for $k \neq j$, whence we obtain $d_j y_j = 0$; but the annihilator of $y_j$ is $Ap_j^{m(j)}$ and $d_j$ is not a multiple of $p_j^{m(j)}$. So the hypothesis $a \neq b$ is absurd.
 

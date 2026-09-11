@@ -41,7 +41,7 @@ subsections:
       pdf_page: 69
 statements: 41
 exercises: 29
-content_sha256: 466abed96462daccdedffc80de9cccaece9d32428771c5f38a074e2040ecc878
+content_sha256: 688c7c52037a8d03be1fa07dc3f24bddf0190f059762ac6c561f8c9b2ea072cf
 ---
 
 ## § 5. GROUPES OPÉRANT SUR UN ENSEMBLE
@@ -261,7 +261,7 @@ L’orbite dans G/H de l’élément e = H est G/H, d’où la première asserti
 
 #### Remarque 1 {#alg-i-s5-n5-rem-1 .statement}
 
-Soient G un groupe, H un sous-groupe de G et $\varphi : G \to \mathcal{S}_{G/H}$ l’opération de G sur G/H. Le noyau de $\varphi$ est l’intersection des conjugués de H (I, p. 52, prop. 2). C’est aussi le plus grand sous-groupe distingué contenu dans H (I, p. 54). En particulier, G opère fidèlement sur G/H si et seulement si l’intersection des conjugués de H est réduite à e.
+Soient G un groupe, H un sous-groupe de G et $\varphi : G \to \mathscr{S}_{G/H}$ l’opération de G sur G/H. Le noyau de $\varphi$ est l’intersection des conjugués de H (I, p. 52, prop. 2). C’est aussi le plus grand sous-groupe distingué contenu dans H (I, p. 54). En particulier, G opère fidèlement sur G/H si et seulement si l’intersection des conjugués de H est réduite à e.
 
 #### Remarque 2 {#alg-i-s5-n5-rem-2 .statement}
 
@@ -285,11 +285,11 @@ Comme un G-ensemble homogène n’est pas vide, l’assertion a) résulte de la 
 
 #### Exemple 1 {#alg-i-s5-n5-exa-1 .statement}
 
-Soit E un ensemble non vide. Le groupe $\mathcal{S}_E$ opère transitivement sur E. En effet, si x et y sont deux éléments de E, l’application $\tau : E \to E$, telle que $\tau(x) = y, \tau(y) = x$ et $\tau(z) = z$ pour $z \neq x, y$, est une permutation de E. Soit $a \in E$. Le stabilisateur de a s’identifie à $\mathcal{S}_F$, où $F = E - \{a\}$. Le $\mathcal{S}_E$-ensemble homogène E est donc isomorphe à $\mathcal{S}_E/\mathcal{S}_F$.
+Soit E un ensemble non vide. Le groupe $\mathscr{S}_E$ opère transitivement sur E. En effet, si x et y sont deux éléments de E, l’application $\tau : E \to E$, telle que $\tau(x) = y, \tau(y) = x$ et $\tau(z) = z$ pour $z \neq x, y$, est une permutation de E. Soit $a \in E$. Le stabilisateur de a s’identifie à $\mathscr{S}_F$, où $F = E - \{a\}$. Le $\mathscr{S}_E$-ensemble homogène E est donc isomorphe à $\mathscr{S}_E/\mathscr{S}_F$.
 
 #### Exemple 2 {#alg-i-s5-n5-exa-2 .statement}
 
-Soient E un ensemble à n éléments et $(p_i)_{i \in I}$ une famille finie d’entiers > 0 telle que $\sum_i p_i = n$. Soit X l’ensemble des partitions $(F_i)_{i \in I}$ de E telles que Card$(F_i) = p_i$ pour tout i. Le groupe $\mathcal{S}_E$ opère transitivement sur X. Le stabilisateur H d’un élément $(F_i)_{i \in I}$ de X est canoniquement isomorphe à $\prod_{i \in I} \mathcal{S}_{F_i}$, donc d’ordre $\prod_{i \in I} p_i!$.
+Soient E un ensemble à n éléments et $(p_i)_{i \in I}$ une famille finie d’entiers > 0 telle que $\sum_i p_i = n$. Soit X l’ensemble des partitions $(F_i)_{i \in I}$ de E telles que Card$(F_i) = p_i$ pour tout i. Le groupe $\mathscr{S}_E$ opère transitivement sur X. Le stabilisateur H d’un élément $(F_i)_{i \in I}$ de X est canoniquement isomorphe à $\prod_{i \in I} \mathscr{S}_{F_i}$, donc d’ordre $\prod_{i \in I} p_i!$.
 
 En appliquant le th. 1 et I, p. 34, corollaire on obtient une nouvelle démonstration du fait que
 

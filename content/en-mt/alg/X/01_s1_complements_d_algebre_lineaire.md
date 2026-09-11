@@ -53,7 +53,7 @@ subsections:
       pdf_page: 28
 statements: 55
 exercises: 17
-content_sha256: f55d142614aa6d7f23af6851df91ee735ca380fab8afe681cb5dd6ea12aba4d1
+content_sha256: 599a7a8a145892c66f08a00e34f9084f8d556e84ef352ab94226e738fcd3a22c
 translated_from: content/fr/alg/X/01_s1_complements_d_algebre_lineaire.md
 source_lang: fr
 translation_method: machine
@@ -484,7 +484,7 @@ Spec (A). The preceding condition means that this closed set is empty, in other 
 
 #### Example 11 {#alg-x-s1-n3-exa-11 .statement}
 
-\* Let S and X be two complex analytic spaces and let $f : X \to S$ be a morphism. We say that $f$ is flat at a point $x$ of X if $\mathcal{O}_{X,x}$, considered as $\mathcal{O}_{S,f(x)}$-module by means of the homomorphism $f^* : \mathcal{O}_{S,f(x)} \to \mathcal{O}_{X,x}$, is flat. The set of points of X where $f$ is flat is an open set of X, and the restriction of $f$ to this open set is an open mapping. If X and S are connected analytic varieties of finite dimension, $f$ is flat (at every point of X) if and only if $f(X)$ is open in S and the fibres $f^{-1}(s)$, for $s \in f(X)$, all have the same dimension. \*
+\* Let S and X be two complex analytic spaces and let $f : X \to S$ be a morphism. We say that $f$ is flat at a point $x$ of X if $\mathscr{O}_{X,x}$, considered as $\mathscr{O}_{S,f(x)}$-module by means of the homomorphism $f^* : \mathscr{O}_{S,f(x)} \to \mathscr{O}_{X,x}$, is flat. The set of points of X where $f$ is flat is an open set of X, and the restriction of $f$ to this open set is an open mapping. If X and S are connected analytic varieties of finite dimension, $f$ is flat (at every point of X) if and only if $f(X)$ is open in S and the fibres $f^{-1}(s)$, for $s \in f(X)$, all have the same dimension. \*
 
 ### 4. Modules of finite presentation
 
@@ -812,7 +812,7 @@ $$
 
 for every $a\in a$.
 
-Conversely, suppose the condition of the statement is satisfied, let $M$ be an A-module, $N$ a submodule of $M$, $u : N\to E$ an A-homomorphism, and prove that there exists an A-homomorphism $\bar u : M\to E$ extending $u$ (cf. *lemma* 3). Let $\mathcal P$ be the set of pairs $(P,v)$ where $P$ is a submodule of $M$ containing $N$ and $v$ is a homomorphism from $P$ into $E$ extending $u$. The set $\mathcal P$ ordered by the extension relation is *inductive*: if $(P_j, v_j)$ is a totally ordered family of elements of $\mathcal{P}$, put $Q = \cup P_j$ and let $w : Q \to E$ be the unique mapping inducing $v_j$ on $P_j$ for every $j$; then $(Q, w) \in \mathcal{P}$ and $(Q, w)$ majorizes $(P_j, v_j)$ for every $j$. Let then $(P, v)$ be a maximal element of $\mathcal{P}$ (E, III, p. 20, th. 2); it suffices to prove that $P = M$. Let $x \in M$ and let $\alpha$ be the ideal of the $a \in A$ such that $ax \in P$; put $f(a) = v(ax)$ for $a \in \alpha$; one thus obtains an $A$-homomorphism $f : \alpha \to E$. Let then $e$ be an element of $E$ such that $f(a) = ae$ for every $a \in \alpha$. Put $P' = P + Ax$ and let $v' : P' \to E$ be the unique $A$-homomorphism such that $v'(p + ax) = v(p) + ae$ for $p \in P, a \in A$; then $(P', v')$ belongs to $\mathcal{P}$ and majorizes $(P, v)$, hence $P' = P$, that is to say $x \in P$, which completes the proof.
+Conversely, suppose the condition of the statement is satisfied, let $M$ be an A-module, $N$ a submodule of $M$, $u : N\to E$ an A-homomorphism, and prove that there exists an A-homomorphism $\bar u : M\to E$ extending $u$ (cf. *lemma* 3). Let $\mathscr P$ be the set of pairs $(P,v)$ where $P$ is a submodule of $M$ containing $N$ and $v$ is a homomorphism from $P$ into $E$ extending $u$. The set $\mathscr P$ ordered by the extension relation is *inductive*: if $(P_j, v_j)$ is a totally ordered family of elements of $\mathscr{P}$, put $Q = \cup P_j$ and let $w : Q \to E$ be the unique mapping inducing $v_j$ on $P_j$ for every $j$; then $(Q, w) \in \mathscr{P}$ and $(Q, w)$ majorizes $(P_j, v_j)$ for every $j$. Let then $(P, v)$ be a maximal element of $\mathscr{P}$ (E, III, p. 20, th. 2); it suffices to prove that $P = M$. Let $x \in M$ and let $\alpha$ be the ideal of the $a \in A$ such that $ax \in P$; put $f(a) = v(ax)$ for $a \in \alpha$; one thus obtains an $A$-homomorphism $f : \alpha \to E$. Let then $e$ be an element of $E$ such that $f(a) = ae$ for every $a \in \alpha$. Put $P' = P + Ax$ and let $v' : P' \to E$ be the unique $A$-homomorphism such that $v'(p + ax) = v(p) + ae$ for $p \in P, a \in A$; then $(P', v')$ belongs to $\mathscr{P}$ and majorizes $(P, v)$, hence $P' = P$, that is to say $x \in P$, which completes the proof.
 
 #### Corollary 1 {#alg-x-s1-prop-10-cor-1 .statement}
 
@@ -1048,7 +1048,7 @@ $$(J' \cap M) \cap N \subset J' \cap I_1 = 0.$$
 
 The submodule N′ = (J′ ∩ M) + N of M is direct sum of J′ ∩ M and N, hence strictly contains N. Moreover N′ is contained in the submodule J′ + I₁ of J, which is direct sum of J′ and I₁, hence injective. According to the maximal character of N, this implies J′ + I₁ = I, hence J′ = J, and J is indecomposable.
 
-Let $\mathcal{I}$ denote the set (X, p. 21, cor. 1) of classes of indecomposable injective A-modules.
+Let $\mathscr{I}$ denote the set (X, p. 21, cor. 1) of classes of indecomposable injective A-modules.
 
 Recall (X, p. 17, cor. 1) that, if A is left noetherian, every A-module direct sum of injective A-modules is injective.
 
@@ -1060,18 +1060,18 @@ a) If I is the injective envelope of a noetherian A-module M, I is direct sum of
 
 b) If A is left noetherian, I is direct sum of a family of indecomposable (injective) submodules.
 
-c) If I is direct sum of indecomposable (injective) submodules, there exists one and only one family of cardinals $(a_E)_{E \in \mathcal{I}}$, such that I is isomorphic to
+c) If I is direct sum of indecomposable (injective) submodules, there exists one and only one family of cardinals $(a_E)_{E \in \mathscr{I}}$, such that I is isomorphic to
 
-$$\bigoplus_{E \in \mathcal{I}} E^{(a_E)}.$$
+$$\bigoplus_{E \in \mathscr{I}} E^{(a_E)}.$$
 
 Let us first note that c) follows from prop. 14 (X, p. 21) and from VIII, § 1, No. 7, theorem 2. Let us prove a).
 
 Let N be a submodule of M whose injective envelopes are direct sum of a finite family of indecomposable submodules, and maximal for this property (there exists one since M is noetherian). According to remark 2 (X, p. 21), there exists a submodule I₁ of I which is an injective envelope of N. If I₁ = I, the proof is complete; otherwise, let $J$ be a direct factor complement of $I_1$ in $I$. Then $J$ is the injective envelope of the noetherian module $J\cap M$ (loc. cit.), hence possesses a nonzero indecomposable injective submodule $J'$ (lemma 4). Then $I_1+J'$ is injective, direct sum of a finite family of indecomposable submodules, and the injective envelope of the submodule $(I_1+J')\cap M$ of $M$ which strictly majorizes $N$, whence a contradiction.
 
-Suppose $A$ is left noetherian and let us prove b). Let $X$ be the set sum of the sets $\operatorname{Hom}_A(E,I)$ for $E\in\mathcal{J}$. To each subset $Y$ of $X$ associate an $A$-module $E_Y$ and an $A$-homomorphism $f_Y:E_Y\to I$ in the following way: $Y$ is the sum of a family $(Y(E))_{E\in\mathcal{J}}$ where $Y(E)\subset\operatorname{Hom}_A(E,I)$, one sets
+Suppose $A$ is left noetherian and let us prove b). Let $X$ be the set sum of the sets $\operatorname{Hom}_A(E,I)$ for $E\in\mathscr{J}$. To each subset $Y$ of $X$ associate an $A$-module $E_Y$ and an $A$-homomorphism $f_Y:E_Y\to I$ in the following way: $Y$ is the sum of a family $(Y(E))_{E\in\mathscr{J}}$ where $Y(E)\subset\operatorname{Hom}_A(E,I)$, one sets
 
 $$
-E_Y=\bigoplus_{E\in\mathcal{J}}E^{(Y(E))}
+E_Y=\bigoplus_{E\in\mathscr{J}}E^{(Y(E))}
 $$
 
 and the component of $f$ on the direct factor of $E_Y$ corresponding to the element $y$ of $Y(E)\subset\operatorname{Hom}_A(E,I)$ is $y:E\to I$. Let $Y$ be a subset of $X$, such that $f_Y$ is injective and that $Y$ is maximal for this property (such a subset exists according to E, III, p. 20); it suffices to prove that $f_Y$ is bijective. Otherwise, let $J$ be a direct factor complement of the injective submodule $\operatorname{Im}(f_Y)$ of $I$; since $J$ is nonzero, it possesses a nonzero noetherian submodule (because A is supposed noetherian), hence also a nonzero injective submodule $J'$ which is the injective envelope of a noetherian module. According to a), $J'$ is direct sum of a finite nonempty family of indecomposable submodules. There therefore exists a finite nonempty subset $Y'$ of $X$ such that $f_{Y'}$ maps bijectively $E_{Y'}$ onto $J'$. Since $\operatorname{Im}(f_Y)\cap J'=0$, one has $Y\cap Y'=\varnothing$ and $f_{Y\cup Y'}$ is injective; this contradicts the maximal character of $Y$ and completes the proof.

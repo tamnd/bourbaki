@@ -14,7 +14,7 @@ pdf_pages: 0693-0700
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 29e2212e9734971d291d51c57d7c75a43de7eca42fbc836a0aa052b06560b7c7
+content_sha256: ab977e714dfb7bd1ea0574a28a3bda3573a0bef633fce16f45d52989cb947e43
 ---
 
 ## INDEX OF NOTATION
@@ -60,9 +60,9 @@ $G|E/H$ (G, H groups operating on E by commuting actions): I, § 5, no. 4.
 $\mathfrak{S}_n$: I, § 5, no. 7.
 $\tau_{x,y}$ (transposition of support $\{x, y\}$): I, § 5, no. 7.
 $\varepsilon(\sigma), \varepsilon_\sigma$ ($\sigma$ a permutation): I, § 5, no. 7.
-$\mathcal{U}_E, \mathcal{U}_n$: I, § 5, no. 7.
+$\mathscr{U}_E, \mathscr{U}_n$: I, § 5, no. 7.
 $F \xrightarrow{i} E \xrightarrow{\rho} G$ (E, F, G groups): I, § 6, no. 1.
-$F \times_\tau G, \mathcal{E}_\tau$ ($\tau$ a homomorphism of G into Aut(F)): I, § 6, no. 1.
+$F \times_\tau G, \mathscr{E}_\tau$ ($\tau$ a homomorphism of G into Aut(F)): I, § 6, no. 1.
 $gf$ ($f \in F, g \in G$): I, § 6, no. 1.
 $(f, g) \cdot_\tau (f', g')$ ($f, f'$ in F, $g, g'$ in G): I, § 6, no. 1.
 $(x, y), (A, B)$ ($x, y$ elements, A, B subsets of a group G): I, § 6, no. 2.
@@ -131,7 +131,7 @@ $x \otimes y$ (x $\in$ E (a right module), y $\in$ F (a left module)): II, § 3,
 $u \otimes v$ (u, v linear mappings): II, § 3, no. 2.
 $u \otimes v$ (u, v semi-linear mappings): II, § 3, no. 3.
 $s_{A_d}$ (A ring): II, § 3, no. 4.
-$\mathcal{L}_2(E, F; G)$ (E, F, G modules over a commutative ring): II, § 3, no. 5.
+$\mathscr{L}_2(E, F; G)$ (E, F, G modules over a commutative ring): II, § 3, no. 5.
 $\bigotimes_{\lambda \in L} G_\lambda, \bigotimes_{\lambda \in L} x_\lambda$ (($G_\lambda$) a family of $\mathbf{Z}$-modules, $x_\lambda \in G_\lambda$ for all $\lambda$): II, § 3, no. 9.
 $\bigotimes_{\lambda \in L} v_\lambda$ ($v_\lambda : G_\lambda \to G'_\lambda$ $\mathbf{Z}$-linear mappings): II, § 3, no. 9.
 $\bigotimes_{(c,p,q)} G_\lambda, \bigotimes_{(c,p,q)} x_\lambda, \bigotimes_{(c)} x_\lambda$: II, § 3, no. 9.
@@ -139,7 +139,7 @@ $\bigotimes_{(c)} v_\lambda$ ($v_\lambda$ $\mathbf{Z}$-linear mappings): II, § 
 $E_1 \otimes_{A_1} E_2 \otimes_{A_2} E_3 \otimes \cdots \otimes_{A_{n-2}} E_{n-1} \otimes_{A_{n-1}} E_n$: II, § 3, no. 9.
 $x_1 \otimes x_2 \otimes \cdots \otimes x_n$: II, § 3, no. 9.
 $u_1 \otimes u_2 \otimes \cdots \otimes u_n$ ($u_i$ linear mappings): II, § 3, no. 9.
-$\mathcal{L}_n(E_1, \ldots, E_n; G)$ ($E_1, \ldots, E_n, G$ modules over a commutative ring): II, § 3, no. 9.
+$\mathscr{L}_n(E_1, \ldots, E_n; G)$ ($E_1, \ldots, E_n, G$ modules over a commutative ring): II, § 3, no. 9.
 $Tr(u)$ (u an endomorphism of a module over a commutative ring): II, § 4, no. 3.
 $\rho^*(E), E_{(B)}$ (E an A-module, $\rho : A \to B$ a ring homomorphism): II, § 5, no. 1.
 $\rho^*(u), u_{(B)}$ ($\rho : A \to B$ a ring homomorphism, u an A-module homomorphism): II, § 5, no. 1.

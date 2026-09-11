@@ -54,9 +54,9 @@ subsections:
       pdf_page: 336
 statements: 87
 exercises: 39
-content_sha256: 3ccf5708f2876859590ffa7a4a425b07160fb37dc59777b7ac38bd4dedd7e6ff
+content_sha256: ce46ea181e7f47000811911edd0e12600234ffb7d913b7be90a17497eadf8dd6
 translated_from: content/en/alg/II/07_s7_vector_spaces.md
-source_content_sha256: 09d8351ba2815b6bb601181e4c7a6e1661b7b52e57ee226d85dca90b3ac70659
+source_content_sha256: 7397ef66063724aa975a5ff48582a56369a955dedad3c2a574c4fd7a2a0708aa
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-59713daf
 glossary_version: 34
@@ -298,7 +298,7 @@ $$
 $$
 Nếu $F = \bigcap_i F_i$, thì $E/F$ đẳng cấu với một không gian con của tổng trực tiếp của các $E/F_i$ (§ 1, no. 7, công thức (27)).
 
-Các không gian con vectơ chiều 1 (tương ứng chiều 2) của một không gian vectơ E thường được gọi là *các đường thẳng đi qua 0* (tương ứng *các mặt phẳng đi qua 0*) (hoặc đơn giản là *các đường thẳng* (tương ứng *các mặt phẳng*) nếu không có sự lẫn lộn nào xảy ra (xem § 9, no. 3)), theo phép loại suy với ngôn ngữ của Hình học Cổ điển; một không gian con của E được gọi là một *siêu phẳng đi qua 0* (hoặc đơn giản là một *siêu phẳng*) nếu nó có đối chiều 1. Các siêu phẳng cũng có thể được định nghĩa như các phần tử *cực đại* của tập $\mathcal{S}$ các không gian con vectơ của E *phân biệt* với E, có thứ tự theo bao hàm. Có một sự tương ứng một-một giữa các không gian con của E chứa một không gian con H và các không gian con của $E/H$ (I, § 4, no. 7, Định lý 4); nếu E có chiều $\geq 1$, thì $\mathcal{S}$ là khác rỗng, và nói rằng H là cực đại trong $\mathcal{S}$ có nghĩa là $E/H$ không chứa không gian con nào phân biệt với $\{0\}$ và $E/H$, điều này kéo theo rằng $E/H$ được sinh bởi bất kỳ phần tử nào của nó $\neq 0$, nói cách khác nó có chiều 1.
+Các không gian con vectơ chiều 1 (tương ứng chiều 2) của một không gian vectơ E thường được gọi là *các đường thẳng đi qua 0* (tương ứng *các mặt phẳng đi qua 0*) (hoặc đơn giản là *các đường thẳng* (tương ứng *các mặt phẳng*) nếu không có sự lẫn lộn nào xảy ra (xem § 9, no. 3)), theo phép loại suy với ngôn ngữ của Hình học Cổ điển; một không gian con của E được gọi là một *siêu phẳng đi qua 0* (hoặc đơn giản là một *siêu phẳng*) nếu nó có đối chiều 1. Các siêu phẳng cũng có thể được định nghĩa như các phần tử *cực đại* của tập $\mathscr{S}$ các không gian con vectơ của E *phân biệt* với E, có thứ tự theo bao hàm. Có một sự tương ứng một-một giữa các không gian con của E chứa một không gian con H và các không gian con của $E/H$ (I, § 4, no. 7, Định lý 4); nếu E có chiều $\geq 1$, thì $\mathscr{S}$ là khác rỗng, và nói rằng H là cực đại trong $\mathscr{S}$ có nghĩa là $E/H$ không chứa không gian con nào phân biệt với $\{0\}$ và $E/H$, điều này kéo theo rằng $E/H$ được sinh bởi bất kỳ phần tử nào của nó $\neq 0$, nói cách khác nó có chiều 1.
 
 Trong một không gian vectơ hữu hạn chiều $n \geq 1$, các siêu phẳng là các không gian con *có chiều* $n - 1$ theo công thức (3).
 

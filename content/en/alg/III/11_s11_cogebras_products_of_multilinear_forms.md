@@ -66,7 +66,7 @@ subsections:
       pdf_page: 633
 statements: 40
 exercises: 25
-content_sha256: 975bbc956840cf52ff780bd6ba5b9a2f483e312a57f75aa1aff94045feaa36e6
+content_sha256: 9c7b4e127fe09ee8609310f4b85f86bc773f875119f7c780156674549783b793
 ---
 
 ## § 11. COGEBRAS, PRODUCTS OF MULTILINEAR FORMS, INNER PRODUCTS AND DUALITY
@@ -288,13 +288,13 @@ $$
 E \xrightarrow{c} E \otimes E \xrightarrow{l_E \otimes c} E \otimes E \otimes E \xrightarrow{u \otimes v \otimes w} B \otimes B \otimes B \xrightarrow{m_3} B.
 $$
 
-It follows that if diagram (12) is commutative, the algebra $\mathrm{Hom}_A(E, B)$ is associative for every associative $A$-algebra $B$. To establish the converse, it suffices to show that there exists an associative $A$-algebra $B$ and three $A$-linear mappings $u, v, w$ of $E$ into $B$ such that the mapping $m_3 \circ (u \otimes v \otimes w)$ of $E \otimes E \otimes E$ into $B$ is injective. Take $B$ to be the $A$-algebra $\mathcal{T}(E)$ and $u, v, w$ the canonical mapping of $E$ into $\mathcal{T}(E)$. The mapping $m_3 \circ (u \otimes v \otimes w)$ is then the canonical mapping $E \otimes E \otimes E = \mathcal{T}^3(E) \to \mathcal{T}(E)$, which is injective.
+It follows that if diagram (12) is commutative, the algebra $\mathrm{Hom}_A(E, B)$ is associative for every associative $A$-algebra $B$. To establish the converse, it suffices to show that there exists an associative $A$-algebra $B$ and three $A$-linear mappings $u, v, w$ of $E$ into $B$ such that the mapping $m_3 \circ (u \otimes v \otimes w)$ of $E \otimes E \otimes E$ into $B$ is injective. Take $B$ to be the $A$-algebra $\mathscr{T}(E)$ and $u, v, w$ the canonical mapping of $E$ into $\mathscr{T}(E)$. The mapping $m_3 \circ (u \otimes v \otimes w)$ is then the canonical mapping $E \otimes E \otimes E = \mathscr{T}^3(E) \to \mathscr{T}(E)$, which is injective.
 
 When the cogebra $E$ satisfies the condition of Proposition 1, it is said to be coassociative.
 
 #### Example {#alg-iii-s11-n2-exa-2 .statement}
 
-(4) It is immediately verified that the cogebra $A$ (no. 1, Example (1)) the cogebra $A^{(X)}$ (no. 1, Example 4) and the cogebra $\mathcal{T}(M)$ (no. 1, Example 5) are coassociative. If $B$ is an associative $A$-algebra which is a finitely generated projective $A$-module, the cogebra $B^*$ (no. 1, Example 3) is coassociative: for the commutativity of diagram (12) then follows by transposition from that of the diagram which expresses the associativity of $B$ (§ 1, no. 3). Conversely, the same argument and the canonical identification of the A-module B with its bidual (II, § 2, no. 7, Corollary 4 to Proposition 13) show that if the cogebras B* is coassociative, the algebra B is associative. Finally, the cogebras S(M) and $\Lambda(M)$ (no. 1, Examples 6 and 7) are coassociative; this follows from the commutativity of the diagram
+(4) It is immediately verified that the cogebra $A$ (no. 1, Example (1)) the cogebra $A^{(X)}$ (no. 1, Example 4) and the cogebra $\mathscr{T}(M)$ (no. 1, Example 5) are coassociative. If $B$ is an associative $A$-algebra which is a finitely generated projective $A$-module, the cogebra $B^*$ (no. 1, Example 3) is coassociative: for the commutativity of diagram (12) then follows by transposition from that of the diagram which expresses the associativity of $B$ (§ 1, no. 3). Conversely, the same argument and the canonical identification of the A-module B with its bidual (II, § 2, no. 7, Corollary 4 to Proposition 13) show that if the cogebras B* is coassociative, the algebra B is associative. Finally, the cogebras S(M) and $\Lambda(M)$ (no. 1, Examples 6 and 7) are coassociative; this follows from the commutativity of the diagram
 
 $$
 \begin{array}{ccc}
@@ -1518,7 +1518,7 @@ $$
 \langle \theta_{\Lambda}(x^*), u^* \perp z \rangle = \langle \theta_{\Lambda}(u^* \wedge x^*), z \rangle = (-1)^{p-1} \langle \theta_{\Lambda}(x^* \wedge u^*), z \rangle \\
 = (-1)^{p-1} \langle \theta_{\Lambda}(u^*), x^* \perp z \rangle.
 $$
-Therefore, for $x^*$ to be orthogonal to N, it is necessary and sufficient that $x^* \perp z$ be orthogonal to $\theta_{\Lambda}(\Lambda(E^*))$. Now, the latter condition is equivalent to saying that $x^* \perp z = 0$; for let $(e_{\lambda})_{\lambda \in L}$ be a basis of E; giving L a total ordering, it has been seen (§ 7, no. 8, Theorem 1) that the $e_J$, for J running through the set $\mathcal{F}(L)$ of finite subsets of L, form a basis of $\Lambda(E)$; it then follows from formula (30) of no. 5 that the elements $\theta_{\wedge}(e_J^*)$ are, to within a sign, the coordinate forms on $\wedge(E)$ relative to the basis $(e_J)$; whence our assertion.
+Therefore, for $x^*$ to be orthogonal to N, it is necessary and sufficient that $x^* \perp z$ be orthogonal to $\theta_{\Lambda}(\Lambda(E^*))$. Now, the latter condition is equivalent to saying that $x^* \perp z = 0$; for let $(e_{\lambda})_{\lambda \in L}$ be a basis of E; giving L a total ordering, it has been seen (§ 7, no. 8, Theorem 1) that the $e_J$, for J running through the set $\mathscr{F}(L)$ of finite subsets of L, form a basis of $\Lambda(E)$; it then follows from formula (30) of no. 5 that the elements $\theta_{\wedge}(e_J^*)$ are, to within a sign, the coordinate forms on $\wedge(E)$ relative to the basis $(e_J)$; whence our assertion.
 
 The orthogonal of N therefore consists of the $x^* \in E^*$ such that $x^* \perp z = 0$ and the conclusion of (i) will therefore follow from (ii).
 

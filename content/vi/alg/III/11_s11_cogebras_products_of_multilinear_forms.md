@@ -66,9 +66,9 @@ subsections:
       pdf_page: 633
 statements: 40
 exercises: 25
-content_sha256: a9d74fea71ebf683bbd50182667cfad8747fffe20e04000bd461dfe4f3f950af
+content_sha256: 148ce67443e86e7af89f1612eb3e37467151bf935d562e135fa13b8bc84f1b78
 translated_from: content/en/alg/III/11_s11_cogebras_products_of_multilinear_forms.md
-source_content_sha256: 975bbc956840cf52ff780bd6ba5b9a2f483e312a57f75aa1aff94045feaa36e6
+source_content_sha256: 9c7b4e127fe09ee8609310f4b85f86bc773f875119f7c780156674549783b793
 translation_model: gpt-5.4
 translation_run: translate-vi-3a454801
 glossary_version: 34
@@ -297,13 +297,13 @@ $$
 E \xrightarrow{c} E \otimes E \xrightarrow{l_E \otimes c} E \otimes E \otimes E \xrightarrow{u \otimes v \otimes w} B \otimes B \otimes B \xrightarrow{m_3} B.
 $$
 
-Suy ra rằng nếu biểu đồ (12) là giao hoán, thì đại số $\mathrm{Hom}_A(E, B)$ là kết hợp với mọi đại số trên $A$ kết hợp $B$. Để thiết lập mệnh đề đảo lại, chỉ cần chỉ ra rằng tồn tại một đại số trên $A$ kết hợp $B$ và ba ánh xạ $A$-tuyến tính $u, v, w$ từ $E$ vào $B$ sao cho ánh xạ $m_3 \circ (u \otimes v \otimes w)$ từ $E \otimes E \otimes E$ vào $B$ là đơn ánh. Lấy $B$ là đại số trên $A$ $\mathcal{T}(E)$ và $u, v, w$ là ánh xạ chính tắc từ $E$ vào $\mathcal{T}(E)$. Khi đó ánh xạ $m_3 \circ (u \otimes v \otimes w)$ là ánh xạ chính tắc $E \otimes E \otimes E = \mathcal{T}^3(E) \to \mathcal{T}(E)$, ánh xạ này là đơn ánh.
+Suy ra rằng nếu biểu đồ (12) là giao hoán, thì đại số $\mathrm{Hom}_A(E, B)$ là kết hợp với mọi đại số trên $A$ kết hợp $B$. Để thiết lập mệnh đề đảo lại, chỉ cần chỉ ra rằng tồn tại một đại số trên $A$ kết hợp $B$ và ba ánh xạ $A$-tuyến tính $u, v, w$ từ $E$ vào $B$ sao cho ánh xạ $m_3 \circ (u \otimes v \otimes w)$ từ $E \otimes E \otimes E$ vào $B$ là đơn ánh. Lấy $B$ là đại số trên $A$ $\mathscr{T}(E)$ và $u, v, w$ là ánh xạ chính tắc từ $E$ vào $\mathscr{T}(E)$. Khi đó ánh xạ $m_3 \circ (u \otimes v \otimes w)$ là ánh xạ chính tắc $E \otimes E \otimes E = \mathscr{T}^3(E) \to \mathscr{T}(E)$, ánh xạ này là đơn ánh.
 
 Khi đối đại số $E$ thỏa mãn điều kiện của Mệnh đề 1, ta nói rằng nó là đối kết hợp.
 
 #### Ví dụ {#alg-iii-s11-n2-exa-2 .statement}
 
-(4) Ta kiểm tra ngay lập tức được rằng đối đại số $A$ (no. 1, Ví dụ (1)), đối đại số $A^{(X)}$ (no. 1, Ví dụ 4) và đối đại số $\mathcal{T}(M)$ (no. 1, Ví dụ 5) đều là đối kết hợp. Nếu $B$ là một đại số trên $A$ kết hợp, đồng thời là một A-môđun xạ ảnh sinh hữu hạn, thì đối đại số $B^*$ (no. 1, Ví dụ 3) là đối kết hợp: vì khi đó tính giao hoán của biểu đồ (12) suy ra bằng phép chuyển vị từ tính giao hoán của biểu đồ biểu thị tính kết hợp của $B$ (§ 1, no. 3). Đảo lại, cùng lập luận ấy và sự đồng nhất chính tắc của A-môđun B với song đối ngẫu của nó (II, § 2, no. 7, Hệ quả 4 của Mệnh đề 13) cho thấy rằng nếu đối đại số B* là đối kết hợp, thì đại số B là kết hợp. Sau cùng, các đối đại số S(M) và $\Lambda(M)$ (no. 1, Ví dụ 6 và 7) là đối kết hợp; điều này suy ra từ tính giao hoán của biểu đồ
+(4) Ta kiểm tra ngay lập tức được rằng đối đại số $A$ (no. 1, Ví dụ (1)), đối đại số $A^{(X)}$ (no. 1, Ví dụ 4) và đối đại số $\mathscr{T}(M)$ (no. 1, Ví dụ 5) đều là đối kết hợp. Nếu $B$ là một đại số trên $A$ kết hợp, đồng thời là một A-môđun xạ ảnh sinh hữu hạn, thì đối đại số $B^*$ (no. 1, Ví dụ 3) là đối kết hợp: vì khi đó tính giao hoán của biểu đồ (12) suy ra bằng phép chuyển vị từ tính giao hoán của biểu đồ biểu thị tính kết hợp của $B$ (§ 1, no. 3). Đảo lại, cùng lập luận ấy và sự đồng nhất chính tắc của A-môđun B với song đối ngẫu của nó (II, § 2, no. 7, Hệ quả 4 của Mệnh đề 13) cho thấy rằng nếu đối đại số B* là đối kết hợp, thì đại số B là kết hợp. Sau cùng, các đối đại số S(M) và $\Lambda(M)$ (no. 1, Ví dụ 6 và 7) là đối kết hợp; điều này suy ra từ tính giao hoán của biểu đồ
 
 $$
 \begin{array}{ccc}
@@ -1529,7 +1529,7 @@ $$
 \langle \theta_{\Lambda}(x^*), u^* \perp z \rangle = \langle \theta_{\Lambda}(u^* \wedge x^*), z \rangle = (-1)^{p-1} \langle \theta_{\Lambda}(x^* \wedge u^*), z \rangle \\
 = (-1)^{p-1} \langle \theta_{\Lambda}(u^*), x^* \perp z \rangle.
 $$
-Vậy, để $x^*$ trực giao với N, điều kiện cần và đủ là $x^* \perp z$ trực giao với $\theta_{\Lambda}(\Lambda(E^*))$. Mà điều kiện sau tương đương với việc nói rằng $x^* \perp z = 0$; thật vậy, lấy $(e_{\lambda})_{\lambda \in L}$ là một cơ sở của E; trang bị cho L một thứ tự toàn phần, như đã thấy (§ 7, no. 8, Định lý 1) rằng các $e_J$, khi J chạy qua tập $\mathcal{F}(L)$ các tập con hữu hạn của L, tạo thành một cơ sở của $\Lambda(E)$; khi đó suy ra từ công thức (30) của no. 5 rằng các phần tử $\theta_{\wedge}(e_J^*)$ là, sai khác một dấu, các dạng tọa độ trên $\wedge(E)$ đối với cơ sở $(e_J)$; do đó có mệnh đề của ta.
+Vậy, để $x^*$ trực giao với N, điều kiện cần và đủ là $x^* \perp z$ trực giao với $\theta_{\Lambda}(\Lambda(E^*))$. Mà điều kiện sau tương đương với việc nói rằng $x^* \perp z = 0$; thật vậy, lấy $(e_{\lambda})_{\lambda \in L}$ là một cơ sở của E; trang bị cho L một thứ tự toàn phần, như đã thấy (§ 7, no. 8, Định lý 1) rằng các $e_J$, khi J chạy qua tập $\mathscr{F}(L)$ các tập con hữu hạn của L, tạo thành một cơ sở của $\Lambda(E)$; khi đó suy ra từ công thức (30) của no. 5 rằng các phần tử $\theta_{\wedge}(e_J^*)$ là, sai khác một dấu, các dạng tọa độ trên $\wedge(E)$ đối với cơ sở $(e_J)$; do đó có mệnh đề của ta.
 
 Vì thế trực giao của N gồm các $x^* \in E^*$ sao cho $x^* \perp z = 0$ và kết luận của (i) do đó sẽ suy ra từ (ii).
 

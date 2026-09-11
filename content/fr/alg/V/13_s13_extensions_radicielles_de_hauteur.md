@@ -25,7 +25,7 @@ subsections:
       pdf_page: 203
 statements: 22
 exercises: 6
-content_sha256: 6316f010144f544cbd464dc697739758c97518d59738e53e3a3e3a059078ac56
+content_sha256: 329bde6223f048fad085e0ed26dc91ce01d4f8a4c562dfe55fb41913ec26b775
 ---
 
 ## § 13. EXTENSIONS RADICIELLES DE HAUTEUR $\leqslant 1$
@@ -229,11 +229,11 @@ $$
 
 En particulier, l’application $(D, D') \mapsto [D, D']$ de $g \times g$ dans $g$ est $E^p$-linéaire.
 
-On note $\mathcal{C}$ l’ensemble des sous-corps $K$ de $E$ tels que $E^p \subset K$ et que $[E : K]$ soit fini ; pour tout $K \in \mathcal{C}$, on note $g(K)$ l’ensemble des $K$-dérivations de $E$. Par ailleurs, on note $\mathcal{L}$ l’ensemble des sous-espaces vectoriels $h$ de $g$, de dimension finie sur $E$, et tels que l’on ait $[D, D'] \in h$ et $D^p \in h$ quels que soient $D$ et $D'$ dans $h$; pour tout $h \in \mathcal{L}$, on note $I(h)$ l’ensemble des $x \in E$ tels que $D(x) = 0$ pour tout $D \in h$.
+On note $\mathscr{C}$ l’ensemble des sous-corps $K$ de $E$ tels que $E^p \subset K$ et que $[E : K]$ soit fini ; pour tout $K \in \mathscr{C}$, on note $g(K)$ l’ensemble des $K$-dérivations de $E$. Par ailleurs, on note $\mathscr{L}$ l’ensemble des sous-espaces vectoriels $h$ de $g$, de dimension finie sur $E$, et tels que l’on ait $[D, D'] \in h$ et $D^p \in h$ quels que soient $D$ et $D'$ dans $h$; pour tout $h \in \mathscr{L}$, on note $I(h)$ l’ensemble des $x \in E$ tels que $D(x) = 0$ pour tout $D \in h$.
 
 #### Théorème 3 (Jacobson) {#alg-v-s13-thm-3 .statement}
 
-Les applications $K \mapsto g(K)$ et $h \mapsto I(h)$ sont des bijections de $\mathcal{C}$ sur $\mathcal{L}$ et $\mathcal{L}$ sur $\mathcal{C}$ respectivement, réciproques l’une de l’autre. Si $K \in \mathcal{C}$ et $h \in \mathcal{L}$ se correspondent, on a $[E : K] = p^{[h : E]}$.
+Les applications $K \mapsto g(K)$ et $h \mapsto I(h)$ sont des bijections de $\mathscr{C}$ sur $\mathscr{L}$ et $\mathscr{L}$ sur $\mathscr{C}$ respectivement, réciproques l’une de l’autre. Si $K \in \mathscr{C}$ et $h \in \mathscr{L}$ se correspondent, on a $[E : K] = p^{[h : E]}$.
 
 La démonstration utilise plusieurs lemmes préliminaires.
 
@@ -265,7 +265,7 @@ d’où $xu \in K_{i+1}$. Comme $x$ est non nul, la multiplication par $x$ est u
 
 #### Lemme 3 {#alg-v-s13-lem-3 .statement}
 
-Soit $h \in \mathcal{L}$, de dimension $s$ sur $E$. Alors $I(h)$ appartient à $\mathcal{C}$ et l’on a $[E : I(h)] = p^s$.
+Soit $h \in \mathscr{L}$, de dimension $s$ sur $E$. Alors $I(h)$ appartient à $\mathscr{C}$ et l’on a $[E : I(h)] = p^s$.
 
 Il est clair que $I(h)$ est un sous-corps de $E$ contenant $E^p$. Pour tout $x \in E$, soit $f_x$ la forme $E$-linéaire $D \mapsto D(x)$ sur $h$. Comme l’intersection des noyaux de ces formes linéaires est réduite à 0, elles engendrent l’espace vectoriel dual de $h$ (II, p. 104, th. 7); par suite, il existe $x_1, \ldots, x_s$ dans $E$ tels que les formes linéaires $f_{x_1}, \ldots, f_{x_s}$ forment une base de ce dual. Soit $(\Delta_1, \ldots, \Delta_s)$ la base de $h$ caractérisée par
 

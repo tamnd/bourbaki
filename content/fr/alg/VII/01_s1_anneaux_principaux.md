@@ -32,7 +32,7 @@ subsections:
       pdf_page: 338
 statements: 15
 exercises: 28
-content_sha256: 9dc599f9b4c10081b93a10c9bf65a28d23367b7369c57f86f2d79b8655b439f0
+content_sha256: 53c4ffd11123f80905f3154656c4bf60087bc05a670533b86885dee5fc68c2c7
 ---
 
 ## § 1. ANNEAUX PRINCIPAUX
@@ -55,7 +55,7 @@ L’anneau $K[X, Y]$ des polynômes à deux indéterminées sur un corps $K$ n�
 
 ### 2. Divisibilité dans les anneaux principaux
 
-Soient $A$ un anneau principal, et $K$ son corps des fractions (I, p. 110); nous allons voir que le groupe ordonné $\mathcal{P}^*$ des idéaux principaux fractionnaires (VI, p. 6) de $K$ est réticulé ; de façon plus précise :
+Soient $A$ un anneau principal, et $K$ son corps des fractions (I, p. 110); nous allons voir que le groupe ordonné $\mathscr{P}^*$ des idéaux principaux fractionnaires (VI, p. 6) de $K$ est réticulé ; de façon plus précise :
 
 #### Proposition 1 {#alg-vii-s1-prop-1 .statement}
 
@@ -79,7 +79,7 @@ En effet $d$ est un diviseur commun des $x_i$ dans $B$. D’autre part la relati
 
 Un cas important d’application de ce corollaire est celui où $A = K[X]$, $B = E[X]$, $K$ étant un corps et $E$ une extension de $K$ (IV, p. 12, cor. 1).
 
-La première assertion de la prop. 1 montre que le groupe ordonné $\mathcal{P}^*$ est réticulé (VI, p. 10). En particulier toute famille finie d’éléments de $K$ admet un ppcm. Nous pouvons donc appliquer à un anneau principal les résultats notés (DIV) de VI, p. 10 à 17.
+La première assertion de la prop. 1 montre que le groupe ordonné $\mathscr{P}^*$ est réticulé (VI, p. 10). En particulier toute famille finie d’éléments de $K$ admet un ppcm. Nous pouvons donc appliquer à un anneau principal les résultats notés (DIV) de VI, p. 10 à 17.
 
 Comme conséquence de la seconde assertion de la prop. 1, on a le résultat suivant :
 
@@ -132,7 +132,7 @@ $$
 
 où u est un élément inversible de A, et où les $n_\alpha$ sont des entiers rationnels nuls sauf un nombre fini d’entre eux. Pour que x appartienne à A, il faut et il suffit que tous les $n_\alpha$ soient positifs.
 
-Nous allons utiliser le théorème de décomposition en somme d’éléments extrémaux (VI, p. 17, th. 2), dont l’énoncé ci-dessus n’est qu’une traduction. Comme $\mathcal{P}^*$ est un groupe réticulé, il nous suffira, pour constater que nous sommes bien dans les conditions d’application de ce théorème, de montrer que tout ensemble non vide d’idéaux principaux de A contient un élément maximal ; or c’est ce qui résulte du lemme suivant :
+Nous allons utiliser le théorème de décomposition en somme d’éléments extrémaux (VI, p. 17, th. 2), dont l’énoncé ci-dessus n’est qu’une traduction. Comme $\mathscr{P}^*$ est un groupe réticulé, il nous suffira, pour constater que nous sommes bien dans les conditions d’application de ce théorème, de montrer que tout ensemble non vide d’idéaux principaux de A contient un élément maximal ; or c’est ce qui résulte du lemme suivant :
 
 #### Lemme 1 {#alg-vii-s1-lem-1 .statement}
 
@@ -160,7 +160,7 @@ La propriété exprimée par le th. 2 est vraie pour des anneaux plus généraux
 
 ### 4. Divisibilité des entiers rationnels
 
-Comme il a été dit au n° 1, l’anneau $\mathbf{Z}$ des entiers rationnels est un anneau principal ; son corps des fractions est $\mathbf{Q}$. Le groupe multiplicatif U des éléments inversibles de $\mathbf{Z}$ a deux éléments 1 et $-1$. Le groupe $\mathbf{Q}_+^*$ des nombres rationnels $> 0$ contient un élément et un seul de chaque classe d’éléments associés de $\mathbf{Q}$ ; il est donc isomorphe au groupe multiplicatif $\mathcal{P}^* = \mathbf{Q}_+^*/U$ des idéaux principaux fractionnaires de $\mathbf{Q}$, auquel on l’identifiera le plus souvent. En particulier, chaque fois qu’il sera question de pgcd ou de ppcm dans le corps $\mathbf{Q}$ (relativement à l’anneau $\mathbf{Z}$), il sera sous-entendu que ce sont des éléments $\geqslant 0$; grâce à cette convention on pourra parler sans ambiguïté *du* pgcd et *du* ppcm d’une famille de nombres rationnels.
+Comme il a été dit au n° 1, l’anneau $\mathbf{Z}$ des entiers rationnels est un anneau principal ; son corps des fractions est $\mathbf{Q}$. Le groupe multiplicatif U des éléments inversibles de $\mathbf{Z}$ a deux éléments 1 et $-1$. Le groupe $\mathbf{Q}_+^*$ des nombres rationnels $> 0$ contient un élément et un seul de chaque classe d’éléments associés de $\mathbf{Q}$ ; il est donc isomorphe au groupe multiplicatif $\mathscr{P}^* = \mathbf{Q}_+^*/U$ des idéaux principaux fractionnaires de $\mathbf{Q}$, auquel on l’identifiera le plus souvent. En particulier, chaque fois qu’il sera question de pgcd ou de ppcm dans le corps $\mathbf{Q}$ (relativement à l’anneau $\mathbf{Z}$), il sera sous-entendu que ce sont des éléments $\geqslant 0$; grâce à cette convention on pourra parler sans ambiguïté *du* pgcd et *du* ppcm d’une famille de nombres rationnels.
 
 Les entiers extrémaux $> 0$ de $\mathbf{Z}$ ne sont autres que ceux que nous avons appelés *nombres premiers* (I, p. 48) (on les appelle parfois *nombres premiers rationnels*) ; tout élément extrémal de $\mathbf{Z}$ est donc de la forme $p$ ou $-p$, où $p$ est un nombre premier, et l’ensemble $P$ des nombres premiers est un système représentatif d’éléments extrémaux de $\mathbf{Z}$.
 
@@ -175,7 +175,7 @@ En effet, étant donnée une famille finie quelconque $(p_i)$ ($1 \leqslant i \l
 L’anneau $K[X]$ des polynômes à une indéterminée sur un corps commutatif $K$ est un anneau principal (IV, p. 11, prop. 11). Son corps des fractions est le corps $K(X)$ des fractions rationnelles en $X$ à coefficients dans $K$. L’anneau $K[X]$ contient le sous-anneau des polynômes de degré 0, c’est-à-dire le corps des constantes, qu’on identifie à $K$ ; les éléments de $K^*$ sont inversibles dans $K$, donc dans $K[X]$ ; et réciproquement la formule $\deg(uv) = \deg(u) + \deg(v)$ montre que tout polynôme inversible de $K[X]$ est de degré 0 ; le groupe $U$ des éléments inversibles de $K[X]$ est donc identique à $K^*$. Ainsi deux polynômes associés ne diffèrent que par un facteur constant non nul ; en particulier toute classe de polynômes associés contient un polynôme *unitaire* et un seul. Le sous-groupe du groupe multiplicatif $K(X)^*$ engendré par les polynômes unitaires contient donc un élément et un seul de chaque classe de fractions rationnelles associées, et est par conséquent isomorphe au groupe
 
 $$
-\mathcal{P}^* = K(X)^*/U
+\mathscr{P}^* = K(X)^*/U
 $$
 
 des idéaux principaux fractionnaires de $K(X)$. En particulier, chaque fois qu’il sera question de pgcd ou de ppcm dans le corps $K(X)$ (relativement à l’anneau $K[X]$), il sera le plus souvent sous-entendu que ce sont des quotients de polynômes unitaires (ou 0) ; grâce à cette convention on pourra parler *du* pgcd et *du* ppcm d’une famille de fractions rationnelles.

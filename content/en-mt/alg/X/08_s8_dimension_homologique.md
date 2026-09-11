@@ -41,11 +41,11 @@ subsections:
       pdf_page: 149
 statements: 34
 exercises: 22
-content_sha256: a43e5824a369fc7cb54f0cf634d6c6c6ca549a1893ead639ca49ac83f5b3a298
+content_sha256: cff3d624b87dbad11133d6413c517e8370cd94f98df610a49fa7dc951b4244d8
 translated_from: content/fr/alg/X/08_s8_dimension_homologique.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 01423d7f9d05c6000bce1884bf08ce49ac1e4be4045d9ae6bb8edef4dbad7463
+source_content_sha256: 6b6ef7217185b84aafaf4ab67bc95ef54fd023c3c53ad5941fa9ffc7a938ed05
 translation_model: laguna-s-2.1-free, hy3-free
 translation_run: translate-en-mt-e117ae35
 glossary_version: 34
@@ -202,9 +202,9 @@ By (v) and X, p. 131, cor. 3, we have $\operatorname{Tor}^A_1(A/a,K)=0$ for ever
 
 #### Corollary {#alg-x-s8-n1-cor-1 .statement}
 
-Suppose $A$ left noetherian and let $\mathcal{C}_0$ (resp. $\mathcal{C}$) be the set of classes of $A$-modules projective of finite type (resp. of $A$-modules of finite projective dimension and of finite type). Then the homomorphism of Grothendieck groups $K(\mathcal{C}_0) \to K(\mathcal{C})$ is bijective.
+Suppose $A$ left noetherian and let $\mathscr{C}_0$ (resp. $\mathscr{C}$) be the set of classes of $A$-modules projective of finite type (resp. of $A$-modules of finite projective dimension and of finite type). Then the homomorphism of Grothendieck groups $K(\mathscr{C}_0) \to K(\mathscr{C})$ is bijective.
 
-This follows from X, p. 58, th. 1 (note that $\mathcal{C}_0$ and $\mathcal{C}$ are left exact by cor. 2).
+This follows from X, p. 58, th. 1 (note that $\mathscr{C}_0$ and $\mathscr{C}$ are left exact by cor. 2).
 
 ### 2. The homomorphism $\operatorname{Tor}_n^A(P, M) \to \operatorname{Hom}_A(\operatorname{Ext}_A^n(M, A), P)$
 
@@ -366,7 +366,7 @@ By the equivalence of (i) and (iii), we have $\mathrm{dh}(A) = \mathrm{dh}(A^\ci
 
 #### Proposition 5 {#alg-x-s8-prop-5 .statement}
 
-Suppose $A$ is left noetherian and of finite homological dimension and let $\mathcal{C}_0$ (resp. $\mathcal{C}$) be the set of equivalence classes of finitely generated projective a-modules (resp. of a-modules). Then the canonical homomorphism of Grothendieck groups $K(\mathcal{C}_0) \to K(\mathcal{C})$ is bijective.
+Suppose $A$ is left noetherian and of finite homological dimension and let $\mathscr{C}_0$ (resp. $\mathscr{C}$) be the set of equivalence classes of finitely generated projective a-modules (resp. of a-modules). Then the canonical homomorphism of Grothendieck groups $K(\mathscr{C}_0) \to K(\mathscr{C})$ is bijective.
 
 This follows from X, p. 137, Cor.
 

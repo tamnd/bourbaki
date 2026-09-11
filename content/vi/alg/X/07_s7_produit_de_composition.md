@@ -49,11 +49,11 @@ subsections:
       pdf_page: 138
 statements: 34
 exercises: 11
-content_sha256: 151cda4ba862bc19d5e09b31b5f8cb48cf94885eb53f4d621cea936e2a8fded2
+content_sha256: 10eb4072b77634cf491b13fadef29738398fea08d9c7bda9c67cc92fb1c440d0
 translated_from: content/en-mt/alg/X/07_s7_produit_de_composition.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 508554e7b85d1e30ccb16b00a5b7ebd7eb2a64c9b343442451ab43a998a070fa
+source_content_sha256: 54416da4450aedf0d055abbb198abf4094049266e29324c7d4875ba55d0197ad
 translation_model: gpt-5.4
 translation_run: translate-vi-d15958aa
 glossary_version: 34
@@ -689,11 +689,11 @@ và trong đó $R''_1=R_1\times_M R'_1$.
 
 Cho
 
-$$(\mathcal{E})\qquad 0\longrightarrow M'\xrightarrow{\,f\,}M\xrightarrow{\,g\,}M''\longrightarrow0$$
+$$(\mathscr{E})\qquad 0\longrightarrow M'\xrightarrow{\,f\,}M\xrightarrow{\,g\,}M''\longrightarrow0$$
 
 là một dãy khớp của các môđun trái trên $A$, $\theta\in\operatorname{Ext}^1_A(M'',M')$ là lớp liên kết, $N$ là một môđun trái trên $A$, $n$ là một số nguyên.
 
-a) Đồng cấu nối kết $\delta^n(N,\mathcal{E}):\operatorname{Ext}^n_A(N,M'')\longrightarrow\operatorname{Ext}^{n+1}_A(N,M')$ là tích hợp thành $\alpha\mapsto\theta\circ\alpha$ với $\theta$.
+a) Đồng cấu nối kết $\delta^n(N,\mathscr{E}):\operatorname{Ext}^n_A(N,M'')\longrightarrow\operatorname{Ext}^{n+1}_A(N,M')$ là tích hợp thành $\alpha\mapsto\theta\circ\alpha$ với $\theta$.
 
 #### Hệ quả 1 {#alg-x-s7-prop-5-cor-1 .statement}
 
@@ -735,7 +735,7 @@ $$
 Xét một dãy khớp ngắn của các môđun trái trên A
 
 $$
-(\mathcal{S}) \qquad 0 \to N \to R_n \xrightarrow{f_n} R_{n-1} \xrightarrow{f_{n-1}} \cdots \to R_1 \xrightarrow{f_1} M \to 0
+(\mathscr{S}) \qquad 0 \to N \to R_n \xrightarrow{f_n} R_{n-1} \xrightarrow{f_{n-1}} \cdots \to R_1 \xrightarrow{f_1} M \to 0
 $$
 
 và đặt $K_0=M$, $K_i=\operatorname{Ker}f_i$, $i=1,\ldots,n-1$, $K_n=N$. Khi đó ta có các dãy khớp
@@ -754,33 +754,33 @@ $$
 \operatorname{Ext}_A^m(K_i,P)\to\operatorname{Ext}_A^{m+1}(K_{i-1},P),
 $$
 
-do đó, bằng hợp thành của các *đồng cấu nối kết lặp*, liên kết với $(\mathcal{S})$
+do đó, bằng hợp thành của các *đồng cấu nối kết lặp*, liên kết với $(\mathscr{S})$
 
 $$
-\delta^m(P,\mathcal{S}):\operatorname{Ext}_A^m(P,M)\to\operatorname{Ext}_A^{m+n}(P,N)
+\delta^m(P,\mathscr{S}):\operatorname{Ext}_A^m(P,M)\to\operatorname{Ext}_A^{m+n}(P,N)
 $$
 
 $$
-\delta^m(\mathcal{S},P):\operatorname{Ext}_A^m(N,P)\to\operatorname{Ext}_A^{m+n}(M,P).
+\delta^m(\mathscr{S},P):\operatorname{Ext}_A^m(N,P)\to\operatorname{Ext}_A^{m+n}(M,P).
 $$
 
 #### Hệ quả 3 {#alg-x-s7-prop-5-cor-3 .statement}
 
-Nếu $\theta\in\operatorname{Ext}_A^n(M,N)$ là lớp của dãy khớp $(\mathcal{S})$, ta có
+Nếu $\theta\in\operatorname{Ext}_A^n(M,N)$ là lớp của dãy khớp $(\mathscr{S})$, ta có
 
 $$
-\delta^m(P,\mathcal{S})(\alpha)=\theta\circ\alpha,\qquad
-\delta^m(\mathcal{S},P)(\beta)=(-1)^{mn+n(n+1)/2}\beta\circ\theta.
+\delta^m(P,\mathscr{S})(\alpha)=\theta\circ\alpha,\qquad
+\delta^m(\mathscr{S},P)(\beta)=(-1)^{mn+n(n+1)/2}\beta\circ\theta.
 $$
 
 Nếu $\theta_i\in\operatorname{Ext}_A^1(K_{i-1},K_i)$ là lớp liên kết với dãy khớp (9), thì theo Mệnh đề 5 ta có
 
 $$
-\delta^m(P,\mathcal{S})(\alpha)=\theta_n\circ\cdots\circ\theta_2\circ\theta_1\circ\alpha
+\delta^m(P,\mathscr{S})(\alpha)=\theta_n\circ\cdots\circ\theta_2\circ\theta_1\circ\alpha
 $$
 
 $$
-\delta^m(\mathcal{S},P)(\beta)=(-1)^{(m+1)+\cdots+(m+n)}\beta\circ\theta_n\circ\cdots\circ\theta_1.
+\delta^m(\mathscr{S},P)(\beta)=(-1)^{(m+1)+\cdots+(m+n)}\beta\circ\theta_n\circ\cdots\circ\theta_1.
 $$
 
 Hơn nữa, theo Mệnh đề 3 (X, p. 118), ta có $\theta=\theta_n\circ\cdots\circ\theta_1$. Hệ quả suy ra ngay lập tức từ điều này, và từ quan hệ (E, III, p. 44)
@@ -907,7 +907,7 @@ $$
 $$
 là một dãy khớp của các $A$-môđun phải, $\theta \in \mathrm{Ext}_A^1(P'', P')$ là lớp liên kết, $M$ là một $A$-môđun trái. Đồng cấu nối
 $$
-\delta_n(\mathcal{E}, M) : \mathrm{Tor}_n^A(P'', M) \to \mathrm{Tor}_{n-1}^A(P', M) \text{ là ánh xạ } \gamma \mapsto \theta \circ \gamma .
+\delta_n(\mathscr{E}, M) : \mathrm{Tor}_n^A(P'', M) \to \mathrm{Tor}_{n-1}^A(P', M) \text{ là ánh xạ } \gamma \mapsto \theta \circ \gamma .
 $$
 
 b) Let
@@ -918,7 +918,7 @@ $$
 $$
 là một dãy khớp của các $A$-môđun trái, $\theta_1 \in \mathrm{Ext}_A^1(M'', M')$ lớp liên kết, $P$ một $A$-môđun phải. Đồng cấu nối
 $$
-\delta_n(P, \mathcal{E}_1) : \mathrm{Tor}_n^A(P, M'') \to \mathrm{Tor}_{n-1}^A(P, M') \text{ là ánh xạ } \gamma \mapsto \theta_1 \circ \gamma .
+\delta_n(P, \mathscr{E}_1) : \mathrm{Tor}_n^A(P, M'') \to \mathrm{Tor}_{n-1}^A(P, M') \text{ là ánh xạ } \gamma \mapsto \theta_1 \circ \gamma .
 $$
 Cho $\gamma \in \mathrm{Tor}_n^A(P'', M)$ là lớp của một chu trình $z'' \in \dot{Z}_n(L(P'') \otimes_A L(M))$, và
 $$
@@ -970,19 +970,19 @@ $$
 
 Thật vậy, nếu $\theta$ và $\theta_1$ là các lớp liên kết với các dãy khớp đã cho, và nếu $\gamma \in \mathrm{Tor}_n^A(P'', M'')$, thì các ảnh của $\gamma$ lần lượt là $\theta \circ (\theta_1 \circ \gamma)$ và $\theta_1 \circ (\theta \circ \gamma)$, do đó đối nhau theo mệnh đề 6.
 
-Ta nhắc lại các ký hiệu của X, p. 127 và xét dãy $(\mathcal{S})$ các $A$-môđun trái cùng các đồng cấu nối liên kết với các dãy khớp (9)
+Ta nhắc lại các ký hiệu của X, p. 127 và xét dãy $(\mathscr{S})$ các $A$-môđun trái cùng các đồng cấu nối liên kết với các dãy khớp (9)
 $$
 \mathrm{Tor}_m^A(P, K_{i-1}) \to \mathrm{Tor}_{m-1}^A(P, K_i);
 $$
 ta suy ra từ đó, bằng hợp thành của các *đồng cấu nối lặp*
 $$
-\hat{\partial}_m(P, \mathcal{S}) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A(P, N).
+\hat{\partial}_m(P, \mathscr{S}) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A(P, N).
 $$
 Khi đó theo mệnh đề 7 và mệnh đề 3 của X, p. 118 :
 
 #### Hệ quả 2 {#alg-x-s7-prop-7-cor-2 .statement}
 
-Nếu $\theta \in \mathrm{Ext}_A^n(M, N)$ là lớp liên kết với dãy khớp $(\mathcal{S})$, ta có $\hat{\partial}_m(P, \mathcal{S})(\alpha) = \theta \circ \alpha$ với mọi $\alpha \in \mathrm{Tor}_m^A(P, M)$.
+Nếu $\theta \in \mathrm{Ext}_A^n(M, N)$ là lớp liên kết với dãy khớp $(\mathscr{S})$, ta có $\hat{\partial}_m(P, \mathscr{S})(\alpha) = \theta \circ \alpha$ với mọi $\alpha \in \mathrm{Tor}_m^A(P, M)$.
 
 #### Hệ quả 3 {#alg-x-s7-prop-7-cor-3 .statement}
 
@@ -998,18 +998,18 @@ trong đó các hạng ở hai đầu bằng không theo giả thiết.
 
 Tương tự, nếu
 
-$$(\mathcal{S}_1)$$
+$$(\mathscr{S}_1)$$
 $$0 \to Q \to S_n \to S_{n-1} \to \ldots \to S_1 \to P \to 0$$
 
 là một dãy khớp các A-môđun phải, và $M$ là một A-môđun trái, ta định nghĩa các *đồng cấu nối lặp*
 
-$$\partial^m(\mathcal{S}_1, M) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A(Q, M)$$
+$$\partial^m(\mathscr{S}_1, M) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A(Q, M)$$
 
 và ta có:
 
 #### Hệ quả 4 {#alg-x-s7-prop-7-cor-4 .statement}
 
-Nếu $\theta_1 \in \mathrm{Ext}_A^n(P, Q)$ là lớp liên kết với dãy khớp $(\mathcal{S}_1)$, thì ta có $\partial^m(\mathcal{S}_1, M)(\alpha) = \theta_1 \circ \alpha$ với mọi $\alpha \in \mathrm{Tor}_m^A(P, M)$.
+Nếu $\theta_1 \in \mathrm{Ext}_A^n(P, Q)$ là lớp liên kết với dãy khớp $(\mathscr{S}_1)$, thì ta có $\partial^m(\mathscr{S}_1, M)(\alpha) = \theta_1 \circ \alpha$ với mọi $\alpha \in \mathrm{Tor}_m^A(P, M)$.
 
 ### 9. Tính các tích hợp thành bằng cách dịch chuyển các phân giải
 

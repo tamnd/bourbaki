@@ -33,9 +33,9 @@ subsections:
       pdf_page: 364
 statements: 15
 exercises: 15
-content_sha256: 1b4b114726c46a580420574d39cff78887cdb6e9fd5d646dad275452a0315447
+content_sha256: 095e44e34fb22ece4f9e814f5da8857e912fda66280947a02d51e87a06e3f5f0
 translated_from: content/en/alg/VII/01_s1_principal_ideal_domains.md
-source_content_sha256: d2178e31c081e0480a4d4b238d5f836620d03ea14b805f7aa3091d47b48f145d
+source_content_sha256: 0050bfc3f4dbfbdb2e52eb4c6a6132f3b0e2feca0cb54735e5fef0922a664345
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-a52a80a1
 glossary_version: 34
@@ -63,7 +63,7 @@ Vành đa thức $K[X, Y]$ theo hai bất định trên một trường $K$ khô
 
 ### 2. Tính chia hết trong các miền iđêan chính
 
-Cho $A$ là một miền iđêan chính và cho $K$ là trường các phân thức của nó (I, p. 116); ta sẽ thấy rằng nhóm có thứ tự $\mathcal{P}^*$ của các iđêan phân thức chính (*VI*, p. 6) của $K$ là có thứ tự dàn; chính xác hơn:
+Cho $A$ là một miền iđêan chính và cho $K$ là trường các phân thức của nó (I, p. 116); ta sẽ thấy rằng nhóm có thứ tự $\mathscr{P}^*$ của các iđêan phân thức chính (*VI*, p. 6) của $K$ là có thứ tự dàn; chính xác hơn:
 
 #### Mệnh đề 1 {#alg-vii-s1-prop-1 .statement}
 
@@ -86,7 +86,7 @@ Thật vậy $d$ là một ước chung của các $x_i$ trong $B$. Mặt khác 
 
 Một áp dụng quan trọng của hệ quả này là khi $A = K[X]$ và $B = E[X]$, trong đó $K$ là một trường và $E$ là một mở rộng của $K$ (IV, p. 12, Hệ quả 1).
 
-Mệnh đề đầu tiên của Mệnh đề 1 cho thấy rằng nhóm có thứ tự $\mathcal{P}^*$ là có thứ tự dàn ($VI,$ p. 10). Đặc biệt mọi họ hữu hạn các phần tử của $K$ đều có bội chung nhỏ nhất. Do đó ta có thể áp dụng các kết quả được ký hiệu (DIV) trong $VI$, pp. 10 đến 17 cho các miền iđêan chính.
+Mệnh đề đầu tiên của Mệnh đề 1 cho thấy rằng nhóm có thứ tự $\mathscr{P}^*$ là có thứ tự dàn ($VI,$ p. 10). Đặc biệt mọi họ hữu hạn các phần tử của $K$ đều có bội chung nhỏ nhất. Do đó ta có thể áp dụng các kết quả được ký hiệu (DIV) trong $VI$, pp. 10 đến 17 cho các miền iđêan chính.
 
 Kết quả sau đây là một hệ quả của mệnh đề thứ hai của Mệnh đề I :
 
@@ -139,7 +139,7 @@ $$
 
 trong đó $u$ là một phần tử khả nghịch của $\mathbf{A}$, và trong đó các $n_{\alpha}$ là các số nguyên, tất cả trừ một số hữu hạn trong chúng đều bằng không. Để $x$ thuộc $\mathbf{A}$ thì điều kiện cần và đủ là tất cả các $n_{\alpha}$ đều dương.
 
-Ta sẽ sử dụng định lý về phân tích thành một tổng các phần tử bất khả quy (VI, p. 18, Định lý 2), mà mệnh đề trên chỉ là một cách phát biểu lại. Vì $\mathcal{P}^*$ là một nhóm có thứ tự dàn nên đối với chúng ta chỉ cần chứng minh rằng mọi tập hợp khác rỗng các iđêan chính của $\mathbf{A}$ đều chứa một phần tử cực đại, để kiểm tra rằng các giả thiết của định lý này thực sự được thỏa mãn; giờ đây điều này suy ra từ Bổ đề sau:
+Ta sẽ sử dụng định lý về phân tích thành một tổng các phần tử bất khả quy (VI, p. 18, Định lý 2), mà mệnh đề trên chỉ là một cách phát biểu lại. Vì $\mathscr{P}^*$ là một nhóm có thứ tự dàn nên đối với chúng ta chỉ cần chứng minh rằng mọi tập hợp khác rỗng các iđêan chính của $\mathbf{A}$ đều chứa một phần tử cực đại, để kiểm tra rằng các giả thiết của định lý này thực sự được thỏa mãn; giờ đây điều này suy ra từ Bổ đề sau:
 
 #### Bổ đề 1 {#alg-vii-s1-lem-1 .statement}
 
@@ -164,7 +164,7 @@ Tính chất được biểu thị bởi Đl. 2 là đúng cho một lớp các 
 
 ### 4. Tính chia hết của các số nguyên hữu tỉ
 
-Như đã được chỉ ra trong tiết 1, vành $\mathbf{Z}$ các số nguyên hữu tỉ là một miền iđêan chính; trường các phân thức của nó là $\mathbf{Q}$. Nhóm nhân $U$ các phần tử khả nghịch của $\mathbf{Z}$ có hai phần tử 1 và $-1$. Nhóm $Q_+^*$ các số hữu tỉ $> 0$ chứa chính xác một phần tử từ mỗi lớp các phần tử liên kết của $\mathbf{Q}$; do đó nó đẳng cấu với nhóm nhân $\mathcal{P}^* = Q^*/U$ các iđêan phân thức chính của $\mathbf{Q}$, mà với nhóm này nó thường được đồng nhất. Đặc biệt, bất cứ khi nào sử dụng ước chung lớn nhất hoặc bội chung nhỏ nhất trong trường $\mathbf{Q}$ (đối với vành $\mathbf{Z}$), ta hiểu rằng đây là các phần tử $\geqslant 0$; quy ước này cho phép ta nói về ước chung lớn nhất và bội chung nhỏ nhất của một họ các số hữu tỉ.
+Như đã được chỉ ra trong tiết 1, vành $\mathbf{Z}$ các số nguyên hữu tỉ là một miền iđêan chính; trường các phân thức của nó là $\mathbf{Q}$. Nhóm nhân $U$ các phần tử khả nghịch của $\mathbf{Z}$ có hai phần tử 1 và $-1$. Nhóm $Q_+^*$ các số hữu tỉ $> 0$ chứa chính xác một phần tử từ mỗi lớp các phần tử liên kết của $\mathbf{Q}$; do đó nó đẳng cấu với nhóm nhân $\mathscr{P}^* = Q^*/U$ các iđêan phân thức chính của $\mathbf{Q}$, mà với nhóm này nó thường được đồng nhất. Đặc biệt, bất cứ khi nào sử dụng ước chung lớn nhất hoặc bội chung nhỏ nhất trong trường $\mathbf{Q}$ (đối với vành $\mathbf{Z}$), ta hiểu rằng đây là các phần tử $\geqslant 0$; quy ước này cho phép ta nói về ước chung lớn nhất và bội chung nhỏ nhất của một họ các số hữu tỉ.
 
 Các số nguyên bất khả quy $> 0$ trong $\mathbf{Z}$ chính là những số mà ta đã gọi là các số nguyên tố (I, p. 50) (đôi khi được gọi là các số nguyên tố hữu tỉ); mọi phần tử bất khả quy của $\mathbf{Z}$ do đó có dạng $p$ hoặc $-p$, trong đó $p$ là một số nguyên tố, và tập hợp $P$ các số nguyên tố là một hệ các đại diện của các phần tử bất khả quy của $\mathbf{Z}$.
 
@@ -179,7 +179,7 @@ Thật vậy, cho một họ hữu hạn tùy ý $(p_i)$ ($1 \leq i \leq n$) cá
 Vành đa thức $K[X]$ theo một bất định trên một trường giao hoán $K$ là một miền iđêan chính (IV, p. 11, Mệnh đề 11). Trường phân thức của nó là trường $K(X)$ các hàm hữu tỉ theo $X$ với các hệ số trong $K$. Vành $K[X]$ chứa vành con các đa thức có bậc 0, nghĩa là trường các hằng, được đồng nhất với $K$; các phần tử của $K^*$ là khả nghịch trong $K$, và do đó trong $K[X]$; đảo lại công thức $\deg(uv) = \deg(u) + \deg(v)$ chỉ ra rằng mọi đa thức khả nghịch đều có bậc 0; nhóm $U$ các phần tử khả nghịch của $K[X]$ do đó chính xác là $K^*$. Do đó hai đa thức liên kết chỉ khác nhau bởi một nhân tử hằng khác không; đặc biệt mọi lớp các đa thức liên kết chứa một đa thức đơn khởi duy nhất. Nhóm con của nhóm nhân $K(X)^*$ được sinh bởi các đa thức đơn khởi do đó chứa một phần tử duy nhất từ mỗi lớp các hàm hữu tỉ liên kết, và do đó đẳng cấu với nhóm
 
 $$
-\mathcal{P}^* = K(X)^*/U
+\mathscr{P}^* = K(X)^*/U
 $$
 
 của các iđêan phân thức chính của $K(X)$. Đặc biệt, bất cứ khi nào ước chung lớn nhất hoặc bội chung nhỏ nhất trong trường $K(X)$ (đối với vành $K[X]$) được đề cập, thông thường ta hiểu rằng đó là các thương của các đa thức đơn khởi (hoặc 0); quy ước này cho phép ta nói về ước chung lớn nhất hoặc bội chung nhỏ nhất của một họ các hàm hữu tỉ.

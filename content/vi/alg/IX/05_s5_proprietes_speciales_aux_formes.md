@@ -24,11 +24,11 @@ subsections:
       pdf_page: 82
 statements: 11
 exercises: 0
-content_sha256: bbf73dc3e18be88e948aa2a70bf4e4f40cad9b9970be960671cee6177009390d
+content_sha256: fb07d76b1b814223364adf50be80dd5834d90aeb1313cb628d8bdb93e9553baf
 translated_from: content/en-mt/alg/IX/05_s5_proprietes_speciales_aux_formes.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 37eab0972d32d48c50fe1f46c6408db705441dc829547205d88946bff9026a86
+source_content_sha256: a5c08d974febfb84fe7fff65885b39088b3c837f8bfdb463ef3a49387c8872c8
 translation_model: gpt-5.4
 translation_run: translate-vi-5eb1c5d9
 glossary_version: 34
@@ -122,18 +122,18 @@ Cho $A$ là một trường giao hoán có đặc số 0, và $R = (\alpha_{ij})
 $$
 \alpha_{h_1 k_1} \alpha_{h_2 k_2} \cdots \alpha_{h_m k_m} e_{h_1} \wedge e_{k_1} \wedge e_{h_2} \wedge e_{k_2} \wedge \ldots \wedge e_{h_m} \wedge e_{k_m}
 $$
-với $h_j < k_j$ đối với $j = 1, \ldots, m$. Một số hạng như thế bằng không nếu có hai $e_j$ bằng nhau xuất hiện trong nó, nghĩa là nếu tập hợp $\{ h_1, k_1, \ldots, h_m, k_m \}$ không đúng bằng $\{ 1, 2, \ldots, 2m \}$. Hơn nữa, nếu, trong (3), đồng thời đổi chỗ $e_{h_r}$ và $e_{h_{r+1}}$ một mặt, và $e_{k_r}$ và $e_{k_{r+1}}$ mặt khác, thì tích không thay đổi; do đó nó không thay đổi dưới bất kỳ phép hoán vị nào thực hiện trên các cặp $(h_1, k_1), \ldots, (h_m, k_m)$. Khi đó hãy xét các tập hợp (chứ không phải các dãy) $S = \{ (h_1, k_1), \ldots, (h_m, k_m) \}$ các cặp $(h_j, k_j)$ sao cho $1 \leq h_j < k_j \leq 2m$ đối với $j = 1, 2, \ldots, m$; gọi $\mathcal{S}$ là tập hợp của các cặp ấy. Với $S \in \mathcal{S}$, đặt
+với $h_j < k_j$ đối với $j = 1, \ldots, m$. Một số hạng như thế bằng không nếu có hai $e_j$ bằng nhau xuất hiện trong nó, nghĩa là nếu tập hợp $\{ h_1, k_1, \ldots, h_m, k_m \}$ không đúng bằng $\{ 1, 2, \ldots, 2m \}$. Hơn nữa, nếu, trong (3), đồng thời đổi chỗ $e_{h_r}$ và $e_{h_{r+1}}$ một mặt, và $e_{k_r}$ và $e_{k_{r+1}}$ mặt khác, thì tích không thay đổi; do đó nó không thay đổi dưới bất kỳ phép hoán vị nào thực hiện trên các cặp $(h_1, k_1), \ldots, (h_m, k_m)$. Khi đó hãy xét các tập hợp (chứ không phải các dãy) $S = \{ (h_1, k_1), \ldots, (h_m, k_m) \}$ các cặp $(h_j, k_j)$ sao cho $1 \leq h_j < k_j \leq 2m$ đối với $j = 1, 2, \ldots, m$; gọi $\mathscr{S}$ là tập hợp của các cặp ấy. Với $S \in \mathscr{S}$, đặt
 1°) $\varepsilon(S) = 0$ nếu $\{ h_1, k_1, \ldots, h_m, k_m \} \neq \{ 1, 2, \ldots, 2m \}$;
 2°) trong trường hợp ngược lại, $\varepsilon(S) = 1$ hoặc $\varepsilon(S) = -1$ tùy theo phép hoán vị biến $h_j$ thành $2j-1$ và $k_j$ thành $2j$ ($j = 1, \ldots, m$) là chẵn hay lẻ.
 
 Các nhận xét trên chứng minh rằng khi đó $\wedge^m u$ bằng
 $$
-m! \sum_{S \in \mathcal{S}} \varepsilon(S) (\prod_{(h, k) \in S} \alpha_{hk}) e.
+m! \sum_{S \in \mathscr{S}} \varepsilon(S) (\prod_{(h, k) \in S} \alpha_{hk}) e.
 $$
 
 Khi đó đưa vào $m(2m-1)$ bất định $X_{hk}$ được đánh chỉ số bởi các cặp $(h, k)$ sao cho $1 \leq h < k \leq 2m$, và gọi P là đa thức trên $\mathbf{Z}$ theo các $X_{hk}$, được xác định bởi
 $$
-P((X_{hk})) = \sum_{S \in \mathcal{S}} \varepsilon(S) (\prod_{(h, k) \in S} X_{hk}).
+P((X_{hk})) = \sum_{S \in \mathscr{S}} \varepsilon(S) (\prod_{(h, k) \in S} X_{hk}).
 $$
 
 Do đó ta có

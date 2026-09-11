@@ -49,7 +49,7 @@ subsections:
       pdf_page: 475
 statements: 30
 exercises: 15
-content_sha256: 50eb4d0f6b35bf47dec4073c1ae82fe5673ae979ce273833b17ead7fdc947f74
+content_sha256: d61f51f314120a8ecb61ca8624e76af2c6cfe6fdec09cff73c9a5ddcfef31069
 ---
 
 ## § 7. ALGÈBRE EXTÉRIEURE
@@ -234,7 +234,7 @@ $$
 (x_1, x_2, \ldots, x_n) \mapsto g(x_1 \wedge x_2 \wedge \cdots \wedge x_n)
 $$
 *on obtient une application A-linéaire bijective du A-module* $\operatorname{Hom}_A(\wedge^n(M), N)$ *sur le A-module des applications n-linéaires alternées de* $M^n$ *dans N*.
-Considérons en effet la bijection canonique de A-module $\operatorname{Hom}_A(T^n(M), N)$ sur le A-module $\mathcal{L}_n(M, \ldots, M; N)$ de *toutes* les applications *n*-linéaires de $M^n$ dans N, obtenu en associant à toute application A-linéaire $f : T^n(M) \to N$ l’application *n*-linéaire
+Considérons en effet la bijection canonique de A-module $\operatorname{Hom}_A(T^n(M), N)$ sur le A-module $\mathscr{L}_n(M, \ldots, M; N)$ de *toutes* les applications *n*-linéaires de $M^n$ dans N, obtenu en associant à toute application A-linéaire $f : T^n(M) \to N$ l’application *n*-linéaire
 $$
 \tilde{f} : (x_1, \ldots, x_n) \mapsto f(x_1 \otimes x_2 \otimes \cdots \otimes x_n)
 $$
@@ -385,7 +385,7 @@ $$
 
 est commutatif (cf. III, p. 43, corollaire).
 
-On peut décrire de façon plus précise le sous-A-module de $g \bigotimes_{\lambda \in L} \wedge (M_{\lambda})$ auquel $\wedge^n(M)$ s’identifie au moyen de l’isomorphisme $g$. Pour toute partie finie $J$ de $L$, posons $E_J = g \bigotimes_{\lambda \in J} \wedge (M_{\lambda})$, de sorte que $g \bigotimes_{\lambda \in L} \wedge (M_{\lambda}) = \varprojlim E_J$ suivant l’ensemble filtrant $\mathcal{F}(L)$ des parties finies de $L$, par définition (III, p. 53, Remarque). Pour toute famille $\nu = (n_{\lambda}) \in \mathbf{N}^{(L)}$ (ayant donc un support fini) telle que $\sum_{\lambda \in L} n_{\lambda} = n$, et toute partie finie $J$ de $L$ contenant le support de la famille $\nu$, posons
+On peut décrire de façon plus précise le sous-A-module de $g \bigotimes_{\lambda \in L} \wedge (M_{\lambda})$ auquel $\wedge^n(M)$ s’identifie au moyen de l’isomorphisme $g$. Pour toute partie finie $J$ de $L$, posons $E_J = g \bigotimes_{\lambda \in J} \wedge (M_{\lambda})$, de sorte que $g \bigotimes_{\lambda \in L} \wedge (M_{\lambda}) = \varprojlim E_J$ suivant l’ensemble filtrant $\mathscr{F}(L)$ des parties finies de $L$, par définition (III, p. 53, Remarque). Pour toute famille $\nu = (n_{\lambda}) \in \mathbf{N}^{(L)}$ (ayant donc un support fini) telle que $\sum_{\lambda \in L} n_{\lambda} = n$, et toute partie finie $J$ de $L$ contenant le support de la famille $\nu$, posons
 
 $$(16)$$
 $$
@@ -423,9 +423,9 @@ $$
 e_J = e_{\lambda_1} \wedge e_{\lambda_2} \wedge \cdots \wedge e_{\lambda_n}
 $$
 
-où $(\lambda_k)_{1 \leq k \leq n}$ est la suite des éléments de $J$ rangés dans l’ordre croissant (E, III, p. 38, prop. 6); on convient que $e_\varnothing = 1$, élément unité de $A$. Alors les $e_J$, où $J$ parcourt l’ensemble $\mathcal{F}(L)$ des parties finies de $L$, forment une base de l’algèbre extérieure $\wedge(M)$.
+où $(\lambda_k)_{1 \leq k \leq n}$ est la suite des éléments de $J$ rangés dans l’ordre croissant (E, III, p. 38, prop. 6); on convient que $e_\varnothing = 1$, élément unité de $A$. Alors les $e_J$, où $J$ parcourt l’ensemble $\mathscr{F}(L)$ des parties finies de $L$, forment une base de l’algèbre extérieure $\wedge(M)$.
 
-Puisque les $e_\lambda$ engendrent le $A$-module $M$, tout élément de $\wedge(M)$ est combinaison linéaire de produits d’éléments $e_\lambda$ en nombre fini, donc (compte tenu de III, p. 79, prop. 5) est une combinaison linéaire d’un nombre fini d’éléments $e_J$ pour $J \in \mathcal{F}(L)$. Tout revient à prouver que les $e_J$ sont linéairement indépendants sur $A$. Sinon, il existerait entre ces éléments une relation linéaire à coefficients non tous nuls; la réunion des parties $J$ qui correspondent aux $e_J$ dont le coefficient dans cette relation est $\neq 0$ est une partie finie $K$ de $L$ (puisque’il n’y a qu’un nombre fini de coefficients $\neq 0$). Soit $N$ le sous-module de $M$ engendré par les $e_\lambda$ tels que $\lambda \in K$; $N$ est facteur direct dans $M$, donc (III, p. 78) $\wedge(N)$ s’identifie à une sous-algèbre de $\wedge(M)$, et si nous montrons que les $e_J$, pour $J \subset K$, forment une base de $\wedge(N)$, nous arriverons à la contradiction cherchée.
+Puisque les $e_\lambda$ engendrent le $A$-module $M$, tout élément de $\wedge(M)$ est combinaison linéaire de produits d’éléments $e_\lambda$ en nombre fini, donc (compte tenu de III, p. 79, prop. 5) est une combinaison linéaire d’un nombre fini d’éléments $e_J$ pour $J \in \mathscr{F}(L)$. Tout revient à prouver que les $e_J$ sont linéairement indépendants sur $A$. Sinon, il existerait entre ces éléments une relation linéaire à coefficients non tous nuls; la réunion des parties $J$ qui correspondent aux $e_J$ dont le coefficient dans cette relation est $\neq 0$ est une partie finie $K$ de $L$ (puisque’il n’y a qu’un nombre fini de coefficients $\neq 0$). Soit $N$ le sous-module de $M$ engendré par les $e_\lambda$ tels que $\lambda \in K$; $N$ est facteur direct dans $M$, donc (III, p. 78) $\wedge(N)$ s’identifie à une sous-algèbre de $\wedge(M)$, et si nous montrons que les $e_J$, pour $J \subset K$, forment une base de $\wedge(N)$, nous arriverons à la contradiction cherchée.
 
 Tout revient donc à prouver le th. 1 lorsque la base de $M$ est finie; on peut donc supposer que $L = \{1, m\} \subset \mathbf{N}$. Pour chaque $i \in L$, soit $M_i$ le sous-module libre $Ae_i$ de $M$; $M$ est somme directe des $M_i$, et $\wedge(M_i)$ est somme directe de $\wedge^0(M_i) = A$ et de $\wedge^1(M_i) = M_i$ (III, p. 80, prop. 6). Identifions canoniquement $\wedge(M)$ au $A$-module produit tensoriel des $\wedge(M_i)$ (III, p. 84, prop. 10); ce dernier a pour base le produit tensoriel des bases $(1, e_i)$ des $\wedge(M_i)$ (II, p. 62, cor. 2); on obtient ainsi tous les éléments
 
@@ -437,7 +437,7 @@ où l’on a, soit $u_i = 1$, soit $u_i = e_i$; si $J$ est l’ensemble des indi
 
 #### Corollaire 1 {#alg-iii-s7-thm-1-cor-1 .statement}
 
-*Supposons que $L = \{1, m\}$; alors la base $(e_J)_{J \in \mathcal{B}(L)}$ de $\wedge(M)$ a $2^m$ éléments. Pour $p > m$, on a $\wedge^p(M) = \{0\}$; $\wedge^m(M)$ a une base formée d’un seul élément $e_L$; pour $0 \leq p \leq m$, le nombre d’éléments de la base $(e_J)$ de $\wedge^p(M)$ formée des $e_J$ tels que $\mathrm{Card}(J) = p$, est $\binom{m}{p} = \frac{m!}{p!(m-p)!}$.
+*Supposons que $L = \{1, m\}$; alors la base $(e_J)_{J \in \mathscr{B}(L)}$ de $\wedge(M)$ a $2^m$ éléments. Pour $p > m$, on a $\wedge^p(M) = \{0\}$; $\wedge^m(M)$ a une base formée d’un seul élément $e_L$; pour $0 \leq p \leq m$, le nombre d’éléments de la base $(e_J)$ de $\wedge^p(M)$ formée des $e_J$ tels que $\mathrm{Card}(J) = p$, est $\binom{m}{p} = \frac{m!}{p!(m-p)!}$.
 
 Cela résulte de E, III, p. 29, prop. 12 et E, III, p. 42, cor. 1.
 

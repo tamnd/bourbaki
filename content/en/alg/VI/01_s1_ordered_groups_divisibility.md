@@ -65,7 +65,7 @@ subsections:
       pdf_page: 328
 statements: 53
 exercises: 36
-content_sha256: 45ea8a5517b0127a37e1be405e3a76dfd0eb57ebebc488e6233af177c1bfd38c
+content_sha256: 543b0f8166310a925c67adda31939b3ce4aaad06cdecb22ecd1ead9aff696009
 ---
 
 ## § 1. ORDERED GROUPS. DIVISIBILITY
@@ -240,11 +240,11 @@ The principal fractional ideal $Ax$ is also denoted (x). We will write $x \equiv
 
 Note that $x \equiv x'$ (mod y) does not imply $zx \equiv zx'$ (mod y) unless $z \in A$. Thus in $\mathbf{Q}$, relative to $\mathbf{Z}$, we have $4 \equiv 2$ (mod 2) but not $2 \equiv 1$ (mod 2).
 
-The relation $x | y$ is obviously equivalent to $(x) \supset (y)$. The mapping $x \mapsto (x)$ from $K^*$ onto the set $\mathcal{P}^*$ of principal fractional ideals $\neq (0)$ of K thus defines, on passing to the quotient, a bijective mapping from $K^*/A^*$ onto $\mathcal{P}^*$; translating the group structure of $K^*/A^*$ to $\mathcal{P}^*$ by means of this mapping, we are led to define the product of two principal fractional ideals (x) and (y) to be the ideal (xy ), which depends only on (x) and (y). Equipped with this law and the order relation $(x) \supset (y)$, the set $\mathcal{P}^*$ is an ordered group, isomorphic to $K^*/A^*$. By convention we will identify $\mathcal{P}^*$ with $K^*/A^*$ via the above map.
+The relation $x | y$ is obviously equivalent to $(x) \supset (y)$. The mapping $x \mapsto (x)$ from $K^*$ onto the set $\mathscr{P}^*$ of principal fractional ideals $\neq (0)$ of K thus defines, on passing to the quotient, a bijective mapping from $K^*/A^*$ onto $\mathscr{P}^*$; translating the group structure of $K^*/A^*$ to $\mathscr{P}^*$ by means of this mapping, we are led to define the product of two principal fractional ideals (x) and (y) to be the ideal (xy ), which depends only on (x) and (y). Equipped with this law and the order relation $(x) \supset (y)$, the set $\mathscr{P}^*$ is an ordered group, isomorphic to $K^*/A^*$. By convention we will identify $\mathscr{P}^*$ with $K^*/A^*$ via the above map.
 
 Note that the relation « x divides y » which, in the case of positive integers, implies that x is smaller than y, corresponds to the inclusion $(x) \supset (y)$, in which the ideal (x) is « greater » than the ideal (y). We can keep this « order reversal » in mind by noting that for example 7 has a more multiples » than 91.
 
-If we extend the relation $x | y$ to all elements of K, this relation is still equivalent to $(x) \supset (y)$ in the set $\mathcal{P}$ of all principal fractional ideals of K (in which $(0)$ is the smallest element under the relation of inclusion).
+If we extend the relation $x | y$ to all elements of K, this relation is still equivalent to $(x) \supset (y)$ in the set $\mathscr{P}$ of all principal fractional ideals of K (in which $(0)$ is the smallest element under the relation of inclusion).
 
 As in the previous sections, we will generally be using additive notation in the sequel. However, terminology relating to divisibility will be introduced following the corresponding additive terminology, in paragraphs preceded by the sign (DIV) (in which it is understood that the notation used is that of the present section). In order to make the reader's task easier, certain results will be translated into the language of divisibility, the translation of Prop. 7, for example, being denoted « PROPOSITION 7 (DIV) ».
 
@@ -280,7 +280,7 @@ Recall (Set Theory, III, p. 141) that if the set of upper bounds of a subset F o
 
 Recall (Set Theory, loc. cit.) that if F is a subset of an ordered set E, and $(x_i)$ a family of elements of F, then the existence of $\sup(x_i)$ in E (which may be denoted $\sup_E(x_i)$) does not imply the existence of a supremum of the $x_i$ in F (which may be denoted $\sup_F(x_i)$ when it does exist); if both exist we know only that $\sup_E(x_i) \leq \sup_F(x_i)$; however if $\sup_E(x_i)$ exists and belongs to F, then $\sup_F(x_i)$ exists and is equal to $\sup_E(x_i)$. For example, in the polynomial ring $A = K[X, Y]$ (K a field), the principal ideals AX and AY have the ideal $AX + AY$ as supremum (under the relation $\subset$) in the ordered set of ideals of A, but have the ideal A as supremum in the set of all principal ideals of A.
 
-(DIV) An element d of $K^*$ is called a greatest common divisor, or gcd for short, of a family $(x_i)$ of elements of $K^*$, if the principal fractional ideal (d) is the supremum in $\mathcal{P}^*$ (under the relation $\subset$) of the family of ideals $((x_i))$, or in other words if the relation $z \mid d$ for $z \in K^*$ is equivalent to « $z \mid x_i$ for all $i$ ». In the same way we will say that $m \in K^*$ is a least common multiple or an lcm of the family $(x_i)$ if $(m)$ is the infimum in $\mathcal{P}^*$ of the family of ideals $((x_i))$, that is if m | z is equivalent to « x_i | z for all i ». It amounts to the same thing to say that $(m) = \cap_{i} (x_i)$; indeed, the condition $x_i | z$ for all $i$ is equivalent to $z \in A x$, for all $i$, that is to $z \in \cap_{i} (x_i)$, and the condition $m | z$ is equivalent to $z \in (m)^1$.
+(DIV) An element d of $K^*$ is called a greatest common divisor, or gcd for short, of a family $(x_i)$ of elements of $K^*$, if the principal fractional ideal (d) is the supremum in $\mathscr{P}^*$ (under the relation $\subset$) of the family of ideals $((x_i))$, or in other words if the relation $z \mid d$ for $z \in K^*$ is equivalent to « $z \mid x_i$ for all $i$ ». In the same way we will say that $m \in K^*$ is a least common multiple or an lcm of the family $(x_i)$ if $(m)$ is the infimum in $\mathscr{P}^*$ of the family of ideals $((x_i))$, that is if m | z is equivalent to « x_i | z for all i ». It amounts to the same thing to say that $(m) = \cap_{i} (x_i)$; indeed, the condition $x_i | z$ for all $i$ is equivalent to $z \in A x$, for all $i$, that is to $z \in \cap_{i} (x_i)$, and the condition $m | z$ is equivalent to $z \in (m)^1$.
 
 Note that if a principal fractional ideal (d) satisfies $(d) = \sum (x_i)$ then d is a gcd of the family $(x_i)$; but conversely a gcd of $(x_i)$ does not necessarily satisfy the above condition (cf. VI, p. 33, Ex. 24).
 
@@ -437,7 +437,7 @@ We deduce from d) that $|x| = 0$ implies $x = 0$ (for $x^+$ and $x^-$ are positi
 
 #### Proposition 9 {#alg-vi-s1-div-prop-9 .statement}
 
-— If the group $\mathcal{P}^*$ of principal fractional ideals of K is lattice ordered, then every element x of $K^*$ can be written in the form $x = uv^{-1}$, where u and v are elements of A such that $1 = \gcd(u, v)$; for any other expression $x = u'{v'}^{-1}$ of x as the quotient of two elements of A, we have $u' = uw$ and $v' = vw$, where w is a gcd of $u', v'$; in particular if $1 = \gcd(u', v')$ then u' and v' are associates of u and v respectively.
+— If the group $\mathscr{P}^*$ of principal fractional ideals of K is lattice ordered, then every element x of $K^*$ can be written in the form $x = uv^{-1}$, where u and v are elements of A such that $1 = \gcd(u, v)$; for any other expression $x = u'{v'}^{-1}$ of x as the quotient of two elements of A, we have $u' = uw$ and $v' = vw$, where w is a gcd of $u', v'$; in particular if $1 = \gcd(u', v')$ then u' and v' are associates of u and v respectively.
 
 Such an expression $uv^{-1}$ for an element x of $K^*$ is often called a reduced fraction.
 
@@ -455,7 +455,7 @@ The $x_i$ can be setwise coprime without being pairwise coprime.
 
 If x and y are coprime, we also say that x is coprime to y, or that y is coprime to X
 
-(DIV) Two elements x and y of K are said to be *coprime* if the principal ideals (x) and (y) are nonzero and coprime in $\mathcal{P}^*$; this amounts to saying that 1 is a gcd of x and y, and implies that x and y *belong* to A. For example the numerator and denominator of a reduced fraction are coprime. The notions of pairwise and setwise coprime elements are defined similarly.
+(DIV) Two elements x and y of K are said to be *coprime* if the principal ideals (x) and (y) are nonzero and coprime in $\mathscr{P}^*$; this amounts to saying that 1 is a gcd of x and y, and implies that x and y *belong* to A. For example the numerator and denominator of a reduced fraction are coprime. The notions of pairwise and setwise coprime elements are defined similarly.
 
 (DIV) When x and y are coprime, they are often said to be « prime to one another »; it is convenient to avoid this terminology, which can lead to confusion with the notion of prime numbers (I, p. 50, Def. 16).
 
@@ -509,7 +509,7 @@ Indeed $nx = nx^+ - nx^-$; since $x^+$ and x are coprime, so are $nx^+$ and $nx^
 
 #### Proposition 11 {#alg-vi-s1-div-prop-11 .statement}
 
-— Suppose the set $\mathcal{P}^*$ is a lattice, and let $(a_i)$, $(b_j)$ be two finite families of elements of A. Then every gcd of $\prod_i a_i$ and $\prod_j b_j$ divides the product $\prod_{i,j} \gcd(a_i, b_j)$.
+— Suppose the set $\mathscr{P}^*$ is a lattice, and let $(a_i)$, $(b_j)$ be two finite families of elements of A. Then every gcd of $\prod_i a_i$ and $\prod_j b_j$ divides the product $\prod_{i,j} \gcd(a_i, b_j)$.
 
 #### Corollary 1 {#alg-vi-s1-div-prop-11-cor-1 .statement}
 
@@ -595,7 +595,7 @@ This distributivity property is peculiar to lattice ordered *groups*, and does n
 
 Let x be an irreducible element of the ordered group G; if y is a positive element of G then the element inf(x, y), if it exists, can only be equal to x or to 0. Thus in a lattice ordered group G, every positive y is either greater than or coprime to the irreducible element x; in particular, two distinct irreducible elements are coprime.
 
-(DIV) An element p of A is called *irreducible* if the ideal (p) is an irreducible element of the ordered group $\mathcal{P}^*$; this says that p is neither zero nor invertible, and that any element of $A$ which divides p is associate either to p or to 1. If $\mathcal{P}^*$ is lattice ordered, then every $a \in A$ is either coprime to p or a multiple of p.
+(DIV) An element p of A is called *irreducible* if the ideal (p) is an irreducible element of the ordered group $\mathscr{P}^*$; this says that p is neither zero nor invertible, and that any element of $A$ which divides p is associate either to p or to 1. If $\mathscr{P}^*$ is lattice ordered, then every $a \in A$ is either coprime to p or a multiple of p.
 
 *Examples (DIV). —* 1) An integer $p > 0$ is irreducible in $\mathbf{Z}$ if and only if it is *prime* (I, p. 50).
 
@@ -612,11 +612,11 @@ If G is lattice ordered and x is irreducible, we have just seen that y is either
 
 #### Proposition 14 {#alg-vi-s1-div-prop-14 .statement}
 
-— *For a nonzero element p of A to be irreducible it is sufficient that it not be a unit, and that it cannot divide a product of two elements of A without dividing one or other of them. This condition is necessary if $\mathcal{P}^*$ is lattice ordered.*
+— *For a nonzero element p of A to be irreducible it is sufficient that it not be a unit, and that it cannot divide a product of two elements of A without dividing one or other of them. This condition is necessary if $\mathscr{P}^*$ is lattice ordered.*
 
 #### Remark {#alg-vi-s1-n13-rem-1 .statement}
 
-Proposition 14 (DIV) can also be expressed as follows: if p is a non zero element of A such that the ideal (p) is *prime* (I, p. 117, Def. 3) then p is irreducible; conversely, if $\mathcal{P}^*$ is lattice ordered and p is irreducible then the ideal (p) is prime.
+Proposition 14 (DIV) can also be expressed as follows: if p is a non zero element of A such that the ideal (p) is *prime* (I, p. 117, Def. 3) then p is irreducible; conversely, if $\mathscr{P}^*$ is lattice ordered and p is irreducible then the ideal (p) is prime.
 
 #### Proposition 15 {#alg-vi-s1-prop-15 .statement}
 

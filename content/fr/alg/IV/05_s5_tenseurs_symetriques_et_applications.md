@@ -57,7 +57,7 @@ subsections:
       pdf_page: 63
 statements: 42
 exercises: 16
-content_sha256: 9712b22bb1d9580135fa7ae6661371bc4864b7aadadee70ac29466c3afde8d03
+content_sha256: 5f7349b7058da4a43f5802632e88e9a95c7fc9b2a8a31a550a3378f025befef8
 ---
 
 ## § 5. TENSEURS SYMÉTRIQUES ET APPLICATIONS POLYNOMIALES
@@ -336,16 +336,16 @@ $$
 
 #### Remarque 2 {#alg-iv-s5-n4-rem-2 .statement}
 
-Soit $\mathcal{M}$ l’ensemble des applications de $[1, p]$ dans I. On définit une application $\rho \mapsto \rho^*$ de $\mathcal{M}$ dans $\mathbf{N}^{(l)}$ en posant
+Soit $\mathscr{M}$ l’ensemble des applications de $[1, p]$ dans I. On définit une application $\rho \mapsto \rho^*$ de $\mathscr{M}$ dans $\mathbf{N}^{(l)}$ en posant
 
 $$
 \rho^*(i) = \operatorname{Card} \rho^{-1}(i) .
 $$
 
-Pour que deux éléments $\rho_1, \rho_2$ de $\mathcal{M}$ vérifient $\rho_1^* = \rho_2^*$, il faut et il suffit qu’il existe $\sigma \in \mathfrak{S}_p$ tel que $\rho_2 = \rho_1 \circ \sigma$ (I, p. 90). D’après la prop. 3, (iii), on a, si $|v| = p$,
+Pour que deux éléments $\rho_1, \rho_2$ de $\mathscr{M}$ vérifient $\rho_1^* = \rho_2^*$, il faut et il suffit qu’il existe $\sigma \in \mathfrak{S}_p$ tel que $\rho_2 = \rho_1 \circ \sigma$ (I, p. 90). D’après la prop. 3, (iii), on a, si $|v| = p$,
 
 $$
-x_v = \sum_{\rho \in \mathcal{M}, \rho^* = v} x_{\rho(1)} \otimes x_{\rho(2)} \otimes \ldots \otimes x_{\rho(p)} .
+x_v = \sum_{\rho \in \mathscr{M}, \rho^* = v} x_{\rho(1)} \otimes x_{\rho(2)} \otimes \ldots \otimes x_{\rho(p)} .
 $$
 
 ### 5. Tenseurs symétriques sur un module libre
@@ -355,7 +355,7 @@ $$
 Supposons $M$ libre, et soit $(e_i)_{i \in I}$ une base de $M$.
 (i) Pour $v \in \mathbf{N}^{(l)}$, soit $e_v = \prod_{i \in I} \gamma_{v_i}(e_i)$. Alors $(e_v)_{v \in \mathbf{N}^{(l)}}$ est une base du $\mathbf{A}$-module $\mathbf{TS}(M)$. En particulier, l’algèbre $\mathbf{TS}(M)$ est engendrée par la famille des éléments $\gamma_k(x)$ pour $k \in \mathbf{N}$ et $x \in M$.
 (ii) Pour tout $p \in \mathbf{N}$, $\mathbf{TS}^p(M)$ est facteur direct dans le $\mathbf{A}$-module $\mathbf{T}^p(M)$.
-Utilisons les notations de la remarque 2 ci-dessus. La famille $(e_{\rho(1)} \otimes \ldots \otimes e_{\rho(p)})_{\rho \in \mathcal{M}}$ est une base de $\mathbf{T}^p(M)$. Alors la prop. 4 résulte de la formule (7) et du lemme suivant, appliqué avec $H = \mathfrak{S}_p$ et $U = \mathbf{T}^p(M)$ :
+Utilisons les notations de la remarque 2 ci-dessus. La famille $(e_{\rho(1)} \otimes \ldots \otimes e_{\rho(p)})_{\rho \in \mathscr{M}}$ est une base de $\mathbf{T}^p(M)$. Alors la prop. 4 résulte de la formule (7) et du lemme suivant, appliqué avec $H = \mathfrak{S}_p$ et $U = \mathbf{T}^p(M)$ :
 
 #### Lemme 1 {#alg-iv-s5-lem-1 .statement}
 
@@ -685,7 +685,7 @@ Soient $M$ et $N$ des $A$-modules, $q$ un entier $\geqslant 0$. On suppose $M$ l
 
 La prop. 13, (i), définit un homomorphisme de $A$-modules :
 $$
-\mathcal{L}_q^*(M, ..., M; N) \to \mathrm{Pol}^q(M, N) .
+\mathscr{L}_q^*(M, ..., M; N) \to \mathrm{Pol}^q(M, N) .
 $$
 La prop. 13, (ii), définit un homomorphisme de $A$-modules :
 $$

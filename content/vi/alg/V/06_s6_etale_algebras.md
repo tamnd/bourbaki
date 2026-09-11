@@ -42,9 +42,9 @@ subsections:
       pdf_page: 148
 statements: 22
 exercises: 2
-content_sha256: a4852ece6b890d6311a6f39f9e5bf5e26b506b14eb84e5ddeb9fb4bbb1f3b279
+content_sha256: daef444b09f803f489c2306236efd5613015e0bea94e1fb749f7a52c0dbda93a
 translated_from: content/en/alg/V/06_s6_etale_algebras.md
-source_content_sha256: 1c0ff6eab8a369a6cc0ba7a81f2a00f665a45cec046137d9abeebe3c7a4842b7
+source_content_sha256: e670b4dd83c9bc46bd6f7c58972d023f4c6f04736f4be78ca1443a9c27857fd0
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-1025ba98
 glossary_version: 34
@@ -68,13 +68,13 @@ với $x \in V,\ a \in L$ và $f,\ g$ thuộc $\mathrm{Hom}_K(V, L)$. Gọi $V_{
 
 #### Định lý 1 {#alg-v-s6-thm-1 .statement}
 
-— *Cho L là một mở rộng của một trường K và A là một đại số trên K; gọi $\mathcal{H}$ là tập hợp tất cả các đồng cấu K-đại số từ A vào L. Khi đó $\mathcal{H}$ là một tập con tự do của không gian vectơ $\mathrm{Hom}_K(A, L)$ trên L.*
+— *Cho L là một mở rộng của một trường K và A là một đại số trên K; gọi $\mathscr{H}$ là tập hợp tất cả các đồng cấu K-đại số từ A vào L. Khi đó $\mathscr{H}$ là một tập con tự do của không gian vectơ $\mathrm{Hom}_K(A, L)$ trên L.*
 
-Ta chứng minh bằng quy nạp theo số nguyên $n \geq 0$ rằng mọi dãy $(u_1, \ldots, u_n)$ gồm các phần tử phân biệt của $\mathcal{H}$ là tự do. Trường hợp $n = 0$ là tầm thường, do đó từ nay ta có thể giả sử rằng $n \geq 1$; cho $a_1, \ldots, a_n$ là các phần tử của L sao cho $$\sum_{i=1}^n \alpha_i u_i = 0.$$ Với $x,\ y$ thuộc A ta có
+Ta chứng minh bằng quy nạp theo số nguyên $n \geq 0$ rằng mọi dãy $(u_1, \ldots, u_n)$ gồm các phần tử phân biệt của $\mathscr{H}$ là tự do. Trường hợp $n = 0$ là tầm thường, do đó từ nay ta có thể giả sử rằng $n \geq 1$; cho $a_1, \ldots, a_n$ là các phần tử của L sao cho $$\sum_{i=1}^n \alpha_i u_i = 0.$$ Với $x,\ y$ thuộc A ta có
 $$
 \sum_{i=1}^{n-1} \alpha_i [u_i(x) - u_n(x)] \cdot u_i(y) = \sum_{i=1}^n \alpha_i u_i(xy) - u_n(x) \sum_{i=1}^n \alpha_i u_i(y) = 0,
 $$
-do đó $$\sum_{i=1}^{n-1} \alpha_i [u_i(x) - u_n(x)] \cdot u_i = 0.$$ Theo giả thiết quy nạp, các phần tử $u_1, \ldots, u_{n-1}$ của $\mathcal{H}$ độc lập tuyến tính, do đó $\alpha_i [u_i(x) - u_n(x)] = 0$ với $1 \leq i \leq n-1$ và với mọi $x$ thuộc A. Vì các $u_i$ phân biệt, điều này suy ra rằng $\alpha_i = 0$ với $i \neq n$, do đó $\alpha_n u_n = 0$ và vì vậy $\alpha_n = \alpha_n u_n(1) = 0$ (bằng cách ký hiệu phần tử đơn vị của A là 1). Ta đã chứng minh rằng $a_1, \ldots, a_{n-1}, \alpha_n$ đều bằng không, và điều này chứng minh định lý.
+do đó $$\sum_{i=1}^{n-1} \alpha_i [u_i(x) - u_n(x)] \cdot u_i = 0.$$ Theo giả thiết quy nạp, các phần tử $u_1, \ldots, u_{n-1}$ của $\mathscr{H}$ độc lập tuyến tính, do đó $\alpha_i [u_i(x) - u_n(x)] = 0$ với $1 \leq i \leq n-1$ và với mọi $x$ thuộc A. Vì các $u_i$ phân biệt, điều này suy ra rằng $\alpha_i = 0$ với $i \neq n$, do đó $\alpha_n u_n = 0$ và vì vậy $\alpha_n = \alpha_n u_n(1) = 0$ (bằng cách ký hiệu phần tử đơn vị của A là 1). Ta đã chứng minh rằng $a_1, \ldots, a_{n-1}, \alpha_n$ đều bằng không, và điều này chứng minh định lý.
 
 #### Hệ quả 1 {#alg-v-s6-thm-1-cor-1 .statement}
 
@@ -149,9 +149,9 @@ Ngược lại, giả sử *d)* đúng và xét A-môđun A,. Khi đó tồn t�
 
 #### Hệ quả {#alg-v-s6-n3-cor-1 .statement}
 
-*Cho L là một mở rộng của K và $\mathcal{H}$ là tập các đồng cấu đại số của A vào L. Ta có Card $\mathcal{H} \leq [A : K]$, với đẳng thức khi và chỉ khi A được L chéo hóa. Nếu A được L chéo hóa, thì $\mathcal{H}$ là một cơ sở của không gian L-vectơ $\mathrm{Hom}_K(A, L)$.*
+*Cho L là một mở rộng của K và $\mathscr{H}$ là tập các đồng cấu đại số của A vào L. Ta có Card $\mathscr{H} \leq [A : K]$, với đẳng thức khi và chỉ khi A được L chéo hóa. Nếu A được L chéo hóa, thì $\mathscr{H}$ là một cơ sở của không gian L-vectơ $\mathrm{Hom}_K(A, L)$.*
 
-Không gian vectơ $\mathrm{Hom}_K(A, L)$ trên L có chiều $[A : K]$, theo Công thức (2), và $\mathcal{H}$ là một tập con tự do của $\mathrm{Hom}_K(A, L)$ theo Định lý 1 (*V*, p. 27). Do đó ta có Card $\mathcal{H} \leq [A : K]$ với đẳng thức khi và chỉ khi $\mathcal{H}$ là một cơ sở của $\mathrm{Hom}_K(A, L)$. Tồn tại một đẳng cấu của các không gian L-vectơ, ký hiệu là $\pi : \mathrm{Hom}_K(A, L) \to A_{(L)}^*$, được đặc trưng bởi $u(x) = (\pi u)(1 \otimes x)$ với $x \in A$, và $\pi$ ánh xạ $\mathcal{H}$ lên tập $\mathcal{H}_L$ gồm các đồng cấu đại số L của $A(\cdot)$ vào L. Cuối cùng, sự tương đương của a) và c) trong Mệnh đề 1 cho thấy đại số $A_{(L)}$ trên L chéo hóa được khi và chỉ khi $\mathcal{H}_L$ sinh ra không gian vectơ $A_{(L)}^*$ trên L. Điều này hoàn tất chứng minh của Hệ quả.
+Không gian vectơ $\mathrm{Hom}_K(A, L)$ trên L có chiều $[A : K]$, theo Công thức (2), và $\mathscr{H}$ là một tập con tự do của $\mathrm{Hom}_K(A, L)$ theo Định lý 1 (*V*, p. 27). Do đó ta có Card $\mathscr{H} \leq [A : K]$ với đẳng thức khi và chỉ khi $\mathscr{H}$ là một cơ sở của $\mathrm{Hom}_K(A, L)$. Tồn tại một đẳng cấu của các không gian L-vectơ, ký hiệu là $\pi : \mathrm{Hom}_K(A, L) \to A_{(L)}^*$, được đặc trưng bởi $u(x) = (\pi u)(1 \otimes x)$ với $x \in A$, và $\pi$ ánh xạ $\mathscr{H}$ lên tập $\mathscr{H}_L$ gồm các đồng cấu đại số L của $A(\cdot)$ vào L. Cuối cùng, sự tương đương của a) và c) trong Mệnh đề 1 cho thấy đại số $A_{(L)}$ trên L chéo hóa được khi và chỉ khi $\mathscr{H}_L$ sinh ra không gian vectơ $A_{(L)}^*$ trên L. Điều này hoàn tất chứng minh của Hệ quả.
 
 #### Mệnh đề 2 {#alg-v-s6-prop-2 .statement}
 
@@ -161,7 +161,7 @@ a) *Đại số A là etale*.
 b) *Tồn tại một mở rộng bậc hữu hạn chéo hóa A*.
 c) *Mở rộng $\Omega$ của K chéo hóa A*.
 
-Giả sử A là etale. Gọi $n$ là bậc của A trên K, gọi L là một mở rộng của K chéo hóa A và gọi $\mathcal{H}$ là tập các đồng cấu đại số của A vào L. Theo Hệ quả của Mệnh đề 1 ta có Card $\mathcal{H} = n$. Mặt khác, với mỗi $u \in \mathcal{H}$, ta có $[u(A):K] \leq n$. Theo V, p. 18, Định lý 2, mở rộng con L' của L được sinh bởi các ảnh của các phần tử của $\mathcal{H}$ có bậc hữu hạn trên K. Vì tồn tại $n$ đồng cấu phân biệt của A vào L', nên mở rộng L' chéo hóa A, theo Hệ quả 1 của Mệnh đề 1. Điều này cho thấy a) suy ra b).
+Giả sử A là etale. Gọi $n$ là bậc của A trên K, gọi L là một mở rộng của K chéo hóa A và gọi $\mathscr{H}$ là tập các đồng cấu đại số của A vào L. Theo Hệ quả của Mệnh đề 1 ta có Card $\mathscr{H} = n$. Mặt khác, với mỗi $u \in \mathscr{H}$, ta có $[u(A):K] \leq n$. Theo V, p. 18, Định lý 2, mở rộng con L' của L được sinh bởi các ảnh của các phần tử của $\mathscr{H}$ có bậc hữu hạn trên K. Vì tồn tại $n$ đồng cấu phân biệt của A vào L', nên mở rộng L' chéo hóa A, theo Hệ quả 1 của Mệnh đề 1. Điều này cho thấy a) suy ra b).
 
 Vì mọi mở rộng bậc hữu hạn của K đều đẳng cấu với một mở rộng con của $\Omega$ (V, p. 20, Định lý 1), nên b) suy ra c). Cuối cùng c) rõ ràng suy ra a).
 
@@ -205,7 +205,7 @@ $$
 [A \otimes_K B : K]_s = [A : K]_s \cdot [B : K]_s .
 $$
 
-Cho $L$ là một mở rộng đóng đại số của $K$ và ký hiệu $\mathcal{H}(A)$ là tập hợp các đồng cấu đại số từ $A$ vào $L$, và tương tự định nghĩa $\mathcal{H}(B)$ và $\mathcal{H}(A \otimes_K B)$. Theo định nghĩa ta có Card $\mathcal{H}(A) = [A : K]$, và các công thức tương ứng cho [B : K], và [A \otimes_K B : K]. Hơn nữa (III, p. 465, Công thức (6)), công thức $(u * v)(a \otimes b) = u(a)v(b)$ xác định một song ánh $(u, v) \mapsto u * v$ của $\mathcal{H}(A) \times \mathcal{H}(B)$ lên $\mathcal{H}(A \otimes_K B)$, do đó Công thức (7) suy ra.
+Cho $L$ là một mở rộng đóng đại số của $K$ và ký hiệu $\mathscr{H}(A)$ là tập hợp các đồng cấu đại số từ $A$ vào $L$, và tương tự định nghĩa $\mathscr{H}(B)$ và $\mathscr{H}(A \otimes_K B)$. Theo định nghĩa ta có Card $\mathscr{H}(A) = [A : K]$, và các công thức tương ứng cho [B : K], và [A \otimes_K B : K]. Hơn nữa (III, p. 465, Công thức (6)), công thức $(u * v)(a \otimes b) = u(a)v(b)$ xác định một song ánh $(u, v) \mapsto u * v$ của $\mathscr{H}(A) \times \mathscr{H}(B)$ lên $\mathscr{H}(A \otimes_K B)$, do đó Công thức (7) suy ra.
 
 Cho $K'$ là một mở rộng của $K$; ta sẽ chứng minh công thức
 $$

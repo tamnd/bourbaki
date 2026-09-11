@@ -38,9 +38,9 @@ subsections:
       pdf_page: 257
 statements: 20
 exercises: 5
-content_sha256: 35e77827ac8ed1d593d4ef7f34dc8284f627af73c8f5cd59df6c2333b240c895
+content_sha256: 2be5d1e52dd4a5c5062e067bc81adb796b67728132da1e7c14b669f23f03c966
 translated_from: content/en/alg/V/17_s17_regular_extensions.md
-source_content_sha256: 0970c4aa41158ef33231d08b21a0ce6a9b85ee1660b0f424d771a6b9760e1253
+source_content_sha256: 1c4cb5cb0d3cdf74638b2b9d83f632710263ccc2f6f485a362711f2198471fb5
 translation_model: gpt-5.4
 translation_run: translate-vi-ab1b1743
 glossary_version: 34
@@ -182,7 +182,7 @@ Theo hệ quả trên, chỉ cần chứng minh rằng mọi đại số đa th�
 
 Mệnh đề thứ nhất suy ra từ Mệnh đề 3, a).
 
-Cho M là một mở rộng của K và $\mathcal{U}$ là tập hợp tất cả các mở rộng con sinh hữu hạn của L. Với mỗi E $\in \mathcal{U}$, vành $M \otimes_K E$ có thể được đồng nhất với một vành con của $M \otimes_K L$ và do đó ta có một họ tăng có hướng các vành con của $M \otimes_K L$ mà hợp là $M \otimes_K L$. Bây giờ mệnh đề thứ hai suy ra ngay lập tức.
+Cho M là một mở rộng của K và $\mathscr{U}$ là tập hợp tất cả các mở rộng con sinh hữu hạn của L. Với mỗi E $\in \mathscr{U}$, vành $M \otimes_K E$ có thể được đồng nhất với một vành con của $M \otimes_K L$ và do đó ta có một họ tăng có hướng các vành con của $M \otimes_K L$ mà hợp là $M \otimes_K L$. Bây giờ mệnh đề thứ hai suy ra ngay lập tức.
 
 #### Mệnh đề 7 {#alg-v-s17-prop-7 .statement}
 

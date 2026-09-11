@@ -48,7 +48,7 @@ chapters:
           statements: 31
           exercises: 16
           extraction: ocr
-          content_sha256: ee4e463c2bea3d268def69cc870b68653ee33956e50d1763ff66c0f237db3f9e
+          content_sha256: eaaedbec437fbe10ada976447d7ff373c517077b94d3572b3e47bdbac09779cc
         - kind: section
           section: 2
           title: Identity element; cancellable elements; invertible elements
@@ -61,7 +61,7 @@ chapters:
           statements: 25
           exercises: 17
           extraction: ocr
-          content_sha256: 14262eeea309ef0eeb9e6269c13480b3d9f7d00e819290b8524e10ac95ff8282
+          content_sha256: ea4324c278765be303f76b877f875161c0b03258af35442379758f5aace5c86f
         - kind: section
           section: 3
           title: Actions
@@ -74,7 +74,7 @@ chapters:
           statements: 14
           exercises: 10
           extraction: ocr
-          content_sha256: ea8e120387da4eeeb5565a60d17f5eac8359a45e81eafde8841009256e414458
+          content_sha256: fefea5c72fe036c89a879762938486baeb1decc5d9be21d1053e8bc5fabd4729
         - kind: section
           section: 4
           title: Groups and groups with operators
@@ -87,7 +87,7 @@ chapters:
           statements: 63
           exercises: 26
           extraction: ocr
-          content_sha256: 4e2db9f086cc50fe763891b92a677519247beb4dcab57f7cc8c6398ff2e2e3db
+          content_sha256: 6eef711940212b0b20d202432c8526dca7827895352d9ffae4fd826f3d1b073b
         - kind: section
           section: 5
           title: Groups operating on a set
@@ -100,7 +100,7 @@ chapters:
           statements: 32
           exercises: 29
           extraction: ocr
-          content_sha256: 605c0e618797b31a8a044a2bed5b6ec188866b18a0efb8640705a9dbb17c2a1b
+          content_sha256: d92fcadd5cf3457976d613413dc10c6bce670352e24cbb59900cd4f89d17b9dd
         - kind: section
           section: 6
           title: Extensions, solvable groups, nilpotent groups
@@ -113,7 +113,7 @@ chapters:
           statements: 58
           exercises: 41
           extraction: ocr
-          content_sha256: 67c3f42bae99e09355ade32973a0fcb3839b676d70484bfbad762f5f8a64bcff
+          content_sha256: bfc4caeda11c82dd142b796a040d8c572ec399ca51c9d9ebb9c92e4b742c9d24
         - kind: section
           section: 7
           title: Free monoids, free groups
@@ -139,7 +139,7 @@ chapters:
           statements: 31
           exercises: 16
           extraction: ocr
-          content_sha256: 82f3b9f6c044b6246eb0c2be0d3c2c67423e560bf34edc83e7cf960aed7cd234
+          content_sha256: 600239b0486664ec0165048e94fa40ec6465929fc46d8da2e621fa3bd93e27d1
         - kind: section
           section: 9
           title: Fields
@@ -203,7 +203,7 @@ chapters:
           statements: 88
           exercises: 27
           extraction: ocr
-          content_sha256: a9537c8df803d6bf9725aad30317a3a1b23bee71446c2f32fb77cf8b995e6a68
+          content_sha256: 1fce08e179b3202964d946df72f3d63e346c660550e13850a4c76b9631949171
         - kind: section
           section: 2
           title: Modules of linear mappings. Duality
@@ -216,7 +216,7 @@ chapters:
           statements: 42
           exercises: 26
           extraction: ocr
-          content_sha256: ada77bb5d3f2991282d1d80427eaa87544335c7c3fafa597f5d0bcfabf29858d
+          content_sha256: 258255c57ca3524e48d9ff71cc97eff6aa8bc4291c0e15cf968c9c2efb97b55c
         - kind: section
           section: 3
           title: Tensor products
@@ -229,7 +229,7 @@ chapters:
           statements: 30
           exercises: 4
           extraction: ocr
-          content_sha256: ffa23e32a5b250afa6702426ba06760cf9ccc1d88226680fcc821ece3bb2d997
+          content_sha256: 7813b67312bbb261712d83c5cefe26e4e2d490a7339a463a028293bdd8b639f2
         - kind: section
           section: 4
           title: Relations between tensor products and homomorphism modules
@@ -242,7 +242,7 @@ chapters:
           statements: 15
           exercises: 9
           extraction: ocr
-          content_sha256: 4daa0198f39eb8665aeb0fb853979c7c3f01d43e4213ff03ca386beeb56265ae
+          content_sha256: 27990209087c39671cad33c6a9b2bf6a92a19d13735d50ad71c6137ca459dfb8
         - kind: section
           section: 5
           title: Extension of the ring of scalars
@@ -281,7 +281,7 @@ chapters:
           statements: 87
           exercises: 39
           extraction: ocr
-          content_sha256: 09d8351ba2815b6bb601181e4c7a6e1661b7b52e57ee226d85dca90b3ac70659
+          content_sha256: 7397ef66063724aa975a5ff48582a56369a955dedad3c2a574c4fd7a2a0708aa
         - kind: section
           section: 8
           title: Restriction of the field ofscalars in vector spaces
@@ -294,7 +294,7 @@ chapters:
           statements: 17
           exercises: 5
           extraction: ocr
-          content_sha256: 6810d0ad2d7a1ac57e96581b1b317b077f67da34f1fea1aceace9aa72bc903be
+          content_sha256: b7ddfff3fdb23622cfdd5652b1283f65d322555654087069cf4ce0f35b45076e
         - kind: section
           section: 9
           title: Affine spaces and projective spaces
@@ -411,7 +411,7 @@ chapters:
           statements: 43
           exercises: 2
           extraction: ocr
-          content_sha256: 104babe43ca0f7b29fb3d06064b2db49850bf4ce36b16bfb4fc025a8d61a1f77
+          content_sha256: e4f97fce390410665271a3fec7e11e3f97e3ebed511a8bc2d0ba2eea7c3667d7
         - kind: section
           section: 5
           title: Tensor algebra. Tensors
@@ -424,7 +424,7 @@ chapters:
           statements: 15
           exercises: 10
           extraction: ocr
-          content_sha256: b01af1209083500779bdaaa884eccbc676d09c23fa0febe97dcb3f92583136bd
+          content_sha256: 5c03097c6701aa89319bcb1f79ac5061cb1f128e8ae0772c05c9607c5417b89e
         - kind: section
           section: 6
           title: Symmetric algebras
@@ -437,7 +437,7 @@ chapters:
           statements: 17
           exercises: 5
           extraction: ocr
-          content_sha256: 7f4b0decff4799e889dd38358965a5bc9fb77813b04c8c87de2e5c514aa78d3c
+          content_sha256: c190d357f4119eec01190353a132ffb2391abe105d6d6797abe8e8ab04c5ad59
         - kind: section
           section: 7
           title: Exterior algebras
@@ -450,7 +450,7 @@ chapters:
           statements: 31
           exercises: 15
           extraction: ocr
-          content_sha256: c5c58d36fea84ed5e26883e391f20cf1b187d6e1a3de33d7c9e483038c5c4be1
+          content_sha256: a65164e0213b01ccd25a9de8102ce235ce980145680f285182c0cfa7cdce4ac7
         - kind: section
           section: 8
           title: Determinants
@@ -463,7 +463,7 @@ chapters:
           statements: 36
           exercises: 26
           extraction: ocr
-          content_sha256: 1e5ab9b1b4d971390aac6594c7ace13e50ab50b6000f64da271cff3a45c6bbac
+          content_sha256: 7a6d262d01e84dc838f1687d01b6bcca82ec10cb21e250bf7406a9c385bada95
         - kind: section
           section: 9
           title: Norms and traces
@@ -502,7 +502,7 @@ chapters:
           statements: 40
           exercises: 25
           extraction: ocr
-          content_sha256: 975bbc956840cf52ff780bd6ba5b9a2f483e312a57f75aa1aff94045feaa36e6
+          content_sha256: 9c7b4e127fe09ee8609310f4b85f86bc773f875119f7c780156674549783b793
         - kind: appendix
           title: Alternative algebras. Octonions
           path: content/en/alg/III/A_a_alternative_algebras_octonions.md

@@ -54,9 +54,9 @@ subsections:
       pdf_page: 72
 statements: 63
 exercises: 26
-content_sha256: 172998d2110dc8794cc5334e88b77a6972257ba02a31511e489775f8cc5d9fb2
+content_sha256: 4a9f8cbc7f1db2ed34e8979815f1891cd1bdeb0d9ad21ce5b76ca41006c55dfa
 translated_from: content/en/alg/I/04_s4_groups_and_groups_with_operators.md
-source_content_sha256: 4e2db9f086cc50fe763891b92a677519247beb4dcab57f7cc8c6398ff2e2e3db
+source_content_sha256: 6eef711940212b0b20d202432c8526dca7827895352d9ffae4fd826f3d1b073b
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-8494d73e
 glossary_version: 34
@@ -86,7 +86,7 @@ Một nhóm G được gọi là *hữu hạn* nếu tập hợp nền của G l
 
 Nếu một luật hợp thành trên G xác định một cấu trúc nhóm trên G, thì luật đối cũng xác định một cấu trúc nhóm trên G. Ánh xạ từ một nhóm G lên chính nó gắn với mỗi $x \in G$ phần tử nghịch đảo của $x$ là một *đẳng cấu* từ G lên nhóm đối (§ 2, no. 3, Mệnh đề 4).
 
-Theo những quy ước tổng quát của chúng tôi (*Tập hợp*, II, § 3, no. 1), chúng tôi sẽ ký hiệu bởi $A^{-1}$ ảnh của một tập con A của G qua ánh xạ $x \mapsto x^{-1}$. Nhưng điều quan trọng là phải chú ý rằng, mặc dù có sự tương tự về ký hiệu, $A^{-1}$ tuyệt nhiên không phải là phần tử nghịch đảo của A đối với luật hợp thành $(X, Y) \mapsto XY$ giữa các tập con của G (nhớ rằng XY là tập hợp các $xy$ với $x \in X, y \in Y$): phần tử đơn vị đối với luật này là $\{e\}$ và các phần tử khả nghịch duy nhất của $\mathcal{P}(G)$ đối với luật này là các tập A chỉ gồm một phần tử (hơn nữa, một A như vậy dĩ nhiên có nghịch đảo là $A^{-1}$). Đồng nhất thức
+Theo những quy ước tổng quát của chúng tôi (*Tập hợp*, II, § 3, no. 1), chúng tôi sẽ ký hiệu bởi $A^{-1}$ ảnh của một tập con A của G qua ánh xạ $x \mapsto x^{-1}$. Nhưng điều quan trọng là phải chú ý rằng, mặc dù có sự tương tự về ký hiệu, $A^{-1}$ tuyệt nhiên không phải là phần tử nghịch đảo của A đối với luật hợp thành $(X, Y) \mapsto XY$ giữa các tập con của G (nhớ rằng XY là tập hợp các $xy$ với $x \in X, y \in Y$): phần tử đơn vị đối với luật này là $\{e\}$ và các phần tử khả nghịch duy nhất của $\mathscr{P}(G)$ đối với luật này là các tập A chỉ gồm một phần tử (hơn nữa, một A như vậy dĩ nhiên có nghịch đảo là $A^{-1}$). Đồng nhất thức
 
 $(AB)^{-1}=B^{-1}A^{-1}$ đúng với $A\subset G$, $B\subset G$. $A$ được gọi là một tập con đối xứng của $G$ nếu $A=A^{-1}$. Với mọi $A\subset G$, $A\cup A^{-1}$, $A\cap A^{-1}$ và $AA^{-1}$ là đối xứng.
 
@@ -149,7 +149,7 @@ Nếu H là một nhóm con ổn định của G, thì cấu trúc cảm sinh tr
 
 Cho G là một nhóm. Một nhóm con ổn định của G với tác động của $\varnothing$ (no. 2), tức là một tập con của G thỏa mãn các điều kiện (i), (ii), (iii) của Định nghĩa 4, được gọi là một *nhóm con* của G. Khi nói về một nhóm con của một nhóm có toán tử, ta sẽ luôn luôn hiểu đó là một nhóm con của nhóm nền tảng của G. Một nhóm con của một nhóm có toán tử G không nhất thiết là một nhóm con ổn định của G.
 
-*Ví dụ* (1). Cho $\Sigma$ là một loài cấu trúc (*Set Theory*, IV, § 1, no. 4) và S là một cấu trúc thuộc loài $\Sigma$ trên một tập hợp E (*loc. cit.*). Tập hợp các *tự đẳng cấu* của S là một nhóm con của $\mathcal{G}_E$.
+*Ví dụ* (1). Cho $\Sigma$ là một loài cấu trúc (*Set Theory*, IV, § 1, no. 4) và S là một cấu trúc thuộc loài $\Sigma$ trên một tập hợp E (*loc. cit.*). Tập hợp các *tự đẳng cấu* của S là một nhóm con của $\mathscr{G}_E$.
 
 #### Mệnh đề 1 {#alg-i-s4-prop-1 .statement}
 
@@ -355,7 +355,7 @@ do đó $H' = f(G')$; hạn chế của $f$ trên $G'$ là một đồng cấu $
 
 #### Hệ quả 1 {#alg-i-s4-prop-7-cor-1 .statement}
 
-*Giả sử rằng $f$ là toàn ánh. Gọi $\mathcal{G}$ (tương ứng $\mathcal{G}'$) là tập hợp các nhóm con ổn định (tương ứng ổn định chuẩn) của $G$ chứa $N$ và $\mathfrak{H}$ (tương ứng $\mathfrak{H}'$) là tập hợp các nhóm con ổn định (tương ứng ổn định chuẩn) của $H$, các tập hợp này được có thứ tự bởi quan hệ bao hàm. Ánh xạ $G' \mapsto f(G')$ là một đẳng cấu tập hợp có thứ tự $\Phi : \mathcal{G} \to \mathfrak{H}$; đẳng cấu nghịch đảo $\Psi : \mathfrak{H} \to \mathcal{G}$ là ánh xạ $H' \mapsto f^{-1}(H')$. Hơn nữa $\Phi$ và $\Psi$ cảm sinh các đẳng cấu $\Phi' : \mathcal{G}' \to \mathfrak{H}'$ và $\Psi' : \mathfrak{H}' \to \mathcal{G}'$.
+*Giả sử rằng $f$ là toàn ánh. Gọi $\mathscr{G}$ (tương ứng $\mathscr{G}'$) là tập hợp các nhóm con ổn định (tương ứng ổn định chuẩn) của $G$ chứa $N$ và $\mathfrak{H}$ (tương ứng $\mathfrak{H}'$) là tập hợp các nhóm con ổn định (tương ứng ổn định chuẩn) của $H$, các tập hợp này được có thứ tự bởi quan hệ bao hàm. Ánh xạ $G' \mapsto f(G')$ là một đẳng cấu tập hợp có thứ tự $\Phi : \mathscr{G} \to \mathfrak{H}$; đẳng cấu nghịch đảo $\Psi : \mathfrak{H} \to \mathscr{G}$ là ánh xạ $H' \mapsto f^{-1}(H')$. Hơn nữa $\Phi$ và $\Psi$ cảm sinh các đẳng cấu $\Phi' : \mathscr{G}' \to \mathfrak{H}'$ và $\Psi' : \mathfrak{H}' \to \mathscr{G}'$.
 
 #### Hệ quả 2 {#alg-i-s4-prop-7-cor-2 .statement}
 

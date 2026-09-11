@@ -41,11 +41,11 @@ subsections:
       pdf_page: 149
 statements: 34
 exercises: 22
-content_sha256: 4977c130c5bd65227e2dd42c798474cf244c220e678280d000986f10a7d7946b
+content_sha256: ef610c576b1c5424da1c4c9098b939cf947cf30cfb392a796f3b32fce1b8bcf9
 translated_from: content/en-mt/alg/X/08_s8_dimension_homologique.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: a43e5824a369fc7cb54f0cf634d6c6c6ca549a1893ead639ca49ac83f5b3a298
+source_content_sha256: cff3d624b87dbad11133d6413c517e8370cd94f98df610a49fa7dc951b4244d8
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-5f5f0ebc
 glossary_version: 34
@@ -202,9 +202,9 @@ Theo (v) và X, p. 131, hệ quả 3, ta có $\operatorname{Tor}^A_1(A/a,K)=0$ v
 
 #### Hệ quả {#alg-x-s8-n1-cor-1 .statement}
 
-Giả sử $A$ là Noether trái và gọi $\mathcal{C}_0$ (tương ứng $\mathcal{C}$) là tập hợp các lớp của các $A$-môđun xạ ảnh kiểu hữu hạn (tương ứng của các $A$-môđun có chiều xạ ảnh hữu hạn và kiểu hữu hạn). Khi đó đồng cấu của các nhóm Grothendieck $K(\mathcal{C}_0) \to K(\mathcal{C})$ là song ánh.
+Giả sử $A$ là Noether trái và gọi $\mathscr{C}_0$ (tương ứng $\mathscr{C}$) là tập hợp các lớp của các $A$-môđun xạ ảnh kiểu hữu hạn (tương ứng của các $A$-môđun có chiều xạ ảnh hữu hạn và kiểu hữu hạn). Khi đó đồng cấu của các nhóm Grothendieck $K(\mathscr{C}_0) \to K(\mathscr{C})$ là song ánh.
 
-Điều này suy ra từ X, p. 58, th. 1 (chú ý rằng $\mathcal{C}_0$ và $\mathcal{C}$ là khớp trái theo hệ quả 2).
+Điều này suy ra từ X, p. 58, th. 1 (chú ý rằng $\mathscr{C}_0$ và $\mathscr{C}$ là khớp trái theo hệ quả 2).
 
 ### 2. Đồng cấu $\operatorname{Tor}_n^A(P, M) \to \operatorname{Hom}_A(\operatorname{Ext}_A^n(M, A), P)$
 
@@ -366,7 +366,7 @@ Theo sự tương đương của (i) và (iii), ta có $\mathrm{dh}(A) = \mathrm
 
 #### Mệnh đề 5 {#alg-x-s8-prop-5 .statement}
 
-Giả sử $A$ là Noether trái và có chiều đồng điều hữu hạn, và gọi $\mathcal{C}_0$ (tương ứng $\mathcal{C}$) là tập hợp các lớp tương đương của các A-môđun xạ ảnh sinh hữu hạn (tương ứng của các A-môđun). Khi đó đồng cấu chính tắc của các nhóm Grothendieck $K(\mathcal{C}_0) \to K(\mathcal{C})$ là song ánh.
+Giả sử $A$ là Noether trái và có chiều đồng điều hữu hạn, và gọi $\mathscr{C}_0$ (tương ứng $\mathscr{C}$) là tập hợp các lớp tương đương của các A-môđun xạ ảnh sinh hữu hạn (tương ứng của các A-môđun). Khi đó đồng cấu chính tắc của các nhóm Grothendieck $K(\mathscr{C}_0) \to K(\mathscr{C})$ là song ánh.
 
 Điều này suy ra từ X, p. 137, Hệ quả.
 

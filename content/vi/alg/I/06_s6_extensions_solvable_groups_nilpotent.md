@@ -42,7 +42,7 @@ subsections:
       pdf_page: 104
 statements: 58
 exercises: 8
-content_sha256: 776f5ca220a635d12e311068f3e93164c3b8b4906c45c560863da46a9e424c98
+content_sha256: 97441ed60d0c18dba531e73c4cbc7dc7b025b03837584ba4636365f575929eb9
 translated_from: content/en/alg/I/06_s6_extensions_solvable_groups_nilpotent.md
 source_content_sha256: 05d57b4e159fb6f8076f49d79a8f2aa87f069986c6d14e5d1113470e55b7a64a
 translation_model: gpt-5.4
@@ -60,15 +60,15 @@ Trong suốt đoạn này, các luật nhóm, trừ khi có nói rõ ngược l�
 
 #### Định nghĩa 1 {#alg-i-s6-def-1 .statement}
 
-Cho $F$ và $G$ là hai nhóm. Một mở rộng của $G$ bởi $F$ là một bộ ba $\mathcal{E} = (E, i, p)$, trong đó $E$ là một nhóm, $i$ là một đơn cấu của $F$ vào $E$ và $p$ là một đồng cấu toàn ánh của $E$ lên $G$ sao cho $\operatorname{Im}(i) = \operatorname{Ker}(p)$. Một đồng cấu $s : G \to E$ (tương ứng, $r : E \to F$) sao cho $p \circ s = \operatorname{Id}_G$ (tương ứng, $r \circ i = \operatorname{Id}_F$) được gọi là một tiết diện (tương ứng, một co rút) của mở rộng $\mathcal{E}$.
+Cho $F$ và $G$ là hai nhóm. Một mở rộng của $G$ bởi $F$ là một bộ ba $\mathscr{E} = (E, i, p)$, trong đó $E$ là một nhóm, $i$ là một đơn cấu của $F$ vào $E$ và $p$ là một đồng cấu toàn ánh của $E$ lên $G$ sao cho $\operatorname{Im}(i) = \operatorname{Ker}(p)$. Một đồng cấu $s : G \to E$ (tương ứng, $r : E \to F$) sao cho $p \circ s = \operatorname{Id}_G$ (tương ứng, $r \circ i = \operatorname{Id}_F$) được gọi là một tiết diện (tương ứng, một co rút) của mở rộng $\mathscr{E}$.
 
-Một mở rộng $\mathcal{E} = (E, i, p)$ của $G$ bởi $F$ thường được ký hiệu bởi biểu đồ $\mathcal{E} : F \xrightarrow{i} E \xrightarrow{p} G$, trong đó $i$ và $p$ đôi khi bị lược bỏ nếu không thể gây nhầm lẫn. Đôi khi người ta nói đơn giản rằng nhóm $E$ là một mở rộng của $G$ bởi $F$.
+Một mở rộng $\mathscr{E} = (E, i, p)$ của $G$ bởi $F$ thường được ký hiệu bởi biểu đồ $\mathscr{E} : F \xrightarrow{i} E \xrightarrow{p} G$, trong đó $i$ và $p$ đôi khi bị lược bỏ nếu không thể gây nhầm lẫn. Đôi khi người ta nói đơn giản rằng nhóm $E$ là một mở rộng của $G$ bởi $F$.
 
 Để một nhóm $E$ là một mở rộng của $G$ bởi $F$, điều kiện cần và đủ là nó chứa một nhóm con chuẩn tắc $F'$ đẳng cấu với $F$ sao cho nhóm thương $E/F'$ đẳng cấu với $G$.
 
-Một mở rộng $\mathcal{E} : F \xrightarrow{i} E \xrightarrow{p} G$ được gọi là trung tâm nếu ảnh $i(F)$ được chứa trong tâm của $E$; điều này chỉ có thể xảy ra nếu $F$ giao hoán.
+Một mở rộng $\mathscr{E} : F \xrightarrow{i} E \xrightarrow{p} G$ được gọi là trung tâm nếu ảnh $i(F)$ được chứa trong tâm của $E$; điều này chỉ có thể xảy ra nếu $F$ giao hoán.
 
-Cho $\mathcal{E} : F \xrightarrow{i} E \xrightarrow{p} G$ và $\mathcal{E}' : F \xrightarrow{i'} E' \xrightarrow{p'} G$ là hai mở rộng của $G$ bởi $F$. Một cấu xạ từ $\mathcal{E}$ vào $\mathcal{E}'$ là một đồng cấu $u : E \to E'$ sao cho $p' \circ u = p$ và $u \circ i = i'$, hay nói cách khác, sao cho biểu đồ sau là giao hoán:
+Cho $\mathscr{E} : F \xrightarrow{i} E \xrightarrow{p} G$ và $\mathscr{E}' : F \xrightarrow{i'} E' \xrightarrow{p'} G$ là hai mở rộng của $G$ bởi $F$. Một cấu xạ từ $\mathscr{E}$ vào $\mathscr{E}'$ là một đồng cấu $u : E \to E'$ sao cho $p' \circ u = p$ và $u \circ i = i'$, hay nói cách khác, sao cho biểu đồ sau là giao hoán:
 
 $$
 \begin{array}{ccc}
@@ -88,25 +88,25 @@ $$
 
 #### Mệnh đề 1 {#alg-i-s6-prop-1 .statement}
 
-Cho $\mathcal{E}: F \xrightarrow{i} E \xrightarrow{p} G$ và $\mathcal{E}': F \xrightarrow{i'} E' \xrightarrow{p'} G$ là các mở rộng của $G$ bởi $F$. Nếu $u: E \to E'$ là một cấu xạ từ $\mathcal{E}$ vào $\mathcal{E}'$, thì $u$ là một đẳng cấu từ $E$ lên $E'$ và $u^{-1}$ là một cấu xạ từ $\mathcal{E}'$ vào $\mathcal{E}$.
+Cho $\mathscr{E}: F \xrightarrow{i} E \xrightarrow{p} G$ và $\mathscr{E}': F \xrightarrow{i'} E' \xrightarrow{p'} G$ là các mở rộng của $G$ bởi $F$. Nếu $u: E \to E'$ là một cấu xạ từ $\mathscr{E}$ vào $\mathscr{E}'$, thì $u$ là một đẳng cấu từ $E$ lên $E'$ và $u^{-1}$ là một cấu xạ từ $\mathscr{E}'$ vào $\mathscr{E}$.
 
 Cho $x \in E$ sao cho $u(x) = e$. Khi đó $p(x) = p'(u(x)) = e$, do đó $x \in i(F)$. Lấy $y \in F$ sao cho $x = i(y)$; khi đó $i'(y) = u(i(y)) = e$. Vì $i'$ là đơn ánh, nên $y = e$ và $x = e$. Vậy $u$ là đơn ánh. Theo § 4, no. 6, Hệ quả 1 của Mệnh đề 7, $u$ là toàn ánh vì $u(i(F)) = i'(F)$. Khẳng định cuối cùng là ngay lập tức.
 
-Nói cách khác, các mở rộng $\mathcal{E}$ và $\mathcal{E}'$ là *đẳng cấu* khi và chỉ khi tồn tại một cấu xạ từ $\mathcal{E}$ vào $\mathcal{E}'$.
+Nói cách khác, các mở rộng $\mathscr{E}$ và $\mathscr{E}'$ là *đẳng cấu* khi và chỉ khi tồn tại một cấu xạ từ $\mathscr{E}$ vào $\mathscr{E}'$.
 
-Cho $F$ và $G$ là hai nhóm và đặt $E_0 = F \times G$; cho $i: F \to E_0$ là đơn ánh chính tắc và $p: E_0 \to G$ là phép chiếu chính tắc. Mọi mở rộng của $G$ bởi $F$ đẳng cấu với mở rộng $\mathcal{E}_0: F \xrightarrow{i} E_0 \xrightarrow{p} G$ được gọi là một *mở rộng tầm thường*.
+Cho $F$ và $G$ là hai nhóm và đặt $E_0 = F \times G$; cho $i: F \to E_0$ là đơn ánh chính tắc và $p: E_0 \to G$ là phép chiếu chính tắc. Mọi mở rộng của $G$ bởi $F$ đẳng cấu với mở rộng $\mathscr{E}_0: F \xrightarrow{i} E_0 \xrightarrow{p} G$ được gọi là một *mở rộng tầm thường*.
 
 #### Mệnh đề 2 {#alg-i-s6-prop-2 .statement}
 
-*Cho $\mathcal{E}: F \xrightarrow{i} E \xrightarrow{p} G$ là một mở rộng của $G$ bởi $F$. Các điều kiện sau là tương đương*:
+*Cho $\mathscr{E}: F \xrightarrow{i} E \xrightarrow{p} G$ là một mở rộng của $G$ bởi $F$. Các điều kiện sau là tương đương*:
 
-(i) $\mathcal{E}$ là một mở rộng tầm thường;
-(ii) $\mathcal{E}$ có một co ánh $r$;
-(iii) $\mathcal{E}$ có một tiết diện $s$ sao cho $s(G)$ được chứa trong bộ tập trung hóa của $i(F)$.
+(i) $\mathscr{E}$ là một mở rộng tầm thường;
+(ii) $\mathscr{E}$ có một co ánh $r$;
+(iii) $\mathscr{E}$ có một tiết diện $s$ sao cho $s(G)$ được chứa trong bộ tập trung hóa của $i(F)$.
 
-Rõ ràng (i) suy ra (ii) và (iii). Nếu (ii) đúng, ánh xạ $(r, p): E \to F \times G$ là một cấu xạ từ $\mathcal{E}$ vào $\mathcal{E}_0$, do đó suy ra (i). Nếu (iii) đúng, đồng cấu từ $F \times G$ vào $E$ tương ứng với $(i, s)$ ($\S$ 4, no. 9, mệnh đề 12) là một cấu xạ từ $\mathcal{E}_0$ vào $\mathcal{E}$, do đó suy ra (i).
+Rõ ràng (i) suy ra (ii) và (iii). Nếu (ii) đúng, ánh xạ $(r, p): E \to F \times G$ là một cấu xạ từ $\mathscr{E}$ vào $\mathscr{E}_0$, do đó suy ra (i). Nếu (iii) đúng, đồng cấu từ $F \times G$ vào $E$ tương ứng với $(i, s)$ ($\S$ 4, no. 9, mệnh đề 12) là một cấu xạ từ $\mathscr{E}_0$ vào $\mathscr{E}$, do đó suy ra (i).
 
-Có thể xảy ra trường hợp một mở rộng $\mathcal{E}: F \to E \to G$ không tầm thường mà nhóm $E$ lại đẳng cấu với $F \times G$ (Bài tập 6).
+Có thể xảy ra trường hợp một mở rộng $\mathscr{E}: F \to E \to G$ không tầm thường mà nhóm $E$ lại đẳng cấu với $F \times G$ (Bài tập 6).
 
 #### Định nghĩa 2 {#alg-i-s6-def-2 .statement}
 
@@ -137,13 +137,13 @@ $$
 
 Bây giờ $g(f'.g'f'') = gf'.gg'f''$, điều đó cho thấy luật hợp thành được xác định bởi (1) là kết hợp. Phần tử $(e, e)$ là phần tử đơn vị đối với luật này. Phần tử $(f, g)$ có phần tử nghịch đảo là $(g^{-1}f^{-1}, g^{-1})$. Do đó luật hợp thành trên $F \times_{\tau} G$ là một luật nhóm. Các khẳng định khác là ngay lập tức.
 
-Dùng ký hiệu của Mệnh đề 3, $\mathcal{E}_{\tau}$ sẽ ký hiệu mở rộng
+Dùng ký hiệu của Mệnh đề 3, $\mathscr{E}_{\tau}$ sẽ ký hiệu mở rộng
 
 $$
 F \xrightarrow{i} F \times_{\tau} G \xrightarrow{p} G.
 $$
 
-Cho $\mathcal{E}' : F \xrightarrow{i'} E' \xrightarrow{p'} G$ là một mở rộng của $G$ bởi $F$ và $s' : G \to E'$ là một tiết diện của $\mathcal{E}'$. Ta định nghĩa một phép toán $\tau$ của $G$ trên nhóm $F$ bởi:
+Cho $\mathscr{E}' : F \xrightarrow{i'} E' \xrightarrow{p'} G$ là một mở rộng của $G$ bởi $F$ và $s' : G \to E'$ là một tiết diện của $\mathscr{E}'$. Ta định nghĩa một phép toán $\tau$ của $G$ trên nhóm $F$ bởi:
 
 (2)
 $$
@@ -152,7 +152,7 @@ $$
 
 #### Mệnh đề 4 {#alg-i-s6-prop-4 .statement}
 
-*Với các ký hiệu trên, tồn tại một và chỉ một đẳng cấu u của $\mathcal{E}_{\tau}$ lên $\mathcal{E}'$ sao cho $u \circ s = s'$.
+*Với các ký hiệu trên, tồn tại một và chỉ một đẳng cấu u của $\mathscr{E}_{\tau}$ lên $\mathscr{E}'$ sao cho $u \circ s = s'$.
 
 $$(f, g) = (f, e) \cdot_{\tau} (e, g) = i(f) \cdot_{\tau} s(g).$$ Vậy, nếu $u$ là một nghiệm của bài toán, thì tất yếu $u(f, g) = i'(f).s'(g)$, do đó có tính duy nhất của $u$. Ta chứng minh sự tồn tại. Ta viết $u(f, g) = i'(f).s'(g)$. Khi đó
 
@@ -170,9 +170,9 @@ Vì vậy, $u$ là một đồng cấu của $F \times_{\tau} G$ vào $E'$. Hi�
 
 #### Nhận xét {#alg-i-s6-n1-rem-1 .statement}
 
-Định nghĩa của phép toán $\tau$ bởi công thức (2) phụ thuộc vào mở rộng $\mathcal{E}'$ và tiết diện $s'$. Khi $F$ giao hoán, phép toán $\tau$ không phụ thuộc vào $s'$. Vì $\operatorname{Int}(s'(g)) | i'(F)$ khi đó chỉ phụ thuộc vào lớp kề của $s'(g)$ mod. $i'(F)$.
+Định nghĩa của phép toán $\tau$ bởi công thức (2) phụ thuộc vào mở rộng $\mathscr{E}'$ và tiết diện $s'$. Khi $F$ giao hoán, phép toán $\tau$ không phụ thuộc vào $s'$. Vì $\operatorname{Int}(s'(g)) | i'(F)$ khi đó chỉ phụ thuộc vào lớp kề của $s'(g)$ mod. $i'(F)$.
 
-Nói chung hơn, cho $\mathcal{E} : F \to E \to G$ là một mở rộng của $G$ bởi một nhóm giao hoán $F$ (không giả thiết rằng $\mathcal{E}$ thừa nhận một tiết diện). Nhóm $E$ tác động trên $F$ bởi các tự đẳng cấu nội, ảnh này là tầm thường trên ảnh của $F$ và do đó xác định một phép toán của $G$ trên $F$. Nếu $\mathcal{E}$ thừa nhận một tiết diện, phép toán này là phép toán được xác định bởi công thức (2).
+Nói chung hơn, cho $\mathscr{E} : F \to E \to G$ là một mở rộng của $G$ bởi một nhóm giao hoán $F$ (không giả thiết rằng $\mathscr{E}$ thừa nhận một tiết diện). Nhóm $E$ tác động trên $F$ bởi các tự đẳng cấu nội, ảnh này là tầm thường trên ảnh của $F$ và do đó xác định một phép toán của $G$ trên $F$. Nếu $\mathscr{E}$ thừa nhận một tiết diện, phép toán này là phép toán được xác định bởi công thức (2).
 
 #### Hệ quả {#alg-i-s6-n1-cor-1 .statement}
 
@@ -189,7 +189,7 @@ Cho $f, f'$ thuộc $A$, $\gamma = p(f), \gamma' = p(f')$. Khi đó, với mọi
 $$
 (f' \circ f)(gb) = f'(\gamma(g)f(b)) = \gamma'(\gamma(g))f'(f(b))
 $$
-điều này chứng minh rằng $f' \circ f \in A$ và $p(f' \circ f) = p(f')p(f)$. Mặt khác, $f(\gamma^{-1}(g)f^{-1}(b)) = gb$, do đó $f^{-1}(gb) = \gamma^{-1}(g)f^{-1}(b)$ và $f^{-1} \in A$. Vậy $A$ là một nhóm con của $\mathcal{S}_E$ và $p$ là một đồng cấu từ $A$ vào $\Gamma$. Hạt nhân của $p$ là tập hợp $\mathrm{Aut}_G(E)$ các tự đẳng cấu của $G$-tập hợp $E$.
+điều này chứng minh rằng $f' \circ f \in A$ và $p(f' \circ f) = p(f')p(f)$. Mặt khác, $f(\gamma^{-1}(g)f^{-1}(b)) = gb$, do đó $f^{-1}(gb) = \gamma^{-1}(g)f^{-1}(b)$ và $f^{-1} \in A$. Vậy $A$ là một nhóm con của $\mathscr{S}_E$ và $p$ là một đồng cấu từ $A$ vào $\Gamma$. Hạt nhân của $p$ là tập hợp $\mathrm{Aut}_G(E)$ các tự đẳng cấu của $G$-tập hợp $E$.
 Ta cố định $a \in E$. Ta đã định nghĩa trong § 5, no. 6 một đẳng cấu $\psi_a$ từ $G^0$ lên $\mathrm{Aut}_G(E)$ sao cho $\psi_a(x)(ga) = gxa$ với mọi $g, x$ trong $G$. Mặt khác, với $\gamma \in \Gamma$, cho $s_a(\gamma)$ là phép hoán vị của $E$ được định nghĩa bởi $s_a(\gamma)(ga) = \gamma(g)a$ với mọi $g \in G$; kiểm tra ngay lập tức được rằng $s_a$ là một đồng cấu từ $\Gamma$ vào $A$ sao cho $p \circ s_a = \mathrm{Id}_{\tau}$. Vậy $G^0 \xrightarrow{\psi_a} A \xrightarrow{p} \Gamma$ là một mở rộng của $\Gamma$ bởi $G^0$ và $s_a$ là một tiết diện của mở rộng này. Mở rộng này và tiết diện này định nghĩa một phép toán của $\Gamma$ trên $G^0$, $s_a(\Gamma)$ tác động trên $\psi_a(G^0)$ bởi các tự đẳng cấu nội; ta viết phép toán này theo lối số mũ. Ta chứng minh rằng phép toán này là phép toán tự nhiên ($§ 3$, no. 1, Ví dụ 3): với $x, g$ trong $G$ và $\gamma \in \Gamma$,
 $$
 (\psi_a(\gamma x))(ga) = (s_a(\gamma) \circ \psi_a(x) \circ s_a(\gamma)^{-1})(ga)
@@ -688,7 +688,7 @@ Cho P là một nhóm con Sylow $p$ của G (Định lý 2) và cho H là một 
 
 Nếu H là một nhóm con Sylow $p$, thì Card(H) = Card(P) = Card($gPg^{-1}$), do đó $H = gPg^{-1}$, điều này chứng minh mệnh đề thứ nhất của (a).
 
-Bây giờ chúng ta chứng minh mệnh đề thứ hai của (a). Cho $\mathcal{S}$ là tập hợp các nhóm con Sylow $p$ của G và cho P tác dụng trên $\mathcal{S}$ bằng các tự đẳng cấu nội. Phần tử $P \in \mathcal{S}$ là một điểm cố định dưới phép toán này, ta chứng minh rằng nó là điểm duy nhất. Cho $Q \in \mathcal{S}$ là một điểm cố định; Q là một nhóm con Sylow của G được chuẩn hóa bởi P và vì thế P được chứa trong chuẩn hóa tử N của Q. Các nhóm P và Q là những nhóm con Sylow $p$ của N; do đó tồn tại $n \in N$ sao cho $P = nQn^{-1} = Q$. Theo no. 5, Mệnh đề 11, Card($\mathcal{S}^P$) $\equiv$ Card($\mathcal{S}^{P^P}$) = 1 (mod. $p$).
+Bây giờ chúng ta chứng minh mệnh đề thứ hai của (a). Cho $\mathscr{S}$ là tập hợp các nhóm con Sylow $p$ của G và cho P tác dụng trên $\mathscr{S}$ bằng các tự đẳng cấu nội. Phần tử $P \in \mathscr{S}$ là một điểm cố định dưới phép toán này, ta chứng minh rằng nó là điểm duy nhất. Cho $Q \in \mathscr{S}$ là một điểm cố định; Q là một nhóm con Sylow của G được chuẩn hóa bởi P và vì thế P được chứa trong chuẩn hóa tử N của Q. Các nhóm P và Q là những nhóm con Sylow $p$ của N; do đó tồn tại $n \in N$ sao cho $P = nQn^{-1} = Q$. Theo no. 5, Mệnh đề 11, Card($\mathscr{S}^P$) $\equiv$ Card($\mathscr{S}^{P^P}$) = 1 (mod. $p$).
 
 #### Hệ quả 1 {#alg-i-s6-thm-3-cor-1 .statement}
 

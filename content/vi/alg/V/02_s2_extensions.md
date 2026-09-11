@@ -34,9 +34,9 @@ subsections:
       pdf_page: 127
 statements: 19
 exercises: 4
-content_sha256: fe62549ac13981793b237e029a109998949ce1528a351b4fb6744a46452b601f
+content_sha256: 7f1b5df7bbbb6bfb68983866c062a19d5855ae4fec409160406ac4dd54c1bdd8
 translated_from: content/en/alg/V/02_s2_extensions.md
-source_content_sha256: f5ab5e04d3eb0e0fa7469ebb3e3437d16a597eaa2e4cb424a810b0ba52fe9011
+source_content_sha256: 09cba64f2578226807f14f1ac7820f2dc2a012899df8f1b95971dbe87135f71b
 translation_model: gpt-5.4
 translation_run: translate-vi-2eae79d2
 glossary_version: 34
@@ -117,9 +117,9 @@ Vì $K(M \cup N)$ chứa $K(M)$ và N và do đó chứa $K(M)(N)$; vì $K(M)(N)
 
 #### Mệnh đề 3 {#alg-v-s2-prop-3 .statement}
 
-— *Cho $\mathcal{F}$ là một tập hợp các trường con của một trường E, có hướng đối với quan hệ $\subset$. Hợp L của các trường của $\mathcal{F}$ là một trường.*
+— *Cho $\mathscr{F}$ là một tập hợp các trường con của một trường E, có hướng đối với quan hệ $\subset$. Hợp L của các trường của $\mathscr{F}$ là một trường.*
 
-Thật vậy, nếu x và y là hai phần tử của L, tồn tại hai trường R, S của $\mathcal{F}$ sao cho $x \in R,\ y \in S$; cho T là một trường của $\mathcal{F}$ chứa R và S; khi đó $x \in T,\ y \in T$, nên $x + y,\ xy$ và $x^{-1}$ (nếu $x \neq 0$) thuộc T, nên thuộc L.
+Thật vậy, nếu x và y là hai phần tử của L, tồn tại hai trường R, S của $\mathscr{F}$ sao cho $x \in R,\ y \in S$; cho T là một trường của $\mathscr{F}$ chứa R và S; khi đó $x \in T,\ y \in T$, nên $x + y,\ xy$ và $x^{-1}$ (nếu $x \neq 0$) thuộc T, nên thuộc L.
 
 #### Hệ quả {#alg-v-s2-n3-cor-1 .statement}
 

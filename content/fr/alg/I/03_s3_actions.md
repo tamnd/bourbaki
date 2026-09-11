@@ -33,7 +33,7 @@ subsections:
       pdf_page: 38
 statements: 23
 exercises: 10
-content_sha256: ee4b2e3ff8b24219c1460bf40c37c82b11b0657ccfb5d0937024d65174be79fe
+content_sha256: 5c753331d16f0c78a23dc4b65dd48fd15e2f3b77d3fb32449f05a89098a29884
 ---
 
 ## § 3. ACTIONS
@@ -54,7 +54,7 @@ Soit E un magma associatif, noté multiplicativement. L’application qui, à un
 
 #### Exemple 2 {#alg-i-s3-n1-exa-2 .statement}
 
-Soit E un magma, de loi notée $\top$. L’application qui, à un élément $x \in E$, fait correspondre l’application $A \mapsto x \top A$ de l’ensemble des parties de E dans lui-même, est une action de E sur $\mathcal{P}(E)$.
+Soit E un magma, de loi notée $\top$. L’application qui, à un élément $x \in E$, fait correspondre l’application $A \mapsto x \top A$ de l’ensemble des parties de E dans lui-même, est une action de E sur $\mathscr{P}(E)$.
 
 #### Exemple 3 {#alg-i-s3-n1-exa-3 .statement}
 
@@ -66,7 +66,7 @@ Soit $(\Omega_i)_{i \in I}$ une famille d’ensembles. Pour tout $i \in I$, soit
 
 #### Exemple 5 {#alg-i-s3-n1-exa-5 .statement}
 
-Etant données une action de $\Omega$ sur E de loi notée $\perp$, une partie $\Xi$ de $\Omega$ et une partie X de E, on désigne par $\Xi \perp X$ l’ensemble des $\alpha \perp x$ pour $\alpha \in \Xi$ et $x \in X$; lorsque $\Xi$ est réduite à un élément $\alpha$, on écrit généralement $\alpha \perp X$ au lieu de $\{\alpha\} \perp X$. L’application qui, à $\alpha \in \Omega$, fait correspondre l’application $X \mapsto \alpha \perp X$ est une action de $\Omega$ sur $\mathcal{P}(E)$, dite déduite de l’action donnée par extension à l’ensemble des parties.
+Etant données une action de $\Omega$ sur E de loi notée $\perp$, une partie $\Xi$ de $\Omega$ et une partie X de E, on désigne par $\Xi \perp X$ l’ensemble des $\alpha \perp x$ pour $\alpha \in \Xi$ et $x \in X$; lorsque $\Xi$ est réduite à un élément $\alpha$, on écrit généralement $\alpha \perp X$ au lieu de $\{\alpha\} \perp X$. L’application qui, à $\alpha \in \Omega$, fait correspondre l’application $X \mapsto \alpha \perp X$ est une action de $\Omega$ sur $\mathscr{P}(E)$, dite déduite de l’action donnée par extension à l’ensemble des parties.
 
 #### Exemple 6 {#alg-i-s3-n1-exa-6 .statement}
 
@@ -249,7 +249,7 @@ $$(x + y) . z = x . z + y . z$$
 
 #### Exemple 1 {#alg-i-s3-n5-exa-1 .statement}
 
-Dans l’ensemble $\mathcal{P}(E)$ des parties d’un ensemble $E$, chacune des lois internes $\cap$ et $\cup$ est distributive par rapport à elle-même et à l’autre. Cela résulte des formules du type
+Dans l’ensemble $\mathscr{P}(E)$ des parties d’un ensemble $E$, chacune des lois internes $\cap$ et $\cup$ est distributive par rapport à elle-même et à l’autre. Cela résulte des formules du type
 $$
 \begin{align*}
 A \cap (B \cup C) &= (A \cap B) \cup (A \cap C) \\

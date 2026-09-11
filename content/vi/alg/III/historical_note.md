@@ -13,7 +13,7 @@ pdf_pages: 0679-0734
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: de4f36adfdc07da8ac49d4fdd36ccdc18ee91c92b044e0bd91155dc821450e2a
+content_sha256: de93715adac4b2733af3703b2980db86c76051e92942e3086da4fa9890492e86
 translated_from: content/en/alg/III/historical_note.md
 source_content_sha256: 78bd01af38161bc2db08e20c490bf7e6e244d8a0155ef6b475f75af266d69127
 translation_model: gpt-5-6-mini, gpt-5-mini
@@ -215,9 +215,9 @@ G|E/H (G, H là các nhóm tác động trên E bằng các tác động giao ho
 $\mathfrak{S}_n$: I, § 5, no. 7.
 $\tau_{x,y}$ (phép hoán vị chuyển vị có giá $\{x, y\}$): I, § 5, no. 7.
 $\varepsilon(\sigma), \varepsilon_\sigma$ ($\sigma$ một phép hoán vị): I, § 5, no. 7.
-$\mathcal{U}_E, \mathcal{U}_n$: I, § 5, no. 7.
+$\mathscr{U}_E, \mathscr{U}_n$: I, § 5, no. 7.
 $F \xrightarrow{i} E \xrightarrow{\rho} G$ (E, F, G là các nhóm): I, § 6, no. 1.
-$F \times_\tau G, \mathcal{E}_\tau$ ($\tau$ một đồng cấu của G vào Aut(F)): I, § 6, no. 1.
+$F \times_\tau G, \mathscr{E}_\tau$ ($\tau$ một đồng cấu của G vào Aut(F)): I, § 6, no. 1.
 $gf$ ($f \in F, g \in G$): I, § 6, no. 1.
 $(f, g) \cdot_\tau (f', g')$ ($f, f'$ thuộc F, $g, g'$ thuộc G): I, § 6, no. 1.
 $(x, y), (A, B)$ ($x, y$ là các phần tử, A, B là các tập con của một nhóm G): I, § 6, no. 2.
@@ -286,7 +286,7 @@ $x \otimes y$ (x $\in$ E (một môđun phải), y $\in$ F (một môđun trái)
 $u \otimes v$ (u, v là các ánh xạ tuyến tính): II, § 3, no. 2.
 $u \otimes v$ (u, v là các ánh xạ nửa tuyến tính): II, § 3, no. 3.
 $s_{A_d}$ (A là một vành): II, § 3, no. 4.
-$\mathcal{L}_2(E, F; G)$ (E, F, G là các môđun trên một vành giao hoán): II, § 3, no. 5.
+$\mathscr{L}_2(E, F; G)$ (E, F, G là các môđun trên một vành giao hoán): II, § 3, no. 5.
 $\bigotimes_{\lambda \in L} G_\lambda, \bigotimes_{\lambda \in L} x_\lambda$ (($G_\lambda$) là một họ các $\mathbf{Z}$-môđun, $x_\lambda \in G_\lambda$ với mọi $\lambda$): II, § 3, no. 9.
 $\bigotimes_{\lambda \in L} v_\lambda$ ($v_\lambda : G_\lambda \to G'_\lambda$ là các ánh xạ $\mathbf{Z}$-tuyến tính): II, § 3, no. 9.
 $\bigotimes_{(c,p,q)} G_\lambda, \bigotimes_{(c,p,q)} x_\lambda, \bigotimes_{(c)} x_\lambda$: II, § 3, no. 9.
@@ -294,7 +294,7 @@ $\bigotimes_{(c)} v_\lambda$ ($v_\lambda$ là các ánh xạ $\mathbf{Z}$-tuyế
 $E_1 \otimes_{A_1} E_2 \otimes_{A_2} E_3 \otimes \cdots \otimes_{A_{n-2}} E_{n-1} \otimes_{A_{n-1}} E_n$: II, § 3, no. 9.
 $x_1 \otimes x_2 \otimes \cdots \otimes x_n$: II, § 3, no. 9.
 $u_1 \otimes u_2 \otimes \cdots \otimes u_n$ ($u_i$ là các ánh xạ tuyến tính): II, § 3, no. 9.
-$\mathcal{L}_n(E_1, \ldots, E_n; G)$ ($E_1, \ldots, E_n, G$ là các môđun trên một vành giao hoán): II, § 3, no. 9.
+$\mathscr{L}_n(E_1, \ldots, E_n; G)$ ($E_1, \ldots, E_n, G$ là các môđun trên một vành giao hoán): II, § 3, no. 9.
 Tr(u) (u là một tự đồng cấu của một môđun trên một vành giao hoán): II, § 4, no. 3.
 $\rho^*(E), E_{(B)}$ (E là một A-môđun, $\rho : A \to B$ là một đồng cấu vành): II, § 5, no. 1.
 $\rho^*(u), u_{(B)}$ ($\rho : A \to B$ là một đồng cấu vành, u là một đồng cấu môđun A): II, § 5, no. 1.

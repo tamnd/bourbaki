@@ -41,11 +41,11 @@ subsections:
       pdf_page: 104
 statements: 36
 exercises: 8
-content_sha256: 82c878219af2f82c63a69eaedce3d0c93087fb491e7ecb87923ab5b3b87e9196
+content_sha256: d35a910fe107ab44f53f876e17e1719a29d56b37489235fd63d8993d119dd2d0
 translated_from: content/en-mt/alg/X/05_s5_modules_d_extensions.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 04bb17e328162e2f2fe5d95ba8637a898fe9f0783875c24808d201a703cf4217
+source_content_sha256: 39072234e6483530497dc50e68dece290a95404b45bea60db63c2dc0a38fc3b2
 translation_model: gpt-5-6-mini, gpt-5-mini
 translation_run: translate-vi-dc665973
 glossary_version: 34
@@ -554,32 +554,32 @@ $$
 
 Đặt
 
-$$(\mathcal{E})\qquad 0\longrightarrow N'\xrightarrow{u}N\xrightarrow{v}N''\longrightarrow0$$
+$$(\mathscr{E})\qquad 0\longrightarrow N'\xrightarrow{u}N\xrightarrow{v}N''\longrightarrow0$$
 
 là một dãy khớp các $A$-môđun; dãy các phức $k$
 
 $$
-(\mathcal{E}) \quad 0 \longrightarrow \operatorname{Homgr}_A(L(M), N') \xrightarrow{\operatorname{Homgr}(1,u)} \operatorname{Homgr}_A(L(M), N) \\
-\phantom{(M\mathcal{E})} \phantom{0} \xrightarrow{\operatorname{Homgr}(1,v)} \operatorname{Homgr}_A(L(M), N'') \longrightarrow 0
+(\mathscr{E}) \quad 0 \longrightarrow \operatorname{Homgr}_A(L(M), N') \xrightarrow{\operatorname{Homgr}(1,u)} \operatorname{Homgr}_A(L(M), N) \\
+\phantom{(M\mathscr{E})} \phantom{0} \xrightarrow{\operatorname{Homgr}(1,v)} \operatorname{Homgr}_A(L(M), N'') \longrightarrow 0
 $$
 
 là khớp ($X$, p. 83, mệnh đề 2, $a$), gọi
 
 $$
-\partial_{(M\mathcal{E})} : H(\operatorname{Homgr}_A(L(M), N'')) \to H(\operatorname{Homgr}_A(L(M), N'))
+\partial_{(M\mathscr{E})} : H(\operatorname{Homgr}_A(L(M), N'')) \to H(\operatorname{Homgr}_A(L(M), N'))
 $$
 
 là đồng cấu nối tương ứng ($X$, p. 29).
 
 #### Định nghĩa 2 {#alg-x-s5-def-2 .statement}
 
-*Ta gọi đồng cấu hợp thành là đồng cấu nối của các môđun mở rộng tương đối với môđun $M$ và với dãy khớp $\mathcal{E}$*
+*Ta gọi đồng cấu hợp thành là đồng cấu nối của các môđun mở rộng tương đối với môđun $M$ và với dãy khớp $\mathscr{E}$*
 
 $$
-\delta(M, \mathcal{E}) = \varphi_M(N') \circ \partial_{(M\mathcal{E})} \circ \varphi_M(N'')^{-1} : \operatorname{Ext}_A(M, N'') \to \operatorname{Ext}_A(M, N')
+\delta(M, \mathscr{E}) = \varphi_M(N') \circ \partial_{(M\mathscr{E})} \circ \varphi_M(N'')^{-1} : \operatorname{Ext}_A(M, N'') \to \operatorname{Ext}_A(M, N')
 $$
 
-Đây là một $k$-đồng cấu phân bậc có bậc tăng 1, các thành phần thuần nhất của nó được ký hiệu $\delta^n(M, \mathcal{E}) : \operatorname{Ext}_A^n(M, N'') \to \operatorname{Ext}_A^{n+1}(M, N')$.
+Đây là một $k$-đồng cấu phân bậc có bậc tăng 1, các thành phần thuần nhất của nó được ký hiệu $\delta^n(M, \mathscr{E}) : \operatorname{Ext}_A^n(M, N'') \to \operatorname{Ext}_A^{n+1}(M, N')$.
 
 #### Định lý 1 {#alg-x-s5-thm-1 .statement}
 
@@ -589,10 +589,10 @@ $$
 0 \longrightarrow \operatorname{Hom}_A(M, N') \xrightarrow{\operatorname{Hom}(1,u)} \operatorname{Hom}_A(M, N) \xrightarrow{\operatorname{Hom}(1,v)} \operatorname{Hom}_A(M, N'')
 $$
 $$
-\phantom{0} \xrightarrow{\delta_{(M,\mathcal{E})}} \operatorname{Ext}_A^1(M, N') \to \cdots \xrightarrow{\delta^{n-1}(M,\mathcal{E})} \operatorname{Ext}_A^n(M, N') \xrightarrow{\operatorname{Ext}^n(1,u)} \operatorname{Ext}_A^n(M, N)
+\phantom{0} \xrightarrow{\delta_{(M,\mathscr{E})}} \operatorname{Ext}_A^1(M, N') \to \cdots \xrightarrow{\delta^{n-1}(M,\mathscr{E})} \operatorname{Ext}_A^n(M, N') \xrightarrow{\operatorname{Ext}^n(1,u)} \operatorname{Ext}_A^n(M, N)
 $$
 $$
-\phantom{0} \xrightarrow{\operatorname{Ext}^n(1,v)} \operatorname{Ext}_A^n(M, N'') \xrightarrow{\delta^n(M,\mathcal{E})} \operatorname{Ext}_A^{n+1}(M, N') \to \cdots
+\phantom{0} \xrightarrow{\operatorname{Ext}^n(1,v)} \operatorname{Ext}_A^n(M, N'') \xrightarrow{\delta^n(M,\mathscr{E})} \operatorname{Ext}_A^{n+1}(M, N') \to \cdots
 $$
 
 *là khớp*.
@@ -616,17 +616,17 @@ $$
 
 $$
 \begin{array}{cccccccccc}
-(\mathcal{E}) & 0 & \longrightarrow & N' & \xrightarrow{u} & N & \xrightarrow{v} & N'' & \longrightarrow & 0 \\
+(\mathscr{E}) & 0 & \longrightarrow & N' & \xrightarrow{u} & N & \xrightarrow{v} & N'' & \longrightarrow & 0 \\
 & & & g' \downarrow & & g \downarrow & & g'' \downarrow & & \\
-(\mathcal{E}_1) & 0 & \longrightarrow & N'_1 & \xrightarrow{u_1} & N_1 & \xrightarrow{v_1} & N''_1 & \longrightarrow & 0
+(\mathscr{E}_1) & 0 & \longrightarrow & N'_1 & \xrightarrow{u_1} & N_1 & \xrightarrow{v_1} & N''_1 & \longrightarrow & 0
 \end{array}
 $$
 
 $$
 \begin{array}{ccccc}
-\operatorname{Ext}(M,N') & \xrightarrow{\operatorname{Ext}(1,u)} & \operatorname{Ext}(M,N) & \xrightarrow{\operatorname{Ext}(1,v)} & \operatorname{Ext}(M,N'') \xrightarrow{\delta(M,\mathcal{G})} \operatorname{Ext}(M,N') \xrightarrow{\operatorname{Ext}(1,u)} \operatorname{Ext}(M,N)\\[6pt]
+\operatorname{Ext}(M,N') & \xrightarrow{\operatorname{Ext}(1,u)} & \operatorname{Ext}(M,N) & \xrightarrow{\operatorname{Ext}(1,v)} & \operatorname{Ext}(M,N'') \xrightarrow{\delta(M,\mathscr{G})} \operatorname{Ext}(M,N') \xrightarrow{\operatorname{Ext}(1,u)} \operatorname{Ext}(M,N)\\[6pt]
 \Big\uparrow\vcenter{\rlap{$\scriptstyle\varphi_M(N')$}} && \Big\uparrow\vcenter{\rlap{$\scriptstyle\varphi_M(N)$}} && \Big\uparrow\vcenter{\rlap{$\scriptstyle\varphi_M(N'')$}} \qquad\qquad\Big\uparrow\vcenter{\rlap{$\scriptstyle\varphi_M(N')$}}\\[6pt]
-H(\operatorname{Homgr}(L(M),N')) & \xrightarrow{H(\operatorname{Homgr}(1,u))} & H(\operatorname{Homgr}(L(M),N)) & \xrightarrow{H(\operatorname{Homgr}(1,v))} & H(\operatorname{Homgr}(L(M),N'')) \xrightarrow{\partial(M\mathcal{G})} H(\operatorname{Homgr}(L(M),N')) \xrightarrow{H(\operatorname{Homgr}(1,u))} H(\operatorname{Homgr}(L(M),N))
+H(\operatorname{Homgr}(L(M),N')) & \xrightarrow{H(\operatorname{Homgr}(1,u))} & H(\operatorname{Homgr}(L(M),N)) & \xrightarrow{H(\operatorname{Homgr}(1,v))} & H(\operatorname{Homgr}(L(M),N'')) \xrightarrow{\partial(M\mathscr{G})} H(\operatorname{Homgr}(L(M),N')) \xrightarrow{H(\operatorname{Homgr}(1,u))} H(\operatorname{Homgr}(L(M),N))
 \end{array}
 $$
 
@@ -634,9 +634,9 @@ là một biểu đồ giao hoán các $A$-môđun với các hàng khớp. Bi�
 
 $$
 \begin{array}{ccc}
-\mathrm{Ext}_A(M, N'') & \xrightarrow{\delta(M, \mathcal{E})} & \mathrm{Ext}_A(M, N') \\
+\mathrm{Ext}_A(M, N'') & \xrightarrow{\delta(M, \mathscr{E})} & \mathrm{Ext}_A(M, N') \\
 \mathrm{Ext}(f, g'') \downarrow & & \mathrm{Ext}(f, g') \downarrow \\
-\mathrm{Ext}_A(M_1, N''_1) & \xrightarrow{\delta(M, \mathcal{E}_1)} & \mathrm{Ext}_A(M_1, N'_1)
+\mathrm{Ext}_A(M_1, N''_1) & \xrightarrow{\delta(M, \mathscr{E}_1)} & \mathrm{Ext}_A(M_1, N'_1)
 \end{array}
 $$
 
@@ -653,29 +653,29 @@ $$
 $$
 
 Cho $N$ là một $A$-môđun, và
-$$(\mathcal{F})$$
+$$(\mathscr{F})$$
 $$0 \to M' \xrightarrow{r} M \xrightarrow{s} M'' \to 0$$
 là một dãy khớp của các $A$-môđun; dãy các phức
-$$(\mathcal{F}_N)$$
+$$(\mathscr{F}_N)$$
 $$0 \longrightarrow \mathrm{Homgr}_A(M'', I(N)) \xrightarrow{\mathrm{Homgr}(s, 1)} \mathrm{Homgr}_A(M, I(N))$$
 $$\xrightarrow{\mathrm{Homgr}(r, 1)} \mathrm{Homgr}_A(M', I(N)) \longrightarrow 0$$
 là khớp (X, p. 83, mệnh đề 2, $a$) ; đặt
-$$\partial(\mathcal{F}_N) : \mathrm{H}(\mathrm{Homgr}_A(M', I(N))) \to \mathrm{H}(\mathrm{Homgr}_A(M'', I(N)))$$
+$$\partial(\mathscr{F}_N) : \mathrm{H}(\mathrm{Homgr}_A(M', I(N))) \to \mathrm{H}(\mathrm{Homgr}_A(M'', I(N)))$$
 là đồng cấu nối tương ứng.
 
 #### Định nghĩa 3 {#alg-x-s5-def-3 .statement}
 
-Ta gọi đồng cấu nối của các môđun mở rộng tương ứng với dãy khớp $(\mathcal{F})$ và với môđun $N$, là đồng cấu hợp thành
-$$\delta(\mathcal{F}, N) : \overline{\varphi}_N(M'') \circ \partial(\mathcal{F}_N) \circ \overline{\varphi}_N(M')^{-1} : \mathrm{Ext}_A(M', N) \to \mathrm{Ext}_A(M'', N).$$
-Nó là một $k$-đồng cấu phân bậc có bậc tăng 1, các thành phần thuần nhất của nó được ký hiệu là $\delta^n(\mathcal{F}, N) : \mathrm{Ext}_A^n(M', N) \to \mathrm{Ext}_A^{n+1}(M'', N)$.
+Ta gọi đồng cấu nối của các môđun mở rộng tương ứng với dãy khớp $(\mathscr{F})$ và với môđun $N$, là đồng cấu hợp thành
+$$\delta(\mathscr{F}, N) : \overline{\varphi}_N(M'') \circ \partial(\mathscr{F}_N) \circ \overline{\varphi}_N(M')^{-1} : \mathrm{Ext}_A(M', N) \to \mathrm{Ext}_A(M'', N).$$
+Nó là một $k$-đồng cấu phân bậc có bậc tăng 1, các thành phần thuần nhất của nó được ký hiệu là $\delta^n(\mathscr{F}, N) : \mathrm{Ext}_A^n(M', N) \to \mathrm{Ext}_A^{n+1}(M'', N)$.
 Khi đó ta chứng minh như trên các mệnh đề sau:
 
 #### Định lý 2 {#alg-x-s5-thm-2 .statement}
 
 Dãy phải không bị chặn của các đồng cấu của các $k$-môđun
 $$0 \longrightarrow \mathrm{Hom}_A(M'', N) \xrightarrow{\mathrm{Hom}(s, 1)} \mathrm{Hom}_A(M, N) \xrightarrow{\mathrm{Hom}(r, 1)} \mathrm{Hom}_A(M', N)$$
-$$\xrightarrow{\delta^0(\mathcal{F}, N)} \mathrm{Ext}_A^1(M'', N) \to \cdots \xrightarrow{\delta^{n-1}(\mathcal{F}, N)} \mathrm{Ext}_A^n(M'', N) \xrightarrow{\mathrm{Ext}^n(s, 1)} \mathrm{Ext}_A^n(M, N)$$
-$$\xrightarrow{\mathrm{Ext}^n(r, 1)} \mathrm{Ext}_A^n(M', N) \xrightarrow{\delta^n(\mathcal{F}, N)} \mathrm{Ext}_A^{n+1}(M'', N) \to \cdots$$
+$$\xrightarrow{\delta^0(\mathscr{F}, N)} \mathrm{Ext}_A^1(M'', N) \to \cdots \xrightarrow{\delta^{n-1}(\mathscr{F}, N)} \mathrm{Ext}_A^n(M'', N) \xrightarrow{\mathrm{Ext}^n(s, 1)} \mathrm{Ext}_A^n(M, N)$$
+$$\xrightarrow{\mathrm{Ext}^n(r, 1)} \mathrm{Ext}_A^n(M', N) \xrightarrow{\delta^n(\mathscr{F}, N)} \mathrm{Ext}_A^{n+1}(M'', N) \to \cdots$$
 là khớp.
 
 #### Hệ quả {#alg-x-s5-n4-cor-2 .statement}
@@ -694,9 +694,9 @@ Cho $g : N \to N_1$ là một đồng cấu của các $A$-môđun và
 
 $$
 \begin{array}{cccccc}
-(\mathcal{F}_1) & 0 \to M'_1 \xrightarrow{r_1} M_1 \xrightarrow{s_1} M''_1 \to 0 \\
+(\mathscr{F}_1) & 0 \to M'_1 \xrightarrow{r_1} M_1 \xrightarrow{s_1} M''_1 \to 0 \\
 & f' \downarrow & f \downarrow & f'' \downarrow \\
-(\mathcal{F}) & 0 \to M' \xrightarrow{r} M \xrightarrow{s} M'' \to 0
+(\mathscr{F}) & 0 \to M' \xrightarrow{r} M \xrightarrow{s} M'' \to 0
 \end{array}
 $$
 
@@ -704,9 +704,9 @@ là một biểu đồ giao hoán của các $A$-môđun với các hàng khớp
 
 $$
 \begin{array}{ccc}
-\operatorname{Ext}_A(M', N) & \xrightarrow{\delta(\mathcal{F}, N)} & \operatorname{Ext}_A(M'', N) \\
+\operatorname{Ext}_A(M', N) & \xrightarrow{\delta(\mathscr{F}, N)} & \operatorname{Ext}_A(M'', N) \\
 \operatorname{Ext}_A(f', g) \downarrow & & \operatorname{Ext}_A(f'', g) \downarrow \\
-\operatorname{Ext}_A(M'_1, N_1) & \xrightarrow{\delta(\mathcal{F}_1, N_1)} & \operatorname{Ext}_A(M''_1, N_1)
+\operatorname{Ext}_A(M'_1, N_1) & \xrightarrow{\delta(\mathscr{F}_1, N_1)} & \operatorname{Ext}_A(M''_1, N_1)
 \end{array}
 $$
 

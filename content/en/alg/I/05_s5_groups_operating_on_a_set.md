@@ -42,7 +42,7 @@ subsections:
       pdf_page: 85
 statements: 32
 exercises: 29
-content_sha256: 605c0e618797b31a8a044a2bed5b6ec188866b18a0efb8640705a9dbb17c2a1b
+content_sha256: d92fcadd5cf3457976d613413dc10c6bce670352e24cbb59900cd4f89d17b9dd
 ---
 
 ## § 5. GROUPS OPERATING ON A SET
@@ -143,7 +143,7 @@ It is seen similarly that, if A and B are two subsets of E and T is the transpor
 
 ### 3. INNER AUTOMORPHISMS
 
-Let G be a group. The set Aut(G) of automorphisms of the group G is a subgroup of $\mathcal{G}_G$ (§ 4, no. 1, Example 2).
+Let G be a group. The set Aut(G) of automorphisms of the group G is a subgroup of $\mathscr{G}_G$ (§ 4, no. 1, Example 2).
 
 #### Proposition 3 {#alg-i-s5-prop-3 .statement}
 
@@ -211,7 +211,7 @@ G is said to operate freely on E if, for all $x \in E$, the orbital mapping defi
 
 #### Example {#alg-i-s5-n4-exa-1 .statement}
 
-(1) Let G be a group and consider the operation of G on itself by inner automorphisms. Two elements of G which are conjugate under this operation are called conjugate under inner automorphisms or simply conjugate. The orbits are called conjugacy classes. Similarly, two subsets H and H' of G are called conjugate if there exists an element $\alpha \in G$ such that $H' = \alpha . H . \alpha^{-1}$, that is if they are conjugate under the extension to $\mathcal{P}(G)$ of the operation of G on itself by inner automorphisms.
+(1) Let G be a group and consider the operation of G on itself by inner automorphisms. Two elements of G which are conjugate under this operation are called conjugate under inner automorphisms or simply conjugate. The orbits are called conjugacy classes. Similarly, two subsets H and H' of G are called conjugate if there exists an element $\alpha \in G$ such that $H' = \alpha . H . \alpha^{-1}$, that is if they are conjugate under the extension to $\mathscr{P}(G)$ of the operation of G on itself by inner automorphisms.
 
 (2) *In the space $\mathbf{R}^n$, the orbit of a point x under the action of the orthogonal group $\mathbf{O}(n, \mathbf{R})$ is the Euclidean sphere of radius $\|x\|_*$.
 
@@ -270,7 +270,7 @@ N/H operates faithfully on G/H on the right and $\phi$ is injective. The left op
 
 #### Remark {#alg-i-s5-n5-rem-1 .statement}
 
-(1) Let G be a group, H a subgroup of G and $\phi : G \to \mathcal{S}_{G/H}$ the homomorphism corresponding to the operation of G on G/H. The kernel of $\phi$ is the intersection of the conjugates of H (no. 2, Proposition 2). It is also the largest normal subgroup contained in H (no. 3). In particular, G operates faithfully on G/H if and only if the intersection of the conjugates of H reduces to $\{e\}$.
+(1) Let G be a group, H a subgroup of G and $\phi : G \to \mathscr{S}_{G/H}$ the homomorphism corresponding to the operation of G on G/H. The kernel of $\phi$ is the intersection of the conjugates of H (no. 2, Proposition 2). It is also the largest normal subgroup contained in H (no. 3). In particular, G operates faithfully on G/H if and only if the intersection of the conjugates of H reduces to $\{e\}$.
 
 (2) Let G be a group and H and K subgroups such that H is a normal subgroup of K. Then K/H operates on the G-set G/H on the right and the canonical mapping of G/H onto G/K defines on passing to the quotient a G-set isomorphism $(G/H)/(K/H) \to G/K$ (cf. no. 4).
 

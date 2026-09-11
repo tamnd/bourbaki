@@ -25,7 +25,7 @@ chapters:
           statements: 46
           exercises: 0
           extraction: ocr
-          content_sha256: c520c3715bc6f8f016eb5da7058dbfa506012e55e322d1d89755e18c9663396f
+          content_sha256: 17986366f0f9cb39e9339cdf8d35b5609cef7944d2ad9ea4884702b4d365a501
         - kind: section
           section: 2
           title: Discriminant d'une forme sesquilinéaire
@@ -49,7 +49,7 @@ chapters:
           statements: 9
           exercises: 0
           extraction: ocr
-          content_sha256: d7b1f86699f25f6c6342441758539ed5b9788cef94369639bf68282d401e93ee
+          content_sha256: 59890c4cfc29f67b7763bf10b7b99e7cabc078626426c0e3a6f3ddbf5cd0c469
         - kind: section
           section: 4
           title: Sous-espaces totalement isotropes. Théorème de Witt
@@ -61,7 +61,7 @@ chapters:
           statements: 17
           exercises: 0
           extraction: ocr
-          content_sha256: 14cb4de3331001e2cca71f8cafa3a3f182c71b7b91d8265d6f9b975bebdddf14
+          content_sha256: ef297fe498de92a456b1d5dfa385125a90ce9c494c28c67efef5a8a7fa10b5d6
         - kind: section
           section: 5
           title: Propriétés spéciales aux formes bilinéaires alternées
@@ -73,7 +73,7 @@ chapters:
           statements: 11
           exercises: 0
           extraction: ocr
-          content_sha256: 3297869f5fb81cc931b58ea4d147d5b89ddb0dbe0ebc72abf7eab7ab5a691f46
+          content_sha256: b46524d6e0cb7e6bff2c2a53d394fdaa17538e41d07575f7abb24c1a7fb88a0a
         - kind: section
           section: 6
           title: Propriétés spéciales aux formes hermitiennes
@@ -85,7 +85,7 @@ chapters:
           statements: 17
           exercises: 0
           extraction: ocr
-          content_sha256: 47f1f659ab524c37f71e815f6a42017440fa35076b74ec187bcb8b0be0c99277
+          content_sha256: 64c120cd8fea231fd01df69e4b0842413cd496d71f9958164a6a57198bd868df
         - kind: section
           section: 7
           title: Formes hermitiennes et corps ordonnés
@@ -97,7 +97,7 @@ chapters:
           statements: 42
           exercises: 0
           extraction: ocr
-          content_sha256: 48a421468ccb8cc45819e96917ad2bad2e8ad97f33e3b9b0828d13a08e5e6bb0
+          content_sha256: 9ace1070ffce53672166906a1166d8f117e0deabe1f5cca37974e7aec4e8ac01
         - kind: section
           section: 8
           title: Types de formes quadratiques
@@ -121,7 +121,7 @@ chapters:
           statements: 24
           exercises: 0
           extraction: ocr
-          content_sha256: e2c4e69fdd13a741a502879f76e3145e94bb7fd20f1e9d2440ff7b50608cba33
+          content_sha256: 605650a8a358bd85dd5c216b93044be92390e523e70d47a2b35b34ce5652fcfd
         - kind: section
           section: 10
           title: Angles
@@ -133,7 +133,7 @@ chapters:
           statements: 31
           exercises: 0
           extraction: ocr
-          content_sha256: 7bba78e9e7ee3dd06d504a70fea11d2d2c91bfdab57fc07593d4431ee1c30e19
+          content_sha256: c5f77be1f2d6cb06c5c26e1149f0e0dc6accc3e7160a82297f8f751e104ae038
         - kind: historical
           title: Historical Note
           path: content/fr/alg/IX/historical_note.md

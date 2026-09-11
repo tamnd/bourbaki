@@ -37,7 +37,7 @@ subsections:
       pdf_page: 460
 statements: 19
 exercises: 5
-content_sha256: 40f152bcd1e869e851df2deb19631a5d9be1b26d27d6a38bfc42fdabc3f51e63
+content_sha256: 535fa5c20aafed0aad81abf47bab473f5fb0f8f01b8d7f1857b86721917d0577
 ---
 
 ## § 6. ALGÈBRE SYMÉTRIQUE
@@ -171,7 +171,7 @@ $$
 $$
 (où au second membre le produit est pris dans l’algèbre $S(M)$), on obtient une application $A$-linéaire bijective du $A$-module $\mathrm{Hom}_A(S^n(M), N)$ sur le $A$-module des applications $n$-linéaires symétriques de $M^n$ dans $N$.
 
-Rappelons (II, p. 71) qu’on a une bijection canonique du $A$-module $\mathrm{Hom}_A(T^n(M), N)$ sur le $A$-module $\mathcal{L}_n(M, \ldots, M; N)$ de toutes les applications $n$-linéaires de $M^n$ dans $N$, en associant à toute application $A$-linéaire $f : T^n(M) \to N$ l’application $n$-linéaire
+Rappelons (II, p. 71) qu’on a une bijection canonique du $A$-module $\mathrm{Hom}_A(T^n(M), N)$ sur le $A$-module $\mathscr{L}_n(M, \ldots, M; N)$ de toutes les applications $n$-linéaires de $M^n$ dans $N$, en associant à toute application $A$-linéaire $f : T^n(M) \to N$ l’application $n$-linéaire
 $$
 \bar{f} : (x_1, x_2, \ldots, x_n) \mapsto f(x_1 \otimes x_2 \otimes \cdots \otimes x_n).
 $$
@@ -303,7 +303,7 @@ $$
 
 est commutatif, comme il résulte des définitions (III, p. 43, corollaire).
 
-On peut décrire de façon plus précise le sous-A-module de $\bigotimes_{\lambda \in L} S(M_\lambda)$ auquel $S^n(M)$ s’identifie au moyen de l’isomorphisme $g$. Pour toute partie finie $J$ de $L$, posons $E_J = \bigotimes_{\lambda \in J} S(M_\lambda)$, de sorte que $\bigotimes_{\lambda \in L} S(M_\lambda) = \lim_{\longrightarrow} E_J$ suivant l’ensemble filtrant $\mathcal{F}(L)$ des parties finies de $L$, par définition (III, p. 42). Pour toute famille $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ (ayant donc un support *fini*) telle que $\sum_{\lambda \in L} n_\lambda = n$, et toute partie finie $J$ de $L$ contenant le support de la famille $\nu$, posons
+On peut décrire de façon plus précise le sous-A-module de $\bigotimes_{\lambda \in L} S(M_\lambda)$ auquel $S^n(M)$ s’identifie au moyen de l’isomorphisme $g$. Pour toute partie finie $J$ de $L$, posons $E_J = \bigotimes_{\lambda \in J} S(M_\lambda)$, de sorte que $\bigotimes_{\lambda \in L} S(M_\lambda) = \lim_{\longrightarrow} E_J$ suivant l’ensemble filtrant $\mathscr{F}(L)$ des parties finies de $L$, par définition (III, p. 42). Pour toute famille $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ (ayant donc un support *fini*) telle que $\sum_{\lambda \in L} n_\lambda = n$, et toute partie finie $J$ de $L$ contenant le support de la famille $\nu$, posons
 
 $$
 S^{J,\nu}(M) = \bigotimes_{\lambda \in J} S^{n_\lambda}(M_\lambda)

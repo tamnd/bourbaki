@@ -12,7 +12,7 @@ pdf_pages: 0604-0609
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: b7b5d30baa6c9a8a30217479ebca539286c68deabf67c1262ebf9e3888709c1b
+content_sha256: d08e48984c13e39dc3e03b637e53a5e5fa3769ff02300771d2837daf8c8c189a
 ---
 
 ## INDEX DES NOTATIONS
@@ -61,7 +61,7 @@ $\varepsilon(\sigma), \varepsilon_\sigma$ ($\sigma$ permutation): I, p. 62.
 $\mathfrak{A}_E, \mathfrak{A}_n$: I, p. 62.
 
 F \xrightarrow{i} E \xrightarrow{p} G (E, F, G groupes): I, p. 62.
-F \times_{\tau} G, \mathcal{E}_{\tau} (\tau homomorphisme de G dans Aut(F)): I, p. 64.
+F \times_{\tau} G, \mathscr{E}_{\tau} (\tau homomorphisme de G dans Aut(F)): I, p. 64.
 gf (f \in F, g \in G): I, p. 64.
 (f, g) \cdot_{\tau} (f', g') (f, f' dans F, g, g' dans G): I, p. 64.
 (x, y), (A, B) (x, y éléments, A, B parties d’un groupe G): I, p. 65–66.
@@ -128,7 +128,7 @@ $x \otimes y$ (x \in E (A-module à droite), y \in F (A-module à gauche)): II, 
 $u \otimes v$ (u, v applications linéaires): II, p. 52.
 $u \otimes v$ (u, v applications semi-linéaires): II, p. 54.
 $sA_d$ (A anneau): II, p. 55.
-$\mathcal{L}_2(E, F; G)$ (E, F, G modules sur un anneau commutatif): II, p. 56.
+$\mathscr{L}_2(E, F; G)$ (E, F, G modules sur un anneau commutatif): II, p. 56.
 $\bigotimes_{\lambda \in L} G_\lambda, \bigotimes_{\lambda \in L} x_\lambda$ (($G_\lambda$) famille de $\mathbf{Z}$-modules, $x_\lambda \in G_\lambda$ pour tout $\lambda$): II, p. 66.
 $\bigotimes_{\lambda \in L} v_\lambda$ ($v_\lambda : G_\lambda \to G'_\lambda$ applications $\mathbf{Z}$-linéaires): II, p. 66.
 $\bigotimes_{(c, p, q)} G_\lambda, \bigotimes_{(c, p, q)} x_\lambda, \bigotimes_{(c)} x_\lambda$: II, p. 67.
@@ -136,7 +136,7 @@ $\bigotimes_{(c)} v_\lambda$ ($v_\lambda$ applications $\mathbf{Z}$-linéaires):
 $E_1 \otimes_{A_1} E_2 \otimes_{A_2} E_3 \otimes \cdots \otimes_{A_{n-2}} E_{n-1} \otimes_{A_{n-1}} E_n$: II, p. 70.
 $x_1 \otimes x_2 \otimes \cdots \otimes x_n$: II, p. 70.
 $u_1 \otimes u_2 \otimes \cdots \otimes u_n$ ($u_i$ applications linéaires): II, p. 70.
-$\mathcal{L}_n(E_1, \ldots, E_n; G)$ ($E_1, \ldots, E_n, G$ modules sur un anneau commutatif): II, p. 71.
+$\mathscr{L}_n(E_1, \ldots, E_n; G)$ ($E_1, \ldots, E_n, G$ modules sur un anneau commutatif): II, p. 71.
 $Tr(u)$ (u endomorphisme d’un module projectif de type fini sur un anneau commutatif): II, p. 78.
 $\rho^*(E)$, E_{(B)} (E A-module, $\rho : A \to B$ homomorphisme d’anneaux): II, p. 82.
 $\rho^*(u)$, u_{(B)} ($\rho : A \to B$ homomorphisme d’anneaux, u homomorphisme de A-modules): II, p. 83.

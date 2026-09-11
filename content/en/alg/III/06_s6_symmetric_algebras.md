@@ -38,7 +38,7 @@ subsections:
       pdf_page: 527
 statements: 17
 exercises: 5
-content_sha256: 7f4b0decff4799e889dd38358965a5bc9fb77813b04c8c87de2e5c514aa78d3c
+content_sha256: c190d357f4119eec01190353a132ffb2391abe105d6d6797abe8e8ab04c5ad59
 ---
 
 ## § 6. SYMMETRIC ALGEBRAS
@@ -158,13 +158,13 @@ N is called the vector subspace of M *associated* with z.
 
 ### 3. n-th symmetric power of a module and symmetric multilinear mappings
 
-Let X, Y be two sets and $n$ an integer $\geqslant 1$. A *symmetric mapping* of $X^n$ into Y is any mapping $f : X^n \to Y$ such that, for every permutation $\sigma \in \mathcal{S}_n$ and every element $(x_i) \in X^n$,
+Let X, Y be two sets and $n$ an integer $\geqslant 1$. A *symmetric mapping* of $X^n$ into Y is any mapping $f : X^n \to Y$ such that, for every permutation $\sigma \in \mathscr{S}_n$ and every element $(x_i) \in X^n$,
 
 $$
 f(x_{\sigma(1)}, x_{\sigma(2)}, \ldots, x_{\sigma(n)}) = f(x_1, x_2, \ldots, x_n).
 $$
 
-As the transpositions which exchange two consecutive integers generate the group $\mathcal{S}_n$ (I, § 5, no. 7), it suffices that condition (5) hold when $\sigma$ is such a transposition.
+As the transpositions which exchange two consecutive integers generate the group $\mathscr{S}_n$ (I, § 5, no. 7), it suffices that condition (5) hold when $\sigma$ is such a transposition.
 
 When Y is a *module* over a commutative ring A, clearly the set of symmetric mappings of $X^n$ into Y is a *submodule* of the A-module $Y^{X^n}$ of all mappings of $X^n$ into Y.
 
@@ -178,7 +178,7 @@ $$
 
 *(where on the right-hand side the product is taken in the algebra $S(M)$), a bijective A-linear mapping is obtained of the A-module $\operatorname{Hom}_A(S^n(M), N)$ onto the A-module of symmetric n-linear mappings of $M^n$ into N.*
 
-Recall (II, § 3, no. 9) that there is a canonical bijection of the A-module $\operatorname{Hom}_A(T^n(M), N)$ onto the A-module $\mathcal{L}_n(M, \ldots, M; N)$ of *all* n-linear mappings of $M^n$ into N obtained by associating with every A-linear mapping $f : T^n(M) \to N$ the n-linear mapping
+Recall (II, § 3, no. 9) that there is a canonical bijection of the A-module $\operatorname{Hom}_A(T^n(M), N)$ onto the A-module $\mathscr{L}_n(M, \ldots, M; N)$ of *all* n-linear mappings of $M^n$ into N obtained by associating with every A-linear mapping $f : T^n(M) \to N$ the n-linear mapping
 
 $$
 \tilde{f} : (x_1, x_2, \ldots, x_n) \mapsto f(x_1 \otimes x_2 \otimes \cdots \otimes x_n).
@@ -337,7 +337,7 @@ $$
 $$
 is commutative, as follows from the definitions (§ 4, no. 5, Corollary to Proposition 8).
 
-The sub-$A$-module of $\bigotimes_{\lambda \in L} S(M_\lambda)$ with which $S^n(M)$ is identified by means of the isomorphism $g$ can be described more precisely. For every finite subset $J$ of $L$, we write $E_J = \bigotimes_{\lambda \in J} S(M_\lambda)$, so that $\bigotimes_{\lambda \in L} S(M_\lambda) = \varprojlim E_J$ relative to the directed set $\mathcal{F}(L)$ of finite subsets of $L$, by definition (§ 4, no. 5). For every family $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ (thus having *finite* support) such that $\sum_{\lambda \in L} n_\lambda = n$ and every finite subset $J$ of $L$ containing the support of the family $\nu$, we write
+The sub-$A$-module of $\bigotimes_{\lambda \in L} S(M_\lambda)$ with which $S^n(M)$ is identified by means of the isomorphism $g$ can be described more precisely. For every finite subset $J$ of $L$, we write $E_J = \bigotimes_{\lambda \in J} S(M_\lambda)$, so that $\bigotimes_{\lambda \in L} S(M_\lambda) = \varprojlim E_J$ relative to the directed set $\mathscr{F}(L)$ of finite subsets of $L$, by definition (§ 4, no. 5). For every family $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ (thus having *finite* support) such that $\sum_{\lambda \in L} n_\lambda = n$ and every finite subset $J$ of $L$ containing the support of the family $\nu$, we write
 
 $$
 S^{J,\nu}(M) = \bigotimes_{\lambda \in J} S^{n_\lambda}(M_\lambda)

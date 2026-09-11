@@ -61,9 +61,9 @@ subsections:
       pdf_page: 136
 statements: 31
 exercises: 16
-content_sha256: c0fbad15cfceb973a20327d2ed9055c028b5c9170ed25c44741a9a4f0b07088d
+content_sha256: 3e22eb14a4cf66c01186cd3aa351a984e4d4d5812a91bb981b6e9f5fcff47997
 translated_from: content/en/alg/I/08_s8_rings.md
-source_content_sha256: 82f3b9f6c044b6246eb0c2be0d3c2c67423e560bf34edc83e7cf960aed7cd234
+source_content_sha256: 600239b0486664ec0165048e94fa40ec6465929fc46d8da2e621fa3bd93e27d1
 translation_model: gpt-5-6, gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-d5395ffa
 glossary_version: 34
@@ -229,7 +229,7 @@ $$
 (-1)^n n! x_1 x_2 \cdots x_n = \sum_{H \subset I} (-1)^{\mathrm{Card}\, H}(x_H)^n.
 $$
 
-Cho $C$ là tập hợp các ánh xạ từ $I$ vào $\{0, 1\}$. Nếu mỗi $H \subset I$ được gửi tới hàm đặc trưng của nó, ta thu được một song ánh từ $\mathcal{P}(I)$ lên $C$. Do đó vế phải của (16) bằng:
+Cho $C$ là tập hợp các ánh xạ từ $I$ vào $\{0, 1\}$. Nếu mỗi $H \subset I$ được gửi tới hàm đặc trưng của nó, ta thu được một song ánh từ $\mathscr{P}(I)$ lên $C$. Do đó vế phải của (16) bằng:
 
 $$
 \sum_{a \in C} (-1)^{a(1)+\cdots+a(n)} \left( \sum_{i \in I} a(i) x_i \right)^n

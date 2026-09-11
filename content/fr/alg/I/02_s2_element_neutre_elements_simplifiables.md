@@ -45,7 +45,7 @@ subsections:
       pdf_page: 33
 statements: 32
 exercises: 17
-content_sha256: 4880a04b336c37ceb7d316aa21575e7af6a3cff1983d9e99b72ead7f2fd1608f
+content_sha256: 6cd82371ad499c7e4fc53f696e4bd99a01dd048130d9fa0a268632dba11a8580
 ---
 
 ## § 2. ÉLÉMENT NEUTRE; ÉLÉMENTS SIMPLIFIABLES; ÉLÉMENTS INVERSIBLES
@@ -260,10 +260,10 @@ Soient E un monoïde *commutatif*, S une partie de E et S' le sous-monoïde de E
 
 #### Lemme 1 {#alg-i-s2-lem-1 .statement}
 
-Dans $E \times S'$, la relation $R \mathbin{\mathcal{R}} x, y$ que voici:
+Dans $E \times S'$, la relation $R \mathbin{\mathscr{R}} x, y$ que voici:
 « il existe a, b dans E et p, q, s dans S' tels que $x = (a, p), y = (b, q)$, et $aqs = bps$ » est une relation d’équivalence compatible avec la loi du monoïde produit $E \times S'$.
 
-Il est immédiat que R est réflexive et symétrique. Soient $x = (a, p), y = (b, q)$ et $z = (c, r)$ des éléments de $E \times S'$ tels que l’on ait $R \mathbin{\mathcal{R}} x, y$ et $R \mathbin{\mathcal{R}} y, z$. Il existe donc deux éléments s et t de S' tels que
+Il est immédiat que R est réflexive et symétrique. Soient $x = (a, p), y = (b, q)$ et $z = (c, r)$ des éléments de $E \times S'$ tels que l’on ait $R \mathbin{\mathscr{R}} x, y$ et $R \mathbin{\mathscr{R}} y, z$. Il existe donc deux éléments s et t de S' tels que
 $$
 aqs = bps, \qquad brt = cqt,
 $$
@@ -271,13 +271,13 @@ d’où l’on déduit
 $$
 ar(stq) = bpsrt = cp(stq)
 $$
-donc $R \mathbin{\mathcal{R}} x, z$, car stq appartient à S'. La relation R est donc transitive.
+donc $R \mathbin{\mathscr{R}} x, z$, car stq appartient à S'. La relation R est donc transitive.
 
-Soient par ailleurs $x = (a, p), y = (b, q), x' = (a', p')$ et $y' = (b', q')$ des éléments de $E \times S'$ tels que l’on ait $R \mathbin{\mathcal{R}} x, y$ et $R \mathbin{\mathcal{R}} x', y'$. Il existe s et s' dans S' tels que
+Soient par ailleurs $x = (a, p), y = (b, q), x' = (a', p')$ et $y' = (b', q')$ des éléments de $E \times S'$ tels que l’on ait $R \mathbin{\mathscr{R}} x, y$ et $R \mathbin{\mathscr{R}} x', y'$. Il existe s et s' dans S' tels que
 $$
 aqs = bps, \qquad a'q's' = b'p's'
 $$
-d’où l’on déduit $(aa')(qq')(ss') = (bb')(pp')(ss')$, donc $R \mathbin{\mathcal{R}} xx', yy'$ car ss' $\in S'$. La relation d’équivalence R est donc compatible avec la loi de composition de $E \times S'$.
+d’où l’on déduit $(aa')(qq')(ss') = (bb')(pp')(ss')$, donc $R \mathbin{\mathscr{R}} xx', yy'$ car ss' $\in S'$. La relation d’équivalence R est donc compatible avec la loi de composition de $E \times S'$.
 
 Le magma quotient $(E \times S')/R$ est un monoïde commutatif.
 

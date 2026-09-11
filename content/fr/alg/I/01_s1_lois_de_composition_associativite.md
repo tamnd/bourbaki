@@ -36,7 +36,7 @@ subsections:
       pdf_page: 20
 statements: 39
 exercises: 16
-content_sha256: 98981d8a76eff4ef9c3ae9531a90332a2920fc7ebc27e9bd371149b6a89c8204
+content_sha256: fc49cfc51b454432caf238e360515b3d9c8fce04de20f440b3eca2f4a7a8e020
 ---
 
 ## § 1. LOIS DE COMPOSITION; ASSOCIATIVITÉ; COMMUTATIVITÉ
@@ -99,7 +99,7 @@ L’application identique d’un magma E est un homomorphisme, le composé de de
 
 Pour qu’une application $f$ de E dans E′ soit un isomorphisme, il faut et il
 
-¹ Voici un exemple où ce principe de notation prêterait à confusion et ne devra donc pas s’appliquer. Supposons qu’il s’agisse de la loi de composition $(A, B) \mapsto A \cup B$ entre parties d’un ensemble E ; on en déduit une loi de composition $(\mathcal{A}, \mathcal{B}) \mapsto F(\mathcal{A}, \mathcal{B})$, entre parties de $\mathfrak{P}(E)$, $F(\mathcal{A}, \mathcal{B})$ étant l’ensemble des $A \cup B$ pour $A \in \mathcal{A}, B \in \mathcal{B}$ ; mais $F(\mathcal{A}, \mathcal{B})$ ne devra pas se noter $\mathcal{A} \cup \mathcal{B}$, cette notation ayant déjà un sens différent (réunion de $\mathcal{A}$ et $\mathcal{B}$ considérées comme parties de $\mathfrak{P}(E)$).
+¹ Voici un exemple où ce principe de notation prêterait à confusion et ne devra donc pas s’appliquer. Supposons qu’il s’agisse de la loi de composition $(A, B) \mapsto A \cup B$ entre parties d’un ensemble E ; on en déduit une loi de composition $(\mathscr{A}, \mathscr{B}) \mapsto F(\mathscr{A}, \mathscr{B})$, entre parties de $\mathfrak{P}(E)$, $F(\mathscr{A}, \mathscr{B})$ étant l’ensemble des $A \cup B$ pour $A \in \mathscr{A}, B \in \mathscr{B}$ ; mais $F(\mathscr{A}, \mathscr{B})$ ne devra pas se noter $\mathscr{A} \cup \mathscr{B}$, cette notation ayant déjà un sens différent (réunion de $\mathscr{A}$ et $\mathscr{B}$ considérées comme parties de $\mathfrak{P}(E)$).
 
 suffit que ce soit un homomorphisme bijectif, et $f^{-1}$ est alors un isomorphisme de $E'$ sur $E$.
 

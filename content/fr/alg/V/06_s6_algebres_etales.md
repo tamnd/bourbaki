@@ -41,7 +41,7 @@ subsections:
       pdf_page: 137
 statements: 20
 exercises: 2
-content_sha256: 8181457df575d1d33da33311edde292d95015c19f2ec41a221890f0ec1d9c27a
+content_sha256: fbf2c9f9cdef16161c0aea94d3854ca972eb289ad761d1948e5e34e4f8655f7e
 ---
 
 ## § 6. ALGÈBRES ÉTALES
@@ -60,15 +60,15 @@ pour $x \in V, \alpha \in L$ et $f, g$ dans Hom_K(V, L). Soient $V_{(L)} = L \ot
 
 #### Théorème 1 {#alg-v-s6-thm-1 .statement}
 
-Soient L une extension d’un corps K et A une algèbre sur K ; soit $\mathcal{H}$ l’ensemble des homomorphismes de K-algèbres de A dans L. Alors $\mathcal{H}$ est une partie libre de l’espace vectoriel $\mathrm{Hom}_K(A, L)$ sur L.
+Soient L une extension d’un corps K et A une algèbre sur K ; soit $\mathscr{H}$ l’ensemble des homomorphismes de K-algèbres de A dans L. Alors $\mathscr{H}$ est une partie libre de l’espace vectoriel $\mathrm{Hom}_K(A, L)$ sur L.
 
-Montrons, par récurrence sur l’entier $n \geqslant 0$, que toute suite $(u_1, \ldots, u_n)$ d’éléments distincts de $\mathcal{H}$ est libre. Le cas $n = 0$ étant trivial, supposons désormais $n \geqslant 1$; soient $\alpha_1, \ldots, \alpha_n$ des éléments de L tels que l’on ait $\sum_{i=1}^n \alpha_i u_i = 0$. Pour $x, y$ dans A, on a
+Montrons, par récurrence sur l’entier $n \geqslant 0$, que toute suite $(u_1, \ldots, u_n)$ d’éléments distincts de $\mathscr{H}$ est libre. Le cas $n = 0$ étant trivial, supposons désormais $n \geqslant 1$; soient $\alpha_1, \ldots, \alpha_n$ des éléments de L tels que l’on ait $\sum_{i=1}^n \alpha_i u_i = 0$. Pour $x, y$ dans A, on a
 
 $$
 \sum_{i=1}^{n-1} \alpha_i [u_i(x) - u_n(x)] \cdot u_i(y) = \sum_{i=1}^n \alpha_i u_i(xy) - u_n(x) \sum_{i=1}^n \alpha_i u_i(y) = 0 ,
 $$
 
-d’où $\sum_{i=1}^{n-1} \alpha_i [u_i(x) - u_n(x)] \cdot u_i = 0$. D’après l’hypothèse de récurrence, les éléments $u_1, \ldots, u_{n-1}$ de $\mathcal{H}$ sont linéairement indépendants, d’où $\alpha_i [u_i(x) - u_n(x)] = 0$ pour $1 \leqslant i \leqslant n-1$ et pour tout $x$ dans A. Les $u_i$ étant distincts, cela implique $\alpha_i = 0$ pour $i \neq n$, donc $\alpha_n u_n = 0$, d’où $\alpha_n = \alpha_n u_n(1) = 0$ (en notant 1 l’élément unité de A). On a donc prouvé que $\alpha_1, \ldots, \alpha_{n-1}, \alpha_n$ sont nuls, d’où le théorème.
+d’où $\sum_{i=1}^{n-1} \alpha_i [u_i(x) - u_n(x)] \cdot u_i = 0$. D’après l’hypothèse de récurrence, les éléments $u_1, \ldots, u_{n-1}$ de $\mathscr{H}$ sont linéairement indépendants, d’où $\alpha_i [u_i(x) - u_n(x)] = 0$ pour $1 \leqslant i \leqslant n-1$ et pour tout $x$ dans A. Les $u_i$ étant distincts, cela implique $\alpha_i = 0$ pour $i \neq n$, donc $\alpha_n u_n = 0$, d’où $\alpha_n = \alpha_n u_n(1) = 0$ (en notant 1 l’élément unité de A). On a donc prouvé que $\alpha_1, \ldots, \alpha_{n-1}, \alpha_n$ sont nuls, d’où le théorème.
 
 #### Corollaire 1 {#alg-v-s6-thm-1-cor-1 .statement}
 
@@ -142,9 +142,9 @@ Inversement, supposons d) vérifiée et considérons le $A$-module $A_s$. Il exi
 
 #### Corollaire {#alg-v-s6-n3-cor-1 .statement}
 
-Soient L une extension de K et $\mathcal{H}$ l’ensemble des homomorphismes d’algèbres de A dans L. On a Card $\mathcal{H} \leq [A : K]$, avec égalité si et seulement si A est diagonalisée par L. Si A est diagonalisée par L, alors $\mathcal{H}$ est une base du L-espace vectoriel $\mathrm{Hom}_K(A, L)$.
+Soient L une extension de K et $\mathscr{H}$ l’ensemble des homomorphismes d’algèbres de A dans L. On a Card $\mathscr{H} \leq [A : K]$, avec égalité si et seulement si A est diagonalisée par L. Si A est diagonalisée par L, alors $\mathscr{H}$ est une base du L-espace vectoriel $\mathrm{Hom}_K(A, L)$.
 
-L’espace vectoriel $\mathrm{Hom}_K(A, L)$ sur L est de dimension $[A : K]$ d’après la formule (2) et $\mathcal{H}$ est une partie libre de $\mathrm{Hom}_K(A, L)$ d’après le th. 1 (V, p. 26). On a donc Card $\mathcal{H} \leq [A : K]$ avec égalité si et seulement si $\mathcal{H}$ est une base de $\mathrm{Hom}_K(A, L)$. Il existe un isomorphisme de L-espaces vectoriels, soit $\pi : \mathrm{Hom}_K(A, L) \to A_{(L)}^*$, caractérisé par $u(x) = (\pi u)(1 \otimes x)$ pour $x \in A$, et $\pi$ applique $\mathcal{H}$ sur l’ensemble $\mathcal{H}_L$ des homomorphismes de L-algèbres de $A_{(L)}$ dans L. Enfin, l’équivalence de a) et c) dans la prop. 1 montre que l’algèbre $A_{(L)}$ sur L est diagonalisable si et seulement si $\mathcal{H}_L$ engendre l’espace vectoriel $A_{(L)}^*$ sur L. Ceci prouve le corollaire.
+L’espace vectoriel $\mathrm{Hom}_K(A, L)$ sur L est de dimension $[A : K]$ d’après la formule (2) et $\mathscr{H}$ est une partie libre de $\mathrm{Hom}_K(A, L)$ d’après le th. 1 (V, p. 26). On a donc Card $\mathscr{H} \leq [A : K]$ avec égalité si et seulement si $\mathscr{H}$ est une base de $\mathrm{Hom}_K(A, L)$. Il existe un isomorphisme de L-espaces vectoriels, soit $\pi : \mathrm{Hom}_K(A, L) \to A_{(L)}^*$, caractérisé par $u(x) = (\pi u)(1 \otimes x)$ pour $x \in A$, et $\pi$ applique $\mathscr{H}$ sur l’ensemble $\mathscr{H}_L$ des homomorphismes de L-algèbres de $A_{(L)}$ dans L. Enfin, l’équivalence de a) et c) dans la prop. 1 montre que l’algèbre $A_{(L)}$ sur L est diagonalisable si et seulement si $\mathscr{H}_L$ engendre l’espace vectoriel $A_{(L)}^*$ sur L. Ceci prouve le corollaire.
 
 #### Proposition 2 {#alg-v-s6-prop-2 .statement}
 
@@ -153,7 +153,7 @@ a) L’algèbre A est étale.
 b) Il existe une extension de degré fini de K qui diagonalise A.
 c) L’extension $\Omega$ de K diagonalise A.
 
-Supposons que A soit étale. Soit n le degré de A sur K, soit L une extension de K qui diagonalise A, et soit $\mathcal{H}$ l’ensemble des homomorphismes d’algèbres de A dans L. On a Card $\mathcal{H} = n$ d’après le cor. de la prop. 1. D’autre part, pour tout $u \in \mathcal{H}$, on a $[u(A) : K] \leq n$. D’après V, p. 17, th. 2, la sous-extension L’ de L engendrée par les images des éléments de $\mathcal{H}$ est de degré fini sur K. Comme il existe n homomorphismes distincts de A dans L’, l’extension L’ diagonalise A d’après le cor. de la prop. 1. Ceci montre que a) entraîne b).
+Supposons que A soit étale. Soit n le degré de A sur K, soit L une extension de K qui diagonalise A, et soit $\mathscr{H}$ l’ensemble des homomorphismes d’algèbres de A dans L. On a Card $\mathscr{H} = n$ d’après le cor. de la prop. 1. D’autre part, pour tout $u \in \mathscr{H}$, on a $[u(A) : K] \leq n$. D’après V, p. 17, th. 2, la sous-extension L’ de L engendrée par les images des éléments de $\mathscr{H}$ est de degré fini sur K. Comme il existe n homomorphismes distincts de A dans L’, l’extension L’ diagonalise A d’après le cor. de la prop. 1. Ceci montre que a) entraîne b).
 
 Comme toute extension de degré fini de K est isomorphe à une sous-extension de $\Omega$ (V, p. 20, th. 1), b) entraîne c). Enfin, c) entraîne évidemment a).
 
@@ -197,7 +197,7 @@ $$
 [A \otimes_K B : K]_s = [A : K]_s \cdot [B : K]_s .
 $$
 
-Soit $L$ une extension algébriquement close de $K$; notons $\mathcal{H}(A)$ l’ensemble des homomorphismes d’algèbres de $A$ dans $L$, et définissons de manière analogue $\mathcal{H}(B)$ et $\mathcal{H}(A \otimes_K B)$. Par définition, on a Card $\mathcal{H}(A) = [A : K]_s$ et des formules analogues pour $[B : K]_s$ et $[A \otimes_K B : K]_s$. De plus (III, p. 38, formule (6)), la formule $(u * v) (a \otimes b) = u(a) v(b)$ définit une bijection $(u, v) \mapsto u * v$ de $\mathcal{H}(A) \times \mathcal{H}(B)$ sur $\mathcal{H}(A \otimes_K B)$, d’où la formule (7).
+Soit $L$ une extension algébriquement close de $K$; notons $\mathscr{H}(A)$ l’ensemble des homomorphismes d’algèbres de $A$ dans $L$, et définissons de manière analogue $\mathscr{H}(B)$ et $\mathscr{H}(A \otimes_K B)$. Par définition, on a Card $\mathscr{H}(A) = [A : K]_s$ et des formules analogues pour $[B : K]_s$ et $[A \otimes_K B : K]_s$. De plus (III, p. 38, formule (6)), la formule $(u * v) (a \otimes b) = u(a) v(b)$ définit une bijection $(u, v) \mapsto u * v$ de $\mathscr{H}(A) \times \mathscr{H}(B)$ sur $\mathscr{H}(A \otimes_K B)$, d’où la formule (7).
 
 Soit $K'$ une extension de $K$; prouvons la formule
 
@@ -219,7 +219,7 @@ En effet, soit $S$ (resp. $T$) l’ensemble des $K$-homomorphismes de $K'$ (resp
 
 *Soit $A$ une algèbre commutative de degré fini sur $K$. On a* $[A : K]_s \leq [A : K]$, *avec égalité si et seulement si* $A$ *est étale*.
 
-Soient $\Omega$ une clôture algébrique de $K$ et $\mathcal{H}$ l’ensemble des homomorphismes d’algèbres de $A$ dans $\Omega$. On a Card $\mathcal{H} = [A : K]_s$, et $A$ est étale si et seulement si $A$ est diagonalisée par l’extension $\Omega$ de $K$ (V, p. 29, prop. 2). La prop. 4 résulte alors du cor. de V, p. 29.
+Soient $\Omega$ une clôture algébrique de $K$ et $\mathscr{H}$ l’ensemble des homomorphismes d’algèbres de $A$ dans $\Omega$. On a Card $\mathscr{H} = [A : K]_s$, et $A$ est étale si et seulement si $A$ est diagonalisée par l’extension $\Omega$ de $K$ (V, p. 29, prop. 2). La prop. 4 résulte alors du cor. de V, p. 29.
 
 #### Corollaire 1 {#alg-v-s6-prop-4-cor-1 .statement}
 

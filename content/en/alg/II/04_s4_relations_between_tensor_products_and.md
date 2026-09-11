@@ -30,7 +30,7 @@ subsections:
       pdf_page: 298
 statements: 15
 exercises: 9
-content_sha256: 4daa0198f39eb8665aeb0fb853979c7c3f01d43e4213ff03ca386beeb56265ae
+content_sha256: 27990209087c39671cad33c6a9b2bf6a92a19d13735d50ad71c6137ca459dfb8
 ---
 
 ## § 4. RELATIONS BETWEEN TENSOR PRODUCTS AND HOMOMORPHISM MODULES
@@ -115,7 +115,7 @@ $$
 \mathrm{Hom}_C(E \otimes_C F, G), \qquad \mathrm{Hom}_C(E, \mathrm{Hom}_C(F, G)),
 $$
 $$
-\mathrm{Hom}_C(F, \mathrm{Hom}_C(E, G)), \qquad \mathcal{L}_2(E, F; G)
+\mathrm{Hom}_C(F, \mathrm{Hom}_C(E, G)), \qquad \mathscr{L}_2(E, F; G)
 $$
 *are canonically isomorphic.*
 

@@ -24,7 +24,7 @@ subsections:
       pdf_page: 116
 statements: 42
 exercises: 0
-content_sha256: 48a421468ccb8cc45819e96917ad2bad2e8ad97f33e3b9b0828d13a08e5e6bb0
+content_sha256: 9ace1070ffce53672166906a1166d8f117e0deabe1f5cca37974e7aec4e8ac01
 ---
 
 ## § 7. Formes hermitiennes et corps ordonnés
@@ -152,7 +152,7 @@ Soit en effet V un sous-espace de E stable pour S ; quels que soient x ∈ V⁰,
 
 #### Corollaire 1 {#alg-ix-s7-thm-2-cor-1 .statement}
 
-On suppose que A = K ou que A = K(i). Soit B une sous-algèbre de $\mathcal{L}_A(E)$, stable pour l’application u → u*. Alors E est un B-module semi-simple, et est somme directe de sous-modules simples deux à deux orthogonaux. L’algèbre B est semi-simple.
+On suppose que A = K ou que A = K(i). Soit B une sous-algèbre de $\mathscr{L}_A(E)$, stable pour l’application u → u*. Alors E est un B-module semi-simple, et est somme directe de sous-modules simples deux à deux orthogonaux. L’algèbre B est semi-simple.
 
 En effet, comme tout sous-B-module V de E admet un supplémentaire, par exemple V⁰, le B-module V est semi-simple (chap. VIII, § 3, no 3, prop. 7). Comme tout sous-B-module ≠ {0} et minimal de E est simple, E est somme directe de sous-modules simples deux à deux orthogonaux. Enfin B est une algèbre semi-simple, puisqu’elle admet un module semi-simple et fidèle E dont le contremodule est de type fini (chap. VIII, § 5, no 1, prop. 3).
 
@@ -166,7 +166,7 @@ La première assertion résulte du chap. VIII, § 9, no 1, prop. 2, puisque B es
 
 Soit u un endomorphisme normal de E. Lorsque A est égal à K(i) ou au corps des quaternions sur K, il existe une base orthonormale (pour Φ) de E formée de vecteurs propres de u. Lorsque A = K, u est semi-simple et E est somme directe de sous-espaces stables pour u, deux à deux orthogonaux, et de dimension 1 ou 2.
 
-Examinons d’abord le cas où A est commutatif (A = K ou A = K(i)). Alors la sous-algèbre B = A[u, u*] de $\mathcal{L}_A(E)$ est commutative puisque u est normal ; elle est stable par l’application $\varphi \to \varphi^*$ en vertu des formules (32) et (33) du § 1, no 8. L’assertion relative au cas A = K résulte alors aussitôt du cor. 2 du th. 2. Lorsque A = K(i), ce corollaire montre aussi que E est somme directe de sous-espaces vectoriels $Ax_i$ ($i = 1, \ldots, n$) de dimension 1, deux à deux orthogonaux et stables pour u ; si l’on pose $e_i = (\Phi(x_i, x_i))^{-1/2} x_i$, $(e_i)$ est la base orthonormale cherchée.
+Examinons d’abord le cas où A est commutatif (A = K ou A = K(i)). Alors la sous-algèbre B = A[u, u*] de $\mathscr{L}_A(E)$ est commutative puisque u est normal ; elle est stable par l’application $\varphi \to \varphi^*$ en vertu des formules (32) et (33) du § 1, no 8. L’assertion relative au cas A = K résulte alors aussitôt du cor. 2 du th. 2. Lorsque A = K(i), ce corollaire montre aussi que E est somme directe de sous-espaces vectoriels $Ax_i$ ($i = 1, \ldots, n$) de dimension 1, deux à deux orthogonaux et stables pour u ; si l’on pose $e_i = (\Phi(x_i, x_i))^{-1/2} x_i$, $(e_i)$ est la base orthonormale cherchée.
 
 Lorsque A est le corps des quaternions sur K, il nous suffira de même de démontrer, en vertu du th. 2, que tout élément minimal de l’ensemble des sous-espaces $\neq \{0\}$ de E stables par u et $u^*$ est de dimension 1. Or un tel sous-espace V contient nécessairement un vecteur propre $x \neq 0$ de u (*), comme on le voit en remarquant que le corps de quaternions A contient K(i) comme sous-corps algébriquement clos, et en restreignant à K(i) le corps des
 

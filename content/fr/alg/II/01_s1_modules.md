@@ -68,7 +68,7 @@ subsections:
       pdf_page: 210
 statements: 101
 exercises: 27
-content_sha256: b4b28b6d75dc77acfe9906f6f9c66595795db5a2a42ad9cb4f6e8f929e93d20d
+content_sha256: 2e06c39aabc65cfc4bd7360ab41d47d960fff0e93904d8ef9ce133abfdd93269
 ---
 
 ## § 1. MODULES
@@ -119,9 +119,9 @@ Sur un groupe commutatif G (noté additivement), la structure de groupe à opér
 
 #### Exemple 3 {#alg-ii-s1-n1-exa-3 .statement}
 
-Soient E un groupe commutatif noté additivement, $\mathcal{E}$ l’anneau des endomorphismes de E (I, p. 96: on rappelle que le produit $fg$ de deux endomorphismes est par définition l’endomorphisme composé $f \circ g$). La loi d’action $(f, x) \mapsto f(x)$ entre opérateurs $f \in \mathcal{E}$ et éléments $x \in E$ définit sur E une structure canonique de $\mathcal{E}$-module à gauche.
+Soient E un groupe commutatif noté additivement, $\mathscr{E}$ l’anneau des endomorphismes de E (I, p. 96: on rappelle que le produit $fg$ de deux endomorphismes est par définition l’endomorphisme composé $f \circ g$). La loi d’action $(f, x) \mapsto f(x)$ entre opérateurs $f \in \mathscr{E}$ et éléments $x \in E$ définit sur E une structure canonique de $\mathscr{E}$-module à gauche.
 
-Considérons maintenant un anneau A et supposons donnée sur E une structure de A-module à gauche (resp. à droite); pour tout $\alpha \in A$, l’homothétie $h_\alpha : x \mapsto \alpha x$ (resp. $x \mapsto x\alpha$) appartient à $\mathcal{E}$; l’application $\varphi : \alpha \mapsto h_\alpha$ est un homomorphisme de l’anneau A (resp. de l’anneau opposé $A^0$) dans l’anneau $\mathcal{E}$ et on a par définition $\alpha x = (\varphi(\alpha))(x)$ (resp. $x\alpha = (\varphi(\alpha))(x)$). Réciproquement, la donnée d’un homomorphisme d’anneaux $\varphi : A \to \mathcal{E}$ (resp. $\varphi : A^0 \to \mathcal{E}$) définit sur E une structure de A-module à gauche (resp. à droite) par les formules précédentes. Autrement dit, se donner une structure de A-module à gauche (resp. à droite) sur un groupe additif E, ayant pour loi additive la loi de groupe donnée, équivaut à se donner un homomorphisme d’anneaux $A \to \mathcal{E}$ (resp. $A^0 \to \mathcal{E}$).
+Considérons maintenant un anneau A et supposons donnée sur E une structure de A-module à gauche (resp. à droite); pour tout $\alpha \in A$, l’homothétie $h_\alpha : x \mapsto \alpha x$ (resp. $x \mapsto x\alpha$) appartient à $\mathscr{E}$; l’application $\varphi : \alpha \mapsto h_\alpha$ est un homomorphisme de l’anneau A (resp. de l’anneau opposé $A^0$) dans l’anneau $\mathscr{E}$ et on a par définition $\alpha x = (\varphi(\alpha))(x)$ (resp. $x\alpha = (\varphi(\alpha))(x)$). Réciproquement, la donnée d’un homomorphisme d’anneaux $\varphi : A \to \mathscr{E}$ (resp. $\varphi : A^0 \to \mathscr{E}$) définit sur E une structure de A-module à gauche (resp. à droite) par les formules précédentes. Autrement dit, se donner une structure de A-module à gauche (resp. à droite) sur un groupe additif E, ayant pour loi additive la loi de groupe donnée, équivaut à se donner un homomorphisme d’anneaux $A \to \mathscr{E}$ (resp. $A^0 \to \mathscr{E}$).
 
 #### Définition 2 {#alg-ii-s1-def-2 .statement}
 
@@ -1124,7 +1124,7 @@ Il est immédiat que l’annulateur d’une partie quelconque S de E est un idé
 
 L’annulateur d’un sous-module M de E est un idéal bilatère de A; en effet, si $\alpha x = 0$ pour tout $x \in M$, on a aussi $\alpha (\beta x) = 0$ pour tout $x \in M$ et tout $\beta \in A$, donc $\alpha \beta$ appartient à l’annulateur de M pour tout $\beta \in A$. En particulier l’annulateur de E est un idéal bilatère de A.
 
-Pour tout $\alpha \in A$, soit $h_\alpha$ l’homothétie $x \mapsto \alpha x$; on sait que l’application $\alpha \mapsto h_\alpha$ de A dans l’anneau $\mathcal{E} = \mathrm{Hom}_\mathbf{Z}(E, E)$ des endomorphismes du groupe commutatif (sans opérateur) E, est un homomorphisme d’anneaux (II, p. 43). L’image réciproque de 0 par cet homomorphisme est l’annulateur $a$ de E; l’image de A par l’homomorphisme $\alpha \mapsto h_\alpha$ est donc isomorphe à l’anneau quotient $A/a$. On dit que le module E est fidèle si son annulateur $a$ est réduit à 0.
+Pour tout $\alpha \in A$, soit $h_\alpha$ l’homothétie $x \mapsto \alpha x$; on sait que l’application $\alpha \mapsto h_\alpha$ de A dans l’anneau $\mathscr{E} = \mathrm{Hom}_\mathbf{Z}(E, E)$ des endomorphismes du groupe commutatif (sans opérateur) E, est un homomorphisme d’anneaux (II, p. 43). L’image réciproque de 0 par cet homomorphisme est l’annulateur $a$ de E; l’image de A par l’homomorphisme $\alpha \mapsto h_\alpha$ est donc isomorphe à l’anneau quotient $A/a$. On dit que le module E est fidèle si son annulateur $a$ est réduit à 0.
 
 Soient E un A-module quelconque, $a$ un idéal bilatère de A contenu dans Ann(E), et soit $\dot{\alpha}$ un élément de l’anneau quotient $A/a$; pour tout $x \in E$, l’élément $\alpha x$ est le même pour tous les $\alpha \in A$ appartenant à la classe $\dot{\alpha}$ mod. $a$; si on désigne cet élément par $\dot{\alpha} x$, on voit aussitôt que l’application $(\dot{\alpha}, x) \mapsto \dot{\alpha} x$ définit (avec l’addition dans E) une structure de $(A/a)$-module sur E. Lorsqu’on prend $a = \mathrm{Ann}(E)$, le $(A/a)$-module E ainsi défini est fidèle; nous dirons que c’est le module fidèle associé au A-module E. On observera que tout sous-module d’un A-module E est aussi un sous-module du module fidèle associé, et réciproquement.
 
@@ -1257,7 +1257,7 @@ On voit donc que pour l’espèce de structure définie par la donnée sur un co
 
 ### 14. Multimodules
 
-Soient $A$, $B$ deux anneaux, et considérons sur un ensemble $E$ deux structures de module à gauche ayant la même loi additive, et dont les anneaux d’opérateurs sont respectivement $A$ et $B$; soit $\mathcal{E}$ l’anneau des endomorphismes du groupe additif $E$, et pour tout $\alpha \in A$ (resp. $\beta \in B$) désignons par $h_\alpha$ (resp. $h'_\beta$) l’élément $x \mapsto \alpha x$ (resp. $x \mapsto \beta x$) de $\mathcal{E}$. Il est clair que les trois propriétés suivantes sont équivalentes :
+Soient $A$, $B$ deux anneaux, et considérons sur un ensemble $E$ deux structures de module à gauche ayant la même loi additive, et dont les anneaux d’opérateurs sont respectivement $A$ et $B$; soit $\mathscr{E}$ l’anneau des endomorphismes du groupe additif $E$, et pour tout $\alpha \in A$ (resp. $\beta \in B$) désignons par $h_\alpha$ (resp. $h'_\beta$) l’élément $x \mapsto \alpha x$ (resp. $x \mapsto \beta x$) de $\mathscr{E}$. Il est clair que les trois propriétés suivantes sont équivalentes :
 a) $h_\alpha \circ h'_\beta = h'_\beta \circ h_\alpha$ quels que soient $\alpha$ et $\beta$; b) l’image de $A$ par l’homomorphisme $\alpha \mapsto h_\alpha$ est contenue dans $\mathrm{Hom}_B(E, E)$; c) l’image de $B$ par l’homomorphisme $\beta \mapsto h'_\beta$ est contenue dans $\mathrm{Hom}_A(E, E)$. Lorsque la structure de $A$-module (resp. de $B$-module) considérée est une structure de module à droite, il faut remplacer dans b) (resp. c)) l’anneau $A$ par $A^0$ (resp. $B^0$). On exprime les propriétés précédentes en disant que les deux structures de module (à droite ou à gauche) définies sur $E$ sont compatibles.
 
 #### Définition 13 {#alg-ii-s1-def-13 .statement}

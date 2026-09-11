@@ -38,7 +38,7 @@ subsections:
       pdf_page: 257
 statements: 20
 exercises: 5
-content_sha256: 0970c4aa41158ef33231d08b21a0ce6a9b85ee1660b0f424d771a6b9760e1253
+content_sha256: 1c4cb5cb0d3cdf74638b2b9d83f632710263ccc2f6f485a362711f2198471fb5
 ---
 
 ## § 17. REGULAR EXTENSIONS
@@ -175,7 +175,7 @@ By the preceding corollary it is enough to prove that every polynomial algebra $
 
 The first assertion follows from Prop. 3, a).
 
-Let M be an extension of K and let $\mathcal{U}$ be the set of all finitely generated subextensions of L. For each E $\in \mathcal{U}$, the ring $M \otimes_K E$ may be identified with a subring of $M \otimes_K L$ and we thus have an increasing directed family of subrings of $M \otimes_K L$ whose union is $M \otimes_K L$. Now the second assertion follows immediately.
+Let M be an extension of K and let $\mathscr{U}$ be the set of all finitely generated subextensions of L. For each E $\in \mathscr{U}$, the ring $M \otimes_K E$ may be identified with a subring of $M \otimes_K L$ and we thus have an increasing directed family of subrings of $M \otimes_K L$ whose union is $M \otimes_K L$. Now the second assertion follows immediately.
 
 #### Proposition 7 {#alg-v-s17-prop-7 .statement}
 

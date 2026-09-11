@@ -29,7 +29,7 @@ subsections:
       pdf_page: 115
 statements: 18
 exercises: 4
-content_sha256: 250c081eb584c11f7eac4d91a8f73c54227e3e2bb0e07fca4af64854d2088e19
+content_sha256: ecfcd134b18af5868f8731f6bee6180e13e66b31be31a1119f7e34ede17de5f1
 ---
 
 ## § 2. EXTENSIONS
@@ -110,9 +110,9 @@ Soit P le sous-corps premier d’un corps E (V, p. 2) ; pour toute partie A de E
 
 #### Proposition 3 {#alg-v-s2-prop-3 .statement}
 
-Soit $\mathcal{F}$ un ensemble de sous-corps d’un corps E, filtrant pour la relation $\subset$. La réunion L des corps de $\mathcal{F}$ est un corps.
+Soit $\mathscr{F}$ un ensemble de sous-corps d’un corps E, filtrant pour la relation $\subset$. La réunion L des corps de $\mathscr{F}$ est un corps.
 
-En effet, si x et y sont deux éléments de L, il existe deux corps R, S de $\mathcal{F}$ tels que $x \in R, y \in S$; soit T un corps de $\mathcal{F}$ contenant R et S ; alors $x \in T, y \in T$, donc $x + y, xy$ et $x^{-1}$ (si $x \neq 0$) appartiennent à T, donc à L.
+En effet, si x et y sont deux éléments de L, il existe deux corps R, S de $\mathscr{F}$ tels que $x \in R, y \in S$; soit T un corps de $\mathscr{F}$ contenant R et S ; alors $x \in T, y \in T$, donc $x + y, xy$ et $x^{-1}$ (si $x \neq 0$) appartiennent à T, donc à L.
 
 #### Corollaire {#alg-v-s2-n3-cor-1 .statement}
 

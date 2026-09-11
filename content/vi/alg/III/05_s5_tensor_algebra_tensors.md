@@ -37,9 +37,9 @@ subsections:
       pdf_page: 516
 statements: 15
 exercises: 10
-content_sha256: 59b43a2e8487c01a392538b18374b6c821e22b721099bb1314400cf527e058a3
+content_sha256: 9a4420af48fb3145b1b98049cab99a6b7ea7b69ae764e74e822f0baa76b7df0e
 translated_from: content/en/alg/III/05_s5_tensor_algebra_tensors.md
-source_content_sha256: b01af1209083500779bdaaa884eccbc676d09c23fa0febe97dcb3f92583136bd
+source_content_sha256: 5c03097c6701aa89319bcb1f79ac5061cb1f128e8ae0772c05c9607c5417b89e
 translation_model: gpt-5-6-mini, gpt-5-mini
 translation_run: translate-vi-1c09c3b9
 glossary_version: 34
@@ -250,7 +250,7 @@ thì $x \in T(Q)$. Bây giờ định nghĩa của đồng cấu $s$ cho thấy 
 
 Trong mệnh đề này, ta hiểu rằng đối với mọi không gian con vectơ $P$ của $M$, $T(P)$ được đồng nhất một cách chính tắc với một đại số con của $T(M)$. Cho $z \in T(M)$; $z$ có thể được biểu diễn thành một tổ hợp tuyến tính của các phần tử mà mỗi phần tử trong đó là một tích hữu hạn của các phần tử của $M = T^1(M)$; tất cả các phần tử của $M$ xuất hiện trong các tích này sinh ra một không gian con vectơ $Q$ có hạng hữu hạn và $z \in T(Q)$.
 
-Gọi $\mathcal{F}$ là tập hợp (không rỗng) các không gian con vectơ $P$ có hạng hữu hạn sao cho $z \in T(P)$. Mọi dãy giảm các phần tử của $\mathcal{F}$ đều dừng, vì chúng là các không gian vectơ có hạng hữu hạn. Do đó $\mathcal{F}$ có một phần tử cực tiểu $N$ (Lý thuyết tập hợp, III, § 6, no. 5). Còn lại là kiểm tra rằng mọi $P \in \mathcal{F}$ đều chứa $N$; bây giờ, $z \in T(P) \cap T(N) = T(P \cap N)$ (Mệnh đề 4); theo định nghĩa của $N$, điều này suy ra $N \cap P = N$, nghĩa là $P \supset N$.
+Gọi $\mathscr{F}$ là tập hợp (không rỗng) các không gian con vectơ $P$ có hạng hữu hạn sao cho $z \in T(P)$. Mọi dãy giảm các phần tử của $\mathscr{F}$ đều dừng, vì chúng là các không gian vectơ có hạng hữu hạn. Do đó $\mathscr{F}$ có một phần tử cực tiểu $N$ (Lý thuyết tập hợp, III, § 6, no. 5). Còn lại là kiểm tra rằng mọi $P \in \mathscr{F}$ đều chứa $N$; bây giờ, $z \in T(P) \cap T(N) = T(P \cap N)$ (Mệnh đề 4); theo định nghĩa của $N$, điều này suy ra $N \cap P = N$, nghĩa là $P \supset N$.
 
 Không gian con $N$ của $M$ được gọi là *liên kết* với $z$.
 
@@ -524,17 +524,17 @@ $$
 \theta : (M \otimes_A M)^* \otimes_A M \to \operatorname{Hom}_A(M \otimes_A M, M)
 $$
 
-(II, § 4, no. 2, Hệ quả của Mệnh đề 2); ngoài ra $\operatorname{Hom}_A(M \otimes_A M, M)$ đẳng cấu một cách chính tắc với A-môđun $\mathcal{L}_2(M, M; M)$ gồm các ánh xạ A-*song tuyến tính* của $M \times M$ vào M (II, § 3, no. 9). Hợp thành các đẳng cấu này cho ta một đẳng cấu chính tắc
+(II, § 4, no. 2, Hệ quả của Mệnh đề 2); ngoài ra $\operatorname{Hom}_A(M \otimes_A M, M)$ đẳng cấu một cách chính tắc với A-môđun $\mathscr{L}_2(M, M; M)$ gồm các ánh xạ A-*song tuyến tính* của $M \times M$ vào M (II, § 3, no. 9). Hợp thành các đẳng cấu này cho ta một đẳng cấu chính tắc
 
 $$
-\chi_M : T^{(3)}_{\{1, 2\}}(M) = M^* \otimes M^* \otimes M \to \mathcal{L}_2(M, M; M)
+\chi_M : T^{(3)}_{\{1, 2\}}(M) = M^* \otimes M^* \otimes M \to \mathscr{L}_2(M, M; M)
 $$
 
 sao cho, với $x^*, y^*$ trong $M^*$, $z \in M$, $\chi_M(x^* \otimes y^* \otimes z)$ là ánh xạ song tuyến tính
 $$
 (u, v) \mapsto \langle u, x^*\rangle \langle v, y^*\rangle z.
 $$
-Do đó, thông qua $\chi_M$, $T_{\{1, 2\}}^{(3)}(M)$ (đẳng cấu với $T_2^1(M)$) có thể được đồng nhất với A-môđun $\mathcal{L}_2(M, M; M)$. Giả sử M là một A-môđun tự do và $(e_\lambda)_{\lambda \in L}$ là một cơ sở của M; khi đó các tọa độ của một tenxơ $z \in M^* \otimes M^* \otimes M$ đối với cơ sở $(e^\lambda \otimes e^\mu \otimes e_\nu)$ của môđun này được ký hiệu là $\zeta_{\lambda \mu \nu}$. Ánh xạ song tuyến tính $\chi_M(z)$ ánh xạ cặp có thứ tự $(e_\lambda, e_\mu)$ vào
+Do đó, thông qua $\chi_M$, $T_{\{1, 2\}}^{(3)}(M)$ (đẳng cấu với $T_2^1(M)$) có thể được đồng nhất với A-môđun $\mathscr{L}_2(M, M; M)$. Giả sử M là một A-môđun tự do và $(e_\lambda)_{\lambda \in L}$ là một cơ sở của M; khi đó các tọa độ của một tenxơ $z \in M^* \otimes M^* \otimes M$ đối với cơ sở $(e^\lambda \otimes e^\mu \otimes e_\nu)$ của môđun này được ký hiệu là $\zeta_{\lambda \mu \nu}$. Ánh xạ song tuyến tính $\chi_M(z)$ ánh xạ cặp có thứ tự $(e_\lambda, e_\mu)$ vào
 $$
 \sum_{\nu \in L} \zeta_{\lambda \mu \nu} e_\nu
 $$

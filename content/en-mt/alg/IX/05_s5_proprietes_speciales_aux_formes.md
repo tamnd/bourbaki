@@ -24,11 +24,11 @@ subsections:
       pdf_page: 82
 statements: 11
 exercises: 0
-content_sha256: 37eab0972d32d48c50fe1f46c6408db705441dc829547205d88946bff9026a86
+content_sha256: a5c08d974febfb84fe7fff65885b39088b3c837f8bfdb463ef3a49387c8872c8
 translated_from: content/fr/alg/IX/05_s5_proprietes_speciales_aux_formes.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 3297869f5fb81cc931b58ea4d147d5b89ddb0dbe0ebc72abf7eab7ab5a691f46
+source_content_sha256: b46524d6e0cb7e6bff2c2a53d394fdaa17538e41d07575f7abb24c1a7fb88a0a
 translation_model: gpt-5-6-mini
 translation_run: translate-en-mt-b0ed719d
 glossary_version: 34
@@ -122,18 +122,18 @@ Let $A$ be a commutative field of characteristic 0, and $R = (\alpha_{ij})$ an a
 $$
 \alpha_{h_1 k_1} \alpha_{h_2 k_2} \cdots \alpha_{h_m k_m} e_{h_1} \wedge e_{k_1} \wedge e_{h_2} \wedge e_{k_2} \wedge \ldots \wedge e_{h_m} \wedge e_{k_m}
 $$
-with $h_j < k_j$ for $j = 1, \ldots, m$. Such a term is zero if two equal $e_j$ occur in it, that is to say if the set $\{ h_1, k_1, \ldots, h_m, k_m \}$ is not exactly $\{ 1, 2, \ldots, 2m \}$. Moreover, if, in (3), one simultaneously exchanges $e_{h_r}$ and $e_{h_{r+1}}$ on the one hand, $e_{k_r}$ and $e_{k_{r+1}}$ on the other hand, the product does not change; it therefore does not change under any permutation performed on the pairs $(h_1, k_1), \ldots, (h_m, k_m)$. Consider then the sets (and not the sequences) $S = \{ (h_1, k_1), \ldots, (h_m, k_m) \}$ of pairs $(h_j, k_j)$ such that $1 \leq h_j < k_j \leq 2m$ for $j = 1, 2, \ldots, m$; let $\mathcal{S}$ be the set of these pairs. For $S \in \mathcal{S}$, put
+with $h_j < k_j$ for $j = 1, \ldots, m$. Such a term is zero if two equal $e_j$ occur in it, that is to say if the set $\{ h_1, k_1, \ldots, h_m, k_m \}$ is not exactly $\{ 1, 2, \ldots, 2m \}$. Moreover, if, in (3), one simultaneously exchanges $e_{h_r}$ and $e_{h_{r+1}}$ on the one hand, $e_{k_r}$ and $e_{k_{r+1}}$ on the other hand, the product does not change; it therefore does not change under any permutation performed on the pairs $(h_1, k_1), \ldots, (h_m, k_m)$. Consider then the sets (and not the sequences) $S = \{ (h_1, k_1), \ldots, (h_m, k_m) \}$ of pairs $(h_j, k_j)$ such that $1 \leq h_j < k_j \leq 2m$ for $j = 1, 2, \ldots, m$; let $\mathscr{S}$ be the set of these pairs. For $S \in \mathscr{S}$, put
 1°) $\varepsilon(S) = 0$ if $\{ h_1, k_1, \ldots, h_m, k_m \} \neq \{ 1, 2, \ldots, 2m \}$;
 2°) in the contrary case, $\varepsilon(S) = 1$ or $\varepsilon(S) = -1$ according as the permutation which maps $h_j$ onto $2j-1$ and $k_j$ onto $2j$ ($j = 1, \ldots, m$) is even or odd.
 
 The preceding remarks then prove that $\wedge^m u$ is equal to
 $$
-m! \sum_{S \in \mathcal{S}} \varepsilon(S) (\prod_{(h, k) \in S} \alpha_{hk}) e.
+m! \sum_{S \in \mathscr{S}} \varepsilon(S) (\prod_{(h, k) \in S} \alpha_{hk}) e.
 $$
 
 Introduce then $m(2m-1)$ indeterminates $X_{hk}$ indexed by means of the pairs $(h, k)$ such that $1 \leq h < k \leq 2m$, and call P the polynomial over $\mathbf{Z}$ with respect to the $X_{hk}$, defined by
 $$
-P((X_{hk})) = \sum_{S \in \mathcal{S}} \varepsilon(S) (\prod_{(h, k) \in S} X_{hk}).
+P((X_{hk})) = \sum_{S \in \mathscr{S}} \varepsilon(S) (\prod_{(h, k) \in S} X_{hk}).
 $$
 
 One therefore has

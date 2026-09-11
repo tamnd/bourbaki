@@ -30,9 +30,9 @@ subsections:
       pdf_page: 371
 statements: 22
 exercises: 15
-content_sha256: 74231c1b9c69bfeed2753efcd52d52c59f4266dcd06eb563885a45a0c5a2b53f
+content_sha256: b7fca3f600fa73bdd7b440440aa28701dff156931c3399b63493de2641be0bc6
 translated_from: content/en/alg/VII/02_s2_torsion_modules_over_a_principal_ideal.md
-source_content_sha256: b73a5f55a0428c0bfdc4c56f769d57b1fd5438c4b81624e9f5d24d90a72de89f
+source_content_sha256: 18b16f95020a8a741d96574eaeeb64be1473fe323bf1aaba2c7e0f2b696c695b
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-a6edd116
 glossary_version: 34
@@ -118,7 +118,7 @@ Rõ ràng, nếu $\pi$ và $\pi'$ là hai phần tử bất khả quy liên kế
 #### Hệ quả 2 {#alg-vii-s2-thm-1-cor-2 .statement}
 
 — *Môđun con N của môđun xoắn A-môđun M là một nhân tử trực tiếp khi và chỉ khi $N_\pi$ là một nhân tử trực tiếp của $M_\pi$, với mọi phần tử bất khả quy π của A.*
-Thật vậy, nếu N và N' là hai môđun con của M, thì M = N ⊕ N' khi và chỉ khi $M_\pi = N_\pi \oplus N'_\pi$ với mọi phần tử bất khả quy π của $\mathcal{A}$ (Hệ quả 1).
+Thật vậy, nếu N và N' là hai môđun con của M, thì M = N ⊕ N' khi và chỉ khi $M_\pi = N_\pi \oplus N'_\pi$ với mọi phần tử bất khả quy π của $\mathscr{A}$ (Hệ quả 1).
 
 #### Hệ quả 3 {#alg-vii-s2-thm-1-cor-3 .statement}
 
@@ -132,11 +132,11 @@ Một A-môđun M được gọi là *nửa đơn* nếu mọi môđun con của
 
 — *Cho A là một miền iđêan chính không phải là một trường, và cho M là một A-môđun. Khi đó M là nửa đơn khi và chỉ khi M là một môđun xoắn và $M_\pi = M(\pi)$ với mọi phần tử bất khả quy π của A*.
 
-Trước hết giả sử rằng M là nửa đơn; let x ∈ M và let π là một phần tử bất khả quy của $\mathcal{A}$. Nếu N là một phần bù của $Annx$ trong M, thì ta có thể viết $x = \alpha \pi x + y$, với $\alpha \in \mathcal{A}$ và $y \in N$; nhưng điều đó suy ra $y = (1 - \alpha n)x$, do đó $$
+Trước hết giả sử rằng M là nửa đơn; let x ∈ M và let π là một phần tử bất khả quy của $\mathscr{A}$. Nếu N là một phần bù của $Annx$ trong M, thì ta có thể viết $x = \alpha \pi x + y$, với $\alpha \in \mathscr{A}$ và $y \in N$; nhưng điều đó suy ra $y = (1 - \alpha n)x$, do đó $$
 \pi(1 - \alpha \pi)x \in A\pi x \cap N = 0 .
 $$ Trước hết suy ra rằng M là một môđun xoắn; nếu hơn nữa $x \in M_π$, thì $\pi(1 - \alpha \pi)x = 0$, do đó $\pi x = \alpha \pi^2 x = \alpha^2 \pi^3 x = \cdots = \alpha^n \pi^{n+1} x$ bằng không và $M_π = M(\pi)$.
 
-Ngược lại, theo Hệ quả 2 là đủ để chứng minh rằng một A-môđun M bị triệt tiêu bởi một phần tử bất khả quy π là nửa đơn; nhưng điều đó hiển nhiên, vì khi đó M có một cấu trúc tự nhiên của một không gian vectơ trên trường $\mathcal{A}/(\pi)$, và các môđun con của M chính xác là các không gian vectơ con theo cấu trúc này.
+Ngược lại, theo Hệ quả 2 là đủ để chứng minh rằng một A-môđun M bị triệt tiêu bởi một phần tử bất khả quy π là nửa đơn; nhưng điều đó hiển nhiên, vì khi đó M có một cấu trúc tự nhiên của một không gian vectơ trên trường $\mathscr{A}/(\pi)$, và các môđun con của M chính xác là các không gian vectơ con theo cấu trúc này.
 
 #### Nhận xét 1 {#alg-vii-s2-n2-rem-1 .statement}
 
@@ -146,7 +146,7 @@ Ngược lại, theo Hệ quả 2 là đủ để chứng minh rằng một A-m�
 
 — *Nếu M là một môđun xoắn sinh hữu hạn trên một miền iđêan chính A, thì các thành phần nguyên sơ n của M bằng không, trừ ra một số hữu hạn, và các phép chiếu của M lên các thành phần này $M_\pi$ là các phép vị tự*.
 
-Điều này suy ra ngay lập tức từ Bổ đề 1, vì theo Bổ đề 2 tồn tại $\alpha \neq 0$ trong $\mathcal{A}$ sao cho $M = M(\alpha)$.
+Điều này suy ra ngay lập tức từ Bổ đề 1, vì theo Bổ đề 2 tồn tại $\alpha \neq 0$ trong $\mathscr{A}$ sao cho $M = M(\alpha)$.
 
 #### Nhận xét 2 {#alg-vii-s2-n2-rem-2 .statement}
 

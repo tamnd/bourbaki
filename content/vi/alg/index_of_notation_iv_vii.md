@@ -13,9 +13,9 @@ pdf_pages: 0444-0445
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: d0452442ef370f6f2c6abcf084d920c5eba9e66734fb02e72e0abfc1cdf00a34
+content_sha256: e943342482e7130dbd0aff5b1318cfd2dc4cb83834f9150399e15daa5c68acd2
 translated_from: content/en/alg/index_of_notation_iv_vii.md
-source_content_sha256: 3ca1e9d7e6930a337dee194860bc07b75dad4b6515fffff2d7cc81614072ccd6
+source_content_sha256: 061f854cc7156c98872071bae8b9a417af3d3094376c562063d673befa000479
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-9ca0e3d3
 glossary_version: 34
@@ -51,7 +51,7 @@ Map(M, N), Pol_A(M, N), Pol(M, N) : IV, p. 57.
 s_k, s_{k,n}, A[X_1, ..., X_n]^{\text{sym}} : IV, p. 61.
 $S(\alpha), M(\alpha)$ : IV, p. 65 và 66.
 s_k, A[[X]]^{\text{sym}} : IV, p. 67 và 68.
-$\mathcal{B}_k$ : IV, p. 70.
+$\mathscr{B}_k$ : IV, p. 70.
 M(f, g, p, q), res_{p,q}(f, g), res(f, g) : IV, p. 76.
 dis(f), f đa thức đơn khởi : IV, p. 81.
 dis_m(f), f đa thức có bậc \leq m : IV, p. 83.
@@ -63,7 +63,7 @@ $K[S]$ : V, p. 4.
 $S^{p^{-f}}, A^{p^{-\infty}}$: V, p. 5 và 6.
 [A : K]: V, p. 10.
 K(x_i), K(x), K(x_1, ..., x_n): V, p. 10.
-h(L), [A : K], $\mathcal{H}(A)$: V, p. 31.
+h(L), [A : K], $\mathscr{H}(A)$: V, p. 31.
 $E_s$ : V, p. 44.
 $[E:K]_s, [E:K],$ : V, p. 31 và 46.
 $N_{A/K}(x), \mathrm{Tr}_{A/K}(x), D_{A/K}(x_1, ..., x_n)$ : V, p. 47.

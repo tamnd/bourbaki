@@ -53,7 +53,7 @@ subsections:
       pdf_page: 171
 statements: 35
 exercises: 10
-content_sha256: 234fe2945aa4e961036016372d407d506dc8b4e0d5b9dad9251bdb87e41d0c74
+content_sha256: e050c0ace3b6ae09e3ac8402d6d075509f24c1315d70999695129d52b67dfc1f
 ---
 
 ## § 9. COMPLEXES DE KOSZUL
@@ -337,7 +337,7 @@ $$
 Notons que $d$ applique $S^p(L) \otimes \Lambda^q(L)$ dans $S^{p+1}(L) \otimes \Lambda^{q-1}(L)$, donc que le *complexe de $A$-modules* $S(L) \otimes \Lambda(L)$ se décompose en la somme directe des complexes décrits par les diagrammes suivants :
 
 $$
-(\mathcal{E}_n) : 0 \to S^0 L \otimes_A \Lambda^n L \to S^1 L \otimes_A \Lambda^{n-1} L \to ... \to S^n L \otimes_A \Lambda^0 L \to 0, \quad n \in \mathbf{N}.
+(\mathscr{E}_n) : 0 \to S^0 L \otimes_A \Lambda^n L \to S^1 L \otimes_A \Lambda^{n-1} L \to ... \to S^n L \otimes_A \Lambda^0 L \to 0, \quad n \in \mathbf{N}.
 $$
 
 Si le A-module L est somme directe d'une famille finie $(L_i)_{i \in I}$ où I est totalement ordonné, la bijection canonique
@@ -350,7 +350,7 @@ est un isomorphisme de complexes de A-modules (cela résulte de la prop. 2 de X,
 
 #### Proposition 3 {#alg-x-s9-prop-3 .statement}
 
-*Si le A-module L est plat, les suites $(\mathcal{E}_n)$ ci-dessus sont exactes pour $n > 0$.*
+*Si le A-module L est plat, les suites $(\mathscr{E}_n)$ ci-dessus sont exactes pour $n > 0$.*
 
 *a)* Notons d'abord que, si $p_L$ est l'homomorphisme composé
 
@@ -392,7 +392,7 @@ Si A est une $\mathbf{Q}$-algèbre, la conclusion de la prop. 3 reste vraie sans
 
 #### Remarque 3 {#alg-x-s9-n3-rem-3 .statement}
 
-Soient G un groupe et $\rho : G \to \mathbf{GL}(L)$ une représentation linéaire de G dans un A-module plat L. Alors les $(\mathcal{E}_n)$ sont des suites exactes de représentations linéaires. Supposons L projectif de type fini, et notons $R_A(G)$ l'anneau des représentations de G dans les A-modules projectifs de type fini. Il résulte de la prop. 3 que l’on a dans R_A(G) les relations
+Soient G un groupe et $\rho : G \to \mathbf{GL}(L)$ une représentation linéaire de G dans un A-module plat L. Alors les $(\mathscr{E}_n)$ sont des suites exactes de représentations linéaires. Supposons L projectif de type fini, et notons $R_A(G)$ l'anneau des représentations de G dans les A-modules projectifs de type fini. Il résulte de la prop. 3 que l’on a dans R_A(G) les relations
 
 $$
 \sum_{i=0}^{n} (-1)^i [\mathbf{S}^i(L)] [\Lambda^{n-i}(L)] = 0 , \quad n > 0 .
@@ -849,9 +849,9 @@ Pour démontrer (iv), il reste à observer que le diagramme
 
 $$
 \begin{array}{ccc}
-(A_0[X_1, ..., X_n]/\mathcal{D}_0) \otimes_{A_0} M & \xrightarrow{\bar{u} \otimes 1_M} & \bigoplus_{r \geq 0} (t' \otimes_{A_0} M) \\
+(A_0[X_1, ..., X_n]/\mathscr{D}_0) \otimes_{A_0} M & \xrightarrow{\bar{u} \otimes 1_M} & \bigoplus_{r \geq 0} (t' \otimes_{A_0} M) \\
 \downarrow e & & \downarrow \oplus m_r \\
-(A[X_1, ..., X_n]/\mathcal{D}) \otimes_A M & \xrightarrow{\alpha_M^x} & \bigoplus_{r \geq 0} x' M
+(A[X_1, ..., X_n]/\mathscr{D}) \otimes_A M & \xrightarrow{\alpha_M^x} & \bigoplus_{r \geq 0} x' M
 \end{array}
 $$
 

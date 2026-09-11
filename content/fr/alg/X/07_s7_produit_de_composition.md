@@ -49,7 +49,7 @@ subsections:
       pdf_page: 138
 statements: 34
 exercises: 11
-content_sha256: c72b3079baabb98afd4dd1c4c959e340a9fa65afd9bcb2aafcb4e94723f2c40b
+content_sha256: 2b00ee560983d75c09c92892f0d1097acdd749dd9087b712875a76d8fb9a271d
 ---
 
 ## § 7. PRODUIT DE COMPOSITION
@@ -683,13 +683,13 @@ et où $R''_1=R_1\times_M R'_1$.
 
 Soient
 
-$$(\mathcal{E})\qquad 0\longrightarrow M'\xrightarrow{\,f\,}M\xrightarrow{\,g\,}M''\longrightarrow0$$
+$$(\mathscr{E})\qquad 0\longrightarrow M'\xrightarrow{\,f\,}M\xrightarrow{\,g\,}M''\longrightarrow0$$
 
 une suite exacte de $A$-modules à gauche, $\theta\in\operatorname{Ext}^1_A(M'',M')$ la classe associée, $N$ un $A$-module à gauche, $n$ un entier.
 
-a) L’homomorphisme de liaison $\delta^n(N,\mathcal{E}):\operatorname{Ext}^n_A(N,M'')\longrightarrow\operatorname{Ext}^{n+1}_A(N,M')$ est le produit de composition $\alpha\mapsto\theta\circ\alpha$ par $\theta$.
+a) L’homomorphisme de liaison $\delta^n(N,\mathscr{E}):\operatorname{Ext}^n_A(N,M'')\longrightarrow\operatorname{Ext}^{n+1}_A(N,M')$ est le produit de composition $\alpha\mapsto\theta\circ\alpha$ par $\theta$.
 
-b) L’homomorphisme de liaison $\delta^n(\mathcal{E},N):\operatorname{Ext}^n_A(M',N)\longrightarrow\operatorname{Ext}^{n+1}_A(M'',N)$ est le produit de composition $\alpha\mapsto(-1)^{n+1}\alpha\circ\theta$ par $(-1)^{n+1}\theta$.
+b) L’homomorphisme de liaison $\delta^n(\mathscr{E},N):\operatorname{Ext}^n_A(M',N)\longrightarrow\operatorname{Ext}^{n+1}_A(M'',N)$ est le produit de composition $\alpha\mapsto(-1)^{n+1}\alpha\circ\theta$ par $(-1)^{n+1}\theta$.
 
 a) Considérons un diagramme commutatif
 
@@ -815,7 +815,7 @@ $$
 Considérons une suite exacte de $A$-modules à gauche
 
 $$
-(\mathcal{S})\qquad 0\to N\to R_n\xrightarrow{f_n}R_{n-1}\xrightarrow{f_{n-1}}\cdots\to R_1\xrightarrow{f_1}M\to0
+(\mathscr{S})\qquad 0\to N\to R_n\xrightarrow{f_n}R_{n-1}\xrightarrow{f_{n-1}}\cdots\to R_1\xrightarrow{f_1}M\to0
 $$
 
 et posons $K_0=M$, $K_i=\operatorname{Ker}f_i$, $i=1,\ldots,n-1$, $K_n=N$. On a donc des suites exactes
@@ -834,33 +834,33 @@ $$
 \operatorname{Ext}_A^m(K_i,P)\to\operatorname{Ext}_A^{m+1}(K_{i-1},P),
 $$
 
-d’où par composition des *homomorphismes de liaison itérés*, associés à $(\mathcal{S})$
+d’où par composition des *homomorphismes de liaison itérés*, associés à $(\mathscr{S})$
 
 $$
-\delta^m(P,\mathcal{S}):\operatorname{Ext}_A^m(P,M)\to\operatorname{Ext}_A^{m+n}(P,N)
+\delta^m(P,\mathscr{S}):\operatorname{Ext}_A^m(P,M)\to\operatorname{Ext}_A^{m+n}(P,N)
 $$
 
 $$
-\delta^m(\mathcal{S},P):\operatorname{Ext}_A^m(N,P)\to\operatorname{Ext}_A^{m+n}(M,P).
+\delta^m(\mathscr{S},P):\operatorname{Ext}_A^m(N,P)\to\operatorname{Ext}_A^{m+n}(M,P).
 $$
 
 #### Corollaire 3 {#alg-x-s7-prop-5-cor-3 .statement}
 
-Si $\theta\in\operatorname{Ext}_A^n(M,N)$ est la classe de la suite exacte $(\mathcal{S})$, on a
+Si $\theta\in\operatorname{Ext}_A^n(M,N)$ est la classe de la suite exacte $(\mathscr{S})$, on a
 
 $$
-\delta^m(P,\mathcal{S})(\alpha)=\theta\circ\alpha,\qquad
-\delta^m(\mathcal{S},P)(\beta)=(-1)^{mn+n(n+1)/2}\beta\circ\theta.
+\delta^m(P,\mathscr{S})(\alpha)=\theta\circ\alpha,\qquad
+\delta^m(\mathscr{S},P)(\beta)=(-1)^{mn+n(n+1)/2}\beta\circ\theta.
 $$
 
 Si $\theta_i\in\operatorname{Ext}_A^1(K_{i-1},K_i)$ est la classe associée à la suite exacte (9), on a d’après la prop. 5
 
 $$
-\delta^m(P,\mathcal{S})(\alpha)=\theta_n\circ\cdots\circ\theta_2\circ\theta_1\circ\alpha
+\delta^m(P,\mathscr{S})(\alpha)=\theta_n\circ\cdots\circ\theta_2\circ\theta_1\circ\alpha
 $$
 
 $$
-\delta^m(\mathcal{S},P)(\beta)=(-1)^{(m+1)+\cdots+(m+n)}\beta\circ\theta_n\circ\cdots\circ\theta_1.
+\delta^m(\mathscr{S},P)(\beta)=(-1)^{(m+1)+\cdots+(m+n)}\beta\circ\theta_n\circ\cdots\circ\theta_1.
 $$
 
 Par ailleurs, d’après la prop. 3 (X, p. 118), on a $\theta=\theta_n\circ\cdots\circ\theta_1$. Le corollaire résulte immédiatement de là, et de la relation (E, III, p. 44)
@@ -987,7 +987,7 @@ $$
 $$
 une suite exacte de $A$-modules à droite, $\theta \in \mathrm{Ext}_A^1(P'', P')$ la classe associée, $M$ un $A$-module à gauche. L’homomorphisme de liaison
 $$
-\delta_n(\mathcal{E}, M) : \mathrm{Tor}_n^A(P'', M) \to \mathrm{Tor}_{n-1}^A(P', M) \text{ est l’application } \gamma \mapsto \theta \circ \gamma .
+\delta_n(\mathscr{E}, M) : \mathrm{Tor}_n^A(P'', M) \to \mathrm{Tor}_{n-1}^A(P', M) \text{ est l’application } \gamma \mapsto \theta \circ \gamma .
 $$
 
 b) Soient
@@ -998,7 +998,7 @@ $$
 $$
 une suite exacte de $A$-modules à gauche, $\theta_1 \in \mathrm{Ext}_A^1(M'', M')$ la classe associée, $P$ un $A$-module à droite. L’homomorphisme de liaison
 $$
-\delta_n(P, \mathcal{E}_1) : \mathrm{Tor}_n^A(P, M'') \to \mathrm{Tor}_{n-1}^A(P, M') \text{ est l’application } \gamma \mapsto \theta_1 \circ \gamma .
+\delta_n(P, \mathscr{E}_1) : \mathrm{Tor}_n^A(P, M'') \to \mathrm{Tor}_{n-1}^A(P, M') \text{ est l’application } \gamma \mapsto \theta_1 \circ \gamma .
 $$
 Soit $\gamma \in \mathrm{Tor}_n^A(P'', M)$ la classe d’un cycle $z'' \in \dot{Z}_n(L(P'') \otimes_A L(M))$, et soit
 $$
@@ -1053,7 +1053,7 @@ $$
 
 En effet, si $\theta$ et $\theta_1$ sont les classes associées aux suites exactes données, et si $\gamma \in \mathrm{Tor}_n^A(P'', M'')$, les images de $\gamma$ sont respectivement $\theta \circ (\theta_1 \circ \gamma)$ et $\theta_1 \circ (\theta \circ \gamma)$, donc sont opposées d’après la prop. 6.
 
-Reprenons les notations de X, p. 127 et considérons la suite $(\mathcal{S})$ de $A$-modules à gauche et les homomorphismes de liaison associés aux suites exactes (9)
+Reprenons les notations de X, p. 127 et considérons la suite $(\mathscr{S})$ de $A$-modules à gauche et les homomorphismes de liaison associés aux suites exactes (9)
 
 $$
 \mathrm{Tor}_m^A(P, K_{i-1}) \to \mathrm{Tor}_{m-1}^A(P, K_i);
@@ -1062,14 +1062,14 @@ $$
 on en déduit par composition des *homomorphismes de liaison itérés*
 
 $$
-\hat{\partial}_m(P, \mathcal{S}) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A(P, N).
+\hat{\partial}_m(P, \mathscr{S}) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A(P, N).
 $$
 
 Alors d’après la prop. 7 et la prop. 3 de X, p. 118 :
 
 #### Corollaire 2 {#alg-x-s7-prop-7-cor-2 .statement}
 
-*Si* $\theta \in \mathrm{Ext}_A^n(M, N)$ *est la classe associée à la suite exacte* $(\mathcal{S})$, *on a* $\hat{\partial}_m(P, \mathcal{S})(\alpha) = \theta \circ \alpha$ *pour tout* $\alpha \in \mathrm{Tor}_m^A(P, M)$.
+*Si* $\theta \in \mathrm{Ext}_A^n(M, N)$ *est la classe associée à la suite exacte* $(\mathscr{S})$, *on a* $\hat{\partial}_m(P, \mathscr{S})(\alpha) = \theta \circ \alpha$ *pour tout* $\alpha \in \mathrm{Tor}_m^A(P, M)$.
 
 #### Corollaire 3 {#alg-x-s7-prop-7-cor-3 .statement}
 
@@ -1085,18 +1085,18 @@ où les termes extrêmes sont nuls par hypothèse.
 
 De même, si
 
-$$(\mathcal{S}_1)$$
+$$(\mathscr{S}_1)$$
 $$0 \to Q \to S_n \to S_{n-1} \to \ldots \to S_1 \to P \to 0$$
 
 est une suite exacte de $A$-modules à droite, et $M$ un $A$-module à gauche, on définit des *homomorphismes de liaison itérés*
 
-$$\partial^m(\mathcal{S}_1, M) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A(Q, M)$$
+$$\partial^m(\mathscr{S}_1, M) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A(Q, M)$$
 
 et on a :
 
 #### Corollaire 4 {#alg-x-s7-prop-7-cor-4 .statement}
 
-*Si $\theta_1 \in \mathrm{Ext}_A^n(P, Q)$ est la classe associée à la suite exacte $(\mathcal{S}_1)$, on a $\partial^m(\mathcal{S}_1, M)(\alpha) = \theta_1 \circ \alpha$ pour tout $\alpha \in \mathrm{Tor}_m^A(P, M)$.
+*Si $\theta_1 \in \mathrm{Ext}_A^n(P, Q)$ est la classe associée à la suite exacte $(\mathscr{S}_1)$, on a $\partial^m(\mathscr{S}_1, M)(\alpha) = \theta_1 \circ \alpha$ pour tout $\alpha \in \mathrm{Tor}_m^A(P, M)$.
 
 ### 9. Calcul des produits de composition par décalage de résolutions
 

@@ -29,9 +29,9 @@ subsections:
       pdf_page: 298
 statements: 15
 exercises: 9
-content_sha256: 6ad77c6a725ce1bbe644d7db22aaad263dcfe9e4406d31a217c42721696867e2
+content_sha256: 46b192dd846be0f7a58c24f20b59e371115a4b7806fb3f80b757ab00d2c01f0b
 translated_from: content/en/alg/II/04_s4_relations_between_tensor_products_and.md
-source_content_sha256: 4daa0198f39eb8665aeb0fb853979c7c3f01d43e4213ff03ca386beeb56265ae
+source_content_sha256: 27990209087c39671cad33c6a9b2bf6a92a19d13735d50ad71c6137ca459dfb8
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-ee3a5201
 glossary_version: 34
@@ -121,7 +121,7 @@ $$
 \mathrm{Hom}_C(E \otimes_C F, G), \qquad \mathrm{Hom}_C(E, \mathrm{Hom}_C(F, G)),
 $$
 $$
-\mathrm{Hom}_C(F, \mathrm{Hom}_C(E, G)), \qquad \mathcal{L}_2(E, F; G)
+\mathrm{Hom}_C(F, \mathrm{Hom}_C(E, G)), \qquad \mathscr{L}_2(E, F; G)
 $$
 *đều đẳng cấu chính tắc.*
 

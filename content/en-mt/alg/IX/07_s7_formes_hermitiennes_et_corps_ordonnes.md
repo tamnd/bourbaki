@@ -24,11 +24,11 @@ subsections:
       pdf_page: 116
 statements: 42
 exercises: 0
-content_sha256: 4f0c80812b75ece3f8fe3269f0264a75cbbe436bedea3cd029330b3a85055bd4
+content_sha256: 4b3d59dafaca691ca1e54fde9df97f63b805107c7fdd2ffdad3a96a25c18db1e
 translated_from: content/fr/alg/IX/07_s7_formes_hermitiennes_et_corps_ordonnes.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 48a421468ccb8cc45819e96917ad2bad2e8ad97f33e3b9b0828d13a08e5e6bb0
+source_content_sha256: 9ace1070ffce53672166906a1166d8f117e0deabe1f5cca37974e7aec4e8ac01
 translation_model: gpt-5-6-mini
 translation_run: translate-en-mt-9574439c
 glossary_version: 34
@@ -161,7 +161,7 @@ Indeed let V be a subspace of E stable under S; whatever x ∈ V⁰, y ∈ V and
 
 #### Corollary 1 {#alg-ix-s7-thm-2-cor-1 .statement}
 
-Suppose that A = K or that A = K(i). Let B be a subalgebra of $\mathcal{L}_A(E)$, stable under the mapping u → u*. Then E is a semisimple B-module, and is the direct sum of simple submodules pairwise orthogonal. The algebra B is semisimple.
+Suppose that A = K or that A = K(i). Let B be a subalgebra of $\mathscr{L}_A(E)$, stable under the mapping u → u*. Then E is a semisimple B-module, and is the direct sum of simple submodules pairwise orthogonal. The algebra B is semisimple.
 
 Indeed, since every B-submodule V of E has a supplement, for example V⁰, the B-module V is semisimple (chap. VIII, § 3, No. 3, prop. 7). Since every B-submodule ≠ {0} and minimal in E is simple, E is the direct sum of simple submodules pairwise orthogonal. Finally B is a semisimple algebra, since it admits a semisimple and faithful module E whose contramodule is of finite type (chap. VIII, § 5, No. 1, prop. 3).
 
@@ -175,7 +175,7 @@ The first assertion follows from chap. VIII, § 9, No. 1, prop. 2, since B is se
 
 Let u be a normal endomorphism of E. When A is equal to K(i) or to the quaternion field over K, there exists an orthonormal basis (for Φ) of E formed by eigenvectors of u. When A = K, u is semisimple and E is direct sum of stable subspaces for u, pairwise orthogonal, and of dimension 1 or 2.
 
-First examine the case where A is commutative (A = K or A = K(i)). Then the subalgebra B = A[u, u*] of $\mathcal{L}_A(E)$ is commutative since u is normal; it is stable under the mapping $\varphi \to \varphi^*$ by virtue of formulas (32) and (33) of § 1, No. 8. The assertion concerning the case A = K then follows immediately from cor. 2 of th. 2. When A = K(i), this corollary also shows that E is direct sum of vector subspaces $Ax_i$ ($i = 1, \ldots, n$) of dimension 1, pairwise orthogonal and stable for u; if one puts $e_i = (\Phi(x_i, x_i))^{-1/2} x_i$, $(e_i)$ is the orthonormal basis sought.
+First examine the case where A is commutative (A = K or A = K(i)). Then the subalgebra B = A[u, u*] of $\mathscr{L}_A(E)$ is commutative since u is normal; it is stable under the mapping $\varphi \to \varphi^*$ by virtue of formulas (32) and (33) of § 1, No. 8. The assertion concerning the case A = K then follows immediately from cor. 2 of th. 2. When A = K(i), this corollary also shows that E is direct sum of vector subspaces $Ax_i$ ($i = 1, \ldots, n$) of dimension 1, pairwise orthogonal and stable for u; if one puts $e_i = (\Phi(x_i, x_i))^{-1/2} x_i$, $(e_i)$ is the orthonormal basis sought.
 
 When A is the quaternion field over K, it will suffice similarly to prove, by virtue of th. 2, that every minimal element of the set of subspaces $\neq \{0\}$ of E stable for u and $u^*$ is of dimension 1. Now such a subspace V necessarily contains an eigenvector $x \neq 0$ of u (*), as is seen by observing that the quaternion field A contains K(i) as an algebraically closed subfield, and by restricting to K(i) the field of
 

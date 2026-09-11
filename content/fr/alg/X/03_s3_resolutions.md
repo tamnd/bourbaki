@@ -49,7 +49,7 @@ subsections:
       pdf_page: 64
 statements: 29
 exercises: 19
-content_sha256: eefdeb9c83cb1d5c7454a349a45c438c67860c27947a2da7eaf95bef1cfe789b
+content_sha256: 78ca3fd785b2b1360a93f67d9c559b085dcd26f276ad74007f29b76e87929cb9
 ---
 
 ## § 3. RÉSOLUTIONS
@@ -714,15 +714,15 @@ Si $A$ et $M$ sont des $k$-modules projectifs (resp. libres, resp. plats), la r�
 
 ### 9. Résolutions et groupes de Grothendieck
 
-Si $\mathcal{C}$ est un ensemble de classes de $A$-modules, on dira qu’une résolution gauche $(P, p)$ est bornée de type $\mathcal{C}$ si le complexe $P$ est borné de type $\mathcal{C}$ (X, p. 41).
+Si $\mathscr{C}$ est un ensemble de classes de $A$-modules, on dira qu’une résolution gauche $(P, p)$ est bornée de type $\mathscr{C}$ si le complexe $P$ est borné de type $\mathscr{C}$ (X, p. 41).
 
 #### Théorème 1 {#alg-x-s3-thm-1 .statement}
 
-Soient $\mathcal{C}_0$ et $\mathcal{C}$ deux ensembles additifs et exacts à gauche de classe de $A$-modules tels que $\mathcal{C}_0 \subset \mathcal{C}$ et que tout $A$-module de type $\mathcal{C}$ possède une résolution gauche bornée de type $\mathcal{C}_0$. Alors l’homomorphisme $\alpha : K(\mathcal{C}_0) \to K(\mathcal{C})$ déduit de l’inclusion de $\mathcal{C}_0$ dans $\mathcal{C}$ est bijectif ; si $M$ est un $A$-module de type $\mathcal{C}$ et $P$ une résolution gauche de $M$ bornée de type $\mathcal{C}_0$, on a $\alpha^{-1}([M]_{\mathcal{C}}) = \chi_{\mathcal{C}_0}(P)$ (X, p. 41, exemple 6).
+Soient $\mathscr{C}_0$ et $\mathscr{C}$ deux ensembles additifs et exacts à gauche de classe de $A$-modules tels que $\mathscr{C}_0 \subset \mathscr{C}$ et que tout $A$-module de type $\mathscr{C}$ possède une résolution gauche bornée de type $\mathscr{C}_0$. Alors l’homomorphisme $\alpha : K(\mathscr{C}_0) \to K(\mathscr{C})$ déduit de l’inclusion de $\mathscr{C}_0$ dans $\mathscr{C}$ est bijectif ; si $M$ est un $A$-module de type $\mathscr{C}$ et $P$ une résolution gauche de $M$ bornée de type $\mathscr{C}_0$, on a $\alpha^{-1}([M]_{\mathscr{C}}) = \chi_{\mathscr{C}_0}(P)$ (X, p. 41, exemple 6).
 
 #### Lemme 4 {#alg-x-s3-lem-4 .statement}
 
-Soient $f : M' \to M$ un homomorphisme de $A$-modules de type $\mathcal{C}$, et $p : P \to M$ une résolution gauche de $P$ bornée de type $\mathcal{C}_0$. Il existe une résolution gauche $p' : P' \to M'$ bornée de type $\mathcal{C}_0$ et un morphisme de complexes $u : P' \to P$ tel que $p \circ u = f \circ p'$.
+Soient $f : M' \to M$ un homomorphisme de $A$-modules de type $\mathscr{C}$, et $p : P \to M$ une résolution gauche de $P$ bornée de type $\mathscr{C}_0$. Il existe une résolution gauche $p' : P' \to M'$ bornée de type $\mathscr{C}_0$ et un morphisme de complexes $u : P' \to P$ tel que $p \circ u = f \circ p'$.
 
 Raisonnons par récurrence sur la longueur $n$ de $P$, l’assertion étant triviale lorsque celle-ci est $< 0$. Considérons l’application $g : M' \times P_0 \to M$ telle que
 
@@ -731,7 +731,7 @@ g(x, r') = f(x) - p_0(r')
 $$
 pour $x \in M', r' \in P_0$,
 
-et son noyau $K$; le $A$-module $K$ est de type $\mathcal{C}$ puisque $g$ est surjective et que $M' \times P_0$ et $M$ sont de type $\mathcal{C}$. Soit $h : P'_0 \to K$ un homomorphisme surjectif où $P'_0$ est de type $\mathcal{C}_0$; notons $p'_0 : P'_0 \to M'$ (resp. $u_0 : P'_0 \to P_0$) l’homomorphisme composé de $h$ et de la projection $K \to M$ (resp. $K \to P_0$); l’homomorphisme $p'_0$ est surjectif et on a un diagramme commutatif
+et son noyau $K$; le $A$-module $K$ est de type $\mathscr{C}$ puisque $g$ est surjective et que $M' \times P_0$ et $M$ sont de type $\mathscr{C}$. Soit $h : P'_0 \to K$ un homomorphisme surjectif où $P'_0$ est de type $\mathscr{C}_0$; notons $p'_0 : P'_0 \to M'$ (resp. $u_0 : P'_0 \to P_0$) l’homomorphisme composé de $h$ et de la projection $K \to M$ (resp. $K \to P_0$); l’homomorphisme $p'_0$ est surjectif et on a un diagramme commutatif
 
 $$
 \begin{array}{ccc}
@@ -782,11 +782,11 @@ D’après X, p. 38, lemme 3 a), on a $\partial = - H_0(u)$. Comme $H_n(P) = 0 =
 
 Démontrons maintenant le théorème.
 
-a) Soit M un A-module de type $\mathcal{C}$. Pour toute résolution gauche $(P, p)$ de M bornée de type $\mathcal{C}_0$, l’élément $\chi_{\mathcal{C}_0}(P)$ de $K(\mathcal{C}_0)$ ne dépend que de M. En effet, soient $(P_1, p_1)$ et $(P_2, p_2)$ deux résolutions de ce type. Considérons la résolution
+a) Soit M un A-module de type $\mathscr{C}$. Pour toute résolution gauche $(P, p)$ de M bornée de type $\mathscr{C}_0$, l’élément $\chi_{\mathscr{C}_0}(P)$ de $K(\mathscr{C}_0)$ ne dépend que de M. En effet, soient $(P_1, p_1)$ et $(P_2, p_2)$ deux résolutions de ce type. Considérons la résolution
 $$
 (P_1 \times P_2, p_1 \times p_2)
 $$
-du A-module $M \times M$ et l’homomorphisme $\Delta : x \mapsto (x, x)$ de M dans $M \times M$. D’après le lemme 4, il existe une résolution $(Q, q)$ de M bornée de type $\mathcal{C}_0$ et un diagramme commutatif
+du A-module $M \times M$ et l’homomorphisme $\Delta : x \mapsto (x, x)$ de M dans $M \times M$. D’après le lemme 4, il existe une résolution $(Q, q)$ de M bornée de type $\mathscr{C}_0$ et un diagramme commutatif
 $$
 \begin{array}{ccc}
 Q & \xrightarrow{u} & P_1 \times P_2 \\
@@ -802,13 +802,13 @@ q \downarrow & & \downarrow p_i \\
 M & \xrightarrow{1_M} & M , \quad i = 1, 2 .
 \end{array}
 $$
-D’après le lemme 5, Con $(u \circ pr_i)$ est d’homologie nulle, donc $u \circ pr_i$ est un homologisme et $\chi_{\mathcal{C}_0}(Q) = \chi_{\mathcal{C}_0}(P_i)$ (X, p. 41, prop. 10); il s’ensuit que $\chi_{\mathcal{C}_0}(P_1) = \chi_{\mathcal{C}_0}(P_2)$ comme annoncé.
+D’après le lemme 5, Con $(u \circ pr_i)$ est d’homologie nulle, donc $u \circ pr_i$ est un homologisme et $\chi_{\mathscr{C}_0}(Q) = \chi_{\mathscr{C}_0}(P_i)$ (X, p. 41, prop. 10); il s’ensuit que $\chi_{\mathscr{C}_0}(P_1) = \chi_{\mathscr{C}_0}(P_2)$ comme annoncé.
 
-b) Pour tout A-module M de type $\mathcal{C}$, soit $\varphi(M) \in K(\mathcal{C}_0)$ la valeur commune des $\chi_{\mathcal{C}_0}(P)$ pour toutes les résolutions gauches P de M bornées de type $\mathcal{C}_0$. Montrons que la fonction $\varphi : \mathcal{C} \to K(\mathcal{C}_0)$ est additive. Soit donc
+b) Pour tout A-module M de type $\mathscr{C}$, soit $\varphi(M) \in K(\mathscr{C}_0)$ la valeur commune des $\chi_{\mathscr{C}_0}(P)$ pour toutes les résolutions gauches P de M bornées de type $\mathscr{C}_0$. Montrons que la fonction $\varphi : \mathscr{C} \to K(\mathscr{C}_0)$ est additive. Soit donc
 $$
 0 \to M' \xrightarrow{f} M \to M'' \to 0
 $$
-une suite exacte de A-modules de type $\mathcal{C}$. D’après le lemme 4, il existe un diagramme commutatif
+une suite exacte de A-modules de type $\mathscr{C}$. D’après le lemme 4, il existe un diagramme commutatif
 $$
 \begin{array}{ccc}
 P' & \xrightarrow{u} & P \\
@@ -816,17 +816,17 @@ p' \downarrow & & \downarrow p \\
 0 & \xrightarrow{f} & M \xrightarrow{g} M'' \to 0
 \end{array}
 $$
-où $(P, p)$ et $(P', p')$ sont des résolutions gauches bornées de type $\mathcal{C}_0$. Alors on a
+où $(P, p)$ et $(P', p')$ sont des résolutions gauches bornées de type $\mathscr{C}_0$. Alors on a
 $$
-\varphi(M) = \chi_{\mathcal{C}_0}(P) , \qquad \varphi(M') = \chi_{\mathcal{C}_0}(P')
+\varphi(M) = \chi_{\mathscr{C}_0}(P) , \qquad \varphi(M') = \chi_{\mathscr{C}_0}(P')
 $$
 et d’après le lemme 5
 $$
-\varphi(M'') = \chi_{\mathcal{C}_0}(\mathrm{Con}\,(u)) = \chi_{\mathcal{C}_0}(P) - \chi_{\mathcal{C}_0}(P') = \varphi(M) - \varphi(M') ;
+\varphi(M'') = \chi_{\mathscr{C}_0}(\mathrm{Con}\,(u)) = \chi_{\mathscr{C}_0}(P) - \chi_{\mathscr{C}_0}(P') = \varphi(M) - \varphi(M') ;
 $$
 ce qu’on voulait démontrer.
 
-c) Soit alors $\beta : K(\mathcal{C}) \to K(\mathcal{C}_0)$ l’homomorphisme tel que, avec les notations précédentes, on ait $\beta([M]_{\mathcal{C}})=\chi_{\mathcal{C}_0}(P)$. Comme $p$ est un homomolisme, on a $\chi_{\mathcal{C}}(P)=[M]_{\mathcal{C}}$, donc $\alpha\circ\beta([M]_{\mathcal{C}})=\alpha(\chi_{\mathcal{C}_0}(P))=\chi_{\mathcal{C}}(P)=[M]_{\mathcal{C}}$ et $\alpha\circ\beta=1_{K(\mathcal{C})}$. Si $M$ est de type $\mathcal{C}_0$, alors $(M,1_M)$ est une résolution de $M$, donc $\varphi(M)=[M]_{\mathcal{C}_0}$ et $\beta\circ\alpha=1_{K(\mathcal{C}_0)}$, ce qui achève la démonstration.
+c) Soit alors $\beta : K(\mathscr{C}) \to K(\mathscr{C}_0)$ l’homomorphisme tel que, avec les notations précédentes, on ait $\beta([M]_{\mathscr{C}})=\chi_{\mathscr{C}_0}(P)$. Comme $p$ est un homomolisme, on a $\chi_{\mathscr{C}}(P)=[M]_{\mathscr{C}}$, donc $\alpha\circ\beta([M]_{\mathscr{C}})=\alpha(\chi_{\mathscr{C}_0}(P))=\chi_{\mathscr{C}}(P)=[M]_{\mathscr{C}}$ et $\alpha\circ\beta=1_{K(\mathscr{C})}$. Si $M$ est de type $\mathscr{C}_0$, alors $(M,1_M)$ est une résolution de $M$, donc $\varphi(M)=[M]_{\mathscr{C}_0}$ et $\beta\circ\alpha=1_{K(\mathscr{C}_0)}$, ce qui achève la démonstration.
 
 Nous appliquerons ce théorème aux modules de « dimension projective finie » au § 8 (X, p. 137).
 

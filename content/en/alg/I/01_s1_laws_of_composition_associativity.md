@@ -38,7 +38,7 @@ subsections:
       pdf_page: 35
 statements: 31
 exercises: 16
-content_sha256: ee4e463c2bea3d268def69cc870b68653ee33956e50d1763ff66c0f237db3f9e
+content_sha256: eaaedbec437fbe10ada976447d7ff373c517077b94d3572b3e47bdbac09779cc
 ---
 
 ## § 1. LAWS OF COMPOSITION; ASSOCIATIVITY; COMMUTATIVITY
@@ -93,9 +93,9 @@ The identity mapping of a magma E is a homomorphism, the composition of two homo
 
 † The following is an example where this principle would lead to confusion and should therefore not be used. Suppose that the law of composition in question is the law $(A, B) \mapsto A \cup B$ between subsets of a set E; a law of composition
 $$
-(\mathcal{A}, \mathcal{B}) \mapsto F(\mathcal{A}, \mathcal{B})
+(\mathscr{A}, \mathscr{B}) \mapsto F(\mathscr{A}, \mathscr{B})
 $$
-is derived between subsets of $\mathfrak{P}(E)$, $F(\mathcal{A}, \mathcal{B})$ being the set of $A \cup B$ with $A \in \mathcal{A}, B \in \mathcal{B}$; but $F(\mathcal{A}, \mathcal{B})$ should not be denoted by $\mathcal{A} \cup \mathcal{B}$, as this notation already has a different meaning (the union of $\mathcal{A}$ and $\mathcal{B}$ considered as subsets of $\mathfrak{P}(E)$).
+is derived between subsets of $\mathfrak{P}(E)$, $F(\mathscr{A}, \mathscr{B})$ being the set of $A \cup B$ with $A \in \mathscr{A}, B \in \mathscr{B}$; but $F(\mathscr{A}, \mathscr{B})$ should not be denoted by $\mathscr{A} \cup \mathscr{B}$, as this notation already has a different meaning (the union of $\mathscr{A}$ and $\mathscr{B}$ considered as subsets of $\mathfrak{P}(E)$).
 
 For a mapping $f$ of E into E' to be an isomorphism, it is necessary and sufficient that it be a bijective homomorphism and $f^{-1}$ is then an isomorphism of E' onto E.
 

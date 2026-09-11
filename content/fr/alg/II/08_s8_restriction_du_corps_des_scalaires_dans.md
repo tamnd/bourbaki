@@ -41,7 +41,7 @@ subsections:
       pdf_page: 302
 statements: 17
 exercises: 5
-content_sha256: 4729d446b1507616c621f4747b8a2f39bd8ee7b4be4522eb01d76377e8bc1968
+content_sha256: f17623809b75a67fd83d70bd528327b5f45c5d4ec8016f1d12bd165e9de0c2df
 ---
 
 ## § 8. RESTRICTION DU CORPS DES SCALAIRE S DANS LES ESPACES VECTORIELS
@@ -217,19 +217,19 @@ Ce lemme étant démontré, on sait que $W$ est rationnel sur un sous-corps $L$ 
 
 ### 7. Critères de rationalité
 
-Pour tout sous-corps $L$ de $K$, notons $\mathrm{End}_L(K)$ l’anneau des endomorphismes de $K$ considéré comme *espace vectoriel à gauche* sur $L$; si $L$ contient $K'$, $\mathrm{End}_L(K)$ est un sous-anneau de $\mathrm{End}_{K'}(K)$. Pour toute partie $\mathcal{M}$ de $\mathrm{End}_{K'}(K)$, il existe un *plus grand sous-corps* $L$ de $K$ contenant $K'$ et tel que $\mathcal{M}$ soit contenue dans $\mathrm{End}_L(K)$, à savoir l’ensemble des $\xi \in K$ tels que $\varphi(\xi \eta) = \xi \varphi(\eta)$ pour tout $\eta \in K$ et tout $\varphi \in \mathcal{M}$ (on vérifie aussitôt que cet ensemble est un sous-anneau, et d’autre part, en remplaçant $\eta$ par $\xi^{-1} \eta$ dans la relation précédente, il vient $\varphi(\xi^{-1} \eta) = \xi^{-1} \varphi(\eta)$ lorsque $\xi \neq 0$). Nous dirons que ce corps est le *commutant* de $\mathcal{M}$ dans $K$ et nous le noterons $\chi(\mathcal{M})$.
+Pour tout sous-corps $L$ de $K$, notons $\mathrm{End}_L(K)$ l’anneau des endomorphismes de $K$ considéré comme *espace vectoriel à gauche* sur $L$; si $L$ contient $K'$, $\mathrm{End}_L(K)$ est un sous-anneau de $\mathrm{End}_{K'}(K)$. Pour toute partie $\mathscr{M}$ de $\mathrm{End}_{K'}(K)$, il existe un *plus grand sous-corps* $L$ de $K$ contenant $K'$ et tel que $\mathscr{M}$ soit contenue dans $\mathrm{End}_L(K)$, à savoir l’ensemble des $\xi \in K$ tels que $\varphi(\xi \eta) = \xi \varphi(\eta)$ pour tout $\eta \in K$ et tout $\varphi \in \mathscr{M}$ (on vérifie aussitôt que cet ensemble est un sous-anneau, et d’autre part, en remplaçant $\eta$ par $\xi^{-1} \eta$ dans la relation précédente, il vient $\varphi(\xi^{-1} \eta) = \xi^{-1} \varphi(\eta)$ lorsque $\xi \neq 0$). Nous dirons que ce corps est le *commutant* de $\mathscr{M}$ dans $K$ et nous le noterons $\chi(\mathscr{M})$.
 
 Soit maintenant $V$ un $K$-espace vectoriel à droite muni d’une $K'$-structure $V'$. Pour tout $\varphi \in \mathrm{End}_{K'}(K)$, il existe un endomorphisme $\varphi_V$ du $\mathbf{Z}$-module $V$ et un seul tel que l’on ait $\varphi_V(x'.\xi) = x'.\varphi(\xi)$ pour $x' \in V'$ et $\xi \in V$: en effet, on a défini dans II, p. 119 un $\mathbf{Z}$-isomorphisme $\lambda$ de $V' \otimes_{K'} K$ sur $V$ transformant $x' \otimes \xi$ en $x'.\xi$, et $\varphi_V$ est nécessairement égal à $\lambda \circ (1_{V'} \otimes \varphi) \circ \lambda^{-1}$.
 
 #### Théorème 1 {#alg-ii-s8-thm-1 .statement}
 
-*Soient $\mathcal{M}$ une partie de $\mathrm{End}_{K'}(K)$, $L = \chi(\mathcal{M})$ le sous-corps de $K$ commutant de $\mathcal{M}$.*
+*Soient $\mathscr{M}$ une partie de $\mathrm{End}_{K'}(K)$, $L = \chi(\mathscr{M})$ le sous-corps de $K$ commutant de $\mathscr{M}$.*
 
-(i) *Soit $V$ un $K$-espace vectoriel à droite muni d’une $K'$-structure. Pour qu’un vecteur $x \in V$ soit rationnel sur $L$, il faut et il suffit que l’on ait $\varphi_V(x.\eta) = x.\varphi(\eta)$ pour tout $\varphi \in \mathcal{M}$ et tout $\eta \in K$. Pour qu’un sous-$K$-espace vectoriel $W$ de $V$ soit rationnel sur $L$, il faut et il suffit que l’on ait $\varphi_V(W) \subset W$ pour tout $\varphi \in \mathcal{M}$.*
+(i) *Soit $V$ un $K$-espace vectoriel à droite muni d’une $K'$-structure. Pour qu’un vecteur $x \in V$ soit rationnel sur $L$, il faut et il suffit que l’on ait $\varphi_V(x.\eta) = x.\varphi(\eta)$ pour tout $\varphi \in \mathscr{M}$ et tout $\eta \in K$. Pour qu’un sous-$K$-espace vectoriel $W$ de $V$ soit rationnel sur $L$, il faut et il suffit que l’on ait $\varphi_V(W) \subset W$ pour tout $\varphi \in \mathscr{M}$.*
 
-(ii) *Soient $V_1, V_2$ deux $K$-espaces vectoriels à droite munis chacun d’une $K'$-structure. Pour qu’une application $K$-linéaire $f$ de $V_1$ dans $V_2$ soit rationnelle sur $L$, il faut et il suffit que l’on ait $f(\varphi_{V_1}(x_1)) = \varphi_{V_2}(f(x_1))$ pour tout $x_1 \in V_1$ et tout $\varphi \in \mathcal{M}$.*
+(ii) *Soient $V_1, V_2$ deux $K$-espaces vectoriels à droite munis chacun d’une $K'$-structure. Pour qu’une application $K$-linéaire $f$ de $V_1$ dans $V_2$ soit rationnelle sur $L$, il faut et il suffit que l’on ait $f(\varphi_{V_1}(x_1)) = \varphi_{V_2}(f(x_1))$ pour tout $x_1 \in V_1$ et tout $\varphi \in \mathscr{M}$.*
 
-Prouvons d’abord l’assertion de (i) relative à $x$. Soit $B$ une base de $V$ rationnelle sur $K'$, et posons $x = \sum_{b \in B} b.\xi_b$; pour $\varphi \in \mathcal{M}$ et $\eta \in K$, on a alors
+Prouvons d’abord l’assertion de (i) relative à $x$. Soit $B$ une base de $V$ rationnelle sur $K'$, et posons $x = \sum_{b \in B} b.\xi_b$; pour $\varphi \in \mathscr{M}$ et $\eta \in K$, on a alors
 
 $$
 \varphi_V(x.\eta) - x.\varphi(\eta) = \sum_{b \in B} b.(\varphi(\xi_b \eta) - \xi_b \varphi(\eta))
@@ -237,31 +237,31 @@ $$
 
 et par suite, les relations
 
-« pour tout $\varphi \in \mathcal{M}$ et tout $\eta \in K$, $\varphi_v(x.\eta) = x.\varphi(\eta)$ »
+« pour tout $\varphi \in \mathscr{M}$ et tout $\eta \in K$, $\varphi_v(x.\eta) = x.\varphi(\eta)$ »
 
 et
 
-« pour tout $\varphi \in \mathcal{M}$, tout $b \in B$ et tout $\eta \in K$, $\varphi(\xi_b\eta) = \xi_b\varphi(\eta)$ »
+« pour tout $\varphi \in \mathscr{M}$, tout $b \in B$ et tout $\eta \in K$, $\varphi(\xi_b\eta) = \xi_b\varphi(\eta)$ »
 
-sont équivalentes. La seconde de ces relations signifie que pour tout $b \in B$, on a $\xi_b \in \chi(\mathcal{M})$, ce qui prouve la première assertion de (i).
+sont équivalentes. La seconde de ces relations signifie que pour tout $b \in B$, on a $\xi_b \in \chi(\mathscr{M})$, ce qui prouve la première assertion de (i).
 
 Prouvons ensuite (ii). Pour que $f$ soit rationnelle sur $L$, il faut et il suffit que pour tout $x'_1 \in V_1$, rationnel sur $K'$, $f(x'_1)$ soit un vecteur de $V_2$ rationnel sur $L$; cela entraînera en effet que $f(x_1)$ est rationnel sur $L$ pour tout vecteur $x_1$ de $V_1$ rationnel sur $L$, un tel vecteur étant combinaison linéaire à coefficients dans $L$ de vecteurs rationnels sur $K'$. La condition précédente équivaut, d’après la première partie du raisonnement, à la relation
 
 (4)
 $$
-f(x'_1).\varphi(\eta) = \varphi_{V_2}(f(x'_1).\eta) \quad \text{pour } \varphi \in \mathcal{M} \text{ et } \eta \in K
+f(x'_1).\varphi(\eta) = \varphi_{V_2}(f(x'_1).\eta) \quad \text{pour } \varphi \in \mathscr{M} \text{ et } \eta \in K
 $$
 
 ce qui s’écrit aussi
 
 (5)
 $$
-f(\varphi_{V_1}(x'_1.\eta)) = \varphi_{V_2}(f(x'_1.\eta)) \quad \text{pour } \varphi \in \mathcal{M} \text{ et } \eta \in K.
+f(\varphi_{V_1}(x'_1.\eta)) = \varphi_{V_2}(f(x'_1.\eta)) \quad \text{pour } \varphi \in \mathscr{M} \text{ et } \eta \in K.
 $$
 
-Comme tout élément de $V_1$ est combinaison linéaire à coefficients dans $K$ d’éléments de $V_1$ rationnels sur $K'$, la condition (5) équivaut à $f(\varphi_{V_1}(x_1)) = \varphi_{V_2}(f(x_1))$ pour tout $x_1 \in V_1$ et tout $\varphi \in \mathcal{M}$.
+Comme tout élément de $V_1$ est combinaison linéaire à coefficients dans $K$ d’éléments de $V_1$ rationnels sur $K'$, la condition (5) équivaut à $f(\varphi_{V_1}(x_1)) = \varphi_{V_2}(f(x_1))$ pour tout $x_1 \in V_1$ et tout $\varphi \in \mathscr{M}$.
 
-Enfin, pour prouver la seconde assertion de (i), utilisons le lemme 1 de II, p. 124: W est le graphe d’une application K-linéaire $g : W_1 \to W_2$ et W est rationnel sur $L$ si et seulement si l’application $g$ est rationnelle sur $L$ (II, p. 122, prop. 4). D’après (ii), pour que $g$ soit rationnelle sur $L$, il faut et il suffit que $g(\varphi_{W_1}(x_1)) = \varphi_{W_2}(g(x_1))$ pour tout $x_1 \in W_1$ et tout $\varphi \in \mathcal{M}$; comme $\varphi_v = \varphi_{W_1} \times \varphi_{W_2}$, la condition précédente signifie que le graphe W de $g$ est stable par $\varphi_v$ pour tout $\varphi \in \mathcal{M}$.
+Enfin, pour prouver la seconde assertion de (i), utilisons le lemme 1 de II, p. 124: W est le graphe d’une application K-linéaire $g : W_1 \to W_2$ et W est rationnel sur $L$ si et seulement si l’application $g$ est rationnelle sur $L$ (II, p. 122, prop. 4). D’après (ii), pour que $g$ soit rationnelle sur $L$, il faut et il suffit que $g(\varphi_{W_1}(x_1)) = \varphi_{W_2}(g(x_1))$ pour tout $x_1 \in W_1$ et tout $\varphi \in \mathscr{M}$; comme $\varphi_v = \varphi_{W_1} \times \varphi_{W_2}$, la condition précédente signifie que le graphe W de $g$ est stable par $\varphi_v$ pour tout $\varphi \in \mathscr{M}$.
 
 C. Q. F. D.
 

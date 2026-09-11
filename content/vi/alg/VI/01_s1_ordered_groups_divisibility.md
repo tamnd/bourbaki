@@ -65,7 +65,7 @@ subsections:
       pdf_page: 328
 statements: 52
 exercises: 34
-content_sha256: bf790390adfd09aaab807180cb52555d3120ea346a61e405adeee6a7d5616b84
+content_sha256: d175d0f46e886264f8fcaff18cdd8d1107f69757c12f6b6a07c0bb927e030b65
 translated_from: content/en/alg/VI/01_s1_ordered_groups_divisibility.md
 source_content_sha256: 5dfbd1ec95d8ba9a7a5492cea424d8856e8b03e0d486d93477fdfa800389bdd9
 translation_model: gpt-5.4
@@ -247,11 +247,11 @@ Iđêan phân thức chính $Ax$ cũng được ký hiệu là (x). Ta sẽ vi�
 
 Chú ý rằng $x \equiv x'$ (mod y) không kéo theo $zx \equiv zx'$ (mod y) trừ khi $z \in A$. Vì vậy trong $\mathbf{Q}$, đối với $\mathbf{Z}$, ta có $4 \equiv 2$ (mod 2) nhưng không có $2 \equiv 1$ (mod 2).
 
-Quan hệ $x | y$ hiển nhiên tương đương với $(x) \supset (y)$. Do đó ánh xạ $x \mapsto (x)$ từ $K^*$ lên tập hợp $\mathcal{P}^*$ các iđêan phân thức chính $\neq (0)$ của K xác định, khi chuyển sang thương, một ánh xạ song ánh từ $K^*/A^*$ lên $\mathcal{P}^*$; chuyển cấu trúc nhóm của $K^*/A^*$ sang $\mathcal{P}^*$ nhờ ánh xạ này, ta được dẫn tới việc định nghĩa tích của hai iđêan phân thức chính (x) và (y) là iđêan (xy ), chỉ phụ thuộc vào (x) và (y). Được trang bị luật này và quan hệ thứ tự $(x) \supset (y)$, tập hợp $\mathcal{P}^*$ là một nhóm có thứ tự, đẳng cấu với $K^*/A^*$. Theo quy ước, ta sẽ đồng nhất $\mathcal{P}^*$ với $K^*/A^*$ qua ánh xạ trên.
+Quan hệ $x | y$ hiển nhiên tương đương với $(x) \supset (y)$. Do đó ánh xạ $x \mapsto (x)$ từ $K^*$ lên tập hợp $\mathscr{P}^*$ các iđêan phân thức chính $\neq (0)$ của K xác định, khi chuyển sang thương, một ánh xạ song ánh từ $K^*/A^*$ lên $\mathscr{P}^*$; chuyển cấu trúc nhóm của $K^*/A^*$ sang $\mathscr{P}^*$ nhờ ánh xạ này, ta được dẫn tới việc định nghĩa tích của hai iđêan phân thức chính (x) và (y) là iđêan (xy ), chỉ phụ thuộc vào (x) và (y). Được trang bị luật này và quan hệ thứ tự $(x) \supset (y)$, tập hợp $\mathscr{P}^*$ là một nhóm có thứ tự, đẳng cấu với $K^*/A^*$. Theo quy ước, ta sẽ đồng nhất $\mathscr{P}^*$ với $K^*/A^*$ qua ánh xạ trên.
 
 Chú ý rằng quan hệ « x chia y », trong trường hợp các số nguyên dương, kéo theo x nhỏ hơn y, tương ứng với bao hàm $(x) \supset (y)$, trong đó iđêan (x) « lớn hơn » iđêan (y). Ta có thể ghi nhớ sự « đảo thứ tự » này bằng cách chú ý rằng chẳng hạn 7 có « nhiều bội hơn » 91.
 
-Nếu ta mở rộng quan hệ $x | y$ cho mọi phần tử của K, quan hệ này vẫn tương đương với $(x) \supset (y)$ trong tập hợp $\mathcal{P}$ của mọi iđêan phân thức chính của K (trong đó $(0)$ là phần tử nhỏ nhất đối với quan hệ bao hàm).
+Nếu ta mở rộng quan hệ $x | y$ cho mọi phần tử của K, quan hệ này vẫn tương đương với $(x) \supset (y)$ trong tập hợp $\mathscr{P}$ của mọi iđêan phân thức chính của K (trong đó $(0)$ là phần tử nhỏ nhất đối với quan hệ bao hàm).
 
 Như trong các tiết diện trước, nói chung ta sẽ dùng ký hiệu cộng tính trong phần sau. Tuy nhiên, thuật ngữ liên quan đến tính chia hết sẽ được đưa vào theo sau thuật ngữ cộng tính tương ứng, trong các đoạn mở đầu bằng dấu (DIV) (trong đó hiểu rằng ký hiệu được dùng là ký hiệu của tiết diện hiện tại). Để làm cho công việc của người đọc dễ hơn, một số kết quả sẽ được dịch sang ngôn ngữ của tính chia hết, chẳng hạn bản dịch của Mệnh đề 7 được ký hiệu là « MỆNH ĐỀ 7 (DIV) ».
 
@@ -284,7 +284,7 @@ Nhắc lại (Lý thuyết tập hợp, III, p. 141) rằng nếu tập hợp c�
 
 Nhắc lại (Lý thuyết tập hợp, loc. cit.) rằng nếu F là một tập con của một tập hợp có thứ tự E, và $(x_i)$ là một họ các phần tử của F, thì sự tồn tại của $\sup(x_i)$ trong E (có thể ký hiệu là $\sup_E(x_i)$) không kéo theo sự tồn tại của một cận trên đúng của các $x_i$ trong F (có thể ký hiệu là $\sup_F(x_i)$ khi nó tồn tại); nếu cả hai đều tồn tại thì ta chỉ biết rằng $\sup_E(x_i) \leq \sup_F(x_i)$; tuy nhiên nếu $\sup_E(x_i)$ tồn tại và thuộc F, thì $\sup_F(x_i)$ tồn tại và bằng $\sup_E(x_i)$. Chẳng hạn, trong vành đa thức $A = K[X, Y]$ (K là một trường), các iđêan chính AX và AY có iđêan $AX + AY$ làm cận trên đúng (đối với quan hệ $\subset$) trong tập hợp có thứ tự các iđêan của A, nhưng có iđêan A làm cận trên đúng trong tập hợp tất cả các iđêan chính của A.
 
-(DIV) Một phần tử d của $K^*$ được gọi là một ước chung lớn nhất, hay viết tắt là gcd, của một họ $(x_i)$ các phần tử của $K^*$, nếu iđêan phân thức chính (d) là cận trên đúng trong $\mathcal{P}^*$ (đối với quan hệ $\subset$) của họ các iđêan $((x_i))$, hay nói cách khác nếu quan hệ $z \mid d$ với $z \in K^*$ là tương đương với « $z \mid x_i$ với mọi $i$ ». Tương tự, ta sẽ nói rằng $m \in K^*$ là một bội chung nhỏ nhất hay một lcm của họ $(x_i)$ nếu $(m)$ là cận dưới đúng trong $\mathcal{P}^*$ của họ các iđêan $((x_i))$, nghĩa là nếu m | z là tương đương với « x_i | z với mọi i ». Điều đó cũng tương đương với việc nói rằng $(m) = \cap_{i} (x_i)$; thật vậy, điều kiện $x_i | z$ với mọi $i$ là tương đương với $z \in A x$, với mọi $i$, nghĩa là với $z \in \cap_{i} (x_i)$, và điều kiện $m | z$ là tương đương với $z \in (m)^1$.
+(DIV) Một phần tử d của $K^*$ được gọi là một ước chung lớn nhất, hay viết tắt là gcd, của một họ $(x_i)$ các phần tử của $K^*$, nếu iđêan phân thức chính (d) là cận trên đúng trong $\mathscr{P}^*$ (đối với quan hệ $\subset$) của họ các iđêan $((x_i))$, hay nói cách khác nếu quan hệ $z \mid d$ với $z \in K^*$ là tương đương với « $z \mid x_i$ với mọi $i$ ». Tương tự, ta sẽ nói rằng $m \in K^*$ là một bội chung nhỏ nhất hay một lcm của họ $(x_i)$ nếu $(m)$ là cận dưới đúng trong $\mathscr{P}^*$ của họ các iđêan $((x_i))$, nghĩa là nếu m | z là tương đương với « x_i | z với mọi i ». Điều đó cũng tương đương với việc nói rằng $(m) = \cap_{i} (x_i)$; thật vậy, điều kiện $x_i | z$ với mọi $i$ là tương đương với $z \in A x$, với mọi $i$, nghĩa là với $z \in \cap_{i} (x_i)$, và điều kiện $m | z$ là tương đương với $z \in (m)^1$.
 
 Chú ý rằng nếu một iđêan phân thức chính (d) thỏa mãn $(d) = \sum (x_i)$ thì d là một gcd của họ $(x_i)$; nhưng ngược lại, một gcd của $(x_i)$ không nhất thiết thỏa mãn điều kiện trên (x. VI, p. 33, Ex. 24).
 
@@ -441,7 +441,7 @@ Ta suy ra từ d) rằng $|x| = 0$ kéo theo $x = 0$ (vì $x^+$ và $x^-$ là d�
 
 #### Mệnh đề 9 {#alg-vi-s1-div-prop-9 .statement}
 
-— Nếu nhóm $\mathcal{P}^*$ các iđêan phân thức chính của K được sắp thứ tự như một dàn, thì mọi phần tử x của $K^*$ có thể viết dưới dạng $x = uv^{-1}$, trong đó u và v là các phần tử của A sao cho $1 = \gcd(u, v)$; với mọi biểu thức khác $x = u'{v'}^{-1}$ của x như thương của hai phần tử của A, ta có $u' = uw$ và $v' = vw$, trong đó w là một gcd của $u', v'$; đặc biệt nếu $1 = \gcd(u', v')$ thì u' và v' lần lượt là các phần tử liên hợp với u và v.
+— Nếu nhóm $\mathscr{P}^*$ các iđêan phân thức chính của K được sắp thứ tự như một dàn, thì mọi phần tử x của $K^*$ có thể viết dưới dạng $x = uv^{-1}$, trong đó u và v là các phần tử của A sao cho $1 = \gcd(u, v)$; với mọi biểu thức khác $x = u'{v'}^{-1}$ của x như thương của hai phần tử của A, ta có $u' = uw$ và $v' = vw$, trong đó w là một gcd của $u', v'$; đặc biệt nếu $1 = \gcd(u', v')$ thì u' và v' lần lượt là các phần tử liên hợp với u và v.
 
 Một biểu thức như thế $uv^{-1}$ của một phần tử x của $K^*$ thường được gọi là một phân số tối giản.
 
@@ -459,7 +459,7 @@ Các $x_i$ có thể nguyên tố cùng nhau theo họ mà không nguyên tố c
 
 Nếu x và y nguyên tố cùng nhau, ta cũng nói rằng x nguyên tố cùng nhau với y, hoặc y nguyên tố cùng nhau với X
 
-(DIV) Hai phần tử x và y của K được gọi là *nguyên tố cùng nhau* nếu các iđêan chính (x) và (y) là khác không và nguyên tố cùng nhau trong $\mathcal{P}^*$; điều này có nghĩa là 1 là một gcd của x và y, và kéo theo rằng x và y *thuộc* A. Chẳng hạn tử số và mẫu số của một phân số tối giản là nguyên tố cùng nhau. Các khái niệm các phần tử nguyên tố cùng nhau từng đôi một và nguyên tố cùng nhau theo họ được định nghĩa tương tự.
+(DIV) Hai phần tử x và y của K được gọi là *nguyên tố cùng nhau* nếu các iđêan chính (x) và (y) là khác không và nguyên tố cùng nhau trong $\mathscr{P}^*$; điều này có nghĩa là 1 là một gcd của x và y, và kéo theo rằng x và y *thuộc* A. Chẳng hạn tử số và mẫu số của một phân số tối giản là nguyên tố cùng nhau. Các khái niệm các phần tử nguyên tố cùng nhau từng đôi một và nguyên tố cùng nhau theo họ được định nghĩa tương tự.
 
 (DIV) Khi x và y nguyên tố cùng nhau, người ta thường còn nói rằng chúng « nguyên tố với nhau »; thuận tiện hơn là tránh thuật ngữ này, vì nó có thể gây nhầm lẫn với khái niệm số nguyên tố (I, p. 50, Def. 16).
 
@@ -513,7 +513,7 @@ Thật vậy $nx = nx^+ - nx^-$; vì $x^+$ và x nguyên tố cùng nhau, nên $
 
 #### Mệnh đề 11 {#alg-vi-s1-div-prop-11 .statement}
 
-— Giả sử tập hợp $\mathcal{P}^*$ là một dàn, và cho $(a_i)$, $(b_j)$ là hai họ hữu hạn các phần tử của A. Khi đó mọi ước chung lớn nhất của $\prod_i a_i$ và $\prod_j b_j$ đều chia tích $\prod_{i,j} \gcd(a_i, b_j)$.
+— Giả sử tập hợp $\mathscr{P}^*$ là một dàn, và cho $(a_i)$, $(b_j)$ là hai họ hữu hạn các phần tử của A. Khi đó mọi ước chung lớn nhất của $\prod_i a_i$ và $\prod_j b_j$ đều chia tích $\prod_{i,j} \gcd(a_i, b_j)$.
 
 #### Hệ quả 1 {#alg-vi-s1-div-prop-11-cor-1 .statement}
 
@@ -599,7 +599,7 @@ Tính chất phân phối này là đặc thù của các *nhóm* có thứ tự
 
 Cho x là một phần tử bất khả quy của nhóm có thứ tự G; nếu y là một phần tử dương của G thì phần tử inf(x, y), nếu tồn tại, chỉ có thể bằng x hoặc bằng 0. Do đó trong một nhóm có thứ tự dàn G, mọi y dương hoặc lớn hơn phần tử bất khả quy x, hoặc nguyên tố cùng nhau với x; đặc biệt, hai phần tử bất khả quy phân biệt là nguyên tố cùng nhau.
 
-(DIV) Một phần tử p của A được gọi là *bất khả quy* nếu iđêan (p) là một phần tử bất khả quy của nhóm có thứ tự $\mathcal{P}^*$; điều này có nghĩa là p không phải là không cũng không khả nghịch, và mọi phần tử của $A$ chia hết p đều liên kết hoặc với p hoặc với 1. Nếu $\mathcal{P}^*$ có thứ tự dàn, thì mọi $a \in A$ hoặc nguyên tố cùng nhau với p hoặc là một bội của p.
+(DIV) Một phần tử p của A được gọi là *bất khả quy* nếu iđêan (p) là một phần tử bất khả quy của nhóm có thứ tự $\mathscr{P}^*$; điều này có nghĩa là p không phải là không cũng không khả nghịch, và mọi phần tử của $A$ chia hết p đều liên kết hoặc với p hoặc với 1. Nếu $\mathscr{P}^*$ có thứ tự dàn, thì mọi $a \in A$ hoặc nguyên tố cùng nhau với p hoặc là một bội của p.
 
 *Ví dụ (DIV). —* 1) Một số nguyên $p > 0$ là bất khả quy trong $\mathbf{Z}$ khi và chỉ khi nó là *nguyên tố* (I, p. 50).
 
@@ -616,11 +616,11 @@ Nếu G có thứ tự dàn và x là bất khả quy, ta vừa thấy rằng y 
 
 #### Mệnh đề 14 {#alg-vi-s1-div-prop-14 .statement}
 
-— *Để một phần tử khác không p của A là bất khả quy, điều kiện đủ là nó không phải là một phần tử khả nghịch, và nó không thể chia hết một tích của hai phần tử của A mà không chia hết một trong hai phần tử ấy. Điều kiện này là cần thiết nếu $\mathcal{P}^*$ có thứ tự dàn.*
+— *Để một phần tử khác không p của A là bất khả quy, điều kiện đủ là nó không phải là một phần tử khả nghịch, và nó không thể chia hết một tích của hai phần tử của A mà không chia hết một trong hai phần tử ấy. Điều kiện này là cần thiết nếu $\mathscr{P}^*$ có thứ tự dàn.*
 
 #### Nhận xét {#alg-vi-s1-n13-rem-1 .statement}
 
-Mệnh đề 14 (DIV) cũng có thể được phát biểu như sau: nếu p là một phần tử khác không của A sao cho iđêan (p) là *nguyên tố* (I, p. 117, Định nghĩa 3) thì p là bất khả quy; ngược lại, nếu $\mathcal{P}^*$ có thứ tự dàn và p là bất khả quy thì iđêan (p) là nguyên tố.
+Mệnh đề 14 (DIV) cũng có thể được phát biểu như sau: nếu p là một phần tử khác không của A sao cho iđêan (p) là *nguyên tố* (I, p. 117, Định nghĩa 3) thì p là bất khả quy; ngược lại, nếu $\mathscr{P}^*$ có thứ tự dàn và p là bất khả quy thì iđêan (p) là nguyên tố.
 
 #### Mệnh đề 15 {#alg-vi-s1-prop-15 .statement}
 

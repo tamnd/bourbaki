@@ -58,7 +58,7 @@ subsections:
       pdf_page: 190
 statements: 49
 exercises: 23
-content_sha256: d0c4fe0c62204dc7c4fe1aa11ef226cb4e3f09fb5060e8c84509337da5e516a2
+content_sha256: c9453cb5a8606edfd61cc0b5b025eb89ee73ca9afa3bfaeb2f1716f19adc4adb
 translated_from: content/en/alg/V/10_s10_galois_extensions.md
 source_content_sha256: 4d2ea6b2e3fe8136b4cbf004a6c050629d9e8414a0cc6650ceb165d4728343b0
 translation_model: gpt-5-6-mini, gpt-5.4-mini
@@ -179,7 +179,7 @@ Nói chung, xét hai mở rộng con L và L' của N, và một đẳng cấu K
 
 Cho N là một mở rộng Galois của K và $\Gamma$ là nhóm Galois của N trên K. Ta trang bị cho N tôpô rời rạc, tập hợp $N^N$ của tất cả các ánh xạ từ N vào chính nó với tôpô tích của các tôpô rời rạc của các nhân tử ("tôpô của sự hội tụ đơn giản trong N") và nhóm $\Gamma$ với tôpô cảm sinh từ $N^N$.
 
-Cho A là tập hợp tất cả các mở rộng con của N có bậc hữu hạn trên K. Với $\sigma \in \Gamma$ và $E \in A$ ta sẽ viết $U_E(\sigma)$ cho tập hợp các phần tử $\tau$ của $\Gamma$ có cùng hạn chế như $\sigma$ lên E. Nếu $E = K(x_1, ..., x_n)$, tập hợp $U_E(\sigma)$ gồm các phần tử $\tau \in \Gamma$ sao cho $\tau(x_i) = \sigma(x_i), ..., \tau(x_n) = \sigma(x_n)$. Suy ra rằng họ $(U_F(\sigma))_{F \in \mathcal{F}}$ là một cơ sở của lọc các lân cận của $\sigma$ trong $\Gamma$.
+Cho A là tập hợp tất cả các mở rộng con của N có bậc hữu hạn trên K. Với $\sigma \in \Gamma$ và $E \in A$ ta sẽ viết $U_E(\sigma)$ cho tập hợp các phần tử $\tau$ của $\Gamma$ có cùng hạn chế như $\sigma$ lên E. Nếu $E = K(x_1, ..., x_n)$, tập hợp $U_E(\sigma)$ gồm các phần tử $\tau \in \Gamma$ sao cho $\tau(x_i) = \sigma(x_i), ..., \tau(x_n) = \sigma(x_n)$. Suy ra rằng họ $(U_F(\sigma))_{F \in \mathscr{F}}$ là một cơ sở của lọc các lân cận của $\sigma$ trong $\Gamma$.
 
 Khi N có bậc hữu hạn trên K, ta có $N \in A$ và $U_N(\sigma) = \{\sigma\}$, do đó tôpô của $\mathrm{Gal}(N/K)$ là rời rạc; ta nhắc lại (V, p. 58), rằng nhóm $\mathrm{Gal}(N/K)$ là hữu hạn trong trường hợp này.
 
@@ -368,9 +368,9 @@ Cuối cùng, c) suy ra từ Định lý 2 (V, p. 65), định lý chứng minh 
 
 #### Định lý 4 {#alg-v-s10-thm-4 .statement}
 
-— Cho N là một mở rộng Galois của K và $\Gamma$ là nhóm Galois của nó. Gọi $\mathcal{K}$ là tập hợp các mở rộng con của N và $\mathcal{G}$ là tập hợp các nhóm con đóng của $\Gamma$. Với mỗi nhóm con $A \in \mathcal{G}$, ta ký hiệu $k(\Delta)$ là trường các bất biến của A và với mỗi *trường con* $E \in \mathcal{K}$, ta ký hiệu $g(E)$ là nhóm các *tự đẳng cấu* E của N. *Khi đó* $A \mapsto k(\Delta)$ là một song ánh của $\mathcal{G}$ lên $\mathcal{K}$, và $E \mapsto g(E)$ là song ánh ngược.
+— Cho N là một mở rộng Galois của K và $\Gamma$ là nhóm Galois của nó. Gọi $\mathscr{K}$ là tập hợp các mở rộng con của N và $\mathscr{G}$ là tập hợp các nhóm con đóng của $\Gamma$. Với mỗi nhóm con $A \in \mathscr{G}$, ta ký hiệu $k(\Delta)$ là trường các bất biến của A và với mỗi *trường con* $E \in \mathscr{K}$, ta ký hiệu $g(E)$ là nhóm các *tự đẳng cấu* E của N. *Khi đó* $A \mapsto k(\Delta)$ là một song ánh của $\mathscr{G}$ lên $\mathscr{K}$, và $E \mapsto g(E)$ là song ánh ngược.
 
-A) Quan hệ $E = k(g(E))$ (với $E \in \mathcal{K}$) là một hệ quả của bổ đề chính xác hơn sau đây:
+A) Quan hệ $E = k(g(E))$ (với $E \in \mathscr{K}$) là một hệ quả của bổ đề chính xác hơn sau đây:
 
 #### Bổ đề 1 {#alg-v-s10-lem-1 .statement}
 
@@ -430,7 +430,7 @@ Vì N tách được trên K, điều tương tự cũng đúng với E (V, p. 3
 
 g(E) chứa $U_F(\mathrm{Id}_N) = g(F)$. Quan hệ $g(E) \supset g(F)$ tương đương với $E \subset F$ theo Hệ quả 1 (V, p. 68), do đó có khẳng định thứ nhất của Hệ quả 5.
 
-Giả sử rằng $[E : K]$ là hữu hạn. Cho $\Omega$ là một bao đóng đại số của $K$ chứa $N$ như một phần mở rộng con (V, p. 23, Định lý 2) và cho $\mathcal{H}$ là tập các $K$-đồng cấu của $E$ vào $\Omega$. Mỗi phần tử của $\mathcal{H}$ đều được cảm sinh bởi một $K$-tự đẳng cấu của $\Omega$ (V, p. 52, Mệnh đề 1), và vì $N$ là quasi-Galois trên $K$, ánh xạ $\sigma \mapsto \sigma|_E$ từ $\Gamma$ vào $\mathcal{H}$ là toàn ánh. Để $\sigma$ và $\sigma'$ trong $\Gamma$ có cùng hạn chế trên $E$ thì cần và đủ là $\sigma^{-1}\sigma' \in g(E)$, do đó Card $A? = (\Gamma : g(E))$. Cuối cùng vì E là một đại số étale trên K, ta có Card $\mathcal{H} = [E : K]$ (V, p. 32, Mệnh đề 4), nên kết luận là $(\Gamma : g(E)) = [E : K]$.
+Giả sử rằng $[E : K]$ là hữu hạn. Cho $\Omega$ là một bao đóng đại số của $K$ chứa $N$ như một phần mở rộng con (V, p. 23, Định lý 2) và cho $\mathscr{H}$ là tập các $K$-đồng cấu của $E$ vào $\Omega$. Mỗi phần tử của $\mathscr{H}$ đều được cảm sinh bởi một $K$-tự đẳng cấu của $\Omega$ (V, p. 52, Mệnh đề 1), và vì $N$ là quasi-Galois trên $K$, ánh xạ $\sigma \mapsto \sigma|_E$ từ $\Gamma$ vào $\mathscr{H}$ là toàn ánh. Để $\sigma$ và $\sigma'$ trong $\Gamma$ có cùng hạn chế trên $E$ thì cần và đủ là $\sigma^{-1}\sigma' \in g(E)$, do đó Card $A? = (\Gamma : g(E))$. Cuối cùng vì E là một đại số étale trên K, ta có Card $\mathscr{H} = [E : K]$ (V, p. 32, Mệnh đề 4), nên kết luận là $(\Gamma : g(E)) = [E : K]$.
 
 #### Hệ quả 6 {#alg-v-s10-lem-2-cor-6 .statement}
 
@@ -596,15 +596,15 @@ Bổ đề sau là một trường hợp riêng của các kết quả tổng qu
 
 Cho M là một A-môđun xoắn được sinh bởi một số hữu hạn phần tử $x_1, ..., x_h$; khi đó tồn tại một phần tử x của M mà linh hóa tử (II, p. 219) của nó bằng linh hóa tử của M.
 
-Trong cả hai trường hợp, $A$ là một miền nguyên và mọi iđêan của $A$ đều chính. Khi $A = \mathbf{Z}$ (resp. $A = K[X]$), ta ký hiệu bởi $\mathcal{P}$ tập hợp các số nguyên tố (resp. tập hợp các đa thức monic bất khả quy trong $K[X]$). Với mỗi phần tử $a \neq 0$ của $A$ khi đó tồn tại một phần tử khả nghịch $u$ của $A$ và một họ $(v_p(a))_{p \in \mathcal{P}}$, có giá hữu hạn, của các số nguyên dương sao cho $a = u \prod_{p \in \mathcal{P}} p^{v_p(a)}$ và $u$ cùng các số nguyên $v_p(a)$ được xác định duy nhất (I, p. 51 và IV, p. 13, Mệnh đề 13).
+Trong cả hai trường hợp, $A$ là một miền nguyên và mọi iđêan của $A$ đều chính. Khi $A = \mathbf{Z}$ (resp. $A = K[X]$), ta ký hiệu bởi $\mathscr{P}$ tập hợp các số nguyên tố (resp. tập hợp các đa thức monic bất khả quy trong $K[X]$). Với mỗi phần tử $a \neq 0$ của $A$ khi đó tồn tại một phần tử khả nghịch $u$ của $A$ và một họ $(v_p(a))_{p \in \mathscr{P}}$, có giá hữu hạn, của các số nguyên dương sao cho $a = u \prod_{p \in \mathscr{P}} p^{v_p(a)}$ và $u$ cùng các số nguyên $v_p(a)$ được xác định duy nhất (I, p. 51 và IV, p. 13, Mệnh đề 13).
 
 Cho $a_i$ là linh hóa tử của $x_i$, (với $1 \leq i \leq h$) và $a$ là linh hóa tử của M; cho $a_1, ..., a_h, a$ là các phần tử khác 0 của $A$ sao cho $a_i = Aa_i$, và $a = Aa$; vì $a = a_1 \cap ... \cap a_h$, suy ra từ điều vừa nói rằng
 
 $$
-v_p(a) = \sup_{1 \leq i \leq h} v_p(a_i) \quad \text{cho mọi } p \in \mathcal{P}.
+v_p(a) = \sup_{1 \leq i \leq h} v_p(a_i) \quad \text{cho mọi } p \in \mathscr{P}.
 $$
 
-Ta viết $a$ dưới dạng $up_1^{n(1)} ... p_r^{n(r)}$, với $p_1, ..., p_r$ phân biệt trong $\mathcal{P}$, $n(1) > 0, ..., n(r) > 0$ và $u$ là một phần tử khả nghịch của $A$. Cho $j = 1, ..., r$; theo (10) tồn tại một số nguyên $c(j)$ sao cho $1 \leq c(j) \leq h$ và $v_{p_j}(a_{c(j)}) = n(j)$; tồn tại $b_j$ trong $A$ sao cho $a_{c(j)} = p_j^{n(j)} b_j$ và phần tử $y_j = b_j x_{c(j)}$ có linh hóa tử là iđêan $Ap_j^{n(j)}$.
+Ta viết $a$ dưới dạng $up_1^{n(1)} ... p_r^{n(r)}$, với $p_1, ..., p_r$ phân biệt trong $\mathscr{P}$, $n(1) > 0, ..., n(r) > 0$ và $u$ là một phần tử khả nghịch của $A$. Cho $j = 1, ..., r$; theo (10) tồn tại một số nguyên $c(j)$ sao cho $1 \leq c(j) \leq h$ và $v_{p_j}(a_{c(j)}) = n(j)$; tồn tại $b_j$ trong $A$ sao cho $a_{c(j)} = p_j^{n(j)} b_j$ và phần tử $y_j = b_j x_{c(j)}$ có linh hóa tử là iđêan $Ap_j^{n(j)}$.
 
 Ta sẽ chứng minh rằng linh hóa tử b của $y = y_1 + ... + y_r$ bằng linh hóa tử a của M. Dù sao ta cũng có $a \subset b$, nên b có dạng $Ap_1^{m(1)} ... p_r^{m(r)}$ với $0 \leq m(j) \leq n(j)$ cho $1 \leq j \leq r$. Nếu ta có $a \neq b$, thì sẽ tồn tại một số nguyên j sao cho $1 \leq j \leq r$ và $m(j) < n(j)$, và do đó $d_j = a/p_j$ sẽ triệt tiêu $y$. Nay ta có $d_j y_k = 0$ với $k \neq j$, do đó suy ra $d_j y_j = 0$; nhưng linh hóa tử của $y_j$ là $Ap_j^{m(j)}$ và $d_j$ không phải là một bội của $p_j^{m(j)}$. Vậy giả thiết $a \neq b$ là vô lý.
 

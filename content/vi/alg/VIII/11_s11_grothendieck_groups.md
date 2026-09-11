@@ -62,7 +62,7 @@ subsections:
       pdf_page: 221
 statements: 38
 exercises: 14
-content_sha256: d19341c75ff92cb1174fa888cdecab2e1d604828252791313c11ae9009090461
+content_sha256: ea51a3bb138379f30684fda4219a30e622f119dbd970f098f81b84fcd9e67d44
 translated_from: content/en/alg/VIII/11_s11_grothendieck_groups.md
 source_content_sha256: bc6f23569d66726f9edb899a7ea492701ad1b2a6d43e816e11728c34011d5e59
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
@@ -106,11 +106,11 @@ của các môđun có kiểu $\mathscr{C}$.
 
 #### Ví dụ 4 {#alg-viii-s11-n1-exa-4 .statement tag=00CX}
 
-Cho $\mathcal{C}$ là tập hợp các lớp của các A-môđun có độ dài hữu hạn. Ánh xạ $\operatorname{long}_A : \mathcal{C} \to \mathbf{Z}$ gửi một lớp của các A-môđun có độ dài hữu hạn vào độ dài của nó là một hàm cộng tính của môđun (II, §1, No. 10, p. 213, Hệ quả 3). Các kết quả của tiểu mục này là một phép tổng quát hóa các kết quả về các môđun có độ dài hữu hạn được thiết lập trong II, §1, No. 10, p. 212–214.
+Cho $\mathscr{C}$ là tập hợp các lớp của các A-môđun có độ dài hữu hạn. Ánh xạ $\operatorname{long}_A : \mathscr{C} \to \mathbf{Z}$ gửi một lớp của các A-môđun có độ dài hữu hạn vào độ dài của nó là một hàm cộng tính của môđun (II, §1, No. 10, p. 213, Hệ quả 3). Các kết quả của tiểu mục này là một phép tổng quát hóa các kết quả về các môđun có độ dài hữu hạn được thiết lập trong II, §1, No. 10, p. 212–214.
 
-Trong phần còn lại của tiểu mục này, ta xét một tập hợp cộng tính $\mathcal{C}$ của các A-môđun và một ánh xạ cộng tính $\varphi$ từ $\mathcal{C}$ vào một nhóm Abel $G$.
+Trong phần còn lại của tiểu mục này, ta xét một tập hợp cộng tính $\mathscr{C}$ của các A-môđun và một ánh xạ cộng tính $\varphi$ từ $\mathscr{C}$ vào một nhóm Abel $G$.
 
-Cho E và $E'$ là các môđun có kiểu $\mathcal{C}$; khi đó $E \oplus E'$ có kiểu $\mathcal{C}$, và tồn tại một dãy khớp tách (II, §1, No. 9, p. 210)
+Cho E và $E'$ là các môđun có kiểu $\mathscr{C}$; khi đó $E \oplus E'$ có kiểu $\mathscr{C}$, và tồn tại một dãy khớp tách (II, §1, No. 9, p. 210)
 
 $$
 0 \longrightarrow E \longrightarrow E \oplus E' \longrightarrow E' \longrightarrow 0;
@@ -127,16 +127,16 @@ $$
 
 #### Mệnh đề 1 {#alg-viii-s11-prop-1 .statement tag=00CY}
 
-Giả sử $\mathcal{C}$ là di truyền. Cho E và F là các A-môđun và $u : E \to F$ là một ánh xạ tuyến tính.
-a) Nếu E hoặc F có kiểu $\mathcal{C}$, thì ảnh của u cũng vậy.
-b) Nếu E có kiểu $\mathcal{C}$, thì hạt nhân của u cũng vậy, và ta có
+Giả sử $\mathscr{C}$ là di truyền. Cho E và F là các A-môđun và $u : E \to F$ là một ánh xạ tuyến tính.
+a) Nếu E hoặc F có kiểu $\mathscr{C}$, thì ảnh của u cũng vậy.
+b) Nếu E có kiểu $\mathscr{C}$, thì hạt nhân của u cũng vậy, và ta có
 
 (2)
 $$
 \varphi(E) = \varphi(\operatorname{Ker}\,u) + \varphi(\operatorname{Im}\,u).
 $$
 
-c) Nếu F có kiểu $\mathcal{C}$, thì đối hạt nhân của u cũng vậy, và ta có
+c) Nếu F có kiểu $\mathscr{C}$, thì đối hạt nhân của u cũng vậy, và ta có
 
 (3)
 $$
@@ -154,7 +154,7 @@ $$
 
 #### Hệ quả {#alg-viii-s11-n1-cor-1 .statement tag=00CZ}
 
-Cho $(E_i)_{0 \leq i \leq n}$ là một dãy hữu hạn các môđun có kiểu $\mathcal{C}$. Nếu tồn tại một dãy khớp
+Cho $(E_i)_{0 \leq i \leq n}$ là một dãy hữu hạn các môđun có kiểu $\mathscr{C}$. Nếu tồn tại một dãy khớp
 
 $$
 0 \longrightarrow E_0 \xrightarrow{u_0} E_1 \xrightarrow{u_1} \cdots \xrightarrow{u_{n-1}} E_{n-1} \xrightarrow{u_n} E_n \longrightarrow 0,

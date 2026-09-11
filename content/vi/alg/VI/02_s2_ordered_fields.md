@@ -42,7 +42,7 @@ subsections:
       pdf_page: 339
 statements: 31
 exercises: 41
-content_sha256: 5021ee1e09a03ce605613de08ff9e9eb137ddd307c3c5213f157c36488e45a19
+content_sha256: c34b528de25ee6522e347ee2944d8b7ff7b92e05cd807ef59ec04e13ed8893ae
 translated_from: content/en/alg/VI/02_s2_ordered_fields.md
 source_content_sha256: 45506056239d65e13de7a37d24141821117f4fc774d40c3a5912d682cb6100c3
 translation_model: gpt-5.4
@@ -179,13 +179,13 @@ $$
 
 Ngược lại, giả sử điều kiện (OE) được thỏa mãn, khi đó ta sẽ định nghĩa một thứ tự trên E bằng cách xây dựng một tập con P của E thỏa mãn các điều kiện (AP,,), (APII), (AP,,,) và (APIV), và chứa tập $K_+$ các phần tử dương của K. Một tập con như vậy P chắc chắn sẽ làm cho E thành một mở rộng có thứ tự của K, vì ta sẽ có $K \cap P = K_+$; thật vậy, nếu P chứa một phần tử $-a < 0$ của K, thì a sẽ thuộc $P \cap (-P)$, trái với (APIII).
 
-Để định nghĩa P, ta xét tập $\mathcal{M}$ các tập con của E thỏa mãn (API), (AP,,) và (AP,,,), và chứa hợp của $K_+$ với tập C các bình phương của các phần tử của E. Tập $\mathcal{M}$ này khác rỗng, vì nó chứa tập $P_0$ các phần tử có dạng $\sum p_i x_i^2$ (việc $P_0$ thỏa mãn (AP,,,) suy ra ngay lập tức từ (OE)).
+Để định nghĩa P, ta xét tập $\mathscr{M}$ các tập con của E thỏa mãn (API), (AP,,) và (AP,,,), và chứa hợp của $K_+$ với tập C các bình phương của các phần tử của E. Tập $\mathscr{M}$ này khác rỗng, vì nó chứa tập $P_0$ các phần tử có dạng $\sum p_i x_i^2$ (việc $P_0$ thỏa mãn (AP,,,) suy ra ngay lập tức từ (OE)).
 
-Hơn nữa $\mathcal{M}$ là quy nạp (*Set Theory*, III, p. 154, Định nghĩa 3). Do đó tồn tại, theo Đl. 2 của *Set Theory*, III, p. 154, một phần tử cực đại của $\mathcal{M}$; còn lại là phải chứng minh rằng nó thỏa mãn (APIV); mà điều này suy ra từ bổ đề sau:
+Hơn nữa $\mathscr{M}$ là quy nạp (*Set Theory*, III, p. 154, Định nghĩa 3). Do đó tồn tại, theo Đl. 2 của *Set Theory*, III, p. 154, một phần tử cực đại của $\mathscr{M}$; còn lại là phải chứng minh rằng nó thỏa mãn (APIV); mà điều này suy ra từ bổ đề sau:
 
 #### Bổ đề {#alg-vi-s2-n3-lem-1 .statement}
 
-— *Cho* $P \in \mathcal{M}$ *và* $x \notin P$; *khi đó tồn tại* $P' \in \mathcal{M}$ *sao cho* $P \subset P'$ *và* $-x \in P'$.
+— *Cho* $P \in \mathscr{M}$ *và* $x \notin P$; *khi đó tồn tại* $P' \in \mathscr{M}$ *sao cho* $P \subset P'$ *và* $-x \in P'$.
 
 Lấy $P' = P - xP$, và kiểm tra rằng $P'$ có các tính chất cần có. Vì $0 \in C \subset P$, ta có $P \subset P'$. Do đó $C \subset P'$ và $K_+ \subset P'$. Vì $1 \in C \subset P$ ta có $-x \in P'$. Ta có
 $$
@@ -214,7 +214,7 @@ Tính cần thiết là hiển nhiên. Ngược lại, điều kiện đã phát
 
 *Cho E là một mở rộng của K thừa nhận cấu trúc của một mở rộng có thứ tự của K. Để một phần tử $x \in E$ là dương đối với mọi cấu trúc như vậy trên E, điều kiện cần và đủ là x có dạng $\sum_i p_i x_i^2$, trong đó $x_i \in E$ và các $p_i$ là các phần tử dương của K.*
 
-Điều kiện ấy hiển nhiên là đủ; nó cũng là cần thiết, vì (theo ký hiệu của chứng minh Định lý 1), nếu $x \notin P_0$ thì tồn tại một phần tử cực đại P của $\mathcal{M}$ sao cho $x \notin P$; khi đó $-x \in P$ theo Bổ đề, và x không dương đối với thứ tự được xác định bởi P, vì $x \neq 0$.
+Điều kiện ấy hiển nhiên là đủ; nó cũng là cần thiết, vì (theo ký hiệu của chứng minh Định lý 1), nếu $x \notin P_0$ thì tồn tại một phần tử cực đại P của $\mathscr{M}$ sao cho $x \notin P$; khi đó $-x \in P$ theo Bổ đề, và x không dương đối với thứ tự được xác định bởi P, vì $x \neq 0$.
 
 ### 4. Mở rộng đại số của các trường có thứ tự
 

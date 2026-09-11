@@ -49,11 +49,11 @@ subsections:
       pdf_page: 64
 statements: 29
 exercises: 19
-content_sha256: ec6866e0de0c595cd616d3181eec4de64acddca12deb95ce15ed831c73093802
+content_sha256: c05936a5e49a7ca9ba15fa03a52f256d31b380ff6a87b5e567ae6972feaa8852
 translated_from: content/fr/alg/X/03_s3_resolutions.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: eefdeb9c83cb1d5c7454a349a45c438c67860c27947a2da7eaf95bef1cfe789b
+source_content_sha256: 78ca3fd785b2b1360a93f67d9c559b085dcd26f276ad74007f29b76e87929cb9
 translation_model: gpt-5.4
 translation_run: translate-en-mt-931dafce
 glossary_version: 34
@@ -723,15 +723,15 @@ If $A$ and $M$ are projective $k$-modules (resp. free, resp. flat), the standard
 
 ### 9. Resolutions and Grothendieck groups
 
-If $\mathcal{C}$ is a set of classes of $A$-modules, we shall say that a left resolution $(P, p)$ is bounded of type $\mathcal{C}$ if the complex $P$ is bounded of type $\mathcal{C}$ (X, p. 41).
+If $\mathscr{C}$ is a set of classes of $A$-modules, we shall say that a left resolution $(P, p)$ is bounded of type $\mathscr{C}$ if the complex $P$ is bounded of type $\mathscr{C}$ (X, p. 41).
 
 #### Theorem 1 {#alg-x-s3-thm-1 .statement}
 
-Let $\mathcal{C}_0$ and $\mathcal{C}$ be two additive and left exact sets of class of $A$-modules such that $\mathcal{C}_0 \subset \mathcal{C}$ and every $A$-module of type $\mathcal{C}$ possesses a bounded left resolution of type $\mathcal{C}_0$. Then the homomorphism $\alpha : K(\mathcal{C}_0) \to K(\mathcal{C})$ deduced from the inclusion of $\mathcal{C}_0$ in $\mathcal{C}$ is bijective; if $M$ is an $A$-module of type $\mathcal{C}$ and $P$ a bounded left resolution of $M$ of type $\mathcal{C}_0$, one has $\alpha^{-1}([M]_{\mathcal{C}}) = \chi_{\mathcal{C}_0}(P)$ (X, p. 41, example 6).
+Let $\mathscr{C}_0$ and $\mathscr{C}$ be two additive and left exact sets of class of $A$-modules such that $\mathscr{C}_0 \subset \mathscr{C}$ and every $A$-module of type $\mathscr{C}$ possesses a bounded left resolution of type $\mathscr{C}_0$. Then the homomorphism $\alpha : K(\mathscr{C}_0) \to K(\mathscr{C})$ deduced from the inclusion of $\mathscr{C}_0$ in $\mathscr{C}$ is bijective; if $M$ is an $A$-module of type $\mathscr{C}$ and $P$ a bounded left resolution of $M$ of type $\mathscr{C}_0$, one has $\alpha^{-1}([M]_{\mathscr{C}}) = \chi_{\mathscr{C}_0}(P)$ (X, p. 41, example 6).
 
 #### Lemma 4 {#alg-x-s3-lem-4 .statement}
 
-Let $f : M' \to M$ be a homomorphism of $A$-modules of type $\mathcal{C}$, and $p : P \to M$ a bounded left resolution of $P$ of type $\mathcal{C}_0$. There exist a bounded left resolution $p' : P' \to M'$ of type $\mathcal{C}_0$ and a morphism of complexes $u : P' \to P$ such that $p \circ u = f \circ p'$.
+Let $f : M' \to M$ be a homomorphism of $A$-modules of type $\mathscr{C}$, and $p : P \to M$ a bounded left resolution of $P$ of type $\mathscr{C}_0$. There exist a bounded left resolution $p' : P' \to M'$ of type $\mathscr{C}_0$ and a morphism of complexes $u : P' \to P$ such that $p \circ u = f \circ p'$.
 
 Let us argue by induction on the length $n$ of $P$, the assertion being trivial when the latter is $< 0$. Consider the mapping $g : M' \times P_0 \to M$ such that
 
@@ -740,7 +740,7 @@ g(x, r') = f(x) - p_0(r')
 $$
 for $x \in M', r' \in P_0$,
 
-and its kernel $K$; the $A$-module $K$ is of type $\mathcal{C}$ since $g$ is surjective and $M' \times P_0$ and $M$ are of type $\mathcal{C}$. Let $h : P'_0 \to K$ be a surjective homomorphism, where $P'_0$ is of type $\mathcal{C}_0$; let us denote by $p'_0 : P'_0 \to M'$ (resp. $u_0 : P'_0 \to P_0$) the homomorphism composed of $h$ and the projection $K \to M$ (resp. $K \to P_0$); the homomorphism $p'_0$ is surjective and we have a commutative diagram
+and its kernel $K$; the $A$-module $K$ is of type $\mathscr{C}$ since $g$ is surjective and $M' \times P_0$ and $M$ are of type $\mathscr{C}$. Let $h : P'_0 \to K$ be a surjective homomorphism, where $P'_0$ is of type $\mathscr{C}_0$; let us denote by $p'_0 : P'_0 \to M'$ (resp. $u_0 : P'_0 \to P_0$) the homomorphism composed of $h$ and the projection $K \to M$ (resp. $K \to P_0$); the homomorphism $p'_0$ is surjective and we have a commutative diagram
 
 $$
 \begin{array}{ccc}
@@ -791,11 +791,11 @@ By X, p. 38, lemma 3 a), we have $\partial = - H_0(u)$. Since $H_n(P) = 0 = H_n(
 
 Let us now prove the theorem.
 
-a) Let M be an A-module of type $\mathcal{C}$. For every bounded left resolution $(P, p)$ of M of type $\mathcal{C}_0$, the element $\chi_{\mathcal{C}_0}(P)$ of $K(\mathcal{C}_0)$ depends only on M. In fact, let $(P_1, p_1)$ and $(P_2, p_2)$ be two resolutions of this type. Consider the resolution
+a) Let M be an A-module of type $\mathscr{C}$. For every bounded left resolution $(P, p)$ of M of type $\mathscr{C}_0$, the element $\chi_{\mathscr{C}_0}(P)$ of $K(\mathscr{C}_0)$ depends only on M. In fact, let $(P_1, p_1)$ and $(P_2, p_2)$ be two resolutions of this type. Consider the resolution
 $$
 (P_1 \times P_2, p_1 \times p_2)
 $$
-of the A-module $M \times M$ and the homomorphism $\Delta : x \mapsto (x, x)$ of M into $M \times M$. By lemma 4, there exists a bounded left resolution $(Q, q)$ of M of type $\mathcal{C}_0$ and a commutative diagram
+of the A-module $M \times M$ and the homomorphism $\Delta : x \mapsto (x, x)$ of M into $M \times M$. By lemma 4, there exists a bounded left resolution $(Q, q)$ of M of type $\mathscr{C}_0$ and a commutative diagram
 $$
 \begin{array}{ccc}
 Q & \xrightarrow{u} & P_1 \times P_2 \\
@@ -811,13 +811,13 @@ q \downarrow & & \downarrow p_i \\
 M & \xrightarrow{1_M} & M , \quad i = 1, 2 .
 \end{array}
 $$
-By lemma 5, Con $(u \circ pr_i)$ has zero homology, hence $u \circ pr_i$ is a homologism and $\chi_{\mathcal{C}_0}(Q) = \chi_{\mathcal{C}_0}(P_i)$ (X, p. 41, prop. 10); it follows that $\chi_{\mathcal{C}_0}(P_1) = \chi_{\mathcal{C}_0}(P_2)$ as announced.
+By lemma 5, Con $(u \circ pr_i)$ has zero homology, hence $u \circ pr_i$ is a homologism and $\chi_{\mathscr{C}_0}(Q) = \chi_{\mathscr{C}_0}(P_i)$ (X, p. 41, prop. 10); it follows that $\chi_{\mathscr{C}_0}(P_1) = \chi_{\mathscr{C}_0}(P_2)$ as announced.
 
-b) For every A-module M of type $\mathcal{C}$, let $\varphi(M) \in K(\mathcal{C}_0)$ be the common value of the $\chi_{\mathcal{C}_0}(P)$ for all bounded left resolutions P of M of type $\mathcal{C}_0$. Let us show that the function $\varphi : \mathcal{C} \to K(\mathcal{C}_0)$ is additive. Let therefore
+b) For every A-module M of type $\mathscr{C}$, let $\varphi(M) \in K(\mathscr{C}_0)$ be the common value of the $\chi_{\mathscr{C}_0}(P)$ for all bounded left resolutions P of M of type $\mathscr{C}_0$. Let us show that the function $\varphi : \mathscr{C} \to K(\mathscr{C}_0)$ is additive. Let therefore
 $$
 0 \to M' \xrightarrow{f} M \to M'' \to 0
 $$
-be an exact sequence of A-modules of type $\mathcal{C}$. By Lemma 4, there exists a commutative diagram
+be an exact sequence of A-modules of type $\mathscr{C}$. By Lemma 4, there exists a commutative diagram
 $$
 \begin{array}{ccc}
 P' & \xrightarrow{u} & P \\
@@ -825,17 +825,17 @@ p' \downarrow & & \downarrow p \\
 0 & \xrightarrow{f} & M \xrightarrow{g} M'' \to 0
 \end{array}
 $$
-where $(P, p)$ and $(P', p')$ are bounded left resolutions of type $\mathcal{C}_0$. Then we have
+where $(P, p)$ and $(P', p')$ are bounded left resolutions of type $\mathscr{C}_0$. Then we have
 $$
-\varphi(M) = \chi_{\mathcal{C}_0}(P) , \qquad \varphi(M') = \chi_{\mathcal{C}_0}(P')
+\varphi(M) = \chi_{\mathscr{C}_0}(P) , \qquad \varphi(M') = \chi_{\mathscr{C}_0}(P')
 $$
 and by Lemma 5
 $$
-\varphi(M'') = \chi_{\mathcal{C}_0}(\mathrm{Con}\,(u)) = \chi_{\mathcal{C}_0}(P) - \chi_{\mathcal{C}_0}(P') = \varphi(M) - \varphi(M') ;
+\varphi(M'') = \chi_{\mathscr{C}_0}(\mathrm{Con}\,(u)) = \chi_{\mathscr{C}_0}(P) - \chi_{\mathscr{C}_0}(P') = \varphi(M) - \varphi(M') ;
 $$
 which was to be proved.
 
-c) Let then $\beta : K(\mathcal{C}) \to K(\mathcal{C}_0)$ be the homomorphism such that, with the preceding notations, we have $\beta([M]_{\mathcal{C}})=\chi_{\mathcal{C}_0}(P)$. Since $p$ is a homomorphism, we have $\chi_{\mathcal{C}}(P)=[M]_{\mathcal{C}}$, hence $\alpha\circ\beta([M]_{\mathcal{C}})=\alpha(\chi_{\mathcal{C}_0}(P))=\chi_{\mathcal{C}}(P)=[M]_{\mathcal{C}}$ and $\alpha\circ\beta=1_{K(\mathcal{C})}$. If $M$ is of type $\mathcal{C}_0$, then $(M,1_M)$ is a resolution of $M$, hence $\varphi(M)=[M]_{\mathcal{C}_0}$ and $\beta\circ\alpha=1_{K(\mathcal{C}_0)}$, which completes the proof.
+c) Let then $\beta : K(\mathscr{C}) \to K(\mathscr{C}_0)$ be the homomorphism such that, with the preceding notations, we have $\beta([M]_{\mathscr{C}})=\chi_{\mathscr{C}_0}(P)$. Since $p$ is a homomorphism, we have $\chi_{\mathscr{C}}(P)=[M]_{\mathscr{C}}$, hence $\alpha\circ\beta([M]_{\mathscr{C}})=\alpha(\chi_{\mathscr{C}_0}(P))=\chi_{\mathscr{C}}(P)=[M]_{\mathscr{C}}$ and $\alpha\circ\beta=1_{K(\mathscr{C})}$. If $M$ is of type $\mathscr{C}_0$, then $(M,1_M)$ is a resolution of $M$, hence $\varphi(M)=[M]_{\mathscr{C}_0}$ and $\beta\circ\alpha=1_{K(\mathscr{C}_0)}$, which completes the proof.
 
 We shall apply this theorem to modules of "finite projective dimension" in § 8 (X, p. 137).
 

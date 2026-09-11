@@ -50,7 +50,7 @@ subsections:
       pdf_page: 205
 statements: 45
 exercises: 23
-content_sha256: eaa826bc9a37a72bf6f16905e7367e09dee16967336ee35e8c2913ec5a31d9d0
+content_sha256: 8023a6f85abe8852bcad1698cef3120cc4c2d381bfe10b702f412bae1976458d
 ---
 
 ## § 11. ABELIAN EXTENSIONS
@@ -591,17 +591,17 @@ $$
 [\sigma, \overline{\varphi(x)}] = \sigma(x) - x.
 $$
 
-This mapping is Z-bilinear (for $\sigma, \tau \in \mathrm{Gal}(L/K)$, $a, b \in (\mathcal{P}(L) \cap K)/\mathcal{P}(K)$, we have $[\sigma \tau, a) = [\sigma, a) + [\tau, a)$, $[\sigma, a + b) = [\sigma, a) + [a, b)$).
+This mapping is Z-bilinear (for $\sigma, \tau \in \mathrm{Gal}(L/K)$, $a, b \in (\mathscr{P}(L) \cap K)/\mathscr{P}(K)$, we have $[\sigma \tau, a) = [\sigma, a) + [\tau, a)$, $[\sigma, a + b) = [\sigma, a) + [a, b)$).
 
-For the right-hand side of (15) is an element of $\mathbf{F}_p$ which depends only on the residue class of $\mathcal{P}(x) \mod \mathcal{P}(K)$; this proves the first assertion; the second may be verified without difficulty.
+For the right-hand side of (15) is an element of $\mathbf{F}_p$ which depends only on the residue class of $\mathscr{P}(x) \mod \mathscr{P}(K)$; this proves the first assertion; the second may be verified without difficulty.
 
 For every Galois extension $L$ of $K$ let us write
 
 $$
-a_ : (\mathcal{P}(L) \cap K)/\mathcal{P}(K) \to \mathrm{Hom}(\mathrm{Gal}(L/K), \mathbf{F}_p)
+a_ : (\mathscr{P}(L) \cap K)/\mathscr{P}(K) \to \mathrm{Hom}(\mathrm{Gal}(L/K), \mathbf{F}_p)
 $$
 $$
-a_L' : \mathrm{Gal}(L/K) \to \mathrm{Hom}((\mathcal{P}(L) \cap K)/\mathcal{P}(K), \mathbf{F}_p)
+a_L' : \mathrm{Gal}(L/K) \to \mathrm{Hom}((\mathscr{P}(L) \cap K)/\mathscr{P}(K), \mathbf{F}_p)
 $$
 
 for the homomorphisms obtained from the above Z-bilinear mapping (V, p. 87).
@@ -610,13 +610,13 @@ for the homomorphisms obtained from the above Z-bilinear mapping (V, p. 87).
 
 *For every Galois extension $L$ of finite degree of $K$, the homomorphism $a_L$ is bijective.*
 
-Let $x \in L$ be such that $\mathcal{P}(x) \in K$ and the residue class of $\mathcal{P}(x) \mod \mathcal{P}(K)$ lies in the kernel of $a_L$. For every $\sigma \in \mathrm{Gal}(L/K)$ we have by definition $\sigma(x) = x$; hence $x \in K$ and $\mathcal{P}(x) \in \mathcal{P}(K)$. This proves the injectivity of $a_L$. Now let $f : \mathrm{Gal}(L/K) \to \mathbf{F}_p$ be a homomorphism; for all $\sigma, \tau \in \mathrm{Gal}(L/K)$ we have
+Let $x \in L$ be such that $\mathscr{P}(x) \in K$ and the residue class of $\mathscr{P}(x) \mod \mathscr{P}(K)$ lies in the kernel of $a_L$. For every $\sigma \in \mathrm{Gal}(L/K)$ we have by definition $\sigma(x) = x$; hence $x \in K$ and $\mathscr{P}(x) \in \mathscr{P}(K)$. This proves the injectivity of $a_L$. Now let $f : \mathrm{Gal}(L/K) \to \mathbf{F}_p$ be a homomorphism; for all $\sigma, \tau \in \mathrm{Gal}(L/K)$ we have
 
 $$
 f(\sigma \tau) = f(\sigma) + \sigma(f(\tau)), \quad f(\sigma) \in \mathbf{F}_p.
 $$
 
-By V, p. 65, Cor. 2 there exists $x \in L$ such that $f(u) = \sigma(x) - x$ for all $o \in \mathrm{Gal}(L/K)$. Since $f(o) \in \mathbf{F}_p$ we have $\mathcal{P}(\sigma(x)) = \mathcal{P}(x)$, hence $\sigma(\mathcal{P}(x)) = \mathcal{P}(x)$ for all $a \in \mathrm{Gal}(L/K)$ and $\mathcal{P}(x) \in K$. If $a$ is the residue class of $\mathcal{P}(x) \mod \mathcal{P}(K)$, we have $f(\sigma) = [\sigma, a)$, so $f = a_L(a)$.
+By V, p. 65, Cor. 2 there exists $x \in L$ such that $f(u) = \sigma(x) - x$ for all $o \in \mathrm{Gal}(L/K)$. Since $f(o) \in \mathbf{F}_p$ we have $\mathscr{P}(\sigma(x)) = \mathscr{P}(x)$, hence $\sigma(\mathscr{P}(x)) = \mathscr{P}(x)$ for all $a \in \mathrm{Gal}(L/K)$ and $\mathscr{P}(x) \in K$. If $a$ is the residue class of $\mathscr{P}(x) \mod \mathscr{P}(K)$, we have $f(\sigma) = [\sigma, a)$, so $f = a_L(a)$.
 
 #### Corollary {#alg-v-s11-n9-cor-1 .statement}
 
@@ -626,15 +626,15 @@ This is proved in the same way as the Cor. of Prop. 9, V, p. 89.
 
 #### Theorem 5 {#alg-v-s11-thm-5 .statement}
 
-*a) The mapping $A \mapsto K(\mathcal{P}^{-1}(A))$ is a bijection of the set of subgroups of $K$ containing $\mathcal{P}(K)$ onto the set of abelian subextensions of exponent dividing $p$ in $\Omega$. The inverse mapping is $L \mapsto \mathcal{P}(L) \cap K$.
-b) For every subgroup $A$ of $K$ containing $\mathcal{P}(K)$, the homomorphism
+*a) The mapping $A \mapsto K(\mathscr{P}^{-1}(A))$ is a bijection of the set of subgroups of $K$ containing $\mathscr{P}(K)$ onto the set of abelian subextensions of exponent dividing $p$ in $\Omega$. The inverse mapping is $L \mapsto \mathscr{P}(L) \cap K$.
+b) For every subgroup $A$ of $K$ containing $\mathscr{P}(K)$, the homomorphism
 
 $$
-a' : \mathrm{Gal}(K(\mathcal{P}^{-1}(A))/K) \to \mathrm{Hom}(A/\mathcal{P}(K), \mathbf{F}_p)
+a' : \mathrm{Gal}(K(\mathscr{P}^{-1}(A))/K) \to \mathrm{Hom}(A/\mathscr{P}(K), \mathbf{F}_p)
 $$
 
-is bijective, and it is a homeomorphism when $\mathrm{Hom}(A/\mathcal{P}(K), \mathbf{F}_p)$ is equipped with the topology of simple convergence.
-c) Let $A$ be a subgroup of $K$ containing $\mathcal{P}(K)$ and let $B$ be a basis of the vector $\mathbf{F}_p$-space $A/\mathcal{P}(K)$. For each $a \in B$ let $x_a$ be an element of $\Omega$ such that $\mathcal{P}(x_a)$ is a representative of $a$ in $A$. Then the monomials $x^\alpha = \prod_{a \in B} x_a^{\alpha(a)}$ with a = (\alpha(a)) in N^{(B)} such that 0 \leq \alpha(a) < p for each a \in B form a basis of the vector K-space K(\mathfrak{p}^{-1}(A)). In particular we have [K(\mathfrak{p}^{-1}(A)):K] = (A:\mathfrak{p}(K)).
+is bijective, and it is a homeomorphism when $\mathrm{Hom}(A/\mathscr{P}(K), \mathbf{F}_p)$ is equipped with the topology of simple convergence.
+c) Let $A$ be a subgroup of $K$ containing $\mathscr{P}(K)$ and let $B$ be a basis of the vector $\mathbf{F}_p$-space $A/\mathscr{P}(K)$. For each $a \in B$ let $x_a$ be an element of $\Omega$ such that $\mathscr{P}(x_a)$ is a representative of $a$ in $A$. Then the monomials $x^\alpha = \prod_{a \in B} x_a^{\alpha(a)}$ with a = (\alpha(a)) in N^{(B)} such that 0 \leq \alpha(a) < p for each a \in B form a basis of the vector K-space K(\mathfrak{p}^{-1}(A)). In particular we have [K(\mathfrak{p}^{-1}(A)):K] = (A:\mathfrak{p}(K)).
 
 Th. 5 is proved in the same way as Th. 4 (V, p. 89) mutatis mutandis.
 

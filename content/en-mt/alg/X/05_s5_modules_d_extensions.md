@@ -41,11 +41,11 @@ subsections:
       pdf_page: 104
 statements: 36
 exercises: 8
-content_sha256: 04bb17e328162e2f2fe5d95ba8637a898fe9f0783875c24808d201a703cf4217
+content_sha256: 39072234e6483530497dc50e68dece290a95404b45bea60db63c2dc0a38fc3b2
 translated_from: content/fr/alg/X/05_s5_modules_d_extensions.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: fc6a14f95feff6e18ee557c23684f8b351f1e029bb29cd31eb44e7305d9c3204
+source_content_sha256: e9ed17b2d3cbb9a0578a822c30375ad097e46c0bb5c548d2f513ffd5d8da6e26
 translation_model: gpt-5-6-mini, hy3-free, laguna-s-2.1-free, nemotron-3-ultra-free
 translation_run: translate-en-mt-be8c3dec
 glossary_version: 34
@@ -556,32 +556,32 @@ $$
 
 Let
 
-$$(\mathcal{E})\qquad 0\longrightarrow N'\xrightarrow{u}N\xrightarrow{v}N''\longrightarrow0$$
+$$(\mathscr{E})\qquad 0\longrightarrow N'\xrightarrow{u}N\xrightarrow{v}N''\longrightarrow0$$
 
 Bourbaki. — Algèbre X                                                                                                                             4 an exact sequence of $A$-modules ; the sequence of $k$-complexes
 
 $$
-(\mathcal{E}) \quad 0 \longrightarrow \operatorname{Homgr}_A(L(M), N') \xrightarrow{\operatorname{Homgr}(1,u)} \operatorname{Homgr}_A(L(M), N) \\
-\phantom{(M\mathcal{E})} \phantom{0} \xrightarrow{\operatorname{Homgr}(1,v)} \operatorname{Homgr}_A(L(M), N'') \longrightarrow 0
+(\mathscr{E}) \quad 0 \longrightarrow \operatorname{Homgr}_A(L(M), N') \xrightarrow{\operatorname{Homgr}(1,u)} \operatorname{Homgr}_A(L(M), N) \\
+\phantom{(M\mathscr{E})} \phantom{0} \xrightarrow{\operatorname{Homgr}(1,v)} \operatorname{Homgr}_A(L(M), N'') \longrightarrow 0
 $$
 
 is then exact ($X$, p. 83, prop. 2, $a$), let
 
 $$
-\partial_{(M\mathcal{E})} : H(\operatorname{Homgr}_A(L(M), N'')) \to H(\operatorname{Homgr}_A(L(M), N'))
+\partial_{(M\mathscr{E})} : H(\operatorname{Homgr}_A(L(M), N'')) \to H(\operatorname{Homgr}_A(L(M), N'))
 $$
 
 be the corresponding connecting homomorphism ($X$, p. 29).
 
 #### Definition 2 {#alg-x-s5-def-2 .statement}
 
-*We call the composite homomorphism the connecting homomorphism of the extension modules relative to the module $M$ and to the exact sequence $\mathcal{E}$*
+*We call the composite homomorphism the connecting homomorphism of the extension modules relative to the module $M$ and to the exact sequence $\mathscr{E}$*
 
 $$
-\delta(M, \mathcal{E}) = \varphi_M(N') \circ \partial_{(M\mathcal{E})} \circ \varphi_M(N'')^{-1} : \operatorname{Ext}_A(M, N'') \to \operatorname{Ext}_A(M, N')
+\delta(M, \mathscr{E}) = \varphi_M(N') \circ \partial_{(M\mathscr{E})} \circ \varphi_M(N'')^{-1} : \operatorname{Ext}_A(M, N'') \to \operatorname{Ext}_A(M, N')
 $$
 
-This is a graded $k$-homomorphism of ascending degree 1, whose homogeneous components are denoted $\delta^n(M, \mathcal{E}) : \operatorname{Ext}_A^n(M, N'') \to \operatorname{Ext}_A^{n+1}(M, N')$.
+This is a graded $k$-homomorphism of ascending degree 1, whose homogeneous components are denoted $\delta^n(M, \mathscr{E}) : \operatorname{Ext}_A^n(M, N'') \to \operatorname{Ext}_A^{n+1}(M, N')$.
 
 #### Theorem 1 {#alg-x-s5-thm-1 .statement}
 
@@ -591,10 +591,10 @@ $$
 0 \longrightarrow \operatorname{Hom}_A(M, N') \xrightarrow{\operatorname{Hom}(1,u)} \operatorname{Hom}_A(M, N) \xrightarrow{\operatorname{Hom}(1,v)} \operatorname{Hom}_A(M, N'')
 $$
 $$
-\phantom{0} \xrightarrow{\delta_{(M,\mathcal{E})}} \operatorname{Ext}_A^1(M, N') \to \cdots \xrightarrow{\delta^{n-1}(M,\mathcal{E})} \operatorname{Ext}_A^n(M, N') \xrightarrow{\operatorname{Ext}^n(1,u)} \operatorname{Ext}_A^n(M, N)
+\phantom{0} \xrightarrow{\delta_{(M,\mathscr{E})}} \operatorname{Ext}_A^1(M, N') \to \cdots \xrightarrow{\delta^{n-1}(M,\mathscr{E})} \operatorname{Ext}_A^n(M, N') \xrightarrow{\operatorname{Ext}^n(1,u)} \operatorname{Ext}_A^n(M, N)
 $$
 $$
-\phantom{0} \xrightarrow{\operatorname{Ext}^n(1,v)} \operatorname{Ext}_A^n(M, N'') \xrightarrow{\delta^n(M,\mathcal{E})} \operatorname{Ext}_A^{n+1}(M, N') \to \cdots
+\phantom{0} \xrightarrow{\operatorname{Ext}^n(1,v)} \operatorname{Ext}_A^n(M, N'') \xrightarrow{\delta^n(M,\mathscr{E})} \operatorname{Ext}_A^{n+1}(M, N') \to \cdots
 $$
 
 *is exact*.
@@ -618,17 +618,17 @@ $$
 
 $$
 \begin{array}{cccccccccc}
-(\mathcal{E}) & 0 & \longrightarrow & N' & \xrightarrow{u} & N & \xrightarrow{v} & N'' & \longrightarrow & 0 \\
+(\mathscr{E}) & 0 & \longrightarrow & N' & \xrightarrow{u} & N & \xrightarrow{v} & N'' & \longrightarrow & 0 \\
 & & & g' \downarrow & & g \downarrow & & g'' \downarrow & & \\
-(\mathcal{E}_1) & 0 & \longrightarrow & N'_1 & \xrightarrow{u_1} & N_1 & \xrightarrow{v_1} & N''_1 & \longrightarrow & 0
+(\mathscr{E}_1) & 0 & \longrightarrow & N'_1 & \xrightarrow{u_1} & N_1 & \xrightarrow{v_1} & N''_1 & \longrightarrow & 0
 \end{array}
 $$
 
 $$
 \begin{array}{ccccc}
-\operatorname{Ext}(M,N') & \xrightarrow{\operatorname{Ext}(1,u)} & \operatorname{Ext}(M,N) & \xrightarrow{\operatorname{Ext}(1,v)} & \operatorname{Ext}(M,N'') \xrightarrow{\delta(M,\mathcal{G})} \operatorname{Ext}(M,N') \xrightarrow{\operatorname{Ext}(1,u)} \operatorname{Ext}(M,N)\\[6pt]
+\operatorname{Ext}(M,N') & \xrightarrow{\operatorname{Ext}(1,u)} & \operatorname{Ext}(M,N) & \xrightarrow{\operatorname{Ext}(1,v)} & \operatorname{Ext}(M,N'') \xrightarrow{\delta(M,\mathscr{G})} \operatorname{Ext}(M,N') \xrightarrow{\operatorname{Ext}(1,u)} \operatorname{Ext}(M,N)\\[6pt]
 \Big\uparrow\vcenter{\rlap{$\scriptstyle\varphi_M(N')$}} && \Big\uparrow\vcenter{\rlap{$\scriptstyle\varphi_M(N)$}} && \Big\uparrow\vcenter{\rlap{$\scriptstyle\varphi_M(N'')$}} \qquad\qquad\Big\uparrow\vcenter{\rlap{$\scriptstyle\varphi_M(N')$}}\\[6pt]
-H(\operatorname{Homgr}(L(M),N')) & \xrightarrow{H(\operatorname{Homgr}(1,u))} & H(\operatorname{Homgr}(L(M),N)) & \xrightarrow{H(\operatorname{Homgr}(1,v))} & H(\operatorname{Homgr}(L(M),N'')) \xrightarrow{\partial(M\mathcal{G})} H(\operatorname{Homgr}(L(M),N')) \xrightarrow{H(\operatorname{Homgr}(1,u))} H(\operatorname{Homgr}(L(M),N))
+H(\operatorname{Homgr}(L(M),N')) & \xrightarrow{H(\operatorname{Homgr}(1,u))} & H(\operatorname{Homgr}(L(M),N)) & \xrightarrow{H(\operatorname{Homgr}(1,v))} & H(\operatorname{Homgr}(L(M),N'')) \xrightarrow{\partial(M\mathscr{G})} H(\operatorname{Homgr}(L(M),N')) \xrightarrow{H(\operatorname{Homgr}(1,u))} H(\operatorname{Homgr}(L(M),N))
 \end{array}
 $$
 
@@ -636,9 +636,9 @@ a commutative diagram of $A$-modules with exact rows. The diagram of $k$-modules
 
 $$
 \begin{array}{ccc}
-\mathrm{Ext}_A(M, N'') & \xrightarrow{\delta(M, \mathcal{E})} & \mathrm{Ext}_A(M, N') \\
+\mathrm{Ext}_A(M, N'') & \xrightarrow{\delta(M, \mathscr{E})} & \mathrm{Ext}_A(M, N') \\
 \mathrm{Ext}(f, g'') \downarrow & & \mathrm{Ext}(f, g') \downarrow \\
-\mathrm{Ext}_A(M_1, N''_1) & \xrightarrow{\delta(M, \mathcal{E}_1)} & \mathrm{Ext}_A(M_1, N'_1)
+\mathrm{Ext}_A(M_1, N''_1) & \xrightarrow{\delta(M, \mathscr{E}_1)} & \mathrm{Ext}_A(M_1, N'_1)
 \end{array}
 $$
 
@@ -655,29 +655,29 @@ $$
 $$
 
 Let $N$ be an $A$-module, and
-$$(\mathcal{F})$$
+$$(\mathscr{F})$$
 $$0 \to M' \xrightarrow{r} M \xrightarrow{s} M'' \to 0$$
 an exact sequence of $A$-modules; the sequence of complexes
-$$(\mathcal{F}_N)$$
+$$(\mathscr{F}_N)$$
 $$0 \longrightarrow \mathrm{Homgr}_A(M'', I(N)) \xrightarrow{\mathrm{Homgr}(s, 1)} \mathrm{Homgr}_A(M, I(N))$$
 $$\xrightarrow{\mathrm{Homgr}(r, 1)} \mathrm{Homgr}_A(M', I(N)) \longrightarrow 0$$
 is exact (X, p. 83, prop. 2, $a$) ; let
-$$\partial(\mathcal{F}_N) : \mathrm{H}(\mathrm{Homgr}_A(M', I(N))) \to \mathrm{H}(\mathrm{Homgr}_A(M'', I(N)))$$
+$$\partial(\mathscr{F}_N) : \mathrm{H}(\mathrm{Homgr}_A(M', I(N))) \to \mathrm{H}(\mathrm{Homgr}_A(M'', I(N)))$$
 be the corresponding connecting homomorphism.
 
 #### Definition 3 {#alg-x-s5-def-3 .statement}
 
-One calls connecting homomorphism of extension modules relative to the exact sequence $(\mathcal{F})$ and to the module $N$, the composite homomorphism
-$$\delta(\mathcal{F}, N) : \overline{\varphi}_N(M'') \circ \partial(\mathcal{F}_N) \circ \overline{\varphi}_N(M')^{-1} : \mathrm{Ext}_A(M', N) \to \mathrm{Ext}_A(M'', N).$$
-It is a graded $k$-homomorphism of ascending degree 1, whose homogeneous components are denoted $\delta^n(\mathcal{F}, N) : \mathrm{Ext}_A^n(M', N) \to \mathrm{Ext}_A^{n+1}(M'', N)$.
+One calls connecting homomorphism of extension modules relative to the exact sequence $(\mathscr{F})$ and to the module $N$, the composite homomorphism
+$$\delta(\mathscr{F}, N) : \overline{\varphi}_N(M'') \circ \partial(\mathscr{F}_N) \circ \overline{\varphi}_N(M')^{-1} : \mathrm{Ext}_A(M', N) \to \mathrm{Ext}_A(M'', N).$$
+It is a graded $k$-homomorphism of ascending degree 1, whose homogeneous components are denoted $\delta^n(\mathscr{F}, N) : \mathrm{Ext}_A^n(M', N) \to \mathrm{Ext}_A^{n+1}(M'', N)$.
 One then proves as above the following statements:
 
 #### Theorem 2 {#alg-x-s5-thm-2 .statement}
 
 The right-unbounded sequence of homomorphisms of $k$-modules
 $$0 \longrightarrow \mathrm{Hom}_A(M'', N) \xrightarrow{\mathrm{Hom}(s, 1)} \mathrm{Hom}_A(M, N) \xrightarrow{\mathrm{Hom}(r, 1)} \mathrm{Hom}_A(M', N)$$
-$$\xrightarrow{\delta^0(\mathcal{F}, N)} \mathrm{Ext}_A^1(M'', N) \to \cdots \xrightarrow{\delta^{n-1}(\mathcal{F}, N)} \mathrm{Ext}_A^n(M'', N) \xrightarrow{\mathrm{Ext}^n(s, 1)} \mathrm{Ext}_A^n(M, N)$$
-$$\xrightarrow{\mathrm{Ext}^n(r, 1)} \mathrm{Ext}_A^n(M', N) \xrightarrow{\delta^n(\mathcal{F}, N)} \mathrm{Ext}_A^{n+1}(M'', N) \to \cdots$$
+$$\xrightarrow{\delta^0(\mathscr{F}, N)} \mathrm{Ext}_A^1(M'', N) \to \cdots \xrightarrow{\delta^{n-1}(\mathscr{F}, N)} \mathrm{Ext}_A^n(M'', N) \xrightarrow{\mathrm{Ext}^n(s, 1)} \mathrm{Ext}_A^n(M, N)$$
+$$\xrightarrow{\mathrm{Ext}^n(r, 1)} \mathrm{Ext}_A^n(M', N) \xrightarrow{\delta^n(\mathscr{F}, N)} \mathrm{Ext}_A^{n+1}(M'', N) \to \cdots$$
 is exact.
 
 #### Corollary {#alg-x-s5-n4-cor-2 .statement}
@@ -696,9 +696,9 @@ Let $g : N \to N_1$ be a homomorphism of $A$-modules and
 
 $$
 \begin{array}{cccccc}
-(\mathcal{F}_1) & 0 \to M'_1 \xrightarrow{r_1} M_1 \xrightarrow{s_1} M''_1 \to 0 \\
+(\mathscr{F}_1) & 0 \to M'_1 \xrightarrow{r_1} M_1 \xrightarrow{s_1} M''_1 \to 0 \\
 & f' \downarrow & f \downarrow & f'' \downarrow \\
-(\mathcal{F}) & 0 \to M' \xrightarrow{r} M \xrightarrow{s} M'' \to 0
+(\mathscr{F}) & 0 \to M' \xrightarrow{r} M \xrightarrow{s} M'' \to 0
 \end{array}
 $$
 
@@ -706,9 +706,9 @@ a commutative diagram of $A$-modules with exact rows. The diagram of $k$-modules
 
 $$
 \begin{array}{ccc}
-\operatorname{Ext}_A(M', N) & \xrightarrow{\delta(\mathcal{F}, N)} & \operatorname{Ext}_A(M'', N) \\
+\operatorname{Ext}_A(M', N) & \xrightarrow{\delta(\mathscr{F}, N)} & \operatorname{Ext}_A(M'', N) \\
 \operatorname{Ext}_A(f', g) \downarrow & & \operatorname{Ext}_A(f'', g) \downarrow \\
-\operatorname{Ext}_A(M'_1, N_1) & \xrightarrow{\delta(\mathcal{F}_1, N_1)} & \operatorname{Ext}_A(M''_1, N_1)
+\operatorname{Ext}_A(M'_1, N_1) & \xrightarrow{\delta(\mathscr{F}_1, N_1)} & \operatorname{Ext}_A(M''_1, N_1)
 \end{array}
 $$
 
