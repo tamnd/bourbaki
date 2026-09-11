@@ -11,7 +11,7 @@ pdf_pages: 0237-0246
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 9cb4ee60adeb6f91acfd2e6f54cec33bd5962e0a2645da7b642e4fb0d7ad3705
+content_sha256: d3f6db62824aa99fd727987d1aa4bd72ddbdc655b2f55dc83418c551647ff9bf
 ---
 
 ## 24. INTEGRATION IN NON LOCALLY COMPACT SPACES.
@@ -104,7 +104,7 @@ $^8$ Kolmogoroff’s measure is only defined for Borel sets in $\mathbf{R}^T$ of
 
 $^9$ It would be possible to replace $\overline{\mathbf{R}}$ by any compact space containing $\mathbf{R}$ as a dense subspace.
 
-defined as a projective limit of the $\mu_H$. But this procedure has a severe inconvenience; the elements of $\overline{\mathbf{R}}^T$ do not possess any regularity property allowing the continuation of the probabilistic study of the process — or even simply the elimination of the parasitic values $\pm \infty$ introduced by the compactification $\overline{\mathbf{R}}$ of $\mathbf{R}$. It can be remedied by restricting the measure $\mu$ of $\overline{\mathbf{R}}^T$ to a particular subspace (for example $\mathcal{C}(T)$ in the case of brownian movement); the fundamental difficulty arises from the fact that a functional space, even of the usual type, is not necessarily $\mu$-measurable in $\overline{\mathbf{R}}^T$, and even the choice of the functional space can be in question.$^{10}$
+defined as a projective limit of the $\mu_H$. But this procedure has a severe inconvenience; the elements of $\overline{\mathbf{R}}^T$ do not possess any regularity property allowing the continuation of the probabilistic study of the process — or even simply the elimination of the parasitic values $\pm \infty$ introduced by the compactification $\overline{\mathbf{R}}$ of $\mathbf{R}$. It can be remedied by restricting the measure $\mu$ of $\overline{\mathbf{R}}^T$ to a particular subspace (for example $\mathscr{C}(T)$ in the case of brownian movement); the fundamental difficulty arises from the fact that a functional space, even of the usual type, is not necessarily $\mu$-measurable in $\overline{\mathbf{R}}^T$, and even the choice of the functional space can be in question.$^{10}$
 
 A decisive step was accomplished in 1956 by Prokhorov in a work [254] which exercised a determining influence on the theory of stochastic processes. By putting into a convenient axiomatic form the methods used by Wiener in the article analysed above, he establishes a general existence theorem for projective limits of measures on functional spaces.
 

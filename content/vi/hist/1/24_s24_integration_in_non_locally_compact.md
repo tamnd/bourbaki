@@ -11,9 +11,9 @@ pdf_pages: 0237-0246
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: bfdecdb5dadb5d3e809d80cb8c376e0dc0b7533ebb5120fbdc1b8695448059ea
+content_sha256: aa8dbf1f610572830cf42f6e9b612bbd6fafd9db8719224a0a14827c3e290c8c
 translated_from: content/en/hist/1/24_s24_integration_in_non_locally_compact.md
-source_content_sha256: 9cb4ee60adeb6f91acfd2e6f54cec33bd5962e0a2645da7b642e4fb0d7ad3705
+source_content_sha256: d3f6db62824aa99fd727987d1aa4bd72ddbdc655b2f55dc83418c551647ff9bf
 translation_model: gpt-5.4
 translation_run: translate-vi-99695740
 glossary_version: 34
@@ -111,7 +111,7 @@ $^8$ Độ đo của Kolmogoroff chỉ được xác định cho các tập Bore
 
 $^9$ Có thể thay thế $\overline{\mathbf{R}}$ bằng bất kỳ không gian compact nào chứa $\mathbf{R}$ như một không gian con trù mật.
 
-được xác định như một giới hạn xạ ảnh của các $\mu_H$. Nhưng thủ tục này có một sự bất tiện nghiêm trọng; các phần tử của $\overline{\mathbf{R}}^T$ không có một tính chất chính quy nào cho phép tiếp tục việc nghiên cứu xác suất của quá trình đó - hoặc thậm chí chỉ đơn giản là loại bỏ các giá trị ký sinh $\pm \infty$ được đưa vào bởi phép compact hóa $\overline{\mathbf{R}}$ của $\mathbf{R}$. Có thể khắc phục điều đó bằng cách hạn chế độ đo $\mu$ của $\overline{\mathbf{R}}^T$ vào một không gian con riêng biệt (chẳng hạn $\mathcal{C}(T)$ trong trường hợp chuyển động Brown); khó khăn cơ bản xuất phát từ sự kiện rằng một không gian phiếm hàm, ngay cả thuộc kiểu thông thường, không nhất thiết là $\mu$-đo được trong $\overline{\mathbf{R}}^T$, và ngay cả việc lựa chọn không gian phiếm hàm cũng có thể là một vấn đề.$^{10}$
+được xác định như một giới hạn xạ ảnh của các $\mu_H$. Nhưng thủ tục này có một sự bất tiện nghiêm trọng; các phần tử của $\overline{\mathbf{R}}^T$ không có một tính chất chính quy nào cho phép tiếp tục việc nghiên cứu xác suất của quá trình đó - hoặc thậm chí chỉ đơn giản là loại bỏ các giá trị ký sinh $\pm \infty$ được đưa vào bởi phép compact hóa $\overline{\mathbf{R}}$ của $\mathbf{R}$. Có thể khắc phục điều đó bằng cách hạn chế độ đo $\mu$ của $\overline{\mathbf{R}}^T$ vào một không gian con riêng biệt (chẳng hạn $\mathscr{C}(T)$ trong trường hợp chuyển động Brown); khó khăn cơ bản xuất phát từ sự kiện rằng một không gian phiếm hàm, ngay cả thuộc kiểu thông thường, không nhất thiết là $\mu$-đo được trong $\overline{\mathbf{R}}^T$, và ngay cả việc lựa chọn không gian phiếm hàm cũng có thể là một vấn đề.$^{10}$
 
 Một bước quyết định đã được Prokhorov thực hiện vào năm 1956 trong một công trình [254] có ảnh hưởng có tính quyết định đối với lý thuyết các quá trình ngẫu nhiên. Bằng cách đặt dưới một dạng tiên đề thích hợp các phương pháp được Wiener sử dụng trong bài báo đã được phân tích ở trên, ông thiết lập một định lý tồn tại tổng quát cho các giới hạn xạ ảnh của các độ đo trên các không gian phiếm hàm.
 

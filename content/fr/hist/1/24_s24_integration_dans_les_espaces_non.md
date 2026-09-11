@@ -11,7 +11,7 @@ pdf_pages: 0294-0306
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: b38d6a15029a4edcb03ca4d668623b507c913495d68d5d3accd9267eba5ca777
+content_sha256: 1d5718635130d4695a10e7dab47deb9d4cc3014a1dcd50b3e072fc71a0bad7ec
 ---
 
 ## 24. INTÉGRATION DANS LES ESPACES NON LOCALEMENT COMPACTS
@@ -72,7 +72,7 @@ On doit à Wiener le progrès essentiel : si l'on n'a pas de mesure de Gauss rai
 
 ** Cette notion a été introduite sous le nom de « weak canonical distribution » par I. Segal [281]. On doit à cet auteur une étude détaillée des promesures gaussiennes, et leur application à certains problèmes de théorie quantique des champs.
 
-$A\{F\} = \lim_{m \to \infty} \int_{H_m} F(x) \, dw_m(x)$ existe ; Wiener obtient ensuite certaines majorations par une analyse subtile des fluctuations du jeu de pile ou face, et, reprenant les arguments de compacité mis en évidence par Daniell, il montre que l’on est dans les conditions d’application du théorème de prolongement de Daniell. On conclut à l’existence d’une mesure $w$ portée par $\mathcal{C}(T)$ et telle que $A\{F\} = \int_{\mathcal{C}(T)} F(x) \, dw(x)$.
+$A\{F\} = \lim_{m \to \infty} \int_{H_m} F(x) \, dw_m(x)$ existe ; Wiener obtient ensuite certaines majorations par une analyse subtile des fluctuations du jeu de pile ou face, et, reprenant les arguments de compacité mis en évidence par Daniell, il montre que l’on est dans les conditions d’application du théorème de prolongement de Daniell. On conclut à l’existence d’une mesure $w$ portée par $\mathscr{C}(T)$ et telle que $A\{F\} = \int_{\mathscr{C}(T)} F(x) \, dw(x)$.
 
 Wiener peut alors montrer que la mesure $w$ correspond aux hypothèses d’Einstein *, et ses estimations lui permettent de donner un sens précis à la remarque de Perrin sur les fonctions sans dérivées : l’ensemble des fonctions satisfaisant à une condition de Lipschitz d’ordre $\frac{1}{2}$, est négligeable pour $w$ (par contre, pour tout $a$ avec $0 < a < \frac{1}{2}$, presque toute fonction satisfait à une condition de Lipschitz d’ordre $a$).
 
@@ -84,7 +84,7 @@ on peut montrer que, pour $\Gamma$-presque toute suite $\mathbf{a}$, la suite de
 
 \* Ceci se traduit par la formule
 $$
-\int_{\mathcal{C}(T)} f(x(t_1), \ldots, x(t_n)) \, dw(x)
+\int_{\mathscr{C}(T)} f(x(t_1), \ldots, x(t_n)) \, dw(x)
 $$
 $$
 = (2\pi)^{-n/2} \prod_{i=1}^n (t_i - t_{i-1})^{-1/2} \int \ldots \int f(x_1, \ldots, x_n) \exp \left( -\frac{1}{2} \sum_{i=1}^n \frac{(x_i - x_{i-1})^2}{t_i - t_{i-1}} \right) dx_1 \ldots dx_n
@@ -140,7 +140,7 @@ La définition d’un mode de convergence (vague ou étroite) pour les mesures s
 
 lier $X^*$, il définit la convergence étroite des mesures bornées et démontre entre autres les deux théorèmes suivants :
 
-a) si $X$ est polonais, l’ensemble des formes linéaires sur $\mathcal{C}^b(X)$ correspondant aux mesures est fermé pour la convergence faible des suites;
+a) si $X$ est polonais, l’ensemble des formes linéaires sur $\mathscr{C}^b(X)$ correspondant aux mesures est fermé pour la convergence faible des suites;
 
 b) si une suite de mesures bornées a une limite étroite, « il n’y a pas de masse fuyant à l’infini » (c’est une forme faible de la réciproque du théorème de convergence étroite de Prokhorov).
 

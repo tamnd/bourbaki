@@ -15,7 +15,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 8eccbe30040d8e0e7b4c7b4f961d2ef1a3957f6c229f65acc6a0a74201556443
+          content_sha256: 5eeb10ebcb2f913c715628a50cec932f80618afd2323890f6b498e8c4bbe1b81
         - kind: section
           section: 2
           title: Notation; Combinatorial Analysis
@@ -87,7 +87,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 3b31d464af31968dcdc847f7f824b02d09c229887c69e8220696365ea28795e4
+          content_sha256: 6494135b95c16d54e874f36cc205562a64397d5698f8ea1d45df3adca031f5a9
         - kind: section
           section: 8
           title: Non Commutative Algebra
@@ -291,7 +291,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 9cb4ee60adeb6f91acfd2e6f54cec33bd5962e0a2645da7b642e4fb0d7ad3705
+          content_sha256: d3f6db62824aa99fd727987d1aa4bd72ddbdc655b2f55dc83418c551647ff9bf
         - kind: section
           section: 25
           title: Lie Groups and Lie Algebras

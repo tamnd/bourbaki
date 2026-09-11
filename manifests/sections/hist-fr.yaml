@@ -26,7 +26,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 4b346034f80346b8ae114cf5af25beb8e6cc3999ad1794c8beab53848f85600f
+          content_sha256: 9bdf15aa90d6d2b05df4c6ec7f503ef068be5179cd8bac1288e8a7dbfe402930
         - kind: section
           section: 2
           title: Numération; analyse combinatoire
@@ -98,7 +98,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 54a1c938f7a9f872f83c9bab39ffa70a8ca555fc91811530430072c398630ccb
+          content_sha256: b7f1724c1ba36cbccea6cef8edd25685014432619f254cab7d14ba997ff0d811
         - kind: section
           section: 8
           title: Algèbre non commutative
@@ -158,7 +158,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 5ec12159f8bdbb26f88baad11d02f6b6dbcc66fa73908a1eef87eaeb35e90f55
+          content_sha256: 932d9da8f84cc8cf578145665a8d8853b2dc64edda2cba86ac5f279a78de7e78
         - kind: section
           section: 13
           title: Exponentielles et logarithmes
@@ -266,7 +266,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 3fbfc9040740775613fdcd4f356c01f6e165c3e64968d335364a65a18c161fd2
+          content_sha256: b18aae8f60c4e4ebe655db2d4adcdb3bfaf653ea71478e53f795c05f0e82b9a4
         - kind: section
           section: 22
           title: Intégration dans les espaces localement compacts
@@ -278,7 +278,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 262e8691de2e85d70f1f879d5fbbd63b787a3665298dfa32b1c6a0d18231e203
+          content_sha256: 4b9f71a36de862461430b5fefda1566e6d1658a11cb9e9a55d2526f0a04b6abb
         - kind: section
           section: 23
           title: Mesure de Haar; convolution
@@ -302,7 +302,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: b38d6a15029a4edcb03ca4d668623b507c913495d68d5d3accd9267eba5ca777
+          content_sha256: 1d5718635130d4695a10e7dab47deb9d4cc3014a1dcd50b3e072fc71a0bad7ec
         - kind: section
           section: 25
           title: Groupes de Lie et algèbres de Lie
