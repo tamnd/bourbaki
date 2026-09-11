@@ -46,7 +46,7 @@ subsections:
       pdf_page: 145
 statements: 30
 exercises: 18
-content_sha256: 12f8e428428b5f7dc54975404f7164ebcd42072404d371fe2d384b67219ccb8d
+content_sha256: a63c44f4228afbacb9029761cff104b9ae35743cb3a5821d47d505984a562ab1
 ---
 
 ## § 5. CALCUL SUR LES ENTIERS
@@ -232,7 +232,7 @@ Nous démontrerons la proposition par récurrence sur $k$; elle découle aussit�
 
 Remarquons maintenant que, pour tout entier $a$, on a $a < b^a$: il suffit de raisonner par récurrence sur $a$, la proposition étant évidente pour $a = 0$, et l’hypothèse $a < b^a$ entraînant $a + 1 \leq b^a < b \cdot b^a = b^{a+1}$ (III, p. 36, prop. 3 et p. 31, prop. 2). Il existe donc un plus petit entier $k$ tel que $a < b^k$, et la prop. 8 prouve alors qu’il existe une suite finie et une seule $(r_h)_{0 \leq h \leq k-1}$ telle que $0 \leq r_h \leq b-1$ pour $0 \leq h \leq k-1$ et $a = \sum_{h=0}^{k-1} r_h b^{k-h-1}$; en outre, on a nécessairement $r_0 > 0$, sans quoi on déduirait de la prop. 8 que $a < b^{k-1}$. On dit que $\sum_{h=0}^{k-1} r_h b^{k-h-1}$ est le développement de base $b$ du nombre entier $a$.
 
-* Dans toutes les parties des mathématiques où on n’a pas en vue le calcul numérique, la prop. 8 sera surtout utile lorsqu’elle sera appliquée à un entier $b$ premier.*
+\* Dans toutes les parties des mathématiques où on n’a pas en vue le calcul numérique, la prop. 8 sera surtout utile lorsqu’elle sera appliquée à un entier $b$ premier.\*
 
 Lorsque l’entier $b$ est assez petit pour que cela soit praticable, on peut représenter chaque entier $< b$ par un symbole distinctif appelé chiffre, les chiffres représentant 0 et 1 étant en général 0 et 1. Soient $a$ un entier et $\sum_{h=0}^{k-1} r_h b^{k-h-1}$ son développement de base $b$; si l’entier $k$ figurant dans ce développement est assez petit pour que ce soit praticable, on convient d’associer à l’entier $a$ la succession de symboles obtenue en écrivant de gauche à droite $r_0 r_1 \ldots r_{k-2} r_{k-1}$ et en remplaçant chaque entier $r_i$ par le chiffre qui le représente; le symbole ainsi obtenu est appelé le symbole numérique associé à $a$. On remplace alors souvent $a$ par son symbole numérique dans les termes ou relations où il figure.
 

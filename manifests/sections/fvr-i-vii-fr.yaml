@@ -185,7 +185,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 2dbd99e555debbcd5544a7ddec67266391f49d4c0af4074542b74a4a8309793f
+          content_sha256: c6de0e07654b0453699bbf3970511598e569ce7bce1633429b428764ff422f97
     - chapter: IV
       title: ÉQUATIONS DIFFÉRENTIELLES
       sections:

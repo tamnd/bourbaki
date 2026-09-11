@@ -273,7 +273,7 @@ chapters:
           statements: 30
           exercises: 18
           extraction: ocr
-          content_sha256: 12f8e428428b5f7dc54975404f7164ebcd42072404d371fe2d384b67219ccb8d
+          content_sha256: a63c44f4228afbacb9029761cff104b9ae35743cb3a5821d47d505984a562ab1
         - kind: section
           section: 6
           title: Ensembles infinis
