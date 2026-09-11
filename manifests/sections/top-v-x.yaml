@@ -394,7 +394,7 @@ chapters:
           content_sha256: 74c7e09f8aeaaf8d364ea3f06661b236d72106e456e7027368a85b1633fa9610
         - kind: section
           section: 1
-          title: The uniformity of $\mathcal{G}$-convergence
+          title: The uniformity of $\mathscr{G}$-convergence
           path: content/en/top/X/01_s1_the_uniformity_of_mathcal_g_convergence.md
           label: top-x-s1
           first_pdf_page: 280
