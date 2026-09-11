@@ -45,7 +45,7 @@ subsections:
       pdf_page: 288
 statements: 24
 exercises: 26
-content_sha256: a9bca1943e52417c112c4528a5184de8a0cf4ec20e911d77c5f0e4f0a736154a
+content_sha256: a0311b4f6908f6ad3ba657aac94e46945ba6f273df4ccce71851361876e9f15d
 ---
 
 ## 6. TOPOLOGICAL GROUPS WITH OPERATORS; TOPOLOGICAL RINGS, DIVISION RINGS AND FIELDS
@@ -156,15 +156,15 @@ the axiom (AT_{III}) [in view of (AT_I) and (AT_{II})] is equivalent to the conj
 (AT_{III a}). *Given any* $x_0 \in A$, *the mappings* $x \to x_0 x$ *and* $x \to xx_0$ *are continuous at the point* $x = 0$.
 (AT_{III b}). *The mapping* $(x, y) \to xy$ *of* $A \times A$ *into* $A$ *is continuous at the point* $(0, 0)$.
 
-From this we can deduce a necessary and sufficient set of conditions which the filter $\mathcal{B}$ of neighbourhoods of $0$ in a ring $A$ must satisfy in order to define a topology on $A$ compatible with its ring structure: $\mathcal{B}$ must satisfy axioms (GA_I) and (GA_{II}) of § 1, and also the following two axioms:
-(AV_I). *For all* $x_0 \in A$ *and all* $V \in \mathcal{B}$, *there exists* $W \in \mathcal{B}$ *such that* $x_0 W \subset V$ *and* $W x_0 \subset V$.
-(AV_{II}). *For all* $V \in \mathcal{B}$, *there exists* $W \in \mathcal{B}$ *such that* $WW \subset V$.
+From this we can deduce a necessary and sufficient set of conditions which the filter $\mathscr{B}$ of neighbourhoods of $0$ in a ring $A$ must satisfy in order to define a topology on $A$ compatible with its ring structure: $\mathscr{B}$ must satisfy axioms (GA_I) and (GA_{II}) of § 1, and also the following two axioms:
+(AV_I). *For all* $x_0 \in A$ *and all* $V \in \mathscr{B}$, *there exists* $W \in \mathscr{B}$ *such that* $x_0 W \subset V$ *and* $W x_0 \subset V$.
+(AV_{II}). *For all* $V \in \mathscr{B}$, *there exists* $W \in \mathscr{B}$ *such that* $WW \subset V$.
 
 #### Remark {#top-iii-s6-n3-rem-1 .statement}
 
 In analysis one fairly often meets rings which satisfy axioms (AT_I), (AT_{II}) and (AT_{III a}), but not (AT_{III b}). *An example is the ring of measures on a compact group, where multiplication is convolution and the topology is the vague topology.*
 
-*Example 3).* Let $\mathcal{B}$ be a filter base on a ring $A$, consisting of *two-sided ideals*. $\mathcal{B}$ is a fundamental system of neighbourhoods of $0$ for a topology compatible with the additive group structure of $A$, and it follows immediately from (AV_I) and (AV_{II}) that this topology is compatible with the *ring* structure of $A$.
+*Example 3).* Let $\mathscr{B}$ be a filter base on a ring $A$, consisting of *two-sided ideals*. $\mathscr{B}$ is a fundamental system of neighbourhoods of $0$ for a topology compatible with the additive group structure of $A$, and it follows immediately from (AV_I) and (AV_{II}) that this topology is compatible with the *ring* structure of $A$.
 
 Let $X$ be a topological space, and let $f$ and $g$ be two mappings of $X$ into a topological ring $A$. If $f$ and $g$ are continuous at a point $x_0 \in X$, then $f + g$, $-f$ and $fg$ are continuous at this point. It follows that the continuous mappings of $X$ into $A$ form a *subring* of the ring $A^X$ of all mappings of $X$ into $A$. We see also that, if $A$ is *commutative*, then every *polynomial in n variables*, with coefficients in $A$ and defined on $A^n$, is *continuous* on $A^n$. Again, let $f$ and $g$ be two mappings of a set $X$, *filtered* by a filter $\mathfrak{F}$, into a *Hausdorff* topological ring $A$; if $\lim_{\mathfrak{F}} f$ and $\lim_{\mathfrak{F}} g$ exist, then so do $\lim_{\mathfrak{F}} (f + g)$, $\lim_{\mathfrak{F}} (-f)$ and $\lim_{\mathfrak{F}} (fg)$, and we have (Chapter I, § 7, no. 4, Proposition 9, Corollary 1, and § 8, no. 1, Proposition 1)
 
@@ -268,7 +268,7 @@ A topological vector space over $\mathbf{R}$ (resp. $\mathbf{C}$) is a topologic
 
 #### Example 2 {#top-iii-s6-n6-exa-2 .statement}
 
-Let $A$ be a ring and let $\mathcal{B}$ be a filter base on $A$ consisting of two-sided ideals of $A$; let $E$ be a left $A$-module. If we give $A$ the topology (compatible with its ring structure) for which $\mathcal{B}$ is a fundamental system of neighbourhoods of $0$ (no. 3, Example 3), and $E$ the topology (compatible with its additive group structure) in which the sets $aE$, as $a$ runs through $\mathcal{B}$, form a fundamental system of neighbourhoods of $0$ ($§ 1$, no. 2, Example), it is immediately verified that $E$ is a topological $A$-module.
+Let $A$ be a ring and let $\mathscr{B}$ be a filter base on $A$ consisting of two-sided ideals of $A$; let $E$ be a left $A$-module. If we give $A$ the topology (compatible with its ring structure) for which $\mathscr{B}$ is a fundamental system of neighbourhoods of $0$ (no. 3, Example 3), and $E$ the topology (compatible with its additive group structure) in which the sets $aE$, as $a$ runs through $\mathscr{B}$, form a fundamental system of neighbourhoods of $0$ ($§ 1$, no. 2, Example), it is immediately verified that $E$ is a topological $A$-module.
 
 #### Remark {#top-iii-s6-n6-rem-1 .statement}
 
@@ -281,10 +281,10 @@ the axiom (MT) is equivalent to the conjunction of the following three axioms:
 (MT$_{II}'$). *For each* $\lambda_0 \in A$, *the mapping* $x \to \lambda_0 x$ *is continuous at the point* $x = 0$.
 (MT$_{III}'$). *The mapping* $(\lambda, x) \to \lambda x$ *is continuous at the point* $(0, 0)$.
 
-We deduce from this a necessary and sufficient set of conditions that the *filter* $\mathcal{B}$ *of neighbourhoods of* $0$ *in an* $A$*-module* $E$ *must satisfy in order to define a topology on* $E$ *compatible with its module structure;* $\mathcal{B}$ *must satisfy the axioms* (GA$_I$) *and* (GA$_{II}$) *of* $§ 1$, *no. 2*, *and in addition must satisfy the following three axioms:*
-(MV$_I$). *For each* $x_0 \in E$ *and* $V \in \mathcal{B}$, *there is a neighbourhood* $S$ *of* $0$ *in* $A$ *such that* $S.x_0 \subset V$.
-(MV$_{II}$). *For each* $\lambda_0 \in A$ *and* $V \in \mathcal{B}$, *there exists* $W \in \mathcal{B}$ *such that* $\lambda_0 W \subset V$.
-(MV$_{III}$). *For each* $V \in \mathcal{B}$ *there exists* $U \in \mathcal{B}$ *and a neighbourhood* $T$ *of* $0$ *in* $A$ *such that* $T.U \subset V$.
+We deduce from this a necessary and sufficient set of conditions that the *filter* $\mathscr{B}$ *of neighbourhoods of* $0$ *in an* $A$*-module* $E$ *must satisfy in order to define a topology on* $E$ *compatible with its module structure;* $\mathscr{B}$ *must satisfy the axioms* (GA$_I$) *and* (GA$_{II}$) *of* $§ 1$, *no. 2*, *and in addition must satisfy the following three axioms:*
+(MV$_I$). *For each* $x_0 \in E$ *and* $V \in \mathscr{B}$, *there is a neighbourhood* $S$ *of* $0$ *in* $A$ *such that* $S.x_0 \subset V$.
+(MV$_{II}$). *For each* $\lambda_0 \in A$ *and* $V \in \mathscr{B}$, *there exists* $W \in \mathscr{B}$ *such that* $\lambda_0 W \subset V$.
+(MV$_{III}$). *For each* $V \in \mathscr{B}$ *there exists* $U \in \mathscr{B}$ *and a neighbourhood* $T$ *of* $0$ *in* $A$ *such that* $T.U \subset V$.
 
 Every commutative topological group is a topological $\mathbf{Z}$-module when the ring $\mathbf{Z}$ is given the discrete topology.
 

@@ -52,7 +52,7 @@ subsections:
       pdf_page: 165
 statements: 33
 exercises: 9
-content_sha256: 6e7b44504b54feee5f0b3d6af73ef51f9efcd47254e6b60be3532a4009721713
+content_sha256: 33ca67282e519f8e66ce957d7fae9b4166b6a19981067bcccd545f4a0f28d811
 ---
 
 ## 2. METRIC SPACES AND METRIZABLE SPACES
@@ -81,13 +81,13 @@ On any set $X$ the pseudometric $d$, defined by the relations $d(x, x) = 0$ and 
 
 We have a definition equivalent to Definition 1 if we say that a metric is a *finite* pseudometric such that the uniformity defined by this pseudometric is *Hausdorff*; a finite pseudometric which is equivalent to a metric is therefore a metric.
 
-Uniform spaces defined by a *single pseudometric* (which we may assume to be *finite*) can be reduced to metric spaces when the pseudometric is not a metric. Let $f$ be such a pseudometric on a set $X$, and let $\mathcal{U}$ be the uniformity defined by $f$; $\mathcal{U}$ is not Hausdorff, and the intersection of the entourages of $\mathcal{U}$ is the subset of $X \times X$ defined by the equivalence relation $f(x, y) = 0$. Let $R$ denote this relation. If $x \equiv x' \pmod{R}$, then by the triangle inequality we have
+Uniform spaces defined by a *single pseudometric* (which we may assume to be *finite*) can be reduced to metric spaces when the pseudometric is not a metric. Let $f$ be such a pseudometric on a set $X$, and let $\mathscr{U}$ be the uniformity defined by $f$; $\mathscr{U}$ is not Hausdorff, and the intersection of the entourages of $\mathscr{U}$ is the subset of $X \times X$ defined by the equivalence relation $f(x, y) = 0$. Let $R$ denote this relation. If $x \equiv x' \pmod{R}$, then by the triangle inequality we have
 
 $$
 f(x, y) \leq f(x, x') + f(x', y) = f(x', y)
 $$
 
-and similarly $f(x', y) \leq f(x, y)$, so that $f(x, y) = f(x', y)$; in other words, $f$ is a function *compatible* (in $x$ and $y$) with the equivalence relation $R$ (*Set Theory*, R, § 5, no. 7). Let $\overline{f}$ be the function induced by $f$ on the quotient set; $\overline{f}$ is defined on $(X/R) \times (X/R)$, and if $x$ and $y$ are any two points of $X$ and if $\dot{x}$ and $\dot{y}$ denote the equivalence classes (mod $R$) of $x$ and $y$ respectively, then we have $\overline{f}(\dot{x}, \dot{y}) = f(x, y)$. It follows immediately that $\overline{f}$ is a *metric* on $X/R$; it is called the metric *associated* with the pseudometric $f$; furthermore, the uniformity it defines on $X/R$ is precisely the Hausdorff uniformity *associated* with $\mathcal{U}$ by the definition of this uniformity (Chapter II, § 3, no. 8, Remark). Thus, by passing to a suitable quotient space, the uniform structure defined by a single pseudometric can be reduced to the structure of a metric space.
+and similarly $f(x', y) \leq f(x, y)$, so that $f(x, y) = f(x', y)$; in other words, $f$ is a function *compatible* (in $x$ and $y$) with the equivalence relation $R$ (*Set Theory*, R, § 5, no. 7). Let $\overline{f}$ be the function induced by $f$ on the quotient set; $\overline{f}$ is defined on $(X/R) \times (X/R)$, and if $x$ and $y$ are any two points of $X$ and if $\dot{x}$ and $\dot{y}$ denote the equivalence classes (mod $R$) of $x$ and $y$ respectively, then we have $\overline{f}(\dot{x}, \dot{y}) = f(x, y)$. It follows immediately that $\overline{f}$ is a *metric* on $X/R$; it is called the metric *associated* with the pseudometric $f$; furthermore, the uniformity it defines on $X/R$ is precisely the Hausdorff uniformity *associated* with $\mathscr{U}$ by the definition of this uniformity (Chapter II, § 3, no. 8, Remark). Thus, by passing to a suitable quotient space, the uniform structure defined by a single pseudometric can be reduced to the structure of a metric space.
 
 Proposition 1 of § 1, no. 3 determines the structure of the *completion* of a metric space:
 
@@ -242,9 +242,9 @@ For such a space is Hausdorff and its uniformity has a countable fundamental sys
 
 #### Definition 3 {#top-ix-s2-def-3 .statement}
 
-*A metric on a set $X$ is said to be compatible with a topology $\mathcal{T}$ on $X$ if the topology defined by this metric coincides with $\mathcal{T}$. A topological space is said to be metrizable if there exists a metric on $X$ compatible with the topology of $X$.*
+*A metric on a set $X$ is said to be compatible with a topology $\mathscr{T}$ on $X$ if the topology defined by this metric coincides with $\mathscr{T}$. A topological space is said to be metrizable if there exists a metric on $X$ compatible with the topology of $X$.*
 
-Two metrics on a set $X$ which are both compatible with the same topology $\mathcal{T}$ can be *inequivalent*.
+Two metrics on a set $X$ which are both compatible with the same topology $\mathscr{T}$ can be *inequivalent*.
 
 The subspace $\mathbf{R}_+^*$ of $\mathbf{R}$ provides an example of this. Both the uniformity induced by the additive uniformity of $\mathbf{R}$ and the uniformity induced by the multiplicative uniformity of $\mathbf{R}_+^*$ are metrizable and are compatible with the topology of $\mathbf{R}_+^*$; but they are not comparable.
 
@@ -300,7 +300,7 @@ Let $\hat{X}$ be the completion of $X$. If there is a point $x \in \hat{X}$ whic
 
 *Let* $X$ *be a metrizable space and let* $f$ *be a mapping of* $X$ *into a topological space* $X'$. *Then* $f$ *is continuous at a point* $x \in X$ *if and only if, whenever* $(x_n)$ *is a sequence of points of* $X$ *which converges to* $x$, *the sequence* $(f(x_n))$ *converges to* $f(x)$ *in* $X'$.
 
-The condition is necessary, from Chapter I, § 7, no. 4, Proposition 9, Corollary 1. To show that it is sufficient, consider the filter $\mathcal{B}'$ of neighbourhoods of $f(a)$ in $X'$; the hypothesis implies that $\overline{f}^{-1}(\mathcal{B}')$ is coarser than every elementary filter associated with a sequence which converges to $a$, that is to say every elementary filter which converges to $a$; but
+The condition is necessary, from Chapter I, § 7, no. 4, Proposition 9, Corollary 1. To show that it is sufficient, consider the filter $\mathscr{B}'$ of neighbourhoods of $f(a)$ in $X'$; the hypothesis implies that $\overline{f}^{-1}(\mathscr{B}')$ is coarser than every elementary filter associated with a sequence which converges to $a$, that is to say every elementary filter which converges to $a$; but
 
 (*) See e.g., J. Dieudonné, Notes de Tératopologie (I), Revue scientifique (Revue rose), 1939, p. 39.
 (**) This proposition can still be valid in certain spaces in which at least one point does not have any countable fundamental system of neighbourhoods; for example, the space obtained by compactifying an uncountable discrete space by adjoining a point at infinity (Chapter I, § 9, no. 8, Theorem 4).
@@ -435,19 +435,19 @@ Every Hausdorff quotient space of a compact metrizable space is compact and metr
 
 Equivalently, if $f$ is a continuous mapping of a compact metrizable space $X$ into a Hausdorff space $X'$, then $f(X)$ is a metrizable subspace of $X'$ (Chapter I, § 9, no. 4, Theorem 2, Corollary 4).
 
-Let $X$ be a compact metrizable space, and let $R$ be an equivalence relation on $X$ such that $X/R$ is Hausdorff. Then $X/R$ is compact (Chapter I, § 9, no. 4, Theorem 2), hence by Proposition 16 it is enough to show that the topology of $X/R$ has a countable base. To do this, we use the facts that $R$ is closed (Chapter I, § 10, no. 4, Proposition 8) and that the classes mod $R$ are compact. Let $\varphi$ be the canonical mapping of $X$ onto $X/R$, and let $(U_n)$ be a countable base of the topology of $X$. Let $z$ be any point of $X/R$ and let $V$ be a neighbourhood of $z$ in $X/R$; then $\overline{\varphi}^{-1}(V)$ is a neighbourhood in $X$ of the compact set $\overline{\varphi}^{-1}(z)$. If $x$ is any point of $\overline{\varphi}^{-1}(z)$, there is a set $U_n$ containing $x$ and contained in $\overline{\varphi}^{-1}(V)$, and therefore by the Borel-Lebesgue axiom there is a finite open covering $(U_{n_k})_{1 \leq k \leq r}$ of $\overline{\varphi}^{-1}(z)$ such that, if $W$ denotes $\bigcup_k U_{n_k}$, $W$ is a neighbourhood of $\overline{\varphi}^{-1}(z)$ contained in $\overline{\varphi}^{-1}(V)$. Since $R$ is closed, it follows that $\varphi(W)$ is a neighbourhood of $z$ in $X/R$, contained in $V$ (Chapter I, § 5, no. 4, Proposition 10). Let $\mathcal{B}$ denote the set of interiors of sets of the form $\varphi(W)$, where $W$ runs through the set $\mathcal{F}$ of all finite unions of sets of the form $U_n$; we have then shown that $\mathcal{B}$ is a base of the topology of $X/R$, and since $\mathfrak{F}$ is countable, so is $\mathcal{B}$.
+Let $X$ be a compact metrizable space, and let $R$ be an equivalence relation on $X$ such that $X/R$ is Hausdorff. Then $X/R$ is compact (Chapter I, § 9, no. 4, Theorem 2), hence by Proposition 16 it is enough to show that the topology of $X/R$ has a countable base. To do this, we use the facts that $R$ is closed (Chapter I, § 10, no. 4, Proposition 8) and that the classes mod $R$ are compact. Let $\varphi$ be the canonical mapping of $X$ onto $X/R$, and let $(U_n)$ be a countable base of the topology of $X$. Let $z$ be any point of $X/R$ and let $V$ be a neighbourhood of $z$ in $X/R$; then $\overline{\varphi}^{-1}(V)$ is a neighbourhood in $X$ of the compact set $\overline{\varphi}^{-1}(z)$. If $x$ is any point of $\overline{\varphi}^{-1}(z)$, there is a set $U_n$ containing $x$ and contained in $\overline{\varphi}^{-1}(V)$, and therefore by the Borel-Lebesgue axiom there is a finite open covering $(U_{n_k})_{1 \leq k \leq r}$ of $\overline{\varphi}^{-1}(z)$ such that, if $W$ denotes $\bigcup_k U_{n_k}$, $W$ is a neighbourhood of $\overline{\varphi}^{-1}(z)$ contained in $\overline{\varphi}^{-1}(V)$. Since $R$ is closed, it follows that $\varphi(W)$ is a neighbourhood of $z$ in $X/R$, contained in $V$ (Chapter I, § 5, no. 4, Proposition 10). Let $\mathscr{B}$ denote the set of interiors of sets of the form $\varphi(W)$, where $W$ runs through the set $\mathscr{F}$ of all finite unions of sets of the form $U_n$; we have then shown that $\mathscr{B}$ is a base of the topology of $X/R$, and since $\mathfrak{F}$ is countable, so is $\mathscr{B}$.
 
 #### Proposition 18 {#top-ix-s2-prop-18 .statement}
 
 *Let $X$ be a complete metric space, let $R$ be an open equivalence relation on $X$ such that $X/R$ is Hausdorff, and let $\varphi : X \to X/R$ be the canonical mapping. Then if $K$ is any compact subset of $X/R$, there is a compact subset $K'$ of $X$ such that $\varphi(K') = K$.*
 
-Let $\mathcal{B}_1$ be the set of all open balls of radius $1/2$ in $X$. As $B$ runs through $\mathcal{B}_1$, the sets $\varphi(B)$ form an open covering of $K$, and therefore there exists a finite number of points $x_1, \ldots, x_m$ of $X$ such that the images under $\varphi$ of the open balls with radius $1/2$ and centre $x_i$ ($1 \leq i \leq m$) form an open covering of $K$. Let $H_1 = \{ x_1, \ldots, x_m \}$ and suppose that we have defined a finite set $H_i$, for $1 < i \leq n$, such that:
+Let $\mathscr{B}_1$ be the set of all open balls of radius $1/2$ in $X$. As $B$ runs through $\mathscr{B}_1$, the sets $\varphi(B)$ form an open covering of $K$, and therefore there exists a finite number of points $x_1, \ldots, x_m$ of $X$ such that the images under $\varphi$ of the open balls with radius $1/2$ and centre $x_i$ ($1 \leq i \leq m$) form an open covering of $K$. Let $H_1 = \{ x_1, \ldots, x_m \}$ and suppose that we have defined a finite set $H_i$, for $1 < i \leq n$, such that:
 
 (i) $H_i \subset H_{i+1}$ and each point of $H_{i+1}$ is at a distance $< 1/2^i$ from $H_i$, for $1 \leq i \leq n - 1$;
 
 (ii) the images under $\varphi$ of the open balls of radius $1/2^i$, with centres at the points of $H_i$, form an open covering of $K$, for $1 \leq i \leq n$.
 
-Let $\mathcal{B}_{n+1}$ be the set of all open balls of radius $1/2^{n+1}$ whose centre $x$ is such that $d(x, H_n) < 1/2^n$ ($d$ being the metric on $X$). The properties of $H_n$ show that the sets $\varphi(B)$, for $B \in \mathcal{B}_{n+1}$, form an open covering of $K$; hence there is a finite set $L_{n+1} \subset X$ such that the images under $\varphi$ of the open balls of radius $1/2^{n+1}$ whose centre belongs to $L_{n+1}$ form an open covering of $K$. Taking $H_{n+1} = H_n \cup L_{n+1}$, we see that we can define inductively an infinite sequence $(H_n)$ of finite subsets of $X$ with properties (i) and (ii) above. Let $H = \bigcup_n H_n$, and let us show that $H$ is *precompact*. For each $p > 0$ and each point $z_{n+p} \in H_{n+p}$, there exists a sequence of points $z_{n+i} \in H_{n+i}$ ($0 \leq i \leq p - 1$) such that
+Let $\mathscr{B}_{n+1}$ be the set of all open balls of radius $1/2^{n+1}$ whose centre $x$ is such that $d(x, H_n) < 1/2^n$ ($d$ being the metric on $X$). The properties of $H_n$ show that the sets $\varphi(B)$, for $B \in \mathscr{B}_{n+1}$, form an open covering of $K$; hence there is a finite set $L_{n+1} \subset X$ such that the images under $\varphi$ of the open balls of radius $1/2^{n+1}$ whose centre belongs to $L_{n+1}$ form an open covering of $K$. Taking $H_{n+1} = H_n \cup L_{n+1}$, we see that we can define inductively an infinite sequence $(H_n)$ of finite subsets of $X$ with properties (i) and (ii) above. Let $H = \bigcup_n H_n$, and let us show that $H$ is *precompact*. For each $p > 0$ and each point $z_{n+p} \in H_{n+p}$, there exists a sequence of points $z_{n+i} \in H_{n+i}$ ($0 \leq i \leq p - 1$) such that
 
 $$
 d(z_{n+i}, z_{n+i+1}) < 1/2^{n+i} \quad \text{for } 0 \leq i \leq p - 1;

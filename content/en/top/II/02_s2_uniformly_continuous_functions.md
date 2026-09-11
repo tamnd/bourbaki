@@ -41,7 +41,7 @@ subsections:
       pdf_page: 186
 statements: 27
 exercises: 6
-content_sha256: e0f61bdcd81388be6eb6385503ae775b2e258c697717b061a0210a2fde9214d8
+content_sha256: c36757286edc0d50f89c2bf6d7f9650975f6d537c2b1cd2ac9ed189800527ca6
 ---
 
 ## 2. UNIFORMLY CONTINUOUS FUNCTIONS
@@ -90,9 +90,9 @@ Proposition 2 of no. 1 shows that we can take as morphisms of uniform structures
 
 #### Definition 2 {#top-ii-s2-def-2 .statement}
 
-If $\mathcal{U}_1$ and $\mathcal{U}_2$ are two uniform structures on the same set X, $\mathcal{U}_1$ is said to be finer than $\mathcal{U}_2$ (and $\mathcal{U}_2$ coarser than $\mathcal{U}_1$) if, denoting by $X_i$ the set X with the uniform structure $\mathcal{U}_i$ ($i = 1,2$), the identity mapping $X_1 \to X_2$ is uniformly continuous.
+If $\mathscr{U}_1$ and $\mathscr{U}_2$ are two uniform structures on the same set X, $\mathscr{U}_1$ is said to be finer than $\mathscr{U}_2$ (and $\mathscr{U}_2$ coarser than $\mathscr{U}_1$) if, denoting by $X_i$ the set X with the uniform structure $\mathscr{U}_i$ ($i = 1,2$), the identity mapping $X_1 \to X_2$ is uniformly continuous.
 
-If $\mathcal{U}_1$ is finer than $\mathcal{U}_2$ and distinct from $\mathcal{U}_2$, we say that $\mathcal{U}_1$ is strictly finer than $\mathcal{U}_2$ (and that $\mathcal{U}_2$ is strictly coarser than $\mathcal{U}_1$).
+If $\mathscr{U}_1$ is finer than $\mathscr{U}_2$ and distinct from $\mathscr{U}_2$, we say that $\mathscr{U}_1$ is strictly finer than $\mathscr{U}_2$ (and that $\mathscr{U}_2$ is strictly coarser than $\mathscr{U}_1$).
 
 Two uniformities are said to be comparable if one is finer than the other.
 
@@ -104,21 +104,21 @@ The following proposition is an immediate consequence of Definition 1 of no. 1:
 
 #### Proposition 3 {#top-ii-s2-prop-3 .statement}
 
-If $\mathcal{U}_1$ and $\mathcal{U}_2$ are two uniformities on a set X, then $\mathcal{U}_1$ is finer than $\mathcal{U}_2$ if and only if every entourage of $\mathcal{U}_2$ is an entourage of $\mathcal{U}_1$.
+If $\mathscr{U}_1$ and $\mathscr{U}_2$ are two uniformities on a set X, then $\mathscr{U}_1$ is finer than $\mathscr{U}_2$ if and only if every entourage of $\mathscr{U}_2$ is an entourage of $\mathscr{U}_1$.
 
 #### Corollary {#top-ii-s2-n2-cor-1 .statement}
 
-Let $\mathcal{U}_1$ and $\mathcal{U}_2$ be two uniformities on a set X, and suppose that $\mathcal{U}_1$ is finer than $\mathcal{U}_2$; then the topology induced by $\mathcal{U}_1$ is finer than the topology induced by $\mathcal{U}_2$.
+Let $\mathscr{U}_1$ and $\mathscr{U}_2$ be two uniformities on a set X, and suppose that $\mathscr{U}_1$ is finer than $\mathscr{U}_2$; then the topology induced by $\mathscr{U}_1$ is finer than the topology induced by $\mathscr{U}_2$.
 
 #### Remark 1 {#top-ii-s2-n2-rem-1 .statement}
 
-It can happen that a uniformity $\mathcal{U}_1$ is strictly finer than a uniformity $\mathcal{U}_2$ but that the two induced topologies are identical. The following example shows this:
+It can happen that a uniformity $\mathscr{U}_1$ is strictly finer than a uniformity $\mathscr{U}_2$ but that the two induced topologies are identical. The following example shows this:
 
 Let $X$ be a non-empty set. For each finite partition $\varpi = (A_i)_{1 \leq i \leq n}$ of $X$, let $V_{\overline{\varpi}}$ denote
 $$
 \bigcup_i A_i \times A_i.
 $$
-The sets $V_{\overline{\varpi}}$ then form a fundamental system of entourages of a uniformity $\mathcal{U}$ on $X$. For if $\varpi$ is any finite partition of $X$ we have $\Delta \subset V_{\overline{\varpi}}$ and $V_{\overline{\varpi}} \circ V_{\overline{\varpi}} = \overline{V_{\overline{\varpi}}} = V_{\overline{\varpi}}$ (§ 1, no. 1, Example 2); and if $\varpi' = (B_j)$ and $\varpi'' = (C_k)$ are two finite partitions of $X$, then those of the sets $B_j \cap C_k$ which are not empty form a finite partition $\varpi$ of $X$, and we have $V_{\overline{\varpi}} \subset V_{\overline{\varpi'}} \cap V_{\overline{\varpi''}}$. $\mathcal{U}$ is called the uniformity of finite partitions on $X$. The topology induced by $\mathcal{U}$ is the discrete topology, since for each $x \in X$ the sets $\{x\}$ and $C\{x\}$ form a finite partition of $X$. Nevertheless, if $X$ is infinite, it is clear that $\mathcal{U}$ is strictly coarser than the discrete uniformity.
+The sets $V_{\overline{\varpi}}$ then form a fundamental system of entourages of a uniformity $\mathscr{U}$ on $X$. For if $\varpi$ is any finite partition of $X$ we have $\Delta \subset V_{\overline{\varpi}}$ and $V_{\overline{\varpi}} \circ V_{\overline{\varpi}} = \overline{V_{\overline{\varpi}}} = V_{\overline{\varpi}}$ (§ 1, no. 1, Example 2); and if $\varpi' = (B_j)$ and $\varpi'' = (C_k)$ are two finite partitions of $X$, then those of the sets $B_j \cap C_k$ which are not empty form a finite partition $\varpi$ of $X$, and we have $V_{\overline{\varpi}} \subset V_{\overline{\varpi'}} \cap V_{\overline{\varpi''}}$. $\mathscr{U}$ is called the uniformity of finite partitions on $X$. The topology induced by $\mathscr{U}$ is the discrete topology, since for each $x \in X$ the sets $\{x\}$ and $C\{x\}$ form a finite partition of $X$. Nevertheless, if $X$ is infinite, it is clear that $\mathscr{U}$ is strictly coarser than the discrete uniformity.
 
 #### Remark 2 {#top-ii-s2-n2-rem-2 .statement}
 
@@ -128,15 +128,15 @@ If $f : X \to X'$ is a uniformly continuous mapping, then $f$ remains uniformly 
 
 #### Proposition 4 {#top-ii-s2-prop-4 .statement}
 
-Let $X$ be a set, let $(Y_i)_{i \in I}$ be a family of uniform spaces, and for each $i \in I$ let $f_i$ be a mapping of $X$ into $Y_i$. For each $i \in I$ let $g_i$ denote $f_i \times f_i$. Let $\mathfrak{S}$ be the set of subsets of $X \times X$ of the form $\overline{g_i}(V_i)$, where $i \in I$ and $V_i$ is an entourage of $Y_i$, and let $\mathcal{B}$ be the set of all finite intersections
+Let $X$ be a set, let $(Y_i)_{i \in I}$ be a family of uniform spaces, and for each $i \in I$ let $f_i$ be a mapping of $X$ into $Y_i$. For each $i \in I$ let $g_i$ denote $f_i \times f_i$. Let $\mathfrak{S}$ be the set of subsets of $X \times X$ of the form $\overline{g_i}(V_i)$, where $i \in I$ and $V_i$ is an entourage of $Y_i$, and let $\mathscr{B}$ be the set of all finite intersections
 
 $$
 \text{(1)} \quad U(V_{i_1}, \ldots, V_{i_n}) = \overline{g_{i_1}}(V_{i_1}) \cap \cdots \cap \overline{g_{i_n}}(V_{i_n})
 $$
 
-of sets of $\mathfrak{S}$. Then $\mathcal{B}$ is a fundamental system of entourages of a uniformity $\mathcal{U}$ on $X$ which is the initial uniform structure on $X$ with respect to the family $(f_i)$ (Set Theory, Chapter IV, § 2, no. 3), and in particular $\mathcal{U}$ is the coarsest uniformity on $X$ for which all the mappings $f_i$ are uniformly continuous. But otherwise, let $h$ be a mapping of a uniform space $Z$ into $X$; then $h$ is uniformly continuous (when $X$ is endowed with the uniformity $\mathcal{U}$) if and only if each of the mappings $f_i \circ h$ is uniformly continuous.
+of sets of $\mathfrak{S}$. Then $\mathscr{B}$ is a fundamental system of entourages of a uniformity $\mathscr{U}$ on $X$ which is the initial uniform structure on $X$ with respect to the family $(f_i)$ (Set Theory, Chapter IV, § 2, no. 3), and in particular $\mathscr{U}$ is the coarsest uniformity on $X$ for which all the mappings $f_i$ are uniformly continuous. But otherwise, let $h$ be a mapping of a uniform space $Z$ into $X$; then $h$ is uniformly continuous (when $X$ is endowed with the uniformity $\mathscr{U}$) if and only if each of the mappings $f_i \circ h$ is uniformly continuous.
 
-It is immediately seen that $\mathcal{B}$ satisfies axioms $(B_1)$ and $(U'_1)$. If $W_i = \overline{g}_i^{-1}(V_i)$, then $\overline{W}_i = \overline{g}_i^{-1}(\overline{V}_i)$ and $\dot{W}_i = \dot{g}_i^{-1}(\dot{V}_i)$; hence $\mathcal{B}$ also satisfies axioms $(U'_{II})$ and $(U'_{III})$ and is therefore a fundamental system of entourages of a uniformity $\mathcal{U}$ on $X$. Furthermore, it follows immediately from the definition of $\mathcal{U}$ and Definition 1 and no. 1 that $f_i$ is uniformly continuous for each index $i \in I$; hence (no. 1, Proposition 2) $f_i \circ h$ is uniformly continuous for each $i \in I$ if $h$ is. Conversely, suppose that $f_i \circ h$ is uniformly continuous for each $i \in I$, and consider a set $U(V_{i_1}, \ldots, V_{i_n})$; by hypothesis, for each $k$ such that $1 \leq k \leq n$, there is an entourage $W_k$ of $Z$ such that the relation $(z, z') \in W_k$ implies $[f_{i_k}(h(z)), f_{i_k}(h(z'))] \in V_k$; if
+It is immediately seen that $\mathscr{B}$ satisfies axioms $(B_1)$ and $(U'_1)$. If $W_i = \overline{g}_i^{-1}(V_i)$, then $\overline{W}_i = \overline{g}_i^{-1}(\overline{V}_i)$ and $\dot{W}_i = \dot{g}_i^{-1}(\dot{V}_i)$; hence $\mathscr{B}$ also satisfies axioms $(U'_{II})$ and $(U'_{III})$ and is therefore a fundamental system of entourages of a uniformity $\mathscr{U}$ on $X$. Furthermore, it follows immediately from the definition of $\mathscr{U}$ and Definition 1 and no. 1 that $f_i$ is uniformly continuous for each index $i \in I$; hence (no. 1, Proposition 2) $f_i \circ h$ is uniformly continuous for each $i \in I$ if $h$ is. Conversely, suppose that $f_i \circ h$ is uniformly continuous for each $i \in I$, and consider a set $U(V_{i_1}, \ldots, V_{i_n})$; by hypothesis, for each $k$ such that $1 \leq k \leq n$, there is an entourage $W_k$ of $Z$ such that the relation $(z, z') \in W_k$ implies $[f_{i_k}(h(z)), f_{i_k}(h(z'))] \in V_k$; if
 $$
 W = \bigcap_k W_k,
 $$
@@ -144,7 +144,7 @@ these $n$ relations are simultaneously satisfied whenever $z$ and $z'$ are $W$-c
 
 #### Corollary {#top-ii-s2-n3-cor-1 .statement}
 
-*The topology on $X$ induced by the coarsest uniformity $\mathcal{U}$ for which the $f_i$ are uniformly continuous is also the coarsest topology for which the $f_i$ are continuous.*
+*The topology on $X$ induced by the coarsest uniformity $\mathscr{U}$ for which the $f_i$ are uniformly continuous is also the coarsest topology for which the $f_i$ are continuous.*
 
 This is an immediate consequence of the definition of the neighbourhoods of a point in this latter topology (Chapter I, § 2, no. 3, Proposition 4).
 
@@ -156,7 +156,7 @@ The general properties of initial structures (*Set Theory*, Chapter IV, § 2, no
 
 ### 4. INVERSE IMAGE OF A UNIFORMITY; UNIFORM SUBSPACES
 
-Let $X$ be a set, $Y$ a uniform space, $f$ a mapping of $X$ into $Y$. The coarsest uniformity $\mathcal{U}$ on $X$ for which $f$ is uniformly continuous is called the *inverse image* under $f$ of the uniform structure of $Y$. It follows from Proposition 4 of no. 3, and from the formulae which give the inverse image of an intersection, that the inverse images under $g = f \times f$ of the entourages of $Y$ form a fundamental system of entourages for $\mathcal{U}$. The topology induced by $\mathcal{U}$ is the *inverse image* under $f$ of the topology of $Y$ (no. 3, Corollary to Proposition 4).
+Let $X$ be a set, $Y$ a uniform space, $f$ a mapping of $X$ into $Y$. The coarsest uniformity $\mathscr{U}$ on $X$ for which $f$ is uniformly continuous is called the *inverse image* under $f$ of the uniform structure of $Y$. It follows from Proposition 4 of no. 3, and from the formulae which give the inverse image of an intersection, that the inverse images under $g = f \times f$ of the entourages of $Y$ form a fundamental system of entourages for $\mathscr{U}$. The topology induced by $\mathscr{U}$ is the *inverse image* under $f$ of the topology of $Y$ (no. 3, Corollary to Proposition 4).
 
 #### Remark {#top-ii-s2-n4-rem-1 .statement}
 
@@ -184,17 +184,17 @@ $A \times A$ is dense in $X \times X$ (Chapter I, § 4, no. 3, Proposition 7). L
 
 ### 5. LEAST UPPER BOUND OF A SET OF UNIFORMITIES
 
-Every family $(\mathcal{U}_i)_{i \in I}$ of uniformities on a set $X$ has a least upper bound $\mathcal{U}$ in the ordered set of all uniformities on $X$; we have only to apply Proposition 4 of no. 3, taking $Y_i$ to be the set $X$ with the uniformity $\mathcal{U}_i$, and $f_i$ to be the identity mapping $X \to Y_i$. The topology induced by $\mathcal{U}$ is just the least upper bound of the topologies induced by the $\mathcal{U}_i$.
+Every family $(\mathscr{U}_i)_{i \in I}$ of uniformities on a set $X$ has a least upper bound $\mathscr{U}$ in the ordered set of all uniformities on $X$; we have only to apply Proposition 4 of no. 3, taking $Y_i$ to be the set $X$ with the uniformity $\mathscr{U}_i$, and $f_i$ to be the identity mapping $X \to Y_i$. The topology induced by $\mathscr{U}$ is just the least upper bound of the topologies induced by the $\mathscr{U}_i$.
 
-It follows also from Proposition 4 of no. 3 that if $X$ is not empty and if $\mathcal{U}_i$ is the filter of entourages of $\mathcal{U}_i$, then the filter of entourages of $\mathcal{U}$ is the least upper bound of the filters $\mathcal{U}_i$ (Chapter I, § 6, no. 2).
+It follows also from Proposition 4 of no. 3 that if $X$ is not empty and if $\mathscr{U}_i$ is the filter of entourages of $\mathscr{U}_i$, then the filter of entourages of $\mathscr{U}$ is the least upper bound of the filters $\mathscr{U}_i$ (Chapter I, § 6, no. 2).
 
 #### Example {#top-ii-s2-n5-exa-1 .statement}
 
-If $\varpi$ is any finite partition $(A_i)_{1 \leq i \leq n}$ of a non-empty set $X$, the set $V_\varpi = \bigcup_i (A_i \times A_i)$ by itself constitutes a fundamental system of entourages of a uniformity $\mathcal{U}_\varpi$ on $X$ (§ 1, no. 1, Example 2); the uniformity of finite partitions on $X$ (no. 2, Remark 1) is then the least upper bound of the uniformities $\mathcal{U}_\varpi$.
+If $\varpi$ is any finite partition $(A_i)_{1 \leq i \leq n}$ of a non-empty set $X$, the set $V_\varpi = \bigcup_i (A_i \times A_i)$ by itself constitutes a fundamental system of entourages of a uniformity $\mathscr{U}_\varpi$ on $X$ (§ 1, no. 1, Example 2); the uniformity of finite partitions on $X$ (no. 2, Remark 1) is then the least upper bound of the uniformities $\mathscr{U}_\varpi$.
 
 #### Remark {#top-ii-s2-n5-rem-1 .statement}
 
-A family $(\mathcal{U}_i)$ of uniformities on $X$ also has a greatest lower bound in the ordered set of all uniformities on $X$, namely the least upper bound of the set of all uniformities on $X$ which are coarser than each of the $\mathcal{U}_i$ (such uniformities exist, since the set of all uniformities on $X$ has a least element). But (supposing $X$ not empty) the filter of entourages of this uniformity is not necessarily the intersection of the filters of entourages of the $\mathcal{U}_i$, because this latter filter need not satisfy axiom $(U_{III})$ (Exercise 4).
+A family $(\mathscr{U}_i)$ of uniformities on $X$ also has a greatest lower bound in the ordered set of all uniformities on $X$, namely the least upper bound of the set of all uniformities on $X$ which are coarser than each of the $\mathscr{U}_i$ (such uniformities exist, since the set of all uniformities on $X$ has a least element). But (supposing $X$ not empty) the filter of entourages of this uniformity is not necessarily the intersection of the filters of entourages of the $\mathscr{U}_i$, because this latter filter need not satisfy axiom $(U_{III})$ (Exercise 4).
 
 ### 6. PRODUCT OF UNIFORM SPACES
 

@@ -36,7 +36,7 @@ subsections:
       pdf_page: 119
 statements: 5
 exercises: 4
-content_sha256: a5d3b8b9967c53f54bbfeea4b7d7a20401592cd9d0f1108eb802855c2c0273b1
+content_sha256: 2e8e0396b01fa2c0c1fc1a5a72586ea4ad250d3983c3fd7034ef9e1594ea4c6c
 ---
 
 ## 2. ANGULAR MEASURE, TRIGONOMETRIC FUNCTIONS
@@ -155,7 +155,7 @@ For example, what is usually understood by the amplitude of a complex number $z 
 
 ### 4. TRIGONOMETRIC FUNCTIONS
 
-If we compose the functions $\cos \theta, \sin \theta, \tan \theta, \cot \theta$ (defined on $\mathcal{A}$) with the homomorphism $x \to \frac{\pi}{a}(x/a)$ of $\mathbf{R}$ onto $\mathcal{A}$, the functions
+If we compose the functions $\cos \theta, \sin \theta, \tan \theta, \cot \theta$ (defined on $\mathscr{A}$) with the homomorphism $x \to \frac{\pi}{a}(x/a)$ of $\mathbf{R}$ onto $\mathscr{A}$, the functions
 
 $$
 \cos \left( \frac{x}{a} \right), \quad \sin \left( \frac{x}{a} \right), \quad \tan \left( \frac{x}{a} \right), \quad \cot \left( \frac{x}{a} \right)
@@ -250,7 +250,7 @@ Two distinct closed rays $\Delta_1, \Delta_2$ determine two closed angular secto
 
 ### 6. CROSSES
 
-We have also defined in algebra the cross of a pair of lines in a two-dimensional vector space over a maximal ordered field (*). This definition applies in particular to the real plane $\mathbf{R}^2$. The set $\mathcal{A}_0$ of all crosses has the structure of an abelian group (written additively) defined by
+We have also defined in algebra the cross of a pair of lines in a two-dimensional vector space over a maximal ordered field (*). This definition applies in particular to the real plane $\mathbf{R}^2$. The set $\mathscr{A}_0$ of all crosses has the structure of an abelian group (written additively) defined by
 
 $$
 (\overline{D_1, D_3}) = (\overline{D_1, D_2}) + (\overline{D_2, D_3})
@@ -258,7 +258,7 @@ $$
 
 so that, in particular, $(\overline{D_1, D_1}) = 0$ and $(\overline{D_2, D_1}) = - (\overline{D_1, D_2})$.
 
-The right cross $\delta_0$ is the solution $\neq 0$ of the equation $2\theta = 0$ in $\mathcal{A}_0$; it is the cross which the imaginary axis makes with the real axis.
+The right cross $\delta_0$ is the solution $\neq 0$ of the equation $2\theta = 0$ in $\mathscr{A}_0$; it is the cross which the imaginary axis makes with the real axis.
 
 (*) We recall that an equivalence relation is defined on the set of all non-isotropic pairs of lines $(D_1, D_2)$ by considering two pairs of lines $(D_1, D_2)$ and $(D'_1, D'_2)$ to be equivalent if there exists a direct similitude which transforms $D_1$ into $D'_1$ and $D_2$ into $D'_2$ simultaneously; the cross of the pair $(D_1, D_2)$ is then the equivalence class of the pair.
 

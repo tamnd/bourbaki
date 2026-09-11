@@ -36,9 +36,9 @@ subsections:
       pdf_page: 344
 statements: 15
 exercises: 16
-content_sha256: b850c7831f589d9a005bbeaa84e7d1321372de78ebf7e13351c0f13b823db914
+content_sha256: d444b3593cbd267c1fde16b690760e6139482e9bf889afefe4e4ffe38d010adf
 translated_from: content/en/top/IV/02_s2_fundamental_topological_properties_of.md
-source_content_sha256: 78166c2d5dee3bc8332921039bf6cfd6746b0350be828fb6b987ae23db2d3530
+source_content_sha256: 50eb28dc9791a8f8766122492868642bc5ff7a0d59ae641670586ce32566560a
 translation_model: gpt-5.4
 translation_run: translate-vi-264ae25a
 glossary_version: 34
@@ -90,7 +90,7 @@ Một tập con của đường thẳng thực $\mathbf{R}$ là compact tương 
 
 Mọi tập con không rỗng của đường thẳng thực bị chặn trên (resp. bị chặn dưới) đều có một cận trên bé nhất (resp. cận dưới lớn nhất).
 
-Cho $A$ là một tập con không rỗng của $\mathbf{R}$, bị chặn trên, và cho $b$ là một cận trên của $A$, sao cho $A \subset ]\leftarrow, b]$. Với mỗi $x \in A$ xét tập hợp $A_x$ gồm các số $\geqslant x$ thuộc $A$; các tập hợp $A_x$ tạo thành một cơ sở lọc $\mathcal{B}$ trên $\mathbf{R}$, vì $A_y \subset A_x$ nếu $y \geqslant x$. Cho $a$ là một điểm của $A$. Với mỗi $x \geqslant a$ thuộc $A$, $A_x$ được chứa trong khoảng compact $[a, b]$ và do đó cơ sở lọc $\mathcal{B}$ có một điểm tụ $c$. Vì các khoảng $[x, \rightarrow[$ là đóng, $c$ thuộc giao của chúng và vì vậy $c$ là một cận trên của $A$. Nhưng, mặt khác, mọi cận trên $z$ của $A$ đều $\geqslant c$, nếu không thì lân cận $]z, \rightarrow[$ của $c$ sẽ không chứa điểm nào của $A$. Vậy $c$ là cận trên bé nhất của $A$.
+Cho $A$ là một tập con không rỗng của $\mathbf{R}$, bị chặn trên, và cho $b$ là một cận trên của $A$, sao cho $A \subset ]\leftarrow, b]$. Với mỗi $x \in A$ xét tập hợp $A_x$ gồm các số $\geqslant x$ thuộc $A$; các tập hợp $A_x$ tạo thành một cơ sở lọc $\mathscr{B}$ trên $\mathbf{R}$, vì $A_y \subset A_x$ nếu $y \geqslant x$. Cho $a$ là một điểm của $A$. Với mỗi $x \geqslant a$ thuộc $A$, $A_x$ được chứa trong khoảng compact $[a, b]$ và do đó cơ sở lọc $\mathscr{B}$ có một điểm tụ $c$. Vì các khoảng $[x, \rightarrow[$ là đóng, $c$ thuộc giao của chúng và vì vậy $c$ là một cận trên của $A$. Nhưng, mặt khác, mọi cận trên $z$ của $A$ đều $\geqslant c$, nếu không thì lân cận $]z, \rightarrow[$ của $c$ sẽ không chứa điểm nào của $A$. Vậy $c$ là cận trên bé nhất của $A$.
 
 Ta có thể lập luận tương tự cho một tập hợp khác rỗng $B$ bị chặn dưới, hoặc đơn giản nhận xét rằng $-B$ là khác rỗng và bị chặn trên, và nếu $c$ là cận trên nhỏ nhất của $-B$, thì $-c$ là cận dưới lớn nhất của $B$.
 

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 151
 statements: 26
 exercises: 6
-content_sha256: 06111a5a700b7737aa975f4b4cb3dd88e2bb2e7dc8c3c4b422bffdb563447b1f
+content_sha256: fff82ada117a0bdf24cbe5ff4cdfb504c5677df2ca9f0a5563f0869f88119eac
 ---
 
 ## § 2. FONCTIONS UNIFORMÉMENT CONTINUES
@@ -89,9 +89,9 @@ La prop. 2 montre que l’on peut prendre pour morphismes des structures uniform
 
 #### Définition 2 {#top-ii-s2-def-2 .statement}
 
-Étant données deux structures uniformes $\mathcal{U}_1, \mathcal{U}_2$ sur un même ensemble X, on dit que $\mathcal{U}_1$ est plus fine que $\mathcal{U}_2$ (et que $\mathcal{U}_2$ est moins fine que $\mathcal{U}_1$) si, en désignant par $X_i$ l’ensemble X muni de la structure uniforme $\mathcal{U}_i$ ($i = 1, 2$) l’application identique $X_1 \to X_2$ est uniformément continue.
+Étant données deux structures uniformes $\mathscr{U}_1, \mathscr{U}_2$ sur un même ensemble X, on dit que $\mathscr{U}_1$ est plus fine que $\mathscr{U}_2$ (et que $\mathscr{U}_2$ est moins fine que $\mathscr{U}_1$) si, en désignant par $X_i$ l’ensemble X muni de la structure uniforme $\mathscr{U}_i$ ($i = 1, 2$) l’application identique $X_1 \to X_2$ est uniformément continue.
 
-Si $\mathcal{U}_1$ est plus fine que $\mathcal{U}_2$ et distincte de $\mathcal{U}_2$, on dit que $\mathcal{U}_1$ est strictement plus fine que $\mathcal{U}_2$ (et que $\mathcal{U}_2$ est strictement moins fine que $\mathcal{U}_1$).
+Si $\mathscr{U}_1$ est plus fine que $\mathscr{U}_2$ et distincte de $\mathscr{U}_2$, on dit que $\mathscr{U}_1$ est strictement plus fine que $\mathscr{U}_2$ (et que $\mathscr{U}_2$ est strictement moins fine que $\mathscr{U}_1$).
 
 Deux structures uniformes dont l’une est plus fine que l’autre sont dites comparables.
 
@@ -100,18 +100,18 @@ Deux structures uniformes dont l’une est plus fine que l’autre sont dites co
 Dans l’ensemble ordonné des structures uniformes sur un ensemble X, la structure uniforme discrète est la structure uniforme la plus fine, et la structure uniforme la moins fine est celle dont l’ensemble des entourages est formé du seul élément $X \times X$.
 
 La déf. 1 de II, p. 6 entraîne aussitôt la proposition suivante:
-Proposition 3. — Étant données deux structures uniformes $\mathcal{U}_1, \mathcal{U}_2$ sur un ensemble X, pour que $\mathcal{U}_1$ soit plus fine que $\mathcal{U}_2$, il faut et il suffit que tout entourage de $\mathcal{U}_2$ soit un entourage de $\mathcal{U}_1$.
+Proposition 3. — Étant données deux structures uniformes $\mathscr{U}_1, \mathscr{U}_2$ sur un ensemble X, pour que $\mathscr{U}_1$ soit plus fine que $\mathscr{U}_2$, il faut et il suffit que tout entourage de $\mathscr{U}_2$ soit un entourage de $\mathscr{U}_1$.
 
 #### Corollaire {#top-ii-s2-n2-cor-1 .statement}
 
-Sur un ensemble X, soit $\mathcal{U}_1$ une structure uniforme plus fine qu’une structure uniforme $\mathcal{U}_2$; alors la topologie déduite de $\mathcal{U}_1$ est plus fine que la topologie déduite de $\mathcal{U}_2$.
+Sur un ensemble X, soit $\mathscr{U}_1$ une structure uniforme plus fine qu’une structure uniforme $\mathscr{U}_2$; alors la topologie déduite de $\mathscr{U}_1$ est plus fine que la topologie déduite de $\mathscr{U}_2$.
 
 Cela résulte aussitôt de la comparaison des topologies à l’aide des voisinages (I, p. 11, prop. 3).
 
 #### Remarque 1 {#top-ii-s2-n2-rem-1 .statement}
 
-Il peut se faire qu’une structure uniforme $\mathcal{U}_1$ soit strictement plus fine qu’une structure uniforme $\mathcal{U}_2$, mais que les topologies déduites de ces deux structures uniformes soient identiques. C’est ce que montre l’exemple suivant:
-Soit X un ensemble non vide; pour toute partition finie $\varpi = (A_i)_{1 \leq i \leq n}$ de X, posons $V_{\varpi} = \bigcup_i (A_i \times A_i)$; les ensembles $V_{\varpi}$ constituent un système fondamental d’entourages d’une structure uniforme $\mathcal{U}$ sur X; en effet pour toute partition finie $\varpi$, on a $\Delta \subset V_{\varpi}$ et $V_{\varpi} \circ V_{\varpi} = \overline{V}_{\varpi} = V_{\varpi}$ (II, p. 3, Exemple 2); d’autre part, si $\varpi' = (B_j)$ et $\varpi'' = (C_k)$ sont deux partitions finies de X, ceux des ensembles $B_j \cap C_k$ qui sont non vides forment une partition $\varpi$ de X, et l’on a $V_{\varpi} \subset V_{\varpi'} \cap V_{\varpi''}$. On dit que $\mathcal{U}$ est la structure uniforme des partitions finies sur X. La topologie déduite de $\mathcal{U}$ est la topologie discrète, car pour tout $x \in X$ les ensembles $\{x\}$ et $\mathcal{C}\{x\}$ forment une partition finie de X. Cependant, si X est infini, il est clair que $\mathcal{U}$ est strictement moins fine que la structure uniforme discrète.
+Il peut se faire qu’une structure uniforme $\mathscr{U}_1$ soit strictement plus fine qu’une structure uniforme $\mathscr{U}_2$, mais que les topologies déduites de ces deux structures uniformes soient identiques. C’est ce que montre l’exemple suivant:
+Soit X un ensemble non vide; pour toute partition finie $\varpi = (A_i)_{1 \leq i \leq n}$ de X, posons $V_{\varpi} = \bigcup_i (A_i \times A_i)$; les ensembles $V_{\varpi}$ constituent un système fondamental d’entourages d’une structure uniforme $\mathscr{U}$ sur X; en effet pour toute partition finie $\varpi$, on a $\Delta \subset V_{\varpi}$ et $V_{\varpi} \circ V_{\varpi} = \overline{V}_{\varpi} = V_{\varpi}$ (II, p. 3, Exemple 2); d’autre part, si $\varpi' = (B_j)$ et $\varpi'' = (C_k)$ sont deux partitions finies de X, ceux des ensembles $B_j \cap C_k$ qui sont non vides forment une partition $\varpi$ de X, et l’on a $V_{\varpi} \subset V_{\varpi'} \cap V_{\varpi''}$. On dit que $\mathscr{U}$ est la structure uniforme des partitions finies sur X. La topologie déduite de $\mathscr{U}$ est la topologie discrète, car pour tout $x \in X$ les ensembles $\{x\}$ et $\mathscr{C}\{x\}$ forment une partition finie de X. Cependant, si X est infini, il est clair que $\mathscr{U}$ est strictement moins fine que la structure uniforme discrète.
 
 #### Remarque 2 {#top-ii-s2-n2-rem-2 .statement}
 
@@ -151,7 +151,7 @@ Soient X un ensemble, $(Z_i)_{i \in I}$ une famille d’espaces uniformes, $(J_\
 
 ### 4. Image réciproque d’une structure uniforme. Sous-espaces uniformes
 
-Soient $X$ un ensemble, $Y$ un espace uniforme, $f$ une application de $X$ dans $Y$; la structure uniforme la moins fine $\mathcal{U}$ sur $X$ rendant uniformément continue $f$ est appelée l’image réciproque par $f$ de la structure uniforme de $Y$. Il résulte de la prop. 4 de II, p. 8 et des formules donnant l’image réciproque d’une intersection que les images réciproques par $g = f \times f$ des entourages de $Y$ forment déjà un système fondamental d’entourages pour $\mathcal{U}$. La topologie déduite de $\mathcal{U}$ est alors l’image réciproque par $f$ de la topologie de $Y$ (II, p. 8, corollaire).
+Soient $X$ un ensemble, $Y$ un espace uniforme, $f$ une application de $X$ dans $Y$; la structure uniforme la moins fine $\mathscr{U}$ sur $X$ rendant uniformément continue $f$ est appelée l’image réciproque par $f$ de la structure uniforme de $Y$. Il résulte de la prop. 4 de II, p. 8 et des formules donnant l’image réciproque d’une intersection que les images réciproques par $g = f \times f$ des entourages de $Y$ forment déjà un système fondamental d’entourages pour $\mathscr{U}$. La topologie déduite de $\mathscr{U}$ est alors l’image réciproque par $f$ de la topologie de $Y$ (II, p. 8, corollaire).
 
 #### Remarque {#top-ii-s2-n4-rem-1 .statement}
 
@@ -179,15 +179,15 @@ En effet, $A \times A$ est dense dans $X \times X$ (I, p. 27, prop. 7). Soit $V$
 
 ### 5. Borne supérieure d’un ensemble de structures uniformes
 
-Toute famille $(\mathcal{U}_i)_{i \in I}$ de structures uniformes sur un ensemble $X$ admet une borne supérieure $\mathcal{U}$ dans l’ensemble ordonné des structures uniformes sur $X$: il suffit en effet d’appliquer la prop. 4 de II, p. 8 en désignant par $Y_i$ l’ensemble $X$ muni de la structure uniforme $\mathcal{U}_i$, et par $f_i$ l’application identique $X \to Y_i$; la topologie déduite de $\mathcal{U}$ n’est autre alors que la borne supérieure des topologies déduites des $\mathcal{U}_i$. Il résulte en outre de la prop. 4 de II, p. 8 que si $X \neq \varnothing$ et si $\mathcal{U}_i$ est le filtre des entourages de $\mathcal{U}_i$, le filtre des entourages de $\mathcal{U}$ est la borne supérieure des filtres $\mathcal{U}_i$ (I, p. 37).
+Toute famille $(\mathscr{U}_i)_{i \in I}$ de structures uniformes sur un ensemble $X$ admet une borne supérieure $\mathscr{U}$ dans l’ensemble ordonné des structures uniformes sur $X$: il suffit en effet d’appliquer la prop. 4 de II, p. 8 en désignant par $Y_i$ l’ensemble $X$ muni de la structure uniforme $\mathscr{U}_i$, et par $f_i$ l’application identique $X \to Y_i$; la topologie déduite de $\mathscr{U}$ n’est autre alors que la borne supérieure des topologies déduites des $\mathscr{U}_i$. Il résulte en outre de la prop. 4 de II, p. 8 que si $X \neq \varnothing$ et si $\mathscr{U}_i$ est le filtre des entourages de $\mathscr{U}_i$, le filtre des entourages de $\mathscr{U}$ est la borne supérieure des filtres $\mathscr{U}_i$ (I, p. 37).
 
 #### Exemple {#top-ii-s2-n5-exa-1 .statement}
 
-Pour toute partition finie $\varpi = (A_i)_{1 \leq i \leq n}$ d’un ensemble non vide $X$, l’ensemble $V_\varpi = \bigcup_i (A_i \times A_i)$ constitue à lui seul un système fondamental d’entourages d’une structure uniforme $\mathcal{U}_\varpi$ sur $X$ (II, p. 3, Exemple 2); la structure uniforme des partitions finies sur $X$ (II, p. 7, Remarque 1) est la borne supérieure des structures uniformes $\mathcal{U}_\varpi$.
+Pour toute partition finie $\varpi = (A_i)_{1 \leq i \leq n}$ d’un ensemble non vide $X$, l’ensemble $V_\varpi = \bigcup_i (A_i \times A_i)$ constitue à lui seul un système fondamental d’entourages d’une structure uniforme $\mathscr{U}_\varpi$ sur $X$ (II, p. 3, Exemple 2); la structure uniforme des partitions finies sur $X$ (II, p. 7, Remarque 1) est la borne supérieure des structures uniformes $\mathscr{U}_\varpi$.
 
 #### Remarque {#top-ii-s2-n5-rem-1 .statement}
 
-Une famille $(\mathcal{U}_i)$ de structures uniformes sur $X$ admet aussi une borne inférieure dans l’ensemble de toutes les structures uniformes sur $X$, savoir la borne supérieure des structures uniformes moins fines que toutes les $\mathcal{U}_i$ (il y en a, puisque l’ensemble de toutes les structures uniformes sur $X$ a un plus petit élément). Mais (en supposant $X \neq \varnothing$) le filtre des entourages de cette structure uniforme n’est pas nécessairement le filtre intersection des filtres d’entourages des $\mathcal{U}_i$, car ce dernier ne vérifie pas nécessairement l’axiome $(\mathbf{U}_{III})$ (II, p. 35, exerc. 4).
+Une famille $(\mathscr{U}_i)$ de structures uniformes sur $X$ admet aussi une borne inférieure dans l’ensemble de toutes les structures uniformes sur $X$, savoir la borne supérieure des structures uniformes moins fines que toutes les $\mathscr{U}_i$ (il y en a, puisque l’ensemble de toutes les structures uniformes sur $X$ a un plus petit élément). Mais (en supposant $X \neq \varnothing$) le filtre des entourages de cette structure uniforme n’est pas nécessairement le filtre intersection des filtres d’entourages des $\mathscr{U}_i$, car ce dernier ne vérifie pas nécessairement l’axiome $(\mathbf{U}_{III})$ (II, p. 35, exerc. 4).
 
 ### 6. Produit d’espaces uniformes
 
@@ -213,7 +213,7 @@ Le critère général de transitivité des structures uniformes initiales (II, p
 
 #### Proposition 8 {#top-ii-s2-prop-8 .statement}
 
-Soient $X$ un ensemble, $(Y_i)_{i \in I}$ une famille d’espaces uniformes, et pour chaque $i \in I$, soit $f_i$ une application de $X$ dans $Y_i$. Soit $f$ l’application $x \mapsto (f_i(x))$ de $X$ dans $Y = \prod_{i \in I} Y_i$, et soit $\mathcal{U}$ la structure uniforme la moins fine sur $X$ rendant uniformément continues les $f_i$. Alors $\mathcal{U}$ est l’image réciproque par $f$ de la structure uniforme induite sur $f(X)$ par la structure uniforme produit sur $Y$.
+Soient $X$ un ensemble, $(Y_i)_{i \in I}$ une famille d’espaces uniformes, et pour chaque $i \in I$, soit $f_i$ une application de $X$ dans $Y_i$. Soit $f$ l’application $x \mapsto (f_i(x))$ de $X$ dans $Y = \prod_{i \in I} Y_i$, et soit $\mathscr{U}$ la structure uniforme la moins fine sur $X$ rendant uniformément continues les $f_i$. Alors $\mathscr{U}$ est l’image réciproque par $f$ de la structure uniforme induite sur $f(X)$ par la structure uniforme produit sur $Y$.
 
 #### Corollaire {#top-ii-s2-n6-cor-2 .statement}
 

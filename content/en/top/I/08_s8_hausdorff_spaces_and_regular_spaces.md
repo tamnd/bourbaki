@@ -37,7 +37,7 @@ subsections:
       pdf_page: 88
 statements: 30
 exercises: 24
-content_sha256: 366f1c42674ce4b112f2729fe2aafb3ededcf42af3294eac70bd903d4712b142
+content_sha256: b4814e2f7e110c2b8361ba971f4d023bfcba4ef6bb8a3d54a449c5c769e074f5
 ---
 
 ## 8. HAUSDORFF SPACES AND REGULAR SPACES
@@ -166,9 +166,9 @@ Let $X = \prod_{i \in I} X_i$ be a product of topological spaces. Then if $x, y$
 
 #### Corollary 1 {#top-i-s8-prop-7-cor-1 .statement}
 
-*Let $X$ be a set, let $(Y_i)_{i \in I}$ be a family of Hausdorff topological spaces, and for each $i \in I$ let $f_i$ be a mapping of $X$ into $Y_i$. Let $X$ carry the coarsest topology $\mathcal{T}$ for which the $f_i$ are continuous. Then a necessary and sufficient condition for $X$ to be Hausdorff is that for each pair of distinct points $x, y$ of $X$ we have $f_i(x) \neq f_i(y)$ for some index $i \in I$.*
+*Let $X$ be a set, let $(Y_i)_{i \in I}$ be a family of Hausdorff topological spaces, and for each $i \in I$ let $f_i$ be a mapping of $X$ into $Y_i$. Let $X$ carry the coarsest topology $\mathscr{T}$ for which the $f_i$ are continuous. Then a necessary and sufficient condition for $X$ to be Hausdorff is that for each pair of distinct points $x, y$ of $X$ we have $f_i(x) \neq f_i(y)$ for some index $i \in I$.*
 
-The condition is sufficient by reason of Proposition 5 of no. 1. Conversely, suppose $X$ is Hausdorff; let $Y = \prod_{i \in I} Y_i$ and let $f = (f_i)_{i \in I}$ be the mapping $x \to (f_i(x))$. By Proposition 7 above $Y$ is Hausdorff, and by Proposition 3 of § 4, no. 1, $\mathcal{T}$ is the inverse image under $f$ of the topology of $Y$. If $f(x) = f(y)$ for two distinct points $x, y$ of $X$ it is clear that every open set (in the topology $\mathcal{T}$) which contains $x$ also contains $y$, contrary to the hypothesis that $X$ is Hausdorff.
+The condition is sufficient by reason of Proposition 5 of no. 1. Conversely, suppose $X$ is Hausdorff; let $Y = \prod_{i \in I} Y_i$ and let $f = (f_i)_{i \in I}$ be the mapping $x \to (f_i(x))$. By Proposition 7 above $Y$ is Hausdorff, and by Proposition 3 of § 4, no. 1, $\mathscr{T}$ is the inverse image under $f$ of the topology of $Y$. If $f(x) = f(y)$ for two distinct points $x, y$ of $X$ it is clear that every open set (in the topology $\mathscr{T}$) which contains $x$ also contains $y$, contrary to the hypothesis that $X$ is Hausdorff.
 
 #### Corollary 2 {#top-i-s8-prop-7-cor-2 .statement}
 

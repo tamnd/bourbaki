@@ -40,9 +40,9 @@ subsections:
       pdf_page: 362
 statements: 30
 exercises: 18
-content_sha256: 8a67347bcfaa3a526f966d71c19149978cf07be3d947c9d65b10dfb393a61b2a
+content_sha256: d3f2fa636224e00c8b50594eba476c7d8cd5b6bc054dd95cb18eb1a333b22e59
 translated_from: content/en/top/IV/05_s5_real_valued_functions.md
-source_content_sha256: f33e039db67c9eaf9660a5f3b5638d6a045e91c9c90c9d92661a758c61127e21
+source_content_sha256: 4733abd453741ac25f03d43b705f1223fbc3e9e15d7eabf9fb31e790bfc816d5
 translation_model: gpt-5.4
 translation_run: translate-vi-92820145
 glossary_version: 34
@@ -173,12 +173,12 @@ Quan hệ này quy tất cả các tính chất của cận dưới lớn nhất
 
 #### Mệnh đề 5 {#top-iv-s5-prop-5 .statement}
 
-*Cho $f$ là một hàm thực định nghĩa trên một tập hợp $X$. Trên tập hợp $\mathcal{F}(X)$ gồm mọi tập con hữu hạn của $X$, có hướng đối với quan hệ $\subset$, hàm thực $H \to \sup_{x \in H} f(x)$ là tăng, hàm thực $H \to \inf_{x \in H} f(x)$ là giảm, và ta có*
+*Cho $f$ là một hàm thực định nghĩa trên một tập hợp $X$. Trên tập hợp $\mathscr{F}(X)$ gồm mọi tập con hữu hạn của $X$, có hướng đối với quan hệ $\subset$, hàm thực $H \to \sup_{x \in H} f(x)$ là tăng, hàm thực $H \to \inf_{x \in H} f(x)$ là giảm, và ta có*
 
 $$
 \begin{cases}
-\sup_{x \in A} f(x) = \lim_{H \in \mathcal{F}(X)} (\sup_{x \in H} f(x)), \\
-\inf_{x \in A} f(x) = \lim_{H \in \mathcal{F}(X)} (\inf_{x \in H} f(x)).
+\sup_{x \in A} f(x) = \lim_{H \in \mathscr{F}(X)} (\sup_{x \in H} f(x)), \\
+\inf_{x \in A} f(x) = \lim_{H \in \mathscr{F}(X)} (\inf_{x \in H} f(x)).
 \end{cases}
 $$
 
@@ -187,7 +187,7 @@ $$
 Đặc biệt, theo (1), nếu $A$ là một tập con không rỗng bất kỳ của $\overline{\mathbf{R}}$, ta có
 
 $$
-\sup A = \lim_{H \in \mathcal{F}(A)} (\sup_{x \in H} x).
+\sup A = \lim_{H \in \mathscr{F}(A)} (\sup_{x \in H} x).
 $$
 
 #### Mệnh đề 6 {#top-iv-s5-prop-6 .statement}
@@ -239,14 +239,14 @@ Hơn nữa, nếu ta trang bị cho $\overline{\mathbf{R}}^X$ tôpô là tích c
 
 #### Mệnh đề 10 {#top-iv-s5-prop-10 .statement}
 
-*Trong không gian tích $\overline{\mathbf{R}}^X$, bao trên $\sup_{i \in I} f_i$ của một họ các hàm thực $(f_i)_{i \in I}$ là giới hạn, đối với tập có hướng $\mathcal{F}(I)$ các tập con hữu hạn của $I$, của ánh xạ $H \to \sup_{i \in H} f_i$ [ánh xạ này gán cho mỗi tập con hữu hạn $H$ của $I$ bao trên của họ con hữu hạn $(f_i)_{i \in H}$].
+*Trong không gian tích $\overline{\mathbf{R}}^X$, bao trên $\sup_{i \in I} f_i$ của một họ các hàm thực $(f_i)_{i \in I}$ là giới hạn, đối với tập có hướng $\mathscr{F}(I)$ các tập con hữu hạn của $I$, của ánh xạ $H \to \sup_{i \in H} f_i$ [ánh xạ này gán cho mỗi tập con hữu hạn $H$ của $I$ bao trên của họ con hữu hạn $(f_i)_{i \in H}$].
 
 Điều này suy ra ngay lập tức từ Mệnh đề 5 của no. 4 và từ Chương I, § 7, no. 6, Hệ quả 1 của Mệnh đề 10.
 
 Vì vậy ta có thể viết
 
 $$
-\sup_{i \in I} f_i = \lim_{H \in \mathcal{F}(I)} (\sup_{i \in H} f_i).
+\sup_{i \in I} f_i = \lim_{H \in \mathscr{F}(I)} (\sup_{i \in H} f_i).
 $$
 
 #### Định nghĩa 5 {#top-iv-s5-def-5 .statement}
@@ -257,29 +257,29 @@ Do đó $(f_i)$ bị chặn trên đều trong $X$ khi và chỉ khi bao trên c
 
 ### 6. GIỚI HẠN TRÊN VÀ GIỚI HẠN DƯỚI CỦA MỘT HÀM SỐ THỰC ĐỐI VỚI MỘT BỘ LỌC
 
-Cho $f$ là một hàm thực xác định trên một tập hợp $X$ được lọc bởi một bộ lọc $\mathcal{G}$. $\mathcal{G}$ là một tập có hướng đối với quan hệ $\supseteq$ (Chương I, § 6). Với mỗi $M \in \mathcal{G}$ xét số thực $\sup_{x \in M} f(x)$: ta có một hàm $M \to \sup_{x \in M} f(x)$ từ $\mathcal{G}$ vào $\overline{\mathbf{R}}$, là một hàm giảm trên $\mathcal{G}$, theo Mệnh đề 7 của no. 4. Do đó, theo Định lý 2 của no. 2, nó có một giới hạn đối với tập có hướng $\mathcal{G}$.
+Cho $f$ là một hàm thực xác định trên một tập hợp $X$ được lọc bởi một bộ lọc $\mathscr{G}$. $\mathscr{G}$ là một tập có hướng đối với quan hệ $\supseteq$ (Chương I, § 6). Với mỗi $M \in \mathscr{G}$ xét số thực $\sup_{x \in M} f(x)$: ta có một hàm $M \to \sup_{x \in M} f(x)$ từ $\mathscr{G}$ vào $\overline{\mathbf{R}}$, là một hàm giảm trên $\mathscr{G}$, theo Mệnh đề 7 của no. 4. Do đó, theo Định lý 2 của no. 2, nó có một giới hạn đối với tập có hướng $\mathscr{G}$.
 
 #### Định nghĩa 6 {#top-iv-s5-def-6 .statement}
 
-*Giới hạn của hàm thực* $M \to \sup_{x \in M} f(x)$ *đối với tập có hướng* $\mathcal{G}$ *được gọi là giới hạn trên của* $f$ *đối với bộ lọc* $\mathcal{G}$, *và được ký hiệu là* $\lim \sup_{\mathcal{G}} f$, *hoặc* $\lim \sup_{x, \mathcal{G}} f(x)$.
+*Giới hạn của hàm thực* $M \to \sup_{x \in M} f(x)$ *đối với tập có hướng* $\mathscr{G}$ *được gọi là giới hạn trên của* $f$ *đối với bộ lọc* $\mathscr{G}$, *và được ký hiệu là* $\lim \sup_{\mathscr{G}} f$, *hoặc* $\lim \sup_{x, \mathscr{G}} f(x)$.
 
-*Giới hạn dưới* của $f$ đối với bộ lọc $\mathcal{G}$ được định nghĩa tương tự, và được ký hiệu là $\lim \inf_{\mathcal{G}} f$ hoặc $\lim \inf_{x, \mathcal{G}} f(x)$. Như vậy ta có
+*Giới hạn dưới* của $f$ đối với bộ lọc $\mathscr{G}$ được định nghĩa tương tự, và được ký hiệu là $\lim \inf_{\mathscr{G}} f$ hoặc $\lim \inf_{x, \mathscr{G}} f(x)$. Như vậy ta có
 
 $$
 \begin{cases}
-\lim \sup_{\mathcal{G}} f = \lim_{M \in \mathcal{G}} (\sup_{x \in M} f(x)), \\
-\lim \inf_{\mathcal{G}} f = \lim_{M \in \mathcal{G}} (\inf_{x \in M} f(x)).
+\lim \sup_{\mathscr{G}} f = \lim_{M \in \mathscr{G}} (\sup_{x \in M} f(x)), \\
+\lim \inf_{\mathscr{G}} f = \lim_{M \in \mathscr{G}} (\inf_{x \in M} f(x)).
 \end{cases}
 $$
 
 (10)
 
-Thường bộ lọc $\mathcal{G}$ được lược bỏ khỏi ký hiệu, và ta viết đơn giản $\lim \sup f$ hoặc $\lim \sup_{x} f(x)$, hoặc $\lim \sup f(x)$ khi không có nguy cơ nhầm lẫn.
+Thường bộ lọc $\mathscr{G}$ được lược bỏ khỏi ký hiệu, và ta viết đơn giản $\lim \sup f$ hoặc $\lim \sup_{x} f(x)$, hoặc $\lim \sup f(x)$ khi không có nguy cơ nhầm lẫn.
 
 Từ các công thức (10) và Định lý 1 ta có
 
 $$
-\inf_{x \in X} f(x) \leq \lim \inf_{\mathcal{G}} f \leq \lim \sup_{\mathcal{G}} f \leq \sup_{x \in X} f(x).
+\inf_{x \in X} f(x) \leq \lim \inf_{\mathscr{G}} f \leq \lim \sup_{\mathscr{G}} f \leq \sup_{x \in X} f(x).
 $$
 
 (11)
@@ -288,61 +288,61 @@ Theo Định lý 2 của no. 2, ta cũng có thể viết
 
 $$
 \begin{cases}
-\lim \sup_{\mathcal{G}} f = \inf_{M \in \mathcal{G}} (\sup_{x \in M} f(x)), \\
-\lim \inf_{\mathcal{G}} f = \sup_{M \in \mathcal{G}} (\inf_{x \in M} f(x)).
+\lim \sup_{\mathscr{G}} f = \inf_{M \in \mathscr{G}} (\sup_{x \in M} f(x)), \\
+\lim \inf_{\mathscr{G}} f = \sup_{M \in \mathscr{G}} (\inf_{x \in M} f(x)).
 \end{cases}
 $$
 
 (12)
 
-Ta cũng có thể thay thế bộ lọc $\mathcal{G}$, ở các vế phải của các công thức (10) và (12), bằng bất kỳ *cơ sở* nào $\mathcal{B}$ của $\mathcal{G}$.
+Ta cũng có thể thay thế bộ lọc $\mathscr{G}$, ở các vế phải của các công thức (10) và (12), bằng bất kỳ *cơ sở* nào $\mathscr{B}$ của $\mathscr{G}$.
 
 Từ (2) và (10),
 
 $$
-\lim \inf_{\mathcal{G}} f = -\lim \sup_{\mathcal{G}} (-f)
+\lim \inf_{\mathscr{G}} f = -\lim \sup_{\mathscr{G}} (-f)
 $$
 
 và do đó ta chỉ cần xét giới hạn trên.
 
 #### Định lý 3 {#top-iv-s5-thm-3 .statement}
 
-*Giới hạn trên của một hàm giá trị thực $f$ đối với một bộ lọc $\mathcal{G}$ bằng giá trị giới hạn lớn nhất của $f$ đối với $\mathcal{G}$.*
+*Giới hạn trên của một hàm giá trị thực $f$ đối với một bộ lọc $\mathscr{G}$ bằng giá trị giới hạn lớn nhất của $f$ đối với $\mathscr{G}$.*
 
-Cho $b$ là một điểm tụ của $f$ đối với $\mathcal{G}$. Với mỗi $M \in \mathcal{G}$, $b$ nằm trong bao đóng của $f(M)$, do đó $b \leq \sup_{x \in M} f(x)$, và vì thế, theo (12),
-$b \leq \lim \sup_{\mathcal{G}} f = a.$
+Cho $b$ là một điểm tụ của $f$ đối với $\mathscr{G}$. Với mỗi $M \in \mathscr{G}$, $b$ nằm trong bao đóng của $f(M)$, do đó $b \leq \sup_{x \in M} f(x)$, và vì thế, theo (12),
+$b \leq \lim \sup_{\mathscr{G}} f = a.$
 
-Mặt khác, cho $V$ là một lân cận mở bất kỳ của $a$ trong $\overline{\mathbf{R}}$. Khi đó tồn tại một tập $M_0$ trong $\mathcal{G}$ sao cho, với mỗi $M \in \mathcal{G}$ được chứa trong $M_0$, ta có $\sup_{x \in M} f(x) \in V$; vì $V$ là mở nên suy ra $f(M)$ cắt $V$, và do đó $a$ là một *điểm tụ* của $f$ đối với $\mathcal{G}$, và chứng minh đã hoàn tất.
+Mặt khác, cho $V$ là một lân cận mở bất kỳ của $a$ trong $\overline{\mathbf{R}}$. Khi đó tồn tại một tập $M_0$ trong $\mathscr{G}$ sao cho, với mỗi $M \in \mathscr{G}$ được chứa trong $M_0$, ta có $\sup_{x \in M} f(x) \in V$; vì $V$ là mở nên suy ra $f(M)$ cắt $V$, và do đó $a$ là một *điểm tụ* của $f$ đối với $\mathscr{G}$, và chứng minh đã hoàn tất.
 
 #### Hệ quả 1 {#top-iv-s5-thm-3-cor-1 .statement}
 
-*Để $\lim \sup_{\mathcal{G}} f = \lim \inf_{\mathcal{G}} f$, điều kiện cần và đủ là $f$ có giới hạn đối với bộ lọc $\mathcal{G}$, và khi đó*
+*Để $\lim \sup_{\mathscr{G}} f = \lim \inf_{\mathscr{G}} f$, điều kiện cần và đủ là $f$ có giới hạn đối với bộ lọc $\mathscr{G}$, và khi đó*
 $$
-\lim_{\mathcal{G}} f = \lim \sup_{\mathcal{G}} f = \lim \inf_{\mathcal{G}} f.
+\lim_{\mathscr{G}} f = \lim \sup_{\mathscr{G}} f = \lim \inf_{\mathscr{G}} f.
 $$
-Thật vậy, vì $\overline{\mathbf{R}}$ là compact, cơ sở bộ lọc $f(\mathcal{G})$ có một điểm giới hạn khi và chỉ khi nó chỉ có một điểm tụ (Chương I, § 9, no. 1, Hệ quả của Định lý 1).
+Thật vậy, vì $\overline{\mathbf{R}}$ là compact, cơ sở bộ lọc $f(\mathscr{G})$ có một điểm giới hạn khi và chỉ khi nó chỉ có một điểm tụ (Chương I, § 9, no. 1, Hệ quả của Định lý 1).
 
 #### Hệ quả 2 {#top-iv-s5-thm-3-cor-2 .statement}
 
-*Nếu $\mathcal{H}$ là một bộ lọc mịn hơn $\mathcal{G}$, thì ta có*
+*Nếu $\mathscr{H}$ là một bộ lọc mịn hơn $\mathscr{G}$, thì ta có*
 $$
-\lim \inf_{\mathcal{G}} f \leq \lim \inf_{\mathcal{H}} f \leq \lim \sup_{\mathcal{H}} f \leq \lim \sup_{\mathcal{G}} f.
+\lim \inf_{\mathscr{G}} f \leq \lim \inf_{\mathscr{H}} f \leq \lim \sup_{\mathscr{H}} f \leq \lim \sup_{\mathscr{G}} f.
 $$
-Mọi điểm tụ của $f$ đối với $\mathcal{H}$ cũng là một điểm tụ của $f$ đối với $\mathcal{G}$ (Chương I, § 7, no. 3).
-Đặc biệt, nếu $\lim_{\mathcal{G}} f$ tồn tại, thì
+Mọi điểm tụ của $f$ đối với $\mathscr{H}$ cũng là một điểm tụ của $f$ đối với $\mathscr{G}$ (Chương I, § 7, no. 3).
+Đặc biệt, nếu $\lim_{\mathscr{G}} f$ tồn tại, thì
 $$
-\lim \inf_{\mathcal{G}} f \leq \lim_{\mathcal{G}} f \leq \lim \sup_{\mathcal{G}} f.
+\lim \inf_{\mathscr{G}} f \leq \lim_{\mathscr{G}} f \leq \lim \sup_{\mathscr{G}} f.
 $$
 
 #### Hệ quả 3 {#top-iv-s5-thm-3-cor-3 .statement}
 
-*Cho $A$ là một tập hợp của bộ lọc $\mathcal{G}$, $\mathcal{G}_A$ là bộ lọc cảm sinh trên $A$ bởi $\mathcal{G}$, và $f_A$ là hạn chế của $f$ lên $A$; khi đó*
+*Cho $A$ là một tập hợp của bộ lọc $\mathscr{G}$, $\mathscr{G}_A$ là bộ lọc cảm sinh trên $A$ bởi $\mathscr{G}$, và $f_A$ là hạn chế của $f$ lên $A$; khi đó*
 $$
-\lim \sup_{\mathcal{G}_A} f_A = \lim \sup_{\mathcal{G}} f.
+\lim \sup_{\mathscr{G}_A} f_A = \lim \sup_{\mathscr{G}} f.
 $$
-Mọi điểm tụ của cơ sở bộ lọc $f(\mathcal{G})$ đều là một điểm tụ của cơ sở bộ lọc $f_A(\mathcal{G}_A)$, và ngược lại.
+Mọi điểm tụ của cơ sở bộ lọc $f(\mathscr{G})$ đều là một điểm tụ của cơ sở bộ lọc $f_A(\mathscr{G}_A)$, và ngược lại.
 
-Vì lý do này, nếu $f$ chỉ được xác định trên một tập con $A$ của $X$ thuộc $\mathcal{G}$, thì ta sẽ thường viết $\limsup_{\mathcal{G}} f$ thay cho $\limsup_{\mathcal{G}_A} f_A$, do lạm dụng ngôn ngữ.
+Vì lý do này, nếu $f$ chỉ được xác định trên một tập con $A$ của $X$ thuộc $\mathscr{G}$, thì ta sẽ thường viết $\limsup_{\mathscr{G}} f$ thay cho $\limsup_{\mathscr{G}_A} f_A$, do lạm dụng ngôn ngữ.
 
 #### Mệnh đề 11 {#top-iv-s5-prop-11 .statement}
 
@@ -357,13 +357,13 @@ $$
 
 Đây là một hệ quả ngay lập tức của các quan hệ (12).
 
-Khi $X$ là một không gian tôpô và $\mathcal{G}$ là bộ lọc lân cận của một điểm $a$ của $X$, ta viết $\limsup_{x \to a} f(x)$ [resp. $\liminf_{x \to a} f(x)$] thay cho $\limsup_{\mathcal{G}} f$ [resp. $\liminf_{\mathcal{G}} f$]; rõ ràng ta có
+Khi $X$ là một không gian tôpô và $\mathscr{G}$ là bộ lọc lân cận của một điểm $a$ của $X$, ta viết $\limsup_{x \to a} f(x)$ [resp. $\liminf_{x \to a} f(x)$] thay cho $\limsup_{\mathscr{G}} f$ [resp. $\liminf_{\mathscr{G}} f$]; rõ ràng ta có
 
 $$
 \liminf_{x \to a} f(x) \leq f(a) \leq \limsup_{x \to a} f(x).
 $$
 
-Nói chung hơn, nếu $X$ là một không gian con của một không gian tôpô $Y$, và nếu $\mathcal{G}$ là vết trên $X$ của bộ lọc lân cận của một điểm $a \in \overline{X}$, ta viết $\limsup_{x \to a, x \in X} f(x)$ [tương ứng, $\liminf_{x \to a, x \in X} f(x)$] thay cho $\limsup_{\mathcal{G}} f$ [tương ứng, $\liminf_{\mathcal{G}} f$] ; $\limsup$ được gọi là giới hạn trên của $f(x)$ khi $x$ tiến tới $a$ mà vẫn thuộc $X$. Nếu $X$ là phần bù của $\{a\}$ thì trong các ký hiệu này ta viết "x \neq a" thay cho "x \in X".
+Nói chung hơn, nếu $X$ là một không gian con của một không gian tôpô $Y$, và nếu $\mathscr{G}$ là vết trên $X$ của bộ lọc lân cận của một điểm $a \in \overline{X}$, ta viết $\limsup_{x \to a, x \in X} f(x)$ [tương ứng, $\liminf_{x \to a, x \in X} f(x)$] thay cho $\limsup_{\mathscr{G}} f$ [tương ứng, $\liminf_{\mathscr{G}} f$] ; $\limsup$ được gọi là giới hạn trên của $f(x)$ khi $x$ tiến tới $a$ mà vẫn thuộc $X$. Nếu $X$ là phần bù của $\{a\}$ thì trong các ký hiệu này ta viết "x \neq a" thay cho "x \in X".
 
 Nếu $A$ là một tập con của $X$ sao cho $a \in \overline{A}$, thì (Hệ quả 2 của Định lý 3)
 
@@ -379,7 +379,7 @@ $$
 
 Vì thế các khái niệm giới hạn trên và giới hạn dưới tại một điểm của một không gian tôpô, cũng như khái niệm giới hạn, đều có đặc trưng địa phương.
 
-Cuối cùng, nếu $\mathcal{G}$ là bộ lọc Fréchet trên $\mathbf{N}$, thì giới hạn trên (tương ứng, giới hạn dưới), đối với $\mathcal{G}$, của ánh xạ $n \to u_n$ từ $\mathbf{N}$ vào $\overline{\mathbf{R}}$ được ký hiệu bởi $\limsup_{n \to \infty} u_n$ (tương ứng, $\liminf_{n \to \infty} u_n$) và được gọi là giới hạn trên (tương ứng, giới hạn dưới) của dãy các số thực $u_n$.
+Cuối cùng, nếu $\mathscr{G}$ là bộ lọc Fréchet trên $\mathbf{N}$, thì giới hạn trên (tương ứng, giới hạn dưới), đối với $\mathscr{G}$, của ánh xạ $n \to u_n$ từ $\mathbf{N}$ vào $\overline{\mathbf{R}}$ được ký hiệu bởi $\limsup_{n \to \infty} u_n$ (tương ứng, $\liminf_{n \to \infty} u_n$) và được gọi là giới hạn trên (tương ứng, giới hạn dưới) của dãy các số thực $u_n$.
 
 Vậy quan hệ $\limsup_{n \to \infty} u_n = a \in \mathbf{R}$ tương đương với điều sau đây: với mọi $\varepsilon > 0$ tồn tại một số nguyên $n_0$ sao cho, với mọi $n \geq n_0$ ta có $u_n \leq a + \varepsilon$, và với vô hạn giá trị của $n$ ta có $u_n \geq a - \varepsilon$. Định nghĩa của giới hạn trên của một dãy có thể được phát biểu tương tự khi giá trị của nó là $+\infty$ hoặc $-\infty$.
 
@@ -402,7 +402,7 @@ Tương tự, nếu $1/f(x)$ được xác định với mọi $x \in X$, thì $
 
 Vậy hàm cuối cùng này được xác định miễn là $f$ không nhận giá trị 0; khi $f$ nhận các giá trị trong khoảng $[0, +\infty]$ (resp. trong $[-\infty, 0]$) $1/f(x)$ được xem là xác định khắp nơi bằng cách đặt $1/0 = +\infty$ (resp. $1/0 = -\infty$); trong trường hợp này hàm $1/f$ được xác định.
 
-Giả sử rằng $X$ được lọc bởi một bộ lọc $\mathcal{F}$, và rằng $\lim_{\mathcal{F}} f$ và $\lim_{\mathcal{F}} g$ tồn tại. Nếu một mặt hàm $f + g$ (tương ứng $fg$, $1/g$) được xác định, và nếu mặt khác biểu thức $\lim_{\mathcal{F}} f + \lim_{\mathcal{F}} g$ (tương ứng $\lim_{\mathcal{F}} f \cdot \lim_{\mathcal{F}} g$, $1/\lim_{\mathcal{F}} f$) có nghĩa, thì $\lim_{\mathcal{F}} (f + g)$ [tương ứng $\lim_{\mathcal{F}} fg$, $\lim_{\mathcal{F}} (1/f)$] tồn tại và bằng biểu thức ấy do tính liên tục của hàm $x + y$ (tương ứng $xy$, $1/x$) tại các điểm mà nó được xác định.
+Giả sử rằng $X$ được lọc bởi một bộ lọc $\mathscr{F}$, và rằng $\lim_{\mathscr{F}} f$ và $\lim_{\mathscr{F}} g$ tồn tại. Nếu một mặt hàm $f + g$ (tương ứng $fg$, $1/g$) được xác định, và nếu mặt khác biểu thức $\lim_{\mathscr{F}} f + \lim_{\mathscr{F}} g$ (tương ứng $\lim_{\mathscr{F}} f \cdot \lim_{\mathscr{F}} g$, $1/\lim_{\mathscr{F}} f$) có nghĩa, thì $\lim_{\mathscr{F}} (f + g)$ [tương ứng $\lim_{\mathscr{F}} fg$, $\lim_{\mathscr{F}} (1/f)$] tồn tại và bằng biểu thức ấy do tính liên tục của hàm $x + y$ (tương ứng $xy$, $1/x$) tại các điểm mà nó được xác định.
 
 #### Mệnh đề 12 {#top-iv-s5-prop-12 .statement}
 

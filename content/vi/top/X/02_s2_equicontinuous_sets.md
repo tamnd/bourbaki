@@ -32,9 +32,9 @@ subsections:
       pdf_page: 296
 statements: 24
 exercises: 16
-content_sha256: 7a8fd7f8150aeef235d9ba8c6f24b43caa2260d6d4614ce7f27121495e936a4c
+content_sha256: 993c3da6305050ec027153b8d50544a4c9c70080226e759a5f1ee831c39cd9af
 translated_from: content/en/top/X/02_s2_equicontinuous_sets.md
-source_content_sha256: 0e518ac6230012625e0fe16b513a7814cbf8c8e0459e8869ade391e4e1719c46
+source_content_sha256: e2a78160237149f66f0f8a7ebfe148f1be61b9721352dd251ef5b190594f059c
 translation_model: gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-82a58eef
 glossary_version: 34
@@ -48,15 +48,15 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 #### Định nghĩa 1 {#top-x-s2-def-1 .statement}
 
-*Cho $X$ là một không gian tôpô và $Y$ là một không gian đều. Một tập con $H$ của $\mathcal{F}(X; Y)$ được gọi là đều liên tục tại một điểm $x_0 \in X$ nếu, với mỗi lân cận $V$ của $Y$, tồn tại một lân cận $U$ của $x_0$ trong $X$ sao cho* (f(x_0), f(x)) \in V \text{ với mọi } x \in U \text{ và mọi } f \in H. \text{ H được gọi là đều liên tục nếu nó đều liên tục tại mọi điểm của } X.*
+*Cho $X$ là một không gian tôpô và $Y$ là một không gian đều. Một tập con $H$ của $\mathscr{F}(X; Y)$ được gọi là đều liên tục tại một điểm $x_0 \in X$ nếu, với mỗi lân cận $V$ của $Y$, tồn tại một lân cận $U$ của $x_0$ trong $X$ sao cho* (f(x_0), f(x)) \in V \text{ với mọi } x \in U \text{ và mọi } f \in H. \text{ H được gọi là đều liên tục nếu nó đều liên tục tại mọi điểm của } X.*
 
 #### Định nghĩa 2 {#top-x-s2-def-2 .statement}
 
-Cho X và Y là hai không gian đều. Một tập con H của $\mathcal{F}(X; Y)$ được gọi là đều liên tục đều nếu, với mỗi lân cận V của Y, tồn tại một lân cận U của X sao cho ta có $(f(x), f(x')) \in V$ bất cứ khi nào $(x, x') \in U$ và $f \in H$.
+Cho X và Y là hai không gian đều. Một tập con H của $\mathscr{F}(X; Y)$ được gọi là đều liên tục đều nếu, với mỗi lân cận V của Y, tồn tại một lân cận U của X sao cho ta có $(f(x), f(x')) \in V$ bất cứ khi nào $(x, x') \in U$ và $f \in H$.
 
 Một họ $(f_i)_{i \in I}$ các ánh xạ của X vào Y được gọi là đều liên tục tại một điểm $x_0$ (tương ứng, đều liên tục, đều liên tục đều) nếu tập hợp các $f_i$ là đều liên tục tại $x_0$ (tương ứng, đều liên tục, đều liên tục đều).
 
-Hiển nhiên là nếu $H \subset \mathcal{F}(X; Y)$ đều liên tục tại $x_0$, thì mỗi $f \in H$ đều liên tục tại $x_0$; nếu H đều liên tục, thì mỗi $f \in H$ đều liên tục trên X, tức là $H \subset C(X; Y)$. Tương tự, nếu H đều liên tục đều (X là một không gian đều), thì mọi $f \in H$ đều liên tục đều trên X. Cũng hiển nhiên rằng một tập các ánh xạ đều liên tục đều thì đều liên tục; nhưng một tập các ánh xạ liên tục đều có thể đều liên tục mà không đều liên tục đều (xem Bài tập 1; Hệ quả 2 của Mệnh đề 1; và no. 2, Mệnh đề 4).
+Hiển nhiên là nếu $H \subset \mathscr{F}(X; Y)$ đều liên tục tại $x_0$, thì mỗi $f \in H$ đều liên tục tại $x_0$; nếu H đều liên tục, thì mỗi $f \in H$ đều liên tục trên X, tức là $H \subset C(X; Y)$. Tương tự, nếu H đều liên tục đều (X là một không gian đều), thì mọi $f \in H$ đều liên tục đều trên X. Cũng hiển nhiên rằng một tập các ánh xạ đều liên tục đều thì đều liên tục; nhưng một tập các ánh xạ liên tục đều có thể đều liên tục mà không đều liên tục đều (xem Bài tập 1; Hệ quả 2 của Mệnh đề 1; và no. 2, Mệnh đề 4).
 
 #### Ví dụ 1 {#top-x-s2-n1-exa-1 .statement}
 
@@ -78,33 +78,33 @@ Cho G là một nhóm tôpô, cho Y là một không gian đều và cho $f : G 
 
 #### Mệnh đề 1 {#top-x-s2-prop-1 .statement}
 
-Cho T là một tập, cho $\mathcal{S}$ là một tập các tập con của T, cho Y là một không gian đều, X một không gian tôpô (tương ứng, đều), và cho f là một ánh xạ của $T \times X$ vào $Y$. Với mỗi $A \in \mathcal{S}$, cho $H_A \subset \mathcal{F}(X; Y)$ là tập tất cả các ánh xạ $x \to f(t, x)$ khi $t$ chạy qua $A$. Khi đó ánh xạ $x \to f(., x)$ của X vào $\mathcal{F}_\mathcal{S}(T; Y)$ liên tục tại một điểm $x_0 \in X$ (tương ứng, liên tục đều) khi và chỉ khi tập $H_A$ đều liên tục tại $x_0$ (tương ứng, đều liên tục đều) với mọi $A \in \mathcal{S}$.
+Cho T là một tập, cho $\mathscr{S}$ là một tập các tập con của T, cho Y là một không gian đều, X một không gian tôpô (tương ứng, đều), và cho f là một ánh xạ của $T \times X$ vào $Y$. Với mỗi $A \in \mathscr{S}$, cho $H_A \subset \mathscr{F}(X; Y)$ là tập tất cả các ánh xạ $x \to f(t, x)$ khi $t$ chạy qua $A$. Khi đó ánh xạ $x \to f(., x)$ của X vào $\mathscr{F}_\mathscr{S}(T; Y)$ liên tục tại một điểm $x_0 \in X$ (tương ứng, liên tục đều) khi và chỉ khi tập $H_A$ đều liên tục tại $x_0$ (tương ứng, đều liên tục đều) với mọi $A \in \mathscr{S}$.
 
-Trước hết xét trường hợp riêng khi $\mathcal{S} = \{ T \}$, tức là $\mathcal{F}_\mathcal{S}(T; Y) = \mathcal{F}_u(T; Y)$. Với mỗi lân cận $V$ của $Y$, điều kiện $(f(., x), f(., x')) \in W(V)$ có nghĩa là $(f(t, x), f(t, x')) \in V$ với mọi $t \in T$. Nói rằng $x \to f(., x)$ là liên tục tại $x_0$ (tương ứng là liên tục đều) do đó tương đương với việc nói rằng, với mỗi lân cận $V$ của $Y$, tồn tại một lân cận $U$ của $x_0$ trong $X$ (tương ứng một lân cận $M$ của $X$) sao cho quan hệ $x \in U$ [tương ứng $(x, x') \in M$] kéo theo $(f(t, x), f(t, x_0)) \in V$ [tương ứng $(f(t, x), f(t, x')) \in V$] với mọi $t \in T$, và mệnh đề suy ra từ các Định nghĩa 1 và 2. Trong trường hợp tổng quát, ta phải biểu diễn rằng, với mỗi $A \in \mathcal{S}$, ánh xạ $x \to f(., x)|A$ của $X$ vào $\mathcal{F}_u(A; Y)$ là liên tục tại $x_0$ (tương ứng liên tục đều), theo § 1, no. 2; từ những điều đã nói, điều này tương đương với việc nói rằng, với mỗi $A \in \mathcal{S}$, $H_A$ là liên tục đều tại $x_0$ (tương ứng liên tục đều đồng nhất).
+Trước hết xét trường hợp riêng khi $\mathscr{S} = \{ T \}$, tức là $\mathscr{F}_\mathscr{S}(T; Y) = \mathscr{F}_u(T; Y)$. Với mỗi lân cận $V$ của $Y$, điều kiện $(f(., x), f(., x')) \in W(V)$ có nghĩa là $(f(t, x), f(t, x')) \in V$ với mọi $t \in T$. Nói rằng $x \to f(., x)$ là liên tục tại $x_0$ (tương ứng là liên tục đều) do đó tương đương với việc nói rằng, với mỗi lân cận $V$ của $Y$, tồn tại một lân cận $U$ của $x_0$ trong $X$ (tương ứng một lân cận $M$ của $X$) sao cho quan hệ $x \in U$ [tương ứng $(x, x') \in M$] kéo theo $(f(t, x), f(t, x_0)) \in V$ [tương ứng $(f(t, x), f(t, x')) \in V$] với mọi $t \in T$, và mệnh đề suy ra từ các Định nghĩa 1 và 2. Trong trường hợp tổng quát, ta phải biểu diễn rằng, với mỗi $A \in \mathscr{S}$, ánh xạ $x \to f(., x)|A$ của $X$ vào $\mathscr{F}_u(A; Y)$ là liên tục tại $x_0$ (tương ứng liên tục đều), theo § 1, no. 2; từ những điều đã nói, điều này tương đương với việc nói rằng, với mỗi $A \in \mathscr{S}$, $H_A$ là liên tục đều tại $x_0$ (tương ứng liên tục đều đồng nhất).
 
 Mệnh đề 1 cho phép ta chuyển các Định nghĩa 1 và 2 thành những dạng đôi khi hữu ích, bằng cách áp dụng nó vào trường hợp $T = H$ và $f$ là ánh xạ $(h, x) \to h(x)$ của $H \times X$ vào $Y$; vì $f(., x)$ là ánh xạ $h \to h(x)$ của $H$ vào $Y$, ta thấy rằng:
 
 #### Hệ quả 1 {#top-x-s2-prop-1-cor-1 .statement}
 
-Cho $X$ là một không gian tôpô (tương ứng không gian đều), $Y$ là một không gian đều và $H$ là một tập con của $\mathcal{F}(X; Y)$. Với mỗi $x \in X$, ký hiệu $\tilde{x}$ là ánh xạ $h \to h(x)$ của $H$ vào $Y$. Khi đó $H$ là liên tục đều tại $x_0$ (tương ứng liên tục đều đồng nhất) khi và chỉ khi ánh xạ $x \to \tilde{x}$ của $X$ vào không gian đều $\mathcal{F}_u(H; Y)$ là liên tục tại $x_0$ (tương ứng liên tục đều).
+Cho $X$ là một không gian tôpô (tương ứng không gian đều), $Y$ là một không gian đều và $H$ là một tập con của $\mathscr{F}(X; Y)$. Với mỗi $x \in X$, ký hiệu $\tilde{x}$ là ánh xạ $h \to h(x)$ của $H$ vào $Y$. Khi đó $H$ là liên tục đều tại $x_0$ (tương ứng liên tục đều đồng nhất) khi và chỉ khi ánh xạ $x \to \tilde{x}$ của $X$ vào không gian đều $\mathscr{F}_u(H; Y)$ là liên tục tại $x_0$ (tương ứng liên tục đều).
 
-Đặc biệt, nếu $X$ là compact, mọi ánh xạ liên tục của $X$ vào $\mathcal{F}_u(H; Y)$ đều là liên tục đều (Chương II, § 4, no. 1, Định lý 2). Do đó:
+Đặc biệt, nếu $X$ là compact, mọi ánh xạ liên tục của $X$ vào $\mathscr{F}_u(H; Y)$ đều là liên tục đều (Chương II, § 4, no. 1, Định lý 2). Do đó:
 
 #### Hệ quả 2 {#top-x-s2-prop-1-cor-2 .statement}
 
-Cho $X$ là một không gian compact, $Y$ là một không gian đều. Khi đó mọi tập con liên tục đều của $\mathcal{F}(X; Y)$ đều là liên tục đều đồng nhất.
+Cho $X$ là một không gian compact, $Y$ là một không gian đều. Khi đó mọi tập con liên tục đều của $\mathscr{F}(X; Y)$ đều là liên tục đều đồng nhất.
 
-Giả sử bây giờ ta có một tập hợp $T$, một không gian tôpô $X$, một không gian đều $Y$ và một ánh xạ $f : T \times X \to Y$. Ký hiệu $\tilde{f}$ là ánh xạ $x \to f(., x)$ của $X$ vào $\mathcal{F}_u(T; Y)$, và xét ánh xạ chính tắc $\theta : (t, g) \to g(t)$ của $T \times \mathcal{F}_u(T; Y)$ vào $Y$. Rõ ràng biểu đồ
+Giả sử bây giờ ta có một tập hợp $T$, một không gian tôpô $X$, một không gian đều $Y$ và một ánh xạ $f : T \times X \to Y$. Ký hiệu $\tilde{f}$ là ánh xạ $x \to f(., x)$ của $X$ vào $\mathscr{F}_u(T; Y)$, và xét ánh xạ chính tắc $\theta : (t, g) \to g(t)$ của $T \times \mathscr{F}_u(T; Y)$ vào $Y$. Rõ ràng biểu đồ
 
 $$
 \begin{array}{ccc}
 T \times X & \xrightarrow{f} & Y \\
 \downarrow_{\iota_T \times \tilde{f}} & & \uparrow \theta \\
-T \times \mathcal{F}_u(T; Y)
+T \times \mathscr{F}_u(T; Y)
 \end{array}
 $$
 
-(trong đó $i_T$ là ánh xạ đồng nhất của T) là giao hoán. Giả sử bây giờ T được trang bị một tôpô và rằng, với mỗi $x \in X$, ánh xạ $f(., x) : t \to f(t., x)$ là liên tục; khi đó ta có thể thay $\mathcal{F}_u(T; Y)$ bằng $\mathcal{C}_u(T; Y)$ trong biểu đồ trên. Nhưng ta biết rằng $\theta$ là liên tục theo § 1, no. 6, Mệnh đề 9; do đó nếu $\tilde{f}$ liên tục thì suy ra $f$ liên tục. Vì tính liên tục của $\tilde{f}$ có thể được diễn đạt nhờ Mệnh đề 1, ta thu được kết quả sau:
+(trong đó $i_T$ là ánh xạ đồng nhất của T) là giao hoán. Giả sử bây giờ T được trang bị một tôpô và rằng, với mỗi $x \in X$, ánh xạ $f(., x) : t \to f(t., x)$ là liên tục; khi đó ta có thể thay $\mathscr{F}_u(T; Y)$ bằng $\mathscr{C}_u(T; Y)$ trong biểu đồ trên. Nhưng ta biết rằng $\theta$ là liên tục theo § 1, no. 6, Mệnh đề 9; do đó nếu $\tilde{f}$ liên tục thì suy ra $f$ liên tục. Vì tính liên tục của $\tilde{f}$ có thể được diễn đạt nhờ Mệnh đề 1, ta thu được kết quả sau:
 
 #### Hệ quả 3 {#top-x-s2-prop-1-cor-3 .statement}
 
@@ -112,9 +112,9 @@ $$
 
 1) *Với mỗi $x \in X$, ánh xạ riêng phần $t \to f(t, x)$ là liên tục.*
 
-2) *Khi t chạy qua T, các ánh xạ riêng phần $x \to f(t, x)$ tạo thành một tập con đẳng liên tục của $\mathcal{F}(X; Y)$. \*
+2) *Khi t chạy qua T, các ánh xạ riêng phần $x \to f(t, x)$ tạo thành một tập con đẳng liên tục của $\mathscr{F}(X; Y)$. \*
 
-Cụ thể hơn, lấy T là một tập con H của $\mathcal{F}(X; Y)$ và lấy f là ánh xạ chính tắc $(h, x) \to h(x)$ của $H \times X$ vào Y; điều kiện 1) của Hệ quả 3 có nghĩa là H được trang bị một tôpô mịn hơn tôpô hội tụ từng điểm, và điều kiện 2) có nghĩa là H đẳng liên tục. Do đó:
+Cụ thể hơn, lấy T là một tập con H của $\mathscr{F}(X; Y)$ và lấy f là ánh xạ chính tắc $(h, x) \to h(x)$ của $H \times X$ vào Y; điều kiện 1) của Hệ quả 3 có nghĩa là H được trang bị một tôpô mịn hơn tôpô hội tụ từng điểm, và điều kiện 2) có nghĩa là H đẳng liên tục. Do đó:
 
 #### Hệ quả 4 {#top-x-s2-prop-1-cor-4 .statement}
 
@@ -124,9 +124,9 @@ Một cách trực quan hơn, điều này diễn đạt rằng nếu $h \in H$ 
 
 #### Hệ quả 5 {#top-x-s2-prop-1-cor-5 .statement}
 
-*Cho X là một không gian tôpô, cho Y, Z là hai không gian đều và cho H là một tập đẳng liên tục các ánh xạ của Y vào Z. Nếu H, $\mathcal{C}(X; Y)$ và $\mathcal{C}(X; Z)$ được trang bị tôpô hội tụ từng điểm, thì ánh xạ $(u, v) \to u \circ v$ của $H \times \mathcal{C}(X; Y)$ vào $\mathcal{C}(X; Z)$ là liên tục.*
+*Cho X là một không gian tôpô, cho Y, Z là hai không gian đều và cho H là một tập đẳng liên tục các ánh xạ của Y vào Z. Nếu H, $\mathscr{C}(X; Y)$ và $\mathscr{C}(X; Z)$ được trang bị tôpô hội tụ từng điểm, thì ánh xạ $(u, v) \to u \circ v$ của $H \times \mathscr{C}(X; Y)$ vào $\mathscr{C}(X; Z)$ là liên tục.*
 
-Ta phải chứng minh rằng, với mỗi $x \in X$, ánh xạ $(u, v) \to u(v(x))$ của $H \times \mathcal{C}(X; Y)$ vào Z là liên tục. Bây giờ $v \to v(x)$ là liên tục trên H (§ 1, no. 2, Nhận xét 6), và từ Hệ quả 4 suy ra rằng $(u, y) \to u(y)$ là một ánh xạ liên tục của $H \times Y$ vào Z; vì $(u, v) \to u(v(x))$ là hợp thành của $(u, y) \to u(y)$ và $(u, v) \to (u, v(x))$, nên kết quả được chứng minh.
+Ta phải chứng minh rằng, với mỗi $x \in X$, ánh xạ $(u, v) \to u(v(x))$ của $H \times \mathscr{C}(X; Y)$ vào Z là liên tục. Bây giờ $v \to v(x)$ là liên tục trên H (§ 1, no. 2, Nhận xét 6), và từ Hệ quả 4 suy ra rằng $(u, y) \to u(y)$ là một ánh xạ liên tục của $H \times Y$ vào Z; vì $(u, v) \to u(v(x))$ là hợp thành của $(u, y) \to u(y)$ và $(u, v) \to (u, v(x))$, nên kết quả được chứng minh.
 
 Mệnh đề sau và hệ quả của nó là các bản tương ứng của Hệ quả 3 và 4 của Mệnh đề 1 đối với các tập đẳng liên tục đều các ánh xạ:
 
@@ -134,9 +134,9 @@ Mệnh đề sau và hệ quả của nó là các bản tương ứng của H�
 
 Cho T, X, Y là các không gian đều và cho f là một ánh xạ của T × X vào Y. Khi đó f liên tục đều khi và chỉ khi hai điều kiện sau được thỏa mãn:
 
-1) Các ánh xạ x → f(t, x) (t ∈ T) tạo thành một tập con đẳng liên tục đều của $\mathcal{F}(X; Y)$.
+1) Các ánh xạ x → f(t, x) (t ∈ T) tạo thành một tập con đẳng liên tục đều của $\mathscr{F}(X; Y)$.
 
-2) Các ánh xạ t → f(t, x) (x ∈ X) tạo thành một tập con đẳng liên tục đều của $\mathcal{F}(T; Y)$.
+2) Các ánh xạ t → f(t, x) (x ∈ X) tạo thành một tập con đẳng liên tục đều của $\mathscr{F}(T; Y)$.
 
 Dễ thấy rằng các điều kiện là cần thiết. Chiều ngược lại, giả sử chúng được thỏa mãn. Cho W là một lân cận chéo của Y; khi đó tồn tại một lân cận chéo U của T và một lân cận chéo V của X sao cho:
 
@@ -152,23 +152,23 @@ $$
 
 Bây giờ rõ ràng là quan hệ "$(t', t'') \in U$ và $(x', x'') \in V$" suy ra rằng $(f(t', x'), f(t'', x'')) \in \hat{W}$, do đó có kết quả.
 
-Đặc biệt, cho T là một tập con H của $\mathcal{F}(X; Y)$, được trang bị tính đều của sự hội tụ đều, và cho f là ánh xạ chính tắc $(h, x) \to h(x)$; khi đó điều kiện 2) của Mệnh đề 2 được thỏa mãn một cách hiển nhiên vì, với mỗi bao lân cận W của Y, tập các cặp $(h', h'')$ sao cho $(h'(x), h''(x)) \in W$ với mọi $x \in X$ theo định nghĩa là một bao lân cận của cấu trúc đều của H. Do đó chỉ còn phải phát biểu điều kiện 1); nói cách khác:
+Đặc biệt, cho T là một tập con H của $\mathscr{F}(X; Y)$, được trang bị tính đều của sự hội tụ đều, và cho f là ánh xạ chính tắc $(h, x) \to h(x)$; khi đó điều kiện 2) của Mệnh đề 2 được thỏa mãn một cách hiển nhiên vì, với mỗi bao lân cận W của Y, tập các cặp $(h', h'')$ sao cho $(h'(x), h''(x)) \in W$ với mọi $x \in X$ theo định nghĩa là một bao lân cận của cấu trúc đều của H. Do đó chỉ còn phải phát biểu điều kiện 1); nói cách khác:
 
 #### Hệ quả {#top-x-s2-n1-cor-1 .statement}
 
-Cho X, Y là hai không gian đều và cho H là một tập con của $\mathcal{F}(X; Y)$. Khi đó H là đều liên tục đều khi và chỉ khi ánh xạ $(h, x) \to h(x)$ của $H \times X$ vào Y là đồng đều liên tục, với H được trang bị tính đều của sự hội tụ đều.
+Cho X, Y là hai không gian đều và cho H là một tập con của $\mathscr{F}(X; Y)$. Khi đó H là đều liên tục đều khi và chỉ khi ánh xạ $(h, x) \to h(x)$ của $H \times X$ vào Y là đồng đều liên tục, với H được trang bị tính đều của sự hội tụ đều.
 
 ### 2. CÁC TIÊU CHUẨN ĐẶC BIỆT CHO TÍNH ĐỀU LIÊN TỤC
 
-Rõ ràng rằng mọi tập con của một tập đều liên tục (resp. đều liên tục đều) đều là đều liên tục (resp. đều liên tục đều). Hơn nữa, nếu X là một không gian tôpô (resp. không gian đều) và Y là một không gian đều, thì mọi hợp hữu hạn của các tập con đều liên tục (resp. đều liên tục đều) của $\mathcal{F}(X; Y)$ đều liên tục (resp. đều liên tục đều).
+Rõ ràng rằng mọi tập con của một tập đều liên tục (resp. đều liên tục đều) đều là đều liên tục (resp. đều liên tục đều). Hơn nữa, nếu X là một không gian tôpô (resp. không gian đều) và Y là một không gian đều, thì mọi hợp hữu hạn của các tập con đều liên tục (resp. đều liên tục đều) của $\mathscr{F}(X; Y)$ đều liên tục (resp. đều liên tục đều).
 
 Cho X, X' là hai không gian tôpô (resp. không gian đều), cho Y, Y' là hai không gian đều, cho $f : X \to X'$ là một ánh xạ liên tục (resp. đồng đều liên tục) và cho $g : Y \to Y'$ là một ánh xạ đồng đều liên tục.
 
-Suy ra ngay lập tức từ các định nghĩa rằng ánh xạ $u \to g \circ u \circ f$ của $\mathcal{F}(X; Y)$ vào $\mathcal{F}(X'; Y')$ biến các tập đều liên tục (resp. đều liên tục đều) thành các tập đều liên tục (resp. đều liên tục đều).
+Suy ra ngay lập tức từ các định nghĩa rằng ánh xạ $u \to g \circ u \circ f$ của $\mathscr{F}(X; Y)$ vào $\mathscr{F}(X'; Y')$ biến các tập đều liên tục (resp. đều liên tục đều) thành các tập đều liên tục (resp. đều liên tục đều).
 
 #### Mệnh đề 3 {#top-x-s2-prop-3 .statement}
 
-*Cho $X$ là một không gian tôpô (resp. không gian đều), cho $(Y_i)_{i \in I}$ là một họ các không gian đều, cho $Y$ là một tập hợp, và với mỗi $i \in I$, cho $f_i$ là một ánh xạ từ $Y$ vào $Y_i$. Cho $Y$ được trang bị tính đều thô nhất sao cho mọi $f_i$ đều là đồng đều liên tục. Để một tập con $H$ của $\mathcal{F}(X; Y)$ là đều liên tục (resp. đều liên tục đều) thì cần và đủ rằng, với mỗi $i \in I$, ảnh của $H$ qua ánh xạ $u \to f_i \circ u$ là một tập con đều liên tục (resp. đều liên tục đều) của $\mathcal{F}(X; Y_i)$. \*
+*Cho $X$ là một không gian tôpô (resp. không gian đều), cho $(Y_i)_{i \in I}$ là một họ các không gian đều, cho $Y$ là một tập hợp, và với mỗi $i \in I$, cho $f_i$ là một ánh xạ từ $Y$ vào $Y_i$. Cho $Y$ được trang bị tính đều thô nhất sao cho mọi $f_i$ đều là đồng đều liên tục. Để một tập con $H$ của $\mathscr{F}(X; Y)$ là đều liên tục (resp. đều liên tục đều) thì cần và đủ rằng, với mỗi $i \in I$, ảnh của $H$ qua ánh xạ $u \to f_i \circ u$ là một tập con đều liên tục (resp. đều liên tục đều) của $\mathscr{F}(X; Y_i)$. \*
 
 Đây là hệ quả ngay lập tức của Định nghĩa 1 và 2 và của định nghĩa các bao lân cận của Y.
 
@@ -205,15 +205,15 @@ Xét theo định nghĩa các lân cận của các cấu trúc đều trái c�
 
 #### Mệnh đề 6 {#top-x-s2-prop-6 .statement}
 
-Cho $X$ là một không gian tôpô (resp. không gian đều), cho $Y$ là một không gian đều và cho $H$ là một tập con của $\mathcal{F}(X; Y)$. Khi đó $H$ là đồng liên tục tại một điểm $x_0 \in X$ (resp. đồng liên tục đều) khi và chỉ khi bao đóng $\overline{H}$ của $H$ trong $\mathcal{F}_s(X; Y)$ là đồng liên tục tại $x_0$ (resp. đồng liên tục đều).
+Cho $X$ là một không gian tôpô (resp. không gian đều), cho $Y$ là một không gian đều và cho $H$ là một tập con của $\mathscr{F}(X; Y)$. Khi đó $H$ là đồng liên tục tại một điểm $x_0 \in X$ (resp. đồng liên tục đều) khi và chỉ khi bao đóng $\overline{H}$ của $H$ trong $\mathscr{F}_s(X; Y)$ là đồng liên tục tại $x_0$ (resp. đồng liên tục đều).
 
-Điều kiện đó hiển nhiên là đủ. Để chứng minh rằng nó là cần thiết, xét một lân cận $V$ của $Y$ đóng trong $Y \times Y$; theo giả thiết, có một lân cận $U$ của $x_0$ trong $X$ (resp. một lân cận $M$ của $X$) sao cho quan hệ $x \in U$ (resp. $(x', x'') \in M$) suy ra $(h(x_0), h(x)) \in V$ [resp. $(h(x'), h(x'')) \in V$] với mọi $h \in H$. Vì $V$ đóng, các ánh xạ $h \in \mathcal{F}(X; Y)$ thỏa mãn quan hệ $(h(x_0), h(x)) \in V$ với mọi $x \in U$ [resp. quan hệ $(h(x'), h(x'')) \in V$ với mọi $(x', x'') \in M$] tạo thành một tập con đóng của $\mathcal{F}_s(X; Y)$ (§ 1, no. 2, Nhận xét 6); vì tập con đóng này chứa $H$, nó chứa $\overline{H}$. Do đó được kết quả, vì các lân cận đóng của $Y$ tạo thành một hệ cơ bản của các lân cận (Chương II, § 1, no. 2, Mệnh đề 2, Hệ quả 2).
+Điều kiện đó hiển nhiên là đủ. Để chứng minh rằng nó là cần thiết, xét một lân cận $V$ của $Y$ đóng trong $Y \times Y$; theo giả thiết, có một lân cận $U$ của $x_0$ trong $X$ (resp. một lân cận $M$ của $X$) sao cho quan hệ $x \in U$ (resp. $(x', x'') \in M$) suy ra $(h(x_0), h(x)) \in V$ [resp. $(h(x'), h(x'')) \in V$] với mọi $h \in H$. Vì $V$ đóng, các ánh xạ $h \in \mathscr{F}(X; Y)$ thỏa mãn quan hệ $(h(x_0), h(x)) \in V$ với mọi $x \in U$ [resp. quan hệ $(h(x'), h(x'')) \in V$ với mọi $(x', x'') \in M$] tạo thành một tập con đóng của $\mathscr{F}_s(X; Y)$ (§ 1, no. 2, Nhận xét 6); vì tập con đóng này chứa $H$, nó chứa $\overline{H}$. Do đó được kết quả, vì các lân cận đóng của $Y$ tạo thành một hệ cơ bản của các lân cận (Chương II, § 1, no. 2, Mệnh đề 2, Hệ quả 2).
 
 ### 4. HỘI TỤ ĐIỂM VÀ HỘI TỤ COMPACT TRÊN CÁC TẬP ĐỒNG LIÊN TỤ
 
 #### Định lý 1 {#top-x-s2-thm-1 .statement}
 
-Cho $X$ là một không gian tôpô (resp. không gian đều), cho $Y$ là một không gian đều và cho $H$ là một tập con đồng liên tục (resp. đồng liên tục đều) của $\mathcal{C}(X; Y)$. Khi đó các cấu trúc đều sau trên $H$ là như nhau: cấu trúc đều của hội tụ compact (resp. tiền compact), cấu trúc đều của hội tụ điểm và cấu trúc đều của hội tụ điểm trên một tập con trù mật $D$ của $X$.
+Cho $X$ là một không gian tôpô (resp. không gian đều), cho $Y$ là một không gian đều và cho $H$ là một tập con đồng liên tục (resp. đồng liên tục đều) của $\mathscr{C}(X; Y)$. Khi đó các cấu trúc đều sau trên $H$ là như nhau: cấu trúc đều của hội tụ compact (resp. tiền compact), cấu trúc đều của hội tụ điểm và cấu trúc đều của hội tụ điểm trên một tập con trù mật $D$ của $X$.
 
 Chỉ cần chứng minh rằng cấu trúc đều cuối cùng trên $H$ mịn hơn cấu trúc thứ nhất; nói cách khác, cho một lân cận $V$ của $Y$ và một tập con compact (resp. tiền compact) $A$ của $X$, tồn tại một lân cận $W$ của $Y$ và một tập con hữu hạn $F$ của $D$ sao cho quan hệ
 
@@ -229,21 +229,21 @@ $$
 
 #### Hệ quả {#top-x-s2-n4-cor-1 .statement}
 
-*Theo các giả thiết của Định lý 1, bao đóng $\overline{H}$ của $H$ trong $\mathcal{F}(X; Y)$ đối với tôpô hội tụ từng điểm cũng chính là bao đóng của $H$ trong $\mathcal{C}(X; Y)$ đối với tôpô hội tụ compact (tương ứng tiền compact).*
+*Theo các giả thiết của Định lý 1, bao đóng $\overline{H}$ của $H$ trong $\mathscr{F}(X; Y)$ đối với tôpô hội tụ từng điểm cũng chính là bao đóng của $H$ trong $\mathscr{C}(X; Y)$ đối với tôpô hội tụ compact (tương ứng tiền compact).*
 
-Vì tập $\overline{H}$ là đẳng liên tục (tương ứng đẳng liên tục đều) theo Mệnh đề 6 của no. 3, và do đó được chứa trong $\mathcal{C}(X; Y)$; kết quả suy ra ngay từ thực tế là, trên $\overline{H}$, hai tôpô đang xét là như nhau, nhờ Định lý 1.
+Vì tập $\overline{H}$ là đẳng liên tục (tương ứng đẳng liên tục đều) theo Mệnh đề 6 của no. 3, và do đó được chứa trong $\mathscr{C}(X; Y)$; kết quả suy ra ngay từ thực tế là, trên $\overline{H}$, hai tôpô đang xét là như nhau, nhờ Định lý 1.
 
 ### 5. CÁC TẬP COMPACT CỦA CÁC ÁNH XẠ LIÊN TỤC
 
 #### Định lý 2 (Ascoli) {#top-x-s2-thm-2 .statement}
 
-*Cho $X$ là một không gian tôpô (tương ứng không gian đều), cho $\mathcal{S}$ là một phủ của $X$, cho $Y$ là một không gian đều và $H$ là một tập các ánh xạ của $X$ vào $Y$ sao cho, với mỗi $A \in \mathcal{S}$ và mỗi $u \in H$, hạn chế của $u$ lên $A$ là liên tục (tương ứng liên tục đều). Khi đó, để $H$ là tiền compact đối với tính đều của hội tụ theo $\mathcal{S}$, thì trong mọi trường hợp là cần và cũng đủ nếu các tập $A \in \mathcal{S}$ là compact (tương ứng tiền compact) rằng các điều kiện sau phải được thỏa mãn:*
+*Cho $X$ là một không gian tôpô (tương ứng không gian đều), cho $\mathscr{S}$ là một phủ của $X$, cho $Y$ là một không gian đều và $H$ là một tập các ánh xạ của $X$ vào $Y$ sao cho, với mỗi $A \in \mathscr{S}$ và mỗi $u \in H$, hạn chế của $u$ lên $A$ là liên tục (tương ứng liên tục đều). Khi đó, để $H$ là tiền compact đối với tính đều của hội tụ theo $\mathscr{S}$, thì trong mọi trường hợp là cần và cũng đủ nếu các tập $A \in \mathscr{S}$ là compact (tương ứng tiền compact) rằng các điều kiện sau phải được thỏa mãn:*
 
-a) Với mỗi $A \in \mathcal{S}$, tập $H|A \subset \mathcal{F}(A; Y)$ gồm các hạn chế lên $A$ của các hàm thuộc $H$ là đẳng liên tục (tương ứng, đều đẳng liên tục).
+a) Với mỗi $A \in \mathscr{S}$, tập $H|A \subset \mathscr{F}(A; Y)$ gồm các hạn chế lên $A$ của các hàm thuộc $H$ là đẳng liên tục (tương ứng, đều đẳng liên tục).
 
 b) Với mỗi $x \in X$, tập $H(x) \subset Y$ gồm các điểm $u(x)$ ($u \in H$) là tiền compact.
 
-1) Trước hết, ta chứng minh rằng các điều kiện a) và b) là cần thiết. Ta biết (§ 1, no. 2, Nhận xét 6) rằng ánh xạ $u \to u(x)$ của $\mathcal{F}_{\mathcal{S}}(X; Y)$ vào $Y$ là liên tục đều; do đó, nếu $H$ là tiền compact thì $H(x)$ cũng vậy (Chương II, § 4, no. 2, Mệnh đề 2), điều này chứng minh b). Để chứng minh a), xét một tập $A \in \mathcal{S}$, một điểm $x_0 \in A$ và một bao lân cận $V$ của $Y$; vì $H$ là tiền compact nên nó có thể được phủ bởi hữu hạn tập $W(A, V)$-nhỏ; nói cách khác, tồn tại một dãy hữu hạn $(u_i)$ gồm các phần tử của $H$ sao cho, với mỗi $u \in H$, ta có
+1) Trước hết, ta chứng minh rằng các điều kiện a) và b) là cần thiết. Ta biết (§ 1, no. 2, Nhận xét 6) rằng ánh xạ $u \to u(x)$ của $\mathscr{F}_{\mathscr{S}}(X; Y)$ vào $Y$ là liên tục đều; do đó, nếu $H$ là tiền compact thì $H(x)$ cũng vậy (Chương II, § 4, no. 2, Mệnh đề 2), điều này chứng minh b). Để chứng minh a), xét một tập $A \in \mathscr{S}$, một điểm $x_0 \in A$ và một bao lân cận $V$ của $Y$; vì $H$ là tiền compact nên nó có thể được phủ bởi hữu hạn tập $W(A, V)$-nhỏ; nói cách khác, tồn tại một dãy hữu hạn $(u_i)$ gồm các phần tử của $H$ sao cho, với mỗi $u \in H$, ta có
 
 $$
 (u(x),\ u_i(x)) \in V \quad \text{với mọi } x \in A
@@ -265,7 +265,7 @@ $$
 
 Gọi $U$ (tương ứng, $M$) là giao của các $U_i$ (tương ứng, các $M_i$); đó là một lân cận của $x_0$ trong $A$ (tương ứng, một bao lân cận của $A$). Với mỗi $u \in H$ có một chỉ số $i$ sao cho (4) đúng; viết điều kiện (4) cho $x_0$ và cho $x$ (tương ứng, cho $x'$ và $x''$) và xét thêm (5) [tương ứng, (6)], ta thấy ngay lập tức rằng quan hệ $x \in U$ [tương ứng, $(x', x'') \in M$] suy ra $(u(x),\ u(x_0)) \in \overset{\circ}{V}$ [tương ứng, $(u(x'),\ u(x'')) \in \overset{\circ}{V}$], với mỗi $u \in H$; và điều này thiết lập a).
 
-2) Bây giờ ta chứng minh rằng các điều kiện a) và b) là đủ nếu các tập $A \in \mathcal{S}$ là compact (tương ứng, tiền compact). Điều kiện b) suy ra rằng $H$ là tiền compact đối với cấu trúc đều của hội tụ điểm (Chương II, § 4, no. 2, Mệnh đề 3). Nhưng từ điều kiện a) và Định lý 1 của no. 4 suy ra rằng trên $H|A$, cấu trúc đều của hội tụ điểm trong $A$ trùng với cấu trúc đều của hội tụ đều trong $A$; do đó $H|A$ là tiền compact trong $\mathcal{F}_u(A; Y)$, điều này suy ra rằng $H$ là tiền compact đối với cấu trúc đều của $\mathcal{S}$-hội tụ (§ 1, no. 2).
+2) Bây giờ ta chứng minh rằng các điều kiện a) và b) là đủ nếu các tập $A \in \mathscr{S}$ là compact (tương ứng, tiền compact). Điều kiện b) suy ra rằng $H$ là tiền compact đối với cấu trúc đều của hội tụ điểm (Chương II, § 4, no. 2, Mệnh đề 3). Nhưng từ điều kiện a) và Định lý 1 của no. 4 suy ra rằng trên $H|A$, cấu trúc đều của hội tụ điểm trong $A$ trùng với cấu trúc đều của hội tụ đều trong $A$; do đó $H|A$ là tiền compact trong $\mathscr{F}_u(A; Y)$, điều này suy ra rằng $H$ là tiền compact đối với cấu trúc đều của $\mathscr{S}$-hội tụ (§ 1, no. 2).
 
 Lưu ý rằng điều kiện b) của Định lý 2 tự động được thỏa mãn nếu $Y$ là một không gian tiền compact.
 
@@ -273,7 +273,7 @@ Lưu ý rằng điều kiện b) của Định lý 2 tự động được thỏ
 
 Cho $X$ là một không gian tôpô (tương ứng, không gian đều), cho $Y$ là một không gian đều Hausdorff và cho $H$ là một tập con đều liên tục (tương ứng, đều liên tục đồng đều) của $C(X; Y)$. Giả sử rằng $H(x)$ là tương đối compact trong $Y$ với mỗi $x \in X$. Khi đó $H$ là tương đối compact trong $C(X; Y)$ đối với tôpô hội tụ compact (tương ứng, tiền compact).
 
-Cho $\overline{H}$ là bao đóng của $H$ trong $\mathcal{F}_s(X; Y)$. $\overline{H}$ là đều liên tục (tương ứng, đều liên tục đồng đều) (no. 3, Mệnh đề 6). Hơn nữa, ta có $\overline{H}(x) \subset \overline{H(x)}$ (§ 1, no. 2, Nhận xét 6) và do đó $\overline{H}(x)$ cũng tương đối compact; suy ra Định lý 2 cho thấy rằng $\overline{H}$ là tiền compact đối với $\mathcal{S}$-hội tụ, trong đó $\mathcal{S}$ ký hiệu tập tất cả các tập con compact (tương ứng, tiền compact) của $X$. Hơn nữa, vì $\overline{H(x)}$ là compact, và do đó đầy đủ, nên $\overline{H}$ là đầy đủ đối với tính đều của hội tụ điểm (Chương II, § 3, no. 5, Mệnh đề 10 và no. 4, Mệnh đề 8) và do đó cũng đối với tính đều của $\mathcal{S}$-hội tụ (§ 1, no. 5, Mệnh đề 5, Hệ quả 2); vì thế $\overline{H}$ là compact, vì nó tiền compact, đầy đủ và Hausdorff (§ 1, no. 2, Mệnh đề 1).
+Cho $\overline{H}$ là bao đóng của $H$ trong $\mathscr{F}_s(X; Y)$. $\overline{H}$ là đều liên tục (tương ứng, đều liên tục đồng đều) (no. 3, Mệnh đề 6). Hơn nữa, ta có $\overline{H}(x) \subset \overline{H(x)}$ (§ 1, no. 2, Nhận xét 6) và do đó $\overline{H}(x)$ cũng tương đối compact; suy ra Định lý 2 cho thấy rằng $\overline{H}$ là tiền compact đối với $\mathscr{S}$-hội tụ, trong đó $\mathscr{S}$ ký hiệu tập tất cả các tập con compact (tương ứng, tiền compact) của $X$. Hơn nữa, vì $\overline{H(x)}$ là compact, và do đó đầy đủ, nên $\overline{H}$ là đầy đủ đối với tính đều của hội tụ điểm (Chương II, § 3, no. 5, Mệnh đề 10 và no. 4, Mệnh đề 8) và do đó cũng đối với tính đều của $\mathscr{S}$-hội tụ (§ 1, no. 5, Mệnh đề 5, Hệ quả 2); vì thế $\overline{H}$ là compact, vì nó tiền compact, đầy đủ và Hausdorff (§ 1, no. 2, Mệnh đề 1).
 
 #### Hệ quả 2 {#top-x-s2-thm-2-cor-2 .statement}
 
@@ -289,7 +289,7 @@ Xét theo Hệ quả 1, chỉ cần chứng minh rằng, nếu $H$ tương đố
 
 #### Nhận xét {#top-x-s2-n5-rem-1 .statement}
 
-Cho $X$ là một không gian tôpô, $Y$ là một không gian đều và $\mathcal{S}$ là một tập hợp các tập con của $X$. Khi đó trên mọi tập hợp con *tiền compact* $H$ của $\mathcal{F}_{\mathcal{S}}(X; Y)$, tính đều của sự hội tụ $\mathcal{S}$ trùng với tính đều của sự hội tụ từng điểm trong $B = \bigcup_{A \in \mathcal{S}} A$. Ta có thể rút gọn về trường hợp $B = X$ và $Y$ là Hausdorff và đầy đủ; vì nếu $j$ là đơn ánh chính tắc $B \to X$ và $i$ là ánh xạ chính tắc $Y \to \hat{Y}$, thì tính đều của sự hội tụ $\mathcal{S}$ trên $\mathcal{F}(X; Y)$ là ảnh ngược của tính đều của sự hội tụ $\mathcal{S}$ trên $\mathcal{F}(B; \hat{Y})$ qua ánh xạ $\theta : u \to i \circ u \circ j$ (§ 1, no. 4, Mệnh đề 4), và $H$ là tiền compact khi và chỉ khi $\theta(H)$ là như vậy (Chương II, § 4, no. 2, Mệnh đề 3). Vì thế, nếu $B = X$ và $Y$ là Hausdorff và đầy đủ, $\mathcal{F}_{\mathcal{S}}(X; Y)$ là Hausdorff và đầy đủ (§ 1, no. 2, Mệnh đề 1 và no. 5, Định lý 1); do đó bao đóng $\overline{H}$ của $H$ trong không gian này là *compact*. Trên $\overline{H}$, tôpô hội tụ từng điểm là Hausdorff (§ 1, no. 2, Mệnh đề 1) và thô hơn tôpô của sự hội tụ $\mathcal{S}$; do đó hai tôpô này trùng nhau (Chương I, § 9, no. 4, Định lý 2, Hệ quả 3) và do đó các tính đều của sự hội tụ $\mathcal{S}$ và sự hội tụ từng điểm cũng trùng nhau (Chương II, § 4, no. 1, Định lý 1).
+Cho $X$ là một không gian tôpô, $Y$ là một không gian đều và $\mathscr{S}$ là một tập hợp các tập con của $X$. Khi đó trên mọi tập hợp con *tiền compact* $H$ của $\mathscr{F}_{\mathscr{S}}(X; Y)$, tính đều của sự hội tụ $\mathscr{S}$ trùng với tính đều của sự hội tụ từng điểm trong $B = \bigcup_{A \in \mathscr{S}} A$. Ta có thể rút gọn về trường hợp $B = X$ và $Y$ là Hausdorff và đầy đủ; vì nếu $j$ là đơn ánh chính tắc $B \to X$ và $i$ là ánh xạ chính tắc $Y \to \hat{Y}$, thì tính đều của sự hội tụ $\mathscr{S}$ trên $\mathscr{F}(X; Y)$ là ảnh ngược của tính đều của sự hội tụ $\mathscr{S}$ trên $\mathscr{F}(B; \hat{Y})$ qua ánh xạ $\theta : u \to i \circ u \circ j$ (§ 1, no. 4, Mệnh đề 4), và $H$ là tiền compact khi và chỉ khi $\theta(H)$ là như vậy (Chương II, § 4, no. 2, Mệnh đề 3). Vì thế, nếu $B = X$ và $Y$ là Hausdorff và đầy đủ, $\mathscr{F}_{\mathscr{S}}(X; Y)$ là Hausdorff và đầy đủ (§ 1, no. 2, Mệnh đề 1 và no. 5, Định lý 1); do đó bao đóng $\overline{H}$ của $H$ trong không gian này là *compact*. Trên $\overline{H}$, tôpô hội tụ từng điểm là Hausdorff (§ 1, no. 2, Mệnh đề 1) và thô hơn tôpô của sự hội tụ $\mathscr{S}$; do đó hai tôpô này trùng nhau (Chương I, § 9, no. 4, Định lý 2, Hệ quả 3) và do đó các tính đều của sự hội tụ $\mathscr{S}$ và sự hội tụ từng điểm cũng trùng nhau (Chương II, § 4, no. 1, Định lý 1).
 
 ### Bài tập {#top-x-s2-exercises}
 

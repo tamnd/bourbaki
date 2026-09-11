@@ -53,7 +53,7 @@ subsections:
       pdf_page: 192
 statements: 61
 exercises: 22
-content_sha256: 40c1604d7c2b11988ff1aec3e8859fb7bb9f1bdf6357bf484c3494bbfd9d4487
+content_sha256: eecf4c585e7f64669e1379526aa2e798c4e5ad2d4452bf9988e19fb9fbbfdf00
 ---
 
 ## § 6. ESPACES POLONAIS ; ESPACES SOUSLINIENS ; ENSEMBLES BORÉLIENS
@@ -178,13 +178,13 @@ Pour que $\Sigma$ soit une tribu, il faut et il suffit que la condition *a)* soi
 
 *b')* toute réunion dénombrable d’ensembles de $\Sigma$ appartient à $\Sigma$.
 
-L’ensemble $\mathcal{P}(A)$ de toutes les parties de $A$ est évidemment une tribu. Toute intersection de tribus sur $A$ est une tribu sur $A$. Pour toute partie $\mathcal{F}$ de $\mathcal{P}(A)$, il existe donc une *plus petite tribu* contenant $\mathcal{F}$; on l’appelle la tribu *engendrée* par $\mathcal{F}$.
+L’ensemble $\mathscr{P}(A)$ de toutes les parties de $A$ est évidemment une tribu. Toute intersection de tribus sur $A$ est une tribu sur $A$. Pour toute partie $\mathscr{F}$ de $\mathscr{P}(A)$, il existe donc une *plus petite tribu* contenant $\mathscr{F}$; on l’appelle la tribu *engendrée* par $\mathscr{F}$.
 
 #### Définition 4 {#top-ix-s6-def-4 .statement}
 
 *On appelle tribu borélienne sur un espace topologique $X$ la tribu engendrée par l’ensemble des parties ouvertes de $X$; les ensembles de cette tribu sont appelés ensembles boréliens de $X$.*
 
-Les parties fermées de $X$ sont donc des ensembles boréliens, engendrant la tribu borélienne. Si la topologie de $X$ admet une *base dénombrable* $\mathcal{B}$, les ensembles de $\mathcal{B}$ engendrant la tribu borélienne.
+Les parties fermées de $X$ sont donc des ensembles boréliens, engendrant la tribu borélienne. Si la topologie de $X$ admet une *base dénombrable* $\mathscr{B}$, les ensembles de $\mathscr{B}$ engendrant la tribu borélienne.
 
 #### Définition 5 {#top-ix-s6-def-5 .statement}
 
@@ -194,15 +194,15 @@ Il résulte aussitôt de cette définition que si $f : X \to Y$ et $g : Y \to Z$
 
 #### Proposition 9 {#top-ix-s6-prop-9 .statement}
 
-Soient $X, Y$ deux espaces topologiques, $\mathcal{F}$ une partie de $\mathfrak{P}(Y)$ engendrant la tribu borélienne de $Y$. Pour qu’une application $f : X \to Y$ soit borélienne, il faut et il suffit que $f^{-1}(\mathcal{F})$ soit contenu dans la tribu borélienne de $X$.
+Soient $X, Y$ deux espaces topologiques, $\mathscr{F}$ une partie de $\mathfrak{P}(Y)$ engendrant la tribu borélienne de $Y$. Pour qu’une application $f : X \to Y$ soit borélienne, il faut et il suffit que $f^{-1}(\mathscr{F})$ soit contenu dans la tribu borélienne de $X$.
 
-La condition est évidemment nécessaire. Inversement, si elle est vérifiée, considérons l’ensemble $\mathcal{L}$ des parties $B$ de $Y$ telles que $f^{-1}(B)$ soit borélien dans $X$. Il est immédiat que $\mathcal{L}$ est une tribu et contient $\mathcal{F}$; elle contient donc la tribu borélienne de $Y$, et par suite $f$ est borélienne.
+La condition est évidemment nécessaire. Inversement, si elle est vérifiée, considérons l’ensemble $\mathscr{L}$ des parties $B$ de $Y$ telles que $f^{-1}(B)$ soit borélien dans $X$. Il est immédiat que $\mathscr{L}$ est une tribu et contient $\mathscr{F}$; elle contient donc la tribu borélienne de $Y$, et par suite $f$ est borélienne.
 
 #### Corollaire 1 {#top-ix-s6-prop-9-cor-1 .statement}
 
 Toute application continue est borélienne.
 
-Il suffit d’appliquer la prop. 9 au cas où $\mathcal{F}$ est l’ensemble des parties ouvertes de $Y$.
+Il suffit d’appliquer la prop. 9 au cas où $\mathscr{F}$ est l’ensemble des parties ouvertes de $Y$.
 
 #### Corollaire 2 {#top-ix-s6-prop-9-cor-2 .statement}
 
@@ -212,13 +212,13 @@ En effet, on a $\prod_n A_n = \bigcap_n \overline{\mathrm{pr}}_n^{-1}(A_n)$ et c
 
 #### Remarque {#top-ix-s6-n3-rem-1 .statement}
 
-Soint $Y$ un espace topologique, $X$ un sous-espace de $Y$; alors la tribu borélienne de $X$ est l’ensemble des parties de la forme $B \cap X$, où $B$ parcourt la tribu borélienne de $Y$. En effet, ces ensembles forment une tribu $\mathcal{L}$, à laquelle appartiennent les ouverts de $X$, donc $\mathcal{L}$ contient la tribu borélienne de $X$. Inversement, comme l’injection canonique $j : X \to Y$ est continue, pour tout ensemble borélien $B$ de $Y$, $j^{-1}(B) = B \cap X$ est un ensemble borélien dans $X$ (cor. 1 de la prop. 9), donc $\mathcal{L}$ est la tribu borélienne de $X$.
+Soint $Y$ un espace topologique, $X$ un sous-espace de $Y$; alors la tribu borélienne de $X$ est l’ensemble des parties de la forme $B \cap X$, où $B$ parcourt la tribu borélienne de $Y$. En effet, ces ensembles forment une tribu $\mathscr{L}$, à laquelle appartiennent les ouverts de $X$, donc $\mathscr{L}$ contient la tribu borélienne de $X$. Inversement, comme l’injection canonique $j : X \to Y$ est continue, pour tout ensemble borélien $B$ de $Y$, $j^{-1}(B) = B \cap X$ est un ensemble borélien dans $X$ (cor. 1 de la prop. 9), donc $\mathscr{L}$ est la tribu borélienne de $X$.
 
 #### Proposition 10 {#top-ix-s6-prop-10 .statement}
 
 Dans un espace souslinien $X$, tout ensemble borélien est souslinien.
 
-En effet, soit $\mathcal{L}$ l’ensemble des parties $A$ de $X$ telles que $A$ et $\complement A$ soient sousliniens; la prop. 8 (IX, p. 60) montre que $\mathcal{L}$ est une tribu. Toute partie fermée $F$ de $X$ appartient à $\mathcal{L}$, car $F$ et $\complement F$ sont sousliniens (IX, p. 59, prop. 5); donc $\mathcal{L}$ contient tous les ensembles boréliens de $X$ (cf. IX, p. 66, corollaire 1).
+En effet, soit $\mathscr{L}$ l’ensemble des parties $A$ de $X$ telles que $A$ et $\complement A$ soient sousliniens; la prop. 8 (IX, p. 60) montre que $\mathscr{L}$ est une tribu. Toute partie fermée $F$ de $X$ appartient à $\mathscr{L}$, car $F$ et $\complement F$ sont sousliniens (IX, p. 59, prop. 5); donc $\mathscr{L}$ contient tous les ensembles boréliens de $X$ (cf. IX, p. 66, corollaire 1).
 
 #### Corollaire {#top-ix-s6-n3-cor-1 .statement}
 
@@ -274,7 +274,7 @@ Soit enfin $P$ un espace polonais quelconque; d’après le cor. 1 de IX, p. 58,
 
 En effet, une limite projective dénombrable d’espaces séparés est un sous-espace fermé du produit (dénombrable) de ces espaces; le corollaire résulte donc de ce qui a été prouvé au cours de la démonstration de la prop. 11.
 
-*On peut montrer que les espaces de distributions $\mathcal{D}'(\Omega)$, $\mathcal{E}'(\Omega)$, etc. sur un ouvert $\Omega$ de $\mathbf{R}^n$, munis de la topologie forte, sont des espaces lusiniens.*
+*On peut montrer que les espaces de distributions $\mathscr{D}'(\Omega)$, $\mathscr{E}'(\Omega)$, etc. sur un ouvert $\Omega$ de $\mathbf{R}^n$, munis de la topologie forte, sont des espaces lusiniens.*
 
 ### 5. Cribles
 
@@ -413,7 +413,7 @@ Le sous-espace A de X est lusinien (IX, p. 66, lemme 6); d’autre part, l’inj
 
 Soient G et H deux groupes topologiques séparés et u un homomorphisme de groupes de G dans H. On suppose que G est un espace de Baire et que le graphe $\Gamma$ de u est un sous-espace souslinien de $G \times H$. Alors u est continu.
 
-Nous démontrerons d’abord deux lemmes. Disons qu’une partie X d’un espace topologique E est approchable s’il existe un ouvert U de E tel $U \cap \mathcal{C}X$ et $X \cap \mathcal{C}U$ soient maigres dans E (cf. IX, p. 112, exerc. 6).
+Nous démontrerons d’abord deux lemmes. Disons qu’une partie X d’un espace topologique E est approchable s’il existe un ouvert U de E tel $U \cap \mathscr{C}X$ et $X \cap \mathscr{C}U$ soient maigres dans E (cf. IX, p. 112, exerc. 6).
 
 #### Lemme 8 {#top-ix-s6-lem-8 .statement}
 
@@ -421,13 +421,13 @@ Toute partie borélienne d’un espace topologique E est approchable.
 
 Il suffit de montrer que l’ensemble $\mathfrak{E}$ des parties approchables de E est une tribu. Si $(X_n)$ et $(Y_n)$ sont deux suites de parties de E, on a
 $$
-(\bigcup X_n) \cap \mathcal{C} (\bigcup Y_n) \subset \bigcup (X_n \cap \mathcal{C} Y_n)
+(\bigcup X_n) \cap \mathscr{C} (\bigcup Y_n) \subset \bigcup (X_n \cap \mathscr{C} Y_n)
 $$
-ce qui entraîne aussitôt que toute réunion dénombrable d’ensembles de $\mathfrak{E}$ appartient à $\mathfrak{E}$. Soit d’autre part $X \in \mathfrak{E}$ et soit U un ouvert tel que $X \cap \mathcal{C}U$ et $U \cap \mathcal{C}X$ soient maigres. Soit V l’intérieur de $\mathcal{C}U$; alors $\mathcal{C}U \cap \mathcal{C}V$ est fermé d’intérieur vide, donc maigre. De plus. $V \cap X \subset \mathcal{C}U \cap X$ et
+ce qui entraîne aussitôt que toute réunion dénombrable d’ensembles de $\mathfrak{E}$ appartient à $\mathfrak{E}$. Soit d’autre part $X \in \mathfrak{E}$ et soit U un ouvert tel que $X \cap \mathscr{C}U$ et $U \cap \mathscr{C}X$ soient maigres. Soit V l’intérieur de $\mathscr{C}U$; alors $\mathscr{C}U \cap \mathscr{C}V$ est fermé d’intérieur vide, donc maigre. De plus. $V \cap X \subset \mathscr{C}U \cap X$ et
 $$
-\mathcal{C}X \cap \mathcal{C}V \subset (\mathcal{C}X \cap U) \cup (\mathcal{C}U \cap \mathcal{C}V)
+\mathscr{C}X \cap \mathscr{C}V \subset (\mathscr{C}X \cap U) \cup (\mathscr{C}U \cap \mathscr{C}V)
 $$
-sont maigres. Par suite, $\mathcal{C}X \in \mathfrak{E}$ et $\mathfrak{E}$ est bien une tribu.
+sont maigres. Par suite, $\mathscr{C}X \in \mathfrak{E}$ et $\mathfrak{E}$ est bien une tribu.
 
 #### Remarque {#top-ix-s6-n8-rem-1 .statement}
 
@@ -437,7 +437,7 @@ On peut montrer que toute partie souslinienne d’un espace séparé E est appro
 
 Soit G un groupe topologique et soit B une partie borélienne non maigre de G. Si G est un espace de Baire, $BB^{-1}$ est un voisinage de e.
 
-Soit U un ouvert de G tel que $U \cap \mathcal{C}B$ et $B \cap \mathcal{C}U$ soient maigres (lemme 8). Alors U n’est pas maigre, donc est non vide. Par suite, il suffit de montrer que
+Soit U un ouvert de G tel que $U \cap \mathscr{C}B$ et $B \cap \mathscr{C}U$ soient maigres (lemme 8). Alors U n’est pas maigre, donc est non vide. Par suite, il suffit de montrer que
 
 UU^{-1} \subset BB^{-1}. Soit x \in UU^{-1}; l’ouvert U \cap xU n’est pas vide, donc est non maigre puisque G est un espace de Baire. Posons:
 
@@ -583,7 +583,7 @@ f(K) = \inf_n f(\overline{p(P \cap T_n)}) \geq a,
 $$
 ce qu’il fallait démontrer.
 
-Plaçons-nous maintenant dans l’hypothèse (ii); soit $(L_m)$ une suite croissante d’ensembles compacts telle que $Y \subset \bigcup_m L_m$, et posons $Y_m = Y \cap L_m$. Soit $a < f(Y)$; d’après $(CA_{II})$, on a $f(Y_m) > a$ dès que $m$ est assez grand. L’entier $m$ étant fixé de cette façon, on définit sur l’espace compact $L_m$ une capacité $g$ en posant $g(A) = f(A)$ pour $A \in \mathcal{P}(L_m)$; les axiomes $(CA_I)$ et $(CA_{II})$ sont en effet trivialement vérifiés. En outre, cette capacité vérifie cette fois l’hypothèse (i), en raison de l’hypothèse (ii) sur $f$; il existe par suite un ensemble compact $K \subset Y_m$ tel que $g(K) = f(K) \geq a$, ce qui achève de démontrer la proposition.
+Plaçons-nous maintenant dans l’hypothèse (ii); soit $(L_m)$ une suite croissante d’ensembles compacts telle que $Y \subset \bigcup_m L_m$, et posons $Y_m = Y \cap L_m$. Soit $a < f(Y)$; d’après $(CA_{II})$, on a $f(Y_m) > a$ dès que $m$ est assez grand. L’entier $m$ étant fixé de cette façon, on définit sur l’espace compact $L_m$ une capacité $g$ en posant $g(A) = f(A)$ pour $A \in \mathscr{P}(L_m)$; les axiomes $(CA_I)$ et $(CA_{II})$ sont en effet trivialement vérifiés. En outre, cette capacité vérifie cette fois l’hypothèse (i), en raison de l’hypothèse (ii) sur $f$; il existe par suite un ensemble compact $K \subset Y_m$ tel que $g(K) = f(K) \geq a$, ce qui achève de démontrer la proposition.
 
 ## EXERCICES {#top-ix-s6-exercises}
 

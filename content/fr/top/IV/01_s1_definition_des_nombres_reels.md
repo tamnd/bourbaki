@@ -36,7 +36,7 @@ subsections:
       pdf_page: 276
 statements: 10
 exercises: 4
-content_sha256: fd5df639616d82158cf8dca2be2e0311092966782b7f22cb8d09501aa2eff54e
+content_sha256: 4968f9d1326325d20e2b740e18fd90666cfb70d17bab80c9449bab6c775434e7
 ---
 
 ## § 1. DÉFINITION DES NOMBRES RÉELS
@@ -105,7 +105,7 @@ Nous allons, à l’aide de cette relation d’ordre, définir sur $\mathbf{Q}$ 
 
 ### 2. La droite rationnelle
 
-Considérons l’ensemble $\mathcal{F}$ des intervalles ouverts symétriques $]-a, +a[$, où $a$ parcourt l’ensemble des nombres rationnels $> 0$; nous allons montrer que $\mathcal{F}$ est un système fondamental de voisinages de $0$ dans une topologie compatible avec la structure de groupe additif de $\mathbf{Q}$.
+Considérons l’ensemble $\mathscr{F}$ des intervalles ouverts symétriques $]-a, +a[$, où $a$ parcourt l’ensemble des nombres rationnels $> 0$; nous allons montrer que $\mathscr{F}$ est un système fondamental de voisinages de $0$ dans une topologie compatible avec la structure de groupe additif de $\mathbf{Q}$.
 
 Le groupe $\mathbf{Q}$ est commutatif, et l’axiome (GV$_{\mathrm{II}}'$) (III, p. 4) est évidemment vérifié; il suffit donc de voir que (GV$_{\mathrm{I}}'$) (III, p. 4) l’est aussi, autrement dit que, pour tout $a > 0$, il existe $b > 0$ tel que les conditions $|x| < b, |y| < b$ entraînent $|x + y| < a$; or, d’après l’inégalité du triangle, il suffit de prendre $b = a/2$.
 

@@ -36,7 +36,7 @@ subsections:
       pdf_page: 152
 statements: 15
 exercises: 22
-content_sha256: 86c70cd2d698f2e681d2001f6b117c6c5301444124bdbbc5db0482a25f3fa5bb
+content_sha256: f7bcd7cf35ef8035f047c3dfdeb0df6108a5e4ce974ffd28e59558f57cc56d82
 translated_from: content/en/top/IX/01_s1_generation_of_a_uniformity_by_a_family.md
 source_content_sha256: d46241dcc6e0b3fdc75ac577e2626154c33e198b02447a07198d181994f0f47a
 translation_model: gpt-5.4, gpt-5-6, gpt-5-6-mini
@@ -128,7 +128,7 @@ Nếu $(f_i)_{i \in I}$ là một họ các giả mêtric trên một tập hợ
 
 Hai họ các giả mêtric trên $X$ được gọi là tương đương nếu chúng xác định cùng một cấu trúc đều trên $X$.
 
-Từ định nghĩa về cận trên nhỏ nhất của một tập hợp các cấu trúc đều (Chương II, § 2, no. 5), bộ lọc của các lân cận đều của cấu trúc đều $U$ được xác định trên $X$ bởi một họ các giả mêtric $(f_i)_{i \in I}$ là bộ lọc *sinh* (Chương I, § 6, no. 2) bởi họ các tập hợp $f_i^{-1}([0, a])$, trong đó $i$ chạy qua $I$ và $a$ chạy qua tập hợp các số thực $> 0$. Nói cách khác, ta thu được một hệ cơ bản các lân cận đều của $\mathcal{U}$ bằng cách tiến hành như sau: ta lấy tùy ý một số hữu hạn các chỉ số $i_1, i_2, \ldots, i_n$ và, tương ứng với mỗi $i_k$, một số $a_k > 0$; sau đó ta xét tập hợp $V$ gồm các cặp $(x, y) \in X \times X$ sao cho $f_{i_k}(x, y) \leq a_k$ với $1 \leq k \leq n$; các tập hợp $V$ này (với mọi lựa chọn có thể của $n$, các $i_k$ và các $a_k$) tạo thành một hệ cơ bản các lân cận đều của $\mathcal{U}$. Hơn nữa, ta có thể hạn chế về trường hợp trong đó tất cả các $a_k$ đều bằng *cùng một* số $a > 0$, vì lân cận đều gồm tất cả các cặp $(x, y)$ sao cho
+Từ định nghĩa về cận trên nhỏ nhất của một tập hợp các cấu trúc đều (Chương II, § 2, no. 5), bộ lọc của các lân cận đều của cấu trúc đều $U$ được xác định trên $X$ bởi một họ các giả mêtric $(f_i)_{i \in I}$ là bộ lọc *sinh* (Chương I, § 6, no. 2) bởi họ các tập hợp $f_i^{-1}([0, a])$, trong đó $i$ chạy qua $I$ và $a$ chạy qua tập hợp các số thực $> 0$. Nói cách khác, ta thu được một hệ cơ bản các lân cận đều của $\mathscr{U}$ bằng cách tiến hành như sau: ta lấy tùy ý một số hữu hạn các chỉ số $i_1, i_2, \ldots, i_n$ và, tương ứng với mỗi $i_k$, một số $a_k > 0$; sau đó ta xét tập hợp $V$ gồm các cặp $(x, y) \in X \times X$ sao cho $f_{i_k}(x, y) \leq a_k$ với $1 \leq k \leq n$; các tập hợp $V$ này (với mọi lựa chọn có thể của $n$, các $i_k$ và các $a_k$) tạo thành một hệ cơ bản các lân cận đều của $\mathscr{U}$. Hơn nữa, ta có thể hạn chế về trường hợp trong đó tất cả các $a_k$ đều bằng *cùng một* số $a > 0$, vì lân cận đều gồm tất cả các cặp $(x, y)$ sao cho
 
 $$
 \sup_{1 \leq k \leq n} (f_{i_k}(x, y)) \leq \inf_{1 \leq k \leq n} a_k
@@ -136,13 +136,13 @@ $$
 
 hiển nhiên được chứa trong $V$.
 
-Đối với mỗi tập con hữu hạn $H$ của $I$, ký hiệu $g_H$ là bao trên của họ $(f_i)_{i \in H}$. Khi $H$ chạy qua tập hợp tất cả các tập con hữu hạn của $I$ và $a$ chạy qua tập hợp các số thực $> 0$, các tập $g_H^{-1}([0, a])$ tạo thành một *hệ cơ bản các lân cận* của đều đặn $\mathcal{U}$. Khi đó các $g_H$ là các *giả metric* trên $X$ (no. 1), và bao trên của một số hữu hạn các hàm thuộc họ $(g_H)$ thuộc về họ này, theo định nghĩa; ta biểu thị tính chất này bằng cách nói rằng họ các giả metric $(g_H)$ là *bão hòa*. Do đó họ các giả metric $(g_H)$ *tương đương* với họ $(f_i)$, và được gọi là họ các giả metric thu được bằng cách *bão hòa* $(f_i)$. Từ những điều vừa nói suy ra rằng ta luôn có thể hạn chế việc xét các đều đặn được xác định bởi các họ giả metric *bão hòa*.
+Đối với mỗi tập con hữu hạn $H$ của $I$, ký hiệu $g_H$ là bao trên của họ $(f_i)_{i \in H}$. Khi $H$ chạy qua tập hợp tất cả các tập con hữu hạn của $I$ và $a$ chạy qua tập hợp các số thực $> 0$, các tập $g_H^{-1}([0, a])$ tạo thành một *hệ cơ bản các lân cận* của đều đặn $\mathscr{U}$. Khi đó các $g_H$ là các *giả metric* trên $X$ (no. 1), và bao trên của một số hữu hạn các hàm thuộc họ $(g_H)$ thuộc về họ này, theo định nghĩa; ta biểu thị tính chất này bằng cách nói rằng họ các giả metric $(g_H)$ là *bão hòa*. Do đó họ các giả metric $(g_H)$ *tương đương* với họ $(f_i)$, và được gọi là họ các giả metric thu được bằng cách *bão hòa* $(f_i)$. Từ những điều vừa nói suy ra rằng ta luôn có thể hạn chế việc xét các đều đặn được xác định bởi các họ giả metric *bão hòa*.
 
 Trong trường hợp riêng khi $I$ là một tập *hữu hạn*, lập luận này cho thấy đều đặn được xác định bởi họ các giả metric $(f_i)_{i \in I}$ cũng được xác định bởi *một* giả metric $g = \sup_{i \in I} f_i$ duy nhất.
 
-Cho $\mathcal{U}, \mathcal{U}'$ là hai đều đặn trên $X$, lần lượt được xác định bởi hai họ *bão hòa* $(f_i)_{i \in I}, (g_x)_{x \in K}$. Khi đó $\mathcal{U}$ *thô hơn* $\mathcal{U}'$ khi và chỉ khi, với mỗi chỉ số $i \in I$ và mỗi số thực $a > 0$, tồn tại một chỉ số $x \in K$ và một số $b > 0$ sao cho quan hệ $g_x(x, y) \leq b$ kéo theo $f_i(x, y) \leq a$.
+Cho $\mathscr{U}, \mathscr{U}'$ là hai đều đặn trên $X$, lần lượt được xác định bởi hai họ *bão hòa* $(f_i)_{i \in I}, (g_x)_{x \in K}$. Khi đó $\mathscr{U}$ *thô hơn* $\mathscr{U}'$ khi và chỉ khi, với mỗi chỉ số $i \in I$ và mỗi số thực $a > 0$, tồn tại một chỉ số $x \in K$ và một số $b > 0$ sao cho quan hệ $g_x(x, y) \leq b$ kéo theo $f_i(x, y) \leq a$.
 
-*Ví dụ về một đều đặn được xác định bởi một họ các giả metric.* Cho $(f_i)_{i \in I}$ là một họ tùy ý các *(hữu hạn) hàm nhận giá trị thực* xác định trên một tập hợp $X$. Gọi $\mathcal{U}$ là đều đặn nhỏ nhất trên $X$ sao cho các $f_i$ liên tục đều (Chương II, § 2, no. 3). Khi đó từ định nghĩa các lân cận của $\mathcal{U}$ (*loc. cit.*) suy ra rằng $\mathcal{U}$ là đều đặn được xác định trên $X$ bởi các giả metric
+*Ví dụ về một đều đặn được xác định bởi một họ các giả metric.* Cho $(f_i)_{i \in I}$ là một họ tùy ý các *(hữu hạn) hàm nhận giá trị thực* xác định trên một tập hợp $X$. Gọi $\mathscr{U}$ là đều đặn nhỏ nhất trên $X$ sao cho các $f_i$ liên tục đều (Chương II, § 2, no. 3). Khi đó từ định nghĩa các lân cận của $\mathscr{U}$ (*loc. cit.*) suy ra rằng $\mathscr{U}$ là đều đặn được xác định trên $X$ bởi các giả metric
 
 $$
 g_i(x, y) = |f_i(x) - f_i(y)|.
@@ -150,7 +150,7 @@ $$
 
 ### 3. CÁC TÍNH CHẤT CỦA CÁC ĐỀU ĐẶN ĐƯỢC XÁC ĐỊNH BỞI CÁC HỌ GIẢ METRIC
 
-Cho $\mathcal{U}$ là một đều đặn được xác định trên một tập hợp $X$ bởi một họ các giả metric hữu hạn $(f_i)$. Nếu ta trang bị $X \times X$ đều đặn là tích của $\mathcal{U}$ với chính nó, thì mỗi hàm nhận giá trị thực $f_i$ đều *liên tục đều* trên $X \times X$; vì theo (1) ta có
+Cho $\mathscr{U}$ là một đều đặn được xác định trên một tập hợp $X$ bởi một họ các giả metric hữu hạn $(f_i)$. Nếu ta trang bị $X \times X$ đều đặn là tích của $\mathscr{U}$ với chính nó, thì mỗi hàm nhận giá trị thực $f_i$ đều *liên tục đều* trên $X \times X$; vì theo (1) ta có
 
 $$
 |f_i(x, y) - f_i(x', y')| \leq f_i(x, x') + f_i(y, y'),
@@ -162,19 +162,19 @@ $$
 |f_i(x, y) - f_i(x', y')| \leq \varepsilon.
 $$
 
-Để $\mathcal{U}$ là *Hausdorff* thì, theo định nghĩa các lân cận của $\mathcal{U}$, điều kiện cần và đủ là với mỗi cặp điểm *phân biệt* $x, y$ của $X$ tồn tại một chỉ số $i$ sao cho $f_i(x, y) \neq 0$.
+Để $\mathscr{U}$ là *Hausdorff* thì, theo định nghĩa các lân cận của $\mathscr{U}$, điều kiện cần và đủ là với mỗi cặp điểm *phân biệt* $x, y$ của $X$ tồn tại một chỉ số $i$ sao cho $f_i(x, y) \neq 0$.
 
-Đặc biệt, nếu $\mathcal{U}$ được định nghĩa bởi một giả khoảng cách *duy nhất* $f$, thì $\mathcal{U}$ là Hausdorff khi và chỉ khi quan hệ $f(x, y) = 0$ kéo theo $x = y$ (x. § 2). Nếu $\mathcal{U}$ không là Hausdorff, thì giao của tất cả các lân cận của đường chéo của $\mathcal{U}$ là tập con của $X \times X$ gồm các cặp $(x, y)$ sao cho $f_i(x, y) = 0$ với mọi $i$; tập con này là đồ thị của một quan hệ tương đương $R$ trên $X$, và cấu trúc đều Hausdorff liên kết với $\mathcal{U}$ được định nghĩa trên $X/R$ (x. Chương II, § 3, no. 8). Khi đó dễ dàng kiểm tra rằng các hàm $f_i$ là tương thích (theo $x$ và theo $y$) với quan hệ $R$ (*Set Theory*, R, § 5, no. 7) và các hàm $\overline{f_i}$, thu được từ $f_i$ bằng cách chuyển qua thương (đối với $x$ và $y$), là các giả khoảng cách trên $X/R$ và xác định cấu trúc đều Hausdorff liên kết với $\mathcal{U}$ (x. § 2, no. 1).
+Đặc biệt, nếu $\mathscr{U}$ được định nghĩa bởi một giả khoảng cách *duy nhất* $f$, thì $\mathscr{U}$ là Hausdorff khi và chỉ khi quan hệ $f(x, y) = 0$ kéo theo $x = y$ (x. § 2). Nếu $\mathscr{U}$ không là Hausdorff, thì giao của tất cả các lân cận của đường chéo của $\mathscr{U}$ là tập con của $X \times X$ gồm các cặp $(x, y)$ sao cho $f_i(x, y) = 0$ với mọi $i$; tập con này là đồ thị của một quan hệ tương đương $R$ trên $X$, và cấu trúc đều Hausdorff liên kết với $\mathscr{U}$ được định nghĩa trên $X/R$ (x. Chương II, § 3, no. 8). Khi đó dễ dàng kiểm tra rằng các hàm $f_i$ là tương thích (theo $x$ và theo $y$) với quan hệ $R$ (*Set Theory*, R, § 5, no. 7) và các hàm $\overline{f_i}$, thu được từ $f_i$ bằng cách chuyển qua thương (đối với $x$ và $y$), là các giả khoảng cách trên $X/R$ và xác định cấu trúc đều Hausdorff liên kết với $\mathscr{U}$ (x. § 2, no. 1).
 
-Nếu $A$ là một tập con không rỗng của $X$, thì hạn chế trên $A \times A$ của một giả khoảng cách trên $X$ rõ ràng là một giả khoảng cách trên $A$. Cấu trúc đều được *cảm sinh* bởi $\mathcal{U}$ trên $A$ rõ ràng là cấu trúc đều được định nghĩa bởi họ các hạn chế trên $A \times A$ của các giả khoảng cách $f_i$.
+Nếu $A$ là một tập con không rỗng của $X$, thì hạn chế trên $A \times A$ của một giả khoảng cách trên $X$ rõ ràng là một giả khoảng cách trên $A$. Cấu trúc đều được *cảm sinh* bởi $\mathscr{U}$ trên $A$ rõ ràng là cấu trúc đều được định nghĩa bởi họ các hạn chế trên $A \times A$ của các giả khoảng cách $f_i$.
 
-Bây giờ ta hãy xét *phần bù chỉnh* của không gian đều $X$ khi $\mathcal{U}$ là Hausdorff.
+Bây giờ ta hãy xét *phần bù chỉnh* của không gian đều $X$ khi $\mathscr{U}$ là Hausdorff.
 
 #### Mệnh đề 1 {#top-ix-s1-prop-1 .statement}
 
-*Cho $X$ là một không gian đều Hausdorff mà cấu trúc đều $\mathcal{U}$ của nó được định nghĩa bởi một họ các giả khoảng cách hữu hạn* $(f_i)$, *và gọi* $\hat{X}$ *là phần bù chỉnh* của $X$. Khi đó các hàm $f_i$ có thể được mở rộng liên tục lên $\hat{X} \times \hat{X}$; các hàm mở rộng $\bar{f}_i$ là các giả khoảng cách hữu hạn trên $\hat{X} \times \hat{X}$, và họ $(f_i)$ xác định cấu trúc đều của $\hat{X}$.
+*Cho $X$ là một không gian đều Hausdorff mà cấu trúc đều $\mathscr{U}$ của nó được định nghĩa bởi một họ các giả khoảng cách hữu hạn* $(f_i)$, *và gọi* $\hat{X}$ *là phần bù chỉnh* của $X$. Khi đó các hàm $f_i$ có thể được mở rộng liên tục lên $\hat{X} \times \hat{X}$; các hàm mở rộng $\bar{f}_i$ là các giả khoảng cách hữu hạn trên $\hat{X} \times \hat{X}$, và họ $(f_i)$ xác định cấu trúc đều của $\hat{X}$.
 
-Trước hết, các $f_i$ có thể được mở rộng bởi tính liên tục lên $\hat{X} \times \hat{X}$, vì chúng liên tục đều trên $X \times X$; và các hàm mở rộng $\bar{f}_i$ liên tục đều trên $\hat{X} \times \hat{X}$ (Chương II, § 3, no. 6, Định lý 2); hơn nữa, chúng là các giả metric trên $\hat{X}$ nhờ nguyên lý mở rộng của các bất đẳng thức (Chương IV, § 5, no. 2, Định lý 1). Gọi $\mathcal{U}_1$ là cấu trúc đều trên $\hat{X}$ thu được bởi phép hoàn thành, và gọi $\mathcal{U}_2$ là cấu trúc đều được xác định bởi họ các giả metric $(\bar{f}_i)$. Khi đó $\mathcal{U}_2$ thô hơn $\mathcal{U}_1$; bởi vì mỗi $\bar{f}_i$ liên tục đều trên $\hat{X} \times \hat{X}$ đối với $\mathcal{U}_1$, và do đó với mỗi $a > 0$ tồn tại một lân cận $V$ của $\mathcal{U}_1$ sao cho, khi $(x, y) \in V$, ta có $|\bar{f}_i(x, y) - \bar{f}_i(x, x)| \leq a$, tức là [vì $\bar{f}_i(x, x) = 0$], $V \subset \bar{f}_i([0, a])$; do đó mọi lân cận của $\mathcal{U}_2$ là một lân cận của $\mathcal{U}_1$. Mặt khác, $\mathcal{U}_1$ và $\mathcal{U}_2$ cảm sinh cùng một cấu trúc đều $\mathcal{U}$ trên $X$. Vì $\hat{X}$ đầy đủ đối với $\mathcal{U}_1$, suy ra rằng $\mathcal{U}_1$ và $\mathcal{U}_2$ trùng nhau (Chương II, § 3, no. 7, Mệnh đề 14).
+Trước hết, các $f_i$ có thể được mở rộng bởi tính liên tục lên $\hat{X} \times \hat{X}$, vì chúng liên tục đều trên $X \times X$; và các hàm mở rộng $\bar{f}_i$ liên tục đều trên $\hat{X} \times \hat{X}$ (Chương II, § 3, no. 6, Định lý 2); hơn nữa, chúng là các giả metric trên $\hat{X}$ nhờ nguyên lý mở rộng của các bất đẳng thức (Chương IV, § 5, no. 2, Định lý 1). Gọi $\mathscr{U}_1$ là cấu trúc đều trên $\hat{X}$ thu được bởi phép hoàn thành, và gọi $\mathscr{U}_2$ là cấu trúc đều được xác định bởi họ các giả metric $(\bar{f}_i)$. Khi đó $\mathscr{U}_2$ thô hơn $\mathscr{U}_1$; bởi vì mỗi $\bar{f}_i$ liên tục đều trên $\hat{X} \times \hat{X}$ đối với $\mathscr{U}_1$, và do đó với mỗi $a > 0$ tồn tại một lân cận $V$ của $\mathscr{U}_1$ sao cho, khi $(x, y) \in V$, ta có $|\bar{f}_i(x, y) - \bar{f}_i(x, x)| \leq a$, tức là [vì $\bar{f}_i(x, x) = 0$], $V \subset \bar{f}_i([0, a])$; do đó mọi lân cận của $\mathscr{U}_2$ là một lân cận của $\mathscr{U}_1$. Mặt khác, $\mathscr{U}_1$ và $\mathscr{U}_2$ cảm sinh cùng một cấu trúc đều $\mathscr{U}$ trên $X$. Vì $\hat{X}$ đầy đủ đối với $\mathscr{U}_1$, suy ra rằng $\mathscr{U}_1$ và $\mathscr{U}_2$ trùng nhau (Chương II, § 3, no. 7, Mệnh đề 14).
 
 ### 4. PHÉP DỰNG MỘT HỌ CÁC GIẢ METRIC XÁC ĐỊNH MỘT CẤU TRÚC ĐỀU
 
@@ -182,19 +182,19 @@ Trước hết, các $f_i$ có thể được mở rộng bởi tính liên tụ
 
 #### Định lý 1 {#top-ix-s1-thm-1 .statement}
 
-Cho một cấu trúc đều $\mathcal{U}$ trên một tập hợp $X$, tồn tại một họ các giả metric trên $X$ sao cho cấu trúc đều được xác định bởi họ này trùng với $\mathcal{U}$.
+Cho một cấu trúc đều $\mathscr{U}$ trên một tập hợp $X$, tồn tại một họ các giả metric trên $X$ sao cho cấu trúc đều được xác định bởi họ này trùng với $\mathscr{U}$.
 
-Đối với mỗi lân cận $V$ của cấu trúc đều $\mathcal{U}$, định nghĩa quy nạp một dãy các lân cận đối xứng $(U_n)$ sao cho $U_1 \subset V$ và $U_{n+1} \subset U_n$ với mọi $n \geq 1$. Dãy $(U_n)$ là một hệ cơ bản các lân cận của một cấu trúc đều $\mathcal{U}_V$ thô hơn $\mathcal{U}$; hơn nữa, rõ ràng rằng $\mathcal{U}$ là cận trên nhỏ nhất của tất cả các cấu trúc đều $U_V$ khi $V$ chạy qua bộ lọc các lân cận của $\mathcal{U}$. Do đó Định lý 1 là một hệ quả của mệnh đề sau:
+Đối với mỗi lân cận $V$ của cấu trúc đều $\mathscr{U}$, định nghĩa quy nạp một dãy các lân cận đối xứng $(U_n)$ sao cho $U_1 \subset V$ và $U_{n+1} \subset U_n$ với mọi $n \geq 1$. Dãy $(U_n)$ là một hệ cơ bản các lân cận của một cấu trúc đều $\mathscr{U}_V$ thô hơn $\mathscr{U}$; hơn nữa, rõ ràng rằng $\mathscr{U}$ là cận trên nhỏ nhất của tất cả các cấu trúc đều $U_V$ khi $V$ chạy qua bộ lọc các lân cận của $\mathscr{U}$. Do đó Định lý 1 là một hệ quả của mệnh đề sau:
 
 #### Mệnh đề 2 {#top-ix-s1-prop-2 .statement}
 
-Nếu một cấu trúc đều $\mathcal{U}$ trên $X$ có một hệ cơ bản đếm được các lân cận, thì tồn tại một giả metric $f$ trên $X$ sao cho $\mathcal{U}$ trùng với cấu trúc đều được xác định bởi $f$.
+Nếu một cấu trúc đều $\mathscr{U}$ trên $X$ có một hệ cơ bản đếm được các lân cận, thì tồn tại một giả metric $f$ trên $X$ sao cho $\mathscr{U}$ trùng với cấu trúc đều được xác định bởi $f$.
 
-Cho $(V_n)$ là một hệ cơ bản đếm được các lân cận của $\mathcal{U}$. Định nghĩa bằng quy nạp một dãy $(U_n)$ các lân cận đối xứng của $\mathcal{U}$ sao cho $U_1 \subset V_1$ và
+Cho $(V_n)$ là một hệ cơ bản đếm được các lân cận của $\mathscr{U}$. Định nghĩa bằng quy nạp một dãy $(U_n)$ các lân cận đối xứng của $\mathscr{U}$ sao cho $U_1 \subset V_1$ và
 $$
 \bigcup_{n+1}^3 \subset U_n \cap V_n \quad \text{cho} \quad n \geq 1.
 $$
-Rõ ràng $(U_n)$ là một hệ cơ bản khác các lân cận của $\mathcal{U}$, và ta có đặc biệt $\bigcup_{n+1}^3 \subset U_n$ với $n \geq 1$. Ta định nghĩa một hàm nhận giá trị thực $g$ trên $X \times X$ như sau: $g(x, y) = 0$ nếu $(x, y) \in U_n$ với mọi $n$; $g(x, y) = 2^{-k}$ nếu $(x, y) \in U_n$ với $1 \leq n \leq k$, nhưng $(x, y) \notin U_{k+1}$; $g(x, y) = 1$ nếu $(x, y) \notin U_1$. Hàm $g$ là đối xứng và dương, và ta có $g(x, x) = 0$ với mọi $x \in X$. Đặt
+Rõ ràng $(U_n)$ là một hệ cơ bản khác các lân cận của $\mathscr{U}$, và ta có đặc biệt $\bigcup_{n+1}^3 \subset U_n$ với $n \geq 1$. Ta định nghĩa một hàm nhận giá trị thực $g$ trên $X \times X$ như sau: $g(x, y) = 0$ nếu $(x, y) \in U_n$ với mọi $n$; $g(x, y) = 2^{-k}$ nếu $(x, y) \in U_n$ với $1 \leq n \leq k$, nhưng $(x, y) \notin U_{k+1}$; $g(x, y) = 1$ nếu $(x, y) \notin U_1$. Hàm $g$ là đối xứng và dương, và ta có $g(x, x) = 0$ với mọi $x \in X$. Đặt
 $$
 f(x, y) = \inf \sum_{i=0}^{p-1} g(z_i, z_{i+1}),
 $$
@@ -217,13 +217,13 @@ $$
 
 Theo giả thiết quy nạp ta có $g(x, z_h) \leq a$ và $g(z_{h+1}, y) \leq a$; mặt khác rõ ràng là $g(z_h, z_{h+1}) \leq a$. Gọi $k$ là số nguyên nhỏ nhất $> 0$ sao cho $2^{-k} \leq a$; khi đó $k \geq 2$, và $(x, z_h) \in U_k, (z_h, z_{h+1}) \in U_k, (z_{h+1}, y) \in U_k$ theo định nghĩa của $g$; do đó $(x, y) \in U_k \subset U_{k-1}^3$, điều này suy ra rằng $g(x, y) \leq 2^{1-k} \leq 2a$.
 
-Vậy các bất đẳng thức (2) đã được chứng minh; chúng chỉ ra rằng, với mỗi $a > 0$, tập hợp $f^{-1}([0, a])$ chứa $U_k$ với mỗi chỉ số $k$ sao cho $2^{-k} < a$, và ngược lại mỗi $U_k$ chứa tập hợp $f^{-1}([0, 2^{-k-1}])$; do đó các tập hợp $f^{-1}([0, a])$ tạo thành một hệ cơ bản các lân cận của cấu trúc $\mathcal{U}$.
+Vậy các bất đẳng thức (2) đã được chứng minh; chúng chỉ ra rằng, với mỗi $a > 0$, tập hợp $f^{-1}([0, a])$ chứa $U_k$ với mỗi chỉ số $k$ sao cho $2^{-k} < a$, và ngược lại mỗi $U_k$ chứa tập hợp $f^{-1}([0, 2^{-k-1}])$; do đó các tập hợp $f^{-1}([0, a])$ tạo thành một hệ cơ bản các lân cận của cấu trúc $\mathscr{U}$.
 
 Q.E.D.
 
 #### Nhận xét {#top-ix-s1-n4-rem-1 .statement}
 
-Một cấu trúc đều $\mathcal{U}$ trên $X$ được xác định bởi họ $\Phi$ gồm tất cả các giả mêtric trên $X$ liên tục đều trên $X \times X$. Rõ ràng cấu trúc đều được xác định bởi họ $\Phi$ là thô hơn $\mathcal{U}$; ngược lại, Định lý 1 chỉ ra rằng có một họ con của $\Phi$ xác định cấu trúc đều $\mathcal{U}$ và do đó cấu trúc đều được xác định bởi $\Phi$ là mịn hơn $\mathcal{U}$.
+Một cấu trúc đều $\mathscr{U}$ trên $X$ được xác định bởi họ $\Phi$ gồm tất cả các giả mêtric trên $X$ liên tục đều trên $X \times X$. Rõ ràng cấu trúc đều được xác định bởi họ $\Phi$ là thô hơn $\mathscr{U}$; ngược lại, Định lý 1 chỉ ra rằng có một họ con của $\Phi$ xác định cấu trúc đều $\mathscr{U}$ và do đó cấu trúc đều được xác định bởi $\Phi$ là mịn hơn $\mathscr{U}$.
 
 ### 5. CÁC KHÔNG GIAN KHẢ NĂNG ĐỒNG ĐỀU HÓA
 

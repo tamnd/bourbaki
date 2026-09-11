@@ -29,18 +29,18 @@ subsections:
       pdf_page: 287
 statements: 18
 exercises: 22
-content_sha256: e2361ec9ebef01f71cc30be5e5c017b8eda732082bbb548b479fdc56ca49f1a2
+content_sha256: a36c76deae8ef6f546a84d2d5f04f7531bcdc7de271814c0812fbdd9e95ec2d3
 ---
 
 ## § 4. APPROXIMATION DES FONCTIONS CONTINUES NUMÉRIQUES
 
 ### 1. Approximation des fonctions continues par les fonctions d’un ensemble réticulé
 
-Nous allons étudier, dans ce paragraphe, l’ensemble $\mathcal{C} = \mathcal{C}(X; \mathbf{R})$ des fonctions continues numériques¹ définies dans un espace compact X ; nous considérons toujours sur cet ensemble la topologie de la convergence uniforme ; on sait (X, p. 21) que cette topologie est définie par la norme $\|f\| = \sup_{x \in X} |f(x)|$, et que cette norme est compatible avec la structure d’algèbre de $\mathcal{C}$ sur le corps $\mathbf{R}$; muni de cette structure d’algèbre et de cette norme, $\mathcal{C}$ est une algèbre normée complète sur le corps $\mathbf{R}$ (X, p. 9, cor. 1).
+Nous allons étudier, dans ce paragraphe, l’ensemble $\mathscr{C} = \mathscr{C}(X; \mathbf{R})$ des fonctions continues numériques¹ définies dans un espace compact X ; nous considérons toujours sur cet ensemble la topologie de la convergence uniforme ; on sait (X, p. 21) que cette topologie est définie par la norme $\|f\| = \sup_{x \in X} |f(x)|$, et que cette norme est compatible avec la structure d’algèbre de $\mathscr{C}$ sur le corps $\mathbf{R}$; muni de cette structure d’algèbre et de cette norme, $\mathscr{C}$ est une algèbre normée complète sur le corps $\mathbf{R}$ (X, p. 9, cor. 1).
 
-Étant donné un ensemble $H \subset \mathcal{C}$, nous dirons qu’une fonction numérique f continue dans X peut être approchée uniformément par des fonctions de H si f est adhérente à H dans l’espace $\mathcal{C}$, c’est-à-dire si, pour tout $\varepsilon > 0$, il existe une fonction $g \in H$ telle que $|f(x) - g(x)| \leq \varepsilon$ pour tout $x \in X$. Dire que toute fonction numérique continue dans X peut être approchée uniformément par des fonctions de H signifie donc que H est partout dense dans $\mathcal{C}$.
+Étant donné un ensemble $H \subset \mathscr{C}$, nous dirons qu’une fonction numérique f continue dans X peut être approchée uniformément par des fonctions de H si f est adhérente à H dans l’espace $\mathscr{C}$, c’est-à-dire si, pour tout $\varepsilon > 0$, il existe une fonction $g \in H$ telle que $|f(x) - g(x)| \leq \varepsilon$ pour tout $x \in X$. Dire que toute fonction numérique continue dans X peut être approchée uniformément par des fonctions de H signifie donc que H est partout dense dans $\mathscr{C}$.
 
-Sur l’ensemble $\mathcal{C}$, on sait que la relation $f \leq g$ (équivalente à « quel que soit $x \in X, f(x) \leq g(x)$ ») est une relation d’ordre, pour laquelle $\mathcal{C}$ est un ensemble réticulé. On a évidemment $\|u| - |v|\| \leq \|u - v\|$, donc $u \mapsto |u|$ est une application uniformément continue de $\mathcal{C}$ dans lui-même ; on en déduit que
+Sur l’ensemble $\mathscr{C}$, on sait que la relation $f \leq g$ (équivalente à « quel que soit $x \in X, f(x) \leq g(x)$ ») est une relation d’ordre, pour laquelle $\mathscr{C}$ est un ensemble réticulé. On a évidemment $\|u| - |v|\| \leq \|u - v\|$, donc $u \mapsto |u|$ est une application uniformément continue de $\mathscr{C}$ dans lui-même ; on en déduit que
 
 $$
 (u, v) \mapsto \sup(u, v) = \frac{1}{2}(u + v + |u - v|)
@@ -52,7 +52,7 @@ $$
 (u, v) \mapsto \inf(u, v) = \frac{1}{2}(u + v - |u - v|)
 $$
 
-sont uniformément continues dans $\mathcal{C} \times \mathcal{C}$.
+sont uniformément continues dans $\mathscr{C} \times \mathscr{C}$.
 
 #### Proposition 1 {#top-x-s4-prop-1 .statement}
 
@@ -117,9 +117,9 @@ où $g$ est un polynôme (resp. un polynôme sans terme constant) à coefficient
 
 Soient $X$ un espace compact, $\mathbf{H}$ un ensemble de fonctions numériques continues dans $X$, séparant les points de $X$. Alors toute fonction numérique continue dans $X$ peut être approchée uniformément par des polynômes (à coefficients réels) par rapport aux fonctions de $\mathbf{H}$.
 
-Il revient au même de dire qu’une sous-algèbre de $\mathcal{C}(X; \mathbf{R})$ qui contient les fonctions constantes et sépare les points de $X$ est dense dans $\mathcal{C}(X; \mathbf{R})$.
+Il revient au même de dire qu’une sous-algèbre de $\mathscr{C}(X; \mathbf{R})$ qui contient les fonctions constantes et sépare les points de $X$ est dense dans $\mathscr{C}(X; \mathbf{R})$.
 
-Soit $\mathbf{H}_0$ l’ensemble des polynômes par rapport aux fonctions de $\mathbf{H}$ et $\overline{\mathbf{H}}_0$ son adhérence dans $\mathcal{C}$; pour tout polynôme $g$ à $n$ variables, à coefficients réels, $(u_1, u_2, \ldots, u_n) \mapsto g(u_1, u_2, \ldots, u_n)$ est une application continue de $\mathcal{C}^n$ dans $\mathcal{C}$, qui applique $\mathbf{H}_0^n$ dans $\mathbf{H}_0$; elle applique donc $\overline{\mathbf{H}}_0^n$ dans $\overline{\mathbf{H}}_0$ (I, p. 9, th. 1). En particulier, $\overline{\mathbf{H}}_0$ est un sous-espace vectoriel de $\mathcal{C}$, et satisfait évidemment à la première et à la troisième condition du th. 2 (X, p. 35); nous allons voir qu’il satisfait aussi à la seconde, d’où résultera que $\overline{\mathbf{H}}_0 = \mathcal{C}$. Comme toute fonction $u \in \overline{\mathbf{H}}_0$ est bornée dans $X$, il suffira de démontrer le lemme suivant:
+Soit $\mathbf{H}_0$ l’ensemble des polynômes par rapport aux fonctions de $\mathbf{H}$ et $\overline{\mathbf{H}}_0$ son adhérence dans $\mathscr{C}$; pour tout polynôme $g$ à $n$ variables, à coefficients réels, $(u_1, u_2, \ldots, u_n) \mapsto g(u_1, u_2, \ldots, u_n)$ est une application continue de $\mathscr{C}^n$ dans $\mathscr{C}$, qui applique $\mathbf{H}_0^n$ dans $\mathbf{H}_0$; elle applique donc $\overline{\mathbf{H}}_0^n$ dans $\overline{\mathbf{H}}_0$ (I, p. 9, th. 1). En particulier, $\overline{\mathbf{H}}_0$ est un sous-espace vectoriel de $\mathscr{C}$, et satisfait évidemment à la première et à la troisième condition du th. 2 (X, p. 35); nous allons voir qu’il satisfait aussi à la seconde, d’où résultera que $\overline{\mathbf{H}}_0 = \mathscr{C}$. Comme toute fonction $u \in \overline{\mathbf{H}}_0$ est bornée dans $X$, il suffira de démontrer le lemme suivant:
 
 #### Lemme 1 {#top-x-s4-lem-1 .statement}
 
@@ -207,7 +207,7 @@ $$
 
 pour tout $x \in X$ ($1 \leq i \leq n$); on a donc $\| \mathbf{f}(x) - \sum_{i=1}^n \mathbf{a}_i v_i(x) \| \leq 2\varepsilon$ pour tout $x \in X$, ce qui démontre la proposition.
 
-A chacune des propositions démontrées ci-dessus, où on établit qu’une certaine partie $\mathbf{H}$ de $\mathcal{C}(X; \mathbf{R})$ est partout dense, correspond donc, par la prop. 5, une proposition analogue pour les applications continues de $X$ dans un espace normé quelconque $Y$. Nous nous bornerons à expliciter la proposition qui correspond ainsi au th. 3 (X, p. 36). Étant donné un ensemble $\mathbf{H}$ de fonctions numériques définies dans $X$, appelons polynôme par rapport aux fonctions de $\mathbf{H}$, à coefficients dans $Y$, toute combinaison linéaire, à coefficients dans $Y$, de produits d’une famille finie (éventuellement vide) de fonctions de $\mathbf{H}$. Alors:
+A chacune des propositions démontrées ci-dessus, où on établit qu’une certaine partie $\mathbf{H}$ de $\mathscr{C}(X; \mathbf{R})$ est partout dense, correspond donc, par la prop. 5, une proposition analogue pour les applications continues de $X$ dans un espace normé quelconque $Y$. Nous nous bornerons à expliciter la proposition qui correspond ainsi au th. 3 (X, p. 36). Étant donné un ensemble $\mathbf{H}$ de fonctions numériques définies dans $X$, appelons polynôme par rapport aux fonctions de $\mathbf{H}$, à coefficients dans $Y$, toute combinaison linéaire, à coefficients dans $Y$, de produits d’une famille finie (éventuellement vide) de fonctions de $\mathbf{H}$. Alors:
 
 #### Proposition 6 {#top-x-s4-prop-6 .statement}
 
@@ -226,13 +226,13 @@ Nous verrons plus tard qu’en général il n’est pas possible d’approcher u
 
 #### Corollaire 2 {#top-x-s4-prop-6-cor-2 .statement}
 
-*Soient $X$ un espace localement compact, $\mathcal{C}_0(X)$ l’algèbre normée sur $\mathbf{C}$ des applications continues de $X$ dans $\mathbf{C}$, tendant vers $0$ à l’infini. Soit $A$ une sous-algèbre de $\mathcal{C}_0(X)$, séparant les points de $X$, telle que pour tout $x \in X$, il existe $f \in A$ pour laquelle $f(x) \neq 0$, et telle que la relation $f \in A$ entraîne $\bar{f} \in A$. Alors $A$ est dense dans $\mathcal{C}_0(X)$.*
+*Soient $X$ un espace localement compact, $\mathscr{C}_0(X)$ l’algèbre normée sur $\mathbf{C}$ des applications continues de $X$ dans $\mathbf{C}$, tendant vers $0$ à l’infini. Soit $A$ une sous-algèbre de $\mathscr{C}_0(X)$, séparant les points de $X$, telle que pour tout $x \in X$, il existe $f \in A$ pour laquelle $f(x) \neq 0$, et telle que la relation $f \in A$ entraîne $\bar{f} \in A$. Alors $A$ est dense dans $\mathscr{C}_0(X)$.*
 
-Si $X'$ est l’espace compact obtenu par adjonction à $X$ d’un point à l’infini $\omega$, $\mathcal{C}_0(X)$ s’identifie au sous-espace de $\mathcal{C}(X'; \mathbf{C})$ formé des applications continues nulles au point $\omega$, la norme sur $\mathcal{C}_0(X)$ étant définie par
+Si $X'$ est l’espace compact obtenu par adjonction à $X$ d’un point à l’infini $\omega$, $\mathscr{C}_0(X)$ s’identifie au sous-espace de $\mathscr{C}(X'; \mathbf{C})$ formé des applications continues nulles au point $\omega$, la norme sur $\mathscr{C}_0(X)$ étant définie par
 $$
 \|f\| = \sup_{x \in X} |f(x)| = \sup_{x \in X'} |f(x)|.
 $$
-En vertu de la prop. 7 (X, p. 39), toute fonction $f \in \mathcal{C}_0(X)$ peut être approchée uniformément par des polynômes à coefficients complexes, par rapport à des fonctions appartenant à $A$; en outre, comme $f(\omega) = 0$, le raisonnement de X, p. 37, prop. 4 montre qu’on peut supposer ces polynômes sans terme constant et alors ils appartiennent à $A$.
+En vertu de la prop. 7 (X, p. 39), toute fonction $f \in \mathscr{C}_0(X)$ peut être approchée uniformément par des polynômes à coefficients complexes, par rapport à des fonctions appartenant à $A$; en outre, comme $f(\omega) = 0$, le raisonnement de X, p. 37, prop. 4 montre qu’on peut supposer ces polynômes sans terme constant et alors ils appartiennent à $A$.
 
 Comme autre exemple d’application de la prop. 7, citons le résultat suivant:
 

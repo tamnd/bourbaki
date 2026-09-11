@@ -37,7 +37,7 @@ subsections:
       pdf_page: 48
 statements: 24
 exercises: 16
-content_sha256: 3268e44c8c9d9e92545692b234c169a265647c5944508f6c4bba34e83499677d
+content_sha256: 04d1e655840e6eac8e294c10017eed88424cafec438e249919ce4eb73c82de1d
 ---
 
 ## 3. SUBSPACES; QUOTIENT SPACES
@@ -54,7 +54,7 @@ Let $A$ be a subset of a topological space $X$. The topology induced on $A$ by t
 
 The topology induced on the set $\mathbf{Z}$ of rational integers by the topology of the rational line is the discrete topology, for the intersection of $\mathbf{Z}$ and the open interval $]n - 1/2, n + 1/2[$ is the set $\{ n \}$.
 
-By Proposition 5 of § 2, no. 3 (or directly from Definition 1) we see that, if $B \subset A \subset X$, the subspace $B$ of $X$ is identical with the subspace $B$ of the subspace $A$ of $X$ (transitivity of induced topologies). If $\mathcal{G}$ is a subbase (resp. a base) of the topology of $X$ ($§ 2$, no. 3, Example 3) its trace $\mathcal{G}_A$ on $A$ is a subbase (resp. a base) of the topology induced on $A$.
+By Proposition 5 of § 2, no. 3 (or directly from Definition 1) we see that, if $B \subset A \subset X$, the subspace $B$ of $X$ is identical with the subspace $B$ of the subspace $A$ of $X$ (transitivity of induced topologies). If $\mathscr{G}$ is a subbase (resp. a base) of the topology of $X$ ($§ 2$, no. 3, Example 3) its trace $\mathscr{G}_A$ on $A$ is a subbase (resp. a base) of the topology induced on $A$.
 
 In all questions which involve the elements or subsets of $A$, it is essential to distinguish carefully between their properties as points (resp. subsets) of $X$, and their properties as points (resp. subsets) of the subspace $A$. We shall make this distinction by using the phrases "in $A$", "with respect to $A$", or "relative to $A$" to refer to properties in the latter category (possibly contrasting them with the phrases "in $X$", "with respect to $X$", "relative to $X$").
 
@@ -96,7 +96,7 @@ Now suppose that b) is satisfied; by duality again, we need only consider the ca
 
 #### Remark {#top-i-s3-n1-rem-1 .statement}
 
-Let $(U_i)_{i \in I}$ be an *open* covering of a topological space $X$, and for each $i \in I$ let $\mathcal{B}_i$ be a *base* of the topology of the subspace $U_i$ of $X$; then it is clear that $\mathcal{B} = \bigcup_{i \in I} \mathcal{B}_i$ is a *base* of the topology of $X$.
+Let $(U_i)_{i \in I}$ be an *open* covering of a topological space $X$, and for each $i \in I$ let $\mathscr{B}_i$ be a *base* of the topology of the subspace $U_i$ of $X$; then it is clear that $\mathscr{B} = \bigcup_{i \in I} \mathscr{B}_i$ is a *base* of the topology of $X$.
 
 ### 2. CONTINUITY WITH RESPECT TO A SUBSPACE
 

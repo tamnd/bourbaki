@@ -37,7 +37,7 @@ subsections:
       pdf_page: 309
 statements: 26
 exercises: 22
-content_sha256: bd260491dd1441dcc19d98698ff22398e4eb75bdf06991ab6d267d3178fc6a6b
+content_sha256: cb2613c23409c5d75dd8ea6ead064d1027b74bdeee294d0911ec20e16b910e37
 ---
 
 ## § 7. SOMMES ET PRODUITS INFINIS DE NOMBRES RÉELS
@@ -50,7 +50,7 @@ Comme tout point de $\mathbf{R}$ possède un système fondamental *dénombrable*
 
 *Pour qu’une famille $(x_i)$ de nombres réels finis $\geqslant 0$ soit sommable dans $\mathbf{R}$, il faut et il suffit que l’ensemble des sommes partielles finies de cette famille soit majoré dans $\mathbf{R}$. La borne supérieure de cet ensemble est alors la somme de la famille $(x_i)$.*.
 
-En effet, pour toute partie finie $H$ de l’ensemble d’indices $I$, posons $s_H = \sum_{i \in H} x_i$; comme les $x_i$ sont $\geqslant 0$, la relation $H \subset H'$ entraîne $s_H \leqslant s_{H'}$. En d’autres termes, l’application $H \mapsto s_H$ est *croissante* dans l’ensemble filtrant $\mathcal{F}(I)$ des parties finies de $I$; donc (IV, p. 18, corollaire), pour qu’elle ait une limite finie, il faut et il suffit qu’elle soit *majorée*.
+En effet, pour toute partie finie $H$ de l’ensemble d’indices $I$, posons $s_H = \sum_{i \in H} x_i$; comme les $x_i$ sont $\geqslant 0$, la relation $H \subset H'$ entraîne $s_H \leqslant s_{H'}$. En d’autres termes, l’application $H \mapsto s_H$ est *croissante* dans l’ensemble filtrant $\mathscr{F}(I)$ des parties finies de $I$; donc (IV, p. 18, corollaire), pour qu’elle ait une limite finie, il faut et il suffit qu’elle soit *majorée*.
 
 #### Remarque {#top-iv-s7-n1-rem-1 .statement}
 

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 227
 statements: 21
 exercises: 6
-content_sha256: 4feb8ea76c1b1eafb8f7f4a619f2881784f62ff52bacf148b3e50053f846ff44
+content_sha256: 4a163895ab6ae0abf38f322d1da098b8c5fff23f5d15ca1eed3fe0f8546c2180
 ---
 
 ## § 5. SOMMES INFINIES DANS LES GROUPES COMMUTATIFS
@@ -272,7 +272,7 @@ En effet, la suite des sommes partielles de la série $(u_n)$ n’est autre que 
 
 ### 7. Séries commutativement convergentes
 
-Soient $(x_n)$ une suite *sommable* dans $G$, $s = \sum_{n \in \mathbf{N}} x_n$ sa somme. Pour tout voisinage $V$ de $s$, il existe $J_0 \in \mathcal{F}(\mathbf{N})$ telle que l’on ait $s_J \in s + V$ pour $J \in \mathcal{F}(\mathbf{N})$ et $J_0 \subset J$; soit $m$ le plus grand entier dans $J_0$; pour $n \geq m$, on a donc $s_n \in s + V$, ce qui montre que *la série* $(x_n)$ est *convergente* et a pour somme $s$. Mais la réciproque est *inexacte*: la suite des termes d’une série convergente peut fort bien ne pas être sommable (voir IV, p. 38).
+Soient $(x_n)$ une suite *sommable* dans $G$, $s = \sum_{n \in \mathbf{N}} x_n$ sa somme. Pour tout voisinage $V$ de $s$, il existe $J_0 \in \mathscr{F}(\mathbf{N})$ telle que l’on ait $s_J \in s + V$ pour $J \in \mathscr{F}(\mathbf{N})$ et $J_0 \subset J$; soit $m$ le plus grand entier dans $J_0$; pour $n \geq m$, on a donc $s_n \in s + V$, ce qui montre que *la série* $(x_n)$ est *convergente* et a pour somme $s$. Mais la réciproque est *inexacte*: la suite des termes d’une série convergente peut fort bien ne pas être sommable (voir IV, p. 38).
 
 En outre, la structure d’*ordre* de $\mathbf{N}$ intervient de façon essentielle dans la définition d’une série convergente; si la série $(x_n)$ est convergente, et si $\sigma$ est une *permutation* de $\mathbf{N}$, la série $(x_{\sigma(n)})$ n’est pas nécessairement convergente (cf. IV, p. 60, exerc. 15).
 

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 100
 statements: 5
 exercises: 4
-content_sha256: d98ba316df1d23a63a644d35fecf0dabb50b2e743b354e28db09fd638b7d7753
+content_sha256: 7af2f1113aa40dd0f856e2d62cf7eac25802cc4d44d0d40aa19b02293326400c
 ---
 
 ## § 2. MESURE DES ANGLES; FONCTIONS TRIGONOMÉTRIQUES
@@ -88,7 +88,7 @@ L’application $x + iy \mapsto e^x \mathbf{e}(y)$ est un morphisme strict du gr
 
 Le corps $\mathbf{R}$ étant ordonné, nous orienterons le plan numérique $\mathbf{R}^2$ en prenant $\mathbf{e}_1 \wedge \mathbf{e}_2$ comme bivecteur positif ($\mathbf{e}_1, \mathbf{e}_2$ étant les vecteurs de la base canonique);
 
-dans le plan numérique orienté $\mathbf{R}^2$ (identifié à $\mathbf{C}$ dans ce qui suit), on peut alors définir l’angle $(\Delta_1, \Delta_2)$ d’un couple quelconque $(\Delta_1, \Delta_2)$ de demi-droites.[^1] L’ensemble $\mathcal{A}$ des angles de demi-droites est muni d’une structure de groupe commutatif (noté additivement), définie par
+dans le plan numérique orienté $\mathbf{R}^2$ (identifié à $\mathbf{C}$ dans ce qui suit), on peut alors définir l’angle $(\Delta_1, \Delta_2)$ d’un couple quelconque $(\Delta_1, \Delta_2)$ de demi-droites.[^1] L’ensemble $\mathscr{A}$ des angles de demi-droites est muni d’une structure de groupe commutatif (noté additivement), définie par
 
 $$
 (\Delta_1, \Delta_3) = (\Delta_1, \Delta_2) + (\Delta_2, \Delta_3),
@@ -96,19 +96,19 @@ $$
 
 d’où en particulier, $(\Delta_1, \Delta_1) = 0, (\Delta_2, \Delta_1) = -(\Delta_1, \Delta_2)$.
 
-L’angle plat $\overline{\omega}$ est la solution $\neq 0$ de l’équation $2\theta = 0$ dans $\mathcal{A}$; c’est l’angle que fait le demi-axe réel négatif avec le demi-axe réel positif.
+L’angle plat $\overline{\omega}$ est la solution $\neq 0$ de l’équation $2\theta = 0$ dans $\mathscr{A}$; c’est l’angle que fait le demi-axe réel négatif avec le demi-axe réel positif.
 
-Pour tout nombre complexe $z \neq 0$, on appelle amplitude de $z$, et l’on note $\mathrm{Am}(z)$, l’angle que fait avec le demi-axe réel positif la demi-droite d’origine 0 passant par $z$. L’application $z \mapsto \mathrm{Am}(z)$ est un homomorphisme du groupe multiplicatif $\mathbf{C}^*$ sur le groupe additif $\mathcal{A}$; on a donc
+Pour tout nombre complexe $z \neq 0$, on appelle amplitude de $z$, et l’on note $\mathrm{Am}(z)$, l’angle que fait avec le demi-axe réel positif la demi-droite d’origine 0 passant par $z$. L’application $z \mapsto \mathrm{Am}(z)$ est un homomorphisme du groupe multiplicatif $\mathbf{C}^*$ sur le groupe additif $\mathscr{A}$; on a donc
 
 $$
 \mathrm{Am}(zz') = \mathrm{Am}(z) + \mathrm{Am}(z') \quad \text{et} \quad \mathrm{Am}(\overline{z}) = \mathrm{Am}(z^{-1}) = -\mathrm{Am}(z).
 $$
 
-L’angle $\delta = \mathrm{Am}(i)$ s’appelle angle droit positif; c’est une des solutions, dans le groupe $\mathcal{A}$, de l’équation $2\theta = \overline{\omega}$, l’autre étant $-\delta = \delta + \overline{\omega}$.
+L’angle $\delta = \mathrm{Am}(i)$ s’appelle angle droit positif; c’est une des solutions, dans le groupe $\mathscr{A}$, de l’équation $2\theta = \overline{\omega}$, l’autre étant $-\delta = \delta + \overline{\omega}$.
 
-L’homomorphisme $z \mapsto \mathrm{Am}(z)$, restreint au sous-groupe $\mathbf{U}$ de $\mathbf{C}^*$, est un isomorphisme de la structure de groupe de $\mathbf{U}$ sur celle de $\mathcal{A}$; si on transporte au groupe $\mathcal{A}$, par cet isomorphisme, la topologie de $\mathbf{U}$, $\mathcal{A}$ devient un groupe topologique compact, et l’homomorphisme $z \mapsto \mathrm{Am}(z)$ de $\mathbf{C}^*$ sur $\mathcal{A}$ est un morphisme strict du groupe topologique $\mathbf{C}^*$ sur le groupe topologique $\mathcal{A}$.
+L’homomorphisme $z \mapsto \mathrm{Am}(z)$, restreint au sous-groupe $\mathbf{U}$ de $\mathbf{C}^*$, est un isomorphisme de la structure de groupe de $\mathbf{U}$ sur celle de $\mathscr{A}$; si on transporte au groupe $\mathscr{A}$, par cet isomorphisme, la topologie de $\mathbf{U}$, $\mathscr{A}$ devient un groupe topologique compact, et l’homomorphisme $z \mapsto \mathrm{Am}(z)$ de $\mathbf{C}^*$ sur $\mathscr{A}$ est un morphisme strict du groupe topologique $\mathbf{C}^*$ sur le groupe topologique $\mathscr{A}$.
 
-Désignons par $\theta \mapsto f(\theta)$ l’isomorphisme de $\mathcal{A}$ sur $\mathbf{U}$, réciproque de l’isomorphisme $z \mapsto \mathrm{Am}(z)$ de $\mathbf{U}$ sur $\mathcal{A}$. Par définition (A, IX, § 10, n° 3), $\Re(f(\theta))$ se note $\cos \theta$ et s’appelle cosinus de l’angle $\theta$, $\Im(f(\theta))$ se note $\sin \theta$ et s’appelle sinus de l’angle $\theta$. Ces fonctions sont continues dans le groupe topologique $\mathcal{A}$, et satisfont aux relations suivantes (*loc. cit.*), conséquences immédiates des définitions qui précèdent:
+Désignons par $\theta \mapsto f(\theta)$ l’isomorphisme de $\mathscr{A}$ sur $\mathbf{U}$, réciproque de l’isomorphisme $z \mapsto \mathrm{Am}(z)$ de $\mathbf{U}$ sur $\mathscr{A}$. Par définition (A, IX, § 10, n° 3), $\Re(f(\theta))$ se note $\cos \theta$ et s’appelle cosinus de l’angle $\theta$, $\Im(f(\theta))$ se note $\sin \theta$ et s’appelle sinus de l’angle $\theta$. Ces fonctions sont continues dans le groupe topologique $\mathscr{A}$, et satisfont aux relations suivantes (*loc. cit.*), conséquences immédiates des définitions qui précèdent:
 
 $$
 \begin{align*}
@@ -120,7 +120,7 @@ $$
 \end{align*}
 $$
 
-Par définition, la tangente $\mathrm{tg}(\theta)$ d’un angle $\theta \in \mathcal{A}$ est l’élément de $\tilde{\mathbf{R}}$, qui vaut $\sin \theta / \cos \theta$ lorsque $\theta \neq \delta$ et $\theta \neq -\delta$, et vaut $\infty$ lorsque $\theta = \delta$ ou $\theta = -\delta$.
+Par définition, la tangente $\mathrm{tg}(\theta)$ d’un angle $\theta \in \mathscr{A}$ est l’élément de $\tilde{\mathbf{R}}$, qui vaut $\sin \theta / \cos \theta$ lorsque $\theta \neq \delta$ et $\theta \neq -\delta$, et vaut $\infty$ lorsque $\theta = \delta$ ou $\theta = -\delta$.
 
 La fonction tg est une application continue de $\mathfrak{A}$ dans $\tilde{\mathbf{R}}$; on a $\operatorname{tg}(\theta + \overline{\omega}) = \operatorname{tg} \theta$. On appelle cotangente de $\theta$, et on note cotg $\theta$, l’élément de $\tilde{\mathbf{R}}$ égal à $1/\operatorname{tg} \theta$.
 
@@ -215,7 +215,7 @@ Deux demi-droites fermées distinctes $\Delta_1, \Delta_2$ définissent deux sec
 
 ### 6. Angles de droites
 
-On a aussi défini en Algèbre (A, IX, § 10, n° 3) la notion d’angle d’un couple de deux droites dans un espace vectoriel à deux dimensions sur un corps ordonné maximal¹ ; cette définition s’applique en particulier au plan numérique $\mathbf{R}^2$. L’ensemble $\mathcal{A}_0$ des angles de droites est muni d’une structure de groupe commutatif (noté additivement), définie par
+On a aussi défini en Algèbre (A, IX, § 10, n° 3) la notion d’angle d’un couple de deux droites dans un espace vectoriel à deux dimensions sur un corps ordonné maximal¹ ; cette définition s’applique en particulier au plan numérique $\mathbf{R}^2$. L’ensemble $\mathscr{A}_0$ des angles de droites est muni d’une structure de groupe commutatif (noté additivement), définie par
 
 $$
 (\widehat{D_1, D_3}) = (\widehat{D_1, D_2}) + (\widehat{D_2, D_3}),
@@ -227,11 +227,11 @@ $$
 (\widehat{D_1, D_1}) = 0, \qquad (\widehat{D_2, D_1}) = -(\widehat{D_1, D_2}).
 $$
 
-L’angle droit $\delta_0$ est la solution $\neq 0$ de l’équation $2\theta = 0$ dans $\mathcal{A}_0$; c’est l’angle que fait l’axe imaginaire avec l’axe réel.
+L’angle droit $\delta_0$ est la solution $\neq 0$ de l’équation $2\theta = 0$ dans $\mathscr{A}_0$; c’est l’angle que fait l’axe imaginaire avec l’axe réel.
 
-On définit un homomorphisme canonique $\varphi$ du groupe $\mathcal{A}$ des angles de demi-droites sur le groupe $\mathcal{A}_0$ des angles de droites en faisant correspondre, à l’angle que fait une demi-droite $\Delta$ avec le demi-axe réel positif, l’angle que fait la droite D contenant $\Delta$ avec l’axe réel (A, IX, § 10, n° 1, cor. de la prop. 3); un angle de droites $\theta_0$ est l’image par $\varphi$ de deux angles de demi-droites $\theta, \theta + \overline{\omega}$; autrement dit, $\mathcal{A}_0$ est isomorphe au groupe quotient de $\mathcal{A}$ par le sous-groupe $\{0, \overline{\omega}\}$. Si on transporte à $\mathcal{A}_0$ la topologie du groupe quotient $\mathcal{A}/\{0, \overline{\omega}\}$ (par l’homomorphisme bijectif associé à $\varphi$), $\mathcal{A}_0$ devient un groupe topologique compact, $\varphi$ un morphisme strict de $\mathcal{A}$ sur $\mathcal{A}_0$.
+On définit un homomorphisme canonique $\varphi$ du groupe $\mathscr{A}$ des angles de demi-droites sur le groupe $\mathscr{A}_0$ des angles de droites en faisant correspondre, à l’angle que fait une demi-droite $\Delta$ avec le demi-axe réel positif, l’angle que fait la droite D contenant $\Delta$ avec l’axe réel (A, IX, § 10, n° 1, cor. de la prop. 3); un angle de droites $\theta_0$ est l’image par $\varphi$ de deux angles de demi-droites $\theta, \theta + \overline{\omega}$; autrement dit, $\mathscr{A}_0$ est isomorphe au groupe quotient de $\mathscr{A}$ par le sous-groupe $\{0, \overline{\omega}\}$. Si on transporte à $\mathscr{A}_0$ la topologie du groupe quotient $\mathscr{A}/\{0, \overline{\omega}\}$ (par l’homomorphisme bijectif associé à $\varphi$), $\mathscr{A}_0$ devient un groupe topologique compact, $\varphi$ un morphisme strict de $\mathscr{A}$ sur $\mathscr{A}_0$.
 
-Si on compose l’homomorphisme $\varphi$ de $\mathcal{A}$ sur $\mathcal{A}_0$ et l’homomorphisme $x \mapsto \vartheta(x/a)$ de $\mathbf{R}$ sur $\mathcal{A}$ on obtient un homomorphisme $x \mapsto \vartheta_0(x/a)$ de $\mathbf{R}$ sur $\mathcal{A}_0$; tout angle $\theta_0 \in \mathcal{A}_0$ correspond, par cet homomorphisme, à une classe de nombres réels mod. $\frac{1}{2}a$, qu’on appelle encore mesure de $\theta_0$ (relativement à la base $a$); par abus de langage, tout nombre de cette classe est aussi appelé une mesure de $\theta_0$, et celui qui appartient à $[0, a/2[$ la mesure principale de $\theta_0$; l’angle $\vartheta_0(x/a)$ est l’angle de droites de mesure $x$. Toute mesure de $\theta_0$ est aussi une mesure d’un des deux angles de demi-droites $\theta, \theta + \overline{\omega}$ dont $\theta_0$ est l’image par l’homomorphisme $\varphi$.
+Si on compose l’homomorphisme $\varphi$ de $\mathscr{A}$ sur $\mathscr{A}_0$ et l’homomorphisme $x \mapsto \vartheta(x/a)$ de $\mathbf{R}$ sur $\mathscr{A}$ on obtient un homomorphisme $x \mapsto \vartheta_0(x/a)$ de $\mathbf{R}$ sur $\mathscr{A}_0$; tout angle $\theta_0 \in \mathscr{A}_0$ correspond, par cet homomorphisme, à une classe de nombres réels mod. $\frac{1}{2}a$, qu’on appelle encore mesure de $\theta_0$ (relativement à la base $a$); par abus de langage, tout nombre de cette classe est aussi appelé une mesure de $\theta_0$, et celui qui appartient à $[0, a/2[$ la mesure principale de $\theta_0$; l’angle $\vartheta_0(x/a)$ est l’angle de droites de mesure $x$. Toute mesure de $\theta_0$ est aussi une mesure d’un des deux angles de demi-droites $\theta, \theta + \overline{\omega}$ dont $\theta_0$ est l’image par l’homomorphisme $\varphi$.
 
 ¹ Rappelons que, dans l’ensemble des couples $(D_1, D_2)$ de droites non isotropes, on définit une relation d’équivalence en considérant deux couples $(D_1, D_2)$ et $(D'_1, D'_2)$ comme équivalents, s’il existe une même similitude directe qui transforme $D_1$ en $D'_1$ et $D_2$ en $D'_2$; l’angle du couple $(D_1, D_2)$ est la classe d’équivalence de ce couple.
 

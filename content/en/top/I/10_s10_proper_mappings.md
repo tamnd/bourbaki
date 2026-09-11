@@ -29,7 +29,7 @@ subsections:
       pdf_page: 111
 statements: 30
 exercises: 20
-content_sha256: 4090cf2d28c3566332e20a1f373d65f57c9a4a96f1defbe488f43340f5366b01
+content_sha256: a578ae95d7d778d449c8eae63c8c9ece381c7729d0159c7fbf2afbdd42950e28
 ---
 
 ## 10. PROPER MAPPINGS
@@ -164,7 +164,7 @@ In this subsection we shall denote by $P$ a space consisting of a single point, 
 
 (We shall see a little later on (Theorem 1, Corollary 1) that this property characterizes quasi-compact spaces.)
 
-We may restrict ourselves to the case where $X$ is not empty. Let $\mathcal{F}$ be a filter on $X$, and $X' = X \cup \{ \omega \}$ the topological space associated with $\mathcal{F}$ ($§ 6$, no. 5, Example). Let $\Delta$ be the subset of $X \times X'$ consisting of all $(x, x)$ where $x \in X$, and let $F = \overline{\Delta}$ be the closure of $\Delta$ in $X \times X'$. In view of the hypothesis on $X$, the image of $F$ under the projection $X \times X' \to X'$ is closed in $X'$; this image contains $X$ and therefore contains $\omega$, which lies in the closure of $X$; in other words, there is a point $x \in X$ such that $(x, \omega) \in F$. By the definition of the topology of $X \times X'$, this means that, for each neighbourhood $V$ of $x$ in $X$ and each $M \in \mathcal{F}$, we have $(V \times M) \cap \Delta \neq \emptyset$, i.e. $V \cap M \neq \emptyset$, so that $x$ is a cluster point of the filter $\mathcal{F}$, and therefore $X$ is quasi-compact.
+We may restrict ourselves to the case where $X$ is not empty. Let $\mathscr{F}$ be a filter on $X$, and $X' = X \cup \{ \omega \}$ the topological space associated with $\mathscr{F}$ ($§ 6$, no. 5, Example). Let $\Delta$ be the subset of $X \times X'$ consisting of all $(x, x)$ where $x \in X$, and let $F = \overline{\Delta}$ be the closure of $\Delta$ in $X \times X'$. In view of the hypothesis on $X$, the image of $F$ under the projection $X \times X' \to X'$ is closed in $X'$; this image contains $X$ and therefore contains $\omega$, which lies in the closure of $X$; in other words, there is a point $x \in X$ such that $(x, \omega) \in F$. By the definition of the topology of $X \times X'$, this means that, for each neighbourhood $V$ of $x$ in $X$ and each $M \in \mathscr{F}$, we have $(V \times M) \cap \Delta \neq \emptyset$, i.e. $V \cap M \neq \emptyset$, so that $x$ is a cluster point of the filter $\mathscr{F}$, and therefore $X$ is quasi-compact.
 
 Q.E.D.
 
@@ -174,16 +174,16 @@ Q.E.D.
 
 a) $f$ is proper.
 b) $f$ is closed and $\overline{f}^{-1}(y)$ is quasi-compact for each $y \in Y$.
-c) *If $\mathcal{F}$ is a filter on $X$ and if $y \in Y$ is a cluster point of $f(\mathcal{F})$ then there is a cluster point $x$ of $\mathcal{F}$ such that $f(x) = y$.*
-d) *If $\mathcal{U}$ is an ultrafilter on $X$ and if $y \in Y$ is a limit point of the ultrafilter base $f(\mathcal{U})$, then there is a limit point $x$ of $\mathcal{U}$ such that $f(x) = y$.*
+c) *If $\mathscr{F}$ is a filter on $X$ and if $y \in Y$ is a cluster point of $f(\mathscr{F})$ then there is a cluster point $x$ of $\mathscr{F}$ such that $f(x) = y$.*
+d) *If $\mathscr{U}$ is an ultrafilter on $X$ and if $y \in Y$ is a limit point of the ultrafilter base $f(\mathscr{U})$, then there is a limit point $x$ of $\mathscr{U}$ such that $f(x) = y$.*
 
 a) $\Longrightarrow$ b): If $f$ is proper then $f$ is closed (no. 1, Proposition 1) and for each $y \in Y$ the mapping $f_{|y|} : \overline{f}^{-1}(y) \to \{ y \}$ is proper [no. 1, Proposition 3a)]. By Lemma 1, this implies that $\overline{f}^{-1}(y)$ is quasi-compact.
 
-b) $\Longrightarrow$ c): Suppose $\mathfrak{F}$ and $y$ satisfy the hypotheses of c). Let $\mathcal{B}$ be the filter base on $X$ formed by the closures of the sets of $\mathfrak{F}$. Since $f$ is closed, we have $f(\overline{M}) = f(M)$ for each $M \in \mathfrak{F}$ (§ 5, no. 4, Proposition 9). This shows that the sets $\overline{M} \cap \overline{f}^{-1}(y)$ are non-empty for all $M \in \mathfrak{F}$, and hence form a filter base on $\overline{f}^{-1}(y)$ whose elements are closed subsets of $\overline{f}^{-1}(y)$. Since $\overline{f}^{-1}(y)$ is quasi-compact, there is a point $x \in \overline{f}^{-1}(y)$ which belongs to all the sets $M$ as $M$ runs through $\mathfrak{F}$. Hence $f(x) = y$ and $x$ is a cluster point of $\mathfrak{F}$.
+b) $\Longrightarrow$ c): Suppose $\mathfrak{F}$ and $y$ satisfy the hypotheses of c). Let $\mathscr{B}$ be the filter base on $X$ formed by the closures of the sets of $\mathfrak{F}$. Since $f$ is closed, we have $f(\overline{M}) = f(M)$ for each $M \in \mathfrak{F}$ (§ 5, no. 4, Proposition 9). This shows that the sets $\overline{M} \cap \overline{f}^{-1}(y)$ are non-empty for all $M \in \mathfrak{F}$, and hence form a filter base on $\overline{f}^{-1}(y)$ whose elements are closed subsets of $\overline{f}^{-1}(y)$. Since $\overline{f}^{-1}(y)$ is quasi-compact, there is a point $x \in \overline{f}^{-1}(y)$ which belongs to all the sets $M$ as $M$ runs through $\mathfrak{F}$. Hence $f(x) = y$ and $x$ is a cluster point of $\mathfrak{F}$.
 
 c) $\Longrightarrow$ d): Trivial.
 
-d) $\Longrightarrow$ a): We show first that if d) is satisfied, then $f$ is a closed mapping. Let $A$ be a non-empty closed subset of $X$ and let $\mathfrak{F}$ be the filter of subsets of $X$ which contain $A$. Then $A$ is the set of cluster points of $\mathfrak{F}$. Let $B$ be the set of cluster points of the filter base $f(\mathfrak{F})$ on $Y$; $B$ is closed and clearly contains $f(A)$; we shall show that $B = f(A)$. Let $y \in B$ and let $\mathcal{B}$ be the neighbourhood filter of $y$ in $Y$; then by hypothesis every set of $\mathfrak{W} = \overline{f}^{-1}(\mathcal{B})$ meets every set of $\mathfrak{F}$; hence $\mathfrak{W}$ is a filter base on $X$ and there is an ultrafilter $U$ on $X$ which is finer than both $\mathfrak{F}$ and the filter whose base is $\mathfrak{W}$ (§ 6, no. 2, Proposition 1, Corollary 1 and no. 4, Theorem 1). The ultrafilter whose base is $f(U)$ is finer than $\mathcal{B}$ and therefore converges to $y$. By virtue of d) there is a point $x \in X$ such that $f(x) = y$ and $U$ converges to $x$; since $U$ is finer than $\mathfrak{F}$, $x$ is a cluster point of $\mathfrak{F}$; hence $x \in A$. This shows that $B = f(A)$ and therefore that $f$ is closed.
+d) $\Longrightarrow$ a): We show first that if d) is satisfied, then $f$ is a closed mapping. Let $A$ be a non-empty closed subset of $X$ and let $\mathfrak{F}$ be the filter of subsets of $X$ which contain $A$. Then $A$ is the set of cluster points of $\mathfrak{F}$. Let $B$ be the set of cluster points of the filter base $f(\mathfrak{F})$ on $Y$; $B$ is closed and clearly contains $f(A)$; we shall show that $B = f(A)$. Let $y \in B$ and let $\mathscr{B}$ be the neighbourhood filter of $y$ in $Y$; then by hypothesis every set of $\mathfrak{W} = \overline{f}^{-1}(\mathscr{B})$ meets every set of $\mathfrak{F}$; hence $\mathfrak{W}$ is a filter base on $X$ and there is an ultrafilter $U$ on $X$ which is finer than both $\mathfrak{F}$ and the filter whose base is $\mathfrak{W}$ (§ 6, no. 2, Proposition 1, Corollary 1 and no. 4, Theorem 1). The ultrafilter whose base is $f(U)$ is finer than $\mathscr{B}$ and therefore converges to $y$. By virtue of d) there is a point $x \in X$ such that $f(x) = y$ and $U$ converges to $x$; since $U$ is finer than $\mathfrak{F}$, $x$ is a cluster point of $\mathfrak{F}$; hence $x \in A$. This shows that $B = f(A)$ and therefore that $f$ is closed.
 
 To complete the proof we have to show that $f \times \iota_Z$ is closed for every topological space $Z$. From what has been proved it is enough to show that if $f$ satisfies condition d), then so does $f \times \iota_Z$. This is a consequence of the following general lemma:
 
@@ -237,9 +237,9 @@ Let $X$ be a set, and let $f : X \to X'$ be a mapping of $X$ onto a topological 
 
 When $Y$ is *Hausdorff*, condition d) of Theorem 1 is equivalent to the following:
 
-d') *If* $\mathcal{U}$ *is an ultrafilter on* $X$ *such that* $f(\mathcal{U})$ *is a convergent filter base, then* $\mathcal{U}$ *is convergent*.
+d') *If* $\mathscr{U}$ *is an ultrafilter on* $X$ *such that* $f(\mathscr{U})$ *is a convergent filter base, then* $\mathscr{U}$ *is convergent*.
 
-For if $\mathcal{U}$ converges to $x$ and $f(\mathcal{U})$ converges to $y$, then the uniqueness of the limit in $Y$ and the continuity of $f$ show that we must have $y = f(x)$. Likewise, Y being Hausdorff, condition c) of Theorem 1 is equivalent to:
+For if $\mathscr{U}$ converges to $x$ and $f(\mathscr{U})$ converges to $y$, then the uniqueness of the limit in $Y$ and the continuity of $f$ show that we must have $y = f(x)$. Likewise, Y being Hausdorff, condition c) of Theorem 1 is equivalent to:
 
 c') *If $\mathfrak{F}$ is a filter on X such that $f(\mathfrak{F})$ has a cluster point, then $\mathfrak{F}$ has a cluster point.*
 

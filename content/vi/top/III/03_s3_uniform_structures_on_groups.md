@@ -32,9 +32,9 @@ subsections:
       pdf_page: 254
 statements: 18
 exercises: 12
-content_sha256: 8277e24e44db0c7babcd79b3c37ae36cf728003daf9a2097e2caed2cc87bedb3
+content_sha256: 4f4df5592b039bca7f0617a4757f9add41473299f9e6e8187479d7578f1276bd
 translated_from: content/en/top/III/03_s3_uniform_structures_on_groups.md
-source_content_sha256: cb520e55d1b8447d9e7f2e653052e6f9dd4e40b076e3b458f55ae66cdee5330d
+source_content_sha256: 95c7e208d0ab926d40df16bb6fddfa2adee53aa6449885a096e1f422fb8d5106
 translation_model: gpt-5.4
 translation_run: translate-vi-cf854575
 glossary_version: 34
@@ -46,9 +46,9 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC CẤU TRÚC ĐỀU PHẢI VÀ TRÁI TRÊN MỘT NHÓM TÔPÔ
 
-Trong một nhóm tôpô G, ta có thể nhận thấy khả năng xác định một khái niệm về "các điểm đủ gần nhau" và do đó một cấu trúc đều, bằng cách làm như sau: nếu x và y là hai điểm bất kỳ của G, ta áp dụng cho cả hai điểm phép tịnh tiến đưa một trong hai điểm ấy, chẳng hạn x, về phần tử đơn vị e; khi đó "độ gần nhau" của x và y được đánh giá theo một nghĩa nào đó bởi lân cận V của e mà vào đó y được chuyển tới. Phép tịnh tiến này, gồm việc nhân cả x lẫn y với $x^{-1}$, có thể được thực hiện ở phải hoặc ở trái, và ta sẽ thấy rằng trong cả hai trường hợp ta thực sự thu được một cấu trúc đều trên G tương thích với tôpô của G. Hãy xét trường hợp trong đó các phép tịnh tiến được thực hiện ở phải; khi đó với mỗi lân cận V của e tương ứng tập hợp $V_d$ gồm các cặp $(x, y) \in G \times G$ sao cho $yx^{-1} \in V$. Gọi $\mathcal{G}_d$ là họ các tập hợp $V_d$, khi V chạy qua bộ lọc lân cận $\mathfrak{B}$ của e. Khi đó $\mathcal{G}_d$ là một hệ cơ sở của các entourage (Chương II, § 1, no. 1). Thật vậy, vì $e \in V$, đường chéo $\Delta$ của $G \times G$ được chứa trong $V_d$ với mọi $V \in \mathfrak{B}$, do đó $\mathcal{G}_d$ là một cơ sở bộ lọc và thỏa mãn tiên đề $(U'_1)$; vì các quan hệ $yx^{-1} \in V$ và $xy^{-1} \in V^{-1}$ là tương đương, ta có $\overline{V}_d^1 = (V^{-1})_d$, do đó $\overline{V}_d^1 \in \mathcal{G}_d$ theo (GV$_{\text{II}}$), nên (U'$_{\text{II}}$) được thỏa mãn; và sau cùng, các quan hệ $zx^{-1} \in V$ và $yz^{-1} \in V$ kéo theo $yx^{-1} \in V.V$; do đó $V_d \circ V_d$ được chứa trong (V.V)$_d$, và (GV$_{\text{I}}$) cho thấy rằng $\mathcal{G}_d$ thỏa mãn (U'$_{\text{III}}$).
+Trong một nhóm tôpô G, ta có thể nhận thấy khả năng xác định một khái niệm về "các điểm đủ gần nhau" và do đó một cấu trúc đều, bằng cách làm như sau: nếu x và y là hai điểm bất kỳ của G, ta áp dụng cho cả hai điểm phép tịnh tiến đưa một trong hai điểm ấy, chẳng hạn x, về phần tử đơn vị e; khi đó "độ gần nhau" của x và y được đánh giá theo một nghĩa nào đó bởi lân cận V của e mà vào đó y được chuyển tới. Phép tịnh tiến này, gồm việc nhân cả x lẫn y với $x^{-1}$, có thể được thực hiện ở phải hoặc ở trái, và ta sẽ thấy rằng trong cả hai trường hợp ta thực sự thu được một cấu trúc đều trên G tương thích với tôpô của G. Hãy xét trường hợp trong đó các phép tịnh tiến được thực hiện ở phải; khi đó với mỗi lân cận V của e tương ứng tập hợp $V_d$ gồm các cặp $(x, y) \in G \times G$ sao cho $yx^{-1} \in V$. Gọi $\mathscr{G}_d$ là họ các tập hợp $V_d$, khi V chạy qua bộ lọc lân cận $\mathfrak{B}$ của e. Khi đó $\mathscr{G}_d$ là một hệ cơ sở của các entourage (Chương II, § 1, no. 1). Thật vậy, vì $e \in V$, đường chéo $\Delta$ của $G \times G$ được chứa trong $V_d$ với mọi $V \in \mathfrak{B}$, do đó $\mathscr{G}_d$ là một cơ sở bộ lọc và thỏa mãn tiên đề $(U'_1)$; vì các quan hệ $yx^{-1} \in V$ và $xy^{-1} \in V^{-1}$ là tương đương, ta có $\overline{V}_d^1 = (V^{-1})_d$, do đó $\overline{V}_d^1 \in \mathscr{G}_d$ theo (GV$_{\text{II}}$), nên (U'$_{\text{II}}$) được thỏa mãn; và sau cùng, các quan hệ $zx^{-1} \in V$ và $yz^{-1} \in V$ kéo theo $yx^{-1} \in V.V$; do đó $V_d \circ V_d$ được chứa trong (V.V)$_d$, và (GV$_{\text{I}}$) cho thấy rằng $\mathscr{G}_d$ thỏa mãn (U'$_{\text{III}}$).
 
-Cấu trúc đều được xác định bởi $\mathcal{G}_d$ là tương thích với tôpô của G, vì các quan hệ $y \in V_d(x)$ và $y \in V.x$ theo định nghĩa là tương đương; nói cách khác $V_d(x) = V.x$.
+Cấu trúc đều được xác định bởi $\mathscr{G}_d$ là tương thích với tôpô của G, vì các quan hệ $y \in V_d(x)$ và $y \in V.x$ theo định nghĩa là tương đương; nói cách khác $V_d(x) = V.x$.
 
 Lập luận là tương tự khi các phép tịnh tiến ở bên trái, và do đó ta có thể đưa ra định nghĩa sau:
 
@@ -61,7 +61,7 @@ Khi V chạy qua một hệ cơ bản các lân cận của e, các tập hợp 
 Với mỗi mệnh đề về tôpô của một không gian đều thì tương ứng có một mệnh đề về tôpô của một nhóm; phép chuyển dịch được thực hiện theo Định nghĩa 1 và các công thức $V_d(x) = V.x,\ V_d(A) = V.A,\ V_s(x) = x.V,\ V_s(A) = A.V,$ là những hệ quả ngay lập tức của định nghĩa. Chẳng hạn, nếu A là một tập con không rỗng bất kỳ của G thì ta có (Chương II, § 1, no. 2, Hệ quả 1 của Mệnh đề 2)
 
 $$
-\overline{A} = \bigcap_{V \in \mathcal{B}} V.A = \bigcap_{V \in \mathcal{B}} A.V.
+\overline{A} = \bigcap_{V \in \mathscr{B}} V.A = \bigcap_{V \in \mathscr{B}} A.V.
 $$
 
 Lại nữa (Chương II, § 1, no. 2, Hệ quả 3 của Mệnh đề 2), *mọi nhóm Hausdorff đều chính quy*.
@@ -165,7 +165,7 @@ và vì $W$ là một lân cận của $e$, tồn tại một tập $W_d$-nhỏ 
 
 2) *Các hàm được mở rộng* $xy$ và $x^{-1}$ *xác định một cấu trúc nhóm trên* $\hat{G}_d$. Thật vậy, nếu ta áp dụng nguyên lý mở rộng các đồng nhất thức (Chương I, § 8, no. 1, Mệnh đề 2, Hệ quả 1) cho các hàm $x(yz)$ và $(xy)z$, được định nghĩa trên $\hat{G}_d \times \hat{G}_d \times \hat{G}_d$ và bằng nhau trên không gian con trù mật $G_d \times G_d \times G_d$, thì ta thấy rằng luật hợp thành $(x, y) \to xy$ là *kết hợp* trên $\hat{G}_d$. Vì cùng lý do đó, các hàm $x, ex, xe$ là đồng nhất trên $\hat{G}_d$, và các hàm $e, xx^{-1}, x^{-1}x$ là đồng nhất trên $\hat{G}_d$.
 
-3) *Nhóm tôpô* $\hat{G}_d$ *là đầy đủ*. Gọi $\mathcal{U}_d$ là *cấu trúc đều phải* của nó, và gọi $\mathcal{U}$ là cấu trúc đều trên $\hat{G}_d$ thu được bằng cách *làm đầy đủ* cấu trúc đều phải của $G$. Khi đó $\mathcal{U}$ và $\mathcal{U}_d$ cảm sinh *cùng một* cấu trúc đều trên $G$, và do đó mọi cơ sở bộ lọc Cauchy $\mathcal{B}$ *trên* $G$ *đối với* $\mathcal{U}_d$ *cũng là một cơ sở bộ lọc Cauchy đối với* $\mathcal{U}$. Bây giờ $\mathcal{B}$ hội tụ trong $\hat{G}_d$,
+3) *Nhóm tôpô* $\hat{G}_d$ *là đầy đủ*. Gọi $\mathscr{U}_d$ là *cấu trúc đều phải* của nó, và gọi $\mathscr{U}$ là cấu trúc đều trên $\hat{G}_d$ thu được bằng cách *làm đầy đủ* cấu trúc đều phải của $G$. Khi đó $\mathscr{U}$ và $\mathscr{U}_d$ cảm sinh *cùng một* cấu trúc đều trên $G$, và do đó mọi cơ sở bộ lọc Cauchy $\mathscr{B}$ *trên* $G$ *đối với* $\mathscr{U}_d$ *cũng là một cơ sở bộ lọc Cauchy đối với* $\mathscr{U}$. Bây giờ $\mathscr{B}$ hội tụ trong $\hat{G}_d$,
 
 4) *Tính duy nhất.* Điều này suy ra từ Mệnh đề 5 của no. 3.
 
@@ -203,21 +203,21 @@ Tính liên tục đều của $x^{-1}$ suy ra từ Mệnh đề 2 của no. 1, 
 
 #### Mệnh đề 9 {#top-iii-s3-prop-9 .statement}
 
-Cho $G$ là một nhóm giao hoán, và $\mathcal{T}_1, \mathcal{T}_2$ là hai tôpô Hausdorff tương thích với cấu trúc nhóm của $G$. Giả sử rằng $\mathcal{T}_1$ mịn hơn $\mathcal{T}_2$ và tồn tại một hệ cơ bản các lân cận của $o$ đối với $\mathcal{T}_1$ mà đều đóng đối với $\mathcal{T}_2$. Gọi $G_1, G_2$ lần lượt là các bổ sung của $G$ đối với các tôpô $\mathcal{T}_1, \mathcal{T}_2$, và gọi $f : G_1 \to G_2$ là đồng cấu liên tục kéo dài ánh xạ đồng nhất của $G$ (no. 3, Mệnh đề 5). Khi đó $f$ là đơn ánh.
+Cho $G$ là một nhóm giao hoán, và $\mathscr{T}_1, \mathscr{T}_2$ là hai tôpô Hausdorff tương thích với cấu trúc nhóm của $G$. Giả sử rằng $\mathscr{T}_1$ mịn hơn $\mathscr{T}_2$ và tồn tại một hệ cơ bản các lân cận của $o$ đối với $\mathscr{T}_1$ mà đều đóng đối với $\mathscr{T}_2$. Gọi $G_1, G_2$ lần lượt là các bổ sung của $G$ đối với các tôpô $\mathscr{T}_1, \mathscr{T}_2$, và gọi $f : G_1 \to G_2$ là đồng cấu liên tục kéo dài ánh xạ đồng nhất của $G$ (no. 3, Mệnh đề 5). Khi đó $f$ là đơn ánh.
 
-Giả sử rằng $G$ được viết theo phép cộng. Gọi $\mathcal{U}_1$ là cấu trúc đều trên $G$ tương ứng (no. 1) với tôpô $\mathcal{T}_1$: chỉ cần chứng minh rằng nếu $\mathfrak{F}$ và $\mathfrak{F}'$ là hai bộ lọc Cauchy cực tiểu (Chương II, § 3, no. 2) đối với $\mathcal{U}_1$, cùng hội tụ trong $G_2$ đến một điểm $a$, thì $\mathfrak{F} = \mathfrak{F}'$ (Chương II, § 3, no. 7). Để làm điều đó, chỉ cần chứng minh rằng $\mathfrak{F} \cap \mathfrak{F}'$ là một bộ lọc Cauchy đối với $\mathcal{U}_1$. Cho $V$ là một lân cận của $o$ trong $G$ đối với $\mathcal{T}_1$, sao cho $V$ đóng trong $\mathcal{T}_2$, và cho $W$ là một lân cận đối xứng của $o$ trong $G$ đối với $\mathcal{T}_1$, sao cho $W + W \subset V$. Theo giả thiết, có một tập $W_d$-nhỏ $M$ (resp. $M'$) trong $\mathfrak{F}$ (resp. $\mathfrak{F}'$); nếu $x \in M$ và $y \in M$ thì ta có $y - x \in W$, tức là $y \in x + W$. Nếu $\overline{W}$ và $\overline{V}$ là các bao đóng của $W$ và $V$ trong $G_2$, suy ra $y \in x + \overline{W}$, và do đó, vì $a$ thuộc bao đóng của $M$, nên $a \in x + \overline{W}$ với mọi $x \in M$. Tương tự, $a \in x' + \overline{W}$ với mọi $x' \in M'$, và vì thế $x - x' \in \overline{W} + \overline{W}$; nhưng vì $(x, y) \to x + y$ là một ánh xạ liên tục từ $G_2 \times G_2$ vào $G_2$, nên ta có $\overline{W} + \overline{W} \subset \overline{W} + \overline{W} \subset \overline{V}$. Suy ra rằng nếu $x \in M$ và $x' \in M'$, thì $x - x' \in \overline{V} \cap G = V$, vì $V$ đóng trong $\mathcal{T}_2$; và điều này hoàn thành chứng minh.
+Giả sử rằng $G$ được viết theo phép cộng. Gọi $\mathscr{U}_1$ là cấu trúc đều trên $G$ tương ứng (no. 1) với tôpô $\mathscr{T}_1$: chỉ cần chứng minh rằng nếu $\mathfrak{F}$ và $\mathfrak{F}'$ là hai bộ lọc Cauchy cực tiểu (Chương II, § 3, no. 2) đối với $\mathscr{U}_1$, cùng hội tụ trong $G_2$ đến một điểm $a$, thì $\mathfrak{F} = \mathfrak{F}'$ (Chương II, § 3, no. 7). Để làm điều đó, chỉ cần chứng minh rằng $\mathfrak{F} \cap \mathfrak{F}'$ là một bộ lọc Cauchy đối với $\mathscr{U}_1$. Cho $V$ là một lân cận của $o$ trong $G$ đối với $\mathscr{T}_1$, sao cho $V$ đóng trong $\mathscr{T}_2$, và cho $W$ là một lân cận đối xứng của $o$ trong $G$ đối với $\mathscr{T}_1$, sao cho $W + W \subset V$. Theo giả thiết, có một tập $W_d$-nhỏ $M$ (resp. $M'$) trong $\mathfrak{F}$ (resp. $\mathfrak{F}'$); nếu $x \in M$ và $y \in M$ thì ta có $y - x \in W$, tức là $y \in x + W$. Nếu $\overline{W}$ và $\overline{V}$ là các bao đóng của $W$ và $V$ trong $G_2$, suy ra $y \in x + \overline{W}$, và do đó, vì $a$ thuộc bao đóng của $M$, nên $a \in x + \overline{W}$ với mọi $x \in M$. Tương tự, $a \in x' + \overline{W}$ với mọi $x' \in M'$, và vì thế $x - x' \in \overline{W} + \overline{W}$; nhưng vì $(x, y) \to x + y$ là một ánh xạ liên tục từ $G_2 \times G_2$ vào $G_2$, nên ta có $\overline{W} + \overline{W} \subset \overline{W} + \overline{W} \subset \overline{V}$. Suy ra rằng nếu $x \in M$ và $x' \in M'$, thì $x - x' \in \overline{V} \cap G = V$, vì $V$ đóng trong $\mathscr{T}_2$; và điều này hoàn thành chứng minh.
 
 #### Hệ quả 1 {#top-iii-s3-prop-9-cor-1 .statement}
 
-Dưới các giả thiết của Mệnh đề 9, nếu $A$ là một tập con của $G$ là một không gian con đầy đủ đối với cấu trúc đều $U_2$ tương ứng với $\mathcal{T}_2$, thì $A$ cũng là một không gian con đầy đủ đối với cấu trúc đều $U_1$ tương ứng với $\mathcal{T}_1$.
+Dưới các giả thiết của Mệnh đề 9, nếu $A$ là một tập con của $G$ là một không gian con đầy đủ đối với cấu trúc đều $U_2$ tương ứng với $\mathscr{T}_2$, thì $A$ cũng là một không gian con đầy đủ đối với cấu trúc đều $U_1$ tương ứng với $\mathscr{T}_1$.
 
 Nếu $A_1$ là bao đóng của $A$ trong $G_1$, thì $f(A_1)$ được chứa trong bao đóng của $A$ trong $G_2$, mà theo giả thiết thì bằng $A$. Vì $f(A) = A$ theo định nghĩa và $f$ là đơn ánh, ta có $A_1 = A$.
 
 #### Hệ quả 2 {#top-iii-s3-prop-9-cor-2 .statement}
 
-Cho $G$ là một nhóm giao hoán và cho $\mathcal{T}_1, \mathcal{T}_2$ là hai tôpô tương thích với cấu trúc nhóm của $G$. Giả sử rằng $\mathcal{T}_1$ mịn hơn $\mathcal{T}_2$ và rằng tồn tại một hệ cơ bản $\mathcal{B}$ các lân cận của $O$ đối với $\mathcal{T}_1$ mà đầy đủ đối với cấu trúc đều $U_2$ tương ứng với $\mathcal{T}_2$. Khi đó $G$ là đầy đủ đối với cấu trúc đều $U_1$ tương ứng với $\mathcal{T}_1$.
+Cho $G$ là một nhóm giao hoán và cho $\mathscr{T}_1, \mathscr{T}_2$ là hai tôpô tương thích với cấu trúc nhóm của $G$. Giả sử rằng $\mathscr{T}_1$ mịn hơn $\mathscr{T}_2$ và rằng tồn tại một hệ cơ bản $\mathscr{B}$ các lân cận của $O$ đối với $\mathscr{T}_1$ mà đầy đủ đối với cấu trúc đều $U_2$ tương ứng với $\mathscr{T}_2$. Khi đó $G$ là đầy đủ đối với cấu trúc đều $U_1$ tương ứng với $\mathscr{T}_1$.
 
-Các tập hợp của $\mathcal{B}$ là đóng trong tôpô $\mathcal{T}_2$, do đó đầy đủ đối với cấu trúc đều $U_1$ theo Hệ quả 1; vì thế kết quả suy ra từ Mệnh đề 4 của no. 3.
+Các tập hợp của $\mathscr{B}$ là đóng trong tôpô $\mathscr{T}_2$, do đó đầy đủ đối với cấu trúc đều $U_1$ theo Hệ quả 1; vì thế kết quả suy ra từ Mệnh đề 4 của no. 3.
 
 ### Bài tập {#top-iii-s3-exercises}
 

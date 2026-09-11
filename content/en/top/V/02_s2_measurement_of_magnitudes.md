@@ -11,7 +11,7 @@ pdf_pages: 0018-0023, 0031-0031
 extraction: ocr
 statements: 5
 exercises: 2
-content_sha256: f069c591d5864c6d5318ca3b67c20ab746c5526dd0f4324b46149dcbc086d510
+content_sha256: b2cefe42ca2e7cd8da7c6ef7e8fa6809395ef59dc04889c406a4278d40d59ac6
 ---
 
 ## 2. MEASUREMENT OF MAGNITUDES
@@ -73,11 +73,11 @@ $$
 
 Let (x : y) = p and (y : z) = q; then y^p ≤ x and z^q ≤ y, so that (z^q)^p is defined and ≤ x; it belongs therefore to I; consequently z^{pq} is defined and we have z^{pq} = (z^q)^p ≤ x, from which the first inequality follows. On the other hand, if z^{(p+1)(q+1)} is defined, we have z^{(p+1)(q+1)} > x, because y^{p+1} > x and z^{q+1} > y; hence the second inequality.
 
-Let $\tilde{\mathcal{X}}$ denote the filter of sections of the ordered set of elements > ω in I, with respect to the relation ≥; the intervals ]ω, z[, where z runs through the set of all elements > ω, form a base of $\tilde{\mathcal{X}}$. Given two elements a and x of I such that a > ω, we shall show that the ratio $\frac{(x : z)}{(a : z)}$, which is defined for z ≤ a and is a rational number > 0,
+Let $\tilde{\mathscr{X}}$ denote the filter of sections of the ordered set of elements > ω in I, with respect to the relation ≥; the intervals ]ω, z[, where z runs through the set of all elements > ω, form a base of $\tilde{\mathscr{X}}$. Given two elements a and x of I such that a > ω, we shall show that the ratio $\frac{(x : z)}{(a : z)}$, which is defined for z ≤ a and is a rational number > 0,
 
 (*) When E = I is the set of natural integers, the law of composition being addition, (x : y) is the integral part of x/y.
 
-is a function of $z$ which has a *limit* with respect to $\mathfrak{F}$. This is obvious if $x = \omega$, for then $(x : z) = 0$ for all $z$. If $x > \omega$, we shall show that the image $\mathcal{G}$ of $\mathfrak{F}$ under the mapping $z \to \frac{(x : z)}{(a : z)}$ (restricted to the set of those $z > \omega$ which are $\leq x$ and $\leq a$) is a Cauchy filter base for the uniform structure of the *multiplicative* group $\mathbf{R}_+^*$, and therefore converges to a real number $> 0$. Note first that, $u > \omega$ being given, $(u : z)$ has limit $+\infty$ with respect to $\mathfrak{F}$: for there exists $z > \omega$ such that $z^{2^n} \leq u$, so that $(u : z) \geq 2^n > n$. Now take a number $\varepsilon > 0$ arbitrarily; there exists $t > \omega$ such that $(x : t) \geq 1 / \varepsilon$ and $(a : t) \geq 1 / \varepsilon$. Consider the double inequality
+is a function of $z$ which has a *limit* with respect to $\mathfrak{F}$. This is obvious if $x = \omega$, for then $(x : z) = 0$ for all $z$. If $x > \omega$, we shall show that the image $\mathscr{G}$ of $\mathfrak{F}$ under the mapping $z \to \frac{(x : z)}{(a : z)}$ (restricted to the set of those $z > \omega$ which are $\leq x$ and $\leq a$) is a Cauchy filter base for the uniform structure of the *multiplicative* group $\mathbf{R}_+^*$, and therefore converges to a real number $> 0$. Note first that, $u > \omega$ being given, $(u : z)$ has limit $+\infty$ with respect to $\mathfrak{F}$: for there exists $z > \omega$ such that $z^{2^n} \leq u$, so that $(u : z) \geq 2^n > n$. Now take a number $\varepsilon > 0$ arbitrarily; there exists $t > \omega$ such that $(x : t) \geq 1 / \varepsilon$ and $(a : t) \geq 1 / \varepsilon$. Consider the double inequality
 
 $$
 \frac{(x : t)}{(a : t) + 1} \cdot \frac{(t : z)}{(t : z) + 1} \leq \frac{(x : z)}{(a : z)} \leq \frac{(x : t) + 1}{(a : t)} \cdot \frac{(t : z) + 1}{(t : z)},
@@ -89,7 +89,7 @@ $$
 \frac{1}{(1 + \varepsilon)^2} \frac{(x : t)}{(a : t)} \leq \frac{(x : z)}{(a : z)} \leq (1 + \varepsilon)^2 \frac{(x : t)}{(a : t)},
 $$
 
-which shows that $\mathcal{G}$ is a Cauchy filter base for the multiplicative uniformity.
+which shows that $\mathscr{G}$ is a Cauchy filter base for the multiplicative uniformity.
 
 Fix once and for all the element $a > \omega$ (the "unit of measure") and for each $x \in I$ put
 

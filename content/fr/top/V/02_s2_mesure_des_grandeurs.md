@@ -12,7 +12,7 @@ pdf_pages: 0012-0016, 0023-0023
 extraction: ocr
 statements: 5
 exercises: 2
-content_sha256: bd7e65967af93f4f719b250f95e6f706ae85d916ffa49b125b4ce3f1fbc0df61
+content_sha256: 5099fd59fdbf6d2becc68537d181603c970ffb95c4e1046bbf8b91222556bcfb
 ---
 
 ## § 2. MESURE DES GRANDEURS
@@ -125,7 +125,7 @@ d’où
 $$
 \lambda \frac{(x:z)}{(a:z) + 1} \leq g(x) \leq \lambda \frac{(x:z) + 1}{(a:z)},
 $$
-et, en passant à la limite suivant $\mathcal{F}$, on a $g(x) = \lambda f(x)$.
+et, en passant à la limite suivant $\mathscr{F}$, on a $g(x) = \lambda f(x)$.
 
 Cherchons à quelles conditions $f(I)$ est un intervalle de $\mathbf{R}_+$. On a évidemment deux conditions nécessaires:
 

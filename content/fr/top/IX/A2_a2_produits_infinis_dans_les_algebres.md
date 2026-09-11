@@ -26,7 +26,7 @@ subsections:
       pdf_page: 202
 statements: 16
 exercises: 8
-content_sha256: 08e13ee94a1406e81b201e3c665c3629632ff1cabff45c15f5a1c0046f18485c
+content_sha256: ab6ab83a7be20d6d31a5cb9faff75800a97c61a65f3a651a3c634d8fa3f7f2ca
 ---
 
 ## APPENDICE 2
@@ -41,7 +41,7 @@ Soit $(x_n)_{n \geq N}$ une suite infinie de points de $A$; toute partie finie $
 
 #### Définition 1 {#top-ix-a2-def-1 .statement}
 
-On dit que la suite $(x_n)_{n \geq N}$ est multipliable dans l’algèbre normée $A$ si l’application $J \mapsto p_J$ a une limite suivant le filtre des sections de l’ensemble $\mathcal{F}(\mathbf{N})$ des parties finies de $\mathbf{N}$, ordonné par la relation $\subset$; cette limite est appelée le produit de la suite $(x_n)_{n \in \mathbf{N}}$, et noté $\prod_{n \in \mathbf{N}} x_n$ (ou simplement $\prod_n x_n$); les $x_n$ sont appelés les facteurs de ce produit.
+On dit que la suite $(x_n)_{n \geq N}$ est multipliable dans l’algèbre normée $A$ si l’application $J \mapsto p_J$ a une limite suivant le filtre des sections de l’ensemble $\mathscr{F}(\mathbf{N})$ des parties finies de $\mathbf{N}$, ordonné par la relation $\subset$; cette limite est appelée le produit de la suite $(x_n)_{n \in \mathbf{N}}$, et noté $\prod_{n \in \mathbf{N}} x_n$ (ou simplement $\prod_n x_n$); les $x_n$ sont appelés les facteurs de ce produit.
 
 La déf. 1 équivaut à la suivante: la suite $(x_n)$ est multipliable et a pour produit $p$ si, pour tout $\varepsilon > 0$, il existe une partie finie $J_0$ de $\mathbf{N}$ telle que, pour toute partie finie $J \supset J_0$ de $\mathbf{N}$, on ait $\|p_J - p\| \leq \varepsilon$.
 
@@ -73,7 +73,7 @@ $$
 \| \mathbf{p}_H - \mathbf{p}_{H_1} \| \leq (\| \mathbf{p}_{H_0} \|)^{-1} \| \mathbf{p}_{H_1} \| \varepsilon \leq \varepsilon (1 + \varepsilon).
 $$
 
-Le critère de Cauchy montre donc que $J \mapsto \mathbf{p}_J$ a une limite dans $A$ suivant l’ensemble filtrant $\mathcal{F}(\mathbf{N})$.
+Le critère de Cauchy montre donc que $J \mapsto \mathbf{p}_J$ a une limite dans $A$ suivant l’ensemble filtrant $\mathscr{F}(\mathbf{N})$.
 
 Si tous les $x_n$ sont inversibles, il en est de même de tous les produits partiels finis $p_J$; pour toute partie finie $H$ contenant $H_0$, on peut donc écrire
 

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 62
 statements: 19
 exercises: 7
-content_sha256: a33bf1371dd04819f76afee0079b4a0975f84517fd416537c2dc559b3590b2d5
+content_sha256: 30dba7323889038f76c33d9b9adc0f5edfe59becd45d518ac13c610a0d6b5a52
 translated_from: content/en/top/I/05_s5_open_mappings_and_closed_mappings.md
 source_content_sha256: 770385711f45d74c8c5f1640b5013319a5b971ac533bc0206d4387875c1ade48
 translation_model: gpt-5.4
@@ -164,11 +164,11 @@ và $h \circ \varphi$ là ánh xạ từ $A$ vào $f(A)$ trùng với $f$ trên 
 
 #### Mệnh đề 5 {#top-i-s5-prop-5 .statement}
 
-*Cho $X, Y$ là hai không gian tôpô, $f$ là một ánh xạ từ $X$ vào $Y, \mathcal{B}$ là một cơ sở của tôpô trên $X$. Khi đó các mệnh đề sau là tương đương*:
+*Cho $X, Y$ là hai không gian tôpô, $f$ là một ánh xạ từ $X$ vào $Y, \mathscr{B}$ là một cơ sở của tôpô trên $X$. Khi đó các mệnh đề sau là tương đương*:
 
 a) *$f$ là một ánh xạ mở*.
 
-b) *Với mỗi $U \in \mathcal{B}$, $f(U)$ là mở trong $Y$*.
+b) *Với mỗi $U \in \mathscr{B}$, $f(U)$ là mở trong $Y$*.
 
 c) *Với mỗi $x \in X$ và mỗi lân cận $V$ của $x$ trong $X$, $f(V)$ là một lân cận của $f(x)$ trong $Y$*.
 

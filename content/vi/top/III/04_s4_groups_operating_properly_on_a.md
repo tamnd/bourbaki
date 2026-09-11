@@ -36,9 +36,9 @@ subsections:
       pdf_page: 265
 statements: 33
 exercises: 23
-content_sha256: 6c2ab4005e4f2c740902b5093e40fbfb1ec90ccad489b06a72c549f7ac42fb6c
+content_sha256: 0040e5d35afe1e7fe059436db2718d4fd5a8c382cfde9e13f9fd8961dbe186d7
 translated_from: content/en/top/III/04_s4_groups_operating_properly_on_a.md
-source_content_sha256: 3ca46d1a9c871ef504c2f339d9da2414e8fff5747912bc9df5ba1469bda2f343
+source_content_sha256: 5e2dd8346a06e4cb97cfadd8d07cdc68593cb15b9e836abb31f0faba5e883e9b
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-819ebfcb
 glossary_version: 34
@@ -284,7 +284,7 @@ Rõ ràng, ta có $P(K, L) \subset P(K \cup L, K \cup L)$; do đó để $G$ tá
 
 Cho $X$ là một đa tạp giải tích phức, đẳng cấu giải tích với một tập con mở bị chặn của $\mathbf{C}^n$, và cho $G$ là nhóm các tự đẳng cấu giải tích của $X$. Tôpô hội tụ compact tương thích với cấu trúc nhóm của $G$, và có thể chứng minh rằng $G$ tác động thực sự trên $X$. Đặc biệt, mọi nhóm con rời rạc của $G$ đều tác động thực sự trên $X$.
 
-Lấy ví dụ $X$ là nửa mặt phẳng trên $\mathcal{J}(z) > 0$, giải tích đẳng cấu với một đĩa mở trong $\mathbf{C}$. Khi đó $G$ là nhóm gồm mọi phép biến đổi $z \to (az + b)/(cz + d)$, trong đó $a, b, c, d$ là các số thực và $ad - bc \neq 0$. Nhóm con $H$ của $G$ gồm tất cả các phép biến đổi như vậy mà ở đó $a, b, c, d$ là các số nguyên và $ad - bc = 1$ là một nhóm con rời rạc của $G$, được gọi là *nhóm môđun*. Theo điều đã nói ở trên, nó tác động một cách thực sự trên nửa mặt phẳng trên $\mathcal{J}(z) > 0$.*
+Lấy ví dụ $X$ là nửa mặt phẳng trên $\mathscr{J}(z) > 0$, giải tích đẳng cấu với một đĩa mở trong $\mathbf{C}$. Khi đó $G$ là nhóm gồm mọi phép biến đổi $z \to (az + b)/(cz + d)$, trong đó $a, b, c, d$ là các số thực và $ad - bc \neq 0$. Nhóm con $H$ của $G$ gồm tất cả các phép biến đổi như vậy mà ở đó $a, b, c, d$ là các số nguyên và $ad - bc = 1$ là một nhóm con rời rạc của $G$, được gọi là *nhóm môđun*. Theo điều đã nói ở trên, nó tác động một cách thực sự trên nửa mặt phẳng trên $\mathscr{J}(z) > 0$.*
 
 #### Mệnh đề 12 {#top-iii-s4-prop-12 .statement}
 

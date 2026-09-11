@@ -28,26 +28,26 @@ subsections:
       pdf_page: 320
 statements: 18
 exercises: 21
-content_sha256: 352337cc126af02c15ffde78bc5a2610b483c38d6be644a79f5231184afe7314
+content_sha256: 3e9a477ddda6ced3617f3120b0bf7a65a4a1aca4d420e95bfec5bd3f38875e9a
 ---
 
 ## 4. APPROXIMATION OF CONTINUOUS REAL-VALUED FUNCTIONS
 
 ### 1. APPROXIMATION OF CONTINUOUS FUNCTIONS BY FUNCTIONS BELONGING TO A LATTICE
 
-In this section we shall study the set $\mathcal{C} = C(X; \mathbf{R})$ of continuous real-valued functions (*) defined on a *compact* space $X$, and we shall always suppose that $\mathcal{C}$ is endowed with the topology of *uniform convergence*. From § 3, no. 2 we know that this topology is defined by the norm
+In this section we shall study the set $\mathscr{C} = C(X; \mathbf{R})$ of continuous real-valued functions (*) defined on a *compact* space $X$, and we shall always suppose that $\mathscr{C}$ is endowed with the topology of *uniform convergence*. From § 3, no. 2 we know that this topology is defined by the norm
 
 $$
 ||f|| = \sup_{x \in X} |f(x)|
 $$
 
-and that this norm is compatible with the $\mathbf{R}$-algebra structure of $\mathcal{C}$. With this norm and this algebra structure, $\mathcal{C}$ is a *complete normed algebra* over $\mathbf{R}$ ($§ 1$, no. 6, Theorem 2, Corollary 1).
+and that this norm is compatible with the $\mathbf{R}$-algebra structure of $\mathscr{C}$. With this norm and this algebra structure, $\mathscr{C}$ is a *complete normed algebra* over $\mathbf{R}$ ($§ 1$, no. 6, Theorem 2, Corollary 1).
 
 (*) The real-valued functions under consideration in this section are assumed always to be *finite*.
 
-If $H$ is a subset of $\mathcal{C}$, we shall say that a continuous real-valued function $f$ on $X$ can be uniformly approximated by functions of $H$ if $f$ lies in the closure of $H$ in the space $\mathcal{C}$, i.e. if, for each $\varepsilon > 0$, there exists a function $g \in H$ such that $|f(x) - g(x)| \leq \varepsilon$ for all $x \in X$. To say that every continuous real-valued function on $X$ can be uniformly approximated by functions of $H$ therefore means that $H$ is dense in $\mathcal{C}$.
+If $H$ is a subset of $\mathscr{C}$, we shall say that a continuous real-valued function $f$ on $X$ can be uniformly approximated by functions of $H$ if $f$ lies in the closure of $H$ in the space $\mathscr{C}$, i.e. if, for each $\varepsilon > 0$, there exists a function $g \in H$ such that $|f(x) - g(x)| \leq \varepsilon$ for all $x \in X$. To say that every continuous real-valued function on $X$ can be uniformly approximated by functions of $H$ therefore means that $H$ is dense in $\mathscr{C}$.
 
-On the set $\mathcal{C}$, the relation $f \leq g$ [which means that $f(x) \leq g(x)$ for all $x \in X$] is an order relation, with respect to which $\mathcal{C}$ is a lattice. Clearly we have $|||u| - |v||| \leq ||u - v||$, and therefore $u \to |u|$ is a uniformly continuous mapping of $\mathcal{C}$ into itself. It follows that
+On the set $\mathscr{C}$, the relation $f \leq g$ [which means that $f(x) \leq g(x)$ for all $x \in X$] is an order relation, with respect to which $\mathscr{C}$ is a lattice. Clearly we have $|||u| - |v||| \leq ||u - v||$, and therefore $u \to |u|$ is a uniformly continuous mapping of $\mathscr{C}$ into itself. It follows that
 
 $$
 (u, v) \to \sup (u, v) = \frac{1}{2}(u + v + |u - v|)
@@ -59,7 +59,7 @@ $$
 (u, v) \to \inf (u, v) = \frac{1}{2}(u + v - |u - v|)
 $$
 
-are uniformly continuous on $\mathcal{C} \times \mathcal{C}$.
+are uniformly continuous on $\mathscr{C} \times \mathscr{C}$.
 
 PROPOSITION I. Let $X$ be a compact space and let $H$ be a set of continuous real-valued functions defined on $X$. Let $f$ be a continuous real-valued function on $X$ such that for each $x \in X$ there exists a function $u_x \in H$ such that $u_x(x) > f(x)$ [resp. $u_x(x) < f(x)$]. Then there exists a finite number of functions $u_{x_i} = f_i \in H$ ($1 \leq i \leq n$) such that, if $v = \sup(f_1, f_2, \ldots, f_n)$ [resp. $w = \inf(f_1, f_2, \ldots, f_n)$], we have $v(x) > f(x)$ [resp. $w(x) < f(x)$] for all $x \in X$.
 
@@ -97,7 +97,7 @@ For example, if X is a completely regular space (Chapter IX, § 1, no. 5) then t
 
 #### Theorem 2 (Stone) {#top-x-s4-thm-2 .statement}
 
-*Let X be a compact space, and let H be a vector subspace of $\mathcal{C}(X; \mathbf{R})$ such that 1) the constant functions belong to H; 2) if $u \in H$, then $|u| \in H$; 3) H separates the points of X. Then every continuous real-valued function on X can be uniformly approximated by functions of H.*
+*Let X be a compact space, and let H be a vector subspace of $\mathscr{C}(X; \mathbf{R})$ such that 1) the constant functions belong to H; 2) if $u \in H$, then $|u| \in H$; 3) H separates the points of X. Then every continuous real-valued function on X can be uniformly approximated by functions of H.*
 
 It is enough to show that H satisfies the conditions of the Corollary to Proposition 2. By hypothesis, if $u \in H$ and $v \in H$, we have
 
@@ -123,9 +123,9 @@ Given a set H of real-valued functions defined on a set X, we say that a real-va
 
 *Let X be a compact space and let H be a set of continuous real-valued functions on X which separates the points of X. Then every continuous real-valued function on X can be uniformly approximated by polynomials (with real coefficients) in the functions of H.*
 
-An equivalent statement of the theorem is that *any subalgebra of $\mathcal{C}(X; \mathbf{R})$ which contains the constant functions and separates the points of X is dense in $\mathcal{C}(X; \mathbf{R})$*.
+An equivalent statement of the theorem is that *any subalgebra of $\mathscr{C}(X; \mathbf{R})$ which contains the constant functions and separates the points of X is dense in $\mathscr{C}(X; \mathbf{R})$*.
 
-Let $H_0$ be the set of all polynomials in the functions of H, and let $\overline{H}_0$ be the closure of $H_0$ in $\mathcal{C}$. If g is any polynomial in n variables with real coefficients, then $(u_1, u_2, \ldots, u_n) \to g(u_1, u_2, \ldots, u_n)$ is a continuous mapping of $\mathcal{C}^n$ into $\mathcal{C}$, which maps $H_0^n$ into $H_0$, and therefore maps $\overline{H}_0^n$ into $\overline{H}_0$ (Chapter I, § 2, no. 1, Theorem 1). In particular, $\overline{H}_0$ is a vector subspace of $\mathcal{C}$ and evidently satisfies the first and third conditions of Theorem 2; we shall show that it also satisfies the second condition, and this will prove that $\overline{H}_0 = \mathcal{C}$.
+Let $H_0$ be the set of all polynomials in the functions of H, and let $\overline{H}_0$ be the closure of $H_0$ in $\mathscr{C}$. If g is any polynomial in n variables with real coefficients, then $(u_1, u_2, \ldots, u_n) \to g(u_1, u_2, \ldots, u_n)$ is a continuous mapping of $\mathscr{C}^n$ into $\mathscr{C}$, which maps $H_0^n$ into $H_0$, and therefore maps $\overline{H}_0^n$ into $\overline{H}_0$ (Chapter I, § 2, no. 1, Theorem 1). In particular, $\overline{H}_0$ is a vector subspace of $\mathscr{C}$ and evidently satisfies the first and third conditions of Theorem 2; we shall show that it also satisfies the second condition, and this will prove that $\overline{H}_0 = \mathscr{C}$.
 
 Since every function $u \in \overline{H}_0$ is bounded in $X$, it is enough to prove the following lemma:
 
@@ -211,7 +211,7 @@ Given a set $H$ of continuous real-valued functions defined on $X$, a finite fam
 
 #### Proposition 5 {#top-x-s4-prop-5 .statement}
 
-Let $X$ be a compact space, $Y$ a normed space over $\mathbf{R}$ and $H$ a subset of $\mathcal{C}(X; \mathbf{R})$. If every continuous real-valued function on $X$ can be uniformly approximated by functions of $H$, then every continuous mapping $f$ of $X$ into $Y$ can be uniformly approximated by linear combinations of functions of $H$ with coefficients in $Y$.
+Let $X$ be a compact space, $Y$ a normed space over $\mathbf{R}$ and $H$ a subset of $\mathscr{C}(X; \mathbf{R})$. If every continuous real-valued function on $X$ can be uniformly approximated by functions of $H$, then every continuous mapping $f$ of $X$ into $Y$ can be uniformly approximated by linear combinations of functions of $H$ with coefficients in $Y$.
 
 Given any real number $\varepsilon > 0$, for each $x \in X$ there exists an open neighbourhood of $x$ in which the oscillation of $f$ is $\leq \varepsilon$. Hence there is a finite open covering $(A_i)_{1 \leq i \leq n}$ of $X$ such that the oscillation of $f$ in each $A_i$ is $\leq \varepsilon$. Let $a_i$ be a value of $f$ in $A_i$ ($1 \leq i \leq n$), and let $(u_i)_{1 \leq i \leq n}$ be a continuous partition of unity subordinate to the covering $(A_i)$ (Chapter IX, § 4, no. 4, Corollary to Proposition 4). Let $x$ be any point of $X$. For each index $i$ such that $x \notin A_i$, we have $u_i(x) = 0$, and for each index $i$ such that $x \in A_i$ we have $\|f(x) - a_i\| \leq \varepsilon$; it follows that
 
@@ -233,7 +233,7 @@ $$
 
 and the proof is complete.
 
-From Proposition 5 it follows that, to each of the propositions in which we have proved that a certain subset $H$ of $\mathcal{C}(X; \mathbf{R})$ is dense, there corresponds an analogous proposition for continuous mappings of $X$ into an arbitrary normed space $Y$. We shall write down explicitly only the proposition which corresponds in this way to Theorem 3. Given a set $H$ of real-valued functions on $X$, a polynomial in the functions of $H$, with coefficients in $Y$, is defined to be any linear combination, with coefficients in $Y$, of products of a finite (possibly empty) family of functions belonging to $H$. Then:
+From Proposition 5 it follows that, to each of the propositions in which we have proved that a certain subset $H$ of $\mathscr{C}(X; \mathbf{R})$ is dense, there corresponds an analogous proposition for continuous mappings of $X$ into an arbitrary normed space $Y$. We shall write down explicitly only the proposition which corresponds in this way to Theorem 3. Given a set $H$ of real-valued functions on $X$, a polynomial in the functions of $H$, with coefficients in $Y$, is defined to be any linear combination, with coefficients in $Y$, of products of a finite (possibly empty) family of functions belonging to $H$. Then:
 
 #### Proposition 6 {#top-x-s4-prop-6 .statement}
 

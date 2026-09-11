@@ -32,14 +32,14 @@ subsections:
       pdf_page: 108
 statements: 8
 exercises: 8
-content_sha256: 6dbd9a819bd23bef9ea6b374eb5491c118d9321564f8a7ae710591b73b00c279
+content_sha256: 0347e0a28b16d98f7f678768689ffdaea8be7ba8594b3374bc09cbbb3bb6c9b1
 ---
 
 ## § 4. ESPACES NUMÉRIQUES ET ESPACES PROJECTIFS COMPLEXES
 
 ### 1. L’espace vectoriel $\mathbf{C}^n$
 
-Le groupe topologique produit $\mathbf{C}^n$ de $n$ groupes égaux au groupe topologique $\mathbf{C}$ peut être identifié au groupe topologique $\mathbf{R}^{2n}$ par la bijection qui associe à l’élément $\mathbf{z} = (z_1, \ldots, z_n)$ de $\mathbf{C}^n$ l’élément $(\mathcal{R}(z_1), \mathcal{I}(z_1), \ldots, \mathcal{R}(z_n), \mathcal{I}(z_n))$ de $\mathbf{R}^{2n}$.
+Le groupe topologique produit $\mathbf{C}^n$ de $n$ groupes égaux au groupe topologique $\mathbf{C}$ peut être identifié au groupe topologique $\mathbf{R}^{2n}$ par la bijection qui associe à l’élément $\mathbf{z} = (z_1, \ldots, z_n)$ de $\mathbf{C}^n$ l’élément $(\mathscr{R}(z_1), \mathscr{I}(z_1), \ldots, \mathscr{R}(z_n), \mathscr{I}(z_n))$ de $\mathbf{R}^{2n}$.
 
 Mais, comme $\mathbf{C}$ est un corps, on peut définir sur $\mathbf{C}^n$ une structure d’espace vectoriel de dimension $n$ sur $\mathbf{C}$, le produit $az$ d’un nombre complexe $a$ et d’un point $\mathbf{z} = (z_i)$ de $\mathbf{C}^n$ étant le point $(az_i)$; il faut avoir soin de ne pas confondre cette structure et celle d’espace vectoriel de dimension $2n$ par rapport à $\mathbf{R}$, définie sur $\mathbf{R}^{2n}$ (VI, p. 2); on réservera la notation $\mathbf{C}^n$ à l’espace topologique produit de $n$ espaces identiques à $\mathbf{C}$, muni en outre de la structure d’espace vectoriel par rapport à $\mathbf{C}$ qui vient d’être définie; on le désignera sous le nom d’espace numérique complexe à $n$ dimensions. On notera que l’application $(t, \mathbf{z}) \mapsto t\mathbf{z}$ est continue dans $\mathbf{C} \times \mathbf{C}^n$.
 
@@ -51,7 +51,7 @@ Toute application linéaire affine de $\mathbf{C}^n$ dans $\mathbf{C}^m$ est don
 
 Toute variété linéaire affine à $p$ dimensions ($p \leq n$) de l’espace vectoriel $\mathbf{C}^n$ est aussi une variété linéaire affine à $2p$ dimensions de l’espace vectoriel $\mathbf{R}^{2n}$; ici encore, la réciproque est inexacte. Pour éviter toute confusion, on désigne les variétés linéaires (affines) à $p$ dimensions de $\mathbf{C}^n$ sous le nom de variétés linéaires complexes à $p$ dimensions (les variétés linéaires de $\mathbf{R}^{2n}$ étant appelées variétés linéaires réelles quand on veut se garder de toute méprise). En particulier, on appellera droites complexes (resp. plans complexes) les variétés linéaires complexes à 1 dimension (resp. à 2 dimensions) de $\mathbf{C}^n$, hyperplans complexes les variétés linéaires complexes à $n - 1$ dimensions.
 
-Il est souvent commode de considérer l’espace numérique $\mathbf{R}^n$ comme plongé dans l’espace numérique complexe $\mathbf{C}^n$, en l’identifiant à la partie de $\mathbf{C}^n$ définie par les relations $\mathcal{J}(z_k) = 0$ ($k = 1, 2, \ldots, n$), dont la structure de groupe topologique (induite par celle de $\mathbf{C}^n$) est isomorphe à celle de $\mathbf{R}^n$.
+Il est souvent commode de considérer l’espace numérique $\mathbf{R}^n$ comme plongé dans l’espace numérique complexe $\mathbf{C}^n$, en l’identifiant à la partie de $\mathbf{C}^n$ définie par les relations $\mathscr{J}(z_k) = 0$ ($k = 1, 2, \ldots, n$), dont la structure de groupe topologique (induite par celle de $\mathbf{C}^n$) est isomorphe à celle de $\mathbf{R}^n$.
 
 On notera que $\mathbf{R}^n$, ainsi plongé dans $\mathbf{C}^n$, n’est pas une variété linéaire complexe de $\mathbf{C}^n$.
 

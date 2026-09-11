@@ -40,7 +40,7 @@ subsections:
       pdf_page: 181
 statements: 40
 exercises: 9
-content_sha256: 83d55e1838c96863628bb4c841426e325a8058e294ac5b1a348690c7b008fc05
+content_sha256: 3593908544b4268ac3c0131aaec65a064ed7aef3598969d9bc652e6939baf4fc
 ---
 
 ## 3. METRIZABLE GROUPS, VALUED FIELDS, NORMED SPACES AND ALGEBRAS
@@ -99,7 +99,7 @@ Conversely:
 
 #### Proposition 3 {#top-ix-s3-prop-3 .statement}
 
-*Let $G$ be an abelian group, written additively, and let $x \to |x|$ be a mapping $G \to \mathbf{R}$ which satisfies conditions a), b) and c) above. Then the function $d(x, y) = |x - y|$ is an invariant metric on $G$; the topology $\mathcal{T}$ which it defines on $G$ is compatible with the group structure of $G$, and the uniformity defined by $d$ is the same as the uniformity of the topological group obtained by endowing $G$ with the topology $\mathcal{T}$.*
+*Let $G$ be an abelian group, written additively, and let $x \to |x|$ be a mapping $G \to \mathbf{R}$ which satisfies conditions a), b) and c) above. Then the function $d(x, y) = |x - y|$ is an invariant metric on $G$; the topology $\mathscr{T}$ which it defines on $G$ is compatible with the group structure of $G$, and the uniformity defined by $d$ is the same as the uniformity of the topological group obtained by endowing $G$ with the topology $\mathscr{T}$.*
 
 The function $d(x, y)$ is a metric on $G$, for the relation $d(x, y) = 0$ is equivalent to $x = y$ by c); we have $d(x, y) = d(y, x)$ by a); and
 
@@ -108,7 +108,7 @@ d(x, y) = |(x - z) + (z - y)| \leq |x - z| + |z - y| = d(x, z) + d(z, y)
 $$
 
 by b). Moreover, $d$ is invariant, since $(x + z) - (y + z) = x - y$.
-For each real number $x > 0$, let $V_x$ be the set of all $x \in G$ such that $|x| < x$; then the $V_x$ form a fundamental system $\mathfrak{S}$ of neighbourhoods of $0$ for the topology $\mathcal{T}$, and since $d$ is invariant, $a + \mathfrak{S}$ is a fundamental system of neighbourhoods of $a$ for the topology $\mathcal{T}$, for each $a \in G$. By a), the $V_x$ are symmetric, and by b), we have $V_a + V_x \subset V_{2a}$; hence the topology $\mathcal{T}$ is compatible with the group structure of $G$ (Chapter III, § 1, no. 2). The last part of the proposition follows immediately.
+For each real number $x > 0$, let $V_x$ be the set of all $x \in G$ such that $|x| < x$; then the $V_x$ form a fundamental system $\mathfrak{S}$ of neighbourhoods of $0$ for the topology $\mathscr{T}$, and since $d$ is invariant, $a + \mathfrak{S}$ is a fundamental system of neighbourhoods of $a$ for the topology $\mathscr{T}$, for each $a \in G$. By a), the $V_x$ are symmetric, and by b), we have $V_a + V_x \subset V_{2a}$; hence the topology $\mathscr{T}$ is compatible with the group structure of $G$ (Chapter III, § 1, no. 2). The last part of the proposition follows immediately.
 
 Conditions a', b' and c' are equivalent to c) together with the condition
 
@@ -488,7 +488,7 @@ In a complete normed space E, every absolutely convergent series is *commutative
 
 The converse of Proposition 11 is in general *false*.
 
-Consider for example the space $\mathcal{B}(\mathbf{N}; \mathbf{R})$ of bounded sequences $x = (x_n)_{n \in \mathbf{N}}$ of real numbers, with the norm $||x|| = \sup_n |x_n|$. Let $x_m$ be the sequence $(x_{mn})_{n \in \mathbf{N}}$ such that $x_{mn} = 0$ if $m \neq n$ and $x_{mm} = 1/m$ for $m \geq 1$. It is immediately verified that the sequence $(x_m)_{m \in \mathbf{N}}$ is summable in $\mathcal{B}(\mathbf{N}; \mathbf{R})$ and that its sum is the element $y = (y_n)$ such that $y_0 = 0$ and $y_n = 1/n$ if $n \geq 1$; but since $||x_m|| = 1/m$, the sequence of norms of the $x_m$ is not summable in $\mathbf{R}$.
+Consider for example the space $\mathscr{B}(\mathbf{N}; \mathbf{R})$ of bounded sequences $x = (x_n)_{n \in \mathbf{N}}$ of real numbers, with the norm $||x|| = \sup_n |x_n|$. Let $x_m$ be the sequence $(x_{mn})_{n \in \mathbf{N}}$ such that $x_{mn} = 0$ if $m \neq n$ and $x_{mm} = 1/m$ for $m \geq 1$. It is immediately verified that the sequence $(x_m)_{m \in \mathbf{N}}$ is summable in $\mathscr{B}(\mathbf{N}; \mathbf{R})$ and that its sum is the element $y = (y_n)$ such that $y_0 = 0$ and $y_n = 1/n$ if $n \geq 1$; but since $||x_m|| = 1/m$, the sequence of norms of the $x_m$ is not summable in $\mathbf{R}$.
 
 However, we have seen in Chapter VII, § 3, no. 1, that every summable family in $\mathbf{R}^n$ is absolutely summable.
 
@@ -520,7 +520,7 @@ Let $K$ be a non-discrete valued field and let $M_n(K)$ be the ring of square ma
 
 #### Example 3 {#top-ix-s3-n7-exa-3 .statement}
 
-The set $\mathcal{B}(X; K)$ of all functions $f$ on a set $X$ with values in a non-discrete valued field $K$, such that $x \to |f(x)|$ is bounded on $X$, is an algebra over $K$; the norm $\|f\| = \sup_{x \in X} |f(x)|$ is compatible with the ring structure of $\mathcal{B}(X; K)$, because we have $\|fg\| \leq \|f\|\cdot\|g\|$ (cf. Chapter X, § 1).
+The set $\mathscr{B}(X; K)$ of all functions $f$ on a set $X$ with values in a non-discrete valued field $K$, such that $x \to |f(x)|$ is bounded on $X$, is an algebra over $K$; the norm $\|f\| = \sup_{x \in X} |f(x)|$ is compatible with the ring structure of $\mathscr{B}(X; K)$, because we have $\|fg\| \leq \|f\|\cdot\|g\|$ (cf. Chapter X, § 1).
 
 Let $a$ be a closed two-sided ideal in a normed algebra $A$. If in the quotient algebra $A/a$ we put $||\dot{x}|| = \inf_{x \in X} ||x||$, we get a norm on $A/a$ which defines the topology which is the quotient by $a$ of the topology of $A$ (Proposition 9); since this quotient topology is compatible with the quotient ring structure of $A/a$ (Chapter III, § 6, no. 4) it follows that the quotient algebra $A/a$, with the norm $||x||$, is a normed algebra.
 
@@ -591,7 +591,7 @@ $$
 
 remains bounded, it follows that $x^{-1}$ tends to $x_0^{-1}$.
 
-Finally, to show that the left uniformity of G is complete, let us show that every Cauchy filter $\tilde{\mathcal{F}}$ with respect to this uniformity is a Cauchy filter with respect to the *additive* uniformity of $A$ and converges to a point of $G$. For each $\varepsilon$ such that $0 < \varepsilon < 1$, there is a set $M \in \mathfrak{F}$ such that $||x^{-1}y - e|| \leq \varepsilon$ for all $x, y$ in $M$, i.e., such that
+Finally, to show that the left uniformity of G is complete, let us show that every Cauchy filter $\tilde{\mathscr{F}}$ with respect to this uniformity is a Cauchy filter with respect to the *additive* uniformity of $A$ and converges to a point of $G$. For each $\varepsilon$ such that $0 < \varepsilon < 1$, there is a set $M \in \mathfrak{F}$ such that $||x^{-1}y - e|| \leq \varepsilon$ for all $x, y$ in $M$, i.e., such that
 $$
 ||y - x|| \leq \varepsilon \ ||x||.
 $$

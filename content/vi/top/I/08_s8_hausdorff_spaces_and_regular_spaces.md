@@ -36,7 +36,7 @@ subsections:
       pdf_page: 88
 statements: 28
 exercises: 24
-content_sha256: 31e89de76d209caece3ce19f9bba9230689e420ea2de27cd580a919cf9279395
+content_sha256: e89a5aa3287e4f1d0a23ecc3e14f4aa26ad4c45c0d4bc09948208f1f6cb7b380
 translated_from: content/en/top/I/08_s8_hausdorff_spaces_and_regular_spaces.md
 source_content_sha256: f1786c8e71990c5b477a3226adfcfe52fdd3cc7520408bdd42e9767c604fb35d
 translation_model: gpt-5.4
@@ -172,9 +172,9 @@ Cho $X = \prod_{i \in I} X_i$ là một tích các không gian tôpô. Khi đó 
 
 #### Hệ quả 1 {#top-i-s8-prop-7-cor-1 .statement}
 
-*Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian tôpô Hausdorff, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Trang bị cho $X$ tôpô thô nhất $\mathcal{T}$ sao cho các $f_i$ đều liên tục. Khi đó, điều kiện cần và đủ để $X$ là Hausdorff là với mỗi cặp điểm phân biệt $x, y$ của $X$ ta có $f_i(x) \neq f_i(y)$ đối với một chỉ số $i \in I$ nào đó.*
+*Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian tôpô Hausdorff, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Trang bị cho $X$ tôpô thô nhất $\mathscr{T}$ sao cho các $f_i$ đều liên tục. Khi đó, điều kiện cần và đủ để $X$ là Hausdorff là với mỗi cặp điểm phân biệt $x, y$ của $X$ ta có $f_i(x) \neq f_i(y)$ đối với một chỉ số $i \in I$ nào đó.*
 
-Điều kiện là đủ do Mệnh đề 5 của no. 1. Ngược lại, giả sử $X$ là Hausdorff; đặt $Y = \prod_{i \in I} Y_i$ và $f = (f_i)_{i \in I}$ là ánh xạ $x \to (f_i(x))$. Theo Mệnh đề 7 ở trên, $Y$ là Hausdorff, và theo Mệnh đề 3 của § 4, no. 1, $\mathcal{T}$ là ảnh ngược theo $f$ của tôpô của $Y$. Nếu $f(x) = f(y)$ với hai điểm phân biệt $x, y$ của $X$ thì hiển nhiên mọi tập mở (trong tôpô $\mathcal{T}$) chứa $x$ cũng chứa $y$, trái với giả thiết rằng $X$ là Hausdorff.
+Điều kiện là đủ do Mệnh đề 5 của no. 1. Ngược lại, giả sử $X$ là Hausdorff; đặt $Y = \prod_{i \in I} Y_i$ và $f = (f_i)_{i \in I}$ là ánh xạ $x \to (f_i(x))$. Theo Mệnh đề 7 ở trên, $Y$ là Hausdorff, và theo Mệnh đề 3 của § 4, no. 1, $\mathscr{T}$ là ảnh ngược theo $f$ của tôpô của $Y$. Nếu $f(x) = f(y)$ với hai điểm phân biệt $x, y$ của $X$ thì hiển nhiên mọi tập mở (trong tôpô $\mathscr{T}$) chứa $x$ cũng chứa $y$, trái với giả thiết rằng $X$ là Hausdorff.
 
 #### Hệ quả 2 {#top-i-s8-prop-7-cor-2 .statement}
 

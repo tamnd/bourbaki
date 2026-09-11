@@ -40,9 +40,9 @@ subsections:
       pdf_page: 275
 statements: 19
 exercises: 7
-content_sha256: 28d0aed7fca46a96e282b825a72559467ca2eb7b27f712e5b171b5ff245ce778
+content_sha256: 1e1ece20e3f89200758ea61987a06144241d75ae8162bc162c53801c831f93a3
 translated_from: content/en/top/III/05_s5_infinite_sums_in_commutative_groups.md
-source_content_sha256: f00a62c711a69bc585307c0d066a454a7861d0dd7f4d8b9f20e4756943cb0eda
+source_content_sha256: 0473398046b587d17103f4b672c344f445932523c6f9f31b18e847266e38158c
 translation_model: gpt-5.4
 translation_run: translate-vi-6128758a
 glossary_version: 34
@@ -60,7 +60,7 @@ Cho $G$ là một nhóm giao hoán Hausdorff, cho $I$ là một tập chỉ số
 
 #### Định nghĩa 1 {#top-iii-s5-def-1 .statement}
 
-Cho $(x_i)_{i \in I}$ là một họ các điểm của một nhóm giao hoán Hausdorff $G$; gọi $\mathcal{F}(I)$ là tập hợp các tập con hữu hạn của tập hợp chỉ số $I$, và với mỗi tập con hữu hạn $J$ của $I$, gọi $s_J$ là tổng của các $x_i$ sao cho $i \in J$. Họ $(x_i)_{i \in I}$ được gọi là khả tổng nếu ánh xạ $J \to s_J$ có một giới hạn đối với bộ lọc tiết diện $\Phi$ của tập hợp $\mathcal{F}(I)$ có hướng bởi quan hệ $\subset$; khi đó giới hạn này được gọi là tổng của họ $(x_i)_{i \in I}$ và được ký hiệu là $\sum_{i \in I} x_i$ (hoặc đơn giản là $\sum_i x_i$, hay thậm chí $\sum x_i$, khi không có nguy cơ nhập nhằng).
+Cho $(x_i)_{i \in I}$ là một họ các điểm của một nhóm giao hoán Hausdorff $G$; gọi $\mathscr{F}(I)$ là tập hợp các tập con hữu hạn của tập hợp chỉ số $I$, và với mỗi tập con hữu hạn $J$ của $I$, gọi $s_J$ là tổng của các $x_i$ sao cho $i \in J$. Họ $(x_i)_{i \in I}$ được gọi là khả tổng nếu ánh xạ $J \to s_J$ có một giới hạn đối với bộ lọc tiết diện $\Phi$ của tập hợp $\mathscr{F}(I)$ có hướng bởi quan hệ $\subset$; khi đó giới hạn này được gọi là tổng của họ $(x_i)_{i \in I}$ và được ký hiệu là $\sum_{i \in I} x_i$ (hoặc đơn giản là $\sum_i x_i$, hay thậm chí $\sum x_i$, khi không có nguy cơ nhập nhằng).
 
 Định nghĩa 1 tương đương với phát biểu sau: *họ* $(x_i)$ *là khả tổng và tổng của nó là* $s$ *nếu, với mỗi lân cận* $V$ *của phần tử không trong* $G$, *tồn tại một tập con hữu hạn* $J_0$ *của* $I$ *sao cho với mỗi tập con hữu hạn* $J \supset J_0$ *của* $I$ *ta có* $s_J \in s + V$.
 
@@ -264,7 +264,7 @@ Thật vậy, dãy các tổng riêng của chuỗi $(u_n)$ là một *dãy con*
 
 ### 7. CHUỖI HỘI TỤ GIAO HOÁN
 
-Cho $(x_n)$ là một dãy *khả tổng* trong $G$, và đặt $s = \sum_{n \in \mathbf{N}} x_n$ là tổng của nó. Khi đó với mỗi lân cận $V$ của 0, tồn tại $J_0 \in \mathcal{F}(\mathbf{N})$ sao cho $s_J \in s + V$ mỗi khi $J \in \mathcal{F}(\mathbf{N})$ và $J_0 \subset J$. Gọi $m$ là số nguyên lớn nhất trong $J_0$; khi đó nếu $n \geqslant m$ thì ta có $s_n \in s + V$, và do đó *chuỗi* $(x_n)$ hội tụ và tổng của nó là $s$. Nhưng đảo lại là *sai*:
+Cho $(x_n)$ là một dãy *khả tổng* trong $G$, và đặt $s = \sum_{n \in \mathbf{N}} x_n$ là tổng của nó. Khi đó với mỗi lân cận $V$ của 0, tồn tại $J_0 \in \mathscr{F}(\mathbf{N})$ sao cho $s_J \in s + V$ mỗi khi $J \in \mathscr{F}(\mathbf{N})$ và $J_0 \subset J$. Gọi $m$ là số nguyên lớn nhất trong $J_0$; khi đó nếu $n \geqslant m$ thì ta có $s_n \in s + V$, và do đó *chuỗi* $(x_n)$ hội tụ và tổng của nó là $s$. Nhưng đảo lại là *sai*:
 
 Hơn nữa, định nghĩa của một chuỗi hội tụ về bản chất có liên quan đến cấu trúc thứ tự của $\mathbf{N}$. Nếu chuỗi $(x_n)$ hội tụ, và nếu $\sigma$ là một phép hoán vị của $\mathbf{N}$, thì chuỗi $(x_{\sigma(n)})$ không nhất thiết hội tụ (xem Chương IV, § 7, Bài tập 15).
 

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 265
 statements: 33
 exercises: 23
-content_sha256: 3ca46d1a9c871ef504c2f339d9da2414e8fff5747912bc9df5ba1469bda2f343
+content_sha256: 5e2dd8346a06e4cb97cfadd8d07cdc68593cb15b9e836abb31f0faba5e883e9b
 ---
 
 ## 4. GROUPS OPERATING PROPERLY ON A TOPOLOGICAL SPACE; COMPACTNESS IN TOPOLOGICAL GROUPS AND SPACES WITH OPERATORS
@@ -278,7 +278,7 @@ Clearly, we have $P(K, L) \subset P(K \cup L, K \cup L)$; therefore for $G$ to o
 
 Let $X$ be a complex analytic manifold, analytically isomorphic to a bounded open subset of $\mathbf{C}^n$, and let $G$ be the group of analytic automorphisms of $X$. The topology of compact convergence is compatible with the group structure of $G$, and it can be shown that $G$ operates properly on $X$. In particular, every discrete subgroup of $G$ operates properly on $X$.
 
-Take for example $X$ to be the upper half-plane $\mathcal{J}(z) > 0$, which is analytically isomorphic to an open disc in $\mathbf{C}$. Then $G$ is the group of all transformations $z \to (az + b)/(cz + d)$, where $a, b, c, d$ are real and $ad - bc \neq 0$. The subgroup $H$ of $G$ which consists of all such transformations for which $a, b, c, d$ are integers and $ad - bc = 1$ is a discrete subgroup of $G$, called the *modular group*. By what has been said above, it operates properly on the upper half-plane $\mathcal{J}(z) > 0$.*
+Take for example $X$ to be the upper half-plane $\mathscr{J}(z) > 0$, which is analytically isomorphic to an open disc in $\mathbf{C}$. Then $G$ is the group of all transformations $z \to (az + b)/(cz + d)$, where $a, b, c, d$ are real and $ad - bc \neq 0$. The subgroup $H$ of $G$ which consists of all such transformations for which $a, b, c, d$ are integers and $ad - bc = 1$ is a discrete subgroup of $G$, called the *modular group*. By what has been said above, it operates properly on the upper half-plane $\mathscr{J}(z) > 0$.*
 
 #### Proposition 12 {#top-iii-s4-prop-12 .statement}
 

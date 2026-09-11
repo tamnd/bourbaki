@@ -41,7 +41,7 @@ subsections:
       pdf_page: 157
 statements: 49
 exercises: 13
-content_sha256: f6ea2eafccb3bf667257a3e5bd60e52bb82df4a596bb5342237113f131d1c107
+content_sha256: e710086c13033a250f8678a11871dde62af4aca4c6e19572f90548c50910addf
 ---
 
 ## § 3. GROUPES MÉTRISABLES; CORPS VALUÉS; ESPACES ET ALGÈBRES NORMÉS
@@ -80,7 +80,7 @@ Réciproquement:
 
 #### Proposition 3 {#top-ix-s3-prop-3 .statement}
 
-Soient $G$ un groupe commutatif noté additivement, $x \mapsto |x|$ une application de $G$ dans $\mathbf{R}_+$ satisfaisant aux conditions a), b), c) précédentes. La fonction $d(x, y) = |x - y|$ est une distance invariante sur $G$; la topologie $\mathcal{T}$ qu’elle définit sur $G$ est compatible avec la structure de groupe de $G$, et la structure uniforme qu’elle définit est identique à la structure uniforme du groupe topologique obtenu en munissant $G$ de la topologie $\mathcal{T}$.
+Soient $G$ un groupe commutatif noté additivement, $x \mapsto |x|$ une application de $G$ dans $\mathbf{R}_+$ satisfaisant aux conditions a), b), c) précédentes. La fonction $d(x, y) = |x - y|$ est une distance invariante sur $G$; la topologie $\mathscr{T}$ qu’elle définit sur $G$ est compatible avec la structure de groupe de $G$, et la structure uniforme qu’elle définit est identique à la structure uniforme du groupe topologique obtenu en munissant $G$ de la topologie $\mathscr{T}$.
 
 La fonction $d(x, y)$ est bien une distance sur $G$, car la relation $d(x, y) = 0$ équivant à $x = y$ d’après c), on a $d(y, x) = d(x, y)$ d’après a), et
 $$
@@ -90,7 +90,7 @@ d’après b). En outre, $d$ est une distance invariante puisque
 $$
 (x + z) - (y + z) = x - y.
 $$
-Pour tout $\alpha > 0$, soit $V_\alpha$ l’ensemble des $x \in G$ tels que $|x| < \alpha$; les $V_\alpha$ forment un système fondamental $\mathcal{S}$ de voisinages de 0 pour la topologie $\mathcal{T}$, et comme $d$ est invariante, pour tout $a \in G$, $a + \mathcal{S}$ est un système fondamental de voisinages de $a$ pour la topologie $\mathcal{T}$. D’après a), les $V_\alpha$ sont symétriques, et d’après b), on a $V_\alpha + V_\alpha \subset V_{2\alpha}$; la topologie $\mathcal{T}$ est donc compatible avec la structure de groupe de $G$ (III, p. 4). La dernière partie de la proposition est immédiate.
+Pour tout $\alpha > 0$, soit $V_\alpha$ l’ensemble des $x \in G$ tels que $|x| < \alpha$; les $V_\alpha$ forment un système fondamental $\mathscr{S}$ de voisinages de 0 pour la topologie $\mathscr{T}$, et comme $d$ est invariante, pour tout $a \in G$, $a + \mathscr{S}$ est un système fondamental de voisinages de $a$ pour la topologie $\mathscr{T}$. D’après a), les $V_\alpha$ sont symétriques, et d’après b), on a $V_\alpha + V_\alpha \subset V_{2\alpha}$; la topologie $\mathscr{T}$ est donc compatible avec la structure de groupe de $G$ (III, p. 4). La dernière partie de la proposition est immédiate.
 
 Les conditions $a), b), c)$ sont équivalentes à la condition c) jointe à la condition
 $$
@@ -326,11 +326,11 @@ Il en est de même des fonctions $\sup_{1 \leq i \leq n} |x_i|$ et $\sum_{i=1}^{
 
 #### Exemple 3 {#top-ix-s3-n3-exa-3 .statement}
 
-Soit $\mathcal{B}(E)$ l’ensemble des fonctions $f$ définies dans un ensemble E, prenant leurs valeurs dans un corps valué non discret K, et telles que la fonction numérique $x \mapsto |f(x)|$ soit bornée dans E. Cet ensemble est évidemment un sous-espace vectoriel de l’espace vectoriel $K^E$ (à droite ou à gauche) des applications de E dans K. Si on pose $p(f) = \sup_{x \in E} |f(x)|$, $p$ est une norme sur l’espace vectoriel $\mathcal{B}(E)$ (cf. X, p. 20).
+Soit $\mathscr{B}(E)$ l’ensemble des fonctions $f$ définies dans un ensemble E, prenant leurs valeurs dans un corps valué non discret K, et telles que la fonction numérique $x \mapsto |f(x)|$ soit bornée dans E. Cet ensemble est évidemment un sous-espace vectoriel de l’espace vectoriel $K^E$ (à droite ou à gauche) des applications de E dans K. Si on pose $p(f) = \sup_{x \in E} |f(x)|$, $p$ est une norme sur l’espace vectoriel $\mathscr{B}(E)$ (cf. X, p. 20).
 
 #### Exemple 4 {#top-ix-s3-n3-exa-4 .statement}
 
-Sur l’espace vectoriel $\mathcal{C}(I)$ des fonctions continues numériques (finies) définies dans l’intervalle $I = [0, 1]$, la fonction $p(x) = \int_0^1 |x(t)|\ dt$ est une norme.*
+Sur l’espace vectoriel $\mathscr{C}(I)$ des fonctions continues numériques (finies) définies dans l’intervalle $I = [0, 1]$, la fonction $p(x) = \int_0^1 |x(t)|\ dt$ est une norme.*
 
 #### Exemple 5 {#top-ix-s3-n3-exa-5 .statement}
 
@@ -501,7 +501,7 @@ Dans un espace normé complet $E$, toute série absolument convergente est commu
 
 La réciproque de la prop. 11 est en général inexacte.
 
-Considérons par exemple l’espace $\mathcal{B}(\mathbf{N})$ des suites bornées $x = (x_n)_{n \in \mathbf{N}}$ de nombres réels, avec la norme $\|x\| = \sup_n |x_n|$ (X, p. 20). Soit $x_m$ la suite $(x_{mn})_{n \in \mathbf{N}}$ telle que $x_{mn} = 0$ pour $n \neq m$, $x_{00} = 0$ et $x_{mn} = 1/m$ pour $m \geq 1$. On vérifie aussitôt que dans $\mathcal{B}(\mathbf{N})$ la suite $(x_m)_{m \in \mathbf{N}}$ est sommable et a pour somme l’élément $y = (y_n)$ tel que $y_0 = 0, y_n = 1/n$ si $n \geq 1$; mais comme $\|x_m\| = 1/m$, la suite des normes des $x_m$ n’est pas sommable dans $\mathbf{R}$.
+Considérons par exemple l’espace $\mathscr{B}(\mathbf{N})$ des suites bornées $x = (x_n)_{n \in \mathbf{N}}$ de nombres réels, avec la norme $\|x\| = \sup_n |x_n|$ (X, p. 20). Soit $x_m$ la suite $(x_{mn})_{n \in \mathbf{N}}$ telle que $x_{mn} = 0$ pour $n \neq m$, $x_{00} = 0$ et $x_{mn} = 1/m$ pour $m \geq 1$. On vérifie aussitôt que dans $\mathscr{B}(\mathbf{N})$ la suite $(x_m)_{m \in \mathbf{N}}$ est sommable et a pour somme l’élément $y = (y_n)$ tel que $y_0 = 0, y_n = 1/n$ si $n \geq 1$; mais comme $\|x_m\| = 1/m$, la suite des normes des $x_m$ n’est pas sommable dans $\mathbf{R}$.
 
 On a vu toutefois (VII, p. 16) que, dans $\mathbf{R}^n$, toute famille sommable est absolument sommable.
 
@@ -544,7 +544,7 @@ Soient $K$ un corps commutatif valué non discret, $M_n(K)$ l’anneau des matri
 
 #### Exemple 3 {#top-ix-s3-n7-exa-3 .statement}
 
-L’ensemble $\mathcal{B}(E)$ des fonctions $f$ définies dans un ensemble $E$, prenant leurs valeurs dans un corps valué commutatif non discret $K$, et telles que $x \mapsto |f(x)|$ soit bornée dans $E$, est une algèbre sur $K$; la norme $\| f \| = \sup_{x \in E} |f(x)|$ est compatible avec la structure d’algèbre de $\mathcal{B}(E)$, car on a $\| fg \| \leq \| f \| \cdot \| g \|$
+L’ensemble $\mathscr{B}(E)$ des fonctions $f$ définies dans un ensemble $E$, prenant leurs valeurs dans un corps valué commutatif non discret $K$, et telles que $x \mapsto |f(x)|$ soit bornée dans $E$, est une algèbre sur $K$; la norme $\| f \| = \sup_{x \in E} |f(x)|$ est compatible avec la structure d’algèbre de $\mathscr{B}(E)$, car on a $\| fg \| \leq \| f \| \cdot \| g \|$
 
 Soit $a$ un idéal bilatère fermé dans l’algèbre normée $A$; si, dans l’algèbre quotient $A/a$, on pose $\| \dot{\mathbf{x}} \| = \inf_{x \in \dot{\mathbf{x}}} \| \mathbf{x} \|$, on obtient sur $A/a$ une norme qui définit la topologie quotient de celle de $A$ par $a$ (IX, p. 34, prop. 10); comme pour $b > \| \dot{\mathbf{x}} \|$, $c > \| \dot{\mathbf{y}} \|$, il existe $\mathbf{x} \in \dot{\mathbf{x}}$ tel que $\| \mathbf{x} \| < b$ et $\mathbf{y} \in \dot{\mathbf{y}}$ tel que $\| \mathbf{y} \| < c$, on a $\| \mathbf{x}\mathbf{y} \| \leq \| \mathbf{x} \| \cdot \| \mathbf{y} \| < bc$, donc $\| \dot{\mathbf{x}}\dot{\mathbf{y}} \| \leq \| \dot{\mathbf{x}} \| \cdot \| \dot{\mathbf{y}} \|$, ce qui montre que $A/a$, muni de la norme $\| \dot{\mathbf{x}} \|$, est une algèbre normée.
 
@@ -623,13 +623,13 @@ $$
 
 d’où l’égalité (10).
 
-Pour établir enfin que la structure uniforme gauche de $G$ est une structure d’espace complet, montrons que tout filtre de Cauchy $\mathcal{F}$ pour cette structure, est un filtre de Cauchy pour la structure uniforme additive de $A$ et converge vers un point de $G$. En effet, pour tout $\varepsilon$ tel que $0 < \varepsilon < 1$, il existe un ensemble $M \in \mathcal{F}$ tel que, pour $x \in M$ et $y \in M$, on ait $\|x^{-1}y - e\| \leq \varepsilon$, ce qui entraîne $\|y - x\| \leq \varepsilon \|x\|$. Soit $a$ un point de $M$; pour tout $x \in M$, on a $\|x - a\| \leq \varepsilon \|a\|$, donc $\|x\| \leq (1 + \varepsilon)\|a\|$. D’autre part, il existe un ensemble $N \subset M$, appartenant à $\mathcal{F}$, et tel que $\|x^{-1}y - e\| \leq \frac{\varepsilon}{(1 + \varepsilon)\|a\|}$ pour $x \in N$ et $y \in N$; on en conclut que
+Pour établir enfin que la structure uniforme gauche de $G$ est une structure d’espace complet, montrons que tout filtre de Cauchy $\mathscr{F}$ pour cette structure, est un filtre de Cauchy pour la structure uniforme additive de $A$ et converge vers un point de $G$. En effet, pour tout $\varepsilon$ tel que $0 < \varepsilon < 1$, il existe un ensemble $M \in \mathscr{F}$ tel que, pour $x \in M$ et $y \in M$, on ait $\|x^{-1}y - e\| \leq \varepsilon$, ce qui entraîne $\|y - x\| \leq \varepsilon \|x\|$. Soit $a$ un point de $M$; pour tout $x \in M$, on a $\|x - a\| \leq \varepsilon \|a\|$, donc $\|x\| \leq (1 + \varepsilon)\|a\|$. D’autre part, il existe un ensemble $N \subset M$, appartenant à $\mathscr{F}$, et tel que $\|x^{-1}y - e\| \leq \frac{\varepsilon}{(1 + \varepsilon)\|a\|}$ pour $x \in N$ et $y \in N$; on en conclut que
 
 $$
 \|y - x\| \leq \frac{\varepsilon \|x\|}{(1 + \varepsilon)\|a\|} \leq \varepsilon,
 $$
 
-ce qui prouve que $\mathcal{F}$ est un filtre de Cauchy pour la structure uniforme additive de $A$, et par suite converge vers un point $x_0$, puisque
+ce qui prouve que $\mathscr{F}$ est un filtre de Cauchy pour la structure uniforme additive de $A$, et par suite converge vers un point $x_0$, puisque
 
 A est une algèbre complète. Comme $x_0$ est limite de $\mathfrak{F}$, on a, d’après le principe de prolongement des inégalités, $\| x^{-1} x_0 - e \| \leq \varepsilon$ pour tout $x \in M$; comme $\varepsilon < 1$, on en conclut que $x^{-1} x_0$ est inversible; par suite, il en est de même de $x_0$, c’est-à-dire que $x_0 \in G$.
 

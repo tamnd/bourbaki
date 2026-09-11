@@ -29,7 +29,7 @@ subsections:
       pdf_page: 210
 statements: 24
 exercises: 23
-content_sha256: f2dc3cc5503e99d5ecfce12eecbf253bb8a3c69fb5a816888a36223120556915
+content_sha256: b8bf5d2de7d5a3ecb1c58ea701febd425b67ad98c2510195b01f49e3b03e2101
 ---
 
 ## 4. RELATIONS BETWEEN UNIFORM SPACES AND COMPACT SPACES
@@ -62,17 +62,17 @@ $$
 W = \bigcup_{i=1,2,3} (U_i \times U_i) \text{ of } \Delta \text{ in } X \times X.
 $$
 
-It follows immediately from these definitions that if $(u, v) \in W$ and $u \in V_1$ (resp. $u \in U_1$), then we must have $v \in U_1$ (resp. $v \in U_1 \cup U_3 = \mathcal{C}V_2$); hence the neighbourhood $V_1 \times V_2$ of $(x, y)$ in $X \times X$ does not meet $\hat{W}$, and we have a contradiction. This completes the proof.
+It follows immediately from these definitions that if $(u, v) \in W$ and $u \in V_1$ (resp. $u \in U_1$), then we must have $v \in U_1$ (resp. $v \in U_1 \cup U_3 = \mathscr{C}V_2$); hence the neighbourhood $V_1 \times V_2$ of $(x, y)$ in $X \times X$ does not meet $\hat{W}$, and we have a contradiction. This completes the proof.
 
 #### Remark 1 {#top-ii-s4-n1-rem-1 .statement}
 
-For every *finite open covering* $\mathcal{R} = (U_i)_{1 \leq i \leq n}$ of $X$, the set
+For every *finite open covering* $\mathscr{R} = (U_i)_{1 \leq i \leq n}$ of $X$, the set
 
 $$
-V_{\mathcal{R}} = \bigcup_{i=1}^n (U_i \times U_i)
+V_{\mathscr{R}} = \bigcup_{i=1}^n (U_i \times U_i)
 $$
 
-is a neighbourhood of $\Delta$ in $X \times X$, and these sets $V_{\mathcal{R}}$ form a *fundamental system of neighbourhoods* of $\Delta$ (and therefore a *fundamental system of entourages* of the unique uniformity on $X$). Let $W$ be any neighbourhood of $\Delta$ in $X \times X$; then for each $x \in X$ there is an open neighbourhood $U_x$ of $x$ in $X$ such that $U_x \times U_x \subset W$. Since the $U_x$ ($x \in X$) form an open covering of $X$, there exist a finite number of points $x_i$ ($1 \leq i \leq n$) such that the $U_{x_i}$ ($1 \leq i \leq n$) form a covering $\mathcal{R}$ of $X$. We have then $V_{\mathcal{R}} \subset W$, which proves the assertion.
+is a neighbourhood of $\Delta$ in $X \times X$, and these sets $V_{\mathscr{R}}$ form a *fundamental system of neighbourhoods* of $\Delta$ (and therefore a *fundamental system of entourages* of the unique uniformity on $X$). Let $W$ be any neighbourhood of $\Delta$ in $X \times X$; then for each $x \in X$ there is an open neighbourhood $U_x$ of $x$ in $X$ such that $U_x \times U_x \subset W$. Since the $U_x$ ($x \in X$) form an open covering of $X$, there exist a finite number of points $x_i$ ($1 \leq i \leq n$) such that the $U_{x_i}$ ($1 \leq i \leq n$) form a covering $\mathscr{R}$ of $X$. We have then $V_{\mathscr{R}} \subset W$, which proves the assertion.
 
 For this reason the unique uniformity on $X$ is often called the *uniformity of finite open coverings* (cf. Chapter IX, § 4, Exercise 17).
 

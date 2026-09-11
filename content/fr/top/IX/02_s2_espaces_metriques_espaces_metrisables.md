@@ -53,7 +53,7 @@ subsections:
       pdf_page: 142
 statements: 34
 exercises: 9
-content_sha256: 49d6ce965443e4c35796eb902f1f6ffe95b972a3afee2c18e6dc14c0bfe07706
+content_sha256: a097d26bcdb4a2e9c03764cada8b133b392ca6253bf7f6fb7f7b5972efbc475e
 ---
 
 ## § 2. ESPACES MÉTRIQUES; ESPACES MÉTRISABLES
@@ -77,7 +77,7 @@ Sur un ensemble quelconque X, l’écart d défini par les relations $d(x, x) = 
 
 On a une définition équivalente à la déf. 1 en disant qu’une distance est un écart fini tel que la structure uniforme définie par cet écart soit séparée ; un écart fini équivalent à une distance est donc une distance.
 
-On peut rattacher aux espaces métriques les espaces uniformes définis par la donnée d’un seul écart (qu’on peut supposer fini) lorsque cet écart n’est pas une distance. Soit $f$ un tel écart sur un ensemble X, $\mathcal{U}$ la structure uniforme qu’il définit ; cette structure n’est pas séparée, et l’intersection des entourages de $\mathcal{U}$ est la partie de $X \times X$ définie par la relation d’équivalence $f(x, y) = 0$ ; nous désignerons cette relation par R. Si $x \equiv x'$ (mod. R), on a, d’après l’inégalité du triangle, $f(x, y) \leq f(x, x') + f(x', y) = f(x', y)$, et de même $f(x', y) \leq f(x, y)$ donc $f(x, y) = f(x', y)$ ; autrement dit, $f$ est une fonction compatible (en x et y) avec la relation d’équivalence R (E, II, p. 44). Soit $\tilde{f}$ la fonction obtenue par passage au quotient (pour x et y) à partir de $f$ ; elle est définie sur $(X/R) \times (X/R)$, et si $x$ et $y$ sont deux points de X, $\dot{x}$ et $\dot{y}$ les classes (mod. R) de x et de y respectivement, on a $\tilde{f}(\dot{x}, \dot{y}) = f(x, y)$. Il en résulte aussitôt que $\tilde{f}$ est une distance sur $X/R$, qu’on appelle distance associée à l’écart $f$; en outre, la structure uniforme qu’elle définit sur $X/R$ n’est autre que la structure uniforme séparée associée à $\mathcal{U}$, d’après la définition de cette structure (II, p. 25). En passant à un espace quotient convenable, la structure uniforme définie par un seul écart se ramène donc à une structure d’espace métrique.
+On peut rattacher aux espaces métriques les espaces uniformes définis par la donnée d’un seul écart (qu’on peut supposer fini) lorsque cet écart n’est pas une distance. Soit $f$ un tel écart sur un ensemble X, $\mathscr{U}$ la structure uniforme qu’il définit ; cette structure n’est pas séparée, et l’intersection des entourages de $\mathscr{U}$ est la partie de $X \times X$ définie par la relation d’équivalence $f(x, y) = 0$ ; nous désignerons cette relation par R. Si $x \equiv x'$ (mod. R), on a, d’après l’inégalité du triangle, $f(x, y) \leq f(x, x') + f(x', y) = f(x', y)$, et de même $f(x', y) \leq f(x, y)$ donc $f(x, y) = f(x', y)$ ; autrement dit, $f$ est une fonction compatible (en x et y) avec la relation d’équivalence R (E, II, p. 44). Soit $\tilde{f}$ la fonction obtenue par passage au quotient (pour x et y) à partir de $f$ ; elle est définie sur $(X/R) \times (X/R)$, et si $x$ et $y$ sont deux points de X, $\dot{x}$ et $\dot{y}$ les classes (mod. R) de x et de y respectivement, on a $\tilde{f}(\dot{x}, \dot{y}) = f(x, y)$. Il en résulte aussitôt que $\tilde{f}$ est une distance sur $X/R$, qu’on appelle distance associée à l’écart $f$; en outre, la structure uniforme qu’elle définit sur $X/R$ n’est autre que la structure uniforme séparée associée à $\mathscr{U}$, d’après la définition de cette structure (II, p. 25). En passant à un espace quotient convenable, la structure uniforme définie par un seul écart se ramène donc à une structure d’espace métrique.
 
 La prop. 1 de IX, p. 5 détermine la structure du complété d’un espace métrique:
 
@@ -181,7 +181,7 @@ $$
 
 ce qui prouve que $\omega$ est semi-continue supérieurement au point $a$.
 
-Pour qu’on ait $\omega(x; f) = 0$ en un point $x \in \overline{X}$, il faut et il suffit que, pour tout $\varepsilon > 0$, il existe un voisinage $V$ de $x$ tel que $f(V \cap X)$ soit contenu dans une boule de rayon $\varepsilon$; si $x \in X$, cette condition exprime que $f$ est continue au point $x$ (par rapport à $X$); si $x \in X \cap \mathcal{CX}$, elle exprime que l’image par $f$ de la trace sur $X$ du filtre des voisinages de $x$ dans $Z$ est une base de filtre de Cauchy sur $Y'$; en particulier:
+Pour qu’on ait $\omega(x; f) = 0$ en un point $x \in \overline{X}$, il faut et il suffit que, pour tout $\varepsilon > 0$, il existe un voisinage $V$ de $x$ tel que $f(V \cap X)$ soit contenu dans une boule de rayon $\varepsilon$; si $x \in X$, cette condition exprime que $f$ est continue au point $x$ (par rapport à $X$); si $x \in X \cap \mathscr{CX}$, elle exprime que l’image par $f$ de la trace sur $X$ du filtre des voisinages de $x$ dans $Z$ est une base de filtre de Cauchy sur $Y'$; en particulier:
 
 #### Proposition 5 {#top-ix-s2-prop-5 .statement}
 
@@ -191,7 +191,7 @@ Pour qu’on ait $\omega(x; f) = 0$ en un point $x \in \overline{X}$, il faut et
 
 #### Définition 2 {#top-ix-s2-def-2 .statement}
 
-*On dit qu’une distance sur un ensemble $X$ est compatible avec une structure uniforme $\mathcal{U}$ sur $X$ si la structure uniforme définie par cette distance est identique à $\mathcal{U}$.
+*On dit qu’une distance sur un ensemble $X$ est compatible avec une structure uniforme $\mathscr{U}$ sur $X$ si la structure uniforme définie par cette distance est identique à $\mathscr{U}$.
 
 On dit qu’une structure uniforme sur un ensemble $X$ est métrisable s’il existe une distance sur $X$ compatible avec cette structure. Un espace uniforme est dit métrisable si sa structure uniforme est métrisable.*
 
@@ -221,9 +221,9 @@ En effet, un tel espace est séparé, et sa structure uniforme admet un système
 
 #### Définition 3 {#top-ix-s2-def-3 .statement}
 
-*On dit qu’une distance sur un ensemble $X$ est compatible avec une topologie $\mathcal{T}$ sur $X$ si la topologie définie par cette distance est identique à $\mathcal{T}$. On dit qu’un espace topologique $X$ est métrisable s’il existe une distance sur $X$ compatible avec la topologie de $X$.
+*On dit qu’une distance sur un ensemble $X$ est compatible avec une topologie $\mathscr{T}$ sur $X$ si la topologie définie par cette distance est identique à $\mathscr{T}$. On dit qu’un espace topologique $X$ est métrisable s’il existe une distance sur $X$ compatible avec la topologie de $X$.
 
-Deux distances sur un ensemble $X$, compatibles avec une même topologie $\mathcal{T}$, peuvent être non équivalentes.
+Deux distances sur un ensemble $X$, compatibles avec une même topologie $\mathscr{T}$, peuvent être non équivalentes.
 
 Un exemple de ce fait est fourni par le sous-espace $\mathbf{R}_+^*$ de $\mathbf{R}$ formé des nombres réels $> 0$; la structure uniforme induite par la structure uniforme additive de $\mathbf{R}$, et la structure uniforme induite par la structure uniforme multiplicative de $\mathbf{R}^*$, sont toutes deux métrisables et compatibles avec la topologie de $\mathbf{R}_+^*$, mais elles ne sont pas comparables.
 
@@ -279,7 +279,7 @@ En effet, soit $\hat{X}$ le complété de X; s’il existe un point $x \in \hat{
 
 Soient X un espace métrisable, f une application de X dans un espace topologique Y. Pour que f soit continue en un point $a \in X$, il faut et il suffit que pour toute suite $(x_n)$ de points de X qui converge vers a, la suite $(f(x_n))$ converge vers $f(a)$ dans Y.
 
-On sait déjà que la condition est nécessaire (I, p. 50, cor. 1). Pour voir qu’elle est suffisante, considérons le filtre $\mathcal{B}$ des voisinages de $f(a)$ dans Y; l’hypothèse entraîne que $f^{-1}(\mathfrak{B})$ est moins fin que tout filtre élémentaire associé à une suite qui converge vers $a$, c’est-à-dire tout filtre élémentaire convergent vers $a$; mais l’intersection de ces derniers est le filtre des voisinages de $a$ (I, p. 43, prop. 11), d’où la proposition.
+On sait déjà que la condition est nécessaire (I, p. 50, cor. 1). Pour voir qu’elle est suffisante, considérons le filtre $\mathscr{B}$ des voisinages de $f(a)$ dans Y; l’hypothèse entraîne que $f^{-1}(\mathfrak{B})$ est moins fin que tout filtre élémentaire associé à une suite qui converge vers $a$, c’est-à-dire tout filtre élémentaire convergent vers $a$; mais l’intersection de ces derniers est le filtre des voisinages de $a$ (I, p. 43, prop. 11), d’où la proposition.
 
 On notera que les prop. 8 et 10 sont encore valables dans un espace $X$ où l’on suppose que tout point admet un système fondamental dénombrable de voisinages.
 

@@ -49,7 +49,7 @@ chapters:
           statements: 5
           exercises: 2
           extraction: ocr
-          content_sha256: bd7e65967af93f4f719b250f95e6f706ae85d916ffa49b125b4ce3f1fbc0df61
+          content_sha256: 5099fd59fdbf6d2becc68537d181603c970ffb95c4e1046bbf8b91222556bcfb
         - kind: section
           section: 3
           title: Caractérisation topologique des groupes R et T
@@ -171,7 +171,7 @@ chapters:
           statements: 21
           exercises: 18
           extraction: ocr
-          content_sha256: f38793db3a278473815b0d0ed17a01360b4d00a057d0a76b992dcf699f875c0f
+          content_sha256: cee27bf556d4189e085f3d7b8842128378e32512ddfd8c818cb08ce223ec2b48
         - kind: section
           section: 2
           title: Homomorphismes continus de $\mathbf{R}^n$ et de ses groupes quotients
@@ -231,7 +231,7 @@ chapters:
           statements: 13
           exercises: 5
           extraction: ocr
-          content_sha256: 7423e8afcdf0c3ecb02aebaa42b1b6a4f89c0fb5de51c49241b0acf5c00dec80
+          content_sha256: 9487a2874b28dd22071133041d4c2d1612bf82eda8b1c5906aa81830d5ea0414
         - kind: section
           section: 2
           title: Mesure des angles; fonctions trigonométriques
@@ -244,7 +244,7 @@ chapters:
           statements: 5
           exercises: 4
           extraction: ocr
-          content_sha256: d98ba316df1d23a63a644d35fecf0dabb50b2e743b354e28db09fd638b7d7753
+          content_sha256: 7af2f1113aa40dd0f856e2d62cf7eac25802cc4d44d0d40aa19b02293326400c
         - kind: section
           section: 3
           title: Sommes et produits infinis de nombres complexes
@@ -269,7 +269,7 @@ chapters:
           statements: 8
           exercises: 8
           extraction: ocr
-          content_sha256: 6dbd9a819bd23bef9ea6b374eb5491c118d9321564f8a7ae710591b73b00c279
+          content_sha256: 0347e0a28b16d98f7f678768689ffdaea8be7ba8594b3374bc09cbbb3bb6c9b1
         - kind: historical
           title: Historical Note
           path: content/fr/top/VIII/historical_note.md
@@ -304,7 +304,7 @@ chapters:
           statements: 26
           exercises: 25
           extraction: ocr
-          content_sha256: 81bdb31fac21d408e69d36d14a256ed55ef672bdffb6df7d5192894226ae729f
+          content_sha256: d0dc5b7fbf4a86a988a0565efd3a1a163d123255ce985acaa82d4bae2336718d
         - kind: section
           section: 2
           title: Espaces métriques ; espaces métrisables
@@ -317,7 +317,7 @@ chapters:
           statements: 34
           exercises: 9
           extraction: ocr
-          content_sha256: 49d6ce965443e4c35796eb902f1f6ffe95b972a3afee2c18e6dc14c0bfe07706
+          content_sha256: a097d26bcdb4a2e9c03764cada8b133b392ca6253bf7f6fb7f7b5972efbc475e
         - kind: section
           section: 3
           title: Groupes métrisables ; corps valués ; espaces et algèbres normés
@@ -330,7 +330,7 @@ chapters:
           statements: 49
           exercises: 13
           extraction: ocr
-          content_sha256: f6ea2eafccb3bf667257a3e5bd60e52bb82df4a596bb5342237113f131d1c107
+          content_sha256: e710086c13033a250f8678a11871dde62af4aca4c6e19572f90548c50910addf
         - kind: section
           section: 4
           title: Espaces normaux
@@ -369,7 +369,7 @@ chapters:
           statements: 61
           exercises: 22
           extraction: ocr
-          content_sha256: 40c1604d7c2b11988ff1aec3e8859fb7bb9f1bdf6357bf484c3494bbfd9d4487
+          content_sha256: eecf4c585e7f64669e1379526aa2e798c4e5ad2d4452bf9988e19fb9fbbfdf00
         - kind: appendix
           section: 1
           title: Espaces de Lindelöf
@@ -381,7 +381,7 @@ chapters:
           statements: 8
           exercises: 0
           extraction: ocr
-          content_sha256: 82bfed792246d4a3deff3f24ca86e0dd2545d6e631cac69468985fcbd6107a27
+          content_sha256: db132edc19538b624967f7bf20a1e698bea65a774bf924c3b75737fc35181dce
         - kind: appendix
           section: 2
           title: Produits infinis dans les algèbres normées
@@ -394,7 +394,7 @@ chapters:
           statements: 16
           exercises: 8
           extraction: ocr
-          content_sha256: 08e13ee94a1406e81b201e3c665c3629632ff1cabff45c15f5a1c0046f18485c
+          content_sha256: ab6ab83a7be20d6d31a5cb9faff75800a97c61a65f3a651a3c634d8fa3f7f2ca
         - kind: historical
           title: Historical Note
           path: content/fr/top/IX/historical_note.md
@@ -429,7 +429,7 @@ chapters:
           statements: 36
           exercises: 12
           extraction: ocr
-          content_sha256: 401857c8b74031e4527e1497431b3e91bb1924d8c4e983fb5eee3c05fd3867c8
+          content_sha256: 0fce89d50c23b45f845f64f7a0d4009827236b5e90bdb400393221042a5a34ec
         - kind: section
           section: 2
           title: Ensembles équicontinus
@@ -442,7 +442,7 @@ chapters:
           statements: 23
           exercises: 21
           extraction: ocr
-          content_sha256: fa7642815c5cf2fdae478943771af908c710a55da0864faeb5a48b1aaf54bda2
+          content_sha256: a89f758dcef55a5a079c9648ef2f33ea264100af1b152624fad94eabe092dadc
         - kind: section
           section: 3
           title: Espaces fonctionnels spéciaux
@@ -455,7 +455,7 @@ chapters:
           statements: 31
           exercises: 16
           extraction: ocr
-          content_sha256: f40b7900a3993ebb8d5376787a3b8a3c62cd01cc1494c9254ba4e11c97479b67
+          content_sha256: 42f9204c91625e489c15d9a1054919d20a2194ed2c7578d01006c0b932807388
         - kind: section
           section: 4
           title: Approximation des fonctions continues numériques
@@ -468,7 +468,7 @@ chapters:
           statements: 18
           exercises: 22
           extraction: ocr
-          content_sha256: e2361ec9ebef01f71cc30be5e5c017b8eda732082bbb548b479fdc56ca49f1a2
+          content_sha256: a36c76deae8ef6f546a84d2d5f04f7531bcdc7de271814c0812fbdd9e95ec2d3
         - kind: historical
           title: Historical Note
           path: content/fr/top/X/historical_note.md

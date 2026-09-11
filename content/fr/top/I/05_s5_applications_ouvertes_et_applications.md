@@ -29,7 +29,7 @@ subsections:
       pdf_page: 47
 statements: 25
 exercises: 7
-content_sha256: 4020d4a2dd332ee47e49fa05c38fcf9c87134c29dfa27ba1909ac716e5aa3558
+content_sha256: ba57d2525465e7d05cdc66c5c42fa2c3afed745f9af1dbdd3eacb15816611b3c
 ---
 
 ## § 5. APPLICATIONS OUVERTES ET APPLICATIONS FERMÉES
@@ -149,9 +149,9 @@ A = \overline{f}^{-1}(f(A)), et h \circ \varphi est l’application de A dans f(
 
 #### Proposition 5 {#top-i-s5-prop-5 .statement}
 
-Soient X, Y deux espaces topologiques, f une application de X dans Y, $\mathcal{B}$ une base de la topologie de X. Les propriétés suivantes sont équivalentes:
+Soient X, Y deux espaces topologiques, f une application de X dans Y, $\mathscr{B}$ une base de la topologie de X. Les propriétés suivantes sont équivalentes:
 a) f est une application ouverte.
-b) Pour tout $U \in \mathcal{B}, f(U)$ est ouvert dans Y.
+b) Pour tout $U \in \mathscr{B}, f(U)$ est ouvert dans Y.
 c) Pour tout $x \in X$ et tout voisinage V de x dans X, $f(V)$ est un voisinage de $f(x)$ dans Y.
 L’équivalence de a) et b) résulte aussitôt des définitions et de (O_1); l’équivalence de a) et c) résulte de la prop. 1 de I, p. 2.
 
@@ -169,9 +169,9 @@ Soient R une relation d’équivalence dans un espace topologique X, $\varphi$ l
 (i) Pour tout ensemble $A \subset X$ saturé pour R, l’adhérence (resp. l’intérieur) de $\varphi(A)$ dans $X/R$ est $\varphi(\overline{A})$ (resp. $\varphi(\dot{A})$).
 (ii) Pour toute partie C de $X/R$, on a $\overline{\varphi^{-1}(\overline{C})} = \overline{\varphi^{-1}(C)}$.
 Inversement, chacune de ces propriétés implique que R est ouverte.
-(ii) se déduit de (i), car si $A = \overline{\varphi^{-1}(C)}$, A est saturé pour R, donc aussi $\overline{A}$ (prop. 6), et $\varphi(\overline{A}) = \overline{C}$, d’où $\overline{A} = \overline{\varphi^{-1}(\overline{C})}$. Pour prouver les deux assertions de (i), notons qu’elles se déduisent l’une de l’autre par passage aux complémentaires, en utilisant les formules (2) de I, p. 7, et le fait que si B est une partie saturée de X, on a $\varphi(\mathcal{C}B) = \mathcal{C}\varphi(B)$. En vertu de la prop. 6, $\overline{A}$ est saturé, donc $\varphi(\overline{A})$ est fermé dans $X/R$, et comme $A \subset \overline{A}$, on a $\varphi(A) \subset \varphi(\overline{A})$, d’où $\varphi(A) \subset \varphi(\overline{A})$; mais puisque $\varphi$ est continue, $\varphi(\overline{A}) \subset \varphi(A)$ (I, p. 9, th. 1), d’où la conclusion.
+(ii) se déduit de (i), car si $A = \overline{\varphi^{-1}(C)}$, A est saturé pour R, donc aussi $\overline{A}$ (prop. 6), et $\varphi(\overline{A}) = \overline{C}$, d’où $\overline{A} = \overline{\varphi^{-1}(\overline{C})}$. Pour prouver les deux assertions de (i), notons qu’elles se déduisent l’une de l’autre par passage aux complémentaires, en utilisant les formules (2) de I, p. 7, et le fait que si B est une partie saturée de X, on a $\varphi(\mathscr{C}B) = \mathscr{C}\varphi(B)$. En vertu de la prop. 6, $\overline{A}$ est saturé, donc $\varphi(\overline{A})$ est fermé dans $X/R$, et comme $A \subset \overline{A}$, on a $\varphi(A) \subset \varphi(\overline{A})$, d’où $\varphi(A) \subset \varphi(\overline{A})$; mais puisque $\varphi$ est continue, $\varphi(\overline{A}) \subset \varphi(A)$ (I, p. 9, th. 1), d’où la conclusion.
 
-Inversement, supposons que l’on ait $\varphi^{-1}(\overline{C}) = \overline{\varphi^{-1}(C)}$ pour toute partie $C$ de $X/R$, et montrons que pour tout ensemble $U$ ouvert dans $X$, $\varphi(U)$ est ouvert dans $X/R$; dans le cas contraire, il existerait dans $\varphi(U)$ un point $z$ adhérent à $C = \mathcal{C}_{\varphi}(U)$, donc il y aurait dans $U$ un point $x \in \varphi^{-1}(\overline{C}) = \overline{\varphi^{-1}(C)}$; mais cela est absurde puisque $U$ est ouvert et $U \cap \varphi^{-1}(C) = \varnothing$.
+Inversement, supposons que l’on ait $\varphi^{-1}(\overline{C}) = \overline{\varphi^{-1}(C)}$ pour toute partie $C$ de $X/R$, et montrons que pour tout ensemble $U$ ouvert dans $X$, $\varphi(U)$ est ouvert dans $X/R$; dans le cas contraire, il existerait dans $\varphi(U)$ un point $z$ adhérent à $C = \mathscr{C}_{\varphi}(U)$, donc il y aurait dans $U$ un point $x \in \varphi^{-1}(\overline{C}) = \overline{\varphi^{-1}(C)}$; mais cela est absurde puisque $U$ est ouvert et $U \cap \varphi^{-1}(C) = \varnothing$.
 
 #### Corollaire {#top-i-s5-n3-cor-1 .statement}
 

@@ -52,9 +52,9 @@ subsections:
       pdf_page: 245
 statements: 45
 exercises: 31
-content_sha256: 3a9b626cf8dfceae72121c337568c449ab99d3146b02c1473fdee26cd4bdb8e4
+content_sha256: 8ee28faf5465ad5da2979314c182193b08c64157c28e05fe3b499f62d07a7281
 translated_from: content/en/top/III/02_s2_subgroups_quotient_groups_homomorphisms.md
-source_content_sha256: 09d7ecdaae15234f6b98dd6b72f9c1f771f5a6bc26fa08e838278d792205c2fa
+source_content_sha256: 01217d9945f06d0b2ed58cc8843dc54bec8461b84d6d1966ebb0af8867a7d247
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-bfba6fb6
 glossary_version: 34
@@ -252,7 +252,7 @@ Mỗi khi trong phần sau ta xét một nhóm thương $G/H$ của một nhóm 
 
 #### Mệnh đề 17 {#top-iii-s2-prop-17 .statement}
 
-*Cho $\varphi$ là ánh xạ chính tắc từ một nhóm tôpô $G$ lên một nhóm thương $G/H$. Nếu $\mathcal{B}$ là một hệ cơ bản các lân cận của $e$ trong $G$, thì $\varphi(\mathcal{B})$ là một hệ cơ bản các lân cận của phần tử đơn vị $\varphi(e)$ của $G/H$.*
+*Cho $\varphi$ là ánh xạ chính tắc từ một nhóm tôpô $G$ lên một nhóm thương $G/H$. Nếu $\mathscr{B}$ là một hệ cơ bản các lân cận của $e$ trong $G$, thì $\varphi(\mathscr{B})$ là một hệ cơ bản các lân cận của phần tử đơn vị $\varphi(e)$ của $G/H$.*
 
 Đây là một trường hợp riêng của Mệnh đề 5 của Chương I, § 5, no. 3.
 

@@ -12,7 +12,7 @@ pdf_pages: 0353-0372
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 068acaca17f888e05264d0323e3938348f9b08e2d2013ecbacc265191861e163
+content_sha256: 2129f7c3bbc0f78ac13ebfb6d3d63ebe6117f2f81e46fa5ff9dd6082464ea0f3
 translated_from: content/en/top/X/historical_note.md
 source_content_sha256: 40b5235f4ceac5953a07d76a4ff11499284171867bddf1d36dc51ac4536b548e
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -100,21 +100,21 @@ L(C) (C là một lưới) : IX, 6, 5.
 $\prod_{n \in \mathbf{N}} x_n$ : IX, Phụ lục, 1.
 $\prod_{n=h}^{\infty} x_n$ : IX, Phụ lục, 3.
 $\prod_{n=0}^{\infty} x_n$ : IX, Phụ lục, 3.
-$\mathcal{F}(X; Y), H(x)$ [H là một tập con của $\mathcal{F}(X; Y)$], $\Phi(x)$ [$\Phi$ là một lọc trên $\mathcal{F}(X; Y)$], $u|A, H|A$ [A là một tập con của X, $u \in \mathcal{F}(X; Y), H \subset \mathcal{F}(X; Y)$] : X, 1.
+$\mathscr{F}(X; Y), H(x)$ [H là một tập con của $\mathscr{F}(X; Y)$], $\Phi(x)$ [$\Phi$ là một lọc trên $\mathscr{F}(X; Y)$], $u|A, H|A$ [A là một tập con của X, $u \in \mathscr{F}(X; Y), H \subset \mathscr{F}(X; Y)$] : X, 1.
 W(V) (V là một lân cận của Y) : X, 1, 1.
-$\mathcal{F}_u(X; Y)$ : X, 1, 1.
-$\mathcal{F}_{\mathcal{G}}(X; Y)$ : X, 1, 2.
-W(A, V) (A $\in \mathcal{G}$, V là một lân cận của Y) : X, 1, 2.
-$\mathcal{F}_s(X; Y), \mathcal{F}_c(X; Y)$ : X, 1, 3.
-$\mathcal{C}(X; Y), \mathcal{C}_{\mathcal{G}}(X; Y), \mathcal{C}_s(X; Y), \mathcal{C}_c(X; Y), \mathcal{C}_u(X; Y)$ : X, 1, 6.
-$\mathcal{C}_{\mathcal{G}}(X; Y)$ : X, 1, 6.
+$\mathscr{F}_u(X; Y)$ : X, 1, 1.
+$\mathscr{F}_{\mathscr{G}}(X; Y)$ : X, 1, 2.
+W(A, V) (A $\in \mathscr{G}$, V là một lân cận của Y) : X, 1, 2.
+$\mathscr{F}_s(X; Y), \mathscr{F}_c(X; Y)$ : X, 1, 3.
+$\mathscr{C}(X; Y), \mathscr{C}_{\mathscr{G}}(X; Y), \mathscr{C}_s(X; Y), \mathscr{C}_c(X; Y), \mathscr{C}_u(X; Y)$ : X, 1, 6.
+$\mathscr{C}_{\mathscr{G}}(X; Y)$ : X, 1, 6.
 $\tilde{x}$ (x là một điểm của X) : X, 2, 1.
-$\mathcal{B}_{\mathcal{G}}(X; Y), \mathcal{B}(X; Y)$ (Y là một không gian mêtric) : X, 3, 1.
+$\mathscr{B}_{\mathscr{G}}(X; Y), \mathscr{B}(X; Y)$ (Y là một không gian mêtric) : X, 3, 1.
 $||u||$ (u là một ánh xạ bị chặn vào một không gian định chuẩn) : X, 3, 2.
-$\mathcal{L}(X_1, \ldots, X_n; Y)$ ($X_1, \ldots, X_n$ và Y là các không gian định chuẩn) : X, 3, 2.
+$\mathscr{L}(X_1, \ldots, X_n; Y)$ ($X_1, \ldots, X_n$ và Y là các không gian định chuẩn) : X, 3, 2.
 $||u||_i$ (u là một ánh xạ đa tuyến tính từ một tích của các không gian định chuẩn vào một không gian định chuẩn) : X, 3, 2.
 T(K, U) (K là một tập con compact của X, U là một tập con mở của Y) : X, 3, 4.
-$\mathcal{C}_{\beta}$ : X, 3, 5.
+$\mathscr{C}_{\beta}$ : X, 3, 5.
 $C^{\infty}(X; \mathbf{R})$ : X, 4, Bài tập 6
 $vX$ : X, 4, Bài tập 17.
 

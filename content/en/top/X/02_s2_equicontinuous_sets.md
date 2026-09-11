@@ -32,7 +32,7 @@ subsections:
       pdf_page: 296
 statements: 24
 exercises: 20
-content_sha256: 0e518ac6230012625e0fe16b513a7814cbf8c8e0459e8869ade391e4e1719c46
+content_sha256: e2a78160237149f66f0f8a7ebfe148f1be61b9721352dd251ef5b190594f059c
 ---
 
 ## 2. EQUICONTINUOUS SETS
@@ -41,15 +41,15 @@ content_sha256: 0e518ac6230012625e0fe16b513a7814cbf8c8e0459e8869ade391e4e1719c46
 
 #### Definition 1 {#top-x-s2-def-1 .statement}
 
-*Let $X$ be a topological space and $Y$ a uniform space. A subset $H$ of $\mathcal{F}(X; Y)$ is said to be equicontinuous at a point $x_0 \in X$ if, for each entourage $V$ of $Y$, there is a neighbourhood $U$ of $x_0$ in $X$ such that* (f(x_0), f(x)) \in V \text{ for all } x \in U \text{ and all } f \in H. \text{ H is said to be equicontinuous if it is equicontinuous at every point of } X.
+*Let $X$ be a topological space and $Y$ a uniform space. A subset $H$ of $\mathscr{F}(X; Y)$ is said to be equicontinuous at a point $x_0 \in X$ if, for each entourage $V$ of $Y$, there is a neighbourhood $U$ of $x_0$ in $X$ such that* (f(x_0), f(x)) \in V \text{ for all } x \in U \text{ and all } f \in H. \text{ H is said to be equicontinuous if it is equicontinuous at every point of } X.
 
 #### Definition 2 {#top-x-s2-def-2 .statement}
 
-Let X and Y be two uniform spaces. A subset H of $\mathcal{F}(X; Y)$ is said to be uniformly equicontinuous if, for each entourage V of Y, there exists an entourage U of X such that we have $(f(x), f(x')) \in V$ whenever $(x, x') \in U$ and $f \in H$.
+Let X and Y be two uniform spaces. A subset H of $\mathscr{F}(X; Y)$ is said to be uniformly equicontinuous if, for each entourage V of Y, there exists an entourage U of X such that we have $(f(x), f(x')) \in V$ whenever $(x, x') \in U$ and $f \in H$.
 
 A family $(f_i)_{i \in I}$ of mappings of X into Y is said to be equicontinuous at a point $x_0$ (resp. equicontinuous, uniformly equicontinuous) if the set of the $f_i$ is equicontinuous at $x_0$ (resp. equicontinuous, uniformly equicontinuous).
 
-It is clear that if $H \subset \mathcal{F}(X; Y)$ is equicontinuous at $x_0$, then each $f \in H$ is continuous at $x_0$; if H is equicontinuous, then each $f \in H$ is continuous on X, i.e. $H \subset C(X; Y)$. Likewise, if H is uniformly equicontinuous (X being a uniform space), every $f \in H$ is uniformly continuous on X. It is also clear that a uniformly equicontinuous set of mappings is equicontinuous; but a set of uniformly continuous mappings can be equicontinuous without being uniformly equicontinuous (see Exercise 1; Corollary 2 to Proposition 1; and no. 2, Proposition 4).
+It is clear that if $H \subset \mathscr{F}(X; Y)$ is equicontinuous at $x_0$, then each $f \in H$ is continuous at $x_0$; if H is equicontinuous, then each $f \in H$ is continuous on X, i.e. $H \subset C(X; Y)$. Likewise, if H is uniformly equicontinuous (X being a uniform space), every $f \in H$ is uniformly continuous on X. It is also clear that a uniformly equicontinuous set of mappings is equicontinuous; but a set of uniformly continuous mappings can be equicontinuous without being uniformly equicontinuous (see Exercise 1; Corollary 2 to Proposition 1; and no. 2, Proposition 4).
 
 #### Example 1 {#top-x-s2-n1-exa-1 .statement}
 
@@ -71,33 +71,33 @@ Let G be a topological group, let Y be a uniform space and let $f : G \to Y$ be 
 
 #### Proposition 1 {#top-x-s2-prop-1 .statement}
 
-Let T be a set, let $\mathcal{S}$ be a set of subsets of T, let Y be a uniform space, X a topological (resp. uniform) space, and let f be a mapping of $T \times X$ into $Y$. For each $A \in \mathcal{S}$, let $H_A \subset \mathcal{F}(X; Y)$ be the set of all mappings $x \to f(t, x)$ as $t$ runs through $A$. Then the mapping $x \to f(., x)$ of $X$ into $\mathcal{F}_\mathcal{S}(T; Y)$ is continuous at a point $x_0 \in X$ (resp. uniformly continuous) if and only if the set $H_A$ is equicontinuous at $x_0$ (resp. uniformly equicontinuous) for all $A \in \mathcal{S}$.
+Let T be a set, let $\mathscr{S}$ be a set of subsets of T, let Y be a uniform space, X a topological (resp. uniform) space, and let f be a mapping of $T \times X$ into $Y$. For each $A \in \mathscr{S}$, let $H_A \subset \mathscr{F}(X; Y)$ be the set of all mappings $x \to f(t, x)$ as $t$ runs through $A$. Then the mapping $x \to f(., x)$ of $X$ into $\mathscr{F}_\mathscr{S}(T; Y)$ is continuous at a point $x_0 \in X$ (resp. uniformly continuous) if and only if the set $H_A$ is equicontinuous at $x_0$ (resp. uniformly equicontinuous) for all $A \in \mathscr{S}$.
 
-Consider first the particular case where $\mathcal{S} = \{ T \}$, i.e. $\mathcal{F}_\mathcal{S}(T; Y) = \mathcal{F}_u(T; Y)$. For each entourage $V$ of $Y$, the condition $(f(., x), f(., x')) \in W(V)$ signifies that $(f(t, x), f(t, x')) \in V$ for all $t \in T$. To say that $x \to f(., x)$ is continuous at $x_0$ (resp. is uniformly continuous) is therefore equivalent to saying that, for each entourage $V$ of $Y$, there is a neighbourhood $U$ of $x_0$ in $X$ (resp. an entourage $M$ of $X$) such that the relation $x \in U$ [resp. $(x, x') \in M$] implies $(f(t, x), f(t, x_0)) \in V$ [resp. $(f(t, x), f(t, x')) \in V$] for all $t \in T$, and the proposition follows from Definitions 1 and 2. In the general case, we have to express that, for each $A \in \mathcal{S}$, the mapping $x \to f(., x)|A$ of $X$ into $\mathcal{F}_u(A; Y)$ is continuous at $x_0$ (resp. uniformly continuous), by virtue of § 1, no. 2; from what has been said, this is equivalent to saying that, for each $A \in \mathcal{S}$, $H_A$ is equicontinuous at $x_0$ (resp. uniformly equicontinuous).
+Consider first the particular case where $\mathscr{S} = \{ T \}$, i.e. $\mathscr{F}_\mathscr{S}(T; Y) = \mathscr{F}_u(T; Y)$. For each entourage $V$ of $Y$, the condition $(f(., x), f(., x')) \in W(V)$ signifies that $(f(t, x), f(t, x')) \in V$ for all $t \in T$. To say that $x \to f(., x)$ is continuous at $x_0$ (resp. is uniformly continuous) is therefore equivalent to saying that, for each entourage $V$ of $Y$, there is a neighbourhood $U$ of $x_0$ in $X$ (resp. an entourage $M$ of $X$) such that the relation $x \in U$ [resp. $(x, x') \in M$] implies $(f(t, x), f(t, x_0)) \in V$ [resp. $(f(t, x), f(t, x')) \in V$] for all $t \in T$, and the proposition follows from Definitions 1 and 2. In the general case, we have to express that, for each $A \in \mathscr{S}$, the mapping $x \to f(., x)|A$ of $X$ into $\mathscr{F}_u(A; Y)$ is continuous at $x_0$ (resp. uniformly continuous), by virtue of § 1, no. 2; from what has been said, this is equivalent to saying that, for each $A \in \mathscr{S}$, $H_A$ is equicontinuous at $x_0$ (resp. uniformly equicontinuous).
 
 Proposition 1 allows us to translate Definitions 1 and 2 into forms which are sometimes useful, by applying it to the case where $T = H$ and $f$ is the mapping $(h, x) \to h(x)$ of $H \times X$ into $Y$; since $f(., x)$ is the mapping $h \to h(x)$ of $H$ into $Y$, we see that:
 
 #### Corollary 1 {#top-x-s2-prop-1-cor-1 .statement}
 
-Let $X$ be a topological (resp. uniform) space, $Y$ a uniform space and $H$ a subset of $\mathcal{F}(X; Y)$. For each $x \in X$, let $\tilde{x}$ denote the mapping $h \to h(x)$ of $H$ into $Y$. Then $H$ is equicontinuous at $x_0$ (resp. uniformly equicontinuous) if and only if the mapping $x \to \tilde{x}$ of $X$ into the uniform space $\mathcal{F}_u(H; Y)$ is continuous at $x_0$ (resp. uniformly continuous).
+Let $X$ be a topological (resp. uniform) space, $Y$ a uniform space and $H$ a subset of $\mathscr{F}(X; Y)$. For each $x \in X$, let $\tilde{x}$ denote the mapping $h \to h(x)$ of $H$ into $Y$. Then $H$ is equicontinuous at $x_0$ (resp. uniformly equicontinuous) if and only if the mapping $x \to \tilde{x}$ of $X$ into the uniform space $\mathscr{F}_u(H; Y)$ is continuous at $x_0$ (resp. uniformly continuous).
 
-In particular, if $X$ is compact, every continuous mapping of $X$ into $\mathcal{F}_u(H; Y)$ is uniformly continuous (Chapter II, § 4, no. 1, Theorem 2). Therefore:
+In particular, if $X$ is compact, every continuous mapping of $X$ into $\mathscr{F}_u(H; Y)$ is uniformly continuous (Chapter II, § 4, no. 1, Theorem 2). Therefore:
 
 #### Corollary 2 {#top-x-s2-prop-1-cor-2 .statement}
 
-Let $X$ be a compact space, $Y$ a uniform space. Then every equicontinuous subset of $\mathcal{F}(X; Y)$ is uniformly equicontinuous.
+Let $X$ be a compact space, $Y$ a uniform space. Then every equicontinuous subset of $\mathscr{F}(X; Y)$ is uniformly equicontinuous.
 
-Now suppose we have a set $T$, a topological space $X$, a uniform space $Y$ and a mapping $f : T \times X \to Y$. Let $\tilde{f}$ denote the mapping $x \to f(., x)$ of $X$ into $\mathcal{F}_u(T; Y)$, and let us consider the canonical mapping $\theta : (t, g) \to g(t)$ of $T \times \mathcal{F}_u(T; Y)$ into $Y$. It is clear that the diagram
+Now suppose we have a set $T$, a topological space $X$, a uniform space $Y$ and a mapping $f : T \times X \to Y$. Let $\tilde{f}$ denote the mapping $x \to f(., x)$ of $X$ into $\mathscr{F}_u(T; Y)$, and let us consider the canonical mapping $\theta : (t, g) \to g(t)$ of $T \times \mathscr{F}_u(T; Y)$ into $Y$. It is clear that the diagram
 
 $$
 \begin{array}{ccc}
 T \times X & \xrightarrow{f} & Y \\
 \downarrow_{\iota_T \times \tilde{f}} & & \uparrow \theta \\
-T \times \mathcal{F}_u(T; Y)
+T \times \mathscr{F}_u(T; Y)
 \end{array}
 $$
 
-(where $i_T$ is the identity mapping of T) is commutative. Suppose now that T is endowed with a topology and that, for each $x \in X$, the mapping $f(., x) : t \to f(t., x)$ is continuous; we can then replace $\mathcal{F}_u(T; Y)$ by $\mathcal{C}_u(T; Y)$ in the above diagram. But we know that $\theta$ is continuous from § 1, no. 6, Proposition 9; hence if $\tilde{f}$ is continuous it follows that $f$ is continuous. Since the continuity of $\tilde{f}$ can be expressed with the help of Proposition 1, we obtain the following result:
+(where $i_T$ is the identity mapping of T) is commutative. Suppose now that T is endowed with a topology and that, for each $x \in X$, the mapping $f(., x) : t \to f(t., x)$ is continuous; we can then replace $\mathscr{F}_u(T; Y)$ by $\mathscr{C}_u(T; Y)$ in the above diagram. But we know that $\theta$ is continuous from § 1, no. 6, Proposition 9; hence if $\tilde{f}$ is continuous it follows that $f$ is continuous. Since the continuity of $\tilde{f}$ can be expressed with the help of Proposition 1, we obtain the following result:
 
 #### Corollary 3 {#top-x-s2-prop-1-cor-3 .statement}
 
@@ -105,9 +105,9 @@ $$
 
 1) *For each $x \in X$, the partial mapping $t \to f(t, x)$ is continuous.*
 
-2) *As t runs through T, the partial mappings $x \to f(t, x)$ form an equicontinuous subset of $\mathcal{F}(X; Y)$.*
+2) *As t runs through T, the partial mappings $x \to f(t, x)$ form an equicontinuous subset of $\mathscr{F}(X; Y)$.*
 
-In particular, take T to be a subset H of $\mathcal{F}(X; Y)$ and f to be the canonical mapping $(h, x) \to h(x)$ of $H \times X$ into Y; condition 1) of Corollary 3 means that H is endowed with a topology finer than that of pointwise convergence, and condition 2) means that H is equicontinuous. Hence:
+In particular, take T to be a subset H of $\mathscr{F}(X; Y)$ and f to be the canonical mapping $(h, x) \to h(x)$ of $H \times X$ into Y; condition 1) of Corollary 3 means that H is endowed with a topology finer than that of pointwise convergence, and condition 2) means that H is equicontinuous. Hence:
 
 #### Corollary 4 {#top-x-s2-prop-1-cor-4 .statement}
 
@@ -117,9 +117,9 @@ More intuitively, this expresses the fact that if $h \in H$ converges *pointwise
 
 #### Corollary 5 {#top-x-s2-prop-1-cor-5 .statement}
 
-*Let X be a topological space, let Y, Z be two uniform spaces and let H be an equicontinuous set of mappings of Y into Z. If H, $\mathcal{C}(X; Y)$ and $\mathcal{C}(X; Z)$ are endowed with the topology of pointwise convergence, then the mapping $(u, v) \to u \circ v$ of $H \times \mathcal{C}(X; Y)$ into $\mathcal{C}(X; Z)$ is continuous.*
+*Let X be a topological space, let Y, Z be two uniform spaces and let H be an equicontinuous set of mappings of Y into Z. If H, $\mathscr{C}(X; Y)$ and $\mathscr{C}(X; Z)$ are endowed with the topology of pointwise convergence, then the mapping $(u, v) \to u \circ v$ of $H \times \mathscr{C}(X; Y)$ into $\mathscr{C}(X; Z)$ is continuous.*
 
-We have to show that, for each $x \in X$, the mapping $(u, v) \to u(v(x))$ of $H \times \mathcal{C}(X; Y)$ into Z is continuous. Now $v \to v(x)$ is continuous on H (§ 1, no. 2, Remark 6), and it follows from Corollary 4 that $(u, y) \to u(y)$ is a continuous mapping of $H \times Y$ into Z; since $(u, v) \to u(v(x))$ is the composition of $(u, y) \to u(y)$ and $(u, v) \to (u, v(x))$, the result is proved.
+We have to show that, for each $x \in X$, the mapping $(u, v) \to u(v(x))$ of $H \times \mathscr{C}(X; Y)$ into Z is continuous. Now $v \to v(x)$ is continuous on H (§ 1, no. 2, Remark 6), and it follows from Corollary 4 that $(u, y) \to u(y)$ is a continuous mapping of $H \times Y$ into Z; since $(u, v) \to u(v(x))$ is the composition of $(u, y) \to u(y)$ and $(u, v) \to (u, v(x))$, the result is proved.
 
 The following proposition and its corollary are the analogues of Corollaries 3 and 4 of Proposition 1 for uniformly equicontinuous sets of mappings:
 
@@ -127,9 +127,9 @@ The following proposition and its corollary are the analogues of Corollaries 3 a
 
 Let T, X, Y be uniform spaces and let f be a mapping of T × X into Y. Then f is uniformly continuous if and only if the following two conditions are satisfied:
 
-1) The mappings x → f(t, x) (t ∈ T) form a uniformly equicontinuous subset of $\mathcal{F}(X; Y)$.
+1) The mappings x → f(t, x) (t ∈ T) form a uniformly equicontinuous subset of $\mathscr{F}(X; Y)$.
 
-2) The mappings t → f(t, x) (x ∈ X) form a uniformly equicontinuous subset of $\mathcal{F}(T; Y)$.
+2) The mappings t → f(t, x) (x ∈ X) form a uniformly equicontinuous subset of $\mathscr{F}(T; Y)$.
 
 It is easily seen that the conditions are necessary. Conversely, suppose that they are satisfied. Let W be an entourage of Y; then there exists an entourage U of T and an entourage V of X such that:
 
@@ -145,23 +145,23 @@ $$
 
 It is now clear that the relation "$(t', t'') \in U$ and $(x', x'') \in V$" implies that $(f(t', x'), f(t'', x'')) \in \hat{W}$, whence the result.
 
-In particular, take T to be a subset H of $\mathcal{F}(X; Y)$, endowed with the uniformity of uniform convergence, and take f to be the canonical mapping $(h, x) \to h(x)$; then condition 2) of Proposition 2 is automatically satisfied because, for each entourage W of Y, the set of pairs $(h', h'')$ such that $(h'(x), h''(x)) \in W$ for all $x \in X$ is by definition an entourage of the uniform structure of H. Hence only condition 1) has to be expressed; in other words:
+In particular, take T to be a subset H of $\mathscr{F}(X; Y)$, endowed with the uniformity of uniform convergence, and take f to be the canonical mapping $(h, x) \to h(x)$; then condition 2) of Proposition 2 is automatically satisfied because, for each entourage W of Y, the set of pairs $(h', h'')$ such that $(h'(x), h''(x)) \in W$ for all $x \in X$ is by definition an entourage of the uniform structure of H. Hence only condition 1) has to be expressed; in other words:
 
 #### Corollary {#top-x-s2-n1-cor-1 .statement}
 
-Let X, Y be two uniform spaces and let H be a subset of $\mathcal{F}(X; Y)$. Then H is uniformly equicontinuous if and only if the mapping $(h, x) \to h(x)$ of $H \times X$ into Y is uniformly continuous, H being endowed with the uniformity of uniform convergence.
+Let X, Y be two uniform spaces and let H be a subset of $\mathscr{F}(X; Y)$. Then H is uniformly equicontinuous if and only if the mapping $(h, x) \to h(x)$ of $H \times X$ into Y is uniformly continuous, H being endowed with the uniformity of uniform convergence.
 
 ### 2. SPECIAL CRITERIA FOR EQUICONTINUITY
 
-It is clear that every subset of an equicontinuous (resp. uniformly equicontinuous) set is equicontinuous (resp. uniformly equicontinuous). Again, if X is a topological (resp. uniform) space and Y is a uniform space, every finite union of equicontinuous (resp. uniformly equicontinuous) subsets of $\mathcal{F}(X; Y)$ is equicontinuous (resp. uniformly equicontinuous).
+It is clear that every subset of an equicontinuous (resp. uniformly equicontinuous) set is equicontinuous (resp. uniformly equicontinuous). Again, if X is a topological (resp. uniform) space and Y is a uniform space, every finite union of equicontinuous (resp. uniformly equicontinuous) subsets of $\mathscr{F}(X; Y)$ is equicontinuous (resp. uniformly equicontinuous).
 
 Let X, X' be two topological (resp. uniform) spaces, let Y, Y' be two uniform spaces, let $f : X \to X'$ be a continuous (resp. uniformly continuous) mapping and let $g : Y \to Y'$ be a uniformly continuous mapping.
 
-It follows immediately from the definitions that the mapping $u \to g \circ u \circ f$ of $\mathcal{F}(X; Y)$ into $\mathcal{F}(X'; Y')$ transforms equicontinuous (resp. uniformly equicontinuous) sets into equicontinuous (resp. uniformly equicontinuous) sets.
+It follows immediately from the definitions that the mapping $u \to g \circ u \circ f$ of $\mathscr{F}(X; Y)$ into $\mathscr{F}(X'; Y')$ transforms equicontinuous (resp. uniformly equicontinuous) sets into equicontinuous (resp. uniformly equicontinuous) sets.
 
 #### Proposition 3 {#top-x-s2-prop-3 .statement}
 
-*Let $X$ be a topological (resp. uniform) space, let $(Y_i)_{i \in I}$ be a family of uniform spaces, let $Y$ be a set, and for each $i \in I$, let $f_i$ be a mapping of $Y$ into $Y_i$. Let $Y$ be endowed with the coarsest uniformity for which all the $f_i$ are uniformly continuous. For a subset $H$ of $\mathcal{F}(X; Y)$ to be equicontinuous (resp. uniformly equicontinuous) it is necessary and sufficient that, for each $i \in I$, the image of $H$ under the mapping $u \to f_i \circ u$ be an equicontinuous (resp. uniformly equicontinuous) subset of $\mathcal{F}(X; Y_i)$.*
+*Let $X$ be a topological (resp. uniform) space, let $(Y_i)_{i \in I}$ be a family of uniform spaces, let $Y$ be a set, and for each $i \in I$, let $f_i$ be a mapping of $Y$ into $Y_i$. Let $Y$ be endowed with the coarsest uniformity for which all the $f_i$ are uniformly continuous. For a subset $H$ of $\mathscr{F}(X; Y)$ to be equicontinuous (resp. uniformly equicontinuous) it is necessary and sufficient that, for each $i \in I$, the image of $H$ under the mapping $u \to f_i \circ u$ be an equicontinuous (resp. uniformly equicontinuous) subset of $\mathscr{F}(X; Y_i)$.*
 
 This is an immediate consequence of Definitions 1 and 2 and the definition of the entourages of $Y$.
 
@@ -198,15 +198,15 @@ In view of the definition of the entourages of the left uniformities of $G$ and 
 
 #### Proposition 6 {#top-x-s2-prop-6 .statement}
 
-Let $X$ be a topological (resp. uniform) space, let $Y$ be a uniform space and let $H$ be a subset of $\mathcal{F}(X; Y)$. Then $H$ is equicontinuous at a point $x_0 \in X$ (resp. uniformly equicontinuous) if and only if the closure $\overline{H}$ of $H$ in $\mathcal{F}_s(X; Y)$ is equicontinuous at $x_0$ (resp. uniformly equicontinuous).
+Let $X$ be a topological (resp. uniform) space, let $Y$ be a uniform space and let $H$ be a subset of $\mathscr{F}(X; Y)$. Then $H$ is equicontinuous at a point $x_0 \in X$ (resp. uniformly equicontinuous) if and only if the closure $\overline{H}$ of $H$ in $\mathscr{F}_s(X; Y)$ is equicontinuous at $x_0$ (resp. uniformly equicontinuous).
 
-The condition is sufficient, trivially. To show that it is necessary, consider an entourage $V$ of $Y$ which is closed in $Y \times Y$; by hypothesis, there is a neighbourhood $U$ of $x_0$ in $X$ (resp. an entourage $M$ of $X$) such that the relation $x \in U$ (resp. $(x', x'') \in M$) implies $(h(x_0), h(x)) \in V$ [resp. $(h(x'), h(x'')) \in V$] for all $h \in H$. Since $V$ is closed, the mappings $h \in \mathcal{F}(X; Y)$ which satisfy the relation $(h(x_0), h(x)) \in V$ for all $x \in U$ [resp. the relation $(h(x'), h(x'')) \in V$ for all $(x', x'') \in M$] form a closed subset of $\mathcal{F}_s(X; Y)$ (§ 1, no. 2, Remark 6); since this closed subset contains $H$, it contains $\overline{H}$. Hence the result, since the closed entourages of $Y$ form a fundamental system of entourages (Chapter II, § 1, no. 2, Proposition 2, Corollary 2).
+The condition is sufficient, trivially. To show that it is necessary, consider an entourage $V$ of $Y$ which is closed in $Y \times Y$; by hypothesis, there is a neighbourhood $U$ of $x_0$ in $X$ (resp. an entourage $M$ of $X$) such that the relation $x \in U$ (resp. $(x', x'') \in M$) implies $(h(x_0), h(x)) \in V$ [resp. $(h(x'), h(x'')) \in V$] for all $h \in H$. Since $V$ is closed, the mappings $h \in \mathscr{F}(X; Y)$ which satisfy the relation $(h(x_0), h(x)) \in V$ for all $x \in U$ [resp. the relation $(h(x'), h(x'')) \in V$ for all $(x', x'') \in M$] form a closed subset of $\mathscr{F}_s(X; Y)$ (§ 1, no. 2, Remark 6); since this closed subset contains $H$, it contains $\overline{H}$. Hence the result, since the closed entourages of $Y$ form a fundamental system of entourages (Chapter II, § 1, no. 2, Proposition 2, Corollary 2).
 
 ### 4. POINTWISE CONVERGENCE AND COMPACT CONVERGENCE ON EQUICONTINUOUS SETS
 
 #### Theorem 1 {#top-x-s2-thm-1 .statement}
 
-Let $X$ be a topological (resp. uniform) space, let $Y$ be a uniform space and let $H$ be an equicontinuous (resp. uniformly equicontinuous) subset of $\mathcal{C}(X; Y)$. Then the following uniformities on $H$ are identical: the uniformity of compact (resp. precompact) convergence, the uniformity of pointwise convergence and the uniformity of pointwise convergence in a dense subset $D$ of $X$.
+Let $X$ be a topological (resp. uniform) space, let $Y$ be a uniform space and let $H$ be an equicontinuous (resp. uniformly equicontinuous) subset of $\mathscr{C}(X; Y)$. Then the following uniformities on $H$ are identical: the uniformity of compact (resp. precompact) convergence, the uniformity of pointwise convergence and the uniformity of pointwise convergence in a dense subset $D$ of $X$.
 
 It is enough to show that the last uniformity on $H$ is finer than the first; in other words that, given an entourage $V$ of $Y$ and a compact (resp. precompact) subset $A$ of $X$, there exists an entourage $W$ of $Y$ and a finite subset $F$ of $D$ such that the relation
 
@@ -226,21 +226,21 @@ If $A$ is precompact and $H$ uniformly equicontinuous, we use Proposition 4 of n
 
 #### Corollary {#top-x-s2-n4-cor-1 .statement}
 
-*Under the hypotheses of Theorem 1, the closure $\overline{H}$ of $H$ in $\mathcal{F}(X; Y)$ with respect to the topology of pointwise convergence is the same as the closure of $H$ in $\mathcal{C}(X; Y)$ with respect to the topology of compact (resp. precompact) convergence.*
+*Under the hypotheses of Theorem 1, the closure $\overline{H}$ of $H$ in $\mathscr{F}(X; Y)$ with respect to the topology of pointwise convergence is the same as the closure of $H$ in $\mathscr{C}(X; Y)$ with respect to the topology of compact (resp. precompact) convergence.*
 
-For the set $\overline{H}$ is equicontinuous (resp. uniformly equicontinuous) by Proposition 6 of no. 3, and hence is contained in $\mathcal{C}(X; Y)$; the result follows immediately from the fact that, on $\overline{H}$, the two topologies under consideration are the same, by virtue of Theorem 1.
+For the set $\overline{H}$ is equicontinuous (resp. uniformly equicontinuous) by Proposition 6 of no. 3, and hence is contained in $\mathscr{C}(X; Y)$; the result follows immediately from the fact that, on $\overline{H}$, the two topologies under consideration are the same, by virtue of Theorem 1.
 
 ### 5. COMPACT SETS OF CONTINUOUS MAPPINGS
 
 #### Theorem 2 (Ascoli) {#top-x-s2-thm-2 .statement}
 
-*Let $X$ be a topological (resp. uniform) space, let $\mathcal{S}$ be a covering of $X$, let $Y$ be a uniform space and $H$ a set of mappings of $X$ into $Y$ such that, for each $A \in \mathcal{S}$ and each $u \in H$, the restriction of $u$ to $A$ is continuous (resp. uniformly continuous). Then, for $H$ to be precompact with respect to the uniformity of $\mathcal{S}$-convergence, it is necessary in all cases and also sufficient* if the sets $A \in \mathcal{S}$ are compact (resp. precompact) that the following conditions should be satisfied:
+*Let $X$ be a topological (resp. uniform) space, let $\mathscr{S}$ be a covering of $X$, let $Y$ be a uniform space and $H$ a set of mappings of $X$ into $Y$ such that, for each $A \in \mathscr{S}$ and each $u \in H$, the restriction of $u$ to $A$ is continuous (resp. uniformly continuous). Then, for $H$ to be precompact with respect to the uniformity of $\mathscr{S}$-convergence, it is necessary in all cases and also sufficient* if the sets $A \in \mathscr{S}$ are compact (resp. precompact) that the following conditions should be satisfied:
 
-a) For each $A \in \mathcal{S}$, the set $H|A \subset \mathcal{F}(A; Y)$ of restrictions to $A$ of functions of $H$ is equicontinuous (resp. uniformly equicontinuous).
+a) For each $A \in \mathscr{S}$, the set $H|A \subset \mathscr{F}(A; Y)$ of restrictions to $A$ of functions of $H$ is equicontinuous (resp. uniformly equicontinuous).
 
 b) For each $x \in X$, the set $H(x) \subset Y$ of points $u(x)$ ($u \in H$) is precompact.
 
-1) Let us show first that conditions a) and b) are necessary. We know (§ 1, no. 2, Remark 6) that the mapping $u \to u(x)$ of $\mathcal{F}_{\mathcal{S}}(X; Y)$ into $Y$ is uniformly continuous; hence, if $H$ is precompact, so is $H(x)$ (Chapter II, § 4, no. 2, Proposition 2), which proves b). To prove a), consider a set $A \in \mathcal{S}$, a point $x_0 \in A$ and an entourage $V$ of $Y$; since $H$ is precompact it can be covered by a finite number of $W(A, V)$-small sets; in other words there is a finite sequence $(u_i)$ of elements of $H$ such that, for each $u \in H$, we have
+1) Let us show first that conditions a) and b) are necessary. We know (§ 1, no. 2, Remark 6) that the mapping $u \to u(x)$ of $\mathscr{F}_{\mathscr{S}}(X; Y)$ into $Y$ is uniformly continuous; hence, if $H$ is precompact, so is $H(x)$ (Chapter II, § 4, no. 2, Proposition 2), which proves b). To prove a), consider a set $A \in \mathscr{S}$, a point $x_0 \in A$ and an entourage $V$ of $Y$; since $H$ is precompact it can be covered by a finite number of $W(A, V)$-small sets; in other words there is a finite sequence $(u_i)$ of elements of $H$ such that, for each $u \in H$, we have
 
 $$
 (u(x),\ u_i(x)) \in V \quad \text{for all } x \in A
@@ -262,7 +262,7 @@ $$
 
 Let $U$ (resp. $M$) be the intersection of the $U_i$ (resp. $M_i$); it is a neighbourhood of $x_0$ in $A$ (resp. an entourage of $A$). For each $u \in H$ there is an index $i$ for which (4) holds; writing condition (4) for $x_0$ and for $x$ (resp. for $x'$ and $x''$) and taking account of (5) [resp. (6)], we see immediately that the relation $x \in U$ [resp. $(x', x'') \in M$] implies $(u(x),\ u(x_0)) \in \overset{\circ}{V}$ [resp. $(u(x'),\ u(x'')) \in \overset{\circ}{V}$], for each $u \in H$; and this establishes a).
 
-2) Now let us show that the conditions a) and b) are sufficient if the sets $A \in \mathcal{S}$ are compact (resp. precompact). Condition b) implies that $H$ is precompact with respect to the uniformity of pointwise convergence (Chapter II, § 4, no. 2, Proposition 3). But it follows from condition a) and Theorem 1 of no. 4 that on $H|A$ the uniformity of pointwise convergence in $A$ coincides with the uniformity of uniform convergence in $A$; hence $H|A$ is precompact in $\mathcal{F}_u(A; Y)$, which implies that $H$ is precompact with respect to the uniformity of $\mathcal{S}$-convergence (§ 1, no. 2).
+2) Now let us show that the conditions a) and b) are sufficient if the sets $A \in \mathscr{S}$ are compact (resp. precompact). Condition b) implies that $H$ is precompact with respect to the uniformity of pointwise convergence (Chapter II, § 4, no. 2, Proposition 3). But it follows from condition a) and Theorem 1 of no. 4 that on $H|A$ the uniformity of pointwise convergence in $A$ coincides with the uniformity of uniform convergence in $A$; hence $H|A$ is precompact in $\mathscr{F}_u(A; Y)$, which implies that $H$ is precompact with respect to the uniformity of $\mathscr{S}$-convergence (§ 1, no. 2).
 
 Note that condition b) of Theorem 2 is automatically satisfied if $Y$ is a precompact space.
 
@@ -270,7 +270,7 @@ Note that condition b) of Theorem 2 is automatically satisfied if $Y$ is a preco
 
 Let $X$ be a topological (resp. uniform) space, let $Y$ be a Hausdorff uniform space and let $H$ be an equicontinuous (resp. uniformly equicontinuous) subset of $C(X; Y)$. Suppose that $H(x)$ is relatively compact in $Y$ for each $x \in X$. Then $H$ is relatively compact in $C(X; Y)$ with respect to the topology of compact (resp. precompact) convergence.
 
-Let $\overline{H}$ be the closure of $H$ in $\mathcal{F}_s(X; Y)$. $\overline{H}$ is equicontinuous (resp. uniformly equicontinuous) (no. 3, Proposition 6). Moreover, we have $\overline{H}(x) \subset \overline{H(x)}$ (§ 1, no. 2, Remark 6) and therefore $\overline{H}(x)$ is also relatively compact; hence Theorem 2 shows that $\overline{H}$ is precompact with respect to $\mathcal{S}$-convergence, where $\mathcal{S}$ denotes the set of all compact (resp. precompact) subsets of $X$. Moreover, since $\overline{H(x)}$ is compact, and therefore complete, $\overline{H}$ is complete with respect to the uniformity of pointwise convergence (Chapter II, § 3, no. 5, Proposition 10 and no. 4, Proposition 8) and therefore also with respect to the uniformity of $\mathcal{S}$-convergence (§ 1, no. 5, Proposition 5, Corollary 2); $\overline{H}$ is therefore compact, since it is precompact, complete and Hausdorff (§ 1, no. 2, Proposition 1).
+Let $\overline{H}$ be the closure of $H$ in $\mathscr{F}_s(X; Y)$. $\overline{H}$ is equicontinuous (resp. uniformly equicontinuous) (no. 3, Proposition 6). Moreover, we have $\overline{H}(x) \subset \overline{H(x)}$ (§ 1, no. 2, Remark 6) and therefore $\overline{H}(x)$ is also relatively compact; hence Theorem 2 shows that $\overline{H}$ is precompact with respect to $\mathscr{S}$-convergence, where $\mathscr{S}$ denotes the set of all compact (resp. precompact) subsets of $X$. Moreover, since $\overline{H(x)}$ is compact, and therefore complete, $\overline{H}$ is complete with respect to the uniformity of pointwise convergence (Chapter II, § 3, no. 5, Proposition 10 and no. 4, Proposition 8) and therefore also with respect to the uniformity of $\mathscr{S}$-convergence (§ 1, no. 5, Proposition 5, Corollary 2); $\overline{H}$ is therefore compact, since it is precompact, complete and Hausdorff (§ 1, no. 2, Proposition 1).
 
 #### Corollary 2 {#top-x-s2-thm-2-cor-2 .statement}
 
@@ -286,7 +286,7 @@ In view of Corollary 1 it is enough to show that, if $H$ is relatively compact i
 
 #### Remark {#top-x-s2-n5-rem-1 .statement}
 
-Let $X$ be a topological space, $Y$ a uniform space and $\mathcal{S}$ a set of subsets of $X$. Then on every *precompact* subset $H$ of $\mathcal{F}_{\mathcal{S}}(X; Y)$, the uniformity of $\mathcal{S}$-convergence is the same as the uniformity of pointwise convergence in $B = \bigcup_{A \in \mathcal{S}} A$. We can reduce to the case where $B = X$ and $Y$ is Hausdorff and complete; for if $j$ is the canonical injection $B \to X$ and $i$ the canonical mapping $Y \to \hat{Y}$, the uniformity of $\mathcal{S}$-convergence on $\mathcal{F}(X; Y)$ is the inverse image of the uniformity of $\mathcal{S}$-convergence on $\mathcal{F}(B; \hat{Y})$ under the mapping $\theta : u \to i \circ u \circ j$ (§ 1, no. 4, Proposition 4), and $H$ is precompact if and only if $\theta(H)$ is (Chapter II, § 4, no. 2, Proposition 3). This being so, if $B = X$ and $Y$ is Hausdorff and complete, $\mathcal{F}_{\mathcal{S}}(X; Y)$ is Hausdorff and complete (§ 1, no. 2, Proposition 1 and no. 5, Theorem 1); hence the closure $\overline{H}$ of $H$ in this space is *compact*. On $\overline{H}$, the topology of pointwise convergence is Hausdorff (§ 1, no. 2, Proposition 1) and coarser than that of $\mathcal{S}$-convergence; hence these two topologies coincide (Chapter I, § 9, no. 4, Theorem 2, Corollary 3) and consequently so do the uniformities of $\mathcal{S}$-convergence and pointwise convergence (Chapter II, § 4, no. 1, Theorem 1).
+Let $X$ be a topological space, $Y$ a uniform space and $\mathscr{S}$ a set of subsets of $X$. Then on every *precompact* subset $H$ of $\mathscr{F}_{\mathscr{S}}(X; Y)$, the uniformity of $\mathscr{S}$-convergence is the same as the uniformity of pointwise convergence in $B = \bigcup_{A \in \mathscr{S}} A$. We can reduce to the case where $B = X$ and $Y$ is Hausdorff and complete; for if $j$ is the canonical injection $B \to X$ and $i$ the canonical mapping $Y \to \hat{Y}$, the uniformity of $\mathscr{S}$-convergence on $\mathscr{F}(X; Y)$ is the inverse image of the uniformity of $\mathscr{S}$-convergence on $\mathscr{F}(B; \hat{Y})$ under the mapping $\theta : u \to i \circ u \circ j$ (§ 1, no. 4, Proposition 4), and $H$ is precompact if and only if $\theta(H)$ is (Chapter II, § 4, no. 2, Proposition 3). This being so, if $B = X$ and $Y$ is Hausdorff and complete, $\mathscr{F}_{\mathscr{S}}(X; Y)$ is Hausdorff and complete (§ 1, no. 2, Proposition 1 and no. 5, Theorem 1); hence the closure $\overline{H}$ of $H$ in this space is *compact*. On $\overline{H}$, the topology of pointwise convergence is Hausdorff (§ 1, no. 2, Proposition 1) and coarser than that of $\mathscr{S}$-convergence; hence these two topologies coincide (Chapter I, § 9, no. 4, Theorem 2, Corollary 3) and consequently so do the uniformities of $\mathscr{S}$-convergence and pointwise convergence (Chapter II, § 4, no. 1, Theorem 1).
 
 ### Exercises {#top-x-s2-exercises}
 

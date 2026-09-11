@@ -28,9 +28,9 @@ subsections:
       pdf_page: 320
 statements: 18
 exercises: 5
-content_sha256: 6a29a79e399c2496aaed5c1c4d00902d6fbe49af851d9a0e3b16aaec88223fe4
+content_sha256: 96175821c5414a3cc58861167c5e7c8b760f09ddb998b88c6c1e796f4b23c0a4
 translated_from: content/en/top/X/04_s4_approximation_of_continuous_real_valued.md
-source_content_sha256: 352337cc126af02c15ffde78bc5a2610b483c38d6be644a79f5231184afe7314
+source_content_sha256: 3e9a477ddda6ced3617f3120b0bf7a65a4a1aca4d420e95bfec5bd3f38875e9a
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-9e661c89
 glossary_version: 34
@@ -42,19 +42,19 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. XẤP XỈ CÁC HÀM LIÊN TỤC BỞI CÁC HÀM THUỘC VÀO MỘT DÀN
 
-Trong mục này ta sẽ nghiên cứu tập hợp $\mathcal{C} = C(X; \mathbf{R})$ các hàm giá trị thực liên tục (*) xác định trên một không gian *compact* $X$, và ta sẽ luôn giả sử rằng $\mathcal{C}$ được trang bị tôpô của *sự hội tụ đều*. Từ § 3, no. 2 ta biết rằng tôpô này được xác định bởi chuẩn
+Trong mục này ta sẽ nghiên cứu tập hợp $\mathscr{C} = C(X; \mathbf{R})$ các hàm giá trị thực liên tục (*) xác định trên một không gian *compact* $X$, và ta sẽ luôn giả sử rằng $\mathscr{C}$ được trang bị tôpô của *sự hội tụ đều*. Từ § 3, no. 2 ta biết rằng tôpô này được xác định bởi chuẩn
 
 $$
 ||f|| = \sup_{x \in X} |f(x)|
 $$
 
-và rằng chuẩn này tương thích với cấu trúc đại số $\mathbf{R}$ của $\mathcal{C}$. Với chuẩn này và cấu trúc đại số này, $\mathcal{C}$ là một *đại số định chuẩn đầy đủ* trên $\mathbf{R}$ ($§ 1$, no. 6, Định lý 2, Hệ quả 1).
+và rằng chuẩn này tương thích với cấu trúc đại số $\mathbf{R}$ của $\mathscr{C}$. Với chuẩn này và cấu trúc đại số này, $\mathscr{C}$ là một *đại số định chuẩn đầy đủ* trên $\mathbf{R}$ ($§ 1$, no. 6, Định lý 2, Hệ quả 1).
 
 (*) Các hàm giá trị thực được xét trong mục này luôn được giả sử là *hữu hạn*.
 
-Nếu $H$ là một tập con của $\mathcal{C}$, ta sẽ nói rằng một hàm giá trị thực liên tục $f$ trên $X$ có thể được xấp xỉ đều bởi các hàm của $H$ nếu $f$ thuộc bao đóng của $H$ trong không gian $\mathcal{C}$, tức là nếu, với mỗi $\varepsilon > 0$, tồn tại một hàm $g \in H$ sao cho $|f(x) - g(x)| \leq \varepsilon$ với mọi $x \in X$. Nói rằng mọi hàm giá trị thực liên tục trên $X$ có thể được xấp xỉ đều bởi các hàm của $H$ do đó có nghĩa là $H$ là trù mật trong $\mathcal{C}$.
+Nếu $H$ là một tập con của $\mathscr{C}$, ta sẽ nói rằng một hàm giá trị thực liên tục $f$ trên $X$ có thể được xấp xỉ đều bởi các hàm của $H$ nếu $f$ thuộc bao đóng của $H$ trong không gian $\mathscr{C}$, tức là nếu, với mỗi $\varepsilon > 0$, tồn tại một hàm $g \in H$ sao cho $|f(x) - g(x)| \leq \varepsilon$ với mọi $x \in X$. Nói rằng mọi hàm giá trị thực liên tục trên $X$ có thể được xấp xỉ đều bởi các hàm của $H$ do đó có nghĩa là $H$ là trù mật trong $\mathscr{C}$.
 
-Trên tập hợp $\mathcal{C}$, quan hệ $f \leq g$ [có nghĩa là $f(x) \leq g(x)$ với mọi $x \in X$] là một quan hệ thứ tự, đối với quan hệ này $\mathcal{C}$ là một dàn. Rõ ràng ta có $|||u| - |v||| \leq ||u - v||$, và do đó $u \to |u|$ là một ánh xạ liên tục đều của $\mathcal{C}$ vào chính nó. Suy ra rằng
+Trên tập hợp $\mathscr{C}$, quan hệ $f \leq g$ [có nghĩa là $f(x) \leq g(x)$ với mọi $x \in X$] là một quan hệ thứ tự, đối với quan hệ này $\mathscr{C}$ là một dàn. Rõ ràng ta có $|||u| - |v||| \leq ||u - v||$, và do đó $u \to |u|$ là một ánh xạ liên tục đều của $\mathscr{C}$ vào chính nó. Suy ra rằng
 
 $$
 (u, v) \to \sup (u, v) = \frac{1}{2}(u + v + |u - v|)
@@ -66,7 +66,7 @@ $$
 (u, v) \to \inf (u, v) = \frac{1}{2}(u + v - |u - v|)
 $$
 
-là liên tục đều trên $\mathcal{C} \times \mathcal{C}$.
+là liên tục đều trên $\mathscr{C} \times \mathscr{C}$.
 
 MỆNH ĐỀ I. Cho $X$ là một không gian compact và cho $H$ là một tập hợp các hàm giá trị thực liên tục xác định trên $X$. Cho $f$ là một hàm giá trị thực liên tục trên $X$ sao cho với mỗi $x \in X$ tồn tại một hàm $u_x \in H$ sao cho $u_x(x) > f(x)$ [tương ứng. $u_x(x) < f(x)$]. Khi đó tồn tại một số hữu hạn các hàm $u_{x_i} = f_i \in H$ ($1 \leq i \leq n$) sao cho, nếu $v = \sup(f_1, f_2, \ldots, f_n)$ [tương ứng. $w = \inf(f_1, f_2, \ldots, f_n)$], ta có $v(x) > f(x)$ [tương ứng. $w(x) < f(x)$] với mọi $x \in X$.
 
@@ -104,7 +104,7 @@ Chẳng hạn, nếu X là một không gian hoàn toàn chính quy (Chương IX
 
 #### Định lý 2 (Stone) {#top-x-s4-thm-2 .statement}
 
-*Cho X là một không gian compact, và cho H là một không gian con vectơ của $\mathcal{C}(X; \mathbf{R})$ sao cho 1) các hàm hằng thuộc H; 2) nếu $u \in H$ thì $|u| \in H$; 3) H phân biệt các điểm của X. Khi đó mọi hàm giá trị thực liên tục trên X đều có thể được xấp xỉ đều bởi các hàm của H.*
+*Cho X là một không gian compact, và cho H là một không gian con vectơ của $\mathscr{C}(X; \mathbf{R})$ sao cho 1) các hàm hằng thuộc H; 2) nếu $u \in H$ thì $|u| \in H$; 3) H phân biệt các điểm của X. Khi đó mọi hàm giá trị thực liên tục trên X đều có thể được xấp xỉ đều bởi các hàm của H.*
 
 Chỉ cần chứng minh rằng H thỏa các điều kiện của Hệ quả của Mệnh đề 2. Theo giả thiết, nếu $u \in H$ và $v \in H$, ta có
 
@@ -130,9 +130,9 @@ Cho một tập H các hàm giá trị thực được xác định trên một 
 
 *Cho X là một không gian compact và cho H là một tập các hàm giá trị thực liên tục trên X phân biệt các điểm của X. Khi đó mọi hàm giá trị thực liên tục trên X đều có thể được xấp xỉ đều bởi các đa thức (với hệ số thực) theo các hàm của H.*
 
-Một mệnh đề tương đương của định lý là *bất kỳ đại số con nào của $\mathcal{C}(X; \mathbf{R})$ chứa các hàm hằng và phân biệt các điểm của X đều trù mật trong $\mathcal{C}(X; \mathbf{R})$*.
+Một mệnh đề tương đương của định lý là *bất kỳ đại số con nào của $\mathscr{C}(X; \mathbf{R})$ chứa các hàm hằng và phân biệt các điểm của X đều trù mật trong $\mathscr{C}(X; \mathbf{R})$*.
 
-Cho $H_0$ là tập tất cả các đa thức theo các hàm của H, và cho $\overline{H}_0$ là bao đóng của $H_0$ trong $\mathcal{C}$. Nếu g là một đa thức bất kỳ theo n biến với hệ số thực, thì $(u_1, u_2, \ldots, u_n) \to g(u_1, u_2, \ldots, u_n)$ là một ánh xạ liên tục của $\mathcal{C}^n$ vào $\mathcal{C}$, ánh xạ $H_0^n$ vào $H_0$, và do đó ánh xạ $\overline{H}_0^n$ vào $\overline{H}_0$ (Chương I, § 2, no. 1, Định lý 1). Đặc biệt, $\overline{H}_0$ là một không gian con vectơ của $\mathcal{C}$ và hiển nhiên thỏa điều kiện thứ nhất và thứ ba của Định lý 2; ta sẽ chứng minh rằng nó cũng thỏa điều kiện thứ hai, và điều này sẽ chứng minh rằng $\overline{H}_0 = \mathcal{C}$.
+Cho $H_0$ là tập tất cả các đa thức theo các hàm của H, và cho $\overline{H}_0$ là bao đóng của $H_0$ trong $\mathscr{C}$. Nếu g là một đa thức bất kỳ theo n biến với hệ số thực, thì $(u_1, u_2, \ldots, u_n) \to g(u_1, u_2, \ldots, u_n)$ là một ánh xạ liên tục của $\mathscr{C}^n$ vào $\mathscr{C}$, ánh xạ $H_0^n$ vào $H_0$, và do đó ánh xạ $\overline{H}_0^n$ vào $\overline{H}_0$ (Chương I, § 2, no. 1, Định lý 1). Đặc biệt, $\overline{H}_0$ là một không gian con vectơ của $\mathscr{C}$ và hiển nhiên thỏa điều kiện thứ nhất và thứ ba của Định lý 2; ta sẽ chứng minh rằng nó cũng thỏa điều kiện thứ hai, và điều này sẽ chứng minh rằng $\overline{H}_0 = \mathscr{C}$.
 
 Vì mọi hàm $u \in \overline{H}_0$ đều bị chặn trên X, nên đủ để chứng minh bổ đề sau:
 
@@ -218,7 +218,7 @@ Cho một tập $H$ gồm các hàm liên tục nhận giá trị thực xác đ
 
 #### Mệnh đề 5 {#top-x-s4-prop-5 .statement}
 
-Cho $X$ là một không gian compact, $Y$ là một không gian có chuẩn trên $\mathbf{R}$ và $H$ là một tập con của $\mathcal{C}(X; \mathbf{R})$. Nếu mọi hàm liên tục nhận giá trị thực trên $X$ đều có thể được xấp xỉ đều bởi các hàm của $H$, thì mọi ánh xạ liên tục $f$ của $X$ vào $Y$ đều có thể được xấp xỉ đều bởi các tổ hợp tuyến tính của các hàm của $H$ với hệ số trong $Y$.
+Cho $X$ là một không gian compact, $Y$ là một không gian có chuẩn trên $\mathbf{R}$ và $H$ là một tập con của $\mathscr{C}(X; \mathbf{R})$. Nếu mọi hàm liên tục nhận giá trị thực trên $X$ đều có thể được xấp xỉ đều bởi các hàm của $H$, thì mọi ánh xạ liên tục $f$ của $X$ vào $Y$ đều có thể được xấp xỉ đều bởi các tổ hợp tuyến tính của các hàm của $H$ với hệ số trong $Y$.
 
 Cho bất kỳ số thực $\varepsilon > 0$ nào, với mỗi $x \in X$ tồn tại một lân cận mở của $x$ trong đó độ dao động của $f$ không vượt quá $\varepsilon$. Do đó tồn tại một phủ mở hữu hạn $(A_i)_{1 \leq i \leq n}$ của $X$ sao cho độ dao động của $f$ trên từng $A_i$ không vượt quá $\varepsilon$. Lấy $a_i$ là một giá trị của $f$ trong $A_i$ ($1 \leq i \leq n$), và lấy $(u_i)_{1 \leq i \leq n}$ là một phân hoạch đơn vị liên tục phụ thuộc vào phủ $(A_i)$ (Chương IX, § 4, no. 4, Hệ quả của Mệnh đề 4). Cho $x$ là một điểm bất kỳ của $X$. Với mỗi chỉ số $i$ sao cho $x \notin A_i$, ta có $u_i(x) = 0$, và với mỗi chỉ số $i$ sao cho $x \in A_i$ ta có $\|f(x) - a_i\| \leq \varepsilon$; suy ra rằng
 
@@ -240,7 +240,7 @@ $$
 
 và chứng minh hoàn tất.
 
-Từ Mệnh đề 5 suy ra rằng, ứng với mỗi mệnh đề mà ta đã chứng minh rằng một tập con $H$ nào đó của $\mathcal{C}(X; \mathbf{R})$ là trù mật, có một mệnh đề tương tự đối với các ánh xạ liên tục của $X$ vào một không gian định chuẩn $Y$ tùy ý. Ta sẽ chỉ viết tường minh mệnh đề tương ứng theo cách này với Định lý 3. Cho một tập $H$ các hàm nhận giá trị thực trên $X$, một đa thức theo các hàm của $H$, với hệ số trong $Y$, được định nghĩa là bất kỳ tổ hợp tuyến tính nào, với hệ số trong $Y$, của các tích của một họ hữu hạn (có thể rỗng) các hàm thuộc $H$. Khi đó:
+Từ Mệnh đề 5 suy ra rằng, ứng với mỗi mệnh đề mà ta đã chứng minh rằng một tập con $H$ nào đó của $\mathscr{C}(X; \mathbf{R})$ là trù mật, có một mệnh đề tương tự đối với các ánh xạ liên tục của $X$ vào một không gian định chuẩn $Y$ tùy ý. Ta sẽ chỉ viết tường minh mệnh đề tương ứng theo cách này với Định lý 3. Cho một tập $H$ các hàm nhận giá trị thực trên $X$, một đa thức theo các hàm của $H$, với hệ số trong $Y$, được định nghĩa là bất kỳ tổ hợp tuyến tính nào, với hệ số trong $Y$, của các tích của một họ hữu hạn (có thể rỗng) các hàm thuộc $H$. Khi đó:
 
 #### Mệnh đề 6 {#top-x-s4-prop-6 .statement}
 

@@ -32,7 +32,7 @@ subsections:
       pdf_page: 40
 statements: 26
 exercises: 10
-content_sha256: 5562b4681c83c20050e0ed264482614f3e968e4e9928eaf76464b16d881221e1
+content_sha256: d6db33ce42bef1f07ad2ca9b1c373058a4669ff1a41b30c66bf888cdbde77c18
 translated_from: content/en/top/I/02_s2_continuous_functions.md
 source_content_sha256: 16e7ac6daa7f6e8d5016ffb450612e74265560ae6512c3a4b479d5b88d5f0cf7
 translation_model: gpt-5.4
@@ -96,7 +96,7 @@ $$
 
 và do đó $x \in \overline{f^{-1}(A')} \subset \overline{f^{-1}(V')}$. Theo giả thiết, $\overline{f^{-1}(A')}$ là mở trong $X$, nên $\overline{f^{-1}(V')}$ là một lân cận của $x$ trong $X$. Vậy d) suy ra a).
 
-Nhận xét. 1) Cho $\mathcal{B}$ là một cơ sở (§ 1, no. 3) của tôpô của $X'$; khi đó để $f : X \to X'$ liên tục, điều kiện cần và đủ là $\overline{f^{-1}(U')}$ mở trong $X$ với mọi $U' \in \mathcal{B}$.
+Nhận xét. 1) Cho $\mathscr{B}$ là một cơ sở (§ 1, no. 3) của tôpô của $X'$; khi đó để $f : X \to X'$ liên tục, điều kiện cần và đủ là $\overline{f^{-1}(U')}$ mở trong $X$ với mọi $U' \in \mathscr{B}$.
 
 #### Ví dụ {#top-i-s2-n1-exa-2 .statement}
 
@@ -132,7 +132,7 @@ Có thể có một song ánh liên tục của một không gian tôpô $X$ lê
 
 #### Nhận xét 3 {#top-i-s2-n1-rem-3 .statement}
 
-Cho $X$ là một không gian tôpô, và với mỗi $x \in X$ gọi $\mathcal{B}(x)$ là tập hợp tất cả các lân cận của $x$. Cho $x_0$ là một điểm của $X$; với mỗi $x \in X$, định nghĩa một tập hợp $\mathcal{B}_0(x)$ gồm các tập hợp con của $X$ như sau: $\mathcal{B}_0(x_0) = \mathcal{B}(x_0)$, và nếu $x \neq x_0$ thì $\mathcal{B}_0(x)$ là tập hợp tất cả các tập hợp con của $X$ chứa $x$. Kiểm tra ngay lập tức được (§ 1, no. 2, Mệnh đề 2) rằng các tập hợp $\mathcal{B}_0(x)$ là các hệ lân cận của các điểm của $X$ đối với một tôpô trên $X$; gọi $X_0$ là không gian tôpô nhận được như vậy, và gọi $j : X_0 \to X$ là ánh xạ đồng nhất, liên tục nhưng nói chung không song liên tục. Một ánh xạ $f$ từ $X$ vào một không gian tôpô $X'$ là liên tục tại điểm $x_0$ nếu và chỉ nếu hợp thành $X_0 \xrightarrow{j} X \xrightarrow{f} X'$ là liên tục trên $X_0$; điều này suy ra ngay lập tức từ các định nghĩa.
+Cho $X$ là một không gian tôpô, và với mỗi $x \in X$ gọi $\mathscr{B}(x)$ là tập hợp tất cả các lân cận của $x$. Cho $x_0$ là một điểm của $X$; với mỗi $x \in X$, định nghĩa một tập hợp $\mathscr{B}_0(x)$ gồm các tập hợp con của $X$ như sau: $\mathscr{B}_0(x_0) = \mathscr{B}(x_0)$, và nếu $x \neq x_0$ thì $\mathscr{B}_0(x)$ là tập hợp tất cả các tập hợp con của $X$ chứa $x$. Kiểm tra ngay lập tức được (§ 1, no. 2, Mệnh đề 2) rằng các tập hợp $\mathscr{B}_0(x)$ là các hệ lân cận của các điểm của $X$ đối với một tôpô trên $X$; gọi $X_0$ là không gian tôpô nhận được như vậy, và gọi $j : X_0 \to X$ là ánh xạ đồng nhất, liên tục nhưng nói chung không song liên tục. Một ánh xạ $f$ từ $X$ vào một không gian tôpô $X'$ là liên tục tại điểm $x_0$ nếu và chỉ nếu hợp thành $X_0 \xrightarrow{j} X \xrightarrow{f} X'$ là liên tục trên $X_0$; điều này suy ra ngay lập tức từ các định nghĩa.
 
 ### 2. SO SÁNH CÁC TÔPÔ
 
@@ -140,7 +140,7 @@ Cho $X$ là một không gian tôpô, và với mỗi $x \in X$ gọi $\mathcal{
 
 #### Định nghĩa 3 {#top-i-s2-def-3 .statement}
 
-Cho hai tôpô $\mathcal{T}_1, \mathcal{T}_2$ trên cùng một tập hợp $X$, ta nói rằng $\mathcal{T}_1$ mịn hơn $\mathcal{T}_2$ (và $\mathcal{T}_2$ thô hơn $\mathcal{T}_1$) nếu, ký hiệu bởi $X_i$ tập hợp $X$ được trang bị tôpô $\mathcal{T}_i$ ($i = 1, 2$), ánh xạ đồng nhất $X_1 \to X_2$ là liên tục. Nếu thêm nữa $\mathcal{T}_1 \neq \mathcal{T}_2$, ta nói rằng $\mathcal{T}_1$ mịn hơn thực sự $\mathcal{T}_2$ (và $\mathcal{T}_2$ thô hơn thực sự $\mathcal{T}_1$).
+Cho hai tôpô $\mathscr{T}_1, \mathscr{T}_2$ trên cùng một tập hợp $X$, ta nói rằng $\mathscr{T}_1$ mịn hơn $\mathscr{T}_2$ (và $\mathscr{T}_2$ thô hơn $\mathscr{T}_1$) nếu, ký hiệu bởi $X_i$ tập hợp $X$ được trang bị tôpô $\mathscr{T}_i$ ($i = 1, 2$), ánh xạ đồng nhất $X_1 \to X_2$ là liên tục. Nếu thêm nữa $\mathscr{T}_1 \neq \mathscr{T}_2$, ta nói rằng $\mathscr{T}_1$ mịn hơn thực sự $\mathscr{T}_2$ (và $\mathscr{T}_2$ thô hơn thực sự $\mathscr{T}_1$).
 
 Hai tôpô, trong đó một tôpô mịn hơn tôpô kia, được gọi là so sánh được.
 
@@ -148,12 +148,12 @@ Các tiêu chuẩn để một ánh xạ được liên tục (no. 1, Định ng
 
 #### Mệnh đề 3 {#top-i-s2-prop-3 .statement}
 
-Cho hai tôpô $\mathcal{T}_1, \mathcal{T}_2$ trên một tập hợp $X$, các mệnh đề sau là tương đương:
-a) $\mathcal{T}_1$ mịn hơn $\mathcal{T}_2$.
-b) Với mỗi $x \in X$, mọi lân cận của $x$ đối với $\mathcal{T}_2$ đều là một lân cận của $x$ đối với $\mathcal{T}_1$.
-c) Với mỗi tập con $A$ của $X$, bao đóng của $A$ trong tôpô $\mathcal{T}_1$ được chứa trong bao đóng của $A$ trong tôpô $\mathcal{T}_2$.
-d) Mọi tập con của $X$ đóng trong $\mathcal{T}_2$ đều đóng trong $\mathcal{T}_1$.
-e) Mọi tập con của $X$ mở trong $\mathcal{T}_2$ đều mở trong $\mathcal{T}_1$.
+Cho hai tôpô $\mathscr{T}_1, \mathscr{T}_2$ trên một tập hợp $X$, các mệnh đề sau là tương đương:
+a) $\mathscr{T}_1$ mịn hơn $\mathscr{T}_2$.
+b) Với mỗi $x \in X$, mọi lân cận của $x$ đối với $\mathscr{T}_2$ đều là một lân cận của $x$ đối với $\mathscr{T}_1$.
+c) Với mỗi tập con $A$ của $X$, bao đóng của $A$ trong tôpô $\mathscr{T}_1$ được chứa trong bao đóng của $A$ trong tôpô $\mathscr{T}_2$.
+d) Mọi tập con của $X$ đóng trong $\mathscr{T}_2$ đều đóng trong $\mathscr{T}_1$.
+e) Mọi tập con của $X$ mở trong $\mathscr{T}_2$ đều mở trong $\mathscr{T}_1$.
 
 #### Ví dụ {#top-i-s2-n2-exa-1 .statement}
 
@@ -177,15 +177,15 @@ Trong tập hợp có thứ tự của mọi tôpô trên một tập hợp $X$,
 
 #### Mệnh đề 4 {#top-i-s2-prop-4 .statement}
 
-Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian tôpô, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Gọi $\mathcal{S}$ là tập hợp các tập con của $X$ có dạng $\overline{f}_i^{-1}(U_i)$ ($i \in I$, $U_i$ mở trong $Y_i$), và gọi $\mathcal{B}$ là tập hợp các giao hữu hạn của các tập hợp thuộc $\mathcal{S}$. Khi đó $\mathcal{B}$ là một cơ sở của một tôpô $\mathcal{T}$ trên $X$, tôpô này là cấu trúc tôpô ban đầu trên $X$ đối với họ $(f_i)$ (Lý thuyết tập hợp, Chương IV, § 2, no. 3) và đặc biệt là tôpô thô nhất trên $X$ mà đối với nó các ánh xạ $f_i$ là liên tục. Chính xác hơn, nếu $g$ là một ánh xạ từ một không gian tôpô $Z$ vào $X$, thì $g$ liên tục tại một điểm $z \in Z$ (X mang tôpô $\mathcal{T}$) khi và chỉ khi mỗi ánh xạ hợp thành $f_i \circ g$ đều liên tục tại $z$.
+Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian tôpô, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Gọi $\mathscr{S}$ là tập hợp các tập con của $X$ có dạng $\overline{f}_i^{-1}(U_i)$ ($i \in I$, $U_i$ mở trong $Y_i$), và gọi $\mathscr{B}$ là tập hợp các giao hữu hạn của các tập hợp thuộc $\mathscr{S}$. Khi đó $\mathscr{B}$ là một cơ sở của một tôpô $\mathscr{T}$ trên $X$, tôpô này là cấu trúc tôpô ban đầu trên $X$ đối với họ $(f_i)$ (Lý thuyết tập hợp, Chương IV, § 2, no. 3) và đặc biệt là tôpô thô nhất trên $X$ mà đối với nó các ánh xạ $f_i$ là liên tục. Chính xác hơn, nếu $g$ là một ánh xạ từ một không gian tôpô $Z$ vào $X$, thì $g$ liên tục tại một điểm $z \in Z$ (X mang tôpô $\mathscr{T}$) khi và chỉ khi mỗi ánh xạ hợp thành $f_i \circ g$ đều liên tục tại $z$.
 
-Gọi $\mathcal{D}$ là tập hợp của mọi hợp của các tập hợp thuộc $\mathcal{B}$; rõ ràng $\mathcal{D}$ thỏa mãn tiên đề $(O_1)$ vì phép lập hợp là kết hợp; và $\mathcal{D}$ thỏa mãn tiên đề $(O_{II})$ do định nghĩa của $\mathcal{B}$ và việc giao hữu hạn có tính phân phối đối với hợp tùy ý [Lý thuyết tập hợp, R § 4, công thức (37)]. Vậy $\mathcal{D}$ là tập hợp các tập con mở của $X$ đối với một tôpô $\mathcal{T}$ mà $\mathcal{B}$ là một cơ sở. Ta sẽ chứng minh khẳng định cuối cùng của mệnh đề, điều này suy ra các khẳng định khác do các tính chất tổng quát của các cấu trúc ban đầu (Lý thuyết tập hợp, Chương IV, § 2, no. 3, tiêu chuẩn CST 9). Trước hết, định nghĩa của $\mathcal{S}$ cho thấy các $f_i$ liên tục trên $X$ (no. 1, Định lý 1); do đó, nếu $g$ liên tục tại $z$, thì các ánh xạ $f_i \circ g$ cũng vậy (no. 1, Mệnh đề 2). Ngược lại, giả sử rằng mọi ánh xạ $f_i \circ g$ đều liên tục tại $z$, và gọi $V$ là một lân cận của $g(z)$ trong $X$; theo định nghĩa, tồn tại một tập con hữu hạn $J$ của $I$, và với mỗi $i \in J$ một tập con mở $U_i$ của $Y_i$ sao cho $V$ chứa tập hợp $\bigcap_{i \in J} \overline{f}_i^{-1}(U_i)$ và $g(z)$ thuộc tập hợp này. Suy ra rằng
+Gọi $\mathscr{D}$ là tập hợp của mọi hợp của các tập hợp thuộc $\mathscr{B}$; rõ ràng $\mathscr{D}$ thỏa mãn tiên đề $(O_1)$ vì phép lập hợp là kết hợp; và $\mathscr{D}$ thỏa mãn tiên đề $(O_{II})$ do định nghĩa của $\mathscr{B}$ và việc giao hữu hạn có tính phân phối đối với hợp tùy ý [Lý thuyết tập hợp, R § 4, công thức (37)]. Vậy $\mathscr{D}$ là tập hợp các tập con mở của $X$ đối với một tôpô $\mathscr{T}$ mà $\mathscr{B}$ là một cơ sở. Ta sẽ chứng minh khẳng định cuối cùng của mệnh đề, điều này suy ra các khẳng định khác do các tính chất tổng quát của các cấu trúc ban đầu (Lý thuyết tập hợp, Chương IV, § 2, no. 3, tiêu chuẩn CST 9). Trước hết, định nghĩa của $\mathscr{S}$ cho thấy các $f_i$ liên tục trên $X$ (no. 1, Định lý 1); do đó, nếu $g$ liên tục tại $z$, thì các ánh xạ $f_i \circ g$ cũng vậy (no. 1, Mệnh đề 2). Ngược lại, giả sử rằng mọi ánh xạ $f_i \circ g$ đều liên tục tại $z$, và gọi $V$ là một lân cận của $g(z)$ trong $X$; theo định nghĩa, tồn tại một tập con hữu hạn $J$ của $I$, và với mỗi $i \in J$ một tập con mở $U_i$ của $Y_i$ sao cho $V$ chứa tập hợp $\bigcap_{i \in J} \overline{f}_i^{-1}(U_i)$ và $g(z)$ thuộc tập hợp này. Suy ra rằng
 $$
 \overline{g}^{-1}(V) \supset \bigcap_{i \in J} \overline{g}^{-1}(\overline{f}_i^{-1}(U_i)),
 $$
 và giả thiết kéo theo rằng mỗi tập hợp $\overline{g}^{-1}(\overline{f}_i^{-1}(U_i))$ là một lân cận của $z$ trong $Z$; do đó $\overline{g}^{-1}(V)$ cũng là một lân cận của $z$ trong $Z$. Điều này hoàn tất chứng minh.
 
-Cho $\mathcal{B}_i$ là một cơ sở của tôpô của $Y_i (i \in I)$; gọi $\mathcal{S}'$ là tập hợp các tập con của $X$ có dạng $\overline{f}_i^{-1}(U_i)$ với $i \in I$ và $U_i \in \mathcal{B}_i$ đối với mỗi $i \in I$; nếu $\mathcal{B}'$ là tập hợp các giao hữu hạn của các tập thuộc $\mathcal{S}'$, thì hiển nhiên $\mathcal{B}'$ là một cơ sở của tôpô $\mathcal{T}$.
+Cho $\mathscr{B}_i$ là một cơ sở của tôpô của $Y_i (i \in I)$; gọi $\mathscr{S}'$ là tập hợp các tập con của $X$ có dạng $\overline{f}_i^{-1}(U_i)$ với $i \in I$ và $U_i \in \mathscr{B}_i$ đối với mỗi $i \in I$; nếu $\mathscr{B}'$ là tập hợp các giao hữu hạn của các tập thuộc $\mathscr{S}'$, thì hiển nhiên $\mathscr{B}'$ là một cơ sở của tôpô $\mathscr{T}$.
 
 Các tính chất tổng quát của các cấu trúc ban đầu (Lý thuyết tập hợp, Chương IV, § 2, no. 3, tiêu chuẩn CST 10) đặc biệt kéo theo tính chất bắc cầu sau đây (mà chứng minh trực tiếp của nó khá dễ dàng):
 
@@ -195,15 +195,15 @@ Cho $X$ là một tập hợp, $(Z_i)_{i \in I}$ là một họ các không gian
 
 #### Ví dụ 1 {#top-i-s2-n3-exa-1 .statement}
 
-Ảnh ngược của một tôpô. Cho $X$ là một tập hợp, $Y$ là một không gian tôpô, $f$ là một ánh xạ từ $X$ vào $Y$; tôpô thô nhất $\mathcal{T}$ trên $X$ sao cho $f$ liên tục được gọi là ảnh ngược theo $f$ của tôpô của $Y$. Suy ra từ Mệnh đề 4 và các công thức về ảnh ngược của một hợp và một giao [Lý thuyết tập hợp, R, § 4, các công thức (34) và (46)] rằng các tập hợp mở (tương ứng đóng) trong tôpô $\mathcal{T}$ là các ảnh ngược theo $f$ của các tập hợp mở (tương ứng đóng) của $Y$; do đó, với mỗi $x \in X$, các tập hợp $f^{-1}(W)$, trong đó $W$ chạy qua một hệ cơ bản các lân cận của $f(x)$ trong $Y$, tạo thành một hệ cơ bản các lân cận của $x$ trong tôpô $\mathcal{T}$. Trong § 3 chúng ta sẽ nghiên cứu, dưới tên gọi tôpô cảm sinh, trường hợp riêng trong đó $X$ là một tập con của $Y$ và $f$ là đơn ánh chính tắc $X \to Y$; khi đó $X$, với tôpô cảm sinh, được gọi là một không gian con của $Y$.
+Ảnh ngược của một tôpô. Cho $X$ là một tập hợp, $Y$ là một không gian tôpô, $f$ là một ánh xạ từ $X$ vào $Y$; tôpô thô nhất $\mathscr{T}$ trên $X$ sao cho $f$ liên tục được gọi là ảnh ngược theo $f$ của tôpô của $Y$. Suy ra từ Mệnh đề 4 và các công thức về ảnh ngược của một hợp và một giao [Lý thuyết tập hợp, R, § 4, các công thức (34) và (46)] rằng các tập hợp mở (tương ứng đóng) trong tôpô $\mathscr{T}$ là các ảnh ngược theo $f$ của các tập hợp mở (tương ứng đóng) của $Y$; do đó, với mỗi $x \in X$, các tập hợp $f^{-1}(W)$, trong đó $W$ chạy qua một hệ cơ bản các lân cận của $f(x)$ trong $Y$, tạo thành một hệ cơ bản các lân cận của $x$ trong tôpô $\mathscr{T}$. Trong § 3 chúng ta sẽ nghiên cứu, dưới tên gọi tôpô cảm sinh, trường hợp riêng trong đó $X$ là một tập con của $Y$ và $f$ là đơn ánh chính tắc $X \to Y$; khi đó $X$, với tôpô cảm sinh, được gọi là một không gian con của $Y$.
 
 Để một ánh xạ $f$ từ một không gian tôpô $X$ vào một không gian tôpô $X'$ là liên tục thì điều kiện cần và đủ là tôpô của $X$ mịn hơn ảnh ngược theo $f$ của tôpô của $X'$.
 
 #### Ví dụ 2 {#top-i-s2-n3-exa-2 .statement}
 
-Cận trên bé nhất của một tập hợp các tôpô. Mọi họ $(\mathcal{T}_i)_{i \in I}$ các tôpô trên một tập hợp $X$ đều có một cận trên bé nhất $\mathcal{T}$ trong tập hợp có thứ tự của mọi tôpô trên $X$, tức là tồn tại một tôpô trên $X$ là thô nhất trong tất cả các tôpô trên $X$ mịn hơn mỗi $\mathcal{T}_i$. Để thấy điều này, ta có thể áp dụng Mệnh đề 4, lấy $Y_i$ là tập hợp $X$ với tôpô $\mathcal{T}_i$, và $f_i$ là ánh xạ đồng nhất $X \to Y_i$; $\mathcal{T}$ là tôpô thô nhất sao cho mọi ánh xạ $f_i$ đều liên tục.
+Cận trên bé nhất của một tập hợp các tôpô. Mọi họ $(\mathscr{T}_i)_{i \in I}$ các tôpô trên một tập hợp $X$ đều có một cận trên bé nhất $\mathscr{T}$ trong tập hợp có thứ tự của mọi tôpô trên $X$, tức là tồn tại một tôpô trên $X$ là thô nhất trong tất cả các tôpô trên $X$ mịn hơn mỗi $\mathscr{T}_i$. Để thấy điều này, ta có thể áp dụng Mệnh đề 4, lấy $Y_i$ là tập hợp $X$ với tôpô $\mathscr{T}_i$, và $f_i$ là ánh xạ đồng nhất $X \to Y_i$; $\mathscr{T}$ là tôpô thô nhất sao cho mọi ánh xạ $f_i$ đều liên tục.
 
-Cho $\mathfrak{S}$ là một tập hợp tùy ý các tập hợp con của một tập hợp $X$; trong các tôpô $\mathcal{T}$ trên $X$ mà đối với chúng các tập hợp của $\mathfrak{S}$ là mở, có một tôpô $\mathcal{T}_0$ thô hơn tất cả các tôpô khác và được gọi là tôpô sinh bởi $\mathfrak{S}$. Với mỗi tập hợp $U \in \mathfrak{S}$ gọi $\mathcal{T}_U$ là tôpô mà các tập hợp mở là $\varnothing, U$ và $X$ [rõ ràng tập hợp này các tập hợp con của $X$ thỏa mãn (O_I) và (O_{II})]; khi đó $\mathcal{T}_0$ chính là cận trên bé nhất của các tôpô $\mathcal{T}_U$. Theo Mệnh đề 4, nếu $\mathfrak{B}$ là tập hợp các giao hữu hạn của các tập hợp thuộc $\mathfrak{S}$, thì $\mathfrak{B}$ là một cơ sở của tôpô $\mathcal{T}_0$. Ta nói rằng $\mathfrak{S}$ là một tiền cơ sở của $\mathcal{T}_0$.
+Cho $\mathfrak{S}$ là một tập hợp tùy ý các tập hợp con của một tập hợp $X$; trong các tôpô $\mathscr{T}$ trên $X$ mà đối với chúng các tập hợp của $\mathfrak{S}$ là mở, có một tôpô $\mathscr{T}_0$ thô hơn tất cả các tôpô khác và được gọi là tôpô sinh bởi $\mathfrak{S}$. Với mỗi tập hợp $U \in \mathfrak{S}$ gọi $\mathscr{T}_U$ là tôpô mà các tập hợp mở là $\varnothing, U$ và $X$ [rõ ràng tập hợp này các tập hợp con của $X$ thỏa mãn (O_I) và (O_{II})]; khi đó $\mathscr{T}_0$ chính là cận trên bé nhất của các tôpô $\mathscr{T}_U$. Theo Mệnh đề 4, nếu $\mathfrak{B}$ là tập hợp các giao hữu hạn của các tập hợp thuộc $\mathfrak{S}$, thì $\mathfrak{B}$ là một cơ sở của tôpô $\mathscr{T}_0$. Ta nói rằng $\mathfrak{S}$ là một tiền cơ sở của $\mathscr{T}_0$.
 
 #### Ví dụ 3 {#top-i-s2-n3-exa-3 .statement}
 
@@ -213,15 +213,15 @@ Tôpô tích. Cho $(X_i)_{i \in I}$ là một họ các không gian tôpô. Tôp
 
 #### Mệnh đề 6 {#top-i-s2-prop-6 .statement}
 
-*Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian tôpô, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $Y_i$ vào $X$. Gọi $\mathcal{D}$ là tập hợp các tập con $U$ của $X$ sao cho $\overline{f}_i^{-1}(U)$ là mở trong $Y_i$ với mọi $i \in I$; khi đó $\mathcal{D}$ là tập hợp các tập con mở của $X$ trong một tôpô $\mathcal{T}$ trên $X$ là cấu trúc cuối cùng trên $X$ đối với họ $(f_i)$ (Lý thuyết tập hợp, Chương IV, § 2, no. 5), và đặc biệt $\mathcal{T}$ là tôpô mịn nhất trên $X$ sao cho các ánh xạ $f_i$ là liên tục. Nói cách khác, nếu $g$ là một ánh xạ từ $X$ vào một không gian tôpô $Z$, thì $g$ là liên tục ($X$ mang tôpô $\mathcal{T}$) khi và chỉ khi mỗi ánh xạ $g \circ f_i$ là liên tục.*
+*Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian tôpô, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $Y_i$ vào $X$. Gọi $\mathscr{D}$ là tập hợp các tập con $U$ của $X$ sao cho $\overline{f}_i^{-1}(U)$ là mở trong $Y_i$ với mọi $i \in I$; khi đó $\mathscr{D}$ là tập hợp các tập con mở của $X$ trong một tôpô $\mathscr{T}$ trên $X$ là cấu trúc cuối cùng trên $X$ đối với họ $(f_i)$ (Lý thuyết tập hợp, Chương IV, § 2, no. 5), và đặc biệt $\mathscr{T}$ là tôpô mịn nhất trên $X$ sao cho các ánh xạ $f_i$ là liên tục. Nói cách khác, nếu $g$ là một ánh xạ từ $X$ vào một không gian tôpô $Z$, thì $g$ là liên tục ($X$ mang tôpô $\mathscr{T}$) khi và chỉ khi mỗi ánh xạ $g \circ f_i$ là liên tục.*
 
-Người ta kiểm tra ngay lập tức rằng $\mathcal{D}$ thỏa mãn các tiên đề $(O_I)$ và $(O_{II})$. [Lý thuyết tập hợp, R, § 4, các công thức (34) và (46)]. Ta sẽ chứng minh khẳng định cuối cùng của mệnh đề, điều này suy ra các mệnh đề khác do các tính chất tổng quát của các cấu trúc cuối cùng (Lý thuyết tập hợp, Chương IV, § 2, no. 5, tiêu chuẩn CST 18). Rõ ràng là các $f_i$ liên tục đối với tôpô $\mathcal{T}$, theo định nghĩa của $\mathcal{D}$ (no. 1, Định lý 1); do đó nếu $g$ liên tục thì mỗi ánh xạ $g \circ f_i$ cũng liên tục (no. 1, Định lý 2). Ngược lại, giả sử rằng mỗi $g \circ f_i$ đều liên tục, và gọi $V$ là một tập hợp mở trong $Z$; theo giả thiết, $\overline{f}_i^{-1}(\overline{g}^{-1}(V))$ là mở trong $Y_i$ với mọi $i \in I$; do đó $\overline{g}^{-1}(V) \in \mathcal{D}$, và chứng minh là đầy đủ.
+Người ta kiểm tra ngay lập tức rằng $\mathscr{D}$ thỏa mãn các tiên đề $(O_I)$ và $(O_{II})$. [Lý thuyết tập hợp, R, § 4, các công thức (34) và (46)]. Ta sẽ chứng minh khẳng định cuối cùng của mệnh đề, điều này suy ra các mệnh đề khác do các tính chất tổng quát của các cấu trúc cuối cùng (Lý thuyết tập hợp, Chương IV, § 2, no. 5, tiêu chuẩn CST 18). Rõ ràng là các $f_i$ liên tục đối với tôpô $\mathscr{T}$, theo định nghĩa của $\mathscr{D}$ (no. 1, Định lý 1); do đó nếu $g$ liên tục thì mỗi ánh xạ $g \circ f_i$ cũng liên tục (no. 1, Định lý 2). Ngược lại, giả sử rằng mỗi $g \circ f_i$ đều liên tục, và gọi $V$ là một tập hợp mở trong $Z$; theo giả thiết, $\overline{f}_i^{-1}(\overline{g}^{-1}(V))$ là mở trong $Y_i$ với mọi $i \in I$; do đó $\overline{g}^{-1}(V) \in \mathscr{D}$, và chứng minh là đầy đủ.
 
 #### Hệ quả {#top-i-s2-n4-cor-1 .statement}
 
-*Dưới các giả thiết của Mệnh đề 6, một tập con $F$ của $X$ là đóng trong tôpô $\mathcal{T}$ khi và chỉ khi $\overline{f}_i^{-1}(F)$ là đóng trong $Y_i$ với mọi $i \in I$.*
+*Dưới các giả thiết của Mệnh đề 6, một tập con $F$ của $X$ là đóng trong tôpô $\mathscr{T}$ khi và chỉ khi $\overline{f}_i^{-1}(F)$ là đóng trong $Y_i$ với mọi $i \in I$.*
 
-Điều này suy ra từ định nghĩa của các tập mở trong tôpô $\mathcal{T}$ bằng cách lấy phần bù.
+Điều này suy ra từ định nghĩa của các tập mở trong tôpô $\mathscr{T}$ bằng cách lấy phần bù.
 
 Các tính chất tổng quát của các cấu trúc cuối (Lý thuyết tập hợp, Chương IV, § 2, no. 5, criterion CST 19) suy ra tính chất *tính bắc cầu* sau đây (mà chứng minh trực tiếp của nó cũng là hiển nhiên):
 
@@ -233,25 +233,25 @@ Ví dụ
 
 1) Tôpô thương. Cho $X$ là một không gian tôpô, $R$ là một quan hệ tương đương trên $X$, $Y = X/R$ là tập thương của $X$ đối với quan hệ $R$, $\varphi : X \to Y$ là ánh xạ chính tắc. Tôpô mịn nhất trên $Y$ sao cho $\varphi$ liên tục được gọi là tôpô thương của tôpô trên $X$ theo quan hệ $R$; chúng tôi sẽ nghiên cứu nó chi tiết hơn trong § 3.
 
-2) Cận dưới lớn nhất của một tập hợp các tôpô. Mọi họ $(\mathcal{T}_i)_{i \in I}$ các tôpô trên một tập hợp $X$ đều có một cận dưới lớn nhất $\mathcal{T}$ trong tập hợp tất cả các tôpô trên $X$, tức là $\mathcal{T}$ là tôpô mịn nhất trong tất cả các tôpô trên $X$ thô hơn mỗi $\mathcal{T}_i$. Để thấy điều đó, ta có thể áp dụng Mệnh đề 6, lấy $Y_i$ là tập hợp $X$ được trang bị tôpô $\mathcal{T}_i$, và $f_i$ là ánh xạ đồng nhất $Y_i \to X$. Nếu $\mathcal{D}_i$ là tập hợp các tập con của $X$ mở trong tôpô $\mathcal{T}_i$, thì tập hợp $\bigcap_{i \in I} \mathcal{D}_i$ là tập hợp các tập con của $X$ mở trong $\mathcal{T}$. $\mathcal{T}$ cũng được gọi là giao của các tôpô $\mathcal{T}_i$.
+2) Cận dưới lớn nhất của một tập hợp các tôpô. Mọi họ $(\mathscr{T}_i)_{i \in I}$ các tôpô trên một tập hợp $X$ đều có một cận dưới lớn nhất $\mathscr{T}$ trong tập hợp tất cả các tôpô trên $X$, tức là $\mathscr{T}$ là tôpô mịn nhất trong tất cả các tôpô trên $X$ thô hơn mỗi $\mathscr{T}_i$. Để thấy điều đó, ta có thể áp dụng Mệnh đề 6, lấy $Y_i$ là tập hợp $X$ được trang bị tôpô $\mathscr{T}_i$, và $f_i$ là ánh xạ đồng nhất $Y_i \to X$. Nếu $\mathscr{D}_i$ là tập hợp các tập con của $X$ mở trong tôpô $\mathscr{T}_i$, thì tập hợp $\bigcap_{i \in I} \mathscr{D}_i$ là tập hợp các tập con của $X$ mở trong $\mathscr{T}$. $\mathscr{T}$ cũng được gọi là giao của các tôpô $\mathscr{T}_i$.
 
-3) Tổng của các không gian tôpô. Cho $(X_i)_{i \in I}$ là một họ các không gian tôpô, $X$ là tập hợp là tổng của các $X_i$ (Lý thuyết Tập hợp, Chương II, § 4, no. 8, Định nghĩa 8); với mỗi $i \in I$, gọi $j_i$ là ánh xạ chính tắc (đơn ánh) từ $X_i$ vào $X$. Tôpô mịn nhất $\mathcal{T}$ trên $X$ mà đối với nó các ánh xạ $j_i$ đều liên tục được gọi là tổng của các tôpô của các $X_i$, và $X$ với tôpô này được gọi là tổng của các không gian tôpô $X_i$. Đồng nhất mỗi $X_i$ với một tập con của $X$ nhờ $j_i$; khi đó một tập hợp $A \subset X$ là mở (resp. đóng) trong tôpô $\mathcal{T}$ khi và chỉ khi mỗi tập hợp $A \cap X_i$ là mở (resp. đóng) trong $X_i$. Đặc biệt, mỗi $X_i$ vừa mở vừa đóng.
+3) Tổng của các không gian tôpô. Cho $(X_i)_{i \in I}$ là một họ các không gian tôpô, $X$ là tập hợp là tổng của các $X_i$ (Lý thuyết Tập hợp, Chương II, § 4, no. 8, Định nghĩa 8); với mỗi $i \in I$, gọi $j_i$ là ánh xạ chính tắc (đơn ánh) từ $X_i$ vào $X$. Tôpô mịn nhất $\mathscr{T}$ trên $X$ mà đối với nó các ánh xạ $j_i$ đều liên tục được gọi là tổng của các tôpô của các $X_i$, và $X$ với tôpô này được gọi là tổng của các không gian tôpô $X_i$. Đồng nhất mỗi $X_i$ với một tập con của $X$ nhờ $j_i$; khi đó một tập hợp $A \subset X$ là mở (resp. đóng) trong tôpô $\mathscr{T}$ khi và chỉ khi mỗi tập hợp $A \cap X_i$ là mở (resp. đóng) trong $X_i$. Đặc biệt, mỗi $X_i$ vừa mở vừa đóng.
 
 Mệnh đề sau tổng quát hóa tình huống của Ví dụ 3:
 
 #### Mệnh đề 8 {#top-i-s2-prop-8 .statement}
 
-Cho $X$ là một tập hợp, $(X_\lambda)_{\lambda \in L}$ là một họ các tập hợp con của $X$. Giả sử mỗi $X_\lambda$ được trang bị một tôpô $\mathcal{T}_\lambda$ sao cho, với mỗi cặp chỉ số $(\lambda, \mu)$:
-1) $X_\lambda \cap X_\mu$ là mở (tương ứng đóng) trong mỗi tôpô $\mathcal{T}_\lambda, \mathcal{T}_\mu$.
-2) Các tôpô cảm sinh trên $X_\lambda \cap X_\mu$ bởi $\mathcal{T}_\lambda$ và $\mathcal{T}_\mu$ trùng nhau. Gọi $\mathcal{T}$ là tôpô mịn nhất trên $X$ mà đối với nó các ánh xạ nhúng $j_\lambda : X_\lambda \to X$ là liên tục. Khi đó, với mỗi $\lambda \in L$, $X_\lambda$ là mở (tương ứng đóng) trong $X$ đối với tôpô $\mathcal{T}$, và tôpô cảm sinh bởi $\mathcal{T}$ trên $X_\lambda$ trùng với $\mathcal{T}_\lambda$.
+Cho $X$ là một tập hợp, $(X_\lambda)_{\lambda \in L}$ là một họ các tập hợp con của $X$. Giả sử mỗi $X_\lambda$ được trang bị một tôpô $\mathscr{T}_\lambda$ sao cho, với mỗi cặp chỉ số $(\lambda, \mu)$:
+1) $X_\lambda \cap X_\mu$ là mở (tương ứng đóng) trong mỗi tôpô $\mathscr{T}_\lambda, \mathscr{T}_\mu$.
+2) Các tôpô cảm sinh trên $X_\lambda \cap X_\mu$ bởi $\mathscr{T}_\lambda$ và $\mathscr{T}_\mu$ trùng nhau. Gọi $\mathscr{T}$ là tôpô mịn nhất trên $X$ mà đối với nó các ánh xạ nhúng $j_\lambda : X_\lambda \to X$ là liên tục. Khi đó, với mỗi $\lambda \in L$, $X_\lambda$ là mở (tương ứng đóng) trong $X$ đối với tôpô $\mathscr{T}$, và tôpô cảm sinh bởi $\mathscr{T}$ trên $X_\lambda$ trùng với $\mathscr{T}_\lambda$.
 
 Xét theo Mệnh đề 6 và hệ quả của nó, chỉ cần chỉ ra rằng đối với mỗi $\lambda$ và mỗi tập con $A_\lambda$ của $X_\lambda$ thì các mệnh đề sau là tương đương:
-(i) $A_\lambda$ là mở (tương ứng, đóng) trong tôpô $\mathcal{T}_\lambda$.
-(ii) Với mọi $\mu \in L$, $A_\lambda \cap X_\mu$ là mở (tương ứng, đóng) trong tôpô $\mathcal{T}_\mu$.
+(i) $A_\lambda$ là mở (tương ứng, đóng) trong tôpô $\mathscr{T}_\lambda$.
+(ii) Với mọi $\mu \in L$, $A_\lambda \cap X_\mu$ là mở (tương ứng, đóng) trong tôpô $\mathscr{T}_\mu$.
 
-Hiển nhiên là (ii) kéo theo (i) khi lấy $\mu = \lambda$. Ngược lại, nếu (i) được thỏa mãn, thì $A_\lambda \cap X_\mu$ là mở (tương ứng, đóng) trong $X_\lambda \cap X_\mu$ đối với tôpô $\mathcal{T}_{\lambda \mu}$ cảm sinh trên $X_{\lambda} \cap X_{\mu}$ bởi $\mathcal{T}_{\lambda}$; nhưng $\mathcal{T}_{\lambda \mu}$ cũng là tôpô cảm sinh trên $X_{\lambda} \cap X_{\mu}$ bởi $\mathcal{T}_{\mu}$; do đó $A_{\lambda} \cap X_{\mu}$ cũng là giao của $X_{\lambda} \cap X_{\mu}$ với một tập con $B_{\mu}$ của $X_{\mu}$ mở (tương ứng, đóng) trong tôpô $\mathcal{T}_{\mu}$; vì $X_{\lambda} \cap X_{\mu}$ là mở (tương ứng, đóng) trong $\mathcal{T}_{\mu}$, nên $A_{\lambda} \cap X_{\mu}$ cũng vậy. Điều này kết thúc chứng minh.
+Hiển nhiên là (ii) kéo theo (i) khi lấy $\mu = \lambda$. Ngược lại, nếu (i) được thỏa mãn, thì $A_\lambda \cap X_\mu$ là mở (tương ứng, đóng) trong $X_\lambda \cap X_\mu$ đối với tôpô $\mathscr{T}_{\lambda \mu}$ cảm sinh trên $X_{\lambda} \cap X_{\mu}$ bởi $\mathscr{T}_{\lambda}$; nhưng $\mathscr{T}_{\lambda \mu}$ cũng là tôpô cảm sinh trên $X_{\lambda} \cap X_{\mu}$ bởi $\mathscr{T}_{\mu}$; do đó $A_{\lambda} \cap X_{\mu}$ cũng là giao của $X_{\lambda} \cap X_{\mu}$ với một tập con $B_{\mu}$ của $X_{\mu}$ mở (tương ứng, đóng) trong tôpô $\mathscr{T}_{\mu}$; vì $X_{\lambda} \cap X_{\mu}$ là mở (tương ứng, đóng) trong $\mathscr{T}_{\mu}$, nên $A_{\lambda} \cap X_{\mu}$ cũng vậy. Điều này kết thúc chứng minh.
 
-Ta nhận xét rằng nếu hợp của các $X_{\lambda}$ khác $X$, thì tôpô cảm sinh bởi $\mathcal{T}$ trên $X - \left( \bigcup_{\lambda \in L} X_{\lambda} \right)$ là *rời rạc*. Thật vậy, nếu $x \in X$ không thuộc một $X_{\lambda}$ nào, thì $\{ x \} \cap X_{\lambda} = \varnothing$ là mở trong mỗi tôpô $\mathcal{T}_{\lambda}$ và do đó $\{ x \}$ là mở trong tôpô $\mathcal{T}$.
+Ta nhận xét rằng nếu hợp của các $X_{\lambda}$ khác $X$, thì tôpô cảm sinh bởi $\mathscr{T}$ trên $X - \left( \bigcup_{\lambda \in L} X_{\lambda} \right)$ là *rời rạc*. Thật vậy, nếu $x \in X$ không thuộc một $X_{\lambda}$ nào, thì $\{ x \} \cap X_{\lambda} = \varnothing$ là mở trong mỗi tôpô $\mathscr{T}_{\lambda}$ và do đó $\{ x \}$ là mở trong tôpô $\mathscr{T}$.
 
 ### 5. DÁN CÁC KHÔNG GIAN TÔPÔ LẠI VỚI NHAU
 
@@ -275,9 +275,9 @@ $$
 
 khi đó cũng có $x = h_{\lambda \mu}(y)$ và do đó, theo (ii), $x \in A_{\lambda \mu} \cap A_{\lambda \nu}$; vì thế hệ thức (i) cho thấy $R$ là *bắc cầu*, và do đó $R$ là một quan hệ tương đương trên $X$. Cũng từ (i) và từ định nghĩa của $R$ suy ra rằng mỗi lớp tương đương theo mod $R$ có nhiều nhất một phần tử trong mỗi tập hợp $X_\lambda$, và rằng $A_{\lambda \mu}$ là tập hợp của mọi $x \in X_\lambda$ sao cho tồn tại một phần tử $y \in X_\mu$ tương đương với $x$ theo mod $R$. Ta nói rằng tập thương $X/R$ thu được bằng cách *dán các* $X_\lambda$ *lại với nhau dọc theo các* $A_{\lambda \mu}$ *nhờ các song ánh* $h_{\mu \lambda}$. Nếu $\varphi : X \to X/R$ là ánh xạ chính tắc, thì hạn chế của $\varphi$ trên mỗi $X_\lambda$ là một *song ánh* từ $X_\lambda$ lên $\varphi(X_\lambda)$.
 
-Bây giờ giả sử rằng mỗi $X_\lambda$ là một *không gian tôpô*, và gọi $\mathcal{T}_\lambda$ là tôpô của nó. Gọi $\mathcal{T}$ là tôpô mịn nhất trên tập hợp $X/R$ sao cho các ánh xạ $\varphi \circ j_\lambda$ là liên tục; $\mathcal{T}$ là thương theo $R$ của tôpô trên $X$ là *tổng* của các tôpô $\mathcal{T}_\lambda$. Ta nói rằng không gian tôpô $X/R$ (với tôpô $\mathcal{T}$) thu được bằng cách *dán các không gian tôpô* $X_\lambda$ *dọc theo các* $A_{\lambda \mu}$ *bằng các song ánh* $h_{\mu \lambda}$. Khi đó, các tập con *mở* (ứng với *đóng*) của $X/R$ là các ảnh chính tắc của các tập con $B$ của $X$ *bão hòa* đối với $R$ và sao cho $B \cap X_\lambda$ là *mở* (ứng với *đóng*) trong $X_\lambda$ với mỗi $\lambda \in L$.
+Bây giờ giả sử rằng mỗi $X_\lambda$ là một *không gian tôpô*, và gọi $\mathscr{T}_\lambda$ là tôpô của nó. Gọi $\mathscr{T}$ là tôpô mịn nhất trên tập hợp $X/R$ sao cho các ánh xạ $\varphi \circ j_\lambda$ là liên tục; $\mathscr{T}$ là thương theo $R$ của tôpô trên $X$ là *tổng* của các tôpô $\mathscr{T}_\lambda$. Ta nói rằng không gian tôpô $X/R$ (với tôpô $\mathscr{T}$) thu được bằng cách *dán các không gian tôpô* $X_\lambda$ *dọc theo các* $A_{\lambda \mu}$ *bằng các song ánh* $h_{\mu \lambda}$. Khi đó, các tập con *mở* (ứng với *đóng*) của $X/R$ là các ảnh chính tắc của các tập con $B$ của $X$ *bão hòa* đối với $R$ và sao cho $B \cap X_\lambda$ là *mở* (ứng với *đóng*) trong $X_\lambda$ với mỗi $\lambda \in L$.
 
-Vì hạn chế của $\varphi$ trên mỗi $X_\lambda$ là một song ánh lên tập con $X'_\lambda = \varphi(X_\lambda)$ của $X/R$, ta có thể chuyển tôpô $\mathcal{T}_\lambda$ sang $X'_\lambda$ bằng song ánh này, sao cho $X'_\lambda$ mang một tôpô $\mathcal{T}'_\lambda$; và tôpô $\mathcal{T}$ trên $X/R$ là tôpô *mịn nhất* mà đối với nó các đơn ánh chính tắc $X'_\lambda \to X/R$ là liên tục. Nói chung, tôpô cảm sinh bởi $\mathcal{T}$ trên $X'_\lambda$ *thô hơn* $\mathcal{T}'_\lambda$, nhưng không đồng nhất với tôpô sau; ngay cả khi các $h_{\mu \lambda}$ là những đồng phôi (§ 3, Bài tập 15). Tuy nhiên, suy ra từ no. 4, Mệnh đề 8 rằng, với các ký hiệu trên đây:
+Vì hạn chế của $\varphi$ trên mỗi $X_\lambda$ là một song ánh lên tập con $X'_\lambda = \varphi(X_\lambda)$ của $X/R$, ta có thể chuyển tôpô $\mathscr{T}_\lambda$ sang $X'_\lambda$ bằng song ánh này, sao cho $X'_\lambda$ mang một tôpô $\mathscr{T}'_\lambda$; và tôpô $\mathscr{T}$ trên $X/R$ là tôpô *mịn nhất* mà đối với nó các đơn ánh chính tắc $X'_\lambda \to X/R$ là liên tục. Nói chung, tôpô cảm sinh bởi $\mathscr{T}$ trên $X'_\lambda$ *thô hơn* $\mathscr{T}'_\lambda$, nhưng không đồng nhất với tôpô sau; ngay cả khi các $h_{\mu \lambda}$ là những đồng phôi (§ 3, Bài tập 15). Tuy nhiên, suy ra từ no. 4, Mệnh đề 8 rằng, với các ký hiệu trên đây:
 
 #### Mệnh đề 9 {#top-i-s2-prop-9 .statement}
 

@@ -36,9 +36,9 @@ subsections:
       pdf_page: 119
 statements: 5
 exercises: 4
-content_sha256: fec720590bc8aa7130bf7311b65e3e743eb6eb5ac1a52eca01770f673ccf5ac3
+content_sha256: 1c996c09be31a3e6dcaefc14bf74ed022012096e9f9ecff7570764a9d8cf434c
 translated_from: content/en/top/VIII/02_s2_angular_measure_trigonometric_functions.md
-source_content_sha256: a5d3b8b9967c53f54bbfeea4b7d7a20401592cd9d0f1108eb802855c2c0273b1
+source_content_sha256: 2e8e0396b01fa2c0c1fc1a5a72586ea4ad250d3983c3fd7034ef9e1594ea4c6c
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-9b60b56b
 glossary_version: 34
@@ -162,7 +162,7 @@ Chẳng hạn, điều thường được hiểu bởi biên độ của một s
 
 ### 4. CÁC HÀM LƯỢNG GIÁC
 
-Nếu ta hợp thành các hàm $\cos \theta, \sin \theta, \tan \theta, \cot \theta$ (được xác định trên $\mathcal{A}$) với đồng cấu $x \to \frac{\pi}{a}(x/a)$ của $\mathbf{R}$ lên $\mathcal{A}$, các hàm
+Nếu ta hợp thành các hàm $\cos \theta, \sin \theta, \tan \theta, \cot \theta$ (được xác định trên $\mathscr{A}$) với đồng cấu $x \to \frac{\pi}{a}(x/a)$ của $\mathbf{R}$ lên $\mathscr{A}$, các hàm
 
 $$
 \cos \left( \frac{x}{a} \right), \quad \sin \left( \frac{x}{a} \right), \quad \tan \left( \frac{x}{a} \right), \quad \cot \left( \frac{x}{a} \right)
@@ -257,7 +257,7 @@ Hai tia đóng phân biệt $\Delta_1, \Delta_2$ xác định hai hình quạt g
 
 ### 6. CÁC CHÉO
 
-Trong đại số, ta cũng đã định nghĩa chéo của một cặp đường thẳng trong một không gian vectơ hai chiều trên một trường có thứ tự cực đại (*). Định nghĩa này đặc biệt áp dụng cho mặt phẳng thực $\mathbf{R}^2$. Tập hợp $\mathcal{A}_0$ tất cả các chéo có cấu trúc của một nhóm Abel (được viết theo phép cộng) được xác định bởi
+Trong đại số, ta cũng đã định nghĩa chéo của một cặp đường thẳng trong một không gian vectơ hai chiều trên một trường có thứ tự cực đại (*). Định nghĩa này đặc biệt áp dụng cho mặt phẳng thực $\mathbf{R}^2$. Tập hợp $\mathscr{A}_0$ tất cả các chéo có cấu trúc của một nhóm Abel (được viết theo phép cộng) được xác định bởi
 
 $$
 (\overline{D_1, D_3}) = (\overline{D_1, D_2}) + (\overline{D_2, D_3})
@@ -265,7 +265,7 @@ $$
 
 sao cho, đặc biệt, $(\overline{D_1, D_1}) = 0$ và $(\overline{D_2, D_1}) = - (\overline{D_1, D_2})$.
 
-Chéo phải $\delta_0$ là nghiệm $\neq 0$ của phương trình $2\theta = 0$ trong $\mathcal{A}_0$; đó là chéo mà trục ảo tạo với trục thực.
+Chéo phải $\delta_0$ là nghiệm $\neq 0$ của phương trình $2\theta = 0$ trong $\mathscr{A}_0$; đó là chéo mà trục ảo tạo với trục thực.
 
 (*) Ta nhắc lại rằng một quan hệ tương đương được xác định trên tập hợp tất cả các cặp không đẳng hướng của các đường thẳng $(D_1, D_2)$ bằng cách coi hai cặp đường thẳng $(D_1, D_2)$ và $(D'_1, D'_2)$ là tương đương nếu tồn tại một phép đồng dạng trực tiếp biến $D_1$ thành $D'_1$ và $D_2$ thành $D'_2$ đồng thời; chéo của cặp $(D_1, D_2)$ khi đó là lớp tương đương của cặp này.
 

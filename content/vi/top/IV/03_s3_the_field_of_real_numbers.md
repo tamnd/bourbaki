@@ -24,9 +24,9 @@ subsections:
       pdf_page: 347
 statements: 2
 exercises: 3
-content_sha256: 1fe054439774090d3b4bb329ef70bc28888d07985768483e9bc5ac5a431e07f7
+content_sha256: 1b8da61c6c57a417c5c51a1a2fe317a969af4704677ba1af6536cd60808cbf5f
 translated_from: content/en/top/IV/03_s3_the_field_of_real_numbers.md
-source_content_sha256: 09a06def0cc19a2ce6d07eac5e95043aaf4755cf250d11490f88581170d128d1
+source_content_sha256: 8d33ca0ec83bcae62c7c7ba4282ccde40e530c8e05afdb00c680264216e9fbc9
 translation_model: gpt-5.4
 translation_run: translate-vi-cf7e820d
 glossary_version: 34
@@ -42,7 +42,7 @@ Tôpô của đường thẳng hữu tỉ $\mathbf{Q}$ không những tương th
 
 Để chứng minh rằng $1/x$ liên tục trên $\mathbf{Q}^*$, ta sẽ thiết lập chính xác hơn rằng $1/x$ là *liên tục đều* (đối với cấu trúc cộng tính) trong phần bù của mọi lân cận V của 0. Cụ thể, ta có $$
 \left| \frac{1}{x} - \frac{1}{y} \right| = \frac{|x-y|}{xy}
-$$; tồn tại một số nguyên $m > 0$ sao cho $|x| \geq 1/m$ với mọi $x \in \mathcal{G}_V$; nếu $x$ và $y$ là hai điểm bất kỳ của $\mathcal{G}_V$ sao cho $|x-y| \leq 1/m^2 n$, thì khi đó ta sẽ có $$
+$$; tồn tại một số nguyên $m > 0$ sao cho $|x| \geq 1/m$ với mọi $x \in \mathscr{G}_V$; nếu $x$ và $y$ là hai điểm bất kỳ của $\mathscr{G}_V$ sao cho $|x-y| \leq 1/m^2 n$, thì khi đó ta sẽ có $$
 \left| \frac{1}{x} - \frac{1}{y} \right| \leq \frac{1}{n}.
 $$
 

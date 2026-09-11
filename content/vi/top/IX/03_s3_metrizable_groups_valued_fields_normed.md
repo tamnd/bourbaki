@@ -40,9 +40,9 @@ subsections:
       pdf_page: 181
 statements: 40
 exercises: 4
-content_sha256: 45765562479b004e5f431aaa97c1561fb983e7e45963edcd98430be81956c515
+content_sha256: 9ee71d17725a6c21f423f8719871cead7685d9e80af922870e9fb351f060f738
 translated_from: content/en/top/IX/03_s3_metrizable_groups_valued_fields_normed.md
-source_content_sha256: 83d55e1838c96863628bb4c841426e325a8058e294ac5b1a348690c7b008fc05
+source_content_sha256: 3593908544b4268ac3c0131aaec65a064ed7aef3598969d9bc652e6939baf4fc
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-45e66895
 glossary_version: 34
@@ -106,7 +106,7 @@ Ngược lại:
 
 #### Mệnh đề 3 {#top-ix-s3-prop-3 .statement}
 
-*Cho $G$ là một nhóm Abel, được viết theo phép cộng, và cho $x \to |x|$ là một ánh xạ $G \to \mathbf{R}$ thỏa mãn các điều kiện a), b) và c) ở trên. Khi đó hàm $d(x, y) = |x - y|$ là một mêtric bất biến trên $G$; tôpô $\mathcal{T}$ mà nó xác định trên $G$ tương thích với cấu trúc nhóm của $G$, và cấu trúc đều xác định bởi $d$ trùng với cấu trúc đều của nhóm tôpô thu được bằng cách trang bị cho $G$ tôpô $\mathcal{T}$.*
+*Cho $G$ là một nhóm Abel, được viết theo phép cộng, và cho $x \to |x|$ là một ánh xạ $G \to \mathbf{R}$ thỏa mãn các điều kiện a), b) và c) ở trên. Khi đó hàm $d(x, y) = |x - y|$ là một mêtric bất biến trên $G$; tôpô $\mathscr{T}$ mà nó xác định trên $G$ tương thích với cấu trúc nhóm của $G$, và cấu trúc đều xác định bởi $d$ trùng với cấu trúc đều của nhóm tôpô thu được bằng cách trang bị cho $G$ tôpô $\mathscr{T}$.*
 
 Hàm $d(x, y)$ là một mêtric trên $G$, vì quan hệ $d(x, y) = 0$ tương đương với $x = y$ theo c); ta có $d(x, y) = d(y, x)$ theo a); và
 
@@ -115,7 +115,7 @@ d(x, y) = |(x - z) + (z - y)| \leq |x - z| + |z - y| = d(x, z) + d(z, y)
 $$
 
 theo b). Hơn nữa, $d$ là bất biến, vì $(x + z) - (y + z) = x - y$.
-Với mỗi số thực $x > 0$, gọi $V_x$ là tập hợp tất cả các $x \in G$ sao cho $|x| < x$; khi đó các $V_x$ tạo thành một hệ cơ bản $\mathfrak{S}$ các lân cận của $0$ đối với tôpô $\mathcal{T}$, và vì $d$ là bất biến, $a + \mathfrak{S}$ là một hệ cơ bản các lân cận của $a$ đối với tôpô $\mathcal{T}$, với mỗi $a \in G$. Theo a), các $V_x$ là đối xứng, và theo b), ta có $V_a + V_x \subset V_{2a}$; do đó tôpô $\mathcal{T}$ tương thích với cấu trúc nhóm của $G$ (Chương III, § 1, no. 2). Phần cuối của mệnh đề suy ra ngay lập tức.
+Với mỗi số thực $x > 0$, gọi $V_x$ là tập hợp tất cả các $x \in G$ sao cho $|x| < x$; khi đó các $V_x$ tạo thành một hệ cơ bản $\mathfrak{S}$ các lân cận của $0$ đối với tôpô $\mathscr{T}$, và vì $d$ là bất biến, $a + \mathfrak{S}$ là một hệ cơ bản các lân cận của $a$ đối với tôpô $\mathscr{T}$, với mỗi $a \in G$. Theo a), các $V_x$ là đối xứng, và theo b), ta có $V_a + V_x \subset V_{2a}$; do đó tôpô $\mathscr{T}$ tương thích với cấu trúc nhóm của $G$ (Chương III, § 1, no. 2). Phần cuối của mệnh đề suy ra ngay lập tức.
 
 Các điều kiện a', b' và c' tương đương với c) cùng với điều kiện
 
@@ -495,7 +495,7 @@ Trong một không gian chuẩn đầy đủ E, mọi chuỗi hội tụ tuyệt
 
 Đảo lại của Mệnh đề 11 nói chung là *sai*.
 
-Xét ví dụ không gian $\mathcal{B}(\mathbf{N}; \mathbf{R})$ gồm các dãy bị chặn $x = (x_n)_{n \in \mathbf{N}}$ các số thực, với chuẩn $||x|| = \sup_n |x_n|$. Gọi $x_m$ là dãy $(x_{mn})_{n \in \mathbf{N}}$ sao cho $x_{mn} = 0$ nếu $m \neq n$ và $x_{mm} = 1/m$ với $m \geq 1$. Ta kiểm tra ngay lập tức rằng dãy $(x_m)_{m \in \mathbf{N}}$ là khả tổng trong $\mathcal{B}(\mathbf{N}; \mathbf{R})$ và tổng của nó là phần tử $y = (y_n)$ sao cho $y_0 = 0$ và $y_n = 1/n$ nếu $n \geq 1$; nhưng vì $||x_m|| = 1/m$, dãy các chuẩn của các $x_m$ không khả tổng trong $\mathbf{R}$.
+Xét ví dụ không gian $\mathscr{B}(\mathbf{N}; \mathbf{R})$ gồm các dãy bị chặn $x = (x_n)_{n \in \mathbf{N}}$ các số thực, với chuẩn $||x|| = \sup_n |x_n|$. Gọi $x_m$ là dãy $(x_{mn})_{n \in \mathbf{N}}$ sao cho $x_{mn} = 0$ nếu $m \neq n$ và $x_{mm} = 1/m$ với $m \geq 1$. Ta kiểm tra ngay lập tức rằng dãy $(x_m)_{m \in \mathbf{N}}$ là khả tổng trong $\mathscr{B}(\mathbf{N}; \mathbf{R})$ và tổng của nó là phần tử $y = (y_n)$ sao cho $y_0 = 0$ và $y_n = 1/n$ nếu $n \geq 1$; nhưng vì $||x_m|| = 1/m$, dãy các chuẩn của các $x_m$ không khả tổng trong $\mathbf{R}$.
 
 Tuy nhiên, ta đã thấy trong Chương VII, § 3, no. 1, rằng mọi họ khả tổng trong $\mathbf{R}^n$ đều khả tổng tuyệt đối.
 
@@ -527,7 +527,7 @@ Cho $K$ là một trường định giá không rời rạc và cho $M_n(K)$ là
 
 #### Ví dụ 3 {#top-ix-s3-n7-exa-3 .statement}
 
-Tập hợp $\mathcal{B}(X; K)$ gồm tất cả các hàm $f$ trên một tập hợp $X$ với các giá trị trong một trường định giá không rời rạc $K$, sao cho $x \to |f(x)|$ bị chặn trên $X$, là một đại số trên $K$; chuẩn $\|f\| = \sup_{x \in X} |f(x)|$ tương thích với cấu trúc vành của $\mathcal{B}(X; K)$, vì ta có $\|fg\| \leq \|f\|\cdot\|g\|$ (xem Chương X, § 1).
+Tập hợp $\mathscr{B}(X; K)$ gồm tất cả các hàm $f$ trên một tập hợp $X$ với các giá trị trong một trường định giá không rời rạc $K$, sao cho $x \to |f(x)|$ bị chặn trên $X$, là một đại số trên $K$; chuẩn $\|f\| = \sup_{x \in X} |f(x)|$ tương thích với cấu trúc vành của $\mathscr{B}(X; K)$, vì ta có $\|fg\| \leq \|f\|\cdot\|g\|$ (xem Chương X, § 1).
 
 Cho $a$ là một iđêan hai phía đóng trong một đại số chuẩn $A$. Nếu trong đại số thương $A/a$ ta đặt $||\dot{x}|| = \inf_{x \in X} ||x||$, ta thu được một chuẩn trên $A/a$ xác định tôpô là thương theo $a$ của tôpô của $A$ (Mệnh đề 9); vì tôpô thương này tương thích với cấu trúc vành thương của $A/a$ (Chương III, § 6, no. 4), suy ra rằng đại số thương $A/a$, với chuẩn $||x||$, là một đại số chuẩn.
 
@@ -598,7 +598,7 @@ $$
 
 vẫn bị chặn, suy ra $x^{-1}$ tiến tới $x_0^{-1}$.
 
-Cuối cùng, để chứng tỏ rằng cấu trúc đều trái của $G$ là đầy đủ, ta hãy chứng tỏ rằng mọi bộ lọc Cauchy $\tilde{\mathcal{F}}$ đối với cấu trúc đều này đều là một bộ lọc Cauchy đối với cấu trúc đều *cộng tính* của $A$ và hội tụ đến một điểm của $G$. Với mỗi $\varepsilon$ sao cho $0 < \varepsilon < 1$, tồn tại một tập $M \in \mathfrak{F}$ sao cho $||x^{-1}y - e|| \leq \varepsilon$ với mọi $x, y$ trong $M$, tức là sao cho
+Cuối cùng, để chứng tỏ rằng cấu trúc đều trái của $G$ là đầy đủ, ta hãy chứng tỏ rằng mọi bộ lọc Cauchy $\tilde{\mathscr{F}}$ đối với cấu trúc đều này đều là một bộ lọc Cauchy đối với cấu trúc đều *cộng tính* của $A$ và hội tụ đến một điểm của $G$. Với mỗi $\varepsilon$ sao cho $0 < \varepsilon < 1$, tồn tại một tập $M \in \mathfrak{F}$ sao cho $||x^{-1}y - e|| \leq \varepsilon$ với mọi $x, y$ trong $M$, tức là sao cho
 $$
 ||y - x|| \leq \varepsilon \ ||x||.
 $$

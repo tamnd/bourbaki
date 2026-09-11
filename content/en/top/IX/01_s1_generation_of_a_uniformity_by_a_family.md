@@ -36,7 +36,7 @@ subsections:
       pdf_page: 152
 statements: 19
 exercises: 22
-content_sha256: 975ef98cf734ea424ef02828005251f15409c8eeb6b0efecedac824175e881a1
+content_sha256: cfa2f878a2824dd3295bd263a7d54513c04818d35a06205431b0fe1c797cfdc4
 ---
 
 ## 1. GENERATION OF A UNIFORMITY BY A FAMILY OF PSEUDOMETRICS; UNIFORMIZABLE SPACES
@@ -133,7 +133,7 @@ If $(f_i)_{i \in I}$ is a family of pseudometrics on a set $X$, then the least u
 
 Two families of pseudometrics on $X$ are said to be equivalent if they define the same uniformity on $X$.
 
-From the definition of the least upper bound of a set of uniformities (Chapter II, § 2, no. 5), the filter of entourages of the uniformity $U$ defined on $X$ by a family of pseudometrics $(f_i)_{i \in I}$ is the filter *generated* (Chapter I, § 6, no. 2) by the family of sets $f_i^{-1}([0, a])$, where $i$ runs through $I$ and $a$ runs through the set of real numbers $> 0$. In other words, we obtain a fundamental system of entourages of $\mathcal{U}$ by proceeding as follows: we take at random a finite number of indices $i_1, i_2, \ldots, i_n$ and, corresponding to each $i_k$, a number $a_k > 0$; then we consider the set $V$ of pairs $(x, y) \in X \times X$ such that $f_{i_k}(x, y) \leq a_k$ for $1 \leq k \leq n$; these sets $V$ (for all possible choices of $n$, the $i_k$ and the $a_k$) form a fundamental system of entourages for $\mathcal{U}$. Moreover, we may restrict ourselves to the case in which all the $a_k$ are equal to the *same* number $a > 0$, since the entourage consisting of all pairs $(x, y)$ such that
+From the definition of the least upper bound of a set of uniformities (Chapter II, § 2, no. 5), the filter of entourages of the uniformity $U$ defined on $X$ by a family of pseudometrics $(f_i)_{i \in I}$ is the filter *generated* (Chapter I, § 6, no. 2) by the family of sets $f_i^{-1}([0, a])$, where $i$ runs through $I$ and $a$ runs through the set of real numbers $> 0$. In other words, we obtain a fundamental system of entourages of $\mathscr{U}$ by proceeding as follows: we take at random a finite number of indices $i_1, i_2, \ldots, i_n$ and, corresponding to each $i_k$, a number $a_k > 0$; then we consider the set $V$ of pairs $(x, y) \in X \times X$ such that $f_{i_k}(x, y) \leq a_k$ for $1 \leq k \leq n$; these sets $V$ (for all possible choices of $n$, the $i_k$ and the $a_k$) form a fundamental system of entourages for $\mathscr{U}$. Moreover, we may restrict ourselves to the case in which all the $a_k$ are equal to the *same* number $a > 0$, since the entourage consisting of all pairs $(x, y)$ such that
 
 $$
 \sup_{1 \leq k \leq n} (f_{i_k}(x, y)) \leq \inf_{1 \leq k \leq n} a_k
@@ -141,13 +141,13 @@ $$
 
 is evidently contained in $V$.
 
-For each finite subset $H$ of $I$, let $g_H$ denote the upper envelope of the family $(f_i)_{i \in H}$. As $H$ runs through the set of all finite subsets of $I$ and $a$ runs through the set of real numbers $> 0$, the sets $g_H^{-1}([0, a])$ form a *fundamental system of entourages* of the uniformity $\mathcal{U}$. Now the $g_H$ are *pseudometrics* on $X$ (no. 1), and the upper envelope of a finite number of functions of the family $(g_H)$ belongs to this family, by definition; we express this property by saying that the family of pseudometrics $(g_H)$ is *saturated*. The family of pseudometrics $(g_H)$ is therefore *equivalent* to the family $(f_i)$, and is said to be the family of pseudometrics obtained by *saturating* $(f_i)$. From what has just been said it follows that we may always restrict ourselves to considering uniformities defined by *saturated* families of pseudometrics.
+For each finite subset $H$ of $I$, let $g_H$ denote the upper envelope of the family $(f_i)_{i \in H}$. As $H$ runs through the set of all finite subsets of $I$ and $a$ runs through the set of real numbers $> 0$, the sets $g_H^{-1}([0, a])$ form a *fundamental system of entourages* of the uniformity $\mathscr{U}$. Now the $g_H$ are *pseudometrics* on $X$ (no. 1), and the upper envelope of a finite number of functions of the family $(g_H)$ belongs to this family, by definition; we express this property by saying that the family of pseudometrics $(g_H)$ is *saturated*. The family of pseudometrics $(g_H)$ is therefore *equivalent* to the family $(f_i)$, and is said to be the family of pseudometrics obtained by *saturating* $(f_i)$. From what has just been said it follows that we may always restrict ourselves to considering uniformities defined by *saturated* families of pseudometrics.
 
 In the particular case where $I$ is a *finite* set, this argument shows that the uniformity defined by the family of pseudometrics $(f_i)_{i \in I}$ is also defined by the *single* pseudometric $g = \sup_{i \in I} f_i$.
 
-Let $\mathcal{U}, \mathcal{U}'$ be two uniformities on $X$, defined respectively by two *saturated* families $(f_i)_{i \in I}, (g_x)_{x \in K}$. Then $\mathcal{U}$ is *coarser* than $\mathcal{U}'$ if and only if, for each index $i \in I$ and each real number $a > 0$, there is an index $x \in K$ and a number $b > 0$ such that the relation $g_x(x, y) \leq b$ implies $f_i(x, y) \leq a$.
+Let $\mathscr{U}, \mathscr{U}'$ be two uniformities on $X$, defined respectively by two *saturated* families $(f_i)_{i \in I}, (g_x)_{x \in K}$. Then $\mathscr{U}$ is *coarser* than $\mathscr{U}'$ if and only if, for each index $i \in I$ and each real number $a > 0$, there is an index $x \in K$ and a number $b > 0$ such that the relation $g_x(x, y) \leq b$ implies $f_i(x, y) \leq a$.
 
-*Example of a uniformity defined by a family of pseudometrics.* Let $(f_i)_{i \in I}$ be an arbitrary family of (finite) *real-valued functions* defined on a set $X$. Let $\mathcal{U}$ be the coarsest uniformity on $X$ with respect to which the $f_i$ are uniformly continuous (Chapter II, § 2, no. 3). Then it follows from the definition of the entourages of $\mathcal{U}$ (*loc. cit.*) that $\mathcal{U}$ is the uniformity defined on $X$ by the pseudometrics
+*Example of a uniformity defined by a family of pseudometrics.* Let $(f_i)_{i \in I}$ be an arbitrary family of (finite) *real-valued functions* defined on a set $X$. Let $\mathscr{U}$ be the coarsest uniformity on $X$ with respect to which the $f_i$ are uniformly continuous (Chapter II, § 2, no. 3). Then it follows from the definition of the entourages of $\mathscr{U}$ (*loc. cit.*) that $\mathscr{U}$ is the uniformity defined on $X$ by the pseudometrics
 
 $$
 g_i(x, y) = |f_i(x) - f_i(y)|.
@@ -155,7 +155,7 @@ $$
 
 ### 3. PROPERTIES OF UNIFORMITIES DEFINED BY FAMILIES OF PSEUDOMETRICS
 
-Let $\mathcal{U}$ be a uniformity defined on a set $X$ by a family of finite pseudometrics $(f_i)$. If we endow $X \times X$ with the uniformity which is the product of $\mathcal{U}$ by itself, then each of the real-valued functions $f_i$ is *uniformly continuous* on $X \times X$; for by (1) we have
+Let $\mathscr{U}$ be a uniformity defined on a set $X$ by a family of finite pseudometrics $(f_i)$. If we endow $X \times X$ with the uniformity which is the product of $\mathscr{U}$ by itself, then each of the real-valued functions $f_i$ is *uniformly continuous* on $X \times X$; for by (1) we have
 
 $$
 |f_i(x, y) - f_i(x', y')| \leq f_i(x, x') + f_i(y, y'),
@@ -167,19 +167,19 @@ $$
 |f_i(x, y) - f_i(x', y')| \leq \varepsilon.
 $$
 
-For $\mathcal{U}$ to be *Hausdorff* it is necessary and sufficient, from the definition of the entourages of $\mathcal{U}$, that for each pair of *distinct* points $x, y$ of $X$ there is an index $i$ such that $f_i(x, y) \neq 0$.
+For $\mathscr{U}$ to be *Hausdorff* it is necessary and sufficient, from the definition of the entourages of $\mathscr{U}$, that for each pair of *distinct* points $x, y$ of $X$ there is an index $i$ such that $f_i(x, y) \neq 0$.
 
-In particular, if $\mathcal{U}$ is defined by a *single* pseudometric $f$, then $\mathcal{U}$ is Hausdorff if and only if the relation $f(x, y) = 0$ implies $x = y$ (cf. § 2). If $\mathcal{U}$ is not Hausdorff, the intersection of all the entourages of $\mathcal{U}$ is the subset of $X \times X$ consisting of pairs $(x, y)$ such that $f_i(x, y) = 0$ for all $i$; this subset is the graph of an equivalence relation $R$ on $X$, and the Hausdorff uniformity associated with $\mathcal{U}$ is defined on $X/R$ (cf. Chapter II, § 3, no. 8). It is then easily verified that the functions $f_i$ are compatible (in $x$ and in $y$) with the relation $R$ (*Set Theory*, R, § 5, no. 7) and that the functions $\overline{f_i}$, obtained from $f_i$ by passing to the quotient (with respect to $x$ and $y$), are pseudometrics on $X/R$ which define the Hausdorff uniformity associated with $\mathcal{U}$ (cf. § 2, no. 1).
+In particular, if $\mathscr{U}$ is defined by a *single* pseudometric $f$, then $\mathscr{U}$ is Hausdorff if and only if the relation $f(x, y) = 0$ implies $x = y$ (cf. § 2). If $\mathscr{U}$ is not Hausdorff, the intersection of all the entourages of $\mathscr{U}$ is the subset of $X \times X$ consisting of pairs $(x, y)$ such that $f_i(x, y) = 0$ for all $i$; this subset is the graph of an equivalence relation $R$ on $X$, and the Hausdorff uniformity associated with $\mathscr{U}$ is defined on $X/R$ (cf. Chapter II, § 3, no. 8). It is then easily verified that the functions $f_i$ are compatible (in $x$ and in $y$) with the relation $R$ (*Set Theory*, R, § 5, no. 7) and that the functions $\overline{f_i}$, obtained from $f_i$ by passing to the quotient (with respect to $x$ and $y$), are pseudometrics on $X/R$ which define the Hausdorff uniformity associated with $\mathscr{U}$ (cf. § 2, no. 1).
 
-If $A$ is a non-empty subset of $X$, the restriction to $A \times A$ of a pseudometric on $X$ is clearly a pseudometric on $A$. The uniformity *induced* by $\mathcal{U}$ on $A$ is clearly that defined by the family of restrictions to $A \times A$ of the pseudometrics $f_i$.
+If $A$ is a non-empty subset of $X$, the restriction to $A \times A$ of a pseudometric on $X$ is clearly a pseudometric on $A$. The uniformity *induced* by $\mathscr{U}$ on $A$ is clearly that defined by the family of restrictions to $A \times A$ of the pseudometrics $f_i$.
 
-Let us now look at the *completion* of the uniform space $X$ when $\mathcal{U}$ is Hausdorff.
+Let us now look at the *completion* of the uniform space $X$ when $\mathscr{U}$ is Hausdorff.
 
 #### Proposition 1 {#top-ix-s1-prop-1 .statement}
 
-*Let $X$ be a Hausdorff uniform space whose uniformity $\mathcal{U}$ is defined by a family of finite pseudometrics* $(f_i)$, *and let* $\hat{X}$ *be the completion* of $X$. Then the functions $f_i$ can be extended by continuity to $\hat{X} \times \hat{X}$; the extended functions $\bar{f}_i$ are finite pseudometrics on $\hat{X} \times \hat{X}$, and the family $(f_i)$ defines the uniformity of $\hat{X}$.
+*Let $X$ be a Hausdorff uniform space whose uniformity $\mathscr{U}$ is defined by a family of finite pseudometrics* $(f_i)$, *and let* $\hat{X}$ *be the completion* of $X$. Then the functions $f_i$ can be extended by continuity to $\hat{X} \times \hat{X}$; the extended functions $\bar{f}_i$ are finite pseudometrics on $\hat{X} \times \hat{X}$, and the family $(f_i)$ defines the uniformity of $\hat{X}$.
 
-First, the $f_i$ can be extended by continuity to $\hat{X} \times \hat{X}$, because they are uniformly continuous on $X \times X$; and the extended functions $\bar{f}_i$ are uniformly continuous on $\hat{X} \times \hat{X}$ (Chapter II, § 3, no. 6, Theorem 2); moreover, they are pseudometrics on $\hat{X}$ by virtue of the principle of extension of inequalities (Chapter IV, § 5, no. 2, Theorem 1). Let $\mathcal{U}_1$ denote the uniformity on $\hat{X}$ obtained by completion, and let $\mathcal{U}_2$ denote the uniformity defined by the family of pseudometrics $(\bar{f}_i)$. Then $\mathcal{U}_2$ is coarser than $\mathcal{U}_1$; for each $\bar{f}_i$ is uniformly continuous on $\hat{X} \times \hat{X}$ with respect to $\mathcal{U}_1$, and hence for each $a > 0$ there exists an entourage $V$ of $\mathcal{U}_1$ such that, whenever $(x, y) \in V$, we have $|\bar{f}_i(x, y) - \bar{f}_i(x, x)| \leq a$, that is [since $\bar{f}_i(x, x) = 0$], $V \subset \bar{f}_i([0, a])$; hence every entourage of $\mathcal{U}_2$ is an entourage of $\mathcal{U}_1$. On the other hand, $\mathcal{U}_1$ and $\mathcal{U}_2$ induce the same uniformity $\mathcal{U}$ on $X$. As $\hat{X}$ is complete with respect to $\mathcal{U}_1$, it follows that $\mathcal{U}_1$ and $\mathcal{U}_2$ are identical (Chapter II, § 3, no. 7, Proposition 14).
+First, the $f_i$ can be extended by continuity to $\hat{X} \times \hat{X}$, because they are uniformly continuous on $X \times X$; and the extended functions $\bar{f}_i$ are uniformly continuous on $\hat{X} \times \hat{X}$ (Chapter II, § 3, no. 6, Theorem 2); moreover, they are pseudometrics on $\hat{X}$ by virtue of the principle of extension of inequalities (Chapter IV, § 5, no. 2, Theorem 1). Let $\mathscr{U}_1$ denote the uniformity on $\hat{X}$ obtained by completion, and let $\mathscr{U}_2$ denote the uniformity defined by the family of pseudometrics $(\bar{f}_i)$. Then $\mathscr{U}_2$ is coarser than $\mathscr{U}_1$; for each $\bar{f}_i$ is uniformly continuous on $\hat{X} \times \hat{X}$ with respect to $\mathscr{U}_1$, and hence for each $a > 0$ there exists an entourage $V$ of $\mathscr{U}_1$ such that, whenever $(x, y) \in V$, we have $|\bar{f}_i(x, y) - \bar{f}_i(x, x)| \leq a$, that is [since $\bar{f}_i(x, x) = 0$], $V \subset \bar{f}_i([0, a])$; hence every entourage of $\mathscr{U}_2$ is an entourage of $\mathscr{U}_1$. On the other hand, $\mathscr{U}_1$ and $\mathscr{U}_2$ induce the same uniformity $\mathscr{U}$ on $X$. As $\hat{X}$ is complete with respect to $\mathscr{U}_1$, it follows that $\mathscr{U}_1$ and $\mathscr{U}_2$ are identical (Chapter II, § 3, no. 7, Proposition 14).
 
 ### 4. CONSTRUCTION OF A FAMILY OF PSEUDOMETRICS DEFINING A UNIFORMITY
 
@@ -187,19 +187,19 @@ The significance of defining a uniformity by means of a family of pseudometrics 
 
 #### Theorem 1 {#top-ix-s1-thm-1 .statement}
 
-Given a uniformity $\mathcal{U}$ on a set $X$, there is a family of pseudometrics on $X$ such that the uniformity defined by this family is identical with $\mathcal{U}$.
+Given a uniformity $\mathscr{U}$ on a set $X$, there is a family of pseudometrics on $X$ such that the uniformity defined by this family is identical with $\mathscr{U}$.
 
-For each entourage $V$ of the uniformity $\mathcal{U}$, define inductively a sequence of symmetric entourages $(U_n)$ such that $U_1 \subset V$ and $U_{n+1} \subset U_n$ for all $n \geq 1$. The sequence $(U_n)$ is a fundamental system of entourages of a uniformity $\mathcal{U}_V$ coarser than $\mathcal{U}$; moreover, it is clear that $\mathcal{U}$ is the least upper bound of all the uniformities $U_V$ as $V$ runs through the filter of entourages of $\mathcal{U}$. Theorem 1 is therefore a consequence of the following proposition:
+For each entourage $V$ of the uniformity $\mathscr{U}$, define inductively a sequence of symmetric entourages $(U_n)$ such that $U_1 \subset V$ and $U_{n+1} \subset U_n$ for all $n \geq 1$. The sequence $(U_n)$ is a fundamental system of entourages of a uniformity $\mathscr{U}_V$ coarser than $\mathscr{U}$; moreover, it is clear that $\mathscr{U}$ is the least upper bound of all the uniformities $U_V$ as $V$ runs through the filter of entourages of $\mathscr{U}$. Theorem 1 is therefore a consequence of the following proposition:
 
 #### Proposition 2 {#top-ix-s1-prop-2 .statement}
 
-If a uniformity $\mathcal{U}$ on $X$ has a countable fundamental system of entourages, then there is a pseudometric $f$ on $X$ such that $\mathcal{U}$ is identical with the uniformity defined by $f$.
+If a uniformity $\mathscr{U}$ on $X$ has a countable fundamental system of entourages, then there is a pseudometric $f$ on $X$ such that $\mathscr{U}$ is identical with the uniformity defined by $f$.
 
-Let $(V_n)$ be a countable fundamental system of entourages of $\mathcal{U}$. Define inductively a sequence $(U_n)$ of symmetric entourages of $\mathcal{U}$ such that $U_1 \subset V_1$ and
+Let $(V_n)$ be a countable fundamental system of entourages of $\mathscr{U}$. Define inductively a sequence $(U_n)$ of symmetric entourages of $\mathscr{U}$ such that $U_1 \subset V_1$ and
 $$
 \bigcup_{n+1}^3 \subset U_n \cap V_n \quad \text{for} \quad n \geq 1.
 $$
-Clearly $(U_n)$ is another fundamental system of entourages of $\mathcal{U}$, and we have in particular $\bigcup_{n+1}^3 \subset U_n$ for $n \geq 1$. We define a real-valued function $g$ on $X \times X$ as follows: $g(x, y) = 0$ if $(x, y) \in U_n$ for all $n$; $g(x, y) = 2^{-k}$ if $(x, y) \in U_n$ for $1 \leq n \leq k$, but $(x, y) \notin U_{k+1}$; $g(x, y) = 1$ if $(x, y) \notin U_1$. The function $g$ is symmetric and positive, and we have $g(x, x) = 0$ for all $x \in X$. Put
+Clearly $(U_n)$ is another fundamental system of entourages of $\mathscr{U}$, and we have in particular $\bigcup_{n+1}^3 \subset U_n$ for $n \geq 1$. We define a real-valued function $g$ on $X \times X$ as follows: $g(x, y) = 0$ if $(x, y) \in U_n$ for all $n$; $g(x, y) = 2^{-k}$ if $(x, y) \in U_n$ for $1 \leq n \leq k$, but $(x, y) \notin U_{k+1}$; $g(x, y) = 1$ if $(x, y) \notin U_1$. The function $g$ is symmetric and positive, and we have $g(x, x) = 0$ for all $x \in X$. Put
 $$
 f(x, y) = \inf \sum_{i=0}^{p-1} g(z_i, z_{i+1}),
 $$
@@ -222,13 +222,13 @@ $$
 
 By the inductive hypothesis we have $g(x, z_h) \leq a$ and $g(z_{h+1}, y) \leq a$; on the other hand it is clear that $g(z_h, z_{h+1}) \leq a$. Let $k$ be the smallest integer $> 0$ such that $2^{-k} \leq a$; then $k \geq 2$, and $(x, z_h) \in U_k, (z_h, z_{h+1}) \in U_k, (z_{h+1}, y) \in U_k$ by the definition of $g$; hence $(x, y) \in U_k \subset U_{k-1}^3$, which implies that $g(x, y) \leq 2^{1-k} \leq 2a$.
 
-Hence the inequalities (2) are proved; they show that, for each $a > 0$, the set $f^{-1}([0, a])$ contains $U_k$ for each index $k$ such that $2^{-k} < a$, and conversely that each $U_k$ contains the set $f^{-1}([0, 2^{-k-1}])$; hence the sets $f^{-1}([0, a])$ form a fundamental system of entourages of the structure $\mathcal{U}$.
+Hence the inequalities (2) are proved; they show that, for each $a > 0$, the set $f^{-1}([0, a])$ contains $U_k$ for each index $k$ such that $2^{-k} < a$, and conversely that each $U_k$ contains the set $f^{-1}([0, 2^{-k-1}])$; hence the sets $f^{-1}([0, a])$ form a fundamental system of entourages of the structure $\mathscr{U}$.
 
 Q.E.D.
 
 #### Remark {#top-ix-s1-n4-rem-1 .statement}
 
-A uniformity $\mathcal{U}$ on $X$ is defined by the family $\Phi$ of all pseudometrics on $X$ which are uniformly continuous on $X \times X$. For clearly the uniformity defined by the family $\Phi$ is coarser than $\mathcal{U}$; conversely, Theorem 1 shows that there is a subfamily of $\Phi$ which defines the uniformity $\mathcal{U}$ and therefore the uniformity defined by $\Phi$ is finer than $\mathcal{U}$.
+A uniformity $\mathscr{U}$ on $X$ is defined by the family $\Phi$ of all pseudometrics on $X$ which are uniformly continuous on $X \times X$. For clearly the uniformity defined by the family $\Phi$ is coarser than $\mathscr{U}$; conversely, Theorem 1 shows that there is a subfamily of $\Phi$ which defines the uniformity $\mathscr{U}$ and therefore the uniformity defined by $\Phi$ is finer than $\mathscr{U}$.
 
 ### 5. UNIFORMIZABLE SPACES
 

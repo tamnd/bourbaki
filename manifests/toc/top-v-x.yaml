@@ -605,7 +605,7 @@ chapters:
       pdf_page: 280
       sections:
         - section: 1
-          title: The uniformity of $\mathcal{G}$-convergence
+          title: The uniformity of $\mathscr{G}$-convergence
           page: 274
           pdf_page: 280
           subsections:
@@ -614,23 +614,23 @@ chapters:
               page: 274
               pdf_page: 280
             - "no": 2
-              title: $\mathcal{G}$-convergence
+              title: $\mathscr{G}$-convergence
               page: 275
               pdf_page: 281
             - "no": 3
-              title: Examples of $\mathcal{G}$-convergence
+              title: Examples of $\mathscr{G}$-convergence
               page: 277
               pdf_page: 283
             - "no": 4
-              title: Properties of the spaces $\mathcal{F}_\mathcal{G}(X; Y)$
+              title: Properties of the spaces $\mathscr{F}_\mathscr{G}(X; Y)$
               page: 278
               pdf_page: 284
             - "no": 5
-              title: Complete subsets of $\mathcal{F}_\mathcal{G}(X; Y)$
+              title: Complete subsets of $\mathscr{F}_\mathscr{G}(X; Y)$
               page: 279
               pdf_page: 285
             - "no": 6
-              title: $\mathcal{G}$-convergence in spaces of continuous mappings
+              title: $\mathscr{G}$-convergence in spaces of continuous mappings
               page: 280
               pdf_page: 286
           exercises:

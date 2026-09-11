@@ -48,7 +48,7 @@ subsections:
       pdf_page: 203
 statements: 48
 exercises: 7
-content_sha256: aceccaefe361c1c9ed3f8ebcef2bf84b2cd9eab90d240eedafd255c6e064fe47
+content_sha256: d5698441659ad5b8ceb9af4a8d51ea95a40ad895840f8daacba99182ddb63cbc
 translated_from: content/en/top/II/03_s3_complete_spaces.md
 source_content_sha256: d782c4a27c7dfb328d8d4bcb0a0fc179bed02b77ea87afcfdc15ece558d53cbb
 translation_model: gpt-5.4-mini, gpt-5-6-mini, gpt-5-6
@@ -76,7 +76,7 @@ Cho $x$ và $y$ là bất kỳ hai điểm nào của $A \cup B$, và cho $Z \in
 
 #### Định nghĩa 2 {#top-ii-s3-def-2 .statement}
 
-*Một bộ lọc $\mathcal{F}$ trên một không gian đều là một bộ lọc Cauchy nếu với mỗi lân cận $V$ của $X$ có một tập hợp con của $X$ là $V$-nhỏ và thuộc $\mathcal{F}$.*
+*Một bộ lọc $\mathscr{F}$ trên một không gian đều là một bộ lọc Cauchy nếu với mỗi lân cận $V$ của $X$ có một tập hợp con của $X$ là $V$-nhỏ và thuộc $\mathscr{F}$.*
 
 Ở đây một lần nữa ta có thể làm cho ngôn ngữ của mình giàu biểu đạt hơn bằng cách dùng các cụm từ "tập đủ nhỏ" và "một tập nhỏ tùy ý"; do đó Định nghĩa 2 có thể được phát biểu lại bằng cách nói rằng một bộ lọc Cauchy là một bộ lọc chứa *các tập tùy ý nhỏ*.
 
@@ -86,7 +86,7 @@ Một dãy vô hạn $(u_n)$ các điểm của một không gian đều $X$ đ�
 
 *Trên một không gian đều $X$, mọi bộ lọc hội tụ đều là một bộ lọc Cauchy.*
 
-Nếu $x$ là một điểm bất kỳ của $X$ và $V$ là một lân cận đối xứng bất kỳ của $X$, thì lân cận $V(x)$ của $x$ là $\overline{V}$-nhỏ. Nếu $\mathcal{F}$ là một bộ lọc hội tụ về $x$, thì có một tập của $\mathcal{F}$ được chứa trong $V(x)$, và do đó $V$-nhỏ.
+Nếu $x$ là một điểm bất kỳ của $X$ và $V$ là một lân cận đối xứng bất kỳ của $X$, thì lân cận $V(x)$ của $x$ là $\overline{V}$-nhỏ. Nếu $\mathscr{F}$ là một bộ lọc hội tụ về $x$, thì có một tập của $\mathscr{F}$ được chứa trong $V(x)$, và do đó $V$-nhỏ.
 
 Rõ ràng mọi bộ lọc *mịn hơn* một bộ lọc Cauchy đều là một bộ lọc Cauchy.
 
@@ -102,9 +102,9 @@ Sự kiện này có thể dễ dàng ghi nhớ dưới dạng sau: *cấu trúc
 
 #### Mệnh đề 4 {#top-ii-s3-prop-4 .statement}
 
-*Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian đều, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Cho $X$ mang cấu trúc đều cực tiểu $U$ sao cho các $f_i$ là liên tục đều. Khi đó để một cơ sở lọ $\mathcal{B}$ trên $X$ là một cơ sở lọ Cauchy, điều kiện cần và đủ là $f_i(\mathcal{B})$ là một cơ sở lọ Cauchy trên $Y_i$, với mỗi $i \in I$.*
+*Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian đều, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Cho $X$ mang cấu trúc đều cực tiểu $U$ sao cho các $f_i$ là liên tục đều. Khi đó để một cơ sở lọ $\mathscr{B}$ trên $X$ là một cơ sở lọ Cauchy, điều kiện cần và đủ là $f_i(\mathscr{B})$ là một cơ sở lọ Cauchy trên $Y_i$, với mỗi $i \in I$.*
 
-Điều kiện là cần theo Mệnh đề 3. Ngược lại, giả sử rằng nó được thỏa mãn, và cho $U(V_{i_1}, \ldots, V_{i_n})$ là một lân cận của cấu trúc đều $\mathcal{U}$ [§ 2, no. 3, công thức (1)]. Theo giả thiết, với mỗi chỉ số $k$ tồn tại một tập hợp $M_k \in \mathcal{B}$ sao cho $f_{i_k}(M_k)$ là $V_{i_k}$-nhỏ ($1 \leq k \leq n$). Cho $M$ là một tập hợp của $\mathcal{B}$ được chứa trong $M_k$ với $1 \leq k \leq n$; khi đó với mỗi cặp điểm $x, x'$ của $M$ ta có $[f_{i_k}(x), f_{i_k}(x')] \in V_{i_k}$ với $1 \leq k \leq n$, do đó
+Điều kiện là cần theo Mệnh đề 3. Ngược lại, giả sử rằng nó được thỏa mãn, và cho $U(V_{i_1}, \ldots, V_{i_n})$ là một lân cận của cấu trúc đều $\mathscr{U}$ [§ 2, no. 3, công thức (1)]. Theo giả thiết, với mỗi chỉ số $k$ tồn tại một tập hợp $M_k \in \mathscr{B}$ sao cho $f_{i_k}(M_k)$ là $V_{i_k}$-nhỏ ($1 \leq k \leq n$). Cho $M$ là một tập hợp của $\mathscr{B}$ được chứa trong $M_k$ với $1 \leq k \leq n$; khi đó với mỗi cặp điểm $x, x'$ của $M$ ta có $[f_{i_k}(x), f_{i_k}(x')] \in V_{i_k}$ với $1 \leq k \leq n$, do đó
 $$
 (x, x') \in U(V_{i_1}, \ldots, V_{i_n}).
 $$
@@ -116,7 +116,7 @@ $$
 
 #### Hệ quả 2 {#top-ii-s3-prop-4-cor-2 .statement}
 
-*Một cơ sở lọ $\mathcal{B}$ trên một tích $\prod_{i \in I} X_i$ của các không gian đều là một cơ sở lọ Cauchy khi và chỉ khi, với mỗi $i \in I$, $\operatorname{pr}_i(\mathcal{B})$ là một cơ sở lọ Cauchy trên $X_i$.*
+*Một cơ sở lọ $\mathscr{B}$ trên một tích $\prod_{i \in I} X_i$ của các không gian đều là một cơ sở lọ Cauchy khi và chỉ khi, với mỗi $i \in I$, $\operatorname{pr}_i(\mathscr{B})$ là một cơ sở lọ Cauchy trên $X_i$.*
 
 ### 2. CÁC LỌ CAUCHY CỰC TIỂU
 
@@ -124,21 +124,21 @@ Các phần tử cực tiểu (đối với phép chứa) của tập hợp các
 
 #### Mệnh đề 5 {#top-ii-s3-prop-5 .statement}
 
-*Cho $X$ là một không gian đều. Với mỗi bộ lọc Cauchy $\mathfrak{F}$ trên $X$, tồn tại một bộ lọc Cauchy cực tiểu duy nhất thô hơn $\mathfrak{F}$. Nếu $\mathcal{B}$ là một cơ sở của $\mathfrak{F}$ và $\mathcal{G}$ là một hệ cơ bản các lân cận đối xứng của $X$, thì các tập hợp $V(M)$ ($M \in \mathcal{B}, V \in \mathcal{G}$) lập thành một cơ sở của $\mathfrak{F}_0$.*
+*Cho $X$ là một không gian đều. Với mỗi bộ lọc Cauchy $\mathfrak{F}$ trên $X$, tồn tại một bộ lọc Cauchy cực tiểu duy nhất thô hơn $\mathfrak{F}$. Nếu $\mathscr{B}$ là một cơ sở của $\mathfrak{F}$ và $\mathscr{G}$ là một hệ cơ bản các lân cận đối xứng của $X$, thì các tập hợp $V(M)$ ($M \in \mathscr{B}, V \in \mathscr{G}$) lập thành một cơ sở của $\mathfrak{F}_0$.*
 
-Nếu $M, M'$ thuộc $\mathcal{B}$ và $V, V'$ thuộc $\mathcal{G}$, thì tồn tại một tập hợp $M'' \in \mathcal{B}$ (resp. $V'' \in \mathcal{G}$) sao cho $M'' \subset M \cap M'$ (resp. $V'' \subset V \cap V'$); do đó $V''(M'') \subset V(M) \cap V'(M')$ và vì thế các tập hợp $V(M)$ ($M \in \mathcal{B}, V \in \mathcal{G}$) thật sự lập thành một cơ sở của một bộ lọc $\mathfrak{F}_0$ trên $X$. Hơn nữa, nếu $M$ là $V$-nhỏ, thì $V(M)$ là $V$-nhỏ; do đó $\mathfrak{F}_0$ là một bộ lọc Cauchy và rõ ràng thô hơn $\mathfrak{F}$. Để hoàn tất chứng minh, chỉ cần chỉ ra rằng nếu $\mathfrak{G}$ là một bộ lọc Cauchy thô hơn $\mathfrak{F}$, thì $\mathfrak{G}$ mịn hơn $\mathfrak{F}_0$. Với mỗi $M \in \mathcal{B}$ và mỗi $V \in \mathcal{G}$ có một tập hợp $N \in \mathcal{G}$ là $V$-nhỏ; vì $N \in \mathfrak{F}$, $N$ giao với $M$; do đó $N \subset V(M)$ và vì vậy $V(M) \in \mathfrak{G}$.
+Nếu $M, M'$ thuộc $\mathscr{B}$ và $V, V'$ thuộc $\mathscr{G}$, thì tồn tại một tập hợp $M'' \in \mathscr{B}$ (resp. $V'' \in \mathscr{G}$) sao cho $M'' \subset M \cap M'$ (resp. $V'' \subset V \cap V'$); do đó $V''(M'') \subset V(M) \cap V'(M')$ và vì thế các tập hợp $V(M)$ ($M \in \mathscr{B}, V \in \mathscr{G}$) thật sự lập thành một cơ sở của một bộ lọc $\mathfrak{F}_0$ trên $X$. Hơn nữa, nếu $M$ là $V$-nhỏ, thì $V(M)$ là $V$-nhỏ; do đó $\mathfrak{F}_0$ là một bộ lọc Cauchy và rõ ràng thô hơn $\mathfrak{F}$. Để hoàn tất chứng minh, chỉ cần chỉ ra rằng nếu $\mathfrak{G}$ là một bộ lọc Cauchy thô hơn $\mathfrak{F}$, thì $\mathfrak{G}$ mịn hơn $\mathfrak{F}_0$. Với mỗi $M \in \mathscr{B}$ và mỗi $V \in \mathscr{G}$ có một tập hợp $N \in \mathscr{G}$ là $V$-nhỏ; vì $N \in \mathfrak{F}$, $N$ giao với $M$; do đó $N \subset V(M)$ và vì vậy $V(M) \in \mathfrak{G}$.
 
 #### Hệ quả 1 {#top-ii-s3-prop-5-cor-1 .statement}
 
-*Với mỗi $x \in X$, bộ lọc lân cận $\mathcal{B}(x)$ của $x$ trong $X$ là một bộ lọc Cauchy cực tiểu.*
+*Với mỗi $x \in X$, bộ lọc lân cận $\mathscr{B}(x)$ của $x$ trong $X$ là một bộ lọc Cauchy cực tiểu.*
 
-Lấy $\mathfrak{F}$ trong Mệnh đề 5 là bộ lọc của mọi tập con của $X$ chứa $x$, và lấy $\mathcal{B}$ chỉ gồm phần tử duy nhất $\{x\}$.
+Lấy $\mathfrak{F}$ trong Mệnh đề 5 là bộ lọc của mọi tập con của $X$ chứa $x$, và lấy $\mathscr{B}$ chỉ gồm phần tử duy nhất $\{x\}$.
 
 #### Hệ quả 2 {#top-ii-s3-prop-5-cor-2 .statement}
 
 *Mọi điểm tụ* $x$ *của một bộ lọc Cauchy* $\mathfrak{F}$ *đều là một điểm giới hạn của* $\mathfrak{F}$.
 
-Có một bộ lọc $\mathcal{G}$ mịn hơn cả $\mathfrak{F}$ và $\mathcal{B}(x)$ (Chương I, § 7, no. 2, Mệnh đề 4); vì $\mathfrak{F}$ là một bộ lọc Cauchy, nên $\mathcal{G}$ cũng vậy. Nếu $\mathfrak{F}_0$ là bộ lọc Cauchy cực tiểu duy nhất thô hơn $\mathfrak{F}$, thì cả $\mathfrak{F}_0$ và $\mathcal{B}(x)$ đều là các bộ lọc Cauchy cực tiểu thô hơn $\mathcal{G}$. Do đó $\mathfrak{F}_0 = \mathcal{B}(x)$, điều này chứng tỏ rằng $\mathfrak{F}$ hội tụ đến $x$.
+Có một bộ lọc $\mathscr{G}$ mịn hơn cả $\mathfrak{F}$ và $\mathscr{B}(x)$ (Chương I, § 7, no. 2, Mệnh đề 4); vì $\mathfrak{F}$ là một bộ lọc Cauchy, nên $\mathscr{G}$ cũng vậy. Nếu $\mathfrak{F}_0$ là bộ lọc Cauchy cực tiểu duy nhất thô hơn $\mathfrak{F}$, thì cả $\mathfrak{F}_0$ và $\mathscr{B}(x)$ đều là các bộ lọc Cauchy cực tiểu thô hơn $\mathscr{G}$. Do đó $\mathfrak{F}_0 = \mathscr{B}(x)$, điều này chứng tỏ rằng $\mathfrak{F}$ hội tụ đến $x$.
 
 #### Hệ quả 3 {#top-ii-s3-prop-5-cor-3 .statement}
 
@@ -180,7 +180,7 @@ Bộ lọc Cauchy đối với tôpô đều này. Thật vậy, nếu $(A_i)$ l
 $$
 V = \bigcup_i (A_i \times A_i)
 $$
-là lân cận đều tương ứng, thì ít nhất một trong các $A_i$ thuộc $\mathcal{F}$ (Chương I, § 6, no. 4, Hệ quả của Mệnh đề 5), và $A_i$ là V-nhỏ. Mặt khác, $X$ là một không gian rời rạc vô hạn, do đó không compact, và vì vậy tồn tại các siêu bộ lọc trên $X$ không hội tụ.
+là lân cận đều tương ứng, thì ít nhất một trong các $A_i$ thuộc $\mathscr{F}$ (Chương I, § 6, no. 4, Hệ quả của Mệnh đề 5), và $A_i$ là V-nhỏ. Mặt khác, $X$ là một không gian rời rạc vô hạn, do đó không compact, và vì vậy tồn tại các siêu bộ lọc trên $X$ không hội tụ.
 
 #### Định nghĩa 3 {#top-ii-s3-def-3 .statement}
 
@@ -196,7 +196,7 @@ Từ các Định nghĩa 2 và 3 của no. 1 và Mệnh đề 2 của no. 1, ta 
 
 #### Mệnh đề 6 {#top-ii-s3-prop-6 .statement}
 
-*Cho $\mathcal{F}$ là một bộ lọc trên một tập hợp $X$, và cho $f$ là một ánh xạ từ $X$ vào một không gian đều đầy đủ $X'$. Khi đó $f$ có giới hạn đối với $\mathcal{F}$ khi và chỉ khi ảnh của $\mathcal{F}$ qua $f$ là một cơ sở bộ lọc Cauchy.*
+*Cho $\mathscr{F}$ là một bộ lọc trên một tập hợp $X$, và cho $f$ là một ánh xạ từ $X$ vào một không gian đều đầy đủ $X'$. Khi đó $f$ có giới hạn đối với $\mathscr{F}$ khi và chỉ khi ảnh của $\mathscr{F}$ qua $f$ là một cơ sở bộ lọc Cauchy.*
 
 Tiêu chuẩn này cho thấy tầm quan trọng của các không gian đầy đủ trong mọi vấn đề liên quan đến khái niệm giới hạn: nếu một hàm nhận các giá trị của nó trong một không gian đầy đủ, ta có thể chứng minh *sự tồn tại* của một giới hạn *mà không biết trước giá trị của giới hạn*; điều này sẽ không thể thực hiện được nếu định nghĩa của giới hạn là tiêu chuẩn duy nhất về sự hội tụ mà ta có.
 
@@ -204,17 +204,17 @@ Một tôpô đều *mịn hơn* tôpô đều của một không gian đầy đ
 
 #### Mệnh đề 7 {#top-ii-s3-prop-7 .statement}
 
-*Cho $\mathcal{U}_1, \mathcal{U}_2$ là hai tôpô đều trên một tập hợp $X$, và cho $\mathcal{T}_1, \mathcal{T}_2$ là các tôpô được cảm sinh bởi các tôpô đều này tương ứng. Giả sử rằng $\mathcal{U}_1$ mịn hơn $\mathcal{U}_2$, và rằng có một hệ cơ sở các lân cận đều của $\mathcal{U}_1$ đóng trong $X \times X$ đối với tôpô $\mathcal{T}_2 \times \mathcal{T}_2$. Khi đó một bộ lọc $\mathcal{F}$ trên $X$ hội tụ trong tôpô $\mathcal{T}_1$ khi và chỉ khi nó là một bộ lọc Cauchy trong tôpô đều $\mathcal{U}_1$ và hội tụ trong tôpô $\mathcal{T}_2$.*
+*Cho $\mathscr{U}_1, \mathscr{U}_2$ là hai tôpô đều trên một tập hợp $X$, và cho $\mathscr{T}_1, \mathscr{T}_2$ là các tôpô được cảm sinh bởi các tôpô đều này tương ứng. Giả sử rằng $\mathscr{U}_1$ mịn hơn $\mathscr{U}_2$, và rằng có một hệ cơ sở các lân cận đều của $\mathscr{U}_1$ đóng trong $X \times X$ đối với tôpô $\mathscr{T}_2 \times \mathscr{T}_2$. Khi đó một bộ lọc $\mathscr{F}$ trên $X$ hội tụ trong tôpô $\mathscr{T}_1$ khi và chỉ khi nó là một bộ lọc Cauchy trong tôpô đều $\mathscr{U}_1$ và hội tụ trong tôpô $\mathscr{T}_2$.*
 
-Các điều kiện rõ ràng là cần thiết, vì $\mathcal{T}_2$ thô hơn $\mathcal{T}_1$. Ngược lại, giả sử rằng các điều kiện được thỏa mãn, và cho $x$ là một điểm giới hạn của $\mathcal{F}$ đối với $\mathcal{T}_2$; ta sẽ chứng minh rằng $x$ là một giới hạn của $\mathcal{F}$ đối với $\mathcal{T}_1$. Cho $V$ là một lân cận đều đối xứng của $\mathcal{U}_1$ đóng trong tôpô $\mathcal{T}_2 \times \mathcal{T}_2$. Theo giả thiết, $\mathcal{F}$ chứa một tập hợp $M$ là V-nhỏ; do đó nếu $x' \in M$ thì ta có $M \subset V(x')$. Nhưng $V(x')$ đóng trong tôpô $\mathcal{T}_2$; do đó $x$, nằm trong bao đóng của $M$ đối với $\mathcal{T}_2$, phải thuộc $V(x')$. Suy ra rằng $M \subset \hat{V}(x)$, và mệnh đề được chứng minh.
+Các điều kiện rõ ràng là cần thiết, vì $\mathscr{T}_2$ thô hơn $\mathscr{T}_1$. Ngược lại, giả sử rằng các điều kiện được thỏa mãn, và cho $x$ là một điểm giới hạn của $\mathscr{F}$ đối với $\mathscr{T}_2$; ta sẽ chứng minh rằng $x$ là một giới hạn của $\mathscr{F}$ đối với $\mathscr{T}_1$. Cho $V$ là một lân cận đều đối xứng của $\mathscr{U}_1$ đóng trong tôpô $\mathscr{T}_2 \times \mathscr{T}_2$. Theo giả thiết, $\mathscr{F}$ chứa một tập hợp $M$ là V-nhỏ; do đó nếu $x' \in M$ thì ta có $M \subset V(x')$. Nhưng $V(x')$ đóng trong tôpô $\mathscr{T}_2$; do đó $x$, nằm trong bao đóng của $M$ đối với $\mathscr{T}_2$, phải thuộc $V(x')$. Suy ra rằng $M \subset \hat{V}(x)$, và mệnh đề được chứng minh.
 
 #### Hệ quả {#top-ii-s3-n3-cor-1 .statement}
 
 Trong các điều kiện của Mệnh đề 7, nếu $U_2$ là một tôpô đều của một không gian đầy đủ, thì $U_1$ cũng vậy.
 
-Vì mọi bộ lọc Cauchy đối với $U_1$ khi đó là một bộ lọc Cauchy đối với $U_2$ và do đó hội tụ trong tôpô $\mathcal{T}_2$.
+Vì mọi bộ lọc Cauchy đối với $U_1$ khi đó là một bộ lọc Cauchy đối với $U_2$ và do đó hội tụ trong tôpô $\mathscr{T}_2$.
 
-Chú ý rằng các giả thiết của Hệ quả của Mệnh đề 7 được thỏa mãn khi $\mathcal{T}_1 = \mathcal{T}_2$ (§ 1, no. 2, Hệ quả 2 của Mệnh đề 2).
+Chú ý rằng các giả thiết của Hệ quả của Mệnh đề 7 được thỏa mãn khi $\mathscr{T}_1 = \mathscr{T}_2$ (§ 1, no. 2, Hệ quả 2 của Mệnh đề 2).
 
 ### 4. KHÔNG GIAN CON CỦA CÁC KHÔNG GIAN ĐẦY ĐỦ
 
@@ -383,32 +383,32 @@ Cần lưu ý rằng nếu $f$ là một ánh xạ liên tục đều *song ánh
 
 *Nếu $(i_1, X_1)$ là một cặp khác gồm một không gian đều Hausdorff đầy đủ $X_1$ và một ánh xạ liên tục đều $i_1 : X \to X_1$ có tính chất (P), thì tồn tại duy nhất một đẳng cấu $\varphi : \hat{X} \to X_1$ sao cho $i_1 = \varphi \circ i$.*
 
-1) Định nghĩa của $\hat{X}$. Cho $\hat{X}$ là tập hợp các bộ lọc Cauchy cực tiểu (no. 2) trên $X$. Ta sẽ định nghĩa một cấu trúc đều trên $\hat{X}$. Với mục đích này, nếu $V$ là bất kỳ lân cận đối xứng nào của $X$, hãy ký hiệu $\tilde{V}$ là tập hợp mọi cặp $(\mathcal{K}, \mathcal{Y})$ của các bộ lọc Cauchy cực tiểu có chung một tập $V$-nhỏ. Ta sẽ chứng minh rằng các tập $\tilde{V}$ tạo thành một hệ cơ bản các lân cận của một cấu trúc đều trên $\hat{X}$:
+1) Định nghĩa của $\hat{X}$. Cho $\hat{X}$ là tập hợp các bộ lọc Cauchy cực tiểu (no. 2) trên $X$. Ta sẽ định nghĩa một cấu trúc đều trên $\hat{X}$. Với mục đích này, nếu $V$ là bất kỳ lân cận đối xứng nào của $X$, hãy ký hiệu $\tilde{V}$ là tập hợp mọi cặp $(\mathscr{K}, \mathscr{Y})$ của các bộ lọc Cauchy cực tiểu có chung một tập $V$-nhỏ. Ta sẽ chứng minh rằng các tập $\tilde{V}$ tạo thành một hệ cơ bản các lân cận của một cấu trúc đều trên $\hat{X}$:
 
-(i) Vì mỗi $\mathcal{K} \in \hat{X}$ là một bộ lọc Cauchy, theo định nghĩa ta có $(\mathcal{K}, \mathcal{K}) \in \tilde{V}$ với mọi lân cận đối xứng $V$ của $X$; do đó tiên đề $(U'_1)$ được thỏa mãn.
+(i) Vì mỗi $\mathscr{K} \in \hat{X}$ là một bộ lọc Cauchy, theo định nghĩa ta có $(\mathscr{K}, \mathscr{K}) \in \tilde{V}$ với mọi lân cận đối xứng $V$ của $X$; do đó tiên đề $(U'_1)$ được thỏa mãn.
 
 (ii) Nếu $V$ và $V'$ là hai lân cận đối xứng của $X$, thì $W = V \cap V'$ là một lân cận đối xứng, và mọi tập $W$-nhỏ cũng là $V$-nhỏ và $V'$-nhỏ; do đó $\tilde{W} \subset \tilde{V} \cap \tilde{V}'$, điều này chứng tỏ $(B_1)$.
 
 (iii) Các tập $\tilde{V}$ là đối xứng theo định nghĩa, do đó $(U''_1)$ được thỏa mãn.
 
-(iv) Cho một entourage đối xứng $V$ của $X$, đặt $W$ là một entourage đối xứng sao cho $\tilde{V} \subset V$. Xét ba bộ lọc Cauchy cực tiểu $\mathcal{K}, \mathcal{Y}, \mathcal{B}$ sao cho $(\mathcal{K}, \mathcal{Y}) \in \tilde{W}$ và $(\mathcal{Y}, \mathcal{B}) \in \tilde{W}$; khi đó có hai tập $W$-nhỏ $M, N$ sao cho $M \in \mathcal{K} \cap \mathcal{Y}$ và $N \in \mathcal{Y} \cap \mathcal{B}$. Vì $M$ và $N$ thuộc $\mathcal{Y}$, $M \cap N$ không rỗng và do đó (mục 1, Mệnh đề 1) $M \cup N$ là $\tilde{W}$-nhỏ và suy ra $V$-nhỏ; vì $M \cup N$ thuộc $\mathcal{K}$ và thuộc $\mathcal{B}$ ta có $\tilde{W} \subset \tilde{V}$; do đó $(U'''_1)$ được thỏa mãn.
+(iv) Cho một entourage đối xứng $V$ của $X$, đặt $W$ là một entourage đối xứng sao cho $\tilde{V} \subset V$. Xét ba bộ lọc Cauchy cực tiểu $\mathscr{K}, \mathscr{Y}, \mathscr{B}$ sao cho $(\mathscr{K}, \mathscr{Y}) \in \tilde{W}$ và $(\mathscr{Y}, \mathscr{B}) \in \tilde{W}$; khi đó có hai tập $W$-nhỏ $M, N$ sao cho $M \in \mathscr{K} \cap \mathscr{Y}$ và $N \in \mathscr{Y} \cap \mathscr{B}$. Vì $M$ và $N$ thuộc $\mathscr{Y}$, $M \cap N$ không rỗng và do đó (mục 1, Mệnh đề 1) $M \cup N$ là $\tilde{W}$-nhỏ và suy ra $V$-nhỏ; vì $M \cup N$ thuộc $\mathscr{K}$ và thuộc $\mathscr{B}$ ta có $\tilde{W} \subset \tilde{V}$; do đó $(U'''_1)$ được thỏa mãn.
 
-Tiếp theo ta chứng minh rằng không gian đều $\hat{X}$ là Hausdorff. Cho $\mathcal{K}, \mathcal{Y}$ là hai bộ lọc Cauchy cực tiểu trên $X$ sao cho $(\mathcal{K}, \mathcal{Y}) \in \hat{X}$ với mọi entourage đối xứng $V$ của $X$. Suy ra ngay rằng các tập $M \cup N$, với $M \in \mathcal{K}$ và $N \in \mathcal{Y}$, lập thành một cơ sở của một bộ lọc $\mathcal{B}$ thô hơn $\mathcal{K}$ và $\mathcal{Y}$. Bây giờ $\mathcal{B}$ là một bộ lọc Cauchy, vì với mọi entourage đối xứng $V$ của $X$ theo giả thiết có một tập $V$-nhỏ $P$ thuộc cả $\mathcal{K}$ và $\mathcal{Y}$ và do đó thuộc $\mathcal{B}$. Theo định nghĩa của các bộ lọc Cauchy cực tiểu, ta có $\mathcal{K} = \mathcal{B} = \mathcal{Y}$, và điều này cho thấy rằng $\hat{X}$ là Hausdorff.
+Tiếp theo ta chứng minh rằng không gian đều $\hat{X}$ là Hausdorff. Cho $\mathscr{K}, \mathscr{Y}$ là hai bộ lọc Cauchy cực tiểu trên $X$ sao cho $(\mathscr{K}, \mathscr{Y}) \in \hat{X}$ với mọi entourage đối xứng $V$ của $X$. Suy ra ngay rằng các tập $M \cup N$, với $M \in \mathscr{K}$ và $N \in \mathscr{Y}$, lập thành một cơ sở của một bộ lọc $\mathscr{B}$ thô hơn $\mathscr{K}$ và $\mathscr{Y}$. Bây giờ $\mathscr{B}$ là một bộ lọc Cauchy, vì với mọi entourage đối xứng $V$ của $X$ theo giả thiết có một tập $V$-nhỏ $P$ thuộc cả $\mathscr{K}$ và $\mathscr{Y}$ và do đó thuộc $\mathscr{B}$. Theo định nghĩa của các bộ lọc Cauchy cực tiểu, ta có $\mathscr{K} = \mathscr{B} = \mathscr{Y}$, và điều này cho thấy rằng $\hat{X}$ là Hausdorff.
 
 2) Định nghĩa của $i$; cấu trúc đều của $X$ là ảnh ngược qua $i$ của cấu trúc của $\hat{X}$. Ta biết rằng với mỗi $x \in X$ thì bộ lọc lân cận $\mathfrak{B}(x)$ của $x$ trong $X$ là một bộ lọc Cauchy cực tiểu (no. 2, Mệnh đề 5, Hệ quả 1). Vì vậy ta định nghĩa $i(x) = \mathfrak{B}(x)$. Đặt $f = i \times i$; ta sẽ chứng minh rằng với mỗi lân cận đối xứng $V$ của $X$ ta có $j^{-1}(\tilde{V}) \subset V \cup j^{-1}[(\tilde{V})^3]$, và điều này sẽ chứng minh mệnh đề của ta (§ 2, no. 4). Bây giờ, nếu $[i(x), i(y)] \in \tilde{V}$, thì có một tập $V$-nhỏ $M$ là lân cận của cả $x$ và $y$, do đó $(x, y) \in V$. Ngược lại, nếu $(x, y) \in V$, thì thấy ngay rằng tập $V(x) \cup V(y)$ là $V$-nhỏ và là lân cận của cả $x$ và $y$.
 
-3) $\hat{X}$ là đầy đủ và $i(X)$ trù mật trong $\hat{X}$. Phần vết trên $i(X)$ của một lân cận $\tilde{V}(\mathcal{X})$ của một điểm $\mathcal{X} \in X$ là tập gồm mọi $i(x)$ sao cho
+3) $\hat{X}$ là đầy đủ và $i(X)$ trù mật trong $\hat{X}$. Phần vết trên $i(X)$ của một lân cận $\tilde{V}(\mathscr{X})$ của một điểm $\mathscr{X} \in X$ là tập gồm mọi $i(x)$ sao cho
 
 $$
-(\mathcal{X}, i(x)) \in \tilde{V}.
+(\mathscr{X}, i(x)) \in \tilde{V}.
 $$
 
-Quan hệ này có nghĩa là có một lân cận $V$-nhỏ của $x$ trong $X$ thuộc $\mathcal{X}$, tức là $x$ là một điểm trong của một tập $V$-nhỏ của $\mathcal{X}$. Đặt $M$ là hợp của các phần trong của mọi tập $V$-nhỏ của $\mathcal{X}$; khi đó $M$ thuộc $\mathcal{X}$ (no. 2, Mệnh đề 5, Hệ quả 4) và từ những điều đã nói suy ra rằng $\tilde{V}(\mathcal{X}) \cap i(X) = i(M)$. Suy ra rằng:
+Quan hệ này có nghĩa là có một lân cận $V$-nhỏ của $x$ trong $X$ thuộc $\mathscr{X}$, tức là $x$ là một điểm trong của một tập $V$-nhỏ của $\mathscr{X}$. Đặt $M$ là hợp của các phần trong của mọi tập $V$-nhỏ của $\mathscr{X}$; khi đó $M$ thuộc $\mathscr{X}$ (no. 2, Mệnh đề 5, Hệ quả 4) và từ những điều đã nói suy ra rằng $\tilde{V}(\mathscr{X}) \cap i(X) = i(M)$. Suy ra rằng:
 
-(i) $\tilde{V}(\mathcal{X}) \cap i(X)$ không rỗng, do đó $i(X)$ trù mật trong $\hat{X}$.
-(ii) Phần vết của $\tilde{V}(\mathcal{X})$ trên $i(X)$ thuộc cơ sở lọc $i(\mathcal{X})$ trên $X$; do đó cơ sở lọc này hội tụ trong $\hat{X}$ tới điểm $\mathcal{X}$.
+(i) $\tilde{V}(\mathscr{X}) \cap i(X)$ không rỗng, do đó $i(X)$ trù mật trong $\hat{X}$.
+(ii) Phần vết của $\tilde{V}(\mathscr{X})$ trên $i(X)$ thuộc cơ sở lọc $i(\mathscr{X})$ trên $X$; do đó cơ sở lọc này hội tụ trong $\hat{X}$ tới điểm $\mathscr{X}$.
 
-Khi đó, cho $\mathfrak{F}$ là một lọc Cauchy trên $i(X)$; suy ra từ 2) trên và Mệnh đề 4 của no. 1, $\overline{i^1}(\mathfrak{F})$ là một cơ sở của một lọc Cauchy $\mathfrak{G}$ trên $X$. Cho $\mathcal{X}$ là một lọc Cauchy tối tiểu thô hơn $\mathfrak{G}$ (no. 2, Mệnh đề 5); khi đó $i(\mathcal{X})$ là một cơ sở lọc Cauchy trên $i(X)$ (no. 1, Mệnh đề 3), và $\mathfrak{F} = i[\overline{i^1}(\mathfrak{F})]$ mịn hơn lọc có cơ sở là $i(\mathcal{X})$. Vì lọc sau hội tụ trong $\hat{X}$, nên $\mathfrak{F}$ cũng hội tụ, và do đó Mệnh đề 9 của no. 4 cho thấy $\hat{X}$ là đầy đủ.
+Khi đó, cho $\mathfrak{F}$ là một lọc Cauchy trên $i(X)$; suy ra từ 2) trên và Mệnh đề 4 của no. 1, $\overline{i^1}(\mathfrak{F})$ là một cơ sở của một lọc Cauchy $\mathfrak{G}$ trên $X$. Cho $\mathscr{X}$ là một lọc Cauchy tối tiểu thô hơn $\mathfrak{G}$ (no. 2, Mệnh đề 5); khi đó $i(\mathscr{X})$ là một cơ sở lọc Cauchy trên $i(X)$ (no. 1, Mệnh đề 3), và $\mathfrak{F} = i[\overline{i^1}(\mathfrak{F})]$ mịn hơn lọc có cơ sở là $i(\mathscr{X})$. Vì lọc sau hội tụ trong $\hat{X}$, nên $\mathfrak{F}$ cũng hội tụ, và do đó Mệnh đề 9 của no. 4 cho thấy $\hat{X}$ là đầy đủ.
 
 4) Kiểm tra tính chất (P). Cho $f$ là một ánh xạ liên tục đều của $X$ vào một không gian Hausdorff đầy đủ. Trước hết ta chứng minh rằng tồn tại một ánh xạ liên tục đều duy nhất $g_0 : i(X) \to Y$ sao cho $f = g_0 \circ i$. Vì $f$ liên tục, ta có
 
@@ -465,9 +465,9 @@ Với mọi ánh xạ liên tục đều của X vào một không gian đều H
 
 #### Mệnh đề 14 {#top-ii-s3-prop-14 .statement}
 
-*Cho X là một không gian đều Hausdorff đầy đủ, $\mathcal{U}$ là cấu trúc đều của nó, và cho Z là một không gian con trù mật của X. Nếu $\mathcal{U}'$ là một cấu trúc đều trên X thô hơn $\mathcal{U}$ và cảm sinh trên Z cùng một cấu trúc đều như $\mathcal{U}$, thì $\mathcal{U} = \mathcal{U}'$.*
+*Cho X là một không gian đều Hausdorff đầy đủ, $\mathscr{U}$ là cấu trúc đều của nó, và cho Z là một không gian con trù mật của X. Nếu $\mathscr{U}'$ là một cấu trúc đều trên X thô hơn $\mathscr{U}$ và cảm sinh trên Z cùng một cấu trúc đều như $\mathscr{U}$, thì $\mathscr{U} = \mathscr{U}'$.*
 
-Kí hiệu X' là tập hợp X với cấu trúc đều $\mathcal{U}'$. Hợp thành của ánh xạ chính tắc $X' \to \hat{X}'$ và ánh xạ đồng nhất $X \to X'$ là một ánh xạ liên tục đều $\varphi : X \to \hat{X}'$. Vì Z là Hausdorff đối với cấu trúc đều cảm sinh bởi $\mathcal{U}'$, nên hạn chế của $\varphi$ trên Z theo giả thiết là một đẳng cấu của Z lên không gian con trù mật $\varphi(Z)$ của $\hat{X}'$; suy ra (no. 6, Hệ quả của Định lý 2) rằng chính $\varphi$ là một đẳng cấu của X lên $\hat{X}'$, do đó $X' = \hat{X}'$ và $\mathcal{U}' = \mathcal{U}$.
+Kí hiệu X' là tập hợp X với cấu trúc đều $\mathscr{U}'$. Hợp thành của ánh xạ chính tắc $X' \to \hat{X}'$ và ánh xạ đồng nhất $X \to X'$ là một ánh xạ liên tục đều $\varphi : X \to \hat{X}'$. Vì Z là Hausdorff đối với cấu trúc đều cảm sinh bởi $\mathscr{U}'$, nên hạn chế của $\varphi$ trên Z theo giả thiết là một đẳng cấu của Z lên không gian con trù mật $\varphi(Z)$ của $\hat{X}'$; suy ra (no. 6, Hệ quả của Định lý 2) rằng chính $\varphi$ là một đẳng cấu của X lên $\hat{X}'$, do đó $X' = \hat{X}'$ và $\mathscr{U}' = \mathscr{U}$.
 
 #### Mệnh đề 15 {#top-ii-s3-prop-15 .statement}
 
@@ -557,7 +557,7 @@ $$
 
 giao hoán (*i* là ánh xạ chính tắc).
 
-Tính bắc cầu của các cấu trúc đều ban đầu (§ 2, no. 3, mệnh đề 5) cho thấy một mặt rằng $\mathcal{U}$ là cấu trúc đều thô nhất sao cho các ánh xạ $j_\lambda \circ f_\lambda : X \to Y'_\lambda$ đều liên tục, và mặt khác rằng $\mathcal{U}$ cũng là ảnh ngược qua $i$ của cấu trúc đều thô nhất $\mathcal{U}'$ trên tập hợp $X'$ sao cho các $f'_\lambda$ đều liên tục. Bây giờ $\mathcal{U}'$ là *Hausdorff*, vì nếu $x_1, x_2$ là hai điểm của $X$ sao cho $j_\lambda(f_\lambda(x_1)) = j_\lambda(f_\lambda(x_2))$ với mỗi $\lambda \in L$, thì $(x_1, x_2)$ thuộc mọi lân cận của $\mathcal{U}$ và do đó $i(x_1) = i(x_2)$. Do đó mệnh đề 17 của no. 8 cho thấy $\mathcal{U}'$ là cấu trúc đều của không gian Hausdorff $X'$ liên kết với $X$. :::
+Tính bắc cầu của các cấu trúc đều ban đầu (§ 2, no. 3, mệnh đề 5) cho thấy một mặt rằng $\mathscr{U}$ là cấu trúc đều thô nhất sao cho các ánh xạ $j_\lambda \circ f_\lambda : X \to Y'_\lambda$ đều liên tục, và mặt khác rằng $\mathscr{U}$ cũng là ảnh ngược qua $i$ của cấu trúc đều thô nhất $\mathscr{U}'$ trên tập hợp $X'$ sao cho các $f'_\lambda$ đều liên tục. Bây giờ $\mathscr{U}'$ là *Hausdorff*, vì nếu $x_1, x_2$ là hai điểm của $X$ sao cho $j_\lambda(f_\lambda(x_1)) = j_\lambda(f_\lambda(x_2))$ với mỗi $\lambda \in L$, thì $(x_1, x_2)$ thuộc mọi lân cận của $\mathscr{U}$ và do đó $i(x_1) = i(x_2)$. Do đó mệnh đề 17 của no. 8 cho thấy $\mathscr{U}'$ là cấu trúc đều của không gian Hausdorff $X'$ liên kết với $X$. :::
 
 Do đó, song ánh $x' \to (f'_\lambda(x'))$ đồng nhất $X$ với một không gian con đều của tích $\prod_\lambda Y'_\lambda$ (§ 2, no. 6, Mệnh đề 8). Vì các $Y'_\lambda$ là Hausdorff, nên mỗi $Y'_\lambda$ có thể được đồng nhất với một không gian con trù mật của phần hoàn thành $\hat{Y}_\lambda$ của nó, và do đó $\prod_\lambda Y'_\lambda$ có thể được đồng nhất với một không gian con trù mật của $\prod_\lambda \hat{Y}_\lambda$ (Chương I, § 4, no. 3, Mệnh đề 7). Nhưng $\prod_\lambda \hat{Y}_\lambda$ là Hausdorff và đầy đủ (no. 5, Mệnh đề 10); do đó, bao đóng $\overline{X'}$ của $X'$ trong $\prod_\lambda \hat{Y}_\lambda$ là một không gian con Hausdorff đầy đủ (no. 4, Mệnh đề 8) có thể được đồng nhất với phần hoàn thành Hausdorff $\hat{X}$ của $X$; dưới sự đồng nhất này, các ánh xạ $\hat{f}_\lambda$ trở thành các phép chiếu lên các thừa số $\hat{Y}_\lambda$, và mệnh đề được chứng minh.
 

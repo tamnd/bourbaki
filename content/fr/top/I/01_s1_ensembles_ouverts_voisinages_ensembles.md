@@ -36,7 +36,7 @@ subsections:
       pdf_page: 18
 statements: 23
 exercises: 10
-content_sha256: 3a696a2ba7595e18e902bd98cff631fa00210213e3f21a762a7168d48f4ae59c
+content_sha256: 7db1167a8b2ca309c7bbcd8b702cf9601f9cbacc799741b198ec174436a2c499
 ---
 
 ## § 1. ENSEMBLES OUVERTS; VOISINAGES; ENSEMBLES FERMÉS
@@ -45,10 +45,10 @@ content_sha256: 3a696a2ba7595e18e902bd98cff631fa00210213e3f21a762a7168d48f4ae59c
 
 #### Définition 1 {#top-i-s1-def-1 .statement}
 
-On appelle structure topologique (ou plus brièvement topologie) sur un ensemble $X$ une structure constituée par la donnée d’un ensemble $\mathcal{O}$ de parties de $X$ possédant les propriétés suivantes (dites axiomes des structures topologiques):
-$(O_I)$ Toute réunion d’ensembles de $\mathcal{O}$ est un ensemble de $\mathcal{O}$.
-$(O_{II})$ Toute intersection finie d’ensembles de $\mathcal{O}$ est un ensemble de $\mathcal{O}$.
-Les ensembles de $\mathcal{O}$ sont appelés ensembles ouverts de la structure topologique définie par $\mathcal{O}$ sur $X$.
+On appelle structure topologique (ou plus brièvement topologie) sur un ensemble $X$ une structure constituée par la donnée d’un ensemble $\mathscr{O}$ de parties de $X$ possédant les propriétés suivantes (dites axiomes des structures topologiques):
+$(O_I)$ Toute réunion d’ensembles de $\mathscr{O}$ est un ensemble de $\mathscr{O}$.
+$(O_{II})$ Toute intersection finie d’ensembles de $\mathscr{O}$ est un ensemble de $\mathscr{O}$.
+Les ensembles de $\mathscr{O}$ sont appelés ensembles ouverts de la structure topologique définie par $\mathscr{O}$ sur $X$.
 
 #### Définition 2 {#top-i-s1-def-2 .statement}
 
@@ -56,13 +56,13 @@ On appelle espace topologique un ensemble muni d’une structure topologique.
 
 Les éléments d’un espace topologique sont souvent appelés points. Lorsqu’on a défini une topologie sur un ensemble $X$, on dit que cet ensemble est sous-jacent à l’espace topologique $X$.
 
-L’axiome $(O_I)$ implique en particulier que la réunion de la partie vide de $\mathcal{O}$, c’est-à-dire l’ensemble vide (E, II, p. 22) appartient à $\mathcal{O}$. L’axiome $(O_{II})$ implique que l’intersection de la partie vide de $\mathcal{O}$, c’est-à-dire l’ensemble $X$ (E, II, p. 23, déf. 3) appartient à $\mathcal{O}$.
+L’axiome $(O_I)$ implique en particulier que la réunion de la partie vide de $\mathscr{O}$, c’est-à-dire l’ensemble vide (E, II, p. 22) appartient à $\mathscr{O}$. L’axiome $(O_{II})$ implique que l’intersection de la partie vide de $\mathscr{O}$, c’est-à-dire l’ensemble $X$ (E, II, p. 23, déf. 3) appartient à $\mathscr{O}$.
 
-Lorsqu’on veut montrer qu’un ensemble $\mathcal{O}$ de parties de $X$ satisfait à $(O_{II})$, il est souvent commode d’établir séparément qu’il satisfait aux deux axiomes suivants, dont la conjonction est équivalente à $(O_{II})$:
-$(O_{IIa})$ L’intersection de deux ensembles de $\mathcal{O}$ appartient à $\mathcal{O}$.
-$(O_{IIb})$ $X$ appartient à $\mathcal{O}$.
+Lorsqu’on veut montrer qu’un ensemble $\mathscr{O}$ de parties de $X$ satisfait à $(O_{II})$, il est souvent commode d’établir séparément qu’il satisfait aux deux axiomes suivants, dont la conjonction est équivalente à $(O_{II})$:
+$(O_{IIa})$ L’intersection de deux ensembles de $\mathscr{O}$ appartient à $\mathscr{O}$.
+$(O_{IIb})$ $X$ appartient à $\mathscr{O}$.
 
-Exemples de topologies. — Sur un ensemble quelconque X, l’ensemble de parties de X formé de X et de $\varnothing$ satisfait aux axiomes $(O_I)$ et $(O_{II})$ et définit donc une topologie sur X. Il en est de même de l’ensemble $\mathcal{P}(X)$ de toutes les parties de X : la topologie qu’il définit est dite topologie discrète sur X, et l’ensemble X muni de cette topologie est appelé espace discret.
+Exemples de topologies. — Sur un ensemble quelconque X, l’ensemble de parties de X formé de X et de $\varnothing$ satisfait aux axiomes $(O_I)$ et $(O_{II})$ et définit donc une topologie sur X. Il en est de même de l’ensemble $\mathscr{P}(X)$ de toutes les parties de X : la topologie qu’il définit est dite topologie discrète sur X, et l’ensemble X muni de cette topologie est appelé espace discret.
 
 Un recouvrement $(U_i)_{i \in I}$ d’une partie A d’un espace topologique X (E, II, p. 27) est dit ouvert si tous les $U_i$ sont ouverts dans X.
 
@@ -114,8 +114,8 @@ Ces quatre propriétés des ensembles $\mathfrak{V}(x)$ sont caractéristiques; 
 
 *Si, à chaque élément $x$ d’un ensemble X, on fait correspondre un ensemble $\mathfrak{V}(x)$ de parties de X de sorte que les propriétés (V_I), (V_{II}), (V_{III}) et (V_{IV}) soient vérifiées, il existe une structure topologique et une seule sur X, telle que, pour tout $x \in X$, $\mathfrak{V}(x)$ soit l’ensemble des voisinages de $x$ pour cette topologie.*
 
-D’après la prop. 1, s’il existe une topologie répondant à la question, l’ensemble des ensembles ouverts pour cette topologie est nécessairement l’ensemble $\mathcal{O}$ des parties A de X telles que, *pour tout $x \in A$, on ait $A \in \mathfrak{V}(x)$*; d’où l’unicité de cette topologie si elle existe.
-L’ensemble $\mathcal{O}$ satisfait bien aux axiomes (O_I) et (O_{II}): pour (O_I), cela résulte
+D’après la prop. 1, s’il existe une topologie répondant à la question, l’ensemble des ensembles ouverts pour cette topologie est nécessairement l’ensemble $\mathscr{O}$ des parties A de X telles que, *pour tout $x \in A$, on ait $A \in \mathfrak{V}(x)$*; d’où l’unicité de cette topologie si elle existe.
+L’ensemble $\mathscr{O}$ satisfait bien aux axiomes (O_I) et (O_{II}): pour (O_I), cela résulte
 
 ![Diagram showing nested sets U, W, V, x, y, z](https://i.imgur.com/3Q5z5QG.png)
 
@@ -131,9 +131,9 @@ La prop. 2 montre qu’on peut définir une topologie sur $X$ en se donnant les 
 
 #### Définition 5 {#top-i-s1-def-5 .statement}
 
-Dans un espace topologique $X$, on appelle système fondamental de voisinages d’un point $x$ (resp. d’une partie $A$ de $X$) tout ensemble $\mathcal{G}$ de voisinages de $x$ (resp. $A$) tel que pour tout voisinage $V$ de $x$ (resp. $A$), il existe un voisinage $W \in \mathcal{G}$ tel que $W \subset V$.
+Dans un espace topologique $X$, on appelle système fondamental de voisinages d’un point $x$ (resp. d’une partie $A$ de $X$) tout ensemble $\mathscr{G}$ de voisinages de $x$ (resp. $A$) tel que pour tout voisinage $V$ de $x$ (resp. $A$), il existe un voisinage $W \in \mathscr{G}$ tel que $W \subset V$.
 
-Si $\mathcal{G}$ est un système fondamental de voisinages d’une partie $A$ de $X$, toute intersection finie d’ensembles de $\mathcal{G}$ contient donc un ensemble de $\mathcal{G}$.
+Si $\mathscr{G}$ est un système fondamental de voisinages d’une partie $A$ de $X$, toute intersection finie d’ensembles de $\mathscr{G}$ contient donc un ensemble de $\mathscr{G}$.
 
 *Exemples. — 1) Dans un espace discret (I, p. 2) l’ensemble $\{x\}$ constitue à lui seul un système fondamental de voisinages du point $x$.
 2) Sur la droite rationnelle $\mathbf{Q}$ (I, p. 4), l’ensemble des intervalles ouverts contenant un point $x$ est un système fondamental de voisinages de ce point. Il en est de même de l’ensemble des intervalles ouverts $\left] x - \frac{1}{n}, x + \frac{1}{n} \right[$, et de l’ensemble des intervalles fermés $\left[ x - \frac{1}{n}, x + \frac{1}{n} \right]$, où $n$ prend toutes les valeurs entières $> 0$, ou seulement une suite infinie strictement croissante de valeurs entières $> 0$.
@@ -141,13 +141,13 @@ Si $\mathcal{G}$ est un système fondamental de voisinages d’une partie $A$ de
 
 #### Définition 6 {#top-i-s1-def-6 .statement}
 
-On appelle base de la topologie d’un espace topologique X tout ensemble $\mathcal{B}$ de parties ouvertes de X tel que tout ensemble ouvert de X soit réunion d’ensembles appartenant à $\mathcal{B}$.
+On appelle base de la topologie d’un espace topologique X tout ensemble $\mathscr{B}$ de parties ouvertes de X tel que tout ensemble ouvert de X soit réunion d’ensembles appartenant à $\mathscr{B}$.
 
 #### Proposition 3 {#top-i-s1-prop-3 .statement}
 
-Dans un espace topologique, pour qu’un ensemble $\mathcal{B}$ de parties ouvertes de X soit une base de la topologie de X, il faut et il suffit que pour tout $x \in X$, l’ensemble des $V \in \mathcal{B}$ tels que $x \in V$ soit un système fondamental de voisinages de x.
+Dans un espace topologique, pour qu’un ensemble $\mathscr{B}$ de parties ouvertes de X soit une base de la topologie de X, il faut et il suffit que pour tout $x \in X$, l’ensemble des $V \in \mathscr{B}$ tels que $x \in V$ soit un système fondamental de voisinages de x.
 
-La condition est évidemment nécessaire. Inversement, si elle est satisfaite, pour tout ensemble ouvert U, et tout $x \in U$, il existe un ensemble ouvert $V_x \in \mathcal{B}$ tel que $x \in V_x \subset U$. La réunion des $V_x$ pour $x \in U$ est donc égale à U, ce qui achève la démonstration.
+La condition est évidemment nécessaire. Inversement, si elle est satisfaite, pour tout ensemble ouvert U, et tout $x \in U$, il existe un ensemble ouvert $V_x \in \mathscr{B}$ tel que $x \in V_x \subset U$. La réunion des $V_x$ pour $x \in U$ est donc égale à U, ce qui achève la démonstration.
 
 #### Exemple 1 {#top-i-s1-n3-exa-1 .statement}
 
@@ -181,7 +181,7 @@ Un homéomorphisme f d’un espace topologique X sur un espace topologique X’ 
 
 #### Définition 8 {#top-i-s1-def-8 .statement}
 
-On dit qu’une famille $(A_i)_{i \in I}$ de parties d’un espace topologique $X$ est localement finie si, pour tout $x \in X$, il existe un voisinage $V$ de $x$ tel que $V \cap A_i = \varnothing$ sauf pour un nombre fini d’indices $i \in I$. On dit qu’un ensemble $\mathcal{G}$ de parties de $X$ est localement fini si la famille de parties définie par l’application identique de $\mathcal{G}$ sur lui-même est localement finie.
+On dit qu’une famille $(A_i)_{i \in I}$ de parties d’un espace topologique $X$ est localement finie si, pour tout $x \in X$, il existe un voisinage $V$ de $x$ tel que $V \cap A_i = \varnothing$ sauf pour un nombre fini d’indices $i \in I$. On dit qu’un ensemble $\mathscr{G}$ de parties de $X$ est localement fini si la famille de parties définie par l’application identique de $\mathscr{G}$ sur lui-même est localement finie.
 
 Il est clair que si $(A_i)_{i \in I}$ est une famille de parties localement finie et si $B_i \subset A_i$ pour tout $i \in I$, la famille $(B_i)_{i \in I}$ est localement finie.
 
@@ -273,9 +273,9 @@ Dans un espace discret $X$, il n’existe pas d’ensemble partout dense distinc
 
 #### Proposition 6 {#top-i-s1-prop-6 .statement}
 
-*Si* $\mathcal{B}$ *est une base de la topologie d’un espace topologique* $X$, *il existe dans* $X$ *un ensemble partout dense* $D$ *tel que* $\mathrm{Card}(D) \leqslant \mathrm{Card}(\mathcal{B})$.
+*Si* $\mathscr{B}$ *est une base de la topologie d’un espace topologique* $X$, *il existe dans* $X$ *un ensemble partout dense* $D$ *tel que* $\mathrm{Card}(D) \leqslant \mathrm{Card}(\mathscr{B})$.
 
-En effet, on peut se limiter au cas où les ensembles de $\mathcal{B}$ sont non vides (les ensembles de $\mathcal{B}$ non vides formant déjà une base de la topologie de $X$); alors, pour tout $U \in \mathcal{B}$, soit $x_U$ un point de $U$; il résulte de I, p. 5, prop. 3 que l’ensemble $D$ des $x_U$ est dense dans $X$ et on a $\mathrm{Card}(D) \leqslant \mathrm{Card}(\mathcal{B})$ (E, III, p. 25, prop. 3).
+En effet, on peut se limiter au cas où les ensembles de $\mathscr{B}$ sont non vides (les ensembles de $\mathscr{B}$ non vides formant déjà une base de la topologie de $X$); alors, pour tout $U \in \mathscr{B}$, soit $x_U$ un point de $U$; il résulte de I, p. 5, prop. 3 que l’ensemble $D$ des $x_U$ est dense dans $X$ et on a $\mathrm{Card}(D) \leqslant \mathrm{Card}(\mathscr{B})$ (E, III, p. 25, prop. 3).
 
 ## EXERCICES {#top-i-s1-exercises}
 

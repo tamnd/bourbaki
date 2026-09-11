@@ -29,7 +29,7 @@ subsections:
       pdf_page: 40
 statements: 21
 exercises: 10
-content_sha256: c5e8bc3d0246c8dffd05dcc00a8d75345c75d23ad88acc1bae1dccf4b636ecd7
+content_sha256: 8ef86854261cfe9f4541410af972aaf0ff54d970a00d34aabaedd83e40fb68f1
 ---
 
 ## § 4. PRODUIT D’ESPACES TOPOLOGIQUES
@@ -86,7 +86,7 @@ Il suffit, dans la prop. 2, de prendre $K = \mathbf{I}$ et $J_i = \{\sigma(i)\}$
 
 #### Proposition 3 {#top-i-s4-prop-3 .statement}
 
-Soient $X$ un ensemble, $(Y_i)_{i \in \mathbf{I}}$ une famille d’espaces topologiques, et pour chaque $i \in \mathbf{I}$, soit $f_i$ une application de $X$ dans $Y_i$. Soit $f$ l’application $x \mapsto (f_i(x))$ de $X$ dans $Y = \prod_{i \in \mathbf{I}} Y_i$, et soit $\mathcal{T}$ la topologie la moins fine sur $X$ rendant continues les $f_i$. Alors $\mathcal{T}$ est l’image réciproque par $f$ de la topologie induite sur $f(X)$ par la topologie produit sur $Y$.
+Soient $X$ un ensemble, $(Y_i)_{i \in \mathbf{I}}$ une famille d’espaces topologiques, et pour chaque $i \in \mathbf{I}$, soit $f_i$ une application de $X$ dans $Y_i$. Soit $f$ l’application $x \mapsto (f_i(x))$ de $X$ dans $Y = \prod_{i \in \mathbf{I}} Y_i$, et soit $\mathscr{T}$ la topologie la moins fine sur $X$ rendant continues les $f_i$. Alors $\mathscr{T}$ est l’image réciproque par $f$ de la topologie induite sur $f(X)$ par la topologie produit sur $Y$.
 
 C’est un autre cas particulier de la transitivité des topologies initiales (I, p. 13, prop. 5; cf. E, IV, p. 17, critère CST 15).
 
@@ -175,9 +175,9 @@ Alors la bijection canonique $g : X \to Z$ (E, III, p. 55, prop. 3) est un homé
 
 #### Proposition 9 {#top-i-s4-prop-9 .statement}
 
-Soit $I$ un ensemble préordonné filtrant à droite. Soient $(X_\alpha, f_{\alpha \beta})$ un système projectif d’espaces topologiques ayant $I$ pour ensemble d’indices, $X = \lim_{\leftarrow} X_\alpha$, $J$ une partie cofinale de $I$. La famille des ensembles $f_\alpha^{-1}(U_\alpha)$, où $\alpha$ parcourt $J$, où $f_\alpha$ est l’application canonique $X \to X_\alpha$, et où, pour chaque $\alpha \in J$, $U_\alpha$ parcourt une base $\mathcal{B}_\alpha$ de la topologie de $X_\alpha$, est une base de la topologie de $X$.
+Soit $I$ un ensemble préordonné filtrant à droite. Soient $(X_\alpha, f_{\alpha \beta})$ un système projectif d’espaces topologiques ayant $I$ pour ensemble d’indices, $X = \lim_{\leftarrow} X_\alpha$, $J$ une partie cofinale de $I$. La famille des ensembles $f_\alpha^{-1}(U_\alpha)$, où $\alpha$ parcourt $J$, où $f_\alpha$ est l’application canonique $X \to X_\alpha$, et où, pour chaque $\alpha \in J$, $U_\alpha$ parcourt une base $\mathscr{B}_\alpha$ de la topologie de $X_\alpha$, est une base de la topologie de $X$.
 
-On sait (I, p. 12) que les intersections finies d’ensembles de la forme $f_\alpha^{-1}(U_\alpha)$ ($\alpha \in I$, $U_\alpha$ ouvert dans $X_\alpha$) forment une base de la topologie de $X$. Si $(\alpha_i)_{1 \leq i \leq n}$ est une famille finie d’indices de $I$, il existe $\gamma \in J$ tel que $\alpha_i \leq \gamma$ pour $1 \leq i \leq n$, donc $f_{\alpha_i} = f_{\alpha_i \gamma} \circ f_\gamma$, et si l’on pose $V_\gamma = \bigcap_i f_{\alpha_i \gamma}^{-1}(U_{\alpha_i})$, on a $f_\gamma(V_\gamma) = \bigcap_i f_{\alpha_i}^{-1}(U_{\alpha_i})$; mais $V_\gamma$ est ouvert, donc réunion d’ensembles de $\mathcal{B}_\gamma$, d’où la proposition.
+On sait (I, p. 12) que les intersections finies d’ensembles de la forme $f_\alpha^{-1}(U_\alpha)$ ($\alpha \in I$, $U_\alpha$ ouvert dans $X_\alpha$) forment une base de la topologie de $X$. Si $(\alpha_i)_{1 \leq i \leq n}$ est une famille finie d’indices de $I$, il existe $\gamma \in J$ tel que $\alpha_i \leq \gamma$ pour $1 \leq i \leq n$, donc $f_{\alpha_i} = f_{\alpha_i \gamma} \circ f_\gamma$, et si l’on pose $V_\gamma = \bigcap_i f_{\alpha_i \gamma}^{-1}(U_{\alpha_i})$, on a $f_\gamma(V_\gamma) = \bigcap_i f_{\alpha_i}^{-1}(U_{\alpha_i})$; mais $V_\gamma$ est ouvert, donc réunion d’ensembles de $\mathscr{B}_\gamma$, d’où la proposition.
 
 #### Corollaire {#top-i-s4-n4-cor-1 .statement}
 
@@ -191,7 +191,7 @@ Pour établir (ii), il suffit de remarquer que, sans hypothèse sur $A$, on a $A
 
 #### Exemple {#top-i-s4-n4-exa-1 .statement}
 
-Soit $(X_\alpha)_{\alpha \in I}$ une famille filtrante (pour $\supseteq$) de parties d’un ensemble $Y$, et pour chaque $\alpha \in I$, soit $\mathcal{T}_\alpha$ une topologie sur $X_\alpha$, telle que pour $\alpha \leq \beta$, $\mathcal{T}_\beta$ soit plus fine que la topologie induite sur $X_\beta$ par $\mathcal{T}_\alpha$. Alors, si l’on prend pour $f_{\alpha \beta}$ l’injection canonique $X_\beta \to X_\alpha$ pour $\alpha \leq \beta$, $\lim_{\leftarrow} X_\alpha$ s’identifie canoniquement à l’intersection $X$ des $X_\alpha$ muni de la topologie borne supérieure (I, p. 13, Exemple II) des topologies induites sur $X$ par les $\mathcal{T}_\alpha$.
+Soit $(X_\alpha)_{\alpha \in I}$ une famille filtrante (pour $\supseteq$) de parties d’un ensemble $Y$, et pour chaque $\alpha \in I$, soit $\mathscr{T}_\alpha$ une topologie sur $X_\alpha$, telle que pour $\alpha \leq \beta$, $\mathscr{T}_\beta$ soit plus fine que la topologie induite sur $X_\beta$ par $\mathscr{T}_\alpha$. Alors, si l’on prend pour $f_{\alpha \beta}$ l’injection canonique $X_\beta \to X_\alpha$ pour $\alpha \leq \beta$, $\lim_{\leftarrow} X_\alpha$ s’identifie canoniquement à l’intersection $X$ des $X_\alpha$ muni de la topologie borne supérieure (I, p. 13, Exemple II) des topologies induites sur $X$ par les $\mathscr{T}_\alpha$.
 
 ## EXERCICES {#top-i-s4-exercises}
 

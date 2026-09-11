@@ -11,9 +11,9 @@ pdf_pages: 0018-0023, 0031-0031
 extraction: ocr
 statements: 5
 exercises: 2
-content_sha256: a086dd4dc7a5ff21d42133d5c8f51c9f647cae8e2a5a438c391dd08588dd18e4
+content_sha256: 3362f4559fbc08380244b41376518616be6497fd17d699bfebe24feff156b2e4
 translated_from: content/en/top/V/02_s2_measurement_of_magnitudes.md
-source_content_sha256: f069c591d5864c6d5318ca3b67c20ab746c5526dd0f4324b46149dcbc086d510
+source_content_sha256: b2cefe42ca2e7cd8da7c6ef7e8fa6809395ef59dc04889c406a4278d40d59ac6
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-66c878af
 glossary_version: 34
@@ -80,11 +80,11 @@ $$
 
 Cho (x : y) = p và (y : z) = q; khi đó y^p ≤ x và z^q ≤ y, do đó (z^q)^p được xác định và ≤ x; vì vậy nó thuộc I; do đó z^{pq} được xác định và ta có z^{pq} = (z^q)^p ≤ x, từ đó suy ra bất đẳng thức thứ nhất. Mặt khác, nếu z^{(p+1)(q+1)} được xác định, ta có z^{(p+1)(q+1)} > x, vì y^{p+1} > x và z^{q+1} > y; do đó có bất đẳng thức thứ hai.
 
-Gọi $\tilde{\mathcal{X}}$ là lọc các đoạn của tập hợp có thứ tự gồm các phần tử > ω trong I, đối với quan hệ ≥; các khoảng ]ω, z[, trong đó z chạy qua tập hợp tất cả các phần tử > ω, tạo thành một cơ sở của $\tilde{\mathcal{X}}$. Cho hai phần tử a và x của I sao cho a > ω, ta sẽ chỉ ra rằng tỉ số $\frac{(x : z)}{(a : z)}$, được xác định với z ≤ a và là một số hữu tỉ > 0,
+Gọi $\tilde{\mathscr{X}}$ là lọc các đoạn của tập hợp có thứ tự gồm các phần tử > ω trong I, đối với quan hệ ≥; các khoảng ]ω, z[, trong đó z chạy qua tập hợp tất cả các phần tử > ω, tạo thành một cơ sở của $\tilde{\mathscr{X}}$. Cho hai phần tử a và x của I sao cho a > ω, ta sẽ chỉ ra rằng tỉ số $\frac{(x : z)}{(a : z)}$, được xác định với z ≤ a và là một số hữu tỉ > 0,
 
 (*) Khi E = I là tập hợp các số nguyên tự nhiên, luật hợp thành là phép cộng, (x : y) là phần nguyên của x/y.
 
-là một hàm của $z$ có một *giới hạn* đối với $\mathfrak{F}$. Điều này là hiển nhiên nếu $x = \omega$, vì khi đó $(x : z) = 0$ với mọi $z$. Nếu $x > \omega$, ta sẽ chứng minh rằng ảnh $\mathcal{G}$ của $\mathfrak{F}$ qua ánh xạ $z \to \frac{(x : z)}{(a : z)}$ (hạn chế vào tập hợp các $z > \omega$ sao cho $\leq x$ và $\leq a$) là một cơ sở lọc Cauchy cho cấu trúc đều của nhóm *nhân* $\mathbf{R}_+^*$, và do đó hội tụ đến một số thực $> 0$. Trước hết chú ý rằng, cho $u > \omega$, $(u : z)$ có giới hạn $+\infty$ đối với $\mathfrak{F}$: vì tồn tại $z > \omega$ sao cho $z^{2^n} \leq u$, do đó $(u : z) \geq 2^n > n$. Bây giờ lấy tùy ý một số $\varepsilon > 0$; tồn tại $t > \omega$ sao cho $(x : t) \geq 1 / \varepsilon$ và $(a : t) \geq 1 / \varepsilon$. Xét bất đẳng thức kép
+là một hàm của $z$ có một *giới hạn* đối với $\mathfrak{F}$. Điều này là hiển nhiên nếu $x = \omega$, vì khi đó $(x : z) = 0$ với mọi $z$. Nếu $x > \omega$, ta sẽ chứng minh rằng ảnh $\mathscr{G}$ của $\mathfrak{F}$ qua ánh xạ $z \to \frac{(x : z)}{(a : z)}$ (hạn chế vào tập hợp các $z > \omega$ sao cho $\leq x$ và $\leq a$) là một cơ sở lọc Cauchy cho cấu trúc đều của nhóm *nhân* $\mathbf{R}_+^*$, và do đó hội tụ đến một số thực $> 0$. Trước hết chú ý rằng, cho $u > \omega$, $(u : z)$ có giới hạn $+\infty$ đối với $\mathfrak{F}$: vì tồn tại $z > \omega$ sao cho $z^{2^n} \leq u$, do đó $(u : z) \geq 2^n > n$. Bây giờ lấy tùy ý một số $\varepsilon > 0$; tồn tại $t > \omega$ sao cho $(x : t) \geq 1 / \varepsilon$ và $(a : t) \geq 1 / \varepsilon$. Xét bất đẳng thức kép
 
 $$
 \frac{(x : t)}{(a : t) + 1} \cdot \frac{(t : z)}{(t : z) + 1} \leq \frac{(x : z)}{(a : z)} \leq \frac{(x : t) + 1}{(a : t)} \cdot \frac{(t : z) + 1}{(t : z)},
@@ -96,7 +96,7 @@ $$
 \frac{1}{(1 + \varepsilon)^2} \frac{(x : t)}{(a : t)} \leq \frac{(x : z)}{(a : z)} \leq (1 + \varepsilon)^2 \frac{(x : t)}{(a : t)},
 $$
 
-điều này chứng tỏ rằng $\mathcal{G}$ là một cơ sở lọc Cauchy cho cấu trúc đều nhân.
+điều này chứng tỏ rằng $\mathscr{G}$ là một cơ sở lọc Cauchy cho cấu trúc đều nhân.
 
 Cố định một lần và mãi mãi phần tử $a > \omega$ ("đơn vị đo") và với mỗi $x \in I$ đặt
 

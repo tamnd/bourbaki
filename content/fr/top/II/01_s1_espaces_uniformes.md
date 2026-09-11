@@ -20,7 +20,7 @@ subsections:
       pdf_page: 142
 statements: 14
 exercises: 5
-content_sha256: 6288b483aef86cdb0dac40f4076086ed2473b9ef34afd6ac94d9e5de7de025f4
+content_sha256: c175959bb468914ef0938323da9b85ac9146e0dbd8841b3154342bb6597997b8
 ---
 
 ## § 1. ESPACES UNIFORMES
@@ -29,17 +29,17 @@ content_sha256: 6288b483aef86cdb0dac40f4076086ed2473b9ef34afd6ac94d9e5de7de025f4
 
 #### Définition 1 {#top-ii-s1-def-1 .statement}
 
-On appelle structure uniforme sur un ensemble $X$ une structure constituée par la donnée d’un ensemble $\mathcal{U}$ de parties de $X \times X$ qui satisfait aux axiomes $(F_I)$ et $(F_{II})$ de I, p. 36, et aux axiomes suivants :
+On appelle structure uniforme sur un ensemble $X$ une structure constituée par la donnée d’un ensemble $\mathscr{U}$ de parties de $X \times X$ qui satisfait aux axiomes $(F_I)$ et $(F_{II})$ de I, p. 36, et aux axiomes suivants :
 
-$(U_I)$ Tout ensemble de $\mathcal{U}$ contient la diagonale $\Delta$ (fig. 1).
+$(U_I)$ Tout ensemble de $\mathscr{U}$ contient la diagonale $\Delta$ (fig. 1).
 
-$(U_{II})$ La relation $V \in \mathcal{U}$ entraîne $\overline{V} \in \mathcal{U}$.
+$(U_{II})$ La relation $V \in \mathscr{U}$ entraîne $\overline{V} \in \mathscr{U}$.
 
-$(U_{III})$ Quel que soit $V \in \mathcal{U}$, il existe $W \in \mathcal{U}$ tel que $W \circ W \subset V$.
+$(U_{III})$ Quel que soit $V \in \mathscr{U}$, il existe $W \in \mathscr{U}$ tel que $W \circ W \subset V$.
 
 ![Figure 1](../images/figure_1.png)
 
-On dit que les ensembles de $\mathcal{U}$ sont les entourages de la structure uniforme définie sur $X$ par $\mathcal{U}$.
+On dit que les ensembles de $\mathscr{U}$ sont les entourages de la structure uniforme définie sur $X$ par $\mathscr{U}$.
 
 On appelle espace uniforme un ensemble muni d’une structure uniforme.
 
@@ -53,31 +53,31 @@ Pour rendre le langage plus imagé, on pourra employer les expressions « x et y
 
 La conjonction des axiomes (U_{II}) et (U_{III}) est (compte tenu des autres axiomes des structures uniformes) équivalente à l’axiome:
 
-(U_a) Quel que soit $V \in \mathcal{U}$, il existe $W \in \mathcal{U}$ tel que $W \circ \overline{W}^1 \subset V$.\footnote{Rappelons (E, II, p. 11) que si V et W sont deux parties de $X \times X$, l’ensemble noté $V \circ W$ ou VW est l’ensemble des couples $(x, y) \in X \times X$ ayant la propriété qu’il existe $z \in X$ tel que l’on ait $(x, z) \in W$ et $(z, y) \in V$; l’ensemble $\overline{V}^1$ est l’ensemble des couples $(x, y) \in X \times X$ tels que $(y, x) \in V$.}
+(U_a) Quel que soit $V \in \mathscr{U}$, il existe $W \in \mathscr{U}$ tel que $W \circ \overline{W}^1 \subset V$.\footnote{Rappelons (E, II, p. 11) que si V et W sont deux parties de $X \times X$, l’ensemble noté $V \circ W$ ou VW est l’ensemble des couples $(x, y) \in X \times X$ ayant la propriété qu’il existe $z \in X$ tel que l’on ait $(x, z) \in W$ et $(z, y) \in V$; l’ensemble $\overline{V}^1$ est l’ensemble des couples $(x, y) \in X \times X$ tels que $(y, x) \in V$.}
 
-Il est clair en effet que (U_{II}) et (U_{III}) entraînent (U_a). Inversement, si (U_a) est vérifiée, on a $\overline{W}^1 = \Delta \circ \overline{W}^1 \subset V$ d’après (U_I); donc $W \subset \overline{V}^1$, ce qui montre (compte tenu de (F_I)) que $\overline{V} \in \mathcal{U}$; d’autre part, si l’on pose $W' = W \cap \overline{W}^1$, on a $W' \in \mathcal{U}$ d’après ce qui précède et (F_{II}) et on a $W' \circ W' \subset W \circ \overline{W}^1 \subset V$.
+Il est clair en effet que (U_{II}) et (U_{III}) entraînent (U_a). Inversement, si (U_a) est vérifiée, on a $\overline{W}^1 = \Delta \circ \overline{W}^1 \subset V$ d’après (U_I); donc $W \subset \overline{V}^1$, ce qui montre (compte tenu de (F_I)) que $\overline{V} \in \mathscr{U}$; d’autre part, si l’on pose $W' = W \cap \overline{W}^1$, on a $W' \in \mathscr{U}$ d’après ce qui précède et (F_{II}) et on a $W' \circ W' \subset W \circ \overline{W}^1 \subset V$.
 
 Dans toute la suite de ce chapitre, on écrira $\overline{V}^2$ au lieu de $V \circ V$, et on posera, en général, $V^n = V \circ V = V \circ V^{n-1}$ pour tout entier $n > 1$ et toute partie V de $X \times X$.
 
 #### Remarque 3 {#top-ii-s1-n1-rem-3 .statement}
 
-Si X est non vide, l’axiome (U_I) entraîne qu’aucun ensemble de $\mathcal{U}$ n’est vide, donc que $\mathcal{U}$ est un filtre sur $X \times X$. Sur l’ensemble vide, il n’y a qu’une seule structure uniforme, ayant pour ensemble d’entourages $\mathcal{U} = \{ \varnothing \}$.
+Si X est non vide, l’axiome (U_I) entraîne qu’aucun ensemble de $\mathscr{U}$ n’est vide, donc que $\mathscr{U}$ est un filtre sur $X \times X$. Sur l’ensemble vide, il n’y a qu’une seule structure uniforme, ayant pour ensemble d’entourages $\mathscr{U} = \{ \varnothing \}$.
 
 #### Définition 2 {#top-ii-s1-def-2 .statement}
 
-On appelle système fondamental d’entourages d’une structure uniforme tout ensemble $\mathcal{B}$ d’entourages tel que tout entourage contienne un ensemble appartenant à $\mathcal{B}$.
+On appelle système fondamental d’entourages d’une structure uniforme tout ensemble $\mathscr{B}$ d’entourages tel que tout entourage contienne un ensemble appartenant à $\mathscr{B}$.
 
 L’axiome (U_{III}) montre que, si $n$ est un entier quelconque $> 0$, les ensembles $V^n$, où V parcourt un système fondamental d’entourages, forment encore un système fondamental d’entourages.
 
 Appelons entourages symétriques les entourages V d’une structure uniforme tels que $V = \overline{V}^1$; pour tout entourage V, $V \cap \overline{V}^1$ et $V \cup \overline{V}^1$ sont des entourages symétriques; les axiomes (F_{II}) et (U_{II}) montrent que les entourages symétriques forment un système fondamental d’entourages.
 
-Pour qu’un ensemble $\mathcal{B}$ de parties de $X \times X$ soit un système fondamental d’entourages d’une structure uniforme sur X, il faut et il suffit qu’il satisfasse à l’axiome (B_I) de I, p. 38, et aux axiomes suivants:
+Pour qu’un ensemble $\mathscr{B}$ de parties de $X \times X$ soit un système fondamental d’entourages d’une structure uniforme sur X, il faut et il suffit qu’il satisfasse à l’axiome (B_I) de I, p. 38, et aux axiomes suivants:
 
-(U'_I) Tout ensemble de $\mathcal{B}$ contient la diagonale $\Delta$.
+(U'_I) Tout ensemble de $\mathscr{B}$ contient la diagonale $\Delta$.
 
-(U'_{II}) Quel que soit $V \in \mathcal{B}$, il existe $V' \in \mathcal{B}$ tel que $V' \subset \overline{V}^1$.
+(U'_{II}) Quel que soit $V \in \mathscr{B}$, il existe $V' \in \mathscr{B}$ tel que $V' \subset \overline{V}^1$.
 
-(U'_{III}) Quel que soit $V \in \mathcal{B}$, il existe $W \in \mathcal{B}$ tel que $\overline{W}^2 \subset V$.
+(U'_{III}) Quel que soit $V \in \mathscr{B}$, il existe $W \in \mathscr{B}$ tel que $\overline{W}^2 \subset V$.
 
 Si X est non vide, un système fondamental d’entourages d’une structure uniforme sur X est une base du filtre des entourages de cette structure (I, p. 38, prop. 3).
 
@@ -87,7 +87,7 @@ Exemples de structures uniformes. —*1) Sur l’ensemble des nombres réels R, 
 
 3) Sur l’ensemble $\mathbf{Z}$ des entiers rationnels, on définit de la manière suivante une structure uniforme importante en Théorie des Nombres: étant donné un nombre premier $p$, on considère, pour chaque entier $n > 0$, l’ensemble $W_n$ des couples $(x, y) \in \mathbf{Z} \times \mathbf{Z}$ tels que $x \equiv y \pmod{p^n}$. On vérifie aisément que ces ensembles constituent un système fondamental d’entourages d’une structure uniforme sur $\mathbf{Z}$, dite structure $p$-adique (III, p. 82, exerc. 23 et suiv., et IX, §3, n°2).
 
-Conformément aux définitions générales (E, IV, p. 6), si X et X’ sont deux ensembles munis de structures uniformes dont les ensembles d’entourages sont respectivement $\mathcal{U}$ et $\mathcal{U}'$, une bijection f de X sur X’ est un isomorphisme de la structure uniforme de X sur celle de X’ si, en posant $g = f \times f$, on a $g(\mathcal{U}) = \mathcal{U}'$.
+Conformément aux définitions générales (E, IV, p. 6), si X et X’ sont deux ensembles munis de structures uniformes dont les ensembles d’entourages sont respectivement $\mathscr{U}$ et $\mathscr{U}'$, une bijection f de X sur X’ est un isomorphisme de la structure uniforme de X sur celle de X’ si, en posant $g = f \times f$, on a $g(\mathscr{U}) = \mathscr{U}'$.
 
 Par exemple, si X et X’ sont deux ensembles équipotents, toute bijection de X sur X’ est un isomorphisme de la structure uniforme discrète de X sur la structure uniforme discrète de X’.
 
@@ -95,13 +95,13 @@ Par exemple, si X et X’ sont deux ensembles équipotents, toute bijection de X
 
 #### Proposition 1 {#top-ii-s1-prop-1 .statement}
 
-Soit X un ensemble muni d’une structure uniforme $\mathcal{U}$. Pour tout $x \in X$, soit $\mathfrak{V}(x)$ l’ensemble des parties $V(x)$ de X, où V parcourt l’ensemble des entourages de $\mathcal{U}$; il existe sur X une topologie et une seule telle que pour tout $x \in X$, $\mathfrak{V}(x)$ soit le filtre des voisinages de x pour cette topologie.
+Soit X un ensemble muni d’une structure uniforme $\mathscr{U}$. Pour tout $x \in X$, soit $\mathfrak{V}(x)$ l’ensemble des parties $V(x)$ de X, où V parcourt l’ensemble des entourages de $\mathscr{U}$; il existe sur X une topologie et une seule telle que pour tout $x \in X$, $\mathfrak{V}(x)$ soit le filtre des voisinages de x pour cette topologie.
 
-Il faut montrer que les $\mathfrak{V}(x)$ vérifient les conditions (V_I), (V_{II}), (V_{III}) et (V_{IV}) de I, p. 3. Pour les trois premières, cela résulte aussitôt de ce que l’ensemble des entourages de $\mathcal{U}$ vérifie (F_I), (F_{II}) et (U_I). D’autre part, si V est un entourage de $\mathcal{U}$, W un entourage de $\mathcal{U}$ tel que $\overset{2}{W} \subset V$, $V(x)$ appartient à $\mathfrak{V}(y)$ pour tout $y \in W(x)$; en effet, si $(x, y) \in W$ et $(y, z) \in W$, on a $(x, z) \in \overset{2}{W} \subset V$, donc $W(y) \subset V(x)$ pour tout $y \in W(x)$, ce qui achève la démonstration.
+Il faut montrer que les $\mathfrak{V}(x)$ vérifient les conditions (V_I), (V_{II}), (V_{III}) et (V_{IV}) de I, p. 3. Pour les trois premières, cela résulte aussitôt de ce que l’ensemble des entourages de $\mathscr{U}$ vérifie (F_I), (F_{II}) et (U_I). D’autre part, si V est un entourage de $\mathscr{U}$, W un entourage de $\mathscr{U}$ tel que $\overset{2}{W} \subset V$, $V(x)$ appartient à $\mathfrak{V}(y)$ pour tout $y \in W(x)$; en effet, si $(x, y) \in W$ et $(y, z) \in W$, on a $(x, z) \in \overset{2}{W} \subset V$, donc $W(y) \subset V(x)$ pour tout $y \in W(x)$, ce qui achève la démonstration.
 
 #### Définition 3 {#top-ii-s1-def-3 .statement}
 
-On dit que la topologie définie dans la prop. 1 est la topologie déduite de la structure uniforme $\mathcal{U}$.
+On dit que la topologie définie dans la prop. 1 est la topologie déduite de la structure uniforme $\mathscr{U}$.
 
 #### Exemple 1 {#top-ii-s1-n2-exa-1 .statement}
 
@@ -134,19 +134,19 @@ $$
 V(x) \times V(y) \subset U(x) \times U'(y).
 $$
 
-Dire que $V(x) \times V(y)$ rencontre $M$ pour tout $V \in \mathcal{S}$ signifie donc que $(x, y) \in \overline{M}$, d’où la formule (1).
+Dire que $V(x) \times V(y)$ rencontre $M$ pour tout $V \in \mathscr{S}$ signifie donc que $(x, y) \in \overline{M}$, d’où la formule (1).
 
 #### Corollaire 1 {#top-ii-s1-prop-2-cor-1 .statement}
 
 *Pour toute partie A de X et tout entourage symétrique V de X, V(A) est un voisinage de A dans X, et l’on a*
 
 $$
-\overline{A} = \bigcap_{V \in \mathcal{S}} V(A) = \bigcap_{V \in \mathfrak{U}} V(A)
+\overline{A} = \bigcap_{V \in \mathscr{S}} V(A) = \bigcap_{V \in \mathfrak{U}} V(A)
 $$
 
 (* désignant l’ensemble des entourages de X).
 
-En effet, si on pose $M = A \times A$, on a $VMV = V(A) \times V(A)$ pour $V \in \mathcal{S}$, car la relation « il existe $p \in A$ tel que $(x, p) \in V$ » équivaut à $x \in V(A)$ par définition. On en conclut le corollaire, en vertu de I, p. 26, prop. 5 et I, p. 27, prop. 7.
+En effet, si on pose $M = A \times A$, on a $VMV = V(A) \times V(A)$ pour $V \in \mathscr{S}$, car la relation « il existe $p \in A$ tel que $(x, p) \in V$ » équivaut à $x \in V(A)$ par définition. On en conclut le corollaire, en vertu de I, p. 26, prop. 5 et I, p. 27, prop. 7.
 
 On dit que $V(A)$ est le *voisinage d’ordre* $V$ de $A$.
 

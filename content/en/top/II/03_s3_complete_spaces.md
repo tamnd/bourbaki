@@ -49,7 +49,7 @@ subsections:
       pdf_page: 203
 statements: 48
 exercises: 7
-content_sha256: 232491995dad2d38e271fdef9aa25a33a8ab6f368bd8135e733114819a6670d7
+content_sha256: f0f430e068ab36d388f79a4dc45b05c0a5ae4f0df6c71b620216591dc3ddf996
 ---
 
 ## 3. COMPLETE SPACES
@@ -70,7 +70,7 @@ Let $x$ and $y$ be any two points of $A \cup B$, and let $Z \in A \cap B$. Then 
 
 #### Definition 2 {#top-ii-s3-def-2 .statement}
 
-*A filter $\mathcal{F}$ on a uniform space $X$ is a Cauchy filter if for each entourage $V$ of $X$ there is a subset of $X$ which is $V$-small and belongs to $\mathcal{F}$.*
+*A filter $\mathscr{F}$ on a uniform space $X$ is a Cauchy filter if for each entourage $V$ of $X$ there is a subset of $X$ which is $V$-small and belongs to $\mathscr{F}$.*
 
 Here again we may make our language more expressive by the use of the expressions "sufficiently small set" and "a set as small as we please"; thus Definition 2 can be restated by saying that a Cauchy filter is one containing *arbitrarily small sets*.
 
@@ -80,7 +80,7 @@ An infinite sequence $(u_n)$ of points of a uniform space $X$ is said to be a *C
 
 *On a uniform space $X$ every convergent filter is a Cauchy filter.*
 
-If $x$ is any point of $X$ and $V$ is any symmetric entourage of $X$, then the neighbourhood $V(x)$ of $x$ is $\overline{V}$-small. If $\mathcal{F}$ is a filter which converges to $x$, there is a set of $\mathcal{F}$ contained in $V(x)$, and therefore $V$-small.
+If $x$ is any point of $X$ and $V$ is any symmetric entourage of $X$, then the neighbourhood $V(x)$ of $x$ is $\overline{V}$-small. If $\mathscr{F}$ is a filter which converges to $x$, there is a set of $\mathscr{F}$ contained in $V(x)$, and therefore $V$-small.
 
 Clearly every filter which is *finer* than a Cauchy filter is a Cauchy filter.
 
@@ -96,9 +96,9 @@ This fact can be easily remembered in the following form: *the finer the uniform
 
 #### Proposition 4 {#top-ii-s3-prop-4 .statement}
 
-*Let $X$ be a set, let $(Y_i)_{i \in I}$ be a family of uniform spaces, and for each $i \in I$ let $f_i$ be a mapping of $X$ into $Y_i$. Let $X$ carry the coarsest uniformity $U$ for which the $f_i$ are uniformly continuous. Then in order that a filter base $\mathcal{B}$ on $X$ should be a Cauchy filter base it is necessary and sufficient that $f_i(\mathcal{B})$ should be a Cauchy filter base on $Y_i$, for each $i \in I$.*
+*Let $X$ be a set, let $(Y_i)_{i \in I}$ be a family of uniform spaces, and for each $i \in I$ let $f_i$ be a mapping of $X$ into $Y_i$. Let $X$ carry the coarsest uniformity $U$ for which the $f_i$ are uniformly continuous. Then in order that a filter base $\mathscr{B}$ on $X$ should be a Cauchy filter base it is necessary and sufficient that $f_i(\mathscr{B})$ should be a Cauchy filter base on $Y_i$, for each $i \in I$.*
 
-The condition is necessary by Proposition 3. Conversely, suppose that it is satisfied, and let $U(V_{i_1}, \ldots, V_{i_n})$ be an entourage of the uniformity $\mathcal{U}$ [§ 2, no. 3, formula (1)]. By hypothesis, for each index $k$ there is a set $M_k \in \mathcal{B}$ such that $f_{i_k}(M_k)$ is $V_{i_k}$-small ($1 \leq k \leq n$). Let $M$ be a set of $\mathcal{B}$ contained in $M_k$ for $1 \leq k \leq n$; then for each pair of points $x, x'$ of $M$ we have $[f_{i_k}(x), f_{i_k}(x')] \in V_{i_k}$ for $1 \leq k \leq n$, so that
+The condition is necessary by Proposition 3. Conversely, suppose that it is satisfied, and let $U(V_{i_1}, \ldots, V_{i_n})$ be an entourage of the uniformity $\mathscr{U}$ [§ 2, no. 3, formula (1)]. By hypothesis, for each index $k$ there is a set $M_k \in \mathscr{B}$ such that $f_{i_k}(M_k)$ is $V_{i_k}$-small ($1 \leq k \leq n$). Let $M$ be a set of $\mathscr{B}$ contained in $M_k$ for $1 \leq k \leq n$; then for each pair of points $x, x'$ of $M$ we have $[f_{i_k}(x), f_{i_k}(x')] \in V_{i_k}$ for $1 \leq k \leq n$, so that
 $$
 (x, x') \in U(V_{i_1}, \ldots, V_{i_n}).
 $$
@@ -110,7 +110,7 @@ This completes the proof.
 
 #### Corollary 2 {#top-ii-s3-prop-4-cor-2 .statement}
 
-*A filter base $\mathcal{B}$ on a product $\prod_{i \in I} X_i$ of uniform spaces is a Cauchy filter base if and only if, for each $i \in I$, $\operatorname{pr}_i(\mathcal{B})$ is a Cauchy filter base on $X_i$.*
+*A filter base $\mathscr{B}$ on a product $\prod_{i \in I} X_i$ of uniform spaces is a Cauchy filter base if and only if, for each $i \in I$, $\operatorname{pr}_i(\mathscr{B})$ is a Cauchy filter base on $X_i$.*
 
 ### 2. MINIMAL CAUCHY FILTERS
 
@@ -118,21 +118,21 @@ The minimal elements (with respect to inclusion) of the set of Cauchy filters on
 
 #### Proposition 5 {#top-ii-s3-prop-5 .statement}
 
-*Let $X$ be a uniform space. For each Cauchy filter $\mathfrak{F}$ on $X$ there is a unique minimal Cauchy filter $\mathfrak{F}_0$ coarser than $\mathfrak{F}$. If $\mathcal{B}$ is a base of $\mathfrak{F}$ and $\mathcal{G}$ is a fundamental system of symmetric entourages of $X$, then the sets $V(M)$ ($M \in \mathcal{B}, V \in \mathcal{G}$) form a base of $\mathfrak{F}_0$.
+*Let $X$ be a uniform space. For each Cauchy filter $\mathfrak{F}$ on $X$ there is a unique minimal Cauchy filter $\mathfrak{F}_0$ coarser than $\mathfrak{F}$. If $\mathscr{B}$ is a base of $\mathfrak{F}$ and $\mathscr{G}$ is a fundamental system of symmetric entourages of $X$, then the sets $V(M)$ ($M \in \mathscr{B}, V \in \mathscr{G}$) form a base of $\mathfrak{F}_0$.
 
-If $M, M'$ are in $\mathcal{B}$ and $V, V'$ are in $\mathcal{G}$, then there is a set $M'' \in \mathcal{B}$ (resp. $V'' \in \mathcal{G}$) such that $M'' \subset M \cap M'$ (resp. $V'' \subset V \cap V'$); hence $V''(M'') \subset V(M) \cap V'(M')$ and therefore the sets $V(M)$ ($M \in \mathcal{B}, V \in \mathcal{G}$) indeed form a base of a filter $\mathfrak{F}_0$ on $X$. Further, if $M$ is $V$-small, then $V(M)$ is $V$-small; hence $\mathfrak{F}_0$ is a Cauchy filter and is clearly coarser than $\mathfrak{F}$. To complete the proof it is enough to show that if $\mathfrak{G}$ is a Cauchy filter coarser than $\mathfrak{F}$, then $\mathfrak{G}$ is finer than $\mathfrak{F}_0$. For each $M \in \mathcal{B}$ and each $V \in \mathcal{G}$ there is a set $N \in \mathcal{G}$ which is $V$-small; since $N \in \mathfrak{F}$, $N$ meets $M$; hence $N \subset V(M)$ and so $V(M) \in \mathfrak{G}$.
+If $M, M'$ are in $\mathscr{B}$ and $V, V'$ are in $\mathscr{G}$, then there is a set $M'' \in \mathscr{B}$ (resp. $V'' \in \mathscr{G}$) such that $M'' \subset M \cap M'$ (resp. $V'' \subset V \cap V'$); hence $V''(M'') \subset V(M) \cap V'(M')$ and therefore the sets $V(M)$ ($M \in \mathscr{B}, V \in \mathscr{G}$) indeed form a base of a filter $\mathfrak{F}_0$ on $X$. Further, if $M$ is $V$-small, then $V(M)$ is $V$-small; hence $\mathfrak{F}_0$ is a Cauchy filter and is clearly coarser than $\mathfrak{F}$. To complete the proof it is enough to show that if $\mathfrak{G}$ is a Cauchy filter coarser than $\mathfrak{F}$, then $\mathfrak{G}$ is finer than $\mathfrak{F}_0$. For each $M \in \mathscr{B}$ and each $V \in \mathscr{G}$ there is a set $N \in \mathscr{G}$ which is $V$-small; since $N \in \mathfrak{F}$, $N$ meets $M$; hence $N \subset V(M)$ and so $V(M) \in \mathfrak{G}$.
 
 #### Corollary 1 {#top-ii-s3-prop-5-cor-1 .statement}
 
-*For each $x \in X$, the neighbourhood filter $\mathcal{B}(x)$ of $x$ in $X$ is a minimal Cauchy filter.*
+*For each $x \in X$, the neighbourhood filter $\mathscr{B}(x)$ of $x$ in $X$ is a minimal Cauchy filter.*
 
-Take $\mathfrak{F}$ in Proposition 5 to be the filter of all subsets of $X$ which contain $x$, and take $\mathcal{B}$ to consist of the single element $\{x\}$.
+Take $\mathfrak{F}$ in Proposition 5 to be the filter of all subsets of $X$ which contain $x$, and take $\mathscr{B}$ to consist of the single element $\{x\}$.
 
 #### Corollary 2 {#top-ii-s3-prop-5-cor-2 .statement}
 
 *Every cluster point* $x$ *of a Cauchy filter* $\mathfrak{F}$ *is a limit point of* $\mathfrak{F}$.
 
-There is a filter $\mathcal{G}$ which is finer than both $\mathfrak{F}$ and $\mathcal{B}(x)$ (Chapter I, § 7, no. 2, Proposition 4); since $\mathfrak{F}$ is a Cauchy filter, so is $\mathcal{G}$. If $\mathfrak{F}_0$ is the unique minimal Cauchy filter coarser than $\mathfrak{F}$, then both $\mathfrak{F}_0$ and $\mathcal{B}(x)$ are minimal Cauchy filters coarser than $\mathcal{G}$. Hence $\mathfrak{F}_0 = \mathcal{B}(x)$, which shows that $\mathfrak{F}$ converges to $x$.
+There is a filter $\mathscr{G}$ which is finer than both $\mathfrak{F}$ and $\mathscr{B}(x)$ (Chapter I, § 7, no. 2, Proposition 4); since $\mathfrak{F}$ is a Cauchy filter, so is $\mathscr{G}$. If $\mathfrak{F}_0$ is the unique minimal Cauchy filter coarser than $\mathfrak{F}$, then both $\mathfrak{F}_0$ and $\mathscr{B}(x)$ are minimal Cauchy filters coarser than $\mathscr{G}$. Hence $\mathfrak{F}_0 = \mathscr{B}(x)$, which shows that $\mathfrak{F}$ converges to $x$.
 
 #### Corollary 3 {#top-ii-s3-prop-5-cor-3 .statement}
 
@@ -174,7 +174,7 @@ Cauchy filter with respect to this uniformity. For if $(A_i)$ is a finite partit
 $$
 V = \bigcup_i (A_i \times A_i)
 $$
-the corresponding entourage, then at least one of the $A_i$ belongs to $\mathcal{F}$ (Chapter I, § 6, no. 4, Corollary to Proposition 5), and $A_i$ is V-small. On the other hand, $X$ is an infinite discrete space, hence is not compact, and consequently there are ultrafilters on $X$ which do not converge.
+the corresponding entourage, then at least one of the $A_i$ belongs to $\mathscr{F}$ (Chapter I, § 6, no. 4, Corollary to Proposition 5), and $A_i$ is V-small. On the other hand, $X$ is an infinite discrete space, hence is not compact, and consequently there are ultrafilters on $X$ which do not converge.
 
 #### Definition 3 {#top-ii-s3-def-3 .statement}
 
@@ -190,7 +190,7 @@ From Definitions 2 and 3 of no. 1 and Proposition 2 of no. 1, we deduce the foll
 
 #### Proposition 6 {#top-ii-s3-prop-6 .statement}
 
-*Let $\mathcal{F}$ be a filter on a set $X$, and let $f$ be a mapping of $X$ into a complete uniform space $X'$. Then $f$ has a limit with respect to $\mathcal{F}$ if and only if the image of $\mathcal{F}$ under $f$ is a Cauchy filter base.*
+*Let $\mathscr{F}$ be a filter on a set $X$, and let $f$ be a mapping of $X$ into a complete uniform space $X'$. Then $f$ has a limit with respect to $\mathscr{F}$ if and only if the image of $\mathscr{F}$ under $f$ is a Cauchy filter base.*
 
 This criterion shows the importance of complete spaces in all questions involving the notion of limit: if a function takes its values in a complete space we can prove the *existence* of a limit *without knowing in advance the value of the limit*; this would be impossible if the definition of limit were the only criterion of convergence at our disposal.
 
@@ -198,17 +198,17 @@ A uniformity which is *finer* than the uniformity of a complete space need not b
 
 #### Proposition 7 {#top-ii-s3-prop-7 .statement}
 
-*Let $\mathcal{U}_1, \mathcal{U}_2$ be two uniformities on a set $X$, and let $\mathcal{T}_1, \mathcal{T}_2$ be the topologies induced by these uniformities respectively. Suppose that $\mathcal{U}_1$ is finer than $\mathcal{U}_2$, and that there is a fundamental system of entourages for $\mathcal{U}_1$ which are closed in $X \times X$ in the topology $\mathcal{T}_2 \times \mathcal{T}_2$. Then a filter $\mathcal{F}$ on $X$ converges in the topology $\mathcal{T}_1$ if and only if it is a Cauchy filter in the uniformity $\mathcal{U}_1$ and converges in the topology $\mathcal{T}_2$.*
+*Let $\mathscr{U}_1, \mathscr{U}_2$ be two uniformities on a set $X$, and let $\mathscr{T}_1, \mathscr{T}_2$ be the topologies induced by these uniformities respectively. Suppose that $\mathscr{U}_1$ is finer than $\mathscr{U}_2$, and that there is a fundamental system of entourages for $\mathscr{U}_1$ which are closed in $X \times X$ in the topology $\mathscr{T}_2 \times \mathscr{T}_2$. Then a filter $\mathscr{F}$ on $X$ converges in the topology $\mathscr{T}_1$ if and only if it is a Cauchy filter in the uniformity $\mathscr{U}_1$ and converges in the topology $\mathscr{T}_2$.*
 
-The conditions are clearly necessary, because $\mathcal{T}_2$ is coarser than $\mathcal{T}_1$. Conversely, suppose that the conditions are satisfied, and let $x$ be a limit point of $\mathcal{F}$ with respect to $\mathcal{T}_2$; we shall show that $x$ is a limit of $\mathcal{F}$ with respect to $\mathcal{T}_1$. Let $V$ be a symmetric entourage of $\mathcal{U}_1$ which is closed in the topology $\mathcal{T}_2 \times \mathcal{T}_2$. By hypothesis, $\mathcal{F}$ contains a set $M$ which is V-small; hence if $x' \in M$ we have $M \subset V(x')$. But $V(x')$ is closed in the topology $\mathcal{T}_2$; hence $x$, which lies in the closure of $M$ with respect to $\mathcal{T}_2$, must belong to $V(x')$. It follows that $M \subset \hat{V}(x)$, and the proposition is proved.
+The conditions are clearly necessary, because $\mathscr{T}_2$ is coarser than $\mathscr{T}_1$. Conversely, suppose that the conditions are satisfied, and let $x$ be a limit point of $\mathscr{F}$ with respect to $\mathscr{T}_2$; we shall show that $x$ is a limit of $\mathscr{F}$ with respect to $\mathscr{T}_1$. Let $V$ be a symmetric entourage of $\mathscr{U}_1$ which is closed in the topology $\mathscr{T}_2 \times \mathscr{T}_2$. By hypothesis, $\mathscr{F}$ contains a set $M$ which is V-small; hence if $x' \in M$ we have $M \subset V(x')$. But $V(x')$ is closed in the topology $\mathscr{T}_2$; hence $x$, which lies in the closure of $M$ with respect to $\mathscr{T}_2$, must belong to $V(x')$. It follows that $M \subset \hat{V}(x)$, and the proposition is proved.
 
 #### Corollary {#top-ii-s3-n3-cor-1 .statement}
 
 In the conditions of Proposition 7, if $U_2$ is a uniformity of a complete space, then so is $U_1$.
 
-For every Cauchy filter with respect to $U_1$ is then a Cauchy filter with respect to $U_2$ and therefore converges in the topology $\mathcal{T}_2$.
+For every Cauchy filter with respect to $U_1$ is then a Cauchy filter with respect to $U_2$ and therefore converges in the topology $\mathscr{T}_2$.
 
-Note that the hypotheses of the Corollary to Proposition 7 are satisfied when $\mathcal{T}_1 = \mathcal{T}_2$ (§ 1, no. 2, Corollary 2 to Proposition 2).
+Note that the hypotheses of the Corollary to Proposition 7 are satisfied when $\mathscr{T}_1 = \mathscr{T}_2$ (§ 1, no. 2, Corollary 2 to Proposition 2).
 
 ### 4. SUBSPACES OF COMPLETE SPACES
 
@@ -381,32 +381,32 @@ It should be remarked that if $f$ is a *bijective* uniformly continuous mapping 
 
 *If $(i_1, X_1)$ is another pair consisting of a complete Hausdorff uniform space $X_1$ and a uniformly continuous mapping $i_1 : X \to X_1$ having the property (P), then there is a unique isomorphism $\varphi : \hat{X} \to X_1$ such that $i_1 = \varphi \circ i$.*
 
-1) Definition of $\hat{X}$. Let $\hat{X}$ be the set of minimal Cauchy filters (no. 2) on $X$. We shall define a uniform structure on $\hat{X}$. For this purpose, if $V$ is any symmetric entourage of $X$, let $\tilde{V}$ denote the set of all pairs $(\mathcal{K}, \mathcal{Y})$ of minimal Cauchy filters which have in common a $V$-small set. We shall show that the sets $\tilde{V}$ form a fundamental system of entourages of a uniform structure on $\hat{X}$:
+1) Definition of $\hat{X}$. Let $\hat{X}$ be the set of minimal Cauchy filters (no. 2) on $X$. We shall define a uniform structure on $\hat{X}$. For this purpose, if $V$ is any symmetric entourage of $X$, let $\tilde{V}$ denote the set of all pairs $(\mathscr{K}, \mathscr{Y})$ of minimal Cauchy filters which have in common a $V$-small set. We shall show that the sets $\tilde{V}$ form a fundamental system of entourages of a uniform structure on $\hat{X}$:
 
-(i) Since each $\mathcal{K} \in \hat{X}$ is a Cauchy filter, we have by definition $(\mathcal{K}, \mathcal{K}) \in \tilde{V}$ for every symmetric entourage $V$ of $X$; hence axiom $(U'_1)$ is satisfied.
+(i) Since each $\mathscr{K} \in \hat{X}$ is a Cauchy filter, we have by definition $(\mathscr{K}, \mathscr{K}) \in \tilde{V}$ for every symmetric entourage $V$ of $X$; hence axiom $(U'_1)$ is satisfied.
 
 (ii) If $V$ and $V'$ are two symmetric entourages of $X$, then $W = V \cap V'$ is a symmetric entourage, and every set which is $W$-small is also $V$-small and $V'$-small; hence $\tilde{W} \subset \tilde{V} \cap \tilde{V}'$, which prove $(B_1)$.
 
 (iii) The sets $\tilde{V}$ are symmetric by definition, hence $(U''_1)$ is satisfied.
 
-(iv) Given a symmetric entourage $V$ of $X$, let $W$ be a symmetric entourage such that $\tilde{V} \subset V$. Consider three minimal Cauchy filters $\mathcal{K}, \mathcal{Y}, \mathcal{B}$ such that $(\mathcal{K}, \mathcal{Y}) \in \tilde{W}$ and $(\mathcal{Y}, \mathcal{B}) \in \tilde{W}$; then there are two $W$-small sets $M, N$ such that $M \in \mathcal{K} \cap \mathcal{Y}$ and $N \in \mathcal{Y} \cap \mathcal{B}$. Since $M$ and $N$ belong to $\mathcal{Y}$, $M \cap N$ is not empty and therefore (no. 1, Proposition 1) $M \cup N$ is $\tilde{W}$-small and hence $V$-small; since $M \cup N$ belongs to $\mathcal{K}$ and to $\mathcal{B}$ we have $\tilde{W} \subset \tilde{V}$; hence $(U'''_1)$ is satisfied.
+(iv) Given a symmetric entourage $V$ of $X$, let $W$ be a symmetric entourage such that $\tilde{V} \subset V$. Consider three minimal Cauchy filters $\mathscr{K}, \mathscr{Y}, \mathscr{B}$ such that $(\mathscr{K}, \mathscr{Y}) \in \tilde{W}$ and $(\mathscr{Y}, \mathscr{B}) \in \tilde{W}$; then there are two $W$-small sets $M, N$ such that $M \in \mathscr{K} \cap \mathscr{Y}$ and $N \in \mathscr{Y} \cap \mathscr{B}$. Since $M$ and $N$ belong to $\mathscr{Y}$, $M \cap N$ is not empty and therefore (no. 1, Proposition 1) $M \cup N$ is $\tilde{W}$-small and hence $V$-small; since $M \cup N$ belongs to $\mathscr{K}$ and to $\mathscr{B}$ we have $\tilde{W} \subset \tilde{V}$; hence $(U'''_1)$ is satisfied.
 
-We show next that the uniform space $\hat{X}$ is Hausdorff. Let $\mathcal{K}, \mathcal{Y}$ be two minimal Cauchy filters on $X$ such that $(\mathcal{K}, \mathcal{Y}) \in \hat{X}$ for all symmetric entourages $V$ of $X$. It follows immediately that the sets $M \cup N$, where $M \in \mathcal{K}$ and $N \in \mathcal{Y}$, form a base of a filter $\mathcal{B}$ coarser than $\mathcal{K}$ and $\mathcal{Y}$. Now $\mathcal{B}$ is a Cauchy filter, since for every symmetric entourage $V$ of $X$ there is by hypothesis a $V$-small set $P$ belonging to both $\mathcal{K}$ and $\mathcal{Y}$ and therefore belonging to $\mathcal{B}$. By the definition of minimal Cauchy filters, we have $\mathcal{K} = \mathcal{B} = \mathcal{Y}$, and this shows that $\hat{X}$ is Hausdorff.
+We show next that the uniform space $\hat{X}$ is Hausdorff. Let $\mathscr{K}, \mathscr{Y}$ be two minimal Cauchy filters on $X$ such that $(\mathscr{K}, \mathscr{Y}) \in \hat{X}$ for all symmetric entourages $V$ of $X$. It follows immediately that the sets $M \cup N$, where $M \in \mathscr{K}$ and $N \in \mathscr{Y}$, form a base of a filter $\mathscr{B}$ coarser than $\mathscr{K}$ and $\mathscr{Y}$. Now $\mathscr{B}$ is a Cauchy filter, since for every symmetric entourage $V$ of $X$ there is by hypothesis a $V$-small set $P$ belonging to both $\mathscr{K}$ and $\mathscr{Y}$ and therefore belonging to $\mathscr{B}$. By the definition of minimal Cauchy filters, we have $\mathscr{K} = \mathscr{B} = \mathscr{Y}$, and this shows that $\hat{X}$ is Hausdorff.
 
 2) Definition of $i$; the uniform structure of $X$ is the inverse image under $i$ of that of $\hat{X}$. We know that for each $x \in X$ the neighbourhood filter $\mathfrak{B}(x)$ of $x$ in $X$ is a minimal Cauchy filter (no. 2, Proposition 5, Corollary 1). So we define $i(x) = \mathfrak{B}(x)$. Let $f = i \times i$; we shall show that for each symmetric entourage $V$ of $X$ we have $j^{-1}(\tilde{V}) \subset V \cup j^{-1}[(\tilde{V})^3]$, and this will prove our assertion (§ 2, no. 4). Now, if $[i(x), i(y)] \in \tilde{V}$, there is a $V$-small set $M$ which is a neighbourhood of each of $x$ and $y$, hence $(x, y) \in V$. Conversely, if $(x, y) \in V$, it is immediately seen that the set $V(x) \cup V(y)$ is $V$-small and is a neighbourhood of each of $x$ and $y$.
 
-3) $\hat{X}$ is complete and $i(X)$ is dense in $\hat{X}$. The trace on $i(X)$ of a neighbourhood $\tilde{V}(\mathcal{X})$ of a point $\mathcal{X} \in X$ is the set of all $i(x)$ such that
+3) $\hat{X}$ is complete and $i(X)$ is dense in $\hat{X}$. The trace on $i(X)$ of a neighbourhood $\tilde{V}(\mathscr{X})$ of a point $\mathscr{X} \in X$ is the set of all $i(x)$ such that
 
 $$
-(\mathcal{X}, i(x)) \in \tilde{V}.
+(\mathscr{X}, i(x)) \in \tilde{V}.
 $$
 
-This relation means that there is a $V$-small neighbourhood of $x$ in $X$ which belongs to $\mathcal{X}$, i.e. that $x$ is an interior point of a $V$-small set of $\mathcal{X}$. Let $M$ be the union of the interiors of all $V$-small sets of $\mathcal{X}$; then $M$ belongs to $\mathcal{X}$ (no. 2, Proposition 5, Corollary 4) and from what has been said it follows that $\tilde{V}(\mathcal{X}) \cap i(X) = i(M)$. We conclude that:
+This relation means that there is a $V$-small neighbourhood of $x$ in $X$ which belongs to $\mathscr{X}$, i.e. that $x$ is an interior point of a $V$-small set of $\mathscr{X}$. Let $M$ be the union of the interiors of all $V$-small sets of $\mathscr{X}$; then $M$ belongs to $\mathscr{X}$ (no. 2, Proposition 5, Corollary 4) and from what has been said it follows that $\tilde{V}(\mathscr{X}) \cap i(X) = i(M)$. We conclude that:
 
-(i) $\tilde{V}(\mathcal{X}) \cap i(X)$ is not empty, hence $i(X)$ is dense in $\hat{X}$.
-(ii) The trace of $\tilde{V}(\mathcal{X})$ on $i(X)$ belongs to the filter base $i(\mathcal{X})$ on $X$; hence this filter base converges in $\hat{X}$ to the point $\mathcal{X}$.
+(i) $\tilde{V}(\mathscr{X}) \cap i(X)$ is not empty, hence $i(X)$ is dense in $\hat{X}$.
+(ii) The trace of $\tilde{V}(\mathscr{X})$ on $i(X)$ belongs to the filter base $i(\mathscr{X})$ on $X$; hence this filter base converges in $\hat{X}$ to the point $\mathscr{X}$.
 
-Now let $\mathfrak{F}$ be a Cauchy filter on $i(X)$; then from 2) above and Proposition 4 of no. 1, $\overline{i^1}(\mathfrak{F})$ is a base of a Cauchy filter $\mathfrak{G}$ on $X$. Let $\mathcal{X}$ be a minimal Cauchy filter coarser than $\mathfrak{G}$ (no. 2, Proposition 5); then $i(\mathcal{X})$ is a Cauchy filter base on $i(X)$ (no. 1, Proposition 3), and $\mathfrak{F} = i[\overline{i^1}(\mathfrak{F})]$ is finer than the filter whose base is $i(\mathcal{X})$. Since the latter converges in $\hat{X}$, so does $\mathfrak{F}$, and Proposition 9 of no. 4 therefore shows that $\hat{X}$ is complete.
+Now let $\mathfrak{F}$ be a Cauchy filter on $i(X)$; then from 2) above and Proposition 4 of no. 1, $\overline{i^1}(\mathfrak{F})$ is a base of a Cauchy filter $\mathfrak{G}$ on $X$. Let $\mathscr{X}$ be a minimal Cauchy filter coarser than $\mathfrak{G}$ (no. 2, Proposition 5); then $i(\mathscr{X})$ is a Cauchy filter base on $i(X)$ (no. 1, Proposition 3), and $\mathfrak{F} = i[\overline{i^1}(\mathfrak{F})]$ is finer than the filter whose base is $i(\mathscr{X})$. Since the latter converges in $\hat{X}$, so does $\mathfrak{F}$, and Proposition 9 of no. 4 therefore shows that $\hat{X}$ is complete.
 
 4) Verification of the property (P). Let $f$ be a uniformly continuous mapping of $X$ into a complete Hausdorff uniform space $Y$. Let us first show that there is a unique uniformly continuous mapping $g_0 : i(X) \to Y$ such that $f = g_0 \circ i$. Since $f$ is continuous, we have
 
@@ -463,9 +463,9 @@ For every uniformly continuous mapping of X into a complete Hausdorff uniform sp
 
 #### Proposition 14 {#top-ii-s3-prop-14 .statement}
 
-*Let X be a complete Hausdorff uniform space, $\mathcal{U}$ its uniformity, and let Z be a dense subspace of X. If $\mathcal{U}'$ is a uniformity on X which is coarser than $\mathcal{U}$ and which induces the same uniformity as $\mathcal{U}$ on Z, then $\mathcal{U} = \mathcal{U}'$.*
+*Let X be a complete Hausdorff uniform space, $\mathscr{U}$ its uniformity, and let Z be a dense subspace of X. If $\mathscr{U}'$ is a uniformity on X which is coarser than $\mathscr{U}$ and which induces the same uniformity as $\mathscr{U}$ on Z, then $\mathscr{U} = \mathscr{U}'$.*
 
-Let X' denote the set X with the uniformity $\mathcal{U}'$. The composition of the canonical mapping $X' \to \hat{X}'$ and the identity mapping $X \to X'$ is a uniformly continuous mapping $\varphi : X \to \hat{X}'$. Since Z is Hausdorff for the uniform structure induced by $\mathcal{U}'$, the restriction of $\varphi$ to Z is by hypothesis an isomorphism of Z onto the dense subspace $\varphi(Z)$ of $\hat{X}'$; it follows (no. 6, Corollary to Theorem 2) that $\varphi$ itself is an isomorphism of X onto $\hat{X}'$, hence $X' = \hat{X}'$ and $\mathcal{U}' = \mathcal{U}$.
+Let X' denote the set X with the uniformity $\mathscr{U}'$. The composition of the canonical mapping $X' \to \hat{X}'$ and the identity mapping $X \to X'$ is a uniformly continuous mapping $\varphi : X \to \hat{X}'$. Since Z is Hausdorff for the uniform structure induced by $\mathscr{U}'$, the restriction of $\varphi$ to Z is by hypothesis an isomorphism of Z onto the dense subspace $\varphi(Z)$ of $\hat{X}'$; it follows (no. 6, Corollary to Theorem 2) that $\varphi$ itself is an isomorphism of X onto $\hat{X}'$, hence $X' = \hat{X}'$ and $\mathscr{U}' = \mathscr{U}$.
 
 #### Proposition 15 {#top-ii-s3-prop-15 .statement}
 
@@ -555,7 +555,7 @@ $$
 
 commutative (*i* being the canonical mapping).
 
-The transitivity of initial uniformities (§ 2, no. 3, Proposition 5) shows on the one hand that $\mathcal{U}$ is the coarsest uniformity for which the mappings $j_\lambda \circ f_\lambda : X \to Y'_\lambda$ are uniformly continuous, and on the other hand that $\mathcal{U}$ is also the inverse image under $i$ of the coarsest uniformity $\mathcal{U}'$ on the set $X'$ for which the $f'_\lambda$ are uniformly continuous. Now $\mathcal{U}'$ is *Hausdorff*, for if $x_1, x_2$ are two points of $X$ such that $j_\lambda(f_\lambda(x_1)) = j_\lambda(f_\lambda(x_2))$ for each $\lambda \in L$, then $(x_1, x_2)$ belongs to all the entourages of $\mathcal{U}$ and hence $i(x_1) = i(x_2)$. Proposition 17 of no. 8 therefore shows that $\mathcal{U}'$ is the uniformity of the Hausdorff space $X'$ associated with $X$.
+The transitivity of initial uniformities (§ 2, no. 3, Proposition 5) shows on the one hand that $\mathscr{U}$ is the coarsest uniformity for which the mappings $j_\lambda \circ f_\lambda : X \to Y'_\lambda$ are uniformly continuous, and on the other hand that $\mathscr{U}$ is also the inverse image under $i$ of the coarsest uniformity $\mathscr{U}'$ on the set $X'$ for which the $f'_\lambda$ are uniformly continuous. Now $\mathscr{U}'$ is *Hausdorff*, for if $x_1, x_2$ are two points of $X$ such that $j_\lambda(f_\lambda(x_1)) = j_\lambda(f_\lambda(x_2))$ for each $\lambda \in L$, then $(x_1, x_2)$ belongs to all the entourages of $\mathscr{U}$ and hence $i(x_1) = i(x_2)$. Proposition 17 of no. 8 therefore shows that $\mathscr{U}'$ is the uniformity of the Hausdorff space $X'$ associated with $X$.
 
 This being so, the bijection $x' \to (f'_\lambda(x'))$ identifies $X$ with a uniform subspace of the product $\prod_\lambda Y'_\lambda$ (§ 2, no. 6, Proposition 8). Since the $Y'_\lambda$ are Hausdorff, each $Y'_\lambda$ can be identified with a dense subspace of its completion $\hat{Y}_\lambda$, and hence $\prod_\lambda Y'_\lambda$ can be identified with a dense subspace of $\prod_\lambda \hat{Y}_\lambda$ (Chapter I, § 4, no. 3, Proposition 7). But $\prod_\lambda \hat{Y}_\lambda$ is Hausdorff and complete (no. 5, Proposition 10); the closure $\overline{X'}$ of $X'$ in $\prod_\lambda \hat{Y}_\lambda$ is therefore a complete Hausdorff subspace (no. 4, Proposition 8) which can be identified with the Hausdorff completion $\hat{X}$ of $X$; under this identification the mappings $\hat{f}_\lambda$ become the projections onto the factors $\hat{Y}_\lambda$, and the proposition is proved.
 

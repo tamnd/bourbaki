@@ -25,7 +25,7 @@ subsections:
       pdf_page: 230
 statements: 11
 exercises: 9
-content_sha256: 92a8f55dc150c75365822ecd2547991907250d45a47eccb44f7ee1b4d56c2667
+content_sha256: 1dd417c06599586d9dc160c9baf087964f74ec81e37be138588cd14466ccfd4e
 ---
 
 ## 1. TOPOLOGIES ON GROUPS
@@ -93,45 +93,45 @@ When G is a commutative group, written additively, the axiom (GT') indicates tha
 
 ### 2. NEIGHBOURHOODS OF A POINT IN A TOPOLOGICAL GROUP
 
-Let $\mathcal{B}$ be the neighbourhood filter of the identity element $e$ in a topological group G, and let $a$ be any point of G. Since $x \to ax$ and $x \to xa$ are homeomorphisms, it follows that the neighbourhood filter of $a$ is the family $a.\mathcal{B}$ of sets $a.V$, where V runs through $\mathcal{B}$, and is also the family $\mathcal{B}.a$ of sets $V.a$. Thus we know the neighbourhood filter of any point of a topological group as soon as we know the neighbourhood filter of the identity element $e$ of the group.
+Let $\mathscr{B}$ be the neighbourhood filter of the identity element $e$ in a topological group G, and let $a$ be any point of G. Since $x \to ax$ and $x \to xa$ are homeomorphisms, it follows that the neighbourhood filter of $a$ is the family $a.\mathscr{B}$ of sets $a.V$, where V runs through $\mathscr{B}$, and is also the family $\mathscr{B}.a$ of sets $V.a$. Thus we know the neighbourhood filter of any point of a topological group as soon as we know the neighbourhood filter of the identity element $e$ of the group.
 
 If we say that $xy$ and $x^{-1}$ are continuous at $x = y = e$, we obtain (Chapter I, § 2, no. 1):
 
-(GV_I). *Given any* $U \in \mathcal{B}$, *there exists* $V \in \mathcal{B}$ *such that* $V.V \subset U$.
+(GV_I). *Given any* $U \in \mathscr{B}$, *there exists* $V \in \mathscr{B}$ *such that* $V.V \subset U$.
 
-(GV_{II}). *Given any* $U \in \mathcal{B}$, *we have* $\overline{U} \in \mathcal{B}$.
+(GV_{II}). *Given any* $U \in \mathscr{B}$, *we have* $\overline{U} \in \mathscr{B}$.
 
-Every filter $\mathcal{B}$ on G which satisfies (GV_I) and (GV_{II}) also satisfies (GV_a). *Given any* $U \in \mathcal{B}$, *there exists* $V \in \mathcal{B}$ *such that* $V.V^{-1} \subset U$. For by (GV_I), there exists $W \in \mathcal{B}$ such that $W.W \subset U$, and by (GV_{II}) there exists $V \in \mathcal{B}$ such that $V \subset W \cap W^{-1}$; hence $V^{-1} \subset W$ and therefore $V.V^{-1} \subset W.W \subset U$.
+Every filter $\mathscr{B}$ on G which satisfies (GV_I) and (GV_{II}) also satisfies (GV_a). *Given any* $U \in \mathscr{B}$, *there exists* $V \in \mathscr{B}$ *such that* $V.V^{-1} \subset U$. For by (GV_I), there exists $W \in \mathscr{B}$ such that $W.W \subset U$, and by (GV_{II}) there exists $V \in \mathscr{B}$ such that $V \subset W \cap W^{-1}$; hence $V^{-1} \subset W$ and therefore $V.V^{-1} \subset W.W \subset U$.
 
-Conversely, if a filter $\mathcal{B}$ on G satisfies (GV_a), it follows first of all that $e$ belongs to every set $U \in \mathcal{B}$; for if $V \in \mathcal{B}$ is such that $V.V^{-1} \subset U$,
+Conversely, if a filter $\mathscr{B}$ on G satisfies (GV_a), it follows first of all that $e$ belongs to every set $U \in \mathscr{B}$; for if $V \in \mathscr{B}$ is such that $V.V^{-1} \subset U$,
 
 (*) We recall that $f^{-1}$ is the mapping $x \to (f(x))^{-1}$ and $fg$ the mapping $x \to f(x)g(x)$; they should not be confused with $f^{-1}$ and $f \circ g$ (when these are defined) (*Set Theory*, R, § 2, nos. 6 and 11).
 
-then, since $V$ is not empty, we have $x.x^{-1} = e \in U$ for every $x \in V$. The condition $(GV_a)$ therefore implies that $V^{-1} \subset V.V^{-1} \subset U$, so that $U^{-1} \in \mathcal{B}$ whenever $U \in \mathcal{B}$. Finally, if $V \in \mathcal{B}$ is such that $V.V^{-1} \subset U$, and $W \in \mathcal{B}$ is such that $W \subset V \cap V^{-1}$, we have $W.W \subset U$. We see thus that $(GV_a)$ is *equivalent* to the conjunction of $(GV_1)$ and $(GV_{II})$.
+then, since $V$ is not empty, we have $x.x^{-1} = e \in U$ for every $x \in V$. The condition $(GV_a)$ therefore implies that $V^{-1} \subset V.V^{-1} \subset U$, so that $U^{-1} \in \mathscr{B}$ whenever $U \in \mathscr{B}$. Finally, if $V \in \mathscr{B}$ is such that $V.V^{-1} \subset U$, and $W \in \mathscr{B}$ is such that $W \subset V \cap V^{-1}$, we have $W.W \subset U$. We see thus that $(GV_a)$ is *equivalent* to the conjunction of $(GV_1)$ and $(GV_{II})$.
 
-Finally, since $x \to axa^{-1}$ is a homeomorphism which leaves $e$ fixed, $\mathcal{B}$ has the following property:
+Finally, since $x \to axa^{-1}$ is a homeomorphism which leaves $e$ fixed, $\mathscr{B}$ has the following property:
 
-$(GV_{III}).$ *For all* $a \in G$ *and all* $V \in \mathcal{B}$, *we have* $a.Va^{-1} \in \mathcal{B}$.
+$(GV_{III}).$ *For all* $a \in G$ *and all* $V \in \mathscr{B}$, *we have* $a.Va^{-1} \in \mathscr{B}$.
 
-These three properties of the filter $\mathcal{B}$ are *characteristic*:
+These three properties of the filter $\mathscr{B}$ are *characteristic*:
 
 #### Proposition 1 {#top-iii-s1-prop-1 .statement}
 
-*Let* $G$ *be a group and let* $\mathcal{B}$ *be a filter on* $G$ *satisfying the axioms* $(GV_1)$, $(GV_{II})$ *and* $(GV_{III})$. *Then there is a unique topology on* $G$, *compatible with the group structure of* $G$, *for which* $\mathcal{B}$ *is the neighbourhood filter of the identity element* $e$. *For this topology the neighbourhood filter of any point* $a \in G$ *is the same as each of the two filters* $a.\mathcal{B}$ *and* $\mathcal{B}.a$.
+*Let* $G$ *be a group and let* $\mathscr{B}$ *be a filter on* $G$ *satisfying the axioms* $(GV_1)$, $(GV_{II})$ *and* $(GV_{III})$. *Then there is a unique topology on* $G$, *compatible with the group structure of* $G$, *for which* $\mathscr{B}$ *is the neighbourhood filter of the identity element* $e$. *For this topology the neighbourhood filter of any point* $a \in G$ *is the same as each of the two filters* $a.\mathscr{B}$ *and* $\mathscr{B}.a$.
 
-If there is a topology with the required properties, then by what has been said above the neighbourhood filter of $a$ coincides with each of the filters $a.\mathcal{B}$ and $\mathcal{B}.a$; hence the topology is unique, if it exists. Its existence will be established if we show 1) that the filters $a.\mathcal{B}$ are the neighbourhood filters of a topology on $G$, and 2) that this topology is compatible with the group structure of $G$.
+If there is a topology with the required properties, then by what has been said above the neighbourhood filter of $a$ coincides with each of the filters $a.\mathscr{B}$ and $\mathscr{B}.a$; hence the topology is unique, if it exists. Its existence will be established if we show 1) that the filters $a.\mathscr{B}$ are the neighbourhood filters of a topology on $G$, and 2) that this topology is compatible with the group structure of $G$.
 
-1) The filter $a.\mathcal{B}$ satisfies axiom $(V_{III})$ (see Chapter I § 1, no. 2) by reason of $(GV_1)$ and $(GV_{II})$, as we have already seen; hence to show that $a.\mathcal{B}$ is the neighbourhood filter of $a$ in a topology on $G$, we have to verify axiom $(V_{IV})$. Let then $V$ be any set of $\mathcal{B}$, and $W$ a set of $\mathcal{B}$ such that $W.W \subset V$; then for any $x \in a.W$ we have $x.W \subset a.W.W \subset a.V$, so that $a.V$ belongs to the filter $x.\mathcal{B}$; hence $(V_{IV})$ is satisfied.
+1) The filter $a.\mathscr{B}$ satisfies axiom $(V_{III})$ (see Chapter I § 1, no. 2) by reason of $(GV_1)$ and $(GV_{II})$, as we have already seen; hence to show that $a.\mathscr{B}$ is the neighbourhood filter of $a$ in a topology on $G$, we have to verify axiom $(V_{IV})$. Let then $V$ be any set of $\mathscr{B}$, and $W$ a set of $\mathscr{B}$ such that $W.W \subset V$; then for any $x \in a.W$ we have $x.W \subset a.W.W \subset a.V$, so that $a.V$ belongs to the filter $x.\mathscr{B}$; hence $(V_{IV})$ is satisfied.
 
-2) Let us now show that the topology defined by the neighbourhood filters $a.\mathcal{B}$ satisfies $(GT')$. Let $a, b$ be any two points of $G$; if we put $x = au$ and $y = bv$, then we have to show that $xy^{-1}$ is as near as we please to $ab^{-1}$ whenever $u$ and $v$ are close enough to $e$. Now $(ab^{-1})^{-1}(xy^{-1}) = buv^{-1}b^{-1}$; let $U$ be any neighbourhood of $e$, then we shall have $buv^{-1}b^{-1} \in U$ if $uv^{-1} \in b^{-1}Ub = V$, and $V \in \mathcal{B}$ by reason of $(GV_{III})$. But by $(GV_1)$ and $(GV_{II})$ there exists $W \in \mathcal{B}$ such that $W.W^{-1} \subset V$; hence it is enough to take $u \in W$ and $v \in W$ in order to have $xy^{-1} \in (ab^{-1})U$. This completes the proof.
+2) Let us now show that the topology defined by the neighbourhood filters $a.\mathscr{B}$ satisfies $(GT')$. Let $a, b$ be any two points of $G$; if we put $x = au$ and $y = bv$, then we have to show that $xy^{-1}$ is as near as we please to $ab^{-1}$ whenever $u$ and $v$ are close enough to $e$. Now $(ab^{-1})^{-1}(xy^{-1}) = buv^{-1}b^{-1}$; let $U$ be any neighbourhood of $e$, then we shall have $buv^{-1}b^{-1} \in U$ if $uv^{-1} \in b^{-1}Ub = V$, and $V \in \mathscr{B}$ by reason of $(GV_{III})$. But by $(GV_1)$ and $(GV_{II})$ there exists $W \in \mathscr{B}$ such that $W.W^{-1} \subset V$; hence it is enough to take $u \in W$ and $v \in W$ in order to have $xy^{-1} \in (ab^{-1})U$. This completes the proof.
 
-A common method of defining a topology compatible with a group structure on $G$ consists in giving a filter satisfying the axioms $(GV_1)$, $(GV_{II})$ and $(GV_{III})$. The corresponding conditions for a *filter base* $\mathcal{B}$ are as follows:
+A common method of defining a topology compatible with a group structure on $G$ consists in giving a filter satisfying the axioms $(GV_1)$, $(GV_{II})$ and $(GV_{III})$. The corresponding conditions for a *filter base* $\mathscr{B}$ are as follows:
 
-$(GV'_1).$ *Given any* $U \in \mathcal{B}$, *there exists* $V \in \mathcal{B}$ *such that* $V.V \subset U$.
+$(GV'_1).$ *Given any* $U \in \mathscr{B}$, *there exists* $V \in \mathscr{B}$ *such that* $V.V \subset U$.
 
-(GV_{II}). *Given any* $U \in \mathcal{B}$, *there exists* $V \in \mathcal{B}$ *such that* $V^{-1} \subset U$.
+(GV_{II}). *Given any* $U \in \mathscr{B}$, *there exists* $V \in \mathscr{B}$ *such that* $V^{-1} \subset U$.
 
-(GV'_{III}). *Given any* $a \in G$ *and any* $U \in \mathcal{B}$, *there exists* $V \in \mathcal{B}$ *such that* $V \subset a . U . a^{-1}$.
+(GV'_{III}). *Given any* $a \in G$ *and any* $U \in \mathscr{B}$, *there exists* $V \in \mathscr{B}$ *such that* $V \subset a . U . a^{-1}$.
 
 A neighbourhood of $e$ which coincides with its image under the symmetry $x \to x^{-1}$ is said to be *symmetric*. If $V$ is any neighbourhood of $e$, then $V \cup V^{-1}$, $V \cap V^{-1}$ and $V . V^{-1}$ are symmetric neighbourhoods. By (GV_{II}), the symmetric neighbourhoods form a *fundamental system of neighbourhoods* of $e$. Also it follows from (GV_{I}) that when $V$ runs through a fundamental system of neighbourhoods of $e$, the sets $V^n$ (where $n$ is a fixed integer $\neq 0$) form a fundamental system of neighbourhoods of $e$.
 
@@ -139,11 +139,11 @@ A neighbourhood of $e$ which coincides with its image under the symmetry $x \to 
 
 If $G$ is *commutative*, we have $x . A . x^{-1} = A$ for every subset $A$ of $G$ and every $x \in G$, and therefore (GV_{III}) [resp. (GV'_{III})] is automatically satisfied for every filter (resp. filter base) on $G$. On the other hand, if $G$ is not abelian, then (GV_{III}) is not a consequence of (GV_{I}) and (GV_{II}) [see Exercise 5].
 
-If $G$ is a commutative group, written *additively*, the axioms which characterize the filter $\mathcal{B}$ of neighbourhoods of the origin for a topology compatible with the group structure of $G$ are therefore the following:
+If $G$ is a commutative group, written *additively*, the axioms which characterize the filter $\mathscr{B}$ of neighbourhoods of the origin for a topology compatible with the group structure of $G$ are therefore the following:
 
-(GA_{I}). *Given any* $U \in \mathcal{B}$, *there exists* $V \in \mathcal{B}$ *such that* $V + V \subset U$.
+(GA_{I}). *Given any* $U \in \mathscr{B}$, *there exists* $V \in \mathscr{B}$ *such that* $V + V \subset U$.
 
-(GA_{II}). *Given any* $U \in \mathcal{B}$, *we have* $-U \in \mathcal{B}$.
+(GA_{II}). *Given any* $U \in \mathscr{B}$, *we have* $-U \in \mathscr{B}$.
 
 #### Proposition 2 {#top-iii-s1-prop-2 .statement}
 
@@ -159,9 +159,9 @@ The condition is clearly necessary. Conversely, if the intersection of all the n
 
 #### Example {#top-iii-s1-n2-exa-1 .statement}
 
-*Definition of a topology on a group by means of a set of subgroups.* If $\mathcal{B}$ is a *filter base* on a group $G$, formed of *subgroups* of $G$, then it is immediately seen that $\mathcal{B}$ satisfies axioms (GV_{I}) and (GV_{II}), since $H . H^{-1} = H$ for any subgroup $H$ of $G$. Hence the set $\mathcal{B}$ will be a *fundamental system of neighbourhoods* of $e$ in a topology compatible with the group structure of $G$, provided that $\mathcal{B}$ satisfies (GV_{III}); this will in particular be the case if all the subgroups in $\mathcal{B}$ are normal, hence always if $G$ is *commutative*. The topology thus defined is *Hausdorff*, by Proposition 2, if and only if *the intersection of all the subgroups in $\mathcal{B}$ consists only of* $e$. The most interesting cases are those in which the subgroup $\{ e \}$ *is not in* $\mathcal{B}$ (otherwise the topology defined by $\mathcal{B}$ is the *discrete* topology): if $\{ e \} \notin \mathcal{B}$, the topology defined by $\mathcal{B}$ is Hausdorff only if $\mathcal{B}$ is an *infinite* set.
+*Definition of a topology on a group by means of a set of subgroups.* If $\mathscr{B}$ is a *filter base* on a group $G$, formed of *subgroups* of $G$, then it is immediately seen that $\mathscr{B}$ satisfies axioms (GV_{I}) and (GV_{II}), since $H . H^{-1} = H$ for any subgroup $H$ of $G$. Hence the set $\mathscr{B}$ will be a *fundamental system of neighbourhoods* of $e$ in a topology compatible with the group structure of $G$, provided that $\mathscr{B}$ satisfies (GV_{III}); this will in particular be the case if all the subgroups in $\mathscr{B}$ are normal, hence always if $G$ is *commutative*. The topology thus defined is *Hausdorff*, by Proposition 2, if and only if *the intersection of all the subgroups in $\mathscr{B}$ consists only of* $e$. The most interesting cases are those in which the subgroup $\{ e \}$ *is not in* $\mathscr{B}$ (otherwise the topology defined by $\mathscr{B}$ is the *discrete* topology): if $\{ e \} \notin \mathscr{B}$, the topology defined by $\mathscr{B}$ is Hausdorff only if $\mathscr{B}$ is an *infinite* set.
 
-Since the intersection of two subgroups is a subgroup, we can define a topology on $G$, compatible with its group structure, starting from *any* set $\mathfrak{F}$ of subgroups of $G$: let $\mathfrak{G}$ be the set of all subgroups $a.H.a^{-1}$, where $H \in \mathfrak{F}$ and $a \in G$, and let $\mathcal{B}$ be the set of all *finite* intersections of subgroups belonging to $\mathfrak{G}$. Then $\mathcal{B}$ is a filter base and satisfies (GV$_{\text{III}}$).
+Since the intersection of two subgroups is a subgroup, we can define a topology on $G$, compatible with its group structure, starting from *any* set $\mathfrak{F}$ of subgroups of $G$: let $\mathfrak{G}$ be the set of all subgroups $a.H.a^{-1}$, where $H \in \mathfrak{F}$ and $a \in G$, and let $\mathscr{B}$ be the set of all *finite* intersections of subgroups belonging to $\mathfrak{G}$. Then $\mathscr{B}$ is a filter base and satisfies (GV$_{\text{III}}$).
 
 Consider in particular the additive group of a *ring* $A$. Every set $\mathfrak{F}$ of *ideals* of $A$ defines a topology compatible with this additive group structure. This topology is Hausdorff if the intersection of all the ideals of $\mathfrak{F}$ is the zero ideal, and it is not discrete if no finite intersection of the ideals of $\mathfrak{F}$ is the zero ideal. Topologies defined in this way play a large part in the theory of numbers (see the Exercises of §§ 6 and 7 of this chapter).
 
@@ -171,7 +171,7 @@ In accordance with the general definitions (*Set Theory*, Chapter IV, § 1, no. 
 
 For example, if $a$ is any point of $G$, the mapping $x \to axa^{-1}$ is an isomorphism of $G$ onto $G$, that is (*loc. cit.*), an *automorphism* of the topological group $G$. It is called an *inner automorphism*.
 
-If a topology $\mathcal{C}$ is compatible with the group structure of a group $G$, then $\mathcal{C}$ is also compatible with the group structure *opposite* to that of $G$. If $G^0$ denotes the topological group obtained by giving the group opposite to $G$ the topology $\mathcal{C}$, then the symmetry $x \to x^{-1}$ is an *isomorphism* of the topological group $G$ onto the topological group $G^0$.
+If a topology $\mathscr{C}$ is compatible with the group structure of a group $G$, then $\mathscr{C}$ is also compatible with the group structure *opposite* to that of $G$. If $G^0$ denotes the topological group obtained by giving the group opposite to $G$ the topology $\mathscr{C}$, then the symmetry $x \to x^{-1}$ is an *isomorphism* of the topological group $G$ onto the topological group $G^0$.
 
 #### Definition 2 {#top-iii-s1-def-2 .statement}
 

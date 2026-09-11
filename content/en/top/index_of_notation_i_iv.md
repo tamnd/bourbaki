@@ -12,7 +12,7 @@ pdf_pages: 0425-0426
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 6dfbc5a323ba3d9ce22b47664b427e407f9f68053544e70ddd5c4ce8a63e69b7
+content_sha256: 01b61498c9c73e6ea79d164bd7e0e9b221cfe520d5260995a457ac7be560bd8b
 ---
 
 ## INDEX OF NOTATION
@@ -30,14 +30,14 @@ $\lim_{x \geq a, x \in A} f(x), \lim_{x \geq a, x \neq a} f(x)$ : I, 7, 5.
 $f_T$ : I, 5, 1.
 $t_X$ : I, 10.
 $Fr (A)$ (A a subset of a topological space) : I, 1, Exercise 5.
-$\mathcal{T}_0(X), \mathcal{T}_+(X), \mathcal{T}_-(X)$ : I, 2, Exercise 5.
-$\mathfrak{B}_0(X), \mathcal{T}_\Omega, \mathcal{T}_\Phi$ : I, 2, Exercise 7.
-$\mathfrak{F}(X), \mathcal{T}_\Theta$ : I, 8, Exercise 12.
-$\mathcal{T}^*$ : I, 8, Exercise 20.
+$\mathscr{T}_0(X), \mathscr{T}_+(X), \mathscr{T}_-(X)$ : I, 2, Exercise 5.
+$\mathfrak{B}_0(X), \mathscr{T}_\Omega, \mathscr{T}_\Phi$ : I, 2, Exercise 7.
+$\mathfrak{F}(X), \mathscr{T}_\Theta$ : I, 8, Exercise 12.
+$\mathscr{T}^*$ : I, 8, Exercise 20.
 $\mathfrak{K}(X)$ : I, 9, Exercise 13.
 $\varprojlim X_\alpha$ [$(X_\alpha)$ an inverse system of uniform spaces] : II, 2, 7.
 $\hat{X}$ (the Hausdorff completion of a uniform space X) : II, 3, 7.
-$\tilde{\mathcal{U}}, \mathcal{T}(\tilde{\mathcal{U}})$ : II, 1, Exercise 5.
+$\tilde{\mathscr{U}}, \mathscr{T}(\tilde{\mathscr{U}})$ : II, 1, Exercise 5.
 $X/G$ (G a group operating on a space X) : III, 2, 4.
 
 $P(K, L)$ (K, L subsets of a space with operators) : III, 4, 5.
@@ -72,7 +72,7 @@ sup $f(x)$, inf $f(x)$ ($f$ a real-valued function) : IV, 5, 4.
 
 sup $f_i$, sup $f_i$, inf $f_i$, inf $f_i$ ($f_i$ real-valued functions) : IV, 5, 5.
 
-lim sup $\mathcal{G} f$, lim inf $\mathcal{G} f$, lim sup $x, \mathcal{G} f(x)$, lim inf $x, \mathcal{G} f(x) :$ IV, 5, 6.
+lim sup $\mathscr{G} f$, lim inf $\mathscr{G} f$, lim sup $x, \mathscr{G} f(x)$, lim inf $x, \mathscr{G} f(x) :$ IV, 5, 6.
 
 lim sup $f$, lim inf $f$, lim sup $x f(x)$, lim inf $x f(x) :$ IV, 5, 6.
 

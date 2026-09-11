@@ -41,7 +41,7 @@ subsections:
       pdf_page: 275
 statements: 19
 exercises: 7
-content_sha256: f00a62c711a69bc585307c0d066a454a7861d0dd7f4d8b9f20e4756943cb0eda
+content_sha256: 0473398046b587d17103f4b672c344f445932523c6f9f31b18e847266e38158c
 ---
 
 ## 5. INFINITE SUMS IN COMMUTATIVE GROUPS
@@ -54,7 +54,7 @@ Let $G$ be a Hausdorff commutative group, let $I$ be any index set and let $(x_i
 
 #### Definition 1 {#top-iii-s5-def-1 .statement}
 
-Let $(x_i)_{i \in I}$ be a family of points of a Hausdorff commutative group $G$; let $\mathcal{F}(I)$ be the set of finite subsets of the index set $I$, and for each finite subset $J$ of $I$, let $s_J$ be the sum of those $x_i$ such that $i \in J$. The family $(x_i)_{i \in I}$ is said to be summable if the mapping $J \to s_J$ has a limit with respect to the section filter $\Phi$ of the set $\mathcal{F}(I)$ directed by the relation $\subset$; this limit is then said to be the sum of the family $(x_i)_{i \in I}$ and is denoted by $\sum_{i \in I} x_i$ (or simply $\sum_i x_i$, or even $\sum x_i$, when there is no risk of ambiguity).
+Let $(x_i)_{i \in I}$ be a family of points of a Hausdorff commutative group $G$; let $\mathscr{F}(I)$ be the set of finite subsets of the index set $I$, and for each finite subset $J$ of $I$, let $s_J$ be the sum of those $x_i$ such that $i \in J$. The family $(x_i)_{i \in I}$ is said to be summable if the mapping $J \to s_J$ has a limit with respect to the section filter $\Phi$ of the set $\mathscr{F}(I)$ directed by the relation $\subset$; this limit is then said to be the sum of the family $(x_i)_{i \in I}$ and is denoted by $\sum_{i \in I} x_i$ (or simply $\sum_i x_i$, or even $\sum x_i$, when there is no risk of ambiguity).
 
 Definition 1 is equivalent to the following: *the family* $(x_i)$ *is summable and its sum is* $s$ *if, for each neighbourhood* $V$ *of the origin in* $G$, *there is a finite subset* $J_0$ *of* $I$ *such that for each finite subset* $J \supset J_0$ *of* $I$ *we have* $s_J \in s + V$.
 
@@ -258,7 +258,7 @@ For the sequence of partial sums of the series $(u_n)$ is a *subsequence* $(s_{k
 
 ### 7. COMMUTATIVELY CONVERGENT SERIES
 
-Let $(x_n)$ be a *summable* sequence in $G$, and let $s = \sum_{n \in \mathbf{N}} x_n$ be its sum. Then for each neighbourhood $V$ of 0, there exists $J_0 \in \mathcal{F}(\mathbf{N})$ such that $s_J \in s + V$ whenever $J \in \mathcal{F}(\mathbf{N})$ and $J_0 \subset J$. Let $m$ be the largest integer in $J_0$; then if $n \geqslant m$ we have $s_n \in s + V$, and therefore the *series* $(x_n)$ is convergent and its sum is $s$. But the converse is *false*:
+Let $(x_n)$ be a *summable* sequence in $G$, and let $s = \sum_{n \in \mathbf{N}} x_n$ be its sum. Then for each neighbourhood $V$ of 0, there exists $J_0 \in \mathscr{F}(\mathbf{N})$ such that $s_J \in s + V$ whenever $J \in \mathscr{F}(\mathbf{N})$ and $J_0 \subset J$. Let $m$ be the largest integer in $J_0$; then if $n \geqslant m$ we have $s_n \in s + V$, and therefore the *series* $(x_n)$ is convergent and its sum is $s$. But the converse is *false*:
 
 Moreover, the definition of a convergent series essentially involves the order structure of $\mathbf{N}$. If the series $(x_n)$ is convergent, and if $\sigma$ is a permutation of $\mathbf{N}$, then the series $(x_{\sigma(n)})$ is not necessarily convergent (cf. Chapter IV, § 7, Exercise 15).
 

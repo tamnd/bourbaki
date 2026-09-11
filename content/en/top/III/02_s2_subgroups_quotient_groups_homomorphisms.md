@@ -53,7 +53,7 @@ subsections:
       pdf_page: 245
 statements: 45
 exercises: 31
-content_sha256: 09d7ecdaae15234f6b98dd6b72f9c1f771f5a6bc26fa08e838278d792205c2fa
+content_sha256: 01217d9945f06d0b2ed58cc8843dc54bec8461b84d6d1966ebb0af8867a7d247
 ---
 
 ## 2. SUBGROUPS, QUOTIENT GROUPS, HOMOMORPHISMS, HOMOGENEOUS SPACES, PRODUCT GROUPS
@@ -246,7 +246,7 @@ Whenever in the sequel we consider a quotient group $G/H$ of a topological group
 
 #### Proposition 17 {#top-iii-s2-prop-17 .statement}
 
-*Let $\varphi$ be the canonical mapping of a topological group $G$ onto a quotient group $G/H$. If $\mathcal{B}$ is a fundamental system of neighbourhoods of $e$ in $G$, then $\varphi(\mathcal{B})$ is a fundamental system of neighbourhoods of the identity element $\varphi(e)$ of $G/H$.*
+*Let $\varphi$ be the canonical mapping of a topological group $G$ onto a quotient group $G/H$. If $\mathscr{B}$ is a fundamental system of neighbourhoods of $e$ in $G$, then $\varphi(\mathscr{B})$ is a fundamental system of neighbourhoods of the identity element $\varphi(e)$ of $G/H$.*
 
 This is a particular case of Proposition 5 of Chapter I, § 5, no. 3.
 

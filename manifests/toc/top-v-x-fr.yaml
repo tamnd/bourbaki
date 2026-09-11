@@ -646,11 +646,11 @@ chapters:
               page: 4
               pdf_page: 253
             - "no": 4
-              title: Propriétés des espaces $\mathcal{F}_S(X; Y)$
+              title: Propriétés des espaces $\mathscr{F}_S(X; Y)$
               page: 5
               pdf_page: 254
             - "no": 5
-              title: Parties complètes de $\mathcal{F}_S(X; Y)$
+              title: Parties complètes de $\mathscr{F}_S(X; Y)$
               page: 6
               pdf_page: 255
             - "no": 6

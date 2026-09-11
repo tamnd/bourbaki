@@ -52,7 +52,7 @@ subsections:
       pdf_page: 165
 statements: 32
 exercises: 9
-content_sha256: 0a2079a4030086f98d0a98c613173101c4aa8daf175bfc7546106d5f0459f69b
+content_sha256: d22b09d57c0633ea2d7d345bbd0f3da58e0216bbde81dd5f9a0d1ce1e471b7f5
 translated_from: content/en/top/IX/02_s2_metric_spaces_and_metrizable_spaces.md
 source_content_sha256: 251e0a701a7a4479cdf6534f4d5644531e477de5a2f33457b6f0c1971ce81b63
 translation_model: gpt-5-6, gpt-5.4, gpt-5-6-mini
@@ -88,13 +88,13 @@ Trên mọi tập hợp $X$, giả mêtric $d$, được xác định bởi các
 
 Ta có một định nghĩa tương đương với Định nghĩa 1 nếu nói rằng một mêtric là một giả mêtric *hữu hạn* sao cho cấu trúc đều được xác định bởi giả mêtric này là *Hausdorff*; một giả mêtric hữu hạn tương đương với một mêtric do đó là một mêtric.
 
-Các không gian đều được xác định bởi *một giả mêtric duy nhất* (mà ta có thể giả sử là *hữu hạn*) có thể quy về các không gian mêtric khi giả mêtric không phải là một mêtric. Cho $f$ là một giả mêtric như vậy trên một tập hợp $X$, và cho $\mathcal{U}$ là cấu trúc đều được xác định bởi $f$; $\mathcal{U}$ không là Hausdorff, và giao của các lân cận của $\mathcal{U}$ là tập con của $X \times X$ được xác định bởi quan hệ tương đương $f(x, y) = 0$. Gọi $R$ là quan hệ này. Nếu $x \equiv x' \pmod{R}$, thì theo bất đẳng thức tam giác ta có
+Các không gian đều được xác định bởi *một giả mêtric duy nhất* (mà ta có thể giả sử là *hữu hạn*) có thể quy về các không gian mêtric khi giả mêtric không phải là một mêtric. Cho $f$ là một giả mêtric như vậy trên một tập hợp $X$, và cho $\mathscr{U}$ là cấu trúc đều được xác định bởi $f$; $\mathscr{U}$ không là Hausdorff, và giao của các lân cận của $\mathscr{U}$ là tập con của $X \times X$ được xác định bởi quan hệ tương đương $f(x, y) = 0$. Gọi $R$ là quan hệ này. Nếu $x \equiv x' \pmod{R}$, thì theo bất đẳng thức tam giác ta có
 
 $$
 f(x, y) \leq f(x, x') + f(x', y) = f(x', y)
 $$
 
-và tương tự $f(x', y) \leq f(x, y)$, do đó $f(x, y) = f(x', y)$; nói cách khác, $f$ là một hàm *tương thích* (theo $x$ và $y$) với quan hệ tương đương $R$ (*Lý thuyết tập hợp*, R, § 5, no. 7). Gọi $\overline{f}$ là hàm được cảm sinh bởi $f$ trên tập thương; $\overline{f}$ được xác định trên $(X/R) \times (X/R)$, và nếu $x$ và $y$ là hai điểm bất kỳ của $X$ và nếu $\dot{x}$ và $\dot{y}$ lần lượt chỉ các lớp tương đương (mod $R$) của $x$ và $y$, thì ta có $\overline{f}(\dot{x}, \dot{y}) = f(x, y)$. Suy ra ngay lập tức rằng $\overline{f}$ là một *mêtric* trên $X/R$; nó được gọi là mêtric *liên kết* với giả mêtric $f$; hơn nữa, cấu trúc đều mà nó xác định trên $X/R$ chính xác là cấu trúc đều Hausdorff *liên kết* với $\mathcal{U}$ bởi định nghĩa của cấu trúc đều này (Chương II, § 3, no. 8, Nhận xét). Như vậy, bằng cách chuyển qua một không gian thương thích hợp, cấu trúc đều được xác định bởi một giả mêtric duy nhất có thể quy về cấu trúc của một không gian mêtric.
+và tương tự $f(x', y) \leq f(x, y)$, do đó $f(x, y) = f(x', y)$; nói cách khác, $f$ là một hàm *tương thích* (theo $x$ và $y$) với quan hệ tương đương $R$ (*Lý thuyết tập hợp*, R, § 5, no. 7). Gọi $\overline{f}$ là hàm được cảm sinh bởi $f$ trên tập thương; $\overline{f}$ được xác định trên $(X/R) \times (X/R)$, và nếu $x$ và $y$ là hai điểm bất kỳ của $X$ và nếu $\dot{x}$ và $\dot{y}$ lần lượt chỉ các lớp tương đương (mod $R$) của $x$ và $y$, thì ta có $\overline{f}(\dot{x}, \dot{y}) = f(x, y)$. Suy ra ngay lập tức rằng $\overline{f}$ là một *mêtric* trên $X/R$; nó được gọi là mêtric *liên kết* với giả mêtric $f$; hơn nữa, cấu trúc đều mà nó xác định trên $X/R$ chính xác là cấu trúc đều Hausdorff *liên kết* với $\mathscr{U}$ bởi định nghĩa của cấu trúc đều này (Chương II, § 3, no. 8, Nhận xét). Như vậy, bằng cách chuyển qua một không gian thương thích hợp, cấu trúc đều được xác định bởi một giả mêtric duy nhất có thể quy về cấu trúc của một không gian mêtric.
 
 Mệnh đề 1 của § 1, no. 3 xác định cấu trúc của *phép hoàn thiện* của một không gian mêtric:
 
@@ -249,9 +249,9 @@ Vì một không gian như vậy là Hausdorff và cấu trúc đồng nhất c�
 
 #### Định nghĩa 3 {#top-ix-s2-def-3 .statement}
 
-*Một mêtric trên một tập $X$ được gọi là tương thích với một tôpô $\mathcal{T}$ trên $X$ nếu tôpô được xác định bởi mêtric này trùng với $\mathcal{T}$. Một không gian tôpô được gọi là mêtric hóa được nếu tồn tại một mêtric trên $X$ tương thích với tôpô của $X$.*
+*Một mêtric trên một tập $X$ được gọi là tương thích với một tôpô $\mathscr{T}$ trên $X$ nếu tôpô được xác định bởi mêtric này trùng với $\mathscr{T}$. Một không gian tôpô được gọi là mêtric hóa được nếu tồn tại một mêtric trên $X$ tương thích với tôpô của $X$.*
 
-Hai mêtric trên một tập $X$ đều tương thích với cùng một tôpô $\mathcal{T}$ có thể *không tương đương*.
+Hai mêtric trên một tập $X$ đều tương thích với cùng một tôpô $\mathscr{T}$ có thể *không tương đương*.
 
 Không gian con $\mathbf{R}_+^*$ của $\mathbf{R}$ cung cấp một ví dụ về điều này. Cả cấu trúc đồng nhất cảm sinh bởi cấu trúc đồng nhất cộng tính của $\mathbf{R}$ và cấu trúc đồng nhất cảm sinh bởi cấu trúc đồng nhất nhân của $\mathbf{R}_+^*$ đều mêtric hóa được và tương thích với tôpô của $\mathbf{R}_+^*$; nhưng chúng không so sánh được.
 
@@ -304,7 +304,7 @@ Gọi $\hat{X}$ là phần đầy đủ của $X$. Nếu có một điểm $x \i
 
 *Cho* $X$ *là một không gian khả mêtric và cho* $f$ *là một ánh xạ từ* $X$ *vào một không gian tôpô* $X'$. *Khi đó* $f$ *liên tục tại một điểm* $x \in X$ *khi và chỉ khi, bất cứ khi nào* $(x_n)$ *là một dãy các điểm của* $X$ *hội tụ tới* $x$, *dãy* $(f(x_n))$ *hội tụ tới* $f(x)$ *trong* $X'$.
 
-Điều kiện là cần, từ Chương I, § 7, no. 4, Mệnh đề 9, Hệ quả 1. Để chứng minh rằng nó là đủ, xét lọc $\mathcal{B}'$ các lân cận của $f(a)$ trong $X'$; giả thiết kéo theo rằng $\overline{f}^{-1}(\mathcal{B}')$ thô hơn mọi lọc sơ cấp liên kết với một dãy hội tụ tới $a$, nghĩa là mọi lọc sơ cấp hội tụ tới $a$; nhưng
+Điều kiện là cần, từ Chương I, § 7, no. 4, Mệnh đề 9, Hệ quả 1. Để chứng minh rằng nó là đủ, xét lọc $\mathscr{B}'$ các lân cận của $f(a)$ trong $X'$; giả thiết kéo theo rằng $\overline{f}^{-1}(\mathscr{B}')$ thô hơn mọi lọc sơ cấp liên kết với một dãy hội tụ tới $a$, nghĩa là mọi lọc sơ cấp hội tụ tới $a$; nhưng
 
 (*) Xem chẳng hạn, J. Dieudonné, Notes de Tératopologie (I), Revue scientifique (Revue rose), 1939, p. 39.
 (**) Mệnh đề này vẫn có thể đúng trong một số không gian trong đó ít nhất một điểm không có bất kỳ hệ cơ bản đếm được nào các lân cận; ví dụ, không gian thu được bằng cách compact hóa một không gian rời rạc không đếm được bằng cách thêm vào một điểm ở vô cực (Chương I, § 9, no. 8, Định lý 4).
@@ -439,19 +439,19 @@ Mọi không gian thương Hausdorff của một không gian compact có thể m
 
 Tương đương, nếu $f$ là một ánh xạ liên tục từ một không gian compact mêtric $X$ vào một không gian Hausdorff $X'$, thì $f(X)$ là một không gian con mêtric của $X'$ (Chương I, § 9, no. 4, Định lý 2, Hệ quả 4).
 
-Cho $X$ là một không gian compact mêtric, và cho $R$ là một quan hệ tương đương trên $X$ sao cho $X/R$ là Hausdorff. Khi đó $X/R$ là compact (Chương I, § 9, no. 4, Định lý 2), do đó theo Mệnh đề 16 chỉ cần chỉ ra rằng tôpô của $X/R$ có một cơ sở đếm được. Để làm điều này, ta sử dụng các sự kiện rằng $R$ là đóng (Chương I, § 10, no. 4, Mệnh đề 8) và các lớp mod $R$ là compact. Gọi $\varphi$ là ánh xạ chính tắc của $X$ lên $X/R$, và gọi $(U_n)$ là một cơ sở đếm được của tôpô của $X$. Cho $z$ là một điểm bất kỳ của $X/R$ và cho $V$ là một lân cận của $z$ trong $X/R$; khi đó $\overline{\varphi}^{-1}(V)$ là một lân cận trong $X$ của tập compact $\overline{\varphi}^{-1}(z)$. Nếu $x$ là một điểm bất kỳ của $\overline{\varphi}^{-1}(z)$, thì có một tập hợp $U_n$ chứa $x$ và được chứa trong $\overline{\varphi}^{-1}(V)$, và do đó theo tiên đề Borel-Lebesgue có một phủ mở hữu hạn $(U_{n_k})_{1 \leq k \leq r}$ của $\overline{\varphi}^{-1}(z)$ sao cho, nếu $W$ ký hiệu $\bigcup_k U_{n_k}$, thì $W$ là một lân cận của $\overline{\varphi}^{-1}(z)$ được chứa trong $\overline{\varphi}^{-1}(V)$. Vì $R$ là đóng, suy ra rằng $\varphi(W)$ là một lân cận của $z$ trong $X/R$, được chứa trong $V$ (Chương I, § 5, no. 4, Mệnh đề 10). Gọi $\mathcal{B}$ là tập hợp các phần trong của các tập hợp có dạng $\varphi(W)$, trong đó $W$ chạy qua tập hợp $\mathcal{F}$ của tất cả các hợp hữu hạn của các tập hợp có dạng $U_n$; khi đó ta đã chứng minh rằng $\mathcal{B}$ là một cơ sở của tôpô của $X/R$, và vì $\mathfrak{F}$ là đếm được, nên $\mathcal{B}$ cũng vậy.
+Cho $X$ là một không gian compact mêtric, và cho $R$ là một quan hệ tương đương trên $X$ sao cho $X/R$ là Hausdorff. Khi đó $X/R$ là compact (Chương I, § 9, no. 4, Định lý 2), do đó theo Mệnh đề 16 chỉ cần chỉ ra rằng tôpô của $X/R$ có một cơ sở đếm được. Để làm điều này, ta sử dụng các sự kiện rằng $R$ là đóng (Chương I, § 10, no. 4, Mệnh đề 8) và các lớp mod $R$ là compact. Gọi $\varphi$ là ánh xạ chính tắc của $X$ lên $X/R$, và gọi $(U_n)$ là một cơ sở đếm được của tôpô của $X$. Cho $z$ là một điểm bất kỳ của $X/R$ và cho $V$ là một lân cận của $z$ trong $X/R$; khi đó $\overline{\varphi}^{-1}(V)$ là một lân cận trong $X$ của tập compact $\overline{\varphi}^{-1}(z)$. Nếu $x$ là một điểm bất kỳ của $\overline{\varphi}^{-1}(z)$, thì có một tập hợp $U_n$ chứa $x$ và được chứa trong $\overline{\varphi}^{-1}(V)$, và do đó theo tiên đề Borel-Lebesgue có một phủ mở hữu hạn $(U_{n_k})_{1 \leq k \leq r}$ của $\overline{\varphi}^{-1}(z)$ sao cho, nếu $W$ ký hiệu $\bigcup_k U_{n_k}$, thì $W$ là một lân cận của $\overline{\varphi}^{-1}(z)$ được chứa trong $\overline{\varphi}^{-1}(V)$. Vì $R$ là đóng, suy ra rằng $\varphi(W)$ là một lân cận của $z$ trong $X/R$, được chứa trong $V$ (Chương I, § 5, no. 4, Mệnh đề 10). Gọi $\mathscr{B}$ là tập hợp các phần trong của các tập hợp có dạng $\varphi(W)$, trong đó $W$ chạy qua tập hợp $\mathscr{F}$ của tất cả các hợp hữu hạn của các tập hợp có dạng $U_n$; khi đó ta đã chứng minh rằng $\mathscr{B}$ là một cơ sở của tôpô của $X/R$, và vì $\mathfrak{F}$ là đếm được, nên $\mathscr{B}$ cũng vậy.
 
 #### Mệnh đề 18 {#top-ix-s2-prop-18 .statement}
 
 *Cho $X$ là một không gian metric đầy đủ, cho $R$ là một quan hệ tương đương mở trên $X$ sao cho $X/R$ là Hausdorff, và cho $\varphi : X \to X/R$ là ánh xạ chính tắc. Khi đó nếu $K$ là một tập con compact bất kỳ của $X/R$, thì tồn tại một tập con compact $K'$ của $X$ sao cho $\varphi(K') = K$.*
 
-Ký hiệu $\mathcal{B}_1$ là tập hợp tất cả các quả cầu mở bán kính $1/2$ trong $X$. Khi $B$ chạy qua $\mathcal{B}_1$, các tập hợp $\varphi(B)$ tạo thành một phủ mở của $K$, và do đó tồn tại một số hữu hạn điểm $x_1, \ldots, x_m$ của $X$ sao cho các ảnh qua $\varphi$ của các quả cầu mở bán kính $1/2$ và tâm $x_i$ ($1 \leq i \leq m$) tạo thành một phủ mở của $K$. Đặt $H_1 = \{ x_1, \ldots, x_m \}$ và giả sử rằng ta đã xác định được một tập hợp hữu hạn $H_i$, với $1 < i \leq n$, sao cho:
+Ký hiệu $\mathscr{B}_1$ là tập hợp tất cả các quả cầu mở bán kính $1/2$ trong $X$. Khi $B$ chạy qua $\mathscr{B}_1$, các tập hợp $\varphi(B)$ tạo thành một phủ mở của $K$, và do đó tồn tại một số hữu hạn điểm $x_1, \ldots, x_m$ của $X$ sao cho các ảnh qua $\varphi$ của các quả cầu mở bán kính $1/2$ và tâm $x_i$ ($1 \leq i \leq m$) tạo thành một phủ mở của $K$. Đặt $H_1 = \{ x_1, \ldots, x_m \}$ và giả sử rằng ta đã xác định được một tập hợp hữu hạn $H_i$, với $1 < i \leq n$, sao cho:
 
 (i) $H_i \subset H_{i+1}$ và mỗi điểm của $H_{i+1}$ cách $H_i$ một khoảng cách $< 1/2^i$, với $1 \leq i \leq n - 1$;
 
 (ii) các ảnh qua $\varphi$ của các quả cầu mở bán kính $1/2^i$, có tâm tại các điểm của $H_i$, tạo thành một phủ mở của $K$, với $1 \leq i \leq n$.
 
-Cho $\mathcal{B}_{n+1}$ là tập hợp tất cả các quả cầu mở bán kính $1/2^{n+1}$ có tâm $x$ sao cho $d(x, H_n) < 1/2^n$ ($d$ là mêtric trên $X$). Các tính chất của $H_n$ cho thấy rằng các tập hợp $\varphi(B)$, với $B \in \mathcal{B}_{n+1}$, tạo thành một phủ mở của $K$; do đó tồn tại một tập hợp hữu hạn $L_{n+1} \subset X$ sao cho ảnh qua $\varphi$ của các quả cầu mở bán kính $1/2^{n+1}$ có tâm thuộc $L_{n+1}$ tạo thành một phủ mở của $K$. Lấy $H_{n+1} = H_n \cup L_{n+1}$, ta thấy rằng ta có thể định nghĩa quy nạp một dãy vô hạn $(H_n)$ gồm các tập con hữu hạn của $X$ có các tính chất (i) và (ii) ở trên. Đặt $H = \bigcup_n H_n$, và ta hãy chứng minh rằng $H$ là *tiền compact*. Với mỗi $p > 0$ và mỗi điểm $z_{n+p} \in H_{n+p}$, tồn tại một dãy các điểm $z_{n+i} \in H_{n+i}$ ($0 \leq i \leq p - 1$) sao cho
+Cho $\mathscr{B}_{n+1}$ là tập hợp tất cả các quả cầu mở bán kính $1/2^{n+1}$ có tâm $x$ sao cho $d(x, H_n) < 1/2^n$ ($d$ là mêtric trên $X$). Các tính chất của $H_n$ cho thấy rằng các tập hợp $\varphi(B)$, với $B \in \mathscr{B}_{n+1}$, tạo thành một phủ mở của $K$; do đó tồn tại một tập hợp hữu hạn $L_{n+1} \subset X$ sao cho ảnh qua $\varphi$ của các quả cầu mở bán kính $1/2^{n+1}$ có tâm thuộc $L_{n+1}$ tạo thành một phủ mở của $K$. Lấy $H_{n+1} = H_n \cup L_{n+1}$, ta thấy rằng ta có thể định nghĩa quy nạp một dãy vô hạn $(H_n)$ gồm các tập con hữu hạn của $X$ có các tính chất (i) và (ii) ở trên. Đặt $H = \bigcup_n H_n$, và ta hãy chứng minh rằng $H$ là *tiền compact*. Với mỗi $p > 0$ và mỗi điểm $z_{n+p} \in H_{n+p}$, tồn tại một dãy các điểm $z_{n+i} \in H_{n+i}$ ($0 \leq i \leq p - 1$) sao cho
 
 $$
 d(z_{n+i}, z_{n+i+1}) < 1/2^{n+i} \quad \text{với } 0 \leq i \leq p - 1;

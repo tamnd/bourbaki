@@ -48,7 +48,7 @@ subsections:
       pdf_page: 214
 statements: 48
 exercises: 1
-content_sha256: 128001da6f13ab14dfc9202483387096610ea5a1d408aaaa27af1ebc92f36dc5
+content_sha256: 0c5eadf3095aaa92169fe5d37a612e4248fbc5a66bdea248c4b763f9602d4b5a
 ---
 
 ## 6. POLISH SPACES, SOUSLIN SPACES, BOREL SETS
@@ -406,7 +406,7 @@ In particular a closed equivalence relation R satisfies the hypotheses of Theore
 
 #### Definition 8 {#top-ix-s6-def-8 .statement}
 
-Let X be a Hausdorff topological space. A capacity on X is a mapping f of the set \mathcal{P}(X) of all subsets of X into the extended real line \overline{\mathbf{R}}, satisfying the following conditions:
+Let X be a Hausdorff topological space. A capacity on X is a mapping f of the set \mathscr{P}(X) of all subsets of X into the extended real line \overline{\mathbf{R}}, satisfying the following conditions:
 
 (CA_1) If A \subset B, then f(A) \leq f(B).
 

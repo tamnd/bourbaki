@@ -41,7 +41,7 @@ subsections:
       pdf_page: 120
 statements: 29
 exercises: 25
-content_sha256: 5ab006ece52fc10a02f50468e8151d7272eb775f4f73365d9abd2ab4b3f5796f
+content_sha256: 4ba842c1a81614b68529cdb3efb0bc4b12259485bc93d093f4502fa9db63761e
 ---
 
 ## 11. CONNECTEDNESS
@@ -235,25 +235,25 @@ is a neighbourhood of $x$ in X; V therefore contains a connected neighbourhood W
 
 #### Theorem 1 {#top-i-s11-thm-1 .statement}
 
-Let $X$ be a topological space satisfying axiom $(O_{III})$ (but not necessarily Hausdorff), and suppose $X$ is connected and locally connected. Let $Y$ be a topological space whose topology has a countable base, and let $p : X \to Y$ be a continuous mapping such that, for each $y \in Y$, $\overline{p}^{-1}(y)$ is a discrete subspace of $X$. Finally let $\mathcal{B}$ be a set of subsets of $X$ whose interiors cover $X$ and such that:
-(i) *The restriction of* $p$ *to each* $V \in \mathcal{B}$ *is a closed mapping of* $V$ *into* $Y$.
-(ii) *Every* $V \in \mathcal{B}$ *has a countable subset which is dense in* $V$.
+Let $X$ be a topological space satisfying axiom $(O_{III})$ (but not necessarily Hausdorff), and suppose $X$ is connected and locally connected. Let $Y$ be a topological space whose topology has a countable base, and let $p : X \to Y$ be a continuous mapping such that, for each $y \in Y$, $\overline{p}^{-1}(y)$ is a discrete subspace of $X$. Finally let $\mathscr{B}$ be a set of subsets of $X$ whose interiors cover $X$ and such that:
+(i) *The restriction of* $p$ *to each* $V \in \mathscr{B}$ *is a closed mapping of* $V$ *into* $Y$.
+(ii) *Every* $V \in \mathscr{B}$ *has a countable subset which is dense in* $V$.
 
-*Then the space* $X$ *is the union of a countable family of open sets each of which is contained in a set of* $\mathcal{B}$.
+*Then the space* $X$ *is the union of a countable family of open sets each of which is contained in a set of* $\mathscr{B}$.
 
-Let $\mathcal{B}$ be a countable base of the topology of $Y$. We shall say that a pair $(W, U)$ is *distinguished* if (i) $U \in \mathcal{B}$ and (ii) $W$ is a component of $\overline{p}^{-1}(U)$ contained in a set of $\mathcal{B}$.
+Let $\mathscr{B}$ be a countable base of the topology of $Y$. We shall say that a pair $(W, U)$ is *distinguished* if (i) $U \in \mathscr{B}$ and (ii) $W$ is a component of $\overline{p}^{-1}(U)$ contained in a set of $\mathscr{B}$.
 
 #### Lemma 1 {#top-i-s11-lem-1 .statement}
 
 *If* $x$ *is any point of* $X$, *there is a distinguished pair* $(W, U)$ *such that* $x \in W$.
 
-The inverse image $\overline{p}^{-1}(p(x))$ is discrete and therefore there is a neighbourhood of $x$ in $X$ all of whose points $x'$ other than $x$ have an image $p(x') \neq p(x)$; since $X$ satisfies $(O_{III})$, there is a *closed* neighbourhood $V$ of $x$ with this property, and we may assume also that $V$ is contained in a set of $\mathcal{B}$. Let $F$ be the frontier of $V$ in $X$. By condition (i) of the theorem, $p(F)$ is closed in $Y$; and since $p(F)$ does not contain $p(x)$, there is a set $U \in \mathcal{B}$ which contains $p(x)$ and does not meet $p(F)$. Let $W$ be the component of $x$ in $\overline{p}^{-1}(U)$; then it is enough to show that $W \subset \mathbb{A}$. If this were not so, then $W$ would meet $F$ (no. 1, Proposition 3) and therefore $p(F)$ would meet $U$, contrary to the definition of $U$.
+The inverse image $\overline{p}^{-1}(p(x))$ is discrete and therefore there is a neighbourhood of $x$ in $X$ all of whose points $x'$ other than $x$ have an image $p(x') \neq p(x)$; since $X$ satisfies $(O_{III})$, there is a *closed* neighbourhood $V$ of $x$ with this property, and we may assume also that $V$ is contained in a set of $\mathscr{B}$. Let $F$ be the frontier of $V$ in $X$. By condition (i) of the theorem, $p(F)$ is closed in $Y$; and since $p(F)$ does not contain $p(x)$, there is a set $U \in \mathscr{B}$ which contains $p(x)$ and does not meet $p(F)$. Let $W$ be the component of $x$ in $\overline{p}^{-1}(U)$; then it is enough to show that $W \subset \mathbb{A}$. If this were not so, then $W$ would meet $F$ (no. 1, Proposition 3) and therefore $p(F)$ would meet $U$, contrary to the definition of $U$.
 
 #### Lemma 2 {#top-i-s11-lem-2 .statement}
 
 *If* $(W, U)$ *is a distinguished pair then the set of all distinguished pairs* $(W', U')$ *such that* $W'$ *meets* $W$ *is countable*.
 
-Since $\mathcal{B}$ is countable it is enough to show that, given $U' \in \mathcal{B}$, the set of distinguished pairs $(W', U')$ such that $W'$ meets $W$ is countable. Now these sets $W'$ are open, since $X$ is locally connected (no. 6, Proposition 11) and mutually disjoint since they are components of $\overline{p}^{-1}(U')$; hence the sets $W' \cap W$ are open and mutually disjoint. But $W$ contains a countable subset which is dense in $W$; hence the set of $W'$ such that $W' \cap W$ is not empty is also countable.
+Since $\mathscr{B}$ is countable it is enough to show that, given $U' \in \mathscr{B}$, the set of distinguished pairs $(W', U')$ such that $W'$ meets $W$ is countable. Now these sets $W'$ are open, since $X$ is locally connected (no. 6, Proposition 11) and mutually disjoint since they are components of $\overline{p}^{-1}(U')$; hence the sets $W' \cap W$ are open and mutually disjoint. But $W$ contains a countable subset which is dense in $W$; hence the set of $W'$ such that $W' \cap W$ is not empty is also countable.
 
 To prove Theorem 1, consider the following relation R between two points x, x' of X: "There exists a finite sequence of distinguished pairs (W_i, U_i) (1 \leq i \leq n) such that x \in W_1 and x' \in W_n and that W_i \cap W_{i+1} \neq \emptyset for \leq 1 i \leq n — 1."
 
@@ -277,7 +277,7 @@ First, the hypotheses imply that X is regular (§ 8, no. 4, Proposition 13). Let
 
 *Let $X$ be locally compact, connected and locally connected, and suppose each point of $X$ has a neighbourhood which has a countable base. Let $Y$ be a Hausdorff space whose topology has a countable base, and let $p : X \to Y$ be a continuous mapping such that, for each $y \in Y$, $\overline{p}^{-1}(y)$ is a discrete subspace of $X$. Then the topology of $X$ has a countable base.*
 
-For each $x \in X$, let $V_x$ be a compact neighbourhood of $x$ in $X$ which has a countable base. It follows from $§ 9$, no. 4, Theorem 2, Corollary 2, that the set $\mathcal{B}$ of the $V_x$ satisfies the conditions of Theorem 1, and we complete the proof as in Corollary 1.
+For each $x \in X$, let $V_x$ be a compact neighbourhood of $x$ in $X$ which has a countable base. It follows from $§ 9$, no. 4, Theorem 2, Corollary 2, that the set $\mathscr{B}$ of the $V_x$ satisfies the conditions of Theorem 1, and we complete the proof as in Corollary 1.
 
 Notice that, in this corollary, it can happen that the restriction of $p$ to an arbitrarily small neighbourhood $V$ of a point of $X$ *is not a homeomorphism of $V$ onto $p(V)$*.
 

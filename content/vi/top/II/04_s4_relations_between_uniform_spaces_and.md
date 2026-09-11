@@ -28,9 +28,9 @@ subsections:
       pdf_page: 210
 statements: 24
 exercises: 23
-content_sha256: b68b42c7eff43db9e9a02ec7b885999fdc57b185e2a37042b9ddf152ff634564
+content_sha256: 8915ca18e0d2678fa8ef7712d717f2beb689238af1880e167e13086981606bbc
 translated_from: content/en/top/II/04_s4_relations_between_uniform_spaces_and.md
-source_content_sha256: f2dc3cc5503e99d5ecfce12eecbf253bb8a3c69fb5a816888a36223120556915
+source_content_sha256: b8bf5d2de7d5a3ecb1c58ea701febd425b67ad98c2510195b01f49e3b03e2101
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-45b98c8e
 glossary_version: 34
@@ -68,17 +68,17 @@ $$
 W = \bigcup_{i=1,2,3} (U_i \times U_i) \text{ của } \Delta \text{ trong } X \times X.
 $$
 
-Từ các định nghĩa này suy ra ngay lập tức rằng nếu $(u, v) \in W$ và $u \in V_1$ (resp. $u \in U_1$), thì tất phải có $v \in U_1$ (resp. $v \in U_1 \cup U_3 = \mathcal{C}V_2$); do đó lân cận $V_1 \times V_2$ của $(x, y)$ trong $X \times X$ không giao với $\hat{W}$, và ta được một mâu thuẫn. Điều này kết thúc chứng minh.
+Từ các định nghĩa này suy ra ngay lập tức rằng nếu $(u, v) \in W$ và $u \in V_1$ (resp. $u \in U_1$), thì tất phải có $v \in U_1$ (resp. $v \in U_1 \cup U_3 = \mathscr{C}V_2$); do đó lân cận $V_1 \times V_2$ của $(x, y)$ trong $X \times X$ không giao với $\hat{W}$, và ta được một mâu thuẫn. Điều này kết thúc chứng minh.
 
 #### Nhận xét 1 {#top-ii-s4-n1-rem-1 .statement}
 
-Với mọi *phủ mở hữu hạn* $\mathcal{R} = (U_i)_{1 \leq i \leq n}$ của $X$, tập hợp
+Với mọi *phủ mở hữu hạn* $\mathscr{R} = (U_i)_{1 \leq i \leq n}$ của $X$, tập hợp
 
 $$
-V_{\mathcal{R}} = \bigcup_{i=1}^n (U_i \times U_i)
+V_{\mathscr{R}} = \bigcup_{i=1}^n (U_i \times U_i)
 $$
 
-là một lân cận của $\Delta$ trong $X \times X$, và các tập hợp này $V_{\mathcal{R}}$ tạo thành một *hệ lân cận cơ bản* của $\Delta$ (và do đó là một *hệ entourage cơ bản* của cấu trúc đều duy nhất trên $X$). Cho $W$ là một lân cận bất kỳ của $\Delta$ trong $X \times X$; khi đó với mỗi $x \in X$ đều tồn tại một lân cận mở $U_x$ của $x$ trong $X$ sao cho $U_x \times U_x \subset W$. Vì các $U_x$ ($x \in X$) tạo thành một phủ mở của $X$, nên tồn tại một số hữu hạn điểm $x_i$ ($1 \leq i \leq n$) sao cho các $U_{x_i}$ ($1 \leq i \leq n$) tạo thành một phủ $\mathcal{R}$ của $X$. Khi đó ta có $V_{\mathcal{R}} \subset W$, điều này chứng minh mệnh đề.
+là một lân cận của $\Delta$ trong $X \times X$, và các tập hợp này $V_{\mathscr{R}}$ tạo thành một *hệ lân cận cơ bản* của $\Delta$ (và do đó là một *hệ entourage cơ bản* của cấu trúc đều duy nhất trên $X$). Cho $W$ là một lân cận bất kỳ của $\Delta$ trong $X \times X$; khi đó với mỗi $x \in X$ đều tồn tại một lân cận mở $U_x$ của $x$ trong $X$ sao cho $U_x \times U_x \subset W$. Vì các $U_x$ ($x \in X$) tạo thành một phủ mở của $X$, nên tồn tại một số hữu hạn điểm $x_i$ ($1 \leq i \leq n$) sao cho các $U_{x_i}$ ($1 \leq i \leq n$) tạo thành một phủ $\mathscr{R}$ của $X$. Khi đó ta có $V_{\mathscr{R}} \subset W$, điều này chứng minh mệnh đề.
 
 Vì lý do này, cấu trúc đều duy nhất trên $X$ thường được gọi là *cấu trúc đều của các phủ mở hữu hạn* (xem Chương IX, § 4, Bài tập 17).
 

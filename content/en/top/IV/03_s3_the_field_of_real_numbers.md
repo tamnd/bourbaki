@@ -25,7 +25,7 @@ subsections:
       pdf_page: 347
 statements: 2
 exercises: 3
-content_sha256: 09a06def0cc19a2ce6d07eac5e95043aaf4755cf250d11490f88581170d128d1
+content_sha256: 8d33ca0ec83bcae62c7c7ba4282ccde40e530c8e05afdb00c680264216e9fbc9
 ---
 
 ## 3. THE FIELD OF REAL NUMBERS
@@ -36,7 +36,7 @@ The topology of the rational line $\mathbf{Q}$ is compatible not only with the *
 
 To show that $1/x$ is continuous on $\mathbf{Q}^*$ we shall establish more precisely that $1/x$ is *uniformly continuous* (with respect to the additive structure) in the complement of any neighbourhood V of 0. Namely we have $$
 \left| \frac{1}{x} - \frac{1}{y} \right| = \frac{|x-y|}{xy}
-$$; there exists an integer $m > 0$ such that $|x| \geq 1/m$ for each $x \in \mathcal{G}_V$; if $x$ and $y$ are any two points of $\mathcal{G}_V$ such that $|x-y| \leq 1/m^2 n$, we shall then have $$
+$$; there exists an integer $m > 0$ such that $|x| \geq 1/m$ for each $x \in \mathscr{G}_V$; if $x$ and $y$ are any two points of $\mathscr{G}_V$ such that $|x-y| \leq 1/m^2 n$, we shall then have $$
 \left| \frac{1}{x} - \frac{1}{y} \right| \leq \frac{1}{n}.
 $$
 

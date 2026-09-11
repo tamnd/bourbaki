@@ -48,7 +48,7 @@ subsections:
       pdf_page: 214
 statements: 48
 exercises: 1
-content_sha256: 511cef7155fd21079024cb1869e1136fff574208af5b48e762b71290aab041ba
+content_sha256: 2fb8b52f2d83021f0edf05b386e3fcd37d417f3a591fd37e97f8dc11058218aa
 translated_from: content/en/top/IX/06_s6_polish_spaces_souslin_spaces_borel_sets.md
 source_content_sha256: 69f92cd78f330694f81aad84eec3ecfd43d27d5eacabcc416871a1736cb0f341
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
@@ -411,7 +411,7 @@ Với mỗi số nguyên $n$, ký hiệu $S_n$ là hợp của các tập $h_n(c
 
 #### Định nghĩa 8 {#top-ix-s6-def-8 .statement}
 
-Cho $X$ là một không gian tôpô Hausdorff. Một capacity trên $X$ là một ánh xạ $f$ của tập $\mathcal{P}(X)$ gồm mọi tập con của $X$ vào đường thẳng thực mở rộng $\overline{\mathbf{R}}$, thỏa mãn các điều kiện sau:
+Cho $X$ là một không gian tôpô Hausdorff. Một capacity trên $X$ là một ánh xạ $f$ của tập $\mathscr{P}(X)$ gồm mọi tập con của $X$ vào đường thẳng thực mở rộng $\overline{\mathbf{R}}$, thỏa mãn các điều kiện sau:
 
 (CA_1) Nếu $A \subset B$, thì $f(A) \leq f(B)$.
 

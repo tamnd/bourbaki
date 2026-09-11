@@ -33,7 +33,7 @@ subsections:
       pdf_page: 266
 statements: 23
 exercises: 21
-content_sha256: fa7642815c5cf2fdae478943771af908c710a55da0864faeb5a48b1aaf54bda2
+content_sha256: a89f758dcef55a5a079c9648ef2f33ea264100af1b152624fad94eabe092dadc
 ---
 
 ## § 2. ENSEMBLES ÉQUICONTINUS
@@ -42,15 +42,15 @@ content_sha256: fa7642815c5cf2fdae478943771af908c710a55da0864faeb5a48b1aaf54bda2
 
 #### Définition 1 {#top-x-s2-def-1 .statement}
 
-Soient X un espace topologique, Y un espace uniforme. On dit qu’une partie H de $\mathcal{F}(X; Y)$ est équicontinue en un point $x_0 \in X$ si, pour tout entourage V de Y, il existe un voisinage U de $x_0$ dans X tel que, pour tout $x \in U$ et toute fonction $f \in H$, on ait $(f(x_0), f(x)) \in V$. On dit que H est équicontinue si H est équicontinue en tout point de X.
+Soient X un espace topologique, Y un espace uniforme. On dit qu’une partie H de $\mathscr{F}(X; Y)$ est équicontinue en un point $x_0 \in X$ si, pour tout entourage V de Y, il existe un voisinage U de $x_0$ dans X tel que, pour tout $x \in U$ et toute fonction $f \in H$, on ait $(f(x_0), f(x)) \in V$. On dit que H est équicontinue si H est équicontinue en tout point de X.
 
 #### Définition 2 {#top-x-s2-def-2 .statement}
 
-Soient X et Y deux espaces uniformes. On dit qu’une partie H de $\mathcal{F}(X; Y)$ est uniformément équicontinue si, pour tout entourage V de Y, il existe un entourage U de X tel que les relations $(x, x') \in U$ et $f \in H$ entraînent $(f(x), f(x')) \in V$.
+Soient X et Y deux espaces uniformes. On dit qu’une partie H de $\mathscr{F}(X; Y)$ est uniformément équicontinue si, pour tout entourage V de Y, il existe un entourage U de X tel que les relations $(x, x') \in U$ et $f \in H$ entraînent $(f(x), f(x')) \in V$.
 
 On dit qu’une famille $(f_i)_{i \in I}$ d’applications de X dans Y est équicontinue en un point $x_0$ (resp. équicontinue, uniformément équicontinue) si l’ensemble des $f_i$ est équicontinu en $x_0$ (resp. équicontinu, uniformément équicontinu).
 
-Il est clair que si $H \subset \mathcal{F}(X; Y)$ est équicontinu en $x_0$, alors toute fonction $f \in H$ est continue en $x_0$; si H est équicontinu, les $f \in H$ sont donc continues dans X, autrement dit $H \subset C(X; Y)$. De même, si H est uniformément équicontinu (X étant un espace uniforme), toute fonction $f \in H$ est uniformément continue dans X. Il est clair que si H est uniformément équicontinu, il est équicontinu, mais un ensemble d’applications uniformément continues peut être équicontinu, sans être uniformément équicontinu (voir X, p. 43, exerc. 1, X, p. 12, cor. 2 et X, p. 15, prop. 4).
+Il est clair que si $H \subset \mathscr{F}(X; Y)$ est équicontinu en $x_0$, alors toute fonction $f \in H$ est continue en $x_0$; si H est équicontinu, les $f \in H$ sont donc continues dans X, autrement dit $H \subset C(X; Y)$. De même, si H est uniformément équicontinu (X étant un espace uniforme), toute fonction $f \in H$ est uniformément continue dans X. Il est clair que si H est uniformément équicontinu, il est équicontinu, mais un ensemble d’applications uniformément continues peut être équicontinu, sans être uniformément équicontinu (voir X, p. 43, exerc. 1, X, p. 12, cor. 2 et X, p. 15, prop. 4).
 
 #### Exemple 1 {#top-x-s2-n1-exa-1 .statement}
 
@@ -76,47 +76,47 @@ Soient G un groupe topologique, Y un espace uniforme, $f$ une application unifor
 
 #### Proposition 1 {#top-x-s2-prop-1 .statement}
 
-Soient T un ensemble, $S$ un ensemble de parties de T, Y un espace uniforme, X un espace topologique (resp. un espace uniforme), et $f$ une application de $T \times X$ dans Y. Pour tout $A \in S$, soit $H_A \subset \mathcal{F}(X; Y)$ l’ensemble des applications de la forme $x \mapsto f(t, x)$ pour $t \in A$. Pour que l’application $x \mapsto f(. , x)$ de X dans $\mathcal{F}_S(T; Y)$ soit continue en un point $x_0 \in X$ (resp. uniformément continue), il faut et il suffit que, pour tout $A \in S$, l’ensemble $H_A$ soit équicontinu en $x_0$ (resp. uniformément équicontinu).
+Soient T un ensemble, $S$ un ensemble de parties de T, Y un espace uniforme, X un espace topologique (resp. un espace uniforme), et $f$ une application de $T \times X$ dans Y. Pour tout $A \in S$, soit $H_A \subset \mathscr{F}(X; Y)$ l’ensemble des applications de la forme $x \mapsto f(t, x)$ pour $t \in A$. Pour que l’application $x \mapsto f(. , x)$ de X dans $\mathscr{F}_S(T; Y)$ soit continue en un point $x_0 \in X$ (resp. uniformément continue), il faut et il suffit que, pour tout $A \in S$, l’ensemble $H_A$ soit équicontinu en $x_0$ (resp. uniformément équicontinu).
 
 Considérons d’abord le cas particulier où $S = \{T\}$, autrement dit
 $$
-\mathcal{F}_S(T; Y) = \mathcal{F}_u(T; Y).
+\mathscr{F}_S(T; Y) = \mathscr{F}_u(T; Y).
 $$
 
-Pour tout entourage V de Y, la condition $(f(., x), f(., x')) \in W(V)$ signifie que, pour tout $t \in T$, $(f(t, x), f(t, x')) \in V$. Dire que $x \mapsto f(., x)$ est continue en $x_0$ (resp. uniformément continue) signifie donc que pour tout entourage V de Y, il existe un voisinage U de $x_0$ dans X (resp. un entourage M de X) tel que la relation $x \in U$ (resp. $(x, x') \in M$) entraîne $(f(t, x), f(t, x_0)) \in V$ (resp. $(f(t, x), f(t, x')) \in V$) pour tout $t \in T$; la proposition résulte alors des déf. 1 et 2 (X, p. 2). Dans le cas général, il faut exprimer que pour tout $A \in \mathfrak{S}$, l’application $x \mapsto f(., x) | A$ de X dans $\mathcal{F}_u(A; Y)$ est continue au point $x_0$ (resp. uniformément continue) en vertu de X, p. 2; d’après ce qui précède, cela équivaut à la condition que pour tout $A \in \mathfrak{S}$, $H_A$ est équicontinu en $x_0$ (resp. uniformément équicontinu).
+Pour tout entourage V de Y, la condition $(f(., x), f(., x')) \in W(V)$ signifie que, pour tout $t \in T$, $(f(t, x), f(t, x')) \in V$. Dire que $x \mapsto f(., x)$ est continue en $x_0$ (resp. uniformément continue) signifie donc que pour tout entourage V de Y, il existe un voisinage U de $x_0$ dans X (resp. un entourage M de X) tel que la relation $x \in U$ (resp. $(x, x') \in M$) entraîne $(f(t, x), f(t, x_0)) \in V$ (resp. $(f(t, x), f(t, x')) \in V$) pour tout $t \in T$; la proposition résulte alors des déf. 1 et 2 (X, p. 2). Dans le cas général, il faut exprimer que pour tout $A \in \mathfrak{S}$, l’application $x \mapsto f(., x) | A$ de X dans $\mathscr{F}_u(A; Y)$ est continue au point $x_0$ (resp. uniformément continue) en vertu de X, p. 2; d’après ce qui précède, cela équivaut à la condition que pour tout $A \in \mathfrak{S}$, $H_A$ est équicontinu en $x_0$ (resp. uniformément équicontinu).
 
 La prop. 1 permet de donner des traductions parfois utiles des déf. 1 et 2 (X, p. 2), en l’appliquant au cas où $T = H$ et où $f$ est l’application $(h, x) \mapsto h(x)$ de $H \times X$ dans $Y$; comme $f(., x)$ est l’application $h \mapsto h(x)$ de H dans Y, on voit que:
 
 #### Corollaire 1 {#top-x-s2-prop-1-cor-1 .statement}
 
-Soient X un espace topologique (resp. un espace uniforme), Y un espace uniforme, H une partie de $\mathcal{F}(X; Y)$. Pour tout $x \in X$, désignons par $\tilde{x}$ l’application $h \mapsto h(x)$ de H dans Y. Pour que H soit équicontinu en un point $x_0$ (resp. uniformément équicontinu), il faut et il suffit que l’application $x \mapsto \tilde{x}$ de X dans l’espace uniforme $\mathcal{F}_u(H; Y)$ soit continue en $x_0$ (resp. uniformément continue).
+Soient X un espace topologique (resp. un espace uniforme), Y un espace uniforme, H une partie de $\mathscr{F}(X; Y)$. Pour tout $x \in X$, désignons par $\tilde{x}$ l’application $h \mapsto h(x)$ de H dans Y. Pour que H soit équicontinu en un point $x_0$ (resp. uniformément équicontinu), il faut et il suffit que l’application $x \mapsto \tilde{x}$ de X dans l’espace uniforme $\mathscr{F}_u(H; Y)$ soit continue en $x_0$ (resp. uniformément continue).
 
-En particulier, si X est compact, toute application continue de X dans $\mathcal{F}_u(H; Y)$ est uniformément continue (II, p. 29, th. 2), donc:
+En particulier, si X est compact, toute application continue de X dans $\mathscr{F}_u(H; Y)$ est uniformément continue (II, p. 29, th. 2), donc:
 
 #### Corollaire 2 {#top-x-s2-prop-1-cor-2 .statement}
 
-Soient X un espace compact, Y un espace uniforme. Toute partie équicontinue de $\mathcal{F}(X; Y)$ est uniformément équicontinue.
+Soient X un espace compact, Y un espace uniforme. Toute partie équicontinue de $\mathscr{F}(X; Y)$ est uniformément équicontinue.
 
-Considérons maintenant un ensemble T, un espace topologique X, un espace uniforme Y, et une application $f : T \times X \to Y$. Désignons par $\tilde{f}$ l’application $x \mapsto f(., x)$ de X dans $\mathcal{F}_u(T; Y)$, et considérons l’application canonique $\theta : (t, g) \mapsto g(t)$ de $T \times \mathcal{F}_u(T; Y)$ dans Y; il est clair que le diagramme
+Considérons maintenant un ensemble T, un espace topologique X, un espace uniforme Y, et une application $f : T \times X \to Y$. Désignons par $\tilde{f}$ l’application $x \mapsto f(., x)$ de X dans $\mathscr{F}_u(T; Y)$, et considérons l’application canonique $\theta : (t, g) \mapsto g(t)$ de $T \times \mathscr{F}_u(T; Y)$ dans Y; il est clair que le diagramme
 
 $$
 \begin{array}{ccc}
 T \times X & \xrightarrow{f} & Y \\
 \downarrow_{\iota_T \times \tilde{f}} & & \uparrow_{\theta} \\
-T \times \mathcal{F}_u(T; Y)
+T \times \mathscr{F}_u(T; Y)
 \end{array}
 $$
 
-(où $\iota_T$ est l’application identique) est commutatif. Supposons maintenant que T soit muni d’une topologie et que pour tout $x \in X$, l’application $f(., x) : t \mapsto f(t, x)$ soit continue; on peut alors, dans le diagramme précédent, remplacer $\mathcal{F}_u(T; Y)$ par $\mathcal{C}_u(T; Y)$. Mais on sait que $\theta$ est continue (X, p. 10, prop. 9); si donc l’application $\tilde{f}$ est continue, il en est de même de $f$. Comme la continuité de $\tilde{f}$ s’exprime à l’aide de la prop. 1 (X, p. 11), on a le résultat suivant:
+(où $\iota_T$ est l’application identique) est commutatif. Supposons maintenant que T soit muni d’une topologie et que pour tout $x \in X$, l’application $f(., x) : t \mapsto f(t, x)$ soit continue; on peut alors, dans le diagramme précédent, remplacer $\mathscr{F}_u(T; Y)$ par $\mathscr{C}_u(T; Y)$. Mais on sait que $\theta$ est continue (X, p. 10, prop. 9); si donc l’application $\tilde{f}$ est continue, il en est de même de $f$. Comme la continuité de $\tilde{f}$ s’exprime à l’aide de la prop. 1 (X, p. 11), on a le résultat suivant:
 
 #### Corollaire 3 {#top-x-s2-prop-1-cor-3 .statement}
 
 Soient T et X des espaces topologiques, Y un espace uniforme, f une application de T × X dans Y. Pour que f soit continue, il suffit que les conditions suivantes soient remplies:
 
 1° pour tout x ∈ X, l’application partielle t ↦ f(t, x) est continue;
-2° lorsque t parcourt T, les applications partielles x ↦ f(t, x) forment une partie équicontinue de $\mathcal{F}(X; Y)$.
+2° lorsque t parcourt T, les applications partielles x ↦ f(t, x) forment une partie équicontinue de $\mathscr{F}(X; Y)$.
 
-Prenons en particulier pour T une partie H de $\mathcal{F}(X; Y)$ et pour f l’application canonique $(h, x) \mapsto h(x)$ de H × X dans Y; la condition 1° du cor. 3 signifie que H est muni d’une topologie plus fine que celle de la convergence simple, et la condition 2° que H est équicontinue; donc:
+Prenons en particulier pour T une partie H de $\mathscr{F}(X; Y)$ et pour f l’application canonique $(h, x) \mapsto h(x)$ de H × X dans Y; la condition 1° du cor. 3 signifie que H est muni d’une topologie plus fine que celle de la convergence simple, et la condition 2° que H est équicontinue; donc:
 
 #### Corollaire 4 {#top-x-s2-prop-1-cor-4 .statement}
 
@@ -154,7 +154,7 @@ $$
 $$
 d’où la proposition.
 
-Prenons en particulier pour $T$ une partie de $\mathcal{F}(X; Y)$ muni de la structure uniforme de la convergence uniforme, et pour $f$ l’application canonique
+Prenons en particulier pour $T$ une partie de $\mathscr{F}(X; Y)$ muni de la structure uniforme de la convergence uniforme, et pour $f$ l’application canonique
 $$
 (h, x) \mapsto h(x);
 $$
@@ -162,17 +162,17 @@ la condition $2^\circ$ de la prop. 2 est automatiquement remplie, car pour tout 
 
 #### Corollaire {#top-x-s2-n1-cor-1 .statement}
 
-*Soient* $X$, $Y$ *deux espaces uniformes*, $H$ *une partie de* $\mathcal{F}(X; Y)$. *Pour que* $H$ *soit uniformément équicontinue, il faut et il suffit que l’application* $(h, x) \mapsto h(x)$ *de* $H \times X$ *dans* $Y$ *soit uniformément continue, H étant muni de la structure uniforme de la convergence uniforme*.
+*Soient* $X$, $Y$ *deux espaces uniformes*, $H$ *une partie de* $\mathscr{F}(X; Y)$. *Pour que* $H$ *soit uniformément équicontinue, il faut et il suffit que l’application* $(h, x) \mapsto h(x)$ *de* $H \times X$ *dans* $Y$ *soit uniformément continue, H étant muni de la structure uniforme de la convergence uniforme*.
 
 ### 2. Critères spéciaux d’équicontinuité
 
-Il est clair que toute partie d’un ensemble équicontinu (resp. uniformément équicontinu) est équicontinue (resp. uniformément équicontinue). De même, si $X$ est un espace topologique (resp. uniforme) et $Y$ un espace uniforme, toute réunion *finie* de parties équicontinues (resp. uniformément équicontinues) de $\mathcal{F}(X; Y)$ est équicontinue (resp. uniformément équicontinue.)
+Il est clair que toute partie d’un ensemble équicontinu (resp. uniformément équicontinu) est équicontinue (resp. uniformément équicontinue). De même, si $X$ est un espace topologique (resp. uniforme) et $Y$ un espace uniforme, toute réunion *finie* de parties équicontinues (resp. uniformément équicontinues) de $\mathscr{F}(X; Y)$ est équicontinue (resp. uniformément équicontinue.)
 
-Soient $X$, $X'$ deux espaces topologiques (resp. uniformes), $Y$, $Y'$ deux espaces uniformes, $f : X' \to X$ une application continue (resp. uniformément continue), $g : Y \to Y'$ une application uniformément continue. Il résulte aussitôt des définitions que l’application $u \mapsto g \circ u \circ f$ de $\mathcal{F}(X; Y)$ dans $\mathcal{F}(X'; Y')$ transforme les parties équicontinues (resp. uniformément équicontinues) en parties équicontinues (resp. uniformément équicontinues).
+Soient $X$, $X'$ deux espaces topologiques (resp. uniformes), $Y$, $Y'$ deux espaces uniformes, $f : X' \to X$ une application continue (resp. uniformément continue), $g : Y \to Y'$ une application uniformément continue. Il résulte aussitôt des définitions que l’application $u \mapsto g \circ u \circ f$ de $\mathscr{F}(X; Y)$ dans $\mathscr{F}(X'; Y')$ transforme les parties équicontinues (resp. uniformément équicontinues) en parties équicontinues (resp. uniformément équicontinues).
 
 #### Proposition 3 {#top-x-s2-prop-3 .statement}
 
-*Soient* $X$ *un espace topologique* (resp. *uniforme*), $(Y_i)_{i \in I}$ *une famille d’espaces uniformes*, $Y$ *un ensemble, et pour chaque* $i \in I$, *soit* $f_i$ *une application de* $Y$ *dans* $Y_i$. *On munit* $Y$ *de la structure uniforme la moins fine rendant uniformément continues les* $f_i$. *Pour qu’une partie* $H$ *de* $\mathcal{F}(X; Y)$ *soit équicontinue* (resp. *uniformément équicontinue*), *il faut et il suffit que pour tout* $i \in I$, *l’image de* $H$ *par l’application* $u \mapsto f_i \circ u$ *soit une partie équicontinue* (resp. *uniformément équicontinue*) *de* $\mathcal{F}(X; Y_i)$.
+*Soient* $X$ *un espace topologique* (resp. *uniforme*), $(Y_i)_{i \in I}$ *une famille d’espaces uniformes*, $Y$ *un ensemble, et pour chaque* $i \in I$, *soit* $f_i$ *une application de* $Y$ *dans* $Y_i$. *On munit* $Y$ *de la structure uniforme la moins fine rendant uniformément continues les* $f_i$. *Pour qu’une partie* $H$ *de* $\mathscr{F}(X; Y)$ *soit équicontinue* (resp. *uniformément équicontinue*), *il faut et il suffit que pour tout* $i \in I$, *l’image de* $H$ *par l’application* $u \mapsto f_i \circ u$ *soit une partie équicontinue* (resp. *uniformément équicontinue*) *de* $\mathscr{F}(X; Y_i)$.
 
 Cela résulte aussitôt des déf. 1 et 2 (X, p. 2) et de la définition des entourages de Y.
 
@@ -206,21 +206,21 @@ Il suffit de prouver que a) entraîne c). Soit V' un voisinage de l’élément 
 
 #### Proposition 6 {#top-x-s2-prop-6 .statement}
 
-Soient X un espace topologique (resp. uniforme), Y un espace uniforme, H une partie de $\mathcal{F}(X; Y)$. Pour que H soit équicontinue en un point $x_0 \in X$ (resp.
+Soient X un espace topologique (resp. uniforme), Y un espace uniforme, H une partie de $\mathscr{F}(X; Y)$. Pour que H soit équicontinue en un point $x_0 \in X$ (resp.
 
-uniformément équicontinue), il faut et il suffit que l’adhérence $\overline{H}$ de $H$ dans l’espace $\mathcal{F}_s(X; Y)$ soit équicontinue en $x_0$ (resp. uniformément équicontinue).
+uniformément équicontinue), il faut et il suffit que l’adhérence $\overline{H}$ de $H$ dans l’espace $\mathscr{F}_s(X; Y)$ soit équicontinue en $x_0$ (resp. uniformément équicontinue).
 
-La condition est trivialement suffisante. Pour prouver qu’elle est nécessaire, considérons un entourage $V$ de $Y$, fermé dans $Y \times Y$; par hypothèse, il existe un voisinage $U$ de $x_0$ dans $X$ (resp. un entourage $M$ de $X$) tel que la relation $x \in U$ (resp. $(x', x'') \in M$) entraîne $(h(x_0), h(x)) \in V$ (resp. $(h(x'), h(x'')) \in V$) pour tout $h \in H$. Comme $V$ est fermé, les $h \in \mathcal{F}(X; Y)$ qui vérifient la relation
+La condition est trivialement suffisante. Pour prouver qu’elle est nécessaire, considérons un entourage $V$ de $Y$, fermé dans $Y \times Y$; par hypothèse, il existe un voisinage $U$ de $x_0$ dans $X$ (resp. un entourage $M$ de $X$) tel que la relation $x \in U$ (resp. $(x', x'') \in M$) entraîne $(h(x_0), h(x)) \in V$ (resp. $(h(x'), h(x'')) \in V$) pour tout $h \in H$. Comme $V$ est fermé, les $h \in \mathscr{F}(X; Y)$ qui vérifient la relation
 $$
 (h(x_0), h(x)) \in V
 $$
-pour tout $x \in U$ (resp. la relation $(h(x'), h(x'')) \in V$ pour tout couple $(x', x'') \in M$) forment une partie fermée de $\mathcal{F}_s(X; Y)$ ($X$, p. 4, Remarque 6); comme cette partie fermée contient $H$, elle contient $\overline{H}$, d’où la proposition, puisque les entourages de $Y$ fermés dans $Y \times Y$ forment un système fondamental d’entourages (II, p. 5, cor. 2).
+pour tout $x \in U$ (resp. la relation $(h(x'), h(x'')) \in V$ pour tout couple $(x', x'') \in M$) forment une partie fermée de $\mathscr{F}_s(X; Y)$ ($X$, p. 4, Remarque 6); comme cette partie fermée contient $H$, elle contient $\overline{H}$, d’où la proposition, puisque les entourages de $Y$ fermés dans $Y \times Y$ forment un système fondamental d’entourages (II, p. 5, cor. 2).
 
 ### 4. Convergence simple et convergence compacte sur les ensembles équicontinus
 
 #### Théorème 1 {#top-x-s2-thm-1 .statement}
 
-Soient $X$ un espace topologique (resp. uniforme), $Y$ un espace uniforme, $H$ une partie équicontinue (resp. uniformément équicontinue) de $\mathcal{C}(X; Y)$. Alors, sur $H$, les structures uniformes de la convergence compacte (resp. précompacte), de la convergence simple, et de la convergence simple dans une partie partout dense $D$ de $X$, sont identiques.
+Soient $X$ un espace topologique (resp. uniforme), $Y$ un espace uniforme, $H$ une partie équicontinue (resp. uniformément équicontinue) de $\mathscr{C}(X; Y)$. Alors, sur $H$, les structures uniformes de la convergence compacte (resp. précompacte), de la convergence simple, et de la convergence simple dans une partie partout dense $D$ de $X$, sont identiques.
 
 Il suffit de montrer que sur $H$ la dernière structure uniforme est plus fine que la première; autrement dit, il faut prouver qu’étant donnés un entourage $V$ de $Y$ et une partie compacte (resp. précompacte) $A$ de $X$, il existe un entourage $W$ de $Y$ et une partie finie $F$ de $D$ tels que la relation
 $$
@@ -241,19 +241,19 @@ Si $A$ est précompact et $H$ uniformément équicontinu, utilisons la prop. 4 (
 
 #### Corollaire {#top-x-s2-n4-cor-1 .statement}
 
-*Sous les hypothèses du th. 1, l’adhérence $\overline{H}$ de $H$ dans l’espace $\mathcal{F}(X; Y)$ muni de la topologie de la convergence simple est identique à l’adhérence de $H$ dans $\mathcal{C}(X; Y)$ muni de la topologie de la convergence compacte* (resp. *précompacte*).
+*Sous les hypothèses du th. 1, l’adhérence $\overline{H}$ de $H$ dans l’espace $\mathscr{F}(X; Y)$ muni de la topologie de la convergence simple est identique à l’adhérence de $H$ dans $\mathscr{C}(X; Y)$ muni de la topologie de la convergence compacte* (resp. *précompacte*).
 
-En effet, l’ensemble $\overline{H}$ est équicontinu (resp. uniformément équicontinu) en vertu de $X$, p. 15, prop. 6, donc contenu dans $\mathcal{C}(X; Y)$; le corollaire résulte aussitôt du fait que, sur $\overline{H}$, les deux topologies considérées coïncident en vertu du th. 1.
+En effet, l’ensemble $\overline{H}$ est équicontinu (resp. uniformément équicontinu) en vertu de $X$, p. 15, prop. 6, donc contenu dans $\mathscr{C}(X; Y)$; le corollaire résulte aussitôt du fait que, sur $\overline{H}$, les deux topologies considérées coïncident en vertu du th. 1.
 
 ### 5. Ensembles compacts d’applications continues
 
 **Théorème 2** (Ascoli). — *Soient $X$ un espace topologique (resp. uniforme), $\mathfrak{S}$ un recouvrement de $X$, $Y$ un espace uniforme, $H$ un ensemble d’applications de $X$ dans $Y$; on suppose que pour tout $A \in \mathfrak{S}$, la restriction à $A$ de toute application $u \in H$ soit continue (resp. uniformément continue). Pour que $H$ soit précompact pour la structure uniforme de la $\mathfrak{S}$-convergence, il est nécessaire dans tous les cas et suffisant lorsque les ensembles $A \in \mathfrak{S}$ sont compacts (resp. précompacts), que les conditions suivantes soient vérifiées :
 
-a) *Pour tout $A \in \mathfrak{S}$, l’ensemble $H \mid A \subset \mathcal{F}(A; Y)$ des restrictions à $A$ des fonctions $u \in H$ est équicontinu* (resp. *uniformément équicontinu*).
+a) *Pour tout $A \in \mathfrak{S}$, l’ensemble $H \mid A \subset \mathscr{F}(A; Y)$ des restrictions à $A$ des fonctions $u \in H$ est équicontinu* (resp. *uniformément équicontinu*).
 
 b) *Pour tout $x \in X$, l’ensemble $H(x) \subset Y$ des $u(x)$ pour $u \in H$ est précompact.*
 
-$1^\circ$ Montrons d’abord la nécessité des conditions *a)* et *b)*. On sait ($X$, p. 4, *Remarque 6*) que l’application $u \mapsto u(x)$ de $\mathcal{F}_{\mathfrak{S}}(X; Y)$ dans $Y$ est uniformément continue ; si $H$ est précompact, il en est donc de même de $H(x)$ (II, p. 30, prop. 2), ce qui démontre *b)*. Pour prouver *a)*, considérons un ensemble $A \in \mathfrak{S}$, un point $x_0 \in A$ et un entourage $V$ de $Y$; puisque $H$ est précompact, il peut être recouvert par un nombre fini d’ensembles petits d’ordre $W(A, V)$; autrement dit, il y a une suite finie $(u_i)$ d’éléments de $H$ tels que pour tout $u \in H$, il existe au moins un indice $i$ pour lequel on ait
+$1^\circ$ Montrons d’abord la nécessité des conditions *a)* et *b)*. On sait ($X$, p. 4, *Remarque 6*) que l’application $u \mapsto u(x)$ de $\mathscr{F}_{\mathfrak{S}}(X; Y)$ dans $Y$ est uniformément continue ; si $H$ est précompact, il en est donc de même de $H(x)$ (II, p. 30, prop. 2), ce qui démontre *b)*. Pour prouver *a)*, considérons un ensemble $A \in \mathfrak{S}$, un point $x_0 \in A$ et un entourage $V$ de $Y$; puisque $H$ est précompact, il peut être recouvert par un nombre fini d’ensembles petits d’ordre $W(A, V)$; autrement dit, il y a une suite finie $(u_i)$ d’éléments de $H$ tels que pour tout $u \in H$, il existe au moins un indice $i$ pour lequel on ait
 
 $$
 (u(x), u_i(x)) \in V \quad \text{pour tout } x \in A.
@@ -272,7 +272,7 @@ $$
 
 Soit $U$ (resp. $M$) l’intersection des $U_i$ (resp. des $M_i$) qui est encore un voisinage de $x_0$ dans $A$ (resp. un entourage de $A$). Pour toute $u \in H$, il y a un indice $i$ tel que (4) ait lieu; écrivant la condition (4) pour $x_0$ et pour $x$ (resp. pour $x'$ et $x''$) et tenant compte de (5) (resp. (6)), on voit aussitôt que la relation $x \in U$ (resp. $(x', x'') \in M$) entraîne $(u(x), u(x_0)) \in \overline{V}^3$ (resp. $(u(x'), u(x'')) \in \overline{V}^3$) pour toute $u \in H$, ce qui établit la propriété $a$.
 
-2° Montrons maintenant que les conditions a) et b) sont suffisantes lorsque les $A \in \mathfrak{S}$ sont compacts (resp. précompacts). En effet la condition b) entraîne que $H$ est précompact pour la structure uniforme de la convergence simple (II, p. 31, prop. 3). Mais il résulte de la condition a) et du th. 1 (X, p. 16) que sur $H \mid A$, la structure uniforme de la convergence simple dans $A$ coïncide avec la structure de la convergence uniforme dans $A$, donc $H \mid A$ est précompact dans $\mathcal{F}_u(A; Y)$, ce qui entraîne que $H$ est précompact pour la structure uniforme de la $\mathfrak{S}$-convergence (X, p. 3).
+2° Montrons maintenant que les conditions a) et b) sont suffisantes lorsque les $A \in \mathfrak{S}$ sont compacts (resp. précompacts). En effet la condition b) entraîne que $H$ est précompact pour la structure uniforme de la convergence simple (II, p. 31, prop. 3). Mais il résulte de la condition a) et du th. 1 (X, p. 16) que sur $H \mid A$, la structure uniforme de la convergence simple dans $A$ coïncide avec la structure de la convergence uniforme dans $A$, donc $H \mid A$ est précompact dans $\mathscr{F}_u(A; Y)$, ce qui entraîne que $H$ est précompact pour la structure uniforme de la $\mathfrak{S}$-convergence (X, p. 3).
 
 On notera que la condition b) du th. 2 est toujours vérifiée lorsque $Y$ est un espace précompact.
 
@@ -280,7 +280,7 @@ On notera que la condition b) du th. 2 est toujours vérifiée lorsque $Y$ est u
 
 Soient $X$ un espace topologique (resp. uniforme), $Y$ un espace uniforme séparé, $H$ une partie équicontinue (resp. uniformément équicontinue) de $C(X; Y)$. Supposons $H(x)$ relativement compact dans $Y$ pour tout $x \in X$. Alors $H$ est relativement compact dans $C(X; Y)$ muni de la topologie de la convergence compacte (resp. précompacte).
 
-Soit $\overline{H}$ l’adhérence $H$ dans $\mathcal{F}_s(X; Y)$, qui est encore un ensemble équicontinu (resp. uniformément équicontinu) (X, p. 15, prop. 6). En outre, on a $\overline{H}(x) \subset \overline{H(x)}$ (X, p. 3, Remarque 6), donc $\overline{H}(x)$ est encore relativement compact; le th. 2 (X, p. 17) montre donc que $\overline{H}$ est précompact pour la $\mathfrak{S}$-convergence, en désignant par $\mathfrak{S}$ l’ensemble des parties compactes (resp. précompactes) de $X$. En outre, comme $\overline{H(x)}$ est compact, donc complet, $\overline{H}$ est complet pour la structure uniforme de la convergence simple (II, p. 17, prop. 10 et II, p. 16, prop. 8), donc aussi pour la structure uniforme de la $\mathfrak{S}$-convergence (X, p. 7, cor. 2); $\overline{H}$ est donc compact, puisqu’il est précompact, complet et séparé (X, p. 3, prop. 1).
+Soit $\overline{H}$ l’adhérence $H$ dans $\mathscr{F}_s(X; Y)$, qui est encore un ensemble équicontinu (resp. uniformément équicontinu) (X, p. 15, prop. 6). En outre, on a $\overline{H}(x) \subset \overline{H(x)}$ (X, p. 3, Remarque 6), donc $\overline{H}(x)$ est encore relativement compact; le th. 2 (X, p. 17) montre donc que $\overline{H}$ est précompact pour la $\mathfrak{S}$-convergence, en désignant par $\mathfrak{S}$ l’ensemble des parties compactes (resp. précompactes) de $X$. En outre, comme $\overline{H(x)}$ est compact, donc complet, $\overline{H}$ est complet pour la structure uniforme de la convergence simple (II, p. 17, prop. 10 et II, p. 16, prop. 8), donc aussi pour la structure uniforme de la $\mathfrak{S}$-convergence (X, p. 7, cor. 2); $\overline{H}$ est donc compact, puisqu’il est précompact, complet et séparé (X, p. 3, prop. 1).
 
 #### Corollaire 2 {#top-x-s2-thm-1-cor-2 .statement}
 
@@ -296,7 +296,7 @@ Compte tenu du cor. 1, il suffit de montrer que si $H$ est relativement compact 
 
 #### Remarque {#top-x-s2-n5-rem-1 .statement}
 
-Soient $X$ un espace topologique, $Y$ un espace uniforme, $\mathcal{S}$ un ensemble de parties de $X$. Alors sur toute partie précompacte $H$ de $\mathcal{F}_{\mathcal{S}}(X; Y)$, la structure uniforme de la $\mathcal{S}$-convergence est la même que la structure uniforme de la convergence simple dans $B = \bigcup_{A \in \mathcal{S}} A$. On peut se ramener au cas où $B = X$ et où $Y$ est séparé et complet: en effet, si $j$ est l’injection canonique $B \to X$ et $i$ l’application canonique $Y \to \hat{Y}$, la structure uniforme de la $\mathcal{S}$-convergence sur $\mathcal{F}(X; Y)$ est l’image réciproque de la structure uniforme de la $\mathcal{S}$-convergence sur $\mathcal{F}(B; \hat{Y})$ par l’application $\theta : u \mapsto i \circ u \circ j$ (X, p. 5, prop. 4), et pour que $H$ soit précompact, il faut et il suffit que $\theta(H)$ le soit (II, p. 31, prop. 3). Cela étant, si $B = X$ et si $Y$ est séparé et complet, $\mathcal{F}_{\mathcal{S}}(X; Y)$ est séparé et complet (X, p. 3, prop. 1 et X, p. 7, th. 1), donc l’adhérence $\overline{H}$ de $H$ dans cet espace est compacte. Sur $\overline{H}$, la topologie de la convergence simple est séparée (X, p. 3, prop. 1) et moins fine que celle de la $\mathcal{S}$-convergence, donc les deux topologies sont identiques (I, p. 63, cor. 3), et il en est par suite de même des structures uniformes de la $\mathcal{S}$-convergence et de la convergence simple (II, p. 27, th. 1).
+Soient $X$ un espace topologique, $Y$ un espace uniforme, $\mathscr{S}$ un ensemble de parties de $X$. Alors sur toute partie précompacte $H$ de $\mathscr{F}_{\mathscr{S}}(X; Y)$, la structure uniforme de la $\mathscr{S}$-convergence est la même que la structure uniforme de la convergence simple dans $B = \bigcup_{A \in \mathscr{S}} A$. On peut se ramener au cas où $B = X$ et où $Y$ est séparé et complet: en effet, si $j$ est l’injection canonique $B \to X$ et $i$ l’application canonique $Y \to \hat{Y}$, la structure uniforme de la $\mathscr{S}$-convergence sur $\mathscr{F}(X; Y)$ est l’image réciproque de la structure uniforme de la $\mathscr{S}$-convergence sur $\mathscr{F}(B; \hat{Y})$ par l’application $\theta : u \mapsto i \circ u \circ j$ (X, p. 5, prop. 4), et pour que $H$ soit précompact, il faut et il suffit que $\theta(H)$ le soit (II, p. 31, prop. 3). Cela étant, si $B = X$ et si $Y$ est séparé et complet, $\mathscr{F}_{\mathscr{S}}(X; Y)$ est séparé et complet (X, p. 3, prop. 1 et X, p. 7, th. 1), donc l’adhérence $\overline{H}$ de $H$ dans cet espace est compacte. Sur $\overline{H}$, la topologie de la convergence simple est séparée (X, p. 3, prop. 1) et moins fine que celle de la $\mathscr{S}$-convergence, donc les deux topologies sont identiques (I, p. 63, cor. 3), et il en est par suite de même des structures uniformes de la $\mathscr{S}$-convergence et de la convergence simple (II, p. 27, th. 1).
 
 ## EXERCICES {#top-x-s2-exercises}
 

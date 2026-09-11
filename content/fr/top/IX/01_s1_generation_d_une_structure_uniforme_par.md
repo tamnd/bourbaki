@@ -40,7 +40,7 @@ subsections:
       pdf_page: 130
 statements: 26
 exercises: 25
-content_sha256: 81bdb31fac21d408e69d36d14a256ed55ef672bdffb6df7d5192894226ae729f
+content_sha256: d0dc5b7fbf4a86a988a0565efd3a1a163d123255ce985acaa82d4bae2336718d
 ---
 
 ## § 1. GÉNÉRATION D’UNE STRUCTURE UNIFORME PAR UNE FAMILLE D’ÉCARTS. ESPACES UNIFORMISABLES
@@ -153,20 +153,20 @@ $$
 
 étant évidemment contenu dans le précédent.
 
-Pour toute partie finie $H$ de $I$, soit $g_H$ l’enveloppe supérieure de la famille $(f_i)_{i \in H}$; lorsque $H$ parcourt l’ensemble des parties finies de $I$ et $a$ l’ensemble des nombres $> 0$, on voit que les ensembles $g_H^{-1}((0, a])$ forment un *système fondamental d’entourages* de la structure $\mathcal{U}$. Or, les $g_H$ sont des *écarts* sur $X$ (IX, p. 2) et l’enveloppe supérieure d’un nombre fini de fonctions de la famille $(g_H)$ appartient encore par définition à cette famille; on exprimera cette propriété en disant que la famille d’écarts $(g_H)$ est *saturée*. La famille d’écarts $(g_H)$ est donc *équivalente* à la famille $(f_i)$; on dit que c’est la famille d’écarts obtenue en *saturant* $(f_i)$; ce qui précède prouve qu’on peut toujours se borner à considérer les structures uniformes définies par des familles d’écarts *saturées*.
+Pour toute partie finie $H$ de $I$, soit $g_H$ l’enveloppe supérieure de la famille $(f_i)_{i \in H}$; lorsque $H$ parcourt l’ensemble des parties finies de $I$ et $a$ l’ensemble des nombres $> 0$, on voit que les ensembles $g_H^{-1}((0, a])$ forment un *système fondamental d’entourages* de la structure $\mathscr{U}$. Or, les $g_H$ sont des *écarts* sur $X$ (IX, p. 2) et l’enveloppe supérieure d’un nombre fini de fonctions de la famille $(g_H)$ appartient encore par définition à cette famille; on exprimera cette propriété en disant que la famille d’écarts $(g_H)$ est *saturée*. La famille d’écarts $(g_H)$ est donc *équivalente* à la famille $(f_i)$; on dit que c’est la famille d’écarts obtenue en *saturant* $(f_i)$; ce qui précède prouve qu’on peut toujours se borner à considérer les structures uniformes définies par des familles d’écarts *saturées*.
 
 Dans le cas particulier où $I$ est un ensemble *fini*, ce raisonnement montre que la structure uniforme définie par la famille d’écarts $(f_i)_{i \in I}$ est aussi définie par le *seul écart* $g = \sup_{i \in I} f_i$.
 
-Soient $\mathcal{U}$, $\mathcal{U}'$ deux structures uniformes sur $X$, définies respectivement par deux familles d’écarts *saturées* $(f_i)_{i \in I}$, $(g_K)_{K \in K}$; pour que $\mathcal{U}$ soit *moins fine* que $\mathcal{U}'$, il faut et il suffit que, pour tout indice $i \in I$ et tout nombre $a > 0$, il existe un indice $k \in K$ et un nombre $b > 0$ tels que la relation $g_K(x, y) \leq b$ entraîne $f_i(x, y) \leq a$.
+Soient $\mathscr{U}$, $\mathscr{U}'$ deux structures uniformes sur $X$, définies respectivement par deux familles d’écarts *saturées* $(f_i)_{i \in I}$, $(g_K)_{K \in K}$; pour que $\mathscr{U}$ soit *moins fine* que $\mathscr{U}'$, il faut et il suffit que, pour tout indice $i \in I$ et tout nombre $a > 0$, il existe un indice $k \in K$ et un nombre $b > 0$ tels que la relation $g_K(x, y) \leq b$ entraîne $f_i(x, y) \leq a$.
 
-*Exemple de structure uniforme définie par une famille d’écarts.* Soit $(f_i)_{i \in I}$ une famille quelconque de *fonctions numériques* (finies) définies dans un ensemble $X$. Soit $\mathcal{U}$ la structure uniforme la moins fine sur $X$ rendant uniformément continues les $f_i$ (II, p. 8); il résulte de la définition des entourages de $\mathcal{U}$ (II, p. 8), que $\mathcal{U}$ est identique à la structure uniforme définie sur $X$ par les écarts
+*Exemple de structure uniforme définie par une famille d’écarts.* Soit $(f_i)_{i \in I}$ une famille quelconque de *fonctions numériques* (finies) définies dans un ensemble $X$. Soit $\mathscr{U}$ la structure uniforme la moins fine sur $X$ rendant uniformément continues les $f_i$ (II, p. 8); il résulte de la définition des entourages de $\mathscr{U}$ (II, p. 8), que $\mathscr{U}$ est identique à la structure uniforme définie sur $X$ par les écarts
 $$
 g_i(x, y) = |f_i(x) - f_i(y)|.
 $$
 
 ### 3. Propriétés des structures uniformes définies par des familles d’écarts
 
-Soit $\mathcal{U}$ une structure uniforme définie sur un ensemble $X$ par une famille d’écarts finis $(f_i)$; si on munit $X \times X$ de la structure uniforme produit de $\mathcal{U}$ par elle-même, chacune des fonctions numériques $f_i$ est *uniformément continue* dans $X \times X$; on a en effet, d’après (1)
+Soit $\mathscr{U}$ une structure uniforme définie sur un ensemble $X$ par une famille d’écarts finis $(f_i)$; si on munit $X \times X$ de la structure uniforme produit de $\mathscr{U}$ par elle-même, chacune des fonctions numériques $f_i$ est *uniformément continue* dans $X \times X$; on a en effet, d’après (1)
 $$
 |f_i(x, y) - f_i(x', y')| \leq f_i(x, x') + f_i(y, y')
 $$
@@ -174,27 +174,27 @@ donc les relations $f_i(x, x') \leq \varepsilon/2, f_i(y, y') \leq \varepsilon/2
 $$
 |f_i(x, y) - f_i(x', y')| \leq \varepsilon.
 $$
-Pour que $\mathcal{U}$ soit *séparée*, il faut et il suffit, d’après la définition des entourages de $\mathcal{U}$, que pour tout couple de points *distincts* $x, y$ de $X$, il existe un indice $i$ tel que $f_i(x, y) \neq 0$.
+Pour que $\mathscr{U}$ soit *séparée*, il faut et il suffit, d’après la définition des entourages de $\mathscr{U}$, que pour tout couple de points *distincts* $x, y$ de $X$, il existe un indice $i$ tel que $f_i(x, y) \neq 0$.
 
-En particulier, si $\mathcal{U}$ est définie par *un seul écart* $f$, pour que $\mathcal{U}$ soit séparée, il faut et il suffit que la relation $f(x, y) = 0$ entraîne $x = y$ (cf. IX, p. 11).
+En particulier, si $\mathscr{U}$ est définie par *un seul écart* $f$, pour que $\mathscr{U}$ soit séparée, il faut et il suffit que la relation $f(x, y) = 0$ entraîne $x = y$ (cf. IX, p. 11).
 
-Lorsque $\mathcal{U}$ n’est pas séparée, l’intersection de tous les entourages de $\mathcal{U}$ est la partie de $X \times X$ formée des couples $(x, y)$ tels que $f_i(x, y) = 0$ pour tout $i$; cette partie est le graphe d’une relation d’équivalence R sur X, et la structure uniforme séparée associée à $\mathcal{U}$ est définie sur $X/R$ (cf. II, p. 25). On voit alors aisément que les fonctions $f_i$ sont compatibles (en $x$ et en $y$) avec la relation R (E, II, p. 44) et que les fonctions $\tilde{f}_i$ obtenues par passage au quotient (pour $x$ et $y$) à partir des $f_i$, sont des écarts sur $X/R$ définissant la structure uniforme séparée associée à $\mathcal{U}$ (cf. IX, p. 11).
+Lorsque $\mathscr{U}$ n’est pas séparée, l’intersection de tous les entourages de $\mathscr{U}$ est la partie de $X \times X$ formée des couples $(x, y)$ tels que $f_i(x, y) = 0$ pour tout $i$; cette partie est le graphe d’une relation d’équivalence R sur X, et la structure uniforme séparée associée à $\mathscr{U}$ est définie sur $X/R$ (cf. II, p. 25). On voit alors aisément que les fonctions $f_i$ sont compatibles (en $x$ et en $y$) avec la relation R (E, II, p. 44) et que les fonctions $\tilde{f}_i$ obtenues par passage au quotient (pour $x$ et $y$) à partir des $f_i$, sont des écarts sur $X/R$ définissant la structure uniforme séparée associée à $\mathscr{U}$ (cf. IX, p. 11).
 
-Si Y est une partie non vide de X, la restriction à $Y \times Y$ d’un écart sur X est évidemment un écart sur Y ; il est clair que la structure uniforme induite par $\mathcal{U}$ sur Y est définie par la famille des restrictions à $Y \times Y$ des écarts $f_i$.
+Si Y est une partie non vide de X, la restriction à $Y \times Y$ d’un écart sur X est évidemment un écart sur Y ; il est clair que la structure uniforme induite par $\mathscr{U}$ sur Y est définie par la famille des restrictions à $Y \times Y$ des écarts $f_i$.
 
-Étudions maintenant le complété de l’espace uniforme X, lorsque $\mathcal{U}$ est séparée.
+Étudions maintenant le complété de l’espace uniforme X, lorsque $\mathscr{U}$ est séparée.
 
 #### Proposition 1 {#top-ix-s1-prop-1 .statement}
 
-*Soit X un espace uniforme séparé, dont la structure uniforme $\mathcal{U}$ est définie par une famille d’écarts finis ($f_i$); soit $\hat{X}$ le complété de X. Les fonctions $f_i$ se prolongent par continuité à $\hat{X} \times \hat{X}$; les fonctions prolongées $\tilde{f}_i$ sont des écarts finis sur $\hat{X}$, et la structure uniforme de $\hat{X}$ est identique à la structure uniforme définie par la famille ($\tilde{f}_i$).*
+*Soit X un espace uniforme séparé, dont la structure uniforme $\mathscr{U}$ est définie par une famille d’écarts finis ($f_i$); soit $\hat{X}$ le complété de X. Les fonctions $f_i$ se prolongent par continuité à $\hat{X} \times \hat{X}$; les fonctions prolongées $\tilde{f}_i$ sont des écarts finis sur $\hat{X}$, et la structure uniforme de $\hat{X}$ est identique à la structure uniforme définie par la famille ($\tilde{f}_i$).*
 
-Tout d’abord, les $f_i$ peuvent être prolongées par continuité à $\hat{X} \times \hat{X}$, puisqu’elles sont uniformément continues dans $X \times X$, et les fonctions prolongées $\tilde{f}_i$ sont uniformément continues dans $\hat{X} \times \hat{X}$ (II, p. 20, th. 2); en outre, ce sont des écarts sur $\hat{X}$, en vertu du principe de prolongement des inégalités (IV, p. 18, th. 1). Désignons par $\mathcal{U}_1$ la structure uniforme sur $\hat{X}$ obtenue par complétion, par $\mathcal{U}_2$ la structure uniforme définie par la famille d’écarts ($\tilde{f}_i$). La structure $\mathcal{U}_2$ est *moins fine* que $\mathcal{U}_1$; en effet chacune des $\tilde{f}_i$ est uniformément continue dans $\hat{X} \times \hat{X}$, quand on munit $\hat{X}$ de la structure $\mathcal{U}_1$; pour tout $a > 0$, il existe donc un entourage V de la structure $\mathcal{U}_1$ tel que, pour tout couple $(x, y) \in V$, on ait
+Tout d’abord, les $f_i$ peuvent être prolongées par continuité à $\hat{X} \times \hat{X}$, puisqu’elles sont uniformément continues dans $X \times X$, et les fonctions prolongées $\tilde{f}_i$ sont uniformément continues dans $\hat{X} \times \hat{X}$ (II, p. 20, th. 2); en outre, ce sont des écarts sur $\hat{X}$, en vertu du principe de prolongement des inégalités (IV, p. 18, th. 1). Désignons par $\mathscr{U}_1$ la structure uniforme sur $\hat{X}$ obtenue par complétion, par $\mathscr{U}_2$ la structure uniforme définie par la famille d’écarts ($\tilde{f}_i$). La structure $\mathscr{U}_2$ est *moins fine* que $\mathscr{U}_1$; en effet chacune des $\tilde{f}_i$ est uniformément continue dans $\hat{X} \times \hat{X}$, quand on munit $\hat{X}$ de la structure $\mathscr{U}_1$; pour tout $a > 0$, il existe donc un entourage V de la structure $\mathscr{U}_1$ tel que, pour tout couple $(x, y) \in V$, on ait
 
 $$
 |\tilde{f}_i(x, y) - \tilde{f}_i(x, x)| \leq a,\text{ c’est-à-dire (puisque } \tilde{f}_i(x, x) = 0\text{)}\ V \subset \frac{1}{\tilde{f}_i}((0, a)) ;
 $$
 
-tout entourage de la structure $\mathcal{U}_2$ est donc un entourage de la structure $\mathcal{U}_1$. D’autre part, $\mathcal{U}_1$ et $\mathcal{U}_2$ induisent sur X la *même* structure uniforme $\mathcal{U}$. Comme $\hat{X}$ est *complet* pour $\mathcal{U}_1$, il s’ensuit que $\mathcal{U}_1$ et $\mathcal{U}_2$ sont *identiques*, en vertu de II, p. 23, prop. 14.
+tout entourage de la structure $\mathscr{U}_2$ est donc un entourage de la structure $\mathscr{U}_1$. D’autre part, $\mathscr{U}_1$ et $\mathscr{U}_2$ induisent sur X la *même* structure uniforme $\mathscr{U}$. Comme $\hat{X}$ est *complet* pour $\mathscr{U}_1$, il s’ensuit que $\mathscr{U}_1$ et $\mathscr{U}_2$ sont *identiques*, en vertu de II, p. 23, prop. 14.
 
 ### 4. Construction d’une famille d’écarts définissant une structure uniforme
 
@@ -202,19 +202,19 @@ L’intérêt du mode de définition d’une structure uniforme par une famille 
 
 #### Théorème 1 {#top-ix-s1-thm-1 .statement}
 
-*Étant donnée une structure uniforme $\mathcal{U}$ sur un ensemble X, il existe une famille d’écarts sur X telle que la structure uniforme définie par cette famille soit identique à $\mathcal{U}$.*
+*Étant donnée une structure uniforme $\mathscr{U}$ sur un ensemble X, il existe une famille d’écarts sur X telle que la structure uniforme définie par cette famille soit identique à $\mathscr{U}$.*
 
-Pour tout entourage V de la structure uniforme $\mathcal{U}$, définissons par récurrence une suite d’entourages symétriques $(\mathbf{U}_n)$ telle que $\mathbf{U}_1 \subset V$, et $\mathbf{U}_{n+1}^2 \subset \mathbf{U}_n$ quel que soit $n \geqslant 1$; la suite $(\mathbf{U}_n)$ est un système fondamental d’entourages d’une structure uniforme $\mathcal{U}_V$ moins fine que $\mathcal{U}$; en outre, il est clair que $\mathcal{U}$ est la *borne supérieure* de toutes les structures $\mathcal{U}_V$, lorsque V parcourt le filtre des entourages de $\mathcal{U}$. Le th. 1 sera donc une conséquence de la proposition suivante:
+Pour tout entourage V de la structure uniforme $\mathscr{U}$, définissons par récurrence une suite d’entourages symétriques $(\mathbf{U}_n)$ telle que $\mathbf{U}_1 \subset V$, et $\mathbf{U}_{n+1}^2 \subset \mathbf{U}_n$ quel que soit $n \geqslant 1$; la suite $(\mathbf{U}_n)$ est un système fondamental d’entourages d’une structure uniforme $\mathscr{U}_V$ moins fine que $\mathscr{U}$; en outre, il est clair que $\mathscr{U}$ est la *borne supérieure* de toutes les structures $\mathscr{U}_V$, lorsque V parcourt le filtre des entourages de $\mathscr{U}$. Le th. 1 sera donc une conséquence de la proposition suivante:
 
 #### Proposition 2 {#top-ix-s1-prop-2 .statement}
 
-*Si une structure uniforme $\mathcal{U}$ sur $X$ possède un système fondamental dénombrable d’entourages, il existe un écart $f$ sur $X$ tel que $\mathcal{U}$ soit identique à la structure uniforme définie par $f$.*
+*Si une structure uniforme $\mathscr{U}$ sur $X$ possède un système fondamental dénombrable d’entourages, il existe un écart $f$ sur $X$ tel que $\mathscr{U}$ soit identique à la structure uniforme définie par $f$.*
 
-Soit $(V_n)$ un système fondamental dénombrable d’entourages de $\mathcal{U}$; définissons par récurrence une suite $(\mathbf{U}_n)$ d’entourages symétriques de la structure $\mathcal{U}$ tels que $\mathbf{U}_1 \subset V_1$, et
+Soit $(V_n)$ un système fondamental dénombrable d’entourages de $\mathscr{U}$; définissons par récurrence une suite $(\mathbf{U}_n)$ d’entourages symétriques de la structure $\mathscr{U}$ tels que $\mathbf{U}_1 \subset V_1$, et
 $$
 \mathbf{U}_{n+1}^3 \subset \mathbf{U}_n \cap V_n \quad \text{pour } n \geqslant 1.
 $$
-Il est clair que $(\mathbf{U}_n)$ est encore un système fondamental d’entourages de $\mathcal{U}$, et on a en particulier $\mathbf{U}_{n+1}^3 \subset \mathbf{U}_n$ pour $n \geqslant 1$. Définissons comme suit une fonction numérique $g$ dans $X \times X$: $g(x, y) = 0$ si $(x, y) \in \mathbf{U}_n$ pour tout $n$; $g(x, y) = 2^{-k}$ si $(x, y) \in \mathbf{U}_n$ pour $1 \leqslant n \leqslant k$, mais $(x, y) \notin \mathbf{U}_{k+1}$; $g(x, y) = 1$ si $(x, y) \notin \mathbf{U}_1$. La fonction $g$ est symétrique, positive, et on a $g(x, x) = 0$ pour tout $x \in X$. Posons
+Il est clair que $(\mathbf{U}_n)$ est encore un système fondamental d’entourages de $\mathscr{U}$, et on a en particulier $\mathbf{U}_{n+1}^3 \subset \mathbf{U}_n$ pour $n \geqslant 1$. Définissons comme suit une fonction numérique $g$ dans $X \times X$: $g(x, y) = 0$ si $(x, y) \in \mathbf{U}_n$ pour tout $n$; $g(x, y) = 2^{-k}$ si $(x, y) \in \mathbf{U}_n$ pour $1 \leqslant n \leqslant k$, mais $(x, y) \notin \mathbf{U}_{k+1}$; $g(x, y) = 1$ si $(x, y) \notin \mathbf{U}_1$. La fonction $g$ est symétrique, positive, et on a $g(x, x) = 0$ pour tout $x \in X$. Posons
 $$
 f(x, y) = \inf \sum_{i=0}^{p-1} g(z_i, z_{i+1})
 $$
@@ -245,13 +245,13 @@ $$
 
 Par l’hypothèse de récurrence, on a $g(z_0, z_h) \leq a, g(z_{h+1}, z_p) \leq a$; d’autre part, on a évidemment $g(z_h, z_{h+1}) \leq a$. Soit $k$ le plus petit entier $> 0$ tel que $2^{-k} \leq a$; on a $k \geq 2$, et $(z_0, z_h) \in U_k, (z_h, z_{h+1}) \in U_k,$ et $(z_{h+1}, z_0) \in U_k$ d’après la définition de $g$; donc $(z_0, z_p) \in U_k \subset U_{k-1}$, ce qui entraîne $g(z_0, z_p) \leq 2^{1-k} \leq 2a$.
 
-Cela étant, les inégalités (2) montrent que, pour tout $a > 0$, l’ensemble $f^{-1}([0, a])$ contient $U_k$ pour tout indice $k$ tel que $2^{-k} < a$, et inversement que tout $U_k$ contient l’ensemble $f^{-1}([0, 2^{-k-1}])$; les ensembles $f^{-1}([0, a])$ forment donc un système fondamental d’entourages de la structure $\mathcal{U}$.
+Cela étant, les inégalités (2) montrent que, pour tout $a > 0$, l’ensemble $f^{-1}([0, a])$ contient $U_k$ pour tout indice $k$ tel que $2^{-k} < a$, et inversement que tout $U_k$ contient l’ensemble $f^{-1}([0, 2^{-k-1}])$; les ensembles $f^{-1}([0, a])$ forment donc un système fondamental d’entourages de la structure $\mathscr{U}$.
 
 C.Q.F.D.
 
 #### Remarque {#top-ix-s1-n4-rem-1 .statement}
 
-Une structure uniforme $\mathcal{U}$ sur $X$ est définie par la famille $\Phi$ de tous les écarts sur $X$ qui sont uniformément continus dans $X \times X$. En effet, il est clair que la structure uniforme définie par la famille $\Phi$ est moins fine que $\mathcal{U}$; d’autre part, le th. 1 prouve qu’il existe une sous-famille de $\Phi$ qui définit la structure uniforme $\mathcal{U}$, donc la structure uniforme définie par $\Phi$ est plus fine que $\mathcal{U}$, ce qui achève de montrer qu’elle est identique à $\mathcal{U}$.
+Une structure uniforme $\mathscr{U}$ sur $X$ est définie par la famille $\Phi$ de tous les écarts sur $X$ qui sont uniformément continus dans $X \times X$. En effet, il est clair que la structure uniforme définie par la famille $\Phi$ est moins fine que $\mathscr{U}$; d’autre part, le th. 1 prouve qu’il existe une sous-famille de $\Phi$ qui définit la structure uniforme $\mathscr{U}$, donc la structure uniforme définie par $\Phi$ est plus fine que $\mathscr{U}$, ce qui achève de montrer qu’elle est identique à $\mathscr{U}$.
 
 ### 5. Espaces uniformisables
 
@@ -274,7 +274,7 @@ Il revient au même, d’après le th. 2, de dire qu’un espace est complèteme
 
 #### Remarque {#top-ix-s1-n5-rem-1 .statement}
 
-L’axiome (O_{IV}) entraîne (O_{III}) (cf. I, p. 56, car si V est un voisinage de $x_0$, et $f$ une fonction numérique continue dans $X$, à valeurs dans $(0, 1)$, telle que $f(x_0) = 0, f(x) = 1$ pour tout $x \in \mathcal{V}$, l’ensemble $f^{-1}([0, \frac{1}{2}])$ est un voisinage fermé de $x_0$ contenu dans V. En particulier, tout espace complètement régulier est régulier (ce qui justifie la terminologie). On peut par contre donner des exemples d’espaces réguliers qui ne sont pas complètement réguliers (IX, p. 85, exerc. 8), ce qui montre que (O_{III}) n’entraîne pas (O_{IV}).
+L’axiome (O_{IV}) entraîne (O_{III}) (cf. I, p. 56, car si V est un voisinage de $x_0$, et $f$ une fonction numérique continue dans $X$, à valeurs dans $(0, 1)$, telle que $f(x_0) = 0, f(x) = 1$ pour tout $x \in \mathscr{V}$, l’ensemble $f^{-1}([0, \frac{1}{2}])$ est un voisinage fermé de $x_0$ contenu dans V. En particulier, tout espace complètement régulier est régulier (ce qui justifie la terminologie). On peut par contre donner des exemples d’espaces réguliers qui ne sont pas complètement réguliers (IX, p. 85, exerc. 8), ce qui montre que (O_{III}) n’entraîne pas (O_{IV}).
 
 On sait (II, p. 27, th. 1) que tout espace compact est complètement régulier, et par suite aussi tout sous-espace d’un espace compact. Nous pouvons maintenant compléter cette proposition en démontrant sa réciproque ; autrement dit :
 

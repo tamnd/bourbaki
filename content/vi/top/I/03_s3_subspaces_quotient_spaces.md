@@ -36,9 +36,9 @@ subsections:
       pdf_page: 48
 statements: 24
 exercises: 16
-content_sha256: 02d4fa030446f2eb936ce2abeba59d620a86045baaf2dbbd184bd226162c3137
+content_sha256: 0e35618dc36551879b63884ab9316801ce880598ecf6fe5fb144b3db1dc65a65
 translated_from: content/en/top/I/03_s3_subspaces_quotient_spaces.md
-source_content_sha256: 3268e44c8c9d9e92545692b234c169a265647c5944508f6c4bba34e83499677d
+source_content_sha256: 04d1e655840e6eac8e294c10017eed88424cafec438e249919ce4eb73c82de1d
 translation_model: gpt-5.4
 translation_run: translate-vi-254c0b55
 glossary_version: 34
@@ -60,7 +60,7 @@ Cho $A$ là một tập con của một không gian tôpô $X$. Tôpô cảm sin
 
 Tôpô cảm sinh trên tập hợp $\mathbf{Z}$ các số nguyên bởi tôpô của đường thẳng hữu tỉ là tôpô rời rạc, vì giao của $\mathbf{Z}$ với khoảng mở $]n - 1/2, n + 1/2[$ là tập hợp $\{ n \}$.
 
-Theo Mệnh đề 5 của § 2, no. 3 (hoặc trực tiếp từ Định nghĩa 1), ta thấy rằng, nếu $B \subset A \subset X$, không gian con $B$ của $X$ đồng nhất với không gian con $B$ của không gian con $A$ của $X$ (tính bắc cầu của các tôpô cảm sinh). Nếu $\mathcal{G}$ là một cơ sở con (resp. một cơ sở) của tôpô của $X$ ($§ 2$, no. 3, Ví dụ 3) thì vết $\mathcal{G}_A$ của nó trên $A$ là một cơ sở con (resp. một cơ sở) của tôpô cảm sinh trên $A$.
+Theo Mệnh đề 5 của § 2, no. 3 (hoặc trực tiếp từ Định nghĩa 1), ta thấy rằng, nếu $B \subset A \subset X$, không gian con $B$ của $X$ đồng nhất với không gian con $B$ của không gian con $A$ của $X$ (tính bắc cầu của các tôpô cảm sinh). Nếu $\mathscr{G}$ là một cơ sở con (resp. một cơ sở) của tôpô của $X$ ($§ 2$, no. 3, Ví dụ 3) thì vết $\mathscr{G}_A$ của nó trên $A$ là một cơ sở con (resp. một cơ sở) của tôpô cảm sinh trên $A$.
 
 Trong mọi câu hỏi có liên quan đến các phần tử hoặc các tập con của $A$, điều cốt yếu là phải phân biệt cẩn thận giữa các tính chất của chúng như những điểm (tương ứng, những tập con) của $X$, và các tính chất của chúng như những điểm (tương ứng, những tập con) của không gian con $A$. Ta sẽ thực hiện sự phân biệt này bằng cách dùng các cụm từ "trong $A$", "đối với $A$", hoặc "tương đối đối với $A$" để chỉ các tính chất thuộc loại sau (có thể đối chiếu chúng với các cụm từ "trong $X$", "đối với $X$", "tương đối đối với $X$").
 
@@ -102,7 +102,7 @@ Bây giờ giả sử rằng b) được thỏa mãn; lại do tính đối ng�
 
 #### Nhận xét {#top-i-s3-n1-rem-1 .statement}
 
-Cho $(U_i)_{i \in I}$ là một phủ *mở* của một không gian tôpô $X$, và với mỗi $i \in I$ cho $\mathcal{B}_i$ là một *cơ sở* của tôpô của không gian con $U_i$ của $X$; khi đó hiển nhiên là $\mathcal{B} = \bigcup_{i \in I} \mathcal{B}_i$ là một *cơ sở* của tôpô của $X$.
+Cho $(U_i)_{i \in I}$ là một phủ *mở* của một không gian tôpô $X$, và với mỗi $i \in I$ cho $\mathscr{B}_i$ là một *cơ sở* của tôpô của không gian con $U_i$ của $X$; khi đó hiển nhiên là $\mathscr{B} = \bigcup_{i \in I} \mathscr{B}_i$ là một *cơ sở* của tôpô của $X$.
 
 ### 2. TÍNH LIÊN TỤC ĐỐI VỚI MỘT KHÔNG GIAN CON
 

@@ -47,7 +47,7 @@ chapters:
           statements: 23
           exercises: 10
           extraction: ocr
-          content_sha256: 3a696a2ba7595e18e902bd98cff631fa00210213e3f21a762a7168d48f4ae59c
+          content_sha256: 7db1167a8b2ca309c7bbcd8b702cf9601f9cbacc799741b198ec174436a2c499
         - kind: section
           section: 2
           title: Fonctions continues
@@ -60,7 +60,7 @@ chapters:
           statements: 30
           exercises: 12
           extraction: ocr
-          content_sha256: dbdc66bc8f9ab4254506e013eb58494246bd3d2613c30e0d530cd4c0872e1e3a
+          content_sha256: d055a796daa440c3cde6115fe7cf1bdecdca7d2cf2199e28f239a8c06d876392
         - kind: section
           section: 3
           title: Sous-espaces; espaces quotients
@@ -73,7 +73,7 @@ chapters:
           statements: 23
           exercises: 16
           extraction: ocr
-          content_sha256: 8f3e8c51c65e8658f192fbec94abe7c09eee805e66a19ea2daa3243d1a0988ef
+          content_sha256: c92a2a6f990e79fa793940095c7f322289c40184362f2b0a0640144b03d6098b
         - kind: section
           section: 4
           title: Produit d’espaces topologiques
@@ -86,7 +86,7 @@ chapters:
           statements: 21
           exercises: 10
           extraction: ocr
-          content_sha256: c5e8bc3d0246c8dffd05dcc00a8d75345c75d23ad88acc1bae1dccf4b636ecd7
+          content_sha256: 8ef86854261cfe9f4541410af972aaf0ff54d970a00d34aabaedd83e40fb68f1
         - kind: section
           section: 5
           title: Applications ouvertes et applications fermées
@@ -99,7 +99,7 @@ chapters:
           statements: 25
           exercises: 7
           extraction: ocr
-          content_sha256: 4020d4a2dd332ee47e49fa05c38fcf9c87134c29dfa27ba1909ac716e5aa3558
+          content_sha256: ba57d2525465e7d05cdc66c5c42fa2c3afed745f9af1dbdd3eacb15816611b3c
         - kind: section
           section: 6
           title: Filtres
@@ -112,7 +112,7 @@ chapters:
           statements: 29
           exercises: 20
           extraction: ocr
-          content_sha256: b042b015a8c18f06cd3667b0ba26e507005e3526693c0fd684a68f2ea4d54e7a
+          content_sha256: 88a209837e6729321a41d121c14d5dd15223a4aeac5ea514211e3b42b1c419f4
         - kind: section
           section: 7
           title: Limites
@@ -125,7 +125,7 @@ chapters:
           statements: 21
           exercises: 7
           extraction: ocr
-          content_sha256: bc2addaaee2f4206e2ce66ef346b284e6c4baf2741fe18895a24b69310e3d606
+          content_sha256: 6fb98f67007bf36dade05fec8677270c433d1fc7fac23b478e8bda7a632ac0dc
         - kind: section
           section: 8
           title: Espaces séparés et espaces réguliers
@@ -137,7 +137,7 @@ chapters:
           statements: 30
           exercises: 29
           extraction: ocr
-          content_sha256: f472259f3a32097d9cb039ad4372a434012db74a7176394063cd9d13f33d95c7
+          content_sha256: d2ed7738551894ee679e3e80f8e994621625580cb77d886397178959c914aed2
         - kind: section
           section: 9
           title: Espaces compacts et espaces localement compacts
@@ -150,7 +150,7 @@ chapters:
           statements: 50
           exercises: 31
           extraction: ocr
-          content_sha256: 7ce00e5a228592d6fad05a9a6fb23a06c4f343f099c9624a1c06e8f973d61805
+          content_sha256: 8ce0c12cd70d5a4f66fa446cb85c81de540200d640db29c253470d76c2a9544e
         - kind: section
           section: 10
           title: Applications propres
@@ -163,7 +163,7 @@ chapters:
           statements: 30
           exercises: 25
           extraction: ocr
-          content_sha256: b7c0026c11a62e7e8bc121c792ef5e6cf80c8525c8f16f001bedf5104a303325
+          content_sha256: b0d397c992c50cf072295c2b9fa117d8a3c77991ae554fbdaacd37918183da76
         - kind: section
           section: 11
           title: Connexion
@@ -175,7 +175,7 @@ chapters:
           statements: 29
           exercises: 29
           extraction: ocr
-          content_sha256: 2d6c3fb9aa50475b7f50ea6a4a3b44fcce29e93543ce19f5f6571a3a70aea3c5
+          content_sha256: 00c0e7abf24086abed49bbce2797b502a9bc9ab541ea0f9cc84ebe6bd036d674
         - kind: historical
           title: Historical Note
           path: content/fr/top/I/historical_note.md
@@ -210,7 +210,7 @@ chapters:
           statements: 14
           exercises: 5
           extraction: ocr
-          content_sha256: 6288b483aef86cdb0dac40f4076086ed2473b9ef34afd6ac94d9e5de7de025f4
+          content_sha256: c175959bb468914ef0938323da9b85ac9146e0dbd8841b3154342bb6597997b8
         - kind: section
           section: 2
           title: Fonctions uniformément continues
@@ -223,7 +223,7 @@ chapters:
           statements: 26
           exercises: 6
           extraction: ocr
-          content_sha256: 06111a5a700b7737aa975f4b4cb3dd88e2bb2e7dc8c3c4b422bffdb563447b1f
+          content_sha256: fff82ada117a0bdf24cbe5ff4cdfb504c5677df2ca9f0a5563f0869f88119eac
         - kind: section
           section: 3
           title: Espaces complets
@@ -236,7 +236,7 @@ chapters:
           statements: 47
           exercises: 7
           extraction: ocr
-          content_sha256: 7b3962f40687de1412eac7b21507079e0cc5f58948a2fab1fecfc3ae3fc562cc
+          content_sha256: 8a31fd9798fd55a0356a035123f3558f85d3587641a4930ec35095eb530f1f93
         - kind: section
           section: 4
           title: Relations entre espaces uniformes et espaces compacts
@@ -249,7 +249,7 @@ chapters:
           statements: 24
           exercises: 26
           extraction: ocr
-          content_sha256: 24a2100c7cc0d3ea1bced67c85c6191269d314297435893540570ef24dc000ed
+          content_sha256: 9dc2c7ce4ac4d39a0204017ab32066416b9261f24bf21f67789b195fb4500fd9
         - kind: historical
           title: Historical Note
           path: content/fr/top/II/historical_note.md
@@ -284,7 +284,7 @@ chapters:
           statements: 11
           exercises: 9
           extraction: ocr
-          content_sha256: 7776acd7bfae78ca9f67e9183ca719fdef316dd21713053f3630629a009ebb09
+          content_sha256: 3621842f7d91afb7b7f4a8caf16dad34d5d97c00ad6f16f5473de6aef5ff7384
         - kind: section
           section: 2
           title: Sous-groupes; groupes quotients; homomorphismes; espaces homogènes; groupes produits
@@ -310,7 +310,7 @@ chapters:
           statements: 19
           exercises: 12
           extraction: ocr
-          content_sha256: b5d803ce4aeed8102e51e5356d16ec750a2ff3e58b462fa6ba5877831112f0cb
+          content_sha256: 2d390e314fe1812524b0f8217fab8f1309ea05296ad8f6f5fd93273680e1effd
         - kind: section
           section: 4
           title: Groupes opérant proprement dans un espace topologique. Compacité dans les groupes topologiques et les espaces à opérateurs
@@ -323,7 +323,7 @@ chapters:
           statements: 33
           exercises: 25
           extraction: ocr
-          content_sha256: 8f8e406c4f43a7ad7c78f10282c1fa4ef54b3c6d5a8681180780e2f6a40e23d2
+          content_sha256: afd7cf67cda6a5c878e478b63f4d11b8739d7d86b4a2dd87f5a0061d72d81800
         - kind: section
           section: 5
           title: Sommes infinies dans les groupes commutatifs
@@ -336,7 +336,7 @@ chapters:
           statements: 21
           exercises: 6
           extraction: ocr
-          content_sha256: 4feb8ea76c1b1eafb8f7f4a619f2881784f62ff52bacf148b3e50053f846ff44
+          content_sha256: 4a163895ab6ae0abf38f322d1da098b8c5fff23f5d15ca1eed3fe0f8546c2180
         - kind: section
           section: 6
           title: Groupes topologiques à opérateurs ; anneaux topologiques ; corps topologiques
@@ -349,7 +349,7 @@ chapters:
           statements: 24
           exercises: 29
           extraction: ocr
-          content_sha256: 9aa1f2536123b2c4066711ece128e1f7f11d3f3d41a246330b29205994aa21a8
+          content_sha256: bc11720c4c8f83c503a76708962c403cca90b1048d81f76a5954a109106bf565
         - kind: section
           section: 7
           title: Limites projectives de groupes et d’anneaux topologiques
@@ -397,7 +397,7 @@ chapters:
           statements: 10
           exercises: 4
           extraction: ocr
-          content_sha256: fd5df639616d82158cf8dca2be2e0311092966782b7f22cb8d09501aa2eff54e
+          content_sha256: 4968f9d1326325d20e2b740e18fd90666cfb70d17bab80c9449bab6c775434e7
         - kind: section
           section: 2
           title: Propriétés topologiques fondamentales de la droite numérique
@@ -410,7 +410,7 @@ chapters:
           statements: 13
           exercises: 16
           extraction: ocr
-          content_sha256: 842a87d576784909c12db349ec9b48782447457e381a492f4bfcc8417b49fe3b
+          content_sha256: aa277126515e54e642c0f823539a049d38c8c95374f7d5347f4e9ff127c1134d
         - kind: section
           section: 3
           title: Le corps des nombres réels
@@ -423,7 +423,7 @@ chapters:
           statements: 2
           exercises: 3
           extraction: ocr
-          content_sha256: 4129deba33be1efb7e47422fe54b0ec337320d02914e0b8adb5465c22b24ea28
+          content_sha256: 191b999113067fbd9cc920173cfd24ac8cd5d90b4c61976b8fe38f9841a1a7df
         - kind: section
           section: 4
           title: La droite numérique achevée
@@ -449,7 +449,7 @@ chapters:
           statements: 29
           exercises: 18
           extraction: ocr
-          content_sha256: 8ec7cc47403277d79bf66884ad4d3671e9b0ad48466a3154d7d41196f4a8fda9
+          content_sha256: 839e9651150603e08092d12967798fa6499cb065c0927fef11e9595eb67243d8
         - kind: section
           section: 6
           title: Fonctions numériques continues et fonctions numériques semi-continues
@@ -475,7 +475,7 @@ chapters:
           statements: 26
           exercises: 22
           extraction: ocr
-          content_sha256: bd260491dd1441dcc19d98698ff22398e4eb75bdf06991ab6d267d3178fc6a6b
+          content_sha256: cb2613c23409c5d75dd8ea6ead064d1027b74bdeee294d0911ec20e16b910e37
         - kind: section
           section: 8
           title: Développements usuels des nombres réels
@@ -498,7 +498,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 6c2059f6a4460cc5f1c767894d31d2bbf88260d2e8f101cd21ce12de3746a2cc
+          content_sha256: a2f817bd6d9352f8ba6fe3d6217910a969941d16ea3c8c25f52fb3b6bdf47de1
 notation_index:
     kind: notation
     title: INDEX DES NOTATIONS

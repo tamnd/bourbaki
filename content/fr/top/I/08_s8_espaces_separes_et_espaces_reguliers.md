@@ -36,7 +36,7 @@ subsections:
       pdf_page: 70
 statements: 30
 exercises: 29
-content_sha256: f472259f3a32097d9cb039ad4372a434012db74a7176394063cd9d13f33d95c7
+content_sha256: d2ed7738551894ee679e3e80f8e994621625580cb77d886397178959c914aed2
 ---
 
 ## § 8. ESPACES SÉPARÉS ET ESPACES RÉGULIERS
@@ -102,7 +102,7 @@ L’axiome (H) est appelé axiome de Hausdorff.
 Tout espace discret est séparé. La droite rationnelle $\mathbf{Q}$ est séparée, car si $x, y$ sont deux nombres rationnels tels que $x < y$, et $z$ un nombre rationnel tel que $x < z < y$, les voisinages respectifs $]\leftarrow, z[$ et $]z, \rightarrow[$ de $x$ et $y$ ne se rencontrent pas.
 Un ensemble $X$ ayant au moins deux points et muni de la topologie la moins fine (I, p. 11) n’est pas un espace séparé.
 
-Soit $f : X \to Y$ une application d’un ensemble $X$ dans un espace séparé $Y$; il résulte aussitôt de la prop. 1 que $f$ ne peut avoir qu’une seule limite suivant un filtre $\mathcal{F}$ sur $X$, et que si $f$ a une limite $y$ suivant $\mathcal{F}$, $y$ est la seule valeur d’adhérence de $f$ suivant $\mathcal{F}$.
+Soit $f : X \to Y$ une application d’un ensemble $X$ dans un espace séparé $Y$; il résulte aussitôt de la prop. 1 que $f$ ne peut avoir qu’une seule limite suivant un filtre $\mathscr{F}$ sur $X$, et que si $f$ a une limite $y$ suivant $\mathscr{F}$, $y$ est la seule valeur d’adhérence de $f$ suivant $\mathscr{F}$.
 
 #### Proposition 2 {#top-i-s8-prop-2 .statement}
 
@@ -167,9 +167,9 @@ En effet, soit X = $\prod_{i \in I} X_i$ un produit d’espaces topologiques ; p
 
 #### Corollaire 1 {#top-i-s8-prop-7-cor-1 .statement}
 
-Soient X un ensemble, $(Y_i)_{i \in I}$ une famille d’espaces topologiques séparés, et pour chaque i ∈ I, soit f_i une application de X dans Y_i. On munit X de la topologie $\mathcal{T}$ la moins fine rendant continues les f_i. Pour que X soit séparé, il faut et il suffit que pour tout couple (x, y) de points distincts de X, il existe i ∈ I tel que f_i(x) ≠ f_i(y).
+Soient X un ensemble, $(Y_i)_{i \in I}$ une famille d’espaces topologiques séparés, et pour chaque i ∈ I, soit f_i une application de X dans Y_i. On munit X de la topologie $\mathscr{T}$ la moins fine rendant continues les f_i. Pour que X soit séparé, il faut et il suffit que pour tout couple (x, y) de points distincts de X, il existe i ∈ I tel que f_i(x) ≠ f_i(y).
 
-La condition est suffisante en vertu de la prop. 5 de I, p. 54. Inversement, pour prouver que la condition est nécessaire, on peut, en vertu de la prop. 7 de I, p. 54 et de la prop. 3 de I, p. 26, se ramener au cas où I est réduit à un seul élément, autrement dit au cas où $\mathcal{T}$ est l’image réciproque par $f : X \to Y$ d’une topologie séparée. Mais si $f(x) = f(y)$ pour deux points distincts $x, y$ de $X$, il est clair que tout ensemble ouvert (pour $\mathcal{T}$) qui contient $x$ contient aussi $y$, d’où notre assertion.
+La condition est suffisante en vertu de la prop. 5 de I, p. 54. Inversement, pour prouver que la condition est nécessaire, on peut, en vertu de la prop. 7 de I, p. 54 et de la prop. 3 de I, p. 26, se ramener au cas où I est réduit à un seul élément, autrement dit au cas où $\mathscr{T}$ est l’image réciproque par $f : X \to Y$ d’une topologie séparée. Mais si $f(x) = f(y)$ pour deux points distincts $x, y$ de $X$, il est clair que tout ensemble ouvert (pour $\mathscr{T}$) qui contient $x$ contient aussi $y$, d’où notre assertion.
 
 #### Corollaire 2 {#top-i-s8-prop-7-cor-2 .statement}
 

@@ -24,7 +24,7 @@ subsections:
       pdf_page: 188
 statements: 11
 exercises: 9
-content_sha256: 7776acd7bfae78ca9f67e9183ca719fdef316dd21713053f3630629a009ebb09
+content_sha256: 3621842f7d91afb7b7f4a8caf16dad34d5d97c00ad6f16f5473de6aef5ff7384
 ---
 
 ## § 1. TOPOLOGIES DE GROUPES
@@ -69,7 +69,7 @@ De même, considérons, dans le groupe additif $\mathbf{R} \times \mathbf{R}$, l
 
 Soient $E$ un espace topologique, $f$ et $g$ deux applications de $E$ dans un groupe topologique $G$. Si $f$ et $g$ sont continues en un point $x_0 \in E$, il en est de même\footnote{On rappelle que $f^{-1}$ est l’application $x \mapsto (f(x))^{-1}, fg$ l’application $x \mapsto f(x)g(x)$; on aura soin de ne pas confondre ces applications avec $f^{-1}$ et $f \circ g$ (lorsque ces dernières sont définies) (E, II, p. 17 et p. 16).} de $f^{-1}$ et $fg$, d’après le théorème des fonctions composées (I, p. 10, th. 2); en particulier, les applications continues de $E$ dans $G$ forment un *sous-groupe* du groupe $G^E$ des applications de $E$ dans $G$.
 
-De même, soient $f$ et $g$ deux applications d’un ensemble $E$ *filtré* par un filtre $\mathcal{F}$, dans un groupe topologique *séparé* $G$. Si $\lim_{\mathcal{F}} f$ et $\lim_{\mathcal{F}} g$ existent, il en est de même de $\lim_{\mathcal{F}} f^{-1}$ et $\lim_{\mathcal{F}} fg$, et l’on a (I, p. 50, cor. 1) (1) $\lim_{\mathfrak{F}} f^{-1} = (\lim_{\mathfrak{F}} f)^{-1}$
+De même, soient $f$ et $g$ deux applications d’un ensemble $E$ *filtré* par un filtre $\mathscr{F}$, dans un groupe topologique *séparé* $G$. Si $\lim_{\mathscr{F}} f$ et $\lim_{\mathscr{F}} g$ existent, il en est de même de $\lim_{\mathscr{F}} f^{-1}$ et $\lim_{\mathscr{F}} fg$, et l’on a (I, p. 50, cor. 1) (1) $\lim_{\mathfrak{F}} f^{-1} = (\lim_{\mathfrak{F}} f)^{-1}$
 
 (2) $\lim_{\mathfrak{F}} fg = (\lim_{\mathfrak{F}} f)(\lim_{\mathfrak{F}} g).$
 
@@ -152,7 +152,7 @@ Conformément aux définitions générales (E, IV, p. 6) un isomorphisme f d’u
 
 Par exemple, si a est un point quelconque de G, l’application x ↦ axa⁻¹ est un isomorphisme de G sur G, c’est-à-dire (loc. cit.) un automorphisme du groupe topologique G, qu’on appelle automorphisme intérieur.
 
-Si une topologie $\mathcal{T}$ est compatible avec la structure de groupe d’un groupe $G$, et si $G^0$ désigne le groupe topologique obtenu en munissant le groupe opposé de $G$ de la topologie $\mathcal{T}$, la symétrie $x \mapsto x^{-1}$ est un *isomorphisme* du groupe topologique $G$ sur le groupe topologique $G^0$.
+Si une topologie $\mathscr{T}$ est compatible avec la structure de groupe d’un groupe $G$, et si $G^0$ désigne le groupe topologique obtenu en munissant le groupe opposé de $G$ de la topologie $\mathscr{T}$, la symétrie $x \mapsto x^{-1}$ est un *isomorphisme* du groupe topologique $G$ sur le groupe topologique $G^0$.
 
 #### Définition 2 {#top-iii-s1-def-2 .statement}
 

@@ -28,9 +28,9 @@ subsections:
       pdf_page: 111
 statements: 30
 exercises: 20
-content_sha256: d022289888d8f07e9399efd680fa81eef58ccfeecfdfcf09cdd0f6f79b2eabe3
+content_sha256: 8621fe89040162ff1d85817105649a60b2048c073393d4fa065ded0a559495e9
 translated_from: content/en/top/I/10_s10_proper_mappings.md
-source_content_sha256: 4090cf2d28c3566332e20a1f373d65f57c9a4a96f1defbe488f43340f5366b01
+source_content_sha256: a578ae95d7d778d449c8eae63c8c9ece381c7729d0159c7fbf2afbdd42950e28
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-ad2f2242
 glossary_version: 34
@@ -171,7 +171,7 @@ Trong tiểu mục này ta sẽ ký hiệu bởi $P$ một không gian gồm m�
 
 (Ta sẽ thấy sau đây một chút (Định lý 1, Hệ quả 1) rằng tính chất này đặc trưng hóa các không gian quasi-compact.)
 
-Chúng ta có thể tự hạn chế vào trường hợp $X$ không rỗng. Cho $\mathcal{F}$ là một lọc trên $X$, và $X' = X \cup \{ \omega \}$ là không gian tôpô liên kết với $\mathcal{F}$ ($§ 6$, no. 5, Ví dụ). Gọi $\Delta$ là tập con của $X \times X'$ gồm tất cả các $(x, x)$ trong đó $x \in X$, và gọi $F = \overline{\Delta}$ là bao đóng của $\Delta$ trong $X \times X'$. Theo giả thiết về $X$, ảnh của $F$ qua phép chiếu $X \times X' \to X'$ là đóng trong $X'$; ảnh này chứa $X$ và do đó chứa $\omega$, là điểm thuộc bao đóng của $X$; nói cách khác, tồn tại một điểm $x \in X$ sao cho $(x, \omega) \in F$. Theo định nghĩa của tôpô của $X \times X'$, điều này có nghĩa là, với mỗi lân cận $V$ của $x$ trong $X$ và mỗi $M \in \mathcal{F}$, ta có $(V \times M) \cap \Delta \neq \emptyset$, tức là $V \cap M \neq \emptyset$, do đó $x$ là một điểm tụ của lọc $\mathcal{F}$, và vì vậy $X$ là quasi-compact.
+Chúng ta có thể tự hạn chế vào trường hợp $X$ không rỗng. Cho $\mathscr{F}$ là một lọc trên $X$, và $X' = X \cup \{ \omega \}$ là không gian tôpô liên kết với $\mathscr{F}$ ($§ 6$, no. 5, Ví dụ). Gọi $\Delta$ là tập con của $X \times X'$ gồm tất cả các $(x, x)$ trong đó $x \in X$, và gọi $F = \overline{\Delta}$ là bao đóng của $\Delta$ trong $X \times X'$. Theo giả thiết về $X$, ảnh của $F$ qua phép chiếu $X \times X' \to X'$ là đóng trong $X'$; ảnh này chứa $X$ và do đó chứa $\omega$, là điểm thuộc bao đóng của $X$; nói cách khác, tồn tại một điểm $x \in X$ sao cho $(x, \omega) \in F$. Theo định nghĩa của tôpô của $X \times X'$, điều này có nghĩa là, với mỗi lân cận $V$ của $x$ trong $X$ và mỗi $M \in \mathscr{F}$, ta có $(V \times M) \cap \Delta \neq \emptyset$, tức là $V \cap M \neq \emptyset$, do đó $x$ là một điểm tụ của lọc $\mathscr{F}$, và vì vậy $X$ là quasi-compact.
 
 Q.E.D.
 
@@ -181,16 +181,16 @@ Q.E.D.
 
 a) $f$ là thực sự.
 b) $f$ là đóng và $\overline{f}^{-1}(y)$ là quasi-compact với mỗi $y \in Y$.
-c) *Nếu $\mathcal{F}$ là một lọc trên $X$ và nếu $y \in Y$ là một điểm tụ của $f(\mathcal{F})$ thì tồn tại một điểm tụ $x$ của $\mathcal{F}$ sao cho $f(x) = y$.*
-d) *Nếu $\mathcal{U}$ là một siêu lọc trên $X$ và nếu $y \in Y$ là một điểm giới hạn của cơ sở lọc $f(\mathcal{U})$, thì tồn tại một điểm giới hạn $x$ của $\mathcal{U}$ sao cho $f(x) = y$.*
+c) *Nếu $\mathscr{F}$ là một lọc trên $X$ và nếu $y \in Y$ là một điểm tụ của $f(\mathscr{F})$ thì tồn tại một điểm tụ $x$ của $\mathscr{F}$ sao cho $f(x) = y$.*
+d) *Nếu $\mathscr{U}$ là một siêu lọc trên $X$ và nếu $y \in Y$ là một điểm giới hạn của cơ sở lọc $f(\mathscr{U})$, thì tồn tại một điểm giới hạn $x$ của $\mathscr{U}$ sao cho $f(x) = y$.*
 
 a) $\Longrightarrow$ b): Nếu $f$ là thực sự thì $f$ là đóng (no. 1, Mệnh đề 1) và với mỗi $y \in Y$ ánh xạ $f_{|y|} : \overline{f}^{-1}(y) \to \{ y \}$ là thực sự [no. 1, Mệnh đề 3a)]. Theo Bổ đề 1, điều này suy ra rằng $\overline{f}^{-1}(y)$ là quasi-compact.
 
-b) $\Longrightarrow$ c): Giả sử $\mathfrak{F}$ và $y$ thỏa mãn các giả thiết của c). Gọi $\mathcal{B}$ là cơ sở lọc trên $X$ được tạo bởi các bao đóng của các tập hợp thuộc $\mathfrak{F}$. Vì $f$ là đóng, ta có $f(\overline{M}) = f(M)$ với mỗi $M \in \mathfrak{F}$ (§ 5, no. 4, Mệnh đề 9). Điều này cho thấy các tập hợp $\overline{M} \cap \overline{f}^{-1}(y)$ là không rỗng với mọi $M \in \mathfrak{F}$, và do đó tạo thành một cơ sở lọc trên $\overline{f}^{-1}(y)$ mà các phần tử của nó là các tập con đóng của $\overline{f}^{-1}(y)$. Vì $\overline{f}^{-1}(y)$ là quasi-compact, tồn tại một điểm $x \in \overline{f}^{-1}(y)$ thuộc tất cả các tập hợp $M$ khi $M$ chạy qua $\mathfrak{F}$. Do đó $f(x) = y$ và $x$ là một điểm tụ của $\mathfrak{F}$.
+b) $\Longrightarrow$ c): Giả sử $\mathfrak{F}$ và $y$ thỏa mãn các giả thiết của c). Gọi $\mathscr{B}$ là cơ sở lọc trên $X$ được tạo bởi các bao đóng của các tập hợp thuộc $\mathfrak{F}$. Vì $f$ là đóng, ta có $f(\overline{M}) = f(M)$ với mỗi $M \in \mathfrak{F}$ (§ 5, no. 4, Mệnh đề 9). Điều này cho thấy các tập hợp $\overline{M} \cap \overline{f}^{-1}(y)$ là không rỗng với mọi $M \in \mathfrak{F}$, và do đó tạo thành một cơ sở lọc trên $\overline{f}^{-1}(y)$ mà các phần tử của nó là các tập con đóng của $\overline{f}^{-1}(y)$. Vì $\overline{f}^{-1}(y)$ là quasi-compact, tồn tại một điểm $x \in \overline{f}^{-1}(y)$ thuộc tất cả các tập hợp $M$ khi $M$ chạy qua $\mathfrak{F}$. Do đó $f(x) = y$ và $x$ là một điểm tụ của $\mathfrak{F}$.
 
 c) $\Longrightarrow$ d): Tầm thường.
 
-d) $\Longrightarrow$ a): Trước hết, ta chứng minh rằng nếu d) được thỏa mãn thì $f$ là một ánh xạ đóng. Cho $A$ là một tập con đóng khác rỗng của $X$ và cho $\mathfrak{F}$ là bộ lọc gồm các tập con của $X$ chứa $A$. Khi đó $A$ là tập hợp các điểm tụ của $\mathfrak{F}$. Cho $B$ là tập hợp các điểm tụ của cơ sở lọc $f(\mathfrak{F})$ trên $Y$; $B$ là đóng và rõ ràng chứa $f(A)$; ta sẽ chứng minh rằng $B = f(A)$. Cho $y \in B$ và cho $\mathcal{B}$ là bộ lọc lân cận của $y$ trong $Y$; theo giả thiết, mọi tập hợp của $\mathfrak{W} = \overline{f}^{-1}(\mathcal{B})$ đều gặp mọi tập hợp của $\mathfrak{F}$; do đó $\mathfrak{W}$ là một cơ sở lọc trên $X$ và tồn tại một siêu lọc $U$ trên $X$ mịn hơn cả $\mathfrak{F}$ lẫn bộ lọc có cơ sở là $\mathfrak{W}$ (§ 6, no. 2, Mệnh đề 1, Hệ quả 1 và no. 4, Định lý 1). Siêu lọc có cơ sở là $f(U)$ mịn hơn $\mathcal{B}$ và do đó hội tụ về $y$. Theo d), tồn tại một điểm $x \in X$ sao cho $f(x) = y$ và $U$ hội tụ về $x$; vì $U$ mịn hơn $\mathfrak{F}$, $x$ là một điểm tụ của $\mathfrak{F}$; do đó $x \in A$. Điều này chứng tỏ rằng $B = f(A)$ và do đó $f$ là đóng.
+d) $\Longrightarrow$ a): Trước hết, ta chứng minh rằng nếu d) được thỏa mãn thì $f$ là một ánh xạ đóng. Cho $A$ là một tập con đóng khác rỗng của $X$ và cho $\mathfrak{F}$ là bộ lọc gồm các tập con của $X$ chứa $A$. Khi đó $A$ là tập hợp các điểm tụ của $\mathfrak{F}$. Cho $B$ là tập hợp các điểm tụ của cơ sở lọc $f(\mathfrak{F})$ trên $Y$; $B$ là đóng và rõ ràng chứa $f(A)$; ta sẽ chứng minh rằng $B = f(A)$. Cho $y \in B$ và cho $\mathscr{B}$ là bộ lọc lân cận của $y$ trong $Y$; theo giả thiết, mọi tập hợp của $\mathfrak{W} = \overline{f}^{-1}(\mathscr{B})$ đều gặp mọi tập hợp của $\mathfrak{F}$; do đó $\mathfrak{W}$ là một cơ sở lọc trên $X$ và tồn tại một siêu lọc $U$ trên $X$ mịn hơn cả $\mathfrak{F}$ lẫn bộ lọc có cơ sở là $\mathfrak{W}$ (§ 6, no. 2, Mệnh đề 1, Hệ quả 1 và no. 4, Định lý 1). Siêu lọc có cơ sở là $f(U)$ mịn hơn $\mathscr{B}$ và do đó hội tụ về $y$. Theo d), tồn tại một điểm $x \in X$ sao cho $f(x) = y$ và $U$ hội tụ về $x$; vì $U$ mịn hơn $\mathfrak{F}$, $x$ là một điểm tụ của $\mathfrak{F}$; do đó $x \in A$. Điều này chứng tỏ rằng $B = f(A)$ và do đó $f$ là đóng.
 
 Để hoàn tất chứng minh, ta phải chỉ ra rằng $f \times \iota_Z$ là đóng với mọi không gian tôpô $Z$. Từ những gì đã chứng minh, chỉ cần chỉ ra rằng nếu $f$ thỏa mãn điều kiện d), thì $f \times \iota_Z$ cũng vậy. Đây là một hệ quả của bổ đề tổng quát sau:
 
@@ -244,9 +244,9 @@ Cho $X$ là một tập hợp, và cho $f : X \to X'$ là một ánh xạ từ $
 
 Khi $Y$ là _Hausdorff_, điều kiện d) của Định lý 1 tương đương với điều kiện sau:
 
-d') _Nếu_ $\mathcal{U}$ _là một siêu lọc trên_ $X$ _sao cho_ $f(\mathcal{U})$ _là một cơ sở lọc hội tụ, thì_ $\mathcal{U}$ _là hội tụ_.
+d') _Nếu_ $\mathscr{U}$ _là một siêu lọc trên_ $X$ _sao cho_ $f(\mathscr{U})$ _là một cơ sở lọc hội tụ, thì_ $\mathscr{U}$ _là hội tụ_.
 
-Vì nếu $\mathcal{U}$ hội tụ đến $x$ và $f(\mathcal{U})$ hội tụ đến $y$, thì tính duy nhất của giới hạn trong $Y$ và tính liên tục của $f$ cho thấy ta phải có $y = f(x)$. Tương tự, vì Y là Hausdorff, điều kiện c) của Định lý 1 tương đương với:
+Vì nếu $\mathscr{U}$ hội tụ đến $x$ và $f(\mathscr{U})$ hội tụ đến $y$, thì tính duy nhất của giới hạn trong $Y$ và tính liên tục của $f$ cho thấy ta phải có $y = f(x)$. Tương tự, vì Y là Hausdorff, điều kiện c) của Định lý 1 tương đương với:
 
 c') *Nếu $\mathfrak{F}$ là một bộ lọc trên X sao cho $f(\mathfrak{F})$ có một điểm tụ, thì $\mathfrak{F}$ có một điểm tụ.*
 

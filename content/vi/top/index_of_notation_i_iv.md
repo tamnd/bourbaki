@@ -12,7 +12,7 @@ pdf_pages: 0425-0426
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 7204e70a442a89cda70049645ee681d174b7c710e6fce267b80909d5a0f53b70
+content_sha256: af019532fd6a888ed9c25c79fa4c558356637891058167b17d2c7e331bee4e1f
 translated_from: content/en/top/index_of_notation_i_iv.md
 source_content_sha256: afdc09f22d573b905c8e7b7ec2b7df3cd50b116ab6b06bc92cb4b26823dea181
 translation_model: gpt-5-6-mini
@@ -37,14 +37,14 @@ $\lim_{x \geq a, x \in A} f(x), \lim_{x \geq a, x \neq a} f(x)$ : I, 7, 5.
 $f_T$ : I, 5, 1.
 $t_X$ : I, 10.
 Fr (A) (A là một tập con của một không gian tôpô) : I, 1, Bài tập 5.
-\mathcal{T}_0(X), \mathcal{T}_+(X), \mathcal{T}_-(X) : I, 2, Bài tập 5.
-\mathfrak{B}_0(X), \mathcal{T}_\Omega, \mathcal{T}_\Phi : I, 2, Bài tập 7.
-\mathfrak{F}(X), \mathcal{T}_\Theta : I, 8, Bài tập 12.
-\mathcal{T}^* : I, 8, Bài tập 20.
+\mathscr{T}_0(X), \mathscr{T}_+(X), \mathscr{T}_-(X) : I, 2, Bài tập 5.
+\mathfrak{B}_0(X), \mathscr{T}_\Omega, \mathscr{T}_\Phi : I, 2, Bài tập 7.
+\mathfrak{F}(X), \mathscr{T}_\Theta : I, 8, Bài tập 12.
+\mathscr{T}^* : I, 8, Bài tập 20.
 \mathfrak{K}(X) : I, 9, Bài tập 13.
 \varprojlim X_\alpha [(X_\alpha) là một hệ ngược của các không gian đều] : II, 2, 7.
 \hat{X} (phép hoàn thành Hausdorff của một không gian đều X) : II, 3, 7.
-\tilde{\mathcal{U}}, \mathcal{T}(\tilde{\mathcal{U}}) : II, 1, Bài tập 5.
+\tilde{\mathscr{U}}, \mathscr{T}(\tilde{\mathscr{U}}) : II, 1, Bài tập 5.
 X/G (G là một nhóm tác động trên một không gian X) : III, 2, 4.
 
 P(K, L) (K, L là các tập con của một không gian có các toán tử) : III, 4, 5.
@@ -79,7 +79,7 @@ sup $f(x)$, inf $f(x)$ ($f$ là một hàm giá trị thực) : IV, 5, 4.
 
 sup $f_i$, sup $f_i$, inf $f_i$, inf $f_i$ ($f_i$ là các hàm giá trị thực) : IV, 5, 5.
 
-lim sup $\mathcal{G} f$, lim inf $\mathcal{G} f$, lim sup $x, \mathcal{G} f(x)$, lim inf $x, \mathcal{G} f(x) :$ IV, 5, 6.
+lim sup $\mathscr{G} f$, lim inf $\mathscr{G} f$, lim sup $x, \mathscr{G} f(x)$, lim inf $x, \mathscr{G} f(x) :$ IV, 5, 6.
 
 lim sup $f$, lim inf $f$, lim sup $x f(x)$, lim inf $x f(x) :$ IV, 5, 6.
 

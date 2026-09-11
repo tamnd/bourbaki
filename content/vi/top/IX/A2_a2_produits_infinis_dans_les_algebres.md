@@ -26,11 +26,11 @@ subsections:
       pdf_page: 202
 statements: 16
 exercises: 8
-content_sha256: b1bfc94a8b240499291e6fe0f86be9bbcaa859a864cf08b41dba589fd8eaa4b4
+content_sha256: 8a83a4ae57594f6d2e6bac9502eeb06cd004276b030548a30482f15683feb2c1
 translated_from: content/en-mt/top/IX/A2_a2_produits_infinis_dans_les_algebres.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 15e574616b9216e369d5739775c51f5a56269afe461ad7819939a1d7fc3a9931
+source_content_sha256: 2fe7f596f7a8dcff7358c8fef9bcf1e3955a7283c9c8cff9e17445b96a9d361d
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-1f1a38a2
 glossary_version: 34
@@ -50,7 +50,7 @@ Cho $(x_n)_{n \geq N}$ là một dãy vô hạn các điểm của $A$; mỗi t�
 
 #### Định nghĩa 1 {#top-ix-a2-def-1 .statement}
 
-Ta nói rằng dãy $(x_n)_{n \geq N}$ là khả tích trong đại số định chuẩn $A$ nếu ánh xạ $J \mapsto p_J$ có một giới hạn theo bộ lọc các thiết diện của tập hợp $\mathcal{F}(\mathbf{N})$ các tập con hữu hạn của $\mathbf{N}$, được sắp thứ tự bởi quan hệ $\subset$; giới hạn này được gọi là tích của dãy $(x_n)_{n \in \mathbf{N}}$, và được ký hiệu $\prod_{n \in \mathbf{N}} x_n$ (hoặc đơn giản là $\prod_n x_n$); các $x_n$ được gọi là các thừa số của tích này.
+Ta nói rằng dãy $(x_n)_{n \geq N}$ là khả tích trong đại số định chuẩn $A$ nếu ánh xạ $J \mapsto p_J$ có một giới hạn theo bộ lọc các thiết diện của tập hợp $\mathscr{F}(\mathbf{N})$ các tập con hữu hạn của $\mathbf{N}$, được sắp thứ tự bởi quan hệ $\subset$; giới hạn này được gọi là tích của dãy $(x_n)_{n \in \mathbf{N}}$, và được ký hiệu $\prod_{n \in \mathbf{N}} x_n$ (hoặc đơn giản là $\prod_n x_n$); các $x_n$ được gọi là các thừa số của tích này.
 
 Định nghĩa 1 tương đương với định nghĩa sau: dãy $(x_n)$ là khả tích và có tích $p$ nếu, với mọi $\varepsilon > 0$, tồn tại một tập con hữu hạn $J_0$ của $\mathbf{N}$ sao cho, với mọi tập con hữu hạn $J \supset J_0$ của $\mathbf{N}$, ta có $\|p_J - p\| \leq \varepsilon$.
 
@@ -82,7 +82,7 @@ $$
 \| \mathbf{p}_H - \mathbf{p}_{H_1} \| \leq (\| \mathbf{p}_{H_0} \|)^{-1} \| \mathbf{p}_{H_1} \| \varepsilon \leq \varepsilon (1 + \varepsilon).
 $$
 
-Tiêu chuẩn Cauchy do đó chỉ ra rằng $J \mapsto \mathbf{p}_J$ có một giới hạn trong $A$ theo tập lọc $\mathcal{F}(\mathbf{N})$.
+Tiêu chuẩn Cauchy do đó chỉ ra rằng $J \mapsto \mathbf{p}_J$ có một giới hạn trong $A$ theo tập lọc $\mathscr{F}(\mathbf{N})$.
 
 Nếu tất cả các $x_n$ đều khả nghịch, điều tương tự cũng đúng đối với tất cả các tích từng phần hữu hạn $p_J$; với mọi tập con hữu hạn $H$ chứa $H_0$, do đó có thể viết
 

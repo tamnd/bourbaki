@@ -53,7 +53,7 @@ subsections:
       pdf_page: 81
 statements: 50
 exercises: 31
-content_sha256: 7ce00e5a228592d6fad05a9a6fb23a06c4f343f099c9624a1c06e8f973d61805
+content_sha256: 8ce0c12cd70d5a4f66fa446cb85c81de540200d640db29c253470d76c2a9544e
 ---
 
 ## § 9. ESPACES COMPACTS ET ESPACES LOCALEMENT COMPACTS
@@ -97,9 +97,9 @@ Les espaces quasi-compacts non séparés sont surtout utiles dans les applicatio
 
 #### Théorème 1 {#top-i-s9-thm-1 .statement}
 
-*Soit $\mathcal{F}$ un filtre sur un espace quasi-compact X, et soit A l’ensemble des points adhérents à $\mathcal{F}$. Tout voisinage de A appartient alors à $\mathcal{F}$.*
+*Soit $\mathscr{F}$ un filtre sur un espace quasi-compact X, et soit A l’ensemble des points adhérents à $\mathscr{F}$. Tout voisinage de A appartient alors à $\mathscr{F}$.*
 
-En effet, soit V un voisinage de A; raisonnons par l’absurde, en supposant que tout ensemble de $\mathcal{F}$ rencontre $\mathcal{G}V$. Les traces sur $\mathcal{G}V$ des ensembles de $\mathcal{F}$ forment alors une base d’un filtre $\mathcal{G}$ sur X; comme X est quasi-compact, $\mathcal{G}$ a au moins un point adhérent $y$, qui n’appartient pas à A, puisque le voisinage V de A a une intersection vide avec certains de ensembles de $\mathcal{G}$. Mais, comme $\mathcal{G}$ est *plus fin* que $\mathcal{F}$, $y$ est aussi adhérent à $\mathcal{F}$, ce qui est contraire à l’hypothèse.
+En effet, soit V un voisinage de A; raisonnons par l’absurde, en supposant que tout ensemble de $\mathscr{F}$ rencontre $\mathscr{G}V$. Les traces sur $\mathscr{G}V$ des ensembles de $\mathscr{F}$ forment alors une base d’un filtre $\mathscr{G}$ sur X; comme X est quasi-compact, $\mathscr{G}$ a au moins un point adhérent $y$, qui n’appartient pas à A, puisque le voisinage V de A a une intersection vide avec certains de ensembles de $\mathscr{G}$. Mais, comme $\mathscr{G}$ est *plus fin* que $\mathscr{F}$, $y$ est aussi adhérent à $\mathscr{F}$, ce qui est contraire à l’hypothèse.
 
 #### Corollaire {#top-i-s9-n1-cor-1 .statement}
 
@@ -111,9 +111,9 @@ La condition est nécessaire en vertu de I, p. 52, prop. 1; elle est suffisante 
 
 #### Proposition 1 {#top-i-s9-prop-1 .statement}
 
-*Soient X un espace compact, x un point de X. Pour qu’une base de filtre $\mathcal{B}$ formée de voisinages fermés de x soit un système fondamental de voisinages de x, il faut et il suffit que l’intersection des ensembles de $\mathcal{B}$ se réduise au point x.*
+*Soient X un espace compact, x un point de X. Pour qu’une base de filtre $\mathscr{B}$ formée de voisinages fermés de x soit un système fondamental de voisinages de x, il faut et il suffit que l’intersection des ensembles de $\mathscr{B}$ se réduise au point x.*
 
-La condition est nécessaire puisque X est séparé (I, p. 52, prop. 1). Elle est suffisante, car elle signifie que x est le seul point adhérent à $\mathcal{B}$, donc $\mathcal{B}$ converge vers x d’après le cor. du th. 1.
+La condition est nécessaire puisque X est séparé (I, p. 52, prop. 1). Elle est suffisante, car elle signifie que x est le seul point adhérent à $\mathscr{B}$, donc $\mathscr{B}$ converge vers x d’après le cor. du th. 1.
 
 #### Corollaire {#top-i-s9-n2-cor-1 .statement}
 
@@ -154,7 +154,7 @@ Montrons d’abord que pour tout $x \in A$, il existe un voisinage T$(x)$ de x d
 
 Dans un espace séparé, tout ensemble compact est fermé.
 
-En effet, si A est une partie compacte d’un espace séparé X et x un point de $\mathcal{C}A$, il résulte de la prop. 3 qu’il y a un voisinage de x ne rencontrant pas A, puisque $\{x\}$ est fermé (I, p. 54, prop. 4); donc $\mathcal{C}A$ est ouvert.
+En effet, si A est une partie compacte d’un espace séparé X et x un point de $\mathscr{C}A$, il résulte de la prop. 3 qu’il y a un voisinage de x ne rencontrant pas A, puisque $\{x\}$ est fermé (I, p. 54, prop. 4); donc $\mathscr{C}A$ est ouvert.
 
 #### Corollaire {#top-i-s9-n3-cor-1 .statement}
 
@@ -196,7 +196,7 @@ Dans un espace non séparé, un ensemble compact n’est pas nécessairement fer
 
 Si f est une application continue d’un espace quasi-compact X dans un espace topologique $X'$, l’ensemble $f(X)$ est quasi-compact.
 
-En effet, soit $\mathfrak{R}$ un recouvrement de $f(X)$ par des ensembles ouverts de $X'$; $f^{-1}(\mathfrak{R})$ est un recouvrement ouvert de $X$ (I, p. 9, th. 1), donc il y a une partie finie $\mathcal{G}$ de $\mathfrak{R}$ telle que $f^{-1}(\mathcal{G})$ soit un recouvrement de $X$; mais alors $\mathcal{G}$ est un recouvrement de $f(X)$, d’où le théorème.
+En effet, soit $\mathfrak{R}$ un recouvrement de $f(X)$ par des ensembles ouverts de $X'$; $f^{-1}(\mathfrak{R})$ est un recouvrement ouvert de $X$ (I, p. 9, th. 1), donc il y a une partie finie $\mathscr{G}$ de $\mathfrak{R}$ telle que $f^{-1}(\mathscr{G})$ soit un recouvrement de $X$; mais alors $\mathscr{G}$ est un recouvrement de $f(X)$, d’où le théorème.
 
 #### Corollaire 1 {#top-i-s9-thm-2-cor-1 .statement}
 
@@ -222,7 +222,7 @@ En effet, soit $f$ la restriction à $K$ de l’application canonique $X \to X/R
 #### Théorème 3 (Tychonoff) {#top-i-s9-thm-3 .statement}
 
 Tout produit d’espaces quasi-compacts (resp. compacts) est quasi-compact (resp. compact). Réciproquement, si un produit d’espaces non vides est quasi-compact (resp. compact), chacun des espaces facteurs est quasi-compact (resp. compact).
-Vu la caractérisation des espaces produits séparés (I, p. 54, prop. 7), tout revient à démontrer les assertions relatives aux espaces quasi-compacts. Si $X = \prod_{i \in I} X_i$ est quasi-compact et non vide, on a $X_i = \mathrm{pr}_i(X)$ pour tout $i$, donc $X_i$ est quasi-compact en vertu du th. 2 de I, p. 62. Inversement, supposons les $X_i$ quasi-compacts et soit $\mathcal{U}$ un ultrafiltre sur $X$; pour tout $i \in I$, $\mathrm{pr}_i(\mathcal{U})$ est une base d’ultrafiltre sur $X_i$ (I, p. 41, prop. 10), qui converge donc en vertu de l’axiome (C'); par suite $\mathcal{U}$ est convergent (I, p. 51, cor. 1), ce qui achève la démonstration.
+Vu la caractérisation des espaces produits séparés (I, p. 54, prop. 7), tout revient à démontrer les assertions relatives aux espaces quasi-compacts. Si $X = \prod_{i \in I} X_i$ est quasi-compact et non vide, on a $X_i = \mathrm{pr}_i(X)$ pour tout $i$, donc $X_i$ est quasi-compact en vertu du th. 2 de I, p. 62. Inversement, supposons les $X_i$ quasi-compacts et soit $\mathscr{U}$ un ultrafiltre sur $X$; pour tout $i \in I$, $\mathrm{pr}_i(\mathscr{U})$ est une base d’ultrafiltre sur $X_i$ (I, p. 41, prop. 10), qui converge donc en vertu de l’axiome (C'); par suite $\mathscr{U}$ est convergent (I, p. 51, cor. 1), ce qui achève la démonstration.
 
 #### Corollaire {#top-i-s9-n5-cor-1 .statement}
 
@@ -334,7 +334,7 @@ Pour tout espace localement compact $X$, il existe un espace compact $X'$ et un 
 
 Démontrons d’abord la seconde assertion, et soient $f(X) = X' - \{ \omega \}$, $f_1(X) = X'_1 - \{ \omega_1 \}$; si l’homéomorphisme $g$ existe, son unicité est évidente, car on doit avoir par définition $g(x') = f_1(f^{-1}(x'))$ pour $x' \neq \omega$ et par suite $g(\omega) = \omega_1$. Reste à montrer que la bijection $g : X' \to X'_1$ définie par ces formules est bi-continue, et comme $X'$ et $X'_1$ jouent le même rôle, il suffit de montrer que l’image par $g$ d’un voisinage d’un point $x' \in X'$ est un voisinage de $g(x')$ dans $X'_1$. Or, cela est évident par définition si $x' \neq \omega$; d’autre part, si $V'$ est un voisinage ouvert de $\omega$ dans $X'$, $X' - V' = K$ est fermé dans $X'$, donc compact (I, p. 61, prop. 2) et contenu dans $f(X)$, et par suite $g(K) = f_1(f^{-1}(K))$ est compact (I, p. 63, cor. 1). Il en résulte que $g(V') = X'_1 - g(K)$ est un voisinage ouvert de $\omega_1$ (I, p. 62, prop 4), ce qui achève de prouver que $g$ est un homéomorphisme.
 
-Prouvons maintenant la première assertion du théorème. Soit $X'$ un ensemble somme de $X$ et d’un ensemble réduit à un élément $\omega$, $X$ étant identifié au complémentaire de $\{ \omega \}$ dans $X'$. Définissons sur $X'$ une topologie en prenant pour ensemble $\mathcal{O}$ des parties ouvertes de $X'$ l’ensemble formé des parties ouvertes de $X$ et des parties de la forme $(X - K) \cup \{ \omega \}$, où $K$ est une partie compacte de $X$. Comme toute intersection de parties compactes de $X$ est compacte (I, p. 61, prop. 2 et I, p. 62, 4) et que toute partie fermée d’un ensemble compact est compacte (I, p. 61, prop. 2), $\mathcal{O}$ vérifie l’axiome $(O_I)$; comme toute réunion finie de parties compactes de $X$ est compacte (I, p. 62, prop. 5), $\mathcal{O}$ vérifie aussi l’axiome $(O_{II})$. Puisque toute partie compacte de $X$ est fermée dans $X$ (I, p. 62, prop. 4), la topologie induite sur $X$ par celle de $X'$ est la topologie initialement donnée sur $X$. Pour établir la première assertion, il reste à prouver que $X'$ est compact. En premier lieu $X'$ est séparé: en effet, si $x, y$ sont deux points distincts de $X$, il existe dans $X$ deux voisinages ouverts $V, W$ de $x$ et $y$ respectivement qui sont sans point commun, et $V$ et $W$ sont aussi ouverts dans $X'$; d’autre part, pour tout $x \in X$, il existe dans $X$ un voisinage compact $K$ de $x$, qui est aussi un voisinage de $x$ dans
+Prouvons maintenant la première assertion du théorème. Soit $X'$ un ensemble somme de $X$ et d’un ensemble réduit à un élément $\omega$, $X$ étant identifié au complémentaire de $\{ \omega \}$ dans $X'$. Définissons sur $X'$ une topologie en prenant pour ensemble $\mathscr{O}$ des parties ouvertes de $X'$ l’ensemble formé des parties ouvertes de $X$ et des parties de la forme $(X - K) \cup \{ \omega \}$, où $K$ est une partie compacte de $X$. Comme toute intersection de parties compactes de $X$ est compacte (I, p. 61, prop. 2 et I, p. 62, 4) et que toute partie fermée d’un ensemble compact est compacte (I, p. 61, prop. 2), $\mathscr{O}$ vérifie l’axiome $(O_I)$; comme toute réunion finie de parties compactes de $X$ est compacte (I, p. 62, prop. 5), $\mathscr{O}$ vérifie aussi l’axiome $(O_{II})$. Puisque toute partie compacte de $X$ est fermée dans $X$ (I, p. 62, prop. 4), la topologie induite sur $X$ par celle de $X'$ est la topologie initialement donnée sur $X$. Pour établir la première assertion, il reste à prouver que $X'$ est compact. En premier lieu $X'$ est séparé: en effet, si $x, y$ sont deux points distincts de $X$, il existe dans $X$ deux voisinages ouverts $V, W$ de $x$ et $y$ respectivement qui sont sans point commun, et $V$ et $W$ sont aussi ouverts dans $X'$; d’autre part, pour tout $x \in X$, il existe dans $X$ un voisinage compact $K$ de $x$, qui est aussi un voisinage de $x$ dans
 
 X', et U = (X - K) ∪ {ω} est alors un voisinage de ω dans X' tel que U ∩ K = ∅. Enfin X' est quasi-compact : soit en effet (U_λ)_{λ ∈ L} un recouvrement ouvert de X' ; il y a au moins un indice μ ∈ L tel que U_μ = (X - K_μ) ∪ {ω}, où K_μ est une partie compacte de X ; il y a donc une partie finie H de L telle que les U_λ pour λ ∈ H forment un recouvrement de K_μ ; posant J = H ∪ {μ}, (U_λ)_{λ ∈ J} est un recouvrement de X', ce qui achève de prouver que X' est compact.
 
@@ -391,7 +391,7 @@ On notera par contre qu’un sous-espace ouvert d’un espace compact n’est pa
 #### Définition 6 {#top-i-s9-def-6 .statement}
 
 Un espace topologique $X$ est dit paracompact s’il est séparé, et s’il vérifie l’axiome suivant:
-(PC) Pour tout recouvrement ouvert $\mathcal{R}$ de $X$, il existe un recouvrement ouvert localement fini $\mathcal{R}'$ de $X$, plus fin que $\mathcal{R}$ (E, II, p. 27, déf. 5).
+(PC) Pour tout recouvrement ouvert $\mathscr{R}$ de $X$, il existe un recouvrement ouvert localement fini $\mathscr{R}'$ de $X$, plus fin que $\mathscr{R}$ (E, II, p. 27, déf. 5).
 
 Il est clair que tout espace compact est paracompact. Tout espace discret $X$ est paracompact, car le recouvrement ouvert formé de tous les ensembles réduits à un point est localement fini et plus fin que tout recouvrement ouvert de $X$.
 
@@ -399,7 +399,7 @@ Il est clair que tout espace compact est paracompact. Tout espace discret $X$ es
 
 Dans un espace paracompact $X$, tout sous-espace fermé $F$ est paracompact.
 
-En effet, $F$ est séparé; d’autre part, si $(V_t)$ est un recouvrement ouvert dans le sous-espace $F$, tout $V_t$ est de la forme $V_t = U_t \cap F$, où $U_t$ est ouvert dans $X$. Considérons le recouvrement ouvert $\mathcal{R}$ de $X$ formé de $CF$ et des $U_t$; il existe un recouvrement ouvert localement fini $\mathcal{R}'$ de $X$ plus fin que $\mathcal{R}$, et les traces sur $F$ des ensembles de $\mathcal{R}'$ forment un recouvrement ouvert localement fini de $F$, plus fin que le recouvrement donné $(V_t)$.
+En effet, $F$ est séparé; d’autre part, si $(V_t)$ est un recouvrement ouvert dans le sous-espace $F$, tout $V_t$ est de la forme $V_t = U_t \cap F$, où $U_t$ est ouvert dans $X$. Considérons le recouvrement ouvert $\mathscr{R}$ de $X$ formé de $CF$ et des $U_t$; il existe un recouvrement ouvert localement fini $\mathscr{R}'$ de $X$ plus fin que $\mathscr{R}$, et les traces sur $F$ des ensembles de $\mathscr{R}'$ forment un recouvrement ouvert localement fini de $F$, plus fin que le recouvrement donné $(V_t)$.
 
 Par contre, un sous-espace ouvert d’un espace compact n’est pas nécessairement paracompact (I, p. 105, exerc. 12).
 
@@ -425,12 +425,12 @@ Montrons d’abord que la condition est nécessaire. Supposons $X$ paracompact, 
 
 Or, soit $x$ un point quelconque de $X$; définissons par récurrence sur $n$ une suite $(C_n)$ d’ensembles ouverts relativement compacts dans $X$, de la façon suivante: $C_1$ est la réunion des ensembles $U(\alpha)$ qui contiennent $x$, et pour tout $n > 1$, $C_n$ est la réunion des ensembles $U(\alpha)$ qui rencontrent $C_{n-1}$. Il est immédiat, par récurrence sur $n$, que chacun des $C_n$ est relativement compact et réunion d’un nombre *fini* d’ensembles $U(\alpha)$. Montrons alors que la classe de $x$ suivant $R$ est la *réunion* des $C_n$: en effet, si $(\alpha_i)_{1 \leq i \leq n}$ est une suite d’indices telle que $x \in U(\alpha_1)$ et $U(\alpha_i) \cap U(\alpha_{i+1}) \neq \varnothing$ pour $1 \leq i \leq n - 1$, on a, par récurrence sur $i$, $U(\alpha_i) \subset C_i$ pour $1 \leq i \leq n$, ce qui achève de démontrer la première partie du théorème.
 
-Montrons maintenant que la condition de l’énoncé est *suffisante*. En vertu de la prop. 18, on peut se borner au cas où $X$ est *dénombrable à l’infini*. Soit $\mathcal{R} = (G_\lambda)_{\lambda \in L}$ un recouvrement ouvert quelconque de $X$. Soit d’autre part $(U_n)$ une suite d’ensembles ouverts relativement compacts de $X$ ayant les propriétés énoncées dans la prop. 15 de I, p. 68; nous désignerons par $K_n$ l’ensemble compact $\overline{U_n} - U_{n-1}$ (en convenant de poser $U_n = \varnothing$ pour $n \leq 0$). L’ensemble ouvert $U_{n+1} - \overline{U}_{n-2}$ est un voisinage de $K_n$ par construction; pour tout $x \in K_n$, il existe donc un voisinage $W_x$ de $x$ contenu dans un des ensembles $G_\lambda$ et contenu aussi dans $U_{n+1} - \overline{U}_{n-2}$. Comme $K_n$ est compact, il existe un nombre fini d’ensembles de la forme $W_x$ formant un recouvrement de $K_n$; soient $H_{ni}$ $(1 \leq i \leq p_n)$ ces ensembles. Il est clair que la famille $\mathcal{R}'$ des ensembles $H_{nt}$ $(n \geq 1,\ 1 \leq i \leq p_n$ pour tout n) est un recouvrement ouvert de $X$ plus fin que $\mathcal{R}$; montrons que $\mathcal{R}'$ est *localement fini*. Soient $z$ un point quelconque de $X$, $n$ le plus petit entier tel que $z \in U_n$; comme $z \notin U_{n-1}$ il existe un voisinage $T$ de $z$ contenu dans $U_n$ et ne rencontrant pas $\overline{U}_{n-2}$; par suite, $T$ ne peut rencontrer que les ensembles $H_{mi}$ pour lesquels $n - 2 \leq m \leq n + 1$, et ces derniers sont en nombre fini.
+Montrons maintenant que la condition de l’énoncé est *suffisante*. En vertu de la prop. 18, on peut se borner au cas où $X$ est *dénombrable à l’infini*. Soit $\mathscr{R} = (G_\lambda)_{\lambda \in L}$ un recouvrement ouvert quelconque de $X$. Soit d’autre part $(U_n)$ une suite d’ensembles ouverts relativement compacts de $X$ ayant les propriétés énoncées dans la prop. 15 de I, p. 68; nous désignerons par $K_n$ l’ensemble compact $\overline{U_n} - U_{n-1}$ (en convenant de poser $U_n = \varnothing$ pour $n \leq 0$). L’ensemble ouvert $U_{n+1} - \overline{U}_{n-2}$ est un voisinage de $K_n$ par construction; pour tout $x \in K_n$, il existe donc un voisinage $W_x$ de $x$ contenu dans un des ensembles $G_\lambda$ et contenu aussi dans $U_{n+1} - \overline{U}_{n-2}$. Comme $K_n$ est compact, il existe un nombre fini d’ensembles de la forme $W_x$ formant un recouvrement de $K_n$; soient $H_{ni}$ $(1 \leq i \leq p_n)$ ces ensembles. Il est clair que la famille $\mathscr{R}'$ des ensembles $H_{nt}$ $(n \geq 1,\ 1 \leq i \leq p_n$ pour tout n) est un recouvrement ouvert de $X$ plus fin que $\mathscr{R}$; montrons que $\mathscr{R}'$ est *localement fini*. Soient $z$ un point quelconque de $X$, $n$ le plus petit entier tel que $z \in U_n$; comme $z \notin U_{n-1}$ il existe un voisinage $T$ de $z$ contenu dans $U_n$ et ne rencontrant pas $\overline{U}_{n-2}$; par suite, $T$ ne peut rencontrer que les ensembles $H_{mi}$ pour lesquels $n - 2 \leq m \leq n + 1$, et ces derniers sont en nombre fini.
 
 C.Q.F.D.
 
 Au cours de la démonstration, nous avons en outre prouvé ce qui suit:
-COROLLAIRE. — *Soit $X$ un espace localement compact et paracompact; pour tout recouvrement ouvert $\mathcal{R}$ de $X$, il existe un recouvrement ouvert localement fini $\mathcal{R}'$ de $X$ plus fin que $\mathcal{R}$ et formé d’ensembles relativement compacts. Si $X$ est dénombrable à l’infini, on peut en outre supposer que $\mathcal{R}'$ est dénombrable.*
+COROLLAIRE. — *Soit $X$ un espace localement compact et paracompact; pour tout recouvrement ouvert $\mathscr{R}$ de $X$, il existe un recouvrement ouvert localement fini $\mathscr{R}'$ de $X$ plus fin que $\mathscr{R}$ et formé d’ensembles relativement compacts. Si $X$ est dénombrable à l’infini, on peut en outre supposer que $\mathscr{R}'$ est dénombrable.*
 
 ## EXERCICES {#top-i-s9-exercises}
 

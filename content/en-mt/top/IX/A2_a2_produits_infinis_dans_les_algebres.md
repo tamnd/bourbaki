@@ -26,11 +26,11 @@ subsections:
       pdf_page: 202
 statements: 16
 exercises: 8
-content_sha256: 15e574616b9216e369d5739775c51f5a56269afe461ad7819939a1d7fc3a9931
+content_sha256: 2fe7f596f7a8dcff7358c8fef9bcf1e3955a7283c9c8cff9e17445b96a9d361d
 translated_from: content/fr/top/IX/A2_a2_produits_infinis_dans_les_algebres.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 08e13ee94a1406e81b201e3c665c3629632ff1cabff45c15f5a1c0046f18485c
+source_content_sha256: ab6ab83a7be20d6d31a5cb9faff75800a97c61a65f3a651a3c634d8fa3f7f2ca
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-en-mt-7b2672d1
 glossary_version: 34
@@ -50,7 +50,7 @@ Let $(x_n)_{n \geq N}$ be an infinite sequence of points of $A$; every finite su
 
 #### Definition 1 {#top-ix-a2-def-1 .statement}
 
-One says that the sequence $(x_n)_{n \geq N}$ is multipliable in the normed algebra $A$ if the mapping $J \mapsto p_J$ has a limit following the filter of sections of the set $\mathcal{F}(\mathbf{N})$ of finite subsets of $\mathbf{N}$, ordered by the relation $\subset$; this limit is called the product of the sequence $(x_n)_{n \in \mathbf{N}}$, and is denoted $\prod_{n \in \mathbf{N}} x_n$ (or simply $\prod_n x_n$); the $x_n$ are called the factors of this product.
+One says that the sequence $(x_n)_{n \geq N}$ is multipliable in the normed algebra $A$ if the mapping $J \mapsto p_J$ has a limit following the filter of sections of the set $\mathscr{F}(\mathbf{N})$ of finite subsets of $\mathbf{N}$, ordered by the relation $\subset$; this limit is called the product of the sequence $(x_n)_{n \in \mathbf{N}}$, and is denoted $\prod_{n \in \mathbf{N}} x_n$ (or simply $\prod_n x_n$); the $x_n$ are called the factors of this product.
 
 Def. 1 is equivalent to the following one: the sequence $(x_n)$ is multipliable and has product $p$ if, for every $\varepsilon > 0$, there exists a finite subset $J_0$ of $\mathbf{N}$ such that, for every finite subset $J \supset J_0$ of $\mathbf{N}$, one has $\|p_J - p\| \leq \varepsilon$.
 
@@ -82,7 +82,7 @@ $$
 \| \mathbf{p}_H - \mathbf{p}_{H_1} \| \leq (\| \mathbf{p}_{H_0} \|)^{-1} \| \mathbf{p}_{H_1} \| \varepsilon \leq \varepsilon (1 + \varepsilon).
 $$
 
-The Cauchy criterion therefore shows that $J \mapsto \mathbf{p}_J$ has a limit in $A$ following the filtered set $\mathcal{F}(\mathbf{N})$.
+The Cauchy criterion therefore shows that $J \mapsto \mathbf{p}_J$ has a limit in $A$ following the filtered set $\mathscr{F}(\mathbf{N})$.
 
 If all the $x_n$ are invertible, the same is true of all the finite partial products $p_J$; for every finite subset $H$ containing $H_0$, one can therefore write
 

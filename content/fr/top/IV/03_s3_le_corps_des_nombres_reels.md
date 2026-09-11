@@ -25,7 +25,7 @@ subsections:
       pdf_page: 283
 statements: 2
 exercises: 3
-content_sha256: 4129deba33be1efb7e47422fe54b0ec337320d02914e0b8adb5465c22b24ea28
+content_sha256: 191b999113067fbd9cc920173cfd24ac8cd5d90b4c61976b8fe38f9841a1a7df
 ---
 
 ## § 3. LE CORPS DES NOMBRES RÉELS
@@ -40,7 +40,7 @@ $$
 \left| \frac{1}{x} - \frac{1}{y} \right| = \frac{|x - y|}{|xy|}
 $$
 
-il existe un entier $m > 0$ tel que, pour tout $x \in \mathcal{CV}$, $|x| \geqslant 1/m$; si $x$ et $y$ sont deux points de $\mathcal{CV}$ tels que $|x - y| \leqslant 1/m^2 n$, on a donc $\left| \frac{1}{x} - \frac{1}{y} \right| \leqslant 1/n$.
+il existe un entier $m > 0$ tel que, pour tout $x \in \mathscr{CV}$, $|x| \geqslant 1/m$; si $x$ et $y$ sont deux points de $\mathscr{CV}$ tels que $|x - y| \leqslant 1/m^2 n$, on a donc $\left| \frac{1}{x} - \frac{1}{y} \right| \leqslant 1/n$.
 
 L’image par la fonction $1/x$, de tout filtre de Cauchy sur $\mathbf{Q}^*$ (relatif à la structure uniforme additive) auquel 0 n’est pas adhérent, est encore un filtre de Cauchy (pour la structure uniforme additive). Donc (III, p. 56, prop. 7):
 

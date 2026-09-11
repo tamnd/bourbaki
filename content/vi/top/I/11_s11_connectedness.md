@@ -40,7 +40,7 @@ subsections:
       pdf_page: 120
 statements: 28
 exercises: 25
-content_sha256: acc64c08f0f23ffd3fd329fd286f91f9f0b8a4018a1de5b40e968fd7f40ffd10
+content_sha256: 73f4d3585c784d77f6efa751b4e94481dbd76d0352bb7265f22a122f39872d5b
 translated_from: content/en/top/I/11_s11_connectedness.md
 source_content_sha256: f12b0f535c856eb0eec6548992165cda0fcb6dde9247c96a02db10d1ed77685b
 translation_model: gpt-5-6, gpt-5.4-mini
@@ -232,25 +232,25 @@ $$ là một lân cận của $x$ trong X; do đó V chứa một lân cận li�
 
 #### Định lý 1 {#top-i-s11-thm-1 .statement}
 
-Cho $X$ là một không gian tôpô thỏa mãn tiên đề $(O_{III})$ (nhưng không nhất thiết Hausdorff), và giả sử $X$ liên thông và liên thông địa phương. Cho $Y$ là một không gian tôpô mà tôpô của nó có một cơ sở đếm được, và cho $p : X \to Y$ là một ánh xạ liên tục sao cho, với mỗi $y \in Y$, $\overline{p}^{-1}(y)$ là một không gian con rời rạc của $X$. Cuối cùng, cho $\mathcal{B}$ là một tập hợp các tập con của $X$ có các miền trong phủ $X$ và sao cho:
-(i) *Phép hạn chế của* $p$ *lên từng* $V \in \mathcal{B}$ *là một ánh xạ đóng từ* $V$ *vào* $Y$.
-(ii) *Mỗi* $V \in \mathcal{B}$ *đều có một tập con đếm được trù mật trong* $V$.
+Cho $X$ là một không gian tôpô thỏa mãn tiên đề $(O_{III})$ (nhưng không nhất thiết Hausdorff), và giả sử $X$ liên thông và liên thông địa phương. Cho $Y$ là một không gian tôpô mà tôpô của nó có một cơ sở đếm được, và cho $p : X \to Y$ là một ánh xạ liên tục sao cho, với mỗi $y \in Y$, $\overline{p}^{-1}(y)$ là một không gian con rời rạc của $X$. Cuối cùng, cho $\mathscr{B}$ là một tập hợp các tập con của $X$ có các miền trong phủ $X$ và sao cho:
+(i) *Phép hạn chế của* $p$ *lên từng* $V \in \mathscr{B}$ *là một ánh xạ đóng từ* $V$ *vào* $Y$.
+(ii) *Mỗi* $V \in \mathscr{B}$ *đều có một tập con đếm được trù mật trong* $V$.
 
-*Khi đó không gian* $X$ *là hợp của một họ đếm được các tập mở, mỗi tập đều được chứa trong một tập của* $\mathcal{B}$.
+*Khi đó không gian* $X$ *là hợp của một họ đếm được các tập mở, mỗi tập đều được chứa trong một tập của* $\mathscr{B}$.
 
-Cho $\mathcal{B}$ là một cơ sở đếm được của tôpô của $Y$. Ta sẽ gọi một cặp $(W, U)$ là *phân biệt* nếu (i) $U \in \mathcal{B}$ và (ii) $W$ là một thành phần của $\overline{p}^{-1}(U)$ được chứa trong một tập của $\mathcal{B}$.
+Cho $\mathscr{B}$ là một cơ sở đếm được của tôpô của $Y$. Ta sẽ gọi một cặp $(W, U)$ là *phân biệt* nếu (i) $U \in \mathscr{B}$ và (ii) $W$ là một thành phần của $\overline{p}^{-1}(U)$ được chứa trong một tập của $\mathscr{B}$.
 
 #### Bổ đề 1 {#top-i-s11-lem-1 .statement}
 
 *Nếu* $x$ *là một điểm bất kỳ của* $X$, *thì tồn tại một cặp phân biệt* $(W, U)$ *sao cho* $x \in W$.
 
-Ảnh ngược $\overline{p}^{-1}(p(x))$ là rời rạc và do đó có một lân cận của $x$ trong $X$ mà mọi điểm $x'$ khác $x$ đều có ảnh $p(x') \neq p(x)$; vì $X$ thỏa mãn $(O_{III})$, có một lân cận *đóng* $V$ của $x$ có tính chất này, và ta cũng có thể giả sử rằng $V$ được chứa trong một tập của $\mathcal{B}$. Cho $F$ là biên của $V$ trong $X$. Theo điều kiện (i) của định lý, $p(F)$ là đóng trong $Y$; và vì $p(F)$ không chứa $p(x)$, có một tập $U \in \mathcal{B}$ chứa $p(x)$ và không giao với $p(F)$. Cho $W$ là thành phần của $x$ trong $\overline{p}^{-1}(U)$; khi đó chỉ cần chứng minh rằng $W \subset \mathbb{A}$. Nếu không phải như vậy, thì $W$ sẽ giao với $F$ (số 1, Mệnh đề 3) và do đó $p(F)$ sẽ giao với $U$, trái với định nghĩa của $U$.
+Ảnh ngược $\overline{p}^{-1}(p(x))$ là rời rạc và do đó có một lân cận của $x$ trong $X$ mà mọi điểm $x'$ khác $x$ đều có ảnh $p(x') \neq p(x)$; vì $X$ thỏa mãn $(O_{III})$, có một lân cận *đóng* $V$ của $x$ có tính chất này, và ta cũng có thể giả sử rằng $V$ được chứa trong một tập của $\mathscr{B}$. Cho $F$ là biên của $V$ trong $X$. Theo điều kiện (i) của định lý, $p(F)$ là đóng trong $Y$; và vì $p(F)$ không chứa $p(x)$, có một tập $U \in \mathscr{B}$ chứa $p(x)$ và không giao với $p(F)$. Cho $W$ là thành phần của $x$ trong $\overline{p}^{-1}(U)$; khi đó chỉ cần chứng minh rằng $W \subset \mathbb{A}$. Nếu không phải như vậy, thì $W$ sẽ giao với $F$ (số 1, Mệnh đề 3) và do đó $p(F)$ sẽ giao với $U$, trái với định nghĩa của $U$.
 
 #### Bổ đề 2 {#top-i-s11-lem-2 .statement}
 
 *Nếu* $(W, U)$ *là một cặp đặc biệt thì tập hợp tất cả các cặp đặc biệt* $(W', U')$ *sao cho* $W'$ *giao với* $W$ *là đếm được*.
 
-Vì $\mathcal{B}$ là đếm được nên chỉ cần chứng minh rằng, cho $U' \in \mathcal{B}$, tập các cặp phân biệt $(W', U')$ sao cho $W'$ giao với $W$ là đếm được. Các tập $W'$ này đều mở, vì $X$ là liên thông địa phương (no. 6, Mệnh đề 11) và đôi một rời nhau vì chúng là các thành phần của $\overline{p}^{-1}(U')$; do đó các tập $W' \cap W$ đều mở và đôi một rời nhau. Nhưng $W$ chứa một tập con đếm được trù mật trong $W$; vì vậy tập các $W'$ sao cho $W' \cap W$ không rỗng cũng đếm được.
+Vì $\mathscr{B}$ là đếm được nên chỉ cần chứng minh rằng, cho $U' \in \mathscr{B}$, tập các cặp phân biệt $(W', U')$ sao cho $W'$ giao với $W$ là đếm được. Các tập $W'$ này đều mở, vì $X$ là liên thông địa phương (no. 6, Mệnh đề 11) và đôi một rời nhau vì chúng là các thành phần của $\overline{p}^{-1}(U')$; do đó các tập $W' \cap W$ đều mở và đôi một rời nhau. Nhưng $W$ chứa một tập con đếm được trù mật trong $W$; vì vậy tập các $W'$ sao cho $W' \cap W$ không rỗng cũng đếm được.
 
 Để chứng minh định lý 1, xét quan hệ R sau đây giữa hai điểm x, x' của X: "Tồn tại một dãy hữu hạn các cặp đặc biệt (W_i, U_i) (1 \leq i \leq n) sao cho x \in W_1 và x' \in W_n và W_i \cap W_{i+1} \neq \emptyset for \leq 1 i \leq n — 1."
 
@@ -276,7 +276,7 @@ chứa không điểm nào của $\overline{p}^{-1}(y)$ ngoài $x$, và do đó 
 
 *Cho $X$ là địa phương compact, liên thông và liên thông địa phương, và giả sử mỗi điểm của $X$ có một lân cận có một cơ sở đếm được. Cho $Y$ là một không gian Hausdorff mà tôpô của nó có một cơ sở đếm được, và cho $p : X \to Y$ là một ánh xạ liên tục sao cho, với mỗi $y \in Y$, $\overline{p}^{-1}(y)$ là một không gian con rời rạc của $X$. Khi đó tôpô của $X$ có một cơ sở đếm được.*
 
-Với mỗi $x \in X$, cho $V_x$ là một lân cận compact của $x$ trong $X$ có một cơ sở đếm được. Suy ra từ $§ 9$, no. 4, Định lý 2, Hệ quả 2, rằng tập hợp $\mathcal{B}$ gồm các $V_x$ thỏa mãn các điều kiện của Định lý 1, và ta hoàn tất chứng minh như trong Hệ quả 1.
+Với mỗi $x \in X$, cho $V_x$ là một lân cận compact của $x$ trong $X$ có một cơ sở đếm được. Suy ra từ $§ 9$, no. 4, Định lý 2, Hệ quả 2, rằng tập hợp $\mathscr{B}$ gồm các $V_x$ thỏa mãn các điều kiện của Định lý 1, và ta hoàn tất chứng minh như trong Hệ quả 1.
 
 Lưu ý rằng, trong hệ quả này, có thể xảy ra rằng sự hạn chế của $p$ lên một lân cận $V$ tùy ý nhỏ của một điểm của $X$ *không là một đẳng cấu tôpô của $V$ lên $p(V)$*.
 

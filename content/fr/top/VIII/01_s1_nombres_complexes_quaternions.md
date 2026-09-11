@@ -28,7 +28,7 @@ subsections:
       pdf_page: 90
 statements: 13
 exercises: 5
-content_sha256: 7423e8afcdf0c3ecb02aebaa42b1b6a4f89c0fb5de51c49241b0acf5c00dec80
+content_sha256: 9487a2874b28dd22071133041d4c2d1612bf82eda8b1c5906aa81830d5ea0414
 ---
 
 ## § 1. NOMBRES COMPLEXES; QUATERNIONS
@@ -57,7 +57,7 @@ On peut démontrer le th. I sans utiliser la théorie des corps ordonnés, en se
 
 Comme $\mathbf{C}$ est de degré 2 par rapport à $\mathbf{R}$, on voit que $\mathbf{C}$ est, à isomorphisme près, la seule extension algébrique de $\mathbf{R}$ distincte de $\mathbf{R}$, et qu’il n’existe pas de corps contenu dans $\mathbf{C}$ et contenant $\mathbf{R}$, distinct de $\mathbf{R}$ et de $\mathbf{C}$.
 
-On sait (A, V, § 3) que $\mathbf{R}$ peut être identifié à un sous-corps de $\mathbf{C}$, et que tout élément $z \in \mathbf{C}$ peut se mettre d’une manière et d’une seule sous la forme $x + iy$, où $x$ et $y$ sont réels; $x$ est appelé partie réelle de $z$ et se note $\mathcal{R}(z)$, $y$ partie imaginaire de $z$ et se note $\mathcal{I}(z)$; les nombres complexes de la forme $iy$ ($y$ réels) sont dits imaginaires purs. La relation $x + iy = 0$ ($x$ et $y$ réels) est équivalente à « $x = 0$ et $y = 0$ ».
+On sait (A, V, § 3) que $\mathbf{R}$ peut être identifié à un sous-corps de $\mathbf{C}$, et que tout élément $z \in \mathbf{C}$ peut se mettre d’une manière et d’une seule sous la forme $x + iy$, où $x$ et $y$ sont réels; $x$ est appelé partie réelle de $z$ et se note $\mathscr{R}(z)$, $y$ partie imaginaire de $z$ et se note $\mathscr{I}(z)$; les nombres complexes de la forme $iy$ ($y$ réels) sont dits imaginaires purs. La relation $x + iy = 0$ ($x$ et $y$ réels) est équivalente à « $x = 0$ et $y = 0$ ».
 
 Comme $i^2 = -1$, les éléments de $\mathbf{C}$, donnés par leurs parties réelles et imaginaires, satisfont aux règles de calcul suivantes:
 
@@ -78,7 +78,7 @@ $$
 \frac{1}{x + iy} = \frac{x}{x^2 + y^2} - i \frac{y}{x^2 + y^2}.
 $$
 
-La seconde racine du polynôme $X^2 + 1$ dans $\mathbf{C}$ est $-i$; par suite (A, V, § 6, n° 2) le seul automorphisme de $\mathbf{C}$, distinct de l’application identique, et qui laisse invariants les nombres réels, est l’application faisant correspondre à tout nombre complexe $z = x + iy$ le nombre complexe $x - iy$, qu’on note $\overline{z}$, et qu’on appelle (conformément aux définitions générales) le nombre complexe conjugué de $z$. On a $\mathcal{R}(z) = \frac{1}{2}(z + \overline{z})$, $\mathcal{I}(z) = \frac{1}{2i}(z - \overline{z})$. En vertu de cet automorphisme, si $f(z)$ est un polynôme à coefficients réels, on a $f(\overline{z}) = \overline{f(z)}$ pour tout $z \in \mathbf{C}$.
+La seconde racine du polynôme $X^2 + 1$ dans $\mathbf{C}$ est $-i$; par suite (A, V, § 6, n° 2) le seul automorphisme de $\mathbf{C}$, distinct de l’application identique, et qui laisse invariants les nombres réels, est l’application faisant correspondre à tout nombre complexe $z = x + iy$ le nombre complexe $x - iy$, qu’on note $\overline{z}$, et qu’on appelle (conformément aux définitions générales) le nombre complexe conjugué de $z$. On a $\mathscr{R}(z) = \frac{1}{2}(z + \overline{z})$, $\mathscr{I}(z) = \frac{1}{2i}(z - \overline{z})$. En vertu de cet automorphisme, si $f(z)$ est un polynôme à coefficients réels, on a $f(\overline{z}) = \overline{f(z)}$ pour tout $z \in \mathbf{C}$.
 
 Le nombre réel $z \overline{z} = x^2 + y^2$ s’appelle la norme algébrique de $z$ (ou simplement la norme de $z$ lorsque aucune confusion n’est possible); c’est un nombre $\geqslant 0$, qui n’est nul que si $z = 0$. Le nombre positif $\sqrt{z \overline{z}} = \sqrt{x^2 + y^2}$ se réduit à la valeur absolue de $z$ lorsque $z$ est réel; on l’appelle encore valeur absolue de $z$ et on le note $|z|$ lorsque $z$ est un nombre complexe quelconque (cf. A, VI, § 2, n° 6). La relation $|z| = 0$ équivaut à $z = 0$. Si $z$ et $z'$ sont deux nombres complexes, le conjugué de $zz'$ est $\overline{z}.\overline{z}'$, donc $|zz'|^2 = zz'\overline{z}\overline{z}' = |z|^2|z'|^2$, d’où $|zz'| = |z|.|z'|$: la valeur absolue d’un produit est le produit des valeurs absolues des facteurs. En particulier, si $z \neq 0$ et $z' = 1/z$, on a $|1/z| = 1/|z|$.
 
@@ -109,7 +109,7 @@ La permutation $z \mapsto \overline{z}$ de $\mathbf{C}$ est *continue*; c’est 
 
 On peut d’ailleurs montrer que c’est le *seul* automorphisme du corps topologique $\mathbf{C}$, distinct de l’automorphisme identique (voir VIII, p. 25, exerc. 4).
 
-Les fonctions $\Re(z), \mathcal{I}(z)$ ne sont autres que les fonctions *projections* dans $\mathbf{R}^2$; elles sont donc *continues*; il en est de même de la valeur absolue $|z|$, qui n’est autre que la *norme euclidienne* (VI, p. 7) du point $(x, y)$ dans $\mathbf{R}^2$.
+Les fonctions $\Re(z), \mathscr{I}(z)$ ne sont autres que les fonctions *projections* dans $\mathbf{R}^2$; elles sont donc *continues*; il en est de même de la valeur absolue $|z|$, qui n’est autre que la *norme euclidienne* (VI, p. 7) du point $(x, y)$ dans $\mathbf{R}^2$.
 
 Les propriétés de la valeur absolue permettent de donner une autre démonstration du fait que la topologie de $\mathbf{C}$ est compatible avec la structure de corps de $\mathbf{C}$.
 

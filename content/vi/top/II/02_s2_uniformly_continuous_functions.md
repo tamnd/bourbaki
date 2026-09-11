@@ -40,7 +40,7 @@ subsections:
       pdf_page: 186
 statements: 25
 exercises: 6
-content_sha256: 9f430eea75591dc27579548ac7368457e638b204ee1ffd360c62d7d25d240f4d
+content_sha256: 03df3dc51e200bf73021c73ad2953afe0e489ca42371300cda607a5384f0fa34
 translated_from: content/en/top/II/02_s2_uniformly_continuous_functions.md
 source_content_sha256: a1ab910e68e815174c047c6d5847b83dc5cbf4da3a07db2324c22291922910fa
 translation_model: gpt-5.4, copied
@@ -90,9 +90,9 @@ Mệnh đề 2 của no. 1 cho thấy rằng ta có thể lấy các ánh xạ l
 
 #### Định nghĩa 2 {#top-ii-s2-def-2 .statement}
 
-Nếu $\mathcal{U}_1$ và $\mathcal{U}_2$ là hai cấu trúc đều trên cùng một tập hợp X, thì nói rằng $\mathcal{U}_1$ mịn hơn $\mathcal{U}_2$ (và $\mathcal{U}_2$ thô hơn $\mathcal{U}_1$) nếu, ký hiệu bởi $X_i$ tập hợp X được trang bị cấu trúc đều $\mathcal{U}_i$ ($i = 1,2$), thì ánh xạ đồng nhất $X_1 \to X_2$ là liên tục đều.
+Nếu $\mathscr{U}_1$ và $\mathscr{U}_2$ là hai cấu trúc đều trên cùng một tập hợp X, thì nói rằng $\mathscr{U}_1$ mịn hơn $\mathscr{U}_2$ (và $\mathscr{U}_2$ thô hơn $\mathscr{U}_1$) nếu, ký hiệu bởi $X_i$ tập hợp X được trang bị cấu trúc đều $\mathscr{U}_i$ ($i = 1,2$), thì ánh xạ đồng nhất $X_1 \to X_2$ là liên tục đều.
 
-Nếu $\mathcal{U}_1$ mịn hơn $\mathcal{U}_2$ và phân biệt với $\mathcal{U}_2$, ta nói rằng $\mathcal{U}_1$ mịn hơn hẳn $\mathcal{U}_2$ (và rằng $\mathcal{U}_2$ thô hơn hẳn $\mathcal{U}_1$).
+Nếu $\mathscr{U}_1$ mịn hơn $\mathscr{U}_2$ và phân biệt với $\mathscr{U}_2$, ta nói rằng $\mathscr{U}_1$ mịn hơn hẳn $\mathscr{U}_2$ (và rằng $\mathscr{U}_2$ thô hơn hẳn $\mathscr{U}_1$).
 
 Hai cấu trúc đều được gọi là so sánh được nếu một trong hai mịn hơn cấu trúc kia.
 
@@ -104,21 +104,21 @@ Mệnh đề sau là một hệ quả ngay lập tức của Định nghĩa 1 c�
 
 #### Mệnh đề 3 {#top-ii-s2-prop-3 .statement}
 
-Nếu $\mathcal{U}_1$ và $\mathcal{U}_2$ là hai cấu trúc đều trên một tập hợp X, thì $\mathcal{U}_1$ mịn hơn $\mathcal{U}_2$ khi và chỉ khi mọi entourage của $\mathcal{U}_2$ đều là một entourage của $\mathcal{U}_1$.
+Nếu $\mathscr{U}_1$ và $\mathscr{U}_2$ là hai cấu trúc đều trên một tập hợp X, thì $\mathscr{U}_1$ mịn hơn $\mathscr{U}_2$ khi và chỉ khi mọi entourage của $\mathscr{U}_2$ đều là một entourage của $\mathscr{U}_1$.
 
 #### Hệ quả {#top-ii-s2-n2-cor-1 .statement}
 
-Cho $\mathcal{U}_1$ và $\mathcal{U}_2$ là hai cấu trúc đều trên một tập hợp X, và giả sử rằng $\mathcal{U}_1$ mịn hơn $\mathcal{U}_2$; khi đó tôpô cảm sinh bởi $\mathcal{U}_1$ mịn hơn tôpô cảm sinh bởi $\mathcal{U}_2$.
+Cho $\mathscr{U}_1$ và $\mathscr{U}_2$ là hai cấu trúc đều trên một tập hợp X, và giả sử rằng $\mathscr{U}_1$ mịn hơn $\mathscr{U}_2$; khi đó tôpô cảm sinh bởi $\mathscr{U}_1$ mịn hơn tôpô cảm sinh bởi $\mathscr{U}_2$.
 
 #### Nhận xét 1 {#top-ii-s2-n2-rem-1 .statement}
 
-Có thể xảy ra trường hợp một cấu trúc đều $\mathcal{U}_1$ mịn hơn nghiêm ngặt một cấu trúc đều $\mathcal{U}_2$ nhưng hai tôpô cảm sinh là đồng nhất. Ví dụ sau cho thấy điều đó:
+Có thể xảy ra trường hợp một cấu trúc đều $\mathscr{U}_1$ mịn hơn nghiêm ngặt một cấu trúc đều $\mathscr{U}_2$ nhưng hai tôpô cảm sinh là đồng nhất. Ví dụ sau cho thấy điều đó:
 
 Cho $X$ là một tập hợp không rỗng. Với mỗi phân hoạch hữu hạn $\varpi = (A_i)_{1 \leq i \leq n}$ của $X$, ký hiệu $V_{\overline{\varpi}}$ là
 $$
 \bigcup_i A_i \times A_i.
 $$
-Khi đó các tập hợp $V_{\overline{\varpi}}$ tạo thành một hệ cơ bản các lân cận của một cấu trúc đều $\mathcal{U}$ trên $X$. Thật vậy, nếu $\varpi$ là một phân hoạch hữu hạn bất kỳ của $X$ thì ta có $\Delta \subset V_{\overline{\varpi}}$ và $V_{\overline{\varpi}} \circ V_{\overline{\varpi}} = \overline{V_{\overline{\varpi}}} = V_{\overline{\varpi}}$ (§ 1, no. 1, Ví dụ 2); và nếu $\varpi' = (B_j)$ và $\varpi'' = (C_k)$ là hai phân hoạch hữu hạn của $X$, thì những tập hợp trong số các tập $B_j \cap C_k$ không rỗng tạo thành một phân hoạch hữu hạn $\varpi$ của $X$, và ta có $V_{\overline{\varpi}} \subset V_{\overline{\varpi'}} \cap V_{\overline{\varpi''}}$. $\mathcal{U}$ được gọi là cấu trúc đều của các phân hoạch hữu hạn trên $X$. Tôpô cảm sinh bởi $\mathcal{U}$ là tôpô rời rạc, vì với mỗi $x \in X$ các tập hợp $\{x\}$ và $C\{x\}$ tạo thành một phân hoạch hữu hạn của $X$. Tuy nhiên, nếu $X$ là vô hạn, thì hiển nhiên $\mathcal{U}$ thô hơn thực sự so với cấu trúc đều rời rạc.
+Khi đó các tập hợp $V_{\overline{\varpi}}$ tạo thành một hệ cơ bản các lân cận của một cấu trúc đều $\mathscr{U}$ trên $X$. Thật vậy, nếu $\varpi$ là một phân hoạch hữu hạn bất kỳ của $X$ thì ta có $\Delta \subset V_{\overline{\varpi}}$ và $V_{\overline{\varpi}} \circ V_{\overline{\varpi}} = \overline{V_{\overline{\varpi}}} = V_{\overline{\varpi}}$ (§ 1, no. 1, Ví dụ 2); và nếu $\varpi' = (B_j)$ và $\varpi'' = (C_k)$ là hai phân hoạch hữu hạn của $X$, thì những tập hợp trong số các tập $B_j \cap C_k$ không rỗng tạo thành một phân hoạch hữu hạn $\varpi$ của $X$, và ta có $V_{\overline{\varpi}} \subset V_{\overline{\varpi'}} \cap V_{\overline{\varpi''}}$. $\mathscr{U}$ được gọi là cấu trúc đều của các phân hoạch hữu hạn trên $X$. Tôpô cảm sinh bởi $\mathscr{U}$ là tôpô rời rạc, vì với mỗi $x \in X$ các tập hợp $\{x\}$ và $C\{x\}$ tạo thành một phân hoạch hữu hạn của $X$. Tuy nhiên, nếu $X$ là vô hạn, thì hiển nhiên $\mathscr{U}$ thô hơn thực sự so với cấu trúc đều rời rạc.
 
 #### Nhận xét 2 {#top-ii-s2-n2-rem-2 .statement}
 
@@ -128,15 +128,15 @@ Nếu $f : X \to X'$ là một ánh xạ liên tục đều, thì $f$ vẫn liê
 
 #### Mệnh đề 4 {#top-ii-s2-prop-4 .statement}
 
-Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian đều, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Với mỗi $i \in I$ gọi $g_i$ là $f_i \times f_i$. Cho $\mathfrak{S}$ là tập hợp các tập con của $X \times X$ có dạng $\overline{g_i}(V_i)$, trong đó $i \in I$ và $V_i$ là một lân cận đều của $Y_i$, và cho $\mathcal{B}$ là tập hợp mọi giao hữu hạn
+Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian đều, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Với mỗi $i \in I$ gọi $g_i$ là $f_i \times f_i$. Cho $\mathfrak{S}$ là tập hợp các tập con của $X \times X$ có dạng $\overline{g_i}(V_i)$, trong đó $i \in I$ và $V_i$ là một lân cận đều của $Y_i$, và cho $\mathscr{B}$ là tập hợp mọi giao hữu hạn
 
 $$
 \text{(1)} \quad U(V_{i_1}, \ldots, V_{i_n}) = \overline{g_{i_1}}(V_{i_1}) \cap \cdots \cap \overline{g_{i_n}}(V_{i_n})
 $$
 
-của các tập hợp của $\mathfrak{S}$. Khi đó $\mathcal{B}$ là một hệ cơ bản các entourage của một cấu trúc đều $\mathcal{U}$ trên $X$; cấu trúc này là cấu trúc đều ban đầu trên $X$ đối với họ $(f_i)$ (Lý thuyết tập hợp, Chương IV, § 2, no. 3), và đặc biệt $\mathcal{U}$ là cấu trúc đều thô nhất trên $X$ mà đối với nó mọi ánh xạ $f_i$ đều liên tục đều. Mặt khác, nếu $h$ là một ánh xạ từ một không gian đều $Z$ vào $X$ thì $h$ liên tục đều (khi $X$ được trang bị cấu trúc đều $\mathcal{U}$) nếu và chỉ nếu mỗi ánh xạ $f_i \circ h$ đều liên tục đều.
+của các tập hợp của $\mathfrak{S}$. Khi đó $\mathscr{B}$ là một hệ cơ bản các entourage của một cấu trúc đều $\mathscr{U}$ trên $X$; cấu trúc này là cấu trúc đều ban đầu trên $X$ đối với họ $(f_i)$ (Lý thuyết tập hợp, Chương IV, § 2, no. 3), và đặc biệt $\mathscr{U}$ là cấu trúc đều thô nhất trên $X$ mà đối với nó mọi ánh xạ $f_i$ đều liên tục đều. Mặt khác, nếu $h$ là một ánh xạ từ một không gian đều $Z$ vào $X$ thì $h$ liên tục đều (khi $X$ được trang bị cấu trúc đều $\mathscr{U}$) nếu và chỉ nếu mỗi ánh xạ $f_i \circ h$ đều liên tục đều.
 
-Ta thấy ngay lập tức rằng $\mathcal{B}$ thỏa mãn các tiên đề $(B_1)$ và $(U'_1)$. Nếu $W_i = \overline{g}_i^{-1}(V_i)$, thì $\overline{W}_i = \overline{g}_i^{-1}(\overline{V}_i)$ và $\dot{W}_i = \dot{g}_i^{-1}(\dot{V}_i)$; do đó $\mathcal{B}$ cũng thỏa mãn các tiên đề $(U'_{II})$ và $(U'_{III})$ và vì thế là một hệ cơ bản các entourage của một cấu trúc đều $\mathcal{U}$ trên $X$. Hơn nữa, từ định nghĩa của $\mathcal{U}$ và Định nghĩa 1 và no. 1, suy ra ngay lập tức rằng $f_i$ là liên tục đều với mỗi chỉ số $i \in I$; do đó (no. 1, Mệnh đề 2) $f_i \circ h$ là liên tục đều với mỗi $i \in I$ nếu $h$ là như vậy. Ngược lại, giả sử rằng $f_i \circ h$ là liên tục đều với mỗi $i \in I$, và xét một tập hợp $U(V_{i_1}, \ldots, V_{i_n})$; theo giả thiết, với mỗi $k$ sao cho $1 \leq k \leq n$, có một entourage $W_k$ của $Z$ sao cho quan hệ $(z, z') \in W_k$ kéo theo $[f_{i_k}(h(z)), f_{i_k}(h(z'))] \in V_k$; nếu
+Ta thấy ngay lập tức rằng $\mathscr{B}$ thỏa mãn các tiên đề $(B_1)$ và $(U'_1)$. Nếu $W_i = \overline{g}_i^{-1}(V_i)$, thì $\overline{W}_i = \overline{g}_i^{-1}(\overline{V}_i)$ và $\dot{W}_i = \dot{g}_i^{-1}(\dot{V}_i)$; do đó $\mathscr{B}$ cũng thỏa mãn các tiên đề $(U'_{II})$ và $(U'_{III})$ và vì thế là một hệ cơ bản các entourage của một cấu trúc đều $\mathscr{U}$ trên $X$. Hơn nữa, từ định nghĩa của $\mathscr{U}$ và Định nghĩa 1 và no. 1, suy ra ngay lập tức rằng $f_i$ là liên tục đều với mỗi chỉ số $i \in I$; do đó (no. 1, Mệnh đề 2) $f_i \circ h$ là liên tục đều với mỗi $i \in I$ nếu $h$ là như vậy. Ngược lại, giả sử rằng $f_i \circ h$ là liên tục đều với mỗi $i \in I$, và xét một tập hợp $U(V_{i_1}, \ldots, V_{i_n})$; theo giả thiết, với mỗi $k$ sao cho $1 \leq k \leq n$, có một entourage $W_k$ của $Z$ sao cho quan hệ $(z, z') \in W_k$ kéo theo $[f_{i_k}(h(z)), f_{i_k}(h(z'))] \in V_k$; nếu
 $$
 W = \bigcap_k W_k,
 $$
@@ -144,7 +144,7 @@ thì đồng thời $n$ quan hệ này được thỏa mãn mỗi khi $z$ và $z
 
 #### Hệ quả {#top-ii-s2-n3-cor-1 .statement}
 
-*Tôpô trên $X$ được cảm sinh bởi cấu trúc đều thô nhất $\mathcal{U}$ sao cho các $f_i$ là liên tục đều cũng là tôpô thô nhất sao cho các $f_i$ là liên tục.*
+*Tôpô trên $X$ được cảm sinh bởi cấu trúc đều thô nhất $\mathscr{U}$ sao cho các $f_i$ là liên tục đều cũng là tôpô thô nhất sao cho các $f_i$ là liên tục.*
 
 Đây là một hệ quả ngay lập tức của định nghĩa các lân cận của một điểm trong tôpô sau này (Chương I, § 2, no. 3, Mệnh đề 4).
 
@@ -156,7 +156,7 @@ Các tính chất tổng quát của các cấu trúc ban đầu (*Lý thuyết 
 
 ### 4. ẢNH NGƯỢC CỦA MỘT CẤU TRÚC ĐỒNG ĐỀU; CÁC KHÔNG GIAN CON ĐỒNG ĐỀU
 
-Cho $X$ là một tập hợp, $Y$ là một không gian đều, $f$ là một ánh xạ từ $X$ vào $Y$. Cấu trúc đều thô nhất $\mathcal{U}$ trên $X$ mà đối với nó $f$ là liên tục đều được gọi là *ảnh ngược* theo $f$ của cấu trúc đều của $Y$. Suy ra từ Mệnh đề 4 của no. 3, và từ các công thức cho ảnh ngược của một giao, rằng các ảnh ngược theo $g = f \times f$ của các lân cận của đường chéo của $Y$ tạo thành một hệ cơ bản các lân cận của đường chéo đối với $\mathcal{U}$. Tôpô cảm sinh bởi $\mathcal{U}$ là *ảnh ngược* theo $f$ của tôpô của $Y$ (no. 3, Hệ quả của Mệnh đề 4).
+Cho $X$ là một tập hợp, $Y$ là một không gian đều, $f$ là một ánh xạ từ $X$ vào $Y$. Cấu trúc đều thô nhất $\mathscr{U}$ trên $X$ mà đối với nó $f$ là liên tục đều được gọi là *ảnh ngược* theo $f$ của cấu trúc đều của $Y$. Suy ra từ Mệnh đề 4 của no. 3, và từ các công thức cho ảnh ngược của một giao, rằng các ảnh ngược theo $g = f \times f$ của các lân cận của đường chéo của $Y$ tạo thành một hệ cơ bản các lân cận của đường chéo đối với $\mathscr{U}$. Tôpô cảm sinh bởi $\mathscr{U}$ là *ảnh ngược* theo $f$ của tôpô của $Y$ (no. 3, Hệ quả của Mệnh đề 4).
 
 #### Nhận xét {#top-ii-s2-n4-rem-1 .statement}
 
@@ -184,17 +184,17 @@ $A \times A$ trù mật trong $X \times X$ (Chương I, § 4, no. 3, Mệnh đ�
 
 ### 5. CẬN TRÊN BÉ NHẤT CỦA MỘT TẬP HỢP CÁC CẤU TRÚC ĐỀU
 
-Mọi họ $(\mathcal{U}_i)_{i \in I}$ các cấu trúc đều trên một tập hợp $X$ đều có một cận trên bé nhất $\mathcal{U}$ trong tập hợp có thứ tự của tất cả các cấu trúc đều trên $X$; ta chỉ cần áp dụng mệnh đề 4 của no. 3, lấy $Y_i$ là tập hợp $X$ được trang bị cấu trúc đều $\mathcal{U}_i$, và $f_i$ là ánh xạ đồng nhất $X \to Y_i$. Tôpô cảm sinh bởi $\mathcal{U}$ chính là cận trên bé nhất của các tôpô cảm sinh bởi các $\mathcal{U}_i$.
+Mọi họ $(\mathscr{U}_i)_{i \in I}$ các cấu trúc đều trên một tập hợp $X$ đều có một cận trên bé nhất $\mathscr{U}$ trong tập hợp có thứ tự của tất cả các cấu trúc đều trên $X$; ta chỉ cần áp dụng mệnh đề 4 của no. 3, lấy $Y_i$ là tập hợp $X$ được trang bị cấu trúc đều $\mathscr{U}_i$, và $f_i$ là ánh xạ đồng nhất $X \to Y_i$. Tôpô cảm sinh bởi $\mathscr{U}$ chính là cận trên bé nhất của các tôpô cảm sinh bởi các $\mathscr{U}_i$.
 
-Cũng suy ra từ Mệnh đề 4 của no. 3 rằng nếu $X$ không rỗng và nếu $\mathcal{U}_i$ là bộ lọc các entourage của $\mathcal{U}_i$, thì bộ lọc các entourage của $\mathcal{U}$ là cận trên bé nhất của các bộ lọc $\mathcal{U}_i$ (Chương I, § 6, no. 2).
+Cũng suy ra từ Mệnh đề 4 của no. 3 rằng nếu $X$ không rỗng và nếu $\mathscr{U}_i$ là bộ lọc các entourage của $\mathscr{U}_i$, thì bộ lọc các entourage của $\mathscr{U}$ là cận trên bé nhất của các bộ lọc $\mathscr{U}_i$ (Chương I, § 6, no. 2).
 
 #### Ví dụ {#top-ii-s2-n5-exa-1 .statement}
 
-Nếu $\varpi$ là một phân hoạch hữu hạn bất kỳ $(A_i)_{1 \leq i \leq n}$ của một tập hợp không rỗng $X$, thì tập hợp $V_\varpi = \bigcup_i (A_i \times A_i)$ tự nó tạo thành một hệ cơ sở các entourage của một cấu trúc đều $\mathcal{U}_\varpi$ trên $X$ (§ 1, no. 1, Ví dụ 2); khi đó cấu trúc đều của các phân hoạch hữu hạn trên $X$ (no. 2, Nhận xét 1) là cận trên bé nhất của các cấu trúc đều $\mathcal{U}_\varpi$.
+Nếu $\varpi$ là một phân hoạch hữu hạn bất kỳ $(A_i)_{1 \leq i \leq n}$ của một tập hợp không rỗng $X$, thì tập hợp $V_\varpi = \bigcup_i (A_i \times A_i)$ tự nó tạo thành một hệ cơ sở các entourage của một cấu trúc đều $\mathscr{U}_\varpi$ trên $X$ (§ 1, no. 1, Ví dụ 2); khi đó cấu trúc đều của các phân hoạch hữu hạn trên $X$ (no. 2, Nhận xét 1) là cận trên bé nhất của các cấu trúc đều $\mathscr{U}_\varpi$.
 
 #### Nhận xét {#top-ii-s2-n5-rem-1 .statement}
 
-Một họ $(\mathcal{U}_i)$ các cấu trúc đều trên $X$ cũng có một cận dưới lớn nhất trong tập hợp có thứ tự của mọi cấu trúc đều trên $X$, cụ thể là cận trên nhỏ nhất của tập hợp mọi cấu trúc đều trên $X$ mà thô hơn từng $\mathcal{U}_i$ (những cấu trúc đều như vậy có tồn tại, vì tập hợp mọi cấu trúc đều trên $X$ có một phần tử nhỏ nhất). Nhưng (giả sử $X$ không rỗng) bộ lọc các lân cận của đường chéo của cấu trúc đều này không nhất thiết là giao của các bộ lọc các lân cận của đường chéo của các $\mathcal{U}_i$, vì bộ lọc sau này không nhất thiết thỏa mãn tiên đề $(U_{III})$ (Bài tập 4).
+Một họ $(\mathscr{U}_i)$ các cấu trúc đều trên $X$ cũng có một cận dưới lớn nhất trong tập hợp có thứ tự của mọi cấu trúc đều trên $X$, cụ thể là cận trên nhỏ nhất của tập hợp mọi cấu trúc đều trên $X$ mà thô hơn từng $\mathscr{U}_i$ (những cấu trúc đều như vậy có tồn tại, vì tập hợp mọi cấu trúc đều trên $X$ có một phần tử nhỏ nhất). Nhưng (giả sử $X$ không rỗng) bộ lọc các lân cận của đường chéo của cấu trúc đều này không nhất thiết là giao của các bộ lọc các lân cận của đường chéo của các $\mathscr{U}_i$, vì bộ lọc sau này không nhất thiết thỏa mãn tiên đề $(U_{III})$ (Bài tập 4).
 
 ### 6. TÍCH CỦA CÁC KHÔNG GIAN ĐỀU
 

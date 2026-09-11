@@ -37,7 +37,7 @@ subsections:
       pdf_page: 35
 statements: 23
 exercises: 16
-content_sha256: 8f3e8c51c65e8658f192fbec94abe7c09eee805e66a19ea2daa3243d1a0988ef
+content_sha256: c92a2a6f990e79fa793940095c7f322289c40184362f2b0a0640144b03d6098b
 ---
 
 ## § 3. SOUS-ESPACES; ESPACES QUOTIENTS
@@ -54,7 +54,7 @@ Soit $A$ une partie d’un espace topologique $X$. On appelle topologie induite 
 
 Sur l’ensemble $\mathbf{Z}$ des entiers rationnels, la topologie induite par celle de la droite rationnelle est la topologie discrète, car la trace sur $\mathbf{Z}$ de l’intervalle ouvert $]n-\frac{1}{2},n+\frac{1}{2}[$ est l’ensemble $\{n\}$.
 
-En vertu de la prop. 5 de I, p. 13 (ou directement à partir de la déf. 1), si $B \subset A \subset X$, le sous-espace $B$ de $X$ est identique au sous-espace $B$ du sous-espace $A$ de $X$ (transitivité des topologies induites). Si $\mathcal{G}$ est un système générateur (resp. une base) de la topologie de $X$ (I, p. 13, Exemple II), sa trace $\mathcal{G}_A$ sur $A$ est un système générateur (resp. une base) de la topologie induite sur $A$.
+En vertu de la prop. 5 de I, p. 13 (ou directement à partir de la déf. 1), si $B \subset A \subset X$, le sous-espace $B$ de $X$ est identique au sous-espace $B$ du sous-espace $A$ de $X$ (transitivité des topologies induites). Si $\mathscr{G}$ est un système générateur (resp. une base) de la topologie de $X$ (I, p. 13, Exemple II), sa trace $\mathscr{G}_A$ sur $A$ est un système générateur (resp. une base) de la topologie induite sur $A$.
 
 Dans toutes les questions où interviennent des éléments ou des parties de $A$, il faut soigneusement distinguer entre leurs propriétés en tant que points (resp.
 
@@ -102,7 +102,7 @@ Plaçons-nous maintenant dans l’hypothèse b); par dualité, on peut encore se
 
 #### Remarque {#top-i-s3-n1-rem-1 .statement}
 
-Soit $(U_t)_{t \in I}$ un recouvrement ouvert d’un espace topologique $X$, et pour tout $t \in I$, soit $\mathcal{B}_t$ une base de la topologie de sous-espace $U_t$ de $X$; il est clair que $\mathcal{B} = \bigcup_{t \in I} \mathcal{B}_t$ est une base de la topologie de $X$.
+Soit $(U_t)_{t \in I}$ un recouvrement ouvert d’un espace topologique $X$, et pour tout $t \in I$, soit $\mathscr{B}_t$ une base de la topologie de sous-espace $U_t$ de $X$; il est clair que $\mathscr{B} = \bigcup_{t \in I} \mathscr{B}_t$ est une base de la topologie de $X$.
 
 ### 2. Continuité par rapport à un sous-espace
 
