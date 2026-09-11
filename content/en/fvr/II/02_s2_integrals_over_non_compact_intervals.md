@@ -25,7 +25,7 @@ subsections:
       pdf_page: 82
 statements: 9
 exercises: 9
-content_sha256: 805462a270d81884bfd12b8ec276cd9269157f5d73f72f66f32a90b09f0773f3
+content_sha256: c881c36ec5ea7370c5059147e2a0654f1e10dbdf7b324df291c68bf94faa7276
 ---
 
 ## § 2. INTEGRALS OVER NON-COMPACT INTERVALS
@@ -72,7 +72,7 @@ $$
 $$
 Indeed, if $(x,\ y)$ tends to $(a,\ b)$, then $(f(x),\ f(y))$ tends to $(f(a+),\ f(b-))$ by hypothesis; it suffices to apply formula (12) of II, p. 60 between $x$ and $y$, and to pass to the limit to obtain (1).
 
-Given a regulated function $\mathbf{f}$ on a non-compact interval $I \subset \mathbf{R}$, with endpoints $a$ and $b$ ($a < b$), the condition for $\mathbf{f}$ to have an integral over I can be presented in the following manner. The compact intervals $J \subset I$ form a *directed set* $\mathcal{K}(I)$ with respect to the relation $\subset ^1$, for if $[ \alpha , \beta ]$ and $[ \gamma , \delta ]$ are two compact intervals contained in $I$, and if one puts $\lambda = \min(\alpha, \gamma)$, $\mu = \max(\beta, \delta)$, then the interval $[ \lambda , \mu ]$ is contained in $I$ and contains the two intervals considered. For each compact interval $J = [ \alpha , \beta ]$ contained in $I$, let us put
+Given a regulated function $\mathbf{f}$ on a non-compact interval $I \subset \mathbf{R}$, with endpoints $a$ and $b$ ($a < b$), the condition for $\mathbf{f}$ to have an integral over I can be presented in the following manner. The compact intervals $J \subset I$ form a *directed set* $\mathscr{K}(I)$ with respect to the relation $\subset ^1$, for if $[ \alpha , \beta ]$ and $[ \gamma , \delta ]$ are two compact intervals contained in $I$, and if one puts $\lambda = \min(\alpha, \gamma)$, $\mu = \max(\beta, \delta)$, then the interval $[ \lambda , \mu ]$ is contained in $I$ and contains the two intervals considered. For each compact interval $J = [ \alpha , \beta ]$ contained in $I$, let us put
 
 $$
 \int_J f(t) \, dt = \int_\alpha^\beta f(t) \, dt;
@@ -128,7 +128,7 @@ $$
 $$
 the map $J \mapsto \int_J f\,dt$ is thus increasing, and the proposition follows from the monotone limit theorem (*Gen. Top.*, IV, p. 349, th. 2).
 
-When the map $J \mapsto \int_J f(t)\,dt$ is not bounded it has limit $+\infty$ with respect to the directed set $\mathcal{K}(I)$; then one says, by abuse of language, that the integral $\int_a^b f(t)\,dt$ is equal to $+\infty$. The properties of integrals established in n 1 extend (when dealing with functions $\geq 0$) to the case where certain of the integrals concerned are infinite, provided that the relations in which they feature make sense.
+When the map $J \mapsto \int_J f(t)\,dt$ is not bounded it has limit $+\infty$ with respect to the directed set $\mathscr{K}(I)$; then one says, by abuse of language, that the integral $\int_a^b f(t)\,dt$ is equal to $+\infty$. The properties of integrals established in n 1 extend (when dealing with functions $\geq 0$) to the case where certain of the integrals concerned are infinite, provided that the relations in which they feature make sense.
 
 **PROPOSITION 3 (comparison principle).** *Let $f$ and $g$ be two real regulated functions on an interval $I \subset \mathbf{R}$, such that $0 \leq f(x) \leq g(x)$ at each point where $f$ and $g$ are continuous (*cf.* II, p. 61, prop. 6). If the integral of $g$ over $I$ is convergent, so also is the integral of $f$, and one has $\int_I f(t)\,dt \leq \int_I g(t)\,dt$. Further, the two integrals cannot be equal unless $f(x) = g(x)$ at every point of $I$ where $f$ and $g$ are continuous.*
 

@@ -36,7 +36,7 @@ subsections:
       pdf_page: 64
 statements: 22
 exercises: 23
-content_sha256: 9a5fd485ea876bb319eb23c6bc344ab84c47f587698a0b7b913ebd9ce8b6fb3f
+content_sha256: 0c5afcba3bf2d7365099706e15ece1413976e2826bb7441159650519694327d4
 ---
 
 ## § 1. PRIMITIVES ET INTÉGRALES
@@ -101,13 +101,13 @@ pour $y \in I$ et $|y - x| \leq h$, ce qui achève la démonstration.
 
 #### Corollaire 1 {#fvr-ii-s1-thm-1-cor-1 .statement}
 
-L’ensemble $\mathcal{H}$ des applications de $I$ dans $E$ qui admettent une primitive dans un intervalle $I$ est un sous-espace vectoriel fermé (donc complet) de l’espace vectoriel complet $\mathcal{F}_c(I; E)$ des applications de $I$ dans $E$, muni de la topologie de la convergence uniforme dans toute partie compacte de $I$ (TG, X, p. 4).
+L’ensemble $\mathscr{H}$ des applications de $I$ dans $E$ qui admettent une primitive dans un intervalle $I$ est un sous-espace vectoriel fermé (donc complet) de l’espace vectoriel complet $\mathscr{F}_c(I; E)$ des applications de $I$ dans $E$, muni de la topologie de la convergence uniforme dans toute partie compacte de $I$ (TG, X, p. 4).
 
 #### Corollaire 2 {#fvr-ii-s1-thm-1-cor-2 .statement}
 
-Soit $x_0$ un point de $I$, et pour chaque fonction $f \in \mathcal{H}$, soit $P(f)$ la primitive de $f$ qui s’annule au point $x_0$; l’application $f \mapsto P(f)$ de $\mathcal{H}$ dans $\mathcal{F}_c(I; E)$ est une application linéaire continue.
+Soit $x_0$ un point de $I$, et pour chaque fonction $f \in \mathscr{H}$, soit $P(f)$ la primitive de $f$ qui s’annule au point $x_0$; l’application $f \mapsto P(f)$ de $\mathscr{H}$ dans $\mathscr{F}_c(I; E)$ est une application linéaire continue.
 
-Le cor. 1 du th. 1 permet d’établir l’existence de primitives de certaines catégories de fonctions par le procédé suivant : si on sait que les fonctions appartenant à une partie $\mathcal{A}$ de $\mathcal{F}_c(I; E)$ admettent une primitive, il en sera de même des fonctions appartenant à l’adhérence dans $\mathcal{F}_c(I; E)$ du sous-espace vectoriel engendre par $\mathscr{A}$. Nous allons appliquer cette méthode au n° suivant.
+Le cor. 1 du th. 1 permet d’établir l’existence de primitives de certaines catégories de fonctions par le procédé suivant : si on sait que les fonctions appartenant à une partie $\mathscr{A}$ de $\mathscr{F}_c(I; E)$ admettent une primitive, il en sera de même des fonctions appartenant à l’adhérence dans $\mathscr{F}_c(I; E)$ du sous-espace vectoriel engendre par $\mathscr{A}$. Nous allons appliquer cette méthode au n° suivant.
 
 ### 3. Fonctions réglées
 
@@ -119,7 +119,7 @@ Soit $(a_i)_{0 \leq i \leq n}$ la suite strictement croissante formée des extr�
 
 #### Proposition 2 {#fvr-ii-s1-prop-2 .statement}
 
-L’ensemble des fonctions en escalier définies dans $I$, à valeurs dans un espace vectoriel $E$ sur $\mathbf{R}$, est un sous-espace vectoriel $\mathscr{E}$ de l’espace vectoriel $\mathcal{F}(I; E)$ de toutes les applications de $I$ dans $E$.
+L’ensemble des fonctions en escalier définies dans $I$, à valeurs dans un espace vectoriel $E$ sur $\mathbf{R}$, est un sous-espace vectoriel $\mathscr{E}$ de l’espace vectoriel $\mathscr{F}(I; E)$ de toutes les applications de $I$ dans $E$.
 
 En effet, soient $f$ et $g$ deux fonctions en escalier, $(A_i)$ et $(B_j)$ deux partitions de $I$ en un nombre fini d’intervalles telles que $f$ (resp. $g$) soit constante dans chacun des $A_i$ (resp. $B_j$); quels que soient les nombres réels $\lambda, \mu$, il est clair que $\lambda f + \mu g$ est constante dans chacun des intervalles non vides $A_i \cap B_j$, et ces intervalles forment une partition de $I$.
 
@@ -135,7 +135,7 @@ Nous pouvons maintenant appliquer la méthode exposée au n° 2.
 
 On dit qu’une fonction vectorielle, définie dans un intervalle $I$, à valeurs dans un espace normé complet $E$ sur $\mathbf{R}$, est une fonction réglée si, dans toute partie compacte de $I$, elle est limite uniforme de fonctions en escalier.
 
-En d’autres termes, les fonctions réglées sont les éléments de l’adhérence dans $\mathcal{F}_c(I; E)$ du sous-espace vectoriel $\mathscr{E}$, des fonctions en escalier ; $\overline{\mathscr{E}}$ est un sous-espace vectoriel de $\mathcal{F}_c(I; E)$ et comme $\mathcal{F}_c(I; E)$ est complet, il en est de même de $\mathscr{E}$; autrement dit, si une fonction est dans toute partie compacte de $I$ limite uniforme de fonctions réglées, elle est réglée dans $I$. Pour que $\mathbf{f}$ soit réglée dans un intervalle $I$, il faut et il suffit que sa restriction à tout intervalle compact contenu dans $I$ soit réglée.
+En d’autres termes, les fonctions réglées sont les éléments de l’adhérence dans $\mathscr{F}_c(I; E)$ du sous-espace vectoriel $\mathscr{E}$, des fonctions en escalier ; $\overline{\mathscr{E}}$ est un sous-espace vectoriel de $\mathscr{F}_c(I; E)$ et comme $\mathscr{F}_c(I; E)$ est complet, il en est de même de $\mathscr{E}$; autrement dit, si une fonction est dans toute partie compacte de $I$ limite uniforme de fonctions réglées, elle est réglée dans $I$. Pour que $\mathbf{f}$ soit réglée dans un intervalle $I$, il faut et il suffit que sa restriction à tout intervalle compact contenu dans $I$ soit réglée.
 
 Le cor. 1 de II, p. 3 montre que:
 

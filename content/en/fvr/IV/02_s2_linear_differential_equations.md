@@ -49,7 +49,7 @@ subsections:
       pdf_page: 211
 statements: 25
 exercises: 10
-content_sha256: 3b798d7a9737ee288cc5baf1d0c347f64bae3f3f7e1d2d7fbb82d32cd8c8925b
+content_sha256: b518deddff2b844f2073715d1ba26579d984ec681a4cf5a0dc217361f4538b00
 ---
 
 ## § 2. LINEAR DIFFERENTIAL EQUATIONS
@@ -92,15 +92,15 @@ $$
 
 is a linear differential equation; here $A(t)$ is the linear map $x \mapsto a(t)x + x b(t)$ of $G$ to itself.
 
-For every $t \in J$, $A(t)$ is an element of the set $\mathcal{L}(E)$ of continuous linear maps from $E$ to itself (continuous endomorphisms of $E$); one knows (*Gen. Top.*, X, p. 298) that $\mathcal{L}(E)$, endowed with the *norm* $\|U\| = \sup_{\|x\| \leq 1} \|Ux\|$ is a *complete normed algebra* over the field $\mathbf{R}$, and that $\|UV\| \leq \|U\|\ \|V\|$.
+For every $t \in J$, $A(t)$ is an element of the set $\mathscr{L}(E)$ of continuous linear maps from $E$ to itself (continuous endomorphisms of $E$); one knows (*Gen. Top.*, X, p. 298) that $\mathscr{L}(E)$, endowed with the *norm* $\|U\| = \sup_{\|x\| \leq 1} \|Ux\|$ is a *complete normed algebra* over the field $\mathbf{R}$, and that $\|UV\| \leq \|U\|\ \|V\|$.
 
 *Throughout this section we shall assume that the following conditions are satisfied:*
 
-a) *The map* $t \mapsto A(t)$ *of* $J$ *into* $\mathcal{L}(E)$ *is regulated*.
+a) *The map* $t \mapsto A(t)$ *of* $J$ *into* $\mathscr{L}(E)$ *is regulated*.
 
 b) *The map* $t \mapsto b(t)$ *of* $J$ *into* $E$ *is regulated*.
 
-When $E$ has dimension $n$, $\mathcal{L}(E)$ is isomorphic to $\mathbf{R}^{n^2}$ (as a topological vector space) and condition *a*) means that each of the elements $a_{ij}(t)$ of the matrix $A(t)$ is a *regulated* function on $J$.
+When $E$ has dimension $n$, $\mathscr{L}(E)$ is isomorphic to $\mathbf{R}^{n^2}$ (as a topological vector space) and condition *a*) means that each of the elements $a_{ij}(t)$ of the matrix $A(t)$ is a *regulated* function on $J$.
 
 Since $\|A(t')\mathbf{x} - A(t)\mathbf{x}\| \leq \|A(t') - A(t)\|\|\mathbf{x}\|$, the map
 $$
@@ -114,7 +114,7 @@ for any $t \in J$ and $\mathbf{x}_1, \mathbf{x}_2$ in $E$; in other words, the r
 
 #### Theorem 1 {#fvr-iv-s2-thm-1 .statement}
 
-*Let* $t \mapsto A(t)$ *be a regulated map of* $J$ *into* $\mathcal{L}(E)$, *and* $t \mapsto \mathbf{b}(t)$ *be a regulated map of* $J$ *into* $E$. *For every point* $(t_0, \mathbf{x}_0)$ *of* $J \times E$ *the linear equation* (2) *admits one and only one solution defined on all of* $J$ *and equal to* $\mathbf{x}_0$ *at the point* $t_0$.
+*Let* $t \mapsto A(t)$ *be a regulated map of* $J$ *into* $\mathscr{L}(E)$, *and* $t \mapsto \mathbf{b}(t)$ *be a regulated map of* $J$ *into* $E$. *For every point* $(t_0, \mathbf{x}_0)$ *of* $J \times E$ *the linear equation* (2) *admits one and only one solution defined on all of* $J$ *and equal to* $\mathbf{x}_0$ *at the point* $t_0$.
 
 ### 2. LINEARITY OF THE INTEGRALS OF A LINEAR DIFFERENTIAL EQUATION
 
@@ -126,7 +126,7 @@ is said to be *associated* with the inhomogeneous equation (2); and one knows (*
 
 #### Proposition 1 {#fvr-iv-s2-prop-1 .statement}
 
-*The set* $\mathcal{I}$ *of integrals of the homogeneous linear equation* (4), *defined on* $J$, *is a vector subspace of the space* $C(J; E)$ *of continuous maps from* $J$ *into* $E$.
+*The set* $\mathscr{I}$ *of integrals of the homogeneous linear equation* (4), *defined on* $J$, *is a vector subspace of the space* $C(J; E)$ *of continuous maps from* $J$ *into* $E$.
 
 The proof is immediate.
 
@@ -134,7 +134,7 @@ The proof is immediate.
 
 *For every point* $(t_0, \mathbf{x}_0)$ *of* $J \times E$ *let* $\mathbf{u}(t, t_0, \mathbf{x}_0)$ *be the integral of the homogeneous equation* (4) *defined on* $J$ *and equal to* $\mathbf{x}_0$ *at* $t_0$.
 1. *For every point* $t \in J$ *the map* $\mathbf{x}_0 \mapsto \mathbf{u}(t, t_0, \mathbf{x}_0)$ *is a bijective bicontinuous linear map* $C(t, t_0)$ *of* $E$ *to itself*.
-2. *The map* $t \mapsto C(t, t_0)$ *of* $J$ *into* $\mathcal{L}(E)$ *is identical to the integral of the homogeneous linear differential equation*
+2. *The map* $t \mapsto C(t, t_0)$ *of* $J$ *into* $\mathscr{L}(E)$ *is identical to the integral of the homogeneous linear differential equation*
 $$
 \frac{dU}{dt} = A(t)\ U
 $$
@@ -146,7 +146,7 @@ $$
 
 By prop. 1, $\mathbf{u}(t, t_0, \mathbf{x}_1) + \mathbf{u}(t, t_0, \mathbf{x}_2)$ (resp. $\lambda \mathbf{u}(t, t_0, \mathbf{x}_0)$) is an integral of (4) and takes the value $\mathbf{x}_1 + \mathbf{x}_2$ (resp. $\lambda \mathbf{x}_0$) at $t_0$, so, by th. 1 of IV, p. 179, is identical to $\mathbf{u}(t, t_0, \mathbf{x}_1 + \mathbf{x}_2)$ (resp. $\mathbf{u}(t, t_0, \lambda \mathbf{x}_0)$); the map $\mathbf{x}_0 \mapsto \mathbf{u}(t, t_0, \mathbf{x}_0)$ is thus a linear map $C(t, t_0)$ of E into itself, and one can write $\mathbf{u}(t, t_0, \mathbf{x}_0) = C(t, t_0). \mathbf{x}_0$.
 
-Since the map $(X, Y) \mapsto XY$ of $\mathcal{L}(E) \times \mathcal{L}(E)$ into $\mathcal{L}(E)$ is continuous (*Gen. Top.*, X, p. 298, prop. 8), the map $t \mapsto A(t)U$ of J into $\mathcal{L}(E)$ is regulated for all $U \in \mathcal{L}(E)$; further (*Gen. Top.*, X, p. 296)
+Since the map $(X, Y) \mapsto XY$ of $\mathscr{L}(E) \times \mathscr{L}(E)$ into $\mathscr{L}(E)$ is continuous (*Gen. Top.*, X, p. 298, prop. 8), the map $t \mapsto A(t)U$ of J into $\mathscr{L}(E)$ is regulated for all $U \in \mathscr{L}(E)$; further (*Gen. Top.*, X, p. 296)
 
 $$
 \| A(t)X - A(t)Y \| = \| A(t)(X - Y) \| \leq \| A(t) \| \| X - Y \|,
@@ -158,7 +158,7 @@ $$
 \frac{d}{dt} (V(t)\mathbf{x}_0) = \frac{dV(t)}{dt} \mathbf{x}_0 = A(t)(V(t)\mathbf{x}_0)
 $$
 
-and for $t = t_0$ we have $V(t)\mathbf{x}_0 = I\mathbf{x}_0 = \mathbf{x}_0$; by th. 1 of IV, p. 179 one must have $V(t).\mathbf{x}_0 = C(t, t_0)\mathbf{x}_0$ for all $\mathbf{x}_0 \in E$, that is, $V(t) = C(t, t_0)$; this proves that $C(t, t_0)$ belongs to $\mathcal{L}(E)$, in other words, that $\mathbf{x}_0 \mapsto C(t, t_0).\mathbf{x}_0$ is continuous on E, and that the map $t \mapsto C(t, t_0)$ is the integral of (5) which is equal to $I$ at $t_0$.
+and for $t = t_0$ we have $V(t)\mathbf{x}_0 = I\mathbf{x}_0 = \mathbf{x}_0$; by th. 1 of IV, p. 179 one must have $V(t).\mathbf{x}_0 = C(t, t_0)\mathbf{x}_0$ for all $\mathbf{x}_0 \in E$, that is, $V(t) = C(t, t_0)$; this proves that $C(t, t_0)$ belongs to $\mathscr{L}(E)$, in other words, that $\mathbf{x}_0 \mapsto C(t, t_0).\mathbf{x}_0$ is continuous on E, and that the map $t \mapsto C(t, t_0)$ is the integral of (5) which is equal to $I$ at $t_0$.
 
 Finally, the integral $s \mapsto C(s, u).\mathbf{x}_0$ of (4) is equal to $C(t, u).\mathbf{x}_0$ at the point $t$, so, by definition,
 
@@ -172,9 +172,9 @@ One says that $C(t, t_0)$ is the *resolvent* of equation (2) of IV, p. 178.
 
 #### Corollary 1 {#fvr-iv-s2-thm-2-cor-1 .statement}
 
-*The map which to every point $\mathbf{x}_0 \in E$ associates the continuous function $t \mapsto C(t, t_0).\mathbf{x}_0$, defined on J, is an isomorphism of the normed space E onto the vector space $\mathcal{I}$ of integrals of (4), endowed with the topology of compact convergence.*
+*The map which to every point $\mathbf{x}_0 \in E$ associates the continuous function $t \mapsto C(t, t_0).\mathbf{x}_0$, defined on J, is an isomorphism of the normed space E onto the vector space $\mathscr{I}$ of integrals of (4), endowed with the topology of compact convergence.*
 
-It is certainly a bijective linear map of E onto $\mathcal{I}$: now $C(t, t_0)$ is bounded on a compact set $K \subset J$, so $\| C(t, t_0).\mathbf{x}_0 \| \leq M \| \mathbf{x}_0 \|$ for any $t \in K$ and $\mathbf{x}_0 \in E$, which shows that this map is continuous; and since
+It is certainly a bijective linear map of E onto $\mathscr{I}$: now $C(t, t_0)$ is bounded on a compact set $K \subset J$, so $\| C(t, t_0).\mathbf{x}_0 \| \leq M \| \mathbf{x}_0 \|$ for any $t \in K$ and $\mathbf{x}_0 \in E$, which shows that this map is continuous; and since
 
 $$
 C(t_0, t_0).\mathbf{x}_0 = \mathbf{x}_0,
@@ -184,9 +184,9 @@ it is clear that the inverse map is also continuous.
 
 #### Corollary 2 {#fvr-iv-s2-thm-2-cor-2 .statement}
 
-*The map $(s, t) \mapsto C(s, t)$ of $J \times J$ into $\mathcal{L}(E)$ is continuous.*
+*The map $(s, t) \mapsto C(s, t)$ of $J \times J$ into $\mathscr{L}(E)$ is continuous.*
 
-By (6) we have $C(s, t) = C(s, t_0) \left( C(t, t_0) \right)^{-1}$; now, the map $(X, Y) \mapsto XY$ of $\mathcal{L}(E) \times \mathcal{L}(E)$ into $\mathcal{L}(E)$ is continuous, as is the map $X \mapsto X^{-1}$ of the (open) group of invertible elements of $\mathcal{L}(E)$ onto itself (TG, IX, p. 40, prop. 14).
+By (6) we have $C(s, t) = C(s, t_0) \left( C(t, t_0) \right)^{-1}$; now, the map $(X, Y) \mapsto XY$ of $\mathscr{L}(E) \times \mathscr{L}(E)$ into $\mathscr{L}(E)$ is continuous, as is the map $X \mapsto X^{-1}$ of the (open) group of invertible elements of $\mathscr{L}(E)$ onto itself (TG, IX, p. 40, prop. 14).
 
 One may note that the map
 $$
@@ -205,7 +205,7 @@ Indeed, $\|A(t)x_0\| \leq k \|x_0\|$ for all $t \in K$; on K the constant functi
 $$
 \|C(t, t_0)x_0 - x_0\| \leq \|x_0\| (e^{k|t-t_0|} - 1)
 $$
-for any $t$ and $t_0$ in K, and $x_0$ in E, which is equivalent to the inequality (7) by the definition of the norm on $\mathcal{L}(E)$.
+for any $t$ and $t_0$ in K, and $x_0$ in E, which is equivalent to the inequality (7) by the definition of the norm on $\mathscr{L}(E)$.
 
 #### Proposition 2 {#fvr-iv-s2-prop-2 .statement}
 
@@ -239,7 +239,7 @@ $$
 (U, y) \mapsto U.y
 $$
 
-of $\mathcal{L}(\mathbf{E}) \times \mathbf{E}$ into $\mathbf{E}$ is continuous (\emph{Gen. Top.}, X, p. 297, prop. 6), $\mathbf{z}$ admits a derivative (except on a countable subset of J) and one has, by the formula for differentiating a bilinear function (I, p. 6, prop. 3)
+of $\mathscr{L}(\mathbf{E}) \times \mathbf{E}$ into $\mathbf{E}$ is continuous (\emph{Gen. Top.}, X, p. 297, prop. 6), $\mathbf{z}$ admits a derivative (except on a countable subset of J) and one has, by the formula for differentiating a bilinear function (I, p. 6, prop. 3)
 
 $$
 \frac{d}{dt}\left(C(t, t_0).\mathbf{z}\right) = \frac{dC(t, t_0)}{dt}.\mathbf{z} + C(t, t_0).\frac{d\mathbf{z}}{dt} = A(t)C(t, t_0).\mathbf{z} + C(t, t_0).\frac{d\mathbf{z}}{dt}
@@ -309,7 +309,7 @@ $$
 u(t) = x_0 \exp \left( \int_{t_0}^t a(s)\, ds \right) + \int_{t_0}^t b(s) \exp \left( \int_{t_0}^\tau a(\tau)\, d\tau \right) ds.
 $$
 
-In the space $\mathscr{C}(J; E)$ of continuous maps from J into E, endowed with the topology of compact convergence, the set $\mathcal{I}$ of integrals of equation (4) is a vector subspace (over $\mathbf{C}$) isomorphic to E, therefore to $\mathbf{C}^n$ (IV, p. 180, cor. 1, and IV, p. 181, prop. 2).
+In the space $\mathscr{C}(J; E)$ of continuous maps from J into E, endowed with the topology of compact convergence, the set $\mathscr{I}$ of integrals of equation (4) is a vector subspace (over $\mathbf{C}$) isomorphic to E, therefore to $\mathbf{C}^n$ (IV, p. 180, cor. 1, and IV, p. 181, prop. 2).
 
 A basis $(\mathbf{u}_j)_{1 \leq j \leq n}$ of this space (over the field $\mathbf{C}$) is called a *fundamental system* of integrals of (4).
 
@@ -317,7 +317,7 @@ A basis $(\mathbf{u}_j)_{1 \leq j \leq n}$ of this space (over the field $\mathb
 
 *For the $n$ integrals $\mathbf{u}_j$ ($1 \leq j \leq n$) of equation (4) to form a fundamental system it is necessary and sufficient that their values $\mathbf{u}_j(t_0)$ at a point $t_0 \in J$ be linearly independent vectors in $E$.*
 
-Indeed, the map which to every $\mathbf{x}_0 \in E$ associates the integral $t \mapsto C(t, t_0).\mathbf{x}_0$ is an isomorphism of $E$ onto $\mathcal{I}$ (IV, p. 180, cor. 1 and IV, p. 181, prop. 2).
+Indeed, the map which to every $\mathbf{x}_0 \in E$ associates the integral $t \mapsto C(t, t_0).\mathbf{x}_0$ is an isomorphism of $E$ onto $\mathscr{I}$ (IV, p. 180, cor. 1 and IV, p. 181, prop. 2).
 
 If $(\mathbf{e}_j)_{1 \leq j \leq n}$ is any basis of $E$ over $\mathbf{C}$, the $n$ integrals
 $$
@@ -401,7 +401,7 @@ We consider in particular the case where $A(t)$ is an endomorphism of a vector s
 
 Assuming always that the space E is of finite dimension $n$ over $\mathbf{C}$, let $E^*$ be its dual (A, II, p. 40), which is a space of dimension $n$ over $\mathbf{C}$ (Alg., II, p. 299, th. 4); the canonical bilinear form $\langle \mathbf{x}, \mathbf{x}^* \rangle$ defined on $E \times E^*$ (Alg., II, p. 234) is continuous on this product (being a polynomial in the components of $\mathbf{x} \in E$ and $\mathbf{x}^* \in E^*$).
 
-Given a homogeneous linear equation (4) (IV, p. 183), where $t \mapsto A(t)$ is a regulated map of J into $\mathcal{L}(E)$, let us see if there exists a map $t \mapsto \mathbf{v}(t)$ of J into $E^*$, a primitive of a regulated function on J, and such that the scalar function $t \mapsto \langle \mathbf{u}(t), \mathbf{v}(t) \rangle$ is constant on J when $\mathbf{u}$ is an arbitrary solution of (4); it comes to the same to write that the derivative of this function should be zero at every point where $\mathbf{u}$ and $\mathbf{v}$ are differentiable, that is, one must have
+Given a homogeneous linear equation (4) (IV, p. 183), where $t \mapsto A(t)$ is a regulated map of J into $\mathscr{L}(E)$, let us see if there exists a map $t \mapsto \mathbf{v}(t)$ of J into $E^*$, a primitive of a regulated function on J, and such that the scalar function $t \mapsto \langle \mathbf{u}(t), \mathbf{v}(t) \rangle$ is constant on J when $\mathbf{u}$ is an arbitrary solution of (4); it comes to the same to write that the derivative of this function should be zero at every point where $\mathbf{u}$ and $\mathbf{v}$ are differentiable, that is, one must have
 
 $$
 \left\langle \frac{d\mathbf{u}}{dt}, \mathbf{v}(t) \right\rangle + \left\langle \mathbf{u}(t), \frac{d\mathbf{v}}{dt} \right\rangle = 0
@@ -509,21 +509,21 @@ The exponential notation just introduced is justified by the following propertie
 
 #### Proposition 7 {#fvr-iv-s2-prop-7 .statement}
 
-1' *The map* $X \mapsto e^X$ *is a continuous map of* $\mathcal{L}(E)$ *into the group of automorphisms of* E *(*invertible elements of* $\mathcal{L}(E)$).
+1' *The map* $X \mapsto e^X$ *is a continuous map of* $\mathscr{L}(E)$ *into the group of automorphisms of* E *(*invertible elements of* $\mathscr{L}(E)$).
 
-2 *The map* $t \mapsto e^{Xt}$ *of* $\mathbf{R}$ *into* $\mathcal{L}(E)$ *is differentiable, and*
+2 *The map* $t \mapsto e^{Xt}$ *of* $\mathbf{R}$ *into* $\mathscr{L}(E)$ *is differentiable, and*
 
 $$
 \frac{d}{dt} (e^{Xt}) = X e^{Xt} = e^{Xt} X.
 $$ (24)
 
-3 *For any* $X \in \mathcal{L}(E)$ *one has*
+3 *For any* $X \in \mathscr{L}(E)$ *one has*
 
 $$
 e^X = \sum_{n=0}^{\infty} \frac{X^n}{n!}
 $$ (25)
 
-*the right-hand side being absolutely and uniformly convergent on every bounded subset of* $\mathcal{L}(E)$; *in particular,* $e^{It} = e^t I$ *for* $t \in \mathbf{R}$.
+*the right-hand side being absolutely and uniformly convergent on every bounded subset of* $\mathscr{L}(E)$; *in particular,* $e^{It} = e^t I$ *for* $t \in \mathbf{R}$.
 
 4) *If* X *and* Y *commute then* Y *and* $e^Y$ *commute with* $e^X$, *and*
 
@@ -549,13 +549,13 @@ $$
 \| r_n(X) \| \leq \frac{\| X \|^{n+1}}{(n+1)!} e^{\| X \| }
 $$
 
-whence one deduces the formula (25), the series on the right-hand side being absolutely and uniformly convergent on every bounded subset of $\mathcal{L}(E)$. For every pair of elements $X,\ T$ of $\mathcal{L}(E)$ one thus has
+whence one deduces the formula (25), the series on the right-hand side being absolutely and uniformly convergent on every bounded subset of $\mathscr{L}(E)$. For every pair of elements $X,\ T$ of $\mathscr{L}(E)$ one thus has
 
 $$
 e^{X+T} - e^X = \sum_{n=1}^{\infty} \frac{1}{n!} ((X+T)^n - X^n ).
 $$
 
-Now, one can write $(X + T)^n - X^n = \sum_{(V_i)} V_1 V_2 \ldots V_n$, where the sum is taken over the $2^n - 1$ sequences $(V_i)$ of elements of $\mathcal{L}(E)$ such that $V_i = X$ or $V_i = T$ for $1 \leq i \leq n$, and at least one of the $V_i$ is equal to $T$; the inequality
+Now, one can write $(X + T)^n - X^n = \sum_{(V_i)} V_1 V_2 \ldots V_n$, where the sum is taken over the $2^n - 1$ sequences $(V_i)$ of elements of $\mathscr{L}(E)$ such that $V_i = X$ or $V_i = T$ for $1 \leq i \leq n$, and at least one of the $V_i$ is equal to $T$; the inequality
 $$
 \|(X + T)^n - X^n\| \leq (\|X\| + \|T\|)^n - \|X\|^n
 $$
@@ -736,7 +736,7 @@ where $p_{jk}$ is a polynomial (with complex coefficients) of degree $\leq n_j -
 
 *Let $r_j$ ($1 \leq j \leq q$) be the distinct roots of the characteristic equation (40), and let $n_j$ be the multiplicity of the root $r_j$ ($1 \leq j \leq q$). Then the $n$ functions $t^k e^{r_j t}$ ($1 \leq k \leq n_j,\ 1 \leq j \leq q$) are linearly independent integrals of the homogeneous equation (41).*
 
-One can prove this result directly in the following way. It follows from equation (41) that the $n^{th}$ derivative of every integral of this equation is differentiable on $\mathbf{R}$, from which one deduces immediately, by induction on the integer $m > n$, that every integral of (41) admits a derivative of order $m$, that is, is *indefinitely differentiable* on $\mathbf{R}$. Let $\mathcal{D}$ be the (non-topological) vector space over $\mathbf{C}$ of indefinitely differentiable complex-valued functions on $\mathbf{R}$; the map $x \mapsto Dx$ is an endomorphism of this space, and equation (41) can be written
+One can prove this result directly in the following way. It follows from equation (41) that the $n^{th}$ derivative of every integral of this equation is differentiable on $\mathbf{R}$, from which one deduces immediately, by induction on the integer $m > n$, that every integral of (41) admits a derivative of order $m$, that is, is *indefinitely differentiable* on $\mathbf{R}$. Let $\mathscr{D}$ be the (non-topological) vector space over $\mathbf{C}$ of indefinitely differentiable complex-valued functions on $\mathbf{R}$; the map $x \mapsto Dx$ is an endomorphism of this space, and equation (41) can be written
 
 $$
 f(D)x = 0 \tag{42}

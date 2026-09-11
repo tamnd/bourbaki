@@ -25,7 +25,7 @@ subsections:
       pdf_page: 334
 statements: 6
 exercises: 6
-content_sha256: 437d88fbb7bfdd1173fb6523af39fd95358bf570c84e41c9bc95be7e8f1e262e
+content_sha256: c140260390c34f80ae37eab1c3dc10a97230a90dffb6d1d544762f7f3add163c
 ---
 
 ## § 2. THE GAMMA FUNCTION IN THE COMPLEX DOMAIN
@@ -302,7 +302,7 @@ g(x) = x \log x - x - \frac{1}{2} \log x + \sum_{k=1}^p \frac{b_{2k}}{2k(2k-1)} 
 $$
 (17)
 
-We shall now evaluate a bound for $R_p(x,\ y)$ with the help of (16), assuming that $x$ and $y$ are both in the subset $\mathbf{H}_A$ of $\mathbf{C}$ defined by the relation "$\mathcal{R}(z) \geq A$ or $|\mathcal{I}(z)| \geq A$", where $A$ is an arbitrary number $> 0$ (fig. 2). To this end we remark that if $x = s + it$ with $s > A$ one has $|x+u| \geq A+u$ for every $u > 0$, and consequently
+We shall now evaluate a bound for $R_p(x,\ y)$ with the help of (16), assuming that $x$ and $y$ are both in the subset $\mathbf{H}_A$ of $\mathbf{C}$ defined by the relation "$\mathscr{R}(z) \geq A$ or $|\mathscr{I}(z)| \geq A$", where $A$ is an arbitrary number $> 0$ (fig. 2). To this end we remark that if $x = s + it$ with $s > A$ one has $|x+u| \geq A+u$ for every $u > 0$, and consequently
 $$
 \int_0^{n+1} \frac{du}{|x+u|^{2p+1}} \leq \int_0^\infty \frac{du}{(A+u)^{2p+1}} = \frac{1}{2pA^{2p}}.
 $$
@@ -317,7 +317,7 @@ $$
 
 ![A complex plane diagram showing axes labeled t, s, and regions H_A, A, -A, 0](Fig. 2)
 
-where C_p depends only on p. Now let $\mathfrak{F}$ be the filter having the sets H_A as basis; the Cauchy criterion shows that, along the filter $\mathfrak{F}$, the function $\log \Gamma(z) - g(z)$ has a finite limit $\delta$ (modulo $2\pi i$) and that, if one puts $\omega(z) = \max(\mathcal{R}(z), |\mathcal{I}(z)|)$, one has
+where C_p depends only on p. Now let $\mathfrak{F}$ be the filter having the sets H_A as basis; the Cauchy criterion shows that, along the filter $\mathfrak{F}$, the function $\log \Gamma(z) - g(z)$ has a finite limit $\delta$ (modulo $2\pi i$) and that, if one puts $\omega(z) = \max(\mathscr{R}(z), |\mathscr{I}(z)|)$, one has
 
 $$
 \log \Gamma(z) - g(z) - \delta \equiv O \left( \frac{1}{(\omega(z))^{2p}} \right) \quad (\text{mod. } 2\pi i).

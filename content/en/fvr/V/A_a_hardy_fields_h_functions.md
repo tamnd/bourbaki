@@ -38,7 +38,7 @@ subsections:
       pdf_page: 270
 statements: 21
 exercises: 15
-content_sha256: 2b7ece85b767af5816191cdddb2a46c6ea11aaccc68f65d9ac9a41b8c196aa46
+content_sha256: b95f9ad9bca8cc72d94efcce361bb8861c0b8518e472602d45f215e94dcd28a9
 ---
 
 ## APPENDIX
@@ -47,13 +47,13 @@ content_sha256: 2b7ece85b767af5816191cdddb2a46c6ea11aaccc68f65d9ac9a41b8c196aa46
 
 ### 1. HARDY FIELDS
 
-Let $\mathfrak{F}$ be the filter base on $\mathbf{R}$ formed by the intervals of the form $[x_0, +\infty[$. Recall that we have defined an equivalence relation $R_\infty$: on the set $\mathcal{H}(\mathfrak{F}, \mathbf{R})$ of real functions defined on sets belonging to $\mathfrak{F}$ “there exists a set $M \in \mathfrak{F}$ such that $f(x) = g(x)$ on $M$” (V, p. 211), and that the quotient set $\mathcal{H}(\mathfrak{F}, \mathbf{R})/R_\infty$ is endowed with the structure of a *ring* with unit element.
+Let $\mathfrak{F}$ be the filter base on $\mathbf{R}$ formed by the intervals of the form $[x_0, +\infty[$. Recall that we have defined an equivalence relation $R_\infty$: on the set $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ of real functions defined on sets belonging to $\mathfrak{F}$ “there exists a set $M \in \mathfrak{F}$ such that $f(x) = g(x)$ on $M$” (V, p. 211), and that the quotient set $\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$ is endowed with the structure of a *ring* with unit element.
 
 #### Definition 1 {#fvr-v-a0-def-1 .statement}
 
-*Given a subset $\mathfrak{K}$ of $\mathcal{H}(\mathfrak{F}, \mathbf{R})$ one says that $\mathfrak{K}/R_\infty$ (the canonical image of $\mathfrak{K}$ in $\mathcal{H}(\mathfrak{F}, \mathbf{R})/R_\infty$) is a Hardy field, if $\mathfrak{K}$ satisfies the following conditions:
+*Given a subset $\mathfrak{K}$ of $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ one says that $\mathfrak{K}/R_\infty$ (the canonical image of $\mathfrak{K}$ in $\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$) is a Hardy field, if $\mathfrak{K}$ satisfies the following conditions:
 
-1. $\mathfrak{K}/R_\infty$ is a subfield of the ring $\mathcal{H}(\mathfrak{F}, \mathbf{R})/R_\infty$.
+1. $\mathfrak{K}/R_\infty$ is a subfield of the ring $\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$.
 2. *Every function in $\mathfrak{K}$ is continuous and differentiable on an interval $[a, +\infty[$ (depending on the function), and the class with respect to $R_\infty$ of its derivative belongs to $\mathfrak{K}/R_\infty$.*
 
 The hypothesis that $\mathfrak{K}/R_\infty$ is a *field* is equivalent to the following conditions: if $f \in \mathfrak{K}$ and $g \in \mathfrak{K}$ then $f + g$ and $fg$ are equal to functions in $\mathfrak{K}$ on some set in $\mathfrak{F}$; further, if $f$ is not identically zero on a set in $\mathfrak{F}$ then there exists a set $M$ in $\mathfrak{F}$ on which $f$ *does not vanish*, and $1/f$ is equal to a function from $\mathfrak{K}$ on $M$; by condition 2' one can always assume that $M$ is taken so that $f$ is *continuous* on $M$, and consequently *has constant sign* on this interval.
@@ -141,13 +141,13 @@ Finally, we note that if $y$ is the *primitive* of any function in $\mathfrak{K}
 
 *Two functions in the same Hardy field are comparable to any order* (V, p. 232).
 
-Indeed, if $f$ belongs to a Hardy field $\mathcal{K}$, then for every integer $n > 0$ there exists an interval $[x_0, +\infty[$ on which $f$ is $n$ times differentiable, its $n^{th}$ derivative being equal to a function in $\mathcal{K}$ on this interval. It is therefore enough to show that any two functions $f, g$ of $\mathcal{K}$ are *comparable*. This is evident if one of the functions is identically zero on a neighbourhood of $+\infty$; one may therefore restrict oneself to the case where they are both strictly positive on a neighbourhood of $+\infty$. But then, for every real number $t$, $f - tg$ is equal to a function in $\mathcal{K}$ on a neighbourhood of $+\infty$, so has constant sign on a neighbourhood of $+\infty$, which proves the proposition (V, p. 217, prop. 9).
+Indeed, if $f$ belongs to a Hardy field $\mathscr{K}$, then for every integer $n > 0$ there exists an interval $[x_0, +\infty[$ on which $f$ is $n$ times differentiable, its $n^{th}$ derivative being equal to a function in $\mathscr{K}$ on this interval. It is therefore enough to show that any two functions $f, g$ of $\mathscr{K}$ are *comparable*. This is evident if one of the functions is identically zero on a neighbourhood of $+\infty$; one may therefore restrict oneself to the case where they are both strictly positive on a neighbourhood of $+\infty$. But then, for every real number $t$, $f - tg$ is equal to a function in $\mathscr{K}$ on a neighbourhood of $+\infty$, so has constant sign on a neighbourhood of $+\infty$, which proves the proposition (V, p. 217, prop. 9).
 
-One deduces immediately from this proposition that, if a Hardy field $\mathcal{K}$ contains the real constants (as we shall always assume in what follows), and if $f$ and $g$ are any two functions in $\mathcal{K}$ then any two of the functions $e^f, e^g, \log |f|, \log |g|, |f|^{\alpha}, |g|^{\alpha}$ ($\alpha$ an arbitrary real), $\int_a f, \int_a g$ ($a$ being any real number in an interval $[x_0, +\infty[$ where $f$ and $g$ are regulated) are *comparable* (when they are defined); indeed, any two of these functions belong to a given Hardy field obtained by adjoining them successively to $\mathcal{K}$.
+One deduces immediately from this proposition that, if a Hardy field $\mathscr{K}$ contains the real constants (as we shall always assume in what follows), and if $f$ and $g$ are any two functions in $\mathscr{K}$ then any two of the functions $e^f, e^g, \log |f|, \log |g|, |f|^{\alpha}, |g|^{\alpha}$ ($\alpha$ an arbitrary real), $\int_a f, \int_a g$ ($a$ being any real number in an interval $[x_0, +\infty[$ where $f$ and $g$ are regulated) are *comparable* (when they are defined); indeed, any two of these functions belong to a given Hardy field obtained by adjoining them successively to $\mathscr{K}$.
 
-Similarly, every function $f(x)$ in a Hardy field $\mathcal{K}$ is comparable to $x$, since $x$ and $f(x)$ belong to the Hardy field obtained by adjoining $x$ to $\mathcal{K}$. One thus concludes (in particular) that $f$ is comparable to any order to every power $x^{\alpha}$, as well as to $\log x$ and to $e^x$.
+Similarly, every function $f(x)$ in a Hardy field $\mathscr{K}$ is comparable to $x$, since $x$ and $f(x)$ belong to the Hardy field obtained by adjoining $x$ to $\mathscr{K}$. One thus concludes (in particular) that $f$ is comparable to any order to every power $x^{\alpha}$, as well as to $\log x$ and to $e^x$.
 
-One also sees that if $f$ and $g$ belong to the same Hardy field $\mathcal{K}$, if $g(x) > 0$ on an interval $[x_0, +\infty[$, and if $g(x)$ tends to 0 or to $+\infty$ as $x$ tends to $+\infty$, then the *order* of $f$ relative to $g$ (V, p. 219) is always defined.
+One also sees that if $f$ and $g$ belong to the same Hardy field $\mathscr{K}$, if $g(x) > 0$ on an interval $[x_0, +\infty[$, and if $g(x)$ tends to 0 or to $+\infty$ as $x$ tends to $+\infty$, then the *order* of $f$ relative to $g$ (V, p. 219) is always defined.
 
 Prop. 8 of V, p. 233, is therefore applicable to every function $f$ in a Hardy field, and proves that:
 
@@ -163,7 +163,7 @@ Further, we have the following proposition:
 
 #### Proposition 2 {#fvr-v-a0-prop-2 .statement}
 
-Let $f$ be a function belonging to a Hardy field $\mathcal{K}$.
+Let $f$ be a function belonging to a Hardy field $\mathscr{K}$.
 
 1 If $f$ is of infinite order relative to $x$, then, for every integer $n > 0$,
 $$
@@ -181,7 +181,7 @@ $$
 (3)
 except if $\mu$ is an integer $\geqslant 0$ and $n > \mu$.
 
-1 If $f$ is of infinite order relative to $x$ one has $\log |f| \gg \log x$, so, since $\log |f|$ and $\log x$ are comparable to any order, $f'/f \gg 1/x$. Put $g = f'/f$; since $g$ is equal to a function in $\mathcal{K}$ on a neighbourhood of $+\infty$ one deduces from $1/g \ll x$, that $g'/g^2 \ll 1$, and so $g'/g \ll g = f'/f$, or again $fg' \ll gf'$. From the relation $f' = fg$ one deduces by differentiating that
+1 If $f$ is of infinite order relative to $x$ one has $\log |f| \gg \log x$, so, since $\log |f|$ and $\log x$ are comparable to any order, $f'/f \gg 1/x$. Put $g = f'/f$; since $g$ is equal to a function in $\mathscr{K}$ on a neighbourhood of $+\infty$ one deduces from $1/g \ll x$, that $g'/g^2 \ll 1$, and so $g'/g \ll g = f'/f$, or again $fg' \ll gf'$. From the relation $f' = fg$ one deduces by differentiating that
 $$
 f'' = fg' + gf' \sim gf'
 $$
@@ -205,15 +205,15 @@ If $f$ is equivalent to a constant $k \neq 0$ one has $f(x) = k + f_2(x)$ with $
 
 #### Proposition 3 {#fvr-v-a0-prop-3 .statement}
 
-*If $\mathcal{K}_0$ is a Hardy field there exists a Hardy field $\mathcal{K}$ containing $\mathcal{K}_0$ and such that, for every function $z \in \mathcal{K}$, not identically zero on a neighbourhood of $+\infty$, both $e^z$ and $\log |z|$ belong to $\mathcal{K}$.*
+*If $\mathscr{K}_0$ is a Hardy field there exists a Hardy field $\mathscr{K}$ containing $\mathscr{K}_0$ and such that, for every function $z \in \mathscr{K}$, not identically zero on a neighbourhood of $+\infty$, both $e^z$ and $\log |z|$ belong to $\mathscr{K}$.*
 
-Denote by $\mathcal{K}$ the set of functions $f \in \mathcal{H}(\mathfrak{F}, \mathbf{R})$ having the following properties: for each function $f \in \mathcal{K}$ there is a finite number of Hardy fields $\mathcal{K}_1, \mathcal{K}_2, \ldots, \mathcal{K}_n$ (the number $n$ and the fields $\mathcal{K}_i$ depending on $f$) such that $f \in \mathcal{K}_n$ and, for $0 \leq i \leq n-1$, one has $\mathcal{K}_{i+1} = \mathcal{K}_i(u_{i+1})$ where $u_{i+1}$ is equal either to $e^{z_i}$ or to $\log |z_i|$ with $z_i$ belonging to $\mathcal{K}_i$ and not vanishing identically on a neighbourhood of $+\infty$. One says that $u_1, u_2, \ldots, u_n$ form a *definition sequence* for the field $\mathcal{K}_n$ and of the function $f$; the same function can naturally admit several definition sequences.
+Denote by $\mathscr{K}$ the set of functions $f \in \mathscr{H}(\mathfrak{F}, \mathbf{R})$ having the following properties: for each function $f \in \mathscr{K}$ there is a finite number of Hardy fields $\mathscr{K}_1, \mathscr{K}_2, \ldots, \mathscr{K}_n$ (the number $n$ and the fields $\mathscr{K}_i$ depending on $f$) such that $f \in \mathscr{K}_n$ and, for $0 \leq i \leq n-1$, one has $\mathscr{K}_{i+1} = \mathscr{K}_i(u_{i+1})$ where $u_{i+1}$ is equal either to $e^{z_i}$ or to $\log |z_i|$ with $z_i$ belonging to $\mathscr{K}_i$ and not vanishing identically on a neighbourhood of $+\infty$. One says that $u_1, u_2, \ldots, u_n$ form a *definition sequence* for the field $\mathscr{K}_n$ and of the function $f$; the same function can naturally admit several definition sequences.
 
-By def. 1 of V, p. 247, every function $f \in \mathcal{K}$, not identically zero on a neighbourhood of $+\infty$, has constant sign and is differentiable on an interval $[x_0, +\infty[$; if $f \in \mathcal{K}_n$, then $1/f$ and $f'$ are equal to functions in $\mathcal{K}_n$, thus to functions in $\mathcal{K}$, on a neighbourhood of $+\infty$. To see that $\mathcal{K}$ is a Hardy field it is enough to prove that if $f$ and $g$ are two functions in $\mathcal{K}$ then $f - g$ and $fg$ are equal to functions in $\mathcal{K}$ on a neighbourhood of $+\infty$. Now let $u_1, u_2, \ldots, u_m$ be a definition sequence for $f$, and $v_1, v_2, \ldots, v_n$ a definition sequence for $g$. The sequence $u_1, u_2, \ldots, u_m, v_1, v_2, \ldots, v_n$ obtained by concatenating the sequences $(u_i)$ and $(v_i)$ is again a definition sequence of a Hardy field $\mathcal{K}_{m+n}$ and this field contains $f$ and $g$, so $f - g$ and $fg$ are equal to functions in $\mathcal{K}_{m+n}$ on a neighbourhood of $+\infty$.
+By def. 1 of V, p. 247, every function $f \in \mathscr{K}$, not identically zero on a neighbourhood of $+\infty$, has constant sign and is differentiable on an interval $[x_0, +\infty[$; if $f \in \mathscr{K}_n$, then $1/f$ and $f'$ are equal to functions in $\mathscr{K}_n$, thus to functions in $\mathscr{K}$, on a neighbourhood of $+\infty$. To see that $\mathscr{K}$ is a Hardy field it is enough to prove that if $f$ and $g$ are two functions in $\mathscr{K}$ then $f - g$ and $fg$ are equal to functions in $\mathscr{K}$ on a neighbourhood of $+\infty$. Now let $u_1, u_2, \ldots, u_m$ be a definition sequence for $f$, and $v_1, v_2, \ldots, v_n$ a definition sequence for $g$. The sequence $u_1, u_2, \ldots, u_m, v_1, v_2, \ldots, v_n$ obtained by concatenating the sequences $(u_i)$ and $(v_i)$ is again a definition sequence of a Hardy field $\mathscr{K}_{m+n}$ and this field contains $f$ and $g$, so $f - g$ and $fg$ are equal to functions in $\mathscr{K}_{m+n}$ on a neighbourhood of $+\infty$.
 
-One says that the Hardy field $\mathcal{K}$ defined in the proof of prop. 3 is the (H) *extension* of the Hardy field $\mathcal{K}_0$.
+One says that the Hardy field $\mathscr{K}$ defined in the proof of prop. 3 is the (H) *extension* of the Hardy field $\mathscr{K}_0$.
 
-If $\mathcal{K}'$ is another Hardy field possessing the properties stated in prop. 3, it follows from the construction of $\mathcal{K}$ that $\mathcal{K}/\mathbf{R}_\sim$ is *contained* in $\mathcal{K}'/\mathbf{R}_\sim$. By abuse of language, one says that the (H) extension of the Hardy field $\mathcal{K}_0$ is the *smallest* Hardy field $\mathcal{K}$ having these properties.
+If $\mathscr{K}'$ is another Hardy field possessing the properties stated in prop. 3, it follows from the construction of $\mathscr{K}$ that $\mathscr{K}/\mathbf{R}_\sim$ is *contained* in $\mathscr{K}'/\mathbf{R}_\sim$. By abuse of language, one says that the (H) extension of the Hardy field $\mathscr{K}_0$ is the *smallest* Hardy field $\mathscr{K}$ having these properties.
 
 #### Definition 2 {#fvr-v-a0-def-2 .statement}
 
@@ -268,31 +268,31 @@ $$
 
 (V, p. 263, exerc. 1 and p. 264, exerc. 5) On the other hand, one can define increasing functions $g(x)$ (which are no longer (H) functions) such that $g(x) \gg e_n(x)$ for *every* $n > 0$, or $1 \ll g(x) \ll l_m(x)$ for *every* $m > 0$ (V, p. 265, exerc. 8, 9 and 10).
 
-With the help of the iterated logarithms we shall show that one can define a *comparison scale* $\mathcal{E}$ (for $x$ tending to $+\infty$) of (H) functions, which are $> 0$ on a neighbourhood of $+\infty$ and satisfy the following conditions:
+With the help of the iterated logarithms we shall show that one can define a *comparison scale* $\mathscr{E}$ (for $x$ tending to $+\infty$) of (H) functions, which are $> 0$ on a neighbourhood of $+\infty$ and satisfy the following conditions:
 
-a) the product of any two functions in $\mathcal{E}$ belongs to $\mathcal{E}$;
-b) $f^\mu \in \mathcal{E}$ for every function $f \in \mathcal{E}$ and every real number $\mu$;
+a) the product of any two functions in $\mathscr{E}$ belongs to $\mathscr{E}$;
+b) $f^\mu \in \mathscr{E}$ for every function $f \in \mathscr{E}$ and every real number $\mu$;
 
-c) for every function $f \in \mathcal{E}$, $\log f$ is a linear combination of a finite number of functions in $\mathcal{E}$;
-d) for every function $f \in \mathcal{E}$, apart from the constant 1, $e^f$ is equivalent to a function in $\mathcal{E}$.
+c) for every function $f \in \mathscr{E}$, $\log f$ is a linear combination of a finite number of functions in $\mathscr{E}$;
+d) for every function $f \in \mathscr{E}$, apart from the constant 1, $e^f$ is equivalent to a function in $\mathscr{E}$.
 
-First we consider the set $\mathcal{E}_0$ of functions of the form $\prod_{m=0}^{\infty} (l_m(x))^{\alpha_m}$, where the $\alpha_m$ are real numbers, zero apart from for a finite number of indices $m$; it is immediate, from (5) (V, p. 253) that these functions form a *comparison scale* which satisfies conditions $a), b)$ and c). Now we define, by recursion on $n$, the set $\mathcal{E}_n$ (for $n \geqslant 1$) formed by the constant 1 and by the functions of the form $\exp \left( \sum_{k=1}^p a_k f_k \right)$, where $p$ is an arbitrary integer $> 0$, the functions $f_k$ ($1 \leqslant k \leqslant p$) are functions in $\mathcal{E}_{n-1}$ such that $f_1 \gg f_2 \gg \cdots \gg f_p \gg 1$, and the $a_k$ are real numbers $\neq 0$; we show by induction that $\mathcal{E}_n$ is a *comparison scale* satisfying $a), b)$ and c) and containing $\mathcal{E}_{n-1}$. In the first place, the relation $\mathcal{E}_{n-1} \subset \mathcal{E}_n$ holds for $n = 1$, since the logarithm of any nonconstant function in $\mathcal{E}_0$ is of the form $\sum_{k=1}^p a_k f_k$, where the $f_k$ are iterated logarithms, and so $\gg 1$; on the other hand, if $\mathcal{E}_{n-2} \subset \mathcal{E}_{n-1}$ one deduces from the definition of $\mathcal{E}_n$ that $\mathcal{E}_{n-1} \subset \mathcal{E}_n$; this definition furthermore shows that $\mathcal{E}_n$ satisfies $a), b)$ and c). It remains to see that $\mathcal{E}_n$ is a comparison scale: since the quotient of two functions in $\mathcal{E}_n$ again belongs to $\mathcal{E}_n$ it suffices to prove that every function $f$ of $\mathcal{E}_n$, apart from the constant 1, cannot be equivalent to a constant $\neq 0$. Now one has $\log f = \sum_{k=1}^p a_k f_k \sim a_1 f_1$ by construction, and since $f_1 \gg 1$, $\log f$ tends to $\pm \infty$, so $f$ tends to 0 or to $+\infty$ as $x$ tends to $+\infty$.
+First we consider the set $\mathscr{E}_0$ of functions of the form $\prod_{m=0}^{\infty} (l_m(x))^{\alpha_m}$, where the $\alpha_m$ are real numbers, zero apart from for a finite number of indices $m$; it is immediate, from (5) (V, p. 253) that these functions form a *comparison scale* which satisfies conditions $a), b)$ and c). Now we define, by recursion on $n$, the set $\mathscr{E}_n$ (for $n \geqslant 1$) formed by the constant 1 and by the functions of the form $\exp \left( \sum_{k=1}^p a_k f_k \right)$, where $p$ is an arbitrary integer $> 0$, the functions $f_k$ ($1 \leqslant k \leqslant p$) are functions in $\mathscr{E}_{n-1}$ such that $f_1 \gg f_2 \gg \cdots \gg f_p \gg 1$, and the $a_k$ are real numbers $\neq 0$; we show by induction that $\mathscr{E}_n$ is a *comparison scale* satisfying $a), b)$ and c) and containing $\mathscr{E}_{n-1}$. In the first place, the relation $\mathscr{E}_{n-1} \subset \mathscr{E}_n$ holds for $n = 1$, since the logarithm of any nonconstant function in $\mathscr{E}_0$ is of the form $\sum_{k=1}^p a_k f_k$, where the $f_k$ are iterated logarithms, and so $\gg 1$; on the other hand, if $\mathscr{E}_{n-2} \subset \mathscr{E}_{n-1}$ one deduces from the definition of $\mathscr{E}_n$ that $\mathscr{E}_{n-1} \subset \mathscr{E}_n$; this definition furthermore shows that $\mathscr{E}_n$ satisfies $a), b)$ and c). It remains to see that $\mathscr{E}_n$ is a comparison scale: since the quotient of two functions in $\mathscr{E}_n$ again belongs to $\mathscr{E}_n$ it suffices to prove that every function $f$ of $\mathscr{E}_n$, apart from the constant 1, cannot be equivalent to a constant $\neq 0$. Now one has $\log f = \sum_{k=1}^p a_k f_k \sim a_1 f_1$ by construction, and since $f_1 \gg 1$, $\log f$ tends to $\pm \infty$, so $f$ tends to 0 or to $+\infty$ as $x$ tends to $+\infty$.
 
-This being so, if $\mathcal{E}$ is the *union* of the $\mathcal{E}_n$ for $n \geqslant 0$, then $\mathcal{E}$ is a comparison scale, for two functions in $\mathcal{E}$ belong to the same scale $\mathcal{E}_n$; for the same reason, $\mathcal{E}$ satisfies a), and it is clear that it also satisfies b) and c). Finally, if $f \in \mathcal{E}$ there exists an $n$ such that $f \in \mathcal{E}_n$; if $f$ is not the constant 1 then $f(x)$ tends to 0 or to $+\infty$ as $x$ tends to $+\infty$; in the first case $e^f \sim 1$ and in the second, $e^f$ belongs to $\mathcal{E}_{n+1}$ by definition, and so to $\mathcal{E}$.
+This being so, if $\mathscr{E}$ is the *union* of the $\mathscr{E}_n$ for $n \geqslant 0$, then $\mathscr{E}$ is a comparison scale, for two functions in $\mathscr{E}$ belong to the same scale $\mathscr{E}_n$; for the same reason, $\mathscr{E}$ satisfies a), and it is clear that it also satisfies b) and c). Finally, if $f \in \mathscr{E}$ there exists an $n$ such that $f \in \mathscr{E}_n$; if $f$ is not the constant 1 then $f(x)$ tends to 0 or to $+\infty$ as $x$ tends to $+\infty$; in the first case $e^f \sim 1$ and in the second, $e^f$ belongs to $\mathscr{E}_{n+1}$ by definition, and so to $\mathscr{E}$.
 
 #### Remark {#fvr-v-a0-n5-rem-1 .statement}
 
-Despite the practical usefulness of the scale $\mathcal{E}$ which we have just defined, it is easy to give examples of (H) functions which *have no principal part* with respect to $\mathcal{E}$. Indeed, if $f$ is an (H) function such that $f \sim a g$, where $a$ is a constant $> 0$ and $g \in \mathcal{E}$, then $\log f - \log g - \log a$ tends to 0 with $1/x$, so $\log f$ admits, relative to $\mathcal{E}$, an asymptotic expansion whose *remainder tends to 0*, by property c). Now, if one considers for example the (H) function $f(x) = e_2 \left( x + \frac{1}{x} \right)$ one has $\log f(x) = \exp \left( x + \frac{1}{x} \right)$, so the asymptotic expansions of $\log f$ relative to $\mathcal{E}$ are of the form
+Despite the practical usefulness of the scale $\mathscr{E}$ which we have just defined, it is easy to give examples of (H) functions which *have no principal part* with respect to $\mathscr{E}$. Indeed, if $f$ is an (H) function such that $f \sim a g$, where $a$ is a constant $> 0$ and $g \in \mathscr{E}$, then $\log f - \log g - \log a$ tends to 0 with $1/x$, so $\log f$ admits, relative to $\mathscr{E}$, an asymptotic expansion whose *remainder tends to 0*, by property c). Now, if one considers for example the (H) function $f(x) = e_2 \left( x + \frac{1}{x} \right)$ one has $\log f(x) = \exp \left( x + \frac{1}{x} \right)$, so the asymptotic expansions of $\log f$ relative to $\mathscr{E}$ are of the form
 
 $$
 \log f(x) = e^x + \frac{e^x}{x} + \frac{1}{2!} \frac{e^x}{x^2} + \cdots + \frac{1}{n!} \frac{e^x}{x^n} + o \left( \frac{e^x}{x^n} \right) \quad (n \text{ an integer } > 0).
 $$
 
-It is clear that the remainder in this expansion is equivalent to $\frac{1}{(n+1)!} \frac{e^x}{x^{n+1}}$, so does not tend to 0. Hence $f$ does not have a principal part relative to $\mathcal{E}$.
+It is clear that the remainder in this expansion is equivalent to $\frac{1}{(n+1)!} \frac{e^x}{x^{n+1}}$, so does not tend to 0. Hence $f$ does not have a principal part relative to $\mathscr{E}$.
 
 ### 6. INVERSE FUNCTION OF AN (H) FUNCTION
 
-If $f$ is an (H) function, then $f$ is monotone and continuous on an interval $[x_0, +\infty[$, so the inverse function $\varphi$ of the restriction of $f$ to this interval is monotone and continuous on a neighbourhood of the point $a = \lim_{x \to +\infty} f(x)$; but, if $a$ is equal to $+\infty$ (resp. $-\infty$, finite), one can show that $\varphi(y)$ (resp. $\varphi(-y)$, $\varphi \left( a + \frac{1}{y} \right)$ or $\varphi \left( a - \frac{1}{y} \right)$) is not in general equal to an (H) function on a neighbourhood of $+\infty$. Nevertheless we shall see that in certain important cases one can obtain an (H) function equivalent to $\varphi(y)$ (resp. $\varphi(-y)$, $\varphi \left( a + \frac{1}{y} \right)$, $\varphi \left( a - \frac{1}{y} \right)$) and sometimes even an asymptotic expansion of this function relative to the scale $\mathcal{E}$ defined in V, p. 254.
+If $f$ is an (H) function, then $f$ is monotone and continuous on an interval $[x_0, +\infty[$, so the inverse function $\varphi$ of the restriction of $f$ to this interval is monotone and continuous on a neighbourhood of the point $a = \lim_{x \to +\infty} f(x)$; but, if $a$ is equal to $+\infty$ (resp. $-\infty$, finite), one can show that $\varphi(y)$ (resp. $\varphi(-y)$, $\varphi \left( a + \frac{1}{y} \right)$ or $\varphi \left( a - \frac{1}{y} \right)$) is not in general equal to an (H) function on a neighbourhood of $+\infty$. Nevertheless we shall see that in certain important cases one can obtain an (H) function equivalent to $\varphi(y)$ (resp. $\varphi(-y)$, $\varphi \left( a + \frac{1}{y} \right)$, $\varphi \left( a - \frac{1}{y} \right)$) and sometimes even an asymptotic expansion of this function relative to the scale $\mathscr{E}$ defined in V, p. 254.
 
 We shall use the following proposition:
 

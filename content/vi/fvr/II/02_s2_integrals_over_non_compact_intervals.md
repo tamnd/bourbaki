@@ -24,9 +24,9 @@ subsections:
       pdf_page: 82
 statements: 9
 exercises: 9
-content_sha256: 906a4c04a3ca53a9e92fbc7090a2c9fe01f8ad1c4612f9f48d104d35dec0c2b1
+content_sha256: b1075a587ba04c4908dd07e546eb06b21e20a6956c1b54aaa334086288e73025
 translated_from: content/en/fvr/II/02_s2_integrals_over_non_compact_intervals.md
-source_content_sha256: 805462a270d81884bfd12b8ec276cd9269157f5d73f72f66f32a90b09f0773f3
+source_content_sha256: c881c36ec5ea7370c5059147e2a0654f1e10dbdf7b324df291c68bf94faa7276
 translation_model: gpt-5.4, copied
 translation_run: translate-vi-7cdd6941
 glossary_version: 34
@@ -78,7 +78,7 @@ $$
 $$
 Thật vậy, nếu $(x,\ y)$ tiến tới $(a,\ b)$, thì $(f(x),\ f(y))$ tiến tới $(f(a+),\ f(b-))$ theo giả thiết; chỉ cần áp dụng công thức (12) của II, p. 60 giữa $x$ và $y$, rồi cho qua giới hạn để thu được (1).
 
-Cho một hàm điều hòa $\mathbf{f}$ trên một khoảng không compact $I \subset \mathbf{R}$, với các đầu mút $a$ và $b$ ($a < b$), điều kiện để $\mathbf{f}$ có một tích phân trên I có thể được trình bày theo cách sau. Các khoảng compact $J \subset I$ tạo thành một *tập có hướng* $\mathcal{K}(I)$ đối với quan hệ $\subset ^1$, vì nếu $[ \alpha , \beta ]$ và $[ \gamma , \delta ]$ là hai khoảng compact được chứa trong $I$, và nếu đặt $\lambda = \min(\alpha, \gamma)$, $\mu = \max(\beta, \delta)$, thì khoảng $[ \lambda , \mu ]$ được chứa trong $I$ và chứa hai khoảng đang xét. Với mỗi khoảng compact $J = [ \alpha , \beta ]$ được chứa trong $I$, ta đặt
+Cho một hàm điều hòa $\mathbf{f}$ trên một khoảng không compact $I \subset \mathbf{R}$, với các đầu mút $a$ và $b$ ($a < b$), điều kiện để $\mathbf{f}$ có một tích phân trên I có thể được trình bày theo cách sau. Các khoảng compact $J \subset I$ tạo thành một *tập có hướng* $\mathscr{K}(I)$ đối với quan hệ $\subset ^1$, vì nếu $[ \alpha , \beta ]$ và $[ \gamma , \delta ]$ là hai khoảng compact được chứa trong $I$, và nếu đặt $\lambda = \min(\alpha, \gamma)$, $\mu = \max(\beta, \delta)$, thì khoảng $[ \lambda , \mu ]$ được chứa trong $I$ và chứa hai khoảng đang xét. Với mỗi khoảng compact $J = [ \alpha , \beta ]$ được chứa trong $I$, ta đặt
 
 $$
 \int_J f(t) \, dt = \int_\alpha^\beta f(t) \, dt;
@@ -134,7 +134,7 @@ $$
 $$
 do đó ánh xạ $J \mapsto \int_J f\,dt$ là tăng, và mệnh đề suy ra từ định lý giới hạn đơn điệu (*Gen. Top.*, IV, p. 349, đl. 2).
 
-Khi ánh xạ $J \mapsto \int_J f(t)\,dt$ không bị chặn, nó có giới hạn $+\infty$ đối với tập có hướng $\mathcal{K}(I)$; khi đó, theo cách nói lạm dụng ngôn ngữ, người ta nói rằng tích phân $\int_a^b f(t)\,dt$ bằng $+\infty$. Các tính chất của tích phân đã được thiết lập trong số 1 được mở rộng (khi xét các hàm $\geq 0$) cho trường hợp mà một số tích phân đang xét là vô hạn, miễn là các hệ thức trong đó chúng xuất hiện có nghĩa.
+Khi ánh xạ $J \mapsto \int_J f(t)\,dt$ không bị chặn, nó có giới hạn $+\infty$ đối với tập có hướng $\mathscr{K}(I)$; khi đó, theo cách nói lạm dụng ngôn ngữ, người ta nói rằng tích phân $\int_a^b f(t)\,dt$ bằng $+\infty$. Các tính chất của tích phân đã được thiết lập trong số 1 được mở rộng (khi xét các hàm $\geq 0$) cho trường hợp mà một số tích phân đang xét là vô hạn, miễn là các hệ thức trong đó chúng xuất hiện có nghĩa.
 
 **Mệnh đề 3 (nguyên lý so sánh).** *Cho $f$ và $g$ là hai hàm thực điều tiết trên một khoảng $I \subset \mathbf{R}$, sao cho $0 \leq f(x) \leq g(x)$ tại mỗi điểm mà $f$ và $g$ liên tục (*xem* II, p. 61, mệnh đề 6). Nếu tích phân của $g$ trên $I$ hội tụ, thì tích phân của $f$ cũng hội tụ, và ta có $\int_I f(t)\,dt \leq \int_I g(t)\,dt$. Hơn nữa, hai tích phân không thể bằng nhau trừ khi $f(x) = g(x)$ tại mọi điểm của $I$ mà $f$ và $g$ liên tục.*
 

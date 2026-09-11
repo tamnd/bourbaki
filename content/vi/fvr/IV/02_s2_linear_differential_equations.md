@@ -48,7 +48,7 @@ subsections:
       pdf_page: 211
 statements: 25
 exercises: 10
-content_sha256: 7c6d0b021e5c60da5451334eb2dd596a544c9655c0f987854ec23912f54ff1ca
+content_sha256: 0958736bc6009894feed3da7f5aedbeb354c0b76ca986326ed320546d256b858
 translated_from: content/en/fvr/IV/02_s2_linear_differential_equations.md
 source_content_sha256: ed9860cc26b65ff84c11e78ae048f5030e2943903c24c951c87f27907207fd41
 translation_model: gpt-5.4
@@ -98,15 +98,15 @@ $$
 
 là một phương trình vi phân tuyến tính; ở đây $A(t)$ là ánh xạ tuyến tính $x \mapsto a(t)x + x b(t)$ từ $G$ vào chính nó.
 
-Với mọi $t \in J$, $A(t)$ là một phần tử của tập hợp $\mathcal{L}(E)$ các ánh xạ tuyến tính liên tục từ $E$ vào chính nó (các tự đồng cấu liên tục của $E$); ta biết (*Gen. Top.*, X, p. 298) rằng $\mathcal{L}(E)$, được trang bị *chuẩn* $\|U\| = \sup_{\|x\| \leq 1} \|Ux\|$, là một *đại số chuẩn đầy đủ* trên trường $\mathbf{R}$, và rằng $\|UV\| \leq \|U\|\ \|V\|$.
+Với mọi $t \in J$, $A(t)$ là một phần tử của tập hợp $\mathscr{L}(E)$ các ánh xạ tuyến tính liên tục từ $E$ vào chính nó (các tự đồng cấu liên tục của $E$); ta biết (*Gen. Top.*, X, p. 298) rằng $\mathscr{L}(E)$, được trang bị *chuẩn* $\|U\| = \sup_{\|x\| \leq 1} \|Ux\|$, là một *đại số chuẩn đầy đủ* trên trường $\mathbf{R}$, và rằng $\|UV\| \leq \|U\|\ \|V\|$.
 
 *Trong suốt tiết diện này, ta sẽ giả sử rằng các điều kiện sau đây được thỏa mãn:*
 
-a) *Ánh xạ* $t \mapsto A(t)$ *từ* $J$ *vào* $\mathcal{L}(E)$ *là được điều chỉnh*.
+a) *Ánh xạ* $t \mapsto A(t)$ *từ* $J$ *vào* $\mathscr{L}(E)$ *là được điều chỉnh*.
 
 b) *Ánh xạ* $t \mapsto b(t)$ *từ* $J$ *vào* $E$ *là được điều chỉnh*.
 
-Khi $E$ có chiều $n$, $\mathcal{L}(E)$ đẳng cấu với $\mathbf{R}^{n^2}$ (như một không gian vectơ tôpô) và điều kiện *a*) có nghĩa là mỗi phần tử $a_{ij}(t)$ của ma trận $A(t)$ là một hàm *điều hòa* trên $J$.
+Khi $E$ có chiều $n$, $\mathscr{L}(E)$ đẳng cấu với $\mathbf{R}^{n^2}$ (như một không gian vectơ tôpô) và điều kiện *a*) có nghĩa là mỗi phần tử $a_{ij}(t)$ của ma trận $A(t)$ là một hàm *điều hòa* trên $J$.
 
 (1) Nhắc lại rằng nếu $E$ có số chiều hữu hạn thì mọi ánh xạ afin tuyến tính từ $E$ vào chính nó đều liên tục (*Gen. Top.*, VI, p. 33 and 37).
 
@@ -122,7 +122,7 @@ với mọi $t \in J$ và mọi $\mathbf{x}_1, \mathbf{x}_2$ trong $E$; nói cá
 
 #### Định lý 1 {#fvr-iv-s2-thm-1 .statement}
 
-*Cho* $t \mapsto A(t)$ *là một ánh xạ điều hòa từ* $J$ *vào* $\mathcal{L}(E)$, *và* $t \mapsto \mathbf{b}(t)$ *là một ánh xạ điều hòa từ* $J$ *vào* $E$. *Với mọi điểm* $(t_0, \mathbf{x}_0)$ *của* $J \times E$ *phương trình tuyến tính* (2) *nhận một và chỉ một nghiệm xác định trên toàn bộ* $J$ *và bằng* $\mathbf{x}_0$ *tại điểm* $t_0$.
+*Cho* $t \mapsto A(t)$ *là một ánh xạ điều hòa từ* $J$ *vào* $\mathscr{L}(E)$, *và* $t \mapsto \mathbf{b}(t)$ *là một ánh xạ điều hòa từ* $J$ *vào* $E$. *Với mọi điểm* $(t_0, \mathbf{x}_0)$ *của* $J \times E$ *phương trình tuyến tính* (2) *nhận một và chỉ một nghiệm xác định trên toàn bộ* $J$ *và bằng* $\mathbf{x}_0$ *tại điểm* $t_0$.
 
 ### 2. TÍNH TUYẾN TÍNH CỦA CÁC TÍCH PHÂN CỦA MỘT PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH
 
@@ -134,7 +134,7 @@ $$
 
 #### Mệnh đề 1 {#fvr-iv-s2-prop-1 .statement}
 
-*Tập hợp* $\mathcal{I}$ *các tích phân của phương trình tuyến tính thuần nhất* (4), *xác định trên* $J$, *là một không gian con vectơ của không gian* $C(J; E)$ *các ánh xạ liên tục từ* $J$ *vào* $E$.
+*Tập hợp* $\mathscr{I}$ *các tích phân của phương trình tuyến tính thuần nhất* (4), *xác định trên* $J$, *là một không gian con vectơ của không gian* $C(J; E)$ *các ánh xạ liên tục từ* $J$ *vào* $E$.
 
 Chứng minh là ngay lập tức.
 
@@ -142,7 +142,7 @@ Chứng minh là ngay lập tức.
 
 *Với mọi điểm* $(t_0, \mathbf{x}_0)$ *của* $J \times E$ *gọi* $\mathbf{u}(t, t_0, \mathbf{x}_0)$ *là tích phân của phương trình thuần nhất* (4) *xác định trên* $J$ *và bằng* $\mathbf{x}_0$ *tại* $t_0$.
 1. *Với mọi điểm* $t \in J$ *ánh xạ* $\mathbf{x}_0 \mapsto \mathbf{u}(t, t_0, \mathbf{x}_0)$ *là một ánh xạ tuyến tính song ánh song liên tục* $C(t, t_0)$ *từ* $E$ *vào chính nó*.
-2. *Ánh xạ* $t \mapsto C(t, t_0)$ *từ* $J$ *vào* $\mathcal{L}(E)$ *đồng nhất với tích phân của phương trình vi phân tuyến tính thuần nhất*
+2. *Ánh xạ* $t \mapsto C(t, t_0)$ *từ* $J$ *vào* $\mathscr{L}(E)$ *đồng nhất với tích phân của phương trình vi phân tuyến tính thuần nhất*
 $$
 \frac{dU}{dt} = A(t)\ U
 $$
@@ -154,7 +154,7 @@ $$
 
 Theo mệnh đề 1, $\mathbf{u}(t, t_0, \mathbf{x}_1) + \mathbf{u}(t, t_0, \mathbf{x}_2)$ (resp. $\lambda \mathbf{u}(t, t_0, \mathbf{x}_0)$) là một nghiệm nguyên của (4) và nhận giá trị $\mathbf{x}_1 + \mathbf{x}_2$ (resp. $\lambda \mathbf{x}_0$) tại $t_0$, nên, theo định lý 1 của IV, p. 179, đồng nhất với $\mathbf{u}(t, t_0, \mathbf{x}_1 + \mathbf{x}_2)$ (resp. $\mathbf{u}(t, t_0, \lambda \mathbf{x}_0)$); do đó ánh xạ $\mathbf{x}_0 \mapsto \mathbf{u}(t, t_0, \mathbf{x}_0)$ là một ánh xạ tuyến tính $C(t, t_0)$ của E vào chính nó, và ta có thể viết $\mathbf{u}(t, t_0, \mathbf{x}_0) = C(t, t_0). \mathbf{x}_0$.
 
-Vì ánh xạ $(X, Y) \mapsto XY$ của $\mathcal{L}(E) \times \mathcal{L}(E)$ vào $\mathcal{L}(E)$ là liên tục (*Gen. Top.*, X, p. 298, prop. 8), ánh xạ $t \mapsto A(t)U$ của J vào $\mathcal{L}(E)$ là điều hòa với mọi $U \in \mathcal{L}(E)$; hơn nữa (*Gen. Top.*, X, p. 296)
+Vì ánh xạ $(X, Y) \mapsto XY$ của $\mathscr{L}(E) \times \mathscr{L}(E)$ vào $\mathscr{L}(E)$ là liên tục (*Gen. Top.*, X, p. 298, prop. 8), ánh xạ $t \mapsto A(t)U$ của J vào $\mathscr{L}(E)$ là điều hòa với mọi $U \in \mathscr{L}(E)$; hơn nữa (*Gen. Top.*, X, p. 296)
 
 $$
 \| A(t)X - A(t)Y \| = \| A(t)(X - Y) \| \leq \| A(t) \| \| X - Y \|,
@@ -166,7 +166,7 @@ $$
 \frac{d}{dt} (V(t)\mathbf{x}_0) = \frac{dV(t)}{dt} \mathbf{x}_0 = A(t)(V(t)\mathbf{x}_0)
 $$
 
-và với $t = t_0$ ta có $V(t)\mathbf{x}_0 = I\mathbf{x}_0 = \mathbf{x}_0$; theo định lý 1 của IV, p. 179, phải có $V(t).\mathbf{x}_0 = C(t, t_0)\mathbf{x}_0$ với mọi $\mathbf{x}_0 \in E$, tức là, $V(t) = C(t, t_0)$; điều này chứng minh rằng $C(t, t_0)$ thuộc $\mathcal{L}(E)$, nói cách khác, rằng $\mathbf{x}_0 \mapsto C(t, t_0).\mathbf{x}_0$ là liên tục trên E, và ánh xạ $t \mapsto C(t, t_0)$ là nghiệm nguyên của (5) bằng $I$ tại $t_0$.
+và với $t = t_0$ ta có $V(t)\mathbf{x}_0 = I\mathbf{x}_0 = \mathbf{x}_0$; theo định lý 1 của IV, p. 179, phải có $V(t).\mathbf{x}_0 = C(t, t_0)\mathbf{x}_0$ với mọi $\mathbf{x}_0 \in E$, tức là, $V(t) = C(t, t_0)$; điều này chứng minh rằng $C(t, t_0)$ thuộc $\mathscr{L}(E)$, nói cách khác, rằng $\mathbf{x}_0 \mapsto C(t, t_0).\mathbf{x}_0$ là liên tục trên E, và ánh xạ $t \mapsto C(t, t_0)$ là nghiệm nguyên của (5) bằng $I$ tại $t_0$.
 
 Cuối cùng, nghiệm nguyên $s \mapsto C(s, u).\mathbf{x}_0$ của (4) nhận giá trị $C(t, u).\mathbf{x}_0$ tại điểm $t$, nên, theo định nghĩa,
 
@@ -180,9 +180,9 @@ Người ta gọi $C(t, t_0)$ là *resolvent* của phương trình (2) của IV
 
 #### Hệ quả 1 {#fvr-iv-s2-thm-2-cor-1 .statement}
 
-*Ánh xạ gán cho mỗi điểm $\mathbf{x}_0 \in E$ hàm liên tục $t \mapsto C(t, t_0).\mathbf{x}_0$, được xác định trên J, là một đẳng cấu của không gian định chuẩn E lên không gian vectơ $\mathcal{I}$ các nghiệm nguyên của (4), được trang bị tôpô hội tụ compact.*
+*Ánh xạ gán cho mỗi điểm $\mathbf{x}_0 \in E$ hàm liên tục $t \mapsto C(t, t_0).\mathbf{x}_0$, được xác định trên J, là một đẳng cấu của không gian định chuẩn E lên không gian vectơ $\mathscr{I}$ các nghiệm nguyên của (4), được trang bị tôpô hội tụ compact.*
 
-Hiển nhiên đó là một ánh xạ tuyến tính song ánh của E lên $\mathcal{I}$: bây giờ $C(t, t_0)$ bị chặn trên một tập compact $K \subset J$, nên $\| C(t, t_0).\mathbf{x}_0 \| \leq M \| \mathbf{x}_0 \|$ với mọi $t \in K$ và $\mathbf{x}_0 \in E$, điều này cho thấy ánh xạ ấy là liên tục; và vì
+Hiển nhiên đó là một ánh xạ tuyến tính song ánh của E lên $\mathscr{I}$: bây giờ $C(t, t_0)$ bị chặn trên một tập compact $K \subset J$, nên $\| C(t, t_0).\mathbf{x}_0 \| \leq M \| \mathbf{x}_0 \|$ với mọi $t \in K$ và $\mathbf{x}_0 \in E$, điều này cho thấy ánh xạ ấy là liên tục; và vì
 
 $$
 C(t_0, t_0).\mathbf{x}_0 = \mathbf{x}_0,
@@ -192,9 +192,9 @@ nên rõ ràng ánh xạ nghịch đảo cũng liên tục.
 
 #### Hệ quả 2 {#fvr-iv-s2-thm-2-cor-2 .statement}
 
-*Ánh xạ $(s, t) \mapsto C(s, t)$ của $J \times J$ vào $\mathcal{L}(E)$ là liên tục.*
+*Ánh xạ $(s, t) \mapsto C(s, t)$ của $J \times J$ vào $\mathscr{L}(E)$ là liên tục.*
 
-Theo (6) ta có $C(s, t) = C(s, t_0) \left( C(t, t_0) \right)^{-1}$; bây giờ, ánh xạ $(X, Y) \mapsto XY$ từ $\mathcal{L}(E) \times \mathcal{L}(E)$ vào $\mathcal{L}(E)$ là liên tục, cũng như ánh xạ $X \mapsto X^{-1}$ từ nhóm (mở) các phần tử khả nghịch của $\mathcal{L}(E)$ lên chính nó (TG, IX, p. 40, mệnh đề 14).
+Theo (6) ta có $C(s, t) = C(s, t_0) \left( C(t, t_0) \right)^{-1}$; bây giờ, ánh xạ $(X, Y) \mapsto XY$ từ $\mathscr{L}(E) \times \mathscr{L}(E)$ vào $\mathscr{L}(E)$ là liên tục, cũng như ánh xạ $X \mapsto X^{-1}$ từ nhóm (mở) các phần tử khả nghịch của $\mathscr{L}(E)$ lên chính nó (TG, IX, p. 40, mệnh đề 14).
 
 Có thể chú ý rằng ánh xạ
 $$
@@ -213,7 +213,7 @@ Thật vậy, $\|A(t)x_0\| \leq k \|x_0\|$ với mọi $t \in K$; trên K, hàm 
 $$
 \|C(t, t_0)x_0 - x_0\| \leq \|x_0\| (e^{k|t-t_0|} - 1)
 $$
-với mọi $t$ và $t_0$ trong K, và mọi $x_0$ trong E, điều này tương đương với bất đẳng thức (7) theo định nghĩa của chuẩn trên $\mathcal{L}(E)$.
+với mọi $t$ và $t_0$ trong K, và mọi $x_0$ trong E, điều này tương đương với bất đẳng thức (7) theo định nghĩa của chuẩn trên $\mathscr{L}(E)$.
 
 #### Mệnh đề 2 {#fvr-iv-s2-prop-2 .statement}
 
@@ -247,7 +247,7 @@ $$
 (U, y) \mapsto U.y
 $$
 
-từ $\mathcal{L}(\mathbf{E}) \times \mathbf{E}$ vào $\mathbf{E}$ là liên tục (\emph{Gen. Top.}, X, p. 297, mệnh đề 6), $\mathbf{z}$ có đạo hàm (trừ trên một tập con đếm được của J) và ta có, theo công thức đạo hàm của một hàm song tuyến tính (I, p. 6, mệnh đề 3)
+từ $\mathscr{L}(\mathbf{E}) \times \mathbf{E}$ vào $\mathbf{E}$ là liên tục (\emph{Gen. Top.}, X, p. 297, mệnh đề 6), $\mathbf{z}$ có đạo hàm (trừ trên một tập con đếm được của J) và ta có, theo công thức đạo hàm của một hàm song tuyến tính (I, p. 6, mệnh đề 3)
 
 $$
 \frac{d}{dt}\left(C(t, t_0).\mathbf{z}\right) = \frac{dC(t, t_0)}{dt}.\mathbf{z} + C(t, t_0).\frac{d\mathbf{z}}{dt} = A(t)C(t, t_0).\mathbf{z} + C(t, t_0).\frac{d\mathbf{z}}{dt}
@@ -317,7 +317,7 @@ $$
 u(t) = x_0 \exp \left( \int_{t_0}^t a(s)\, ds \right) + \int_{t_0}^t b(s) \exp \left( \int_{t_0}^\tau a(\tau)\, d\tau \right) ds.
 $$
 
-Trong không gian $\mathscr{C}(J; E)$ các ánh xạ liên tục từ J vào E, được trang bị tôpô hội tụ compắc, tập hợp $\mathcal{I}$ các nguyên hàm của phương trình (4) là một không gian con vectơ (trên $\mathbf{C}$) đẳng cấu với E, do đó với $\mathbf{C}^n$ (IV, p. 180, hệ quả 1, và IV, p. 181, mệnh đề 2).
+Trong không gian $\mathscr{C}(J; E)$ các ánh xạ liên tục từ J vào E, được trang bị tôpô hội tụ compắc, tập hợp $\mathscr{I}$ các nguyên hàm của phương trình (4) là một không gian con vectơ (trên $\mathbf{C}$) đẳng cấu với E, do đó với $\mathbf{C}^n$ (IV, p. 180, hệ quả 1, và IV, p. 181, mệnh đề 2).
 
 Một cơ sở $(\mathbf{u}_j)_{1 \leq j \leq n}$ của không gian này (trên trường $\mathbf{C}$) được gọi là một *hệ cơ bản* các nguyên hàm của (4).
 
@@ -325,7 +325,7 @@ Một cơ sở $(\mathbf{u}_j)_{1 \leq j \leq n}$ của không gian này (trên 
 
 *Để $n$ tích phân $\mathbf{u}_j$ ($1 \leq j \leq n$) của phương trình (4) tạo thành một hệ cơ bản thì điều kiện cần và đủ là các giá trị $\mathbf{u}_j(t_0)$ của chúng tại một điểm $t_0 \in J$ là các vectơ độc lập tuyến tính trong $E$.*
 
-Thật vậy, ánh xạ gán cho mỗi $\mathbf{x}_0 \in E$ tích phân $t \mapsto C(t, t_0).\mathbf{x}_0$ là một đẳng cấu từ $E$ lên $\mathcal{I}$ (IV, p. 180, hệ quả 1 và IV, p. 181, mệnh đề 2).
+Thật vậy, ánh xạ gán cho mỗi $\mathbf{x}_0 \in E$ tích phân $t \mapsto C(t, t_0).\mathbf{x}_0$ là một đẳng cấu từ $E$ lên $\mathscr{I}$ (IV, p. 180, hệ quả 1 và IV, p. 181, mệnh đề 2).
 
 Nếu $(\mathbf{e}_j)_{1 \leq j \leq n}$ là một cơ sở bất kỳ của $E$ trên $\mathbf{C}$, thì $n$ tích phân
 $$
@@ -409,7 +409,7 @@ Ta đặc biệt xét trường hợp $A(t)$ là một tự đồng cấu của 
 
 Vẫn giả thiết rằng không gian E có số chiều hữu hạn $n$ trên $\mathbf{C}$, ký hiệu $E^*$ là đối ngẫu của nó (A, II, p. 40), đó là một không gian có chiều $n$ trên $\mathbf{C}$ (Alg., II, p. 299, đl. 4); dạng song tuyến tính chính tắc $\langle \mathbf{x}, \mathbf{x}^* \rangle$ xác định trên $E \times E^*$ (Alg., II, p. 234) là liên tục trên tích này (vì nó là một đa thức theo các thành phần của $\mathbf{x} \in E$ và $\mathbf{x}^* \in E^*$).
 
-Cho một phương trình tuyến tính thuần nhất (4) (IV, p. 183), trong đó $t \mapsto A(t)$ là một ánh xạ điều hòa phải từ J vào $\mathcal{L}(E)$, ta hãy xét xem có tồn tại một ánh xạ $t \mapsto \mathbf{v}(t)$ từ J vào $E^*$, là một nguyên hàm của một hàm điều hòa phải trên J, và sao cho hàm vô hướng $t \mapsto \langle \mathbf{u}(t), \mathbf{v}(t) \rangle$ là hằng trên J khi $\mathbf{u}$ là một nghiệm tùy ý của (4); điều đó tương đương với việc viết rằng đạo hàm của hàm này phải bằng không tại mọi điểm mà $\mathbf{u}$ và $\mathbf{v}$ khả vi, nghĩa là, phải có
+Cho một phương trình tuyến tính thuần nhất (4) (IV, p. 183), trong đó $t \mapsto A(t)$ là một ánh xạ điều hòa phải từ J vào $\mathscr{L}(E)$, ta hãy xét xem có tồn tại một ánh xạ $t \mapsto \mathbf{v}(t)$ từ J vào $E^*$, là một nguyên hàm của một hàm điều hòa phải trên J, và sao cho hàm vô hướng $t \mapsto \langle \mathbf{u}(t), \mathbf{v}(t) \rangle$ là hằng trên J khi $\mathbf{u}$ là một nghiệm tùy ý của (4); điều đó tương đương với việc viết rằng đạo hàm của hàm này phải bằng không tại mọi điểm mà $\mathbf{u}$ và $\mathbf{v}$ khả vi, nghĩa là, phải có
 
 $$
 \left\langle \frac{d\mathbf{u}}{dt}, \mathbf{v}(t) \right\rangle + \left\langle \mathbf{u}(t), \frac{d\mathbf{v}}{dt} \right\rangle = 0
@@ -517,21 +517,21 @@ Ký hiệu hàm mũ vừa đưa vào được biện minh bởi các tính chấ
 
 #### Mệnh đề 7 {#fvr-iv-s2-prop-7 .statement}
 
-1' *Ánh xạ* $X \mapsto e^X$ *là một ánh xạ liên tục từ* $\mathcal{L}(E)$ *vào nhóm các tự đẳng cấu của* E *(các phần tử khả nghịch của* $\mathcal{L}(E)$).
+1' *Ánh xạ* $X \mapsto e^X$ *là một ánh xạ liên tục từ* $\mathscr{L}(E)$ *vào nhóm các tự đẳng cấu của* E *(các phần tử khả nghịch của* $\mathscr{L}(E)$).
 
-2 *Ánh xạ* $t \mapsto e^{Xt}$ *từ* $\mathbf{R}$ *vào* $\mathcal{L}(E)$ *là khả vi, và*
+2 *Ánh xạ* $t \mapsto e^{Xt}$ *từ* $\mathbf{R}$ *vào* $\mathscr{L}(E)$ *là khả vi, và*
 
 $$
 \frac{d}{dt} (e^{Xt}) = X e^{Xt} = e^{Xt} X.
 $$ (24)
 
-3 *Với mọi* $X \in \mathcal{L}(E)$ *ta có*
+3 *Với mọi* $X \in \mathscr{L}(E)$ *ta có*
 
 $$
 e^X = \sum_{n=0}^{\infty} \frac{X^n}{n!}
 $$ (25)
 
-*vế phải hội tụ tuyệt đối và đều trên mọi tập con bị chặn của* $\mathcal{L}(E)$; *đặc biệt,* $e^{It} = e^t I$ *với* $t \in \mathbf{R}$.
+*vế phải hội tụ tuyệt đối và đều trên mọi tập con bị chặn của* $\mathscr{L}(E)$; *đặc biệt,* $e^{It} = e^t I$ *với* $t \in \mathbf{R}$.
 
 4) *Nếu* X *và* Y *giao hoán thì* Y *và* $e^Y$ *giao hoán với* $e^X$, *và*
 
@@ -557,13 +557,13 @@ $$
 \| r_n(X) \| \leq \frac{\| X \|^{n+1}}{(n+1)!} e^{\| X \| }
 $$
 
-do đó ta suy ra công thức (25), chuỗi ở vế phải hội tụ tuyệt đối và đều trên mọi tập con bị chặn của $\mathcal{L}(E)$. Với mọi cặp phần tử $X,\ T$ của $\mathcal{L}(E)$, do đó ta có
+do đó ta suy ra công thức (25), chuỗi ở vế phải hội tụ tuyệt đối và đều trên mọi tập con bị chặn của $\mathscr{L}(E)$. Với mọi cặp phần tử $X,\ T$ của $\mathscr{L}(E)$, do đó ta có
 
 $$
 e^{X+T} - e^X = \sum_{n=1}^{\infty} \frac{1}{n!} ((X+T)^n - X^n ).
 $$
 
-Bây giờ, ta có thể viết $(X + T)^n - X^n = \sum_{(V_i)} V_1 V_2 \ldots V_n$, trong đó tổng lấy trên $2^n - 1$ dãy $(V_i)$ các phần tử của $\mathcal{L}(E)$ sao cho $V_i = X$ hoặc $V_i = T$ với $1 \leq i \leq n$, và ít nhất một trong các $V_i$ bằng $T$; bất đẳng thức
+Bây giờ, ta có thể viết $(X + T)^n - X^n = \sum_{(V_i)} V_1 V_2 \ldots V_n$, trong đó tổng lấy trên $2^n - 1$ dãy $(V_i)$ các phần tử của $\mathscr{L}(E)$ sao cho $V_i = X$ hoặc $V_i = T$ với $1 \leq i \leq n$, và ít nhất một trong các $V_i$ bằng $T$; bất đẳng thức
 $$
 \|(X + T)^n - X^n\| \leq (\|X\| + \|T\|)^n - \|X\|^n
 $$
@@ -744,7 +744,7 @@ trong đó $p_{jk}$ là một đa thức (với các hệ số phức) bậc $\l
 
 *Cho $r_j$ ($1 \leq j \leq q$) là các nghiệm phân biệt của phương trình đặc số (40), và cho $n_j$ là bội số của nghiệm $r_j$ ($1 \leq j \leq q$). Khi đó $n$ hàm $t^k e^{r_j t}$ ($1 \leq k \leq n_j,\ 1 \leq j \leq q$) là các nghiệm độc lập tuyến tính của phương trình thuần nhất (41).*
 
-Có thể chứng minh kết quả này trực tiếp theo cách sau. Từ phương trình (41) suy ra rằng đạo hàm bậc $n$ của mọi nghiệm của phương trình này là khả vi trên $\mathbf{R}$, từ đó suy ra ngay lập tức, bằng quy nạp theo số nguyên $m > n$, rằng mọi nghiệm của (41) có đạo hàm cấp $m$, tức là *khả vi vô hạn lần* trên $\mathbf{R}$. Gọi $\mathcal{D}$ là không gian vectơ (không tôpô) trên $\mathbf{C}$ của các hàm nhận giá trị phức, khả vi vô hạn lần trên $\mathbf{R}$; ánh xạ $x \mapsto Dx$ là một tự đồng cấu của không gian này, và phương trình (41) có thể được viết thành
+Có thể chứng minh kết quả này trực tiếp theo cách sau. Từ phương trình (41) suy ra rằng đạo hàm bậc $n$ của mọi nghiệm của phương trình này là khả vi trên $\mathbf{R}$, từ đó suy ra ngay lập tức, bằng quy nạp theo số nguyên $m > n$, rằng mọi nghiệm của (41) có đạo hàm cấp $m$, tức là *khả vi vô hạn lần* trên $\mathbf{R}$. Gọi $\mathscr{D}$ là không gian vectơ (không tôpô) trên $\mathbf{C}$ của các hàm nhận giá trị phức, khả vi vô hạn lần trên $\mathbf{R}$; ánh xạ $x \mapsto Dx$ là một tự đồng cấu của không gian này, và phương trình (41) có thể được viết thành
 
 $$
 f(D)x = 0 \tag{42}

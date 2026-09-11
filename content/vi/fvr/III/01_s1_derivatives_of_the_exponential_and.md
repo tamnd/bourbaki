@@ -48,9 +48,9 @@ subsections:
       pdf_page: 117
 statements: 9
 exercises: 39
-content_sha256: 2747be1a861a52b0a21d414d476a21cd0f1d3132c2202c75ac416d7ab555d463
+content_sha256: 28cbe11b252d71dc8870b701bd4371ba2365ca17ece34aee4ca664f8fc2036bb
 translated_from: content/en/fvr/III/01_s1_derivatives_of_the_exponential_and.md
-source_content_sha256: 2478d73e7dea6ae86c44de479cf637d4b4394218fc6dbee2396f8f6140182119
+source_content_sha256: 48d4a4374acf58428afbb78f3e9c41e6dac3708ffdd9a6f0048e5d86f02a3b2c
 translation_model: gpt-5.4
 translation_run: translate-vi-bf7718f9
 glossary_version: 34
@@ -188,7 +188,7 @@ $$
 
 ### 3. ĐẠO HÀM CỦA CÁC HÀM LƯỢNG GIÁC; SỐ $\pi$
 
-Ta đã định nghĩa, trong Tôpô đại cương (*Gen. Top.*, VIII, p. 106), đồng cấu liên tục $x \mapsto \mathbf{e}(x)$ từ nhóm cộng $\mathbf{R}$ lên nhóm nhân $\mathbf{U}$ các số phức có giá trị tuyệt đối bằng 1; đó là một hàm tuần hoàn có chu kỳ chính bằng 1, và $\mathbf{e}\left(\frac{1}{4}\right) = i$. Ta biết (*loc. cit.*) rằng mọi đồng cấu liên tục từ $\mathbf{R}$ lên $\mathbf{U}$ đều có dạng $x \mapsto \mathbf{e}(x/a)$, và ta đặt $\cos_a x = \mathcal{R}(\mathbf{e}(x/a)), \sin_a x = \mathcal{I}(\mathbf{e}(x/a))$ (*các hàm lượng giác*, hay *các hàm tròn*, cơ sở $a$); các hàm sau cùng này là các ánh xạ liên tục từ $\mathbf{R}$ vào $[-1, +1]$ có chu kỳ chính bằng $a$. Ta có $\sin_a(x + a/4) = \cos_a x, \quad \cos_a(x + a/4) = -\sin_a x$, và hàm $\sin_a x$ tăng trên khoảng $[-a/4, a/4]$.
+Ta đã định nghĩa, trong Tôpô đại cương (*Gen. Top.*, VIII, p. 106), đồng cấu liên tục $x \mapsto \mathbf{e}(x)$ từ nhóm cộng $\mathbf{R}$ lên nhóm nhân $\mathbf{U}$ các số phức có giá trị tuyệt đối bằng 1; đó là một hàm tuần hoàn có chu kỳ chính bằng 1, và $\mathbf{e}\left(\frac{1}{4}\right) = i$. Ta biết (*loc. cit.*) rằng mọi đồng cấu liên tục từ $\mathbf{R}$ lên $\mathbf{U}$ đều có dạng $x \mapsto \mathbf{e}(x/a)$, và ta đặt $\cos_a x = \mathscr{R}(\mathbf{e}(x/a)), \sin_a x = \mathscr{I}(\mathbf{e}(x/a))$ (*các hàm lượng giác*, hay *các hàm tròn*, cơ sở $a$); các hàm sau cùng này là các ánh xạ liên tục từ $\mathbf{R}$ vào $[-1, +1]$ có chu kỳ chính bằng $a$. Ta có $\sin_a(x + a/4) = \cos_a x, \quad \cos_a(x + a/4) = -\sin_a x$, và hàm $\sin_a x$ tăng trên khoảng $[-a/4, a/4]$.
 
 #### Mệnh đề 3 {#fvr-iii-s1-prop-3 .statement}
 
@@ -374,10 +374,10 @@ $$
 $$
 Công thức này cho phép ta tính một nguyên hàm cho mỗi hàm số $e^{\alpha x} \cos \beta x$, $e^{\alpha x} \sin \beta x$ ($\alpha$ và $\beta$ thực); thật vậy, ta có $e^{(\alpha + i \beta)x} = e^{\alpha x} \cos \beta x + i e^{\alpha x} \sin \beta x$, nên, theo (28)
 $$
-\mathrm{D}\left( \mathcal{R}\left( \frac{1}{\alpha + i \beta}\, e^{(\alpha + i \beta)x} \right) \right) = e^{\alpha x} \cos \beta x
+\mathrm{D}\left( \mathscr{R}\left( \frac{1}{\alpha + i \beta}\, e^{(\alpha + i \beta)x} \right) \right) = e^{\alpha x} \cos \beta x
 $$
 $$
-\mathrm{D}\left( \mathcal{I}\left( \frac{1}{\alpha + i \beta}\, e^{(\alpha + i \beta)x} \right) \right) = e^{\alpha x} \sin \beta x.
+\mathrm{D}\left( \mathscr{I}\left( \frac{1}{\alpha + i \beta}\, e^{(\alpha + i \beta)x} \right) \right) = e^{\alpha x} \sin \beta x.
 $$
 Theo cùng cách ấy, ta quy việc tính một nguyên hàm của $x^n e^{\alpha x} \cos \beta x$, hoặc của $x^n e^{\alpha x} \sin \beta x$ (*n* *là một số nguyên* $> 0$) về việc tính một nguyên hàm của $x^n e^{(\alpha + i \beta)x}$; bây giờ, công thức lấy nguyên hàm từng phần bậc $n + 1$ (II, p. 60, công thức (11)) cho thấy một nguyên hàm của hàm sau cùng này là
 $$
@@ -410,7 +410,7 @@ $$ (29)
 
 ### 7. LOGARIT PHỨC
 
-Gọi B là "dải" tạo bởi các điểm $z = x + i y$ sao cho $-\pi \leq y < \pi$; hàm $e^z$ nhận mỗi giá trị của nó trên B đúng một lần và chỉ một lần; nói cách khác, $z \mapsto e^z$ là một ánh xạ liên tục song ánh từ B lên $\mathbf{C}^*$; ảnh qua ánh xạ này của đoạn (nửa mở) $x = x_0,\ -\pi \leq y < \pi$ là đường tròn $|z| = e^{x_0}$; ảnh của đường thẳng $y = y_0$ là nửa đường thẳng (mở) xác định bởi $\mathrm{Am}(z) = y_0$ (mod. $2\pi$). Ảnh qua $z \mapsto e^z$ của phần trong $\dot{B}$ của B, nghĩa là của tập hợp các $z \in \mathbf{C}$ sao cho $|\mathcal{I}(z)| < \pi$, là phần bù F của nửa trục thực âm (đóng) trong $\mathbf{C}$; nếu quy ước ký hiệu $\mathrm{Am}(z)$ là số đo của biên độ của $z$ thuộc $[-\pi, \pi[$, thì tập hợp F có thể được xác định bởi các hệ thức $-\pi < \mathrm{Am}(z) < \pi$. Vì $z \mapsto e^z$ là một đồng cấu ngặt từ $\mathbf{C}$ lên $\mathbf{C}^*$ nên ảnh qua ánh xạ này của mọi tập con mở của B (do đó của $\mathbf{C}$) là một tập mở trong $\mathbf{C}^*$ (do đó trong F); nói cách khác, hạn chế của $z \mapsto e^z$ trên B là một đồng phôi từ $\dot{B}$ lên F. Ta ký hiệu bởi $z \mapsto \log z$ đồng phôi từ F lên B là nghịch đảo của ánh xạ sau; đối với một số phức $z \in F$, $\log z$ được gọi là giá trị chính của logarit của $z$. Nếu $z = x + i y$ và $\log z = u + i v$ thì $x + i y = e^{u+i v}$, do đó $e^u = |z|$, và vì $-\pi < v < \pi$, ta có $v = \mathrm{Am}(z)$. Hơn nữa, ta có $\tan(v + \pi/2) = -x/y$ nếu $y \neq 0$; vì thế ta có thể viết
+Gọi B là "dải" tạo bởi các điểm $z = x + i y$ sao cho $-\pi \leq y < \pi$; hàm $e^z$ nhận mỗi giá trị của nó trên B đúng một lần và chỉ một lần; nói cách khác, $z \mapsto e^z$ là một ánh xạ liên tục song ánh từ B lên $\mathbf{C}^*$; ảnh qua ánh xạ này của đoạn (nửa mở) $x = x_0,\ -\pi \leq y < \pi$ là đường tròn $|z| = e^{x_0}$; ảnh của đường thẳng $y = y_0$ là nửa đường thẳng (mở) xác định bởi $\mathrm{Am}(z) = y_0$ (mod. $2\pi$). Ảnh qua $z \mapsto e^z$ của phần trong $\dot{B}$ của B, nghĩa là của tập hợp các $z \in \mathbf{C}$ sao cho $|\mathscr{I}(z)| < \pi$, là phần bù F của nửa trục thực âm (đóng) trong $\mathbf{C}$; nếu quy ước ký hiệu $\mathrm{Am}(z)$ là số đo của biên độ của $z$ thuộc $[-\pi, \pi[$, thì tập hợp F có thể được xác định bởi các hệ thức $-\pi < \mathrm{Am}(z) < \pi$. Vì $z \mapsto e^z$ là một đồng cấu ngặt từ $\mathbf{C}$ lên $\mathbf{C}^*$ nên ảnh qua ánh xạ này của mọi tập con mở của B (do đó của $\mathbf{C}$) là một tập mở trong $\mathbf{C}^*$ (do đó trong F); nói cách khác, hạn chế của $z \mapsto e^z$ trên B là một đồng phôi từ $\dot{B}$ lên F. Ta ký hiệu bởi $z \mapsto \log z$ đồng phôi từ F lên B là nghịch đảo của ánh xạ sau; đối với một số phức $z \in F$, $\log z$ được gọi là giá trị chính của logarit của $z$. Nếu $z = x + i y$ và $\log z = u + i v$ thì $x + i y = e^{u+i v}$, do đó $e^u = |z|$, và vì $-\pi < v < \pi$, ta có $v = \mathrm{Am}(z)$. Hơn nữa, ta có $\tan(v + \pi/2) = -x/y$ nếu $y \neq 0$; vì thế ta có thể viết
 
 $$
 \begin{cases}

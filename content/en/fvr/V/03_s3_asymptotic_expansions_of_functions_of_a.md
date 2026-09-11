@@ -37,7 +37,7 @@ subsections:
       pdf_page: 250
 statements: 24
 exercises: 7
-content_sha256: 5e4af87e00d052d38d3bfa4956abf9089bd57264e9235d2ffe2ae20db8735ebb
+content_sha256: 04f1b225fb0f2e970d5bd91c497d25ba0dbcd531063de32c6be8dfe174aaa59e
 ---
 
 ## § 3. ASYMPTOTIC EXPANSIONS OF FUNCTIONS OF A REAL VARIABLE
@@ -270,7 +270,7 @@ $$
 $$
 which establishes the relation (2). The proof is similar when $f$ is of order $-\infty$ relative to $x$, in the case where $\int_a^{+\infty} f(t)\,dt$ converges.
 
-Let $\mathcal{E}$ be a comparison scale (for real $x$ tending to $+\infty$) formed of nonzero real functions that are of constant sign on a neighbourhood of $+\infty$, such that $x \in \mathcal{E}$ and such that the product and quotient of two functions in $\mathcal{E}$ again belongs to $\mathcal{E}$ (V, p. 221 and p. 224). If a regulated function $f$ with constant sign on a neighbourhood of $+\infty$ has a principal part $c g$ relative to $\mathcal{E}$, then $\int_x^{+\infty} f(t)\,dt$ (resp. $\int_a^x f(t)\,dt$ according to the case) will be equivalent to $c \int_x^{+\infty} g(t)\,dt$ (resp. $c \int_a^x g(t)\,dt$); if the function $g$ satisfies the hypotheses of prop. 8 of V, p. 233, and if (when the formula (2) of V, p. 233, applies) one knows a principal part of $g'$ relative to $\mathcal{E}$, one will thus have a principal part of $\int_x^{+\infty} f(t)\,dt$ (resp. $\int_a^x f(t)\,dt$) relative to $\mathcal{E}$.
+Let $\mathscr{E}$ be a comparison scale (for real $x$ tending to $+\infty$) formed of nonzero real functions that are of constant sign on a neighbourhood of $+\infty$, such that $x \in \mathscr{E}$ and such that the product and quotient of two functions in $\mathscr{E}$ again belongs to $\mathscr{E}$ (V, p. 221 and p. 224). If a regulated function $f$ with constant sign on a neighbourhood of $+\infty$ has a principal part $c g$ relative to $\mathscr{E}$, then $\int_x^{+\infty} f(t)\,dt$ (resp. $\int_a^x f(t)\,dt$ according to the case) will be equivalent to $c \int_x^{+\infty} g(t)\,dt$ (resp. $c \int_a^x g(t)\,dt$); if the function $g$ satisfies the hypotheses of prop. 8 of V, p. 233, and if (when the formula (2) of V, p. 233, applies) one knows a principal part of $g'$ relative to $\mathscr{E}$, one will thus have a principal part of $\int_x^{+\infty} f(t)\,dt$ (resp. $\int_a^x f(t)\,dt$) relative to $\mathscr{E}$.
 
 #### Example 1 {#fvr-v-s3-n5-exa-1 .statement}
 
@@ -300,13 +300,13 @@ If the function $f_1(e^t)$ satisfies the hypotheses of prop. 8 and has an order 
 
 ### 6. ASYMPTOTIC EXPANSION OF A PRIMITIVE
 
-Let $\mathcal{E}$ be a comparison scale on a neighbourhood of $+\infty$ formed of real functions $\neq 0$ of constant sign on a neighbourhood of $+\infty$; let $\mathbf{f}$ be a regulated vector function defined on an interval $[a,\,+\infty[$, with values in a complete normed space $E$, admitting an asymptotic expansion
+Let $\mathscr{E}$ be a comparison scale on a neighbourhood of $+\infty$ formed of real functions $\neq 0$ of constant sign on a neighbourhood of $+\infty$; let $\mathbf{f}$ be a regulated vector function defined on an interval $[a,\,+\infty[$, with values in a complete normed space $E$, admitting an asymptotic expansion
 
 $$
 \mathbf{f} = \sum_{\lambda \leq \alpha} \mathbf{a}_\lambda g_\lambda + \mathbf{r}_\alpha
 $$
 
-to precision $g_\alpha$ relative to $\mathcal{E}$. Suppose further that every primitive $\int_a^x g(t)\,dt$ of a function $g \in \mathcal{E}$ admits an asymptotic expansion with respect to $\mathcal{E}$. In these circumstances we shall see that one can obtain an asymptotic expansion of $F(x) = \int_a^x \mathbf{f}(t)\,dt$ with respect to $\mathcal{E}$. We distinguish two cases:
+to precision $g_\alpha$ relative to $\mathscr{E}$. Suppose further that every primitive $\int_a^x g(t)\,dt$ of a function $g \in \mathscr{E}$ admits an asymptotic expansion with respect to $\mathscr{E}$. In these circumstances we shall see that one can obtain an asymptotic expansion of $F(x) = \int_a^x \mathbf{f}(t)\,dt$ with respect to $\mathscr{E}$. We distinguish two cases:
 
 1. $\int_a^{+\infty} g_\alpha(t)\,dt$ is infinite; then one has $\int_a^x \mathbf{r}_\alpha(t)\,dt \ll \int_a^x g_\alpha(t)\,dt$ (V, p. 230, prop. 6); by hypothesis one can obtain an asymptotic expansion of $\sum_{\lambda \leq \alpha} \mathbf{a}_\lambda \int_a^x g_\lambda(t)\,dt$ to a certain precision $g_\rho$ (V, p. 222); if $c g_\sigma$ is the principal part of $\int_a^x g_\alpha(t)\,dt$ one will thus have an asymptotic expansion of $\int_a^x \mathbf{f}(t)\,dt$ to precision $g_{\min(\rho,\sigma)}$, with all the terms having indefinitely increasing norms.
 
@@ -330,7 +330,7 @@ $$
 
 to precision $g_\rho$, one will as a result have an asymptotic expansion of $F$ to precision $g_{\min(\rho, \sigma)}$.
 
-So it all amounts to finding asymptotic expansions with respect to $\mathcal{E}$ of *primitives of functions in* $\mathcal{E}$. We have seen how, subject to certain hypotheses on $\mathcal{E}$, prop. 8 of V, p. 233 gives the principal part of such a primitive. Further, the proof of prop. 8 gives the expression for the difference of the two sides of formula (1) (resp. (2)) of V, p. 233, in the form of a primitive of the function $\frac{1}{|\mu + 1|} (x f'(x) + f(x)) - f(x)$ (resp. $f(x) g'(x)$ with $g = f/f'$); on forming the principal part of this new primitive, as an asymptotic expansion of the right-hand side of (1) (resp. (2)), one obtains the right-hand side of the sought-for expansion (see V, p. 247-255).
+So it all amounts to finding asymptotic expansions with respect to $\mathscr{E}$ of *primitives of functions in* $\mathscr{E}$. We have seen how, subject to certain hypotheses on $\mathscr{E}$, prop. 8 of V, p. 233 gives the principal part of such a primitive. Further, the proof of prop. 8 gives the expression for the difference of the two sides of formula (1) (resp. (2)) of V, p. 233, in the form of a primitive of the function $\frac{1}{|\mu + 1|} (x f'(x) + f(x)) - f(x)$ (resp. $f(x) g'(x)$ with $g = f/f'$); on forming the principal part of this new primitive, as an asymptotic expansion of the right-hand side of (1) (resp. (2)), one obtains the right-hand side of the sought-for expansion (see V, p. 247-255).
 
 #### Example 1 {#fvr-v-s3-n6-exa-1 .statement}
 

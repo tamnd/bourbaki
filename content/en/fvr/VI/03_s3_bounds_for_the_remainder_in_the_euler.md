@@ -21,7 +21,7 @@ subsections:
       pdf_page: 304
 statements: 0
 exercises: 3
-content_sha256: 97d4952172e43dd88780c3d853796ce952eb4d81568656dbed66374e9ef8a9f3
+content_sha256: fe8c4ffd50e69ab536575aaa81f4e19364b3c801ca3264cbea320e5cbb3fd0d2
 ---
 
 ## § 3. BOUNDS FOR THE REMAINDER IN THE EULER-MACLAURIN SUMMATION FORMULA
@@ -77,7 +77,7 @@ $$
 + \sum_{k=1}^p \frac{b_{2k}}{(2k)!} g^{(2k-1)}(n+1) + o(g^{(2p-1)}(n+1))
 $$
 
-each of the terms of this sum being negligible relative to the preceding one; on expanding each of them relative to a comparison scale $\mathcal{E}$ one will then have an asymptotic expansion for $s_n$.
+each of the terms of this sum being negligible relative to the preceding one; on expanding each of them relative to a comparison scale $\mathscr{E}$ one will then have an asymptotic expansion for $s_n$.
 
 2) Now suppose that for an index $q$ such that $1 \leq q \leq p$ we have $|g^{(2q-1)}(n)|$ tending to $+\infty$ with $n$, but that $g^{(2k-1)}(n)$ tends to 0 for $k > q$. Since $g^{(2p+1)}$ is monotone on a neighbourhood of $+\infty$ the integral $\int_0^\infty |g^{(2p+1)}(u)| \, du$ converges, and one can then write
 

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 259
 statements: 13
 exercises: 3
-content_sha256: 5de68e31a6f00483c82e1c1ae6441d8b63cc5a1acbdf825ba174f4e30753e569
+content_sha256: 7aef1df43eff09df6e9442552cc56e53595b077c4cc4257843aa13c45dda4aec
 ---
 
 ## § 4. APPLICATION TO SERIES WITH POSITIVE TERMS
@@ -74,13 +74,13 @@ This criterion is very useful in the theory of *entire series*, which we shall s
 
 ### 2. ASYMPTOTIC EXPANSION OF THE PARTIAL SUMS OF A SERIES
 
-For $x$ real tending to $+\infty$ let $\mathcal{E}$ be a comparison scale formed by functions each of which is defined on a *whole interval* $[x_0, +\infty[$ (depending on the function) and is $\geq 0$ on this interval. Let $(\mathbf{u}_n)$ be a series whose terms belong to a complete normed space $\mathbf{E}$, such that $\mathbf{u}_n$ admits an asymptotic expansion to precision $g_\alpha$ with respect to the scale $\mathcal{E}'$ of restrictions to $\mathbf{N}$ of the functions in $\mathcal{E}$:
+For $x$ real tending to $+\infty$ let $\mathscr{E}$ be a comparison scale formed by functions each of which is defined on a *whole interval* $[x_0, +\infty[$ (depending on the function) and is $\geq 0$ on this interval. Let $(\mathbf{u}_n)$ be a series whose terms belong to a complete normed space $\mathbf{E}$, such that $\mathbf{u}_n$ admits an asymptotic expansion to precision $g_\alpha$ with respect to the scale $\mathscr{E}'$ of restrictions to $\mathbf{N}$ of the functions in $\mathscr{E}$:
 
 $$
 \mathbf{u}_n = \sum_{\lambda \leq \alpha} \mathbf{a}_\lambda g_\lambda(n) + \mathbf{r}_\alpha(n).
 $$
 
-Suppose that every partial sum $\sum_{m=1}^n g(m)$, where $g \in \mathcal{E}$, admits an asymptotic expansion relative to $\mathcal{E}'$. One can then obtain an asymptotic expansion of the $s_n = \sum_{m=1}^n \mathbf{u}_m$ with respect to $\mathcal{E}'$; again we distinguish two cases:
+Suppose that every partial sum $\sum_{m=1}^n g(m)$, where $g \in \mathscr{E}$, admits an asymptotic expansion relative to $\mathscr{E}'$. One can then obtain an asymptotic expansion of the $s_n = \sum_{m=1}^n \mathbf{u}_m$ with respect to $\mathscr{E}'$; again we distinguish two cases:
 
 1° $\sum_{n=1}^{\infty} g_{\alpha}(n) = +\infty$. Then (V, p. 237, prop. 2) one has $\sum_{m=1}^{n} r_{\alpha}(m) \ll \sum_{m=1}^{n} g_{\alpha}(m)$:
 by hypothesis one can obtain an asymptotic expansion of
@@ -104,7 +104,7 @@ $$
 $$
 to precision $g_{\rho}$ one thus obtains an asymptotic expansion of $s_{n}$ to precision $g_{\min(\rho,\sigma)}$.
 
-One is thus led to the particular case of series $(g(n))$ where $g \in \mathcal{E}$. We shall see how, subject to certain conditions, one can straight away obtain a principal part of $s_{n} = \sum_{m=1}^{n} g(m)$ (when $\sum_{n=1}^{\infty} g(n) = +\infty$) or of $r_{n} = \sum_{m=n+1}^{\infty} g(m)$ (when $\sum_{n=1}^{n} g(n) < +\infty$).
+One is thus led to the particular case of series $(g(n))$ where $g \in \mathscr{E}$. We shall see how, subject to certain conditions, one can straight away obtain a principal part of $s_{n} = \sum_{m=1}^{n} g(m)$ (when $\sum_{n=1}^{\infty} g(n) = +\infty$) or of $r_{n} = \sum_{m=n+1}^{\infty} g(m)$ (when $\sum_{n=1}^{n} g(n) < +\infty$).
 
 #### Proposition 6 {#fvr-v-s4-prop-6 .statement}
 
@@ -178,7 +178,7 @@ $$
 s_n = g(n) + g(n-1) + \cdots + g(n-p) + o(g(n-p))
 $$
 
-and it suffices to expand (relative to $\mathcal{E}'$) each of the functions $g(n-k)$ ($0 \leq k \leq p$), limiting the precision of the expansions to the principal part of $g(n-p)$, to obtain an expansion for the $s_n$.
+and it suffices to expand (relative to $\mathscr{E}'$) each of the functions $g(n-k)$ ($0 \leq k \leq p$), limiting the precision of the expansions to the principal part of $g(n-p)$, to obtain an expansion for the $s_n$.
 
 #### Example {#fvr-v-s4-n2-exa-1 .statement}
 
@@ -212,9 +212,9 @@ Now if $g$ is of finite order $\mu$ relative to $e^x$, and if, for example, $\su
 $$
 s_n = \frac{\mu}{1 - e^{-\mu}} \int_1^n g(t)\, dt + \sum_{m=1}^n f_1(m)
 $$
-where $f_1(n) = g(n) - \frac{\mu}{1 - e^{-\mu}} \int_1^n g(t)\, dt \ll g(n)$ by prop. 6 of V, p. 239. If one has a principal part $c g_1(n)$ of $f_1(n)$ relative to $\mathcal{E}'$, and if one can again apply prop. 6 to the function $g_1$ one will obtain a primitive equivalent to $\sum_{m=1}^n f_1(m)$ if $\sum_{n=1}^\infty g_1(n) = +\infty$, and equivalent to $\sum_{m=n+1}^\infty f_1(m)$ in the opposite case (in the latter case one writes $\sum_{m=1}^n f_1(m) = C - \sum_{m=n+1}^\infty f_1(m)$, with $C = \sum_{n=1}^\infty f_1(n)$).
+where $f_1(n) = g(n) - \frac{\mu}{1 - e^{-\mu}} \int_1^n g(t)\, dt \ll g(n)$ by prop. 6 of V, p. 239. If one has a principal part $c g_1(n)$ of $f_1(n)$ relative to $\mathscr{E}'$, and if one can again apply prop. 6 to the function $g_1$ one will obtain a primitive equivalent to $\sum_{m=1}^n f_1(m)$ if $\sum_{n=1}^\infty g_1(n) = +\infty$, and equivalent to $\sum_{m=n+1}^\infty f_1(m)$ in the opposite case (in the latter case one writes $\sum_{m=1}^n f_1(m) = C - \sum_{m=n+1}^\infty f_1(m)$, with $C = \sum_{n=1}^\infty f_1(n)$).
 
-Step by step one can thus eventually obtain an expression for $s_n$ as the sum of a certain number of primitives each of which is negligible with respect to the previous, of a term remaining negligible relative to the last primitive written, and finally a constant (the case where the remainder term tends to 0). It then remains to expand each of the primitives obtained with respect to $\mathcal{E}'$ (cf. V, p. 235).
+Step by step one can thus eventually obtain an expression for $s_n$ as the sum of a certain number of primitives each of which is negligible with respect to the previous, of a term remaining negligible relative to the last primitive written, and finally a constant (the case where the remainder term tends to 0). It then remains to expand each of the primitives obtained with respect to $\mathscr{E}'$ (cf. V, p. 235).
 
 #### Example {#fvr-v-s4-n2-exa-2 .statement}
 

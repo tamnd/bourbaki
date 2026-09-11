@@ -20,9 +20,9 @@ subsections:
       pdf_page: 304
 statements: 0
 exercises: 3
-content_sha256: 6f1570f5274f54c3a84cfb29c9961e9176f8f36087fa8fa635045de61f56d237
+content_sha256: 78cda517d697f6470c02435aab68a8c6a59c67a36ce584ea56ece247ccd47ba1
 translated_from: content/en/fvr/VI/03_s3_bounds_for_the_remainder_in_the_euler.md
-source_content_sha256: 97d4952172e43dd88780c3d853796ce952eb4d81568656dbed66374e9ef8a9f3
+source_content_sha256: fe8c4ffd50e69ab536575aaa81f4e19364b3c801ca3264cbea320e5cbb3fd0d2
 translation_model: gpt-5.4
 translation_run: translate-vi-46a3c5b4
 glossary_version: 34
@@ -83,7 +83,7 @@ $$
 + \sum_{k=1}^p \frac{b_{2k}}{(2k)!} g^{(2k-1)}(n+1) + o(g^{(2p-1)}(n+1))
 $$
 
-mỗi số hạng của tổng này đều không đáng kể đối với số hạng đứng trước; khi khai triển từng số hạng theo một thang so sánh $\mathcal{E}$ thì khi đó ta sẽ có một khai triển tiệm cận của $s_n$.
+mỗi số hạng của tổng này đều không đáng kể đối với số hạng đứng trước; khi khai triển từng số hạng theo một thang so sánh $\mathscr{E}$ thì khi đó ta sẽ có một khai triển tiệm cận của $s_n$.
 
 2) Bây giờ giả sử rằng đối với một chỉ số $q$ sao cho $1 \leq q \leq p$ ta có $|g^{(2q-1)}(n)|$ tiến tới $+\infty$ khi $n$ tăng, nhưng $g^{(2k-1)}(n)$ tiến tới 0 với $k > q$. Vì $g^{(2p+1)}$ là đơn điệu trên một lân cận của $+\infty$ nên tích phân $\int_0^\infty |g^{(2p+1)}(u)| \, du$ hội tụ, và khi đó ta có thể viết
 

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 91
 statements: 18
 exercises: 10
-content_sha256: 2e0285294c5eb412e7dc272b17cdc77aa895e03df78e0eeae6b0a65e34227c96
+content_sha256: 60905ef6efd845569a53a55f17387cf3aa45fcd2f47eff514161d964aa57f357
 ---
 
 ## § 3. DERIVATIVES AND INTEGRALS OF FUNCTIONS DEPENDING ON A PARAMETER
@@ -93,7 +93,7 @@ For example, if $f_n$ is the regulated function on $]0,\ 1[$, defined by $f_n(x)
 
 On the other hand, on the *unbounded* interval $I = [0, +\infty[$, let $f_n$ be the regulated function such that $f_n(x) = 1/n$ for $n^2 \leq x \leq (n+1)^2$ and $f_n(x) = 0$ for every other value of $x$ in $I$ ($n \geq 1$); the sequence $(f_n)$ converges uniformly to 0 on $I$, but the integral $\int_0^{+\infty} f_n(t) \, dt = (2n+1)/n$ tends to 2 as $n$ increases indefinitely.
 
-In other words, when $I$ is not bounded, if one denotes by $\mathcal{I}$ the vector space formed by the regulated functions $\mathbf{f}$ on $I$, with values in $E$, and admitting an integral over $I$, then the map $\mathbf{f} \mapsto \int_I \mathbf{f}(t) \, dt$ *is not continuous* when one endows $\mathcal{I}$ with the topology of uniform convergence on $I$ (*cf.* II, p. 53, cor. 2)
+In other words, when $I$ is not bounded, if one denotes by $\mathscr{I}$ the vector space formed by the regulated functions $\mathbf{f}$ on $I$, with values in $E$, and admitting an integral over $I$, then the map $\mathbf{f} \mapsto \int_I \mathbf{f}(t) \, dt$ *is not continuous* when one endows $\mathscr{I}$ with the topology of uniform convergence on $I$ (*cf.* II, p. 53, cor. 2)
 
 We shall seek *sufficient* conditions to assure the validity of prop. 1, under the following hypotheses:
 
@@ -134,7 +134,7 @@ $$
 \left| \int_K \mathbf{f}_\alpha(t)\,dt \right| \leq \varepsilon.
 $$
 
-This definition is equivalent to saying that the family of maps $\alpha \mapsto \int_I \mathbf{f}_\alpha(t)\,dt$ is *uniformly convergent on $A$* (towards the map $\alpha \mapsto \int_I \mathbf{f}_\alpha(t)\,dt$) with respect to the filter of sections $\Phi$ of $\mathcal{K}(I)$; each of the integrals $\int_I \mathbf{f}_\alpha(t)\,dt$ is *a fortiori* convergent (the converse being false). Further, from what we have just seen (or from *Gen. Top.*, X, p. 281, cor. 2):
+This definition is equivalent to saying that the family of maps $\alpha \mapsto \int_I \mathbf{f}_\alpha(t)\,dt$ is *uniformly convergent on $A$* (towards the map $\alpha \mapsto \int_I \mathbf{f}_\alpha(t)\,dt$) with respect to the filter of sections $\Phi$ of $\mathscr{K}(I)$; each of the integrals $\int_I \mathbf{f}_\alpha(t)\,dt$ is *a fortiori* convergent (the converse being false). Further, from what we have just seen (or from *Gen. Top.*, X, p. 281, cor. 2):
 
 #### Proposition 3 {#fvr-ii-s3-prop-3 .statement}
 
@@ -344,7 +344,7 @@ $$
 \int_c^d d\alpha \int_I f(t, \alpha) dt = \int_I dt \int_c^d f(t, \alpha) d\alpha.
 $$
 
-For every compact interval J contained in I, put $u_J(\alpha) = \int_J f(t, \alpha) dt$. The hypothesis entails that with respect to the filter of sections $\Phi$ of the directed set $\mathcal{K}(I)$ the continuous function $u_J$ converges uniformly on A to $\int_I f(t, \alpha) dt$; thus (II, p. 68, prop. 1), $\int_c^d d\alpha \int_J f(t, \alpha) dt$ has limit $\int_c^d d\alpha \int_I f(t, \alpha) dt$ with respect to $\Phi$; but, by prop. 8 (II, p. 77), one has
+For every compact interval J contained in I, put $u_J(\alpha) = \int_J f(t, \alpha) dt$. The hypothesis entails that with respect to the filter of sections $\Phi$ of the directed set $\mathscr{K}(I)$ the continuous function $u_J$ converges uniformly on A to $\int_I f(t, \alpha) dt$; thus (II, p. 68, prop. 1), $\int_c^d d\alpha \int_J f(t, \alpha) dt$ has limit $\int_c^d d\alpha \int_I f(t, \alpha) dt$ with respect to $\Phi$; but, by prop. 8 (II, p. 77), one has
 
 $$
 \int_c^d d\alpha \int_J f(t, \alpha) dt = \int_J dt \int_c^d f(t, \alpha) d\alpha.

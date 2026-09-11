@@ -40,9 +40,9 @@ subsections:
       pdf_page: 191
 statements: 29
 exercises: 18
-content_sha256: 77d23be69e8637ed890fc4d588ac3c773db29df2da215e229bd9a31e6ecba6a7
+content_sha256: 0834a3c22cbfa74a2b82921d1277c9ae1992c8c35afcf6de941b7e1f45fa06e2
 translated_from: content/en/fvr/IV/01_s1_existence_theorems.md
-source_content_sha256: 365b7abae6386a7f8ca023e244e718651dc0eba4a2f9e803d42137613cf21d16
+source_content_sha256: 0a7f10c5381aab999496c21998516f0d2c850c034ed4e5811b9635297f680a8c
 translation_model: gpt-5.4
 translation_run: translate-vi-9ae23bd9
 glossary_version: 34
@@ -54,13 +54,13 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. KHÁI NIỆM PHƯƠNG TRÌNH VI PHÂN
 
-Cho I là một khoảng được chứa trong $\mathbf{R}$, không rút gọn thành một điểm duy nhất, E là một *không gian vectơ tôpô* trên $\mathbf{R}$, và A và B là hai tập con mở của E. Cho $(x, y, t) \mapsto g(x, y, t)$ là một ánh xạ liên tục từ $A \times B \times I$ vào E; với mọi ánh xạ *khả vi* u từ I vào A mà đạo hàm nhận giá trị trong B, ta gắn cho nó ánh xạ $t \mapsto g(u(t), u'(t), t)$ từ I vào E, và ký hiệu ánh xạ này bởi $\tilde{g}(u)$; do đó $\tilde{g}$ được xác định trên tập $\mathcal{D}(A, B)$ gồm các hàm khả vi từ I vào B mà các đạo hàm của chúng nhận giá trị trong B. Ta sẽ nói rằng phương trình $\tilde{g}(u) = 0$ là một *phương trình vi phân* theo u (đối với biến *thực* t); một *nghiệm* của phương trình này cũng được gọi là một *nguyên hàm* của phương trình vi phân (trên khoảng I); đó là một ánh xạ khả vi từ I vào A, mà đạo hàm nhận giá trị trong B, sao cho $g(u(t), u'(t), t) = 0$ với *mọi* $t \in I$. Theo lối nói lạm dụng, ta sẽ viết phương trình vi phân $\tilde{g}(u) = 0$ dưới dạng
+Cho I là một khoảng được chứa trong $\mathbf{R}$, không rút gọn thành một điểm duy nhất, E là một *không gian vectơ tôpô* trên $\mathbf{R}$, và A và B là hai tập con mở của E. Cho $(x, y, t) \mapsto g(x, y, t)$ là một ánh xạ liên tục từ $A \times B \times I$ vào E; với mọi ánh xạ *khả vi* u từ I vào A mà đạo hàm nhận giá trị trong B, ta gắn cho nó ánh xạ $t \mapsto g(u(t), u'(t), t)$ từ I vào E, và ký hiệu ánh xạ này bởi $\tilde{g}(u)$; do đó $\tilde{g}$ được xác định trên tập $\mathscr{D}(A, B)$ gồm các hàm khả vi từ I vào B mà các đạo hàm của chúng nhận giá trị trong B. Ta sẽ nói rằng phương trình $\tilde{g}(u) = 0$ là một *phương trình vi phân* theo u (đối với biến *thực* t); một *nghiệm* của phương trình này cũng được gọi là một *nguyên hàm* của phương trình vi phân (trên khoảng I); đó là một ánh xạ khả vi từ I vào A, mà đạo hàm nhận giá trị trong B, sao cho $g(u(t), u'(t), t) = 0$ với *mọi* $t \in I$. Theo lối nói lạm dụng, ta sẽ viết phương trình vi phân $\tilde{g}(u) = 0$ dưới dạng
 
 $$
 g(x, x', t) = 0,
 $$
 
-với sự hiểu rằng x thuộc tập $\mathcal{D}(A, B)$.
+với sự hiểu rằng x thuộc tập $\mathscr{D}(A, B)$.
 
 Ví dụ, với $I = E = \mathbf{R}$, các quan hệ
 
@@ -115,7 +115,7 @@ Nhắc lại (II, p. 54, def. 3) rằng một hàm vectơ $u$ xác định trên
 
 #### Bổ đề 1 {#fvr-iv-s1-lem-1 .statement}
 
-Cho $f$ là một ánh xạ từ $I \times H$ vào $E$ sao cho, khi viết $f_x$ (với mọi $x \in H$) cho ánh xạ $t \mapsto f(t, x)$ từ $I$ vào $E$, các điều kiện sau được thỏa mãn: 1° $f_x$ là được điều chỉnh trên $I$ với mọi $x \in H$; 2° ánh xạ $x \mapsto f_x$ từ $H$ vào tập hợp $\mathcal{F}(I, E)$ các ánh xạ từ $I$ vào $E$ là liên tục khi trang bị cho $\mathcal{F}(I, E)$ tôpô hội tụ compact (Gen. Top., X, p. 278). Với các điều kiện này:
+Cho $f$ là một ánh xạ từ $I \times H$ vào $E$ sao cho, khi viết $f_x$ (với mọi $x \in H$) cho ánh xạ $t \mapsto f(t, x)$ từ $I$ vào $E$, các điều kiện sau được thỏa mãn: 1° $f_x$ là được điều chỉnh trên $I$ với mọi $x \in H$; 2° ánh xạ $x \mapsto f_x$ từ $H$ vào tập hợp $\mathscr{F}(I, E)$ các ánh xạ từ $I$ vào $E$ là liên tục khi trang bị cho $\mathscr{F}(I, E)$ tôpô hội tụ compact (Gen. Top., X, p. 278). Với các điều kiện này:
 
 1° Với mọi ánh xạ liên tục $u$ từ $I$ vào $H$, hàm $t \mapsto f(t, u(t))$ là được điều chỉnh trên $I$; chính xác hơn, giới hạn phải (tương ứng, trái) của hàm này tại một điểm $t_0 \in I$ bằng giới hạn phải (tương ứng, trái) của hàm $t \mapsto f(t, u(t_0))$ tại điểm $t_0$.
 
@@ -185,17 +185,17 @@ Cho $(t_0, x_0)$ là một điểm của $I \times H$; vì $f$ thỏa mãn các 
 
 *Trên mọi khoảng compact có đầu mút trái (hoặc phải) t_0 được chứa trong J, có độ dài nhỏ hơn r/(M + ε), tồn tại một nghiệm xấp xỉ sai số không vượt quá ε của phương trình (1), nhận giá trị trong S, và bằng x_0 tại t_0.*
 
-Giả sử rằng $t_0$ không phải là đầu mút phải của J, và chứng minh mệnh đề đối với các khoảng có đầu mút trái là $t_0$. Ký hiệu $\mathcal{M}$ là tập hợp các nghiệm của (1) sai số không vượt quá $\varepsilon$, mỗi nghiệm đều nhận giá trị trong S, bằng $x_0$ tại $t_0$, và được xác định trên một khoảng nửa mở $[t_0, b[$ được chứa trong J (khoảng này phụ thuộc vào nghiệm xấp xỉ đang xét). Trước hết ta chứng minh rằng $\mathcal{M}$ không rỗng. Cho c là giới hạn bên phải của $f(t, x_0)$ tại $t_0$; theo bổ đề 1 (IV, p. 165), hàm $f(t, x_0 + c(t - t_0))$ có giới hạn bên phải bằng c tại $t_0$, do đó hạn chế của hàm $x_0 + c(t - t_0)$ lên một khoảng nửa mở đủ nhỏ $[t_0, b[$ sẽ thuộc $\mathcal{M}$.
+Giả sử rằng $t_0$ không phải là đầu mút phải của J, và chứng minh mệnh đề đối với các khoảng có đầu mút trái là $t_0$. Ký hiệu $\mathscr{M}$ là tập hợp các nghiệm của (1) sai số không vượt quá $\varepsilon$, mỗi nghiệm đều nhận giá trị trong S, bằng $x_0$ tại $t_0$, và được xác định trên một khoảng nửa mở $[t_0, b[$ được chứa trong J (khoảng này phụ thuộc vào nghiệm xấp xỉ đang xét). Trước hết ta chứng minh rằng $\mathscr{M}$ không rỗng. Cho c là giới hạn bên phải của $f(t, x_0)$ tại $t_0$; theo bổ đề 1 (IV, p. 165), hàm $f(t, x_0 + c(t - t_0))$ có giới hạn bên phải bằng c tại $t_0$, do đó hạn chế của hàm $x_0 + c(t - t_0)$ lên một khoảng nửa mở đủ nhỏ $[t_0, b[$ sẽ thuộc $\mathscr{M}$.
 
-Ta sắp thứ tự tập hợp $\mathcal{M}$ theo quan hệ "u là một hạn chế của v", và chứng minh rằng $\mathcal{M}$ là quy nạp (Lý thuyết Tập hợp, III, p. 154). Cho $(u_\alpha)$ là một tập con được sắp thứ tự toàn phần của $\mathcal{M}$ và $[t_0, b_\alpha[$ là khoảng trên đó $u_\alpha$ được xác định: nếu $b_\alpha \leq b_\beta$ thì hàm $u_\beta$ do đó là một mở rộng của $u_\alpha$. Hợp của các khoảng $[t_0, b_\alpha[$ là một khoảng $[t_0, b[$ được chứa trong J, và tồn tại một và chỉ một hàm u xác định trên $[t_0, b[$ trùng với $u_\alpha$ trên $[t_0, b_\alpha[$ với mỗi $\alpha$; trong các $b_\alpha$ có một dãy tăng $(b_{\alpha_n})$ tiến tới b; vì u trùng với $u_{\alpha_n}$ trên $[t_0, b_{\alpha_n}[$, hàm u có một đạo hàm thỏa mãn (7) tại mọi điểm của phần bù của một tập con đếm được của $[t_0, b[$, và do đó là cận trên đúng của tập $(u_\alpha)$ trong $\mathcal{M}$.
+Ta sắp thứ tự tập hợp $\mathscr{M}$ theo quan hệ "u là một hạn chế của v", và chứng minh rằng $\mathscr{M}$ là quy nạp (Lý thuyết Tập hợp, III, p. 154). Cho $(u_\alpha)$ là một tập con được sắp thứ tự toàn phần của $\mathscr{M}$ và $[t_0, b_\alpha[$ là khoảng trên đó $u_\alpha$ được xác định: nếu $b_\alpha \leq b_\beta$ thì hàm $u_\beta$ do đó là một mở rộng của $u_\alpha$. Hợp của các khoảng $[t_0, b_\alpha[$ là một khoảng $[t_0, b[$ được chứa trong J, và tồn tại một và chỉ một hàm u xác định trên $[t_0, b[$ trùng với $u_\alpha$ trên $[t_0, b_\alpha[$ với mỗi $\alpha$; trong các $b_\alpha$ có một dãy tăng $(b_{\alpha_n})$ tiến tới b; vì u trùng với $u_{\alpha_n}$ trên $[t_0, b_{\alpha_n}[$, hàm u có một đạo hàm thỏa mãn (7) tại mọi điểm của phần bù của một tập con đếm được của $[t_0, b[$, và do đó là cận trên đúng của tập $(u_\alpha)$ trong $\mathscr{M}$.
 
-Theo bổ đề Zorn (Lý thuyết Tập hợp, III, p. 154, đl. 2), $\mathcal{M}$ có một phần tử cực đại $u_0$; ta sẽ chứng minh rằng nếu $[t_0, t_1[$ là khoảng trên đó $u_0$ được xác định, thì hoặc $t_1$ là đầu mút phải của J, hoặc $t_1 - t_0 \geq r/(M + \varepsilon)$. Ta lập luận phản chứng, giả sử rằng không điều kiện nào trong hai điều kiện này được thỏa mãn; trước hết ta chứng minh rằng có thể mở rộng $u_0$ bằng tính liên tục tại điểm $t_1$; thật vậy, với mọi s và t trong $[t_0, t_1[$,
+Theo bổ đề Zorn (Lý thuyết Tập hợp, III, p. 154, đl. 2), $\mathscr{M}$ có một phần tử cực đại $u_0$; ta sẽ chứng minh rằng nếu $[t_0, t_1[$ là khoảng trên đó $u_0$ được xác định, thì hoặc $t_1$ là đầu mút phải của J, hoặc $t_1 - t_0 \geq r/(M + \varepsilon)$. Ta lập luận phản chứng, giả sử rằng không điều kiện nào trong hai điều kiện này được thỏa mãn; trước hết ta chứng minh rằng có thể mở rộng $u_0$ bằng tính liên tục tại điểm $t_1$; thật vậy, với mọi s và t trong $[t_0, t_1[$,
 
 $$
 \|u_0(s) - u_0(t)\| \leq (M + \varepsilon)|s - t|
 $$
 
-theo định lý giá trị trung bình; tiêu chuẩn Cauchy cho thấy $u_0$ có một giới hạn trái $x_1 \in S$ tại điểm $t_1$. Bây giờ gọi $c_1$ là giới hạn phải tại $t_1$ của hàm $f(t, x_1)$; ta có $\|c_1\| \leq M$; cùng lập luận như ở đầu chứng minh cho thấy có thể mở rộng $u_0$ sang một khoảng nửa mở có đầu mút trái là $t_1$ bằng hàm $x_1 + c_1(t - t_1)$, sao cho hàm được mở rộng thuộc $\mathcal{M}$, điều này là vô lý. Điều đó chứng minh mệnh đề.
+theo định lý giá trị trung bình; tiêu chuẩn Cauchy cho thấy $u_0$ có một giới hạn trái $x_1 \in S$ tại điểm $t_1$. Bây giờ gọi $c_1$ là giới hạn phải tại $t_1$ của hàm $f(t, x_1)$; ta có $\|c_1\| \leq M$; cùng lập luận như ở đầu chứng minh cho thấy có thể mở rộng $u_0$ sang một khoảng nửa mở có đầu mút trái là $t_1$ bằng hàm $x_1 + c_1(t - t_1)$, sao cho hàm được mở rộng thuộc $\mathscr{M}$, điều này là vô lý. Điều đó chứng minh mệnh đề.
 
 Khi f liên tục đều trên $J \times S$ thì có thể chứng minh mđ. 3 mà không dùng bổ đề Zorn (IV, p. 199, bt. 1a)).
 
@@ -213,7 +213,7 @@ $$
 
 *Nếu E có số chiều hữu hạn trên $\mathbf{R}$ thì tồn tại một nghiệm của (1) nhận giá trị trong S và bằng $x_0$ tại $t_0$, trên mọi khoảng compact K có đầu mút trái (hoặc phải) là $t_0$, được chứa trong J và có độ dài $< r/M$.*
 
-Thật vậy, theo mệnh đề 3, một khi $n$ đủ lớn thì tồn tại một nghiệm gần đúng $u_n$ của (1) chính xác đến $1/n$, được xác định trên $K$, nhận giá trị trong $S$, và bằng $x_0$ tại $t_0$. Hơn nữa, kể từ một giá trị nào đó của $n$ trở đi, $u_n(K)$ được chứa trong một quả cầu *đóng* có tâm $x_0$ và bán kính $< r$, không phụ thuộc vào $n$. Họ các $u_n$ là đồng liên tục (mệnh đề 4), và vì $E$ là hữu hạn chiều nên tập $S$ là compact tương đối trong $E$; do đó với mọi $t \in K$ tập các $u_n(t)$ là compact tương đối trong $E$. Theo định lý Ascoli (*Gen. Top.*, X, p. 290, định lý 2), họ các $u_n$ là compact tương đối trong không gian $\mathcal{F}(K; E)$ các ánh xạ từ $K$ vào $E$ được trang bị chuẩn đều. Vì thế tồn tại một dãy trích từ $(u_{n_k})$ của $(u_n)$ hội tụ đều trên $K$ tới một hàm liên tục $u$. Ta có $u(K) \subset S$, nên $t \mapsto f(t, u(t))$ được xác định trên $K$; theo bổ đề 1 (IV, p. 165), $f(t, u_{n_k}(t))$ hội tụ đều tới $f(t, u(t))$ trên $K$; theo (IV, p. 4, công thức (7)), $u_{n_k}$ là một nguyên hàm của một hàm hội tụ đều tới $f(t, u(t))$ trên $K$, nên (II, p. 52, định lý 1) $u$ là một nghiệm của (1) trên $K$, và bằng $x_0$ tại điểm $t_0$.
+Thật vậy, theo mệnh đề 3, một khi $n$ đủ lớn thì tồn tại một nghiệm gần đúng $u_n$ của (1) chính xác đến $1/n$, được xác định trên $K$, nhận giá trị trong $S$, và bằng $x_0$ tại $t_0$. Hơn nữa, kể từ một giá trị nào đó của $n$ trở đi, $u_n(K)$ được chứa trong một quả cầu *đóng* có tâm $x_0$ và bán kính $< r$, không phụ thuộc vào $n$. Họ các $u_n$ là đồng liên tục (mệnh đề 4), và vì $E$ là hữu hạn chiều nên tập $S$ là compact tương đối trong $E$; do đó với mọi $t \in K$ tập các $u_n(t)$ là compact tương đối trong $E$. Theo định lý Ascoli (*Gen. Top.*, X, p. 290, định lý 2), họ các $u_n$ là compact tương đối trong không gian $\mathscr{F}(K; E)$ các ánh xạ từ $K$ vào $E$ được trang bị chuẩn đều. Vì thế tồn tại một dãy trích từ $(u_{n_k})$ của $(u_n)$ hội tụ đều trên $K$ tới một hàm liên tục $u$. Ta có $u(K) \subset S$, nên $t \mapsto f(t, u(t))$ được xác định trên $K$; theo bổ đề 1 (IV, p. 165), $f(t, u_{n_k}(t))$ hội tụ đều tới $f(t, u(t))$ trên $K$; theo (IV, p. 4, công thức (7)), $u_{n_k}$ là một nguyên hàm của một hàm hội tụ đều tới $f(t, u(t))$ trên $K$, nên (II, p. 52, định lý 1) $u$ là một nghiệm của (1) trên $K$, và bằng $x_0$ tại điểm $t_0$.
 
 #### Nhận xét 1 {#fvr-iv-s1-n3-rem-1 .statement}
 
@@ -423,7 +423,7 @@ $$
 \| \mathbf{u}(t) - \mathbf{v}(t) \| \leq 2\varepsilon \frac{e^{k|t-t_0|} - 1}{k}
 $$
 
-với mọi $t \in K$, nên các tập hợp $F_\varepsilon$ tạo thành một cơ sở lọc $\mathcal{G}$ hội tụ đều trên $K$ tới một hàm liên tục $w$, bằng $x_0$ tại $t_0$; hơn nữa $w$ nhận giá trị trong $S$, vì, với $\varepsilon$ đủ nhỏ, các hàm $u \in F_\varepsilon$ nhận giá trị trong một quả cầu đóng được chứa trong $S$. Vì $f(t, u(t))$ hội tụ đều trên $K$ tới $f(t, w(t))$ theo $\mathcal{G}$, $w$ thỏa mãn phương trình (6) của IV, p. 165, nên là một nghiệm của (1). Tính duy nhất của nghiệm suy ra ngay lập tức từ bất đẳng thức (15) của IV, p. 170 khi lấy $\varepsilon_1 = \varepsilon_2 = 0$ và $u(t_0) = v(t_0)$.
+với mọi $t \in K$, nên các tập hợp $F_\varepsilon$ tạo thành một cơ sở lọc $\mathscr{G}$ hội tụ đều trên $K$ tới một hàm liên tục $w$, bằng $x_0$ tại $t_0$; hơn nữa $w$ nhận giá trị trong $S$, vì, với $\varepsilon$ đủ nhỏ, các hàm $u \in F_\varepsilon$ nhận giá trị trong một quả cầu đóng được chứa trong $S$. Vì $f(t, u(t))$ hội tụ đều trên $K$ tới $f(t, w(t))$ theo $\mathscr{G}$, $w$ thỏa mãn phương trình (6) của IV, p. 165, nên là một nghiệm của (1). Tính duy nhất của nghiệm suy ra ngay lập tức từ bất đẳng thức (15) của IV, p. 170 khi lấy $\varepsilon_1 = \varepsilon_2 = 0$ và $u(t_0) = v(t_0)$.
 
 Ta sẽ nói rằng một hàm $f$ xác định trên $I \times H$ là Lipschitz địa phương nếu, với mọi điểm $(t, x)$ của $I \times H$, tồn tại một lân cận $V$ của $t$ (đối với $I$) và một lân cận $S$ của $x$ sao cho $f$ là Lipschitz trên $V \times S$ (với một hằng số $k$ phụ thuộc vào $V$ và $S$). Theo định lý Borel-Lebesgue, với mọi đoạn compact $J \subset I$ và mọi điểm $x_0 \in H$ tồn tại một quả cầu mở $S$ có tâm $x_0$, được chứa trong $H$, sao cho $f$ là Lipschitz trên $J \times S$; do đó $f$ thỏa mãn các giả thiết của bổ đề 1 của IV, p. 3. Khi $f$ là Lipschitz địa phương trên $I \times H$ ta sẽ nói rằng phương trình $x' = f(t, x)$ là Lipschitz địa phương trên $I \times H$.
 
@@ -508,7 +508,7 @@ $$
 
 *Cho $u$ là một nghiệm của phương trình $x' = g(t, x)$ xác định trên một khoảng $K = [t_0, b[$ được chứa trong $I$, bằng $x_0$ tại điểm $t_0$, và sao cho với mọi $t \in K$ quả cầu đóng tâm $u(t)$ và bán kính $\varphi(t)$ được chứa trong $H$. Trong các điều kiện ấy, với mọi $y \in H$ sao cho $\|y - x_0\| \leq \mu$ tồn tại một nghiệm $v$ của $x' = f(t, x)$, xác định trên $K$, nhận giá trị trong $H$, và bằng $y$ tại điểm $t_0$; hơn nữa, $\|u(t) - v(t)\| \leq \varphi(t)$ trên $K$.*
 
-Gọi $\mathcal{M}$ là họ các nghiệm của $x' = f(t, x)$ mà mỗi nghiệm nhận giá trị trong $H$, bằng $y$ tại $t_0$, và được xác định trên một khoảng nửa mở $[t_0, \tau[$ được chứa trong $I$ (phụ thuộc vào khoảng đang xét). Theo định lý 1 của IV, p. 171 (khi $f$ là Lipschitz địa phương) hoặc hệ quả của IV, p. 167 (khi $E$ là hữu hạn chiều), $\mathcal{M}$ không rỗng, và cùng một lập luận như trong mệnh đề 3 của IV, p. 166 cho thấy rằng $\mathcal{M}$ là *quy nạp* đối với thứ tự "v là một hạn chế của w". Cho $v_0$ là một phần tử cực đại của $\mathcal{M}$ và $[t_0, t_1[$ là khoảng xác định của $v_0$; theo mệnh đề 6 của IV, p. 171, tất cả quy về việc chứng minh rằng $t_1 \geq b$. Nếu không, ta sẽ có
+Gọi $\mathscr{M}$ là họ các nghiệm của $x' = f(t, x)$ mà mỗi nghiệm nhận giá trị trong $H$, bằng $y$ tại $t_0$, và được xác định trên một khoảng nửa mở $[t_0, \tau[$ được chứa trong $I$ (phụ thuộc vào khoảng đang xét). Theo định lý 1 của IV, p. 171 (khi $f$ là Lipschitz địa phương) hoặc hệ quả của IV, p. 167 (khi $E$ là hữu hạn chiều), $\mathscr{M}$ không rỗng, và cùng một lập luận như trong mệnh đề 3 của IV, p. 166 cho thấy rằng $\mathscr{M}$ là *quy nạp* đối với thứ tự "v là một hạn chế của w". Cho $v_0$ là một phần tử cực đại của $\mathscr{M}$ và $[t_0, t_1[$ là khoảng xác định của $v_0$; theo mệnh đề 6 của IV, p. 171, tất cả quy về việc chứng minh rằng $t_1 \geq b$. Nếu không, ta sẽ có
 
 $$
 \| u(t) - v_0(t) \| \leq \varphi(t)

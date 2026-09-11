@@ -12,7 +12,7 @@ pdf_pages: 0348-0349
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 4dc1cc8770f113d07c60407892d80f52122970c91ca520466887e833fe890707
+content_sha256: bbdd04d7db249da3e320372db5622c7882fc2852c39973644f3b108bf96ded84
 translated_from: content/en/fvr/index_of_notation_i_vii.md
 source_content_sha256: 6bd79d267c6af46856f2d2d42c7f781de6a860d9958949d12bff7bd519388bc3
 translation_model: gpt-5-mini
@@ -71,9 +71,9 @@ $$
 $$: 114
 $e^A$: 198
 exp A: 198
-$\mathcal{H}(\mathfrak{F}, V)$: 221
+$\mathscr{H}(\mathfrak{F}, V)$: 221
 R_\infty: 221
-$\mathcal{H}_\infty(\mathfrak{F}, V)$: 222
+$\mathscr{H}_\infty(\mathfrak{F}, V)$: 222
 f_1 \preceq f_2: 223
 f_2 \succeq f_1: 223
 f \preceq g: 223
@@ -90,7 +90,7 @@ g \gg f: 225
 f \sim g: 226
 O(f), O_k(f), o(f), o_k(f): 230
 l_0(x), l_n(x): 240
-\mathcal{K}(y) (\mathcal{K} một trường Hardy): 261
+\mathscr{K}(y) (\mathscr{K} một trường Hardy): 261
 e_0(x), e_n(x): 265
 $$
 \sum_{k=0}^\infty \alpha_k D^k

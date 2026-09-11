@@ -37,9 +37,9 @@ subsections:
       pdf_page: 270
 statements: 21
 exercises: 15
-content_sha256: 13d0b55cd89d006c23777b793ce127bd218f251bd373473da5513b4db31e8190
+content_sha256: c22ddee0d445e02473141984a91571a0b2a653fe0b2edad157caedd76669b79d
 translated_from: content/en/fvr/V/A_a_hardy_fields_h_functions.md
-source_content_sha256: 2b7ece85b767af5816191cdddb2a46c6ea11aaccc68f65d9ac9a41b8c196aa46
+source_content_sha256: b95f9ad9bca8cc72d94efcce361bb8861c0b8518e472602d45f215e94dcd28a9
 translation_model: gpt-5.4
 translation_run: translate-vi-75b0505f
 glossary_version: 34
@@ -53,13 +53,13 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC TRƯỜNG HARDY
 
-Cho $\mathfrak{F}$ là cơ sở lọc trên $\mathbf{R}$ được tạo thành bởi các khoảng có dạng $[x_0, +\infty[$. Nhắc lại rằng ta đã định nghĩa một quan hệ tương đương $R_\infty$: trên tập hợp $\mathcal{H}(\mathfrak{F}, \mathbf{R})$ các hàm thực được xác định trên các tập hợp thuộc $\mathfrak{F}$, “tồn tại một tập hợp $M \in \mathfrak{F}$ sao cho $f(x) = g(x)$ trên $M$” (V, p. 211), và rằng tập thương $\mathcal{H}(\mathfrak{F}, \mathbf{R})/R_\infty$ được trang bị cấu trúc của một *vành* có phần tử đơn vị.
+Cho $\mathfrak{F}$ là cơ sở lọc trên $\mathbf{R}$ được tạo thành bởi các khoảng có dạng $[x_0, +\infty[$. Nhắc lại rằng ta đã định nghĩa một quan hệ tương đương $R_\infty$: trên tập hợp $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ các hàm thực được xác định trên các tập hợp thuộc $\mathfrak{F}$, “tồn tại một tập hợp $M \in \mathfrak{F}$ sao cho $f(x) = g(x)$ trên $M$” (V, p. 211), và rằng tập thương $\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$ được trang bị cấu trúc của một *vành* có phần tử đơn vị.
 
 #### Định nghĩa 1 {#fvr-v-a0-def-1 .statement}
 
-*Cho một tập con $\mathfrak{K}$ của $\mathcal{H}(\mathfrak{F}, \mathbf{R})$, ta nói rằng $\mathfrak{K}/R_\infty$ (ảnh chính tắc của $\mathfrak{K}$ trong $\mathcal{H}(\mathfrak{F}, \mathbf{R})/R_\infty$) là một trường Hardy, nếu $\mathfrak{K}$ thỏa mãn các điều kiện sau:
+*Cho một tập con $\mathfrak{K}$ của $\mathscr{H}(\mathfrak{F}, \mathbf{R})$, ta nói rằng $\mathfrak{K}/R_\infty$ (ảnh chính tắc của $\mathfrak{K}$ trong $\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$) là một trường Hardy, nếu $\mathfrak{K}$ thỏa mãn các điều kiện sau:
 
-1. $\mathfrak{K}/R_\infty$ là một trường con của vành $\mathcal{H}(\mathfrak{F}, \mathbf{R})/R_\infty$. 2. *Mọi hàm trong $\mathfrak{K}$ đều liên tục và khả vi trên một khoảng $[a, +\infty[$ (phụ thuộc vào hàm đó), và lớp theo $R_\infty$ của đạo hàm của nó thuộc về $\mathfrak{K}/R_\infty$.*
+1. $\mathfrak{K}/R_\infty$ là một trường con của vành $\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$. 2. *Mọi hàm trong $\mathfrak{K}$ đều liên tục và khả vi trên một khoảng $[a, +\infty[$ (phụ thuộc vào hàm đó), và lớp theo $R_\infty$ của đạo hàm của nó thuộc về $\mathfrak{K}/R_\infty$.*
 
 Giả thiết rằng $\mathfrak{K}/R_\infty$ là một *trường* tương đương với các điều kiện sau: nếu $f \in \mathfrak{K}$ và $g \in \mathfrak{K}$ thì $f + g$ và $fg$ bằng các hàm thuộc $\mathfrak{K}$ trên một tập hợp nào đó trong $\mathfrak{F}$; hơn nữa, nếu $f$ không đồng nhất bằng không trên một tập hợp trong $\mathfrak{F}$ thì tồn tại một tập hợp $M$ trong $\mathfrak{F}$ trên đó $f$ *không triệt tiêu*, và $1/f$ bằng một hàm của $\mathfrak{K}$ trên $M$; theo điều kiện 2' ta luôn có thể giả sử rằng $M$ được chọn sao cho $f$ *liên tục* trên $M$, và do đó *có dấu không đổi* trên khoảng này.
 
@@ -146,13 +146,13 @@ Cuối cùng, chú ý rằng nếu $y$ là *nguyên hàm* của một hàm bất
 
 *Hai hàm trong cùng một trường Hardy là khả so sánh đối với mọi cấp* (V, p. 232).
 
-Thật vậy, nếu $f$ thuộc một trường Hardy $\mathcal{K}$, thì với mọi số nguyên $n > 0$ tồn tại một khoảng $[x_0, +\infty[$ trên đó $f$ khả vi $n$ lần, đạo hàm bậc $n$ của nó bằng một hàm trong $\mathcal{K}$ trên khoảng này. Vì thế chỉ cần chỉ ra rằng hai hàm bất kỳ $f, g$ của $\mathcal{K}$ là *khả so sánh*. Điều này hiển nhiên nếu một trong hai hàm đồng nhất bằng không trên một lân cận của $+\infty$; do đó có thể chỉ xét trường hợp cả hai đều dương ngặt trên một lân cận của $+\infty$. Nhưng khi đó, với mọi số thực $t$, $f - tg$ bằng một hàm trong $\mathcal{K}$ trên một lân cận của $+\infty$, nên có dấu hằng trên một lân cận của $+\infty$, điều này chứng minh mệnh đề (V, p. 217, prop. 9).
+Thật vậy, nếu $f$ thuộc một trường Hardy $\mathscr{K}$, thì với mọi số nguyên $n > 0$ tồn tại một khoảng $[x_0, +\infty[$ trên đó $f$ khả vi $n$ lần, đạo hàm bậc $n$ của nó bằng một hàm trong $\mathscr{K}$ trên khoảng này. Vì thế chỉ cần chỉ ra rằng hai hàm bất kỳ $f, g$ của $\mathscr{K}$ là *khả so sánh*. Điều này hiển nhiên nếu một trong hai hàm đồng nhất bằng không trên một lân cận của $+\infty$; do đó có thể chỉ xét trường hợp cả hai đều dương ngặt trên một lân cận của $+\infty$. Nhưng khi đó, với mọi số thực $t$, $f - tg$ bằng một hàm trong $\mathscr{K}$ trên một lân cận của $+\infty$, nên có dấu hằng trên một lân cận của $+\infty$, điều này chứng minh mệnh đề (V, p. 217, prop. 9).
 
-Người ta suy ra ngay lập tức từ mệnh đề này rằng, nếu một trường Hardy $\mathcal{K}$ chứa các hằng thực (như ta sẽ luôn giả thiết trong phần sau), và nếu $f$ và $g$ là hai hàm bất kỳ trong $\mathcal{K}$ thì bất kỳ hai hàm nào trong các hàm $e^f, e^g, \log |f|, \log |g|, |f|^{\alpha}, |g|^{\alpha}$ ($\alpha$ là một số thực tùy ý), $\int_a f, \int_a g$ ($a$ là một số thực bất kỳ trong một khoảng $[x_0, +\infty[$ nơi $f$ và $g$ bị chặn biến thiên) đều *khả so sánh* (khi chúng được xác định); thật vậy, bất kỳ hai hàm nào trong số các hàm ấy đều thuộc về một trường Hardy nhất định nhận được bằng cách lần lượt thêm chúng vào $\mathcal{K}$.
+Người ta suy ra ngay lập tức từ mệnh đề này rằng, nếu một trường Hardy $\mathscr{K}$ chứa các hằng thực (như ta sẽ luôn giả thiết trong phần sau), và nếu $f$ và $g$ là hai hàm bất kỳ trong $\mathscr{K}$ thì bất kỳ hai hàm nào trong các hàm $e^f, e^g, \log |f|, \log |g|, |f|^{\alpha}, |g|^{\alpha}$ ($\alpha$ là một số thực tùy ý), $\int_a f, \int_a g$ ($a$ là một số thực bất kỳ trong một khoảng $[x_0, +\infty[$ nơi $f$ và $g$ bị chặn biến thiên) đều *khả so sánh* (khi chúng được xác định); thật vậy, bất kỳ hai hàm nào trong số các hàm ấy đều thuộc về một trường Hardy nhất định nhận được bằng cách lần lượt thêm chúng vào $\mathscr{K}$.
 
-Tương tự, mọi hàm $f(x)$ trong một trường Hardy $\mathcal{K}$ đều khả so sánh với $x$, vì $x$ và $f(x)$ thuộc trường Hardy nhận được bằng cách thêm $x$ vào $\mathcal{K}$. Do đó suy ra (đặc biệt) rằng $f$ khả so sánh đối với mọi cấp với mọi lũy thừa $x^{\alpha}$, cũng như với $\log x$ và với $e^x$.
+Tương tự, mọi hàm $f(x)$ trong một trường Hardy $\mathscr{K}$ đều khả so sánh với $x$, vì $x$ và $f(x)$ thuộc trường Hardy nhận được bằng cách thêm $x$ vào $\mathscr{K}$. Do đó suy ra (đặc biệt) rằng $f$ khả so sánh đối với mọi cấp với mọi lũy thừa $x^{\alpha}$, cũng như với $\log x$ và với $e^x$.
 
-Cũng thấy rằng nếu $f$ và $g$ thuộc cùng một trường Hardy $\mathcal{K}$, nếu $g(x) > 0$ trên một khoảng $[x_0, +\infty[$, và nếu $g(x)$ tiến tới 0 hoặc tới $+\infty$ khi $x$ tiến tới $+\infty$, thì *cấp* của $f$ đối với $g$ (V, p. 219) luôn luôn được xác định.
+Cũng thấy rằng nếu $f$ và $g$ thuộc cùng một trường Hardy $\mathscr{K}$, nếu $g(x) > 0$ trên một khoảng $[x_0, +\infty[$, và nếu $g(x)$ tiến tới 0 hoặc tới $+\infty$ khi $x$ tiến tới $+\infty$, thì *cấp* của $f$ đối với $g$ (V, p. 219) luôn luôn được xác định.
 
 Vì thế Mệnh đề 8 của V, p. 233, áp dụng được cho mọi hàm $f$ trong một trường Hardy, và chứng minh rằng:
 
@@ -168,7 +168,7 @@ Hơn nữa, ta có mệnh đề sau đây:
 
 #### Mệnh đề 2 {#fvr-v-a0-prop-2 .statement}
 
-Cho $f$ là một hàm thuộc một trường Hardy $\mathcal{K}$.
+Cho $f$ là một hàm thuộc một trường Hardy $\mathscr{K}$.
 
 1 Nếu $f$ có cấp vô hạn đối với $x$ thì, với mọi số nguyên $n > 0$,
 $$
@@ -186,7 +186,7 @@ $$
 (3)
 trừ khi $\mu$ là một số nguyên $\geqslant 0$ và $n > \mu$.
 
-1 Nếu $f$ có cấp vô hạn đối với $x$ thì ta có $\log |f| \gg \log x$, nên, vì $\log |f|$ và $\log x$ so sánh được ở mọi cấp, $f'/f \gg 1/x$. Đặt $g = f'/f$; vì $g$ bằng một hàm trong $\mathcal{K}$ trên một lân cận của $+\infty$ nên từ $1/g \ll x$ suy ra $g'/g^2 \ll 1$, và do đó $g'/g \ll g = f'/f$, hay tương đương $fg' \ll gf'$. Từ quan hệ $f' = fg$ suy ra bằng cách lấy đạo hàm rằng
+1 Nếu $f$ có cấp vô hạn đối với $x$ thì ta có $\log |f| \gg \log x$, nên, vì $\log |f|$ và $\log x$ so sánh được ở mọi cấp, $f'/f \gg 1/x$. Đặt $g = f'/f$; vì $g$ bằng một hàm trong $\mathscr{K}$ trên một lân cận của $+\infty$ nên từ $1/g \ll x$ suy ra $g'/g^2 \ll 1$, và do đó $g'/g \ll g = f'/f$, hay tương đương $fg' \ll gf'$. Từ quan hệ $f' = fg$ suy ra bằng cách lấy đạo hàm rằng
 $$
 f'' = fg' + gf' \sim gf'
 $$
@@ -210,15 +210,15 @@ Nếu $f$ tương đương với một hằng $k \neq 0$ thì ta có $f(x) = k +
 
 #### Mệnh đề 3 {#fvr-v-a0-prop-3 .statement}
 
-*Nếu $\mathcal{K}_0$ là một trường Hardy thì tồn tại một trường Hardy $\mathcal{K}$ chứa $\mathcal{K}_0$ và sao cho, với mọi hàm $z \in \mathcal{K}$ không đồng nhất bằng không trên một lân cận của $+\infty$, cả $e^z$ lẫn $\log |z|$ đều thuộc $\mathcal{K}$.*
+*Nếu $\mathscr{K}_0$ là một trường Hardy thì tồn tại một trường Hardy $\mathscr{K}$ chứa $\mathscr{K}_0$ và sao cho, với mọi hàm $z \in \mathscr{K}$ không đồng nhất bằng không trên một lân cận của $+\infty$, cả $e^z$ lẫn $\log |z|$ đều thuộc $\mathscr{K}$.*
 
-Ký hiệu bởi $\mathcal{K}$ tập hợp các hàm $f \in \mathcal{H}(\mathfrak{F}, \mathbf{R})$ có các tính chất sau: với mỗi hàm $f \in \mathcal{K}$, tồn tại một số hữu hạn các trường Hardy $\mathcal{K}_1, \mathcal{K}_2, \ldots, \mathcal{K}_n$ (số $n$ và các trường $\mathcal{K}_i$ phụ thuộc vào $f$) sao cho $f \in \mathcal{K}_n$ và, với $0 \leq i \leq n-1$, ta có $\mathcal{K}_{i+1} = \mathcal{K}_i(u_{i+1})$ trong đó $u_{i+1}$ bằng hoặc $e^{z_i}$ hoặc $\log |z_i|$, với $z_i$ thuộc $\mathcal{K}_i$ và không đồng nhất triệt tiêu trên một lân cận của $+\infty$. Ta nói rằng $u_1, u_2, \ldots, u_n$ tạo thành một *dãy định nghĩa* cho trường $\mathcal{K}_n$ và cho hàm $f$; dĩ nhiên cùng một hàm có thể chấp nhận nhiều dãy định nghĩa.
+Ký hiệu bởi $\mathscr{K}$ tập hợp các hàm $f \in \mathscr{H}(\mathfrak{F}, \mathbf{R})$ có các tính chất sau: với mỗi hàm $f \in \mathscr{K}$, tồn tại một số hữu hạn các trường Hardy $\mathscr{K}_1, \mathscr{K}_2, \ldots, \mathscr{K}_n$ (số $n$ và các trường $\mathscr{K}_i$ phụ thuộc vào $f$) sao cho $f \in \mathscr{K}_n$ và, với $0 \leq i \leq n-1$, ta có $\mathscr{K}_{i+1} = \mathscr{K}_i(u_{i+1})$ trong đó $u_{i+1}$ bằng hoặc $e^{z_i}$ hoặc $\log |z_i|$, với $z_i$ thuộc $\mathscr{K}_i$ và không đồng nhất triệt tiêu trên một lân cận của $+\infty$. Ta nói rằng $u_1, u_2, \ldots, u_n$ tạo thành một *dãy định nghĩa* cho trường $\mathscr{K}_n$ và cho hàm $f$; dĩ nhiên cùng một hàm có thể chấp nhận nhiều dãy định nghĩa.
 
-Theo định nghĩa 1 của V, p. 247, mọi hàm $f \in \mathcal{K}$ không đồng nhất bằng không trên một lân cận của $+\infty$ đều có dấu không đổi và khả vi trên một khoảng $[x_0, +\infty[$; nếu $f \in \mathcal{K}_n$, thì $1/f$ và $f'$ trùng với các hàm trong $\mathcal{K}_n$, do đó với các hàm trong $\mathcal{K}$, trên một lân cận của $+\infty$. Để thấy rằng $\mathcal{K}$ là một trường Hardy, chỉ cần chứng minh rằng nếu $f$ và $g$ là hai hàm trong $\mathcal{K}$ thì $f - g$ và $fg$ trùng với các hàm trong $\mathcal{K}$ trên một lân cận của $+\infty$. Bây giờ giả sử $u_1, u_2, \ldots, u_m$ là một dãy định nghĩa của $f$, và $v_1, v_2, \ldots, v_n$ là một dãy định nghĩa của $g$. Dãy $u_1, u_2, \ldots, u_m, v_1, v_2, \ldots, v_n$ thu được bằng cách ghép các dãy $(u_i)$ và $(v_i)$ lại vẫn là một dãy định nghĩa của một trường Hardy $\mathcal{K}_{m+n}$, và trường này chứa $f$ và $g$, nên $f - g$ và $fg$ trùng với các hàm trong $\mathcal{K}_{m+n}$ trên một lân cận của $+\infty$.
+Theo định nghĩa 1 của V, p. 247, mọi hàm $f \in \mathscr{K}$ không đồng nhất bằng không trên một lân cận của $+\infty$ đều có dấu không đổi và khả vi trên một khoảng $[x_0, +\infty[$; nếu $f \in \mathscr{K}_n$, thì $1/f$ và $f'$ trùng với các hàm trong $\mathscr{K}_n$, do đó với các hàm trong $\mathscr{K}$, trên một lân cận của $+\infty$. Để thấy rằng $\mathscr{K}$ là một trường Hardy, chỉ cần chứng minh rằng nếu $f$ và $g$ là hai hàm trong $\mathscr{K}$ thì $f - g$ và $fg$ trùng với các hàm trong $\mathscr{K}$ trên một lân cận của $+\infty$. Bây giờ giả sử $u_1, u_2, \ldots, u_m$ là một dãy định nghĩa của $f$, và $v_1, v_2, \ldots, v_n$ là một dãy định nghĩa của $g$. Dãy $u_1, u_2, \ldots, u_m, v_1, v_2, \ldots, v_n$ thu được bằng cách ghép các dãy $(u_i)$ và $(v_i)$ lại vẫn là một dãy định nghĩa của một trường Hardy $\mathscr{K}_{m+n}$, và trường này chứa $f$ và $g$, nên $f - g$ và $fg$ trùng với các hàm trong $\mathscr{K}_{m+n}$ trên một lân cận của $+\infty$.
 
-Ta nói rằng trường Hardy $\mathcal{K}$ được định nghĩa trong chứng minh của mệnh đề 3 là *mở rộng* (H) của trường Hardy $\mathcal{K}_0$.
+Ta nói rằng trường Hardy $\mathscr{K}$ được định nghĩa trong chứng minh của mệnh đề 3 là *mở rộng* (H) của trường Hardy $\mathscr{K}_0$.
 
-Nếu $\mathcal{K}'$ là một trường Hardy khác có các tính chất được phát biểu trong mệnh đề 3, thì từ phép dựng của $\mathcal{K}$ suy ra rằng $\mathcal{K}/\mathbf{R}_\sim$ *được chứa* trong $\mathcal{K}'/\mathbf{R}_\sim$. Theo lối nói lạm dụng, ta nói rằng mở rộng (H) của trường Hardy $\mathcal{K}_0$ là trường Hardy $\mathcal{K}$ *nhỏ nhất* có các tính chất ấy.
+Nếu $\mathscr{K}'$ là một trường Hardy khác có các tính chất được phát biểu trong mệnh đề 3, thì từ phép dựng của $\mathscr{K}$ suy ra rằng $\mathscr{K}/\mathbf{R}_\sim$ *được chứa* trong $\mathscr{K}'/\mathbf{R}_\sim$. Theo lối nói lạm dụng, ta nói rằng mở rộng (H) của trường Hardy $\mathscr{K}_0$ là trường Hardy $\mathscr{K}$ *nhỏ nhất* có các tính chất ấy.
 
 #### Định nghĩa 2 {#fvr-v-a0-def-2 .statement}
 
@@ -273,31 +273,31 @@ $$
 
 (V, p. 263, bài tập 1 và p. 264, bài tập 5). Mặt khác, có thể định nghĩa các hàm tăng $g(x)$ (không còn là các hàm (H) nữa) sao cho $g(x) \gg e_n(x)$ với *mọi* $n > 0$, hoặc $1 \ll g(x) \ll l_m(x)$ với *mọi* $m > 0$ (V, p. 265, bài tập 8, 9 và 10).
 
-Với sự trợ giúp của các logaritm lặp, chúng ta sẽ chỉ ra rằng có thể định nghĩa một *thang so sánh* $\mathcal{E}$ (khi $x$ tiến tới $+\infty$) gồm các hàm (H), dương trên một lân cận của $+\infty$ và thỏa mãn các điều kiện sau:
+Với sự trợ giúp của các logaritm lặp, chúng ta sẽ chỉ ra rằng có thể định nghĩa một *thang so sánh* $\mathscr{E}$ (khi $x$ tiến tới $+\infty$) gồm các hàm (H), dương trên một lân cận của $+\infty$ và thỏa mãn các điều kiện sau:
 
-a) tích của hai hàm bất kỳ trong $\mathcal{E}$ thuộc về $\mathcal{E}$;
-b) $f^\mu \in \mathcal{E}$ với mọi hàm $f \in \mathcal{E}$ và mọi số thực $\mu$;
+a) tích của hai hàm bất kỳ trong $\mathscr{E}$ thuộc về $\mathscr{E}$;
+b) $f^\mu \in \mathscr{E}$ với mọi hàm $f \in \mathscr{E}$ và mọi số thực $\mu$;
 
-c) với mọi hàm $f \in \mathcal{E}$, $\log f$ là một tổ hợp tuyến tính của một số hữu hạn hàm trong $\mathcal{E}$;
-d) với mọi hàm $f \in \mathcal{E}$, trừ hằng 1, $e^f$ tương đương với một hàm trong $\mathcal{E}$.
+c) với mọi hàm $f \in \mathscr{E}$, $\log f$ là một tổ hợp tuyến tính của một số hữu hạn hàm trong $\mathscr{E}$;
+d) với mọi hàm $f \in \mathscr{E}$, trừ hằng 1, $e^f$ tương đương với một hàm trong $\mathscr{E}$.
 
-Trước hết ta xét tập hợp $\mathcal{E}_0$ gồm các hàm có dạng $\prod_{m=0}^{\infty} (l_m(x))^{\alpha_m}$, trong đó các $\alpha_m$ là các số thực, bằng không trừ ra với một số hữu hạn chỉ số $m$; từ (5) (V, p. 253) thấy ngay lập tức rằng các hàm này tạo thành một *thang so sánh* thỏa mãn các điều kiện $a), b)$ và c). Bây giờ ta định nghĩa, bằng phép dựng đệ quy theo $n$, tập hợp $\mathcal{E}_n$ (với $n \geqslant 1$) gồm hằng 1 và các hàm có dạng $\exp \left( \sum_{k=1}^p a_k f_k \right)$, trong đó $p$ là một số nguyên tùy ý $> 0$, các hàm $f_k$ ($1 \leqslant k \leqslant p$) là các hàm trong $\mathcal{E}_{n-1}$ sao cho $f_1 \gg f_2 \gg \cdots \gg f_p \gg 1$, và các $a_k$ là các số thực $\neq 0$; ta chứng minh bằng quy nạp rằng $\mathcal{E}_n$ là một *thang so sánh* thỏa mãn $a), b)$ và c) và chứa $\mathcal{E}_{n-1}$. Trước hết, quan hệ $\mathcal{E}_{n-1} \subset \mathcal{E}_n$ đúng với $n = 1$, vì lôgarit của mọi hàm không hằng trong $\mathcal{E}_0$ đều có dạng $\sum_{k=1}^p a_k f_k$, trong đó các $f_k$ là các lôgarit lặp, nên $\gg 1$; mặt khác, nếu $\mathcal{E}_{n-2} \subset \mathcal{E}_{n-1}$ thì từ định nghĩa của $\mathcal{E}_n$ suy ra $\mathcal{E}_{n-1} \subset \mathcal{E}_n$; hơn nữa định nghĩa này cho thấy $\mathcal{E}_n$ thỏa mãn $a), b)$ và c). Còn phải thấy rằng $\mathcal{E}_n$ là một thang so sánh: vì thương của hai hàm trong $\mathcal{E}_n$ lại thuộc $\mathcal{E}_n$ nên chỉ cần chứng minh rằng mọi hàm $f$ của $\mathcal{E}_n$, trừ hằng 1, không thể tương đương với một hằng $\neq 0$. Thật vậy, ta có $\log f = \sum_{k=1}^p a_k f_k \sim a_1 f_1$ theo phép dựng, và vì $f_1 \gg 1$, $\log f$ tiến tới $\pm \infty$, do đó $f$ tiến tới 0 hoặc tới $+\infty$ khi $x$ tiến tới $+\infty$.
+Trước hết ta xét tập hợp $\mathscr{E}_0$ gồm các hàm có dạng $\prod_{m=0}^{\infty} (l_m(x))^{\alpha_m}$, trong đó các $\alpha_m$ là các số thực, bằng không trừ ra với một số hữu hạn chỉ số $m$; từ (5) (V, p. 253) thấy ngay lập tức rằng các hàm này tạo thành một *thang so sánh* thỏa mãn các điều kiện $a), b)$ và c). Bây giờ ta định nghĩa, bằng phép dựng đệ quy theo $n$, tập hợp $\mathscr{E}_n$ (với $n \geqslant 1$) gồm hằng 1 và các hàm có dạng $\exp \left( \sum_{k=1}^p a_k f_k \right)$, trong đó $p$ là một số nguyên tùy ý $> 0$, các hàm $f_k$ ($1 \leqslant k \leqslant p$) là các hàm trong $\mathscr{E}_{n-1}$ sao cho $f_1 \gg f_2 \gg \cdots \gg f_p \gg 1$, và các $a_k$ là các số thực $\neq 0$; ta chứng minh bằng quy nạp rằng $\mathscr{E}_n$ là một *thang so sánh* thỏa mãn $a), b)$ và c) và chứa $\mathscr{E}_{n-1}$. Trước hết, quan hệ $\mathscr{E}_{n-1} \subset \mathscr{E}_n$ đúng với $n = 1$, vì lôgarit của mọi hàm không hằng trong $\mathscr{E}_0$ đều có dạng $\sum_{k=1}^p a_k f_k$, trong đó các $f_k$ là các lôgarit lặp, nên $\gg 1$; mặt khác, nếu $\mathscr{E}_{n-2} \subset \mathscr{E}_{n-1}$ thì từ định nghĩa của $\mathscr{E}_n$ suy ra $\mathscr{E}_{n-1} \subset \mathscr{E}_n$; hơn nữa định nghĩa này cho thấy $\mathscr{E}_n$ thỏa mãn $a), b)$ và c). Còn phải thấy rằng $\mathscr{E}_n$ là một thang so sánh: vì thương của hai hàm trong $\mathscr{E}_n$ lại thuộc $\mathscr{E}_n$ nên chỉ cần chứng minh rằng mọi hàm $f$ của $\mathscr{E}_n$, trừ hằng 1, không thể tương đương với một hằng $\neq 0$. Thật vậy, ta có $\log f = \sum_{k=1}^p a_k f_k \sim a_1 f_1$ theo phép dựng, và vì $f_1 \gg 1$, $\log f$ tiến tới $\pm \infty$, do đó $f$ tiến tới 0 hoặc tới $+\infty$ khi $x$ tiến tới $+\infty$.
 
-Do đó, nếu $\mathcal{E}$ là *hợp* của các $\mathcal{E}_n$ với $n \geqslant 0$, thì $\mathcal{E}$ là một thang so sánh, vì hai hàm trong $\mathcal{E}$ thuộc cùng một thang $\mathcal{E}_n$; vì cùng lý do ấy, $\mathcal{E}$ thỏa mãn a), và hiển nhiên nó cũng thỏa mãn b) và c). Sau cùng, nếu $f \in \mathcal{E}$ thì tồn tại một $n$ sao cho $f \in \mathcal{E}_n$; nếu $f$ không phải là hằng 1 thì $f(x)$ tiến tới 0 hoặc tới $+\infty$ khi $x$ tiến tới $+\infty$; trong trường hợp thứ nhất $e^f \sim 1$ và trong trường hợp thứ hai, $e^f$ thuộc $\mathcal{E}_{n+1}$ theo định nghĩa, nên cũng thuộc $\mathcal{E}$.
+Do đó, nếu $\mathscr{E}$ là *hợp* của các $\mathscr{E}_n$ với $n \geqslant 0$, thì $\mathscr{E}$ là một thang so sánh, vì hai hàm trong $\mathscr{E}$ thuộc cùng một thang $\mathscr{E}_n$; vì cùng lý do ấy, $\mathscr{E}$ thỏa mãn a), và hiển nhiên nó cũng thỏa mãn b) và c). Sau cùng, nếu $f \in \mathscr{E}$ thì tồn tại một $n$ sao cho $f \in \mathscr{E}_n$; nếu $f$ không phải là hằng 1 thì $f(x)$ tiến tới 0 hoặc tới $+\infty$ khi $x$ tiến tới $+\infty$; trong trường hợp thứ nhất $e^f \sim 1$ và trong trường hợp thứ hai, $e^f$ thuộc $\mathscr{E}_{n+1}$ theo định nghĩa, nên cũng thuộc $\mathscr{E}$.
 
 #### Nhận xét {#fvr-v-a0-n5-rem-1 .statement}
 
-Mặc dù thang $\mathcal{E}$ mà ta vừa định nghĩa có ích lợi thực tế, vẫn dễ cho các ví dụ về những hàm (H) *không có phần chính* đối với $\mathcal{E}$. Thật vậy, nếu $f$ là một hàm (H) sao cho $f \sim a g$, trong đó $a$ là một hằng $> 0$ và $g \in \mathcal{E}$, thì $\log f - \log g - \log a$ tiến tới 0 cùng với $1/x$, do đó $\log f$ thừa nhận, đối với $\mathcal{E}$, một khai triển tiệm cận mà *số dư tiến tới 0*, theo tính chất c). Bây giờ, nếu xét chẳng hạn hàm (H) $f(x) = e_2 \left( x + \frac{1}{x} \right)$ thì ta có $\log f(x) = \exp \left( x + \frac{1}{x} \right)$, nên các khai triển tiệm cận của $\log f$ đối với $\mathcal{E}$ có dạng
+Mặc dù thang $\mathscr{E}$ mà ta vừa định nghĩa có ích lợi thực tế, vẫn dễ cho các ví dụ về những hàm (H) *không có phần chính* đối với $\mathscr{E}$. Thật vậy, nếu $f$ là một hàm (H) sao cho $f \sim a g$, trong đó $a$ là một hằng $> 0$ và $g \in \mathscr{E}$, thì $\log f - \log g - \log a$ tiến tới 0 cùng với $1/x$, do đó $\log f$ thừa nhận, đối với $\mathscr{E}$, một khai triển tiệm cận mà *số dư tiến tới 0*, theo tính chất c). Bây giờ, nếu xét chẳng hạn hàm (H) $f(x) = e_2 \left( x + \frac{1}{x} \right)$ thì ta có $\log f(x) = \exp \left( x + \frac{1}{x} \right)$, nên các khai triển tiệm cận của $\log f$ đối với $\mathscr{E}$ có dạng
 
 $$
 \log f(x) = e^x + \frac{e^x}{x} + \frac{1}{2!} \frac{e^x}{x^2} + \cdots + \frac{1}{n!} \frac{e^x}{x^n} + o \left( \frac{e^x}{x^n} \right) \quad (n \text{ là một số nguyên } > 0).
 $$
 
-Hiển nhiên số dư trong khai triển này tương đương với $\frac{1}{(n+1)!} \frac{e^x}{x^{n+1}}$, nên không tiến tới 0. Do đó $f$ không có phần chính đối với $\mathcal{E}$.
+Hiển nhiên số dư trong khai triển này tương đương với $\frac{1}{(n+1)!} \frac{e^x}{x^{n+1}}$, nên không tiến tới 0. Do đó $f$ không có phần chính đối với $\mathscr{E}$.
 
 ### 6. HÀM NGHỊCH ĐẢO CỦA MỘT HÀM (H)
 
-Nếu $f$ là một hàm (H), thì $f$ đơn điệu và liên tục trên một khoảng $[x_0, +\infty[$, nên hàm nghịch đảo $\varphi$ của hạn chế của $f$ trên khoảng này là đơn điệu và liên tục trên một lân cận của điểm $a = \lim_{x \to +\infty} f(x)$; nhưng, nếu $a$ bằng $+\infty$ (resp. $-\infty$, hữu hạn), người ta có thể chỉ ra rằng $\varphi(y)$ (resp. $\varphi(-y)$, $\varphi \left( a + \frac{1}{y} \right)$ hoặc $\varphi \left( a - \frac{1}{y} \right)$) nói chung không bằng một hàm (H) trên một lân cận của $+\infty$. Tuy nhiên ta sẽ thấy rằng trong một số trường hợp quan trọng, có thể thu được một hàm (H) tương đương với $\varphi(y)$ (resp. $\varphi(-y)$, $\varphi \left( a + \frac{1}{y} \right)$, $\varphi \left( a - \frac{1}{y} \right)$) và đôi khi thậm chí cả một khai triển tiệm cận của hàm này đối với thang $\mathcal{E}$ được định nghĩa trong V, p. 254.
+Nếu $f$ là một hàm (H), thì $f$ đơn điệu và liên tục trên một khoảng $[x_0, +\infty[$, nên hàm nghịch đảo $\varphi$ của hạn chế của $f$ trên khoảng này là đơn điệu và liên tục trên một lân cận của điểm $a = \lim_{x \to +\infty} f(x)$; nhưng, nếu $a$ bằng $+\infty$ (resp. $-\infty$, hữu hạn), người ta có thể chỉ ra rằng $\varphi(y)$ (resp. $\varphi(-y)$, $\varphi \left( a + \frac{1}{y} \right)$ hoặc $\varphi \left( a - \frac{1}{y} \right)$) nói chung không bằng một hàm (H) trên một lân cận của $+\infty$. Tuy nhiên ta sẽ thấy rằng trong một số trường hợp quan trọng, có thể thu được một hàm (H) tương đương với $\varphi(y)$ (resp. $\varphi(-y)$, $\varphi \left( a + \frac{1}{y} \right)$, $\varphi \left( a - \frac{1}{y} \right)$) và đôi khi thậm chí cả một khai triển tiệm cận của hàm này đối với thang $\mathscr{E}$ được định nghĩa trong V, p. 254.
 
 Ta sẽ dùng mệnh đề sau:
 

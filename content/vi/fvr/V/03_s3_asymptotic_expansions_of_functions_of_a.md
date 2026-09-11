@@ -36,7 +36,7 @@ subsections:
       pdf_page: 250
 statements: 23
 exercises: 7
-content_sha256: 797d0e721d68521b094dfb448f87795c4a7241366734901168f5c15926f066ba
+content_sha256: 7a82a0c617a96170b0792db0b0131447d2d22a1ef10474f2d0c697328c7afac1
 translated_from: content/en/fvr/V/03_s3_asymptotic_expansions_of_functions_of_a.md
 source_content_sha256: 150915c37d01e0a3f1c4e9cb26407c194f7f04a0d2affb9ba17af4c93ab84bbf
 translation_model: gpt-5.4
@@ -274,7 +274,7 @@ $$
 $$
 điều này thiết lập quan hệ (2). Chứng minh là tương tự khi $f$ có cấp $-\infty$ đối với $x$, trong trường hợp $\int_a^{+\infty} f(t)\,dt$ hội tụ.
 
-Cho $\mathcal{E}$ là một thang so sánh (đối với $x$ thực tiến tới $+\infty$) được tạo thành từ các hàm thực khác không có dấu không đổi trên một lân cận của $+\infty$, sao cho $x \in \mathcal{E}$ và sao cho tích và thương của hai hàm trong $\mathcal{E}$ lại thuộc $\mathcal{E}$ (V, p. 221 và p. 224). Nếu một hàm điều hòa $f$ có dấu không đổi trên một lân cận của $+\infty$ có phần chính $c g$ đối với $\mathcal{E}$, thì $\int_x^{+\infty} f(t)\,dt$ (tương ứng $\int_a^x f(t)\,dt$ tùy theo trường hợp) sẽ tương đương với $c \int_x^{+\infty} g(t)\,dt$ (tương ứng $c \int_a^x g(t)\,dt$); nếu hàm $g$ thỏa mãn các giả thiết của mệnh đề 8 của V, p. 233, và nếu (khi công thức (2) của V, p. 233, áp dụng được) ta biết một phần chính của $g'$ đối với $\mathcal{E}$, thì do đó ta sẽ có một phần chính của $\int_x^{+\infty} f(t)\,dt$ (tương ứng $\int_a^x f(t)\,dt$) đối với $\mathcal{E}$.
+Cho $\mathscr{E}$ là một thang so sánh (đối với $x$ thực tiến tới $+\infty$) được tạo thành từ các hàm thực khác không có dấu không đổi trên một lân cận của $+\infty$, sao cho $x \in \mathscr{E}$ và sao cho tích và thương của hai hàm trong $\mathscr{E}$ lại thuộc $\mathscr{E}$ (V, p. 221 và p. 224). Nếu một hàm điều hòa $f$ có dấu không đổi trên một lân cận của $+\infty$ có phần chính $c g$ đối với $\mathscr{E}$, thì $\int_x^{+\infty} f(t)\,dt$ (tương ứng $\int_a^x f(t)\,dt$ tùy theo trường hợp) sẽ tương đương với $c \int_x^{+\infty} g(t)\,dt$ (tương ứng $c \int_a^x g(t)\,dt$); nếu hàm $g$ thỏa mãn các giả thiết của mệnh đề 8 của V, p. 233, và nếu (khi công thức (2) của V, p. 233, áp dụng được) ta biết một phần chính của $g'$ đối với $\mathscr{E}$, thì do đó ta sẽ có một phần chính của $\int_x^{+\infty} f(t)\,dt$ (tương ứng $\int_a^x f(t)\,dt$) đối với $\mathscr{E}$.
 
 #### Ví dụ 1 {#fvr-v-s3-n5-exa-1 .statement}
 
@@ -301,13 +301,13 @@ Nếu hàm $f_1(e^t)$ thỏa mãn các giả thiết của mệnh đề 8 và c�
 
 ### 6. KHAI TRIỂN TIỆM CẬN CỦA MỘT NGUYÊN HÀM
 
-Cho $\mathcal{E}$ là một thang so sánh trên một lân cận của $+\infty$ được tạo bởi các hàm thực $\neq 0$ có dấu không đổi trên một lân cận của $+\infty$; cho $\mathbf{f}$ là một hàm vectơ điều hòa được xác định trên một khoảng $[a,\,+\infty[$, nhận giá trị trong một không gian định chuẩn đầy đủ $E$, có khai triển tiệm cận
+Cho $\mathscr{E}$ là một thang so sánh trên một lân cận của $+\infty$ được tạo bởi các hàm thực $\neq 0$ có dấu không đổi trên một lân cận của $+\infty$; cho $\mathbf{f}$ là một hàm vectơ điều hòa được xác định trên một khoảng $[a,\,+\infty[$, nhận giá trị trong một không gian định chuẩn đầy đủ $E$, có khai triển tiệm cận
 
 $$
 \mathbf{f} = \sum_{\lambda \leq \alpha} \mathbf{a}_\lambda g_\lambda + \mathbf{r}_\alpha
 $$
 
-đến cấp chính xác $g_\alpha$ đối với $\mathcal{E}$. Giả sử thêm rằng mọi nguyên hàm $\int_a^x g(t)\,dt$ của một hàm $g \in \mathcal{E}$ đều có một khai triển tiệm cận đối với $\mathcal{E}$. Trong các điều kiện đó ta sẽ thấy rằng có thể thu được một khai triển tiệm cận của $F(x) = \int_a^x \mathbf{f}(t)\,dt$ đối với $\mathcal{E}$. Ta phân biệt hai trường hợp:
+đến cấp chính xác $g_\alpha$ đối với $\mathscr{E}$. Giả sử thêm rằng mọi nguyên hàm $\int_a^x g(t)\,dt$ của một hàm $g \in \mathscr{E}$ đều có một khai triển tiệm cận đối với $\mathscr{E}$. Trong các điều kiện đó ta sẽ thấy rằng có thể thu được một khai triển tiệm cận của $F(x) = \int_a^x \mathbf{f}(t)\,dt$ đối với $\mathscr{E}$. Ta phân biệt hai trường hợp:
 
 1. $\int_a^{+\infty} g_\alpha(t)\,dt$ là vô hạn; khi đó ta có $\int_a^x \mathbf{r}_\alpha(t)\,dt \ll \int_a^x g_\alpha(t)\,dt$ (V, p. 230, prop. 6); theo giả thiết ta có thể thu được một khai triển tiệm cận của $\sum_{\lambda \leq \alpha} \mathbf{a}_\lambda \int_a^x g_\lambda(t)\,dt$ với một độ chính xác nhất định $g_\rho$ (V, p. 222); nếu $c g_\sigma$ là phần chính của $\int_a^x g_\alpha(t)\,dt$ thì do đó ta sẽ có một khai triển tiệm cận của $\int_a^x \mathbf{f}(t)\,dt$ với độ chính xác $g_{\min(\rho,\sigma)}$, với tất cả các số hạng có các chuẩn tăng vô hạn.
 
@@ -331,7 +331,7 @@ $$
 
 đến cấp chính xác $g_\rho$, thì do đó ta sẽ có một khai triển tiệm cận của $F$ đến cấp chính xác $g_{\min(\rho, \sigma)}$.
 
-Vậy tất cả quy về việc tìm các khai triển tiệm cận đối với $\mathcal{E}$ của *các nguyên hàm của những hàm thuộc* $\mathcal{E}$. Ta đã thấy cách làm, với những giả thiết nhất định trên $\mathcal{E}$, mệnh đề 8 của V, p. 233 cho phần chính của một nguyên hàm như vậy. Hơn nữa, chứng minh của mệnh đề 8 cho biểu thức của hiệu giữa hai vế của công thức (1) (tương ứng (2)) của V, p. 233, dưới dạng một nguyên hàm của hàm $\frac{1}{|\mu + 1|} (x f'(x) + f(x)) - f(x)$ (tương ứng $f(x) g'(x)$ với $g = f/f'$); khi lập phần chính của nguyên hàm mới này, như một khai triển tiệm cận của vế phải của (1) (tương ứng (2)), ta thu được vế phải của khai triển cần tìm (xem V, p. 247-255).
+Vậy tất cả quy về việc tìm các khai triển tiệm cận đối với $\mathscr{E}$ của *các nguyên hàm của những hàm thuộc* $\mathscr{E}$. Ta đã thấy cách làm, với những giả thiết nhất định trên $\mathscr{E}$, mệnh đề 8 của V, p. 233 cho phần chính của một nguyên hàm như vậy. Hơn nữa, chứng minh của mệnh đề 8 cho biểu thức của hiệu giữa hai vế của công thức (1) (tương ứng (2)) của V, p. 233, dưới dạng một nguyên hàm của hàm $\frac{1}{|\mu + 1|} (x f'(x) + f(x)) - f(x)$ (tương ứng $f(x) g'(x)$ với $g = f/f'$); khi lập phần chính của nguyên hàm mới này, như một khai triển tiệm cận của vế phải của (1) (tương ứng (2)), ta thu được vế phải của khai triển cần tìm (xem V, p. 247-255).
 
 #### Ví dụ 1 {#fvr-v-s3-n6-exa-1 .statement}
 

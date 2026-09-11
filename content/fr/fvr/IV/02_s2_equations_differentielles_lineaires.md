@@ -49,7 +49,7 @@ subsections:
       pdf_page: 194
 statements: 25
 exercises: 10
-content_sha256: 2407fb6e831e9c2e5b232f1b07195f8e9c3f0f4ff62cc26909cfdb9adf101258
+content_sha256: 90e4f05ba6c63dc473e36f144b27c027efafb33e2eaaa37efb35815b471522fd
 ---
 
 ## § 2. ÉQUATIONS DIFFÉRENTIELLES LINÉAIRES
@@ -85,13 +85,13 @@ $$
 $$
 est une équation différentielle linéaire; $A(t)$ est ici l'application linéaire $\mathbf{x} \mapsto \mathbf{a}(t)\mathbf{x} + \mathbf{x}\mathbf{b}(t)$ de $G$ dans elle-même.
 
-Pour tout $t \in J$, $A(t)$ est un élément de l'ensemble $\mathcal{L}(E)$ des applications linéaires continues de $E$ dans lui-même (endomorphismes continus de $E$); on sait (TG, X, p. 24) que $\mathcal{L}(E)$, muni de la *norme* $\|U\| = \sup_{\|\mathbf{x}\|=1} \|U.\mathbf{x}\|$ est une *algèbre normée complète* sur le corps $\mathbf{R}$ et que l'on a $\|UV\| \leq \|U\| \cdot \|V\|$.
+Pour tout $t \in J$, $A(t)$ est un élément de l'ensemble $\mathscr{L}(E)$ des applications linéaires continues de $E$ dans lui-même (endomorphismes continus de $E$); on sait (TG, X, p. 24) que $\mathscr{L}(E)$, muni de la *norme* $\|U\| = \sup_{\|\mathbf{x}\|=1} \|U.\mathbf{x}\|$ est une *algèbre normée complète* sur le corps $\mathbf{R}$ et que l'on a $\|UV\| \leq \|U\| \cdot \|V\|$.
 
 Dans tout ce paragraphe, nous supposerons que les conditions suivantes sont satisfaites:
-a) *L'application* $t \mapsto A(t)$ *de J dans* $\mathcal{L}(E)$ *est réglée*.
+a) *L'application* $t \mapsto A(t)$ *de J dans* $\mathscr{L}(E)$ *est réglée*.
 b) *L'application* $t \mapsto \mathbf{b}(t)$ *de J dans* $E$ *est réglée*.
 
-Lorsque $E$ est de dimension $n$, $\mathcal{L}(E)$ est isomorphe à $\mathbf{R}^{n^2}$ (en tant qu'espace vectoriel topologique) et la condition a) signifie que chacun des éléments $a_{ij}(t)$ de la matrice $A(t)$ est une fonction *réglée* dans $J$.
+Lorsque $E$ est de dimension $n$, $\mathscr{L}(E)$ est isomorphe à $\mathbf{R}^{n^2}$ (en tant qu'espace vectoriel topologique) et la condition a) signifie que chacun des éléments $a_{ij}(t)$ de la matrice $A(t)$ est une fonction *réglée* dans $J$.
 
 Comme on a $\|A(t')\mathbf{x} - A(t)\mathbf{x}\| \leq \|A(t') - A(t)\| \cdot \|\mathbf{x}\|$, l'application
 $$
@@ -105,7 +105,7 @@ quels que soient $t \in J$, $\mathbf{x}_1$ et $\mathbf{x}_2$ dans $E$; en d'autr
 
 #### Théorème 1 {#fvr-iv-s2-thm-1 .statement}
 
-*Soient* $t \mapsto A(t)$ *une application réglée de J dans* $\mathcal{L}(E)$, $t \mapsto \mathbf{b}(t)$ *une application réglée de J dans* $E$. *Pour tout point* $(t_0, \mathbf{x}_0)$ *de* $J \times E$, *l'équation linéaire* (2) *admet une solution et une seule*, définie dans $J$ tout entier et égale à $\mathbf{x}_0$ *au point* $t_0$.
+*Soient* $t \mapsto A(t)$ *une application réglée de J dans* $\mathscr{L}(E)$, $t \mapsto \mathbf{b}(t)$ *une application réglée de J dans* $E$. *Pour tout point* $(t_0, \mathbf{x}_0)$ *de* $J \times E$, *l'équation linéaire* (2) *admet une solution et une seule*, définie dans $J$ tout entier et égale à $\mathbf{x}_0$ *au point* $t_0$.
 
 ### 2. Linéarité des intégrales d’une équation différentielle linéaire
 
@@ -119,7 +119,7 @@ est dite associée à l’équation non homogène (2); on sait alors (A, II, p. 
 
 #### Proposition 1 {#fvr-iv-s2-prop-1 .statement}
 
-L’ensemble $\mathscr{I}$ des intégrales de l’équation linéaire homogène (4), définies dans $J$, est un sous-espace vectoriel de l’espace $\mathcal{C}(J; E)$ des applications continues de $J$ dans $E$.
+L’ensemble $\mathscr{I}$ des intégrales de l’équation linéaire homogène (4), définies dans $J$, est un sous-espace vectoriel de l’espace $\mathscr{C}(J; E)$ des applications continues de $J$ dans $E$.
 
 La démonstration est immédiate.
 
@@ -129,7 +129,7 @@ Pour tout point $(t_0, \mathbf{x}_0)$ de $J \times E$, soit $\mathbf{u}(t, t_0, 
 
 1° Pour tout point $t \in J$, l’application $\mathbf{x}_0 \mapsto \mathbf{u}(t, t_0, \mathbf{x}_0)$ est une application linéaire bijective et bicontinue $C(t, t_0)$ de $E$ sur lui-même.
 
-2° L’application $t \mapsto C(t, t_0)$ de $J$ dans $\mathcal{L}(E)$ est identique à l’intégrale de l’équation différentielle linéaire homogène
+2° L’application $t \mapsto C(t, t_0)$ de $J$ dans $\mathscr{L}(E)$ est identique à l’intégrale de l’équation différentielle linéaire homogène
 
 $$
 \frac{dU}{dt} = A(t)U
@@ -145,7 +145,7 @@ $$
 
 D’après la prop. 1, $\mathbf{u}(t, t_0, \mathbf{x}_1) + \mathbf{u}(t, t_0, \mathbf{x}_2)$ (resp. $\lambda \mathbf{u}(t, t_0, \mathbf{x}_0)$) est une intégrale de (4) et prend au point $t_0$ la valeur $\mathbf{x}_1 + \mathbf{x}_2$ (resp. $\lambda \mathbf{x}_0$), donc, en vertu du th. 1 de IV, p. 17 elle est identique à $\mathbf{u}(t, t_0, \mathbf{x}_1 + \mathbf{x}_2)$ (resp. $\mathbf{u}(t, t_0, \lambda \mathbf{x}_0)$); l’application $\mathbf{x}_0 \mapsto \mathbf{u}(t, t_0, \mathbf{x}_0)$ est donc une application linéaire $C(t, t_0)$ de $E$ dans lui-même, et on peut écrire $\mathbf{u}(t, t_0, \mathbf{x}_0) = C(t, t_0) \cdot \mathbf{x}_0$.
 
-Comme l’application $(X, Y) \mapsto XY$ de $\mathcal{L}(E) \times \mathcal{L}(E)$ dans $\mathcal{L}(E)$ est continue (TG, X, p. 23, prop. 8), l’application $t \mapsto A(t)U$ de $J$ dans $\mathcal{L}(E)$ est réglée pour tout $U \in \mathcal{L}(E)$; on a en outre (TG, X, p. 21)
+Comme l’application $(X, Y) \mapsto XY$ de $\mathscr{L}(E) \times \mathscr{L}(E)$ dans $\mathscr{L}(E)$ est continue (TG, X, p. 23, prop. 8), l’application $t \mapsto A(t)U$ de $J$ dans $\mathscr{L}(E)$ est réglée pour tout $U \in \mathscr{L}(E)$; on a en outre (TG, X, p. 21)
 
 $$
 \|A(t)X - A(t)Y\| = \|A(t)(X - Y)\| \leq \|A(t)\|\cdot\|X - Y\|,
@@ -155,7 +155,7 @@ donc on peut appliquer à l’équation linéaire homogène (5) le th. 1 de IV, 
 $$
 \frac{d}{dt} (V(t) \cdot \mathbf{x}_0) = \frac{dV(t)}{dt} \cdot \mathbf{x}_0 = A(t) \cdot (V(t) \cdot \mathbf{x}_0)
 $$
-et pour $t = t_0$, $V(t_0) \cdot \mathbf{x}_0 = I \cdot \mathbf{x}_0 = \mathbf{x}_0$; d’après le th. 1 de IV, p. 17), on a nécessairement $V(t) \cdot \mathbf{x}_0 = C(t, t_0) \cdot \mathbf{x}_0$ pour tout $\mathbf{x}_0 \in E$, c’est-à-dire $V(t) = C(t, t_0)$; ceci démontre que $C(t, t_0)$ appartient à $\mathcal{L}(E)$, autrement dit, que $\mathbf{x}_0 \mapsto C(t, t_0) \cdot \mathbf{x}_0$ est continue dans $E$, et que l’application $t \mapsto C(t, t_0)$ est l’intégrale de (5) égale à $I$ au point $t_0$.
+et pour $t = t_0$, $V(t_0) \cdot \mathbf{x}_0 = I \cdot \mathbf{x}_0 = \mathbf{x}_0$; d’après le th. 1 de IV, p. 17), on a nécessairement $V(t) \cdot \mathbf{x}_0 = C(t, t_0) \cdot \mathbf{x}_0$ pour tout $\mathbf{x}_0 \in E$, c’est-à-dire $V(t) = C(t, t_0)$; ceci démontre que $C(t, t_0)$ appartient à $\mathscr{L}(E)$, autrement dit, que $\mathbf{x}_0 \mapsto C(t, t_0) \cdot \mathbf{x}_0$ est continue dans $E$, et que l’application $t \mapsto C(t, t_0)$ est l’intégrale de (5) égale à $I$ au point $t_0$.
 
 Enfin, l’intégrale $s \mapsto C(s, u) \cdot \mathbf{x}_0$ de (4) est égale à $C(t, u) \cdot \mathbf{x}_0$ au point $t$, donc on a, par définition
 $$
@@ -177,9 +177,9 @@ il est évident que son application réciproque est aussi continue.
 
 #### Corollaire 2 {#fvr-iv-s2-thm-2-cor-2 .statement}
 
-L’application $(s, t) \mapsto C(s, t)$ de $J \times J$ dans $\mathcal{L}(E)$ est continue.
+L’application $(s, t) \mapsto C(s, t)$ de $J \times J$ dans $\mathscr{L}(E)$ est continue.
 
-En effet, on a, d’après (6), $C(s, t) = C(s, t_0)(C(t, t_0))^{-1}$; or, l’application $(X, Y) \mapsto XY$ de $\mathcal{L}(E) \times \mathcal{L}(E)$ dans $\mathcal{L}(E)$ est continue, et il en est de même de l’application $X \mapsto X^{-1}$ du groupe (ouvert) des éléments inversibles de $\mathcal{L}(E)$ sur lui-même (TG, IX, p. 40, prop. 14).
+En effet, on a, d’après (6), $C(s, t) = C(s, t_0)(C(t, t_0))^{-1}$; or, l’application $(X, Y) \mapsto XY$ de $\mathscr{L}(E) \times \mathscr{L}(E)$ dans $\mathscr{L}(E)$ est continue, et il en est de même de l’application $X \mapsto X^{-1}$ du groupe (ouvert) des éléments inversibles de $\mathscr{L}(E)$ sur lui-même (TG, IX, p. 40, prop. 14).
 
 On notera que l’application
 $$
@@ -199,7 +199,7 @@ En effet, on a $\|A(t)x_0\| \leq k\|x_0\|$ pour tout $t \in K$; dans $K$, la fon
 $$
 \|C(t, t_0)x_0 - x_0\| \leq \|x_0\|\ (e^{k|t-t_0|} - 1)
 $$
-quels que soient $t$ et $t_0$ dans $K$, et $x_0$ dans $E$, ce qui équivaut à l’inégalité (7) d’après la définition de la norme dans $\mathcal{L}(E)$.
+quels que soient $t$ et $t_0$ dans $K$, et $x_0$ dans $E$, ce qui équivaut à l’inégalité (7) d’après la définition de la norme dans $\mathscr{L}(E)$.
 
 #### Proposition 2 {#fvr-iv-s2-prop-2 .statement}
 
@@ -231,7 +231,7 @@ comme l’application bilinéaire
 $$
 (U, y) \mapsto U.y
 $$
-de $\mathcal{L}(E) \times E$ dans $E$ est continue (TG, X, p. 23, prop. 6), $z$ admet une dérivée (sauf en un ensemble dénombrable de points de $J$) et on a, par la formule de dérivation d’une fonction bilinéaire (I, p. 5, prop. 3)
+de $\mathscr{L}(E) \times E$ dans $E$ est continue (TG, X, p. 23, prop. 6), $z$ admet une dérivée (sauf en un ensemble dénombrable de points de $J$) et on a, par la formule de dérivation d’une fonction bilinéaire (I, p. 5, prop. 3)
 
 $$
 \frac{d}{dt} (C(t, t_0) \cdot \mathbf{z}) = \frac{dC(t, t_0)}{dt} \cdot \mathbf{z} + C(t, t_0) \cdot \frac{d\mathbf{z}}{dt} = A(t)C(t, t_0) \cdot \mathbf{z} + C(t, t_0) \cdot \frac{d\mathbf{z}}{dt}
@@ -301,7 +301,7 @@ $(a(t)$ et $b(t)$ fonctions complexes réglées dans J); on vérifie aussitôt q
 u(t) = x_0 \exp \left( \int_{t_0}^t a(s) \, ds \right) + \int_{t_0}^t b(s) \exp \left( \int_{t_0}^s a(\tau) \, d\tau \right) ds.
 $$
 
-Dans l’espace $\mathcal{C}(J; E)$ des applications continues de J dans E, muni de la topologie de la convergence compacte, l’ensemble $\mathscr{I}$ des intégrales de l’équation (4) est un sous-espace vectoriel (sur $\mathbf{C}$) *isomorphe* à E, donc à $\mathbf{C}^n$ (IV, p. 19, cor. 1, et IV, p. 20, prop. 2). On appelle *système fondamental* d’intégrales de (4) une *base* $(\mathbf{u}_i)_{1 \leq j \leq n}$ de cet espace (sur le corps $\mathbf{C}$).
+Dans l’espace $\mathscr{C}(J; E)$ des applications continues de J dans E, muni de la topologie de la convergence compacte, l’ensemble $\mathscr{I}$ des intégrales de l’équation (4) est un sous-espace vectoriel (sur $\mathbf{C}$) *isomorphe* à E, donc à $\mathbf{C}^n$ (IV, p. 19, cor. 1, et IV, p. 20, prop. 2). On appelle *système fondamental* d’intégrales de (4) une *base* $(\mathbf{u}_i)_{1 \leq j \leq n}$ de cet espace (sur le corps $\mathbf{C}$).
 
 #### Proposition 4 {#fvr-iv-s2-prop-4 .statement}
 
@@ -391,7 +391,7 @@ Considérons en particulier le cas où $A(t)$ est un endomorphisme d'un espace v
 
 L'espace $E$ étant toujours supposé être de dimension *finie* $n$ sur le corps $\mathbf{C}$, soit $E^*$ son *dual* (A, II, p. 40), qui est un espace de dimension $n$ sur $\mathbf{C}$ (A, II, p. 102, th. 4) ; la forme bilinéaire canonique $\langle x, x^* \rangle$ définie dans $E \times E^*$ (A, II, p. 41) est *continue* dans ce produit (étant un polynôme par rapport aux composantes de $x \in E$ et de $x^* \in E^*$).
 
-Étant donnée une équation linéaire homogène (4) (IV, p. 22), où $t \mapsto A(t)$ est une application réglée de $J$ dans $\mathcal{L}(E)$, cherchons s'il existe une application $t \mapsto v(t)$ de $J$ dans $E^*$, primitive d'une fonction réglée dans $J$, et telle que la fonction numérique $t \mapsto \langle u(t), v(t) \rangle$ soit *constante* dans $J$ lorsque $u$ est une solution quelconque de (4) ; il revient au même d'écrire que la dérivée de cette fonction doit être nulle en tout point où $u$ et $v$ sont dérivables, c'est-à-dire qu'on doit avoir en ces points
+Étant donnée une équation linéaire homogène (4) (IV, p. 22), où $t \mapsto A(t)$ est une application réglée de $J$ dans $\mathscr{L}(E)$, cherchons s'il existe une application $t \mapsto v(t)$ de $J$ dans $E^*$, primitive d'une fonction réglée dans $J$, et telle que la fonction numérique $t \mapsto \langle u(t), v(t) \rangle$ soit *constante* dans $J$ lorsque $u$ est une solution quelconque de (4) ; il revient au même d'écrire que la dérivée de cette fonction doit être nulle en tout point où $u$ et $v$ sont dérivables, c'est-à-dire qu'on doit avoir en ces points
 
 $$
 \left\langle \frac{du}{dt}, v(t) \right\rangle + \left\langle u(t), \frac{dv}{dt} \right\rangle = 0.
@@ -499,19 +499,19 @@ La notation exponentielle ainsi introduite et justifiée par les propriétés su
 
 #### Proposition 7 {#fvr-iv-s2-prop-7 .statement}
 
-1° L’application $X \mapsto e^X$ est une application continue de $\mathcal{L}(E)$ dans le groupe des automorphismes de $E$ (éléments inversibles de $\mathcal{L}(E)$).
+1° L’application $X \mapsto e^X$ est une application continue de $\mathscr{L}(E)$ dans le groupe des automorphismes de $E$ (éléments inversibles de $\mathscr{L}(E)$).
 
-2° L’application $t \mapsto e^{xt}$ de $\mathbf{R}$ dans $\mathcal{L}(E)$ est dérivable et on a
+2° L’application $t \mapsto e^{xt}$ de $\mathbf{R}$ dans $\mathscr{L}(E)$ est dérivable et on a
 
 $$
 \frac{d}{dt}\left(e^{xt}\right) = X\,e^{xt} = e^{xt}X.
 $$
 
-3° Quel que soit $X \in \mathcal{L}(\mathbf{E})$, on a
+3° Quel que soit $X \in \mathscr{L}(\mathbf{E})$, on a
 $$
 e^X = \sum_{n=0}^\infty \frac{X^n}{n!}
 $$
-la série du second membre étant absolument et uniformément convergente dans toute partie bornée de $\mathcal{L}(\mathbf{E})$; en particulier, $e^{it} = e^t I$ pour $t \in \mathbf{R}$.
+la série du second membre étant absolument et uniformément convergente dans toute partie bornée de $\mathscr{L}(\mathbf{E})$; en particulier, $e^{it} = e^t I$ pour $t \in \mathbf{R}$.
 
 4° Si $X$ et $Y$ sont permutables, $Y$ et $e^X$ sont tous deux permutables avec $e^X$, et on a
 $$
@@ -532,12 +532,12 @@ D’autre part, le cor. 3 de IV, p. 19, montre que $\|e^{xt}\| \leq \exp (\|X\| 
 $$
 \|r_n(X)\| \leq \frac{\|X\|^{n+1}}{(n+1)!} e^{\|X\|}
 $$
-d’où on déduit la formule (25), la série du second membre étant absolument et uniformément convergente dans toute partie bornée de $\mathcal{L}(\mathbf{E})$. Pour tout couple d’éléments $X, T$ de $\mathcal{L}(\mathbf{E})$, on a donc
+d’où on déduit la formule (25), la série du second membre étant absolument et uniformément convergente dans toute partie bornée de $\mathscr{L}(\mathbf{E})$. Pour tout couple d’éléments $X, T$ de $\mathscr{L}(\mathbf{E})$, on a donc
 $$
 e^{X+T} - e^X = \sum_{n=1}^\infty \frac{1}{n!} ((X+T)^n - X^n).
 $$
 
-Or, on peut écrire $(X+T)^n - X^n = \sum_{(V_i)} V_1 V_2 \ldots V_n$, la somme étant étendue aux $2^n - 1$ suites $(V_i)$ d’éléments de $\mathcal{L}(\mathbf{E})$ telles que $V_i = X$ ou $V_i = T$ pour $1 \leq i \leq n$, un au moins des $V_i$ étant égal à $T$; on en conclut aussitôt l’inégalité
+Or, on peut écrire $(X+T)^n - X^n = \sum_{(V_i)} V_1 V_2 \ldots V_n$, la somme étant étendue aux $2^n - 1$ suites $(V_i)$ d’éléments de $\mathscr{L}(\mathbf{E})$ telles que $V_i = X$ ou $V_i = T$ pour $1 \leq i \leq n$, un au moins des $V_i$ étant égal à $T$; on en conclut aussitôt l’inégalité
 $$
 \|(X+T)^n - X^n\| \leq (\|X\| + \|T\|)^n - \|X\|^n,
 $$
@@ -641,7 +641,7 @@ Pour que $p$ intégrales $u_j$ ($1 \leq j \leq p$) de l’équation homogène
 D^n x - a_1(t)D^{n-1}x - \cdots - a_{n-1}(t)Dx - a_n(t)x = 0
 $$
 
-associée à (33), soient linéairement indépendantes (dans l’espace $\mathcal{C}(J, \mathbf{C})$ des applications continues de $J$ dans $\mathbf{C}$, considéré comme espace vectoriel sur $\mathbf{C}$), il faut et il suffit que les $p$ intégrales correspondantes $\mathbf{u}_j = (u_j, Du_j, \ldots, D^{n-1}u_j)$ de l’équation homogène $dx/dt = A(t).\mathbf{x}$ soient linéairement indépendantes (dans l’espace $\mathcal{C}(J; \mathbf{C}^n)$ des applications continues de $J$ dans $\mathbf{C}^n$). Il est évident en effet que la condition est nécessaire. Inversement, s’il existe $n$ constantes complexes $\lambda_j$ non toutes nulles telles qu’on ait identiquement $\sum_{j=1}^n \lambda_j u_j(t) = 0$ dans $J$, on en déduit $\sum_{j=1}^n \lambda_j D^k u_j(t) = 0$ dans $J$ pour tout entier $k$ tel que $1 \leq k \leq n-1$, ce qui signifie que l’on a $\sum_{j=1}^n \lambda_j \mathbf{u}_j(t) = 0$ dans $J$.
+associée à (33), soient linéairement indépendantes (dans l’espace $\mathscr{C}(J, \mathbf{C})$ des applications continues de $J$ dans $\mathbf{C}$, considéré comme espace vectoriel sur $\mathbf{C}$), il faut et il suffit que les $p$ intégrales correspondantes $\mathbf{u}_j = (u_j, Du_j, \ldots, D^{n-1}u_j)$ de l’équation homogène $dx/dt = A(t).\mathbf{x}$ soient linéairement indépendantes (dans l’espace $\mathscr{C}(J; \mathbf{C}^n)$ des applications continues de $J$ dans $\mathbf{C}^n$). Il est évident en effet que la condition est nécessaire. Inversement, s’il existe $n$ constantes complexes $\lambda_j$ non toutes nulles telles qu’on ait identiquement $\sum_{j=1}^n \lambda_j u_j(t) = 0$ dans $J$, on en déduit $\sum_{j=1}^n \lambda_j D^k u_j(t) = 0$ dans $J$ pour tout entier $k$ tel que $1 \leq k \leq n-1$, ce qui signifie que l’on a $\sum_{j=1}^n \lambda_j \mathbf{u}_j(t) = 0$ dans $J$.
 
 Par suite (IV, p. 19, cor. 1):
 
@@ -712,7 +712,7 @@ où $p_{jk}$ est un polynôme (à coefficients complexes) de degré $\leq n_j - 
 
 *Soient $r_j$ ($1 \leq j \leq q$) les racines distinctes de l’équation caractéristique (40), et soit $n_j$ l’ordre de multiplicité de la racine $r_j$ ($1 \leq j \leq q$). Les $n$ fonctions $t^{k} e^{r_j t}$ ($1 \leq k \leq n_j, 1 \leq j \leq q$) sont des intégrales linéairement indépendantes de l’équation homogène (41).*
 
-On peut démontrer ce résultat directement de la façon suivante. Il résulte de l’équation (41) que la dérivée $n$-ème de toute intégrale de cette équation est dérivable dans $\mathbf{R}$, d’où on déduit aussitôt, par récurrence sur l’entier $m > n$, que toute intégrale de (41) admet une dérivée d’ordre $m$, autrement dit, est *indéfiniment dérivable* dans $\mathbf{R}$. Soit $\mathcal{D}$ l’espace vectoriel sur $\mathbf{C}$ (non topologique) des fonctions complexes indéfiniment dérivables dans $\mathbf{R}$; l’application $x \mapsto \mathrm{D} x$ est un endomorphisme de cet espace, et l’équation (41) peut s’écrire
+On peut démontrer ce résultat directement de la façon suivante. Il résulte de l’équation (41) que la dérivée $n$-ème de toute intégrale de cette équation est dérivable dans $\mathbf{R}$, d’où on déduit aussitôt, par récurrence sur l’entier $m > n$, que toute intégrale de (41) admet une dérivée d’ordre $m$, autrement dit, est *indéfiniment dérivable* dans $\mathbf{R}$. Soit $\mathscr{D}$ l’espace vectoriel sur $\mathbf{C}$ (non topologique) des fonctions complexes indéfiniment dérivables dans $\mathbf{R}$; l’application $x \mapsto \mathrm{D} x$ est un endomorphisme de cet espace, et l’équation (41) peut s’écrire
 $$
 f(\mathrm{D}) x = 0
 $$

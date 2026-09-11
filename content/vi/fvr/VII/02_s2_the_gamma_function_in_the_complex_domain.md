@@ -24,9 +24,9 @@ subsections:
       pdf_page: 334
 statements: 6
 exercises: 6
-content_sha256: c2e7474c730c49e2bc9cac1c5791fd0c5afb7cf4b6bc532c3b63cfc2dc0901b1
+content_sha256: 47cb39dc3f1846abaa3dcefc2a04230556208a8c11617a6f95f85653b783c315
 translated_from: content/en/fvr/VII/02_s2_the_gamma_function_in_the_complex_domain.md
-source_content_sha256: 437d88fbb7bfdd1173fb6523af39fd95358bf570c84e41c9bc95be7e8f1e262e
+source_content_sha256: c140260390c34f80ae37eab1c3dc10a97230a90dffb6d1d544762f7f3add163c
 translation_model: gpt-5.4
 translation_run: translate-vi-f1288f74
 glossary_version: 34
@@ -308,7 +308,7 @@ g(x) = x \log x - x - \frac{1}{2} \log x + \sum_{k=1}^p \frac{b_{2k}}{2k(2k-1)} 
 $$
 (17)
 
-Bây giờ chúng ta sẽ đánh giá một chặn của $R_p(x,\ y)$ với sự trợ giúp của (16), giả sử rằng $x$ và $y$ đều thuộc tập con $\mathbf{H}_A$ của $\mathbf{C}$ được xác định bởi quan hệ "$\mathcal{R}(z) \geq A$ or $|\mathcal{I}(z)| \geq A$", trong đó $A$ là một số tùy ý $> 0$ (hình 2). Để làm điều đó, ta nhận xét rằng nếu $x = s + it$ với $s > A$ thì ta có $|x+u| \geq A+u$ với mọi $u > 0$, và do đó
+Bây giờ chúng ta sẽ đánh giá một chặn của $R_p(x,\ y)$ với sự trợ giúp của (16), giả sử rằng $x$ và $y$ đều thuộc tập con $\mathbf{H}_A$ của $\mathbf{C}$ được xác định bởi quan hệ "$\mathscr{R}(z) \geq A$ or $|\mathscr{I}(z)| \geq A$", trong đó $A$ là một số tùy ý $> 0$ (hình 2). Để làm điều đó, ta nhận xét rằng nếu $x = s + it$ với $s > A$ thì ta có $|x+u| \geq A+u$ với mọi $u > 0$, và do đó
 $$
 \int_0^{n+1} \frac{du}{|x+u|^{2p+1}} \leq \int_0^\infty \frac{du}{(A+u)^{2p+1}} = \frac{1}{2pA^{2p}}.
 $$
@@ -323,7 +323,7 @@ $$
 
 ![Biểu đồ mặt phức cho thấy các trục được ghi nhãn t, s, và các miền H_A, A, -A, 0](Fig. 2)
 
-trong đó C_p chỉ phụ thuộc vào p. Bây giờ cho $\mathfrak{F}$ là bộ lọc có các tập hợp H_A làm cơ sở; tiêu chuẩn Cauchy cho thấy rằng, theo bộ lọc $\mathfrak{F}$, hàm $\log \Gamma(z) - g(z)$ có một giới hạn hữu hạn $\delta$ (theo modulo $2\pi i$) và rằng, nếu đặt $\omega(z) = \max(\mathcal{R}(z), |\mathcal{I}(z)|)$, thì ta có
+trong đó C_p chỉ phụ thuộc vào p. Bây giờ cho $\mathfrak{F}$ là bộ lọc có các tập hợp H_A làm cơ sở; tiêu chuẩn Cauchy cho thấy rằng, theo bộ lọc $\mathfrak{F}$, hàm $\log \Gamma(z) - g(z)$ có một giới hạn hữu hạn $\delta$ (theo modulo $2\pi i$) và rằng, nếu đặt $\omega(z) = \max(\mathscr{R}(z), |\mathscr{I}(z)|)$, thì ta có
 
 $$
 \log \Gamma(z) - g(z) - \delta \equiv O \left( \frac{1}{(\omega(z))^{2p}} \right) \quad (\text{mod. } 2\pi i).

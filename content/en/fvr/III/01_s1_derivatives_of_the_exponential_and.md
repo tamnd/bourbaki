@@ -49,7 +49,7 @@ subsections:
       pdf_page: 117
 statements: 9
 exercises: 39
-content_sha256: 2478d73e7dea6ae86c44de479cf637d4b4394218fc6dbee2396f8f6140182119
+content_sha256: 48d4a4374acf58428afbb78f3e9c41e6dac3708ffdd9a6f0048e5d86f02a3b2c
 ---
 
 ## § 1. DERIVATIVES OF THE EXPONENTIAL AND CIRCULAR FUNCTIONS
@@ -182,7 +182,7 @@ $$
 
 ### 3. DERIVATIVES OF THE CIRCULAR FUNCTIONS; THE NUMBER $\pi$
 
-We have defined, in General Topology (*Gen. Top.*, VIII, p. 106), the continuous homomorphism $x \mapsto \mathbf{e}(x)$ of the additive group $\mathbf{R}$ onto the multiplicative group $\mathbf{U}$ of complex numbers of absolute value 1; this is a periodic function with principal period 1, and $\mathbf{e}\left(\frac{1}{4}\right) = i$. One knows (*loc. cit.*) that every continuous homomorphism of $\mathbf{R}$ onto $\mathbf{U}$ is of the form $x \mapsto \mathbf{e}(x/a)$, and one puts $\cos_a x = \mathcal{R}(\mathbf{e}(x/a)), \sin_a x = \mathcal{I}(\mathbf{e}(x/a))$ (*trigonometric functions*, or *circular functions*, to base $a$); these last functions are continuous maps from $\mathbf{R}$ into $[-1, +1]$ having principal period $a$. We have $\sin_a(x + a/4) = \cos_a x, \quad \cos_a(x + a/4) = -\sin_a x$, and the function $\sin_a x$ is increasing on the interval $[-a/4, a/4]$.
+We have defined, in General Topology (*Gen. Top.*, VIII, p. 106), the continuous homomorphism $x \mapsto \mathbf{e}(x)$ of the additive group $\mathbf{R}$ onto the multiplicative group $\mathbf{U}$ of complex numbers of absolute value 1; this is a periodic function with principal period 1, and $\mathbf{e}\left(\frac{1}{4}\right) = i$. One knows (*loc. cit.*) that every continuous homomorphism of $\mathbf{R}$ onto $\mathbf{U}$ is of the form $x \mapsto \mathbf{e}(x/a)$, and one puts $\cos_a x = \mathscr{R}(\mathbf{e}(x/a)), \sin_a x = \mathscr{I}(\mathbf{e}(x/a))$ (*trigonometric functions*, or *circular functions*, to base $a$); these last functions are continuous maps from $\mathbf{R}$ into $[-1, +1]$ having principal period $a$. We have $\sin_a(x + a/4) = \cos_a x, \quad \cos_a(x + a/4) = -\sin_a x$, and the function $\sin_a x$ is increasing on the interval $[-a/4, a/4]$.
 
 #### Proposition 3 {#fvr-iii-s1-prop-3 .statement}
 
@@ -368,10 +368,10 @@ $$
 $$
 This formula allows us to calculate a primitive for each of the functions $e^{\alpha x} \cos \beta x$, $e^{\alpha x} \sin \beta x$ ($\alpha$ and $\beta$ real); indeed we have $e^{(\alpha + i \beta)x} = e^{\alpha x} \cos \beta x + i e^{\alpha x} \sin \beta x$, so, by (28)
 $$
-\mathrm{D}\left( \mathcal{R}\left( \frac{1}{\alpha + i \beta}\, e^{(\alpha + i \beta)x} \right) \right) = e^{\alpha x} \cos \beta x
+\mathrm{D}\left( \mathscr{R}\left( \frac{1}{\alpha + i \beta}\, e^{(\alpha + i \beta)x} \right) \right) = e^{\alpha x} \cos \beta x
 $$
 $$
-\mathrm{D}\left( \mathcal{I}\left( \frac{1}{\alpha + i \beta}\, e^{(\alpha + i \beta)x} \right) \right) = e^{\alpha x} \sin \beta x.
+\mathrm{D}\left( \mathscr{I}\left( \frac{1}{\alpha + i \beta}\, e^{(\alpha + i \beta)x} \right) \right) = e^{\alpha x} \sin \beta x.
 $$
 In the same way one reduces the evaluation of a primitive of $x^n e^{\alpha x} \cos \beta x$, or of $x^n e^{\alpha x} \sin \beta x$ (*n* *an integer* $> 0$) to that of a primitive of $x^n e^{(\alpha + i \beta)x}$; now, the formula for integration by parts of order $n + 1$ (II, p. 60, formula (11)) shows that a primitive of this last function is
 $$
@@ -404,7 +404,7 @@ $$ (29)
 
 ### 7. THE COMPLEX LOGARITHM
 
-Let B be the "strip" formed by the points $z = x + i y$ such that $-\pi \leq y < \pi$; the function $e^z$ takes each of its values once and only once on B; in other words, $z \mapsto e^z$ is a bijective continuous map of B onto $\mathbf{C}^*$; the image under this map of the (half-open) segment $x = x_0,\ -\pi \leq y < \pi$ is the circle $|z| = e^{x_0}$; the image of the line $y = y_0$ is the (open) half-line defined by $\mathrm{Am}(z) = y_0$ (mod. $2\pi$). The image under $z \mapsto e^z$ of the interior $\dot{B}$ of B, that is, of the set of $z \in \mathbf{C}$ such that $|\mathcal{I}(z)| < \pi$, is the complement F of the (closed) negative real half-axis in $\mathbf{C}$; if one agrees to denote by $\mathrm{Am}(z)$ the measure of the amplitude of $z$ which belongs to $[-\pi, \pi[$, then the set F can be defined by the relations $-\pi < \mathrm{Am}(z) < \pi$. Since $z \mapsto e^z$ is a strict homomorphism of $\mathbf{C}$ onto $\mathbf{C}^*$ the image under this map of any open subset of B (so of $\mathbf{C}$) is an open set in $\mathbf{C}^*$ (so in F); in other words, the restriction of $z \mapsto e^z$ to B is a homeomorphism of $\dot{B}$ onto F. We denote by $z \mapsto \log z$ the homeomorphism of F onto B which is the inverse of the latter; for a complex number $z \in F$, $\log z$ is called the principal value of the logarithm of $z$. If $z = x + i y$ and $\log z = u + i v$ then $x + i y = e^{u+i v}$, whence $e^u = |z|$, and since $-\pi < v < \pi$, we have $v = \mathrm{Am}(z)$. Moreover, we have $\tan(v + \pi/2) = -x/y$ if $y \neq 0$; thus we can write
+Let B be the "strip" formed by the points $z = x + i y$ such that $-\pi \leq y < \pi$; the function $e^z$ takes each of its values once and only once on B; in other words, $z \mapsto e^z$ is a bijective continuous map of B onto $\mathbf{C}^*$; the image under this map of the (half-open) segment $x = x_0,\ -\pi \leq y < \pi$ is the circle $|z| = e^{x_0}$; the image of the line $y = y_0$ is the (open) half-line defined by $\mathrm{Am}(z) = y_0$ (mod. $2\pi$). The image under $z \mapsto e^z$ of the interior $\dot{B}$ of B, that is, of the set of $z \in \mathbf{C}$ such that $|\mathscr{I}(z)| < \pi$, is the complement F of the (closed) negative real half-axis in $\mathbf{C}$; if one agrees to denote by $\mathrm{Am}(z)$ the measure of the amplitude of $z$ which belongs to $[-\pi, \pi[$, then the set F can be defined by the relations $-\pi < \mathrm{Am}(z) < \pi$. Since $z \mapsto e^z$ is a strict homomorphism of $\mathbf{C}$ onto $\mathbf{C}^*$ the image under this map of any open subset of B (so of $\mathbf{C}$) is an open set in $\mathbf{C}^*$ (so in F); in other words, the restriction of $z \mapsto e^z$ to B is a homeomorphism of $\dot{B}$ onto F. We denote by $z \mapsto \log z$ the homeomorphism of F onto B which is the inverse of the latter; for a complex number $z \in F$, $\log z$ is called the principal value of the logarithm of $z$. If $z = x + i y$ and $\log z = u + i v$ then $x + i y = e^{u+i v}$, whence $e^u = |z|$, and since $-\pi < v < \pi$, we have $v = \mathrm{Am}(z)$. Moreover, we have $\tan(v + \pi/2) = -x/y$ if $y \neq 0$; thus we can write
 
 $$
 \begin{cases}

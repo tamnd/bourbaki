@@ -36,9 +36,9 @@ subsections:
       pdf_page: 77
 statements: 28
 exercises: 10
-content_sha256: 4202119dd1551af6747cee9f733ef6b1c2e895cb0c930eb22978efb53183ea6a
+content_sha256: edb655c9006c0124a4230eb30ad602737854b385d0692215bda77dbbd936bade
 translated_from: content/en/fvr/II/01_s1_primitives_and_integrals.md
-source_content_sha256: ff30f9508044e05296fa35eac9891d983060ac6f9e5e128e409343cc51396165
+source_content_sha256: ce676b7be24a9e9f40e9596ed447132bffd5c794bd4a52cc88d3027b8f4b73a5
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-e581a0ef
 glossary_version: 34
@@ -115,13 +115,13 @@ với $y \in I$ và $|y - x| \leq h$, điều này hoàn tất chứng minh.
 
 #### Hệ quả 1 {#fvr-ii-s1-thm-1-cor-1 .statement}
 
-*Tập hợp $\mathcal{H}$ các ánh xạ từ I vào E thừa nhận một nguyên thủy trên khoảng I là một không gian con vectơ đóng (và do đó đầy đủ) của không gian vectơ đầy đủ $\mathcal{F}_c(I; E)$ gồm các ánh xạ từ I vào E, được trang bị tôpô hội tụ đều trên mọi tập con compắc của I* (*Gen. Top.*, X, p. 277).
+*Tập hợp $\mathscr{H}$ các ánh xạ từ I vào E thừa nhận một nguyên thủy trên khoảng I là một không gian con vectơ đóng (và do đó đầy đủ) của không gian vectơ đầy đủ $\mathscr{F}_c(I; E)$ gồm các ánh xạ từ I vào E, được trang bị tôpô hội tụ đều trên mọi tập con compắc của I* (*Gen. Top.*, X, p. 277).
 
 #### Hệ quả 2 {#fvr-ii-s1-thm-1-cor-2 .statement}
 
-*Cho $x_0$ là một điểm của I, và với mỗi hàm $f \in \mathcal{H}$ gọi $P(f)$ là nguyên thủy của $f$ triệt tiêu tại điểm $x_0$; ánh xạ $f \mapsto P(f)$ từ $\mathcal{H}$ vào $\mathcal{F}_c(I; E)$ là một ánh xạ tuyến tính liên tục.*
+*Cho $x_0$ là một điểm của I, và với mỗi hàm $f \in \mathscr{H}$ gọi $P(f)$ là nguyên thủy của $f$ triệt tiêu tại điểm $x_0$; ánh xạ $f \mapsto P(f)$ từ $\mathscr{H}$ vào $\mathscr{F}_c(I; E)$ là một ánh xạ tuyến tính liên tục.*
 
-Hệ quả 1 của Định lý 1 cho phép ta thiết lập sự tồn tại của các nguyên thủy đối với một số loại hàm bằng quy trình sau: nếu biết rằng các hàm thuộc một tập con $\mathcal{A}$ của $\mathcal{F}_c(I; E)$ nhận một nguyên thủy, thì các hàm thuộc *bao đóng* trong $\mathcal{F}_c(I; E)$ của không gian con vectơ sinh bởi $\mathcal{A}$ cũng sẽ nhận một nguyên thủy. Ta sẽ áp dụng phương pháp này trong tiểu mục tiếp theo.
+Hệ quả 1 của Định lý 1 cho phép ta thiết lập sự tồn tại của các nguyên thủy đối với một số loại hàm bằng quy trình sau: nếu biết rằng các hàm thuộc một tập con $\mathscr{A}$ của $\mathscr{F}_c(I; E)$ nhận một nguyên thủy, thì các hàm thuộc *bao đóng* trong $\mathscr{F}_c(I; E)$ của không gian con vectơ sinh bởi $\mathscr{A}$ cũng sẽ nhận một nguyên thủy. Ta sẽ áp dụng phương pháp này trong tiểu mục tiếp theo.
 
 ### 3. CÁC HÀM ĐIỀU CHỈNH
 
@@ -133,13 +133,13 @@ Cho $(a_i)_{0 \leq i \leq n}$ là dãy tăng ngặt được tạo thành bởi 
 
 #### Mệnh đề 2 {#fvr-ii-s1-prop-2 .statement}
 
-*Tập hợp các hàm bậc thang được xác định trên $I$, với các giá trị trong một không gian vectơ $E$ trên $\mathbf{R}$, là một không gian con vectơ $\mathcal{E}$ của không gian vectơ $\mathcal{F}(I; E)$ gồm tất cả các ánh xạ của $I$ vào $E$.*
+*Tập hợp các hàm bậc thang được xác định trên $I$, với các giá trị trong một không gian vectơ $E$ trên $\mathbf{R}$, là một không gian con vectơ $\mathscr{E}$ của không gian vectơ $\mathscr{F}(I; E)$ gồm tất cả các ánh xạ của $I$ vào $E$.*
 
 Thật vậy, cho $f$ và $g$ là hai hàm bậc thang, và $(A_i)$ và $(B_j)$ là hai phân hoạch của $I$ thành một số hữu hạn các khoảng sao cho $f$ (tương ứng $g$) là hằng trên mỗi $A_i$ (tương ứng $B_j$); với mọi số thực $\lambda, \mu$, hiển nhiên rằng $\lambda f + \mu g$ là hằng trên mỗi khoảng khác rỗng $A_i \cap B_j$, và các khoảng này tạo thành một phân hoạch của $I$.
 
 #### Hệ quả {#fvr-ii-s1-n3-cor-1 .statement}
 
-*Không gian con vectơ $\mathcal{E}$ được sinh bởi các hàm đặc trưng của các khoảng.*
+*Không gian con vectơ $\mathscr{E}$ được sinh bởi các hàm đặc trưng của các khoảng.*
 
 Bây giờ ta xét trường hợp $E$ là một không gian định chuẩn trên $\mathbf{R}$; khi đó ngay lập tức thấy rằng hàm đặc trưng của một khoảng $J$ có các đầu mút $a, b$ ($a < b$) nhận một nguyên thủy, cụ thể là hàm bằng $a$ với $x \leq a$, bằng $x$ với $a \leq x \leq b$, và bằng $b$ với $x \geq b$. Hệ quả của mệnh đề 2 do đó cho thấy rằng *mọi hàm bậc thang với các giá trị trong $E$ đều nhận một nguyên thủy*.
 
@@ -149,7 +149,7 @@ Bây giờ ta có thể áp dụng phương pháp được nêu trong số 2.
 
 *Một hàm vectơ, được xác định trên một khoảng $I$, với các giá trị trong một không gian định chuẩn đầy đủ $E$ trên $\mathbf{R}$, được gọi là một hàm điều chỉnh, nếu nó là giới hạn đều của các hàm bậc thang trên mọi tập con compact của $I$.*
 
-Nói cách khác, các hàm điều hòa là các phần tử của bao đóng trong $\mathcal{F}_c(I; E)$ của không gian con $\mathcal{E}$ gồm các hàm bậc thang; $\overline{\mathcal{E}}$ là một không gian vectơ con của $\mathcal{F}_c(I; E)$ và vì $\mathcal{F}_c(I; E)$ đầy đủ nên $\overline{\mathcal{E}}$ cũng đầy đủ; nói cách khác, nếu một hàm là giới hạn đều của các hàm điều hòa trên mọi tập con compact của $I$, thì nó điều hòa trên $I$. Để $f$ điều hòa trên một khoảng $I$ thì điều kiện cần và đủ là hạn chế của nó trên mọi khoảng compact được chứa trong $I$ phải điều hòa.
+Nói cách khác, các hàm điều hòa là các phần tử của bao đóng trong $\mathscr{F}_c(I; E)$ của không gian con $\mathscr{E}$ gồm các hàm bậc thang; $\overline{\mathscr{E}}$ là một không gian vectơ con của $\mathscr{F}_c(I; E)$ và vì $\mathscr{F}_c(I; E)$ đầy đủ nên $\overline{\mathscr{E}}$ cũng đầy đủ; nói cách khác, nếu một hàm là giới hạn đều của các hàm điều hòa trên mọi tập con compact của $I$, thì nó điều hòa trên $I$. Để $f$ điều hòa trên một khoảng $I$ thì điều kiện cần và đủ là hạn chế của nó trên mọi khoảng compact được chứa trong $I$ phải điều hòa.
 
 Hệ quả I của II, p. 53 cho thấy:
 
@@ -203,7 +203,7 @@ Hai trường hợp riêng của định lý 3 của II, p. 54 đặc biệt qua
 
 #### Nhận xét 3 {#fvr-ii-s1-n3-rem-3 .statement}
 
-Nguyên lý của nhận xét trước mở rộng được, không cần sửa đổi đáng kể, cho các hàm vectơ của một biến *phức* nhận giá trị trong một không gian định chuẩn đầy đủ trên $\mathbf{C}$. Nếu $U$ là một tập hợp mở trong $\mathbf{C}$, đồng phôi với $\mathbf{C}$, thì theo định nghĩa, một *nguyên hàm* của một hàm vectơ như vậy $f$ xác định trên $U$ là một hàm liên tục trên $U$, có đạo hàm bằng $f$ tại mọi điểm của $U$. Với định nghĩa này, định lý 1 của II, p. 52 mở rộng được mà không cần sửa đổi (người ta chứng minh, bằng cách sử dụng tính liên thông của $U$, rằng $(g_\alpha)$ hội tụ đều đối với $\mathcal{F}$ trên một lân cận của mỗi điểm của $U$, từ đó suy ra rằng $(g_\alpha)$ hội tụ đều đối với $\mathcal{F}$ trên mọi tập con compáct của $U$; chứng minh được hoàn tất bằng cách dùng mệnh đề 4 của I, p. 18). Do đó, mọi hàm là *giới hạn đều của các đa thức* trên mọi tập con compáct của $U$ đều có một nguyên hàm trên $U$; các hàm này không gì khác hơn là các hàm được gọi là *chỉnh hình* trên $U$, mà chúng ta sẽ nghiên cứu chi tiết hơn trong một Quyển sau.
+Nguyên lý của nhận xét trước mở rộng được, không cần sửa đổi đáng kể, cho các hàm vectơ của một biến *phức* nhận giá trị trong một không gian định chuẩn đầy đủ trên $\mathbf{C}$. Nếu $U$ là một tập hợp mở trong $\mathbf{C}$, đồng phôi với $\mathbf{C}$, thì theo định nghĩa, một *nguyên hàm* của một hàm vectơ như vậy $f$ xác định trên $U$ là một hàm liên tục trên $U$, có đạo hàm bằng $f$ tại mọi điểm của $U$. Với định nghĩa này, định lý 1 của II, p. 52 mở rộng được mà không cần sửa đổi (người ta chứng minh, bằng cách sử dụng tính liên thông của $U$, rằng $(g_\alpha)$ hội tụ đều đối với $\mathscr{F}$ trên một lân cận của mỗi điểm của $U$, từ đó suy ra rằng $(g_\alpha)$ hội tụ đều đối với $\mathscr{F}$ trên mọi tập con compáct của $U$; chứng minh được hoàn tất bằng cách dùng mệnh đề 4 của I, p. 18). Do đó, mọi hàm là *giới hạn đều của các đa thức* trên mọi tập con compáct của $U$ đều có một nguyên hàm trên $U$; các hàm này không gì khác hơn là các hàm được gọi là *chỉnh hình* trên $U$, mà chúng ta sẽ nghiên cứu chi tiết hơn trong một Quyển sau.
 
 #### Mệnh đề 4 {#fvr-ii-s1-prop-4 .statement}
 

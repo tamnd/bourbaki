@@ -111,7 +111,7 @@ chapters:
           statements: 22
           exercises: 23
           extraction: ocr
-          content_sha256: 9a5fd485ea876bb319eb23c6bc344ab84c47f587698a0b7b913ebd9ce8b6fb3f
+          content_sha256: 0c5afcba3bf2d7365099706e15ece1413976e2826bb7441159650519694327d4
         - kind: section
           section: 2
           title: Intégrales dans les intervalles non compacts
@@ -137,7 +137,7 @@ chapters:
           statements: 18
           exercises: 10
           extraction: ocr
-          content_sha256: 4cc251606530cba06102344c80c371360158ba67bd6adf41aba8f54ff71fc768
+          content_sha256: c6f3cc6ac4464f645a1fcfafc70e48660d7235b77c1b612c2cec4a65f8684f4b
     - chapter: III
       title: FONCTIONS ÉLÉMENTAIRES
       sections:
@@ -210,7 +210,7 @@ chapters:
           statements: 29
           exercises: 18
           extraction: ocr
-          content_sha256: 244c14cc6ceeac67c63e543e1fdfe21015957882d5b1eaf06db34f3ff10aa2bb
+          content_sha256: 87e93f418b03b2949af6ce27412d223b7cb38ec6a4901beae65f0fbdcfbce23d
         - kind: section
           section: 2
           title: Équations différentielles linéaires
@@ -223,7 +223,7 @@ chapters:
           statements: 25
           exercises: 10
           extraction: ocr
-          content_sha256: 2407fb6e831e9c2e5b232f1b07195f8e9c3f0f4ff62cc26909cfdb9adf101258
+          content_sha256: 90e4f05ba6c63dc473e36f144b27c027efafb33e2eaaa37efb35815b471522fd
         - kind: historical
           title: Historical Note
           path: content/fr/fvr/IV/historical_note.md
@@ -258,7 +258,7 @@ chapters:
           statements: 48
           exercises: 3
           extraction: ocr
-          content_sha256: 25a0e46d98bb0b2b986b13121b9d77fbf7a2298cd0de4a77225b12beda9ccd52
+          content_sha256: c814f668e242d17481a56e87b4967cef8037d2c7130ac5f4f6e0b131c119049e
         - kind: section
           section: 2
           title: Développements asymptotiques
@@ -271,7 +271,7 @@ chapters:
           statements: 12
           exercises: 0
           extraction: ocr
-          content_sha256: a503453839a5e40ae50c575b19318fe1d7e29a227f64e34ca8183c786753a233
+          content_sha256: 4804d7035cacbb4ace9277980804e6d37abc6adcfa2148c223de349010838780
         - kind: section
           section: 3
           title: Développements asymptotiques des fonctions d'une variable réelle
@@ -309,7 +309,7 @@ chapters:
           statements: 21
           exercises: 1
           extraction: ocr
-          content_sha256: 8119442795d3361e275b51c13bcd3eeebe54a25fda7fe5a05143ee7ff54ce8e5
+          content_sha256: 3cf25ec2d3e64f2d9b47479550447c63441f685d49be06ee3723718861f2ce04
     - chapter: VI
       title: DÉVELOPPEMENTS TAYLORIENS GÉNÉRALISÉS. FORMULE SOMMATOIRE D’EULER–MACLAURIN
       sections:
@@ -408,7 +408,7 @@ chapters:
           statements: 7
           exercises: 6
           extraction: ocr
-          content_sha256: cd4a974777c72198bdedb8ec97eb2bed5ff208ea9b408fe4cca6e704ca4f5a7e
+          content_sha256: 67ad323b3b99bdfb294e21c18ec3a5649f00ff1d3a7f163a86eff0578cd145c9
         - kind: historical
           title: Historical Note
           path: content/fr/fvr/VII/historical_note.md

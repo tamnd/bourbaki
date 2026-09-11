@@ -25,7 +25,7 @@ subsections:
       pdf_page: 306
 statements: 7
 exercises: 6
-content_sha256: cd4a974777c72198bdedb8ec97eb2bed5ff208ea9b408fe4cca6e704ca4f5a7e
+content_sha256: 67ad323b3b99bdfb294e21c18ec3a5649f00ff1d3a7f163a86eff0578cd145c9
 ---
 
 ## § 2. LA FONCTION GAMMA DANS LE DOMAINE COMPLEXE
@@ -284,7 +284,7 @@ $$
 
 Fig. 2
 
-Nous allons maintenant évaluer une borne supérieure de $R_p(x, y)$ à l’aide de l’inégalité (16), en supposant que $x$ et $y$ soient tous deux dans la partie $H_A$ de $\mathbf{C}$ définie par la relation « $\Re(z) \geqslant A$ ou $|\mathcal{F}(z)| \geqslant A$ », où $A$ est un nombre $> 0$ arbitraire (fig. 2). Remarquons pour cela que si $x = s + it$ avec $s > A$, on a $|x + u| \geqslant A + u$ pour tout $u > 0$ et par suite
+Nous allons maintenant évaluer une borne supérieure de $R_p(x, y)$ à l’aide de l’inégalité (16), en supposant que $x$ et $y$ soient tous deux dans la partie $H_A$ de $\mathbf{C}$ définie par la relation « $\Re(z) \geqslant A$ ou $|\mathscr{F}(z)| \geqslant A$ », où $A$ est un nombre $> 0$ arbitraire (fig. 2). Remarquons pour cela que si $x = s + it$ avec $s > A$, on a $|x + u| \geqslant A + u$ pour tout $u > 0$ et par suite
 
 $$
 \int_0^{n+1} \frac{du}{|x + u|^{2p+1}} \leqslant \int_0^\infty \frac{du}{(A + u)^{2p+1}} = \frac{1}{2pA^{2p}}.

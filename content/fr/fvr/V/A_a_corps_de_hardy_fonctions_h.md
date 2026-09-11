@@ -38,7 +38,7 @@ subsections:
       pdf_page: 249
 statements: 21
 exercises: 1
-content_sha256: 8119442795d3361e275b51c13bcd3eeebe54a25fda7fe5a05143ee7ff54ce8e5
+content_sha256: 3cf25ec2d3e64f2d9b47479550447c63441f685d49be06ee3723718861f2ce04
 ---
 
 ## APPENDICE
@@ -47,12 +47,12 @@ content_sha256: 8119442795d3361e275b51c13bcd3eeebe54a25fda7fe5a05143ee7ff54ce8e5
 
 ### 1. Corps de Hardy
 
-Soit $\mathfrak{F}$ la base de filtre sur $\mathbf{R}$ constituée par les intervalles de la forme $[x_0, +\infty[$. Rappelons que, dans l’ensemble $\mathcal{H}(\mathfrak{F}, \mathbf{R})$ des fonctions numériques définies dans des parties appartenant à $\mathfrak{F}$, nous avons défini la relation d’équivalence $R_\infty$: « il existe un ensemble $M \in \mathfrak{F}$ tel que $f(x) = g(x)$ dans $M$ » (V, p. 2), et que l’ensemble quotient $\mathcal{H}(\mathfrak{F}, \mathbf{R})/R_\infty$ est muni d’une structure d’anneau ayant un élément unité.
+Soit $\mathfrak{F}$ la base de filtre sur $\mathbf{R}$ constituée par les intervalles de la forme $[x_0, +\infty[$. Rappelons que, dans l’ensemble $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ des fonctions numériques définies dans des parties appartenant à $\mathfrak{F}$, nous avons défini la relation d’équivalence $R_\infty$: « il existe un ensemble $M \in \mathfrak{F}$ tel que $f(x) = g(x)$ dans $M$ » (V, p. 2), et que l’ensemble quotient $\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$ est muni d’une structure d’anneau ayant un élément unité.
 
 #### Définition 1 {#fvr-v-a0-def-1 .statement}
 
-Étant donné un sous-ensemble $\mathfrak{A}$ de $\mathcal{H}(\mathfrak{F}, \mathbf{R})$, on dit que $\mathfrak{A}/R_\infty$ (image canonique de $\mathfrak{A}$ dans $\mathcal{H}(\mathfrak{F}, \mathbf{R})/R_\infty$) est un corps de Hardy, si $\mathfrak{A}$ satisfait aux conditions suivantes:
-1° $\mathfrak{A}/R_\infty$ est un sous-corps de l’anneau $\mathcal{H}(\mathfrak{F}, \mathbf{R})/R_\infty$.
+Étant donné un sous-ensemble $\mathfrak{A}$ de $\mathscr{H}(\mathfrak{F}, \mathbf{R})$, on dit que $\mathfrak{A}/R_\infty$ (image canonique de $\mathfrak{A}$ dans $\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$) est un corps de Hardy, si $\mathfrak{A}$ satisfait aux conditions suivantes:
+1° $\mathfrak{A}/R_\infty$ est un sous-corps de l’anneau $\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$.
 2° Toute fonction de $\mathfrak{A}$ est continue et dérivable dans un intervalle $[a, +\infty[$ (dépendant de la fonction), et la classe suivant $R_\infty$ de sa dérivée appartient à $\mathfrak{A}/R_\infty$.
 
 L’hypothèse que $\mathfrak{A}/R_\infty$ est un corps équivaut aux conditions suivantes: si $f \in \mathfrak{A}$ et $g \in \mathfrak{A}$, $f + g$ et $fg$ sont égales à des fonctions de $\mathfrak{A}$ dans un ensemble de $\mathfrak{F}$; en outre, si $f$ n’est pas identiquement nulle dans un ensemble de $\mathfrak{F}$, il existe un ensemble $M$ de $\mathfrak{F}$ dans lequel $f$ ne s’annule pas, $1/f$ étant égale à une fonction de $\mathfrak{A}$ dans $M$; d’après la condition 2°, on peut toujours supposer $M$ pris tel que $f$ soit continue dans $M$, et par suite garde un signe constant dans cet intervalle.
@@ -199,7 +199,7 @@ Si $f$ est équivalente à une constante $k \neq 0$, on a $f(x) = k + f_2(x)$ av
 
 Si $\mathfrak{R}_0$ est un corps de Hardy, il existe un corps de Hardy $\mathfrak{R}$, contenant $\mathfrak{R}_0$ et tel que, pour toute fonction $z \in \mathfrak{R}$, non identiquement nulle dans un voisinage de $+\infty$, $e^z$ et $\log |z|$ appartiennent à $\mathfrak{R}$.
 
-Désignons par $\mathfrak{R}$ l’ensemble des fonctions $f \in \mathcal{H}(\mathfrak{R}, \mathbf{R})$ ayant les propriétés suivantes: pour chaque fonction $f \in \mathfrak{R}$ il existe un nombre fini de corps de Hardy $\mathfrak{R}_1, \mathfrak{R}_2, \ldots, \mathfrak{R}_n$ (le nombre $n$ et les corps $\mathfrak{R}_i$ dépendant de $f$) tels que $f \in \mathfrak{R}_n$ et que, pour $0 \leq i \leq n - 1$, on ait $\mathfrak{R}_{i+1} = \mathfrak{R}_i(u_{i+1})$, où $u_{i+1}$ est égale, soit à $e^{z_i}$, soit à $\log |z_i|$, $z_i$ appartenant à $\mathfrak{R}_i$ et n’étant pas identiquement nulle au voisinage de $+\infty$. On dit que $u_1, u_2, \ldots, u_n$ forment une suite de définition du corps $\mathfrak{R}_n$ et de la fonction $f$; une même fonction $f \in \mathfrak{R}$ peut naturellement admettre plusieurs suites de définition.
+Désignons par $\mathfrak{R}$ l’ensemble des fonctions $f \in \mathscr{H}(\mathfrak{R}, \mathbf{R})$ ayant les propriétés suivantes: pour chaque fonction $f \in \mathfrak{R}$ il existe un nombre fini de corps de Hardy $\mathfrak{R}_1, \mathfrak{R}_2, \ldots, \mathfrak{R}_n$ (le nombre $n$ et les corps $\mathfrak{R}_i$ dépendant de $f$) tels que $f \in \mathfrak{R}_n$ et que, pour $0 \leq i \leq n - 1$, on ait $\mathfrak{R}_{i+1} = \mathfrak{R}_i(u_{i+1})$, où $u_{i+1}$ est égale, soit à $e^{z_i}$, soit à $\log |z_i|$, $z_i$ appartenant à $\mathfrak{R}_i$ et n’étant pas identiquement nulle au voisinage de $+\infty$. On dit que $u_1, u_2, \ldots, u_n$ forment une suite de définition du corps $\mathfrak{R}_n$ et de la fonction $f$; une même fonction $f \in \mathfrak{R}$ peut naturellement admettre plusieurs suites de définition.
 
 D’après la déf. 1 de V, p. 36, toute fonction $f \in \mathfrak{R}$, non identiquement nulle dans un voisinage de $+\infty$, garde un signe constant et est dérivable dans un intervalle $[x_0, +\infty[$; si $f \in \mathfrak{R}_n$, $1/f$ et $f'$ sont égales à des fonctions de $\mathfrak{R}_n$, donc à des fonctions de $\mathfrak{R}$, dans un voisinage de $+\infty$. Pour voir que $\mathfrak{R}$ est un corps de Hardy, il suffit donc de prouver que si $f$ et $g$ sont deux fonctions de $\mathfrak{R}$, $f - g$ et $fg$ sont égales à des fonctions de $\mathfrak{R}$ dans un voisinage de $+\infty$. Or soit $u_1, u_2, \ldots, u_m$ une suite de définition de $f$, $v_1, v_2, \ldots, v_n$ une suite de définition de $g$. La suite $u_1, u_2, \ldots, u_m, v_1, v_2, \ldots, v_n$ obtenue par juxtaposition des suites $(u_i)$ et $(v_j)$ est encore une suite de définition d’un corps de Hardy $\mathfrak{R}_{m+n}$, et ce corps contient $f$ et $g$, donc $f - g$ et $fg$ sont égales à des fonctions de $\mathfrak{R}_{m+n}$ dans un voisinage de $+\infty$.
 

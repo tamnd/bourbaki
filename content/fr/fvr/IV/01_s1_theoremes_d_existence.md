@@ -40,20 +40,20 @@ subsections:
       pdf_page: 173
 statements: 29
 exercises: 18
-content_sha256: 244c14cc6ceeac67c63e543e1fdfe21015957882d5b1eaf06db34f3ff10aa2bb
+content_sha256: 87e93f418b03b2949af6ce27412d223b7cb38ec6a4901beae65f0fbdcfbce23d
 ---
 
 ## § 1. THÉORÈMES D’EXISTENCE
 
 ### 1. La notion d’équation différentielle
 
-Soient I un intervalle contenu dans $\mathbf{R}$ et non réduit à un point, E un espace vectoriel topologique sur $\mathbf{R}$, A et B deux parties ouvertes de E. Soit $(\mathbf{x}, \mathbf{y}, t) \mapsto g(\mathbf{x}, \mathbf{y}, t)$ une application de $A \times B \times I$ dans E; à toute application dérivable $u$ de I dans A, dont la dérivée prend ses valeurs dans B, faisons correspondre l’application $t \mapsto g(u(t), u'(t), t)$ de I dans E, que nous désignerons par $\tilde{g}(u)$; $\tilde{g}$ est donc définie dans l’ensemble $\mathcal{D}(A, B)$ des applications dérivables de I dans A, dont la dérivée prend ses valeurs dans B. Nous dirons que l’équation $\tilde{g}(u) = 0$ est une équation différentielle en $u$ (relativement à la variable réelle $t$); une solution de cette équation est encore appelée intégrale de l’équation différentielle (dans l’intervalle I); c’est donc une application dérivable de I dans A, dont la dérivée prend ses valeurs dans B, et qui est telle que $g(u(t), u'(t), t) = 0$ pour tout $t \in I$. Par abus de langage, nous écrirons l’équation différentielle $\tilde{g}(u) = 0$ sous la forme
+Soient I un intervalle contenu dans $\mathbf{R}$ et non réduit à un point, E un espace vectoriel topologique sur $\mathbf{R}$, A et B deux parties ouvertes de E. Soit $(\mathbf{x}, \mathbf{y}, t) \mapsto g(\mathbf{x}, \mathbf{y}, t)$ une application de $A \times B \times I$ dans E; à toute application dérivable $u$ de I dans A, dont la dérivée prend ses valeurs dans B, faisons correspondre l’application $t \mapsto g(u(t), u'(t), t)$ de I dans E, que nous désignerons par $\tilde{g}(u)$; $\tilde{g}$ est donc définie dans l’ensemble $\mathscr{D}(A, B)$ des applications dérivables de I dans A, dont la dérivée prend ses valeurs dans B. Nous dirons que l’équation $\tilde{g}(u) = 0$ est une équation différentielle en $u$ (relativement à la variable réelle $t$); une solution de cette équation est encore appelée intégrale de l’équation différentielle (dans l’intervalle I); c’est donc une application dérivable de I dans A, dont la dérivée prend ses valeurs dans B, et qui est telle que $g(u(t), u'(t), t) = 0$ pour tout $t \in I$. Par abus de langage, nous écrirons l’équation différentielle $\tilde{g}(u) = 0$ sous la forme
 
 $$
 g(\mathbf{x}, \mathbf{x}', t) = 0,
 $$
 
-étant sous-entendu que $\mathbf{x}$ est un élément de l’ensemble $\mathcal{D}(A, B)$.
+étant sous-entendu que $\mathbf{x}$ est un élément de l’ensemble $\mathscr{D}(A, B)$.
 
 Par exemple, pour $I = E = \mathbf{R}$, les relations
 $$
@@ -196,7 +196,7 @@ $$
 
 Si $E$ est de dimension finie sur $\mathbf{R}$, dans tout intervalle compact $K$ d’origine (ou d’extrémité) $t_0$, contenu dans $J$ et de longueur $< r/M$, il existe une solution de (1) à valeurs dans $S$, égale à $x_0$ au point $t_0$.
 
-En effet, d’après la prop. 3, dès que $n$ est assez grand, il existe une solution approchée $u_n$ de l’équation (1) à $1/n$ près, définie dans $K$, à valeurs dans $S$, et égale à $x_0$ au point $t_0$. En outre, à partir d’une certaine valeur de $n$, $u_n(K)$ est contenu dans une boule fermée de centre $x_0$ et de rayon $< r$, indépendant de $n$. L’ensemble des $u_n$ est équicontinu (prop. 4), et comme $E$ est de dimension finie, $S$ est relativement compacte dans $E$, donc pour tout $t \in K$, l’ensemble des $u_n(t)$ est relativement compact dans $E$. D’après le th. d’Ascoli (TG, X, p. 17, th. 2), l’ensemble des $u_n$ est relativement compact dans l’espace $\mathcal{F}(K; E)$ des applications de $K$ dans $E$, muni de la topologie de la convergence uniforme. Il existe donc une suite $(u_{n_k})$ extraite de $(u_n)$, qui converge uniformément dans $K$ vers une fonction continue $u$. On a $u(K) \subset S$ et par suite $t \mapsto f(t, u(t))$ est définie dans $K$; en vertu du lemme 1 (IV, p. 3), $f(t, u_{n_k}(t))$ converge uniformément vers $f(t, u(t))$ dans $K$; d’après (IV, p. 4, formule (7)), $u_{n_k}$ est primitive d’une fonction qui tend uniformément vers $f(t, u(t))$ dans $K$, donc (II, p. 2, th. 1) $u$ est solution de (1) dans $K$, égale à $x_0$ au point $t_0$.
+En effet, d’après la prop. 3, dès que $n$ est assez grand, il existe une solution approchée $u_n$ de l’équation (1) à $1/n$ près, définie dans $K$, à valeurs dans $S$, et égale à $x_0$ au point $t_0$. En outre, à partir d’une certaine valeur de $n$, $u_n(K)$ est contenu dans une boule fermée de centre $x_0$ et de rayon $< r$, indépendant de $n$. L’ensemble des $u_n$ est équicontinu (prop. 4), et comme $E$ est de dimension finie, $S$ est relativement compacte dans $E$, donc pour tout $t \in K$, l’ensemble des $u_n(t)$ est relativement compact dans $E$. D’après le th. d’Ascoli (TG, X, p. 17, th. 2), l’ensemble des $u_n$ est relativement compact dans l’espace $\mathscr{F}(K; E)$ des applications de $K$ dans $E$, muni de la topologie de la convergence uniforme. Il existe donc une suite $(u_{n_k})$ extraite de $(u_n)$, qui converge uniformément dans $K$ vers une fonction continue $u$. On a $u(K) \subset S$ et par suite $t \mapsto f(t, u(t))$ est définie dans $K$; en vertu du lemme 1 (IV, p. 3), $f(t, u_{n_k}(t))$ converge uniformément vers $f(t, u(t))$ dans $K$; d’après (IV, p. 4, formule (7)), $u_{n_k}$ est primitive d’une fonction qui tend uniformément vers $f(t, u(t))$ dans $K$, donc (II, p. 2, th. 1) $u$ est solution de (1) dans $K$, égale à $x_0$ au point $t_0$.
 
 #### Remarque 1 {#fvr-iv-s1-n3-rem-1 .statement}
 
@@ -376,7 +376,7 @@ En effet, pour tout $\varepsilon > 0$ assez petit, l’ensemble $F_\varepsilon$ 
 $$
 \|u(t) - v(t)\| \leq 2\varepsilon \frac{e^{k|t-t_0|} - 1}{k}
 $$
-pour tout $t \in K$, donc les ensembles $F_\varepsilon$ forment une base de filtre $\mathcal{G}$ qui converge uniformément dans K vers une fonction continue $w$, égale à $x_0$ au point $t_0$; $w$ prend ses valeurs dans S, parce que, dès que $\varepsilon$ est assez petit, les fonctions $u \in F_\varepsilon$ prennent leurs valeurs dans une boule fermée contenue dans S. Comme $f(t, u(t))$ tend uniformément dans K vers $f(t, w(t))$ suivant $\mathcal{G}$, $w$ satisfait à l’équation (6) de IV, p. 4, donc est solution de (1). L’unicité de la solution découle aussitôt de l’inégalité (15) de IV, p. 9, où on fait $\varepsilon_1 = \varepsilon_2 = 0$ et $u(t_0) = v(t_0)$.
+pour tout $t \in K$, donc les ensembles $F_\varepsilon$ forment une base de filtre $\mathscr{G}$ qui converge uniformément dans K vers une fonction continue $w$, égale à $x_0$ au point $t_0$; $w$ prend ses valeurs dans S, parce que, dès que $\varepsilon$ est assez petit, les fonctions $u \in F_\varepsilon$ prennent leurs valeurs dans une boule fermée contenue dans S. Comme $f(t, u(t))$ tend uniformément dans K vers $f(t, w(t))$ suivant $\mathscr{G}$, $w$ satisfait à l’équation (6) de IV, p. 4, donc est solution de (1). L’unicité de la solution découle aussitôt de l’inégalité (15) de IV, p. 9, où on fait $\varepsilon_1 = \varepsilon_2 = 0$ et $u(t_0) = v(t_0)$.
 
 Nous dirons qu’une fonction $f$ définie dans $I \times H$ est localement lipschitzienne dans cet ensemble si, pour tout point $(t, x)$ de $I \times H$, il existe un voisinage V de t (par rapport à I) et un voisinage S de x tels que $f$ soit lipschitzienne dans $V \times S$ (pour une constante k dépendant de V et de S). En vertu du th. de Borel-Lebesgue, pour tout intervalle compact $J \subset I$ et tout point $x_0 \in H$, il existe une boule ouverte S de centre $x_0$, contenue dans H, telle que $f$ soit lipschitzienne dans $J \times S$; $f$ satisfait donc aux conditions du lemme 1 de IV, p. 3. Lorsque $f$ est localement lipschitzienne dans $I \times H$, nous dirons que l’équation $x' = f(t, x)$ est localement lipschitzienne dans $I \times H$.
 

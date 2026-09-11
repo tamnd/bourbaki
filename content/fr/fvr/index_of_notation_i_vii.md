@@ -13,7 +13,7 @@ pdf_pages: 0317-0317
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: a4972f36a06d0fc703baa00d69c98f666e4ead47fabddf0baf237d025515731c
+content_sha256: 355e25f7c80f48af8db33e5a9ab6f07f14cba3a86f8b0e9386738ba369e0c260
 ---
 
 ## INDEX DES NOTATIONS
@@ -40,13 +40,13 @@ $ch x, sh x, th x$: III, p. 12
 $Arg sh x, Arg ch x, Arg th x$: III, p. 13
 $\binom{m}{n}$ (m réel, n entier $\geqslant 0$): III, p. 18
 $e^A, cexp A$ (A endomorphisme continu d’un espace normé): IV, p. 27
-$\mathcal{H}(\mathfrak{F}, V), R_\infty, \mathcal{H}_\infty(\mathfrak{F}, V)$: V, p. 2
-$f + g, f\lambda, \|f\|, fg$ (f, g fonctions de $\mathcal{H}(\mathfrak{F}, V)$): V, p. 3
+$\mathscr{H}(\mathfrak{F}, V), R_\infty, \mathscr{H}_\infty(\mathfrak{F}, V)$: V, p. 2
+$f + g, f\lambda, \|f\|, fg$ (f, g fonctions de $\mathscr{H}(\mathfrak{F}, V)$): V, p. 3
 $f \leqslant g, g \geqslant f$ (f et g fonctions numériques $\geqslant 0$): V, pl 3
-$f_1 \leqslant f_2, f_2 \geqslant f_1$ ($f_1$ fonction de $\mathcal{H}(\mathfrak{F}, V_1), f_2$ fonction de $\mathcal{H}(\mathfrak{F}, V_2)$): V, p. 3
+$f_1 \leqslant f_2, f_2 \geqslant f_1$ ($f_1$ fonction de $\mathscr{H}(\mathfrak{F}, V_1), f_2$ fonction de $\mathscr{H}(\mathfrak{F}, V_2)$): V, p. 3
 $f \asymp g$: V, p. 3
 $f \ll g, g \gg f$ (f et g fonctions numériques $\geqslant 0$): V, p. 5
-$f_1 \ll f_2, f_2 \gg f_1$ ($f_1$ fonction de $\mathcal{H}(\mathfrak{F}, V_1), f_2$ fonction de $\mathcal{H}(\mathfrak{F}, V_2)$): V, p. 5
+$f_1 \ll f_2, f_2 \gg f_1$ ($f_1$ fonction de $\mathscr{H}(\mathfrak{F}, V_1), f_2$ fonction de $\mathscr{H}(\mathfrak{F}, V_2)$): V, p. 5
 $f \sim g$: V, p. 6
 $O(f), O_k(f), o(f), o_k(f)$: V, p. 9
 $l_0x, l_nx$: V, p. 19

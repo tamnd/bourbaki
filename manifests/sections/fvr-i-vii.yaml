@@ -114,7 +114,7 @@ chapters:
           statements: 28
           exercises: 10
           extraction: ocr
-          content_sha256: ff30f9508044e05296fa35eac9891d983060ac6f9e5e128e409343cc51396165
+          content_sha256: ce676b7be24a9e9f40e9596ed447132bffd5c794bd4a52cc88d3027b8f4b73a5
         - kind: section
           section: 2
           title: INTEGRALS OVER NON-COMPACT INTERVALS
@@ -127,7 +127,7 @@ chapters:
           statements: 9
           exercises: 9
           extraction: ocr
-          content_sha256: 805462a270d81884bfd12b8ec276cd9269157f5d73f72f66f32a90b09f0773f3
+          content_sha256: c881c36ec5ea7370c5059147e2a0654f1e10dbdf7b324df291c68bf94faa7276
         - kind: section
           section: 3
           title: DERIVATIVES AND INTEGRALS OF FUNCTIONS DEPENDING ON A PARAMETER
@@ -140,7 +140,7 @@ chapters:
           statements: 18
           exercises: 10
           extraction: ocr
-          content_sha256: 2e0285294c5eb412e7dc272b17cdc77aa895e03df78e0eeae6b0a65e34227c96
+          content_sha256: 60905ef6efd845569a53a55f17387cf3aa45fcd2f47eff514161d964aa57f357
     - chapter: III
       title: ELEMENTARY FUNCTIONS
       sections:
@@ -166,7 +166,7 @@ chapters:
           statements: 9
           exercises: 39
           extraction: ocr
-          content_sha256: 2478d73e7dea6ae86c44de479cf637d4b4394218fc6dbee2396f8f6140182119
+          content_sha256: 48d4a4374acf58428afbb78f3e9c41e6dac3708ffdd9a6f0048e5d86f02a3b2c
         - kind: section
           section: 2
           title: EXPANSIONS OF THE EXPONENTIAL AND CIRCULAR FUNCTIONS AND OF THE FUNCTIONS ASSOCIATED WITH THEM
@@ -216,7 +216,7 @@ chapters:
           statements: 29
           exercises: 18
           extraction: ocr
-          content_sha256: 365b7abae6386a7f8ca023e244e718651dc0eba4a2f9e803d42137613cf21d16
+          content_sha256: 0a7f10c5381aab999496c21998516f0d2c850c034ed4e5811b9635297f680a8c
         - kind: section
           section: 2
           title: LINEAR DIFFERENTIAL EQUATIONS
@@ -229,7 +229,7 @@ chapters:
           statements: 25
           exercises: 10
           extraction: ocr
-          content_sha256: 3b798d7a9737ee288cc5baf1d0c347f64bae3f3f7e1d2d7fbb82d32cd8c8925b
+          content_sha256: b518deddff2b844f2073715d1ba26579d984ec681a4cf5a0dc217361f4538b00
         - kind: historical
           title: Historical Note
           path: content/en/fvr/IV/historical_note.md
@@ -266,7 +266,7 @@ chapters:
           statements: 38
           exercises: 3
           extraction: ocr
-          content_sha256: f90de3067099cf19260303b9de7511a8e7908cc1fc7dbeb7ba244aa4277da258
+          content_sha256: 6330500168d2d4a681a388f5a8611dcf87cdefecd1ad1fb37cd39aacf7c2551c
         - kind: section
           section: 2
           title: ASYMPTOTIC EXPANSIONS
@@ -279,7 +279,7 @@ chapters:
           statements: 12
           exercises: 0
           extraction: ocr
-          content_sha256: b37ae9ead916beb8ee26900f2ecf0229caf81e067950a00605a7b4ef490a7455
+          content_sha256: 05a689b700a4dd803c1309538a663bb9a8d1ffb6549df0a07023c0ede84bcdcc
         - kind: section
           section: 3
           title: ASYMPTOTIC EXPANSIONS OF FUNCTIONS OF A REAL VARIABLE
@@ -292,7 +292,7 @@ chapters:
           statements: 24
           exercises: 7
           extraction: ocr
-          content_sha256: 5e4af87e00d052d38d3bfa4956abf9089bd57264e9235d2ffe2ae20db8735ebb
+          content_sha256: 04f1b225fb0f2e970d5bd91c497d25ba0dbcd531063de32c6be8dfe174aaa59e
         - kind: section
           section: 4
           title: APPLICATION TO SERIES WITH POSITIVE TERMS
@@ -305,7 +305,7 @@ chapters:
           statements: 13
           exercises: 3
           extraction: ocr
-          content_sha256: 5de68e31a6f00483c82e1c1ae6441d8b63cc5a1acbdf825ba174f4e30753e569
+          content_sha256: 7aef1df43eff09df6e9442552cc56e53595b077c4cc4257843aa13c45dda4aec
         - kind: appendix
           title: Hardy Fields. (H) Functions
           path: content/en/fvr/V/A_a_hardy_fields_h_functions.md
@@ -317,7 +317,7 @@ chapters:
           statements: 21
           exercises: 15
           extraction: ocr
-          content_sha256: 2b7ece85b767af5816191cdddb2a46c6ea11aaccc68f65d9ac9a41b8c196aa46
+          content_sha256: b95f9ad9bca8cc72d94efcce361bb8861c0b8518e472602d45f215e94dcd28a9
     - chapter: VI
       title: GENERALIZED TAYLOR EXPANSIONS EULER-MACLAURIN SUMMATION FORMULA
       sections:
@@ -369,7 +369,7 @@ chapters:
           statements: 0
           exercises: 3
           extraction: ocr
-          content_sha256: 97d4952172e43dd88780c3d853796ce952eb4d81568656dbed66374e9ef8a9f3
+          content_sha256: fe8c4ffd50e69ab536575aaa81f4e19364b3c801ca3264cbea320e5cbb3fd0d2
         - kind: historical
           title: Historical Note
           path: content/en/fvr/VI/historical_note.md
@@ -419,7 +419,7 @@ chapters:
           statements: 6
           exercises: 6
           extraction: ocr
-          content_sha256: 437d88fbb7bfdd1173fb6523af39fd95358bf570c84e41c9bc95be7e8f1e262e
+          content_sha256: c140260390c34f80ae37eab1c3dc10a97230a90dffb6d1d544762f7f3add163c
         - kind: historical
           title: Historical Note
           path: content/en/fvr/VII/historical_note.md

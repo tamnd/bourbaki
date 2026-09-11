@@ -28,9 +28,9 @@ subsections:
       pdf_page: 259
 statements: 13
 exercises: 3
-content_sha256: f14cec0335fd672c4c33cfa2c3423c46f296d7df7681a1adb974d350fbb2a00b
+content_sha256: 0892b6650f8958203f19d37ba85c113cb6e33d20827291fa13355f92a7185dfa
 translated_from: content/en/fvr/V/04_s4_application_to_series_with_positive.md
-source_content_sha256: 5de68e31a6f00483c82e1c1ae6441d8b63cc5a1acbdf825ba174f4e30753e569
+source_content_sha256: 7aef1df43eff09df6e9442552cc56e53595b077c4cc4257843aa13c45dda4aec
 translation_model: gpt-5.4
 translation_run: translate-vi-2cce6ac7
 glossary_version: 34
@@ -80,13 +80,13 @@ Tiêu chuẩn này rất hữu ích trong lý thuyết các *chuỗi nguyên*, m
 
 ### 2. KHAI TRIỂN TIỆM CẬN CỦA CÁC TỔNG RIÊNG CỦA MỘT CHUỖI
 
-Với $x$ thực tiến tới $+\infty$ hãy gọi $\mathcal{E}$ là một thang so sánh gồm các hàm, mỗi hàm được xác định trên một *khoảng toàn phần* $[x_0, +\infty[$ (phụ thuộc vào hàm) và $\geq 0$ trên khoảng này. Cho $(\mathbf{u}_n)$ là một chuỗi mà các số hạng thuộc một không gian định chuẩn đầy đủ $\mathbf{E}$, sao cho $\mathbf{u}_n$ có một khai triển tiệm cận đến cấp chính xác $g_\alpha$ đối với thang $\mathcal{E}'$ gồm các hạn chế lên $\mathbf{N}$ của các hàm trong $\mathcal{E}$:
+Với $x$ thực tiến tới $+\infty$ hãy gọi $\mathscr{E}$ là một thang so sánh gồm các hàm, mỗi hàm được xác định trên một *khoảng toàn phần* $[x_0, +\infty[$ (phụ thuộc vào hàm) và $\geq 0$ trên khoảng này. Cho $(\mathbf{u}_n)$ là một chuỗi mà các số hạng thuộc một không gian định chuẩn đầy đủ $\mathbf{E}$, sao cho $\mathbf{u}_n$ có một khai triển tiệm cận đến cấp chính xác $g_\alpha$ đối với thang $\mathscr{E}'$ gồm các hạn chế lên $\mathbf{N}$ của các hàm trong $\mathscr{E}$:
 
 $$
 \mathbf{u}_n = \sum_{\lambda \leq \alpha} \mathbf{a}_\lambda g_\lambda(n) + \mathbf{r}_\alpha(n).
 $$
 
-Giả sử rằng mọi tổng riêng phần $\sum_{m=1}^n g(m)$, trong đó $g \in \mathcal{E}$, đều có một khai triển tiệm cận đối với $\mathcal{E}'$. Khi đó có thể thu được một khai triển tiệm cận của các $s_n = \sum_{m=1}^n \mathbf{u}_m$ đối với $\mathcal{E}'$; ở đây nữa ta phân biệt hai trường hợp:
+Giả sử rằng mọi tổng riêng phần $\sum_{m=1}^n g(m)$, trong đó $g \in \mathscr{E}$, đều có một khai triển tiệm cận đối với $\mathscr{E}'$. Khi đó có thể thu được một khai triển tiệm cận của các $s_n = \sum_{m=1}^n \mathbf{u}_m$ đối với $\mathscr{E}'$; ở đây nữa ta phân biệt hai trường hợp:
 
 1° $\sum_{n=1}^{\infty} g_{\alpha}(n) = +\infty$. Khi đó (V, p. 237, mệnh đề 2) ta có $\sum_{m=1}^{n} r_{\alpha}(m) \ll \sum_{m=1}^{n} g_{\alpha}(m)$:
 theo giả thiết, có thể thu được một khai triển tiệm cận của
@@ -110,7 +110,7 @@ $$
 $$
 với độ chính xác $g_{\rho}$ thì do đó suy ra được một khai triển tiệm cận của $s_{n}$ với độ chính xác $g_{\min(\rho,\sigma)}$.
 
-Do đó ta được dẫn tới trường hợp riêng của các chuỗi $(g(n))$ trong đó $g \in \mathcal{E}$. Ta sẽ thấy rằng, với những điều kiện nào đó, có thể thu được ngay một phần chính của $s_{n} = \sum_{m=1}^{n} g(m)$ (khi $\sum_{n=1}^{\infty} g(n) = +\infty$) hoặc của $r_{n} = \sum_{m=n+1}^{\infty} g(m)$ (khi $\sum_{n=1}^{n} g(n) < +\infty$).
+Do đó ta được dẫn tới trường hợp riêng của các chuỗi $(g(n))$ trong đó $g \in \mathscr{E}$. Ta sẽ thấy rằng, với những điều kiện nào đó, có thể thu được ngay một phần chính của $s_{n} = \sum_{m=1}^{n} g(m)$ (khi $\sum_{n=1}^{\infty} g(n) = +\infty$) hoặc của $r_{n} = \sum_{m=n+1}^{\infty} g(m)$ (khi $\sum_{n=1}^{n} g(n) < +\infty$).
 
 #### Mệnh đề 6 {#fvr-v-s4-prop-6 .statement}
 
@@ -184,7 +184,7 @@ $$
 s_n = g(n) + g(n-1) + \cdots + g(n-p) + o(g(n-p))
 $$
 
-và chỉ cần khai triển (đối với $\mathcal{E}'$) mỗi hàm trong các hàm $g(n-k)$ ($0 \leq k \leq p$), bằng cách giới hạn độ chính xác của các khai triển tới phần chính của $g(n-p)$, để thu được một khai triển của $s_n$.
+và chỉ cần khai triển (đối với $\mathscr{E}'$) mỗi hàm trong các hàm $g(n-k)$ ($0 \leq k \leq p$), bằng cách giới hạn độ chính xác của các khai triển tới phần chính của $g(n-p)$, để thu được một khai triển của $s_n$.
 
 #### Ví dụ {#fvr-v-s4-n2-exa-1 .statement}
 
@@ -218,9 +218,9 @@ Bây giờ nếu $g$ có cấp hữu hạn $\mu$ đối với $e^x$, và nếu, 
 $$
 s_n = \frac{\mu}{1 - e^{-\mu}} \int_1^n g(t)\, dt + \sum_{m=1}^n f_1(m)
 $$
-trong đó $f_1(n) = g(n) - \frac{\mu}{1 - e^{-\mu}} \int_1^n g(t)\, dt \ll g(n)$ theo mệnh đề 6 của V, p. 239. Nếu ta có một phần chính $c g_1(n)$ của $f_1(n)$ đối với $\mathcal{E}'$, và nếu ta lại có thể áp dụng mệnh đề 6 cho hàm $g_1$ thì ta sẽ thu được một nguyên hàm tương đương với $\sum_{m=1}^n f_1(m)$ nếu $\sum_{n=1}^\infty g_1(n) = +\infty$, và tương đương với $\sum_{m=n+1}^\infty f_1(m)$ trong trường hợp đối (trong trường hợp sau, ta viết $\sum_{m=1}^n f_1(m) = C - \sum_{m=n+1}^\infty f_1(m)$, với $C = \sum_{n=1}^\infty f_1(n)$).
+trong đó $f_1(n) = g(n) - \frac{\mu}{1 - e^{-\mu}} \int_1^n g(t)\, dt \ll g(n)$ theo mệnh đề 6 của V, p. 239. Nếu ta có một phần chính $c g_1(n)$ của $f_1(n)$ đối với $\mathscr{E}'$, và nếu ta lại có thể áp dụng mệnh đề 6 cho hàm $g_1$ thì ta sẽ thu được một nguyên hàm tương đương với $\sum_{m=1}^n f_1(m)$ nếu $\sum_{n=1}^\infty g_1(n) = +\infty$, và tương đương với $\sum_{m=n+1}^\infty f_1(m)$ trong trường hợp đối (trong trường hợp sau, ta viết $\sum_{m=1}^n f_1(m) = C - \sum_{m=n+1}^\infty f_1(m)$, với $C = \sum_{n=1}^\infty f_1(n)$).
 
-Từng bước một, do đó rốt cuộc có thể thu được một biểu thức của $s_n$ dưới dạng tổng của một số nhất định nguyên hàm, mỗi nguyên hàm đều không đáng kể đối với nguyên hàm đứng trước, của một số hạng còn lại không đáng kể đối với nguyên hàm cuối cùng đã viết, và cuối cùng là một hằng số (trường hợp số hạng dư tiến tới 0). Khi đó còn phải khai triển mỗi nguyên hàm thu được theo $\mathcal{E}'$ (x. V, p. 235).
+Từng bước một, do đó rốt cuộc có thể thu được một biểu thức của $s_n$ dưới dạng tổng của một số nhất định nguyên hàm, mỗi nguyên hàm đều không đáng kể đối với nguyên hàm đứng trước, của một số hạng còn lại không đáng kể đối với nguyên hàm cuối cùng đã viết, và cuối cùng là một hằng số (trường hợp số hạng dư tiến tới 0). Khi đó còn phải khai triển mỗi nguyên hàm thu được theo $\mathscr{E}'$ (x. V, p. 235).
 
 #### Ví dụ {#fvr-v-s4-n2-exa-2 .statement}
 

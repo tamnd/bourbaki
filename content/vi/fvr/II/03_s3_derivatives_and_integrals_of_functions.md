@@ -36,7 +36,7 @@ subsections:
       pdf_page: 91
 statements: 17
 exercises: 10
-content_sha256: 9546936bea626722ef1defb300bf180078c7b29ccbe56245a5ed5d81cce979a3
+content_sha256: e94a10c90446ef787b458af28236978206e6a6bac5ed0e35e04c91df363a6c6b
 translated_from: content/en/fvr/II/03_s3_derivatives_and_integrals_of_functions.md
 source_content_sha256: 62bb6cd48dfc0b7f2b01d57475721e621137ba34388ad9ae689438f7ab394731
 translation_model: gpt-5.4, copied
@@ -99,7 +99,7 @@ Ví dụ, nếu $f_n$ là hàm điều hòa trên $]0,\ 1[$, được xác đị
 
 Mặt khác, trên khoảng *không bị chặn* $I = [0, +\infty[$, cho $f_n$ là hàm điều tiết sao cho $f_n(x) = 1/n$ với $n^2 \leq x \leq (n+1)^2$ và $f_n(x) = 0$ với mọi giá trị khác của $x$ trong $I$ ($n \geq 1$); dãy $(f_n)$ hội tụ đều về 0 trên $I$, nhưng nguyên $\int_0^{+\infty} f_n(t) \, dt = (2n+1)/n$ tiến tới 2 khi $n$ tăng vô hạn.
 
-Nói cách khác, khi $I$ không bị chặn, nếu ký hiệu bởi $\mathcal{I}$ không gian vectơ tạo bởi các hàm điều chỉnh $\mathbf{f}$ trên $I$, nhận giá trị trong $E$, và chấp nhận được một tích phân trên $I$, thì ánh xạ $\mathbf{f} \mapsto \int_I \mathbf{f}(t) \, dt$ *không liên tục* khi ta trang bị cho $\mathcal{I}$ tôpô hội tụ đều trên $I$ (*x.* II, p. 53, hệ quả 2)
+Nói cách khác, khi $I$ không bị chặn, nếu ký hiệu bởi $\mathscr{I}$ không gian vectơ tạo bởi các hàm điều chỉnh $\mathbf{f}$ trên $I$, nhận giá trị trong $E$, và chấp nhận được một tích phân trên $I$, thì ánh xạ $\mathbf{f} \mapsto \int_I \mathbf{f}(t) \, dt$ *không liên tục* khi ta trang bị cho $\mathscr{I}$ tôpô hội tụ đều trên $I$ (*x.* II, p. 53, hệ quả 2)
 
 Ta sẽ tìm các điều kiện *đủ* để bảo đảm tính đúng đắn của mệnh đề 1, dưới các giả thiết sau:
 
@@ -139,7 +139,7 @@ $$
 \left| \int_K \mathbf{f}_\alpha(t)\,dt \right| \leq \varepsilon.
 $$
 
-Định nghĩa này tương đương với việc nói rằng họ các ánh xạ $\alpha \mapsto \int_I \mathbf{f}_\alpha(t)\,dt$ *hội tụ đều trên $A$* (về ánh xạ $\alpha \mapsto \int_I \mathbf{f}_\alpha(t)\,dt$) đối với bộ lọc các thiết diện $\Phi$ của $\mathcal{K}(I)$; mỗi một trong các tích phân $\int_I \mathbf{f}_\alpha(t)\,dt$ *a fortiori* là hội tụ (đảo lại là sai). Hơn nữa, từ điều ta vừa thấy (hoặc từ *Gen. Top.*, X, p. 281, hệ quả 2):
+Định nghĩa này tương đương với việc nói rằng họ các ánh xạ $\alpha \mapsto \int_I \mathbf{f}_\alpha(t)\,dt$ *hội tụ đều trên $A$* (về ánh xạ $\alpha \mapsto \int_I \mathbf{f}_\alpha(t)\,dt$) đối với bộ lọc các thiết diện $\Phi$ của $\mathscr{K}(I)$; mỗi một trong các tích phân $\int_I \mathbf{f}_\alpha(t)\,dt$ *a fortiori* là hội tụ (đảo lại là sai). Hơn nữa, từ điều ta vừa thấy (hoặc từ *Gen. Top.*, X, p. 281, hệ quả 2):
 
 #### Mệnh đề 3 {#fvr-ii-s3-prop-3 .statement}
 
@@ -346,7 +346,7 @@ $$
 \int_c^d d\alpha \int_I f(t, \alpha) dt = \int_I dt \int_c^d f(t, \alpha) d\alpha.
 $$
 
-Với mọi khoảng compắc J được chứa trong I, đặt $u_J(\alpha) = \int_J f(t, \alpha) dt$. Giả thiết kéo theo rằng đối với bộ lọc các thiết diện $\Phi$ của tập có hướng $\mathcal{K}(I)$ thì hàm liên tục $u_J$ hội tụ đều trên A tới $\int_I f(t, \alpha) dt$; do đó (II, p. 68, prop. 1), $\int_c^d d\alpha \int_J f(t, \alpha) dt$ có giới hạn $\int_c^d d\alpha \int_I f(t, \alpha) dt$ đối với $\Phi$; nhưng, theo mệnh đề 8 (II, p. 77), ta có
+Với mọi khoảng compắc J được chứa trong I, đặt $u_J(\alpha) = \int_J f(t, \alpha) dt$. Giả thiết kéo theo rằng đối với bộ lọc các thiết diện $\Phi$ của tập có hướng $\mathscr{K}(I)$ thì hàm liên tục $u_J$ hội tụ đều trên A tới $\int_I f(t, \alpha) dt$; do đó (II, p. 68, prop. 1), $\int_c^d d\alpha \int_J f(t, \alpha) dt$ có giới hạn $\int_c^d d\alpha \int_I f(t, \alpha) dt$ đối với $\Phi$; nhưng, theo mệnh đề 8 (II, p. 77), ta có
 
 $$
 \int_c^d d\alpha \int_J f(t, \alpha) dt = \int_J dt \int_c^d f(t, \alpha) d\alpha.
