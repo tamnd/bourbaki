@@ -42,9 +42,9 @@ subsections:
       pdf_page: 273
 statements: 17
 exercises: 1
-content_sha256: f516c59257b887d07c4d5f3781848a80da47e79f473e759ee97e3fa85eddaa36
+content_sha256: ebe15b0b2a031694cd0c2d9496cd785522f3160aaddb1b9e97839a39b9774ede
 translated_from: content/en/ens/IV/01_s1_structures_and_isomorphisms.md
-source_content_sha256: cb0ba0aa51c27cd635da1ba9e5c5d3b4143cd0a7ff9702c62051fac7eeb01b20
+source_content_sha256: b1a8e2e22b63f48225281d0009294434de0101ab0a5eb0b72456f29c62b1cc54
 translation_model: gpt-5.4-mini, gpt-5.4
 translation_run: translate-vi-f9b66ecd
 glossary_version: 34
@@ -194,7 +194,7 @@ Loài cấu trúc này được gọi là *loài các cấu trúc tôpô*. Một
 
 #### Ví dụ 4 {#ens-iv-s1-n4-exa-4 .statement tag=03V8}
 
-Lấy $\mathscr{T}$ là lý thuyết của loài các cấu trúc vành chia, loài này có (trong những thứ khác) một hằng K làm tập hợp cơ sở (chính) duy nhất. Loài cấu trúc của một *không gian vectơ trái trên* K có K làm tập hợp cơ sở phụ, một tập hợp cơ sở chính E, và có như đặc trưng hóa điển hình quan hệ
+\* Lấy $\mathscr{T}$ là lý thuyết của loài các cấu trúc vành chia, loài này có (trong những thứ khác) một hằng K làm tập hợp cơ sở (chính) duy nhất. Loài cấu trúc của một *không gian vectơ trái trên* K có K làm tập hợp cơ sở phụ, một tập hợp cơ sở chính E, và có như đặc trưng hóa điển hình quan hệ
 
 $$V \in \mathfrak{P}((E \times E) \times E) \times \mathfrak{P}((K \times E) \times E)$$
 
@@ -290,6 +290,8 @@ và cho $F'_j=U_j\{E'_1,\ldots,E'_n,\mathscr{G}'\}$ $(1\leq j\leq r)$. Khi đó 
 
 Hiển nhiên là các hạng $x_1,\ldots,x_n$ là nội tại đối với $s$. Trong nhiều trường hợp, các hạng $U_1,\ldots,U_r$ là một số chữ trong các chữ $x_1,\ldots,x_n$; khi đó cấu trúc thuộc loài $\Theta$ suy ra từ $s$ bởi thủ tục $P$ được gọi là một cấu trúc nền của $s$.
 
+*Ví dụ*
+
 #### Ví dụ 1 {#ens-iv-s1-n6-exa-1 .statement tag=03VE}
 
 \* Loài các cấu trúc nhóm tôpô có một tập hợp cơ sở chính duy nhất $A$, không có tập hợp cơ sở phụ, và cấu trúc điển hình tương ứng là một cặp $(s_1,s_2)$ ($s_1$ là đồ thị của luật hợp thành trên $A$, và $s_2$ là tập hợp các tập mở trong tôpô của $A$; xem General Topology, Chương III, § 1). Mỗi hạng trong các hạng $s_1,s_2$ là một thủ tục suy diễn và lần lượt cho cấu trúc nhóm và tôpô nền của cấu trúc nhóm tôpô $(s_1,s_2)$.
@@ -344,6 +346,8 @@ Nếu $U$ là một cấu trúc thuộc loài $\Sigma$, thì cấu trúc suy ra 
 CST7. *Cho $\mathscr{Y},\mathscr{Y}'$ là hai cấu trúc thuộc loài $\Sigma$ trên các tập cơ sở chính tương ứng $(E_1,\ldots,E_n),(E'_1,\ldots,E'_n)$. Cho $\mathscr{Y}_0,\mathscr{Y}'_0$ là các cấu trúc thuộc loài $\Theta$ tương đương tương ứng với $\mathscr{Y}$ và $\mathscr{Y}'$. Để $(g_1,\ldots,g_n)$ là một đẳng cấu đối với các cấu trúc $\mathscr{Y}_0$ và $\mathscr{Y}'_0$, điều kiện cần và đủ là $(g_1,\ldots,g_n)$ là một đẳng cấu đối với các cấu trúc $\mathscr{Y}$ và $\mathscr{Y}'$.*
 
 Trong thực hành, ta không phân biệt giữa các lý thuyết $\mathscr{T}_{\Sigma}$ và $\mathscr{T}_{\Theta}$ của hai loài cấu trúc tương đương.
+
+*Ví dụ*
 
 #### Ví dụ 1 {#ens-iv-s1-n7-exa-1 .statement tag=03VI}
 

@@ -52,9 +52,9 @@ errata:
     - says: Corollary 2 to Proposition 5
       read: Corollary 2 to Proposition 6
       why: The same reference as the two above, written the other way round on page 109, and wrong the same way.
-content_sha256: 473336ce0226d18ce1fa154641fff4823af28e4c398acf19e75c4cd9abc1d35a
+content_sha256: 33a004bbf62c979f3138bca23de87b498c172264fb0a8046e1cb5156873b6deb
 translated_from: content/en/ens/II/05_s5_product_of_a_family_of_sets.md
-source_content_sha256: 6393d275988966957f40f77915a91adb15df38100389f3da1b06130ef11ecd50
+source_content_sha256: 0301ddc64f4634b2f737e77987e840c82975f71ef423fb30f170e6510997d48c
 translation_model: gpt-5.4
 translation_run: translate-vi-3107348b
 glossary_version: 34
@@ -110,7 +110,7 @@ là đơn ánh.
 
 *Nếu $u$ là một song ánh từ $E'$ lên $E$ và $v$ là một song ánh từ $F$ lên $F'$, thì $f \mapsto v \circ f \circ u$ là song ánh.*
 
-Cho $A$, $B$, $C$ là ba tập hợp và cho $f$ là một ánh xạ từ $B \times C$ vào $A$. Với mỗi $y \in C$, gọi $f(\mathord{\cdot}, y)$ là ánh xạ bộ phận $x \mapsto f(x,y)$ từ $B$ vào $A$ (§ 3, no. 9); hàm $y \mapsto f(\mathord{\cdot}, y)$ là một ánh xạ từ $C$ vào $\mathscr{F}(B, A)$ tồn tại một ánh xạ duy nhất $f$ từ $\mathrm{B} \times \mathrm{C}$ vào A sao cho $g(y) = f(\bullet, y)$ với mọi $y \in \mathrm{C}$, cụ thể là ánh xạ $(x, y) \to (g(y))(x)$. Do đó :
+Cho $A$, $B$, $C$ là ba tập hợp và cho $f$ là một ánh xạ từ $B \times C$ vào $A$. Với mỗi $y \in C$, gọi $f(\mathord{\cdot}, y)$ là ánh xạ bộ phận $x \mapsto f(x,y)$ từ $B$ vào $A$ (§ 3, no. 9); hàm $y \mapsto f(\mathord{\cdot}, y)$ là một ánh xạ từ $C$ vào $\mathscr{F}(B, A)$. Ngược lại, với mỗi ánh xạ $g$ từ $C$ vào $\mathscr{F}(B, A)$ tồn tại một ánh xạ duy nhất $f$ từ $\mathrm{B} \times \mathrm{C}$ vào A sao cho $g(y) = f(\bullet, y)$ với mọi $y \in \mathrm{C}$, cụ thể là ánh xạ $(x, y) \to (g(y))(x)$. Do đó :
 
 #### Mệnh đề 3 {#ens-ii-s5-prop-3 .statement tag=03Q7}
 

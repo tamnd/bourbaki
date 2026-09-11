@@ -66,9 +66,9 @@ subsections:
       pdf_page: 153
 statements: 52
 exercises: 24
-content_sha256: 48e54e30e846cde922d53d5cd62e4d8034d1d0e2eb2acb6e9d925fc19692fb7c
+content_sha256: 15e34b6feb0a56038abe1e9bc6fd5eddb9856507a2599453410ac33dc2edad3b
 translated_from: content/en/ens/III/01_s1_order_relations_ordered_sets.md
-source_content_sha256: dcf5b22649cb0eac4cf9ac3e2ac260375cc8586fc48653ab2f306ed22a25c53d
+source_content_sha256: 0ce49f6ed168f45d0951df56c7618b1d782b287ef9ecaf9b7f2bac23d82c4e7a
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-5ce4d6eb
 glossary_version: 34
@@ -324,11 +324,11 @@ Trong tập hợp $\Phi(E, F)$ các ánh xạ từ các tập con của E vào F
 
 #### Ví dụ 3 {#ens-iii-s1-n6-exa-3 .statement tag=03SO}
 
-Trong tập hợp các số nguyên tự nhiên $> 1$, được sắp thứ tự bởi quan hệ "$m$ divides $n$" giữa $m$ và $n$, các phần tử cực tiểu là các số nguyên tố. $_*$
+\* Trong tập hợp các số nguyên tự nhiên $> 1$, được sắp thứ tự bởi quan hệ "$m$ divides $n$" giữa $m$ và $n$, các phần tử cực tiểu là các số nguyên tố. $_*$
 
 #### Ví dụ 4 {#ens-iii-s1-n6-exa-4 .statement tag=03SP}
 
-Tập hợp các số thực không có phần tử cực đại và không có phần tử cực tiểu. $_*$
+\* Tập hợp các số thực không có phần tử cực đại và không có phần tử cực tiểu. $_*$
 
 ### 7. PHẦN TỬ LỚN NHẤT VÀ PHẦN TỬ NHỎ NHẤT
 
@@ -474,7 +474,7 @@ là một cận trên của A; do đó $c' \geqslant a$ và vì thế $a'_\varka
 
 #### Ví dụ 1 {#ens-iii-s1-n9-exa-1 .statement tag=03SS}
 
-Trong tập hợp có thứ tự $E = \mathbf{R}$ của các số thực, xét tập con $F = \mathbf{Q}$ của các số hữu tỉ và tập hợp $A \subset F$ gồm các số hữu tỉ $< \sqrt{2}$; $\sup_E A$ tồn tại nhưng $\sup_F A$ không tồn tại.
+\* Trong tập hợp có thứ tự $E = \mathbf{R}$ của các số thực, xét tập con $F = \mathbf{Q}$ của các số hữu tỉ và tập hợp $A \subset F$ gồm các số hữu tỉ $< \sqrt{2}$; $\sup_E A$ tồn tại nhưng $\sup_F A$ không tồn tại.
 
 #### Ví dụ 2 {#ens-iii-s1-n9-exa-2 .statement tag=03ST}
 
@@ -525,7 +525,7 @@ Mọi tích của các dàn đều là một dàn; điều này suy ra từ đi�
 
 #### Ví dụ 1 {#ens-iii-s1-n11-exa-1 .statement tag=03SV}
 
-Tập hợp các số nguyên $\geqslant 1$, có thứ tự theo quan hệ “$m$ chia hết $n$” giữa $m$ và $n$, là một dàn; cận trên nhỏ nhất của $\{m,n\}$ là bội chung nhỏ nhất của $m$ và $n$, và cận dưới lớn nhất là ước chung lớn nhất của chúng.
+\* Tập hợp các số nguyên $\geqslant 1$, có thứ tự theo quan hệ “$m$ chia hết $n$” giữa $m$ và $n$, là một dàn; cận trên nhỏ nhất của $\{m,n\}$ là bội chung nhỏ nhất của $m$ và $n$, và cận dưới lớn nhất là ước chung lớn nhất của chúng.
 
 #### Ví dụ 2 {#ens-iii-s1-n11-exa-2 .statement tag=03TT}
 
@@ -565,7 +565,7 @@ Cho E là một tập hợp có thứ tự tùy ý. Tập con rỗng của E đ�
 
 #### Ví dụ 3 {#ens-iii-s1-n12-exa-3 .statement tag=03TX}
 
-Tập $\mathbf{R}$ các số thực được sắp thứ tự toàn phần. \*
+\* Tập $\mathbf{R}$ các số thực được sắp thứ tự toàn phần. \*
 
 #### Ví dụ 4 {#ens-iii-s1-n12-exa-4 .statement tag=03TY}
 

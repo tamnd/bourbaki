@@ -17,12 +17,12 @@ Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 
 | mathematics | 10 | 5 | 0 | M03 (2), M06 (6), M13 (48), M14 (2703) |
 | figures | 6 | 0 | 0 | F01 (158) |
 | references | 3 | 0 | 0 | R01 (3369), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1392), L03 (14), L04 (10), L05 (283), L06 (2017), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
+| translation | 13 | 3 | 1 | L01 (1392), L03 (14), L04 (10), L05 (275), L06 (2017), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-29895 hard findings and 11284 soft, over 76 rules that ran and 2 that could not.
+29887 hard findings and 11284 soft, over 76 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -425,7 +425,7 @@ Hard, translation.
 - `content/en-mt/alg/X/04_s4_produits_de_torsion.md:1` has 12 of kind cor and the English has 13
 - `content/en-mt/alg/X/04_s4_produits_de_torsion.md:1` has 2 of kind thm and the English has 3
 
-## L05 source_content_sha256 is the English hash as it stands (283)
+## L05 source_content_sha256 is the English hash as it stands (275)
 
 Hard, translation.
 
@@ -455,7 +455,7 @@ Hard, translation.
 - `content/en-mt/ac/X/exercises/s3/15.md:1` was translated from e1d5632a6cf2 and content/fr/ac/X/exercises/s3/15.md is now 606721c30f3d, so it is stale
 - `content/en-mt/ac/X/exercises/s4/03.md:1` was translated from f999f7d30113 and content/fr/ac/X/exercises/s4/03.md is now 420c19400bdc, so it is stale
 
-and 258 more, which `bourbaki audit -only L05` prints in full.
+and 250 more, which `bourbaki audit -only L05` prints in full.
 
 ## L06 the glossary is followed (2017)
 

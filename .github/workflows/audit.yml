@@ -162,7 +162,7 @@ jobs:
       # The count was zero when this step was written, and this step then sat
       # behind a tags verify that failed on every branch from August on, so it
       # has not run on a pull request since. It was 31555 when the ceiling went
-      # in and is 29895 now, and #391 has the breakdown: 23308 of them are T03,
+      # in and is 29887 now, and #391 has the breakdown: 23308 of them are T03,
       # the statements waiting to be tagged, and most of the rest is volumes
       # that are not read through yet. The 1529 that have come off since are the
       # small mathematics rules read to nothing, the 102 seals the sweeps left
@@ -220,6 +220,17 @@ jobs:
       # that remain are sources whose words moved, and those want a translation
       # and not a seal.
       #
+      # The third is 29895 to 29887, also all L05, 283 to 275, and that is the
+      # end of #164: the eight Theory of Sets sections left of its thirty nine.
+      # Their drift turned out not to be new mathematics but the asterisk
+      # convention -- Bourbaki's mark on a passage that leans on a later Book --
+      # and the Example headings lifted out of run-in numbering. The Vietnamese
+      # had the headings already, from #344, and was missing eleven of the
+      # asterisks and three of the *Examples* markers. Those were carried across
+      # by hand and recorded with bourbaki fix retranslated, which takes one
+      # named path per file and prints the drift it is answering for. L01, L03,
+      # L04 and L07 do not move: 1392, 14, 10 and 21 before and after.
+      #
       # The second time it went up is 30026 to 30032, for the second fascicule of
       # Variétés. Paragraphes 8 à 15 had been read and committed under pages/
       # for months and had never been assembled, which is #356; the eight
@@ -250,7 +261,7 @@ jobs:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: |
           if go run ./cmd/bourbaki audit -validate-tex -report reports/audit.md \
-               -json "$RUNNER_TEMP/audit.json" -max-hard 29895; then
+               -json "$RUNNER_TEMP/audit.json" -max-hard 29887; then
             echo "status=0" >> "$GITHUB_OUTPUT"
           else
             echo "status=$?" >> "$GITHUB_OUTPUT"

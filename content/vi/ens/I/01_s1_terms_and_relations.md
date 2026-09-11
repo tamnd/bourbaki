@@ -32,7 +32,7 @@ statements: 5
 exercises: 6
 content_sha256: 83fb05f03ae0fe9178ceaa09408161d84de142a688363d3cf9314bc2bc79c323
 translated_from: content/en/ens/I/01_s1_terms_and_relations.md
-source_content_sha256: 0ee801130c4937b60178227e19ee4a8160108632ae38780ac29f1c6072b194de
+source_content_sha256: 61e68e051b5a7487b41eb0ce12906897bb980d7a082ba6f7156b2efd9c15ed66
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5-mini, gpt-5.4-mini
 translation_run: translate-vi-5cba219d
 glossary_version: 34

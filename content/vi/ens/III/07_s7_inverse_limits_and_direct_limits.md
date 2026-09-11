@@ -46,9 +46,9 @@ errata:
     - says: no. 2, Proposition 2, Corollary 2
       read: no. 2, Proposition 1, Corollary 2
       why: The fact cited on page 197 is that the maps of an inverse system compose, h to the lambda nu being h to the lambda mu after h to the mu nu, and that is Corollary 2 of Proposition 1 of no. 2, the corollary on three inverse systems. Proposition 2 of that no. prints one corollary and it carries no number.
-content_sha256: 7299f1fb581ecb6de8be52f2d2fb06b75994a6c4df61318028d702d439439803
+content_sha256: 860a916302a608f5119855ca54ecfa37a8633de3b44986915a46cb8261752455
 translated_from: content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md
-source_content_sha256: 463649fb0b2134410a16a31ed5ad5ddcb6c52b640e4c4e568f6e5c66461a51fa
+source_content_sha256: 32f34a0e7e91e7e94cb6dacf6471b60fe7158e208c5d0e1bd2901e3f619ccda7
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-00d7eec5
 glossary_version: 34
@@ -407,7 +407,7 @@ Nếu các $E_\alpha$ là các tập hợp *hữu hạn*, thì Định lý 1 có
 
 #### Ví dụ 2 {#ens-iii-s7-n4-exa-2 .statement tag=03TL}
 
-Cho A là một vành có một phần tử đơn vị, và với mỗi $\alpha \in I$ cho $T_\alpha$ là một A-môđun trái *Artin*. Gọi $E_\alpha$ là một *không gian thuần nhất* của $T_\alpha$ mà trên đó $T_\alpha$ tác động một cách trung thành (để $E_\alpha$ là một *không gian afin* gắn với $T_\alpha$). Với $\beta \geqslant \alpha$, giả sử rằng $f_{\alpha\beta} : E_\beta \to E_\alpha$ là một *ánh xạ afin*. Lấy $\mathfrak{S}_\alpha$ là tập hợp gồm tập rỗng và các *đa tạp afin tuyến tính* trong $E_\alpha$. Khi đó điều kiện (i) hiển nhiên được thỏa mãn, và (ii) suy ra từ việc $T_\alpha$ là Artin; vì điều này kéo theo rằng tồn tại một phần tử cực tiểu trong tập hợp các giao hữu hạn của các tập hợp $M \in \mathfrak{F}$, và phần tử cực tiểu này phải bằng $\bigcap_{M \in \mathfrak{F}} M$. Sau hết, vì $f_{\alpha\beta}$ là afin, các điều kiện (iii) và (iv) hiển nhiên được thỏa mãn. \*
+\* Cho A là một vành có một phần tử đơn vị, và với mỗi $\alpha \in I$ cho $T_\alpha$ là một A-môđun trái *Artin*. Gọi $E_\alpha$ là một *không gian thuần nhất* của $T_\alpha$ mà trên đó $T_\alpha$ tác động một cách trung thành (để $E_\alpha$ là một *không gian afin* gắn với $T_\alpha$). Với $\beta \geqslant \alpha$, giả sử rằng $f_{\alpha\beta} : E_\beta \to E_\alpha$ là một *ánh xạ afin*. Lấy $\mathfrak{S}_\alpha$ là tập hợp gồm tập rỗng và các *đa tạp afin tuyến tính* trong $E_\alpha$. Khi đó điều kiện (i) hiển nhiên được thỏa mãn, và (ii) suy ra từ việc $T_\alpha$ là Artin; vì điều này kéo theo rằng tồn tại một phần tử cực tiểu trong tập hợp các giao hữu hạn của các tập hợp $M \in \mathfrak{F}$, và phần tử cực tiểu này phải bằng $\bigcap_{M \in \mathfrak{F}} M$. Sau hết, vì $f_{\alpha\beta}$ là afin, các điều kiện (iii) và (iv) hiển nhiên được thỏa mãn. \*
 
 ### 5. GIỚI HẠN TRỰC TIẾP
 

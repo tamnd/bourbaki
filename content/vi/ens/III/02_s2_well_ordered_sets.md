@@ -38,9 +38,9 @@ subsections:
       pdf_page: 163
 statements: 28
 exercises: 20
-content_sha256: fba7dd484550b0288ce9f4e7a9a303768d957fc3bb436408371f8833fec4579f
+content_sha256: f8fc0e20a9c3f3a7eb7da1282ca9d061f3208dbd4703fe749fe1c71674a4ba21
 translated_from: content/en/ens/III/02_s2_well_ordered_sets.md
-source_content_sha256: c4d656736e563f6ac82971fd4e1ec144ad45c95e80a8241c21c0579eaa1576cb
+source_content_sha256: 1ca0af6bba0dc81ea81d456d04144c5394ceaf1e77570677f48682a2d16e5410
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-25341e40
 glossary_version: 34
@@ -74,7 +74,7 @@ Mọi tập con (đặc biệt là tập con rỗng) của một tập được 
 
 #### Ví dụ 3 {#ens-iii-s2-n1-exa-3 .statement tag=03SZ}
 
-Sự tồn tại của các tập hợp được sắp thứ tự toàn phần nhưng không được sắp thứ tự tốt tương đương với tiên đề vô hạn (§ 4, no. 4, Hệ quả 1 của Mệnh đề 3, và Bài tập 3).
+\* Sự tồn tại của các tập hợp được sắp thứ tự toàn phần nhưng không được sắp thứ tự tốt tương đương với tiên đề vô hạn (§ 4, no. 4, Hệ quả 1 của Mệnh đề 3, và Bài tập 3).
 
 #### Ví dụ 4 {#ens-iii-s2-n1-exa-4 .statement tag=03T0}
 
@@ -230,7 +230,7 @@ Một ví dụ quan trọng về một tập hợp các tập con là quy nạp 
 
 #### Ví dụ 3 {#ens-iii-s2-n4-exa-3 .statement tag=03T4}
 
-Từ tiên đề vô hạn (§ 6, no. 1) suy ra rằng tập được sắp tốt các số nguyên tự nhiên không là quy nạp đối với quan hệ $\leqslant$. \*
+\* Từ tiên đề vô hạn (§ 6, no. 1) suy ra rằng tập được sắp tốt các số nguyên tự nhiên không là quy nạp đối với quan hệ $\leqslant$. \*
 
 #### Định lý 2 ("Bổ đề Zorn") {#ens-iii-s2-thm-2 .statement tag=03QT}
 

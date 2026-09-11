@@ -50,9 +50,9 @@ subsections:
       pdf_page: 128
 statements: 13
 exercises: 11
-content_sha256: 5275117c1933bf256a07b849a9744bdfef7399a80ff01615c7685f2b15dc5823
+content_sha256: d523b0972be2e920463b5c713cad5c42003842827807a608de15062b90233997
 translated_from: content/en/ens/II/06_s6_equivalence_relations.md
-source_content_sha256: 6bc9ceffca6d2226ba430227dbf5798495a6ee810349140ce93677c7c35070e9
+source_content_sha256: e6575e4e849279138a1a581ab84cb1b482758b417a93c62ef93c5b5e7766db0c
 translation_model: gpt-5-6, gpt-5.4
 translation_run: translate-vi-3107348b
 glossary_version: 34
@@ -242,7 +242,7 @@ Quan hệ "$x \in E$ và $y \in E$ và $x = y$" mịn hơn mọi quan hệ tươ
 
 #### Ví dụ 2 {#ens-ii-s6-n7-exa-2 .statement tag=03SG}
 
-Quan hệ tương đương "$x \in \mathbf{Z}$ và $y \in \mathbf{Z}$ và $x - y$ chia được cho 4" mịn hơn quan hệ tương đương "$x \in \mathbf{Z}$ và $y \in \mathbf{Z}$ và $x - y$ chia được cho 2". \*
+\* Quan hệ tương đương "$x \in \mathbf{Z}$ và $y \in \mathbf{Z}$ và $x - y$ chia được cho 4" mịn hơn quan hệ tương đương "$x \in \mathbf{Z}$ và $y \in \mathbf{Z}$ và $x - y$ chia được cho 2". \*
 
 Cho R và S là hai quan hệ tương đương trên cùng một tập hợp E, sao cho S mịn hơn R. Gọi $f$ và $g$ là các ánh xạ chính tắc từ E lên E/R và từ E lên E/S tương ứng; khi đó hàm $f$ tương thích với S. Gọi $h$ là hàm cảm sinh bởi $f$ khi chuyển qua thương đối với S; khi đó $h$ là một ánh xạ từ E/S lên E/R. Quan hệ tương đương liên kết với $h$ trên E/S được gọi là *thương của* R *theo* S và được ký hiệu là R/S. Quan hệ $x \equiv y \pmod{R}$ tương đương với $g(x) \equiv g(y) \pmod{R/S}$, và các lớp tương đương đối với R/S là các ảnh qua $g$ của các lớp tương đương đối với R. Gọi $h = j \circ h_2 \circ h_1$ là phân tích chính tắc (no. 5) của ánh xạ $h$. Khi đó $h_1$ là ánh xạ chính tắc từ E/S lên (E/S)/(R/S), $j$ là ánh xạ đồng nhất của E/R, và $h_2$ là một ánh xạ một-một từ (E/S)/(R/S) lên E/R. Ánh xạ $h_2$ và ánh xạ nghịch đảo của nó được gọi là *chính tắc*.
 

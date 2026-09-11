@@ -34,9 +34,9 @@ subsections:
       pdf_page: 176
 statements: 15
 exercises: 11
-content_sha256: 7faa966c9bbad33a4cbb3fcab0a55d06aef6d94688d0685e38f792567cb3d6ee
+content_sha256: 4aeb27d25c35f74b38910eed7abcb9e5ff4b76ddeb70bc1e5eaf1b0d31fa5a95
 translated_from: content/en/ens/III/04_s4_natural_integers_finite_sets.md
-source_content_sha256: 4a072096ffffd9564c385dad351b447db76172ec442dedd3e07d9c5178c5b614
+source_content_sha256: 6124f77d2424d43d092ed015ee9df777eee17e45957a9f97af290618c63c1a97
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-a06056d0
 glossary_version: 34
@@ -234,13 +234,15 @@ Một tính chất $P\{X\}$ của một tập con $X$ của một tập hợp $E
 
 *Các ví dụ*
 
+*Ví dụ*
+
 #### Ví dụ 1 {#ens-iii-s4-n5-exa-1 .statement tag=03T9}
 
 Tập hợp các tập con được sắp thứ tự toàn phần của một tập hợp có thứ tự $E$ có đặc trưng hữu hạn. Thật vậy, một tập con $X$ của $E$ được sắp thứ tự toàn phần khi và chỉ khi mọi tập con của $X$ gồm hai phần tử đều được sắp thứ tự toàn phần.
 
 #### Ví dụ 2 {#ens-iii-s4-n5-exa-2 .statement tag=03TA}
 
-Tập hợp tất cả các tập con tự do của một môđun có đặc trưng hữu hạn. Điều tương tự cũng đúng đối với tập hợp tất cả các tập con tự do đại số của một mở rộng của một trường.
+\* Tập hợp tất cả các tập con tự do của một môđun có đặc trưng hữu hạn. Điều tương tự cũng đúng đối với tập hợp tất cả các tập con tự do đại số của một mở rộng của một trường.
 
 #### Ví dụ 3 {#ens-iii-s4-n5-exa-3 .statement tag=03TB}
 
