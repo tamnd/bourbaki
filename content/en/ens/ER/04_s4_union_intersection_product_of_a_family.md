@@ -13,7 +13,7 @@ pdf_pages: 0368-0375
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: f9b5a61bff54537ebfed0e8bade3350c49d974cf5c55ab2cbce40ab5f4be65d9
+content_sha256: 4b835593887f6b43eb749a64666773682e6a55745eeea04dc0f501209be0cff8
 ---
 
 ## 4. UNION, INTERSECTION, PRODUCT OF A FAMILY OF SETS
@@ -252,7 +252,7 @@ If, for example, I consists of the three numbers 1, 2, 3, then $\displaystyle\pr
 
 and
 
-“there exists a mapping $f$ of E into F such that $R\{x,f(x)\}$ for all $x”$.
+“there exists a mapping $f$ of E into F such that $R\{x,f(x)\}$ for all $x$”.
 
 The assertion of this equivalence is known as the *axiom of choice* (or *Zermelo’s axiom*). We shall sometimes indicate whether the proof of a theorem depends on it.
 

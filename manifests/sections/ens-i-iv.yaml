@@ -441,7 +441,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: f9b5a61bff54537ebfed0e8bade3350c49d974cf5c55ab2cbce40ab5f4be65d9
+          content_sha256: 4b835593887f6b43eb749a64666773682e6a55745eeea04dc0f501209be0cff8
         - kind: section
           section: 5
           title: Equivalence relations and quotient sets
@@ -467,7 +467,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 011cbefdb53dd46f43be31ed92b067ac148b886f8dc3965f2c33578b74501401
+          content_sha256: 971a0a96b2a9c9ae41e13935799a40e904d52151f935272d34c3c4e23f4b84cc
         - kind: section
           section: 7
           title: Powers. Countable sets

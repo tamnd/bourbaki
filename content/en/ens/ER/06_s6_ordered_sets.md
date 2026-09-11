@@ -13,7 +13,7 @@ pdf_pages: 0378-0385
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 011cbefdb53dd46f43be31ed92b067ac148b886f8dc3965f2c33578b74501401
+content_sha256: 971a0a96b2a9c9ae41e13935799a40e904d52151f935272d34c3c4e23f4b84cc
 ---
 
 ## 6. ORDERED SETS
@@ -39,7 +39,7 @@ If $E$ and $F$ are two sets, which may or may not be distinct, the relation “$
 
 The set $\mathbf{N}$ of natural integers [^1] is ordered by the relation “$x \leq y$”.
 
-3. By analogy with this last example, when a set $E$ is ordered by a relation $\omega\{x,y\}$, it is often convenient to denote the relation $\omega\{x,y\}$ by $x \leq y$, or $y \geq x$; these relations are read “$x$ is less than $y$”, or “$y$ is greater than $x”$ [^2]. The relations “$x<y$” and “$y>x$” (read “$x$ is strictly less than $y$”, or “$y$ is strictly greater than $x$”) are by definition equivalent to “$x\leq y$ and $x\neq y$”.
+3. By analogy with this last example, when a set $E$ is ordered by a relation $\omega\{x,y\}$, it is often convenient to denote the relation $\omega\{x,y\}$ by $x \leq y$, or $y \geq x$; these relations are read “$x$ is less than $y$”, or “$y$ is greater than $x$” [^2]. The relations “$x<y$” and “$y>x$” (read “$x$ is strictly less than $y$”, or “$y$ is strictly greater than $x$”) are by definition equivalent to “$x\leq y$ and $x\neq y$”.
 
 The relation “$x\leq y$” is equivalent to “$x<y$ or $x=y$”. The relation “$x\leq y$ and $y<z$” implies “$x<z$”; similarly, “$x<y$ and $y\leq z$” implies “$x<z$”.
 
