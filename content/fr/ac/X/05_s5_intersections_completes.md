@@ -7,6 +7,7 @@ section: 5
 section_title: Intersections complètes
 lang: fr
 source: ac-x-fr
+book_pages: AC X.165-AC X.168
 pdf_pages: 0061-0069, 0164-0167
 extraction: ocr
 subsections:

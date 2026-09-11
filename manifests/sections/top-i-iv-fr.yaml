@@ -21,7 +21,7 @@ introduction:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: ef9b6947c551a3fa6b2b44bbebf569c6528c8e63389564395e147773c7dae72b
+    content_sha256: 629854a38d894893d469b4dfea8e23f20366b0edbdfcf0b2d746872043ea9c9c
 chapters:
     - chapter: I
       title: STRUCTURES TOPOLOGIQUES
@@ -509,7 +509,7 @@ notation_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: fcb8bfa9b244feeab0945d29d47037b37efbfdcc3a35e10d3fe394a95686c6fc
+    content_sha256: 5f108202910b21f4c6dddba86c797e675b682e35a5e7190afabee3e1c373aa0e
 terminology_index:
     kind: terminology
     title: INDEX TERMINOLOGIQUE

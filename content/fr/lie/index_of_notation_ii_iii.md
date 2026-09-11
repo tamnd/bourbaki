@@ -12,7 +12,7 @@ pdf_pages: 0307-0309
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: b5071b8f9dcde12ebbba4f9bbc297f3d75ca065d4f75f18e9381ff38525bea82
+content_sha256: 41045ccb9a9e258e413dfe7588328ae5c08b6b9e14054a455791e3b425ce59ad
 ---
 
 ## INDEX DES NOTATIONS
@@ -35,18 +35,18 @@ $Lib^δ(X), L^δ(X), L^n(X)$ : II.2.6
 $P_n$ : II.2.7
 $c^n(g)$ : II.2.7
 $H, d_y$ : II.2.10
-$w̄ = Ψ(w)$ : II.2.11
+$\bar{w} = \Psi(w)$ : II.2.11
 $A(X) = A_K(X), A^+(X), Mo(X)$ : II.3
 $π$ : II.3.2
 $(G_α), (G_α^+)$ : II.4.1
 $v$ : II.4.2
 $gr(G), gr_α(G)$ : II.4.3
 $F(X), A(X), A^n(X)$ : II.5
-$Â(X), ω$ : II.5.1
+$\hat{A}(X), \omega$ : II.5.1
 $ε(a)$ : II.5.2
 $l(x), exp(x), log(y)$ : II.6.1
 $e(X), l(X)$ : II.6.1
-$L̂(X)$ : II.6.2
+$\hat{L}(X)$ : II.6.2
 $a ⊕ b$ : II.6.2
 $H, H_n, H_{rs}$ : II.6.4
 

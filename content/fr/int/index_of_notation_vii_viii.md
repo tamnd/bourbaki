@@ -12,7 +12,7 @@ pdf_pages: 0216-0216
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 4c1caa4c5f38a3710a2d9a01e9a8222fb7a86a7813203d6296620c65a6825ffe
+content_sha256: dc2c7c05a531b7516019314edb73534c8a9a1e2512b2336041c7b159ff0f766f
 ---
 
 ## INDEX DES NOTATIONS
@@ -23,7 +23,7 @@ $γ_X(s), γ(s)$ : VII, 1, 1.
 $γ(s)f, γ(s)μ$ (f fonction, μ mesure) : VII, 1, 1.
 $dμ(s^{-1}x)$ : VII, 1, 1.
 $δ_X(s), δ(s), δ(s)f, δ(s)μ, dμ(xs)$ : VII, 1, 1.
-$f̃, ũ, dμ(x^{-1})$ (f fonction, μ mesure) : VII, 1, 1.
+$\tilde{f}, \tilde{u}, d\mu(x^{-1})$ (f fonction, μ mesure) : VII, 1, 1.
 $Δ_G, Δ$ : VII, 1, 3.
 $mod_G φ, mod φ$ (φ automorphisme) : VII, 1, 4.
 $\mathbf{Z}_p$ (p nombre premier) : VII, 1, 6.

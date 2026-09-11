@@ -47,6 +47,7 @@ chapters:
           label: ac-x-s3
           first_pdf_page: 36
           last_pdf_page: 161
+          book_pages: AC X.157-AC X.162
           subsections: 8
           statements: 43
           exercises: 16
@@ -59,6 +60,7 @@ chapters:
           label: ac-x-s4
           first_pdf_page: 52
           last_pdf_page: 164
+          book_pages: AC X.162-AC X.165
           subsections: 5
           statements: 29
           exercises: 13
@@ -71,6 +73,7 @@ chapters:
           label: ac-x-s5
           first_pdf_page: 61
           last_pdf_page: 167
+          book_pages: AC X.165-AC X.168
           subsections: 6
           statements: 20
           exercises: 11

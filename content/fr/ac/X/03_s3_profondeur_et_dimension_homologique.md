@@ -7,6 +7,7 @@ section: 3
 section_title: Profondeur et dimension homologique
 lang: fr
 source: ac-x-fr
+book_pages: AC X.157-AC X.162
 pdf_pages: 0036-0051, 0156-0161
 extraction: ocr
 subsections:

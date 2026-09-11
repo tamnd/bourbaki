@@ -12,14 +12,14 @@ pdf_pages: 0425-0426
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 01b61498c9c73e6ea79d164bd7e0e9b221cfe520d5260995a457ac7be560bd8b
+content_sha256: 8d0a3383bb727326a8b1b72935840c1ac6c076d1fdc5d9e1d31b17b90906202c
 ---
 
 ## INDEX OF NOTATION
 
 The reference numbers indicate the chapter, section and sub-section (or, exercise) in that order.
 
-$Å, \overline{A}$ (A a subset of a topological space) : I, 1, 6.
+$\mathring{A}, \overline{A}$ (A a subset of a topological space) : I, 1, 6.
 $\varprojlim X_\alpha$ [$(X_\alpha)$ an inverse system of topological spaces] : I, 4, 4.
 $\tilde{f}(a)$ ($\tilde{f}$ the germ of a mapping) : I, 6, 10.
 $\lim_{x,\mathfrak{F}} f, \lim_{x} f(x), \lim_{x} f(x)$ : I, 7, 3.

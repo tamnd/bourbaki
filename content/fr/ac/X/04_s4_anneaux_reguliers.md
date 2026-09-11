@@ -7,6 +7,7 @@ section: 4
 section_title: Anneaux réguliers
 lang: fr
 source: ac-x-fr
+book_pages: AC X.162-AC X.165
 pdf_pages: 0052-0060, 0161-0164
 extraction: ocr
 subsections:

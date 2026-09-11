@@ -12,12 +12,12 @@ pdf_pages: 0347-0348
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 3c2b4317950e15e3751a1ec2375164eb58ff23b66ee42151fb83767fb6351dbb
+content_sha256: 5f108202910b21f4c6dddba86c797e675b682e35a5e7190afabee3e1c373aa0e
 ---
 
 ## INDEX DES NOTATIONS
 
-$Å, \overline{A}$ (A partie d’un espace topologique): I, p. 6 et 7.
+$\mathring{A}, \overline{A}$ (A partie d’un espace topologique): I, p. 6 et 7.
 $\lim_{\leftarrow} X_\alpha$ ($(X_\alpha)$ système projectif d’espaces topologiques): I, p. 28.
 $\tilde{f}(a)$ ($\tilde{f}$ germe d’application): I, p. 46.
 $\lim_{x,\mathfrak{g}} f, \lim_{x} f(x), \lim_{x} f(x)$ : I, p. 48.
