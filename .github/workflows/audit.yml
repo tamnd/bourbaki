@@ -151,9 +151,13 @@ jobs:
       #
       # The count was zero when this step was written, and this step then sat
       # behind a tags verify that failed on every branch from August on, so it
-      # has not run on a pull request since. It is 31555 now, and #391 has the
-      # breakdown: 23302 of them are T03, the statements waiting to be tagged,
-      # and most of the rest is volumes that are not read through yet.
+      # has not run on a pull request since. It was 31555 when the ceiling went
+      # in and is 31277 now, and #391 has the breakdown: 23302 of them are T03,
+      # the statements waiting to be tagged, and most of the rest is volumes
+      # that are not read through yet. The 278 that have come off since are the
+      # small mathematics rules read to nothing, the 102 seals the sweeps left
+      # behind, and 79 index files S12 could not see because it never read the
+      # two manifest fields that name them.
       #
       # So it is held at a ceiling, and the ceiling comes down. A hard rule is
       # one that fails the build: the structure of a section file, a tag that
