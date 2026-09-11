@@ -744,3 +744,42 @@ chapters:
       historical_note:
         page: 296
         pdf_page: 301
+    - book: ens-i-iv
+      chapter: ER
+      title: SUMMARY OF RESULTS
+      page: 347
+      pdf_page: 352
+      sections:
+        - section: 1
+          title: Elements and subsets of a set
+          page: 347
+          pdf_page: 352
+        - section: 2
+          title: Functions
+          page: 351
+          pdf_page: 356
+        - section: 3
+          title: Products of sets
+          page: 357
+          pdf_page: 362
+        - section: 4
+          title: Union, intersection, product of a family of sets
+          page: 363
+          pdf_page: 368
+        - section: 5
+          title: Equivalence relations and quotient sets
+          page: 370
+          pdf_page: 375
+        - section: 6
+          title: Ordered sets
+          page: 373
+          pdf_page: 378
+        - section: 7
+          title: Powers. Countable sets
+          page: 380
+          pdf_page: 385
+        - section: 8
+          title: Scales of sets. Structures
+          page: 383
+          pdf_page: 388
+      nominal: true

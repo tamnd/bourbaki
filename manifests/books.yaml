@@ -10,6 +10,9 @@ books:
         - II
         - III
         - IV
+      fascicules:
+        - numeral: ER
+          title: SUMMARY OF RESULTS
       pdf: pdf/en/Theory of Sets (2004, Springer).pdf
       pdf_sha256: 642adf7d7e571c8f23ac3d4e2e869982dabedc8b77d3ad1e8f8e81263652b2bb
       pdf_bytes: 37017911
@@ -1294,6 +1297,7 @@ books:
       edition: ""
       chapters:
         - "1"
+        - "2"
       pdf: pdf/fr/Varietes differentielles et.pdf
       pdf_sha256: e2eb2e615b027972a88ea627da3f03293f16ef9690ad83903463f066d88463f0
       pdf_bytes: 7787941

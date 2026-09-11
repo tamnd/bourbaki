@@ -387,6 +387,113 @@ chapters:
           exercises: 0
           extraction: ocr
           content_sha256: 017dc72194ab7199a70c98ebaad46bbe5a298e1d67f9319e8388d92396c95255
+    - chapter: ER
+      title: SUMMARY OF RESULTS
+      sections:
+        - kind: section
+          section: 1
+          title: Elements and subsets of a set
+          path: content/en/ens/ER/01_s1_elements_and_subsets_of_a_set.md
+          label: ens-er-s1
+          first_pdf_page: 352
+          last_pdf_page: 356
+          book_pages: 347-351
+          subsections: 0
+          statements: 0
+          exercises: 0
+          extraction: ocr
+          content_sha256: 0e243e5f12383731f0a5a2c71334e71b3cefa638eb23c7b52b81096a04bed198
+        - kind: section
+          section: 2
+          title: Functions
+          path: content/en/ens/ER/02_s2_functions.md
+          label: ens-er-s2
+          first_pdf_page: 356
+          last_pdf_page: 362
+          book_pages: 351-357
+          subsections: 0
+          statements: 0
+          exercises: 0
+          extraction: ocr
+          content_sha256: e080ea464bff6a7c05c7dc505f506fc7d9e94e4178becde6cca23d33e3bb7827
+        - kind: section
+          section: 3
+          title: Products of sets
+          path: content/en/ens/ER/03_s3_products_of_sets.md
+          label: ens-er-s3
+          first_pdf_page: 362
+          last_pdf_page: 367
+          book_pages: 357-362
+          subsections: 0
+          statements: 0
+          exercises: 0
+          extraction: ocr
+          content_sha256: f8317afbd1ead3a8eb315402c9ae2f0ba41cf649de2052b034647fe7099309e8
+        - kind: section
+          section: 4
+          title: Union, intersection, product of a family of sets
+          path: content/en/ens/ER/04_s4_union_intersection_product_of_a_family.md
+          label: ens-er-s4
+          first_pdf_page: 368
+          last_pdf_page: 375
+          book_pages: 363-370
+          subsections: 0
+          statements: 0
+          exercises: 0
+          extraction: ocr
+          content_sha256: f9b5a61bff54537ebfed0e8bade3350c49d974cf5c55ab2cbce40ab5f4be65d9
+        - kind: section
+          section: 5
+          title: Equivalence relations and quotient sets
+          path: content/en/ens/ER/05_s5_equivalence_relations_and_quotient_sets.md
+          label: ens-er-s5
+          first_pdf_page: 375
+          last_pdf_page: 378
+          book_pages: 370-373
+          subsections: 0
+          statements: 0
+          exercises: 0
+          extraction: ocr
+          content_sha256: 22c94bcb3e3db436839b071a4604607950bd9f8394f1a692c4accc6bc0101dd5
+        - kind: section
+          section: 6
+          title: Ordered sets
+          path: content/en/ens/ER/06_s6_ordered_sets.md
+          label: ens-er-s6
+          first_pdf_page: 378
+          last_pdf_page: 385
+          book_pages: 373-380
+          subsections: 0
+          statements: 0
+          exercises: 0
+          extraction: ocr
+          content_sha256: 011cbefdb53dd46f43be31ed92b067ac148b886f8dc3965f2c33578b74501401
+        - kind: section
+          section: 7
+          title: Powers. Countable sets
+          path: content/en/ens/ER/07_s7_powers_countable_sets.md
+          label: ens-er-s7
+          first_pdf_page: 385
+          last_pdf_page: 387
+          book_pages: 380-382
+          subsections: 0
+          statements: 0
+          exercises: 0
+          extraction: ocr
+          content_sha256: 86ddec08acce4507f77a4f26c22ecf7fe435bb7014433e7736350957d8534e86
+        - kind: section
+          section: 8
+          title: Scales of sets. Structures
+          path: content/en/ens/ER/08_s8_scales_of_sets_structures.md
+          label: ens-er-s8
+          first_pdf_page: 388
+          last_pdf_page: 390
+          book_pages: 383-385
+          subsections: 0
+          statements: 0
+          exercises: 0
+          extraction: ocr
+          content_sha256: 1729e7f56fb13a5cfb4b19ed30304bcfc4d735d7f99cdf7c9579aa41117e6f82
 notation_index:
     kind: notation
     title: INDEX OF NOTATION
