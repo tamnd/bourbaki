@@ -130,6 +130,16 @@ jobs:
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: go run ./cmd/bourbaki assemble -book ac-v-vii-fr -lang fr -check
+      # Variétés is printed in two fascicules and only the first was assembled
+      # for a long time, which is #356. Both are in content/ now, wrapped in a
+      # nominal chapter each, and the second is the one that will go stale
+      # quietly if nothing checks it: its pages were read by two different
+      # models and had to be normalised by hand to assemble at all.
+      - name: assemble -check, Variétés
+        working-directory: .solver
+        env:
+          BOURBAKI_CORPUS: ${{ github.workspace }}
+        run: go run ./cmd/bourbaki assemble -book var-fr -lang fr -partial -check
       # A tag is permanent under T05, so a volume is tagged once its pages have
       # settled and not before, and until the last volume is read the corpus is
       # meant to have statements waiting for one. That is a number that comes
@@ -143,7 +153,7 @@ jobs:
         working-directory: .solver
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
-        run: go run ./cmd/bourbaki tags verify -base origin/main -max-untagged 23302
+        run: go run ./cmd/bourbaki tags verify -base origin/main -max-untagged 23308
       # The audit ran without its exit status being read for as long as the
       # corpus carried hard findings. It had twelve, every one a page where the
       # text layer lost half of a display, and gating on the count would have
@@ -152,7 +162,7 @@ jobs:
       # The count was zero when this step was written, and this step then sat
       # behind a tags verify that failed on every branch from August on, so it
       # has not run on a pull request since. It was 31555 when the ceiling went
-      # in and is 30026 now, and #391 has the breakdown: 23302 of them are T03,
+      # in and is 30032 now, and #391 has the breakdown: 23308 of them are T03,
       # the statements waiting to be tagged, and most of the rest is volumes
       # that are not read through yet. The 1529 that have come off since are the
       # small mathematics rules read to nothing, the 102 seals the sweeps left
@@ -181,8 +191,19 @@ jobs:
       # committed. The report is the list, and this is what keeps the list
       # honest.
       #
-      # The ceiling moved once, from 31555 to 31575, and it moved because the
-      # corpus grew and not because anything broke. The Summary of Results of
+      # The ceiling has gone up twice, and both times because the corpus grew
+      # and not because anything broke.
+      #
+      # The second time is 30026 to 30032, for the second fascicule of
+      # Variétés. Paragraphes 8 à 15 had been read and committed under pages/
+      # for months and had never been assembled, which is #356; the eight
+      # sections are in content/fr/var/2 now and the six are T03, statements
+      # of the new sections waiting for a tag. tags verify moves with it, 23302
+      # to 23308, because they are the same six counted by the other gate.
+      # Nothing else in the audit moved: every other rule reports exactly what
+      # it reported at 30026.
+      #
+      # The first time was 31555 to 31575. The Summary of Results of
       # Theory of Sets was assembled for the first time and its Vietnamese was
       # translated, and the twenty are S08 (5) on the new files, L01 (5), L03
       # (1), L05 (12) and L07 (1) on the new Vietnamese, less the four sections
@@ -203,7 +224,7 @@ jobs:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: |
           if go run ./cmd/bourbaki audit -validate-tex -report reports/audit.md \
-               -json "$RUNNER_TEMP/audit.json" -max-hard 30026; then
+               -json "$RUNNER_TEMP/audit.json" -max-hard 30032; then
             echo "status=0" >> "$GITHUB_OUTPUT"
           else
             echo "status=$?" >> "$GITHUB_OUTPUT"
