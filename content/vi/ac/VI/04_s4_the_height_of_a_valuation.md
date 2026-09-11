@@ -33,9 +33,9 @@ subsections:
       pdf_page: 415
 statements: 18
 exercises: 11
-content_sha256: 6fd0b6c638a9c71e752339f2767f513e7f02a5820e026cad524a84ab4557bba3
+content_sha256: 255120f84b97bf4d0f823974da96071e46f81593b376ea46499286e430c53663
 translated_from: content/en/ac/VI/04_s4_the_height_of_a_valuation.md
-source_content_sha256: d2591aefd185cd8a9d79b29d0b2bd6b892a0e8d7c6f6ca84c843946be63124d9
+source_content_sha256: cdc27e73ee54626a8784a6f26f479defcd8d5066ee817997176c38e0199904ea
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-f7c6e7e4
 glossary_version: 34
@@ -64,11 +64,11 @@ Tập hợp các iđêan nguyên tố của $A$ được sắp thứ tự toàn 
 
 #### Mệnh đề 2 {#ac-vi-s4-prop-2 .statement}
 
-*Cho K là một trường, B là một vành định giá của K và h, là nơi & K liên kết với B (với các giá trị trong $\kappa(B)$). Khi đó ánh xạ $A \mapsto h_B(A)$ xác định một song ánh của tập hợp $\mathcal{A}$ các vành định giá của K được chứa trong B lên tập hợp $\mathcal{A}'$ các vành định giá của $\kappa(B)$.
+*Cho K là một trường, B là một vành định giá của K và h, là nơi & K liên kết với B (với các giá trị trong $\kappa(B)$). Khi đó ánh xạ $A \mapsto h_B(A)$ xác định một song ánh của tập hợp $\mathscr{A}$ các vành định giá của K được chứa trong B lên tập hợp $\mathscr{A}'$ các vành định giá của $\kappa(B)$.
 
-Nếu $A \in \mathcal{A}$, thì $h_B(A) \in \mathcal{A}'$: thật vậy nếu $x' = h_B(x)$ (trong đó $x \in B$) là một phần tử của $\kappa(B) - h_B(A)$, thì $x \notin A$, do đó $x^{-1} \in A$ và $h_B(x)^{-1} \in h_B(A)$. Mặt khác, với $A \in \mathcal{A}$, $A \supset m(B)$ (Mệnh đề 1 (b)) và do đó ánh xạ,
+Nếu $A \in \mathscr{A}$, thì $h_B(A) \in \mathscr{A}'$: thật vậy nếu $x' = h_B(x)$ (trong đó $x \in B$) là một phần tử của $\kappa(B) - h_B(A)$, thì $x \notin A$, do đó $x^{-1} \in A$ và $h_B(x)^{-1} \in h_B(A)$. Mặt khác, với $A \in \mathscr{A}$, $A \supset m(B)$ (Mệnh đề 1 (b)) và do đó ánh xạ,
 
-$A \mapsto h_B(A)$ là đơn ánh. Cuối cùng, cho $A' \in \mathcal{A}'$ và $A = h_B(A') \subset B$; ta sẽ chứng minh, điều này sẽ hoàn tất chứng minh, rằng $A \in \mathcal{A}$; nếu $x \in K - A$, thì hoặc $x \notin B$, hoặc $x \in B$; nếu $x \notin B$, thì $x^{-1} \in m(B) \subset A$; nếu $x \in B$, thì $h_B(x) \in \kappa(B)$ và $h_B(x) \notin A$, do đó $h_B(x^{-1}) \in A$ và ta lại kết luận rằng $x^{-1} \in A$; do đó $A \in \mathcal{A}$.
+$A \mapsto h_B(A)$ là đơn ánh. Cuối cùng, cho $A' \in \mathscr{A}'$ và $A = h_B(A') \subset B$; ta sẽ chứng minh, điều này sẽ hoàn tất chứng minh, rằng $A \in \mathscr{A}$; nếu $x \in K - A$, thì hoặc $x \notin B$, hoặc $x \in B$; nếu $x \notin B$, thì $x^{-1} \in m(B) \subset A$; nếu $x \in B$, thì $h_B(x) \in \kappa(B)$ và $h_B(x) \notin A$, do đó $h_B(x^{-1}) \in A$ và ta lại kết luận rằng $x^{-1} \in A$; do đó $A \in \mathscr{A}$.
 
 #### Hệ quả {#ac-vi-s4-n1-cor-2 .statement}
 

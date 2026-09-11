@@ -49,9 +49,9 @@ subsections:
       pdf_page: 342
 statements: 69
 exercises: 29
-content_sha256: c9fe750c6079f11c6c7838202df8d0d10209a7b299de7dca04ce287045928b32
+content_sha256: 498eb7899fcce74ae9ff18e9460e57571ce5004dd2b1afef9aeea81d76a9efb7
 translated_from: content/en/ac/V/01_s1_notion_of_an_integral_element.md
-source_content_sha256: 2f79a65f77c0aff7fecf7b74bea588fece9fce74137af610f9bfb9d0274e5dc9
+source_content_sha256: f0ef4aabba009b7905e97f4fb80dfce6d1fb60ac9a39967272fd598733b4eec7
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-mini
 translation_run: translate-vi-341390b7
 glossary_version: 34
@@ -729,7 +729,7 @@ Cho $(x_i)_{1 \leq i \leq n}$ là một hệ sinh hữu hạn của đại số 
 
 #### Nhận xét {#ac-v-s1-n9-rem-1 .statement}
 
-Tập các $\sigma \in G$ sao cho $\sigma a_j = a_j$ với $1 \leq j \leq m$ hiển nhiên giữ bất biến mọi phần tử của A. Nhóm con chuẩn tắc $\mathcal{H}$ của $G$ giữ bất biến mọi phần tử của A do đó có chỉ số hữu hạn trong $G$ và có thể xem A như có một nhóm hữu hạn các phép tác động $G/\mathcal{H}$; hiển nhiên $A^{G/\mathcal{H}} = A^G$.
+Tập các $\sigma \in G$ sao cho $\sigma a_j = a_j$ với $1 \leq j \leq m$ hiển nhiên giữ bất biến mọi phần tử của A. Nhóm con chuẩn tắc $\mathscr{H}$ của $G$ giữ bất biến mọi phần tử của A do đó có chỉ số hữu hạn trong $G$ và có thể xem A như có một nhóm hữu hạn các phép tác động $G/\mathscr{H}$; hiển nhiên $A^{G/\mathscr{H}} = A^G$.
 
 Cho S là một tập con nhân của một vành A và G là một nhóm tác động lên A và sao cho S ổn định; khi đó, với mọi $\sigma \in G$, tồn tại duy nhất một tự đồng cấu $z \mapsto q_z$ của vành $S^{-1}A$ sao cho $q_z(a/1) = (a.a)/1$ với mọi $a \in A$; nó được cho bởi công thức $\sigma.(a/s) = (\sigma.a)/(\sigma.s)$ với $a \in A$ và $s \in S$ (Chương II, § 2, no. 1, Hệ quả 2 của Mệnh đề 2); nếu $\tau$ là một phần tử khác của G, rõ ràng $q_z(\tau.z) = (\sigma\tau).z$ với mọi $z \in S^{-1}A$ và do đó nhóm G tác động lên vành $S^{-1}A$.
 

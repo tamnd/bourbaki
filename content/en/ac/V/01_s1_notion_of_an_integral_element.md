@@ -49,7 +49,7 @@ subsections:
       pdf_page: 342
 statements: 69
 exercises: 29
-content_sha256: 2f79a65f77c0aff7fecf7b74bea588fece9fce74137af610f9bfb9d0274e5dc9
+content_sha256: f0ef4aabba009b7905e97f4fb80dfce6d1fb60ac9a39967272fd598733b4eec7
 ---
 
 ## 1. NOTION OF AN INTEGRAL ELEMENT
@@ -715,7 +715,7 @@ Let $(x_i)_{1 \leq i \leq n}$ be a finite system of generators of the K-algebra 
 
 #### Remark {#ac-v-s1-n9-rem-1 .statement}
 
-The set of $\sigma \in G$ such that $\sigma a_j = a_j$ for $1 \leq j \leq m$ obviously leaves invariant every element of A. The normal subgroup $\mathcal{H}$ of $G$ leaving invariant every element of A is therefore of finite index in $G$ and A may be considered as having a finite group of operators $G/\mathcal{H}$; obviously $A^{G/\mathcal{H}} = A^G$.
+The set of $\sigma \in G$ such that $\sigma a_j = a_j$ for $1 \leq j \leq m$ obviously leaves invariant every element of A. The normal subgroup $\mathscr{H}$ of $G$ leaving invariant every element of A is therefore of finite index in $G$ and A may be considered as having a finite group of operators $G/\mathscr{H}$; obviously $A^{G/\mathscr{H}} = A^G$.
 
 Let S be a multiplicative subset of a ring A and $G$ a group operating on A and for which S is stable; then, for all $\sigma \in G$, there exists a unique endomorphism $z \mapsto q_z$ of the ring $S^{-1}A$ such that $q_z(a/1) = (a.a)/1$ for all $a \in A$; it is given by the formula $\sigma.(a/s) = (\sigma.a)/(\sigma.s)$ for $a \in A$ and $s \in S$ (Chapter II, § 2, no. 1, Proposition 2); if $\tau$ is another element of $G$, clearly $q_z(\tau.z) = (\sigma\tau).z$ for all $z \in S^{-1}A$ and hence the group $G$ operates on the ring $S^{-1}A$.
 

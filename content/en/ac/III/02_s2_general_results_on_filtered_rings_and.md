@@ -65,7 +65,7 @@ subsections:
       pdf_page: 212
 statements: 57
 exercises: 13
-content_sha256: c26bf20a582aa742f29736d90586757c3c9eeda4b62c48ac6556a17b97892062
+content_sha256: fcbf6c74b125d93d9e752f071aeea8cdc3187468539e26c37a235e9d8443c6ff
 ---
 
 ## § 2. GENERAL RESULTS ON FILTERED RINGS AND MODULES
@@ -437,11 +437,11 @@ Let $m'$ be another two-sided ideal of $A$; for the $m'$-adic topology on $A$ to
 
 *If $G$ is commutative and written additively, these conditions are also equivalent to the following:*
 
-(d) *Every family* $(x_\lambda)_{\lambda \in L}$ *of elements of $G'$ which converges to 0 with respect to the filter $\mathcal{F}$ of complements of finite subsets of $L$ is summable in $G'$*.
+(d) *Every family* $(x_\lambda)_{\lambda \in L}$ *of elements of $G'$ which converges to 0 with respect to the filter $\mathscr{F}$ of complements of finite subsets of $L$ is summable in $G'$*.
 
 For a filter on $G$ to be a Cauchy filter (resp. a convergent filter), it is necessary and sufficient that its image under the canonical mapping $G \to G'$ be a Cauchy (resp. convergent) filter (*General Topology*, Chapter II, § 3, no. 1, Proposition 4); whence first of all the equivalence of (a) and (b); on the other hand, as $G'$ is metrizable, the equivalence of (b) and (c) follows from Proposition 9 of *General Topology*, Chapter IX, § 2, no. 6.
 
-Suppose now that $G$ is commutative. Suppose that $G'$ is complete and let $(x_\lambda)_{\lambda \in L}$ be a family of elements of $G'$ which converge to 0 with respect to $\mathcal{F}$. For every neighbourhood $V'$ of 0 in $G$ which is a subgroup of $G'$, there exists a finite subset $J$ of $L$ such that the condition $\lambda \in L - J$ implies $x_\lambda \in V'$; then $\sum_{\lambda \in H} x_\lambda \in V'$ for every finite subset $H$ of $L$ not meeting $J$, which shows that the family $(x_\lambda)_{\lambda \in L}$ is summable (*General Topology*, Chapter III, § 5, no. 2, Theorem 1).
+Suppose now that $G$ is commutative. Suppose that $G'$ is complete and let $(x_\lambda)_{\lambda \in L}$ be a family of elements of $G'$ which converge to 0 with respect to $\mathscr{F}$. For every neighbourhood $V'$ of 0 in $G$ which is a subgroup of $G'$, there exists a finite subset $J$ of $L$ such that the condition $\lambda \in L - J$ implies $x_\lambda \in V'$; then $\sum_{\lambda \in H} x_\lambda \in V'$ for every finite subset $H$ of $L$ not meeting $J$, which shows that the family $(x_\lambda)_{\lambda \in L}$ is summable (*General Topology*, Chapter III, § 5, no. 2, Theorem 1).
 
 Conversely, suppose that condition (d) holds and let $(x_n)$ be a Cauchy sequence on $G'$; the family $(x_{n+1} - x_n)$ is then summable and in particular the series with general term $x_{n+1} - x_n$ is convergent and hence the sequence $(x_n)$ is convergent.
 
@@ -774,7 +774,7 @@ Remarks
 
 (1) Corollaries 2, 3 and 6 apply in particular if C is a commutative field.
 
-\* (2) Let g be a Lie algebra over a commutative Noetherian ring C and suppose that g is a finitely generated C-module. Let the enveloping algebra U of g be given the increasing filtration $(U_n)$ defined in no. 3, Example 4. With the corresponding topology, U is discrete and hence Hausdorff and complete; the associated graded ring gr(U) is a finitely generated C-algebra, being a quotient of the symmetric algebra $\mathcal{S}(g)$, hence gr(U) is a Noetherian ring (Corollary 3) and we deduce that U is a left and right Noetherian ring (no. 9, Corollary 2 to Proposition 12). \*
+\* (2) Let g be a Lie algebra over a commutative Noetherian ring C and suppose that g is a finitely generated C-module. Let the enveloping algebra U of g be given the increasing filtration $(U_n)$ defined in no. 3, Example 4. With the corresponding topology, U is discrete and hence Hausdorff and complete; the associated graded ring gr(U) is a finitely generated C-algebra, being a quotient of the symmetric algebra $\mathscr{S}(g)$, hence gr(U) is a Noetherian ring (Corollary 3) and we deduce that U is a left and right Noetherian ring (no. 9, Corollary 2 to Proposition 12). \*
 
 ### 11. COMPLETE m-ADIC RINGS AND INVERSE LIMITS
 
@@ -927,11 +927,11 @@ Let $A$ be a filtered ring and $E$ a filtered $A$-module, the respective filtrat
 
 In what follows, for every uniform space $X$, $j_X$ will denote the canonical mapping from $X$ to its Hausdorff completion $\hat{X}$ and $X_0 = j_X(X)$ the uniform subspace of $\hat{X}$, which is the Hausdorff space associated with $X$. Recall that the topology on $X$ is the inverse image under $j_X$ of that on $X_0$ (General Topology,
 
-Chapter II, § 3, no. 7, Proposition 12). Recall also that, for every uniformly continuous mapping $f : X \to Y$, $\hat{f}$ denotes the uniformly continuous mapping from $\hat{X}$ to $\hat{Y}$ such that $\hat{f} \circ j_X = j_Y \circ f$ (loc. cit., Proposition 15); if $X$ is a uniform subspace of $Y$ and $\mathcal{E}$ the canonical injection, $\hat{X}$ is identified with a uniform subspace of $\hat{Y}$ and $\hat{f}$ is the canonical injection of $X$ into $\hat{Y}$ (loc. cit., no. 9. Corollary 1 to Proposition 18).
+Chapter II, § 3, no. 7, Proposition 12). Recall also that, for every uniformly continuous mapping $f : X \to Y$, $\hat{f}$ denotes the uniformly continuous mapping from $\hat{X}$ to $\hat{Y}$ such that $\hat{f} \circ j_X = j_Y \circ f$ (loc. cit., Proposition 15); if $X$ is a uniform subspace of $Y$ and $\mathscr{E}$ the canonical injection, $\hat{X}$ is identified with a uniform subspace of $\hat{Y}$ and $\hat{f}$ is the canonical injection of $X$ into $\hat{Y}$ (loc. cit., no. 9. Corollary 1 to Proposition 18).
 
 #### Lemma 2 {#ac-iii-s2-lem-2 .statement}
 
-*Let $X \xrightarrow{f} Y \xrightarrow{g} Z$ be an exact sequence of strict morphisms of topological groups (Algebra, Chapter II, § 1, no. 4, Remark). Suppose that $X, Y, Z$ admit Hausdorff completion groups and that the identity elements $\mathcal{E} X, Y, Z$ admit countable fundamental systems of neighbourhoods. Then $\hat{X} \xrightarrow{\hat{f}} \hat{Y} \xrightarrow{\hat{g}} \hat{Z}$ is an exact sequence of strict morphisms.*
+*Let $X \xrightarrow{f} Y \xrightarrow{g} Z$ be an exact sequence of strict morphisms of topological groups (Algebra, Chapter II, § 1, no. 4, Remark). Suppose that $X, Y, Z$ admit Hausdorff completion groups and that the identity elements $\mathscr{E} X, Y, Z$ admit countable fundamental systems of neighbourhoods. Then $\hat{X} \xrightarrow{\hat{f}} \hat{Y} \xrightarrow{\hat{g}} \hat{Z}$ is an exact sequence of strict morphisms.*
 
 Let $N_1, N_g$ be the respective kernels off and $g$; let us write
 
@@ -997,7 +997,7 @@ Every element of $\mathbf{Z}/n^k \mathbf{Z}$ admits a unique representative of t
 
 #### Proposition 17 {#ac-iii-s2-prop-17 .statement}
 
-Let $A$ be a commutative ring and $(m_{\lambda})_{\lambda \in L}$ a family of ideals of $A$, distinct from $A$, such that $m_{\lambda}$ and $m_{\mu}$ are relatively prime for $\lambda \neq \mu$. For every family $s = (s(\lambda))_{\lambda \in L}$ of integers $\geq 0$, of finite support, set $a_s = \bigcap_{\lambda \in L} m_{\lambda}^{s(\lambda)}$ (equal to the product of the $m_{\lambda}^{s(\lambda)}$ for the $\lambda$ such that $s(\lambda) \neq 0$; cf. Chapter 11, § 1, no. 2, Propositions 3 and 5); the $a_s$ form a fundamental system of neighbourhoods of 0 with respect to a topology $\mathcal{T}$ compatible with the ring structure on $A$; let $\hat{A}$ be the Hausdorff completion of $A$ with respect to this topology. On the other hand, for all $\lambda \in L$, let $A_{\lambda}$ be the ring $A$ with the $m_{\lambda}$-adic topology and let $\hat{A}_{\lambda}$ be its Hausdorff completion. If $u : A \to \prod_{\lambda \in L} A_{\lambda}$ denotes the diagonal homomorphism, $u$ is continuous and the corresponding homomorphism $\hat{u} :$
+Let $A$ be a commutative ring and $(m_{\lambda})_{\lambda \in L}$ a family of ideals of $A$, distinct from $A$, such that $m_{\lambda}$ and $m_{\mu}$ are relatively prime for $\lambda \neq \mu$. For every family $s = (s(\lambda))_{\lambda \in L}$ of integers $\geq 0$, of finite support, set $a_s = \bigcap_{\lambda \in L} m_{\lambda}^{s(\lambda)}$ (equal to the product of the $m_{\lambda}^{s(\lambda)}$ for the $\lambda$ such that $s(\lambda) \neq 0$; cf. Chapter 11, § 1, no. 2, Propositions 3 and 5); the $a_s$ form a fundamental system of neighbourhoods of 0 with respect to a topology $\mathscr{T}$ compatible with the ring structure on $A$; let $\hat{A}$ be the Hausdorff completion of $A$ with respect to this topology. On the other hand, for all $\lambda \in L$, let $A_{\lambda}$ be the ring $A$ with the $m_{\lambda}$-adic topology and let $\hat{A}_{\lambda}$ be its Hausdorff completion. If $u : A \to \prod_{\lambda \in L} A_{\lambda}$ denotes the diagonal homomorphism, $u$ is continuous and the corresponding homomorphism $\hat{u} :$
 
 $$
 \hat{A} \to \left( \prod_{\lambda \in L} A_{\lambda} \right)^{\hat{}} = \prod_{\lambda \in L} \hat{A}_{\lambda}
@@ -1017,7 +1017,7 @@ If the Corollary to Proposition 17 is applied when $\mathbf{A} = \mathbf{Z}$, we
 
 Remarks
 
-(1) Clearly, under the conditions of Proposition 17, the topology $\mathcal{T}$ is the least upper bound of the $m_\lambda$-adic topologies on $\mathbf{A}$.
+(1) Clearly, under the conditions of Proposition 17, the topology $\mathscr{T}$ is the least upper bound of the $m_\lambda$-adic topologies on $\mathbf{A}$.
 
 (2) Every closed ideal $a$ of $\prod_{\lambda \in L} \hat{A}_\lambda$ is identical with the product of its projections $a_\lambda = \mathrm{pr}_\lambda(a)$, which are closed ideals in the $A_\lambda$; for $\hat{A}_\lambda$ is canonically identified with a closed ideal $A'_\lambda$ of $\prod_{\lambda} \hat{A}_\lambda$ and $a_\lambda$ with $a \cap A'_\lambda$ (Algebra, Chapter I, §8, no. 10, Proposition 6), the sum of the $a_\lambda$ is dense in the product $\prod_\lambda a_\lambda$ (General Topology, Chapter III, §2, no. 9, Proposition 25) and the latter is closed in $\prod_\lambda \hat{A}_\lambda$, whence our assertion.
 
@@ -1054,7 +1054,7 @@ If $a = \bigcap_{k \geq 1} m^k$, $\hat{A}$ is the completion of the Hausdorff ri
 
 #### Lemma 3 {#ac-iii-s2-lem-3 .statement}
 
-Let $A$ be a complete Hausdorf topological ring, in which there exists a fundamental system $\mathcal{G}$ of neighbourhoods of 0 consisting of additive subgroups of $A$.
+Let $A$ be a complete Hausdorf topological ring, in which there exists a fundamental system $\mathscr{G}$ of neighbourhoods of 0 consisting of additive subgroups of $A$.
 (i) For all $x \in A$ such that $\lim_{n \to m} x^n = 0$, $1 - x$ is invertible in $A$ and its inverse is equal to $\sum_{n=0}^\infty x^n$.
 (ii) Let $a$ be a two-sided ideal of $A$ such that $\lim_{n \to \infty} x^n = 0$ for all $x \in a$. For an element y of $\mathbf{A}$ to be invertible, it is necessary and sufficient that its class mod. a be invertible in $\mathbf{A}/a$; in particular a is contained in the Jacobson radical of $\mathbf{A}$.
 

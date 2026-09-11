@@ -44,11 +44,11 @@ subsections:
       pdf_page: 50
 statements: 43
 exercises: 16
-content_sha256: 2887c371d5eaa37f77acf37407c79cf478d515f0d78e32875c1e6b8c3bf0f663
+content_sha256: dbbcc2c3fdaae8819a5272dea66f2e4d265e8831f2139794efe45e12dc00ad8e
 translated_from: content/fr/ac/X/03_s3_profondeur_et_dimension_homologique.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 7b41765c90f58b75d70623bfaaeb5c11917bd816d4e04e795ce2fb34e730bd93
+source_content_sha256: dd683aa9a7b96b7c006d2b41bc100df991a0c21e1009e92d2f308842b1b5e10e
 translation_model: gpt-5.4
 translation_run: translate-en-mt-36b2c50b
 glossary_version: 34
@@ -487,10 +487,10 @@ With the terminology of $§ 1$, No. 5, remark 4, the conclusion of cor. 3 means 
 
 Let $A$ be a noetherian Macaulay ring and $M$ a finitely generated $A$-module of finite projective dimension.
 
-a) Let $p \in \operatorname{Spec}(\Lambda)$; let us denote by $\mathcal{C}(p)$ the set of irreducible components of $\operatorname{Supp}(M)$ containing $p$. We have
+a) Let $p \in \operatorname{Spec}(\Lambda)$; let us denote by $\mathscr{C}(p)$ the set of irreducible components of $\operatorname{Supp}(M)$ containing $p$. We have
 
 $$
-\dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p) = dp_{A_p}(M_p) - \inf_{X \in \mathcal{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
+\dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p) = dp_{A_p}(M_p) - \inf_{X \in \mathscr{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
 $$
 
 b) The mapping $p \mapsto \dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p)$ of $\operatorname{Spec}(A)$ into $\overline{\mathbf{Z}}$ is upper semi-continuous.
@@ -510,16 +510,16 @@ $$
 $$
 
 $$
-\dim_{\Lambda_p}(M_p) = \operatorname{codim}(V(p), \operatorname{Supp}(M)) = \sup_{X \in \mathcal{C}(p)} \operatorname{codim}(V(p), X)
+\dim_{\Lambda_p}(M_p) = \operatorname{codim}(V(p), \operatorname{Supp}(M)) = \sup_{X \in \mathscr{C}(p)} \operatorname{codim}(V(p), X)
 $$
 
 and consequently
 
 $$
-\varphi(p) = \inf_{X \in \mathcal{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
+\varphi(p) = \inf_{X \in \mathscr{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
 $$
 
-b) Let $p \in \operatorname{Spec}(A)$, and let $F$ be the union of the irreducible components of $\operatorname{Supp}(M)$ which do not contain $p$. For every element $q$ of $\operatorname{Spec}(A) - F$, we have $\mathcal{C}(q) \subset \mathcal{C}(p)$, whence $\varphi(q) \geq \varphi(p)$ by the formula above. Consequently the function $\varphi$ is lower semi-continuous; assertion b) then follows from prop. 3 of No. 2.
+b) Let $p \in \operatorname{Spec}(A)$, and let $F$ be the union of the irreducible components of $\operatorname{Supp}(M)$ which do not contain $p$. For every element $q$ of $\operatorname{Spec}(A) - F$, we have $\mathscr{C}(q) \subset \mathscr{C}(p)$, whence $\varphi(q) \geq \varphi(p)$ by the formula above. Consequently the function $\varphi$ is lower semi-continuous; assertion b) then follows from prop. 3 of No. 2.
 
 c) Let $U$ be the set of elements $p$ of $\operatorname{Spec}(A)$ such that $M_p$ is Cohen-Macaulay. The condition $p \in U$ is equivalent to $\dim(M_p) - \operatorname{prof}(M_p) \leq 0$, so that $U$ is open by b). Since $U$ contains $\operatorname{Spec}(A) - \operatorname{Supp}(M)$, it is enough to prove that $U \cap \operatorname{Supp}(M)$ is dense in $\operatorname{Supp}(M)$. For every minimal prime ideal $p$ of $\operatorname{Supp}(M)$, the $A_p$-module $M_p$ is of finite length (IV, § 2, No. 5, Corollary 2 of Proposition 7 and § 1, No. 3, Corollary 1 of Proposition 7), hence Cohen-Macaulay; consequently $U$ meets all the irreducible components of $\operatorname{Supp}(M)$. One concludes by means of Proposition 1 of II, § 4, No. 1.
 

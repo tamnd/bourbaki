@@ -41,11 +41,11 @@ subsections:
       pdf_page: 33
 statements: 46
 exercises: 11
-content_sha256: bdc20edf9e402c880fb0d3c2e80e2f04211e358fa7d05a348287bc73a3f718f0
+content_sha256: 2a2a6824a9666efc9cc10dc6fdd964e4bc6a15326c24d18daad6be76ec95bb20
 translated_from: content/en-mt/ac/X/02_s2_modules_et_anneaux_macaulayens.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: a8db826b7ca09881d463dde0cdd85fdb21ded4664105d9fcd21f4d357498696b
+source_content_sha256: 4a7320ac33bfcf167ffd6396c98eba16a370f200d65162865a93ae1dbeee675f
 translation_model: gpt-5.4
 translation_run: translate-vi-cef242cf
 glossary_version: 34
@@ -269,22 +269,22 @@ Tính tương đương của (ii) và (iii) suy ra từ A, X, p. 160, Cor. 1 to 
 
 ### 4. Các tập con cát tuyến mạnh và các thương của một môđun Macaulay
 
-Cho $A$ là một vành Noether, $M$ là một A-môđun hữu hạn sinh, và $S$ là một tập con của $A$. Phù hợp với các quy ước của Chương VIII, ta sẽ ký hiệu bởi $SM$ môđun con $\sum_{s \in S} sM$ của $M$, và bởi $\mathcal{G}$ iđêan của $A$ do $S$ sinh.
+Cho $A$ là một vành Noether, $M$ là một A-môđun hữu hạn sinh, và $S$ là một tập con của $A$. Phù hợp với các quy ước của Chương VIII, ta sẽ ký hiệu bởi $SM$ môđun con $\sum_{s \in S} sM$ của $M$, và bởi $\mathscr{G}$ iđêan của $A$ do $S$ sinh.
 
 #### Bổ đề 2 {#ac-x-s2-lem-2 .statement}
 
-Cho $\overline{\mathcal{G}}$ là ảnh của $\mathcal{G}$ trong $A/\mathrm{Ann}(M)$. Ta có
+Cho $\overline{\mathscr{G}}$ là ảnh của $\mathscr{G}$ trong $A/\mathrm{Ann}(M)$. Ta có
 $$
-\mathrm{ht}(\overline{\mathcal{G}}) = \mathrm{codim}(\mathrm{Supp}(M/SM), \mathrm{Supp}(M)) .
+\mathrm{ht}(\overline{\mathscr{G}}) = \mathrm{codim}(\mathrm{Supp}(M/SM), \mathrm{Supp}(M)) .
 $$
 Hơn nữa, khi $SM \neq M$, ta có
 $$
-\mathrm{ht}(\overline{\mathcal{G}}) \leq \mathrm{Card}(S) .
+\mathrm{ht}(\overline{\mathscr{G}}) \leq \mathrm{Card}(S) .
 $$
 
-Ta ký hiệu bởi $\alpha$ linh hóa tử của $M$. Theo hệ quả của Prop. 18 của II, § 4, No. 4, giá của A-môđun $M/SM$ là $V(\mathcal{G} + \alpha)$. Do đó đối chiều của nó trong $\mathrm{Supp}(M)$ bằng đối chiều của $V(\mathcal{G} + \alpha)$ trong $V(\alpha)$, hay cũng bằng đối chiều của $V((\mathcal{G} + \alpha)/\alpha)$ trong $\mathrm{Spec}(A/\alpha)$, mà đó chính là chiều cao của $\overline{\mathcal{G}}$.
+Ta ký hiệu bởi $\alpha$ linh hóa tử của $M$. Theo hệ quả của Prop. 18 của II, § 4, No. 4, giá của A-môđun $M/SM$ là $V(\mathscr{G} + \alpha)$. Do đó đối chiều của nó trong $\mathrm{Supp}(M)$ bằng đối chiều của $V(\mathscr{G} + \alpha)$ trong $V(\alpha)$, hay cũng bằng đối chiều của $V((\mathscr{G} + \alpha)/\alpha)$ trong $\mathrm{Spec}(A/\alpha)$, mà đó chính là chiều cao của $\overline{\mathscr{G}}$.
 
-Giả sử $SM \neq M$; bất đẳng thức $\mathrm{ht}(\overline{\mathcal{G}}) \leq \mathrm{Card}(S)$ là hiển nhiên khi $S$ là vô hạn, và suy ra từ Prop. 4 b) của VIII, § 3, No. 3 khi $S$ là hữu hạn.
+Giả sử $SM \neq M$; bất đẳng thức $\mathrm{ht}(\overline{\mathscr{G}}) \leq \mathrm{Card}(S)$ là hiển nhiên khi $S$ là vô hạn, và suy ra từ Prop. 4 b) của VIII, § 3, No. 3 khi $S$ là hữu hạn.
 
 #### Định nghĩa 2 {#ac-x-s2-def-2 .statement}
 
@@ -295,7 +295,7 @@ $$
 
 #### Nhận xét 1 {#ac-x-s2-n4-rem-1 .statement}
 
-Mọi tập con hữu hạn S của A sao cho SM = M đều là cắt mạnh đối với M. Khi SM ≠ M, suy ra từ bổ đề 2 rằng, để S là cắt mạnh đối với M, điều kiện cần và đủ là có Card(S) = codim(Supp(M/SM), Supp(M)), hay cũng vậy ht($\overline{\mathcal{G}}$) = Card(S).
+Mọi tập con hữu hạn S của A sao cho SM = M đều là cắt mạnh đối với M. Khi SM ≠ M, suy ra từ bổ đề 2 rằng, để S là cắt mạnh đối với M, điều kiện cần và đủ là có Card(S) = codim(Supp(M/SM), Supp(M)), hay cũng vậy ht($\overline{\mathscr{G}}$) = Card(S).
 
 #### Nhận xét 2 {#ac-x-s2-n4-rem-2 .statement}
 

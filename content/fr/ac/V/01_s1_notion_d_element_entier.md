@@ -48,7 +48,7 @@ subsections:
       pdf_page: 28
 statements: 77
 exercises: 19
-content_sha256: 57b53e8bf7d0cc8847b566ba28369dcfef723d40b2c32533cbe98342f9c1e8e7
+content_sha256: eb222dc37669e1014db7c63a9945333183fc076096c50bcfa2d94243f62c183a
 ---
 
 ## § 1. Notion d’élément entier.
@@ -687,21 +687,21 @@ Soit $(x_i)_{1 \leq i \leq n}$ un système fini de générateurs de la K-algèbr
 
 #### Remarque {#ac-v-s1-n9-rem-1 .statement}
 
-L’ensemble des $\sigma \in \mathcal{G}$ tels que $\sigma a_j = a_j$ pour $1 \leq j \leq m$ laisse évidemment invariant tout élément de A. Le sous-groupe distingué $\mathcal{H}$ de $\mathcal{G}$ laissant invariant tout élément de A est donc d’indice fini dans $\mathcal{G}$ et on peut considérer que A est muni du groupe d’opérateurs fini $\mathcal{G}/\mathcal{H}$; on a évidemment $A_{\mathcal{G}/\mathcal{H}} = A_{\mathcal{G}}$.
+L’ensemble des $\sigma \in \mathscr{G}$ tels que $\sigma a_j = a_j$ pour $1 \leq j \leq m$ laisse évidemment invariant tout élément de A. Le sous-groupe distingué $\mathscr{H}$ de $\mathscr{G}$ laissant invariant tout élément de A est donc d’indice fini dans $\mathscr{G}$ et on peut considérer que A est muni du groupe d’opérateurs fini $\mathscr{G}/\mathscr{H}$; on a évidemment $A_{\mathscr{G}/\mathscr{H}} = A_{\mathscr{G}}$.
 
-Soient S une partie multiplicative d’un anneau A, $\mathcal{G}$ un groupe opérant sur A et pour lequel S est stable; alors, pour tout $\sigma \in \mathcal{G}$, il existe un endomorphisme et un seul $z \to \sigma.z$ de l’anneau $S^{-1}A$ tel que $\sigma.(a/1) = (\sigma.a)/1$ pour tout $a \in A$; il est donné par la formule $\sigma.(a/s) = (\sigma.a)/(\sigma.s)$ pour $a \in A$ et $s \in S$ (chap. II, § 2, no 1, prop. 2); si $\tau$ est un second élément de $\mathcal{G}$, il est clair que $\sigma.(\tau.z) = (\sigma\tau).z$ pour tout $z \in S^{-1}A$, donc le groupe $\mathcal{G}$ opère sur l’anneau $S^{-1}A$.
+Soient S une partie multiplicative d’un anneau A, $\mathscr{G}$ un groupe opérant sur A et pour lequel S est stable; alors, pour tout $\sigma \in \mathscr{G}$, il existe un endomorphisme et un seul $z \to \sigma.z$ de l’anneau $S^{-1}A$ tel que $\sigma.(a/1) = (\sigma.a)/1$ pour tout $a \in A$; il est donné par la formule $\sigma.(a/s) = (\sigma.a)/(\sigma.s)$ pour $a \in A$ et $s \in S$ (chap. II, § 2, no 1, prop. 2); si $\tau$ est un second élément de $\mathscr{G}$, il est clair que $\sigma.(\tau.z) = (\sigma\tau).z$ pour tout $z \in S^{-1}A$, donc le groupe $\mathscr{G}$ opère sur l’anneau $S^{-1}A$.
 
 #### Proposition 23 {#ac-v-s1-prop-23 .statement}
 
-Soient A une K-algèbre, $\mathcal{G}$ un groupe d’opérateurs localement fini sur A, S une partie multiplicative de A stable pour $\mathcal{G}$, $S_{\mathcal{G}}$ l’ensemble $S \cap A_{\mathcal{G}}$. Alors l’application canonique de $(S_{\mathcal{G}})^{-1}A$ dans $S^{-1}A$ (chap. II, § 2, no 1, cor. 2 de la prop. 2) est un isomorphisme, qui transforme $(S_{\mathcal{G}})^{-1}A_{\mathcal{G}}$ en $(S^{-1}A)_{\mathcal{G}}$.
+Soient A une K-algèbre, $\mathscr{G}$ un groupe d’opérateurs localement fini sur A, S une partie multiplicative de A stable pour $\mathscr{G}$, $S_{\mathscr{G}}$ l’ensemble $S \cap A_{\mathscr{G}}$. Alors l’application canonique de $(S_{\mathscr{G}})^{-1}A$ dans $S^{-1}A$ (chap. II, § 2, no 1, cor. 2 de la prop. 2) est un isomorphisme, qui transforme $(S_{\mathscr{G}})^{-1}A_{\mathscr{G}}$ en $(S^{-1}A)_{\mathscr{G}}$.
 
-En effet, pour tout $s \in S$, soient $s, s_1, \ldots, s_q$ les éléments distincts de l’orbite de s pour $\mathcal{G}$; comme $ss_1 \ldots s_q \in S_{\mathcal{G}}$, la première assertion résulte du chap. II, § 2, no 3, prop. 8. Identifiant canoniquement $(S_{\mathcal{G}})^{-1}A$ et $S^{-1}A$, il est clair que tout élément de $(S_{\mathcal{G}})^{-1}A_{\mathcal{G}}$ est invariant par $\mathcal{G}$. Réciproquement, soit $a/t$ un élément de $(S_{\mathcal{G}})^{-1}A$ invariant par $\mathcal{G}$ ($a \in A, t \in S_{\mathcal{G}}$); si $a_j (1 \leq j \leq m)$ sont les éléments distincts de l’orbite de a pour $\mathcal{G}$, on a donc $a_j/t = a/t$ pour $1 \leq j \leq m$, et par suite il existe $s \in S_{\mathcal{G}}$ tel que $s(a_j - a) = 0$ pour $1 \leq j \leq m$; autrement dit, sa est invariant par $\mathcal{G}$ et comme $a/t = (sa)/(st)$, on a bien $a/t \in (S_{\mathcal{G}})^{-1}A_{\mathcal{G}}$.
+En effet, pour tout $s \in S$, soient $s, s_1, \ldots, s_q$ les éléments distincts de l’orbite de s pour $\mathscr{G}$; comme $ss_1 \ldots s_q \in S_{\mathscr{G}}$, la première assertion résulte du chap. II, § 2, no 3, prop. 8. Identifiant canoniquement $(S_{\mathscr{G}})^{-1}A$ et $S^{-1}A$, il est clair que tout élément de $(S_{\mathscr{G}})^{-1}A_{\mathscr{G}}$ est invariant par $\mathscr{G}$. Réciproquement, soit $a/t$ un élément de $(S_{\mathscr{G}})^{-1}A$ invariant par $\mathscr{G}$ ($a \in A, t \in S_{\mathscr{G}}$); si $a_j (1 \leq j \leq m)$ sont les éléments distincts de l’orbite de a pour $\mathscr{G}$, on a donc $a_j/t = a/t$ pour $1 \leq j \leq m$, et par suite il existe $s \in S_{\mathscr{G}}$ tel que $s(a_j - a) = 0$ pour $1 \leq j \leq m$; autrement dit, sa est invariant par $\mathscr{G}$ et comme $a/t = (sa)/(st)$, on a bien $a/t \in (S_{\mathscr{G}})^{-1}A_{\mathscr{G}}$.
 
 #### Corollaire {#ac-v-s1-n9-cor-1 .statement}
 
-Soient A un anneau intègre, K son corps des fractions, $\mathcal{G}$ un groupe d’opérateurs localement fini sur A. Alors $\mathcal{G}$ opère sur K et $K_{\mathcal{G}}$ est le corps des fractions de $A_{\mathcal{G}}$.
+Soient A un anneau intègre, K son corps des fractions, $\mathscr{G}$ un groupe d’opérateurs localement fini sur A. Alors $\mathscr{G}$ opère sur K et $K_{\mathscr{G}}$ est le corps des fractions de $A_{\mathscr{G}}$.
 
-En effet, $A - \{0\}$ est stable pour $\mathcal{G}$.
+En effet, $A - \{0\}$ est stable pour $\mathscr{G}$.
 
 ## EXERCICES {#ac-v-s1-exercises}
 

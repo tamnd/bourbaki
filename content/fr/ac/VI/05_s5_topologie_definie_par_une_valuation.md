@@ -24,14 +24,14 @@ subsections:
       pdf_page: 117
 statements: 10
 exercises: 10
-content_sha256: cd24fc0a6d756da3fa5b7b1816123edd040c68c139e42397d07a773a21726834
+content_sha256: 1beb5cd99e7e5b9484c8bd0b0de0e5dc9715fbd68458e93ca410ebb31a8e225b
 ---
 
 ## § 5. Topologie définie par une valuation.
 
 ### 1. Topologie définie par une valuation
 
-Soient $K$ un corps non nécessairement commutatif, $\nu$ une valuation de $K$, et $G$ le groupe totalement ordonné $\nu(K^*)$. Pour tout $\alpha \in G$, soit $V_\alpha$ l’ensemble des $x \in K$ tels que $\nu(x) > \alpha$; cet ensemble est un sous-groupe additif de $K$ (§ 3, n° 1). Il existe une topologie $\mathcal{T}_\nu$ et une seule sur $K$, compatible avec la structure de groupe additif de $K$, pour laquelle les $V_\alpha$ forment un système fondamental de voisinages de 0 (*Top. Gén.*, chap. III, § 1, n° 2, Exemple). Pour que $\nu$ soit impropre, il faut et il suffit que $\mathcal{T}_\nu$ soit la topologie discrète.
+Soient $K$ un corps non nécessairement commutatif, $\nu$ une valuation de $K$, et $G$ le groupe totalement ordonné $\nu(K^*)$. Pour tout $\alpha \in G$, soit $V_\alpha$ l’ensemble des $x \in K$ tels que $\nu(x) > \alpha$; cet ensemble est un sous-groupe additif de $K$ (§ 3, n° 1). Il existe une topologie $\mathscr{T}_\nu$ et une seule sur $K$, compatible avec la structure de groupe additif de $K$, pour laquelle les $V_\alpha$ forment un système fondamental de voisinages de 0 (*Top. Gén.*, chap. III, § 1, n° 2, Exemple). Pour que $\nu$ soit impropre, il faut et il suffit que $\mathscr{T}_\nu$ soit la topologie discrète.
 
 #### Lemme 1 {#ac-vi-s5-lem-1 .statement}
 
@@ -48,16 +48,16 @@ Si $v(x - y) > v(y),$ la prop. 1 du § 3, n° 1 entraîne que $v(x) = v(y),$ pui
 
 #### Proposition 1 {#ac-vi-s5-prop-1 .statement}
 
-La topologie $\mathcal{T}_v$ est séparée et compatible avec la structure de corps de $K.$ L’application $v : K^* \to G$ est continue si l’on munit $G$ de la topologie discrète.
-Soient $x \in K^*$ et $\alpha = v(x);$ on a $x \notin V_\alpha,$ ce qui montre que $\mathcal{T}_v$ est séparée. Quels que soient $x_0 \in K$ et $\alpha \in G,$ il existe $\beta \in G$ tel que $x_0 V_\beta \subset V_\alpha$ et $V_\beta x_0 \subset V_\alpha$ (il suffit de prendre $\beta \geq \alpha - v(x_0)$). D’autre part, si $\alpha \geq 0,$ on a $V_\alpha V_\alpha \subset V_\alpha.$ Les axiomes (AV_I) et (AV_{II}) de Top. gén., chap. III, 3e éd., § 6, n° 3, étant ainsi satisfaits, $\mathcal{T}_v$ est compatible avec la structure d’anneau de $K.$ Soit $x_0 \in K^*;$ si $x \in K^*$ vérifie $v(x - x_0) > \sup(\alpha + 2v(x_0), v(x_0)),$ on a $v(x^{-1} - x_0^{-1}) > \alpha$ (lemme 1), ce qui montre que $x \to x^{-1}$ est continue, et que $\mathcal{T}_v$ est donc compatible avec la structure de corps de $K.$ Enfin, la seule condition $v(x - x_0) > v(x_0)$ entraîne $v(x) = v(x_0)$ ($§ 3,$ n° 1, prop. 1), donc l’application $v : K^* \to G$ est continue si l’on munit $G$ de la topologie discrète. C.Q.F.D.
+La topologie $\mathscr{T}_v$ est séparée et compatible avec la structure de corps de $K.$ L’application $v : K^* \to G$ est continue si l’on munit $G$ de la topologie discrète.
+Soient $x \in K^*$ et $\alpha = v(x);$ on a $x \notin V_\alpha,$ ce qui montre que $\mathscr{T}_v$ est séparée. Quels que soient $x_0 \in K$ et $\alpha \in G,$ il existe $\beta \in G$ tel que $x_0 V_\beta \subset V_\alpha$ et $V_\beta x_0 \subset V_\alpha$ (il suffit de prendre $\beta \geq \alpha - v(x_0)$). D’autre part, si $\alpha \geq 0,$ on a $V_\alpha V_\alpha \subset V_\alpha.$ Les axiomes (AV_I) et (AV_{II}) de Top. gén., chap. III, 3e éd., § 6, n° 3, étant ainsi satisfaits, $\mathscr{T}_v$ est compatible avec la structure d’anneau de $K.$ Soit $x_0 \in K^*;$ si $x \in K^*$ vérifie $v(x - x_0) > \sup(\alpha + 2v(x_0), v(x_0)),$ on a $v(x^{-1} - x_0^{-1}) > \alpha$ (lemme 1), ce qui montre que $x \to x^{-1}$ est continue, et que $\mathscr{T}_v$ est donc compatible avec la structure de corps de $K.$ Enfin, la seule condition $v(x - x_0) > v(x_0)$ entraîne $v(x) = v(x_0)$ ($§ 3,$ n° 1, prop. 1), donc l’application $v : K^* \to G$ est continue si l’on munit $G$ de la topologie discrète. C.Q.F.D.
 
-Soient $\alpha \in G,$ et $V'_\alpha$ l’ensemble des $x \in K$ tels que $v(x) \geq \alpha.$ Si $\beta < \alpha,$ on a $V_\beta \supset V'_\alpha \supset V_\alpha.$ Si $v$ n’est pas impropre, on voit donc que les $V'_\alpha$ forment un système fondamental de voisinages de 0 pour $\mathcal{T}_v.$
+Soient $\alpha \in G,$ et $V'_\alpha$ l’ensemble des $x \in K$ tels que $v(x) \geq \alpha.$ Si $\beta < \alpha,$ on a $V_\beta \supset V'_\alpha \supset V_\alpha.$ Si $v$ n’est pas impropre, on voit donc que les $V'_\alpha$ forment un système fondamental de voisinages de 0 pour $\mathscr{T}_v.$
 Les $V_\alpha$ et les $V'_\alpha$ sont des sous-groupes additifs ouverts, donc fermés de $K,$ donc le corps topologique $K$ est totalement discontinu. Comme tout idéal non nul de l’anneau de $v$ contient un $V_\alpha,$ il est ouvert et fermé dans $K.$ La topologie quotient du corps résiduel de $v$ est donc discrète.
-Soit $A$ l’anneau de $v.$ Si $v$ est discrète, la prop. 8 du § 3, n° 6, montre que la topologie induite par $\mathcal{T}_v$ sur $A$ est la topologie $m(A)$-adique. Il n’en est pas de même en général (exerc. 4).
+Soit $A$ l’anneau de $v.$ Si $v$ est discrète, la prop. 8 du § 3, n° 6, montre que la topologie induite par $\mathscr{T}_v$ sur $A$ est la topologie $m(A)$-adique. Il n’en est pas de même en général (exerc. 4).
 
 #### Proposition 2 {#ac-vi-s5-prop-2 .statement}
 
-Soient $K$ un corps non nécessairement commutatif, $v$ une valuation non impropre de $K,$ A l’anneau de $\nu$, m l’idéal de $\nu$. Pour que K, muni de la topologie $\mathcal{T}_\nu$, soit localement compact, il faut et il suffit que les conditions suivantes soient satisfaites :
+Soient $K$ un corps non nécessairement commutatif, $v$ une valuation non impropre de $K,$ A l’anneau de $\nu$, m l’idéal de $\nu$. Pour que K, muni de la topologie $\mathscr{T}_\nu$, soit localement compact, il faut et il suffit que les conditions suivantes soient satisfaites :
 
 (i) K est complet;
 (ii) $\nu$ est discrète;
@@ -80,7 +80,7 @@ On notera qu’il suffit dans cette démonstration de supposer que A est complet
 
 ### 2. Espaces vectoriels topologiques sur un corps muni d’une valuation
 
-Soient toujours K un corps (non nécessairement commutatif), $\nu$ une valuation de K, et G son groupe des ordres. On munit K de la topologie $\mathcal{T}_\nu$.
+Soient toujours K un corps (non nécessairement commutatif), $\nu$ une valuation de K, et G son groupe des ordres. On munit K de la topologie $\mathscr{T}_\nu$.
 
 #### Proposition 3 {#ac-vi-s5-prop-3 .statement}
 
@@ -109,7 +109,7 @@ En effet, F est complet.
 
 Soient K un corps non nécessairement commutatif, $\varphi$ une valuation de K, et G le groupe $\varphi(K^*)$ muni de la topologie discrète.
 
-a) L’anneau complété $\hat{K}$ de K (muni de $\mathcal{T}_\varphi$) est un corps topologique.
+a) L’anneau complété $\hat{K}$ de K (muni de $\mathscr{T}_\varphi$) est un corps topologique.
 
 b) L’application $\varphi : K^* \to G$ se prolonge de manière unique en une application continue $\hat{\varphi} : \hat{K}^* \to G$. L’application $\hat{\varphi}$ (prolongée par $\hat{\varphi}(0) = +\infty$) est une valuation de $\hat{K}$ et $\hat{\varphi}(\hat{K}^*) = \varphi(K^*)$.
 

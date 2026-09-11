@@ -26,7 +26,7 @@ chapters:
           statements: 48
           exercises: 17
           extraction: ocr
-          content_sha256: dfd77bd04b8c3a561bbff2a837de1d04473894f7c634da1f7c06b1d28592b805
+          content_sha256: e9eeac77edda70d924b249438b8490822964b8aeb00c4b6e2f000df2b8cf1d06
         - kind: section
           section: 2
           title: Dimension des algèbres
@@ -104,7 +104,7 @@ chapters:
           statements: 34
           exercises: 25
           extraction: ocr
-          content_sha256: 21e410994c182ead283f87292334f898659c5e263b6e92c40c2f793d69d5661c
+          content_sha256: 359de70b757ee6740d8b6ed8cf1154b088e835d261d4e6df027d159d7002901b
     - chapter: IX
       title: ANNEAUX LOCAUX NOETHÉRIENS COMPLETS
       sections:
@@ -130,7 +130,7 @@ chapters:
           statements: 29
           exercises: 58
           extraction: ocr
-          content_sha256: 18354c626dd9c636314d443a2d42f81a66f14088339262d25bc4eedae5c9dfa6
+          content_sha256: 30760f149ab2c67e0e4434bb0adc4e82484040cc992dcfdbb46c774ebcd55842
         - kind: section
           section: 2
           title: Anneaux de Cohen
@@ -143,7 +143,7 @@ chapters:
           statements: 30
           exercises: 17
           extraction: ocr
-          content_sha256: 55a245e21b3153aae0c2254426dfc0000c89fee4a5e3f77c1215285ee543c76f
+          content_sha256: 511c29706c762ba8fdab3d1f6cb000587c55f6e3242d752934b1a3e4fb436071
         - kind: section
           section: 3
           title: Corps de représentants

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 124
 statements: 49
 exercises: 28
-content_sha256: afbce0ee70ea654b4478dd2d27c1a7060b1124651d86be84ea7b4b58f7101cd3
+content_sha256: 6f7cf1ebd9f83d55d972bba623722a1f420c6ea28c01ee2cc23b631ea4662e6a
 ---
 
 ## 4. SPECTRA OF RINGS AND SUPPORTS OF MODULES
@@ -87,7 +87,7 @@ It follows from Proposition 2 that every irreducible component of $X$ is *closed
 
 *Let $X$ be a topological space. Every irreducible subset of $X$ is contained in an irreducible component of $X$ and $X$ is the union of its irreducible components.*
 
-To prove the first assertion, it is sufficient, by virtue of Zorn's Lemma, to prove that the set 3 of irreducible subsets of $X$ is *inductive*. Let $\mathcal{G}$ be a subset of $\mathfrak{S}$ totally ordered by inclusion; we show that the union $E$ of the sets $F \in \mathcal{G}$ is irreducible. Let $U, V$ be two open sets of $X$ which meet $E$; as $\mathcal{G}$ is totally ordered, there exists a set $F \in \mathcal{G}$ meeting $U$ and $V$; as $F$ is irreducible, $U \cap V$ meets $F$ and hence also $E$, which proves that $E$ is irreducible and hence that 3 is inductive. The second assertion follows from the first, for every subset of $X$ consisting of a single point is irreducible.
+To prove the first assertion, it is sufficient, by virtue of Zorn's Lemma, to prove that the set 3 of irreducible subsets of $X$ is *inductive*. Let $\mathscr{G}$ be a subset of $\mathfrak{S}$ totally ordered by inclusion; we show that the union $E$ of the sets $F \in \mathscr{G}$ is irreducible. Let $U, V$ be two open sets of $X$ which meet $E$; as $\mathscr{G}$ is totally ordered, there exists a set $F \in \mathscr{G}$ meeting $U$ and $V$; as $F$ is irreducible, $U \cap V$ meets $F$ and hence also $E$, which proves that $E$ is irreducible and hence that 3 is inductive. The second assertion follows from the first, for every subset of $X$ consisting of a single point is irreducible.
 
 #### Corollary {#ac-ii-s4-n1-cor-1 .statement}
 

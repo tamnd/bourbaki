@@ -49,7 +49,7 @@ subsections:
       pdf_page: 529
 statements: 19
 exercises: 0
-content_sha256: 24b2404392ec37a498e3b069e48cd23f3c3de2b03e46d826d86d894e0aa6aa9e
+content_sha256: bc2182508bf62fc103152e4d37640a9f7378fda6a660ef2c9aebfd20d6b3c750
 ---
 
 ## 3. FACTORIAL DOMAINS
@@ -82,17 +82,17 @@ Let $A$ be an integral domain. The following conditions are equivalent:
 (d) condition (M) is satisfied and, for every extremal element $p$ of $A$, the ideal $Ap$ is prime;
 (e) $A$ is a Krull domain and every prime ideal of height 1 is principal.
 
-We shall denote by K the field of fractions of A and by $\mathcal{P}^*$ (or $\mathcal{P}^*(A)$) the ordered group of non-zero fractional principal ideals of A. The proof will be carried out by proving the following implications:
+We shall denote by K the field of fractions of A and by $\mathscr{P}^*$ (or $\mathscr{P}^*(A)$) the ordered group of non-zero fractional principal ideals of A. The proof will be carried out by proving the following implications:
 
 (a) ⇔ (b) ⇔ (c) ⇔ (d) ⇔ (e)
 
-We show that (a) implies (b); if A is factorial, $\mathcal{P}^*$ is isomorphic to the group of divisors of A and hence to a direct sum of groups $\mathbf{Z}$ ($§ 1$, no. 3, Theorem 2).
+We show that (a) implies (b); if A is factorial, $\mathscr{P}^*$ is isomorphic to the group of divisors of A and hence to a direct sum of groups $\mathbf{Z}$ ($§ 1$, no. 3, Theorem 2).
 
-Note now that the relation "the intersection of two integral principal ideals of A is a principal ideal" means that every ordered pair of elements of A admits a $lcm$, that is that $\mathcal{P}^*$ is a lattice-ordered group (Algebra, Chapter VI, $§ 1$, no. 9, Proposition 8). The fact that (b) implies (c) (and even is equivalent to it) therefore follows from Algebra, Chapter VI, $§ 1$, no. 13, Theorem 2. The fact that (c) implies (d) follows from Algebra, Chapter VI, $§ 1$, no. 13, Proposition 14 (DIV).
+Note now that the relation "the intersection of two integral principal ideals of A is a principal ideal" means that every ordered pair of elements of A admits a $lcm$, that is that $\mathscr{P}^*$ is a lattice-ordered group (Algebra, Chapter VI, $§ 1$, no. 9, Proposition 8). The fact that (b) implies (c) (and even is equivalent to it) therefore follows from Algebra, Chapter VI, $§ 1$, no. 13, Theorem 2. The fact that (c) implies (d) follows from Algebra, Chapter VI, $§ 1$, no. 13, Proposition 14 (DIV).
 
-The fact that (d) implies (b) follows from Algebra, Chapter VI, $§ 1$, no. 13, Theorem 2 applied to the group $\mathcal{S}^*$.
+The fact that (d) implies (b) follows from Algebra, Chapter VI, $§ 1$, no. 13, Theorem 2 applied to the group $\mathscr{S}^*$.
 
-We show that (b) implies (e). If (b) holds, there is an isomorphism of $\mathcal{P}^*$ onto $\mathbf{Z}^{(l)}$; let $(v_i(x))_{i \in I}$ denote the element of $\mathbf{Z}^{(l)}$ corresponding to the ideal $Ax$ ($x \in K^*$). It is seen immediately that each $v_i$ is a discrete valuation on K, that A is the intersection of the rings of the $v_i$ and that, for $x \in K^*$, $v_i(x) = 0$ except for a finite number of indices $i$; hence A is a Krull domain. On the other hand, let q be a prime ideal of A of height 1; it contains a non-zero element a which is necessarily not invertible and hence also (by definition of a prime ideal) one of the extremal elements of A; as $Ap$ is prime and non zero, $q = Ap$, which proves that q is principal.
+We show that (b) implies (e). If (b) holds, there is an isomorphism of $\mathscr{P}^*$ onto $\mathbf{Z}^{(l)}$; let $(v_i(x))_{i \in I}$ denote the element of $\mathbf{Z}^{(l)}$ corresponding to the ideal $Ax$ ($x \in K^*$). It is seen immediately that each $v_i$ is a discrete valuation on K, that A is the intersection of the rings of the $v_i$ and that, for $x \in K^*$, $v_i(x) = 0$ except for a finite number of indices $i$; hence A is a Krull domain. On the other hand, let q be a prime ideal of A of height 1; it contains a non-zero element a which is necessarily not invertible and hence also (by definition of a prime ideal) one of the extremal elements of A; as $Ap$ is prime and non zero, $q = Ap$, which proves that q is principal.
 
 Finally we show that (e) implies (a). Let a be a divisorial ideal of A. There exist prime ideals $p_i$ of A of height 1 such that $\operatorname{div} a = \sum_i n_i \operatorname{div} p_i$ where $n_i \in \mathbf{Z}$. If (e) holds, $p_i$ is of the form $Ap_i$, whence $\operatorname{div} a = \operatorname{div} \left( \prod_i Ap_i^{n_i} \right)$ and hence $a = \prod_i Ap_i^{n_i}$ since a is divisorial.
 
@@ -104,7 +104,7 @@ Suppose that every divisorial ideal of $A$ is invertible; as $A_{,,}$ is a Krull
 
 ### 3. DECOMPOSITION INTO EXTREMAL ELEMENTS
 
-Let $A$ be an integral domain, $K$ its field of fractions and $U$ the multiplicative group of invertible elements of $A$. Recall (Algebra, Chapter VI, $§ 1$, no. 5) that there is a canonical isomorphism of $K^*/U$ onto the group $\mathcal{P}^*$ of non-zero fractional principal ideals of $A$. Condition (b) of Theorem 1 may then be translated as follows:
+Let $A$ be an integral domain, $K$ its field of fractions and $U$ the multiplicative group of invertible elements of $A$. Recall (Algebra, Chapter VI, $§ 1$, no. 5) that there is a canonical isomorphism of $K^*/U$ onto the group $\mathscr{P}^*$ of non-zero fractional principal ideals of $A$. Condition (b) of Theorem 1 may then be translated as follows:
 
 #### Proposition 2 {#ac-vii-s3-prop-2 .statement}
 
@@ -112,7 +112,7 @@ Let $A$ be an integral domain, $K$ its field of fractions and $U$ the multiplica
 
 If $P$ satisfies this condition, clearly all its elements are *extremal* and every extremal element of $A$ is associated with a unique element of $P$. Recall that $P$ is then called a *representative system of extremal elements* of $A$ (Algebra, Chapter VII, $§ 1$, no. 3, Definition 2).
 
-Suppose always that $A$ is factorial. It has been seen (no. 2, Theorem 1) that the group $\mathcal{P}^*$ is a lattice. We may therefore apply the results of Algebra, Chapter VI, $§ 1$, nos. 9 and 13. In particular, every element of $K^*$ may be written in an essentially unique way in the form of an *irreducible fraction*. Any two elements $a, b$ of $K^*$ have a g.c.d. and a l.c.m.; if $a = u \prod_{p \in P} p^{n(p)}$ and
+Suppose always that $A$ is factorial. It has been seen (no. 2, Theorem 1) that the group $\mathscr{P}^*$ is a lattice. We may therefore apply the results of Algebra, Chapter VI, $§ 1$, nos. 9 and 13. In particular, every element of $K^*$ may be written in an essentially unique way in the form of an *irreducible fraction*. Any two elements $a, b$ of $K^*$ have a g.c.d. and a l.c.m.; if $a = u \prod_{p \in P} p^{n(p)}$ and
 $$
 b = u' \prod_{p \in P} p^{m(p)}
 $$

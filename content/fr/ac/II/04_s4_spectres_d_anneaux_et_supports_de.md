@@ -28,7 +28,7 @@ subsections:
       pdf_page: 130
 statements: 51
 exercises: 17
-content_sha256: 9740cb276737a1cd48243cde19395553197b80441b982b8f9949c6d3b97e7e74
+content_sha256: 2cfb86437e4b66be465a5932ba78f912c57440093982c286124acb0cafc2e9d5
 ---
 
 ## § 4. Spectres d’anneaux et supports de modules
@@ -148,7 +148,7 @@ Réciproquement, supposons que tout ensemble ouvert dans X soit quasi-compact, e
 
 Soient E un ensemble ordonné dont toute partie non vide admet un élément minimal. Soit F une partie de E ayant la propriété suivante : si $a \in E$ est tel que la relation $x < a$ entraîne $x \in F$, alors $a \in F$. On a alors $F = E$.
 
-En effet, supposons $F \neq E$; alors $\mathcal{C}F$ aurait un élément minimal b. Par définition, on a $x \in F$ pour tout $x < b$, ce qui entraîne $b \in F$, d’où contradiction.
+En effet, supposons $F \neq E$; alors $\mathscr{C}F$ aurait un élément minimal b. Par définition, on a $x \in F$ pour tout $x < b$, ce qui entraîne $b \in F$, d’où contradiction.
 
 #### Proposition 10 {#ac-ii-s4-prop-10 .statement}
 

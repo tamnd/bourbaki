@@ -25,7 +25,7 @@ subsections:
       pdf_page: 451
 statements: 10
 exercises: 5
-content_sha256: d266a1348cad0959a68f948795d45c8123c34ab55ddc0962987616e825a8a361
+content_sha256: 227e670a0dd4f394d2d3c60ac4095563da75ad47218935fc1d79d23696d806cf
 ---
 
 ## 9. APPLICATION: LOCALLY COMPACT FIELDS
@@ -36,7 +36,7 @@ Let $K$ be a locally compact field (not necessarily commutative). Recall that th
 
 #### Proposition 1 {#ac-vi-s9-prop-1 .statement}
 
-*If $K$ is a locally compactfield, thefunction mod, belongs to $\mathcal{V}(K)$ (§ 6, no. 1). Moreover:*
+*If $K$ is a locally compactfield, thefunction mod, belongs to $\mathscr{V}(K)$ (§ 6, no. 1). Moreover:*
 (i) *If $s > 0$ is such that $(\operatorname{mod}_K)^s = g$ is an absolute value, then $g$ defines the topology on $K$.*
 (ii) *If $K$ is not discrete and mod, is an ultrametric absolute value, there exists a normed discrete valuation $v$ on $K$ whose ring is compact and whose residuefield is finite with $q$ elements, so that $\operatorname{mod}, = q^{-v}$. The topology on $K$ is defined by $v$.*
 

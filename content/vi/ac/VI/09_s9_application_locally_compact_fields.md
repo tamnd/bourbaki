@@ -25,9 +25,9 @@ subsections:
       pdf_page: 451
 statements: 10
 exercises: 5
-content_sha256: 14e6aa974dd0c40970a4f76a75323502866a2a9c718c8cfaf25f2fbd04a47d68
+content_sha256: 79cd827e628ee6ca78d75f9a11ce4a721477dc95003cb49854c8494c6a68759e
 translated_from: content/en/ac/VI/09_s9_application_locally_compact_fields.md
-source_content_sha256: d266a1348cad0959a68f948795d45c8123c34ab55ddc0962987616e825a8a361
+source_content_sha256: 227e670a0dd4f394d2d3c60ac4095563da75ad47218935fc1d79d23696d806cf
 translation_model: gpt-5.4
 translation_run: translate-vi-e899e013
 glossary_version: 34
@@ -43,7 +43,7 @@ Cho $K$ là một trường compact địa phương (không nhất thiết giao 
 
 #### Mệnh đề 1 {#ac-vi-s9-prop-1 .statement}
 
-*Nếu $K$ là một trường compact địa phương, hàm mod, thuộc $\mathcal{V}(K)$ (§ 6, no. 1). Hơn nữa:*
+*Nếu $K$ là một trường compact địa phương, hàm mod, thuộc $\mathscr{V}(K)$ (§ 6, no. 1). Hơn nữa:*
 (i) *Nếu $s > 0$ sao cho $(\operatorname{mod}_K)^s = g$ là một giá trị tuyệt đối, thì $g$ xác định tôpô trên $K$.*
 (ii) *Nếu $K$ không rời rạc và mod, là một giá trị tuyệt đối siêu mêtric, thì tồn tại một định giá rời rạc chuẩn hóa $v$ trên $K$ mà vành của nó là compact và trường thặng dư của nó là hữu hạn với $q$ phần tử, sao cho $\operatorname{mod}, = q^{-v}$. Tôpô trên $K$ được xác định bởi $v$.*
 

@@ -24,7 +24,7 @@ subsections:
       pdf_page: 146
 statements: 20
 exercises: 11
-content_sha256: 8a0316d9c2d9112e6e53e8f38086207713f10c8450890ae999207b89ed062f84
+content_sha256: cc968c21a6b9e12b9f35518aa00501a249af48a3b52e39a832d039372a712eca
 ---
 
 ## § 10. COHOMOLOGIE LOCALE, DUALITÉ DE GROTHENDIECK
@@ -39,7 +39,7 @@ Les idéaux $m_A^n$ pour $n \geq 1$ forment une partie cofinale de $\mathscr{D}$
 
 #### Remarque 1 {#ac-x-s10-n1-rem-1 .statement}
 
-Soient $X$ l’espace topologique $\mathrm{Spec}(A)$, $\mathcal{O}_X$ le faisceau d’anneaux structural et $\widetilde{M}$ le $\mathcal{O}_X$-module associé à $M$. Le $A$-module gradué $H_A(M)$ s’identifie au module $H_{\{m_A\}}(X, \widetilde{M})$ de cohomologie à support dans le point fermé $m_A$ de $X$.
+Soient $X$ l’espace topologique $\mathrm{Spec}(A)$, $\mathscr{O}_X$ le faisceau d’anneaux structural et $\widetilde{M}$ le $\mathscr{O}_X$-module associé à $M$. Le $A$-module gradué $H_A(M)$ s’identifie au module $H_{\{m_A\}}(X, \widetilde{M})$ de cohomologie à support dans le point fermé $m_A$ de $X$.
 
 Pour tout homomorphisme $f : M \to N$ de $A$-modules, les applications $\mathrm{Ext}_A(1_{A/a}, f) : \mathrm{Ext}_A(A/a, M) \longrightarrow \mathrm{Ext}_A(A/a, N)$ forment un système inductif d’applications linéaires graduées. Par passage à la limite inductive, on obtient un homomorphisme gradué $H_A(f) : H_A(M) \to H_A(N)$. Pour toute suite $M \xrightarrow{f} N \xrightarrow{g} P$ de $A$-modules et d’homomorphismes, on a $H_A(g \circ f) = H_A(g) \circ H_A(f)$. Soit
 
@@ -49,10 +49,10 @@ $$
 \end{array}
 $$
 
-une suite exacte de $A$-modules. D’après $\Lambda$, $X$, p. 90, prop. 8, les homomorphismes de liaison des modules d’extensions $\mathrm{Ext}_A(A/a, P) \longrightarrow \mathrm{Ext}_A(A/a, M)$ forment un système inductif d’applications $A$-linéaires, graduées de degré (ascendant) +1. Par passage à la limite inductive, on en déduit un $A$-homomorphisme $\partial(\mathcal{E}) : H_A(P) \to H_A(M)$, gradué de degré +1 , qui rend exacte la suite d’homomorphismes
+une suite exacte de $A$-modules. D’après $\Lambda$, $X$, p. 90, prop. 8, les homomorphismes de liaison des modules d’extensions $\mathrm{Ext}_A(A/a, P) \longrightarrow \mathrm{Ext}_A(A/a, M)$ forment un système inductif d’applications $A$-linéaires, graduées de degré (ascendant) +1. Par passage à la limite inductive, on en déduit un $A$-homomorphisme $\partial(\mathscr{E}) : H_A(P) \to H_A(M)$, gradué de degré +1 , qui rend exacte la suite d’homomorphismes
 
 $$
-\ldots \longrightarrow H_A^{n-1}(P) \xrightarrow{\partial^{n-1}(\mathcal{E})} H_A^n(M) \xrightarrow{H_A^n(f)} H_A^n(N) \xrightarrow{H_A^n(g)} H_A^n(P) \xrightarrow{\partial^n(\mathcal{E})} H_A^{n+1}(M) \longrightarrow \ldots
+\ldots \longrightarrow H_A^{n-1}(P) \xrightarrow{\partial^{n-1}(\mathscr{E})} H_A^n(M) \xrightarrow{H_A^n(f)} H_A^n(N) \xrightarrow{H_A^n(g)} H_A^n(P) \xrightarrow{\partial^n(\mathscr{E})} H_A^{n+1}(M) \longrightarrow \ldots
 $$
 
 Soit M un A-module. Pour tout idéal $\alpha$ de A, le A-module $\mathrm{Hom}_A(A/\alpha, M)$ s’identifie canoniquement au sous-module de M formé des éléments annulés par $\alpha$. Ainsi $H_A^0(M)$ s’identifie au sous-module de M formé des éléments $m$ qui sont annulés par une puissance de $\mathfrak{m}_A$, c’est-à-dire tels que $\mathrm{long}_A(Am) < +\infty$. On a en particulier $H_A^0(M) = M$ lorsque M est artinien.
@@ -220,14 +220,14 @@ $$
 
 Soit
 $$
-(\mathcal{E}) \quad 0 \to M \to N \to P \to 0
+(\mathscr{E}) \quad 0 \to M \to N \to P \to 0
 $$
 une suite exacte de A-modules. En utilisant A, X, p. 104, prop. 3 et p. 106, prop. 4, on prouve que les diagrammes suivants sont commutatifs :
 
 $$
 \begin{array}{ccc}
 \mathrm{Tor}_{d-i}^A(P, H_A^d(A)) & \xrightarrow{\tau^i(P)} & H_A^i(P) \\
-\downarrow \partial_{d-i}(\mathcal{E}, H_A^d(A)) & & \downarrow \partial^i(\mathcal{E}) \\
+\downarrow \partial_{d-i}(\mathscr{E}, H_A^d(A)) & & \downarrow \partial^i(\mathscr{E}) \\
 \mathrm{Tor}_{d-i-1}^A(M, H_A^d(A)) & \xrightarrow{\tau^{i+1}(M)} & H_A^{i+1}(M)
 \end{array}
 $$
@@ -355,7 +355,7 @@ $$
 
 Soit
 
-$$(\mathcal{E})$$
+$$(\mathscr{E})$$
 $$0 \to M' \to M \to M'' \to 0$$
 
 une suite exacte de $A$-modules. D’après la remarque 2 du n° 2 et celle du § 8, n° 7, les diagrammes suivants sont commutatifs :
@@ -363,7 +363,7 @@ une suite exacte de $A$-modules. D’après la remarque 2 du n° 2 et celle du �
 $$
 \begin{array}{ccc}
 H_A^{i-1}(M'') & \xrightarrow{\gamma^{i-1}(M'')} & D(\mathrm{Ext}_A^{d-i+1}(M'', \Omega)) \\
-\downarrow & & \downarrow (-1)^{d-i+1}D(\delta^d i(\mathcal{E}, \Omega)) \\
+\downarrow & & \downarrow (-1)^{d-i+1}D(\delta^d i(\mathscr{E}, \Omega)) \\
 H_A^i(M') & \xrightarrow{\gamma^i(M')} & D(\mathrm{Ext}_A^{d-i}(M', \Omega))
 \end{array}
 $$
@@ -371,7 +371,7 @@ $$
 $$
 \begin{array}{ccc}
 \mathrm{Ext}_A^{d-i}(M', \widehat{\Omega}) & \xrightarrow{\delta^i(M')} & D(H_A^i(M')) \\
-\downarrow & & \downarrow (-1)^{d-i+1}D(\partial^{i-1}(\mathcal{E})) \\
+\downarrow & & \downarrow (-1)^{d-i+1}D(\partial^{i-1}(\mathscr{E})) \\
 \mathrm{Ext}_A^{d-i+1}(M'', \widehat{\Omega}) & \xrightarrow{\delta^{i-1}(M'')} & D(H_A^{i-1}(M''))
 \end{array}
 $$

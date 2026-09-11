@@ -33,11 +33,11 @@ subsections:
       pdf_page: 81
 statements: 28
 exercises: 25
-content_sha256: 1eeb40001454ae2978561f7815b344e207290528b5db31569553f99dc344df0b
+content_sha256: 7cb98368e6bbd3a0999f4f68c2fd6ad6300332c65609ffb4e255509b333c75bb
 translated_from: content/en-mt/ac/VIII/07_s7_multiplicites.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 68115c9d8bf4b1a2b06c471d9339d5bb6256d795fcf17a9f580d192667524606
+source_content_sha256: 0ebb1895c7e28c518fbf35c9fa2da634a6f48b944edc7bcba45e801c99d1ee9c
 translation_model: gpt-5.4
 translation_run: translate-vi-e477d8c2
 glossary_version: 34
@@ -145,7 +145,7 @@ $$
 
 #### Ví dụ {#ac-viii-s7-n2-exa-1 .statement}
 
-\* Cho X là một đa tạp đại số phức, $\mathcal{O}_{X,x}$ là vành địa phương của X tại một điểm hữu tỉ x, $X^{an}$ là không gian giải tích liên kết với X; lại ký hiệu bởi x điểm của $X^{an}$ tương ứng với x, và cho $\mathcal{O}_{X^{an},x}$ là vành địa phương của $X^{an}$ tại x. Khi đó $e(\mathcal{O}_{X^{an},x}) = e(\mathcal{O}_{X,x})$. \*
+\* Cho X là một đa tạp đại số phức, $\mathscr{O}_{X,x}$ là vành địa phương của X tại một điểm hữu tỉ x, $X^{an}$ là không gian giải tích liên kết với X; lại ký hiệu bởi x điểm của $X^{an}$ tương ứng với x, và cho $\mathscr{O}_{X^{an},x}$ là vành địa phương của $X^{an}$ tại x. Khi đó $e(\mathscr{O}_{X^{an},x}) = e(\mathscr{O}_{X,x})$. \*
 
 ### 3. Bội số và các mở rộng hữu hạn
 

@@ -25,9 +25,9 @@ subsections:
       pdf_page: 305
 statements: 6
 exercises: 3
-content_sha256: 037baafad936f1794febc3d2a8adb5d27a6957bc321afb046cd6ecd0c6b7494b
+content_sha256: 2d1d9b9c6fd9c9cc902ea0144d488877b0b38f3c3d44ab4a82242be40b885713
 translated_from: content/en/ac/IV/03_s3_primary_decomposition_in_graded_modules.md
-source_content_sha256: 55183dce28d121c14a65bc1ae9b8a1e4c9902f11e7b2707081227fe1fa054024
+source_content_sha256: 77da47eff4a9cd348b9b5750f0406855ff25790acc8bc710348c578033c3e472
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-5035aace
 glossary_version: 34
@@ -63,7 +63,7 @@ Với ký hiệu của chứng minh Mệnh đề 1, xét đồng cấu nhận đ
 
 *Cho $A$ là một nhóm giao hoán không xoắn, $A$ là một vành Noether phân bậc kiểu $A$ và $M$ là một $A$-môđun phân bậc sinh hữu hạn kiểu $A$. Tồn tại một chuỗi hợp thành $(\mathbf{M}_i)_{0 \leq i \leq n}$ gồm các môđun con phân bậc của $M$ sao cho với $0 \leq i \leq n - 1$ môđun phân bậc $\mathbf{M}_i / \mathbf{M}_{i+1}$ là đẳng cấu với một môđun phân bậc dịch chuyển $(A/p_i)(k_i)$, trong đó $p_i$ là một iđêan nguyên tố phân bậc của $A$ và $k_i \in A$.*
 
-Chỉ cần lần lại lập luận của § 1, no. 4, Định lý 1, trong dịp này lấy $\mathcal{G}$ là tập hợp các môđun con phân bậc của $M$ có một chuỗi hợp thành với các tính chất của mệnh đề; ta kết luận bằng cách sử dụng Hệ quả của Mệnh đề 1.
+Chỉ cần lần lại lập luận của § 1, no. 4, Định lý 1, trong dịp này lấy $\mathscr{G}$ là tập hợp các môđun con phân bậc của $M$ có một chuỗi hợp thành với các tính chất của mệnh đề; ta kết luận bằng cách sử dụng Hệ quả của Mệnh đề 1.
 
 ### 2. CÁC MÔĐUN CON NGUYÊN SƠ TƯƠNG ỨNG VỚI CÁC IĐÊAN NGUYÊN TỐ PHÂN BẬC
 

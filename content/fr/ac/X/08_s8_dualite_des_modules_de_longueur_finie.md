@@ -40,7 +40,7 @@ subsections:
       pdf_page: 119
 statements: 31
 exercises: 10
-content_sha256: e52e439dc4014b802a73340401b5e7d083e4a386ccc0b2510cc9902462185172
+content_sha256: fbc50d377bb5b3611bf9f59a677bc3738422facb59e1d4d8254527278d9ee984
 ---
 
 ## § 8. DUALITÉ DES MODULES DE LONGUEUR FINIE
@@ -650,7 +650,7 @@ $$
 
 Soit
 
-$$(\mathcal{E})$$
+$$(\mathscr{E})$$
 $$0 \to M' \xrightarrow{j} M \xrightarrow{q} M'' \to 0$$
 
 une suite exacte de $A$-modules. L’homomorphisme $L(q) : L(M) \to L(M'')$ induit sur les résolutions libres canoniques est surjectif, et le complexe $Ker\,L(q)$ définit une résolution projective de $M'$. En appliquant la prop. 3 de A, X, p. 104 à la suite exacte $0 \to Ker\,L(q) \to L(M) \to L(M'') \to 0$, on obtient des diagrammes commutatifs
@@ -659,7 +659,7 @@ $$
 \begin{array}{ccc}
 \mathrm{Ext}_A^i(M', D(P)) & \xrightarrow{\theta^i(M', P)} & D(\mathrm{Tor}_i^A(M', P)) \\
 \downarrow & & \downarrow \\
-\delta^i(\mathcal{E}, D(P)) & & (-1)^{i+1}D(\partial_{i+1}(\mathcal{E}, P))
+\delta^i(\mathscr{E}, D(P)) & & (-1)^{i+1}D(\partial_{i+1}(\mathscr{E}, P))
 \end{array}
 $$
 
@@ -669,7 +669,7 @@ $$
 \downarrow & & \downarrow \\
 \mathrm{Tor}_{i+1}^A(M'', D(P)) & \xrightarrow{\rho_{i+1}(M'', P)} & D(\mathrm{Ext}_A^{i+1}(M'', P)) \\
 \downarrow & & \downarrow \\
-\partial_{i+1}(\mathcal{E}, D(P)) & & (-1)^{i+1}D(\delta^i(\mathcal{E}, P))
+\partial_{i+1}(\mathscr{E}, D(P)) & & (-1)^{i+1}D(\delta^i(\mathscr{E}, P))
 \end{array}
 $$
 
@@ -683,21 +683,21 @@ $$
 
 Soit
 
-$$(\mathcal{F})$$
+$$(\mathscr{F})$$
 $$0 \to P' \to P \to P'' \to 0$$
 
 une suite exacte de $A$-modules ; puisque le $A$-module $J$ est injectif, on en déduit une suite exacte
 
-$$(\mathscr{D}(\mathcal{F}))$$
+$$(\mathscr{D}(\mathscr{F}))$$
 $$0 \to D(P'') \to D(P) \to D(P') \to 0.$$
 
-En appliquant A, X, p. 104, prop. 3 et p. 106, prop. 4 aux suites exactes $(\mathcal{F})$ et $(\mathscr{D}(\mathcal{F}))$, on obtient de manière analogue des diagrammes commutatifs
+En appliquant A, X, p. 104, prop. 3 et p. 106, prop. 4 aux suites exactes $(\mathscr{F})$ et $(\mathscr{D}(\mathscr{F}))$, on obtient de manière analogue des diagrammes commutatifs
 
 $$
 \begin{array}{ccc}
 \mathrm{Ext}_A^i(M, D(P')) & \xrightarrow{\theta^i(M, P')} & D(\mathrm{Tor}_i^A(M, P')) \\
 \downarrow & & \downarrow \\
-\delta^i(M, D(\mathcal{F})) & & (-1)^{i+1}D(\partial_{i+1}(M, \mathcal{F}))
+\delta^i(M, D(\mathscr{F})) & & (-1)^{i+1}D(\partial_{i+1}(M, \mathscr{F}))
 \end{array}
 $$
 
@@ -711,7 +711,7 @@ $$
 \begin{array}{ccc}
 \mathrm{Tor}_{i+1}^{\mathbf{A}}(M, D(P')) & \xrightarrow{\rho_{i+1}(M, P')} & D(\mathrm{Ext}_{\Lambda}^{i+1}(M, P')) \\
 \downarrow & & \downarrow \\
-\partial_{i+1}(M, D(\mathcal{F})) & & (-1)^i D(\delta^i(M, \mathcal{F}))
+\partial_{i+1}(M, D(\mathscr{F})) & & (-1)^i D(\delta^i(M, \mathscr{F}))
 \end{array}
 $$
 

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 33
 statements: 46
 exercises: 11
-content_sha256: 650bbfdcc8ed4e299912939fbb5d1419edd5bfe730a6cdaaf497218c5852c4b7
+content_sha256: 2bb1ee1d8fa07faecb99ed380b4de9e87ee14fd0064146c77c3fab3b73cfd146
 ---
 
 ## § 2. MODULES ET ANNEAUX MACAULAYENS
@@ -260,22 +260,22 @@ L’équivalence de (ii) et (iii) résulte de A, X, p. 160, cor. 1 du th. 1. Le 
 
 ### 4. Parties fortement sécantes et quotients d’un module macaulayen
 
-Soient $A$ un anneau noethérien, $M$ un A-module de type fini, et $S$ une partie de $A$. Conformément aux conventions du ch. VIII nous noterons $SM$ le sous-module $\sum_{s \in S} sM$ de $M$, et $\mathcal{G}$ l’idéal de $A$ engendré par $S$.
+Soient $A$ un anneau noethérien, $M$ un A-module de type fini, et $S$ une partie de $A$. Conformément aux conventions du ch. VIII nous noterons $SM$ le sous-module $\sum_{s \in S} sM$ de $M$, et $\mathscr{G}$ l’idéal de $A$ engendré par $S$.
 
 #### Lemme 2 {#ac-x-s2-lem-2 .statement}
 
-Soit $\overline{\mathcal{G}}$ l’image de $\mathcal{G}$ dans $A/\mathrm{Ann}(M)$. On a
+Soit $\overline{\mathscr{G}}$ l’image de $\mathscr{G}$ dans $A/\mathrm{Ann}(M)$. On a
 $$
-\mathrm{ht}(\overline{\mathcal{G}}) = \mathrm{codim}(\mathrm{Supp}(M/SM), \mathrm{Supp}(M)) .
+\mathrm{ht}(\overline{\mathscr{G}}) = \mathrm{codim}(\mathrm{Supp}(M/SM), \mathrm{Supp}(M)) .
 $$
 Lorsque de plus $SM \neq M$, on a
 $$
-\mathrm{ht}(\overline{\mathcal{G}}) \leq \mathrm{Card}(S) .
+\mathrm{ht}(\overline{\mathscr{G}}) \leq \mathrm{Card}(S) .
 $$
 
-Notons $\alpha$ l’annulateur de $M$. D’après le cor. de la prop. 18 de II, § 4, n° 4, le support du A-module $M/SM$ est $V(\mathcal{G} + \alpha)$. Sa codimension dans $\mathrm{Supp}(M)$ est donc égale à la codimension de $V(\mathcal{G} + \alpha)$ dans $V(\alpha)$, soit encore à la codimension de $V((\mathcal{G} + \alpha)/\alpha)$ dans $\mathrm{Spec}(A/\alpha)$, qui n’est autre que la hauteur de $\overline{\mathcal{G}}$.
+Notons $\alpha$ l’annulateur de $M$. D’après le cor. de la prop. 18 de II, § 4, n° 4, le support du A-module $M/SM$ est $V(\mathscr{G} + \alpha)$. Sa codimension dans $\mathrm{Supp}(M)$ est donc égale à la codimension de $V(\mathscr{G} + \alpha)$ dans $V(\alpha)$, soit encore à la codimension de $V((\mathscr{G} + \alpha)/\alpha)$ dans $\mathrm{Spec}(A/\alpha)$, qui n’est autre que la hauteur de $\overline{\mathscr{G}}$.
 
-Supposons $SM \neq M$ ; l’inégalité $\mathrm{ht}(\overline{\mathcal{G}}) \leq \mathrm{Card}(S)$ est évidente lorsque $S$ est infinie, et résulte de la prop. 4 b) de VIII, § 3, n° 3 lorsque $S$ est finie.
+Supposons $SM \neq M$ ; l’inégalité $\mathrm{ht}(\overline{\mathscr{G}}) \leq \mathrm{Card}(S)$ est évidente lorsque $S$ est infinie, et résulte de la prop. 4 b) de VIII, § 3, n° 3 lorsque $S$ est finie.
 
 #### Définition 2 {#ac-x-s2-def-2 .statement}
 
@@ -286,7 +286,7 @@ $$
 
 #### Remarque 1 {#ac-x-s2-n4-rem-1 .statement}
 
-Toute partie finie S de A telle que SM = M est fortement sécante pour M. Lorsque SM ≠ M, il résulte du lemme 2 que pour que S soit fortement sécante pour M, il faut et il suffit qu’on ait Card(S) = codim(Supp(M/SM), Supp(M)), ou encore ht($\overline{\mathcal{G}}$) = Card(S).
+Toute partie finie S de A telle que SM = M est fortement sécante pour M. Lorsque SM ≠ M, il résulte du lemme 2 que pour que S soit fortement sécante pour M, il faut et il suffit qu’on ait Card(S) = codim(Supp(M/SM), Supp(M)), ou encore ht($\overline{\mathscr{G}}$) = Card(S).
 
 #### Remarque 2 {#ac-x-s2-n4-rem-2 .statement}
 

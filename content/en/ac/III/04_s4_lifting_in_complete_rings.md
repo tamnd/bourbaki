@@ -37,7 +37,7 @@ subsections:
       pdf_page: 245
 statements: 23
 exercises: 8
-content_sha256: 032da00cd9da91bab8ac7c8047cd1bea737f1d4ecc3ff26817f377706ac8dcf8
+content_sha256: f912ce448ee1a4126b48a8dd56b73d600b24151c918435c56cc969e0399db275
 ---
 
 ## 4. LIFTING IN COMPLETE RINGS
@@ -139,13 +139,13 @@ whence the relation $E = F + aE$. Now, $E/F$ is a finitely generated $A$-module,
 
 #### Definition 1 {#ac-iii-s4-def-1 .statement}
 
-A commutative topological ring $A$ is said to be linearly topologized (and its topology is said to be linear) if there exists a fundamental system $\mathcal{B}$ of neighbourhoods $\mathfrak{o}$ consisting of ideals $\mathfrak{o} \subset A$.
+A commutative topological ring $A$ is said to be linearly topologized (and its topology is said to be linear) if there exists a fundamental system $\mathscr{B}$ of neighbourhoods $\mathfrak{o}$ consisting of ideals $\mathfrak{o} \subset A$.
 
-Note that in such a ring, the ideals $3 \in \mathcal{B}$ are open and closed (General Topology, Chapter 111, § 2, no. 1, Corollary to Proposition 4 ). For all $3 \in \mathcal{B}$, the quotient topological ring $A/\mathfrak{J}$ is then discrete; for $8 \in \mathcal{B}$, $8' \in \mathcal{B}$, $\mathfrak{J}' \subset 8$, let
+Note that in such a ring, the ideals $3 \in \mathscr{B}$ are open and closed (General Topology, Chapter 111, § 2, no. 1, Corollary to Proposition 4 ). For all $3 \in \mathscr{B}$, the quotient topological ring $A/\mathfrak{J}$ is then discrete; for $8 \in \mathscr{B}$, $8' \in \mathscr{B}$, $\mathfrak{J}' \subset 8$, let
 $$
 h_{\mathfrak{J}\mathfrak{J}'} : A/\mathfrak{J}' \to A/\mathfrak{J}
 $$
-be the canonical mapping. We know (General Topology, Chapter III, § 7, no. 3) that $(A/\mathfrak{J}, h_{\mathfrak{J}\mathfrak{J}'})$ is an inverse system of discrete rings (relative to the indexing set $\mathcal{B}$ which is ordered by $\supset$ and directed), whose inverse limit is a complete Hausdorff linearly topologized ring $\tilde{A}$; further (loc. cit., Proposition 2 ), a strict morphism $i : A \to \tilde{A}$ is defined, whose kernel is the closure of $\{0\}$ in $A$ and whose image is everywhere dense in $\tilde{A}$, so that $\tilde{A}$ is canonically identified with the Hausdorff completion of $A$.
+be the canonical mapping. We know (General Topology, Chapter III, § 7, no. 3) that $(A/\mathfrak{J}, h_{\mathfrak{J}\mathfrak{J}'})$ is an inverse system of discrete rings (relative to the indexing set $\mathscr{B}$ which is ordered by $\supset$ and directed), whose inverse limit is a complete Hausdorff linearly topologized ring $\tilde{A}$; further (loc. cit., Proposition 2 ), a strict morphism $i : A \to \tilde{A}$ is defined, whose kernel is the closure of $\{0\}$ in $A$ and whose image is everywhere dense in $\tilde{A}$, so that $\tilde{A}$ is canonically identified with the Hausdorff completion of $A$.
 
 #### Definition 2 {#ac-iii-s4-def-2 .statement}
 
@@ -165,11 +165,11 @@ $$
 T'' = TT' = \sum_{(n_i)} c''_{n_1 \ldots n_p} X_1^{n_1} \ldots X_p^{n_p},
 $$
 
-then $c''_{n_1 \ldots n_p} = \sum c_{r_1 \ldots r_p} c'_{s_1 \ldots s_p}$ for all systems $(r_k), (s_k)$ such that $r_k + s_k = n_k$ for $1 \leq k \leq p$; we conclude that if $n_k \geq 2m$, then $r_k \geq m$ or $s_k \geq m$ and hence, since $\mathfrak{z}$ is an ideal, $c''_{n_1 \ldots n_p} \in \mathfrak{g}$ so long as $n_k \geq 2m$ for at least one $k$, which establishes our assertion. Moreover, every derivative $\partial T / \partial X_i$ ($1 \leq i \leq p$) of a restricted formal power series is restricted, as follows immediately from the definition and the fact that the neighbourhoods $\mathfrak{z} \in \mathcal{B}$ are additive subgroups of $\mathbf{A}$.
+then $c''_{n_1 \ldots n_p} = \sum c_{r_1 \ldots r_p} c'_{s_1 \ldots s_p}$ for all systems $(r_k), (s_k)$ such that $r_k + s_k = n_k$ for $1 \leq k \leq p$; we conclude that if $n_k \geq 2m$, then $r_k \geq m$ or $s_k \geq m$ and hence, since $\mathfrak{z}$ is an ideal, $c''_{n_1 \ldots n_p} \in \mathfrak{g}$ so long as $n_k \geq 2m$ for at least one $k$, which establishes our assertion. Moreover, every derivative $\partial T / \partial X_i$ ($1 \leq i \leq p$) of a restricted formal power series is restricted, as follows immediately from the definition and the fact that the neighbourhoods $\mathfrak{z} \in \mathscr{B}$ are additive subgroups of $\mathbf{A}$.
 
 If $\mathbf{A}$ is discrete, the ring of restricted formal power series is just the polynomial ring $\mathbf{A}[X_1, \ldots, X_n]$.
 
-Let us always assume that $\mathbf{A}$ is linearly topologized and let $\mathcal{B}$ be a fundamental system of neighbourhoods of 0 in $\mathbf{A}$ consisting of ideals of $\mathbf{A}$; for all $\mathfrak{g} \in \mathcal{B}$, let $p_\mathfrak{g}: \mathbf{A} \to \mathbf{A}/\mathfrak{g}$ be the canonical homomorphism. By definition, for every restricted formal power series $T \in \mathbf{A}\{X_1, \ldots, X_n\}$,
+Let us always assume that $\mathbf{A}$ is linearly topologized and let $\mathscr{B}$ be a fundamental system of neighbourhoods of 0 in $\mathbf{A}$ consisting of ideals of $\mathbf{A}$; for all $\mathfrak{g} \in \mathscr{B}$, let $p_\mathfrak{g}: \mathbf{A} \to \mathbf{A}/\mathfrak{g}$ be the canonical homomorphism. By definition, for every restricted formal power series $T \in \mathbf{A}\{X_1, \ldots, X_n\}$,
 
 $$
 \bar{p}_\mathfrak{g}(T) \in (\mathbf{A}/\mathfrak{g})[X_1, \ldots, X_p].
@@ -181,7 +181,7 @@ $$
 ((\mathbf{A}/\mathfrak{g})[X_1, \ldots, X_p], \bar{h}_{\mathfrak{g}\mathfrak{g}'})
 $$
 
-is an inverse system of rings (relative to the directed indexing set $\mathcal{B}$) and $(\bar{p}_\mathfrak{g})$ is an inverse system of homomorphisms $\mathbf{A}\{X_1, \ldots, X_n\} \to (\mathbf{A}/\mathfrak{g})[X_1, \ldots, X_p]$; as every polynomial is a restricted formal power series, $\bar{p}_\mathfrak{g}$ is surjective; its kernel $N_\mathfrak{g}$ is the ideal of $\mathbf{A}\{X_1, \ldots, X_n\}$ consisting of the restricted formal power series all of whose coefficients belong to $\mathfrak{g}$; we shall give $\mathbf{A}\{X_1, \ldots, X_n\}$ the (linear) topology for which the $N_\mathfrak{g}$ (for $\mathfrak{g} \in \mathcal{B}$) form a fundamental system of neighbourhoods of 0 (a topology which obviously depends only on that on $\mathbf{A}$). Then it follows from General Topology, Chapter III, § 7, no. 3, Proposition 2 that
+is an inverse system of rings (relative to the directed indexing set $\mathscr{B}$) and $(\bar{p}_\mathfrak{g})$ is an inverse system of homomorphisms $\mathbf{A}\{X_1, \ldots, X_n\} \to (\mathbf{A}/\mathfrak{g})[X_1, \ldots, X_p]$; as every polynomial is a restricted formal power series, $\bar{p}_\mathfrak{g}$ is surjective; its kernel $N_\mathfrak{g}$ is the ideal of $\mathbf{A}\{X_1, \ldots, X_n\}$ consisting of the restricted formal power series all of whose coefficients belong to $\mathfrak{g}$; we shall give $\mathbf{A}\{X_1, \ldots, X_n\}$ the (linear) topology for which the $N_\mathfrak{g}$ (for $\mathfrak{g} \in \mathscr{B}$) form a fundamental system of neighbourhoods of 0 (a topology which obviously depends only on that on $\mathbf{A}$). Then it follows from General Topology, Chapter III, § 7, no. 3, Proposition 2 that
 
 $$
 \pi = \lim_{\leftarrow} \bar{p}_\mathfrak{g}: \mathbf{A}\{X_1, \ldots, X_n\} \to \lim_{\rightarrow} (\mathbf{A}/\mathfrak{g})[X_1, \ldots, X_p]
@@ -197,7 +197,7 @@ $$
 
 *If the linearly topologized commutative ring $\mathbf{A}$ is Hausdorff and complete, the canonical homomorphism $\pi$ is a topological ring isomorphism.*
 
-For all $(n_1, \ldots, n) \in \mathbf{N}^p$ and all $3 \in \mathcal{B}$, let $\phi_{n_1 \ldots n_p}^3$ be the mapping $(A/\mathfrak{J})[X_1, \ldots, X_p] \to A/\mathfrak{J}$ which maps every polynomial to the coefficient of $X_1^{n_1} \ldots X_p^{n_p}$ in this polynomial; clearly the $\phi_{n_1 \ldots n_p}^3$ form an inverse system of $(A/\mathfrak{J})$-module homomorphisms (relative to the ordered set $\mathcal{B}$) and, as $A$ is canonically identified with $\lim_{\leftarrow} (A/\mathfrak{J})$ by hypothesis, $\phi_{n_1 \ldots n_p} = \lim_{\leftarrow} \phi_{n_1 \ldots n_p}^3$ is a continuous $A$-homomorphism from $A'$ to $A$. For every element $S = (S_\mathfrak{J})_{\mathfrak{J} \in \mathcal{B}}$ of $A'$, we shall see that the formal power series $T = \sum_{(n_i)} \phi_{n_1 \ldots n_p}(S) X_1^{n_1} \ldots X_p^{n_p}$ is restricted and satisfies $\pi(T) = S$. For all $3 \in \mathcal{B}$ and all $\mathfrak{J}' \in \mathcal{B}$ such that $\mathfrak{J}' \subset \mathfrak{J}$, the relation $\phi_{n_1 \ldots n_p}^{\mathfrak{J}'}(S_{\mathfrak{J}'}) = 0$ implies
+For all $(n_1, \ldots, n) \in \mathbf{N}^p$ and all $3 \in \mathscr{B}$, let $\phi_{n_1 \ldots n_p}^3$ be the mapping $(A/\mathfrak{J})[X_1, \ldots, X_p] \to A/\mathfrak{J}$ which maps every polynomial to the coefficient of $X_1^{n_1} \ldots X_p^{n_p}$ in this polynomial; clearly the $\phi_{n_1 \ldots n_p}^3$ form an inverse system of $(A/\mathfrak{J})$-module homomorphisms (relative to the ordered set $\mathscr{B}$) and, as $A$ is canonically identified with $\lim_{\leftarrow} (A/\mathfrak{J})$ by hypothesis, $\phi_{n_1 \ldots n_p} = \lim_{\leftarrow} \phi_{n_1 \ldots n_p}^3$ is a continuous $A$-homomorphism from $A'$ to $A$. For every element $S = (S_\mathfrak{J})_{\mathfrak{J} \in \mathscr{B}}$ of $A'$, we shall see that the formal power series $T = \sum_{(n_i)} \phi_{n_1 \ldots n_p}(S) X_1^{n_1} \ldots X_p^{n_p}$ is restricted and satisfies $\pi(T) = S$. For all $3 \in \mathscr{B}$ and all $\mathfrak{J}' \in \mathscr{B}$ such that $\mathfrak{J}' \subset \mathfrak{J}$, the relation $\phi_{n_1 \ldots n_p}^{\mathfrak{J}'}(S_{\mathfrak{J}'}) = 0$ implies
 $$
 \phi_{n_1 \ldots n_p}^{\mathfrak{J}'}(S_{\mathfrak{J}'}) \in \mathfrak{J}/\mathfrak{J}'
 $$
@@ -296,25 +296,25 @@ the uniqueness property for case (2) therefore implies $P = P_1,\ Q = Q_1$.
 
 (4) **General case**
 
-Let $\mathcal{B}$ be a fundamental system of neighbourhoods of 0 in $A$ consisting of ideals of $A$. For all $\mathfrak{s} \in \mathcal{B}$, let $f_{\mathfrak{s}}$ be the canonical mapping $A \to A/\mathfrak{s}$, $\phi_{\mathfrak{s}}$ the canonical mapping
+Let $\mathscr{B}$ be a fundamental system of neighbourhoods of 0 in $A$ consisting of ideals of $A$. For all $\mathfrak{s} \in \mathscr{B}$, let $f_{\mathfrak{s}}$ be the canonical mapping $A \to A/\mathfrak{s}$, $\phi_{\mathfrak{s}}$ the canonical mapping
 $$
 A/\mathfrak{s} \mapsto (A/\mathfrak{s})/((m + \mathfrak{s})/\mathfrak{s}) = A/(m + \mathfrak{s}),
 $$
-$g_{\mathfrak{s}}$ the canonical mapping $B = A/m \to A(m + \mathfrak{s})$ and write $R_{\mathfrak{s}} = f_{\mathfrak{s}}(R)$, $P_{\mathfrak{s}} = g_{\mathfrak{s}}(\overline{P})$, $\overline{Q}_{\mathfrak{s}} = g_{\mathfrak{s}}(\overline{Q})$. As each ring $A/\mathfrak{s}$ is discrete, case (3) can be applied to it and we see that there exists a unique ordered pair $(P_{\mathfrak{s}}, Q_{\mathfrak{s}})$ of polynomials in $(A/\mathfrak{s})[X]$ such that $P_{\mathfrak{s}}$ is monic and $R_{\mathfrak{s}} = P_{\mathfrak{s}} Q_{\mathfrak{s}}$, $\bar{\varphi}_{\mathfrak{s}}(P_{\mathfrak{s}}) = \overline{P}_{\mathfrak{s}}$, $\bar{\varphi}_{\mathfrak{s}}(Q_{\mathfrak{s}}) = \overline{Q}_{\mathfrak{s}}$. The uniqueness of this ordered pair implies that, if $\mathfrak{s}' \subset \mathfrak{s}$, $\mathfrak{s}' \in \mathcal{B}$ and $f_{\mathfrak{s}'\mathfrak{s}} : A/\mathfrak{s}' \to A/\mathfrak{s}$ is the canonical mapping, then $P_{\mathfrak{s}} = f_{\mathfrak{s}'\mathfrak{s}}(P_{\mathfrak{s}'})$, $Q_{\mathfrak{s}} = f_{\mathfrak{s}'\mathfrak{s}}(Q_{\mathfrak{s}'})$. Then it follows from the canonical identification of $A[X]$ with $\lim(A/\mathfrak{s})[X]$ (no. 2, Proposition 3) that there exists $P \in A\{X\}$ and $Q \in A\{X\}$ such that $R = PQ$ and $\bar{f}_s(P) = P_s, \bar{f}_s(Q) = Q_s$ for all $s \in \mathcal{B}$. Moreover,
+$g_{\mathfrak{s}}$ the canonical mapping $B = A/m \to A(m + \mathfrak{s})$ and write $R_{\mathfrak{s}} = f_{\mathfrak{s}}(R)$, $P_{\mathfrak{s}} = g_{\mathfrak{s}}(\overline{P})$, $\overline{Q}_{\mathfrak{s}} = g_{\mathfrak{s}}(\overline{Q})$. As each ring $A/\mathfrak{s}$ is discrete, case (3) can be applied to it and we see that there exists a unique ordered pair $(P_{\mathfrak{s}}, Q_{\mathfrak{s}})$ of polynomials in $(A/\mathfrak{s})[X]$ such that $P_{\mathfrak{s}}$ is monic and $R_{\mathfrak{s}} = P_{\mathfrak{s}} Q_{\mathfrak{s}}$, $\bar{\varphi}_{\mathfrak{s}}(P_{\mathfrak{s}}) = \overline{P}_{\mathfrak{s}}$, $\bar{\varphi}_{\mathfrak{s}}(Q_{\mathfrak{s}}) = \overline{Q}_{\mathfrak{s}}$. The uniqueness of this ordered pair implies that, if $\mathfrak{s}' \subset \mathfrak{s}$, $\mathfrak{s}' \in \mathscr{B}$ and $f_{\mathfrak{s}'\mathfrak{s}} : A/\mathfrak{s}' \to A/\mathfrak{s}$ is the canonical mapping, then $P_{\mathfrak{s}} = f_{\mathfrak{s}'\mathfrak{s}}(P_{\mathfrak{s}'})$, $Q_{\mathfrak{s}} = f_{\mathfrak{s}'\mathfrak{s}}(Q_{\mathfrak{s}'})$. Then it follows from the canonical identification of $A[X]$ with $\lim(A/\mathfrak{s})[X]$ (no. 2, Proposition 3) that there exists $P \in A\{X\}$ and $Q \in A\{X\}$ such that $R = PQ$ and $\bar{f}_s(P) = P_s, \bar{f}_s(Q) = Q_s$ for all $s \in \mathscr{B}$. Moreover,
 $$
 \bar{g}_s(\overline{P} - \overline{\varphi}(P)) = 0, \quad \bar{g}_s(\overline{Q} - \overline{\varphi}(Q)) = 0
 $$
-for all $s \in \mathcal{B}$, which means that for all $\mathfrak{J} \in \mathcal{B}$ the coefficients of $\overline{P} - \overline{\varphi}(P)$ and $\overline{Q} - \overline{\varphi}(Q)$ all belong to $(m + \mathfrak{J})/m$. But, as $m$ is closed in $A$, $\bigcap_s (m + s) = m$, whence $\overline{P} = \overline{\varphi}(P), \overline{Q} = \overline{\varphi}(Q)$ and $P$ and $Q$ then certainly satisfy (4); moreover, as the $P_s$ are monic and of the same degree, the restricted formal power series $P$ is a monic polynomial. If $(P', Q')$ were another ordered pair satisfying (4) and such that $P'$ is a monic polynomial, we would deduce that $R_s = \bar{f}_s(P') \bar{f}_s(Q'), \bar{\varphi}_s(\bar{f}_s(P')) = \overline{P}_s$ and $\bar{\varphi}_s(\bar{f}_s(Q')) = \overline{Q}_s$ and by the uniqueness in case (3) $\bar{f}_s(P') = P_s, \bar{f}_s(Q') = Q_s$ for all $s \in \mathcal{B}$, which implies that $P = P'$ and $Q = Q'$. Let us show finally that $P$ and $Q$ are strongly relatively prime; by virtue of case (3) and Proposition 1 of no. 1, for all $s \in \mathcal{B}$, there exists a unique ordered pair $(S_s, T_s)$ of polynomials in $(A/\mathfrak{J})[X]$ such that
+for all $s \in \mathscr{B}$, which means that for all $\mathfrak{J} \in \mathscr{B}$ the coefficients of $\overline{P} - \overline{\varphi}(P)$ and $\overline{Q} - \overline{\varphi}(Q)$ all belong to $(m + \mathfrak{J})/m$. But, as $m$ is closed in $A$, $\bigcap_s (m + s) = m$, whence $\overline{P} = \overline{\varphi}(P), \overline{Q} = \overline{\varphi}(Q)$ and $P$ and $Q$ then certainly satisfy (4); moreover, as the $P_s$ are monic and of the same degree, the restricted formal power series $P$ is a monic polynomial. If $(P', Q')$ were another ordered pair satisfying (4) and such that $P'$ is a monic polynomial, we would deduce that $R_s = \bar{f}_s(P') \bar{f}_s(Q'), \bar{\varphi}_s(\bar{f}_s(P')) = \overline{P}_s$ and $\bar{\varphi}_s(\bar{f}_s(Q')) = \overline{Q}_s$ and by the uniqueness in case (3) $\bar{f}_s(P') = P_s, \bar{f}_s(Q') = Q_s$ for all $s \in \mathscr{B}$, which implies that $P = P'$ and $Q = Q'$. Let us show finally that $P$ and $Q$ are strongly relatively prime; by virtue of case (3) and Proposition 1 of no. 1, for all $s \in \mathscr{B}$, there exists a unique ordered pair $(S_s, T_s)$ of polynomials in $(A/\mathfrak{J})[X]$ such that
 $$
 1 = P_s S_s + Q_s T_s \quad \text{and} \quad \deg(T_s) < \deg(P_s) = \deg(\overline{P}).
 $$
-The uniqueness of this ordered pair shows immediately that, for $3' \in \mathcal{B}$, $\mathfrak{J}' \subset \mathfrak{J}, S_{3'} = \bar{f}_{33'}(S_{3}), T_{3'} = \bar{f}_{33'}(T_{3});$ taking account of no. 2, Proposition 3, we conclude that there exist two restricted formal power series $S, T$ of $A\{X\}$ such that $S_s = \bar{f}_s(S), T_s = \bar{f}_s(T)$ and $1 = PS + QT$.
+The uniqueness of this ordered pair shows immediately that, for $3' \in \mathscr{B}$, $\mathfrak{J}' \subset \mathfrak{J}, S_{3'} = \bar{f}_{33'}(S_{3}), T_{3'} = \bar{f}_{33'}(T_{3});$ taking account of no. 2, Proposition 3, we conclude that there exist two restricted formal power series $S, T$ of $A\{X\}$ such that $S_s = \bar{f}_s(S), T_s = \bar{f}_s(T)$ and $1 = PS + QT$.
 
 It remains to verify that, if $R$ is a polynomial, so is $Q$. Now, the $Q_s$ are polynomials by construction and, as $P_s$ is monic, the relation $R_s = P_s Q_s$ implies
 $$
 \deg(Q_s) \leq \deg(R_s) \leq \deg(R)
 $$
-for all $s \in \mathcal{B}$; whence immediately the required result by definition of $Q$.
+for all $s \in \mathscr{B}$; whence immediately the required result by definition of $Q$.
 
 ### 4. COMPOSITION OF SYSTEMS OF FORMAL POWER SERIES
 

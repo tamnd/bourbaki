@@ -45,7 +45,7 @@ subsections:
       pdf_page: 127
 statements: 29
 exercises: 58
-content_sha256: 18354c626dd9c636314d443a2d42f81a66f14088339262d25bc4eedae5c9dfa6
+content_sha256: 30760f149ab2c67e0e4434bb0adc4e82484040cc992dcfdbb46c774ebcd55842
 ---
 
 ## § 1. VECTEURS DE WITT
@@ -268,7 +268,7 @@ $$
 
 Pour tout anneau $A$ et tout élément $m$ de $J$, on note $\varphi_m$ l’application de $A^J$ dans $A$ qui à $(a_j)_{j \in J}$ associe $\varphi_m((a_j)_{j \in J})$; on note $\varphi_A$, ou simplement $\varphi$, l’application de $A^J$ dans lui-même qui à $a = (a_j)_{j \in J}$ associe $(\varphi_m(a))_{m \in J}$.
 
-Soit $\mathcal{A} = \mathbf{Z}[(X_j)_{j \in J}, (Y_j)_{j \in J}]$ l’anneau des polynômes à coefficients entiers en les deux familles d’indéterminées $X = (X_j)_{j \in J}$ et $Y = (Y_j)_{j \in J}$. On peut montrer (p. 51, exerc. 34) qu’il existe dans $\mathcal{A}$ des éléments
+Soit $\mathscr{A} = \mathbf{Z}[(X_j)_{j \in J}, (Y_j)_{j \in J}]$ l’anneau des polynômes à coefficients entiers en les deux familles d’indéterminées $X = (X_j)_{j \in J}$ et $Y = (Y_j)_{j \in J}$. On peut montrer (p. 51, exerc. 34) qu’il existe dans $\mathscr{A}$ des éléments
 
 $$
 s = (s_j)_{j \in J}, \quad p = (p_j)_{j \in J} \quad \text{et} \quad i = (i_j)_{j \in J},
@@ -277,13 +277,13 @@ $$
 caractérisés par les égalités suivantes :
 
 $$
-\varphi_{\mathcal{A}}(s) = \varphi_{\mathcal{A}}(\mathbf{X}) + \varphi_{\mathcal{A}}(\mathbf{Y})
+\varphi_{\mathscr{A}}(s) = \varphi_{\mathscr{A}}(\mathbf{X}) + \varphi_{\mathscr{A}}(\mathbf{Y})
 $$
 $$
-\varphi_{\mathcal{A}}(p) = \varphi_{\mathcal{A}}(\mathbf{X}) \varphi_{\mathcal{A}}(\mathbf{Y})
+\varphi_{\mathscr{A}}(p) = \varphi_{\mathscr{A}}(\mathbf{X}) \varphi_{\mathscr{A}}(\mathbf{Y})
 $$
 $$
-\varphi_{\mathcal{A}}(i) = - \varphi_{\mathcal{A}}(\mathbf{X}) .
+\varphi_{\mathscr{A}}(i) = - \varphi_{\mathscr{A}}(\mathbf{X}) .
 $$
 
 ### 4. L’anneau W(A) des vecteurs de Witt
@@ -522,7 +522,7 @@ V^m(a) \times b = V^m(a \times F^m(b))
 $$
 résultent de la prop. 3 du n° 5 par récurrence sur $m$. Elles entraînent que $V_m(A)$ est un idéal de W(A).
 
-Dans la suite, on munira $W(A)$ de la topologie $\mathcal{T}$ associée à la filtration $(V_m(A))_{m \in \mathbf{Z}}$. Comme $V_m(A)$ est un idéal de $W(A)$ pour tout $m \in \mathbf{Z}$, la topologie $\mathcal{T}$ est compatible avec la structure d’anneau de $W(A)$ (TG, III, p. 49, exemple 3). Soit $a \in W(A)$; les ensembles $a + V_m(A)$, où $m$ parcourt $\mathbf{N}$, forment un système fondamental de voisinages de $a$ pour $\mathcal{T}$. Or, il résulte du lemme 4 que $a + V_m(A)$ se compose des vecteurs de Witt $b$ tels que $a_i = b_i$ pour $0 \leq i < m$. Par suite, $\mathcal{T}$ n’est autre que la topologie produit sur $A^\mathbf{N}$ de la topologie discrète sur chacun des facteurs, et $W(A)$ est donc un anneau topologique séparé et complet (TG, II, p. 17, prop. 10 et TG, III, p. 22, prop. 4).
+Dans la suite, on munira $W(A)$ de la topologie $\mathscr{T}$ associée à la filtration $(V_m(A))_{m \in \mathbf{Z}}$. Comme $V_m(A)$ est un idéal de $W(A)$ pour tout $m \in \mathbf{Z}$, la topologie $\mathscr{T}$ est compatible avec la structure d’anneau de $W(A)$ (TG, III, p. 49, exemple 3). Soit $a \in W(A)$; les ensembles $a + V_m(A)$, où $m$ parcourt $\mathbf{N}$, forment un système fondamental de voisinages de $a$ pour $\mathscr{T}$. Or, il résulte du lemme 4 que $a + V_m(A)$ se compose des vecteurs de Witt $b$ tels que $a_i = b_i$ pour $0 \leq i < m$. Par suite, $\mathscr{T}$ n’est autre que la topologie produit sur $A^\mathbf{N}$ de la topologie discrète sur chacun des facteurs, et $W(A)$ est donc un anneau topologique séparé et complet (TG, II, p. 17, prop. 10 et TG, III, p. 22, prop. 4).
 
 Notons $\tau_A$ (ou simplement $\tau$) l’application de $A$ dans $W(A)$ qui à un élément $a$ de $A$ associe $(a, 0, 0, ...)$. On a $\Phi_n(\tau(a)) = a^{p^n}$ pour tout $n \in \mathbf{N}$. Pour tout homomorphisme d’anneaux $\rho : B \to A$, on a $W(\rho) \circ \tau_B = \tau_A \circ \rho$.
 
@@ -559,7 +559,7 @@ $$
 \sum_{n=0}^m V^n(\tau(x_n)) = (x_0, ..., x_m, 0, 0, ...)
 $$
 
-pour tout entier $m \geq 0$; on en déduit b) par passage à la limite puisque la topologie $\mathcal{T}$ sur $W(A)$ est produit des topologies discrètes des facteurs $A$.
+pour tout entier $m \geq 0$; on en déduit b) par passage à la limite puisque la topologie $\mathscr{T}$ sur $W(A)$ est produit des topologies discrètes des facteurs $A$.
 
 ### 7. Les anneaux $W_n(A)$ des vecteurs de Witt de longueur finie
 
@@ -749,7 +749,7 @@ Soit $A$ un anneau.
 
 a) Pour tout entier $k \geqslant 1$, on a $(V_1(A))^k = p^{k-1} \cdot V_1(A)$.
 
-b) Supposons que $A$ soit un anneau de caractéristique $p$. Sur l’anneau $W(A)$, la topologie $V_1(A)$-adique et la topologie $p$-adique coïncident, et elles sont plus fines que la topologie produit $\mathcal{C}$ (cf. n° 6). L’anneau $W(A)$ est séparé et complet pour la topologie $p$-adique.
+b) Supposons que $A$ soit un anneau de caractéristique $p$. Sur l’anneau $W(A)$, la topologie $V_1(A)$-adique et la topologie $p$-adique coïncident, et elles sont plus fines que la topologie produit $\mathscr{C}$ (cf. n° 6). L’anneau $W(A)$ est séparé et complet pour la topologie $p$-adique.
 
 Prouvons a) par récurrence sur $k$. Le cas $k = 1$ est évident. Supposons $k \geqslant 2$. D’après l’hypothèse de récurrence, on a $V_1(A)^{k-1} = p^{k-2} \cdot V_1(A)$ et par suite $V_1(A)^k = p^{k-2} \cdot (V_1(A))^2$. Mais il résulte de la prop. 3, d), formule (31), du n° 5 qu’on a $(V_1(A))^2 = p \cdot V_1(A)$, d’où a).
 
@@ -761,7 +761,7 @@ $$
 
 on déduit de a) les inclusions $p^k.W(A) \subset (V_1(A))^k \subset p^{k-1}.W(A)$, et du corollaire à la prop. 5 l’inclusion $(V_1(A))^k \subset V_k(A)$, pour tout entier $k \geqslant 1$. La première assertion de b) en résulte.
 
-Soit $k$ un entier $\geqslant 1$. D’après la formule (52), l’idéal $p^k.W(A)$ de $W(A)$ est l’ensemble des éléments $a = (a_n)_{n \in \mathbf{N}}$ de $W(A)$ tels qu’on ait $a_n = 0$ pour $n < k$ et $a_n \in A^{p^k}$ pour $n \geqslant k$. Il est donc fermé pour la topologie $\mathcal{G}$. Comme $W(A)$ est séparé et complet pour la topologie $\mathcal{G}$ (no 6) et que les idéaux $p^k.W(A)$ de $W(A)$, pour $k \geqslant 1$, forment une base de voisinages de $0$ dans $W(A)$ pour la topologie $p$-adique, l’anneau $W(A)$ est séparé et complet pour la topologie $p$-adique (TG, III, p. 26, cor. 1 à la prop. 10).
+Soit $k$ un entier $\geqslant 1$. D’après la formule (52), l’idéal $p^k.W(A)$ de $W(A)$ est l’ensemble des éléments $a = (a_n)_{n \in \mathbf{N}}$ de $W(A)$ tels qu’on ait $a_n = 0$ pour $n < k$ et $a_n \in A^{p^k}$ pour $n \geqslant k$. Il est donc fermé pour la topologie $\mathscr{G}$. Comme $W(A)$ est séparé et complet pour la topologie $\mathscr{G}$ (no 6) et que les idéaux $p^k.W(A)$ de $W(A)$, pour $k \geqslant 1$, forment une base de voisinages de $0$ dans $W(A)$ pour la topologie $p$-adique, l’anneau $W(A)$ est séparé et complet pour la topologie $p$-adique (TG, III, p. 26, cor. 1 à la prop. 10).
 
 #### Proposition 7 {#ac-ix-s1-prop-7 .statement}
 
@@ -769,7 +769,7 @@ Soit $k$ un entier $\geqslant 1$. D’après la formule (52), l’idéal $p^k.W(
 
 a) *Pour tout élément $a = (a_n)_{n \in \mathbf{N}}$ de $W(A)$, la série de terme général $p^n \tau(a_n^{p^{-n}})$ est convergente dans $W(A)$, de somme $a$.*
 
-b) *Sur $W(A)$, la topologie $V_1(A)$-adique, la topologie $p$-adique et la topologie $\mathcal{G}$ coïncident. Plus précisément, on a $V_n(A) = p^n.W(A) = (V_1(A))^n$ pour tout entier $n \geqslant 0$. En particulier $\Phi_0$ définit un isomorphisme de $W(A)/p.W(A)$ sur $A$.*
+b) *Sur $W(A)$, la topologie $V_1(A)$-adique, la topologie $p$-adique et la topologie $\mathscr{G}$ coïncident. Plus précisément, on a $V_n(A) = p^n.W(A) = (V_1(A))^n$ pour tout entier $n \geqslant 0$. En particulier $\Phi_0$ définit un isomorphisme de $W(A)/p.W(A)$ sur $A$.*
 
 Par définition (A, V, p. 5), l’application $a \mapsto a^p$ est un automorphisme de l’anneau $A$. D’après la prop. 5, F est donc un automorphisme de l’anneau $W(A)$, et l’on a, pour tout $n \in \mathbf{N}$,
 

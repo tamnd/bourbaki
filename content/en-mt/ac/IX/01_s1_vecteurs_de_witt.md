@@ -45,11 +45,11 @@ subsections:
       pdf_page: 127
 statements: 29
 exercises: 58
-content_sha256: c0158ff0fca29a6c022ba154b7a5d2962e4d246ffba5dba8e9f489b8bb2152f1
+content_sha256: 19bf0e96e44fdb62f0ed1e7ecb0e5603ce0910a170c5108446329276d2997029
 translated_from: content/fr/ac/IX/01_s1_vecteurs_de_witt.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 18354c626dd9c636314d443a2d42f81a66f14088339262d25bc4eedae5c9dfa6
+source_content_sha256: 30760f149ab2c67e0e4434bb0adc4e82484040cc992dcfdbb46c774ebcd55842
 translation_model: gpt-5-6-mini, gpt-5-mini
 translation_run: translate-en-mt-115f0bd4
 glossary_version: 34
@@ -277,7 +277,7 @@ $$
 
 For every ring $A$ and every element $m$ of $J$, we denote by $\varphi_m$ the mapping from $A^J$ into $A$ which associates to $(a_j)_{j \in J}$ $\varphi_m((a_j)_{j \in J})$; we denote by $\varphi_A$, or simply $\varphi$, the mapping from $A^J$ into itself which associates to $a = (a_j)_{j \in J}$ $(\varphi_m(a))_{m \in J}$.
 
-Let $\mathcal{A} = \mathbf{Z}[(X_j)_{j \in J}, (Y_j)_{j \in J}]$ be the ring of polynomials with integer coefficients in the two families of indeterminates $X = (X_j)_{j \in J}$ and $Y = (Y_j)_{j \in J}$. One can show (p. 51, exerc. 34) that there exist in $\mathcal{A}$ elements
+Let $\mathscr{A} = \mathbf{Z}[(X_j)_{j \in J}, (Y_j)_{j \in J}]$ be the ring of polynomials with integer coefficients in the two families of indeterminates $X = (X_j)_{j \in J}$ and $Y = (Y_j)_{j \in J}$. One can show (p. 51, exerc. 34) that there exist in $\mathscr{A}$ elements
 
 $$
 s = (s_j)_{j \in J}, \quad p = (p_j)_{j \in J} \quad \text{and} \quad i = (i_j)_{j \in J},
@@ -286,13 +286,13 @@ $$
 characterized by the following equalities:
 
 $$
-\varphi_{\mathcal{A}}(s) = \varphi_{\mathcal{A}}(\mathbf{X}) + \varphi_{\mathcal{A}}(\mathbf{Y})
+\varphi_{\mathscr{A}}(s) = \varphi_{\mathscr{A}}(\mathbf{X}) + \varphi_{\mathscr{A}}(\mathbf{Y})
 $$
 $$
-\varphi_{\mathcal{A}}(p) = \varphi_{\mathcal{A}}(\mathbf{X}) \varphi_{\mathcal{A}}(\mathbf{Y})
+\varphi_{\mathscr{A}}(p) = \varphi_{\mathscr{A}}(\mathbf{X}) \varphi_{\mathscr{A}}(\mathbf{Y})
 $$
 $$
-\varphi_{\mathcal{A}}(i) = - \varphi_{\mathcal{A}}(\mathbf{X}) .
+\varphi_{\mathscr{A}}(i) = - \varphi_{\mathscr{A}}(\mathbf{X}) .
 $$
 
 ### 4. The ring W(A) of Witt vectors
@@ -531,7 +531,7 @@ V^m(a) \times b = V^m(a \times F^m(b))
 $$
 result from prop. 3 of No. 5 by induction on $m$. They imply that $V_m(A)$ is an ideal of W(A).
 
-In what follows, we shall endow $W(A)$ with the topology $\mathcal{T}$ associated with the filtration $(V_m(A))_{m \in \mathbf{Z}}$. Since $V_m(A)$ is an ideal of $W(A)$ for every $m \in \mathbf{Z}$, the topology $\mathcal{T}$ is compatible with the ring structure of $W(A)$ (TG, III, p. 49, example 3). Let $a \in W(A)$; the sets $a + V_m(A)$, where $m$ runs through $\mathbf{N}$, form a fundamental system of neighbourhoods of $a$ for $\mathcal{T}$. Now, it follows from lemma 4 that $a + V_m(A)$ consists of the Witt vectors $b$ such that $a_i = b_i$ for $0 \leq i < m$. Consequently, $\mathcal{T}$ is none other than the product topology on $A^\mathbf{N}$ of the discrete topology on each of the factors, and $W(A)$ is therefore a separated and complete topological ring (TG, II, p. 17, prop. 10 and TG, III, p. 22, prop. 4).
+In what follows, we shall endow $W(A)$ with the topology $\mathscr{T}$ associated with the filtration $(V_m(A))_{m \in \mathbf{Z}}$. Since $V_m(A)$ is an ideal of $W(A)$ for every $m \in \mathbf{Z}$, the topology $\mathscr{T}$ is compatible with the ring structure of $W(A)$ (TG, III, p. 49, example 3). Let $a \in W(A)$; the sets $a + V_m(A)$, where $m$ runs through $\mathbf{N}$, form a fundamental system of neighbourhoods of $a$ for $\mathscr{T}$. Now, it follows from lemma 4 that $a + V_m(A)$ consists of the Witt vectors $b$ such that $a_i = b_i$ for $0 \leq i < m$. Consequently, $\mathscr{T}$ is none other than the product topology on $A^\mathbf{N}$ of the discrete topology on each of the factors, and $W(A)$ is therefore a separated and complete topological ring (TG, II, p. 17, prop. 10 and TG, III, p. 22, prop. 4).
 
 Let us denote by $\tau_A$ (or simply $\tau$) the mapping of $A$ into $W(A)$ which associates with an element $a$ of $A$ $(a, 0, 0, ...)$ . We have $\Phi_n(\tau(a)) = a^{p^n}$ for every $n \in \mathbf{N}$. For every ring homomorphism $\rho : B \to A$, we have $W(\rho) \circ \tau_B = \tau_A \circ \rho$.
 
@@ -568,7 +568,7 @@ $$
 \sum_{n=0}^m V^n(\tau(x_n)) = (x_0, ..., x_m, 0, 0, ...)
 $$
 
-for every integer $m \geq 0$; we deduce b) by passing to the limit since the topology $\mathcal{T}$ on $W(A)$ is the product of the discrete topologies of the factors $A$.
+for every integer $m \geq 0$; we deduce b) by passing to the limit since the topology $\mathscr{T}$ on $W(A)$ is the product of the discrete topologies of the factors $A$.
 
 ### 7. The rings $W_n(A)$ of Witt vectors of finite length
 
@@ -758,7 +758,7 @@ Let $A$ be a ring.
 
 a) For every integer $k \geqslant 1$, one has $(V_1(A))^k = p^{k-1} \cdot V_1(A)$.
 
-b) Suppose that $A$ is a ring of characteristic $p$. On the ring $W(A)$, the $V_1(A)$-adic topology and the $p$-adic topology coincide, and they are finer than the product topology $\mathcal{C}$ (cf. No. 6). The ring $W(A)$ is separated and complete for the $p$-adic topology.
+b) Suppose that $A$ is a ring of characteristic $p$. On the ring $W(A)$, the $V_1(A)$-adic topology and the $p$-adic topology coincide, and they are finer than the product topology $\mathscr{C}$ (cf. No. 6). The ring $W(A)$ is separated and complete for the $p$-adic topology.
 
 Let us prove a) by induction on $k$. The case $k = 1$ is evident. Suppose $k \geqslant 2$. By the induction hypothesis, one has $V_1(A)^{k-1} = p^{k-2} \cdot V_1(A)$ and consequently $V_1(A)^k = p^{k-2} \cdot (V_1(A))^2$. But it follows from prop. 3, d), formula (31), of No. 5 that one has $(V_1(A))^2 = p \cdot V_1(A)$, whence a).
 
@@ -770,7 +770,7 @@ $$
 
 one deduces from a) the inclusions $p^k.W(A) \subset (V_1(A))^k \subset p^{k-1}.W(A)$, and from the corollary to prop. 5 the inclusion $(V_1(A))^k \subset V_k(A)$, for every integer $k \geqslant 1$. The first assertion of b) follows.
 
-Let $k$ be an integer $\geqslant 1$. According to formula (52), the ideal $p^k.W(A)$ of $W(A)$ is the set of elements $a = (a_n)_{n \in \mathbf{N}}$ of $W(A)$ such that one has $a_n = 0$ for $n < k$ and $a_n \in A^{p^k}$ for $n \geqslant k$. It is therefore closed for the topology $\mathcal{G}$. Since $W(A)$ is separated and complete for the topology $\mathcal{G}$ (no 6) and since the ideals $p^k.W(A)$ of $W(A)$, for $k \geqslant 1$, form a basis of neighbourhoods of $0$ in $W(A)$ for the $p$-adic topology, the ring $W(A)$ is separated and complete for the $p$-adic topology (TG, III, p. 26, cor. 1 to prop. 10).
+Let $k$ be an integer $\geqslant 1$. According to formula (52), the ideal $p^k.W(A)$ of $W(A)$ is the set of elements $a = (a_n)_{n \in \mathbf{N}}$ of $W(A)$ such that one has $a_n = 0$ for $n < k$ and $a_n \in A^{p^k}$ for $n \geqslant k$. It is therefore closed for the topology $\mathscr{G}$. Since $W(A)$ is separated and complete for the topology $\mathscr{G}$ (no 6) and since the ideals $p^k.W(A)$ of $W(A)$, for $k \geqslant 1$, form a basis of neighbourhoods of $0$ in $W(A)$ for the $p$-adic topology, the ring $W(A)$ is separated and complete for the $p$-adic topology (TG, III, p. 26, cor. 1 to prop. 10).
 
 #### Proposition 7 {#ac-ix-s1-prop-7 .statement}
 
@@ -778,7 +778,7 @@ Let $k$ be an integer $\geqslant 1$. According to formula (52), the ideal $p^k.W
 
 a) *For every element $a = (a_n)_{n \in \mathbf{N}}$ of $W(A)$, the series with general term $p^n \tau(a_n^{p^{-n}})$ is convergent in $W(A)$, with sum $a$.*
 
-b) *On $W(A)$, the $V_1(A)$-adic topology, the $p$-adic topology and the topology $\mathcal{G}$ coincide. More precisely, one has $V_n(A) = p^n.W(A) = (V_1(A))^n$ for every integer $n \geqslant 0$. In particular $\Phi_0$ defines an isomorphism of $W(A)/p.W(A)$ onto $A$.*
+b) *On $W(A)$, the $V_1(A)$-adic topology, the $p$-adic topology and the topology $\mathscr{G}$ coincide. More precisely, one has $V_n(A) = p^n.W(A) = (V_1(A))^n$ for every integer $n \geqslant 0$. In particular $\Phi_0$ defines an isomorphism of $W(A)/p.W(A)$ onto $A$.*
 
 By definition (A, V, p. 5), the mapping $a \mapsto a^p$ is an automorphism of the ring $A$. According to prop. 5, F is therefore an automorphism of the ring $W(A)$, and one has, for every $n \in \mathbf{N}$,
 

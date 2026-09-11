@@ -44,11 +44,11 @@ subsections:
       pdf_page: 50
 statements: 43
 exercises: 16
-content_sha256: ed9eab6f853d0ea9557538245bc9af90b2b1733e2d23a65faa41a6ac5b48cd65
+content_sha256: 67f770b25aa2e2c6bd3b7801bc9b11f33355f3c950bd699a2376dfe2689eb299
 translated_from: content/en-mt/ac/X/03_s3_profondeur_et_dimension_homologique.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 2887c371d5eaa37f77acf37407c79cf478d515f0d78e32875c1e6b8c3bf0f663
+source_content_sha256: dbbcc2c3fdaae8819a5272dea66f2e4d265e8831f2139794efe45e12dc00ad8e
 translation_model: gpt-5.4
 translation_run: translate-vi-d67fbc25
 glossary_version: 34
@@ -487,10 +487,10 @@ Với thuật ngữ của $§ 1$, No. 5, nhận xét 4, kết luận của hệ 
 
 Cho $A$ là một vành Macaulay Noether và $M$ là một $A$-môđun sinh hữu hạn có chiều xạ ảnh hữu hạn.
 
-a) Cho $p \in \operatorname{Spec}(\Lambda)$; ký hiệu bởi $\mathcal{C}(p)$ tập hợp các thành phần bất khả quy của $\operatorname{Supp}(M)$ chứa $p$. Ta có
+a) Cho $p \in \operatorname{Spec}(\Lambda)$; ký hiệu bởi $\mathscr{C}(p)$ tập hợp các thành phần bất khả quy của $\operatorname{Supp}(M)$ chứa $p$. Ta có
 
 $$
-\dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p) = dp_{A_p}(M_p) - \inf_{X \in \mathcal{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
+\dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p) = dp_{A_p}(M_p) - \inf_{X \in \mathscr{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
 $$
 
 b) Ánh xạ $p \mapsto \dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p)$ từ $\operatorname{Spec}(A)$ vào $\overline{\mathbf{Z}}$ là nửa liên tục trên.
@@ -510,16 +510,16 @@ $$
 $$
 
 $$
-\dim_{\Lambda_p}(M_p) = \operatorname{codim}(V(p), \operatorname{Supp}(M)) = \sup_{X \in \mathcal{C}(p)} \operatorname{codim}(V(p), X)
+\dim_{\Lambda_p}(M_p) = \operatorname{codim}(V(p), \operatorname{Supp}(M)) = \sup_{X \in \mathscr{C}(p)} \operatorname{codim}(V(p), X)
 $$
 
 và do đó
 
 $$
-\varphi(p) = \inf_{X \in \mathcal{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
+\varphi(p) = \inf_{X \in \mathscr{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
 $$
 
-b) Cho $p \in \operatorname{Spec}(A)$, và cho $F$ là hợp của các thành phần bất khả quy của $\operatorname{Supp}(M)$ không chứa $p$. Với mọi phần tử $q$ của $\operatorname{Spec}(A) - F$, ta có $\mathcal{C}(q) \subset \mathcal{C}(p)$, do đó $\varphi(q) \geq \varphi(p)$ theo công thức trên. Do đó hàm $\varphi$ là nửa liên tục dưới; mệnh đề b) khi đó suy ra từ mệnh đề 3 của No. 2.
+b) Cho $p \in \operatorname{Spec}(A)$, và cho $F$ là hợp của các thành phần bất khả quy của $\operatorname{Supp}(M)$ không chứa $p$. Với mọi phần tử $q$ của $\operatorname{Spec}(A) - F$, ta có $\mathscr{C}(q) \subset \mathscr{C}(p)$, do đó $\varphi(q) \geq \varphi(p)$ theo công thức trên. Do đó hàm $\varphi$ là nửa liên tục dưới; mệnh đề b) khi đó suy ra từ mệnh đề 3 của No. 2.
 
 c) Cho $U$ là tập hợp các phần tử $p$ của $\operatorname{Spec}(A)$ sao cho $M_p$ là Cohen-Macaulay. Điều kiện $p \in U$ tương đương với $\dim(M_p) - \operatorname{prof}(M_p) \leq 0$, do đó $U$ là mở theo b). Vì $U$ chứa $\operatorname{Spec}(A) - \operatorname{Supp}(M)$, chỉ cần chứng minh rằng $U \cap \operatorname{Supp}(M)$ là trù mật trong $\operatorname{Supp}(M)$. Với mọi iđêan nguyên tố cực tiểu $p$ của $\operatorname{Supp}(M)$, $A_p$-môđun $M_p$ có độ dài hữu hạn (IV, § 2, No. 5, Hệ quả 2 của Mệnh đề 7 và § 1, No. 3, Hệ quả 1 của Mệnh đề 7), nên là Cohen-Macaulay; do đó $U$ giao với mọi thành phần bất khả quy của $\operatorname{Supp}(M)$. Kết luận theo Mệnh đề 1 của II, § 4, No. 1.
 

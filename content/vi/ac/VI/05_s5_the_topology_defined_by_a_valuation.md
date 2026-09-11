@@ -25,9 +25,9 @@ subsections:
       pdf_page: 420
 statements: 10
 exercises: 9
-content_sha256: 4ec33350cc7a17f359c44600db675e2ca719f9f03c2b8bc17de0f5934e16f93b
+content_sha256: 261f2e0a17b67c2cdf1ec24485025cf738859d6872b58d2a5f58eadcbb2818bb
 translated_from: content/en/ac/VI/05_s5_the_topology_defined_by_a_valuation.md
-source_content_sha256: b771ebddcf3acdd2226c56d72c2ea5f26745e679f803c00eac83b9bd0bcaa51c
+source_content_sha256: 51d0d1c356be4ee3754a76de46725b4adc93a52b5bed90bee9ecb907621db693
 translation_model: gpt-5.4
 translation_run: translate-vi-0671723b
 glossary_version: 34
@@ -39,7 +39,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. TÔPÔ ĐƯỢC XÁC ĐỊNH BỞI MỘT ĐỊNH GIÁ
 
-Cho K là một trường không nhất thiết giao hoán, v là một định giá trên K và G là nhóm được sắp thứ tự toàn phần $v(K^*)$. Với mọi $a \in G$ ký hiệu V, là tập hợp các $x \in K$ sao cho $v(x) > a$; tập hợp này là một nhóm con cộng tính của K (§ 3, no. 1). Tồn tại một tôpô duy nhất $\mathcal{T}_v$ trên K mà đối với nó các V, tạo thành một hệ cơ bản các lân cận của 0 (*General Topology*, Chapter III, § 1, no. 2, Example). Để v là không thực sự, điều kiện cần và đủ là $\mathcal{T}_v$ là tôpô rời rạc.
+Cho K là một trường không nhất thiết giao hoán, v là một định giá trên K và G là nhóm được sắp thứ tự toàn phần $v(K^*)$. Với mọi $a \in G$ ký hiệu V, là tập hợp các $x \in K$ sao cho $v(x) > a$; tập hợp này là một nhóm con cộng tính của K (§ 3, no. 1). Tồn tại một tôpô duy nhất $\mathscr{T}_v$ trên K mà đối với nó các V, tạo thành một hệ cơ bản các lân cận của 0 (*General Topology*, Chapter III, § 1, no. 2, Example). Để v là không thực sự, điều kiện cần và đủ là $\mathscr{T}_v$ là tôpô rời rạc.
 
 #### Bổ đề 1 {#ac-vi-s5-lem-1 .statement}
 
@@ -60,19 +60,19 @@ $$
 
 #### Mệnh đề 1 {#ac-vi-s5-prop-1 .statement}
 
-\* Tôpô $\mathcal{T}_v$ là Hausdorff và tương thích với cấu trúc trường trên K. Ánh xạ $v : K^* \to G$ là liên tục nếu G được cho tôpô rời rạc.*
+\* Tôpô $\mathscr{T}_v$ là Hausdorff và tương thích với cấu trúc trường trên K. Ánh xạ $v : K^* \to G$ là liên tục nếu G được cho tôpô rời rạc.*
 
-Cho $x \in K^*$ và $a = v(x)$; khi đó $x \notin V_a$ điều này cho thấy $\mathcal{T}_v$ là Hausdorff. Với mọi $x_0 \in K$ và $a \in G$, tồn tại $\beta \in G$ sao cho $x_0 V_\beta \subset V_\alpha$ và $V_\beta x_0 \subset V$, (chỉ cần lấy $\beta \geqslant a - v(x_0)$). Mặt khác, nếu $a \geqslant 0$, thì $V_\alpha V_\alpha \subset V_v$. Như vậy các tiên đề (AV_I) và (AV_{II}) của *General Topology*, Chapter III, § 6, no. 3 được thỏa mãn, nên $\mathcal{T}_v$ tương thích với cấu trúc vành trên $K$. Cho $x_0 \in K^*$; nếu $x \in K^*$ thỏa mãn $v(x - x_0) > \sup(\alpha + 2v(x_0), v(x_0))$, thì $v(x^{-1} - x_0^{-1}) > a$ (Bổ đề 1), điều này cho thấy $x \mapsto x^{-1}$ là liên tục và do đó $\mathcal{T}_v$ tương thích với cấu trúc trường trên $K$. Sau cùng, chỉ riêng điều kiện $v(x - x_0) > v(x_0)$ đã suy ra $v(x) = v(x_0)$ ($§ 3$, no. 1, Proposition 1) và vì thế ánh xạ $v : K^* \to G$ là liên tục nếu $G$ được cho tôpô rời rạc.
+Cho $x \in K^*$ và $a = v(x)$; khi đó $x \notin V_a$ điều này cho thấy $\mathscr{T}_v$ là Hausdorff. Với mọi $x_0 \in K$ và $a \in G$, tồn tại $\beta \in G$ sao cho $x_0 V_\beta \subset V_\alpha$ và $V_\beta x_0 \subset V$, (chỉ cần lấy $\beta \geqslant a - v(x_0)$). Mặt khác, nếu $a \geqslant 0$, thì $V_\alpha V_\alpha \subset V_v$. Như vậy các tiên đề (AV_I) và (AV_{II}) của *General Topology*, Chapter III, § 6, no. 3 được thỏa mãn, nên $\mathscr{T}_v$ tương thích với cấu trúc vành trên $K$. Cho $x_0 \in K^*$; nếu $x \in K^*$ thỏa mãn $v(x - x_0) > \sup(\alpha + 2v(x_0), v(x_0))$, thì $v(x^{-1} - x_0^{-1}) > a$ (Bổ đề 1), điều này cho thấy $x \mapsto x^{-1}$ là liên tục và do đó $\mathscr{T}_v$ tương thích với cấu trúc trường trên $K$. Sau cùng, chỉ riêng điều kiện $v(x - x_0) > v(x_0)$ đã suy ra $v(x) = v(x_0)$ ($§ 3$, no. 1, Proposition 1) và vì thế ánh xạ $v : K^* \to G$ là liên tục nếu $G$ được cho tôpô rời rạc.
 
-Cho $\alpha \in G$ và $V'_\alpha$ là tập hợp các $x \in K$ sao cho $v(x) \geq \alpha$. Nếu $\beta < a$, thì $V_\beta \supset V'_\alpha \supset V_v$. Vì vậy, nếu $v$ không không thực sự, ta thấy rằng các $V'_\alpha$ tạo thành một hệ cơ bản các lân cận của 0 đối với $\mathcal{T}_v$.
+Cho $\alpha \in G$ và $V'_\alpha$ là tập hợp các $x \in K$ sao cho $v(x) \geq \alpha$. Nếu $\beta < a$, thì $V_\beta \supset V'_\alpha \supset V_v$. Vì vậy, nếu $v$ không không thực sự, ta thấy rằng các $V'_\alpha$ tạo thành một hệ cơ bản các lân cận của 0 đối với $\mathscr{T}_v$.
 
 Các $V_v$ và các $V'_\alpha$ là những nhóm con cộng tính mở và do đó đóng trong $K$, vì thế trường tôpô $K$ là *hoàn toàn không liên thông*. Vì mọi iđêan khác không của vành của $v$ đều chứa một $V_v$, nên nó *mở và đóng* trong $K$. Do đó tôpô thương trên trường thặng dư của $v$ là *rời rạc*.
 
-Đặt $A$ là vành của $u$. Nếu $v$ là rời rạc, Mệnh đề 8 của $§ 3$, no. 6 cho thấy rằng tôpô cảm sinh bởi $\mathcal{T}_v$ trên $A$ là tôpô $m(A)$-adic. Nói chung điều này không đúng (Bài tập 4).
+Đặt $A$ là vành của $u$. Nếu $v$ là rời rạc, Mệnh đề 8 của $§ 3$, no. 6 cho thấy rằng tôpô cảm sinh bởi $\mathscr{T}_v$ trên $A$ là tôpô $m(A)$-adic. Nói chung điều này không đúng (Bài tập 4).
 
 #### Mệnh đề 2 {#ac-vi-s5-prop-2 .statement}
 
-*Cho $K$ là một trường không nhất thiết giao hoán, $v$ là một định giá không suy biến trên $K$, $A$ là vành của $v$ và $m$ là iđêan của $v$. Để $K$ với tôpô $\mathcal{T}_v$ là địa phương compắc, điều kiện cần và đủ là các điều kiện sau được thỏa mãn:*
+*Cho $K$ là một trường không nhất thiết giao hoán, $v$ là một định giá không suy biến trên $K$, $A$ là vành của $v$ và $m$ là iđêan của $v$. Để $K$ với tôpô $\mathscr{T}_v$ là địa phương compắc, điều kiện cần và đủ là các điều kiện sau được thỏa mãn:*
 
 (i) $K$ là đầy đủ;
 (ii) $v$ là rời rạc;
@@ -98,7 +98,7 @@ Ta sẽ thấy ở § 9 rằng một trường $K$ thỏa mãn các điều ki�
 
 ### 2. KHÔNG GIAN VECTƠ TÔPÔ TRÊN MỘT TRƯỜNG CÓ MỘT ĐỊNH GIÁ
 
-Trong suốt mục này, gọi $K$ là một trường (không nhất thiết giao hoán), $v$ một định giá trên $K$ và $G$ nhóm cấp của nó. $K$ được trang bị tôpô $\mathcal{T}_v$.
+Trong suốt mục này, gọi $K$ là một trường (không nhất thiết giao hoán), $v$ một định giá trên $K$ và $G$ nhóm cấp của nó. $K$ được trang bị tôpô $\mathscr{T}_v$.
 
 #### Mệnh đề 3 {#ac-vi-s5-prop-3 .statement}
 
@@ -130,7 +130,7 @@ $F$ là đầy đủ.
 
 Cho $K$ là một trường không nhất thiết giao hoán, $v$ một định giá trên $K$ và $G$ nhóm $v(K^*)$ với tôpô rời rạc.
 
-(a) Vành hoàn thành $\hat{K}$ của $K$ (với $\mathcal{T}_v$) là một trường tôpô.
+(a) Vành hoàn thành $\hat{K}$ của $K$ (với $\mathscr{T}_v$) là một trường tôpô.
 
 (b) Ánh xạ $v : K^* \to G$ có thể được mở rộng duy nhất thành một ánh xạ liên tục $8 : \hat{K}^* \to G$. Ánh xạ $0$ (được mở rộng bởi $\hat{v}(0) = +\infty$) là một định giá trên $\hat{K}$ và $\hat{v}(\hat{K}^*) = v(K^*)$.
 
@@ -152,7 +152,7 @@ $$
 
 đúng trong $K^*$ và do đó cũng đúng trong $\hat{K}^*$ theo tính liên tục. Vậy 0 (mở rộng bởi $\hat{v}(0) = +\infty$) là một định giá trên $\mathbf{K}$ và (b) được chứng minh.
 
-Bây giờ ta chứng minh (d). Cho $a \in G$ và $x \in \mathcal{S}, -\{0\}$. Với $y$ trong $V$, đủ gần $x$, ta có $\hat{v}(x) = \hat{v}(y) = v(y)$ và do đó $\hat{v}(x) > a$. Ngược lại, cho $x \in \hat{K}^*$ sao cho $\hat{v}(x) > a$; với $y$ trong $K^*$ đủ gần $x$, ta có $v(y) = \hat{v}(y) = \hat{v}(x)$ và vì thế $y \in V$, do đó $x \in \mathcal{S}$. Vậy $\mathcal{S}$ là tập hợp các $x \in \hat{K}$ sao cho $\hat{v}(x) > a$. Lập luận là tương tự đối với $V'_a$. Điều này chứng minh (d).
+Bây giờ ta chứng minh (d). Cho $a \in G$ và $x \in \mathscr{S}, -\{0\}$. Với $y$ trong $V$, đủ gần $x$, ta có $\hat{v}(x) = \hat{v}(y) = v(y)$ và do đó $\hat{v}(x) > a$. Ngược lại, cho $x \in \hat{K}^*$ sao cho $\hat{v}(x) > a$; với $y$ trong $K^*$ đủ gần $x$, ta có $v(y) = \hat{v}(y) = \hat{v}(x)$ và vì thế $y \in V$, do đó $x \in \mathscr{S}$. Vậy $\mathscr{S}$ là tập hợp các $x \in \hat{K}$ sao cho $\hat{v}(x) > a$. Lập luận là tương tự đối với $V'_a$. Điều này chứng minh (d).
 
 Có tính đến Mệnh đề 7 của Tôpô đại cương, Chương III, § 3, no. 4, mệnh đề (c) là một hệ quả của (d). Mệnh đề (e) là một trường hợp riêng của (d). Cuối cùng, cho $x \in \hat{A}$; tồn tại $y \in A$ sao cho $\hat{v}(x - y) > 0$; khi đó $z = x - y \in \hat{m}$ và do đó $x = y + z \in A + \hat{m}$; vậy $\hat{A} = A + \hat{m}$, điều này chứng tỏ (f).
 

@@ -12,7 +12,7 @@ pdf_pages: 0198-0198
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 68eb77b851972c6e70f8e5ab73dae48a4b4a11436a9a286c9dfb68186b3a9905
+content_sha256: d5d3a10125829ddbfbf441a0052272d6397352a547925775abbbe04d4f4401af
 ---
 
 ## INDEX DES NOTATIONS
@@ -63,7 +63,7 @@ $\Phi_A, \Phi$ : IX, p. 3.
 $S_n, P_n, I_n, F_n$ : IX, p. 4.
 S_A, P_A, I_A, W(A), W(\rho), \rho^N : IX, p. 6.
 $F_A, V_A, F, V$ : IX, p. 8.
-$\mathcal{C}, V_n(A), \tau_A, \tau$ : IX, p. 11.
+$\mathscr{C}, V_n(A), \tau_A, \tau$ : IX, p. 11.
 $W_n(A)$ : IX, p. 12.
 $W_n(\rho), \pi_n, \pi_{n,m}$ : IX, p. 12.
 $V_m^n, F_m^n$ : IX, p. 14.
@@ -72,7 +72,7 @@ $A]X[$ : IX, p. 37.
 A](X_i)_{i\in I}[ : IX, p. 39.
 $s_A$ : IX, p. 44, exerc. 15.
 \rho, K(\rho^{-1}(A)), [\sigma, a] : IX, p. 45, exerc. 19.
-$\mathcal{D}_A$ : IX, p. 47, exerc. 22.
+$\mathscr{D}_A$ : IX, p. 47, exerc. 22.
 CW^u(A) : IX, p. 48, exerc. 23.
 CW(A) : IX, p. 48, exerc. 24.
 $J, \Phi, f_n, v_n, \Phi_n$ : IX, p. 50, exerc. 28.

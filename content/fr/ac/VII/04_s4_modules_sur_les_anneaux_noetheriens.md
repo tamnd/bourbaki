@@ -52,7 +52,7 @@ subsections:
       pdf_page: 272
 statements: 81
 exercises: 26
-content_sha256: 38968e8a5882d97a8e9d5ea2e779cc29ed30e740da7a18f7a6473b7b37506c53
+content_sha256: 14d2f6c9c2719ca88025b728f29ecce0c0acf3c1e2a25aea2b22da49e52dcddb
 ---
 
 ## § 4. Modules sur les anneaux noethériens intégralement clos
@@ -159,7 +159,7 @@ Soient $V$ un espace vectoriel de dimension finie sur $K$, $f$ une forme biliné
 
 Supposons que A soit un anneau de valuation discrète. Soit $\hat{A}$ son complété, et soit $\hat{K}$ le corps des fractions de $\hat{A}$ (chap. VI, § 5, n° 3). L’application $\varphi$ qui, à tout réseau M de V, fait correspondre le réseau $\hat{A}M$ de $\hat{V} = V \otimes_K \hat{K}$ par rapport à $\hat{A}$, est bijective et son application réciproque fait correspondre à tout réseau $M'$ de $\hat{V}$ par rapport à $\hat{A}$ son intersection $M' \cap V$ (V étant canoniquement identifié à un sous-K-espace vectoriel de $\hat{V}$).
 
-Si L est un réseau libre de V, les réseaux $aL$ (pour $a \in A$, $a \neq 0$) forment un système fondamental de voisinages de 0 pour une topologie $\mathcal{T}$ sur V (compatible avec sa structure de A-module), qui (lorsqu’on prend une base de L sur A) s’identifie à la topologie produit sur $K^n$; en vertu de la prop. 2, un système fondamental de voisinages de 0 pour $\mathcal{T}$ est encore formé de tous les réseaux de V par rapport à A ; il est clair que $\hat{V}$ est le complété de V pour $\mathcal{T}$. En outre, si m est l’idéal maximal de A, la topologie $\mathcal{T}$ induit sur tout réseau M de V par rapport à A la topologie m-adique puisque M est un A-module de type fini (chap. III, § 3, n° 2, th. 2), et $\hat{A}M$ est le complété de $M$ pour cette topologie (chap. III, § 2, n° 12, prop. 16); d’ailleurs, comme $M$ est ouvert (et par suite fermé) dans $V$, on a $\hat{A}M \cap V = M$, ce qui démontre à nouveau le fait que $\varphi$ est injective (qui découle directement de la prop. 4, (ii), puisque $\hat{A}$ est un $A$-module fidèlement plat). Enfin, si $M'$ est un réseau de $\hat{V}$ par rapport à $\hat{A}$, $M = M' \cap V$ est un réseau de $V$ par rapport à $A$, car tout élément de $\hat{A}$ est produit d’un élément de $A$ et d’un élément inversible de $\hat{A}$, donc il résulte de la prop. 2 qu’il existe $a, b$ dans $A - \{0\}$ tels que $a\hat{A}L \subset M' \subset b\hat{A}L$, d’où $aL \subset M' \cap V \subset bL$. En outre, $M'$ est ouvert dans $V$, et comme $V$ est dense dans $\hat{V}$, $M'$ est la complétion de $M' \cap V = M$; cela prouve que $\varphi$ est surjective, d’où le corollaire.
+Si L est un réseau libre de V, les réseaux $aL$ (pour $a \in A$, $a \neq 0$) forment un système fondamental de voisinages de 0 pour une topologie $\mathscr{T}$ sur V (compatible avec sa structure de A-module), qui (lorsqu’on prend une base de L sur A) s’identifie à la topologie produit sur $K^n$; en vertu de la prop. 2, un système fondamental de voisinages de 0 pour $\mathscr{T}$ est encore formé de tous les réseaux de V par rapport à A ; il est clair que $\hat{V}$ est le complété de V pour $\mathscr{T}$. En outre, si m est l’idéal maximal de A, la topologie $\mathscr{T}$ induit sur tout réseau M de V par rapport à A la topologie m-adique puisque M est un A-module de type fini (chap. III, § 3, n° 2, th. 2), et $\hat{A}M$ est le complété de $M$ pour cette topologie (chap. III, § 2, n° 12, prop. 16); d’ailleurs, comme $M$ est ouvert (et par suite fermé) dans $V$, on a $\hat{A}M \cap V = M$, ce qui démontre à nouveau le fait que $\varphi$ est injective (qui découle directement de la prop. 4, (ii), puisque $\hat{A}$ est un $A$-module fidèlement plat). Enfin, si $M'$ est un réseau de $\hat{V}$ par rapport à $\hat{A}$, $M = M' \cap V$ est un réseau de $V$ par rapport à $A$, car tout élément de $\hat{A}$ est produit d’un élément de $A$ et d’un élément inversible de $\hat{A}$, donc il résulte de la prop. 2 qu’il existe $a, b$ dans $A - \{0\}$ tels que $a\hat{A}L \subset M' \subset b\hat{A}L$, d’où $aL \subset M' \cap V \subset bL$. En outre, $M'$ est ouvert dans $V$, et comme $V$ est dense dans $\hat{V}$, $M'$ est la complétion de $M' \cap V = M$; cela prouve que $\varphi$ est surjective, d’où le corollaire.
 
 #### Exemple 6 {#ac-vii-s4-n1-exa-6 .statement}
 
@@ -528,7 +528,7 @@ Comme $\chi(A/\mathfrak{p}) = \mathfrak{p}$ pour tout $\mathfrak{p} \in P$, on d
 
 C.Q.F.D.
 
-\* On peut, comme au n° 4, considérer la catégorie quotient $\mathcal{T}/\mathcal{T}'$ de la catégorie $\mathcal{T}$ des $A$-modules de torsion de type fini par la sous-catégorie épaisse $\mathcal{T}'$ des $A$-modules de torsion de type fini pseudo-nuls. Dans le langage des catégories abéliennes, la prop. 11 exprime alors que le *groupe de Grothendieck* de la catégorie abélienne $\mathcal{T}/\mathcal{T}'$ est canoniquement isomorphe à $D(A)$. \*
+\* On peut, comme au n° 4, considérer la catégorie quotient $\mathscr{T}/\mathscr{T}'$ de la catégorie $\mathscr{T}$ des $A$-modules de torsion de type fini par la sous-catégorie épaisse $\mathscr{T}'$ des $A$-modules de torsion de type fini pseudo-nuls. Dans le langage des catégories abéliennes, la prop. 11 exprime alors que le *groupe de Grothendieck* de la catégorie abélienne $\mathscr{T}/\mathscr{T}'$ est canoniquement isomorphe à $D(A)$. \*
 
 #### Proposition 12 {#ac-vii-s4-prop-12 .statement}
 
@@ -753,7 +753,7 @@ $$
 
 où $h_x$ est la multiplication par $x$, il vient $\varphi(A/xA) = 0$, d’où θ₀(div(x)) = 0. Par passage au quotient, θ₀ définit donc un homomorphisme θ₁ : C → G et l’on a φ(T) = θ₁(c(T)) pour tout A-module de torsion T. Montrons alors que l’homomorphisme θ défini par θ(n, z) = n.φ(A) + θ₁(z) répond à la question. Pour cela, posons φ'(M) = φ(M) − θ(γ(M)) pour tout A-module M de type fini; il est clair que la condition 1) est encore vérifiée lorsqu’on y remplace φ par φ'. En outre, on a φ'(M) = 0 lorsque M est un module de torsion ou un module libre; mais comme pour tout A-module M de type fini, il existe un sous-module libre L de M tel que M/L soit un module de torsion (prop. 15), la propriété 1) montre que φ'(M) = 0 pour tout A-module M de type fini.
 
-\* Dans le langage des catégories abéliennes, la prop. 17 montre que $\mathbf{Z} \times C(A)$ est canoniquement isomorphe au groupe de Grothendieck de la catégorie quotient $\mathcal{F}/\mathcal{F}'$, où $\mathcal{F}$ est la catégorie des A-modules de type fini, $\mathcal{F}'$ la sous-catégorie épaisse de $\mathcal{F}$ formée des modules pseudo-nuls. \*
+\* Dans le langage des catégories abéliennes, la prop. 17 montre que $\mathbf{Z} \times C(A)$ est canoniquement isomorphe au groupe de Grothendieck de la catégorie quotient $\mathscr{F}/\mathscr{F}'$, où $\mathscr{F}$ est la catégorie des A-modules de type fini, $\mathscr{F}'$ la sous-catégorie épaisse de $\mathscr{F}$ formée des modules pseudo-nuls. \*
 
 ### 8. Propriétés relatives aux extensions finies de l’anneau des scalaires
 

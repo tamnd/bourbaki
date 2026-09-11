@@ -37,9 +37,9 @@ subsections:
       pdf_page: 299
 statements: 39
 exercises: 28
-content_sha256: 7dacd2f7dcc68b66f9247e3763c2ae536a5e8247300d431420b92570cc1935a4
+content_sha256: fb1f546bb77e15727c63538d22cedc26bb112ce9214810d59200b0e76a530df4
 translated_from: content/en/ac/IV/02_s2_primary_decomposition.md
-source_content_sha256: 9353d19272573d950f92fba8db2374013f868c6b8d590a53b7b8f6262334c6e8
+source_content_sha256: 5e54164fb2351677b3509552b100c892a84931de0ab425eb7ac92344759deda0
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-4cde209c
 glossary_version: 34
@@ -96,15 +96,15 @@ Các lũy thừa của bất kỳ iđêan nguyên tố nào không nhất thiế
 
 #### Mệnh đề 2 {#ac-iv-s2-prop-2 .statement}
 
-Cho M là một môđun trên một vành Noether, p là một iđêan nguyên tố của A và $(\mathcal{Q}_i)_{i \in I}$ là một họ hữu hạn không rỗng các môđun con của M là p-nguyên sơ đối với M. Khi đó $\bigcap_{i \in I} \mathcal{Q}_i$ là p-nguyên sơ đối với M.
+Cho M là một môđun trên một vành Noether, p là một iđêan nguyên tố của A và $(\mathscr{Q}_i)_{i \in I}$ là một họ hữu hạn không rỗng các môđun con của M là p-nguyên sơ đối với M. Khi đó $\bigcap_{i \in I} \mathscr{Q}_i$ là p-nguyên sơ đối với M.
 
-$M / (\bigcap_{i \in I} \mathcal{Q}_i)$ đẳng cấu với một môđun con $\neq 0$ của tổng trực tiếp $\bigoplus_{i \in I} (M / \mathcal{Q}_i)$. Khi đó
+$M / (\bigcap_{i \in I} \mathscr{Q}_i)$ đẳng cấu với một môđun con $\neq 0$ của tổng trực tiếp $\bigoplus_{i \in I} (M / \mathscr{Q}_i)$. Khi đó
 
 $$
-\operatorname{Ass}\left( \bigoplus_{i \in I} (M / \mathcal{Q}_i) \right) = \bigcup_{i \in I} \operatorname{Ass}(M / \mathcal{Q}_i) = \{p\}
+\operatorname{Ass}\left( \bigoplus_{i \in I} (M / \mathscr{Q}_i) \right) = \bigcup_{i \in I} \operatorname{Ass}(M / \mathscr{Q}_i) = \{p\}
 $$
 
-(§ 1, no. 1, Hệ quả 1 của Mệnh đề 3). Do đó $\operatorname{Ass}\left(M / (\bigcap_{i \in I} \mathcal{Q}_i)\right) = \{p\}$ (§ 1, no. 1, Mệnh đề 3 và Hệ quả 1 của Mệnh đề 2).
+(§ 1, no. 1, Hệ quả 1 của Mệnh đề 3). Do đó $\operatorname{Ass}\left(M / (\bigcap_{i \in I} \mathscr{Q}_i)\right) = \{p\}$ (§ 1, no. 1, Mệnh đề 3 và Hệ quả 1 của Mệnh đề 2).
 
 #### Mệnh đề 3 {#ac-iv-s2-prop-3 .statement}
 
@@ -128,7 +128,7 @@ $$
 
 #### Định nghĩa 2 {#ac-iv-s2-def-2 .statement}
 
-Cho $A$ là một vành Noether, $M$ là một $A$-môđun và $N$ là một môđun con của $M$. Một họ hữu hạn $(\mathcal{Q}_i)_{i \in I}$ các môđun con của $M$ là nguyên sơ đối với M và sao cho $N = \bigcap_{i \in I} \mathcal{Q}_i$ được gọi là một phân tích nguyên sơ của $N$ trong $M$.
+Cho $A$ là một vành Noether, $M$ là một $A$-môđun và $N$ là một môđun con của $M$. Một họ hữu hạn $(\mathscr{Q}_i)_{i \in I}$ các môđun con của $M$ là nguyên sơ đối với M và sao cho $N = \bigcap_{i \in I} \mathscr{Q}_i$ được gọi là một phân tích nguyên sơ của $N$ trong $M$.
 
 #### Ví dụ {#ac-iv-s2-n2-exa-1 .statement}
 
@@ -138,7 +138,7 @@ n\mathbf{Z} = (p_1^{\alpha_1}\mathbf{Z}) \cap \ldots \cap (p_k^{\alpha_k}\mathbf
 $$
 là một phân tích nguyên sơ của $n\mathbf{Z}$ trong $\mathbf{Z}$ theo Ví dụ 4 của no. 1.
 
-Do lạm dụng ngôn ngữ, quan hệ $N = \bigcap_{i \in I} \mathcal{Q}_i$ được gọi là một phân tích nguyên sơ của $N$ trong $M$. Điều này tương đương với việc nói rằng $\{0\} = \bigcap_{i \in I} (\mathcal{Q}_i/N)$ là một phân tích nguyên sơ của $\{0\}$ trong $M/N$. Nếu $(\mathcal{Q}_i)_{i \in I}$ là một phân tích nguyên sơ của $N$ trong $M$, ánh xạ chính tắc từ $M/N$ đến $\bigoplus_{i \in I} (M/\mathcal{Q}_i)$ là đơn ánh. Ngược lại, cho $N$ là một môđun con của $M$ và $f$ là một đơn ánh từ $M/N$ vào một tổng trực tiếp hữu hạn $P = \bigoplus_{i \in I} P_i$, trong đó mỗi tập hợp $\operatorname{Ass}(P_i)$ được rút gọn về một phần tử duy nhất $p_i$; gọi $f_i$ là đồng cấu $M/N \to P_i$ thu được bằng cách lấy hợp thành của $f$ với phép chiếu $P \to P_i$, và gọi $Q_i/N$ là hạt nhân của $f_i$.; khi đó các $Q_i$ khác $M$ là nguyên sơ đối với $M$ (no. 1, Định nghĩa 1) và $N = \bigcap_{i \in I} Q_i$. Hơn nữa, $\operatorname{Ass}(M/N) \subset \bigcup_{i \in I} \{p_i\}$ theo § 1, no. 1, Mệnh đề 3.
+Do lạm dụng ngôn ngữ, quan hệ $N = \bigcap_{i \in I} \mathscr{Q}_i$ được gọi là một phân tích nguyên sơ của $N$ trong $M$. Điều này tương đương với việc nói rằng $\{0\} = \bigcap_{i \in I} (\mathscr{Q}_i/N)$ là một phân tích nguyên sơ của $\{0\}$ trong $M/N$. Nếu $(\mathscr{Q}_i)_{i \in I}$ là một phân tích nguyên sơ của $N$ trong $M$, ánh xạ chính tắc từ $M/N$ đến $\bigoplus_{i \in I} (M/\mathscr{Q}_i)$ là đơn ánh. Ngược lại, cho $N$ là một môđun con của $M$ và $f$ là một đơn ánh từ $M/N$ vào một tổng trực tiếp hữu hạn $P = \bigoplus_{i \in I} P_i$, trong đó mỗi tập hợp $\operatorname{Ass}(P_i)$ được rút gọn về một phần tử duy nhất $p_i$; gọi $f_i$ là đồng cấu $M/N \to P_i$ thu được bằng cách lấy hợp thành của $f$ với phép chiếu $P \to P_i$, và gọi $Q_i/N$ là hạt nhân của $f_i$.; khi đó các $Q_i$ khác $M$ là nguyên sơ đối với $M$ (no. 1, Định nghĩa 1) và $N = \bigcap_{i \in I} Q_i$. Hơn nữa, $\operatorname{Ass}(M/N) \subset \bigcup_{i \in I} \{p_i\}$ theo § 1, no. 1, Mệnh đề 3.
 
 #### Định lý 1 {#ac-iv-s2-thm-1 .statement}
 
@@ -293,10 +293,10 @@ $$
 Điều này sẽ suy ra từ Mệnh đề 8 (iv) nếu ta chứng minh rằng
 
 $$
-\operatorname{long}_A(M/\mathcal{Q}(p)) = \operatorname{long}_{A_p}(M_p).
+\operatorname{long}_A(M/\mathscr{Q}(p)) = \operatorname{long}_{A_p}(M_p).
 $$
 
-Bây giờ, từ Mệnh đề 1 của no. 1 suy ra rằng với mọi $s \in A - p$ phép vị tự với tỉ số s trên $M/\mathcal{Q}(p)$ là đơn ánh; phép vị tự với tỉ số s trên mọi môđun con R của $M/\mathcal{Q}(p)$ do đó là đơn ánh và, vì R là Artin, nó là song ánh (*Đại số*, Chương VIII, § 2, no. 2, Bổ đề 3); ta kết luận rằng các môđun con-A của $M/\mathcal{Q}(p)$ là các ảnh qua song ánh $f : M, \to M/\mathcal{Q}(p)$ của các môđun con-A, của M, (Chương 11, § 2, no. 3), do đó có mệnh đề của ta.
+Bây giờ, từ Mệnh đề 1 của no. 1 suy ra rằng với mọi $s \in A - p$ phép vị tự với tỉ số s trên $M/\mathscr{Q}(p)$ là đơn ánh; phép vị tự với tỉ số s trên mọi môđun con R của $M/\mathscr{Q}(p)$ do đó là đơn ánh và, vì R là Artin, nó là song ánh (*Đại số*, Chương VIII, § 2, no. 2, Bổ đề 3); ta kết luận rằng các môđun con-A của $M/\mathscr{Q}(p)$ là các ảnh qua song ánh $f : M, \to M/\mathscr{Q}(p)$ của các môđun con-A, của M, (Chương 11, § 2, no. 3), do đó có mệnh đề của ta.
 
 #### Mệnh đề 9 {#ac-iv-s2-prop-9 .statement}
 

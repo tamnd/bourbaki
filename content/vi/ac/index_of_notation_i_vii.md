@@ -13,7 +13,7 @@ pdf_pages: 0625-0627
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 495e541421c9700115d87ea9924d17d6613e05c40222a9cb29d657a989b0d654
+content_sha256: 632a75df82eba77790c51baeec11bff7a5e600b940bc52366bb7b76b690090a4
 translated_from: content/en/ac/index_of_notation_i_vii.md
 source_content_sha256: 641e0c3993ffaf13cacc636d859b85afb80bfe6604e9d58bf0039d6861b7d1d6
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -70,7 +70,7 @@ R, a: VI.2.1
 \Gamma_A, v_A: VI.3.2
 a(M) (M một tập hợp lớn): VI.3.5
 h(G) (G một nhóm được sắp thứ tự toàn phần): VI.4.4
-\mathcal{T}_v (v một giá trị): VI.5.2
+\mathscr{T}_v (v một giá trị): VI.5.2
 e(v'/v), e(A'/A), e(L/K): VI.8.1
 f(v'/v), f(A'/A), f(L/K): VI.8.1
 \varepsilon(G, H) (G một nhóm được sắp thứ tự toàn phần, H một nhóm con của G có chỉ số hữu hạn): VI.8.4

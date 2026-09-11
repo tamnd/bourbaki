@@ -32,7 +32,7 @@ subsections:
       pdf_page: 58
 statements: 29
 exercises: 13
-content_sha256: 1cb4ee83cd3848ac9878b8d74c05d2ee772f02b46e916425c5ae49647a84ed0f
+content_sha256: 3693d2c40a9c1619178ebb43dafb3e72feae8a82508f1ee62c064bb5c6a45b22
 ---
 
 ## § 4. ANNEAUX RÉGULIERS
@@ -394,7 +394,7 @@ Il nous suffit maintenant de prouver que lorsque les conditions équivalentes (i
 
 #### Exemple {#ac-x-s4-n5-exa-1 .statement}
 
-*Soient $X$, $Y$ deux variétés analytiques complexes, localement de dimension finie, $f$ un morphisme de $X$ dans $Y$, et $x$ un point de $X$. Considérons l’homomorphisme local $\rho : \mathcal{O}_{Y, f(x)} \to \mathcal{O}_{X, x}$ associé à $f$. L’application $d\rho$ est la transposée de l’application tangente $T_x(f) : T_x(X) \to T_{f(x)}(Y)$. Les conditions (i) à (iv) de la proposition 9 équivalent donc dans ce cas au fait que $f$ soit une submersion en $x$ (VAR, R, 5.9.1).*
+*Soient $X$, $Y$ deux variétés analytiques complexes, localement de dimension finie, $f$ un morphisme de $X$ dans $Y$, et $x$ un point de $X$. Considérons l’homomorphisme local $\rho : \mathscr{O}_{Y, f(x)} \to \mathscr{O}_{X, x}$ associé à $f$. L’application $d\rho$ est la transposée de l’application tangente $T_x(f) : T_x(X) \to T_{f(x)}(Y)$. Les conditions (i) à (iv) de la proposition 9 équivalent donc dans ce cas au fait que $f$ soit une submersion en $x$ (VAR, R, 5.9.1).*
 
 #### Corollaire {#ac-x-s4-n5-cor-2 .statement}
 

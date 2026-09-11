@@ -41,9 +41,9 @@ subsections:
       pdf_page: 139
 statements: 34
 exercises: 8
-content_sha256: 015a255aaa0ad14cd29ad6788791c7ad11c875e5082b92ad5b714a887b7d42c2
+content_sha256: db3fd788cf48501ee40100b28bfc56c9ccfaf8e1862df912f16d7d5f8fd6bbaf
 translated_from: content/en/ac/II/05_s5_finitely_generated_projective_modules.md
-source_content_sha256: a5d4bfa4c1fcf7eb66cf300768331126f156485bf51ceb82544587f9f1c007d9
+source_content_sha256: 9505786f478edef08c8c8e37cea3e635ac9e87b7abc7b12363b27377d0513a97
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-5e8c59f3
 glossary_version: 34
@@ -284,7 +284,7 @@ Cho B là một A-đại số giao hoán và M là một A-môđun xạ ảnh h�
 
 Đẳng thức $M_{(B)} \otimes_B N_{(B)} = (M \otimes_A N)_{(B)}$ đối với hai A-môđun M, N chứng minh rằng ánh xạ $\phi$ là một *đồng cấu* nhóm giao hoán.
 
-*Nhận xét (2).* Điều kiện (e) của Định lý 1 (tương đương với việc P là xạ ảnh và sinh hữu hạn) cũng có thể được phát biểu bằng cách nói rằng *bó các môđun* $\tilde{P}$ trên $X = \mathrm{Spec}(A)$ *liên kết(*) với P là tự do địa phương và kiểu hữu hạn* và do đó có thể được diễn giải như bó các tiết diện của một bó vectơ trên X. Ngược lại, mọi bó vectơ trên X đều phát sinh từ một môđun xạ ảnh hữu hạn sinh, môđun này được xác định tới một đẳng cấu duy nhất; vì thế các môđun xạ ảnh hạng $n$ tương ứng với các bó vectơ mà mọi thớ của chúng đều có chiều $n$. Đặc biệt, các bó vectơ hạng 1 tương ứng với các môđun xạ ảnh hạng 1. Nếu ký hiệu bởi $\mathcal{O}_X$ bó cấu trúc $\tilde{A}$ và bởi $\mathcal{O}_X^*$ *bó các đơn vị* của $\mathcal{O}_X$ (mà các tiết diện của nó trên một tập mở U của X là các phần tử khả nghịch của vành các tiết diện của $\mathcal{O}_X$ trên U), thì suy ra rằng nhóm $P(A)$ đẳng cấu với nhóm đối đồng điều bậc nhất $H^1(X, \mathcal{O}_X^*)$.*
+*Nhận xét (2).* Điều kiện (e) của Định lý 1 (tương đương với việc P là xạ ảnh và sinh hữu hạn) cũng có thể được phát biểu bằng cách nói rằng *bó các môđun* $\tilde{P}$ trên $X = \mathrm{Spec}(A)$ *liên kết(*) với P là tự do địa phương và kiểu hữu hạn* và do đó có thể được diễn giải như bó các tiết diện của một bó vectơ trên X. Ngược lại, mọi bó vectơ trên X đều phát sinh từ một môđun xạ ảnh hữu hạn sinh, môđun này được xác định tới một đẳng cấu duy nhất; vì thế các môđun xạ ảnh hạng $n$ tương ứng với các bó vectơ mà mọi thớ của chúng đều có chiều $n$. Đặc biệt, các bó vectơ hạng 1 tương ứng với các môđun xạ ảnh hạng 1. Nếu ký hiệu bởi $\mathscr{O}_X$ bó cấu trúc $\tilde{A}$ và bởi $\mathscr{O}_X^*$ *bó các đơn vị* của $\mathscr{O}_X$ (mà các tiết diện của nó trên một tập mở U của X là các phần tử khả nghịch của vành các tiết diện của $\mathscr{O}_X$ trên U), thì suy ra rằng nhóm $P(A)$ đẳng cấu với nhóm đối đồng điều bậc nhất $H^1(X, \mathscr{O}_X^*)$.*
 
 (* Xem A. Grothendieck, Éléments de géométrie algébrique, I (§ 1) (Publ. Math. I.H.E.S., no. 4, 1960).
 

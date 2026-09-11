@@ -29,9 +29,9 @@ subsections:
       pdf_page: 425
 statements: 10
 exercises: 2
-content_sha256: 5375807324d26f31048734c84c300d33eba2e5583ae9567a7a007e6185a3dbc5
+content_sha256: 5be3272fe5dade9f6a5b4479a0a73033796ed4526214b55e54d26229b12556c6
 translated_from: content/en/ac/VI/06_s6_absolute_values.md
-source_content_sha256: 89089983c5dccbb3218f2ab1a51ac646d32b8eda490bc9f1353d4e6a8f3b6ffa
+source_content_sha256: 5ca49b570b2d09c05c44810d4a82b106c8d2a4be48a8180dbf9f1db68aeef3b5
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-81ca19be
 glossary_version: 34
@@ -60,16 +60,16 @@ $$
 f(x + y) \leq A \cdot \sup(f(x), f(y)) \quad \text{với mọi } x, y \text{ thuộc } K.
 $$
 
-Ta sẽ ký hiệu bởi $\mathcal{V}(K)$ tập hợp các ánh xạ $f$ từ $K$ vào $\mathbf{R}_+$ thỏa mãn (VAI) và (VAII) và với chúng tồn tại một $A > 0$ (phụ thuộc vào $f$) sao cho $(\mathrm{U}_A)$ đúng.
+Ta sẽ ký hiệu bởi $\mathscr{V}(K)$ tập hợp các ánh xạ $f$ từ $K$ vào $\mathbf{R}_+$ thỏa mãn (VAI) và (VAII) và với chúng tồn tại một $A > 0$ (phụ thuộc vào $f$) sao cho $(\mathrm{U}_A)$ đúng.
 
-Chú ý rằng nếu f $\in \mathcal{V}(K)$, thì, đặt $x = 1, y = 0$ trong $(\mathrm{U}_A)$,
+Chú ý rằng nếu f $\in \mathscr{V}(K)$, thì, đặt $x = 1, y = 0$ trong $(\mathrm{U}_A)$,
 $$
 1 = f(1) \leq A \cdot \sup(f(1), f(0)) = A.
 $$
 
 #### Mệnh đề 1 {#ac-vi-s6-prop-1 .statement}
 
-Đối với một ánh xạ $f$ từ $K$ vào $\mathbf{R}$, thỏa mãn (VA,) và (VAII) để thuộc $\mathcal{V}(K)$, điều kiện cần và đủ là $f(1 + x)$ bị chặn trong tập hợp các $x \in K$ sao cho $f(x) \leq 1$.
+Đối với một ánh xạ $f$ từ $K$ vào $\mathbf{R}$, thỏa mãn (VA,) và (VAII) để thuộc $\mathscr{V}(K)$, điều kiện cần và đủ là $f(1 + x)$ bị chặn trong tập hợp các $x \in K$ sao cho $f(x) \leq 1$.
 
 Nếu $f$ thỏa mãn $(\mathbf{U}_A)$, thì $f(1 + x) \leq A$ nếu $f(x) \leq 1$. Ngược lại, giả sử rằng $f(x + 1) \leq A$ đối với các $x \in K$ sao cho $f(x) \leq 1$ (điều này kéo theo rằng $A \geq f(1) = 1$); khi đó, nếu $x = 0$ hoặc $y = 0$, điều kiện $(\mathbf{U}_A)$ được thỏa mãn; nếu ngược lại $x \neq 0$ và $y \neq 0$, ta có thể giả sử chẳng hạn rằng $f(y) \leq f(x)$, do đó, theo $(\mathbf{VA}_s)$, $f(yx^{-1}) \leq 1$ và vì vậy $f(1 + yx^{-1}) \leq A$, điều này cho, theo $(\mathbf{VA}_{II})$, $f(x + y)f(x)^{-1} \leq A$; do đó
 
@@ -81,7 +81,7 @@ Nếu $f$ là một giá trị tuyệt đối trên $K$, thì $f(n.1) \leq n$ th
 
 #### Mệnh đề 2 {#ac-vi-s6-prop-2 .statement}
 
-*Cho $f$ là một ánh xạ từ $K$ vào $\mathbf{R}_+$ thuộc $\mathcal{V}(K)$; nếu tồn tại $C > 0$ sao cho $f(n.1) \leq C$ với mọi số nguyên $n > 0$, thì $f$ là một giá trị tuyệt đối trên $K$.*
+*Cho $f$ là một ánh xạ từ $K$ vào $\mathbf{R}_+$ thuộc $\mathscr{V}(K)$; nếu tồn tại $C > 0$ sao cho $f(n.1) \leq C$ với mọi số nguyên $n > 0$, thì $f$ là một giá trị tuyệt đối trên $K$.*
 
 Theo quy nạp trên $r > 0$, ta suy ra từ $(\mathbf{U}_A)$ quan hệ
 
@@ -123,7 +123,7 @@ khi đó Mệnh đề 2 có thể được áp dụng với $C = 2$ và do đó 
 
 #### Hệ quả 2 {#ac-vi-s6-prop-2-cor-2 .statement}
 
-Đối với một ánh xạ $f$ của $K$ vào $\mathbf{R}_+$ thuộc $\mathcal{V}(K)$, điều kiện cần và đủ là nó có dạng $g^t$, trong đó $t > 0$ và $g$ là một giá trị tuyệt đối trên $K$.
+Đối với một ánh xạ $f$ của $K$ vào $\mathbf{R}_+$ thuộc $\mathscr{V}(K)$, điều kiện cần và đủ là nó có dạng $g^t$, trong đó $t > 0$ và $g$ là một giá trị tuyệt đối trên $K$.
 
 Nói rằng $f$ thỏa mãn $(\mathbf{U}_A)$ tương đương với việc nói rằng $f^s$ thỏa mãn $(\mathbf{U}_{A^s})$; vì tồn tại $s > 0$ sao cho $A^s \leq 2$, Hệ quả 1 cho thấy rằng với giá trị $s$ như vậy, $f^s$ là một giá trị tuyệt đối.
 
@@ -136,7 +136,7 @@ Một ánh xạ $f$ của $K$ vào $\mathbf{R}_+$ được gọi là một giá 
 Cho $f$ là một ánh xạ của $K$ vào $\mathbf{R}_+$. Các tính chất sau là tương đương:
 (a) $f$ là một giá trị tuyệt đối siêu mêtric.
 (b) Tồn tại một định giá $v$ trên $K$ với các giá trị trong $\mathbf{R}$ và một số thực $a$ sao cho $0 < a < 1$ và $f = a''$.
-(c) $f$ thuộc $\mathcal{V}(K)$ và $f(n.1) \leq 1$ với mọi số nguyên $n > 0$.
+(c) $f$ thuộc $\mathscr{V}(K)$ và $f(n.1) \leq 1$ với mọi số nguyên $n > 0$.
 (d) Với mọi $s > 0$, $f^s$ là một giá trị tuyệt đối.
 
 Với mọi số thực $c$ sao cho $0 < c < 1$, ánh xạ $t \mapsto c^t$ là một đẳng cấu của nhóm có thứ tự $\mathbf{R}$ (với thứ tự đối với thứ tự thông thường) lên nhóm có thứ tự $\mathbf{R}_+^*$; điều này chỉ ra sự tương đương của (a) và (b). Rõ ràng (a) suy ra (c); (c) suy ra (d), vì ta suy ra từ (c) rằng
@@ -147,7 +147,7 @@ với mọi số nguyên $n > 0$ và Mệnh đề 2 của no. 1 chỉ ra rằng 
 
 #### Hệ quả {#ac-vi-s6-n2-cor-1 .statement}
 
-Nếu $K$ là một trường (không nhất thiết giao hoán) có đặc số $p > 0$, mọi hàm trên $\mathcal{V}(K)$ đều là một giá trị tuyệt đối siêu mêtric.
+Nếu $K$ là một trường (không nhất thiết giao hoán) có đặc số $p > 0$, mọi hàm trên $\mathscr{V}(K)$ đều là một giá trị tuyệt đối siêu mêtric.
 
 Mọi phần tử khác không $z = n.1$ ($n$ một số nguyên $> 0$) thuộc trường con nguyên tố $\mathbf{F}_p$ của $K$ và do đó thỏa mãn quan hệ $z^{p-1} = 1$, điều này suy ra $f(z) = 1$ và ta có thể áp dụng Mệnh đề 3 (c).
 
@@ -161,7 +161,7 @@ do đó thiết lập một sự tương ứng một-một giữa các giá tr�
 
 #### Mệnh đề 4 {#ac-vi-s6-prop-4 .statement}
 
-*Cho $f$ là một ánh xạ từ $\mathbf{Q}$ vào $\mathbf{R}_+$ thuộc $\mathcal{V}(\mathbf{Q})$. Khi đó:*
+*Cho $f$ là một ánh xạ từ $\mathbf{Q}$ vào $\mathbf{R}_+$ thuộc $\mathscr{V}(\mathbf{Q})$. Khi đó:*
 
 (i) *Hoặc $f$ là giá trị tuyệt đối không đúng trên $\mathbf{Q}$.*
 
@@ -314,9 +314,9 @@ $$
 
 Nhận xét (1) Chúng ta sẽ đưa ra trong chương dành cho các đại số chuẩn một chứng minh ngắn hơn của Định lý Gelfand-Mazur, đúng với mọi đại số tôpô lồi địa phương Hausdorff $K$ trên R và có nguyên lý như sau: nó được quy về (như trong các trường hợp (B) và (C)) trường hợp $K$ là một đại số giao hoán trên $\mathbf{C}$; nếu $x \in \mathbf{K} - \mathbf{C}.1$, ta xét như trên ánh xạ $z \mapsto (x - z.1)^{-1}$ từ $\mathbf{C}$ vào K, liên tục và khả vi trên $\mathbf{C}$. Với mọi phần tử $x'$ của không gian đối ngẫu $\mathbf{K}'$ của không gian lồi địa phương K, $z \mapsto \langle (x - z.1)^{-1}, x' \rangle$ khi đó là một hàm nguyên bị chặn trên $\mathbf{C}$ và do đó là hằng theo Định lý Liouville, và ta kết luận như trong phần (A) của chứng minh Định lý 1 rằng điều này tất yếu dẫn đến $\langle (x - z.1)^{-1}, x' \rangle = 0$ với mọi $z \in \mathbf{C}$ và mọi $x' \in \mathbf{K}'$; Định lý Hahn-Banach cho thấy kết luận này là vô lý, vì $(x - z.1)^{-1} \neq 0$. Chú ý rằng lập luận trong phần (A) của chứng minh Định lý 1 chỉ khác với lập luận trên về hình thức, vì lập luận này chỉ là một trường hợp đặc biệt của lập luận dùng để chứng minh nguyên lý cực đại đối với các hàm giải tích, phép lấy tổng trên các căn của đơn vị và chuyển qua giới hạn tương đương với việc tính tích phân $\int_{\gamma} \frac{\mathbf{F}(z + t)}{t} dt$ dọc theo một đường tròn tâm 0 và việc sử dụng công thức Cauchy được tránh ở đây, nhờ dạng đặc biệt của hàm F.
 
-Định lý 2 (Ostrowski). Cho K là một trường (không nhất thiết giao hoán) và f là một phần tử $\mathcal{V}(K)$ không phải là một giá trị tuyệt đối ultrametric. Khi đó tồn tại duy nhất một số thực $s > 0$ và một đẳng cấu j của K lên một trường con trù mật khắp nơi của một trong các trường $\mathbf{R}, \mathbf{C}$ hoặc $\mathbf{H}$ sao cho $f(x) = |j(x)|^s$ với mọi $x \in K$ (*). Để f là một giá trị tuyệt đối trên K, điều kiện cần và đủ là $s \leq 1$.
+Định lý 2 (Ostrowski). Cho K là một trường (không nhất thiết giao hoán) và f là một phần tử $\mathscr{V}(K)$ không phải là một giá trị tuyệt đối ultrametric. Khi đó tồn tại duy nhất một số thực $s > 0$ và một đẳng cấu j của K lên một trường con trù mật khắp nơi của một trong các trường $\mathbf{R}, \mathbf{C}$ hoặc $\mathbf{H}$ sao cho $f(x) = |j(x)|^s$ với mọi $x \in K$ (*). Để f là một giá trị tuyệt đối trên K, điều kiện cần và đủ là $s \leq 1$.
 
-Theo no. 2, Hệ quả của Mệnh đề 3, K có đặc số 0 và do đó là một đại số trên $\mathbf{Q}$; với mọi $x \in \mathbf{Q}$ ta đặt $h(x) = f(x.1)$; rõ ràng $h \in \mathcal{V}(\mathbf{Q})$ và do đó Mệnh đề 4 của no. 3 có thể được áp dụng; cả trường hợp (i) lẫn (ii) của mệnh đề này đều không thể xảy ra, vì điều đó sẽ kéo theo $f(n.1) \leq 1$ với mọi số nguyên $n > 0$ và f sẽ là một giá trị tuyệt đối ultrametric theo no. 2, Mệnh đề 3. Khi đó tồn tại một số thực s > 0 sao cho h(x) = |x|^s với mọi x ∈ Q, tức là f(x.1) = |x|^s; ta đặt g = f^{1/s}. Khi đó g ∈ V(K) và g(n.1) = n với mọi số nguyên n; do đó Mệnh đề 2 của no. 1 cho thấy g là một giá trị tuyệt đối trên K.
+Theo no. 2, Hệ quả của Mệnh đề 3, K có đặc số 0 và do đó là một đại số trên $\mathbf{Q}$; với mọi $x \in \mathbf{Q}$ ta đặt $h(x) = f(x.1)$; rõ ràng $h \in \mathscr{V}(\mathbf{Q})$ và do đó Mệnh đề 4 của no. 3 có thể được áp dụng; cả trường hợp (i) lẫn (ii) của mệnh đề này đều không thể xảy ra, vì điều đó sẽ kéo theo $f(n.1) \leq 1$ với mọi số nguyên $n > 0$ và f sẽ là một giá trị tuyệt đối ultrametric theo no. 2, Mệnh đề 3. Khi đó tồn tại một số thực s > 0 sao cho h(x) = |x|^s với mọi x ∈ Q, tức là f(x.1) = |x|^s; ta đặt g = f^{1/s}. Khi đó g ∈ V(K) và g(n.1) = n với mọi số nguyên n; do đó Mệnh đề 2 của no. 1 cho thấy g là một giá trị tuyệt đối trên K.
 
 Với x ∈ Q và y ∈ K, g(xy) = |x|g(y) và do đó g là một chuẩn trên K tương thích với cấu trúc đại số trên Q của nó (với giá trị tuyệt đối thông thường trên Q). Do đó, hoàn thành K của K là một đại số chuẩn trên Q = R (Tôpô tổng quát, Chương IX, § 3, no. 7); gọi ĝ là chuẩn trên K là mở rộng liên tục của g. Vì g là một giá trị tuyệt đối trên K, K là một trường và ĝ là một giá trị tuyệt đối trên K (Tôpô tổng quát, Chương IX, § 3, no. 3, Mệnh đề 6). Theo Định lý 1 tồn tại một đẳng cấu đại số trên Rf của K̂ lên một trong các trường R, C hoặc H và g'(x) = |j(x)| do đó là một giá trị tuyệt đối trên K̂; vì K̂ hữu hạn chiều trên R và g' và ĝ trùng nhau trên trường con R . 1 của K̂, nên g' = ĝ theo bổ đề sau:
 

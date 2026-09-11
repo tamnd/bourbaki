@@ -33,7 +33,7 @@ subsections:
       pdf_page: 415
 statements: 18
 exercises: 11
-content_sha256: d2591aefd185cd8a9d79b29d0b2bd6b892a0e8d7c6f6ca84c843946be63124d9
+content_sha256: cdc27e73ee54626a8784a6f26f479defcd8d5066ee817997176c38e0199904ea
 ---
 
 ## 4. THE HEIGHT OF A VALUATION
@@ -57,11 +57,11 @@ The set of prime ideals of $A$ is totally ordered by inclusion ($\S$ 1, no. 2, T
 
 #### Proposition 2 {#ac-vi-s4-prop-2 .statement}
 
-*Let K be a field, B a valuation ring of K and h, the place & K associated with B (with values in $\kappa(B)$). Then the mapping $A \mapsto h_B(A)$ defines a bijection of the set $\mathcal{A}$ of valuation rings of K contained in B onto the set $\mathcal{A}'$ of valuation rings of $\kappa(B)$.
+*Let K be a field, B a valuation ring of K and h, the place & K associated with B (with values in $\kappa(B)$). Then the mapping $A \mapsto h_B(A)$ defines a bijection of the set $\mathscr{A}$ of valuation rings of K contained in B onto the set $\mathscr{A}'$ of valuation rings of $\kappa(B)$.
 
-If $A \in \mathcal{A}$, then $h_B(A) \in \mathcal{A}'$: for if $x' = h_B(x)$ (where $x \in B$) is an element of $\kappa(B) - h_B(A)$, then $x \notin A$, hence $x^{-1} \in A$ and $h_B(x)^{-1} \in h_B(A)$. On the other hand, for $A \in \mathcal{A}$, $A \supset m(B)$ (Proposition 1 (b)) and hence the mapping,
+If $A \in \mathscr{A}$, then $h_B(A) \in \mathscr{A}'$: for if $x' = h_B(x)$ (where $x \in B$) is an element of $\kappa(B) - h_B(A)$, then $x \notin A$, hence $x^{-1} \in A$ and $h_B(x)^{-1} \in h_B(A)$. On the other hand, for $A \in \mathscr{A}$, $A \supset m(B)$ (Proposition 1 (b)) and hence the mapping,
 
-$A \mapsto h_B(A)$ is injective. Finally, let $A' \in \mathcal{A}'$ and $A = h_B(A') \subset B$; we shall show, which will complete the proof, that $A \in \mathcal{A}$; if $x \in K - A$, then either $x \notin B$, or $x \in B$; if $x \notin B$, then $x^{-1} \in m(B) \subset A$; if $x \in B$, then $h_B(x) \in \kappa(B)$ and $h_B(x) \notin A$, hence $h_B(x^{-1}) \in A$ and we conclude again that $x^{-1} \in A$; hence $A \in \mathcal{A}$.
+$A \mapsto h_B(A)$ is injective. Finally, let $A' \in \mathscr{A}'$ and $A = h_B(A') \subset B$; we shall show, which will complete the proof, that $A \in \mathscr{A}$; if $x \in K - A$, then either $x \notin B$, or $x \in B$; if $x \notin B$, then $x^{-1} \in m(B) \subset A$; if $x \in B$, then $h_B(x) \in \kappa(B)$ and $h_B(x) \notin A$, hence $h_B(x^{-1}) \in A$ and we conclude again that $x^{-1} \in A$; hence $A \in \mathscr{A}$.
 
 #### Corollary {#ac-vi-s4-n1-cor-2 .statement}
 

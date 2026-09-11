@@ -33,11 +33,11 @@ subsections:
       pdf_page: 138
 statements: 30
 exercises: 17
-content_sha256: d23599edc2c0840270fb99102a3340399d8d1e5d81cbfe51a36bfda141c52698
+content_sha256: b0cf5f771ca28d434ad4bd0ead558583c2cc1278989a711a205235bc04102e87
 translated_from: content/fr/ac/IX/02_s2_anneaux_de_cohen.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 55a245e21b3153aae0c2254426dfc0000c89fee4a5e3f77c1215285ee543c76f
+source_content_sha256: 511c29706c762ba8fdab3d1f6cb000587c55f6e3242d752934b1a3e4fb436071
 translation_model: gpt-5.4
 translation_run: translate-en-mt-eb8fbb4e
 glossary_version: 34
@@ -136,9 +136,9 @@ Let $(C_n, \pi_{n,m})$ be a projective system of rings relative to the set of in
 
 Since the mappings $\pi_{n,m}$ are surjective, the same is true of the mappings $\pi_n$ (E, III, p. 58, prop. 5). Let us show that $C$ is a $p$-ring. Let $d_n$ be the length of $C_n$. By prop. 2, a), the sequence of the elements $d_n$ of $\mathbf{N} \cup \{ + \infty \}$ is increasing; if it is stationary, there exists an integer $n_0$ such that $\pi_{n,m}$ is an isomorphism of $C_m$ onto $C_n$ whenever $n_0 \leqslant n \leqslant m$, so that $C$, isomorphic to $C_{n_0}$, is a $p$-ring.
 
-It is therefore enough to consider the case where each $d_n$ is finite, and where the sequence $(d_n)$ tends to $+ \infty$. Endow the ring $C$ with the trivial filtration (III, § 2, No. 1, example 5). For $n \in \mathbf{N}$, let $I_n$ be the kernel of $\pi_n$; put $I_n = C$ if $n < 0$. Let $E$ denote the $C$-module $C$ endowed with the filtration $(I_n)_{n \in \mathbf{Z}}$. It is separated and complete, for the topology $\mathcal{T}$ defined by the filtration $(I_n)_{n \in \mathbf{Z}}$ is the projective limit topology of the discrete topologies on the $C_n$.
+It is therefore enough to consider the case where each $d_n$ is finite, and where the sequence $(d_n)$ tends to $+ \infty$. Endow the ring $C$ with the trivial filtration (III, § 2, No. 1, example 5). For $n \in \mathbf{N}$, let $I_n$ be the kernel of $\pi_n$; put $I_n = C$ if $n < 0$. Let $E$ denote the $C$-module $C$ endowed with the filtration $(I_n)_{n \in \mathbf{Z}}$. It is separated and complete, for the topology $\mathscr{T}$ defined by the filtration $(I_n)_{n \in \mathbf{Z}}$ is the projective limit topology of the discrete topologies on the $C_n$.
 
-Let k be an integer $\geqslant 1$. We have $p^k C \subset \varprojlim (p^k C_n)$ (E, III, p. 55, formula (9)). Conversely, if $x = (x_n)_{n \in \mathbf{N}} \in \varprojlim (p^k C_n)$ and if one puts $X_n = \{ y \in C | \pi_n(p^k y) = x_n \}$, the sequence $(X_n)_{n \in \mathbf{N}}$ is a decreasing sequence of nonempty closed affine parts of E. Since $E/I_n$ is an artinian C-module, the intersection of the $X_n$ is nonempty (III, § 2, No. 7, prop. 7); for every $z \in \bigcap_{n \in \mathbf{N}} X_n$, one has $p^k z = x$. We have therefore proved that one has $p^k C = \varprojlim p^k C_n$ for every integer $k \geqslant 1$. In particular the ideal $p^k C$ of C is closed for the topology $\mathcal{T}$. On C, the $p$-adic topology is finer than the topology $\mathcal{T}$ since one has $p^{d_n} C \subset I_n$. It then follows from TG, III, p. 26, cor. 1 to prop. 10, that C is separated and complete for the $pC$-adic topology. Moreover one has $pC = \varprojlim pC_n = \pi_0^{-1}(pC_0)$ and therefore the surjective homomorphism from $C/pC$ into $C_0/pC_0$ deduced from $\pi_0$ is an isomorphism. This shows that the ideal $pC$ of C is maximal and consequently that C is a $p$-ring. The last assertion of prop. 3 follows from prop. 2, b).
+Let k be an integer $\geqslant 1$. We have $p^k C \subset \varprojlim (p^k C_n)$ (E, III, p. 55, formula (9)). Conversely, if $x = (x_n)_{n \in \mathbf{N}} \in \varprojlim (p^k C_n)$ and if one puts $X_n = \{ y \in C | \pi_n(p^k y) = x_n \}$, the sequence $(X_n)_{n \in \mathbf{N}}$ is a decreasing sequence of nonempty closed affine parts of E. Since $E/I_n$ is an artinian C-module, the intersection of the $X_n$ is nonempty (III, § 2, No. 7, prop. 7); for every $z \in \bigcap_{n \in \mathbf{N}} X_n$, one has $p^k z = x$. We have therefore proved that one has $p^k C = \varprojlim p^k C_n$ for every integer $k \geqslant 1$. In particular the ideal $p^k C$ of C is closed for the topology $\mathscr{T}$. On C, the $p$-adic topology is finer than the topology $\mathscr{T}$ since one has $p^{d_n} C \subset I_n$. It then follows from TG, III, p. 26, cor. 1 to prop. 10, that C is separated and complete for the $pC$-adic topology. Moreover one has $pC = \varprojlim pC_n = \pi_0^{-1}(pC_0)$ and therefore the surjective homomorphism from $C/pC$ into $C_0/pC_0$ deduced from $\pi_0$ is an isomorphism. This shows that the ideal $pC$ of C is maximal and consequently that C is a $p$-ring. The last assertion of prop. 3 follows from prop. 2, b).
 
 ### 2. Cohen Rings
 

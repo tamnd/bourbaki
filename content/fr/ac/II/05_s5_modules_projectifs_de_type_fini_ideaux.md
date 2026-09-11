@@ -40,7 +40,7 @@ subsections:
       pdf_page: 148
 statements: 34
 exercises: 25
-content_sha256: 73e82535c87aba6ad2392ab2acb3ae8c7f820749dc94b8469668b9d25cc54652
+content_sha256: 5f2571b39a82ab1bf0929c7189fbdf64cf3a1137992ac6137585d889673f5cf3
 ---
 
 ## § 5. Modules projectifs de type fini Idéaux fractionnaires inversibles
@@ -250,11 +250,11 @@ $$
 
 La formule $M_{(B)} \otimes_B N_{(B)} = (M \otimes_A N)_{(B)}$ pour deux $A$-modules $M, N$ prouve que l’application $\varphi$ est un homomorphisme de groupes commutatifs.
 
-*Remarque 2). — La condition e) du th. 1 (équivalente au fait que $P$ est projectif de type fini) peut aussi s’exprimer en disant que le faisceau de modules $\tilde{P}$ sur $X = \mathrm{Spec}(A)$ associé (*) à $P$ est localement libre de type fini, et peut par suite s’interpréter comme le faisceau des sections d’un fibré vectoriel sur $X$. Inversement, tout fibré vectoriel sur $X$ provient d’un module projectif de type fini, déterminé à un isomorphisme unique près ; les modules projectifs de rang $n$ correspondent ainsi aux fibrés vectoriels dont toutes les fibres ont la dimension $n$. En particulier, les fibrés vectoriels de rang 1 correspondent aux modules projectifs de rang 1. Si l’on note $\mathcal{O}_X$ le faisceau structural $\tilde{A}$, et $\mathcal{O}_X^*$ le faisceau des unités de $\mathcal{O}_X$ (dont les sections sur un ouvert $U$ de $X$ sont les éléments inversibles de l’anneau des sections de $\mathcal{O}_X$ sur $U$), on en déduit que le
+*Remarque 2). — La condition e) du th. 1 (équivalente au fait que $P$ est projectif de type fini) peut aussi s’exprimer en disant que le faisceau de modules $\tilde{P}$ sur $X = \mathrm{Spec}(A)$ associé (*) à $P$ est localement libre de type fini, et peut par suite s’interpréter comme le faisceau des sections d’un fibré vectoriel sur $X$. Inversement, tout fibré vectoriel sur $X$ provient d’un module projectif de type fini, déterminé à un isomorphisme unique près ; les modules projectifs de rang $n$ correspondent ainsi aux fibrés vectoriels dont toutes les fibres ont la dimension $n$. En particulier, les fibrés vectoriels de rang 1 correspondent aux modules projectifs de rang 1. Si l’on note $\mathscr{O}_X$ le faisceau structural $\tilde{A}$, et $\mathscr{O}_X^*$ le faisceau des unités de $\mathscr{O}_X$ (dont les sections sur un ouvert $U$ de $X$ sont les éléments inversibles de l’anneau des sections de $\mathscr{O}_X$ sur $U$), on en déduit que le
 
 (*) Voir A. Grothendieck, Éléments de géométrie algébrique, I (§1) (Publ Math. I. H. E. S., n° 4, 1960).
 
-groupe $P(A)$ est isomorphe au premier groupe de cohomologie $H^1(X, \mathcal{O}_X^*)$.*
+groupe $P(A)$ est isomorphe au premier groupe de cohomologie $H^1(X, \mathscr{O}_X^*)$.*
 
 ### 5. Sous-modules non dégénérés.
 

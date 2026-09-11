@@ -12,7 +12,7 @@ pdf_pages: 0333-0333
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 62f3dd17dd7c0f5590e3f86ad0d9f9f62a41c2ca709d1019535469e8d9ecac1a
+content_sha256: 03c2122b2ece2f84d6718b3dc6b4edd92151eb28c229fb0dde80db3c018439d3
 ---
 
 ## INDEX DES NOTATIONS
@@ -20,9 +20,9 @@ content_sha256: 62f3dd17dd7c0f5590e3f86ad0d9f9f62a41c2ca709d1019535469e8d9ecac1a
 Les chiffres de référence indiquent successivement le chapitre, le paragraphe et le numéro.
 
 Chapitre V
-A $\mathcal{G}$ (A algèbre, $\mathcal{G}$ groupe opérant sur A) : V, 1, 9.
-$\mathcal{G}^Z(p')$, $\mathcal{G}^Z$, $A^Z(p')$, $A^Z(\mathcal{G})$ groupe opérant sur un anneau $A'$, $p'$ idéal premier de $A'$ : V, 2, 2.
-$\mathcal{G}^{T}(p')$, $\mathcal{G}^{T}$, $A^{T}(p')$, $A^{T}(\mathcal{G})$ groupe opérant sur un anneau $A'$, $p'$ idéal premier de $A'$ : V, 2, 2.
+A $\mathscr{G}$ (A algèbre, $\mathscr{G}$ groupe opérant sur A) : V, 1, 9.
+$\mathscr{G}^Z(p')$, $\mathscr{G}^Z$, $A^Z(p')$, $A^Z(\mathscr{G})$ groupe opérant sur un anneau $A'$, $p'$ idéal premier de $A'$ : V, 2, 2.
+$\mathscr{G}^{T}(p')$, $\mathscr{G}^{T}$, $A^{T}(p')$, $A^{T}(\mathscr{G})$ groupe opérant sur un anneau $A'$, $p'$ idéal premier de $A'$ : V, 2, 2.
 $K^Z(p')$, $K^Z$, $K^{T}(p')$, $K^{T}$ (K corps des fractions d’un anneau intégralement clos $A$, $p'$ idéal premier dans la fermeture intégrale de $A$ dans une extension quasi-galoisienne de $K$) : V, 2, 3.
 $Y^p$ (avec $p = (p_1, ..., p_m)$, les $p_i$ entiers $\geqslant 0$) : V, 3, 1.
 
@@ -33,7 +33,7 @@ $+ \infty$ : VI, 3, 1.
 $\Gamma_A, \varphi_A$ : VI, 3, 2.
 $\alpha(M)$ (M ensemble majeur) : VI, 3, 5.
 $h(G)$ (G groupe totalement ordonné) : VI, 4, 4.
-$\mathcal{C}_v$ ($v$ valuation) : VI, 5, 2.
+$\mathscr{C}_v$ ($v$ valuation) : VI, 5, 2.
 $e(v'/v), e(A'/A), e(L/K)$ : VI, 8, 1.
 $f(v'/v), f(A'/A), f(L/K)$ : VI, 8, 1.
 $\varepsilon(G, H)$ (G groupe totalement ordonné, H sous-groupe d’indice fini de G) : VI, 8, 4.

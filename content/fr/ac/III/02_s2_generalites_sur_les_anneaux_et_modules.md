@@ -64,7 +64,7 @@ subsections:
       pdf_page: 228
 statements: 68
 exercises: 31
-content_sha256: f0ffd869bd6ac43fa0232fc46875f60b58979001dd4ce3d327d171b1fef46533
+content_sha256: 629cb3a46d3a6275c05e0eb77c9aa655095a0dbb0504fbf8215da05017df48ff
 ---
 
 ## § 2. Généralités sur les anneaux et modules filtrés.
@@ -897,7 +897,7 @@ Lorsqu’on applique le cor. de la prop. 17 à $A = \mathbf{Z}$, on désigne par
 
 #### Remarque 1 {#ac-iii-s2-n13-rem-1 .statement}
 
-Il est clair que sous les conditions de la prop. 17, la topologie $\mathcal{G}$ est la borne supérieure des topologies $m_\lambda$-adiques sur $A$.
+Il est clair que sous les conditions de la prop. 17, la topologie $\mathscr{G}$ est la borne supérieure des topologies $m_\lambda$-adiques sur $A$.
 
 #### Remarque 2 {#ac-iii-s2-n13-rem-2 .statement}
 
@@ -927,7 +927,7 @@ Si $a = \bigcap_{k \geq 1} m^k$, $\hat{A}$ est le complété de l’anneau sépa
 
 #### Lemme 3 {#ac-iii-s2-lem-3 .statement}
 
-*Soit $A$ un anneau topologique séparé et complet, dans lequel il existe un système fondamental $\mathcal{S}$ de voisinages de $0$ formé de sous-groupes additifs de $A$.
+*Soit $A$ un anneau topologique séparé et complet, dans lequel il existe un système fondamental $\mathscr{S}$ de voisinages de $0$ formé de sous-groupes additifs de $A$.
 
 (i) *Pour tout $x \in A$ tel que $\lim_{n \to \infty} x^n = 0$, $1 - x$ est inversible dans $A$ et son inverse est égal à $\sum_{n=0}^{\infty} x^n$.
 
@@ -937,7 +937,7 @@ Si $a = \bigcap_{k \geq 1} m^k$, $\hat{A}$ est le complété de l’anneau sépa
 $$
 (1 - x)(1 + x + \cdots + x^n) = (1 + x + \cdots + x^n)(1 - x) = 1 - x^{n+1},
 $$
-tout revient à prouver que la série de terme général $x^n$ est convergente dans $A$; or, par hypothèse, pour tout voisinage $V \in \mathcal{S}$ de $0$ dans $A$, il existe un entier $p > 0$, tel que $x^n \in V$ pour $n \geq p$. On en conclut que $x^p + x^{p+1} + \cdots + x^q \in V$ pour tout $q \geq p$, et notre assertion résulte donc du critère de Cauchy (*Top. gén.*, chap. III, 3e éd., § 5, no 2, th. 1).
+tout revient à prouver que la série de terme général $x^n$ est convergente dans $A$; or, par hypothèse, pour tout voisinage $V \in \mathscr{S}$ de $0$ dans $A$, il existe un entier $p > 0$, tel que $x^n \in V$ pour $n \geq p$. On en conclut que $x^p + x^{p+1} + \cdots + x^q \in V$ pour tout $q \geq p$, et notre assertion résulte donc du critère de Cauchy (*Top. gén.*, chap. III, 3e éd., § 5, no 2, th. 1).
 
 (ii) Supposons qu’il existe $y' \in A$ tel que $yy' \equiv 1$ (mod. $a$) et $y'y \equiv 1$ (mod. $a$). L’hypothèse sur $a$ entraîne, en vertu de (i), que $yy'$ et $y'y$ sont inversibles dans $A$, donc $y$ est inversible dans $A$. En particulier, tout $x \in a$ est tel que $1 - x$ soit inversible dans $A$, et comme $a$ est un idéal bilatère de $A$, il est contenu dans le radical de $A$ (*Alg.*, chap. VIII, § 6, no 3, th. 1).
 

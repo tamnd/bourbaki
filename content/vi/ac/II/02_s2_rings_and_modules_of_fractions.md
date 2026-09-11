@@ -49,9 +49,9 @@ subsections:
       pdf_page: 98
 statements: 52
 exercises: 23
-content_sha256: da9b36a5c15278014539ec6b5bd85b02065c88d9dd427fb0e5572395b42061e8
+content_sha256: e59663ec1ad411799312fa3053ebeb032ccdb6616d6e8ad2940c474cb567741c
 translated_from: content/en/ac/II/02_s2_rings_and_modules_of_fractions.md
-source_content_sha256: 862eb533634e57154a3cf7493419fd43f7b530676770c590cac1d84e03bc8d92
+source_content_sha256: 1bca67b21446afd6b1304dbb0be8158646473b1135d859d1ff7a050bb745d19d
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5.4-mini
 translation_run: translate-vi-9a26a26c
 glossary_version: 34
@@ -516,7 +516,7 @@ $$
 
 *(no. 4, Định lý 1), sự tồn tại của dãy này chứng minh mệnh đề đầu tiên của (i), có tính đến sự kiện b' = S^{-1}b. Vì b là bão hòa đối với S, các điều kiện a \in A, s \in S, as \in b kéo theo a \in b; phép vị tự có tỉ số s trên A/b khi đó là đơn ánh, điều này chứng minh mệnh đề thứ hai của (i).*
 
-(ii) Trước hết, ta lưu ý rằng quan hệ b' = S^{-1}A tương đương với quan hệ b \cap S \neq \varnothing, quan hệ sau biểu thị rằng b' chứa các phần tử khả nghịch của S^{-1}A. Theo no. 4, Mệnh đề 10 (iii), suy ra rằng b' \mapsto b = (i_A^S)^{-1}(b') là một đẳng cấu (đối với quan hệ bao hàm) từ tập hợp các iđêan của S^{-1}A phân biệt với S^{-1}A lên tập hợp \mathcal{F} các iđêan của A không gặp S và thỏa mãn điều kiện (MS) của Mệnh đề 10. Nếu b' là cực đại (resp. nguyên tố), thì hiển nhiên b' là cực đại trong \mathcal{F} (resp. nguyên tố) và ngược lại (theo (i)). Mặt khác, nếu r là một iđêan của A rời nhau với S, phần bão hòa r_1 của nó đối với S là một iđêan của A chứa t và rời nhau với S: không có phần tử $a \in S$ nào có thể thỏa mãn $sa \in t$ với một $s \in S$ nào đó, vì khi đó sẽ suy ra $sa \in t \cap S$. Ta kết luận rằng, nếu r là cực đại trong các iđêan của $A$ gặp S, thì nó là cực đại trong \mathcal{F}. Tương tự, nếu r là một iđêan nguyên tố không gặp S, thì theo định nghĩa của các iđêan nguyên tố, nó thỏa mãn điều kiện (MS) của no. 4, Mệnh đề 10 và do đó thuộc \mathcal{F}. Điều này hoàn tất chứng minh (ii).
+(ii) Trước hết, ta lưu ý rằng quan hệ b' = S^{-1}A tương đương với quan hệ b \cap S \neq \varnothing, quan hệ sau biểu thị rằng b' chứa các phần tử khả nghịch của S^{-1}A. Theo no. 4, Mệnh đề 10 (iii), suy ra rằng b' \mapsto b = (i_A^S)^{-1}(b') là một đẳng cấu (đối với quan hệ bao hàm) từ tập hợp các iđêan của S^{-1}A phân biệt với S^{-1}A lên tập hợp \mathscr{F} các iđêan của A không gặp S và thỏa mãn điều kiện (MS) của Mệnh đề 10. Nếu b' là cực đại (resp. nguyên tố), thì hiển nhiên b' là cực đại trong \mathscr{F} (resp. nguyên tố) và ngược lại (theo (i)). Mặt khác, nếu r là một iđêan của A rời nhau với S, phần bão hòa r_1 của nó đối với S là một iđêan của A chứa t và rời nhau với S: không có phần tử $a \in S$ nào có thể thỏa mãn $sa \in t$ với một $s \in S$ nào đó, vì khi đó sẽ suy ra $sa \in t \cap S$. Ta kết luận rằng, nếu r là cực đại trong các iđêan của $A$ gặp S, thì nó là cực đại trong \mathscr{F}. Tương tự, nếu r là một iđêan nguyên tố không gặp S, thì theo định nghĩa của các iđêan nguyên tố, nó thỏa mãn điều kiện (MS) của no. 4, Mệnh đề 10 và do đó thuộc \mathscr{F}. Điều này hoàn tất chứng minh (ii).
 
 (iii) Giả sử rằng $q'$ là nguyên tố và $q$ cũng là nguyên tố. Tập hợp $T = A - q$ là một tập con nhân của A chứa S, do đó $ST = T$. Ta viết $T' = i_A^S(T)$; theo no. 3, Mệnh đề 7 (i), tồn tại duy nhất một đẳng cấu $j$ từ $T^{-1}A = A$ lên ${T'}^{-1}(S^{-1}A)$ sao cho
 

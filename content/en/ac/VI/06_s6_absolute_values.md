@@ -29,7 +29,7 @@ subsections:
       pdf_page: 425
 statements: 10
 exercises: 2
-content_sha256: 89089983c5dccbb3218f2ab1a51ac646d32b8eda490bc9f1353d4e6a8f3b6ffa
+content_sha256: 5ca49b570b2d09c05c44810d4a82b106c8d2a4be48a8180dbf9f1db68aeef3b5
 ---
 
 ## 6. ABSOLUTE VALUES
@@ -53,16 +53,16 @@ $$
 f(x + y) \leq A \cdot \sup(f(x), f(y)) \quad \text{for all } x, y \text{ in } K.
 $$
 
-We shall denote by $\mathcal{V}(K)$ the set of mappings $f$ from $K$ to $\mathbf{R}_+$ satisfying (VAI) and (VAII) and for which there exists an $A > 0$ (depending on $f$) such that $(\mathrm{U}_A)$ holds.
+We shall denote by $\mathscr{V}(K)$ the set of mappings $f$ from $K$ to $\mathbf{R}_+$ satisfying (VAI) and (VAII) and for which there exists an $A > 0$ (depending on $f$) such that $(\mathrm{U}_A)$ holds.
 
-Note that iff $\in \mathcal{V}(K)$, then, putting $x = 1, y = 0$ in $(\mathrm{U}_A)$,
+Note that iff $\in \mathscr{V}(K)$, then, putting $x = 1, y = 0$ in $(\mathrm{U}_A)$,
 $$
 1 = f(1) \leq A \cdot \sup(f(1), f(0)) = A.
 $$
 
 #### Proposition 1 {#ac-vi-s6-prop-1 .statement}
 
-For a mapping $f$ from $K$ to $\mathbf{R}$, satisfying (VA,) and (VAII) to belong to $\mathcal{V}(K)$, it is necessary and sufficient that $f(1 + x)$ be bounded in the set of $x \in K$ such that $f(x) \leq 1$.
+For a mapping $f$ from $K$ to $\mathbf{R}$, satisfying (VA,) and (VAII) to belong to $\mathscr{V}(K)$, it is necessary and sufficient that $f(1 + x)$ be bounded in the set of $x \in K$ such that $f(x) \leq 1$.
 
 If $f$ satisfies $(\mathbf{U}_A)$, then $f(1 + x) \leq A$ if $f(x) \leq 1$. Conversely, suppose that $f(x + 1) \leq A$ for the $x \in K$ such that $f(x) \leq 1$ (which implies that $A \geq f(1) = 1$); then, if $x = 0$ or $y = 0$, condition $(\mathbf{U}_A)$ is fulfilled; if on the other hand $x \neq 0$ and $y \neq 0$, we may assume for example that $f(y) \leq f(x)$, hence, by $(\mathbf{VA}_s)$, $f(yx^{-1}) \leq 1$ and therefore $f(1 + yx^{-1}) \leq A$, which gives, by virtue of $(\mathbf{VA}_{II})$, $f(x + y)f(x)^{-1} \leq A$; whence
 
@@ -74,7 +74,7 @@ If $f$ is an absolute value on $K$, then $f(n.1) \leq n$ by induction on the int
 
 #### Proposition 2 {#ac-vi-s6-prop-2 .statement}
 
-*Let $f$ be a mapping of $K$ to $\mathbf{R}_+$ belonging to $\mathcal{V}(K)$; if there exists $C > 0$ such that $f(n.1) \leq C$ for every integer $n > 0$, $f$ is an absolute value on $K$.*
+*Let $f$ be a mapping of $K$ to $\mathbf{R}_+$ belonging to $\mathscr{V}(K)$; if there exists $C > 0$ such that $f(n.1) \leq C$ for every integer $n > 0$, $f$ is an absolute value on $K$.*
 
 By induction on $r > 0$ we deduce from $(\mathbf{U}_A)$ the relation
 
@@ -116,7 +116,7 @@ then Proposition 2 may be applied with $C = 2$ and hence $f$ is an absolute valu
 
 #### Corollary 2 {#ac-vi-s6-prop-2-cor-2 .statement}
 
-For a mapping $f$ of $K$ to $\mathbf{R}_+$ to belong to $\mathcal{V}(K)$, it is necessary and sufficient that it be of the form $g^t$, where $t > 0$ and $g$ is an absolute value on $K$.
+For a mapping $f$ of $K$ to $\mathbf{R}_+$ to belong to $\mathscr{V}(K)$, it is necessary and sufficient that it be of the form $g^t$, where $t > 0$ and $g$ is an absolute value on $K$.
 
 To say that $f$ satisfies $(\mathbf{U}_A)$ is equivalent to saying that $f^s$ satisfies $(\mathbf{U}_{A^s})$; as there exists $s > 0$ such that $A^s \leq 2$, Corollary 1 shows that for such a value of $s$, $f^s$ is an absolute value.
 
@@ -129,7 +129,7 @@ A mapping $f$ of $K$ to $\mathbf{R}_+$ is called an ultrametric absolute value i
 Let $f$ be a mapping of $K$ to $\mathbf{R}_+$. The following properties are equivalent:
 (a) $f$ is an ultrametric absolute value.
 (b) There exists a valuation $v$ on $K$ with values in $\mathbf{R}$ and a real number $a$ such that $0 < a < 1$ and $f = a''$.
-(c) $f$ belongs to $\mathcal{V}(K)$ and $f(n.1) \leq 1$ for every integer $n > 0$.
+(c) $f$ belongs to $\mathscr{V}(K)$ and $f(n.1) \leq 1$ for every integer $n > 0$.
 (d) For all $s > 0$, $f^s$ is an absolute value.
 
 For every real number $c$ such that $0 < c < 1$, the mapping $t \mapsto c^t$ is an isomorphism of the ordered group $\mathbf{R}$ (with the opposite ordering to the usual ordering) on the ordered group $\mathbf{R}_+^*$; this shows the equivalence of (a) and (b). Clearly (a) implies (c); (c) implies (d), for we deduce from (c) that
@@ -140,7 +140,7 @@ for every integer $n > 0$ and Proposition 2 of no. 1 shows that $f''$ is an abso
 
 #### Corollary {#ac-vi-s6-n2-cor-1 .statement}
 
-If $K$ is a (not necessarily commutative) field of characteristic $p > 0$, every function on $\mathcal{V}(K)$ is an ultrametric absolute value.
+If $K$ is a (not necessarily commutative) field of characteristic $p > 0$, every function on $\mathscr{V}(K)$ is an ultrametric absolute value.
 
 Every non-zero element $z = n.1$ ($n$ an integer $> 0$) belongs to the prime subfield $\mathbf{F}_p$ of $K$ and hence satisfies the relation $z^{p-1} = 1$, which implies $f(z) = 1$ and we may apply Proposition 3 (c).
 
@@ -154,7 +154,7 @@ therefore establish a one-to-one correspondence between ultrametric absolute val
 
 #### Proposition 4 {#ac-vi-s6-prop-4 .statement}
 
-*Let $f$ be a mapping of $\mathbf{Q}$ to $\mathbf{R}_+$ belonging to $\mathcal{V}(\mathbf{Q})$. Then:*
+*Let $f$ be a mapping of $\mathbf{Q}$ to $\mathbf{R}_+$ belonging to $\mathscr{V}(\mathbf{Q})$. Then:*
 
 (i) *Either $f$ is the improper absolute value on $\mathbf{Q}$.*
 
@@ -308,9 +308,9 @@ Applying this lemma to K with $m = 2$, it is seen that K is a non-commutative ex
 
 Remark (1) We shall give in the chapter devoted to normed algebras a shorter proof of the Gelfand-Mazur Theorem which is valid for every Hausdorff locally convex topological algebra K over R and whose principle is the following: it is reduced (as in cases (B) and (C)) to the case where K is a commutative algebra over $\mathbf{C}$; if $x \in \mathbf{K} - \mathbf{C}.1$, we consider as above the mapping $z \mapsto (x - z.1)^{-1}$ of $\mathbf{C}$ to K, which is continuous and differentiable on $\mathbf{C}$. For every element $x'$ of the dual $\mathbf{K}'$ of the locally convex space K, $z \mapsto \langle (x - z.1)^{-1}, x' \rangle$ is then a bounded integral function on $\mathbf{C}$ and therefore constant by Liouville's Theorem and we conclude as in part (A) of the proof of Theorem 1 that this necessarily implies $\langle (x - z.1)^{-1}, x' \rangle = 0$ for all $z \in \mathbf{C}$ and all $x' \in \mathbf{K}'$; the Hahn-Banach Theorem shows that this conclusion is absurd, since $(x - z.1)^{-1} \neq 0$. Note that the argument in part (A) of the proof of Theorem 1 differs from the above only in appearance, for this argument is only a special case of that which serves to prove the maximum principle for analytic functions, the summation over the roots of unity and and passing to the limit being equivalent to calculating the integral $\int_{\gamma} \frac{\mathbf{F}(z + t)}{t} dt$ along a circle of centre 0 and the use of Cauchy's formula being avoided here, thanks to the particular form of the function F.
 
-Theorem 2 (Ostrowski). Let K be a (not necessarily commutative) field and f an element $\mathcal{V}(K)$ which is not an ultrametric absolute value. Then there exist a unique real number $s > 0$ and an isomorphism j of K onto an everywhere dense subfield of one of the fields $\mathbf{R}, \mathbf{C}$ or $\mathbf{H}$ such that $f(x) = |j(x)|^s$ for all $x \in K$ (*). For f to be an absolute value on K, it is necessary and sufficient that $s \leq 1$.
+Theorem 2 (Ostrowski). Let K be a (not necessarily commutative) field and f an element $\mathscr{V}(K)$ which is not an ultrametric absolute value. Then there exist a unique real number $s > 0$ and an isomorphism j of K onto an everywhere dense subfield of one of the fields $\mathbf{R}, \mathbf{C}$ or $\mathbf{H}$ such that $f(x) = |j(x)|^s$ for all $x \in K$ (*). For f to be an absolute value on K, it is necessary and sufficient that $s \leq 1$.
 
-By no. 2, Corollary to Proposition 3, K is of characteristic 0 and hence an algebra over $\mathbf{Q}$; for all $x \in \mathbf{Q}$ we write $h(x) = f(x.1)$; clearly $h \in \mathcal{V}(\mathbf{Q})$ and therefore Proposition 4 of no. 3 may be applied; neither of cases (i) and (ii) of the statement of this proposition can hold, for this would imply $f(n.1) \leq 1$ for every integer $n > 0$ and f would be an ultrametric absolute value by virtue
+By no. 2, Corollary to Proposition 3, K is of characteristic 0 and hence an algebra over $\mathbf{Q}$; for all $x \in \mathbf{Q}$ we write $h(x) = f(x.1)$; clearly $h \in \mathscr{V}(\mathbf{Q})$ and therefore Proposition 4 of no. 3 may be applied; neither of cases (i) and (ii) of the statement of this proposition can hold, for this would imply $f(n.1) \leq 1$ for every integer $n > 0$ and f would be an ultrametric absolute value by virtue
 
 (*) On $\mathbf{H}$ we write $|z|^2 = z.\bar{z} = \bar{z}.z$, $\bar{z}$ being the conjugate quaternion of $z$.
 

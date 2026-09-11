@@ -25,7 +25,7 @@ chapters:
           statements: 77
           exercises: 19
           extraction: ocr
-          content_sha256: 57b53e8bf7d0cc8847b566ba28369dcfef723d40b2c32533cbe98342f9c1e8e7
+          content_sha256: eb222dc37669e1014db7c63a9945333183fc076096c50bcfa2d94243f62c183a
         - kind: section
           section: 2
           title: Relèvement des idéaux premiers
@@ -37,7 +37,7 @@ chapters:
           statements: 46
           exercises: 12
           extraction: ocr
-          content_sha256: 59ba782df2b2b7f4bba637ba9f3e5d827f36e369b586e284d638a57804dd3805
+          content_sha256: 58ed1271990ce406e50ea03f4414e715cce299e49f4f9fc0bf71903f8fc00bb0
         - kind: section
           section: 3
           title: Algèbres de type fini sur un corps
@@ -74,7 +74,7 @@ chapters:
           statements: 17
           exercises: 9
           extraction: ocr
-          content_sha256: 876d5c85f9558b5d3b375aec2586f6607c69c57777ef0b8d35256c4184698d42
+          content_sha256: a197256ef7b59dca4c573738b9005656e265cb2f93284279e6392f2a33fd6fe2
         - kind: section
           section: 2
           title: Places
@@ -110,7 +110,7 @@ chapters:
           statements: 23
           exercises: 5
           extraction: ocr
-          content_sha256: d025f1050b2db87ffe5603ecdd7429e10ecac3f7ec29fa98a51e8556b531c859
+          content_sha256: 0672499e9920be1571f49f6b0d47500dc5be5e49f15649ef8ca2dded948b2029
         - kind: section
           section: 5
           title: Topologie définie par une valuation
@@ -122,7 +122,7 @@ chapters:
           statements: 10
           exercises: 10
           extraction: ocr
-          content_sha256: cd24fc0a6d756da3fa5b7b1816123edd040c68c139e42397d07a773a21726834
+          content_sha256: 1beb5cd99e7e5b9484c8bd0b0de0e5dc9715fbd68458e93ca410ebb31a8e225b
         - kind: section
           section: 6
           title: Valeurs absolues
@@ -134,7 +134,7 @@ chapters:
           statements: 13
           exercises: 2
           extraction: ocr
-          content_sha256: e84992f155d3dd4337b5374eebb7ccef55c0220ecb85e9133f163139a80f5cff
+          content_sha256: 4ff8d6044b2efeaa808a026602241c57c5057770cbf9868fab15bbe53ea53a5d
         - kind: section
           section: 7
           title: Théorème d’approximation
@@ -146,7 +146,7 @@ chapters:
           statements: 16
           exercises: 3
           extraction: ocr
-          content_sha256: cb90577db0ff77f03331b1d5585e9d0206d7ffc4505843b13154172f4befc9f4
+          content_sha256: 7c8d75b669e14bd415402bda4f650624857bf508c46b57a9cca7d50e4a81e35b
         - kind: section
           section: 8
           title: Prolongements d’une valuation à une extension algébrique
@@ -158,7 +158,7 @@ chapters:
           statements: 42
           exercises: 22
           extraction: ocr
-          content_sha256: 2bebe6600828f81de20f560173885512ca5f89218ee8866a421e03059969a264
+          content_sha256: 2548bcb44464077d7e4f148d154be697202957a5ec909dfd8b0ce39ad4e63b41
         - kind: section
           section: 9
           title: 'Application : corps localement compacts'
@@ -170,7 +170,7 @@ chapters:
           statements: 10
           exercises: 5
           extraction: ocr
-          content_sha256: 61fb6b833d5460050c69f490fe5ccf382187a4e3b04c1d94954fce65913a3c43
+          content_sha256: 3481233112c75d0321910376c52e6fae75719604e700bd4751ff56b9d170f6b4
         - kind: section
           section: 10
           title: Prolongements d’une valuation à une extension transcendante
@@ -231,7 +231,7 @@ chapters:
           statements: 23
           exercises: 27
           extraction: ocr
-          content_sha256: c86210c1d1ba178a2e2323abf3be27dbcd1653b5a9ae5496bb9e9db4c5ef234b
+          content_sha256: e4acba64addabc770fa1d85f4fcbf658451c06a66608d1c5e36d0fccd77971db
         - kind: section
           section: 4
           title: Modules sur les anneaux noethériens intégralement clos
@@ -243,7 +243,7 @@ chapters:
           statements: 81
           exercises: 26
           extraction: ocr
-          content_sha256: 38968e8a5882d97a8e9d5ea2e779cc29ed30e740da7a18f7a6473b7b37506c53
+          content_sha256: 14d2f6c9c2719ca88025b728f29ecce0c0acf3c1e2a25aea2b22da49e52dcddb
         - kind: historical
           title: Historical Note
           path: content/fr/ac/VII/historical_note.md
@@ -253,7 +253,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 318ea1a79e3fd439af0ee5b32a2a944dfa3f3336ee4c0ff26907243798131693
+          content_sha256: 8440d7b5a8af3926ed818a0ab957a2d30c266c72f81e11c2663063f5f99daa09
 notation_index:
     kind: notation
     title: INDEX DES NOTATIONS

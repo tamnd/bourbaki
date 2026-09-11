@@ -40,11 +40,11 @@ subsections:
       pdf_page: 119
 statements: 31
 exercises: 10
-content_sha256: 85055f48ee2ef21b7c402de777a37c7587f201c8c7c8a067e6ab386cfa9f913e
+content_sha256: 8d5943ed9e86c9aa1d4a9e00662b1ebd5c0d236d1a8f1d85f031e6bb7235e9ed
 translated_from: content/en-mt/ac/X/08_s8_dualite_des_modules_de_longueur_finie.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: a77efd8c537a09382c285e35e65d94355d4d8fcf42201477660fd155201fd2d3
+source_content_sha256: e7ca9bcbe14831ddad40efcd2c608eec1e0e52bc8d4740c2ba5262b45257dbf5
 translation_model: gpt-5.4
 translation_run: translate-vi-be263a49
 glossary_version: 34
@@ -659,7 +659,7 @@ $$
 
 Cho
 
-$$(\mathcal{E})$$
+$$(\mathscr{E})$$
 $$0 \to M' \xrightarrow{j} M \xrightarrow{q} M'' \to 0$$
 
 là một dãy khớp của các $A$-môđun. Đồng cấu $L(q) : L(M) \to L(M'')$ cảm sinh trên các phân giải tự do chính tắc là toàn ánh, và phức $Ker\,L(q)$ xác định một phân giải xạ ảnh của $M'$. Áp dụng Mệnh đề 3 của A, X, p. 104 cho dãy khớp $0 \to Ker\,L(q) \to L(M) \to L(M'') \to 0$, ta thu được các biểu đồ giao hoán
@@ -668,7 +668,7 @@ $$
 \begin{array}{ccc}
 \mathrm{Ext}_A^i(M', D(P)) & \xrightarrow{\theta^i(M', P)} & D(\mathrm{Tor}_i^A(M', P)) \\
 \downarrow & & \downarrow \\
-\delta^i(\mathcal{E}, D(P)) & & (-1)^{i+1}D(\partial_{i+1}(\mathcal{E}, P))
+\delta^i(\mathscr{E}, D(P)) & & (-1)^{i+1}D(\partial_{i+1}(\mathscr{E}, P))
 \end{array}
 $$
 
@@ -678,7 +678,7 @@ $$
 \downarrow & & \downarrow \\
 \mathrm{Tor}_{i+1}^A(M'', D(P)) & \xrightarrow{\rho_{i+1}(M'', P)} & D(\mathrm{Ext}_A^{i+1}(M'', P)) \\
 \downarrow & & \downarrow \\
-\partial_{i+1}(\mathcal{E}, D(P)) & & (-1)^{i+1}D(\delta^i(\mathcal{E}, P))
+\partial_{i+1}(\mathscr{E}, D(P)) & & (-1)^{i+1}D(\delta^i(\mathscr{E}, P))
 \end{array}
 $$
 
@@ -692,21 +692,21 @@ $$
 
 Cho
 
-$$(\mathcal{F})$$
+$$(\mathscr{F})$$
 $$0 \to P' \to P \to P'' \to 0$$
 
 là một dãy khớp của các $A$-môđun; vì $A$-môđun $J$ là đơn ánh, từ đó suy ra một dãy khớp
 
-$$(\mathscr{D}(\mathcal{F}))$$
+$$(\mathscr{D}(\mathscr{F}))$$
 $$0 \to D(P'') \to D(P) \to D(P') \to 0.$$
 
-Áp dụng A, X, p. 104, Mệnh đề 3 và p. 106, Mệnh đề 4 cho các dãy khớp $(\mathcal{F})$ và $(\mathscr{D}(\mathcal{F}))$, ta cũng thu được các biểu đồ giao hoán
+Áp dụng A, X, p. 104, Mệnh đề 3 và p. 106, Mệnh đề 4 cho các dãy khớp $(\mathscr{F})$ và $(\mathscr{D}(\mathscr{F}))$, ta cũng thu được các biểu đồ giao hoán
 
 $$
 \begin{array}{ccc}
 \mathrm{Ext}_A^i(M, D(P')) & \xrightarrow{\theta^i(M, P')} & D(\mathrm{Tor}_i^A(M, P')) \\
 \downarrow & & \downarrow \\
-\delta^i(M, D(\mathcal{F})) & & (-1)^{i+1}D(\partial_{i+1}(M, \mathcal{F}))
+\delta^i(M, D(\mathscr{F})) & & (-1)^{i+1}D(\partial_{i+1}(M, \mathscr{F}))
 \end{array}
 $$
 
@@ -720,7 +720,7 @@ $$
 \begin{array}{ccc}
 \mathrm{Tor}_{i+1}^{\mathbf{A}}(M, D(P')) & \xrightarrow{\rho_{i+1}(M, P')} & D(\mathrm{Ext}_{\Lambda}^{i+1}(M, P')) \\
 \downarrow & & \downarrow \\
-\partial_{i+1}(M, D(\mathcal{F})) & & (-1)^i D(\delta^i(M, \mathcal{F}))
+\partial_{i+1}(M, D(\mathscr{F})) & & (-1)^i D(\delta^i(M, \mathscr{F}))
 \end{array}
 $$
 

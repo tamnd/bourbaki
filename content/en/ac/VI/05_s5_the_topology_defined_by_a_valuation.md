@@ -25,14 +25,14 @@ subsections:
       pdf_page: 420
 statements: 10
 exercises: 10
-content_sha256: b771ebddcf3acdd2226c56d72c2ea5f26745e679f803c00eac83b9bd0bcaa51c
+content_sha256: 51d0d1c356be4ee3754a76de46725b4adc93a52b5bed90bee9ecb907621db693
 ---
 
 ## 5. THE TOPOLOGY DEFINED BY A VALUATION
 
 ### 1. THE TOPOLOGY DEFINED BY A VALUATION
 
-Let K be a not necessarily commutative field, v a valuation on K and G the totally ordered group $v(K^*)$. For all $a \in G$ let V, be the set of $x \in K$ such that $v(x) > a$; this set is an additive subgroup of K (§ 3, no. 1). There exists a unique topology $\mathcal{T}_v$ on K for which the V, form a fundamental system of neighbourhoods of 0 (*General Topology*, Chapter III, § 1, no. 2, Example). For v to be improper, it is necessary and sufficient that $\mathcal{T}_v$ be the discrete topology.
+Let K be a not necessarily commutative field, v a valuation on K and G the totally ordered group $v(K^*)$. For all $a \in G$ let V, be the set of $x \in K$ such that $v(x) > a$; this set is an additive subgroup of K (§ 3, no. 1). There exists a unique topology $\mathscr{T}_v$ on K for which the V, form a fundamental system of neighbourhoods of 0 (*General Topology*, Chapter III, § 1, no. 2, Example). For v to be improper, it is necessary and sufficient that $\mathscr{T}_v$ be the discrete topology.
 
 #### Lemma 1 {#ac-vi-s5-lem-1 .statement}
 
@@ -53,19 +53,19 @@ $$
 
 #### Proposition 1 {#ac-vi-s5-prop-1 .statement}
 
-*The topology $\mathcal{T}_v$ is Hausdorff and compatible with the field structure on K. The mapping $v : K^* \to G$ is continuous if G is given the discrete topology.*
+*The topology $\mathscr{T}_v$ is Hausdorff and compatible with the field structure on K. The mapping $v : K^* \to G$ is continuous if G is given the discrete topology.*
 
-Let $x \in K^*$ and $a = v(x)$; then $x \notin V_a$ which shows that $\mathcal{T}_v$ is Hausdorff. For all $x_0 \in K$ and $a \in G$, there exists $\beta \in G$ such that $x_0 V_\beta \subset V_\alpha$ and $V_\beta x_0 \subset V$, (it is sufficient to take $\beta \geqslant a - v(x_0)$). On the other hand, if $a \geqslant 0$, then $V_\alpha V_\alpha \subset V_v$. The axioms (AV_I) and (AV_{II}) of *General Topology*, Chapter III, § 6, no. 3 being thus satisfied, $\mathcal{T}_v$ is compatible with the ring structure on $K$. Let $x_0 \in K^*$; if $x \in K^*$ satisfies $v(x - x_0) > \sup(\alpha + 2v(x_0), v(x_0))$, then $v(x^{-1} - x_0^{-1}) > a$ (Lemma 1), which shows that $x \mapsto x^{-1}$ is continuous and that $\mathcal{T}_v$ is therefore compatible with the field structure on $K$. Finally, the single condition $v(x - x_0) > v(x_0)$ implies $v(x) = v(x_0)$ ($§ 3$, no. 1, Proposition 1) and hence the mapping $v : K^* \to G$ is continuous if $G$ is given the discrete topology.
+Let $x \in K^*$ and $a = v(x)$; then $x \notin V_a$ which shows that $\mathscr{T}_v$ is Hausdorff. For all $x_0 \in K$ and $a \in G$, there exists $\beta \in G$ such that $x_0 V_\beta \subset V_\alpha$ and $V_\beta x_0 \subset V$, (it is sufficient to take $\beta \geqslant a - v(x_0)$). On the other hand, if $a \geqslant 0$, then $V_\alpha V_\alpha \subset V_v$. The axioms (AV_I) and (AV_{II}) of *General Topology*, Chapter III, § 6, no. 3 being thus satisfied, $\mathscr{T}_v$ is compatible with the ring structure on $K$. Let $x_0 \in K^*$; if $x \in K^*$ satisfies $v(x - x_0) > \sup(\alpha + 2v(x_0), v(x_0))$, then $v(x^{-1} - x_0^{-1}) > a$ (Lemma 1), which shows that $x \mapsto x^{-1}$ is continuous and that $\mathscr{T}_v$ is therefore compatible with the field structure on $K$. Finally, the single condition $v(x - x_0) > v(x_0)$ implies $v(x) = v(x_0)$ ($§ 3$, no. 1, Proposition 1) and hence the mapping $v : K^* \to G$ is continuous if $G$ is given the discrete topology.
 
-Let $\alpha \in G$ and $V'_\alpha$ be the set of $x \in K$ such that $v(x) \geq \alpha$. If $\beta < a$, then $V_\beta \supset V'_\alpha \supset V_v$. If $v$ is not improper, it is therefore seen that the $V'_\alpha$ form a fundamental system of neighbourhoods of 0 for $\mathcal{T}_v$.
+Let $\alpha \in G$ and $V'_\alpha$ be the set of $x \in K$ such that $v(x) \geq \alpha$. If $\beta < a$, then $V_\beta \supset V'_\alpha \supset V_v$. If $v$ is not improper, it is therefore seen that the $V'_\alpha$ form a fundamental system of neighbourhoods of 0 for $\mathscr{T}_v$.
 
 The $V_v$ and the $V'_\alpha$ are open additive subgroups and therefore closed in $K$ and therefore the topological field $K$ is *totally disconnected*. As every non-zero ideal of the ring of $v$ contains a $V_v$, it is *open and closed* in $K$. The quotient topology on the residue field of $v$ is therefore *discrete*.
 
-Let $A$ be the ring of $u$. If $v$ is discrete, Proposition 8 of $§ 3$, no. 6 shows that the topology induced by $\mathcal{T}_v$ on $A$ is the $m(A)$-adic topology. This is not so in general (Exercise 4).
+Let $A$ be the ring of $u$. If $v$ is discrete, Proposition 8 of $§ 3$, no. 6 shows that the topology induced by $\mathscr{T}_v$ on $A$ is the $m(A)$-adic topology. This is not so in general (Exercise 4).
 
 #### Proposition 2 {#ac-vi-s5-prop-2 .statement}
 
-*Let $K$ be a not necessarily commutative field, $v$ a non-improper valuation on $K$, $A$ the ring of $v$ and $m$ the ideal of $v$. For $K$ with the topology $\mathcal{T}_v$ to be locally compact, it is necessary and sufficient that the following conditions be fulfilled:*
+*Let $K$ be a not necessarily commutative field, $v$ a non-improper valuation on $K$, $A$ the ring of $v$ and $m$ the ideal of $v$. For $K$ with the topology $\mathscr{T}_v$ to be locally compact, it is necessary and sufficient that the following conditions be fulfilled:*
 
 (i) $K$ is complete;
 (ii) $v$ is discrete;
@@ -91,7 +91,7 @@ We shall see in § 9 that a field $K$ fulfilling the conditions of Proposition 2
 
 ### 2. TOPOLOGICAL VECTOR SPACES OVER A FIELD WITH A VALUATION
 
-Throughout let $K$ be a (not necessarily commutative) field, $v$ a valuation on $K$ and $G$ its order group. $K$ is given the topology $\mathcal{T}_v$.
+Throughout let $K$ be a (not necessarily commutative) field, $v$ a valuation on $K$ and $G$ its order group. $K$ is given the topology $\mathscr{T}_v$.
 
 #### Proposition 3 {#ac-vi-s5-prop-3 .statement}
 
@@ -123,7 +123,7 @@ $F$ is complete.
 
 Let $K$ be a not necessarily commutative field, $v$ a valuation on $K$ and $G$ the group $v(K^*)$ with the discrete topology.
 
-(a) The completion ring $\hat{K}$ of $K$ (with $\mathcal{T}_v$) is a topological field.
+(a) The completion ring $\hat{K}$ of $K$ (with $\mathscr{T}_v$) is a topological field.
 
 (b) The mapping $v : K^* \to G$ can be extended uniquely to a continuous mapping $8 : \hat{K}^* \to G$. The mapping $0$ (extended by $\hat{v}(0) = +\infty$) is a valuation on $\hat{K}$ and $\hat{v}(\hat{K}^*) = v(K^*)$.
 
@@ -145,7 +145,7 @@ $$
 
 holds in $K^*$ and hence also holds in $\hat{K}^*$ by continuity. Thus 0 (extended by $\hat{v}(0) = +\infty$) is a valuation on $\mathbf{K}$ and (b) is proved.
 
-We now show (d). Let $a \in G$ and $x \in \mathcal{S}, -\{0\}$. For $y$ in $V$, sufficiently close to $x$, $\hat{v}(x) = \hat{v}(y) = v(y)$ and hence $\hat{v}(x) > a$. Conversely, let $x \in \hat{K}^*$ be such that $\hat{v}(x) > a$; for $y$ in $K^*$ sufficiently close to $x$, $v(y) = \hat{v}(y) = \hat{v}(x)$ and therefore $y \in V$, whence $x \in \mathcal{S}$. Thus $\mathcal{S}$ is the set of $x \in \hat{K}$ such that $\hat{v}(x) > a$. The argument is analogous for $V'_a$. This proves (d).
+We now show (d). Let $a \in G$ and $x \in \mathscr{S}, -\{0\}$. For $y$ in $V$, sufficiently close to $x$, $\hat{v}(x) = \hat{v}(y) = v(y)$ and hence $\hat{v}(x) > a$. Conversely, let $x \in \hat{K}^*$ be such that $\hat{v}(x) > a$; for $y$ in $K^*$ sufficiently close to $x$, $v(y) = \hat{v}(y) = \hat{v}(x)$ and therefore $y \in V$, whence $x \in \mathscr{S}$. Thus $\mathscr{S}$ is the set of $x \in \hat{K}$ such that $\hat{v}(x) > a$. The argument is analogous for $V'_a$. This proves (d).
 
 Taking account of Proposition 7 of General Topology, Chapter III, § 3, no. 4, assertion (c) is a consequence of (d). Assertion (e) is a special case of (d). Finally let $x \in \hat{A}$; there exists $y \in A$ such that $\hat{v}(x - y) > 0$; then $z = x - y \in \hat{m}$ and hence $x = y + z \in A + \hat{m}$; thus $\hat{A} = A + \hat{m}$, which shows (f).
 

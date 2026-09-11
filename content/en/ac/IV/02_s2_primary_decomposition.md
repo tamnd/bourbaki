@@ -37,7 +37,7 @@ subsections:
       pdf_page: 299
 statements: 39
 exercises: 35
-content_sha256: 9353d19272573d950f92fba8db2374013f868c6b8d590a53b7b8f6262334c6e8
+content_sha256: 5e54164fb2351677b3509552b100c892a84931de0ab425eb7ac92344759deda0
 ---
 
 ## 2. PRIMARY DECOMPOSITION
@@ -89,15 +89,15 @@ The powers of any prime ideal are not necessarily primary ideals (Exercise 1). O
 
 #### Proposition 2 {#ac-iv-s2-prop-2 .statement}
 
-Let M be a module over a Noetherian ring A, p a prime ideal of A and $(\mathcal{Q}_i)_{i \in I}$ a non-empty finite family of submodules of M which are p-primary with respect to M. Then $\bigcap_{i \in I} \mathcal{Q}_i$ is p-primary with respect to M.
+Let M be a module over a Noetherian ring A, p a prime ideal of A and $(\mathscr{Q}_i)_{i \in I}$ a non-empty finite family of submodules of M which are p-primary with respect to M. Then $\bigcap_{i \in I} \mathscr{Q}_i$ is p-primary with respect to M.
 
-$M / (\bigcap_{i \in I} \mathcal{Q}_i)$ is isomorphic to a submodule $\neq 0$ of the direct sum $\bigoplus_{i \in I} (M / \mathcal{Q}_i)$. Now
+$M / (\bigcap_{i \in I} \mathscr{Q}_i)$ is isomorphic to a submodule $\neq 0$ of the direct sum $\bigoplus_{i \in I} (M / \mathscr{Q}_i)$. Now
 
 $$
-\operatorname{Ass}\left( \bigoplus_{i \in I} (M / \mathcal{Q}_i) \right) = \bigcup_{i \in I} \operatorname{Ass}(M / \mathcal{Q}_i) = \{p\}
+\operatorname{Ass}\left( \bigoplus_{i \in I} (M / \mathscr{Q}_i) \right) = \bigcup_{i \in I} \operatorname{Ass}(M / \mathscr{Q}_i) = \{p\}
 $$
 
-(§ 1, no. 1, Corollary 1 to Proposition 3). Hence $\operatorname{Ass}\left(M / (\bigcap_{i \in I} \mathcal{Q}_i)\right) = \{p\}$ (§ 1, no. 1, Proposition 3 and Corollary 1 to Proposition 2).
+(§ 1, no. 1, Corollary 1 to Proposition 3). Hence $\operatorname{Ass}\left(M / (\bigcap_{i \in I} \mathscr{Q}_i)\right) = \{p\}$ (§ 1, no. 1, Proposition 3 and Corollary 1 to Proposition 2).
 
 #### Proposition 3 {#ac-iv-s2-prop-3 .statement}
 
@@ -121,7 +121,7 @@ $$
 
 #### Definition 2 {#ac-iv-s2-def-2 .statement}
 
-Let $A$ be a Noetherian ring, $M$ an $A$-module and $N$ a submodule of $M$. A finite family $(\mathcal{Q}_i)_{i \in I}$ of submodules of $M$ which are primary with respect to $M$ and such that $N = \bigcap_{i \in I} \mathcal{Q}_i$ is called a primary decomposition of $N$ in $M$.
+Let $A$ be a Noetherian ring, $M$ an $A$-module and $N$ a submodule of $M$. A finite family $(\mathscr{Q}_i)_{i \in I}$ of submodules of $M$ which are primary with respect to $M$ and such that $N = \bigcap_{i \in I} \mathscr{Q}_i$ is called a primary decomposition of $N$ in $M$.
 
 #### Example {#ac-iv-s2-n2-exa-1 .statement}
 
@@ -131,7 +131,7 @@ n\mathbf{Z} = (p_1^{\alpha_1}\mathbf{Z}) \cap \ldots \cap (p_k^{\alpha_k}\mathbf
 $$
 is a primary decomposition of $n\mathbf{Z}$ in $\mathbf{Z}$ by Example 4 of no. 1.
 
-By an abuse of language, the relation $N = \bigcap_{i \in I} \mathcal{Q}_i$ is called a primary decomposition of $N$ in $M$. It amounts to the same to say that $\{0\} = \bigcap_{i \in I} (\mathcal{Q}_i/N)$ is a primary decomposition of $\{0\}$ in $M/N$. If $(\mathcal{Q}_i)_{i \in I}$ is a primary decomposition of $N$ in $M$, the canonical mapping from $M/N$ to $\bigoplus_{i \in I} (M/\mathcal{Q}_i)$ is injective. Conversely let $N$ be a submodule of $M$ and $f$ an injective homomorphism from $M/N$ to a finite direct sum $P = \bigoplus_{i \in I} P_i$, where each set $\operatorname{Ass}(P_i)$ is reduced to a single element $p_i$; let $f_i$ be the homomorphism $M/N \to P_i$ obtained by taking the composition off with the projection $P \to P_i$, and let $Q_i/N$ be the kernel off.; then the $Q_i$ distinct from $M$ are primary with respect to $M$ (no. 1, Definition 1) and $N = \bigcap_{i \in I} Q_i$. Moreover, $\operatorname{Ass}(M/N) \subset \bigcup_{i \in I} \{p_i\}$ by virtue of § 1, no. 1, Proposition 3.
+By an abuse of language, the relation $N = \bigcap_{i \in I} \mathscr{Q}_i$ is called a primary decomposition of $N$ in $M$. It amounts to the same to say that $\{0\} = \bigcap_{i \in I} (\mathscr{Q}_i/N)$ is a primary decomposition of $\{0\}$ in $M/N$. If $(\mathscr{Q}_i)_{i \in I}$ is a primary decomposition of $N$ in $M$, the canonical mapping from $M/N$ to $\bigoplus_{i \in I} (M/\mathscr{Q}_i)$ is injective. Conversely let $N$ be a submodule of $M$ and $f$ an injective homomorphism from $M/N$ to a finite direct sum $P = \bigoplus_{i \in I} P_i$, where each set $\operatorname{Ass}(P_i)$ is reduced to a single element $p_i$; let $f_i$ be the homomorphism $M/N \to P_i$ obtained by taking the composition off with the projection $P \to P_i$, and let $Q_i/N$ be the kernel off.; then the $Q_i$ distinct from $M$ are primary with respect to $M$ (no. 1, Definition 1) and $N = \bigcap_{i \in I} Q_i$. Moreover, $\operatorname{Ass}(M/N) \subset \bigcup_{i \in I} \{p_i\}$ by virtue of § 1, no. 1, Proposition 3.
 
 #### Theorem 1 {#ac-iv-s2-thm-1 .statement}
 
@@ -286,10 +286,10 @@ $$
 This will follow from Proposition 8 (iv) if we prove that
 
 $$
-\operatorname{long}_A(M/\mathcal{Q}(p)) = \operatorname{long}_{A_p}(M_p).
+\operatorname{long}_A(M/\mathscr{Q}(p)) = \operatorname{long}_{A_p}(M_p).
 $$
 
-Now, it follows from Proposition 1 of no. 1 that for all $s \in A - p$ the homothety with ratio s on $M/\mathcal{Q}(p)$ is injective; the homothety with ratio s on every submodule R of $M/\mathcal{Q}(p)$ is therefore injective and, as R is Artinian, it is bijective (*Algebra*, Chapter VIII, § 2, no. 2, Lemma 3); we conclude that the sub-A-modules of $M/\mathcal{Q}(p)$ are the images under the bijection $f : M, \to M/\mathcal{Q}(p)$ of the sub-A,-modules of M, (Chapter 11, § 2, no. 3), whence our assertion.
+Now, it follows from Proposition 1 of no. 1 that for all $s \in A - p$ the homothety with ratio s on $M/\mathscr{Q}(p)$ is injective; the homothety with ratio s on every submodule R of $M/\mathscr{Q}(p)$ is therefore injective and, as R is Artinian, it is bijective (*Algebra*, Chapter VIII, § 2, no. 2, Lemma 3); we conclude that the sub-A-modules of $M/\mathscr{Q}(p)$ are the images under the bijection $f : M, \to M/\mathscr{Q}(p)$ of the sub-A,-modules of M, (Chapter 11, § 2, no. 3), whence our assertion.
 
 #### Proposition 9 {#ac-iv-s2-prop-9 .statement}
 

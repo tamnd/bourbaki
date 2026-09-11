@@ -49,9 +49,9 @@ subsections:
       pdf_page: 529
 statements: 19
 exercises: 0
-content_sha256: 2ebdd44893f2057bd4f5a54122a80abf135d3cf031db1074974a6ce130f827a2
+content_sha256: 69d3adf5a5121d8b97570154b58e927254651ceb823068b63e81be6f5e88e9d6
 translated_from: content/en/ac/VII/03_s3_factorial_domains.md
-source_content_sha256: 24b2404392ec37a498e3b069e48cd23f3c3de2b03e46d826d86d894e0aa6aa9e
+source_content_sha256: bc2182508bf62fc103152e4d37640a9f7378fda6a660ef2c9aebfd20d6b3c750
 translation_model: gpt-5.4
 translation_run: translate-vi-d91a6f09
 glossary_version: 34
@@ -89,17 +89,17 @@ Cho $A$ là một miền nguyên. Các điều kiện sau là tương đương:
 (d) điều kiện (M) được thỏa mãn và, với mọi phần tử cực biên $p$ của $A$, iđêan $Ap$ là nguyên tố;
 (e) $A$ là một miền Krull và mọi iđêan nguyên tố có chiều cao 1 đều là chính.
 
-Ta sẽ ký hiệu bởi K trường phân thức của A và bởi $\mathcal{P}^*$ (hay $\mathcal{P}^*(A)$) nhóm có thứ tự của các iđêan chính phân thức khác không của A. Chứng minh sẽ được thực hiện bằng cách chứng minh các kéo theo sau:
+Ta sẽ ký hiệu bởi K trường phân thức của A và bởi $\mathscr{P}^*$ (hay $\mathscr{P}^*(A)$) nhóm có thứ tự của các iđêan chính phân thức khác không của A. Chứng minh sẽ được thực hiện bằng cách chứng minh các kéo theo sau:
 
 (a) ⇔ (b) ⇔ (c) ⇔ (d) ⇔ (e)
 
-Ta chứng minh rằng (a) kéo theo (b); nếu A là factorial, $\mathcal{P}^*$ đẳng cấu với nhóm các ước của A và do đó với một tổng trực tiếp của các nhóm $\mathbf{Z}$ ($§ 1$, no. 3, Định lý 2).
+Ta chứng minh rằng (a) kéo theo (b); nếu A là factorial, $\mathscr{P}^*$ đẳng cấu với nhóm các ước của A và do đó với một tổng trực tiếp của các nhóm $\mathbf{Z}$ ($§ 1$, no. 3, Định lý 2).
 
-Bây giờ lưu ý rằng quan hệ "giao của hai iđêan chính nguyên của A là một iđêan chính" có nghĩa là mọi cặp có thứ tự các phần tử của A đều có một bội chung nhỏ nhất, nghĩa là $\mathcal{P}^*$ là một nhóm có thứ tự dàn (Đại số, Chương VI, $§ 1$, no. 9, Mệnh đề 8). Vì vậy, việc (b) kéo theo (c) (và thậm chí là tương đương với nó) suy ra từ Đại số, Chương VI, $§ 1$, no. 13, Định lý 2. Việc (c) kéo theo (d) suy ra từ Đại số, Chương VI, $§ 1$, no. 13, Mệnh đề 14 (DIV).
+Bây giờ lưu ý rằng quan hệ "giao của hai iđêan chính nguyên của A là một iđêan chính" có nghĩa là mọi cặp có thứ tự các phần tử của A đều có một bội chung nhỏ nhất, nghĩa là $\mathscr{P}^*$ là một nhóm có thứ tự dàn (Đại số, Chương VI, $§ 1$, no. 9, Mệnh đề 8). Vì vậy, việc (b) kéo theo (c) (và thậm chí là tương đương với nó) suy ra từ Đại số, Chương VI, $§ 1$, no. 13, Định lý 2. Việc (c) kéo theo (d) suy ra từ Đại số, Chương VI, $§ 1$, no. 13, Mệnh đề 14 (DIV).
 
-Việc (d) kéo theo (b) suy ra từ Đại số, Chương VI, $§ 1$, no. 13, Định lý 2 áp dụng cho nhóm $\mathcal{S}^*$.
+Việc (d) kéo theo (b) suy ra từ Đại số, Chương VI, $§ 1$, no. 13, Định lý 2 áp dụng cho nhóm $\mathscr{S}^*$.
 
-Ta chứng minh rằng (b) kéo theo (e). Nếu (b) đúng, có một đẳng cấu từ $\mathcal{P}^*$ lên $\mathbf{Z}^{(l)}$; gọi $(v_i(x))_{i \in I}$ là phần tử của $\mathbf{Z}^{(l)}$ tương ứng với iđêan $Ax$ ($x \in K^*$). Ngay lập tức thấy rằng mỗi $v_i$ là một định giá rời rạc trên K, rằng A là giao của các vành của các $v_i$ và rằng, với $x \in K^*$, $v_i(x) = 0$ trừ ra đối với một số hữu hạn chỉ số $i$; do đó A là một miền Krull. Mặt khác, gọi q là một iđêan nguyên tố của A có chiều cao 1; nó chứa một phần tử khác không a mà tất yếu là không khả nghịch và do đó cũng (theo định nghĩa của một iđêan nguyên tố) là một trong các phần tử cực biên của A; vì $Ap$ là nguyên tố và khác không, $q = Ap$, điều này chứng minh rằng q là chính.
+Ta chứng minh rằng (b) kéo theo (e). Nếu (b) đúng, có một đẳng cấu từ $\mathscr{P}^*$ lên $\mathbf{Z}^{(l)}$; gọi $(v_i(x))_{i \in I}$ là phần tử của $\mathbf{Z}^{(l)}$ tương ứng với iđêan $Ax$ ($x \in K^*$). Ngay lập tức thấy rằng mỗi $v_i$ là một định giá rời rạc trên K, rằng A là giao của các vành của các $v_i$ và rằng, với $x \in K^*$, $v_i(x) = 0$ trừ ra đối với một số hữu hạn chỉ số $i$; do đó A là một miền Krull. Mặt khác, gọi q là một iđêan nguyên tố của A có chiều cao 1; nó chứa một phần tử khác không a mà tất yếu là không khả nghịch và do đó cũng (theo định nghĩa của một iđêan nguyên tố) là một trong các phần tử cực biên của A; vì $Ap$ là nguyên tố và khác không, $q = Ap$, điều này chứng minh rằng q là chính.
 
 Sau cùng ta chứng minh rằng (e) kéo theo (a). Gọi a là một iđêan ước của A. Tồn tại các iđêan nguyên tố $p_i$ của A có chiều cao 1 sao cho $\operatorname{div} a = \sum_i n_i \operatorname{div} p_i$ trong đó $n_i \in \mathbf{Z}$. Nếu (e) đúng, $p_i$ có dạng $Ap_i$, do đó $\operatorname{div} a = \operatorname{div} \left( \prod_i Ap_i^{n_i} \right)$ và vì thế $a = \prod_i Ap_i^{n_i}$ vì a là iđêan ước.
 
@@ -111,7 +111,7 @@ Giả sử rằng mọi iđêan ước của $A$ đều khả nghịch; vì $A_{
 
 ### 3. PHÂN TÍCH THÀNH CÁC PHẦN TỬ CỰC BIÊN
 
-Cho $A$ là một miền nguyên, $K$ là trường phân thức của nó và $U$ là nhóm nhân các phần tử khả nghịch của $A$. Nhắc lại (Đại số, Chương VI, $§ 1$, no. 5) rằng có một đẳng cấu chính tắc từ $K^*/U$ lên nhóm $\mathcal{P}^*$ các iđêan chính phân thức khác không của $A$. Khi đó điều kiện (b) của Định lý 1 có thể được diễn đạt như sau:
+Cho $A$ là một miền nguyên, $K$ là trường phân thức của nó và $U$ là nhóm nhân các phần tử khả nghịch của $A$. Nhắc lại (Đại số, Chương VI, $§ 1$, no. 5) rằng có một đẳng cấu chính tắc từ $K^*/U$ lên nhóm $\mathscr{P}^*$ các iđêan chính phân thức khác không của $A$. Khi đó điều kiện (b) của Định lý 1 có thể được diễn đạt như sau:
 
 #### Mệnh đề 2 {#ac-vii-s3-prop-2 .statement}
 
@@ -119,7 +119,7 @@ Cho $A$ là một miền nguyên, $K$ là trường phân thức của nó và $
 
 Nếu $P$ thỏa mãn điều kiện này thì rõ ràng mọi phần tử của nó đều là *cực biên* và mọi phần tử cực biên của $A$ đều liên kết với một phần tử duy nhất của $P$. Nhắc lại rằng khi đó $P$ được gọi là một *hệ đại diện các phần tử cực biên* của $A$ (Đại số, Chương VII, $§ 1$, no. 3, Định nghĩa 2).
 
-Tiếp tục giả sử rằng $A$ là phân tích duy nhất. Ta đã thấy (no. 2, Định lý 1) rằng nhóm $\mathcal{P}^*$ là một dàn. Do đó ta có thể áp dụng các kết quả của Đại số, Chương VI, $§ 1$, nos. 9 và 13. Đặc biệt, mọi phần tử của $K^*$ đều có thể được viết theo một cách về bản chất là duy nhất dưới dạng một *phân thức bất khả quy*. Hai phần tử bất kỳ $a, b$ của $K^*$ có một ước chung lớn nhất và một bội chung nhỏ nhất; nếu $a = u \prod_{p \in P} p^{n(p)}$ và
+Tiếp tục giả sử rằng $A$ là phân tích duy nhất. Ta đã thấy (no. 2, Định lý 1) rằng nhóm $\mathscr{P}^*$ là một dàn. Do đó ta có thể áp dụng các kết quả của Đại số, Chương VI, $§ 1$, nos. 9 và 13. Đặc biệt, mọi phần tử của $K^*$ đều có thể được viết theo một cách về bản chất là duy nhất dưới dạng một *phân thức bất khả quy*. Hai phần tử bất kỳ $a, b$ của $K^*$ có một ước chung lớn nhất và một bội chung nhỏ nhất; nếu $a = u \prod_{p \in P} p^{n(p)}$ và
 $$
 b = u' \prod_{p \in P} p^{m(p)}
 $$

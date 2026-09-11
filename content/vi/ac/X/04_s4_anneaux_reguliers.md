@@ -32,11 +32,11 @@ subsections:
       pdf_page: 58
 statements: 29
 exercises: 13
-content_sha256: fb9026317d0a478d5e7f2deb6ba63efa2cad4fc4c680cb46c95ef19859c46ef5
+content_sha256: 7947b9b5eb5982e08105d3dd38ea2a05b61b5e6e64e85ad2b081be77221ba60d
 translated_from: content/en-mt/ac/X/04_s4_anneaux_reguliers.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 3a9b79f63014ef951b00ee573dd100216a0d16c92c7c07a16d7c538bfed42cbf
+source_content_sha256: 936b10a5724a284944f5a24e760fda4b78c2506146188e5fc1a9ccf8c5eed935
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5-mini
 translation_run: translate-vi-70d8b5b4
 glossary_version: 34
@@ -405,7 +405,7 @@ Bây giờ còn lại là chứng minh rằng khi các điều kiện tương đ
 
 #### Ví dụ {#ac-x-s4-n5-exa-1 .statement}
 
-*Cho $X$, $Y$ là hai đa tạp giải tích phức, địa phương có số chiều hữu hạn, $f$ là một cấu xạ từ $X$ vào $Y$, và $x$ là một điểm của $X$. Xét đồng cấu địa phương $\rho : \mathcal{O}_{Y, f(x)} \to \mathcal{O}_{X, x}$ liên kết với $f$. Ánh xạ $d\rho$ là chuyển vị của ánh xạ tiếp xúc $T_x(f) : T_x(X) \to T_{f(x)}(Y)$. Các điều kiện (i) đến (iv) của Mệnh đề 9 do đó tương đương trong trường hợp này với việc $f$ là một cấu xạ chìm tại $x$ (VAR, R, 5.9.1).*
+*Cho $X$, $Y$ là hai đa tạp giải tích phức, địa phương có số chiều hữu hạn, $f$ là một cấu xạ từ $X$ vào $Y$, và $x$ là một điểm của $X$. Xét đồng cấu địa phương $\rho : \mathscr{O}_{Y, f(x)} \to \mathscr{O}_{X, x}$ liên kết với $f$. Ánh xạ $d\rho$ là chuyển vị của ánh xạ tiếp xúc $T_x(f) : T_x(X) \to T_{f(x)}(Y)$. Các điều kiện (i) đến (iv) của Mệnh đề 9 do đó tương đương trong trường hợp này với việc $f$ là một cấu xạ chìm tại $x$ (VAR, R, 5.9.1).*
 
 #### Hệ quả {#ac-x-s4-n5-cor-2 .statement}
 

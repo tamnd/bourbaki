@@ -28,7 +28,7 @@ subsections:
       pdf_page: 310
 statements: 24
 exercises: 19
-content_sha256: 12e3449cdea5d289e622c60a35c5b01f157790d8830cb1e8b0cf0903b1563fde
+content_sha256: 55f6f63649b2db0e769a0ef0bb4c01f85e7c68edeb223727458b16755d390850
 ---
 
 ## § 1. Idéaux premiers associés à un module.
@@ -180,7 +180,7 @@ On sait en effet que le nilradical de $A$ est l’intersection des éléments mi
 
 Soient $A$ un anneau nœthérien, $M$ un $A$-module de type fini. Il existe une suite de composition $(M_i)_{0 \leq i \leq n}$ de $M$ telle que, pour $0 \leq i \leq n - 1$, $M_i / M_{i+1}$ soit isomorphe à $A / p_i$, où $p_i$ est un idéal premier de $A$.
 
-Soit en effet $\mathcal{E}$ l’ensemble des sous-modules de $M$ qui possèdent une suite de composition ayant la propriété de l’énoncé. Comme $\mathcal{E}$ est non vide (car $\{0\}$ appartient à $\mathcal{E}$) et comme $M$ est nœthérien, $\mathcal{E}$ possède un élément maximal $N$. Si $M \neq N$, on a $M/N \neq 0$, donc $\mathrm{Ass}(M/N) \neq \varnothing$ (no 1, cor. 1 de la prop. 2); $M/N$ contient donc un sous-module $N'/N$ isomorphe à un $A$-module de la forme $A/p$, où $p$ est premier; on a alors par définition $N' \in \mathcal{E}$, ce qui contredit le caractère maximal de $N$. Par suite, on a nécessairement $N = M$.
+Soit en effet $\mathscr{E}$ l’ensemble des sous-modules de $M$ qui possèdent une suite de composition ayant la propriété de l’énoncé. Comme $\mathscr{E}$ est non vide (car $\{0\}$ appartient à $\mathscr{E}$) et comme $M$ est nœthérien, $\mathscr{E}$ possède un élément maximal $N$. Si $M \neq N$, on a $M/N \neq 0$, donc $\mathrm{Ass}(M/N) \neq \varnothing$ (no 1, cor. 1 de la prop. 2); $M/N$ contient donc un sous-module $N'/N$ isomorphe à un $A$-module de la forme $A/p$, où $p$ est premier; on a alors par définition $N' \in \mathscr{E}$, ce qui contredit le caractère maximal de $N$. Par suite, on a nécessairement $N = M$.
 
 C. Q. F. D.
 

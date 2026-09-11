@@ -39,7 +39,7 @@ chapters:
           statements: 46
           exercises: 11
           extraction: ocr
-          content_sha256: 650bbfdcc8ed4e299912939fbb5d1419edd5bfe730a6cdaaf497218c5852c4b7
+          content_sha256: 2bb1ee1d8fa07faecb99ed380b4de9e87ee14fd0064146c77c3fab3b73cfd146
         - kind: section
           section: 3
           title: Profondeur et dimension homologique
@@ -51,7 +51,7 @@ chapters:
           statements: 43
           exercises: 16
           extraction: ocr
-          content_sha256: 7b41765c90f58b75d70623bfaaeb5c11917bd816d4e04e795ce2fb34e730bd93
+          content_sha256: dd683aa9a7b96b7c006d2b41bc100df991a0c21e1009e92d2f308842b1b5e10e
         - kind: section
           section: 4
           title: Anneaux réguliers
@@ -63,7 +63,7 @@ chapters:
           statements: 29
           exercises: 13
           extraction: ocr
-          content_sha256: 1cb4ee83cd3848ac9878b8d74c05d2ee772f02b46e916425c5ae49647a84ed0f
+          content_sha256: 3693d2c40a9c1619178ebb43dafb3e72feae8a82508f1ee62c064bb5c6a45b22
         - kind: section
           section: 5
           title: Intersections complètes
@@ -112,7 +112,7 @@ chapters:
           statements: 31
           exercises: 10
           extraction: ocr
-          content_sha256: e52e439dc4014b802a73340401b5e7d083e4a386ccc0b2510cc9902462185172
+          content_sha256: fbc50d377bb5b3611bf9f59a677bc3738422facb59e1d4d8254527278d9ee984
         - kind: section
           section: 9
           title: Modules dualisants
@@ -136,4 +136,4 @@ chapters:
           statements: 20
           exercises: 11
           extraction: ocr
-          content_sha256: 8a0316d9c2d9112e6e53e8f38086207713f10c8450890ae999207b89ed062f84
+          content_sha256: cc968c21a6b9e12b9f35518aa00501a249af48a3b52e39a832d039372a712eca

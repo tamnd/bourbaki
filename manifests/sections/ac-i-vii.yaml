@@ -127,7 +127,7 @@ chapters:
           statements: 52
           exercises: 27
           extraction: ocr
-          content_sha256: 862eb533634e57154a3cf7493419fd43f7b530676770c590cac1d84e03bc8d92
+          content_sha256: 1bca67b21446afd6b1304dbb0be8158646473b1135d859d1ff7a050bb745d19d
         - kind: section
           section: 3
           title: Local rings. Passage from the local to the global
@@ -153,7 +153,7 @@ chapters:
           statements: 49
           exercises: 28
           extraction: ocr
-          content_sha256: afbce0ee70ea654b4478dd2d27c1a7060b1124651d86be84ea7b4b58f7101cd3
+          content_sha256: 6f7cf1ebd9f83d55d972bba623722a1f420c6ea28c01ee2cc23b631ea4662e6a
         - kind: section
           section: 5
           title: Finitely generated projective modules. Invertible fractional ideals
@@ -166,7 +166,7 @@ chapters:
           statements: 34
           exercises: 25
           extraction: ocr
-          content_sha256: a5d4bfa4c1fcf7eb66cf300768331126f156485bf51ceb82544587f9f1c007d9
+          content_sha256: 9505786f478edef08c8c8e37cea3e635ac9e87b7abc7b12363b27377d0513a97
     - chapter: III
       title: GRADUATIONS. FILTRATIONS AND TOPOLOGIES
       sections:
@@ -206,7 +206,7 @@ chapters:
           statements: 57
           exercises: 13
           extraction: ocr
-          content_sha256: c26bf20a582aa742f29736d90586757c3c9eeda4b62c48ac6556a17b97892062
+          content_sha256: fcbf6c74b125d93d9e752f071aeea8cdc3187468539e26c37a235e9d8443c6ff
         - kind: section
           section: 3
           title: m-adic topologies on Noetherian rings
@@ -232,7 +232,7 @@ chapters:
           statements: 23
           exercises: 8
           extraction: ocr
-          content_sha256: 032da00cd9da91bab8ac7c8047cd1bea737f1d4ecc3ff26817f377706ac8dcf8
+          content_sha256: f912ce448ee1a4126b48a8dd56b73d600b24151c918435c56cc969e0399db275
         - kind: section
           section: 5
           title: Flatness properties of filtered modules
@@ -272,7 +272,7 @@ chapters:
           statements: 24
           exercises: 19
           extraction: ocr
-          content_sha256: a0083654b94c5bf51cd105c953d229508db86368fcf74e189f13c7e0aea21748
+          content_sha256: 470d5844ca28a94c5255be9bb84e59e7adab1ce52d0bdae1a5cc72579b15672d
         - kind: section
           section: 2
           title: Primary decomposition
@@ -285,7 +285,7 @@ chapters:
           statements: 39
           exercises: 35
           extraction: ocr
-          content_sha256: 9353d19272573d950f92fba8db2374013f868c6b8d590a53b7b8f6262334c6e8
+          content_sha256: 5e54164fb2351677b3509552b100c892a84931de0ab425eb7ac92344759deda0
         - kind: section
           section: 3
           title: Primary decomposition in graded modules
@@ -298,7 +298,7 @@ chapters:
           statements: 6
           exercises: 3
           extraction: ocr
-          content_sha256: 55183dce28d121c14a65bc1ae9b8a1e4c9902f11e7b2707081227fe1fa054024
+          content_sha256: 77da47eff4a9cd348b9b5750f0406855ff25790acc8bc710348c578033c3e472
     - chapter: V
       title: INTEGERS
       sections:
@@ -325,7 +325,7 @@ chapters:
           statements: 69
           exercises: 29
           extraction: ocr
-          content_sha256: 2f79a65f77c0aff7fecf7b74bea588fece9fce74137af610f9bfb9d0274e5dc9
+          content_sha256: f0ef4aabba009b7905e97f4fb80dfce6d1fb60ac9a39967272fd598733b4eec7
         - kind: section
           section: 2
           title: The lift of prime ideals
@@ -338,7 +338,7 @@ chapters:
           statements: 36
           exercises: 22
           extraction: ocr
-          content_sha256: 0735cbdcddf5abb906e8dd4e39035bbe753450d10e43d8bd20b9833595a17cd5
+          content_sha256: dd73bbd458e4f5eacdb96482b226a80269656417b43a3444bbb7272800a28fc3
         - kind: section
           section: 3
           title: Finitely generated algebras over a field
@@ -417,7 +417,7 @@ chapters:
           statements: 18
           exercises: 11
           extraction: ocr
-          content_sha256: d2591aefd185cd8a9d79b29d0b2bd6b892a0e8d7c6f6ca84c843946be63124d9
+          content_sha256: cdc27e73ee54626a8784a6f26f479defcd8d5066ee817997176c38e0199904ea
         - kind: section
           section: 5
           title: The topology defined by a valuation
@@ -430,7 +430,7 @@ chapters:
           statements: 10
           exercises: 10
           extraction: ocr
-          content_sha256: b771ebddcf3acdd2226c56d72c2ea5f26745e679f803c00eac83b9bd0bcaa51c
+          content_sha256: 51d0d1c356be4ee3754a76de46725b4adc93a52b5bed90bee9ecb907621db693
         - kind: section
           section: 6
           title: Absolute values
@@ -443,7 +443,7 @@ chapters:
           statements: 10
           exercises: 2
           extraction: ocr
-          content_sha256: 89089983c5dccbb3218f2ab1a51ac646d32b8eda490bc9f1353d4e6a8f3b6ffa
+          content_sha256: 5ca49b570b2d09c05c44810d4a82b106c8d2a4be48a8180dbf9f1db68aeef3b5
         - kind: section
           section: 7
           title: Approximation theorem
@@ -456,7 +456,7 @@ chapters:
           statements: 14
           exercises: 3
           extraction: ocr
-          content_sha256: a818113ef87fdb588b60c8045863641963170d0c573c7e9237ce829f4055a323
+          content_sha256: 1debc26396f5932ce4ac528e2be803e9ded101fa3e15e8f6fd5a4589047a8010
         - kind: section
           section: 8
           title: Extensions of a valuation to an algebraic extension
@@ -469,7 +469,7 @@ chapters:
           statements: 36
           exercises: 21
           extraction: ocr
-          content_sha256: 1740a7e6d3aaa11959ee2ba6e65707eab0efe09ef5333a215378d18f32bd6007
+          content_sha256: d853329d68867ccedd9e356c1483209c43fd487e4b1b8709e9d31dca3434d87e
         - kind: section
           section: 9
           title: 'Application: locally compact fields'
@@ -482,7 +482,7 @@ chapters:
           statements: 10
           exercises: 5
           extraction: ocr
-          content_sha256: d266a1348cad0959a68f948795d45c8123c34ab55ddc0962987616e825a8a361
+          content_sha256: 227e670a0dd4f394d2d3c60ac4095563da75ad47218935fc1d79d23696d806cf
         - kind: section
           section: 10
           title: Extensions of a valuation to a transcendental extension
@@ -535,7 +535,7 @@ chapters:
           statements: 14
           exercises: 27
           extraction: ocr
-          content_sha256: 16fa7953b099cb50ab812cae794d31718963a0e7a0358d8c489c21f500087f43
+          content_sha256: f9313bbbae20295a08e1ef91dbfcec6e95a2bdcad8dac8a5cf901983eb444e98
         - kind: section
           section: 3
           title: Factorial domains
@@ -548,7 +548,7 @@ chapters:
           statements: 19
           exercises: 0
           extraction: ocr
-          content_sha256: 24b2404392ec37a498e3b069e48cd23f3c3de2b03e46d826d86d894e0aa6aa9e
+          content_sha256: bc2182508bf62fc103152e4d37640a9f7378fda6a660ef2c9aebfd20d6b3c750
         - kind: section
           section: 4
           title: Modules over integrally closed Noetherian domains
@@ -561,7 +561,7 @@ chapters:
           statements: 56
           exercises: 26
           extraction: ocr
-          content_sha256: 9c949aca71a036cb853dfdcbea85377b0c2a146fedc8238a63700dd4821d26bf
+          content_sha256: e945d0dce148a314a72509e7bb920af67868b7d13173757c2afc5ba5faa3449c
         - kind: historical
           title: Historical Note
           path: content/en/ac/VII/historical_note.md
@@ -572,7 +572,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: bbb940b4e28488bcb1ca1fa68a3aff36f5ddc35ae267d9552f42d4227a004f80
+          content_sha256: 496341e07a4c5dfc7ea43cb3c200469e9d3f11671caacbeca75270d25d2e7c1c
 notation_index:
     kind: notation
     title: INDEX OF NOTATION

@@ -25,9 +25,9 @@ subsections:
       pdf_page: 433
 statements: 14
 exercises: 3
-content_sha256: 279e102ebb4a2d104a52c1c46d18e586ec79f0699267b5a403e59b7de404a09d
+content_sha256: 21f2b322a8dae3e1cdb95e227bb848251fc67bc2e902348f5a69699e583fa872
 translated_from: content/en/ac/VI/07_s7_approximation_theorem.md
-source_content_sha256: a818113ef87fdb588b60c8045863641963170d0c573c7e9237ce829f4055a323
+source_content_sha256: 1debc26396f5932ce4ac528e2be803e9ded101fa3e15e8f6fd5a4589047a8010
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-aac554e0
 glossary_version: 34
@@ -141,15 +141,15 @@ Ta có thể giả sử rằng $A_i \neq K$ với mọi $i$. Khi đó, với m�
 
 #### Hệ quả 2 {#ac-vi-s7-lem-2-cor-2 .statement}
 
-*Gọi $\mathcal{T}_i$ là tôpô được định nghĩa trên $K$ bởi $v_i$; trang bị cho $K^n$ tôpô tích của các $\mathcal{T}_i$. Nếu các $v_i$ không suy biến, đường chéo của $K^n$ là trù mật trong $K^n$.
+*Gọi $\mathscr{T}_i$ là tôpô được định nghĩa trên $K$ bởi $v_i$; trang bị cho $K^n$ tôpô tích của các $\mathscr{T}_i$. Nếu các $v_i$ không suy biến, đường chéo của $K^n$ là trù mật trong $K^n$.
 
 #### Mệnh đề 3 {#ac-vi-s7-prop-3 .statement}
 
 *Cho $v$ và $v'$ là hai định giá không suy biến trên cùng một trường $K$. Để $v$ và $v'$ định nghĩa cùng một tôpô trên $K$, điều kiện cần và đủ là chúng phụ thuộc.
 
-Giả sử rằng các tôpô $\mathcal{T}_v$ và $\mathcal{T}_{v'}$, được định nghĩa bởi $v$ và $v'$, là đồng nhất. Vì $\mathcal{T}_v$ là Hausdorff, đường chéo của $K^2$ là đóng và do đó $v$ và $v'$ phụ thuộc (Hệ quả 2 của Định lý 1).
+Giả sử rằng các tôpô $\mathscr{T}_v$ và $\mathscr{T}_{v'}$, được định nghĩa bởi $v$ và $v'$, là đồng nhất. Vì $\mathscr{T}_v$ là Hausdorff, đường chéo của $K^2$ là đóng và do đó $v$ và $v'$ phụ thuộc (Hệ quả 2 của Định lý 1).
 
-Ngược lại, giả sử rằng $v$ và $v'$ phụ thuộc. Khi đó các vành $A$ và $A'$ của chúng được chứa trong cùng một vành $A''$ phân biệt với $K$ và $A''$ là vành của một định giá $v''$ ($§ 4$, no. 1, Mệnh đề 1). Chỉ cần chứng minh rằng tôpô $\mathcal{T}_{v''}$ đồng nhất với $\mathcal{T}_v$. Gọi $\Gamma$ và $\Gamma''$ là các nhóm cấp của $v$ và $v''$. Có một đồng cấu tăng $\lambda$ từ $\Gamma$ lên $\Gamma''$ sao cho $v'' = A \circ v$ ($§ 4$, no. 3). Nếu $a'' \in I?''$, lấy $a \in \lambda^{-1}(a'')$; điều kiện $v(x) \geq \alpha$ suy ra $v''(x) \geq a''$. Lấy $\beta \in \Gamma$ và $\beta'' = \lambda(\beta)$; điều kiện $v(x) \leq \beta$ suy ra $v''(x) \leq \beta''$ và do đó điều kiện $v''(x) > \beta''$ suy ra $v(x) > \beta$. Vì $v$ và $v''$ không bất chính, các bất đẳng thức đang xét xác định các hệ cơ bản các lân cận của 0 đối với $\mathcal{T}_v$ và $\mathcal{T}_{v''}$. Do đó $\mathcal{T}_v = \mathcal{T}_{v''}$, điều này hoàn tất chứng minh.
+Ngược lại, giả sử rằng $v$ và $v'$ phụ thuộc. Khi đó các vành $A$ và $A'$ của chúng được chứa trong cùng một vành $A''$ phân biệt với $K$ và $A''$ là vành của một định giá $v''$ ($§ 4$, no. 1, Mệnh đề 1). Chỉ cần chứng minh rằng tôpô $\mathscr{T}_{v''}$ đồng nhất với $\mathscr{T}_v$. Gọi $\Gamma$ và $\Gamma''$ là các nhóm cấp của $v$ và $v''$. Có một đồng cấu tăng $\lambda$ từ $\Gamma$ lên $\Gamma''$ sao cho $v'' = A \circ v$ ($§ 4$, no. 3). Nếu $a'' \in I?''$, lấy $a \in \lambda^{-1}(a'')$; điều kiện $v(x) \geq \alpha$ suy ra $v''(x) \geq a''$. Lấy $\beta \in \Gamma$ và $\beta'' = \lambda(\beta)$; điều kiện $v(x) \leq \beta$ suy ra $v''(x) \leq \beta''$ và do đó điều kiện $v''(x) > \beta''$ suy ra $v(x) > \beta$. Vì $v$ và $v''$ không bất chính, các bất đẳng thức đang xét xác định các hệ cơ bản các lân cận của 0 đối với $\mathscr{T}_v$ và $\mathscr{T}_{v''}$. Do đó $\mathscr{T}_v = \mathscr{T}_{v''}$, điều này hoàn tất chứng minh.
 
 Nhận xét
 (1) Mệnh đề 3 cho thấy quan hệ '"$v$ và $v'$ phụ thuộc"' là một quan hệ tương đương.

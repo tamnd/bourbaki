@@ -32,7 +32,7 @@ subsections:
       pdf_page: 111
 statements: 23
 exercises: 5
-content_sha256: d025f1050b2db87ffe5603ecdd7429e10ecac3f7ec29fa98a51e8556b531c859
+content_sha256: 0672499e9920be1571f49f6b0d47500dc5be5e49f15649ef8ca2dded948b2029
 ---
 
 ## § 4. Hauteur d’une valuation.
@@ -56,9 +56,9 @@ En effet, l’ensemble des idéaux premiers de $A$ est totalement ordonné par i
 
 #### Proposition 2 {#ac-vi-s4-prop-2 .statement}
 
-*Soient* $K$ *un corps*, $B$ *un anneau de valuation pour* $K$, *et* $h_B$ *la place de* $K$ *associée à* $B$ *(à valeurs dans* $\kappa(B)$). *Alors l’application* $A \to h_B(A)$ *définit une bijection de l’ensemble* $\mathcal{A}$ *des anneaux de valuation pour* $K$ *contenus dans* $B$, *sur l’ensemble* $\mathcal{A}'$ *des anneaux de valuation pour* $\kappa(B)$.
+*Soient* $K$ *un corps*, $B$ *un anneau de valuation pour* $K$, *et* $h_B$ *la place de* $K$ *associée à* $B$ *(à valeurs dans* $\kappa(B)$). *Alors l’application* $A \to h_B(A)$ *définit une bijection de l’ensemble* $\mathscr{A}$ *des anneaux de valuation pour* $K$ *contenus dans* $B$, *sur l’ensemble* $\mathscr{A}'$ *des anneaux de valuation pour* $\kappa(B)$.
 
-Si $A \in \mathcal{A}$, on a $h_B(A) \in \mathcal{A}'$: en effet, si $x' = h_B(x)$ (où $x \in B$) est un élément de $\kappa(B) - h_B(A)$, on a $x \notin A$, donc $x^{-1} \in A$ et $h_B(x)^{-1} \in h_B(A)$. D’autre part, pour $A \in \mathcal{A}$, on a $A \supset m(B)$ (prop. 1, b)), donc l’application $A \to h_B(A)$ est injective. Enfin, soient $A' \in \mathcal{A}'$ et $A = \overline{h_B}(A') \subset B$; on va montrer, ce qui achèvera la démonstration, que $A \in \mathcal{A}$; en effet, si $x \in K - A$, on a, soit $x \notin B$, soit $x \in B$; si $x \notin B$, on a $x^{-1} \in m(B) \subset A$; si $x \in B$, on a $h_B(x) \in \kappa(B)$ et $h_B(x) \notin A'$, donc $h_B(x^{-1}) \in A'$, et on en conclut encore que $x^{-1} \in A$; donc $A \in \mathcal{A}$.
+Si $A \in \mathscr{A}$, on a $h_B(A) \in \mathscr{A}'$: en effet, si $x' = h_B(x)$ (où $x \in B$) est un élément de $\kappa(B) - h_B(A)$, on a $x \notin A$, donc $x^{-1} \in A$ et $h_B(x)^{-1} \in h_B(A)$. D’autre part, pour $A \in \mathscr{A}$, on a $A \supset m(B)$ (prop. 1, b)), donc l’application $A \to h_B(A)$ est injective. Enfin, soient $A' \in \mathscr{A}'$ et $A = \overline{h_B}(A') \subset B$; on va montrer, ce qui achèvera la démonstration, que $A \in \mathscr{A}$; en effet, si $x \in K - A$, on a, soit $x \notin B$, soit $x \in B$; si $x \notin B$, on a $x^{-1} \in m(B) \subset A$; si $x \in B$, on a $h_B(x) \in \kappa(B)$ et $h_B(x) \notin A'$, donc $h_B(x^{-1}) \in A'$, et on en conclut encore que $x^{-1} \in A$; donc $A \in \mathscr{A}$.
 
 #### Corollaire {#ac-vi-s4-n1-cor-2 .statement}
 

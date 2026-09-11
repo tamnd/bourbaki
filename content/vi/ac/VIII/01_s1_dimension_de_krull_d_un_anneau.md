@@ -33,11 +33,11 @@ subsections:
       pdf_page: 15
 statements: 48
 exercises: 17
-content_sha256: 926d6c1f4565a1c0adedc618dc20b470221051d75168c9ee02db610d6b02cecf
+content_sha256: b3779eca895409ab64fe3cdd0e118ad1f2f17245b1e9b10d8684ab266b6974da
 translated_from: content/en-mt/ac/VIII/01_s1_dimension_de_krull_d_un_anneau.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 4ad0eb0f476452fa6aae6b7aefc9c174eae5e33a449664a5e3bb8d39db37c88d
+source_content_sha256: 04bf68d5a1063cd7722744e691782a332e605276ecd23b48d832c55ebb349652
 translation_model: gpt-5.4
 translation_run: translate-vi-27d9b9c6
 glossary_version: 34
@@ -78,7 +78,7 @@ Hãy chứng minh c). Cho $Z_0 \subset \ldots \subset Z_n$ là một xích các 
 
 vì I là hữu hạn, $Z_n$ được chứa trong một trong các $X_i$. Do đó, ta có $\dim(X) \leq \sup_{i} \dim(X_i)$, do đó có đẳng thức theo *a*).
 
-Bây giờ cho $x$ là một điểm của $X$ và $n = \sup_{i \in J_x} \dim_x(X_i)$, trong đó $J_x$ như trong mệnh đề. Ta có $\dim_x(X) \geq n$ theo *a*), và, để thiết lập đẳng thức, có thể giả sử $n$ hữu hạn. Với mọi $i \in J_x$, cho $U_i$ là một lân cận mở của $x$ trong $X$, sao cho $\dim(U_i \cap X_i) \leq n$. Đặt $U = (\bigcap_{i \in J_x} U_i) \cap (\bigcap_{i \in I - J_x} \mathcal{C} X_i)$; tập hợp $U$ là mở trong $X$. Hơn nữa, ta có $\dim(U) = \sup_{i \in J_x} \dim(U \cap X_i) \leq n$ theo đoạn trước, nên $\dim_x(X) \leq n$.
+Bây giờ cho $x$ là một điểm của $X$ và $n = \sup_{i \in J_x} \dim_x(X_i)$, trong đó $J_x$ như trong mệnh đề. Ta có $\dim_x(X) \geq n$ theo *a*), và, để thiết lập đẳng thức, có thể giả sử $n$ hữu hạn. Với mọi $i \in J_x$, cho $U_i$ là một lân cận mở của $x$ trong $X$, sao cho $\dim(U_i \cap X_i) \leq n$. Đặt $U = (\bigcap_{i \in J_x} U_i) \cap (\bigcap_{i \in I - J_x} \mathscr{C} X_i)$; tập hợp $U$ là mở trong $X$. Hơn nữa, ta có $\dim(U) = \sup_{i \in J_x} \dim(U \cap X_i) \leq n$ theo đoạn trước, nên $\dim_x(X) \leq n$.
 
 #### Hệ quả {#ac-viii-s1-n1-cor-1 .statement}
 
@@ -455,32 +455,32 @@ Các dãy $\mathbf{Z}$-môđun và đồng cấu
 
 $$
 \begin{array}{cccccc}
-K(\mathcal{C}_{\leq d-1}) & \xrightarrow{i_d} & K(\mathcal{C}_{\leq d}) & \xrightarrow{\zeta_d} & Z_d & \longrightarrow 0 \\
-K(\mathcal{C}^{>d+1}) & \xrightarrow{i_d} & K(\mathcal{C}^{>d}) & \xrightarrow{\zeta_d} & Z^d & \longrightarrow 0
+K(\mathscr{C}_{\leq d-1}) & \xrightarrow{i_d} & K(\mathscr{C}_{\leq d}) & \xrightarrow{\zeta_d} & Z_d & \longrightarrow 0 \\
+K(\mathscr{C}^{>d+1}) & \xrightarrow{i_d} & K(\mathscr{C}^{>d}) & \xrightarrow{\zeta_d} & Z^d & \longrightarrow 0
 \end{array}
 $$
 
 là khớp.
 
-Ta có $\zeta_d \circ i_d = 0$ theo Bổ đề 1. Với mọi $p \in \mathrm{Spec}(A)$ sao cho $\dim(A/p) = d$, ta có $\zeta_d([A/p]_{\leq d}) = z_d(A/p) = [V(p)]$, do đó đồng cấu $\zeta_d$ là toàn ánh. Theo IV, § 1, No. 4, Định lý 1, $K(\mathcal{C}_{\leq d})$ được sinh bởi các $[A/p]_{\leq d}$, trong đó $p \in \mathrm{Spec}(A)$ và $\dim(A/p) \leq d$; do đó, mọi phần tử $\xi$ của $K(\mathcal{C}_{\leq d})$ đều có thể viết được dưới dạng $\xi = i_d(\eta) + \sum_{i=1}^k n_i[A/p_i]_{\leq d}$, với $\eta \in K(\mathcal{C}_{\leq d-1})$, $n_i \in \mathbf{Z}$ và $\dim(A/p_i) = d$ với $1 \leq i \leq k$; ta có $\zeta_d(\xi) = \sum_{i=1}^k n_i[V(p_i)]$ và do đó $\zeta_d(\xi) = 0$ kéo theo $\xi = i_d(\eta) \in \mathrm{Im}(i_d)$, suy ra $\mathrm{Ker}(\zeta_d) = \mathrm{Im}(i_d)$.
+Ta có $\zeta_d \circ i_d = 0$ theo Bổ đề 1. Với mọi $p \in \mathrm{Spec}(A)$ sao cho $\dim(A/p) = d$, ta có $\zeta_d([A/p]_{\leq d}) = z_d(A/p) = [V(p)]$, do đó đồng cấu $\zeta_d$ là toàn ánh. Theo IV, § 1, No. 4, Định lý 1, $K(\mathscr{C}_{\leq d})$ được sinh bởi các $[A/p]_{\leq d}$, trong đó $p \in \mathrm{Spec}(A)$ và $\dim(A/p) \leq d$; do đó, mọi phần tử $\xi$ của $K(\mathscr{C}_{\leq d})$ đều có thể viết được dưới dạng $\xi = i_d(\eta) + \sum_{i=1}^k n_i[A/p_i]_{\leq d}$, với $\eta \in K(\mathscr{C}_{\leq d-1})$, $n_i \in \mathbf{Z}$ và $\dim(A/p_i) = d$ với $1 \leq i \leq k$; ta có $\zeta_d(\xi) = \sum_{i=1}^k n_i[V(p_i)]$ và do đó $\zeta_d(\xi) = 0$ kéo theo $\xi = i_d(\eta) \in \mathrm{Im}(i_d)$, suy ra $\mathrm{Ker}(\zeta_d) = \mathrm{Im}(i_d)$.
 
 Ta lập luận tương tự cho dãy thứ hai.
 
 #### Ví dụ 1 {#ac-viii-s1-n5-exa-1 .statement}
 
-Giả sử A là Noether và nguyên. Khi đó ta có $Z^0 = \mathbf{Z}.[\mathrm{Spec}(A)]$; ta có $\mathcal{C}^{>0} = \mathcal{C}$ và $z^0(M) = \mathrm{rg}(M).[Spec(A)]$. Do đó các môđun thuộc kiểu $\mathcal{C}^{>1}$ là các môđun xoắn.
+Giả sử A là Noether và nguyên. Khi đó ta có $Z^0 = \mathbf{Z}.[\mathrm{Spec}(A)]$; ta có $\mathscr{C}^{>0} = \mathscr{C}$ và $z^0(M) = \mathrm{rg}(M).[Spec(A)]$. Do đó các môđun thuộc kiểu $\mathscr{C}^{>1}$ là các môđun xoắn.
 
 #### Ví dụ 2 {#ac-viii-s1-n5-exa-2 .statement}
 
-Giả sử A là Noether và đóng nguyên. Khi đó $Z^1$ được đồng nhất với nhóm $D(A)$ các ước tử của A được đưa vào trong Chương VII (§ 1, No. 3, Định lý 2, và No. 6, Định lý 3). Các môđun thuộc kiểu $\mathcal{C}^{>2}$ là các môđun giả-không (VII, § 4, No. 4, Định nghĩa 2); nếu M là một môđun xoắn kiểu hữu hạn, thì $z^1(M) \in Z^1 = D(A)$ là nội dung $\chi(M)$ của M (VII, § 4, No. 5, Định nghĩa 4). Do đó các Mệnh đề 10 và 11 của *loc. cit.* tương đương với tính khớp của dãy $K(\mathcal{C}^{>2}) \to K(\mathcal{C}^{>1}) \to Z^1 \to 0$.
+Giả sử A là Noether và đóng nguyên. Khi đó $Z^1$ được đồng nhất với nhóm $D(A)$ các ước tử của A được đưa vào trong Chương VII (§ 1, No. 3, Định lý 2, và No. 6, Định lý 3). Các môđun thuộc kiểu $\mathscr{C}^{>2}$ là các môđun giả-không (VII, § 4, No. 4, Định nghĩa 2); nếu M là một môđun xoắn kiểu hữu hạn, thì $z^1(M) \in Z^1 = D(A)$ là nội dung $\chi(M)$ của M (VII, § 4, No. 5, Định nghĩa 4). Do đó các Mệnh đề 10 và 11 của *loc. cit.* tương đương với tính khớp của dãy $K(\mathscr{C}^{>2}) \to K(\mathscr{C}^{>1}) \to Z^1 \to 0$.
 
 #### Ví dụ 3 {#ac-viii-s1-n5-exa-3 .statement}
 
-Các môđun kiểu $\mathcal{C}_{\leq 0}$ là các môđun có chiều $\leq 0$, nghĩa là các môđun có độ dài hữu hạn (No. 4, Nhận xét 1). Ta có $\mathrm{long}_A(M) = \varepsilon(z_0(M))$ với mọi A-môđun M có độ dài hữu hạn, trong đó $\varepsilon : Z_0 \to \mathbf{Z}$ gán cho tổ hợp tuyến tính $\sum_m n_m[V(m)]$ số nguyên $\sum_m n_m$ (IV, § 2, No. 5, hệ quả của Mệnh đề 8).
+Các môđun kiểu $\mathscr{C}_{\leq 0}$ là các môđun có chiều $\leq 0$, nghĩa là các môđun có độ dài hữu hạn (No. 4, Nhận xét 1). Ta có $\mathrm{long}_A(M) = \varepsilon(z_0(M))$ với mọi A-môđun M có độ dài hữu hạn, trong đó $\varepsilon : Z_0 \to \mathbf{Z}$ gán cho tổ hợp tuyến tính $\sum_m n_m[V(m)]$ số nguyên $\sum_m n_m$ (IV, § 2, No. 5, hệ quả của Mệnh đề 8).
 
 #### Ví dụ 4 {#ac-viii-s1-n5-exa-4 .statement}
 
-Giả sử A là một miền nguyên và hữu hạn chiều. Đặt $d = \dim(A)$. Khi đó ta có $\mathcal{C}_{\leq d} = \mathcal{C}$, $Z_d = \mathbf{Z}.[\mathrm{Spec}(A)] = Z^0$, $z_d(M) = \mathrm{rg}(M).[Spec(A)] = z^0(M)$, và các môđun kiểu $\mathcal{C}_{\leq d-1}$ là các môđun xoắn.
+Giả sử A là một miền nguyên và hữu hạn chiều. Đặt $d = \dim(A)$. Khi đó ta có $\mathscr{C}_{\leq d} = \mathscr{C}$, $Z_d = \mathbf{Z}.[\mathrm{Spec}(A)] = Z^0$, $z_d(M) = \mathrm{rg}(M).[Spec(A)] = z^0(M)$, và các môđun kiểu $\mathscr{C}_{\leq d-1}$ là các môđun xoắn.
 
 ## BÀI TẬP {#ac-viii-s1-exercises}
 

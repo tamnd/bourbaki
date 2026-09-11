@@ -29,9 +29,9 @@ subsections:
       pdf_page: 124
 statements: 49
 exercises: 28
-content_sha256: 14f73fe44fb9e2681b77121c24e2b4800b39ad9be11ce57788d45bcc0a93ff10
+content_sha256: f655b134a358bf7c8479c2e9b2d35b210bf3a192cefb3a722c7dd10ed89a4a19
 translated_from: content/en/ac/II/04_s4_spectra_of_rings_and_supports_of_modules.md
-source_content_sha256: afbce0ee70ea654b4478dd2d27c1a7060b1124651d86be84ea7b4b58f7101cd3
+source_content_sha256: 6f7cf1ebd9f83d55d972bba623722a1f420c6ea28c01ee2cc23b631ea4662e6a
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-b4ef23db
 glossary_version: 34
@@ -94,7 +94,7 @@ Suy ra từ Mệnh đề 2 rằng mọi thành phần bất khả quy của $X$ 
 
 *Cho $X$ là một không gian tôpô. Mọi tập con bất khả quy của $X$ đều được chứa trong một thành phần bất khả quy của $X$ và $X$ là hợp của các thành phần bất khả quy của nó.*
 
-Để chứng minh mệnh đề đầu tiên, chỉ cần, nhờ Bổ đề Zorn, chứng minh rằng tập hợp 3 các tập con bất khả quy của $X$ là *quy nạp*. Cho $\mathcal{G}$ là một tập con của $\mathfrak{S}$ được sắp thứ tự toàn phần bởi phép bao hàm; ta chứng minh rằng hợp $E$ của các tập hợp $F \in \mathcal{G}$ là bất khả quy. Cho $U, V$ là hai tập mở của $X$ giao với $E$; vì $\mathcal{G}$ được sắp thứ tự toàn phần, tồn tại một tập hợp $F \in \mathcal{G}$ giao với $U$ và $V$; vì $F$ là bất khả quy, $U \cap V$ giao với $F$ và do đó cũng giao với $E$, điều này chứng minh rằng $E$ là bất khả quy và do đó 3 là quy nạp. Mệnh đề thứ hai suy ra từ mệnh đề thứ nhất, vì mọi tập con của $X$ gồm một điểm duy nhất đều là bất khả quy.
+Để chứng minh mệnh đề đầu tiên, chỉ cần, nhờ Bổ đề Zorn, chứng minh rằng tập hợp 3 các tập con bất khả quy của $X$ là *quy nạp*. Cho $\mathscr{G}$ là một tập con của $\mathfrak{S}$ được sắp thứ tự toàn phần bởi phép bao hàm; ta chứng minh rằng hợp $E$ của các tập hợp $F \in \mathscr{G}$ là bất khả quy. Cho $U, V$ là hai tập mở của $X$ giao với $E$; vì $\mathscr{G}$ được sắp thứ tự toàn phần, tồn tại một tập hợp $F \in \mathscr{G}$ giao với $U$ và $V$; vì $F$ là bất khả quy, $U \cap V$ giao với $F$ và do đó cũng giao với $E$, điều này chứng minh rằng $E$ là bất khả quy và do đó 3 là quy nạp. Mệnh đề thứ hai suy ra từ mệnh đề thứ nhất, vì mọi tập con của $X$ gồm một điểm duy nhất đều là bất khả quy.
 
 #### Hệ quả {#ac-ii-s4-n1-cor-1 .statement}
 

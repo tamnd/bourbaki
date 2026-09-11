@@ -33,7 +33,7 @@ subsections:
       pdf_page: 81
 statements: 28
 exercises: 25
-content_sha256: 68115c9d8bf4b1a2b06c471d9339d5bb6256d795fcf17a9f580d192667524606
+content_sha256: 0ebb1895c7e28c518fbf35c9fa2da634a6f48b944edc7bcba45e801c99d1ee9c
 translated_from: content/fr/ac/VIII/07_s7_multiplicites.md
 source_lang: fr
 translation_method: machine
@@ -145,7 +145,7 @@ This applies in particular when B is the completion \* or the henselisation \* o
 
 #### Example {#ac-viii-s7-n2-exa-1 .statement}
 
-\* Let X be a complex algebraic variety, $\mathcal{O}_{X,x}$ the local ring of X at a rational point x, $X^{an}$ the analytic space associated with X; let x again denote the point of $X^{an}$ corresponding to x, and let $\mathcal{O}_{X^{an},x}$ be the local ring of $X^{an}$ at x. Then $e(\mathcal{O}_{X^{an},x}) = e(\mathcal{O}_{X,x})$. \*
+\* Let X be a complex algebraic variety, $\mathscr{O}_{X,x}$ the local ring of X at a rational point x, $X^{an}$ the analytic space associated with X; let x again denote the point of $X^{an}$ corresponding to x, and let $\mathscr{O}_{X^{an},x}$ be the local ring of $X^{an}$ at x. Then $e(\mathscr{O}_{X^{an},x}) = e(\mathscr{O}_{X,x})$. \*
 
 ### 3. Multiplicities and finite extensions
 

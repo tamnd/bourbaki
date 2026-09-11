@@ -25,7 +25,7 @@ subsections:
       pdf_page: 305
 statements: 6
 exercises: 3
-content_sha256: 55183dce28d121c14a65bc1ae9b8a1e4c9902f11e7b2707081227fe1fa054024
+content_sha256: 77da47eff4a9cd348b9b5750f0406855ff25790acc8bc710348c578033c3e472
 ---
 
 ## 3. PRIMARY DECOMPOSITION IN GRADED MODULES
@@ -56,7 +56,7 @@ With the notation of the proof of Proposition 1, consider the homomorphism obtai
 
 *Let $A$ be a torsion-free commutative group, $A$ a graded Noetherian ring of type $A$ and $M$ a graded finitely generated $A$-module of type $A$. There exists a composition series $(\mathbf{M}_i)_{0 \leq i \leq n}$ consisting of graded submodules of $M$ such that for $0 \leq i \leq n - 1$ the graded module $\mathbf{M}_i / \mathbf{M}_{i+1}$ is isomorphic to a shifted graded module $(A/p_i)(k_i)$, where $p_i$ is a graded prime ideal of $A$ and $k_i \in A$.*
 
-It is sufficient to retrace the argument of § 1, no. 4, Theorem 1 taking on this occasion $\mathcal{G}$ to be the set of graded submodules of $M$ with a composition series with the properties of the statement; we conclude using the Corollary to Proposition 1.
+It is sufficient to retrace the argument of § 1, no. 4, Theorem 1 taking on this occasion $\mathscr{G}$ to be the set of graded submodules of $M$ with a composition series with the properties of the statement; we conclude using the Corollary to Proposition 1.
 
 ### 2. PRIMARY SUBMODULES CORRESPONDING TO GRADED PRIME IDEALS
 

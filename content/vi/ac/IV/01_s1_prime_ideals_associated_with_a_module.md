@@ -29,9 +29,9 @@ subsections:
       pdf_page: 285
 statements: 24
 exercises: 19
-content_sha256: cd292f897a412048592c19c416a1b7b36aa47eefe472fa4f37babbac3992c2fd
+content_sha256: 553a219cf28cd7e184dd29f41ad3e04980d046d4e01d6087fb21a69ad5011649
 translated_from: content/en/ac/IV/01_s1_prime_ideals_associated_with_a_module.md
-source_content_sha256: a0083654b94c5bf51cd105c953d229508db86368fcf74e189f13c7e0aea21748
+source_content_sha256: 470d5844ca28a94c5255be9bb84e59e7adab1ce52d0bdae1a5cc72579b15672d
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-8e55ed5d
 glossary_version: 34
@@ -114,7 +114,7 @@ $$
 
 *Cho $M$ là một A-môđun và $\Phi$ là một tập con của $\operatorname{Ass}(M)$. Khi đó tồn tại một môđun con $N$ của $M$ sao cho* $\operatorname{Ass}(N) = \operatorname{Ass}(M) - \Phi$ *và* $\operatorname{Ass}(M/N) = \Phi$.
 
-Gọi $\mathcal{E}$ là tập hợp các môđun con $P$ của $M$ sao cho $\operatorname{Ass}(P) \subset \operatorname{Ass}(M) - \Phi$. Công thức (1) chỉ ra rằng tập hợp $\mathcal{E}$, có thứ tự bởi quan hệ bao hàm, là *quy nạp*; hơn nữa, $\{0\} \in \mathcal{E}$ và do đó $\mathcal{E} \neq \varnothing$. Gọi $N$ là một phần tử cực đại của $\mathcal{E}$. Khi đó $\operatorname{Ass}(N) \subset \operatorname{Ass}(M) - \Phi$. Ta sẽ thấy rằng $\operatorname{Ass}(M/N) \subset \Phi$, điều này, theo Mệnh đề 3, sẽ hoàn thành chứng minh. Cho $p \in \operatorname{Ass}(M/N)$; khi đó $M/N$ chứa một môđun con $F/N$ đẳng cấu với $A/p$. Theo các Mệnh đề 1 và 3, $\operatorname{Ass}(F) \subset \operatorname{Ass}(N) \cup \{p\}$. Vì $N$ là cực đại trong $\mathcal{E}$, $F \notin \mathcal{E}$ và do đó $p \in \Phi$.
+Gọi $\mathscr{E}$ là tập hợp các môđun con $P$ của $M$ sao cho $\operatorname{Ass}(P) \subset \operatorname{Ass}(M) - \Phi$. Công thức (1) chỉ ra rằng tập hợp $\mathscr{E}$, có thứ tự bởi quan hệ bao hàm, là *quy nạp*; hơn nữa, $\{0\} \in \mathscr{E}$ và do đó $\mathscr{E} \neq \varnothing$. Gọi $N$ là một phần tử cực đại của $\mathscr{E}$. Khi đó $\operatorname{Ass}(N) \subset \operatorname{Ass}(M) - \Phi$. Ta sẽ thấy rằng $\operatorname{Ass}(M/N) \subset \Phi$, điều này, theo Mệnh đề 3, sẽ hoàn thành chứng minh. Cho $p \in \operatorname{Ass}(M/N)$; khi đó $M/N$ chứa một môđun con $F/N$ đẳng cấu với $A/p$. Theo các Mệnh đề 1 và 3, $\operatorname{Ass}(F) \subset \operatorname{Ass}(N) \cup \{p\}$. Vì $N$ là cực đại trong $\mathscr{E}$, $F \notin \mathscr{E}$ và do đó $p \in \Phi$.
 
 ### 2. ĐỊNH VỊ CỦA CÁC IĐÊAN NGUYÊN TỐ LIÊN KẾT
 
@@ -184,7 +184,7 @@ Ta biết rằng căn lũy linh của A là giao của các phần tử cực ti
 
 Cho A là một vành Noether và M là một A-môđun hữu hạn sinh. Tồn tại một chuỗi hợp thành $(M_i)_{0 \leq i \leq n}$ của M sao cho, với $0 \leq i \leq n - 1$, $M_i / M_{i+1}$ là đẳng cấu với $A / \mathfrak{p}_i$, trong đó $\mathfrak{p}_i$ là một iđêan nguyên tố của A.
 
-Gọi $\mathcal{G}$ là tập hợp các môđun con của M có một chuỗi hợp thành với tính chất của mệnh đề. Vì $\mathcal{G}$ không rỗng (vì $\{0\}$ thuộc $\mathcal{G}$) và M là Noether, $\mathcal{G}$ có một phần tử cực đại N. Nếu $M \neq N$, thì $M/N \neq 0$ và do đó $\operatorname{Ass}(M/N) \neq \varnothing$ (no. 1, Hệ quả 1 của Mệnh đề 2); vì thế $M/N$ chứa một môđun con $N'/N$ đẳng cấu với một A-môđun có dạng $A/\mathfrak{p}$, trong đó $\mathfrak{p}$ là nguyên tố; khi đó theo định nghĩa $N' \in \mathcal{G}$, điều này mâu thuẫn với đặc trưng cực đại của N. Khi đó tất yếu $N = M$.
+Gọi $\mathscr{G}$ là tập hợp các môđun con của M có một chuỗi hợp thành với tính chất của mệnh đề. Vì $\mathscr{G}$ không rỗng (vì $\{0\}$ thuộc $\mathscr{G}$) và M là Noether, $\mathscr{G}$ có một phần tử cực đại N. Nếu $M \neq N$, thì $M/N \neq 0$ và do đó $\operatorname{Ass}(M/N) \neq \varnothing$ (no. 1, Hệ quả 1 của Mệnh đề 2); vì thế $M/N$ chứa một môđun con $N'/N$ đẳng cấu với một A-môđun có dạng $A/\mathfrak{p}$, trong đó $\mathfrak{p}$ là nguyên tố; khi đó theo định nghĩa $N' \in \mathscr{G}$, điều này mâu thuẫn với đặc trưng cực đại của N. Khi đó tất yếu $N = M$.
 
 #### Định lý 2 {#ac-iv-s1-thm-2 .statement}
 

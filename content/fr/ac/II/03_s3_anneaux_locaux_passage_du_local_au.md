@@ -32,7 +32,7 @@ subsections:
       pdf_page: 114
 statements: 47
 exercises: 16
-content_sha256: 2f69a5c9c3f3fe54b1600708df827c7cdf7eb0e4e5d37bfe42639e07835f4101
+content_sha256: d3b666a1deb16d32a56a3c949da8f57215de8773c1542b6e46152738762b8fdf
 ---
 
 ## § 3. Anneaux locaux. Passage du local au global
@@ -408,9 +408,9 @@ a) l’ensemble des idéaux maximaux de $A$ est fini ;
 
 b) le quotient de $A$ par son radical est composé direct d’un nombre fini de corps.
 
-Supposons que le quotient de $A$ par son radical $\mathcal{R}$ soit composé direct d’un nombre fini de corps. Alors $A/\mathcal{R}$ ne possède qu’un nombre fini d’idéaux et *a fortiori* n’a qu’un nombre fini d’idéaux maximaux. Comme tout idéal maximal contient $\mathcal{R}$ (*Alg.*, chap. VIII, § 6, n° 2, déf. 2), les idéaux maximaux de $A$ sont les images réciproques des idéaux maximaux de $A/\mathcal{R}$ par l’homomorphisme canonique $A \to A/\mathcal{R}$; ils sont donc en nombre fini.
+Supposons que le quotient de $A$ par son radical $\mathscr{R}$ soit composé direct d’un nombre fini de corps. Alors $A/\mathscr{R}$ ne possède qu’un nombre fini d’idéaux et *a fortiori* n’a qu’un nombre fini d’idéaux maximaux. Comme tout idéal maximal contient $\mathscr{R}$ (*Alg.*, chap. VIII, § 6, n° 2, déf. 2), les idéaux maximaux de $A$ sont les images réciproques des idéaux maximaux de $A/\mathscr{R}$ par l’homomorphisme canonique $A \to A/\mathscr{R}$; ils sont donc en nombre fini.
 
-Réciproquement, supposons que $A$ ne possède qu’un nombre fini d’idéaux maximaux distincts $m_1, ..., m_n$. Les $A/m_i$ sont des corps, et il résulte du § 1, n° 2, prop. 5, que l’application canonique $A \to \prod_{i=1}^n A/m_i$ est surjective ; comme son noyau $\bigcap_{i=1}^n m_i$ est le radical $\mathcal{R}$ (*Alg.*, chap. VIII, § 6, n° 2, déf. 2), $A/\mathcal{R}$ est isomorphe à $\prod_{i=1}^n A/m_i$.
+Réciproquement, supposons que $A$ ne possède qu’un nombre fini d’idéaux maximaux distincts $m_1, ..., m_n$. Les $A/m_i$ sont des corps, et il résulte du § 1, n° 2, prop. 5, que l’application canonique $A \to \prod_{i=1}^n A/m_i$ est surjective ; comme son noyau $\bigcap_{i=1}^n m_i$ est le radical $\mathscr{R}$ (*Alg.*, chap. VIII, § 6, n° 2, déf. 2), $A/\mathscr{R}$ est isomorphe à $\prod_{i=1}^n A/m_i$.
 
 #### Définition 4 {#ac-ii-s3-def-4 .statement}
 

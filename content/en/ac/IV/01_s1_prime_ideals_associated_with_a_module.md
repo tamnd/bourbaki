@@ -29,7 +29,7 @@ subsections:
       pdf_page: 285
 statements: 24
 exercises: 19
-content_sha256: a0083654b94c5bf51cd105c953d229508db86368fcf74e189f13c7e0aea21748
+content_sha256: 470d5844ca28a94c5255be9bb84e59e7adab1ce52d0bdae1a5cc72579b15672d
 ---
 
 ## 1. PRIME IDEALS ASSOCIATED WITH A MODULE
@@ -107,7 +107,7 @@ The canonical mapping $M \to \bigoplus_{i \in I} (M/Q_i)$ is injective; then it 
 
 *Let $M$ be an A-module and $\Phi$ a subset of $\operatorname{Ass}(M)$. Then there exists a submodule $N$ of $M$ such that* $\operatorname{Ass}(N) = \operatorname{Ass}(M) - \Phi$ *and* $\operatorname{Ass}(M/N) = \Phi$.
 
-Let $\mathcal{E}$ be the set of submodules $P$ of $M$ such that $\operatorname{Ass}(P) \subset \operatorname{Ass}(M) - \Phi$. Formula (1) shows that the set $\mathcal{E}$, ordered by inclusion, is *inductive*; moreover, $\{0\} \in \mathcal{E}$ and hence $\mathcal{E} \neq \varnothing$. Let $N$ be a maximal element of $\mathcal{E}$. Then $\operatorname{Ass}(N) \subset \operatorname{Ass}(M) - \Phi$. We shall see that $\operatorname{Ass}(M/N) \subset \Phi$, which, by Proposition 3, will complete the proof. Let $p \in \operatorname{Ass}(M/N)$; then $M/N$ contains a submodule $F/N$ isomorphic to $A/p$. By Propositions 1 and 3, $\operatorname{Ass}(F) \subset \operatorname{Ass}(N) \cup \{p\}$. Since $N$ is maximal in $\mathcal{E}$, $F \notin \mathcal{E}$ and hence $p \in \Phi$.
+Let $\mathscr{E}$ be the set of submodules $P$ of $M$ such that $\operatorname{Ass}(P) \subset \operatorname{Ass}(M) - \Phi$. Formula (1) shows that the set $\mathscr{E}$, ordered by inclusion, is *inductive*; moreover, $\{0\} \in \mathscr{E}$ and hence $\mathscr{E} \neq \varnothing$. Let $N$ be a maximal element of $\mathscr{E}$. Then $\operatorname{Ass}(N) \subset \operatorname{Ass}(M) - \Phi$. We shall see that $\operatorname{Ass}(M/N) \subset \Phi$, which, by Proposition 3, will complete the proof. Let $p \in \operatorname{Ass}(M/N)$; then $M/N$ contains a submodule $F/N$ isomorphic to $A/p$. By Propositions 1 and 3, $\operatorname{Ass}(F) \subset \operatorname{Ass}(N) \cup \{p\}$. Since $N$ is maximal in $\mathscr{E}$, $F \notin \mathscr{E}$ and hence $p \in \Phi$.
 
 ### 2. LOCALIZATION OF ASSOCIATED PRIME IDEALS
 
@@ -177,7 +177,7 @@ We know that the nilradical of A is the intersection of the minimal elements of 
 
 Let A be a Noetherian ring and M a finitely generated A-module. There exists a composition series $(M_i)_{0 \leq i \leq n}$ of M such that, for $0 \leq i \leq n - 1$, $M_i / M_{i+1}$ is isomorphic to $A / \mathfrak{p}_i$, where $\mathfrak{p}_i$ is a prime ideal of A.
 
-Let $\mathcal{G}$ be the set of submodules of M which have a composition series with the property of the statement. As $\mathcal{G}$ is non-empty (for $\{0\}$ belongs to $\mathcal{G}$) and M is Noetherian, $\mathcal{G}$ has a maximal element N. If $M \neq N$, then $M/N \neq 0$ and hence $\operatorname{Ass}(M/N) \neq \varnothing$ (no. 1, Corollary 1 to Proposition 2); $M/N$ therefore contains a submodule $N'/N$ isomorphic to an A-module of the form $A/\mathfrak{p}$, where $\mathfrak{p}$ is prime; then by definition $N' \in \mathcal{G}$, which contradicts the maximal character of N. Then necessarily $N = M$.
+Let $\mathscr{G}$ be the set of submodules of M which have a composition series with the property of the statement. As $\mathscr{G}$ is non-empty (for $\{0\}$ belongs to $\mathscr{G}$) and M is Noetherian, $\mathscr{G}$ has a maximal element N. If $M \neq N$, then $M/N \neq 0$ and hence $\operatorname{Ass}(M/N) \neq \varnothing$ (no. 1, Corollary 1 to Proposition 2); $M/N$ therefore contains a submodule $N'/N$ isomorphic to an A-module of the form $A/\mathfrak{p}$, where $\mathfrak{p}$ is prime; then by definition $N' \in \mathscr{G}$, which contradicts the maximal character of N. Then necessarily $N = M$.
 
 #### Theorem 2 {#ac-iv-s1-thm-2 .statement}
 

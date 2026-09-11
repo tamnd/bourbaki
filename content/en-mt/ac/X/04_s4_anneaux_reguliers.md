@@ -32,11 +32,11 @@ subsections:
       pdf_page: 58
 statements: 29
 exercises: 13
-content_sha256: 3a9b79f63014ef951b00ee573dd100216a0d16c92c7c07a16d7c538bfed42cbf
+content_sha256: 936b10a5724a284944f5a24e760fda4b78c2506146188e5fc1a9ccf8c5eed935
 translated_from: content/fr/ac/X/04_s4_anneaux_reguliers.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 1cb4ee83cd3848ac9878b8d74c05d2ee772f02b46e916425c5ae49647a84ed0f
+source_content_sha256: 3693d2c40a9c1619178ebb43dafb3e72feae8a82508f1ee62c064bb5c6a45b22
 translation_model: gpt-5.4
 translation_run: translate-en-mt-0c057ba2
 glossary_version: 34
@@ -403,7 +403,7 @@ It now remains for us to prove that when the equivalent conditions (i) and (iv) 
 
 #### Example {#ac-x-s4-n5-exa-1 .statement}
 
-*Let $X$, $Y$ be two complex analytic varieties, locally of finite dimension, $f$ a morphism of $X$ into $Y$, and $x$ a point of $X$. Consider the local homomorphism $\rho : \mathcal{O}_{Y, f(x)} \to \mathcal{O}_{X, x}$ associated with $f$. The mapping $d\rho$ is the transpose of the tangent mapping $T_x(f) : T_x(X) \to T_{f(x)}(Y)$. The conditions (i) to (iv) of Proposition 9 are therefore equivalent in this case to the fact that $f$ is a submersion at $x$ (VAR, R, 5.9.1).*
+*Let $X$, $Y$ be two complex analytic varieties, locally of finite dimension, $f$ a morphism of $X$ into $Y$, and $x$ a point of $X$. Consider the local homomorphism $\rho : \mathscr{O}_{Y, f(x)} \to \mathscr{O}_{X, x}$ associated with $f$. The mapping $d\rho$ is the transpose of the tangent mapping $T_x(f) : T_x(X) \to T_{f(x)}(Y)$. The conditions (i) to (iv) of Proposition 9 are therefore equivalent in this case to the fact that $f$ is a submersion at $x$ (VAR, R, 5.9.1).*
 
 #### Corollary {#ac-x-s4-n5-cor-2 .statement}
 

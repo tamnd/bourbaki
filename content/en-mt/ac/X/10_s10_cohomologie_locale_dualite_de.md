@@ -24,7 +24,7 @@ subsections:
       pdf_page: 146
 statements: 20
 exercises: 11
-content_sha256: 85631cae3a0fd66b8bc65facea3abefb19cf36131eee209f582ccfd40040fad3
+content_sha256: a6c209ae5d50a5fa9874c12004d6ccd19e14a3fd0f1d0a3095e85f926e71e4dd
 translated_from: content/fr/ac/X/10_s10_cohomologie_locale_dualite_de.md
 source_lang: fr
 translation_method: machine
@@ -48,7 +48,7 @@ The ideals $m_A^n$ for $n \geq 1$ form a cofinal subset of $\mathscr{D}$; hence 
 
 #### Remark 1 {#ac-x-s10-n1-rem-1 .statement}
 
-Let $X$ be the topological space $\mathrm{Spec}(A)$, $\mathcal{O}_X$ the structural sheaf of rings and $\widetilde{M}$ the $\mathcal{O}_X$-module associated with $M$. The graded $A$-module $H_A(M)$ is identified with the module $H_{\{m_A\}}(X, \widetilde{M})$ of cohomology with support in the closed point $m_A$ of $X$.
+Let $X$ be the topological space $\mathrm{Spec}(A)$, $\mathscr{O}_X$ the structural sheaf of rings and $\widetilde{M}$ the $\mathscr{O}_X$-module associated with $M$. The graded $A$-module $H_A(M)$ is identified with the module $H_{\{m_A\}}(X, \widetilde{M})$ of cohomology with support in the closed point $m_A$ of $X$.
 
 For every homomorphism $f : M \to N$ of $A$-modules, the mappings $\mathrm{Ext}_A(1_{A/a}, f) : \mathrm{Ext}_A(A/a, M) \longrightarrow \mathrm{Ext}_A(A/a, N)$ form an inductive system of graded linear mappings. By passing to the inductive limit, one obtains a graded homomorphism $H_A(f) : H_A(M) \to H_A(N)$. For every sequence $M \xrightarrow{f} N \xrightarrow{g} P$ of $A$-modules and homomorphisms, one has $H_A(g \circ f) = H_A(g) \circ H_A(f)$. Let
 
@@ -58,10 +58,10 @@ $$
 \end{array}
 $$
 
-be an exact sequence of $A$-modules. By $\Lambda$, X, p. 90, Prop. 8, the connecting homomorphisms of the extension modules $\mathrm{Ext}_A(A/a, P) \longrightarrow \mathrm{Ext}_A(A/a, M)$ form an inductive system of $A$-linear mappings, graded of (ascending) degree +1. By passing to the inductive limit, one deduces an $A$-homomorphism $\partial(\mathcal{E}) : H_A(P) \to H_A(M)$, graded of degree +1, which makes exact the sequence of homomorphisms
+be an exact sequence of $A$-modules. By $\Lambda$, X, p. 90, Prop. 8, the connecting homomorphisms of the extension modules $\mathrm{Ext}_A(A/a, P) \longrightarrow \mathrm{Ext}_A(A/a, M)$ form an inductive system of $A$-linear mappings, graded of (ascending) degree +1. By passing to the inductive limit, one deduces an $A$-homomorphism $\partial(\mathscr{E}) : H_A(P) \to H_A(M)$, graded of degree +1, which makes exact the sequence of homomorphisms
 
 $$
-\ldots \longrightarrow H_A^{n-1}(P) \xrightarrow{\partial^{n-1}(\mathcal{E})} H_A^n(M) \xrightarrow{H_A^n(f)} H_A^n(N) \xrightarrow{H_A^n(g)} H_A^n(P) \xrightarrow{\partial^n(\mathcal{E})} H_A^{n+1}(M) \longrightarrow \ldots
+\ldots \longrightarrow H_A^{n-1}(P) \xrightarrow{\partial^{n-1}(\mathscr{E})} H_A^n(M) \xrightarrow{H_A^n(f)} H_A^n(N) \xrightarrow{H_A^n(g)} H_A^n(P) \xrightarrow{\partial^n(\mathscr{E})} H_A^{n+1}(M) \longrightarrow \ldots
 $$
 
 Let M be an a-module. For every ideal $\alpha$ of A, the A-module $\mathrm{Hom}_A(A/\alpha, M)$ is canonically identified with the submodule of M consisting of the elements annihilated by $\alpha$. Thus $H_A^0(M)$ is identified with the submodule of M consisting of the elements $m$ which are annihilated by a power of $\mathfrak{m}_A$, that is to say such that $\mathrm{long}_A(Am) < +\infty$. In particular one has $H_A^0(M) = M$ when M is artinian.
@@ -229,14 +229,14 @@ $$
 
 Let
 $$
-(\mathcal{E}) \quad 0 \to M \to N \to P \to 0
+(\mathscr{E}) \quad 0 \to M \to N \to P \to 0
 $$
 be an exact sequence of a-modules. Using A, X, p. 104, prop. 3 and p. 106, prop. 4, one proves that the following diagrams are commutative:
 
 $$
 \begin{array}{ccc}
 \mathrm{Tor}_{d-i}^A(P, H_A^d(A)) & \xrightarrow{\tau^i(P)} & H_A^i(P) \\
-\downarrow \partial_{d-i}(\mathcal{E}, H_A^d(A)) & & \downarrow \partial^i(\mathcal{E}) \\
+\downarrow \partial_{d-i}(\mathscr{E}, H_A^d(A)) & & \downarrow \partial^i(\mathscr{E}) \\
 \mathrm{Tor}_{d-i-1}^A(M, H_A^d(A)) & \xrightarrow{\tau^{i+1}(M)} & H_A^{i+1}(M)
 \end{array}
 $$
@@ -364,7 +364,7 @@ $$
 
 Let
 
-$$(\mathcal{E})$$
+$$(\mathscr{E})$$
 $$0 \to M' \to M \to M'' \to 0$$
 
 be an exact sequence of $A$-modules. By Remark 2 of No. 2 and that of § 8, No. 7, the following diagrams are commutative:
@@ -372,7 +372,7 @@ be an exact sequence of $A$-modules. By Remark 2 of No. 2 and that of § 8, No. 
 $$
 \begin{array}{ccc}
 H_A^{i-1}(M'') & \xrightarrow{\gamma^{i-1}(M'')} & D(\mathrm{Ext}_A^{d-i+1}(M'', \Omega)) \\
-\downarrow & & \downarrow (-1)^{d-i+1}D(\delta^d i(\mathcal{E}, \Omega)) \\
+\downarrow & & \downarrow (-1)^{d-i+1}D(\delta^d i(\mathscr{E}, \Omega)) \\
 H_A^i(M') & \xrightarrow{\gamma^i(M')} & D(\mathrm{Ext}_A^{d-i}(M', \Omega))
 \end{array}
 $$
@@ -380,7 +380,7 @@ $$
 $$
 \begin{array}{ccc}
 \mathrm{Ext}_A^{d-i}(M', \widehat{\Omega}) & \xrightarrow{\delta^i(M')} & D(H_A^i(M')) \\
-\downarrow & & \downarrow (-1)^{d-i+1}D(\partial^{i-1}(\mathcal{E})) \\
+\downarrow & & \downarrow (-1)^{d-i+1}D(\partial^{i-1}(\mathscr{E})) \\
 \mathrm{Ext}_A^{d-i+1}(M'', \widehat{\Omega}) & \xrightarrow{\delta^{i-1}(M'')} & D(H_A^{i-1}(M''))
 \end{array}
 $$

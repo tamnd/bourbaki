@@ -65,7 +65,7 @@ subsections:
       pdf_page: 212
 statements: 57
 exercises: 13
-content_sha256: 91252eda42cd43c67b0cf362d2d386d7140a09875316d4da9f51fdc92636851f
+content_sha256: 7dc1163f9ddf817630aacb28623da2988acb2ad2aeae931c34983b288cd25769
 translated_from: content/en/ac/III/02_s2_general_results_on_filtered_rings_and.md
 source_content_sha256: 8ef1e1745e256756c336640ea25cd38dd8a13bd1f46cf491dee2874345913e91
 translation_model: gpt-5-6-mini, gpt-5.4
@@ -444,11 +444,11 @@ Cho $m'$ là một iđêan hai phía khác của $A$; để tôpô $m'$-adic tr�
 
 *Nếu $G$ giao hoán và được viết theo phép cộng, thì các điều kiện này cũng tương đương với điều kiện sau:*
 
-(d) *Mọi họ* $(x_\lambda)_{\lambda \in L}$ *các phần tử của $G'$ hội tụ về 0 đối với lọc $\mathcal{F}$ gồm các phần bù của các tập con hữu hạn của $L$ thì đều khả tổng trong $G'$*.
+(d) *Mọi họ* $(x_\lambda)_{\lambda \in L}$ *các phần tử của $G'$ hội tụ về 0 đối với lọc $\mathscr{F}$ gồm các phần bù của các tập con hữu hạn của $L$ thì đều khả tổng trong $G'$*.
 
 Để một lọc trên $G$ là một lọc Cauchy (tương ứng, một lọc hội tụ), điều kiện cần và đủ là ảnh của nó qua ánh xạ chính tắc $G \to G'$ là một lọc Cauchy (tương ứng, một lọc hội tụ) (*Tôpô Đại cương*, Chương II, § 3, no. 1, Mệnh đề 4); do đó trước hết suy ra sự tương đương của (a) và (b); mặt khác, vì $G'$ là mêtric hóa được, sự tương đương của (b) và (c) suy ra từ Mệnh đề 9 của *Tôpô Đại cương*, Chương IX, § 2, no. 6.
 
-Bây giờ giả sử rằng $G$ giao hoán. Giả sử rằng $G'$ đầy đủ và $(x_\lambda)_{\lambda \in L}$ là một họ các phần tử của $G'$ hội tụ về 0 đối với $\mathcal{F}$. Với mọi lân cận $V'$ của 0 trong $G$ là một nhóm con của $G'$, tồn tại một tập con hữu hạn $J$ của $L$ sao cho điều kiện $\lambda \in L - J$ kéo theo $x_\lambda \in V'$; khi đó $\sum_{\lambda \in H} x_\lambda \in V'$ với mọi tập con hữu hạn $H$ của $L$ không giao với $J$, điều này chỉ ra rằng họ $(x_\lambda)_{\lambda \in L}$ là khả tổng (*Tôpô Đại cương*, Chương III, § 5, no. 2, Định lý 1).
+Bây giờ giả sử rằng $G$ giao hoán. Giả sử rằng $G'$ đầy đủ và $(x_\lambda)_{\lambda \in L}$ là một họ các phần tử của $G'$ hội tụ về 0 đối với $\mathscr{F}$. Với mọi lân cận $V'$ của 0 trong $G$ là một nhóm con của $G'$, tồn tại một tập con hữu hạn $J$ của $L$ sao cho điều kiện $\lambda \in L - J$ kéo theo $x_\lambda \in V'$; khi đó $\sum_{\lambda \in H} x_\lambda \in V'$ với mọi tập con hữu hạn $H$ của $L$ không giao với $J$, điều này chỉ ra rằng họ $(x_\lambda)_{\lambda \in L}$ là khả tổng (*Tôpô Đại cương*, Chương III, § 5, no. 2, Định lý 1).
 
 Ngược lại, giả sử điều kiện (d) đúng và $(x_n)$ là một dãy Cauchy trên $G'$; khi đó họ $(x_{n+1} - x_n)$ là khả tổng và đặc biệt chuỗi có số hạng tổng quát $x_{n+1} - x_n$ là hội tụ và do đó dãy $(x_n)$ là hội tụ.
 
@@ -781,7 +781,7 @@ Nhận xét
 
 (1) Các Hệ quả 2, 3 và 6 áp dụng đặc biệt khi C là một trường giao hoán.
 
-\* (2) Cho g là một đại số Lie trên một vành giao hoán Noether C và giả sử rằng g là một C-môđun sinh hữu hạn. Gọi đại số bao U của g được trang bị bộ lọc tăng $(U_n)$ được định nghĩa ở no. 3, Ví dụ 4. Với tôpô tương ứng, U là rời rạc và do đó Hausdorff và đầy đủ; vành phân bậc liên kết gr(U) là một C-đại số sinh hữu hạn, vì nó là một thương của đại số đối xứng $\mathcal{S}(g)$, nên gr(U) là một vành Noether (Hệ quả 3) và suy ra U là một vành Noether trái và phải (no. 9, Hệ quả 2 của Mệnh đề 12). \*
+\* (2) Cho g là một đại số Lie trên một vành giao hoán Noether C và giả sử rằng g là một C-môđun sinh hữu hạn. Gọi đại số bao U của g được trang bị bộ lọc tăng $(U_n)$ được định nghĩa ở no. 3, Ví dụ 4. Với tôpô tương ứng, U là rời rạc và do đó Hausdorff và đầy đủ; vành phân bậc liên kết gr(U) là một C-đại số sinh hữu hạn, vì nó là một thương của đại số đối xứng $\mathscr{S}(g)$, nên gr(U) là một vành Noether (Hệ quả 3) và suy ra U là một vành Noether trái và phải (no. 9, Hệ quả 2 của Mệnh đề 12). \*
 
 ### 11. VÀNH m-ADIC ĐẦY ĐỦ VÀ GIỚI HẠN NGƯỢC
 
@@ -934,11 +934,11 @@ Cho $A$ là một vành lọc và $E$ một $A$-môđun lọc, các lọc tươn
 
 Trong phần sau, với mọi không gian đều $X$, $j_X$ sẽ ký hiệu ánh xạ chính tắc từ $X$ vào hoàn bị Hausdorff $\hat{X}$ của nó và $X_0 = j_X(X)$ là không gian con đều của $\hat{X}$, vốn là không gian Hausdorff liên kết với $X$. Nhắc lại rằng tôpô trên $X$ là ảnh ngược qua $j_X$ của tôpô trên $X_0$ (Topologie générale,
 
-Chương II, § 3, no. 7, Mệnh đề 12). Cũng nhắc lại rằng, với mọi ánh xạ liên tục đều $f : X \to Y$, $\hat{f}$ ký hiệu ánh xạ liên tục đều từ $\hat{X}$ vào $\hat{Y}$ sao cho $\hat{f} \circ j_X = j_Y \circ f$ (loc. cit., Mệnh đề 15); nếu $X$ là một không gian con đều của $Y$ và $\mathcal{E}$ là đơn ánh chính tắc, thì $\hat{X}$ được đồng nhất với một không gian con đều của $\hat{Y}$ và $\hat{f}$ là đơn ánh chính tắc của $X$ vào $\hat{Y}$ (loc. cit., no. 9. Hệ quả 1 của Mệnh đề 18).
+Chương II, § 3, no. 7, Mệnh đề 12). Cũng nhắc lại rằng, với mọi ánh xạ liên tục đều $f : X \to Y$, $\hat{f}$ ký hiệu ánh xạ liên tục đều từ $\hat{X}$ vào $\hat{Y}$ sao cho $\hat{f} \circ j_X = j_Y \circ f$ (loc. cit., Mệnh đề 15); nếu $X$ là một không gian con đều của $Y$ và $\mathscr{E}$ là đơn ánh chính tắc, thì $\hat{X}$ được đồng nhất với một không gian con đều của $\hat{Y}$ và $\hat{f}$ là đơn ánh chính tắc của $X$ vào $\hat{Y}$ (loc. cit., no. 9. Hệ quả 1 của Mệnh đề 18).
 
 #### Bổ đề 2 {#ac-iii-s2-lem-2 .statement}
 
-*Cho $X \xrightarrow{f} Y \xrightarrow{g} Z$ là một dãy khớp các cấu xạ ngặt của các nhóm tôpô (Đại số, Chương II, § 1, no. 4, Nhận xét). Giả sử rằng $X, Y, Z$ thừa nhận các nhóm hoàn bị Hausdorff và các phần tử đơn vị $\mathcal{E} X, Y, Z$ thừa nhận các hệ cơ bản đếm được của lân cận. Khi đó $\hat{X} \xrightarrow{\hat{f}} \hat{Y} \xrightarrow{\hat{g}} \hat{Z}$ là một dãy khớp các cấu xạ ngặt.*
+*Cho $X \xrightarrow{f} Y \xrightarrow{g} Z$ là một dãy khớp các cấu xạ ngặt của các nhóm tôpô (Đại số, Chương II, § 1, no. 4, Nhận xét). Giả sử rằng $X, Y, Z$ thừa nhận các nhóm hoàn bị Hausdorff và các phần tử đơn vị $\mathscr{E} X, Y, Z$ thừa nhận các hệ cơ bản đếm được của lân cận. Khi đó $\hat{X} \xrightarrow{\hat{f}} \hat{Y} \xrightarrow{\hat{g}} \hat{Z}$ là một dãy khớp các cấu xạ ngặt.*
 
 Gọi $N_1, N_g$ là các hạt nhân tương ứng của f và $g$; ta viết
 
@@ -1004,7 +1004,7 @@ Mọi phần tử của $\mathbf{Z}/n^k \mathbf{Z}$ đều có một đại di�
 
 #### Mệnh đề 17 {#ac-iii-s2-prop-17 .statement}
 
-Cho $A$ là một vành giao hoán và $(m_{\lambda})_{\lambda \in L}$ là một họ các iđêan của $A$, khác $A$, sao cho $m_{\lambda}$ và $m_{\mu}$ nguyên tố cùng nhau với $\lambda \neq \mu$. Với mọi họ $s = (s(\lambda))_{\lambda \in L}$ các số nguyên $\geq 0$, có giá hữu hạn, đặt $a_s = \bigcap_{\lambda \in L} m_{\lambda}^{s(\lambda)}$ (bằng tích của các $m_{\lambda}^{s(\lambda)}$ ứng với những $\lambda$ sao cho $s(\lambda) \neq 0$; xem Chương 11, § 1, no. 2, các Mệnh đề 3 và 5); các $a_s$ tạo thành một hệ cơ bản các lân cận của 0 đối với một tôpô $\mathcal{T}$ tương thích với cấu trúc vành trên $A$; gọi $\hat{A}$ là bổ sung Hausdorff của $A$ đối với tôpô này. Mặt khác, với mọi $\lambda \in L$, gọi $A_{\lambda}$ là vành $A$ với tôpô $m_{\lambda}$-adic và gọi $\hat{A}_{\lambda}$ là bổ sung Hausdorff của nó. Nếu $u : A \to \prod_{\lambda \in L} A_{\lambda}$ ký hiệu đồng cấu đường chéo, thì $u$ liên tục và đồng cấu tương ứng $\hat{u} :$
+Cho $A$ là một vành giao hoán và $(m_{\lambda})_{\lambda \in L}$ là một họ các iđêan của $A$, khác $A$, sao cho $m_{\lambda}$ và $m_{\mu}$ nguyên tố cùng nhau với $\lambda \neq \mu$. Với mọi họ $s = (s(\lambda))_{\lambda \in L}$ các số nguyên $\geq 0$, có giá hữu hạn, đặt $a_s = \bigcap_{\lambda \in L} m_{\lambda}^{s(\lambda)}$ (bằng tích của các $m_{\lambda}^{s(\lambda)}$ ứng với những $\lambda$ sao cho $s(\lambda) \neq 0$; xem Chương 11, § 1, no. 2, các Mệnh đề 3 và 5); các $a_s$ tạo thành một hệ cơ bản các lân cận của 0 đối với một tôpô $\mathscr{T}$ tương thích với cấu trúc vành trên $A$; gọi $\hat{A}$ là bổ sung Hausdorff của $A$ đối với tôpô này. Mặt khác, với mọi $\lambda \in L$, gọi $A_{\lambda}$ là vành $A$ với tôpô $m_{\lambda}$-adic và gọi $\hat{A}_{\lambda}$ là bổ sung Hausdorff của nó. Nếu $u : A \to \prod_{\lambda \in L} A_{\lambda}$ ký hiệu đồng cấu đường chéo, thì $u$ liên tục và đồng cấu tương ứng $\hat{u} :$
 
 $$
 \hat{A} \to \left( \prod_{\lambda \in L} A_{\lambda} \right)^{\hat{}} = \prod_{\lambda \in L} \hat{A}_{\lambda}
@@ -1024,7 +1024,7 @@ Nếu áp dụng Hệ quả của Mệnh đề 17 khi $\mathbf{A} = \mathbf{Z}$,
 
 Nhận xét
 
-(1) Rõ ràng, dưới các điều kiện của Mệnh đề 17, tôpô $\mathcal{T}$ là cận trên bé nhất của các tôpô $m_\lambda$-adic trên $\mathbf{A}$.
+(1) Rõ ràng, dưới các điều kiện của Mệnh đề 17, tôpô $\mathscr{T}$ là cận trên bé nhất của các tôpô $m_\lambda$-adic trên $\mathbf{A}$.
 
 (2) Mọi iđêan đóng $a$ của $\prod_{\lambda \in L} \hat{A}_\lambda$ đồng nhất với tích của các hình chiếu của nó $a_\lambda = \mathrm{pr}_\lambda(a)$, là các iđêan đóng trong các $A_\lambda$; vì $\hat{A}_\lambda$ được đồng nhất một cách chính tắc với một iđêan đóng $A'_\lambda$ của $\prod_{\lambda} \hat{A}_\lambda$ và $a_\lambda$ với $a \cap A'_\lambda$ (Đại số, Chương I, §8, no. 10, Mệnh đề 6), tổng của các $a_\lambda$ là trù mật trong tích $\prod_\lambda a_\lambda$ (Tôpô đại cương, Chương III, §2, no. 9, Mệnh đề 25) và tích sau là đóng trong $\prod_\lambda \hat{A}_\lambda$, do đó có mệnh đề của chúng ta.
 
@@ -1061,7 +1061,7 @@ Nếu $a = \bigcap_{k \geq 1} m^k$, thì $\hat{A}$ là hoàn thành của vành 
 
 #### Bổ đề 3 {#ac-iii-s2-lem-3 .statement}
 
-Cho $A$ là một vành tôpô Hausdorff đầy đủ, trong đó tồn tại một hệ cơ bản $\mathcal{G}$ các lân cận của 0 gồm các nhóm con cộng tính của $A$.
+Cho $A$ là một vành tôpô Hausdorff đầy đủ, trong đó tồn tại một hệ cơ bản $\mathscr{G}$ các lân cận của 0 gồm các nhóm con cộng tính của $A$.
 (i) Với mọi $x \in A$ sao cho $\lim_{n \to m} x^n = 0$, $1 - x$ là khả nghịch trong $A$ và nghịch đảo của nó bằng $\sum_{n=0}^\infty x^n$.
 (ii) Cho $a$ là một iđêan hai phía của $A$ sao cho $\lim_{n \to \infty} x^n = 0$ với mọi $x \in a$. Để một phần tử y của $\mathbf{A}$ là khả nghịch, điều kiện cần và đủ là lớp của nó mod. a khả nghịch trong $\mathbf{A}/a$; đặc biệt a được chứa trong căn Jacobson của $\mathbf{A}$.
 

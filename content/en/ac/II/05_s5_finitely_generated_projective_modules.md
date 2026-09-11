@@ -41,7 +41,7 @@ subsections:
       pdf_page: 139
 statements: 34
 exercises: 25
-content_sha256: a5d4bfa4c1fcf7eb66cf300768331126f156485bf51ceb82544587f9f1c007d9
+content_sha256: 9505786f478edef08c8c8e37cea3e635ac9e87b7abc7b12363b27377d0513a97
 ---
 
 ## 5. FINITELY GENERATED PROJECTIVE MODULES. INVERTIBLE FRACTIONAL IDEALS
@@ -277,7 +277,7 @@ Let B be a commutative A-algebra and M a projective A-module of rank 1; then $M_
 
 The equation $M_{(B)} \otimes_B N_{(B)} = (M \otimes_A N)_{(B)}$ for two A-modules M, N proves that the mapping $\phi$ is a commutative group *homomorphism*.
 
-*Remark (2).* Condition (e) of Theorem 1 (equivalent to the fact that P is projective and finitely generated) may also be expressed by saying that *the sheaf of modules* $\tilde{P}$ over $X = \mathrm{Spec}(A)$ *associated(*) with P is locally free and of finite type* and may therefore be interpreted as the sheaf of sections of a vector bundle over X. Conversely, every vector bundle over X arises from a finitely generated projective module, which is determined to within a unique isomorphism; the projective modules of rank $n$ thus correspond to the vector bundles all of whose fibres have dimension $n$. In particular, the vector bundles of rank 1 correspond to the projective modules of rank 1. If we denote by $\mathcal{O}_X$ the structure sheaf $\tilde{A}$ and by $\mathcal{O}_X^*$ the *sheaf of units* of $\mathcal{O}_X$ (whose sections over an open set U of X are the invertible elements of the ring of sections of $\mathcal{O}_X$ over U), it follows that the group $P(A)$ is isomorphic to the first cohomology group $H^1(X, \mathcal{O}_X^*)$.*
+*Remark (2).* Condition (e) of Theorem 1 (equivalent to the fact that P is projective and finitely generated) may also be expressed by saying that *the sheaf of modules* $\tilde{P}$ over $X = \mathrm{Spec}(A)$ *associated(*) with P is locally free and of finite type* and may therefore be interpreted as the sheaf of sections of a vector bundle over X. Conversely, every vector bundle over X arises from a finitely generated projective module, which is determined to within a unique isomorphism; the projective modules of rank $n$ thus correspond to the vector bundles all of whose fibres have dimension $n$. In particular, the vector bundles of rank 1 correspond to the projective modules of rank 1. If we denote by $\mathscr{O}_X$ the structure sheaf $\tilde{A}$ and by $\mathscr{O}_X^*$ the *sheaf of units* of $\mathscr{O}_X$ (whose sections over an open set U of X are the invertible elements of the ring of sections of $\mathscr{O}_X$ over U), it follows that the group $P(A)$ is isomorphic to the first cohomology group $H^1(X, \mathscr{O}_X^*)$.*
 
 (* See A. Grothendieck, Éléments de géométrie algébrique, I (§ 1) (Publ. Math. I.H.E.S., no. 4, 1960).
 

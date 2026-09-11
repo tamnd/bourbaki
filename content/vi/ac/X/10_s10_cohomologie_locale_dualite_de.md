@@ -24,7 +24,7 @@ subsections:
       pdf_page: 146
 statements: 20
 exercises: 11
-content_sha256: 4c111b9b48484c6953bac31c1dea5229e1a3b75ae54db1d121ad08e3f75a097c
+content_sha256: d428bddf2dbfb7a700eff2d47decc8ebe8b8a6b1eda0566224e47057c0adbfaf
 translated_from: content/en-mt/ac/X/10_s10_cohomologie_locale_dualite_de.md
 source_lang: en-mt
 translation_method: machine
@@ -48,7 +48,7 @@ Các iđêan $m_A^n$ với $n \geq 1$ tạo thành một tập con đồng tận
 
 #### Nhận xét 1 {#ac-x-s10-n1-rem-1 .statement}
 
-Cho $X$ là không gian tôpô $\mathrm{Spec}(A)$, $\mathcal{O}_X$ bó cấu trúc các vành và $\widetilde{M}$ môđun $\mathcal{O}_X$ liên kết với $M$. A-môđun phân bậc $H_A(M)$ được đồng nhất với môđun $H_{\{m_A\}}(X, \widetilde{M})$ của đối đồng điều có giá trong điểm đóng $m_A$ của $X$.
+Cho $X$ là không gian tôpô $\mathrm{Spec}(A)$, $\mathscr{O}_X$ bó cấu trúc các vành và $\widetilde{M}$ môđun $\mathscr{O}_X$ liên kết với $M$. A-môđun phân bậc $H_A(M)$ được đồng nhất với môđun $H_{\{m_A\}}(X, \widetilde{M})$ của đối đồng điều có giá trong điểm đóng $m_A$ của $X$.
 
 Với mọi đồng cấu $f : M \to N$ của các $A$-môđun, các ánh xạ $\mathrm{Ext}_A(1_{A/a}, f) : \mathrm{Ext}_A(A/a, M) \longrightarrow \mathrm{Ext}_A(A/a, N)$ tạo thành một hệ quy nạp các ánh xạ tuyến tính phân bậc. Khi chuyển qua giới hạn quy nạp, ta thu được một đồng cấu phân bậc $H_A(f) : H_A(M) \to H_A(N)$. Với mọi dãy $M \xrightarrow{f} N \xrightarrow{g} P$ các $A$-môđun và đồng cấu, ta có $H_A(g \circ f) = H_A(g) \circ H_A(f)$. Cho
 
@@ -58,10 +58,10 @@ $$
 \end{array}
 $$
 
-là một dãy khớp các $A$-môđun. Theo $\Lambda$, X, p. 90, Prop. 8, các đồng cấu nối của các môđun mở rộng $\mathrm{Ext}_A(A/a, P) \longrightarrow \mathrm{Ext}_A(A/a, M)$ tạo thành một hệ quy nạp các ánh xạ $A$-tuyến tính, phân bậc bậc (tăng) +1. Khi chuyển qua giới hạn quy nạp, ta suy ra một đồng cấu $A$ $\partial(\mathcal{E}) : H_A(P) \to H_A(M)$, phân bậc bậc +1, làm cho dãy đồng cấu
+là một dãy khớp các $A$-môđun. Theo $\Lambda$, X, p. 90, Prop. 8, các đồng cấu nối của các môđun mở rộng $\mathrm{Ext}_A(A/a, P) \longrightarrow \mathrm{Ext}_A(A/a, M)$ tạo thành một hệ quy nạp các ánh xạ $A$-tuyến tính, phân bậc bậc (tăng) +1. Khi chuyển qua giới hạn quy nạp, ta suy ra một đồng cấu $A$ $\partial(\mathscr{E}) : H_A(P) \to H_A(M)$, phân bậc bậc +1, làm cho dãy đồng cấu
 
 $$
-\ldots \longrightarrow H_A^{n-1}(P) \xrightarrow{\partial^{n-1}(\mathcal{E})} H_A^n(M) \xrightarrow{H_A^n(f)} H_A^n(N) \xrightarrow{H_A^n(g)} H_A^n(P) \xrightarrow{\partial^n(\mathcal{E})} H_A^{n+1}(M) \longrightarrow \ldots
+\ldots \longrightarrow H_A^{n-1}(P) \xrightarrow{\partial^{n-1}(\mathscr{E})} H_A^n(M) \xrightarrow{H_A^n(f)} H_A^n(N) \xrightarrow{H_A^n(g)} H_A^n(P) \xrightarrow{\partial^n(\mathscr{E})} H_A^{n+1}(M) \longrightarrow \ldots
 $$
 
 là khớp.
@@ -231,14 +231,14 @@ $$
 
 Cho
 $$
-(\mathcal{E}) \quad 0 \to M \to N \to P \to 0
+(\mathscr{E}) \quad 0 \to M \to N \to P \to 0
 $$
 là một dãy khớp của các a-môđun. Dùng A, X, p. 104, mệnh đề 3 và p. 106, mệnh đề 4, ta chứng minh được rằng các biểu đồ sau là giao hoán:
 
 $$
 \begin{array}{ccc}
 \mathrm{Tor}_{d-i}^A(P, H_A^d(A)) & \xrightarrow{\tau^i(P)} & H_A^i(P) \\
-\downarrow \partial_{d-i}(\mathcal{E}, H_A^d(A)) & & \downarrow \partial^i(\mathcal{E}) \\
+\downarrow \partial_{d-i}(\mathscr{E}, H_A^d(A)) & & \downarrow \partial^i(\mathscr{E}) \\
 \mathrm{Tor}_{d-i-1}^A(M, H_A^d(A)) & \xrightarrow{\tau^{i+1}(M)} & H_A^{i+1}(M)
 \end{array}
 $$
@@ -366,7 +366,7 @@ $$
 
 Cho
 
-$$(\mathcal{E})$$
+$$(\mathscr{E})$$
 $$0 \to M' \to M \to M'' \to 0$$
 
 là một dãy khớp của các A-môđun. Theo Nhận xét 2 của No. 2 và Nhận xét của § 8, No. 7, các biểu đồ sau là giao hoán:
@@ -374,7 +374,7 @@ là một dãy khớp của các A-môđun. Theo Nhận xét 2 của No. 2 và N
 $$
 \begin{array}{ccc}
 H_A^{i-1}(M'') & \xrightarrow{\gamma^{i-1}(M'')} & D(\mathrm{Ext}_A^{d-i+1}(M'', \Omega)) \\
-\downarrow & & \downarrow (-1)^{d-i+1}D(\delta^d i(\mathcal{E}, \Omega)) \\
+\downarrow & & \downarrow (-1)^{d-i+1}D(\delta^d i(\mathscr{E}, \Omega)) \\
 H_A^i(M') & \xrightarrow{\gamma^i(M')} & D(\mathrm{Ext}_A^{d-i}(M', \Omega))
 \end{array}
 $$
@@ -382,7 +382,7 @@ $$
 $$
 \begin{array}{ccc}
 \mathrm{Ext}_A^{d-i}(M', \widehat{\Omega}) & \xrightarrow{\delta^i(M')} & D(H_A^i(M')) \\
-\downarrow & & \downarrow (-1)^{d-i+1}D(\partial^{i-1}(\mathcal{E})) \\
+\downarrow & & \downarrow (-1)^{d-i+1}D(\partial^{i-1}(\mathscr{E})) \\
 \mathrm{Ext}_A^{d-i+1}(M'', \widehat{\Omega}) & \xrightarrow{\delta^{i-1}(M'')} & D(H_A^{i-1}(M''))
 \end{array}
 $$

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 123
 statements: 13
 exercises: 2
-content_sha256: e84992f155d3dd4337b5374eebb7ccef55c0220ecb85e9133f163139a80f5cff
+content_sha256: 4ff8d6044b2efeaa808a026602241c57c5057770cbf9868fab15bbe53ea53a5d
 ---
 
 ## § 6. Valeurs absolues.
@@ -47,13 +47,13 @@ Pour une application $f$ de $K$ dans $\mathbf{R}_+$, et un nombre réel $A > 0$,
 $$
 f(x + y) \leqslant A \cdot \sup(f(x), f(y)) \text{ quels que soient } x, y \text{ dans } K.
 $$
-Nous noterons $\mathcal{V}(K)$ l’ensemble des applications $f$ de $K$ dans $\mathbf{R}_+$ vérifiant $(\mathrm{VA}_I)$ et $(\mathrm{VA}_{II})$ et pour lesquelles il existe un $A > 0$ (dépendant de $f$) tel que $(\mathrm{U}_A)$ soit vraie.
+Nous noterons $\mathscr{V}(K)$ l’ensemble des applications $f$ de $K$ dans $\mathbf{R}_+$ vérifiant $(\mathrm{VA}_I)$ et $(\mathrm{VA}_{II})$ et pour lesquelles il existe un $A > 0$ (dépendant de $f$) tel que $(\mathrm{U}_A)$ soit vraie.
 
-On remarquera que si $f \in \mathcal{V}(K)$, on a, en faisant $x = 1, y = 0$ dans $(\mathrm{U}_A)$, $1 = f(1) \leqslant A \cdot \sup(f(1), f(0)) = A$.
+On remarquera que si $f \in \mathscr{V}(K)$, on a, en faisant $x = 1, y = 0$ dans $(\mathrm{U}_A)$, $1 = f(1) \leqslant A \cdot \sup(f(1), f(0)) = A$.
 
 #### Proposition 1 {#ac-vi-s6-prop-1 .statement}
 
-Pour qu’une application $f$ de $K$ dans $\mathbf{R}_+$ vérifiant $(\mathrm{VA}_I)$ et $(\mathrm{VA}_{II})$ appartienne à $\mathcal{V}(K)$, il faut et il suffit que $f(1 + x)$ soit borné dans l’ensemble des $x \in K$ tels que $f(x) \leqslant 1$.
+Pour qu’une application $f$ de $K$ dans $\mathbf{R}_+$ vérifiant $(\mathrm{VA}_I)$ et $(\mathrm{VA}_{II})$ appartienne à $\mathscr{V}(K)$, il faut et il suffit que $f(1 + x)$ soit borné dans l’ensemble des $x \in K$ tels que $f(x) \leqslant 1$.
 En effet, si $f$ vérifie $(\mathrm{U}_A)$, on a $f(1 + x) \leqslant A$ si $f(x) \leqslant 1$.
 Inversement, supposons que $f(x + 1) \leqslant A$ pour les $x \in K$ tels que $f(x) \leqslant 1$ (ce qui entraîne $A \geqslant f(1) = 1$); alors, si $x = 0$ ou $y = 0$, la condition $(\mathrm{U}_A)$ est vérifiée; si au contraire $x \neq 0$ et $y \neq 0$, on peut par exemple supposer $f(y) \leqslant f(x)$, donc, d’après $(\mathrm{VA}_{II})$, $f(yx^{-1}) \leqslant 1$, et par suite $f(1 + yx^{-1}) \leqslant A$, ce qui donne, en vertu de $(\mathrm{VA}_{II})$, $f(x + y)f(x)^{-1} \leqslant A$; d’où
 $$
@@ -63,7 +63,7 @@ Si $f$ est une valeur absolue sur $K$, on a $f(n.1) \leqslant n$ par récurrence
 
 #### Proposition 2 {#ac-vi-s6-prop-2 .statement}
 
-Soit $f$ une application de $K$ dans $\mathbf{R}_+$ appartenant à $\mathcal{V}(K)$; s’il existe $C > 0$ tel que $f(n.1) \leqslant C.n$ pour tout entier $n > 0$, $f$ est une valeur absolue sur $K$.
+Soit $f$ une application de $K$ dans $\mathbf{R}_+$ appartenant à $\mathscr{V}(K)$; s’il existe $C > 0$ tel que $f(n.1) \leqslant C.n$ pour tout entier $n > 0$, $f$ est une valeur absolue sur $K$.
 Par récurrence sur $r > 0$, on déduit de $(\mathrm{U}_A)$ la relation
 $$
 f(x_1 + x_2 + \cdots + x_{2^r}) \leqslant A^r \sup_{1 \leqslant i \leqslant 2^r} f(x_i)
@@ -94,7 +94,7 @@ Inversement, supposons que $f$ vérifie (VA$_{\text{I}}$), (VA$_{\text{II}}$) et
 
 #### Corollaire 2 {#ac-vi-s6-prop-2-cor-2 .statement}
 
-Pour qu’une application $f$ de $K$ dans $\mathbf{R}_+$ appartienne à $\mathcal{V}(K)$, il faut et il suffit qu’elle soit de la forme $g^t$, où $t > 0$ et $g$ est une valeur absolue sur $K$.
+Pour qu’une application $f$ de $K$ dans $\mathbf{R}_+$ appartienne à $\mathscr{V}(K)$, il faut et il suffit qu’elle soit de la forme $g^t$, où $t > 0$ et $g$ est une valeur absolue sur $K$.
 
 En effet, dire que $f$ vérifie (U$_A$) équivaut à dire que $f^s$ vérifie (U$_{A^s}$); comme il existe $s > 0$ tel que $A^s \leq 2$, le cor. 1 montre que pour une telle valeur de $s$, $f^s$ est une valeur absolue.
 
@@ -110,14 +110,14 @@ a) $f$ est une valeur absolue ultramétrique.
 
 b) Il existe une valuation $v$ de $K$, à valeurs dans $\mathbf{R}$, et un nombre réel $a$ tels que $0 < a < 1$ et $f = a^v$.
 
-c) $f$ appartient à $\mathcal{V}(K)$ et l’on a $f(n.1) \leq 1$ pour tout entier $n > 0$.
+c) $f$ appartient à $\mathscr{V}(K)$ et l’on a $f(n.1) \leq 1$ pour tout entier $n > 0$.
 
 d) Pour tout $s > 0$, $f^s$ est une valeur absolue.
 Pour tout nombre réel $c$ tel que $0 < c < 1$, l’application $t \to c^t$ est un isomorphisme du groupe ordonné $\mathbf{R}$ (muni de l’ordre opposé à l’ordre usuel) sur le groupe ordonné $\mathbf{R}_+^*$; cela montre l’équivalence de a) et b). Il est clair que a) implique $c);$ c) entraîne d), car on déduit de c) que $(f(n.1))^s \leqslant 1 \leqslant n$ pour tout entier $n > 0$ et la prop. 2 du no 1 montre que $f^s$ est une valeur absolue. Enfin d) entraîne a): en effet, si $f^s$ est une valeur absolue, elle vérifie $(\mathrm{U}_2)$, donc $f$ vérifie $\mathrm{U}_{2^{1/s}}$ pour tout $s > 0$, et par suite aussi $(\mathrm{U}_1)$ en faisant tendre $s$ vers $+ \infty$.
 
 #### Corollaire {#ac-vi-s6-n2-cor-1 .statement}
 
-*Si K est un corps (non nécessairement commutatif) de caractéristique $p > 0$, toute fonction de $\mathcal{V}(K)$ est une valeur absolue ultramétrique.*
+*Si K est un corps (non nécessairement commutatif) de caractéristique $p > 0$, toute fonction de $\mathscr{V}(K)$ est une valeur absolue ultramétrique.*
 
 En effet, tout élément $z = n.1$ (*n* entier $> 0$) non nul appartient au sous-corps premier $\mathbf{F}_p$ de $K$, donc vérifie la relation $z^{p-1} = 1$, ce qui entraîne $f(z) = 1$ et l’on peut appliquer la prop. 3, c).
 
@@ -131,7 +131,7 @@ $$
 
 #### Proposition 4 {#ac-vi-s6-prop-4 .statement}
 
-*Soit $f$ une application de $\mathbf{Q}$ dans $\mathbf{R}_+$ appartenant à $\mathcal{V}(\mathbf{Q})$. Alors*:
+*Soit $f$ une application de $\mathbf{Q}$ dans $\mathbf{R}_+$ appartenant à $\mathscr{V}(\mathbf{Q})$. Alors*:
 
 (i) *Ou bien $f$ est la valeur absolue impropre sur $\mathbf{Q}$*.
 
@@ -304,9 +304,9 @@ et l’utilisation de la formule de Cauchy étant ici évitée grâce à la form
 
 #### Théorème 2 (Ostrowski) {#ac-vi-s6-thm-2 .statement}
 
-Soient K un corps (non nécessairement commutatif), f un élément de $\mathcal{V}(K)$ qui n’est pas une valeur absolue ultramétrique. Il existe alors un nombre réel $s > 0$ et un seul et un isomorphisme j de K sur un sous-corps partout dense de l’un des corps $\mathbf{R}, \mathbf{C}$ ou $\mathbf{H}$, tels que $f(x) = |j(x)|^s$ pour tout $x \in K (*)$. Pour que f soit une valeur absolue sur K, il faut et il suffit que $s \leq 1$.
+Soient K un corps (non nécessairement commutatif), f un élément de $\mathscr{V}(K)$ qui n’est pas une valeur absolue ultramétrique. Il existe alors un nombre réel $s > 0$ et un seul et un isomorphisme j de K sur un sous-corps partout dense de l’un des corps $\mathbf{R}, \mathbf{C}$ ou $\mathbf{H}$, tels que $f(x) = |j(x)|^s$ pour tout $x \in K (*)$. Pour que f soit une valeur absolue sur K, il faut et il suffit que $s \leq 1$.
 
-En vertu du no 2, cor. de la prop. 3, K est de caractéristique 0, donc une algèbre sur $\mathbf{Q}$; pour tout $x \in \mathbf{Q}$, posons $h(x) = f(x.1)$; il est clair que $h \in \mathcal{V}(\mathbf{Q})$, et l’on peut donc appliquer la prop. 4 du no 3; on ne peut être dans le cas (i) ou (ii) de l’énoncé de cette proposition, car cela entraînerait $f(n.1) \leq 1$ pour tout entier $n > 0$, et f serait une valeur absolue ultramétrique en vertu du no 2, prop. 3. Il existe donc un nombre réel $s > 0$ tel que $h(x) = |x|^s$ pour tout $x \in \mathbf{Q}$, c’est-à-dire $f(x.1) = |x|^s$; posons $g = f^{1/s}$. Alors on a $g \in \mathcal{V}(K)$ et $g(n.1) = n$ pour tout entier $n > 0$; la prop. 2 du no 1 montre par suite que g est une valeur absolue sur K.
+En vertu du no 2, cor. de la prop. 3, K est de caractéristique 0, donc une algèbre sur $\mathbf{Q}$; pour tout $x \in \mathbf{Q}$, posons $h(x) = f(x.1)$; il est clair que $h \in \mathscr{V}(\mathbf{Q})$, et l’on peut donc appliquer la prop. 4 du no 3; on ne peut être dans le cas (i) ou (ii) de l’énoncé de cette proposition, car cela entraînerait $f(n.1) \leq 1$ pour tout entier $n > 0$, et f serait une valeur absolue ultramétrique en vertu du no 2, prop. 3. Il existe donc un nombre réel $s > 0$ tel que $h(x) = |x|^s$ pour tout $x \in \mathbf{Q}$, c’est-à-dire $f(x.1) = |x|^s$; posons $g = f^{1/s}$. Alors on a $g \in \mathscr{V}(K)$ et $g(n.1) = n$ pour tout entier $n > 0$; la prop. 2 du no 1 montre par suite que g est une valeur absolue sur K.
 
 Pour $x \in \mathbf{Q}$ et $y \in K$, on a $g(xy) = |x|g(y)$, donc g est une norme sur K compatible avec sa structure de $\mathbf{Q}$-algèbre (pour la valeur absolue usuelle sur $\mathbf{Q}$). Le complété $\hat{K}$ de K est par suite une algèbre normée sur $\hat{\mathbf{Q}} = \mathbf{R}$ (Top. gén., chap. IX, § 3, no 7); soit $\hat{g}$ la norme sur $\hat{K}$, prolongement continu de g. Comme g est une valeur absolue sur K, $\hat{K}$ est un corps et $\hat{g}$ une valeur absolue sur $\hat{K}$ (Top. gén., chap. IX, § 3, no 3, prop. 6). En vertu du th. 1, il existe un isomorphisme $\hat{j}$ de $\mathbf{R}$-algèbres de $\hat{K}$ sur l’un des corps $\mathbf{R}, \mathbf{C}$ ou $\mathbf{H}$, et $g'(x) = |\hat{j}(x)|$ est par suite une valeur absolue sur $\hat{K}$; comme $\hat{K}$ est de dimension finie sur $\mathbf{R}$, et que $g'$ et $\hat{g}$ coïncident dans le sous-corps $\mathbf{R}.1$ de $\hat{K}$, on a $g' = \hat{g}$ en vertu du lemme suivant:
 

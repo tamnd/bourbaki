@@ -33,7 +33,7 @@ subsections:
       pdf_page: 81
 statements: 34
 exercises: 25
-content_sha256: 21e410994c182ead283f87292334f898659c5e263b6e92c40c2f793d69d5661c
+content_sha256: 359de70b757ee6740d8b6ed8cf1154b088e835d261d4e6df027d159d7002901b
 ---
 
 ## § 7. MULTIPLICITÉS
@@ -145,7 +145,7 @@ Cela s’applique notamment lorsque B est le complété \* ou l’hensélisé \*
 
 #### Exemple {#ac-viii-s7-n2-exa-1 .statement}
 
-\* Soient X une variété algébrique complexe, $\mathcal{O}_{X,x}$ l’anneau local de X en un point rationnel x, $X^{an}$ l’espace analytique associé à X ; notons encore x le point de $X^{an}$ correspondant à x, et soit $\mathcal{O}_{X^{an},x}$ l’anneau local de $X^{an}$ en x. Alors $e(\mathcal{O}_{X^{an},x}) = e(\mathcal{O}_{X,x})$. \*
+\* Soient X une variété algébrique complexe, $\mathscr{O}_{X,x}$ l’anneau local de X en un point rationnel x, $X^{an}$ l’espace analytique associé à X ; notons encore x le point de $X^{an}$ correspondant à x, et soit $\mathscr{O}_{X^{an},x}$ l’anneau local de $X^{an}$ en x. Alors $e(\mathscr{O}_{X^{an},x}) = e(\mathscr{O}_{X,x})$. \*
 
 ### 3. Multiplicités et extensions finies
 

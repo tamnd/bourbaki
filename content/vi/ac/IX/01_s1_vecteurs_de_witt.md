@@ -45,11 +45,11 @@ subsections:
       pdf_page: 127
 statements: 29
 exercises: 58
-content_sha256: 5413ca4ac506da861eaea5b090db2dfdff63161310058d6c290d01d11bea8546
+content_sha256: f6ca90e1e5831041eb0a7f4053633aa6f2d9e8b2e14d1519537f9bd72f495efb
 translated_from: content/en-mt/ac/IX/01_s1_vecteurs_de_witt.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: c0158ff0fca29a6c022ba154b7a5d2962e4d246ffba5dba8e9f489b8bb2152f1
+source_content_sha256: 19bf0e96e44fdb62f0ed1e7ecb0e5603ce0910a170c5108446329276d2997029
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-7f03bb74
 glossary_version: 34
@@ -277,7 +277,7 @@ $$
 
 Với mỗi vành $A$ và mỗi phần tử $m$ của $J$, ta ký hiệu bởi $\varphi_m$ ánh xạ từ $A^J$ vào $A$ gán cho $(a_j)_{j \in J}$ phần tử $\varphi_m((a_j)_{j \in J})$; ta ký hiệu bởi $\varphi_A$, hoặc đơn giản là $\varphi$, ánh xạ từ $A^J$ vào chính nó gán cho $a = (a_j)_{j \in J}$ $(\varphi_m(a))_{m \in J}$.
 
-Cho $\mathcal{A} = \mathbf{Z}[(X_j)_{j \in J}, (Y_j)_{j \in J}]$ là vành các đa thức với hệ số nguyên theo hai họ biến bất định $X = (X_j)_{j \in J}$ và $Y = (Y_j)_{j \in J}$. Người ta có thể chỉ ra (p. 51, bài tập 34) rằng tồn tại trong $\mathcal{A}$ các phần tử
+Cho $\mathscr{A} = \mathbf{Z}[(X_j)_{j \in J}, (Y_j)_{j \in J}]$ là vành các đa thức với hệ số nguyên theo hai họ biến bất định $X = (X_j)_{j \in J}$ và $Y = (Y_j)_{j \in J}$. Người ta có thể chỉ ra (p. 51, bài tập 34) rằng tồn tại trong $\mathscr{A}$ các phần tử
 
 $$
 s = (s_j)_{j \in J}, \quad p = (p_j)_{j \in J} \quad \text{và} \quad i = (i_j)_{j \in J},
@@ -286,13 +286,13 @@ $$
 được đặc trưng bởi các đẳng thức sau:
 
 $$
-\varphi_{\mathcal{A}}(s) = \varphi_{\mathcal{A}}(\mathbf{X}) + \varphi_{\mathcal{A}}(\mathbf{Y})
+\varphi_{\mathscr{A}}(s) = \varphi_{\mathscr{A}}(\mathbf{X}) + \varphi_{\mathscr{A}}(\mathbf{Y})
 $$
 $$
-\varphi_{\mathcal{A}}(p) = \varphi_{\mathcal{A}}(\mathbf{X}) \varphi_{\mathcal{A}}(\mathbf{Y})
+\varphi_{\mathscr{A}}(p) = \varphi_{\mathscr{A}}(\mathbf{X}) \varphi_{\mathscr{A}}(\mathbf{Y})
 $$
 $$
-\varphi_{\mathcal{A}}(i) = - \varphi_{\mathcal{A}}(\mathbf{X}) .
+\varphi_{\mathscr{A}}(i) = - \varphi_{\mathscr{A}}(\mathbf{X}) .
 $$
 
 ### 4. Vành W(A) của các vectơ Witt
@@ -531,7 +531,7 @@ V^m(a) \times b = V^m(a \times F^m(b))
 $$
 suy ra từ mệnh đề 3 của No. 5 bằng quy nạp theo $m$. Chúng kéo theo rằng $V_m(A)$ là một iđêan của W(A).
 
-Trong phần tiếp theo, ta sẽ trang bị cho $W(A)$ tôpô $\mathcal{T}$ liên kết với lọc $(V_m(A))_{m \in \mathbf{Z}}$. Vì $V_m(A)$ là một iđêan của $W(A)$ với mọi $m \in \mathbf{Z}$, tôpô $\mathcal{T}$ tương thích với cấu trúc vành của $W(A)$ (TG, III, p. 49, ví dụ 3). Cho $a \in W(A)$; các tập hợp $a + V_m(A)$, trong đó $m$ chạy qua $\mathbf{N}$, tạo thành một hệ cơ bản các lân cận của $a$ đối với $\mathcal{T}$. Bây giờ, từ bổ đề 4 suy ra rằng $a + V_m(A)$ gồm các vectơ Witt $b$ sao cho $a_i = b_i$ với $0 \leq i < m$. Do đó, $\mathcal{T}$ không gì khác ngoài tôpô tích trên $A^\mathbf{N}$ của tôpô rời rạc trên mỗi nhân tử, và vì thế $W(A)$ là một vành tôpô tách biệt và đầy đủ (TG, II, p. 17, mệnh đề 10 và TG, III, p. 22, mệnh đề 4).
+Trong phần tiếp theo, ta sẽ trang bị cho $W(A)$ tôpô $\mathscr{T}$ liên kết với lọc $(V_m(A))_{m \in \mathbf{Z}}$. Vì $V_m(A)$ là một iđêan của $W(A)$ với mọi $m \in \mathbf{Z}$, tôpô $\mathscr{T}$ tương thích với cấu trúc vành của $W(A)$ (TG, III, p. 49, ví dụ 3). Cho $a \in W(A)$; các tập hợp $a + V_m(A)$, trong đó $m$ chạy qua $\mathbf{N}$, tạo thành một hệ cơ bản các lân cận của $a$ đối với $\mathscr{T}$. Bây giờ, từ bổ đề 4 suy ra rằng $a + V_m(A)$ gồm các vectơ Witt $b$ sao cho $a_i = b_i$ với $0 \leq i < m$. Do đó, $\mathscr{T}$ không gì khác ngoài tôpô tích trên $A^\mathbf{N}$ của tôpô rời rạc trên mỗi nhân tử, và vì thế $W(A)$ là một vành tôpô tách biệt và đầy đủ (TG, II, p. 17, mệnh đề 10 và TG, III, p. 22, mệnh đề 4).
 
 Ký hiệu $\tau_A$ (hoặc đơn giản là $\tau$) là ánh xạ của $A$ vào $W(A)$ liên kết với một phần tử $a$ của $A$ phần tử $(a, 0, 0, ...)$ . Ta có $\Phi_n(\tau(a)) = a^{p^n}$ với mọi $n \in \mathbf{N}$. Với mọi đồng cấu vành $\rho : B \to A$, ta có $W(\rho) \circ \tau_B = \tau_A \circ \rho$.
 
@@ -568,7 +568,7 @@ $$
 \sum_{n=0}^m V^n(\tau(x_n)) = (x_0, ..., x_m, 0, 0, ...)
 $$
 
-với mọi số nguyên $m \geq 0$; ta suy ra b) bằng cách chuyển qua giới hạn vì tôpô $\mathcal{T}$ trên $W(A)$ là tích của các tôpô rời rạc của các thừa số $A$.
+với mọi số nguyên $m \geq 0$; ta suy ra b) bằng cách chuyển qua giới hạn vì tôpô $\mathscr{T}$ trên $W(A)$ là tích của các tôpô rời rạc của các thừa số $A$.
 
 ### 7. Các vành $W_n(A)$ của các vectơ Witt có độ dài hữu hạn
 
@@ -758,7 +758,7 @@ Cho $A$ là một vành.
 
 a) Với mọi số nguyên $k \geqslant 1$, ta có $(V_1(A))^k = p^{k-1} \cdot V_1(A)$.
 
-b) Giả sử rằng $A$ là một vành có đặc số $p$. Trên vành $W(A)$, tôpô $V_1(A)$-adic và tôpô $p$-adic trùng nhau, và chúng mịn hơn tôpô tích $\mathcal{C}$ (xem No. 6). Vành $W(A)$ là tách được và đầy đủ đối với tôpô $p$-adic.
+b) Giả sử rằng $A$ là một vành có đặc số $p$. Trên vành $W(A)$, tôpô $V_1(A)$-adic và tôpô $p$-adic trùng nhau, và chúng mịn hơn tôpô tích $\mathscr{C}$ (xem No. 6). Vành $W(A)$ là tách được và đầy đủ đối với tôpô $p$-adic.
 
 Ta hãy chứng minh a) bằng quy nạp theo $k$. Trường hợp $k = 1$ là hiển nhiên. Giả sử $k \geqslant 2$. Theo giả thiết quy nạp, ta có $V_1(A)^{k-1} = p^{k-2} \cdot V_1(A)$ và do đó $V_1(A)^k = p^{k-2} \cdot (V_1(A))^2$. Nhưng từ mệnh đề 3, d), công thức (31), của No. 5 suy ra rằng ta có $(V_1(A))^2 = p \cdot V_1(A)$, do đó có a).
 
@@ -770,7 +770,7 @@ $$
 
 ta suy ra từ a) các bao hàm $p^k.W(A) \subset (V_1(A))^k \subset p^{k-1}.W(A)$, và từ hệ quả của mệnh đề 5 bao hàm $(V_1(A))^k \subset V_k(A)$, với mọi số nguyên $k \geqslant 1$. Khẳng định thứ nhất của b) được suy ra.
 
-Cho $k$ là một số nguyên $\geqslant 1$. Theo công thức (52), iđêan $p^k.W(A)$ của $W(A)$ là tập hợp các phần tử $a = (a_n)_{n \in \mathbf{N}}$ của $W(A)$ sao cho có $a_n = 0$ với $n < k$ và $a_n \in A^{p^k}$ với $n \geqslant k$. Do đó nó là đóng đối với tôpô $\mathcal{G}$. Vì $W(A)$ là tách được và đầy đủ đối với tôpô $\mathcal{G}$ (no 6) và vì các iđêan $p^k.W(A)$ của $W(A)$, với $k \geqslant 1$, tạo thành một cơ sở các lân cận của $0$ trong $W(A)$ đối với tôpô $p$-adic, nên vành $W(A)$ là tách được và đầy đủ đối với tôpô $p$-adic (TG, III, p. 26, hệ quả 1 của mệnh đề 10).
+Cho $k$ là một số nguyên $\geqslant 1$. Theo công thức (52), iđêan $p^k.W(A)$ của $W(A)$ là tập hợp các phần tử $a = (a_n)_{n \in \mathbf{N}}$ của $W(A)$ sao cho có $a_n = 0$ với $n < k$ và $a_n \in A^{p^k}$ với $n \geqslant k$. Do đó nó là đóng đối với tôpô $\mathscr{G}$. Vì $W(A)$ là tách được và đầy đủ đối với tôpô $\mathscr{G}$ (no 6) và vì các iđêan $p^k.W(A)$ của $W(A)$, với $k \geqslant 1$, tạo thành một cơ sở các lân cận của $0$ trong $W(A)$ đối với tôpô $p$-adic, nên vành $W(A)$ là tách được và đầy đủ đối với tôpô $p$-adic (TG, III, p. 26, hệ quả 1 của mệnh đề 10).
 
 #### Mệnh đề 7 {#ac-ix-s1-prop-7 .statement}
 
@@ -778,7 +778,7 @@ Cho $k$ là một số nguyên $\geqslant 1$. Theo công thức (52), iđêan $p
 
 a) *Với mọi phần tử $a = (a_n)_{n \in \mathbf{N}}$ của $W(A)$, chuỗi có số hạng tổng quát $p^n \tau(a_n^{p^{-n}})$ là hội tụ trong $W(A)$, với tổng là $a$.*
 
-b) *Trên $W(A)$, tôpô $V_1(A)$-adic, tôpô $p$-adic và tôpô $\mathcal{G}$ trùng nhau. Chính xác hơn, ta có $V_n(A) = p^n.W(A) = (V_1(A))^n$ với mọi số nguyên $n \geqslant 0$. Đặc biệt $\Phi_0$ xác định một đẳng cấu của $W(A)/p.W(A)$ lên $A$.*
+b) *Trên $W(A)$, tôpô $V_1(A)$-adic, tôpô $p$-adic và tôpô $\mathscr{G}$ trùng nhau. Chính xác hơn, ta có $V_n(A) = p^n.W(A) = (V_1(A))^n$ với mọi số nguyên $n \geqslant 0$. Đặc biệt $\Phi_0$ xác định một đẳng cấu của $W(A)/p.W(A)$ lên $A$.*
 
 Theo định nghĩa (A, V, p. 5), ánh xạ $a \mapsto a^p$ là một tự đẳng cấu của vành $A$. Theo mệnh đề 5, F do đó là một tự đẳng cấu của vành $W(A)$, và ta có, với mọi $n \in \mathbf{N}$,
 

@@ -48,7 +48,7 @@ subsections:
       pdf_page: 236
 statements: 23
 exercises: 27
-content_sha256: c86210c1d1ba178a2e2323abf3be27dbcd1653b5a9ae5496bb9e9db4c5ef234b
+content_sha256: e4acba64addabc770fa1d85f4fcbf658451c06a66608d1c5e36d0fccd77971db
 ---
 
 ## § 3. Anneaux factoriels
@@ -89,7 +89,7 @@ c) la condition (M) est satisfaite, et l’intersection de deux idéaux principa
 d) la condition (M) est satisfaite, et, pour tout élément extrémal $p$ de $A$, l’idéal $Ap$ est premier;
 e) $A$ est un anneau de Krull, et tout idéal premier de hauteur 1 est principal.
 
-Nous noterons $K$ le corps des fractions de $A$, et $\mathcal{P}^*$ (ou $\mathcal{P}^*(A)$) le groupe ordonné des idéaux principaux fractionnaires non nuls de $A$. Nous ferons la démonstration suivant le schéma logique:
+Nous noterons $K$ le corps des fractions de $A$, et $\mathscr{P}^*$ (ou $\mathscr{P}^*(A)$) le groupe ordonné des idéaux principaux fractionnaires non nuls de $A$. Nous ferons la démonstration suivant le schéma logique:
 
 $$
 \begin{array}{ccc}
@@ -101,13 +101,13 @@ e & \leftrightarrow & b \\
 \end{array}
 $$
 
-Montrons que a) implique b): en effet, si $A$ est factoriel, $\mathcal{P}^*$ est isomorphe au groupe des diviseurs de $A$, donc à une somme directe de groupes $\mathbf{Z}$ ($§ 1$, no 3, th. 2).
+Montrons que a) implique b): en effet, si $A$ est factoriel, $\mathscr{P}^*$ est isomorphe au groupe des diviseurs de $A$, donc à une somme directe de groupes $\mathbf{Z}$ ($§ 1$, no 3, th. 2).
 
-Notons maintenant que la relation « l’intersection de deux idéaux principaux entiers de $A$ est un idéal principal » veut dire que tout couple d’éléments de $A$ admet un p.p.c.m., c’est-à-dire que $\mathcal{P}^*$ est un groupe réticulé (*Alg.*, chap. VI, $§ 1$, no 9, prop. 8). Le fait que b) implique c) (et lui est même équivalent) résulte donc d’*Alg.*, chap. VI, $§ 1$, no 13, th. 2. Le fait que c) implique d) résulte d’*Alg.*, chap. VI, $§ 1$, no 13, prop. 14, (DIV).
+Notons maintenant que la relation « l’intersection de deux idéaux principaux entiers de $A$ est un idéal principal » veut dire que tout couple d’éléments de $A$ admet un p.p.c.m., c’est-à-dire que $\mathscr{P}^*$ est un groupe réticulé (*Alg.*, chap. VI, $§ 1$, no 9, prop. 8). Le fait que b) implique c) (et lui est même équivalent) résulte donc d’*Alg.*, chap. VI, $§ 1$, no 13, th. 2. Le fait que c) implique d) résulte d’*Alg.*, chap. VI, $§ 1$, no 13, prop. 14, (DIV).
 
-Le fait que d) implique b) résulte d’*Alg.*, chap. VI, $§ 1$, no 13, th. 2 appliqué au groupe $\mathcal{P}^*$.
+Le fait que d) implique b) résulte d’*Alg.*, chap. VI, $§ 1$, no 13, th. 2 appliqué au groupe $\mathscr{P}^*$.
 
-Montrons que b) implique e). Si b) est vérifiée, on a un isomorphisme de $\mathcal{P}^*$ sur $\mathbf{Z}^{(l)}$; notons $(v_i(x))_{i \in I}$ l’élément de $\mathbf{Z}^{(l)}$ correspondant à l’idéal $Ax$ ($x \in K^*$). On voit aussitôt que chaque $v_i$ est une valuation discrète de $K$, que $A$ est l’intersection des anneaux des $v_i$, et que, pour $x \in K^*$, on a $v_i(x) = 0$ sauf pour un nombre fini d’indices $i$; donc $A$ est un anneau de Krull. D’autre part, soit $q$ un idéal premier de hauteur 1 de $A$; il contient un élément non nul $a$, nécessairement non inversible, donc aussi (par définition d’un idéal premier) l’un des éléments extrémaux $p$ de $A$; comme $Ap$ est premier non nul, on a $q = Ap$, ce qui montre bien que $q$ est principal.
+Montrons que b) implique e). Si b) est vérifiée, on a un isomorphisme de $\mathscr{P}^*$ sur $\mathbf{Z}^{(l)}$; notons $(v_i(x))_{i \in I}$ l’élément de $\mathbf{Z}^{(l)}$ correspondant à l’idéal $Ax$ ($x \in K^*$). On voit aussitôt que chaque $v_i$ est une valuation discrète de $K$, que $A$ est l’intersection des anneaux des $v_i$, et que, pour $x \in K^*$, on a $v_i(x) = 0$ sauf pour un nombre fini d’indices $i$; donc $A$ est un anneau de Krull. D’autre part, soit $q$ un idéal premier de hauteur 1 de $A$; il contient un élément non nul $a$, nécessairement non inversible, donc aussi (par définition d’un idéal premier) l’un des éléments extrémaux $p$ de $A$; comme $Ap$ est premier non nul, on a $q = Ap$, ce qui montre bien que $q$ est principal.
 
 Montrons enfin que e) implique a). Soit $a$ un idéal divisoriel de A. Il existe des idéaux premiers $p_i$ de hauteur 1 de A tels que $\operatorname{div}\alpha = \sum_i n_i \operatorname{div} p_i$ avec $n_i \in \mathbf{Z}$. Si e) est satisfaite, $p_i$ est de la forme $Ap_i$, d’où $\operatorname{div}\alpha = \operatorname{div}\left( \prod_i Ap_i^{n_i} \right)$, donc $\alpha = \prod_i Ap_i^{n_i}$ puisque $\alpha$ est divisoriel.
 
@@ -121,7 +121,7 @@ Supposons que tout idéal divisoriel de A soit inversible; comme $A_m$ est un an
 
 ### 3. Décomposition en éléments extrémaux
 
-Soient A un anneau intègre, K son corps des fractions, et U le groupe multiplicatif des éléments inversibles de A. Rappelons (Alg., chap. VI, § 1, n° 5) qu’on a un isomorphisme canonique de $K^*/U$ sur le groupe $\mathcal{P}^*$ des idéaux principaux fractionnaires non nuls de A. La condition b) du th. 1 se traduit alors de la manière suivante:
+Soient A un anneau intègre, K son corps des fractions, et U le groupe multiplicatif des éléments inversibles de A. Rappelons (Alg., chap. VI, § 1, n° 5) qu’on a un isomorphisme canonique de $K^*/U$ sur le groupe $\mathscr{P}^*$ des idéaux principaux fractionnaires non nuls de A. La condition b) du th. 1 se traduit alors de la manière suivante:
 
 #### Proposition 2 {#ac-vii-s3-prop-2 .statement}
 
@@ -129,7 +129,7 @@ Soit A un anneau intègre. Pour que A soit factoriel, il faut et il suffit qu’
 
 Si P vérifie cette condition, il est clair que tous ses éléments sont extrémaux, et que tout élément extrémal de A est associé à
 
-Supposons toujours A factoriel. On a vu (n° 2, th. 1) que le groupe $\mathcal{P}^*$ est réticulé. On peut donc appliquer les résultats d’Alg., chap. VI, § 1, n°s 9 à 13. En particulier, tout élément de K* s’écrit, d’une façon et essentiellement d’une seule, sous forme de fraction irréductible. Deux éléments quelconques $a, b$ de K* ont un p.g.c.d. et un p.p.c.m.; si $a = u \prod_{p \in P} p^{n(p)}$ et $b = u' \prod_{p \in P} p^{m(p)}$ sont des décompositions de $a$ et $b$ en produits d’éléments extrémaux, on a:
+Supposons toujours A factoriel. On a vu (n° 2, th. 1) que le groupe $\mathscr{P}^*$ est réticulé. On peut donc appliquer les résultats d’Alg., chap. VI, § 1, n°s 9 à 13. En particulier, tout élément de K* s’écrit, d’une façon et essentiellement d’une seule, sous forme de fraction irréductible. Deux éléments quelconques $a, b$ de K* ont un p.g.c.d. et un p.p.c.m.; si $a = u \prod_{p \in P} p^{n(p)}$ et $b = u' \prod_{p \in P} p^{m(p)}$ sont des décompositions de $a$ et $b$ en produits d’éléments extrémaux, on a:
 
 (1) $\text{p.g.c.d. } (a, b) = w \prod_{p \in P} p^{\inf(m(p), n(p))}$
 

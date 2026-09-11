@@ -25,7 +25,7 @@ subsections:
       pdf_page: 433
 statements: 14
 exercises: 3
-content_sha256: a818113ef87fdb588b60c8045863641963170d0c573c7e9237ce829f4055a323
+content_sha256: 1debc26396f5932ce4ac528e2be803e9ded101fa3e15e8f6fd5a4589047a8010
 ---
 
 ## 7. THE APPROXIMATION THEOREM
@@ -134,15 +134,15 @@ We may assume that $A_i \neq K$ for all $i$. Then, there exists for all $i$ an $
 
 #### Corollary 2 {#ac-vi-s7-lem-2-cor-2 .statement}
 
-*Let $\mathcal{T}_i$ be the topology defined on $K$ by $v_i$; let $K^n$ be given the topology the product of the $\mathcal{T}_i$. If the $v_i$ are not improper, the diagonal of $K^n$ is dense in $K^n$.
+*Let $\mathscr{T}_i$ be the topology defined on $K$ by $v_i$; let $K^n$ be given the topology the product of the $\mathscr{T}_i$. If the $v_i$ are not improper, the diagonal of $K^n$ is dense in $K^n$.
 
 #### Proposition 3 {#ac-vi-s7-prop-3 .statement}
 
 *Let $v$ and $v'$ be two non-improper valuations on the same field $K$. For $v$ and $v'$ to define the same topology on $K$, it is necessary and sufficient that they be dependent.
 
-Suppose that the topologies $\mathcal{T}_v$ and $\mathcal{T}_{v'}$, defined by $v$ and $v'$, are identical. Since $\mathcal{T}_v$ is Hausdorff, the diagonal of $K^2$ is closed and hence $v$ and $v'$ are dependent (Corollary 2 to Theorem 1).
+Suppose that the topologies $\mathscr{T}_v$ and $\mathscr{T}_{v'}$, defined by $v$ and $v'$, are identical. Since $\mathscr{T}_v$ is Hausdorff, the diagonal of $K^2$ is closed and hence $v$ and $v'$ are dependent (Corollary 2 to Theorem 1).
 
-Conversely, suppose that $v$ and $v'$ are dependent. Then their rings $A$ and $A'$ are contained in the same ring $A''$ distinct from $K$ and $A''$ is the ring of a valuation $v''$ ($§ 4$, no. 1, Proposition 1). It suffices to show that the topology $\mathcal{T}_{v''}$ is identical with $\mathcal{T}_v$. Let $\Gamma$ and $\Gamma''$ be the order groups of $v$ and $v''$. There exists an increasing homomorphism $\lambda$ of $\Gamma$ onto $\Gamma''$ such that $v'' = A \circ v$ ($§ 4$, no. 3). If $a'' \in I?''$, let $a \in \lambda^{-1}(a'')$; the condition $v(x) \geq \alpha$ implies $v''(x) \geq a''$. Let $\beta \in \Gamma$ and $\beta'' = \lambda(\beta)$; the condition $v(x) \leq \beta$ implies $v''(x) \leq \beta''$ and hence the condition $v''(x) > \beta''$ implies $v(x) > \beta$. As $v$ and $v''$ are not improper, the inequalities in question define fundamental systems of neighbourhoods of 0 for $\mathcal{T}_v$ and $\mathcal{T}_{v''}$. Hence $\mathcal{T}_v = \mathcal{T}_{v''}$, which completes the proof.
+Conversely, suppose that $v$ and $v'$ are dependent. Then their rings $A$ and $A'$ are contained in the same ring $A''$ distinct from $K$ and $A''$ is the ring of a valuation $v''$ ($§ 4$, no. 1, Proposition 1). It suffices to show that the topology $\mathscr{T}_{v''}$ is identical with $\mathscr{T}_v$. Let $\Gamma$ and $\Gamma''$ be the order groups of $v$ and $v''$. There exists an increasing homomorphism $\lambda$ of $\Gamma$ onto $\Gamma''$ such that $v'' = A \circ v$ ($§ 4$, no. 3). If $a'' \in I?''$, let $a \in \lambda^{-1}(a'')$; the condition $v(x) \geq \alpha$ implies $v''(x) \geq a''$. Let $\beta \in \Gamma$ and $\beta'' = \lambda(\beta)$; the condition $v(x) \leq \beta$ implies $v''(x) \leq \beta''$ and hence the condition $v''(x) > \beta''$ implies $v(x) > \beta$. As $v$ and $v''$ are not improper, the inequalities in question define fundamental systems of neighbourhoods of 0 for $\mathscr{T}_v$ and $\mathscr{T}_{v''}$. Hence $\mathscr{T}_v = \mathscr{T}_{v''}$, which completes the proof.
 
 Remarks
 (1) Proposition 3 shows that the relation '"$v$ and $v'$ are dependent"' is an equivalence relation.

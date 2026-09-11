@@ -41,9 +41,9 @@ subsections:
       pdf_page: 446
 statements: 36
 exercises: 21
-content_sha256: 8a7d1b3cf1bdce48f437788590efec6c8a0d820242a8200c14c02c6d45501ef1
+content_sha256: d5976cc91ca77b3d7d937ab3adea7dd5fe2328a5dfe3ba45b4eb1a9744bf7a39
 translated_from: content/en/ac/VI/08_s8_extensions_of_a_valuation_to_an.md
-source_content_sha256: 1740a7e6d3aaa11959ee2ba6e65707eab0efe09ef5333a215378d18f32bd6007
+source_content_sha256: d853329d68867ccedd9e356c1483209c43fd487e4b1b8709e9d31dca3434d87e
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-568d1a67
 glossary_version: 34
@@ -134,9 +134,9 @@ Cho $(L_\alpha)$ là họ các mở rộng con hữu hạn của $L$; ta viết 
 
 #### Bổ đề 3 {#ac-vi-s8-lem-3 .statement}
 
-*Cho $G'$ là một nhóm được sắp thứ tự toàn phần, $G$ là một nhóm con của $G$ và $\mathcal{G}'$ (resp. $\mathcal{G}$) là tập hợp các nhóm con cô lập của $G'$ (resp. $G$). Ánh xạ $H' \mapsto H' \cap G$ ánh xạ $\mathcal{G}'$ lên $\mathcal{G}$. Ánh xạ này là song ánh nếu $G'/G$ là một nhóm xoắn.*
+*Cho $G'$ là một nhóm được sắp thứ tự toàn phần, $G$ là một nhóm con của $G$ và $\mathscr{G}'$ (resp. $\mathscr{G}$) là tập hợp các nhóm con cô lập của $G'$ (resp. $G$). Ánh xạ $H' \mapsto H' \cap G$ ánh xạ $\mathscr{G}'$ lên $\mathscr{G}$. Ánh xạ này là song ánh nếu $G'/G$ là một nhóm xoắn.*
 
-Rõ ràng $H' \in \mathcal{G}'$ kéo theo $H' \cap G \in \mathcal{G}$. Bây giờ cho $H \in \mathcal{G}$; gọi $H'$ là tập hợp các $x' \in G'$ sao cho tồn tại $h \in H$ thỏa mãn $-h \leq x' \leq h$; ta kiểm tra ngay lập tức rằng $H'$ là một nhóm con cô lập của $G'$; khi đó $H' \cap G = H$ vì $H$ là cô lập; do đó ánh xạ $H' \mapsto H' \cap G$ là toàn ánh. Cuối cùng giả sử rằng $G'/G$ là một nhóm xoắn; cho $H'_1$ và $H'_2$ là hai nhóm con cô lập của $G'$ sao cho $H'_1 \cap G = H'_2 \cap G$; khi đó, chẳng hạn, $H'_1 \supset H'_2$ (xem § 4, no. 4); khi đó $H'_1/H'_2$ là một nhóm được sắp thứ tự toàn phần và đẳng cấu với một nhóm thương của $H'_1/(H'_1 \cap G)$ mà bản thân nó được đồng nhất với một nhóm con của $G'/G$; do đó $H'_1/H'_2$ là một nhóm xoắn và vì thế rút gọn về 0.
+Rõ ràng $H' \in \mathscr{G}'$ kéo theo $H' \cap G \in \mathscr{G}$. Bây giờ cho $H \in \mathscr{G}$; gọi $H'$ là tập hợp các $x' \in G'$ sao cho tồn tại $h \in H$ thỏa mãn $-h \leq x' \leq h$; ta kiểm tra ngay lập tức rằng $H'$ là một nhóm con cô lập của $G'$; khi đó $H' \cap G = H$ vì $H$ là cô lập; do đó ánh xạ $H' \mapsto H' \cap G$ là toàn ánh. Cuối cùng giả sử rằng $G'/G$ là một nhóm xoắn; cho $H'_1$ và $H'_2$ là hai nhóm con cô lập của $G'$ sao cho $H'_1 \cap G = H'_2 \cap G$; khi đó, chẳng hạn, $H'_1 \supset H'_2$ (xem § 4, no. 4); khi đó $H'_1/H'_2$ là một nhóm được sắp thứ tự toàn phần và đẳng cấu với một nhóm thương của $H'_1/(H'_1 \cap G)$ mà bản thân nó được đồng nhất với một nhóm con của $G'/G$; do đó $H'_1/H'_2$ là một nhóm xoắn và vì thế rút gọn về 0.
 
 #### Hệ quả 2 {#ac-vi-s8-lem-3-cor-2 .statement}
 
@@ -416,13 +416,13 @@ $$
 
 #### Hệ quả 4 {#ac-vi-s8-thm-2-cor-4 .statement}
 
-*Nếu dưới các giả thiết của Hệ quả 3, L là một mở rộng tách được của K, thì mỗi $\hat{L}_i$ là một mở rộng tách được của $\hat{K}$. Nếu hơn nữa L là một mở rộng Galois của K với nhóm Galois $\mathcal{G}$ và $\mathcal{G}_i$ ký hiệu nhóm phân tích của iđêan của $v'_i$ trong B (Chương V, § 2, no. 2, Định nghĩa 2), thì $\hat{L}_i$ là một mở rộng Galois của $\hat{K}$ mà nhóm Galois đẳng cấu với $\mathcal{G}_i$.*
+*Nếu dưới các giả thiết của Hệ quả 3, L là một mở rộng tách được của K, thì mỗi $\hat{L}_i$ là một mở rộng tách được của $\hat{K}$. Nếu hơn nữa L là một mở rộng Galois của K với nhóm Galois $\mathscr{G}$ và $\mathscr{G}_i$ ký hiệu nhóm phân tích của iđêan của $v'_i$ trong B (Chương V, § 2, no. 2, Định nghĩa 2), thì $\hat{L}_i$ là một mở rộng Galois của $\hat{K}$ mà nhóm Galois đẳng cấu với $\mathscr{G}_i$.*
 
-Rõ ràng $\hat{L}_i = \hat{K}(L)$; do đó, nếu L tách được trên K, thì $\hat{L}_i$ tách được trên $\hat{K}$ (Đại số, Chương V, § 7, no. 6, Mệnh đề 10). Bây giờ giả sử rằng L là Galois. Mọi tự đẳng cấu $\sigma \in \mathcal{G}_i$ đều liên tục trên L đối với tôpô được xác định bởi $v'_i$, sự kiện rằng không có hai iđêan nào của các $v'_i$ là so sánh được đối với quan hệ bao hàm (§ 7, no. 2, Hệ quả 1 của Định lý 1) tất yếu kéo theo rằng $v'_i = v'_i \circ \sigma$ theo định nghĩa của $\mathcal{G}_i$; do đó $\sigma$ có thể được kéo dài nhờ tính liên tục thành một tự đẳng cấu $\hat{K}$ $\hat{\sigma}$ của $\hat{L}_i$. Điều này chứng minh rằng số các tự đẳng cấu $\hat{K}$ của off,, ít nhất bằng $\mathrm{Card}(\mathcal{G}_i)$. Nhưng vì các định giá $v'_i$ liên hợp từng đôi một dưới $\mathcal{G}$ (Chương V, § 2, no. 3, Mệnh đề 6), $s = (\mathcal{G}_i)$, do đó
+Rõ ràng $\hat{L}_i = \hat{K}(L)$; do đó, nếu L tách được trên K, thì $\hat{L}_i$ tách được trên $\hat{K}$ (Đại số, Chương V, § 7, no. 6, Mệnh đề 10). Bây giờ giả sử rằng L là Galois. Mọi tự đẳng cấu $\sigma \in \mathscr{G}_i$ đều liên tục trên L đối với tôpô được xác định bởi $v'_i$, sự kiện rằng không có hai iđêan nào của các $v'_i$ là so sánh được đối với quan hệ bao hàm (§ 7, no. 2, Hệ quả 1 của Định lý 1) tất yếu kéo theo rằng $v'_i = v'_i \circ \sigma$ theo định nghĩa của $\mathscr{G}_i$; do đó $\sigma$ có thể được kéo dài nhờ tính liên tục thành một tự đẳng cấu $\hat{K}$ $\hat{\sigma}$ của $\hat{L}_i$. Điều này chứng minh rằng số các tự đẳng cấu $\hat{K}$ của off,, ít nhất bằng $\mathrm{Card}(\mathscr{G}_i)$. Nhưng vì các định giá $v'_i$ liên hợp từng đôi một dưới $\mathscr{G}$ (Chương V, § 2, no. 3, Mệnh đề 6), $s = (\mathscr{G}_i)$, do đó
 $$
-\mathrm{Card}(\mathcal{G}_i) = n/s \leq n.
+\mathrm{Card}(\mathscr{G}_i) = n/s \leq n.
 $$
-và mặt khác $n = sn$, theo Hệ quả 3; điều này chứng minh rằng $\hat{L}_i$ là một mở rộng Galois của $\hat{K}$ và rằng các phép kéo dài nhờ tính liên tục của các tự đẳng cấu $\sigma \in \mathcal{G}_i$ là các tự đẳng cấu $\hat{K}$ duy nhất của $\hat{L}_i$.
+và mặt khác $n = sn$, theo Hệ quả 3; điều này chứng minh rằng $\hat{L}_i$ là một mở rộng Galois của $\hat{K}$ và rằng các phép kéo dài nhờ tính liên tục của các tự đẳng cấu $\sigma \in \mathscr{G}_i$ là các tự đẳng cấu $\hat{K}$ duy nhất của $\hat{L}_i$.
 
 *Nhận xét (2)*. Một phần của các kết quả trên mở rộng được cho trường hợp các định giá trên một trường K *không nhất thiết giao hoán* (x. § 3, no. 1). Cho L là một trường mở rộng của K và cho $v'$ là một định giá trên L, $v$ là hạn chế của nó lên K, còn A' và A là các vành tương ứng của các định giá $v'$ và $v$; khi đó chỉ số phân nhánh $e(v'/v)$ được xác định như ở no. 1; mặt khác, $\kappa(A)$ được đồng nhất với một trường con của $\kappa(A')$ và hạng thặng dư (trái) của $v'$ đối với $v$ được định nghĩa là số $f(v'/v)$ bằng chiều của không gian vectơ trái trên $\kappa(A)$ là $\kappa(A')$, nếu chiều này là hữu hạn, và bằng $+\infty$ trong trường hợp đối. Khi đó, nếu L là một không gian vectơ trái trên K có số chiều hữu hạn $n$, thì Bổ đề 2 của no. 1 và chứng minh của nó được chuyển sang mà không thay đổi. Hơn nữa, nếu K là đầy đủ đối với $v$, thì các mệnh đề của Hệ quả 2 của Định lý 2 ở no. 5 (ngoài sự tồn tại của $u'$) cũng còn đúng ($n$ ký hiệu chiều của L như một không gian vectơ trái trên K) với chứng minh sau đây:
 

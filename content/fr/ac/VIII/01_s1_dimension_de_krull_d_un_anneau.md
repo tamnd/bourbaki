@@ -33,7 +33,7 @@ subsections:
       pdf_page: 15
 statements: 48
 exercises: 17
-content_sha256: dfd77bd04b8c3a561bbff2a837de1d04473894f7c634da1f7c06b1d28592b805
+content_sha256: e9eeac77edda70d924b249438b8490822964b8aeb00c4b6e2f000df2b8cf1d06
 ---
 
 ## § 1. DIMENSION DE KRULL D’UN ANNEAU
@@ -69,7 +69,7 @@ Démontrons c). Soit $Z_0 \subset \ldots \subset Z_n$ une chaîne de parties fer
 
 comme I est fini, $Z_n$ est contenu dans l’un des $X_i$. Par suite, on a $\dim(X) \leq \sup_{i} \dim(X_i)$, d’où l’égalité d’après *a*).
 
-Soient maintenant $x$ un point de $X$ et $n = \sup_{i \in J_x} \dim_x(X_i)$, où $J_x$ est comme dans l’énoncé. On a $\dim_x(X) \geq n$ d’après *a*), et, pour établir l’égalité, on peut supposer $n$ fini. Pour tout $i \in J_x$, soit $U_i$ un voisinage ouvert de $x$ dans $X$, tel que $\dim(U_i \cap X_i) \leq n$. Posons $U = (\bigcap_{i \in J_x} U_i) \cap (\bigcap_{i \in I - J_x} \mathcal{C} X_i)$; l’ensemble $U$ est ouvert dans $X$. De plus, on a $\dim(U) = \sup_{i \in J_x} \dim(U \cap X_i) \leq n$ d’après l’alinéa précédent, donc $\dim_x(X) \leq n$.
+Soient maintenant $x$ un point de $X$ et $n = \sup_{i \in J_x} \dim_x(X_i)$, où $J_x$ est comme dans l’énoncé. On a $\dim_x(X) \geq n$ d’après *a*), et, pour établir l’égalité, on peut supposer $n$ fini. Pour tout $i \in J_x$, soit $U_i$ un voisinage ouvert de $x$ dans $X$, tel que $\dim(U_i \cap X_i) \leq n$. Posons $U = (\bigcap_{i \in J_x} U_i) \cap (\bigcap_{i \in I - J_x} \mathscr{C} X_i)$; l’ensemble $U$ est ouvert dans $X$. De plus, on a $\dim(U) = \sup_{i \in J_x} \dim(U \cap X_i) \leq n$ d’après l’alinéa précédent, donc $\dim_x(X) \leq n$.
 
 #### Corollaire {#ac-viii-s1-n1-cor-1 .statement}
 
@@ -446,32 +446,32 @@ Les suites de $\mathbf{Z}$-modules et d’homomorphismes
 
 $$
 \begin{array}{cccccc}
-K(\mathcal{C}_{\leq d-1}) & \xrightarrow{i_d} & K(\mathcal{C}_{\leq d}) & \xrightarrow{\zeta_d} & Z_d & \longrightarrow 0 \\
-K(\mathcal{C}^{>d+1}) & \xrightarrow{i_d} & K(\mathcal{C}^{>d}) & \xrightarrow{\zeta_d} & Z^d & \longrightarrow 0
+K(\mathscr{C}_{\leq d-1}) & \xrightarrow{i_d} & K(\mathscr{C}_{\leq d}) & \xrightarrow{\zeta_d} & Z_d & \longrightarrow 0 \\
+K(\mathscr{C}^{>d+1}) & \xrightarrow{i_d} & K(\mathscr{C}^{>d}) & \xrightarrow{\zeta_d} & Z^d & \longrightarrow 0
 \end{array}
 $$
 
 sont exactes.
 
-On a $\zeta_d \circ i_d = 0$ d’après le lemme 1. Pour tout $p \in \mathrm{Spec}(A)$ tel que $\dim(A/p) = d$, on a $\zeta_d([A/p]_{\leq d}) = z_d(A/p) = [V(p)]$, donc l’homomorphisme $\zeta_d$ est surjectif. D’après IV, § 1, no 4, th. 1, $K(\mathcal{C}_{\leq d})$ est engendré par les $[A/p]_{\leq d}$, où $p \in \mathrm{Spec}(A)$ et $\dim(A/p) \leq d$; par conséquent, tout élément $\xi$ de $K(\mathcal{C}_{\leq d})$ peut s’écrire $\xi = i_d(\eta) + \sum_{i=1}^k n_i[A/p_i]_{\leq d}$, avec $\eta \in K(\mathcal{C}_{\leq d-1})$, $n_i \in \mathbf{Z}$ et $\dim(A/p_i) = d$ pour $1 \leq i \leq k$; on a $\zeta_d(\xi) = \sum_{i=1}^k n_i[V(p_i)]$ et par conséquent $\zeta_d(\xi) = 0$ implique $\xi = i_d(\eta) \in \mathrm{Im}(i_d)$, d’où $\mathrm{Ker}(\zeta_d) = \mathrm{Im}(i_d)$.
+On a $\zeta_d \circ i_d = 0$ d’après le lemme 1. Pour tout $p \in \mathrm{Spec}(A)$ tel que $\dim(A/p) = d$, on a $\zeta_d([A/p]_{\leq d}) = z_d(A/p) = [V(p)]$, donc l’homomorphisme $\zeta_d$ est surjectif. D’après IV, § 1, no 4, th. 1, $K(\mathscr{C}_{\leq d})$ est engendré par les $[A/p]_{\leq d}$, où $p \in \mathrm{Spec}(A)$ et $\dim(A/p) \leq d$; par conséquent, tout élément $\xi$ de $K(\mathscr{C}_{\leq d})$ peut s’écrire $\xi = i_d(\eta) + \sum_{i=1}^k n_i[A/p_i]_{\leq d}$, avec $\eta \in K(\mathscr{C}_{\leq d-1})$, $n_i \in \mathbf{Z}$ et $\dim(A/p_i) = d$ pour $1 \leq i \leq k$; on a $\zeta_d(\xi) = \sum_{i=1}^k n_i[V(p_i)]$ et par conséquent $\zeta_d(\xi) = 0$ implique $\xi = i_d(\eta) \in \mathrm{Im}(i_d)$, d’où $\mathrm{Ker}(\zeta_d) = \mathrm{Im}(i_d)$.
 
 On raisonne de même pour la seconde suite.
 
 #### Exemple 1 {#ac-viii-s1-n5-exa-1 .statement}
 
-Supposons A noethérien et intègre. Alors on a $Z^0 = \mathbf{Z}.[\mathrm{Spec}(A)]$; on a $\mathcal{C}^{>0} = \mathcal{C}$ et $z^0(M) = \mathrm{rg}(M).[Spec(A)]$. Les modules de type $\mathcal{C}^{>1}$ sont donc les modules de torsion.
+Supposons A noethérien et intègre. Alors on a $Z^0 = \mathbf{Z}.[\mathrm{Spec}(A)]$; on a $\mathscr{C}^{>0} = \mathscr{C}$ et $z^0(M) = \mathrm{rg}(M).[Spec(A)]$. Les modules de type $\mathscr{C}^{>1}$ sont donc les modules de torsion.
 
 #### Exemple 2 {#ac-viii-s1-n5-exa-2 .statement}
 
-Supposons A noethérien et intégralement clos. Alors $Z^1$ s’identifie au groupe $D(A)$ des diviseurs de A introduit au chapitre VII (§ 1, no 3, th. 2, et no 6, th. 3). Les modules de type $\mathcal{C}^{>2}$ sont les modules pseudo-nuls (VII, § 4, no 4, déf. 2); si M est un module de torsion de type fini, alors $z^1(M) \in Z^1 = D(A)$ est le contenu $\chi(M)$ de M (VII, § 4, no 5, déf. 4). Les prop. 10 et 11 de loc. cit. sont donc équivalentes à l’exactitude de la suite $K(\mathcal{C}^{>2}) \to K(\mathcal{C}^{>1}) \to Z^1 \to 0$.
+Supposons A noethérien et intégralement clos. Alors $Z^1$ s’identifie au groupe $D(A)$ des diviseurs de A introduit au chapitre VII (§ 1, no 3, th. 2, et no 6, th. 3). Les modules de type $\mathscr{C}^{>2}$ sont les modules pseudo-nuls (VII, § 4, no 4, déf. 2); si M est un module de torsion de type fini, alors $z^1(M) \in Z^1 = D(A)$ est le contenu $\chi(M)$ de M (VII, § 4, no 5, déf. 4). Les prop. 10 et 11 de loc. cit. sont donc équivalentes à l’exactitude de la suite $K(\mathscr{C}^{>2}) \to K(\mathscr{C}^{>1}) \to Z^1 \to 0$.
 
 #### Exemple 3 {#ac-viii-s1-n5-exa-3 .statement}
 
-Les modules de type $\mathcal{C}_{\leq 0}$ sont les modules de dimension $\leq 0$, c’est-à-dire les modules de longueur finie (no 4, remarque 1). On a $\mathrm{long}_A(M) = \varepsilon(z_0(M))$ pour tout A-module de longueur finie M, où $\varepsilon : Z_0 \to \mathbf{Z}$ associe à la combinaison linéaire $\sum_m n_m[V(m)]$ l’entier $\sum_m n_m$ (IV, § 2, no 5, corollaire à la prop. 8).
+Les modules de type $\mathscr{C}_{\leq 0}$ sont les modules de dimension $\leq 0$, c’est-à-dire les modules de longueur finie (no 4, remarque 1). On a $\mathrm{long}_A(M) = \varepsilon(z_0(M))$ pour tout A-module de longueur finie M, où $\varepsilon : Z_0 \to \mathbf{Z}$ associe à la combinaison linéaire $\sum_m n_m[V(m)]$ l’entier $\sum_m n_m$ (IV, § 2, no 5, corollaire à la prop. 8).
 
 #### Exemple 4 {#ac-viii-s1-n5-exa-4 .statement}
 
-Supposons A intègre et de dimension finie. Posons $d = \dim(A)$. Alors on a $\mathcal{C}_{\leq d} = \mathcal{C}$, $Z_d = \mathbf{Z}.[\mathrm{Spec}(A)] = Z^0$, $z_d(M) = \mathrm{rg}(M).[Spec(A)] = z^0(M)$, et les modules de type $\mathcal{C}_{\leq d-1}$ sont les modules de torsion.
+Supposons A intègre et de dimension finie. Posons $d = \dim(A)$. Alors on a $\mathscr{C}_{\leq d} = \mathscr{C}$, $Z_d = \mathbf{Z}.[\mathrm{Spec}(A)] = Z^0$, $z_d(M) = \mathrm{rg}(M).[Spec(A)] = z^0(M)$, et les modules de type $\mathscr{C}_{\leq d-1}$ sont les modules de torsion.
 
 ## EXERCICES {#ac-viii-s1-exercises}
 

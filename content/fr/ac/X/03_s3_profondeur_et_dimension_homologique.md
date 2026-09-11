@@ -44,7 +44,7 @@ subsections:
       pdf_page: 50
 statements: 43
 exercises: 16
-content_sha256: 7b41765c90f58b75d70623bfaaeb5c11917bd816d4e04e795ce2fb34e730bd93
+content_sha256: dd683aa9a7b96b7c006d2b41bc100df991a0c21e1009e92d2f308842b1b5e10e
 ---
 
 ## § 3. PROFONDEUR ET DIMENSION HOMOLOGIQUE
@@ -478,10 +478,10 @@ Avec la terminologie du $§ 1$, n° 5, remarque 4, la conclusion du cor. 3 signi
 
 Soient $A$ un anneau noethérien de Macaulay et $M$ un $A$-module de type fini et de dimension projective finie.
 
-a) Soit $p \in \operatorname{Spec}(\Lambda)$; notons $\mathcal{C}(p)$ l’ensemble des composantes irréductibles de $\operatorname{Supp}(M)$ contenant $p$. On a
+a) Soit $p \in \operatorname{Spec}(\Lambda)$; notons $\mathscr{C}(p)$ l’ensemble des composantes irréductibles de $\operatorname{Supp}(M)$ contenant $p$. On a
 
 $$
-\dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p) = dp_{A_p}(M_p) - \inf_{X \in \mathcal{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
+\dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p) = dp_{A_p}(M_p) - \inf_{X \in \mathscr{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
 $$
 
 b) L’application $p \mapsto \dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p)$ de $\operatorname{Spec}(A)$ dans $\overline{\mathbf{Z}}$ est semi-continue supérieurement.
@@ -501,16 +501,16 @@ $$
 $$
 
 $$
-\dim_{\Lambda_p}(M_p) = \operatorname{codim}(V(p), \operatorname{Supp}(M)) = \sup_{X \in \mathcal{C}(p)} \operatorname{codim}(V(p), X)
+\dim_{\Lambda_p}(M_p) = \operatorname{codim}(V(p), \operatorname{Supp}(M)) = \sup_{X \in \mathscr{C}(p)} \operatorname{codim}(V(p), X)
 $$
 
 et par suite
 
 $$
-\varphi(p) = \inf_{X \in \mathcal{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
+\varphi(p) = \inf_{X \in \mathscr{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
 $$
 
-b) Soit $p \in \operatorname{Spec}(A)$, et soit $F$ la réunion des composantes irréductibles de $\operatorname{Supp}(M)$ qui ne contiennent pas $p$. Pour tout élément $q$ de $\operatorname{Spec}(A) - F$, on a $\mathcal{C}(q) \subset \mathcal{C}(p)$, d’où $\varphi(q) \geq \varphi(p)$ d’après la formule ci-dessus. Par conséquent la fonction $\varphi$ est semi-continue inférieurement ; l’assertion b) résulte alors de la prop. 3 du n° 2.
+b) Soit $p \in \operatorname{Spec}(A)$, et soit $F$ la réunion des composantes irréductibles de $\operatorname{Supp}(M)$ qui ne contiennent pas $p$. Pour tout élément $q$ de $\operatorname{Spec}(A) - F$, on a $\mathscr{C}(q) \subset \mathscr{C}(p)$, d’où $\varphi(q) \geq \varphi(p)$ d’après la formule ci-dessus. Par conséquent la fonction $\varphi$ est semi-continue inférieurement ; l’assertion b) résulte alors de la prop. 3 du n° 2.
 
 c) Soit $U$ l’ensemble des éléments $p$ de $\operatorname{Spec}(A)$ tels que $M_p$ soit macaulayen. La condition $p \in U$ équivaut à $\dim(M_p) - \operatorname{prof}(M_p) \leq 0$, de sorte que $U$ est ouvert d’après b). Comme $U$ contient $\operatorname{Spec}(A) - \operatorname{Supp}(M)$, il suffit de prouver que $U \cap \operatorname{Supp}(M)$ est dense dans $\operatorname{Supp}(M)$. Pour tout idéal premier minimal $p$ de $\operatorname{Supp}(M)$, le $A_p$-module $M_p$ est de longueur finie (IV, § 2, n° 5, cor. 2 de la prop. 7 et § 1, n° 3, cor. 1 de la prop. 7), donc macaulayen ; par conséquent $U$ rencontre toutes les composantes irréductibles de $\operatorname{Supp}(M)$. On conclut à l’aide de la prop. 1 de II, § 4, n° 1.
 

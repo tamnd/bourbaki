@@ -41,7 +41,7 @@ subsections:
       pdf_page: 446
 statements: 36
 exercises: 21
-content_sha256: 1740a7e6d3aaa11959ee2ba6e65707eab0efe09ef5333a215378d18f32bd6007
+content_sha256: d853329d68867ccedd9e356c1483209c43fd487e4b1b8709e9d31dca3434d87e
 ---
 
 ## 8. EXTENSIONS OF A VALUATION TO AN ALGEBRAIC EXTENSION
@@ -127,9 +127,9 @@ This follows from Proposition 1 and the following lemma:
 
 #### Lemma 3 {#ac-vi-s8-lem-3 .statement}
 
-*Let $G'$ be a totally ordered group, $G$ a subgroup of $G$ and $\mathcal{G}'$ (resp. $\mathcal{G}$) the set of isolated subgroups of $G'$ (resp. $G$). The mapping $H' \mapsto H' \cap G$ maps $\mathcal{G}'$ onto $\mathcal{G}$. This mapping is bijective if $G'/G$ is a torsion group.*
+*Let $G'$ be a totally ordered group, $G$ a subgroup of $G$ and $\mathscr{G}'$ (resp. $\mathscr{G}$) the set of isolated subgroups of $G'$ (resp. $G$). The mapping $H' \mapsto H' \cap G$ maps $\mathscr{G}'$ onto $\mathscr{G}$. This mapping is bijective if $G'/G$ is a torsion group.*
 
-Clearly $H' \in \mathcal{G}'$ implies $H' \cap G \in \mathcal{G}$. Now let $H \in \mathcal{G}$; let $H'$ denote the set of $x' \in G'$ such that there exists $h \in H$ satisfying $-h \leq x' \leq h$; it is immediately verified that $H'$ is an isolated subgroup of $G'$; then $H' \cap G = H$ since $H$ is isolated; hence the mapping $H' \mapsto H' \cap G$ is surjective. Suppose finally that $G'/G$ is a torsion group; let $H'_1$ and $H'_2$ be two isolated subgroups of $G'$ such that $H'_1 \cap G = H'_2 \cap G$; then, for example, $H'_1 \supset H'_2$ (cf. § 4, no. 4); then $H'_1/H'_2$ is a totally ordered group and is isomorphic to a quotient group of $H'_1/(H'_1 \cap G)$ which itself is identified with a subgroup of $G'/G$; hence $H'_1/H'_2$ is a torsion group and therefore reduces to 0.
+Clearly $H' \in \mathscr{G}'$ implies $H' \cap G \in \mathscr{G}$. Now let $H \in \mathscr{G}$; let $H'$ denote the set of $x' \in G'$ such that there exists $h \in H$ satisfying $-h \leq x' \leq h$; it is immediately verified that $H'$ is an isolated subgroup of $G'$; then $H' \cap G = H$ since $H$ is isolated; hence the mapping $H' \mapsto H' \cap G$ is surjective. Suppose finally that $G'/G$ is a torsion group; let $H'_1$ and $H'_2$ be two isolated subgroups of $G'$ such that $H'_1 \cap G = H'_2 \cap G$; then, for example, $H'_1 \supset H'_2$ (cf. § 4, no. 4); then $H'_1/H'_2$ is a totally ordered group and is isomorphic to a quotient group of $H'_1/(H'_1 \cap G)$ which itself is identified with a subgroup of $G'/G$; hence $H'_1/H'_2$ is a torsion group and therefore reduces to 0.
 
 #### Corollary 2 {#ac-vi-s8-lem-3-cor-2 .statement}
 
@@ -409,13 +409,13 @@ $$
 
 #### Corollary 4 {#ac-vi-s8-thm-2-cor-4 .statement}
 
-*Under the hypotheses of Corollary 3, if L is a separable extension of K, each of the $\hat{L}_i$ is a separable extension of $\hat{K}$. If further L is a Galois extension of K with Galois group $\mathcal{G}$ and $\mathcal{G}_i$ denotes the decomposition group of the ideal of $v'_i$ in B (Chapter V, § 2, no. 2, Definition 2), then $\hat{L}_i$ is a Galois extension of $\hat{K}$ whose Galois group is isomorphic to $\mathcal{G}_i$.*
+*Under the hypotheses of Corollary 3, if L is a separable extension of K, each of the $\hat{L}_i$ is a separable extension of $\hat{K}$. If further L is a Galois extension of K with Galois group $\mathscr{G}$ and $\mathscr{G}_i$ denotes the decomposition group of the ideal of $v'_i$ in B (Chapter V, § 2, no. 2, Definition 2), then $\hat{L}_i$ is a Galois extension of $\hat{K}$ whose Galois group is isomorphic to $\mathscr{G}_i$.*
 
-Clearly $\hat{L}_i = \hat{K}(L)$; hence, if L is separable over K, $\hat{L}_i$ is separable over $\hat{K}$ (Algebra, Chapter V, § 7, no. 6, Proposition 10). Suppose now that L is Galois. Every automorphism $\sigma \in \mathcal{G}_i$ is continuous on L with the topology defined by $v'_i$, the fact that no two of the ideals of the $v'_i$ are comparable with respect to inclusion (§ 7, no. 2, Corollary 1 to Theorem 1) necessarily implying that $v'_i = v'_i \circ \sigma$ by definition of $\mathcal{G}_i$; hence $\sigma$ may be extended by continuity to a $\hat{K}$-automorphism $\hat{\sigma}$ of $\hat{L}_i$. This proves that the number of $\hat{K}$-automorphisms off,, is at least equal to $\mathrm{Card}(\mathcal{G}_i)$. But as the valuations $v'_i$ are pairwise conjugate under $\mathcal{G}$ (Chapter V, § 2, no. 3, Proposition 6), $s = (\mathcal{G}_i)$, whence
+Clearly $\hat{L}_i = \hat{K}(L)$; hence, if L is separable over K, $\hat{L}_i$ is separable over $\hat{K}$ (Algebra, Chapter V, § 7, no. 6, Proposition 10). Suppose now that L is Galois. Every automorphism $\sigma \in \mathscr{G}_i$ is continuous on L with the topology defined by $v'_i$, the fact that no two of the ideals of the $v'_i$ are comparable with respect to inclusion (§ 7, no. 2, Corollary 1 to Theorem 1) necessarily implying that $v'_i = v'_i \circ \sigma$ by definition of $\mathscr{G}_i$; hence $\sigma$ may be extended by continuity to a $\hat{K}$-automorphism $\hat{\sigma}$ of $\hat{L}_i$. This proves that the number of $\hat{K}$-automorphisms off,, is at least equal to $\mathrm{Card}(\mathscr{G}_i)$. But as the valuations $v'_i$ are pairwise conjugate under $\mathscr{G}$ (Chapter V, § 2, no. 3, Proposition 6), $s = (\mathscr{G}_i)$, whence
 $$
-\mathrm{Card}(\mathcal{G}_i) = n/s \leq n.
+\mathrm{Card}(\mathscr{G}_i) = n/s \leq n.
 $$
-and on the other hand $n = sn$, by Corollary 3; this proves that $\hat{L}_i$ is a Galois extension of $\hat{K}$ and that the extensions by continuity of the automorphisms $\sigma \in \mathcal{G}_i$ are the only $\hat{K}$-automorphisms of $\hat{L}_i$.
+and on the other hand $n = sn$, by Corollary 3; this proves that $\hat{L}_i$ is a Galois extension of $\hat{K}$ and that the extensions by continuity of the automorphisms $\sigma \in \mathscr{G}_i$ are the only $\hat{K}$-automorphisms of $\hat{L}_i$.
 
 *Remark (2)*. Part of the above results extends to the case of valuations on a *not necessarily commutative* field K (cf. § 3, no. 1). Let L be an extension field of K and let $v'$ be a valuation on L, $v$ its restriction to K and A' and A the respective rings of the valuations $v'$ and $v$; then there is defined a ramification index $e(v'/v)$ as in no. 1; on the other hand, $\kappa(A)$ is identified with a subfield of $\kappa(A')$ and the (left) residue rank of $v'$ with respect to $v$ is defined to be the number $f(v'/v)$ equal to the dimension of the left vector $\kappa(A)$-space $\kappa(A')$, if this dimension is finite, and $+\infty$ in the opposite case. Then, if L is a left vector K-space of finite dimension $n$, Lemma 2 of no. 1 and its proof go over unchanged. Moreover, if K is complete with respect to $v$, the assertions of Corollary 2 to Theorem 2 of no. 5 (other than the existence of $u'$) are also valid ($n$ denoting the dimension of L as a left vector K-space) with the following proof:
 

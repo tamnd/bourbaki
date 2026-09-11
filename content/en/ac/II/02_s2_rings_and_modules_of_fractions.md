@@ -49,7 +49,7 @@ subsections:
       pdf_page: 98
 statements: 52
 exercises: 27
-content_sha256: 862eb533634e57154a3cf7493419fd43f7b530676770c590cac1d84e03bc8d92
+content_sha256: 1bca67b21446afd6b1304dbb0be8158646473b1135d859d1ff7a050bb745d19d
 ---
 
 ## 2. RINGS AND MODULES OF FRACTIONS
@@ -509,7 +509,7 @@ $$
 
 (no. 4, Theorem 1) whose existence proves the first assertion of (i), taking account of the fact that b' = S^{-1}b. Since b is saturated with respect S, the conditions a \in A, s \in S, as \in b imply a \in b; the homothety of ratio s on A/b is then injective, which proves the second assertion of (i).
 
-(ii) We note first that the relation b' = S^{-1}A is equivalent to the relation b \cap S \neq \varnothing, the latter expressing the fact that b' contains invertible elements of S^{-1}A. It follows from no. 4, Proposition 10 (iii) that b' \mapsto b = (i_A^S)^{-1}(b') is an isomorphism (with respect to inclusion) of the set of ideals of S^{-1}A distinct from S^{-1}A onto the set \mathcal{F} of ideals of A not meeting S and satisfying condition (MS) of Proposition 10. If b' is maximal (resp. prime), clearly b' is maximal in \mathcal{F} (resp. prime) and conversely (by (i)). On the other hand, if r is an ideal of A disjoint from S, its saturation r_1 with respect to S is an ideal of A containing t and disjoint from S : for no element $a \in S$ can satisfy $sa \in t$ for some $s \in S$, since it would follow that $sa \in t \cap S$. We conclude that, if $r$ is maximal among the ideals of $A$ meeting $S$, it is maximal in $\mathcal{F}$. Similarly, if $r$ is a prime ideal not meeting $S$, it satisfies condition (MS) of no. 4, Proposition 10 by definition of prime ideals and hence belongs to $\mathcal{F}$. This completes the proof of (ii).
+(ii) We note first that the relation b' = S^{-1}A is equivalent to the relation b \cap S \neq \varnothing, the latter expressing the fact that b' contains invertible elements of S^{-1}A. It follows from no. 4, Proposition 10 (iii) that b' \mapsto b = (i_A^S)^{-1}(b') is an isomorphism (with respect to inclusion) of the set of ideals of S^{-1}A distinct from S^{-1}A onto the set \mathscr{F} of ideals of A not meeting S and satisfying condition (MS) of Proposition 10. If b' is maximal (resp. prime), clearly b' is maximal in \mathscr{F} (resp. prime) and conversely (by (i)). On the other hand, if r is an ideal of A disjoint from S, its saturation r_1 with respect to S is an ideal of A containing t and disjoint from S : for no element $a \in S$ can satisfy $sa \in t$ for some $s \in S$, since it would follow that $sa \in t \cap S$. We conclude that, if $r$ is maximal among the ideals of $A$ meeting $S$, it is maximal in $\mathscr{F}$. Similarly, if $r$ is a prime ideal not meeting $S$, it satisfies condition (MS) of no. 4, Proposition 10 by definition of prime ideals and hence belongs to $\mathscr{F}$. This completes the proof of (ii).
 
 (iii) Suppose that $q'$ is prime and such that $q$ is also prime. The set $T = A - q$ is a multiplicative subset of $A$ which contains $S$, whence $ST = T$. We write $T' = i_A^S(T)$; it follows from no. 3, Proposition 7 (i) that there exists a unique isomorphism $j$ of $T^{-1}A = A$, onto ${T'}^{-1}(S^{-1}A)$ such that
 

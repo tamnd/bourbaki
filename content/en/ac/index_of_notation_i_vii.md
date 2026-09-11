@@ -13,7 +13,7 @@ pdf_pages: 0625-0627
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: f645b27568c9cb74dfccb971fe808ca04a1a2b30902cadfbbe32f75c509794cf
+content_sha256: bdae74bed3f5e2623997f82ca19481313d51b4352024f78babf15c7708b34509
 ---
 
 ## INDEX OF NOTATION
@@ -65,7 +65,7 @@ $+\infty$: VI.3.1
 $\Gamma_A, v_A$: VI.3.2
 $a(M)$ (M a major set): VI.3.5
 $h(G)$ (G a totally ordered group): VI.4.4
-$\mathcal{T}_v$ (v a valuation): VI.5.2
+$\mathscr{T}_v$ (v a valuation): VI.5.2
 $e(v'/v), e(A'/A), e(L/K)$: VI.8.1
 $f(v'/v), f(A'/A), f(L/K)$: VI.8.1
 $\varepsilon(G, H)$ (G a totally ordered group, H a subgroup of G of finite index): VI.8.4

@@ -33,11 +33,11 @@ subsections:
       pdf_page: 138
 statements: 30
 exercises: 17
-content_sha256: e2dbe237c0de88cb82bf1a4f66b316685171771f4e5087f37b65adf85386f906
+content_sha256: 13f7729b6ad0e668b73a85679f515bee6be1ae588c44dfa70d921cb9a3e8bcc3
 translated_from: content/en-mt/ac/IX/02_s2_anneaux_de_cohen.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: d23599edc2c0840270fb99102a3340399d8d1e5d81cbfe51a36bfda141c52698
+source_content_sha256: b0cf5f771ca28d434ad4bd0ead558583c2cc1278989a711a205235bc04102e87
 translation_model: gpt-5.4
 translation_run: translate-vi-6e965cd1
 glossary_version: 34
@@ -136,9 +136,9 @@ Cho $(C_n, \pi_{n,m})$ là một hệ xạ ảnh các vành theo tập chỉ s�
 
 Vì các ánh xạ $\pi_{n,m}$ là toàn ánh, các ánh xạ $\pi_n$ cũng vậy (E, III, p. 58, mệnh đề 5). Ta sẽ chứng minh rằng $C$ là một vành $p$. Gọi $d_n$ là độ dài của $C_n$. Theo mệnh đề 2, a), dãy các phần tử $d_n$ của $\mathbf{N} \cup \{ + \infty \}$ là tăng; nếu nó dừng, thì tồn tại một số nguyên $n_0$ sao cho $\pi_{n,m}$ là một đẳng cấu từ $C_m$ lên $C_n$ mỗi khi $n_0 \leqslant n \leqslant m$, do đó $C$, đẳng cấu với $C_{n_0}$, là một vành $p$.
 
-Vì vậy chỉ cần xét trường hợp mỗi $d_n$ đều hữu hạn, và dãy $(d_n)$ tiến tới $+ \infty$. Trang bị cho vành $C$ lọc tầm thường (III, § 2, No. 1, ví dụ 5). Với $n \in \mathbf{N}$, gọi $I_n$ là hạt nhân của $\pi_n$; đặt $I_n = C$ nếu $n < 0$. Gọi $E$ là $C$-môđun $C$ được trang bị lọc $(I_n)_{n \in \mathbf{Z}}$. Nó là phân cách và đầy đủ, vì tôpô $\mathcal{T}$ xác định bởi lọc $(I_n)_{n \in \mathbf{Z}}$ là tôpô giới hạn xạ ảnh của các tôpô rời rạc trên các $C_n$.
+Vì vậy chỉ cần xét trường hợp mỗi $d_n$ đều hữu hạn, và dãy $(d_n)$ tiến tới $+ \infty$. Trang bị cho vành $C$ lọc tầm thường (III, § 2, No. 1, ví dụ 5). Với $n \in \mathbf{N}$, gọi $I_n$ là hạt nhân của $\pi_n$; đặt $I_n = C$ nếu $n < 0$. Gọi $E$ là $C$-môđun $C$ được trang bị lọc $(I_n)_{n \in \mathbf{Z}}$. Nó là phân cách và đầy đủ, vì tôpô $\mathscr{T}$ xác định bởi lọc $(I_n)_{n \in \mathbf{Z}}$ là tôpô giới hạn xạ ảnh của các tôpô rời rạc trên các $C_n$.
 
-Cho $k$ là một số nguyên $\geqslant 1$. Ta có $p^k C \subset \varprojlim (p^k C_n)$ (E, III, p. 55, công thức (9)). Ngược lại, nếu $x = (x_n)_{n \in \mathbf{N}} \in \varprojlim (p^k C_n)$ và nếu đặt $X_n = \{ y \in C | \pi_n(p^k y) = x_n \}$, thì dãy $(X_n)_{n \in \mathbf{N}}$ là một dãy giảm gồm các phần afin đóng khác rỗng của E. Vì $E/I_n$ là một C-môđun Artin, nên giao của các $X_n$ là khác rỗng (III, § 2, No. 7, mệnh đề 7); với mọi $z \in \bigcap_{n \in \mathbf{N}} X_n$, ta có $p^k z = x$. Vậy ta đã chứng minh rằng $p^k C = \varprojlim p^k C_n$ với mọi số nguyên $k \geqslant 1$. Đặc biệt iđêan $p^k C$ của C là đóng đối với tôpô $\mathcal{T}$. Trên C, tôpô $p$-adic mịn hơn tôpô $\mathcal{T}$ vì ta có $p^{d_n} C \subset I_n$. Khi đó suy ra từ TG, III, p. 26, hệ quả 1 của mệnh đề 10, rằng C tách biệt và đầy đủ đối với tôpô $pC$-adic. Hơn nữa ta có $pC = \varprojlim pC_n = \pi_0^{-1}(pC_0)$ và do đó đồng cấu toàn ánh từ $C/pC$ vào $C_0/pC_0$ suy ra từ $\pi_0$ là một đẳng cấu. Điều này cho thấy iđêan $pC$ của C là cực đại và do đó C là một $p$-vành. Khẳng định cuối cùng của mệnh đề 3 suy ra từ mệnh đề 2, b).
+Cho $k$ là một số nguyên $\geqslant 1$. Ta có $p^k C \subset \varprojlim (p^k C_n)$ (E, III, p. 55, công thức (9)). Ngược lại, nếu $x = (x_n)_{n \in \mathbf{N}} \in \varprojlim (p^k C_n)$ và nếu đặt $X_n = \{ y \in C | \pi_n(p^k y) = x_n \}$, thì dãy $(X_n)_{n \in \mathbf{N}}$ là một dãy giảm gồm các phần afin đóng khác rỗng của E. Vì $E/I_n$ là một C-môđun Artin, nên giao của các $X_n$ là khác rỗng (III, § 2, No. 7, mệnh đề 7); với mọi $z \in \bigcap_{n \in \mathbf{N}} X_n$, ta có $p^k z = x$. Vậy ta đã chứng minh rằng $p^k C = \varprojlim p^k C_n$ với mọi số nguyên $k \geqslant 1$. Đặc biệt iđêan $p^k C$ của C là đóng đối với tôpô $\mathscr{T}$. Trên C, tôpô $p$-adic mịn hơn tôpô $\mathscr{T}$ vì ta có $p^{d_n} C \subset I_n$. Khi đó suy ra từ TG, III, p. 26, hệ quả 1 của mệnh đề 10, rằng C tách biệt và đầy đủ đối với tôpô $pC$-adic. Hơn nữa ta có $pC = \varprojlim pC_n = \pi_0^{-1}(pC_0)$ và do đó đồng cấu toàn ánh từ $C/pC$ vào $C_0/pC_0$ suy ra từ $\pi_0$ là một đẳng cấu. Điều này cho thấy iđêan $pC$ của C là cực đại và do đó C là một $p$-vành. Khẳng định cuối cùng của mệnh đề 3 suy ra từ mệnh đề 2, b).
 
 ### 2. Các vành Cohen
 

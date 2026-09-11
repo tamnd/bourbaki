@@ -24,7 +24,7 @@ subsections:
       pdf_page: 154
 statements: 10
 exercises: 5
-content_sha256: 61fb6b833d5460050c69f490fe5ccf382187a4e3b04c1d94954fce65913a3c43
+content_sha256: 3481233112c75d0321910376c52e6fae75719604e700bd4751ff56b9d170f6b4
 ---
 
 ## § 9. Application : corps localement compacts.
@@ -35,7 +35,7 @@ Soit K un corps localement compact (non nécessairement commutatif). Rappelons q
 
 #### Proposition 1 {#ac-vi-s9-prop-1 .statement}
 
-Si K est un corps localement compact, la fonction mod_K appartient à $\mathcal{V}(K)$ (§ 6, no 1). En outre :
+Si K est un corps localement compact, la fonction mod_K appartient à $\mathscr{V}(K)$ (§ 6, no 1). En outre :
 (i) Si s > 0 est tel que $(\mathrm{mod}_K)^s = g$ soit une valeur absolue, alors g définit la topologie de K.
 (ii) Si K est non discret et si mod_K est une valeur absolue ultramétrique, il existe une valuation discrète normée $\nu$ sur K, dont l’anneau est compact et le corps résiduel fini à q éléments, de sorte que $\mathrm{mod}_K = q^{-\nu}$. La topologie de K est définie par $\nu$.
 Cela résulte du § 6, no 1, prop. 1, du § 5, no 1, prop. 2 et d’Intégr., chap. VII, § 1, no 10, prop. 12 et 13.

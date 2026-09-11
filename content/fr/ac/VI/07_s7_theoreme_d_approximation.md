@@ -24,7 +24,7 @@ subsections:
       pdf_page: 132
 statements: 16
 exercises: 3
-content_sha256: cb90577db0ff77f03331b1d5585e9d0206d7ffc4505843b13154172f4befc9f4
+content_sha256: 7c8d75b669e14bd415402bda4f650624857bf508c46b57a9cca7d50e4a81e35b
 ---
 
 ## § 7. Théorème d’approximation.
@@ -119,15 +119,15 @@ On peut supposer $A_i \neq K$ pour tout $i$. Alors, il existe pour tout $i$ un $
 
 #### Corollaire 2 {#ac-vi-s7-lem-2-cor-2 .statement}
 
-Soit $\mathcal{T}_i$ la topologie définie sur $K$ par $\nu_i$; munissons $K^n$ de la topologie produit des $\mathcal{T}_i$. Si les $\nu_i$ sont non impropres, la diagonale de $K^n$ est dense dans $K^n$.
+Soit $\mathscr{T}_i$ la topologie définie sur $K$ par $\nu_i$; munissons $K^n$ de la topologie produit des $\mathscr{T}_i$. Si les $\nu_i$ sont non impropres, la diagonale de $K^n$ est dense dans $K^n$.
 
 #### Proposition 3 {#ac-vi-s7-prop-3 .statement}
 
 Soient $\nu$ et $\nu'$ deux valuations non impropres d’un même corps K. Pour que $\nu$ et $\nu'$ définissent la même topologie sur K, il faut et il suffit qu’elles soient dépendantes.
 
-Supposons les topologies $\mathcal{T}_\nu$ et $\mathcal{T}_{\nu'}$, définies par $\nu$ et $\nu'$, identiques. Puisque $\mathcal{T}_\nu$ est séparée, la diagonale de $K^2$ est fermée, donc $\nu$ et $\nu'$ sont dépendantes (cor. 2 du th. 1).
+Supposons les topologies $\mathscr{T}_\nu$ et $\mathscr{T}_{\nu'}$, définies par $\nu$ et $\nu'$, identiques. Puisque $\mathscr{T}_\nu$ est séparée, la diagonale de $K^2$ est fermée, donc $\nu$ et $\nu'$ sont dépendantes (cor. 2 du th. 1).
 
-Inversement, supposons $\nu$ et $\nu'$ dépendantes. Alors leurs anneaux A et A' sont contenus dans un même anneau A'' distinct de K, et A'' est l’anneau d’une valuation $\nu''$ ($§ 4$, n° 1, prop. 1). Il suffit de montrer que la topologie $\mathcal{T}_{\nu''}$ est identique à $\mathcal{T}_\nu$. Soient $\Gamma$ et $\Gamma''$ les groupes des ordres de $\nu$ et $\nu''$. Il existe un homomorphisme croissant $\lambda$ de $\Gamma$ sur $\Gamma''$ tel que $\nu'' = \lambda \circ \nu$ ($§ 4$, n° 3). Si $\alpha'' \in \Gamma''$, soit $\alpha \in \lambda^{-1}(\alpha'')$; la condition $\nu(x) \geq \alpha$ entraîne $\nu''(x) \geq \alpha''$. Soient $\beta \in \Gamma$, et $\beta'' = \lambda(\beta)$; la condition $\nu(x) \leq \beta$ entraîne $\nu''(x) \leq \beta''$, donc la condition $\nu''(x) > \beta''$ entraîne $\nu(x) > \beta$. Comme $\nu$ et $\nu''$ sont non impropres, les inégalités envisagées définissent des systèmes fondamentaux de voisinages de 0 pour $\mathcal{T}_\nu$ et $\mathcal{T}_{\nu''}$. Donc $\mathcal{T}_\nu = \mathcal{T}_{\nu''}$, ce qui termine la démonstration.
+Inversement, supposons $\nu$ et $\nu'$ dépendantes. Alors leurs anneaux A et A' sont contenus dans un même anneau A'' distinct de K, et A'' est l’anneau d’une valuation $\nu''$ ($§ 4$, n° 1, prop. 1). Il suffit de montrer que la topologie $\mathscr{T}_{\nu''}$ est identique à $\mathscr{T}_\nu$. Soient $\Gamma$ et $\Gamma''$ les groupes des ordres de $\nu$ et $\nu''$. Il existe un homomorphisme croissant $\lambda$ de $\Gamma$ sur $\Gamma''$ tel que $\nu'' = \lambda \circ \nu$ ($§ 4$, n° 3). Si $\alpha'' \in \Gamma''$, soit $\alpha \in \lambda^{-1}(\alpha'')$; la condition $\nu(x) \geq \alpha$ entraîne $\nu''(x) \geq \alpha''$. Soient $\beta \in \Gamma$, et $\beta'' = \lambda(\beta)$; la condition $\nu(x) \leq \beta$ entraîne $\nu''(x) \leq \beta''$, donc la condition $\nu''(x) > \beta''$ entraîne $\nu(x) > \beta$. Comme $\nu$ et $\nu''$ sont non impropres, les inégalités envisagées définissent des systèmes fondamentaux de voisinages de 0 pour $\mathscr{T}_\nu$ et $\mathscr{T}_{\nu''}$. Donc $\mathscr{T}_\nu = \mathscr{T}_{\nu''}$, ce qui termine la démonstration.
 
 #### Remarque 1 {#ac-vi-s7-n2-rem-1 .statement}
 

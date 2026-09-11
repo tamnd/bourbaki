@@ -48,7 +48,7 @@ subsections:
       pdf_page: 98
 statements: 66
 exercises: 25
-content_sha256: 365de78589b6c776be87c9f01881a80c664bda57a356a2baf8f8cef314a57ae9
+content_sha256: 8b8c98e9903d503e97180d75cbfbcc56889c2e1b672162b9780dd50724f4d040
 ---
 
 ## § 2. Anneaux et modules de fractions
@@ -79,7 +79,7 @@ Si S et T sont deux parties multiplicatives de A, l’ensemble ST des produits $
 
 #### Exemple 5 {#ac-ii-s2-n1-exa-5 .statement}
 
-Soit $\mathcal{S}$ un ensemble filtrant (pour la relation $\subset$) de parties multiplicatives de A. Alors $T = \bigcup_{S \in \mathcal{S}} S$ est une partie multiplicative de A, car deux éléments quelconques de T appartiennent à une même partie $S \in \mathcal{S}$, donc leur produit appartient à T.
+Soit $\mathscr{S}$ un ensemble filtrant (pour la relation $\subset$) de parties multiplicatives de A. Alors $T = \bigcup_{S \in \mathscr{S}} S$ est une partie multiplicative de A, car deux éléments quelconques de T appartiennent à une même partie $S \in \mathscr{S}$, donc leur produit appartient à T.
 
 #### Exemple 6 {#ac-ii-s2-n1-exa-6 .statement}
 

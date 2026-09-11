@@ -37,9 +37,9 @@ subsections:
       pdf_page: 245
 statements: 23
 exercises: 8
-content_sha256: bb583c8c5b472b838913a686a9fa68383f5625c101750f854c1b87a3c9f5e298
+content_sha256: 2ac2fdd78d00d73615cd83c03ad473866be5a891e82d161cb49895d2f70c793a
 translated_from: content/en/ac/III/04_s4_lifting_in_complete_rings.md
-source_content_sha256: 032da00cd9da91bab8ac7c8047cd1bea737f1d4ecc3ff26817f377706ac8dcf8
+source_content_sha256: f912ce448ee1a4126b48a8dd56b73d600b24151c918435c56cc969e0399db275
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-76b01779
 glossary_version: 34
@@ -140,13 +140,13 @@ do đó có quan hệ $E = F + aE$. Bây giờ, $E/F$ là một A-môđun sinh h
 
 #### Định nghĩa 1 {#ac-iii-s4-def-1 .statement}
 
-Một vành tôpô giao hoán $A$ được gọi là tôpô hóa tuyến tính (và tôpô của nó được gọi là tuyến tính) nếu tồn tại một hệ cơ bản $\mathcal{B}$ các lân cận $\mathfrak{o}$ gồm các iđêan $\mathfrak{o} \subset A$.
+Một vành tôpô giao hoán $A$ được gọi là tôpô hóa tuyến tính (và tôpô của nó được gọi là tuyến tính) nếu tồn tại một hệ cơ bản $\mathscr{B}$ các lân cận $\mathfrak{o}$ gồm các iđêan $\mathfrak{o} \subset A$.
 
-Lưu ý rằng trong một vành như vậy, các iđêan $3 \in \mathcal{B}$ là mở và đóng (Tôpô đại cương, chương 111, § 2, no. 1, Hệ quả của Mệnh đề 4 ). Với mọi $3 \in \mathcal{B}$, vành tôpô thương $A/\mathfrak{J}$ khi đó là rời rạc; với $8 \in \mathcal{B}$, $8' \in \mathcal{B}$, $\mathfrak{J}' \subset 8$, đặt
+Lưu ý rằng trong một vành như vậy, các iđêan $3 \in \mathscr{B}$ là mở và đóng (Tôpô đại cương, chương 111, § 2, no. 1, Hệ quả của Mệnh đề 4 ). Với mọi $3 \in \mathscr{B}$, vành tôpô thương $A/\mathfrak{J}$ khi đó là rời rạc; với $8 \in \mathscr{B}$, $8' \in \mathscr{B}$, $\mathfrak{J}' \subset 8$, đặt
 $$
 h_{\mathfrak{J}\mathfrak{J}'} : A/\mathfrak{J}' \to A/\mathfrak{J}
 $$
-là ánh xạ chính tắc. Ta biết (Tôpô đại cương, chương III, § 7, no. 3) rằng $(A/\mathfrak{J}, h_{\mathfrak{J}\mathfrak{J}'})$ là một hệ ngược của các vành rời rạc (đối với tập chỉ số $\mathcal{B}$ có thứ tự bởi $\supset$ và có hướng), mà giới hạn ngược của nó là một vành Hausdorff đầy đủ được tôpô hóa tuyến tính $\tilde{A}$; hơn nữa (sđd., Mệnh đề 2 ), một cấu xạ ngặt $i : A \to \tilde{A}$ được xác định, có hạt nhân là bao đóng của $\{0\}$ trong $A$ và có ảnh trù mật khắp nơi trong $\tilde{A}$, sao cho $\tilde{A}$ được đồng nhất một cách chính tắc với phần đầy đủ Hausdorff của $A$.
+là ánh xạ chính tắc. Ta biết (Tôpô đại cương, chương III, § 7, no. 3) rằng $(A/\mathfrak{J}, h_{\mathfrak{J}\mathfrak{J}'})$ là một hệ ngược của các vành rời rạc (đối với tập chỉ số $\mathscr{B}$ có thứ tự bởi $\supset$ và có hướng), mà giới hạn ngược của nó là một vành Hausdorff đầy đủ được tôpô hóa tuyến tính $\tilde{A}$; hơn nữa (sđd., Mệnh đề 2 ), một cấu xạ ngặt $i : A \to \tilde{A}$ được xác định, có hạt nhân là bao đóng của $\{0\}$ trong $A$ và có ảnh trù mật khắp nơi trong $\tilde{A}$, sao cho $\tilde{A}$ được đồng nhất một cách chính tắc với phần đầy đủ Hausdorff của $A$.
 
 #### Định nghĩa 2 {#ac-iii-s4-def-2 .statement}
 
@@ -166,11 +166,11 @@ $$
 T'' = TT' = \sum_{(n_i)} c''_{n_1 \ldots n_p} X_1^{n_1} \ldots X_p^{n_p},
 $$
 
-thì $c''_{n_1 \ldots n_p} = \sum c_{r_1 \ldots r_p} c'_{s_1 \ldots s_p}$ đối với mọi hệ $(r_k), (s_k)$ sao cho $r_k + s_k = n_k$ với $1 \leq k \leq p$; ta kết luận rằng nếu $n_k \geq 2m$, thì $r_k \geq m$ hoặc $s_k \geq m$ và do đó, vì $\mathfrak{z}$ là một iđêan, $c''_{n_1 \ldots n_p} \in \mathfrak{g}$ chừng nào $n_k \geq 2m$ đối với ít nhất một $k$, điều này thiết lập mệnh đề của ta. Hơn nữa, mọi đạo hàm $\partial T / \partial X_i$ ($1 \leq i \leq p$) của một chuỗi lũy thừa hình thức hạn chế đều hạn chế, như suy ra ngay lập tức từ định nghĩa và sự kiện rằng các lân cận $\mathfrak{z} \in \mathcal{B}$ là các nhóm con cộng tính của $\mathbf{A}$.
+thì $c''_{n_1 \ldots n_p} = \sum c_{r_1 \ldots r_p} c'_{s_1 \ldots s_p}$ đối với mọi hệ $(r_k), (s_k)$ sao cho $r_k + s_k = n_k$ với $1 \leq k \leq p$; ta kết luận rằng nếu $n_k \geq 2m$, thì $r_k \geq m$ hoặc $s_k \geq m$ và do đó, vì $\mathfrak{z}$ là một iđêan, $c''_{n_1 \ldots n_p} \in \mathfrak{g}$ chừng nào $n_k \geq 2m$ đối với ít nhất một $k$, điều này thiết lập mệnh đề của ta. Hơn nữa, mọi đạo hàm $\partial T / \partial X_i$ ($1 \leq i \leq p$) của một chuỗi lũy thừa hình thức hạn chế đều hạn chế, như suy ra ngay lập tức từ định nghĩa và sự kiện rằng các lân cận $\mathfrak{z} \in \mathscr{B}$ là các nhóm con cộng tính của $\mathbf{A}$.
 
 Nếu $\mathbf{A}$ là rời rạc, vành các chuỗi lũy thừa hình thức hạn chế chỉ là vành đa thức $\mathbf{A}[X_1, \ldots, X_n]$.
 
-Luôn luôn giả sử rằng $\mathbf{A}$ là được trang bị tôpô tuyến tính và cho $\mathcal{B}$ là một hệ cơ sở các lân cận của 0 trong $\mathbf{A}$ gồm các iđêan của $\mathbf{A}$; với mọi $\mathfrak{g} \in \mathcal{B}$, cho $p_\mathfrak{g}: \mathbf{A} \to \mathbf{A}/\mathfrak{g}$ là đồng cấu chính tắc. Theo định nghĩa, với mọi chuỗi lũy thừa hình thức hạn chế $T \in \mathbf{A}\{X_1, \ldots, X_n\}$,
+Luôn luôn giả sử rằng $\mathbf{A}$ là được trang bị tôpô tuyến tính và cho $\mathscr{B}$ là một hệ cơ sở các lân cận của 0 trong $\mathbf{A}$ gồm các iđêan của $\mathbf{A}$; với mọi $\mathfrak{g} \in \mathscr{B}$, cho $p_\mathfrak{g}: \mathbf{A} \to \mathbf{A}/\mathfrak{g}$ là đồng cấu chính tắc. Theo định nghĩa, với mọi chuỗi lũy thừa hình thức hạn chế $T \in \mathbf{A}\{X_1, \ldots, X_n\}$,
 
 $$
 \bar{p}_\mathfrak{g}(T) \in (\mathbf{A}/\mathfrak{g})[X_1, \ldots, X_p].
@@ -182,7 +182,7 @@ $$
 ((\mathbf{A}/\mathfrak{g})[X_1, \ldots, X_p], \bar{h}_{\mathfrak{g}\mathfrak{g}'})
 $$
 
-là một hệ ngược các vành (đối với tập chỉ số có hướng $\mathcal{B}$) và $(\bar{p}_\mathfrak{g})$ là một hệ ngược các đồng cấu $\mathbf{A}\{X_1, \ldots, X_n\} \to (\mathbf{A}/\mathfrak{g})[X_1, \ldots, X_p]$; vì mọi đa thức đều là một chuỗi lũy thừa hình thức hạn chế, $\bar{p}_\mathfrak{g}$ là toàn ánh; hạt nhân của nó $N_\mathfrak{g}$ là iđêan của $\mathbf{A}\{X_1, \ldots, X_n\}$ gồm các chuỗi lũy thừa hình thức hạn chế mà tất cả các hệ số của chúng đều thuộc $\mathfrak{g}$; ta sẽ trang bị cho $\mathbf{A}\{X_1, \ldots, X_n\}$ tôpô (tuyến tính) mà đối với nó các $N_\mathfrak{g}$ (với $\mathfrak{g} \in \mathcal{B}$) tạo thành một hệ cơ sở các lân cận của 0 (một tôpô rõ ràng chỉ phụ thuộc vào tôpô trên $\mathbf{A}$). Khi đó, theo Tôpô đại cương, Chương III, § 7, no. 3, Mệnh đề 2, ta có
+là một hệ ngược các vành (đối với tập chỉ số có hướng $\mathscr{B}$) và $(\bar{p}_\mathfrak{g})$ là một hệ ngược các đồng cấu $\mathbf{A}\{X_1, \ldots, X_n\} \to (\mathbf{A}/\mathfrak{g})[X_1, \ldots, X_p]$; vì mọi đa thức đều là một chuỗi lũy thừa hình thức hạn chế, $\bar{p}_\mathfrak{g}$ là toàn ánh; hạt nhân của nó $N_\mathfrak{g}$ là iđêan của $\mathbf{A}\{X_1, \ldots, X_n\}$ gồm các chuỗi lũy thừa hình thức hạn chế mà tất cả các hệ số của chúng đều thuộc $\mathfrak{g}$; ta sẽ trang bị cho $\mathbf{A}\{X_1, \ldots, X_n\}$ tôpô (tuyến tính) mà đối với nó các $N_\mathfrak{g}$ (với $\mathfrak{g} \in \mathscr{B}$) tạo thành một hệ cơ sở các lân cận của 0 (một tôpô rõ ràng chỉ phụ thuộc vào tôpô trên $\mathbf{A}$). Khi đó, theo Tôpô đại cương, Chương III, § 7, no. 3, Mệnh đề 2, ta có
 
 $$
 \pi = \lim_{\leftarrow} \bar{p}_\mathfrak{g}: \mathbf{A}\{X_1, \ldots, X_n\} \to \lim_{\rightarrow} (\mathbf{A}/\mathfrak{g})[X_1, \ldots, X_p]
@@ -198,7 +198,7 @@ $$
 
 *Nếu vành giao hoán $\mathbf{A}$ được trang bị tôpô tuyến tính là Hausdorff và đầy đủ, thì đồng cấu chính tắc $\pi$ là một đẳng cấu vành tôpô.*
 
-Với mọi $(n_1, \ldots, n) \in \mathbf{N}^p$ và mọi $3 \in \mathcal{B}$, cho $\phi_{n_1 \ldots n_p}^3$ là ánh xạ $(A/\mathfrak{J})[X_1, \ldots, X_p] \to A/\mathfrak{J}$ biến mọi đa thức thành hệ số của $X_1^{n_1} \ldots X_p^{n_p}$ trong đa thức này; rõ ràng các $\phi_{n_1 \ldots n_p}^3$ tạo thành một hệ ngược các đồng cấu môđun $(A/\mathfrak{J})$ (đối với tập có thứ tự $\mathcal{B}$) và, vì $A$ được đồng nhất một cách chính tắc với $\lim_{\leftarrow} (A/\mathfrak{J})$ theo giả thiết, $\phi_{n_1 \ldots n_p} = \lim_{\leftarrow} \phi_{n_1 \ldots n_p}^3$ là một $A$-đồng cấu liên tục từ $A'$ vào $A$. Với mọi phần tử $S = (S_\mathfrak{J})_{\mathfrak{J} \in \mathcal{B}}$ của $A'$, ta sẽ thấy rằng chuỗi lũy thừa hình thức $T = \sum_{(n_i)} \phi_{n_1 \ldots n_p}(S) X_1^{n_1} \ldots X_p^{n_p}$ là hạn chế và thỏa mãn $\pi(T) = S$. Với mọi $3 \in \mathcal{B}$ và mọi $\mathfrak{J}' \in \mathcal{B}$ sao cho $\mathfrak{J}' \subset \mathfrak{J}$, quan hệ $\phi_{n_1 \ldots n_p}^{\mathfrak{J}'}(S_{\mathfrak{J}'}) = 0$ kéo theo
+Với mọi $(n_1, \ldots, n) \in \mathbf{N}^p$ và mọi $3 \in \mathscr{B}$, cho $\phi_{n_1 \ldots n_p}^3$ là ánh xạ $(A/\mathfrak{J})[X_1, \ldots, X_p] \to A/\mathfrak{J}$ biến mọi đa thức thành hệ số của $X_1^{n_1} \ldots X_p^{n_p}$ trong đa thức này; rõ ràng các $\phi_{n_1 \ldots n_p}^3$ tạo thành một hệ ngược các đồng cấu môđun $(A/\mathfrak{J})$ (đối với tập có thứ tự $\mathscr{B}$) và, vì $A$ được đồng nhất một cách chính tắc với $\lim_{\leftarrow} (A/\mathfrak{J})$ theo giả thiết, $\phi_{n_1 \ldots n_p} = \lim_{\leftarrow} \phi_{n_1 \ldots n_p}^3$ là một $A$-đồng cấu liên tục từ $A'$ vào $A$. Với mọi phần tử $S = (S_\mathfrak{J})_{\mathfrak{J} \in \mathscr{B}}$ của $A'$, ta sẽ thấy rằng chuỗi lũy thừa hình thức $T = \sum_{(n_i)} \phi_{n_1 \ldots n_p}(S) X_1^{n_1} \ldots X_p^{n_p}$ là hạn chế và thỏa mãn $\pi(T) = S$. Với mọi $3 \in \mathscr{B}$ và mọi $\mathfrak{J}' \in \mathscr{B}$ sao cho $\mathfrak{J}' \subset \mathfrak{J}$, quan hệ $\phi_{n_1 \ldots n_p}^{\mathfrak{J}'}(S_{\mathfrak{J}'}) = 0$ kéo theo
 $$
 \phi_{n_1 \ldots n_p}^{\mathfrak{J}'}(S_{\mathfrak{J}'}) \in \mathfrak{J}/\mathfrak{J}'
 $$
@@ -297,25 +297,25 @@ tính duy nhất trong trường hợp (2) do đó suy ra $P = P_1,\ Q = Q_1$.
 
 (4) **Trường hợp tổng quát**
 
-Cho $\mathcal{B}$ là một hệ cơ sở các lân cận của 0 trong $A$ gồm các iđêan của $A$. Với mọi $\mathfrak{s} \in \mathcal{B}$, gọi $f_{\mathfrak{s}}$ là ánh xạ chính tắc $A \to A/\mathfrak{s}$, $\phi_{\mathfrak{s}}$ là ánh xạ chính tắc
+Cho $\mathscr{B}$ là một hệ cơ sở các lân cận của 0 trong $A$ gồm các iđêan của $A$. Với mọi $\mathfrak{s} \in \mathscr{B}$, gọi $f_{\mathfrak{s}}$ là ánh xạ chính tắc $A \to A/\mathfrak{s}$, $\phi_{\mathfrak{s}}$ là ánh xạ chính tắc
 $$
 A/\mathfrak{s} \mapsto (A/\mathfrak{s})/((m + \mathfrak{s})/\mathfrak{s}) = A/(m + \mathfrak{s}),
 $$
-$g_{\mathfrak{s}}$ là ánh xạ chính tắc $B = A/m \to A(m + \mathfrak{s})$ và đặt $R_{\mathfrak{s}} = f_{\mathfrak{s}}(R)$, $P_{\mathfrak{s}} = g_{\mathfrak{s}}(\overline{P})$, $\overline{Q}_{\mathfrak{s}} = g_{\mathfrak{s}}(\overline{Q})$. Vì mỗi vành $A/\mathfrak{s}$ là rời rạc, trường hợp (3) có thể được áp dụng cho nó và ta thấy rằng tồn tại một cặp có thứ tự duy nhất $(P_{\mathfrak{s}}, Q_{\mathfrak{s}})$ gồm các đa thức trong $(A/\mathfrak{s})[X]$ sao cho $P_{\mathfrak{s}}$ là đơn khởi và $R_{\mathfrak{s}} = P_{\mathfrak{s}} Q_{\mathfrak{s}}$, $\bar{\varphi}_{\mathfrak{s}}(P_{\mathfrak{s}}) = \overline{P}_{\mathfrak{s}}$, $\bar{\varphi}_{\mathfrak{s}}(Q_{\mathfrak{s}}) = \overline{Q}_{\mathfrak{s}}$. Tính duy nhất của cặp có thứ tự này suy ra rằng, nếu $\mathfrak{s}' \subset \mathfrak{s}$, $\mathfrak{s}' \in \mathcal{B}$ và $f_{\mathfrak{s}'\mathfrak{s}} : A/\mathfrak{s}' \to A/\mathfrak{s}$ là ánh xạ chính tắc, thì $P_{\mathfrak{s}} = f_{\mathfrak{s}'\mathfrak{s}}(P_{\mathfrak{s}'})$, $Q_{\mathfrak{s}} = f_{\mathfrak{s}'\mathfrak{s}}(Q_{\mathfrak{s}'})$. Khi đó, từ sự đồng nhất chính tắc của $A[X]$ với $\lim(A/\mathfrak{s})[X]$ (no. 2, Mệnh đề 3), suy ra rằng tồn tại $P \in A\{X\}$ và $Q \in A\{X\}$ sao cho $R = PQ$ và $\bar{f}_s(P) = P_s, \bar{f}_s(Q) = Q_s$ với mọi $s \in \mathcal{B}$. Hơn nữa,
+$g_{\mathfrak{s}}$ là ánh xạ chính tắc $B = A/m \to A(m + \mathfrak{s})$ và đặt $R_{\mathfrak{s}} = f_{\mathfrak{s}}(R)$, $P_{\mathfrak{s}} = g_{\mathfrak{s}}(\overline{P})$, $\overline{Q}_{\mathfrak{s}} = g_{\mathfrak{s}}(\overline{Q})$. Vì mỗi vành $A/\mathfrak{s}$ là rời rạc, trường hợp (3) có thể được áp dụng cho nó và ta thấy rằng tồn tại một cặp có thứ tự duy nhất $(P_{\mathfrak{s}}, Q_{\mathfrak{s}})$ gồm các đa thức trong $(A/\mathfrak{s})[X]$ sao cho $P_{\mathfrak{s}}$ là đơn khởi và $R_{\mathfrak{s}} = P_{\mathfrak{s}} Q_{\mathfrak{s}}$, $\bar{\varphi}_{\mathfrak{s}}(P_{\mathfrak{s}}) = \overline{P}_{\mathfrak{s}}$, $\bar{\varphi}_{\mathfrak{s}}(Q_{\mathfrak{s}}) = \overline{Q}_{\mathfrak{s}}$. Tính duy nhất của cặp có thứ tự này suy ra rằng, nếu $\mathfrak{s}' \subset \mathfrak{s}$, $\mathfrak{s}' \in \mathscr{B}$ và $f_{\mathfrak{s}'\mathfrak{s}} : A/\mathfrak{s}' \to A/\mathfrak{s}$ là ánh xạ chính tắc, thì $P_{\mathfrak{s}} = f_{\mathfrak{s}'\mathfrak{s}}(P_{\mathfrak{s}'})$, $Q_{\mathfrak{s}} = f_{\mathfrak{s}'\mathfrak{s}}(Q_{\mathfrak{s}'})$. Khi đó, từ sự đồng nhất chính tắc của $A[X]$ với $\lim(A/\mathfrak{s})[X]$ (no. 2, Mệnh đề 3), suy ra rằng tồn tại $P \in A\{X\}$ và $Q \in A\{X\}$ sao cho $R = PQ$ và $\bar{f}_s(P) = P_s, \bar{f}_s(Q) = Q_s$ với mọi $s \in \mathscr{B}$. Hơn nữa,
 $$
 \bar{g}_s(\overline{P} - \overline{\varphi}(P)) = 0, \quad \bar{g}_s(\overline{Q} - \overline{\varphi}(Q)) = 0
 $$
-với mọi $s \in \mathcal{B}$, điều này có nghĩa là với mọi $\mathfrak{J} \in \mathcal{B}$ các hệ số của $\overline{P} - \overline{\varphi}(P)$ và $\overline{Q} - \overline{\varphi}(Q)$ đều thuộc $(m + \mathfrak{J})/m$. Nhưng, vì $m$ đóng trong $A$, $\bigcap_s (m + s) = m$, do đó $\overline{P} = \overline{\varphi}(P), \overline{Q} = \overline{\varphi}(Q)$ và $P$ và $Q$ khi đó hiển nhiên thỏa mãn (4); hơn nữa, vì các $P_s$ là đơn khởi và có cùng bậc, chuỗi lũy thừa hình thức hạn chế $P$ là một đa thức đơn khởi. Nếu $(P', Q')$ là một cặp có thứ tự khác thỏa mãn (4) và sao cho $P'$ là một đa thức đơn khởi, ta sẽ suy ra rằng $R_s = \bar{f}_s(P') \bar{f}_s(Q'), \bar{\varphi}_s(\bar{f}_s(P')) = \overline{P}_s$ và $\bar{\varphi}_s(\bar{f}_s(Q')) = \overline{Q}_s$ và theo tính duy nhất trong trường hợp (3) $\bar{f}_s(P') = P_s, \bar{f}_s(Q') = Q_s$ với mọi $s \in \mathcal{B}$, điều này kéo theo $P = P'$ và $Q = Q'$. Cuối cùng ta hãy chứng minh rằng $P$ và $Q$ nguyên tố cùng nhau mạnh; theo trường hợp (3) và Mệnh đề 1 của no. 1, với mọi $s \in \mathcal{B}$, tồn tại một cặp có thứ tự duy nhất $(S_s, T_s)$ gồm các đa thức trong $(A/\mathfrak{J})[X]$ sao cho
+với mọi $s \in \mathscr{B}$, điều này có nghĩa là với mọi $\mathfrak{J} \in \mathscr{B}$ các hệ số của $\overline{P} - \overline{\varphi}(P)$ và $\overline{Q} - \overline{\varphi}(Q)$ đều thuộc $(m + \mathfrak{J})/m$. Nhưng, vì $m$ đóng trong $A$, $\bigcap_s (m + s) = m$, do đó $\overline{P} = \overline{\varphi}(P), \overline{Q} = \overline{\varphi}(Q)$ và $P$ và $Q$ khi đó hiển nhiên thỏa mãn (4); hơn nữa, vì các $P_s$ là đơn khởi và có cùng bậc, chuỗi lũy thừa hình thức hạn chế $P$ là một đa thức đơn khởi. Nếu $(P', Q')$ là một cặp có thứ tự khác thỏa mãn (4) và sao cho $P'$ là một đa thức đơn khởi, ta sẽ suy ra rằng $R_s = \bar{f}_s(P') \bar{f}_s(Q'), \bar{\varphi}_s(\bar{f}_s(P')) = \overline{P}_s$ và $\bar{\varphi}_s(\bar{f}_s(Q')) = \overline{Q}_s$ và theo tính duy nhất trong trường hợp (3) $\bar{f}_s(P') = P_s, \bar{f}_s(Q') = Q_s$ với mọi $s \in \mathscr{B}$, điều này kéo theo $P = P'$ và $Q = Q'$. Cuối cùng ta hãy chứng minh rằng $P$ và $Q$ nguyên tố cùng nhau mạnh; theo trường hợp (3) và Mệnh đề 1 của no. 1, với mọi $s \in \mathscr{B}$, tồn tại một cặp có thứ tự duy nhất $(S_s, T_s)$ gồm các đa thức trong $(A/\mathfrak{J})[X]$ sao cho
 $$
 1 = P_s S_s + Q_s T_s \quad \text{và} \quad \deg(T_s) < \deg(P_s) = \deg(\overline{P}).
 $$
-Tính duy nhất của cặp có thứ tự này cho thấy ngay lập tức rằng, với $3' \in \mathcal{B}$, $\mathfrak{J}' \subset \mathfrak{J}, S_{3'} = \bar{f}_{33'}(S_{3}), T_{3'} = \bar{f}_{33'}(T_{3});$ tính đến no. 2, Mệnh đề 3, ta kết luận rằng tồn tại hai chuỗi lũy thừa hình thức hạn chế $S, T$ của $A\{X\}$ sao cho $S_s = \bar{f}_s(S), T_s = \bar{f}_s(T)$ và $1 = PS + QT$.
+Tính duy nhất của cặp có thứ tự này cho thấy ngay lập tức rằng, với $3' \in \mathscr{B}$, $\mathfrak{J}' \subset \mathfrak{J}, S_{3'} = \bar{f}_{33'}(S_{3}), T_{3'} = \bar{f}_{33'}(T_{3});$ tính đến no. 2, Mệnh đề 3, ta kết luận rằng tồn tại hai chuỗi lũy thừa hình thức hạn chế $S, T$ của $A\{X\}$ sao cho $S_s = \bar{f}_s(S), T_s = \bar{f}_s(T)$ và $1 = PS + QT$.
 
 Vẫn còn phải kiểm tra rằng, nếu $R$ là một đa thức thì $Q$ cũng là một đa thức. Bây giờ, các $Q_s$ là các đa thức theo phép dựng và, vì $P_s$ là đơn khởi, quan hệ $R_s = P_s Q_s$ kéo theo
 $$
 \deg(Q_s) \leq \deg(R_s) \leq \deg(R)
 $$
-với mọi $s \in \mathcal{B}$; do đó ngay lập tức suy ra kết quả cần thiết theo định nghĩa của $Q$.
+với mọi $s \in \mathscr{B}$; do đó ngay lập tức suy ra kết quả cần thiết theo định nghĩa của $Q$.
 
 ### 4. HỢP THÀNH CỦA CÁC HỆ CHUỖI LŨY THỪA HÌNH THỨC
 
