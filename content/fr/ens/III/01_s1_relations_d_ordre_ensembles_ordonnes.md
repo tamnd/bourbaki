@@ -65,7 +65,7 @@ subsections:
       pdf_page: 118
 statements: 54
 exercises: 24
-content_sha256: 476e71786246a15ba4203a86dacbf0dc9a0d480fd22311d030af360332b37c07
+content_sha256: 6b0a8394dd7b012d5dcc4d61fb01852ee80b1a554f68aca135f3cf885a73a20c
 ---
 
 ## § 1. RELATIONS D’ORDRE.. ENSEMBLES ORDONNÉS
@@ -108,7 +108,7 @@ Soient $E$ et $F$ des ensembles. La relation « $g$ prolonge $f$ » est une rela
 
 #### Exemple 4 {#ens-iii-s1-n1-exa-4 .statement tag=03V3}
 
-Dans l’ensemble $\mathscr{P}(\mathscr{P}(E))$ des ensembles de parties d’un ensemble $E$, soit $\mathscr{P}$ l’ensemble des *partitions* de $E$ (II, p. 29). Rappelons qu’une partition $\varpi$ est dite *moins fine* qu’une partition $\varpi'$ si, quel que soit $Y \in \varpi'$, il existe $X \in \varpi$ tel que $Y \subset X$ (II, p. 27). Pour toute partition $\varpi \in \mathscr{P}$, soit $\tilde{\varpi}$ le graphe de l’équivalence définie par $\varpi$ dans $E$ (II, p. 42), c’est-à-dire la réunion des ensembles (mutuellement disjoints) $A \times A$, où $A$ parcourt $\varpi$. La relation « $\varpi$ est moins fine que $\varpi'$ » est équivalente à $\tilde{\varpi} \supset \tilde{\varpi}'$, comme on le voit immédiatement; c’est donc une relation d’ordre dans l’ensemble $\mathscr{P}$, entre $\varpi$ et $\varpi'$.
+Dans l’ensemble $\mathfrak{P}(\mathfrak{P}(E))$ des ensembles de parties d’un ensemble $E$, soit $\mathscr{P}$ l’ensemble des *partitions* de $E$ (II, p. 29). Rappelons qu’une partition $\varpi$ est dite *moins fine* qu’une partition $\varpi'$ si, quel que soit $Y \in \varpi'$, il existe $X \in \varpi$ tel que $Y \subset X$ (II, p. 27). Pour toute partition $\varpi \in \mathscr{P}$, soit $\tilde{\varpi}$ le graphe de l’équivalence définie par $\varpi$ dans $E$ (II, p. 42), c’est-à-dire la réunion des ensembles (mutuellement disjoints) $A \times A$, où $A$ parcourt $\varpi$. La relation « $\varpi$ est moins fine que $\varpi'$ » est équivalente à $\tilde{\varpi} \supset \tilde{\varpi}'$, comme on le voit immédiatement; c’est donc une relation d’ordre dans l’ensemble $\mathscr{P}$, entre $\varpi$ et $\varpi'$.
 
 On appelle *ordre* sur un ensemble $E$ une correspondance $\Gamma = (G, E, E)$ ayant $E$ comme ensemble de départ et ensemble d’arrivée et telle que la relation $(x, y) \in G$ soit une relation d’ordre dans $E$. Par abus de langage, on dira parfois que le graphe $G$ de $\Gamma$ est un ordre sur $E$. Si $R\{x, y\}$ est une relation d’ordre dans $E$, elle admet un graphe, qui est un ordre sur $E$.
 
@@ -322,7 +322,7 @@ Tout élément minimal de $E$ est un élément maximal pour l'ordre opposé, et 
 
 #### Exemple 1 {#ens-iii-s1-n6-exa-1 .statement tag=03SM}
 
-Soit $A$ un ensemble; dans la partie de $\mathscr{P}(A)$ (ordonnée par inclusion) formée des parties non vides de $A$, les éléments minimaux sont les parties réduites à un élément.
+Soit $A$ un ensemble; dans la partie de $\mathfrak{P}(A)$ (ordonnée par inclusion) formée des parties non vides de $A$, les éléments minimaux sont les parties réduites à un élément.
 
 #### Exemple 2 {#ens-iii-s1-n6-exa-2 .statement tag=03SN}
 
@@ -350,11 +350,11 @@ Si $E$ admet un plus petit élément $a$, $a$ est l'unique élément minimal de 
 
 #### Exemple 1 {#ens-iii-s1-n7-exa-1 .statement tag=03SQ}
 
-Soit $\mathscr{G}$ une partie non vide de l'ensemble $\mathscr{P}(E)$ des parties d'un ensemble $E$. Si $\mathscr{G}$ admet un plus petit (resp. plus grand) élément $A$ pour la relation d'inclusion, $A$ n'est autre que l'intersection (resp. la réunion) des ensembles de $\mathscr{G}$. Réciproquement, si l'intersection (resp. la réunion) des ensembles de $\mathscr{G}$ appartient à $\mathscr{G}$, c'est le plus petit (resp. plus grand) élément de $\mathscr{G}$.
+Soit $\mathfrak{G}$ une partie non vide de l'ensemble $\mathfrak{P}(E)$ des parties d'un ensemble $E$. Si $\mathfrak{G}$ admet un plus petit (resp. plus grand) élément $A$ pour la relation d'inclusion, $A$ n'est autre que l'intersection (resp. la réunion) des ensembles de $\mathfrak{G}$. Réciproquement, si l'intersection (resp. la réunion) des ensembles de $\mathfrak{G}$ appartient à $\mathfrak{G}$, c'est le plus petit (resp. plus grand) élément de $\mathfrak{G}$.
 
 #### Exemple 2 {#ens-iii-s1-n7-exa-2 .statement tag=03SR}
 
-En particulier, $\varnothing$ est le plus petit élément et $E$ le plus grand élément de $\mathscr{P}(E)$. Dans l'ensemble $\Phi(E, F)$ des applications de parties de $E$ dans $F$, ordonné par prolongement (III, p. 2, Exemple 3) l'application vide est le plus petit élément, et il n’y a pas de plus grand élément si F n’est pas réduit à un seul élément. Enfin, la diagonale Δ de E × E est le plus petit élément de l’ensemble des graphes des équivalences sur E (ou des préordres sur E).
+En particulier, $\varnothing$ est le plus petit élément et $E$ le plus grand élément de $\mathfrak{P}(E)$. Dans l'ensemble $\Phi(E, F)$ des applications de parties de $E$ dans $F$, ordonné par prolongement (III, p. 2, Exemple 3) l'application vide est le plus petit élément, et il n’y a pas de plus grand élément si F n’est pas réduit à un seul élément. Enfin, la diagonale Δ de E × E est le plus petit élément de l’ensemble des graphes des équivalences sur E (ou des préordres sur E).
 
 #### Proposition 3 {#ens-iii-s1-prop-3 .statement tag=03JH}
 
@@ -402,7 +402,7 @@ L’ensemble des majorants de la partie vide $\varnothing$ d’un ensemble ordon
 
 #### Exemple 2 {#ens-iii-s1-n9-exa-2 .statement tag=03ST}
 
-Dans l’ensemble $\mathfrak{P}(E)$ des parties d’un ensemble E, ordonné par inclusion, toute partie $\mathscr{G}$ de $\mathfrak{P}(E)$ admet une borne supérieure, qui est la réunion des ensembles de $\mathscr{G}$, et une borne inférieure, qui est l’intersection des ensembles de $\mathscr{G}$.
+Dans l’ensemble $\mathfrak{P}(E)$ des parties d’un ensemble E, ordonné par inclusion, toute partie $\mathfrak{G}$ de $\mathfrak{P}(E)$ admet une borne supérieure, qui est la réunion des ensembles de $\mathfrak{G}$, et une borne inférieure, qui est l’intersection des ensembles de $\mathfrak{G}$.
 
 #### Exemple 3 {#ens-iii-s1-n9-exa-3 .statement tag=03SU}
 
@@ -561,7 +561,7 @@ Soit E un ensemble ordonné quelconque. La partie vide de E est totalement ordon
 
 #### Exemple 4 {#ens-iii-s1-n12-exa-4 .statement tag=03TY}
 
-Si A est un ensemble ayant au moins deux éléments distincts, l'ensemble $\mathscr{P}(A)$, ordonné par inclusion, n'est pas totalement ordonné, car si $x \neq y$, les parties $\{x\}$ et $\{y\}$ ne sont pas comparables.
+Si A est un ensemble ayant au moins deux éléments distincts, l'ensemble $\mathfrak{P}(A)$, ordonné par inclusion, n'est pas totalement ordonné, car si $x \neq y$, les parties $\{x\}$ et $\{y\}$ ne sont pas comparables.
 
 Un ensemble totalement ordonné est aussi totalement ordonné pour l'ordre opposé; il est réticulé et a fortiori filtrant à droite et à gauche.
 

@@ -170,7 +170,7 @@ chapters:
           statements: 22
           exercises: 8
           extraction: ocr
-          content_sha256: ded74c6677a167e3f4ed814342a2fc06bae66975d1e6a2fb49da799375ff8481
+          content_sha256: 9fddd42114eb49f4169057cc039dc83b71fff035cb51234fb2da71cc5650c3a1
         - kind: section
           section: 5
           title: Produit d'une famille d'ensembles
@@ -221,7 +221,7 @@ chapters:
           statements: 54
           exercises: 24
           extraction: ocr
-          content_sha256: 476e71786246a15ba4203a86dacbf0dc9a0d480fd22311d030af360332b37c07
+          content_sha256: 6b0a8394dd7b012d5dcc4d61fb01852ee80b1a554f68aca135f3cf885a73a20c
         - kind: section
           section: 2
           title: Ensembles bien ordonnés
@@ -234,7 +234,7 @@ chapters:
           statements: 27
           exercises: 20
           extraction: ocr
-          content_sha256: a93bb527e21dff275aa522637728b3da1e376826c5fef8164fbcf8f5438f3454
+          content_sha256: 941a3e7613f1cdd8734198f66c2286ba293c41d670423059952992de1d554151
         - kind: section
           section: 3
           title: Ensembles équipotents. Cardinaux
@@ -247,7 +247,7 @@ chapters:
           statements: 32
           exercises: 1
           extraction: ocr
-          content_sha256: 07e9c85f27bd20056e87cd2cb56bd540395937d6a80d5f374b258742812705a8
+          content_sha256: 8b6a8facedddabb20d69e280a1e60838d1e968ca0b86c3ced3178badf40a938d
         - kind: section
           section: 4
           title: Entiers naturels. Ensembles finis
@@ -260,7 +260,7 @@ chapters:
           statements: 16
           exercises: 11
           extraction: ocr
-          content_sha256: 95168b9add4806c87b213356684f1a29b4ca906c12cd4bb7bfe897cad290f8f9
+          content_sha256: 61d6392387fe9a9acc938845fc7d7e21377918ac4da4982295430d6d3ea44f5e
         - kind: section
           section: 5
           title: Calcul sur les entiers

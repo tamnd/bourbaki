@@ -13,7 +13,7 @@ pdf_pages: 0283-0285
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 87567f5dc49c39b71cf1ea9f8d06b914457d91919f4d9172908527c0fa370cb0
+content_sha256: dcf3ddd5e76a9f182e46f7ff96aaa40ddaaed715c192bcea56d696e80174fc03
 ---
 
 ## INDEX DES NOTATIONS
@@ -31,7 +31,7 @@ $\subset, \supset, \notin, \not\subset, x \subset y, x \supset y$: II, p. 2
 $\text{Coll}_x R, \{x \mid R\}$: II, p. 4
 $\{x, y\}, \{x\}$: II, p. 4
 $\{x \in A \mid P\}$: II, p. 5
-$\mathscr{G}_X A, X - A, \mathscr{G}A, \varnothing$: II, p. 6
+$\complement_X A, X - A, \complement A, \varnothing$: II, p. 6
 $(x, y), \operatorname{pr}_1 z, \operatorname{pr}_2 z$: II, p. 7
 $A \times B, A \times B \times C, A \times B \times C \times D, (x, y, z)$: II, p. 8--9
 $\operatorname{pr}_1\langle G \rangle, \operatorname{pr}_2\langle G \rangle, \operatorname{pr}_1 G, \operatorname{pr}_2 G\ (\text{G graphe})$: II, p. 9

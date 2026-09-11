@@ -46,7 +46,7 @@ subsections:
       pdf_page: 81
 statements: 22
 exercises: 8
-content_sha256: ded74c6677a167e3f4ed814342a2fc06bae66975d1e6a2fb49da799375ff8481
+content_sha256: 9fddd42114eb49f4169057cc039dc83b71fff035cb51234fb2da71cc5650c3a1
 ---
 
 ## § 4. RÉUNION ET INTERSECTION D’UNE FAMILLE D’ENSEMBLES
@@ -55,7 +55,7 @@ content_sha256: ded74c6677a167e3f4ed814342a2fc06bae66975d1e6a2fb49da799375ff8481
 
 Soient X une famille (II, p. 14), I son ensemble d’indices; pour faciliter l’interprétation intuitive de ce qui suit, nous dirons que X est une famille d’ensembles.
 
-Si $(X, I, \mathscr{G})$ est une famille de parties d’un ensemble E (c’est-à-dire une famille d’éléments dont l’ensemble d’arrivée $\mathscr{G}$ est tel que la relation $Y \in \mathscr{G}$ entraîne $Y \subset E$), nous la noterons $(X_i)_{i\in I}$ ($X_i \in \mathscr{G}$), ou simplement $(X_i)_{i\in I}$ (II, p. 16); par abus de notation, nous noterons aussi $(X_i)_{i\in I}$ une famille d’ensembles quelconque, ayant I pour ensemble d’indices.
+Si $(X, I, \mathfrak{G})$ est une famille de parties d’un ensemble E (c’est-à-dire une famille d’éléments dont l’ensemble d’arrivée $\mathfrak{G}$ est tel que la relation $Y \in \mathfrak{G}$ entraîne $Y \subset E$), nous la noterons $(X_i)_{i\in I}$ ($X_i \in \mathfrak{G}$), ou simplement $(X_i)_{i\in I}$ (II, p. 16); par abus de notation, nous noterons aussi $(X_i)_{i\in I}$ une famille d’ensembles quelconque, ayant I pour ensemble d’indices.
 
 Comme la relation $(\forall x)((i \in I \text{ et } x \in X_i) \Rightarrow (x \in X))$ est vraie, il résulte de S5 (I, p. 33) que la relation
 
@@ -75,7 +75,7 @@ $$
 
 c’est-à-dire l’ensemble des x qui appartiennent à un ensemble au moins de la famille $(X_i)_{i\in I}$.
 
-Si $(X_i)_{i\in I}$ est une famille de parties d’un ensemble E, sa réunion est une partie de E; on observera qu’elle ne dépend pas de E, ni de l’ensemble d’arrivée $\mathscr{G}$ de l’application $i \mapsto X_i$.
+Si $(X_i)_{i\in I}$ est une famille de parties d’un ensemble E, sa réunion est une partie de E; on observera qu’elle ne dépend pas de E, ni de l’ensemble d’arrivée $\mathfrak{G}$ de l’application $i \mapsto X_i$.
 
 Il est immédiat que si $I = \varnothing$, on a $\bigcup_{i\in I} X_i = \varnothing$, puisque la relation $(\exists i)(i \in I \text{ et } x \in X_i)$ est alors fausse.
 
@@ -123,7 +123,7 @@ Il suffit d’appliquer la prop. 1 à l’application constante $t \mapsto \alph
 
 #### Définition 4 {#ens-ii-s4-def-4 .statement tag=03I3}
 
-Soit $\mathscr{F}$ un ensemble d’ensembles, et soit $\Phi$ la famille d’ensembles
+Soit $\mathfrak{F}$ un ensemble d’ensembles, et soit $\Phi$ la famille d’ensembles
 
 N° 2                                             RÉUNION ET INTERSECTION D’UNE FAMILLE D’ENSEMBLES                                             E II.24
 

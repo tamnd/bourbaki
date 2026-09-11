@@ -38,7 +38,7 @@ subsections:
       pdf_page: 126
 statements: 27
 exercises: 20
-content_sha256: a93bb527e21dff275aa522637728b3da1e376826c5fef8164fbcf8f5438f3454
+content_sha256: 941a3e7613f1cdd8734198f66c2286ba293c41d670423059952992de1d554151
 ---
 
 ## § 2. ENSEMBLES BIEN ORDONNÉS
@@ -161,7 +161,7 @@ Le plus souvent, on appliquera le critère précédent au cas où il existe un e
 
 #### Lemme 3 {#ens-iii-s2-lem-3 .statement tag=03K1}
 
-*Soient E un ensemble, $\mathfrak{S}$ une partie de $\mathscr{P}(E)$ et p une application de $\mathfrak{S}$ dans E telle que $p(X) \notin X$ pour tout $X \in \mathfrak{S}$. Il existe alors une partie M de E et un bon ordre $\Gamma$ sur M tels que* (en désignant par $x \leq y$ la relation $y \in \Gamma\langle x \rangle$ dans M et par $S_x$ le segment $]\leftarrow, x[$):
+*Soient E un ensemble, $\mathfrak{S}$ une partie de $\mathfrak{P}(E)$ et p une application de $\mathfrak{S}$ dans E telle que $p(X) \notin X$ pour tout $X \in \mathfrak{S}$. Il existe alors une partie M de E et un bon ordre $\Gamma$ sur M tels que* (en désignant par $x \leq y$ la relation $y \in \Gamma\langle x \rangle$ dans M et par $S_x$ le segment $]\leftarrow, x[$):
 
 1° *pour tout* $x \in M$, *on a* $S_x \in \mathfrak{S}$ *et* $p(S_x) = x$;
 2° $M \notin \mathfrak{S}$.
@@ -190,11 +190,11 @@ Soit $\mathscr{S} = \mathfrak{P}(E) - \{E\}$ l’ensemble des parties de E disti
 
 #### Exemple 1 {#ens-iii-s2-n4-exa-1 .statement tag=03T2}
 
-Soit $\mathfrak{F}$ un ensemble de parties d’un ensemble A, ordonné par inclusion et tel que, pour tout sous-ensemble totalement ordonné $\mathscr{G}$ de $\mathfrak{F}$, la réunion des ensembles de $\mathscr{G}$ appartienne à $\mathfrak{F}$; alors $\mathfrak{F}$ est inductif pour la relation $\subset$, puisque la réunion des ensembles de $\mathscr{G}$ est la borne supérieure de $\mathscr{G}$ dans $\mathfrak{P}(A)$.
+Soit $\mathfrak{F}$ un ensemble de parties d’un ensemble A, ordonné par inclusion et tel que, pour tout sous-ensemble totalement ordonné $\mathfrak{G}$ de $\mathfrak{F}$, la réunion des ensembles de $\mathfrak{G}$ appartienne à $\mathfrak{F}$; alors $\mathfrak{F}$ est inductif pour la relation $\subset$, puisque la réunion des ensembles de $\mathfrak{G}$ est la borne supérieure de $\mathfrak{G}$ dans $\mathfrak{P}(A)$.
 
 #### Exemple 2 {#ens-iii-s2-n4-exa-2 .statement tag=03T3}
 
-Un exemple important d’ensemble de parties inductif pour la relation $\subset$ est l’ensemble $\mathfrak{F}$ des graphes d’applications de parties d’un ensemble A dans un ensemble B; en effet, $\mathfrak{F}$ est une partie de $\mathfrak{P}(A \times B)$ et dire qu’une partie $\mathscr{G}$ de $\mathfrak{F}$ est totalement ordonnée par inclusion signifie que les éléments de $\mathscr{G}$ sont des graphes d’applications telles que, de deux quelconques de ces applications, l’une prolonge l’autre. Il s’ensuit aussitôt que la réunion des ensembles de $\mathscr{G}$ est un élément de $\mathfrak{F}$ (II, p. 28, prop. 7). On peut donc dire encore que l’ensemble $\Phi(A, B)$ des applications de parties de A dans B est inductif pour la relation d’ordre « v prolonge u » entre u et v.
+Un exemple important d’ensemble de parties inductif pour la relation $\subset$ est l’ensemble $\mathfrak{F}$ des graphes d’applications de parties d’un ensemble A dans un ensemble B; en effet, $\mathfrak{F}$ est une partie de $\mathfrak{P}(A \times B)$ et dire qu’une partie $\mathfrak{G}$ de $\mathfrak{F}$ est totalement ordonnée par inclusion signifie que les éléments de $\mathfrak{G}$ sont des graphes d’applications telles que, de deux quelconques de ces applications, l’une prolonge l’autre. Il s’ensuit aussitôt que la réunion des ensembles de $\mathfrak{G}$ est un élément de $\mathfrak{F}$ (II, p. 28, prop. 7). On peut donc dire encore que l’ensemble $\Phi(A, B)$ des applications de parties de A dans B est inductif pour la relation d’ordre « v prolonge u » entre u et v.
 
 #### Exemple 3 {#ens-iii-s2-n4-exa-3 .statement tag=03T4}
 

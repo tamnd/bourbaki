@@ -34,7 +34,7 @@ subsections:
       pdf_page: 138
 statements: 16
 exercises: 11
-content_sha256: 95168b9add4806c87b213356684f1a29b4ca906c12cd4bb7bfe897cad290f8f9
+content_sha256: 61d6392387fe9a9acc938845fc7d7e21377918ac4da4982295430d6d3ea44f5e
 ---
 
 ## § 4. ENTIERS NATURELS. ENSEMBLES FINIS
@@ -217,7 +217,7 @@ L’ensemble des sous-modules d’un module E n’est pas de caractère fini, ca
 
 Tout ensemble $\mathscr{S}$ de parties d’un ensemble E, de caractère fini, admet un élément maximal (quand on l’ordonne par inclusion).
 
-En vertu du th. 2 de III, p. 20, il suffit de prouver que $\mathscr{S}$ est inductif; pour cela, nous montrerons que, pour toute partie $\mathscr{G}$ de $\mathscr{S}$, totalement ordonnée par inclusion, la réunion X des ensembles de $\mathscr{G}$ appartient à $\mathscr{S}$ (III, p. 21, cor. 2). Comme $\mathscr{S}$ est de caractère fini, il suffit d’établir que toute partie finie Y de X appartient à $\mathscr{S}$. Or, pour tout $y \in Y$, il existe un ensemble $Z_y \in \mathscr{G}$ tel que $y \in Z_y$; comme l’ensemble des $Z_y$ ($y \in Y$) est fini et totalement ordonné par inclusion, il admet un plus grand élément S (III, p. 34, cor. 1); autrement dit, il existe un ensemble $S \in \mathscr{G}$ tel que $Y \subset S$. Mais comme $S \in \mathscr{S}$ et que Y est une partie finie de S, on a $Y \in \mathscr{S}$, puisque $\mathscr{S}$ est de caractère fini, et ceci achève la démonstration.
+En vertu du th. 2 de III, p. 20, il suffit de prouver que $\mathscr{S}$ est inductif; pour cela, nous montrerons que, pour toute partie $\mathfrak{G}$ de $\mathscr{S}$, totalement ordonnée par inclusion, la réunion X des ensembles de $\mathfrak{G}$ appartient à $\mathscr{S}$ (III, p. 21, cor. 2). Comme $\mathscr{S}$ est de caractère fini, il suffit d’établir que toute partie finie Y de X appartient à $\mathscr{S}$. Or, pour tout $y \in Y$, il existe un ensemble $Z_y \in \mathfrak{G}$ tel que $y \in Z_y$; comme l’ensemble des $Z_y$ ($y \in Y$) est fini et totalement ordonné par inclusion, il admet un plus grand élément S (III, p. 34, cor. 1); autrement dit, il existe un ensemble $S \in \mathfrak{G}$ tel que $Y \subset S$. Mais comme $S \in \mathscr{S}$ et que Y est une partie finie de S, on a $Y \in \mathscr{S}$, puisque $\mathscr{S}$ est de caractère fini, et ceci achève la démonstration.
 
 ## EXERCICES {#ens-iii-s4-exercises}
 
@@ -236,7 +236,7 @@ $$
 $$
 (Remarquer qu'un produit $\prod_{t \in I} E_t$ ne peut être réunion d'une famille $(A_t)_{t \in I}$ telle que Card(A_t) < Card(E_t) pour tout t ∈ I, en observant que l'on a Card(pr_t(A_t)) < Card(E_t)).
 
-4) Soient E un ensemble, f une application de $\mathscr{P}(E) - \{ \varnothing \}$ dans E telle que, pour toute partie X ≠ $\varnothing$ de E, on ait f(X) ∈ X (« fonction de choix »).
+4) Soient E un ensemble, f une application de $\mathfrak{P}(E) - \{ \varnothing \}$ dans E telle que, pour toute partie X ≠ $\varnothing$ de E, on ait f(X) ∈ X (« fonction de choix »).
 a) Soit b un cardinal, et soit A l'ensemble des x ∈ E tels que Card(f(x)) ≤ b. Montrer que si a = Card(A), on a 2^a ≤ 1 + ab (remarquer que si Y ⊂ A et Y ≠ $\varnothing$, on a f(Y) ∈ A).
 b) Soit B l'ensemble des x ∈ E tels que pour toute partie X ≠ $\varnothing$ de E appartenant à $f^{-1}(x)$, on ait Card(X) ≤ b. Montrer que Card(B) ≤ b.
 
