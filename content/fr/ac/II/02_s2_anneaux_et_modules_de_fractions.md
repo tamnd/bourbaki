@@ -48,7 +48,7 @@ subsections:
       pdf_page: 98
 statements: 66
 exercises: 25
-content_sha256: 8b8c98e9903d503e97180d75cbfbcc56889c2e1b672162b9780dd50724f4d040
+content_sha256: 9642cb0e537e778a7b5c71bb698bbc328367edeae5b12e987be7f16a83ade9ce
 ---
 
 ## § 2. Anneaux et modules de fractions
@@ -296,11 +296,11 @@ $$
 u'(m/s) = u(m)/f(s).
 $$
 
-Avec les mêmes notations, soient C un troisième anneau, U une partie multiplicative de C, g un homomorphisme de B dans C tel que $g(T) \subset U$, P un C-module, $\varphi$ une application B-linéaire de N dans P, et $\varphi'$ l’application $T^{-1}B$-linéaire de $T^{-1}N$ dans $U^{-1}P$ associée à $\varphi$. On a alors
+Avec les mêmes notations, soient C un troisième anneau, U une partie multiplicative de C, g un homomorphisme de B dans C tel que $g(T) \subset U$, P un C-module, $v$ une application B-linéaire de N dans P, et $v'$ l’application $T^{-1}B$-linéaire de $T^{-1}N$ dans $U^{-1}P$ associée à $v$. On a alors
 
-$$(\varphi \circ u)' = \varphi' \circ u'$$
+$$(v \circ u)' = v' \circ u'$$
 
-où le premier membre est l’application A-linéaire $S^{-1}M \to U^{-1}P$ associée à $\varphi \circ u$. De même, si $u_1$ est une seconde application A-linéaire de M dans N, on a
+où le premier membre est l’application A-linéaire $S^{-1}M \to U^{-1}P$ associée à $v \circ u$. De même, si $u_1$ est une seconde application A-linéaire de M dans N, on a
 
 $$(u + u_1)' = u' + u'_1$$
 

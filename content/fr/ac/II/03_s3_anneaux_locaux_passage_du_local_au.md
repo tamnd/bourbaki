@@ -32,7 +32,7 @@ subsections:
       pdf_page: 114
 statements: 47
 exercises: 16
-content_sha256: d3b666a1deb16d32a56a3c949da8f57215de8773c1542b6e46152738762b8fdf
+content_sha256: db7ac6a1b472aa9446e3833696efc1f3b7d9d546fecfcbfa7b19b5b63aafe417
 ---
 
 ## § 3. Anneaux locaux. Passage du local au global
@@ -164,10 +164,10 @@ $$
 dans lequel les deux lignes sont exactes, j est injectif et $1 \otimes u$ est surjectif (chap. I, § 2, n° 1, lemme 1); comme par hypothèse Ker (c) = 0, on a donc une suite exacte
 
 $$
-0 \xrightarrow{d} \mathrm{Coker}(a) \to \mathrm{Coker}(b) \xrightarrow{\varphi} \mathrm{Coker}(c)
+0 \xrightarrow{d} \mathrm{Coker}(a) \to \mathrm{Coker}(b) \xrightarrow{v} \mathrm{Coker}(c)
 $$
 
-(chap. I, § 1, n° 4, prop. 2); il suffit de vérifier que $\varphi$ est bijectif, car on en déduira Coker (a) = 0, autrement dit que a est surjectif et par suite R = mR. Or, Coker (b) = (A/m) \otimes_A L et Coker (c) = (A/m) \otimes_A M, et par définition $\varphi(1 \otimes e_i) = 1 \otimes x_i$; comme $(1 \otimes e_i)$ est une base de (A/m) \otimes_A L, la définition des $x_i$ montre que $\varphi$ est bijectif.
+(chap. I, § 1, n° 4, prop. 2); il suffit de vérifier que $v$ est bijectif, car on en déduira Coker (a) = 0, autrement dit que a est surjectif et par suite R = mR. Or, Coker (b) = (A/m) \otimes_A L et Coker (c) = (A/m) \otimes_A M, et par définition $v(1 \otimes e_i) = 1 \otimes x_i$; comme $(1 \otimes e_i)$ est une base de (A/m) \otimes_A L, la définition des $x_i$ montre que $v$ est bijectif.
 
 #### Corollaire 1 {#ac-ii-s3-prop-5-cor-1 .statement}
 
@@ -228,22 +228,22 @@ Soient A un anneau local réduit, m son idéal maximal, $(\mathfrak{p}_i)_{i \in
 
 Si M est libre, il est clair que les deux membres de (1) sont égaux au rang de M pour tout $i \in I$. Supposons maintenant la condition satisfaite, et notons n la valeur commune des deux membres de (1); en vertu du cor. 2 de la prop. 4, M possède un système de n générateurs $x_j$ ($1 \leq j \leq n$). Supposons d'abord A intègre, auquel cas $\mathfrak{p}_i = 0$ pour tout $i \in I$. Les éléments $1 \otimes x_j$ ($1 \leq j \leq n$) engendrent l'espace vectoriel $K \otimes M$ sur le corps des fractions K de A ; mais comme par hypothèse cet espace est de rang n sur K, les éléments $1 \otimes x_j$ sont linéairement indépendants sur K. On en déduit (Alg., chap. II, 3e éd., § 1, no 13, Remarque 1) que les $x_j$ sont linéairement indépendants sur A, donc forment une base de M.
 
-Passons au cas général ; il existe un homomorphisme surjectif $\nu$ de $L = A^n$ sur M. Considérons le diagramme commutatif
+Passons au cas général ; il existe un homomorphisme surjectif $v$ de $L = A^n$ sur M. Considérons le diagramme commutatif
 
 $$
 \begin{array}{ccc}
-L & \xrightarrow{\nu} & M \\
+L & \xrightarrow{v} & M \\
 u \downarrow & & \downarrow u' \\
-\prod_l ((A/p_l) \otimes L) & \xrightarrow{\nu'} & \prod_l ((A/p_l) \otimes M)
+\prod_l ((A/p_l) \otimes L) & \xrightarrow{v'} & \prod_l ((A/p_l) \otimes M)
 \end{array}
 $$
 
-où $u$ (resp. $u'$) est l’application $x \to (\varphi_l(x))$ (resp. $y \to (\psi_l(y))$), $\varphi_l : L \to (A/p_l) \otimes L$ (resp. $\psi_l : M \to (A/p_l) \otimes M$) étant l’application canonique, et $\nu'$ est l’application produit des $1_{A/p_l} \otimes \nu$. On a $(A/p_l)/(m/p_l) \otimes_{A/p_l} ((A/p_l) \otimes_A M) = (A/m) \otimes_A M$, et comme $A/p_l$ est un anneau local intègre, il résulte de la première partie du raisonnement que chacun des $1_{A/p_l} \otimes \nu$ est un isomorphisme ; il en est donc de même de $\nu'$. D’autre part, comme A est réduit, on a
+où $u$ (resp. $u'$) est l’application $x \to (\varphi_l(x))$ (resp. $y \to (\psi_l(y))$), $\varphi_l : L \to (A/p_l) \otimes L$ (resp. $\psi_l : M \to (A/p_l) \otimes M$) étant l’application canonique, et $v'$ est l’application produit des $1_{A/p_l} \otimes v$. On a $(A/p_l)/(m/p_l) \otimes_{A/p_l} ((A/p_l) \otimes_A M) = (A/m) \otimes_A M$, et comme $A/p_l$ est un anneau local intègre, il résulte de la première partie du raisonnement que chacun des $1_{A/p_l} \otimes v$ est un isomorphisme ; il en est donc de même de $v'$. D’autre part, comme A est réduit, on a
 
 $$
 \bigcap_l p_l = (0) \quad (§ 2, \text{no } 6, \text{prop. } 13),
 $$
-d’où $\bigcap_l (p_l L) = 0$ puisque L est libre (Alg., chap. II, 3e éd., § 3, no 7, Remarque) ; comme $p_l L$ est le noyau de $\varphi_l$, cela montre que $u$ est injectif. On en conclut que $\nu' \circ u = u' \circ \nu$ est injectif, donc $\nu$ est injectif, et comme $\nu$ est surjectif par définition, cela montre que M est libre.
+d’où $\bigcap_l (p_l L) = 0$ puisque L est libre (Alg., chap. II, 3e éd., § 3, no 7, Remarque) ; comme $p_l L$ est le noyau de $\varphi_l$, cela montre que $u$ est injectif. On en conclut que $v' \circ u = u' \circ v$ est injectif, donc $v$ est injectif, et comme $v$ est surjectif par définition, cela montre que M est libre.
 
 ### 3. Passage du local au global.
 
@@ -338,15 +338,15 @@ En effet, il résulte du th. 1 que, pour que $u$ soit surjectif, il faut et il s
 
 #### Proposition 12 {#ac-ii-s3-prop-12 .statement}
 
-Soient $E, F, G$ trois $A$-modules, $\nu : G \to F$ et $u : E \to F$ des homomorphismes. On suppose que $E$ est de présentation finie. Pour qu’il existe un homomorphisme $\omega : E \to G$ tel que $u$ se factorise en $u : E \xrightarrow{\nu} G \xrightarrow{v} F$, il faut et il suffit que, pour tout $m \in \Omega$, il existe un homomorphisme $\omega^m : E_m \to G_m$ tel que $u_m : E_m \to F_m$ se factorise en $E_m \xrightarrow{\omega^m} G_m \xrightarrow{v^m} F_m$.
+Soient $E, F, G$ trois $A$-modules, $v : G \to F$ et $u : E \to F$ des homomorphismes. On suppose que $E$ est de présentation finie. Pour qu’il existe un homomorphisme $w : E \to G$ tel que $u$ se factorise en $u : E \xrightarrow{w} G \xrightarrow{v} F$, il faut et il suffit que, pour tout $m \in \Omega$, il existe un homomorphisme $w^m : E_m \to G_m$ tel que $u_m : E_m \to F_m$ se factorise en $E_m \xrightarrow{w^m} G_m \xrightarrow{v^m} F_m$.
 
-L’existence de $\omega$ vérifiant l’énoncé est équivalente à la propriété suivante : $u$ appartient à l’image $P$ de l’application $r = \mathrm{Hom}(1_E, \nu) : \mathrm{Hom}_A(E, G) \to \mathrm{Hom}_A(E, F)$. Or, $(\mathrm{Hom}_A(E, F))_m$ (resp. $(\mathrm{Hom}_A(E, G))_m$) s’identifie canoniquement à $\mathrm{Hom}_{A_m}(E_m, F_m)$ (resp. $\mathrm{Hom}_{A_m}(E_m, G_m)$) (§ 2, no 7, prop. 19, (i)), l’image canonique de $u$ dans $(\mathrm{Hom}_A(E, F))_m$ s’identifie à $u_m$, $r_m$ s’identifie à $\mathrm{Hom}_{A_m}(1_{E_m}, \nu_m)$ et $P_m$ à l’image de $r_m$. La proposition résulte alors du cor. 1 du th. 1 appliqué à $\mathrm{Hom}_A(E, F)$ et à son sous-module $P$.
+L’existence de $w$ vérifiant l’énoncé est équivalente à la propriété suivante : $u$ appartient à l’image $P$ de l’application $r = \mathrm{Hom}(1_E, v) : \mathrm{Hom}_A(E, G) \to \mathrm{Hom}_A(E, F)$. Or, $(\mathrm{Hom}_A(E, F))_m$ (resp. $(\mathrm{Hom}_A(E, G))_m$) s’identifie canoniquement à $\mathrm{Hom}_{A_m}(E_m, F_m)$ (resp. $\mathrm{Hom}_{A_m}(E_m, G_m)$) (§ 2, no 7, prop. 19, (i)), l’image canonique de $u$ dans $(\mathrm{Hom}_A(E, F))_m$ s’identifie à $u_m$, $r_m$ s’identifie à $\mathrm{Hom}_{A_m}(1_{E_m}, v_m)$ et $P_m$ à l’image de $r_m$. La proposition résulte alors du cor. 1 du th. 1 appliqué à $\mathrm{Hom}_A(E, F)$ et à son sous-module $P$.
 
 #### Corollaire 1 {#ac-ii-s3-prop-12-cor-1 .statement}
 
 Soient $M$ un $A$-module, $N$ un sous-module de $M$ tel que $M/N$ admette une présentation finie. Pour que $N$ soit facteur direct de $M$, il faut et il suffit que, pour tout $m \in \Omega$, $N_m$ soit facteur direct de $M_m$.
 
-En effet, dire que $N$ est facteur direct de $M$ signifie que l’homomorphisme identique de $M/N$ se factorise en $M/N \xrightarrow{\omega} M \xrightarrow{\varphi} M/N$ où $\varphi$ est l’homomorphisme canonique et $\omega$ un homomorphisme ($Alg.$, chap. II, 3e éd., § 1, no 9, prop. 14); comme $(M/N)_m = M_m / N_m$ et que $\varphi_m$ est l’homomorphisme canonique $M_m \to M_m / N_m$, le corollaire résulte aussitôt de la prop. 12.
+En effet, dire que $N$ est facteur direct de $M$ signifie que l’homomorphisme identique de $M/N$ se factorise en $M/N \xrightarrow{w} M \xrightarrow{\varphi} M/N$ où $\varphi$ est l’homomorphisme canonique et $w$ un homomorphisme ($Alg.$, chap. II, 3e éd., § 1, no 9, prop. 14); comme $(M/N)_m = M_m / N_m$ et que $\varphi_m$ est l’homomorphisme canonique $M_m \to M_m / N_m$, le corollaire résulte aussitôt de la prop. 12.
 
 #### Corollaire 2 {#ac-ii-s3-prop-12-cor-2 .statement}
 

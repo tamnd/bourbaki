@@ -32,7 +32,7 @@ subsections:
       pdf_page: 246
 statements: 37
 exercises: 27
-content_sha256: d6fba1af17cf7aadb43e77bb8379db0eb311ec339e84a93882d759770242e0e0
+content_sha256: 6c88e29ea3ef0282f83eec6fe311d6273d538f1140250360167f6edd01f49540
 ---
 
 ## § 3. Topologies $m$-adiques sur les anneaux nœthériens.
@@ -144,10 +144,10 @@ $$
 la famille $(\mathrm{Hom}_A(E, F_n))_{n \in \mathbf{Z}}$ est donc une filtration sur $\mathrm{Hom}_A(E, F)$, compatible avec sa structure de module sur l’anneau $A$ filtré parla filtration m-adique. Puisque E est de type fini, il existe un entier r > 0 et un A-homomorphisme surjectif u : Ar → E, qui définit un A-homomorphisme injectif
 
 $$
-\varphi = \operatorname{Hom}(u, 1_F) : \operatorname{Hom}_A(E, F) \to \operatorname{Hom}_A(A^r, F);
+v = \operatorname{Hom}(u, 1_F) : \operatorname{Hom}_A(E, F) \to \operatorname{Hom}_A(A^r, F);
 $$
 
-il est clair que $\varphi$ est compatible avec les filtrations ($\operatorname{Hom}_A(E, F_n)$) et ($\operatorname{Hom}_A(A^r, F_n)$). Comme $\operatorname{Hom}_A(E, F)$ et $\operatorname{Hom}_A(A^r, F)$ sont de type fini (lemme 2), il suffit, en vertu de la prop. 1, de montrer que la filtration ($\operatorname{Hom}_A(A^r, F_n)$) est m-bonne ; mais cela est immédiat en vertu de l’existence de l’isomorphisme canonique $\operatorname{Hom}_A(A^r, F_n) \to F_n^r$ et du fait que la relation $mF_n = F_{n+1}$ entraîne $m(F_n^r) = (mF_n)^r = F_{n+1}^r$ (*Alg.*, chap. II, 3e éd., § 3, no 7, *Remarque*).
+il est clair que $v$ est compatible avec les filtrations ($\operatorname{Hom}_A(E, F_n)$) et ($\operatorname{Hom}_A(A^r, F_n)$). Comme $\operatorname{Hom}_A(E, F)$ et $\operatorname{Hom}_A(A^r, F)$ sont de type fini (lemme 2), il suffit, en vertu de la prop. 1, de montrer que la filtration ($\operatorname{Hom}_A(A^r, F_n)$) est m-bonne ; mais cela est immédiat en vertu de l’existence de l’isomorphisme canonique $\operatorname{Hom}_A(A^r, F_n) \to F_n^r$ et du fait que la relation $mF_n = F_{n+1}$ entraîne $m(F_n^r) = (mF_n)^r = F_{n+1}^r$ (*Alg.*, chap. II, 3e éd., § 3, no 7, *Remarque*).
 
 #### Proposition 3 {#ac-iii-s3-prop-3 .statement}
 

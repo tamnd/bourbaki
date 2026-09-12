@@ -48,7 +48,7 @@ subsections:
       pdf_page: 36
 statements: 22
 exercises: 10
-content_sha256: 4273113cb01dbe675bbca50338168d397debff5370c11ec66e1c28a99e9cfbb7
+content_sha256: 4d610c54587b810bb0ad139a0bf750a9764fb15dcd2168fecb95a0337f79fa0d
 ---
 
 ## § 2. Algèbre enveloppante d’une algèbre de Lie
@@ -279,13 +279,13 @@ Nous devons définir $f_p(x_\lambda \otimes z_M)$ pour une suite croissante M de
 Si $\lambda \leq M$, le choix est imposé par la condition $(A_p)$. Dans le cas contraire, M s’écrit de manière unique sous la forme $(\mu, N)$, où $\mu < \lambda, \mu \leq N$. Alors, $z_M = z_\mu z_N = f_{p-1}(x_\mu \otimes z_N)$ d’après $(A_{p-1})$, de sorte que le premier membre de $(C_p)$ est $f_p(x_\lambda \otimes z_M)$. Or, le deuxième membre de $(C_p)$ est déjà défini ; en effet, $(B_{p-1})$ permet d’écrire :
 
 $$
-f_p(x_\lambda \otimes z_N) = f_{p-1}(x_\lambda \otimes z_N) = z_\lambda z_N + \omega
+f_p(x_\lambda \otimes z_N) = f_{p-1}(x_\lambda \otimes z_N) = z_\lambda z_N + w
 $$
 
-avec $\omega \in P_{p-1}$; donc le deuxième membre de $(C_p)$ devient :
+avec $w \in P_{p-1}$; donc le deuxième membre de $(C_p)$ devient :
 
 $$
-z_\mu z_\lambda z_N + f_{p-1}(x_\mu \otimes \omega) + f_{p-1}([x_\lambda, x_\mu] \otimes z_N).
+z_\mu z_\lambda z_N + f_{p-1}(x_\mu \otimes w) + f_{p-1}([x_\lambda, x_\mu] \otimes z_N).
 $$
 
 Ainsi, $f_p$ est définie de manière unique, et satisfait évidemment aux conditions $(A_p)$ et $(B_p)$. La condition $(C_p)$ est satisfaite si $\mu < \lambda, \mu \leq N$. Comme $[x_\mu, x_\lambda] = -[x_\lambda, x_\mu]$, la condition $(C_p)$ est aussi satisfaite pour $\lambda < \mu, \lambda \leq N$. Comme $(C_p)$ est trivialement satisfaite pour $\lambda = \mu$, $(C_p)$ est donc satisfaite si l’on a $\lambda \leq N$ ou $\mu \leq N$. Si aucune de ces inégalités n’est vérifiée, on a $N = (\nu, Q)$, où $\nu \leq Q, \nu < \lambda, \nu < \mu$. Posant désormais pour abréger $f_p(x \otimes z) = xz$ pour $x \in g$ et $z \in P_p$, on a, d’après l’hypothèse de récurrence :
@@ -294,7 +294,7 @@ $$
 x_\mu z_N = x_\mu(x_\nu z_Q) = x_\nu(x_\mu z_Q) + [x_\mu, x_\nu]z_Q.
 $$
 
-Or, $x_\mu z_Q$ est de la forme $z_\mu z_Q + \omega$, où $\omega \in P_{p-2}$. On peut appliquer $(C_p)$ à $x_\lambda(x_\nu(z_\mu z_Q))$ parce que $\nu \leq Q$ et $\nu < \mu$, et à $x_\lambda(x_\nu \omega)$ en vertu de l’hypothèse de récurrence, donc à $x_\lambda(x_\nu(x_\mu z_Q))$. D’où :
+Or, $x_\mu z_Q$ est de la forme $z_\mu z_Q + w$, où $w \in P_{p-2}$. On peut appliquer $(C_p)$ à $x_\lambda(x_\nu(z_\mu z_Q))$ parce que $\nu \leq Q$ et $\nu < \mu$, et à $x_\lambda(x_\nu w)$ en vertu de l’hypothèse de récurrence, donc à $x_\lambda(x_\nu(x_\mu z_Q))$. D’où :
 
 $$
 x_\lambda(x_\mu z_N) = x_\nu(x_\lambda(x_\mu z_Q)) + [x_\lambda, x_\nu](x_\mu z_Q) + [x_\mu, x_\nu](x_\lambda z_Q)
@@ -433,10 +433,10 @@ $$
 u_n(x_1 \otimes \cdots \otimes x_n) = ux_1 \otimes \cdots \otimes x_n + \cdots + x_1 \otimes \cdots \otimes ux_n
 $$
 
-quels que soient $x_1, \ldots, x_n$ dans V. On a $u_1 = u$. Soit $\nu$ l’endomorphisme du K-module T qui coïncide avec $u_n$ sur chaque $T^n = \bigotimes^n V$, et qui s’annule dans $T^0 = K.1$. Montrons que $\nu$ est une dérivation de T. Si $x_1, \ldots, x_n, y_1, \ldots, y_p$ sont des éléments de V, on a
+quels que soient $x_1, \ldots, x_n$ dans V. On a $u_1 = u$. Soit $v$ l’endomorphisme du K-module T qui coïncide avec $u_n$ sur chaque $T^n = \bigotimes^n V$, et qui s’annule dans $T^0 = K.1$. Montrons que $v$ est une dérivation de T. Si $x_1, \ldots, x_n, y_1, \ldots, y_p$ sont des éléments de V, on a
 
 $$
-\nu((x_1 \otimes \cdots \otimes x_n) \otimes (y_1 \otimes \cdots \otimes y_p))
+v((x_1 \otimes \cdots \otimes x_n) \otimes (y_1 \otimes \cdots \otimes y_p))
 $$
 $$
 = \sum_{i=1}^n x_1 \otimes \cdots \otimes x_{i-1} \otimes ux_i \otimes x_{i+1} \otimes \cdots \otimes x_n \otimes y_1 \otimes \cdots \otimes y_p
@@ -445,10 +445,10 @@ $$
 + \sum_{j=1}^p x_1 \otimes \cdots \otimes x_n \otimes y_1 \otimes \cdots \otimes y_{j-1} \otimes uy_j \otimes y_{j+1} \otimes \cdots \otimes y_n
 $$
 $$
-= \nu(x_1 \otimes \cdots \otimes x_n) \otimes (y_1 \otimes \cdots \otimes y_p) + (x_1 \otimes \cdots \otimes x_n) \otimes \nu(y_1 \otimes \cdots \otimes y_p).
+= v(x_1 \otimes \cdots \otimes x_n) \otimes (y_1 \otimes \cdots \otimes y_p) + (x_1 \otimes \cdots \otimes x_n) \otimes v(y_1 \otimes \cdots \otimes y_p).
 $$
 
-Par linéarité, on en déduit bien que $\nu$ est une dérivation. L’unicité de $\nu$ est évidente. Enfin, il est clair que $u_n$ permuté aux opérateurs de symétrie dans $\bigotimes^n V$, d’où la dernière assertion.
+Par linéarité, on en déduit bien que $v$ est une dérivation. L’unicité de $v$ est évidente. Enfin, il est clair que $u_n$ permuté aux opérateurs de symétrie dans $\bigotimes^n V$, d’où la dernière assertion.
 
 #### Proposition 7 {#lie-i-s2-prop-7 .statement}
 

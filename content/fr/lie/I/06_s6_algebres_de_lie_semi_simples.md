@@ -52,7 +52,7 @@ subsections:
       pdf_page: 92
 statements: 53
 exercises: 27
-content_sha256: 8d709c25803b8fb7c73d0461df9a2c77b9242c20a9ecfdc4b50b9a4648899741
+content_sha256: 1c87d01e7ad8897e2ff485137285fecfae3e8c80750ed0111fa057d481d09b40
 ---
 
 ## § 6. Algèbres de Lie semi-simples
@@ -439,10 +439,10 @@ Soient maintenant E un espace vectoriel sur le corps K et $u$ un endomorphisme n
 $$
 e^u = \exp u = \sum_{n=0}^\infty \frac{u^n}{n!}.
 $$
-Cette définition concorde avec la précédente si $K = \mathbf{R}$ et si E est normé complet. Si $\varphi$ est un autre endomorphisme nilpotent de E permutable à $u$, on a :
+Cette définition concorde avec la précédente si $K = \mathbf{R}$ et si E est normé complet. Si $v$ est un autre endomorphisme nilpotent de E permutable à $u$, on a :
 $$
-(3) \quad e^u e^\varphi = \left( \sum_{n=0}^\infty \frac{u^n}{n!} \right) \left( \sum_{p=0}^\infty \frac{\varphi^p}{p!} \right) = \sum_{n,p=0}^\infty \frac{u^n \varphi^p}{n! p!}
-= \sum_{q=0}^\infty \frac{1}{q!} \left( \sum_{n+p=q} \binom{q}{n} u^n \varphi^p \right) = \sum_{q=0}^\infty \frac{1}{q!} (u + \varphi)^q = e^{u+\varphi}.
+(3) \quad e^u e^v = \left( \sum_{n=0}^\infty \frac{u^n}{n!} \right) \left( \sum_{p=0}^\infty \frac{v^p}{p!} \right) = \sum_{n,p=0}^\infty \frac{u^n v^p}{n! p!}
+= \sum_{q=0}^\infty \frac{1}{q!} \left( \sum_{n+p=q} \binom{q}{n} u^n v^p \right) = \sum_{q=0}^\infty \frac{1}{q!} (u + v)^q = e^{u+v}.
 $$
 En particulier, $e^u e^{-u} = e^{-u} e^u = e^0 = 1$, donc $e^u$ est toujours un automorphisme de E.
 

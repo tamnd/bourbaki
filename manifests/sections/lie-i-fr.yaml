@@ -25,7 +25,7 @@ chapters:
           statements: 21
           exercises: 27
           extraction: ocr
-          content_sha256: c01d9e842e1567443d585d877e5207faa40cd50b9645b2743ea1a275ad7b25a7
+          content_sha256: 088b65df74d2cfe50a254086b592464a3ff7f61d303fb93d3a0a0a224f230bf4
         - kind: section
           section: 2
           title: Algèbre enveloppante d’une algèbre de Lie
@@ -37,7 +37,7 @@ chapters:
           statements: 22
           exercises: 10
           extraction: ocr
-          content_sha256: 4273113cb01dbe675bbca50338168d397debff5370c11ec66e1c28a99e9cfbb7
+          content_sha256: 4d610c54587b810bb0ad139a0bf750a9764fb15dcd2168fecb95a0337f79fa0d
         - kind: section
           section: 3
           title: Représentations
@@ -49,7 +49,7 @@ chapters:
           statements: 23
           exercises: 12
           extraction: ocr
-          content_sha256: b85018fe68f5188618335e09fbdbfcf02e416591c55117db8538e84da0167f72
+          content_sha256: f243cec1d375cd9ff6e2937ee31f71d5c1278a291c509be176220dc5ddc58bbf
         - kind: section
           section: 4
           title: Algèbres de Lie nilpotentes
@@ -85,7 +85,7 @@ chapters:
           statements: 53
           exercises: 27
           extraction: ocr
-          content_sha256: 8d709c25803b8fb7c73d0461df9a2c77b9242c20a9ecfdc4b50b9a4648899741
+          content_sha256: 1c87d01e7ad8897e2ff485137285fecfae3e8c80750ed0111fa057d481d09b40
         - kind: section
           section: 7
           title: Le théorème d'Ado

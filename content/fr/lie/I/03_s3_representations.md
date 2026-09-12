@@ -44,7 +44,7 @@ subsections:
       pdf_page: 50
 statements: 23
 exercises: 12
-content_sha256: b85018fe68f5188618335e09fbdbfcf02e416591c55117db8538e84da0167f72
+content_sha256: f243cec1d375cd9ff6e2937ee31f71d5c1278a291c509be176220dc5ddc58bbf
 ---
 
 ## § 3. Représentations
@@ -388,7 +388,7 @@ $$
 
 Supposons que K soit un corps et que l’algèbre de Lie g soit de dimension finie sur K. Soient a un idéal de g, $\beta$ la forme de Killing de g, et $\beta'$ celle de a. Alors, $\beta'$ est la restriction de $\beta$ à a.
 
-En effet, soit u un endomorphisme de l’espace vectoriel g qui laisse stable a. Soient $\nu$ la restriction de u à a, et $\varphi$ l’endomorphisme de l’espace vectoriel $g/a$ déduit de u par passage au quotient. On a $\operatorname{Tr} u = \operatorname{Tr} \nu + \operatorname{Tr} \varphi$ comme on le voit en prenant une base $(x_1, \ldots, x_n)$ de g dont les p premiers éléments constituent une base de $a$. Ceci posé, soient $x \in a,\ y \in a$, et appliquons la formule précédente au cas où $u = (\mathrm{ad}_g x)(\mathrm{ad}_g y)$. On a $v = (\mathrm{ad}_a x)(\mathrm{ad}_a y)$, et $w = 0$. Donc $\beta(x, y) = \beta'(x, y)$.
+En effet, soit u un endomorphisme de l’espace vectoriel g qui laisse stable a. Soient $v$ la restriction de u à a, et $w$ l’endomorphisme de l’espace vectoriel $g/a$ déduit de u par passage au quotient. On a $\operatorname{Tr} u = \operatorname{Tr} v + \operatorname{Tr} w$ comme on le voit en prenant une base $(x_1, \ldots, x_n)$ de g dont les p premiers éléments constituent une base de $a$. Ceci posé, soient $x \in a,\ y \in a$, et appliquons la formule précédente au cas où $u = (\mathrm{ad}_g x)(\mathrm{ad}_g y)$. On a $v = (\mathrm{ad}_a x)(\mathrm{ad}_a y)$, et $w = 0$. Donc $\beta(x, y) = \beta'(x, y)$.
 
 #### Proposition 10 {#lie-i-s3-prop-10 .statement}
 

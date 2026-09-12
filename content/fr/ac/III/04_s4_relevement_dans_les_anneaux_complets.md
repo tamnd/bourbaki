@@ -36,7 +36,7 @@ subsections:
       pdf_page: 269
 statements: 27
 exercises: 6
-content_sha256: 0a2a00d9d212add17e799b8567805f79e620cd71ec91da0baa9972ac508e04d6
+content_sha256: 8d3d3e6b4159f267d135b563c688a05fd9d180921fdd1771d5f01117e603d7a5
 ---
 
 ## § 4. Relèvement dans les anneaux complets.
@@ -172,7 +172,7 @@ $$
 $$
 *tel que* $\tilde{u}(a) = u(a)$ *pour tout* $a \in A$ *et* $\tilde{u}(X_i) = b_i$ *pour* $1 \leq i \leq p$.
 
-Il existe en effet un homomorphisme $\varphi : A[X_1, \ldots, X_p] \to B$ et un seul tel que $\varphi(a) = u(a)$ pour $a \in A$ et $\varphi(X_i) = b_i$ pour $1 \leq i \leq p$. En outre, si $\mathfrak{H}$ est un voisinage de 0 dans $B$ qui est un idéal, $\tilde{u}^{-1}(\mathfrak{H}) = \mathfrak{J}$ est un idéal de $A$ qui est un voisinage de 0, et pour tout polynôme $P \in N_{\mathfrak{J}}$, il est clair que $\varphi(P) \in \mathfrak{H}$, donc $\varphi$ est continu. Comme $A[X_1, \ldots, X_p]$ est dense dans $A\{X_1, \ldots, X_p\}$, l’existence et l’unicité de $\tilde{u}$ résultent de *Top. gén.*, chap. III, 3e éd., § 3, no 3, prop. 5 et du principe de prolongement des identités.
+Il existe en effet un homomorphisme $v : A[X_1, \ldots, X_p] \to B$ et un seul tel que $v(a) = u(a)$ pour $a \in A$ et $v(X_i) = b_i$ pour $1 \leq i \leq p$. En outre, si $\mathfrak{H}$ est un voisinage de 0 dans $B$ qui est un idéal, $\tilde{u}^{-1}(\mathfrak{H}) = \mathfrak{J}$ est un idéal de $A$ qui est un voisinage de 0, et pour tout polynôme $P \in N_{\mathfrak{J}}$, il est clair que $v(P) \in \mathfrak{H}$, donc $v$ est continu. Comme $A[X_1, \ldots, X_p]$ est dense dans $A\{X_1, \ldots, X_p\}$, l’existence et l’unicité de $\tilde{u}$ résultent de *Top. gén.*, chap. III, 3e éd., § 3, no 3, prop. 5 et du principe de prolongement des identités.
 
 Dans le cas particulier où $A = B$ et où $u$ est l’application identique on écrira $f(b_1, \ldots, b_p)$ ou $f(b)$ la valeur de $\tilde{u}(f)$ pour toute série formelle restreinte $f \in A\{X_1, \ldots, X_p\}$.
 

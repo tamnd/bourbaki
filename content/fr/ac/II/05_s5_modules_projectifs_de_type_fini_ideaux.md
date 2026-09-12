@@ -40,7 +40,7 @@ subsections:
       pdf_page: 148
 statements: 34
 exercises: 25
-content_sha256: 15ff3279aac729fe57e18ef4d2fdd5b8c0b65af0351f93e9bda8118a9333384b
+content_sha256: 07721e18bf16b1b4ebe4720228543dbbe39418b7d26393acb95ffc49d2d5af8c
 ---
 
 ## § 5. Modules projectifs de type fini Idéaux fractionnaires inversibles
@@ -339,7 +339,7 @@ $$
 \sum_{i=1}^p m_i n_i = 1 \quad (m_i \in M,\ n_i \in N \text{ pour tout } i).
 $$
 
-Pour tout $x \in M$, posons $\nu_i(x) = n_i x$; les $\nu_i$ sont des formes linéaires sur M et on a, en vertu de (9), $x = \sum_{i=1}^n m_i \nu_i(x)$ pour tout $x \in M$; cela prouve (Alg., chap. II, 3e éd., § 2, no 6, prop. 12) que M est projectif et engendré par les $m_i$; donc M est un module projectif de type fini.
+Pour tout $x \in M$, posons $v_i(x) = n_i x$; les $v_i$ sont des formes linéaires sur M et on a, en vertu de (9), $x = \sum_{i=1}^n m_i v_i(x)$ pour tout $x \in M$; cela prouve (Alg., chap. II, 3e éd., § 2, no 6, prop. 12) que M est projectif et engendré par les $m_i$; donc M est un module projectif de type fini.
 
 Soit $m$ un idéal maximal de A; montrons que l’entier $r = \mathrm{rg}_m(M)$ est égal à 1. Soit S’ l’image de S dans $A_m$; comme les éléments de S sont non diviseurs de 0 dans A, ceux de S’ sont non diviseurs de 0 dans $A_m$, puisque $A_m$ est un A-module plat ($§ 2$, no 4, th. 1 et chap. I, § 2, no 4, prop. 3); on a donc $S'{}^{-1}A_m \neq 0$, et comme $M_m$ est un $A_m$-module libre de rang $r$, $S'{}^{-1}M_m$ est un $S'{}^{-1}A_m$-module libre de rang $r$. Mais si T’ est l’image de $A - m$ dans $S^{-1}A$, $S'{}^{-1}A_m$ (resp. $S'{}^{-1}M_m$) s’identifie canoniquement à $T'{}^{-1}(S^{-1}A)$ (resp. $T'{}^{-1}(S^{-1}M)$) ($§ 2$, no 3, prop. 7). Or $S^{-1}M = B$ (prop. 8 c)), donc T'−1(S−1M) est un module libre de rang 1 sur T'−1(S−1A), ce qui prouve que r = 1 et démontre l’implication a) ⇒ c).
 

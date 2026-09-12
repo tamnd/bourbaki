@@ -64,7 +64,7 @@ subsections:
       pdf_page: 228
 statements: 68
 exercises: 31
-content_sha256: ab55b03868429e125e5a64f467f6e370913bd64494227910f87b602c7f740355
+content_sha256: 20ae687824a07e9f80c0e143ec71d9f9859a5c5e911212b2cdb8f7851b1054d2
 ---
 
 ## § 2. Généralités sur les anneaux et modules filtrés.
@@ -152,28 +152,28 @@ Soient A un anneau filtré, E un A-module filtré, (E_n) la filtration de E. Pou
 
 $$
 \begin{cases}
-\upsilon(x) = -\infty & \Leftrightarrow \quad x \notin \bigcup_{n \in \mathbf{Z}} E_n \\
-\upsilon(x) = p & \Leftrightarrow \quad x \in E_p \text{ et } x \notin E_{p+1} \\
-\upsilon(x) = +\infty & \Leftrightarrow \quad x \in \bigcap_{n \in \mathbf{Z}} E_n
+v(x) = -\infty & \Leftrightarrow \quad x \notin \bigcup_{n \in \mathbf{Z}} E_n \\
+v(x) = p & \Leftrightarrow \quad x \in E_p \text{ et } x \notin E_{p+1} \\
+v(x) = +\infty & \Leftrightarrow \quad x \in \bigcap_{n \in \mathbf{Z}} E_n
 \end{cases}
 $$
 
 On dit que l’application υ : E → \overline{\mathbf{R}} est la fonction d’ordre du module filtré E. La connaissance de υ entraîne celle des E_n, car E_n est l’ensemble des x ∈ E tels que υ(x) ≥ n ; le fait que les E_n sont des sous-groupes additifs de E se traduit par la relation
 
 $$
-\upsilon(x - y) \geq \inf (\upsilon(x), \upsilon(y)).
+v(x - y) \geq \inf (v(x), v(y)).
 $$
 
 La définition précédente s’applique en particulier au A-module filtré A_s ; soit ω sa fonction d’ordre. Il résulte de la formule (3) du n° 1 que pour a ∈ A et x ∈ E, on a
 
 $$
-\upsilon(ax) \geq \omega(a) + \upsilon(x)
+v(ax) \geq w(a) + v(x)
 $$
 
 lorsque le second membre est défini ; en particulier, pour a ∈ A et b ∈ A, on a
 
 $$
-\omega(ab) \geq \omega(a) + \omega(b)
+w(ab) \geq w(a) + w(b)
 $$
 
 lorsque le second membre est défini.
@@ -259,15 +259,15 @@ est un isomorphisme d’anneaux gradués. On définit de même un isomorphisme c
 
 #### Proposition 1 {#ac-iii-s2-prop-1 .statement}
 
-*Soient A un anneau filtré, $(A_n)_{n \in \mathbf{Z}}$ sa filtration, $\nu$ sa fonction d’ordre. Supposons que $\mathrm{gr}(A)$ soit un anneau sans diviseur de zéro. Alors, pour tout couple d’éléments $a, b$ de l’anneau $B = \bigcup_{n \in \mathbf{Z}} A_n$, on a $\nu(ab) = \nu(a) + \nu(b)$.*
+*Soient A un anneau filtré, $(A_n)_{n \in \mathbf{Z}}$ sa filtration, $v$ sa fonction d’ordre. Supposons que $\mathrm{gr}(A)$ soit un anneau sans diviseur de zéro. Alors, pour tout couple d’éléments $a, b$ de l’anneau $B = \bigcup_{n \in \mathbf{Z}} A_n$, on a $v(ab) = v(a) + v(b)$.*
 
-Comme $n = \bigcap_{n \in \mathbf{Z}} A_n$ est un idéal bilatère de l’anneau $B$, la formule est vraie si $\nu(a)$ ou $\nu(b)$ est égal à $+ \infty$. Dans le cas contraire, $\nu(a) = r$ et $\nu(b) = s$ sont des entiers ; les classes $\alpha$ de $a$ mod.$A_{r+1}$ et $\beta$ de $b$ mod.$A_{s+1}$ sont $\neq 0$ par définition, d’où par hypothèse $\alpha \beta \neq 0$ dans $\mathrm{gr}(A)$, et par suite $ab \notin A_{r+s+1}$ ; comme $ab \in A_{r+s}$, on a $\nu(ab) = \nu(a) + \nu(b)$.
+Comme $n = \bigcap_{n \in \mathbf{Z}} A_n$ est un idéal bilatère de l’anneau $B$, la formule est vraie si $v(a)$ ou $v(b)$ est égal à $+ \infty$. Dans le cas contraire, $v(a) = r$ et $v(b) = s$ sont des entiers ; les classes $\alpha$ de $a$ mod.$A_{r+1}$ et $\beta$ de $b$ mod.$A_{s+1}$ sont $\neq 0$ par définition, d’où par hypothèse $\alpha \beta \neq 0$ dans $\mathrm{gr}(A)$, et par suite $ab \notin A_{r+s+1}$ ; comme $ab \in A_{r+s}$, on a $v(ab) = v(a) + v(b)$.
 
 #### Corollaire {#ac-iii-s2-n3-cor-1 .statement}
 
 *Soient A un anneau filtré, $(A_n)_{n \in \mathbf{Z}}$ sa filtration ; posons $B = \bigcup_{n \in \mathbf{Z}} A_n$, $n = \bigcap_{n \in \mathbf{Z}} A_n$. Si l’anneau $\mathrm{gr}(A)$ est sans diviseur de zéro, il en est de même de l’anneau $B/n$.*
 
-En effet, si $a$ et $b$ sont des éléments de $B$ n’appartenant pas à $n$, on a $\nu(a) \neq + \infty$, $\nu(b) \neq + \infty$, d’où $\nu(ab) \neq + \infty$, et par suite $ab \notin n$.
+En effet, si $a$ et $b$ sont des éléments de $B$ n’appartenant pas à $n$, on a $v(a) \neq + \infty$, $v(b) \neq + \infty$, d’où $v(ab) \neq + \infty$, et par suite $ab \notin n$.
 
 On notera que l’anneau $A$ peut être un anneau intègre, la filtration $(A_n)$ exhaustive et séparée, sans que $\mathrm{gr}(A)$ soit un anneau intègre (exerc. 2).
 
@@ -578,13 +578,13 @@ Soit $A'$ l’algèbre de polynômes $C[X_1, ..., X_q]$ sur $C$ ; munissons $A'$
 
 *Soient A un anneau commutatif filtré, séparé et complet, C un sous-anneau de $A_0$ tel que $C \cap A_1 = \{0\}$, $(x_i)_{1 \leq i \leq q}$ une famille finie d’éléments de A telle que $x_i \in A_{n_i}$ avec $n_i > 0$ pour $1 \leq i \leq q$; soit $\xi_i$ la classe de $x_i$ dans $\mathrm{gr}_{n_i}(A)$ pour $1 \leq i \leq q$.
 
-(i) *Il existe un C-homomorphisme et un seul $\nu$ de l’algèbre de séries formelles $A'' = C[[X_1, ..., X_q]]$ dans A tel que $\nu(X_i) = x_i$ pour $1 \leq i \leq q$.
+(i) *Il existe un C-homomorphisme et un seul $v$ de l’algèbre de séries formelles $A'' = C[[X_1, ..., X_q]]$ dans A tel que $v(X_i) = x_i$ pour $1 \leq i \leq q$.
 
-(ii) *Si la famille $(\xi_i)$ est algébriquement libre sur C, l’homomorphisme $\nu$ est injectif.
+(ii) *Si la famille $(\xi_i)$ est algébriquement libre sur C, l’homomorphisme $v$ est injectif.
 
-(iii) *Si la filtration de A est exhaustive et si la famille $(\xi_i)$ est un système de générateurs de la C-algèbre $\mathrm{gr}(A)$, l’homomorphisme $\nu$ est surjectif.
+(iii) *Si la filtration de A est exhaustive et si la famille $(\xi_i)$ est un système de générateurs de la C-algèbre $\mathrm{gr}(A)$, l’homomorphisme $v$ est surjectif.
 
-Comme $n_i \geq 1$ pour tout $i$, on a $\sum_{i=1}^q n_i s(i) \geq \sum_{i=1}^q s(i)$ pour tout monôme $X_1^{s(1)} ... X_q^{s(q)}$, et d’autre part $\sum_{i=1}^q n_i s(i) \leq r \cdot \sum_{i=1}^q s(i)$ si $r$ est le plus grand des $n_i$. Si l’on désigne par $A''_n$ l’ensemble des séries formelles dont les termes non nuls $a_s X_1^{s(1)} ... X_q^{s(q)}$ sont tels que $\sum_{i=1}^q n_i s(i) \geq n$, il résulte du n° 6, cor. de la prop. 6 que $A''$ est séparé et complet pour la filtration exhaustive ($A''_n$) et que $A' = C[X_1, ..., X_q]$ est dense dans $A''$; en outre l’homomorphisme $u$ défini dans la démonstration de la prop. 10 est *continu* dans $A'$ et se prolonge donc de façon unique en un homomorphisme continu $\nu : A'' \to A$, puisque A est séparé et complet (*Top. gén.*, chap. III, 3e éd.; § 3, n° 3, prop. 5), ce qui démontre (i); en outre, on a $\mathrm{gr}(A'') = \mathrm{gr}(A')$ et $\mathrm{gr}(\nu) = \mathrm{gr}(u)$; (ii) et (iii) résultent donc respectivement des cor. 1 et 2 du th. 1 du n° 8, vu les hypothèses sur A.
+Comme $n_i \geq 1$ pour tout $i$, on a $\sum_{i=1}^q n_i s(i) \geq \sum_{i=1}^q s(i)$ pour tout monôme $X_1^{s(1)} ... X_q^{s(q)}$, et d’autre part $\sum_{i=1}^q n_i s(i) \leq r \cdot \sum_{i=1}^q s(i)$ si $r$ est le plus grand des $n_i$. Si l’on désigne par $A''_n$ l’ensemble des séries formelles dont les termes non nuls $a_s X_1^{s(1)} ... X_q^{s(q)}$ sont tels que $\sum_{i=1}^q n_i s(i) \geq n$, il résulte du n° 6, cor. de la prop. 6 que $A''$ est séparé et complet pour la filtration exhaustive ($A''_n$) et que $A' = C[X_1, ..., X_q]$ est dense dans $A''$; en outre l’homomorphisme $u$ défini dans la démonstration de la prop. 10 est *continu* dans $A'$ et se prolonge donc de façon unique en un homomorphisme continu $v : A'' \to A$, puisque A est séparé et complet (*Top. gén.*, chap. III, 3e éd.; § 3, n° 3, prop. 5), ce qui démontre (i); en outre, on a $\mathrm{gr}(A'') = \mathrm{gr}(A')$ et $\mathrm{gr}(v) = \mathrm{gr}(u)$; (ii) et (iii) résultent donc respectivement des cor. 1 et 2 du th. 1 du n° 8, vu les hypothèses sur A.
 
 On exprime parfois la conclusion de (ii) (resp. (iii)) dans le corollaire en disant que la famille $(x_i)$ est *formellement libre sur C* (resp. est un *système formel de générateurs* de A).
 

@@ -109,7 +109,7 @@ chapters:
           statements: 66
           exercises: 25
           extraction: ocr
-          content_sha256: 8b8c98e9903d503e97180d75cbfbcc56889c2e1b672162b9780dd50724f4d040
+          content_sha256: 9642cb0e537e778a7b5c71bb698bbc328367edeae5b12e987be7f16a83ade9ce
         - kind: section
           section: 3
           title: Anneaux locaux. Passage du local au global
@@ -121,7 +121,7 @@ chapters:
           statements: 47
           exercises: 16
           extraction: ocr
-          content_sha256: d3b666a1deb16d32a56a3c949da8f57215de8773c1542b6e46152738762b8fdf
+          content_sha256: db7ac6a1b472aa9446e3833696efc1f3b7d9d546fecfcbfa7b19b5b63aafe417
         - kind: section
           section: 4
           title: Spectres d’anneaux et supports de modules
@@ -145,7 +145,7 @@ chapters:
           statements: 34
           exercises: 25
           extraction: ocr
-          content_sha256: 15ff3279aac729fe57e18ef4d2fdd5b8c0b65af0351f93e9bda8118a9333384b
+          content_sha256: 07721e18bf16b1b4ebe4720228543dbbe39418b7d26393acb95ffc49d2d5af8c
     - chapter: III
       title: Graduations, filtrations et topologies
       sections:
@@ -182,7 +182,7 @@ chapters:
           statements: 68
           exercises: 31
           extraction: ocr
-          content_sha256: ab55b03868429e125e5a64f467f6e370913bd64494227910f87b602c7f740355
+          content_sha256: 20ae687824a07e9f80c0e143ec71d9f9859a5c5e911212b2cdb8f7851b1054d2
         - kind: section
           section: 3
           title: Topologies m-adiques sur les anneaux nœthériens
@@ -194,7 +194,7 @@ chapters:
           statements: 37
           exercises: 27
           extraction: ocr
-          content_sha256: d6fba1af17cf7aadb43e77bb8379db0eb311ec339e84a93882d759770242e0e0
+          content_sha256: 6c88e29ea3ef0282f83eec6fe311d6273d538f1140250360167f6edd01f49540
         - kind: section
           section: 4
           title: Relèvement dans les anneaux complets
@@ -206,7 +206,7 @@ chapters:
           statements: 27
           exercises: 6
           extraction: ocr
-          content_sha256: 0a2a00d9d212add17e799b8567805f79e620cd71ec91da0baa9972ac508e04d6
+          content_sha256: 8d3d3e6b4159f267d135b563c688a05fd9d180921fdd1771d5f01117e603d7a5
         - kind: section
           section: 5
           title: Propriétés de platitude des modules filtrés
