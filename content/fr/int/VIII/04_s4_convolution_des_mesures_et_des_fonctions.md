@@ -7,7 +7,7 @@ section: 4
 section_title: Convolution des mesures et des fonctions
 lang: fr
 source: int-vii-viii-fr
-pdf_pages: 0147-0173
+pdf_pages: 0147-0173, 0195-0205
 extraction: ocr
 subsections:
     - "no": 1
@@ -39,8 +39,8 @@ subsections:
       page: 0
       pdf_page: 170
 statements: 42
-exercises: 0
-content_sha256: 1c2958722c9dc8e6797b6dd25b249cf1ab703afc6da9500bd4c03f73d72c8e0f
+exercises: 28
+content_sha256: 09b528b0c4aea3f9ed35798949bef7f65c256ac2dd6afac60df085b3dbc9beea
 ---
 
 ## § 4. Convolution des mesures et des fonctions.
@@ -802,3 +802,7 @@ $$
 (\mu * G_n)(x) = A_n^{-1} \int_{-1/2}^{1/2} [1 - (x - y)^2]^n d\mu(y)
 $$
 donc $\mu * G_n$ coïncide dans $(-1/2, 1/2)$ avec un polynôme. En particulier, si $f$ est une fonction continue à support contenu dans $(-1/2, 1/2)$, $f * G_n$ coïncide dans $(-1/2, 1/2)$ avec un polynôme ; par ailleurs, d’après la prop. 5 (iv), et le § 2, no 7, cor. 3 du lemme 4, $f * G_n$ converge uniformément vers $f$. *Si $f$ est de classe $C^r$, les dérivées $D^s(f * G_n)$ tendent uniformément vers $D^s f$ pour $0 \leq s \leq r.*$
+
+## EXERCICES {#int-viii-s4-exercises}
+
+See the [exercises for § 4](exercises/s4/).

@@ -7,7 +7,7 @@ section: 3
 section_title: Convolution des mesures sur les groupes
 lang: fr
 source: int-vii-viii-fr
-pdf_pages: 0139-0147, 0191-0205
+pdf_pages: 0139-0147, 0191-0195
 extraction: ocr
 subsections:
     - "no": 1
@@ -23,7 +23,7 @@ subsections:
       page: 0
       pdf_page: 144
 statements: 17
-exercises: 28
+exercises: 13
 content_sha256: efc67622d60dde2e3802e9a9d9ac1274c0f02e798cbe9657be03362fb3fcc9dd
 ---
 

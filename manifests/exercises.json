@@ -1681,7 +1681,7 @@
         {
           "chapter": "V",
           "title": "HILBERTIAN SPACES (ELEMENTARY THEORY)",
-          "total": 68,
+          "total": 70,
           "sections": [
             {
               "section": 1,
@@ -1706,10 +1706,18 @@
               "section": 3,
               "label": "evt-v-s3",
               "dir": "s3",
+              "count": 2,
+              "first": 1,
+              "last": 2
+            },
+            {
+              "section": 4,
+              "label": "evt-v-s4",
+              "dir": "s4",
               "count": 15,
               "first": 1,
               "last": 15,
-              "starred": 5
+              "starred": 6
             }
           ]
         }
@@ -7588,16 +7596,42 @@
         {
           "chapter": "VIII",
           "title": "Convolution et représentations",
-          "total": 34,
+          "total": 59,
           "sections": [
+            {
+              "section": 1,
+              "label": "int-viii-s1",
+              "dir": "s1",
+              "count": 2,
+              "first": 1,
+              "last": 2
+            },
+            {
+              "section": 2,
+              "label": "int-viii-s2",
+              "dir": "s2",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 1
+            },
             {
               "section": 3,
               "label": "int-viii-s3",
               "dir": "s3",
+              "count": 13,
+              "first": 1,
+              "last": 13,
+              "starred": 1
+            },
+            {
+              "section": 4,
+              "label": "int-viii-s4",
+              "dir": "s4",
               "count": 28,
               "first": 1,
               "last": 28,
-              "starred": 10
+              "starred": 14
             },
             {
               "section": 5,

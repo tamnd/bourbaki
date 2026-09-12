@@ -7,7 +7,7 @@ section: 2
 section_title: Représentations linéaires des groupes
 lang: fr
 source: int-vii-viii-fr
-pdf_pages: 0127-0139
+pdf_pages: 0127-0139, 0189-0191
 extraction: ocr
 subsections:
     - "no": 1
@@ -39,8 +39,8 @@ subsections:
       page: 0
       pdf_page: 136
 statements: 22
-exercises: 0
-content_sha256: ce35b7e4035bc5840e4a8f5761611768f6f8557690bf5fbbd1fd292fa246252f
+exercises: 10
+content_sha256: 38e9bbf73fd018b795ddce94b4335ebc194528823363e779d98fafa7adcfd31c
 ---
 
 ## § 2. Représentations linéaires des groupes.
@@ -380,3 +380,7 @@ Soient G un groupe localement compact, E un espace localement convexe quasi-comp
 (ii) Soit F un sous-espace vectoriel fermé de E. Si F est stable pour U, on a $U(\mu)(F) \subset F$ pour toute $\mu \in \mathscr{C}'(G)$. Réciproquement, si $U(f \cdot \beta)(F) \subset F$ pour toute $f \in \mathscr{K}(G)$, F est stable pour U.
 
 La première partie de (ii) est immédiate puisque les restrictions des $U(s)$ à $F$ ($s \in G$) définissent une représentation linéaire continue de $G$ dans l’espace localement convexe quasi-complet $F$. La deuxième partie de (ii), et (i), résultent du cor. 3 du lemme 4.
+
+## EXERCICES {#int-viii-s2-exercises}
+
+See the [exercises for § 2](exercises/s2/).

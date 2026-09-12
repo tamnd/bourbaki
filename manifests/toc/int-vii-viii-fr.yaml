@@ -173,6 +173,9 @@ chapters:
               title: Expression vectorielle du produit de convolution
               page: 127
               pdf_page: 126
+          exercises:
+            page: 190
+            pdf_page: 189
         - section: 2
           title: Représentations linéaires des groupes
           page: 128
@@ -206,6 +209,9 @@ chapters:
               title: Relations entre les endomorphismes $U(\mu)$ et les endomorphismes $U(s)$
               page: 137
               pdf_page: 136
+          exercises:
+            page: 190
+            pdf_page: 189
         - section: 3
           title: Convolution des mesures sur les groupes
           page: 140
@@ -259,6 +265,9 @@ chapters:
               title: Régularisation
               page: 171
               pdf_page: 170
+          exercises:
+            page: 196
+            pdf_page: 195
         - section: 5
           title: L’espace des sous-groupes fermés
           page: 174

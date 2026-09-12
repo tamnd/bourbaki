@@ -7,7 +7,7 @@ section: 1
 section_title: Convolution
 lang: fr
 source: int-vii-viii-fr
-pdf_pages: 0119-0127
+pdf_pages: 0119-0127, 0189-0189
 extraction: ocr
 subsections:
     - "no": 1
@@ -31,8 +31,8 @@ subsections:
       page: 0
       pdf_page: 126
 statements: 15
-exercises: 0
-content_sha256: a7690dbc858b8b15547310189815cd83712f8e1eeaea0b6c823457b420303ee9
+exercises: 2
+content_sha256: b4cdf8a088322841f83362ae95971aa284ca0e966cb9f423376a6d3d334e6531
 ---
 
 ## § 1. Convolution.
@@ -270,3 +270,7 @@ $$
 $$
 
 Donc $f \circ \varphi$ est $(\lambda \otimes \mu)$-intégrable, de sorte que $\lambda$ et $\mu$ sont $\varphi$-convolables.
+
+## EXERCICES {#int-viii-s1-exercises}
+
+See the [exercises for § 1](exercises/s1/).

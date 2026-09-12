@@ -401,11 +401,11 @@ chapters:
           path: content/en/evt/V/03_s3_tensor_product_of_hilbertian_spaces.md
           label: evt-v-s3
           first_pdf_page: 283
-          last_pdf_page: 337
-          book_pages: TVS V.25-TVS V.37, TVS V.73-TVS V.79
+          last_pdf_page: 332
+          book_pages: TVS V.25-TVS V.37, TVS V.73-TVS V.74
           subsections: 5
           statements: 20
-          exercises: 15
+          exercises: 2
           extraction: ocr
           content_sha256: ec12874139d34e331504d1202b3746122078b9b1611a614396c989b521599f4c
         - kind: section
@@ -414,12 +414,13 @@ chapters:
           path: content/en/evt/V/04_s4_some_classes_of_operators_in_hilbertian.md
           label: evt-v-s4
           first_pdf_page: 295
-          last_pdf_page: 318
+          last_pdf_page: 337
+          book_pages: TVS V.74-TVS V.79
           subsections: 9
           statements: 49
-          exercises: 0
+          exercises: 15
           extraction: ocr
-          content_sha256: 6ccac416ae058c1541d16df9124e7a82b2e9d78429806798ef307a9279f3a68f
+          content_sha256: ee802e365ad6ff3bd27880d86221ecb95c8b583929a8c55a0899358aecf40c22
         - kind: historical
           title: Historical Note
           path: content/en/evt/V/historical_note.md

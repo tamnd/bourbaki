@@ -7,8 +7,8 @@ section: 3
 section_title: Tensor product of hilbertian spaces
 lang: en
 source: evt-i-v
-book_pages: TVS V.25-TVS V.37, TVS V.73-TVS V.79
-pdf_pages: 0283-0295, 0331-0337
+book_pages: TVS V.25-TVS V.37, TVS V.73-TVS V.74
+pdf_pages: 0283-0295, 0331-0332
 extraction: ocr
 subsections:
     - "no": 1
@@ -32,7 +32,7 @@ subsections:
       page: 35
       pdf_page: 293
 statements: 20
-exercises: 15
+exercises: 2
 content_sha256: ec12874139d34e331504d1202b3746122078b9b1611a614396c989b521599f4c
 ---
 

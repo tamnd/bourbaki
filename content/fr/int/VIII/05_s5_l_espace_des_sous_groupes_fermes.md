@@ -7,7 +7,7 @@ section: 5
 section_title: L’espace des sous-groupes fermés
 lang: fr
 source: int-vii-viii-fr
-pdf_pages: 0173-0191, 0205-0206
+pdf_pages: 0173-0188, 0205-0206
 extraction: ocr
 subsections:
     - "no": 1
@@ -36,7 +36,7 @@ subsections:
       pdf_page: 187
 statements: 20
 exercises: 6
-content_sha256: 48df3c6461e214c8133695e15c2026050f16c24d60ff952eb261dcf004b40a22
+content_sha256: 07508ef75d3b43c6dbeb1fbf97e0fba84cec2d656d0ac9357378c5c64dd9dfa2
 ---
 
 ## § 5. L’espace des sous-groupes fermés.
@@ -381,81 +381,6 @@ d’autre part on a $Y \cap VK \subset VZ$, d’où $X \cap K \subset V^2Z$ et o
 Cela étant, considérons sur l’ensemble $\Sigma$ des sous-groupes fermés de $G$ la topologie $\mathscr{T}$ induite par la topologie de l’espace uniforme $\mathfrak{F}$ que nous venons de définir. Nous allons voir que cette topologie est identique à la topologie définie au no 3. Il suffira de prouver que l’application $\alpha \to H_\alpha$ de $\Gamma$ dans $\Sigma$, quand on munit $\Sigma$ de la topologie $\mathscr{T}$, est continue : en effet, il en sera de même de la restriction de cette application à $\Gamma_\varphi$ (avec les notations du no 1, prop. 2) qui est bijective ; mais comme $\Gamma_\varphi$ est compact et la topologie $\mathscr{T}$ séparée, l’application $\alpha \to H_\alpha$ de $\Gamma_\varphi$ dans $\Sigma$ sera alors un homéomorphisme.
 
 Soient donc $\alpha_0$ un point de $\Gamma$ et $\Phi$ un filtre sur $\Gamma$ qui converge vers $\alpha_0$ ; il s’agit de montrer que, suivant $\Phi$, $H_\alpha$ tend vers $H_{\alpha_0}$ pour la topologie $\mathscr{T}$. Soient $K$ une partie compacte de $G$, $V$ un voisinage compact symétrique de $e$ dans $G$ ; pour tout $x \in H_{\alpha_0} \cap K$, il existe un ensemble $M(x) \in \Phi$ tel que pour toute $\alpha \in M(x)$, on ait $Vx \cap H_\alpha \neq \emptyset$ (no 1, lemme 2), d’où $Vx \subset V^2H_\alpha$ ; recouvrant $H_{\alpha_0} \cap K$ par un nombre fini d’ensembles $Vx_i$, on voit que si $M = \bigcap_i M(x_i)$, on a $H_{\alpha_0} \cap K \subset V^2H_\alpha$ pour toute $\alpha \in M$. Inversement, supposons qu’il y ait un voisinage ouvert $U$ de $e$ dans $G$, tel que pour tout ensemble $L \in \Phi$, il y ait au moins un $\alpha \in L$ pour lequel $H_\alpha \cap K \not\subset UH_{\alpha_0}$ ; si $\omega(L)$ est l’ensemble des $\alpha \in L$ ayant cette propriété, les $\omega(L)$ formeraient la base d’un filtre $\Phi'$ plus fin que $\Phi$ sur $\Gamma$ et, pour toute $\alpha$ appartenant à la réunion $E$ des $\omega(L)$ pour $L \in \Phi$, il existerait un $t_\alpha \in H_\alpha \cap K$ n’appartenant pas à $UH_{\alpha_0}$ ; pour $\alpha \notin E$, on prend pour $t_\alpha$ un point quelconque de $H_\alpha$. Comme $K \cap C(UH_{\alpha_0})$ est compact, il existerait une valeur d’adhérence $s$ de $\alpha \to t_\alpha$ suivant $\Phi'$, appartenant à $K \cap C(UH_{\alpha_0})$ ; mais comme $\Phi'$ converge vers $\alpha_0$ dans $\Gamma$, cela contredit le lemme 3 du no 1.
-
-§ 1
-
-1) Soit $\Gamma$ un cône convexe fermé saillant dans $\mathbf{R}^n$. Montrer que l’application $(x, y) \to x + y$ de $\Gamma \times \Gamma$ dans $\Gamma$ est propre. En déduire que deux mesures sur $\Gamma$ sont toujours convolables pour l’application $(x, y) \to x + y$.
-
-2) Soient $G$ un groupe localement compact et $\Gamma$ l’espace compact obtenu par adjonction à $G$ d’un point à l’infini $\omega$. On prolonge la loi de composition de $G$ à $\Gamma$ en posant $x \omega = \omega x = \omega$ pour tout $x \in \Gamma$. À toute mesure $\mu$ sur $\Gamma$ correspond, d’une part une mesure bornée $\mu_1$ sur $G$, d’autre part le nombre complexe $\mu(\{\omega\})$. Montrer que, si on désigne par $*$ (resp. $\widehat{*}$) la convolution définie par la multiplication dans $G$ (resp. $\Gamma$), on a $(\mu \widehat{*} \nu)_1 = \mu_1 * \nu_1$ et
-$$
-(\mu \widehat{*} \nu)(\omega) = \mu(\omega)\nu_1(G) + \nu(\omega)\mu_1(G) + \mu(\omega)\nu(\omega)
-$$
-quelles que soient les mesures $\mu$ et $\nu$ sur $\Gamma$.
-
-§ 2
-
-1) Soit $(G_t)_{t \in I}$ une famille de groupes localement compacts, tous compacts sauf un nombre fini. Soit $U_t$ une représentation linéaire continue de $G_t$ dans un espace localement convexe $E_t$. Pour tout $s = (s_t) \in G = \prod_t G_t$, soit $U(s)$ l’endomorphisme $(x_t) \to (U_t(s)x_t)$ de $E = \prod_t E_t$. Montrer que $U$ est une représentation linéaire continue de $G$ dans $E$. Soit $E'$ la somme directe topologique des $E_t$. Soit $V(s)$ la restriction de $U(s)$ à $E'$. Montrer que $V$ est une représentation linéaire continue de $G$ dans $E'$.
-
-2) Soit $U_1$ (resp. $U_2$) une représentation linéaire continue d’un groupe localement compact $G$ (resp. $H$) dans un espace localement convexe $E$ (resp. $F$). Pour $u \in \mathscr{L}(E; F)$, $x \in G$, $y \in H$, posons
-$$
-V(x, y).u = U_2(y) \circ u \circ U_1(x).
-$$
-
-Montrer que l’application $(x, y) \to V(x, y)$ est une représentation linéaire continue du groupe $G^0 \times H$ dans l’espace $\mathscr{L}(E; F)$ muni de la topologie de la convergence compacte. (Utiliser la prop. 9 d’Esp. vect. top., chap. III, § 4, n° 4, et le fait que, pour K compact dans G, $U_1(K)$ est équicontinu).
-
-¶ 3) Soient G un groupe localement compact, U une représentation linéaire continue de G dans un espace localement convexe E, $E'$ le dual de E muni de la topologie forte.
-
-a) Montrer que, pour toute partie compacte K de G, $t'U(K)$ est équicontinu.
-
-b) Soit F l’ensemble des $a' \in E'$ tels que l’application $s \to t'U(s)a'$ de G dans $E'$ soit continue. Montrer que F est un sous-espace vectoriel fermé de $E'$ stable pour $t'U(G)$ et que la représentation déduite par restriction à F de la représentation contragrédiente de U est continue.
-
-c) On suppose E quasi-complet. Soit $\alpha$ une mesure de Haar à gauche sur G. Montrer que $f \to U(f.\alpha)$ est une application continue de $\mathscr{K}(G)$ dans $\mathscr{L}(E; E)$ muni de la topologie de la convergence bornée. (Utiliser la prop. 17 du chap. VI, § 1, n° 7). Montrer que F est faiblement dense dans $E'$. (Prouver que $t'U(f)a' \in F$ pour tout $a' \in E'$ et toute $f \in \mathscr{K}(G)$, puis utiliser le cor. 3 du lemme 4). En déduire que, si E est semi-réflexif, la représentation contragrédiente de U dans $E'$ muni de la topologie forte est continue.
-
-d) Montrer que si on prend pour U la représentation régulière gauche de G dans $L^1(G, \alpha)$ ($\alpha$ étant toujours une mesure de Haar à gauche de G), F est le sous-espace de $E' = L^\infty(G, \alpha)$ formé des fonctions uniformément continues.
-
-4) Soit H un espace hilbertien. Une représentation continue U de G dans H est dite unitaire si les endomorphismes $U(s)$ sont unitaires pour tout $s \in G$. Pour toute $\mu \in \mathscr{M}(G)$, soit $\mu^*$ la mesure conjuguée de $\tilde{\mu}$. Montrer que, si $\mu \in \mathscr{M}^1(G)$, on a $U(\mu^*) = U(\mu)^*$.
-
-5) Soient G un groupe localement compact, H un sous-groupe fermé de G, U une représentation linéaire continue de H dans un espace localement convexe E. Soit K une partie compacte de G. Soit $\mathscr{K}^U(K)$ l’espace des fonctions continues sur G, à valeurs dans E, à support contenu dans KH, et satisfaisant à $f(xh) = U(h)^{-1}f(x)$ ($x \in G,\ h \in H$). Soit $\mathscr{K}^U$ la réunion des $\mathscr{K}^U(K)$, muni de la topologie limite inductive des topologies de la convergence uniforme dans K sur chacun des espaces $\mathscr{K}^U(K)$. Pour $f \in \mathscr{K}^U$ et $s \in G$, on définit $V(s)f \in \mathscr{K}^U$ par
-
-$$(V(s)f)(t) = f(s^{-1}t).$$
-
-Montrer que V est une représentation linéaire continue de G dans $\mathscr{K}^U$.
-
-6) Soient G un groupe localement compact, $\beta$ une mesure positive non nulle relativement invariante sur G, $\chi$ et $\chi'$ ses multiplicateurs à gauche et à droite. Pour $f \in L^p_\mathfrak{g}(G, \beta)$ et $s \in G$, on pose
-
-$$
-(U(s)f)(x) = \chi(s)^{-1/p}f(s^{-1}x)
-$$
-$$
-(V(s)f)(x) = \chi'(s)^{-1/p}f(xs)
-$$
-$$
-(Sf)(x) = (\chi\chi')(x)^{-1/p}\overline{f(x^{-1})}.
-$$
-
-Alors U et V sont des représentations linéaires de G, et l’on a
-
-S^2 = 1,\ \|U(s)\| = \|V(s)\| = 1,\ U(s)V(t) = V(t)U(s),\ SU(s)S = V(s)
-quels que soient s, t dans G.
-
-7) Soit E un espace hilbertien ayant une base orthonormale $(e_s)_{s \in \mathbf{R}}$ équipotente à $\mathbf{R}$. Pour tout $s \in \mathbf{R}$, on désigne par $U(s)$ l’isométrie de E telle que $U(s).e_t = e_{s+t}$ pour tout $t \in \mathbf{R}$; la représentation linéaire $s \to U(s)$ de $\mathbf{R}$ dans E n’est pas continue, bien que l’ensemble des $U(s)$ soit équi-continu.
-
-8) Soient G un groupe commutatif localement compact, $\mu$ une mesure de Haar sur G, $f$ une fonction numérique finie et $\mu$-mesurable dans G. On suppose que, pour tout $s \in G$, la fonction numérique
-$$
-x \to f(sx) - f(x)
-$$
-soit continue dans G. Montrer que $f$ est alors continue. (Raisonner par l’absurde; supposant la fonction $f$ non continue en un point $x_0 \in G$, montrer d’abord qu’il existe sur G un filtre $\mathfrak{F}$ de limite $e$ tel que
-$$
-\lim_{\mathfrak{F}, s} |f(sx_0)| = +\infty,
-$$
-et en déduire que pour tout $x \in G$, on a aussi $\lim_{\mathfrak{F}, s} |f(sx)| = +\infty$. Si $g = |f|/(1 + |f|)$, déduire du dernier résultat une contradiction avec le fait que pour tout compact $K \subset G$, on a
-$$
-\lim_{\mathfrak{F}, s} \int_K |g(sx) - g(x)| d\mu(x) = 0.)
-$$
-
-9) Soient G un groupe localement compact, $\mu$ une mesure de Haar à gauche sur G, $f$ une fonction $\mu$-intégrable. Soit $\mathscr{B}$ une base de filtre formée d’ensembles $\mu$-intégrables de mesure >0, ayant pour limite $e$. Pour tout $B \in \mathscr{B}$, on pose $f_B(t) = \frac{1}{\mu(B)} \int_B f(st) d\mu(s)$. Montrer que pour toute partie intégrable A de G, on a $\lim_{\mathscr{B}} \int_A f_B(t) d\mu(t) = \int_A f(t) d\mu(t)$.
-
-10) Soient G un groupe localement compact, E un espace localement convexe séparé, E’ son dual, $U$ une représentation linéaire de G dans E, continue pour la topologie affaiblie $\sigma(E, E')$ sur E. On suppose E quasi-complet pour $\sigma(E, E')$, de sorte que $U(\mu)$ est défini pour toute mesure $\mu \in \mathscr{C}'(G)$. Montrer que l’application bilinéaire $(\mu, x) \to U(\mu).x$ est hypocontinue relativement aux parties équicontinues de $\mathscr{C}'(G)$.
 
 ## EXERCICES {#int-viii-s5-exercises}
 

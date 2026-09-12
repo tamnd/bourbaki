@@ -7,7 +7,8 @@ section: 4
 section_title: Some classes of operators in hilbertian spaces
 lang: en
 source: evt-i-v
-pdf_pages: 0295-0318
+book_pages: TVS V.74-TVS V.79
+pdf_pages: 0295-0318, 0332-0337
 extraction: ocr
 subsections:
     - "no": 1
@@ -47,8 +48,8 @@ subsections:
       page: 57
       pdf_page: 315
 statements: 49
-exercises: 0
-content_sha256: 6ccac416ae058c1541d16df9124e7a82b2e9d78429806798ef307a9279f3a68f
+exercises: 15
+content_sha256: ee802e365ad6ff3bd27880d86221ecb95c8b583929a8c55a0899358aecf40c22
 ---
 
 ## § 4. SOME CLASSES OF OPERATORS IN HILBERTIAN SPACES
@@ -988,3 +989,7 @@ $$
 $$
 
 Exercises
+
+### Exercises {#evt-v-s4-exercises}
+
+See the [exercises for § 4](exercises/s4/).
