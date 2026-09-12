@@ -182,7 +182,7 @@ chapters:
           statements: 68
           exercises: 31
           extraction: ocr
-          content_sha256: 20ae687824a07e9f80c0e143ec71d9f9859a5c5e911212b2cdb8f7851b1054d2
+          content_sha256: 8c639ea9c1ac7514ead37d3d9c867cb85ae94a3984bb927941e076605c014a81
         - kind: section
           section: 3
           title: Topologies m-adiques sur les anneaux nœthériens

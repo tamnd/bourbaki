@@ -64,7 +64,7 @@ subsections:
       pdf_page: 228
 statements: 68
 exercises: 31
-content_sha256: 20ae687824a07e9f80c0e143ec71d9f9859a5c5e911212b2cdb8f7851b1054d2
+content_sha256: 8c639ea9c1ac7514ead37d3d9c867cb85ae94a3984bb927941e076605c014a81
 ---
 
 ## § 2. Généralités sur les anneaux et modules filtrés.
@@ -341,7 +341,7 @@ Le groupe séparé associé à G étant $H = G / (\bigcap_{n \in \mathbf{Z}} G_n
 
 Soient maintenant $G'$ un second groupe filtré, $u : G \to G'$ un homomorphisme compatible avec les filtrations ; la définition des topologies sur G et $G'$ montre aussitôt que $u$ est continu (*). Si H est un sous-groupe (resp. un sous-groupe distingué) de G, la topologie induite sur H par celle de G (resp. la topologie quotient par H de celle de G) est la topologie sur H (resp. G/H) définie par la filtration induite par celle de G (resp. quotient de celle de G). La topologie produit de celles de G et $G'$ est la topologie définie par le produit des filtrations de G et de $G'$.
 
-Soit $\nu$ la fonction d’ordre (n° 2) de G. L’hypothèse sur les $G_n$ entraîne que $\nu(x y x^{-1}) = \nu(y)$, donc $\nu(x y^{-1}) = \nu(y x^{-1}) = \nu(x^{-1} y) = \nu(y^{-1} x)$ quels que soient x, y dans G. Soit $\rho$ un nombre réel tel que $0 < \rho < 1$ (on peut par exemple prendre $\rho = 1/e$) et posons $d(x, y) = \rho^{\nu(xy^{-1})}$ pour x, y dans G. On a $d(x, x) = 0$, $d(x, y) = d(y, x)$ et l’inégalité (5’) du n° 2 donne
+Soit $v$ la fonction d’ordre (n° 2) de G. L’hypothèse sur les $G_n$ entraîne que $v(x y x^{-1}) = v(y)$, donc $v(x y^{-1}) = v(y x^{-1}) = v(x^{-1} y) = v(y^{-1} x)$ quels que soient x, y dans G. Soit $\rho$ un nombre réel tel que $0 < \rho < 1$ (on peut par exemple prendre $\rho = 1/e$) et posons $d(x, y) = \rho^{v(xy^{-1})}$ pour x, y dans G. On a $d(x, x) = 0$, $d(x, y) = d(y, x)$ et l’inégalité (5’) du n° 2 donne
 
 $$
 d(x, y) \leq \sup (d(x, z), d(y, z))
@@ -911,7 +911,7 @@ On a $m_i \cap S = \varnothing$ pour $1 \leq i \leq q$, donc l’idéal $m'_i = 
 $$
 rB = m'_1 \cap m'_2 \cap \ldots \cap m'_q
 $$
-(chap. II, § 2, n° 4); enfin, on a $B_{m'_i} = A_{m_i}$ à un isomorphisme canonique près (chap. II, § 2, n° 5, prop. 11). Comme $\bar{u}^1(rB) = r$ et $\bar{\nu}_i(m_i A_{m_i}) \supset rB$, $u$ et $\nu$ sont continus. Il suffit donc de prouver que si $\omega = \nu \circ u : A \to \prod_{i=1}^q A_{m_i}$, $\hat{\omega}$ est un isomorphisme de $\hat{A}$ sur $\prod_{i=1}^q \hat{A}_{m_i}$, car ce résultat appliqué à $B$ et aux $m'_i$ montrera que $\hat{\nu}$ est un isomorphisme, et par suite aussi $\hat{u}$. Notons que tout produit de puissances des $m_i$ contient une puissance de $r$, donc la topologie $r$-adique est la borne supérieure des topologies $m_i$-adiques; en outre, si $A_t$ désigne l’anneau $A$ muni de la topologie $m_t$-adique, et $\varphi : A \to \prod_{i=1}^q A_i$ l’application diagonale, $\hat{\varphi} : \hat{A} \to \prod_{i=1}^q \hat{A}_i$ est un isomorphisme (prop. 17). Tout revient donc à prouver que si $u_t : A_t \to A_{m_i}$ est l’application canonique, $\hat{u}_t : \hat{A}_t \to \hat{A}_{m_i}$ est un isomorphisme. Or, pour tout $n$, l’application
+(chap. II, § 2, n° 4); enfin, on a $B_{m'_i} = A_{m_i}$ à un isomorphisme canonique près (chap. II, § 2, n° 5, prop. 11). Comme $\bar{u}^1(rB) = r$ et $\bar{v}_i(m_i A_{m_i}) \supset rB$, $u$ et $v$ sont continus. Il suffit donc de prouver que si $w = v \circ u : A \to \prod_{i=1}^q A_{m_i}$, $\hat{w}$ est un isomorphisme de $\hat{A}$ sur $\prod_{i=1}^q \hat{A}_{m_i}$, car ce résultat appliqué à $B$ et aux $m'_i$ montrera que $\hat{v}$ est un isomorphisme, et par suite aussi $\hat{u}$. Notons que tout produit de puissances des $m_i$ contient une puissance de $r$, donc la topologie $r$-adique est la borne supérieure des topologies $m_i$-adiques; en outre, si $A_t$ désigne l’anneau $A$ muni de la topologie $m_t$-adique, et $\varphi : A \to \prod_{i=1}^q A_i$ l’application diagonale, $\hat{\varphi} : \hat{A} \to \prod_{i=1}^q \hat{A}_i$ est un isomorphisme (prop. 17). Tout revient donc à prouver que si $u_t : A_t \to A_{m_i}$ est l’application canonique, $\hat{u}_t : \hat{A}_t \to \hat{A}_{m_i}$ est un isomorphisme. Or, pour tout $n$, l’application
 $$
 u_{i,n} : A/m_i^n \to A_{m_i}/m_i^n A_{m_i}
 $$
