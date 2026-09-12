@@ -72,9 +72,9 @@ Cho I là một tập hợp. Ta nhắc lại (III, p. 454 and 456) rằng đại
 
 Khi I là một tập hợp hữu hạn gồm p phần tử, ta cũng nói rằng $A[[I]]$ là một đại số chuỗi lũy thừa hình thức theo p bất định. Với p cố định, các đại số này đều đẳng cấu. Một đại số chuỗi lũy thừa hình thức theo 1, 2, ... bất định cũng sẽ được ký hiệu bởi $A[[X]]$, $A[[U, V]]$, ..., khi tập hợp I các chỉ số không được chỉ rõ.
 
-Theo quy ước, một chuỗi lũy thừa hình thức u được viết $u = \sum_{v \in N^{(I)}} a_v X^v$ (xem IV, p. 1).
+Theo quy ước, một chuỗi lũy thừa hình thức u được viết $u = \sum_{\nu \in N^{(I)}} a_\nu X^\nu$ (xem IV, p. 1).
 
-Các $\alpha_v$ là *hệ số* của $u$; có thể có vô hạn nhiều hệ số trong số đó $\neq 0$. Các $a_v X^v$ được gọi là các *số hạng* của $u$; để u là một đa thức, điều kiện cần và đủ là $u$ chỉ có một số hữu hạn số hạng $\neq 0$. Các số hạng $a_v X^v$ sao cho |ν| = p được gọi là các số hạng có tổng bậc p. Chuỗi lũy thừa hình thức $u_p = \sum_{|\nu|=p} \alpha_\nu X^\nu$ được gọi là *thành phần thuần nhất bậc* p của u (nó là một đa thức khi I hữu hạn); $u_0$ được đồng nhất với một phần tử của A, cũng được gọi là *số hạng hằng* của u. Ta nói rằng u là thuần nhất bậc p nếu $u = u_p$. Nếu $u, v \in \mathbf{A}[[\mathrm{I}]]$ và $w = uv$, ta có
+Các $\alpha_\nu$ là *hệ số* của $u$; có thể có vô hạn nhiều hệ số trong số đó $\neq 0$. Các $a_\nu X^\nu$ được gọi là các *số hạng* của $u$; để u là một đa thức, điều kiện cần và đủ là $u$ chỉ có một số hữu hạn số hạng $\neq 0$. Các số hạng $a_\nu X^\nu$ sao cho |ν| = p được gọi là các số hạng có tổng bậc p. Chuỗi lũy thừa hình thức $u_p = \sum_{|\nu|=p} \alpha_\nu X^\nu$ được gọi là *thành phần thuần nhất bậc* p của u (nó là một đa thức khi I hữu hạn); $u_0$ được đồng nhất với một phần tử của A, cũng được gọi là *số hạng hằng* của u. Ta nói rằng u là thuần nhất bậc p nếu $u = u_p$. Nếu $u, v \in \mathbf{A}[[\mathrm{I}]]$ và $w = uv$, ta có
 
 (1)
 $$
@@ -106,23 +106,23 @@ Cho $\varphi$ là một đồng cấu của A vào một vành B. Ta mở rộng
 
 Theo định nghĩa, $\mathbf{A}[[\mathrm{I}]]$ không là gì khác ngoài tập hợp tích $\mathbf{A}^{N^{(I)}}$. Trừ khi có nói rõ ngược lại, ta sẽ trang bị cho A tôpô rời rạc và cho $\mathbf{A}[[\mathrm{I}]]$ tôpô tích (Gen. Top. I, p. 31 f.) mà ta sẽ gọi là tôpô chính tắc. Được trang bị phép cộng và tôpô rời rạc, $A$ là một nhóm tôpô tách biệt và đầy đủ; do đó đối với phép cộng, A[[I]] là một nhóm tôpô tách biệt và đầy đủ (Gen. Top., III, p. 238 và 242 và Gen. Top., II, p. 187). Hơn nữa đại số $A[(X_i)_{i \in I}]$ các đa thức là trù mật trong A[[I]] (Gen. Top., III p. 238, Prop, 25) và vì thế ta có thể coi A[[I]] như phép hoàn thành của $A[(X_i)_{i \in I}]$.
 
-Với mỗi $\beta \in \mathbf{N}^{(I)}$ ta ký hiệu $S_\beta$ là tập hợp các đa chỉ số $v$ sao cho $v \leq \beta$ và ký hiệu $a_\beta$ là tập hợp các chuỗi lũy thừa hình thức $u = \sum \alpha_v X^v$ sao cho $a_v = 0$ với $v \in S_\beta$. Rõ ràng $S_\beta$ là một tập con hữu hạn của $\mathbf{N}^{(I)}$, và mọi tập con hữu hạn của $\mathbf{N}^{(I)}$ đều được chứa trong một tập hợp dạng $S_\beta$. Suy ra họ $(a_\beta)_{\beta \in \mathbf{N}^{(I)}}$ là một hệ cơ bản các lân cận của 0 trong A[[I]]. Các tập hợp $a_\beta$ là các iđêan trong A[[I]], do đó (Gen. Top., III, p. 275) A[[I]] là một vành tôpô.
+Với mỗi $\beta \in \mathbf{N}^{(I)}$ ta ký hiệu $S_\beta$ là tập hợp các đa chỉ số $\nu$ sao cho $\nu \leq \beta$ và ký hiệu $a_\beta$ là tập hợp các chuỗi lũy thừa hình thức $u = \sum \alpha_\nu X^\nu$ sao cho $a_\nu = 0$ với $\nu \in S_\beta$. Rõ ràng $S_\beta$ là một tập con hữu hạn của $\mathbf{N}^{(I)}$, và mọi tập con hữu hạn của $\mathbf{N}^{(I)}$ đều được chứa trong một tập hợp dạng $S_\beta$. Suy ra họ $(a_\beta)_{\beta \in \mathbf{N}^{(I)}}$ là một hệ cơ bản các lân cận của 0 trong A[[I]]. Các tập hợp $a_\beta$ là các iđêan trong A[[I]], do đó (Gen. Top., III, p. 275) A[[I]] là một vành tôpô.
 
 #### Bổ đề 1 {#alg-iv-s4-lem-1 .statement}
 
 Cho $L$ là một tập vô hạn và $(u_\lambda)_{\lambda \in L}$ một họ các phần tử của $A[[I]]$, và đặt $u_\lambda = \sum \alpha_{\lambda,v} X^v$ với $\lambda \in L$. Khi đó các điều kiện sau là tương đương:
 (i) Họ $(u_\lambda)_{\lambda \in L}$ là khả tổng (Gen. Top., III, p. 262) trong $A[[I]]$.
 (ii) Ta có $\lim u_\lambda = 0$, lấy theo *bộ lọc* các phần bù của các tập con hữu hạn của $L$.
-(iii) Với mọi $v \in \mathbf{N}^{(I)}$ ta có $\alpha_{\lambda,v} = 0$ trừ ra chỉ với một số *hữu hạn* chỉ số $\lambda \in L$.
+(iii) Với mọi $\nu \in \mathbf{N}^{(I)}$ ta có $\alpha_{\lambda,\nu} = 0$ trừ ra chỉ với một số *hữu hạn* chỉ số $\lambda \in L$.
 
-Khi các điều kiện này được thỏa mãn, chuỗi $u = \sum_{\lambda \in L} u_\lambda$ bằng $\sum \alpha_v X^v$ với $a_v = \sum_{\lambda \in L} \alpha_{\lambda,v}$ với mỗi $v \in \mathbf{N}^{(I)}$.
+Khi các điều kiện này được thỏa mãn, chuỗi $u = \sum_{\lambda \in L} u_\lambda$ bằng $\sum \alpha_\nu X^\nu$ với $a_\nu = \sum_{\lambda \in L} \alpha_{\lambda,\nu}$ với mỗi $\nu \in \mathbf{N}^{(I)}$.
 
 Tính tương đương của (i) và (ii) suy ra từ Hệ quả 2 của Gen. Top., III, p. 263.
 Tính tương đương của (ii) và (iii) suy ra từ các tính chất của giới hạn trong một không gian tích (Gen. Top., I, p. 55, Cor. 1).
 Khẳng định cuối cùng suy ra từ Mệnh đề 4 của Gen. Top., III, p. 266.
 
 Hãy cho một vài ví dụ về các họ khả tổng.
-a) Cho $u \in A[[I]]$ và gọi $a_v$ là hệ số của $X^v$ trong $u$. Khi đó họ $(\alpha_v X^v)_{v \in \mathbf{N}^{(I)}}$ là khả tổng, với tổng bằng $u$ (điều này biện minh cho cách viết $u = \sum \alpha_v X^v$).
+a) Cho $u \in A[[I]]$ và gọi $a_\nu$ là hệ số của $X^\nu$ trong $u$. Khi đó họ $(\alpha_\nu X^\nu)_{\nu \in \mathbf{N}^{(I)}}$ là khả tổng, với tổng bằng $u$ (điều này biện minh cho cách viết $u = \sum \alpha_\nu X^\nu$).
 
 b) Cho $u \in A[[I]]$; với mỗi số nguyên $p \geq 0$ gọi $u_p$ là thành phần thuần nhất bậc $p$ của $u$. Khi đó họ $(u_p)_{p \geq 0}$ là khả tổng và ta có $u = \sum_{p \geq 0} u_p$.
 
@@ -166,13 +166,13 @@ Lấy theo tập hợp có thứ tự lọc $\mathfrak{T}$, vế trái có giớ
 
 *Cho* $u = \sum a_\nu X^\nu \in \mathbf{A}[[\mathbf{I}]]$ *và* $m$ *là một số nguyên* $> 0$. *Với mọi* $n \in \mathbf{N}$ *gọi* $(\alpha_{\nu, n})_{\nu \in \mathbf{N}^{(1)}}$ *là họ các hệ số của* $u^n$. *Nếu* $\alpha_0^m = 0$, *thì* $\alpha_{\nu, n} = 0$ *với* $n \geq |\nu| + m$.
 
-Cho $v \in \mathbf{N}^{(1)}$ và $n \in \mathbf{N}$. Ta có
+Cho $\nu \in \mathbf{N}^{(1)}$ và $n \in \mathbf{N}$. Ta có
 
 $$
-\alpha_{v,n} = \sum_{v(1) + \cdots + v(n) = v} \alpha_{v(1)} \cdots \alpha_{v(n)} .
+\alpha_{\nu,n} = \sum_{\nu(1) + \cdots + \nu(n) = \nu} \alpha_{\nu(1)} \cdots \alpha_{\nu(n)} .
 $$
 
-Nếu $n \geq |v| + m$ và $v(1) + \cdots + v(n) = v$, ta có $|v(1)| + \cdots + |v(n)| \leq n - m$. Vì thế có ít nhất $m$ giá trị phân biệt của $r$ sao cho $v(r) = 0$ và do đó $\alpha_{v(r)} = a_r$; suy ra $\alpha_{v(1)} \cdots \alpha_{v(n)} = 0$, do đó có kết quả.
+Nếu $n \geq |\nu| + m$ và $\nu(1) + \cdots + \nu(n) = v$, ta có $|\nu(1)| + \cdots + |\nu(n)| \leq n - m$. Vì thế có ít nhất $m$ giá trị phân biệt của $r$ sao cho $v(r) = 0$ và do đó $\alpha_{v(r)} = a_r$; suy ra $\alpha_{\nu(1)} \cdots \alpha_{\nu(n)} = 0$, do đó có kết quả.
 
 #### Hệ quả {#alg-iv-s4-n2-cor-1 .statement}
 
@@ -264,36 +264,36 @@ Cho $K$ là một trường giao hoán và $\mathscr{O}$ là vành con của tr�
 
 ### 5. Công thức Taylor cho chuỗi lũy thừa hình thức
 
-Cho $X = (X_i)_{i \in I}$ và $Y = (Y_i)_{i \in I}$ là hai họ bất định đối với cùng tập hợp chỉ số I. Ta ký hiệu bởi $X + Y$ họ $(X_i + Y_i)_{i \in I}$, gồm các chuỗi lũy thừa hình thức trong $A[[X, Y]]$. Hiển nhiên là ta có thể thế $X_i + Y_i$ cho $X_i$ trong một chuỗi lũy thừa hình thức $u \in A[[X]]$, và kết quả được viết là $u(X + Y)$. Với mỗi $v \in \mathbf{N}^{(I)}$ ta ký hiệu bởi $\Delta^v u$ hệ số của $Y^v$ trong chuỗi lũy thừa hình thức $u(X + Y)$ khi được xét như thuộc $A[[X]][[Y]]$ (III, p. 456). Nói cách khác, ta có
+Cho $X = (X_i)_{i \in I}$ và $Y = (Y_i)_{i \in I}$ là hai họ bất định đối với cùng tập hợp chỉ số I. Ta ký hiệu bởi $X + Y$ họ $(X_i + Y_i)_{i \in I}$, gồm các chuỗi lũy thừa hình thức trong $A[[X, Y]]$. Hiển nhiên là ta có thể thế $X_i + Y_i$ cho $X_i$ trong một chuỗi lũy thừa hình thức $u \in A[[X]]$, và kết quả được viết là $u(X + Y)$. Với mỗi $\nu \in \mathbf{N}^{(I)}$ ta ký hiệu bởi $\Delta^\nu u$ hệ số của $Y^\nu$ trong chuỗi lũy thừa hình thức $u(X + Y)$ khi được xét như thuộc $A[[X]][[Y]]$ (III, p. 456). Nói cách khác, ta có
 
 $$
-u(X + Y) = \sum_v \Delta^v u(X) \cdot Y^v \quad (u \in A[[X]]) .
+u(X + Y) = \sum_\nu \Delta^\nu u(X) \cdot Y^\nu \quad (u \in A[[X]]) .
 $$
 
 Thế $(0, X)$ cho $(X, Y)$, ta được
 
 $$
-u(X) = \sum_v \Delta^v u(0) \cdot X^v ;
+u(X) = \sum_\nu \Delta^\nu u(0) \cdot X^\nu ;
 $$
 
-Nói cách khác, số hạng hằng của $\Delta^v u$ là hệ số của $X^v$ trong $u$. Vì ánh xạ $u \mapsto u(X + Y)$ từ $A[[X]]$ vào $A[[X, Y]]$ là liên tục, nên các ánh xạ $u \mapsto \Delta^v u$ từ $A[[X]]$ vào chính nó cũng liên tục.
+Nói cách khác, số hạng hằng của $\Delta^\nu u$ là hệ số của $X^\nu$ trong $u$. Vì ánh xạ $u \mapsto u(X + Y)$ từ $A[[X]]$ vào $A[[X, Y]]$ là liên tục, nên các ánh xạ $u \mapsto \Delta^\nu u$ từ $A[[X]]$ vào chính nó cũng liên tục.
 
 Như trong trường hợp các đa thức (IV, p. 7), ta có thể chứng minh các công thức
 
 $$
-\Delta^\sigma(uv) = \sum_{v+\rho=\sigma} \Delta^v(u) \Delta^\rho(v) ,
+\Delta^\sigma(uv) = \sum_{v+\rho=\sigma} \Delta^\nu(u) \Delta^\rho(v) ,
 $$
 $$
 \Delta^\rho \Delta^\sigma u = \frac{(\rho + \sigma)!}{\rho! \; \sigma!} \Delta^{\rho + \sigma} u .
 $$
 
-Công thức nhị thức (I, p. 99, Hệ quả 2) cho giá trị sau đây của $\Delta^v u$ khi $u = \sum_\lambda \alpha_\lambda X^\lambda$
+Công thức nhị thức (I, p. 99, Hệ quả 2) cho giá trị sau đây của $\Delta^\nu u$ khi $u = \sum_\lambda \alpha_\lambda X^\lambda$
 
 $$
-\Delta^v u = \sum_\lambda \alpha_{\lambda + v} \frac{(\lambda + v)!}{\lambda! \; v!} X^\lambda .
+\Delta^\nu u = \sum_\lambda \alpha_{\lambda + \nu} \frac{(\lambda + \nu)!}{\lambda! \; \nu!} X^\lambda .
 $$
 
-Xét riêng trường hợp $v = \epsilon_i$, nghĩa là $v_i = 1, v_j = 0$ với $j \neq i$. Ta sẽ đặt $D_i u = \Delta^{\epsilon_i} u$; nói cách khác, $D_i u$ là hệ số của $Y_i$ trong $u(X + Y)$. Bởi (10) do đó ta có
+Xét riêng trường hợp $\nu = \epsilon_i$, nghĩa là $\nu_i = 1, \nu_j = 0$ với $j \neq i$. Ta sẽ đặt $D_i u = \Delta^{\epsilon_i} u$; nói cách khác, $D_i u$ là hệ số của $Y_i$ trong $u(X + Y)$. Bởi (10) do đó ta có
 
 $$
 D_i u = \sum_\lambda (\lambda_i + 1) \alpha_{\lambda + \epsilon_i} X^\lambda ;
@@ -302,7 +302,7 @@ $$
 đặc biệt ta có $D_i(X_i) = 1$ và $D_i(X_j) = 0$ nếu $j \neq i$. Công thức (8) cho thấy rằng $D_i$ là một đạo hàm của $A[[X]]$, và từ (9) ta suy ra quan hệ
 
 $$
-D^v u = v! \; \Delta^v u
+D^\nu u = \nu! \; \Delta^\nu u
 $$
 
 như trong trường hợp các đa thức (IV, p. 8) (ta đặt $D^\nu = \prod_{i \in I} D_i^{\nu_i}$ với $\nu = (\nu_i)_{i \in I}$, trong $\mathbf{N}^{(I)}$). Khi A là một Q-đại số, các công thức (6), (7) và (12) kéo theo các « công thức Taylor »:

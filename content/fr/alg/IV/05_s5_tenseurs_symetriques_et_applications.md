@@ -57,7 +57,7 @@ subsections:
       pdf_page: 63
 statements: 42
 exercises: 16
-content_sha256: b8d6c38de70d3c3d8e06fcdc0dbab102e830e9f4bebdee7da5fb10710b3da8d5
+content_sha256: f05c2c47822b3daf1b79c1b994733e52c0a50c91b85c9779521cae4e99d2d9b9
 ---
 
 ## § 5. TENSEURS SYMÉTRIQUES ET APPLICATIONS POLYNOMIALES
@@ -322,16 +322,16 @@ Enfin, (v) résulte de la prop. 2, (ii), et de la prop. 2 de I, p. 95, appliqué
 
 #### Remarque 1 {#alg-iv-s5-n4-rem-1 .statement}
 
-Soit $(x_i)_{i \in I}$ une famille d’éléments de M. Pour tout $v \in \mathbf{N}^{(l)}$, posons
+Soit $(x_i)_{i \in I}$ une famille d’éléments de M. Pour tout $\nu \in \mathbf{N}^{(l)}$, posons
 
 $$
-x_v = \prod_{i \in I} \gamma_{v_i}(x_i) .
+x_\nu = \prod_{i \in I} \gamma_{\nu_i}(x_i) .
 $$
 
 Si $(\lambda_i) \in \mathbf{A}^{(l)}$ et si $p \in \mathbf{N}$, on a, d’après la prop. 3, (ii),
 
 $$
-\gamma_p \left( \sum_{i \in I} \lambda_i x_i \right) = \sum_{v \in \mathbf{N}^{(l)}, |v| = p} \lambda^v x_v .
+\gamma_p \left( \sum_{i \in I} \lambda_i x_i \right) = \sum_{\nu \in \mathbf{N}^{(l)}, |\nu| = p} \lambda^\nu x_\nu .
 $$
 
 #### Remarque 2 {#alg-iv-s5-n4-rem-2 .statement}
@@ -342,10 +342,10 @@ $$
 \rho^*(i) = \operatorname{Card} \rho^{-1}(i) .
 $$
 
-Pour que deux éléments $\rho_1, \rho_2$ de $\mathscr{M}$ vérifient $\rho_1^* = \rho_2^*$, il faut et il suffit qu’il existe $\sigma \in \mathfrak{S}_p$ tel que $\rho_2 = \rho_1 \circ \sigma$ (I, p. 90). D’après la prop. 3, (iii), on a, si $|v| = p$,
+Pour que deux éléments $\rho_1, \rho_2$ de $\mathscr{M}$ vérifient $\rho_1^* = \rho_2^*$, il faut et il suffit qu’il existe $\sigma \in \mathfrak{S}_p$ tel que $\rho_2 = \rho_1 \circ \sigma$ (I, p. 90). D’après la prop. 3, (iii), on a, si $|\nu| = p$,
 
 $$
-x_v = \sum_{\rho \in \mathscr{M}, \rho^* = v} x_{\rho(1)} \otimes x_{\rho(2)} \otimes \ldots \otimes x_{\rho(p)} .
+x_\nu = \sum_{\rho \in \mathscr{M}, \rho^* = \nu} x_{\rho(1)} \otimes x_{\rho(2)} \otimes \ldots \otimes x_{\rho(p)} .
 $$
 
 ### 5. Tenseurs symétriques sur un module libre
@@ -353,7 +353,7 @@ $$
 #### Proposition 4 {#alg-iv-s5-prop-4 .statement}
 
 Supposons $M$ libre, et soit $(e_i)_{i \in I}$ une base de $M$.
-(i) Pour $v \in \mathbf{N}^{(l)}$, soit $e_v = \prod_{i \in I} \gamma_{v_i}(e_i)$. Alors $(e_v)_{v \in \mathbf{N}^{(l)}}$ est une base du $\mathbf{A}$-module $\mathbf{TS}(M)$. En particulier, l’algèbre $\mathbf{TS}(M)$ est engendrée par la famille des éléments $\gamma_k(x)$ pour $k \in \mathbf{N}$ et $x \in M$.
+(i) Pour $\nu \in \mathbf{N}^{(l)}$, soit $e_\nu = \prod_{i \in I} \gamma_{\nu_i}(e_i)$. Alors $(e_\nu)_{\nu \in \mathbf{N}^{(l)}}$ est une base du $\mathbf{A}$-module $\mathbf{TS}(M)$. En particulier, l’algèbre $\mathbf{TS}(M)$ est engendrée par la famille des éléments $\gamma_k(x)$ pour $k \in \mathbf{N}$ et $x \in M$.
 (ii) Pour tout $p \in \mathbf{N}$, $\mathbf{TS}^p(M)$ est facteur direct dans le $\mathbf{A}$-module $\mathbf{T}^p(M)$.
 Utilisons les notations de la remarque 2 ci-dessus. La famille $(e_{\rho(1)} \otimes \ldots \otimes e_{\rho(p)})_{\rho \in \mathscr{M}}$ est une base de $\mathbf{T}^p(M)$. Alors la prop. 4 résulte de la formule (7) et du lemme suivant, appliqué avec $H = \mathfrak{S}_p$ et $U = \mathbf{T}^p(M)$ :
 
@@ -371,13 +371,13 @@ La réunion de l’ensemble des $u_\omega$ (pour $\omega \in \Omega$) et de $B'$
 
 Soient $M$ un $A$-module libre, $k$ un entier $\geqslant 0$, $P$ le sous-$A$-module de $TS^k(M)$ engendré par $\gamma_k(M)$. On suppose $A$ intègre et infini. Pour tout $z \in TS^k(M)$, il existe $\alpha \in A - \{0\}$ tel que $\alpha z \in P$.
 
-Soit $K$ le corps des fractions de $A$. Identifions $TS^k(M)$ à un sous-$A$-module du $K$-espace vectoriel $V = TS^k(M) \otimes_A K$ (prop. 4, et II, p. 116). Il s’agit de montrer que $\gamma_k(M)$ engendre ce $K$-espace vectoriel, c’est-à-dire que toute forme $K$-linéaire $f$ sur $V$ satisfaisant à $f(\gamma_k(M)) = 0$ est nulle. Soit $(e_i)_{i \in I}$ une base de $M$, et définissons les $e_v$ comme dans la prop. 4. Quel que soit $(\alpha_i) \in A^{(l)}$, on a, compte tenu de (6),
+Soit $K$ le corps des fractions de $A$. Identifions $TS^k(M)$ à un sous-$A$-module du $K$-espace vectoriel $V = TS^k(M) \otimes_A K$ (prop. 4, et II, p. 116). Il s’agit de montrer que $\gamma_k(M)$ engendre ce $K$-espace vectoriel, c’est-à-dire que toute forme $K$-linéaire $f$ sur $V$ satisfaisant à $f(\gamma_k(M)) = 0$ est nulle. Soit $(e_i)_{i \in I}$ une base de $M$, et définissons les $e_\nu$ comme dans la prop. 4. Quel que soit $(\alpha_i) \in A^{(l)}$, on a, compte tenu de (6),
 
 $$
-0 = f(\gamma_k(\sum_{i \in I} \alpha_i e_i)) = \sum_{v \in N^{(l)}, |v| = k} \alpha^v f(e_v).
+0 = f(\gamma_k(\sum_{i \in I} \alpha_i e_i)) = \sum_{\nu \in N^{(l)}, |\nu| = k} \alpha^\nu f(e_\nu).
 $$
 
-D’après le cor. 2 de IV, p. 17, on en déduit que $f(e_v) = 0$ pour tout $v \in N^{(l)}$, d’où $f = 0$.
+D’après le cor. 2 de IV, p. 17, on en déduit que $f(e_\nu) = 0$ pour tout $\nu \in N^{(l)}$, d’où $f = 0$.
 
 ### 6. Le foncteur $TS$
 
@@ -437,14 +437,14 @@ $$
 
 *Soit M un A-module somme directe d’une famille $(M_\lambda)_{\lambda \in L}$ de sous-modules. Si chaque $M_\lambda$ est un module libre, l’homomorphisme canonique de $\bigotimes_{\lambda \in L} TS(M_\lambda)$ dans $TS(M)$ est un isomorphisme.*
 
-Soit $(e_{i,\lambda})_{i \in I_\lambda}$ une base de $M_\lambda$. Pour $v \in \mathbf{N}^{(I_\lambda)}$, posons $e_{v,\lambda} = \prod_{i \in I_\lambda} \gamma_{v(i)}(e_{i,\lambda})$. Les $e_{v,\lambda}$, pour $v \in \mathbf{N}^{(I_\lambda)}$, forment une base de $TS(M_\lambda)$ (IV, p. 44, prop. 4, (i)) et $e_{0,\lambda}$ est élément unité de $TS(M_\lambda)$. Donc les éléments
+Soit $(e_{i,\lambda})_{i \in I_\lambda}$ une base de $M_\lambda$. Pour $\nu \in \mathbf{N}^{(I_\lambda)}$, posons $e_{\nu,\lambda} = \prod_{i \in I_\lambda} \gamma_{\nu(i)}(e_{i,\lambda})$. Les $e_{\nu,\lambda}$, pour $\nu \in \mathbf{N}^{(I_\lambda)}$, forment une base de $TS(M_\lambda)$ (IV, p. 44, prop. 4, (i)) et $e_{0,\lambda}$ est élément unité de $TS(M_\lambda)$. Donc les éléments
 
 (9)
 $$
-\bigotimes_{\lambda \in L} e_{v_\lambda,\lambda}
+\bigotimes_{\lambda \in L} e_{\nu_\lambda,\lambda}
 $$
 
-où $v_\lambda \in \mathbf{N}^{(I_\lambda)}$, et où $v_\lambda = 0$ sauf pour un nombre fini d’indices, forment une base de $\bigotimes_{\lambda} \mathbf{TS}(M_{\lambda})$. L’image de l’élément (9) par l’homomorphisme canonique de la proposition est $\prod_{\lambda \in L} e_{v_{\lambda}, \lambda}$. Si l’on désigne par $(e_i)_{i \in I}$ la réunion disjointe des familles $(e_{i, \lambda})_{i \in I_{\lambda}}$ les éléments ci-dessus ne sont autres que les $\prod_{i \in I} \gamma_{v(i)}(e_i)$ où $v \in \mathbf{N}^{(I)}$, et constituent donc une base de $\mathbf{TS}(M)$. Cela prouve la proposition.
+où $\nu_\lambda \in \mathbf{N}^{(I_\lambda)}$, et où $\nu_\lambda = 0$ sauf pour un nombre fini d’indices, forment une base de $\bigotimes_{\lambda} \mathbf{TS}(M_{\lambda})$. L’image de l’élément (9) par l’homomorphisme canonique de la proposition est $\prod_{\lambda \in L} e_{\nu_{\lambda}, \lambda}$. Si l’on désigne par $(e_i)_{i \in I}$ la réunion disjointe des familles $(e_{i, \lambda})_{i \in I_{\lambda}}$ les éléments ci-dessus ne sont autres que les $\prod_{i \in I} \gamma_{\nu(i)}(e_i)$ où $\nu \in \mathbf{N}^{(I)}$, et constituent donc une base de $\mathbf{TS}(M)$. Cela prouve la proposition.
 
 Dans les conditions de la prop. 6, l’isomorphisme réciproque $\mathbf{TS}(M) \to \bigotimes_{\lambda} \mathbf{TS}(M_{\lambda})$ est encore dit *canonique*. On identifie souvent $\mathbf{TS}(M)$ à $\bigotimes_{\lambda} \mathbf{TS}(M_{\lambda})$ grâce à cet isomorphisme. On prendra garde que, si $z \in \mathbf{TS}(M_{\lambda})$ et $z' \in \mathbf{TS}(M_{\mu})$ avec $\lambda \neq \mu$, l’élément de $\mathbf{TS}(M)$ qu’on est alors amené à noter $z \otimes z'$ n’est pas le produit tensoriel de $z$ et $z'$ dans $\mathbf{T}(M)$ mais le produit symétrique de $z$ et $z'$.
 
@@ -488,12 +488,12 @@ $$
 c(x) = x \otimes 1 + 1 \otimes x .
 $$
 
-Soit $(x_i)_{i \in I}$ une famille d’éléments de $M$. Pour $v \in \mathbf{N}^{(I)}$, posons $x_v = \prod_{i \in I} \gamma_{v_i}(x_i)$.
+Soit $(x_i)_{i \in I}$ une famille d’éléments de $M$. Pour $\nu \in \mathbf{N}^{(I)}$, posons $x_\nu = \prod_{i \in I} \gamma_{\nu_i}(x_i)$.
 
 Alors
 
 $$
-c(x_v) = \sum_{\rho + \sigma = v} x_\rho \otimes x_\sigma .
+c(x_\nu) = \sum_{\rho + \sigma = \nu} x_\rho \otimes x_\sigma .
 $$
 
 Cela résulte de (10) puisque $c$ est un homomorphisme d’algèbres.
@@ -524,10 +524,10 @@ où $\sigma$ et $\tau$ sont les isomorphismes canoniques, est commutatif (IV, p.
 
 *Soit M un A-module libre. Les éléments primitifs (III, p. 164) de la bigèbre TS(M) sont les éléments de M.
 
-Soit $(e_i)_{i \in I}$ une base de M. Pour $v \in \mathbf{N}^{(I)}$, posons $e_v = \prod_{i \in I} \gamma_{v_i}(e_i)$. Soit $z = \sum_{v \in \mathbf{N}^{(I)}} \lambda_v e_v$ un élément de $TS(M)$. On a d’après (12)
+Soit $(e_i)_{i \in I}$ une base de M. Pour $\nu \in \mathbf{N}^{(I)}$, posons $e_\nu = \prod_{i \in I} \gamma_{\nu_i}(e_i)$. Soit $z = \sum_{\nu \in \mathbf{N}^{(I)}} \lambda_\nu e_\nu$ un élément de $TS(M)$. On a d’après (12)
 
 $$
-c(z) = \sum_v \lambda_v \sum_{\rho, \sigma \in \mathbf{N}^{(I)}, \rho + \sigma = v} e_\rho \otimes e_\sigma = \sum_{\rho, \sigma} \lambda_{\rho + \sigma} e_\rho \otimes e_\sigma
+c(z) = \sum_\nu \lambda_\nu \sum_{\rho, \sigma \in \mathbf{N}^{(I)}, \rho + \sigma = \nu} e_\rho \otimes e_\sigma = \sum_{\rho, \sigma} \lambda_{\rho + \sigma} e_\rho \otimes e_\sigma
 $$
 
 donc
@@ -540,7 +540,7 @@ Alors
 
 $$
 z \text{ primitif} \Leftrightarrow \lambda_{\rho+\sigma} = 0 \quad \text{lorsque} \quad \rho \neq 0 \quad \text{et} \quad \sigma \neq 0 \quad \text{et} \quad \lambda_0 = 0 \\
-\Leftrightarrow \lambda_v = 0 \quad \text{lorsque} \quad |v| \neq 1 \\
+\Leftrightarrow \lambda_\nu = 0 \quad \text{lorsque} \quad |\nu| \neq 1 \\
 \Leftrightarrow z \in M .
 $$
 
@@ -669,14 +669,14 @@ $$
 f\left( \sum_i \lambda_i e_i \right) = h(\gamma_q(\sum_i \lambda_i e_i)) = h\left( \sum_{|\nu| = q} \lambda^\nu e_\nu \right)
 $$
 
-en posant $e_v = \prod_{i \in I} \gamma_{v_i}(e_i)$; on a donc
+en posant $e_\nu = \prod_{i \in I} \gamma_{\nu_i}(e_i)$; on a donc
 $$
-f(\sum_i \lambda_i e_i) = \sum_{|v|=q} \lambda^v h(e_v) .
+f(\sum_i \lambda_i e_i) = \sum_{|\nu|=q} \lambda^\nu h(e_\nu) .
 $$
 (iv) $\Rightarrow$ (iii) : c’est évident.
-(iii) $\Rightarrow$ (ii) : soient $(e_i), (u_v)$ vérifiant les conditions de (iii). Posons $e_v = \prod_{i \in I} \gamma_{v_i}(e_i)$; rappelons que $(e_v)_{|v|=q}$ est une base de $\mathbf{TS}^q(M)$. Soit $h$ l’homomorphisme de $\mathbf{TS}^q(M)$ dans $N$ défini par $h(e_v) = u_v$. Alors pour tout $x = \sum_i \lambda_i e_i$ dans $M$, on a
+(iii) $\Rightarrow$ (ii) : soient $(e_i), (u_\nu)$ vérifiant les conditions de (iii). Posons $e_\nu = \prod_{i \in I} \gamma_{\nu_i}(e_i)$; rappelons que $(e_\nu)_{|\nu|=q}$ est une base de $\mathbf{TS}^q(M)$. Soit $h$ l’homomorphisme de $\mathbf{TS}^q(M)$ dans $N$ défini par $h(e_\nu) = u_\nu$. Alors pour tout $x = \sum_i \lambda_i e_i$ dans $M$, on a
 $$
-f(x) = f(\sum_i \lambda_i e_i) = \sum_{|v|=q} \lambda^v u_v = h(\sum_{|v|=q} \lambda^v e_v) = h(\gamma_q(x)) .
+f(x) = f(\sum_i \lambda_i e_i) = \sum_{|\nu|=q} \lambda^\nu u_\nu = h(\sum_{|\nu|=q} \lambda^\nu e_\nu) = h(\gamma_q(x)) .
 $$
 
 #### Définition 3 {#alg-iv-s5-def-3 .statement}
@@ -785,7 +785,7 @@ Supposons que l’application y ↦ q!y dans N soit injective. D’après IV, p.
 
 #### Corollaire {#alg-iv-s5-n9-cor-1 .statement}
 
-Soient M un A-module libre, N un A-module, q un entier positif, h ∈ Pol^q(M, N), (e_i)_{i∈I} une base de M. Dans les deux cas de la prop. 16, il existe une unique famille (u_v)_{v∈\mathbf{N}^{(I)},|v|=q} d’éléments de N tels que h(\sum_{i∈I} λ_i e_i) = \sum_{|v|=q} λ^v u_v pour tout (λ_i) ∈ A^{(I)}.
+Soient M un A-module libre, N un A-module, q un entier positif, h ∈ Pol^q(M, N), (e_i)_{i∈I} une base de M. Dans les deux cas de la prop. 16, il existe une unique famille (u_\nu)_{v∈\mathbf{N}^{(I)},|\nu|=q} d’éléments de N tels que h(\sum_{i∈I} λ_i e_i) = \sum_{|\nu|=q} λ^\nu u_\nu pour tout (λ_i) ∈ A^{(I)}.
 
 ### 10. Applications polynomiales
 
@@ -862,7 +862,7 @@ $$
 
 *On suppose A intègre infini. Soient M un A-module libre, N un A-module sans torsion.*
 (i) *On a $\mathrm{Pol}(M, N) = \bigoplus_{q \geqslant 0} \mathrm{Pol}^q(M, N)$, et chaque $\mathrm{Pol}^q(M, N)$ s’identifie canoniquement à $\mathrm{Hom}(\mathbf{T S}^q(M), N)$.*
-(ii) *Soient $f \in \mathrm{Pol}(M, N)$, et $(e_i)_{i \in I}$ une base de M. Il existe une famille et une seule $(u_v)_{v \in N^{(I)}}$ d’éléments de N tels que $f(\sum_{i \in I} \lambda_i e_i) = \sum_{v \in N^{(I)}} \lambda^v u_v$ pour tout $(\lambda_i) \in A^{(I)}$.*
+(ii) *Soient $f \in \mathrm{Pol}(M, N)$, et $(e_i)_{i \in I}$ une base de M. Il existe une famille et une seule $(u_\nu)_{\nu \in N^{(I)}}$ d’éléments de N tels que $f(\sum_{i \in I} \lambda_i e_i) = \sum_{\nu \in N^{(I)}} \lambda^\nu u_\nu$ pour tout $(\lambda_i) \in A^{(I)}$.*
 
 L’assertion (i) résulte des prop. 16 et 19. L’assertion (ii) résulte de (i) et du cor. de la prop. 16.
 
@@ -880,16 +880,16 @@ induisant en degré 1 l’application identique de $M^*$.
 
 Si le A-module M est libre de type fini, $\theta$ est un isomorphisme d’algèbres graduées.
 
-Soient $(e_i)_{i \in I}$ une base de M, $(e_i^*)_{i \in I}$ la base duale de $M^*$. Pour $v \in \mathbf{N}^I$, posons
+Soient $(e_i)_{i \in I}$ une base de M, $(e_i^*)_{i \in I}$ la base duale de $M^*$. Pour $\nu \in \mathbf{N}^I$, posons
 
 $$
-e_v = \prod_{i \in I} \gamma_{v_i}(e_i) \in TS(M)
+e_\nu = \prod_{i \in I} \gamma_{\nu_i}(e_i) \in TS(M)
 $$
 
-D’après la prop. 4 (IV, p. 44), la famille $(e_v)_{v \in \mathbf{N}^I}$ est une base de $TS(M)$; soit $(e_v^*)$ la base de $TS(M)^{*gr}$ duale de $(e_v)$. Vu III, p. 75, th. 1, il suffit de prouver qu’on a, pour tout $v \in \mathbf{N}^I$
+D’après la prop. 4 (IV, p. 44), la famille $(e_\nu)_{\nu \in \mathbf{N}^I}$ est une base de $TS(M)$; soit $(e_\nu^*)$ la base de $TS(M)^{*gr}$ duale de $(e_\nu)$. Vu III, p. 75, th. 1, il suffit de prouver qu’on a, pour tout $\nu \in \mathbf{N}^I$
 
 $$
-e_v^* = \prod_{i \in I} (e_i^*)^{v_i},
+e_\nu^* = \prod_{i \in I} (e_i^*)^{\nu_i},
 $$
 
 ou encore que, pour $\rho, \sigma \in \mathbf{N}^I$, on a $e_\rho^*.e_\sigma^* = e_{\rho+\sigma}^*$; mais cette dernière assertion résulte de IV, p. 48, formule (12).

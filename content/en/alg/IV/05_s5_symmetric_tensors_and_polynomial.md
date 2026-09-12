@@ -58,7 +58,7 @@ subsections:
       pdf_page: 68
 statements: 41
 exercises: 16
-content_sha256: f47f4b9cf4a7294de2542ded6f6bf6387062aeb864268807c570804ae0d539bb
+content_sha256: f7510901c1fed71a51ce0786c203ee3c7ef57e7ffb52bcfc45aa7a7ff94dd71b
 ---
 
 ## § 5. SYMMETRIC TENSORS AND POLYNOMIAL MAPPINGS
@@ -393,7 +393,7 @@ $$
 0 = f \left( \gamma_k \left( \sum_{i \in I} \alpha_i e_I \right) \right) = \sum_{\nu \in N^{(I)}, |\nu| = k} \alpha^\nu f(e_\nu).
 $$
 
-By Cor. 2 of IV, p. 18 it follows that $f(e_v) = 0$ for all $v \in N^{(I)}$, whence $f = 0$.
+By Cor. 2 of IV, p. 18 it follows that $f(e_\nu) = 0$ for all $\nu \in N^{(I)}$, whence $f = 0$.
 
 ### 6. The functor TS
 
@@ -540,10 +540,10 @@ where $\sigma$ and $\tau$ are canonical isomorphisms, is commutative (IV, p. 49)
 
 — Let M be a free A-module, then the primitive elements (III, p. 602) of the bigebra $\mathbf{TS}(M)$ are the elements of M.
 
-Let $(e_i)_{i \in I}$ be a basis of M, and for $v \in \mathbf{N}^{(I)}$ put $e_v = \prod_{i \in I} \gamma_{v_i}(e_i)$. Let $z = \sum_{v \in \mathbf{N}^{(I)}} \lambda_v e_v$ be an element of $\mathbf{TS}(M)$, then by (12) we have
+Let $(e_i)_{i \in I}$ be a basis of M, and for $\nu \in \mathbf{N}^{(I)}$ put $e_\nu = \prod_{i \in I} \gamma_{\nu_i}(e_i)$. Let $z = \sum_{\nu \in \mathbf{N}^{(I)}} \lambda_\nu e_\nu$ be an element of $\mathbf{TS}(M)$, then by (12) we have
 
 $$
-c(z) = \sum_v \lambda_v \sum_{\rho, \sigma \in \mathbf{N}^{(I)}, \rho + \sigma = v} e_\rho \otimes e_\sigma = \sum_{\rho, \sigma} \lambda_{\rho + \sigma} e_\rho \otimes e_\sigma
+c(z) = \sum_\nu \lambda_\nu \sum_{\rho, \sigma \in \mathbf{N}^{(I)}, \rho + \sigma = \nu} e_\rho \otimes e_\sigma = \sum_{\rho, \sigma} \lambda_{\rho + \sigma} e_\rho \otimes e_\sigma
 $$
 
 hence
@@ -555,7 +555,7 @@ $$
 and so
 
 zprimitive $\Leftrightarrow \lambda_{\rho + \sigma} = 0$ when $\rho \neq 0$ and $\sigma \neq 0$ and $\lambda_0 = 0$
-$\Leftrightarrow \lambda_v = 0$ when $|v| \neq 1$
+$\Leftrightarrow \lambda_\nu = 0$ when $|\nu| \neq 1$
 $\Leftrightarrow z \in M$.
 
 ### 8. Relations between TS(M) and S(M)
@@ -664,14 +664,14 @@ This follows from Cor. 1 and the corresponding property of $S(M)$* (III, p. 498)
 — *Let $M$ and $N$ be $A$-modules, $q$ an integer $\geqslant 0$, and $f$ a mapping of $M$ into $N$. Suppose that $M$ is free, then the following conditions are equivalent:
 (i) There exists a $q$-linear mapping $g$ of $M^q$ into $N$ such that $f(x) = g(x, x, \ldots, x)$ for all $x \in M$.
 (ii) There exists a linear mapping $h$ of $TS^q(M)$ into $N$ such that $f(x) = h(\gamma_q(x))$ for all $x \in M$.
-(iii) There exists a basis $(e_i)_{i \in I}$ of $M$ and a family $(u_v)_{v \in N^{(1)}, |v| = q}$ of elements of $N$ such that
+(iii) There exists a basis $(e_i)_{i \in I}$ of $M$ and a family $(u_\nu)_{\nu \in N^{(1)}, |\nu| = q}$ of elements of $N$ such that
 $$
-f\left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{v \in N^{(1)}, |v| = q} \lambda^v u_v
+f\left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(1)}, |\nu| = q} \lambda^\nu u_\nu
 $$
 for all $(\lambda_i) \in A^{(1)}$.
-(iv) For each basis $(e_i)_{i \in I}$ of $M$ there exists a family $(u_v)_{v \in N^{(1)}, |v| = q}$ of elements of $N$ such that
+(iv) For each basis $(e_i)_{i \in I}$ of $M$ there exists a family $(u_\nu)_{\nu \in N^{(1)}, |\nu| = q}$ of elements of $N$ such that
 $$
-f\left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{v \in N^{(1)}, |v| = q} \lambda^v u_v
+f\left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(1)}, |\nu| = q} \lambda^\nu u_\nu
 $$
 for all $(\lambda_i) \in A^{(1)}$.
 (i) $\Rightarrow$ (ii): let $g$ satisfy (i), then there exists a linear mapping $g'$ of $T^q(M)$ into $N$ such that $g(x_1, x_2, \ldots, x_q) = g'(x_1 \otimes x_2 \otimes \ldots \otimes x)$ for any $x, \ldots, x, \in M$. Then
@@ -892,7 +892,7 @@ $$
 
 (i) *We have $\mathrm{Pol}(M, N) = \bigoplus_{q \geq 0} \mathrm{Pol}^q(M, N)$ and each $\mathrm{Pol}^q(M, N)$ may be identified canonically with $\mathrm{Hom}(\mathbf{T S}^q(M), N)$.*
 
-(ii) *Let $f \in \mathrm{Pol}(M, N)$ and $(e_i)_i$, a basis of M. There exists one and only one family $(u_v)_{v \in N^{(1)}}$ of elements of N such that $f \left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{v \in N^{(1)}} \lambda^v u_v$ for all $(\lambda_i) \in A^{(1)}$.*
+(ii) *Let $f \in \mathrm{Pol}(M, N)$ and $(e_i)_i$, a basis of M. There exists one and only one family $(u_\nu)_{\nu \in N^{(1)}}$ of elements of N such that $f \left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(1)}} \lambda^\nu u_\nu$ for all $(\lambda_i) \in A^{(1)}$.*
 
 The assertion (i) follows from Prop. 16 and 19, and (ii) follows from (i) and the Cor. of Prop. 16.
 
@@ -910,16 +910,16 @@ $^1$ A graded homomorphism of degree – k of TS(M) into A is here considered as
 
 — *If the A-module M is free and finitely generated, then $0$ is an isomorphism of graded algebras.*
 
-Let $(e_i)_{i \in I}$ be a basis of $M$ and $(e_i^*)_{i \in I}$ the dual basis of $M^*$. For $v \in \mathbf{N}^I$ put
+Let $(e_i)_{i \in I}$ be a basis of $M$ and $(e_i^*)_{i \in I}$ the dual basis of $M^*$. For $\nu \in \mathbf{N}^I$ put
 
 $$
-e_v = \prod_{i \in I} \gamma_{v_i}(e_i) \in \mathbf{TS}(M)
+e_\nu = \prod_{i \in I} \gamma_{\nu_i}(e_i) \in \mathbf{TS}(M)
 $$
 
-By Prop. 4 (*IV*, p. 47) the family $(e_v)_v,_{\mathbf{N}^I}$ is a basis of $TS(M)$; let $(e_v^*)$ be the basis of $\mathbf{TS}(M)^{*gr}$ dual to $(e_v)$. In the light of III, p. 505, Th. 1 it is enough to show that for any $v \in \mathbf{N}^I$ we have
+By Prop. 4 (*IV*, p. 47) the family $(e_\nu)_\nu,_{\mathbf{N}^I}$ is a basis of $TS(M)$; let $(e_\nu^*)$ be the basis of $\mathbf{TS}(M)^{*gr}$ dual to $(e_\nu)$. In the light of III, p. 505, Th. 1 it is enough to show that for any $\nu \in \mathbf{N}^I$ we have
 
 $$
-e_v^* = \prod_{i \in I} (e_i^*)^{v_i},
+e_\nu^* = \prod_{i \in I} (e_i^*)^{\nu_i},
 $$
 
 or also that for $\rho, \sigma \in \mathbf{N}^I$ we have $e_\rho^* \cdot e_\sigma^* = e_{\rho + \sigma}^*$; but this last assertion follows from *IV*, p. 50, Formula (12).

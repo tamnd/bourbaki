@@ -40,7 +40,7 @@ subsections:
       pdf_page: 83
 statements: 46
 exercises: 7
-content_sha256: 5159b1b30c3ac692aa8536a5f74fcbb2499ef16d5f320af8e43374358b2d23f7
+content_sha256: 6d66b0eb03ca63d2e8662adbc21749977c68da55041682a8f717b48a726d78f2
 ---
 
 ## § 6. FONCTIONS SYMÉTRIQUES
@@ -551,18 +551,18 @@ La prop. 4 justifie le nom d’« algèbre de décomposition universelle de $f$ 
 
 #### Proposition 5 {#alg-iv-s6-prop-5 .statement}
 
-*Dans l’algèbre de décomposition universelle $E_f$, la famille des monômes $x_1^{v(1)} \ldots x_n^{v(n)}$, tels que $0 \leq v(i) < i$ pour $1 \leq i \leq n$, est une base du A-module $E_f$. En particulier, $E_f$ est un A-module libre de rang $n!$.
+*Dans l’algèbre de décomposition universelle $E_f$, la famille des monômes $x_1^{\nu(1)} \ldots x_n^{\nu(n)}$, tels que $0 \leq \nu(i) < i$ pour $1 \leq i \leq n$, est une base du A-module $E_f$. En particulier, $E_f$ est un A-module libre de rang $n!$.
 
 Posons $B = A[X_1, \ldots, X_n]$ et $C = A[X_1, \ldots, X_n]^{\text{sym}}$. D’après le th. 1 (IV, p. 58), on a $C = A[s_1, \ldots, s_n]$ et $s_1, \ldots, s_n$ sont algébriquement indépendants sur A. Les polynômes sans terme constant en $s_1, \ldots, s_n$ forment un idéal $C^+$ de C, supplémentaire de $A$, et engendré par $s_1, \ldots, s_n$. Soit $c$ l’idéal de $C$ engendré par $s_1 + a_1, s_2 - a_2, \ldots, s_n + (-1)^{n+1}a_n$. Il existe un automorphisme de la $A$-algèbre $C$ qui applique $s_k$ sur $s_k + (-1)^{k+1}a_k$ pour $1 \leq k \leq n$, donc $C^+$ sur $c$; par suite, on a $C = A \oplus c$. Par ailleurs, le th. 1, c) de IV, p. 58, montre que l’on a
 
 $$
-B = \bigoplus_{v \in S} CX^v
+B = \bigoplus_{\nu \in S} CX^\nu
 $$
 
-où $S$ est l’ensemble des $v \in \mathbf{N}^n$ tels que $0 \leq v(i) < i$ pour $1 \leq i \leq n$. L’idéal $a$ de $B$ est engendré par $c$, d’où $a = Bc = \bigoplus_{v \in S} c.X^v$. Comme on a $C = A \oplus c$, on en déduit
+où $S$ est l’ensemble des $\nu \in \mathbf{N}^n$ tels que $0 \leq \nu(i) < i$ pour $1 \leq i \leq n$. L’idéal $a$ de $B$ est engendré par $c$, d’où $a = Bc = \bigoplus_{\nu \in S} c.X^\nu$. Comme on a $C = A \oplus c$, on en déduit
 
 $$
-B = a \oplus \bigoplus_{v \in S} AX^v,
+B = a \oplus \bigoplus_{\nu \in S} AX^\nu,
 $$
 
 d’où la prop. 5 puisque $E_f = B/a$.

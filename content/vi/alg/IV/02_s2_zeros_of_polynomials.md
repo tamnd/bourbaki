@@ -193,7 +193,7 @@ và chỉ cần áp dụng phần đầu của chứng minh cho $H'_f$.
 
 — *Giả sử rằng A là một miền nguyên vô hạn hoặc rằng A là một đại số trên một trường vô hạn. Với mọi $f \in A[(X_i)_{i \in I}]$, gọi $\tilde{f}: A^I \to A$ là hàm đa thức được xác định bởi f (IV, p. 4). Khi đó ánh xạ $f \mapsto \tilde{f}$ là đơn ánh.*
 
-Khi A là một miền nguyên vô hạn, hệ quả suy ra ngay từ Mệnh đề 9. Giả sử A là một đại số trên một trường vô hạn k. Gọi $f = \sum_{v \in \mathbf{N}^{(I)}} \alpha_v X^v$ là một phần tử khác không của $A[(X_i)_{i \in I}]$; khi đó tồn tại $v_0 \in \mathbf{N}^{(I)}$ sao cho $\alpha_{v_0} \neq 0$, và một dạng K-tuyến tính $\varphi$ trên A sao cho $\varphi(\alpha_{v_0}) \neq 0$. Gọi $g = \sum_{v \in \mathbf{N}^{(I)}} \varphi(a_v) X^v \in k[(X_i)_{i \in I}]$; ta có $g \neq 0$, do đó tồn tại $x \in k^I$ sao cho $g(x) \neq 0$. Khi đó $\varphi(f(x)) = g(x) \neq 0$, và vì thế $f(x) \neq 0$.
+Khi A là một miền nguyên vô hạn, hệ quả suy ra ngay từ Mệnh đề 9. Giả sử A là một đại số trên một trường vô hạn k. Gọi $f = \sum_{\nu \in \mathbf{N}^{(I)}} \alpha_\nu X^\nu$ là một phần tử khác không của $A[(X_i)_{i \in I}]$; khi đó tồn tại $\nu_0 \in \mathbf{N}^{(I)}$ sao cho $\alpha_{\nu_0} \neq 0$, và một dạng K-tuyến tính $\varphi$ trên A sao cho $\varphi(\alpha_{\nu_0}) \neq 0$. Gọi $g = \sum_{\nu \in \mathbf{N}^{(I)}} \varphi(a_\nu) X^\nu \in k[(X_i)_{i \in I}]$; ta có $g \neq 0$, do đó tồn tại $x \in k^I$ sao cho $g(x) \neq 0$. Khi đó $\varphi(f(x)) = g(x) \neq 0$, và vì thế $f(x) \neq 0$.
 
 Khi A là một miền nguyên vô hạn hoặc khi A là một đại số trên một trường vô hạn, thông thường ta sẽ đồng nhất f với $\tilde{f}$.
 

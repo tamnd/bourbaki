@@ -25,7 +25,7 @@ subsections:
       pdf_page: 23
 statements: 20
 exercises: 13
-content_sha256: 7331609083df7b6f45c8e52bb18b8f8c2a11ada7a000da6586a38b87510dc936
+content_sha256: 863617b52518e5405737c3e3a7f744118f8f1debdff2dfd5e8661a56636746ce
 ---
 
 ## § 2. ZÉROS DES POLYNÔMES
@@ -190,7 +190,7 @@ b) Dans le cas général, il existe une partie finie I’ de I telle que $f \in 
 
 *On suppose que A est intègre et infini ou que A est une algèbre sur un corps infini. Pour tout $f \in A[(X_i)_{i \in I}]$, soit $\tilde{f} : A^I \to A$ la fonction polynomiale définie par $f$ (IV, p. 4). Alors l’application $f \mapsto \tilde{f}$ est injective.*
 
-Lorsque A est intègre infini, le corollaire résulte aussitôt de la prop. 9. Supposons que A soit une algèbre sur un corps infini k. Soit $f = \sum_{v \in N^{(I)}} \alpha_v X^v$ un élément non nul de $A[(X_i)_{i \in I}]$. Il existe un $v_0 \in N^{(I)}$ tel que $\alpha_{v_0} \neq 0$, et une forme k-linéaire $\varphi$ sur A telle que $\varphi(\alpha_{v_0}) \neq 0$. Soit $g = \sum_{v \in N^{(I)}} \varphi(\alpha_v) X^v \in k[(X_i)_{i \in I}]$. On a $g \neq 0$, donc il existe un $x \in k^I$ tel que $g(x) \neq 0$. Alors $\varphi(f(x)) = g(x) \neq 0$, donc $f(x) \neq 0$.
+Lorsque A est intègre infini, le corollaire résulte aussitôt de la prop. 9. Supposons que A soit une algèbre sur un corps infini k. Soit $f = \sum_{\nu \in N^{(I)}} \alpha_\nu X^\nu$ un élément non nul de $A[(X_i)_{i \in I}]$. Il existe un $\nu_0 \in N^{(I)}$ tel que $\alpha_{\nu_0} \neq 0$, et une forme k-linéaire $\varphi$ sur A telle que $\varphi(\alpha_{\nu_0}) \neq 0$. Soit $g = \sum_{\nu \in N^{(I)}} \varphi(\alpha_\nu) X^\nu \in k[(X_i)_{i \in I}]$. On a $g \neq 0$, donc il existe un $x \in k^I$ tel que $g(x) \neq 0$. Alors $\varphi(f(x)) = g(x) \neq 0$, donc $f(x) \neq 0$.
 
 Lorsque A est intègre infini, ou lorsque A est une algèbre sur un corps infini, on identifie le plus souvent $f$ à $\tilde{f}$.
 

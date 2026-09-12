@@ -36,7 +36,7 @@ chapters:
           statements: 30
           exercises: 5
           extraction: ocr
-          content_sha256: b8b80d9898f9cf21392fb6f0bb0bbc23767e2fcb884e61793b42fec1a38a96d4
+          content_sha256: 9362bb420a6ac189e2cb718bf3d352a39d364cc2fbcd8f27c7d221863b22c9f9
         - kind: section
           section: 2
           title: Zeros of polynomials
@@ -49,7 +49,7 @@ chapters:
           statements: 20
           exercises: 5
           extraction: ocr
-          content_sha256: 97ec959a0a749d9180c250a7b652d7e55a4cda36b5f81206708811ed91576d3c
+          content_sha256: 61bf1ec69778f1702ec9e8a2232603a59313de07e429fab249928dcbfd3838ef
         - kind: section
           section: 3
           title: Rational fractions
@@ -62,7 +62,7 @@ chapters:
           statements: 6
           exercises: 7
           extraction: ocr
-          content_sha256: 7198747b0b6bbdd08037685e5f795da17bcc151029f7c5022d6d539a5ea0b283
+          content_sha256: 16aa168745b016cbb4cbf1bf660f2ab6e25ff8e4303581985f805e4a081c1bbd
         - kind: section
           section: 4
           title: Formal power series
@@ -75,7 +75,7 @@ chapters:
           statements: 23
           exercises: 8
           extraction: ocr
-          content_sha256: 97abd39154e8116dbd7036aeda3b726bb4c49fc23082a657e7c8c9ba4f4f0f02
+          content_sha256: 93080588981c2b27de5dc22c144773a4cc368e44a520855683149c13794140e7
         - kind: section
           section: 5
           title: Symmetric tensors and polynomial mappings
@@ -88,7 +88,7 @@ chapters:
           statements: 41
           exercises: 16
           extraction: ocr
-          content_sha256: f47f4b9cf4a7294de2542ded6f6bf6387062aeb864268807c570804ae0d539bb
+          content_sha256: f7510901c1fed71a51ce0786c203ee3c7ef57e7ffb52bcfc45aa7a7ff94dd71b
         - kind: section
           section: 6
           title: Symmetric functions
@@ -101,7 +101,7 @@ chapters:
           statements: 43
           exercises: 12
           extraction: ocr
-          content_sha256: d8efcc08bfe9d3491c2c0f0dc26b32418d3c6a63d8ced19164e7875914007cb1
+          content_sha256: 8d327c82138ab24b2a0ebb0ae6785bda3bb6fd0b0256ad7c094db8b668b342da
     - chapter: V
       title: COMMUTATIVE FIELDS
       sections:

@@ -21,7 +21,7 @@ subsections:
       pdf_page: 25
 statements: 6
 exercises: 7
-content_sha256: fd149733f01f17427044dbf3404b8eaf26287c34c678118725924b0cf66ffa82
+content_sha256: 68c70016579af41dd9dcc3badac39acf1f7369cf41b9a027166f3247ae709df5
 ---
 
 ## § 3. FRACTIONS RATIONNELLES
@@ -114,9 +114,9 @@ Soit $f \in K((X_i)_{i \in I})$. Soit $(g_i)_{i \in I}$ une famille d’élémen
 
 On peut supposer $I$ fini. Par hypothèse, pour tout $i \in I$, $g_i$ peut se mettre sous la forme $p_i/q_i$, où $p_i, q_i \in K[(Y_i)_{i\in L}]$ et $q_i(y)$ est inversible dans $E$. De même, $f$ peut se mettre sous la forme $u/v$, où $u, v \in K[(X_i)_{i\in I}]$ et $v((g_i(y)))$ est inversible. Soit $m = \sup(\deg u, \deg v)$. Soient $w = \prod_{i\in I} q_i \in K[(Y_i)_{i\in L}]$, $u_1 = u((g_i)) w^m$, $v_1 = v((g_i)) w^m$.
 
-Le polynôme $u$ est combinaison $K$-linéaire de monômes $\prod_{i\in I} X_i^{v_i}$ tels que $\sum_{i\in I} v_i \leq m$.
+Le polynôme $u$ est combinaison $K$-linéaire de monômes $\prod_{i\in I} X_i^{\nu_i}$ tels que $\sum_{i\in I} \nu_i \leq m$.
 
-On a $w^m \prod_{i\in I} g_i^{v_i} = w^m (\prod_{i\in I} p_i^{v_i}) (\prod_{i\in I} q_i^{v_i})^{-1} \in K[(Y_i)_{i\in L}]$ d’après le choix de $m$. Donc $u_1 \in K[(Y_i)_{i\in L}]$ et de même $v_1 \in K[(Y_i)_{i\in L}]$. De plus, $v_1(y) = (w(y))^m v((g_i(y)))$ est inversible. Donc $v_1 \neq 0$ parce que $E \neq 0$, et par suite $v((g_i)) \neq 0$. La famille $(g_i)$ est donc substituable dans $f$. En outre on a $f((g_i)) = u_1/v_1$, donc $y$ est substituable dans $h = f((g_i))$, et $h(y) = u_1(y)/v_1(y) = u((g_i(y)))/v((g_i(y))) = f((g_i(y)))$.
+On a $w^m \prod_{i\in I} g_i^{\nu_i} = w^m (\prod_{i\in I} p_i^{\nu_i}) (\prod_{i\in I} q_i^{\nu_i})^{-1} \in K[(Y_i)_{i\in L}]$ d’après le choix de $m$. Donc $u_1 \in K[(Y_i)_{i\in L}]$ et de même $v_1 \in K[(Y_i)_{i\in L}]$. De plus, $v_1(y) = (w(y))^m v((g_i(y)))$ est inversible. Donc $v_1 \neq 0$ parce que $E \neq 0$, et par suite $v((g_i)) \neq 0$. La famille $(g_i)$ est donc substituable dans $f$. En outre on a $f((g_i)) = u_1/v_1$, donc $y$ est substituable dans $h = f((g_i))$, et $h(y) = u_1(y)/v_1(y) = u((g_i(y)))/v((g_i(y))) = f((g_i(y)))$.
 
 Soient $K$ un corps commutatif, $E$ une $K$-algèbre commutative, associative et unifière. Soit $f \in K((X_i)_{i\in I})$. Soit $T_f$ l’ensemble des $x = (x_i)_{i\in I} \in E^I$ qui sont substituables dans $f$. L’application $x \mapsto f(x)$ de $T_f$ dans $E$ s’appelle la fonction rationnelle associée à $f$ (et à $E$); on la note parfois $\tilde{f}$. Si $g \in K((X_i)_{i\in I})$, on a $T_f \cap T_g \subset T_{f+g}$, $T_f \cap T_g \subset T_{fg}$; la fonction rationnelle associée à $f + g$ (resp. $fg$) est donc définie sur $T_f \cap T_g$, et a même valeur dans cet ensemble que la fonction $\tilde{f} + \tilde{g}$ (resp. $\tilde{f}\tilde{g}$). Soit $T'_f$ l’ensemble des $x \in T_f$ tels que $f(x)$ soit inversible; si $x \in T'_f$, $x$ est substituable dans $1/f$, et la fonction rationnelle associée à $1/f$ prend en $x$ la valeur $f(x)^{-1}$.
 

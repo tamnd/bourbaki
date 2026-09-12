@@ -400,7 +400,7 @@ $$
 0 = f \left( \gamma_k \left( \sum_{i \in I} \alpha_i e_I \right) \right) = \sum_{\nu \in N^{(I)}, |\nu| = k} \alpha^\nu f(e_\nu).
 $$
 
-Theo Hệ quả 2 của IV, p. 18 suy ra $f(e_v) = 0$ với mọi $v \in N^{(I)}$, do đó $f = 0$.
+Theo Hệ quả 2 của IV, p. 18 suy ra $f(e_\nu) = 0$ với mọi $\nu \in N^{(I)}$, do đó $f = 0$.
 
 ### 6. Hàm tử TS
 
@@ -547,10 +547,10 @@ trong đó $\sigma$ và $\tau$ là các đẳng cấu chính tắc, là giao ho�
 
 — Cho M là một A-môđun tự do, khi đó các phần tử nguyên thủy (III, p. 602) của song đại số $\mathbf{TS}(M)$ là các phần tử của M.
 
-Cho $(e_i)_{i \in I}$ là một cơ sở của M, và với $v \in \mathbf{N}^{(I)}$ đặt $e_v = \prod_{i \in I} \gamma_{v_i}(e_i)$. Cho $z = \sum_{v \in \mathbf{N}^{(I)}} \lambda_v e_v$ là một phần tử của $\mathbf{TS}(M)$, khi đó theo (12) ta có
+Cho $(e_i)_{i \in I}$ là một cơ sở của M, và với $\nu \in \mathbf{N}^{(I)}$ đặt $e_\nu = \prod_{i \in I} \gamma_{\nu_i}(e_i)$. Cho $z = \sum_{\nu \in \mathbf{N}^{(I)}} \lambda_\nu e_\nu$ là một phần tử của $\mathbf{TS}(M)$, khi đó theo (12) ta có
 
 $$
-c(z) = \sum_v \lambda_v \sum_{\rho, \sigma \in \mathbf{N}^{(I)}, \rho + \sigma = v} e_\rho \otimes e_\sigma = \sum_{\rho, \sigma} \lambda_{\rho + \sigma} e_\rho \otimes e_\sigma
+c(z) = \sum_\nu \lambda_\nu \sum_{\rho, \sigma \in \mathbf{N}^{(I)}, \rho + \sigma = \nu} e_\rho \otimes e_\sigma = \sum_{\rho, \sigma} \lambda_{\rho + \sigma} e_\rho \otimes e_\sigma
 $$
 
 do đó
@@ -562,7 +562,7 @@ $$
 và vì thế
 
 z nguyên thủy $\Leftrightarrow \lambda_{\rho + \sigma} = 0$ khi $\rho \neq 0$ và $\sigma \neq 0$ và $\lambda_0 = 0$
-$\Leftrightarrow \lambda_v = 0$ khi $|v| \neq 1$
+$\Leftrightarrow \lambda_\nu = 0$ khi $|\nu| \neq 1$
 $\Leftrightarrow z \in M$.
 
 ### 8. Các quan hệ giữa TS(M) và S(M)
@@ -671,14 +671,14 @@ $$
 — *Cho $M$ và $N$ là các $A$-môđun, $q$ là một số nguyên $\geqslant 0$, và $f$ là một ánh xạ từ $M$ vào $N$. Giả sử rằng $M$ là tự do, khi đó các điều kiện sau là tương đương:
 (i) Tồn tại một ánh xạ $q$-tuyến tính $g$ từ $M^q$ vào $N$ sao cho $f(x) = g(x, x, \ldots, x)$ với mọi $x \in M$.
 (ii) Tồn tại một ánh xạ tuyến tính $h$ từ $TS^q(M)$ vào $N$ sao cho $f(x) = h(\gamma_q(x))$ với mọi $x \in M$.
-(iii) Tồn tại một cơ sở $(e_i)_{i \in I}$ của $M$ và một họ $(u_v)_{v \in N^{(1)}, |v| = q}$ các phần tử của $N$ sao cho
+(iii) Tồn tại một cơ sở $(e_i)_{i \in I}$ của $M$ và một họ $(u_\nu)_{\nu \in N^{(1)}, |\nu| = q}$ các phần tử của $N$ sao cho
 $$
-f\left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{v \in N^{(1)}, |v| = q} \lambda^v u_v
+f\left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(1)}, |\nu| = q} \lambda^\nu u_\nu
 $$
 với mọi $(\lambda_i) \in A^{(1)}$.
-(iv) Với mỗi cơ sở $(e_i)_{i \in I}$ của $M$ tồn tại một họ $(u_v)_{v \in N^{(1)}, |v| = q}$ các phần tử của $N$ sao cho
+(iv) Với mỗi cơ sở $(e_i)_{i \in I}$ của $M$ tồn tại một họ $(u_\nu)_{\nu \in N^{(1)}, |\nu| = q}$ các phần tử của $N$ sao cho
 $$
-f\left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{v \in N^{(1)}, |v| = q} \lambda^v u_v
+f\left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(1)}, |\nu| = q} \lambda^\nu u_\nu
 $$
 với mọi $(\lambda_i) \in A^{(1)}$.
 (i) $\Rightarrow$ (ii): giả sử $g$ thỏa mãn (i), khi đó tồn tại một ánh xạ tuyến tính $g'$ từ $T^q(M)$ vào $N$ sao cho $g(x_1, x_2, \ldots, x_q) = g'(x_1 \otimes x_2 \otimes \ldots \otimes x)$ với mọi $x, \ldots, x, \in M$. Khi đó
@@ -899,7 +899,7 @@ $$
 
 (i) *Ta có $\mathrm{Pol}(M, N) = \bigoplus_{q \geq 0} \mathrm{Pol}^q(M, N)$ và mỗi $\mathrm{Pol}^q(M, N)$ có thể được đồng nhất một cách chính tắc với $\mathrm{Hom}(\mathbf{T S}^q(M), N)$.*
 
-(ii) *Cho $f \in \mathrm{Pol}(M, N)$ và $(e_i)_i$, một cơ sở của M. Tồn tại một và chỉ một họ $(u_v)_{v \in N^{(1)}}$ các phần tử của N sao cho $f \left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{v \in N^{(1)}} \lambda^v u_v$ với mọi $(\lambda_i) \in A^{(1)}$.*
+(ii) *Cho $f \in \mathrm{Pol}(M, N)$ và $(e_i)_i$, một cơ sở của M. Tồn tại một và chỉ một họ $(u_\nu)_{\nu \in N^{(1)}}$ các phần tử của N sao cho $f \left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(1)}} \lambda^\nu u_\nu$ với mọi $(\lambda_i) \in A^{(1)}$.*
 
 Mệnh đề (i) suy ra từ Mệnh đề 16 và 19, còn (ii) suy ra từ (i) và Hệ quả của Mệnh đề 16.
 
@@ -917,16 +917,16 @@ $^1$ Ở đây một đồng cấu phân bậc bậc – k từ TS(M) vào A đ�
 
 — *Nếu A-môđun M là tự do và sinh hữu hạn, thì $0$ là một đẳng cấu của các đại số phân bậc.*
 
-Cho $(e_i)_{i \in I}$ là một cơ sở của $M$ và $(e_i^*)_{i \in I}$ là cơ sở đối ngẫu của $M^*$. Với $v \in \mathbf{N}^I$ đặt
+Cho $(e_i)_{i \in I}$ là một cơ sở của $M$ và $(e_i^*)_{i \in I}$ là cơ sở đối ngẫu của $M^*$. Với $\nu \in \mathbf{N}^I$ đặt
 
 $$
-e_v = \prod_{i \in I} \gamma_{v_i}(e_i) \in \mathbf{TS}(M)
+e_\nu = \prod_{i \in I} \gamma_{\nu_i}(e_i) \in \mathbf{TS}(M)
 $$
 
-Theo Mệnh đề 4 (*IV*, p. 47), họ $(e_v)_v,_{\mathbf{N}^I}$ là một cơ sở của $TS(M)$; gọi $(e_v^*)$ là cơ sở của $\mathbf{TS}(M)^{*gr}$ đối ngẫu với $(e_v)$. Theo III, p. 505, Định lý 1, chỉ cần chứng tỏ rằng với mọi $v \in \mathbf{N}^I$ ta có
+Theo Mệnh đề 4 (*IV*, p. 47), họ $(e_\nu)_\nu,_{\mathbf{N}^I}$ là một cơ sở của $TS(M)$; gọi $(e_\nu^*)$ là cơ sở của $\mathbf{TS}(M)^{*gr}$ đối ngẫu với $(e_\nu)$. Theo III, p. 505, Định lý 1, chỉ cần chứng tỏ rằng với mọi $\nu \in \mathbf{N}^I$ ta có
 
 $$
-e_v^* = \prod_{i \in I} (e_i^*)^{v_i},
+e_\nu^* = \prod_{i \in I} (e_i^*)^{\nu_i},
 $$
 
 hay cũng có nghĩa là với $\rho, \sigma \in \mathbf{N}^I$ ta có $e_\rho^* \cdot e_\sigma^* = e_{\rho + \sigma}^*$; nhưng mệnh đề cuối cùng này suy ra từ *IV*, p. 50, Công thức (12).

@@ -54,7 +54,7 @@ subsections:
       pdf_page: 48
 statements: 23
 exercises: 8
-content_sha256: 97abd39154e8116dbd7036aeda3b726bb4c49fc23082a657e7c8c9ba4f4f0f02
+content_sha256: 93080588981c2b27de5dc22c144773a4cc368e44a520855683149c13794140e7
 ---
 
 ## § 4. FORMAL POWER SERIES
@@ -65,9 +65,9 @@ Let I be a set. We recall (III, p. 454 and 456) that the total algebra of the mo
 
 When I is a finite set of p elements, we also say that $A[[I]]$ is an algebra of formal power series in p indeterminates. These algebras are all isomorphic, for fixed p. An algebra of formal power series in 1, 2, ... indeterminates will also be denoted by $A[[X]]$, $A[[U, V]]$, ..., the set I of indices not being specified.
 
-A formal power series u is conventionally written $u = \sum_{v \in N^{(I)}} a_v X^v$ (cf. IV, p. 1).
+A formal power series u is conventionally written $u = \sum_{\nu \in N^{(I)}} a_\nu X^\nu$ (cf. IV, p. 1).
 
-The $\alpha_v$ are the *coefficients* of $u$; there may be infinitely many of them $\neq 0$. The $a_v X^v$ are called *terms* of $u$; for u to be a polynomial it is necessary and sufficient that $u$ should have only a finite number of terms $\neq 0$. The terms $a_v X^v$ such that |ν| = p are called the terms of total degree p. The formal power series $u_p = \sum_{|\nu|=p} \alpha_\nu X^\nu$ is called the *homogeneous component of degree* p of u (it is a polynomial when I is finite); $u_0$ is identified with an element of A called also the *constant term* of u. We say that u is homogeneous of degree p if $u = u_p$. If $u, v \in \mathbf{A}[[\mathrm{I}]]$ and $w = uv$, we have
+The $\alpha_\nu$ are the *coefficients* of $u$; there may be infinitely many of them $\neq 0$. The $a_\nu X^\nu$ are called *terms* of $u$; for u to be a polynomial it is necessary and sufficient that $u$ should have only a finite number of terms $\neq 0$. The terms $a_\nu X^\nu$ such that |ν| = p are called the terms of total degree p. The formal power series $u_p = \sum_{|\nu|=p} \alpha_\nu X^\nu$ is called the *homogeneous component of degree* p of u (it is a polynomial when I is finite); $u_0$ is identified with an element of A called also the *constant term* of u. We say that u is homogeneous of degree p if $u = u_p$. If $u, v \in \mathbf{A}[[\mathrm{I}]]$ and $w = uv$, we have
 
 (1)
 $$
@@ -99,23 +99,23 @@ In particular if A is a subring of B and $\varphi$ the canonical injection of A 
 
 By definition $\mathbf{A}[[\mathrm{I}]]$ is nothing other than the product set $\mathbf{A}^{N^{(I)}}$. Except for express mention to the contrary we shall equip A with the discrete topology and $\mathbf{A}[[\mathrm{I}]]$ with the product topology (Gen. Top. I, p. 31 f.) which we shall call the canonical topology. Equipped with addition and the discrete topology, $A$ is a separated and complete topological group; hence for addition $A[[I]]$ is a separated and complete topological group (Gen. Top., III, p. 238 and 242 and Gen. Top., II, p. 187). Moreover the algebra $A[(X_i)_{i \in I}]$ of polynomials is dense in $A[[I]]$ (Gen. Top., III p. 238, Prop, 25) and we may thus consider $A[[I]]$ as the completion of $A[(X_i)_{i \in I}]$.
 
-For each $\beta \in \mathbf{N}^{(I)}$ let $S_\beta$ be the set of multi-indices $v$ such that $v \leq \beta$ and let $a_\beta$ be the set of formal power series $u = \sum \alpha_v X^v$ such that $a_v = 0$ for $v \in S_\beta$. Clearly $S_\beta$ is a finite subset of $\mathbf{N}^{(I)}$, and every finite subset of $\mathbf{N}^{(I)}$ is contained in a set of the form $S_\beta$. It follows that the family $(a_\beta)_{\beta \in \mathbf{N}^{(I)}}$ is a fundamental system of neighbourhoods of 0 in $A[[I]]$. The sets $a_\beta$ are ideals in $A[[I]]$, hence (Gen. Top., III, p. 275) $A[[I]]$ is a topological ring.
+For each $\beta \in \mathbf{N}^{(I)}$ let $S_\beta$ be the set of multi-indices $\nu$ such that $\nu \leq \beta$ and let $a_\beta$ be the set of formal power series $u = \sum \alpha_\nu X^\nu$ such that $a_\nu = 0$ for $\nu \in S_\beta$. Clearly $S_\beta$ is a finite subset of $\mathbf{N}^{(I)}$, and every finite subset of $\mathbf{N}^{(I)}$ is contained in a set of the form $S_\beta$. It follows that the family $(a_\beta)_{\beta \in \mathbf{N}^{(I)}}$ is a fundamental system of neighbourhoods of 0 in $A[[I]]$. The sets $a_\beta$ are ideals in $A[[I]]$, hence (Gen. Top., III, p. 275) $A[[I]]$ is a topological ring.
 
 #### Lemma 1 {#alg-iv-s4-lem-1 .statement}
 
 Let $L$ be an infinite set and $(u_\lambda)_{\lambda \in L}$ a family of elements of $A[[I]]$, and put $u_\lambda = \sum \alpha_{\lambda,v} X^v$ for $\lambda \in L$. Then the following conditions are equivalent:
 (i) The family $(u_\lambda)_{\lambda \in L}$ is summable (Gen. Top., III, p. 262) in $A[[I]]$.
 (ii) We have $\lim u_\lambda = 0$, taken along *the filter* of complements of finite subsets of $L$.
-(iii) For every $v \in \mathbf{N}^{(I)}$ we have $\alpha_{\lambda,v} = 0$ except for a *finite* number of indices $\lambda \in L$.
+(iii) For every $\nu \in \mathbf{N}^{(I)}$ we have $\alpha_{\lambda,\nu} = 0$ except for a *finite* number of indices $\lambda \in L$.
 
-When these conditions hold, the series $u = \sum_{\lambda \in L} u_\lambda$ is equal to $\sum \alpha_v X^v$ with $a_v = \sum_{\lambda \in L} \alpha_{\lambda,v}$ for each $v \in \mathbf{N}^{(I)}$.
+When these conditions hold, the series $u = \sum_{\lambda \in L} u_\lambda$ is equal to $\sum \alpha_\nu X^\nu$ with $a_\nu = \sum_{\lambda \in L} \alpha_{\lambda,\nu}$ for each $\nu \in \mathbf{N}^{(I)}$.
 
 The equivalence of (i) and (ii) follows from Cor. 2 of Gen. Top., III, p. 263.
 The equivalence of (ii) and (iii) follows from the properties of limits in a product space (Gen. Top., I, p. 55, Cor. 1).
 The last assertion follows from Prop. 4 of Gen. Top., III, p. 266.
 
 Let us give some examples of summable families.
-a) Let $u \in A[[I]]$ and let $a_v$ be the coefficient of $X^v$ in $u$. The family $(\alpha_v X^v)_{v \in \mathbf{N}^{(I)}}$ is then summable, with sum $u$ (which justifies writing $u = \sum \alpha_v X^v$).
+a) Let $u \in A[[I]]$ and let $a_\nu$ be the coefficient of $X^\nu$ in $u$. The family $(\alpha_\nu X^\nu)_{\nu \in \mathbf{N}^{(I)}}$ is then summable, with sum $u$ (which justifies writing $u = \sum \alpha_\nu X^\nu$).
 
 b) Let $u \in A[[I]]$; for every integer $p \geq 0$ let $u_p$ be the homogeneous component of degree $p$ of $u$. Then the family $(u_p)_{p \geq 0}$ is summable and we have $u = \sum_{p \geq 0} u_p$.
 
@@ -159,13 +159,13 @@ Taken along the filtered ordered set $\mathfrak{T}$, the left-hand side has as l
 
 *Let* $u = \sum a_\nu X^\nu \in \mathbf{A}[[\mathbf{I}]]$ *and* $m$ *an integer* $> 0$. *For every* $n \in \mathbf{N}$ *let* $(\alpha_{\nu, n})_{\nu \in \mathbf{N}^{(1)}}$ *be the family of coefficients of* $u^n$. *If* $\alpha_0^m = 0$, *then* $\alpha_{\nu, n} = 0$ *for* $n \geq |\nu| + m$.
 
-Let $v \in \mathbf{N}^{(1)}$ and $n \in \mathbf{N}$. We have
+Let $\nu \in \mathbf{N}^{(1)}$ and $n \in \mathbf{N}$. We have
 
 $$
-\alpha_{v,n} = \sum_{v(1) + \cdots + v(n) = v} \alpha_{v(1)} \cdots \alpha_{v(n)} .
+\alpha_{\nu,n} = \sum_{\nu(1) + \cdots + \nu(n) = \nu} \alpha_{\nu(1)} \cdots \alpha_{\nu(n)} .
 $$
 
-If $n \geq |v| + m$ and $v(1) + \cdots + v(n) = v$, we have $|v(1)| + \cdots + |v(n)| \leq n - m$. We thus have $v(r) = 0$ and so $\alpha_{v(r)} = a_r$, for at least $m$ distinct values of $r$; it follows that $\alpha_{v(1)} \cdots \alpha_{v(n)} = 0$, whence the result.
+If $n \geq |\nu| + m$ and $\nu(1) + \cdots + \nu(n) = v$, we have $|\nu(1)| + \cdots + |\nu(n)| \leq n - m$. We thus have $v(r) = 0$ and so $\alpha_{v(r)} = a_r$, for at least $m$ distinct values of $r$; it follows that $\alpha_{\nu(1)} \cdots \alpha_{\nu(n)} = 0$, whence the result.
 
 #### Corollary {#alg-iv-s4-n2-cor-1 .statement}
 
@@ -257,36 +257,36 @@ Let $K$ be a commutative field and $\mathscr{O}$ the subring of the field of rat
 
 ### 5. Taylor's formula for formal power series
 
-Let $X = (X_i)_{i \in I}$ and $Y = (Y_i)_{i \in I}$, be two families of indeterminates relative to the same index set I. We denote by $X + Y$ the family $(X_i + Y_i)_{i \in I}$, of formal power series in $A[[X, Y]]$. It is clear that we can substitute $X_i + Y_i$ for $X_i$ in a formal power series $u \in A[[X]]$, the result being written $u(X + Y)$. For each $v \in \mathbf{N}^{(I)}$ we denote by $\Delta^v u$ the coefficient of $Y^v$ in the formal power series $u(X + Y)$ considered as belonging to $A[[X]][[Y]]$ (III, p. 456). In other words, we have
+Let $X = (X_i)_{i \in I}$ and $Y = (Y_i)_{i \in I}$, be two families of indeterminates relative to the same index set I. We denote by $X + Y$ the family $(X_i + Y_i)_{i \in I}$, of formal power series in $A[[X, Y]]$. It is clear that we can substitute $X_i + Y_i$ for $X_i$ in a formal power series $u \in A[[X]]$, the result being written $u(X + Y)$. For each $\nu \in \mathbf{N}^{(I)}$ we denote by $\Delta^\nu u$ the coefficient of $Y^\nu$ in the formal power series $u(X + Y)$ considered as belonging to $A[[X]][[Y]]$ (III, p. 456). In other words, we have
 
 $$
-u(X + Y) = \sum_v \Delta^v u(X) \cdot Y^v \quad (u \in A[[X]]) .
+u(X + Y) = \sum_\nu \Delta^\nu u(X) \cdot Y^\nu \quad (u \in A[[X]]) .
 $$
 
 Substituting $(0, X)$ for $(X, Y)$ we obtain
 
 $$
-u(X) = \sum_v \Delta^v u(0) \cdot X^v ;
+u(X) = \sum_\nu \Delta^\nu u(0) \cdot X^\nu ;
 $$
 
-In other words, the constant term of $\Delta^v u$ is the coefficient of $X^v$ in $u$. Since the mapping $u \mapsto u(X + Y)$ of $A[[X]]$ into $A[[X, Y]]$ is continuous, the mappings $u \mapsto \Delta^v u$ of $A[[X]]$ into itself are again continuous.
+In other words, the constant term of $\Delta^\nu u$ is the coefficient of $X^\nu$ in $u$. Since the mapping $u \mapsto u(X + Y)$ of $A[[X]]$ into $A[[X, Y]]$ is continuous, the mappings $u \mapsto \Delta^\nu u$ of $A[[X]]$ into itself are again continuous.
 
 As in the case of polynomials (IV, p. 7) we can prove the formulae
 
 $$
-\Delta^\sigma(uv) = \sum_{v+\rho=\sigma} \Delta^v(u) \Delta^\rho(v) ,
+\Delta^\sigma(uv) = \sum_{v+\rho=\sigma} \Delta^\nu(u) \Delta^\rho(v) ,
 $$
 $$
 \Delta^\rho \Delta^\sigma u = \frac{(\rho + \sigma)!}{\rho! \; \sigma!} \Delta^{\rho + \sigma} u .
 $$
 
-The binomial formula (I, p. 99, Cor. 2) gives the following value for $\Delta^v u$ when $u = \sum_\lambda \alpha_\lambda X^\lambda$
+The binomial formula (I, p. 99, Cor. 2) gives the following value for $\Delta^\nu u$ when $u = \sum_\lambda \alpha_\lambda X^\lambda$
 
 $$
-\Delta^v u = \sum_\lambda \alpha_{\lambda + v} \frac{(\lambda + v)!}{\lambda! \; v!} X^\lambda .
+\Delta^\nu u = \sum_\lambda \alpha_{\lambda + \nu} \frac{(\lambda + \nu)!}{\lambda! \; \nu!} X^\lambda .
 $$
 
-Consider in particular the case $v = \epsilon_i$, that is $v_i = 1, v_j = 0$ for $j \neq i$. We shall put $D_i u = \Delta^{\epsilon_i} u$; put differently, $D_i u$ is the coefficient of $Y_i$ in $u(X + Y)$. By (10) we thus have
+Consider in particular the case $\nu = \epsilon_i$, that is $\nu_i = 1, \nu_j = 0$ for $j \neq i$. We shall put $D_i u = \Delta^{\epsilon_i} u$; put differently, $D_i u$ is the coefficient of $Y_i$ in $u(X + Y)$. By (10) we thus have
 
 $$
 D_i u = \sum_\lambda (\lambda_i + 1) \alpha_{\lambda + \epsilon_i} X^\lambda ;
@@ -295,7 +295,7 @@ $$
 in particular we have $D_i(X_i) = 1$ and $D_i(X_j) = 0$ for $j \neq i$. The formula (8) shows that $D_i$ is a derivation of $A[[X]]$, and from (9) we deduce the relation
 
 $$
-D^v u = v! \; \Delta^v u
+D^\nu u = \nu! \; \Delta^\nu u
 $$
 
 as in the case of polynomials (IV, p. 8) (we have put $D^\nu = \prod_{i \in I} D_i^{\nu_i}$ for $\nu = (\nu_i)_{i \in I}$, in $\mathbf{N}^{(I)}$). When A is a Q-algebra, the formulae (6), (7) and (12) imply the « Taylor formulae »:

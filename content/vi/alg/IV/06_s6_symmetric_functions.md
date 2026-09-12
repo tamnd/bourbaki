@@ -576,9 +576,9 @@ $$
 B = \bigoplus_{\nu \in S} CX^\nu
 $$
 
-trong đó S là tập hợp mọi $v \in \mathbf{N}^n$ sao cho $0 \leq v(i) < i$ với $1 \leq i \leq n$. Iđêan a của B được sinh bởi c, do đó $a = Bc = \bigoplus_{v \in S} c \cdot X^v$. Vì $C = A \oplus c$, ta được
+trong đó S là tập hợp mọi $\nu \in \mathbf{N}^n$ sao cho $0 \leq \nu(i) < i$ với $1 \leq i \leq n$. Iđêan a của B được sinh bởi c, do đó $a = Bc = \bigoplus_{\nu \in S} c \cdot X^\nu$. Vì $C = A \oplus c$, ta được
 $$
-B = a \oplus \bigoplus_{v \in S} AX^v,
+B = a \oplus \bigoplus_{\nu \in S} AX^\nu,
 $$
 do đó suy ra Mệnh đề 5, vì $E_f = B/a$.
 

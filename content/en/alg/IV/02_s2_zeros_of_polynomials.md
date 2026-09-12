@@ -26,7 +26,7 @@ subsections:
       pdf_page: 26
 statements: 20
 exercises: 5
-content_sha256: 97ec959a0a749d9180c250a7b652d7e55a4cda36b5f81206708811ed91576d3c
+content_sha256: 61bf1ec69778f1702ec9e8a2232603a59313de07e429fab249928dcbfd3838ef
 ---
 
 ## § 2. ZEROS OF POLYNOMIALS
@@ -186,7 +186,7 @@ and it suffices to apply the first part of the proof to $H'_f$.
 
 — *Suppose that A is an infinite integral domain or that A is an algebra over an infinite field. For every $f \in A[(X_i)_{i \in I}]$, let $\tilde{f}: A^I \to A$ be the polynomial function defined by f (IV, p. 4). Then the mapping $f \mapsto \tilde{f}$ is injective.*
 
-When A is an infinite integral domain, the corollary follows at once from Prop. 9. Suppose that A is an algebra over an infinite field k. Let $f = \sum_{v \in \mathbf{N}^{(I)}} \alpha_v X^v$ be a non-zero element of $A[(X_i)_{i \in I}]$; then there exists $v_0 \in \mathbf{N}^{(I)}$ such that $\alpha_{v_0} \neq 0$, and a k-linear form $\varphi$ on A such that $\varphi(\alpha_{v_0}) \neq 0$. Let $g = \sum_{v \in \mathbf{N}^{(I)}} \varphi(a_v) X^v \in k[(X_i)_{i \in I}]$; we have $g \neq 0$, hence there exists $x \in k^I$ such that $g(x) \neq 0$. Then $\varphi(f(x)) = g(x) \neq 0$, and so $f(x) \neq 0$.
+When A is an infinite integral domain, the corollary follows at once from Prop. 9. Suppose that A is an algebra over an infinite field k. Let $f = \sum_{\nu \in \mathbf{N}^{(I)}} \alpha_\nu X^\nu$ be a non-zero element of $A[(X_i)_{i \in I}]$; then there exists $\nu_0 \in \mathbf{N}^{(I)}$ such that $\alpha_{\nu_0} \neq 0$, and a k-linear form $\varphi$ on A such that $\varphi(\alpha_{\nu_0}) \neq 0$. Let $g = \sum_{\nu \in \mathbf{N}^{(I)}} \varphi(a_\nu) X^\nu \in k[(X_i)_{i \in I}]$; we have $g \neq 0$, hence there exists $x \in k^I$ such that $g(x) \neq 0$. Then $\varphi(f(x)) = g(x) \neq 0$, and so $f(x) \neq 0$.
 
 When A is an infinite integral domain or when A is an algebra over an infinite field, we shall usually identify f with $\tilde{f}$.
 

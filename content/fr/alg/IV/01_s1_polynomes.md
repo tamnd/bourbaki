@@ -44,7 +44,7 @@ subsections:
       pdf_page: 20
 statements: 30
 exercises: 6
-content_sha256: 77979a5e5f95ac59baeb8ba8707e9bdfa7de503f1dc60c1e86eb0e3bfe224d78
+content_sha256: dd1d2ba1e59d9b57430ca618db94582b2d9f277546c3a1289cc7836a2d81f4cc
 ---
 
 ## § 1. POLYNÔMES
@@ -53,29 +53,29 @@ content_sha256: 77979a5e5f95ac59baeb8ba8707e9bdfa7de503f1dc60c1e86eb0e3bfe224d78
 
 Soit I un ensemble. Rappelons (III, p. 25) que l’algèbre commutative libre de I sur A se note $A[(X_i)_{i \in I}]$ ou $A[X_i]_{i \in I}$. Les éléments de cette algèbre sont appelés polynômes par rapport aux indéterminées $X_i$ (ou en les indéterminées $X_i$) à coefficients dans A. Rappelons que l’indéterminée $X_i$ est l’image canonique de $i$ dans l’algèbre commutative libre de I sur A ; il est parfois commode de désigner cette image par une autre notation, telle que $X'_i$, $Y_i$, $T_i$, etc. On annonce souvent cette convention par une phrase telle que : « Soit $Y = (Y_i)_{i \in I}$ une famille d’indéterminées » ; lorsqu’il en est ainsi, on note $A[Y]$ l’algèbre de polynômes considérée. Pour $I = \{1, 2, ..., n\}$, on écrit $A[X_1, X_2, ..., X_n]$ au lieu de $A[(X_i)_{i \in I}]$.
 
-Pour $v \in \mathbf{N}^{(I)}$, posons
+Pour $\nu \in \mathbf{N}^{(I)}$, posons
 
 $$
-X^v = \prod_{i \in I} X_i^{v_i}
+X^\nu = \prod_{i \in I} X_i^{\nu_i}
 $$
 
-Alors $(X^v)_{v \in \mathbf{N}^{(I)}}$ est une base du A-module $A[(X_i)_{i \in I}]$. Les $X^v$ s’appellent les monômes en les indéterminées $X_i$. Pour $v = 0$, on obtient l’élément unité de $A[(X_i)_{i \in I}]$. Tout polynôme $u \in A[(X_i)_{i \in I}]$ s’écrit d’une façon et d’une seule sous la forme
+Alors $(X^\nu)_{\nu \in \mathbf{N}^{(I)}}$ est une base du A-module $A[(X_i)_{i \in I}]$. Les $X^\nu$ s’appellent les monômes en les indéterminées $X_i$. Pour $v = 0$, on obtient l’élément unité de $A[(X_i)_{i \in I}]$. Tout polynôme $u \in A[(X_i)_{i \in I}]$ s’écrit d’une façon et d’une seule sous la forme
 
 $$
-u = \sum_{v \in \mathbf{N}^{(I)}} \alpha_v X^v
+u = \sum_{\nu \in \mathbf{N}^{(I)}} \alpha_\nu X^\nu
 $$
 
-avec $\alpha_v \in A$ et les $\alpha_v$ nuls sauf pour un nombre fini d’indices ; les $\alpha_v$ s’appellent les coefficients de $u$ ; les $\alpha_v X^v$ s’appellent les termes de $u$ (l’élément $\alpha_v X^v$ étant souvent appelé le terme en $X^v$) ; en particulier le terme $\alpha_0 X^0$, identifié à $\alpha_0$, s’appelle le terme constant de $u$. Lorsque $\alpha_v = 0$, on dit, par abus de langage, que $u$ ne contient pas de terme en $X^v$ ; en particulier, quand $\alpha_0 = 0$, on dit que $u$ est un polynôme sans terme constant (III, p. 26). On appelle polynôme constant tout multiple scalaire de 1.
+avec $\alpha_\nu \in A$ et les $\alpha_\nu$ nuls sauf pour un nombre fini d’indices ; les $\alpha_\nu$ s’appellent les coefficients de $u$ ; les $\alpha_\nu X^\nu$ s’appellent les termes de $u$ (l’élément $\alpha_\nu X^\nu$ étant souvent appelé le terme en $X^\nu$) ; en particulier le terme $\alpha_0 X^0$, identifié à $\alpha_0$, s’appelle le terme constant de $u$. Lorsque $\alpha_\nu = 0$, on dit, par abus de langage, que $u$ ne contient pas de terme en $X^\nu$ ; en particulier, quand $\alpha_0 = 0$, on dit que $u$ est un polynôme sans terme constant (III, p. 26). On appelle polynôme constant tout multiple scalaire de 1.
 
-Soient B un anneau commutatif, et $\rho : A \to B$ un homomorphisme d’anneaux. Considérons $B[(X_i)_{i \in I}]$ comme une A-algèbre grâce à $\rho$. Alors l’application $\sigma$ de $A[(X_i)_{i \in I}]$ dans $B[(X_i)_{i \in I}]$ qui transforme $\sum \alpha_v X^v$ en $\sum \rho(\alpha_v) X^v$ est un homomorphisme de A-algèbres ; si $u \in A[(X_i)_{i \in I}]$, on note parfois $^\rho u$ l’image de $u$ par cet homomorphisme. L’homomorphisme de $B \otimes_A A[(X_i)_{i \in I}]$ dans $B[(X_i)_{i \in I}]$ défini canoniquement par $\sigma$ transforme, pour tout $i \in I$, $1 \otimes X_i$ en $X_i$; c’est un isomorphisme de B-algèbres (III, p. 22).
+Soient B un anneau commutatif, et $\rho : A \to B$ un homomorphisme d’anneaux. Considérons $B[(X_i)_{i \in I}]$ comme une A-algèbre grâce à $\rho$. Alors l’application $\sigma$ de $A[(X_i)_{i \in I}]$ dans $B[(X_i)_{i \in I}]$ qui transforme $\sum \alpha_\nu X^\nu$ en $\sum \rho(\alpha_\nu) X^\nu$ est un homomorphisme de A-algèbres ; si $u \in A[(X_i)_{i \in I}]$, on note parfois $^\rho u$ l’image de $u$ par cet homomorphisme. L’homomorphisme de $B \otimes_A A[(X_i)_{i \in I}]$ dans $B[(X_i)_{i \in I}]$ défini canoniquement par $\sigma$ transforme, pour tout $i \in I$, $1 \otimes X_i$ en $X_i$; c’est un isomorphisme de B-algèbres (III, p. 22).
 
 Soit M un A-module libre de base $(e_i)_{i \in I}$. Il existe un homomorphisme unifère $\varphi$ et un seul de l’algèbre symétrique $S(M)$ dans l’algèbre $A[(X_i)_{i \in I}]$ tel que $\varphi(e_i) = X_i$ pour tout $i \in I$, et cet homomorphisme est un isomorphisme (III, p. 75). Cet isomorphisme est dit canonique. Cela permet d’appliquer aux algèbres de polynômes certaines propriétés des algèbres symétriques. Par exemple, soit $(\lambda_\lambda)_{\lambda \in \Lambda}$ une partition de I. Soit $\varphi_\lambda$ l’homomorphisme de $P_\lambda = A[(X_i)_{i \in I_\lambda}]$ dans $P = A[(X_i)_{i \in I}]$ qui transforme $X_i$ (considéré comme élément de $P_\lambda$) en $X_i$ (considéré comme élément de P). Alors les $\varphi_\lambda$ définissent un homomorphisme de l’algèbre $\bigotimes_{\lambda \in \Lambda} P_\lambda$ dans l’algèbre P, et cet homomorphisme est un isomorphisme (III, p. 73, prop. 9).
 
-Soit E un A-module. On pose $E \otimes_A A[(X_i)_{i \in I}] = E[(X_i)_{i \in I}]$. Les éléments du A-module $E[(X_i)_{i \in I}]$ s’appellent polynômes en les indéterminées $X_i$ à coefficients dans E. Un tel polynôme s’écrit d’une façon et d’une seule $\sum_{v \in \mathbf{N}^{(I)}} e_v \otimes X^v$, où $e_v \in E$ et où les $e_v$ sont nuls sauf pour un nombre fini d’indices ; le plus souvent, on écrira $e_v X^v$ pour $e_v \otimes X^v$.
+Soit E un A-module. On pose $E \otimes_A A[(X_i)_{i \in I}] = E[(X_i)_{i \in I}]$. Les éléments du A-module $E[(X_i)_{i \in I}]$ s’appellent polynômes en les indéterminées $X_i$ à coefficients dans E. Un tel polynôme s’écrit d’une façon et d’une seule $\sum_{\nu \in \mathbf{N}^{(I)}} e_\nu \otimes X^\nu$, où $e_\nu \in E$ et où les $e_\nu$ sont nuls sauf pour un nombre fini d’indices ; le plus souvent, on écrira $e_\nu X^\nu$ pour $e_\nu \otimes X^\nu$.
 
 ### 2. Degrés
 
-Soit $P = A[(X_i)_{i \in I}]$ une algèbre de polynômes. Pour tout entier $n \in \mathbf{N}$, soit $P_n$ le sous-module de P engendré par les monômes $X^v$ tels que $|v| = \sum_{i \in I} v_i$ soit égal à $n$. Alors $(P_n)_{n \in \mathbf{N}}$ est une graduation qui fait de $A[(X_i)_{i \in I}]$ une algèbre graduée de type $\mathbf{N}$ (III, p. 31). Les éléments homogènes de degré $n$ de $A[(X_i)_{i \in I}]$ sont parfois appelés formes de degré $n$ par rapport aux indéterminées $X_i$.
+Soit $P = A[(X_i)_{i \in I}]$ une algèbre de polynômes. Pour tout entier $n \in \mathbf{N}$, soit $P_n$ le sous-module de P engendré par les monômes $X^\nu$ tels que $|\nu| = \sum_{i \in I} \nu_i$ soit égal à $n$. Alors $(P_n)_{n \in \mathbf{N}}$ est une graduation qui fait de $A[(X_i)_{i \in I}]$ une algèbre graduée de type $\mathbf{N}$ (III, p. 31). Les éléments homogènes de degré $n$ de $A[(X_i)_{i \in I}]$ sont parfois appelés formes de degré $n$ par rapport aux indéterminées $X_i$.
 
 Lorsqu’il sera question de degré de polynômes non homogènes, nous conviendrons généralement d’adjoindre à l’ensemble $\mathbf{N}$ des entiers naturels un élément noté $-\infty$ et de prolonger à $\mathbf{N} \cup \{-\infty\}$ la relation d’ordre et l’addition de $\mathbf{N}$ par les conventions suivantes, où $n \in \mathbf{N}$,
 
@@ -83,7 +83,7 @@ $$
 -\infty < n , \quad (-\infty) + n = n + (-\infty) = -\infty , \quad (-\infty) + (-\infty) = -\infty .
 $$
 
-Soit $u = \sum_{v \in \mathbf{N}^{(I)}} \alpha_v X^v$ un polynôme. La composante homogène $u_n$ de degré $n$ de $u$ (pour la graduation de type $\mathbf{N}$ définie ci-dessus) est égale à $\sum_{|v|=n} \alpha_v X^v$, et l’on a évidemment $u = \sum_{n \in \mathbf{N}} u_n$. Lorsque $u \neq 0$, les $u_n$ ne sont pas tous nuls, et l’on appelle degré (ou degré total) de $u$, et l’on note $\deg u$, le plus grand des entiers $n$ tels que $u_n \neq 0$; autrement dit (III, p. 26), le degré de $u$ est le plus grand des entiers $|\nu|$ pour les multiindices $\nu$ tels que $\alpha_\nu \neq 0$. Lorsque $u = 0$, le degré de $u$ est égal par convention à $-\infty$. Pour tout entier $p \in \mathbf{N}$, la relation $\deg u \leq p$ équivaut donc à « $\alpha_\nu = 0$ pour tout multiindice $\nu$ tel que $|\nu| > p$ » ; l’ensemble des polynômes $u$ tels que $\deg u \leq p$ est donc un sous-A-module de $A[(X_i)_{i \in I}]$, égal à $P_0 + P_1 + \cdots + P_p$ avec les notations ci-dessus.
+Soit $u = \sum_{\nu \in \mathbf{N}^{(I)}} \alpha_\nu X^\nu$ un polynôme. La composante homogène $u_n$ de degré $n$ de $u$ (pour la graduation de type $\mathbf{N}$ définie ci-dessus) est égale à $\sum_{|\nu|=n} \alpha_\nu X^\nu$, et l’on a évidemment $u = \sum_{n \in \mathbf{N}} u_n$. Lorsque $u \neq 0$, les $u_n$ ne sont pas tous nuls, et l’on appelle degré (ou degré total) de $u$, et l’on note $\deg u$, le plus grand des entiers $n$ tels que $u_n \neq 0$; autrement dit (III, p. 26), le degré de $u$ est le plus grand des entiers $|\nu|$ pour les multiindices $\nu$ tels que $\alpha_\nu \neq 0$. Lorsque $u = 0$, le degré de $u$ est égal par convention à $-\infty$. Pour tout entier $p \in \mathbf{N}$, la relation $\deg u \leq p$ équivaut donc à « $\alpha_\nu = 0$ pour tout multiindice $\nu$ tel que $|\nu| > p$ » ; l’ensemble des polynômes $u$ tels que $\deg u \leq p$ est donc un sous-A-module de $A[(X_i)_{i \in I}]$, égal à $P_0 + P_1 + \cdots + P_p$ avec les notations ci-dessus.
 
 Soit E un A-module. La famille $(E \otimes P_n)_{n \in \mathbf{N}}$ est une graduation de type $\mathbf{N}$ du module $E[(X_i)_{i \in I}] = E \otimes_A A[(X_i)_{i \in I}]$ des polynômes à coefficients dans E. On étend à ce cas les conventions adoptées plus haut pour le degré des polynômes non homogènes.
 
@@ -191,7 +191,7 @@ $$
 
 #### Remarque {#alg-iv-s1-n3-rem-1 .statement}
 
-Soit $x \in \mathbf{A}'$. Soit $f$ l’application $u \mapsto u(x)$ de $\mathbf{A}[X]$ dans $\mathbf{A}$. Soit $M$ un $\mathbf{A}$-module. Considérons l’homomorphisme $1 \otimes f$ de $M[X] = M \otimes_A \mathbf{A}[X]$ dans $M \otimes_A \mathbf{A} = M$. Pour tout $v \in M[X]$, on a $(1 \otimes f)(v) = v(x)$. Si $v = \sum_{v \in \mathbf{N}^{(I)}} e_v X^v$, on a $v(x) = \sum_{v \in \mathbf{N}^{(I)}} x^v e_v$.
+Soit $x \in \mathbf{A}'$. Soit $f$ l’application $u \mapsto u(x)$ de $\mathbf{A}[X]$ dans $\mathbf{A}$. Soit $M$ un $\mathbf{A}$-module. Considérons l’homomorphisme $1 \otimes f$ de $M[X] = M \otimes_A \mathbf{A}[X]$ dans $M \otimes_A \mathbf{A} = M$. Pour tout $v \in M[X]$, on a $(1 \otimes f)(v) = v(x)$. Si $v = \sum_{\nu \in \mathbf{N}^{(I)}} e_\nu X^\nu$, on a $v(x) = \sum_{\nu \in \mathbf{N}^{(I)}} x^\nu e_\nu$.
 
 ### 4. Différentielles et dérivations
 
@@ -201,20 +201,20 @@ $$
 D_i X_i = 1 , \quad D_i X_j = 0 \quad \text{pour } j \neq i .
 $$
 
-Le polynôme $D_i P$ s’appelle la dérivée partielle de $P$ par rapport à $X_i$; on le note aussi $D_{X_i} P$, ou $\frac{\partial P}{\partial X_i}$, ou $P'_{X_i}$. D’après III, p. 123, formule (21), on a, si $v = (v_j) \in \mathbf{N}^{(I)}$,
+Le polynôme $D_i P$ s’appelle la dérivée partielle de $P$ par rapport à $X_i$; on le note aussi $D_{X_i} P$, ou $\frac{\partial P}{\partial X_i}$, ou $P'_{X_i}$. D’après III, p. 123, formule (21), on a, si $v = (\nu_j) \in \mathbf{N}^{(I)}$,
 
 $$
-D_i (X^v) = \begin{cases}
-v_i X_i^{v_i - 1} \prod_{j \in I - \{i\}} X_j^{v_j} & \text{si } v_i > 0 \\
-0 & \text{si } v_i = 0 .
+D_i (X^\nu) = \begin{cases}
+\nu_i X_i^{\nu_i - 1} \prod_{j \in I - \{i\}} X_j^{\nu_j} & \text{si } \nu_i > 0 \\
+0 & \text{si } \nu_i = 0 .
 \end{cases}
 $$
 
-On déduit de (6) que $D_i D_j = D_j D_i$ quels que soient $i, j \in I$. Pour $v = (v_i)_{i \in I} \in \mathbf{N}^{(I)}$, on pose $D^v = \prod_{i \in I} D_i^{v_i}$ et $v! = \prod_{i \in I} (v_i!)$. Munissons $\mathbf{N}^{(I)}$ de l’ordre produit. On a
+On déduit de (6) que $D_i D_j = D_j D_i$ quels que soient $i, j \in I$. Pour $v = (\nu_i)_{i \in I} \in \mathbf{N}^{(I)}$, on pose $D^\nu = \prod_{i \in I} D_i^{\nu_i}$ et $\nu! = \prod_{i \in I} (\nu_i!)$. Munissons $\mathbf{N}^{(I)}$ de l’ordre produit. On a
 
 $$
-D^v (X^\mu) = \begin{cases}
-\frac{\mu!}{(\mu - v)!} X^{\mu - v} & \text{si } v \leq \mu , \\
+D^\nu (X^\mu) = \begin{cases}
+\frac{\mu!}{(\mu - \nu)!} X^{\mu - \nu} & \text{si } \nu \leq \mu , \\
 0 & \text{sinon} .
 \end{cases}
 $$
@@ -249,10 +249,10 @@ $$
 
 C’est le cas particulier $E = \mathbf{A}[Y_1, ..., Y_q]$, $x_i = g_i$ et $D = \partial / \partial Y_j$ de la prop. 4.
 
-Soient $\mathbf{X} = (X_i)_{i \in I}$, $\mathbf{Y} = (Y_i)_{i \in I}$ deux familles disjointes d’indéterminées. Notons $\mathbf{X} + \mathbf{Y}$ la famille $(X_i + Y_i)_{i \in I}$. Soit $u \in \mathbf{A}[\mathbf{X}]$. Considérons l’élément $u(\mathbf{X} + \mathbf{Y})$ de $\mathbf{A}[\mathbf{X}, \mathbf{Y}]$. Pour $v \in \mathbf{N}^{(I)}$, on note $\Delta^v u$ le coefficient de $\mathbf{Y}^v$ dans $u(\mathbf{X} + \mathbf{Y})$, considéré comme polynôme en les $Y_i$ à coefficients dans $\mathbf{A}[\mathbf{X}]$. On a par définition $\Delta^v u \in \mathbf{A}[\mathbf{X}]$ et
+Soient $\mathbf{X} = (X_i)_{i \in I}$, $\mathbf{Y} = (Y_i)_{i \in I}$ deux familles disjointes d’indéterminées. Notons $\mathbf{X} + \mathbf{Y}$ la famille $(X_i + Y_i)_{i \in I}$. Soit $u \in \mathbf{A}[\mathbf{X}]$. Considérons l’élément $u(\mathbf{X} + \mathbf{Y})$ de $\mathbf{A}[\mathbf{X}, \mathbf{Y}]$. Pour $\nu \in \mathbf{N}^{(I)}$, on note $\Delta^\nu u$ le coefficient de $\mathbf{Y}^\nu$ dans $u(\mathbf{X} + \mathbf{Y})$, considéré comme polynôme en les $Y_i$ à coefficients dans $\mathbf{A}[\mathbf{X}]$. On a par définition $\Delta^\nu u \in \mathbf{A}[\mathbf{X}]$ et
 
 $$
-u(\mathbf{X} + \mathbf{Y}) = \sum_v (\Delta^v u) (\mathbf{X}) \mathbf{Y}^v.
+u(\mathbf{X} + \mathbf{Y}) = \sum_\nu (\Delta^\nu u) (\mathbf{X}) \mathbf{Y}^\nu.
 $$
 
 (Ici et dans la suite de ce numéro, les sommations portent sur l’ensemble d’indices $\mathbf{N}^{(I)}$, sauf mention du contraire.)
@@ -260,32 +260,32 @@ $$
 Soit $a \in \mathbf{A}^I$. En substituant $a$ à $\mathbf{X}$ et $\mathbf{X} - a$ à $\mathbf{Y}$ dans (9), on obtient
 
 $$
-u(\mathbf{X}) = \sum_v (\Delta^v u) (a) (\mathbf{X} - a)^v.
+u(\mathbf{X}) = \sum_\nu (\Delta^\nu u) (a) (\mathbf{X} - a)^\nu.
 $$
 
 En particulier, on a
 
 $$
-u(\mathbf{X}) = \sum_v (\Delta^v u) (0) \mathbf{X}^v.
+u(\mathbf{X}) = \sum_\nu (\Delta^\nu u) (0) \mathbf{X}^\nu.
 $$
 
 Si $u, v \in \mathbf{A}[\mathbf{X}]$, on a
 
 $$
-(uv)(\mathbf{X} + \mathbf{Y}) = (\sum_v (\Delta^v u) (\mathbf{X}) \mathbf{Y}^v) (\sum_\rho (\Delta^\rho v) (\mathbf{X}) \mathbf{Y}^\rho)
-= \sum_\sigma \left[ \sum_{v+\rho=\sigma} (\Delta^v u) (\mathbf{X}) (\Delta^\rho v) (\mathbf{X}) \right] \mathbf{Y}^\sigma
+(uv)(\mathbf{X} + \mathbf{Y}) = (\sum_\nu (\Delta^\nu u) (\mathbf{X}) \mathbf{Y}^\nu) (\sum_\rho (\Delta^\rho v) (\mathbf{X}) \mathbf{Y}^\rho)
+= \sum_\sigma \left[ \sum_{\nu+\rho=\sigma} (\Delta^\nu u) (\mathbf{X}) (\Delta^\rho v) (\mathbf{X}) \right] \mathbf{Y}^\sigma
 $$
 
 donc
 
 $$
-\Delta^\sigma (uv) = \sum_{v+\rho=\sigma} (\Delta^v u) (\Delta^\rho v).
+\Delta^\sigma (uv) = \sum_{\nu+\rho=\sigma} (\Delta^\nu u) (\Delta^\rho v).
 $$
 
 Soit $\mathbf{Z} = (Z_i)_{i \in I}$ une autre famille d’indéterminées. On a :
 
 $$
-\sum_v (\Delta^v u) (\mathbf{X}) (\mathbf{Y} + \mathbf{Z})^v = u(\mathbf{X} + \mathbf{Y} + \mathbf{Z})
+\sum_\nu (\Delta^\nu u) (\mathbf{X}) (\mathbf{Y} + \mathbf{Z})^\nu = u(\mathbf{X} + \mathbf{Y} + \mathbf{Z})
 = \sum_\sigma (\Delta^\sigma u) (\mathbf{X} + \mathbf{Y}) \mathbf{Z}^\sigma
 = \sum_{\rho, \sigma} (\Delta^\rho \Delta^\sigma u) (\mathbf{X}) \mathbf{Y}^\rho \mathbf{Z}^\sigma,
 $$
@@ -298,31 +298,31 @@ $$
 
 #### Proposition 5 {#alg-iv-s1-prop-5 .statement}
 
-Quels que soient $u \in A[X]$ et $v \in \mathbf{N}^{(l)}$, on a
+Quels que soient $u \in A[X]$ et $\nu \in \mathbf{N}^{(l)}$, on a
 
 $$
-D^v u = v! \Delta^v u .
+D^\nu u = \nu! \Delta^\nu u .
 $$
 
-Supposons d’abord que $v$ soit de longueur 1 ; il existe alors un élément $i$ de $I$ tel que $v = \varepsilon_i$, c’est-à-dire $v_i = 1$ et $v_j = 0$ pour tout $j \neq i$ dans $I$. La formule (12) montre que $\Delta^{\varepsilon_i}$ est une dérivation de la $A$-algèbre $A[X]$, qui annule évidemment $X_j$ pour $j \neq i$ et prend la valeur 1 sur $X_i$. On a donc $\Delta^{\varepsilon_i} = D_i$ pour tout $i \in I$.
+Supposons d’abord que $\nu$ soit de longueur 1 ; il existe alors un élément $i$ de $I$ tel que $\nu = \varepsilon_i$, c’est-à-dire $\nu_i = 1$ et $\nu_j = 0$ pour tout $j \neq i$ dans $I$. La formule (12) montre que $\Delta^{\varepsilon_i}$ est une dérivation de la $A$-algèbre $A[X]$, qui annule évidemment $X_j$ pour $j \neq i$ et prend la valeur 1 sur $X_i$. On a donc $\Delta^{\varepsilon_i} = D_i$ pour tout $i \in I$.
 
 D’après la formule (13), on a
 
 $$(14)$$
 $$(\rho! \Delta^\rho).( \sigma! \Delta^\sigma ) = (\rho + \sigma)! \Delta^{\rho+\sigma}$$
 
-dans l’algèbre des endomorphismes du $A$-module $A[X]$. On en déduit $v! \Delta^v = D^v$ par récurrence sur la longueur de $v$.
+dans l’algèbre des endomorphismes du $A$-module $A[X]$. On en déduit $\nu! \Delta^\nu = D^\nu$ par récurrence sur la longueur de $v$.
 
 Si $A$ est une $\mathbf{Q}$-algèbre, les formules (9), (10), (11) peuvent donc s’écrire
 
 $$(15)$$
-$$u(X + Y) = \sum_v \frac{1}{v!} (D^v u)(X) Y^v$$
+$$u(X + Y) = \sum_\nu \frac{1}{\nu!} (D^\nu u)(X) Y^\nu$$
 
 $$(16)$$
-$$u(X) = \sum_v \frac{1}{v!} (D^v u)(a) (X - a)^v$$
+$$u(X) = \sum_\nu \frac{1}{\nu!} (D^\nu u)(a) (X - a)^\nu$$
 
 $$(17)$$
-$$u(X) = \sum_v \frac{1}{v!} (D^v u)(0) X^v .$$
+$$u(X) = \sum_\nu \frac{1}{\nu!} (D^\nu u)(0) X^\nu .$$
 
 Les formules (15), (16), (17) s’appellent toutes trois « formule de Taylor ».
 

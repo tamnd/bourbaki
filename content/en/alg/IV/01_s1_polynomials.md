@@ -45,7 +45,7 @@ subsections:
       pdf_page: 22
 statements: 30
 exercises: 5
-content_sha256: b8b80d9898f9cf21392fb6f0bb0bbc23767e2fcb884e61793b42fec1a38a96d4
+content_sha256: 9362bb420a6ac189e2cb718bf3d352a39d364cc2fbcd8f27c7d221863b22c9f9
 ---
 
 ## § 1. POLYNOMIALS
@@ -68,12 +68,12 @@ $$
 
 where $a_\nu \in \mathbf{A}$ and the $\alpha_\nu$ are zero except for a finite number; the $a_\nu$ are called the *coefficients* of $u$; the $\alpha_\nu X^\nu$ are called the *terms* of $u$ (often the element $\alpha_\nu X^\nu$ is called the term in $X^\nu$), in particular the term of $\alpha_0 X^0$, identified with $a_0$, is called the *constant term* of $u$. When $\alpha_\nu = 0$, we say by abuse of language that $u$ *contains no element* in $X^\nu$; in particular when $\alpha_0 = 0$, we say that $u$ is a polynomial *without constant term* (III, p. 453). Any scalar multiple of 1 is called a *constant polynomial*.
 
-Let B be a commutative ring and $\rho : A \to B$ a ring homomorphism. We consider $B[(X_i)_{i \in I}]$ as an A-algebra by means of $\rho$. Thus the mapping $\sigma$ of $A[(X_i)_{i \in I}]$ into $B[(X_i)_{i \in I}]$ which transforms $\sum \alpha_v X^\nu$ into $\sum \rho(\alpha_v) X^\nu$ is a homomorphism of A-algebras; if $u \in A[(X_i)_{i \in I}]$, we sometimes denote by $^\rho u$ the image of $u$ by this homomorphism. The homomorphism of $B \otimes_A A[(X_i)_{i \in I}]$ into $B[(X_i)_{i \in I}]$ canonically defined by $\sigma$ transforms, for every $i \in I$, $1 \otimes X_i$ into $X_i$; this is an isomorphism of B-algebras (III, p. 449).
+Let B be a commutative ring and $\rho : A \to B$ a ring homomorphism. We consider $B[(X_i)_{i \in I}]$ as an A-algebra by means of $\rho$. Thus the mapping $\sigma$ of $A[(X_i)_{i \in I}]$ into $B[(X_i)_{i \in I}]$ which transforms $\sum \alpha_\nu X^\nu$ into $\sum \rho(\alpha_\nu) X^\nu$ is a homomorphism of A-algebras; if $u \in A[(X_i)_{i \in I}]$, we sometimes denote by $^\rho u$ the image of $u$ by this homomorphism. The homomorphism of $B \otimes_A A[(X_i)_{i \in I}]$ into $B[(X_i)_{i \in I}]$ canonically defined by $\sigma$ transforms, for every $i \in I$, $1 \otimes X_i$ into $X_i$; this is an isomorphism of B-algebras (III, p. 449).
 
 Let M be a free A-module with basis $(e_i)_{i \in I}$. There exists precisely one unital homomorphism $\varphi$ of the symmetric algebra $S(M)$ into the algebra $A[(X_i)_{i \in I}]$ such that $\varphi(e_i) = X_i$ for each $i \in I$, and this homomorphism is an isomorphism (III, p. 506). This isomorphism is said to be canonical. It allows us to apply to polynomial algebras certain properties of symmetric algebras. For example, let $(I_1), \ldots, L$ be a partition of I. Let $\varphi_\lambda$ be the homomorphism of $P_\lambda = A[(X_i)_{i \in I_\lambda}]$ into $P = A[(X_i)_{i \in I}]$ which transforms $X_i$ (qua element of $P_\lambda$) into $X_i$ (qua element of P). Then the $\varphi_\lambda$ define a homomorphism of the algebra $\bigotimes_{h \in L} P_\lambda$ into the algebra P,
 and this homomorphism is an isomorphism (III, p. 503, Prop. 9).
 
-Let E be an A-module, and put $E \otimes_A A[(X_i)_{i \in I}] = E[(X_i)_{i \in I}]$. The elements of the A-module $E[(X_i)_{i \in I}]$ are called polynomials in the indeterminates $X_i$ with coefficients in E. Such a polynomial can be written in just one way as $\sum_{v \in \mathbf{N}^{(I)}} e_v \otimes X^\nu$, where $e_v \in E$ and the $e_v$ are zero for all but a finite number of suffixes; we frequently write $e_v X^\nu$ instead of $e_v \otimes X^\nu$.
+Let E be an A-module, and put $E \otimes_A A[(X_i)_{i \in I}] = E[(X_i)_{i \in I}]$. The elements of the A-module $E[(X_i)_{i \in I}]$ are called polynomials in the indeterminates $X_i$ with coefficients in E. Such a polynomial can be written in just one way as $\sum_{\nu \in \mathbf{N}^{(I)}} e_\nu \otimes X^\nu$, where $e_\nu \in E$ and the $e_\nu$ are zero for all but a finite number of suffixes; we frequently write $e_\nu X^\nu$ instead of $e_\nu \otimes X^\nu$.
 
 ### 2. Degrees
 
@@ -85,7 +85,7 @@ $$
 -\infty < n , \quad (-\infty) + n = n + (-\infty) = -\infty , \quad (-\infty) + (-\infty) = -\infty .
 $$
 
-Let $u = \sum_{v \in \mathbf{N}^{(I)}} \alpha_v X^\nu$ be a polynomial. The homogeneous component $u_n$ of degree n of $u$ (for the graduation of type N defined above) is equal to $\sum_{|\nu|=n} \alpha_\nu X^\nu$, and we clearly have $u = \sum_{n \in \mathbf{N}} u_n$. If $u \neq 0$, the $u_n$ are not all zero, and we define the *degree* (or *total degree*) of $u$, written $\deg u$, as the greatest of the numbers $n$ such that $u_n \neq 0$; in other words (III, p. 453), the degree of $u$ is the largest of the integers $|\nu|$ for the multi-indices $\nu$ such that $a_\nu \neq 0$. When $u = 0$, the degree of $u$ is $-\infty$ by convention. For every integer $p \in \mathbf{N}$, the relation $\deg u \leq p$ is thus equivalent to « $a_\nu = 0$ for every multi-index $\nu$ with $|\nu| > p$ »; the set of polynomials $u$ such that $\deg u \leq p$ is thus an A-submodule of $A[(X_i)_{i \in I}]$, equal to $P_0 + P_1 + \ldots + P_p$ with the above notations.
+Let $u = \sum_{\nu \in \mathbf{N}^{(I)}} \alpha_\nu X^\nu$ be a polynomial. The homogeneous component $u_n$ of degree n of $u$ (for the graduation of type N defined above) is equal to $\sum_{|\nu|=n} \alpha_\nu X^\nu$, and we clearly have $u = \sum_{n \in \mathbf{N}} u_n$. If $u \neq 0$, the $u_n$ are not all zero, and we define the *degree* (or *total degree*) of $u$, written $\deg u$, as the greatest of the numbers $n$ such that $u_n \neq 0$; in other words (III, p. 453), the degree of $u$ is the largest of the integers $|\nu|$ for the multi-indices $\nu$ such that $a_\nu \neq 0$. When $u = 0$, the degree of $u$ is $-\infty$ by convention. For every integer $p \in \mathbf{N}$, the relation $\deg u \leq p$ is thus equivalent to « $a_\nu = 0$ for every multi-index $\nu$ with $|\nu| > p$ »; the set of polynomials $u$ such that $\deg u \leq p$ is thus an A-submodule of $A[(X_i)_{i \in I}]$, equal to $P_0 + P_1 + \ldots + P_p$ with the above notations.
 
 Let E be an A-module. The family $(E \otimes P_n)_{n \in \mathbf{N}}$ is a graduation of type N of the module $E[(X_i)_{i \in I}] = E \otimes_A A[(X_i)_{i \in I}]$ of polynomials with coefficients in E. We extend the conventions adopted above for the degree of inhomogeneous polynomials to this case.
 

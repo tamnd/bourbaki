@@ -53,7 +53,7 @@ subsections:
       pdf_page: 44
 statements: 24
 exercises: 8
-content_sha256: c4648703f719b739079564df913d9acedd14990c89e5fd71692ed49df40f0ba6
+content_sha256: f82cd48759fd385cc68b2172e02d2c0113dd54d7b1406896e24e1810c2a3012c
 ---
 
 ## § 4. SÉRIES FORMELLES
@@ -64,9 +64,9 @@ Soit I un ensemble. Rappelons (III, p. 27 et 28) que l’algèbre large du mono�
 
 Lorsque I est un ensemble fini à $p$ éléments, on dit encore que $A[[I]]$ est une algèbre de séries formelles en $p$ indéterminées. Ces algèbres sont toutes isomorphes pour $p$ fixé. Une algèbre de séries formelles à 1, 2, ... indéterminées peut ainsi se noter $A[[X]], A[[U, V]], \ldots$, l’ensemble d’indices I étant non spécifié.
 
-Une série formelle $u$ s’écrit conventionnellement $u = \sum_{v \in \mathbf{N}^{(I)}} \alpha_v X^v$ (cf. IV, p. 1).
+Une série formelle $u$ s’écrit conventionnellement $u = \sum_{\nu \in \mathbf{N}^{(I)}} \alpha_\nu X^\nu$ (cf. IV, p. 1).
 
-Les $\alpha_v$ sont les coefficients de $u$; une infinité d’entre eux peuvent être $\neq 0$. Les $\alpha_v X^v$ s’appellent les termes de $u$; pour que $u$ soit un polynôme, il faut et il suffit que $u$ ne possède qu’un nombre fini de termes $\neq 0$. Les termes $\alpha_v X^v$ tels que $|v| = p$ s’appellent les termes de degré total $p$. La série formelle $u_p = \sum_{|v|=p} \alpha_v X^v$ s’appelle la composante homogène de degré $p$ de $u$ (c’est un polynôme lorsque I est fini); $u_0$ s’identifie à un élément de A dit encore terme constant de $u$. On dit que $u$ est homogène de degré $p$ si $u = u_p$. Si $u, v \in A[[I]]$ et $w = uv$, on a
+Les $\alpha_\nu$ sont les coefficients de $u$; une infinité d’entre eux peuvent être $\neq 0$. Les $\alpha_\nu X^\nu$ s’appellent les termes de $u$; pour que $u$ soit un polynôme, il faut et il suffit que $u$ ne possède qu’un nombre fini de termes $\neq 0$. Les termes $\alpha_\nu X^\nu$ tels que $|\nu| = p$ s’appellent les termes de degré total $p$. La série formelle $u_p = \sum_{|\nu|=p} \alpha_\nu X^\nu$ s’appelle la composante homogène de degré $p$ de $u$ (c’est un polynôme lorsque I est fini); $u_0$ s’identifie à un élément de A dit encore terme constant de $u$. On dit que $u$ est homogène de degré $p$ si $u = u_p$. Si $u, v \in A[[I]]$ et $w = uv$, on a
 
 $$
 w_p = \sum_{q+r=p} u_q v_r
@@ -94,7 +94,7 @@ quelles que soient les séries formelles $u$ et $v$ dans $A[[I]]$.
 
 Rappelons (III, p. 29) que pour toute partie $J$ de $I$, on identifie $A[[I]]$ à $A[[I - J]] [[J]]$, ce qui permet de définir l’ordre $\omega_J(u)$ d’une série formelle par rapport aux $X_j$ ($j \in J$), la composante homogène de $u$ par rapport aux $X_j$ ($j \in J$), etc.
 
-Soit $\varphi$ un homomorphisme de $A$ dans un anneau $B$. On prolonge $\varphi$ en un homomorphisme $\overline{\varphi}$ de $A[[I]]$ dans $B[[I]]$ en faisant correspondre à toute série formelle $u = \sum_v \alpha_v X^v$ la série formelle $\sum_v \varphi(\alpha_v) X^v$; on dit que cette dernière est obtenue en appliquant $\varphi$ aux coefficients de la série formelle $u$. On écrit parfois $^\varphi u$ pour $\overline{\varphi}(u)$.
+Soit $\varphi$ un homomorphisme de $A$ dans un anneau $B$. On prolonge $\varphi$ en un homomorphisme $\overline{\varphi}$ de $A[[I]]$ dans $B[[I]]$ en faisant correspondre à toute série formelle $u = \sum_\nu \alpha_\nu X^\nu$ la série formelle $\sum_\nu \varphi(\alpha_\nu) X^\nu$; on dit que cette dernière est obtenue en appliquant $\varphi$ aux coefficients de la série formelle $u$. On écrit parfois $^\varphi u$ pour $\overline{\varphi}(u)$.
 
 En particulier, si $A$ est un sous-anneau de $B$, et si $\varphi$ est l’injection canonique de $A$ dans $B$, l’homomorphisme $\overline{\varphi}$ de $A[[I]]$ dans $B[[I]]$ est injectif ; nous identifierons en général $A[[I]]$ par $\overline{\varphi}$ à un sous-anneau de $B[[I]]$.
 
@@ -102,24 +102,24 @@ En particulier, si $A$ est un sous-anneau de $B$, et si $\varphi$ est l’inject
 
 Par définition, l’ensemble $A[[I]]$ n’est autre que l’ensemble produit $A^{N^{(I)}}$. Sauf mention expresse du contraire, on munira $A$ de la topologie discrète et $A[[I]]$ de la topologie produit (TG, I, p. 24) qu’on appelle la topologie canonique. Muni de l’addition et de la topologie discrète, $A$ est un groupe topologique séparé et complet ; par suite, pour l’addition, $A[[I]]$ est un groupe topologique séparé et complet (TG, III, p. 17 et 21 et TG, II, p. 17). De plus, l’algèbre $A[(X_i)_{i \in I}]$ des polynômes est dense dans $A[[I]]$ (TG, III, p. 17, prop. 25), et l’on peut donc considérer $A[[I]]$ comme le complété de $A[(X_i)_{i \in I}]$.
 
-Pour tout $\beta \in N^{(I)}$, soit $S_\beta$ l’ensemble des multiindices $v$ tels que $v \leq \beta$, et soit $a_\beta$ l’ensemble des séries formelles $u = \sum_v \alpha_v X^v$ telles que $\alpha_v = 0$ pour $v \in S_\beta$. Il est clair que $S_\beta$ est une partie finie de $N^{(I)}$, et que toute partie finie de $N^{(I)}$ est contenue dans un ensemble de la forme $S_\beta$. Par suite, la famille $(a_\beta)_{\beta \in N^{(I)}}$ est un système fondamental de voisinages de 0 dans $A[[I]]$. Les ensembles $a_\beta$ sont des idéaux de $A[[I]]$, donc (TG, III, p. 49) $A[[I]]$ est un anneau topologique.
+Pour tout $\beta \in N^{(I)}$, soit $S_\beta$ l’ensemble des multiindices $\nu$ tels que $\nu \leq \beta$, et soit $a_\beta$ l’ensemble des séries formelles $u = \sum_\nu \alpha_\nu X^\nu$ telles que $\alpha_\nu = 0$ pour $\nu \in S_\beta$. Il est clair que $S_\beta$ est une partie finie de $N^{(I)}$, et que toute partie finie de $N^{(I)}$ est contenue dans un ensemble de la forme $S_\beta$. Par suite, la famille $(a_\beta)_{\beta \in N^{(I)}}$ est un système fondamental de voisinages de 0 dans $A[[I]]$. Les ensembles $a_\beta$ sont des idéaux de $A[[I]]$, donc (TG, III, p. 49) $A[[I]]$ est un anneau topologique.
 
 #### Lemme 1 {#alg-iv-s4-lem-1 .statement}
 
-Soient $L$ un ensemble infini et $(u_\lambda)_{\lambda \in L}$ une famille d’éléments de $A[[I]]$. Posons $u_\lambda = \sum_v \alpha_{\lambda,v} X^v$ pour $\lambda \in L$. Les conditions suivantes sont équivalentes :
+Soient $L$ un ensemble infini et $(u_\lambda)_{\lambda \in L}$ une famille d’éléments de $A[[I]]$. Posons $u_\lambda = \sum_\nu \alpha_{\lambda,\nu} X^\nu$ pour $\lambda \in L$. Les conditions suivantes sont équivalentes :
 
 (i) La famille $(u_\lambda)_{\lambda \in L}$ est sommable (TG, III, p. 37) dans $A[[I]]$.
 (ii) On a $\lim u_\lambda = 0$ selon le filtre des complémentaires des parties finies de $L$.
-(iii) Pour tout $v \in N^{(I)}$, on a $\alpha_{\lambda,v} = 0$ sauf pour un nombre fini d’indices $\lambda \in L$.
+(iii) Pour tout $\nu \in N^{(I)}$, on a $\alpha_{\lambda,\nu} = 0$ sauf pour un nombre fini d’indices $\lambda \in L$.
 
-Si ces conditions sont remplies, la série $u = \sum_{\lambda \in L} u_\lambda$ est égale à $\sum_v \alpha_v X^v$ avec $\alpha_v = \sum_{\lambda \in L} \alpha_{\lambda,v}$ pour tout $v \in \mathbf{N}^{(l)}$.
+Si ces conditions sont remplies, la série $u = \sum_{\lambda \in L} u_\lambda$ est égale à $\sum_\nu \alpha_\nu X^\nu$ avec $\alpha_\nu = \sum_{\lambda \in L} \alpha_{\lambda,\nu}$ pour tout $\nu \in \mathbf{N}^{(l)}$.
 
 L’équivalence de (i) et (ii) résulte du cor. 2 de TG, III, p. 39.
 L’équivalence de (ii) et (iii) résulte des propriétés des limites dans un espace produit (TG, I, p. 51, cor. 1).
 La dernière assertion résulte de la prop. 4 de TG, III, p. 41.
 
 Donnons quelques exemples de familles sommables.
-a) Soit $u \in \mathbf{A}[[\mathbf{I}]]$ et soit $\alpha_v$ le coefficient de $X^v$ dans $u$. La famille $(\alpha_v X^v)_{v \in \mathbf{N}^{(l)}}$ est alors sommable de somme $u$ (ce qui justifie l’écriture $u = \sum_v \alpha_v X^v$).
+a) Soit $u \in \mathbf{A}[[\mathbf{I}]]$ et soit $\alpha_\nu$ le coefficient de $X^\nu$ dans $u$. La famille $(\alpha_\nu X^\nu)_{\nu \in \mathbf{N}^{(l)}}$ est alors sommable de somme $u$ (ce qui justifie l’écriture $u = \sum_\nu \alpha_\nu X^\nu$).
 
 b) Soit $u \in \mathbf{A}[[\mathbf{I}]]$; pour tout entier $p \geq 0$, soit $u_p$ la composante homogène de degré $p$ de $u$. Alors la famille $(u_p)_{p \in \mathbf{N}}$ est sommable et l’on a $u = \sum_{p \geq 0} u_p$.
 
@@ -135,7 +135,7 @@ Soient $(u_\lambda)_{\lambda \in L}$ et $(v_\mu)_{\mu \in M}$ deux familles somm
 $$
 \sum_{(\lambda, \mu) \in L \times M} u_\lambda v_\mu = (\sum_{\lambda \in L} u_\lambda) (\sum_{\mu \in M} v_\mu).
 $$
-Soit $(\alpha_{\lambda,v})_{v \in \mathbf{N}^{(l)}}$ (resp. $(\beta_{\mu,v})_{v \in \mathbf{N}^{(l)}}$) la famille des coefficients de $u_\lambda$ (resp. $v_\mu$). Pour tout $v \in \mathbf{N}^{(l)}$, il n’existe qu’un nombre fini de couples $(v_1, v_2) \in \mathbf{N}^{(l)} \times \mathbf{N}^{(l)}$ tels que $v_1 + v_2 = v$, donc il n’existe qu’un nombre fini de couples $(\lambda, \mu) \in L \times M$ tels que le coefficient de $X^v$ dans $u_\lambda v_\mu$ soit $\neq 0$. Par suite, la famille $(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times M}$ est sommable. La formule (2) résulte alors de l’associativité de la somme (TG, III, p. 40, formule (2)).
+Soit $(\alpha_{\lambda,\nu})_{\nu \in \mathbf{N}^{(l)}}$ (resp. $(\beta_{\mu,\nu})_{\nu \in \mathbf{N}^{(l)}}$) la famille des coefficients de $u_\lambda$ (resp. $v_\mu$). Pour tout $\nu \in \mathbf{N}^{(l)}$, il n’existe qu’un nombre fini de couples $(\nu_1, \nu_2) \in \mathbf{N}^{(l)} \times \mathbf{N}^{(l)}$ tels que $\nu_1 + \nu_2 = \nu$, donc il n’existe qu’un nombre fini de couples $(\lambda, \mu) \in L \times M$ tels que le coefficient de $X^\nu$ dans $u_\lambda v_\mu$ soit $\neq 0$. Par suite, la famille $(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times M}$ est sommable. La formule (2) résulte alors de l’associativité de la somme (TG, III, p. 40, formule (2)).
 
 Dans $\mathbf{A}[[\mathbf{I}]]$, le produit est une loi de composition associative et commutative. On peut donc parler de famille multipliable d’éléments de $\mathbf{A}[[\mathbf{I}]]$, et de produit d’une famille multipliable (TG, III, p. 37, remarque 3).
 
@@ -161,14 +161,14 @@ Suivant l’ensemble ordonné filtrant $\mathscr{F}$, le membre de gauche a pour
 
 #### Proposition 3 {#alg-iv-s4-prop-3 .statement}
 
-*Soient $u = \sum_v \alpha_v X^v \in A[[I]]$, et $m$ un entier $> 0$. Pour tout $n \in \mathbf{N}$, soit $(\alpha_{v,n})_{v \in \mathbf{N}^{(1)}}$ la famille des coefficients de $u^n$. Supposons que $\alpha_0^m = 0$. On a $\alpha_{v,n} = 0$ pour $n \geq |v| + m$.
-Soient $v \in \mathbf{N}^{(1)}$ et $n \in \mathbf{N}$. On a*
+*Soient $u = \sum_\nu \alpha_\nu X^\nu \in A[[I]]$, et $m$ un entier $> 0$. Pour tout $n \in \mathbf{N}$, soit $(\alpha_{\nu,n})_{\nu \in \mathbf{N}^{(1)}}$ la famille des coefficients de $u^n$. Supposons que $\alpha_0^m = 0$. On a $\alpha_{\nu,n} = 0$ pour $n \geq |\nu| + m$.
+Soient $\nu \in \mathbf{N}^{(1)}$ et $n \in \mathbf{N}$. On a*
 
 $$
-\alpha_{v,n} = \sum_{v(1) + \cdots + v(n) = v} \alpha_{v(1)} \cdots \alpha_{v(n)}.
+\alpha_{\nu,n} = \sum_{\nu(1) + \cdots + \nu(n) = \nu} \alpha_{\nu(1)} \cdots \alpha_{\nu(n)}.
 $$
 
-Si $n \geq |v| + m$ et $v(1) + \cdots + v(n) = v$, on a $|v(1)| + \cdots + |v(n)| \leq n - m$. On a donc $v(r) = 0$ et par suite $\alpha_{v(r)} = \alpha_0$ pour au moins $m$ valeurs distinctes de $r$; on en déduit que $\alpha_{v(1)} \cdots \alpha_{v(n)} = 0$, d’où la proposition.
+Si $n \geq |\nu| + m$ et $\nu(1) + \cdots + \nu(n) = v$, on a $|\nu(1)| + \cdots + |\nu(n)| \leq n - m$. On a donc $v(r) = 0$ et par suite $\alpha_{v(r)} = \alpha_0$ pour au moins $m$ valeurs distinctes de $r$; on en déduit que $\alpha_{\nu(1)} \cdots \alpha_{\nu(n)} = 0$, d’où la proposition.
 
 #### Corollaire {#alg-iv-s4-n2-cor-1 .statement}
 
@@ -260,24 +260,24 @@ Soient $K$ un corps commutatif et $\mathfrak{D}$ le sous-anneau du corps des fra
 
 ### 5. Formule de Taylor pour les séries formelles
 
-Soient $X = (X_i)_{i \in I}$ et $Y = (Y_i)_{i \in I}$ deux familles d’indéterminées relatives au même ensemble d’indices $I$. On note $X + Y$ la famille $(X_i + Y_i)_{i \in I}$ de séries formelles dans $A[[X, Y]]$. Il est clair qu’on peut substituer $X_i + Y_i$ à $X_i$ dans une série formelle $u \in A[[X]]$, le résultat étant noté $u(X + Y)$. Pour tout $v \in \mathbf{N}^{(l)}$, on note $\Delta^v u$ le coefficient de $Y^v$ dans la série formelle $u(X + Y)$ considérée comme appartenant à $A[[X]] [[Y]]$ (III, p. 29). Autrement dit, on a
+Soient $X = (X_i)_{i \in I}$ et $Y = (Y_i)_{i \in I}$ deux familles d’indéterminées relatives au même ensemble d’indices $I$. On note $X + Y$ la famille $(X_i + Y_i)_{i \in I}$ de séries formelles dans $A[[X, Y]]$. Il est clair qu’on peut substituer $X_i + Y_i$ à $X_i$ dans une série formelle $u \in A[[X]]$, le résultat étant noté $u(X + Y)$. Pour tout $\nu \in \mathbf{N}^{(l)}$, on note $\Delta^\nu u$ le coefficient de $Y^\nu$ dans la série formelle $u(X + Y)$ considérée comme appartenant à $A[[X]] [[Y]]$ (III, p. 29). Autrement dit, on a
 
 $$
-u(X + Y) = \sum_v \Delta^v u(X) \cdot Y^v \quad (u \in A[[X]]) .
+u(X + Y) = \sum_\nu \Delta^\nu u(X) \cdot Y^\nu \quad (u \in A[[X]]) .
 $$
 
 En substituant $(0, X)$ à $(X, Y)$, on obtient
 
 $$
-u(X) = \sum_v \Delta^v u(0) \cdot X^v ;
+u(X) = \sum_\nu \Delta^\nu u(0) \cdot X^\nu ;
 $$
 
-autrement dit, le terme constant de $\Delta^v u$ est le coefficient de $X^v$ dans $u$. L’application $u \mapsto u(X + Y)$ de $A[[X]]$ dans $A[[X, Y]]$ étant continue, les applications $u \mapsto \Delta^v u$ de $A[[X]]$ dans lui-même sont continues.
+autrement dit, le terme constant de $\Delta^\nu u$ est le coefficient de $X^\nu$ dans $u$. L’application $u \mapsto u(X + Y)$ de $A[[X]]$ dans $A[[X, Y]]$ étant continue, les applications $u \mapsto \Delta^\nu u$ de $A[[X]]$ dans lui-même sont continues.
 
 Comme dans le cas des polynômes (IV, p. 7), on démontre les formules
 
 $$
-\Delta^\sigma(uv) = \sum_{v + \rho = \sigma} \Delta^v(u) \ \Delta^\rho(v) ,
+\Delta^\sigma(uv) = \sum_{v + \rho = \sigma} \Delta^\nu(u) \ \Delta^\rho(v) ,
 $$
 $$
 \Delta^\rho \Delta^\sigma u = \frac{(\rho + \sigma)!}{\rho! \ \sigma!} \Delta^{\rho + \sigma} u .
@@ -439,11 +439,11 @@ $$
 $$
 pour tout $u \in \mathbf{A}[[\mathbf{I}]]$.
 
-La série $f_i = X_i + g_i$ est sans terme constant, et lorsque $I$ est infini, $f_i$ tend vers 0 selon le filtre des complémentaires des parties finies de $I$. Par suite (IV, p. 26, prop. 4), il existe un endomorphisme continu $T$ de la $\mathbf{A}$-algèbre $\mathbf{A}[[\mathbf{I}]]$, et un seul, tel que $T(X_i) = f_i$ pour tout $i \in I$. Pour tout $v \in \mathbf{N}^{(I)}$, posons
+La série $f_i = X_i + g_i$ est sans terme constant, et lorsque $I$ est infini, $f_i$ tend vers 0 selon le filtre des complémentaires des parties finies de $I$. Par suite (IV, p. 26, prop. 4), il existe un endomorphisme continu $T$ de la $\mathbf{A}$-algèbre $\mathbf{A}[[\mathbf{I}]]$, et un seul, tel que $T(X_i) = f_i$ pour tout $i \in I$. Pour tout $\nu \in \mathbf{N}^{(I)}$, posons
 $$
-v_v = T(X^v) - X^v = \prod_{i \in I} (X_i + g_i)^{v(i)} - \prod_{i \in I} X_i^{v(i)} ;
+v_\nu = T(X^\nu) - X^\nu = \prod_{i \in I} (X_i + g_i)^{\nu(i)} - \prod_{i \in I} X_i^{\nu(i)} ;
 $$
-les relations $\omega(g_i) \geqslant 2$ entraînent $\omega(v_v) \geqslant |v| + 1$, et la relation (23) résulte aussitôt de là.
+les relations $\omega(g_i) \geqslant 2$ entraînent $\omega(v_\nu) \geqslant |\nu| + 1$, et la relation (23) résulte aussitôt de là.
 
 Montrons que $T$ est injectif. Soit $u \in \mathbf{A}[[\mathbf{I}]]$ tel que $T(u) = 0$; d’après (23), on a $\omega(u) \geqslant \omega(u) + 1$, ce qui est impossible si $u \neq 0$, car alors $\omega(u)$ serait un entier positif.
 
@@ -453,7 +453,7 @@ $$
 (24) \quad S_n(v) = H_n(v - T(\sum_{k=0}^{n-1} S_k(v))) \quad \text{pour } n \geq 1 .
 $$
 
-Posons $S(v) = \sum_{n \geq 0} S_n(v)$. Soit $v \in \mathbf{N}^{(l)}$ et soit $n = |v|$; le coefficient $S^v(v)$ de $X^v$ dans $S(v)$ est égal à celui de $X^v$ dans $S_n(v)$; comme $S_n$ est une application continue, l’application $S^v : A[[I]] \to A$ est continue. Vu la définition de la topologie produit sur $A[[I]] = A^{\mathbf{N}^{(l)}}$, l’application $S : A[[I]] \to A[[I]]$ est continue.
+Posons $S(v) = \sum_{n \geq 0} S_n(v)$. Soit $\nu \in \mathbf{N}^{(l)}$ et soit $n = |\nu|$; le coefficient $S^\nu(v)$ de $X^\nu$ dans $S(v)$ est égal à celui de $X^\nu$ dans $S_n(v)$; comme $S_n$ est une application continue, l’application $S^\nu : A[[I]] \to A$ est continue. Vu la définition de la topologie produit sur $A[[I]] = A^{\mathbf{N}^{(l)}}$, l’application $S : A[[I]] \to A[[I]]$ est continue.
 
 Nous allons prouver la relation $T(S(v)) = v$ pour tout $v \in A[[I]]$, ce qui achèvera de prouver le lemme. Soient $v \in A[[I]]$, $u_n = S_n(v)$ et $u = S(v)$. Soit $n$ un entier positif tel que l’on ait
 
