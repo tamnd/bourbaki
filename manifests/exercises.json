@@ -1930,7 +1930,7 @@
         {
           "chapter": "VI",
           "title": "VECTORIAL INTEGRATION",
-          "total": 57,
+          "total": 66,
           "sections": [
             {
               "section": 1,
@@ -1946,10 +1946,10 @@
               "section": 2,
               "label": "int-vi-s2",
               "dir": "s2",
-              "count": 18,
+              "count": 27,
               "first": 1,
-              "last": 18,
-              "starred": 6
+              "last": 27,
+              "starred": 13
             },
             {
               "section": 3,
@@ -2473,7 +2473,7 @@
         {
           "chapter": "VI",
           "title": "Valuations",
-          "total": 72,
+          "total": 78,
           "sections": [
             {
               "section": 1,
@@ -2505,9 +2505,10 @@
               "section": 4,
               "label": "ac-vi-s4",
               "dir": "s4",
-              "count": 5,
+              "count": 11,
               "first": 1,
-              "last": 5,
+              "last": 11,
+              "starred": 5,
               "supplementary": 1
             },
             {
@@ -3156,15 +3157,15 @@
         {
           "chapter": "IV",
           "title": "COXETER GROUPS AND TITS SYSTEMS",
-          "total": 43,
+          "total": 55,
           "sections": [
             {
               "section": 1,
               "label": "lie-iv-s1",
               "dir": "s1",
-              "count": 14,
+              "count": 26,
               "first": 1,
-              "last": 14,
+              "last": 26,
               "starred": 1,
               "supplementary": 2
             },
@@ -7522,7 +7523,7 @@
         {
           "chapter": "VII",
           "title": "Mesure de Haar",
-          "total": 49,
+          "total": 55,
           "sections": [
             {
               "section": 1,
@@ -7546,10 +7547,10 @@
               "section": 3,
               "label": "int-vii-s3",
               "dir": "s3",
-              "count": 6,
+              "count": 12,
               "first": 1,
-              "last": 6,
-              "starred": 1
+              "last": 12,
+              "starred": 3
             }
           ]
         },

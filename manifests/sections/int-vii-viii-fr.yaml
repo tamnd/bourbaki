@@ -47,7 +47,7 @@ chapters:
           last_pdf_page: 118
           subsections: 3
           statements: 26
-          exercises: 6
+          exercises: 12
           extraction: ocr
           content_sha256: 768dfee427aeded9f12c9594c84f63cc38ab3411dc90105e552151ede6e554da
         - kind: appendix

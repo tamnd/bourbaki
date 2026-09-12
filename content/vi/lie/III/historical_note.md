@@ -2,893 +2,1093 @@
 book: lie
 book_title: Lie Groups and Lie Algebras
 chapter: III
-chapter_title: GROUPES DE LIE
+chapter_title: LIE GROUPS
 section: 0
 section_title: Historical Note
 kind: historical
 lang: vi
-source: lie-ii-iii-fr
-pdf_pages: 0284-0318
+source: lie-i-iii
+book_pages: 410-433
+pdf_pages: 0428-0451
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: a84baeedbf6badf8665c68175357263f1164af85b160aae4da953fb659805c73
-translated_from: content/en-mt/lie/III/historical_note.md
-source_lang: en-mt
-translation_method: machine
-source_content_sha256: fb2508285d79def2180d4ca9f1dc5ce0878f5495827c9e61ff61250d62c5d71a
-translation_model: gpt-5.4
-translation_run: translate-vi-649ce146
+content_sha256: daca4f5781ae11bc9effe6d2d0fae9982b0f74607fac6688e27836e91c3aca2d
+translated_from: content/en/lie/III/historical_note.md
+source_content_sha256: a68f0d57dc7836cb581ee65ebe1fb8698658067c5dabcb4f0a5454ae4c96c939
+translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5-6
+translation_run: translate-vi-06a1e51d
 glossary_version: 34
-glossary_terms_sha256: 19951f22a0b4464ad0211e6674c9185c372e7877b4213d7d6991b4f42f80188a
+glossary_terms_sha256: cb1e449fae174aeff44f758c61e0ef58b56be6265f36567ddef58bb0156c0bea
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 ---
 
 # GHI CHÚ LỊCH SỬ
-Các chương I đến III
 
-I. Khởi nguyên
+(Các chương I đến III)
 
-Lý thuyết này, trong gần một thế kỷ được gọi là 'lý thuyết các nhóm Lie', về cơ bản được xây dựng bởi một nhà toán học duy nhất: Sophus Lie.
-Trước khi trình bày lịch sử của nó, chúng tôi sẽ tóm tắt ngắn gọn một số công trình nghiên cứu trước đó đã chuẩn bị cho sự phát triển của nó.
+I. KHỞI NGUYÊN
 
-a) Nhóm biến đổi (Klein–Lie, 1869–1872)
+Lý thuyết, trong gần một thế kỷ được gọi là "lý thuyết các nhóm Lie", về cơ bản đã được phát triển bởi một nhà toán học: Sophus Lie.
 
-Khoảng năm 1860, lý thuyết các nhóm hoán vị của một tập hợp hữu hạn phát triển và bắt đầu được sử dụng (Serret, Kronecker, Mathieu, Jordan). Mặt khác, lý thuyết các bất biến, khi đó đang trong thời kỳ khai triển mạnh mẽ, làm cho các nhà toán học quen thuộc với một số tập hợp vô hạn các biến đổi hình học ổn định đối với hợp thành (đặc biệt là các biến đổi tuyến tính hoặc xạ ảnh). Nhưng, trước công trình năm 1868 của Jordan (VII) về 'các nhóm chuyển động' (các nhóm con đóng của nhóm các phép dời của không gian Euclid 3 chiều), dường như đã không có sự liên hệ có ý thức nào được thiết lập giữa hai dòng tư tưởng ấy.
+Trước khi bắt đầu lịch sử, chúng tôi tóm tắt ngắn gọn các nghiên cứu trước đó đã chuẩn bị con đường này.
 
-Năm 1869, Félix Klein trẻ tuổi (1849–1925), học trò của Plücker, kết bạn ở Berlin với người Na Uy Sophus Lie (1842–1899), hơn ông vài tuổi, người mà mối quan tâm chung của họ đối với 'hình học các đường thẳng' của Plücker, và đặc biệt là lý thuyết các phức đường thẳng, đã đưa họ lại gần nhau. Chính vào khoảng thời kỳ này mà Lie hình thành một trong những ý tưởng độc đáo nhất của mình, việc đưa khái niệm bất biến vào Giải tích và vào hình học vi phân; một trong những nguồn gốc của nó là nhận xét của ông rằng các phương pháp cổ điển tích phân 'bằng cầu phương' các phương trình vi phân đều dựa trên sự kiện là phương trình bất biến dưới một họ 'liên tục' các biến đổi. Từ năm 1869 có công trình đầu tiên (do Klein viết) trong đó Lie sử dụng ý tưởng này; ông nghiên cứu 'phức Reye' (tập hợp các đường thẳng cắt các mặt của một tứ diện tại 4 điểm có cùng một tỷ số chéo cho trước) và các đường cong và mặt nhận các đường thẳng của phức này làm tiếp tuyến (III a)): phương pháp của ông dựa trên tính bất biến của phức Reye dưới nhóm giao hoán 3 tham số (xuyến cực đại của $\mathbf{PGL}(4, \mathbf{C})$) để các đỉnh của tứ diện bất biến.
+(a) Các nhóm biến đổi (Klein-Lie, 1869–1872)
+Khoảng năm 1860 lý thuyết các nhóm hoán vị của một tập hợp hữu hạn đang phát triển và bắt đầu được sử dụng (Serret, Kronecker, Mathieu, Jordan). Mặt khác, lý thuyết các bất biến, đang phát triển mạnh mẽ, đã làm cho các nhà toán học quen thuộc với một số tập hợp vô hạn các biến đổi hình học ổn định đối với phép hợp thành (đặc biệt là các biến đổi tuyến tính hoặc xạ ảnh). Nhưng trước công trình của Jordan [7] năm 1868 về "các nhóm chuyển động" (các nhóm con đóng của nhóm các phép dời hình của không gian Euclid ba chiều), dường như chưa có mối liên hệ có ý thức nào được thiết lập giữa hai dòng tư tưởng này.
 
-Chính ý tưởng ấy cũng chi phối công trình do Klein và Lie cùng viết khi họ ở Paris vào mùa xuân năm 1870 (I a)); về cơ bản họ xác định các nhóm con liên thông giao hoán của nhóm xạ ảnh của mặt phẳng $\mathbf{PGL}(3, \mathbf{C})$, và nghiên cứu các tính chất hình học của các quỹ đạo của chúng (dưới tên các đường cong hay mặt V); nhờ đó họ thu được, bằng một quá trình thống nhất, các tính chất của nhiều đường cong khác nhau, đại số hoặc siêu việt, chẳng hạn như $y = cx^m$ hoặc các đường xoắn ốc lôgarit. Lời chứng của họ thống nhất trong việc nhấn mạnh ấn tượng sâu sắc mà các lý thuyết của Galois và Jordan đã gây ra cho họ (bài bình luận của Jordan về Galois đã xuất hiện trong Math. Annalen năm 1869; hơn nữa, Lie đã được nghe nói về lý thuyết Galois ngay từ năm 1863). Klein, người bắt đầu quan tâm đến các hình học phi Euclid vào năm 1871, nhìn thấy ở đó sự khởi đầu cho việc tìm kiếm một nguyên lý phân loại mọi hình học đã biết của mình, cuộc tìm kiếm sẽ dẫn ông năm 1872 đến 'chương trình Erlangen'. Về phần mình, Lie, trong một bức thư năm 1873 gửi A. Mayer (III, vol. V, p. 584), quy nguồn gốc các ý tưởng của mình về các nhóm biến đổi về thời gian ông ở Paris, và trong một công trình năm 1871 (III b)), ông đã dùng thuật ngữ 'nhóm biến đổi' và tường minh nêu ra bài toán xác định mọi nhóm con ('liên tục hoặc rời rạc') của $\mathbf{GL}(n, \mathbf{C})$.
+Năm 1869, Felix Klein trẻ tuổi (1849–1925), học trò của Plücker, đã kết bạn tại Berlin với Sophus Lie người Na Uy (1842–1899), lớn hơn ông vài tuổi, do cùng quan tâm đến "hình học đường thẳng" của Plücker và đặc biệt là lý thuyết các phức đường thẳng. Vào khoảng thời gian này Lie đã hình thành một trong những ý tưởng độc đáo nhất của mình, đó là đưa khái niệm bất biến vào Giải tích và Hình học vi phân; một trong những nguồn gốc của ý tưởng này là sự quan sát của ông rằng các phương pháp cổ điển lấy tích phân "bằng phép cầu phương" các phương trình vi phân hoàn toàn phụ thuộc vào việc phương trình là bất biến đối với một họ biến đổi "liên tục". Năm 1869 là thời điểm của công trình đầu tiên (do Klein biên tập) trong đó Lie sử dụng ý tưởng này; ở đó ông nghiên cứu "phức Reye" (tập hợp bốn đường thẳng cắt các mặt của một tứ diện tại bốn điểm có một tỉ số kép cho trước) và các đường cong, mặt cong nhận các đường thẳng của phức này làm tiếp tuyến [3 a]: phương pháp của ông phụ thuộc vào tính bất biến của phức Reye đối với nhóm giao hoán 3 tham số (xuyến cực đại của $\mathbf{PGL}(4, \mathbf{C})$) giữ các đỉnh của tứ diện bất biến. Cùng một ý tưởng đã chi phối công trình mà Klein và Lie cùng viết khi họ ở Paris vào mùa xuân năm 1870 [1, a]; ở đó họ về cơ bản đã xác định các nhóm con giao hoán liên thông của nhóm xạ ảnh của mặt phẳng $\mathbf{PGL}(3, \mathbf{C})$ và nghiên cứu các tính chất hình học của các quỹ đạo của chúng (dưới tên gọi các đường cong hoặc mặt cong V); điều này đã cho họ, bằng một phương pháp thống nhất, các tính chất của nhiều đường cong khác nhau, đại số hoặc siêu việt, chẳng hạn như $y = cx^m$ hoặc các đường xoắn logarit. Cả hai công trình đều nhấn mạnh ấn tượng sâu sắc mà các lý thuyết của Galois và Jordan đã tạo ra đối với họ (bình luận của Jordan về Galois đã xuất hiện trong Math. Annalen năm 1869; mặt khác, Lie đã nghe nói về lý thuyết Galois ngay từ năm 1863). Klein, người vào năm 1871 bắt đầu quan tâm đến các hình học phi Euclid, đã thấy ở đó sự khởi đầu của nghiên cứu của ông về một nguyên lý phân loại cho tất cả các hình học đã biết, nghiên cứu này sẽ dẫn ông đến "Chương trình Erlangen" năm 1872. Về phần mình, Lie, trong một lá thư năm 1873 gửi A. Mayer ([3], tập V, p. 584), đã ghi niên đại các ý tưởng của ông về các nhóm biến đổi từ thời gian ông ở Paris và trong một công trình năm 1871 ([3 b] p. 208) ông đã sử dụng thuật ngữ "nhóm biến đổi" và đặt ra một cách tường minh bài toán xác định tất cả các nhóm con ("liên tục hoặc gián đoạn") của $\mathbf{GL}(n, \mathbf{C})$. Thành thật mà nói, cả Klein và Lie đều đã gặp một số khó khăn khi bước vào vũ trụ toán học mới này và Klein gọi "Chuyên luận" mới xuất bản của Jordan là một "cuốn sách được niêm phong bằng bảy con dấu" ([2], p. 51); hơn nữa ông viết về [1 a] và [1 b]: "Lie xứng đáng nhận toàn bộ công lao về ý tưởng mang tính khám phá về một nhóm liên tục các toán tử, đặc biệt là mọi thứ liên quan đến việc lấy tích phân các phương trình vi phân và các đạo hàm riêng. Tất cả các khái niệm mà sau này ông phát triển trong lý thuyết các nhóm liên tục của mình đã có sẵn ở dạng mầm mống, nhưng lại được khai triển quá ít, đến mức chỉ sau những cuộc trò chuyện dài tôi mới có thể thuyết phục ông về nhiều chi tiết, chẳng hạn như trước hết là sự tồn tại thực sự của các đường cong V" ([2], p. 415).
 
-Phải nói rằng cả Klein lẫn Lie đều đã phải gặp một số khó khăn để hòa nhập vào vũ trụ toán học mới này, và Klein nói về 'Chuyên luận' của Jordan, vừa mới xuất bản, như một 'cuốn sách bị niêm phong bằng bảy ấn' (II, p. 51); ở nơi khác ông viết về (I a) và b)): 'Mọi điều liên quan đến ý tưởng kinh nghiệm về một nhóm liên tục các toán tử đều thuộc về Lie, đặc biệt là mọi điều đụng đến việc tích phân các phương trình vi phân hay các phương trình vi phân riêng phần. Mọi khái niệm mà sau này ông phát triển trong lý thuyết các nhóm liên tục của mình đều đã hiện diện ở ông dưới dạng mầm mống, nhưng tuy vậy còn ít được triển khai đến mức tôi đã phải thuyết phục ông về nhiều chi tiết, chẳng hạn lúc đầu là chính sự tồn tại của các đường cong V, trong những cuộc trò chuyện kéo dài' (II, p. 415).
+(b) Các biến đổi vi phân vô hạn
 
-b) Các biến đổi vô cùng bé
-
-Quan niệm về một biến đổi 'vô cùng bé' ít nhất cũng bắt nguồn từ buổi đầu của Phép tính Vi tích phân; ta đã biết rằng Descartes phát hiện tâm quay tức thời khi thừa nhận rằng 'trong vô cùng bé' mọi chuyển động phẳng đều có thể được đồng nhất với một phép quay; sự phát triển của Cơ học Giải tích, vào thế kỷ XVIII, hoàn toàn được xây dựng trên những ý tưởng tương tự. Năm 1851, Sylvester, khi tìm cách lập các bất biến của nhóm tuyến tính $\mathbf{GL}(3, \mathbf{C})$ hoặc của một số nhóm con của nó, cho các tham số $z_j$ xuất hiện trong các ma trận ấy những số gia 'vô cùng bé' có dạng $\alpha_j dt$, và biểu thị việc một hàm $f((z_j))$ là bất biến bằng cách viết phương trình $f((z_j + \alpha_j dt)) = f((z_j))$; điều đó cho $f$ phương trình vi phân riêng phần tuyến tính $Xf = 0$, trong đó
+Khái niệm một biến đổi "vô cùng nhỏ" ít nhất đã có từ những buổi đầu của Phép tính vi phân vô hạn; ta biết rằng Descartes đã phát hiện tâm quay tức thời khi thừa nhận rằng "trong cái vô cùng nhỏ" mọi chuyển động phẳng đều có thể được xem như một phép quay: sự phát triển của Cơ học giải tích trong thế kỷ XVIII hoàn toàn dựa trên những ý tưởng tương tự. Năm 1851, Sylvester, khi tìm cách tạo ra các bất biến của nhóm tuyến tính $\mathbf{GL}(3, \mathbf{C})$ và một số nhóm con của nó, đã cho các tham số xuất hiện trong các ma trận của mình những gia số "vô cùng nhỏ" có dạng $\alpha_j dt$ và biểu diễn sự kiện rằng một hàm $f((z_j))$ là bất biến bằng cách viết phương trình $f((z_j + \alpha_j(dt))) = f((z_j))$; điều này cho ông đối với $f$ phương trình vi phân riêng tuyến tính $Xf = 0$, trong đó
 
 $$
 Xf = \sum_j \alpha_j \frac{\partial f}{\partial z_j},
 $$
 
-$X$ vì thế là một toán tử vi phân, “đạo hàm theo phương của các tham số chỉ phương $\alpha_j$” (V, Vol. 3, p. 326 and 327); Sylvester dường như cảm thấy rằng ở đây có một nguyên lý tổng quát có phạm vi khá rộng, nhưng dường như đã không quay trở lại vấn đề này. Ít lâu sau, Cayley (VI, Vol. II, p. 164–178) tiến hành theo cùng cách đối với các bất biến của $\mathbf{SL}(2, \mathbf{C})$ trong một số biểu diễn của nhóm này và chỉ ra rằng chúng là các nghiệm của hai phương trình vi phân riêng phần cấp một $Xf = 0, Yf = 0$, trong đó $X$ và $Y$ được suy ra như trên từ các biến đổi “vô cùng bé”
+trong đó X do đó là một *toán tử vi phân*, “đạo hàm theo hướng của các tham số hướng” $\alpha_j$ ([5], tập 3, tr. 326 và 327); Sylvester dường như nghĩ rằng ở đây có một nguyên lý tổng quát có tầm quan trọng đáng kể nhưng dường như chưa bao giờ quay trở lại vấn đề này. Ít lâu sau, Cayley ([6], tập II, tr. 164–178) đã tiến hành tương tự đối với các bất biến của $\mathbf{SL}(2, \mathbf{C})$ dưới một số biểu diễn của nhóm này và chỉ ra rằng chúng là các nghiệm của hai phương trình vi phân riêng cấp một $Xf = 0, Yf = 0$, trong đó X và Y được thu được như trên từ các phép biến đổi “vô cùng nhỏ”
 
 $$
 \begin{pmatrix}
 0 & 0 \\
 dt & 0
 \end{pmatrix}
-\text{ và }
+\quad \text{và} \quad
 \begin{pmatrix}
 0 & dt \\
 0 & 0
 \end{pmatrix}.
 $$
 
-Theo cách nói hiện đại, điều này được giải thích bởi sự kiện rằng $X$ và $Y$ sinh ra đại số Lie $\mathfrak{sl}(2, \mathbf{C})$; hơn nữa Cayley tính tường minh dấu ngoặc $XY - YX$ và chỉ ra rằng nó cũng xuất phát từ một phép biến đổi “vô cùng bé”.
+Theo thuật ngữ hiện đại, điều này được biểu diễn bởi sự kiện rằng X và Y sinh đại số Lie $\mathfrak{sl}(2, \mathbf{C})$; hơn nữa Cayley đã tính một cách tường minh móc XY — YX và chỉ ra rằng nó cũng được dẫn xuất từ một phép biến đổi “vô cùng nhỏ”.
 
-Trong hồi ký năm 1868 của ông về các nhóm chuyển động (VII), Jordan dùng từ đầu đến cuối khái niệm “phép biến đổi vô cùng bé”, nhưng chỉ riêng từ quan điểm hình học. Không còn nghi ngờ gì nữa, chính ở ông mà xuất hiện ý tưởng về một nhóm một tham số được “sinh ra” bởi một phép biến đổi vô cùng bé: đối với Jordan, đó là tập hợp các phép biến đổi thu được bằng cách “lặp lại một cách thích hợp” phép biến đổi vô cùng bé (*loc. cit.*, p. 243). Klein và Lie, trong hồi ký năm 1871 của họ, dùng cùng biểu thức “phép biến đổi vô cùng bé lặp lại” (I b)), nhưng ngữ cảnh cho thấy rằng bởi đó họ muốn nói tới việc tích phân một hệ vi phân. Nếu nhóm một tham số mà họ xét được tạo bởi các phép biến đổi $x' = f(x, y, t),\ y' = g(x, y, t)$, thì “phép biến đổi vô cùng bé” tương ứng được cho bởi
-
-$$
-dx = p(x, y)\ dt,\quad dy = q(x, y)\ dt
-$$
-
-trong đó $p(x, y) = \frac{\partial f}{\partial t}(x, y, t_0),\ q(x, y) = \frac{\partial g}{\partial t}(x, y, t_0)$, và $t_0$ tương ứng với phép biến đổi đồng nhất của nhóm. Vì Klein và Lie biết tường minh các hàm $f$ và $g$, họ không gặp khó khăn gì trong việc kiểm tra rằng các hàm
+Trong hồi ký của ông năm 1868 về các nhóm chuyển động [7], Jordan đã sử dụng từ đầu đến cuối khái niệm “phép biến đổi vô cùng nhỏ”, nhưng hoàn toàn từ quan điểm hình học. Không nghi ngờ gì ông là người chịu trách nhiệm về ý tưởng một nhóm một tham số được “sinh” bởi một phép biến đổi vô cùng nhỏ: đối với Jordan, đó là tập hợp các phép biến đổi thu được bằng cách “lặp lại một cách thích hợp” phép biến đổi vô cùng nhỏ (*loc. cit.*, p. 243). Klein và Lie, trong hồi ký của họ, đã sử dụng cùng một cách diễn đạt “phép biến đổi vô cùng nhỏ lặp lại” [1 b], nhưng ngữ cảnh cho thấy rằng họ hiểu điều đó là một phép lấy tích phân của một hệ vi phân. Nếu nhóm một tham số mà họ xét bao gồm các phép biến đổi $x' = f(x, y, t),\ y' = g(x, y, t)$, thì “phép biến đổi vô cùng nhỏ” tương ứng được cho bởi
 
 $$
-t \mapsto f(x, y, t) \quad \text{ và } \quad t \mapsto g(x, y, t)
+dx = p(x, y) dt, \qquad dy = q(x, y) dt
 $$
 
-cho dưới dạng tham số đường tích phân của phương trình vi phân
+trong đó $p(x, y) = \frac{\partial f}{\partial t}(x, y, t_0),\ q(x, y) = \frac{\partial g}{\partial t}(x, y, t_0)$ và $t_0$ tương ứng với phép biến đổi đồng nhất của nhóm. Vì Klein và Lie biết tường minh các hàm $f$ và $g$, họ không gặp khó khăn nào trong việc kiểm tra rằng các hàm
+
+$$
+t \mapsto f(x, y, t) \quad \text{và} \quad t \mapsto g(x, y, t)
+$$
+
+cho dưới dạng tham số đường cong tích phân của phương trình vi phân
 
 $$
 q(\xi, \eta)\ d\xi = p(\xi, \eta)\ d\eta
 $$
 
-đi qua điểm $(x, y)$, nhưng họ không đưa ra lý do tổng quát nào cho điều này; hơn nữa về sau trong phần tiếp theo của hồi ký của họ, họ không còn dùng đến sự kiện này nữa.
+đi qua điểm $(x, y)$, nhưng họ không đưa ra lập luận tổng quát nào; hơn nữa họ không dùng sự kiện này ở bất cứ đâu trong phần còn lại của hồi ký của họ.
 
-c) Các phép biến đổi tiếp xúc
+(c) *Các phép biến đổi tiếp xúc*
 
-Trong hai năm tiếp theo, dường như Lie từ bỏ lý thuyết các nhóm phép biến đổi (mặc dù ông vẫn giữ liên hệ rất chặt chẽ với Klein, người công bố “Programme” của mình năm 1872) để nghiên cứu các phép biến đổi tiếp xúc, việc tích phân các phương trình đạo hàm riêng cấp một và các quan hệ giữa hai lý thuyết này. Ở đây chúng tôi sẽ không trình bày lịch sử của các vấn đề ấy, và sẽ chỉ hạn chế ở việc nêu ra một vài điểm dường như đã đóng một vai trò quan trọng trong sự hình thành của lý thuyết các nhóm phép biến đổi.
+Trong hai năm tiếp theo, Lie dường như từ bỏ lý thuyết các nhóm biến đổi (mặc dù ông vẫn giữ liên lạc rất chặt chẽ với Klein, người đã công bố “Chương trình” của mình vào năm 1872) để nghiên cứu các phép biến đổi tiếp xúc, phép lấy tích phân các phương trình vi phân riêng cấp một và các quan hệ giữa hai lý thuyết này. Ở đây chúng ta không quan tâm đến lịch sử của các vấn đề này và sẽ chỉ giới hạn vào việc đề cập đến một vài điểm dường như đã đóng vai trò quan trọng trong sự phát sinh của lý thuyết các nhóm biến đổi.
 
-Khái niệm phép biến đổi tiếp xúc khái quát hóa đồng thời các phép biến đổi điểm và các phép biến đổi bởi các cực đối ngẫu. Nói một cách đại khái, một phép biến đổi tiếp xúc¹ trong $\mathbf{C}^n$ là một đẳng cấu từ một tập mở $\Omega$ của đa tạp $T'(\mathbf{C}^n)$ các vectơ đối tiếp xúc của $\mathbf{C}^n$ lên một tập mở khác $\Omega'$ của $T'(\mathbf{C}^n)$ biến 1-dạng chính tắc của $\Omega$ thành 1-dạng chính tắc của $\Omega'$. Nói cách khác, nếu $(x_1, \ldots, x_n, p_1, \ldots, p_n)$ ký hiệu các tọa độ chính tắc của $T'(\mathbf{C}^n)$, thì một phép biến đổi tiếp xúc là một đẳng cấu $(x_i, p_i) \mapsto (X_i, P_i)$ thỏa mãn quan hệ $\sum_{i=1}^n P_i\, dX_i = \sum_{i=1}^n p_i\, dx_i$. Các phép biến đổi như vậy xuất hiện trong việc nghiên cứu tích phân các phương trình đạo hàm riêng có dạng
+Khái niệm phép biến đổi tiếp xúc tổng quát hóa cả các phép biến đổi điểm và các phép biến đổi cực nghịch đảo. Một cách gần đúng, một phép biến đổi tiếp xúc† trên $\mathbf{C}^n$ là một đẳng cấu của một tập con mở $\Omega$ của đa tạp $T'(\mathbf{C}^n)$ gồm các vectơ đối tiếp xúc của $\mathbf{C}^n$ lên một tập con mở khác $\Omega'$ của $T'(\mathbf{C}^n)$ ánh xạ 1-dạng chính tắc của $\Omega$ vào 1-dạng của $\Omega'$. Nói cách khác, nếu $(x_1, \ldots, x_n, p_1, \ldots, p_n)$ biểu thị các tọa độ chính tắc của $T'(\mathbf{C}^n)$, một phép biến đổi tiếp xúc là một đẳng cấu
 
 $$
-F\left(x_1, x_2, \ldots, x_n, \frac{\partial z}{\partial x_1}, \ldots, \frac{\partial z}{\partial x_n}\right) = 0.
+(x_i, p_i) \mapsto (X_i, P_i)
 $$
 
-Trong quá trình nghiên cứu các vấn đề ấy, Lie trở nên quen thuộc với việc thao tác các dấu ngoặc Poisson
+thỏa mãn quan hệ
+
+$$
+\sum_{i=1}^n P_i dX_i = \sum_{i=1}^n p_i dx_i.
+$$
+
+Các phép biến đổi như vậy xuất hiện trong việc nghiên cứu phép lấy tích phân các phương trình vi phân riêng có dạng
+
+$$
+F\left( x_1, x_2, \ldots, x_n, \frac{\partial z}{\partial x_1}, \ldots, \frac{\partial z}{\partial x_n} \right) = 0.
+$$
+
+Trong quá trình nghiên cứu các vấn đề này, Lie đã làm quen với việc thao tác các móc Poisson
 
 $$
 (f, g) = \sum_{i=1}^n \left( \frac{\partial f}{\partial x_i} \frac{\partial g}{\partial p_i} - \frac{\partial g}{\partial x_i} \frac{\partial f}{\partial p_i} \right)
 $$
 
-và các dấu ngoặc² $[X, Y] = XY - YX$ của các toán tử vi phân kiểu (1); ông giải thích dấu ngoặc Poisson (3) như là tác dụng lên $f$ của một phép biến đổi kiểu (1) liên kết với $g$, và nhân dịp này nhận thấy rằng đồng nhất thức Jacobi đối với các dấu ngoặc Poisson có nghĩa là dấu ngoặc của các toán tử vi phân tương ứng với $g$ và $h$ được liên kết với dấu ngoặc $(g, h)$. Việc tìm các hàm $g$ sao cho $(F, g) = 0$, xuất hiện trong phương pháp của Jacobi để tích phân
+và các móc‡ $[X, Y] = XY - YX$ của các toán tử vi phân kiểu (1); ông diễn giải móc Poisson (3) như tác động lên $f$ của một phép biến đổi kiểu (1) liên kết với $g$ và nhân dịp này nhận xét rằng đồng nhất thức Jacobi đối với các móc Poisson có nghĩa là móc của các toán tử vi phân tương ứng với $f$ và $g$ liên kết với móc $(g, h)$. Việc nghiên cứu các hàm $g$ sao cho $(F, g) = 0$, xuất hiện trong phương pháp của Jacobi để lấy tích phân các
 
-¹ Ở đây là vấn đề các phép biến đổi tiếp xúc “thuần nhất”. Trước đó, việc xét các phương trình kiểu (2), nhưng trong đó $z$ xuất hiện trong $F$, đã dẫn Lie tới chỗ xét các phép biến đổi tiếp xúc với $2n + 1$ biến $z, x_1, \ldots, x_n, p_1, \ldots, p_n$, trong đó vấn đề là tìm $2n + 2$ hàm $Z, P_i, X_i$ $(1 \leq i \leq n)$ và $\rho$ (hàm sau cùng này $\neq 0$ tại mọi điểm) sao cho $dZ - \sum_i P_i\, dX_i = \rho(dz - \sum_i p_i\, dx_i)$.
+† Ở đây chúng ta xét các phép biến đổi tiếp xúc “thuần nhất”. Trước đó, khi nghiên cứu các phương trình kiểu (2) nhưng với $z$ xuất hiện trong $F$, Lie đã xét các phép biến đổi tiếp xúc trong $2n + 1$ biến $z, x_1, \ldots, x_n, p_1, \ldots, p_n$, trong đó cần tìm $2n + 2$ hàm $Z, P_i, X_i$ ($1 \leq i \leq n$) và $\rho$ (hàm sau khác $0$ tại mọi điểm) sao cho $dZ - \sum_i P_i dX_i = \rho(dz - \sum_i p_i dx_i)$. Trường hợp này, dường như tổng quát hơn, có thể dễ dàng quy về trường hợp “thuần nhất” ([4], tập 2, tr. 135–146).
 
-Hơn nữa trường hợp có vẻ tổng quát hơn này dễ dàng quy về trường hợp “thuần nhất” (IV, Vol. 2, p. 135–146).
+‡ Các móc này đã xuất hiện trong lý thuyết Jacobi–Clebsch về các “hệ đầy đủ” của các phương trình vi phân riêng cấp một $X_j f = 0$ ($1 \leq j \leq r$), một khái niệm tương đương với “hệ hoàn toàn tích phân được” của Frobenius; định lý cơ bản (tương đương với “định lý Frobenius”) đặc trưng cho các hệ này là các móc $[X_i, X_j]$ phải là các tổ hợp tuyến tính (với các hệ số biến) của các $X_k$.
 
-² Các dấu ngoặc này đã xuất hiện trong lý thuyết Jacobi-Clebsch về các "hệ đầy đủ" các phương trình đạo hàm riêng cấp một $X_j f = 0$ $(1 \leq j \leq r)$, một khái niệm tương đương với khái niệm "hệ hoàn toàn khả tích" của Frobenius: định lý cơ bản (tương đương với "định lý Frobenius") đặc trưng các hệ ấy là các dấu ngoặc $[X_i, X_j]$ phải là các tổ hợp tuyến tính (với các hệ số biến) của các $X_k$.
+phương trình vi phân riêng phần (2), đã trở thành đối với Lie việc nghiên cứu các biến đổi tiếp xúc vô cùng bé bất biến đối với phương trình đã cho. Cuối cùng, Lie được dẫn đến việc nghiên cứu các tập hợp các hàm $(u_j)_{1 \leq j \leq m}$ của các $x_i$ và $p_i$ sao cho các ngoặc $(u_j, u_k)$ là các hàm của các $u_h$ và gọi các tập hợp này là "nhóm" (chúng thực chất đã được Jacobi nghiên cứu) [3 c].
 
-Đối với Lie, phương trình đạo hàm riêng (2) trở thành phương trình của một phép biến đổi tiếp xúc vô cùng bé để lại bất biến phương trình đã cho. Cuối cùng, Lie được dẫn tới việc nghiên cứu các tập hợp hàm $(u_j)_{1 \leq j \leq m}$ của các $x_i$ và $p_i$ sao cho các dấu ngoặc $(u_j, u_k)$ là các hàm của các $u_h$, và ông gọi các tập hợp ấy là "nhóm" (mà về thực chất Jacobi đã xét rồi).
+II. CÁC NHÓM LIÊN TỤC VÀ CÁC BIẾN ĐỔI VÔ CÙNG BÉ
 
-II. Các nhóm liên tục và các phép biến đổi vô cùng bé
-
-Đột nhiên, vào mùa thu năm 1873, Lie lại tiếp tục nghiên cứu các nhóm phép biến đổi và thu được những kết quả có tính quyết định. Trong chừng mực người ta có thể theo dõi tiến trình tư tưởng của ông trong một số thư gửi A. Mayer từ các năm 1873–1874 (III, vol. 5, p. 584–608), ông xuất phát từ một "nhóm liên tục" các phép biến đổi trên $n$ biến
+Đột nhiên, vào mùa thu năm 1873, Lie lại tiếp tục nghiên cứu các nhóm biến đổi và thu được những kết quả quyết định. Trong chừng mực có thể theo dõi được dòng suy nghĩ của ông từ một số lá thư gửi A. Mayer viết vào các năm 1873–1874 ([3], tập 5, tr. 584–608), ông bắt đầu từ một "nhóm liên tục" các biến đổi trên $n$ biến
 
 $$
 x'_i = f_i(x_1, \ldots, x_n, a_1, \ldots, a_r) \quad (1 \leq i \leq n)
 $$
 
-phụ thuộc thực sự¹ vào $r$ tham số $a_1, \ldots, a_r$; ông nhận thấy rằng, nếu phép biến đổi (4) là đồng nhất đối với các giá trị $a_1^0, \ldots, a_r^0$ của các tham số,² thì các khai triển Taylor của các $x_i$, giới hạn đến cấp một:
+phụ thuộc thực sự† vào $r$ tham số $a_1, \ldots, a_r$; ông nhận thấy rằng, nếu biến đổi (4) là đồng nhất đối với các giá trị $a_1^0, \ldots, a_r^0$ của các tham số,‡ thì khai triển Taylor cấp một của các $x_i$:
 
 $$
-f_i(x_1, \ldots, x_n, a_1^0 + z_1, \ldots, a_r^0 + z_r) = x_i + \sum_{k=1}^r z_k X_{ki}(x_1, \ldots, x_n) + \cdots \quad (1 \leq i \leq n)
+f_i(x_1, \ldots, x_n, a_1^0 + z_1, \ldots, a_r^0 + z_r)
+$$
+$$
+= x_i + \sum_{k=1}^r z_k X_{ki}(x_1, \ldots, x_n) + \cdots \quad (1 \leq i \leq n)
 $$
 
-cho một phép biến đổi vô cùng bé "tổng quát" phụ thuộc tuyến tính vào $r$ tham số $z_j$
+cho một biến đổi vô cùng bé "tổng quát" phụ thuộc tuyến tính vào $r$ tham số $z_j$
 
 $$
 dx_i = \left( \sum_{k=1}^r z_k X_{ki}(x_1, \ldots, x_n) \right) dt \quad (1 \leq i \leq n).
 $$
 
-Tiến hành như trong hồi ký của mình với Klein, Lie tích phân hệ vi phân
+Tiếp tục như trong hồi ký của ông với Klein, Lie lấy tích phân hệ vi phân
 
 $$
 \frac{d\xi_1}{\sum_k z_k X_{k1}(\xi_1, \ldots, \xi_n)} = \cdots = \frac{d\xi_n}{\sum_k z_k X_{kn}(\xi_1, \ldots, \xi_n)} = dt,
 $$
 
-hệ này cho ông, với mỗi điểm $(z_1, \ldots, z_r)$, một nhóm một tham số
+† Theo Lie, điều này có nghĩa là các $f_i$ không thể biểu diễn theo ít hơn $r$ hàm của các $a_j$, hoặc cũng có nghĩa là ma trận Jacobi $(\partial f_i / \partial a_j)$ có hạng $r$ "nói chung".
+
+‡ Trong các ghi chép đầu tiên của mình, Lie nghĩ rằng ông có thể chứng minh *a priori* sự tồn tại của phần tử đơn vị và phần tử nghịch đảo trong toàn bộ tập hợp các biến đổi (4) ổn định đối với hợp thành; về sau ông nhận ra rằng chứng minh của mình không đúng và Engel đã cung cấp cho ông một phản ví dụ được tái hiện trong [4], tập 1, § 44. Tuy nhiên, Lie đã chỉ ra cách các hệ "liên tục" (4) ổn định đối với hợp thành có thể được rút gọn thành các mầm nhóm của các biến đổi: một hệ như vậy có dạng $G \circ h$, trong đó $G$ là một mầm nhóm của các biến đổi và $h$ là một biến đổi của hệ ([4], tập 1, Định lý 26, p. 163 và tập 3, Định lý 46, p. 572).
+
+điều này cho ông, với mỗi điểm $(z_1, \ldots, z_r)$ một nhóm một tham số
 
 $$
-t \mapsto x'_i = g_i(x_1, \ldots, x_n, z_1, \ldots, z_r, t) \quad (1 \leq i \leq n)
+t \mapsto x_i' = g_i(x_1, \ldots, x_n, z_1, \ldots, z_r, t) \quad (1 \leq i \leq n)
 $$
 
-¹ Với điều này Lie hiểu rằng các $f_i$ không thể được biểu diễn bằng ít hơn $r$ hàm của các $a_j$, hoặc rằng ma trận Jacobi $(\partial f_i / \partial a_j)$ có hạng $r$ "nói chung".
-² Trong các ghi chép đầu tiên của mình, Lie tin rằng ông có thể chứng minh tiên nghiệm sự tồn tại của phần tử đồng nhất và phần tử nghịch đảo trong mọi tập các phép biến đổi (4) đóng đối với hợp thành; về sau ông nhận ra rằng chứng minh của mình là sai, và Engel đã đưa cho ông một phản ví dụ được chép lại trong (IV, vol. 1, § 44). Tuy nhiên, Lie đã chỉ ra cách rút gọn các hệ "liên tục" (4) đóng đối với hợp thành về các groupoid các phép biến đổi: một hệ như vậy có dạng $G \circ h$, trong đó $G$ là một groupoid các phép biến đổi và $h$ là một phép biến đổi của hệ (IV, vol. 1, th. 26, p. 163 and vol. 3, th. 46, p. 572) sao cho $g_i(x_1, \ldots, x_n, z_1, \ldots, z_r, 0) = x_i$ với mọi $i$. Ông đã chỉ ra một cách khéo léo, bằng cách dùng sự kiện rằng các phép biến đổi (4) tạo thành một tập hợp đóng đối với hợp thành, rằng nhóm một tham số (8) là một nhóm con của nhóm đã cho (III d)). Ý tưởng mới này, then chốt cho toàn bộ lý thuyết, là đẩy các khai triển Taylor của các hàm (4) đến cấp hai. Diễn tiến lập luận của ông khá lẫn lộn và có tính phỏng đoán ((III d)) and (III, vol. 5, p. 600–601)); có thể trình bày nó như sau. Với $z_j$ đủ nhỏ, có thể đặt $t = 1$ trong (8), và do đó thu được các tham số mới $z_1, \ldots, z_r$ cho các phép biến đổi của nhóm (thật vậy đây là lần xuất hiện đầu tiên của "các tham số chính tắc"). Theo định nghĩa, thấy từ (7)
+sao cho $g_i(x_1, \ldots, x_n, z_1, \ldots, z_r, 0) = x_i$ với mọi $i$. Ông đã chứng minh bằng một phương pháp khéo léo, sử dụng sự kiện rằng các biến đổi (4) tạo thành một tập hợp ổn định đối với hợp thành, rằng nhóm một tham số (8) là một nhóm con của nhóm đã cho [3 d]. Ý tưởng mới, chìa khóa của toàn bộ lý thuyết, là lấy các khai triển Taylor của các hàm (4) đến cấp hai. Sự tiến triển trong lập luận của ông khá lẫn lộn và mang tính kinh nghiệm ([3 d] và [3], tập 5, tr. 600–601); nó có thể được trình bày như sau. Với các $z_j$ đủ nhỏ, đặt $t = 1$ trong (8); do đó thu được các tham số mới $z_1, \ldots, z_r$ cho các biến đổi của nhóm (đây thực sự là sự xuất hiện đầu tiên của các "tham số chính tắc"). Khi đó theo định nghĩa, sử dụng (7),
 
 $$
-\frac{\partial g_i}{\partial t} = \sum_k z_k X_{ki}(x'_1, \ldots, x'_n),
+\frac{\partial g_i}{\partial t} = \sum_k z_k X_{ki}(x_1', \ldots, x_n')
 $$
 
-từ đó
+do đó
 
 $$
-\frac{\partial^2 g_i}{\partial t^2} = \sum_{k,j} z_k \frac{\partial X_{kt}}{\partial x_j} (x'_1, \ldots, x'_n) \frac{\partial x'_j}{\partial t}
+\frac{\partial^2 g_i}{\partial t^2} = \sum_{k,j} z_k \frac{\partial X_{ki}}{\partial x_j}(x_1', \ldots, x_n') \frac{\partial x_j'}{\partial t}
 $$
 $$
-= \sum_{k,j} z_k \frac{\partial X_{kt}}{\partial x_j} (x'_1, \ldots, x'_n) \left( \sum_h z_h X_{hj}(x'_1, \ldots, x'_n) \right)
+= \sum_{k,j} z_k \frac{\partial X_{ki}}{\partial x_j}(x_1', \ldots, x_n') \left( \sum_n z_n X_{nj}(x_1', \ldots, x_n') \right)
 $$
 
 suy ra
 
 $$
-x'_i = x_i + \left( \sum_k z_k X_{ki}(x_1, \ldots, x_n) \right)t
+x_i' = x_i + \left( \sum_k z_k X_{ki}(x_1, \ldots, x_n) \right)t
 $$
 $$
-+ \frac{1}{2} \left( \sum_{k,h,j} z_k z_h \frac{\partial X_{kt}}{\partial x_j} (x_1, \ldots, x_n) X_{hj}(x_1, \ldots, x_n) \right)t^2 + \cdots,
++ \frac{1}{2} \left( \sum_{k,h,j} z_k z_h \frac{\partial X_{ki}}{\partial x_j}(x_1, \ldots, x_n) X_{hj}(x_1, \ldots, x_n) \right)t^2 + \cdots,
 $$
 
-từ đó, với $t = 1$, các khai triển Taylor theo các tham số $z_j$
-
-(9) $$ x'_i = x_i + \left( \sum_k z_k X_{ki} \right) + \frac{1}{2} \left( \sum_{k,h,j} z_k z_h X_{hj} \frac{\partial X_{ki}}{\partial x_j} \right) + \cdots \quad (1 \leq i \leq n). $$
-
-Hãy viết vắn tắt các quan hệ này $x' = G(x, z)$ giữa các vectơ
+do đó, với $t = 1$, các khai triển Taylor theo các tham số $z_j$
 
 $$
-x = (x_1, \ldots, x_n), \qquad x' = (x'_1, \ldots, x'_n), \qquad z = (z_1, \ldots, z_r);
+x_i' = x_i + \left( \sum_j z_k X_{ki} \right) + \frac{1}{2} \left( \sum_{k,h,j} z_k z_h X_{hj} \frac{\partial X_{ki}}{\partial x_j} \right) + \cdots \quad (1 \leq i \leq n).
 $$
 
-tính chất cơ bản về tính ổn định của tập các phép biến đổi này đối với hợp thành được viết là
-
-(10) $$ G(G(x, u), v) = G(x, H(u, v)) $$
-
-trong đó $H = (H_1, \ldots, H_r)$ độc lập với $x$; ngay lập tức có $H(u, 0) = u$, $H(0, v) = v$, từ đó suy ra các khai triển
-
-(11) $$ H_i(u, v) = u_i + v_i + \frac{1}{2} \sum_{h,k} c_{ikh} u_h v_k + \cdots, $$
-
-các hạng không được viết ra là phi tuyến theo $u$ hoặc theo $v$. Biến đổi (10) bằng cách dùng (9) và (11), rồi so sánh các hạng theo $u_h v_k$ ở hai vế, Lie thu được các hệ thức
+Ta rút gọn các hệ thức này thành $x' = G(x, z)$ liên hệ các vectơ
 
 $$
-(12) \quad \sum_{j=1}^n \left( X_{hj} \frac{\partial X_{ki}}{\partial x_j} - X_{kj} \frac{\partial X_{hi}}{\partial x_j} \right) = \sum_{l=1}^r c_{lhk} X_{li} \qquad (1 \leq h, k \leq r, 1 \leq i \leq n).
+x = (x_1, \ldots, x_n), \qquad x' = (x_1', \ldots, x_n'), \qquad z = (z_1, \ldots, z_r);
 $$
 
-Kinh nghiệm của ông về lý thuyết các phương trình đạo hàm riêng dẫn ông đến việc viết các điều kiện này dưới một dạng đơn giản hơn: theo khuôn mẫu của (1), ông gắn với mỗi một trong $r$ phép biến đổi vô cùng bé thu được bằng cách đặt $z_k = 1$, $z_h = 0$ với $h \neq k$ trong (6), toán tử vi phân
+tính chất ổn định cơ bản của tập hợp các biến đổi này đối với hợp thành có thể được viết
 
 $$
-(13) \qquad A_k(f) = \sum_{i=1}^n X_{ki} \frac{\partial f}{\partial x_i},
+G(G(x, u), v) = G(x, H(u, v))
+$$
+
+trong đó $H = (H_1, \ldots, H_r)$ độc lập với $x$; hiển nhiên là $H(u, 0) = u$ và $H(0, v) = v$, do đó các khai triển
+
+$$
+H_i(u, v) = u_i + v_i + \frac{1}{2} \sum_{h,k} c_{ikh} u_h v_k + \cdots,
+$$
+
+trong đó các số hạng bị bỏ qua không tuyến tính theo $u$ hoặc $v$. Biến đổi (10), sử dụng (9) và (11), rồi so sánh các số hạng theo $u_h v_k$ ở hai vế. Lie thu được các hệ thức
+
+$$
+(12)\quad \sum_{j=1}^n \left( X_{hj} \frac{\partial X_{ki}}{\partial x_j} - X_{kj} \frac{\partial X_{hi}}{\partial x_j} \right) = \sum_{l=1}^r c_{lhk} X_{li} \quad (1 \leq h, k \leq r, 1 \leq i \leq n).
+$$
+
+Kinh nghiệm của ông với lý thuyết các phương trình vi phân riêng phần đã dẫn ông đến việc viết các điều kiện này dưới một dạng đơn giản hơn: theo khuôn mẫu của (1), ông liên kết với mỗi biến đổi vô cùng bé thu được bằng cách đặt $z_k = 1, z_h = 0$ với $h \neq k$ trong (6), toán tử vi phân
+
+$$
+(13)\quad \Lambda_k(f) = \sum_{i=1}^n X_{ki} \frac{\partial f}{\partial x_i},
 $$
 
 và viết lại các điều kiện (12) dưới dạng
 
 $$
-(14) \qquad [A_h, A_k] = \sum_l c_{lhk} A_l,
+(14)\quad [\Lambda_h, \Lambda_k] = \sum_l c_{lhk} \Lambda_l,
 $$
 
-viên đá góc của lý thuyết của ông. Cho đến lúc đó, ông đã dùng các thuật ngữ 'phép biến đổi vô cùng bé' và 'phép biến đổi vô cùng bé' (*e.g.* (III c)) thay thế cho nhau; sự đơn giản của các hệ thức (14) khiến ông gọi toán tử (13) là 'ký hiệu' của phép biến đổi vô cùng bé $dx_i = X_{ki} dt$ ($1 \leq i \leq n$) (III e)) và rất nhanh sau đó chính toán tử (13) mà ông sẽ gọi là '*phép biến đổi vô cùng bé*' ((III e)) and (III, vol. 5, p. 589)).
+nền tảng của lý thuyết của ông. Cho đến lúc đó ông dùng các thuật ngữ "phép biến đổi vô cùng nhỏ" và "phép biến đổi vi phân" một cách không phân biệt (chẳng hạn [3 e]); tính đơn giản của các hệ thức (14) đã dẫn ông gọi toán tử (13) là "ký hiệu" của phép biến đổi vi phân $dx_i = X_{ki} dt$ ($1 \leq i \leq n$) [3 d] và rất sớm sau đó ông gọi chính toán tử (13) là "phép biến đổi vi phân" ([3 d] và [3], tập 5, p. 589).
 
-Sau đó ông nhận thức được những liên hệ chặt chẽ nối kết lý thuyết các 'nhóm liên tục' với các nghiên cứu trước đó của mình về các phép biến đổi tiếp xúc và các phương trình đạo hàm riêng. Sự quy tụ này làm ông đầy nhiệt huyết: '*Các công trình trước đây của tôi, có thể nói như thế, đã sẵn sàng từ trước để đặt nền móng cho lý thuyết mới về các nhóm phép biến đổi*' ông viết cho Mayer năm 1874 (III, vol. 5, p. 586).
+Sau đó ông nhận thức được những mối liên hệ chặt chẽ gắn lý thuyết về "các nhóm liên tục" với các nghiên cứu trước đây của ông về các phép biến đổi tiếp xúc và các phương trình vi phân riêng phần. Sự kết hợp này làm ông đầy nhiệt huyết: "Các công trình trước đây của tôi dường như đều đã sẵn sàng ở đó để chờ đợi việc xây dựng lý thuyết mới về các nhóm biến đổi" ông viết cho Mayer vào năm 1874 ([3], tập 5, p. 586).
 
-Trong những năm sau đó, Lie tiếp tục nghiên cứu các nhóm biến đổi. Bên cạnh các định lý tổng quát được tóm lược dưới đây (§ III), ông thu được một số kết quả riêng hơn: xác định các nhóm biến đổi của đường thẳng và mặt phẳng, của các nhóm con có đối chiều nhỏ của các nhóm xạ ảnh, của các nhóm có nhiều nhất 6 tham số, v.v. Tuy vậy ông không từ bỏ các phương trình vi phân. Thực ra, dường như đối với ông, lý thuyết các nhóm biến đổi phải là một công cụ để tích phân các phương trình vi phân, trong đó nhóm biến đổi đóng một vai trò tương tự như vai trò của nhóm Galois của một phương trình đại số.\footnote{Các nghiên cứu này chỉ có ảnh hưởng rất ít đối với lý thuyết tổng quát của các phương trình vi phân, vì nhóm tự đẳng cấu của một phương trình như vậy thường nhất là tầm thường. Mặt khác, đối với một số kiểu phương trình nhất định (chẳng hạn tuyến tính), những kết quả đáng chú ý đã được Picard, Vessiot, rồi sau đó gần đây hơn, Ritt và Kolchin thu được.} Chú ý rằng các nghiên cứu này cũng dẫn ông tới việc đưa vào một số tập hợp các biến đổi với một vô hạn tham số, mà ông gọi là 'các nhóm vô hạn và liên tục'¹; ông dành tên gọi 'các nhóm hữu hạn và liên tục' cho các nhóm biến đổi với một số hữu hạn tham số thuộc kiểu (4) ở trên.
+Trong những năm tiếp theo, Lie tiếp tục nghiên cứu các nhóm biến đổi. Ngoài các định lý tổng quát được tóm tắt dưới đây (§ III), ông còn thu được một số kết quả đặc biệt hơn: xác định các nhóm biến đổi của đường thẳng và mặt phẳng, các nhóm con có đối chiều thấp trong các nhóm xạ ảnh, các nhóm với nhiều nhất 6 tham số, v.v. Ông không từ bỏ các phương trình vi phân trong một thời gian dài. Thực vậy, dường như đối với ông, lý thuyết các nhóm biến đổi là một công cụ để lấy tích phân các phương trình vi phân, trong đó nhóm biến đổi đóng một vai trò tương tự như nhóm Galois của một phương trình đại số.†
 
-III. “Từ điển” của nhóm Lie-đại số Lie
+† Nghiên cứu này có ít ảnh hưởng đến lý thuyết tổng quát của các phương trình vi phân, vì nhóm tự đẳng cấu của một phương trình như vậy thường là tầm thường. Để bù lại, đối với một số kiểu phương trình (ví dụ các phương trình tuyến tính), những kết quả thú vị đã được Picard, Vessiot và, gần đây hơn, Ritt và Kolchin thu được sau này.
 
-Lý thuyết các 'nhóm hữu hạn và liên tục', được Lie phát triển trong nhiều hồi ký từ năm 1874 trở đi, được trình bày một cách có hệ thống trong bộ chuyên khảo đồ sộ 'Theorie der Transformationsgruppen' ((IV), 1888–1893), viết với sự cộng tác của F. Engel²; nó tạo thành đối tượng của tập thứ nhất và năm chương cuối của tập thứ ba, còn tập thứ hai được dành cho các biến đổi tiếp xúc.
+Ta chú ý rằng nghiên cứu này cũng dẫn ông đến việc đưa vào một số tập hợp biến đổi với vô hạn tham số mà ông gọi là "các nhóm liên tục vô hạn"; ông dành tên gọi "các nhóm liên tục hữu hạn" cho các nhóm biến đổi với một số hữu hạn tham số kiểu (4) ở trên.
 
-Như nhan đề cho thấy, công trình này chỉ bàn về các nhóm biến đổi, theo nghĩa của các phương trình (4), trong đó không gian các “biến” $x_i$ và không gian các “tham số” $a_j$ ban đầu giữ những vai trò quan trọng như nhau. Hơn nữa, vào thời kỳ này khái niệm nhóm “trừu tượng” chưa được phân biệt rõ ràng; khi vào năm 1883 (III g)) Lie nhận thấy rằng, với các ký hiệu của (10), phương trình $w = \mathrm{H}(u, v)$ cho các tham số của hợp thành của hai biến đổi của nhóm xác định một nhóm mới, ông xem nó như một nhóm biến đổi trên không gian tham số, do đó thu được cái mà ông gọi là “nhóm tham số” (thậm chí ông thu được hai nhóm như thế, không gì khác hơn là nhóm các phép tịnh tiến trái và nhóm các phép tịnh tiến phải³).
+CÁC NHÓM LIE-CÁC ĐẠI SỐ LIE "TỪ ĐIỂN"
 
-Về nguyên tắc, các biến $x_i$ và các tham số $a_j$ trong các phương trình (4) được giả thiết là phức (trừ trong các Chương XIX–XXIV của tập 3), và các hàm $f_i$ là giải tích; dĩ nhiên Lie và Engel ý thức được rằng nói chung các hàm này không được xác định với mọi giá trị phức của các $x_i$ và các $a_j$ và rằng, do đó, hợp thành của những biến đổi như vậy đặt ra những khó khăn nghiêm trọng (IV, vol. 1, p. 15–17, p. 33–40 và nhiều chỗ khác); và mặc dù về sau hầu như họ luôn diễn đạt như thể việc hợp thành các biến đổi mà họ nghiên cứu có thể thực hiện không hạn chế, điều đó hẳn chỉ là vì sự tiện lợi của các phát biểu, và họ tường minh khôi phục quan điểm “địa phương” bất cứ khi nào cần thiết (x. loc. cit., p. 168 hoặc 189 chẳng hạn, hoặc ibid., vol. 3, p. 2, footnote); nói cách khác, đối tượng toán học
+Lý thuyết về các nhóm "liên tục hữu hạn", được Lie phát triển trong nhiều hồi ký bắt đầu từ năm 1874, được trình bày một cách có hệ thống trong chuyên luận đồ sộ "Theorie der Transformationsgruppen" ([4], 1888–1893)), được viết với sự cộng tác của F. Engel; nó là đối tượng nghiên cứu trong tập thứ nhất và năm chương cuối của tập thứ ba, tập thứ hai dành cho các phép biến đổi tiếp xúc.
 
-¹ Ngày nay chúng được gọi là “giả-nhóm Lie”; cần thận trọng không nhầm chúng với các nhóm Lie “Banach” được định nghĩa trong tập này.
-² Từ năm 1886 đến năm 1898, Lie giữ ở Leipzig chiếc ghế mà Klein để lại trống và có Engel làm trợ lý; hoàn cảnh này đã thúc đẩy sự hình thành của một trường phái toán học năng động cũng như sự truyền bá các ý tưởng của Lie, vốn trước đó còn rất ít được biết đến (đặc biệt là vì những hồi ký đầu tiên của ông thường được viết bằng tiếng Na Uy, và được công bố trong Comptes Rendus de l'Académie de Christiania, ít được phổ biến ở nơi khác). Chính vì thế mà vào một thời điểm khi các nhà toán học trẻ người Pháp hầu như chưa có thói quen sang Đức học tập, E. Vessiot và A. Tresse đã dành một năm học ở Leipzig, với Sophus Lie.
-³ Khái niệm tương tự đối với các nhóm hoán vị đã được Jordan đưa vào và nghiên cứu trong “Treatise” của ông.
+Như nhan đề chỉ ra, công trình này chỉ quan tâm đến các nhóm biến đổi theo nghĩa của các phương trình (4), trong đó không gian của các "biến" $x_i$ và không gian của các "tham số" $a_j$ ban đầu đóng những vai trò quan trọng như vậy. Mặt khác, khái niệm nhóm "trừu tượng" chưa được tách biệt rõ ràng vào thời kỳ đó; khi vào năm 1885 ([3f], §5) Lie nhận xét rằng trong ký hiệu của (10), phương trình $w = H(u, v)$ cho các tham số của phép hợp thành của hai phép biến đổi của nhóm xác định một nhóm mới, ông xem nó như một nhóm biến đổi trên không gian các tham số, do đó thu được cái mà ông gọi là "nhóm tham số" (thậm chí ông còn thu được hai nhóm, đó chính là nhóm các phép tịnh tiến trái và nhóm các phép tịnh tiến phải†).
 
-mà họ nghiên cứu gần với cái mà trong chuyên khảo này chúng tôi gọi là một mảnh của luật hợp thành. Thỉnh thoảng họ không ngần ngại xét các nhóm toàn cục, chẳng hạn 4 chuỗi nhóm cổ điển (IV, Vol. 3, p. 682), nhưng dường như họ đã không đặt ra câu hỏi nói chung “nhóm toàn cục” có thể là gì; đối với họ, chỉ cần có thể thu được, đối với các “tham số” của các nhóm cổ điển (các “biến” của những nhóm này không gây khó khăn gì, vì chúng là các biến đổi tuyến tính của $\mathbf{C}^n$), các hệ tham số “địa phương” trong lân cận của biến đổi đồng nhất, mà không bận tâm đến miền hiệu lực của các công thức họ viết ra.
+Các biến $x_i$ và các tham số $a_j$ trong các phương trình (4) về nguyên tắc được giả thiết là phức (ngoại trừ trong các Chương XIX–XXIV của tập 3) và các hàm $f_i$ là giải tích; dĩ nhiên Lie và Engel nhận thức được rằng các hàm này nói chung không được xác định với mọi giá trị phức của các $x_i$ và $a_j$ và do đó phép hợp thành của các hàm như vậy đặt ra những khó khăn nghiêm trọng ([4], tập 1, tr. 15–17, tr. 33–40 và ở nhiều chỗ khác); và mặc dù trong suốt công trình họ hầu như luôn luôn viết như thể phép hợp thành của các phép biến đổi mà họ đang nghiên cứu có thể thực hiện được không hạn chế, điều này chắc chắn là vì sự thuận tiện
 
-Tuy nhiên, họ có đặt ra một bài toán rõ ràng vượt ra ngoài lý thuyết địa phương¹: nghiên cứu các nhóm “hỗn hợp”, nghĩa là các nhóm có một số hữu hạn thành phần liên thông, chẳng hạn như nhóm trực giao (IV, Vol. 1, p. 7). Họ trình bày nghiên cứu này như nghiên cứu một tập hợp các biến đổi ổn định đối với hợp thành và chuyển qua nghịch đảo, là hợp của các tập hợp $H_j$ mà mỗi tập được mô tả bởi các hệ hàm $(f_i^{(j)})$ như trong (4); số các tham số (cốt yếu) của mỗi $H_j$ thậm chí còn được giả thiết tiên nghiệm là phụ thuộc vào $j$, nhưng họ chỉ ra rằng thật ra số này là như nhau đối với mọi $H_j$. Kết quả chính của họ khi đó là sự tồn tại của một nhóm hữu hạn liên tục $G$ sao cho $H_j = G \circ h_j$ với một $h_j \in H_j$ và với mọi $j$; họ cũng thiết lập rằng $G$ là chuẩn tắc trong nhóm hỗn hợp và nhận xét rằng việc xác định các bất biến của nhóm sau được quy về việc xác định các bất biến của $G$ và của một nhóm gián đoạn (IV, Vol. 1, Chap. 18).
+‡ Ngày nay chúng được gọi là "các nhóm giả Lie"; cần chú ý không nhầm lẫn chúng với các nhóm Lie "Banach" được định nghĩa trong tập này.
+§ Từ năm 1886 đến 1898, Lie giữ ghế giáo sư tại Leipzig bị bỏ trống bởi Klein và có Engel làm trợ lý; hoàn cảnh này đã tạo điều kiện cho sự hình thành của một trường phái toán học tích cực cũng như sự truyền bá các ý tưởng của Lie, vốn ít được biết đến cho đến lúc đó (đặc biệt vì các hồi ký đầu tiên của ông thường được viết bằng tiếng Na Uy và được công bố trong Comptes Rendus de l'Académie de Christiania, một ấn phẩm ít được sử dụng ở những nơi khác). Vì vậy, vào thời điểm mà việc các nhà toán học trẻ người Pháp sang Đức để học tập còn là điều không phổ biến, E. Vessiot và A. Tresse đã dành một năm nghiên cứu tại Leipzig với Sophus Lie.
+† Khái niệm tương tự đối với các nhóm hoán vị đã được Jordan đưa vào và nghiên cứu trong "Chuyên luận" của ông.
 
-Lý thuyết tổng quát được phát triển trong (IV) dẫn đến (mà các tác giả không nói điều này một cách thật có hệ thống) việc rèn nên một "từ điển" chuyển các tính chất của các "nhóm liên tục hữu hạn" sang các tính chất của tập hợp các phép biến đổi vô cùng bé của chúng. Nó dựa trên "ba định lý của Lie", mỗi định lý gồm một mệnh đề và mệnh đề đảo lại của nó.
+của các kết quả và họ đã minh thị khẳng định lại quan điểm "địa phương" mỗi khi cần thiết (xem loc. cit., p. 168 hoặc 189 chẳng hạn hoặc ibid., vol. 3, p. 2, chú ý ở cuối trang); nói cách khác, đối tượng toán học mà họ nghiên cứu gần với cái mà chúng ta gọi trong chuyên luận này là một mảnh luật của phép toán. Đôi khi họ cũng không tránh việc xét các nhóm toàn cục, ví dụ chuỗi 4 của các nhóm cổ điển ([4], vol. 3, p. 682), nhưng dường như họ không tự đặt cho mình câu hỏi về cái gì nói chung tạo thành một "nhóm toàn cục"; họ bằng lòng thu được, đối với các "tham số" của các nhóm cổ điển (các "biến" của các nhóm này không gây khó khăn gì, vì các phép biến đổi đang xét là các phép biến đổi tuyến tính của $\mathbf{C}^n$), các hệ tham số "địa phương" trong một lân cận của phép biến đổi đồng nhất, mà không lo lắng về miền hiệu lực của các công thức mà họ đang viết ra. Tuy nhiên họ đã đặt ra cho mình một bài toán nảy sinh một cách tự nhiên từ lý thuyết địa phương‡: việc nghiên cứu các nhóm "hỗn hợp", nghĩa là các nhóm có một số hữu hạn các thành phần liên thông, chẳng hạn nhóm trực giao ([4], vol. 1, p. 7). Họ trình bày nghiên cứu này như một nghiên cứu về một tập hợp các phép biến đổi ổn định đối với hợp thành và chuyển qua nghịch đảo, là hợp của các tập hợp $H_j$, mỗi tập hợp trong đó được mô tả bởi các hệ hàm $(f_i^{(j)})$ như trong (4); số các tham số (cốt yếu) của mỗi $H_j$ thậm chí được giả thiết tiên nghiệm là phụ thuộc vào $j$, nhưng họ đã chỉ ra rằng trên thực tế số này là như nhau đối với mọi $H_j$. Kết quả chính của họ khi đó là sự tồn tại của một nhóm liên tục hữu hạn $G$ sao cho $H_j = G \circ h_j$ với một $h_j \in H_j$ nào đó và với mọi $j$; họ cũng chứng minh rằng $G$ là chuẩn trong nhóm hỗn hợp và nhận xét rằng việc xác định các bất biến của nhóm sau quy về việc xác định các bất biến của $G$ và một nhóm rời rạc ([4], vol. 1, Chương 18).
 
-Định lý thứ nhất (IV, t. 1, p. 33 và 72 và t. 3, p. 563) trước hết khẳng định rằng nếu trong (4) các tham số là hiệu dụng, thì các hàm $f_i$ thỏa mãn một hệ phương trình vi phân riêng phần có dạng
+Lý thuyết tổng quát được phát triển trong [4] kết thúc (mà không phải do các tác giả nói điều đó một cách thật hệ thống) bằng việc đạt được một "từ điển" chuyển các tính chất của các nhóm "liên tục hữu hạn" thành các tính chất của tập hợp các phép biến đổi vi phân của chúng. Nó dựa trên "ba định lý của Lie", mỗi định lý gồm một mệnh đề và đảo lại của nó.
 
-$$
-\frac{\partial f_i}{\partial a_j} = \sum_{k=1}^r \xi_{kji}(f(x, a)) \psi_{kj}(a) \qquad (1 \leq i \leq n)
-$$
-
-trong đó ma trận $(\xi_{kji})$ có hạng lớn nhất và $\det(\psi_{kj}) \neq 0$; đảo lại, nếu các hàm $f_i$ có tính chất này, thì các công thức (4) xác định một groupoid biến đổi.
-
-Định lý thứ hai (IV, t. 1, p. 149 và 158, và t. 3, p. 590) cho các hệ thức
-
-¹ Xin nhắc lại (Ghi chú lịch sử của Alg., Chương VIII, p. 170) rằng tiếp theo một chú ý của H. Poincaré (XIV, t. V, p. 77–79), nhiều tác giả đã nghiên cứu nhóm các phần tử khả nghịch của một đại số kết hợp hữu hạn chiều. Điều đáng chú ý trong mối liên hệ này là E. Study, trong các công trình của ông về chủ đề này, đã đưa vào một lối ký hiệu mà về thực chất tương đương với việc xét nhóm trừu tượng được xác định bởi nhóm tham số.
-
-giữa các $\xi_{kli}$ một mặt, và các $\psi_{ij}$ mặt khác: các điều kiện trên các $\xi_{kli}$ được viết dưới dạng
+Định lý thứ nhất ([4], tập 1, tr. 33 và 72 và tập 3, tr. 563) khẳng định trước hết rằng nếu trong (4) các tham số là hiệu dụng, các hàm $f_i$ thỏa mãn một hệ các phương trình vi phân riêng phần có dạng
 
 $$
-(16) \quad \sum_{k=1}^{n} \left( \xi_{ik} \frac{\partial \xi_{jl}}{\partial x_k} - \xi_{jk} \frac{\partial \xi_{il}}{\partial x_k} \right) = \sum_{k=1}^{r} c_{ij}^{kc} \xi_{kl} \qquad (1 \leq i, j \leq r, 1 \leq l \leq n)
+\frac{\partial f_i}{\partial a_j} = \sum_{k=1}^r \xi_{kji}(f(x, a)) \psi_{kj}(a) \quad (1 \leq i \leq n)
 $$
 
-trong đó các $c_{ij}^{k}$ là các hằng số ($1 \leq i, j, k \leq r$) phản đối xứng theo $i, j$. Các điều kiện trên các $\psi_{ij}$, dưới dạng do Maurer (X) nêu ra, là:
+trong đó ma trận $(\xi_{kji})$ có hạng cực đại và $\det(\psi_{kj}) \neq 0$; đảo lại, nếu các
+
+‡ Nhắc lại (Ghi chú lịch sử về Đại số, Chương VIII) rằng tiếp theo một Chú ý của H. Poincaré ([14], vol. V, pp. 77–79), nhiều tác giả đã nghiên cứu nhóm các phần tử khả nghịch của một đại số kết hợp hữu hạn chiều. Điều đáng chú ý về vấn đề này là E. Study, trong các công trình của ông về chủ đề này, đã đưa vào một ký hiệu về bản chất quy về việc xét nhóm trừu tượng được định nghĩa bởi nhóm tham số.
+
+hàm $f_i$ có tính chất này, các công thức (4) định nghĩa một mầm nhóm các phép biến đổi.
+
+Định lý thứ hai ([4], tập 1, tr. 149 và 158, và tập 3, tr. 590) cho các quan hệ giữa các $\xi_{kli}$ một mặt và các $\psi_{ij}$ mặt khác: các điều kiện trên các $\xi_{kli}$ có thể được viết dưới dạng
 
 $$
-(17) \quad \frac{\partial \psi_{kl}}{\partial a_m} - \frac{\partial \psi_{km}}{\partial a_l} = \frac{1}{2} \sum_{1 \leq i, j \leq r} c_{ij}^{k} (\psi_{il} \psi_{jm} - \psi_{jl} \psi_{im}) \qquad (1 \leq k, l, m \leq r).
+\sum_{k=1}^n \left( \xi_{ik} \frac{\partial \xi_{jkl}}{\partial x_k} - \xi_{jk} \frac{\partial \xi_{iil}}{\partial x_k} \right) = \sum_{k=1}^r c_{ij}^k \xi_{kli} \quad (1 \leq i, j \leq r, 1 \leq l \leq n)
 $$
 
-Bằng cách đưa vào ma trận $(\alpha_{ij})$ đối biến với $(\psi_{ij})$ và các phép biến đổi vô cùng bé
+trong đó các $c_{ij}^k$ là các hằng số ($1 \leq i, j, k \leq r$) đối xứng xiên theo $i, j$. Các điều kiện trên các $\psi_{ij}$, dưới dạng được cho bởi Maurer [10], là:
 
 $$
-(18) \quad X_k = \sum_{i=1}^{n} \xi_{kli} \frac{\partial}{\partial x_i}, \qquad A_k = \sum_{j=1}^{r} \alpha_{kj} \frac{\partial}{\partial a_j} \qquad (1 \leq k \leq r),
+\frac{\partial \psi_{kl}}{\partial a_m} - \frac{\partial \psi_{km}}{\partial a_l} = \frac{1}{2} \sum_{1 \leq i, j \leq r} c_{ij}^k (\psi_{il} \psi_{jm} - \psi_{jl} \psi_{im}) \quad (1 \leq k, l, m \leq r).
 $$
 
-người ta có thể viết tương ứng (16) và (17) dưới dạng:
+Bằng cách đưa vào ma trận đối ngẫu $(\alpha_{ij})$ của $(\psi_{ij})$ và các phép biến đổi vi phân
 
 $$
-(19) \quad [X_i, X_j] = \sum_{k=1}^{r} c_{ij}^{k} X_k \qquad (1 \leq i, j \leq r).
-$$
-$$
-(20) \quad [A_i, A_j] = \sum_{k=1}^{r} c_{ij}^{k} A_k
+X_k = \sum_{i=1}^n \xi_{kli} \frac{\partial}{\partial x_i}, \qquad A_k = \sum_{j=1}^r \alpha_{kj} \frac{\partial}{\partial a_j} \quad (1 \leq k \leq r)
 $$
 
-Đảo lại, nếu lấy $r$ phép biến đổi vô cùng bé $X_k$ ($1 \leq k \leq r$) độc lập tuyến tính và thỏa mãn các điều kiện (19), thì các nhóm một tham số được sinh bởi các phép biến đổi ấy sinh ra một nhóm biến đổi với $r$ tham số cốt yếu.
-
-Cuối cùng, định lý thứ ba (IV, t. 1, p. 170 và 297 và t. 3, p. 597) quy việc xác định các hệ phép biến đổi vô cùng bé $(X_k)_{1 \leq k \leq r}$ thỏa mãn (19) về một bài toán thuần túy đại số: cần phải có
+(16) và (17) lần lượt có thể được viết:
 
 $$
-(21) \quad c_{ij}^{k} + c_{ji}^{k} = 0
+[X_i, X_j] = \sum_{k=1}^r c_{ij}^k X_k \quad (1 \leq i, j \leq r).
 $$
 $$
-(22) \quad \sum_{l=1}^{r} (c_{il}^{m} c_{jk}^{l} + c_{kl}^{m} c_{ij}^{l} + c_{jl}^{m} c_{ki}^{l}) = 0 \qquad (1 \leq i, j, k, m \leq r).
+[A_i, A_j] = \sum_{k=1}^r c_{ij}^k A_k
 $$
 
-Đảo lại,¹ nếu (21) và (22) được thỏa mãn, thì tồn tại một hệ phép biến đổi vô cùng bé thỏa mãn các hệ thức (19), do đó tồn tại một nhóm biến đổi với $r$ tham số (nói cách khác, các tổ hợp tuyến tính với hệ số hằng của các $X_k$ tạo thành một đại số Lie, và đảo lại mọi đại số Lie hữu hạn chiều đều có thể thu được theo cách này).
+Đảo lại, nếu cho $r$ phép biến đổi vi phân $X_k$ ($1 \leq k \leq r$) độc lập tuyến tính và thỏa mãn các điều kiện (19), thì các nhóm con một tham số được sinh bởi các phép biến đổi này sinh ra một nhóm phép biến đổi với $r$ tham số cốt yếu.
 
-Các kết quả này được hoàn chỉnh bởi việc nghiên cứu các vấn đề về đẳng cấu. Hai nhóm biến đổi được gọi là *tương tự* nếu từ nhóm này có thể chuyển sang nhóm kia bằng một phép biến đổi khả nghịch của các tọa độ trên các biến và một phép biến đổi khả nghịch của các tọa độ trên các tham số: ngay từ đầu các nghiên cứu của mình, Lie đương nhiên đã gặp khái niệm này trong mối liên hệ với định nghĩa các "tham số chính tắc". Ông chỉ ra rằng hai nhóm là tương tự nếu, bằng một phép biến đổi trên các "biến", có thể đưa các phép biến đổi vô cùng bé của nhóm này sang các phép biến đổi vô cùng bé của nhóm kia (IV, t. 1, p. 329). Một điều kiện cần để điều đó xảy ra là các đại số Lie của hai nhóm phải đẳng cấu, điều mà Lie diễn đạt bằng cách nói rằng các nhóm là "zusammengesetzt"; nhưng điều kiện này không đủ, và trọn một chương (IV, t. 1, chap. 19) được dành cho việc thu được các điều kiện bổ sung bảo đảm rằng các nhóm là "tương tự". Về phần mình, lý thuyết các nhóm hoán vị đã cung cấp khái niệm "đẳng cấu holoedric" của hai nhóm như vậy (đẳng cấu của các nhóm "trừu tượng" nền); Lie chuyển khái niệm này sang các nhóm biến đổi, và chỉ ra rằng hai nhóm như vậy là "đẳng cấu holoedric" khi và chỉ khi các đại số Lie của chúng đẳng cấu (IV, t. 1, p. 418). Đặc biệt, mọi nhóm biến đổi đều đẳng cấu holoedric với mỗi nhóm tham số của nó, và điều này cho thấy rằng, khi người ta muốn nghiên cứu cấu trúc của nhóm, thì các "biến" mà nó tác động lên có rất ít tầm quan trọng và rằng, thực ra, mọi sự đều quy về đại số Lie.¹
+Cuối cùng, định lý thứ ba ([4], tập 1, tr. 170 và 297 và tập 3, tr. 597) quy việc xác định các hệ các phép biến đổi vi phân $(X_k)_{1 \leq k \leq r}$ thỏa mãn (19) về một bài toán đại số thuần túy: các điều sau phải đúng:
 
-Theo phép loại suy với lý thuyết các nhóm hoán vị, Lie đưa vào các khái niệm nhóm con, nhóm con chuẩn tắc, "đẳng cấu meriedric" (các đồng cấu toàn ánh), và chỉ ra rằng chúng tương ứng với các khái niệm đại số con, iđêan, và các đồng cấu toàn ánh của các đại số Lie; hơn nữa ông đã gặp từ rất sớm một ví dụ đặc biệt quan trọng của "đẳng cấu meriedric", biểu diễn liên hợp, và nhận ra các mối liên hệ của nó với tâm của nhóm (III e)). Đối với các kết quả này, cũng như đối với các định lý cơ bản, công cụ cốt yếu là định lý Jacobi–Clebsch cho tính khả tích đầy đủ của một hệ vi phân (một trong các dạng của cái gọi là định lý "Frobenius"); hơn nữa ông còn đưa ra một chứng minh mới của nó bằng cách dùng các nhóm một tham số (IV, t. 1, chap. 6).
+$$
+c_{ij}^k + c_{ji}^k = 0
+$$
+$$
+\sum_{l=1}^r (c_{il}^m c_{lj}^k + c_{kl}^m c_{lj}^i + c_{jl}^m c_{ki}^l) = 0 \quad (1 \leq i, j, k, m \leq r).
+$$
 
-Các khái niệm tính bắc cầu và tính nguyên thủy, quan trọng đến như vậy đối với các nhóm hoán vị, cũng tự nhiên xuất hiện đối với các nhóm biến đổi "hữu hạn và liên tục", và bộ chuyên luận của Lie–Engel nghiên cứu chi tiết chúng (IV, t. 1, chap. 13 and passim); các quan hệ với các nhóm con ổn định của một điểm và khái niệm không gian thuần nhất đã được thoáng thấy (trong chừng mực có thể làm được điều đó mà không chấp nhận một quan điểm toàn cục) (IV, t. 1, p. 425).
+Đảo lại, nếu (21) và (22) được thỏa mãn, tồn tại một hệ các phép biến đổi vi phân thỏa mãn các quan hệ (19), do đó một nhóm phép biến đổi với $r$ tham số (nói cách khác, các tổ hợp tuyến tính của các $X_k$ với các hệ số hằng tạo thành một đại số Lie và đảo lại mọi đại số Lie hữu hạn chiều đều có thể thu được theo cách này).
 
-Sau cùng, "từ điển" được hoàn tất, trong (IV), bằng việc đưa vào các khái niệm nhóm dẫn xuất và nhóm giải được (được Lie gọi là "nhóm khả tích"; thuật ngữ này, do lý thuyết các phương trình vi phân gợi ra, vẫn còn được dùng cho đến các công trình của H. Weyl) (IV, t. 1, p. 261 and t. 3, p. 678–679); hơn nữa mối quan hệ giữa các giao hoán tử và các dấu ngoặc đã được Lie nhận thấy ngay từ năm 1883 (III, t. 5, p. 358).
+† Đảo lại này không thu được mà không gặp khó khăn. Chứng minh đầu tiên do Lie [3 d] đưa ra gồm việc chuyển qua nhóm liên hợp và trên thực tế chỉ đúng nếu tâm của đại số Lie đã cho là $\{0\}$. Sau đó ông đưa ra hai chứng minh tổng quát ([4], vol. 2, Chương 17 and vol. 3, pp. 599–604
+
+Các kết quả này được hoàn thiện bằng việc nghiên cứu các vấn đề về các đẳng cấu. Hai nhóm biến đổi được gọi là tương tự nếu có thể chuyển từ nhóm này sang nhóm kia bằng một biến đổi tọa độ khả nghịch trên các biến và một biến đổi tọa độ khả nghịch trên các tham số: ngay từ đầu công trình nghiên cứu của mình, Lie đã quan tâm một cách tự nhiên đến khái niệm này khi định nghĩa các “tham số chính tắc”. Ông đã chỉ ra rằng hai nhóm là tương tự nếu, bằng một biến đổi trên các “biến”, có thể biến đổi các phép biến đổi vi phân bé của nhóm này thành các phép biến đổi vi phân bé của nhóm kia ([4], tập 1, p. 329). Một điều kiện cần để điều này xảy ra là các đại số Lie của hai nhóm này đẳng cấu, điều mà Lie diễn đạt bằng cách nói rằng các nhóm là “gleichzusammengesetzt”; nhưng điều kiện này không đủ và toàn bộ một chương ([4], tập 1, Chương 19) được dành để thu được các điều kiện bổ sung bảo đảm rằng các nhóm là “tương tự”. Mặt khác, lý thuyết các nhóm hoán vị đã cung cấp khái niệm “đẳng cấu holohedric” của hai nhóm như vậy (đẳng cấu của các nhóm “trừu tượng” nền tảng); Lie đã chuyển khái niệm này sang các nhóm biến đổi và chỉ ra rằng hai nhóm như vậy là “đẳng cấu holohedric” khi và chỉ khi các đại số Lie của chúng đẳng cấu ([4], tập 1, p. 418). Đặc biệt, mọi nhóm biến đổi đều đẳng cấu holohedric với mỗi nhóm tham số của nó và điều này cho thấy rằng, khi ta muốn nghiên cứu cấu trúc của nhóm, các “biến” mà nó tác động lên có ít tầm quan trọng và thực ra tất cả những gì quan trọng chỉ là đại số Lie.†
+
+Luôn bằng phép tương tự với lý thuyết các nhóm hoán vị, Lie đã đưa vào các khái niệm nhóm con, nhóm con chuẩn và “đẳng cấu merihedric” (các đồng cấu toàn ánh) và chỉ ra rằng chúng tương ứng với các khái niệm đại số con, iđêan và các đồng cấu đại số Lie toàn ánh; trước đó ông đã gặp một ví dụ đặc biệt quan trọng của một “đẳng cấu merihedric”, biểu diễn liên hợp, và đã nhận ra các quan hệ của nó với tâm của nhóm ([3.f], § 3, no. 9). Đối với các kết quả này, cũng như đối với các định lý cơ bản, công cụ cốt yếu là Định lý Jacobi-Clebsch cho tính khả tích đầy đủ của một hệ vi phân (một trong các dạng của định lý được gọi là “của Frobenius”); tuy nhiên ông đã đưa ra một chứng minh mới sử dụng các nhóm một tham số ([4], tập 1, Chương 6).
+
+† Có thể chỉ ra một sự tiến triển tương tự trong lý thuyết các nhóm “trừu tượng”, đặc biệt là các nhóm hữu hạn. Ban đầu chúng được định nghĩa như các nhóm biến đổi, nhưng Cayley đã nhận xét rằng điều cốt yếu là cách các phép biến đổi được hợp thành với nhau chứ không phải bản chất của biểu diễn cụ thể của nhóm như một nhóm hoán vị của các đối tượng riêng biệt.
+
+Các khái niệm về tính bắc cầu và tính nguyên thủy, rất quan trọng đối với các nhóm hoán vị, cũng xuất hiện một cách tự nhiên như vậy đối với các nhóm biến đổi “liên tục hữu hạn” và chuyên luận Lie–Engel đã nghiên cứu chi tiết điều này ([4], tập 1, Chương 13 và ở nhiều chỗ); các quan hệ với các nhóm ổn định của một điểm và khái niệm không gian thuần nhất đã được nhận thấy (trong chừng mực có thể mà không cần xét một quan điểm toàn cục) ([4], tập 1, p. 425).
+
+Cuối cùng, “từ điển” đã được hoàn thành, trong [4], bằng việc đưa vào các khái niệm nhóm dẫn xuất và nhóm giải được (được Lie gọi là “nhóm khả tích”; thuật ngữ này, được gợi ý bởi lý thuyết các phương trình vi phân, vẫn được sử dụng cho đến các công trình của H. Weyl) ([4], tập 1, p. 261 và tập 3, tr. 678–679); quan hệ giữa các giao hoán tử và các móc nối trước đó đã được Lie nhận thấy vào năm 1883 ([3], tập 5, p. 358).
 
 Các chứng minh khác của các định lý cơ bản
 
-Trong (VIII), F. Schur chỉ ra rằng trong các tọa độ chính tắc, các $\psi_{ik}$ của (15) thỏa mãn các phương trình vi phân
+Trong [8] F. Schur đã chỉ ra rằng trong các tọa độ chính tắc các $\psi_{ik}$ của (15) thỏa mãn các phương trình vi phân
 
 $$
-\frac{d}{dt}(t\psi_{ik}(ta)) = \delta_{ik} + \sum_{j,l} c_{jl}^k ta_l \psi_{ij}(ta).
+\frac{d}{dt} (t \psi_{ik}(ta)) = \delta_{ik} + \sum_{j,l} c_{jl}^k t a_l \psi_{ij}(ta).
 $$
 
-Các phương trình này lấy tích phân được và cho một công thức tương đương với công thức
+Các phương trình này được tích phân và cho một công thức tương đương với công thức
 
 $$
-\varpi(\mathbf{X}) = \sum_{n \geq 0} \frac{1}{(n+1)!} (\mathrm{ad}(\mathbf{X}))^n
+\sigma(X) = \sum_{n > 0} \frac{1}{(n+1)!} (\operatorname{ad}(X))^n
 $$
 
-¹ Đảo lại này đã không đạt được nếu không có khó khăn. Chứng minh đầu tiên mà Lie đưa ra (III e)) gồm việc chuyển qua nhóm liên hợp và thực ra chỉ đúng nếu tâm của đại số Lie đã cho thu về $0$. Sau đó ông đưa ra hai chứng minh tổng quát (IV, vol. 2, chap. XVII and vol. 3, p. 599-604); điều khá có ý nghĩa là chứng minh thứ nhất dựa trên các phép biến đổi tiếp xúc và Lie thấy nó tự nhiên hơn chứng minh thứ hai.
+của Chương III, § 6, no. 4, Mệnh đề 12 của chúng ta; đặc biệt, trong các tọa độ chính tắc, các $\psi_{ij}$ có thể được mở rộng thành các hàm nguyên của các $a_k$. F. Schur đã suy ra một kết quả làm chính xác hơn một nhận xét trước đó của Lie: nếu, trong định nghĩa (4) của các nhóm biến đổi, chỉ giả sử rằng các $f_i$ thuộc lớp $C^2$, thì nhóm là đẳng cấu holohedric với một nhóm giải tích.
 
-¹ Người ta có thể quan sát một sự tiến triển tương tự trong lý thuyết các nhóm "trừu tượng", đặc biệt là các nhóm hữu hạn. Ban đầu chúng được định nghĩa như các nhóm biến đổi, nhưng Cayley đã sớm nhận xét rằng điểm cốt yếu là cách mà các phép biến đổi hợp thành với nhau, chứ không phải bản chất của biểu diễn cụ thể của nhóm như một nhóm hoán vị của những đối tượng riêng biệt.
+† Lie trước đó đã phát biểu không chứng minh một kết quả thuộc kiểu này ([3 g], no. 7). Ông được dẫn đến đó bởi nghiên cứu của mình về các nền tảng của hình học (“bài toán Helmholz”), trong đó ông đã nhận xét rằng các giả thiết về tính giải tích không phải là tự nhiên.
 
-từ Chương III, § 6, No. 4, Mệnh đề 12 của chúng tôi; riêng trong các tọa độ chính tắc, các $\psi_{ij}$ mở rộng thành các hàm nguyên theo các $a_k$. Từ đó F. Schur suy ra một kết quả làm chính xác hóa một nhận xét trước đó của Lie: nếu, trong định nghĩa (4) của các nhóm biến đổi, ta chỉ giả thiết các $f_i$ thuộc lớp $C^2$, thì nhóm đó đẳng cấu holoedric với một nhóm giải tích.\footnote{Lie đã phát biểu mà không chứng minh một kết quả kiểu này (III i)). Ông đã đi đến đó từ các nghiên cứu của mình về các nền tảng của hình học (“Helmholtz problem”), ở đó ông đã nhận thấy rằng các giả thiết giải tích không phải là tự nhiên.}
+Kết quả của F. Schur đã dẫn Hilbert vào năm 1900 đặt câu hỏi liệu cùng một kết luận có còn đúng nếu chỉ giả sử rằng các $f_i$ là liên tục hay không (“bài toán thứ 5 của Hilbert”). Bài toán này đã kích thích nhiều nghiên cứu. Kết quả đầy đủ nhất theo hướng này là định lý sau đây, được chứng minh bởi A. Gleason, D. Montgomery và L. Zippin; mọi nhóm tôpô compact địa phương đều có một nhóm con mở là một giới hạn ngược của các nhóm Lie; nó suy ra rằng mọi nhóm địa phương Euclid là một nhóm Lie. Để biết thêm chi tiết về vấn đề này, xem D. Montgomery và L. Zippin [41].
 
-Tiếp theo các nghiên cứu của ông về việc tích phân các hệ vi phân, E. Cartan (XII, t. II_2, p. 371) đưa vào năm 1904 các dạng Pfaff
+Trong nghiên cứu về sự tích phân của các hệ vi phân, E. Cartan ([12], tập II_2, p. 371) đã đưa vào năm 1904 các dạng Pfaff
 
 $$
 \omega_k = \sum_{i=1}^r \psi_{ki} da_i \quad (1 \leq i \leq r)
 $$
 
-(với các ký hiệu của (15)), về sau được gọi là các dạng *Maurer-Cartan*. Khi đó các điều kiện (17) của Maurer có thể viết thành
+(theo ký hiệu của (15)), về sau được gọi là *dạng thức Maurer-Cartan*. Các điều kiện Maurer (17) có thể được viết
 
 $$
 d\omega_k = -\frac{1}{2} \sum_{i,j} c_{ij}^k \omega_i \wedge \omega_j;
 $$
 
-Kết quả của F. Schur đã khiến Hilbert, vào năm 1900, đặt câu hỏi liệu cùng kết luận ấy còn đúng hay không nếu chỉ giả thiết các $f_i$ liên tục (“5th Hilbert problem”). Bài toán này đã làm nảy sinh nhiều nghiên cứu. Kết quả đầy đủ nhất theo hướng này là định lý sau đây, được chứng minh bởi A. Gleason, D. Montgomery và L. Zippin: mọi nhóm tôpô compact địa phương đều có một nhóm con mở là một giới hạn xạ ảnh của các nhóm Lie; điều này suy ra rằng mọi nhóm Euclid địa phương đều là một nhóm Lie. Để biết thêm chi tiết về vấn đề này, xem D. MONTGOMERY and L. ZIPPIN (XLI).
+E. Cartan đã chỉ ra rằng lý thuyết các nhóm liên tục hữu hạn có thể được xây dựng bắt đầu từ các $\omega_k$ và đã thiết lập sự tương đương giữa quan điểm này và quan điểm của Lie. Nhưng, đối với ông, lợi ích của phương pháp này trước hết là nó có thể được thích nghi với các "nhóm liên tục vô hạn", lý thuyết của chúng được ông phát triển xa hơn nhiều so với Lie và cho phép ông phát triển lý thuyết của mình về "khung chuyển động" tổng quát hóa.
 
-E. Cartan chỉ ra rằng có thể phát triển lý thuyết các nhóm hữu hạn và liên tục từ các $\omega_k$ và thiết lập tính tương đương của quan điểm này với quan điểm của Lie. Nhưng đối với ông, lợi ích của phương pháp này đặc biệt ở chỗ nó thích nghi với các nhóm “vô hạn và liên tục” mà lý thuyết của chúng ông đẩy đi xa hơn nhiều so với điều Lie đã làm, và ở chỗ nó cho phép ông dựng nên lý thuyết của mình về “khung chuyển động” tổng quát.
+IV. LÝ THUYẾT CÁC ĐẠI SỐ LIE
 
-IV. Lý thuyết các đại số Lie
+Một khi đã có được sự tương ứng giữa các nhóm biến đổi và các đại số Lie, lý thuyết đã chuyển sang một hướng đại số hơn đáng kể và trở nên tập trung vào việc nghiên cứu sâu các đại số Lie.†
 
-Một khi đã có được sự tương ứng giữa các nhóm biến đổi và các đại số Lie, lý thuyết mang một hướng rẽ ngày càng đậm nét về phía đại số hơn và tập trung vào việc nghiên cứu sâu các đại số Lie.$^1$
+Một giai đoạn đầu tiên, ngắn, từ 1888 đến 1894, được đánh dấu bởi các công trình của Engel và học trò của ông Umlauf và đặc biệt là Killing và E. Cartan, đã đạt được một chuỗi các kết quả ngoạn mục về các đại số Lie phức. Trước đây chúng ta đã thấy rằng khái niệm đại số Lie giải được là do chính Lie đưa ra, người đã chỉ ra (trong trường hợp phức) định lý về sự rút gọn các đại số Lie tuyến tính giải được về dạng tam giác ([4], tập 1, p. 270).‡ Killing nhận thấy [11] rằng trong một đại số Lie tồn tại một iđêan giải được lớn nhất (mà ngày nay ta gọi là căn) và rằng thương của đại số Lie bởi căn của nó có căn bằng không; ông gọi các đại số Lie có căn bằng không là *nửa đơn* và chứng minh rằng chúng là các tích của các đại số đơn (khái niệm sau này đã được Lie đưa vào trước đó, người đã chứng minh tính đơn của các đại số "cổ điển" ([4], tập 3, p. 682)).
 
-Một giai đoạn đầu tiên và ngắn, từ 1888 đến 1894, được đánh dấu bởi các công trình của Engel, học trò của ông là Umlauf, và nhất là Killing và E. Cartan, dẫn tới một chuỗi các kết quả ngoạn mục về các đại số Lie phức. Như ta đã thấy ở trên, khái niệm đại số Lie giải được là do chính Lie, người đã chứng minh (trong trường hợp phức) định lý rút gọn các đại số Lie tuyến tính giải được về dạng tam giác (IV, t. 1, p. 270).$^2$ Killing nhận thấy (XI) rằng trong một đại số Lie tồn tại một iđêan giải được lớn nhất (ngày nay gọi là căn), và thương của đại số Lie theo căn của nó có căn bằng không; ông gọi là *nửa đơn* các đại số Lie có căn bằng không, và chứng minh rằng chúng là các tích của các đại số đơn (khái niệm sau này đã được Lie đưa vào, người đã chứng minh tính đơn của các đại số Lie “cổ điển” (IV, t. 3, p. 682))).
+Mặt khác, Killing đã đưa vào trong một đại số Lie phương trình đặc số $\det(\mathrm{ad}(x) - \omega . 1) = 0$, phương trình này đã được Lie gặp phải khi nghiên cứu các đại số con Lie 2 chiều chứa một phần tử đã cho của một đại số Lie. Trong các Chú giải lịch sử khác của Sách này, chúng ta sẽ trở lại việc phân tích các phương pháp mà nhờ đó Killing, trong khi tiến hành một nghiên cứu sâu sắc về các
 
-Mặt khác, Killing đưa vào, trong một đại số Lie, phương trình đặc trưng $\det(\mathrm{ad}(x) - \omega.1) = 0$, đã được Lie gặp khi nghiên cứu các đại số con Lie chiều 2 chứa một phần tử đã cho của một đại số Lie. Chúng tôi dẫn đến các Ghi chú lịch sử khác của cuốn Sách này để phân tích các phương pháp mà nhờ đó Killing, bằng cách nghiên cứu sâu các tính chất của các nghiệm của phương trình đặc trưng “tổng quát” đối với một đại số nửa đơn, đi tới kết quả đáng chú ý nhất của ông, đó là việc xác định *đầy đủ* các đại số Lie đơn (phức).$^3$
+† Thuật ngữ "đại số Lie" được H. Weyl đưa vào năm 1934: trong công trình của ông năm 1925, ông đã dùng biểu thức "nhóm vi phân vô cùng bé". Trước đó, các nhà toán học chỉ đơn giản nói đến các "phép biến đổi vô cùng bé X_1f, ..., X_rf" của nhóm, mà Lie và Engel thường rút gọn bằng cách nói "nhóm X_1f, ..., X_rf"!
 
-$^1$ Thuật ngữ “đại số Lie” đã được H. Weyl đưa vào năm 1934: trong các công trình năm 1925 của ông, ông đã dùng cách nói “nhóm vô cùng bé”. Trước đó, người ta chỉ đơn giản nói đến “các phép biến đổi vô cùng bé $X_1 f, \ldots, X_r f$” của nhóm, mà Lie và Engel thường viết tắt bằng cách nói “nhóm $X_1 f, \ldots, X_r f$”!
+‡ Gần như ngay từ đầu công trình nghiên cứu của mình, Lie đã gặp các nhóm tuyến tính giải được và thậm chí thực tế là các nhóm tuyến tính lũy linh [3 h].
 
-$^2$ Hầu như ngay từ đầu các nghiên cứu của mình, Lie đã gặp các nhóm tuyến tính giải được, và thậm chí trên thực tế là các nhóm lũy linh (III $f$).
+tính chất của các nghiệm của phương trình đặc số "tổng quát" đối với một đại số nửa đơn, đã đạt được kết quả đáng chú ý nhất của mình, đó là sự xác định đầy đủ các đại số Lie đơn (phức).§
 
-$^3$ Trừ việc ông tìm được hai đại số ngoại lệ chiều 52 mà ông không nhận ra là đẳng cấu. (Điều này chỉ liên quan đến các đại số Lie đơn phức, vì khi đó chưa hề hình dung ra bài toán tổng quát hơn nào; trên thực tế, các phương pháp của Killing là đúng với mọi trường đóng đại số có đặc số 0).
+Killing đã chứng minh rằng đại số dẫn xuất của một đại số giải được là "hạng 0" (điều này có nghĩa là ad $x$ là lũy linh đối với mọi phần tử $x$ của đại số). Ngay lập tức, Engel chỉ ra rằng các đại số "hạng 0" là giải được (mệnh đề này về cơ bản là điều mà chúng ta gọi là Định lý Engel trong Chương I, § 4, no. 2). Trong luận án của mình, mặt khác E. Cartan đã đưa vào điều mà ngày nay ta gọi là "dạng Killing" và thiết lập hai tiêu chuẩn cơ bản đặc trưng, bằng dạng này, các đại số Lie giải được và các đại số Lie nửa đơn.
 
-Killing chứng minh rằng đại số dẫn xuất của một đại số giải được là “hạng 0” (nghĩa là ad $x$ lũy linh với mọi phần tử $x$ của đại số). Một thời gian ngắn sau, Engel chứng minh rằng các đại số “hạng 0” là giải được (mệnh đề này về thực chất là điều mà chúng tôi đã gọi là định lý Engel trong Chương I, § 4, No. 2). Trong luận án của mình, E. Cartan còn đưa vào cái ngày nay được gọi là “dạng Killing”, và thiết lập hai tiêu chuẩn cơ bản đặc trưng, thông qua dạng này, các đại số Lie giải được và các đại số Lie nửa đơn.
+Killing đã khẳng định ([11], IV) rằng đại số dẫn xuất của một đại số Lie là tổng của một đại số nửa đơn và căn của nó, vốn là lũy linh, nhưng chứng minh của ông không đầy đủ. Một thời gian ngắn sau, E. Cartan đã thông báo không kèm chứng minh ([12], tập I_1, p. 104) rằng nói chung mọi đại số Lie là tổng của căn của nó và một đại số con nửa đơn; kết quả duy nhất theo hướng này được thiết lập một cách không thể tranh cãi trong thời kỳ này là một định lý của Engel khẳng định sự tồn tại, trong mọi đại số Lie không giải được, của một đại số con Lie đơn có chiều 3. Chứng minh đầu tiên được công bố (đối với các đại số Lie phức) cho mệnh đề của Cartan là của E. E. Levi [18]; một chứng minh khác (cũng đúng trong trường hợp thực) được J. H. C. Whitehead đưa ra năm 1936 [26 a]. Năm 1942, A. Malcev đã hoàn thiện kết quả này bằng định lý duy nhất đối với các "tiết diện Levi" đến liên hợp.
 
-Killing đã khẳng định (XI, IV) rằng đại số dẫn xuất của một đại số Lie là tổng của một đại số nửa đơn và căn của nó, căn này là lũy linh, nhưng chứng minh của ông là chưa đầy đủ. Ít lâu sau, E. Cartan công bố không chứng minh (XII, t. I₁, p. 104) rằng tổng quát hơn mọi đại số Lie đều là tổng của căn của nó và một đại số con nửa đơn; kết quả duy nhất theo hướng này được thiết lập một cách không thể nghi ngờ vào thời điểm ấy là một định lý của Engel khẳng định sự tồn tại, trong mọi đại số Lie không giải được, của một đại số con Lie đơn chiều 3. Chứng minh được công bố đầu tiên (đối với các đại số Lie phức) cho mệnh đề của Cartan là của E. E. Levi (XVIII); một chứng minh khác (cũng đúng trong trường hợp thực) đã được J. H. C. Whitehead đưa ra năm 1936 (XXVI a)). Năm 1942 A. Malcev đã bổ sung kết quả này bằng định lý duy nhất đối với các "thành phần Levi" tới liên hợp.
+Ngay từ những công trình đầu tiên của mình, Lie đã quan tâm đến bài toán về đẳng cấu giữa một đại số Lie bất kỳ và một đại số Lie tuyến tính. Ông đã tin rằng mình đã giải quyết nó theo hướng khẳng định bằng cách xét biểu diễn liên hợp (và suy ra từ đó một chứng minh cho "định lý thứ ba" của mình) [3 d]; ông nhận ra rằng chứng minh của mình chỉ đúng đối với các đại số Lie có tâm bằng không, đã đưa ra một chứng minh sai khác cho điều đó ([3 f], § 3, no. 9) và sau đó thừa nhận ([3 g], p. 231) rằng câu hỏi vẫn còn bỏ ngỏ. Thực tế, nó vẫn như vậy trong một thời gian dài và chỉ cuối cùng được giải quyết theo hướng khẳng định vào năm 1935 bởi Ado [27]. Mặt khác, Lie về cơ bản đã đặt ra bài toán xác định các biểu diễn tuyến tính của các đại số Lie đơn có chiều cực tiểu và đã giải quyết nó đối với các nhóm cổ điển; trong Luận án của mình, Cartan cũng đã giải quyết bài toán này đối với các đại số đơn ngoại lệ†; các phương pháp mà ông dùng cho việc này sau đó được ông tổng quát hóa hai mươi năm sau để thu được tất cả các biểu diễn bất khả quy của các đại số Lie đơn thực hoặc phức.
 
-Ngay từ những công trình đầu tiên của mình, Lie đã nêu bài toán về đẳng cấu của mọi đại số Lie với một đại số Lie tuyến tính. Ông tin rằng mình đã giải quyết được theo hướng khẳng định bằng cách xét biểu diễn liên hợp (và từ đó suy ra một chứng minh cho "định lý thứ ba" của ông), (III e)); ông sớm nhận ra rằng chứng minh của mình chỉ đúng đối với các đại số Lie có tâm bằng không; sau ông, câu hỏi ấy còn bỏ ngỏ trong một thời gian rất dài, và được Ado giải quyết theo hướng khẳng định năm 1935 (XXVII). Mặt khác, về thực chất Lie đã nêu bài toán xác định các biểu diễn tuyến tính có chiều cực tiểu của các đại số Lie đơn, và đã giải được đối với các đại số cổ điển; trong Luận án của mình, Cartan cũng giải bài toán này cho các đại số đơn ngoại lệ¹; các phương pháp mà ông dùng cho mục đích đó sẽ được chính ông khái quát hóa hai mươi năm sau để thu được tất cả các biểu diễn bất khả quy của các đại số Lie đơn thực hoặc phức.
+§ Ngoài sự kiện rằng ông đã tìm thấy hai nhóm ngoại lệ có chiều 52 nhưng không nhận thấy rằng chúng đẳng cấu. (Ông chỉ xét các đại số Lie đơn phức vì bài toán tổng quát hơn chưa được xét vào thời điểm đó; các phương pháp của Killing thực ra đúng đối với mọi trường đóng đại số có đặc số 0).
 
-Tính chất khả quy hoàn toàn của một biểu diễn tuyến tính dường như đã được Study gặp lần đầu tiên (dưới một dạng hình học). Trong một bản thảo không công bố, nhưng được dẫn trong (IV, t. 3, p. 785–788), ông chứng minh tính chất này đối với các biểu diễn tuyến tính của đại số Lie của $\mathbf{SL}(2, \mathbf{C})$, và thu được các kết quả bộ phận đối với $\mathbf{SL}(3, \mathbf{C})$ và $\mathbf{SL}(4, \mathbf{C})$. Nhân dịp đó, Lie và Engel đã phỏng đoán rằng định lý khả quy hoàn toàn đúng cho $\mathbf{SL}(n, \mathbf{C})$ với mọi $n$. Tính khả quy hoàn toàn của các biểu diễn tuyến tính
+† Cách tiếp cận của Cartan bao gồm việc nghiên cứu các đại số Lie mở rộng không tầm thường của một đại số Lie đơn và một căn (giao hoán) có chiều cực tiểu.
 
-¹ Quan điểm của Cartan là nghiên cứu các đại số Lie là những mở rộng không tầm thường của một đại số Lie đơn và một căn (giao hoán) có chiều cực tiểu.
+Tính chất khả quy đầy đủ của một biểu diễn tuyến tính dường như lần đầu tiên đã được gặp (dưới một dạng hình học) bởi Study. Trong một bản thảo chưa công bố, nhưng được trích dẫn trong [4], tập 3, tr. 785–788, ông đã chứng minh tính chất này cho các biểu diễn tuyến tính của đại số Lie $\mathbf{SL}(2, \mathbf{C})$ và thu được các kết quả từng phần cho $\mathbf{SL}(3, \mathbf{C})$ và $\mathbf{SL}(4, \mathbf{C})$. Lie và Engel đã đưa ra vào dịp này giả thuyết rằng định lý khả quy đầy đủ đúng cho $\mathbf{SL}(n, \mathbf{C})$ với mọi $n$. Tính khả quy đầy đủ của các biểu diễn tuyến tính của các đại số Lie nửa đơn đã được H. Weyl thiết lập vào năm 1925† bằng một lập luận kiểu toàn cục (xem sau). Chứng minh đại số đầu tiên được thu được vào năm 1935 bởi Casimir và van der Waerden [32]; các chứng minh đại số khác sau đó đã được đưa ra bởi R. Brauer [31] (đây là chứng minh mà chúng tôi đã trình bày lại) và J. H. C. Whitehead [26 b].
 
-của các đại số Lie nửa đơn đã được H. Weyl thiết lập năm 1925¹ bằng một lập luận có tính chất toàn cục (xem sau). Chứng minh đại số đầu tiên đã được Casimir và van der Waerden thu được năm 1935 (XXXII); những chứng minh đại số khác sau đó đã được R. Brauer (XXXI) đưa ra (chứng minh mà chúng tôi đã chép lại) và J. H. C. Whitehead (XXVI, b)).
+Cuối cùng, trong quá trình nghiên cứu của mình về ánh xạ mũ (xem infra), H. Poincaré ([14], tập 3) đã xét đại số kết hợp của các toán tử vi phân mọi cấp, được sinh bởi các toán tử của một đại số Lie; về cơ bản ông đã chỉ ra rằng, nếu $(\mathbf{X}_i)_{1 \leq i \leq n}$ là một cơ sở của đại số Lie, thì đại số kết hợp được sinh bởi các $\mathbf{X}_i$ có làm cơ sở một số hàm đối xứng của các $\mathbf{X}_i$ (tổng của các "đơn thức" không giao hoán dẫn xuất từ một đơn thức đã cho bởi mọi phép hoán vị của các thừa số). Bản chất của chứng minh của ông có tính chất đại số và cho phép ông thu được cấu trúc đại số bao phủ mà chúng tôi định nghĩa một cách trừu tượng trong Chương I. Các chứng minh tương tự đã được đưa ra vào năm 1937 bởi G. Birkhoff [29 b] và E. Witt [30].‡
 
-Sau cùng, trong quá trình nghiên cứu về ánh xạ mũ (x. infra), H. Poincaré (XIV, t. 3) xét đại số kết hợp các toán tử vi phân mọi cấp, được sinh bởi các toán tử của một đại số Lie; về thực chất ông chỉ ra rằng, nếu $(X_i)_{1 \leq i \leq n}$ là một cơ sở của đại số Lie, thì đại số kết hợp sinh bởi các $X_i$ có làm cơ sở những hàm đối xứng nào đó của các $X_i$ (các tổng của những "đơn thức" không giao hoán suy ra từ một đơn thức đã cho bằng mọi hoán vị của các thừa số). Phần cốt yếu trong chứng minh của ông có bản chất đại số, và cho phép thu được cấu trúc của đại số bao mà chúng tôi đã định nghĩa một cách trừu tượng trong chap. I. Các chứng minh tương tự đã được G. Birkhoff (XXIX b)) và E. Witt (XXX) đưa ra năm 1937.²
+Phần lớn các kết quả được trích dẫn ở trên bị giới hạn cho các đại số Lie thực hoặc phức, là những đại số duy nhất tương ứng với các nhóm Lie theo nghĩa thông thường. Việc nghiên cứu các đại số Lie trên một trường khác $\mathbf{R}$ hoặc $\mathbf{C}$ đã được Jacobson [28 a] khởi xướng; ông đã chỉ ra rằng đại đa số các kết quả cổ điển (tức là các kết quả của Chương I) vẫn đúng cho mọi trường có đặc số không.
 
-Phần lớn các công trình dẫn ở trên chỉ giới hạn ở các đại số Lie thực hoặc phức, vốn là những đại số duy nhất tương ứng với các nhóm Lie theo nghĩa thông thường. Việc nghiên cứu các đại số Lie trên một trường khác $\mathbf{R}$ hoặc $\mathbf{C}$ được Jacobson tiếp cận trong (XXVIII a)), ông chỉ ra rằng phần lớn các kết quả cổ điển (tức là các kết quả của chap. I) vẫn còn đúng trên một trường có đặc số không.
+V. CÔNG THỨC MŨ VÀ HAUSDORFF
 
-V. Công thức mũ và công thức Hausdorff
+Nghiên cứu đầu tiên về ánh xạ mũ là của E. Study và F. Engel; Engel [9 b] nhận xét rằng ánh xạ mũ không toàn ánh đối với $\mathbf{SL}(2, \mathbf{C})$ (ví dụ $\begin{pmatrix} -1 & a \\ 0 & -1 \end{pmatrix}$ không là một phần tử mũ nếu $a \neq 0$), nhưng nó toàn ánh đối với $\mathbf{GL}(n, \mathbf{C})$ và do đó cũng đối với $\mathbf{PGL}(n, \mathbf{C})$ (tính chất sau này đã được Study nhận thấy trước đó đối với $n = 2$); như vậy $\mathbf{SL}(2, \mathbf{C})$ và $\mathbf{PGL}(2, \mathbf{C})$ cho một ví dụ về hai nhóm đẳng cấu địa phương, tuy nhiên chúng rất khác nhau từ quan điểm toàn cục.
 
-Những nghiên cứu đầu tiên liên quan đến ánh xạ mũ là do E. Study và F. Engel; Engel (IX b)) lưu ý rằng ánh xạ mũ không toàn ánh đối với $\mathbf{SL}(2, \mathbf{C})$ (chẳng hạn $\begin{pmatrix} -1 & a \\ 0 & -1 \end{pmatrix}$ không phải là một hàm mũ nếu $a \neq 0$), nhưng lại toàn ánh đối với $\mathbf{GL}(n, \mathbf{C})$, và do đó cũng đối với $\mathbf{PGL}(n, \mathbf{C})$ (tính chất sau này đã được Study ghi nhận trước đó cho $n = 2$); như vậy $\mathbf{SL}(2, \mathbf{C})$ và $\mathbf{PGL}(2, \mathbf{C})$ cho một ví dụ về hai nhóm địa phương đẳng cấu, nhưng tuy nhiên lại rất khác nhau từ quan điểm toàn cục. Engel cũng chỉ ra rằng ánh xạ mũ là toàn ánh trong các nhóm cổ điển khác, được mở rộng bằng các phép vị tự; các công trình này được Maurer, Study và những người khác tiếp nhận và tiếp tục, nhưng không đem lại những điều mới mẻ đáng kể.
+† H. Weyl nhận xét vào dịp này rằng phép dựng do E. Cartan đưa ra cho các biểu diễn bất khả quy một cách ẩn ý sử dụng tính chất này.
 
-¹ H. Weyl nhận xét nhân dịp này rằng phép dựng do E. Cartan đưa ra cho các biểu diễn bất khả quy ngầm dùng tính chất này.
-² Việc sử dụng đầu tiên các toán tử vi phân cấp cao được sinh bởi các $X_i$ chắc chắn là việc dùng "toán tử Casimir" để chứng minh định lý phân rã hoàn toàn. Sau năm 1950, các nghiên cứu của Gelfand và trường phái của ông, cũng như của Harish-Chandra, về các biểu diễn tuyến tính vô hạn chiều, đã đưa các toán tử này lên hàng đầu.
+‡ Việc sử dụng đầu tiên các toán tử vi phân cấp cao hơn được sinh bởi các $\mathbf{X}_i$ chắc hẳn là việc sử dụng "toán tử Casimir" cho chứng minh định lý khả quy đầy đủ. Sau năm 1950, nghiên cứu của Gelfand và trường phái của ông cùng Harish-Chandra về các biểu diễn tuyến tính vô hạn chiều đã đưa các toán tử này lên vị trí hàng đầu.
 
-Năm 1899, H. Poincaré (XIV, t. 3, p. 169–172 và 173–212) tiếp cận việc nghiên cứu ánh xạ mũ từ một quan điểm khác. Các hồi ký của ông dường như đã được viết vội vã, vì ở nhiều chỗ ông khẳng định rằng mọi phần tử của một nhóm liên thông đều là một hàm mũ, trong khi ở nơi khác ông lại cho các ví dụ ngược lại. Các kết quả của ông chủ yếu liên quan đến nhóm phụ hợp: ông chỉ ra rằng một phần tử nửa đơn của một nhóm như vậy $G$ có thể là hàm mũ của vô hạn nhiều phần tử của đại số Lie $\mathfrak{L}(G)$, trong khi một phần tử không nửa đơn có thể không phải là một hàm mũ. Nếu $\operatorname{ad}(X)$ không có trị riêng bội khác không nào là bội của $2\pi i$, thì $\exp$ là étale tại $X$. Ông cũng chứng minh rằng, nếu $U$ và $V$ mô tả các vòng trong $\mathfrak{L}(G)$, và nếu ta xác định bằng tính liên tục $W$ sao cho $e^U.e^V = e^W$, thì ta không nhất thiết quay trở lại sự xác định ban đầu của $W$. Ông dùng một công thức thặng dư mà về thực chất là
+Engel cũng chỉ ra rằng ánh xạ mũ là toàn ánh đối với các nhóm cổ điển khác được bổ sung bởi các phép vị tự; công trình này đã được Maurer, Study và những người khác tiếp tục và phát triển, nhưng không tạo ra các kết quả mới đáng kể.
 
-$$
-\Phi(\mathrm{ad}\ X) = \frac{1}{2\pi i} \int \frac{\Phi(\xi)\ d\xi}{\xi - \mathrm{ad}\ X}
-$$
-
-trong đó $\operatorname{ad}(X)$ là một phần tử nửa đơn mà các trị riêng khác không đều có bội số 1, $\Phi$ là một chuỗi lũy thừa có bán kính hội tụ đủ lớn, tích phân được lấy trên một vòng bao các trị riêng của $\operatorname{ad} X$; ông cũng nghiên cứu điều gì xảy ra khi $X$ tiến tới một phép biến đổi có các trị riêng bội.
-
-Việc tìm kiếm các biểu thức của $W$ theo $U$ và $V$ trong công thức $e^U.e^V = e^W$ đã, ít lâu trước công trình của Poincaré, là đối tượng của hai hồi ký của Campbell (XIII). Như Baker viết ít lâu sau đó, "... lý thuyết của Lie hiển nhiên gợi ý rằng tích $e^Ue^V$ có dạng $e^W$ trong đó $W$ là một chuỗi các alternant theo $U$ và $V$ ...". Các công trình tiếp theo về chủ đề này nhằm làm sáng tỏ mệnh đề này và đưa ra một công thức tường minh (hoặc một phương pháp dựng) cho $W$ (công thức "Hausdorff"). Sau Campbell và Poincaré, Pascal, Baker (XV) và Hausdorff (XVI) trở lại vấn đề; mỗi người đều coi các chứng minh của những người đi trước là không thuyết phục; khó khăn chính nằm ở chỗ phải hiểu "alternants" theo nghĩa nào: chúng là các phần tử của đại số Lie riêng đang được xét, hay là các biểu thức "ký hiệu" phổ quát? Campbell, Poincaré và Baker đều không diễn đạt rõ ràng về điểm này. Trái lại, hồi ký của Hausdorff thì hoàn toàn chính xác; trước hết ông làm việc trong đại số các chuỗi hình thức kết hợp (không giao hoán) theo một số hữu hạn ẩn, và coi $U, V, W$ là các phần tử của đại số này. Ông chứng minh sự tồn tại của $W$ bằng một lập luận phương trình vi phân tương tự như của những người đi trước. Chính lập luận ấy giúp ông chứng minh sự hội tụ của chuỗi khi thay các ẩn bằng các phần tử của một đại số Lie hữu hạn chiều. Như Baker đã nhận xét, và Poincaré cũng độc lập nhận thấy, kết quả này có thể dùng để cho một chứng minh định lý thứ ba của Lie; nó làm sáng tỏ sự tương ứng giữa các nhóm và các đại số Lie, chẳng hạn đối với nhóm giao hoán tử.
-
-Năm 1947, Dynkin (XXXIX) lại xét vấn đề này, và thu được các hệ số tường minh của công thức Hausdorff, bằng cách ngay từ đầu xét một đại số Lie định chuẩn (hữu hạn chiều hay không, trên $\mathbf{R}, \mathbf{C}$ hay một trường siêu mêtric).¹
-
-VI. Các biểu diễn tuyến tính và các nhóm Lie toàn cục
-
-Không một công trình nào mà chúng tôi vừa nói đến đã trực diện đề cập đến bài toán định nghĩa và nghiên cứu các nhóm Lie toàn cục. Những bước đầu tiên theo hướng này là do H. Weyl. Ông lấy cảm hứng từ hai lý thuyết, mà cho đến lúc đó đã phát triển độc lập: lý thuyết các biểu diễn tuyến tính của các đại số Lie phức nửa đơn, do E. Cartan, và lý thuyết các biểu diễn tuyến tính của các nhóm hữu hạn, do Frobenius và vừa mới được I. Schur chuyển sang nhóm trực giao, sử dụng một ý tưởng của Hurwitz. Sau này Hurwitz đã chỉ ra (XVII) cách có thể lập các bất biến đối với nhóm trực giao hoặc nhóm unita bằng cách thay thế phép toán lấy trung bình trên một nhóm hữu hạn bằng phép tích phân đối với một độ đo bất biến. Ông cũng đã nhận xét rằng, khi áp dụng phương pháp này cho nhóm unita, người ta thu được các bất biến đối với nhóm tuyến tính tổng quát, ví dụ đầu tiên của "mẹo unita". Năm 1924, I. Schur (XX) dùng phương pháp này để chỉ ra tính khả quy hoàn toàn của các biểu diễn của nhóm trực giao $\mathbf{O}(n)$ và của nhóm unita $\mathbf{U}(n)$, bằng phép dựng một dạng Hermit bất biến dương không suy biến; ông suy ra, bằng "mẹo unita", tính khả quy hoàn toàn của các biểu diễn chỉnh hình của $\mathbf{O}(n, \mathbf{C})$, và của $\mathbf{SL}(n, \mathbf{C})$, thiết lập các hệ thức trực giao đối với các đặc trưng của $\mathbf{O}(n)$ và của $\mathbf{U}(n)$ và xác định các đặc trưng của $\mathbf{O}(n)$. H. Weyl ngay lập tức mở rộng phương pháp này cho các đại số Lie phức nửa đơn (XXI). Cho một đại số như vậy $\mathfrak{g}$, ông chỉ ra rằng nó có một "dạng thực compact" (điều này tương đương với việc nói rằng nó thu được bằng mở rộng vô hướng từ $\mathbf{R}$ đến $\mathbf{C}$ của một đại số $g_0$ trên $\mathbf{R}$ mà nhóm liên hợp $G_0$ của nó là compact). Hơn nữa, ông chỉ ra rằng nhóm cơ bản của $G_0$ là hữu hạn, do đó phủ phổ quát² của $G_0$ là compact. Ông suy ra, bằng một sự thích nghi thích hợp của phương pháp của Schur, tính khả quy hoàn toàn của các biểu diễn của $\mathfrak{g}$, và cũng cho, bằng một phương pháp toàn cục, sự xác định các đặc trưng của các biểu diễn của $\mathfrak{g}$. Trong một lá thư gửi I. Schur (Sitzungsber. Berlin,
-
-¹ Trong trường hợp ultrametric, phương pháp cổ điển của các hàm trội không thể được mở rộng mà không có thận trọng, vì sự ứng xử tiệm cận của trị tuyệt đối $p$-adic của $1/n$ khi $n$ tiến ra vô hạn.
-
-² H. Weyl không định nghĩa tường minh khái niệm này, mà ông đã quen thuộc từ khi viết giáo trình của mình về các mặt Riemann (1913). Chính O. Schreier (XXII), vào các năm 1926–1927, lần đầu tiên cho định nghĩa của một nhóm tôpô và của một nhóm "liên tục" (nghĩa là địa phương đồng phôi với một không gian Euclid), cũng như phép dựng phủ phổ quát của một nhóm như vậy.
-
-1924, 338–343), H. Weyl tóm tắt các kết quả của Cartan, mà Schur không biết đến (x. (XX), p. 299, chú thích) và so sánh hai quan điểm: phương pháp của Cartan cung cấp mọi biểu diễn chỉnh hình của nhóm đơn liên có đại số Lie g; trong trường hợp nhóm trực giao, do đó người ta thu được các biểu diễn của một phủ hai lá (về sau được gọi là nhóm spinor), vượt ra ngoài Schur; mặt khác, phương pháp của Schur có ưu điểm là chứng minh tính khả quy hoàn toàn và cho tường minh các đặc trưng.
-
-Sau các công trình của H. Weyl, E. Cartan tiếp nhận một quan điểm trực diện toàn cục trong nghiên cứu của ông về các không gian đối xứng và các nhóm Lie. Chính quan điểm này là cơ sở của bản trình bày năm 1930 của ông (XII, t. I2, p. 1165–1225) về lý thuyết các nhóm "hữu hạn và liên tục". Ở đó người ta tìm thấy đặc biệt chứng minh đầu tiên của biến thể toàn cục của định lý cơ bản thứ 3 (sự tồn tại của một nhóm Lie có đại số Lie cho trước); Cartan cũng chỉ ra rằng mọi nhóm con đóng của một nhóm Lie thực đều là một nhóm Lie (Chương III, § 8, No. 2, Định lý 2), điều này tổng quát hóa một kết quả của J. von Neumann về các nhóm con đóng của nhóm tuyến tính (XXIII). Trong Hồi ký này, von Neumann cũng đã chỉ ra rằng mọi biểu diễn liên tục của một nhóm phức nửa đơn đều là giải tích thực.
-
-Sau các công trình này, lý thuyết các nhóm Lie theo nghĩa "cổ điển" (nghĩa là, số chiều hữu hạn trên $\mathbf{R}$ hoặc $\mathbf{C}$) ít nhiều đã được cố định trong những nét lớn của nó. Bản trình bày chi tiết đầu tiên về nó được Pontrjagin đưa ra trong cuốn sách của ông về các nhóm tôpô (XXXVI); ở đó ông giữ một quan điểm còn khá gần với quan điểm của Lie, nhưng cẩn thận phân biệt cái địa phương với cái toàn cục. Tiếp theo là cuốn sách của Chevalley (XXXVIII), cuốn này cũng chứa sự thảo luận có hệ thống đầu tiên về lý thuyết các đa tạp giải tích và phép tính vi phân ngoài; các "biến đổi vô cùng bé" của Lie ở đó xuất hiện như các trường vectơ và đại số Lie của một nhóm Lie G được đồng nhất với không gian các trường vectơ bất biến trái trên G. Ông gác sang một bên khía cạnh "nhóm địa phương" và khía cạnh "nhóm biến đổi".
-
-VII. Các mở rộng của khái niệm nhóm Lie
-
-Ngày nay, sức sống của lý thuyết Lie biểu hiện qua tính đa dạng của các ứng dụng của nó (trong tôpô, hình học vi phân, số học, v.v.), cũng như qua việc tạo ra các lý thuyết song song trong đó cấu trúc đa tạp vi phân nền tảng được thay thế bằng một cấu trúc lân cận (đa tạp $p$-adique, đại số, lược đồ, lược đồ hình thức, ...). Ở đây chúng tôi không phải trình bày lịch sử của tất cả những phát triển đó, và chúng tôi sẽ chỉ giới hạn ở những điều được khảo sát trong Chương III: các nhóm Lie $p$-adiques.
-
-a) Các nhóm Lie Banach
-
-Đó là các nhóm Lie "vô hạn chiều". Theo quan điểm địa phương, người ta thay một lân cận của 0 trong một không gian Euclid bằng một lân cận của 0 trong một không gian Banach. Đó là điều mà G. Birkhoff làm vào năm 1936 (XXIX a)), nhờ đó đi đến khái niệm đại số Lie định chuẩn đầy đủ và sự tương ứng của nó với một "vi nhóm" được xác định trên một tập mở của một không gian Banach. Vào khoảng năm 1950, Dynkin hoàn thiện các kết quả ấy bằng cách mở rộng sang trường hợp này công thức Hausdorff (x. trên).
-
-Các định nghĩa và kết quả của Birkhoff và Dynkin là địa phương. Cho đến một thời gian gần đây, dường như không ai tìm cách trình bày tường minh lý thuyết toàn cục tương ứng, hẳn là vì thiếu các áp dụng.¹
-
-¹ Nếu, mặc dù thiếu các áp dụng ấy, chúng tôi đã đưa các nhóm "Banach" vào Chương III, thì đó là vì các đa tạp Banach ngày càng được dùng nhiều trong giải tích (và trong chính việc nghiên cứu các đa tạp hữu hạn chiều), và hơn nữa, phép tổng quát hóa này không gây ra khó khăn bổ sung nào.
-
-b) Các nhóm Lie $p$-adic
-
-Các nhóm như thế xuất hiện lần đầu tiên vào năm 1907 trong công trình của Hensel (XIX) về các hàm giải tích $p$-adic (được định nghĩa bởi các khai triển thành chuỗi lũy thừa). Đặc biệt, tác giả nghiên cứu hàm mũ và lôgarit; mặc dù cách ứng xử của các chuỗi định nghĩa chúng thoạt tiên có vẻ đáng ngạc nhiên (chẳng hạn chuỗi mũ không hội tụ ở mọi nơi), các tính chất phiếm hàm cơ bản của chúng vẫn còn đúng, điều này cung cấp một đẳng cấu địa phương giữa nhóm cộng và nhóm nhân của $\mathbf{Q}_p$ (hoặc, nói tổng quát hơn, của mọi trường siêu mêtric đầy đủ có đặc số không).
-
-Cũng là vấn đề các nhóm giao hoán (nhưng lần này không tuyến tính) trong công trình của A. Weil (XXXIII) và E. Lutz (XXXIV) về các đường cong elliptic $p$-adic (1936). Ngoài các áp dụng số học, ở đó người ta gặp phép dựng một đẳng cấu địa phương của nhóm với nhóm cộng, dựa trên phép lấy tích phân của một dạng vi phân bất biến. Phương pháp này cũng áp dụng như nhau cho các đa tạp Abel, như C. Chabauty nhận xét ít lâu sau đó; ông dùng nó mà không giải thích thêm để chứng minh một trường hợp riêng của "giả thuyết Mordell" (XXXV).
-
-Kể từ lúc ấy, rõ ràng là lý thuyết địa phương của các nhóm Lie áp dụng gần như không thay đổi cho trường hợp $p$-adic. Các định lý cơ bản của "từ điển" giữa các nhóm Lie và các đại số Lie được thiết lập năm 1942 trong luận án của R. Hooke (XXXVII), một học trò của Chevalley; công trình này cũng chứa tương tự $p$-adic của định lý của E. Cartan về các nhóm con đóng của các nhóm Lie thực.
-
-Gần đây hơn, M. Lazard (XLII, b) phát triển một dạng chính xác hơn của "từ điển" đối với các nhóm giải tích compắc trên $\mathbf{Q}_p$. Ông chỉ ra rằng sự tồn tại của một cấu trúc giải tích $p$-adic trên một nhóm compắc G gắn chặt với sự tồn tại của một số phép lọc nào đó trên G, và đưa ra nhiều áp dụng khác nhau của điều này (chẳng hạn cho đối đồng điều của G). Một trong những công cụ của Lazard là một sự cải tiến các kết quả của Dynkin về sự hội tụ của chuỗi Hausdorff $p$-adic (XLII a)).
-
-VIII. Các đại số Lie tự do
-
-Chúng tôi còn phải nói đến một chuỗi công trình về các đại số Lie, trong đó mối liên hệ với lý thuyết các nhóm Lie là rất mong manh; trái lại, các nghiên cứu ấy có những áp dụng quan trọng trong lý thuyết các nhóm "trừu tượng", và đặc biệt là các nhóm lũy linh.
-
-Nguồn gốc của vấn đề này là công trình của P. Hall (XXIV), xuất bản năm 1932. Tuy nhiên, trong đó không hề nói đến các đại số Lie: P. Hall nhắm đến việc nghiên cứu một lớp nào đó các $p$-nhóm, những nhóm mà ông gọi là "chính quy". Nhưng điều đó dẫn ông đến chỗ khảo sát chi tiết các giao hoán tử lặp và dãy trung tâm giảm của một nhóm; nhân dịp ấy ông thiết lập một biến thể của đồng nhất thức Jacobi (x. Chương II, § 4, No. 4, công thức (20)) cũng như "công thức Hall"
+Năm 1899, H. Poincaré ([14], tập 3, tr. 169–172 và 173–212) đã bắt đầu nghiên cứu ánh xạ mũ từ một quan điểm khác. Các hồi ký của ông dường như đã được biên tập một cách vội vã, vì ở nhiều chỗ ông khẳng định rằng mọi phần tử của một nhóm liên thông là một phần tử mũ, trong khi ở nơi khác ông lại đưa ra các ví dụ ngược lại. Các kết quả của ông chủ yếu liên quan đến biểu diễn phụ hợp: ông chỉ ra rằng một phần tử nửa đơn của một nhóm G như vậy có thể là phần tử mũ của một vô hạn phần tử của đại số Lie L(G), trong khi một phần tử không nửa đơn có thể hoàn toàn không là một phần tử mũ. Nếu ad(X) không có trị riêng nào là một bội khác không của $2\pi i$, thì exp là étale tại X. Ông cũng chứng minh rằng, nếu U và V mô tả các vòng trong L(G) và W được định nghĩa bởi tính liên tục sao cho $e^U.e^V = e^W$, thì có thể không quay trở lại giá trị ban đầu của W. Ông đã sử dụng một công thức thặng dư về cơ bản tương đương với
 
 $$
-(xy)^n = x^n y^n (x, y)^{n(1-n)/2} \ldots \quad \text{(x. Chương II, § 5, Bài tập 9).}
+\Phi(\mathrm{ad}\,X) = \frac{1}{2\pi i} \int \frac{\Phi(\xi)\,d\xi}{\xi - \mathrm{ad}\,X}
 $$
 
-Ít lâu sau đó (trong các năm 1935–1937) xuất hiện các công trình cơ bản của W. Magnus (XXV a) và b)) và E. Witt (XXX). Trong (XXV a)) Magnus dùng cùng đại số chuỗi lũy thừa hình thức $\hat{A}$ như Hausdorff (từ đó về sau được gọi là "đại số Magnus"); ông nhúng nhóm tự do F vào đó và dùng phép lọc tự nhiên của $\hat{A}$ để thu được một dãy giảm $(F_n)$ các nhóm con của F; đây là một trong những ví dụ đầu tiên của một phép lọc. Ông phỏng đoán rằng các $F_n$ trùng nhau với các số hạng của dãy trung tâm giảm của F. Phỏng đoán này được chứng minh trong hồi ký thứ hai của ông (XXV b)); cũng chính ở đó ông nối kết một cách tường minh các ý tưởng của mình với những ý tưởng của P. Hall, và ông định nghĩa đại số Lie tự do L (như một đại số con của $\hat{A}$), mà về thực chất ông chỉ ra rằng nó đồng nhất với phân bậc của F. Trong (XXX), Witt hoàn thiện kết quả này ở một số điểm. Đặc biệt, ông chỉ ra rằng đại số bao của L là một đại số kết hợp tự do và ngay lập tức suy ra hạng của các thành phần thuần nhất của L ("các công thức Witt").
+trong đó $\mathrm{ad}(X)$ là một phần tử nửa đơn có các trị riêng khác không có bội số 1, $\Phi$ là một chuỗi nguyên có bán kính hội tụ đủ lớn và tích phân được lấy trên một đường bao quanh các trị riêng của $\mathrm{ad}\,X$; ông cũng nghiên cứu điều xảy ra khi X tiến tới một phép biến đổi có các trị riêng bội.
 
-Về việc xác định cơ sở của $L$ được biết dưới tên "cơ sở Hall" (x. Chương II, § 2, no. 11), dường như nó chỉ lần đầu tiên xuất hiện vào năm 1950, trong một chú ý của M. Hall (XL), mặc dù nó đã hàm ẩn trong các công trình của P. Hall và W. Magnus đã dẫn ở trên.
+Nghiên cứu về các biểu thức của W như một hàm của U và V trong công thức $e^U.e^V = e^W$ đã, ngay trước công trình của Poincaré, là đối tượng của hai hồi ký của Campbell [13]. Như Baker viết ít lâu sau đó “... *lý thuyết Lie chỉ ra một cách hiển nhiên rằng tích* $e^Ue^V$ *có dạng* $e^W$ *trong đó* W *là một chuỗi các hoán tử trong* U *và* V *...”. Các công trình sau này về chủ đề này nhằm làm cho mệnh đề này trở nên chính xác và đưa ra một công thức tường minh (hoặc một phương pháp dựng) cho W (“công thức Hausdorff”). Sau Campbell và Poincaré, Pascal, Baker [15] và Hausdorff [16] đã quay lại vấn đề này; mỗi người đều cho rằng các chứng minh của những người đi trước không thuyết phục; khó khăn chính nằm ở ý nghĩa của “các hoán tử”: chúng có phải là các phần tử đặc biệt của đại số Lie đang xét, hay là các biểu thức “ký hiệu” phổ quát? Cả Campbell, lẫn Poincaré, lẫn Baker đều không diễn đạt rõ ràng về điểm này. Mặt khác, hồi ký của Hausdorff hoàn toàn chính xác; trước hết ông nghiên cứu đại số của các chuỗi lũy thừa hình thức kết hợp (không giao hoán) theo một số hữu hạn các bất định và xem U, V, W là các phần tử của đại số này. Ông chứng minh sự tồn tại của W bằng một lập luận dựa trên phương trình vi phân tương tự như của những người đi trước. Ông dùng cùng một lập luận để chứng minh sự hội tụ của chuỗi khi các bất định được thay thế bởi các phần tử của một đại số Lie hữu hạn chiều. Như Baker đã nhận xét, và Poincaré một cách độc lập, kết quả này có thể được dùng để đưa ra một chứng minh cho định lý thứ ba của Lie; ông làm rõ sự tương ứng giữa các nhóm Lie và các đại số Lie, chẳng hạn trong trường hợp liên quan đến nhóm con giao hoán tử.
 
-I. F. KLEIN và S. LIE: a) Sur une certaine famille de courbes et surfaces, C. R. Acad. Sci., t. LXX (1870), p. 1222–1226 et p. 1275–1279 (= (II, p. 416–420) et (III, t. 1, p. 78–85)); b) Über diejenigen ebenen Kurven, welche durch ein geschlossenen System von einfach unendlich vielen vertauschbaren linearen Transformationen in sich übergehen, Math. Ann., t. IV (1871), p. 50–84 (= (II, p. 424–459) et (III, t. 1, Abh. XIV, p. 229–266)).
+Năm 1947, Dynkin [39] lại tiếp tục vấn đề và thu được các hệ số tường minh của công thức Hausdorff, bằng cách ngay từ đầu xét một đại số Lie chuẩn hóa (hữu hạn chiều hoặc không, trên $\mathbf{R}, \mathbf{C}$ hoặc một trường siêu mêtric).†
 
-II. F. KLEIN, Gesammelte mathematische Abhandlungen, Bd. I, Berlin (Springer), 1921.
+VI. CÁC BIỂU DIỄN TUYẾN TÍNH VÀ CÁC NHÓM LIE TOÀN CỤC
 
-III. S. LIE, Các công trình sưu tập, 7 tập, Leipzig (Teubner): a) Về các quan hệ đối ngẫu của phức Reyes, t. I, Abh. V, p. 68–77 (= Gött. Nach. (1870), p. 53–66); b) Về một lớp các phép biến đổi hình học, t. I, Abh. XII, p. 153–214 (= Christiana For. (1871), p. 182–245); c) Tóm tắt ngắn gọn của nhiều lý thuyết mới, t. V, Abh. I, p. 1–4 (= Christiana For. (1872), p. 24–27); d) Về các phương trình vi phân riêng phần cấp một, t. V, Abh. VII, p. 32–63 (= Christiana For. (1873), p. 16–51); e) Lý thuyết các nhóm biến đổi II, t. V, Abh. III, p. 42–75 (= Archiv f. Math., t. I (1876), p. 152–193); f) Lý thuyết các nhóm biến đổi III, t. V, Abh. IV, p. 78–133 (= Archiv f. Math., t. III (1878), p. 93–165); g) Khảo cứu về các phương trình vi phân III, t. V, Abh. XII, p. 311–313 (= Christiana For. (1883), n° 10, 1–4); h) Khảo cứu về các nhóm biến đổi II, t. V, Abh. XXII, p. 507–551 (= Archiv f. Math., t. X (1886), p. 353–413); i) Những đóng góp cho lý thuyết biến đổi tổng quát, t. VI, Abh. V, p. 230–236 (= Leipziger Ber. (1888), p. 14–21).
+Không một công trình nào trong số những công trình vừa được nhắc đến thực sự cố gắng định nghĩa và nghiên cứu các nhóm Lie toàn cục. Chính H. Weyl là người đã có bước đi đầu tiên theo hướng này. Ông được truyền cảm hứng bởi hai lý thuyết, cho đến lúc đó đã phát triển độc lập: lý thuyết về các biểu diễn tuyến tính của các đại số Lie phức nửa đơn, do E. Cartan xây dựng, và lý thuyết về các biểu diễn tuyến tính của các nhóm hữu hạn, do Frobenius xây dựng và vừa được chuyển sang nhóm trực giao bởi I. Schur, sử dụng một ý tưởng của Hurwitz. Người sau đã chỉ ra [17] cách tạo thành các bất biến cho nhóm trực giao hoặc nhóm đơn vị bằng cách thay thế phép toán lấy trung bình trên một nhóm hữu hạn bằng một phép tích phân đối với một độ đo bất biến. Ông cũng nhận xét rằng, bằng cách áp dụng phương pháp này cho nhóm đơn vị, thu được các bất biến cho nhóm tuyến tính tổng quát, ví dụ đầu tiên của “thủ thuật unita”. Năm 1924, I. Schur [20] đã dùng thủ tục này để chỉ ra tính khả quy đầy đủ của các biểu diễn của nhóm trực giao $\mathbf{O}(n)$ và nhóm đơn vị $\mathbf{U}(n)$ bằng cách dựng một dạng Hermit xác định dương bất biến không suy biến; ông suy ra, bằng “thủ thuật unita”, tính khả quy đầy đủ của các biểu diễn chỉnh hình của $\mathbf{O}(n, \mathbf{C})$ và $\mathbf{SL}(n, \mathbf{C})$, thiết lập các hệ thức trực giao cho các ký tự của $\mathbf{O}(n)$ và $\mathbf{U}(n)$ và xác định các ký tự của $\mathbf{O}(n)$. H. Weyl ngay lập tức mở rộng phương pháp này cho các đại số Lie phức nửa đơn [21]. Cho một đại số như vậy $g$, ông chỉ ra rằng nó có một “dạng thực compact” (điều này tương đương với việc nói rằng nó thu được bằng mở rộng trường vô hướng từ $\mathbf{R}$ đến $\mathbf{C}$ từ một đại số $g_0$ trên $\mathbf{R}$ mà nhóm phụ hợp $G_0$ của nó là compact). Hơn nữa, ông chỉ ra rằng nhóm cơ bản của $G_0$ là hữu hạn và do đó phủ phổ quát‡ của $G_0$ là compact. Ông suy ra, bằng một sự thích nghi thích hợp thủ tục của Schur, tính khả quy đầy đủ của các biểu diễn của $g$ và cũng đưa ra, bằng một phương pháp toàn cục, việc xác định các
 
-IV. S. LIE und F. ENGEL, Lý thuyết các nhóm biến đổi, 3 tập, Leipzig (Teubner), 1888–1893.
+† Trong trường hợp siêu mêtric, phương pháp cổ điển về các chặn trên không thể được mở rộng mà không có các biện pháp phòng ngừa vì hành vi tiệm cận của giá trị tuyệt đối $p$-adic của $1/n$ khi $n$ tiến tới vô hạn.
 
-V. J. J. SYLVESTER, Các bài báo toán học sưu tập, 4 tập, Cambridge, 1904–1911.
+‡ H. Weyl không định nghĩa tường minh khái niệm này, vốn đã quen thuộc với ông từ khi biên tập khóa học của ông về các mặt Riemann (1913). Chính O. Schreier [22] vào năm 1926–1927 đã đưa ra lần đầu tiên định nghĩa của một nhóm tôpô và định nghĩa của một nhóm “liên tục” (tức là địa phương đồng phôi với một không gian Euclid), cùng với phép dựng phủ phổ quát của một nhóm như vậy.
 
-VI. A. CAYLEY, Các bài báo toán học sưu tập, 13 tập, Cambridge, 1889–1898.
+ký tự của các biểu diễn của $g$. Trong một bức thư gửi I. Schur (Sitzungsber. Berlin, 1924, pp. 338–343), H. Weyl đã tóm tắt các kết quả của Cartan mà Schur chưa biết (cf. [20], p. 299, chú ý ở cuối trang) và so sánh hai cách tiếp cận: phương pháp của Cartan cho tất cả các biểu diễn chỉnh hình của nhóm liên thông đơn liên có đại số Lie $g$; trong trường hợp của nhóm trực giao, do đó thu được các biểu diễn của một phủ kép (sau này được gọi là nhóm spinor), điều mà Schur đã bỏ qua; mặt khác, phương pháp của Schur có ưu điểm là chỉ ra tính khả quy đầy đủ và đưa ra các ký tự một cách tường minh.
 
-VII. C. JORDAN, Hồi ký về các nhóm chuyển động, Annali di Math., t. XI (1868–1869), p. 167–215 et p. 332–345 (= Œuvres, t. IV, p. 231–302).
+Sau công trình của H. Weyl, E. Cartan đã áp dụng một phương pháp tiếp cận toàn cục công khai trong nghiên cứu của mình về các không gian đối xứng và các nhóm Lie. Phương pháp này là cơ sở cho phần trình bày của ông năm 1930 ([12], tập I_2, tr. 1165–1225) về lý thuyết các nhóm “liên tục hữu hạn”. Đặc biệt, ở đây ta tìm thấy chứng minh đầu tiên của phiên bản toàn cục của định lý cơ bản thứ 3 (sự tồn tại của một nhóm Lie với đại số Lie đã cho); Cartan cũng chỉ ra rằng mọi nhóm con đóng của một nhóm Lie thực đều là một nhóm Lie (Chương III, § 8, no. 2, Định lý 2), điều này tổng quát hóa một kết quả của J. von Neumann về các nhóm con đóng của nhóm tuyến tính [23]. Trong Hồi ký này, von Neumann cũng chỉ ra rằng mọi biểu diễn liên tục của một nhóm nửa đơn đều là giải tích thực.
 
-VIII. F. SCHUR: a) Về lý thuyết các phức được tạo thành từ các đơn vị chính, Math. Ann., t. XXXIII (1889), p. 49–60; b) Nền tảng mới của lý thuyết các nhóm biến đổi hữu hạn, Math. Ann., t. XXXV (1890), p. 161–197; c) Về lý thuyết các nhóm biến đổi hữu hạn, Math. Ann., t. XXXVIII (1891), p. 273–286; d) Về tính chất giải tích của các hàm biểu diễn một nhóm biến đổi liên tục hữu hạn, Math. Ann., t. XLI (1893), p. 509–538.
+Sau các công trình này, lý thuyết các nhóm Lie theo nghĩa “cổ điển” (nghĩa là trong số chiều hữu hạn trên $\mathbf{R}$ hoặc $\mathbf{C}$) về cơ bản đã hoàn chỉnh. Phần trình bày chi tiết đầu tiên về nó được Pontrjagin đưa ra trong cuốn sách của ông về các nhóm tôpô [36]; ở đó ông theo một phương pháp tiếp cận khá gần với phương pháp của Lie, nhưng phân biệt cẩn thận giữa địa phương và toàn cục. Sau đó là cuốn sách của Chevalley [38], cuốn sách này cũng chứa phần thảo luận có hệ thống đầu tiên về lý thuyết các đa tạp giải tích và phép tính vi phân ngoài; các “phép biến đổi vi phân” của Lie xuất hiện ở đó như các trường vectơ và đại số Lie của một nhóm Lie G được đồng nhất với không gian các trường bất biến trái trên G. Ông bỏ qua mọi thảo luận về “mầm nhóm” và “các nhóm biến đổi”.
 
-IX. F. ENGEL: a) Về phương trình xác định của các nhóm biến đổi liên tục, Math. Ann., t. XXVII (1886), p. 1–57; b) Sự sinh thành các phép biến đổi hữu hạn của một nhóm xạ ảnh bởi các phép biến đổi vô cùng bé của nhóm, I, Leipziger Ber., XLIV (1892), p. 279–296, II (với những đóng góp của E. Study), ibid., XLV (1893), p. 659–696.
+VII. MỞ RỘNG KHÁI NIỆM NHÓM LIE
 
-X. L. Maurer, Về các hệ bất biến tổng quát hơn, Sitzungsber. München, XVIII (1888), p. 103–150.
+Ngày nay sức sống của lý thuyết Lie được biểu hiện qua sự đa dạng trong các ứng dụng của nó (trong tôpô, hình học vi phân, số học, v.v.) và qua việc tạo ra các lý thuyết song song trong đó cấu trúc đa tạp nền được thay thế bởi một cấu trúc tương tự (Đa tạp $p$-adic, đa tạp đại số, lược đồ, lược đồ hình thức, . . . ). Ở đây chúng ta không quan tâm đến lịch sử của những phát triển này và sẽ chỉ giới hạn vào những điều được đề cập trong Chương III: các nhóm Lie Banach và các nhóm Lie $p$-adic.
 
-XI. W. Killing, Cấu tạo của các nhóm biến đổi liên tục hữu hạn: I) Math. Ann., t. XXXI (1888), p. 252–290; II) ibid., t. XXXIII (1889), p. 1–48; III) ibid., t. XXXIV (1889), p. 57–122; IV) ibid., t. XXXVI (1890), p. 161–189.
+(a) Các nhóm Lie Banach
 
-XII. E. Cartan, Toàn tập, 6 tập, Paris (Gauthier-Villars), 1952–54.
+Ở đây chúng ta xét các nhóm Lie “vô hạn chiều”. Theo quan điểm địa phương, một lân cận của 0 trong không gian Euclid được thay thế bởi một lân cận của 0 trong một không gian Banach. Đây là điều G. Birkhoff đã thực hiện năm 1936 [29 a], từ đó đạt được khái niệm *đại số Lie chuẩn hóa đầy đủ* và sự tương ứng của nó với một “mầm nhóm” được định nghĩa trên một tập mở của một không gian Banach. Khoảng năm 1950, Dynkin đã hoàn thiện các kết quả này bằng cách mở rộng công thức Hausdorff cho trường hợp này (xem *supra*).
 
-XIII. J. E. Campbell: a) Về một luật tổ hợp các toán tử liên quan đến lý thuyết các nhóm biến đổi liên tục, Proc. London Math. Soc., (1), t. XXVIII (1897), p. 381–390; b) Về một luật tổ hợp các toán tử (bài thứ hai), ibid., t. XXIX (1898), p. 14–32.
+Các định nghĩa và kết quả của Birkhoff và Dynkin đều là địa phương. Cho đến gần đây, dường như chưa có ai tìm cách làm cho lý thuyết toàn cục tương ứng trở nên tường minh, chắc hẳn vì thiếu các ứng dụng.†
 
-XIV. H. Poincaré, Toàn tập, 11 tập, Paris (Gauthier-Villars), 1916–1956.
+(b) *Các nhóm Lie $p$-adic*
 
-XV. H. F. Baker, Alternants và các nhóm liên tục, Proc. London Math. Soc., (2), t. III (1905), p. 24–47.
+Các nhóm như vậy lần đầu tiên được gặp vào năm 1907 trong các công trình của Hensel [19] về các hàm giải tích *p*-adic (được định nghĩa bởi các khai triển thành chuỗi nguyên). Ông nghiên cứu đặc biệt hàm mũ và lôgarit; mặc dù có tính chất đáng ngạc nhiên *a priori* của các chuỗi định nghĩa chúng (chẳng hạn chuỗi hàm mũ không hội tụ ở mọi nơi), các tính chất phiếm hàm cơ bản của chúng vẫn đúng, điều này cung cấp một *đẳng cấu địa phương* giữa nhóm cộng và nhóm nhân của $\mathbf{Q}_p$ (hoặc, nói chung hơn, của bất kỳ trường ultrametric đầy đủ nào có đặc số không).
 
-XVI. F. Hausdorff, Công thức mũ ký hiệu trong lý thuyết nhóm, Leipziger Ber., t. LVIII (1906), p. 19–48.
+A. Weil [33] và E. Lutz [34] cũng nghiên cứu các nhóm giao hoán (nhưng lần này không tuyến tính) trong công trình của họ về các đường cong elliptic *p*-adic (1936). Ngoài các ứng dụng số học, ở đây một đẳng cấu địa phương được xây dựng giữa nhóm và nhóm cộng, dựa trên phép lấy tích phân của một dạng vi phân bất biến. Phương pháp này cũng áp dụng cho các đa tạp Abel, như C. Chabauty đã nhận xét ngay sau đó, người đã sử dụng nó không cần giải thích thêm để chứng minh một trường hợp riêng của “phỏng đoán Mordell” [35].
 
-XVII. A. Hurwitz, Về sự sinh thành các bất biến bằng phép lấy tích phân, Gött. Nachr. (1897), p. 71–90 (= Math. Werke, t. II, p. 546–564).
+Từ đó trở đi, rõ ràng rằng lý thuyết địa phương của các nhóm Lie có thể được áp dụng hầu như không thay đổi cho trường hợp *p*-adic. Các định lý cơ bản của “từ điển” nhóm Lie–đại số Lie đã được thiết lập năm 1942 trong luận án của R. Hooke [37], một học trò của Chevalley; công trình này cũng chứa tương tự *p*-adic của định lý của E. Cartan về các nhóm con đóng của các nhóm Lie thực.
 
-XVIII. E. E. Levi, Về cấu trúc của các nhóm hữu hạn và liên tục, Atti Acc. Sci. Torino, t. XL (1905), p. 551–565 (= Opere, t. I, p. 101–115).
+Gần đây hơn, M. Lazard [42 b] đã phát triển một dạng chính xác hơn của “từ điển” cho các nhóm giải tích compact trên $\mathbf{Q}_p$. Ông chỉ ra rằng sự tồn tại của một cấu trúc giải tích *p*-adic trên một nhóm compact G liên quan chặt chẽ với sự tồn tại của một số lọc nhất định trên G và đưa ra nhiều ứng dụng của điều này (chẳng hạn đến đối đồng điều của G). Một trong các công cụ của Lazard là sự cải tiến các kết quả của Dynkin về sự hội tụ của chuỗi Hausdorff *p*-adic [42 a].
 
-XIX. K. Hensel, Về các tính chất số học của các số, Jahresber. der D.M.V., t. XVI (1907), p. 299–319, 388–393, 474–496.
+† Nếu, mặc dù thiếu các ứng dụng này, chúng ta đã đề cập đến các nhóm “Banach” trong Chương III, đó là vì các đa tạp Banach ngày càng được sử dụng nhiều hơn trong Giải tích (và thậm chí để nghiên cứu các đa tạp hữu hạn chiều) và vì hơn nữa, phép tổng quát hóa này không tạo thêm khó khăn nào.
 
-XX. I. Schur, Những ứng dụng mới của phép tính tích phân vào các bài toán của lý thuyết bất biến, Sitzungsber. Berlin, 1924, p. 189–208, 297–321, 346–355.
+VIII. CÁC ĐẠI SỐ LIE TỰ DO
 
-XXI. H. Weyl, Lý thuyết biểu diễn các nhóm nửa đơn liên tục bằng các phép biến đổi tuyến tính, I, Math. Zeitschr., t. XXIII (1925), p. 271–309; II, ibid., t. XXIV (1926), p. 328–376; III, ibid., t. XXIV (1926), p. 377–395 (= Werke, t. 2 p 543–647).
+Còn phải nói đến một chuỗi các công trình về các đại số Lie trong đó mối liên hệ với lý thuyết các nhóm Lie rất mong manh; mặt khác, nghiên cứu này có những ứng dụng quan trọng vào lý thuyết các nhóm “trừu tượng” và đặc biệt hơn là các nhóm lũy linh.
 
-XXII. O. Schreier: a) Các nhóm liên tục trừu tượng, Abh. math. Sem. Hamburg, t. IV (1926), p. 15–32; b) Quan hệ họ hàng của các nhóm liên tục trong cỡ lớn, ibid., t. V (1927), p. 233–244.
+Nguồn gốc của nó là công trình của P. Hall [24], xuất hiện năm 1932. Tuy nhiên các đại số Lie không được thảo luận ở đây: P. Hall nhằm nghiên cứu một lớp nhất định các nhóm $p$, những nhóm mà ông gọi là “chính quy”. Nhưng điều này dẫn ông đến việc xem xét chi tiết các giao hoán tử lặp và chuỗi trung tâm dưới của một nhóm; về chủ đề này ông đã thiết lập một phiên bản của đồng nhất thức Jacobi (xem Chương II, § 4, no. 4, công thức (20)) và “công thức Hall”
 
-XXIII. J. von Neumann, Về lý thuyết biểu diễn các nhóm liên tục, Sitzungsber. Berlin, 1927, p. 76–90 (= Collected Works, t. I, p. 134–148).
+$$(xy)^n = x^n y^n (x, y)^{n(1-n)/2} \ldots$$ (xem Chương II, § 5, Bài tập 9).
 
-XXIV. P. Hall, Một đóng góp cho lý thuyết các nhóm có cấp là lũy thừa của một số nguyên tố, Proc. London Math. Soc., (3), t. IV (1932), p. 29–95.
+Gần như ngay lập tức (vào năm 1935–1937) đã xuất hiện các công trình cơ bản của W. Magnus ([25 a] và [25 b]) và E. Witt [30]. Trong [25 a] Magnus đã sử dụng cùng đại số của các chuỗi lũy thừa hình thức $A$ như Hausdorff (từ đó được gọi là "đại số Magnus"); ông nhúng nhóm tự do F vào đó và sử dụng lọc tự nhiên của $A$ để thu được một dãy giảm $(F_n)$ của các nhóm con của F; đây là một trong những ví dụ đầu tiên về một lọc. Ông đã phỏng đoán rằng các $F_n$ trùng với các số hạng của chuỗi trung tâm dưới của F. Phỏng đoán này đã được chứng minh trong hồi ký thứ hai của ông [25 b]; cũng trong công trình này ông đã chỉ ra một cách tường minh quan hệ chặt chẽ giữa các ý tưởng của ông và các ý tưởng của P. Hall và đã định nghĩa đại số Lie tự do L (như một đại số con của $A$) mà ông đã chỉ ra về cơ bản là đồng nhất với đại số phân bậc của F. Trong [30], Witt đã hoàn thiện kết quả này trên nhiều điểm khác nhau. Đặc biệt ông đã chỉ ra rằng đại số bao quanh của L là một đại số kết hợp tự do và đã suy ra ngay lập tức hạng của các thành phần thuần nhất của L ("các công thức Witt").
 
-XXV. W. Magnus: a) Quan hệ giữa các nhóm và các iđêan trong một vành đặc biệt, Math. Ann., t. CXI (1935), p. 259–280; b) Về các quan hệ giữa các giao hoán tử bậc cao, J. Crelle, t. CLXXVII (1937), p. 105–115.
+Về chứng minh cơ sở của L được biết dưới tên "cơ sở Hall" (xem chương II, § 2, no. 11), dường như nó chỉ xuất hiện vào năm 1950 trong một chú ý của M. Hall [40], mặc dù nó đã được hàm ý trong các công trình của P. Hall và W. Magnus được trích dẫn ở trên.
 
-XXVI. J. H. C. Whitehead: a) Về phân tích của một nhóm vô cùng bé, Proc. Camb. Phil. Soc., t. XXXII (1936), p. 229–237 (= Mathematical Works, I, p. 281–289); b) Một số phương trình trong đại số của một nhóm vô cùng bé nửa đơn, Quart. Journ. of Math., (2), t. VIII (1937), p. 220–237 (= Mathematical Works, I, p. 291–308).
+1. F. KLEIN and S. LIE: (a) Sur une certaine famille de courbes et surfaces, C. R. Acad. Sci., 70 (1870), pp. 1222–1226 and 1275–1279 (= [2], pp. 416–420 and [3], vol. 1, pp. 78–85); (b) Über diejenigen ebenen Kurven, welche durch ein geschlossenes System von einfach unendlich vielen vertauschbaren linearen Transformationen in sich übergehen, Math. Ann., 4 (1871), pp. 50–84 (= [2], pp. 424–459 and [3], vol. 1, Abh. XIV, pp. 229–266).
+2. F. KLEIN, Gesammelte mathematische Abhandlungen, Bd. I, Berlin (Springer), 1921.
+3. S. LIE, Gesammelte Abhandlungen, 7 vol., Leipzig (Teubner): (a) Über die Reziprozitätsverhältnisse des Reyeschen Komplexes, vol. I, Abh. V, pp. 68–77 (= Gött. Nach. (1870), pp. 53–66); (b) Über eine Klasse geometrischer Transformationen, vol. I, Abh. XII, pp. 153–214 (= Christiana For. (1871), pp. 182–245); (c) Über partielle Differentialgleichungen erster Ordnung, vol. III, Abh. VII, pp. 32–63 (= Christiana For. (1873), pp. 16–51); (d) Theorie der Transformationsgruppen II, vol. V, Abh. III, pp. 42–75 (= Archiv f. Math., 1 (1876), pp. 152–193); (e) Ueber Gruppen von Transformationen, vol. V, Abh. I, pp. 1–8 (= Gött. Nachr. (1874), pp. 529–542); (f) Allgemeine Untersuchungen über Differentialgleichungen, die eine kontinuierliche endliche Gruppe gestatten, vol. VI, Abh. III, pp. 139–223 (= Math. Ann., 25 (1885), pp. 71–151); (g) Beiträge zur allgemeinen Transformationentheorie, vol. VI, Abh. V, pp. 230–236 (= Leipziger Ber. (1888), pp. 14–21); (h) Theorie der Transformationsgruppen III, vol. V, Abh. IV, pp. 78–133 (= Archiv f. Math., vol. III, (1887), pp. 93–165).
+4. S. LIE and F. ENGEL, Theorie der Transformationsgruppen, 3 vol., Leipzig (Teubner), 1888–1893.
+5. J. J. SYLVESTER, Collected Mathematical Papers, 4 vols., Cambridge, 1904–1911.
+6. A. CAYLEY, Collected Mathematical Papers, 13 vols., Cambridge, 1889–1898.
 
-XXVII. I. Ado: a) Chú ý về biểu diễn các nhóm hữu hạn và liên tục bằng các phép thế tuyến tính (bằng tiếng Nga), Bull. Phys. Math. Soc. Kazan, t. VII (1935), p. 3–43; b) Biểu diễn các đại số Lie bằng ma trận (bằng tiếng Nga), Uspehi Mat. Nauk, t. II (1947), p. 159–173 (bản dịch tiếng Anh: Amer. Math. Soc. Transl., (1), vol. 9, p. 308–327).
+7. C. Jordan, Mémoire sur les groupes de mouvements, Annali di Math., 11 (1868–1869), pp. 167–215 and 332–345 (= Oeuvres, vol. IV, pp. 231–302).
 
-XXVIII. N. Jacobson: a) Các phương pháp hữu tỉ trong lý thuyết các đại số Lie, Ann. of Math., t. XXXVI (1935), p. 875–881; b) Các lớp đại số Lie hạn chế có đặc số $p$, II, Duke Math. Journal, t. X (1943), p. 107–121.
+8. F. Schur: (a) Zur Theorie der aus Haupteinheiten gebildeten Komplexen, Math. Ann., 33 (1889), pp. 49–60; (b) Neue Begründung der Theorie der endlichen Transformationsgruppen, Math. Ann., 35 (1890), pp. 161–197; (c) Zur Theorie der endlichen Transformationsgruppen, Math. Ann., 38 (1891), pp. 273–286; (d) Über den analytischen Character der eine endliche continuierliche Transformationsgruppe darstellende Funktionen, Math. Ann., 41 (1893), pp. 509–538.
 
-XXIX. G. Birkhoff: a) Các nhóm liên tục và các không gian tuyến tính, Rec. Math. Moscou, t. I (1936), p. 635–642; b) Tính biểu diễn được của các đại số Lie và các nhóm Lie bằng các ma trận, Ann. of Math., t. XXXVIII (1937), p. 526–532.
+9. F. Engel: (a) Über die Definitionsgleichung der continuierlichen Transformationsgruppen, Math. Ann., 27 (1886), pp. 1–57; (b) Die Erzeugung der endlichen Transformationen einer projektiven Gruppe durch die infinitesimalen Transformationen der Gruppe, I, Leipziger Ber., 44 (1892), pp. 279–296, II (mit Beiträgen von E. Study), ibid., 45 (1893), pp. 659–696.
 
-XXX. E. Witt, Biểu diễn trung thành của các vành Lie, J. Crelle, t. CLXXVII (1937), p. 152–160.
-XXXI. R. Brauer, Một điều kiện để tính khả quy hoàn toàn của các biểu diễn của các nhóm thông thường và vô cùng bé, Math. Zeitschr., t. XLI (1936), p. 330–339.
-XXXII. H. Casimir–B. L. van der Waerden, Chứng minh đại số về tính khả quy hoàn toàn của các biểu diễn của các nhóm Lie nửa đơn, Math. Ann., t. CXI (1935), p. 1–12.
-XXXIII. A. Weil, Về các hàm elliptic $p$-adic, C. R. Acad. Sci., t. CCIII (1936), p. 22.
-XXXIV. E. Lutz, Về phương trình $y^2 = x^3 - Ax - B$ trong các trường $p$-adic, J. Crelle, t. CLXXVII (1937), p. 237–247.
-XXXV. C. Chabauty, Về các điểm hữu tỉ của các đường cong đại số có giống lớn hơn đơn vị, C. R. Acad. Sci., t. CCXII (1941), p. 882–884.
-XXXVI. L. S. Pontrjagin, Các nhóm tôpô, Princeton Univ. Press, 1939.
-XXXVII. R. Hooke, Các nhóm $p$-adic tuyến tính và các đại số Lie của chúng, Ann. of Math., t. XLIII (1942), p. 641–655.
-XXXVIII. C. Chevalley, Lý thuyết các nhóm Lie, Princeton University Press, 1946.
-XXXIX. E. Dynkin: a) Phép tính các hệ số của công thức Campbell–Hausdorff (bằng tiếng Nga), Dokl. Akad. Nauk, t. LVII (1947), p. 323–326; b) Các đại số Lie chuẩn hoá và các nhóm giải tích (bằng tiếng Nga), Uspehi Mat. Nauk, t. V (1950), p. 135–186 (bản dịch tiếng Anh: Amer. Math. Soc. Transl., (1), vol. 9, p. 470–534).
-XL. M. Hall, Một cơ sở cho các vành Lie tự do và các giao hoán tử bậc cao trong các nhóm tự do, Proc. Amer. Math. Soc., t. I (1950), p. 575–581.
-XLI. D. Montgomery–L. Zippin, Các nhóm biến đổi tôpô, New York (Interscience), 1955.
-XLII. M. Lazard: a) Một vài phép tính liên quan đến công thức Hausdorff, Bull. Soc. Math. France, t. XCI (1963), p. 435–451; b) Các nhóm giải tích $p$-adic, Publ. Math. I.H.E.S., n° 26 (1965), p. 389–603.
+10. L. Maurer, Über allgemeinere Invarianten-Systeme, Sitzungsber. München, 18 (1888), pp. 103–150.
 
-Các số tham chiếu lần lượt chỉ chương, đoạn và số.
+11. W. Killing, Die Zusammensetzung der stetigen endlichen Transformationsgruppen: (I) Math. Ann., 31 (1888), pp. 252–290; (II) ibid., 33 (1889), pp. 1–48; (III) ibid., 34 (1889), pp. 57–122; (IV) ibid., 36 (1890), pp. 161–189.
 
-K : II.Quy ước
-g, U = Ug, σ : g → Ug: II.1
-ε, c, u, π_u, η_u, c_u^+ : II.1.1
-E, E^+ : II.1.1
-P(E), π, η, c^+ : II.1.6
-S(g), c_s, η : II.1.5
-f_E : U(P(E)) → E : II.1.6
-M(X), l(w), Lib(X) = Lib_K(X) : II.2.1
-L(X) = L_K(X) : II.2.2
-φ : X → L(X) : II.2.2
-(a, r) : II.2.3
-L(u) : II.2.5
-Lib^δ(X), L^δ(X), L^n(X) : II.2.6
-P_n : II.2.7
-c^n(g) : II.2.7
-H, d_y : II.2.10
-w̄ = Ψ(w) : II.2.11
-A(X) = A_K(X), A^+(X), Mo(X) : II.3
-π : II.3.2
-(G_α), (G_α^+) : II.4.1
-v : II.4.2
-gr(G), gr_α(G) : II.4.3
-F(X), A(X), A^n(X) : II.5
-Â(X), ω : II.5.1
-ε(a) : II.5.2
-l(x), exp(x), log(y) : II.6.1
-e(X), l(X) : II.6.1
-L̂(X) : II.6.2
-a ⊕ b : II.6.2
-H, H_n, H_{rs} : II.6.4 \tilde{H}, \Omega : II.7.2
-A, \exp_A, \log_A, \hat{P}(A^1, A) : II.7.3
-v, \theta = \frac{1}{p - 1} : II.8
-S(n) : II.8.1
-h(x, y) : II.8.3
-G_R : II.8.4
-\mu(n) : II.App.
-e, e_G, \gamma(g), \delta(g), \mathrm{Int}(g), f' : III.Quy ước
-\mathbf{GL}(E), \mathbf{GL}(n, K) : III.1.1, III.3.10
-G^\vee : III.1.2
-\tau(g), \rho(x) : III.1.5
-(G, g, \theta, m) : III.1.10
-T(m) : III.2.1
-T(G), T(\varphi) : III.2.2
-t \* t' : III.3.1, III.3.18
-U(G), U^+(G), U_s(G), U_s^+(G) : III.3.1, III.3.18
-T_g^{(s)}(G), T_g^{(\infty)}(G), \mathscr{T}^{(\infty)}(G) : III.3.1, III.3.18
-t \* f : III.3.4, III.3.18
-D_t : III.3.5, III.3.18
-L_t, R_t : III.3.6, III.3.18
-L(G) : III.3.7, III.3.18
-L(\varphi) : III.3.8, III.3.18
-\langle t, f \rangle : III.3.9, III.3.18
-\mathbf{SL}(E) : III.3.10
-Ad, Ad(g) : III.3.12
-[\alpha]^2 : III.3.14
-\mathrm{mod}\ (\omega)_\mu^!, \mathrm{mod}\ \varphi : III.3.16
-f^{-1}.df : III.3.17, III.3.18
-H : III.4.2
-g^t, \varpi(x) : III.4.3
-x.y, x^{[n]} : III.5
-c_{\alpha\beta\gamma}, B(x, y) : III.5.1
-e_\alpha : III.5.2
-\Psi_j, \Psi_{p,m}, \binom{t}{i} : III.5.3
-E(x), L(x) : III.5.4
-P_{M,x,y} : III.6.2
-\mathrm{Ad}(a) = \mathrm{Int}(a) : III.6.2
-\exp, \exp_G : III.6.4
-\mathrm{Ad}(G) = \mathrm{Int}(L(G)) : III.6.4
-L(\rho) : III.6.5 \tilde{G}: III.6.10
-A, m, p: III.7
-G(a): III.7.4
-h_n: III.7.5
-G_f, \log_G, \log: III.7.6
-\overline{D}^i G, \overline{C}^i G: III.9.1
-Z_G(A), Z_G(a), \delta_G(A), \delta_G(a): III.9.3
-N_G(A), N_G(a), n_G(a): III.9.4
-R, N, r, n: III.9.7
-\pi_1 \otimes \cdots \otimes \pi_n, T(\pi), S(\pi), \wedge(\pi), T^n(\pi), S^n(\pi), \wedge^n(\pi): III.App.
+12. E. Cartan, Oeuvres complètes, 6 vol., Paris (Gauthier-Villars), 1952–54.
 
-Các số tham chiếu lần lượt chỉ chương, đoạn và số (hoặc, ngoại lệ, bài tập).
+13. J. E. Campbell: (a) On a law of combination of operators bearing on the theory of continuous transformation groups, Proc. London Math. Soc., (1) 28 (1897), pp. 381–390; (b) On a law of combination of operators (second paper), ibid., 29 (1898), pp. 14–32.
 
-adjoint (nhóm — của một nhóm Lie thực hoặc phức): III.6.4
-adjoint (biểu diễn —): III.3.12
-phản xứng (bậc $n$ —): II.2.6
-tăng (chuỗi trung tâm của một nhóm —): II.4, exerc. 18
-kết hợp tự do (đại số —): II.3
-liên kết (luật phép toán vô cùng bé — với một luật phép toán): III.3.7
-cơ sở (cơ sở của một đại số Lie —): II.2.3
-cơ sở (các giao hoán tử —): II.5.4
-Bieberbach (định lý —): III.4, exerc. 13
-song đại số: II.1.2
-song bất biến (tiết diện —): III.3.13
-nhị thức (đa thức —): II.5, exerc. 4
-chính tắc (dạng vi phân trái —): III.3.13, III.3.18
-trung tâm (bộ lọc của một nhóm —): II.4.4
-tâm hóa tử: III.9.3
-trường các phân bố từng điểm: III.3.5, III.3.18
-lớp lũy linh: II.2.7
-đối đại số: II.1.1
-tương thích (các cấu trúc nhóm và đa tạp —): III.1.1
-phức (nhóm Lie —): III.1.1, III.8.1
-phức hóa của một nhóm Lie thực: III.6.10
-liên hợp (nhóm Lie — của một nhóm Lie phức): III.1.1
-phản biến (của một biểu diễn giải tích —): III.3.11
-tích chập (với một phân bố từng điểm và một hàm —): III.3.4
-tích chập (tích của —): III.3.1, III.3.18
-đồng đơn vị của một đối đại số: II.1.1
-$C^r$ — liên thông (tập con — của một nhóm Lie): III.6.2
-đạo hàm riêng (trong đại số của một nhóm tự do —): II.5, exerc. 2
-loại hai (bản đồ chính tắc —): III.4.3
-loại hai (hệ tọa độ chính tắc —): III.4.3 vi phân trái (của một ánh xạ vào một nhóm Lie —): III.3.17, III.3.18
-khử (định lý —): II.2.9
-nguyên (bộ lọc của một nhóm —): II.4.1
-bao (đối đại số —): II.1.4
-không gian thuần nhất của Lie: III.1.6
-đầy cạn (bộ lọc —): II.4.1
-hàm mũ: II.6.1, III.4.3, III.6.4
-phân thớ trái liên kết với một đại số con Lie: III.4.1
-thực (bộ lọc của một nhóm —): II.4.1
-được lọc (đối đại số —): II.1.3
-hàm cấp liên kết với một bộ lọc: II.4.2
-bó vectơ G: III.1.8
-phân bậc toàn phần của L(I): II.2.6
-phân bậc liên kết (nhóm của một nhóm được lọc —): II.4.3
-phân bậc liên kết (đại số Lie —): II.4.4
-nhóm Lie: III.1.10
-nhóm Lie được xác định bởi một đại số Lie: III.4.2
-Hall (cơ sở của —): II.2.11
-Hall (tập của —): II.2.10
-Hall (công thức của —): II.5, exerc. 9
-Hausdorff (hàm của —): II.7.2, II.8.3
-Hausdorff (nhóm của —): II.6.2
-Hausdorff (phép đảo của công thức —): II.6, exerc. 4
-Hausdorff (chuỗi của —): II.6.4
-ảnh ngược (cấu trúc nhóm Lie —): III.1.9
-cảm sinh (cấu trúc nhóm Lie —): III.4.5
-vô cùng bé (tự đẳng cấu —): III.10.1
-nguyên (nhóm con của một nhóm Lie —): III.6.2
-bất biến trái (trường các phân bố từng điểm —): III.3.6
-bất biến (tiết diện —): III.3.13
-Jordan (định lý của —): III.4, exerc. 11
-tự do (đại số Lie —): II.2.2
-tự do (magma —): II.2.1
-tự do (đại số Lie-$p$ —): II.3, exerc. 4
-Lie (đại số của một nhóm Lie —): III.3.7
-Lie (đại số của một nhóm Lie —): III.3.18
-Lie (nhóm —): III.1.1
-địa phương đẳng cấu (các nhóm Lie —): III.1.10
-logarit: II.6.1, III.7.6
-luật phép toán vô cùng bé: III.3.7, III.3.18
-độ dài của một phần tử của một magma tự do: II.2.1
-Magnus (đại số của —): II.5.1
-Magnus (nhóm của —): II.5.2
-Maurer–Cartan (các công thức của —): III.3.14, III.3.18
-Möbius (hàm của —): II.App.
-Möbius (công thức đảo của —): II.App.
-mảnh của một luật phép toán: III.1.11
-cấu xạ của các nhóm Lie: III.1.2
-cấu xạ của các nhóm Lie: III.1.10
-đa phân bậc của L(I): II.2.6
-lũy linh (đại số Lie —): II.27
-chuẩn hóa được (đại số —): II.7
-chuẩn hóa tử: III.9.4
-được chuẩn hóa (đại số Lie —): II.7, II.8.2
-cấp của một phần tử (trong một nhóm được lọc —): II.4.2
-$p$-adic (nhóm Lie —): III.1.1, III.8.1
-P-nguyên: II.4, exerc. 14
-P-bao (của một nhóm lũy linh —): II.4, exerc. 15
-giao hoán được (các phần tử —): III.9.3
-đa thức (ánh xạ —): II.2.4
-đa thức Lie: II.2.4
-loại một (bản đồ chính tắc —): III.4.3
-loại một (hệ tọa độ chính tắc —): III.4.3
-biểu diễn của một đại số Lie: II.2.3
-gần đơn (nhóm Lie —): III.9.8
-nguyên thủy (phần tử của một đối đại số —): II.1.2
-tích (của các nhóm Lie —): III.1.4
-tích tenxơ của các biểu diễn: III.App.
-P-bão hòa (của một nhóm con của một nhóm lũy linh —): II.4, exerc. 14
-P-xoắn (nhóm —, nhóm không xoắn —): II.4, exerc. 14
-lũy thừa bậc t (ánh xạ —): III.4.3
-giả nhóm con Lie: III.1.3
-thương của một nhóm Lie: III.1.6
-các căn của một đại số Lie giải được: III.9, exerc. 17
-căn của một nhóm Lie: III.9.7
-thực (nhóm Lie —): III.1.1, III.8.1, III.8.2
-các quan hệ: II.2.3
-biểu diễn tuyến tính giải tích của một nhóm Lie: III.1.2
-hạn chế vô hướng (nhóm Lie suy ra từ một nhóm Lie bởi —): III.1.1
-phủ phổ quát của một nhóm Lie liên thông: III.1.9
-tiết diện của một bó vectơ: III.1.8
-nửa trực tiếp (tích của các nhóm Lie —): III.1.4
-nửa đơn (nhóm Lie —): III.9.8
-tách biệt (bộ lọc —): II.4.1 chuỗi Lie hình thức: II.6.3
-nhóm con Lie: III.1.3
-nhóm con Lie của Lie: III.1.10
-tiêu chuẩn (nhóm —): III.7.3
-chuỗi trung tâm giảm của một đại số Lie: II.2.7
-tiếp xúc (luật hợp thành —): III.2.1
-tiếp xúc (đại số con Lie —): III.4.5
-số hạng hằng của một phần tử của đại số Magnus: II.5.2
-đơn tam giác dưới (nhóm —): II.4.6
-tầm thường (bó vectơ G —): III.1.8
-tầm thường hóa phải (resp. trái) của T(G): III.2.1, III.2.2
-kiểu (N) (nhóm Lie thực thuộc —): III.9, exerc. 29
-unipotent (tự đồng cấu —): III.9.5
-u-nguyên thủy (phần tử của một đối đại số —): II.1.1
-CHƯƠNG II. — CÁC ĐẠI SỐ LIE TỰ DO .......................... 7
+14. H. Poincaré, Oeuvres, 11 vol., Paris (Gauthier-Villars), 1916–1956.
 
-§ 1. Song đại số bao của một đại số Lie ..................... 7
-    1. Các phần tử nguyên thủy của các đối đại số ............................ 7
-    2. Các phần tử nguyên thủy của một song đại số ............................ 9
-    3. Các song đại số được lọc ........................................ 10
-    4. Song đại số bao của một đại số Lie ................. 10
-    5. Cấu trúc của các đối đại số $U(\mathfrak{g})$ trong đặc số 0 .......... 12
-    6. Cấu trúc của các song đại số được lọc trong đặc số 0 ........ 15
+15. H. F. Baker, Alternants and continuous groups, Proc. London Math. Soc., (2) 3 (1905), pp. 24–47.
 
-§ 2. Các đại số Lie tự do ....................................... 17
-    1. Nhắc lại về các đại số tự do ............................ 17
-    2. Phép dựng của đại số Lie tự do ..................... 18
-    3. Các cách trình bày của một đại số Lie ........................ 19
-    4. Các đa thức Lie và các phép thế .......................... 19
-    5. Các tính chất hàm tử ................................... 20
-    6. Các phân bậc ................................................ 21
-    7. Chuỗi trung tâm hạ .................................. 23
-    8. Các đạo tử của các đại số Lie tự do .................... 25
-    9. Định lý khử ..................................... 25
-   10. Các tập Hall trong một magma tự do ...................... 27
-   11. Các cơ sở Hall của một đại số Lie tự do .................. 30
+16. F. Hausdorff, Die symbolische Exponentialformel in der Gruppentheorie, Leipziger Ber., 58 (1906), pp. 19–48.
 
-§ 3. Đại số bao của đại số Lie tự do ............... 32
-    1. Đại số bao của $L(X)$ ............................... 32
-    2. Phép chiếu từ $A^+(X)$ lên $L(X)$ .......................... 34
-    3. Chiều của các thành phần thuần nhất của $L(X)$ ........... 35
+17. A. Hurwitz, Über die Erzeugung der Invarianten durch Integration, Gött. Nachr. (1897), pp. 71–90 (= Math. Werke, vol. II, pp. 546–564).
 
-§ 4. Các lọc trung tâm ........................................ 38
-    1. Các lọc thực ......................................... 38
-    2. Hàm cấp ........................................... 38
-    3. Đại số phân bậc liên kết với một đại số được lọc ............. 39
+18. E. E. Levi, Sulla struttura dei gruppi finiti e continui, Atti Acc. Sci. Torino, 40 (1905), pp. 551–565 (= Opere, vol. I, pp. 101–115).
 
-4. Các lọc trung tâm trên một nhóm ......................... 40
-5. Một ví dụ về lọc trung tâm ......................... 42
-6. Các lọc trung tâm nguyên ............................. 44
+19. K. Hensel, Über die arithmetischen Eigenschaften der Zahlen, Jahresber. der D.M.V., 16 (1907), pp. 299–319, 388–393, 474–496.
 
-§ 5. Các đại số Magnus ........................................ 45
-    1. Các đại số Magnus ....................................... 45
-    2. Nhóm Magnus ......................................... 46
-    3. Nhóm Magnus và nhóm tự do ....................... 46
-    4. Chuỗi trung tâm hạ của một nhóm tự do .......... 48
-    5. Lọc $p$ của các nhóm tự do .................... 50
+20. I. Schur, Neue Anwendungen der Integralrechnung auf Probleme der Invariantentheorie, Sitzungsber. Berlin, 1924, pp. 189–208, 297–321, 346–355.
 
-§ 6. Chuỗi Hausdorff ...................................... 51
-    1. Hàm mũ và lôgarit trong các đại số được lọc .. 51
-    2. Nhóm Hausdorff ...................................... 52
-    3. Các chuỗi Lie hình thức .................................. 54
-    4. Chuỗi Hausdorff .................................... 55
-    5. Các phép thế trong chuỗi Hausdorff ............... 57
+21. H. Weyl, Theorie der Darstellung kontinuierlicher halb-einfacher Gruppen durch lineare Transformationen, I, Math. Zeitschr., 23, (1925), pp. 271–309; II, *ibid.*, **24** (1926), pp. 328–376; III, *ibid.*, **24** (1926), pp. 377–395 (= *Werke*, vol. II, pp. 543–647).
 
-§ 7. Sự hội tụ của chuỗi Hausdorff (trường hợp thực hoặc phức) ............. 60
-    1. Các đa thức liên tục nhận giá trị trong $\mathfrak{g}$ ................ 60
-    2. Groupoid được xác định bởi một đại số Lie norm đầy đủ 61
-    3. Hàm mũ trong các đại số kết hợp norm đầy đủ 64
+22. O. Schreier: (*a*) Abstrakte kontinuierliche Gruppen, *Abh. math. Sem. Hamburg*, **4** (1926), pp. 15–32; (*b*) Die Verwandschaft stetiger Gruppen in grossen, *ibid.*, **5** (1927), pp. 233–244.
 
-§ 8. Sự hội tụ của chuỗi Hausdorff (trường hợp ultrametric) ............. 66
-    1. Các chặn $p$-adic cho các chuỗi exp, log và H .......... 66
-    2. Các đại số Lie norm .................................. 67
-    3. Nhóm được xác định bởi một đại số Lie norm đầy đủ .... 68
-    4. Hàm mũ trong các đại số kết hợp norm đầy đủ 69
+23. J. Von Neumann, Zur Theorie der Darstellung kontinuierlicher Gruppen, *Sitzungsber. Berlin*, 1927, pp. 76–90 (= *Collected Works*, vol. I, pp. 134–148).
 
-Phụ lục. — Hàm Möbius ................................. 71
+24. P. Hall, A contribution to the theory of groups of prime power order, *Proc. London Math. Soc.*, (3) **4** (1932), pp. 29–95.
 
-Các bài tập của § 1 .................................................. 73
-Các bài tập của § 2 .................................................. 75
-Các bài tập của § 3 .................................................. 79
-Các bài tập của § 4 .................................................. 79
-Các bài tập của § 5 .................................................. 84
-Các bài tập của § 6 .................................................. 90
-Các bài tập của § 7 .................................................. 92
-Các bài tập của § 8 .................................................. 92
-Các bài tập của Phụ lục .......................................... 94
+25. W. Magnus: (*a*) Beziehungen zwischen Gruppen und Idealen in einem speziellen Ring, *Math. Ann.*, **111** (1935), pp. 259–280; (*b*) Über Beziehungen zwischen höheren Kommutatoren, *J. Crelle*, **177** (1937), pp. 105–115.
 
-CHƯƠNG III. — CÁC NHÓM LIE............................................. 95
+26. J. H. C. Whitehead: (*a*) On the decomposition of an infinitesimal group, *Proc. Camb. Phil. Soc.*, **32** (1936), pp. 229–237 (= *Mathematical Works*, I, pp. 281–289); (*b*) Certain equations in the algebra of a semi-simple infinitesimal group, *Quart. Journ. of Math.*, (2) **8** (1937), pp. 220–237 (= *Mathematical Works*, I, pp. 291–308).
 
-§ 1. Các nhóm Lie......................................................... 95
-    1. Định nghĩa của một nhóm Lie................................. 95
-    2. Các cấu xạ của các nhóm Lie................................. 99
-    3. Các nhóm con Lie............................................ 100
-    4. Các tích nửa trực tiếp của các nhóm Lie..................... 101
-    5. Thương của một đa tạp bởi một nhóm Lie............... 103
-    6. Các không gian thuần nhất và các nhóm thương..................... 105
-    7. Các quỹ đạo.......................................................... 108
-    8. Các bó vectơ với toán tử............................... 109
-    9. Định nghĩa địa phương của một nhóm Lie......................... 112
-   10. Các groupoid.................................................. 114
-   11. Các mảnh của các luật phép toán................................. 118
+27. I. Ado: (*a*) Note on the representation of finite continuous groups by means of linear substitutions (in Russian), *Bull. Phys. Math. Soc. Kazan*, **7** (1935), pp. 3–43; (*b*) The representation of Lie algebras by matrices (in Russian), *Uspehi Mat. Nauk*, **2** (1947), pp. 159–173 (English translation: *Amer. Math. Soc. Transl.*, (1) **9**, pp. 308–327).
 
-§ 2. Nhóm các vectơ tiếp xúc với một nhóm Lie.................. 120
-    1. Các luật hợp thành tiếp xúc................................. 120
-    2. Nhóm các vectơ tiếp xúc với một nhóm Lie............. 122
-    3. Trường hợp các groupoid.......................................... 124
+28. N. Jacobson: (*a*) Rational methods in the theory of Lie algebras, *Ann. of Math.*, **36** (1935), pp. 875–881; (*b*) Classes of restricted Lie algebras of characteristic $p$, II, *Duke Math. Journal*, **10** (1943), pp. 107–121.
 
-§ 3. Chuyển từ một nhóm Lie sang đại số Lie của nó.................. 125
-    1. Tích chập của các phân bố punctual trên một nhóm Lie 125
-    2. Các tính chất hàm tử..................................... 127
-    3. Trường hợp một nhóm tác động trên một đa tạp.................... 130
-    4. Tích chập của các phân bố punctual và các hàm... 131
-    5. Trường các phân bố punctual được xác định bởi tác động của một nhóm trên một đa tạp............................................. 135
-    6. Các trường bất biến của các phân bố punctual trên một nhóm Lie......................................................... 136
-    7. Đại số Lie của một nhóm Lie............................ 138
-    8. Các tính chất hàm tử của đại số Lie................ 141
-    9. Đại số Lie của nhóm các phần tử khả nghịch của một đại số............................................................. 143
-   10. Các đại số Lie của một số nhóm tuyến tính................ 144
-   11. Các biểu diễn tuyến tính.................................... 147
-   12. Biểu diễn kề....................................... 151
-   13. Tensor và dạng bất biến............................... 155
-   14. Các công thức Maurer–Cartan................................... 156
-   15. Phép dựng các dạng vi phân bất biến.......... 158
-   16. Độ đo Haar trên một nhóm Lie........................ 159
-   17. Vi phân trái......................................... 162
-   18. Mẩu đại số Lie của một nhóm Lie..................... 163
+29. G. Birkhoff: (*a*) Continuous groups and linear spaces; *Rec. Math. Moscou*, **1** (1936), pp. 635–642; (*b*) Representability of Lie algebras and Lie groups by matrices, *Ann. of Math.*, **38** (1937), pp. 526–532.
 
-§ 4. Chuyển từ các đại số Lie sang các nhóm Lie ......................... 166
-    1. Chuyển từ các cấu xạ đại số Lie sang các cấu xạ nhóm Lie ............................................. 166
-    2. Chuyển từ các đại số Lie sang các nhóm Lie ............... 168
-    3. Các ánh xạ mũ ............................................. 171
-    4. Tính hàm tử của các ánh xạ mũ .................... 175
-    5. Cấu trúc cảm sinh trên một nhóm con ............................. 176
-    6. Nguyên hàm của các dạng vi phân nhận giá trị trong một đại số Lie .................................................. 178
-    7. Chuyển từ các luật phép toán vô cùng bé sang các luật phép toán ......................................................... 182
+30. E. Witt, Treue Darstellung Lieschen Ringe, *J. Crelle*, **177** (1937), pp. 152–160.
 
-§ 5. Các phép tính hình thức trong các nhóm Lie ................................. 184
-    1. Các hệ số c_{αβγ} .................................................. 185
-    2. Ngoặc trong đại số Lie .......................................... 186
-    3. Các lũy thừa ................................................................. 187
-    4. Hàm mũ .............................................................. 190
+31. R. Brauer, Eine Bedingung für vollständige Reduzibilität von Darstellungen gewöhnlicher und infinitesimaler Gruppen, *Math. Zeitschr.*, **41** (1936), pp. 330–339.
 
-§ 6. Các nhóm Lie thực hoặc phức ........................................ 192
-    1. Chuyển từ các cấu xạ đại số Lie sang các cấu xạ nhóm Lie ............................................. 192
-    2. Các nhóm con nguyên .................................................. 193
-    3. Chuyển từ các đại số Lie sang các nhóm Lie ............... 198
-    4. Ánh xạ mũ ............................................... 199
-    5. Ứng dụng vào các biểu diễn tuyến tính ......................... 203
-    6. Các nhóm con nguyên chuẩn ................................. 204
-    7. Nguyên hàm của các dạng vi phân nhận giá trị trong một đại số Lie .................................................. 206
-    8. Chuyển từ các luật phép toán vô cùng bé sang các luật phép toán ......................................................... 206
-    9. Ánh xạ mũ trong nhóm tuyến tính ............... 208
-   10. Phức hóa một nhóm Lie thực hữu hạn chiều 210
+32. H. Casimir-B. L. van der Waerden, Algebraischer Beweis der vollständigen Reduzibilität der Darstellungen halbeinfacher Liescher Gruppen, *Math. Ann.*, **111** (1935), pp. 1–12.
 
-§ 7. Các nhóm Lie trên một trường siêu mêtric ............................. 214
-    1. Chuyển từ các đại số Lie sang các nhóm Lie ............... 214
-    2. Các ánh xạ mũ ............................................. 216
-    3. Các nhóm chuẩn tắc ....................................................... 216
-    4. Lọc của các nhóm chuẩn tắc ..................................... 218
-    5. Các lũy thừa trong các nhóm chuẩn tắc ............................. 219
-    6. Ánh xạ lôgarit .................................................. 221
+33. A. Weil, Sur les fonctions elliptiques $p$-adiques, *C. R. Acad. Sci.*, **203** (1935), p. 22.
 
-§ 8. Các nhóm Lie trên R hoặc Q_p .................................................. 225
-    1. Các cấu xạ liên tục ..................................................... 225
-    2. Các nhóm con đóng ..................................................... 227
+34. E. Lutz, Sur l’équation $y^2 = x^3 - Ax - B$ dans les corps $p$-adiques, *J. Crelle*, **177** (1937), pp. 237–247.
 
-§ 9. Các giao hoán tử, tâm hóa tử, chuẩn hóa tử trong một nhóm Lie .... 230
-    1. Các giao hoán tử trong một nhóm tôpô ......................... 230
-    2. Các giao hoán tử trong một nhóm Lie ............................... 231
-    3. Các tâm hóa tử ....................................................... 233
-    4. Các chuẩn hóa tử ....................................................... 234
-    5. Các nhóm Lie lũy linh ............................................ 235
-    6. Các nhóm Lie giải được ........................................... 240
-    7. Căn của một nhóm Lie .......................................... 241
-    8. Các nhóm Lie nửa đơn ......................................... 242
+35. C. Chabauty, Sur les points rationnels des courbes algébriques de genre supérieur à l’unité, *C. R. Acad. Sci.*, **212** (1941), pp. 882–884.
 
-§ 10. Nhóm tự đẳng cấu của một nhóm Lie .................. 247
-    1. Các tự đẳng cấu vô cùng bé ...................................... 247
-    2. Nhóm tự đẳng cấu của một nhóm Lie (trường hợp thực hoặc phức) ................................................................. 250
-    3. Nhóm tự đẳng cấu của một nhóm Lie (trường hợp siêu mêtric) ................................................................. 255
+36. L. S. Pontrjagin, Topological groups, Princeton Univ. Press, 1939.
+37. R. Hooke, Linear $p$-adic groups and their Lie algebras, Ann. of Math., **43** (1942), pp. 641–655.
+38. C. Chevalley, Theory of Lie groups, Princeton Univ. Press, 1946.
+39. E. Dynkin: (a) Evaluation of the coefficients of the Campbell–Hausdorff formula (bằng tiếng Nga), Dokl. Akad. Nauk, **57** (1947), pp. 323–326; (b) Normed Lie algebras and analytic groups (bằng tiếng Nga), Uspehi Mat. Nauk, **5** (1950), pp. 135–186 (bản dịch tiếng Anh: Amer. Math. Soc. Transl., (1) **9**, pp. 470–534).
+40. M. Hall, A basis for free Lie rings and higher commutators in free groups, Proc. Amer. Math. Soc., **1** (1950), pp. 575–581.
+41. D. Montgomery-L. Zippin, Topological Transformation Groups, New York (Interscience), 1955.
+42. M. Lazard: (a) Quelques calculs concernant la formule de Haudorff, Bull. Soc. Math. France, **91** (1963), pp. 435–451; (b) Groupes analytiques $p$-adiques, Publ. Math. I.H.E.S., no. 26 (1965), pp. 389–603.
 
-Phụ lục. — Các phép toán trên các biểu diễn tuyến tính ............. 256
+Các số chỉ dẫn lần lượt chỉ chương, đoạn và số (hoặc đôi khi là bài tập).
 
-Bài tập của § 1 ........................................................................ 257
-Bài tập của § 3 ........................................................................ 258
-Bài tập của § 4 ........................................................................ 261
-Bài tập của § 5 ........................................................................ 265
-Bài tập của § 6 ........................................................................ 266
-Bài tập của § 7 ........................................................................ 272
-Bài tập của § 8 ........................................................................ 275
-Bài tập của § 9 ........................................................................ 276
-Bài tập của § 10 ...................................................................... 284
+[x, y] (x, y là các phần tử của một đại số Lie): I.1.2.
+g^0 (g là một đại số Lie): I.1.2.
+gl(E), gl(n, K), sl(E), sl(n, K), t(n, K), st(n, K), n(n, K) (E là một K-môđun): I.1.2.
+ad_g x, ad x (x là một phần tử của một đại số Lie g): I.1.2.
+[a, b], [z, a], [a, z] (a, b là các môđun con, z là một phần tử của một đại số Lie): I.1.4.
+\mathscr{D}g, \mathscr{D}^k g, \mathscr{C}^k g (g là một đại số Lie): I.1.5.
+\mathscr{C}_k g (g là một đại số Lie): I.1.6.
+af(M) (M là một K-môđun): I.1.8.
+g_{(K_1)} (g là một đại số Lie): I.1.9.
+U_+, U_0 (U là đại số bao của một đại số Lie): I.2.1.
+$T^n, S^n, S'^n$ : I.2.5.
+$T_n, U_n, G^n$ : I.2.6.
+x_M (x là một phần tử của một đại số Lie g, M là một g-môđun): I.3.1.
+e^u, \exp u (u là một tự đồng cấu lũy linh của một không gian vectơ trên một trường có đặc số 0): I.6.8.
+C(\rho) (\rho là một biểu diễn của một đại số Lie): I.7.1.
+\mathscr{C}^\infty g, \mathscr{D}^\infty g: I.1, Bài tập 14.
+x^{[n]}: I.1, Bài tập 20.
+GL(n, K) (nhóm hình thức): I.1, Bài tập 25.
+o(\Phi): I.1, Bài tập 26.
+C^p(g, M), C^*(g, M), i(y), \theta(x), d, Z^p(g, M), B^p(g, M), H^p(g, M), H^*(g, M) (g là một đại số Lie, M là một g-môđun): I.3, Bài tập 12.
+sp(2n, K): I.6, Bài tập 25.
+K: II.Quy ước.
+g, U = Ug, \sigma: g \to Ug: II.1.
+$\varepsilon, c, u, \pi_u, \eta_u, c_u^+$ : II.1.1.
 
-Ghi chú lịch sử (Chương I đến III) ............................................... 286
+$E, E^+$ : II.1.1.
+$P(E), \pi, \eta, c^+$ : II.1.6.
+$S(g), c_s, \eta$ : II.1.5.
+$f_E : U(P(E)) \to E$ : II.1.6.
+M(X), l(w), Lib(X) = Lib_K(X) : II.2.1.
+$L(X) = L_K(X)$ : II.2.2.
+φ : X → L(X) : II.2.2.
+$(a, r)$ : II.2.3.
+$L(u)$ : II.2.5.
+Lib^δ(X), L^δ(X), L^n(X) : II.2.6.
+$P_n$ : II.2.7.
+C^n(g) : II.2.7.
+$H, d_y$ : II.2.10.
+$\overline{w}= \Psi'(w)$ : II.2.11.
+A(X) = A_K(X), A^+(X), Mo(X) : II.3.
+$\pi$ : II.3.2.
+$(G_\alpha), (G_\alpha^+)$ : II.4.1.
+$v$ : II.4.2.
+gr(G), gr_α(G) : II.4.3.
+$F(X), A(X), A^n(X)$ : II.5.
+\hat{A}(X), ω : II.5.1.
+ε(a) : II.5.2.
+$l(x), exp(x), log(y)$ : II.6.1.
+$e(X), l(X)$ : II.6.1.
+$\hat{L}(X)$ : II.6.2.
+$a \oplus b$ : II.6.2.
+H, H_n, H_{rs} : II.6.4.
+$\tilde{H}, \Omega$ : II.7.2.
+A, exp_A, log_A, \hat{P}(A^t, A) : II.7.3.
+$v, \theta= \frac{1}{p - 1}$ : II.8.
+$S(n)$ : II.8.1.
+$h(x, y)$ : II.8.3.
+$G_R$ : II.8.4.
+μ(n) : II.App.
+e, e_G, γ(g), δ(g), Int(g), f^* : III.Quy ước.
+$GL(E), GL(n, K)$ : III.1.1, III.3.10.
+$G^\vee$ : III.1.2.
+$\tau(g), \rho(x)$ : III.1.5.
+$(G, g, \theta, m)$ : III.1.10.
+$T(m)$ : III.2.1.
+T(G), T(φ) : III.2.2.
+$t \ast t'$ : III.3.1, III.3.18.
 
-Thư mục tài liệu tham khảo ........................................................ 306
+U(G), U^+(G), U_s(G), U_s^+(G): III.3.1, III.3.18.
+T_g^{(s)}(G), T_g^{(\infty)}(G), \mathscr{T}^{(\infty)}(G): III.3.1, III.3.18.
+$t \ast f$ : III.3.4, III.3.18.
+$D_t$ : III.3.5, III.3.18.
+$L_t, R_t$ : III.3.6, III.3.18.
+L(G): III.3.7, III.3.18.
+L(\varphi): III.3.8, III.3.18.
+$\langle t, f \rangle$ : III.3.9, III.3.18.
+SL(E): III.3.10.
+Ad, Ad(g): III.3.12.
+$[\alpha]^2$ : III.3.14.
+mod(\omega)_u, mod \varphi: III.3.16.
+f^{-1}.df: III.3.17, III.3.18.
+$H$ : III.4.2.
+g^t, \varpi(x): III.4.3.
+$x.y, x^{[n]}$ : III.5.
+c_{\alpha\beta\gamma}, B(x, y): III.5.1.
+$e_\alpha$ : III.5.2.
+$\psi_j, \psi_{p,m}, \binom{t}{i}$ : III.5.3.
+E(x), L(x): III.5.4.
+$P_M, x.y$ : III.6.2.
+$Ad(a) = Int(a)$ : III.6.2.
+exp, exp_G: III.6.4.
+$Ad(G) = Int(L(G))$ : III.6.4.
+$L(\rho)$ : III.6.5.
+$\bar{G}$ : III.6.10.
+$A, m, p$ : III.7.
+G(a): III.7.4.
+$h_n$ : III.7.5.
+$G_f, \log_G, \log$ : III.7.6.
+\overline{D}^tG, \overline{C}^tG: III.9.1.
+$Z_G(A), Z_G(a), \delta_G(A), \delta_G(a)$ : III.9.3.
+$N_G(A), N_G(a), n_g(a)$ : III.9.4.
+$R, N, r, n$ : III.9.7.
+\pi_1 \otimes \cdots \otimes \pi_n, \mathbf{T}(\pi), S(\pi), \wedge(\pi), \mathbf{T}^n(\pi), S^n(\pi), \wedge^n(\pi): III.App.
 
-Chỉ số ký hiệu ................................................................ 309
+Các số tham chiếu lần lượt chỉ chương, tiết và số (hoặc đôi khi là bài tập)
 
-Chỉ số thuật ngữ ............................................................ 312
+Nhóm liên hợp của một nhóm Lie thực hoặc phức: III.6.4.
+    ánh xạ tuyến tính của một phần tử của một đại số Lie: I.1.2.
+    biểu diễn của một đại số Lie: I.3.1.
+    biểu diễn của một nhóm Lie: III.3.12.
+Định lý Ado: I.7.3.
+Đại số (không nhất thiết kết hợp): I.1.1.
+    dẫn xuất từ một đại số bằng cách mở rộng vô hướng: I.1.1.
+    bao, của một đại số Lie: I.2.1.
+    Lie: I.1.2.
+    đối: I.1.1.
+    tích: I.1.1.
+    thương: I.1.1.
+    bao hạn chế, của một đại số Lie $p$: I.2, Bài tập 6.
+    đối xứng, của một môđun: I.2.5.
+Nhóm Lie gần như đơn: III.9.8.
+Các hoán vị luân phiên bậc $n$: II.2.6.
+Phản tự đẳng cấu, chính, của đại số bao của một đại số Lie: I.2.4.
+Liên kết (dạng song tuyến tính) với một $g$-môđun (một biểu diễn): I.3.6.
+    (luật của phép toán vi phân vô cùng bé) với một luật phép toán: III.3.7.
+Đại số kết hợp, tự do: II.3.
+Tự đẳng cấu, đặc biệt, của một đại số Lie: I.6.8.
+
+Các giao hoán tử cơ bản: II.5.4.
+    họ của một đại số Lie: II.2.3.
+Định lý Bieberbach: III.4, Bài tập 13.
+Đối đại số hai: II.1.2.
+Tiết diện song bất biến: III.3.13.
+Đa thức nhị thức: II.5, Bài tập 4.
+Ngoặc: I.1.2.
+
+Dạng vi phân chính tắc, trái: III.3.13, III.3.18.
+Cartan, tiêu chuẩn: I.5.4.
+Phần tử Casimir: I.3.7.
+Mở rộng trung tâm: I.1.7.
+    lọc của một nhóm: II.4.4.
+Đối tâm: I.1.6, III.9.3.
+Tâm của một đại số Lie: I.1.6.
+Iđêan đặc số: I.1.4.
+Lớp, tính lũy linh: II.2.7.
+    của các biểu diễn đơn: I.3.1.
+Các đối biên, đối xích, xích với giá trị trong một $\mathfrak{g}$-môđun: I.3, Bài tập 12.
+Đối đại số: II.1.1.
+Đại số Lie giao hoán: I.1.3.
+Các cấu trúc nhóm và đa tạp tương thích: III.1.1.
+Dạng song tuyến tính hoàn toàn bất biến: I.3.6.
+    biểu diễn khả quy: I.3.1.
+Nhóm Lie phức: III.1.1, III.8.1.
+Phức hóa của một nhóm Lie thực: III.6.10.
+Thành phần, đẳng kiểu, của một $\mathfrak{g}$-môđun: I.3.1.
+    đơn, của một đại số Lie nửa đơn: I.6.2.
+Nhóm Lie liên hợp của một nhóm Lie phức: III.1.1.
+Số hạng hằng của một phần tử của đại số bao của một đại số Lie: I.2.1.
+    số hạng của một phần tử của đại số Magnus: II.5.2.
+Các hằng cấu trúc của một đại số đối với một cơ sở: I.1.1.
+Chứa một biểu diễn đơn $n$ lần (biểu diễn): I.3.1.
+Đối ngẫu tương phản của một biểu diễn giải tích: III.3.11.
+Tích chập của một phân bố điểm và một hàm: III.3.4.
+    tích: III.3.1, III.3.18.
+Đồng đơn vị của một đối đại số: II.1.1.
+Tập con liên thông $C^r$ của một nhóm Lie: III.6.2.
+Tiêu chuẩn, Cartan: I.5.4.
+
+Đạo hàm của một đại số: I.1.1.
+    nội, của một đại số Lie: I.1.2.
+    bất biến trái, đối với một nhóm hình thức: I.1, Bài tập 24.
+Đạo hàm riêng trong đại số của một nhóm tự do: II.5, Bài tập 2.
+Dẫn xuất (đại số) từ một đại số bằng cách mở rộng vô hướng: I.1.1.
+    (biểu diễn) từ một biểu diễn bằng cách mở rộng vô hướng: I.3.8.
+    iđêan: I.1.5.
+    chuỗi: I.1.5.
+Vi phân, trái, của một ánh xạ vào một nhóm Lie: III.3.17, III.3.18.
+Chiều của một biểu diễn: I.3.1.
+Biểu diễn đối ngẫu: I.3.3.
+
+4.
+    nửa trực tiếp, của các đại số Lie: I.1.8.
+    tenxơ, của các biểu diễn: I.3.2, III, Phụ lục.
+Môđun g thuần của loài N: I.3.1.
+    biểu diễn: I.3.1.
+
+Nhóm con giả, Lie: III.1.3.
+
+Đại số thương: I.1.1.
+    của một nhóm Lie: III.1.6.
+    biểu diễn: I.3.1.
+
+Căn, lũy linh, của một đại số Lie: I.5.3.
+    của một đại số Lie: I.5.2.
+    của một nhóm Lie: III.9.7.
+Nhóm Lie thực: III.1.1, III.8.1, III.8.2.
+Đại số Lie khả quy: I.6.4.
+    (đại số con Lie) trong một đại số Lie: I.6.6.
+Các liên hệ: II.2.3.
+Bản sao của một tự đồng cấu: I.5, Bài tập 14.
+Biểu diễn, liên hợp: I.3.1.
+    tuyến tính giải tích, của một nhóm Lie: III.1.2.
+    hoàn toàn khả quy: I.3.1.
+    chứa một biểu diễn đơn $n$ lần: I.3.1.
+    đối ngẫu: I.3.3.
+    trung thành: I.3.1.
+    bất khả quy: I.3.1.
+    thu được bằng cách mở rộng vành vô hướng: I.3.8.
+    của một đại số Lie: I.3.1.
+    thuần, của loài $\sigma$: I.3.1.
+    thương: I.3.1.
+    nửa đơn: I.3.1.
+    đơn: I.3.1.
+Các biểu diễn, đẳng cấu: I.3.1.
+    tương tự: I.3.1.
+Hạn chế vô hướng, nhóm Lie suy ra từ một nhóm Lie bởi: III.1.1.
+Các nghiệm của một đại số Lie giải được: III.9, Bài tập 17.
+
+Loài thứ hai, biểu đồ chính tắc của: III.4.3.
+    loài, hệ tọa độ chính tắc của: III.4.3.
+Tiết diện của một bó vectơ: III.1.8.
+Tích nửa trực tiếp của các đại số Lie: I.1.8.
+    tích của các nhóm Lie: III.1.4.
+Đại số Lie nửa đơn: I.6.1.
+    nhóm Lie: III.9.8.
+    biểu diễn: I.3.1.
+Lọc tách được: II.4.1.
+Chuỗi, hợp thành, nối hai đại số con: I.1, Bài tập 14.
+    dẫn xuất: I.1.5.
+    lũy thừa hình thức Lie: II.6.3.
+tâm dưới, của một đại số Lie: I.1.5, II.2.7.
+tâm trên, của một đại số Lie: I.1.6.
+
+Các biểu diễn tương tự: I.3.1.
+Thành phần đơn của một đại số Lie nửa đơn: I.6.2.
+    đại số Lie: I.6.2.
+    biểu diễn: I.3.1.
+Đại số Lie giải được: I.5.1.
+Không gian, đối đồng điều, với giá trị trong một $g$-môđun: I.3, Bài tập 12.
+    thuần nhất Lie: III.1.6.
+Tự đẳng cấu đặc biệt: I.6.8.
+Loài của một thành phần đẳng kiểu, của một $g$-môđun thuần: I.3.1.
+Nhóm chuẩn: III.7.3.
+Đại số con: I.1.1.
+    Lie: I.6.8.
+    khả quy trong một đại số Lie: I.6.6.
+    bất biến con: I.1, Bài tập 14.
+Mầm nhóm con, Lie: III.1.10.
+    Lie: III.1.3.
+Biểu diễn con: I.3.1.
+Tổng trực tiếp của các biểu diễn: I.3.1.
+Đại số đối xứng của một môđun: I.2.5.
+
+Ánh xạ lũy thừa thứ $t$: III.4.3.
+Luật hợp thành tiếp xúc: III.2.1.
+    nhóm con Lie: III.4.5.
+Định lý, của Ado: I.7.3.
+    của Engel: I.4.2.
+    Levi-Malcev: I.6.8.
+    của Lie: I.5.3.
+    Poincaré-Birkhoff-Witt: I.2.7.
+    của Weyl: I.6.2.
+    của Zassenhaus: I.7.2.
+Bộ vận chuyển: I.1, Bài tập 1.
+Nhóm tam giác, trên ngặt: II.4.6.
+Mở rộng tầm thường: I.1.7.
+    $g$-môđun: I.3.1.
+    bó vectơ G: III.1.8.
+Sự tầm thường hóa, phải (tương ứng trái), của $T(G)$: III.2.1, III.2.2.
+Iđêan hai phía: I.1.1.
+Kiểu (N), nhóm Lie thực của: III.9, Bài tập 29.
+
+Các phần tử $u$-nguyên thủy của một cogebrad: II.1.1.
+Tự đồng cấu đơn nhất: III.9.5.
+Bao phủ phổ quát của một nhóm Lie liên thông: III.1.9.
+
+Chuỗi tâm trên của một nhóm: II.4, Bài tập 18.
+chuỗi tâm của một đại số Lie: I.1.6.
+
+Định lý của Weyl: I.6.2.
+
+Định lý của Zassenhaus: I.7.2.
+
+về một số tính chất của các đại số Lie hữu hạn chiều trên một trường có đặc số 0.
+
+Cho $g$ là một đại số Lie, $r$ là căn của nó, $n$ là iđêan lũy linh lớn nhất của nó, $s$ là căn lũy linh của nó và $t$ là phần trực giao của $g$ đối với dạng Killing. Khi đó $r, n, s, t$ là các iđêan đặc số và $r \supset t \supset n \supset s$.
+
+(I) Mỗi một trong các tính chất sau đây đều đặc trưng cho các đại số Lie nửa đơn:
+(1) $r = \{0\}$; (2) $n = \{0\}$; (3) $t = \{0\}$; (4) mọi iđêan giao hoán của $g$ đều bằng không; (5) đại số $g$ đẳng cấu với một tích của các đại số Lie đơn; (6) mọi biểu diễn hữu hạn chiều của $g$ đều nửa đơn.
+
+(II) Mỗi một trong các tính chất sau đây đều đặc trưng cho các đại số Lie khả quy:
+(1) $s = \{0\}$; (2) $r$ là tâm của $g$; (3) $\mathscr{D}g$ là nửa đơn; (4) $g$ là tích của một đại số nửa đơn và một đại số giao hoán; (5) biểu diễn liên hợp của $g$ là nửa đơn; (6) $g$ có một biểu diễn hữu hạn chiều sao cho dạng song tuyến tính liên kết là không suy biến; (7) $g$ có một biểu diễn hữu hạn chiều nửa đơn trung thành.
+
+(III) Mỗi một trong các tính chất sau đây đều đặc trưng cho các đại số Lie giải được:
+(1) $\mathscr{D}^p g = \{0\}$ với $p$ đủ lớn; (2) tồn tại một dãy giảm $g = g_0 \supset g_1 \supset \cdots \supset g_n = \{0\}$ gồm các iđêan của $g$ sao cho các đại số $g_i / g_{i+1}$ là giao hoán; (3) tồn tại một dãy giảm
+$$
+g = g'_0 \supset g'_1 \supset \cdots \supset g'_{n'} = \{0\}
+$$
+gồm các đại số con của $g$ sao cho $g'_{i+1}$ là một iđêan của $g'_i$ và $g'_i / g'_{i+1}$ là giao hoán; (4) tồn tại một dãy giảm $g = g''_0 \supset g''_1 \supset \cdots \supset g''_{n''} = \{0\}$ gồm các đại số con của $g$ sao cho $g''_{i+1}$ là một iđêan có đối chiều 1 trong $g''_i$; (5) $t \supset \mathscr{D}g$; (6) $\mathscr{D}g$ là lũy linh.
+
+(IV) Mỗi một trong các tính chất sau đây đặc trưng cho các đại số Lie lũy linh:
+(1) $\mathscr{C}^p g = \{0\}$ với $p$ đủ lớn; (2) $\mathscr{C}_p g = g$ với $p$ đủ lớn;
+(3) tồn tại một dãy giảm $g = g_0 \supset g_1 \supset \cdots \supset g_p = \{0\}$ gồm các iđêan của $g$ sao cho $[g, g_i] \subset g_{i+1}$; (4) tồn tại một dãy giảm $g = g'_0 \supset g'_1 \supset \cdots \supset g'_{r'} = \{0\}$ gồm các iđêan của $g$ sao cho $[g, g'_i] \subset g'_{i+1}$ và các $g'_i / g'_{i+1}$ là chiều 1; (5) tồn tại một số nguyên $i$ sao cho
+$$
+(\operatorname{ad} x_1) \circ (\operatorname{ad} x_2) \circ \cdots \circ (\operatorname{ad} x_i) = 0
+$$
+với mọi $x_1, \ldots, x_i$ trong $g$; (6) với mọi $x \in g$, $\operatorname{ad} x$ là lũy linh.
+
+(V) $g$ giao hoán $\Rightarrow$ $g$ lũy linh $\Rightarrow$ dạng Killing của $g$ là không $\Rightarrow$ $g$ giải được.
+$g$ giao hoán $\Rightarrow$ $g$ khả quy.
+$g$ nửa đơn $\Rightarrow$ $g$ khả quy.
+
+(VI) Các đặc trưng của $r$:
+(1) $r$ là iđêan giải được lớn nhất của $g$; (2) $r$ là iđêan nhỏ nhất sao cho $g/r$ là nửa đơn; (3) $r$ là iđêan giải được duy nhất sao cho $g/r$ là nửa đơn; (4) $r$ là trực giao của $\mathscr{D}g$ đối với dạng Killing.
+
+(VII) Các đặc trưng của $n$:
+(1) $n$ là iđêan lũy linh lớn nhất của $g$; (2) $n$ là iđêan lũy linh lớn nhất của $r$;
+(3) $n$ là tập hợp các $x \in r$ sao cho $\operatorname{ad}_g x$ là lũy linh; (4) $n$ là tập hợp các $x \in r$ sao cho $\operatorname{ad}_r x$ là lũy linh; (5) $n$ là iđêan lớn nhất của $g$ sao cho, với mọi $x \in n$, $\operatorname{ad}_g x$ là lũy linh; (6) $n$ là tập hợp các $x \in g$ sao cho $\operatorname{ad}_r x$ thuộc căn của đại số kết hợp sinh bởi 1 và các $\operatorname{ad}_g y$ ($y \in g$).
+
+(VIII) Các đặc trưng hóa của $s$:
+(1) $s$ là giao của các hạt nhân của các biểu diễn đơn hữu hạn chiều của $g$; (2) $s$ là nhỏ nhất trong các hạt nhân của các biểu diễn nửa đơn hữu hạn chiều của $g$; (3) $s$ là giao của các iđêan lũy linh lớn nhất của các biểu diễn hữu hạn chiều của $g$; (4) $s$ là iđêan nhỏ nhất của $g$ sao cho $g/s$ là khả quy; (5) $s = r \cap \mathscr{D}g$; (6) $s = [r, g]$; (7) $s$ là giao của các không gian trực giao của $g$ đối với các dạng song tuyến tính liên kết với các biểu diễn hữu hạn chiều của $g$.
+
+NICOLAS BOURBAKI
+Các phần tử của Toán học
+
+Các bản dịch tiếng Anh đã xuất bản:
+Tôpô đại cương, Phần I
+Tôpô đại cương, Phần II
+Lý thuyết tập hợp
+Đại số giao hoán
+Đại số, Phần I
+Nhóm Lie và Đại số Lie, Phần I
+
+Tôpô đại cương, Phần I
+
+Chương I. Các cấu trúc tôpô
+§ 1. Tập mở, lân cận, tập đóng
+§ 2. Các hàm liên tục
+§ 3. Các không gian con, các không gian thương
+§ 4. Tích của các không gian tôpô
+§ 5. Các ánh xạ mở và các ánh xạ đóng
+§ 6. Các bộ lọc
+§ 7. Các giới hạn
+§ 8. Các không gian Hausdorff và các không gian chính quy
+§ 9. Các không gian compact và các không gian compact địa phương
+§ 10. Các ánh xạ thực sự
+§ 11. Tính liên thông
+Các bài tập
+
+Chương II. Các cấu trúc đều
+§ 1. Các không gian đều
+§ 2. Các hàm liên tục đều
+§ 3. Các không gian đầy đủ
+§ 4. Các quan hệ giữa các không gian đều và các không gian compact
+Các bài tập
+
+Chương III. Các nhóm tôpô
+§ 1. Các tôpô trên nhóm
+§ 2. Các nhóm con, các nhóm thương, các đồng cấu, các không gian thuần nhất, các nhóm tích
+§ 3. Các cấu trúc đều trên nhóm
+§ 4. Các nhóm tác động thực sự trên một không gian tôpô; tính compact trong các nhóm tôpô và các không gian với toán tử
+§ 5. Các tổng vô hạn trong các nhóm giao hoán
+§ 6. Các nhóm tôpô với toán tử; các vành tôpô, các vành chia và các trường
+§ 7. Các giới hạn nghịch đảo của các nhóm và vành tôpô
+Các bài tập
+
+Chương IV. Các số thực
+§ 1. Định nghĩa các số thực
+§ 2. Các tính chất tôpô cơ bản của đường thẳng thực
+§ 3. Trường các số thực
+§ 4. Đường thẳng thực mở rộng
+§ 5. Các hàm giá trị thực
+§ 6. Các hàm giá trị thực liên tục và nửa liên tục
+§ 7. Các tổng và tích vô hạn của các số thực
+§ 8. Các khai triển thông thường của các số thực; lũy thừa của $\mathbf{R}$
+Các bài tập
+
+Tôpô đại cương, Phần II
+
+CHƯƠNG V. CÁC NHÓM MỘT THAM SỐ
+§ 1. Các nhóm con và các nhóm thương của $\mathbf{R}$
+§ 2. Đo các đại lượng
+§ 3. Đặc trưng hóa tôpô của các nhóm $\mathbf{R}$ và $\mathbf{T}$
+§ 4. Các hàm mũ và logarit
+Các bài tập
+
+CHƯƠNG VI. CÁC KHÔNG GIAN SỐ THỰC VÀ CÁC KHÔNG GIAN XẠ ẢNH
+§ 1. Không gian số thực $\mathbf{R}^n$
+§ 2. Khoảng cách Euclid, các hình cầu và các mặt cầu
+§ 3. Các không gian xạ ảnh thực
+Các bài tập
+
+CHƯƠNG VII. CÁC NHÓM CỘNG TÍNH $\mathbf{R}^n$
+§ 1. Các nhóm con và các nhóm thương của $\mathbf{R}^n$
+§ 2. Các đồng cấu liên tục của $\mathbf{R}^n$ và các nhóm thương của nó
+§ 3. Các tổng vô hạn trong các nhóm $\mathbf{R}^n$
+Các bài tập
+
+CHƯƠNG VIII. CÁC SỐ PHỨC
+§ 1. Các số phức, các quaternion
+§ 2. Đo góc, các hàm lượng giác
+§ 3. Các tổng và tích vô hạn của các số phức
+§ 4. Các không gian số phức và các không gian xạ ảnh
+Các bài tập
+
+CHƯƠNG IX. SỬ DỤNG CÁC SỐ THỰC TRONG TÔPÔ ĐẠI CƯƠNG
+§ 1. Sự sinh của một cấu trúc đều bởi một họ giả mêtric; các không gian khả đều hóa
+§ 2. Các không gian mêtric và các không gian mêtric hóa được
+§ 3. Các nhóm mêtric hóa được, các trường có giá trị, các không gian và đại số chuẩn tắc
+§ 4. Các không gian chuẩn
+§ 5. Các không gian Baire
+§ 6. Các không gian Polish, các không gian Souslin, các tập Borel
+Phụ lục: Các tích vô hạn trong các đại số chuẩn tắc
+Các bài tập
+
+CHƯƠNG X. CÁC KHÔNG GIAN HÀM
+§ 1. Cấu trúc đều của sự hội tụ $\mathscr{G}$
+§ 2. Các tập đồng liên tục
+§ 3. Các không gian hàm đặc biệt
+§ 4. Xấp xỉ các hàm giá trị thực liên tục
+Các bài tập
+
+Lý thuyết tập hợp
+
+Chương I. Mô tả toán học hình thức
+§ 1. Thuật ngữ và quan hệ
+§ 2. Các định lý
+§ 3. Các lý thuyết lôgic
+§ 4. Các lý thuyết có lượng từ
+§ 5. Các lý thuyết bình đẳng
+Phụ lục. Đặc trưng hóa các thuật ngữ và quan hệ
+Các bài tập
+
+Chương II. Lý thuyết tập hợp
+§ 1. Các quan hệ xác định tập
+§ 2. Các cặp có thứ tự
+§ 3. Các tương ứng
+§ 4. Hợp và giao của một họ tập hợp
+§ 5. Tích của một họ tập hợp
+§ 6. Các quan hệ tương đương
+Các bài tập
+
+Chương III. Các tập hợp có thứ tự, các số lực, các số nguyên
+§ 1. Các quan hệ cấp. Các tập hợp có thứ tự
+§ 2. Các tập được sắp tốt
+§ 3. Các tập hợp tương lực. Các số lực
+§ 4. Các số nguyên tự nhiên. Các tập hữu hạn
+§ 5. Các tính chất của các số nguyên
+§ 6. Các tập vô hạn
+§ 7. Các giới hạn nghịch đảo và các giới hạn trực tiếp
+Các bài tập
+
+Chương IV. Các cấu trúc
+§ 1. Các cấu trúc và các đẳng cấu
+§ 2. Các cấu xạ và các cấu trúc dẫn xuất
+§ 3. Các ánh xạ phổ quát
+Các bài tập
+
+Tóm tắt các kết quả
+Nhập môn
+§ 1. Các phần tử và tập con của một tập hợp
+§ 2. Các hàm
+§ 3. Các tích của các tập hợp
+§ 4. Hợp, giao, tích của một họ tập hợp
+§ 5. Các quan hệ tương đương và các tập thương
+§ 6. Các tập hợp có thứ tự
+§ 7. Các lũy thừa. Các tập đếm được
+§ 8. Các thang các tập hợp. Các cấu trúc
+
+Đại số giao hoán
+
+Chương I. Các môđun phẳng
+§ 1. Các sơ đồ và các dãy khớp
+§ 2. Các môđun phẳng
+§ 3. Các môđun phẳng trung thành
+§ 4. Các môđun phẳng và các hàm tử “Tor”
+Các bài tập
+
+Chương II. Địa phương hóa
+§ 1. Các iđêan nguyên tố
+§ 2. Các vành và môđun phân thức
+§ 3. Các vành địa phương. Sự chuyển từ địa phương đến toàn cục
+§ 4. Phổ của các vành và giá của các môđun
+§ 5. Các môđun xạ ảnh sinh hữu hạn. Các iđêan phân thức khả nghịch
+Các bài tập
+
+Chương III. Các phân bậc, các lọc và các tôpô
+§ 1. Các đại số phân bậc sinh hữu hạn
+§ 2. Các kết quả tổng quát về các vành và môđun có lọc
+§ 3. Các tôpô $m$-adique trên các vành Noether
+§ 4. Sự nâng trong các vành đầy đủ
+§ 5. Các tính chất phẳng của các môđun có lọc
+Các bài tập
+
+Chương IV. Các iđêan nguyên tố liên kết và phân tích nguyên sơ
+§ 1. Các iđêan nguyên tố liên kết với một môđun
+§ 2. Phân tích nguyên sơ
+§ 3. Phân tích nguyên sơ trong các môđun phân bậc
+Các bài tập
+
+Chương V. Số nguyên
+§ 1. Khái niệm về một phần tử nguyên
+§ 2. Sự nâng của các iđêan nguyên tố
+§ 3. Các đại số sinh hữu hạn trên một trường
+Bài tập
+
+Chương VI. Định giá
+§ 1. Các vành định giá
+§ 2. Các vị trí
+§ 3. Các định giá
+§ 4. Chiều cao của một định giá
+§ 5. Tôpô xác định bởi một định giá
+§ 6. Các giá trị tuyệt đối
+§ 7. Định lý xấp xỉ
+§ 8. Các mở rộng của một định giá đến một mở rộng đại số
+§ 9. Ứng dụng: các trường compact địa phương
+§ 10. Các mở rộng của một định giá đến một mở rộng siêu việt
+Bài tập
+
+CHƯƠNG VII. CÁC ƯỚC
+§ 1. Các miền Krull
+§ 2. Các miền Dedekind
+§ 3. Các miền giai thừa
+§ 4. Các môđun trên các miền Noether đóng nguyên
+Bài tập
+
+Đại số, Phần I
+
+Chương I. Các cấu trúc đại số
+§ 1. Các luật hợp thành; tính kết hợp; tính giao hoán
+§ 2. Phần tử đơn vị; các phần tử giản ước được; các phần tử khả nghịch
+§ 3. Các tác động
+§ 4. Các nhóm và các nhóm với toán tử
+§ 5. Các nhóm tác động trên một tập hợp
+§ 6. Các mở rộng, các nhóm giải được, các nhóm lũy linh
+§ 7. Các monoïd tự do, các nhóm tự do
+§ 8. Các vành
+§ 9. Các trường
+§ 10. Các giới hạn nghịch đảo và trực tiếp
+Bài tập
+
+Chương II. Đại số tuyến tính
+§ 1. Các môđun
+§ 2. Các môđun của các ánh xạ tuyến tính. Đối ngẫu
+§ 3. Các tích tenxơ
+§ 4. Các quan hệ giữa các tích tenxơ và các môđun đồng cấu
+§ 5. Mở rộng của vành các vô hướng
+§ 6. Các giới hạn nghịch đảo và trực tiếp của các môđun
+§ 7. Các không gian vectơ
+§ 8. Hạn chế trường các vô hướng trong các không gian vectơ
+§ 9. Các không gian afin và các không gian xạ ảnh
+§ 10. Các ma trận
+§ 11. Các môđun và các vành phân bậc
+Phụ lục. Các môđun giả
+Bài tập
+
+Chương III. Các đại số tenxơ, các đại số ngoài, các đại số đối xứng
+§ 1. Các đại số
+§ 2. Các ví dụ về các đại số
+§ 3. Các đại số phân bậc
+§ 4. Các tích tenxơ của các đại số
+§ 5. Đại số tenxơ. Các tenxơ
+§ 6. Các đại số đối xứng
+§ 7. Các đại số ngoài
+§ 8. Các định thức
+§ 9. Các chuẩn và các vết
+§ 10. Các đạo hàm
+§ 11. Các đại số đối, các tích của các dạng đa tuyến tính, các tích nội và tính đối ngẫu
+Phụ lục. Các đại số thay thế. Các octonion
+Bài tập

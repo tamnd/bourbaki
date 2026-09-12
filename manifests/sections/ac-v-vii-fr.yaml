@@ -108,7 +108,7 @@ chapters:
           last_pdf_page: 176
           subsections: 5
           statements: 23
-          exercises: 5
+          exercises: 11
           extraction: ocr
           content_sha256: 563676659965a92c71be49b4746926bc03de5a286f245990e54782b081f661a3
         - kind: section
