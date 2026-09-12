@@ -441,13 +441,23 @@ chapters:
           path: content/fr/alg/VII/05_s5_endomorphismes_des_espaces_vectoriels.md
           label: alg-vii-s5
           first_pdf_page: 361
-          last_pdf_page: 411
-          book_pages: A VII.66-A VII.78
+          last_pdf_page: 401
+          book_pages: A VII.66-A VII.68
           subsections: 9
           statements: 66
           exercises: 14
           extraction: ocr
           content_sha256: afafa9b7b4655ef32bab0a03356e58c950c7bbe3f0518d735de9b0a047ab4b50
+        - kind: historical
+          title: Historical Note
+          path: content/fr/alg/VII/historical_note.md
+          first_pdf_page: 402
+          last_pdf_page: 411
+          subsections: 0
+          statements: 0
+          exercises: 0
+          extraction: ocr
+          content_sha256: fa668343fc345234a27fd655f22ae3cd98fc4892f5e9abc36a5bb4ca7abac257
 notation_index:
     kind: notation
     title: INDEX DES NOTATIONS

@@ -7,8 +7,8 @@ section: 5
 section_title: ENDOMORPHISMES DES ESPACES VECTORIELS
 lang: fr
 source: alg-iv-vii-fr
-book_pages: A VII.66-A VII.78
-pdf_pages: 0361-0381, 0399-0411
+book_pages: A VII.66-A VII.68
+pdf_pages: 0361-0381, 0399-0401
 extraction: ocr
 subsections:
     - "no": 1

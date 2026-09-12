@@ -945,3 +945,6 @@ chapters:
           exercises:
             page: 66
             pdf_page: 399
+      historical_note:
+        page: 69
+        pdf_page: 402
