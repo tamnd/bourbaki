@@ -36,7 +36,7 @@ content_sha256: c5f70ab17d15a335f7e9f03ee60d6d141aff9f2c7e99794fe01a04ec5e43c5d8
 translated_from: content/en-mt/ac/X/04_s4_anneaux_reguliers.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 936b10a5724a284944f5a24e760fda4b78c2506146188e5fc1a9ccf8c5eed935
+source_content_sha256: ad376ef1e4b5373df290aabc32386ca13c0d8b32f7caea376e6faf628b828eb1
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5-mini
 translation_run: translate-vi-70d8b5b4
 glossary_version: 34

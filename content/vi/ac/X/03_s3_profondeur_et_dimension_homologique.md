@@ -48,7 +48,7 @@ content_sha256: 2406de0720fc1000c19fd72ee4aad557f4a75f977e2d5b049d11f961e3c77523
 translated_from: content/en-mt/ac/X/03_s3_profondeur_et_dimension_homologique.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: dbbcc2c3fdaae8819a5272dea66f2e4d265e8831f2139794efe45e12dc00ad8e
+source_content_sha256: 78bdd90630340e741292edd0f342fdf9b0d3a32817a1c35b2ccf24fb1ecddea0
 translation_model: gpt-5.4
 translation_run: translate-vi-d67fbc25
 glossary_version: 34

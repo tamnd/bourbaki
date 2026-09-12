@@ -14,15 +14,15 @@ Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 
 | --- | ---: | ---: | ---: | --- |
 | structure | 13 | 2 | 0 | S11 (433), S14 (798), S15 (68) |
 | tags | 7 | 1 | 1 | T03 (23308), T10 (9) |
-| mathematics | 10 | 6 | 0 | M03 (2), M06 (6), M13 (48), M14 (2703), M16 (1) |
+| mathematics | 10 | 6 | 0 | M03 (2), M06 (6), M13 (48), M14 (2697), M16 (1) |
 | figures | 6 | 0 | 0 | F01 (158) |
 | references | 3 | 0 | 0 | R01 (3369), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1365), L03 (14), L04 (10), L05 (296), L06 (2017), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
+| translation | 13 | 3 | 1 | L01 (1366), L03 (14), L04 (10), L05 (276), L06 (2017), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-29881 hard findings and 11353 soft, over 78 rules that ran and 2 that could not.
+29862 hard findings and 11347 soft, over 78 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -115,7 +115,7 @@ Soft, mathematics.
 
 and 23 more, which `bourbaki audit -only M13` prints in full.
 
-## M14 no mathematics is left outside math mode (2703)
+## M14 no mathematics is left outside math mode (2697)
 
 Soft, mathematics.
 
@@ -145,7 +145,7 @@ Soft, mathematics.
 - `content/en-mt/ac/VIII/04_s4_series_de_hilbert_samuel.md:430` \leq is set in the prose, so the mathematics prints as its own source: One therefore has either d_x(M) < r and c_G = 0, or d_x(M) =…
 - `content/en-mt/ac/VIII/04_s4_series_de_hilbert_samuel.md:434` \to is set in the prose, so the mathematics prints as its own source: Let 0 \to M' \to M \to M'' \to 0 be an exact sequence of fin…
 
-and 2678 more, which `bourbaki audit -only M14` prints in full.
+and 2672 more, which `bourbaki audit -only M14` prints in full.
 
 ## M16 no ring is named A and Lambda in the same file (1)
 
@@ -397,7 +397,7 @@ Soft, tags.
 - `content/vi/ens/II/06_s6_equivalence_relations.md:121` has 03TP after 03TS, which the same run assigned later
 - `content/vi/lie/IX/04_s4_root_system_associated_to_a_compact.md:428` has 01C5 after 01C7, which the same run assigned later
 
-## L01 the math spans are the English ones, in order (1365)
+## L01 the math spans are the English ones, in order (1366)
 
 Hard, translation.
 
@@ -427,7 +427,7 @@ Hard, translation.
 - `content/en-mt/ac/IX/exercises/s1/25.md:37` math span 44 is "c" and the English has "(a, b)"
 - `content/en-mt/ac/IX/exercises/s1/34.md:41` math span 27 is "n" and the English has "X_n"
 
-and 1340 more, which `bourbaki audit -only L01` prints in full.
+and 1341 more, which `bourbaki audit -only L01` prints in full.
 
 ## L03 the heading tree is the English one (14)
 
@@ -463,7 +463,7 @@ Hard, translation.
 - `content/en-mt/alg/X/04_s4_produits_de_torsion.md:1` has 12 of kind cor and the English has 13
 - `content/en-mt/alg/X/04_s4_produits_de_torsion.md:1` has 2 of kind thm and the English has 3
 
-## L05 source_content_sha256 is the English hash as it stands (296)
+## L05 source_content_sha256 is the English hash as it stands (276)
 
 Hard, translation.
 
@@ -485,15 +485,15 @@ Hard, translation.
 - `content/en-mt/ac/VIII/exercises/s6/10.md:1` was translated from 75ab37643168 and content/fr/ac/VIII/exercises/s6/10.md is now b77cae63f1d4, so it is stale
 - `content/en-mt/ac/X/06_s6_extension_des_scalaires_dans_les.md:1` was translated from 5ce020b59466 and content/fr/ac/X/06_s6_extension_des_scalaires_dans_les.md is now c84c8e9bbfd7, so it is stale
 - `content/en-mt/ac/X/10_s10_cohomologie_locale_dualite_de.md:1` was translated from e8bae18987be and content/fr/ac/X/10_s10_cohomologie_locale_dualite_de.md is now baf7c2e804ae, so it is stale
-- `content/en-mt/ac/X/exercises/s10/07.md:1` was translated from 5dbefc86f301 and content/fr/ac/X/exercises/s10/07.md is now 158c3fe7dd82, so it is stale
-- `content/en-mt/ac/X/exercises/s10/08.md:1` was translated from 0d259cd9c385 and content/fr/ac/X/exercises/s10/08.md is now b36fdbc7cc10, so it is stale
 - `content/en-mt/ac/X/exercises/s3/08.md:1` was translated from 28f49237a98d and content/fr/ac/X/exercises/s3/08.md is now fd466dc6568c, so it is stale
 - `content/en-mt/ac/X/exercises/s3/11.md:1` was translated from c242f56e9275 and content/fr/ac/X/exercises/s3/11.md is now 6e8cd8af7175, so it is stale
 - `content/en-mt/ac/X/exercises/s3/12.md:1` was translated from 456cffe7b22a and content/fr/ac/X/exercises/s3/12.md is now 95dd1f5a6f3f, so it is stale
 - `content/en-mt/ac/X/exercises/s3/13.md:1` was translated from 3a432d504e7c and content/fr/ac/X/exercises/s3/13.md is now 02e88208680c, so it is stale
 - `content/en-mt/ac/X/exercises/s3/14.md:1` was translated from b760363b6166 and content/fr/ac/X/exercises/s3/14.md is now e07b6b5b0b1a, so it is stale
+- `content/en-mt/ac/X/exercises/s3/15.md:1` was translated from e1d5632a6cf2 and content/fr/ac/X/exercises/s3/15.md is now 606721c30f3d, so it is stale
+- `content/en-mt/ac/X/exercises/s4/03.md:1` was translated from f999f7d30113 and content/fr/ac/X/exercises/s4/03.md is now 420c19400bdc, so it is stale
 
-and 271 more, which `bourbaki audit -only L05` prints in full.
+and 251 more, which `bourbaki audit -only L05` prints in full.
 
 ## L06 the glossary is followed (2017)
 

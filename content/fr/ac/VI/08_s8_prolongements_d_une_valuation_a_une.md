@@ -40,48 +40,48 @@ subsections:
       pdf_page: 149
 statements: 42
 exercises: 22
-content_sha256: 2548bcb44464077d7e4f148d154be697202957a5ec909dfd8b0ce39ad4e63b41
+content_sha256: 84c3cc5c0dbda691de74b9d297dc5491e7bf86736ac42cce01004b2a4de4fea6
 ---
 
 ## § 8. Prolongements d’une valuation à une extension algébrique.
 
 ### 1. Indice de ramification. Degré résiduel
 
-Soient K un corps, L une extension de K, et A’ un anneau de valuation pour L. Comme on l’a vu au § 1, no 4, l’anneau $A = K \cap A'$ est un anneau de valuation pour K, et l’on a $m(A) = m(A') \cap K$. Si $\nu'$ est une valuation associée à $A'$, la restriction $\nu$ de $\nu'$ à K est une valuation de K associée à A;
+Soient K un corps, L une extension de K, et A’ un anneau de valuation pour L. Comme on l’a vu au § 1, no 4, l’anneau $A = K \cap A'$ est un anneau de valuation pour K, et l’on a $m(A) = m(A') \cap K$. Si $v'$ est une valuation associée à $A'$, la restriction $v$ de $v'$ à K est une valuation de K associée à A;
 
-le groupe des ordres $\Gamma_v$ de $\nu$ est un sous-groupe du groupe des ordres $\Gamma_{v'}$ de $\nu'$.
+le groupe des ordres $\Gamma_v$ de $v$ est un sous-groupe du groupe des ordres $\Gamma_{v'}$ de $v'$.
 
 #### Définition 1 {#ac-vi-s8-def-1 .statement}
 
-On appelle indice de ramification de $\nu'$ par rapport à $\nu$ (ou par rapport à $K$), et l’on note $e(\nu'/\nu)$, (ou $e(A'/A)$, ou parfois $e(L/K)$) l’indice $(\Gamma_{v'} : \Gamma_v)$.
+On appelle indice de ramification de $v'$ par rapport à $v$ (ou par rapport à $K$), et l’on note $e(v'/v)$, (ou $e(A'/A)$, ou parfois $e(L/K)$) l’indice $(\Gamma_{v'} : \Gamma_v)$.
 
-Cet indice est un entier naturel, ou $+\infty$. Lorsque $\nu'_0$ est une valuation équivalente à $\nu'$, on dira encore que $e(\nu'/\nu)$ est l’indice de ramification de $\nu'_0$ par rapport à $\nu$. Si $e(\nu'/\nu) = 1$, on dit que $\nu'$ est non ramifiée par rapport à $\nu$.
+Cet indice est un entier naturel, ou $+\infty$. Lorsque $v'_0$ est une valuation équivalente à $v'$, on dira encore que $e(v'/v)$ est l’indice de ramification de $v'_0$ par rapport à $v$. Si $e(v'/v) = 1$, on dit que $v'$ est non ramifiée par rapport à $v$.
 
-D’autre part le corps résiduel $\kappa(A)$ de $\nu$ s’identifie à un sous-corps du corps résiduel $\kappa(A')$ de $\nu'$.
+D’autre part le corps résiduel $\kappa(A)$ de $v$ s’identifie à un sous-corps du corps résiduel $\kappa(A')$ de $v'$.
 
 #### Définition 2 {#ac-vi-s8-def-2 .statement}
 
-On appelle degré résiduel de $\nu'$ par rapport à $\nu$ (ou par rapport à $K$), et l’on note $f(\nu'/\nu)$ (ou $f(A'/A)$, ou parfois $f(L/K)$), le degré $[\kappa(A') : \kappa(A)]$.
+On appelle degré résiduel de $v'$ par rapport à $v$ (ou par rapport à $K$), et l’on note $f(v'/v)$ (ou $f(A'/A)$, ou parfois $f(L/K)$), le degré $[\kappa(A') : \kappa(A)]$.
 
 Ce degré est un entier naturel, ou bien $+\infty$.
 
 #### Lemme 1 {#ac-vi-s8-lem-1 .statement}
 
-Soient $K, K', K''$ trois corps tels que $K \subset K' \subset K''$; $\nu''$ une valuation de $K''$, $\nu$ et $\nu'$ ses restrictions à $K$ et $K'$. On a les relations :
+Soient $K, K', K''$ trois corps tels que $K \subset K' \subset K''$; $v''$ une valuation de $K''$, $v$ et $v'$ ses restrictions à $K$ et $K'$. On a les relations :
 
-(1) $e(\nu''/\nu) = e(\nu''/\nu')e(\nu'/\nu)$, $f(\nu''/\nu) = f(\nu''/\nu')f(\nu'/\nu)$.
+(1) $e(v''/v) = e(v''/v')e(v'/v)$, $f(v''/v) = f(v''/v')f(v'/v)$.
 
 C’est évident.
 
 #### Lemme 2 {#ac-vi-s8-lem-2 .statement}
 
-Soient $K$ un corps, $L$ une extension de degré fini $n$ de $K$, $\nu'$ une valuation de $L$, et $\nu$ sa restriction à $K$. On a l’inégalité
+Soient $K$ un corps, $L$ une extension de degré fini $n$ de $K$, $v'$ une valuation de $L$, et $v$ sa restriction à $K$. On a l’inégalité
 
-(2) $e(\nu'/\nu)f(\nu'/\nu) \leq n;$
+(2) $e(v'/v)f(v'/v) \leq n;$
 
-en particulier $e(\nu'/\nu)$ et $f(\nu'/\nu)$ sont finis.
+en particulier $e(v'/v)$ et $f(v'/v)$ sont finis.
 
-En effet, prenons des entiers naturels $r$ et $s$ respectivement inférieurs à $e(\nu'/\nu)$ et $f(\nu'/\nu)$. Il suffit de montrer qu’on a $rs \leq n$. Vu la définition de $r$, il existe des éléments $x_i$ de $L$ ($1 \leq i \leq r$) tels que $\nu'(x_i) \equiv \nu'(x_j)$ (mod. $\Gamma_v$) pour $i \neq j$. Vu la définition de $s$, il existe des éléments $y_k$ ($1 \leq k \leq s$) de l’anneau $A'$ de $\nu'$ dont les images canoniques $\overline{y}_k$ dans $\kappa(A')$ sont linéairement indépendantes sur $\kappa(A)$; on a évidemment $\nu'(y_k) = 0$ pour tout $k$. Nous allons montrer que les $rs$ éléments $x_iy_k$ sont linéairement indépendants sur $K$, ce qui établira bien l’inégalité $rs \leq n$.
+En effet, prenons des entiers naturels $r$ et $s$ respectivement inférieurs à $e(v'/v)$ et $f(v'/v)$. Il suffit de montrer qu’on a $rs \leq n$. Vu la définition de $r$, il existe des éléments $x_i$ de $L$ ($1 \leq i \leq r$) tels que $v'(x_i) \equiv v'(x_j)$ (mod. $\Gamma_v$) pour $i \neq j$. Vu la définition de $s$, il existe des éléments $y_k$ ($1 \leq k \leq s$) de l’anneau $A'$ de $v'$ dont les images canoniques $\overline{y}_k$ dans $\kappa(A')$ sont linéairement indépendantes sur $\kappa(A)$; on a évidemment $v'(y_k) = 0$ pour tout $k$. Nous allons montrer que les $rs$ éléments $x_iy_k$ sont linéairement indépendants sur $K$, ce qui établira bien l’inégalité $rs \leq n$.
 
 Supposons donc qu’il existe une relation linéaire non triviale de la forme
 
@@ -91,27 +91,27 @@ $$
 
 Choisissons les indices $j, m$ de sorte que
 $$
-\nu'(a_{jm} x_j y_m) \leq \nu'(a_{ik} x_i y_k)
+v'(a_{jm} x_j y_m) \leq v'(a_{ik} x_i y_k)
 $$
-pour tout couple $(i, k)$; on a alors $a_{jm} \neq 0$. Si $i \neq j$, on ne peut avoir $\nu'(a_{ik} x_i y_k) = \nu'(a_{jm} x_j y_m)$ car ceci entraînerait
+pour tout couple $(i, k)$; on a alors $a_{jm} \neq 0$. Si $i \neq j$, on ne peut avoir $v'(a_{ik} x_i y_k) = v'(a_{jm} x_j y_m)$ car ceci entraînerait
 $$
-\nu'(x_i) - \nu'(x_j) = \nu'(a_{jm}) - \nu'(a_{ik}) \in \Gamma_v,
+v'(x_i) - v'(x_j) = v'(a_{jm}) - v'(a_{ik}) \in \Gamma_v,
 $$
 contrairement au choix des $x_i$. En multipliant (3) par $(a_{jm} x_j)^{-1}$, on obtient une relation de la forme
 $$
 \sum_k b_k y_k + z = 0, \quad \text{où} \quad b_k = \frac{a_{jk} x_j}{a_{jm} x_j} \in A', \quad z \in A'
 $$
-et $\nu'(b_k) \geq 0,\ \nu'(z) > 0$. D’où, dans $\kappa(A')$, une relation de la forme $\sum_k \overline{b_k} \overline{y_k} = 0$. Comme $b_m = 1$, ceci contredit l’hypothèse faite sur $y_k$.
+et $v'(b_k) \geq 0,\ v'(z) > 0$. D’où, dans $\kappa(A')$, une relation de la forme $\sum_k \overline{b_k} \overline{y_k} = 0$. Comme $b_m = 1$, ceci contredit l’hypothèse faite sur $y_k$.
 
 #### Proposition 1 {#ac-vi-s8-prop-1 .statement}
 
-*Soient K un corps, L une extension algébrique de K, $\nu'$ une valuation de L, $\nu$ sa restriction à K, A et A' les anneaux de $\nu$ et $\nu'$. Alors $\Gamma_{v'}/\Gamma_v$ est un groupe de torsion, et $\kappa(A')$ est une extension algébrique de $\kappa(A)$*.
+*Soient K un corps, L une extension algébrique de K, $v'$ une valuation de L, $v$ sa restriction à K, A et A' les anneaux de $v$ et $v'$. Alors $\Gamma_{v'}/\Gamma_v$ est un groupe de torsion, et $\kappa(A')$ est une extension algébrique de $\kappa(A)$*.
 
-Soit en effet $(L_\alpha)$ la famille des sous-extensions de degré fini de L; posons $\Gamma_\alpha = \nu'(L_\alpha^*)$. Le groupe $\Gamma_{v'}$ est réunion de la famille filtrante croissante formée par les $\Gamma_\alpha$; comme les groupes $\Gamma_\alpha/\Gamma_v$ sont finis (lemme 2), $\Gamma_{v'}/\Gamma_v$ est un groupe de torsion. On raisonne de même pour prouver que $\kappa(A')$ est une extension algébrique de $\kappa(A)$.
+Soit en effet $(L_\alpha)$ la famille des sous-extensions de degré fini de L; posons $\Gamma_\alpha = v'(L_\alpha^*)$. Le groupe $\Gamma_{v'}$ est réunion de la famille filtrante croissante formée par les $\Gamma_\alpha$; comme les groupes $\Gamma_\alpha/\Gamma_v$ sont finis (lemme 2), $\Gamma_{v'}/\Gamma_v$ est un groupe de torsion. On raisonne de même pour prouver que $\kappa(A')$ est une extension algébrique de $\kappa(A)$.
 
 #### Corollaire 1 {#ac-vi-s8-prop-1-cor-1 .statement}
 
-*La hauteur de $\nu'$ est égale à celle de $\nu$*.
+*La hauteur de $v'$ est égale à celle de $v$*.
 
 Ceci résulte en effet de la prop. 1 et du lemme suivant:
 
@@ -125,37 +125,37 @@ C.Q.F.D.
 
 #### Corollaire 2 {#ac-vi-s8-lem-3-cor-2 .statement}
 
-Pour que $\varphi'$ soit impropre (resp. de hauteur 1), il faut et il suffit que $\varphi$ soit impropre (resp. de hauteur 1).
+Pour que $v'$ soit impropre (resp. de hauteur 1), il faut et il suffit que $v$ soit impropre (resp. de hauteur 1).
 
 #### Corollaire 3 {#ac-vi-s8-lem-3-cor-3 .statement}
 
-Supposons que $L$ soit une extension de degré fini de $K$. Pour que $\varphi'$ soit discrète, il faut et il suffit que $\varphi$ soit discrète.
+Supposons que $L$ soit une extension de degré fini de $K$. Pour que $v'$ soit discrète, il faut et il suffit que $v$ soit discrète.
 
-Si $\varphi'$ est discrète, $\Gamma_v$ est isomorphe à un sous-groupe non nul de $\mathbf{Z}$ (cor. 2), donc à $\mathbf{Z}$. Réciproquement, si $\varphi$ est discrète, $\Gamma_v$ est isomorphe à $\mathbf{Z}$, et $\Gamma_{v'}/\Gamma_v$ est un groupe fini (lemme 2); donc $\Gamma_{v'}$ est un groupe commutatif de type fini, de rang 1, et sans torsion; par conséquent il est isomorphe à $\mathbf{Z}$.
+Si $v'$ est discrète, $\Gamma_v$ est isomorphe à un sous-groupe non nul de $\mathbf{Z}$ (cor. 2), donc à $\mathbf{Z}$. Réciproquement, si $v$ est discrète, $\Gamma_v$ est isomorphe à $\mathbf{Z}$, et $\Gamma_{v'}/\Gamma_v$ est un groupe fini (lemme 2); donc $\Gamma_{v'}$ est un groupe commutatif de type fini, de rang 1, et sans torsion; par conséquent il est isomorphe à $\mathbf{Z}$.
 
 ### 2. Prolongement d’une valuation et complétion
 
 #### Définition 3 {#ac-vi-s8-def-3 .statement}
 
-Soient $K$ un corps, $\varphi$ une valuation de $K$, et $L$ une extension de $K$. On appelle système complet de prolongements de $\varphi$ à $L$ une famille $(\varphi'_i)_{i \in I}$ de valuations de $L$ prolongeant $\varphi$, telle que toute valuation de $L$ prolongeant $\varphi$ soit équivalente à une $\varphi'_i$ et à une seule.
+Soient $K$ un corps, $v$ une valuation de $K$, et $L$ une extension de $K$. On appelle système complet de prolongements de $v$ à $L$ une famille $(v'_i)_{i \in I}$ de valuations de $L$ prolongeant $v$, telle que toute valuation de $L$ prolongeant $v$ soit équivalente à une $v'_i$ et à une seule.
 
 #### Proposition 2 {#ac-vi-s8-prop-2 .statement}
 
-Soient $K$ un corps, $\varphi$ une valuation de $K$, $\hat{K}$ le complété de $K$ pour $\varphi$, $\hat{\varphi}$ le prolongement continu de $\varphi$ à $\hat{K}$, et $L$ une extension de degré fini $n$ de $K$.
+Soient $K$ un corps, $v$ une valuation de $K$, $\hat{K}$ le complété de $K$ pour $v$, $\hat{v}$ le prolongement continu de $v$ à $\hat{K}$, et $L$ une extension de degré fini $n$ de $K$.
 
-a) Soit $\varphi'$ une valuation de $L$ prolongeant $\varphi$; notons $\hat{L}_{v'}$ le complété de $L$ pour $\varphi'$ et $\hat{\varphi}'$ le prolongement continu de $\varphi'$ à $\hat{L}_{v'}$; en identifiant $\hat{K}$ à l’adhérence de $K$ dans $\hat{L}_{v'}$, on a
+a) Soit $v'$ une valuation de $L$ prolongeant $v$; notons $\hat{L}_{v'}$ le complété de $L$ pour $v'$ et $\hat{v}'$ le prolongement continu de $v'$ à $\hat{L}_{v'}$; en identifiant $\hat{K}$ à l’adhérence de $K$ dans $\hat{L}_{v'}$, on a
 
 $$
-(4) \quad e(\hat{\varphi}'/\hat{\varphi}) = e(\varphi'/\varphi), \quad f(\hat{\varphi}'/\hat{\varphi}) = f(\varphi'/\varphi),
+(4) \quad e(\hat{v}'/\hat{v}) = e(v'/v), \quad f(\hat{v}'/\hat{v}) = f(v'/v),
 $$
 $$
 (5) \quad [\hat{L}_{v'} : \hat{K}] \leq n,
 $$
 $$
-(6) \quad e(\varphi'/\varphi)f(\varphi'/\varphi) \leq [\hat{L}_{v'} : \hat{K}]
+(6) \quad e(v'/v)f(v'/v) \leq [\hat{L}_{v'} : \hat{K}]
 $$
 
-b) Tout ensemble de valuations deux à deux indépendantes de L prolongeant une valuation non impropre $\nu$ est fini. Notons $\nu'_1, \ldots, \nu'_s$ des valuations deux à deux indépendantes de L prolongeant $\nu$, telles que toute valuation de L prolongeant $\nu$ soit dépendante de l’une des $\nu'_i$; soient $L_i$ le corps L muni de la topologie définie par $\nu'_i$, $\hat{L}_i$ son complété; posons $n_i = [\hat{L}_i : \hat{K}]$. Alors l’application canonique $\varphi : \hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i$ (prolongeant par continuité l’application diagonale $L \to \prod_{i=1}^s L_i$) est surjective, son noyau est le radical de $\hat{K} \otimes_K L$, et l’on a
+b) Tout ensemble de valuations deux à deux indépendantes de L prolongeant une valuation non impropre $v$ est fini. Notons $v'_1, \ldots, v'_s$ des valuations deux à deux indépendantes de L prolongeant $v$, telles que toute valuation de L prolongeant $v$ soit dépendante de l’une des $v'_i$; soient $L_i$ le corps L muni de la topologie définie par $v'_i$, $\hat{L}_i$ son complété; posons $n_i = [\hat{L}_i : \hat{K}]$. Alors l’application canonique $\varphi : \hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i$ (prolongeant par continuité l’application diagonale $L \to \prod_{i=1}^s L_i$) est surjective, son noyau est le radical de $\hat{K} \otimes_K L$, et l’on a
 
 $$
 \sum_{i=1}^s n_i \leq n.
@@ -163,15 +163,15 @@ $$
 
 (7)
 
-Démontrons d’abord a). On peut supposer $\nu$ non impropre. Comme $\nu$ et $\hat{\nu}$ (resp. $\nu'$ et $\hat{\nu}'$) ont même groupe des ordres et même corps résiduel (§ 5, no 3, prop. 5, b) et f)), (4) est vraie. On en déduit (6) au moyen du lemme 2. Enfin le sous-$\hat{K}$-espace vectoriel de $\hat{L}_{\nu'}$ engendré par L est fermé (§ 5, no 2, cor. de la prop. 4) et partout dense, donc égal à $\hat{L}_{\nu'}$; ceci démontre (5).
+Démontrons d’abord a). On peut supposer $v$ non impropre. Comme $v$ et $\hat{v}$ (resp. $v'$ et $\hat{v}'$) ont même groupe des ordres et même corps résiduel (§ 5, no 3, prop. 5, b) et f)), (4) est vraie. On en déduit (6) au moyen du lemme 2. Enfin le sous-$\hat{K}$-espace vectoriel de $\hat{L}_{v'}$ engendré par L est fermé (§ 5, no 2, cor. de la prop. 4) et partout dense, donc égal à $\hat{L}_{v'}$; ceci démontre (5).
 
-Passons à b). On peut encore supposer $\nu$ non impropre. Soit $(\nu'_1, \ldots, \nu'_r)$ une famille finie quelconque de valuations deux à deux indépendantes de L prolongeant $\nu$. L’image de L dans $\prod_{i=1}^r L_i$ par l’application diagonale est partout dense (§ 7, no 2, th. 1) et $\prod_{i=1}^r L_i$ est dense dans $\prod_{i=1}^r \hat{L}_i$. Donc l’image canonique de $\hat{K} \otimes_K L$ dans $\prod_{i=1}^r \hat{L}_i$ est partout dense. D’autre part cette image est un sous-$\hat{K}$-espace vectoriel de $\prod_{i=1}^r \hat{L}_i$; comme $\prod_{i=1}^r \hat{L}_i$ est de dimension finie sur $\hat{K}$ d’après (5), l’image de $\hat{K} \otimes_K L$ est fermée (§ 5, no 2, cor. de la prop. 4), donc égale à $\prod_{i=1}^r \hat{L}_i$. Comme la dimension de $\hat{K} \otimes_K L$ sur $\hat{K}$ est $n$, on a $\sum_{i=1}^r n_i \leq n$. Ceci montre en particulier que l’entier $r$ est majoré par $n$, et démontre la première assertion de b).
+Passons à b). On peut encore supposer $v$ non impropre. Soit $(v'_1, \ldots, v'_r)$ une famille finie quelconque de valuations deux à deux indépendantes de L prolongeant $v$. L’image de L dans $\prod_{i=1}^r L_i$ par l’application diagonale est partout dense (§ 7, no 2, th. 1) et $\prod_{i=1}^r L_i$ est dense dans $\prod_{i=1}^r \hat{L}_i$. Donc l’image canonique de $\hat{K} \otimes_K L$ dans $\prod_{i=1}^r \hat{L}_i$ est partout dense. D’autre part cette image est un sous-$\hat{K}$-espace vectoriel de $\prod_{i=1}^r \hat{L}_i$; comme $\prod_{i=1}^r \hat{L}_i$ est de dimension finie sur $\hat{K}$ d’après (5), l’image de $\hat{K} \otimes_K L$ est fermée (§ 5, no 2, cor. de la prop. 4), donc égale à $\prod_{i=1}^r \hat{L}_i$. Comme la dimension de $\hat{K} \otimes_K L$ sur $\hat{K}$ est $n$, on a $\sum_{i=1}^r n_i \leq n$. Ceci montre en particulier que l’entier $r$ est majoré par $n$, et démontre la première assertion de b).
 
-Prenons maintenant $(\nu'_1, \ldots, \nu'_s)$ comme dans l’énoncé. La surjectivité de $\varphi : \hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i$ et la relation (7) ont déjà
+Prenons maintenant $(v'_1, \ldots, v'_s)$ comme dans l’énoncé. La surjectivité de $\varphi : \hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i$ et la relation (7) ont déjà
 
 #### Corollaire 1 {#ac-vi-s8-prop-2-cor-1 .statement}
 
-*Si $K$ est complet pour $\nu$, et si $\nu$ est non impropre, deux valuations de $L$ prolongeant $\nu$ sont dépendantes.* En effet, on a $\hat{K} \otimes_K L = L$.
+*Si $K$ est complet pour $v$, et si $v$ est non impropre, deux valuations de $L$ prolongeant $v$ sont dépendantes.* En effet, on a $\hat{K} \otimes_K L = L$.
 
 #### Corollaire 2 {#ac-vi-s8-prop-2-cor-2 .statement}
 
@@ -183,69 +183,69 @@ La prop. 2, b) montre que toute *extension composée* de $\hat{K}$ et $L$ sur $K
 
 ### 3. La relation $\sum_i e_i f_i \leq n$
 
-Soient $K$ un corps, $\nu$ une valuation de $K$, et $L$ une extension de degré fini $n$ de $K$. Soient $(\nu'_1, \ldots, \nu'_r)$ des valuations deux à deux *inéquivalentes* de $L$ prolongeant $\nu$; si elles sont *indépendantes* (ce qui est toujours le cas si $\nu$ est de hauteur 1), on a $\sum_{i=1}^r e(\nu'_i/\nu)f(\nu'_i/\nu) \leq n$ en vertu de la prop. 2 (formules (6)) et (7)). Nous allons voir que ce résultat est vrai dans le cas général. De façon précise :
+Soient $K$ un corps, $v$ une valuation de $K$, et $L$ une extension de degré fini $n$ de $K$. Soient $(v'_1, \ldots, v'_r)$ des valuations deux à deux *inéquivalentes* de $L$ prolongeant $v$; si elles sont *indépendantes* (ce qui est toujours le cas si $v$ est de hauteur 1), on a $\sum_{i=1}^r e(v'_i/v)f(v'_i/v) \leq n$ en vertu de la prop. 2 (formules (6)) et (7)). Nous allons voir que ce résultat est vrai dans le cas général. De façon précise :
 
 #### Théorème 1 {#ac-vi-s8-thm-1 .statement}
 
-Soient K un corps, $\varphi$ une valuation de K, et L une extension de degré fini n de K. Alors :
-a) Tout système complet $(\varphi'_i)_{i \in I}$ de prolongements de $\varphi$ à L est fini.
-b) On a $\sum_{i \in I} e(\varphi'_i/\varphi)f(\varphi'_i/\varphi) \leq n$, et a fortiori Card(I) $\leq n$.
-c) Les anneaux des $\varphi'_i$ sont deux à deux non comparables pour la relation d’inclusion.
+Soient K un corps, $v$ une valuation de K, et L une extension de degré fini n de K. Alors :
+a) Tout système complet $(v'_i)_{i \in I}$ de prolongements de $v$ à L est fini.
+b) On a $\sum_{i \in I} e(v'_i/v)f(v'_i/v) \leq n$, et a fortiori Card(I) $\leq n$.
+c) Les anneaux des $v'_i$ sont deux à deux non comparables pour la relation d’inclusion.
 
-Le théorème étant trivial si $\varphi$ est impropre, nous supposerons $\varphi$ non impropre. Soit $(\varphi'_1, \ldots, \varphi'_s)$ une famille finie quelconque de valuations deux à deux inéquivalentes de L prolongeant $\varphi$.
+Le théorème étant trivial si $v$ est impropre, nous supposerons $v$ non impropre. Soit $(v'_1, \ldots, v'_s)$ une famille finie quelconque de valuations deux à deux inéquivalentes de L prolongeant $v$.
 
-Nous allons d’abord prouver que $\sum_{i=1}^s e(\varphi'_i/\varphi)f(\varphi'_i/\varphi) \leq n$. Ceci démontrera a) et b).
+Nous allons d’abord prouver que $\sum_{i=1}^s e(v'_i/v)f(v'_i/v) \leq n$. Ceci démontrera a) et b).
 
 Nous raisonnons par récurrence sur s, et supposerons donc notre inégalité établie dans le cas de 0, 1, ..., s—1 valuations. Nous distinguons 2 cas.
 
-1) Supposons qu’il existe au moins deux valuations $\varphi'_i$ indépendantes. Il existe alors (§ 7, no 2, Remarque 1), une partition $\{1, s\} = I_1 \cup \cdots \cup I_t$ de $\{1, s\}$ telle que :
-(i) pour que $\varphi'_i$ et $\varphi'_j$ soient dépendantes, il faut et il suffit que i et j appartiennent à un même $I_k$;
+1) Supposons qu’il existe au moins deux valuations $v'_i$ indépendantes. Il existe alors (§ 7, no 2, Remarque 1), une partition $\{1, s\} = I_1 \cup \cdots \cup I_t$ de $\{1, s\}$ telle que :
+(i) pour que $v'_i$ et $v'_j$ soient dépendantes, il faut et il suffit que i et j appartiennent à un même $I_k$;
 (ii) Card$(I_k) < s$ pour tout k.
 
-Choisissons dans chaque $I_k$ un indice $i(k)$. Notons $\hat{L}_{i(k)}$ le complété de L pour $\varphi'_{i(k)}$, et posons $n(k) = [\hat{L}_{i(k)} : \hat{K}]$. Pour tout $i \in I_k$, $\varphi'_i$ définit sur L la même topologie que $\varphi'_{i(k)}$ (§ 7, no 2, prop. 3)), donc se prolonge en une valuation $\hat{\varphi}'_i$ de $\hat{L}_{i(k)}$ dont la restriction à $\hat{K}$ est $\hat{\varphi}$. Puisque les $\varphi'_i$ pour $i \in I_k$ sont deux à deux inéquivalentes, il en est de même des $\hat{\varphi}'_i$. L’hypothèse de récurrence appliquée au couple $(\hat{K}, \hat{L}_{i(k)})$ montre, en vertu de la prop. 2, a), formule (4), que l’on a $\sum_{i \in I_k} e(\varphi'_i/\varphi)f(\varphi'_i/\varphi) \leq n(k)$. Comme $\sum_{k=1}^t n(k) \leq n$ (prop. 2, b), formule (7)), on a bien $\sum_{i=1}^s e(\varphi'_i/\varphi)f(\varphi'_i/\varphi) \leq n$.
+Choisissons dans chaque $I_k$ un indice $i(k)$. Notons $\hat{L}_{i(k)}$ le complété de L pour $v'_{i(k)}$, et posons $n(k) = [\hat{L}_{i(k)} : \hat{K}]$. Pour tout $i \in I_k$, $v'_i$ définit sur L la même topologie que $v'_{i(k)}$ (§ 7, no 2, prop. 3)), donc se prolonge en une valuation $\hat{v}'_i$ de $\hat{L}_{i(k)}$ dont la restriction à $\hat{K}$ est $\hat{v}$. Puisque les $v'_i$ pour $i \in I_k$ sont deux à deux inéquivalentes, il en est de même des $\hat{v}'_i$. L’hypothèse de récurrence appliquée au couple $(\hat{K}, \hat{L}_{i(k)})$ montre, en vertu de la prop. 2, a), formule (4), que l’on a $\sum_{i \in I_k} e(v'_i/v)f(v'_i/v) \leq n(k)$. Comme $\sum_{k=1}^t n(k) \leq n$ (prop. 2, b), formule (7)), on a bien $\sum_{i=1}^s e(v'_i/v)f(v'_i/v) \leq n$.
 
-2) Passons au cas où deux quelconques des $\varphi'_i$ sont dépendantes. Soit $A'_i$ l’anneau de $\varphi'_i (1 \leq i \leq s)$; en notant A l’anneau de $\varphi$, on a $A'_i \cap K = A$ pour tout i. Soit B' le sous-anneau de L engendré par $A'_1, \ldots, A'_s$; posons $B = B' \cap K$: on a $B \supset A$. Alors B est l’anneau d’une valuation $\omega$ de $K$, et $B'$ l’anneau d’une valuation non impropre $\omega'$ de $L$ prolongeant $\omega$ ($§ 7$, n° 2, prop. 4); le corps $\kappa(B')$ est une extension de degré $f(\omega'/\omega)$ de $\kappa(B)$. Considérons les images canoniques $\overline{A'_i}$, $\overline{A}$ de $A'_i$ et $A$ dans $\kappa(B')$; alors $\overline{A}$ est l’anneau d’une valuation $\bar{\nu}$ de $\kappa(B)$, et les $\overline{A'_i}$ sont les anneaux de valuations $\bar{\nu}'_i$ de $\kappa(B')$ prolongeant $\bar{\nu}$. Comme les $A'_i$ engendrent $B'$, les $\overline{A'_i}$ engendrent $\kappa(B')$, donc les $\bar{\nu}'_i$ ne sont pas toutes dépendantes ($§ 7$, n° 2, prop. 4). D’après la première partie de la démonstration, on a
+2) Passons au cas où deux quelconques des $v'_i$ sont dépendantes. Soit $A'_i$ l’anneau de $v'_i (1 \leq i \leq s)$; en notant A l’anneau de $v$, on a $A'_i \cap K = A$ pour tout i. Soit B' le sous-anneau de L engendré par $A'_1, \ldots, A'_s$; posons $B = B' \cap K$: on a $B \supset A$. Alors B est l’anneau d’une valuation $w$ de $K$, et $B'$ l’anneau d’une valuation non impropre $w'$ de $L$ prolongeant $w$ ($§ 7$, n° 2, prop. 4); le corps $\kappa(B')$ est une extension de degré $f(w'/w)$ de $\kappa(B)$. Considérons les images canoniques $\overline{A'_i}$, $\overline{A}$ de $A'_i$ et $A$ dans $\kappa(B')$; alors $\overline{A}$ est l’anneau d’une valuation $\bar{v}$ de $\kappa(B)$, et les $\overline{A'_i}$ sont les anneaux de valuations $\bar{v}'_i$ de $\kappa(B')$ prolongeant $\bar{v}$. Comme les $A'_i$ engendrent $B'$, les $\overline{A'_i}$ engendrent $\kappa(B')$, donc les $\bar{v}'_i$ ne sont pas toutes dépendantes ($§ 7$, n° 2, prop. 4). D’après la première partie de la démonstration, on a
 
 $$
-\sum_{i=1}^{s} e(\bar{\nu}'_i/\bar{\nu}) f(\bar{\nu}'_i/\bar{\nu}) \leq [\kappa(B') : \kappa(B)] = f(\omega'/\omega)
+\sum_{i=1}^{s} e(\bar{v}'_i/\bar{v}) f(\bar{v}'_i/\bar{v}) \leq [\kappa(B') : \kappa(B)] = f(w'/w)
 $$
 
 donc
 
 $$
-\sum_{i=1}^{s} e(\omega'/\omega) e(\bar{\nu}'_i/\bar{\nu}) f(\bar{\nu}'_i/\bar{\nu}) \leq e(\omega'/\omega) f(\omega'/\omega) \leq n \quad (\text{n° 1, lemme 1}).
+\sum_{i=1}^{s} e(w'/w) e(\bar{v}'_i/\bar{v}) f(\bar{v}'_i/\bar{v}) \leq e(w'/w) f(w'/w) \leq n \quad (\text{n° 1, lemme 1}).
 $$
 
 La démonstration de a) et b) sera donc terminée si nous prouvons que l’on a
 
 $$(8)$$
 $$
-f(\bar{\nu}'_i/\bar{\nu}) = f(\nu'_i/\nu), \quad e(\omega'/\omega) e(\bar{\nu}'_i/\bar{\nu}) = e(\nu'_i/\nu).
+f(\bar{v}'_i/\bar{v}) = f(v'_i/v), \quad e(w'/w) e(\bar{v}'_i/\bar{v}) = e(v'_i/v).
 $$
 
-Remarquons, pour cela, que $\nu$ et $\bar{\nu}$ (resp. $\nu'_i$ et $\bar{\nu}'_i$) ont même corps résiduel ($§ 4$, n° 1, cor. de la prop. 2); ceci prouve la première égalité. Pour la seconde on a, en vertu de la Remarque du $§ 4$, n° 3, le diagramme commutatif suivant, où les lignes sont des suites exactes, et où les flèches verticales représentent les injections canoniques:
+Remarquons, pour cela, que $v$ et $\bar{v}$ (resp. $v'_i$ et $\bar{v}'_i$) ont même corps résiduel ($§ 4$, n° 1, cor. de la prop. 2); ceci prouve la première égalité. Pour la seconde on a, en vertu de la Remarque du $§ 4$, n° 3, le diagramme commutatif suivant, où les lignes sont des suites exactes, et où les flèches verticales représentent les injections canoniques:
 
 $$
 \begin{array}{ccccccccc}
-0 & \to & \Gamma_{\bar{\nu}}^- & \to & \Gamma_{\nu} & \to & \Gamma_w & \to & 0 \\
+0 & \to & \Gamma_{\bar{v}}^- & \to & \Gamma_{v} & \to & \Gamma_w & \to & 0 \\
 & & \downarrow & & \downarrow & & \downarrow & & \\
-0 & \to & \Gamma_{\nu_i'}^- & \to & \Gamma_{\nu_i'} & \to & \Gamma_{w'} & \to & 0.
+0 & \to & \Gamma_{v_i'}^- & \to & \Gamma_{v_i'} & \to & \Gamma_{w'} & \to & 0.
 \end{array}
 $$
 
 On en déduit, ce qui démontre la seconde formule (8), qu’on a une suite exacte
 
 $$
-0 \to \Gamma_{\nu_i'}^-/\Gamma_{\bar{\nu}}^- \to \Gamma_{\nu_i'}/\Gamma_{\nu} \to \Gamma_{w'}/\Gamma_w \to 0
+0 \to \Gamma_{v_i'}^-/\Gamma_{\bar{v}}^- \to \Gamma_{v_i'}/\Gamma_{v} \to \Gamma_{w'}/\Gamma_w \to 0
 $$
 
 en vertu du chap. I, $§ 1$, n° 4, prop. 2.
 
-Pour terminer la démonstration du th. 1, il reste à prouver c). Si l’anneau de $\nu'_i$ contient celui de $\nu'_j$, $\Gamma_{\nu_i'}$ s’identifie à un groupe quotient $\Gamma_{\nu_j'}/H$, $H$ étant un sous-groupe isolé ($§ 4$, n° 3). Comme l’application canonique composée $\Gamma_{\nu} \to \Gamma_{\nu_j'} \to \Gamma_{\nu_j'}/H = \Gamma_{\nu_i'}$ est injective, on a $H \cap \Gamma_{\nu} = \{0\}$, d’où $H = \{0\}$ (lemme 3, n° 1). Alors $\nu'_i$ et $\nu'_j$ sont équivalentes, d’où $i = j$.
+Pour terminer la démonstration du th. 1, il reste à prouver c). Si l’anneau de $v'_i$ contient celui de $v'_j$, $\Gamma_{v_i'}$ s’identifie à un groupe quotient $\Gamma_{v_j'}/H$, $H$ étant un sous-groupe isolé ($§ 4$, n° 3). Comme l’application canonique composée $\Gamma_{v} \to \Gamma_{v_j'} \to \Gamma_{v_j'}/H = \Gamma_{v_i'}$ est injective, on a $H \cap \Gamma_{v} = \{0\}$, d’où $H = \{0\}$ (lemme 3, n° 1). Alors $v'_i$ et $v'_j$ sont équivalentes, d’où $i = j$.
 
 #### Remarque {#ac-vi-s8-n3-rem-1 .statement}
 
-L’intersection C des anneaux $A'_i$ des valuations $\nu'_i (i \in I)$ est la fermeture intégrale de A dans L ($§ 1, n^o 3$, cor. 3 du th. 3); il résulte en outre de c) et du $§ 7, n^o 1$, prop. 1 et 2, que C est un anneau semi-local, que ses idéaux maximaux sont les intersections $m_i = C \cap m(A'_i)$ et que $A'_i = C_{m_i}$ pour tout $i \in I$.
+L’intersection C des anneaux $A'_i$ des valuations $v'_i (i \in I)$ est la fermeture intégrale de A dans L ($§ 1, n^o 3$, cor. 3 du th. 3); il résulte en outre de c) et du $§ 7, n^o 1$, prop. 1 et 2, que C est un anneau semi-local, que ses idéaux maximaux sont les intersections $m_i = C \cap m(A'_i)$ et que $A'_i = C_{m_i}$ pour tout $i \in I$.
 
 ### 4. Indice initial de ramification
 
@@ -272,39 +272,39 @@ En particulier, on a $\varepsilon(G, H) \leq (G : H)$.
 
 #### Définition 5 {#ac-vi-s8-def-5 .statement}
 
-Soient K un corps, L une extension de degré fini de K, $\omega$ une valuation de L, $\nu$ sa restriction à K,
+Soient K un corps, L une extension de degré fini de K, $w$ une valuation de L, $v$ sa restriction à K,
 
-Γ_w et Γ_v leurs groupes des ordres. On appelle indice initial de ramification de ω par rapport à ν (ou par rapport à K) et l’on note ε(ω/ν), l’indice initial de Γ_v dans Γ_w.
+Γ_w et Γ_v leurs groupes des ordres. On appelle indice initial de ramification de w par rapport à v (ou par rapport à K) et l’on note ε(w/v), l’indice initial de Γ_v dans Γ_w.
 
-D’après le corollaire ci-dessus, ε(ω/ν) divise e(ω/ν), avec égalité dans le cas d’une valuation discrète.
+D’après le corollaire ci-dessus, ε(w/v) divise e(w/v), avec égalité dans le cas d’une valuation discrète.
 
 #### Proposition 4 {#ac-vi-s8-prop-4 .statement}
 
-Les hypothèses sont celles de la déf. 5. Soient A et m (resp. A' et m') l’anneau et l’idéal de la valuation ν (resp. ω). On a
+Les hypothèses sont celles de la déf. 5. Soient A et m (resp. A' et m') l’anneau et l’idéal de la valuation v (resp. w). On a
 
-$$ [A'/mA': A/m] = \varepsilon(\omega/\nu)f(\omega/\nu). $$
+$$ [A'/mA': A/m] = \varepsilon(w/v)f(w/v). $$
 
-Les idéaux de A' contenant mA' et distincts de A' correspondent en effet aux sous-ensembles majeurs de Γ_w formés d’éléments > 0 et contenant les éléments > 0 de Γ_v (§ 3, n° 5, cor. de la prop. 7). Ils sont donc en nombre égal à ε(ω/ν), et, comme ils forment un ensemble totalement ordonné par inclusion, ce nombre est égal à la longueur de l’anneau quotient A'/mA'. Or un module de longueur 1 sur A' est un espace vectoriel de dimension 1 sur A'/m', donc un module de longueur f(ω/ν) sur A; donc, comme A'/mA' est de longueur ε(ω/ν) sur A', il est de longueur ε(ω/ν)f(ω/ν) sur A, c’est-à-dire sur A/m. C.Q.F.D.
+Les idéaux de A' contenant mA' et distincts de A' correspondent en effet aux sous-ensembles majeurs de Γ_w formés d’éléments > 0 et contenant les éléments > 0 de Γ_v (§ 3, n° 5, cor. de la prop. 7). Ils sont donc en nombre égal à ε(w/v), et, comme ils forment un ensemble totalement ordonné par inclusion, ce nombre est égal à la longueur de l’anneau quotient A'/mA'. Or un module de longueur 1 sur A' est un espace vectoriel de dimension 1 sur A'/m', donc un module de longueur f(w/v) sur A; donc, comme A'/mA' est de longueur ε(w/v) sur A', il est de longueur ε(w/v)f(w/v) sur A, c’est-à-dire sur A/m. C.Q.F.D.
 
 ### 5. La relation $\sum_i e_i f_i = n$
 
 #### Proposition 5 {#ac-vi-s8-prop-5 .statement}
 
-Soient K un corps, ν une valuation de K, A son anneau, m son idéal, L une extension de degré fini n de K, B la fermeture intégrale de A dans L, et (ν'_i)_{1 \leq i \leq s} un système complet de prolongements de ν à L. On a alors
+Soient K un corps, v une valuation de K, A son anneau, m son idéal, L une extension de degré fini n de K, B la fermeture intégrale de A dans L, et (v'_i)_{1 \leq i \leq s} un système complet de prolongements de v à L. On a alors
 
-$$ [B/mB : A/m] = \sum_{i=1}^s \varepsilon(\nu'_i/\nu)f(\nu'_i/\nu). $$
+$$ [B/mB : A/m] = \sum_{i=1}^s \varepsilon(v'_i/v)f(v'_i/v). $$
 
-Soit A_i l’anneau de ν'_i; on a A_i = B_{m_i}, où m_i parcourt la famille des idéaux maximaux de B (n° 3, Remarque). Soit q_i le saturé de mB par rapport à m_i (Chap. II, § 2, n° 4). D’après le Chap. V, cor. 3 de la prop. 1, n° 1, § 2, l’homomorphisme canonique B/mB → $\prod_{i=1}^s B/q_i$ est un isomorphisme, et m_i est le seul idéal maximal de B contenant q_i. Donc B/q_i est canoniquement isomorphe à (B/q_i)_{m_i} (Chap. II, § 3, n° 3, prop. 8), c’est-à-dire à $B_{m_i}/mB_{m_i} = A_i/mA_i$. On a donc un isomorphisme canonique $B/mB \to \prod_{i=1}^s A_i/mA_i$, d’où le résultat en vertu de la prop. 4 du no 4.
+Soit A_i l’anneau de v'_i; on a A_i = B_{m_i}, où m_i parcourt la famille des idéaux maximaux de B (n° 3, Remarque). Soit q_i le saturé de mB par rapport à m_i (Chap. II, § 2, n° 4). D’après le Chap. V, cor. 3 de la prop. 1, n° 1, § 2, l’homomorphisme canonique B/mB → $\prod_{i=1}^s B/q_i$ est un isomorphisme, et m_i est le seul idéal maximal de B contenant q_i. Donc B/q_i est canoniquement isomorphe à (B/q_i)_{m_i} (Chap. II, § 3, n° 3, prop. 8), c’est-à-dire à $B_{m_i}/mB_{m_i} = A_i/mA_i$. On a donc un isomorphisme canonique $B/mB \to \prod_{i=1}^s A_i/mA_i$, d’où le résultat en vertu de la prop. 4 du no 4.
 
 #### Corollaire {#ac-vi-s8-n5-cor-1 .statement}
 
 Avec les mêmes hypothèses et notations, on a
 
 $$
-[B/mB : A/m] = \sum_{i=1}^s \varepsilon(\varphi'_i/\varphi)f(\varphi'_i/\varphi') \leq \sum_{i=1}^s e(\varphi'_i/\varphi)f(\varphi'_i/\varphi) \leq n.
+[B/mB : A/m] = \sum_{i=1}^s \varepsilon(v'_i/v)f(v'_i/v') \leq \sum_{i=1}^s e(v'_i/v)f(v'_i/v) \leq n.
 $$
 
-On sait en effet qu’on a $\varepsilon(\varphi'_i/\varphi) \leq e(\varphi'_i/\varphi)$ (no 4, cor. de la prop. 3) et $\sum_{i=1}^s e(\varphi'_i/\varphi)f(\varphi'_i/\varphi) \leq n$ (no 3, th. 1).
+On sait en effet qu’on a $\varepsilon(v'_i/v) \leq e(v'_i/v)$ (no 4, cor. de la prop. 3) et $\sum_{i=1}^s e(v'_i/v)f(v'_i/v) \leq n$ (no 3, th. 1).
 
 #### Théorème 2 {#ac-vi-s8-thm-2 .statement}
 
@@ -313,7 +313,7 @@ Les hypothèses et notations étant celles de la prop. 5, les conditions suivant
 a) B est un A-module de type fini;
 b) B est un A-module libre;
 c) on a $[B/mB : A/m] = n;$
-d) on a $\sum_{i=1}^n e(\varphi'_i/\varphi)f(\varphi'_i/\varphi) = n,$ et $\varepsilon(\varphi'_i/\varphi) = e(\varphi'_i/\varphi)$ pour tout i.
+d) on a $\sum_{i=1}^n e(v'_i/v)f(v'_i/v) = n,$ et $\varepsilon(v'_i/v) = e(v'_i/v)$ pour tout i.
 
 L’équivalence de a) et b) résulte du lemme 1, § 3, no 6. Il est clair que b) implique c) (Alg., chap. II, 3e éd., § 1, no 5, formule (19)). L’équivalence de c) et d) résulte du cor. de la prop. 5. Reste à voir que c) implique b).
 
@@ -323,27 +323,27 @@ C.Q.F.D.
 
 #### Remarque 1 {#ac-vi-s8-n5-rem-1 .statement}
 
-Lorsque $\nu$ est discrète, on a $\varepsilon(\nu_i'/\nu) = e(\nu_i'/\nu)$ (no 4), et la condition d) se réduit à $\sum_{i=1}^s e(\nu_i'/\nu)f(\nu_i'/\nu) = n.$
+Lorsque $v$ est discrète, on a $\varepsilon(v_i'/v) = e(v_i'/v)$ (no 4), et la condition d) se réduit à $\sum_{i=1}^s e(v_i'/v)f(v_i'/v) = n.$
 
 #### Corollaire 1 {#ac-vi-s8-thm-2-cor-1 .statement}
 
-Avec les mêmes hypothèses et notations, on suppose de plus $\nu$ discrète et $\mathbf{L}$ séparable. Alors
+Avec les mêmes hypothèses et notations, on suppose de plus $v$ discrète et $\mathbf{L}$ séparable. Alors
 
 $$
-\sum_{i=1}^s e(\nu_i'/\nu)f(\nu_i'/\nu) = n.
+\sum_{i=1}^s e(v_i'/v)f(v_i'/v) = n.
 $$
 
 En effet la fermeture intégrale $B$ de $A$ est alors un $A$-module libre de rang $n$, puisque $A$ est principal (Chap. V, § 1, no 6, cor. 2 de la prop. 18).
 
 #### Corollaire 2 {#ac-vi-s8-thm-2-cor-2 .statement}
 
-Soient $K$ un corps, $\nu$ une valuation discrète de $K$ pour laquelle $K$ est complet, et $\mathbf{L}$ une extension de degré fini $n$ de $K$. Alors $\nu$ admet un prolongement $\nu'$ et un seul à $\mathbf{L}$ (à une équivalence près), l’anneau $A'$ de $\nu'$ est un module libre de type fini sur l’anneau $A$ de $\nu$, et l’on a $e(\nu'/\nu)f(\nu'/\nu) = n$.
+Soient $K$ un corps, $v$ une valuation discrète de $K$ pour laquelle $K$ est complet, et $\mathbf{L}$ une extension de degré fini $n$ de $K$. Alors $v$ admet un prolongement $v'$ et un seul à $\mathbf{L}$ (à une équivalence près), l’anneau $A'$ de $v'$ est un module libre de type fini sur l’anneau $A$ de $v$, et l’on a $e(v'/v)f(v'/v) = n$.
 
-En effet, tous les prolongements de $\nu$ à $\mathbf{L}$ sont dépendants (no 2, cor. de la prop. 2); puisqu’ils sont discrets (no 1, cor. 3 de la prop. 1), ils sont par conséquent équivalents ($§ 4$, no 5, prop. 6, c)). Ceci démontre l’unicité de $\nu'$. La fermeture intégrale de $A$ dans $\mathbf{L}$ est donc $A'$ ($§ 1$, no 3, cor. 3 du th. 3). Comme $\nu$ est discrète, la topologie induite sur $A$ par celle de $K$ est la topologie $m$-adique (où $m = m(A)$); l’anneau $A$ est complet, car il est fermé dans $K$. On en conclut que, puisque $A'/mA'$ est un $(A/m)$-espace vectoriel de dimension finie (no 4, prop. 4), $A'$ est un $A$-module de type fini (chap. III, § 2; no 9, cor. 3 de la prop. 12). Il est donc libre et l’on a $e(\nu'/\nu)f(\nu'/\nu) = n$ en vertu du th. 2.
+En effet, tous les prolongements de $v$ à $\mathbf{L}$ sont dépendants (no 2, cor. de la prop. 2); puisqu’ils sont discrets (no 1, cor. 3 de la prop. 1), ils sont par conséquent équivalents ($§ 4$, no 5, prop. 6, c)). Ceci démontre l’unicité de $v'$. La fermeture intégrale de $A$ dans $\mathbf{L}$ est donc $A'$ ($§ 1$, no 3, cor. 3 du th. 3). Comme $v$ est discrète, la topologie induite sur $A$ par celle de $K$ est la topologie $m$-adique (où $m = m(A)$); l’anneau $A$ est complet, car il est fermé dans $K$. On en conclut que, puisque $A'/mA'$ est un $(A/m)$-espace vectoriel de dimension finie (no 4, prop. 4), $A'$ est un $A$-module de type fini (chap. III, § 2; no 9, cor. 3 de la prop. 12). Il est donc libre et l’on a $e(v'/v)f(v'/v) = n$ en vertu du th. 2.
 
 #### Corollaire 3 {#ac-vi-s8-thm-2-cor-3 .statement}
 
-Supposons que $\nu$ soit de hauteur 1 et que les conditions équivalentes du th. 2 soient vérifiées; si $\hat{\mathbf{L}}_i$ est le complété de $\mathbf{L}$ pour $\nu_i'$, le degré $n_i = [\hat{\mathbf{L}}_i : \hat{K}]$ est égal à $e(\nu_i'/\nu)f(\nu_i'/\nu)$ pour tout $i$ et l’homomorphisme canonique
+Supposons que $v$ soit de hauteur 1 et que les conditions équivalentes du th. 2 soient vérifiées; si $\hat{\mathbf{L}}_i$ est le complété de $\mathbf{L}$ pour $v_i'$, le degré $n_i = [\hat{\mathbf{L}}_i : \hat{K}]$ est égal à $e(v_i'/v)f(v_i'/v)$ pour tout $i$ et l’homomorphisme canonique
 
 $$
 \varphi : \hat{K} \otimes_K \mathbf{L} \to \prod_{i=1}^s \hat{\mathbf{L}}_i
@@ -356,18 +356,18 @@ $$
 \begin{aligned}
 \mathrm{Tr}_{L/K}(x) &= \sum_{i=1}^s \mathrm{Tr}_{\hat{L}_i/\hat{K}}(x) \\
 \mathrm{N}_{L/K}(x) &= \prod_{i=1}^s \mathrm{N}_{\hat{L}_i/\hat{K}}(x) \\
-\varphi(\mathrm{N}_{L/K}(x)) &= \sum_{i=1}^s n_i \varphi_i'(x).
+v(\mathrm{N}_{L/K}(x)) &= \sum_{i=1}^s n_i v_i'(x).
 \end{aligned}
 \right.
 $$
 
-(La dernière relation (9) a un sens, car on peut évidemment supposer que les $\varphi_i'$, qui sont de hauteur 1 en vertu du cor. 2 de la prop. 1 du no 1, prennent, ainsi que $\varphi$, leurs valeurs dans un sous-groupe de $\mathbf{R}$.
+(La dernière relation (9) a un sens, car on peut évidemment supposer que les $v_i'$, qui sont de hauteur 1 en vertu du cor. 2 de la prop. 1 du no 1, prennent, ainsi que $v$, leurs valeurs dans un sous-groupe de $\mathbf{R}$.
 
-Comme les $\varphi_i'$ sont deux à deux inéquivalentes et de hauteur 1, elles sont indépendantes, et la prop. 2 du no 2 montre donc que l’on a $e(\varphi_i'/\varphi)f(\varphi_i'/\varphi) \leq n_i$ pour tout $i$, et $\sum_{i=1}^s n_i \leq n$. La première assertion résulte donc de ces inégalités et de la relation $\sum_{i=1}^s e(\varphi_i'/\varphi)f(\varphi_i'/\varphi) = n$. Par l’isomorphisme $\varphi$, l’endomorphisme $z \to z(1 \otimes x)$ de $\hat{K} \otimes_K L$ (pour $x \in L$) se transporte en l’endomorphisme de $\prod_{i=1}^s \hat{L}_i$ laissant stable chacun des facteurs et se réduisant dans chaque facteur à la multiplication par $x$ (L étant plongé canoniquement dans son complété $\hat{L}_i$); d’où l’assertion relative au polynôme caractéristique de $x$ et les deux premières formules (9). Enfin, soit E une extension quasi-galoisienne de $\hat{K}$ de degré fini, contenant $\hat{L}_i$; comme $\hat{K}$ est complet et $\hat{\varphi}$ de hauteur 1, il n’existe (à une équivalence près) qu’une seule valuation $\varphi$ sur E prolongeant $\hat{\varphi}$ (no 2, cor. 1 de la prop. 2); pour tout $\hat{K}$-automorphisme $\sigma$ de E, on a donc $\varphi(\sigma(x)) = \varphi_i'(x)$. Par suite $\hat{\varphi}(\mathrm{N}_{\hat{L}_i/\hat{K}}(x)) = n_i \varphi_i'(x)$ (Alg., chap. VIII, § 12, no 2, formule (15)), ce qui prouve la troisième formule (9).
+Comme les $v_i'$ sont deux à deux inéquivalentes et de hauteur 1, elles sont indépendantes, et la prop. 2 du no 2 montre donc que l’on a $e(v_i'/v)f(v_i'/v) \leq n_i$ pour tout $i$, et $\sum_{i=1}^s n_i \leq n$. La première assertion résulte donc de ces inégalités et de la relation $\sum_{i=1}^s e(v_i'/v)f(v_i'/v) = n$. Par l’isomorphisme $\varphi$, l’endomorphisme $z \to z(1 \otimes x)$ de $\hat{K} \otimes_K L$ (pour $x \in L$) se transporte en l’endomorphisme de $\prod_{i=1}^s \hat{L}_i$ laissant stable chacun des facteurs et se réduisant dans chaque facteur à la multiplication par $x$ (L étant plongé canoniquement dans son complété $\hat{L}_i$); d’où l’assertion relative au polynôme caractéristique de $x$ et les deux premières formules (9). Enfin, soit E une extension quasi-galoisienne de $\hat{K}$ de degré fini, contenant $\hat{L}_i$; comme $\hat{K}$ est complet et $\hat{v}$ de hauteur 1, il n’existe (à une équivalence près) qu’une seule valuation $v$ sur E prolongeant $\hat{v}$ (no 2, cor. 1 de la prop. 2); pour tout $\hat{K}$-automorphisme $\sigma$ de E, on a donc $v(\sigma(x)) = v_i'(x)$. Par suite $\hat{v}(\mathrm{N}_{\hat{L}_i/\hat{K}}(x)) = n_i v_i'(x)$ (Alg., chap. VIII, § 12, no 2, formule (15)), ce qui prouve la troisième formule (9).
 
 #### Corollaire 4 {#ac-vi-s8-thm-2-cor-4 .statement}
 
-Sous les hypothèses du cor. 3, si L est une extension séparable de K, chacun des $\hat{L}_i$ est une extension séparable de $\hat{K}$. Si de plus L est une extension galoisienne de K, de groupe de Galois $G_f$, et si $G_i$ désigne le groupe de décomposition de l’idéal de $\varphi_i'$ dans B (chap. V, § 2, no 2, déf. 2), alors $\hat{L}_i$ est une extension galoisienne de $\hat{K}$, dont le groupe de Galois est isomorphe à $G_i$.
+Sous les hypothèses du cor. 3, si L est une extension séparable de K, chacun des $\hat{L}_i$ est une extension séparable de $\hat{K}$. Si de plus L est une extension galoisienne de K, de groupe de Galois $G_f$, et si $G_i$ désigne le groupe de décomposition de l’idéal de $v_i'$ dans B (chap. V, § 2, no 2, déf. 2), alors $\hat{L}_i$ est une extension galoisienne de $\hat{K}$, dont le groupe de Galois est isomorphe à $G_i$.
 
 $$
 \operatorname{Card}(G_i) = n/s \leq n_i,
@@ -377,17 +377,17 @@ et d’autre part $n = sn_i$ en vertu du cor. 3; cela prouve que $\hat{L}_i$ est
 
 #### Remarque 2 {#ac-vi-s8-n5-rem-2 .statement}
 
-Une partie des résultats précédents s’étend au cas des valuations sur un corps $K$ non nécessairement commutatif (cf. § 3, no 1). Soit $L$ un surcorps de $K$, et soient $\varphi'$ une valuation sur $L$, $\varphi$ sa restriction à $K$, $A'$ et $A$ les anneaux respectifs des valuations $\varphi'$ et $\varphi$; on définit alors l’indice de ramification $e(\varphi'/\varphi)$ comme au no 1; d’autre part, $\kappa(A)$ s’identifie à un sous-corps de $\kappa(A')$, et l’on appelle rang résiduel (à gauche) de $\varphi'$ par rapport à $\varphi$ le nombre $f(\varphi'/\varphi)$ égal à la dimension du $\kappa(A)$-espace vectoriel à gauche $\kappa(A')$, lorsque cette dimension est finie, et $+\infty$ dans le cas contraire. Alors, si $L$ est un $K$-espace vectoriel à gauche de dimension finie $n$, le lemme 2 du no 1 et sa démonstration subsistent sans changement. En outre, si $K$ est complet pour $\varphi$, les assertions du cor. 2 du th. 2 du no 5 (autres que l’existence de $\varphi'$) sont encore valables ($n$ désignant la dimension de $L$ comme $K$-espace vectoriel à gauche) avec la démonstration suivante:
+Une partie des résultats précédents s’étend au cas des valuations sur un corps $K$ non nécessairement commutatif (cf. § 3, no 1). Soit $L$ un surcorps de $K$, et soient $v'$ une valuation sur $L$, $v$ sa restriction à $K$, $A'$ et $A$ les anneaux respectifs des valuations $v'$ et $v$; on définit alors l’indice de ramification $e(v'/v)$ comme au no 1; d’autre part, $\kappa(A)$ s’identifie à un sous-corps de $\kappa(A')$, et l’on appelle rang résiduel (à gauche) de $v'$ par rapport à $v$ le nombre $f(v'/v)$ égal à la dimension du $\kappa(A)$-espace vectoriel à gauche $\kappa(A')$, lorsque cette dimension est finie, et $+\infty$ dans le cas contraire. Alors, si $L$ est un $K$-espace vectoriel à gauche de dimension finie $n$, le lemme 2 du no 1 et sa démonstration subsistent sans changement. En outre, si $K$ est complet pour $v$, les assertions du cor. 2 du th. 2 du no 5 (autres que l’existence de $v'$) sont encore valables ($n$ désignant la dimension de $L$ comme $K$-espace vectoriel à gauche) avec la démonstration suivante:
 
-En premier lieu la topologie définie par $\varphi'$ sur $L$ est séparée et compatible avec sa structure de $K$-espace vectoriel à gauche, donc deux prolongements de $\varphi$ à $L$ donnent sur $L$ la même topologie ($§ 5$, no 2, prop. 4), ce qui prouve que ces prolongements sont les mêmes à une équivalence près ($§ 6$, no 2). Montrons ensuite que si $m = m(A)$, $A'/mA'$ est un $(A/m)$-espace vectoriel à gauche
+En premier lieu la topologie définie par $v'$ sur $L$ est séparée et compatible avec sa structure de $K$-espace vectoriel à gauche, donc deux prolongements de $v$ à $L$ donnent sur $L$ la même topologie ($§ 5$, no 2, prop. 4), ce qui prouve que ces prolongements sont les mêmes à une équivalence près ($§ 6$, no 2). Montrons ensuite que si $m = m(A)$, $A'/mA'$ est un $(A/m)$-espace vectoriel à gauche
 
 ### 6. Anneaux de valuation dans une extension algébrique
 
 #### Proposition 6 {#ac-vi-s8-prop-6 .statement}
 
-Soient $K$ un corps, $\nu$ une valuation de $K$, $A$ son anneau, $L$ une extension algébrique de $K$, $A'$ la fermeture intégrale de $A$ dans $L$. Soient $\mathscr{B}$ l’ensemble des anneaux des valuations de $L$ qui prolongent $\nu$, $\mathscr{M}'$ l’ensemble des idéaux maximaux de $A'$. Alors l’application $V \to m(V) \cap A'$ est une bijection de $\mathscr{B}$ sur $\mathscr{M}'$, et $m' \to A'_{m'}$ est la bijection réciproque.
+Soient $K$ un corps, $v$ une valuation de $K$, $A$ son anneau, $L$ une extension algébrique de $K$, $A'$ la fermeture intégrale de $A$ dans $L$. Soient $\mathscr{B}$ l’ensemble des anneaux des valuations de $L$ qui prolongent $v$, $\mathscr{M}'$ l’ensemble des idéaux maximaux de $A'$. Alors l’application $V \to m(V) \cap A'$ est une bijection de $\mathscr{B}$ sur $\mathscr{M}'$, et $m' \to A'_{m'}$ est la bijection réciproque.
 
-Tout idéal maximal $m'$ de $A'$ est tel que $m' \cap A$ soit l’idéal maximal $m$ de $A$ (chap. V, § 2, no 1, prop. 1), et $A'_{m'}$ est dominé par un anneau de valuation $V$ de $L$ (qui est donc l’anneau d’une valuation de $L$ prolongeant $\nu$) ($§ 1$, no 2, cor. du th. 2). Le corps $L$ est réunion de la famille filtrante des sous-extensions $K_\alpha$ de $L$ qui sont de degré fini sur $K$, et il suffira, pour voir que $V = A'_{m'}$, de prouver que $V \cap K_\alpha = A'_{m'} \cap K_\alpha$ pour tout $\alpha$. Or, si on pose $A'_\alpha = A' \cap K_\alpha$, $A'_\alpha$ est la fermeture intégrale de $A$ dans $K_\alpha$, donc est intersection des anneaux des valuations de $K_\alpha$ qui prolongent $\nu$, et ces anneaux $V_{i\alpha}$ sont en nombre fini et sont les anneaux locaux $(A'_\alpha)_{m'_{i\alpha}}$ de $A'_\alpha (1 \leq i \leq n)$, où les $m'_{i\alpha}$ sont les idéaux maximaux distincts de $A'_\alpha$ (no 3, Remarque); mais $m' \cap A'_\alpha$ est un des $m'_{i\alpha}$ et $V \cap K_\alpha$ est donc égal à l’anneau local correspondant $(A'_\alpha)_{m'_{i\alpha}} \subset A'_{m'}$, ce qui achève de montrer que
+Tout idéal maximal $m'$ de $A'$ est tel que $m' \cap A$ soit l’idéal maximal $m$ de $A$ (chap. V, § 2, no 1, prop. 1), et $A'_{m'}$ est dominé par un anneau de valuation $V$ de $L$ (qui est donc l’anneau d’une valuation de $L$ prolongeant $v$) ($§ 1$, no 2, cor. du th. 2). Le corps $L$ est réunion de la famille filtrante des sous-extensions $K_\alpha$ de $L$ qui sont de degré fini sur $K$, et il suffira, pour voir que $V = A'_{m'}$, de prouver que $V \cap K_\alpha = A'_{m'} \cap K_\alpha$ pour tout $\alpha$. Or, si on pose $A'_\alpha = A' \cap K_\alpha$, $A'_\alpha$ est la fermeture intégrale de $A$ dans $K_\alpha$, donc est intersection des anneaux des valuations de $K_\alpha$ qui prolongent $v$, et ces anneaux $V_{i\alpha}$ sont en nombre fini et sont les anneaux locaux $(A'_\alpha)_{m'_{i\alpha}}$ de $A'_\alpha (1 \leq i \leq n)$, où les $m'_{i\alpha}$ sont les idéaux maximaux distincts de $A'_\alpha$ (no 3, Remarque); mais $m' \cap A'_\alpha$ est un des $m'_{i\alpha}$ et $V \cap K_\alpha$ est donc égal à l’anneau local correspondant $(A'_\alpha)_{m'_{i\alpha}} \subset A'_{m'}$, ce qui achève de montrer que
 
 C.Q.F.D.
 
@@ -401,19 +401,19 @@ C.Q.F.D.
 
 #### Corollaire 1 {#ac-vi-s8-prop-7-cor-1 .statement}
 
-Soient K un corps, $\nu$ une valuation de K, L une extension quasi-galoisienne de K, et $\nu', \nu''$ deux extensions de $\nu$ à L. Il existe alors un K-automorphisme s de L tel que $\nu''$ soit équivalente à $\nu' \circ s$.
+Soient K un corps, $v$ une valuation de K, L une extension quasi-galoisienne de K, et $v', v''$ deux extensions de $v$ à L. Il existe alors un K-automorphisme s de L tel que $v''$ soit équivalente à $v' \circ s$.
 
-Soient $f'$ et $f''$ des places de K associées à $\nu'$ et $\nu''$; en les remplaçant au besoin par des places équivalentes, on peut supposer qu’elles prennent toutes deux leurs valeurs dans la clôture algébrique du corps résiduel de $\nu$ (n° 1, prop. 1). Il existe alors un K-automorphisme s de L tel que $f'' = f' \circ s$ (prop. 7); ainsi $\nu''$ est équivalente à $\nu' \circ s$ en vertu de la correspondance entre places et valuations (§ 3, n° 3).
+Soient $f'$ et $f''$ des places de K associées à $v'$ et $v''$; en les remplaçant au besoin par des places équivalentes, on peut supposer qu’elles prennent toutes deux leurs valeurs dans la clôture algébrique du corps résiduel de $v$ (n° 1, prop. 1). Il existe alors un K-automorphisme s de L tel que $f'' = f' \circ s$ (prop. 7); ainsi $v''$ est équivalente à $v' \circ s$ en vertu de la correspondance entre places et valuations (§ 3, n° 3).
 
 #### Corollaire 2 {#ac-vi-s8-prop-7-cor-2 .statement}
 
-Soient K un corps, $f$ une place (resp. $\nu$ une valuation) de K, et L une extension radicielle de K. Alors toutes les extensions de $f$ (resp. $\nu$) à L sont équivalentes.
+Soient K un corps, $f$ une place (resp. $v$ une valuation) de K, et L une extension radicielle de K. Alors toutes les extensions de $f$ (resp. $v$) à L sont équivalentes.
 
 En effet L est une extension quasi-galoisienne, et son seul automorphisme est l’identité. Le cor. 2 résulte donc de la prop. 7 (resp. du cor. 1).
 
 #### Proposition 8 {#ac-vi-s8-prop-8 .statement}
 
-Soient K un corps, $\nu$ une valuation de K, L une extension quasi-galoisienne de degré fini n de K, et $(v'_i)_{1 \leq i \leq g}$ un système complet de prolongements de $v$ à L. Alors $e(v'_i/v)$ et $f(v'_i/v)$ ont des valeurs $e$ et $f$ indépendantes de $i$. On a $efg \leq n$. Si la fermeture intégrale dans L de l’anneau A de $v$ est un A-module de type fini, on a $efg = n$.
+Soient K un corps, $v$ une valuation de K, L une extension quasi-galoisienne de degré fini n de K, et $(v'_i)_{1 \leq i \leq g}$ un système complet de prolongements de $v$ à L. Alors $e(v'_i/v)$ et $f(v'_i/v)$ ont des valeurs $e$ et $f$ indépendantes de $i$. On a $efg \leq n$. Si la fermeture intégrale dans L de l’anneau A de $v$ est un A-module de type fini, on a $efg = n$.
 
 Ceci résulte aussitôt des th. 1 (no 3) et 2 (no 5).
 

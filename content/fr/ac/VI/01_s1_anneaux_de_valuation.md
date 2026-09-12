@@ -28,7 +28,7 @@ subsections:
       pdf_page: 89
 statements: 17
 exercises: 9
-content_sha256: a197256ef7b59dca4c573738b9005656e265cb2f93284279e6392f2a33fd6fe2
+content_sha256: f08974229002023d2c931d74e75ec5293faf262851fcdac5e95498f0ed0d4c3b
 ---
 
 ## § 1. Anneaux de valuation.
@@ -159,13 +159,13 @@ En effet le th. 1, c) montre que, si V’ est un anneau de valuation pour K’, 
 
 Soit A un anneau local dont l’idéal maximal soit un idéal principal Ap. Si $\bigcap_{n=1}^{\infty} Ap^n = (0)$ (par exemple si A est noethérien, cf. chap. III, § 3, no 2, cor. de la prop. 5), les seuls idéaux de A sont (0) et les Ap^n; alors, ou bien p est nilpotent, ou bien A est un anneau de valuation.
 
-Filtrons en effet A par les Ap^n, et notons $\nu$ la fonction d’ordre correspondante (chap. III, § 2, no 2). Comme
+Filtrons en effet A par les Ap^n, et notons $v$ la fonction d’ordre correspondante (chap. III, § 2, no 2). Comme
 
 $$
 \bigcap_{n=1}^{\infty} Ap^n = (0),
 $$
 
-la relation $\nu(x) = + \infty$ implique $x = 0$. Soient $a$ un idéal $\neq (0)$ de A, et $a$ un élément de $a$ pour lequel $\nu$ prenne sa plus petite valeur; posons $\nu(a) = s$ ($s \neq + \infty$). On a $a \subset Ap^s$. En particulier, il existe $u \in A$ tel que $a = up^s$; comme $a \notin Ap^{s+1}$, on a $u \notin Ap$; donc $u$ est inversible et l’on a $p^s \in Aa \subset a$. Il en résulte que $a = Ap^s$, d’où notre première assertion. On voit aussi que tout élément $a \neq 0$ de A s’écrit sous la forme $a = up^{\nu(a)}$ avec $u$ inversible. Si $a' = u'p^{\nu(a')}$ ($u'$ inversible) est un autre élément non nul de A, on a $aa' = uu'p^{\nu(a)+\nu(a')}$; donc, si $p$ n’est pas nilpotent, on a $aa' \neq 0$, et $A$ est intègre. Alors, comme l’ensemble des idéaux de $A$ est totalement ordonné par inclusion, on en conclut que $A$ est un anneau de valuation (th. 1, e)).
+la relation $v(x) = + \infty$ implique $x = 0$. Soient $a$ un idéal $\neq (0)$ de A, et $a$ un élément de $a$ pour lequel $v$ prenne sa plus petite valeur; posons $v(a) = s$ ($s \neq + \infty$). On a $a \subset Ap^s$. En particulier, il existe $u \in A$ tel que $a = up^s$; comme $a \notin Ap^{s+1}$, on a $u \notin Ap$; donc $u$ est inversible et l’on a $p^s \in Aa \subset a$. Il en résulte que $a = Ap^s$, d’où notre première assertion. On voit aussi que tout élément $a \neq 0$ de A s’écrit sous la forme $a = up^{v(a)}$ avec $u$ inversible. Si $a' = u'p^{v(a')}$ ($u'$ inversible) est un autre élément non nul de A, on a $aa' = uu'p^{v(a)+v(a')}$; donc, si $p$ n’est pas nilpotent, on a $aa' \neq 0$, et $A$ est intègre. Alors, comme l’ensemble des idéaux de $A$ est totalement ordonné par inclusion, on en conclut que $A$ est un anneau de valuation (th. 1, e)).
 
 C.Q.F.D.
 

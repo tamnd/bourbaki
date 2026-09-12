@@ -28,7 +28,7 @@ subsections:
       pdf_page: 62
 statements: 19
 exercises: 10
-content_sha256: 04bf3ba5a542c08ad6661e45e2bba480ce3ea9e8352d60f000d6910c22f74c21
+content_sha256: f56ee6fe5aa54a57f75443e957c380102cd8f3e8b88aeb66ce9ba58d41af2af7
 ---
 
 ## § 3. Algèbres de type fini sur un corps.
@@ -244,19 +244,19 @@ Remplaçant $A$ par son image canonique dans $B$, on peut supposer que $A \subse
 
 (ii) *Pour tout idéal maximal $m'$ de $B$, $m = \rho^{-1}(m')$ est un idéal maximal de $A$ et $B/m'$ est une extension algébrique de degré fini de $A/m$.*
 
-Soient $\mathfrak{p}'$ un idéal premier de $B$, $\mathfrak{p} = \rho^{-1}(\mathfrak{p}')$. Soit $\nu$ un élément $\neq 0$ de $B/\mathfrak{p}'$. Comme $B/\mathfrak{p}'$ est une $(A/\mathfrak{p})$-algèbre intègre de type fini et que l’homomorphisme canonique $\varphi : A/\mathfrak{p} \to B/\mathfrak{p}'$ est injectif, il existe un élément $u \neq 0$ de $A/\mathfrak{p}$ tel que pour tout homomorphisme $f$ de $A/\mathfrak{p}$ dans un corps algébriquement clos $L$, dont le noyau ne contient pas $u$, il existe un homomorphisme $g$ de $B/\mathfrak{p}'$ dans $L$, dont le noyau ne contient pas $\nu$, et pour lequel $f = g \circ \varphi$ (no 1, cor. 3 du th. 1). Puisque $A$ est un anneau de Jacobson, il existe un idéal maximal $m$ de $A$ contenant $\mathfrak{p}$ et tel que $u \notin m/\mathfrak{p}$. Prenons pour $L$ une clôture algébrique de $A/m$ et pour $f$ l’homomorphisme canonique $A/\mathfrak{p} \to L$; soit
+Soient $\mathfrak{p}'$ un idéal premier de $B$, $\mathfrak{p} = \rho^{-1}(\mathfrak{p}')$. Soit $v$ un élément $\neq 0$ de $B/\mathfrak{p}'$. Comme $B/\mathfrak{p}'$ est une $(A/\mathfrak{p})$-algèbre intègre de type fini et que l’homomorphisme canonique $\varphi : A/\mathfrak{p} \to B/\mathfrak{p}'$ est injectif, il existe un élément $u \neq 0$ de $A/\mathfrak{p}$ tel que pour tout homomorphisme $f$ de $A/\mathfrak{p}$ dans un corps algébriquement clos $L$, dont le noyau ne contient pas $u$, il existe un homomorphisme $g$ de $B/\mathfrak{p}'$ dans $L$, dont le noyau ne contient pas $v$, et pour lequel $f = g \circ \varphi$ (no 1, cor. 3 du th. 1). Puisque $A$ est un anneau de Jacobson, il existe un idéal maximal $m$ de $A$ contenant $\mathfrak{p}$ et tel que $u \notin m/\mathfrak{p}$. Prenons pour $L$ une clôture algébrique de $A/m$ et pour $f$ l’homomorphisme canonique $A/\mathfrak{p} \to L$; soit
 
 $$
 g : B/\mathfrak{p}' \to L
 $$
 
-un homomorphisme tel que $f = g \circ \varphi$ et $g(\nu) \neq 0$. On a $A/m \subset g(B/\mathfrak{p}') \subset L$, donc $g(B/\mathfrak{p}')$ est un sous-corps de $L$ ($Alg.$, chap. V, § 3, no 2, prop. 3), et le noyau de $g$ est par suite un idéal maximal de $B/\mathfrak{p}'$ ne contenant pas $\nu$. On voit ainsi que l’intersection des idéaux maximaux de $B/\mathfrak{p}'$ est réduite à 0, ce qui prouve que $B$ est un anneau de Jacobson. En outre, si $\mathfrak{p}'$ est maximal, $g$ est nécessairement injectif, donc $\mathfrak{p} = m$ est maximal; enfin $B/\mathfrak{p}'$ est alors une algèbre de type fini sur le corps $A/m$, donc est une extension de degré fini de $A/m$ (no 1, cor. 2 du th. 1).
+un homomorphisme tel que $f = g \circ \varphi$ et $g(v) \neq 0$. On a $A/m \subset g(B/\mathfrak{p}') \subset L$, donc $g(B/\mathfrak{p}')$ est un sous-corps de $L$ ($Alg.$, chap. V, § 3, no 2, prop. 3), et le noyau de $g$ est par suite un idéal maximal de $B/\mathfrak{p}'$ ne contenant pas $v$. On voit ainsi que l’intersection des idéaux maximaux de $B/\mathfrak{p}'$ est réduite à 0, ce qui prouve que $B$ est un anneau de Jacobson. En outre, si $\mathfrak{p}'$ est maximal, $g$ est nécessairement injectif, donc $\mathfrak{p} = m$ est maximal; enfin $B/\mathfrak{p}'$ est alors une algèbre de type fini sur le corps $A/m$, donc est une extension de degré fini de $A/m$ (no 1, cor. 2 du th. 1).
 
 #### Corollaire 1 {#ac-v-s3-thm-3-cor-1 .statement}
 
 *Toute algèbre $A$ de type fini sur $\mathbf{Z}$ est un anneau de Jacobson; pour qu’un idéal premier $\mathfrak{p}$ de $A$ soit maximal, il faut et il suffit que l’anneau $A/\mathfrak{p}$ soit fini.*
 
-Si l’anneau intègre $A/\mathfrak{p}$ est fini, c’est un corps, car pour tout $u \neq 0$ dans $A/\mathfrak{p}$, l’application $\nu \to u\nu$ de $A/\mathfrak{p}$ dans lui-même est injective, donc bijective puisque $A/\mathfrak{p}$ est fini. Inversement, pour tout idéal maximal $m$ de $A$, l’image réciproque de $m$ dans $\mathbf{Z}$ est un idéal maximal ($p$) et $A/m$ est de degré fini sur le corps premier $\mathbf{Z}/(p) = \mathbf{F}_p$, en vertu du th. 3.
+Si l’anneau intègre $A/\mathfrak{p}$ est fini, c’est un corps, car pour tout $u \neq 0$ dans $A/\mathfrak{p}$, l’application $v \to uv$ de $A/\mathfrak{p}$ dans lui-même est injective, donc bijective puisque $A/\mathfrak{p}$ est fini. Inversement, pour tout idéal maximal $m$ de $A$, l’image réciproque de $m$ dans $\mathbf{Z}$ est un idéal maximal ($p$) et $A/m$ est de degré fini sur le corps premier $\mathbf{Z}/(p) = \mathbf{F}_p$, en vertu du th. 3.
 
 #### Corollaire 2 {#ac-v-s3-thm-3-cor-2 .statement}
 

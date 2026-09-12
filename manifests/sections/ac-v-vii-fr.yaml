@@ -25,7 +25,7 @@ chapters:
           statements: 77
           exercises: 19
           extraction: ocr
-          content_sha256: eb222dc37669e1014db7c63a9945333183fc076096c50bcfa2d94243f62c183a
+          content_sha256: 61541b816506d8643a47b6e627ea73a54abc7d07b68a95b739a61fc71d33bee7
         - kind: section
           section: 2
           title: Relèvement des idéaux premiers
@@ -49,7 +49,7 @@ chapters:
           statements: 19
           exercises: 10
           extraction: ocr
-          content_sha256: 04bf3ba5a542c08ad6661e45e2bba480ce3ea9e8352d60f000d6910c22f74c21
+          content_sha256: f56ee6fe5aa54a57f75443e957c380102cd8f3e8b88aeb66ce9ba58d41af2af7
     - chapter: VI
       title: Valuations
       sections:
@@ -74,7 +74,7 @@ chapters:
           statements: 17
           exercises: 9
           extraction: ocr
-          content_sha256: a197256ef7b59dca4c573738b9005656e265cb2f93284279e6392f2a33fd6fe2
+          content_sha256: f08974229002023d2c931d74e75ec5293faf262851fcdac5e95498f0ed0d4c3b
         - kind: section
           section: 2
           title: Places
@@ -98,7 +98,7 @@ chapters:
           statements: 22
           exercises: 8
           extraction: ocr
-          content_sha256: 1d479fc23e74662779c5b39bf921e57bdb3ede2dc093c8d1164168c4a6bbd7c7
+          content_sha256: f2c1be48bb3a783656311acb7528247e469efca6363e37f4a54a19f40802eb73
         - kind: section
           section: 4
           title: Hauteur d’une valuation
@@ -110,7 +110,7 @@ chapters:
           statements: 23
           exercises: 5
           extraction: ocr
-          content_sha256: 0672499e9920be1571f49f6b0d47500dc5be5e49f15649ef8ca2dded948b2029
+          content_sha256: 563676659965a92c71be49b4746926bc03de5a286f245990e54782b081f661a3
         - kind: section
           section: 5
           title: Topologie définie par une valuation
@@ -122,7 +122,7 @@ chapters:
           statements: 10
           exercises: 10
           extraction: ocr
-          content_sha256: 1beb5cd99e7e5b9484c8bd0b0de0e5dc9715fbd68458e93ca410ebb31a8e225b
+          content_sha256: 96d2f082c9d2a0d3302f5c9c946c8c3dfcc2b4d8bcd0e30ed4bd713c957760f0
         - kind: section
           section: 6
           title: Valeurs absolues
@@ -134,7 +134,7 @@ chapters:
           statements: 13
           exercises: 2
           extraction: ocr
-          content_sha256: 4ff8d6044b2efeaa808a026602241c57c5057770cbf9868fab15bbe53ea53a5d
+          content_sha256: ab626463728484049617fdf625dc4f84cc1def3e7b4b1b448a897e1bbf89d726
         - kind: section
           section: 7
           title: Théorème d’approximation
@@ -146,7 +146,7 @@ chapters:
           statements: 16
           exercises: 3
           extraction: ocr
-          content_sha256: 7c8d75b669e14bd415402bda4f650624857bf508c46b57a9cca7d50e4a81e35b
+          content_sha256: 715be665122e7252a49fdc5b8ef199e1cd38d1499be4307c88b2c0b3ad68453e
         - kind: section
           section: 8
           title: Prolongements d’une valuation à une extension algébrique
@@ -158,7 +158,7 @@ chapters:
           statements: 42
           exercises: 22
           extraction: ocr
-          content_sha256: 2548bcb44464077d7e4f148d154be697202957a5ec909dfd8b0ce39ad4e63b41
+          content_sha256: 84c3cc5c0dbda691de74b9d297dc5491e7bf86736ac42cce01004b2a4de4fea6
         - kind: section
           section: 9
           title: 'Application : corps localement compacts'
@@ -170,7 +170,7 @@ chapters:
           statements: 10
           exercises: 5
           extraction: ocr
-          content_sha256: 3481233112c75d0321910376c52e6fae75719604e700bd4751ff56b9d170f6b4
+          content_sha256: 58fd841f8498d862da8be15d521e5b38ce2e9b1bfe1fcd00d7596db458dbc146
         - kind: section
           section: 10
           title: Prolongements d’une valuation à une extension transcendante
@@ -182,7 +182,7 @@ chapters:
           statements: 14
           exercises: 2
           extraction: ocr
-          content_sha256: 21d8edd7def4b194356f8ff434d28d0c855d313af5be8e5c3fd2d649da69d566
+          content_sha256: 957db58ac3145bf3286e15a80d9fd627934fbcb4686a687a8c344613a0353a8d
     - chapter: VII
       title: Diviseurs
       sections:

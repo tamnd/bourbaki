@@ -36,7 +36,7 @@ chapters:
           statements: 7
           exercises: 7
           extraction: ocr
-          content_sha256: 7ee50078c78483bc92858205c07364edcc77839ac67fb0ee091a1f4c9ffe4e8f
+          content_sha256: 64e5515bf5e1f007bc69b4722dfff3f7637a4b2e0045ac638909cace9cef610c
         - kind: section
           section: 2
           title: Modules plats
@@ -48,7 +48,7 @@ chapters:
           statements: 41
           exercises: 24
           extraction: ocr
-          content_sha256: 846461ddd209ba0cae8c6a55fa749f742ab06b8b6848f8623a1ebbfd4c1eb94e
+          content_sha256: 39b7d83a8815eb8caa222a7c0451a74d40cac76b8b9db7fd37dcd383409492fc
         - kind: section
           section: 3
           title: Modules fidèlement plats
@@ -60,7 +60,7 @@ chapters:
           statements: 23
           exercises: 10
           extraction: ocr
-          content_sha256: 3747e188c60036e4b1bb28f41e3b92dfade3e97f5304c64f6067636d854c8f25
+          content_sha256: 9edb4c4e17a8308db85046cda9e270f06927c583b1c3cb7be040f2f9e76ca748
         - kind: section
           section: 4
           title: Modules plats et foncteurs « Tor »

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 123
 statements: 13
 exercises: 2
-content_sha256: 4ff8d6044b2efeaa808a026602241c57c5057770cbf9868fab15bbe53ea53a5d
+content_sha256: ab626463728484049617fdf625dc4f84cc1def3e7b4b1b448a897e1bbf89d726
 ---
 
 ## § 6. Valeurs absolues.
@@ -123,9 +123,9 @@ En effet, tout élément $z = n.1$ (*n* entier $> 0$) non nul appartient au sous
 
 Étant donné un nombre réel $c$ tel que $0 < c < 1$, les formules
 $$
-f(x) = c^{\nu(x)}, \quad \nu(x) = \log_c f(x)
+f(x) = c^{v(x)}, \quad v(x) = \log_c f(x)
 $$
-établissent donc une correspondance biunivoque entre valeurs absolues ultramétriques sur $K$ et valuations de $K$ à valeurs réelles. À la valeur absolue impropre (*Top. gén.*, chap. IX, § 3, no 2) correspond la valuation impropre. Soient $\nu_1, \nu_2$ deux valuations de $K$ à valeurs réelles, et $f_1, f_2$ les valeurs absolues correspondantes; pour que $\nu_1$ et $\nu_2$ soient équivalentes, il faut et il suffit que $f_1$ et $f_2$ le soient : en effet, dire que $\nu_1$ et $\nu_2$ sont équivalentes revient à dire que les relations $\nu_1(x) \geqslant 0$ et $\nu_2(x) \geqslant 0$ sont équivalentes, ou encore que les relations $f_1(x) \leqslant 1$ et $f_2(x) \leqslant 1$ sont équivalentes; il suffit donc d’appliquer la prop. 5 de *Top. gén.*, chap. IX, § 3, no 2. En outre (*loc. cit.*) pour que les topologies définies sur $K$ par $f_1$ et $f_2$ soient identiques, il faut et il suffit que $f_1$ et $f_2$ soient équivalentes.
+établissent donc une correspondance biunivoque entre valeurs absolues ultramétriques sur $K$ et valuations de $K$ à valeurs réelles. À la valeur absolue impropre (*Top. gén.*, chap. IX, § 3, no 2) correspond la valuation impropre. Soient $v_1, v_2$ deux valuations de $K$ à valeurs réelles, et $f_1, f_2$ les valeurs absolues correspondantes; pour que $v_1$ et $v_2$ soient équivalentes, il faut et il suffit que $f_1$ et $f_2$ le soient : en effet, dire que $v_1$ et $v_2$ sont équivalentes revient à dire que les relations $v_1(x) \geqslant 0$ et $v_2(x) \geqslant 0$ sont équivalentes, ou encore que les relations $f_1(x) \leqslant 1$ et $f_2(x) \leqslant 1$ sont équivalentes; il suffit donc d’appliquer la prop. 5 de *Top. gén.*, chap. IX, § 3, no 2. En outre (*loc. cit.*) pour que les topologies définies sur $K$ par $f_1$ et $f_2$ soient identiques, il faut et il suffit que $f_1$ et $f_2$ soient équivalentes.
 
 ### 3. *Valeurs absolues sur Q*
 
@@ -135,13 +135,13 @@ $$
 
 (i) *Ou bien $f$ est la valeur absolue impropre sur $\mathbf{Q}$*.
 
-(ii) *Ou bien il existe un nombre réel $a$ et un nombre premier $p$ tels que $0 < a < 1$ et $f = a^{\nu_p}$, où $\nu_p$ est la valuation $p$-adique*.
+(ii) *Ou bien il existe un nombre réel $a$ et un nombre premier $p$ tels que $0 < a < 1$ et $f = a^{v_p}$, où $v_p$ est la valuation $p$-adique*.
 
 (iii) *Ou bien il existe $s > 0$ tel que $f(x) = |x|^s$ pour tout $x \in \mathbf{Q}$.*
 
 Dans le cas (iii), pour que $f$ soit une valeur absolue sur $\mathbf{Q}$, il faut et il suffit que $0 < s \leq 1$.
 
-Supposons d’abord que l’on ait $f(n) \leq 1$ pour tout entier $n > 0$. En vertu de la prop. 3 du no 2, il existe un nombre réel $b$ et une valuation $\nu$ de $\mathbf{Q}$ tels que $0 < b < 1$ et $f = b^\nu$. Or, on sait ($§ 3$, no 4, Exemple 4) que les seules valuations sur $\mathbf{Q}$ sont (à équivalence près) la valuation impropre et les valuations $p$-adiques $\nu_p$; on est donc dans l’un des cas (i) ou (ii).
+Supposons d’abord que l’on ait $f(n) \leq 1$ pour tout entier $n > 0$. En vertu de la prop. 3 du no 2, il existe un nombre réel $b$ et une valuation $v$ de $\mathbf{Q}$ tels que $0 < b < 1$ et $f = b^v$. Or, on sait ($§ 3$, no 4, Exemple 4) que les seules valuations sur $\mathbf{Q}$ sont (à équivalence près) la valuation impropre et les valuations $p$-adiques $v_p$; on est donc dans l’un des cas (i) ou (ii).
 
 Supposons désormais qu’il existe un entier $h > 0$ tel que $f(h) > 1$; en vertu du no 1, cor. 2 de la prop. 2, il existe un nombre $\rho > 0$ tel que $f^\rho$ soit une valeur absolue; posons
 

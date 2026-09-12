@@ -24,7 +24,7 @@ subsections:
       pdf_page: 154
 statements: 10
 exercises: 5
-content_sha256: 3481233112c75d0321910376c52e6fae75719604e700bd4751ff56b9d170f6b4
+content_sha256: 58fd841f8498d862da8be15d521e5b38ce2e9b1bfe1fcd00d7596db458dbc146
 ---
 
 ## § 9. Application : corps localement compacts.
@@ -37,7 +37,7 @@ Soit K un corps localement compact (non nécessairement commutatif). Rappelons q
 
 Si K est un corps localement compact, la fonction mod_K appartient à $\mathscr{V}(K)$ (§ 6, no 1). En outre :
 (i) Si s > 0 est tel que $(\mathrm{mod}_K)^s = g$ soit une valeur absolue, alors g définit la topologie de K.
-(ii) Si K est non discret et si mod_K est une valeur absolue ultramétrique, il existe une valuation discrète normée $\nu$ sur K, dont l’anneau est compact et le corps résiduel fini à q éléments, de sorte que $\mathrm{mod}_K = q^{-\nu}$. La topologie de K est définie par $\nu$.
+(ii) Si K est non discret et si mod_K est une valeur absolue ultramétrique, il existe une valuation discrète normée $v$ sur K, dont l’anneau est compact et le corps résiduel fini à q éléments, de sorte que $\mathrm{mod}_K = q^{-v}$. La topologie de K est définie par $v$.
 Cela résulte du § 6, no 1, prop. 1, du § 5, no 1, prop. 2 et d’Intégr., chap. VII, § 1, no 10, prop. 12 et 13.
 
 #### Proposition 2 {#ac-vi-s9-prop-2 .statement}
@@ -67,7 +67,7 @@ En effet, de façon générale, on sait que dans un espace vectoriel (à gauche 
 
 #### Proposition 3 {#ac-vi-s9-prop-3 .statement}
 
-Soit $K$ un corps (non nécessairement commutatif) localement compact non discret dont la topologie soit définie par une valuation discrète $\nu$; soient $A$ l’anneau et $m$ l’idéal de $\nu$, et posons $\mathrm{Card}(A/m) = q = p^f$ (p premier). Alors, il existe un système de représentants $S$ de $A/m$ dans $A$ et une uniformisante $u$ pour $\nu$, tels que $0 \in S$, que $S^* = S \cap K^*$ soit un sous-groupe cyclique de $K^*$ et que $u^{-1}Su = S$. En outre, tout élément de $A$ s’écrit d’une seule manière sous la forme $\sum_{i=0}^\infty s_i u^i$, où $s_i \in S$.
+Soit $K$ un corps (non nécessairement commutatif) localement compact non discret dont la topologie soit définie par une valuation discrète $v$; soient $A$ l’anneau et $m$ l’idéal de $v$, et posons $\mathrm{Card}(A/m) = q = p^f$ (p premier). Alors, il existe un système de représentants $S$ de $A/m$ dans $A$ et une uniformisante $u$ pour $v$, tels que $0 \in S$, que $S^* = S \cap K^*$ soit un sous-groupe cyclique de $K^*$ et que $u^{-1}Su = S$. En outre, tout élément de $A$ s’écrit d’une seule manière sous la forme $\sum_{i=0}^\infty s_i u^i$, où $s_i \in S$.
 
 Nous utiliserons le lemme suivant :
 
@@ -79,14 +79,14 @@ Par récurrence sur $n$, on se ramène à prouver le lemme pour $n = 1$. Alors $
 
 On sait que le groupe multiplicatif $(A/m)^*$ est un groupe cyclique ayant $q - 1$ éléments (Alg., chap. V, § 11, no 1, th. 1); soit $x$ un représentant dans $A$ d’un générateur de ce groupe; on a donc $x^q - x \in m$, d’où, en vertu du lemme 1, $x^{q^{n+1}} - x^{q^n} \in m^{1+jn}$, puisque $x^q$ et $x$ sont permutables. Cela prouve que $(x^{q^n})_{n \geq 0}$ est une suite de Cauchy dans $A$; comme $A$ est compact, donc complet, cette suite a une limite $s$ dans $A$, qui est évidemment telle que $s \equiv x$ (mod. $m$) et $s^q = s$. Comme $s \neq 0$, on a $s^{q-1} = 1$, plus précisément $s$ est une racine primitive $(q-1)$-ème de l’unité dans $A$. Il est clair que l’ensemble $S$, formé de $0$ et des puissances $s^j (0 \leq j \leq q-2)$ est un système de représentants des classes de $A$ mod. $m$, et est stable pour la multiplication dans $A$.
 
-Soit maintenant $a$ une uniformisante pour $\nu$, et considérons l’automorphisme intérieur $y \to a^{-1}ya$ de $K$; il transforme $A$ en lui-même, $m$ en lui-même, donc, par passage aux quotients,
+Soit maintenant $a$ une uniformisante pour $v$, et considérons l’automorphisme intérieur $y \to a^{-1}ya$ de $K$; il transforme $A$ en lui-même, $m$ en lui-même, donc, par passage aux quotients,
 
 Posons
 $$
 u = \sum_{j=0}^{q-2} s^{-j} a s^{jp^r}.
 $$
 
-On a $u \equiv (q - 1)a \equiv -a \ (\mathrm{mod.}\ m^2)$ puisque $p.1 \in m$; on en conclut que $u$ est aussi une uniformisante pour $\varphi$; en outre on a
+On a $u \equiv (q - 1)a \equiv -a \ (\mathrm{mod.}\ m^2)$ puisque $p.1 \in m$; on en conclut que $u$ est aussi une uniformisante pour $v$; en outre on a
 $$
 s^{-1} u s^{p^r} = u
 $$

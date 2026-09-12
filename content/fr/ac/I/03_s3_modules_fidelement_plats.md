@@ -40,7 +40,7 @@ subsections:
       pdf_page: 52
 statements: 23
 exercises: 10
-content_sha256: 3747e188c60036e4b1bb28f41e3b92dfade3e97f5304c64f6067636d854c8f25
+content_sha256: 9edb4c4e17a8308db85046cda9e270f06927c583b1c3cb7be040f2f9e76ca748
 ---
 
 ## § 3. Modules fidèlement plats
@@ -60,33 +60,33 @@ $$
 
 b) *E est plat, et pour tout A-module à gauche N, la relation* $E \otimes_A N = 0$ *entraîne* $N = 0$.
 
-c) *E est plat, et pour tout homomorphisme* $\varphi : N' \to N$ *de A-modules à gauche, la relation* $1_E \otimes \varphi = 0$ *entraîne* $\varphi = 0$.
+c) *E est plat, et pour tout homomorphisme* $v : N' \to N$ *de A-modules à gauche, la relation* $1_E \otimes v = 0$ *entraîne* $v = 0$.
 
 d) *E est plat, et pour tout idéal à gauche maximal* $m$ *de A, on a* $E \neq Em$.
 
-Pour simplifier l’écriture, nous poserons $T(Q) = E \otimes_A Q$ pour tout A-module à gauche Q, et $T(\varphi) = 1_E \otimes \varphi$ pour tout homomorphisme $\varphi$ de A-modules à gauche.
+Pour simplifier l’écriture, nous poserons $T(Q) = E \otimes_A Q$ pour tout A-module à gauche Q, et $T(v) = 1_E \otimes v$ pour tout homomorphisme $v$ de A-modules à gauche.
 
 Nous allons d’abord prouver l’équivalence de $a$, $b$ et $c$.
 
 Prouvons que $a$ implique $b$. Si $a$ est vérifiée, il est clair que E est plat ($§\ 2$, no 3, prop. 1). D’autre part, soit N un A-module à gauche tel que $T(N) = 0$, et considérons la suite $0 \to N \to 0$; l’hypothèse $T(N) = 0$ signifie que la suite $0 \to T(N) \to 0$ est exacte. Par $a$, la suite $0 \to N \to 0$ est exacte, d’où $N = 0$.
 
-Montrons que $b$ implique $c$. Supposons $b$ vérifiée, et soient $\varphi : N' \to N$ un homomorphisme, I son image. Comme l’image de $T(\varphi)$ s’identifie à $T(I)$ ($§\ 2$, no 3, Remarque 2), l’hypothèse $T(\varphi) = 0$ entraîne $T(I) = 0$, donc $I = 0$ d’après $b$ et par suite $\varphi = 0$.
+Montrons que $b$ implique $c$. Supposons $b$ vérifiée, et soient $v : N' \to N$ un homomorphisme, I son image. Comme l’image de $T(v)$ s’identifie à $T(I)$ ($§\ 2$, no 3, Remarque 2), l’hypothèse $T(v) = 0$ entraîne $T(I) = 0$, donc $I = 0$ d’après $b$ et par suite $v = 0$.
 
 Démontrons que $c$ entraîne $a$. Supposons donc $c$ vérifiée et considérons une suite
 
 $$(1)$$
 $$
-N' \xrightarrow{\varphi} N \xrightarrow{\omega} N''
+N' \xrightarrow{v} N \xrightarrow{w} N''
 $$
 
 d’homomorphismes de A-modules à gauche, et la suite correspondante
 
 $$(2)$$
 $$
-T(N') \xrightarrow{T(\varphi)} T(N) \xrightarrow{T(\omega)} T(N'')
+T(N') \xrightarrow{T(v)} T(N) \xrightarrow{T(w)} T(N'')
 $$
 
-Si la suite (1) est exacte, il en est de même de (2), puisque E est plat ($§\ 2$, no 3, prop. 1). Inversement, si (2) est exacte, on a d’abord $T(\omega \circ \varphi) = T(\omega) \circ T(\varphi) = 0$, donc $\omega \circ \varphi = 0$ par hypothèse. Posons $I = \varphi(N')$ et $K = \omega^{-1}(0)$; on a $I \subset K$ d’après ce qui précède. Considérons la suite exacte
+Si la suite (1) est exacte, il en est de même de (2), puisque E est plat ($§\ 2$, no 3, prop. 1). Inversement, si (2) est exacte, on a d’abord $T(w \circ v) = T(w) \circ T(v) = 0$, donc $w \circ v = 0$ par hypothèse. Posons $I = v(N')$ et $K = w^{-1}(0)$; on a $I \subset K$ d’après ce qui précède. Considérons la suite exacte
 
 $$
 0 \to I \xrightarrow{i} K \xrightarrow{p} K/I \to 0
@@ -98,7 +98,7 @@ $$
 0 \to T(I) \xrightarrow{T(i)} T(K) \xrightarrow{T(p)} T(K/I) \to 0
 $$
 
-est exacte, autrement dit, $T(K/I)$ est isomorphe à $T(K)/T(I)$, qui est 0 par hypothèse, puisque $T(I)$ (resp. $T(K)$) s’identifie à l’image de $T(\varphi)$ (resp. au noyau de $T(\omega)$) ($§\ 2$, no 3, Remarque 2). Mais la relation $T(p) = 0$ entraîne $p = 0$ par hypothèse, donc on a $K = I$, ce qui prouve que la suite (1) est exacte.
+est exacte, autrement dit, $T(K/I)$ est isomorphe à $T(K)/T(I)$, qui est 0 par hypothèse, puisque $T(I)$ (resp. $T(K)$) s’identifie à l’image de $T(v)$ (resp. au noyau de $T(w)$) ($§\ 2$, no 3, Remarque 2). Mais la relation $T(p) = 0$ entraîne $p = 0$ par hypothèse, donc on a $K = I$, ce qui prouve que la suite (1) est exacte.
 
 Démontrons enfin l’équivalence de $b$ et $d$. Si $b$ est vérifiée, on a $E/E_m = E \otimes_A (A_s/m) \neq 0$ puisque $A_s/m \neq 0$; d’où $d$. Inversement, supposons $d$ vérifiée; tout idéal à gauche $a \neq A$ de A est contenu dans un idéal à gauche maximal $m$ (Alg., chap. I, § 8, n° 7, th. 2), donc l’hypothèse E ≠ Em entraîne E ≠ Ea, autrement dit E ⊗_A (A_s/a) ≠ 0. En d’autres termes, pour tout A-module à gauche monogène N ≠ 0, on a T(N) ≠ 0. Si maintenant N est un A-module à gauche ≠ 0 quelconque, il contient un sous-module monogène N′ ≠ 0 ; puisque E est plat, T(N′) s’identifie à un sous-groupe de T(N) ; on vient de voir que T(N′) ≠ 0, donc T(N) ≠ 0.
 
@@ -150,7 +150,7 @@ $$
 
 Soient R, S deux anneaux, E un R-module à droite, F un (R, S)-bimodule. On suppose que E est fidèlement plat. Alors, pour que F soit un S-module plat (resp. fidèlement plat), il faut et il suffit que $E \otimes_R F$ le soit.
 1° Si F est plat, $E \otimes_R F$ est plat (§ 2, n° 7, prop. 8).
-2° Supposons $E \otimes_R F$ plat, et soit $\nu : N' \to N$ un homomorphisme injectif de S-modules à gauche. L'homomorphisme $1_E \otimes 1_F \otimes \nu : E \otimes_R F \otimes_S N' \to E \otimes_R F \otimes_S N$ est alors injectif (§ 2, n° 3, prop. 1). On déduit du n° 1, prop. 2 que $1_F \otimes \nu : F \otimes_S N' \to F \otimes_S N$ est injectif ; donc F est un S-module plat (§ 2, n° 3, prop. 1).
+2° Supposons $E \otimes_R F$ plat, et soit $v : N' \to N$ un homomorphisme injectif de S-modules à gauche. L'homomorphisme $1_E \otimes 1_F \otimes v : E \otimes_R F \otimes_S N' \to E \otimes_R F \otimes_S N$ est alors injectif (§ 2, n° 3, prop. 1). On déduit du n° 1, prop. 2 que $1_F \otimes v : F \otimes_S N' \to F \otimes_S N$ est injectif ; donc F est un S-module plat (§ 2, n° 3, prop. 1).
 3° Supposons F fidèlement plat, et soit N un S-module à gauche tel que $E \otimes_R F \otimes_S N = 0$. Puisque E est fidèlement plat, cela entraîne $F \otimes_S N = 0$, d'où $N = 0$ puisque F est fidèlement plat ; cela prouve que $E \otimes_R F$ est fidèlement plat.
 4° Supposons $E \otimes_R F$ fidèlement plat, et soit N un S-module à gauche tel que $F \otimes_S N = 0$. On a $E \otimes_R F \otimes_S N = 0$, d'où $N = 0$, ce qui montre que F est fidèlement plat.
 
@@ -180,15 +180,15 @@ Soient A un anneau commutatif, B une algèbre sur A, $\rho : a \to a.1$ l’homo
 
 1° Si E est plat (resp. fidèlement plat), $E_{(B)}$ est plat (resp. fidèlement plat) en vertu du § 2, n° 7, cor. 2 de la prop. 8 (resp. de la prop. 5).
 
-2° Supposons que $E_{(B)}$ soit plat, et soit $\nu : N' \to N$ un homomorphisme injectif de A-modules. En vertu du § 2, n° 7, cor. 3, le A-module $E \otimes_A B$ est plat, donc l’homomorphisme $1_E \otimes 1_B \otimes \nu : E \otimes_A B \otimes_A N' \to E \otimes_A B \otimes_A N$ est injectif. Comme les structures de A-module à droite et de A-module à gauche sur B coïncident, cet homomorphisme s’identifie à
+2° Supposons que $E_{(B)}$ soit plat, et soit $v : N' \to N$ un homomorphisme injectif de A-modules. En vertu du § 2, n° 7, cor. 3, le A-module $E \otimes_A B$ est plat, donc l’homomorphisme $1_E \otimes 1_B \otimes v : E \otimes_A B \otimes_A N' \to E \otimes_A B \otimes_A N$ est injectif. Comme les structures de A-module à droite et de A-module à gauche sur B coïncident, cet homomorphisme s’identifie à
 
 $$
-1_E \otimes \nu \otimes 1_B : E \otimes_A N' \otimes_A B \to E \otimes_A N \otimes_A B.
+1_E \otimes v \otimes 1_B : E \otimes_A N' \otimes_A B \to E \otimes_A N \otimes_A B.
 $$
 
 Comme B est un A-module fidèlement plat, on en déduit que
 
-$1_E \otimes \varphi : E \otimes_A N' \to E \otimes_A N$ est injectif (n° 1, prop. 2), ce qui montre que E est plat.
+$1_E \otimes v : E \otimes_A N' \to E \otimes_A N$ est injectif (n° 1, prop. 2), ce qui montre que E est plat.
 
 3° Supposons enfin que $E_{(B)}$ soit fidèlement plat. Tout d’abord E est plat en vertu du 2°. Soit en outre N un A-module tel que $E \otimes_A N = 0$. On a alors $E \otimes_A N \otimes_A B = 0$, d’où, puisque les structures de A-module à droite et de A-module à gauche sur B coïncident, $E \otimes_A B \otimes_A N = 0$, ce qui s’écrit aussi $(E \otimes_A B) \otimes_B (B \otimes_A N) = 0$. Comme $E_{(B)}$ est un B-module fidèlement plat, cela entraîne $B \otimes_A N = 0$ (n° 1, prop. 1), d’où $N = 0$ puisque B est un A-module fidèlement plat (n° 1, prop. 1).
 
@@ -310,17 +310,17 @@ $$
 \omega : B \otimes_A \operatorname{Hom}_A(F, M) \to \operatorname{Hom}_B(B \otimes_A F, B \otimes_A M)
 $$
 
-(§ 2, no 10, prop. 11). Soit alors $\varphi : M \to M''$ un homomorphisme surjectif de A-modules et considérons le diagramme commutatif
+(§ 2, no 10, prop. 11). Soit alors $v : M \to M''$ un homomorphisme surjectif de A-modules et considérons le diagramme commutatif
 
 $$
 \begin{array}{ccc}
 B \otimes_A \mathrm{Hom}_A(F, M) & \xrightarrow{\omega} & \mathrm{Hom}_B(B \otimes_A F, B \otimes_A M) \\
-\downarrow_{1_B \otimes \mathrm{Hom}(1_F, \varphi)} & & \downarrow_{\mathrm{Hom}(1_B \otimes_F, 1_B \otimes \varphi)} \\
+\downarrow_{1_B \otimes \mathrm{Hom}(1_F, v)} & & \downarrow_{\mathrm{Hom}(1_B \otimes_F, 1_B \otimes v)} \\
 B \otimes_A \mathrm{Hom}_A(F, M'') & \xrightarrow{\omega} & \mathrm{Hom}_B(B \otimes_A F, B \otimes_A M'')
 \end{array}
 $$
 
-Comme $1_B \otimes \varphi$ est surjectif, et que $B \otimes_A F$ est supposé projectif, $\mathrm{Hom}(1_B \otimes_F, 1_B \otimes \varphi)$ est surjectif (Alg., chap. II, 3e éd., § 2, no 2, prop. 4), et il en est donc de même de $1_B \otimes \mathrm{Hom}(1_F, \varphi)$. Mais comme B est un A-module fidèlement plat, $\mathrm{Hom}(1_F, \varphi)$ est lui-même surjectif (no 1, prop. 2), donc F est un A-module projectif (Alg., chap. II, 3e éd., § 2, no 2, prop. 4).
+Comme $1_B \otimes v$ est surjectif, et que $B \otimes_A F$ est supposé projectif, $\mathrm{Hom}(1_B \otimes_F, 1_B \otimes v)$ est surjectif (Alg., chap. II, 3e éd., § 2, no 2, prop. 4), et il en est donc de même de $1_B \otimes \mathrm{Hom}(1_F, v)$. Mais comme B est un A-module fidèlement plat, $\mathrm{Hom}(1_F, v)$ est lui-même surjectif (no 1, prop. 2), donc F est un A-module projectif (Alg., chap. II, 3e éd., § 2, no 2, prop. 4).
 
 ### 7. Équations linéaires sur un anneau fidèlement plat.
 

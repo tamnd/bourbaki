@@ -24,7 +24,7 @@ subsections:
       pdf_page: 132
 statements: 16
 exercises: 3
-content_sha256: 7c8d75b669e14bd415402bda4f650624857bf508c46b57a9cca7d50e4a81e35b
+content_sha256: 715be665122e7252a49fdc5b8ef199e1cd38d1499be4307c88b2c0b3ad68453e
 ---
 
 ## § 7. Théorème d’approximation.
@@ -97,9 +97,9 @@ Une valuation impropre de $K$ est indépendante de toute valuation de $K$. Pour 
 #### Théorème 1 (Théorème d’approximation pour les valuations) {#ac-vi-s7-thm-1 .statement}
 
 Soient $v_i$ ($1 \leq i \leq n$) des valuations deux à deux indépendantes d’un corps $K$, et $\Gamma_i$ le groupe des ordres de $v_i$. Soient $a_i \in K$ et $\alpha_i \in \Gamma_i$ ($1 \leq i \leq n$). Il existe alors $x \in K$ tel que $v_i(x - a_i) \geq \alpha_i$ pour tout $i$.
-Si $v_i$ est impropre, on a $\alpha_i = 0$ et la relation $v_i(x - a_i) \geq \alpha_i$ est vraie pour tout $x \in K$. On peut donc supposer les $\nu_i$ non impropres.
+Si $v_i$ est impropre, on a $\alpha_i = 0$ et la relation $v_i(x - a_i) \geq \alpha_i$ est vraie pour tout $x \in K$. On peut donc supposer les $v_i$ non impropres.
 
-Soient $A_i$ l’anneau de $\nu_i$, $B = \bigcap_{i=1}^n A_i$ et $\mathfrak{p}_i = m(A_i) \cap B$. D’après la prop. 1 du no 1, les $a_i$ peuvent s’écrire $a_i = b_i/s$ ($b_i \in B$, $s \in B - \{0\}$); si l’on pose $x = y/s$ et $\alpha'_i = \alpha_i + \nu_i(s)$, on devra avoir $\nu_i(y - b_i) \geq \alpha'_i$. Ceci montre qu’on peut supposer que $a_i \in B$ pour tout $i$; on peut aussi supposer que $\alpha_i > 0$ pour tout $i$. Soit $v_i$ l’ensemble des $z \in K$ tels que $\nu_i(z) \geq \alpha_i$; posons $q_i = v_i \cap B$. Pour $x \in B$, $\nu_i(x - a_i) \geq \alpha_i$ équivaut à $x \equiv a_i$ ($q_i$). Il s’agit donc de montrer que l’homomorphisme canonique $B \to \prod_{i=1}^n (B/q_i)$ est surjectif, c’est-à-dire qu’on a $q_i + q_j = B$ pour $i \neq j$ (Chap. II, § 1, no 2, prop. 5). Comme les idéaux maximaux de $B$ sont les $\mathfrak{p}_i$ (prop. 2), il suffira pour cela de montrer que l’on a $q_i \notin \mathfrak{p}_j$ pour $i \neq j$.
+Soient $A_i$ l’anneau de $v_i$, $B = \bigcap_{i=1}^n A_i$ et $\mathfrak{p}_i = m(A_i) \cap B$. D’après la prop. 1 du no 1, les $a_i$ peuvent s’écrire $a_i = b_i/s$ ($b_i \in B$, $s \in B - \{0\}$); si l’on pose $x = y/s$ et $\alpha'_i = \alpha_i + v_i(s)$, on devra avoir $v_i(y - b_i) \geq \alpha'_i$. Ceci montre qu’on peut supposer que $a_i \in B$ pour tout $i$; on peut aussi supposer que $\alpha_i > 0$ pour tout $i$. Soit $v_i$ l’ensemble des $z \in K$ tels que $v_i(z) \geq \alpha_i$; posons $q_i = v_i \cap B$. Pour $x \in B$, $v_i(x - a_i) \geq \alpha_i$ équivaut à $x \equiv a_i$ ($q_i$). Il s’agit donc de montrer que l’homomorphisme canonique $B \to \prod_{i=1}^n (B/q_i)$ est surjectif, c’est-à-dire qu’on a $q_i + q_j = B$ pour $i \neq j$ (Chap. II, § 1, no 2, prop. 5). Comme les idéaux maximaux de $B$ sont les $\mathfrak{p}_i$ (prop. 2), il suffira pour cela de montrer que l’on a $q_i \notin \mathfrak{p}_j$ pour $i \neq j$.
 
 Supposons qu’il existe $i, j$ tels que l’on ait $q_i \subset \mathfrak{p}_j$ et $i \neq j$. Nous verrons dans un instant que la racine de $q_i$ est un idéal premier $\mathfrak{p}$ de $B$. On a alors $\mathfrak{p} \subset \mathfrak{p}_j$, et aussi $\mathfrak{p} \subset \mathfrak{p}_i$ puisque $\alpha_i > 0$, donc $q_i \subset \mathfrak{p}_i$. On a donc $A_j = B_{\mathfrak{p}_j} \subset B_{\mathfrak{p}}$ (no 1, prop. 1), et, de même, $A_i \subset B_{\mathfrak{p}}$. Or, comme $v_i \neq (0)$ et que $v_i = B_{\mathfrak{p}_i} q_i$ (chap. II, § 2, no 4, prop. 10), on a $q_i \neq (0)$, d’où $\mathfrak{p} \neq (0)$ et $B_{\mathfrak{p}} \neq K$. Ceci contredit l’hypothèse que $A_i$ et $A_j$ sont indépendants.
 
@@ -109,29 +109,29 @@ Reste à montrer que $\mathfrak{p}$ est premier. Or ceci résulte du lemme suiva
 
 Soient $A$ un anneau de valuation, et $\mathfrak{b}$ un idéal de $A$ distinct de $A$. Alors la racine $r$ de $\mathfrak{b}$ est un idéal premier.
 
-Supposons qu’on ait $xy \in r$. Il existe alors $n \geq 1$ tel que $(xy)^n \in \mathfrak{b}$. Notons $\nu$ une valuation associée à $A$. Si, par exemple, on a $\nu(x) \geq \nu(y)$, on a $\nu(x^{2^n}) \geq \nu(x^n y^n)$, d’où $x^{2^n} \in \mathfrak{b}$ et $x \in r$.
+Supposons qu’on ait $xy \in r$. Il existe alors $n \geq 1$ tel que $(xy)^n \in \mathfrak{b}$. Notons $v$ une valuation associée à $A$. Si, par exemple, on a $v(x) \geq v(y)$, on a $v(x^{2^n}) \geq v(x^n y^n)$, d’où $x^{2^n} \in \mathfrak{b}$ et $x \in r$.
 
 #### Corollaire 1 {#ac-vi-s7-lem-2-cor-1 .statement}
 
-Pour toute famille d’éléments $\gamma_i \in \Gamma_i (1 \leq i \leq n)$, il existe $x \in K$ tel que $\nu_i(x) = \gamma_i (1 \leq i \leq n)$.
+Pour toute famille d’éléments $\gamma_i \in \Gamma_i (1 \leq i \leq n)$, il existe $x \in K$ tel que $v_i(x) = \gamma_i (1 \leq i \leq n)$.
 
-On peut supposer $A_i \neq K$ pour tout $i$. Alors, il existe pour tout $i$ un $a_i \in K$ tel que $\nu_i(a_i) = \gamma_i$ et un $\alpha_i \in \Gamma_i$ tel que $\gamma_i < \alpha_i$. Appliquons le th. 1 à ces éléments $a_i$: il existe $x \in K$ tel que $\nu_i(x - a_i) > \nu_i(a_i)$; d’où, comme $x = a_i + (x - a_i)$, $\nu_i(x) = \nu_i(a_i) = \gamma_i$ ($§ 3$, no 1, prop. 1).
+On peut supposer $A_i \neq K$ pour tout $i$. Alors, il existe pour tout $i$ un $a_i \in K$ tel que $v_i(a_i) = \gamma_i$ et un $\alpha_i \in \Gamma_i$ tel que $\gamma_i < \alpha_i$. Appliquons le th. 1 à ces éléments $a_i$: il existe $x \in K$ tel que $v_i(x - a_i) > v_i(a_i)$; d’où, comme $x = a_i + (x - a_i)$, $v_i(x) = v_i(a_i) = \gamma_i$ ($§ 3$, no 1, prop. 1).
 
 #### Corollaire 2 {#ac-vi-s7-lem-2-cor-2 .statement}
 
-Soit $\mathscr{T}_i$ la topologie définie sur $K$ par $\nu_i$; munissons $K^n$ de la topologie produit des $\mathscr{T}_i$. Si les $\nu_i$ sont non impropres, la diagonale de $K^n$ est dense dans $K^n$.
+Soit $\mathscr{T}_i$ la topologie définie sur $K$ par $v_i$; munissons $K^n$ de la topologie produit des $\mathscr{T}_i$. Si les $v_i$ sont non impropres, la diagonale de $K^n$ est dense dans $K^n$.
 
 #### Proposition 3 {#ac-vi-s7-prop-3 .statement}
 
-Soient $\nu$ et $\nu'$ deux valuations non impropres d’un même corps K. Pour que $\nu$ et $\nu'$ définissent la même topologie sur K, il faut et il suffit qu’elles soient dépendantes.
+Soient $v$ et $v'$ deux valuations non impropres d’un même corps K. Pour que $v$ et $v'$ définissent la même topologie sur K, il faut et il suffit qu’elles soient dépendantes.
 
-Supposons les topologies $\mathscr{T}_\nu$ et $\mathscr{T}_{\nu'}$, définies par $\nu$ et $\nu'$, identiques. Puisque $\mathscr{T}_\nu$ est séparée, la diagonale de $K^2$ est fermée, donc $\nu$ et $\nu'$ sont dépendantes (cor. 2 du th. 1).
+Supposons les topologies $\mathscr{T}_v$ et $\mathscr{T}_{v'}$, définies par $v$ et $v'$, identiques. Puisque $\mathscr{T}_v$ est séparée, la diagonale de $K^2$ est fermée, donc $v$ et $v'$ sont dépendantes (cor. 2 du th. 1).
 
-Inversement, supposons $\nu$ et $\nu'$ dépendantes. Alors leurs anneaux A et A' sont contenus dans un même anneau A'' distinct de K, et A'' est l’anneau d’une valuation $\nu''$ ($§ 4$, n° 1, prop. 1). Il suffit de montrer que la topologie $\mathscr{T}_{\nu''}$ est identique à $\mathscr{T}_\nu$. Soient $\Gamma$ et $\Gamma''$ les groupes des ordres de $\nu$ et $\nu''$. Il existe un homomorphisme croissant $\lambda$ de $\Gamma$ sur $\Gamma''$ tel que $\nu'' = \lambda \circ \nu$ ($§ 4$, n° 3). Si $\alpha'' \in \Gamma''$, soit $\alpha \in \lambda^{-1}(\alpha'')$; la condition $\nu(x) \geq \alpha$ entraîne $\nu''(x) \geq \alpha''$. Soient $\beta \in \Gamma$, et $\beta'' = \lambda(\beta)$; la condition $\nu(x) \leq \beta$ entraîne $\nu''(x) \leq \beta''$, donc la condition $\nu''(x) > \beta''$ entraîne $\nu(x) > \beta$. Comme $\nu$ et $\nu''$ sont non impropres, les inégalités envisagées définissent des systèmes fondamentaux de voisinages de 0 pour $\mathscr{T}_\nu$ et $\mathscr{T}_{\nu''}$. Donc $\mathscr{T}_\nu = \mathscr{T}_{\nu''}$, ce qui termine la démonstration.
+Inversement, supposons $v$ et $v'$ dépendantes. Alors leurs anneaux A et A' sont contenus dans un même anneau A'' distinct de K, et A'' est l’anneau d’une valuation $v''$ ($§ 4$, n° 1, prop. 1). Il suffit de montrer que la topologie $\mathscr{T}_{v''}$ est identique à $\mathscr{T}_v$. Soient $\Gamma$ et $\Gamma''$ les groupes des ordres de $v$ et $v''$. Il existe un homomorphisme croissant $\lambda$ de $\Gamma$ sur $\Gamma''$ tel que $v'' = \lambda \circ v$ ($§ 4$, n° 3). Si $\alpha'' \in \Gamma''$, soit $\alpha \in \lambda^{-1}(\alpha'')$; la condition $v(x) \geq \alpha$ entraîne $v''(x) \geq \alpha''$. Soient $\beta \in \Gamma$, et $\beta'' = \lambda(\beta)$; la condition $v(x) \leq \beta$ entraîne $v''(x) \leq \beta''$, donc la condition $v''(x) > \beta''$ entraîne $v(x) > \beta$. Comme $v$ et $v''$ sont non impropres, les inégalités envisagées définissent des systèmes fondamentaux de voisinages de 0 pour $\mathscr{T}_v$ et $\mathscr{T}_{v''}$. Donc $\mathscr{T}_v = \mathscr{T}_{v''}$, ce qui termine la démonstration.
 
 #### Remarque 1 {#ac-vi-s7-n2-rem-1 .statement}
 
-La prop. 3 montre que la relation « $\nu$ et $\nu'$ sont dépendantes » est une relation d’équivalence.
+La prop. 3 montre que la relation « $v$ et $v'$ sont dépendantes » est une relation d’équivalence.
 
 #### Remarque 2 {#ac-vi-s7-n2-rem-2 .statement}
 
@@ -139,7 +139,7 @@ Compte tenu des relations entre valuations de hauteur 1 et valeurs absolues ultr
 
 #### Proposition 4 {#ac-vi-s7-prop-4 .statement}
 
-Soient $\nu_1, \ldots, \nu_n (n \geq 2)$ des valuations deux à deux dépendantes d’un même corps K. Alors les anneaux $A_1, \ldots, A_n$ de $\nu_1, \ldots, \nu_n$ engendrent un sous-anneau de K distinct de K.
+Soient $v_1, \ldots, v_n (n \geq 2)$ des valuations deux à deux dépendantes d’un même corps K. Alors les anneaux $A_1, \ldots, A_n$ de $v_1, \ldots, v_n$ engendrent un sous-anneau de K distinct de K.
 
 Pour $n = 2$, la prop. 4 résulte de la déf. 1. Supposons-la établie pour $n - 1$ valuations. Il existe alors un sous-anneau A de K distinct de K et contenant $A_1, \ldots, A_{n-1}$; il existe aussi un sous-anneau $B \neq K$ contenant $A_{n-1}$ et $A_n$. Comme A et B contiennent $A_{n-1}$, ils sont comparables pour l’inclusion ($§ 4$, n° 1, cor. de la prop. 1). Le plus grand des deux contient donc tous les $A_i$.
 

@@ -36,7 +36,7 @@ subsections:
       pdf_page: 104
 statements: 22
 exercises: 8
-content_sha256: 1d479fc23e74662779c5b39bf921e57bdb3ede2dc093c8d1164168c4a6bbd7c7
+content_sha256: f2c1be48bb3a783656311acb7528247e469efca6363e37f4a54a19f40802eb73
 ---
 
 ## § 3. Valuations.
@@ -69,83 +69,83 @@ $$
 v\left( \sum_{i=1}^n x_i \right) \geq \inf_{1 \leq i \leq n} v(x_i)
 $$
 
-En outre, s’il existe un seul indice $k$ tel que $\nu(x_k) = \inf_{1 \leq i \leq n} \nu(x_i)$, les deux membres de (1) sont égaux. En particulier, si $\nu(x) \neq \nu(y)$, on a $\nu(x + y) = \inf (\nu(x), \nu(y))$.
+En outre, s’il existe un seul indice $k$ tel que $v(x_k) = \inf_{1 \leq i \leq n} v(x_i)$, les deux membres de (1) sont égaux. En particulier, si $v(x) \neq v(y)$, on a $v(x + y) = \inf (v(x), v(y))$.
 
-La relation (1) se déduit de l’axiome (VL$_{\text{II}}$) par récurrence sur $n$. S’il existe un seul indice $k$ tel que $\nu(x_k) = \inf_{1 \leq i \leq n} \nu(x_i)$, on a, en posant $y = \sum_{i \neq k} x_i$ et $z = \sum_{i=1}^n x_i$, $\nu(y) > \nu(x_k)$ et $\nu(z) \geq \nu(x_k)$ d’après (1); si l’on avait $\nu(z) > \nu(x_k)$, la relation $x_k = z - y$ donnerait $\nu(x_k) \geq \inf (\nu(z), \nu(y)) > \nu(x_k)$, ce qui est absurde; d’où $\nu(z) = \nu(x_k)$, ce qui démontre la seconde assertion.
+La relation (1) se déduit de l’axiome (VL$_{\text{II}}$) par récurrence sur $n$. S’il existe un seul indice $k$ tel que $v(x_k) = \inf_{1 \leq i \leq n} v(x_i)$, on a, en posant $y = \sum_{i \neq k} x_i$ et $z = \sum_{i=1}^n x_i$, $v(y) > v(x_k)$ et $v(z) \geq v(x_k)$ d’après (1); si l’on avait $v(z) > v(x_k)$, la relation $x_k = z - y$ donnerait $v(x_k) \geq \inf (v(z), v(y)) > v(x_k)$, ce qui est absurde; d’où $v(z) = v(x_k)$, ce qui démontre la seconde assertion.
 
 #### Corollaire {#ac-vi-s3-n1-cor-1 .statement}
 
-Si une suite finie d’éléments $(x_i)_{1 \leq i \leq n}$ de $\mathbf{C}$ (pour $n \geq 2$) est telle que $\sum_{i=1}^n x_i = 0$, il existe au moins deux indices distincts $j, k$ tels que $\nu(x_j) = \nu(x_k) = \inf_{1 \leq i \leq n} \nu(x_i)$.
+Si une suite finie d’éléments $(x_i)_{1 \leq i \leq n}$ de $\mathbf{C}$ (pour $n \geq 2$) est telle que $\sum_{i=1}^n x_i = 0$, il existe au moins deux indices distincts $j, k$ tels que $v(x_j) = v(x_k) = \inf_{1 \leq i \leq n} v(x_i)$.
 
-S’il n’y avait qu’un seul indice $k$ tel que $\nu(x_k) = \inf_{1 \leq i \leq n} \nu(x_i)$, la prop. 1 montrerait que $\nu(x_k) = \nu(0) = +\infty$, d’où $\nu(x_i) = +\infty$ pour tout $i$, contrairement à la relation $n \geq 2$ et à l’hypothèse faite sur $k$.
+S’il n’y avait qu’un seul indice $k$ tel que $v(x_k) = \inf_{1 \leq i \leq n} v(x_i)$, la prop. 1 montrerait que $v(x_k) = v(0) = +\infty$, d’où $v(x_i) = +\infty$ pour tout $i$, contrairement à la relation $n \geq 2$ et à l’hypothèse faite sur $k$.
 
 #### Remarque 1 {#ac-vi-s3-n1-rem-1 .statement}
 
-Si $\nu : \mathbf{C} \to \Gamma_\infty$ est une valuation de $\mathbf{C}$ et $u : \mathbf{B} \to \mathbf{C}$ un homomorphisme d’un anneau $\mathbf{B}$ dans $\mathbf{C}$, il est immédiat que l’application composée $\mathbf{B} \xrightarrow{u} \mathbf{C} \xrightarrow{\nu} \Gamma_\infty$ est une valuation de $\mathbf{B}$ à valeurs dans $\Gamma$.
+Si $v : \mathbf{C} \to \Gamma_\infty$ est une valuation de $\mathbf{C}$ et $u : \mathbf{B} \to \mathbf{C}$ un homomorphisme d’un anneau $\mathbf{B}$ dans $\mathbf{C}$, il est immédiat que l’application composée $\mathbf{B} \xrightarrow{u} \mathbf{C} \xrightarrow{v} \Gamma_\infty$ est une valuation de $\mathbf{B}$ à valeurs dans $\Gamma$.
 
 #### Remarque 2 {#ac-vi-s3-n1-rem-2 .statement}
 
-Les conditions (VL$_{\text{I}}$) et (VL$_{\text{II}}$) montrent aussitôt que l’ensemble $\bar{\nu}^1(+\infty)$ est un idéal bilatère $\mathfrak{p}$ dans $\mathbf{C}$ distinct de $\mathbf{C}$ en vertu de (VL$_{\text{III}}$); en outre, si $x, y$ sont deux éléments de $\mathbf{C}$ tels que $\nu(xy) = +\infty$, il résulte de (VL$_{\text{I}}$) que l’on a nécessairement $\nu(x) = +\infty$ ou $\nu(y) = +\infty$; autrement dit, l’anneau quotient $\mathbf{C}/\mathfrak{p}$ n’a pas de diviseur de 0 autre que 0; on vérifie aussitôt que l’application $\bar{\nu} : \mathbf{C}/\mathfrak{p} \to \Gamma_\infty$ déduite de $\nu$ par passage au quotient est une valuation de $\mathbf{C}/\mathfrak{p}$, l’image réciproque de $+\infty$ par cette valuation se réduisant à 0.
+Les conditions (VL$_{\text{I}}$) et (VL$_{\text{II}}$) montrent aussitôt que l’ensemble $\bar{v}^1(+\infty)$ est un idéal bilatère $\mathfrak{p}$ dans $\mathbf{C}$ distinct de $\mathbf{C}$ en vertu de (VL$_{\text{III}}$); en outre, si $x, y$ sont deux éléments de $\mathbf{C}$ tels que $v(xy) = +\infty$, il résulte de (VL$_{\text{I}}$) que l’on a nécessairement $v(x) = +\infty$ ou $v(y) = +\infty$; autrement dit, l’anneau quotient $\mathbf{C}/\mathfrak{p}$ n’a pas de diviseur de 0 autre que 0; on vérifie aussitôt que l’application $\bar{v} : \mathbf{C}/\mathfrak{p} \to \Gamma_\infty$ déduite de $v$ par passage au quotient est une valuation de $\mathbf{C}/\mathfrak{p}$, l’image réciproque de $+\infty$ par cette valuation se réduisant à 0.
 
 ### 2. Valuations sur un corps
 
 #### Proposition 2 {#ac-vi-s3-prop-2 .statement}
 
-Soient $K$ un corps (non nécessairement commutatif), $\nu$ une valuation de $K$, à valeurs dans $\Gamma$. Alors:
+Soient $K$ un corps (non nécessairement commutatif), $v$ une valuation de $K$, à valeurs dans $\Gamma$. Alors:
 
-(i) Pour $x \neq 0$, on a $\nu(x) \neq +\infty$.
+(i) Pour $x \neq 0$, on a $v(x) \neq +\infty$.
 
-(ii) L’ensemble $A$ des $x \in K$ tels que $\nu(x) \geqslant 0$ est un sous-anneau de $K$.
+(ii) L’ensemble $A$ des $x \in K$ tels que $v(x) \geqslant 0$ est un sous-anneau de $K$.
 
-(iii) Pour tout $\alpha \geqslant 0$ dans $\Gamma$, l’ensemble $V_{\alpha}$ (resp. $V'_{\alpha}$) des $x \in A$ tels que $\nu(x) > \alpha$ (resp. $\nu(x) \geqslant \alpha$) est un idéal bilatère de $A$, et tout idéal $\neq (0)$ de $A$ (à gauche ou à droite) contient un des $V'_{\alpha}$.
+(iii) Pour tout $\alpha \geqslant 0$ dans $\Gamma$, l’ensemble $V_{\alpha}$ (resp. $V'_{\alpha}$) des $x \in A$ tels que $v(x) > \alpha$ (resp. $v(x) \geqslant \alpha$) est un idéal bilatère de $A$, et tout idéal $\neq (0)$ de $A$ (à gauche ou à droite) contient un des $V'_{\alpha}$.
 
-(iv) L’ensemble $m(A)$ des $x \in A$ tels que $\nu(x) > 0$ est le plus grand idéal $\neq A$ de $A$; $U(A) = A - m(A)$ est l’ensemble des éléments inversibles de $A$ et $\kappa(A) = A/m(A)$ est un corps (non nécessairement commutatif).
+(iv) L’ensemble $m(A)$ des $x \in A$ tels que $v(x) > 0$ est le plus grand idéal $\neq A$ de $A$; $U(A) = A - m(A)$ est l’ensemble des éléments inversibles de $A$ et $\kappa(A) = A/m(A)$ est un corps (non nécessairement commutatif).
 
 (v) Pour tout $x \in K - A$, on a $x^{-1} \in m(A)$.
 
-L’assertion (i) résulte de ce que $\nu(-1)$ est un idéal de $K$ non égal à $K$. La vérification du fait que $A$ est un anneau et les $V_{\alpha}$ et $V'_{\alpha}$ des idéaux bilatères est triviale en vertu des axiomes (VL_I), (VL_II) et (VL_III). Si $a$ est un idéal (à gauche, par exemple) de $A$ et si $x \neq 0$ appartient à $A$, tout $y \in A$ tel que $\nu(y) \geqslant \nu(x)$ peut s’écrire $y = zx$ avec $z = yx^{-1}$, donc $\nu(z) = \nu(y) - \nu(x) \geqslant 0$, et par suite $z \in A$; autrement dit l’idéal à gauche $Ax$ contient les $V'_{\alpha}$ pour $x \geqslant \nu(x)$. L’ensemble $U(A) = A - m(A)$ est l’ensemble des $x \in K$ tels que $\nu(x) = 0$; si $x \in U(A)$ on a
+L’assertion (i) résulte de ce que $v(-1)$ est un idéal de $K$ non égal à $K$. La vérification du fait que $A$ est un anneau et les $V_{\alpha}$ et $V'_{\alpha}$ des idéaux bilatères est triviale en vertu des axiomes (VL_I), (VL_II) et (VL_III). Si $a$ est un idéal (à gauche, par exemple) de $A$ et si $x \neq 0$ appartient à $A$, tout $y \in A$ tel que $v(y) \geqslant v(x)$ peut s’écrire $y = zx$ avec $z = yx^{-1}$, donc $v(z) = v(y) - v(x) \geqslant 0$, et par suite $z \in A$; autrement dit l’idéal à gauche $Ax$ contient les $V'_{\alpha}$ pour $x \geqslant v(x)$. L’ensemble $U(A) = A - m(A)$ est l’ensemble des $x \in K$ tels que $v(x) = 0$; si $x \in U(A)$ on a
 $$
-\nu(x^{-1}) = -\nu(x) = 0,
+v(x^{-1}) = -v(x) = 0,
 $$
-d’où $x^{-1} \in U(A)$; réciproquement, si $y \in A$ est inversible dans $A$, on a $\nu(y) \geqslant 0$, $\nu(y^{-1}) \geqslant 0$ et $\nu(y) + \nu(y^{-1}) = 0$, d’où $\nu(y) = 0$ et $y \in U(A)$; ceci prouve (iv), et (v) découle aussitôt des définitions.
+d’où $x^{-1} \in U(A)$; réciproquement, si $y \in A$ est inversible dans $A$, on a $v(y) \geqslant 0$, $v(y^{-1}) \geqslant 0$ et $v(y) + v(y^{-1}) = 0$, d’où $v(y) = 0$ et $y \in U(A)$; ceci prouve (iv), et (v) découle aussitôt des définitions.
 
-On dit que $A$ (resp. $m(A)$, $\kappa(A)$) est l’anneau (resp. l’idéal, le corps résiduel) de la valuation $\nu$ sur $K$.
+On dit que $A$ (resp. $m(A)$, $\kappa(A)$) est l’anneau (resp. l’idéal, le corps résiduel) de la valuation $v$ sur $K$.
 
-Il est clair que $U(A)$ est le noyau de l’homomorphisme $\nu : K^* \to \Gamma$, et que l’image $\nu(K^*)$ par $\nu$ du groupe multiplicatif $K^*$ est un sous-groupe du groupe additif $\Gamma$, dit groupe des ordres ou groupe des valeurs de $\nu$, qui est donc isomorphe à $K^*/U(A)$; pour un $x \in K$, l’élément $\nu(x)$ de $\Gamma_\infty$ est parfois appelé la valuation ou l’ordre de $x$ pour $\nu$. On dit que deux valuations $\nu, \nu'$ de $K$ sont équivalentes si elles ont même anneau.
+Il est clair que $U(A)$ est le noyau de l’homomorphisme $v : K^* \to \Gamma$, et que l’image $v(K^*)$ par $v$ du groupe multiplicatif $K^*$ est un sous-groupe du groupe additif $\Gamma$, dit groupe des ordres ou groupe des valeurs de $v$, qui est donc isomorphe à $K^*/U(A)$; pour un $x \in K$, l’élément $v(x)$ de $\Gamma_\infty$ est parfois appelé la valuation ou l’ordre de $x$ pour $v$. On dit que deux valuations $v, v'$ de $K$ sont équivalentes si elles ont même anneau.
 
 #### Proposition 3 {#ac-vi-s3-prop-3 .statement}
 
-Pour que deux valuations $\nu, \nu'$ sur un corps (non nécessairement commutatif) $K$ soient équivalentes, il faut et il suffit qu’il existe un isomorphisme $\lambda$ du groupe ordonné $\nu(K^*)$ sur le groupe ordonné $\nu'(K^*)$ tel que $\nu' = \lambda \circ \nu$.
+Pour que deux valuations $v, v'$ sur un corps (non nécessairement commutatif) $K$ soient équivalentes, il faut et il suffit qu’il existe un isomorphisme $\lambda$ du groupe ordonné $v(K^*)$ sur le groupe ordonné $v'(K^*)$ tel que $v' = \lambda \circ v$.
 
-En effet, supposons $\nu$ et $\nu'$ équivalentes; par hypothèse, l’anneau $A$ de la valuation $\nu$ étant le même que celui de $\nu'$, $\nu$ et $\nu'$ (restreints à $K^*$) se factorisent en des homomorphismes $K^* \to K^*/U(A) \xrightarrow{\mu} \nu(K^*)$, $K^* \to K^*/U(A) \xrightarrow{\nu'} \nu'(K^*)$, où $\mu$ et $\nu$ sont des isomorphismes; en outre, l’ensemble des éléments positifs de $\nu(K^*)$ (resp. $\nu'(K^*)$) est l’image par $\mu$ (resp. $\nu$) de l’ensemble des classes mod. $U(A)$ des éléments $\neq 0$ de $m(A)$; on en conclut que $\lambda = \nu \circ \mu^{-1}$ répond à la question, la réciproque étant évidente.
+En effet, supposons $v$ et $v'$ équivalentes; par hypothèse, l’anneau $A$ de la valuation $v$ étant le même que celui de $v'$, $v$ et $v'$ (restreints à $K^*$) se factorisent en des homomorphismes $K^* \to K^*/U(A) \xrightarrow{\mu} v(K^*)$, $K^* \to K^*/U(A) \xrightarrow{v'} v'(K^*)$, où $\mu$ et $v$ sont des isomorphismes; en outre, l’ensemble des éléments positifs de $v(K^*)$ (resp. $v'(K^*)$) est l’image par $\mu$ (resp. $v$) de l’ensemble des classes mod. $U(A)$ des éléments $\neq 0$ de $m(A)$; on en conclut que $\lambda = v \circ \mu^{-1}$ répond à la question, la réciproque étant évidente.
 
-Supposons maintenant que $K$ soit un corps *commutatif*; alors, pour toute valuation $\nu$ de $K$, l’anneau $A$ de la valuation $\nu$ est un *anneau de valuation pour* $K$ au sens du § 1, no 2, déf. 2 (ce qui justifie la terminologie); cela résulte aussitôt de la prop. 2, c) et du § 1, no 2, th. 1, c). *Inversement*, rappelons que pour tout anneau intègre $B$ dont $K$ est le corps des fractions, la relation de divisibilité $x|y$ (équivalente à $y \in Bx$) fait de $K^*$ un groupe préordonné, dont le *groupe ordonné associé* $\Gamma_B$ est le quotient $K^*/U(B)$ de $K^*$ par le groupe $U(B)$ des éléments inversibles de $B$, les éléments positifs de ce groupe étant ceux de $B^*/U(B)$ (où $B^* = B - \{0\}$); l’application $x \to Bx$ définit, par passage au quotient, un isomorphisme du groupe ordonné $K^*/U(B)$ sur le groupe (ordonné par la relation $\supseteq$) des idéaux fractionnaires principaux non nuls de $K$ (*Alg.*, chap. VI, § 1, no5). Les anneaux $A$ ayant pour corps des fractions $K$ et pour lesquels le groupe $\Gamma_A = K^*/U(A)$ est *totalement ordonné* sont précisément les *anneaux de valuation pour* $K$ (§ 1, no 2, th. 1, d)). Si l’on désigne par $\nu_A$ l’homomorphisme canonique de $K^*$ sur $\Gamma_A$, il est immédiat que $\nu_A$ (prolongé par $\nu_A(0) = +\infty$) est une *valuation* (dite *canonique*) de $K$ dont l’anneau est $A$; toute valuation équivalente à $\nu_A$ s’écrit $\nu = \sigma \circ \nu_A$, où $\sigma$ est un isomorphisme de $\Gamma_A$ sur un sous-groupe du groupe où $\nu$ prend ses valeurs (prop. 3); on dit que $\sigma \circ \nu_A$ est la *factorisation canonique de* $\nu$.
+Supposons maintenant que $K$ soit un corps *commutatif*; alors, pour toute valuation $v$ de $K$, l’anneau $A$ de la valuation $v$ est un *anneau de valuation pour* $K$ au sens du § 1, no 2, déf. 2 (ce qui justifie la terminologie); cela résulte aussitôt de la prop. 2, c) et du § 1, no 2, th. 1, c). *Inversement*, rappelons que pour tout anneau intègre $B$ dont $K$ est le corps des fractions, la relation de divisibilité $x|y$ (équivalente à $y \in Bx$) fait de $K^*$ un groupe préordonné, dont le *groupe ordonné associé* $\Gamma_B$ est le quotient $K^*/U(B)$ de $K^*$ par le groupe $U(B)$ des éléments inversibles de $B$, les éléments positifs de ce groupe étant ceux de $B^*/U(B)$ (où $B^* = B - \{0\}$); l’application $x \to Bx$ définit, par passage au quotient, un isomorphisme du groupe ordonné $K^*/U(B)$ sur le groupe (ordonné par la relation $\supseteq$) des idéaux fractionnaires principaux non nuls de $K$ (*Alg.*, chap. VI, § 1, no5). Les anneaux $A$ ayant pour corps des fractions $K$ et pour lesquels le groupe $\Gamma_A = K^*/U(A)$ est *totalement ordonné* sont précisément les *anneaux de valuation pour* $K$ (§ 1, no 2, th. 1, d)). Si l’on désigne par $v_A$ l’homomorphisme canonique de $K^*$ sur $\Gamma_A$, il est immédiat que $v_A$ (prolongé par $v_A(0) = +\infty$) est une *valuation* (dite *canonique*) de $K$ dont l’anneau est $A$; toute valuation équivalente à $v_A$ s’écrit $v = \sigma \circ v_A$, où $\sigma$ est un isomorphisme de $\Gamma_A$ sur un sous-groupe du groupe où $v$ prend ses valeurs (prop. 3); on dit que $\sigma \circ v_A$ est la *factorisation canonique de* $v$.
 
 #### Proposition 4 {#ac-vi-s3-prop-4 .statement}
 
-*Soient* $C$ *un anneau intègre, K son corps des fractions, $C^* = C - \{0\}$, et $\nu : C \to \Gamma_\infty$ *une valuation de* $C$ *telle que* $\nu(x) \neq +\infty$ *pour* $x \in C^*$. *Il existe alors une valuation* $\omega$ *et une seule de* $K$ *qui prolonge* $\nu$, *et* $\omega(K^*)$ *est le sous-groupe de* $\Gamma$ *engendré par* $\nu(C^*)$.
+*Soient* $C$ *un anneau intègre, K son corps des fractions, $C^* = C - \{0\}$, et $v : C \to \Gamma_\infty$ *une valuation de* $C$ *telle que* $v(x) \neq +\infty$ *pour* $x \in C^*$. *Il existe alors une valuation* $w$ *et une seule de* $K$ *qui prolonge* $v$, *et* $w(K^*)$ *est le sous-groupe de* $\Gamma$ *engendré par* $v(C^*)$.
 
-D’après le th. 2 d’*Alg.*, chap. I, § 2, no 7, il existe un homomorphisme $\omega$ et un seul de $K^*$ dans $\Gamma$ qui prolonge $\nu|C^*$, et $\omega(K^*)$ est engendré par $\nu(C^*)$. Il reste à prouver que $\omega$ vérifie l’axiome (VL$_\mathrm{II}$). Soient donc $x \in K^*$, $y \in K^*$ tels que $x + y \in K^*$; il
+D’après le th. 2 d’*Alg.*, chap. I, § 2, no 7, il existe un homomorphisme $w$ et un seul de $K^*$ dans $\Gamma$ qui prolonge $v|C^*$, et $w(K^*)$ est engendré par $v(C^*)$. Il reste à prouver que $w$ vérifie l’axiome (VL$_\mathrm{II}$). Soient donc $x \in K^*$, $y \in K^*$ tels que $x + y \in K^*$; il
 
-existe $a \in C^*$ tel que $ax \in C^*$ et $ay \in C^*$, d’où $a(x + y) \in C^*$. Puisque la restriction de $\omega$ à $C^*$ vérifie (VL$_{\text{II}}$) on a
+existe $a \in C^*$ tel que $ax \in C^*$ et $ay \in C^*$, d’où $a(x + y) \in C^*$. Puisque la restriction de $w$ à $C^*$ vérifie (VL$_{\text{II}}$) on a
 $$
-\omega(a(x + y)) \geq \inf (\omega(ax), \omega(ay)).
+w(a(x + y)) \geq \inf (w(ax), w(ay)).
 $$
-Retranchant $\omega(a)$ des deux membres, on obtient bien
+Retranchant $w(a)$ des deux membres, on obtient bien
 $$
-\omega(x + y) \geq \inf (\omega(x), \omega(y)).
+w(x + y) \geq \inf (w(x), w(y)).
 $$
 
 ### 3. Traductions
 
-Soient $K$ un corps (commutatif), $f$ une place de $K$, $\nu$ une valuation de $K$, et $A$ un anneau de valuation pour $K$. Nous dirons que $A, f$ et $\nu$ sont *associés*, si $A$ est l’anneau de $f$ et l’anneau de $\nu$. En vertu du no 1 et du § 2, no 3, chacun des trois objets $A, f$ et $\nu$ détermine alors les deux autres (à une équivalence près en ce qui concerne les places et les valuations). On a en particulier les équivalences suivantes :
+Soient $K$ un corps (commutatif), $f$ une place de $K$, $v$ une valuation de $K$, et $A$ un anneau de valuation pour $K$. Nous dirons que $A, f$ et $v$ sont *associés*, si $A$ est l’anneau de $f$ et l’anneau de $v$. En vertu du no 1 et du § 2, no 3, chacun des trois objets $A, f$ et $v$ détermine alors les deux autres (à une équivalence près en ce qui concerne les places et les valuations). On a en particulier les équivalences suivantes :
 
 $$
 \begin{array}{lll}
-x \in A & \iff f(x) \neq \infty & \iff \nu(x) \geq 0 \\
-x \in m(A) & \iff f(x) = 0 & \iff \nu(x) > 0 \\
-x \in A - m(A) = U(A) & \iff f(x) \neq 0 \text{ et } f(x) \neq \infty & \iff \nu(x) = 0 \\
-x \in K - A & \iff f(x) = \infty & \iff \nu(x) < 0.
+x \in A & \iff f(x) \neq \infty & \iff v(x) \geq 0 \\
+x \in m(A) & \iff f(x) = 0 & \iff v(x) > 0 \\
+x \in A - m(A) = U(A) & \iff f(x) \neq 0 \text{ et } f(x) \neq \infty & \iff v(x) = 0 \\
+x \in K - A & \iff f(x) = \infty & \iff v(x) < 0.
 \end{array}
 $$
 
@@ -153,11 +153,11 @@ Tout résultat portant sur les anneaux de valuation, les places ou les valuation
 
 #### Proposition 5 {#ac-vi-s3-prop-5 .statement}
 
-*Soient K un corps, $\nu$ une valuation de K et K' une extension de K. Il existe une valuation $\nu'$ de K' dont la restriction à K est équivalente à $\nu$.*
+*Soient K un corps, $v$ une valuation de K et K' une extension de K. Il existe une valuation $v'$ de K' dont la restriction à K est équivalente à $v$.*
 
-Soient $\Gamma_\nu$ et $\Gamma_{\nu'}$ les groupes des ordres de $\nu$ et $\nu'$. Puisque la restriction de $\nu'$ à K est équivalente à $\nu$, il existe un isomorphisme $\lambda$ de $\Gamma_\nu$ sur un sous-groupe de $\Gamma_{\nu'}$, tel que $\nu' = \lambda \circ \nu$ sur K. Si l’on identifie $\Gamma_\nu$ à $\lambda(\Gamma_\nu)$ au moyen de $\lambda$, on voit que $\nu'$ prolonge $\nu$.
+Soient $\Gamma_v$ et $\Gamma_{v'}$ les groupes des ordres de $v$ et $v'$. Puisque la restriction de $v'$ à K est équivalente à $v$, il existe un isomorphisme $\lambda$ de $\Gamma_v$ sur un sous-groupe de $\Gamma_{v'}$, tel que $v' = \lambda \circ v$ sur K. Si l’on identifie $\Gamma_v$ à $\lambda(\Gamma_v)$ au moyen de $\lambda$, on voit que $v'$ prolonge $v$.
 
-On notera que $\Gamma_{\nu'}$ est en général *distinct de* $\lambda(\Gamma_\nu)$, et que la classe d’équivalence de $\nu'$ n’est pas nécessairement unique. Nous reviendrons là-dessus au § 8.
+On notera que $\Gamma_{v'}$ est en général *distinct de* $\lambda(\Gamma_v)$, et que la classe d’équivalence de $v'$ n’est pas nécessairement unique. Nous reviendrons là-dessus au § 8.
 
 En traduisant le th. 3 du § 1, no 3 (ou la prop. 6 du § 2, no 5) on obtient :
 
@@ -191,13 +191,13 @@ La proposition 4 du no 2 permet de construire une valuation dont le groupe des o
 
 #### Exemple 6 {#ac-vi-s3-n4-exa-6 .statement}
 
-Soient $\Gamma$ un groupe totalement ordonné, et $k$ un corps. Soient $\Gamma_+$ le monoïde des éléments positifs de $\Gamma$, et $C$ l’algèbre de $\Gamma_+$ sur $k$. Par définition, $C$ possède une base $(x_\alpha)_{\alpha \in \Gamma_+}$ sur $k$ dont la table de multiplication est $x_\alpha x_\beta = x_{\alpha + \beta}$. Si $x = \sum_\alpha a_\alpha x_\alpha$ est un élément non nul de $C$, posons $\nu(x) = \inf_{a_\alpha \neq 0} (\alpha)$ et posons $\nu(0) = + \infty$; on vérifie immédiatement que l’application $\nu$ de $C$ dans $\Gamma_\infty$ satisfait aux conditions (VL_I) et (VL_{II}) du no 1, et que $C$ est intègre. Soient $K$ le corps des fractions de $C$, et $\omega$ la valuation de $K$ qui prolonge $\nu$ (prop. 4, no 2). Comme tout élément de $\Gamma$ est différence de deux éléments positifs, $\omega$ admet $\Gamma$ pour groupe des ordres. Soient $A$ l’anneau de $\omega$, et $m$ son idéal maximal; on va montrer que $A$ est somme directe de $m$ et de $k$ (identifié à $k.1$), ce qui prouvera que le corps résiduel de $\omega$ est isomorphe à $k$. Il est clair que $m \cap k = (0)$. D’autre part, en notant $p$ l’idéal de $C$ engendré par les $x_\alpha$ où $\alpha > 0$, tout élément $x$ de valuation 0 dans $K$ se met sous la forme $(a + y)/(b + z)$ avec $a \in k^*, b \in k^*, y \in p$ et $z \in p$; on a alors
+Soient $\Gamma$ un groupe totalement ordonné, et $k$ un corps. Soient $\Gamma_+$ le monoïde des éléments positifs de $\Gamma$, et $C$ l’algèbre de $\Gamma_+$ sur $k$. Par définition, $C$ possède une base $(x_\alpha)_{\alpha \in \Gamma_+}$ sur $k$ dont la table de multiplication est $x_\alpha x_\beta = x_{\alpha + \beta}$. Si $x = \sum_\alpha a_\alpha x_\alpha$ est un élément non nul de $C$, posons $v(x) = \inf_{a_\alpha \neq 0} (\alpha)$ et posons $v(0) = + \infty$; on vérifie immédiatement que l’application $v$ de $C$ dans $\Gamma_\infty$ satisfait aux conditions (VL_I) et (VL_{II}) du no 1, et que $C$ est intègre. Soient $K$ le corps des fractions de $C$, et $w$ la valuation de $K$ qui prolonge $v$ (prop. 4, no 2). Comme tout élément de $\Gamma$ est différence de deux éléments positifs, $w$ admet $\Gamma$ pour groupe des ordres. Soient $A$ l’anneau de $w$, et $m$ son idéal maximal; on va montrer que $A$ est somme directe de $m$ et de $k$ (identifié à $k.1$), ce qui prouvera que le corps résiduel de $w$ est isomorphe à $k$. Il est clair que $m \cap k = (0)$. D’autre part, en notant $p$ l’idéal de $C$ engendré par les $x_\alpha$ où $\alpha > 0$, tout élément $x$ de valuation 0 dans $K$ se met sous la forme $(a + y)/(b + z)$ avec $a \in k^*, b \in k^*, y \in p$ et $z \in p$; on a alors
 
 $$
 x = ab^{-1} + (by - az)\ b^{-1}(b + z)^{-1}
 $$
 
-d’où $\omega(x - ab^{-1}) > 0$ et $x \equiv ab^{-1}$ (mod. $m$); ceci démontre notre assertion.
+d’où $w(x - ab^{-1}) > 0$ et $x \equiv ab^{-1}$ (mod. $m$); ceci démontre notre assertion.
 
 Si $\Gamma = \mathbf{Z} \times \mathbf{Z}$, on a $K = k(X, Y)$, et la construction précédente fournit donc des valuations de $k(X, Y)$, impropres sur $k$, dont le groupe des ordres est $\mathbf{Z} \times \mathbf{Z}$ et le corps résiduel $k$. Ces valuations dépendent de la structure d’ordre choisie sur $\mathbf{Z} \times \mathbf{Z}$. On peut, par exemple, munir $\mathbf{Z} \times \mathbf{Z}$ de l’ordre lexicographique. Ou bien, $\alpha$ étant un nombre irrationnel, on peut identifier $\mathbf{Z} \times \mathbf{Z}$ à un sous-groupe de $\mathbf{R}$ par l’homomorphisme $(m, n) \to m + n\alpha$ (homomorphisme qui est injectif car $\alpha$ est irrationnel), et munir $\mathbf{Z} \times \mathbf{Z}$ de l’ordre induit par celui de $\mathbf{R}$.
 
@@ -207,17 +207,17 @@ Si $\Gamma = \mathbf{Z} \times \mathbf{Z}$, on a $K = k(X, Y)$, et la constructi
 
 Soit G un ensemble ordonné. Un sous-ensemble M de G est dit majeur si les relations $x \in M$ et $y \geq x$ entraînent $y \in M$.
 
-Soient K un corps, $\varphi$ une valuation de K, A l’anneau de $\varphi$, et G le groupe des ordres de $\varphi$. Pour tout ensemble majeur $M \subset G$, soit $a(M)$ l’ensemble des $x \in K$ tels que $\varphi(x) \in M \cup \{ +\infty \}$. Il est clair que $a(M)$ est un sous-A-module de K.
+Soient K un corps, $v$ une valuation de K, A l’anneau de $v$, et G le groupe des ordres de $v$. Pour tout ensemble majeur $M \subset G$, soit $a(M)$ l’ensemble des $x \in K$ tels que $v(x) \in M \cup \{ +\infty \}$. Il est clair que $a(M)$ est un sous-A-module de K.
 
 #### Proposition 7 {#ac-vi-s3-prop-7 .statement}
 
 L’application $M \to a(M)$ est une bijection croissante de l’ensemble des sous-ensembles majeurs de G sur l’ensemble des sous-A-modules de K.
 
-Soit $b$ un sous-A-module de K. L’ensemble des $\varphi(x)$ pour $x \in b - (0)$ est un sous-ensemble majeur $M(b)$ de G. La prop. 7 sera démontrée si l’on prouve les formules :
+Soit $b$ un sous-A-module de K. L’ensemble des $v(x)$ pour $x \in b - (0)$ est un sous-ensemble majeur $M(b)$ de G. La prop. 7 sera démontrée si l’on prouve les formules :
 (2) $M(a(N)) = N$ pour tout sous-ensemble majeur N de G;
 (3) $a(M(b)) = b$ pour tout sous-A-module $b$ de K.
 
-La formule (2) est facile, car, pour tout $m \in N$, il existe $x \in K$ tel que $\varphi(x) = m$. On a évidemment $b \subset a(M(b))$; inversement, soit $x \in a(M(b))$ et supposons $x \neq 0$; on a $\varphi(x) \in M(b)$, donc il existe $y \in b$ tel que $\varphi(x) = \varphi(y)$; d’où $x = uy$ avec $\varphi(u) = 0$, ce qui prouve qu’on a $x \in Ay \subset b$, et termine la démonstration.
+La formule (2) est facile, car, pour tout $m \in N$, il existe $x \in K$ tel que $v(x) = m$. On a évidemment $b \subset a(M(b))$; inversement, soit $x \in a(M(b))$ et supposons $x \neq 0$; on a $v(x) \in M(b)$, donc il existe $y \in b$ tel que $v(x) = v(y)$; d’où $x = uy$ avec $v(u) = 0$, ce qui prouve qu’on a $x \in Ay \subset b$, et termine la démonstration.
 
 #### Corollaire {#ac-vi-s3-n5-cor-1 .statement}
 
@@ -231,15 +231,15 @@ Par exemple l’idéal maximal $m(A)$ est égal à $a(S)$, où S désigne l’en
 
 #### Définition 3 {#ac-vi-s3-def-3 .statement}
 
-Soient K un corps (non nécessairement commutatif), $\varphi$ une valuation de K, et $\Gamma$ le groupe des ordres de $\varphi$. On dit que $\varphi$ est discrète s’il existe un isomorphisme (nécessairement unique) du groupe ordonné $\Gamma$ sur $\mathbf{Z}$. Soit $\gamma$ l’élément de $\Gamma$ correspondant à 1 par cet isomorphisme; tout élément u de K tel que $v(u) = \gamma$ s’appelle une uniformisante de $v$. Une valuation discrète est dite normée si son groupe des ordres est $\mathbf{Z}$.
+Soient K un corps (non nécessairement commutatif), $v$ une valuation de K, et $\Gamma$ le groupe des ordres de $v$. On dit que $v$ est discrète s’il existe un isomorphisme (nécessairement unique) du groupe ordonné $\Gamma$ sur $\mathbf{Z}$. Soit $\gamma$ l’élément de $\Gamma$ correspondant à 1 par cet isomorphisme; tout élément u de K tel que $v(u) = \gamma$ s’appelle une uniformisante de $v$. Une valuation discrète est dite normée si son groupe des ordres est $\mathbf{Z}$.
 
-Par exemple la valuation $\nu_p$ définie par un élément extrémal $p$ d’un anneau principal *ou factoriel*, est une valuation discrète normée qui admet $p$ pour uniformisante. En particulier, si $k$ est un corps, $k[[T]]$ est l’anneau d’une valuation discrète de $k((T))$, qui admet T pour uniformisante. *Soient S une variété analytique complexe connexe de dimension 1, K le corps des fonctions méromorphes sur S, et $z_0$ un point de S; l’ensemble des $f \in K$ qui sont holomorphes en $z_0$ est l’anneau d’une valuation discrète $\nu$; pour qu’une fonction $f \in K$ soit une uniformisante pour $\nu$, il faut et il suffit qu’elle soit holomorphe et nulle en $z_0$ et qu’il existe un voisinage V de $z_0$ dans S tel que la restriction de $f$ à V soit homéomorphisme de V sur un voisinage de l’origine dans $\mathbf{C}$. C’est cet exemple, et d’autres analogues, qui sont à l’origine du mot « uniformisante »*.
+Par exemple la valuation $v_p$ définie par un élément extrémal $p$ d’un anneau principal *ou factoriel*, est une valuation discrète normée qui admet $p$ pour uniformisante. En particulier, si $k$ est un corps, $k[[T]]$ est l’anneau d’une valuation discrète de $k((T))$, qui admet T pour uniformisante. *Soient S une variété analytique complexe connexe de dimension 1, K le corps des fonctions méromorphes sur S, et $z_0$ un point de S; l’ensemble des $f \in K$ qui sont holomorphes en $z_0$ est l’anneau d’une valuation discrète $v$; pour qu’une fonction $f \in K$ soit une uniformisante pour $v$, il faut et il suffit qu’elle soit holomorphe et nulle en $z_0$ et qu’il existe un voisinage V de $z_0$ dans S tel que la restriction de $f$ à V soit homéomorphisme de V sur un voisinage de l’origine dans $\mathbf{C}$. C’est cet exemple, et d’autres analogues, qui sont à l’origine du mot « uniformisante »*.
 
 #### Proposition 8 {#ac-vi-s3-prop-8 .statement}
 
-Soient K un corps (non nécessairement commutatif), $\nu$ une valuation discrète de K, A l’anneau de $\nu$, et u une uniformisante pour $\nu$. Les idéaux non nuls de A sont bilatères et de la forme $Au^n (n \geqslant 0)$.
+Soient K un corps (non nécessairement commutatif), $v$ une valuation discrète de K, A l’anneau de $v$, et u une uniformisante pour $v$. Les idéaux non nuls de A sont bilatères et de la forme $Au^n (n \geqslant 0)$.
 
-On peut supposer $\nu$ normée, de sorte que $\nu(u) = 1$. Pour tout $x \in K^*$, il y a un entier $n \in \mathbf{Z}$ tel que $\nu(x) = n = \nu(u^n)$, donc on peut écrire $x = zu^n = u^n z'$, où $z, z'$ sont deux éléments inversibles de l’anneau A; d’où la proposition.
+On peut supposer $v$ normée, de sorte que $v(u) = 1$. Pour tout $x \in K^*$, il y a un entier $n \in \mathbf{Z}$ tel que $v(x) = n = v(u^n)$, donc on peut écrire $x = zu^n = u^n z'$, où $z, z'$ sont deux éléments inversibles de l’anneau A; d’où la proposition.
 
 #### Proposition 9 {#ac-vi-s3-prop-9 .statement}
 

@@ -28,14 +28,14 @@ subsections:
       pdf_page: 15
 statements: 7
 exercises: 7
-content_sha256: 7ee50078c78483bc92858205c07364edcc77839ac67fb0ee091a1f4c9ffe4e8f
+content_sha256: 64e5515bf5e1f007bc69b4722dfff3f7637a4b2e0045ac638909cace9cef610c
 ---
 
 ## § 1. Diagrammes et suites exactes
 
 ### 1. Diagrammes.
 
-Soient par exemple A, B, C, D, E cinq ensembles, et soient $f$ une application de A dans B, $g$ une application de B dans C, $h$ une application de D dans E, $u$ une application de B dans D et $\varphi$ une application de C dans E. Pour résumer une situation de ce genre, on fait souvent usage de diagrammes ; par exemple, on résumera la situation précédente par le diagramme suivant (Ens., chap. II, § 3, n° 4) :
+Soient par exemple A, B, C, D, E cinq ensembles, et soient $f$ une application de A dans B, $g$ une application de B dans C, $h$ une application de D dans E, $u$ une application de B dans D et $v$ une application de C dans E. Pour résumer une situation de ce genre, on fait souvent usage de diagrammes ; par exemple, on résumera la situation précédente par le diagramme suivant (Ens., chap. II, § 3, n° 4) :
 
 $$
 \begin{array}{ccc}
@@ -47,9 +47,9 @@ $$
 
 Dans un tel diagramme, le groupe de signes $A \xrightarrow{f} B$ schématise le fait que $f$ est une application de A dans B. Lorsqu’il ne peut y avoir d’ambiguïté sur $f$, on supprime la lettre $f$, et on écrit simplement $A \to B$.
 
-Lorsque A, B, C, D, E sont des groupes (resp. des groupes commutatifs) et $f, g, h, u, \varphi$ des homomorphismes de groupes, on dit pour abréger que le diagramme (1) est un diagramme de groupes (resp. de groupes commutatifs).
+Lorsque A, B, C, D, E sont des groupes (resp. des groupes commutatifs) et $f, g, h, u, v$ des homomorphismes de groupes, on dit pour abréger que le diagramme (1) est un diagramme de groupes (resp. de groupes commutatifs).
 
-En principe, un diagramme n’est pas un objet mathématique, mais seulement une figure, destinée à faciliter la lecture d’un raisonnement. En pratique, on se sert souvent des diagrammes comme de symboles abréviateurs, qui évitent de nommer tous les ensembles et toutes les applications que l’on veut considérer ; on dit ainsi « considérons le diagramme (1) » au lieu de dire : « soient A, B, C, D, E cinq ensembles... et $\varphi$ une application de C dans E » ; voir par exemple l’énoncé de la prop. 2 du n° 4.
+En principe, un diagramme n’est pas un objet mathématique, mais seulement une figure, destinée à faciliter la lecture d’un raisonnement. En pratique, on se sert souvent des diagrammes comme de symboles abréviateurs, qui évitent de nommer tous les ensembles et toutes les applications que l’on veut considérer ; on dit ainsi « considérons le diagramme (1) » au lieu de dire : « soient A, B, C, D, E cinq ensembles... et $v$ une application de C dans E » ; voir par exemple l’énoncé de la prop. 2 du n° 4.
 
 ### 2. Diagrammes commutatifs.
 
@@ -172,7 +172,7 @@ On suppose que les deux lignes de (10) sont exactes. Alors :
 
 (ii) Si a est surjectif, on a
 
-(12) $\operatorname{Ker}(b) + \operatorname{Im}(u) = \operatorname{Ker}(\varphi' \circ b) = \operatorname{Ker}(c \circ \varphi).$
+(12) $\operatorname{Ker}(b) + \operatorname{Im}(u) = \operatorname{Ker}(v' \circ b) = \operatorname{Ker}(c \circ v).$
 
 Prouvons (i). Il est clair que l’on a
 
@@ -180,15 +180,15 @@ $$
 \operatorname{Im}(u' \circ a) = \operatorname{Im}(b \circ u) \subset \operatorname{Im}(b) \cap \operatorname{Im}(u').
 $$
 
-Inversement, soit $x \in \operatorname{Im}(b) \cap \operatorname{Im}(u')$. Il existe $y \in B$ tel que $x = b(y)$. Comme $\varphi' \circ u' = 0$, on a $0 = \varphi'(x) = \varphi'(b(y)) = c(\varphi(y))$, d’où $\varphi(y) = 0$ puisque c est injectif. Comme $(u, \varphi)$ est une suite exacte, il existe $z \in A$ tel que $y = u(z)$, d’où $x = b(u(z))$.
+Inversement, soit $x \in \operatorname{Im}(b) \cap \operatorname{Im}(u')$. Il existe $y \in B$ tel que $x = b(y)$. Comme $v' \circ u' = 0$, on a $0 = v'(x) = v'(b(y)) = c(v(y))$, d’où $v(y) = 0$ puisque c est injectif. Comme $(u, v)$ est une suite exacte, il existe $z \in A$ tel que $y = u(z)$, d’où $x = b(u(z))$.
 
-Prouvons (ii). Comme $\varphi \circ u = 0$ et $\varphi' \circ u' = 0$, il est clair que
+Prouvons (ii). Comme $v \circ u = 0$ et $v' \circ u' = 0$, il est clair que
 
 $$
-\operatorname{Ker}(b) + \operatorname{Im}(u) \subset \operatorname{Ker}(\varphi' \circ b) = \operatorname{Ker}(c \circ \varphi).
+\operatorname{Ker}(b) + \operatorname{Im}(u) \subset \operatorname{Ker}(v' \circ b) = \operatorname{Ker}(c \circ v).
 $$
 
-Inversement, soit $x \in \operatorname{Ker}(\varphi' \circ b)$. Alors $b(x) \in \operatorname{Ker}(\varphi')$, et il existe $y' \in A'$ tel que $u'(y') = b(x)$ puisque la suite $(u', \varphi')$ est exacte. Comme $a$ est surjectif, il existe $y \in A$ tel que $a(y) = y'$, d’où $b(x) = u'(a(y)) = b(u(y))$; on en conclut que $x - u(y) \in \operatorname{Ker}(b)$, ce qui termine la démonstration.
+Inversement, soit $x \in \operatorname{Ker}(v' \circ b)$. Alors $b(x) \in \operatorname{Ker}(v')$, et il existe $y' \in A'$ tel que $u'(y') = b(x)$ puisque la suite $(u', v')$ est exacte. Comme $a$ est surjectif, il existe $y \in A$ tel que $a(y) = y'$, d’où $b(x) = u'(a(y)) = b(u(y))$; on en conclut que $x - u(y) \in \operatorname{Ker}(b)$, ce qui termine la démonstration.
 
 #### Lemme 1 {#ac-i-s1-lem-1 .statement}
 
@@ -277,17 +277,17 @@ Si maintenant $x_1, x_2$ sont des éléments de $\mathrm{Ker}(c)$ et $x = x_1 + 
 
 Supposons que $x = v_1(x')$ pour un $x' \in \mathrm{Ker}(b)$ ; on prendra alors pour $y \in B$ l’élément $j(x')$. Comme $b(j(x')) = 0$, on en conclut $d(x) = 0$, donc $d \circ v_1 = 0$. Inversement, supposons que $d(x) = 0$. Avec les notations précédentes, on a donc $t' = a(s)$, où $s \in A$. Dans ce cas, on a $b(y) = u'(t') = u'(a(s)) = b(u(s))$, ou encore $b(y - u(s)) = 0$. L’élément $y - u(s)$ est donc de la forme $j(n)$ pour $n \in \mathrm{Ker}(b)$, et on a $k(x) = v(y) = v(u(s) + j(n)) = v(j(n)) = k(v_1(n))$ ; comme $k$ est injectif, $x = v_1(n)$, ce qui prouve que la suite (*) est exacte en $\mathrm{Ker}(c)$.
 
-Enfin, on a (toujours avec les mêmes notations) $u_2(d(x)) =$ u_2(p(t')) = q(u'(t')) = q(b(y)) = 0 donc u_2 \circ d = 0. Inversement, supposons qu’un élément $w = p(t')$ de Coker (a) soit tel que $u_2(w) = u_2(p(t')) = 0$ (avec $t' \in \mathbf{A}'$). On a donc $q(u'(t')) = 0$, et par suite $u'(t') = b(y)$ pour un $y \in \mathbf{B}$; comme $\varphi'(u'(t')) = 0$, on a $\varphi'(b(y)) = 0$, donc $c(\varphi(y)) = 0$, autrement dit $\varphi(y) = k(x)$ pour un $x \in \mathrm{Ker}\,(c)$, et par définition $w = d(x)$, ce qui montre que la suite (*) est exacte en Coker (a). On a vu dans (i) qu’elle est exacte en Ker (b) et dans (ii) qu’elle est exacte en Coker (b), ce qui achève de prouver (iii).
+Enfin, on a (toujours avec les mêmes notations) $u_2(d(x)) =$ u_2(p(t')) = q(u'(t')) = q(b(y)) = 0 donc u_2 \circ d = 0. Inversement, supposons qu’un élément $w = p(t')$ de Coker (a) soit tel que $u_2(w) = u_2(p(t')) = 0$ (avec $t' \in \mathbf{A}'$). On a donc $q(u'(t')) = 0$, et par suite $u'(t') = b(y)$ pour un $y \in \mathbf{B}$; comme $v'(u'(t')) = 0$, on a $v'(b(y)) = 0$, donc $c(v(y)) = 0$, autrement dit $v(y) = k(x)$ pour un $x \in \mathrm{Ker}\,(c)$, et par définition $w = d(x)$, ce qui montre que la suite (*) est exacte en Coker (a). On a vu dans (i) qu’elle est exacte en Ker (b) et dans (ii) qu’elle est exacte en Coker (b), ce qui achève de prouver (iii).
 
 #### Remarque {#ac-i-s1-n4-rem-1 .statement}
 
-Lorsque les groupes du diagramme (10) sont tous des modules (à droite par exemple) sur un anneau $A$ et les homomorphismes des homomorphismes de $A$-modules, on vérifie aussitôt que l’homomorphisme $d$ défini dans la prop. 2, (iii) est encore un homomorphisme de $A$-modules : si $x \in \mathrm{Ker}\,(c)$ et $\alpha \in A$, et si $y \in \mathbf{B}$ est tel que $\varphi(y) = k(x)$, il suffit de remarquer que $\varphi(y\alpha) = k(x\alpha)$.
+Lorsque les groupes du diagramme (10) sont tous des modules (à droite par exemple) sur un anneau $A$ et les homomorphismes des homomorphismes de $A$-modules, on vérifie aussitôt que l’homomorphisme $d$ défini dans la prop. 2, (iii) est encore un homomorphisme de $A$-modules : si $x \in \mathrm{Ker}\,(c)$ et $\alpha \in A$, et si $y \in \mathbf{B}$ est tel que $v(y) = k(x)$, il suffit de remarquer que $v(y\alpha) = k(x\alpha)$.
 
 #### Corollaire 1 {#ac-i-s1-prop-2-cor-1 .statement}
 
 Supposons que le diagramme (10) soit commutatif et ait ses lignes exactes. Alors :
 (i) Si $u'$, $a$ et $c$ sont injectifs, $b$ est injectif.
-(ii) Si $\varphi$, $a$ et $c$ sont surjectifs, $b$ est surjectif.
+(ii) Si $v$, $a$ et $c$ sont surjectifs, $b$ est surjectif.
 
 L’assertion (i) est conséquence de l’assertion (i) de la prop. 2 : en effet on a $\mathrm{Ker}\,(a) = 0$ et $\mathrm{Ker}\,(c) = 0$, donc $\mathrm{Ker}\,(b) = 0$.
 
@@ -296,20 +296,20 @@ L’assertion (ii) est conséquence de l’assertion (ii) de la prop. 2 : en eff
 #### Corollaire 2 {#ac-i-s1-prop-2-cor-2 .statement}
 
 Supposons que le diagramme (10) soit commutatif et ait ses lignes exactes. Dans ces conditions :
-(i) Si $b$ est injectif et si $a$ et $\varphi$ sont surjectifs, alors $c$ est injectif.
+(i) Si $b$ est injectif et si $a$ et $v$ sont surjectifs, alors $c$ est injectif.
 (ii) Si $b$ est surjectif et si $c$ et $u'$ sont injectifs, alors $a$ est surjectif.
 
 Pour prouver (i), considérons le diagramme
 
 $$
 \begin{array}{cccc}
-u(\mathbf{A}) & \xrightarrow{w} & \mathbf{B} \xrightarrow{\varphi} \mathbf{C} \\
+u(\mathbf{A}) & \xrightarrow{w} & \mathbf{B} \xrightarrow{v} \mathbf{C} \\
 a' \downarrow & & b \downarrow & c \downarrow \\
-u'(\mathbf{A}') & \xrightarrow{w'} & \mathbf{B}' \xrightarrow{\varphi'} \mathbf{C}'
+u'(\mathbf{A}') & \xrightarrow{w'} & \mathbf{B}' \xrightarrow{v'} \mathbf{C}'
 \end{array}
 $$
 
-où $a'$ est l’application ayant même graphe que la restriction de $b$ à $u(\mathbf{A})$, $w$ et $w'$ les injections canoniques ; il est clair que ce diagramme est commutatif et a ses lignes exactes. En outre $w'$ est injectif, et par hypothèse $\varphi$ est surjectif ; on a donc par la prop. 2, (iii), une suite exacte.
+où $a'$ est l’application ayant même graphe que la restriction de $b$ à $u(\mathbf{A})$, $w$ et $w'$ les injections canoniques ; il est clair que ce diagramme est commutatif et a ses lignes exactes. En outre $w'$ est injectif, et par hypothèse $v$ est surjectif ; on a donc par la prop. 2, (iii), une suite exacte.
 
 $$
 0 = \mathrm{Ker}\,(b) \to \mathrm{Ker}\,(c) \xrightarrow{d} \mathrm{Coker}\,(a') = 0
@@ -321,13 +321,13 @@ Pour prouver (ii), considérons le diagramme
 
 $$
 \begin{array}{ccccc}
-A & \xrightarrow{u} & B & \xrightarrow{w} & \varphi(B) \\
+A & \xrightarrow{u} & B & \xrightarrow{w} & v(B) \\
 a \downarrow & & b \downarrow & & c' \downarrow \\
-A' & \xrightarrow{u'} & B' & \xrightarrow{w'} & \varphi'(B')
+A' & \xrightarrow{u'} & B' & \xrightarrow{w'} & v'(B')
 \end{array}
 $$
 
-où cette fois $c'$ est l’application ayant même graphe que la restriction de $c$ à $\varphi(B)$, et $w$ et $w'$ ont respectivement mêmes graphes que $\varphi$ et $\varphi'$ ; ce diagramme est commutatif et ses lignes sont exactes. En outre $w$ est surjectif et par hypothèse $u'$ est injectif ; on a donc, par la prop. 2, (iii), une suite exacte
+où cette fois $c'$ est l’application ayant même graphe que la restriction de $c$ à $v(B)$, et $w$ et $w'$ ont respectivement mêmes graphes que $v$ et $v'$ ; ce diagramme est commutatif et ses lignes sont exactes. En outre $w$ est surjectif et par hypothèse $u'$ est injectif ; on a donc, par la prop. 2, (iii), une suite exacte
 
 $$
 0 = \mathrm{Ker}\,(c') \xrightarrow{d} \mathrm{Coker}\,(a) \to \mathrm{Coker}\,(b) = 0

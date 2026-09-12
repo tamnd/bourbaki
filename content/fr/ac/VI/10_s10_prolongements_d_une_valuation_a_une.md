@@ -24,7 +24,7 @@ subsections:
       pdf_page: 161
 statements: 14
 exercises: 2
-content_sha256: 21d8edd7def4b194356f8ff434d28d0c855d313af5be8e5c3fd2d649da69d566
+content_sha256: 957db58ac3145bf3286e15a80d9fd627934fbcb4686a687a8c344613a0353a8d
 ---
 
 ## § 10. Prolongements d’une valuation à une extension transcendante.
@@ -33,70 +33,70 @@ content_sha256: 21d8edd7def4b194356f8ff434d28d0c855d313af5be8e5c3fd2d649da69d566
 
 #### Lemme 1 {#ac-vi-s10-lem-1 .statement}
 
-Soient $K$ un corps, $\nu$ une valuation de $K$, $\Gamma$ son groupe des ordres, $\Gamma'$ un groupe totalement ordonné contenant $\Gamma$, et $\xi$ un élément de $\Gamma'$. Il existe une valuation $\omega$ et une seule de $K(X)$ telle que, pour $P = \sum_j a_j X^j$ ($a_j \in K$), on ait $\omega(P) = \inf_j (\nu(a_j) + j\xi)$.
+Soient $K$ un corps, $v$ une valuation de $K$, $\Gamma$ son groupe des ordres, $\Gamma'$ un groupe totalement ordonné contenant $\Gamma$, et $\xi$ un élément de $\Gamma'$. Il existe une valuation $w$ et une seule de $K(X)$ telle que, pour $P = \sum_j a_j X^j$ ($a_j \in K$), on ait $w(P) = \inf_j (v(a_j) + j\xi)$.
 
 En vertu de la prop. 4 du § 3, no 2, il suffit de montrer que la formule
 
 $$
-\omega\left( \sum_j a_j X^j \right) = \inf_j (\nu(a_j) + j\xi)
+w\left( \sum_j a_j X^j \right) = \inf_j (v(a_j) + j\xi)
 $$
 
 définit une valuation de l’anneau $K[X]$. Comme
 
 $$
-\nu(a_j + b_j) + j\xi \geq \inf(\nu(a_j), \nu(b_j)) + j\xi = \inf(\nu(a_j) + j\xi, \nu(b_j) + j\xi),
+v(a_j + b_j) + j\xi \geq \inf(v(a_j), v(b_j)) + j\xi = \inf(v(a_j) + j\xi, v(b_j) + j\xi),
 $$
 
 on a
 
 $$
-\omega(P + Q) \geq \inf(\omega(P), \omega(Q))
+w(P + Q) \geq \inf(w(P), w(Q))
 $$
 
-pour $P, Q$ dans $K[X]$, l’égalité ayant lieu si $\omega(P) \neq \omega(Q)$.
+pour $P, Q$ dans $K[X]$, l’égalité ayant lieu si $w(P) \neq w(Q)$.
 
 Démontrons que l’on a
 
 $$
-\omega(PQ) = \omega(P) + \omega(Q)
+w(PQ) = w(P) + w(Q)
 $$
 
-pour $P = \sum_j a_j X^j$ et $Q = \sum_j b_j X^j$. Soit $i$ (resp. $k$) le plus petit des entiers $j$ tels que $\nu(a_j) + j\xi$ (resp. $\nu(b_j) + j\xi$) prenne sa valeur minimum; notons $\alpha$ (resp. $\beta$) cette valeur minimum. Pour $j, j'$ dans $\mathbf{N}$, on a
+pour $P = \sum_j a_j X^j$ et $Q = \sum_j b_j X^j$. Soit $i$ (resp. $k$) le plus petit des entiers $j$ tels que $v(a_j) + j\xi$ (resp. $v(b_j) + j\xi$) prenne sa valeur minimum; notons $\alpha$ (resp. $\beta$) cette valeur minimum. Pour $j, j'$ dans $\mathbf{N}$, on a
 $$
-\omega(a_j b_{j'} X^{j+j'}) = \nu(a_j) + j\xi + \nu(b_{j'}) + j'\xi \geq \alpha + \beta,
+w(a_j b_{j'} X^{j+j'}) = v(a_j) + j\xi + v(b_{j'}) + j'\xi \geq \alpha + \beta,
 $$
-d’où $\omega(PQ) \geq \alpha + \beta$ d’après (2). Considérons maintenant le terme $cX^{i+k}$ de degré $i + k$ de PQ; on a $c = \sum_{n \in \mathbf{Z}} a_{i+n} b_{k-n}$; d’après le choix de $i$ et $k$, l’élément
+d’où $w(PQ) \geq \alpha + \beta$ d’après (2). Considérons maintenant le terme $cX^{i+k}$ de degré $i + k$ de PQ; on a $c = \sum_{n \in \mathbf{Z}} a_{i+n} b_{k-n}$; d’après le choix de $i$ et $k$, l’élément
 $$
-\omega(a_{i+n} b_{k-n} X^{i+k}) = \nu(a_{i+n}) + (i+n)\xi + \nu(b_{k-n}) + (k-n)\xi
+w(a_{i+n} b_{k-n} X^{i+k}) = v(a_{i+n}) + (i+n)\xi + v(b_{k-n}) + (k-n)\xi
 $$
-prend une fois et une seule, pour $n = 0$, sa valeur minimum $\alpha + \beta$; on a donc $\omega(cX^{i+k}) = \alpha + \beta$, d’où, d’après (1),
+prend une fois et une seule, pour $n = 0$, sa valeur minimum $\alpha + \beta$; on a donc $w(cX^{i+k}) = \alpha + \beta$, d’où, d’après (1),
 $$
-\omega(PQ) = \alpha + \beta = \omega(P) + \omega(Q).
+w(PQ) = \alpha + \beta = w(P) + w(Q).
 $$
 C.Q.F.D.
 
 #### Proposition 1 {#ac-vi-s10-prop-1 .statement}
 
-Soient K un corps, $\nu$ une valuation de K, $\Gamma$ son groupe des ordres, $\Gamma'$ un groupe totalement ordonné contenant $\Gamma$, et $\xi$ un élément de $\Gamma'$ tel que les relations $n\xi \in \Gamma, n \in \mathbf{Z}$, entraînent $n = 0$. Il existe alors une valuation $\omega$ et une seule de K(X) à valeurs dans $\Gamma'$ et prolongeant $\nu$, telle que $\omega(X) = \xi$. Le corps résiduel de $\omega$ est égal à celui de $\nu$, et son groupe des ordres est le sous-groupe $\Gamma + \mathbf{Z}\xi$ de $\Gamma'$.
+Soient K un corps, $v$ une valuation de K, $\Gamma$ son groupe des ordres, $\Gamma'$ un groupe totalement ordonné contenant $\Gamma$, et $\xi$ un élément de $\Gamma'$ tel que les relations $n\xi \in \Gamma, n \in \mathbf{Z}$, entraînent $n = 0$. Il existe alors une valuation $w$ et une seule de K(X) à valeurs dans $\Gamma'$ et prolongeant $v$, telle que $w(X) = \xi$. Le corps résiduel de $w$ est égal à celui de $v$, et son groupe des ordres est le sous-groupe $\Gamma + \mathbf{Z}\xi$ de $\Gamma'$.
 
-Démontrons d’abord l’unicité de $\omega$. Soit $P = \sum_j a_j X^j$ un élément de K[X]. On a $\omega(a_j X^j) = \nu(a_j) + j\xi$, ce qui montre que les monômes $a_j X^j$ tels que $a_j \neq 0$ ont des valeurs distinctes pour $\omega$. Il s’ensuit que $\omega(P) = \inf_j (\nu(a_j) + j\xi)$, ce qui montre à la fois l’unicité de $\omega$ sur K[X] (donc aussi sur K(X)) et le fait que le groupe des ordres de $\omega$ est $\Gamma + \mathbf{Z}\xi$. On voit en outre que, si $P \neq 0$, on peut écrire $P = aX^n(1+u)$ avec $a \in K^*, n \in \mathbf{N}, u \in K(X)$ et $\omega(u) > 0$; tout élément $R \neq 0$ de K(X) peut donc s’écrire sous la forme $R = bX^n(1+u')$, avec $b \in K^*, n \in \mathbf{Z}, u' \in K(X)$ et $\omega(u') > 0$; on a $\omega(R) = \nu(b) + n\xi$, donc $\omega(R) = 0$ si et seulement si $\nu(b) = 0$ et $n = 0$; ainsi, lorsque $\omega(R) = 0$, R et b sont congrus modulo l’idéal de $\omega$, ce qui montre que le corps résiduel de $\omega$ est égal à celui de $\nu$.
+Démontrons d’abord l’unicité de $w$. Soit $P = \sum_j a_j X^j$ un élément de K[X]. On a $w(a_j X^j) = v(a_j) + j\xi$, ce qui montre que les monômes $a_j X^j$ tels que $a_j \neq 0$ ont des valeurs distinctes pour $w$. Il s’ensuit que $w(P) = \inf_j (v(a_j) + j\xi)$, ce qui montre à la fois l’unicité de $w$ sur K[X] (donc aussi sur K(X)) et le fait que le groupe des ordres de $w$ est $\Gamma + \mathbf{Z}\xi$. On voit en outre que, si $P \neq 0$, on peut écrire $P = aX^n(1+u)$ avec $a \in K^*, n \in \mathbf{N}, u \in K(X)$ et $w(u) > 0$; tout élément $R \neq 0$ de K(X) peut donc s’écrire sous la forme $R = bX^n(1+u')$, avec $b \in K^*, n \in \mathbf{Z}, u' \in K(X)$ et $w(u') > 0$; on a $w(R) = v(b) + n\xi$, donc $w(R) = 0$ si et seulement si $v(b) = 0$ et $n = 0$; ainsi, lorsque $w(R) = 0$, R et b sont congrus modulo l’idéal de $w$, ce qui montre que le corps résiduel de $w$ est égal à celui de $v$.
 
-Enfin l’existence de $\omega$ résulte du lemme 1.
+Enfin l’existence de $w$ résulte du lemme 1.
 
 #### Proposition 2 {#ac-vi-s10-prop-2 .statement}
 
-Soient K un corps, $\nu$ une valuation de K, $\Gamma$ son groupe des ordres, et k son corps résiduel. Il existe une valuation $\omega$ et une seule de K(X) prolongeant $\nu$, telle que $\omega(X) = 0$ et que l’image t de X dans le corps résiduel k’ de ω soit transcendante sur k. Le groupe des ordres de ω est égal à celui de v, et son corps résiduel est k(t).
+Soient K un corps, $v$ une valuation de K, $\Gamma$ son groupe des ordres, et k son corps résiduel. Il existe une valuation $w$ et une seule de K(X) prolongeant $v$, telle que $w(X) = 0$ et que l’image t de X dans le corps résiduel k’ de w soit transcendante sur k. Le groupe des ordres de w est égal à celui de v, et son corps résiduel est k(t).
 
-Pour montrer l’unicité de ω, il nous suffira de montrer que, si P = $\sum_j a_j X^j$ est un élément non nul de K[X], on a
+Pour montrer l’unicité de w, il nous suffira de montrer que, si P = $\sum_j a_j X^j$ est un élément non nul de K[X], on a
 $$
-\omega(P) = \inf_j (\nu(a_j)).
+w(P) = \inf_j (v(a_j)).
 $$
-Quitte à diviser P par un élément de K*, on peut supposer qu’on a $\nu(a_j) \geq 0$ pour tout j, et que l’un des $\nu(a_j)$ est nul. Comme $\omega(X) = 0$, P appartient alors à l’anneau de ω ; notant $\bar{a}_j$ l’image canonique de $a_j$ dans k, l’image canonique de P dans le corps résiduel $k'$ est $\sum_j \bar{a}_j t^j$; comme t est transcendant sur k et que l’un des $\bar{a}_j$ est non nul, cette image est non nulle, d’où
+Quitte à diviser P par un élément de K*, on peut supposer qu’on a $v(a_j) \geq 0$ pour tout j, et que l’un des $v(a_j)$ est nul. Comme $w(X) = 0$, P appartient alors à l’anneau de w ; notant $\bar{a}_j$ l’image canonique de $a_j$ dans k, l’image canonique de P dans le corps résiduel $k'$ est $\sum_j \bar{a}_j t^j$; comme t est transcendant sur k et que l’un des $\bar{a}_j$ est non nul, cette image est non nulle, d’où
 $$
-\omega(P) = 0 = \inf_j (\nu(a_j)).
+w(P) = 0 = \inf_j (v(a_j)).
 $$
 
-Démontrons maintenant l’existence de ω. La formule $\omega(P) = \inf_j (\nu(a_j))$ (pour $P = \sum_j a_j X^j$) définit une valuation ω de K(X) en vertu du lemme 1, et ω a évidemment même groupe des ordres que v. On a $\omega(X) = 0$. Montrons que l’image canonique t de X dans le corps résiduel $k'$ de ω est transcendante sur k : en effet, si $\sum_j \bar{a}_j t^j = 0$ avec $\bar{a}_j \in k$ pour tout j, on a, en désignant par $a_j$ un représentant de $\bar{a}_j$ dans l’anneau de v, $\omega(\sum_j a_j X^j) > 0$; d’où $\nu(a_j) > 0$ pour tout j, donc $\bar{a}_j = 0$ pour tout j. Montrons enfin qu’on a $k' = k(t)$ : en effet, tout élément R de K(X) peut s’écrire $R = c (\sum_j a_j X^j)/(\sum_j b_j X^j)$, avec $c, a_j, b_j$ dans K, $\nu(a_j) \geq 0$ et $\nu(b_j) \geq 0$ pour tout j, l’un des $\nu(a_j)$ et l’un des $\nu(b_j)$ étant nul ; on a $\omega(R) \geq 0$ si et seulement si $\nu(c) \geq 0$ ; en notant f l’homomorphisme canonique de l’anneau de ω sur $k'$, on a
+Démontrons maintenant l’existence de w. La formule $w(P) = \inf_j (v(a_j))$ (pour $P = \sum_j a_j X^j$) définit une valuation w de K(X) en vertu du lemme 1, et w a évidemment même groupe des ordres que v. On a $w(X) = 0$. Montrons que l’image canonique t de X dans le corps résiduel $k'$ de w est transcendante sur k : en effet, si $\sum_j \bar{a}_j t^j = 0$ avec $\bar{a}_j \in k$ pour tout j, on a, en désignant par $a_j$ un représentant de $\bar{a}_j$ dans l’anneau de v, $w(\sum_j a_j X^j) > 0$; d’où $v(a_j) > 0$ pour tout j, donc $\bar{a}_j = 0$ pour tout j. Montrons enfin qu’on a $k' = k(t)$ : en effet, tout élément R de K(X) peut s’écrire $R = c (\sum_j a_j X^j)/(\sum_j b_j X^j)$, avec $c, a_j, b_j$ dans K, $v(a_j) \geq 0$ et $v(b_j) \geq 0$ pour tout j, l’un des $v(a_j)$ et l’un des $v(b_j)$ étant nul ; on a $w(R) \geq 0$ si et seulement si $v(c) \geq 0$ ; en notant f l’homomorphisme canonique de l’anneau de w sur $k'$, on a
 $$
 f(R) = f(c)(\sum_j f(a_j)t^j)/(\sum_j f(b_j)t^j),
 $$
@@ -175,25 +175,25 @@ Soit $j$ un isomorphisme de groupes de $(G/H) \times H$ sur $G$ tel que $j(0, x)
 
 ### 3. *Cas d’une extension transcendante quelconque.*
 
-Dans ce no nous utiliserons les notations suivantes : K est un corps, $K'$ une extension de K, $\nu$ une valuation de K, $\nu'$ un prolongement de $\nu$ à $K'$, $\Gamma$ et $k$ (resp. $\Gamma'$ et $k'$) le groupe des ordres et le corps résiduel de $\nu$ (resp. $\nu'$). Nous poserons :
+Dans ce no nous utiliserons les notations suivantes : K est un corps, $K'$ une extension de K, $v$ une valuation de K, $v'$ un prolongement de $v$ à $K'$, $\Gamma$ et $k$ (resp. $\Gamma'$ et $k'$) le groupe des ordres et le corps résiduel de $v$ (resp. $v'$). Nous poserons :
 
 $$
 d(K'/K) = \dim.\mathrm{al}_K K' = \text{degré de transcendance de } K' \text{ sur } K; \\
-s(\nu'/\nu) = \dim.\mathrm{al}_k k' = \text{degré de transcendance de } k' \text{ sur } k; \\
-r(\nu'/\nu) = r(\Gamma'/\Gamma) = \text{rang rationnel de } \Gamma'/\Gamma,
+s(v'/v) = \dim.\mathrm{al}_k k' = \text{degré de transcendance de } k' \text{ sur } k; \\
+r(v'/v) = r(\Gamma'/\Gamma) = \text{rang rationnel de } \Gamma'/\Gamma,
 $$
 
-si les membres de droite sont finis ; sinon, nous conviendrons de poser $d(K'/K) = +\infty$ (resp. $s(\nu'/\nu) = +\infty,\ r(\nu'/\nu) = +\infty$).
+si les membres de droite sont finis ; sinon, nous conviendrons de poser $d(K'/K) = +\infty$ (resp. $s(v'/v) = +\infty,\ r(v'/v) = +\infty$).
 
 #### Théorème 1 {#ac-vi-s10-thm-1 .statement}
 
-*Soient $x_1, \ldots, x_s$ des éléments de l’anneau de $\nu'$ dont les images canoniques $\overline{x}_i$ dans $k'$ soient algébriquement indépendantes sur $k$, et $y_1, \ldots, y_r$ des éléments de $K'$ tels que les images canoniques des $\nu'(y_j)$ dans $\Gamma'/\Gamma$ soient linéairement indépendantes sur $\mathbf{Z}$. Alors les $r+s$ éléments $x_1, \ldots, x_s, y_1, \ldots, y_r$ de $K'$ sont algébriquement indépendants sur $K$; la restriction de $\nu'$ à $K(x_1, \ldots, x_s, y_1, \ldots, y_r)$ admet $k(\overline{x}_1, \ldots, \overline{x}_s)$ pour corps résiduel, et $\Gamma + \mathbf{Z}\nu'(y_1) + \cdots + \mathbf{Z}\nu'(y_r)$ pour groupe des ordres.*
+*Soient $x_1, \ldots, x_s$ des éléments de l’anneau de $v'$ dont les images canoniques $\overline{x}_i$ dans $k'$ soient algébriquement indépendantes sur $k$, et $y_1, \ldots, y_r$ des éléments de $K'$ tels que les images canoniques des $v'(y_j)$ dans $\Gamma'/\Gamma$ soient linéairement indépendantes sur $\mathbf{Z}$. Alors les $r+s$ éléments $x_1, \ldots, x_s, y_1, \ldots, y_r$ de $K'$ sont algébriquement indépendants sur $K$; la restriction de $v'$ à $K(x_1, \ldots, x_s, y_1, \ldots, y_r)$ admet $k(\overline{x}_1, \ldots, \overline{x}_s)$ pour corps résiduel, et $\Gamma + \mathbf{Z}v'(y_1) + \cdots + \mathbf{Z}v'(y_r)$ pour groupe des ordres.*
 
 Notre assertion est évidente si $r+s=0$. Procédons par récurrence sur $r+s$. Si $r' \leqslant r,\ s' \leqslant s$ et $r'+s' < r+s$, l’hypothèse de récurrence montre que les hypothèses du th. 1 sont vérifiées si l’on remplace K par $K(x_1, \ldots, x_{s'}, y_1, \ldots, y_{r'})$ et les familles $(x_1, \ldots, x_s), (y_1, \ldots, y_r)$ par $(x_{s'+1}, \ldots, x_s), (y_{r'+1}, \ldots, y_r)$. Nous sommes donc ramenés à l’un des deux cas suivants :
 
-a) On a un élément $x$ de l’anneau de $\nu'$ tel que $\overline{x}$ soit transcendant sur $k$; il s’agit de montrer que $x$ est transcendant sur $K$, et que la restriction de $\nu'$ à $K(x)$ admet $k(\overline{x})$ pour corps résiduel et $\Gamma$ pour groupe des ordres.
+a) On a un élément $x$ de l’anneau de $v'$ tel que $\overline{x}$ soit transcendant sur $k$; il s’agit de montrer que $x$ est transcendant sur $K$, et que la restriction de $v'$ à $K(x)$ admet $k(\overline{x})$ pour corps résiduel et $\Gamma$ pour groupe des ordres.
 
-b) On a un élément $y$ de $K'$ tel que les relations $n\nu'(y) \in \Gamma$ et $n \in \mathbf{Z}$ entraînent $n=0$; il s’agit de montrer que $y$ est transcendant sur $K$, et que la restriction de $\nu'$ à $K(y)$ admet $k$ pour corps résiduel, et $\Gamma + \mathbf{Z}\nu'(y)$ pour groupe des ordres.
+b) On a un élément $y$ de $K'$ tel que les relations $nv'(y) \in \Gamma$ et $n \in \mathbf{Z}$ entraînent $n=0$; il s’agit de montrer que $y$ est transcendant sur $K$, et que la restriction de $v'$ à $K(y)$ admet $k$ pour corps résiduel, et $\Gamma + \mathbf{Z}v'(y)$ pour groupe des ordres.
 
 Or la prop. 1 du § 8, no 1 montre que $x$ (resp. $y$) ne peut être algébrique sur $K$. Les autres assertions de a) (resp. b)) s’en déduisent aussitôt en vertu de la prop. 2 (resp. prop. 1) du no 1.
 
@@ -202,24 +202,24 @@ Or la prop. 1 du § 8, no 1 montre que $x$ (resp. $y$) ne peut être algébrique
 *On a l’inégalité*
 
 $$
-s(\nu'/\nu) + r(\nu'/\nu) \leq d(K'/K).
+s(v'/v) + r(v'/v) \leq d(K'/K).
 $$
 
 *De plus, si $K'$ est une extension de type fini de $K$, et s’il y a égalité dans (9), alors $\Gamma'/\Gamma$ est un $\mathbf{Z}$-module de type fini, et $k'$ est une extension de type fini de $k$.
 
-Soient $r$ et $s$ des entiers naturels tels que $r \leq r(\nu'/\nu)$ et $s \leq s(\nu'/\nu)$; montrons, ce qui prouvera (9), qu’on a $r + s \leq d(K'/K)$. Par hypothèse, il existe des éléments $x_1, \ldots, x_s, y_1, \ldots, y_r$ de $K'$ qui vérifient les hypothèses du th. 1. Il sont donc algébriquement indépendants sur $K$, ce qui démontre l’inégalité $r + s \leq d(K'/K)$.
+Soient $r$ et $s$ des entiers naturels tels que $r \leq r(v'/v)$ et $s \leq s(v'/v)$; montrons, ce qui prouvera (9), qu’on a $r + s \leq d(K'/K)$. Par hypothèse, il existe des éléments $x_1, \ldots, x_s, y_1, \ldots, y_r$ de $K'$ qui vérifient les hypothèses du th. 1. Il sont donc algébriquement indépendants sur $K$, ce qui démontre l’inégalité $r + s \leq d(K'/K)$.
 
-Si $K'$ est une extension de type fini de $K$, $d(K'/K)$ est fini, donc $s(\nu'/\nu)$ et $r(\nu'/\nu)$ sont aussi finis; notons-les $s$ et $r$. Il existe des éléments $x_1, \ldots, x_s, y_1, \ldots, y_r$ de $K'$ qui vérifient les hypothèses du th. 1. Si $r + s = d(K'/K)$, ces éléments forment une base de transcendance de $K'$ sur $K$, et $K'$ est donc une extension algébrique de degré fini de $K'' = K(x_1, \ldots, y_r)$. Soient $\Gamma''$ et $k''$ le groupe des ordres et le corps résiduel de la restriction de $\nu'$ à $K''$. D’après le th. 1, $\Gamma''/\Gamma$ est un $\mathbf{Z}$-module de type fini, et $k''$ est une extension pure de type fini de $k$. D’autre part, comme $K'$ est une extension algébrique de degré fini de $K''$, $\Gamma'/\Gamma''$ est un groupe fini, et $k'$ est une extension algébrique de degré fini de $k''$ ($§ 8$, no 1, lemme 2). Ceci démontre le corollaire 1.
+Si $K'$ est une extension de type fini de $K$, $d(K'/K)$ est fini, donc $s(v'/v)$ et $r(v'/v)$ sont aussi finis; notons-les $s$ et $r$. Il existe des éléments $x_1, \ldots, x_s, y_1, \ldots, y_r$ de $K'$ qui vérifient les hypothèses du th. 1. Si $r + s = d(K'/K)$, ces éléments forment une base de transcendance de $K'$ sur $K$, et $K'$ est donc une extension algébrique de degré fini de $K'' = K(x_1, \ldots, y_r)$. Soient $\Gamma''$ et $k''$ le groupe des ordres et le corps résiduel de la restriction de $v'$ à $K''$. D’après le th. 1, $\Gamma''/\Gamma$ est un $\mathbf{Z}$-module de type fini, et $k''$ est une extension pure de type fini de $k$. D’autre part, comme $K'$ est une extension algébrique de degré fini de $K''$, $\Gamma'/\Gamma''$ est un groupe fini, et $k'$ est une extension algébrique de degré fini de $k''$ ($§ 8$, no 1, lemme 2). Ceci démontre le corollaire 1.
 
 #### Corollaire 2 {#ac-vi-s10-thm-1-cor-2 .statement}
 
-*Soient $h$ et $h'$ les hauteurs de $\nu$ et $\nu'$. On a alors*
+*Soient $h$ et $h'$ les hauteurs de $v$ et $v'$. On a alors*
 
 $$
-s(\nu'/\nu) + h' \leq d(K'/K) + h.
+s(v'/v) + h' \leq d(K'/K) + h.
 $$
 
-En effet, d’après la prop. 3, on a $h' \leq r(\nu'/\nu) + h$.
+En effet, d’après la prop. 3, on a $h' \leq r(v'/v) + h$.
 
 #### Corollaire 3 {#ac-vi-s10-thm-1-cor-3 .statement}
 
@@ -229,15 +229,15 @@ S’il y a égalité dans (10), il y a égalité dans (9), d’où le fait que $
 
 #### Corollaire 4 {#ac-vi-s10-thm-1-cor-4 .statement}
 
-Supposons que $\varphi$ soit impropre (auquel cas $k = K$). On a alors
+Supposons que $v$ soit impropre (auquel cas $k = K$). On a alors
 
 (11) $$ h(\Gamma') + d(k'/K) \leq r(\Gamma') + d(k'/K) \leq d(K'/K). $$
 
-Si, en particulier, $\varphi'$ est de hauteur 1, on a
+Si, en particulier, $v'$ est de hauteur 1, on a
 
 (12) $$ d(k'/K) \leq d(K'/K) - 1; $$
 
-de plus, si $K'$ est une extension de type fini de $K$ et s’il y a égalité dans (12), alors $\varphi'$ est une valuation discrète, et $k'$ est une extension de type fini de $K$.
+de plus, si $K'$ est une extension de type fini de $K$ et s’il y a égalité dans (12), alors $v'$ est une valuation discrète, et $k'$ est une extension de type fini de $K$.
 
 C’est une série de cas particuliers des corollaires 1, 2, 3.
 

@@ -57,7 +57,7 @@ content_sha256: 4c426bd18ca66363a756026d8f187c5de9eff50fba4e46694c05cf72c28b2d61
 translated_from: content/en-mt/ac/X/07_s7_algebres_lisses.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: aaa34242d598f6821b0738736697b9b060d8724ab44b075a978f529e09bfce6c
+source_content_sha256: 509bb0a981e4fe7e45a2ba5778b2b60328b4153d4744989ccac06b6e0368c43f
 translation_model: gpt-5.4
 translation_run: translate-vi-65bb4a06
 glossary_version: 34

@@ -53,7 +53,7 @@ content_sha256: e5c9bd2680591c7d705d813cc53b1419743d0b1ceca7bdb4f11c34510a3fe678
 translated_from: content/en-mt/ac/X/01_s1_profondeur.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 45ce4aed8b702b2a4fc75c122b0bedf601f22162b148fd2e307422069f1eee3b
+source_content_sha256: ac5f9520e1f28092dc4cb58b4770be0f3c9e643512189d799a7ee49c24d658cb
 translation_model: gpt-5.4
 translation_run: translate-vi-c5e1c906
 glossary_version: 34

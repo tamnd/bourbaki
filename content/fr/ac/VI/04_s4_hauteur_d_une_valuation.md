@@ -32,7 +32,7 @@ subsections:
       pdf_page: 111
 statements: 23
 exercises: 5
-content_sha256: 0672499e9920be1571f49f6b0d47500dc5be5e49f15649ef8ca2dded948b2029
+content_sha256: 563676659965a92c71be49b4746926bc03de5a286f245990e54782b081f661a3
 ---
 
 ## § 4. Hauteur d’une valuation.
@@ -106,10 +106,10 @@ Si nous reprenons l’exemple où $G$ est un produit lexicographique $A \times B
 
 ### 3. Comparaison des valuations
 
-Soient $K$ un corps, et $A$ un anneau de valuation pour $K$. Pour tout sous-anneau $B$ de $K$ contenant $A$, on a $U(A) \subset U(B)$. On a donc un homomorphisme canonique $\lambda$ de $\Gamma_A = K^*/U(A)$ sur $\Gamma_B = K^*/U(B)$, dont le noyau est $U(B)/U(A)$. Notant $\varphi_A$ et $\varphi_B$ les valuations canoniques de $K$ définies par $A$ et $B$ (§ 3, no 2), on a donc
+Soient $K$ un corps, et $A$ un anneau de valuation pour $K$. Pour tout sous-anneau $B$ de $K$ contenant $A$, on a $U(A) \subset U(B)$. On a donc un homomorphisme canonique $\lambda$ de $\Gamma_A = K^*/U(A)$ sur $\Gamma_B = K^*/U(B)$, dont le noyau est $U(B)/U(A)$. Notant $v_A$ et $v_B$ les valuations canoniques de $K$ définies par $A$ et $B$ (§ 3, no 2), on a donc
 
 $$
-\varphi_B = \lambda \circ \varphi_A.
+v_B = \lambda \circ v_A.
 $$
 
 Comme $A \subset B$, $\lambda$ transforme les éléments positifs de $\Gamma_A$ en éléments positifs de $\Gamma_B$, donc est croissant. Par suite (prop. 3), le noyau $H_B$ de $\lambda$ est un sous-groupe isolé de $\Gamma_A$, et $\lambda$ se factorise en $\Gamma_A \to \Gamma_A/H_B \xrightarrow{\mu} \Gamma_B$, où $\mu$ est un homomorphisme bijectif et croissant, donc un *isomorphisme* de groupes totalement ordonnés; donc $\Gamma_B$ s’identifie au groupe totalement ordonné quotient $\Gamma_A/H_B$.
@@ -118,10 +118,10 @@ Comme $A \subset B$, $\lambda$ transforme les éléments positifs de $\Gamma_A$ 
 
 *L’application* $B \to H_B$ *est une bijection croissante de l’ensemble des sous-anneaux de K contenant A sur l’ensemble des sous-groupes isolés de $\Gamma_A$*.
 
-En effet, la donnée de $H_B$ définit $\varphi_B$ à une équivalence près, donc détermine $B$ sans ambiguïté. D’autre part, soit $H$ un sous-groupe isolé de $\Gamma_A$; considérant $\Gamma_A/H$ comme un groupe totalement ordonné (prop. 3), l’application composée
+En effet, la donnée de $H_B$ définit $v_B$ à une équivalence près, donc détermine $B$ sans ambiguïté. D’autre part, soit $H$ un sous-groupe isolé de $\Gamma_A$; considérant $\Gamma_A/H$ comme un groupe totalement ordonné (prop. 3), l’application composée
 
 $$
-K^* \xrightarrow{\varphi_A} \Gamma_A \to \Gamma_A/H
+K^* \xrightarrow{v_A} \Gamma_A \to \Gamma_A/H
 $$
 
 est une valuation de $K$ dont l’anneau contient $A$.
@@ -156,7 +156,7 @@ $$
 
 $(X, Y$ indéterminées). Soit $B = E[Y]_{(Y)}$ l’anneau de valuation pour $K$ défini par l’élément extrémal $Y$ de l’anneau principal $E[Y]$ (§ 1, no 4, prop. 3). Le corps résiduel $\kappa(B)$ s’identifie canoniquement à $E[Y]/(Y) = E$. Soit, de même, $A' = k[X]_{(X)}$ l’anneau de valuation pour $E = k(X)$ défini par l’élément extrémal $X$ de $k[X]$. En désignant par $h_B$ la place de $E$ associée à $B$, et en posant $A = \overline{h_B}(A')$, on définit un anneau de valuation $A$ pour $K$ contenu dans $B$, et l’on a $\kappa(A) = \kappa(A') = k$. La place canonique $h_A : K \to k$ peut se décrire ainsi : si $f(X, Y)$ est un élément de $K$, on fait d’abord $Y = 0$ dans $f$ (ce qui donne un élément de $\widetilde{E} = k(X)$), puis $X = 0$ dans le résultat obtenu. Les groupes $\Gamma_{A'}$ et $\Gamma_B$ sont canoniquement isomorphes à $\mathbf{Z}$ (§ 3, no 4, Exemple 4).
 
-*On montre sans difficulté (cf. § 10, no 2, lemme 2) que le groupe $\Gamma_A$ est isomorphe au produit lexicographique $\mathbf{Z} \times \mathbf{Z}$, et que la valuation $\varphi_A$ est équivalente à la valuation définie au § 3, no 4, fin de l’Exemple 6.*
+*On montre sans difficulté (cf. § 10, no 2, lemme 2) que le groupe $\Gamma_A$ est isomorphe au produit lexicographique $\mathbf{Z} \times \mathbf{Z}$, et que la valuation $v_A$ est équivalente à la valuation définie au § 3, no 4, fin de l’Exemple 6.*
 
 ### 4. Hauteur d’une valuation
 
@@ -209,7 +209,7 @@ a) A est l’anneau d’une valuation de hauteur 1 de K ;
 b) A est un anneau de valuation pour K, et n’a d’autres idéaux premiers que (0) et m(A) ;
 c) A est maximal parmi les sous-anneaux de K distincts de K.
 
-La prop. 5 du n° 4 montre que a) implique b), et la prop. 1 du n° 1 montre que b) implique c). Reste à montrer que c) implique a). Supposons $A$ maximal parmi les sous-anneaux de $K$ distincts de $K$. Soient $m$ un idéal maximal de $A$, et $V$ un anneau de valuation pour $K$ dominant $A_m$ ($§ 1$, n° 2, cor. du th. 2); comme $m(V) \cap A = m$ et que $m \neq (0)$ (puisque $A$ n’est pas un corps), on a $V \neq K$, d’où $V = A$, ce qui montre que $A$ est l’anneau d’une valuation $\nu$ de $K$. Ceci étant, $\nu$ est de hauteur 1 d’après les prop. 1 (n° 1) et 5 (n° 4).
+La prop. 5 du n° 4 montre que a) implique b), et la prop. 1 du n° 1 montre que b) implique c). Reste à montrer que c) implique a). Supposons $A$ maximal parmi les sous-anneaux de $K$ distincts de $K$. Soient $m$ un idéal maximal de $A$, et $V$ un anneau de valuation pour $K$ dominant $A_m$ ($§ 1$, n° 2, cor. du th. 2); comme $m(V) \cap A = m$ et que $m \neq (0)$ (puisque $A$ n’est pas un corps), on a $V \neq K$, d’où $V = A$, ce qui montre que $A$ est l’anneau d’une valuation $v$ de $K$. Ceci étant, $v$ est de hauteur 1 d’après les prop. 1 (n° 1) et 5 (n° 4).
 
 #### Proposition 7 {#ac-vi-s4-prop-7 .statement}
 
@@ -236,15 +236,15 @@ pour $x \in P$ et $y \in P$; par linéarité $f$ se prolonge en un isomorphisme 
 
 #### Proposition 9 {#ac-vi-s4-prop-9 .statement}
 
-Soient $K$ un corps, $\nu$ une valuation non impropre de $K$, et $A$ l’anneau de $\nu$. Pour que $A$ soit complètement intégralement clos (chap. V, § 1, n° 4, déf. 5), il faut et il suffit que $\nu$ soit de hauteur 1.
+Soient $K$ un corps, $v$ une valuation non impropre de $K$, et $A$ l’anneau de $v$. Pour que $A$ soit complètement intégralement clos (chap. V, § 1, n° 4, déf. 5), il faut et il suffit que $v$ soit de hauteur 1.
 
-Supposons $\nu$ de hauteur 1. Soit $x \in K$ tel que les $x^n (n \geq 0)$ soient tous contenus dans un sous-A-module de type fini de $K$. Il existe $d \in A - \{0\}$ tel que $dx^n \in A$ pour tout $n \geq 0$. On a donc $\nu(d) + n \nu(x) \geq 0$, c’est-à-dire $n(-\nu(x)) \leq \nu(d)$ pour tout $n \geq 0$, d’où $-\nu(x) \leq 0$ (prop. 8, b)) et $x \in A$. Ainsi $A$ est complètement intégralement clos.
+Supposons $v$ de hauteur 1. Soit $x \in K$ tel que les $x^n (n \geq 0)$ soient tous contenus dans un sous-A-module de type fini de $K$. Il existe $d \in A - \{0\}$ tel que $dx^n \in A$ pour tout $n \geq 0$. On a donc $v(d) + n v(x) \geq 0$, c’est-à-dire $n(-v(x)) \leq v(d)$ pour tout $n \geq 0$, d’où $-v(x) \leq 0$ (prop. 8, b)) et $x \in A$. Ainsi $A$ est complètement intégralement clos.
 
-Supposons maintenant que $\nu$ ne soit pas de hauteur 1. Il existe alors $y \in m(A)$ et $t \in A$ tels que $n \nu(y) < \nu(t)$ pour tout $n \geq 0$ (prop. 8, b)). On a donc $ty^{-n} \in A$ pour tout $n \geq 0$, mais $y^{-1} \notin A$. Donc $A$ n’est pas complètement intégralement clos.
+Supposons maintenant que $v$ ne soit pas de hauteur 1. Il existe alors $y \in m(A)$ et $t \in A$ tels que $n v(y) < v(t)$ pour tout $n \geq 0$ (prop. 8, b)). On a donc $ty^{-n} \in A$ pour tout $n \geq 0$, mais $y^{-1} \notin A$. Donc $A$ n’est pas complètement intégralement clos.
 
 #### Corollaire {#ac-vi-s4-n5-cor-1 .statement}
 
-Soient $K$ un corps, $(\nu_\alpha)_{\alpha \in I}$ une famille de valuations de hauteur 1 de $K$, et $A$ l’intersection des anneaux des $\nu_\alpha$. Alors $A$ est complètement intégralement clos.
+Soient $K$ un corps, $(v_\alpha)_{\alpha \in I}$ une famille de valuations de hauteur 1 de $K$, et $A$ l’intersection des anneaux des $v_\alpha$. Alors $A$ est complètement intégralement clos.
 
 Un anneau complètement intégralement clos n’est pas toujours intersection d’anneaux de valuations de hauteur 1 (exerc. 6).
 

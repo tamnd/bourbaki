@@ -56,25 +56,25 @@ subsections:
       pdf_page: 39
 statements: 41
 exercises: 24
-content_sha256: 846461ddd209ba0cae8c6a55fa749f742ab06b8b6848f8623a1ebbfd4c1eb94e
+content_sha256: 39b7d83a8815eb8caa222a7c0451a74d40cac76b8b9db7fd37dcd383409492fc
 ---
 
 ## § 2. Modules plats (*)
 
 ### 1. Rappel sur les produits tensoriels.
 
-Soient $A$ un anneau, $E$ un $A$-module à droite, $M$ un $A$-module à gauche. On a défini en Alg., chap. II, 3e éd., § 3, n° 1, le produit tensoriel $E \otimes_A M$, qui est un $\mathbf{Z}$-module. Si $E'$ (resp. $M'$) est un $A$-module à droite (resp. à gauche) et $u : E \to E'$ (resp. $\varphi : M \to M'$) un homomorphisme, on a aussi défini (loc. cit., n° 2) un $\mathbf{Z}$-homomorphisme
+Soient $A$ un anneau, $E$ un $A$-module à droite, $M$ un $A$-module à gauche. On a défini en Alg., chap. II, 3e éd., § 3, n° 1, le produit tensoriel $E \otimes_A M$, qui est un $\mathbf{Z}$-module. Si $E'$ (resp. $M'$) est un $A$-module à droite (resp. à gauche) et $u : E \to E'$ (resp. $v : M \to M'$) un homomorphisme, on a aussi défini (loc. cit., n° 2) un $\mathbf{Z}$-homomorphisme
 
 $$
-u \otimes \varphi : E \otimes_A M \to E' \otimes_A M'.
+u \otimes v : E \otimes_A M \to E' \otimes_A M'.
 $$
 
 #### Lemme 1 {#ac-i-s2-lem-1 .statement}
 
-Soit $M' \xrightarrow{\varphi} M \xrightarrow{w} M'' \to 0$ une suite exacte de $A$-modules à gauche, et soit $E$ un $A$-module à droite. La suite
+Soit $M' \xrightarrow{v} M \xrightarrow{w} M'' \to 0$ une suite exacte de $A$-modules à gauche, et soit $E$ un $A$-module à droite. La suite
 
 $$
-E \otimes_A M' \xrightarrow{1 \otimes \varphi} E \otimes_A M \xrightarrow{1 \otimes w} E'' \otimes_A M \longrightarrow 0
+E \otimes_A M' \xrightarrow{1 \otimes v} E \otimes_A M \xrightarrow{1 \otimes w} E'' \otimes_A M \longrightarrow 0
 $$
 
 est alors une suite exacte de groupes commutatifs.
@@ -88,17 +88,17 @@ $$
 M \xrightarrow{u} N \to \mathrm{Coker}\ u \to 0.
 $$
 
-Les notations étant celles du lemme 1, on sait (loc. cit.) que si $\nu$ est injectif, c’est-à-dire si la suite $0 \to M' \xrightarrow{\nu} M \xrightarrow{\nu} M'' \to 0$ est exacte, il n’en résulte pas nécessairement que $1_E \otimes \nu$ soit injectif et l’on ne peut donc pas en général identifier $E \otimes_A M'$ à un sous-groupe de $E \otimes_A M$. Rappelons toutefois (Alg., chap. II, 3e éd., § 3, n° 7, cor. 5 de la prop. 7) le résultat suivant :
+Les notations étant celles du lemme 1, on sait (loc. cit.) que si $v$ est injectif, c’est-à-dire si la suite $0 \to M' \xrightarrow{v} M \xrightarrow{v} M'' \to 0$ est exacte, il n’en résulte pas nécessairement que $1_E \otimes v$ soit injectif et l’on ne peut donc pas en général identifier $E \otimes_A M'$ à un sous-groupe de $E \otimes_A M$. Rappelons toutefois (Alg., chap. II, 3e éd., § 3, n° 7, cor. 5 de la prop. 7) le résultat suivant :
 
 #### Lemme 2 {#ac-i-s2-lem-2 .statement}
 
-*Si $\nu : M' \to M$ est injectif et si $\nu(M')$ est facteur direct de $M$, l’homomorphisme $1_E \otimes \nu$ est injectif, et son image est facteur direct de $E \otimes_A M$.*
+*Si $v : M' \to M$ est injectif et si $v(M')$ est facteur direct de $M$, l’homomorphisme $1_E \otimes v$ est injectif, et son image est facteur direct de $E \otimes_A M$.*
 
 ### 2. *Modules M-plats*.
 
 #### Définition 1 {#ac-i-s2-def-1 .statement}
 
-*Soient $A$ un anneau, $E$ un $A$-module à droite et $M$ un $A$-module à gauche. On dit que $E$ est plat pour $M$ (ou $M$-plat) si, pour tout $A$-module à gauche $M'$ et tout homomorphisme injectif $\nu : M' \to M$, l’homomorphisme $1_E \otimes \nu : E \otimes_A M' \to E \otimes_A M$ est injectif.*
+*Soient $A$ un anneau, $E$ un $A$-module à droite et $M$ un $A$-module à gauche. On dit que $E$ est plat pour $M$ (ou $M$-plat) si, pour tout $A$-module à gauche $M'$ et tout homomorphisme injectif $v : M' \to M$, l’homomorphisme $1_E \otimes v : E \otimes_A M' \to E \otimes_A M$ est injectif.*
 
 On définit de même, pour tout $A$-module à droite $N$, la notion de *module à gauche $N$-plat*. Dire qu’un $A$-module à droite $E$ est plat pour un $A$-module à gauche $M$ équivaut à dire que $E$, considéré comme $A^0$-module à gauche (on rappelle que $A^0$ désigne l’anneau opposé de $A$), est plat pour le $A^0$-module à droite $M$.
 
@@ -130,7 +130,7 @@ $$
 
 est commutatif, et ses lignes sont exactes.
 
-Pour simplifier l’écriture, posons $T(Q) = E \otimes_A Q$ pour tout A-module à gauche Q et $T(\varphi) = 1_E \otimes \varphi$ pour tout homomorphisme $\varphi$ de A-modules à gauche. Le diagramme
+Pour simplifier l’écriture, posons $T(Q) = E \otimes_A Q$ pour tout A-module à gauche Q et $T(v) = 1_E \otimes v$ pour tout homomorphisme $v$ de A-modules à gauche. Le diagramme
 
 $$
 \begin{array}{ccccccccc}
@@ -191,43 +191,43 @@ b) E est M-plat pour tout A-module à gauche M.
 c) Pour toute suite exacte de A-modules à gauche et d’homomorphismes
 
 $$
-M' \xrightarrow{\nu} M \xrightarrow{\omega} M''
+M' \xrightarrow{v} M \xrightarrow{w} M''
 $$
 
 la suite
 
 $$
-E \otimes_A M' \xrightarrow{1 \otimes \nu} E \otimes_A M \xrightarrow{1 \otimes \omega} E \otimes_A M''
+E \otimes_A M' \xrightarrow{1 \otimes v} E \otimes_A M \xrightarrow{1 \otimes w} E \otimes_A M''
 $$
 
 est exacte.
 
 Il est immédiat que b) entraîne a). Inversement supposons a) vérifiée ; en vertu du n° 2, lemme 5, E est plat pour tout A-module à gauche libre ; comme tout A-module à gauche est isomorphe à un quotient d’un module libre (Alg., chap. II, 3e éd., § 1, n° 11, prop. 20), il résulte du n° 2, lemme 4 que E est plat pour M.
 
-Montrons que c) implique b). Si \nu : M' \to M est un homomorphisme injectif, la suite 0 \to M' \xrightarrow{\nu} M est exacte ; en vertu de c), la suite 0 \to E \otimes_A M' \xrightarrow{1 \otimes \nu} E \otimes_A M est exacte ; cela signifie que 1 \otimes \nu est injectif, autrement dit que E est M-plat.
+Montrons que c) implique b). Si v : M' \to M est un homomorphisme injectif, la suite 0 \to M' \xrightarrow{v} M est exacte ; en vertu de c), la suite 0 \to E \otimes_A M' \xrightarrow{1 \otimes v} E \otimes_A M est exacte ; cela signifie que 1 \otimes v est injectif, autrement dit que E est M-plat.
 
 Enfin, l’implication b) \Rightarrow c) est la conséquence du lemme plus précis suivant :
 
 #### Lemme 6 {#ac-i-s2-lem-6 .statement}
 
-Si M' \xrightarrow{\nu} M \xrightarrow{\omega} M'' est une suite exacte de A-modules à gauche et si E est un A-module à droite plat pour M'', la suite
+Si M' \xrightarrow{v} M \xrightarrow{w} M'' est une suite exacte de A-modules à gauche et si E est un A-module à droite plat pour M'', la suite
 
 $$
-E \otimes_A M' \xrightarrow{1 \otimes \nu} E \otimes_A M \xrightarrow{1 \otimes \omega} E \otimes_A M''
+E \otimes_A M' \xrightarrow{1 \otimes v} E \otimes_A M \xrightarrow{1 \otimes w} E \otimes_A M''
 $$
 
 est exacte.
 
-Utilisons les notations T(Q) et T(φ) avec le même sens que dans la démonstration du lemme 4 du n° 2. Posons M''_i = ω(M) et soient i : M''_i → M'' l’injection canonique et p l’application de M dans M''_i ayant même graphe que ω. La suite M' → M → M''_i → 0 étant exacte, il résulte du n° 1, lemme 1 que la suite
+Utilisons les notations T(Q) et T(v) avec le même sens que dans la démonstration du lemme 4 du n° 2. Posons M''_i = w(M) et soient i : M''_i → M'' l’injection canonique et p l’application de M dans M''_i ayant même graphe que w. La suite M' → M → M''_i → 0 étant exacte, il résulte du n° 1, lemme 1 que la suite
 
 $$
-T(M') \xrightarrow{T(\varphi)} T(M) \xrightarrow{T(p)} T(M''_i) \to 0
+T(M') \xrightarrow{T(v)} T(M) \xrightarrow{T(p)} T(M''_i) \to 0
 $$
 
-est exacte. Par ailleurs, comme E est M''-plat, l’application T(i) : T(M''_i) → T(M'') est injective, et comme T(i) ∘ T(p) = T(ω), la suite
+est exacte. Par ailleurs, comme E est M''-plat, l’application T(i) : T(M''_i) → T(M'') est injective, et comme T(i) ∘ T(p) = T(w), la suite
 
 $$
-T(M') \xrightarrow{T(\varphi)} T(M) \xrightarrow{T(\omega)} T(M'')
+T(M') \xrightarrow{T(v)} T(M) \xrightarrow{T(w)} T(M'')
 $$
 
 est exacte (§ 1, n° 3).
@@ -292,9 +292,9 @@ puisque le passage à la limite inductive commute avec le produit tensoriel ($Al
 
 (ii) *On suppose que A est un anneau commutatif intègre dans lequel tout idéal de type fini est principal (par exemple un anneau principal (Alg., chap. VII, § 1, no 1)). Alors, pour que E soit plat, il faut et il suffit que E soit sans torsion.
 
-Prouvons (i). Soit $\varphi : A_s \to A_s$ l’homomorphisme $t \to ta$ de A-modules à gauche ; l’hypothèse signifie que $\varphi$ est injectif. Comme E est plat, l’homomorphisme $1_E \otimes \varphi : E \otimes_A A_s \to E \otimes_A A_s$ est aussi injectif. Lorsque l’on identifie canoniquement $E \otimes_A A_s$ à E, $1_E \otimes \varphi$ devient l’endomorphisme $x \to xa$ de E. Donc la relation $xa = 0$ entraîne $x = 0$.
+Prouvons (i). Soit $v : A_s \to A_s$ l’homomorphisme $t \to ta$ de A-modules à gauche ; l’hypothèse signifie que $v$ est injectif. Comme E est plat, l’homomorphisme $1_E \otimes v : E \otimes_A A_s \to E \otimes_A A_s$ est aussi injectif. Lorsque l’on identifie canoniquement $E \otimes_A A_s$ à E, $1_E \otimes v$ devient l’endomorphisme $x \to xa$ de E. Donc la relation $xa = 0$ entraîne $x = 0$.
 
-Prouvons (ii). D’après (i), si E est plat, E est sans torsion. Inversement, soit E un A-module sans torsion ; vérifions que, pour tout idéal de type fini $a$ de A, l’homomorphisme canonique $E \otimes_A a \to E$ est injectif (no 3, Remarque 1). Cette assertion est évidente si $a = (0)$ ; sinon, on a par hypothèse $a = Aa$ avec $a \in A$ et $a \neq 0$, et $t \to ta$ est alors un isomorphisme $\varphi$ de A sur $a$ ; notant $i$ l’injection canonique $a \to A$, $i \circ \varphi$ est l’homothétie de rapport $a$ dans A. Alors $1_E \otimes (i \circ \varphi)$ est l’homothétie de rapport $a$ dans E, et est injective puisque E est supposé sans torsion. Or, on a $1_E \otimes (i \circ \varphi) = (1_E \otimes i) \circ (1_E \otimes \varphi)$ ; comme $1_E \otimes \varphi$ est un isomorphisme, $1_E \otimes i$ est injective, ce qui achève la démonstration.
+Prouvons (ii). D’après (i), si E est plat, E est sans torsion. Inversement, soit E un A-module sans torsion ; vérifions que, pour tout idéal de type fini $a$ de A, l’homomorphisme canonique $E \otimes_A a \to E$ est injectif (no 3, Remarque 1). Cette assertion est évidente si $a = (0)$ ; sinon, on a par hypothèse $a = Aa$ avec $a \in A$ et $a \neq 0$, et $t \to ta$ est alors un isomorphisme $v$ de A sur $a$ ; notant $i$ l’injection canonique $a \to A$, $i \circ v$ est l’homothétie de rapport $a$ dans A. Alors $1_E \otimes (i \circ v)$ est l’homothétie de rapport $a$ dans E, et est injective puisque E est supposé sans torsion. Or, on a $1_E \otimes (i \circ v) = (1_E \otimes i) \circ (1_E \otimes v)$ ; comme $1_E \otimes v$ est un isomorphisme, $1_E \otimes i$ est injective, ce qui achève la démonstration.
 
 (*) Rappelons qu’un *diviseur à droite* (resp. *à gauche*) de 0 dans un anneau A est un élément $b \in A$ tel que l’application $x \to xb$ (resp. $x \to bx$) ne soit pas injective.
 
@@ -338,11 +338,11 @@ G \otimes F & \xrightarrow{v \otimes 1_F} & H \otimes F
 $$
 Il est immédiat que ce diagramme est commutatif, et ses lignes et colonnes sont exactes en vertu du no 1, lemme 1; en outre, comme $1_G \otimes p$ et $1_H \otimes p$ sont surjectifs (no 1, lemme 1), on a $G \otimes F = \mathrm{Coker}\,(1_G \otimes i)$, $H \otimes F = \mathrm{Coker}\,(1_H \otimes i)$; $w \otimes 1_R$ est surjectif (no 1, lemme 1); enfin, comme L est libre, donc plat, $v \otimes 1_L$ est injectif. On peut donc appliquer le diagramme du serpent (§ 1, n° 4, prop. 2, (iii)) qui prouve l’existence d’une suite exacte
 
-(4) $\mathrm{Ker}\,(1_H \otimes i) \longrightarrow \mathrm{Ker}\,(1_E \otimes i) \xrightarrow{d} G \otimes F \xrightarrow{\nu \otimes 1_F} H \otimes F.$
+(4) $\mathrm{Ker}\,(1_H \otimes i) \longrightarrow \mathrm{Ker}\,(1_E \otimes i) \xrightarrow{d} G \otimes F \xrightarrow{v \otimes 1_F} H \otimes F.$
 
-Cela étant, si E est plat, $1_E \otimes i$ est injectif, autrement dit $\mathrm{Ker}\,(1_E \otimes i) = 0$, et la suite exacte (4) montre que $\nu \otimes 1_F$ est injectif, donc la suite (2) est exacte (compte tenu du n° 1, lemme 1).
+Cela étant, si E est plat, $1_E \otimes i$ est injectif, autrement dit $\mathrm{Ker}\,(1_E \otimes i) = 0$, et la suite exacte (4) montre que $v \otimes 1_F$ est injectif, donc la suite (2) est exacte (compte tenu du n° 1, lemme 1).
 
-Comme b) implique évidemment c), il nous reste à prouver que c) entraîne a). Considérons le diagramme (3) dans le cas $R = a$, $L = A_s$, $F = A_s/a$, et appliquons la suite exacte (4). Par hypothèse, $\nu \otimes 1_F$ est injectif, donc $\mathrm{Im}\,(d) = 0$; en outre, comme H est plat, on a $\mathrm{Ker}\,(1_H \otimes i) = 0$; l’exactitude de la suite (4) entraîne donc $\mathrm{Ker}\,(1_E \otimes i) = 0$, autrement dit $1_E \otimes i$ est injectif et cela prouve que E est plat (n° 3, Remarque 1).
+Comme b) implique évidemment c), il nous reste à prouver que c) entraîne a). Considérons le diagramme (3) dans le cas $R = a$, $L = A_s$, $F = A_s/a$, et appliquons la suite exacte (4). Par hypothèse, $v \otimes 1_F$ est injectif, donc $\mathrm{Im}\,(d) = 0$; en outre, comme H est plat, on a $\mathrm{Ker}\,(1_H \otimes i) = 0$; l’exactitude de la suite (4) entraîne donc $\mathrm{Ker}\,(1_E \otimes i) = 0$, autrement dit $1_E \otimes i$ est injectif et cela prouve que E est plat (n° 3, Remarque 1).
 
 #### Proposition 5 {#ac-i-s2-prop-5 .statement}
 
@@ -352,15 +352,15 @@ Soit $u : F' \to F$ un homomorphisme injectif de A-modules à gauche. Considéro
 
 $$
 \begin{array}{ccc}
-E' \otimes F' & \xrightarrow{\nu \otimes 1_{F'}} & E \otimes F' \\
+E' \otimes F' & \xrightarrow{v \otimes 1_{F'}} & E \otimes F' \\
 1_{E'} \otimes u \downarrow & & 1_E \otimes u \downarrow \\
-E' \otimes F & \xrightarrow{\nu \otimes 1_F} & E \otimes F \\
+E' \otimes F & \xrightarrow{v \otimes 1_F} & E \otimes F \\
 & & w \otimes 1_F \downarrow \\
 & & E'' \otimes F
 \end{array}
 $$
 
-Il est commutatif et ses lignes sont exactes (n° 1, lemme 1). Puisque $E''$ est plat, $1_{E''} \otimes u$ est injectif ; en outre, la prop. 4 prouve que $\nu \otimes 1_{F'}$ et $\nu \otimes 1_F$ sont injectifs. Cela étant, si E est plat, $1_E \otimes u$ est injectif, donc aussi $(1_E \otimes u) \circ (\nu \otimes 1_{F'}) = (\nu \otimes 1_F) \circ (1_{E'} \otimes u)$; on en conclut que $1_{E'} \otimes u$ est injectif, et par suite $E'$ est plat. Réciproquement, si $E'$ est plat, $1_{E'} \otimes u$ est injectif ; on conclut alors du § 1, n° 4, cor. 1 de la prop. 2, que $1_E \otimes u$ est injectif, et par suite E est plat.
+Il est commutatif et ses lignes sont exactes (n° 1, lemme 1). Puisque $E''$ est plat, $1_{E''} \otimes u$ est injectif ; en outre, la prop. 4 prouve que $v \otimes 1_{F'}$ et $v \otimes 1_F$ sont injectifs. Cela étant, si E est plat, $1_E \otimes u$ est injectif, donc aussi $(1_E \otimes u) \circ (v \otimes 1_{F'}) = (v \otimes 1_F) \circ (1_{E'} \otimes u)$; on en conclut que $1_{E'} \otimes u$ est injectif, et par suite $E'$ est plat. Réciproquement, si $E'$ est plat, $1_{E'} \otimes u$ est injectif ; on conclut alors du § 1, n° 4, cor. 1 de la prop. 2, que $1_E \otimes u$ est injectif, et par suite E est plat.
 
 #### Remarque 1 {#ac-i-s2-n5-rem-1 .statement}
 
@@ -400,19 +400,19 @@ Les lignes de ce diagramme sont exactes (no 1, lemme 1) et $1_E \otimes j$ est u
 
 #### Proposition 6 {#ac-i-s2-prop-6 .statement}
 
-Soient E un A-module à droite et F un A-module à gauche tels que E soit plat pour F. Pour tout sous-module F’ de F, notons $\varphi(F')$ l’image de $E \otimes F'$ par l’application canonique de $E \otimes F'$ dans $E \otimes F$ (qui est injective en vertu de la déf. 1 du no 2). Alors, si F’, F'' sont deux sous-modules de F, on a
+Soient E un A-module à droite et F un A-module à gauche tels que E soit plat pour F. Pour tout sous-module F’ de F, notons $v(F')$ l’image de $E \otimes F'$ par l’application canonique de $E \otimes F'$ dans $E \otimes F$ (qui est injective en vertu de la déf. 1 du no 2). Alors, si F’, F'' sont deux sous-modules de F, on a
 
 $$
-\varphi(F' \cap F'') = \varphi(F') \cap \varphi(F'').
+v(F' \cap F'') = v(F') \cap v(F'').
 $$
 
-En effet, comme E est plat pour F, $\varphi(F' + F'')$ s’identifie à $E \otimes (F' + F'')$, et les sous-modules $\varphi(F')$, $\varphi(F'')$ et $\varphi(F' \cap F'')$ s’identifient aux images canoniques de $E \otimes F'$, $E \otimes F''$ et $E \otimes (F' \cap F'')$ dans $E \otimes (F' + F'')$ respectivement. La prop. 6 résulte alors du lemme 7.
+En effet, comme E est plat pour F, $v(F' + F'')$ s’identifie à $E \otimes (F' + F'')$, et les sous-modules $v(F')$, $v(F'')$ et $v(F' \cap F'')$ s’identifient aux images canoniques de $E \otimes F'$, $E \otimes F''$ et $E \otimes (F' \cap F'')$ dans $E \otimes (F' + F'')$ respectivement. La prop. 6 résulte alors du lemme 7.
 
 n° 6
 
 #### Remarque 1 {#ac-i-s2-n6-rem-1 .statement}
 
-Les hypothèses étant celles de la prop. 6, on identifie d’ordinaire $E \otimes F'$ à $\varphi(F')$ pour tout sous-module $F'$ de $F$, ce qui donne la formule
+Les hypothèses étant celles de la prop. 6, on identifie d’ordinaire $E \otimes F'$ à $v(F')$ pour tout sous-module $F'$ de $F$, ce qui donne la formule
 
 $$
 E \otimes_A (F' \cap F'') = (E \otimes_A F') \cap (E \otimes_A F'').
@@ -510,7 +510,7 @@ L_1 \to L_0 \to E \to 0
 $$
 de A-modules à gauche (resp. à droite), où L_0 et L_1 sont libres.
 
-Tout A-module E admet une présentation. On sait en effet (Alg., chap. II, 3e éd., § 1, no 11, prop. 20) qu’il existe un homomorphisme surjectif $u : L_0 \to E$, où $L_0$ est libre ; si $R$ est le noyau de $u$, il existe de même un homomorphisme surjectif $\varphi : L_1 \to R$ où $L_1$ est libre. Si l’on considère $\varphi$ comme un homomorphisme de $L_1$ dans $L_0$, la suite $L_1 \xrightarrow{\varphi} L_0 \xrightarrow{u} E \to 0$ est exacte par définition, d’où notre assertion.
+Tout A-module E admet une présentation. On sait en effet (Alg., chap. II, 3e éd., § 1, no 11, prop. 20) qu’il existe un homomorphisme surjectif $u : L_0 \to E$, où $L_0$ est libre ; si $R$ est le noyau de $u$, il existe de même un homomorphisme surjectif $v : L_1 \to R$ où $L_1$ est libre. Si l’on considère $v$ comme un homomorphisme de $L_1$ dans $L_0$, la suite $L_1 \xrightarrow{v} L_0 \xrightarrow{u} E \to 0$ est exacte par définition, d’où notre assertion.
 
 Si $\rho : A \to B$ est un homomorphisme d’anneaux, toute présentation (6) de $E$ fournit une présentation de $E_{(B)} = E \otimes_A B$ :
 
@@ -530,7 +530,7 @@ On dit qu’une présentation (6) d’un module $E$ est *finie* si les modules l
 
 (iii) *Tout module projectif de type fini admet une présentation finie*.
 
-L’assertion (i) résulte trivialement des définitions. Si $A$ est noethérien à gauche et s’il existe un homomorphisme surjectif $u : L_0 \to E$, où $L_0$ est un $A$-module à gauche libre ayant une base finie, le noyau $R$ de $u$ est de type fini (*Alg.*, chap. VIII, § 2, no 1, prop. 1 et no 3, prop. 7), donc il y a un homomorphisme surjectif $\varphi : L_1 \to R$ où $L_1$ est libre de base finie, et la suite exacte $L_1 \xrightarrow{\varphi} L_0 \xrightarrow{u} E \to 0$ est une présentation finie de $E$; d’où (ii).
+L’assertion (i) résulte trivialement des définitions. Si $A$ est noethérien à gauche et s’il existe un homomorphisme surjectif $u : L_0 \to E$, où $L_0$ est un $A$-module à gauche libre ayant une base finie, le noyau $R$ de $u$ est de type fini (*Alg.*, chap. VIII, § 2, no 1, prop. 1 et no 3, prop. 7), donc il y a un homomorphisme surjectif $v : L_1 \to R$ où $L_1$ est libre de base finie, et la suite exacte $L_1 \xrightarrow{v} L_0 \xrightarrow{u} E \to 0$ est une présentation finie de $E$; d’où (ii).
 
 Enfin, supposons que $E$ soit un module projectif de type fini ; il est alors facteur direct d’un module libre de type fini $L_0$ (*Alg.*, chap. II, 3e éd., § 2, no 2, cor. de la prop. 4) ; le noyau $R$ de l’homomorphisme surjectif $L_0 \to E$ est alors isomorphe à un quotient de $L_0$, donc est de type fini, et on termine comme ci-dessus.
 
@@ -544,7 +544,7 @@ $$
 
 où $G$ est de type fini, le module $F$ est de type fini.
 
-Soit $L_1 \xrightarrow{r} L_0 \xrightarrow{s} E \to 0$ une présentation finie ; si $(e_i)$ est une base de $L_0$, il existe pour chaque $i$ un élément $g_i \in G$ tel que $p(g_i) = s(e_i)$; l’homomorphisme $u : L_0 \to G$ tel que $u(e_i) = g_i$ pour tout $i$ est donc tel que $s = p \circ u$. Comme $s \circ r = 0$, on a $u(r(L_1)) \subset \mathrm{Ker}\, p$, et comme $\mathrm{Ker}\, p$ est isomorphe à $F$, on voit qu’il y a un homomorphisme $\varphi : L_1 \to F$ tel que le diagramme
+Soit $L_1 \xrightarrow{r} L_0 \xrightarrow{s} E \to 0$ une présentation finie ; si $(e_i)$ est une base de $L_0$, il existe pour chaque $i$ un élément $g_i \in G$ tel que $p(g_i) = s(e_i)$; l’homomorphisme $u : L_0 \to G$ tel que $u(e_i) = g_i$ pour tout $i$ est donc tel que $s = p \circ u$. Comme $s \circ r = 0$, on a $u(r(L_1)) \subset \mathrm{Ker}\, p$, et comme $\mathrm{Ker}\, p$ est isomorphe à $F$, on voit qu’il y a un homomorphisme $v : L_1 \to F$ tel que le diagramme
 
 $$
 \begin{array}{ccc}
@@ -557,16 +557,16 @@ $$
 soit commutatif. Comme $j$ est injectif et $s$ surjectif, on peut appliquer le diagramme du serpent ($§ 1$, no 4, prop. 2), autrement dit il y a une suite exacte
 
 $$
-0 = \mathrm{Ker}\, 1_E \xrightarrow{d} \mathrm{Coker}\, \varphi \to \mathrm{Coker}\, u \to \mathrm{Coker}\, 1_E = 0.
+0 = \mathrm{Ker}\, 1_E \xrightarrow{d} \mathrm{Coker}\, v \to \mathrm{Coker}\, u \to \mathrm{Coker}\, 1_E = 0.
 $$
 
-Ceci montre que $\mathrm{Coker}\, \varphi$ est isomorphe à $G/u(L_0)$, qui est de type fini par hypothèse. On a en outre la suite exacte
+Ceci montre que $\mathrm{Coker}\, v$ est isomorphe à $G/u(L_0)$, qui est de type fini par hypothèse. On a en outre la suite exacte
 
 $$
-0 \to \varphi(L_1) \to F \to \mathrm{Coker}\, \varphi \to 0
+0 \to v(L_1) \to F \to \mathrm{Coker}\, v \to 0
 $$
 
-et comme $\varphi(L_1)$ et $\mathrm{Coker}\, \varphi$ sont de type fini, il en est de même de $F$ (*Alg.*, chap. II, 3e éd., $§ 1$, no 7, cor. 5 de la prop. 9).
+et comme $v(L_1)$ et $\mathrm{Coker}\, v$ sont de type fini, il en est de même de $F$ (*Alg.*, chap. II, 3e éd., $§ 1$, no 7, cor. 5 de la prop. 9).
 
 ### 9. *Extension des scalaires dans les modules d’homomorphismes.*
 
@@ -589,13 +589,13 @@ $$
 T(E) = F \otimes_B \mathrm{Hom}_A(E, G), \qquad T'(E) = \mathrm{Hom}_A(E, F \otimes_B G)
 $$
 
-et notons $\nu_E$ l’homomorphisme (8) ; pour tout homomorphisme $\varphi : E \to E'$ de $A$-modules à droite, posons $T(\varphi) = 1_F \otimes \mathrm{Hom}(\varphi, 1_G)$ et $T'(\varphi) = \mathrm{Hom}(\varphi, 1_F \otimes 1_G)$. Soit $L_1 \xrightarrow{\psi} L_0 \xrightarrow{\omega} E \to 0$ une présentation de $E$; nous supposons le module libre $L_0$ (resp. les modules libres $L_0$ et $L_1$) de type fini. On a le diagramme
+et notons $\nu_E$ l’homomorphisme (8) ; pour tout homomorphisme $v : E \to E'$ de $A$-modules à droite, posons $T(v) = 1_F \otimes \mathrm{Hom}(v, 1_G)$ et $T'(v) = \mathrm{Hom}(v, 1_F \otimes 1_G)$. Soit $L_1 \xrightarrow{\psi} L_0 \xrightarrow{w} E \to 0$ une présentation de $E$; nous supposons le module libre $L_0$ (resp. les modules libres $L_0$ et $L_1$) de type fini. On a le diagramme
 
 $$
 \begin{array}{ccccccc}
-0 & \longrightarrow & T(E) & \xrightarrow{T(\omega)} & T(L_0) & \xrightarrow{T(\psi)} & T(L_1) \\
+0 & \longrightarrow & T(E) & \xrightarrow{T(w)} & T(L_0) & \xrightarrow{T(\psi)} & T(L_1) \\
 & & \nu_E \downarrow & & \nu_{L_0} \downarrow & & \nu_{L_1} \downarrow \\
-0 & \longrightarrow & T'(E) & \xrightarrow{T'(\omega)} & T'(L_0) & \xrightarrow{T'(\psi)} & T'(L_1)
+0 & \longrightarrow & T'(E) & \xrightarrow{T'(w)} & T'(L_0) & \xrightarrow{T'(\psi)} & T'(L_1)
 \end{array}
 $$
 
@@ -605,7 +605,7 @@ $$
 0 \to \mathrm{Hom}_A(E, G) \to \mathrm{Hom}_A(L_0, G) \to \mathrm{Hom}_A(L_1, G)
 $$
 
-est exacte (*loc. cit.*), et comme $F$ est *plat*, la première ligne de (9) est aussi une suite exacte (no 3, prop. 1). Cela étant, on sait que $\nu_{L_0}$ (resp. $\nu_{L_0}$ et $\nu_{L_1}$) est *bijectif* (resp. sont *bijectifs*) ($Alg.$, chap. II, 3e éd., § 4, no 2, prop. 2). Si on suppose seulement $\nu_{L_0}$ bijectif, il résulte de (9) que $\nu_{L_0} \circ T(\omega) = T'(\omega) \circ \nu_E$ est injectif, donc $\nu_E$ l’est aussi. Si on suppose que $\nu_{L_0}$ et $\nu_{L_1}$ sont tous deux bijectifs, on déduit du § 1, no 4, cor. 2, (ii) de la prop. 2 que $\nu_E$ est surjectif, et comme on vient de voir que $\nu_E$ est injectif, il est bijectif.
+est exacte (*loc. cit.*), et comme $F$ est *plat*, la première ligne de (9) est aussi une suite exacte (no 3, prop. 1). Cela étant, on sait que $\nu_{L_0}$ (resp. $\nu_{L_0}$ et $\nu_{L_1}$) est *bijectif* (resp. sont *bijectifs*) ($Alg.$, chap. II, 3e éd., § 4, no 2, prop. 2). Si on suppose seulement $\nu_{L_0}$ bijectif, il résulte de (9) que $\nu_{L_0} \circ T(w) = T'(w) \circ \nu_E$ est injectif, donc $\nu_E$ l’est aussi. Si on suppose que $\nu_{L_0}$ et $\nu_{L_1}$ sont tous deux bijectifs, on déduit du § 1, no 4, cor. 2, (ii) de la prop. 2 que $\nu_E$ est surjectif, et comme on vient de voir que $\nu_E$ est injectif, il est bijectif.
 
 C. Q. F. D.
 
