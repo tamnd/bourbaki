@@ -1,6 +1,75 @@
 # Where a printing is wrong. Written by hand, read by bourbaki assemble.
 # The printed words stay as they are in content/ and the correction lives here.
 errata:
+    - label: alg-iv-s4
+      lang: en
+      errata:
+        - says: imply $w(v_\nu) \geq |\nu| + 1$
+          read: imply $\omega(v_\nu) \geq |\nu| + 1$
+          why: The order function of a formal power series is omega throughout this
+            no., and the same sentence sets it round once and roman once — "the
+            relations omega(g_i) >= 2 imply w(v_nu) >= |nu| + 1" on page 44. The French
+            of 2007 (A IV.30) sets omega in both places. The reading is faithful to the
+            page; it is the page that changes letter in the middle of a line.
+        - says: we have $w(u) \geq w(u) + 1$, which is impossible if $u \neq 0$ because
+            $w(u)$ would then be a positive integer
+          read: we have $\omega(u) \geq \omega(u) + 1$, which is impossible if $u \neq 0$
+            because $\omega(u)$ would then be a positive integer
+          why: Same object, same page, three more times in roman. The argument is about
+            the order of u, which the no. defines as omega and which formula (23) is
+            stated with.
+        - says: We thus have $w(v - T(u)) \geq n + 1$
+          read: We thus have $\omega(v - T(u)) \geq n + 1$
+          why: Page 45 sets "We thus have w(v - T(u)) >= n + 1" on one line and "we thus
+            have omega(v - T(u)) >= n" on the next, of the same quantity in the same
+            induction. One of the two is a slip and it is the roman one, because the
+            definition and the French both read omega.
+        - says: then $w(u^{-1}) = -w(u)$. \* In other words (Comm. Alg., VI, § 3, No. 6,
+            p. 392, Def. 3), w is a normalized discrete valuation
+          read: then $\omega(u^{-1}) = -\omega(u)$. \* In other words (Comm. Alg., VI,
+            § 3, No. 6, p. 392, Def. 3), $\omega$ is a normalized discrete valuation
+          why: Page 48 runs the roman w twice in the displayed relation and once in the
+            sentence naming the valuation, then sets "omega(u) >= n" round two lines
+            below for the same function. The valuation of K((X)) is omega, as the French
+            of 2007 (A IV.36) has it.
+    - label: alg-iv-s5
+      lang: en
+      errata:
+        - says: For each $w \in \Omega$ let $u_\omega = \sum_{b \in \omega} b$
+          read: For each $\omega \in \Omega$ let $u_\omega = \sum_{b \in \omega} b$
+          why: Omega is B/H and its elements are orbits, written omega everywhere else
+            in Lemma 1 on page 56, including in the subscript and under the sum of this
+            very sentence. The quantifier alone is set roman.
+        - says: put $\omega' = w - \{v_\omega\}$ and $B' = \bigcup_{\omega \in \Omega} w'$
+          read: put $\omega' = \omega - \{v_\omega\}$ and $B' = \bigcup_{\omega \in \Omega} \omega'$
+          why: The thing omega' is obtained from is the orbit omega, named round twice
+            earlier in the same clause of (ii), and the union is over the omega' just
+            defined. Page 56 sets both of these two as roman w.
+        - says: we have $u_\omega \in U^H$ for all $w \in \Omega$
+          read: we have $u_\omega \in U^H$ for all $\omega \in \Omega$
+          why: The proof on page 56 sets the subscript of u round and the quantifier of
+            the same letter roman, in one clause.
+    - label: alg-iv-s6
+      lang: en
+      errata:
+        - says: then $w$ is an automorphism of the $A$-module $S_q \times S_p$
+          read: then $\omega$ is an automorphism of the $A$-module $S_q \times S_p$
+          why: The map is introduced as omega in the same sentence — "if we write
+            omega(u, v) = (u, uh + v) ... then w is an automorphism" — and the display
+            that follows on page 86 gives its inverse as omega^{-1}(u, v). The French of
+            2007 (A IV.71) sets omega throughout.
+        - says: The matrix of $w$ with respect to the basis $B_1$
+          read: The matrix of $\omega$ with respect to the basis $B_1$
+          why: Same automorphism as the display above it, which page 86 sets round.
+        - says: $\varphi \circ w$ maps $(u, v)$ to $u(f + gh) + vg$
+          read: $\varphi \circ \omega$ maps $(u, v)$ to $u(f + gh) + vg$
+          why: Same automorphism, composed with phi. Page 86 sets phi round and the
+            omega beside it roman.
+        - says: representing $\varphi$ and $\varphi \circ w$ have the same determinant
+            and this follows from the relation $\det w = 1$
+          read: representing $\varphi$ and $\varphi \circ \omega$ have the same
+            determinant and this follows from the relation $\det \omega = 1$
+          why: The last two occurrences of the same automorphism on page 86, both roman.
     - label: alg-viii-s1-ex-3
       lang: en
       errata:

@@ -54,7 +54,20 @@ subsections:
       pdf_page: 48
 statements: 23
 exercises: 8
-content_sha256: ed35587a155fb15e501a74eae948a900accc935d0e586e804f6eb09239b179a3
+errata:
+    - says: imply $w(v_\nu) \geq |\nu| + 1$
+      read: imply $\omega(v_\nu) \geq |\nu| + 1$
+      why: The order function of a formal power series is omega throughout this no., and the same sentence sets it round once and roman once — "the relations omega(g_i) >= 2 imply w(v_nu) >= |nu| + 1" on page 44. The French of 2007 (A IV.30) sets omega in both places. The reading is faithful to the page; it is the page that changes letter in the middle of a line.
+    - says: we have $w(u) \geq w(u) + 1$, which is impossible if $u \neq 0$ because $w(u)$ would then be a positive integer
+      read: we have $\omega(u) \geq \omega(u) + 1$, which is impossible if $u \neq 0$ because $\omega(u)$ would then be a positive integer
+      why: Same object, same page, three more times in roman. The argument is about the order of u, which the no. defines as omega and which formula (23) is stated with.
+    - says: We thus have $w(v - T(u)) \geq n + 1$
+      read: We thus have $\omega(v - T(u)) \geq n + 1$
+      why: Page 45 sets "We thus have w(v - T(u)) >= n + 1" on one line and "we thus have omega(v - T(u)) >= n" on the next, of the same quantity in the same induction. One of the two is a slip and it is the roman one, because the definition and the French both read omega.
+    - says: then $w(u^{-1}) = -w(u)$. \* In other words (Comm. Alg., VI, § 3, No. 6, p. 392, Def. 3), w is a normalized discrete valuation
+      read: then $\omega(u^{-1}) = -\omega(u)$. \* In other words (Comm. Alg., VI, § 3, No. 6, p. 392, Def. 3), $\omega$ is a normalized discrete valuation
+      why: Page 48 runs the roman w twice in the displayed relation and once in the sentence naming the valuation, then sets "omega(u) >= n" round two lines below for the same function. The valuation of K((X)) is omega, as the French of 2007 (A IV.36) has it.
+content_sha256: 3e65a198739aa70d4a584dbce56538868203828bb1215af894a6ac9c2b0d0051
 ---
 
 ## § 4. FORMAL POWER SERIES
@@ -103,7 +116,7 @@ For each $\beta \in \mathbf{N}^{(I)}$ let $S_\beta$ be the set of multi-indices 
 
 #### Lemma 1 {#alg-iv-s4-lem-1 .statement}
 
-Let $L$ be an infinite set and $(u_\lambda)_{\lambda \in L}$ a family of elements of $A[[I]]$, and put $u_\lambda = \sum \alpha_{\lambda,v} X^v$ for $\lambda \in L$. Then the following conditions are equivalent:
+Let $L$ be an infinite set and $(u_\lambda)_{\lambda \in L}$ a family of elements of $A[[I]]$, and put $u_\lambda = \sum \alpha_{\lambda,\nu} X^\nu$ for $\lambda \in L$. Then the following conditions are equivalent:
 (i) The family $(u_\lambda)_{\lambda \in L}$ is summable (Gen. Top., III, p. 262) in $A[[I]]$.
 (ii) We have $\lim u_\lambda = 0$, taken along *the filter* of complements of finite subsets of $L$.
 (iii) For every $\nu \in \mathbf{N}^{(I)}$ we have $\alpha_{\lambda,\nu} = 0$ except for a *finite* number of indices $\lambda \in L$.

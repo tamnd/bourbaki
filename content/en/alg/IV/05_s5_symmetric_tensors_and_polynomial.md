@@ -58,7 +58,17 @@ subsections:
       pdf_page: 68
 statements: 41
 exercises: 16
-content_sha256: 6aaa00c781c4e6412b69e6dafb2e6b8b2ad2e7e31f4a2bf1162f5be48ea042fa
+errata:
+    - says: For each $w \in \Omega$ let $u_\omega = \sum_{b \in \omega} b$
+      read: For each $\omega \in \Omega$ let $u_\omega = \sum_{b \in \omega} b$
+      why: Omega is B/H and its elements are orbits, written omega everywhere else in Lemma 1 on page 56, including in the subscript and under the sum of this very sentence. The quantifier alone is set roman.
+    - says: put $\omega' = w - \{v_\omega\}$ and $B' = \bigcup_{\omega \in \Omega} w'$
+      read: put $\omega' = \omega - \{v_\omega\}$ and $B' = \bigcup_{\omega \in \Omega} \omega'$
+      why: The thing omega' is obtained from is the orbit omega, named round twice earlier in the same clause of (ii), and the union is over the omega' just defined. Page 56 sets both of these two as roman w.
+    - says: we have $u_\omega \in U^H$ for all $w \in \Omega$
+      read: we have $u_\omega \in U^H$ for all $\omega \in \Omega$
+      why: The proof on page 56 sets the subscript of u round and the quantifier of the same letter roman, in one clause.
+content_sha256: f96a879882e9da9dab8e5f6ed8418e095012d58059c354b094191e1789524b90
 ---
 
 ## § 5. SYMMETRIC TENSORS AND POLYNOMIAL MAPPINGS
@@ -375,13 +385,13 @@ Let us use the notation of the Remark 2 above. The family $(e_{\rho(1)} \otimes 
 
 #### Lemma 1 {#alg-iv-s5-lem-1 .statement}
 
-Let $H$ be a finite group and $U$ a left $A[H]$-module. Suppose that the $A$-module $U$ has a basis $B$ which is stable under the operations of $H$ in $U$, and put $\Omega = B/H$. For each $w \in \Omega$ let $u_w = \sum_{b \in w} b$; then
+Let $H$ be a finite group and $U$ a left $A[H]$-module. Suppose that the $A$-module $U$ has a basis $B$ which is stable under the operations of $H$ in $U$, and put $\Omega = B/H$. For each $w \in \Omega$ let $u_\omega = \sum_{b \in \omega} b$; then
 
-(i) $(u_w)_{w \in \Omega}$ is a basis of the $A$-module $U^H$.
+(i) $(u_\omega)_{\omega \in \Omega}$ is a basis of the $A$-module $U^H$.
 
 (ii) For each $\omega \in \Omega$ let $v$, be a point of $\omega$; put $\omega' = w - \{v_\omega\}$ and $B' = \bigcup_{\omega \in \Omega} w'$, then $B'$ is a basis of a supplementary subspace for $U^H$ in $U$.
 
-The union of the set of all $u_w$ (for $\omega \in \Omega$) and of $B'$ is a basis of $U$. If $U' = \sum_{\omega \in \Omega} Au$, and $U'' = \sum_{b \in B'} Ab$, we therefore have $U = U' \oplus U''$. On the other hand, we have $u_w \in U^H$ for all $w \in \Omega$, hence $U' \subset U^H$. Finally, let $(\alpha_b)_{b \in B}$ be a family of elements of $A$ with finite support and let $x = \sum_{b \in B} \alpha_b b$. If $x \in U^H$, then $\alpha_{hb} = \alpha_b^H$ for all $b \in B$ and all $h \in H$, hence $x \in U'$, and it follows that $U' = u^H$.
+The union of the set of all $u_\omega$ (for $\omega \in \Omega$) and of $B'$ is a basis of $U$. If $U' = \sum_{\omega \in \Omega} Au$, and $U'' = \sum_{b \in B'} Ab$, we therefore have $U = U' \oplus U''$. On the other hand, we have $u_\omega \in U^H$ for all $w \in \Omega$, hence $U' \subset U^H$. Finally, let $(\alpha_b)_{b \in B}$ be a family of elements of $A$ with finite support and let $x = \sum_{b \in B} \alpha_b b$. If $x \in U^H$, then $\alpha_{hb} = \alpha_b^H$ for all $b \in B$ and all $h \in H$, hence $x \in U'$, and it follows that $U' = u^H$.
 
 #### Proposition 5 {#alg-iv-s5-prop-5 .statement}
 

@@ -62,7 +62,7 @@ chapters:
           statements: 6
           exercises: 7
           extraction: ocr
-          content_sha256: 7198747b0b6bbdd08037685e5f795da17bcc151029f7c5022d6d539a5ea0b283
+          content_sha256: 593462112374e18f7a898bd77ebfef253b2fa8f6d7c6692cd836f5b6d7e1af23
         - kind: section
           section: 4
           title: Formal power series
@@ -75,7 +75,7 @@ chapters:
           statements: 23
           exercises: 8
           extraction: ocr
-          content_sha256: ed35587a155fb15e501a74eae948a900accc935d0e586e804f6eb09239b179a3
+          content_sha256: 3e65a198739aa70d4a584dbce56538868203828bb1215af894a6ac9c2b0d0051
         - kind: section
           section: 5
           title: Symmetric tensors and polynomial mappings
@@ -88,7 +88,7 @@ chapters:
           statements: 41
           exercises: 16
           extraction: ocr
-          content_sha256: 6aaa00c781c4e6412b69e6dafb2e6b8b2ad2e7e31f4a2bf1162f5be48ea042fa
+          content_sha256: f96a879882e9da9dab8e5f6ed8418e095012d58059c354b094191e1789524b90
         - kind: section
           section: 6
           title: Symmetric functions
@@ -101,7 +101,7 @@ chapters:
           statements: 43
           exercises: 15
           extraction: ocr
-          content_sha256: 8d327c82138ab24b2a0ebb0ae6785bda3bb6fd0b0256ad7c094db8b668b342da
+          content_sha256: cc841075e875011562ed770132cf3b06a5e0b13de383d6670be611e3e740d54c
     - chapter: V
       title: COMMUTATIVE FIELDS
       sections:
