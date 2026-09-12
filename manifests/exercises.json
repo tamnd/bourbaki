@@ -3455,7 +3455,7 @@
         {
           "chapter": "VI",
           "title": "GENERALIZED TAYLOR EXPANSIONS EULER-MACLAURIN SUMMATION FORMULA",
-          "total": 12,
+          "total": 19,
           "sections": [
             {
               "section": 1,
@@ -3469,9 +3469,10 @@
               "section": 2,
               "label": "fvr-vi-s2",
               "dir": "s2",
-              "count": 6,
+              "count": 13,
               "first": 1,
-              "last": 6
+              "last": 13,
+              "supplementary": 1
             },
             {
               "section": 3,

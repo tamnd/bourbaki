@@ -354,7 +354,7 @@ chapters:
           book_pages: 283-288, 292-296
           subsections: 3
           statements: 5
-          exercises: 6
+          exercises: 13
           extraction: ocr
           content_sha256: c5c7d446dee9ba1fe3d1c893187a3788356b0388489f1ea77fdf68ea2831727a
         - kind: section
