@@ -42,7 +42,7 @@ subsections:
       pdf_page: 170
 statements: 27
 exercises: 9
-content_sha256: 6ca2a731bab0f11ba88603566c6cf571b03614fed109f0a040ab3637910aeee1
+content_sha256: a255656113464eb5c20a3499c024cc6dd3c3ae65f11d5df8dc5884773b7020f8
 ---
 
 ## § 7. LIMITES PROJECTIVES ET LIMITES INDUCTIVES
@@ -293,25 +293,25 @@ Soit $(E_\alpha, f_{\alpha\beta})$ un système projectif d'ensembles relatif à 
 
 Soit $(\alpha_n)$ une suite d'éléments de $I$ formant une partie cofinale de $I$. Comme $I$ est filtrant, on peut définir par récurrence une suite $(\beta_n)$ par les conditions $\beta_0 = \alpha_0$, $\beta_n \geq \beta_i$ pour $i < n$ et $\beta_n \geq \alpha_n$; il est clair que la suite $(\beta_n)$ est croissante et forme une partie cofinale de $I$; tenant compte de III, p. 52, prop. 1 et des relations $f_\alpha = f_{\alpha\beta_n} \circ f_{\beta_n}$ pour $\alpha \leq \beta_n$, on voit qu'on est ramené à prouver la proposition lorsque $I = \mathbf{N}$. En outre, il est clair qu'il suffit de prouver que $f_0$ est surjective. Soit donc $x_0 \in E_0$; on définit par récurrence $x_n \in E_n$ pour $n \geq 1$ comme un élément de $f_{n-1,n}^{-1}(x_{n-1})$, ce qui est possible puisque ce dernier ensemble n'est pas vide par hypothèse. On prouve alors par récurrence sur $n - m$ que pour $m \leq n$, on a $x_m = f_{mn}(x_n)$, donc $x = (x_n)$ appartient à $E$.
 
-Le second critère concerne les systèmes projectifs $(E_\alpha, f_{\alpha\beta})$ relatifs à un ensemble d'indices $I$, tels que pour tout $\alpha \in I$ on se soit donné un ensemble $\mathscr{S}_\alpha$ de parties de $E_\alpha$, vérifiant les conditions suivantes:
+Le second critère concerne les systèmes projectifs $(E_\alpha, f_{\alpha\beta})$ relatifs à un ensemble d'indices $I$, tels que pour tout $\alpha \in I$ on se soit donné un ensemble $\mathfrak{S}_\alpha$ de parties de $E_\alpha$, vérifiant les conditions suivantes:
 
-(i) Toute intersection d'ensembles de $\mathscr{S}_\alpha$ appartient à $\mathscr{S}_\alpha$.
+(i) Toute intersection d'ensembles de $\mathfrak{S}_\alpha$ appartient à $\mathfrak{S}_\alpha$.
 
-Il résulte en particulier de cette condition (en considérant l'intersection de la famille vide) que $E_\alpha \in \mathscr{S}_\alpha$.
+Il résulte en particulier de cette condition (en considérant l'intersection de la famille vide) que $E_\alpha \in \mathfrak{S}_\alpha$.
 
-(ii) Si un ensemble de parties $\mathfrak{F} \subset \mathscr{S}_\alpha$ est tel que toute intersection finie d'ensembles appartenant à $\mathfrak{F}$ soit non vide, alors $\bigcap_{M \in \mathfrak{F}} M$ est non vide.
+(ii) Si un ensemble de parties $\mathfrak{F} \subset \mathfrak{S}_\alpha$ est tel que toute intersection finie d'ensembles appartenant à $\mathfrak{F}$ soit non vide, alors $\bigcap_{M \in \mathfrak{F}} M$ est non vide.
 
 Il est clair, compte tenu de (i), que (ii) est équivalente à la condition suivante:
 
-(ii') Si $\mathfrak{G} \subset \mathscr{S}_\alpha$ est un ensemble filtrant décroissant dont les éléments sont non vides, alors $\bigcap_{M \in \mathfrak{G}} M$ est non vide.
+(ii') Si $\mathfrak{G} \subset \mathfrak{S}_\alpha$ est un ensemble filtrant décroissant dont les éléments sont non vides, alors $\bigcap_{M \in \mathfrak{G}} M$ est non vide.
 
 #### Théorème 1 {#ens-iii-s7-thm-1 .statement tag=03RQ}
 
-On suppose que $I$ est filtrant, que les $\mathscr{S}_\alpha$ satisfont aux conditions (i) et (ii), et en outre que le système projectif $(E_\alpha, f_{\alpha\beta})$ possède les propriétés suivantes:
+On suppose que $I$ est filtrant, que les $\mathfrak{S}_\alpha$ satisfont aux conditions (i) et (ii), et en outre que le système projectif $(E_\alpha, f_{\alpha\beta})$ possède les propriétés suivantes:
 
-(iii) Pour tout couple d'indices $\alpha, \beta$ tels que $\alpha \leq \beta$, et tout $x_\alpha \in E_\alpha$, on a $f_{\alpha\beta}^{-1}(x_\alpha) \in \mathscr{S}_\beta$.
+(iii) Pour tout couple d'indices $\alpha, \beta$ tels que $\alpha \leq \beta$, et tout $x_\alpha \in E_\alpha$, on a $f_{\alpha\beta}^{-1}(x_\alpha) \in \mathfrak{S}_\beta$.
 
-(iv) Pour tout couple d'indices $\alpha, \beta$ tels que $\alpha \leq \beta$ et tout $M_\beta \in \mathscr{S}_\beta$, on a $f_{\alpha\beta}(M_\beta) \in \mathscr{S}_\alpha$.
+(iv) Pour tout couple d'indices $\alpha, \beta$ tels que $\alpha \leq \beta$ et tout $M_\beta \in \mathfrak{S}_\beta$, on a $f_{\alpha\beta}(M_\beta) \in \mathfrak{S}_\alpha$.
 
 Soit $E = \lim_{\leftarrow} E_\alpha$, et pour tout $\alpha \in I$, soit $f_\alpha : E \to E_\alpha$ l'application canonique. Alors:
 
@@ -326,7 +326,7 @@ b) Si, pour tout $\alpha \in I$, $E_\alpha$ est non vide, alors $E$ est non vide
 Soit $\Sigma$ l'ensemble des familles $\mathfrak{A} = (A_\alpha)_{\alpha \in I}$ vérifiant les conditions:
 
 $$
-A_\alpha \neq \varnothing \quad \text{et} \quad A_\alpha \in \mathscr{S}_\alpha \quad \text{pour tout} \quad \alpha \in I;
+A_\alpha \neq \varnothing \quad \text{et} \quad A_\alpha \in \mathfrak{S}_\alpha \quad \text{pour tout} \quad \alpha \in I;
 $$
 
 $$
@@ -337,7 +337,7 @@ Pour deux éléments $\mathfrak{A} = (A_\alpha)$, $\mathfrak{A}' = (A'_\alpha)$ 
 
 1° Prouvons d’abord que l’ensemble ordonné $\Sigma$ est *inductif*. Soient $L$ un ensemble totalement ordonné, $\lambda \mapsto \mathfrak{A}^\lambda = (A^\lambda_\alpha)_{\alpha \in I}$ une application strictement croissante de $L$ dans $\Sigma$. Pour tout $\alpha \in I$, posons $B_\alpha = \bigcap_{\lambda \in L} A^\lambda_\alpha$; il est immédiat que la famille $\mathfrak{B} = (B_\alpha)_{\alpha \in I}$ vérifie (21); en vertu de (i) et (ii'), elle vérifie aussi (20), donc $\mathfrak{B} \in \Sigma$, et il est clair que $\mathfrak{B}$ majore l’ensemble des $\mathfrak{A}^\lambda$.
 
-2° Soit $\mathfrak{A} = (A_\alpha)$ un élément *maximal* de $\Sigma$; montrons que l’on a alors $A_\alpha = f_{\alpha \beta}(A_\beta)$ pour $\alpha \leq \beta$. En effet, soit $A'_\alpha = \bigcap_{\beta \geq \alpha} f_{\alpha \beta}(A_\beta)$ pour tout $\alpha \in I$; montrons que $\mathfrak{A}' = (A'_\alpha)$ appartient à $\Sigma$. Notons d’abord que pour $\alpha \leq \beta \leq \gamma$ on a $f_{\alpha \gamma}(A_\gamma) = f_{\alpha \beta}(f_{\beta \gamma}(A_\gamma)) \subset f_{\alpha \beta}(A_\beta)$ en vertu de (21); en outre on a $f_{\alpha \beta}(A_\beta) \in \mathscr{S}_\alpha$ d’après (iv), et $f_{\alpha \beta}(A_\beta) \neq \varnothing$ par (20); les conditions (i) et (ii) montrent alors que $\mathfrak{A}'$ vérifie (20). Enfin $\mathfrak{A}'$ vérifie aussi (21): en effet, si $\alpha \leq \beta$, on a
+2° Soit $\mathfrak{A} = (A_\alpha)$ un élément *maximal* de $\Sigma$; montrons que l’on a alors $A_\alpha = f_{\alpha \beta}(A_\beta)$ pour $\alpha \leq \beta$. En effet, soit $A'_\alpha = \bigcap_{\beta \geq \alpha} f_{\alpha \beta}(A_\beta)$ pour tout $\alpha \in I$; montrons que $\mathfrak{A}' = (A'_\alpha)$ appartient à $\Sigma$. Notons d’abord que pour $\alpha \leq \beta \leq \gamma$ on a $f_{\alpha \gamma}(A_\gamma) = f_{\alpha \beta}(f_{\beta \gamma}(A_\gamma)) \subset f_{\alpha \beta}(A_\beta)$ en vertu de (21); en outre on a $f_{\alpha \beta}(A_\beta) \in \mathfrak{S}_\alpha$ d’après (iv), et $f_{\alpha \beta}(A_\beta) \neq \varnothing$ par (20); les conditions (i) et (ii) montrent alors que $\mathfrak{A}'$ vérifie (20). Enfin $\mathfrak{A}'$ vérifie aussi (21): en effet, si $\alpha \leq \beta$, on a
 
 $$
 f_{\alpha \beta}(A'_\beta) \subset \bigcap_{\gamma \geq \beta} f_{\alpha \beta}(f_{\beta \gamma}(A_\gamma)) = \bigcap_{\gamma \geq \beta} f_{\alpha \gamma}(A_\gamma);
@@ -350,9 +350,9 @@ d’autre part, pour tout $\delta \geq \alpha$, il existe un $\gamma \in I$ tel 
 $$
 f_{\beta \gamma}(B_\gamma) \subset f_{\beta \gamma}(A_\gamma) \subset A_\beta = B_\beta; \text{ si au contraire } \alpha \leq \beta \leq \gamma, \text{ comme } f^{-1}_{\alpha \gamma}(x_\alpha) = f^{-1}_{\beta \gamma}(f_{\alpha \beta}(x_\alpha)), \text{ on a } f_{\beta \gamma}(f^{-1}_{\alpha \gamma}(x_\alpha)) \subset f^{-1}_{\alpha \beta}(x_\alpha), \text{ et comme } f_{\beta \gamma}(A_\gamma) \subset A_\beta, \text{ on a encore } f_{\beta \gamma}(B_\gamma) \subset B_\beta; \text{ la famille } \mathfrak{B} \text{ vérifie donc (21)}. $$
 
-Comme $A_\alpha = f_{\alpha \beta}(A_\beta)$ pour $\alpha \leq \beta$ d’après 2°, il est clair que $B_\beta \neq \varnothing$ pour tout $\beta \in I$; enfin, en vertu de (i) et (iii), on a $B_\beta \in \mathscr{S}_\beta$ pour tout $\beta \in I$, ce qui achève de montrer que $\mathfrak{B} \in \Sigma$. Comme $B_\beta \subset A_\beta$ pour tout $\beta \in I$, l’hypothèse que $\mathfrak{A}$ est maximal entraîne $B_\beta = A_\beta$ pour tout $\beta$, et en particulier $A_\alpha = \{x_\alpha\}$.
+Comme $A_\alpha = f_{\alpha \beta}(A_\beta)$ pour $\alpha \leq \beta$ d’après 2°, il est clair que $B_\beta \neq \varnothing$ pour tout $\beta \in I$; enfin, en vertu de (i) et (iii), on a $B_\beta \in \mathfrak{S}_\beta$ pour tout $\beta \in I$, ce qui achève de montrer que $\mathfrak{B} \in \Sigma$. Comme $B_\beta \subset A_\beta$ pour tout $\beta \in I$, l’hypothèse que $\mathfrak{A}$ est maximal entraîne $B_\beta = A_\beta$ pour tout $\beta$, et en particulier $A_\alpha = \{x_\alpha\}$.
 
-4° Nous pouvons maintenant démontrer le th. 1. Prouvons d’abord *a)*. On sait que $f_\alpha(E) \subset \bigcap_{\beta \geq \alpha} f_{\alpha \beta}(E_\beta)$. Inversement, soit $x_\alpha \in \bigcap_{\beta \geq \alpha} f_{\alpha \beta}(E_\beta)$. Posons $B_\beta = f_{\alpha \beta}(x_\alpha)$ si $\beta \geq \alpha$, $B_\beta = E_\beta$ dans le cas contraire; par définition de $x_\alpha$, les $B_\beta$ ne sont pas vides et l’on a $B_\beta \in \mathscr{S}_\beta$ pour tout $\beta \in I$ en vertu de (iii) et de (i); en outre il est immédiat que $f_{\beta \gamma}(B_\gamma) \subset B_\beta$ pour $\beta \leq \gamma$. On a donc $\mathfrak{B} = (B_\beta) \in \Sigma$; soit $\mathfrak{A} = (A_\beta)$ un élément maximal de $\Sigma$ tel que $\mathfrak{A} \geq \mathfrak{B}$, élément dont l’existence résulte de 1° et de III, p. 21, cor. 1; comme, d’après 3°, $A_\beta$ est de la forme $\{y_\beta\}$ pour tout $\beta \in I$, $y = (y_\beta)$ appartient à $E$, et $f_\alpha(y) = y_\alpha = x_\alpha$ par définition.
+4° Nous pouvons maintenant démontrer le th. 1. Prouvons d’abord *a)*. On sait que $f_\alpha(E) \subset \bigcap_{\beta \geq \alpha} f_{\alpha \beta}(E_\beta)$. Inversement, soit $x_\alpha \in \bigcap_{\beta \geq \alpha} f_{\alpha \beta}(E_\beta)$. Posons $B_\beta = f_{\alpha \beta}(x_\alpha)$ si $\beta \geq \alpha$, $B_\beta = E_\beta$ dans le cas contraire; par définition de $x_\alpha$, les $B_\beta$ ne sont pas vides et l’on a $B_\beta \in \mathfrak{S}_\beta$ pour tout $\beta \in I$ en vertu de (iii) et de (i); en outre il est immédiat que $f_{\beta \gamma}(B_\gamma) \subset B_\beta$ pour $\beta \leq \gamma$. On a donc $\mathfrak{B} = (B_\beta) \in \Sigma$; soit $\mathfrak{A} = (A_\beta)$ un élément maximal de $\Sigma$ tel que $\mathfrak{A} \geq \mathfrak{B}$, élément dont l’existence résulte de 1° et de III, p. 21, cor. 1; comme, d’après 3°, $A_\beta$ est de la forme $\{y_\beta\}$ pour tout $\beta \in I$, $y = (y_\beta)$ appartient à $E$, et $f_\alpha(y) = y_\alpha = x_\alpha$ par définition.
 
 Prouvons enfin que $a)$ entraîne $b)$. On peut en effet supposer $I$ non vide (sans quoi il n'y a rien à démontrer); l'hypothèse que les $E_\alpha$ sont non vides entraîne $f_{\alpha \beta}(E_\beta) \neq \varnothing$ pour $\beta \geq \alpha$; comme les $f_{\alpha \beta}(E_\beta)$, pour $\alpha$ fixé et $\beta \geq \alpha$, forment un ensemble filtrant décroissant de parties de $E_\alpha$ appartenant à $\mathfrak{S}_\alpha$, la condition (ii') prouve que $\bigcap_{\beta \geq \alpha} f_{\alpha \beta}(E_\beta) \neq \varnothing$. On a donc $f_\alpha(E) \neq \varnothing$ d'après $a)$, et $a$ fortiori $E \neq \varnothing$.
 

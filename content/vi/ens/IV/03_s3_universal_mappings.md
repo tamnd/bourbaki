@@ -26,9 +26,9 @@ subsections:
       pdf_page: 291
 statements: 0
 exercises: 3
-content_sha256: 38cd9b74bde04e523ea7c63a921311c3dd741cf8213a31d1cee1671ba2b56c5d
+content_sha256: 982bb363481f3c228e3f56fcafec00451c2e2f2e67932b73adec3caa19e9b312
 translated_from: content/en/ens/IV/03_s3_universal_mappings.md
-source_content_sha256: dd5993f058059ce31de395ffe2d588f0a896589d38ffdef55e874bcb065fe984
+source_content_sha256: 02143cebc191d935f4dc730de8191e96a819d51f624ae1e4a809f5d496463365
 translation_model: gpt-5-mini, gpt-5-6, gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-15100407
 glossary_version: 34
@@ -44,7 +44,7 @@ Cho $\mathscr{T}$ là một lý thuyết mạnh hơn lý thuyết tập hợp, v
 
 (QM$_{\mathrm{I}}$) *Quan hệ $\alpha\{x,s\}\subset\mathscr{T}(E;x)$ là đúng trong $\mathscr{T}_{\Sigma}$.*
 
-(QM$_{\mathrm{II}}$) *Nếu (trong một lý thuyết $\mathscr{T}'$ mạnh hơn $\mathscr{T}$) F và F′ là hai tập hợp được trang bị các cấu trúc $\mathscr{G},\mathscr{G}'$ của loài $\Sigma$, và nếu $f$ là một cấu xạ của F vào F′, thì quan hệ $\varphi\in\alpha\{F,\mathscr{G}\}$ suy ra $f\circ\varphi\in\alpha\{F',\mathscr{G}'\}$.*
+(QM$_{\mathrm{II}}$) *Nếu (trong một lý thuyết $\mathscr{T}'$ mạnh hơn $\mathscr{T}$) F và F′ là hai tập hợp được trang bị các cấu trúc $\mathscr{S},\mathscr{S}'$ của loài $\Sigma$, và nếu $f$ là một cấu xạ của F vào F′, thì quan hệ $\varphi\in\alpha\{F,\mathscr{S}\}$ suy ra $f\circ\varphi\in\alpha\{F',\mathscr{S}'\}$.*
 
 Ta sẽ biểu thị quan hệ $\varphi\in\alpha\{x,s\}$ bằng cách nói rằng $\varphi$ là một $\alpha$-ánh xạ từ E vào $x$ (được trang bị $s$).
 
@@ -94,7 +94,7 @@ Vì $\varphi_\mathrm{E}$ là một $\alpha$-ánh xạ, tiêu chuẩn là một h
 
 \* Các ví dụ tiếp theo, phần lớn, sẽ được xét chi tiết ở nơi khác trong chuỗi này.
 
-I. *Các cấu trúc đại số tự do.* Cho E là một tập hợp và cho $\Sigma$ là một loài các cấu trúc đại số, được xác định bởi một hoặc nhiều luật hợp thành. Ta lấy làm các cấu xạ các *đồng cấu* đối với loài $\Sigma$ đang xét, và làm các ánh xạ-$\alpha$ các ánh xạ *tùy ý* từ E vào một tập hợp-$\Sigma$ (nói cách khác, $\alpha \{ x,\ s \} = \mathscr{F}(\mathrm{E},\ x)$). Tất cả các loài cấu trúc đại số thông thường đều thỏa mãn $(\mathrm{CU_{III}})$; ngoại trừ các cấu trúc vành chia, chúng cũng thỏa mãn $(\mathrm{CU_I})$, và $(\mathrm{CU_{II}})$ ở đây là một hệ quả tầm thường của $(\mathrm{CU_I})$.
+I. *Các cấu trúc đại số tự do.* Cho E là một tập hợp và cho $\Sigma$ là một loài các cấu trúc đại số, được xác định bởi một hoặc nhiều luật hợp thành. Ta lấy làm các cấu xạ các *đồng cấu* đối với loài $\Sigma$ đang xét, và làm các ánh xạ-$\alpha$ các ánh xạ *tùy ý* từ E vào một tập hợp-$\Sigma$ (nói cách khác, $\alpha \{ x,\ s \} = \mathfrak{F}(\mathrm{E},\ x)$). Tất cả các loài cấu trúc đại số thông thường đều thỏa mãn $(\mathrm{CU_{III}})$; ngoại trừ các cấu trúc vành chia, chúng cũng thỏa mãn $(\mathrm{CU_I})$, và $(\mathrm{CU_{II}})$ ở đây là một hệ quả tầm thường của $(\mathrm{CU_I})$.
 
 Vì nói chung tồn tại các cấu trúc thuộc loài $\Sigma$ được xác định trên các tập hợp có ít nhất hai phần tử, các ánh xạ-$\alpha$ tách các phần tử của E, và do đó E có thể được xem như được nhúng vào $\mathrm{F_E}$. $\mathrm{F_E}$ được gọi là tập hợp-$\Sigma$ *tự do* *sinh bởi* E. Vì vậy trong đại số ta nói đến các *nửa nhóm tự do*, các *nhóm tự do*, các *môđun tự do*, và các *đại số tự do*.
 

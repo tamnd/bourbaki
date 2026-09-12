@@ -38,9 +38,9 @@ subsections:
       pdf_page: 163
 statements: 28
 exercises: 20
-content_sha256: f8fc0e20a9c3f3a7eb7da1282ca9d061f3208dbd4703fe749fe1c71674a4ba21
+content_sha256: 302d3c4f82248473a40cfc1e5f0a9455b74461a8be33ac434193d41b6adebacd
 translated_from: content/en/ens/III/02_s2_well_ordered_sets.md
-source_content_sha256: 1ca0af6bba0dc81ea81d456d04144c5394ceaf1e77570677f48682a2d16e5410
+source_content_sha256: 529e0877ab160d3b3e3d67615a04958e997ebf0f3443b7d1ff61efd5c0edeeb3
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-25341e40
 glossary_version: 34
@@ -132,9 +132,9 @@ Cho $\mathrm{G}_\alpha$ là đồ thị của thứ tự đã cho trên $\mathrm
 
 #### Bổ đề 2 {#ens-iii-s2-lem-2 .statement tag=03K0}
 
-Cho $E$ là một tập hợp được sắp thứ tự tốt và $\mathscr{C}$ là một tập hợp các đoạn của $E$ có các tính chất sau: (1) hợp của mọi các đoạn thuộc $\mathscr{C}$ đều thuộc $\mathscr{C}$; (2) nếu $S_x\in\mathscr{C}$, thì $S_x\cup\{x\}\in\mathscr{C}$. Khi đó mọi đoạn của $E$ đều thuộc $\mathscr{C}$.
+Cho $E$ là một tập hợp được sắp thứ tự tốt và $\mathfrak{S}$ là một tập hợp các đoạn của $E$ có các tính chất sau: (1) hợp của mọi các đoạn thuộc $\mathfrak{S}$ đều thuộc $\mathfrak{S}$; (2) nếu $S_x\in\mathfrak{S}$, thì $S_x\cup\{x\}\in\mathfrak{S}$. Khi đó mọi đoạn của $E$ đều thuộc $\mathfrak{S}$.
 
-Giả sử rằng có những đoạn của $E$ không thuộc $\mathscr{C}$, và gọi $S$ là đoạn nhỏ nhất trong số đó (no. 1, Mệnh đề 2). Nếu $S$ không có phần tử lớn nhất, thì $S$ là hợp của các đoạn của $S$ phân biệt với chính $S$, và các đoạn này thuộc $\mathscr{C}$ theo định nghĩa của $S$; do đó $S\in\mathscr{C}$, điều này vô lý. Ngược lại, nếu $S$ có phần tử lớn nhất $a$, thì $S=S_a\cup\{a\}$, và vì $S_a$ là một đoạn của $S$ phân biệt với $S$, ta có $S_a\in\mathscr{C}$; nhưng khi đó cũng có $S\in\mathscr{C}$, lại là điều vô lý.
+Giả sử rằng có những đoạn của $E$ không thuộc $\mathfrak{S}$, và gọi $S$ là đoạn nhỏ nhất trong số đó (no. 1, Mệnh đề 2). Nếu $S$ không có phần tử lớn nhất, thì $S$ là hợp của các đoạn của $S$ phân biệt với chính $S$, và các đoạn này thuộc $\mathfrak{S}$ theo định nghĩa của $S$; do đó $S\in\mathfrak{S}$, điều này vô lý. Ngược lại, nếu $S$ có phần tử lớn nhất $a$, thì $S=S_a\cup\{a\}$, và vì $S_a$ là một đoạn của $S$ phân biệt với $S$, ta có $S_a\in\mathfrak{S}$; nhưng khi đó cũng có $S\in\mathfrak{S}$, lại là điều vô lý.
 
 ¶ Để tiện lợi hơn, ta sẽ đặt mình trong một lý thuyết $\mathscr{T}$ trong đó $E$ là một tập hợp *được sắp tốt* bởi một quan hệ viết dưới dạng $x\leq y$. Khi đó ta có các tiêu chuẩn sau:
 
@@ -146,7 +146,7 @@ $$
 
 là một định lý trong $\mathscr{T}$. Trong những điều kiện này, quan hệ $(x\in E)\Rightarrow R\{x\}$ là một định lý trong $\mathscr{T}$.*
 
-Cho $\mathscr{C}$ là tập hợp các đoạn $S$ của $E$ sao cho $(y\in S)\Rightarrow R\{y\}$. Rõ ràng là mọi hợp của các đoạn thuộc $\mathscr{C}$ cũng thuộc $\mathscr{C}$. Mặt khác, nếu $S_x\in\mathscr{C}$, theo giả thiết ta có $R\{x\}$; do đó $(y\in S_x\cup\{y\})\Rightarrow R\{y\}$ theo phương pháp phân chia các trường hợp. Vậy (Bổ đề 2) $E\in\mathscr{C}$, điều này chứng minh tiêu chuẩn.
+Cho $\mathfrak{S}$ là tập hợp các đoạn $S$ của $E$ sao cho $(y\in S)\Rightarrow R\{y\}$. Rõ ràng là mọi hợp của các đoạn thuộc $\mathfrak{S}$ cũng thuộc $\mathfrak{S}$. Mặt khác, nếu $S_x\in\mathfrak{S}$, theo giả thiết ta có $R\{x\}$; do đó $(y\in S_x\cup\{y\})\Rightarrow R\{y\}$ theo phương pháp phân chia các trường hợp. Vậy (Bổ đề 2) $E\in\mathfrak{S}$, điều này chứng minh tiêu chuẩn.
 
 ¶ Trong các áp dụng của C59, quan hệ
 

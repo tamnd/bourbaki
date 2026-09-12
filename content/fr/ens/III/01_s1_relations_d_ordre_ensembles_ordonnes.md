@@ -65,7 +65,7 @@ subsections:
       pdf_page: 118
 statements: 54
 exercises: 24
-content_sha256: 6b0a8394dd7b012d5dcc4d61fb01852ee80b1a554f68aca135f3cf885a73a20c
+content_sha256: b14cad04137473bc1f15e48f99997f91130db356f266485938dcf6a767579d8c
 ---
 
 ## § 1. RELATIONS D’ORDRE.. ENSEMBLES ORDONNÉS
@@ -486,7 +486,7 @@ La première assertion résulte de ce que l’ensemble M des majorants de A dans
 
 On dit qu’un ensemble préordonné E est filtrant à droite (resp. à gauche) si toute partie à deux éléments de E est majorée (resp. minorée).
 
-Au lieu de « filtrant à droite », on dit aussi « filtrant pour la relation $\leq$ »; expressions analogues lorsque la relation de préordre est notée par un autre signe. Par exemple, si $\mathscr{S}$ est un ensemble de parties d’un ensemble A, on dira que $\mathscr{S}$ est filtrant pour la relation $\subset$ (resp. $\supset$) si, pour toute partie à deux éléments {X, Y} de $\mathscr{S}$, il existe $Z \in \mathscr{S}$ tel que $X \subset Z$ et $Y \subset Z$ (resp. $X \supset Z$ et $Y \supset Z$).
+Au lieu de « filtrant à droite », on dit aussi « filtrant pour la relation $\leq$ »; expressions analogues lorsque la relation de préordre est notée par un autre signe. Par exemple, si $\mathfrak{S}$ est un ensemble de parties d’un ensemble A, on dira que $\mathfrak{S}$ est filtrant pour la relation $\subset$ (resp. $\supset$) si, pour toute partie à deux éléments {X, Y} de $\mathfrak{S}$, il existe $Z \in \mathfrak{S}$ tel que $X \subset Z$ et $Y \subset Z$ (resp. $X \supset Z$ et $Y \supset Z$).
 
 Par abus de langage, au lieu d’« ensemble filtrant à droite » (resp. « à gauche »), on dira aussi parfois « ensemble filtrant croissant » (resp. « décroissant »).
 

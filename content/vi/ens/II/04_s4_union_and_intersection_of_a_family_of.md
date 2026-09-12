@@ -46,9 +46,9 @@ subsections:
       pdf_page: 107
 statements: 22
 exercises: 8
-content_sha256: 1adf933b478fbf8e985975279db3e0878dcd034beaebd7fe1a4f25a966ae8f2a
+content_sha256: fabcfc441d7567adcfc196f1f836ae9ea1bd7fa447d39c45c9d645eb5b841eb2
 translated_from: content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md
-source_content_sha256: c8fd3f17f42e974a252f4d880619803570369c6870f994dc645984b60d03b8d3
+source_content_sha256: 79a8f1cdc57e7dce0167dd11f3e335382fe0479c90c58a053fba7bbc5d06a5f5
 translation_model: gpt-5.4, copied
 translation_run: translate-vi-3107348b
 glossary_version: 34
@@ -73,7 +73,7 @@ là đúng. Theo lược đồ S8 (§1, no. 6), quan hệ $(\exists \iota)(\iota
 *Cho $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ là một họ các tập hợp* (tương ứng, *một họ các tập con của một tập hợp* E). *Tập hợp $\mathscr{E}_x((\exists \iota)(\iota \in \mathrm{I}$ and $x \in \mathrm{X}_\iota))$, nghĩa là, tập hợp mọi $x$* *thuộc ít nhất một tập hợp của họ $(X_l)_{l\in I}$, được gọi là hợp của họ, và được ký hiệu bởi*
 $$\bigcup_{l\in I}X_l,$$ [^1]
 
-Nếu $(X_l)_{l\in I}$ là một họ các tập con của một tập hợp $E$, thì hợp của nó là một tập con của $E$; lưu ý rằng nó không phụ thuộc vào $E$, cũng không phụ thuộc vào đối tượng đích $\mathscr{G}$ của ánh xạ $l\to X_l$.
+Nếu $(X_l)_{l\in I}$ là một họ các tập con của một tập hợp $E$, thì hợp của nó là một tập con của $E$; lưu ý rằng nó không phụ thuộc vào $E$, cũng không phụ thuộc vào đối tượng đích $\mathfrak{G}$ của ánh xạ $l\to X_l$.
 
 Hiển nhiên là nếu $I=\varnothing$, ta có $\displaystyle\bigcup_{l\in I}X_l=\varnothing$, vì khi đó quan hệ $(\exists l)(l\in I\text{ và }x\in X_l)$ là sai.
 

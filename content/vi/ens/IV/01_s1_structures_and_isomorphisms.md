@@ -42,9 +42,9 @@ subsections:
       pdf_page: 273
 statements: 17
 exercises: 1
-content_sha256: ebe15b0b2a031694cd0c2d9496cd785522f3160aaddb1b9e97839a39b9774ede
+content_sha256: c9a6a810848bbdcb2ebbdbd0ac72990ea8f2e945026cc0561e9f86e59a826ca8
 translated_from: content/en/ens/IV/01_s1_structures_and_isomorphisms.md
-source_content_sha256: b1a8e2e22b63f48225281d0009294434de0101ab0a5eb0b72456f29c62b1cc54
+source_content_sha256: 6f80558fbc92e161f5d49ee0e3bc31cde68825641566b6b9033b62360094bb00
 translation_model: gpt-5.4-mini, gpt-5.4
 translation_run: translate-vi-f9b66ecd
 glossary_version: 34
@@ -87,7 +87,7 @@ Vì vậy, các lược đồ khác nhau có thể cho cùng một thang trên c
 
 ### 2. CÁC MỞ RỘNG CHÍNH TẮC CỦA CÁC ÁNH XẠ
 
-Cho $\mathrm{S} = (c_1, c_2, \ldots, c_m)$ là một lược đồ phép dựng echelon trên $n$ số hạng. Cho $\mathrm{E}_1$, ..., $\mathrm{E}_n$, $\mathrm{E}'_1$, ..., $\mathrm{E}'_n$ là các tập hợp (các số hạng trong $\mathscr{C}$) và cho $f_1$, ..., $f_n$ là các số hạng trong $\mathscr{C}$ sao cho các quan hệ "$f_i$ là một ánh xạ từ $\mathrm{E}_i$ vào $\mathrm{E}'_i$" là các định lý trong $\mathscr{C}$ với $1 \leqslant i \leqslant n$. Cho $\mathrm{A}_1$, ..., $\mathrm{A}_m$ (resp. $\mathrm{A}'_1$, ..., $\mathrm{A}'_m$) là phép dựng echelon theo lược đồ S trên $\mathrm{E}_1$, ..., $\mathrm{E}_n$ (resp. $\mathrm{E}'_1$, ..., $\mathrm{E}'_n$). Ta định nghĩa từng bước một dãy gồm $m$ số hạng $g_1$, ..., $g_m$ sao cho $g_i$ là một *ánh xạ từ* $\mathrm{A}_i$ *vào* $\mathrm{A}'_i$ (với $1 \leqslant i \leqslant m$) bởi các điều kiện sau :
+Cho $\mathrm{S} = (c_1, c_2, \ldots, c_m)$ là một lược đồ phép dựng echelon trên $n$ số hạng. Cho $\mathrm{E}_1$, ..., $\mathrm{E}_n$, $\mathrm{E}'_1$, ..., $\mathrm{E}'_n$ là các tập hợp (các số hạng trong $\mathscr{T}$) và cho $f_1$, ..., $f_n$ là các số hạng trong $\mathscr{T}$ sao cho các quan hệ "$f_i$ là một ánh xạ từ $\mathrm{E}_i$ vào $\mathrm{E}'_i$" là các định lý trong $\mathscr{T}$ với $1 \leqslant i \leqslant n$. Cho $\mathrm{A}_1$, ..., $\mathrm{A}_m$ (resp. $\mathrm{A}'_1$, ..., $\mathrm{A}'_m$) là phép dựng echelon theo lược đồ S trên $\mathrm{E}_1$, ..., $\mathrm{E}_n$ (resp. $\mathrm{E}'_1$, ..., $\mathrm{E}'_n$). Ta định nghĩa từng bước một dãy gồm $m$ số hạng $g_1$, ..., $g_m$ sao cho $g_i$ là một *ánh xạ từ* $\mathrm{A}_i$ *vào* $\mathrm{A}'_i$ (với $1 \leqslant i \leqslant m$) bởi các điều kiện sau :
 
 (a) Nếu $c_i = (0, b_i)$, nên $\mathrm{A}_i = \mathrm{E}_{b_i}$ và $\mathrm{A}'_i = \mathrm{E}'_{b_i}$, thì $g_i$ là ánh xạ $f_{b_i}$.
 
@@ -226,7 +226,7 @@ Theo cách nói lạm dụng, trong lý thuyết tập hợp $\mathscr{T}$, vi�
 
 ### 5. ĐẲNG CẤU VÀ PHÉP CHUYỂN CẤU TRÚC
 
-Cho $\Sigma$ là một loài cấu trúc trong một lý thuyết $\mathscr{T}$, trên $n$ tập cơ sở chính $x_1, \ldots, x_n$, với $m$ tập cơ sở phụ $A_1, \ldots, A_m$. Cho S là sơ đồ phép dựng theo bậc thang trên $n + m$ chữ cái xuất hiện trong đặc trưng hóa điển hình của $\Sigma$, và cho R là tiên đề của $\Sigma$. Trong một lý thuyết $\mathscr{T}'$ mạnh hơn $\mathscr{T}$, cho U là một cấu trúc thuộc loài $\Sigma$ trên các tập $E_1, \ldots, E_n$ (như là các tập cơ sở chính) và cho U$'$ là một cấu trúc *cùng loài* trên các tập $E'_1, \ldots, E'_n$. Cuối cùng, cho $f_i$ (trong $\mathscr{T}'$) là một *song ánh* từ $E_i$ lên $\mathrm{E}'_i$ $(1 \leqslant i \leqslant n)$. Khi đó $(f_1, \ldots, f_n)$ được gọi là một *đẳng cấu* từ các tập $\mathrm{E}_1, \ldots, \mathrm{E}_n$, được trang bị cấu trúc U, lên các tập $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$, được trang bị cấu trúc $\mathrm{U}'$, nếu ta có (trong $\mathscr{C}'$)
+Cho $\Sigma$ là một loài cấu trúc trong một lý thuyết $\mathscr{T}$, trên $n$ tập cơ sở chính $x_1, \ldots, x_n$, với $m$ tập cơ sở phụ $A_1, \ldots, A_m$. Cho S là sơ đồ phép dựng theo bậc thang trên $n + m$ chữ cái xuất hiện trong đặc trưng hóa điển hình của $\Sigma$, và cho R là tiên đề của $\Sigma$. Trong một lý thuyết $\mathscr{T}'$ mạnh hơn $\mathscr{T}$, cho U là một cấu trúc thuộc loài $\Sigma$ trên các tập $E_1, \ldots, E_n$ (như là các tập cơ sở chính) và cho U$'$ là một cấu trúc *cùng loài* trên các tập $E'_1, \ldots, E'_n$. Cuối cùng, cho $f_i$ (trong $\mathscr{T}'$) là một *song ánh* từ $E_i$ lên $\mathrm{E}'_i$ $(1 \leqslant i \leqslant n)$. Khi đó $(f_1, \ldots, f_n)$ được gọi là một *đẳng cấu* từ các tập $\mathrm{E}_1, \ldots, \mathrm{E}_n$, được trang bị cấu trúc U, lên các tập $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$, được trang bị cấu trúc $\mathrm{U}'$, nếu ta có (trong $\mathscr{T}'$)
 
 (4) $$\langle f_1, \ldots, f_n, \mathrm{Id}_1, \ldots, \mathrm{Id}_m \rangle^{\mathrm{S}}(\mathrm{U}) = \mathrm{U}'$$
 
@@ -250,9 +250,9 @@ Một đẳng cấu của $\mathrm{E}_1, \ldots, \mathrm{E}_n$ lên $\mathrm{E}_
 
 Do lạm dụng ngôn ngữ, nếu $f_i$ là một song ánh bất kỳ của $\mathrm{E}_i$ lên $\mathrm{E}'_i$ $(1 \leqslant i \leqslant n)$, thì $(f_1, \ldots, f_n)$ được gọi là một đẳng cấu của $\mathrm{E}_1, \ldots, \mathrm{E}_n$ lên $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$ đối với loài cấu trúc của một tập hợp (no. 4, Nhận xét 3).
 
-CST5. *Trong một lý thuyết* $\mathscr{C}'$ *mạnh hơn* $\mathscr{C}$, *cho* U *là một cấu trúc thuộc loài* $\Sigma$ *trên* $\mathrm{E}_1, \ldots, \mathrm{E}_n$, *và cho* $f_i$ *là một song ánh của* $\mathrm{E}_i$ *lên một tập hợp* $\mathrm{E}'_i$ $(1 \leqslant i \leqslant n)$. *Khi đó tồn tại một cấu trúc duy nhất thuộc loài* $\Sigma$ *trên* $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$ *sao cho* $(f_1, \ldots, f_n)$ *là một đẳng cấu của* $\mathrm{E}_1, \ldots, \mathrm{E}_n$ *lên* $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$.
+CST5. *Trong một lý thuyết* $\mathscr{T}'$ *mạnh hơn* $\mathscr{T}$, *cho* U *là một cấu trúc thuộc loài* $\Sigma$ *trên* $\mathrm{E}_1, \ldots, \mathrm{E}_n$, *và cho* $f_i$ *là một song ánh của* $\mathrm{E}_i$ *lên một tập hợp* $\mathrm{E}'_i$ $(1 \leqslant i \leqslant n)$. *Khi đó tồn tại một cấu trúc duy nhất thuộc loài* $\Sigma$ *trên* $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$ *sao cho* $(f_1, \ldots, f_n)$ *là một đẳng cấu của* $\mathrm{E}_1, \ldots, \mathrm{E}_n$ *lên* $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$.
 
-Vì cấu trúc này, nếu nó tồn tại, chỉ có thể là số hạng $\mathrm{U}'$ được xác định bởi quan hệ (4); còn phải kiểm tra rằng số hạng này quả thật là một cấu trúc thuộc loài $\Sigma$, nghĩa là quan hệ $\mathrm{R}\{\mathrm{E}'_1, \ldots, \mathrm{E}'_n, \mathrm{U}'\}$ là đúng trong $\mathscr{C}'$. Nhưng điều này suy ra từ tính chất rằng $\mathrm{R}\{x_1, \ldots, x_n, s\}$ là *khả chuyển*, vì
+Vì cấu trúc này, nếu nó tồn tại, chỉ có thể là số hạng $\mathrm{U}'$ được xác định bởi quan hệ (4); còn phải kiểm tra rằng số hạng này quả thật là một cấu trúc thuộc loài $\Sigma$, nghĩa là quan hệ $\mathrm{R}\{\mathrm{E}'_1, \ldots, \mathrm{E}'_n, \mathrm{U}'\}$ là đúng trong $\mathscr{T}'$. Nhưng điều này suy ra từ tính chất rằng $\mathrm{R}\{x_1, \ldots, x_n, s\}$ là *khả chuyển*, vì
 
 $R\{E'_1, \ldots, E'_n, U'\}$ là tương đương trong $\mathscr{T}'$ với quan hệ $R\{E_1, \ldots, E_n, U\}$ (no. 3), quan hệ này đúng trong $\mathscr{T}'$ theo giả thiết.
 
@@ -278,15 +278,15 @@ Hầu hết các số hạng mà người ta được dẫn tới định nghĩa
 
 ¶ Cho $\Theta$ là một loài cấu trúc khác trong lý thuyết $\mathscr{T}$, trên $r$ tập hợp cơ sở chính $u_1,\ldots,u_r$, với $p$ tập hợp cơ sở phụ trợ $B_1,\ldots,B_p$, và cho $t\in T(u_1,\ldots,u_r,B_1,\ldots,B_p)$ là đặc trưng điển hình của $\Theta$ (no. 4). Khi đó, một hệ gồm $r+1$ số hạng $P,U_1,\ldots,U_r$, nội tại đối với $s$, và sao cho $P$ là một cấu trúc của loài $\Theta$ trên $U_1,\ldots,U_r$, trong lý thuyết $\mathscr{T}_\Sigma$, được gọi là một phép suy diễn một cấu trúc của loài $\Theta$ từ một cấu trúc của loài $\Sigma$. Do lối nói quen dùng, riêng số hạng $P$ thường cũng được gọi là một phép suy diễn.
 
-¶ Cho $\mathscr{T}'$ là một lý thuyết mạnh hơn $\mathscr{T}$. Nếu $\mathscr{G}$ là một cấu trúc trong $\mathscr{T}'$ thuộc loài $\Sigma$ trên $E_1,\ldots,E_n$, thì $P\{E_1,\ldots,E_n,\mathscr{G}\}$ là một cấu trúc thuộc loài $\Theta$ trên $r$ tập hợp $F_j=U_j\{E_1,\ldots,E_n,\mathscr{G}\}$ $(1\leq j\leq r)$, được gọi là suy ra từ $\mathscr{G}$ bởi thủ tục $P$, hoặc phụ thuộc vào $\mathscr{G}$. Hơn nữa, giả thiết rằng các hạng $P,U_1,\ldots,U_r$ là nội tại đối với $s$ kéo theo tiêu chuẩn sau:
+¶ Cho $\mathscr{T}'$ là một lý thuyết mạnh hơn $\mathscr{T}$. Nếu $\mathscr{S}$ là một cấu trúc trong $\mathscr{T}'$ thuộc loài $\Sigma$ trên $E_1,\ldots,E_n$, thì $P\{E_1,\ldots,E_n,\mathscr{S}\}$ là một cấu trúc thuộc loài $\Theta$ trên $r$ tập hợp $F_j=U_j\{E_1,\ldots,E_n,\mathscr{S}\}$ $(1\leq j\leq r)$, được gọi là suy ra từ $\mathscr{S}$ bởi thủ tục $P$, hoặc phụ thuộc vào $\mathscr{S}$. Hơn nữa, giả thiết rằng các hạng $P,U_1,\ldots,U_r$ là nội tại đối với $s$ kéo theo tiêu chuẩn sau:
 
-**CST6.** Cho $(g_1,\ldots,g_n)$ là một đẳng cấu của $E_1,\ldots,E_n$, được trang bị một cấu trúc $\mathscr{G}$ thuộc loài $\Sigma$, lên $E'_1,\ldots,E'_n$, được trang bị một cấu trúc $\mathscr{G}'$ cùng loài. Nếu $U_j$ có kiểu $\mathfrak{P}(T_j)$, đặt
+**CST6.** Cho $(g_1,\ldots,g_n)$ là một đẳng cấu của $E_1,\ldots,E_n$, được trang bị một cấu trúc $\mathscr{S}$ thuộc loài $\Sigma$, lên $E'_1,\ldots,E'_n$, được trang bị một cấu trúc $\mathscr{S}'$ cùng loài. Nếu $U_j$ có kiểu $\mathfrak{P}(T_j)$, đặt
 
 $$
 h_j=\langle g_1,\ldots,g_n,\mathrm{Id}_1,\ldots,\mathrm{Id}_{m}\rangle^{T_j}\quad(1\leq j\leq r),
 $$
 
-và cho $F'_j=U_j\{E'_1,\ldots,E'_n,\mathscr{G}'\}$ $(1\leq j\leq r)$. Khi đó $(h_1,\ldots,h_r)$ là một đẳng cấu của $F_1,\ldots,F_r$ lên $F'_1,\ldots,F'_r$ khi các hệ tập hợp này được trang bị các cấu trúc thuộc loài $\Theta$ lần lượt suy ra từ $\mathscr{G}$ và $\mathscr{G}'$ bởi thủ tục $P$.
+và cho $F'_j=U_j\{E'_1,\ldots,E'_n,\mathscr{S}'\}$ $(1\leq j\leq r)$. Khi đó $(h_1,\ldots,h_r)$ là một đẳng cấu của $F_1,\ldots,F_r$ lên $F'_1,\ldots,F'_r$ khi các hệ tập hợp này được trang bị các cấu trúc thuộc loài $\Theta$ lần lượt suy ra từ $\mathscr{S}$ và $\mathscr{S}'$ bởi thủ tục $P$.
 
 Hiển nhiên là các hạng $x_1,\ldots,x_n$ là nội tại đối với $s$. Trong nhiều trường hợp, các hạng $U_1,\ldots,U_r$ là một số chữ trong các chữ $x_1,\ldots,x_n$; khi đó cấu trúc thuộc loài $\Theta$ suy ra từ $s$ bởi thủ tục $P$ được gọi là một cấu trúc nền của $s$.
 
@@ -343,7 +343,7 @@ Khi đó, các loài cấu trúc $\Sigma$ và $\Theta$ được gọi là tươn
 
 Nếu $U$ là một cấu trúc thuộc loài $\Sigma$, thì cấu trúc suy ra từ $U$ bởi quy trình $P$ được gọi là tương đương với $U$. Tiêu chuẩn CST6 kéo theo điều sau đây:
 
-CST7. *Cho $\mathscr{Y},\mathscr{Y}'$ là hai cấu trúc thuộc loài $\Sigma$ trên các tập cơ sở chính tương ứng $(E_1,\ldots,E_n),(E'_1,\ldots,E'_n)$. Cho $\mathscr{Y}_0,\mathscr{Y}'_0$ là các cấu trúc thuộc loài $\Theta$ tương đương tương ứng với $\mathscr{Y}$ và $\mathscr{Y}'$. Để $(g_1,\ldots,g_n)$ là một đẳng cấu đối với các cấu trúc $\mathscr{Y}_0$ và $\mathscr{Y}'_0$, điều kiện cần và đủ là $(g_1,\ldots,g_n)$ là một đẳng cấu đối với các cấu trúc $\mathscr{Y}$ và $\mathscr{Y}'$.*
+CST7. *Cho $\mathscr{S},\mathscr{S}'$ là hai cấu trúc thuộc loài $\Sigma$ trên các tập cơ sở chính tương ứng $(E_1,\ldots,E_n),(E'_1,\ldots,E'_n)$. Cho $\mathscr{S}_0,\mathscr{S}'_0$ là các cấu trúc thuộc loài $\Theta$ tương đương tương ứng với $\mathscr{S}$ và $\mathscr{S}'$. Để $(g_1,\ldots,g_n)$ là một đẳng cấu đối với các cấu trúc $\mathscr{S}_0$ và $\mathscr{S}'_0$, điều kiện cần và đủ là $(g_1,\ldots,g_n)$ là một đẳng cấu đối với các cấu trúc $\mathscr{S}$ và $\mathscr{S}'$.*
 
 Trong thực hành, ta không phân biệt giữa các lý thuyết $\mathscr{T}_{\Sigma}$ và $\mathscr{T}_{\Theta}$ của hai loài cấu trúc tương đương.
 
@@ -351,7 +351,7 @@ Trong thực hành, ta không phân biệt giữa các lý thuyết $\mathscr{T}
 
 #### Ví dụ 1 {#ens-iv-s1-n7-exa-1 .statement tag=03VI}
 
-\* Cho $\Sigma$ là loài các cấu trúc nhóm giao hoán; $\Sigma$ có một tập cơ sở (chính) duy nhất $A$, và cấu trúc tổng quát của nó gồm một chữ duy nhất $F$; đặc trưng hóa điển hình của $\Sigma$ là $F\in\mathscr{P}((A\times A)\times A)$, và ta ký hiệu tiên đề của $\Sigma$ bởi $R\{A,F\}$. Tiên đề này đặc biệt kéo theo rằng $F$ là đồ thị của một hàm (luật hợp thành của nhóm; x. no. 4, Ví dụ 2). Trong lý thuyết $\mathscr{T}_{\Sigma}$ (trong đó $\mathscr{T}$ ký hiệu lý thuyết tập hợp), ta định nghĩa một số hạng $M\{A,F\}$ là một đồ thị phiếm hàm trong $\mathscr{P}((\mathbf{Z}\times A)\times A)$ và thỏa mãn quan hệ sau đây $B\{M,A,F\}$:
+\* Cho $\Sigma$ là loài các cấu trúc nhóm giao hoán; $\Sigma$ có một tập cơ sở (chính) duy nhất $A$, và cấu trúc tổng quát của nó gồm một chữ duy nhất $F$; đặc trưng hóa điển hình của $\Sigma$ là $F\in\mathfrak{P}((A\times A)\times A)$, và ta ký hiệu tiên đề của $\Sigma$ bởi $R\{A,F\}$. Tiên đề này đặc biệt kéo theo rằng $F$ là đồ thị của một hàm (luật hợp thành của nhóm; x. no. 4, Ví dụ 2). Trong lý thuyết $\mathscr{T}_{\Sigma}$ (trong đó $\mathscr{T}$ ký hiệu lý thuyết tập hợp), ta định nghĩa một số hạng $M\{A,F\}$ là một đồ thị phiếm hàm trong $\mathfrak{P}((\mathbf{Z}\times A)\times A)$ và thỏa mãn quan hệ sau đây $B\{M,A,F\}$:
 
 $$
 (\forall x)(\forall y)(\forall n)((x\in A\ \text{và}\ y\in A\ \text{và}\ n\in\mathbf{Z})

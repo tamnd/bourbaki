@@ -46,7 +46,7 @@ subsections:
       pdf_page: 107
 statements: 22
 exercises: 8
-content_sha256: c8fd3f17f42e974a252f4d880619803570369c6870f994dc645984b60d03b8d3
+content_sha256: 79a8f1cdc57e7dce0167dd11f3e335382fe0479c90c58a053fba7bbc5d06a5f5
 ---
 
 ## 4. UNION AND INTERSECTION OF A FAMILY OF SETS
@@ -66,7 +66,7 @@ is true. By virtue of the scheme S8 (§1, no. 6) the relation $(\exists \iota)(\
 *Let $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ be a family of sets* (resp. *a family of subsets of a set* E). *The set $\mathscr{E}_x((\exists \iota)(\iota \in \mathrm{I}$ and $x \in \mathrm{X}_\iota))$, that is to say, the set of all $x$* *which belong to at least one set of the family $(X_l)_{l\in I}$, is called the union of the family, and is denoted by*
 $$\bigcup_{l\in I}X_l,$$ [^1]
 
-If $(X_l)_{l\in I}$ is a family of subsets of a set $E$, then its union is a subset of $E$; notice that it does not depend on $E$, nor on the target $\mathscr{G}$ of the mapping $l\to X_l$.
+If $(X_l)_{l\in I}$ is a family of subsets of a set $E$, then its union is a subset of $E$; notice that it does not depend on $E$, nor on the target $\mathfrak{G}$ of the mapping $l\to X_l$.
 
 It is clear that if $I=\varnothing$, we have $\displaystyle\bigcup_{l\in I}X_l=\varnothing$, because the relation $(\exists l)(l\in I\text{ and }x\in X_l)$ is then false.
 

@@ -38,7 +38,7 @@ subsections:
       pdf_page: 224
 statements: 12
 exercises: 11
-content_sha256: 866d2e27f0d82b27556bd48e7165032a4f8f49f2bbd3b5818836b76306255b3c
+content_sha256: b3f0092adf7b8f6a678242747bf27a031bfe6d85f60a644b8de1327d0c69a17f
 ---
 
 ## § 2. MORPHISMES ET STRUCTURES DÉRIVÉES
@@ -143,7 +143,7 @@ CST10. *Soient E un ensemble, $(A_i)_{i \in I}$ une famille d’ensembles, et po
 
 a) *il existe une structure initiale* $\mathscr{I}$ *sur* $E$ *pour la famille* $(A_i, \mathscr{S}_i, f_i)_{i \in I}$;
 
-b) il existe une structure initiale $\mathscr{J}'$ sur E pour la famille $(B_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in L}$. En outre, ces propositions entraînent que $\mathscr{J} = \mathscr{J}'$.
+b) il existe une structure initiale $\mathscr{I}'$ sur E pour la famille $(B_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in L}$. En outre, ces propositions entraînent que $\mathscr{I} = \mathscr{I}'$.
 
 En effet, soit F un ensemble muni d'une structure d'espèce $\Sigma$, et soit $u$ une application de F dans E. Remarquons que, par définition, la relation
 
@@ -159,13 +159,13 @@ La relation
 (1) « quel que soit $\lambda \in L$, $h_\lambda \circ u$ est un morphisme de F dans $B_\lambda$ »
 est donc équivalente à la relation
 (2) « quel que soit $t \in I$, $f_t \circ u$ est un morphisme de F dans $A_t$ ».
-Or, dire que $\mathscr{J}'$ est structure initiale pour la famille $(B_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in L}$ signifie que la relation (1) est équivalente à la relation
+Or, dire que $\mathscr{I}'$ est structure initiale pour la famille $(B_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in L}$ signifie que la relation (1) est équivalente à la relation
 
-« $u$ est un morphisme de F dans E muni de $\mathscr{J}'$ »;
+« $u$ est un morphisme de F dans E muni de $\mathscr{I}'$ »;
 
-et dire que $\mathscr{J}$ est structure initiale pour la famille $(A_t, \mathscr{S}_t, f_t)_{t \in I}$ signifie que la relation (2) est équivalente à la relation
+et dire que $\mathscr{I}$ est structure initiale pour la famille $(A_t, \mathscr{S}_t, f_t)_{t \in I}$ signifie que la relation (2) est équivalente à la relation
 
-« $u$ est un morphisme de F dans E muni de $\mathscr{J}$ »;
+« $u$ est un morphisme de F dans E muni de $\mathscr{I}$ »;
 
 d'où le critère, compte tenu de la propriété d'unicité de la structure initiale.
 

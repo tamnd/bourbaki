@@ -38,9 +38,9 @@ subsections:
       pdf_page: 286
 statements: 12
 exercises: 11
-content_sha256: 06f5827e83ed4c2f7dcf2cc6dada003deca8d54c520160719938e128779a0aaa
+content_sha256: 7f156dcae5fe9b586a8ac10a699e7e7a2bdd4f5231bbc0965cdf9e4a7302d292
 translated_from: content/en/ens/IV/02_s2_morphisms_and_derived_structures.md
-source_content_sha256: f3deeaa7f667542d82042b94967bb4d68d106fa3b1b0bdd6f7b4555f277bea62
+source_content_sha256: 5c7ff47f7a7c64e4e4d983dd7ce3ddd6c8c6e0cdf0393ed5ed3c52c0ad38c5b8
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5.4-mini, gpt-5-mini, gpt-5-6
 translation_run: translate-vi-10c66441
 glossary_version: 34
@@ -172,23 +172,23 @@ là tương đương với quan hệ
 
 (2)     "với mọi $\iota \in \mathrm{I}$, $f_\iota \circ u$ là một cấu xạ từ F vào $\mathrm{A}_\iota$".
 
-Bây giờ, nói rằng $\mathscr{I}'$ là cấu trúc ban đầu đối với họ $(\mathrm{B}_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in \mathrm{L}}$ có nghĩa là quan hệ (1) tương đương với quan hệ "$u$ là một cấu xạ từ F vào E được trang bị $\mathscr{I}'$"; và nói rằng $\mathscr{I}$ là cấu trúc ban đầu đối với họ $(A_i,\,\mathscr{G}_i,\,f_i)_{i\in I}$ có nghĩa là quan hệ (2) tương đương với quan hệ “$u$ là một cấu xạ từ F vào E được trang bị $\Gamma$”. Do đó suy ra kết quả, theo tính chất duy nhất của cấu trúc ban đầu.
+Bây giờ, nói rằng $\mathscr{I}'$ là cấu trúc ban đầu đối với họ $(\mathrm{B}_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in \mathrm{L}}$ có nghĩa là quan hệ (1) tương đương với quan hệ "$u$ là một cấu xạ từ F vào E được trang bị $\mathscr{I}'$"; và nói rằng $\mathscr{I}$ là cấu trúc ban đầu đối với họ $(A_i,\,\mathscr{S}_i,\,f_i)_{i\in I}$ có nghĩa là quan hệ (2) tương đương với quan hệ “$u$ là một cấu xạ từ F vào E được trang bị $\Gamma$”. Do đó suy ra kết quả, theo tính chất duy nhất của cấu trúc ban đầu.
 
 ### 4. CÁC VÍ DỤ VỀ CẤU TRÚC BAN ĐẦU
 
-I. *Ảnh ngược của một cấu trúc.* Khi I là một tập hợp gồm một phần tử duy nhất, cấu trúc ban đầu đối với $(A,\,\mathscr{G},\,f)$ được gọi là *ảnh ngược theo $f$ của cấu trúc $\mathscr{G}$* (khi nó tồn tại).
+I. *Ảnh ngược của một cấu trúc.* Khi I là một tập hợp gồm một phần tử duy nhất, cấu trúc ban đầu đối với $(A,\,\mathscr{S},\,f)$ được gọi là *ảnh ngược theo $f$ của cấu trúc $\mathscr{S}$* (khi nó tồn tại).
 
 \* Một tôpô luôn luôn có ảnh ngược theo bất kỳ ánh xạ nào $f$; nhưng điều này không đúng đối với một cấu trúc thứ tự hoặc một cấu trúc đại số. \*
 
-II. *Cấu trúc cảm sinh.* Cho A là một tập hợp được trang bị một cấu trúc $\mathscr{G}$ thuộc loài $\Sigma$, cho B là một tập con của A, và cho $j$ là đơn ánh chính tắc từ B vào A. Khi đó ảnh ngược theo $j$ của cấu trúc B (nếu nó tồn tại) được gọi là *cấu trúc do $\mathscr{G}$ cảm sinh trên B.*
+II. *Cấu trúc cảm sinh.* Cho A là một tập hợp được trang bị một cấu trúc $\mathscr{S}$ thuộc loài $\Sigma$, cho B là một tập con của A, và cho $j$ là đơn ánh chính tắc từ B vào A. Khi đó ảnh ngược theo $j$ của cấu trúc B (nếu nó tồn tại) được gọi là *cấu trúc do $\mathscr{S}$ cảm sinh trên B.*
 
 Một cấu trúc thứ tự cảm sinh một cấu trúc cùng loài trên mọi tập con của tập hợp mà trên đó nó được xác định; nhưng điều này không đúng đối với cấu trúc của một tập có hướng. \* Một tôpô cảm sinh một tôpô trên mọi tập con của tập hợp mà trên đó nó được xác định, nhưng một tôpô compắc nói chung không cảm sinh một tôpô compắc. Một cấu trúc đại số trên một tập hợp A nói chung không cảm sinh một cấu trúc cùng loài trên một tập con tùy ý B; nếu cấu trúc đã cho trên A gồm các luật hợp thành được xác định khắp nơi, thì điều cần thiết là B phải ổn định đối với mỗi luật trong các luật ấy, nhưng điều kiện cần này không phải lúc nào cũng đủ. \*
 
 Tiêu chuẩn tổng quát CST10 cho ta *tiêu chuẩn bắc cầu* sau đây đối với các cấu trúc cảm sinh:
 
-CST11. *Cho B là một tập con của A, cho C là một tập con của B, và cho $\mathscr{G}$ là một cấu trúc thuộc loài $\Sigma$ trên A, cấu trúc này cảm sinh một cấu trúc $\mathscr{G}'$ cùng loài trên B. Khi đó $\mathscr{G}$ cảm sinh một cấu trúc thuộc loài $\Sigma$ trên C khi và chỉ khi $\mathscr{G}'$ cảm sinh một cấu trúc thuộc loài $\Sigma$ trên C, và khi ấy các cấu trúc do $\mathscr{G}$ và $\mathscr{G}'$ cảm sinh trên C là đồng nhất.*
+CST11. *Cho B là một tập con của A, cho C là một tập con của B, và cho $\mathscr{S}$ là một cấu trúc thuộc loài $\Sigma$ trên A, cấu trúc này cảm sinh một cấu trúc $\mathscr{S}'$ cùng loài trên B. Khi đó $\mathscr{S}$ cảm sinh một cấu trúc thuộc loài $\Sigma$ trên C khi và chỉ khi $\mathscr{S}'$ cảm sinh một cấu trúc thuộc loài $\Sigma$ trên C, và khi ấy các cấu trúc do $\mathscr{S}$ và $\mathscr{S}'$ cảm sinh trên C là đồng nhất.*
 
-CST12. *Cho A, A' là hai tập hợp được trang bị các cấu trúc $\mathscr{G}$, $\mathscr{G}'$ thuộc loài $\Sigma$. Cho B là một tập con của A, và B' là một tập con của A'. Giả sử rằng $\mathscr{G}$ (tương ứng $\mathscr{G}'$) cảm sinh một cấu trúc thuộc loài $\Sigma$ trên B (tương ứng B'). Nếu $f$ là một cấu xạ từ A vào A' sao cho $f(B)\subset B'$, thì ánh xạ từ B vào B' trùng với $f$ trên B là một cấu xạ (đối với các cấu trúc do $\mathscr{G}$ và $\mathscr{G}'$ cảm sinh).*
+CST12. *Cho A, A' là hai tập hợp được trang bị các cấu trúc $\mathscr{S}$, $\mathscr{S}'$ thuộc loài $\Sigma$. Cho B là một tập con của A, và B' là một tập con của A'. Giả sử rằng $\mathscr{S}$ (tương ứng $\mathscr{S}'$) cảm sinh một cấu trúc thuộc loài $\Sigma$ trên B (tương ứng B'). Nếu $f$ là một cấu xạ từ A vào A' sao cho $f(B)\subset B'$, thì ánh xạ từ B vào B' trùng với $f$ trên B là một cấu xạ (đối với các cấu trúc do $\mathscr{S}$ và $\mathscr{S}'$ cảm sinh).*
 
 Cho $j$ (resp. $j'$) là đơn ánh chính tắc của B (resp. B') vào A (resp. A'). Theo định nghĩa ta có $f\circ j=j'\circ g$. Vì $f$ và $j$ là các cấu xạ, nên $f\circ j$ cũng vậy theo (MO$_{\mathrm{II}}$); nhưng khi đó, vì $j'\circ g$ là một cấu xạ, nên ánh xạ $g$ là một cấu xạ theo định nghĩa của cấu trúc ban đầu.
 
@@ -316,11 +316,11 @@ Cho $\varphi$ (resp. $\varphi'$) là ánh xạ chính tắc của A lên $\mathr
 
 CST21. *Cho* A *là một tập hợp được trang bị một cấu trúc* $\mathscr{S}$ *của loài* $\Sigma$, *và cho* R *là một quan hệ tương đương trên* A *sao cho trên* $\mathrm{A}/\mathrm{R}$ *tồn tại một cấu trúc thương* $\mathscr{S}'$ *của* $\mathscr{S}$ *theo* R. *Cho* S *là một quan hệ tương đương trên* A *thô hơn* R, *và cho* $\mathrm{S}/\mathrm{R}$ *ký hiệu quan hệ tương đương trên* $\mathrm{A}/\mathrm{R}$ *là thương của* S *theo* R *(Chương II, § 6, no. 7).* *Khi đó tồn tại trên* $(\mathrm{A}/\mathrm{R})/(\mathrm{S}/\mathrm{R})$ *một cấu trúc thương* $\mathscr{S}''$ *của* $\mathscr{S}'$ *theo* $\mathrm{S}/\mathrm{R}$ *khi và chỉ khi tồn tại trên* $\mathrm{A}/\mathrm{S}$ *một cấu trúc thương* $\mathscr{S}_0$ *của* $\mathscr{S}$ *theo* S, *và ánh xạ chính tắc của* $\mathrm{A}/\mathrm{S}$ *(được trang bị bởi* $\mathscr{S}_0$*) lên* $(\mathrm{A}/\mathrm{R})/(\mathrm{S}/\mathrm{R})$ *(được trang bị bởi* $\mathscr{S}''$*) là một đẳng cấu.*
 
-Cho $\varphi$ là ánh xạ chính tắc của A lên $A/R$, và cho $\psi$ là ánh xạ của $A/R$ lên $(A/R)/(S/R)$. Nhờ CST19, $\mathscr{G}''$ là thương của $\mathscr{G}'$ theo $S/R$ khi và chỉ khi $\mathscr{G}''$ là cấu trúc cuối cùng đối với $(A,\mathscr{G},\psi\circ\varphi)$. Tiêu chuẩn đó suy ra từ việc quan hệ $\psi(\varphi(x))=\psi(\varphi(y))$ tương đương với S.
+Cho $\varphi$ là ánh xạ chính tắc của A lên $A/R$, và cho $\psi$ là ánh xạ của $A/R$ lên $(A/R)/(S/R)$. Nhờ CST19, $\mathscr{S}''$ là thương của $\mathscr{S}'$ theo $S/R$ khi và chỉ khi $\mathscr{S}''$ là cấu trúc cuối cùng đối với $(A,\mathscr{S},\psi\circ\varphi)$. Tiêu chuẩn đó suy ra từ việc quan hệ $\psi(\varphi(x))=\psi(\varphi(y))$ tương đương với S.
 
 #### Nhận xét {#ens-iv-s2-n6-rem-1 .statement tag=03VW}
 
-Cho A là một tập hợp được trang bị một cấu trúc $\mathscr{G}$ của loài $\Sigma$, và cho R là một quan hệ tương đương trên A sao cho tồn tại trên $E=A/R$ một cấu trúc thương $\mathscr{G}'$ của $\mathscr{G}$ theo R. Cho $\varphi$ là ánh xạ chính tắc của A lên E. Nói chung, không có *tiết diện* $s$ của $\varphi$ (Chương II, § 3, no. 8) nào là một *cấu xạ* từ E vào A. Giả sử rằng tồn tại một tiết diện như thế $s$, và hơn nữa tồn tại một cấu trúc $\mathscr{G}''$ được cảm sinh bởi $\mathscr{G}$ trên $s(E)$. Khi đó, nếu $j$ ký hiệu đơn ánh chính tắc của $s(E)$ vào A và nếu $s=j\circ f$, thì song ánh $f$ là một *đẳng cấu* từ E lên $s(E)$. Thật vậy, $f$ là một cấu xạ theo định nghĩa của cấu trúc được cảm sinh, và $g=\varphi\circ j$ là một cấu xạ của $s(E)$ lên E do (MO$_{\mathrm{II}}$). Vì $g\circ f$ và $f\circ g$ lần lượt là các ánh xạ đồng nhất của E và $s(E)$, nên mệnh đề này là một hệ quả của CST8.
+Cho A là một tập hợp được trang bị một cấu trúc $\mathscr{S}$ của loài $\Sigma$, và cho R là một quan hệ tương đương trên A sao cho tồn tại trên $E=A/R$ một cấu trúc thương $\mathscr{S}'$ của $\mathscr{S}$ theo R. Cho $\varphi$ là ánh xạ chính tắc của A lên E. Nói chung, không có *tiết diện* $s$ của $\varphi$ (Chương II, § 3, no. 8) nào là một *cấu xạ* từ E vào A. Giả sử rằng tồn tại một tiết diện như thế $s$, và hơn nữa tồn tại một cấu trúc $\mathscr{S}''$ được cảm sinh bởi $\mathscr{S}$ trên $s(E)$. Khi đó, nếu $j$ ký hiệu đơn ánh chính tắc của $s(E)$ vào A và nếu $s=j\circ f$, thì song ánh $f$ là một *đẳng cấu* từ E lên $s(E)$. Thật vậy, $f$ là một cấu xạ theo định nghĩa của cấu trúc được cảm sinh, và $g=\varphi\circ j$ là một cấu xạ của $s(E)$ lên E do (MO$_{\mathrm{II}}$). Vì $g\circ f$ và $f\circ g$ lần lượt là các ánh xạ đồng nhất của E và $s(E)$, nên mệnh đề này là một hệ quả của CST8.
 
 ### Bài tập {#ens-iv-s2-exercises}
 

@@ -42,7 +42,7 @@ subsections:
       pdf_page: 273
 statements: 17
 exercises: 1
-content_sha256: b1a8e2e22b63f48225281d0009294434de0101ab0a5eb0b72456f29c62b1cc54
+content_sha256: 6f80558fbc92e161f5d49ee0e3bc31cde68825641566b6b9033b62360094bb00
 ---
 
 ## 1. STRUCTURES AND ISOMORPHISMS
@@ -80,7 +80,7 @@ Distinct schemes may therefore give rise to the same echelon on the same terms.
 
 ### 2. CANONICAL EXTENSIONS OF MAPPINGS
 
-Let $\mathrm{S} = (c_1, c_2, \ldots, c_m)$ be an echelon construction scheme on $n$ terms. Let $\mathrm{E}_1$, ..., $\mathrm{E}_n$, $\mathrm{E}'_1$, ..., $\mathrm{E}'_n$ be sets (terms in $\mathscr{C}$) and let $f_1$, ..., $f_n$ be terms in $\mathscr{C}$ such that the relations "$f_i$ is a mapping of $\mathrm{E}_i$ into $\mathrm{E}'_i$" are theorems in $\mathscr{C}$ for $1 \leqslant i \leqslant n$. Let $\mathrm{A}_1$, ..., $\mathrm{A}_m$ (resp. $\mathrm{A}'_1$, ..., $\mathrm{A}'_m$) be the echelon construction of scheme S on $\mathrm{E}_1$, ..., $\mathrm{E}_n$ (resp. $\mathrm{E}'_1$, ..., $\mathrm{E}'_n$). We define step by step a sequence of $m$ terms $g_1$, ..., $g_m$ such that $g_i$ is a *mapping of* $\mathrm{A}_i$ *into* $\mathrm{A}'_i$ (for $1 \leqslant i \leqslant m$) by the following conditions :
+Let $\mathrm{S} = (c_1, c_2, \ldots, c_m)$ be an echelon construction scheme on $n$ terms. Let $\mathrm{E}_1$, ..., $\mathrm{E}_n$, $\mathrm{E}'_1$, ..., $\mathrm{E}'_n$ be sets (terms in $\mathscr{T}$) and let $f_1$, ..., $f_n$ be terms in $\mathscr{T}$ such that the relations "$f_i$ is a mapping of $\mathrm{E}_i$ into $\mathrm{E}'_i$" are theorems in $\mathscr{T}$ for $1 \leqslant i \leqslant n$. Let $\mathrm{A}_1$, ..., $\mathrm{A}_m$ (resp. $\mathrm{A}'_1$, ..., $\mathrm{A}'_m$) be the echelon construction of scheme S on $\mathrm{E}_1$, ..., $\mathrm{E}_n$ (resp. $\mathrm{E}'_1$, ..., $\mathrm{E}'_n$). We define step by step a sequence of $m$ terms $g_1$, ..., $g_m$ such that $g_i$ is a *mapping of* $\mathrm{A}_i$ *into* $\mathrm{A}'_i$ (for $1 \leqslant i \leqslant m$) by the following conditions :
 
 (a) If $c_i = (0, b_i)$, so that $\mathrm{A}_i = \mathrm{E}_{b_i}$ and $\mathrm{A}'_i = \mathrm{E}'_{b_i}$, then $g_i$ is the mapping $f_{b_i}$.
 
@@ -219,7 +219,7 @@ By abuse of language, in the theory of sets $\mathscr{T}$, the giving of $n$ dis
 
 ### 5. ISOMORPHISMS AND TRANSPORT OF STRUCTURES
 
-Let $\Sigma$ be a species of structures in a theory $\mathscr{T}$, on $n$ principal base sets $x_1, \ldots, x_n$, with $m$ auxiliary base sets $A_1, \ldots, A_m$. Let S be the echelon construction scheme on $n + m$ letters which features in the typical characterization of $\Sigma$, and let R be the axiom of $\Sigma$. In a theory $\mathscr{T}'$ which is stronger than $\mathscr{T}$, let U be a structure of species $\Sigma$ on sets $E_1, \ldots, E_n$ (as principal base sets) and let U$'$ be a structure *of the same species* on sets $E'_1, \ldots, E'_n$. Finally, let $f_i$ (in $\mathscr{T}'$) be a *bijection* of $E_i$ onto $\mathrm{E}'_i$ $(1 \leqslant i \leqslant n)$. Then $(f_1, \ldots, f_n)$ is said to be an *isomorphism* of the sets $\mathrm{E}_1, \ldots, \mathrm{E}_n$, endowed with the structure U, onto the sets $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$, endowed with the structure $\mathrm{U}'$, if we have (in $\mathscr{C}'$)
+Let $\Sigma$ be a species of structures in a theory $\mathscr{T}$, on $n$ principal base sets $x_1, \ldots, x_n$, with $m$ auxiliary base sets $A_1, \ldots, A_m$. Let S be the echelon construction scheme on $n + m$ letters which features in the typical characterization of $\Sigma$, and let R be the axiom of $\Sigma$. In a theory $\mathscr{T}'$ which is stronger than $\mathscr{T}$, let U be a structure of species $\Sigma$ on sets $E_1, \ldots, E_n$ (as principal base sets) and let U$'$ be a structure *of the same species* on sets $E'_1, \ldots, E'_n$. Finally, let $f_i$ (in $\mathscr{T}'$) be a *bijection* of $E_i$ onto $\mathrm{E}'_i$ $(1 \leqslant i \leqslant n)$. Then $(f_1, \ldots, f_n)$ is said to be an *isomorphism* of the sets $\mathrm{E}_1, \ldots, \mathrm{E}_n$, endowed with the structure U, onto the sets $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$, endowed with the structure $\mathrm{U}'$, if we have (in $\mathscr{T}'$)
 
 (4) $$\langle f_1, \ldots, f_n, \mathrm{Id}_1, \ldots, \mathrm{Id}_m \rangle^{\mathrm{S}}(\mathrm{U}) = \mathrm{U}'$$
 
@@ -243,9 +243,9 @@ An isomorphism of $\mathrm{E}_1, \ldots, \mathrm{E}_n$ onto $\mathrm{E}_1, \ldot
 
 By abuse of language, if $f_i$ is any bijection of $\mathrm{E}_i$ onto $\mathrm{E}'_i$ $(1 \leqslant i \leqslant n)$, $(f_1, \ldots, f_n)$ is said to be an isomorphism of $\mathrm{E}_1, \ldots, \mathrm{E}_n$ onto $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$ with respect to the species of structure of a set (no. 4, Remark 3).
 
-CST5. *In a theory* $\mathscr{C}'$ *which is stronger than* $\mathscr{C}$, *let* U *be a structure of species* $\Sigma$ *on* $\mathrm{E}_1, \ldots, \mathrm{E}_n$, *and let* $f_i$ *be a bijection of* $\mathrm{E}_i$ *onto a set* $\mathrm{E}'_i$ $(1 \leqslant i \leqslant n)$. *Then there exists a unique structure of species* $\Sigma$ *on* $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$ *such that* $(f_1, \ldots, f_n)$ *is an isomorphism of* $\mathrm{E}_1, \ldots, \mathrm{E}_n$ *onto* $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$.
+CST5. *In a theory* $\mathscr{T}'$ *which is stronger than* $\mathscr{T}$, *let* U *be a structure of species* $\Sigma$ *on* $\mathrm{E}_1, \ldots, \mathrm{E}_n$, *and let* $f_i$ *be a bijection of* $\mathrm{E}_i$ *onto a set* $\mathrm{E}'_i$ $(1 \leqslant i \leqslant n)$. *Then there exists a unique structure of species* $\Sigma$ *on* $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$ *such that* $(f_1, \ldots, f_n)$ *is an isomorphism of* $\mathrm{E}_1, \ldots, \mathrm{E}_n$ *onto* $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$.
 
-For this structure, if it exists, can only be the term $\mathrm{U}'$ defined by the relation (4); it remains to be verified that this term is indeed a structure of species $\Sigma$, i.e., that the relation $\mathrm{R}\{\mathrm{E}'_1, \ldots, \mathrm{E}'_n, \mathrm{U}'\}$ is true in $\mathscr{C}'$. But this follows from the fact that $\mathrm{R}\{x_1, \ldots, x_n, s\}$ is *transportable*, for
+For this structure, if it exists, can only be the term $\mathrm{U}'$ defined by the relation (4); it remains to be verified that this term is indeed a structure of species $\Sigma$, i.e., that the relation $\mathrm{R}\{\mathrm{E}'_1, \ldots, \mathrm{E}'_n, \mathrm{U}'\}$ is true in $\mathscr{T}'$. But this follows from the fact that $\mathrm{R}\{x_1, \ldots, x_n, s\}$ is *transportable*, for
 
 $R\{E'_1, \ldots, E'_n, U'\}$ is equivalent in $\mathscr{T}'$ to the relation $R\{E_1, \ldots, E_n, U\}$ (no. 3), which is true in $\mathscr{T}'$ by hypothesis.
 
@@ -271,15 +271,15 @@ Most of the terms which one is led to define in the theory of a species of struc
 
 ¶ Let $\Theta$ be another species of structures in the theory $\mathscr{T}$, on $r$ principal base sets $u_1,\ldots,u_r$, with $p$ auxiliary base sets $B_1,\ldots,B_p$, and let $t\in T(u_1,\ldots,u_r,B_1,\ldots,B_p)$ be the typical characterization of $\Theta$ (no. 4). Then a system of $r+1$ terms $P,U_1,\ldots,U_r$, intrinsic for $s$, and such that $P$ is a structure of species $\Theta$ on $U_1,\ldots,U_r$, in the theory $\mathscr{T}_\Sigma$, is called a procedure of deduction of a structure of species $\Theta$ from a structure of species $\Sigma$. By abuse of language, the term $P$ alone is often called a procedure of deduction.
 
-¶ Let $\mathscr{T}'$ be a theory stronger than $\mathscr{T}$. If $\mathscr{G}$ is a structure in $\mathscr{T}'$ of species $\Sigma$ on $E_1,\ldots,E_n$, then $P\{E_1,\ldots,E_n,\mathscr{G}\}$ is a structure of species $\Theta$ on the $r$ sets $F_j=U_j\{E_1,\ldots,E_n,\mathscr{G}\}$ $(1\leq j\leq r)$, said to be deduced from $\mathscr{G}$ by the procedure $P$, or subordinate to $\mathscr{G}$. The hypothesis that the terms $P,U_1,\ldots,U_r$ are intrinsic for $s$ moreover implies the following criterion:
+¶ Let $\mathscr{T}'$ be a theory stronger than $\mathscr{T}$. If $\mathscr{S}$ is a structure in $\mathscr{T}'$ of species $\Sigma$ on $E_1,\ldots,E_n$, then $P\{E_1,\ldots,E_n,\mathscr{S}\}$ is a structure of species $\Theta$ on the $r$ sets $F_j=U_j\{E_1,\ldots,E_n,\mathscr{S}\}$ $(1\leq j\leq r)$, said to be deduced from $\mathscr{S}$ by the procedure $P$, or subordinate to $\mathscr{S}$. The hypothesis that the terms $P,U_1,\ldots,U_r$ are intrinsic for $s$ moreover implies the following criterion:
 
-**CST6.** Let $(g_1,\ldots,g_n)$ be an isomorphism of $E_1,\ldots,E_n$, endowed with a structure $\mathscr{G}$ of species $\Sigma$, onto $E'_1,\ldots,E'_n$, endowed with a structure $\mathscr{G}'$ of the same species. If $U_j$ is of type $\mathfrak{P}(T_j)$, put
+**CST6.** Let $(g_1,\ldots,g_n)$ be an isomorphism of $E_1,\ldots,E_n$, endowed with a structure $\mathscr{S}$ of species $\Sigma$, onto $E'_1,\ldots,E'_n$, endowed with a structure $\mathscr{S}'$ of the same species. If $U_j$ is of type $\mathfrak{P}(T_j)$, put
 
 $$
 h_j=\langle g_1,\ldots,g_n,\mathrm{Id}_1,\ldots,\mathrm{Id}_{m}\rangle^{T_j}\quad(1\leq j\leq r),
 $$
 
-and let $F'_j=U_j\{E'_1,\ldots,E'_n,\mathscr{G}'\}$ $(1\leq j\leq r)$. Then $(h_1,\ldots,h_r)$ is an isomorphism of $F_1,\ldots,F_r$ onto $F'_1,\ldots,F'_r$ when these systems of sets are endowed with the structures of species $\Theta$ deduced from $\mathscr{G}$ and $\mathscr{G}'$ respectively by the procedure $P$.
+and let $F'_j=U_j\{E'_1,\ldots,E'_n,\mathscr{S}'\}$ $(1\leq j\leq r)$. Then $(h_1,\ldots,h_r)$ is an isomorphism of $F_1,\ldots,F_r$ onto $F'_1,\ldots,F'_r$ when these systems of sets are endowed with the structures of species $\Theta$ deduced from $\mathscr{S}$ and $\mathscr{S}'$ respectively by the procedure $P$.
 
 It is clear that the terms $x_1,\ldots,x_n$ are intrinsic for $s$. In many cases, the terms $U_1,\ldots,U_r$ are certain of the letters $x_1,\ldots,x_n$; the structure of species $\Theta$ deduced from $s$ by the procedure $P$ is then said to be a structure underlying $s$.
 
@@ -336,7 +336,7 @@ The species of structures $\Sigma$ and $\Theta$ are then said to be equivalent b
 
 If $U$ is a structure of species $\Sigma$, the structure deduced from $U$ by the procedure $P$ is said to be equivalent to $U$. Criterion CST6 implies the following :
 
-CST7. *Let $\mathscr{Y},\mathscr{Y}'$ be two structures of species $\Sigma$ on the principal base sets $(E_1,\ldots,E_n),(E'_1,\ldots,E'_n)$, respectively. Let $\mathscr{Y}_0,\mathscr{Y}'_0$ be structures of species $\Theta$ which are equivalent respectively to $\mathscr{Y}$ and $\mathscr{Y}'$. In order that $(g_1,\ldots,g_n)$ should be an isomorphism with respect to the structures $\mathscr{Y}_0$ and $\mathscr{Y}'_0$, it is necessary and sufficient that $(g_1,\ldots,g_n)$ should be an isomorphism with respect to the structures $\mathscr{Y}$ and $\mathscr{Y}'$.*
+CST7. *Let $\mathscr{S},\mathscr{S}'$ be two structures of species $\Sigma$ on the principal base sets $(E_1,\ldots,E_n),(E'_1,\ldots,E'_n)$, respectively. Let $\mathscr{S}_0,\mathscr{S}'_0$ be structures of species $\Theta$ which are equivalent respectively to $\mathscr{S}$ and $\mathscr{S}'$. In order that $(g_1,\ldots,g_n)$ should be an isomorphism with respect to the structures $\mathscr{S}_0$ and $\mathscr{S}'_0$, it is necessary and sufficient that $(g_1,\ldots,g_n)$ should be an isomorphism with respect to the structures $\mathscr{S}$ and $\mathscr{S}'$.*
 
 In practice, we make no distinction between the theories $\mathscr{T}_{\Sigma}$ and $\mathscr{T}_{\Theta}$ of two equivalent species of structures.
 

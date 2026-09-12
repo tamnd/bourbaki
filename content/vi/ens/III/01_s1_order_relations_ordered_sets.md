@@ -66,7 +66,7 @@ subsections:
       pdf_page: 153
 statements: 52
 exercises: 24
-content_sha256: 71c36c6705ff5f9baebfdba74e96701a031d0e0d09c8413c8c79dd093b269868
+content_sha256: 0bbe7a5e97e2e4c2f098e32e52cf9563db775da46884cda4d6c0ac5ff6ef6781
 translated_from: content/en/ens/III/01_s1_order_relations_ordered_sets.md
 source_content_sha256: 14e9fa04ef3714dde5ebc1c24c59c34cba4c8b4444c04468c4103f599e7d160e
 translation_model: gpt-5.4, gpt-5-6-mini
@@ -257,7 +257,7 @@ Một ví dụ quan trọng của một tích các tập hợp có thứ tự l�
 
 ☡
 
-Cần nhận thấy rằng trong tập hợp có thứ tự $\mathscr{F}(E, F)$, quan hệ $f < g$ có nghĩa là
+Cần nhận thấy rằng trong tập hợp có thứ tự $\mathfrak{F}(E, F)$, quan hệ $f < g$ có nghĩa là
 $$\text{"với mọi } x \in E, f(x) \leqslant g(x), \text{ và tồn tại } y \in E \text{ sao cho } f(y) < g(y)\text{"}$$
 *và không phải*
 $$\text{"với mọi } x \in E, f(x) < g(x)\text{"}.$$
@@ -537,7 +537,7 @@ Tập hợp các tôpô trên một tập hợp A, có thứ tự theo quan hệ
 
 #### Ví dụ 4 {#ens-iii-s1-n11-exa-4 .statement tag=03TV}
 
-Tập hợp $\mathscr{F}(I,\mathbf{R})$ của mọi hàm thực xác định trên một khoảng I của $\mathbf{R}$ là một dàn đối với quan hệ thứ tự $f\leqslant g$ (no. 4), và do đó đẳng cấu với tích $\mathbf{R}^{I}$. \*
+Tập hợp $\mathfrak{F}(I,\mathbf{R})$ của mọi hàm thực xác định trên một khoảng I của $\mathbf{R}$ là một dàn đối với quan hệ thứ tự $f\leqslant g$ (no. 4), và do đó đẳng cấu với tích $\mathbf{R}^{I}$. \*
 
 #### Nhận xét {#ens-iii-s1-n11-rem-1 .statement tag=03JQ}
 

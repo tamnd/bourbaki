@@ -14,7 +14,7 @@ pdf_pages: 0391-0395
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 5a091b1c24bd2fef1967a7c1ba519b9a55ad1fd38fb5f1654c854f1da06a51c5
+content_sha256: 0c6d730ef1a006af91e6d3c8019eb9853e8cc28ebc4854ccc66d8d657355ba6c
 translated_from: content/en/ens/index_of_notation_i_iv.md
 source_content_sha256: 08e1f4f2fc466917cf33ec4c3fbfaa919e48e8719ffafb49fbba7f2921ef04fe
 translation_model: gpt-5-mini, gpt-5-6-mini
@@ -94,7 +94,7 @@ $\{x,y,z\} : \mathrm{II}.4.5$
 
 $\mathfrak{P}(X) : \mathrm{II}.5.1$
 
-$\mathscr{F}(E,F),\ F^E : \mathrm{II}.5.2$
+$\mathfrak{F}(E,F),\ F^E : \mathrm{II}.5.2$
 
 $$\prod_{i\in I}X_i,\ \operatorname{pr}_i : \mathrm{II}.5.3$$
 

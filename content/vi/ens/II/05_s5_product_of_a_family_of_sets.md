@@ -52,7 +52,7 @@ errata:
     - says: Corollary 2 to Proposition 5
       read: Corollary 2 to Proposition 6
       why: The same reference as the two above, written the other way round on page 109, and wrong the same way.
-content_sha256: 33a004bbf62c979f3138bca23de87b498c172264fb0a8046e1cb5156873b6deb
+content_sha256: f4e5c32c17ae0379e0bfadccf2f9556da69ac3c729288b3af4ca6e4514c879e4
 translated_from: content/en/ens/II/05_s5_product_of_a_family_of_sets.md
 source_content_sha256: 0301ddc64f4634b2f737e77987e840c82975f71ef423fb30f170e6510997d48c
 translation_model: gpt-5.4
@@ -80,13 +80,13 @@ Tiên đề này có nghĩa là với mọi tập hợp X đều tồn tại m�
 
 (1) Nếu $s$ là một tiết diện của $f$, thì $f \circ s$ là ánh xạ đồng nhất của F, do đó $\hat{f} \circ \hat{s}$ là ánh xạ đồng nhất của $\mathfrak{P}(\mathrm{F})$; vì thế $\hat{f}$ là toàn ánh và $\hat{s}$ là một tiết diện của $\hat{f}$ (§3, no. 8).
 
-(2) Mệnh đề là hiển nhiên nếu $E = \varnothing$, vì khi đó $\mathscr{P}(E) = \{\varnothing\}$. Nếu $E \ne \varnothing$ và nếu $r$ là một phép rút lại của $f$, thì $r \circ f$ là ánh xạ đồng nhất của $E$, nên $\hat{r} \circ \hat{f}$ là ánh xạ đồng nhất của $\mathscr{P}(E)$; do đó $\hat{f}$ là đơn ánh, và $\hat{r}$ là một phép rút lại của $\hat{f}$ (§3, no. 8).
+(2) Mệnh đề là hiển nhiên nếu $E = \varnothing$, vì khi đó $\mathfrak{P}(E) = \{\varnothing\}$. Nếu $E \ne \varnothing$ và nếu $r$ là một phép rút lại của $f$, thì $r \circ f$ là ánh xạ đồng nhất của $E$, nên $\hat{r} \circ \hat{f}$ là ánh xạ đồng nhất của $\mathfrak{P}(E)$; do đó $\hat{f}$ là đơn ánh, và $\hat{r}$ là một phép rút lại của $\hat{f}$ (§3, no. 8).
 
 ### 2. TẬP CÁC ÁNH XẠ TỪ MỘT TẬP HỢP VÀO MỘT TẬP HỢP KHÁC
 
-Cho $E$, $F$ là các tập hợp. Đồ thị của một ánh xạ từ $E$ vào $F$ là một tập con của $E \times F$. Vì thế tập hợp các phần tử của $\mathscr{P}(E \times F)$ có tính chất là đồ thị của các ánh xạ từ $E$ vào $F$ là một tập con của $\mathscr{P}(E \times F)$, và được ký hiệu bởi $F^E$. Do đó tập hợp các bộ ba $f = (G, E, F)$, trong đó $G \in F^E$, là tập hợp các ánh xạ từ $E$ vào $F$; nó được ký hiệu bởi $\mathscr{F}(E, F)$. Rõ ràng $G \mapsto (G, E, F)$ là một song ánh (gọi là song ánh chính tắc) từ $F^E$ lên $\mathscr{F}(E, F)$. Sự tồn tại của song ánh này cho phép ta dịch ngay lập tức mọi mệnh đề liên quan đến tập hợp $F^E$ thành một mệnh đề liên quan đến $\mathscr{F}(E, F)$, và ngược lại.
+Cho $E$, $F$ là các tập hợp. Đồ thị của một ánh xạ từ $E$ vào $F$ là một tập con của $E \times F$. Vì thế tập hợp các phần tử của $\mathfrak{P}(E \times F)$ có tính chất là đồ thị của các ánh xạ từ $E$ vào $F$ là một tập con của $\mathfrak{P}(E \times F)$, và được ký hiệu bởi $F^E$. Do đó tập hợp các bộ ba $f = (G, E, F)$, trong đó $G \in F^E$, là tập hợp các ánh xạ từ $E$ vào $F$; nó được ký hiệu bởi $\mathfrak{F}(E, F)$. Rõ ràng $G \mapsto (G, E, F)$ là một song ánh (gọi là song ánh chính tắc) từ $F^E$ lên $\mathfrak{F}(E, F)$. Sự tồn tại của song ánh này cho phép ta dịch ngay lập tức mọi mệnh đề liên quan đến tập hợp $F^E$ thành một mệnh đề liên quan đến $\mathfrak{F}(E, F)$, và ngược lại.
 
-¶ Cho $E$, $E'$, $F$, $F'$ là các tập hợp. Cho $u$ là một ánh xạ từ $E'$ vào $E$, và $v$ là một ánh xạ từ $F$ vào $F'$. Khi đó hàm $f \mapsto v \circ f \circ u$ là một ánh xạ từ $\mathscr{F}(E, F)$ vào $\mathscr{F}(E', F')$.
+¶ Cho $E$, $E'$, $F$, $F'$ là các tập hợp. Cho $u$ là một ánh xạ từ $E'$ vào $E$, và $v$ là một ánh xạ từ $F$ vào $F'$. Khi đó hàm $f \mapsto v \circ f \circ u$ là một ánh xạ từ $\mathfrak{F}(E, F)$ vào $\mathfrak{F}(E', F')$.
 
 #### Mệnh đề 2 {#ens-ii-s5-prop-2 .statement tag=03Q5}
 
@@ -110,13 +110,13 @@ là đơn ánh.
 
 *Nếu $u$ là một song ánh từ $E'$ lên $E$ và $v$ là một song ánh từ $F$ lên $F'$, thì $f \mapsto v \circ f \circ u$ là song ánh.*
 
-Cho $A$, $B$, $C$ là ba tập hợp và cho $f$ là một ánh xạ từ $B \times C$ vào $A$. Với mỗi $y \in C$, gọi $f(\mathord{\cdot}, y)$ là ánh xạ bộ phận $x \mapsto f(x,y)$ từ $B$ vào $A$ (§ 3, no. 9); hàm $y \mapsto f(\mathord{\cdot}, y)$ là một ánh xạ từ $C$ vào $\mathscr{F}(B, A)$. Ngược lại, với mỗi ánh xạ $g$ từ $C$ vào $\mathscr{F}(B, A)$ tồn tại một ánh xạ duy nhất $f$ từ $\mathrm{B} \times \mathrm{C}$ vào A sao cho $g(y) = f(\bullet, y)$ với mọi $y \in \mathrm{C}$, cụ thể là ánh xạ $(x, y) \to (g(y))(x)$. Do đó :
+Cho $A$, $B$, $C$ là ba tập hợp và cho $f$ là một ánh xạ từ $B \times C$ vào $A$. Với mỗi $y \in C$, gọi $f(\mathord{\cdot}, y)$ là ánh xạ bộ phận $x \mapsto f(x,y)$ từ $B$ vào $A$ (§ 3, no. 9); hàm $y \mapsto f(\mathord{\cdot}, y)$ là một ánh xạ từ $C$ vào $\mathfrak{F}(B, A)$. Ngược lại, với mỗi ánh xạ $g$ từ $C$ vào $\mathfrak{F}(B, A)$ tồn tại một ánh xạ duy nhất $f$ từ $\mathrm{B} \times \mathrm{C}$ vào A sao cho $g(y) = f(\bullet, y)$ với mọi $y \in \mathrm{C}$, cụ thể là ánh xạ $(x, y) \to (g(y))(x)$. Do đó :
 
 #### Mệnh đề 3 {#ens-ii-s5-prop-3 .statement tag=03Q7}
 
-*Nếu với mỗi ánh xạ $f$ của* $\mathrm{B} \times \mathrm{C}$ *vào* A *ta ký hiệu bởi $\tilde{f}$ ánh xạ $y \to f(\bullet, y)$ của* C *vào* $\mathscr{F}(\mathrm{B}, \mathrm{A})$, *thì hàm $f \to \tilde{f}$ là một song ánh* (gọi là *song ánh chính tắc*) *của* $\mathscr{F}(\mathrm{B} \times \mathrm{C}, \mathrm{A})$ *lên* $\mathscr{F}(\mathrm{C}, \mathscr{F}(\mathrm{B}, \mathrm{A}))$.
+*Nếu với mỗi ánh xạ $f$ của* $\mathrm{B} \times \mathrm{C}$ *vào* A *ta ký hiệu bởi $\tilde{f}$ ánh xạ $y \to f(\bullet, y)$ của* C *vào* $\mathfrak{F}(\mathrm{B}, \mathrm{A})$, *thì hàm $f \to \tilde{f}$ là một song ánh* (gọi là *song ánh chính tắc*) *của* $\mathfrak{F}(\mathrm{B} \times \mathrm{C}, \mathrm{A})$ *lên* $\mathfrak{F}(\mathrm{C}, \mathfrak{F}(\mathrm{B}, \mathrm{A}))$.
 
-Tương tự, ta định nghĩa một *song ánh chính tắc* của $\mathscr{F}(\mathrm{B} \times \mathrm{C}, \mathrm{A})$ lên $\mathscr{F}(\mathrm{B}, \mathscr{F}(\mathrm{C}, \mathrm{A}))$. Do sự tương ứng một-một giữa các ánh xạ và các đồ thị phiếm hàm, các song ánh này dẫn đến các *song ánh chính tắc* của $\mathrm{A}^{\mathrm{B} \times \mathrm{C}}$ lên $(\mathrm{A}^{\mathrm{B}})^{\mathrm{C}}$ (resp. $(\mathrm{A}^{\mathrm{C}})^{\mathrm{B}}$).
+Tương tự, ta định nghĩa một *song ánh chính tắc* của $\mathfrak{F}(\mathrm{B} \times \mathrm{C}, \mathrm{A})$ lên $\mathfrak{F}(\mathrm{B}, \mathfrak{F}(\mathrm{C}, \mathrm{A}))$. Do sự tương ứng một-một giữa các ánh xạ và các đồ thị phiếm hàm, các song ánh này dẫn đến các *song ánh chính tắc* của $\mathrm{A}^{\mathrm{B} \times \mathrm{C}}$ lên $(\mathrm{A}^{\mathrm{B}})^{\mathrm{C}}$ (resp. $(\mathrm{A}^{\mathrm{C}})^{\mathrm{B}}$).
 
 ### 3. ĐỊNH NGHĨA TÍCH CỦA MỘT HỌ TẬP HỢP
 
@@ -138,7 +138,7 @@ Nếu $\mathrm{I} = \emptyset$, tập hợp $\prod_{\iota \in \mathrm{I}} \mathr
 
 $$\bigcup_{\iota \in I} X_\iota \subset E,$$
 
-thì Định nghĩa 1 cho thấy rằng $\prod_{\iota \in I} X_\iota \subset E^I$; do đó có một sự tương ứng một-một giữa $\prod_{\iota \in I} X_\iota$ và một tập hợp các ánh xạ từ I vào E (tức là, một tập con của $\mathscr{F}(I, E)$).
+thì Định nghĩa 1 cho thấy rằng $\prod_{\iota \in I} X_\iota \subset E^I$; do đó có một sự tương ứng một-một giữa $\prod_{\iota \in I} X_\iota$ và một tập hợp các ánh xạ từ I vào E (tức là, một tập con của $\mathfrak{F}(I, E)$).
 
 ¶ Nếu $I = \{\alpha\}$ là một tập hợp gồm một phần tử duy nhất, ta có
 

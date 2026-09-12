@@ -180,7 +180,7 @@ chapters:
           statements: 22
           exercises: 8
           extraction: ocr
-          content_sha256: c8fd3f17f42e974a252f4d880619803570369c6870f994dc645984b60d03b8d3
+          content_sha256: 79a8f1cdc57e7dce0167dd11f3e335382fe0479c90c58a053fba7bbc5d06a5f5
         - kind: section
           section: 5
           title: Product of a family of sets
@@ -246,7 +246,7 @@ chapters:
           statements: 28
           exercises: 20
           extraction: ocr
-          content_sha256: 1ca0af6bba0dc81ea81d456d04144c5394ceaf1e77570677f48682a2d16e5410
+          content_sha256: 529e0877ab160d3b3e3d67615a04958e997ebf0f3443b7d1ff61efd5c0edeeb3
         - kind: section
           section: 3
           title: Equipotent sets. Cardinals
@@ -349,7 +349,7 @@ chapters:
           statements: 17
           exercises: 1
           extraction: ocr
-          content_sha256: b1a8e2e22b63f48225281d0009294434de0101ab0a5eb0b72456f29c62b1cc54
+          content_sha256: 6f80558fbc92e161f5d49ee0e3bc31cde68825641566b6b9033b62360094bb00
         - kind: section
           section: 2
           title: Morphisms and derived structures
@@ -362,7 +362,7 @@ chapters:
           statements: 12
           exercises: 11
           extraction: ocr
-          content_sha256: f3deeaa7f667542d82042b94967bb4d68d106fa3b1b0bdd6f7b4555f277bea62
+          content_sha256: 5c7ff47f7a7c64e4e4d983dd7ce3ddd6c8c6e0cdf0393ed5ed3c52c0ad38c5b8
         - kind: section
           section: 3
           title: Universal mappings
@@ -375,7 +375,7 @@ chapters:
           statements: 0
           exercises: 3
           extraction: ocr
-          content_sha256: dd5993f058059ce31de395ffe2d588f0a896589d38ffdef55e874bcb065fe984
+          content_sha256: 02143cebc191d935f4dc730de8191e96a819d51f624ae1e4a809f5d496463365
         - kind: historical
           title: Historical Note
           path: content/en/ens/IV/historical_note.md

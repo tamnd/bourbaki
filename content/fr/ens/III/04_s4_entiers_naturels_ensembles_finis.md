@@ -34,7 +34,7 @@ subsections:
       pdf_page: 138
 statements: 16
 exercises: 11
-content_sha256: 61d6392387fe9a9acc938845fc7d7e21377918ac4da4982295430d6d3ea44f5e
+content_sha256: 2c34b488c91ced5ad82a9f1e393ed724d173ecb87b96361d4d38bb79eb1ee422
 ---
 
 ## § 4. ENTIERS NATURELS. ENSEMBLES FINIS
@@ -197,7 +197,7 @@ En effet, un tel ensemble est inductif en vertu du cor. 1 (cf. III, p. 20, th. 2
 
 #### Définition 2 {#ens-iii-s4-def-2 .statement tag=03LC}
 
-Soit $E$ un ensemble. On dit qu’un ensemble $\mathscr{S}$ de parties de $E$ est de caractère fini si la relation $X \in \mathscr{S}$ est équivalente à la relation « toute partie finie de $X$ appartient à $\mathscr{S}$ ».
+Soit $E$ un ensemble. On dit qu’un ensemble $\mathfrak{S}$ de parties de $E$ est de caractère fini si la relation $X \in \mathfrak{S}$ est équivalente à la relation « toute partie finie de $X$ appartient à $\mathfrak{S}$ ».
 
 On dit qu’une propriété $P_{\{X\}}$ d’une partie $X$ d’un ensemble $E$ est de caractère fini si l’ensemble des parties $X$ de $E$ pour lesquelles $P_{\{X\}}$ est vraie est de caractère fini.
 
@@ -215,9 +215,9 @@ L’ensemble des sous-modules d’un module E n’est pas de caractère fini, ca
 
 #### Théorème 1 {#ens-iii-s4-thm-1 .statement tag=03LD}
 
-Tout ensemble $\mathscr{S}$ de parties d’un ensemble E, de caractère fini, admet un élément maximal (quand on l’ordonne par inclusion).
+Tout ensemble $\mathfrak{S}$ de parties d’un ensemble E, de caractère fini, admet un élément maximal (quand on l’ordonne par inclusion).
 
-En vertu du th. 2 de III, p. 20, il suffit de prouver que $\mathscr{S}$ est inductif; pour cela, nous montrerons que, pour toute partie $\mathfrak{G}$ de $\mathscr{S}$, totalement ordonnée par inclusion, la réunion X des ensembles de $\mathfrak{G}$ appartient à $\mathscr{S}$ (III, p. 21, cor. 2). Comme $\mathscr{S}$ est de caractère fini, il suffit d’établir que toute partie finie Y de X appartient à $\mathscr{S}$. Or, pour tout $y \in Y$, il existe un ensemble $Z_y \in \mathfrak{G}$ tel que $y \in Z_y$; comme l’ensemble des $Z_y$ ($y \in Y$) est fini et totalement ordonné par inclusion, il admet un plus grand élément S (III, p. 34, cor. 1); autrement dit, il existe un ensemble $S \in \mathfrak{G}$ tel que $Y \subset S$. Mais comme $S \in \mathscr{S}$ et que Y est une partie finie de S, on a $Y \in \mathscr{S}$, puisque $\mathscr{S}$ est de caractère fini, et ceci achève la démonstration.
+En vertu du th. 2 de III, p. 20, il suffit de prouver que $\mathfrak{S}$ est inductif; pour cela, nous montrerons que, pour toute partie $\mathfrak{G}$ de $\mathfrak{S}$, totalement ordonnée par inclusion, la réunion X des ensembles de $\mathfrak{G}$ appartient à $\mathfrak{S}$ (III, p. 21, cor. 2). Comme $\mathfrak{S}$ est de caractère fini, il suffit d’établir que toute partie finie Y de X appartient à $\mathfrak{S}$. Or, pour tout $y \in Y$, il existe un ensemble $Z_y \in \mathfrak{G}$ tel que $y \in Z_y$; comme l’ensemble des $Z_y$ ($y \in Y$) est fini et totalement ordonné par inclusion, il admet un plus grand élément S (III, p. 34, cor. 1); autrement dit, il existe un ensemble $S \in \mathfrak{G}$ tel que $Y \subset S$. Mais comme $S \in \mathfrak{S}$ et que Y est une partie finie de S, on a $Y \in \mathfrak{S}$, puisque $\mathfrak{S}$ est de caractère fini, et ceci achève la démonstration.
 
 ## EXERCICES {#ens-iii-s4-exercises}
 

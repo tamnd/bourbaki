@@ -83,7 +83,7 @@ chapters:
           statements: 0
           exercises: 8
           extraction: ocr
-          content_sha256: ca12bd9233b2c5a217edab9edcee3e1e9585bf522b925d56c9cccb33ebc5bf21
+          content_sha256: 880a96972a0a512cd8941d1ffb892a50b92f2839a755c6e82a76b27f6a48f1a9
         - kind: section
           section: 5
           title: Théories égalitaires
@@ -221,7 +221,7 @@ chapters:
           statements: 54
           exercises: 24
           extraction: ocr
-          content_sha256: 6b0a8394dd7b012d5dcc4d61fb01852ee80b1a554f68aca135f3cf885a73a20c
+          content_sha256: b14cad04137473bc1f15e48f99997f91130db356f266485938dcf6a767579d8c
         - kind: section
           section: 2
           title: Ensembles bien ordonnés
@@ -234,7 +234,7 @@ chapters:
           statements: 27
           exercises: 20
           extraction: ocr
-          content_sha256: 941a3e7613f1cdd8734198f66c2286ba293c41d670423059952992de1d554151
+          content_sha256: 987f14a1f447a0fd1fd3c7d5a2603a787f57c3a952d0c0b452e3a1d80816d413
         - kind: section
           section: 3
           title: Ensembles équipotents. Cardinaux
@@ -260,7 +260,7 @@ chapters:
           statements: 16
           exercises: 11
           extraction: ocr
-          content_sha256: 61d6392387fe9a9acc938845fc7d7e21377918ac4da4982295430d6d3ea44f5e
+          content_sha256: 2c34b488c91ced5ad82a9f1e393ed724d173ecb87b96361d4d38bb79eb1ee422
         - kind: section
           section: 5
           title: Calcul sur les entiers
@@ -299,7 +299,7 @@ chapters:
           statements: 27
           exercises: 9
           extraction: ocr
-          content_sha256: 6ca2a731bab0f11ba88603566c6cf571b03614fed109f0a040ab3637910aeee1
+          content_sha256: a255656113464eb5c20a3499c024cc6dd3c3ae65f11d5df8dc5884773b7020f8
         - kind: historical
           title: Historical Note
           path: content/fr/ens/III/historical_note.md
@@ -347,7 +347,7 @@ chapters:
           statements: 12
           exercises: 11
           extraction: ocr
-          content_sha256: 866d2e27f0d82b27556bd48e7165032a4f8f49f2bbd3b5818836b76306255b3c
+          content_sha256: b3f0092adf7b8f6a678242747bf27a031bfe6d85f60a644b8de1327d0c69a17f
         - kind: section
           section: 3
           title: Applications universelles

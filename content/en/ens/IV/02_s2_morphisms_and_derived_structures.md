@@ -38,7 +38,7 @@ subsections:
       pdf_page: 286
 statements: 12
 exercises: 11
-content_sha256: f3deeaa7f667542d82042b94967bb4d68d106fa3b1b0bdd6f7b4555f277bea62
+content_sha256: 5c7ff47f7a7c64e4e4d983dd7ce3ddd6c8c6e0cdf0393ed5ed3c52c0ad38c5b8
 ---
 
 ## 2. MORPHISMS AND DERIVED STRUCTURES
@@ -165,23 +165,23 @@ is therefore equivalent to the relation
 
 (2)     "for all $\iota \in \mathrm{I}$, $f_\iota \circ u$ is a morphism of F into $\mathrm{A}_\iota$".
 
-Now, to say that $\mathscr{I}'$ is the initial structure with respect to the family $(\mathrm{B}_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in \mathrm{L}}$ means that relation (1) is equivalent to the relation "$u$ is a morphism of F into E endowed with $\mathscr{I}'$"; and to say that $\mathscr{I}$ is the initial structure with respect to the family $(A_i,\,\mathscr{G}_i,\,f_i)_{i\in I}$ means that relation (2) is equivalent to the relation “$u$ is a morphism of F into E endowed with $\Gamma$”. Hence the result, in view of the property of uniqueness of initial structure.
+Now, to say that $\mathscr{I}'$ is the initial structure with respect to the family $(\mathrm{B}_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in \mathrm{L}}$ means that relation (1) is equivalent to the relation "$u$ is a morphism of F into E endowed with $\mathscr{I}'$"; and to say that $\mathscr{I}$ is the initial structure with respect to the family $(A_i,\,\mathscr{S}_i,\,f_i)_{i\in I}$ means that relation (2) is equivalent to the relation “$u$ is a morphism of F into E endowed with $\Gamma$”. Hence the result, in view of the property of uniqueness of initial structure.
 
 ### 4. EXAMPLES OF INITIAL STRUCTURES
 
-I. *Inverse image of a structure.* When I is a set consisting of a single element, the initial structure with respect to $(A,\,\mathscr{G},\,f)$ is called the *inverse image under $f$ of the structure $\mathscr{G}$* (when it exists).
+I. *Inverse image of a structure.* When I is a set consisting of a single element, the initial structure with respect to $(A,\,\mathscr{S},\,f)$ is called the *inverse image under $f$ of the structure $\mathscr{S}$* (when it exists).
 
 \* A topology always has an inverse image under any mapping $f$; but this is not the case for an order structure or an algebraic structure. \*
 
-II. *Induced structure.* Let A be a set endowed with a structure $\mathscr{G}$ of species $\Sigma$, let B be a subset of A, and let $j$ be the canonical injection of B into A. Then the inverse image under $j$ of the structure B (if it exists) is called the *structure induced by $\mathscr{G}$ on B.*
+II. *Induced structure.* Let A be a set endowed with a structure $\mathscr{S}$ of species $\Sigma$, let B be a subset of A, and let $j$ be the canonical injection of B into A. Then the inverse image under $j$ of the structure B (if it exists) is called the *structure induced by $\mathscr{S}$ on B.*
 
 An order structure induces a structure of the same species on every subset of the set on which it is defined; but this is not the case for the structure of a directed set. \* A topology induces a topology on every subset of the set on which it is defined, but a compact topology does not in general induce a compact topology. An algebraic structure on a set A does not in general induce a structure of the same species on an arbitrary subset B; if the given structure on A consists of laws of composition which are everywhere defined, then it is necessary that B should be stable with respect to each of these laws, but this necessary condition is not always sufficient. \*
 
 The general criterion CST10 gives us the following *transitivity criterion* for induced structures :
 
-CST11. *Let B be a subset of A, let C be a subset of B, and let $\mathscr{G}$ be a structure of species $\Sigma$ on A which induces a structure $\mathscr{G}'$ of the same species on B. Then $\mathscr{G}$ induces a structure of species $\Sigma$ on C if and only if $\mathscr{G}'$ induces a structure of species $\Sigma$ on C, and the structures induced on C by $\mathscr{G}$ and $\mathscr{G}'$ are then identical.*
+CST11. *Let B be a subset of A, let C be a subset of B, and let $\mathscr{S}$ be a structure of species $\Sigma$ on A which induces a structure $\mathscr{S}'$ of the same species on B. Then $\mathscr{S}$ induces a structure of species $\Sigma$ on C if and only if $\mathscr{S}'$ induces a structure of species $\Sigma$ on C, and the structures induced on C by $\mathscr{S}$ and $\mathscr{S}'$ are then identical.*
 
-CST12. *Let A, A' be two sets endowed with structures $\mathscr{G}$, $\mathscr{G}'$ of species $\Sigma$. Let B be a subset of A, and B' a subset of A'. Suppose that $\mathscr{G}$ (resp. $\mathscr{G}'$) induces a structure of species $\Sigma$ on B (resp. B'). If $f$ is a morphism of A into A' such that $f(B)\subset B'$, then the mapping of B into B' which coincides with $f$ on B is a morphism (with respect to the structures induced by $\mathscr{G}$ and $\mathscr{G}'$).*
+CST12. *Let A, A' be two sets endowed with structures $\mathscr{S}$, $\mathscr{S}'$ of species $\Sigma$. Let B be a subset of A, and B' a subset of A'. Suppose that $\mathscr{S}$ (resp. $\mathscr{S}'$) induces a structure of species $\Sigma$ on B (resp. B'). If $f$ is a morphism of A into A' such that $f(B)\subset B'$, then the mapping of B into B' which coincides with $f$ on B is a morphism (with respect to the structures induced by $\mathscr{S}$ and $\mathscr{S}'$).*
 
 Let $j$ (resp. $j'$) be the canonical injection of B (resp. B') into A (resp. A'). By definition we have $f\circ j=j'\circ g$. Since $f$ and $j$ are morphisms, so is $f\circ j$ by (MO$_{\mathrm{II}}$); but then, $j'\circ g$ being a morphism, the mapping $g$ is a morphism by the definition of initial structure.
 
@@ -309,11 +309,11 @@ Let $\varphi$ (resp. $\varphi'$) be the canonical mapping of A onto $\mathrm{A}/
 
 CST21. *Let* A *be a set endowed with a structure* $\mathscr{S}$ *of species* $\Sigma$, *and let* R *be an equivalence relation on* A *such that there exists on* $\mathrm{A}/\mathrm{R}$ *a quotient structure* $\mathscr{S}'$ *of* $\mathscr{S}$ *by* R. *Let* S *be an equivalence relation on* A *which is coarser than* R, *and let* $\mathrm{S}/\mathrm{R}$ *denote the equivalence relation on* $\mathrm{A}/\mathrm{R}$ *which is the quotient of* S *by* R (Chapter II, § 6, no. 7). *Then there exists on* $(\mathrm{A}/\mathrm{R})/(\mathrm{S}/\mathrm{R})$ *a quotient structure* $\mathscr{S}''$ *of* $\mathscr{S}'$ *by* $\mathrm{S}/\mathrm{R}$ *if and only if there exists on* $\mathrm{A}/\mathrm{S}$ *a quotient structure* $\mathscr{S}_0$ *of* $\mathscr{S}$ *by* S, *and the canonical mapping of* $\mathrm{A}/\mathrm{S}$ (*endowed with* $\mathscr{S}_0$) *onto* $(\mathrm{A}/\mathrm{R})/(\mathrm{S}/\mathrm{R})$ (*endowed with* $\mathscr{S}''$) *is an isomorphism.*
 
-Let $\varphi$ be the canonical mapping of A onto $A/R$, and let $\psi$ be that of $A/R$ onto $(A/R)/(S/R)$. By virtue of CST19, $\mathscr{G}''$ is the quotient of $\mathscr{G}'$ by $S/R$ if and only if $\mathscr{G}''$ is the final structure with respect to $(A,\mathscr{G},\psi\circ\varphi)$. The criterion then follows from the fact that the relation $\psi(\varphi(x))=\psi(\varphi(y))$ is equivalent to S.
+Let $\varphi$ be the canonical mapping of A onto $A/R$, and let $\psi$ be that of $A/R$ onto $(A/R)/(S/R)$. By virtue of CST19, $\mathscr{S}''$ is the quotient of $\mathscr{S}'$ by $S/R$ if and only if $\mathscr{S}''$ is the final structure with respect to $(A,\mathscr{S},\psi\circ\varphi)$. The criterion then follows from the fact that the relation $\psi(\varphi(x))=\psi(\varphi(y))$ is equivalent to S.
 
 #### Remark {#ens-iv-s2-n6-rem-1 .statement tag=03VW}
 
-Let A be a set endowed with a structure $\mathscr{G}$ of species $\Sigma$, and let R be an equivalence relation on A such that there exists on $E=A/R$ a quotient structure $\mathscr{G}'$ of $\mathscr{G}$ by R. Let $\varphi$ be the canonical mapping of A onto E. In general, there exists no *section* $s$ of $\varphi$ (Chapter II, § 3, no. 8) which is a *morphism* of E into A. Let us suppose that such a section $s$ exists, and moreover that there exists a structure $\mathscr{G}''$ induced by $\mathscr{G}$ on $s(E)$. Then, if $j$ denotes the canonical injection of $s(E)$ into A and if $s=j\circ f$, the bijection $f$ is an *isomorphism* of E onto $s(E)$. For $f$ is a morphism by the definition of induced structure, and $g=\varphi\circ j$ is a morphism of $s(E)$ onto E by reason of (MO$_{\mathrm{II}}$). Since $g\circ f$ and $f\circ g$ are the identity mappings of E and $s(E)$, respectively, the assertion is a consequence of CST8.
+Let A be a set endowed with a structure $\mathscr{S}$ of species $\Sigma$, and let R be an equivalence relation on A such that there exists on $E=A/R$ a quotient structure $\mathscr{S}'$ of $\mathscr{S}$ by R. Let $\varphi$ be the canonical mapping of A onto E. In general, there exists no *section* $s$ of $\varphi$ (Chapter II, § 3, no. 8) which is a *morphism* of E into A. Let us suppose that such a section $s$ exists, and moreover that there exists a structure $\mathscr{S}''$ induced by $\mathscr{S}$ on $s(E)$. Then, if $j$ denotes the canonical injection of $s(E)$ into A and if $s=j\circ f$, the bijection $f$ is an *isomorphism* of E onto $s(E)$. For $f$ is a morphism by the definition of induced structure, and $g=\varphi\circ j$ is a morphism of $s(E)$ onto E by reason of (MO$_{\mathrm{II}}$). Since $g\circ f$ and $f\circ g$ are the identity mappings of E and $s(E)$, respectively, the assertion is a consequence of CST8.
 
 ### Exercises {#ens-iv-s2-exercises}
 

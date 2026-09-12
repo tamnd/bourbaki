@@ -38,7 +38,7 @@ subsections:
       pdf_page: 163
 statements: 28
 exercises: 20
-content_sha256: 1ca0af6bba0dc81ea81d456d04144c5394ceaf1e77570677f48682a2d16e5410
+content_sha256: 529e0877ab160d3b3e3d67615a04958e997ebf0f3443b7d1ff61efd5c0edeeb3
 ---
 
 ## 2. WELL-ORDERED SETS
@@ -125,9 +125,9 @@ Let $\mathrm{G}_\alpha$ be the graph of the given ordering on $\mathrm{X}_\alpha
 
 #### Lemma 2 {#ens-iii-s2-lem-2 .statement tag=03K0}
 
-Let $E$ be a well-ordered set and let $\mathscr{C}$ be a set of segments of $E$ with the following properties : (1) every union of segments belonging to $\mathscr{C}$ belongs to $\mathscr{C}$; (2) if $S_x\in\mathscr{C}$, then $S_x\cup\{x\}\in\mathscr{C}$. Then every segment of $E$ belongs to $\mathscr{C}$.
+Let $E$ be a well-ordered set and let $\mathfrak{S}$ be a set of segments of $E$ with the following properties : (1) every union of segments belonging to $\mathfrak{S}$ belongs to $\mathfrak{S}$; (2) if $S_x\in\mathfrak{S}$, then $S_x\cup\{x\}\in\mathfrak{S}$. Then every segment of $E$ belongs to $\mathfrak{S}$.
 
-Suppose that there are segments of $E$ which do not belong to $\mathscr{C}$, and let $S$ be the smallest of them (no. 1, Proposition 2). If $S$ has no greatest element, then $S$ is the union of the segments of $S$ distinct from $S$ itself, and these segments belong to $\mathscr{C}$ by virtue of the definition of $S$; hence $S\in\mathscr{C}$, which is absurd. If, on the other hand, $S$ has a greatest element $a$, then $S=S_a\cup\{a\}$, and since $S_a$ is a segment of $S$ distinct from $S$, we have $S_a\in\mathscr{C}$; but then also $S\in\mathscr{C}$, which again is absurd.
+Suppose that there are segments of $E$ which do not belong to $\mathfrak{S}$, and let $S$ be the smallest of them (no. 1, Proposition 2). If $S$ has no greatest element, then $S$ is the union of the segments of $S$ distinct from $S$ itself, and these segments belong to $\mathfrak{S}$ by virtue of the definition of $S$; hence $S\in\mathfrak{S}$, which is absurd. If, on the other hand, $S$ has a greatest element $a$, then $S=S_a\cup\{a\}$, and since $S_a$ is a segment of $S$ distinct from $S$, we have $S_a\in\mathfrak{S}$; but then also $S\in\mathfrak{S}$, which again is absurd.
 
 ¶ For greater convenience we shall place ourselves in a theory $\mathscr{T}$ in which $E$ is a set *well-ordered* by a relation written $x\leq y$. We have then the following criteria :
 
@@ -139,7 +139,7 @@ $$
 
 is a theorem in $\mathscr{T}$. Under these conditions the relation $(x\in E)\Rightarrow R\{x\}$ is a theorem in $\mathscr{T}$.*
 
-Let $\mathscr{C}$ be the set of segments $S$ of $E$ such that $(y\in S)\Rightarrow R\{y\}$. It is clear that every union of segments belonging to $\mathscr{C}$ also belongs to $\mathscr{C}$. On the other hand, if $S_x\in\mathscr{C}$, we have $R\{x\}$ by hypothesis; hence $(y\in S_x\cup\{y\})\Rightarrow R\{y\}$ by the method of disjunction of cases. Hence (Lemma 2) $E\in\mathscr{C}$, which proves the criterion.
+Let $\mathfrak{S}$ be the set of segments $S$ of $E$ such that $(y\in S)\Rightarrow R\{y\}$. It is clear that every union of segments belonging to $\mathfrak{S}$ also belongs to $\mathfrak{S}$. On the other hand, if $S_x\in\mathfrak{S}$, we have $R\{x\}$ by hypothesis; hence $(y\in S_x\cup\{y\})\Rightarrow R\{y\}$ by the method of disjunction of cases. Hence (Lemma 2) $E\in\mathfrak{S}$, which proves the criterion.
 
 ¶ In the applications of C59, the relation
 

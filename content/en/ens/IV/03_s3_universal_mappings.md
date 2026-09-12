@@ -26,7 +26,7 @@ subsections:
       pdf_page: 291
 statements: 0
 exercises: 3
-content_sha256: dd5993f058059ce31de395ffe2d588f0a896589d38ffdef55e874bcb065fe984
+content_sha256: 02143cebc191d935f4dc730de8191e96a819d51f624ae1e4a809f5d496463365
 ---
 
 ## 3. UNIVERSAL MAPPINGS
@@ -37,7 +37,7 @@ Let $\mathscr{T}$ be a theory which is stronger than the theory of sets, and let
 
 (QM$_{\mathrm{I}}$) *The relation $\alpha\{x,s\}\subset\mathscr{T}(E;x)$ is true in $\mathscr{T}_{\Sigma}$.*
 
-(QM$_{\mathrm{II}}$) *If (in a theory $\mathscr{T}'$ which is stronger than $\mathscr{T}$) F and F′ are two sets endowed with structures $\mathscr{G},\mathscr{G}'$ of species $\Sigma$, and if $f$ is a morphism of F into F′, then the relation $\varphi\in\alpha\{F,\mathscr{G}\}$ implies $f\circ\varphi\in\alpha\{F',\mathscr{G}'\}$.*
+(QM$_{\mathrm{II}}$) *If (in a theory $\mathscr{T}'$ which is stronger than $\mathscr{T}$) F and F′ are two sets endowed with structures $\mathscr{S},\mathscr{S}'$ of species $\Sigma$, and if $f$ is a morphism of F into F′, then the relation $\varphi\in\alpha\{F,\mathscr{S}\}$ implies $f\circ\varphi\in\alpha\{F',\mathscr{S}'\}$.*
 
 We shall express the relation $\varphi\in\alpha\{x,s\}$ by saying that $\varphi$ is an $\alpha$-mapping of E into $x$ (endowed with $s$).
 
