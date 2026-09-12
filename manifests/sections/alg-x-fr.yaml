@@ -35,7 +35,7 @@ chapters:
           book_pages: A X.168-A X.173
           subsections: 10
           statements: 57
-          exercises: 17
+          exercises: 29
           extraction: ocr
           content_sha256: 5b86281421f2b3fe1ea28f8a34e0c89f54f6f0972b453a5ccd60eb0df1bb828b
         - kind: section
@@ -100,7 +100,7 @@ chapters:
           book_pages: A X.100-A X.113, A X.189-A X.197
           subsections: 8
           statements: 30
-          exercises: 18
+          exercises: 29
           extraction: ocr
           content_sha256: f2824ea7a326afeeb795cba28326778ff310ae6be0985b203c746f3eead38fee
         - kind: section
@@ -139,7 +139,7 @@ chapters:
           book_pages: A X.147-A X.168, A X.206-A X.209
           subsections: 10
           statements: 35
-          exercises: 10
+          exercises: 18
           extraction: ocr
           content_sha256: e050c0ace3b6ae09e3ac8402d6d075509f24c1315d70999695129d52b67dfc1f
 notation_index:
