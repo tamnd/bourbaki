@@ -31,9 +31,9 @@ subsections:
       title: THE KRULL-AKIZUKI THEOREM
       page: 499
       pdf_page: 517
-statements: 14
+statements: 15
 exercises: 27
-content_sha256: f9313bbbae20295a08e1ef91dbfcec6e95a2bdcad8dac8a5cf901983eb444e98
+content_sha256: 48505af329aa8f7c397057bf19cbe8b89d76984c0ee19147a5591880aa4eaac3
 ---
 
 ## 2. DEDEKIND DOMAINS
@@ -241,7 +241,9 @@ $$
 
 by Lemma 2.
 
-Proposition 5 (Krull-Akizuki). *Let A be a Noetherian domain each of whose non-zeroprime ideals is maximal, K its field of fractions, L a finite extension of K and B a subring of L containing A. Then B is Noetherian and every non-zero prime ideal of B is maximal. Moreover, for every ideal $b \neq (0)$ of B, B/b is a finitely generated A-module.*
+#### Proposition 5 (Krull-Akizuki) {#ac-vii-s2-prop-5 .statement}
+
+*Let A be a Noetherian domain each of whose non-zeroprime ideals is maximal, K its field of fractions, L a finite extension of K and B a subring of L containing A. Then B is Noetherian and every non-zero prime ideal of B is maximal. Moreover, for every ideal $b \neq (0)$ of B, B/b is a finitely generated A-module.*
 
 Let b be a non-zero ideal of B. We shall show that B/b is an A-module of finite length (hence, *a fortiori*, a B-module of finite length) and that b is a finitely generated B-module.
 
@@ -255,13 +257,13 @@ This equation shows that $a_1 \in By \subset b$. Applying Lemma 3 to $M = B$, it
 
 The above shows first that B is Noetherian. On the other hand, if $p$ is a non-zero prime ideal of B, the ring $B/p$ is an integral domain and of finite length and hence is a field (*Algebra*, Chapter VIII, § 6, no. 4, Proposition 9), so that $p$ is maximal.
 
-#### Corollary 1 {#ac-vii-s2-lem-3-cor-1 .statement}
+#### Corollary 1 {#ac-vii-s2-prop-5-cor-1 .statement}
 
 *For every prime ideal p of A, the set of prime ideals of B lying above p is finite.*
 
 Suppose first that $p = (0)$; then the only prime ideal $q$ of $B$ such that $q \cap A = (0)$ is $(0)$; otherwise, writing $S = A - \{0\}, S^{-1}q$ would be a non-zero prime ideal of $S^{-1}B$ (Chapter 11, § 2, no. 5, Proposition 11) and $S^{-1}B$ is just the field of fractions of $B$, for it is a subring of $L$ containing $K$ (\emph{Algebra}, Chapter V, § 3, no. 2, Proposition 3); whence an absurd conclusion. If now $p \neq (0)$, it follows from Proposition 5 that $B/pB$ is a finite-dimensional vector space over the field $A/p$, hence an \emph{Artinian} ring and therefore has only a finite number of prime ideals (Chapter IV, § 2, no. 5, Proposition 9), which proves that there is only a finite number of prime ideals of $B$ containing $p$.
 
-#### Corollary 2 {#ac-vii-s2-lem-3-cor-2 .statement}
+#### Corollary 2 {#ac-vii-s2-prop-5-cor-2 .statement}
 
 *The integral closure of $A$ in $L$ is a Dedekind domain.*
 
@@ -269,7 +271,7 @@ This integral closure is an integrally closed Noetherian domain all of whose non
 
 In particular:
 
-#### Corollary 3 {#ac-vii-s2-lem-3-cor-3 .statement}
+#### Corollary 3 {#ac-vii-s2-prop-5-cor-3 .statement}
 
 *The integral closure of a Dedekind domain in a finite extension of its field of fractions is a Dedekind domain.*
 

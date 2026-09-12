@@ -169,7 +169,7 @@ chapters:
           statements: 111
           exercises: 9
           extraction: ocr
-          content_sha256: c03e98e7ebb68d6e0ad174a8132c1308456446a6c5851f7a45c0b7d9d9b17a7d
+          content_sha256: fb1b7a4c61f41107e57f5a0973b50f20130a9fa8b6d9564c69367f57704a3327
         - kind: section
           section: 4
           title: Passage des algèbres de Lie aux groupes de Lie

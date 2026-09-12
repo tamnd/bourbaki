@@ -27,7 +27,7 @@ statements: 14
 exercises: 3
 content_sha256: 21f2b322a8dae3e1cdb95e227bb848251fc67bc2e902348f5a69699e583fa872
 translated_from: content/en/ac/VI/07_s7_approximation_theorem.md
-source_content_sha256: 1debc26396f5932ce4ac528e2be803e9ded101fa3e15e8f6fd5a4589047a8010
+source_content_sha256: e86e2f4df23e67929d05a5c7fb9439871e542e8948249e33754e6cdbddf47125
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-aac554e0
 glossary_version: 34

@@ -41,9 +41,9 @@ subsections:
       pdf_page: 116
 statements: 22
 exercises: 10
-content_sha256: cb90ac6179a9d013264b8ba7c6c4ea72f7f7050b10d1880cf10723f941163921
+content_sha256: fe7edc4b7339881ec4985397b0e5f7236fa5f30ebc32e7c9b4e3aabcca7d93e1
 translated_from: content/en/int/VIII/02_s2_linear_representations_of_groups.md
-source_content_sha256: 7fbe5cf422ed070aee2ead944edcb220562f94e36786bf655fe054c3d57eba39
+source_content_sha256: 857c6c34df766d7411dc9b8547a6d0dc46b57ddebf4766bb04a658531dd882e9
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-6
 translation_run: translate-vi-6cdc5c31
 glossary_version: 34
@@ -128,7 +128,7 @@ Cho U là một biểu diễn tuyến tính liên tục riêng của G trong E. 
 
 Cho X là một không gian compact địa phương, Y và Z là các không gian tôpô, $\varphi$ là một ánh xạ liên tục từ $X \times Y$ vào Z, và $\varphi_x$ là ánh xạ $y \mapsto \varphi(x,y)$ từ Y vào Z. Các không gian $\mathscr{C}(Y), \mathscr{C}(Z)$ được trang bị tôpô hội tụ compact, ánh xạ $(x,f) \mapsto f \circ \varphi_x$ từ $X \times \mathscr{C}(Z)$ vào $\mathscr{C}(Y)$ là liên tục.
 
-Rõ ràng chỉ cần xét trường hợp X là compact. Cho $(x_0, f_0) \in X \times \mathscr{C}(Z)$, K là một tập con compact của Y, và $\varepsilon > 0$. Đặt $K' = \varphi(X \times K)$. Vì f_0 \circ \varphi \text{ là liên tục đều trong } X \times K, \text{ tồn tại một lân cận W của } x_0 \text{ sao cho } |f_0(\varphi(x,y)) - f_0(\varphi(x_0,y))| \leq \varepsilon \text{ với } x \in W \text{ và } y \in K. \text{ Mặt khác, nếu lấy } f \in \mathscr{C}(Z) \text{ sao cho } |f(z) - f_0(z)| \leq \varepsilon \text{ với mọi } z \in K', \text{ ta sẽ có } |f(\varphi(x,y)) - f_0(\varphi(x,y))| \leq \varepsilon \text{ với } x \in X, y \in K, \text{ và do đó } |f(\varphi(x,y)) - f_0(\varphi(x_0,y))| \leq 2\varepsilon \text{ với } x \in W, y \in K. \text{ Do đó có bổ đề.}
+Rõ ràng chỉ cần xét trường hợp X là compact. Cho $(x_0, f_0) \in X \times \mathscr{C}(Z)$, K là một tập con compact của Y, và $\varepsilon > 0$. Đặt $K' = \varphi(X \times K)$. Vì $f_0 \circ \varphi$ là liên tục đều trong $X \times K$, tồn tại một lân cận W của $x_0$ sao cho $|f_0(\varphi(x,y)) - f_0(\varphi(x_0,y))| \leq \varepsilon$ với $x \in W$ và $y \in K$. Mặt khác, nếu lấy $f \in \mathscr{C}(Z)$ sao cho $|f(z) - f_0(z)| \leq \varepsilon$ với mọi $z \in K'$, ta sẽ có $|f(\varphi(x,y)) - f_0(\varphi(x,y))| \leq \varepsilon$ với $x \in X, y \in K$, và do đó $|f(\varphi(x,y)) - f_0(\varphi(x_0,y))| \leq 2\varepsilon$ với $x \in W, y \in K$. Do đó có bổ đề.
 
 Bây giờ ta trở lại các ký hiệu trước đây.
 

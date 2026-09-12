@@ -122,7 +122,7 @@ chapters:
           statements: 22
           exercises: 10
           extraction: ocr
-          content_sha256: 7fbe5cf422ed070aee2ead944edcb220562f94e36786bf655fe054c3d57eba39
+          content_sha256: 857c6c34df766d7411dc9b8547a6d0dc46b57ddebf4766bb04a658531dd882e9
         - kind: section
           section: 3
           title: Convolution of measures on groups
@@ -161,7 +161,7 @@ chapters:
           statements: 20
           exercises: 6
           extraction: ocr
-          content_sha256: df6249adfaf1d62d12fcf5b895066464710db932ad537976ee4ab047e0e962fe
+          content_sha256: 01870d0b77fcb1c4a2b7e865b1bb359c7cdf4ab495746a2c27d2b9cb17aef38e
         - kind: historical
           title: Historical Note
           path: content/en/int/VIII/historical_note.md

@@ -136,10 +136,10 @@ chapters:
           last_pdf_page: 198
           book_pages: 96-114, 171-174
           subsections: 12
-          statements: 31
+          statements: 32
           exercises: 16
           extraction: ocr
-          content_sha256: 600239b0486664ec0165048e94fa40ec6465929fc46d8da2e621fa3bd93e27d1
+          content_sha256: da17e67ddd692f1811c8812e3f657d4bdb2abcac80cb2aa04bd9a2e1efe428cc
         - kind: section
           section: 9
           title: Fields
@@ -268,7 +268,7 @@ chapters:
           statements: 17
           exercises: 4
           extraction: ocr
-          content_sha256: 0071494e46f0d6a4a97c19ea9a8d779c617f3943739c71f4a78db61ff9daaa81
+          content_sha256: 27bab3198590cce64f75ebc4ff6e7a2a0ae83125a3e4d0ee80856bdc15900bb4
         - kind: section
           section: 7
           title: Vector spaces
@@ -372,7 +372,7 @@ chapters:
           statements: 5
           exercises: 1
           extraction: ocr
-          content_sha256: fb83b18fcabf5fd8d2e98e2a44b70c1504ea018fac3177743c906d556d340fd6
+          content_sha256: dd48afc8293dd92e993b3c15c11f1e7ccf9b086e70d6282835d98921482fe752
         - kind: section
           section: 2
           title: Examples of algebras

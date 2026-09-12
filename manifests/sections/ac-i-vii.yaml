@@ -166,7 +166,7 @@ chapters:
           statements: 34
           exercises: 25
           extraction: ocr
-          content_sha256: 9505786f478edef08c8c8e37cea3e635ac9e87b7abc7b12363b27377d0513a97
+          content_sha256: b150e806302e3d5000bed6efe01317662a5ecee95a4bc65f986d2ec47425f29a
     - chapter: III
       title: GRADUATIONS. FILTRATIONS AND TOPOLOGIES
       sections:
@@ -219,7 +219,7 @@ chapters:
           statements: 39
           exercises: 27
           extraction: ocr
-          content_sha256: 7f34e8fa776003d5116ba6baec027fc4736d0298ce93dee623ca18e4bbb7b4ec
+          content_sha256: b81df172b6e522c775ec3658e04648b88d9c80cb7f56ca2a12c07212819aebb5
         - kind: section
           section: 4
           title: Lifting in complete rings
@@ -440,10 +440,10 @@ chapters:
           last_pdf_page: 478
           book_pages: 403-411, 459-460
           subsections: 4
-          statements: 10
+          statements: 11
           exercises: 2
           extraction: ocr
-          content_sha256: 5ca49b570b2d09c05c44810d4a82b106c8d2a4be48a8180dbf9f1db68aeef3b5
+          content_sha256: 8b64a3893a2460621b67426748a71def35755659e7067c3b74bcaf4a51b967ed
         - kind: section
           section: 7
           title: Approximation theorem
@@ -456,7 +456,7 @@ chapters:
           statements: 14
           exercises: 3
           extraction: ocr
-          content_sha256: 1debc26396f5932ce4ac528e2be803e9ded101fa3e15e8f6fd5a4589047a8010
+          content_sha256: e86e2f4df23e67929d05a5c7fb9439871e542e8948249e33754e6cdbddf47125
         - kind: section
           section: 8
           title: Extensions of a valuation to an algebraic extension
@@ -532,10 +532,10 @@ chapters:
           last_pdf_page: 589
           book_pages: 493-502, 556-571
           subsections: 5
-          statements: 14
+          statements: 15
           exercises: 27
           extraction: ocr
-          content_sha256: f9313bbbae20295a08e1ef91dbfcec6e95a2bdcad8dac8a5cf901983eb444e98
+          content_sha256: 48505af329aa8f7c397057bf19cbe8b89d76984c0ee19147a5591880aa4eaac3
         - kind: section
           section: 3
           title: Factorial domains

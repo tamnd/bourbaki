@@ -41,7 +41,7 @@ subsections:
       pdf_page: 116
 statements: 22
 exercises: 10
-content_sha256: 7fbe5cf422ed070aee2ead944edcb220562f94e36786bf655fe054c3d57eba39
+content_sha256: 857c6c34df766d7411dc9b8547a6d0dc46b57ddebf4766bb04a658531dd882e9
 ---
 
 ## § 2. LINEAR REPRESENTATIONS OF GROUPS
@@ -121,7 +121,7 @@ Let U be a separately continuous linear representation of G in E. Let E' be the 
 
 Let X be a locally compact space, Y and Z topological spaces, $\varphi$ a continuous mapping of $X \times Y$ into Z, and $\varphi_x$ the mapping $y \mapsto \varphi(x,y)$ of Y into Z. The spaces $\mathscr{C}(Y), \mathscr{C}(Z)$ being equipped with the topology of compact convergence, the mapping $(x,f) \mapsto f \circ \varphi_x$ of $X \times \mathscr{C}(Z)$ into $\mathscr{C}(Y)$ is continuous.
 
-It clearly suffices to consider the case that X is compact. Let $(x_0, f_0) \in X \times \mathscr{C}(Z)$, K a compact subset of Y, and $\varepsilon > 0$. Let $K' = \varphi(X \times K)$. Since f_0 \circ \varphi \text{ is uniformly continuous in } X \times K, \text{ there exists a neighborhood W of } x_0 \text{ such that } |f_0(\varphi(x,y)) - f_0(\varphi(x_0,y))| \leq \varepsilon \text{ for } x \in W \text{ and } y \in K. \text{ On the other hand, if one takes } f \in \mathscr{C}(Z) \text{ to be such that } |f(z) - f_0(z)| \leq \varepsilon \text{ for all } z \in K', \text{ one will have } |f(\varphi(x,y)) - f_0(\varphi(x,y))| \leq \varepsilon \text{ for } x \in X, y \in K, \text{ and therefore } |f(\varphi(x,y)) - f_0(\varphi(x_0,y))| \leq 2\varepsilon \text{ for } x \in W, y \in K. \text{ Whence the lemma.}
+It clearly suffices to consider the case that X is compact. Let $(x_0, f_0) \in X \times \mathscr{C}(Z)$, K a compact subset of Y, and $\varepsilon > 0$. Let $K' = \varphi(X \times K)$. Since $f_0 \circ \varphi$ is uniformly continuous in $X \times K$, there exists a neighborhood W of $x_0$ such that $|f_0(\varphi(x,y)) - f_0(\varphi(x_0,y))| \leq \varepsilon$ for $x \in W$ and $y \in K$. On the other hand, if one takes $f \in \mathscr{C}(Z)$ to be such that $|f(z) - f_0(z)| \leq \varepsilon$ for all $z \in K'$, one will have $|f(\varphi(x,y)) - f_0(\varphi(x,y))| \leq \varepsilon$ for $x \in X, y \in K$, and therefore $|f(\varphi(x,y)) - f_0(\varphi(x_0,y))| \leq 2\varepsilon$ for $x \in W, y \in K$. Whence the lemma.
 
 Let us now return to the earlier notations.
 

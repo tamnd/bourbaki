@@ -39,7 +39,7 @@ statements: 29
 exercises: 22
 content_sha256: 9a23dffff74bce8ce4d445fecc0c9520288a4c4adbe67fa487576843d72d44af
 translated_from: content/en/int/V/06_s6_images_of_a_measure.md
-source_content_sha256: 93c9532dc8cfbbf18cb9e8db65200691e35dca8d22197e8a6eb067f46937d314
+source_content_sha256: 4e0d6da1f47a0d451c7de699e2e7cb4df09f226eb04f5bcd38e522ffdb5acd0f
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-469b03b9
 glossary_version: 34

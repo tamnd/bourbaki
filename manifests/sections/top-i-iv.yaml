@@ -114,7 +114,7 @@ chapters:
           statements: 30
           exercises: 20
           extraction: ocr
-          content_sha256: 7941ad96d4802fd0a3eb8f77ffc7207f05f3b6c353e20e8231e1e72a66aeb47e
+          content_sha256: 54903b12f1214819204dc115618903fd7e1aeb96fd97f4bae7277a5d03b880ff
         - kind: section
           section: 7
           title: Limits

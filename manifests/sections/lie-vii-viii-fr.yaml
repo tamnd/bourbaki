@@ -37,7 +37,7 @@ chapters:
           statements: 40
           exercises: 16
           extraction: ocr
-          content_sha256: 01667c59d64eba977128b0824aa1b1adace5eec16597b043d488fb92263bd80b
+          content_sha256: 3834a3f332b1a3745b5b2c69cf7ede69afa4c834453ab8962f3e1ea3ea7f21ad
         - kind: section
           section: 3
           title: Théorèmes de conjugaison

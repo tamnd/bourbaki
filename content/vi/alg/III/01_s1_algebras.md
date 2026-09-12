@@ -41,9 +41,9 @@ subsections:
       pdf_page: 460
 statements: 5
 exercises: 1
-content_sha256: 3fb0974ba3829eafe6bd8ae9db6781155a154b83dacb51f190b3d4551ff45394
+content_sha256: 61e2fa6c4db4aef89bf7117a4f007f41f7f80115eae9b7991361926acc60091b
 translated_from: content/en/alg/III/01_s1_algebras.md
-source_content_sha256: 853e46b000e1371a2a7000c89d62a9451dbe1eeb1284e7720ff37b270335c947
+source_content_sha256: dd48afc8293dd92e993b3c15c11f1e7ccf9b086e70d6282835d98921482fe752
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-118c701b
 glossary_version: 34
@@ -178,7 +178,7 @@ E & & E
 \end{array}
 $$
 
-là giao hoán, trong đó $\sigma$ ký hiệu ánh xạ A-tuyến tính chính tắc được xác định bởi σ(x \otimes y) = y \otimes x \text{ với } x \in E, y \in E \text{ (II, § 3, no. 1, Hệ quả 2 của Mệnh đề 1).}
+là giao hoán, trong đó $\sigma$ ký hiệu ánh xạ A-tuyến tính chính tắc được xác định bởi $\sigma(x \otimes y) = y \otimes x$ với $x \in E, y \in E$ (II, § 3, no. 1, Hệ quả 2 của Mệnh đề 1).
 
 Với mọi $c \in E$, ký hiệu $\eta_c$ là ánh xạ A-tuyến tính từ A vào E được xác định bởi điều kiện $\eta_c(1) = c$. Để $c$ là một phần tử đơn vị của E, điều kiện cần và đủ là hai biểu đồ
 

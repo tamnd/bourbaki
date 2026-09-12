@@ -212,7 +212,7 @@ chapters:
           statements: 43
           exercises: 24
           extraction: ocr
-          content_sha256: 9bc51dded0ad3dcb4f786f21c924b77574d5a0c190ca4e0da3b8d5527607e9b3
+          content_sha256: 173afe51ccd024b5cbe1b44c6fbaef6f4d92480a620e83fd991be21236b18bfa
         - kind: section
           section: 3
           title: Produits tensoriels

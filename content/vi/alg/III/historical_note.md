@@ -13,7 +13,7 @@ pdf_pages: 0679-0734
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 49dff78624f08dfed0cd3a84e660d8d210253ee0e66734c5f1097f8f7ca2de18
+content_sha256: 9e7a836a291dc3107dc2fd0356ccbd25e9c6c7da9690cc32809566bb48fb5dab
 translated_from: content/en/alg/III/historical_note.md
 source_content_sha256: 78bd01af38161bc2db08e20c490bf7e6e244d8a0155ef6b475f75af266d69127
 translation_model: gpt-5-6-mini, gpt-5-mini
@@ -372,11 +372,11 @@ $\sum_\nu \alpha_\nu X^\nu$ : III, § 2, no. 11.
 \bigotimes_{i \in I} E_i, E_1 \otimes_A E_2 \otimes \cdots \otimes_A E_n, E_1 \otimes E_2 \otimes \cdots \otimes E_n (E_i \text{ các A-đại số}): III, § 4, no. 1.
 E^{\otimes n} (E \text{ một đại số}): III, § 4, no. 1.
 
-\bigotimes_{i \in I} E_i (I \text{ một tập vô hạn, } E_i \text{ các đại số}): III, § 4, no. 5.
+$\bigotimes_{i \in I} E_i (I$ một tập vô hạn, $E_i$ các đại số)$: III, § 4, no. 5$.
 
-\bigotimes_{i \in I} u_i, \bigotimes_{i \in I} x_i (u_i \text{ các đồng cấu đại số, } x_i \text{ các phần tử, I vô hạn}): III, § 4, no. 5.
+$\bigotimes_{i \in I} u_i, \bigotimes_{i \in I} x_i (u_i$ các đồng cấu đại số, $x_i$ các phần tử, I vô hạn)$: III, § 4, no. 5$.
 
-\epsilon \bigotimes_{i \in I} E_i, \epsilon \bigotimes_{i \in I} f_i, \epsilon G^{\otimes n} (E_i, G \text{ các đại số phân bậc, } f_i \text{ các đồng cấu đại số phân bậc, } \epsilon \text{ một hệ các nhân tử giao hoán}): III, § 4, no. 7.
+$\epsilon \bigotimes_{i \in I} E_i, \epsilon \bigotimes_{i \in I} f_i, \epsilon G^{\otimes n} (E_i, G$ các đại số phân bậc, $f_i$ các đồng cấu đại số phân bậc, $\epsilon$ một hệ các nhân tử giao hoán)$: III, § 4, no. 7$.
 
 g \bigotimes_{i \in I} E_i, E^g \otimes_A F, gG^{\otimes n}, g \bigotimes_{i \in I} f_i, f_1 \otimes f_2, gf^{\otimes n}: III, § 4, no. 7.
 

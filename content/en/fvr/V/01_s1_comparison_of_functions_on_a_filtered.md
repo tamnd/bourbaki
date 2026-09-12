@@ -33,7 +33,7 @@ subsections:
       pdf_page: 234
 statements: 38
 exercises: 3
-content_sha256: 6330500168d2d4a681a388f5a8611dcf87cdefecd1ad1fb37cd39aacf7c2551c
+content_sha256: 866ddc595833f4df526fd8eb97073f6b7852bd2cb892053b6e89c39b0b88935f
 ---
 
 ## § 1. COMPARISON OF FUNCTIONS ON A FILTERED SET
@@ -164,7 +164,7 @@ Denote by $R_0$ the relation $f \simeq g$ on $\mathscr{H}(\mathfrak{F}, V)$, and
 
 For every scalar $\lambda \neq 0$ the relation $f_1 \ll f_2 \lambda$ is *equivalent* to $f_1 \ll f_2$. The relation $f_1 \ll f_2$ implies $f_1 \preccurlyeq f_2$ but is not equivalent to it.
 
-Note that the relation $f_1 \preccurlyeq f_2$ by no means implies the relation "f_1 \ll f_2 \text{ or } f_1 \asymp f_2 \text{": one has } \sin x \preccurlyeq 1 \text{ as } x \text{ tends to } +\infty, \text{ but neither of the relations } \sin x \ll 1 \text{ or } \sin x \asymp 1 \text{ is true.}"
+Note that the relation $f_1 \preccurlyeq f_2$ by no means implies the relation "$f_1 \ll f_2$ or $f_1 \asymp f_2$": one has $\sin x \preccurlyeq 1$ as $x$ tends to $+\infty$, but neither of the relations $\sin x \ll 1$ or $\sin x \asymp 1$ is true.
 
 *Examples.* 1) The relation $f \ll 1$ means that $f$ *tends to 0 along $\mathfrak{F}$*.
 

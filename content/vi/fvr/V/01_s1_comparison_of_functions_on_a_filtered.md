@@ -34,7 +34,7 @@ statements: 38
 exercises: 3
 content_sha256: 48b2c0995c34e8be29e6803d89b8f5110db332b4466396f5ff4c525021e76f7d
 translated_from: content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md
-source_content_sha256: 6330500168d2d4a681a388f5a8611dcf87cdefecd1ad1fb37cd39aacf7c2551c
+source_content_sha256: 866ddc595833f4df526fd8eb97073f6b7852bd2cb892053b6e89c39b0b88935f
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-52b281be
 glossary_version: 34

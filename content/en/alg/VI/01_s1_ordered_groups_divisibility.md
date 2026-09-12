@@ -65,7 +65,7 @@ subsections:
       pdf_page: 328
 statements: 53
 exercises: 36
-content_sha256: 543b0f8166310a925c67adda31939b3ce4aaad06cdecb22ecd1ead9aff696009
+content_sha256: 4809ff450b4093626cd41183feaa93260c7ccb6723817c4d41a41c2a813625ae
 ---
 
 ## § 1. ORDERED GROUPS. DIVISIBILITY
@@ -413,7 +413,7 @@ $$
 x^+ - x = \sup(x, 0) - x = \sup(x - x, -x) = x
 $$
 
-from which it follows that $x = x^+ - x^-$, and $v - x^- = w$. If $z \leq x^-$ then $z \leq x^+ - x$, and so $x \leq x^+ - z$; if also $z \leq x^+$, then $x^z - z$ is positive, and so x^i \leq x^+ - z \text{ by definition of } x^i. \text{ Hence we have } z \leq 0, \text{ which implies } \inf(x^+, x^-) = 0, \text{ whence by translation } \inf(u, v) = w.
+from which it follows that $x = x^+ - x^-$, and $v - x^- = w$. If $z \leq x^-$ then $z \leq x^+ - x$, and so $x \leq x^+ - z$; if also $z \leq x^+$, then $x^z - z$ is positive, and so $x^i \leq x^+ - z$ by definition of $x^i$. Hence we have $z \leq 0$, which implies $\inf(x^+, x^-) = 0$, whence by translation $\inf(u, v) = w$.
 
 c) The relation $x \leq y$ implies $\sup(y, 0) \geq x$ and $\sup(y, 0) \geq 0$, hence $x^i \leq y^i$; similarly if $-y \leq -x$ we deduce $x^- \geq y^-$. The converse implication follows immediately from $x = x^+ - x$ and $y = y^+ - y$.
 

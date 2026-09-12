@@ -330,7 +330,7 @@ chapters:
           statements: 49
           exercises: 13
           extraction: ocr
-          content_sha256: e710086c13033a250f8678a11871dde62af4aca4c6e19572f90548c50910addf
+          content_sha256: 954a4a34a7ea5e40e583159d31bbba1bb43e17d7efdf59e3e0f06d9044eb8b05
         - kind: section
           section: 4
           title: Espaces normaux

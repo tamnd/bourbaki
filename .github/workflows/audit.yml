@@ -147,13 +147,25 @@ jobs:
       # every branch from August on, taking the three steps after it with it.
       #
       # So it is held at a ceiling, like the formulae KaTeX refuses. The ceiling
-      # comes down as Books are tagged and it does not go up. Everything else
-      # tags verify checks still fails the build.
+      # comes down as Books are tagged and it does not go up, except when the
+      # corpus gains a statement it always printed. Everything else tags verify
+      # checks still fails the build.
+      #
+      # 23308 to 23311 is three of those. bourbaki fix smallcaps put 185 statement
+      # heads back into the capitals the printing sets them in, and three of the
+      # 185 were heads the assembler had read as a sentence and not as a head at
+      # all: Krull-Akizuki in Commutative Algebra VII, Ostrowski in VI and Krull
+      # in Algebra I. Those three sections now carry a statement each where they
+      # carried a paragraph, the corollaries under Krull-Akizuki hang off the
+      # proposition instead of off a lemma three statements away, and R01 comes
+      # down by eleven because eleven citations now resolve. A statement waiting
+      # for a tag is what the other 23308 are; these three had been waiting
+      # invisibly.
       - name: tags verify
         working-directory: .solver
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
-        run: go run ./cmd/bourbaki tags verify -base origin/main -max-untagged 23308
+        run: go run ./cmd/bourbaki tags verify -base origin/main -max-untagged 23311
       # The audit ran without its exit status being read for as long as the
       # corpus carried hard findings. It had twelve, every one a page where the
       # text layer lost half of a display, and gating on the count would have
@@ -192,7 +204,7 @@ jobs:
       # honest.
       #
       # The ceiling has gone up twice, and both times because the corpus grew
-      # and not because anything broke. It has come down five times on its own.
+      # and not because anything broke. It has come down six times on its own.
       # The
       # first is 30032 to 29950, and that is #344: the Vietnamese was missing
       # 71 statement
@@ -292,6 +304,32 @@ jobs:
       # nothing can as it stands, because the span holds a well-formed script
       # and the translation holds the same one.
       #
+      # The sixth is 29862 to 29853, and it is the only one so far where the
+      # number came down because the corpus gained mathematics rather than lost
+      # findings. bourbaki fix smallcaps put 185 statement heads back into the
+      # capitals the printing sets them in, and three of the 185 were heads the
+      # assembler had been reading as a sentence: Krull-Akizuki in Commutative
+      # Algebra VII, Ostrowski in VI and Krull in Algebra I. So T03 goes up by
+      # three, those three statements now being statements with no tag, and R01
+      # comes down by eleven, eleven citations having something to resolve to.
+      # Net minus eight. S14, which counts committed pages that no longer pass
+      # the rules that gated them, goes 798 to 686 for the same reason: the
+      # statement rule is the slice smallcaps answers, and it is at zero in all
+      # 44 volumes now, from 98.
+      #
+      # The ninth finding off is L01, 1366 to 1365, the tail of #377. Thirty five
+      # sentences that a reader had wrapped in \text{} inside a math span were
+      # put back into prose, and the gain is one net span-count agreement. The
+      # thing to record about that pass is what went wrong in it: \text{} inside
+      # a display is correct TeX and must be left alone. Unwrapping it twice
+      # produced KaTeX errors -- nested dollars in the Vietnamese of Algebra III
+      # § 10, and an \begin{array} run open in page 147 of Commutative Algebra
+      # VIII-IX in French, where the assembler then ate the spaces as well and
+      # printed de Nagata$C$de dimension$< n$et. P04 caught both, both are
+      # reverted, and P04 is back to 0. Where the English did gain spans and the
+      # Vietnamese had not followed, two files crossed into L01 and were brought
+      # across by hand: Algebra IV § 2 and Integration VIII § 2.
+      #
       # The second time it went up is 30026 to 30032, for the second fascicule of
       # Variétés. Paragraphes 8 à 15 had been read and committed under pages/
       # for months and had never been assembled, which is #356; the eight
@@ -322,7 +360,7 @@ jobs:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: |
           if go run ./cmd/bourbaki audit -validate-tex -report reports/audit.md \
-               -json "$RUNNER_TEMP/audit.json" -max-hard 29862; then
+               -json "$RUNNER_TEMP/audit.json" -max-hard 29853; then
             echo "status=0" >> "$GITHUB_OUTPUT"
           else
             echo "status=$?" >> "$GITHUB_OUTPUT"

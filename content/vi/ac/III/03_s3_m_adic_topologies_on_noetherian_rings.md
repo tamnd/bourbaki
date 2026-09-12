@@ -35,7 +35,7 @@ statements: 39
 exercises: 7
 content_sha256: 1de39e55c74385c34054c27fb968c53e9cc1e60852f6e4cfaaf397d4b080d963
 translated_from: content/en/ac/III/03_s3_m_adic_topologies_on_noetherian_rings.md
-source_content_sha256: 7f34e8fa776003d5116ba6baec027fc4736d0298ce93dee623ca18e4bbb7b4ec
+source_content_sha256: b81df172b6e522c775ec3658e04648b88d9c80cb7f56ca2a12c07212819aebb5
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-04807a92
 glossary_version: 34

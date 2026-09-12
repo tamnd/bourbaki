@@ -34,7 +34,7 @@ statements: 24
 exercises: 16
 content_sha256: 993c3da6305050ec027153b8d50544a4c9c70080226e759a5f1ee831c39cd9af
 translated_from: content/en/top/X/02_s2_equicontinuous_sets.md
-source_content_sha256: e2a78160237149f66f0f8a7ebfe148f1be61b9721352dd251ef5b190594f059c
+source_content_sha256: 4ec4a4ad57903a19931257f670443d59349747cc03270f41786193a9371e8c46
 translation_model: gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-82a58eef
 glossary_version: 34

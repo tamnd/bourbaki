@@ -40,7 +40,7 @@ subsections:
       pdf_page: 119
 statements: 31
 exercises: 10
-content_sha256: 7d49f185df1f364335822b1a8ea327c1e9433be048a7e91a8b4906bfa676c41f
+content_sha256: e01908c4fea4e58e2887753c30c3068c590cbc275527f07f79f55e23a9deb118
 ---
 
 ## § 8. DUALITÉ DES MODULES DE LONGUEUR FINIE
@@ -129,7 +129,7 @@ $$
 
 comme $\mathrm{Hom}_A(A/\alpha^m, E)$ s’identifie à $E_m$ pour tout $m$ et que l’injection canonique de $\mathrm{Hom}_A(\alpha^n/\alpha^{n+1}, E_1)$ dans $\mathrm{Hom}_A(\alpha^n/\alpha^{n+1}, E)$ est bijective, on en déduit que l’homomorphisme canonique $\beta_E$ est bijectif, d’où (ii).
 
-Supposons (ii) satisfaite. Soit $e : M \to I$ une enveloppe injective de $M$. Puisque $I$ est injectif, il existe une application $A$-linéaire $\varphi : E \to I$ prolongeant $e$. Mais $\varphi$ applique $E_n$ dans $I_n$ pour tout $n$, donc induit des homomorphismes gr^{a}(\varphi) : \operatorname{gr}^{a}(E) \to \operatorname{gr}^{a}(I) \text{ et } \varphi_1 : E_1 \to I_1 \text{ rendant commutatif le diagramme}
+Supposons (ii) satisfaite. Soit $e : M \to I$ une enveloppe injective de $M$. Puisque $I$ est injectif, il existe une application $A$-linéaire $\varphi : E \to I$ prolongeant $e$. Mais $\varphi$ applique $E_n$ dans $I_n$ pour tout $n$, donc induit des homomorphismes $gr^{a}(\varphi) : \operatorname{gr}^{a}(E) \to \operatorname{gr}^{a}(I)$ et $\varphi_1 : E_1 \to I_1$ rendant commutatif le diagramme
 
 $$
 \begin{array}{ccc}

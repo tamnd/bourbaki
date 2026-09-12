@@ -26,7 +26,7 @@ subsections:
       pdf_page: 26
 statements: 20
 exercises: 5
-content_sha256: 73b76f21e149f7673e0eb7bbee5b35a5a1af86aad368b42e6bfe55bdaafa4953
+content_sha256: 97ec959a0a749d9180c250a7b652d7e55a4cda36b5f81206708811ed91576d3c
 ---
 
 ## § 2. ZEROS OF POLYNOMIALS
@@ -162,7 +162,7 @@ This follows from Prop. 8 by induction on $p$.
 
 — Assume that $A$ is an integral domain. Let $I$ be a set, $(\mathbf{H}_i)_{i \in I}$ a family of infinite subsets of $\mathbf{A}$ and $H = \prod_{i \in I} \mathbf{H}_i \subset A'$. Iff is a non-zero element of $\mathbf{A}[(X_i)_{i \in I}]$, and $H_f$ the set of all $x \in H$ such that $f(x) \neq 0$, then $H$ and $H_f$ are equipotent.
 
-a) First suppose that $I$ is finite and put $n = \mathrm{Card}\ I$. The proposition is clear for $n = 0$; we shall prove it by induction on $n$. Choose an element $i_0$ of $I$ and put $J = I - \{i_0\}$, $B = \mathbf{A}[(X_i)_{i \in J}]$. Since $f \neq 0$, we can write $f = \sum_{k=0}^m g_k X_{i_0}^k$, where g_0, \ldots, g_m \in B \text{ and } g_m \neq 0. \text{ By the induction hypothesis the set K of all } x \in \prod_{i \in s} H_i \text{ such that } g_m(x) \neq 0 \text{ is equipotent with } \prod_{i \in J} H_i. \text{ For } x \in K \text{ the polynomial}
+a) First suppose that $I$ is finite and put $n = \mathrm{Card}\ I$. The proposition is clear for $n = 0$; we shall prove it by induction on $n$. Choose an element $i_0$ of $I$ and put $J = I - \{i_0\}$, $B = \mathbf{A}[(X_i)_{i \in J}]$. Since $f \neq 0$, we can write $f = \sum_{k=0}^m g_k X_{i_0}^k$, where $g_0, \ldots, g_m \in B$ and $g_m \neq 0$. By the induction hypothesis the set K of all $x \in \prod_{i \in s} H_i$ such that $g_m(x) \neq 0$ is equipotent with $\prod_{i \in J} H_i$. For $x \in K$ the polynomial
 $$
 h(X_{i_0}) = \sum_{k=0}^m g_k(x) X_{i_0}^k \in A[X_{i_0}]
 $$

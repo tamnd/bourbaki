@@ -28,7 +28,7 @@ subsections:
       pdf_page: 171
 statements: 31
 exercises: 0
-content_sha256: c5f77be1f2d6cb06c5c26e1149f0e0dc6accc3e7160a82297f8f751e104ae038
+content_sha256: e6f4105ad39a1c9dbaf8b50785fe7f7f3b4465149fc837eeec0c1609a934d47d
 ---
 
 ## § 10. Angles
@@ -226,7 +226,7 @@ Les homothéties de E dont le rapport est $> 0$ forment évidemment un sous-grou
 
 Supposons que A soit un corps ordonné maximal et que $\Phi$ soit une forme positive (§ 7). Alors les homomorphismes canoniques de $O^+$ dans $S^+/H^+$ et de $O^+/\{ 1, -1 \}$ dans $S^+/H$ sont bijectifs, et $S^+$ est isomorphe à $O^+ \times H^+$.
 
-Nous avons déjà vu que les homomorphismes en question sont injectifs, et il suffit de montrer que le premier est surjectif. Soit $(e_1, e_2)$ une base orthonormale de E, et soit $\omega$ la similitude directe telle que $\omega(e_1) = e_2$ (cor. 1 de la prop. 1, n° 1) ; on a alors $\omega^2 = -1$ (prop. 1, b)). Étant donnée une similitude directe quelconque u = a + bw (a \in A,\ b \in A),\ \text{on a}\ N(u) = a^2 + b^2 > 0,\ \text{et il existe une rotation et une seule contenue dans la même demi-droite de } A(\Phi) \text{ que } u, \text{ à savoir } (a^2 + b^2)^{1/2}\ u.\ \text{CQFD.}
+Nous avons déjà vu que les homomorphismes en question sont injectifs, et il suffit de montrer que le premier est surjectif. Soit $(e_1, e_2)$ une base orthonormale de E, et soit $\omega$ la similitude directe telle que $\omega(e_1) = e_2$ (cor. 1 de la prop. 1, n° 1) ; on a alors $\omega^2 = -1$ (prop. 1, b)). Étant donnée une similitude directe quelconque $u = a + bw (a \in A,\ b \in A)$, on a $N(u) = a^2 + b^2 > 0$, et il existe une rotation et une seule contenue dans la même demi-droite de $A(\Phi)$ que $u$, à savoir $(a^2 + b^2)^{1/2}\ u$. CQFD.
 
 #### Corollaire {#alg-ix-s10-n3-cor-1 .statement}
 

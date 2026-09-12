@@ -60,9 +60,9 @@ subsections:
       title: RINGS OF FRACTIONS
       page: 112
       pdf_page: 136
-statements: 31
+statements: 32
 exercises: 16
-content_sha256: 600239b0486664ec0165048e94fa40ec6465929fc46d8da2e621fa3bd93e27d1
+content_sha256: da17e67ddd692f1811c8812e3f657d4bdb2abcac80cb2aa04bd9a2e1efe428cc
 ---
 
 ## § 8. RINGS
@@ -370,7 +370,9 @@ Let $a$ be a left ideal of $A$. The conditions $1 \notin a, a \neq A$ are obviou
 
 In other words, $a$ is maximal if $a \neq A$ and the only left ideals of $A$ containing $a$ are $a$ and $A$.
 
-Theorem 1 (Krull). *Let $A$ be a ring and $a$ a left ideal of $A$ distinct from $A$. There exists a maximal ideal $m$ of $A$ containing $a$.*
+#### Theorem 1 (Krull) {#alg-i-s8-thm-1 .statement}
+
+*Let $A$ be a ring and $a$ a left ideal of $A$ distinct from $A$. There exists a maximal ideal $m$ of $A$ containing $a$.*
 
 Consider $A$ as operating on the additive group $A^+$ of $A$ by left multiplication. Then the left ideals of $A$ are the stable subgroups of $A^+$. The theorem thus follows from § 4, no. 3, Proposition 3 applied to the subset $P = \{1\}$ of $A^+$.
 

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 139
 statements: 34
 exercises: 25
-content_sha256: 9505786f478edef08c8c8e37cea3e635ac9e87b7abc7b12363b27377d0513a97
+content_sha256: b150e806302e3d5000bed6efe01317662a5ecee95a4bc65f986d2ec47425f29a
 ---
 
 ## 5. FINITELY GENERATED PROJECTIVE MODULES. INVERTIBLE FRACTIONAL IDEALS
@@ -314,7 +314,7 @@ Given two sub-A-modules $M$ and $N$ of $B$, let us denote by $N : M$ the sub-A-m
 
 Let $M, N$ be two sub-A-modules of $B$. If $M$ is non-degenerate, the canonical homomorphism from $N : M$ to $\operatorname{Hom}_A(M, N)$ is bijective.
 
-Let $s \in S \cap M$. If $b \in N : M$ is such that $bx = 0$ for all $x \in M$, then $bs = 0$, whence $b = 0$ since $s$ is not a divisor of 0 in $B$. On the other hand, let f \in \mathrm{Hom}_A(M, N) \text{ and set } b = f(s)/s; \text{ for all } x \in M, \text{ there exists } t \in S \text{ such that } tx \in A. \text{ Then}
+Let $s \in S \cap M$. If $b \in N : M$ is such that $bx = 0$ for all $x \in M$, then $bs = 0$, whence $b = 0$ since $s$ is not a divisor of 0 in $B$. On the other hand, let $f \in \mathrm{Hom}_A(M, N)$ and set $b = f(s)/s$; for all $x \in M$, there exists $t \in S$ such that $tx \in A$. Then
 $$
 f(x) = s^{-1}t^{-1}f(stx) = s^{-1}t^{-1}txf(s) = bx,
 $$

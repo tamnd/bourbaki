@@ -33,9 +33,9 @@ subsections:
       pdf_page: 517
 statements: 14
 exercises: 27
-content_sha256: 92f7e536947e1754dd389fd4469d350c283078783108bd8905297e94ad2bffd5
+content_sha256: 7f18b5b1365f4c8828dfedc9397adb8333d0ee7cddb43e1e5b0d9148790847b9
 translated_from: content/en/ac/VII/02_s2_dedekind_domains.md
-source_content_sha256: f9313bbbae20295a08e1ef91dbfcec6e95a2bdcad8dac8a5cf901983eb444e98
+source_content_sha256: 48505af329aa8f7c397057bf19cbe8b89d76984c0ee19147a5591880aa4eaac3
 translation_model: gpt-5.4
 translation_run: translate-vi-026a06a8
 glossary_version: 34
@@ -248,7 +248,9 @@ $$
 
 theo Bổ đề 2.
 
-Mệnh đề 5 (Krull-Akizuki). *Cho A là một miền nguyên Noether mà mọi iđêan nguyên tố khác không của nó đều cực đại, K là trường phân thức của nó, L là một mở rộng hữu hạn của K và B là một vành con của L chứa A. Khi đó B là Noether và mọi iđêan nguyên tố khác không của B đều cực đại. Hơn nữa, với mọi iđêan $b \neq (0)$ của B, B/b là một A-môđun hữu hạn sinh.*
+#### Mệnh đề 5 (Krull-Akizuki) {#ac-vii-s2-prop-5 .statement}
+
+*Cho A là một miền nguyên Noether mà mọi iđêan nguyên tố khác không của nó đều cực đại, K là trường phân thức của nó, L là một mở rộng hữu hạn của K và B là một vành con của L chứa A. Khi đó B là Noether và mọi iđêan nguyên tố khác không của B đều cực đại. Hơn nữa, với mọi iđêan $b \neq (0)$ của B, B/b là một A-môđun hữu hạn sinh.*
 
 Gọi b là một iđêan khác không của B. Ta sẽ chứng minh rằng B/b là một A-môđun có độ dài hữu hạn (do đó, *a fortiori*, là một B-môđun có độ dài hữu hạn) và rằng b là một B-môđun hữu hạn sinh.
 
@@ -262,13 +264,13 @@ Phương trình này cho thấy rằng $a_1 \in By \subset b$. Áp dụng Bổ �
 
 Điều trên trước hết cho thấy rằng B là Noether. Mặt khác, nếu $p$ là một iđêan nguyên tố khác không của B, vành $B/p$ là một miền nguyên và có độ dài hữu hạn, do đó là một trường (*Đại số*, Chương VIII, § 6, no. 4, Mệnh đề 9), suy ra $p$ là cực đại.
 
-#### Hệ quả 1 {#ac-vii-s2-lem-3-cor-1 .statement}
+#### Hệ quả 1 {#ac-vii-s2-prop-5-cor-1 .statement}
 
 *Với mọi iđêan nguyên tố p của A, tập hợp các iđêan nguyên tố của B nằm trên p là hữu hạn.*
 
 Giả sử trước hết $p = (0)$; khi đó iđêan nguyên tố duy nhất $q$ của $B$ sao cho $q \cap A = (0)$ là $(0)$; nếu không, đặt $S = A - \{0\}$, thì $S^{-1}q$ sẽ là một iđêan nguyên tố khác không của $S^{-1}B$ (Chương 11, § 2, no. 5, Mệnh đề 11) và $S^{-1}B$ chính là trường phân thức của $B$, vì nó là một vành con của $L$ chứa $K$ (\emph{Algebra}, Chương V, § 3, no. 2, Mệnh đề 3); do đó đi đến một kết luận phi lý. Nếu bây giờ $p \neq (0)$, thì từ Mệnh đề 5 suy ra rằng $B/pB$ là một không gian vectơ hữu hạn chiều trên trường $A/p$, nên là một vành \emph{Artin} và vì vậy chỉ có một số hữu hạn iđêan nguyên tố (Chương IV, § 2, no. 5, Mệnh đề 9), điều này chứng minh rằng chỉ có một số hữu hạn iđêan nguyên tố của $B$ chứa $p$.
 
-#### Hệ quả 2 {#ac-vii-s2-lem-3-cor-2 .statement}
+#### Hệ quả 2 {#ac-vii-s2-prop-5-cor-2 .statement}
 
 *Bao đóng nguyên của $A$ trong $L$ là một miền Dedekind.*
 
@@ -276,7 +278,7 @@ Bao đóng nguyên này là một miền Noether đóng nguyên mà mọi iđêa
 
 Đặc biệt:
 
-#### Hệ quả 3 {#ac-vii-s2-lem-3-cor-3 .statement}
+#### Hệ quả 3 {#ac-vii-s2-prop-5-cor-3 .statement}
 
 *Bao đóng nguyên của một miền Dedekind trong một mở rộng hữu hạn của trường phân thức của nó là một miền Dedekind.*
 

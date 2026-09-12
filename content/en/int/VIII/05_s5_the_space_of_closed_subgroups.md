@@ -37,7 +37,7 @@ subsections:
       pdf_page: 156
 statements: 20
 exercises: 6
-content_sha256: df6249adfaf1d62d12fcf5b895066464710db932ad537976ee4ab047e0e962fe
+content_sha256: 01870d0b77fcb1c4a2b7e865b1bb359c7cdf4ab495746a2c27d2b9cb17aef38e
 ---
 
 ## § 5. THE SPACE OF CLOSED SUBGROUPS
@@ -381,7 +381,7 @@ This established, let us consider on the set $\Sigma$ of closed subgroups of $G$
 
 Thus let $\alpha_0$ be a point of $\Gamma$ and let $\Phi$ be a filter on $\Gamma$ that converges to $\alpha_0$; we are to show that, with respect to $\Phi$, $H_\alpha$ tends to $H_{\alpha_0}$ for the topology $\mathscr{T}$. Let $K$ be a compact subset of $G$, $V$ a symmetric compact neighborhood of $e$ in $G$; for every $x \in H_{\alpha_0} \cap K$, there exists a set $M(x) \in \Phi$ such that for every $\alpha \in M(x)$, one has $Vx \cap H_\alpha \neq \varnothing$ (No. 1, Lemma 2), whence $Vx \subset V^2H_\alpha$; on covering $H_{\alpha_0} \cap K$ by a finite number of sets $Vx_i$, one sees that if $M = \bigcap_i M(x_i)$, then $H_{\alpha_0} \cap K \subset V^2H_\alpha$ for every $\alpha \in M$.
 
-Conversely, suppose that there existed an open neighborhood $U$ of $e$ in $G$ such that, for every set $L \in \Phi$, there is at least one $\alpha \in L$ for which $H_\alpha \cap K \not\subset UH_{\alpha_0}$; if $\omega(L)$ is the set of $\alpha \in L$ having this property, the $\omega(L)$ would form a base of a filter $\Phi'$ on $\Gamma$ finer than $\Phi$, and, for every $\alpha$ belonging to the union $E$ of the $\omega(L)$ for $L \in \Phi$, there would exist a t_\alpha \in H_\alpha \cap K \text{ not belonging to } UH_{\alpha_0}; \text{ for } \alpha \notin E, \text{ take for } t_\alpha \text{ any point of } H_\alpha. \text{ Since } K \cap C(UH_{\alpha_0}) \text{ is compact, there would exist a cluster point } s \text{ of } \alpha \mapsto t_\alpha \text{ with respect to } \Phi', \text{ belonging to } K \cap C(UH_{\alpha_0}); \text{ but since } \Phi' \text{ converges to } \alpha_0 \text{ in } \Gamma, \text{ this contradicts Lemma 3 of No. 1.}
+Conversely, suppose that there existed an open neighborhood $U$ of $e$ in $G$ such that, for every set $L \in \Phi$, there is at least one $\alpha \in L$ for which $H_\alpha \cap K \not\subset UH_{\alpha_0}$; if $\omega(L)$ is the set of $\alpha \in L$ having this property, the $\omega(L)$ would form a base of a filter $\Phi'$ on $\Gamma$ finer than $\Phi$, and, for every $\alpha$ belonging to the union $E$ of the $\omega(L)$ for $L \in \Phi$, there would exist a $t_\alpha \in H_\alpha \cap K$ not belonging to $UH_{\alpha_0}$; for $\alpha \notin E$, take for $t_\alpha$ any point of $H_\alpha$. Since $K \cap C(UH_{\alpha_0})$ is compact, there would exist a cluster point $s$ of $\alpha \mapsto t_\alpha$ with respect to $\Phi'$, belonging to $K \cap C(UH_{\alpha_0})$; but since $\Phi'$ converges to $\alpha_0$ in $\Gamma$, this contradicts Lemma 3 of No. 1.
 
 Exercises
 

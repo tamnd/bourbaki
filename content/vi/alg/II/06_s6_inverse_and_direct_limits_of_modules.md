@@ -27,7 +27,7 @@ statements: 17
 exercises: 4
 content_sha256: ef6a17c8294664f3f9c99e8cb0cf07d49fe29323b6b989ae31ce9d3b279fbf16
 translated_from: content/en/alg/II/06_s6_inverse_and_direct_limits_of_modules.md
-source_content_sha256: 0071494e46f0d6a4a97c19ea9a8d779c617f3943739c71f4a78db61ff9daaa81
+source_content_sha256: 27bab3198590cce64f75ebc4ff6e7a2a0ae83125a3e4d0ee80856bdc15900bb4
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-44386587
 glossary_version: 34

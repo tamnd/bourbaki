@@ -32,7 +32,7 @@ subsections:
       pdf_page: 59
 statements: 18
 exercises: 27
-content_sha256: 6852a97f9584cb9e2c6500bc6ed421e47f78f0dbd984eea90b0a26ab4f5ce176
+content_sha256: 67a67e179d61c84df837c0d640813f96b9c29c24a4baeb19394ee341be508387
 ---
 
 ## § 4. Algèbres de Lie nilpotentes
@@ -108,7 +108,7 @@ On en conclut (par itération à partir de $\mathfrak{h} = \{0\}$) que g possèd
 
 Pour qu’une algèbre de Lie g soit nilpotente, il faut et il suffit que, pour tout $x \in g$, $\mathrm{ad}\, x$ soit nilpotent.
 
-La condition est nécessaire (prop. 1). Supposons démontrée sa suffisance pour les algèbres de Lie de dimension < n ($n \neq 0$). Soit g une algèbre de Lie de dimension n telle que, pour tout x \in g, \text{ ad } x \text{ soit nilpotent. Le théorème 1, appliqué à l’ensemble des ad } x\ (x \in g), \text{ prouve que le centre } c \text{ de } g \text{ est non nul. Alors, } g \text{ est extension centrale de l’algèbre de Lie } g/c, \text{ qui est nilpotente d’après notre hypothèse de récurrence. On conclut en appliquant la prop. 2.}
+La condition est nécessaire (prop. 1). Supposons démontrée sa suffisance pour les algèbres de Lie de dimension < n ($n \neq 0$). Soit g une algèbre de Lie de dimension n telle que, pour tout $x \in g$, ad $x$ soit nilpotent. Le théorème 1, appliqué à l’ensemble des ad $x\ (x \in g)$, prouve que le centre $c$ de $g$ est non nul. Alors, $g$ est extension centrale de l’algèbre de Lie $g/c$, qui est nilpotente d’après notre hypothèse de récurrence. On conclut en appliquant la prop. 2.
 
 #### Corollaire 2 {#lie-i-s4-thm-1-cor-2 .statement}
 

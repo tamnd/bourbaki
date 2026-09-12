@@ -61,9 +61,9 @@ subsections:
       pdf_page: 136
 statements: 31
 exercises: 16
-content_sha256: 3e22eb14a4cf66c01186cd3aa351a984e4d4d5812a91bb981b6e9f5fcff47997
+content_sha256: 6b77946a23d44380ad291cf28eed7035ec2ab7e63a9b0b42a8ec747234203d80
 translated_from: content/en/alg/I/08_s8_rings.md
-source_content_sha256: 600239b0486664ec0165048e94fa40ec6465929fc46d8da2e621fa3bd93e27d1
+source_content_sha256: da17e67ddd692f1811c8812e3f657d4bdb2abcac80cb2aa04bd9a2e1efe428cc
 translation_model: gpt-5-6, gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-d5395ffa
 glossary_version: 34
@@ -376,7 +376,9 @@ Cho $a$ là một iđêan trái của $A$. Các điều kiện $1 \notin a, a \n
 
 Nói cách khác, $a$ là cực đại nếu $a \neq A$ và các iđêan trái của $A$ chứa $a$ chỉ là $a$ và $A$.
 
-Định lý 1 (Krull). *Cho $A$ là một vành và $a$ là một iđêan trái của $A$ khác với $A$. Tồn tại một iđêan cực đại $m$ của $A$ chứa $a$. \*
+#### Định lý 1 (Krull) {#alg-i-s8-thm-1 .statement}
+
+*Cho $A$ là một vành và $a$ là một iđêan trái của $A$ khác với $A$. Tồn tại một iđêan cực đại $m$ của $A$ chứa $a$. \*
 
 Xem $A$ như tác động lên nhóm cộng $A^+$ của $A$ bởi phép nhân trái. Khi đó các iđêan trái của $A$ là các nhóm con ổn định của $A^+$. Định lý do đó suy ra từ § 4, no. 3, Mệnh đề 3 được áp dụng cho tập con $P = \{1\}$ của $A^+$.
 

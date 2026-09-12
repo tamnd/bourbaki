@@ -25,7 +25,7 @@ subsections:
       pdf_page: 433
 statements: 14
 exercises: 3
-content_sha256: 1debc26396f5932ce4ac528e2be803e9ded101fa3e15e8f6fd5a4589047a8010
+content_sha256: e86e2f4df23e67929d05a5c7fb9439871e542e8948249e33754e6cdbddf47125
 ---
 
 ## 7. THE APPROXIMATION THEOREM
@@ -108,7 +108,7 @@ Let $v_i$ ($1 \leq i \leq n$) be valuations on a field $K$ which are independent
 
 If $v_i$ is improper, then $a_i = 0$ and the relation $v_i(x - a_i) \geq a_i$ is true for all $x \in K$. We may therefore assume that the $v_i$ are not improper.
 
-Let $A_i$ be the ring of $v_i$, $B = \bigcap_{i=1}^n A_i$ and $p_i = m(A_i) \cap B$. By Proposition 1 of no. 1, the $a_i$ may be written $a_i = b_i/s$ ($b_i \in B, s \in B - \{0\}$); if we write $x = y/s$ and $\alpha_i' = \alpha_i + v_i(s)$, then $v_i(y - 6_i) \geq \alpha_i'$. This shows that we may assume that $a_i \in B$ for all $i$; we may also assume that $\alpha_i > 0$ for all $i$. Let $v_i$ be the set of z \in \mathbf{K} \text{ such that } v_i(z) \geq a, \text{ we write } q_i = v_i \cap B. \text{ For } x \in B, v_i(x - a_i) \geq \alpha_i \text{ is equivalent to } x \equiv a_i (\mathfrak{q}_i). \text{ We therefore need to show that the canonical homomorphism } B \to \prod_{i=1}^n (B/q_i) \text{ is surjective, that is that } q_i + q_j = B \text{ for } i \neq j \text{ (Chapter 11, § 1, no. 2, Proposition 5). As the maximal ideals of B are the } \mathfrak{p}_i \text{ (Proposition 2), it will suffice for this to show that } q_i \notin \mathfrak{p}_j \text{ for } i \neq j.
+Let $A_i$ be the ring of $v_i$, $B = \bigcap_{i=1}^n A_i$ and $p_i = m(A_i) \cap B$. By Proposition 1 of no. 1, the $a_i$ may be written $a_i = b_i/s$ ($b_i \in B, s \in B - \{0\}$); if we write $x = y/s$ and $\alpha_i' = \alpha_i + v_i(s)$, then $v_i(y - 6_i) \geq \alpha_i'$. This shows that we may assume that $a_i \in B$ for all $i$; we may also assume that $\alpha_i > 0$ for all $i$. Let $v_i$ be the set of $z \in \mathbf{K}$ such that $v_i(z) \geq a$, we write $q_i = v_i \cap B$. For $x \in B, v_i(x - a_i) \geq \alpha_i$ is equivalent to $x \equiv a_i (\mathfrak{q}_i)$. We therefore need to show that the canonical homomorphism $B \to \prod_{i=1}^n (B/q_i)$ is surjective, that is that $q_i + q_j = B$ for $i \neq j$ (Chapter 11, § 1, no. 2, Proposition 5). As the maximal ideals of B are the $\mathfrak{p}_i$ (Proposition 2), it will suffice for this to show that $q_i \notin \mathfrak{p}_j$ for $i \neq j$.
 
 Suppose that there exists $i, j$ such that $q_i \subset \mathfrak{p}_j$ and $i \neq j$. We shall see shortly that the radical of $q_i$ is a *prime* ideal $p$ of B. Then $p \subset \mathfrak{p}_j$ and also $p \subset \mathfrak{p}_i$ since $\alpha_i > 0$ and hence $q_i \subset \mathfrak{p}_i$. Therefore $A_1 = B_s \subset B_p$ (no. 1, Proposition 1) and similarly $A_1 \subset B_r$. Now, as $v_i \neq (0)$ and $v_i = B_{\mathfrak{p}_i} q_i$ (Chapter 11, § 2, no. 4, Proposition 10), $q_i \neq (0)$, whence $p \neq (0)$ and $B_r \neq K$. This contradicts the hypothesis that $A_1$ and $A_1$ are independent.
 

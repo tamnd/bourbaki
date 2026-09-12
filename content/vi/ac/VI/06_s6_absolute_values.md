@@ -29,9 +29,9 @@ subsections:
       pdf_page: 425
 statements: 10
 exercises: 2
-content_sha256: 5be3272fe5dade9f6a5b4479a0a73033796ed4526214b55e54d26229b12556c6
+content_sha256: 6899efbdb402e764188ef76d50ac84aad565a577f1703fc2fa8ba2ae40b1d8fa
 translated_from: content/en/ac/VI/06_s6_absolute_values.md
-source_content_sha256: 5ca49b570b2d09c05c44810d4a82b106c8d2a4be48a8180dbf9f1db68aeef3b5
+source_content_sha256: 8b64a3893a2460621b67426748a71def35755659e7067c3b74bcaf4a51b967ed
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-81ca19be
 glossary_version: 34
@@ -314,7 +314,9 @@ $$
 
 Nhận xét (1) Chúng ta sẽ đưa ra trong chương dành cho các đại số chuẩn một chứng minh ngắn hơn của Định lý Gelfand-Mazur, đúng với mọi đại số tôpô lồi địa phương Hausdorff $K$ trên R và có nguyên lý như sau: nó được quy về (như trong các trường hợp (B) và (C)) trường hợp $K$ là một đại số giao hoán trên $\mathbf{C}$; nếu $x \in \mathbf{K} - \mathbf{C}.1$, ta xét như trên ánh xạ $z \mapsto (x - z.1)^{-1}$ từ $\mathbf{C}$ vào K, liên tục và khả vi trên $\mathbf{C}$. Với mọi phần tử $x'$ của không gian đối ngẫu $\mathbf{K}'$ của không gian lồi địa phương K, $z \mapsto \langle (x - z.1)^{-1}, x' \rangle$ khi đó là một hàm nguyên bị chặn trên $\mathbf{C}$ và do đó là hằng theo Định lý Liouville, và ta kết luận như trong phần (A) của chứng minh Định lý 1 rằng điều này tất yếu dẫn đến $\langle (x - z.1)^{-1}, x' \rangle = 0$ với mọi $z \in \mathbf{C}$ và mọi $x' \in \mathbf{K}'$; Định lý Hahn-Banach cho thấy kết luận này là vô lý, vì $(x - z.1)^{-1} \neq 0$. Chú ý rằng lập luận trong phần (A) của chứng minh Định lý 1 chỉ khác với lập luận trên về hình thức, vì lập luận này chỉ là một trường hợp đặc biệt của lập luận dùng để chứng minh nguyên lý cực đại đối với các hàm giải tích, phép lấy tổng trên các căn của đơn vị và chuyển qua giới hạn tương đương với việc tính tích phân $\int_{\gamma} \frac{\mathbf{F}(z + t)}{t} dt$ dọc theo một đường tròn tâm 0 và việc sử dụng công thức Cauchy được tránh ở đây, nhờ dạng đặc biệt của hàm F.
 
-Định lý 2 (Ostrowski). Cho K là một trường (không nhất thiết giao hoán) và f là một phần tử $\mathscr{V}(K)$ không phải là một giá trị tuyệt đối ultrametric. Khi đó tồn tại duy nhất một số thực $s > 0$ và một đẳng cấu j của K lên một trường con trù mật khắp nơi của một trong các trường $\mathbf{R}, \mathbf{C}$ hoặc $\mathbf{H}$ sao cho $f(x) = |j(x)|^s$ với mọi $x \in K$ (*). Để f là một giá trị tuyệt đối trên K, điều kiện cần và đủ là $s \leq 1$.
+#### Định lý 2 (Ostrowski) {#ac-vi-s6-thm-2 .statement}
+
+Cho K là một trường (không nhất thiết giao hoán) và f là một phần tử $\mathscr{V}(K)$ không phải là một giá trị tuyệt đối ultrametric. Khi đó tồn tại duy nhất một số thực $s > 0$ và một đẳng cấu j của K lên một trường con trù mật khắp nơi của một trong các trường $\mathbf{R}, \mathbf{C}$ hoặc $\mathbf{H}$ sao cho $f(x) = |j(x)|^s$ với mọi $x \in K$ (*). Để f là một giá trị tuyệt đối trên K, điều kiện cần và đủ là $s \leq 1$.
 
 Theo no. 2, Hệ quả của Mệnh đề 3, K có đặc số 0 và do đó là một đại số trên $\mathbf{Q}$; với mọi $x \in \mathbf{Q}$ ta đặt $h(x) = f(x.1)$; rõ ràng $h \in \mathscr{V}(\mathbf{Q})$ và do đó Mệnh đề 4 của no. 3 có thể được áp dụng; cả trường hợp (i) lẫn (ii) của mệnh đề này đều không thể xảy ra, vì điều đó sẽ kéo theo $f(n.1) \leq 1$ với mọi số nguyên $n > 0$ và f sẽ là một giá trị tuyệt đối ultrametric theo no. 2, Mệnh đề 3. Khi đó tồn tại một số thực s > 0 sao cho h(x) = |x|^s với mọi x ∈ Q, tức là f(x.1) = |x|^s; ta đặt g = f^{1/s}. Khi đó g ∈ V(K) và g(n.1) = n với mọi số nguyên n; do đó Mệnh đề 2 của no. 1 cho thấy g là một giá trị tuyệt đối trên K.
 

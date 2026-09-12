@@ -37,7 +37,7 @@ subsections:
       pdf_page: 137
 statements: 24
 exercises: 12
-content_sha256: 48cfcdd81cc4a6c7ad70c51c1051e6072017a0a4153d365c2a032815545ccf44
+content_sha256: fa1f5df2cb4ea83c765c3477f5ef2bfdb1ee6aad4a6e8785834f46fde9c32384
 ---
 
 ## § 1. ENVELOPING BIGEBRA OF A LIE ALGEBRA
@@ -240,7 +240,7 @@ As $E_0 = K.1, E_0^+ = 0$. If $x \in E_n, \pi(x) = x - \varepsilon(x).1$ (formul
 
 \dagger If A and B are two submodules of E, we denote by $\operatorname{Im}(A \otimes B)$ the image of the canonical mapping $A \otimes B \to E \otimes E$.
 
-Im(E_i^+ \otimes E_j^+) \text{ for } i \geq 0, j \geq 0. \text{ As } c^+ = (\pi \otimes \pi) \circ c \text{ in } E^+ \text{ (no. 1, Proposition 2), by (6)}
+$Im(E_i^+ \otimes E_j^+)$ for $i \geq 0, j \geq 0$. As $c^+ = (\pi \otimes \pi) \circ c$ in $E^+$ (no. 1, Proposition 2), by (6)
 
 $$
 c^+(E_n^+) \subset \sum_{i=0}^n \operatorname{Im}(E_i^+ \otimes E_{n-i}^+) = \sum_{i=1}^{n-1} \operatorname{Im}(E_i^+ \otimes E_{n-i}^+).

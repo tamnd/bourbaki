@@ -115,7 +115,7 @@ chapters:
           statements: 31
           exercises: 10
           extraction: ocr
-          content_sha256: 7d49f185df1f364335822b1a8ea327c1e9433be048a7e91a8b4906bfa676c41f
+          content_sha256: e01908c4fea4e58e2887753c30c3068c590cbc275527f07f79f55e23a9deb118
         - kind: section
           section: 9
           title: Modules dualisants

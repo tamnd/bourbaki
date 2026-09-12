@@ -28,7 +28,7 @@ subsections:
       pdf_page: 19
 statements: 40
 exercises: 16
-content_sha256: 01667c59d64eba977128b0824aa1b1adace5eec16597b043d488fb92263bd80b
+content_sha256: 3834a3f332b1a3745b5b2c69cf7ede69afa4c834453ab8962f3e1ea3ea7f21ad
 ---
 
 ## § 2. Sous-algèbres de Cartan et éléments réguliers d’une algèbre de Lie
@@ -86,7 +86,7 @@ En effet, $\mathfrak{h}$ est nilpotente si et seulement si $\mathfrak{h} \otimes
 
 *Soient $\mathfrak{g}$ une algèbre de Lie, $\mathfrak{h}$ une sous-algèbre nilpotente de $\mathfrak{g}$. Pour que $\mathfrak{h}$ soit sous-algèbre de Cartan de $\mathfrak{g}$, il faut et il suffit que $\mathfrak{g}^0(\mathfrak{h}) = \mathfrak{h}$.
 
-Si $\mathfrak{g}^0(\mathfrak{h}) = \mathfrak{h}$, $\mathfrak{h}$ est son propre normalisateur ($\S$ 1, prop. 10 (i)), donc $\mathfrak{h}$ est une sous-algèbre de Cartan de $\mathfrak{g}$. Supposons $\mathfrak{g}^0(\mathfrak{h}) \neq \mathfrak{h}$. Considérons la représentation de $\mathfrak{h}$ dans $\mathfrak{g}^0(\mathfrak{h})/\mathfrak{h}$ déduite par passage au quotient de la représentation adjointe. En lui appliquant le théorème d’Engel (I, § 4, n° 2, th. 1), on voit qu’il existe x \in g^0(\mathfrak{h}) \text{ tel que } x \notin \mathfrak{h} \text{ et } [\mathfrak{h}, x] \subset \mathfrak{h}; \text{ alors } x \text{ appartient au normalisateur de } \mathfrak{h} \text{ dans } g, \text{ de sorte que } \mathfrak{h} \text{ n'est pas une sous-algèbre de Cartan de } g.
+Si $\mathfrak{g}^0(\mathfrak{h}) = \mathfrak{h}$, $\mathfrak{h}$ est son propre normalisateur ($\S$ 1, prop. 10 (i)), donc $\mathfrak{h}$ est une sous-algèbre de Cartan de $\mathfrak{g}$. Supposons $\mathfrak{g}^0(\mathfrak{h}) \neq \mathfrak{h}$. Considérons la représentation de $\mathfrak{h}$ dans $\mathfrak{g}^0(\mathfrak{h})/\mathfrak{h}$ déduite par passage au quotient de la représentation adjointe. En lui appliquant le théorème d’Engel (I, § 4, n° 2, th. 1), on voit qu’il existe $x \in g^0(\mathfrak{h})$ tel que $x \notin \mathfrak{h}$ et $[\mathfrak{h}, x] \subset \mathfrak{h}$; alors $x$ appartient au normalisateur de $\mathfrak{h}$ dans $g$, de sorte que $\mathfrak{h}$ n'est pas une sous-algèbre de Cartan de $g$.
 
 #### Corollaire 1 {#lie-vii-s2-prop-4-cor-1 .statement tag=00TS}
 

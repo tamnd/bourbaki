@@ -42,7 +42,7 @@ subsections:
       pdf_page: 460
 statements: 5
 exercises: 1
-content_sha256: fb83b18fcabf5fd8d2e98e2a44b70c1504ea018fac3177743c906d556d340fd6
+content_sha256: dd48afc8293dd92e993b3c15c11f1e7ccf9b086e70d6282835d98921482fe752
 ---
 
 ## § 1. ALGEBRAS
@@ -172,7 +172,7 @@ E & & E
 \end{array}
 $$
 
-be commutative, where $\sigma$ denotes the canonical $A$-linear mapping defined by σ(x \otimes y) = y \otimes x \text{ for } x \in E, y \in E \text{ (II, § 3, no. 1, Corollary 2 to Proposition 1).}
+be commutative, where $\sigma$ denotes the canonical $A$-linear mapping defined by $\sigma(x \otimes y) = y \otimes x$ for $x \in E, y \in E$ (II, § 3, no. 1, Corollary 2 to Proposition 1).
 
 For all $c \in E$, let $\eta_c$ denote the A-linear mapping of A into E defined by the condition $\eta_c(1) = c$. For $c$ to be a unit element of E, it is necessary and sufficient that the two diagrams
 

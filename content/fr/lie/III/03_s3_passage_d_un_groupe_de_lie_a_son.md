@@ -84,7 +84,7 @@ subsections:
       pdf_page: 161
 statements: 111
 exercises: 9
-content_sha256: c03e98e7ebb68d6e0ad174a8132c1308456446a6c5851f7a45c0b7d9d9b17a7d
+content_sha256: fb1b7a4c61f41107e57f5a0973b50f20130a9fa8b6d9564c69367f57704a3327
 ---
 
 ## § 3. Passage d’un groupe de Lie à son algèbre de Lie
@@ -1419,7 +1419,7 @@ d’où la première formule. La deuxième s’établit de manière analogue.
 
 #### Corollaire 2 {#lie-iii-s3-prop-51-cor-2 .statement}
 
-*Supposons G de dimension finie. Soient $(e_1, \ldots, e_n)$ une base de $L(G)$, $(e_1^*, \ldots, e_n^*)$ la base duale, $(c_{ijk})$ les constantes de structure de $L(G)$ relativement à la base* (e_1, \ldots, e_n), \omega_i (\text{resp. } \omega'_i) \text{ la forme différentielle invariante à gauche (resp. à droite) sur } G, à valeurs dans K, telle que (\omega_i)_e = e_i^* (\text{ resp. } (\omega'_i)_e = e_i^*). Alors
+*Supposons G de dimension finie. Soient $(e_1, \ldots, e_n)$ une base de $L(G)$, $(e_1^*, \ldots, e_n^*)$ la base duale, $(c_{ijk})$ les constantes de structure de $L(G)$ relativement à la base* $(e_1, \ldots, e_n)$, $\omega_i$ (resp. $\omega'_i$) la forme différentielle invariante à gauche (resp. à droite) sur $G$, à valeurs dans $K$, telle que $(\omega_i)_e = e_i^*$ (resp. $(\omega'_i)_e = e_i^*$). Alors
 
 $$
 d\omega_k + \sum_{i < j} c_{ijk} \omega_i \wedge \omega_j = 0 \quad (k = 1, 2, \ldots, n)

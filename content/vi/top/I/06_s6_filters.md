@@ -54,7 +54,7 @@ statements: 30
 exercises: 20
 content_sha256: 0e1b36f7b0166cb57127ef03672727c35be9fb6cf53112bbf1a6e3f7526c8e92
 translated_from: content/en/top/I/06_s6_filters.md
-source_content_sha256: 7941ad96d4802fd0a3eb8f77ffc7207f05f3b6c353e20e8231e1e72a66aeb47e
+source_content_sha256: 54903b12f1214819204dc115618903fd7e1aeb96fd97f4bae7277a5d03b880ff
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-43b6c5e6
 glossary_version: 34

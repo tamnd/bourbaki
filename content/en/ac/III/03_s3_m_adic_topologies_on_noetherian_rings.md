@@ -33,7 +33,7 @@ subsections:
       pdf_page: 226
 statements: 39
 exercises: 27
-content_sha256: 7f34e8fa776003d5116ba6baec027fc4736d0298ce93dee623ca18e4bbb7b4ec
+content_sha256: b81df172b6e522c775ec3658e04648b88d9c80cb7f56ca2a12c07212819aebb5
 ---
 
 ## 3. $\mathfrak{m}$-adic topologies on Noetherian rings
@@ -213,7 +213,7 @@ It is sufficient to apply Proposition 5 to $E = A$.
 
 #### Remark {#ac-iii-s3-n2-rem-1 .statement}
 
-The hypothesis that $A$ is *Noetherian* is essential in this corollary. For example, let $A$ be the ring of infinitely differentiable mappings from $\mathbf{R}$ to itself and let $m$ be the (maximal) ideal of $A$ consisting of the functions $f$ such that $f(0) = 0$. It is immediate that $\bigcap_{n=0}^\infty m^n$ is the set of functions $f$ such that f^{(n)}(0) = 0 \text{ for all } n \geq 0 \text{ and there exist such functions with } f(x) \neq 0, \text{ for all } x \neq 0, \text{ for example the function } f \text{ defined by } f(x) = e^{-1/x^2} \text{ for } x \neq 0 \text{ and } f(0) = 0.
+The hypothesis that $A$ is *Noetherian* is essential in this corollary. For example, let $A$ be the ring of infinitely differentiable mappings from $\mathbf{R}$ to itself and let $m$ be the (maximal) ideal of $A$ consisting of the functions $f$ such that $f(0) = 0$. It is immediate that $\bigcap_{n=0}^\infty m^n$ is the set of functions $f$ such that $f^{(n)}(0) = 0$ for all $n \geq 0$ and there exist such functions with $f(x) \neq 0$, for all $x \neq 0$, for example the function $f$ defined by $f(x) = e^{-1/x^2}$ for $x \neq 0$ and $f(0) = 0$.
 
 #### Definition 1 {#ac-iii-s3-def-1-bis .statement}
 

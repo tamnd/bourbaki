@@ -41,7 +41,7 @@ subsections:
       pdf_page: 157
 statements: 49
 exercises: 13
-content_sha256: e710086c13033a250f8678a11871dde62af4aca4c6e19572f90548c50910addf
+content_sha256: 954a4a34a7ea5e40e583159d31bbba1bb43e17d7efdf59e3e0f06d9044eb8b05
 ---
 
 ## § 3. GROUPES MÉTRISABLES; CORPS VALUÉS; ESPACES ET ALGÈBRES NORMÉS
@@ -586,7 +586,7 @@ Inversement, si $\|z\| < 1$, comme on a $\|z^{p+1}\| \leq \|z\|^{p+1}$, $z^{p+1}
 
 *Soit $A$ une algèbre normée complète; pour tout $z \in A$ tel que $\|z\| < 1$, $e - z$ est inversible dans $A$.*
 
-En effet, la série de terme général $z^n$ est absolument convergente, puisque \|z^n\| \leq \|z\|^n \text{ pour } n > 0; \text{ elle est par suite convergente, puisque } A \text{ est complète (IX, p. 36, prop. 12).}
+En effet, la série de terme général $z^n$ est absolument convergente, puisque $\|z^n\| \leq \|z\|^n$ pour $n > 0$; elle est par suite convergente, puisque $A$ est complète (IX, p. 36, prop. 12).
 
 #### Proposition 14 {#top-ix-s3-prop-14 .statement}
 

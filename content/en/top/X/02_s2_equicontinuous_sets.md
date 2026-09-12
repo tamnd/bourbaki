@@ -32,7 +32,7 @@ subsections:
       pdf_page: 296
 statements: 24
 exercises: 20
-content_sha256: e2a78160237149f66f0f8a7ebfe148f1be61b9721352dd251ef5b190594f059c
+content_sha256: 4ec4a4ad57903a19931257f670443d59349747cc03270f41786193a9371e8c46
 ---
 
 ## 2. EQUICONTINUOUS SETS
@@ -41,7 +41,7 @@ content_sha256: e2a78160237149f66f0f8a7ebfe148f1be61b9721352dd251ef5b190594f059c
 
 #### Definition 1 {#top-x-s2-def-1 .statement}
 
-*Let $X$ be a topological space and $Y$ a uniform space. A subset $H$ of $\mathscr{F}(X; Y)$ is said to be equicontinuous at a point $x_0 \in X$ if, for each entourage $V$ of $Y$, there is a neighbourhood $U$ of $x_0$ in $X$ such that* (f(x_0), f(x)) \in V \text{ for all } x \in U \text{ and all } f \in H. \text{ H is said to be equicontinuous if it is equicontinuous at every point of } X.
+*Let $X$ be a topological space and $Y$ a uniform space. A subset $H$ of $\mathscr{F}(X; Y)$ is said to be equicontinuous at a point $x_0 \in X$ if, for each entourage $V$ of $Y$, there is a neighbourhood $U$ of $x_0$ in $X$ such that* $(f(x_0), f(x)) \in V$ for all $x \in U$ and all $f \in H$. H is said to be equicontinuous if it is equicontinuous at every point of $X$.
 
 #### Definition 2 {#top-x-s2-def-2 .statement}
 

@@ -61,7 +61,7 @@ chapters:
           statements: 18
           exercises: 27
           extraction: ocr
-          content_sha256: 6852a97f9584cb9e2c6500bc6ed421e47f78f0dbd984eea90b0a26ab4f5ce176
+          content_sha256: 67a67e179d61c84df837c0d640813f96b9c29c24a4baeb19394ee341be508387
         - kind: section
           section: 5
           title: Algèbres de Lie résolubles

@@ -6,23 +6,23 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 tags, 22380 references, 14948 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
+Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 tags, 22388 references, 14948 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
 
 ## Summary
 
 | Group | Hard | Soft | Not run | Failing |
 | --- | ---: | ---: | ---: | --- |
-| structure | 13 | 2 | 0 | S11 (433), S14 (798), S15 (68) |
-| tags | 7 | 1 | 1 | T03 (23308), T10 (9) |
-| mathematics | 10 | 6 | 0 | M03 (2), M06 (6), M13 (48), M14 (2697), M16 (1) |
+| structure | 13 | 2 | 0 | S11 (433), S14 (686), S15 (68) |
+| tags | 7 | 1 | 1 | T03 (23311), T10 (9) |
+| mathematics | 10 | 6 | 0 | M03 (2), M06 (6), M13 (48), M14 (2650), M16 (1) |
 | figures | 6 | 0 | 0 | F01 (158) |
-| references | 3 | 0 | 0 | R01 (3369), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1366), L03 (14), L04 (10), L05 (276), L06 (2017), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
+| references | 3 | 0 | 0 | R01 (3358), R02 (476) |
+| translation | 13 | 3 | 1 | L01 (1365), L03 (14), L04 (10), L05 (276), L06 (2017), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-29862 hard findings and 11347 soft, over 78 rules that ran and 2 that could not.
+29853 hard findings and 11188 soft, over 78 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -115,7 +115,7 @@ Soft, mathematics.
 
 and 23 more, which `bourbaki audit -only M13` prints in full.
 
-## M14 no mathematics is left outside math mode (2697)
+## M14 no mathematics is left outside math mode (2650)
 
 Soft, mathematics.
 
@@ -145,7 +145,7 @@ Soft, mathematics.
 - `content/en-mt/ac/VIII/04_s4_series_de_hilbert_samuel.md:430` \leq is set in the prose, so the mathematics prints as its own source: One therefore has either d_x(M) < r and c_G = 0, or d_x(M) =…
 - `content/en-mt/ac/VIII/04_s4_series_de_hilbert_samuel.md:434` \to is set in the prose, so the mathematics prints as its own source: Let 0 \to M' \to M \to M'' \to 0 be an exact sequence of fin…
 
-and 2672 more, which `bourbaki audit -only M14` prints in full.
+and 2625 more, which `bourbaki audit -only M14` prints in full.
 
 ## M16 no ring is named A and Lambda in the same file (1)
 
@@ -153,7 +153,7 @@ Soft, mathematics.
 
 - `content/vi/lie/VII/exercises/s1/08.md:34` \Lambda$ là một vành here, and this file names its ring A elsewhere: one ring, two letters, and the printing sets only one of them
 
-## R01 every in-corpus reference resolves (3369)
+## R01 every in-corpus reference resolves (3358)
 
 Hard, references.
 
@@ -183,7 +183,7 @@ Hard, references.
 - `content/en/ac/II/02_s2_rings_and_modules_of_fractions.md:260` "no. 1, Remark 2" does not resolve: ac-ii-s2 has no Remark 2
 - `content/en/ac/II/02_s2_rings_and_modules_of_fractions.md:284` "*Algebra*, Chapter VIII, § 6, no. 3, Theorem 1" does not resolve: alg-viii-s6 has no Theorem 1
 
-and 3344 more, which `bourbaki audit -only R01` prints in full.
+and 3333 more, which `bourbaki audit -only R01` prints in full.
 
 ## R02 a reference that leaves the corpus names a Book of the Éléments (476)
 
@@ -287,7 +287,7 @@ Hard, structure.
 
 and 408 more, which `bourbaki audit -only S11` prints in full.
 
-## S14 every committed page passes the rules that gated its reading (798)
+## S14 every committed page passes the rules that gated its reading (686)
 
 Soft, structure.
 
@@ -317,7 +317,7 @@ Soft, structure.
 - `pages/ac-i-iv-fr/0268.md:1` the reading would be refused today: math: \in is set in the prose with no math span around it, so the mathematics was read as text (line 3)
 - `pages/ac-i-iv-fr/0273.md:1` the reading would be refused today: math: \mathfrak is set in the prose with no math span around it, so the mathematics was read as text (line 5)
 
-and 773 more, which `bourbaki audit -only S14` prints in full.
+and 661 more, which `bourbaki audit -only S14` prints in full.
 
 ## S15 no note is left at the foot of a page with nothing pointing at it (68)
 
@@ -351,7 +351,7 @@ Soft, structure.
 
 and 43 more, which `bourbaki audit -only S15` prints in full.
 
-## T03 every statement in the corpus has exactly one tag (23308)
+## T03 every statement in the corpus has exactly one tag (23311)
 
 Hard, tags.
 
@@ -381,7 +381,7 @@ Hard, tags.
 - `content/en/ac/I/02_s2_flat_modules.md:446` has no tag
 - `content/en/ac/I/02_s2_flat_modules.md:453` has no tag
 
-and 23283 more, which `bourbaki audit -only T03` prints in full.
+and 23286 more, which `bourbaki audit -only T03` prints in full.
 
 ## T10 the tags of a file climb, as they did on the run that assigned them (9)
 
@@ -397,7 +397,7 @@ Soft, tags.
 - `content/vi/ens/II/06_s6_equivalence_relations.md:121` has 03TP after 03TS, which the same run assigned later
 - `content/vi/lie/IX/04_s4_root_system_associated_to_a_compact.md:428` has 01C5 after 01C7, which the same run assigned later
 
-## L01 the math spans are the English ones, in order (1366)
+## L01 the math spans are the English ones, in order (1365)
 
 Hard, translation.
 
@@ -427,7 +427,7 @@ Hard, translation.
 - `content/en-mt/ac/IX/exercises/s1/25.md:37` math span 44 is "c" and the English has "(a, b)"
 - `content/en-mt/ac/IX/exercises/s1/34.md:41` math span 27 is "n" and the English has "X_n"
 
-and 1341 more, which `bourbaki audit -only L01` prints in full.
+and 1340 more, which `bourbaki audit -only L01` prints in full.
 
 ## L03 the heading tree is the English one (14)
 
@@ -610,8 +610,8 @@ Hard, translation.
 - `content/vi/ac/VI/05_s5_the_topology_defined_by_a_valuation.md:42` leaves "example" in English, and the glossary writes it "ví dụ"
 - `content/vi/ac/VI/05_s5_the_topology_defined_by_a_valuation.md:65` leaves "proposition" in English, and the glossary writes it "mệnh đề"
 - `content/vi/ac/VI/06_s6_absolute_values.md:242` leaves "topology" in English, and the glossary writes it "tôpô"
-- `content/vi/ac/VI/06_s6_absolute_values.md:327` leaves "chapter" in English, and the glossary writes it "chương"
-- `content/vi/ac/VI/06_s6_absolute_values.md:327` leaves "vector" in English, and the glossary writes it "vectơ"
+- `content/vi/ac/VI/06_s6_absolute_values.md:329` leaves "chapter" in English, and the glossary writes it "chương"
+- `content/vi/ac/VI/06_s6_absolute_values.md:329` leaves "vector" in English, and the glossary writes it "vectơ"
 - `content/vi/ac/VI/07_s7_approximation_theorem.md:156` leaves "topology" in English, and the glossary writes it "tôpô"
 - `content/vi/ac/VI/08_s8_extensions_of_a_valuation_to_an.md:191` leaves "algebra" in English, and the glossary writes it "đại số"
 

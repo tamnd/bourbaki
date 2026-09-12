@@ -49,7 +49,7 @@ chapters:
           statements: 20
           exercises: 13
           extraction: ocr
-          content_sha256: d8d29a6444b75ad45f6377e9b2679890fd9713ff6d0e7284c5915f17b9d13d0a
+          content_sha256: 7331609083df7b6f45c8e52bb18b8f8c2a11ada7a000da6586a38b87510dc936
         - kind: section
           section: 3
           title: FRACTIONS RATIONNELLES

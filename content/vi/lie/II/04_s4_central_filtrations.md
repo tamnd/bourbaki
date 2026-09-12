@@ -36,9 +36,9 @@ subsections:
       pdf_page: 166
 statements: 12
 exercises: 18
-content_sha256: 5af4490413e82a335b9ef10a9b09adcee9f85eb4a403c0191b742a860bbca3f3
+content_sha256: e8e3cd20eb168abffc3b7b73e3025f28a51fd28631c22e4e9adb52c4531be1a6
 translated_from: content/en/lie/II/04_s4_central_filtrations.md
-source_content_sha256: f851ffdb4b2c2b1ddbe8b7336668e7aa1d731014ba4becd09cab912a4d2af5c7
+source_content_sha256: 5b8b11c50520f8ccfea99780d11840f43d7572ba4b6ee75c9508548dd842e65d
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-5f92d445
 glossary_version: 34
@@ -286,7 +286,7 @@ Nhắc lại (no. 1, Nhận xét) rằng một lọc $(G_\alpha)$ trên nhóm G 
 
 (i) \quad G_1 = G
 (ii) \quad G_n \supset G_{n+1} \quad \text{với mọi } n \geq 1
-(iii) \quad (G_m, G_n) \subset G_{m+n} \quad \text{với } m \geq 1 \text{ và } n \geq 1.
+$(iii) \quad (G_m, G_n) \subset G_{m+n}$ với $m \geq 1$ và $n \geq 1$.
 
 Với mỗi số nguyên n $\geq 1$, $G_n$ là một nhóm con chuẩn của G và thương gr_n(G) = $G_n/G_{n+1}$ là giao hoán. Khi lấy các thương, ánh xạ $(x, y) \mapsto (x, y) = x^{-1}y^{-1}xy$ của $G_m \times G_n$ vào $G_{m+n}$ cho phép ta định nghĩa trên gr(G) = $\bigoplus_{n \geq 1} gr_n(G)$ một cấu trúc đại số Lie phân bậc kiểu $\mathbf{N}$ trên vành $\mathbf{Z}$.
 

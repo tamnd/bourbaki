@@ -26,7 +26,7 @@ subsections:
       pdf_page: 26
 statements: 20
 exercises: 5
-content_sha256: a49f9769f5343ecaf05bc3c767f052192a005e278900a829e8b84b1797cc9243
+content_sha256: d0bcf5ae22948ff394d0056d7bedc03526c0609a788c76eca9bdb1ca6c9306a2
 translated_from: content/en/alg/IV/02_s2_zeros_of_polynomials.md
 source_content_sha256: 225ec9e15b7f2dea5044d6aa6129a8558e1f970a5442b8f106a96a6e1d7fde32
 translation_model: gpt-5.4, gpt-5-6
@@ -169,7 +169,7 @@ Cho $k$ là một số nguyên $> 0$ sao cho $k . 1 = 0$ trong $\mathbf{A}$. N�
 
 — Giả sử rằng $A$ là một miền nguyên. Cho $I$ là một tập hợp, $(\mathbf{H}_i)_{i \in I}$ là một họ các tập con vô hạn của $\mathbf{A}$ và $H = \prod_{i \in I} \mathbf{H}_i \subset A'$. Nếu f là một phần tử khác không của $\mathbf{A}[(X_i)_{i \in I}]$, và $H_f$ là tập hợp mọi $x \in H$ sao cho $f(x) \neq 0$, thì $H$ và $H_f$ có cùng lực lượng.
 
-a) Trước hết giả sử rằng $I$ là hữu hạn và đặt $n = \mathrm{Card}\ I$. Mệnh đề là hiển nhiên với $n = 0$; ta sẽ chứng minh nó bằng quy nạp theo $n$. Chọn một phần tử $i_0$ của $I$ và đặt $J = I - \{i_0\}$, $B = \mathbf{A}[(X_i)_{i \in J}]$. Vì $f \neq 0$, ta có thể viết $f = \sum_{k=0}^m g_k X_{i_0}^k$, where g_0, \ldots, g_m \in B \text{ và } g_m \neq 0. \text{ Theo giả thiết quy nạp tập hợp K của mọi } x \in \prod_{i \in s} H_i \text{ sao cho } g_m(x) \neq 0 \text{ là đẳng lực với } \prod_{i \in J} H_i. \text{ Với } x \in K \text{ đa thức}
+a) Trước hết giả sử rằng $I$ là hữu hạn và đặt $n = \mathrm{Card}\ I$. Mệnh đề là hiển nhiên với $n = 0$; ta sẽ chứng minh nó bằng quy nạp theo $n$. Chọn một phần tử $i_0$ của $I$ và đặt $J = I - \{i_0\}$, $B = \mathbf{A}[(X_i)_{i \in J}]$. Vì $f \neq 0$, ta có thể viết $f = \sum_{k=0}^m g_k X_{i_0}^k$, trong đó $g_0, \ldots, g_m \in B$ và $g_m \neq 0$. Theo giả thiết quy nạp tập hợp K của mọi $x \in \prod_{i \in s} H_i$ sao cho $g_m(x) \neq 0$ là đẳng lực với $\prod_{i \in J} H_i$. Với $x \in K$ đa thức
 $$
 h(X_{i_0}) = \sum_{k=0}^m g_k(x) X_{i_0}^k \in A[X_{i_0}]
 $$

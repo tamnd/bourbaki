@@ -49,7 +49,7 @@ chapters:
           statements: 20
           exercises: 5
           extraction: ocr
-          content_sha256: 73b76f21e149f7673e0eb7bbee5b35a5a1af86aad368b42e6bfe55bdaafa4953
+          content_sha256: 97ec959a0a749d9180c250a7b652d7e55a4cda36b5f81206708811ed91576d3c
         - kind: section
           section: 3
           title: Rational fractions
@@ -369,7 +369,7 @@ chapters:
           statements: 53
           exercises: 36
           extraction: ocr
-          content_sha256: 543b0f8166310a925c67adda31939b3ce4aaad06cdecb22ecd1ead9aff696009
+          content_sha256: 4809ff450b4093626cd41183feaa93260c7ccb6723817c4d41a41c2a813625ae
         - kind: section
           section: 2
           title: Ordered fields

@@ -25,7 +25,7 @@ subsections:
       pdf_page: 23
 statements: 20
 exercises: 13
-content_sha256: d8d29a6444b75ad45f6377e9b2679890fd9713ff6d0e7284c5915f17b9d13d0a
+content_sha256: 7331609083df7b6f45c8e52bb18b8f8c2a11ada7a000da6586a38b87510dc936
 ---
 
 ## § 2. ZÉROS DES POLYNÔMES
@@ -166,7 +166,7 @@ On suppose A intègre. Soient I un ensemble, $(H_i)_{i \in I}$ une famille de pa
 
 Soit $H_f$ l’ensemble des $x \in H$ tels que $f(x) \neq 0$. Alors H et $H_f$ sont équipotents.
 
-a) Supposons d’abord I fini et soit $n = \mathrm{Card}\ I$. La proposition est évidente pour $n = 0$, et nous la démontrerons par récurrence sur $n$. Choisissons un élément $i_0$ de I, et soient $J = I - \{ i_0 \}$, $B = A[(X_i)_{i \in J}]$. Comme $f \neq 0$, on peut écrire f = \sum_{k=0}^{m} g_k X_{i_0}^k \text{ où } g_0, ..., g_m \in \mathbf{B}, \text{ et } g_m \neq 0. \text{ D’après l’hypothèse de récurrence, l’ensemble K des } x \in \prod_{i \in J} H_i \text{ tels que } g_m(x) \neq 0 \text{ est équipotent à } \prod_{i \in J} H_i. \text{ Pour } x \in K, \text{ le polynôme}
+a) Supposons d’abord I fini et soit $n = \mathrm{Card}\ I$. La proposition est évidente pour $n = 0$, et nous la démontrerons par récurrence sur $n$. Choisissons un élément $i_0$ de I, et soient $J = I - \{ i_0 \}$, $B = A[(X_i)_{i \in J}]$. Comme $f \neq 0$, on peut écrire $f = \sum_{k=0}^{m} g_k X_{i_0}^k$ où $g_0, ..., g_m \in \mathbf{B}$, et $g_m \neq 0$. D’après l’hypothèse de récurrence, l’ensemble K des $x \in \prod_{i \in J} H_i$ tels que $g_m(x) \neq 0$ est équipotent à $\prod_{i \in J} H_i$. Pour $x \in K$, le polynôme
 
 $$
 h(X_{i_0}) = \sum_{k=0}^{m} g_k(x) X_{i_0}^k \in A[X_{i_0}]

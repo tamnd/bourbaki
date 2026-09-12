@@ -37,7 +37,7 @@ subsections:
       pdf_page: 326
 statements: 29
 exercises: 22
-content_sha256: 93c9532dc8cfbbf18cb9e8db65200691e35dca8d22197e8a6eb067f46937d314
+content_sha256: 4e0d6da1f47a0d451c7de699e2e7cb4df09f226eb04f5bcd38e522ffdb5acd0f
 ---
 
 ## § 6. IMAGES OF A MEASURE
@@ -328,7 +328,7 @@ For, $\mathbf{f}(G(t))$ is integrable for the measure $|g|\cdot\mu$, hence also 
 
 It can happen that $\mathbf{f}$ is integrable on $J$ for Lebesgue measure, but that $t \mapsto \mathbf{f}(G(t))g(t)$ is not integrable on $I$ for Lebesgue measure (Exer. 10).
 
-Now suppose that $g$ maintains a *constant sign* almost everywhere (and is locally $\mu$-integrable); one may suppose for example that $g(t) \geq 0$ almost everywhere in $I$. Then $G$ is an increasing continuous function on $I$, therefore $G(a+)$ and $G(b-)$ exist (but may be infinite). Moreover, $G$ is a *$\lambda$-proper* mapping of $I$ into $G(I)$: for, if $G(b-) \in G(I)$, there is an x_1 \geq x_0 \text{ such that } G \text{ is constant for } x \geq x_1, \text{ and then the inverse image under } G \text{ of the compact interval } [G(x_0), G(b-)] \text{ is } \lambda\text{-integrable; if, on the contrary, } G(b-) \notin G(I), \text{ then the inverse image under } G \text{ of every compact interval with left end-point } G(x_0), \text{ contained in } G(I), \text{ differs from a compact interval by at most a } \lambda\text{-negligible interval. One argues similarly for the compact intervals with right end-point } G(x_0), \text{ whence our assertion. Moreover:}
+Now suppose that $g$ maintains a *constant sign* almost everywhere (and is locally $\mu$-integrable); one may suppose for example that $g(t) \geq 0$ almost everywhere in $I$. Then $G$ is an increasing continuous function on $I$, therefore $G(a+)$ and $G(b-)$ exist (but may be infinite). Moreover, $G$ is a *$\lambda$-proper* mapping of $I$ into $G(I)$: for, if $G(b-) \in G(I)$, there is an $x_1 \geq x_0$ such that $G$ is constant for $x \geq x_1$, and then the inverse image under $G$ of the compact interval $[G(x_0), G(b-)]$ is $\lambda$-integrable; if, on the contrary, $G(b-) \notin G(I)$, then the inverse image under $G$ of every compact interval with left end-point $G(x_0)$, contained in $G(I)$, differs from a compact interval by at most a $\lambda$-negligible interval. One argues similarly for the compact intervals with right end-point $G(x_0)$, whence our assertion. Moreover:
 
 #### Proposition 9 {#int-v-s6-prop-9 .statement}
 

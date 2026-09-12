@@ -415,7 +415,7 @@ chapters:
           statements: 24
           exercises: 20
           extraction: ocr
-          content_sha256: e2a78160237149f66f0f8a7ebfe148f1be61b9721352dd251ef5b190594f059c
+          content_sha256: 4ec4a4ad57903a19931257f670443d59349747cc03270f41786193a9371e8c46
         - kind: section
           section: 3
           title: Special function spaces

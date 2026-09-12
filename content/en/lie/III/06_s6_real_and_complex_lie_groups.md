@@ -53,7 +53,7 @@ subsections:
       pdf_page: 340
 statements: 71
 exercises: 30
-content_sha256: 3f671cb987a5a8a44499c86ec937ba8c95cfea97c5058ddfa272e7cfee3e79fa
+content_sha256: 5661cdb979b242a4b80d3bf7b9535680e32ba902bd1352e6302cdc4df0de1b71
 ---
 
 ## § 6. REAL AND COMPLEX LIE GROUPS
@@ -614,9 +614,9 @@ The uniqueness of f follows from § 3, no. 17, Corollary 2 to Proposition 59 and
 
 #### Lemma 4 {#lie-iii-s6-lem-4 .statement}
 
-*Let G be a connected topological group, X a Hausdorff topological space and $f_1, f_2$ laws of left (resp. right) operation of G on X such that, for all $x \in X$, the mappings* s \mapsto f_1(s, x),\ s \mapsto f_2(s, x) \text{ of } G \text{ into } X \text{ are continuous. Suppose that there exists a neighbourhood } V \text{ of } \{e\} \times X \text{ in } G \times X \text{ such that } f_1 \text{ and } f_2 \text{ coincide on } V. \text{ Then } f_1 = f_2.
+*Let G be a connected topological group, X a Hausdorff topological space and $f_1, f_2$ laws of left (resp. right) operation of G on X such that, for all $x \in X$, the mappings* $s \mapsto f_1(s, x),\ s \mapsto f_2(s, x)$ of $G$ into $X$ are continuous. Suppose that there exists a neighbourhood $V$ of $\{e\} \times X$ in $G \times X$ such that $f_1$ and $f_2$ coincide on $V$. Then $f_1 = f_2$.
 
-Let x \in X \text{ and } A \text{ be the set of } g \in G \text{ such that } f_1(g, x) = f_2(g, x). \text{ Then } A \text{ is closed in } G. \text{ On the other hand, let } g \in A; \text{ we write } y = f_1(g, x) = f_2(g, x). \text{ There exists a neighbourhood } U \text{ of } e \text{ in } G \text{ such that } f_1(t, y) = f_2(t, y) \text{ for } t \in U, \text{ in other words such that } f_1(t', x) = f_2(t', x) \text{ for } t' \in Ug \text{ (resp. } gU). \text{ Hence } A \text{ is open in } G \text{ and therefore } A = G.
+Let $x \in X$ and $A$ be the set of $g \in G$ such that $f_1(g, x) = f_2(g, x)$. Then $A$ is closed in $G$. On the other hand, let $g \in A$; we write $y = f_1(g, x) = f_2(g, x)$. There exists a neighbourhood $U$ of $e$ in $G$ such that $f_1(t, y) = f_2(t, y)$ for $t \in U$, in other words such that $f_1(t', x) = f_2(t', x)$ for $t' \in Ug$ (resp. $gU$). Hence $A$ is open in $G$ and therefore $A = G$.
 
 #### Proposition 16 {#lie-iii-s6-prop-16 .statement}
 

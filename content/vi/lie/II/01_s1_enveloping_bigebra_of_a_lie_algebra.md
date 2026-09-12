@@ -36,9 +36,9 @@ subsections:
       pdf_page: 137
 statements: 24
 exercises: 12
-content_sha256: 6bbdd1cb50dceffafac58d1fc215bf4b96799fc9074f4cb369a5ae9edd307814
+content_sha256: 8bfef0a035589f9bb9c5e0cf19dc1be53e6ab82c378e25f7ca78d5ef145a86ba
 translated_from: content/en/lie/II/01_s1_enveloping_bigebra_of_a_lie_algebra.md
-source_content_sha256: 48cfcdd81cc4a6c7ad70c51c1051e6072017a0a4153d365c2a032815545ccf44
+source_content_sha256: fa1f5df2cb4ea83c765c3477f5ef2bfdb1ee6aad4a6e8785834f46fde9c32384
 translation_model: gpt-5.4
 translation_run: translate-vi-696e9754
 glossary_version: 34
@@ -246,7 +246,7 @@ Vì $E_0 = K.1, E_0^+ = 0$. Nếu $x \in E_n, \pi(x) = x - \varepsilon(x).1$ (c�
 
 \dagger Nếu A và B là hai môđun con của E, ta ký hiệu bởi $\operatorname{Im}(A \otimes B)$ ảnh của ánh xạ chính tắc $A \otimes B \to E \otimes E$.
 
-Im(E_i^+ \otimes E_j^+) \text{ với } i \geq 0, j \geq 0. \text{ Vì } c^+ = (\pi \otimes \pi) \circ c \text{ trong } E^+ \text{ (no. 1, Mệnh đề 2), theo (6)}
+$Im(E_i^+ \otimes E_j^+)$ với $i \geq 0, j \geq 0$. Vì $c^+ = (\pi \otimes \pi) \circ c$ trong $E^+$ (no. 1, Mệnh đề 2), theo (6)
 
 $$
 c^+(E_n^+) \subset \sum_{i=0}^n \operatorname{Im}(E_i^+ \otimes E_{n-i}^+) = \sum_{i=1}^{n-1} \operatorname{Im}(E_i^+ \otimes E_{n-i}^+).

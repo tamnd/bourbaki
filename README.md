@@ -116,12 +116,12 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Commutative Algebra | III | 5 of 5 | 143 | 59 | 0 | 230 |
 | Commutative Algebra | IV | 3 of 3 | 69 | 57 | 0 | 98 |
 | Commutative Algebra | V | 3 of 3 | 122 | 61 | 0 | 150 |
-| Commutative Algebra | VI | 10 of 10 | 151 | 77 | 0 | 211 |
-| Commutative Algebra | VII | 4 of 4 | 130 | 85 | 0 | 302 |
+| Commutative Algebra | VI | 10 of 10 | 152 | 77 | 0 | 211 |
+| Commutative Algebra | VII | 4 of 4 | 131 | 85 | 0 | 302 |
 | Commutative Algebra | VIII | 0 of 7 | 0 | 0 | 0 | 108 |
 | Commutative Algebra | IX | 0 of 5 | 0 | 0 | 0 | 85 |
 | Commutative Algebra | X | 0 of 10 | 0 | 0 | 0 | 179 |
-| Algebra | I | 10 of 10 | 293 | 218 | 0 | 357 |
+| Algebra | I | 10 of 10 | 294 | 218 | 0 | 357 |
 | Algebra | II | 12 of 12 | 384 | 150 | 0 | 446 |
 | Algebra | III | 12 of 12 | 273 | 97 | 0 | 542 |
 | Algebra | IV | 6 of 6 | 163 | 53 | 0 | 202 |
@@ -189,7 +189,7 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Variétés différentielles et analytiques | 1 | 0 of 8 | 0 | 0 | 0 | 95 |
 | Variétés différentielles et analytiques | 2 | 0 of 8 | 0 | 0 | 0 | 95 |
 
-396 of 503 sections are in the corpus, 79 per cent. 8689 statements and 4476 exercises, 2642 of them carrying a permanent tag.
+396 of 503 sections are in the corpus, 79 per cent. 8692 statements and 4476 exercises, 2642 of them carrying a permanent tag.
 <!-- END COVERAGE -->
 
 ## What is translated

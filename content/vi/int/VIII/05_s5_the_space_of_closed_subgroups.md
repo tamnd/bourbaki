@@ -39,7 +39,7 @@ statements: 20
 exercises: 6
 content_sha256: 0cc4a011cf90df70c7c954a5ab2abc7963ad037156c1a1c0793fa4929863d939
 translated_from: content/en/int/VIII/05_s5_the_space_of_closed_subgroups.md
-source_content_sha256: df6249adfaf1d62d12fcf5b895066464710db932ad537976ee4ab047e0e962fe
+source_content_sha256: 01870d0b77fcb1c4a2b7e865b1bb359c7cdf4ab495746a2c27d2b9cb17aef38e
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-1ea08f37
 glossary_version: 34

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 166
 statements: 12
 exercises: 18
-content_sha256: f851ffdb4b2c2b1ddbe8b7336668e7aa1d731014ba4becd09cab912a4d2af5c7
+content_sha256: 5b8b11c50520f8ccfea99780d11840f43d7572ba4b6ee75c9508548dd842e65d
 ---
 
 ## § 4. CENTRAL FILTRATIONS
@@ -280,7 +280,7 @@ Recall (no. 1, Remark) that a filtration (G_\alpha) on the group G is called int
 
 (i) \quad G_1 = G
 (ii) \quad G_n \supset G_{n+1} \quad \text{for all } n \geq 1
-(iii) \quad (G_m, G_n) \subset G_{m+n} \quad \text{for } m \geq 1 \text{ and } n \geq 1.
+$(iii) \quad (G_m, G_n) \subset G_{m+n}$ for $m \geq 1$ and $n \geq 1$.
 
 For every integer n \geq 1, G_n is a normal subgroup of G and the quotient gr_n(G) = G_n/G_{n+1} is commutative. On taking quotients, the mapping (x, y) \mapsto (x, y) = x^{-1}y^{-1}xy of G_m \times G_n into G_{m+n} allows us to define on gr(G) = \bigoplus_{n \geq 1} gr_n(G) a graded Lie algebra structure of type \mathbf{N} over the ring \mathbf{Z}.
 

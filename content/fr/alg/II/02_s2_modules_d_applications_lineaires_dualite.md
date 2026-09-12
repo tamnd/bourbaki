@@ -45,7 +45,7 @@ subsections:
       pdf_page: 225
 statements: 43
 exercises: 24
-content_sha256: 9bc51dded0ad3dcb4f786f21c924b77574d5a0c190ca4e0da3b8d5527607e9b3
+content_sha256: 173afe51ccd024b5cbe1b44c6fbaef6f4d92480a620e83fd991be21236b18bfa
 ---
 
 ## § 2. MODULES D’APPLICATIONS LINÉAIRES. DUALITÉ
@@ -304,7 +304,7 @@ $$
 
 *Soient $E$ un $A$-module, $E^*$ son dual; on dit qu’un élément $x \in E$ et un élément $x^* \in E^*$ sont orthogonaux si $\langle x, x^* \rangle = 0$.*
 
-On dit qu’une partie $M$ de $E$ et une partie $M'$ de $E^*$ sont des *ensembles orthogonaux* si, quels que soient $x \in M,\ x^* \in M'$, $x$ et $x^*$ sont orthogonaux. En particulier, x^* \in E^* (\text{resp. } x \in E) \text{ est dit orthogonal à } M \text{ (resp. } M') \text{ s’il est orthogonal à tout élément de } M \text{ (resp. } M'). \text{ Si } x^* \text{ et } y^* \text{ sont orthogonaux à } M, \text{ il en est de même de } x^* + y^* \text{ et de } x^* \alpha \text{ pour tout } \alpha \in A \text{ en vertu de (10) et (12) (II, p. 40), ce qui justifie la définition suivante:}
+On dit qu’une partie $M$ de $E$ et une partie $M'$ de $E^*$ sont des *ensembles orthogonaux* si, quels que soient $x \in M,\ x^* \in M'$, $x$ et $x^*$ sont orthogonaux. En particulier, $x^* \in E^*$ (resp. $x \in E$) est dit orthogonal à $M$ (resp. $M'$) s’il est orthogonal à tout élément de $M$ (resp. $M'$). Si $x^*$ et $y^*$ sont orthogonaux à $M$, il en est de même de $x^* + y^*$ et de $x^* \alpha$ pour tout $\alpha \in A$ en vertu de (10) et (12) (II, p. 40), ce qui justifie la définition suivante:
 
 #### Définition 4 {#alg-ii-s2-def-4 .statement}
 

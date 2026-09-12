@@ -32,7 +32,7 @@ content_sha256: f88b4b52f694ff4a1c9d94f4ee72987b780e49e75d335b85fa30060fd25a80d4
 translated_from: content/fr/alg/IX/10_s10_angles.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: c5f77be1f2d6cb06c5c26e1149f0e0dc6accc3e7160a82297f8f751e104ae038
+source_content_sha256: e6f4105ad39a1c9dbaf8b50785fe7f7f3b4465149fc837eeec0c1609a934d47d
 translation_model: gpt-5.4
 translation_run: translate-en-mt-28a9c0c6
 glossary_version: 34

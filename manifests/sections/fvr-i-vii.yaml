@@ -266,7 +266,7 @@ chapters:
           statements: 38
           exercises: 3
           extraction: ocr
-          content_sha256: 6330500168d2d4a681a388f5a8611dcf87cdefecd1ad1fb37cd39aacf7c2551c
+          content_sha256: 866ddc595833f4df526fd8eb97073f6b7852bd2cb892053b6e89c39b0b88935f
         - kind: section
           section: 2
           title: ASYMPTOTIC EXPANSIONS

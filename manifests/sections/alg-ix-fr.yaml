@@ -133,7 +133,7 @@ chapters:
           statements: 31
           exercises: 0
           extraction: ocr
-          content_sha256: c5f77be1f2d6cb06c5c26e1149f0e0dc6accc3e7160a82297f8f751e104ae038
+          content_sha256: e6f4105ad39a1c9dbaf8b50785fe7f7f3b4465149fc837eeec0c1609a934d47d
         - kind: historical
           title: Historical Note
           path: content/fr/alg/IX/historical_note.md
