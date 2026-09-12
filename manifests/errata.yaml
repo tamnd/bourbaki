@@ -215,6 +215,18 @@ errata:
             reproving, that every nilpotent element lies in a Borel subalgebra, is
             Corollary 2 of Theorem 2 on page 170.
     - label: lie-iv-s2-ex-25
+      lang: en
+      errata:
+        - says: j^{-1}(j(e_w \otimes x)j(e_{w'} \otimes y)) = e_{ww'} \otimes \sigma_\omega(x)y
+          read: j^{-1}(j(e_\omega \otimes x)j(e_{\omega'} \otimes y)) = e_{\omega\omega'} \otimes \sigma_\omega(x)y
+          why: The sentence that opens part c) names the canonical basis of k[Omega] as
+            (e_omega) and the sentence that closes the display says "for omega, omega'
+            in Omega". The display on page 58 sets the three subscripts on e with an
+            italic roman w, and sets sigma_omega round on the same line, so the two
+            letters stand side by side and are plainly not the same glyph. The Weyl
+            group element w of a_BwB is a different letter and keeps its own. The
+            French of 1968 (LIE IV, p. 56) sets omega in all three places.
+    - label: lie-iv-s2-ex-25
       lang: fr
       errata:
         - says: pour $\omega \in \Omega$ et $w \in \Omega$
