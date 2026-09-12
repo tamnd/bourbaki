@@ -33,7 +33,7 @@ subsections:
       pdf_page: 156
 statements: 24
 exercises: 18
-content_sha256: 24cd43812ef1976a490cf9851e6095dc2002480d9c6d6f45be98dfa57b86113e
+content_sha256: 732d0bf5cbdb060a54cdf12410d56095982532b83bb7ad565c69e521edffa36a
 ---
 
 ## § 8. SYMMETRIC INVARIANTS
@@ -289,7 +289,7 @@ Extending the base field if necessary, we can assume that $\mathfrak{a}=\mathfra
 
 #### Remark 1 {#lie-viii-s8-n3-rem-1 .statement tag=01L5}
 
-$^*$Let $P_1, . . . ,P_l$ be algebraically independent homogeneous elements of I that generate the algebra I. Then $(P_1, . . . ,P_l)$ is an $\mathbf{S}(\mathfrak{a}^*)$-regular sequence (Chap. V, §5, no. 5). Indeed, extending the base field if necessary, we can assume that $\mathfrak{a}=\mathfrak{g}$ is splittable. Now let N = dim $\mathfrak{g}$, and let
+\*Let $P_1, . . . ,P_l$ be algebraically independent homogeneous elements of I that generate the algebra I. Then $(P_1, . . . ,P_l)$ is an $\mathbf{S}(\mathfrak{a}^*)$-regular sequence (Chap. V, §5, no. 5). Indeed, extending the base field if necessary, we can assume that $\mathfrak{a}=\mathfrak{g}$ is splittable. Now let N = dim $\mathfrak{g}$, and let
 
 $$
 (Q_1, . . . ,Q_{N-l})
@@ -305,7 +305,7 @@ prime ideal of $\mathbf{S}(\mathfrak{a}^*)$ and that $\mathbf{S}(\mathfrak{a}^*)
 
 #### Remark 2 {#lie-viii-s8-n3-rem-2 .statement tag=01L6}
 
-The algebra $\mathbf{S}(\mathfrak{a}^*)$ is a graded free module over I. Indeed, this follows from Prop. 4, Remark 1, and Chap. V, §5, no. 5, Lemma $5._*$
+The algebra $\mathbf{S}(\mathfrak{a}^*)$ is a graded free module over I. Indeed, this follows from Prop. 4, Remark 1, and Chap. V, §5, no. 5, Lemma 5.\*
 
 ### 4. PROPERTIES OF Aut0
 

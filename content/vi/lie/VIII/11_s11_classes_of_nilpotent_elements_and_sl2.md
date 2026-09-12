@@ -29,9 +29,9 @@ subsections:
       pdf_page: 178
 statements: 29
 exercises: 17
-content_sha256: b1c12c792c7b1d881f9549a807c5c7c8ee57529d4cb53d5f46ebdb3d28861849
+content_sha256: 00ceb7ae5c9f61f3ee03f219cf4f1005f40694d1ace615f6f66fecdb849e0627
 translated_from: content/en/lie/VIII/11_s11_classes_of_nilpotent_elements_and_sl2.md
-source_content_sha256: 9fa596e246cac621b5b9e0b269c472085fd46db9e470656f32a0223db1df02b5
+source_content_sha256: c1241130b0c6145fe39e8ebf582c74a6fd108d7391d43fb0cba572e8a86bff67
 translation_model: gpt-5.4
 translation_run: translate-vi-7ef3e28e
 glossary_version: 34
@@ -301,7 +301,7 @@ $$
 [x,\mathfrak{h}+\mathfrak{g}^{\gamma_1}+\cdots +\mathfrak{g}^{\gamma_r}] = [x,\mathfrak{g}^0] =\mathfrak{g}^2.Q.E.D
 $$
 
-$^*$Nhóm $G_h$ là một nhóm đại số với đại số Lie ad $\mathfrak{g}^0._*$
+\*Nhóm $G_h$ là một nhóm đại số với đại số Lie ad $\mathfrak{g}^0$.\*
 
 #### Mệnh đề 6 {#lie-viii-s11-prop-6 .statement tag=017I}
 

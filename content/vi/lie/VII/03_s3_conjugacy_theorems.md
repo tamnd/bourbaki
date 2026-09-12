@@ -33,9 +33,9 @@ subsections:
       pdf_page: 36
 statements: 17
 exercises: 18
-content_sha256: bde3d9531ac6ba9aac0c45611c411a9699e01fd3024a13ba339efe5855e0fede
+content_sha256: d9813d662669bbd4daa158458b0c3b43bceee28e709afeaf4e1c6b1e0e75a382
 translated_from: content/en/lie/VII/03_s3_conjugacy_theorems.md
-source_content_sha256: 101d1c917bccf9d451ef36bc325751d7276a14c534bc85fbe7012cad2e06164a
+source_content_sha256: 2f94c55e447063be8de93e14acb2f2791b356caa14408181f0dee22d40d924cb
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-67073b9f
 glossary_version: 34
@@ -57,7 +57,7 @@ Một tích hữu hạn các tự đẳng cấu của $\mathfrak{g}$ có dạng 
 
 Nếu $u\in$ Aut($\mathfrak{g}$)$,ue^{adx}u^{-1}=e^{adu(x)}$. Suy ra rằng Aut$_e(\mathfrak{g})$ là một nhóm con chuẩn của Aut($\mathfrak{g}$). Nếu $k=\mathbf{R}$ hoặc $\mathbf{C}$, Aut$_e(\mathfrak{g})$ được chứa trong nhóm Int($\mathfrak{g}$) các tự đẳng cấu nội của $\mathfrak{g}$ (Chap. III, §6, no. 2, Định. 2).
 
-$^*$ Trong trường hợp tổng quát, Aut$_e(\mathfrak{g})$ được chứa trong thành phần đơn vị của nhóm đại số Aut($\mathfrak{g}$)$._*$
+\* Trong trường hợp tổng quát, Aut$_e(\mathfrak{g})$ được chứa trong thành phần đơn vị của nhóm đại số Aut($\mathfrak{g}$).\*
 
 #### Bổ đề 1 {#lie-vii-s3-lem-1 .statement tag=00V1}
 

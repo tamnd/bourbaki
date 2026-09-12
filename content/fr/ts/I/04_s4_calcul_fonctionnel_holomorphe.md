@@ -69,7 +69,7 @@ subsections:
       pdf_page: 101
 statements: 55
 exercises: 18
-content_sha256: c9001c326aa1e0c5c534ba4c11cbd814c51f66f6a0e2b17538081e873d9f5b50
+content_sha256: 3c3488ce5943c67177e2be2fab3c9bc4fb2011a659aa3ed2e8208cd74c595c9f
 ---
 
 ## § 4. CALCUL FONCTIONNEL HOLOMORPHE
@@ -1444,7 +1444,7 @@ On a $z^*=z$, donc $z$ appartient à $\mathscr{O}_{\mathbf{R}}(S)$. Soit B une s
 
 Il existe des polynômes P et Q dans $\mathbf{C}[X]$ tels que Q ne s’annule en aucun point de S et que l’on ait $f=\frac{P(z)}{Q(z)}$. Notons $P^*$ et $Q^*$ les polynômes obtenus en remplaçant les coefficients de P et Q par leurs conjugués. On a alors $P(z)^*= P^*(z)$ et $Q(z)^*= Q^*(z)$. Comme S est stable par la conjugaison complexe, le polynôme $Q^*$ ne s’annule en aucun point de S. Les germes $Q^*(z)$ et (QQ$^*$)$(z)$ sont donc inversibles dans $\mathscr{O}(S)$, et
 
-$f+f^*=\frac{P(z)}{Q(z)}+\frac{P^*(z)}{Q^*(z)}=$ (PQ(QQ$^*+ P_*$)$(^*Q)(z)z$).
+$f+f^*=\frac{P(z)}{Q(z)}+\frac{P^*(z)}{Q^*(z)}=\frac{(PQ^*+P^*Q)(z)}{(QQ^*)(z)}$.
 
 Comme les polynômes PQ$^*+ P^*Q$ et QQ$^*$ sont à coefficients réels et que B est une sous-$\mathbf{R}$-algèbre pleine de $\mathscr{O}(S)$ contenant $z$, l’élément $f+f^*$ appartient à B. Cela conclut la preuve de la proposition.
 

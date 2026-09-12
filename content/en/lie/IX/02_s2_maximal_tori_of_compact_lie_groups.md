@@ -37,7 +37,7 @@ subsections:
       pdf_page: 302
 statements: 32
 exercises: 11
-content_sha256: 9b6059c982564aa4235b7c9c109f70040d2fb6db104dd21086418462dc06fb2f
+content_sha256: 09376883a430ceee6e2f9d7416163648064cb06680a75c0f4d800750884c66c2
 ---
 
 ## § 2. MAXIMAL TORI OF COMPACT LIE GROUPS
@@ -158,7 +158,7 @@ Let $h\in H$. Then $h^{-1}Th$ is a maximal torus of $H_0$, hence (Th. 2) there e
 
 Let G be a connected Lie group whose Lie algebra is compact. The Cartan subgroups of G are the integral subgroups whose Lie algebras are the Cartan subalgebras of L(G) (the Cartan subgroups of a connected compact group are thus its maximal tori). Theorem 2 and its corollaries remain valid for G, if we replace everywhere the expression “maximal torus” by “Cartan subgroup”. This follows immediately from the fact that, in view of Prop. 5 of §1, no. 4, G is the direct product of a vector group V and a connected compact group K and that the Cartan subgroups of G are the products of V with the maximal tori of K. Moreover, note that it follows from Cor. 6 above that the Cartan subgroups of G can also be defined as the fixers of the Cartan subalgebras of L(G).
 
-$^*4)$ Part c) of Theorem 2 can also be proved in the following way. Give G an invariant riemannian metric (§1, no. 3, Prop. 3). Then, for any element $g$ of G, there exists a maximal geodesic passing through $g$ and the identity element of G (Hopf-Rinow theorem), and it can be verified that the closure of such a geodesic is a subtorus of $G._*$
+$^*4)$ Part c) of Theorem 2 can also be proved in the following way. Give G an invariant riemannian metric (§1, no. 3, Prop. 3). Then, for any element $g$ of G, there exists a maximal geodesic passing through $g$ and the identity element of G (Hopf-Rinow theorem), and it can be verified that the closure of such a geodesic is a subtorus of $G$.\*
 
 ### 3. MAXIMAL TORI OF SUBGROUPS AND QUOTIENT GROUPS
 

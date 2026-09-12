@@ -33,7 +33,7 @@ subsections:
       pdf_page: 53
 statements: 29
 exercises: 11
-content_sha256: 3fa30c6fba10fffca825520c5c62e37059e144cf09425181ebf911b2d7791257
+content_sha256: 9348eb1c66b5306a2d380eb335d4afb9f19486f3e78d4da673c181842d07b2e0
 ---
 
 ## § 5. DECOMPOSABLE LINEAR LIE ALGEBRAS
@@ -56,7 +56,7 @@ Assume that V has an algebra structure. The set of derivations of V is a decompo
 
 #### Example 3 {#lie-vii-s5-n1-exa-3 .statement tag=01KQ}
 
-More generally, it can be shown that the Lie algebra of any algebraic subgroup of $\mathbf{G}\mathbf{L}(V)$ is decomposable.$_*$
+More generally, it can be shown that the Lie algebra of any algebraic subgroup of $\mathbf{G}\mathbf{L}(V)$ is decomposable.\*
 
 #### Proposition 1 {#lie-vii-s5-prop-1 .statement tag=00WJ}
 

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 178
 statements: 29
 exercises: 17
-content_sha256: 69278bbf0e9945c81205a66c4f831ee0a6453557fe5210e0d6d6b4fcf1775ef3
+content_sha256: c1241130b0c6145fe39e8ebf582c74a6fd108d7391d43fb0cba572e8a86bff67
 ---
 
 ## § 11. CLASSES OF NILPOTENT ELEMENTS AND $\mathfrak{s}\mathfrak{l}_{2}$-TRIPLETS
@@ -294,7 +294,7 @@ $$
 [x,\mathfrak{h}+\mathfrak{g}^{\gamma_1}+\cdots +\mathfrak{g}^{\gamma_r}] = [x,\mathfrak{g}^0] =\mathfrak{g}^2.Q.E.D
 $$
 
-$^*$The group $G_h$ is an algebraic group with Lie algebra ad $\mathfrak{g}^0._*$
+\*The group $G_h$ is an algebraic group with Lie algebra ad $\mathfrak{g}^0$.\*
 
 #### Proposition 6 {#lie-viii-s11-prop-6 .statement tag=017I}
 

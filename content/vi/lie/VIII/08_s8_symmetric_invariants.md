@@ -33,9 +33,9 @@ subsections:
       pdf_page: 156
 statements: 24
 exercises: 18
-content_sha256: ceec09bb57f2c60cceea4737d262c09296fa915afd68aacc319a376190d0229a
+content_sha256: b34376a8180986b1d4a06c4af7ffedee956bf0cf16ffe02e0ace00d56603eb04
 translated_from: content/en/lie/VIII/08_s8_symmetric_invariants.md
-source_content_sha256: 24cd43812ef1976a490cf9851e6095dc2002480d9c6d6f45be98dfa57b86113e
+source_content_sha256: 732d0bf5cbdb060a54cdf12410d56095982532b83bb7ad565c69e521edffa36a
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-6f37fd3e
 glossary_version: 34
@@ -296,7 +296,7 @@ Mở rộng trường cơ sở nếu cần, ta có thể giả sử rằng $\mat
 
 #### Nhận xét 1 {#lie-viii-s8-n3-rem-1 .statement tag=01L5}
 
-$^*$Cho $P_1, . . . ,P_l$ là các phần tử thuần nhất độc lập đại số của I sinh ra đại số I. Khi đó $(P_1, . . . ,P_l)$ là một dãy $\mathbf{S}(\mathfrak{a}^*)$-chính quy (Chương V, §5, no. 5). Thật vậy, mở rộng trường cơ sở nếu cần, ta có thể giả sử rằng $\mathfrak{a}=\mathfrak{g}$ là tách được. Bây giờ đặt N = dim $\mathfrak{g}$, và cho
+\*Cho $P_1, . . . ,P_l$ là các phần tử thuần nhất độc lập đại số của I sinh ra đại số I. Khi đó $(P_1, . . . ,P_l)$ là một dãy $\mathbf{S}(\mathfrak{a}^*)$-chính quy (Chương V, §5, no. 5). Thật vậy, mở rộng trường cơ sở nếu cần, ta có thể giả sử rằng $\mathfrak{a}=\mathfrak{g}$ là tách được. Bây giờ đặt N = dim $\mathfrak{g}$, và cho
 
 $$
 (Q_1, . . . ,Q_{N-l})
@@ -312,7 +312,7 @@ iđêan nguyên tố của $\mathbf{S}(\mathfrak{a}^*)$ và rằng $\mathbf{S}(\
 
 #### Nhận xét 2 {#lie-viii-s8-n3-rem-2 .statement tag=01L6}
 
-Đại số $\mathbf{S}(\mathfrak{a}^*)$ là một môđun tự do phân bậc trên I. Thật vậy, điều này suy ra từ Mệnh đề 4, Nhận xét 1, và Chương V, §5, no. 5, Bổ đề $5._*$
+Đại số $\mathbf{S}(\mathfrak{a}^*)$ là một môđun tự do phân bậc trên I. Thật vậy, điều này suy ra từ Mệnh đề 4, Nhận xét 1, và Chương V, §5, no. 5, Bổ đề 5.\*
 
 ### 4. CÁC TÍNH CHẤT CỦA Aut0
 

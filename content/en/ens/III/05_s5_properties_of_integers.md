@@ -46,7 +46,7 @@ subsections:
       pdf_page: 185
 statements: 30
 exercises: 18
-content_sha256: 21f4df17f9ad65567a7ae230b36d060577ae866fcfdd26e671761437b3221fce
+content_sha256: 3be04f126cfae8abc23e921d976ad2b92ca04282828df49f6677b21e985508ca
 ---
 
 ## 5. PROPERTIES OF INTEGERS
@@ -187,7 +187,7 @@ Let $\mathrm{P}\{i\}$ be a relation such that the elements $i$ for which $\mathr
 
 $$\prod_{\mathrm{P}\{i\}} \mathrm{X}_i \quad \text{and} \quad \prod_{i=a}^{b} \mathrm{X}_i$$
 
-are used; and analogous notations for union, intersection, cardinal product, cardinal sum, \* composition laws in Algebra $_*$, and so on.
+are used; and analogous notations for union, intersection, cardinal product, cardinal sum, \* composition laws in Algebra \*, and so on.
 
 ### 5. CHARACTERISTIC FUNCTIONS OF SETS
 

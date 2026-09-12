@@ -49,7 +49,7 @@ subsections:
       pdf_page: 249
 statements: 95
 exercises: 68
-content_sha256: 44d8e1262e651735e5764e1dec2d575d432840d199837a351570f025a680a83d
+content_sha256: fdbbbeb1228457f9a0a6d06db468a1ebd7b9c6dc5a03047519adc03e5c95f1cf
 ---
 
 ## § 1. TRANSFORMATION DE FOURIER
@@ -1452,7 +1452,7 @@ On appelle covolume du réseau Λ, et on note V(Λ), la mesure de $\mathbf{R}^n/
 
 $\sum f(x+y) =\sum\widehat{f}(z)$ exp(2$i\pi  y\cdot z$).
 
-V(Λ) $_*$
+V(Λ) \*
 
 $x\in \Lambda z\in \Lambda$
 

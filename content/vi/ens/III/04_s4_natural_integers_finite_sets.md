@@ -34,9 +34,9 @@ subsections:
       pdf_page: 176
 statements: 15
 exercises: 11
-content_sha256: 4aeb27d25c35f74b38910eed7abcb9e5ff4b76ddeb70bc1e5eaf1b0d31fa5a95
+content_sha256: 33ce52bd84cfdc18dcb947dc09faf1f47114ff8f3efb5fb604e861b3abae30bc
 translated_from: content/en/ens/III/04_s4_natural_integers_finite_sets.md
-source_content_sha256: 6124f77d2424d43d092ed015ee9df777eee17e45957a9f97af290618c63c1a97
+source_content_sha256: b6197df9a8aa019ce7bbd53439ae89b52be171c24e2b80a5ca96af38b9e1b237
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-a06056d0
 glossary_version: 34
@@ -246,7 +246,7 @@ Tập hợp các tập con được sắp thứ tự toàn phần của một t�
 
 #### Ví dụ 3 {#ens-iii-s4-n5-exa-3 .statement tag=03TB}
 
-Tập hợp các môđun con của một môđun $E$ không có đặc trưng hữu hạn, bởi vì một tập con hữu hạn của một môđun con của $E$ không nhất thiết là một môđun con của $E$. $_*$
+Tập hợp các môđun con của một môđun $E$ không có đặc trưng hữu hạn, bởi vì một tập con hữu hạn của một môđun con của $E$ không nhất thiết là một môđun con của $E$. \*
 
 #### Định lý 1 {#ens-iii-s4-thm-1 .statement tag=03LD}
 

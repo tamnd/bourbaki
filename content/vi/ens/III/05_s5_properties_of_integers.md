@@ -46,9 +46,9 @@ subsections:
       pdf_page: 185
 statements: 30
 exercises: 18
-content_sha256: 360a82fc5a257e4bf201349b95981cf9a7a57f90ce3df9765675156ae170ddae
+content_sha256: 70701934c89b0c2cc9db25194f9cb4303a224d0ef9c0b15b89f770e1e5aeeece
 translated_from: content/en/ens/III/05_s5_properties_of_integers.md
-source_content_sha256: 21f4df17f9ad65567a7ae230b36d060577ae866fcfdd26e671761437b3221fce
+source_content_sha256: 3be04f126cfae8abc23e921d976ad2b92ca04282828df49f6677b21e985508ca
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-25341e40
 glossary_version: 34
@@ -194,7 +194,7 @@ Cho $\mathrm{P}\{i\}$ là một quan hệ sao cho các phần tử $i$ mà với
 
 $$\prod_{\mathrm{P}\{i\}} \mathrm{X}_i \quad \text{và} \quad \prod_{i=a}^{b} \mathrm{X}_i$$
 
-cũng như các ký hiệu tương tự cho hợp, giao, tích lực lượng, tổng lực lượng, \* các luật hợp thành trong Đại số $_*$, v.v.
+cũng như các ký hiệu tương tự cho hợp, giao, tích lực lượng, tổng lực lượng, \* các luật hợp thành trong Đại số \*, v.v.
 
 ### 5. CÁC HÀM ĐẶC TRƯNG CỦA TẬP HỢP
 

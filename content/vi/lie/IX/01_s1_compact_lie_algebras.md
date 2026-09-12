@@ -29,9 +29,9 @@ subsections:
       pdf_page: 291
 statements: 13
 exercises: 9
-content_sha256: 7ecf9dfec17f9e76d10891d85b5a309b792020b218aeb9590b60a867e4943634
+content_sha256: d5b1ba3d21d564debe27114c2b9aa1e70d68b73592c1ea8ffc54f4d8d6066a50
 translated_from: content/en/lie/IX/01_s1_compact_lie_algebras.md
-source_content_sha256: 944894592e14a8d7609536ce9e49868c10534458947d804a90800246f3db6c8b
+source_content_sha256: 71ef208b41db85bf8bc8c5557777019fadb960c88536da1750a4c9288864f27c
 translation_model: gpt-5-6, gpt-5.4
 translation_run: translate-vi-115a3f5d
 glossary_version: 34
@@ -151,7 +151,7 @@ Cho G là một nhóm Lie mà nhóm các thành phần liên thông của nó l�
 
 (iii) Tồn tại một dạng song tuyến tính đối xứng dương phân ly trên L(G) bất biến đối với biểu diễn liên hợp của G.
 
-$^*$(iv) G có một metric riemann bất biến dưới các phép tịnh tiến trái và phải.$_*$
+\*(iv) G có một metric riemann bất biến dưới các phép tịnh tiến trái và phải.\*
 
 (i) $=\Rightarrow$ (ii): nếu L(G) là compact, thì nhóm Ad(G$_0$) $=$ Int(L(G)) là compact; vì nó có chỉ số hữu hạn trong Ad(G), nên nhóm sau này cũng compact.
 
@@ -159,7 +159,7 @@ $^*$(iv) G có một metric riemann bất biến dưới các phép tịnh tiế
 
 (iii) $=\Rightarrow$ (i): vì Int(L(G)) $\subset$ Ad(G), điều này suy ra từ đặc trưng hóa (iii) của Mệnh đề 1.
 
-$^*$(iii) $\Leftarrow \Rightarrow$ (iv): điều này suy ra từ Chương III, §3, số $13._*$
+\*(iii) $\Leftarrow \Rightarrow$ (iv): điều này suy ra từ Chương III, §3, số 13.\*
 
 ### 4. NHÓM CÓ ĐẠI SỐ LIE COMPACT
 

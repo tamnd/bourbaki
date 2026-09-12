@@ -37,9 +37,9 @@ errata:
     - says: Chap. VII, §13, no. 1
       read: Chap. VIII, §13, no. 1
       why: Chapter VII has five sections and no section 13. The sentence says that the groups Aut$_0(\mathfrak{g})$ and Aut$_e(\mathfrak{g})$ can be distinct, and the place that shows it is no. 1 of section 13 of this chapter, on the algebras of type $A_l$, which computes Aut$_0(\mathfrak{g}) =\varphi (\mathbf{G}\mathbf{L}(l+ 1, k))$, identifies the quotient Aut$_0(\mathfrak{g})/$Aut$_e(\mathfrak{g})$ with $\mathbf{P}\mathbf{G}\mathbf{L}(l+ 1, k)/\mathbf{P}\mathbf{S}\mathbf{L}(l+ 1, k)$, and over the reals finds it isomorphic to $\mathbf{Z}/2\mathbf{Z}$ when $l+1$ is even. Chapter VII names neither group anywhere.
-content_sha256: 8da3b3ea060be7644f4ab6a510120eb7d7c0e9f7bcc879b35bff36ee7564b0dc
+content_sha256: 861132dc965692b6a6be20c9e9b725dd1c0e652938ef068983a6b256ed885d53
 translated_from: content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md
-source_content_sha256: 80823ac5024f35186150a7d683b4b02c82a9670ba20df80f2f6ba46b412253ae
+source_content_sha256: 952a7b9240fa2d193986215a77b227fd820dee9114e1cdbfa00e8cbcdb6611b5
 translation_model: gpt-5.4
 translation_run: translate-vi-e27281d2
 glossary_version: 34
@@ -367,7 +367,7 @@ Cho Aut$_e(\mathfrak{g}) =\Omega \cup \Omega '$ là một phân hoạch của Au
 
 Ta sẽ thấy (§8, no. 4, Hệ quả của Mệnh đề 6) rằng Aut$_0(\mathfrak{g})$ đóng trong V đối với tôpô Zariski, và rằng nó là thành phần liên thông của phần tử đơn vị của Aut($\mathfrak{g}$). Mặt khác, Aut$_e(\mathfrak{g})$ nói chung không đóng đối với tôpô Zariski.
 
-$^*$Giả sử rằng $(\mathfrak{g},\mathfrak{h})$ là tách. Nhóm Aut$_0(\mathfrak{g})$ là nhóm $G(k)$ của các $k$-điểm của một nhóm đại số nửa đơn liên thông G có tâm tầm thường (nhóm adjoint). Nhóm $f(T_Q)$ bằng $H(k)$, trong đó H là nhóm Cartan của G có đại số Lie $\mathfrak{h}$. Ảnh ngược $\widetilde{H}$ của H trong phủ phổ quát $\widetilde{G}$ của G (theo nghĩa đại số) có $T_P$ là nhóm các $k$-điểm của nó. Ảnh của $\widetilde{G}(k)$ trong $G(k) =$ Aut$_0(\mathfrak{g})$ là nhóm Aut$_e(\mathfrak{g})._*$
+\*Giả sử rằng $(\mathfrak{g},\mathfrak{h})$ là tách. Nhóm Aut$_0(\mathfrak{g})$ là nhóm $G(k)$ của các $k$-điểm của một nhóm đại số nửa đơn liên thông G có tâm tầm thường (nhóm adjoint). Nhóm $f(T_Q)$ bằng $H(k)$, trong đó H là nhóm Cartan của G có đại số Lie $\mathfrak{h}$. Ảnh ngược $\widetilde{H}$ của H trong phủ phổ quát $\widetilde{G}$ của G (theo nghĩa đại số) có $T_P$ là nhóm các $k$-điểm của nó. Ảnh của $\widetilde{G}(k)$ trong $G(k) =$ Aut$_0(\mathfrak{g})$ là nhóm Aut$_e(\mathfrak{g})$.\*
 
 ### 5. TRƯỜNG HỢP NHÓM Lie
 

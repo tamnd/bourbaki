@@ -66,9 +66,9 @@ subsections:
       pdf_page: 153
 statements: 52
 exercises: 24
-content_sha256: 15e34b6feb0a56038abe1e9bc6fd5eddb9856507a2599453410ac33dc2edad3b
+content_sha256: 71c36c6705ff5f9baebfdba74e96701a031d0e0d09c8413c8c79dd093b269868
 translated_from: content/en/ens/III/01_s1_order_relations_ordered_sets.md
-source_content_sha256: 0ce49f6ed168f45d0951df56c7618b1d782b287ef9ecaf9b7f2bac23d82c4e7a
+source_content_sha256: 14e9fa04ef3714dde5ebc1c24c59c34cba4c8b4444c04468c4103f599e7d160e
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-5ce4d6eb
 glossary_version: 34
@@ -324,11 +324,11 @@ Trong tập hợp $\Phi(E, F)$ các ánh xạ từ các tập con của E vào F
 
 #### Ví dụ 3 {#ens-iii-s1-n6-exa-3 .statement tag=03SO}
 
-\* Trong tập hợp các số nguyên tự nhiên $> 1$, được sắp thứ tự bởi quan hệ "$m$ divides $n$" giữa $m$ và $n$, các phần tử cực tiểu là các số nguyên tố. $_*$
+\* Trong tập hợp các số nguyên tự nhiên $> 1$, được sắp thứ tự bởi quan hệ "$m$ divides $n$" giữa $m$ và $n$, các phần tử cực tiểu là các số nguyên tố. \*
 
 #### Ví dụ 4 {#ens-iii-s1-n6-exa-4 .statement tag=03SP}
 
-\* Tập hợp các số thực không có phần tử cực đại và không có phần tử cực tiểu. $_*$
+\* Tập hợp các số thực không có phần tử cực đại và không có phần tử cực tiểu. \*
 
 ### 7. PHẦN TỬ LỚN NHẤT VÀ PHẦN TỬ NHỎ NHẤT
 

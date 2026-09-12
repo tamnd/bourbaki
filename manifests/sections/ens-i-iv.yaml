@@ -233,7 +233,7 @@ chapters:
           statements: 52
           exercises: 24
           extraction: ocr
-          content_sha256: 0ce49f6ed168f45d0951df56c7618b1d782b287ef9ecaf9b7f2bac23d82c4e7a
+          content_sha256: 14e9fa04ef3714dde5ebc1c24c59c34cba4c8b4444c04468c4103f599e7d160e
         - kind: section
           section: 2
           title: Well-ordered sets
@@ -272,7 +272,7 @@ chapters:
           statements: 15
           exercises: 11
           extraction: ocr
-          content_sha256: 6124f77d2424d43d092ed015ee9df777eee17e45957a9f97af290618c63c1a97
+          content_sha256: b6197df9a8aa019ce7bbd53439ae89b52be171c24e2b80a5ca96af38b9e1b237
         - kind: section
           section: 5
           title: Properties of integers
@@ -285,7 +285,7 @@ chapters:
           statements: 30
           exercises: 18
           extraction: ocr
-          content_sha256: 21f4df17f9ad65567a7ae230b36d060577ae866fcfdd26e671761437b3221fce
+          content_sha256: 3be04f126cfae8abc23e921d976ad2b92ca04282828df49f6677b21e985508ca
         - kind: section
           section: 6
           title: Infinite sets

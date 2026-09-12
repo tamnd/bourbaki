@@ -6,7 +6,7 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 tags, 22379 references, 14948 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
+Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 tags, 22380 references, 14948 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
 
 ## Summary
 
@@ -17,12 +17,12 @@ Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 
 | mathematics | 10 | 5 | 0 | M03 (2), M06 (6), M13 (48), M14 (2703) |
 | figures | 6 | 0 | 0 | F01 (158) |
 | references | 3 | 0 | 0 | R01 (3369), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1392), L03 (14), L04 (10), L05 (275), L06 (2017), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
+| translation | 13 | 3 | 1 | L01 (1391), L03 (14), L04 (10), L05 (275), L06 (2017), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-29887 hard findings and 11284 soft, over 76 rules that ran and 2 that could not.
+29886 hard findings and 11284 soft, over 76 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -359,7 +359,7 @@ Soft, tags.
 - `content/vi/ens/II/06_s6_equivalence_relations.md:121` has 03TP after 03TS, which the same run assigned later
 - `content/vi/lie/IX/04_s4_root_system_associated_to_a_compact.md:428` has 01C5 after 01C7, which the same run assigned later
 
-## L01 the math spans are the English ones, in order (1392)
+## L01 the math spans are the English ones, in order (1391)
 
 Hard, translation.
 
@@ -389,7 +389,7 @@ Hard, translation.
 - `content/en-mt/ac/IX/exercises/s1/25.md:37` math span 44 is "c" and the English has "(a, b)"
 - `content/en-mt/ac/IX/exercises/s1/34.md:41` math span 27 is "n" and the English has "X_n"
 
-and 1367 more, which `bourbaki audit -only L01` prints in full.
+and 1366 more, which `bourbaki audit -only L01` prints in full.
 
 ## L03 the heading tree is the English one (14)
 

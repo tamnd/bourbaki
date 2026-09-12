@@ -29,7 +29,7 @@ subsections:
       pdf_page: 291
 statements: 13
 exercises: 9
-content_sha256: 944894592e14a8d7609536ce9e49868c10534458947d804a90800246f3db6c8b
+content_sha256: 71ef208b41db85bf8bc8c5557777019fadb960c88536da1750a4c9288864f27c
 ---
 
 ## § 1. COMPACT LIE ALGEBRAS
@@ -144,7 +144,7 @@ Let G be a Lie group of which the group of connected components is finite. The f
 
 (iii) There exists a separating positive symmetric bilinear form on L(G) invariant under the adjoint representation of G.
 
-$^*$(iv) G has a riemannian metric invariant under left and right translations.$_*$
+\*(iv) G has a riemannian metric invariant under left and right translations.\*
 
 (i) $=\Rightarrow$ (ii): if L(G) is compact, the group Ad(G$_0$) $=$ Int(L(G)) is compact; since it has finite index in Ad(G), this latter group is also compact.
 
@@ -152,7 +152,7 @@ $^*$(iv) G has a riemannian metric invariant under left and right translations.$
 
 (iii) $=\Rightarrow$ (i): since Int(L(G)) $\subset$ Ad(G), this follows from the characterization (iii) of Prop. 1.
 
-$^*$(iii) $\Leftarrow \Rightarrow$ (iv): this follows from Chap. III, §3, no. $13._*$
+\*(iii) $\Leftarrow \Rightarrow$ (iv): this follows from Chap. III, §3, no. 13.\*
 
 ### 4. GROUPS WHOSE LIE ALGEBRA IS COMPACT
 

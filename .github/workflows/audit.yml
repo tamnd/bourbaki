@@ -162,7 +162,7 @@ jobs:
       # The count was zero when this step was written, and this step then sat
       # behind a tags verify that failed on every branch from August on, so it
       # has not run on a pull request since. It was 31555 when the ceiling went
-      # in and is 29887 now, and #391 has the breakdown: 23308 of them are T03,
+      # in and is 29886 now, and #391 has the breakdown: 23308 of them are T03,
       # the statements waiting to be tagged, and most of the rest is volumes
       # that are not read through yet. The 1529 that have come off since are the
       # small mathematics rules read to nothing, the 102 seals the sweeps left
@@ -192,7 +192,8 @@ jobs:
       # honest.
       #
       # The ceiling has gone up twice, and both times because the corpus grew
-      # and not because anything broke. It has come down twice on its own. The
+      # and not because anything broke. It has come down four times on its own.
+      # The
       # first is 30032 to 29950, and that is #344: the Vietnamese was missing
       # 71 statement
       # anchors the English has, and a further handful carried an anchor on the
@@ -231,6 +232,43 @@ jobs:
       # named path per file and prints the drift it is answering for. L01, L03,
       # L04 and L07 do not move: 1392, 14, 10 and 21 before and after.
       #
+      # The fourth is 29887 to 29886, one L01, and the number is not the point.
+      # That is #403: the asterisk that marks a passage leaning on a later Book
+      # had been written by a text layer as a script inside the mathematics,
+      # $_*$ or $^*$, a subscript or a superscript hung on nothing. TeX has no
+      # reading for a base-less script and KaTeX sets it as a lone star on the
+      # subscript's baseline, near enough the printed mark that every page
+      # looked right, so nothing fired: fix star read a single glyph outside the
+      # spans and was told not to look inside one, and M11 read what fix star
+      # read. 37 marks were written that way, across 29 pages of Theory of Sets,
+      # Lie Groups, Algebra, Commutative Algebra and Theories spectrales. 35
+      # came back out by rule; the other two had been swept into a span that
+      # holds real mathematics, "(*in other words, $T(E) = \mathrm{Tor}_1^R(R/R_+,
+      # E)_*$)", where no rule can tell the bracket of the aside from the
+      # bracket of the map, and those two were read and repaired by hand.
+      #
+      # Two other readers had to learn the escaped spelling, because a page that
+      # is repaired is a page the rest of the corpus then has to read, and both
+      # of them lost something the moment the repair landed. inlineNumRE took
+      # the star bare and not escaped, so exercise 6 of the sixth section of
+      # chapter IV of Algebra in French had its mark pushed onto the end of
+      # exercise 5 and came out unmarked. The head that opens a run of Remarks
+      # in small type was read in the two mathematical spellings and not in the
+      # escaped one, so the two Remarks of the eighth section of chapter VIII of
+      # Lie Groups went unread along with the three citations to them, which is
+      # T04, T07, L02 and three of R01 all at once. Both are regression-tested
+      # in all three spellings now.
+      #
+      # The one L01 that comes off is the Vietnamese of exercise 15 of the first
+      # section of Algebra VIII, which wrote the span as $n.$ where the English
+      # writes $n$; the full stop belongs to the sentence and the repair put it
+      # there. Four Vietnamese files carried the mark already and only wanted
+      # their seal moved on, which bourbaki fix retranslated did by name. L03,
+      # L04, L05 and L07 do not move: 14, 10, 275 and 21 before and after.
+      #
+      # What is left of the family is 18 duals whose base is stranded outside
+      # the dollars, S$^*$ for $S^*$, which is fix math's to move and is #404.
+      #
       # The second time it went up is 30026 to 30032, for the second fascicule of
       # Variétés. Paragraphes 8 à 15 had been read and committed under pages/
       # for months and had never been assembled, which is #356; the eight
@@ -261,7 +299,7 @@ jobs:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: |
           if go run ./cmd/bourbaki audit -validate-tex -report reports/audit.md \
-               -json "$RUNNER_TEMP/audit.json" -max-hard 29887; then
+               -json "$RUNNER_TEMP/audit.json" -max-hard 29886; then
             echo "status=0" >> "$GITHUB_OUTPUT"
           else
             echo "status=$?" >> "$GITHUB_OUTPUT"

@@ -49,11 +49,11 @@ subsections:
       pdf_page: 249
 statements: 95
 exercises: 68
-content_sha256: 098ca7f53c74cca31cdd673d8ddc4858270e36e0d175ec4c461e496b938a2d13
+content_sha256: 330687daa8ccc991ad83884742e8588cf89e17e5a5cf65c2da59e856f319d373
 translated_from: content/en-mt/ts/II/01_s1_transformation_de_fourier.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 4709ffeb6bc4b8d9e3cb7310b2947b2de94e621599ed95e7d680b38ec7f2f419
+source_content_sha256: 71c57e1c111b81216e3e660787880340b500f721afbc52224f19cf5dadc5a9fd
 translation_model: gpt-5.4
 translation_run: translate-vi-980b4706
 glossary_version: 34
@@ -1459,7 +1459,7 @@ Cho $\Lambda \subset \mathbf{R}^n$ là một dàn (TG, VII, p. 4), và cho $\Lam
 
 $\sum f(x+y) =\sum\widehat{f}(z)$ exp(2$i\pi  y\cdot z$).
 
-V(Λ) $_*$
+V(Λ) \*
 
 $x\in \Lambda z\in \Lambda$
 

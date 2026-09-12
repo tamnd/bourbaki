@@ -37,9 +37,9 @@ subsections:
       pdf_page: 302
 statements: 32
 exercises: 11
-content_sha256: 95226c4e822cec2426a17bea153f527026ad67f4d9a120c32029d72fb42e174b
+content_sha256: 5069417062f1823d86b06f8b844ebd4f1adf198f6f4aae02ffae6a008a548775
 translated_from: content/en/lie/IX/02_s2_maximal_tori_of_compact_lie_groups.md
-source_content_sha256: 9b6059c982564aa4235b7c9c109f70040d2fb6db104dd21086418462dc06fb2f
+source_content_sha256: 09376883a430ceee6e2f9d7416163648064cb06680a75c0f4d800750884c66c2
 translation_model: gpt-5.4
 translation_run: translate-vi-fac2a5a0
 glossary_version: 34
@@ -165,7 +165,7 @@ Cho $h\in H$. Khi đó $h^{-1}Th$ là một xuyến cực đại của $H_0$, do
 
 Cho G là một nhóm Lie liên thông mà đại số Lie của nó là compact. Các nhóm con Cartan của G là các nhóm con nguyên mà các đại số Lie của chúng là các đại số con Cartan của L(G) (do đó các nhóm con Cartan của một nhóm compact liên thông chính là các xuyến cực đại của nó). Định lý 2 và các hệ quả của nó vẫn còn đúng đối với G, nếu ở mọi nơi ta thay thế biểu thức “xuyến cực đại” bằng “nhóm con Cartan”. Điều này suy ra ngay lập tức từ việc, theo Mệnh đề 5 của §1, no. 4, G là tích trực tiếp của một nhóm vectơ V và một nhóm compact liên thông K, và các nhóm con Cartan của G là các tích của V với các xuyến cực đại của K. Hơn nữa, chú ý rằng từ Hệ quả 6 ở trên suy ra rằng các nhóm con Cartan của G cũng có thể được định nghĩa như các bộ phận cố định của các đại số con Cartan của L(G).
 
-$^*4)$ Phần c) của Định lý 2 cũng có thể được chứng minh theo cách sau. Trang bị cho G một metric riemann bất biến (§1, no. 3, Mệnh đề 3). Khi đó, với mọi phần tử $g$ của G, tồn tại một đường trắc địa cực đại đi qua $g$ và phần tử đơn vị của G (định lý Hopf-Rinow), và có thể kiểm tra được rằng bao đóng của một đường trắc địa như vậy là một xuyến con của $G._*$
+$^*4)$ Phần c) của Định lý 2 cũng có thể được chứng minh theo cách sau. Trang bị cho G một metric riemann bất biến (§1, no. 3, Mệnh đề 3). Khi đó, với mọi phần tử $g$ của G, tồn tại một đường trắc địa cực đại đi qua $g$ và phần tử đơn vị của G (định lý Hopf-Rinow), và có thể kiểm tra được rằng bao đóng của một đường trắc địa như vậy là một xuyến con của $G$.\*
 
 ### 3. XUYẾN CỰC ĐẠI CỦA CÁC NHÓM CON VÀ CÁC NHÓM THƯƠNG
 

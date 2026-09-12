@@ -52,7 +52,7 @@ chapters:
           statements: 17
           exercises: 18
           extraction: native
-          content_sha256: 101d1c917bccf9d451ef36bc325751d7276a14c534bc85fbe7012cad2e06164a
+          content_sha256: 2f94c55e447063be8de93e14acb2f2791b356caa14408181f0dee22d40d924cb
         - kind: section
           section: 4
           title: Regular elements of a Lie group
@@ -78,7 +78,7 @@ chapters:
           statements: 29
           exercises: 11
           extraction: native
-          content_sha256: 3fa30c6fba10fffca825520c5c62e37059e144cf09425181ebf911b2d7791257
+          content_sha256: 9348eb1c66b5306a2d380eb335d4afb9f19486f3e78d4da673c181842d07b2e0
         - kind: appendix
           section: 1
           title: Polynomial maps and Zariski topology
@@ -182,7 +182,7 @@ chapters:
           statements: 25
           exercises: 13
           extraction: native+ocr
-          content_sha256: a1e9bccf04c99efe131507abc95e90d42301f0f37b3734decb437c6e11d1395f
+          content_sha256: 952a7b9240fa2d193986215a77b227fd820dee9114e1cdbfa00e8cbcdb6611b5
         - kind: section
           section: 6
           title: Modules over a split semi-simple Lie algebra
@@ -221,7 +221,7 @@ chapters:
           statements: 24
           exercises: 18
           extraction: native+ocr
-          content_sha256: 24cd43812ef1976a490cf9851e6095dc2002480d9c6d6f45be98dfa57b86113e
+          content_sha256: 732d0bf5cbdb060a54cdf12410d56095982532b83bb7ad565c69e521edffa36a
         - kind: section
           section: 9
           title: The formula of Hermann Weyl
@@ -260,7 +260,7 @@ chapters:
           statements: 29
           exercises: 17
           extraction: native+ocr
-          content_sha256: 69278bbf0e9945c81205a66c4f831ee0a6453557fe5210e0d6d6b4fcf1775ef3
+          content_sha256: c1241130b0c6145fe39e8ebf582c74a6fd108d7391d43fb0cba572e8a86bff67
         - kind: section
           section: 12
           title: Chevalley orders
@@ -312,7 +312,7 @@ chapters:
           statements: 13
           exercises: 9
           extraction: native
-          content_sha256: 944894592e14a8d7609536ce9e49868c10534458947d804a90800246f3db6c8b
+          content_sha256: 71ef208b41db85bf8bc8c5557777019fadb960c88536da1750a4c9288864f27c
         - kind: section
           section: 2
           title: Maximal tori of compact Lie groups
@@ -325,7 +325,7 @@ chapters:
           statements: 32
           exercises: 11
           extraction: native+ocr
-          content_sha256: 9b6059c982564aa4235b7c9c109f70040d2fb6db104dd21086418462dc06fb2f
+          content_sha256: 09376883a430ceee6e2f9d7416163648064cb06680a75c0f4d800750884c66c2
         - kind: section
           section: 3
           title: Compact forms of complex semi-simple Lie algebras

@@ -32,7 +32,7 @@ subsections:
       pdf_page: 113
 statements: 24
 exercises: 9
-content_sha256: 56f9e3f02f523f8944f9a1f8a67de8fe6795e253b28b22271872604536b7455a
+content_sha256: dc7d9182dd5479482a539530f747f9006ab180f435bcaeb95dbeeb786c23fe8f
 ---
 
 ## § 5. Invariants dans l’algèbre symétrique
@@ -143,7 +143,7 @@ Pour toute algèbre graduée $A = A_0 \oplus A_1 \oplus \ldots \oplus A_n \oplus
 
 *Soient $K$ un corps commutatif, $V$ un espace vectoriel de dimension finie sur $K$, $S = S(V)$ l’algèbre symétrique de $V$, $G$ un groupe fini d’automorphismes de $V$, et $R$ la sous-algèbre graduée de $S$ formée des éléments invariants par $G$. On suppose que $G$ est engendré par des pseudo-réflexions ($§ 2,$ no 1 ), et que $q = \mathrm{Card}(G)$ est étranger à l’exposant caractéristique de $K$. Alors le $R$-module $S$ admet une base formée de $q$ éléments homogènes.*
 
-a) Comme chaque sous-module de $S/(R_+ S)$ est libre sur $R_0 = K$, il suffit de montrer (en vertu d’*Alg.*, chap. II, 3e éd., § 11, no 4, prop. 7) que l’homomorphisme canonique de $R_+ \otimes_R S$ dans $S$ est injectif. Pour tout $R$-module $E$, notons $T(E)$ le $R$-module $\mathrm{Ker}(R_+ \otimes_R E \to E)$ (*autrement dit $T(E) = \mathrm{Tor}_1^R(R/R_+, E)_*$). Si $E, E'$ sont deux $R$-modules et si $u$ est un homomorphisme de $E$ dans $E'$, l’homomorphisme $1 \otimes u$ de $R_+ \otimes E$ dans $R_+ \otimes E'$ définit par restriction à $T(E)$ un homomorphisme de $T(E)$ dans $T(E')$ que nous noterons $T(u)$. Si $u'$ est un homomorphisme de $E'$ dans un $R$-module $E''$, on a $T(u' \circ u) = T(u') \circ T(u)$. Donc, si $G$ opère sur $E$ de façon $R$-linéaire, $G$ opère dans $T(E)$.
+a) Comme chaque sous-module de $S/(R_+ S)$ est libre sur $R_0 = K$, il suffit de montrer (en vertu d’*Alg.*, chap. II, 3e éd., § 11, no 4, prop. 7) que l’homomorphisme canonique de $R_+ \otimes_R S$ dans $S$ est injectif. Pour tout $R$-module $E$, notons $T(E)$ le $R$-module $\mathrm{Ker}(R_+ \otimes_R E \to E)$ (\*autrement dit $T(E) = \mathrm{Tor}_1^R(R/R_+, E)$\*). Si $E, E'$ sont deux $R$-modules et si $u$ est un homomorphisme de $E$ dans $E'$, l’homomorphisme $1 \otimes u$ de $R_+ \otimes E$ dans $R_+ \otimes E'$ définit par restriction à $T(E)$ un homomorphisme de $T(E)$ dans $T(E')$ que nous noterons $T(u)$. Si $u'$ est un homomorphisme de $E'$ dans un $R$-module $E''$, on a $T(u' \circ u) = T(u') \circ T(u)$. Donc, si $G$ opère sur $E$ de façon $R$-linéaire, $G$ opère dans $T(E)$.
 
 b) Le groupe $G$ opère dans $S$ de façon $R$-linéaire, donc aussi dans $T(S)$. Par ailleurs, $T(S)$ est muni de manière naturelle d’une structure de $S$-module gradué. Montrons d’abord que, si $g \in G$, $g$ transforme tout élément $x$ de $T(S)$ est un élément congru à $x$ modulo $S_1 T(S)$. Il suffit de le faire quand $g$ est une pseudo-réflexion. Il existe alors un vecteur non nul $v$ de $V$ tel que $g(x) - x \in K v$ pour tout $x \in V$. Comme $V$ engendre $S$, on en déduit que $g_S$ opère trivialement sur $S/Sv$. Donc, pour tout $y \in S$, il existe un élément $h(y)$ de $S$ tel que
 

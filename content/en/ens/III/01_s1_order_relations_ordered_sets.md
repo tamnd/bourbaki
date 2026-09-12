@@ -66,7 +66,7 @@ subsections:
       pdf_page: 153
 statements: 52
 exercises: 24
-content_sha256: 0ce49f6ed168f45d0951df56c7618b1d782b287ef9ecaf9b7f2bac23d82c4e7a
+content_sha256: 14e9fa04ef3714dde5ebc1c24c59c34cba4c8b4444c04468c4103f599e7d160e
 ---
 
 ## 1. ORDER RELATIONS. ORDERED SETS
@@ -317,11 +317,11 @@ In the set $\Phi(E, F)$ of mappings of subsets of E into F (F being non-empty), 
 
 #### Example 3 {#ens-iii-s1-n6-exa-3 .statement tag=03SO}
 
-\* In the set of natural integers $> 1$, ordered by the relation "$m$ divides $n$" between $m$ and $n$, the minimal elements are the prime numbers. $_*$
+\* In the set of natural integers $> 1$, ordered by the relation "$m$ divides $n$" between $m$ and $n$, the minimal elements are the prime numbers. \*
 
 #### Example 4 {#ens-iii-s1-n6-exa-4 .statement tag=03SP}
 
-\* The set of real numbers has no maximal element and no minimal element. $_*$
+\* The set of real numbers has no maximal element and no minimal element. \*
 
 ### 7. GREATEST ELEMENT AND LEAST ELEMENT
 

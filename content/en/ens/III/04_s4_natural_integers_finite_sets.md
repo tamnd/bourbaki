@@ -34,7 +34,7 @@ subsections:
       pdf_page: 176
 statements: 15
 exercises: 11
-content_sha256: 6124f77d2424d43d092ed015ee9df777eee17e45957a9f97af290618c63c1a97
+content_sha256: b6197df9a8aa019ce7bbd53439ae89b52be171c24e2b80a5ca96af38b9e1b237
 ---
 
 ## 4. NATURAL INTEGERS. FINITE SETS
@@ -237,7 +237,7 @@ The set of totally ordered subsets of an ordered set $E$ is of finite character.
 
 #### Example 3 {#ens-iii-s4-n5-exa-3 .statement tag=03TB}
 
-The set of submodules of a module $E$ is not of finite character, because a finite subset of a submodule of $E$ is not necessarily a submodule of $E$. $_*$
+The set of submodules of a module $E$ is not of finite character, because a finite subset of a submodule of $E$ is not necessarily a submodule of $E$. \*
 
 #### Theorem 1 {#ens-iii-s4-thm-1 .statement tag=03LD}
 

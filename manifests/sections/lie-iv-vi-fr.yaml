@@ -132,7 +132,7 @@ chapters:
           statements: 24
           exercises: 9
           extraction: ocr
-          content_sha256: 56f9e3f02f523f8944f9a1f8a67de8fe6795e253b28b22271872604536b7455a
+          content_sha256: dc7d9182dd5479482a539530f747f9006ab180f435bcaeb95dbeeb786c23fe8f
         - kind: section
           section: 6
           title: Transformation de Coxeter

@@ -49,11 +49,11 @@ subsections:
       pdf_page: 249
 statements: 95
 exercises: 68
-content_sha256: 4709ffeb6bc4b8d9e3cb7310b2947b2de94e621599ed95e7d680b38ec7f2f419
+content_sha256: 71c57e1c111b81216e3e660787880340b500f721afbc52224f19cf5dadc5a9fd
 translated_from: content/fr/ts/II/01_s1_transformation_de_fourier.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 44d8e1262e651735e5764e1dec2d575d432840d199837a351570f025a680a83d
+source_content_sha256: fdbbbeb1228457f9a0a6d06db468a1ebd7b9c6dc5a03047519adc03e5c95f1cf
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-en-mt-0af303bf
 glossary_version: 34
@@ -1459,7 +1459,7 @@ The covolume of the lattice Λ is, by definition, the measure of $\mathbf{R}^n/\
 
 $\sum f(x+y) =\sum\widehat{f}(z)$ exp(2$i\pi  y\cdot z$).
 
-V(Λ) $_*$
+V(Λ) \*
 
 $x\in \Lambda z\in \Lambda$
 

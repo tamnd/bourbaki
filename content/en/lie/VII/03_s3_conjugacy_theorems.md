@@ -33,7 +33,7 @@ subsections:
       pdf_page: 36
 statements: 17
 exercises: 18
-content_sha256: 101d1c917bccf9d451ef36bc325751d7276a14c534bc85fbe7012cad2e06164a
+content_sha256: 2f94c55e447063be8de93e14acb2f2791b356caa14408181f0dee22d40d924cb
 ---
 
 ## § 3. CONJUGACY THEOREMS
@@ -50,7 +50,7 @@ A finite product of automorphisms of $\mathfrak{g}$ of the form $e^{adx}$ with a
 
 If $u\in$ Aut($\mathfrak{g}$)$,ue^{adx}u^{-1}=e^{adu(x)}$. It follows that Aut$_e(\mathfrak{g})$ is a normal subgroup of Aut($\mathfrak{g}$). If $k=\mathbf{R}$ or $\mathbf{C}$, Aut$_e(\mathfrak{g})$ is contained in the group Int($\mathfrak{g}$) of inner automorphisms of $\mathfrak{g}$ (Chap. III, §6, no. 2, Def. 2).
 
-$^*$ In the general case, Aut$_e(\mathfrak{g})$ is contained in the identity component of the algebraic group Aut($\mathfrak{g}$)$._*$
+\* In the general case, Aut$_e(\mathfrak{g})$ is contained in the identity component of the algebraic group Aut($\mathfrak{g}$).\*
 
 #### Lemma 1 {#lie-vii-s3-lem-1 .statement tag=00V1}
 

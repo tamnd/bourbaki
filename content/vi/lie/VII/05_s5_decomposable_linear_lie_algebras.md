@@ -33,9 +33,9 @@ subsections:
       pdf_page: 53
 statements: 29
 exercises: 11
-content_sha256: c8a7acf5a9c3f720fcf92bcabc54c4d603002eabf360ac56e78c733a1bf4c666
+content_sha256: 528a739f821d1bd7375084f8990eb8d89cf0fd8c06cb2ab7b3373bcb0b484265
 translated_from: content/en/lie/VII/05_s5_decomposable_linear_lie_algebras.md
-source_content_sha256: 3fa30c6fba10fffca825520c5c62e37059e144cf09425181ebf911b2d7791257
+source_content_sha256: 9348eb1c66b5306a2d380eb335d4afb9f19486f3e78d4da673c181842d07b2e0
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-72ce60e8
 glossary_version: 34
@@ -63,7 +63,7 @@ Giả sử rằng V có một cấu trúc đại số. Tập hợp các đạo h
 
 #### Ví dụ 3 {#lie-vii-s5-n1-exa-3 .statement tag=01KQ}
 
-Nói chung hơn, có thể chứng minh rằng đại số Lie của bất kỳ nhóm con đại số nào của $\mathbf{G}\mathbf{L}(V)$ đều là phân tích được.$_*$
+Nói chung hơn, có thể chứng minh rằng đại số Lie của bất kỳ nhóm con đại số nào của $\mathbf{G}\mathbf{L}(V)$ đều là phân tích được.\*
 
 #### Mệnh đề 1 {#lie-vii-s5-prop-1 .statement tag=00WJ}
 

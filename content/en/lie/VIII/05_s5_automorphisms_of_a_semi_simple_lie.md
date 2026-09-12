@@ -37,7 +37,7 @@ errata:
     - says: Chap. VII, §13, no. 1
       read: Chap. VIII, §13, no. 1
       why: Chapter VII has five sections and no section 13. The sentence says that the groups Aut$_0(\mathfrak{g})$ and Aut$_e(\mathfrak{g})$ can be distinct, and the place that shows it is no. 1 of section 13 of this chapter, on the algebras of type $A_l$, which computes Aut$_0(\mathfrak{g}) =\varphi (\mathbf{G}\mathbf{L}(l+ 1, k))$, identifies the quotient Aut$_0(\mathfrak{g})/$Aut$_e(\mathfrak{g})$ with $\mathbf{P}\mathbf{G}\mathbf{L}(l+ 1, k)/\mathbf{P}\mathbf{S}\mathbf{L}(l+ 1, k)$, and over the reals finds it isomorphic to $\mathbf{Z}/2\mathbf{Z}$ when $l+1$ is even. Chapter VII names neither group anywhere.
-content_sha256: a1e9bccf04c99efe131507abc95e90d42301f0f37b3734decb437c6e11d1395f
+content_sha256: 952a7b9240fa2d193986215a77b227fd820dee9114e1cdbfa00e8cbcdb6611b5
 ---
 
 ## § 5. AUTOMORPHISMS OF A SEMI-SIMPLE LIE ALGEBRA
@@ -360,7 +360,7 @@ Let Aut$_e(\mathfrak{g}) =\Omega \cup \Omega '$ be a partition of Aut$_e(\mathfr
 
 We shall see (§8, no. 4, Cor. of Prop. 6) that Aut$_0(\mathfrak{g})$ is closed in V in the Zariski topology, and that it is the connected component of the identity element of Aut($\mathfrak{g}$). On the other hand, Aut$_e(\mathfrak{g})$ is not in general closed in the Zariski topology.
 
-$^*$Assume that $(\mathfrak{g},\mathfrak{h})$ is split. The group Aut$_0(\mathfrak{g})$ is the group $G(k)$ of $k$-points of a connected semi-simple algebraic group G with trivial centre (adjoint group). The group $f(T_Q)$ is equal to $H(k)$, where H is the Cartan subgroup of G with Lie algebra $\mathfrak{h}$. The inverse image $\widetilde{H}$ of H in the universal covering $\widetilde{G}$ of G (in the algebraic sense) has $T_P$ as its group of $k$-points. The image of $\widetilde{G}(k)$ in $G(k) =$ Aut$_0(\mathfrak{g})$ is the group Aut$_e(\mathfrak{g})._*$
+\*Assume that $(\mathfrak{g},\mathfrak{h})$ is split. The group Aut$_0(\mathfrak{g})$ is the group $G(k)$ of $k$-points of a connected semi-simple algebraic group G with trivial centre (adjoint group). The group $f(T_Q)$ is equal to $H(k)$, where H is the Cartan subgroup of G with Lie algebra $\mathfrak{h}$. The inverse image $\widetilde{H}$ of H in the universal covering $\widetilde{G}$ of G (in the algebraic sense) has $T_P$ as its group of $k$-points. The image of $\widetilde{G}(k)$ in $G(k) =$ Aut$_0(\mathfrak{g})$ is the group Aut$_e(\mathfrak{g})$.\*
 
 ### 5. LIE GROUP CASE
 
