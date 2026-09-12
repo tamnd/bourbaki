@@ -4063,7 +4063,7 @@
         {
           "chapter": "II",
           "title": "LINEAR ALGEBRA",
-          "total": 150,
+          "total": 159,
           "sections": [
             {
               "section": 1,
@@ -4141,11 +4141,11 @@
               "section": 9,
               "label": "alg-ii-s9",
               "dir": "s9",
-              "count": 10,
+              "count": 19,
               "first": 1,
-              "last": 10,
-              "starred": 1,
-              "supplementary": 4
+              "last": 19,
+              "starred": 2,
+              "supplementary": 6
             },
             {
               "section": 10,
