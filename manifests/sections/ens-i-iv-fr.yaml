@@ -221,7 +221,7 @@ chapters:
           statements: 54
           exercises: 24
           extraction: ocr
-          content_sha256: b14cad04137473bc1f15e48f99997f91130db356f266485938dcf6a767579d8c
+          content_sha256: 27676f677bfbc0d9e260045b332309ec6b0175f798dd91c0ae72623cb2e81228
         - kind: section
           section: 2
           title: Ensembles bien ordonnés

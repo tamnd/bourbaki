@@ -129,6 +129,16 @@ errata:
             Corollary 2 of Proposition 1 of no. 2, the corollary on three inverse
             systems. Proposition 2 of that no. prints one corollary and it carries no
             number.
+    - label: ens-iii-s6-ex-13
+      lang: en
+      errata:
+        - says: $f(\xi, \eta + 1) \geqslant \omega(\xi) + \eta \geqslant \xi + \eta$
+          read: $f(\xi, \eta + 1) \geqslant w(\xi) + \eta \geqslant \xi + \eta$
+          why: Part (a) of this exercise introduces the ordinal functional symbol as a
+            roman w and sets it roman seven times on the same page 243, and part (e)
+            then sets the same symbol round. The French of 1970 (E III.90) sets w in
+            both places. The reading is faithful to the page; it is the page that
+            changes letter between the first paragraph of an exercise and the last.
     - label: ens-iv-s2-ex-9
       lang: en
       errata:

@@ -65,7 +65,7 @@ subsections:
       pdf_page: 118
 statements: 54
 exercises: 24
-content_sha256: b14cad04137473bc1f15e48f99997f91130db356f266485938dcf6a767579d8c
+content_sha256: 27676f677bfbc0d9e260045b332309ec6b0175f798dd91c0ae72623cb2e81228
 ---
 
 ## § 1. RELATIONS D’ORDRE.. ENSEMBLES ORDONNÉS
@@ -254,7 +254,7 @@ Les relations induites par la relation d’inclusion X ⊂ Y sur divers ensemble
 
 1) Soient E, F deux ensembles, Φ(E, F) l’ensemble des applications de parties de E dans F; pour toute fonction f ∈ Φ(E, F), soit G_f le graphe de f, qui est une partie de E × F. Si on munit Φ(E, F) de la relation d’ordre « g prolonge f » entre f et g (III, p. 2, Exemple 3), f ↦ G_f est un isomorphisme de l’ensemble ordonné Φ(E, F) sur un sous-ensemble de $\mathfrak{P}(E \times F)$, ordonné par la relation d’inclusion.
 
-2) Pour toute partition ω d’un ensemble E, soit $\tilde{\omega}$ le graphe de l’équivalence définie par ω dans E. L’application ω ↦ $\tilde{\omega}$ est un isomorphisme de l’ensemble $\mathscr{P}$ des partitions de E, ordonné par la relation « ω est plus fine que ω’ » entre ω et ω’ (III, p. 2, Exemple 4) sur un sous-ensemble de $\mathfrak{P}(E \times E)$, ordonné par la relation d’inclusion.
+2) Pour toute partition ϖ d’un ensemble E, soit $\tilde{\varpi}$ le graphe de l’équivalence définie par ϖ dans E. L’application ϖ ↦ $\tilde{\varpi}$ est un isomorphisme de l’ensemble $\mathscr{P}$ des partitions de E, ordonné par la relation « ϖ est plus fine que ϖ’ » entre ϖ et ϖ’ (III, p. 2, Exemple 4) sur un sous-ensemble de $\mathfrak{P}(E \times E)$, ordonné par la relation d’inclusion.
 
 3) Soient E un ensemble, $\Omega \subset \mathfrak{P}(E \times E)$ l’ensemble des graphes des préordres sur E (III, p. 4) (ou, par abus de langage, l’ensemble des préordres sur E). La relation d’ordre s ⊂ t entre s et t, induite sur Ω par la relation d’inclusion dans $\mathfrak{P}(E \times E)$, s’exprime en disant que « le préordre s est plus fin que t » (ou que « t est moins fin que s ») Notons x(s)y et x(t)y respectivement les relations de préordre (x, y) ∈ s et (x, y) ∈ t dans E; dire que s est plus fin que t revient à dire que la relation x(s)y entraîne x(t)y.
 
