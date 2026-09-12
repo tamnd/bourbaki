@@ -6,7 +6,7 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 61 chapters, 533 sections, 4632 exercises, 15338 extracted pages, 5252 tags, 22637 references, 15195 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
+Audited: 61 chapters, 533 sections, 4632 exercises, 15338 extracted pages, 5252 tags, 22637 references, 15196 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
 
 ## Summary
 
@@ -20,9 +20,9 @@ Audited: 61 chapters, 533 sections, 4632 exercises, 15338 extracted pages, 5252 
 | translation | 13 | 3 | 1 | L01 (1377), L03 (19), L04 (15), L05 (306), L06 (2031), L07 (20), L08 (5619), L10 (260), L11 (46), L13 (31), L15 (6), L16 (45) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | none |
-| hygiene | 7 | 0 | 0 | none |
+| hygiene | 7 | 0 | 0 | H06 (1) |
 
-29844 hard findings and 11135 soft, over 81 rules that ran and 2 that could not.
+29845 hard findings and 11135 soft, over 81 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -64,6 +64,12 @@ Hard, figures.
 - `content/en/lie/V/exercises/s4/17.md:15` references content/en/lie/V/exercises/images/coxeter_graphs_1.png and there is no such file
 
 and 133 more, which `bourbaki audit -only F01` prints in full.
+
+## H06 the README coverage table is the one the corpus has (1)
+
+Hard, hygiene.
+
+- `README.md` the TRANSLATION block is not what the corpus says, run bourbaki report readme -write
 
 ## M03 no character stranded out of its TeX (2)
 
