@@ -58,7 +58,7 @@ subsections:
       pdf_page: 68
 statements: 41
 exercises: 16
-content_sha256: 4473eb16fac313a470ab1300587534a8d0a8b86278bd47e195326d4aab5470da
+content_sha256: 689ed995ca08a601207db642be8baaa64703cb6e27b747a99cbcea50ee755e83
 translated_from: content/en/alg/IV/05_s5_symmetric_tensors_and_polynomial.md
 source_content_sha256: 6da98969b53ee5df6cf503b3f80c244de4578e27ef1ee1edd5bf16c915b72321
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4, gpt-5.4-mini

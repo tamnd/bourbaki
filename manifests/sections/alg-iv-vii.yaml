@@ -62,7 +62,7 @@ chapters:
           statements: 6
           exercises: 7
           extraction: ocr
-          content_sha256: 16aa168745b016cbb4cbf1bf660f2ab6e25ff8e4303581985f805e4a081c1bbd
+          content_sha256: 7198747b0b6bbdd08037685e5f795da17bcc151029f7c5022d6d539a5ea0b283
         - kind: section
           section: 4
           title: Formal power series

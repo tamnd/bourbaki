@@ -45,9 +45,9 @@ subsections:
       pdf_page: 22
 statements: 30
 exercises: 5
-content_sha256: 786c21a520f1cb6af0b8dd39a5772b97ce8101a44b1c20ab15c91cd6402eed89
+content_sha256: 3c1494d226f90c514224fb078eb3f05ef2f1879f7facf5762910235dcecea443
 translated_from: content/en/alg/IV/01_s1_polynomials.md
-source_content_sha256: b8b80d9898f9cf21392fb6f0bb0bbc23767e2fcb884e61793b42fec1a38a96d4
+source_content_sha256: 9362bb420a6ac189e2cb718bf3d352a39d364cc2fbcd8f27c7d221863b22c9f9
 translation_model: gpt-5-6, gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-df5a3f08
 glossary_version: 34

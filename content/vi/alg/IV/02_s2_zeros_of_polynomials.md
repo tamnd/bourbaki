@@ -26,7 +26,7 @@ subsections:
       pdf_page: 26
 statements: 20
 exercises: 5
-content_sha256: d0bcf5ae22948ff394d0056d7bedc03526c0609a788c76eca9bdb1ca6c9306a2
+content_sha256: cf1e01c50e75245c28ba19f3dd7b4d60e6450a32afae6f16d5592868cf53e5e8
 translated_from: content/en/alg/IV/02_s2_zeros_of_polynomials.md
 source_content_sha256: 225ec9e15b7f2dea5044d6aa6129a8558e1f970a5442b8f106a96a6e1d7fde32
 translation_model: gpt-5.4, gpt-5-6

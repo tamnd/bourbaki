@@ -54,9 +54,9 @@ subsections:
       pdf_page: 48
 statements: 23
 exercises: 8
-content_sha256: dce7b366d7b060051568633213502aebe7dd5052fb220e54d7bfb13eeb8a91fc
+content_sha256: effed1dc5332e4534cfd8e459957293a330b82ef6a2b219bff8a6fd4769a7175
 translated_from: content/en/alg/IV/04_s4_formal_power_series.md
-source_content_sha256: 97abd39154e8116dbd7036aeda3b726bb4c49fc23082a657e7c8c9ba4f4f0f02
+source_content_sha256: 93080588981c2b27de5dc22c144773a4cc368e44a520855683149c13794140e7
 translation_model: gpt-5.4
 translation_run: translate-vi-1e020711
 glossary_version: 34

@@ -42,9 +42,9 @@ subsections:
       pdf_page: 90
 statements: 43
 exercises: 12
-content_sha256: 922f123d34a31fafaafc349609c033dbc788c41128cd3f0ec12ce27b163f1dba
+content_sha256: 05e567f5edd1aae6f358a56815ea4947b87cb281144eb85e0942746f41c1e89d
 translated_from: content/en/alg/IV/06_s6_symmetric_functions.md
-source_content_sha256: d8efcc08bfe9d3491c2c0f0dc26b32418d3c6a63d8ced19164e7875914007cb1
+source_content_sha256: 8d327c82138ab24b2a0ebb0ae6785bda3bb6fd0b0256ad7c094db8b668b342da
 translation_model: gpt-5.4, gpt-5-6, gpt-5-mini, gpt-5-6-mini
 translation_run: translate-vi-fa2660c6
 glossary_version: 34
