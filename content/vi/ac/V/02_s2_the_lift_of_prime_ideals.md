@@ -31,7 +31,7 @@ statements: 36
 exercises: 22
 content_sha256: 646de1a7760430d381e559315e556ac5ac24cbb3370f363bae1538798ab8f9ff
 translated_from: content/en/ac/V/02_s2_the_lift_of_prime_ideals.md
-source_content_sha256: dd73bbd458e4f5eacdb96482b226a80269656417b43a3444bbb7272800a28fc3
+source_content_sha256: eabaac1e7649227ba0fde1bbafef08c734a78b16b9f475d96255435ff0bfef60
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-4c7244ec
 glossary_version: 34

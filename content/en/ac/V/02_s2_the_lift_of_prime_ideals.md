@@ -29,7 +29,7 @@ subsections:
       pdf_page: 362
 statements: 36
 exercises: 22
-content_sha256: dd73bbd458e4f5eacdb96482b226a80269656417b43a3444bbb7272800a28fc3
+content_sha256: eabaac1e7649227ba0fde1bbafef08c734a78b16b9f475d96255435ff0bfef60
 ---
 
 ## 2. THE LIFT OF PRIME IDEALS
@@ -426,7 +426,7 @@ xy_0 \in \mathfrak{p}A^{\mathbf{Z}}(\mathfrak{p}' \cap K_{\alpha}) \subset \math
 $$
 which proves the second assertion of (i).
 
-(ii) Suppose now that $x \in A^T$; there exists $\alpha$ such that $x \in A^T(p' \cap K,)$ (Remark 2) and Proposition 5 of no. 2 shows that the class $\bar{x}$ of $x \mod.(p' \cap K, \cap A^T)$ is algebraic and separable over $k$; *a fortiori* the class $\mod.(p' \cap A^T)$ of $x$ is separable over $k$; to complete the proof of the corollary, it is sufficient to show that $k'$ is a *radicial* extension of $k^T$. Now, $k'$ is the union of the right directed family of fields of fractions $k_\alpha$ of the rings $(A' \cap K_\alpha)/(p' \cap K,)$. It follows therefore from Proposition 5 that, if an element of $k'$ belongs to $k$, it is radicial over the field of fractions of
+(ii) Suppose now that $x \in A^T$; there exists $\alpha$ such that $x \in A^T(p' \cap K_\alpha)$ (Remark 2) and Proposition 5 of no. 2 shows that the class $\bar{x}$ of $x \mod.(p' \cap K_\alpha \cap A^T)$ is algebraic and separable over $k$; *a fortiori* the class $\mod.(p' \cap A^T)$ of $x$ is separable over $k$; to complete the proof of the corollary, it is sufficient to show that $k'$ is a *radicial* extension of $k^T$. Now, $k'$ is the union of the right directed family of fields of fractions $k_\alpha$ of the rings $(A' \cap K_\alpha)/(p' \cap K_\alpha)$. It follows therefore from Proposition 5 that, if an element of $k'$ belongs to $k$, it is radicial over the field of fractions of
 
 $$
 A^T(p' \cap K_\alpha)/(p' \cap A^T(p' \cap K_\alpha))

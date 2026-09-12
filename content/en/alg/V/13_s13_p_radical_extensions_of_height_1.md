@@ -26,7 +26,7 @@ subsections:
       pdf_page: 218
 statements: 21
 exercises: 6
-content_sha256: 15b90e7f75e4f1d8e8211671bff420ff633fa75cb3971759b85af7418043aa6d
+content_sha256: 30fbacf9d16018de9db1822e5ded58af14ac7583b6c185bbfccaa4c790f152f5
 ---
 
 ## § 13. $p$-RADICAL EXTENSIONS OF HEIGHT $\leq 1$
@@ -259,7 +259,7 @@ whence $xu \in K_{i+1}$. Since x is non-zero, multiplication by x is an automorp
 
 *Let $\mathfrak{h} \in \mathscr{L}$ be of dimension s over E. Then $I(\mathfrak{h})$ belongs to $\mathscr{C}$ and we have $[E : I(\mathfrak{h})] = p^s$.*
 
-It is clear that $I(\mathfrak{h})$ is a subfield of $E$ containing $E^p$. For each $x \in E$ let $f_x$ be the E-linear form $D \mapsto D(x)$ on I). Since the intersection of the kcrncls of these linear forms is equal to 0, they generate the vector space dual to $\mathfrak{h}$ (II, p. 301, Th. 7); hence there exist $x_1, \ldots, x_s$ in $E$ such that the linear forms $f_{x_1}, \ldots, f_{x_s}$ form a basis of this dual. Let $(A,, \ldots, A,)$ be the basis of $\mathfrak{h}$ characterized by $\Delta_i(x_j) = f_{x_j}(\Delta_i) = \delta_{ij}$. Put $D_i = x_i \Delta_i$, then $(D_1, \ldots, D_s)$ is a basis of I) over E and we have $D_i(x_j) = x_i \delta_{ij}$. The derivations $D_i^p - D_i$ and $[D_i, D_j]$ for $i, j = 1, \ldots, s$ belong to I) and annihilate $x_1, \ldots, x_s$; we thus have
+It is clear that $I(\mathfrak{h})$ is a subfield of $E$ containing $E^p$. For each $x \in E$ let $f_x$ be the E-linear form $D \mapsto D(x)$ on I). Since the intersection of the kcrncls of these linear forms is equal to 0, they generate the vector space dual to $\mathfrak{h}$ (II, p. 301, Th. 7); hence there exist $x_1, \ldots, x_s$ in $E$ such that the linear forms $f_{x_1}, \ldots, f_{x_s}$ form a basis of this dual. Let $(\Delta_1, \ldots, \Delta_s)$ be the basis of $\mathfrak{h}$ characterized by $\Delta_i(x_j) = f_{x_j}(\Delta_i) = \delta_{ij}$. Put $D_i = x_i \Delta_i$, then $(D_1, \ldots, D_s)$ is a basis of I) over E and we have $D_i(x_j) = x_i \delta_{ij}$. The derivations $D_i^p - D_i$ and $[D_i, D_j]$ for $i, j = 1, \ldots, s$ belong to I) and annihilate $x_1, \ldots, x_s$; we thus have
 $$
 D_i^p = D_i , \quad [D_i, D_j] = 0
 $$

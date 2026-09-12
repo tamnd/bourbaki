@@ -65,7 +65,7 @@ subsections:
       pdf_page: 212
 statements: 57
 exercises: 31
-content_sha256: 9e80d306b1116bfe8ca76d5618a3bf11d91ec8f1d795e8e9964d5ea7ea7ab47c
+content_sha256: c667e1a33fce0d7400ceb6354bdf4373df50343a609a863f37216264ec019a6c
 ---
 
 ## § 2. GENERAL RESULTS ON FILTERED RINGS AND MODULES
@@ -429,7 +429,7 @@ Let $m'$ be another two-sided ideal of $A$; for the $m'$-adic topology on $A$ to
 
 #### Proposition 5 {#ac-iii-s2-prop-5 .statement}
 
-*Let $G$ be a filtered group whose filtration $(G,)$ consists of invariant subgroups of $G$. The following conditions are equivalent:*
+*Let $G$ be a filtered group whose filtration $(G_n)$ consists of invariant subgroups of $G$. The following conditions are equivalent:*
 
 (a) $G$ is a complete topological group.
 
@@ -796,13 +796,13 @@ in particular $(n_{0j})^{j+1} = 0$. Conversely:
 
 #### Proposition 14 {#ac-iii-s2-prop-14 .statement}
 
-Let $(A,, h_{ij})$ be an inverse system of discrete commutative rings, whose indexing set is $\mathbf{N}$ and let $(M_i, u_{ij})$ be an inverse system of modules over the inverse system of rings $(A_i, h_{ij})$. Let $n_j$ denote the kernel of $h_{0j}: A \to A$, and set $A = \lim A_i$, $M = \lim M_i$. Suppose that
+Let $(A_i, h_{ij})$ be an inverse system of discrete commutative rings, whose indexing set is $\mathbf{N}$ and let $(M_i, u_{ij})$ be an inverse system of modules over the inverse system of rings $(A_i, h_{ij})$. Let $n_j$ denote the kernel of $h_{0j}: A \to A$, and set $A = \lim A_i$, $M = \lim M_i$. Suppose that
 
 (a) for all $i \in \mathbf{N}$, $h_{ii}$ is the identity mapping on A, and, for $i \leq j$, $h_{ij}$ and $u_{ij}$ are surjective;
 (b) for $i \leq j$, the kernels of $h_{ij}$ and $u_{ij}$ are $n_j^{i+1}$ and $n_j^{i+1} M_j$ respectively.
 
 Then:
-(i) $A$ is a complete Hausdorff topological ring, $M$ is a complete Hausdorff topological A-module and the canonical mappings $h,: A \to A,, u_i: M \to M_i$ are surjective.
+(i) $A$ is a complete Hausdorff topological ring, $M$ is a complete Hausdorff topological A-module and the canonical mappings $h_i : A \to A_i$, $u_i : M \to M_i$ are surjective.
 (ii) If $M_0$ is a finitely generated A,-module, $M$ is a finitely generated A-module;
 
 to be precise, every finite subset S of M such that $u_0(S)$ generates M, is a system of generators of M.
@@ -877,7 +877,7 @@ The condition is necessary since $A$, is isomorphic to a quotient of $A$; it is 
 
 ### 12. THE HAUSDORFF COMPLETION OF A FILTERED MODULE
 
-Let $G$ be a filtered group whose filtration $(G,)$ consists of normal subgroups of $G$; we have already recalled (no. 6) that the *Hausdorff completion* $\hat{G}$ of the topological group $G$ is canonically identified with the inverse limit $\lim \leftarrow G/G_n$ of the *discrete* groups $G/G_n$, the canonical homomorphism $i : G \to \hat{G}$ having image the Hausdorff group associated with $G$ (everywhere dense in $\hat{G}$) and kernel the closure $\bigcap G$, of $\{0\}$ in $G$. The Hausdorff completion $\hat{G}_n$ of the subgroup $G$, of $G$ is identified with the closure of $i(G_n)$ in $\hat{G}$ (*General Topology*, Chapter II, § 3, no. 9, Corollary 1 to Proposition 18) and, since $G$, is closed in $\hat{G}$,
+Let $G$ be a filtered group whose filtration $(G_n)$ consists of normal subgroups of $G$; we have already recalled (no. 6) that the *Hausdorff completion* $\hat{G}$ of the topological group $G$ is canonically identified with the inverse limit $\lim \leftarrow G/G_n$ of the *discrete* groups $G/G_n$, the canonical homomorphism $i : G \to \hat{G}$ having image the Hausdorff group associated with $G$ (everywhere dense in $\hat{G}$) and kernel the closure $\bigcap G_n$ of $\{0\}$ in $G$. The Hausdorff completion $\hat{G}_n$ of the subgroup $G_n$ of $G$ is identified with the closure of $i(G_n)$ in $\hat{G}$ (*General Topology*, Chapter II, § 3, no. 9, Corollary 1 to Proposition 18) and, since $G$, is closed in $\hat{G}$,
 
 $$
 G, = i^{-1}(\hat{G}_n) = i^{-1}(\hat{G}_n \cap i(G)).
@@ -895,7 +895,7 @@ $$
 = i(G_{n-1}) \cdot \hat{G}_n.
 $$
 
-We deduce from (18) and (19) that the filtration $(\hat{G}_n)$ is exhaustive if and only if $(G,)$ is.
+We deduce from (18) and (19) that the filtration $(\hat{G}_n)$ is exhaustive if and only if $(G_n)$ is.
 
 The second isomorphism theorem (Algebra, Chapter I, § 6, no. 13, Theorem 6 (d)) and equations (18), (19) and (20) show that the canonical homomorphisms
 

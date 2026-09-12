@@ -35,7 +35,7 @@ statements: 15
 exercises: 15
 content_sha256: 095e44e34fb22ece4f9e814f5da8857e912fda66280947a02d51e87a06e3f5f0
 translated_from: content/en/alg/VII/01_s1_principal_ideal_domains.md
-source_content_sha256: 0050bfc3f4dbfbdb2e52eb4c6a6132f3b0e2feca0cb54735e5fef0922a664345
+source_content_sha256: f42e2230f351e1bc8e1f789cc51497f38a8dea64f679f0db66b57e2cc558e73e
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-a52a80a1
 glossary_version: 34

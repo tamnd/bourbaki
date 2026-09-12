@@ -38,7 +38,7 @@ subsections:
       pdf_page: 257
 statements: 20
 exercises: 5
-content_sha256: 1c4cb5cb0d3cdf74638b2b9d83f632710263ccc2f6f485a362711f2198471fb5
+content_sha256: ea5161cf1b2c28cf9289420b198bd8a7545ddd5832c1cbfa8ba54113cb049ee4
 ---
 
 ## § 17. REGULAR EXTENSIONS
@@ -55,7 +55,7 @@ Since $u \in F_0(X)$ is separable algebraic over $E(X)$ and $D$ is zero on $E(X)
 $$
 Q(X) = X^n + a_1 X^{n-1} + \ldots + a_{n-1} X + a_n
 $$
-with $a,, \ldots, a,$ in $F_0$; since $D(x) = 0$, we thus have
+with $a_1, \ldots, a_n$ in $F_0$; since $D(x) = 0$, we thus have
 $$
 D(Q) = \Delta(a_1) X^{n-1} + \cdots + \Delta(a_{n-1}) X + \Delta(a_n)
 $$

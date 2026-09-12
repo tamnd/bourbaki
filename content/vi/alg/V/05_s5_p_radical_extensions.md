@@ -24,7 +24,7 @@ statements: 8
 exercises: 3
 content_sha256: 2e4cb3e272d8d2aef6c39c57449125b9cda33335decba603c904f6014087b635
 translated_from: content/en/alg/V/05_s5_p_radical_extensions.md
-source_content_sha256: e15f467ba66e51edc162c41c1e6371162ece2de7935833e112af2325f1bdd5bb
+source_content_sha256: 49c1496a9984c07eaeca3aad265abb15c9dafa4cfe515eb1c603a2832eaebcba
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-7639faec
 glossary_version: 34

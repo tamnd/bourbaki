@@ -50,7 +50,7 @@ subsections:
       pdf_page: 402
 statements: 66
 exercises: 14
-content_sha256: 4acd72c67112f3a7bbd23a118fc3d1180057562951881475f19ac71ab5edea04
+content_sha256: 15b717b785fa235f691593f39cc0c7c6cc01006494b3f36e80665726426374e9
 ---
 
 ## § 5. ENDOMORPHISMS OF VECTOR SPACES
@@ -538,7 +538,7 @@ Indeed the minimal polynomial divides the characteristic polynomial.
 (ii) The K-algebra A is diagonalisable.
 (iii) The elements of $\mathscr{S}$ are diagonalisable and commute with one another.
 
-If $(e,)$ is a basis of E with respect to which $\mathscr{S}$ is diagonal, then A is contained in the algebra of endomorphisms which are diagonal with respect to this basis, so is also diagonalisable; if A is diagonalisable, then the same argument shows that $\mathscr{S}$ is diagonalisable. This shows the equivalence of (i) and (ii). Since any two diagonal matrices commute, we have (i) $\rightarrow$ (iii), and it remains to prove the converse. Suppose then that the elements of $\mathscr{S}$ are diagonalisable and commute with each other. We will make use of the following lemma:
+If $(e_i)$ is a basis of E with respect to which $\mathscr{S}$ is diagonal, then A is contained in the algebra of endomorphisms which are diagonal with respect to this basis, so is also diagonalisable; if A is diagonalisable, then the same argument shows that $\mathscr{S}$ is diagonalisable. This shows the equivalence of (i) and (ii). Since any two diagonal matrices commute, we have (i) $\rightarrow$ (iii), and it remains to prove the converse. Suppose then that the elements of $\mathscr{S}$ are diagonalisable and commute with each other. We will make use of the following lemma:
 
 #### Lemma 3 {#alg-vii-s5-lem-3 .statement}
 

@@ -141,7 +141,7 @@ chapters:
           statements: 10
           exercises: 6
           extraction: ocr
-          content_sha256: 4a9ee1e53629e655e2d44be47afe0051771af4dbac00a9502665cf0edd1589f5
+          content_sha256: 15e4c05cbeaa37f947e4dd88b319dfea58ef5aed00b479f31e5cbe9ae7b53342
         - kind: section
           section: 2
           title: Ordered pairs

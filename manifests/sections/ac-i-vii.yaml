@@ -140,7 +140,7 @@ chapters:
           statements: 39
           exercises: 14
           extraction: ocr
-          content_sha256: 2d33c9599e069a462ad035502f5889e9684b14d14d8fbf1bbf0753d4c85a405a
+          content_sha256: d3c591119a05ffc883fe168ba83ec32aff69a80c35a017cf3be3d1881a042cc7
         - kind: section
           section: 4
           title: Spectra of rings and supports of modules
@@ -166,7 +166,7 @@ chapters:
           statements: 34
           exercises: 25
           extraction: ocr
-          content_sha256: b150e806302e3d5000bed6efe01317662a5ecee95a4bc65f986d2ec47425f29a
+          content_sha256: 890bdd512ed021e9151e23128f06509329c84ff1883d10c98fcaf477533b7357
     - chapter: III
       title: GRADUATIONS. FILTRATIONS AND TOPOLOGIES
       sections:
@@ -206,7 +206,7 @@ chapters:
           statements: 57
           exercises: 31
           extraction: ocr
-          content_sha256: 9e80d306b1116bfe8ca76d5618a3bf11d91ec8f1d795e8e9964d5ea7ea7ab47c
+          content_sha256: c667e1a33fce0d7400ceb6354bdf4373df50343a609a863f37216264ec019a6c
         - kind: section
           section: 3
           title: m-adic topologies on Noetherian rings
@@ -219,7 +219,7 @@ chapters:
           statements: 39
           exercises: 27
           extraction: ocr
-          content_sha256: b81df172b6e522c775ec3658e04648b88d9c80cb7f56ca2a12c07212819aebb5
+          content_sha256: ccd1ebca4f83d34faac1d5d985eae603ab5477d17748779af4f3df0b67a26ea3
         - kind: section
           section: 4
           title: Lifting in complete rings
@@ -325,7 +325,7 @@ chapters:
           statements: 69
           exercises: 29
           extraction: ocr
-          content_sha256: f0ef4aabba009b7905e97f4fb80dfce6d1fb60ac9a39967272fd598733b4eec7
+          content_sha256: 87b0370472775897aae6495616897e88a9535b1f1811f2352ce23745ea985d1e
         - kind: section
           section: 2
           title: The lift of prime ideals
@@ -338,7 +338,7 @@ chapters:
           statements: 36
           exercises: 22
           extraction: ocr
-          content_sha256: dd73bbd458e4f5eacdb96482b226a80269656417b43a3444bbb7272800a28fc3
+          content_sha256: eabaac1e7649227ba0fde1bbafef08c734a78b16b9f475d96255435ff0bfef60
         - kind: section
           section: 3
           title: Finitely generated algebras over a field
@@ -378,7 +378,7 @@ chapters:
           statements: 15
           exercises: 9
           extraction: ocr
-          content_sha256: 020593bdada3dedfdedce89dd730fb421b006e38208e35aa98ddd116f94775ba
+          content_sha256: c62b29615ede5109ece47eee7c51082ef7d0895d588bd15ce4b8c6aa4a539227
         - kind: section
           section: 2
           title: Places
@@ -391,7 +391,7 @@ chapters:
           statements: 9
           exercises: 6
           extraction: ocr
-          content_sha256: b544413d10331937b891740ab23ca115c16171f1f2b46cac7186286bd8362f62
+          content_sha256: 0dfb4f3df3b1305aac0576bfe1b57e31bb1d8b17fe329b14413303e5d8ae653e
         - kind: section
           section: 3
           title: Valuations
@@ -456,7 +456,7 @@ chapters:
           statements: 14
           exercises: 3
           extraction: ocr
-          content_sha256: e86e2f4df23e67929d05a5c7fb9439871e542e8948249e33754e6cdbddf47125
+          content_sha256: d9f70fdf5aa3e41f0e672baf6b738dde77d4dd2dca2a2859f6ceb324078165d7
         - kind: section
           section: 8
           title: Extensions of a valuation to an algebraic extension
@@ -522,7 +522,7 @@ chapters:
           statements: 41
           exercises: 32
           extraction: ocr
-          content_sha256: 9bef6d28f362c12836cf4563473a98aa78f886c75e3bc526c03329214a3be918
+          content_sha256: 83159af88375622869cb6ea60940d466ee2bc0e0b75bdceffd5eff01efe67f84
         - kind: section
           section: 2
           title: Dedekind domains
@@ -548,7 +548,7 @@ chapters:
           statements: 19
           exercises: 27
           extraction: ocr
-          content_sha256: e5b7bb75a46cde803f59427d5006486454f2835ef0e660512df9baef2fc8317e
+          content_sha256: 373127c6d25887f7ff9117aa817c4966df5a0420e4cbfd62cf2a07d951d4e4fb
         - kind: section
           section: 4
           title: Modules over integrally closed Noetherian domains
@@ -561,7 +561,7 @@ chapters:
           statements: 56
           exercises: 26
           extraction: ocr
-          content_sha256: 9d84176bb7197646c99917a0bb7b2b182f503cbfb4e79c05c4c5e64df82e6cb5
+          content_sha256: 1933b931aba1370a2001b9685de6f222aaa5bede869a38a53328a4561db71cb1
         - kind: historical
           title: Historical Note
           path: content/en/ac/VII/historical_note.md
@@ -572,7 +572,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 496341e07a4c5dfc7ea43cb3c200469e9d3f11671caacbeca75270d25d2e7c1c
+          content_sha256: bbb8b633a178f7d139d4a1446708b7b1e80f9f0ec88beab5aabe72c2e5e2295a
 notation_index:
     kind: notation
     title: INDEX OF NOTATION
@@ -584,7 +584,7 @@ notation_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: bdae74bed3f5e2623997f82ca19481313d51b4352024f78babf15c7708b34509
+    content_sha256: 600423954f023b5116fbf157777de2e85665e74947696e7d93e5dc7cc69f6b87
 terminology_index:
     kind: terminology
     title: INDEX OF TERMINOLOGY

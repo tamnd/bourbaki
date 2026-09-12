@@ -36,7 +36,7 @@ statements: 19
 exercises: 4
 content_sha256: 7f1b5df7bbbb6bfb68983866c062a19d5855ae4fec409160406ac4dd54c1bdd8
 translated_from: content/en/alg/V/02_s2_extensions.md
-source_content_sha256: 09cba64f2578226807f14f1ac7820f2dc2a012899df8f1b95971dbe87135f71b
+source_content_sha256: c56298305798340d35687f547df30634007d85db2c245dd5915f3c10156178bb
 translation_model: gpt-5.4
 translation_run: translate-vi-2eae79d2
 glossary_version: 34

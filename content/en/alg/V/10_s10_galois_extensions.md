@@ -58,7 +58,7 @@ subsections:
       pdf_page: 190
 statements: 49
 exercises: 23
-content_sha256: 1bd3bcbbec124c4730c75c90bb6dee375cff9fd7993676e0bee4491243019efd
+content_sha256: 64a6c9421a0e3ab06b3a64d7ceccfc53b6af8db2781476a43ff7b9ac2d7e7c18
 ---
 
 ## § 10. GALOIS EXTENSIONS
@@ -241,7 +241,7 @@ It is clear that $V_0$ is a vector sub-K-space of $V$.
 
 The formula $u_\sigma \circ \varphi = \varphi \circ (\sigma \otimes \mathrm{Id}_{V_0})$ shows that the kernel $W$ of $\varphi$ is stable under the mappings $\sigma \otimes \mathrm{Id}_{V_0}$; by the Cor. to Prop. 6 there exists therefore a subspace $W_0$ of $V_0$ such that $W = N \otimes_K W_0$. If $x$ belongs to $W_0$ we then have $x = \varphi(1 \otimes x) = 0$, hence $W_0 = 0$ and so $W = 0$. This proves a).
 
-Suppose now that $\Gamma$ is finite; we have to show that $\varphi$ is surjective, or equivalently that $V_0$ generates the vector N-space $V$. Thus let $f$ be an N-linear form on $V$ whose restriction to $V_0$ is zero. Let $x \in V$; for every $A \in N$ the element $y, = \sum_{\sigma \in \Gamma} u_\sigma(\lambda x)$ of $V$ clearly belongs to $V_0$, whence $f(y,) = 0$, that is,
+Suppose now that $\Gamma$ is finite; we have to show that $\varphi$ is surjective, or equivalently that $V_0$ generates the vector N-space $V$. Thus let $f$ be an N-linear form on $V$ whose restriction to $V_0$ is zero. Let $x \in V$; for every $\lambda \in N$ the element $y_\lambda = \sum_{\sigma \in \Gamma} u_\sigma(\lambda x)$ of $V$ clearly belongs to $V_0$, whence $f(y_\lambda) = 0$, that is,
 $$
 \sum_{\sigma \in \Gamma} f(u_\sigma(x)) \sigma(A) = 0.
 $$
@@ -309,15 +309,15 @@ For each $a \in \Gamma$ we denote by $u_\sigma$ the mapping $x \mapsto U_\sigma 
 
 #### Corollary 1 {#alg-v-s10-prop-9-cor-1 .statement}
 
-*Let $(c,)$, , , be a family of non-zero elements of $N$. For $a \neq 0$ to exist in $N$ such that $c, = \sigma(a) \cdot a'$ for all $a \in \Gamma$ it is necessary and sufficient that $c, = c, \cdot a(c,)$ for $\sigma, \tau$ in $\Gamma$.*
+*Let $(c_\sigma)_{\sigma \in \Gamma}$ be a family of non-zero elements of $N$. For $a \neq 0$ to exist in $N$ such that $c_\sigma = \sigma(a) \cdot a^{-1}$ for all $\sigma \in \Gamma$ it is necessary and sufficient that $c_{\sigma \tau} = c_\sigma \cdot \sigma(c_\tau)$ for $\sigma, \tau$ in $\Gamma$.*
 
 #### Corollary 2 {#alg-v-s10-prop-9-cor-2 .statement}
 
-*Let $(c,)$, $\Gamma$ be a family of elements of $N$. For $b$ to exist in $N$ such that $a, = \sigma(b) - b$ for all $a \in \Gamma$ it is necessary and sufficient that $a, = a, + \sigma(a_\tau)$ for $a, \tau$ in $\Gamma$.*
+*Let $(a_\sigma)_{\sigma \in \Gamma}$ be a family of elements of $N$. For $b$ to exist in $N$ such that $a_\sigma = \sigma(b) - b$ for all $\sigma \in \Gamma$ it is necessary and sufficient that $a_{\sigma \tau} = a_\sigma + \sigma(a_\tau)$ for $\sigma, \tau$ in $\Gamma$.*
 
-We have $\sigma \tau(b) - b = [\sigma(b) - b]^+ \sigma[\tau(b) - b]$ for all $b$ in $N$ and $a, \tau$ in $\Gamma$, whence the necessity.
+We have $\sigma \tau(b) - b = [\sigma(b) - b] + \sigma[\tau(b) - b]$ for all $b$ in $N$ and $\sigma, \tau$ in $\Gamma$, whence the necessity.
 
-Conversely suppose that $a, = a, + \sigma(a_\tau)$ for any $a$ and $\tau$ in $\Gamma$. Put $U_\sigma = \begin{pmatrix} 1 & a_\sigma \\ 0 & 1 \end{pmatrix}$ for $\sigma \in \Gamma$; then we have $U_{\sigma \tau} = U_\sigma \cdot \sigma(U_\tau)$ for $\sigma, \tau$ in $\Gamma$; by Prop. 9, there exists thus a matrix $A = \begin{pmatrix} x & y \\ z & t \end{pmatrix}$ with non-zero determinant such that $\sigma(A) = A U_\sigma$ for all $a \in \Gamma$; writing down the relation $\sigma(A) = A U_\sigma$ we find
+Conversely suppose that $a_{\sigma \tau} = a_\sigma + \sigma(a_\tau)$ for any $\sigma$ and $\tau$ in $\Gamma$. Put $U_\sigma = \begin{pmatrix} 1 & a_\sigma \\ 0 & 1 \end{pmatrix}$ for $\sigma \in \Gamma$; then we have $U_{\sigma \tau} = U_\sigma \cdot \sigma(U_\tau)$ for $\sigma, \tau$ in $\Gamma$; by Prop. 9, there exists thus a matrix $A = \begin{pmatrix} x & y \\ z & t \end{pmatrix}$ with non-zero determinant such that $\sigma(A) = A U_\sigma$ for all $a \in \Gamma$; writing down the relation $\sigma(A) = A U_\sigma$ we find
 $$
 \begin{pmatrix} \sigma(x) & \sigma(y) \\ \sigma(z) & \sigma(t) \end{pmatrix} = \begin{pmatrix} x & x a_\sigma + y \\ z & z a_\sigma + t \end{pmatrix} \quad (\sigma \in \Gamma).
 $$

@@ -67,7 +67,7 @@ errata:
     - says: then $w(u^{-1}) = -w(u)$. \* In other words (Comm. Alg., VI, § 3, No. 6, p. 392, Def. 3), w is a normalized discrete valuation
       read: then $\omega(u^{-1}) = -\omega(u)$. \* In other words (Comm. Alg., VI, § 3, No. 6, p. 392, Def. 3), $\omega$ is a normalized discrete valuation
       why: Page 48 runs the roman w twice in the displayed relation and once in the sentence naming the valuation, then sets "omega(u) >= n" round two lines below for the same function. The valuation of K((X)) is omega, as the French of 2007 (A IV.36) has it.
-content_sha256: 3e65a198739aa70d4a584dbce56538868203828bb1215af894a6ac9c2b0d0051
+content_sha256: 590ff04e9044259e7c29e890ab34382fd3c7b0ccacecc8ccef21483a20c08ef7
 ---
 
 ## § 4. FORMAL POWER SERIES
@@ -140,7 +140,7 @@ c) Let $(u_\lambda)_{\lambda \in L}$ be a family of elements of $A[[I]]$ and sup
 
 #### Proposition 1 {#alg-iv-s4-prop-1 .statement}
 
-*Let* $(u,)_{\mu \in \mathscr{J}}$ *and* $(v_\mu)_{\mu \in \mathscr{J}}$ *be two summable families of elements of* $\mathbf{A}[[\mathbf{I}]]$. *Then the family* $(u_\lambda v_\mu)_{(\lambda, \mu) \in \mathscr{J} \times M}$ *is summable and we have*
+*Let* $(u_\lambda)_{\lambda \in L}$ *and* $(v_\mu)_{\mu \in M}$ *be two summable families of elements of* $\mathbf{A}[[\mathbf{I}]]$. *Then the family* $(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times M}$ *is summable and we have*
 
 $$
 \sum_{(\lambda, \mu) \in L \times M} u_\lambda v_\mu = \left( \sum_{\lambda \in L} u_\lambda \right) \left( \sum_{\mu \in M} v_\mu \right)
@@ -266,7 +266,7 @@ Conversely, suppose that the constant term $a$ of $u$ is invertible. Then there 
 
 — Let $A$ be the set of all formal power series with constant term 1. By Prop. 6, $M$ is a commutative group under multiplication; the multiplicative group of $A[[I]]$ is thus the direct product of $M$ and the multiplicative group of $A$. We shall equip $A$ with the topology induced from that of $A[[I]]$. For each $\beta \in \mathbf{N}^{(I)}$ we have in IV, p. 26 defined the ideal $a_\beta$ of $A[[I]]$; then $1 + a_\beta$ is a subgroup of $M$ and the family $(1 + a_{\beta'})$ is a fundamental system of neighbourhoods of 1 in $M$. Since the multiplication in $M$ is continuous, we see that $A$ is a topological group (Gen. Top., III, p. 223); in other words, the *mapping* $f \mapsto f^{-1}$ *is continuous in* $M$.
 
-Let $K$ be a commutative field and $\mathscr{O}$ the subring of the field of rational fractions $K((X_i)_{i,,})$ formed of rational fractions in which the element 0 of $K^1$ is substitutable. If $f \in \mathscr{O}$, we have $f = \frac{u}{v}$, where $u$ and $v$ are polynomials such that the constant term of $v$ is $\neq 0$, hence $v$ is invertible in $K[[I]]$. We can verify at once that the element $uv^{-1}$ of $K[[I]]$ depends only on $f$; we say that the formal power series $uv^{-1}$ is the *expansion at the origin of the rational fraction* $\frac{u}{v}$. The mapping $f \mapsto uv^{-1}$ is an injective homomorphism of $\mathscr{O}$ into $K[[I]]$; we shall often identify $\mathscr{O}$ with its image under this mapping.
+Let $K$ be a commutative field and $\mathscr{O}$ the subring of the field of rational fractions $K((X_i)_{i \in I})$ formed of rational fractions in which the element 0 of $K^1$ is substitutable. If $f \in \mathscr{O}$, we have $f = \frac{u}{v}$, where $u$ and $v$ are polynomials such that the constant term of $v$ is $\neq 0$, hence $v$ is invertible in $K[[I]]$. We can verify at once that the element $uv^{-1}$ of $K[[I]]$ depends only on $f$; we say that the formal power series $uv^{-1}$ is the *expansion at the origin of the rational fraction* $\frac{u}{v}$. The mapping $f \mapsto uv^{-1}$ is an injective homomorphism of $\mathscr{O}$ into $K[[I]]$; we shall often identify $\mathscr{O}$ with its image under this mapping.
 
 ### 5. Taylor's formula for formal power series
 
@@ -395,7 +395,7 @@ $$
 D(u) = \sum_{n \geq 0} \Delta(u_n)
 $$
 
-We have $D(b,) \subset b, -_1$, hence $D$ is a continuous endomorphism of the additive group of $A[[X]]$. The mapping $\Phi : (u, v) \mapsto D(uv) - uD(v) - D(u)v$ of $A[[X]] \times A[[X]]$ into $A[[X]]$ is continuous and zero on $A[X] \times A[X]$. Since $A[X]$ is dense in $A[[X]]$, we have $\Phi = 0$; in other words, $D$ is a derivation of $A[[X]]$ into itself, extending $A$.
+We have $D(b_n) \subset b_{n-1}$, hence $D$ is a continuous endomorphism of the additive group of $A[[X]]$. The mapping $\Phi : (u, v) \mapsto D(uv) - uD(v) - D(u)v$ of $A[[X]] \times A[[X]]$ into $A[[X]]$ is continuous and zero on $A[X] \times A[X]$. Since $A[X]$ is dense in $A[[X]]$, we have $\Phi = 0$; in other words, $D$ is a derivation of $A[[X]]$ into itself, extending $A$.
 
 Finally, $A[X]$ is dense in $A[[X]]$ and every derivation of $A[[X]]$ is continuous by (i); hence there exists a unique extension of $A$ to a derivation of $A[[X]]$. This proves (ii).
 
@@ -403,7 +403,7 @@ It remains to prove (iii). Formula (18) (IV, p. 33) shows that the family $(D_i)
 
 #### Proposition 9 {#alg-iv-s4-prop-9 .statement}
 
-— Let $(u,) \ldots$ be a *summable* family of elements of $A[[I]]$ without constant term and $D$ a continuous derivation of the $A$-algebra $A[[I]]$. If $f = \prod_{\lambda \in L} (1 + u_\lambda)$ (IV, p. 27, Prop. 2), then the family $(Du_\lambda/(1 + u_\lambda))_{\lambda \in L}$ is summable and we have
+— Let $(u_\lambda)_{\lambda \in L}$ be a *summable* family of elements of $A[[I]]$ without constant term and $D$ a continuous derivation of the $A$-algebra $A[[I]]$. If $f = \prod_{\lambda \in L} (1 + u_\lambda)$ (IV, p. 27, Prop. 2), then the family $(Du_\lambda/(1 + u_\lambda))_{\lambda \in L}$ is summable and we have
 
 $$
 D(f)/f = \sum_{\lambda \in L} D(u_\lambda)/(1 + u_\lambda) .
@@ -683,7 +683,7 @@ $$
 l(X) + l(Y) = l(X+Y+XY).
 $$
 
-Let $(u,)_{\lambda}$ be a summable family of elements of $\mathscr{B}$, then the family $(\exp u_{\lambda})_{\lambda \in L}$ is multipliable and we have
+Let $(u_\lambda)_{\lambda \in L}$ be a summable family of elements of $\mathscr{B}$, then the family $(\exp u_{\lambda})_{\lambda \in L}$ is multipliable and we have
 
 (40)
 $$

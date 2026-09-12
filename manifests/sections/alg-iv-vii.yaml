@@ -36,7 +36,7 @@ chapters:
           statements: 30
           exercises: 6
           extraction: ocr
-          content_sha256: fd78d3218a441457495db91a031db777e1dadb9447985e7988ec7daf8360616c
+          content_sha256: e11da9da393e6783ef34f7762d23adad44da6d934dc454d345cf56941aa29133
         - kind: section
           section: 2
           title: Zeros of polynomials
@@ -49,7 +49,7 @@ chapters:
           statements: 20
           exercises: 13
           extraction: ocr
-          content_sha256: 61bf1ec69778f1702ec9e8a2232603a59313de07e429fab249928dcbfd3838ef
+          content_sha256: a0e08ccc91a218c4cff2b2a4aa929a5874f352ba3296b6a790569494053e2507
         - kind: section
           section: 3
           title: Rational fractions
@@ -75,7 +75,7 @@ chapters:
           statements: 23
           exercises: 8
           extraction: ocr
-          content_sha256: 3e65a198739aa70d4a584dbce56538868203828bb1215af894a6ac9c2b0d0051
+          content_sha256: 590ff04e9044259e7c29e890ab34382fd3c7b0ccacecc8ccef21483a20c08ef7
         - kind: section
           section: 5
           title: Symmetric tensors and polynomial mappings
@@ -88,7 +88,7 @@ chapters:
           statements: 41
           exercises: 16
           extraction: ocr
-          content_sha256: f96a879882e9da9dab8e5f6ed8418e095012d58059c354b094191e1789524b90
+          content_sha256: e93ae7664b641d9e4f0ca39b8bc0a48163caf92e6589a856915c010c90c3c05f
         - kind: section
           section: 6
           title: Symmetric functions
@@ -101,7 +101,7 @@ chapters:
           statements: 43
           exercises: 15
           extraction: ocr
-          content_sha256: cc841075e875011562ed770132cf3b06a5e0b13de383d6670be611e3e740d54c
+          content_sha256: ef8ef15a87b4ca1fa15d716b8eaa67bfd37fd16a0e3df720cd92a6edad1c643d
     - chapter: V
       title: COMMUTATIVE FIELDS
       sections:
@@ -139,7 +139,7 @@ chapters:
           statements: 19
           exercises: 4
           extraction: ocr
-          content_sha256: 09cba64f2578226807f14f1ac7820f2dc2a012899df8f1b95971dbe87135f71b
+          content_sha256: c56298305798340d35687f547df30634007d85db2c245dd5915f3c10156178bb
         - kind: section
           section: 3
           title: Algebraic extensions
@@ -152,7 +152,7 @@ chapters:
           statements: 18
           exercises: 13
           extraction: ocr
-          content_sha256: 30bc0804ac65175fb6160741cb971af8dacdc2183cffc476d9c5ecde37bea73a
+          content_sha256: 5f95936b84f97caa67e48bfe42353cb131793ce2a8c308acd9b68538b571ddd5
         - kind: section
           section: 4
           title: Algebraically closed extensions
@@ -165,7 +165,7 @@ chapters:
           statements: 20
           exercises: 2
           extraction: ocr
-          content_sha256: d88aa3362e0dd31bb4b22f70593a46a10ff88921aa9bdd314f0d6c51d688ac7b
+          content_sha256: 22104a93b444e1c37a31ce1439dbd60036921e410cb9b4a87171d3693634528d
         - kind: section
           section: 5
           title: p-radical extensions
@@ -178,7 +178,7 @@ chapters:
           statements: 8
           exercises: 3
           extraction: ocr
-          content_sha256: e15f467ba66e51edc162c41c1e6371162ece2de7935833e112af2325f1bdd5bb
+          content_sha256: 49c1496a9984c07eaeca3aad265abb15c9dafa4cfe515eb1c603a2832eaebcba
         - kind: section
           section: 6
           title: Etale algebras
@@ -191,7 +191,7 @@ chapters:
           statements: 22
           exercises: 2
           extraction: ocr
-          content_sha256: e670b4dd83c9bc46bd6f7c58972d023f4c6f04736f4be78ca1443a9c27857fd0
+          content_sha256: 71f6988eb3a9c137b78c9544e173741eb9e1731f26db8fe43495672bb20a2f2a
         - kind: section
           section: 7
           title: Separable algebraic extensions
@@ -217,7 +217,7 @@ chapters:
           statements: 9
           exercises: 2
           extraction: ocr
-          content_sha256: 79621cc362921900b2880147d98a69d3c70fd45a623941128cab378eac8bd66c
+          content_sha256: 163fe98da569bf96a2cf4cdfe5f897cc2a939f72f9495a1133db2390e5f2e4a9
         - kind: section
           section: 9
           title: Conjugate elements and quasi-Galois extensions
@@ -243,7 +243,7 @@ chapters:
           statements: 49
           exercises: 23
           extraction: ocr
-          content_sha256: 1bd3bcbbec124c4730c75c90bb6dee375cff9fd7993676e0bee4491243019efd
+          content_sha256: 64a6c9421a0e3ab06b3a64d7ceccfc53b6af8db2781476a43ff7b9ac2d7e7c18
         - kind: section
           section: 11
           title: Abelian extensions
@@ -282,7 +282,7 @@ chapters:
           statements: 21
           exercises: 6
           extraction: ocr
-          content_sha256: 15b90e7f75e4f1d8e8211671bff420ff633fa75cb3971759b85af7418043aa6d
+          content_sha256: 30fbacf9d16018de9db1822e5ded58af14ac7583b6c185bbfccaa4c790f152f5
         - kind: section
           section: 14
           title: Transcendental extensions
@@ -295,7 +295,7 @@ chapters:
           statements: 51
           exercises: 20
           extraction: ocr
-          content_sha256: 68b2b1228dbf42359151496377d363ab04eb3d8d6de48753d52f9533efa6678c
+          content_sha256: d25e9df0b19573bb528e2eb74eb348f8e093a741ae1f7a7dff9eda406b98d9d4
         - kind: section
           section: 15
           title: Separable extensions
@@ -321,7 +321,7 @@ chapters:
           statements: 32
           exercises: 9
           extraction: ocr
-          content_sha256: 7f15228bbbd0bb154811166b008cebe85fd5d06f7bc8e0339624a70cc910a47b
+          content_sha256: e84dba21907f633a718175138ad5ad162c8b676bde85e5b06bf6191981f8b7b3
         - kind: section
           section: 17
           title: Regular extensions
@@ -334,7 +334,7 @@ chapters:
           statements: 20
           exercises: 5
           extraction: ocr
-          content_sha256: 1c4cb5cb0d3cdf74638b2b9d83f632710263ccc2f6f485a362711f2198471fb5
+          content_sha256: ea5161cf1b2c28cf9289420b198bd8a7545ddd5832c1cbfa8ba54113cb049ee4
         - kind: historical
           title: Historical Note
           path: content/en/alg/V/historical_note.md
@@ -344,7 +344,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 18206e299bac1fa92f53b349bb59462c63b617a03d17ccba61f8ee80a837ea4b
+          content_sha256: d3d8e5cd03c57035d1df9857d0aef27c2b8331659af5500d9a8d3e0120dca43a
     - chapter: VI
       title: ORDERED GROUPS AND FIELDS
       sections:
@@ -407,7 +407,7 @@ chapters:
           statements: 15
           exercises: 28
           extraction: ocr
-          content_sha256: 0050bfc3f4dbfbdb2e52eb4c6a6132f3b0e2feca0cb54735e5fef0922a664345
+          content_sha256: f42e2230f351e1bc8e1f789cc51497f38a8dea64f679f0db66b57e2cc558e73e
         - kind: section
           section: 2
           title: Torsion modules over a principal ideal domain
@@ -459,7 +459,7 @@ chapters:
           statements: 66
           exercises: 14
           extraction: ocr
-          content_sha256: 4acd72c67112f3a7bbd23a118fc3d1180057562951881475f19ac71ab5edea04
+          content_sha256: 15b717b785fa235f691593f39cc0c7c6cc01006494b3f36e80665726426374e9
         - kind: historical
           title: Historical Note
           path: content/en/alg/VII/historical_note.md

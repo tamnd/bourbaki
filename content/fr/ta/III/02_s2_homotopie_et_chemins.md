@@ -53,7 +53,7 @@ subsections:
       pdf_page: 300
 statements: 63
 exercises: 14
-content_sha256: b214ad435328c152b9f50ea162a4637ba5cfe86644f618ffa88c8d9d23c86683
+content_sha256: bbbc6b64a0e61be80cab901cab021bebe2a33a4cf87fb30fdaffac92248c1394
 ---
 
 ## § 2. HOMOTOPIE ET CHEMINS
@@ -580,7 +580,7 @@ Notons $\preccurlyeq$ la relation dans X définie de la façon suivante : d’un
 
 Soient $x$ et $y$ des points de X tels que l’on n’ait pas $x\preccurlyeq y$. Nécessairement, $x=\not a$ et $y=\not b$, et $x\in V_y$. Si $x=b$ ou $y=a$, on a $y\preccurlyeq x$. Supposons alors que $x$ et $y$ sont distincts de $a$ et $b$. Comme les parties $U_x$ et $U_y$ ont en commun le point $a$, on a l’inclusion $\overline{V_x}\subset \overline{V_y}($loc. cit.), d’où, prenant les adhérences des complémentaires, $\overline{U_y}\subset \overline{U_x}$ et, a fortiori, $y\preccurlyeq x$. La relation $\preccurlyeq$ dans l’espace X est donc une relation d’ordre total. Pour tout $x\in X-\{a, b\}$, on a de plus $U_x= ]\leftarrow , x[$ et $V_x= ]x,\rightarrow [$; pour $x, y\in X-\{a, b\}$, on a $]x, y[ = U_y\cap V_x$. Lorsque $x, y$ parcourent les points de X $-\{a, b\}$, les ensembles $U_y\cap V_x$, les ensembles $U_y$ et les ensembles $V_x$ forment une base d’une topologie sur X. Notons $\widetilde{X}$ l’espace topologique correspondant et $i: X\rightarrow \widetilde{X}$ l’application identique de X. Comme, pour tout $x\in X$, les ensembles $U_x$ et $V_x$ sont ouverts dans X, l’application $i$ est continue.
 
-L’espace $\widetilde{X}$ est séparé. En effet, soient $x$ et $y$ des points distincts de $\widetilde{X}$ tels que $x\preccurlyeq y$. Les parties $]\leftarrow , y[$ et $]x,\rightarrow [$ sont des voisinages ouverts de $x$ et $y$; s’ils ont un point commun $z,]\leftarrow , z[$ et $]z,\rightarrow [$ sont alors des voisinages ouverts disjoints de $x$ et $y$. Comme X est compact, l’application $i$ est donc un homéomorphisme (TG, I, p. 63, cor. 2).
+L’espace $\widetilde{X}$ est séparé. En effet, soient $x$ et $y$ des points distincts de $\widetilde{X}$ tels que $x\preccurlyeq y$. Les parties $]\leftarrow , y[$ et $]x,\rightarrow [$ sont des voisinages ouverts de $x$ et $y$; s’ils ont un point commun $z$, $]\leftarrow , z[$ et $]z,\rightarrow [$ sont alors des voisinages ouverts disjoints de $x$ et $y$. Comme X est compact, l’application $i$ est donc un homéomorphisme (TG, I, p. 63, cor. 2).
 
 Par suite, l’image par $i$ d’une partie dénombrable partout dense de X rencontre chaque intervalle ouvert non vide de l’ensemble ordonné $(X,\preccurlyeq )$. Il résulte alors de la prop. 16 de III, p. 276 qu’il existe un isomorphisme $c$ de l’ensemble ordonné $\mathbf{I}$ sur $(X,\prec )$. D’après la remarque qui suit cette proposition, cet isomorphisme est un homéomorphisme de $\mathbf{I}$ sur l’espace topologique $\widetilde{X}$. L’application $f=i^{-1}\circ c$ est alors un homéomorphisme de $\mathbf{I}$ sur X qui applique 0 sur $a$ et 1 sur $b$.
 

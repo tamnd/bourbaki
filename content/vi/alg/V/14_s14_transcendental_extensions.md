@@ -44,7 +44,7 @@ statements: 51
 exercises: 20
 content_sha256: e9f499f027fccdf22a3330b1652717111a98b25f9ec286c33dcff9e0a06c6637
 translated_from: content/en/alg/V/14_s14_transcendental_extensions.md
-source_content_sha256: 68b2b1228dbf42359151496377d363ab04eb3d8d6de48753d52f9533efa6678c
+source_content_sha256: d25e9df0b19573bb528e2eb74eb348f8e093a741ae1f7a7dff9eda406b98d9d4
 translation_model: gpt-5.4
 translation_run: translate-vi-22b61d8f
 glossary_version: 34

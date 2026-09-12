@@ -53,7 +53,7 @@ subsections:
       pdf_page: 507
 statements: 41
 exercises: 32
-content_sha256: 9bef6d28f362c12836cf4563473a98aa78f886c75e3bc526c03329214a3be918
+content_sha256: 83159af88375622869cb6ea60940d466ee2bc0e0b75bdceffd5eff01efe67f84
 ---
 
 ## 1. KRULL DOMAINS
@@ -346,7 +346,7 @@ Let $p_1, \ldots, p_r$ be the divisorial ideals of $A$ corresponding to the valu
 
 Let $\mathbf{A}$ be a Krull domain, $\mathbf{K}$ its field of fractions and $\mathbf{a}, \mathbf{b}$ and $c$ three divisorial fractional ideals of $\mathbf{A}$ such that $\mathbf{a} \subset \mathbf{b}$. There exists $x \in \mathbf{K}$ such that $\mathbf{a} = \mathbf{b} \cap x\mathbf{c}$.
 
-Let $(v_t)_{t \in I}$ be the family of essential valuations of $\mathbf{A}$ and let $(m,)$ (resp. $(n_t), (p_t)$) be the family of rational integers (zero except for a finite number of indices) such that $\mathbf{a}$ (resp. $\mathbf{b}, c$) is the set of $x \in \mathbf{K}$ for which $v(x_t) \geq m$, (resp. $n_t, p_t$) for all $t \in I$ (Proposition 5, no. 4). The set $\mathbf{J}$ of $t \in I$ such that $m_t > n_t$ is finite. As $p_t = m_t = 0$ except for a finite number of indices, Proposition 9 shows that there exists $x \in \mathbf{K}^*$ such that $v_t(x^{-1}) + m_t = p_t$ for $t \in \mathbf{J}$ and
+Let $(v_t)_{t \in I}$ be the family of essential valuations of $\mathbf{A}$ and let $(m_t)$ (resp. $(n_t), (p_t)$) be the family of rational integers (zero except for a finite number of indices) such that $\mathbf{a}$ (resp. $\mathbf{b}, c$) is the set of $x \in \mathbf{K}$ for which $v_t(x) \geq m_t$ (resp. $n_t, p_t$) for all $t \in I$ (Proposition 5, no. 4). The set $\mathbf{J}$ of $t \in I$ such that $m_t > n_t$ is finite. As $p_t = m_t = 0$ except for a finite number of indices, Proposition 9 shows that there exists $x \in \mathbf{K}^*$ such that $v_t(x^{-1}) + m_t = p_t$ for $t \in \mathbf{J}$ and
 $$
 v_t(x^{-1}) + m_t \geq p_t
 $$

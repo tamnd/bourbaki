@@ -233,7 +233,7 @@ chapters:
           statements: 63
           exercises: 14
           extraction: native
-          content_sha256: b214ad435328c152b9f50ea162a4637ba5cfe86644f618ffa88c8d9d23c86683
+          content_sha256: bbbc6b64a0e61be80cab901cab021bebe2a33a4cf87fb30fdaffac92248c1394
         - kind: section
           section: 3
           title: Groupoïde de Poincaré

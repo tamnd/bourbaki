@@ -29,7 +29,7 @@ subsections:
       pdf_page: 397
 statements: 15
 exercises: 9
-content_sha256: 020593bdada3dedfdedce89dd730fb421b006e38208e35aa98ddd116f94775ba
+content_sha256: c62b29615ede5109ece47eee7c51082ef7d0895d588bd15ce4b8c6aa4a539227
 ---
 
 ## 1. VALUATION RINGS
@@ -170,7 +170,7 @@ $$
 
 the relation $v(x) = +\infty$ implies $x = 0$. Let a be an ideal $\neq (0)$ of A and a an element of a at which v takes its least value; let us write $v(a) = s$ ($s \neq +\infty$). Then $a \subset Ap^s$. In particular, there exists $u \in A$ such that $a = up^s$; as $a \notin Ap^{s+1}$, $u \notin Ap$; hence u is invertible and $p^s \in A$ $a \subset a$. It follows that $a = Ap^s$, whence our first assertion. It is also seen that every element $a \neq 0$ of A may be written in the form $a = up^{v(a)}$ where u is invertible. If $a' = u'p^{v(a')}$ ($u'$ invertible) is another non-zero element of A, then $aa' = uu'p^{v(a)+v(a')}$; hence, if p is not nilpotent, $aa' \neq 0$ and A is an integral domain. Then, as the set of ideals of A is totally ordered by inclusion, we conclude that A is a valuation ring (Theorem I (e)).
 
-For example, if $p$ is a prime number, the local ring $\mathbf{Z}_{(p)}$ is a valuation ring. Let $B = K[X_1, \ldots, X_n]$ be the polynomial ring in $n$ indeterminates over a field $K$; the ideal $BX_1$ is prime, since $B/BX_1$ is isomorphic to $K[X_2, \ldots, X_n]$; hence $B_{BX_1}$ is a valuation ring; it is composed of rational functions $PQ^{-1}$, where $P$ and $Q$ are polynomials and $Q(0, X,, \ldots, X,) \neq 0$.
+For example, if $p$ is a prime number, the local ring $\mathbf{Z}_{(p)}$ is a valuation ring. Let $B = K[X_1, \ldots, X_n]$ be the polynomial ring in $n$ indeterminates over a field $K$; the ideal $BX_1$ is prime, since $B/BX_1$ is isomorphic to $K[X_2, \ldots, X_n]$; hence $B_{BX_1}$ is a valuation ring; it is composed of rational functions $PQ^{-1}$, where $P$ and $Q$ are polynomials and $Q(0, X_2, \ldots, X_n) \neq 0$.
 
 More generally, we shall see that, if $F$ is an extremal element of
 

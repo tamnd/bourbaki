@@ -51,7 +51,7 @@ statements: 69
 exercises: 29
 content_sha256: 498eb7899fcce74ae9ff18e9460e57571ce5004dd2b1afef9aeea81d76a9efb7
 translated_from: content/en/ac/V/01_s1_notion_of_an_integral_element.md
-source_content_sha256: f0ef4aabba009b7905e97f4fb80dfce6d1fb60ac9a39967272fd598733b4eec7
+source_content_sha256: 87b0370472775897aae6495616897e88a9535b1f1811f2352ce23745ea985d1e
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-mini
 translation_run: translate-vi-341390b7
 glossary_version: 34

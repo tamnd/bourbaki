@@ -26,7 +26,7 @@ subsections:
       pdf_page: 26
 statements: 20
 exercises: 13
-content_sha256: 61bf1ec69778f1702ec9e8a2232603a59313de07e429fab249928dcbfd3838ef
+content_sha256: a0e08ccc91a218c4cff2b2a4aa929a5874f352ba3296b6a790569494053e2507
 ---
 
 ## § 2. ZEROS OF POLYNOMIALS
@@ -82,13 +82,13 @@ and if $p < q$, $a$ is not a root of $f_1(X) + (X - \alpha)^{q-p} g_1(X)$; this 
 
 #### Proposition 5 {#alg-iv-s2-prop-5 .statement}
 
-*Suppose that $A$ is an integral domain. Let $f$ be a non-zero element of $A[X]$, and $a,, \ldots, \alpha_p$ pairwise distinct roots of $f$ in $A$, of orders $k_1, \ldots, k_r$. We have*
+*Suppose that $A$ is an integral domain. Let $f$ be a non-zero element of $A[X]$, and $\alpha_1, \ldots, \alpha_p$ pairwise distinct roots of $f$ in $A$, of orders $k_1, \ldots, k_r$. We have*
 
 $$
 f(X) = (X - \alpha_1)^{k_1}(X - \alpha_2)^{k_2} \ldots (X - \alpha_p)^{k_p} g(X)
 $$
 
-*where $g \in A[X]$ and $a,, \ldots, a,$ are not roots of $g$.*
+*where $g \in A[X]$ and $\alpha_1, \ldots, \alpha_p$ are not roots of $g$.*
 
 We proceed by induction on $p$, the proposition being evident for $p = 1$, by Def. 1. Suppose then that $f(X) = g_1(X)g_2(X)$, where
 
@@ -96,13 +96,13 @@ $$
 g_1(X) = (X - \alpha_1)^{k_1} \ldots (X - \alpha_{p-1})^{k_{p-1}}, \quad g_2(X) \in A[X].
 $$
 
-Since $A$ is an integral domain and $\alpha_p$ is distinct from $a,, \ldots, \alpha_{p-1}$ it follows that $\alpha_p$ is not a root of $g_1(X)$, hence $\alpha_p$ is a root of order $k_p$ of $g_2(X)$ (Prop. 4, (ii)). It follows that $g_2(X)$ is divisible by $(X - \alpha_p)^{k_p}$, and so
+Since $A$ is an integral domain and $\alpha_p$ is distinct from $\alpha_1, \ldots, \alpha_{p-1}$ it follows that $\alpha_p$ is not a root of $g_1(X)$, hence $\alpha_p$ is a root of order $k_p$ of $g_2(X)$ (Prop. 4, (ii)). It follows that $g_2(X)$ is divisible by $(X - \alpha_p)^{k_p}$, and so
 
 $$
 f(X) = (X - \alpha_1)^{k_1} \ldots (X - \alpha_p)^{k_p} g(X)
 $$
 
-where $g(X) \in A[X]$. Clearly $a,, \ldots, \alpha_p$ are not roots of $g$.
+where $g(X) \in A[X]$. Clearly $\alpha_1, \ldots, \alpha_p$ are not roots of $g$.
 
 #### Theorem 1 {#alg-iv-s2-thm-1 .statement}
 

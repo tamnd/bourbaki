@@ -33,7 +33,7 @@ subsections:
       pdf_page: 364
 statements: 15
 exercises: 28
-content_sha256: 0050bfc3f4dbfbdb2e52eb4c6a6132f3b0e2feca0cb54735e5fef0922a664345
+content_sha256: f42e2230f351e1bc8e1f789cc51497f38a8dea64f679f0db66b57e2cc558e73e
 ---
 
 ## § 1. PRINCIPAL IDEAL DOMAINS
@@ -62,18 +62,18 @@ Let $A$ be a principal ideal domain and let $K$ be its field of fractions (I, p.
 
 *Let $K$ be the field of fractions of a principal ideal domain $A$, and let $(x_i)_{i \in I}$ be a family of elements of $K$ having a common denominator $b \in K^*$ (in other words $bx_i \in A$ for all $i$). Then:*
 
-a) The family $(x,)$ has a gcd in $K$.
-b) Every gcd of $(x,)$ can be expressed in the form $d = \sum a_i x_i$, where the $a_i$ are elements of $A$, all but finitely many of which are zero.
+a) The family $(x_i)$ has a gcd in $K$.
+b) Every gcd of $(x_i)$ can be expressed in the form $d = \sum a_i x_i$, where the $a_i$ are elements of $A$, all but finitely many of which are zero.
 
 Indeed the ideal $\sum Abx$, of $A$ is principal, and so of the form $Ad'$. Put $d' = bd \ (d \in K)$. From the relation $d' = \sum a_i b x_i$, we deduce $d = \sum a_i x_i$, where $a_i \in A$. Hence every common divisor of the $x_i$ divides $d$. On the other hand, since $bd$ is a common divisor of the $bx$, by construction, it follows that $d$ is a common divisor of the $x_i$.
 
 #### Remark {#alg-vii-s1-n2-rem-1 .statement}
 
-Prop. 1 applies with no restrictions to an arbitrary family $(x,)$ of elements of $A$ (take $b = 1$), and also to any finite family $(x,)$ of elements of $K$ (if $x_i = c_i b_i$ with $c_i \in A$ and $b_i \in A$, then take $b$ to be the product of the $b_i$).
+Prop. 1 applies with no restrictions to an arbitrary family $(x_i)$ of elements of $A$ (take $b = 1$), and also to any finite family $(x_i)$ of elements of $K$ (if $x_i = c_i b_i$ with $c_i \in A$ and $b_i \in A$, then take $b$ to be the product of the $b_i$).
 
 #### Corollary {#alg-vii-s1-n2-cor-1 .statement}
 
-— Let $(x,)$ be an arbitrary family of elements of a principal ideal domain $A$ contained as a subring in an integral domain $B$, and let $d$ be a gcd of the family $(x,)$ in $A$. Then the family $(x,)$ has gcd's in $B$, and $d$ is one of them.
+— Let $(x_i)$ be an arbitrary family of elements of a principal ideal domain $A$ contained as a subring in an integral domain $B$, and let $d$ be a gcd of the family $(x_i)$ in $A$. Then the family $(x_i)$ has gcd's in $B$, and $d$ is one of them.
 
 Indeed $d$ is a common divisor of the $x_i$ in $B$. On the other hand the relation $d = \sum a_i x_i$ shows that every common divisor of the $x_i$ in $B$ divides $d$.
 
@@ -124,7 +124,7 @@ We will now apply the results of VI, p. *18*, relating to decomposition into irr
 
 #### Theorem 2 {#alg-vii-s1-thm-2 .statement}
 
-— Let $\mathbf{A}$ be a principal ideal domain and let $(p,)$ be a system of representatives of irreducible elements of $\mathbf{A}$. Then every nonzero element $x$ of the field of fractions of $A$ can be uniquely expressed in the form
+— Let $\mathbf{A}$ be a principal ideal domain and let $(p_\alpha)$ be a system of representatives of irreducible elements of $\mathbf{A}$. Then every nonzero element $x$ of the field of fractions of $A$ can be uniquely expressed in the form
 
 $$
 x = u \prod_{\alpha} p_{\alpha}^{n_{\alpha}},
@@ -138,13 +138,13 @@ We will use the theorem about decomposition as a sum of irreducible elements (VI
 
 Let $A$ be a ring such that every left ideal of $A$ is finitely generated. Then every nonempty set $\Phi$ of left ideals of $\mathbf{A}$, ordered by inclusion, has a maximal element.
 
-By Zorn's Lemma (Set Theory, III, p. 154, Th. 2) it is enough to prove that $\Phi$ is inductive. Now if $(a,)$ is a totally ordered family of elements of $\Phi$ then the union $a$ of the ideals $a_i$ is a left ideal of $\mathbf{A}$, and so admits a finite system of generators $(a_i)_{1 \leq i \leq n}$. Since each $a_i$ belongs to an ideal $a_{,,}$, and since the family $(a,)$ is totally ordered, the $a_i$ all belong to the largest of the ideals $a_{\lambda_i}$, say $a_1$. Then $a = a_1$ belongs to $\Phi$, which is thus indeed an inductive set.
+By Zorn's Lemma (Set Theory, III, p. 154, Th. 2) it is enough to prove that $\Phi$ is inductive. Now if $(a_\lambda)$ is a totally ordered family of elements of $\Phi$ then the union $a$ of the ideals $a_i$ is a left ideal of $\mathbf{A}$, and so admits a finite system of generators $(a_i)_{1 \leq i \leq n}$. Since each $a_i$ belongs to an ideal $a_{\lambda_i}$, and since the family $(a_\lambda)$ is totally ordered, the $a_i$ all belong to the largest of the ideals $a_{\lambda_i}$, say $a_1$. Then $a = a_1$ belongs to $\Phi$, which is thus indeed an inductive set.
 
 Later we will study those rings $B$, called noetherian rings, such that every nonempty set of ideals of $B$ contains a maximal element.
 
 #### Remark {#alg-vii-s1-n3-rem-1 .statement}
 
-The family $(u, (n,))$ is called the decomposition of $x$ into irreducible factors; by abuse of language, we also say that the formula (1) is the decomposition of $x$ into irreducible factors. If $x = u \prod_{\alpha} p_{\alpha}^{n_{\alpha}}$ and $y = v \prod_{\alpha} p_{\alpha}^{m_{\alpha}}$ are the decompositions of $x$ and $y$ into irreducible factors, then a necessary and sufficient condition for $x$ to divide $y$ is that $n_{\alpha} \leq m_{\alpha}$, for all $\alpha$; from this we deduce the formulae
+The family $(u, (n_\alpha))$ is called the decomposition of $x$ into irreducible factors; by abuse of language, we also say that the formula (1) is the decomposition of $x$ into irreducible factors. If $x = u \prod_{\alpha} p_{\alpha}^{n_{\alpha}}$ and $y = v \prod_{\alpha} p_{\alpha}^{m_{\alpha}}$ are the decompositions of $x$ and $y$ into irreducible factors, then a necessary and sufficient condition for $x$ to divide $y$ is that $n_{\alpha} \leq m_{\alpha}$, for all $\alpha$; from this we deduce the formulae
 
 $$
 \gcd(x, y) = \prod_{\alpha} p_{\alpha}^{\inf(n_{\alpha}, m_{\alpha})}

@@ -44,7 +44,7 @@ statements: 32
 exercises: 9
 content_sha256: 420a99a6fc5316a4998c841f02f3ae5225428ffd95bfa999c0f1d8e00fc00f3e
 translated_from: content/en/alg/V/16_s16_differential_criteria_of_separability.md
-source_content_sha256: 7f15228bbbd0bb154811166b008cebe85fd5d06f7bc8e0339624a70cc910a47b
+source_content_sha256: e84dba21907f633a718175138ad5ad162c8b676bde85e5b06bf6191981f8b7b3
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-ff6e7523
 glossary_version: 34

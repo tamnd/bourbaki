@@ -40,7 +40,7 @@ statements: 20
 exercises: 5
 content_sha256: 2be5d1e52dd4a5c5062e067bc81adb796b67728132da1e7c14b669f23f03c966
 translated_from: content/en/alg/V/17_s17_regular_extensions.md
-source_content_sha256: 1c4cb5cb0d3cdf74638b2b9d83f632710263ccc2f6f485a362711f2198471fb5
+source_content_sha256: ea5161cf1b2c28cf9289420b198bd8a7545ddd5832c1cbfa8ba54113cb049ee4
 translation_model: gpt-5.4
 translation_run: translate-vi-ab1b1743
 glossary_version: 34

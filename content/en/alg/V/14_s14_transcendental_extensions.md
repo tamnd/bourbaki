@@ -42,7 +42,7 @@ subsections:
       pdf_page: 231
 statements: 51
 exercises: 20
-content_sha256: 68b2b1228dbf42359151496377d363ab04eb3d8d6de48753d52f9533efa6678c
+content_sha256: d25e9df0b19573bb528e2eb74eb348f8e093a741ae1f7a7dff9eda406b98d9d4
 ---
 
 ## § 14. TRANSCENDENTAL EXTENSIONS
@@ -103,7 +103,7 @@ c) $T$ is algebraically free over $K$ and $S$ is algebraically free over $K(T)$.
 
 Evidently it is enough to prove that a) and b) are equivalent.
 
-$a) \Rightarrow b)$: Suppose that a) holds. Since $S$ is contained in $S \cup T$, it is algebraically free over $K$. If $T$ is not algebraically free over $K(S)$, there exists (Prop. 3) a finite family $(y_j)_{1 \leq j \leq n}$ of distinct elements of $T$ which is algebraically related over $K(S)$. Hence there is a non-zero polynomial $f$ in the ring $K(S)[Y_1, ..., Y_n]$ such that $f(y,, ..., y,) = 0$; after multiplying $f$ if necessary by a non-zero element of $K[S]$ we may suppose that all the coefficients off belong to $K[S]$. The coefficients of fare polynomials in a finite number of distinct elements $x_i \ (1 \leq i \leq m )$ of $S$, with coefficients in $K$. The elements $x_1, ..., x,, y_1, ..., y,$ are pairwise distinct because $S \cap T = (21$. The relation $f(y,, ..., y,) = 0$ may thus be written
+$a) \Rightarrow b)$: Suppose that a) holds. Since $S$ is contained in $S \cup T$, it is algebraically free over $K$. If $T$ is not algebraically free over $K(S)$, there exists (Prop. 3) a finite family $(y_j)_{1 \leq j \leq n}$ of distinct elements of $T$ which is algebraically related over $K(S)$. Hence there is a non-zero polynomial $f$ in the ring $K(S)[Y_1, ..., Y_n]$ such that $f(y_1, ..., y_n) = 0$; after multiplying $f$ if necessary by a non-zero element of $K[S]$ we may suppose that all the coefficients off belong to $K[S]$. The coefficients of fare polynomials in a finite number of distinct elements $x_i \ (1 \leq i \leq m )$ of $S$, with coefficients in $K$. The elements $x_1, ..., x_m, y_1, ..., y_n$ are pairwise distinct because $S \cap T = (21$. The relation $f(y_1, ..., y_n) = 0$ may thus be written
 
 $$
 g(x_1, ..., x_m ; y_1, ..., y_n) = 0 ,
@@ -111,7 +111,7 @@ $$
 
 where $g$ is a non-zero polynomial of $K[X_1, ..., X_m, Y_1, ..., Y_n]$, and such a relation contradicts the hypothesis that $S \cup T$ is algebraically free.
 
-$b) \Rightarrow a)$: Suppose that b) holds. In the first place it is clear that $T \cap K(S) = \varnothing$ and $a fortiori \ S \cap T = (21$. It suffices to show that if $x_i \ (1 \leq i \leq m )$ are distinct elements of $S$, finite in number, and $y_j \ (1 \leq j \leq n )$ distinct elements of $T$ finite in number, then the set of the $x_i$ and $y,$ is algebraically free over $K$ (Prop. 3). Consider a polynomial $f \in K[X_1, ..., X,, Y_1, ..., Y_n]$ such that $f(x_1, ..., x_m, y_1, ..., y,) = 0$ and put $f = \sum \varphi_\alpha Y_1^{\alpha_1} ... Y_n^{\alpha_n}$ with $\varphi_\alpha \in K[X_1, ..., X_m]$ for all $\alpha = (\alpha,, ..., \alpha_n) \in \mathbf{N}^n$. Let $g = f(x,, ..., x,, Y_1, ..., Y,)$; then $g$ is a polynomial in the ring $K[S][Y_1, ..., Y,]$ and the relation $f(x_1, ..., x_m, y_1, ..., y,) = 0$ may be written $g(y_1, ..., y,) = 0$. Since $T$ is algebraically free over $K(S)$, each of the coefficients $\varphi_\alpha(x_1, ..., x,)$ of $g$ is zero; since $S$ is algebraically free over $K$, we have $\varphi_\alpha = 0$ for all $\alpha \in \mathbf{N}^n$, and hence $f = 0$.
+$b) \Rightarrow a)$: Suppose that b) holds. In the first place it is clear that $T \cap K(S) = \varnothing$ and $a fortiori \ S \cap T = (21$. It suffices to show that if $x_i \ (1 \leq i \leq m )$ are distinct elements of $S$, finite in number, and $y_j \ (1 \leq j \leq n )$ distinct elements of $T$ finite in number, then the set of the $x_i$ and $y_j$ is algebraically free over $K$ (Prop. 3). Consider a polynomial $f \in K[X_1, ..., X_m, Y_1, ..., Y_n]$ such that $f(x_1, ..., x_m, y_1, ..., y_n) = 0$ and put $f = \sum \varphi_\alpha Y_1^{\alpha_1} ... Y_n^{\alpha_n}$ with $\varphi_\alpha \in K[X_1, ..., X_m]$ for all $\alpha = (\alpha_1, ..., \alpha_n) \in \mathbf{N}^n$. Let $g = f(x_1, ..., x_m, Y_1, ..., Y_n)$; then $g$ is a polynomial in the ring $K[S][Y_1, ..., Y_n]$ and the relation $f(x_1, ..., x_m, y_1, ..., y_n) = 0$ may be written $g(y_1, ..., y_n) = 0$. Since $T$ is algebraically free over $K(S)$, each of the coefficients $\varphi_\alpha(x_1, ..., x_m)$ of $g$ is zero; since $S$ is algebraically free over $K$, we have $\varphi_\alpha = 0$ for all $\alpha \in \mathbf{N}^n$, and hence $f = 0$.
 
 #### Corollary {#alg-v-s14-n2-cor-1 .statement}
 
@@ -123,7 +123,7 @@ $b) \Rightarrow a)$: Suppose that b) holds. In the first place it is clear that 
 
 The condition is necessary by Prop. 4.
 
-To prove the sufficiency it is enough (Prop. 3) to show that every finite sequence $(x_1, ..., x,)$ of distinct elements of $S$ is algebraically free. Now by hypothesis $x_i$ is transcendental over $K(x_1, ..., x_{i-1})$ for $1 \leq i \leq n$, and now our assertion follows by induction on $n$ from the Cor. to Prop. 4.
+To prove the sufficiency it is enough (Prop. 3) to show that every finite sequence $(x_1, ..., x_n)$ of distinct elements of $S$ is algebraically free. Now by hypothesis $x_i$ is transcendental over $K(x_1, ..., x_{i-1})$ for $1 \leq i \leq n$, and now our assertion follows by induction on $n$ from the Cor. to Prop. 4.
 
 #### Proposition 6 {#alg-v-s14-prop-6 .statement}
 

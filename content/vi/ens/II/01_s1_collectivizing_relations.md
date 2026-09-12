@@ -44,7 +44,7 @@ statements: 10
 exercises: 6
 content_sha256: 706905b2a9309784fd3a14093770441a86988d9963823209635fe4f045e3b0ac
 translated_from: content/en/ens/II/01_s1_collectivizing_relations.md
-source_content_sha256: 4a9ee1e53629e655e2d44be47afe0051771af4dbac00a9502665cf0edd1589f5
+source_content_sha256: 15e4c05cbeaa37f947e4dd88b319dfea58ef5aed00b479f31e5cbe9ae7b53342
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-bc006553
 glossary_version: 34

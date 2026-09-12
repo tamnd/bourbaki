@@ -45,7 +45,7 @@ subsections:
       pdf_page: 22
 statements: 30
 exercises: 6
-content_sha256: fd78d3218a441457495db91a031db777e1dadb9447985e7988ec7daf8360616c
+content_sha256: e11da9da393e6783ef34f7762d23adad44da6d934dc454d345cf56941aa29133
 ---
 
 ## § 1. POLYNOMIALS
@@ -213,7 +213,7 @@ D^\nu(X^\mu) = \begin{cases}
 $$
 When $P$ is a polynomial in a single indeterminate $X$, the unique partial derivative of $P$ is written $DP$ or $\frac{dP}{dX}$ or $P'$ and is called simply the *derivative* of $P$.
 
-Again let $B = A[(X_i)_{i \in I}]$; by III, p. 569 the B-module of A-differentials of $B$, $\Omega_A(B)$, has the family $(dX_i)_{i,}$, of differentials of the $X_i$ as basis. Let $\partial_i$ be the coordinate form of index $i$ relative to this basis over $\Omega_A(B)$. Then the mapping $u \mapsto (\partial_i, du)$ of B into itself is a derivation of B which maps $X_i$ to 1 and $X_j$ to 0 for $j \neq i$, and hence is $D_i$; in other words, we have
+Again let $B = A[(X_i)_{i \in I}]$; by III, p. 569 the B-module of A-differentials of $B$, $\Omega_A(B)$, has the family $(dX_i)_{i \in I}$ of differentials of the $X_i$ as basis. Let $\partial_i$ be the coordinate form of index $i$ relative to this basis over $\Omega_A(B)$. Then the mapping $u \mapsto (\partial_i, du)$ of B into itself is a derivation of B which maps $X_i$ to 1 and $X_j$ to 0 for $j \neq i$, and hence is $D_i$; in other words, we have
 $$
 du = \sum_{i \in I} (D_i u) dX_i
 $$
@@ -221,7 +221,7 @@ for each $u \in B$. If I is finite, $(D_i)_{i \in I}$ is a basis of the B-module
 
 #### Proposition 4 {#alg-iv-s1-prop-4 .statement}
 
-*Let E be an associative, commutative and unital A-algebra, $x = (x_i)_{i \in I}$ a family of elements of E, u an element of $A[(X_i)_{i,}]$ and $y = u(x)$. Then for every derivation D of E into an E-module we have*
+*Let E be an associative, commutative and unital A-algebra, $x = (x_i)_{i \in I}$ a family of elements of E, u an element of $A[(X_i)_{i \in I}]$ and $y = u(x)$. Then for every derivation D of E into an E-module we have*
 $$
 Dy = \sum_{i \in I} (D_i u)(x) \cdot Dx_i .
 $$
@@ -433,7 +433,7 @@ With the notations of (i) we shall say that $u$ is the quotient and $v$ the rema
 
 — Let $K$ be a commutative *field*.
 (i) For every non-zero ideal $a$ of $K[X]$ there exists precisely one *monic* polynomial $f$ in $K[X]$ such that $a = (f )$.
-(ii) Let $f_1$ and $f_2$ be in $K[X]$; for $(f,) = (f_2)$ to hold it is necessary and sufficient that there exist a non-zero element $\lambda$ of $K$ such that $f_2 = \lambda f_1$.
+(ii) Let $f_1$ and $f_2$ be in $K[X]$; for $(f_1) = (f_2)$ to hold it is necessary and sufficient that there exist a non-zero element $\lambda$ of $K$ such that $f_2 = \lambda f_1$.
 Let us prove (ii), the sufficiency of the stated condition being clear. The case where $f_1$ and $f_2$ generate the zero ideal is trivial. Thus assume that the non-zero polynomials $f_1$ and $f_2$ generate the same ideal of $K[X]$. Then there exist polynomials $u_1$ and $u_2$ such that $f_1 = u_1 f_2$ and $f_2 = u_2 f_1$; it follows that u_1 u_2 = 1, whence $\deg u_1 + \deg u_2 = 0$ and so $\deg u_2 = 0$. We have thus shown that $u_2$ is a non-zero element of $K$.
 
 To prove (i), let $f$ be a monic polynomial in $a$ of least possible degree. Given $g$ in $a$, let $u$ and $v$ be the quotient and remainder of the Euclidean division of $g$ by $f$; then $v = g - u f$ belongs to $a$ and we have $\deg v < \deg f$; if $v$ were non-zero, there would be a non-zero element $A$ of $K$ such that $\lambda v$ is monic, and since $\lambda v \in a$, this would contradict the definition off. We thus have $a = (f)$; the uniqueness of the monic polynomial $f$ such that $a = (f)$ now follows from (ii).
@@ -452,7 +452,7 @@ To prove (i), let $f$ be a monic polynomial in $a$ of least possible degree. Giv
 
 When $f$ and $g$ are zero, each of the properties (i) to (iii) is satisfied only for $d = 0$, hence they are then equivalent. Henceforth we assume that $f, g$ are not both 0 and we denote by $a$ the ideal $(f) + (g)$ of $K[X]$.
 
-We remark that for any polynomials $u$ and $v$ in $K[X]$ the properties $(u) \supset (v)$ and « $u$ divides $v$ » are equivalent. The assertion (ii) is thus equivalent to « $(d) \supset (f)$ and $(d) \supset (g)$ and $d \in (f) + (g)$ », that is (iii). It is clear that (ii) implies (i). Finally suppose that (i) holds; we have $(d) \supset (f)$ and $(d) \supset (g)$, whence $(d) \supset a$; on the other hand, by Prop. 11 (IV, p. 12) there exists a polynomial $d_1$ such that $a = (d,)$; since $d_1$ divides both $f$ and $g$, it divides $d$ by hypothesis, whence $(d) \subset a$, and finally we have $(d) = a$, that is, (iii).
+We remark that for any polynomials $u$ and $v$ in $K[X]$ the properties $(u) \supset (v)$ and « $u$ divides $v$ » are equivalent. The assertion (ii) is thus equivalent to « $(d) \supset (f)$ and $(d) \supset (g)$ and $d \in (f) + (g)$ », that is (iii). It is clear that (ii) implies (i). Finally suppose that (i) holds; we have $(d) \supset (f)$ and $(d) \supset (g)$, whence $(d) \supset a$; on the other hand, by Prop. 11 (IV, p. 12) there exists a polynomial $d_1$ such that $a = (d_1)$; since $d_1$ divides both $f$ and $g$, it divides $d$ by hypothesis, whence $(d) \subset a$, and finally we have $(d) = a$, that is, (iii).
 
 The other assertions of Prop. 12 are immediate consequences of Prop. 11 applied to the ideal $a = (f) + (g)$.
 

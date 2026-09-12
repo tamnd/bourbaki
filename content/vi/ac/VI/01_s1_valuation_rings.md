@@ -31,7 +31,7 @@ statements: 15
 exercises: 7
 content_sha256: fc1eb0edf2f336b115fbbb559dd3bef64caecab9bd67755860d0aa66245d2159
 translated_from: content/en/ac/VI/01_s1_valuation_rings.md
-source_content_sha256: 020593bdada3dedfdedce89dd730fb421b006e38208e35aa98ddd116f94775ba
+source_content_sha256: c62b29615ede5109ece47eee7c51082ef7d0895d588bd15ce4b8c6aa4a539227
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-6a818b3d
 glossary_version: 34

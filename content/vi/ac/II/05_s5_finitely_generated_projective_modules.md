@@ -43,7 +43,7 @@ statements: 34
 exercises: 8
 content_sha256: db3fd788cf48501ee40100b28bfc56c9ccfaf8e1862df912f16d7d5f8fd6bbaf
 translated_from: content/en/ac/II/05_s5_finitely_generated_projective_modules.md
-source_content_sha256: b150e806302e3d5000bed6efe01317662a5ecee95a4bc65f986d2ec47425f29a
+source_content_sha256: 890bdd512ed021e9151e23128f06509329c84ff1883d10c98fcaf477533b7357
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-5e8c59f3
 glossary_version: 34

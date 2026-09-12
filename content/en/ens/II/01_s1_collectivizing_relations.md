@@ -42,7 +42,7 @@ subsections:
       pdf_page: 78
 statements: 10
 exercises: 6
-content_sha256: 4a9ee1e53629e655e2d44be47afe0051771af4dbac00a9502665cf0edd1589f5
+content_sha256: 15e4c05cbeaa37f947e4dd88b319dfea58ef5aed00b479f31e5cbe9ae7b53342
 ---
 
 ## 1. COLLECTIVIZING RELATIONS
@@ -65,7 +65,7 @@ From a "naive" point of view, many mathematical entities can be considered as co
 
 *The relation denoted by* $(\forall z)((z \in x) \Rightarrow (z \in y))$, *in which only the letters $x$ and $y$ appear, is written in one of the following ways :* $x \subset y$, $y \supset x$, *"$x$ is contained in $y$", "$y$ contains $x$", "$x$ is a subset of $y$". The relation* "not $(x \subset y)$" *is written* $x \not\subset y$ *or* $y \not\supset x$.
 
-In accordance with the conventions mentioned in Chapter I, § 1, no. 1, this definition entails the following metamathematical convention. Let $T$ and $U$ be assemblies; if we substitute $T$ for $x$ and $U$ for $y$ in the assembly $x \subset y$, we obtain an assembly which is denoted by $T \subset U$; if we denote by $\mathbf{x}$, $\mathbf{y}$ letters which are distinct from $x$, $y$ and distinct from each other, and which appear neither in $T$ nor in $U$, the assembly $T \subset U$ is then identical with $(T|\mathbf{x})(U|\mathbf{y})(\mathbf{x}|x)(\mathbf{y}|y)(x \subset y,)$ and hence by CS8, CS9 (Chapter I, § 4, no. 1), and CS5 (Chapter I, § 1, no. 2) with $(\forall z)((z \in T) \Rightarrow (z \in U))$, provided that $z$ is a letter which appears neither in $T$ nor in $U$.
+In accordance with the conventions mentioned in Chapter I, § 1, no. 1, this definition entails the following metamathematical convention. Let $T$ and $U$ be assemblies; if we substitute $T$ for $x$ and $U$ for $y$ in the assembly $x \subset y$, we obtain an assembly which is denoted by $T \subset U$; if we denote by $\mathbf{x}$, $\mathbf{y}$ letters which are distinct from $x$, $y$ and distinct from each other, and which appear neither in $T$ nor in $U$, the assembly $T \subset U$ is then identical with $(T|\mathbf{x})(U|\mathbf{y})(\mathbf{x}|x)(\mathbf{y}|y)(x \subset y)$ and hence by CS8, CS9 (Chapter I, § 4, no. 1), and CS5 (Chapter I, § 1, no. 2) with $(\forall z)((z \in T) \Rightarrow (z \in U))$, provided that $z$ is a letter which appears neither in $T$ nor in $U$.
 
 From now on, whenever we state a mathematical definition, we shall not mention the metamathematical convention which it entails.
 

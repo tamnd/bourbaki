@@ -33,7 +33,7 @@ subsections:
       pdf_page: 403
 statements: 9
 exercises: 6
-content_sha256: b544413d10331937b891740ab23ca115c16171f1f2b46cac7186286bd8362f62
+content_sha256: 0dfb4f3df3b1305aac0576bfe1b57e31bb1d8b17fe329b14413303e5d8ae653e
 ---
 
 ## 2. PLACES
@@ -172,7 +172,7 @@ Taking account of Proposition 1, this is a translation of Theorem 2 of § 1, no.
 
 #### Proposition 4 {#ac-vi-s2-prop-4 .statement}
 
-Let $K$ be a field, $f$ a place of $K$ with values in a field $L$ and $K'$ an extension of $K$. Then there exists an extension $L'$ of $L$ and a place $f'$ of $K'$ with values in $L'$ which extends $f$. If $x_1, \ldots, x_n$ are elements of $K$ which are algebraically independent over $K$ and $a,, \ldots, a,,$ any elements $\in L, f'$ may be chosen such that $f(x_i) = a,$ for $1 \leq i \leq n.$
+Let $K$ be a field, $f$ a place of $K$ with values in a field $L$ and $K'$ an extension of $K$. Then there exists an extension $L'$ of $L$ and a place $f'$ of $K'$ with values in $L'$ which extends $f$. If $x_1, \ldots, x_n$ are elements of $K$ which are algebraically independent over $K$ and $a_1, \ldots, a_n$ any elements $\in L$, $f'$ may be chosen such that $f(x_i) = a_i$ for $1 \leq i \leq n.$
 
 Let $V$ be the ring off, $g$ the restriction off to $V$ and $g'$ the extension of $g$ to $V[x_1, \ldots, x_n]$ such that $g'(x_i) = a,$ for $1 \leq i \leq n.$ It is sufficient to take $L'$ to be an algebraic closure of $L$ and apply Proposition 3 to $g'$ and $L'$: we obtain a placef': $K' \to \tilde{L}'$ which extends $g'$; if $x \in K - V,$ then $x^{-1} \in m(V),$ whence $f(x^{-1}) = g(x^{-1}) = 0$ and $f'(x) = \infty = f(x);$ hencef' extendsf.
 

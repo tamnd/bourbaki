@@ -13,7 +13,7 @@ pdf_pages: 0625-0627
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: bdae74bed3f5e2623997f82ca19481313d51b4352024f78babf15c7708b34509
+content_sha256: 600423954f023b5116fbf157777de2e85665e74947696e7d93e5dc7cc69f6b87
 ---
 
 ## INDEX OF NOTATION
@@ -87,7 +87,7 @@ $F(A), C(A)$ (A a Krull domain): VII.1.10
 $e(\mathfrak{P}/p)$ ($p \in P(A), \mathfrak{P} \in P(B), A \subset B, \mathfrak{P} \cap A = p$) VII.1.10
 $i$ (homomorphism from $D(A)$ to $D(B)$, or of $C(A)$ to $C(B)$): VII.1.10
 $\bar{i}$ (homomorphism from $C(A)$ to $C(B)$): VII.1.10
-$A, A,, \Delta(K)$ (rings of restricted adèles): VII.2.4
+$A, A_0, \Delta(K)$ (rings of restricted adèles): VII.2.4
 $\mathfrak{P}^*, \mathfrak{P}^*(A)$ (A an integral domain): VII.3.2
 $M^*$ (dual lattice of a lattice $M$): VII.4.2
 $l_p(T), \chi(T)$ (T a torsion A-module, $p$ a prime ideal of height 1): VII.4.5

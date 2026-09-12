@@ -25,7 +25,7 @@ subsections:
       pdf_page: 433
 statements: 14
 exercises: 3
-content_sha256: e86e2f4df23e67929d05a5c7fb9439871e542e8948249e33754e6cdbddf47125
+content_sha256: d9f70fdf5aa3e41f0e672baf6b738dde77d4dd2dca2a2859f6ceb324078165d7
 ---
 
 ## 7. THE APPROXIMATION THEOREM
@@ -150,15 +150,15 @@ Remarks
 
 #### Proposition 4 {#ac-vi-s7-prop-4 .statement}
 
-*Let $v_1, \ldots, v_n$ ($n \geq 2$) be pairwise dependent valuations on the same field $K$. Then the rings $A,, \ldots, A,$ of $v_1, \ldots, v,$ generate a subring $\delta \ K$ distinct from $K$.*
+*Let $v_1, \ldots, v_n$ ($n \geq 2$) be pairwise dependent valuations on the same field $K$. Then the rings $A_1, \ldots, A_n$ of $v_1, \ldots, v_n$ generate a subring $\delta \ K$ distinct from $K$.*
 
-For $n = 2$ Proposition 4 follows from Definition 1. Suppose it holds for $n - 1$ valuations. Then there exists a subring A of K distinct from K and containing $A,, \ldots, A,$; there also exists a subring B $\neq K$ containing A, _, and A_. As A and B contain A, _, they are comparable with respect to inclusion (§ 4, no. 1, Corollary to Proposition 1). The greater of these two therefore contains all the $A_i$.
+For $n = 2$ Proposition 4 follows from Definition 1. Suppose it holds for $n - 1$ valuations. Then there exists a subring A of K distinct from K and containing $A_1, \ldots, A_{n-1}$; there also exists a subring B $\neq K$ containing $A_{n-1}$ and $A_n$. As A and B contain $A_{n-1}$, they are comparable with respect to inclusion (§ 4, no. 1, Corollary to Proposition 1). The greater of these two therefore contains all the $A_i$.
 
 ### 3. THE CASE OF ABSOLUTE VALUES
 
 #### Theorem 2 (Approximation Theorem for Absolute Values) {#ac-vi-s7-thm-2 .statement}
 
-*Let $f_i$ ($1 \leq i \leq n$) be absolute values on the same field $K$ which are not improper and no two of which are equivalent. Let $a, \ (1 \leq i \leq n)$ be elements of $K$ and $\varepsilon$ a real number $> 0$. Then there exists $x \in K$ such that $f_i(x - a,) \leq \varepsilon$ for all $i$.*
+*Let $f_i$ ($1 \leq i \leq n$) be absolute values on the same field $K$ which are not improper and no two of which are equivalent. Let $a_i \ (1 \leq i \leq n)$ be elements of $K$ and $\varepsilon$ a real number $> 0$. Then there exists $x \in K$ such that $f_i(x - a_i) \leq \varepsilon$ for all $i$.*
 
 Let $K_i$ denote the field K with the topology defined by $f_i$. The result to be proved is equivalent to the following: in the product $P = K_1 \times \cdots \times K_n$, the closure $\overline{D}$ of the diagonal D is equal to P. This is obvious for $n = 1$. Suppose that this point has been established in the case of k absolute values for $k < n$.
 
@@ -168,7 +168,7 @@ As the integer $q$ tends to infinity, $f_1(x_n^q)$ tends to 0, $f_2(x_n^q)$ tend
 $$
 1 - y_q = (1 + x_n^q)^{-1};
 $$
-hence the sequence $(y,)$ tends to 0 in $K_1$, to 1 in $K_2$ and to 0 or 1 in $K_i$ for $i \geq 3$. By changing the numbering of the $K_i$, it may therefore be assumed that there exists an integer $r$ ($1 \leq r < n$) such that $\overline{D}$ contains the point $(e_1, \ldots, e_n)$ where $e_i = 1$ for $1 \leq i \leq r$ and $e_i = 0$ for $r + 1 \leq i \leq n$. Now, $\overline{D}$ is a vector sub-K-space of P. Hence $\overline{D}$ contains the diagonals D' and D'' of
+hence the sequence $(y_q)$ tends to 0 in $K_1$, to 1 in $K_2$ and to 0 or 1 in $K_i$ for $i \geq 3$. By changing the numbering of the $K_i$, it may therefore be assumed that there exists an integer $r$ ($1 \leq r < n$) such that $\overline{D}$ contains the point $(e_1, \ldots, e_n)$ where $e_i = 1$ for $1 \leq i \leq r$ and $e_i = 0$ for $r + 1 \leq i \leq n$. Now, $\overline{D}$ is a vector sub-K-space of P. Hence $\overline{D}$ contains the diagonals D' and D'' of
 $$
 P' = K_1 \times \cdots \times K_r,
 $$

@@ -28,7 +28,7 @@ statements: 21
 exercises: 6
 content_sha256: 45a8a53749440d640932f342ec06ac39968da7b5fc02f2342cbeddf8a62c96b2
 translated_from: content/en/alg/V/13_s13_p_radical_extensions_of_height_1.md
-source_content_sha256: 15b90e7f75e4f1d8e8211671bff420ff633fa75cb3971759b85af7418043aa6d
+source_content_sha256: 30fbacf9d16018de9db1822e5ded58af14ac7583b6c185bbfccaa4c790f152f5
 translation_model: gpt-5.4, gpt-5-6-mini, copied
 translation_run: translate-vi-d004b81c
 glossary_version: 34

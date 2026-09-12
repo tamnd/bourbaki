@@ -26,7 +26,7 @@ subsections:
       pdf_page: 164
 statements: 9
 exercises: 2
-content_sha256: 79621cc362921900b2880147d98a69d3c70fd45a623941128cab378eac8bd66c
+content_sha256: 163fe98da569bf96a2cf4cdfe5f897cc2a939f72f9495a1133db2390e5f2e4a9
 ---
 
 ## § 8. NORMS AND TRACES
@@ -76,7 +76,7 @@ $$
 
 the case of norms is treated similarly.
 
-Further let $(x,, \ldots, x,)$ be a sequence of elements of $A$, let U be the matrix
+Further let $(x_1, \ldots, x_n)$ be a sequence of elements of $A$, let U be the matrix
 
 $$
 (u_i(x_j))_{1 \leq i,j \leq n}
@@ -102,7 +102,7 @@ b) *There exists a basis of $A$ whose discriminant is non-zero.*
 c) *For each $x \neq 0$ in $A$ there exists $y$ in $A$ such that $\text{Tr}_{A/K}(xy) \neq 0$.*
 *Further, when these conditions are satisfied, the discriminant of any basis of $A$ is non-zero.*
 
-We shall show that when $A$ is assumed etale, the discriminant of $A$ with respect to any basis $(x,, \ldots, x,)$ of $A$ over $K$ is non-zero; this will in particular establish the implication $a) \Rightarrow b)$. By (4), with the above notation, it suffices to show that the matrix U is invertible, or equivalently, that the system of linear equations
+We shall show that when $A$ is assumed etale, the discriminant of $A$ with respect to any basis $(x_1, \ldots, x_n)$ of $A$ over $K$ is non-zero; this will in particular establish the implication $a) \Rightarrow b)$. By (4), with the above notation, it suffices to show that the matrix U is invertible, or equivalently, that the system of linear equations
 
 $$
 \sum_{i=1}^n \lambda_i u_i(x_j) = 0 \quad (\text{for } 1 \leq j \leq n)
@@ -130,9 +130,9 @@ Let us show that condition c) implies that A is reduced. Let x be a nilpotent el
 
 Let V be a vector space of finite dimension over K and $u$ a nilpotent endomorphism of V, then $\mathrm{Tr}(u) = 0$.
 
-For each integer $n \geq 0$ let $V_n$ be the image of $u^n$. Since $u$ is nilpotent, there exists an integer $r \geq 0$ such that $V_0 = V, V_r = 0$ and $V_i \neq V_{i+1}$ for $0 \leq i < r - 1$. Let d, be the dimension of $V_{i-1}$ (for $1 \leq i \leq r$). There exists a basis $(x,, \ldots, x_d)$ of V such that the vectors $x_j$ with $d - d_i < j \leq d$ form a basis of $V_{i-1}$ (for $1 \leq i \leq r$). We have $u(V_{i-1}) \subset V_i$ and so the diagonal elements of the matrix of $u$ for the basis $(x,, \ldots, x,)$ are zero. Thus we have $\mathrm{Tr}(u) = 0$ and the lemma follows.
+For each integer $n \geq 0$ let $V_n$ be the image of $u^n$. Since $u$ is nilpotent, there exists an integer $r \geq 0$ such that $V_0 = V, V_r = 0$ and $V_i \neq V_{i+1}$ for $0 \leq i < r - 1$. Let $d_i$ be the dimension of $V_{i-1}$ (for $1 \leq i \leq r$). There exists a basis $(x_1, \ldots, x_d)$ of V such that the vectors $x_j$ with $d - d_i < j \leq d$ form a basis of $V_{i-1}$ (for $1 \leq i \leq r$). We have $u(V_{i-1}) \subset V_i$ and so the diagonal elements of the matrix of $u$ for the basis $(x_1, \ldots, x_d)$ are zero. Thus we have $\mathrm{Tr}(u) = 0$ and the lemma follows.
 
-Finally let us show that b) implies a). Let $(x,, \ldots, x_n)$ be a basis of A over K such that $D_{A/K}(x_1, \ldots, x_n) \neq 0$. Let K' be an extension of K, A' the K'-algebra derived from A by extension of scalars and $x'_i = 1 \otimes x_i$ for $1 \leq i \leq n$. By Formula (2) (V, p. 47) we have $D_{A'/K'}(x'_1, \ldots, x'_n) \neq 0$. Applying the preceding result to A' we see that A' is reduced, hence the algebra A is etale (V, p. 34, Th. 4).
+Finally let us show that b) implies a). Let $(x_1, \ldots, x_n)$ be a basis of A over K such that $D_{A/K}(x_1, \ldots, x_n) \neq 0$. Let K' be an extension of K, A' the K'-algebra derived from A by extension of scalars and $x'_i = 1 \otimes x_i$ for $1 \leq i \leq n$. By Formula (2) (V, p. 47) we have $D_{A'/K'}(x'_1, \ldots, x'_n) \neq 0$. Applying the preceding result to A' we see that A' is reduced, hence the algebra A is etale (V, p. 34, Th. 4).
 
 #### Corollary {#alg-v-s8-n2-cor-1 .statement}
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 112
 statements: 39
 exercises: 14
-content_sha256: 2d33c9599e069a462ad035502f5889e9684b14d14d8fbf1bbf0753d4c85a405a
+content_sha256: d3c591119a05ffc883fe168ba83ec32aff69a80c35a017cf3be3d1881a042cc7
 ---
 
 ## 3. LOCAL RINGS. PASSAGE FROM THE LOCAL TO THE GLOBAL
@@ -387,7 +387,7 @@ $T^{-1}N = T^{-1}B \otimes_B N$; the proposition then follows from Chapter I, §
 
 For all $a \notin m$, the homothety of $N_n$ induced by $a$ is bijective, hence $N_n$ is canonically identified with $(N_n)_m$ and the equivalence of (b) and (c) follows from the
 
-Remark following Proposition 13; the fact that (a) implies (b) is a special case of Proposition 14. It remains to prove that (b) implies (a), that is, that, if (b) holds, for every injective A-module homomorphism $u : M \to M'$, the homomorphism $v = 1 @ u : N \otimes_A M \to N @^* M'$ is injective. Now, $v$ is also a B-module homomorphism and, for it to be injective, it is necessary and sufficient that $v,, : (N \otimes_A M),, \to (N \otimes_A M'),,$ be so for every maximal ideal $n$ of $B$ (no. 3, Theorem 1). As
+Remark following Proposition 13; the fact that (a) implies (b) is a special case of Proposition 14. It remains to prove that (b) implies (a), that is, that, if (b) holds, for every injective A-module homomorphism $u : M \to M'$, the homomorphism $v = 1 @ u : N \otimes_A M \to N @^* M'$ is injective. Now, $v$ is also a B-module homomorphism and, for it to be injective, it is necessary and sufficient that $v_n : (N \otimes_A M)_n \to (N \otimes_A M')_n$ be so for every maximal ideal $n$ of $B$ (no. 3, Theorem 1). As
 $$
 (N \otimes_A M)_n = B_n \otimes_B (N @_A M) = N_n \otimes_A M,
 $$

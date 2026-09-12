@@ -42,14 +42,14 @@ subsections:
       pdf_page: 250
 statements: 32
 exercises: 9
-content_sha256: 7f15228bbbd0bb154811166b008cebe85fd5d06f7bc8e0339624a70cc910a47b
+content_sha256: e84dba21907f633a718175138ad5ad162c8b676bde85e5b06bf6191981f8b7b3
 ---
 
 ## § 16. DIFFERENTIAL CRITERIA OF SEPARABILITY
 
 ### 1. Extension of derivations : the case of rings
 
-Let K be a commutative ring, A a commutative K-algebra and $x = (x_i)_{i \in I}$, a family of elements of A. Further, let $A$ be a derivation of K into an A-module M, in other words (III, p. 553) a Z-linear mapping of K into M satisfying the relation $\Delta(cc') = c \cdot \Delta(c') + c' \cdot \Delta(c)$ for $c, c'$ in K. For each $i \in I$ let $D_i$ be the partial derivation with respect to $X_i$ in the polynomial ring $K[X_i]_{i \in I}$; this is the unique derivation of that ring into itself which is zero on K and on $X_j$ for $j \in I - \{i\}$, and takes the value 1 on $X_i$ (IV, p. 6). For every polynomial $f = \sum_{a \in N^{(I)}} c_a \cdot X^\alpha$ in $K[X_i]_{i \in I}$, we denote by $f^\Delta(x)$ the element $\sum_{a \in N^{(I)}} x^\alpha \cdot A(c,)$ of M.
+Let K be a commutative ring, A a commutative K-algebra and $x = (x_i)_{i \in I}$, a family of elements of A. Further, let $A$ be a derivation of K into an A-module M, in other words (III, p. 553) a Z-linear mapping of K into M satisfying the relation $\Delta(cc') = c \cdot \Delta(c') + c' \cdot \Delta(c)$ for $c, c'$ in K. For each $i \in I$ let $D_i$ be the partial derivation with respect to $X_i$ in the polynomial ring $K[X_i]_{i \in I}$; this is the unique derivation of that ring into itself which is zero on K and on $X_j$ for $j \in I - \{i\}$, and takes the value 1 on $X_i$ (IV, p. 6). For every polynomial $f = \sum_{a \in N^{(I)}} c_a \cdot X^\alpha$ in $K[X_i]_{i \in I}$, we denote by $f^\Delta(x)$ the element $\sum_{\alpha \in N^{(I)}} x^\alpha \cdot \Delta(c_\alpha)$ of M.
 
 #### Proposition 1 {#alg-v-s16-prop-1 .statement}
 

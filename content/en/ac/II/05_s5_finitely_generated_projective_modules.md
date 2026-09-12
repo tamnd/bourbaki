@@ -41,7 +41,7 @@ subsections:
       pdf_page: 139
 statements: 34
 exercises: 25
-content_sha256: b150e806302e3d5000bed6efe01317662a5ecee95a4bc65f986d2ec47425f29a
+content_sha256: 890bdd512ed021e9151e23128f06509329c84ff1883d10c98fcaf477533b7357
 ---
 
 ## 5. FINITELY GENERATED PROJECTIVE MODULES. INVERTIBLE FRACTIONAL IDEALS
@@ -50,7 +50,7 @@ content_sha256: b150e806302e3d5000bed6efe01317662a5ecee95a4bc65f986d2ec47425f29a
 
 Let $A$ be a ring and $M$ an $A$-module. For every element $f \in A$, we shall write $A_f = A[f^{-1}], M_f = M[f^{-1}] = M \otimes_A A[f^{-1}]$ (§ 2, nos. 1 and 2); if $S_f$ is the set off" for $n \geq 0$, then $A_{S_f} = S_f^{-1}A, M_{S_f} = S_f^{-1}M$. Iff is invertible in $A$, $A_f$ (resp. $M_f$) is canonically identified with $A$ (resp. $M$); iff is nilpotent, then $A_f = 0$ and $M_f = 0$. For every $A$-module homomorphism $u : M \to N$, we write $u_f = u \otimes 1 : M_f \to N_f$.
 
-Let $g$ be another element of $A$; $A_g$ (resp. $M_g$) is canonically identified with $(A,)_{g/1}$ (resp. $(M_f)_{g/1}$), where $g/1$ is the image of $g$ in $A_g$, and $u_{f,g}$ with $(u_f)_{g/1}$ (§ 2, no. 3, Proposition 7).
+Let $g$ be another element of $A$; $A_g$ (resp. $M_g$) is canonically identified with $(A_f)_{g/1}$ (resp. $(M_f)_{g/1}$), where $g/1$ is the image of $g$ in $A_g$, and $u_{f,g}$ with $(u_f)_{g/1}$ (§ 2, no. 3, Proposition 7).
 
 #### Proposition 1 {#ac-ii-s5-prop-1 .statement}
 
@@ -116,7 +116,7 @@ We show the theorem by proving the following scheme of implications
 
 (c)
 
-(a) ⇒ (b): We know that a finitely generated projective module is finitely presented (Chapter I, § 2, no. 8, Lemma 8 (iii)); if $P$ is a projective $A$-module, $P_m = P \otimes_A A_m$ is a projective $A_m$-module (\emph{Algebra}, Chapter II, § 5, no. 1, Corollary to Proposition 4); finally, as $A,$ is a local ring, every finitely presented projective $A,,$-module is free (§ 3, no. 2, Corollary to Proposition 5).
+(a) ⇒ (b): We know that a finitely generated projective module is finitely presented (Chapter I, § 2, no. 8, Lemma 8 (iii)); if $P$ is a projective $A$-module, $P_m = P \otimes_A A_m$ is a projective $A_m$-module (\emph{Algebra}, Chapter II, § 5, no. 1, Corollary to Proposition 4); finally, as $A_m$ is a local ring, every finitely presented projective $A_m$-module is free (§ 3, no. 2, Corollary to Proposition 5).
 
 (b) ⇒ (e): This follows from the Corollary to Proposition 2 of no. 1.
 
@@ -241,7 +241,7 @@ $$
 
 as the rank over $k$ of $(M/mM) \otimes_k (N/mN)$ is the product of the ranks of $M/mM$ and $N/mN$, these latter are necessarily equal to 1, in other words $M/mM$ is monogenous. It follows that $M$ is monogenous ($§ 3$, no. 2, Corollary 2 to Proposition 4); on the other hand, the annihilator of $M$ also annihilates $M \otimes_A N$ and hence is zero, which proves that $M$ is isomorphic to $A$.
 
-(ii) It is sufficient to prove that, for every maximal ideal $m$ of $A$, $u_m$ is an isomorphism ($§ 3$, no. 3, Theorem 1). As $M$ is finitely presented (Chapter I, $§ 2$, no. 8, Lemma 8), $(M^*)_m$ is canonically identified with the dual $(M_m)^*$ ($§ 2$, no. 7, Proposition 19) and, as $M_m$ is free of rank 1 like its dual $(M_m)^*$, clearly the canonical homomorphism $u_m : (M,) \otimes_{A_m} (M_m)^* \to A_m$ is bijective, which completes the proof.
+(ii) It is sufficient to prove that, for every maximal ideal $m$ of $A$, $u_m$ is an isomorphism ($§ 3$, no. 3, Theorem 1). As $M$ is finitely presented (Chapter I, $§ 2$, no. 8, Lemma 8), $(M^*)_m$ is canonically identified with the dual $(M_m)^*$ ($§ 2$, no. 7, Proposition 19) and, as $M_m$ is free of rank 1 like its dual $(M_m)^*$, clearly the canonical homomorphism $u_m : (M_m) \otimes_{A_m} (M_m)^* \to A_m$ is bijective, which completes the proof.
 
 *Remark* (1). If $M$ is projective of rank 1 and $N$ is such that $M \otimes_A N$ is isomorphic to $A$, then $N$ is isomorphic to $M^*$: there are isomorphisms
 

@@ -42,7 +42,7 @@ subsections:
       pdf_page: 148
 statements: 22
 exercises: 2
-content_sha256: e670b4dd83c9bc46bd6f7c58972d023f4c6f04736f4be78ca1443a9c27857fd0
+content_sha256: 71f6988eb3a9c137b78c9544e173741eb9e1731f26db8fe43495672bb20a2f2a
 ---
 
 ## § 6. ETALE ALGEBRAS
@@ -73,7 +73,7 @@ whence $$\sum_{i=1}^{n-1} \alpha_i [u_i(x) - u_n(x)] \cdot u_i = 0.$$ By the ind
 
 — *Let $\Gamma$ be a monoid, L a field and X a set of homomorphisms of $\Gamma$ into the multiplicative monoid of L. Then X is a free subset of the vector L-space $L^\Gamma$ of mappings of $\Gamma$ into L.*
 
-Let A be the algebra of the monoid $\Gamma$ with coefficients in L and $(e,)_{\gamma}$, the canonical basis of A over L (III, p. 446). For every L-linear mapping $u$ of A into L let us write $\tilde{u}(\gamma) = u(e,\gamma)$ (for $\gamma \in \Gamma$); then the mapping $u \mapsto 3$ is an isomorphism of vector L-spaces of $\mathrm{Hom}_L(A, L)$ onto $L^\Gamma$ which maps onto X the set of L-algebra homomorphisms of A into L. Now it suffices to apply Th. 1 with $K = L$.
+Let A be the algebra of the monoid $\Gamma$ with coefficients in L and $(e_\gamma)_{\gamma \in \Gamma}$ the canonical basis of A over L (III, p. 446). For every L-linear mapping $u$ of A into L let us write $\tilde{u}(\gamma) = u(e_\gamma)$ (for $\gamma \in \Gamma$); then the mapping $u \mapsto 3$ is an isomorphism of vector L-spaces of $\mathrm{Hom}_L(A, L)$ onto $L^\Gamma$ which maps onto X the set of L-algebra homomorphisms of A into L. Now it suffices to apply Th. 1 with $K = L$.
 
 **COROLLARY 2** (Dedekind's theorem). — *Let E and L be two extensions of K. The set of K-homomorphisms of E into L is free over L. If E is of finite degree over K, the number of K-homomorphisms of E into L is at most equal to $[E : K]$.*
 
@@ -85,7 +85,7 @@ The last assertion follows from the first, taking account of Formula (2).
 
 — Let K be an infinite field, L an extension of K and A an algebra over K. Let $u_1, \ldots, u_n$ be distinct K-algebra homomorphisms of A into L and f a polynomial in $L[X_1, \ldots, X_j]$. If we have $f(u_1(x), \ldots, u_n(x)) = 0$ for all $x \in A$, then $f = 0$.
 
-Let B be the set of elements of $L^n$ of the form $(u_1(x), \ldots, u_n(x))$ with $x \in A$. By Th. 1, there is no sequence $(a,, \ldots, a,)$ of elements not all zero in L such that $\sum_{i=1}^n \alpha_i u_i(x) = 0$ for all $x \in A$; therefore (II, p. 301, Th. 7) B generates the vector space $L^n$ over L. So there exist elements $a,, \ldots, a,$ of $A$ such that the matrix $(u_i(a_j))_{1 \leq i,j \leq n}$ is invertible.
+Let B be the set of elements of $L^n$ of the form $(u_1(x), \ldots, u_n(x))$ with $x \in A$. By Th. 1, there is no sequence $(\alpha_1, \ldots, \alpha_n)$ of elements not all zero in L such that $\sum_{i=1}^n \alpha_i u_i(x) = 0$ for all $x \in A$; therefore (II, p. 301, Th. 7) B generates the vector space $L^n$ over L. So there exist elements $a_1, \ldots, a_n$ of $A$ such that the matrix $(u_i(a_j))_{1 \leq i,j \leq n}$ is invertible.
 
 Let us define the polynomial $g \in L[Y_1, \ldots, Y_n]$ by
 $$
@@ -262,7 +262,7 @@ The algebra $A/m$ is an extension of finite degree of the algebraically closed f
 
 Let $A$ be a commutative ring and let $a$ be a finitely generated ideal of $A$ such that $a = a^2$. Then there exists an idempotent $e$ in $A$ such that $a = Ae$.
 
-Let $(a,, ..., a,)$ be a generating system of the ideal $a$; since $a = a^2$, there exist elements $x_{ij}$ in $a$ such that $a_i = \sum_{j=1}^r x_{ij} a_j$ for $1 \leq i \leq r$. Write $M$ for the square matrix of order $r$ whose elements are $\delta_{ij} - x_{ij}$ and let $D$ be its determinant. There exists (III, p. 532, Formula (26)) a square matrix $N$ of order $r$ with elements in $A$ such that $N \cdot M = D \cdot I$, whence immediately $Da_j = 0$ for $1 \leq j \leq r$ and so finally $Da = 0$. Now the matrix $M$ is congruent to $I$, mod $a$, hence $D \equiv I$ mod $a$. Put $e = 1 - D$; then $e \in a$ and $ex = x$ for all $x \in a$. It follows that $e$ is an idempotent and $a$ is equal to $Ae$.
+Let $(a_1, ..., a_r)$ be a generating system of the ideal $a$; since $a = a^2$, there exist elements $x_{ij}$ in $a$ such that $a_i = \sum_{j=1}^r x_{ij} a_j$ for $1 \leq i \leq r$. Write $M$ for the square matrix of order $r$ whose elements are $\delta_{ij} - x_{ij}$ and let $D$ be its determinant. There exists (III, p. 532, Formula (26)) a square matrix $N$ of order $r$ with elements in $A$ such that $N \cdot M = D \cdot I$, whence immediately $Da_j = 0$ for $1 \leq j \leq r$ and so finally $Da = 0$. Now the matrix $M$ is congruent to $I$, mod $a$, hence $D \equiv I$ mod $a$. Put $e = 1 - D$; then $e \in a$ and $ex = x$ for all $x \in a$. It follows that $e$ is an idempotent and $a$ is equal to $Ae$.
 
 With these lemmas established, let us show by induction on the degree of $A$ that $A$ is diagonalizable if $K$ is algebraically closed and $\Omega_K(A) = 0$. Let $m$ be a maximal ideal of $A$ (I, p. 104). By Lemmas 3 and 4, there exists an idempotent $e$ such that $m = Ae$; we have seen that $A/m$ is of degree 1 over $K$. Hence $A$ is a direct sum of the ideals $a = (1 - e)A$ and $m$ and we have $[a : K] = 1$, hence $A$ is isomorphic to $K \times A/a$. Since $\Omega_K(A/a)$ is isomorphic to a quotient of $\Omega_K(A)$ (III, p. 573, Prop. 22), it is zero and the induction hypothesis shows that $A/a$ is diagonalizable. This then shows $A$ to be diagonalizable.
 

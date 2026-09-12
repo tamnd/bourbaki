@@ -22,7 +22,7 @@ subsections:
       pdf_page: 139
 statements: 8
 exercises: 3
-content_sha256: e15f467ba66e51edc162c41c1e6371162ece2de7935833e112af2325f1bdd5bb
+content_sha256: 49c1496a9984c07eaeca3aad265abb15c9dafa4cfe515eb1c603a2832eaebcba
 ---
 
 ## § 5. *p*-RADICAL EXTENSIONS
@@ -96,7 +96,7 @@ The Corollary is trivial when $p = 1$; suppose then that $p \neq 1$. The stated 
 
 — Let E be a p-radical extension *of finite* degree of a field K. Then $[E : K]$ is a power of the characteristic exponent p of K.
 
-Since E is a p-radical extension of finite degree of K, there are elements $a,, \ldots, a,$ of E, p-radical over K, such that $E = K(a,, \ldots, a,)$. Let i be in the range 1 to m ; since $a_i$ is a fortiori p-radical over $K(a,, \ldots, a_{i-1})$, the degree
+Since E is a p-radical extension of finite degree of K, there are elements $a_1, \ldots, a_m$ of E, p-radical over K, such that $E = K(a_1, \ldots, a_m)$. Let i be in the range 1 to m ; since $a_i$ is a fortiori p-radical over $K(a_1, \ldots, a_{i-1})$, the degree
 $$
 n_i = [K(a_1, \ldots, a_i) : K(a_1, \ldots, a_{i-1})]
 $$

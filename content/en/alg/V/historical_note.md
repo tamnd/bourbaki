@@ -13,7 +13,7 @@ pdf_pages: 0296-0311
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 18206e299bac1fa92f53b349bb59462c63b617a03d17ccba61f8ee80a837ea4b
+content_sha256: d3d8e5cd03c57035d1df9857d0aef27c2b8331659af5500d9a8d3e0120dca43a
 ---
 
 # HISTORICAL NOTE
@@ -89,7 +89,7 @@ $$
 
 is a perfect square, which gives an equation of the third degree for $z$.
 
-*** Vieta, a passionate admirer of the Ancients, refrains systematically from introducing negative numbers into his arguments; he is nonetheless able on occasion to express in his language the relations between coefficients and roots when certain of the latter are negative; for example, if the equation $x^3 + b = ax$ has two positive roots $x_1, x$, ($a > 0, b > 0$), Vieta shows that $x_1^2 + x_2^2 + x_1x_2 = a$ and $x_1x_2(x_1 + x,) = b$ ([5], p. 106).
+*** Vieta, a passionate admirer of the Ancients, refrains systematically from introducing negative numbers into his arguments; he is nonetheless able on occasion to express in his language the relations between coefficients and roots when certain of the latter are negative; for example, if the equation $x^3 + b = ax$ has two positive roots $x_1, x_2$ ($a > 0, b > 0$), Vieta shows that $x_1^2 + x_2^2 + x_1x_2 = a$ and $x_1x_2(x_1 + x_2) = b$ ([5], p. 106).
 
 tangents to algebraic curves (cf. Hist. Note to Book IV, Chap. I-II-III, p. 46) is related to the criterion for the multiplicity of a root of an algebraic equation, stated by his disciple Hudde ([7], p. 433 and 507-509). It is no doubt also to Descartes' influence that the distinction between algebraic functions and transcendental functions should be ascribed, parallel to that which he introduces in his Géométrie between the « geometric » curves and the « mechanical » curves (cf. Hist. Note to Book IV, Chap. I-II-III, p. 46 and 61). In any case this distinction is made perfectly clear by J. Gregory who in 1667, seeks even to prove that the area of a circular sector cannot be an algebraic function of the chord and the radius *. The expression « transcendental » is due to Leibniz, whom these questions of classification never cease to interest all through his career and who, about 1682 discovers a simple proof of the result Gregory was pursuing, by proving that sin x is not an algebraic function of x ([8], vol. V, p. 97-98)**. With his friend Tschirnhaus, Leibniz is actually one of the few mathematicians of his time to interest himself still in the problem of the solution « by radicals » of algebraic equations. At his beginnings we find him studying the « irreducible case » of the equation of the 3rd degree, and convince himself (as it happens, with insufficient proof) that it is impossible in this case to eliminate imaginary quantities from the formulae of the solution ([9], p. 547-564). At about the same time he attacks, also without success, the solution by radicals of the equation of the 5th degree; and when later Tschirnhaus claims to solve the problem by making all the terms of the equation disappear except the two extremes, by a transformation of the form y = P(x), where P is a suitably chosen polynomial of the 4th degree, Leibniz notices at once that the equations which determine the coefficients of P(x) are of degree > 5, and regards the method as doomed to failure ([9], p. 402-403).
 
