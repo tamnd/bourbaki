@@ -56,7 +56,7 @@ subsections:
       pdf_page: 116
 statements: 57
 exercises: 10
-content_sha256: 130ae9175b99f00bcefb2b1f811601f84592e6016966ab3214562ff3a2cea81c
+content_sha256: f8006614d757c7fb05a9f8695dc91c92306ac71436dd1c5305281db0a74f4056
 ---
 
 ## § 1. Groupes de Lie
@@ -506,7 +506,7 @@ Soit φ l’automorphisme (g, x) ↦ (g, gx) de la variété G × X. Soient p la
 
 Si ψ est un φ-morphisme de fibrés vectoriels de classe C^r, on dit que E est un G-fibré vectoriel de classe C^r.
 
-Autrement dit, E est un G-fibré vectoriel de classe C^r si, quel que soit (g_0, x_0) ∈ G × X, la condition suivante est vérifiée: il existe un voisinage ouvert U de (g_0, x_0) dans G × X tel que, si l’on identifie E' |U (resp. E' | φ(U)) à un fibré vectoriel trivial de fibre M (resp. N) grâce à une carte vectorielle, l’application (g, x) ↦ ψ_{g,x} de U dans 𝒫(M, N) soit de classe C^r.
+Autrement dit, E est un G-fibré vectoriel de classe C^r si, quel que soit (g_0, x_0) ∈ G × X, la condition suivante est vérifiée: il existe un voisinage ouvert U de (g_0, x_0) dans G × X tel que, si l’on identifie E' |U (resp. E' | φ(U)) à un fibré vectoriel trivial de fibre M (resp. N) grâce à une carte vectorielle, l’application (g, x) ↦ ψ_{g,x} de U dans $\mathscr{P}(M, N)$ soit de classe C^r.
 
 L’application ψ est évidemment bijective, et il résulte du critère local ci-dessus que ψ^{-1} est un φ^{-1}-morphismes de fibrés vectoriels, de sorte que ψ est un φ-isomorphisme de fibrés vectoriels.
 

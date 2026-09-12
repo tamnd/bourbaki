@@ -24,7 +24,7 @@ subsections:
       pdf_page: 253
 statements: 13
 exercises: 4
-content_sha256: e05ce6a992c9c4c6b8d8929b30b1519a691865adddfabdefcdc1b0923b44b93e
+content_sha256: 7fa7cfebdd4c555cde4b861239162c5c3f35121819f23e8e58e8d5e3f36f712c
 ---
 
 ## § 10. Le groupe des automorphismes d’un groupe de Lie
@@ -197,7 +197,7 @@ Aut(H, N) du lemme 4. Transportons à Aut H, grâce à θ, la structure de group
 
 Munissons L(G) d’une norme. Pour tout λ > 0, soit B_λ la boule ouverte de centre 0 et de rayon λ dans L(G). Choisissons λ > 0 assez petit pour que ψ = exp_G|B_λ soit un isomorphisme de la variété analytique B_λ sur la sous-variété ouverte ψ(B_λ) de G. Soit Φ un filtre sur Aut G. Pour que Φ converge vers Id_G dans Aut G, il faut et il suffit que L(Φ) converge vers Id_{L(G)} dans Aut L(G), donc que L(Φ)|B_{λ/2} et L(Φ)⁻¹|B_{λ/2} convergent uniformément vers Id_{B_{λ/2}}. Cette condition entraîne que Φ|ψ(B_{λ/2}) et Φ⁻¹|ψ(B_{λ/2}) convergent uniformément vers Id_{ψ(B_{λ/2})}. Réciproquement, supposons que Φ|ψ(B_{λ/2}) converge uniformément vers Id_{ψ(B_{λ/2})}. Il existe un M ∈ Φ tel que, si u ∈ M, on ait u(ψ(B_{λ/2})) ⊂ ψ(B_{2λ/3}); alors L(u)(B_{λ/2}) est une partie connexe de L(G) dont l’image par exp_G est contenue dans ψ(B_{2λ/3}), donc L(u)(B_{λ/2}) ne rencontre pas B_λ − B_{2λ/3}, et par suite L(u)(B_{λ/2}) ⊂ B_λ; alors l’hypothèse que Φ|ψ(B_{λ/2}) converge uniformément vers Id_{ψ(B_{λ/2})} entraîne que L(Φ)|B_{λ/2} converge uniformément vers Id_{B_{λ/2}}. On déduit de là que:
 
-(Φ converge vers Id_G dans Aut G) ⇔ (Φ converge vers Id_G pour 𝒯_β).
+(Φ converge vers Id_G dans Aut G) ⇔ (Φ converge vers Id_G pour $\mathscr{T}$_β).
 
 Cela prouve (vi).
 

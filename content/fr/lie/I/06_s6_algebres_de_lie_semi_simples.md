@@ -52,7 +52,7 @@ subsections:
       pdf_page: 92
 statements: 53
 exercises: 27
-content_sha256: c298a4d9b3df497dee853923fd51f8781fe85c7244d00f6900bfdb1f82a679eb
+content_sha256: f7e1dd6f5d895dd4f50ed2d6ca1b9ea702e776b5e41c795d813961855300b77e
 ---
 
 ## § 6. Algèbres de Lie semi-simples
@@ -97,7 +97,7 @@ c) ⇒ a) : ceci résulte de la prop. 6 b) du § 4, n° 4.
 
 Soient g une algèbre de Lie semi-simple, ρ une représentation de g dans un espace V de dimension finie. Alors, ρ(g) ⊂ sl(V).
 
-En effet, la forme linéaire x ↦ Tr ρ(x) (x ∈ g) s’annule quand x est de la forme [y, z] (y ∈ g, z ∈ g), donc sur 𝔤 = g.
+En effet, la forme linéaire x ↦ Tr ρ(x) (x ∈ g) s’annule quand x est de la forme [y, z] (y ∈ g, z ∈ g), donc sur $\mathfrak{g}$ = g.
 
 #### Proposition 1 {#lie-i-s6-prop-1 .statement}
 

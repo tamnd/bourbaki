@@ -33,7 +33,7 @@ subsections:
       pdf_page: 81
 statements: 34
 exercises: 25
-content_sha256: 83bc6480ba925c06196b3dcefbd432194d23e1eca7cb2ebf52f26fd9d3c10801
+content_sha256: 42696bbcbf749f725775aad697348224af7940f2d39b21f1934f1cafb77abcb6
 ---
 
 ## § 7. MULTIPLICITÉS
@@ -107,7 +107,7 @@ On peut avoir $e(A) = 1$ sans que A soit régulier (p. 104, exerc. 5). En fait, 
 
 On a par définition $e_{q,r}(M) = r^d e_q(M)$ où $d = \dim_A(M)$. Par conséquent, si A est local régulier, on a $e_{m_A^r}(A) = r^d$. Par exemple, si A est un anneau de valuation discrète, on a $e_q(A) = \operatorname{long}(A/q)$.
 
-Soient q un idéal de A contenu dans le radical de A et C(q) l’ensemble des classes des A-modules M de type fini tels que M/qM soit de longueur finie. Pour tout d ∈ ℕ, notons C(q)_{≤ d} la partie de C(q) formée des classes de A-modules de dimension ≤ d. On définit une application e_{q,d}: C(q)_{≤ d} → ℤ par e_{q,d}(M) = e_q(M) si dim(M) = d, e_{q,d}(M) = 0 sinon. Cette application est additive d’après la prop. 5 du , n° 3 ; on en déduit (A, VIII, § 10, n° 2) un homomorphisme, encore noté e_{q,d}, du groupe de Grothendieck K(C(q)_{≤ d}) dans ℤ, qui est nul sur K(C(q)_{≤ d-1}). En raisonnant comme au § 1, n° 5, on en déduit
+Soient q un idéal de A contenu dans le radical de A et C(q) l’ensemble des classes des A-modules M de type fini tels que M/qM soit de longueur finie. Pour tout d ∈ $\mathbf{N}$, notons C(q)_{≤ d} la partie de C(q) formée des classes de A-modules de dimension ≤ d. On définit une application e_{q,d}: C(q)_{≤ d} → $\mathbf{Z}$ par e_{q,d}(M) = e_q(M) si dim(M) = d, e_{q,d}(M) = 0 sinon. Cette application est additive d’après la prop. 5 du , n° 3 ; on en déduit (A, VIII, § 10, n° 2) un homomorphisme, encore noté e_{q,d}, du groupe de Grothendieck K(C(q)_{≤ d}) dans $\mathbf{Z}$, qui est nul sur K(C(q)_{≤ d-1}). En raisonnant comme au § 1, n° 5, on en déduit
 
 #### Proposition 3 {#ac-viii-s7-prop-3 .statement}
 
@@ -133,7 +133,7 @@ $$
 e_{q_B}^B(M \otimes_A N) = \operatorname{long}_B(N \otimes_A \kappa_A).e_q^A(M).
 $$
 
-Soit L un A-module de longueur finie r. Alors L possède une suite de Jordan-Hölder de longueur r, à quotients isomorphes à κ_A ; comme N est plat sur A, le B-module L ⊗_A N possède une suite de composition de longueur r, à quotients isomorphes à N ⊗_A κ_A, donc est de longueur r · long_B(N ⊗_A κ_A). Comme le B-module (M ⊗_A N)/(qB)^n(M ⊗_A N) est isomorphe à (M/q^nM) ⊗_A N pour tout n ∈ ℕ, la proposition résulte de la définition des multiplicités.
+Soit L un A-module de longueur finie r. Alors L possède une suite de Jordan-Hölder de longueur r, à quotients isomorphes à κ_A ; comme N est plat sur A, le B-module L ⊗_A N possède une suite de composition de longueur r, à quotients isomorphes à N ⊗_A κ_A, donc est de longueur r · long_B(N ⊗_A κ_A). Comme le B-module (M ⊗_A N)/(qB)^n(M ⊗_A N) est isomorphe à (M/q^nM) ⊗_A N pour tout n ∈ $\mathbf{N}$, la proposition résulte de la définition des multiplicités.
 
 #### Corollaire {#ac-viii-s7-n2-cor-1 .statement}
 

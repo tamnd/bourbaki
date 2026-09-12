@@ -36,7 +36,7 @@ subsections:
       pdf_page: 265
 statements: 33
 exercises: 23
-content_sha256: 0040e5d35afe1e7fe059436db2718d4fd5a8c382cfde9e13f9fd8961dbe186d7
+content_sha256: e84287c6e2c67f5f7ad613a5bfc387870426a3dce56d63faaaab64f08fa38302
 translated_from: content/en/top/III/04_s4_groups_operating_properly_on_a.md
 source_content_sha256: 5e2dd8346a06e4cb97cfadd8d07cdc68593cb15b9e836abb31f0faba5e883e9b
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
@@ -217,7 +217,7 @@ $$
 ((G - K) \times W) \cap \Gamma;
 $$
 
-là rỗng; và vì ta có thể lấy $W$ là một lân cận $V_x \times V_y$, trong đó $V_x$ và $V_y$ lần lượt là các lân cận của $x$ và $y$ trong $X$, mệnh đề “((G — K) × W) ∩ Γ = ∅” trở thành “nếu s ∉ K, thì s · V_x ∩ V_y = ∅”. Như vậy ta đã chứng minh tính cần thiết của điều kiện được phát biểu trong mệnh đề. Ngược lại, giả sử điều kiện này được thỏa mãn; cho A là một tập hợp được lọc bởi một ultrafilter 𝔾, và cho α → (s_α, x_α) là một ánh xạ từ A vào G × X sao cho lim_𝔖 x_α = x và lim_𝔖 s_α · x_α = y. Giả sử rằng K, V_x và V_y thỏa mãn điều kiện của mệnh đề. Theo giả thiết có một tập M ∈ 𝔾 sao cho nếu α ∈ M thì x_α ∈ V_x và s_α · x_α ∈ V_y, do đó s_α ∈ K. Điều này chứng tỏ rằng α → s_α hội tụ đối với 𝔾, và chứng minh hoàn tất.
+là rỗng; và vì ta có thể lấy $W$ là một lân cận $V_x \times V_y$, trong đó $V_x$ và $V_y$ lần lượt là các lân cận của $x$ và $y$ trong $X$, mệnh đề “((G — K) × W) ∩ Γ = ∅” trở thành “nếu s ∉ K, thì s · V_x ∩ V_y = ∅”. Như vậy ta đã chứng minh tính cần thiết của điều kiện được phát biểu trong mệnh đề. Ngược lại, giả sử điều kiện này được thỏa mãn; cho A là một tập hợp được lọc bởi một ultrafilter $\mathfrak{F}$, và cho α → (s_α, x_α) là một ánh xạ từ A vào G × X sao cho lim_$\mathfrak{F}$ x_α = x và lim_$\mathfrak{F}$ s_α · x_α = y. Giả sử rằng K, V_x và V_y thỏa mãn điều kiện của mệnh đề. Theo giả thiết có một tập M ∈ $\mathfrak{F}$ sao cho nếu α ∈ M thì x_α ∈ V_x và s_α · x_α ∈ V_y, do đó s_α ∈ K. Điều này chứng tỏ rằng α → s_α hội tụ đối với $\mathfrak{F}$, và chứng minh hoàn tất.
 
 Nếu G là compact, điều kiện của Mệnh đề 7 được thỏa mãn một cách tầm thường; do đó ta thu lại Mệnh đề 2 a).
 

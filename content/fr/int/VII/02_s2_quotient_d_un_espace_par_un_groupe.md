@@ -52,7 +52,7 @@ subsections:
       pdf_page: 66
 statements: 52
 exercises: 13
-content_sha256: 7753ae8f210f51fd0390ce7bc68ad763babd35215debd49e41984963444cd686
+content_sha256: f7967f46d49a59cfaea4ad697fdd37dd1ca951cf9236989bfd07cfca55e08d93
 ---
 
 ## § 2. Quotient d’un espace par un groupe ; espaces homogènes.
@@ -987,7 +987,7 @@ $$
 \int_{X/H} k d\lambda = \int_F n^{-1}(k \circ \pi) d\mu.
 $$
 
-On a μ = λ#. Soit f ∈ 𝒦_+(X/H). Alors n^{-1}φ_F(f ∘ π) est μ-mesurable ≥ 0, et l'on a d'après la prop. 5 b) du no 3
+On a μ = λ#. Soit f ∈ $\mathscr{K}_+$(X/H). Alors n^{-1}φ_F(f ∘ π) est μ-mesurable ≥ 0, et l'on a d'après la prop. 5 b) du no 3
 
 $$
 \int_X^* n(x)^{-1} \varphi_F(x)f(\pi(x)) d\mu(x) = \int_{X/H}^* f(\dot{x}) d\lambda(\dot{x}) \int_H^* n(x\xi)^{-1} \varphi_F(x\xi) d\beta(\xi)

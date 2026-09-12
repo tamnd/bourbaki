@@ -40,7 +40,7 @@ subsections:
       pdf_page: 180
 statements: 41
 exercises: 13
-content_sha256: 2afa8ec899b06d6ef9fd706ba5addcc1389e751f699d5afebbba4814009802da
+content_sha256: 897fc486c870dc47eb77c12af6cb2037baa1a349c6d52f1f928b33aeff5e3ee5
 ---
 
 ## § 4. Passage des algèbres de Lie aux groupes de Lie
@@ -407,7 +407,7 @@ Soient $G$ un groupe de Lie de dimension finie, $H$ un sous-groupe de $G$.
 
 (ii) Pour cette structure, $H$ est un groupe de Lie, l’injection canonique $i$ de $H$ dans $G$ est une immersion, et $L(i)(L(H))$ est la sous-algèbre de Lie tangente en $e$ à $H$.
 
-Dans (i), l’unicité est évidente. Prouvons l’existence. Soit $\mathfrak{h}$ l’algèbre de Lie tangente en $e$ à $H$. Soit $H'$ un sous-groupuscule de Lie de $G$ d’algèbre de Lie $\mathfrak{h}$. En remplaçant $H'$ par un sous-groupuscule ouvert de $H'$, on peut supposer $H' \subset H$ (lemme 4 (iv)). Pour tout $x \in H$, $x H' x^{-1}$ est un sous-groupuscule de Lie de $G$ d’algèbre de Lie $x h x^{-1} = h$. Donc $H' \cap (x H' x^{-1})$ est ouvert dans $H'$ (n° 2, th. 3), et l’application $y \mapsto xy x^{-1}$ est un isomorphisme de $H' \cap x^{-1} H' x$ sur $x H' x^{-1} \cap H'$. Compte tenu de la prop. 18 du § 1, n° 9, il existe un sous-groupuscule de Lie ouvert W de H', et une structure de groupe de Lie sur H, possédant les propriétés suivantes : W est ouvert dans H, et les structures de variétés de H et H' induisent la même structure sur W. Il résulte de là que l’injection canonique i de H dans G est une immersion, et que L(i)(L(H)) = L(H') = 𝔤. En outre, soient V et f comme dans (i). Si f : V → H est de classe C^r, i ∘ f : V → G est de classe C^r. Supposons que i ∘ f : V → G soit de classe C^r, et prouvons que f : V → H est de classe C^r. Par translation, il suffit d’envisager le cas où il existe un v_0 ∈ V tel que f(v_0) = e, et de prouver que f : V → H est de classe C^r dans un voisinage ouvert de v_0. Or, d’après le lemme 4 (iii), on a f(v) ∈ H' pour v assez voisin de v_0, d’où notre assertion. On a ainsi prouvé (i), et (ii) a été obtenu en cours de route.
+Dans (i), l’unicité est évidente. Prouvons l’existence. Soit $\mathfrak{h}$ l’algèbre de Lie tangente en $e$ à $H$. Soit $H'$ un sous-groupuscule de Lie de $G$ d’algèbre de Lie $\mathfrak{h}$. En remplaçant $H'$ par un sous-groupuscule ouvert de $H'$, on peut supposer $H' \subset H$ (lemme 4 (iv)). Pour tout $x \in H$, $x H' x^{-1}$ est un sous-groupuscule de Lie de $G$ d’algèbre de Lie $x h x^{-1} = h$. Donc $H' \cap (x H' x^{-1})$ est ouvert dans $H'$ (n° 2, th. 3), et l’application $y \mapsto xy x^{-1}$ est un isomorphisme de $H' \cap x^{-1} H' x$ sur $x H' x^{-1} \cap H'$. Compte tenu de la prop. 18 du § 1, n° 9, il existe un sous-groupuscule de Lie ouvert W de H', et une structure de groupe de Lie sur H, possédant les propriétés suivantes : W est ouvert dans H, et les structures de variétés de H et H' induisent la même structure sur W. Il résulte de là que l’injection canonique i de H dans G est une immersion, et que L(i)(L(H)) = L(H') = $\mathfrak{g}$. En outre, soient V et f comme dans (i). Si f : V → H est de classe C^r, i ∘ f : V → G est de classe C^r. Supposons que i ∘ f : V → G soit de classe C^r, et prouvons que f : V → H est de classe C^r. Par translation, il suffit d’envisager le cas où il existe un v_0 ∈ V tel que f(v_0) = e, et de prouver que f : V → H est de classe C^r dans un voisinage ouvert de v_0. Or, d’après le lemme 4 (iii), on a f(v) ∈ H' pour v assez voisin de v_0, d’où notre assertion. On a ainsi prouvé (i), et (ii) a été obtenu en cours de route.
 
 #### Définition 3 {#lie-iii-s4-def-3 .statement}
 
@@ -415,7 +415,7 @@ La structure de groupe de Lie sur H définie dans la prop. 9 s’appelle la stru
 
 Si H est un sous-groupe de Lie de G, sa structure de groupe de Lie est induite par celle de G (VAR, R, 5.8.5).
 
-Si G = R et H = Q, on a 𝔤 = {0}, donc la structure induite sur H est la structure de groupe de Lie discret. De même si G = C (considéré comme groupe de Lie complexe) et H = R.
+Si G = R et H = Q, on a $\mathfrak{g}$ = {0}, donc la structure induite sur H est la structure de groupe de Lie discret. De même si G = C (considéré comme groupe de Lie complexe) et H = R.
 
 ### 6. Primitives des formes différentielles à valeurs dans une algèbre de Lie
 

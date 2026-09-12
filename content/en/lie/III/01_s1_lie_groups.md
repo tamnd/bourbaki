@@ -57,7 +57,7 @@ subsections:
       pdf_page: 249
 statements: 54
 exercises: 10
-content_sha256: ce8eb9499400aea2758df6dd8a881d79c48c136503decc62efe033305bff7df2
+content_sha256: daff3230df35a1d3795f1c3aa51cd9719e5f2ee8ea1fdee0d10ab6220950dbdb
 ---
 
 ## § 1. LIE GROUPS
@@ -577,13 +577,13 @@ With the hypotheses and notation of Proposition 16, let F be a complete normable
 
 The uniqueness of this morphism is obvious. We prove its existence. Let g, g' elements of G and u ∈ E_0 be such that gu = g'u. Then g'^{-1}g ∈ G_0 and g'^{-1}gu = u and hence g'^{-1}gf(u) = f(u), that is gf(u) = g'f(u). Hence a mapping φ is defined of E into E' by writing φ(gu) = gf(u). Clearly this mapping extends f and it is compatible with the operations of G. We show that φ is a vector bundle morphism of class C^r. Let x_1 ∈ X. There exists an open neighbourhood V of x_1 in X and a submanifold W of G such that the mapping g ↦ gx_0 is an isomorphism θ of class C^r of W onto V. By shrinking V and W it can be assumed that:
 (1) E | V (resp. E' | V) is identified with a trivial vector bundle of fibre M (resp. M');
-(2) if ψ_g (resp. ψ'_g) denotes the mapping u ↦ gu of E_0 (resp. E'_0) into E_{gx_0} (resp. E'_{gx_0}), then the mappings g ↦ ψ_g and g ↦ ψ_g^{-1} (resp. g ↦ ψ'_g and g ↦ ψ'_g^{-1}) of W into 𝓛(E_0, M) and 𝓛(M, E_0) (resp. 𝓛(E'_0, M') and 𝓛(M', E'_0)) are of class C^r.
+(2) if ψ_g (resp. ψ'_g) denotes the mapping u ↦ gu of E_0 (resp. E'_0) into E_{gx_0} (resp. E'_{gx_0}), then the mappings g ↦ ψ_g and g ↦ ψ_g^{-1} (resp. g ↦ ψ'_g and g ↦ ψ'_g^{-1}) of W into $\mathscr{L}(E_0, M)$ and $\mathscr{L}(M, E_0)$ (resp. $\mathscr{L}(E'_0, M')$ and $\mathscr{L}(M', E'_0)$) are of class C^r.
 
 For x ∈ V, let φ_x : M → N be the restriction of φ to E_x = M. Then φ_x is obtained by composing the following mappings:
 (1) the mapping (ψ_θ^{-1,x})^{-1} of M into E_0;
 (2) the mapping f of E_0 into E_0;
 (3) the mapping ψ'_θ^{-1,x} of E_0 into M'.
-Hence we see that the mapping x ↦ φ_x of V into 𝓛(M, M') is of class C^r.
+Hence we see that the mapping x ↦ φ_x of V into $\mathscr{L}(M, M')$ is of class C^r.
 
 #### Corollary 1 {#lie-iii-s1-prop-17-cor-1 .statement}
 

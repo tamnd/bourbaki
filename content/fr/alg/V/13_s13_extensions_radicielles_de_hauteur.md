@@ -25,7 +25,7 @@ subsections:
       pdf_page: 203
 statements: 22
 exercises: 6
-content_sha256: e1897e7572b063c6d8380b7bb04825e6e2b78eb85af026fefe5a26a3c60c9999
+content_sha256: 6d1e7ac1b548ef138ffd00b98dbc87bed6ad093f6c250e5a9acd6b74d14bb52d
 ---
 
 ## § 13. EXTENSIONS RADICIELLES DE HAUTEUR $\leqslant 1$
@@ -279,13 +279,13 @@ $$ E = K_0 \supset K_1 \supset ... \supset K_{s-1} \supset K_s = I(h) . $$
 
 Soit i compris entre 0 et s − 1 ; alors K_i est stable par D_{i+1} car D_{i+1} commute à D_1, ..., D_i. De plus, on a D_{i+1}^p = D_{i+1}, D_{i+1}(x_{i+1}) = x_{i+1} ≠ 0 et x_{i+1} ∈ K_i. Le lemme 2 entraîne alors [K_i : K_{i+1}] = p, d’où finalement [E : K] = [K_0 : K_s] = p^s.
 
-Passons à la démonstration du théorème. Soit h ∈ 𝔖, de dimension s sur E ; posons K = I(h) ; alors [E : K] = p^s d’après le lemme 3, d’où [Ω_K(E) : E] = s d’après le th. 2, c) (V, p. 98). D’après la propriété universelle du module des différentielles, l’application u ↦ u ∘ d_{E/K} est un isomorphisme du dual de Ω_K(E) sur g(K), donc [g(K) : E] = s. Or on a [h : E] = s et h ⊂ g(K), d’où h = g(K), c’est-à-dire h = g(I(h)).
+Passons à la démonstration du théorème. Soit h ∈ $\mathfrak{S}$, de dimension s sur E ; posons K = I(h) ; alors [E : K] = p^s d’après le lemme 3, d’où [Ω_K(E) : E] = s d’après le th. 2, c) (V, p. 98). D’après la propriété universelle du module des différentielles, l’application u ↦ u ∘ d_{E/K} est un isomorphisme du dual de Ω_K(E) sur g(K), donc [g(K) : E] = s. Or on a [h : E] = s et h ⊂ g(K), d’où h = g(K), c’est-à-dire h = g(I(h)).
 
-Inversement, pour tout corps K ∈ 𝔖, il est immédiat que g(K) appartient à 𝔖 (V, p. 98, th. 2, c)). Si x appartient à I(g(K)), on a u(d_{E/K}x) = 0 pour toute forme linéaire u sur Ω_K(E), d’où d_{E/K}x = 0 et finalement x ∈ K par le cor. 2 de la prop. 5 (V, p. 97). On a donc K = I(g(K)).
+Inversement, pour tout corps K ∈ $\mathfrak{S}$, il est immédiat que g(K) appartient à $\mathfrak{S}$ (V, p. 98, th. 2, c)). Si x appartient à I(g(K)), on a u(d_{E/K}x) = 0 pour toute forme linéaire u sur Ω_K(E), d’où d_{E/K}x = 0 et finalement x ∈ K par le cor. 2 de la prop. 5 (V, p. 97). On a donc K = I(g(K)).
 
 #### Remarque 1 {#alg-v-s13-n3-rem-1 .statement}
 
-Les bijections réciproques K ↦ g(K) et h ↦ I(h) sont décroissantes ; par suite, h ↦ I(h) est un isomorphisme de l’ensemble ordonné 𝔖 sur l’ensemble ordonné opposé à 𝔖. On en déduit la relation I(h ∩ h') = E^p(I(h), I(h')) pour h, h' dans 𝔖, car h ∩ h' est le plus grand élément de 𝔖 contenu à la fois dans h et h'.
+Les bijections réciproques K ↦ g(K) et h ↦ I(h) sont décroissantes ; par suite, h ↦ I(h) est un isomorphisme de l’ensemble ordonné $\mathfrak{S}$ sur l’ensemble ordonné opposé à $\mathfrak{S}$. On en déduit la relation I(h ∩ h') = E^p(I(h), I(h')) pour h, h' dans $\mathfrak{S}$, car h ∩ h' est le plus grand élément de $\mathfrak{S}$ contenu à la fois dans h et h'.
 
 #### Remarque 2 {#alg-v-s13-n3-rem-2 .statement}
 

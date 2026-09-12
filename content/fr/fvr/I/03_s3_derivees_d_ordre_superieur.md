@@ -21,7 +21,7 @@ subsections:
       pdf_page: 27
 statements: 7
 exercises: 18
-content_sha256: 06cc441886cea46c47dd5f5659be99ff22d01a6d0f65be5bebb20aab2a0bd8ab
+content_sha256: 07ea58708563e598f07c4a1fb20e909cfe920f6b22a1bf94fc1ada101fcf4c9c
 ---
 
 ## § 3. DÉRIVÉES D’ORDRE SUPÉRIEUR
@@ -77,7 +77,7 @@ Les propositions précédentes ont été énoncées pour des fonctions n fois d�
 
 ### 2. Formule de Taylor
 
-Soit f une fonction vectorielle définie dans un intervalle I ⊂ ℝ, à valeurs dans un espace normé E sur ℝ; dire que f a une dérivée en un point a ∈ I signifie que l’on a
+Soit f une fonction vectorielle définie dans un intervalle I ⊂ $\mathbf{R}$, à valeurs dans un espace normé E sur $\mathbf{R}$; dire que f a une dérivée en un point a ∈ I signifie que l’on a
 
 (6) $\lim_{x \to a,\ x \in I,\ x \neq a} \frac{f(x) - f(a) - f'(a)(x-a)}{x-a} = 0$
 

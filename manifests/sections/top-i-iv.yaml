@@ -331,7 +331,7 @@ chapters:
           statements: 33
           exercises: 23
           extraction: ocr
-          content_sha256: ca914d4b27c8bd25534cc7734582e3a9e677d045d99b3c600756487073dc4e20
+          content_sha256: e60543e27e104062093ede1592665f6dc419979cd1eafe21e62e5aadeb841293
         - kind: section
           section: 5
           title: Infinite sums in commutative groups

@@ -13,7 +13,7 @@ pdf_pages: 0375-0378
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 22c94bcb3e3db436839b071a4604607950bd9f8394f1a692c4accc6bc0101dd5
+content_sha256: ce494510e445f599fcaf23ba1f07c6def110ff6bae8350afcf9683adfcde4921
 ---
 
 ## 5. EQUIVALENCE RELATIONS AND QUOTIENT SETS
@@ -28,10 +28,10 @@ content_sha256: 22c94bcb3e3db436839b071a4604607950bd9f8394f1a692c4accc6bc0101dd5
 
 If C denotes the subset of $E\times E$ defined by the relation R, the conditions (a), (b), (c) are respectively equivalent to the following conditions : $(a')\ \Delta\subset C$; $(b')\ \overline{C}=C$; $(c')\ C\circ C\subset C$. From $(a')$ and $(c')$ it follows that $C\circ C=C$.
 
-2. Conversely, let $R\{x,y\}$ be a reflexive, symmetric, and transitive relation, and let C be its graph in $E\times E$. Then the image $\mathfrak{P}$ of E under the mapping $x\mapsto C(x)$ of E into $\mathfrak{P}(E)$ is a partition of E, and the relation “there exists a subset X ∈ 𝔖̃ such that x ∈ X and y ∈ X” is equivalent to
+2. Conversely, let $R\{x,y\}$ be a reflexive, symmetric, and transitive relation, and let C be its graph in $E\times E$. Then the image $\mathfrak{P}$ of E under the mapping $x\mapsto C(x)$ of E into $\mathfrak{P}(E)$ is a partition of E, and the relation “there exists a subset X ∈ $\mathfrak{S}̃$ such that x ∈ X and y ∈ X” is equivalent to
 $R\{x,y\}$.
 
-Every relation which satisfies conditions (a), (b), and (c) is called an equivalence relation on E. The partition 𝔖̃ which it defines, considered as a subset of 𝒫(E), is called the quotient set of E by the relation R, and is denoted by E/R; its elements are called equivalence classes with respect to R. The mapping $x \mapsto C(x)$ of E onto E/R, which maps each element x of E to the equivalence class which contains x, is called the canonical mapping of E onto E/R.
+Every relation which satisfies conditions (a), (b), and (c) is called an equivalence relation on E. The partition $\mathfrak{S}̃$ which it defines, considered as a subset of $\mathscr{P}(E)$, is called the quotient set of E by the relation R, and is denoted by E/R; its elements are called equivalence classes with respect to R. The mapping $x \mapsto C(x)$ of E onto E/R, which maps each element x of E to the equivalence class which contains x, is called the canonical mapping of E onto E/R.
 
 The relation of equality $x = y$ is an equivalence relation. The canonical mapping of E onto the corresponding quotient set is just $x \mapsto \{x\}$, and is bijective.
 

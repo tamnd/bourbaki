@@ -13,9 +13,9 @@ pdf_pages: 0375-0378
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: ad0f4f9db92246e8d31520cbc6d860da47a2fe70d0d7d6e876781b8a106cc0f8
+content_sha256: 49e215ed1ff568eee3fef30476ad37251be78483681ba9d3c97509b06572485e
 translated_from: content/en/ens/ER/05_s5_equivalence_relations_and_quotient_sets.md
-source_content_sha256: 22c94bcb3e3db436839b071a4604607950bd9f8394f1a692c4accc6bc0101dd5
+source_content_sha256: ce494510e445f599fcaf23ba1f07c6def110ff6bae8350afcf9683adfcde4921
 translation_model: gpt-5-6, copied
 translation_run: translate-vi-79e29246
 glossary_version: 34
@@ -35,10 +35,10 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Nếu C ký hiệu tập con của $E\times E$ được xác định bởi quan hệ R, thì các điều kiện (a), (b), (c) lần lượt tương đương với các điều kiện sau: $(a')\ \Delta\subset C$; $(b')\ \overline{C}=C$; $(c')\ C\circ C\subset C$. Từ $(a')$ và $(c')$ suy ra rằng $C\circ C=C$.
 
-2. Ngược lại, cho $R\{x,y\}$ là một quan hệ phản xạ, đối xứng và bắc cầu, và cho C là đồ thị của nó trong $E\times E$. Khi đó ảnh $\mathfrak{P}$ của E qua ánh xạ $x\mapsto C(x)$ từ E vào $\mathfrak{P}(E)$ là một phân hoạch của E, và quan hệ “tồn tại một tập con X ∈ 𝔖̃ sao cho x ∈ X và y ∈ X” tương đương với
+2. Ngược lại, cho $R\{x,y\}$ là một quan hệ phản xạ, đối xứng và bắc cầu, và cho C là đồ thị của nó trong $E\times E$. Khi đó ảnh $\mathfrak{P}$ của E qua ánh xạ $x\mapsto C(x)$ từ E vào $\mathfrak{P}(E)$ là một phân hoạch của E, và quan hệ “tồn tại một tập con X ∈ $\mathfrak{S}̃$ sao cho x ∈ X và y ∈ X” tương đương với
 $R\{x,y\}$.
 
-Mọi quan hệ thỏa mãn các điều kiện (a), (b), và (c) đều được gọi là một quan hệ tương đương trên E. Phân hoạch 𝔖̃ mà nó xác định, được xét như một tập con của 𝒫(E), được gọi là tập thương của E theo quan hệ R, và được ký hiệu bởi E/R; các phần tử của nó được gọi là các lớp tương đương theo R. Ánh xạ $x \mapsto C(x)$ của E lên E/R, ánh xạ mỗi phần tử x của E vào lớp tương đương chứa x, được gọi là ánh xạ chính tắc của E lên E/R.
+Mọi quan hệ thỏa mãn các điều kiện (a), (b), và (c) đều được gọi là một quan hệ tương đương trên E. Phân hoạch $\mathfrak{S}̃$ mà nó xác định, được xét như một tập con của $\mathscr{P}(E)$, được gọi là tập thương của E theo quan hệ R, và được ký hiệu bởi E/R; các phần tử của nó được gọi là các lớp tương đương theo R. Ánh xạ $x \mapsto C(x)$ của E lên E/R, ánh xạ mỗi phần tử x của E vào lớp tương đương chứa x, được gọi là ánh xạ chính tắc của E lên E/R.
 
 Quan hệ đẳng thức $x = y$ là một quan hệ tương đương. Ánh xạ chính tắc của E lên tập thương tương ứng chỉ là $x \mapsto \{x\}$, và là song ánh.
 

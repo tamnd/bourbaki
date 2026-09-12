@@ -54,7 +54,7 @@ subsections:
       pdf_page: 336
 statements: 87
 exercises: 39
-content_sha256: 7397ef66063724aa975a5ff48582a56369a955dedad3c2a574c4fd7a2a0708aa
+content_sha256: 4a0aa12bb86e297b7b41b2439ff3ec55355ec8f0a8f9e03e666f29de805167cb
 ---
 
 ## § 7. VECTOR SPACES
@@ -945,7 +945,7 @@ since $\phi$ is $A$-linear.
 
 (ii) If $x \neq 0$ is not free in $E$, there exists $\alpha \neq 0$ in $A$ such that $\alpha x = 0$, whence $\alpha \phi(x) = \phi(\alpha x) = 0$ in $E_{(K)}$, which implies $\phi(x) = 0$. Conversely, suppose that, for some $x \in E$, $1 \otimes x = 0$ in $E_{(K)}$; we show that $x$ is a torsion element of $E$. We consider the set $\mathfrak{M}$ of *monogenous* sub-$A$-modules of $K$; this is a right directed set under the relation of inclusion, for any two elements $\alpha, \beta$ of $K$ can be written as $\alpha = \zeta^{-1} \xi, \beta = \zeta^{-1} \eta$, where $\xi, \eta, \zeta$ belong to $A$ and $\zeta \neq 0$, hence $A.\alpha \subset A.\zeta^{-1}$ and $A.\beta \subset A.\zeta^{-1}$. Moreover $K$ is the union of the modules $M \in \mathfrak{M}$ and can therefore be considered as the *direct limit* of the direct system defined by the modules $M \in \mathfrak{M}$ and the canonical injections (§ 6, no. 2, *Remark*). Hence also, to within a canonical isomorphism, $E_{(K)} = \lim \rightarrow (M \otimes_A E)$ (§ 6, no. 3, Proposition 7) and the relation $1 \otimes x = 0$ in $E_{(K)}$ implies that there exists an
 
-M ∈ 𝒫 such that l ∈ M and l ⊗ x = 0 in the tensor product M ⊗_A E (Set Theory, III, § 7, no. 5, Lemma 1). It may further be supposed (replacing if need be M by a monogenous submodule M' ⊃ M of K) that M = A.γ^{-1}, where γ ∈ A and γ ≠ 0. Now the mapping ξ ↦ γξ is an isomorphism of M onto the A-module A; on the other hand, the canonical isomorphism A ⊗_A E → E (§ 3, no. 4, Proposition 4) maps ξ ⊗ x to the element ξx of E; thus there exists an isomorphism M ⊗_A E → E which maps the tensor product ξ ⊗ x to the element (γξ)x of E. The hypothesis l ⊗ x = 0 in M ⊗_A E thus implies γx = 0.
+M ∈ $\mathscr{P}$ such that l ∈ M and l ⊗ x = 0 in the tensor product M ⊗_A E (Set Theory, III, § 7, no. 5, Lemma 1). It may further be supposed (replacing if need be M by a monogenous submodule M' ⊃ M of K) that M = A.γ^{-1}, where γ ∈ A and γ ≠ 0. Now the mapping ξ ↦ γξ is an isomorphism of M onto the A-module A; on the other hand, the canonical isomorphism A ⊗_A E → E (§ 3, no. 4, Proposition 4) maps ξ ⊗ x to the element ξx of E; thus there exists an isomorphism M ⊗_A E → E which maps the tensor product ξ ⊗ x to the element (γξ)x of E. The hypothesis l ⊗ x = 0 in M ⊗_A E thus implies γx = 0.
 
 #### Remark {#alg-ii-s7-n10-rem-2 .statement}
 

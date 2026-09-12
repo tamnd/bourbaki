@@ -49,7 +49,7 @@ chapters:
           statements: 17
           exercises: 18
           extraction: ocr
-          content_sha256: 3dd86d2510fd6e7a7b80742c526d9013c0a89c8baae097ffae0322f8e3723f3b
+          content_sha256: a218a2a81bb601297a44524377397174d1f18d14054f68bed87d836eab4c325c
         - kind: section
           section: 4
           title: Limites projectives de mesures

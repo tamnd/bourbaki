@@ -52,9 +52,9 @@ subsections:
       pdf_page: 104
 statements: 37
 exercises: 8
-content_sha256: e454385c63c78c0ec09056b1a465f87d43af4d9b4e3e9016f14b388fd4040481
+content_sha256: 2129bb4a9db9fcbf43a1ecbedd817bfeadcbc9aa9f296aede966ce6a2f4c2d20
 translated_from: content/en/lie/V/03_s3_groups_of_displacements_generated_by.md
-source_content_sha256: 810448206a7af36da88981c3001aa6895e8fee98fb8200d00bc55224171e1c4a
+source_content_sha256: ace6f75361817e9cf69d520ef4f96ec5f2eb709271871f39e0f0fff9b6cfb051
 translation_model: gpt-5-mini, gpt-5-6-mini, gpt-5.4-mini, gpt-5-6
 translation_run: translate-vi-19cfa37a
 glossary_version: 34
@@ -66,9 +66,9 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Trong đoạn này, ta ký hiệu bởi E một không gian affine thực có số chiều hữu hạn d, và bởi T không gian các phép tịnh tiến của E. Ta giả sử rằng T được trang bị một tích vô hướng (nghĩa là một dạng song tuyến tính không suy biến, dương, đối xứng), ký hiệu bởi $(t|t')$. Với $t \in T$, đặt $\|t\| = (t|t)^{1/2}$. Hàm $d(x, y) = \|x - y\|$ là một khoảng cách trên E, xác định tôpô của E (§ 1).
 
-Ta ký hiệu bởi $\mathfrak{H}$ một tập hợp các siêu phẳng của E và bởi W nhóm các phép dời của không gian Euclid E sinh bởi các phản xạ trực giao s_H đối với các siêu phẳng H ∈ 𝓗 ($§ 2$, no. 4). Ta giả sử rằng các điều kiện sau được thỏa mãn:
+Ta ký hiệu bởi $\mathfrak{H}$ một tập hợp các siêu phẳng của E và bởi W nhóm các phép dời của không gian Euclid E sinh bởi các phản xạ trực giao s_H đối với các siêu phẳng H ∈ $\mathscr{H}$ ($§ 2$, no. 4). Ta giả sử rằng các điều kiện sau được thỏa mãn:
 
-(D1) Với mọi w ∈ W và mọi H ∈ 𝓗, siêu phẳng w(H) thuộc về 𝓗;
+(D1) Với mọi w ∈ W và mọi H ∈ $\mathscr{H}$, siêu phẳng w(H) thuộc về $\mathscr{H}$;
 (D2) Nhóm W, được trang bị tôpô rời rạc, tác động đúng trên E.
 
 Vì E là compact địa phương, từ Nhận xét của $§ 4$, no. 5 của Tôpô đại cương, Ch. III, suy ra rằng điều kiện (D2) tương đương với điều kiện sau:
@@ -79,11 +79,11 @@ Vì E là compact địa phương, từ Nhận xét của $§ 4$, no. 5 của T�
 
 #### Bổ đề 1 {#lie-v-s3-lem-1 .statement}
 
-Tập hợp các siêu phẳng 𝓗 là hữu hạn địa phương.
+Tập hợp các siêu phẳng $\mathscr{H}$ là hữu hạn địa phương.
 
-Thật vậy, cho K là một tập con compact của E. Nếu một siêu phẳng H ∈ 𝓗 gặp K, thì tập hợp s_H(K) cũng gặp K, vì mọi điểm của K ∩ H đều bất động qua s_H. Tập hợp các H ∈ 𝓗 gặp K do đó là hữu hạn theo (D'2).
+Thật vậy, cho K là một tập con compact của E. Nếu một siêu phẳng H ∈ $\mathscr{H}$ gặp K, thì tập hợp s_H(K) cũng gặp K, vì mọi điểm của K ∩ H đều bất động qua s_H. Tập hợp các H ∈ $\mathscr{H}$ gặp K do đó là hữu hạn theo (D'2).
 
-Do đó ta có thể áp dụng cho E và 𝓗 các định nghĩa và các kết quả của $§ 1$. Ta sẽ gọi các buồng, mặt, tường, v.v. được xác định trong E bởi 𝓗 đơn giản là các buồng, mặt, tường, v.v. tương đối với W. Mọi phép dời w ∈ W hoán vị các buồng, mặt, tường, v.v.
+Do đó ta có thể áp dụng cho E và $\mathscr{H}$ các định nghĩa và các kết quả của $§ 1$. Ta sẽ gọi các buồng, mặt, tường, v.v. được xác định trong E bởi $\mathscr{H}$ đơn giản là các buồng, mặt, tường, v.v. tương đối với W. Mọi phép dời w ∈ W hoán vị các buồng, mặt, tường, v.v.
 
 #### Bổ đề 2 {#lie-v-s3-lem-2 .statement}
 

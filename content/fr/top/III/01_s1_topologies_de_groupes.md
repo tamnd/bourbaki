@@ -24,7 +24,7 @@ subsections:
       pdf_page: 188
 statements: 11
 exercises: 9
-content_sha256: 3621842f7d91afb7b7f4a8caf16dad34d5d97c00ad6f16f5473de6aef5ff7384
+content_sha256: 30d9e1d5735839775bd7917d337a8df2e842ada78e9ba70bd9db7c869ada5d96
 ---
 
 ## § 1. TOPOLOGIES DE GROUPES
@@ -140,11 +140,11 @@ La condition est évidemment nécessaire; inversement, si elle est satisfaite, l
 
 Définition d’une topologie de groupe par un ensemble de sous-groupes.
 
-Si 𝒮 est une base de filtre sur un groupe G, formée de sous-groupes de G, il est immédiat qu’elle satisfait aux axiomes (GV₁) et (GV₂), car pour tout sous-groupe H de G, H.H⁻¹ = H. La base de filtre 𝒮 sera donc un système fondamental de voisinages de e dans une topologie compatible avec la structure de groupe de G, pourvu qu’elle satisfasse à (GV₃) (condition qui sera remplie en particulier si tous les sous-groupes de 𝒮 sont distingués, ce qui sera toujours le cas si G est commutatif). Pour que la topologie ainsi définie soit séparée, il faut et il suffit, d’après la prop. 2, que l’intersection des sous-groupes appartenant à 𝒮 se réduise à e. Les cas les plus intéressants sont ceux où le sous-groupe {e} n’appartient pas à 𝒮 (sinon la topologie définie par 𝒮 est la topologie discrète); si cette condition est remplie, la topologie définie par 𝒮 ne peut être séparée que si 𝒮 est un ensemble infini.
+Si $\mathscr{S}$ est une base de filtre sur un groupe G, formée de sous-groupes de G, il est immédiat qu’elle satisfait aux axiomes (GV₁) et (GV₂), car pour tout sous-groupe H de G, H.H⁻¹ = H. La base de filtre $\mathscr{S}$ sera donc un système fondamental de voisinages de e dans une topologie compatible avec la structure de groupe de G, pourvu qu’elle satisfasse à (GV₃) (condition qui sera remplie en particulier si tous les sous-groupes de $\mathscr{S}$ sont distingués, ce qui sera toujours le cas si G est commutatif). Pour que la topologie ainsi définie soit séparée, il faut et il suffit, d’après la prop. 2, que l’intersection des sous-groupes appartenant à $\mathscr{S}$ se réduise à e. Les cas les plus intéressants sont ceux où le sous-groupe {e} n’appartient pas à $\mathscr{S}$ (sinon la topologie définie par $\mathscr{S}$ est la topologie discrète); si cette condition est remplie, la topologie définie par $\mathscr{S}$ ne peut être séparée que si $\mathscr{S}$ est un ensemble infini.
 
-L’intersection de deux sous-groupes étant un sous-groupe, on peut définir une topologie de groupe sur G à partir d’un ensemble quelconque 𝒢 de sous-groupes de G; il suffit de considérer l’ensemble 𝒢 des sous-groupes a.H.a⁻¹, où H parcourt 𝒢 et a parcourt G, puis l’ensemble 𝒮 des intersections finies de sous-groupes appartenant à 𝒢; 𝒮 est une base de filtre, et satisfait à (GV₃).
+L’intersection de deux sous-groupes étant un sous-groupe, on peut définir une topologie de groupe sur G à partir d’un ensemble quelconque $\mathscr{G}$ de sous-groupes de G; il suffit de considérer l’ensemble $\mathscr{G}$ des sous-groupes a.H.a⁻¹, où H parcourt $\mathscr{G}$ et a parcourt G, puis l’ensemble $\mathscr{S}$ des intersections finies de sous-groupes appartenant à $\mathscr{G}$; $\mathscr{S}$ est une base de filtre, et satisfait à (GV₃).
 
-En particulier, considérons le groupe additif d’un anneau A; tout ensemble 𝒢 d’idéaux de A (A, I, p. 98) définit une topologie compatible avec la structure de ce groupe additif; cette topologie est séparée si l’intersection des idéaux de 𝒢 est l’idéal nul; elle est distincte de la topologie discrète si aucune intersection finie d’idéaux de 𝒢 n’est l’idéal nul. Les topologies définies de cette manière jouent un grand rôle en Théorie des nombres (voir les exerc. des §§ 6 et 7 de ce chapitre).
+En particulier, considérons le groupe additif d’un anneau A; tout ensemble $\mathscr{G}$ d’idéaux de A (A, I, p. 98) définit une topologie compatible avec la structure de ce groupe additif; cette topologie est séparée si l’intersection des idéaux de $\mathscr{G}$ est l’idéal nul; elle est distincte de la topologie discrète si aucune intersection finie d’idéaux de $\mathscr{G}$ n’est l’idéal nul. Les topologies définies de cette manière jouent un grand rôle en Théorie des nombres (voir les exerc. des §§ 6 et 7 de ce chapitre).
 
 ### 3. Isomorphismes et isomorphismes locaux
 

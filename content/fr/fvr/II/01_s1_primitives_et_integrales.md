@@ -36,7 +36,7 @@ subsections:
       pdf_page: 64
 statements: 22
 exercises: 23
-content_sha256: 0c5afcba3bf2d7365099706e15ece1413976e2826bb7441159650519694327d4
+content_sha256: 2cfeea6d48b2042b4f3cc993bb9119b5a44b6d8c8b8720cb5c58de451828bbe0
 ---
 
 ## § 1. PRIMITIVES ET INTÉGRALES
@@ -187,7 +187,7 @@ Remarques — 2.) Pour démontrer qu’une fonction continue admet une primitive
 
 #### Proposition 4 {#fvr-ii-s1-prop-4 .statement}
 
-Toute fonction numérique f monotone dans un intervalle I ⊂ ℝ est réglée, et toute primitive de f est convexe dans I.
+Toute fonction numérique f monotone dans un intervalle I ⊂ $\mathbf{R}$ est réglée, et toute primitive de f est convexe dans I.
 
 En effet, f satisfait au critère du th. 3 de TG, IV, p. 19, prop 4; la seconde partie de la proposition résulte cor. 1 , de II, p. 6, et de la prop. 5 de I, p. 36.
 

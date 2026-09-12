@@ -243,7 +243,7 @@ chapters:
           statements: 81
           exercises: 26
           extraction: ocr
-          content_sha256: 982b323189f8df3c1d442a29adb4dcee201347ec2fce30a549a98774f66f984d
+          content_sha256: b1303150483bcbb29c20b41b4ce7e614596179ee53ca9d01bad8c117330eb6c6
         - kind: historical
           title: Historical Note
           path: content/fr/ac/VII/historical_note.md

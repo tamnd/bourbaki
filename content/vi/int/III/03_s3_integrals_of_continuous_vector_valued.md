@@ -29,9 +29,9 @@ subsections:
       pdf_page: 84
 statements: 17
 exercises: 4
-content_sha256: 09ed7fddb477537008a1c246fedf1f866be39e30b00f091c3f7beb0665240752
+content_sha256: 90bc2ae156a1e426cec89446d283fc262200dcbeb9b724014bb29ab10074753c
 translated_from: content/en/int/III/03_s3_integrals_of_continuous_vector_valued.md
-source_content_sha256: 938c5e2bae835b9fb977b9a8f0dcf6fd97e78aa85cb2ffbe500b20097c85aa10
+source_content_sha256: b66320a56aff4c02286ce8fafb4d825f43e0c1a2c4513a808a564a314da65e7d
 translation_model: gpt-5.4
 translation_run: translate-vi-f3da66a2
 glossary_version: 34
@@ -249,13 +249,13 @@ Cho K là giá của f, tập này compact theo giả thiết. Vì f bằng khô
 
 #### Hệ quả 1 {#int-iii-s3-prop-7-cor-1 .statement}
 
-— Cho E là một không gian lồi địa phương Hausdorff; với mọi hàm f ∈ 𝒦(X; E), $\int f d\mu$ thuộc hoàn thành $\widehat{E}$ của E.
+— Cho E là một không gian lồi địa phương Hausdorff; với mọi hàm f ∈ $\mathscr{K}(X; E)$, $\int f d\mu$ thuộc hoàn thành $\widehat{E}$ của E.
 
 Vì các đối ngẫu của E và $\widehat{E}$ là đồng nhất, chỉ cần áp dụng Mệnh đề 7 khi xem f như nhận giá trị trong $\widehat{E}$.
 
 #### Hệ quả 2 {#int-iii-s3-prop-7-cor-2 .statement}
 
-— Nếu E là một không gian lồi địa phương Hausdorff quasi-đầy đủ, thì $\int f d\mu \in E$ với mọi hàm f ∈ 𝒦(X; E).
+— Nếu E là một không gian lồi địa phương Hausdorff quasi-đầy đủ, thì $\int f d\mu \in E$ với mọi hàm f ∈ $\mathscr{K}(X; E)$.
 
 Như đã nhận xét ở đầu chứng minh của Mệnh đề 7, $f(X)$ là compact và bao lồi đóng C của nó trong E là tiền compact, do đó bị chặn; nhưng vì tập C là đóng và bị chặn, nó là đầy đủ theo giả thiết, và chỉ cần áp dụng Mệnh đề 7.
 

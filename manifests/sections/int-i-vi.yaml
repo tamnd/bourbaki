@@ -134,7 +134,7 @@ chapters:
           statements: 17
           exercises: 4
           extraction: ocr
-          content_sha256: 938c5e2bae835b9fb977b9a8f0dcf6fd97e78aa85cb2ffbe500b20097c85aa10
+          content_sha256: b66320a56aff4c02286ce8fafb4d825f43e0c1a2c4513a808a564a314da65e7d
         - kind: section
           section: 4
           title: Products of measures
@@ -172,7 +172,7 @@ chapters:
           statements: 34
           exercises: 8
           extraction: ocr
-          content_sha256: 3aaa7b5998328b823ccdc99b1b32a831239b3b509eb6788df8712bad61342271
+          content_sha256: 33c34b08425c4858837ea23c60cb0cbddeb27a95602cf279ab92c1b26cc06a8b
         - kind: section
           section: 2
           title: Negligible functions and sets
@@ -460,7 +460,7 @@ notation_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: 73edd71549b4643f53c5ff204b4d540f8b7bc280d34e7079e92df08bfd7b713a
+    content_sha256: 8d205b7644c3f36f47c82204ad9bdc09ea8dd5272111139924ec0cf96a5e0e74
 terminology_index:
     kind: terminology
     title: INDEX OF TERMINOLOGY

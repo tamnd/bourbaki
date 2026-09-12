@@ -37,9 +37,9 @@ subsections:
       pdf_page: 67
 statements: 27
 exercises: 17
-content_sha256: 5ce719f3aa69959f60774f348acae65dd20f86406d79ab8edecf634dc0285103
+content_sha256: 184e7efff67608c879b6563da78ec387cc8b78605f55ad070dd6eca13b0ab04b
 translated_from: content/en/lie/I/05_s5_solvable_lie_algebras.md
-source_content_sha256: 463a21b601dadcb5824363c5f0b0f7aec3b0400f4911b9ab162ef4940bd66675
+source_content_sha256: c13fa2eac7b71e9d961ea7fc4eb2e13efb9cf7a544efa82561bab25611c7517d
 translation_model: gpt-5.4
 translation_run: translate-vi-f47a882b
 glossary_version: 34
@@ -235,27 +235,27 @@ Tồn tại một đa thức P không có số hạng hằng và có các hệ s
 
 #### Định lý 2 (tiêu chuẩn của Cartan) {#lie-i-s5-thm-2 .statement}
 
-*Cho g là một đại số Lie, M là một không gian vectơ hữu hạn chiều, ρ là một biểu diễn của g trên M và β là dạng song tuyến tính trên g liên kết với ρ. Khi đó ρ(g) là giải được khi và chỉ khi 𝒟g trực giao với g đối với β.*
+*Cho g là một đại số Lie, M là một không gian vectơ hữu hạn chiều, ρ là một biểu diễn của g trên M và β là dạng song tuyến tính trên g liên kết với ρ. Khi đó ρ(g) là giải được khi và chỉ khi $\mathscr{D}$g trực giao với g đối với β.*
 
-Hiển nhiên có thể quy về trường hợp g là một đại số con Lie của $\mathfrak{gl}(M)$ và ρ là ánh xạ đồng nhất. Nếu g giải được, 𝒟g được chứa trong iđêan lũy linh lớn nhất của biểu diễn đồng nhất của g (Định lý 1) và vì thế trực giao với g đối với β (§ 4, Mệnh đề 4 (d)). Giả sử rằng 𝒟g trực giao với g đối với β. Ta chứng minh rằng g giải được. Gọi T là tập hợp các $t \in \mathfrak{gl}(M)$ sao cho $[t, g] \subset \mathscr{D}g$. Nếu $t \in T$ và x, y thuộc g, thì $[t, x] \in \mathscr{D}g$ và do đó
+Hiển nhiên có thể quy về trường hợp g là một đại số con Lie của $\mathfrak{gl}(M)$ và ρ là ánh xạ đồng nhất. Nếu g giải được, $\mathscr{D}$g được chứa trong iđêan lũy linh lớn nhất của biểu diễn đồng nhất của g (Định lý 1) và vì thế trực giao với g đối với β (§ 4, Mệnh đề 4 (d)). Giả sử rằng $\mathscr{D}$g trực giao với g đối với β. Ta chứng minh rằng g giải được. Gọi T là tập hợp các $t \in \mathfrak{gl}(M)$ sao cho $[t, g] \subset \mathscr{D}g$. Nếu $t \in T$ và x, y thuộc g, thì $[t, x] \in \mathscr{D}g$ và do đó
 $$
 \mathrm{Tr}(t[x, y]) = \beta([t, x], y) = 0
 $$
-do đó theo tính tuyến tính $\mathrm{Tr}(tu) = 0$ với mọi $u \in \mathscr{D}g$. Ngoài ra, rõ ràng $\mathscr{D}g \subset T$. Vậy nên (Bổ đề 3) mọi phần tử của 𝒟g đều lũy linh. Suy ra 𝒟g là lũy linh (§ 4, Hệ quả 3 của Định lý 1) và vì thế g là giải được (no. 3, Hệ quả 5 của Định lý 1).
+do đó theo tính tuyến tính $\mathrm{Tr}(tu) = 0$ với mọi $u \in \mathscr{D}g$. Ngoài ra, rõ ràng $\mathscr{D}g \subset T$. Vậy nên (Bổ đề 3) mọi phần tử của $\mathscr{D}$g đều lũy linh. Suy ra $\mathscr{D}$g là lũy linh (§ 4, Hệ quả 3 của Định lý 1) và vì thế g là giải được (no. 3, Hệ quả 5 của Định lý 1).
 
 ### 5. CÁC TÍNH CHẤT BỔ SUNG CỦA CĂN
 
 #### Mệnh đề 5 {#lie-i-s5-prop-5 .statement}
 
 *Cho g là một đại số Lie và r là căn của nó.*
-(a) *Nếu ρ là một biểu diễn hữu hạn chiều của g và β là dạng song tuyến tính liên kết, thì r và 𝒟g trực giao đối với β.*
-(b) *r là trực giao của 𝒟g đối với dạng Killing.*
+(a) *Nếu ρ là một biểu diễn hữu hạn chiều của g và β là dạng song tuyến tính liên kết, thì r và $\mathscr{D}$g trực giao đối với β.*
+(b) *r là trực giao của $\mathscr{D}$g đối với dạng Killing.*
 Cho x, y thuộc g, $z \in r$. Khi đó $[y, z] \in \mathscr{D}g \cap r$ và do đó
 $$
 \beta([x, y], z) = \beta(x, [y, z]) = 0
 $$
 (Định lý 1). Suy ra (a).
-Gọi r' là trực giao của 𝒟g đối với dạng Killing. Nó là một iđêan của g (§ 3, no. 6, Mệnh đề 7 (a)) chứa r theo điều trên. Mặt khác, ảnh s của r' dưới biểu diễn kề của g là giải được (Định lý 2) và vì thế r' là giải được vì là một mở rộng trung tâm của s. Suy ra r' ⊂ r.
+Gọi r' là trực giao của $\mathscr{D}$g đối với dạng Killing. Nó là một iđêan của g (§ 3, no. 6, Mệnh đề 7 (a)) chứa r theo điều trên. Mặt khác, ảnh s của r' dưới biểu diễn kề của g là giải được (Định lý 2) và vì thế r' là giải được vì là một mở rộng trung tâm của s. Suy ra r' ⊂ r.
 
 #### Hệ quả 1 {#lie-i-s5-prop-5-cor-1 .statement}
 

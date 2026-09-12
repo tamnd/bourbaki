@@ -26,7 +26,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 9bdf15aa90d6d2b05df4c6ec7f503ef068be5179cd8bac1288e8a7dbfe402930
+          content_sha256: 9c79c965f85ae43debfb3187b9a7316dfea75d257eb6b0abf229d682cfcf63db
         - kind: section
           section: 2
           title: Numération; analyse combinatoire
@@ -278,7 +278,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 4b9f71a36de862461430b5fefda1566e6d1658a11cb9e9a55d2526f0a04b6abb
+          content_sha256: 31dae6aee7bd77fd1b13d3b7621084f81da6540a68f0d53c5215719107e87259
         - kind: section
           section: 23
           title: Mesure de Haar; convolution

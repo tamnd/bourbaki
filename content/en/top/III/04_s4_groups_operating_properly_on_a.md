@@ -37,7 +37,7 @@ subsections:
       pdf_page: 265
 statements: 33
 exercises: 23
-content_sha256: ca914d4b27c8bd25534cc7734582e3a9e677d045d99b3c600756487073dc4e20
+content_sha256: e60543e27e104062093ede1592665f6dc419979cd1eafe21e62e5aadeb841293
 ---
 
 ## 4. GROUPS OPERATING PROPERLY ON A TOPOLOGICAL SPACE; COMPACTNESS IN TOPOLOGICAL GROUPS AND SPACES WITH OPERATORS
@@ -213,7 +213,7 @@ $$
 ((G - K) \times W) \cap \Gamma;
 $$
 
-is empty; and since we may take $W$ to be a neighbourhood $V_x \times V_y$, where $V_x$ and $V_y$ are neighbourhoods of $x$ and $y$ respectively in $X$, the statement “((G — K) × W) ∩ Γ = ∅” becomes “if s ∉ K, then s · V_x ∩ V_y = ∅”. We have thus proved the necessity of the condition stated in the proposition. Conversely, suppose this condition is satisfied; let A be a set filtered by an ultrafilter 𝔾, and let α → (s_α, x_α) be a mapping of A into G × X such that lim_𝔖 x_α = x and lim_𝔖 s_α · x_α = y. Suppose that K, V_x and V_y satisfy the condition of the proposition. By hypothesis there is a set M ∈ 𝔾 such that if α ∈ M then x_α ∈ V_x and s_α · x_α ∈ V_y, hence s_α ∈ K. This shows that α → s_α converges with respect to 𝔾, and the proof is complete.
+is empty; and since we may take $W$ to be a neighbourhood $V_x \times V_y$, where $V_x$ and $V_y$ are neighbourhoods of $x$ and $y$ respectively in $X$, the statement “((G — K) × W) ∩ Γ = ∅” becomes “if s ∉ K, then s · V_x ∩ V_y = ∅”. We have thus proved the necessity of the condition stated in the proposition. Conversely, suppose this condition is satisfied; let A be a set filtered by an ultrafilter $\mathfrak{F}$, and let α → (s_α, x_α) be a mapping of A into G × X such that lim_$\mathfrak{F}$ x_α = x and lim_$\mathfrak{F}$ s_α · x_α = y. Suppose that K, V_x and V_y satisfy the condition of the proposition. By hypothesis there is a set M ∈ $\mathfrak{F}$ such that if α ∈ M then x_α ∈ V_x and s_α · x_α ∈ V_y, hence s_α ∈ K. This shows that α → s_α converges with respect to $\mathfrak{F}$, and the proof is complete.
 
 If G is compact, the condition of Proposition 7 is trivially satisfied; we thus retrieve Proposition 2 a).
 

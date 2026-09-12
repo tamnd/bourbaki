@@ -281,7 +281,7 @@ chapters:
           statements: 22
           exercises: 6
           extraction: ocr
-          content_sha256: e1897e7572b063c6d8380b7bb04825e6e2b78eb85af026fefe5a26a3c60c9999
+          content_sha256: 6d1e7ac1b548ef138ffd00b98dbc87bed6ad093f6c250e5a9acd6b74d14bb52d
         - kind: section
           section: 14
           title: EXTENSIONS TRANSCENDANTES

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 84
 statements: 17
 exercises: 4
-content_sha256: 938c5e2bae835b9fb977b9a8f0dcf6fd97e78aa85cb2ffbe500b20097c85aa10
+content_sha256: b66320a56aff4c02286ce8fafb4d825f43e0c1a2c4513a808a564a314da65e7d
 ---
 
 ## § 3. INTEGRALS OF CONTINUOUS VECTOR-VALUED FUNCTIONS
@@ -242,13 +242,13 @@ Let K be the support of f, which is compact by hypothesis. Since f is zero on X 
 
 #### Corollary 1 {#int-iii-s3-prop-7-cor-1 .statement}
 
-— Let E be a Hausdorff locally convex space; for every function f ∈ 𝒦(X; E), $\int f d\mu$ belongs to the completion $\widehat{E}$ of E.
+— Let E be a Hausdorff locally convex space; for every function f ∈ $\mathscr{K}(X; E)$, $\int f d\mu$ belongs to the completion $\widehat{E}$ of E.
 
 Since the duals of E and $\widehat{E}$ are identical, it suffices to apply Prop. 7 while regarding f as taking its values in $\widehat{E}$.
 
 #### Corollary 2 {#int-iii-s3-prop-7-cor-2 .statement}
 
-— If E is a quasi-complete Hausdorff locally convex space, then $\int f d\mu \in E$ for every function f ∈ 𝒦(X; E).
+— If E is a quasi-complete Hausdorff locally convex space, then $\int f d\mu \in E$ for every function f ∈ $\mathscr{K}(X; E)$.
 
 As noted at the beginning of the proof of Prop. 7, f(X) is compact and its closed convex envelope C in E is precompact, hence bounded; but since the set C is closed and bounded, it is complete by hypothesis, and it suffices to apply Prop. 7.
 

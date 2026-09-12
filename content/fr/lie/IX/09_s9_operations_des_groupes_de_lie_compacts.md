@@ -29,7 +29,7 @@ subsections:
       pdf_page: 98
 statements: 19
 exercises: 21
-content_sha256: 58b5e01c5d61579a4018cfda407aea95fbdca2f8ac437e6c0e9de1cd4ddeecc5
+content_sha256: 48f0d1398b4b6961589fd051ad5ce8688560c3c4024641be851afcd5ef646729
 ---
 
 ## § 9. OPÉRATIONS DES GROUPES DE LIE COMPACTS SUR LES VARIÉTÉS
@@ -314,7 +314,7 @@ Soit G un groupe de Lie compact connexe, opérant sur lui-même par automorphism
 
 #### Exemple 2 {#lie-ix-s9-n4-exa-2 .statement tag=01HW}
 
-Soient E un espace affine réel euclidien, 𝓗 un ensemble d’hyperplans de E, W le groupe de déplacements de E engendré par les réflexions orthogonales par rapport aux hyperplans de $\mathfrak{H}$. On suppose que $\mathfrak{H}$ est stable par W et que le groupe W, muni de la topologie discrète, opère proprement dans E.
+Soient E un espace affine réel euclidien, $\mathscr{H}$ un ensemble d’hyperplans de E, W le groupe de déplacements de E engendré par les réflexions orthogonales par rapport aux hyperplans de $\mathfrak{H}$. On suppose que $\mathfrak{H}$ est stable par W et que le groupe W, muni de la topologie discrète, opère proprement dans E.
 
 On peut appliquer ce qui précède à l’action de W sur E. Le fixateur d’un point x de E est le sous-groupe de W engendré par les réflexions par rapport aux hyperplans de $\mathfrak{H}$ contenant x (V, § 3, no 3, prop. 2). Par conséquent, le plus grand type d’orbite $\tau$ est la classe du sous-groupe $\{ \mathrm{Id}_E \}$, et $E_{(\tau)}$ est la réunion des chambres de E. On notera que dans ce cas le revêtement $E_{(\tau)} \to E_{(\tau)}/W$ est trivial, et en particulier que $E_{(\tau)}$ n’est pas connexe si $\mathfrak{H}$ est non vide.
 

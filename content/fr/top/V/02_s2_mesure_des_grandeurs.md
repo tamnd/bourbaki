@@ -12,7 +12,7 @@ pdf_pages: 0012-0016, 0023-0023
 extraction: ocr
 statements: 5
 exercises: 2
-content_sha256: c1f5154943233d048c01c09a61301abab839d1376ee463f572e15e2f10c404b2
+content_sha256: dfa96118ca30c6dde1218689b1f453e9dd78ee80da6b7a7bb9f0523e362b8d34
 ---
 
 ## § 2. MESURE DES GRANDEURS
@@ -70,7 +70,7 @@ $$\begin{cases}
 
 Soit (x:y) = p et (y:z) = q ; on a y^p ≤ x et z^q ≤ y, donc (z^q)^p est défini et ≤ x ; il appartient donc à I et par suite z^{pq} est défini et on a z^{pq} = (z^q)^p ≤ x ; d’où la première inégalité. D’autre part, si z^{(p+1)(q+1)} est défini on a z^{(p+1)(q+1)} > x, puisque y^{p+1} > x et z^{q+1} > y ; d’où la seconde inégalité.
 
-Désignons par 𝔅 le filtre des sections de l’ensemble ordonné des éléments > ω de I, filtrant pour la relation ≥ ; une base de 𝔅 est formée des intervalles ]ω, z], où z parcourt l’ensemble des éléments > ω. Étant donnés deux éléments a et x de I tels que a > ω, nous allons voir que le rapport (x : z)/(a : z), qui est défini pour z ≤ a et est un nombre rationnel > 0, est une fonction de z qui a une limite suivant 𝔅. C’est évident si x = ω, car alors (x : z) = 0 quel que soit z. Si x > ω, nous allons montrer que l’image 𝔅 de 𝔅 par l’application
+Désignons par $\mathfrak{B}$ le filtre des sections de l’ensemble ordonné des éléments > ω de I, filtrant pour la relation ≥ ; une base de $\mathfrak{B}$ est formée des intervalles ]ω, z], où z parcourt l’ensemble des éléments > ω. Étant donnés deux éléments a et x de I tels que a > ω, nous allons voir que le rapport (x : z)/(a : z), qui est défini pour z ≤ a et est un nombre rationnel > 0, est une fonction de z qui a une limite suivant $\mathfrak{B}$. C’est évident si x = ω, car alors (x : z) = 0 quel que soit z. Si x > ω, nous allons montrer que l’image $\mathfrak{B}$ de $\mathfrak{B}$ par l’application
 
 $$z \mapsto (x : z)/(a : z)$$
 
@@ -80,7 +80,7 @@ une certaine approximation. Par contre l’axiome (GR_{III}), qui postule l’ex
 
 ¹ Lorsque E = I est l’ensemble des entiers naturels, la loi de composition étant l’addition, (x : y) n’est autre que la partie entière de x/y, ou, comme on dit encore, le « quotient approché par défaut à une unité près » de x par y.
 
-suite vers un nombre réel > 0. En effet, remarquons d’abord que, u > ω étant donné, (u:z) a pour limite +∞ suivant 𝔅; car il existe z > ω tel que z^{2^n} ≤ u, d’où (u:z) ≥ 2^n > n. Donnons-nous alors un nombre ε > 0 arbitraire; il existe t > ω tel que (x:t) ≥ 1/ε et (a:t) ≥ 1/ε; écrivons la double inégalité
+suite vers un nombre réel > 0. En effet, remarquons d’abord que, u > ω étant donné, (u:z) a pour limite +∞ suivant $\mathfrak{B}$; car il existe z > ω tel que z^{2^n} ≤ u, d’où (u:z) ≥ 2^n > n. Donnons-nous alors un nombre ε > 0 arbitraire; il existe t > ω tel que (x:t) ≥ 1/ε et (a:t) ≥ 1/ε; écrivons la double inégalité
 
 $$
 \frac{(x:t)}{(a:t) + 1} \cdot \frac{(t:z)}{(t:z) + 1} \leq \frac{(x:z)}{(a:z)} \leq \frac{(x:t) + 1}{(a:t)} \cdot \frac{(t:z) + 1}{(t:z)},
@@ -92,7 +92,7 @@ $$
 \frac{1}{(1 + \varepsilon)^2} \frac{(x:t)}{(a:t)} \leq \frac{(x:z)}{(a:z)} \leq (1 + \varepsilon)^2 \frac{(x:t)}{(a:t)},
 $$
 
-ce qui prouve que 𝔅 est une base de filtre de Cauchy pour la structure uniforme multiplicative
+ce qui prouve que $\mathfrak{B}$ est une base de filtre de Cauchy pour la structure uniforme multiplicative
 
 Fixons désormais l’élément a > ω (« unité de mesure »), et posons, pour tout x ∈ I,
 
@@ -100,9 +100,9 @@ $$
 f(x) = \lim_{\mathfrak{F}} \frac{(x:z)}{(a:z)}.
 $$
 
-D’après ce qui précède, on a f(ω) = 0, f(x) > 0 pour x > ω, et f(a) = 1. Si on divise les trois membres de (1) par (a:z), et qu’on passe à la limite suivant 𝔅, on voit que f(xy) = f(x) + f(y) pour x ∈ I, y ∈ I. De même, la relation x ≤ y entraîne (x:z) ≤ (y:z), d’où, en divisant par (a:z) et passant à la limite, f(x) ≤ f(y); f est croissante dans I. On en déduit que f est strictement croissante dans I; en effet, si x < y, il existe z > ω tel que xz ≤ y, d’où f(xz) ≤ f(y), et comme xz ∈ I, f(x) + f(z) = f(xz) ≤ f(y); comme f(z) > 0, il s’ensuit bien que f(x) < f(y).
+D’après ce qui précède, on a f(ω) = 0, f(x) > 0 pour x > ω, et f(a) = 1. Si on divise les trois membres de (1) par (a:z), et qu’on passe à la limite suivant $\mathfrak{B}$, on voit que f(xy) = f(x) + f(y) pour x ∈ I, y ∈ I. De même, la relation x ≤ y entraîne (x:z) ≤ (y:z), d’où, en divisant par (a:z) et passant à la limite, f(x) ≤ f(y); f est croissante dans I. On en déduit que f est strictement croissante dans I; en effet, si x < y, il existe z > ω tel que xz ≤ y, d’où f(xz) ≤ f(y), et comme xz ∈ I, f(x) + f(z) = f(xz) ≤ f(y); comme f(z) > 0, il s’ensuit bien que f(x) < f(y).
 
-Enfin, si b ∈ I, l’intersection de f(I) et de l’intervalle [0, f(b)] de ℝ est dense dans cet intervalle; pour tout entier n > 0, il existe en effet x > ω tel que f(x) ≤ 2^{-n}: il suffit de prendre x tel que x^{2^n} ≤ a; si p est le plus petit entier tel que x^{p+1} > b, on a (p + 1)f(x) > f(b) et qf(x) ≤ f(b) pour 1 ≤ q ≤ p; donc tout intervalle contenu dans [0, f(b)] et de longueur > 2^{-n} contient au moins un point de la forme qx = f(x^q) ∈ f(I). La proposition 1 est par suite entièrement démontrée.
+Enfin, si b ∈ I, l’intersection de f(I) et de l’intervalle [0, f(b)] de $\mathbf{R}$ est dense dans cet intervalle; pour tout entier n > 0, il existe en effet x > ω tel que f(x) ≤ 2^{-n}: il suffit de prendre x tel que x^{2^n} ≤ a; si p est le plus petit entier tel que x^{p+1} > b, on a (p + 1)f(x) > f(b) et qf(x) ≤ f(b) pour 1 ≤ q ≤ p; donc tout intervalle contenu dans [0, f(b)] et de longueur > 2^{-n} contient au moins un point de la forme qx = f(x^q) ∈ f(I). La proposition 1 est par suite entièrement démontrée.
 
 #### Remarque 1 {#top-v-s2-rem-1 .statement}
 
@@ -116,7 +116,7 @@ donc yx = xy, puisque f est strictement croissante; autrement dit, la loi induit
 
 #### Remarque 2 {#top-v-s2-rem-2 .statement}
 
-Toute application g de I dans ℝ_+, satisfaisant aux mêmes conditions que f, est de la forme x ↦ λf(x) où λ > 0. En effet, soit λ = g(a) > 0; les relations z^p ≤ x ≤ z^{p+1}, z^q ≤ a ≤ z^{q+1} entraînent, par hypothèse,
+Toute application g de I dans $\mathbf{R}_+$, satisfaisant aux mêmes conditions que f, est de la forme x ↦ λf(x) où λ > 0. En effet, soit λ = g(a) > 0; les relations z^p ≤ x ≤ z^{p+1}, z^q ≤ a ≤ z^{q+1} entraînent, par hypothèse,
 
 $$
 p g(z) \leq g(x) \leq (p + 1)g(z), \quad q g(z) \leq g(a) \leq (q + 1)g(z),

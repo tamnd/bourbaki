@@ -28,7 +28,7 @@ subsections:
       pdf_page: 117
 statements: 34
 exercises: 8
-content_sha256: 3aaa7b5998328b823ccdc99b1b32a831239b3b509eb6788df8712bad61342271
+content_sha256: 33c34b08425c4858837ea23c60cb0cbddeb27a95602cf279ab92c1b26cc06a8b
 ---
 
 ## § 1. UPPER INTEGRAL OF A POSITIVE FUNCTION
@@ -169,13 +169,13 @@ For, the relation G₁ ⊂ G₂ is equivalent to φG₁ ≤ φG₂.
 
 #### Proposition 7 {#int-iv-s1-prop-7 .statement}
 
-— *Let* 𝔅 *be a set of open subsets of* X *that is directed for the relation* ⊂; *then*
+— *Let* $\mathfrak{B}$ *be a set of open subsets of* X *that is directed for the relation* ⊂; *then*
 
 $$
 \mu^*\left(\bigcup_{G \in \mathfrak{B}} G\right) = \sup_{G \in \mathfrak{B}} \mu^*(G).
 $$
 
-The functions φ_G form a directed set (for ≤) in $\mathscr{I}_+$ and their upper envelope is the characteristic function of the union of the sets G ∈ 𝔅; the proposition is thus a consequence of Th. 1.
+The functions φ_G form a directed set (for ≤) in $\mathscr{I}_+$ and their upper envelope is the characteristic function of the union of the sets G ∈ $\mathfrak{B}$; the proposition is thus a consequence of Th. 1.
 
 #### Proposition 8 {#int-iv-s1-prop-8 .statement}
 

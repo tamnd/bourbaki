@@ -406,7 +406,7 @@ chapters:
           statements: 8
           exercises: 6
           extraction: ocr
-          content_sha256: f1dbe01f2e933089ae266a6020c73d595c10a78aa1cea50f223a11623430aacd
+          content_sha256: b96aff8e476c3a1bd226a1e82711f8860c8fc7b03fe7bf814d522b07d1765caa
         - kind: section
           section: 2
           title: THE GAMMA FUNCTION IN THE COMPLEX DOMAIN

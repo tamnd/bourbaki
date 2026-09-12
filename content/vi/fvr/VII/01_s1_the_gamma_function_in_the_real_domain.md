@@ -24,9 +24,9 @@ subsections:
       pdf_page: 325
 statements: 8
 exercises: 6
-content_sha256: 01cb9f73ad5c0e6c1e5605e5afca9d4cfe35b9e7ee97c0c5f7b5122be219d136
+content_sha256: c98650d5483dbd8b3f745ae95069a67fb46774b16577bd05b841c560f18502cf
 translated_from: content/en/fvr/VII/01_s1_the_gamma_function_in_the_real_domain.md
-source_content_sha256: f1dbe01f2e933089ae266a6020c73d595c10a78aa1cea50f223a11623430aacd
+source_content_sha256: b96aff8e476c3a1bd226a1e82711f8860c8fc7b03fe7bf814d522b07d1765caa
 translation_model: gpt-5.4
 translation_run: translate-vi-f4ac4aa2
 glossary_version: 34
@@ -208,7 +208,7 @@ $$
 \log \Gamma(x) = -\gamma x - \log x + \sum_{n=1}^{\infty} \left( \frac{x}{n} - \log \left( 1 + \frac{x}{n} \right) \right)
 $$
 
-và chuỗi này hội tụ với mọi $x > 0$, nên chuỗi có số hạng tổng quát $\frac{x}{n} - \log \left( 1 + \frac{x}{n} \right)$ hội tụ tuyệt đối và đều trên mọi khoảng compact được chứa trong [0, +∞[, và ta có các hệ thức (10) và (11) của VII, p. 308, với mọi x > 0 (II, p. 52, định lý 1). Hơn nữa, với mọi x ∈ ℝ, biểu thức $\frac{x}{n} - \log \left( 1 + \frac{x}{n} \right)$ được xác định khi n đủ lớn, nên định lý 1 của II, p. 52, lại cho thấy rằng tích vô hạn ở vế phải của (9) (VII, p. 307) hội tụ tuyệt đối và đều trên mọi khoảng compact không chứa số nguyên nào $\leq 0$.
+và chuỗi này hội tụ với mọi $x > 0$, nên chuỗi có số hạng tổng quát $\frac{x}{n} - \log \left( 1 + \frac{x}{n} \right)$ hội tụ tuyệt đối và đều trên mọi khoảng compact được chứa trong [0, +∞[, và ta có các hệ thức (10) và (11) của VII, p. 308, với mọi x > 0 (II, p. 52, định lý 1). Hơn nữa, với mọi x ∈ $\mathbf{R}$, biểu thức $\frac{x}{n} - \log \left( 1 + \frac{x}{n} \right)$ được xác định khi n đủ lớn, nên định lý 1 của II, p. 52, lại cho thấy rằng tích vô hạn ở vế phải của (9) (VII, p. 307) hội tụ tuyệt đối và đều trên mọi khoảng compact không chứa số nguyên nào $\leq 0$.
 
 Hàm $\Gamma(x)$, được xác định với $x > 0$, có thể được mở rộng ra toàn bộ tập hợp các điểm x khác các số nguyên $\leq 0$ sao cho thỏa mãn phương trình (7) của VII, p. 307, trên tập hợp này: chỉ cần, với $-(n+1) < x < -n$, đặt
 $$
@@ -218,7 +218,7 @@ Theo mệnh đề 2 của VII, p. 307, các công thức (8), (9), (10) và (11)
 $$
 \Gamma(x) \sim \frac{(-1)^n}{n! (x+n)}
 $$
-khi x tiến tới $-n$ ($n$ là một số nguyên $\geq 0$). Khi đó hàm $1/\Gamma(x)$ có thể được mở rộng bằng liên tục ra toàn bộ ℝ, bằng cách gán cho nó giá trị 0 tại các số nguyên $\leq 0$; khi đó, với mọi $x \in \mathbf{R}$
+khi x tiến tới $-n$ ($n$ là một số nguyên $\geq 0$). Khi đó hàm $1/\Gamma(x)$ có thể được mở rộng bằng liên tục ra toàn bộ $\mathbf{R}$, bằng cách gán cho nó giá trị 0 tại các số nguyên $\leq 0$; khi đó, với mọi $x \in \mathbf{R}$
 $$
 \frac{1}{\Gamma(x)} = \lim_{n \to \infty} \frac{x(x+1)\ldots(x+n)}{n^n n!}
 $$
@@ -226,7 +226,7 @@ và
 $$
 \frac{1}{\Gamma(x)} = e^{y_1 x} x \prod_{n=1}^{\infty} \left( 1 + \frac{x}{n} \right) e^{-y_1/n}
 $$
-và người ta chứng minh như trong mệnh đề 2 của VII, p. 307, rằng tích vô hạn ở vế phải của (13) hội tụ tuyệt đối và đều trên mọi khoảng compắc của ℝ.
+và người ta chứng minh như trong mệnh đề 2 của VII, p. 307, rằng tích vô hạn ở vế phải của (13) hội tụ tuyệt đối và đều trên mọi khoảng compắc của $\mathbf{R}$.
 
 Vì $\Gamma(x) > 0$ với $x > 0$, công thức (7) của VII, p. 307, cho thấy rằng $\Gamma(x) < 0$ với $-(2n-1) < x < -(2n-2)$ và $\Gamma(x) > 0$ với
 $$

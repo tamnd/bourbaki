@@ -130,7 +130,7 @@ chapters:
           statements: 19
           exercises: 21
           extraction: ocr
-          content_sha256: 58b5e01c5d61579a4018cfda407aea95fbdca2f8ac437e6c0e9de1cd4ddeecc5
+          content_sha256: 48f0d1398b4b6961589fd051ad5ce8688560c3c4024641be851afcd5ef646729
         - kind: appendix
           section: 1
           title: STRUCTURE DES GROUPES COMPACTS

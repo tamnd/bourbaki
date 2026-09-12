@@ -20,7 +20,7 @@ subsections:
       pdf_page: 225
 statements: 10
 exercises: 7
-content_sha256: b8e50ac289866ddd6c6c69bb438593f9a8ce21b87d82e75fcbb399a305de405b
+content_sha256: 2982b284ecc8b081ca9b78c0bb642ec1d5fc8ab8ba71ce917c6c2efce76f84e4
 ---
 
 ## § 8. Groupes de Lie sur $\mathbf{R}$ ou $\mathbf{Q}_p$
@@ -125,9 +125,9 @@ Soit G un groupe de Lie de dimension finie sur R ou Q_p. Tout sous-groupe fermé
 
 ouvert symétrique de e dans G, et H un sous-espace fermé non vide de U tel que les conditions x ∈ H, y ∈ H et xy⁻¹ ∈ U entraînent xy⁻¹ ∈ H. Alors H est un sous-groupuscule de Lie de G.
 
-Soit 𝔤 la sous-algèbre de Lie tangente en e à H (§ 4, n° 5, déf. 2). Il existe un sous-groupuscule de Lie H₀ de G d’algèbre de Lie 𝔤, et contenu dans H. Nous allons montrer que H₀ est ouvert dans H pour la topologie induite par celle de G. Ceci prouvera que H est une sous-variété analytique de G et le théorème sera établi.
+Soit $\mathfrak{g}$ la sous-algèbre de Lie tangente en e à H (§ 4, n° 5, déf. 2). Il existe un sous-groupuscule de Lie H₀ de G d’algèbre de Lie $\mathfrak{g}$, et contenu dans H. Nous allons montrer que H₀ est ouvert dans H pour la topologie induite par celle de G. Ceci prouvera que H est une sous-variété analytique de G et le théorème sera établi.
 
-Il existe un sous-espace vectoriel t supplémentaire de 𝔤 dans L(G), des voisinages ouverts symétriques V₁, V₂ de zéro dans 𝔤 et t respectivement, et une application exponentielle φ de G définie dans V₁ + V₂, possédant les propriétés suivantes:
+Il existe un sous-espace vectoriel t supplémentaire de $\mathfrak{g}$ dans L(G), des voisinages ouverts symétriques V₁, V₂ de zéro dans $\mathfrak{g}$ et t respectivement, et une application exponentielle φ de G définie dans V₁ + V₂, possédant les propriétés suivantes:
 
 a) l’application (a₁, a₂) ↦ φ(a₁)φ(a₂) est un isomorphisme analytique de V₁ × V₂ sur une partie ouverte V de G;
 b) φ(V₁) ⊂ H₀;
@@ -137,7 +137,7 @@ Nous allons montrer (ce qui achèvera la démonstration) qu’il existe un voisi
 
 Supposons cette assertion inexacte. Alors on peut trouver une suite (xₙ) dans V₁ et une suite (yₙ) dans V₂ − {0} tendant vers 0, telles que φ(xₙ)φ(yₙ) ∈ H pour tout n. On a φ(yₙ) ∈ H d’après c).
 
-Si K = Q_p, on peut de plus supposer que V₂ est un sous-groupe additif de t et que φ(pa) = φ(a)^p pour tout a ∈ V₂ et tout p ∈ Z. Alors φ(λy₁) ∈ H pour tout λ ∈ Z, donc par continuité pour tout λ ∈ Z_p. L’application f : λ ↦ φ(λy₁) de Z_p dans G est analytique, prend ses valeurs dans H, et (T₀f)(1) = y₁. Donc y₁ ∈ 𝔤, ce qui est absurde. Le théorème est donc établi dans le cas de Q_p.
+Si K = Q_p, on peut de plus supposer que V₂ est un sous-groupe additif de t et que φ(pa) = φ(a)^p pour tout a ∈ V₂ et tout p ∈ Z. Alors φ(λy₁) ∈ H pour tout λ ∈ Z, donc par continuité pour tout λ ∈ Z_p. L’application f : λ ↦ φ(λy₁) de Z_p dans G est analytique, prend ses valeurs dans H, et (T₀f)(1) = y₁. Donc y₁ ∈ $\mathfrak{g}$, ce qui est absurde. Le théorème est donc établi dans le cas de Q_p.
 
 Si K = R, on peut supposer que V₂ est convexe et que yₙ appartient à $\frac{1}{4} V_2 - \{0\}$. Quitte à extraire de (yₙ) une suite partielle, on peut trouver une suite (λₙ) de scalaires non nuls tels que $\lambda_n^{-1} y_n$ tende vers un élément y de V₂ − {0}. La suite (λₙ) tend vers 0. Soit λ ∈ R tel que $\lambda y \in \frac{1}{4} V_2$, et prouvons que exp(λy) ∈ H. On peut supposer que $\lambda \lambda_n^{-1} y_n \in \frac{1}{4} V_2$ pour tout n. Soit kₙ ∈ Z tel que $|\lambda - k_n \lambda_n|$ tende vers 0. Pour n assez grand, on a $(\lambda - k_n \lambda_n) \lambda_n^{-1} y_n \in \frac{1}{4} V_2$, donc $k_n y_n \in \frac{1}{2} V_2$. Donc exp(hyₙ) ∈ H pour h entier et $0 \leq |h| \leq |k_n|$ (comme on le voit par récurrence sur |h|). Alors
 
@@ -146,7 +146,7 @@ $$
 = \lim_{n \to \infty} \exp k_n y_n \in H.
 $$
 
-Donc l’application f : λ ↦ exp λy, où $\lambda y \in \frac{1}{4} V_2$, prend ses valeurs dans H, et (T₀f)(1) = y. Donc y ∈ 𝔤, ce qui est absurde. Le théorème est ainsi établi dans le cas de R.
+Donc l’application f : λ ↦ exp λy, où $\lambda y \in \frac{1}{4} V_2$, prend ses valeurs dans H, et (T₀f)(1) = y. Donc y ∈ $\mathfrak{g}$, ce qui est absurde. Le théorème est ainsi établi dans le cas de R.
 
 Le th. 2 devient inexact si on ne suppose pas G de dimension finie (exerc. 12.)
 

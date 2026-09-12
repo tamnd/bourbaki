@@ -56,9 +56,9 @@ subsections:
       pdf_page: 249
 statements: 54
 exercises: 10
-content_sha256: 3a239693137c20ac726e678e206df568d230526b250f9b37906b5cf36556d16b
+content_sha256: 7922ebc0e8dd985a9bd3ea6930cab18b47540b0c82bf6a52548de065886ddd2b
 translated_from: content/en/lie/III/01_s1_lie_groups.md
-source_content_sha256: ce8eb9499400aea2758df6dd8a881d79c48c136503decc62efe033305bff7df2
+source_content_sha256: daff3230df35a1d3795f1c3aa51cd9719e5f2ee8ea1fdee0d10ab6220950dbdb
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-6a201bc1
 glossary_version: 34
@@ -583,13 +583,13 @@ Với các giả thiết và ký hiệu của Mệnh đề 16, cho F là một k
 
 Tính duy nhất của cấu xạ này là hiển nhiên. Ta chứng minh sự tồn tại của nó. Cho g, g' là các phần tử của G và $u \in E_0$ sao cho $gu = g'u$. Khi đó ${g'}^{-1}g \in G_0$ và ${g'}^{-1}gu = u$ và do đó ${g'}^{-1}gf(u) = f(u)$, nghĩa là $gf(u) = g'f(u)$. Do đó một ánh xạ φ được xác định từ E vào E' bằng cách viết $\varphi(gu) = gf(u)$. Rõ ràng ánh xạ này mở rộng f và nó tương thích với các phép toán của G. Ta chứng minh rằng φ là một cấu xạ bó vectơ lớp C^r. Cho $x_1 \in X$. Tồn tại một lân cận mở V của $x_1$ trong X và một đa tạp con W của G sao cho ánh xạ $g \mapsto gx_0$ là một đẳng cấu θ lớp C^r của W lên V. Bằng cách thu nhỏ V và W, có thể giả sử rằng:
 (1) $E | V$ (tương ứng $E' | V$) được đồng nhất với một bó vectơ tầm thường có thớ M (tương ứng M');
-(2) nếu ψ_g (tương ứng ψ'_g) ký hiệu ánh xạ $u \mapsto gu$ của E_0 (tương ứng E'_0) vào $E_{gx_0}$ (tương ứng $E'_{gx_0}$), thì các ánh xạ $g \mapsto \psi_g$ và $g \mapsto \psi_g^{-1}$ (tương ứng $g \mapsto \psi'_g$ và $g \mapsto {\psi'_g}^{-1}$) của W vào 𝓛(E_0, M) và 𝓛(M, E_0) (tương ứng 𝓛(E'_0, M') và 𝓛(M', E'_0)) là lớp C^r.
+(2) nếu ψ_g (tương ứng ψ'_g) ký hiệu ánh xạ $u \mapsto gu$ của E_0 (tương ứng E'_0) vào $E_{gx_0}$ (tương ứng $E'_{gx_0}$), thì các ánh xạ $g \mapsto \psi_g$ và $g \mapsto \psi_g^{-1}$ (tương ứng $g \mapsto \psi'_g$ và $g \mapsto {\psi'_g}^{-1}$) của W vào $\mathscr{L}(E_0, M)$ và $\mathscr{L}(M, E_0)$ (tương ứng $\mathscr{L}(E'_0, M')$ và $\mathscr{L}(M', E'_0)$) là lớp C^r.
 
 Với x ∈ V, gọi φ_x : M → N là hạn chế của φ lên E_x = M. Khi đó φ_x thu được bằng cách hợp thành các ánh xạ sau:
 (1) ánh xạ (ψ_θ^{-1,x})^{-1} từ M vào E_0;
 (2) ánh xạ f từ E_0 vào E_0;
 (3) ánh xạ ψ'_θ^{-1,x} từ E_0 vào M'.
-Do đó ta thấy rằng ánh xạ x ↦ φ_x từ V vào 𝓛(M, M') là lớp C^r.
+Do đó ta thấy rằng ánh xạ x ↦ φ_x từ V vào $\mathscr{L}(M, M')$ là lớp C^r.
 
 #### Hệ quả 1 {#lie-iii-s1-prop-17-cor-1 .statement}
 

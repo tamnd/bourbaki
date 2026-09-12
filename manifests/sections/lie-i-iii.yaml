@@ -89,7 +89,7 @@ chapters:
           statements: 27
           exercises: 17
           extraction: ocr
-          content_sha256: 463a21b601dadcb5824363c5f0b0f7aec3b0400f4911b9ab162ef4940bd66675
+          content_sha256: c13fa2eac7b71e9d961ea7fc4eb2e13efb9cf7a544efa82561bab25611c7517d
         - kind: section
           section: 6
           title: Semi-simple Lie algebras
@@ -272,7 +272,7 @@ chapters:
           statements: 54
           exercises: 10
           extraction: ocr
-          content_sha256: ce8eb9499400aea2758df6dd8a881d79c48c136503decc62efe033305bff7df2
+          content_sha256: daff3230df35a1d3795f1c3aa51cd9719e5f2ee8ea1fdee0d10ab6220950dbdb
         - kind: section
           section: 2
           title: Group of tangent vectors to a Lie group

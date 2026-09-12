@@ -25,7 +25,7 @@ subsections:
       pdf_page: 325
 statements: 8
 exercises: 6
-content_sha256: f1dbe01f2e933089ae266a6020c73d595c10a78aa1cea50f223a11623430aacd
+content_sha256: b96aff8e476c3a1bd226a1e82711f8860c8fc7b03fe7bf814d522b07d1765caa
 ---
 
 ## § 1. THE GAMMA FUNCTION IN THE REAL DOMAIN
@@ -202,7 +202,7 @@ $$
 \log \Gamma(x) = -\gamma x - \log x + \sum_{n=1}^{\infty} \left( \frac{x}{n} - \log \left( 1 + \frac{x}{n} \right) \right)
 $$
 
-term-by-term, and this converges for every $x > 0$, the series with general term $\frac{x}{n} - \log \left( 1 + \frac{x}{n} \right)$ is absolutely and uniformly convergent on every compact interval contained in [0, +∞[, and one has the relations (10) and (11) of VII, p. 308, for every x > 0 (II, p. 52, th. 1). Moreover, for every x ∈ ℝ, the expression $\frac{x}{n} - \log \left( 1 + \frac{x}{n} \right)$ is defined once n is large enough, so th. 1 of II, p. 52, again shows that the infinite product in the right-hand side of (9) (VII, p. 307) is absolutely and uniformly convergent on every compact interval containing no integer $\leq 0$.
+term-by-term, and this converges for every $x > 0$, the series with general term $\frac{x}{n} - \log \left( 1 + \frac{x}{n} \right)$ is absolutely and uniformly convergent on every compact interval contained in [0, +∞[, and one has the relations (10) and (11) of VII, p. 308, for every x > 0 (II, p. 52, th. 1). Moreover, for every x ∈ $\mathbf{R}$, the expression $\frac{x}{n} - \log \left( 1 + \frac{x}{n} \right)$ is defined once n is large enough, so th. 1 of II, p. 52, again shows that the infinite product in the right-hand side of (9) (VII, p. 307) is absolutely and uniformly convergent on every compact interval containing no integer $\leq 0$.
 
 The function $\Gamma(x)$, defined for $x > 0$, can be extended to the whole set of points x different from the integers $\leq 0$ so as to satisfy equation (7) of VII, p. 307, on this set: it suffices, for $-(n+1) < x < -n$, to put
 $$
@@ -212,7 +212,7 @@ By prop. 2 of VII, p. 307, the formulae (8), (9), (10) and (11) of VII, p. 307 a
 $$
 \Gamma(x) \sim \frac{(-1)^n}{n! (x+n)}
 $$
-as x tends to $-n$ ($n$ an integer $\geq 0$). The function $1/\Gamma(x)$ can then be extended by continuity to all of ℝ, assigning it the value 0 at integers $\leq 0$; then, for all $x \in \mathbf{R}$
+as x tends to $-n$ ($n$ an integer $\geq 0$). The function $1/\Gamma(x)$ can then be extended by continuity to all of $\mathbf{R}$, assigning it the value 0 at integers $\leq 0$; then, for all $x \in \mathbf{R}$
 $$
 \frac{1}{\Gamma(x)} = \lim_{n \to \infty} \frac{x(x+1)\ldots(x+n)}{n^n n!}
 $$
@@ -220,7 +220,7 @@ and
 $$
 \frac{1}{\Gamma(x)} = e^{y_1 x} x \prod_{n=1}^{\infty} \left( 1 + \frac{x}{n} \right) e^{-y_1/n}
 $$
-and one shows as in prop. 2 of VII, p. 307, that the infinite product on the right of (13) is absolutely and uniformly convergent on every compact interval of ℝ.
+and one shows as in prop. 2 of VII, p. 307, that the infinite product on the right of (13) is absolutely and uniformly convergent on every compact interval of $\mathbf{R}$.
 
 Since $\Gamma(x) > 0$ for $x > 0$, equation (7) of VII, p. 307, shows that $\Gamma(x) < 0$ for $-(2n-1) < x < -(2n-2)$ and $\Gamma(x) > 0$ for
 $$

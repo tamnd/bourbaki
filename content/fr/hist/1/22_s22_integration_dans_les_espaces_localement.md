@@ -11,7 +11,7 @@ pdf_pages: 0273-0286
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 4b9f71a36de862461430b5fefda1566e6d1658a11cb9e9a55d2526f0a04b6abb
+content_sha256: 31dae6aee7bd77fd1b13d3b7621084f81da6540a68f0d53c5215719107e87259
 ---
 
 ## 22. INTÉGRATION DANS LES ESPACES LOCALEMENT COMPACTS
@@ -52,7 +52,7 @@ valles ouverts deux à deux sans point commun ; au lieu de chercher à approcher
 
 Cette définition devait inaugurer une ère nouvelle en Analyse : d’une part, en liaison avec les travaux contemporains de Baire, elle formait le point de départ de toute une série de recherches de nature topologique sur la classification des ensembles de points (voir p. 206) ; et surtout, elle allait servir de base à l’extension de la notion d’intégrale, réalisée par Lebesgue dans les premières années du XXe siècle.
 
-Dans sa thèse [196 a], Lebesgue commence par préciser et développer les indications succinctes d’E. Borel ; imitant la méthode de Peano-Jordan, la « mesure extérieure » d’un ensemble borné A ⊂ ℝ est définie comme borne inférieure des mesures des ensembles ouverts contenant A ; puis, si I est un intervalle contenant A, la « mesure intérieure » de A est la différence des mesures extérieures de I et de I.—A ; on obtient ainsi une notion d’« ensemble mesurable » qui ne diffère de la définition « constructive » initiale de Borel que par adjonction d’une partie d’un ensemble de mesure nulle au sens de Borel. Cette définition s’étendait aussitôt aux espaces ℝ^n ; la vieille conception de l’intégrale définie $\int_a^b f(t) dt$ d’une fonction bornée et $\geqslant 0$ comme « aire » limitée par la courbe $y = f(x)$, les droites $x = a, x = b$ et $y = 0$, fournissait donc une extension immédiate de l’intégrale de Riemann à toutes les fonctions $f$ pour lesquelles la mesure de l’ensemble précédent se trouvait définie. Mais l’originalité de
+Dans sa thèse [196 a], Lebesgue commence par préciser et développer les indications succinctes d’E. Borel ; imitant la méthode de Peano-Jordan, la « mesure extérieure » d’un ensemble borné A ⊂ $\mathbf{R}$ est définie comme borne inférieure des mesures des ensembles ouverts contenant A ; puis, si I est un intervalle contenant A, la « mesure intérieure » de A est la différence des mesures extérieures de I et de I.—A ; on obtient ainsi une notion d’« ensemble mesurable » qui ne diffère de la définition « constructive » initiale de Borel que par adjonction d’une partie d’un ensemble de mesure nulle au sens de Borel. Cette définition s’étendait aussitôt aux espaces $\mathbf{R}^n$ ; la vieille conception de l’intégrale définie $\int_a^b f(t) dt$ d’une fonction bornée et $\geqslant 0$ comme « aire » limitée par la courbe $y = f(x)$, les droites $x = a, x = b$ et $y = 0$, fournissait donc une extension immédiate de l’intégrale de Riemann à toutes les fonctions $f$ pour lesquelles la mesure de l’ensemble précédent se trouvait définie. Mais l’originalité de
 
 \* La mesure n’est encore pour Borel, à ce moment, qu’un moyen technique en vue de l’étude de certaines séries de fonctions rationnelles, et il souligne lui-même que, pour le but qu’il se propose, l’utilité de la mesure tient surtout au fait qu’un ensemble de mesure non nulle n’est pas dénombrable ([32 a], p. 48).
 

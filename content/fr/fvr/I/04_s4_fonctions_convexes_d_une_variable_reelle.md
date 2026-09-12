@@ -29,7 +29,7 @@ subsections:
       pdf_page: 36
 statements: 23
 exercises: 25
-content_sha256: 75259f901626bf63f4807a794433c6bf4a7b1dabbf9d8c9eec785a348d52570e
+content_sha256: d3ad72aad50c6b11ba25386c7567565f62b1d56d90f9038e94d4432ba9024909
 ---
 
 ## § 4. FONCTIONS CONVEXES D’UNE VARIABLE RÉELLE
@@ -189,7 +189,7 @@ Cette proposition est une conséquence immédiate des déf. 1 et 2 et du lemme d
 
 #### Proposition 6 {#fvr-i-s4-prop-6 .statement}
 
-Soit f une fonction numérique finie, convexe dans un intervalle I ⊂ ℝ. En tout point a intérieur à I, f est continue, admet une dérivée à droite et une dérivée à gauche finies, et on a $f'_g(a) \leq f'_d(a)$.
+Soit f une fonction numérique finie, convexe dans un intervalle I ⊂ $\mathbf{R}$. En tout point a intérieur à I, f est continue, admet une dérivée à droite et une dérivée à gauche finies, et on a $f'_g(a) \leq f'_d(a)$.
 
 En effet, pour x ∈ I et x > a, la fonction $x \mapsto \frac{f(x) - f(a)}{x - a}$ est croissante (prop. 5) et bornée inférieurement, puisque si y < a et y ∈ I, on a
 

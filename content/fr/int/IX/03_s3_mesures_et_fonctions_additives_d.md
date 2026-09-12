@@ -24,7 +24,7 @@ subsections:
       pdf_page: 45
 statements: 17
 exercises: 18
-content_sha256: 3dd86d2510fd6e7a7b80742c526d9013c0a89c8baae097ffae0322f8e3723f3b
+content_sha256: a218a2a81bb601297a44524377397174d1f18d14054f68bed87d836eab4c325c
 ---
 
 ## § 3. Mesures et fonctions additives d'ensemble
@@ -184,13 +184,13 @@ Passons à l’existence. Il est clair que la restriction de I à $\mathfrak{A}(
 
 I(L) ≥ I(V − K) − ε; comme L ne rencontre pas K, il existe un indice α tel que L ∩ K_α = ∅, et on a alors I(V − K_α) ≥ I(L) ≥ I(V − K) − ε. Comme on a K_α ⊂ V, il en résulte I(K_α) ≤ I(K) + ε et la condition 4) est vérifiée.
 
-D’après le th. 1, il existe une mesure μ telle que μ^•(K) = I(K) pour tout K ∈ 𝔽(T). La régularité intérieure des fonctions d’ensembles μ^• et I sur 𝔽(T) entraîne alors μ^•(A) = I(A) pour tout A ∈ 𝔽(T) et l’existence est prouvée. L’unicité de μ résulte de l’assertion d’unicité du th. 1.
+D’après le th. 1, il existe une mesure μ telle que μ^•(K) = I(K) pour tout K ∈ $\mathfrak{K}(T)$. La régularité intérieure des fonctions d’ensembles μ^• et I sur $\mathscr{B}(T)$ entraîne alors μ^•(A) = I(A) pour tout A ∈ $\mathscr{B}(T)$ et l’existence est prouvée. L’unicité de μ résulte de l’assertion d’unicité du th. 1.
 
 ### 3. Espaces radoniens
 
 #### Définition 2 {#int-ix-s3-def-2 .statement}
 
-Soit T un espace topologique. On dit que T est un espace radonien (resp. fortement radonien) si T est séparé et si toute fonction définie sur la tribu borélienne 𝔽(T) de T, à valeurs dans $\overline{\mathbf{R}}_+$, dénombrablement additive et bornée (resp. localement bornée) est intérieurement régulière.
+Soit T un espace topologique. On dit que T est un espace radonien (resp. fortement radonien) si T est séparé et si toute fonction définie sur la tribu borélienne $\mathscr{B}(T)$ de T, à valeurs dans $\overline{\mathbf{R}}_+$, dénombrablement additive et bornée (resp. localement bornée) est intérieurement régulière.
 
 Par exemple, nous verrons plus loin (prop. 3) que tout espace polonais est fortement radonien. En particulier, tout espace localement compact à base dénombrable est fortement radonien.
 
@@ -200,7 +200,7 @@ Il existe des espaces radoniens qui ne sont pas fortement radoniens.
 
 Tout espace de Lindelöf (1) radonien est fortement radonien.
 
-Soit T un espace de Lindelöf radonien, et soit I une fonction d’ensemble, positive, dénombrablement additive et localement bornée, sur la tribu 𝔽(T). Les ensembles ouverts V tels que I(V) < +∞ forment un recouvrement de T, dont on peut extraire un recouvrement dénombrable $(V_n)_{n \in \mathbf{N}}$. Posons $G_n = V_0 \cup V_1 \cup \ldots \cup V_n$ pour tout $n \in \mathbf{N}$; posons $H_0 = G_0$ et $H_n = G_n - G_{n-1}$ pour $n \geq 1$; désignons enfin par $I_n$ la fonction d’ensemble $A \mapsto I(A \cap H_n)$ sur 𝔽(T), qui est évidemment dénombrablement additive et bornée. Les ensembles $H_n$ formant une partition de T, on a $I = \sum_n I_n$. L’espace T étant radonien, il existe pour chaque $n \in \mathbf{N}$ une mesure bornée $\mu_n$ sur T telle qu’on ait $\mu_n^•(A) = I_n(A)$ pour tout $A \in \mathscr{B}(T)$; on a donc aussi $\sum_n \mu_n^•(A) = I(A)$. Comme I est localement bornée, la famille $(\mu_n)$ est sommable (§ 1, n° 7, prop. 7); si $\mu$ désigne $\sum_n \mu_n$, on a $\mu^•(A) = I(A)$ pour tout $A \in \mathscr{B}(T)$, et il en résulte que I est intérieurement régulière. Autrement dit, T est fortement radonien.
+Soit T un espace de Lindelöf radonien, et soit I une fonction d’ensemble, positive, dénombrablement additive et localement bornée, sur la tribu $\mathscr{B}(T)$. Les ensembles ouverts V tels que I(V) < +∞ forment un recouvrement de T, dont on peut extraire un recouvrement dénombrable $(V_n)_{n \in \mathbf{N}}$. Posons $G_n = V_0 \cup V_1 \cup \ldots \cup V_n$ pour tout $n \in \mathbf{N}$; posons $H_0 = G_0$ et $H_n = G_n - G_{n-1}$ pour $n \geq 1$; désignons enfin par $I_n$ la fonction d’ensemble $A \mapsto I(A \cap H_n)$ sur $\mathscr{B}(T)$, qui est évidemment dénombrablement additive et bornée. Les ensembles $H_n$ formant une partition de T, on a $I = \sum_n I_n$. L’espace T étant radonien, il existe pour chaque $n \in \mathbf{N}$ une mesure bornée $\mu_n$ sur T telle qu’on ait $\mu_n^•(A) = I_n(A)$ pour tout $A \in \mathscr{B}(T)$; on a donc aussi $\sum_n \mu_n^•(A) = I(A)$. Comme I est localement bornée, la famille $(\mu_n)$ est sommable (§ 1, n° 7, prop. 7); si $\mu$ désigne $\sum_n \mu_n$, on a $\mu^•(A) = I(A)$ pour tout $A \in \mathscr{B}(T)$, et il en résulte que I est intérieurement régulière. Autrement dit, T est fortement radonien.
 
 Rappelons qu’une partie A d’un espace topologique T est dite universellement mesurable si A est $\mu$-mesurable pour toute mesure $\mu$ sur T. Cela revient à dire que A est $\mu$-mesurable pour toute mesure $\mu$ sur T à support compact (§ 1, n° 8, prop. 9).
 

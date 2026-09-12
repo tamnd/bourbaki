@@ -37,7 +37,7 @@ chapters:
           statements: 52
           exercises: 13
           extraction: ocr
-          content_sha256: 7753ae8f210f51fd0390ce7bc68ad763babd35215debd49e41984963444cd686
+          content_sha256: f7967f46d49a59cfaea4ad697fdd37dd1ca951cf9236989bfd07cfca55e08d93
         - kind: section
           section: 3
           title: Applications et exemples
@@ -144,7 +144,7 @@ chapters:
           statements: 20
           exercises: 6
           extraction: ocr
-          content_sha256: 07508ef75d3b43c6dbeb1fbf97e0fba84cec2d656d0ac9357378c5c64dd9dfa2
+          content_sha256: 0ddc59b629bd9b961ce404ce4c56eae7f7a93bfbccb8e8d8f461c69e47295c21
         - kind: historical
           title: Historical Note
           path: content/fr/int/VIII/historical_note.md

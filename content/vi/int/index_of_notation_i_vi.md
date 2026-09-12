@@ -12,9 +12,9 @@ pdf_pages: 0466-0469
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 0f5c03ffca81feccf08f030a5df37e5766090ab817c8494bfc6956c7ceca2a91
+content_sha256: 2eaa114413dfaa1c7110290dc48c345b3eb9a82eb66fbffe6a148a6331db628b
 translated_from: content/en/int/index_of_notation_i_vi.md
-source_content_sha256: 73edd71549b4643f53c5ff204b4d540f8b7bc280d34e7079e92df08bfd7b713a
+source_content_sha256: 8d205b7644c3f36f47c82204ad9bdc09ea8dd5272111139924ec0cf96a5e0e74
 translation_model: gpt-5-mini, gpt-5-6-mini
 translation_run: translate-vi-bbc81cc1
 glossary_version: 34
@@ -62,7 +62,7 @@ $\bigotimes_{\lambda \in L} \mu_\lambda$ : III, 4, 6.
 Chương IV :
 
 φ_A : IV, 1, 1.
-ℋ₊, 𝒥₊(X), 𝒥₊ : IV, 1, 1.
+$\mathscr{H}$₊, $\mathscr{J}$₊(X), $\mathscr{J}$₊ : IV, 1, 1.
 μ*(f) (μ là một độ đo dương) : IV, 1, 1, IV, 1, 3 và IV, 4, Bài tập 5.
 ∫* f dμ, ∫* fμ, ∫* f(x) dμ(x), ∫* f(x)μ(x) (f là một hàm ≥ 0, μ là một độ đo dương) : IV, 1, 3.
 μ*(A) (A là một tập con của X, μ là một độ đo dương) : IV, 1, 2 và IV, 1, 4.
@@ -80,7 +80,7 @@ $\mathscr{G}_F, \mathscr{D}_F^p(X, \mu), \mathscr{D}_F^p(\mu), \mathscr{D}_F^p, 
 μ(f), ∫ f dμ, ∫ f(x) dμ(x), ∫ fμ, ∫ f(x)μ(x), μ(f̃) (f là một hàm khả tích theo μ nhận giá trị trong một không gian Banach) : IV, 4, 1.
 μ(A) (A là một tập khả tích theo μ) : IV, 4, 5.
 $\mathscr{Q}'(X; C)$ : IV, 4, 8.
-𝒬(Φ), 𝒬_F(Φ) (Φ là một tộc các tập hợp) : IV, 4, 9.
+$\mathscr{Q}$(Φ), $\mathscr{Q}_F$(Φ) (Φ là một tộc các tập hợp) : IV, 4, 9.
 μ_*(f) (f là một hàm) : IV, 4, Bài tập 5.
 
 $\mu_*(A)$ (A là một tập hợp) : IV, 4, Bài tập 7.

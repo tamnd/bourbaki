@@ -49,7 +49,7 @@ chapters:
           statements: 5
           exercises: 2
           extraction: ocr
-          content_sha256: c1f5154943233d048c01c09a61301abab839d1376ee463f572e15e2f10c404b2
+          content_sha256: dfa96118ca30c6dde1218689b1f453e9dd78ee80da6b7a7bb9f0523e362b8d34
         - kind: section
           section: 3
           title: Caractérisation topologique des groupes R et T

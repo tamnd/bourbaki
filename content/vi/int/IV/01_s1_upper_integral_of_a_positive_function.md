@@ -28,9 +28,9 @@ subsections:
       pdf_page: 117
 statements: 34
 exercises: 8
-content_sha256: 33005c4d0261379eddfce256ea06740f23a1618bdbc31f9aa7f938dab08cbef6
+content_sha256: 0e24cfa99e632f85691b1f6f1e30d7b92bd5c00f8d6a7160074e98f5728d37a3
 translated_from: content/en/int/IV/01_s1_upper_integral_of_a_positive_function.md
-source_content_sha256: 3aaa7b5998328b823ccdc99b1b32a831239b3b509eb6788df8712bad61342271
+source_content_sha256: 33c34b08425c4858837ea23c60cb0cbddeb27a95602cf279ab92c1b26cc06a8b
 translation_model: gpt-5.4
 translation_run: translate-vi-cbe59f39
 glossary_version: 34
@@ -176,13 +176,13 @@ Thật vậy, quan hệ G₁ ⊂ G₂ tương đương với φG₁ ≤ φG₂.
 
 #### Mệnh đề 7 {#int-iv-s1-prop-7 .statement}
 
-— *Cho* 𝔅 *là một tập hợp các tập con mở của* X *có hướng đối với quan hệ* ⊂; *khi đó*
+— *Cho* $\mathfrak{B}$ *là một tập hợp các tập con mở của* X *có hướng đối với quan hệ* ⊂; *khi đó*
 
 $$
 \mu^*\left(\bigcup_{G \in \mathfrak{B}} G\right) = \sup_{G \in \mathfrak{B}} \mu^*(G).
 $$
 
-Các hàm φ_G lập thành một tập có hướng (đối với ≤) trong $\mathscr{I}_+$ và bao trên của chúng là hàm đặc số của hợp các tập hợp G ∈ 𝔅; vì vậy mệnh đề là một hệ quả của Định lý 1.
+Các hàm φ_G lập thành một tập có hướng (đối với ≤) trong $\mathscr{I}_+$ và bao trên của chúng là hàm đặc số của hợp các tập hợp G ∈ $\mathfrak{B}$; vì vậy mệnh đề là một hệ quả của Định lý 1.
 
 #### Mệnh đề 8 {#int-iv-s1-prop-8 .statement}
 

@@ -12,7 +12,7 @@ pdf_pages: 0466-0469
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 73edd71549b4643f53c5ff204b4d540f8b7bc280d34e7079e92df08bfd7b713a
+content_sha256: 8d205b7644c3f36f47c82204ad9bdc09ea8dd5272111139924ec0cf96a5e0e74
 ---
 
 ## INDEX OF NOTATIONS
@@ -55,7 +55,7 @@ $\bigotimes_{\lambda \in L} \mu_\lambda$ : III, 4, 6.
 Chapter IV :
 
 φ_A : IV, 1, 1.
-ℋ₊, 𝒥₊(X), 𝒥₊ : IV, 1, 1.
+$\mathscr{H}$₊, $\mathscr{J}$₊(X), $\mathscr{J}$₊ : IV, 1, 1.
 μ*(f) (μ a positive measure) : IV, 1, 1, IV, 1, 3 and IV, 4, Exer. 5.
 ∫* f dμ, ∫* fμ, ∫* f(x) dμ(x), ∫* f(x)μ(x) (f a function ≥ 0, μ a positive measure) : IV, 1, 3.
 μ*(A) (A a subset of X, μ a positive measure) : IV, 1, 2 and IV, 1, 4.
@@ -73,7 +73,7 @@ $\mathscr{G}_F, \mathscr{D}_F^p(X, \mu), \mathscr{D}_F^p(\mu), \mathscr{D}_F^p, 
 μ(f), ∫ f dμ, ∫ f(x) dμ(x), ∫ fμ, ∫ f(x)μ(x), μ(f̃) (f a μ-integrable function with values in a Banach space) : IV, 4, 1.
 μ(A) (A a μ-integrable set) : IV, 4, 5.
 $\mathscr{Q}'(X; C)$ : IV, 4, 8.
-𝒬(Φ), 𝒬_F(Φ) (Φ a clan of sets) : IV, 4, 9.
+$\mathscr{Q}$(Φ), $\mathscr{Q}_F$(Φ) (Φ a clan of sets) : IV, 4, 9.
 μ_*(f) (f a function) : IV, 4, Exer. 5.
 
 $\mu_*(A)$ (A a set) : IV, 4, Exer. 7.

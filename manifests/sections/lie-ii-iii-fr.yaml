@@ -145,7 +145,7 @@ chapters:
           statements: 57
           exercises: 10
           extraction: ocr
-          content_sha256: 130ae9175b99f00bcefb2b1f811601f84592e6016966ab3214562ff3a2cea81c
+          content_sha256: f8006614d757c7fb05a9f8695dc91c92306ac71436dd1c5305281db0a74f4056
         - kind: section
           section: 2
           title: Groupe des vecteurs tangents à un groupe de Lie
@@ -181,7 +181,7 @@ chapters:
           statements: 41
           exercises: 13
           extraction: ocr
-          content_sha256: 2afa8ec899b06d6ef9fd706ba5addcc1389e751f699d5afebbba4814009802da
+          content_sha256: 897fc486c870dc47eb77c12af6cb2037baa1a349c6d52f1f928b33aeff5e3ee5
         - kind: section
           section: 5
           title: Calculs formels dans les groupes de Lie
@@ -229,7 +229,7 @@ chapters:
           statements: 10
           exercises: 7
           extraction: ocr
-          content_sha256: b8e50ac289866ddd6c6c69bb438593f9a8ce21b87d82e75fcbb399a305de405b
+          content_sha256: 2982b284ecc8b081ca9b78c0bb642ec1d5fc8ab8ba71ce917c6c2efce76f84e4
         - kind: section
           section: 9
           title: Commutateurs, centralisateurs, normalisateurs dans un groupe de Lie
@@ -253,7 +253,7 @@ chapters:
           statements: 13
           exercises: 4
           extraction: ocr
-          content_sha256: e05ce6a992c9c4c6b8d8929b30b1519a691865adddfabdefcdc1b0923b44b93e
+          content_sha256: 7fa7cfebdd4c555cde4b861239162c5c3f35121819f23e8e58e8d5e3f36f712c
         - kind: appendix
           title: Opérations sur les représentations linéaires
           path: content/fr/lie/III/A_a_operations_sur_les_representations.md

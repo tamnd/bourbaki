@@ -281,7 +281,7 @@ chapters:
           statements: 87
           exercises: 39
           extraction: ocr
-          content_sha256: 7397ef66063724aa975a5ff48582a56369a955dedad3c2a574c4fd7a2a0708aa
+          content_sha256: 4a0aa12bb86e297b7b41b2439ff3ec55355ec8f0a8f9e03e666f29de805167cb
         - kind: section
           section: 8
           title: Restriction of the field ofscalars in vector spaces

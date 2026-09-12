@@ -36,7 +36,7 @@ subsections:
       pdf_page: 187
 statements: 20
 exercises: 6
-content_sha256: 07508ef75d3b43c6dbeb1fbf97e0fba84cec2d656d0ac9357378c5c64dd9dfa2
+content_sha256: 0ddc59b629bd9b961ce404ce4c56eae7f7a93bfbccb8e8d8f461c69e47295c21
 ---
 
 ## § 5. L’espace des sous-groupes fermés.
@@ -302,12 +302,12 @@ Avec les notations du n° 3, prop. 7, il suffit, pour démontrer (i) et (ii), de
 #### Proposition 8 {#int-viii-s5-prop-8 .statement}
 
 La bijection canonique de N sur D est un homéomorphisme.
-Or, si Γ_d est l’ensemble des mesures de Haar sur les sous-groupes discrets de G, D est canoniquement homéomorphe à l’espace des orbites du groupe des homothéties de rapport > 0 dans Γ_d (Top. gén., chap. I, 3e éd., § 5, n° 2, prop. 4). Il suffira donc de prouver que l’application canonique α → (α({e}), α/α({e})) de Γ_d sur ℝ_+^* × N est un homéomorphisme, ce qui résultera du lemme suivant :
+Or, si Γ_d est l’ensemble des mesures de Haar sur les sous-groupes discrets de G, D est canoniquement homéomorphe à l’espace des orbites du groupe des homothéties de rapport > 0 dans Γ_d (Top. gén., chap. I, 3e éd., § 5, n° 2, prop. 4). Il suffira donc de prouver que l’application canonique α → (α({e}), α/α({e})) de Γ_d sur $\mathbf{R}_+^*$ × N est un homéomorphisme, ce qui résultera du lemme suivant :
 
 #### Lemme 4 {#int-viii-s5-lem-4 .statement}
 
-Si le groupe G vérifie la condition (L), l’application α → α({e}) de Γ_d dans ℝ_+^* est vaguement continue.
-Considérons une mesure α ∈ Γ_d ; soit V_0 un voisinage ouvert relativement compact de e dans G tel que H_α ∩ V_0 = {e} et qu’il n’existe aucun sous-groupe fini de G contenu dans V_0 et non réduit à e. Soit V un voisinage compact symétrique de e tel que V^3 ⊂ V_0, et soit U un voisinage symétrique de e tel que U^2 ⊂ V. Soit φ (resp. ψ) une fonction de 𝒦_+(G), à valeurs dans [0, 1], égale à 1 dans V^3 (resp. au point e) et de support contenu dans V_0 (resp. dans U). L’ensemble des mesures β ∈ Γ_d telles que l’on ait $|\beta(\varphi) - \alpha(\varphi)| \leq \varepsilon$ et $|\beta(\psi) - \alpha(\psi)| \leq \varepsilon$ est un voisinage W de $\alpha$. Nous nous proposons de montrer que, pourvu que $\varepsilon$ soit pris assez petit, *on a* $H_\beta \cap V = \{e\}$ *pour toute* $\beta \in W$; il en résultera que $\beta(\psi) = \beta(\{e\})$, donc que $|\beta(\{e\}) - \alpha(\{e\})| \leq \varepsilon$, ce qui prouvera le lemme.
+Si le groupe G vérifie la condition (L), l’application α → α({e}) de Γ_d dans $\mathbf{R}_+^*$ est vaguement continue.
+Considérons une mesure α ∈ Γ_d ; soit V_0 un voisinage ouvert relativement compact de e dans G tel que H_α ∩ V_0 = {e} et qu’il n’existe aucun sous-groupe fini de G contenu dans V_0 et non réduit à e. Soit V un voisinage compact symétrique de e tel que V^3 ⊂ V_0, et soit U un voisinage symétrique de e tel que U^2 ⊂ V. Soit φ (resp. ψ) une fonction de $\mathscr{K}_+$(G), à valeurs dans [0, 1], égale à 1 dans V^3 (resp. au point e) et de support contenu dans V_0 (resp. dans U). L’ensemble des mesures β ∈ Γ_d telles que l’on ait $|\beta(\varphi) - \alpha(\varphi)| \leq \varepsilon$ et $|\beta(\psi) - \alpha(\psi)| \leq \varepsilon$ est un voisinage W de $\alpha$. Nous nous proposons de montrer que, pourvu que $\varepsilon$ soit pris assez petit, *on a* $H_\beta \cap V = \{e\}$ *pour toute* $\beta \in W$; il en résultera que $\beta(\psi) = \beta(\{e\})$, donc que $|\beta(\{e\}) - \alpha(\{e\})| \leq \varepsilon$, ce qui prouvera le lemme.
 
 Il nous suffira de montrer que l’on a, pour $\beta \in W$,
 

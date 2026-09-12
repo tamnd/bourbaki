@@ -52,7 +52,7 @@ subsections:
       pdf_page: 272
 statements: 81
 exercises: 26
-content_sha256: 982b323189f8df3c1d442a29adb4dcee201347ec2fce30a549a98774f66f984d
+content_sha256: b1303150483bcbb29c20b41b4ce7e614596179ee53ca9d01bad8c117330eb6c6
 ---
 
 ## § 4. Modules sur les anneaux noethériens intégralement clos
@@ -1060,8 +1060,8 @@ Cela résulte du n° 4, th. 5, compte tenu du fait qu’un pseudo-isomorphisme e
 
 #### Proposition 24 {#ac-vii-s4-prop-24 .statement}
 
-Soient A un anneau de Dedekind, M un A-module sans torsion de type fini, de rang n ≥ 1. Il existe alors un idéal 𝔅 ≠ 0 de A tel que M soit isomorphe à la somme directe des modules A^{n−1} et 𝔅. De plus, la classe de l’idéal 𝔅 est déterminée de manière unique par cette condition.
-Le th. 6 du n° 9 montre qu’il existe un sous-module libre L de M tel que M/L soit isomorphe à un idéal a de A. Si a = 0, on prend 𝔅 = A. Dans le cas contraire, a est de rang 1, donc L = A^{n−1}, et a est un module projectif (prop. 22); M est par suite isomorphe à la somme directe de L et de a (Alg., chap. II, 3e éd., § 2, n° 2, prop. 4), ce qui prouve la première partie de la proposition. En outre, il résulte du n° 7, prop. 16, (i), (iv) et (v), que l’on a c(M) = c(𝔅), d’où l’unicité de la classe de 𝔅.
+Soient A un anneau de Dedekind, M un A-module sans torsion de type fini, de rang n ≥ 1. Il existe alors un idéal $\mathfrak{B}$ ≠ 0 de A tel que M soit isomorphe à la somme directe des modules A^{n−1} et $\mathfrak{B}$. De plus, la classe de l’idéal $\mathfrak{B}$ est déterminée de manière unique par cette condition.
+Le th. 6 du n° 9 montre qu’il existe un sous-module libre L de M tel que M/L soit isomorphe à un idéal a de A. Si a = 0, on prend $\mathfrak{B}$ = A. Dans le cas contraire, a est de rang 1, donc L = A^{n−1}, et a est un module projectif (prop. 22); M est par suite isomorphe à la somme directe de L et de a (Alg., chap. II, 3e éd., § 2, n° 2, prop. 4), ce qui prouve la première partie de la proposition. En outre, il résulte du n° 7, prop. 16, (i), (iv) et (v), que l’on a c(M) = c($\mathfrak{B}$), d’où l’unicité de la classe de $\mathfrak{B}$.
 
 #### Remarque 1 {#ac-vii-s4-n10-rem-1 .statement}
 

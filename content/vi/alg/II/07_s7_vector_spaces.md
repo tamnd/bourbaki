@@ -54,9 +54,9 @@ subsections:
       pdf_page: 336
 statements: 87
 exercises: 39
-content_sha256: ce46ea181e7f47000811911edd0e12600234ffb7d913b7be90a17497eadf8dd6
+content_sha256: 546b8153c93c6b0eee7e3f8afb6596b371ccd097f0e0a3dd03732b79a51dff10
 translated_from: content/en/alg/II/07_s7_vector_spaces.md
-source_content_sha256: 7397ef66063724aa975a5ff48582a56369a955dedad3c2a574c4fd7a2a0708aa
+source_content_sha256: 4a0aa12bb86e297b7b41b2439ff3ec55355ec8f0a8f9e03e666f29de805167cb
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-59713daf
 glossary_version: 34
@@ -952,7 +952,7 @@ vì $\phi$ là $A$-tuyến tính.
 
 (ii) Nếu $x \neq 0$ không tự do trong $E$, thì tồn tại $\alpha \neq 0$ trong $A$ sao cho $\alpha x = 0$, do đó $\alpha \phi(x) = \phi(\alpha x) = 0$ trong $E_{(K)}$, suy ra $\phi(x) = 0$. Ngược lại, giả sử rằng, với một $x \in E$ nào đó, $1 \otimes x = 0$ trong $E_{(K)}$; ta chứng minh rằng $x$ là một phần tử xoắn của $E$. Ta xét tập hợp $\mathfrak{M}$ các môđun con *đơn sinh* của $K$; đó là một tập hợp có hướng phải đối với quan hệ bao hàm, vì mọi hai phần tử $\alpha, \beta$ của $K$ đều có thể viết dưới dạng $\alpha = \zeta^{-1} \xi, \beta = \zeta^{-1} \eta$, trong đó $\xi, \eta, \zeta$ thuộc $A$ và $\zeta \neq 0$, do đó $A.\alpha \subset A.\zeta^{-1}$ và $A.\beta \subset A.\zeta^{-1}$. Hơn nữa $K$ là hợp của các môđun $M \in \mathfrak{M}$ và vì thế có thể được xem như *giới hạn trực tiếp* của hệ trực tiếp xác định bởi các môđun $M \in \mathfrak{M}$ và các đơn ánh chính tắc (§ 6, no. 2, *Nhận xét*). Vì vậy cũng vậy, sai khác bởi một đẳng cấu chính tắc, $E_{(K)} = \lim \rightarrow (M \otimes_A E)$ (§ 6, no. 3, mệnh đề 7) và quan hệ $1 \otimes x = 0$ trong $E_{(K)}$ kéo theo rằng tồn tại một
 
-M ∈ 𝒫 sao cho l ∈ M và l ⊗ x = 0 trong tích tenxơ M ⊗_A E (Lý thuyết tập hợp, III, § 7, no. 5, Bổ đề 1). Hơn nữa có thể giả sử (nếu cần thì thay M bằng một môđun con đơn sinh M' ⊃ M của K) rằng M = A.γ^{-1}, trong đó γ ∈ A và γ ≠ 0. Khi đó ánh xạ ξ ↦ γξ là một đẳng cấu từ M lên A-môđun A; mặt khác, đẳng cấu chính tắc A ⊗_A E → E (§ 3, no. 4, Mệnh đề 4) ánh xạ ξ ⊗ x lên phần tử ξx của E; do đó tồn tại một đẳng cấu M ⊗_A E → E ánh xạ tích tenxơ ξ ⊗ x lên phần tử (γξ)x của E. Vì thế giả thiết l ⊗ x = 0 trong M ⊗_A E suy ra γx = 0.
+M ∈ $\mathscr{P}$ sao cho l ∈ M và l ⊗ x = 0 trong tích tenxơ M ⊗_A E (Lý thuyết tập hợp, III, § 7, no. 5, Bổ đề 1). Hơn nữa có thể giả sử (nếu cần thì thay M bằng một môđun con đơn sinh M' ⊃ M của K) rằng M = A.γ^{-1}, trong đó γ ∈ A và γ ≠ 0. Khi đó ánh xạ ξ ↦ γξ là một đẳng cấu từ M lên A-môđun A; mặt khác, đẳng cấu chính tắc A ⊗_A E → E (§ 3, no. 4, Mệnh đề 4) ánh xạ ξ ⊗ x lên phần tử ξx của E; do đó tồn tại một đẳng cấu M ⊗_A E → E ánh xạ tích tenxơ ξ ⊗ x lên phần tử (γξ)x của E. Vì thế giả thiết l ⊗ x = 0 trong M ⊗_A E suy ra γx = 0.
 
 #### Nhận xét {#alg-ii-s7-n10-rem-2 .statement}
 

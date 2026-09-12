@@ -284,7 +284,7 @@ chapters:
           statements: 11
           exercises: 9
           extraction: ocr
-          content_sha256: 3621842f7d91afb7b7f4a8caf16dad34d5d97c00ad6f16f5473de6aef5ff7384
+          content_sha256: 30d9e1d5735839775bd7917d337a8df2e842ada78e9ba70bd9db7c869ada5d96
         - kind: section
           section: 2
           title: Sous-groupes; groupes quotients; homomorphismes; espaces homogènes; groupes produits

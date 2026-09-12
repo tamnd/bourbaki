@@ -108,7 +108,7 @@ chapters:
           statements: 37
           exercises: 8
           extraction: ocr
-          content_sha256: 810448206a7af36da88981c3001aa6895e8fee98fb8200d00bc55224171e1c4a
+          content_sha256: ace6f75361817e9cf69d520ef4f96ec5f2eb709271871f39e0f0fff9b6cfb051
         - kind: section
           section: 4
           title: The geometric representation of a Coxeter group

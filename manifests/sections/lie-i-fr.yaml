@@ -85,7 +85,7 @@ chapters:
           statements: 53
           exercises: 27
           extraction: ocr
-          content_sha256: c298a4d9b3df497dee853923fd51f8781fe85c7244d00f6900bfdb1f82a679eb
+          content_sha256: f7e1dd6f5d895dd4f50ed2d6ca1b9ea702e776b5e41c795d813961855300b77e
         - kind: section
           section: 7
           title: Le théorème d'Ado
