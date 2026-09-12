@@ -12,17 +12,17 @@ Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 
 
 | Group | Hard | Soft | Not run | Failing |
 | --- | ---: | ---: | ---: | --- |
-| structure | 13 | 1 | 0 | S11 (433), S14 (798) |
+| structure | 13 | 2 | 0 | S11 (433), S14 (798), S15 (68) |
 | tags | 7 | 1 | 1 | T03 (23308), T10 (9) |
 | mathematics | 10 | 5 | 0 | M03 (2), M06 (6), M13 (48), M14 (2703) |
 | figures | 6 | 0 | 0 | F01 (158) |
 | references | 3 | 0 | 0 | R01 (3369), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1391), L03 (14), L04 (10), L05 (274), L06 (2017), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
+| translation | 13 | 3 | 1 | L01 (1383), L03 (14), L04 (10), L05 (274), L06 (2017), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-29885 hard findings and 11284 soft, over 76 rules that ran and 2 that could not.
+29877 hard findings and 11352 soft, over 77 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -313,6 +313,38 @@ Soft, structure.
 
 and 773 more, which `bourbaki audit -only S14` prints in full.
 
+## S15 no note is left at the foot of a page with nothing pointing at it (68)
+
+Soft, structure.
+
+- `pages/ac-viii-ix-fr/0014.md:25` note 1 is at the foot of the page and nothing on the page points at it: 1 Si A est un corps, la dimension de Krull de M est $\leq 0$. Il y aur…
+- `pages/ac-viii-ix-fr/0033.md:43` note 1 is at the foot of the page and nothing on the page points at it: 1 Rappelons que $V(x)$ se compose des idéaux premiers de A contenant x…
+- `pages/ac-viii-ix-fr/0078.md:32` note 1 is at the foot of the page and nothing on the page points at it: 1 Ce lemme reste valable lorsque l’anneau A n’est pas noethérien.
+- `pages/ac-viii-ix-fr/0087.md:30` note 1 is at the foot of the page and nothing on the page points at it: 1 Cet exemple est dû à M. Nagata, Local Rings, Interscience Publishers…
+- `pages/ac-viii-ix-fr/0097.md:28` note 1 is at the foot of the page and nothing on the page points at it: 1 Pour des généralisations et des compléments sur cet exercice, on pou…
+- `pages/ac-x-fr/0180.md:23` note 1 is at the foot of the page and nothing on the page points at it: 1 On ignore si tout anneau local noethérien satisfait (CM).
+- `pages/alg-i-iii-fr/0034.md:26` note 1 is at the foot of the page and nothing on the page points at it: 1 Ou parfois la loi de composition externe sur E ayant $\Omega$ comme …
+- `pages/alg-i-iii-fr/0146.md:48` note 1 is at the foot of the page and nothing on the page points at it: 1 Ici encore, on peut démontrer que deux telles sections sont conjugué…
+- `pages/alg-iv-vii-fr/0175.md:23` note 1 is at the foot of the page and nothing on the page points at it: 1 Le lecteur vérifiera aisément que le théorème de la base normale n’e…
+- `pages/alg-iv-vii-fr/0297.md:15` note 1 is at the foot of the page and nothing on the page points at it: 1 Lorsque $A$ est l’anneau des entiers (resp. l’anneau des polynômes à…
+- `pages/alg-iv-vii-fr/0385.md:33` note 1 is at the foot of the page and nothing on the page points at it: 1 On a démontré que lorsque $x$ tend vers $+ \infty$, on a $\pi(x) \si…
+- `pages/alg-iv-vii/0207.md:29` note 1 is at the foot of the page and nothing on the page points at it: 1 In agreement with the conventions of this chapter we shall only be c…
+- `pages/alg-iv-vii/0253.md:32` note 1 is at the foot of the page and nothing on the page points at it: 1 This hypothesis is sometimes expressed by saying that $L$ is a prima…
+- `pages/alg-iv-vii/0315.md:25` note 1 is at the foot of the page and nothing on the page points at it: 1 The terminology used in *loc. cit.* is *directed*.
+- `pages/alg-iv-vii/0320.md:29` note 1 is at the foot of the page and nothing on the page points at it: 1 When A is the ring of integers (resp. the polynomial ring in one ind…
+- `pages/alg-iv-vii/0411.md:25` note 1 is at the foot of the page and nothing on the page points at it: 1 It has been shown that $\pi(x) \sim \frac{x}{\log x}$ as x tends to …
+- `pages/ens-i-iv-fr/0204.md:27` note 1 is at the foot of the page and nothing on the page points at it: 1 Nous utilisons la notion d’« entier » de la même façon qu’au chap. I…
+- `pages/ens-i-iv-fr/0244.md:11` note 1 is at the foot of the page and nothing on the page points at it: 1 Il faut noter que des énoncés équivalents à ces règles se trouvent d…
+- `pages/ens-i-iv-fr/0244.md:12` note 2 is at the foot of the page and nothing on the page points at it: 2 Toutefois, la notion de produit « cartésien » de deux ensembles quel…
+- `pages/ens-i-iv-fr/0244.md:13` note 3 is at the foot of the page and nothing on the page points at it: 3 Pour chaque relation obtenue à partir d’une ou de plusieurs relation…
+- `pages/ens-i-iv-fr/0256.md:7` note 1 is at the foot of the page and nothing on the page points at it: 1 Suivant une anecdote célèbre, Hilbert exprimait volontiers cette idé…
+- `pages/ens-i-iv-fr/0335.md:21` note 1 is at the foot of the page and nothing on the page points at it: 1 Dans la Théorie des ensembles formalisée (cf. E.III, p. 23) on défin…
+- `pages/evt-i-v-fr/0033.md:25` note 1 is at the foot of the page and nothing on the page points at it: 1 Pour les exercices 12 et 13, voir O. Goldman and N. Iwahori, The spa…
+- `pages/evt-i-v/0035.md:27` note 1 is at the foot of the page and nothing on the page points at it: 1 For the exercises 12 and 13, see O. Goldman and N. Iwahori, The spac…
+- `pages/evt-i-v/0268.md:22` note 1 is at the foot of the page and nothing on the page points at it: 1 We recall (GT, VIII, § 1, No. 1) that $\Re(z)$ denotes the real part…
+
+and 43 more, which `bourbaki audit -only S15` prints in full.
+
 ## T03 every statement in the corpus has exactly one tag (23308)
 
 Hard, tags.
@@ -359,7 +391,7 @@ Soft, tags.
 - `content/vi/ens/II/06_s6_equivalence_relations.md:121` has 03TP after 03TS, which the same run assigned later
 - `content/vi/lie/IX/04_s4_root_system_associated_to_a_compact.md:428` has 01C5 after 01C7, which the same run assigned later
 
-## L01 the math spans are the English ones, in order (1391)
+## L01 the math spans are the English ones, in order (1383)
 
 Hard, translation.
 
@@ -389,7 +421,7 @@ Hard, translation.
 - `content/en-mt/ac/IX/exercises/s1/25.md:37` math span 44 is "c" and the English has "(a, b)"
 - `content/en-mt/ac/IX/exercises/s1/34.md:41` math span 27 is "n" and the English has "X_n"
 
-and 1366 more, which `bourbaki audit -only L01` prints in full.
+and 1358 more, which `bourbaki audit -only L01` prints in full.
 
 ## L03 the heading tree is the English one (14)
 
