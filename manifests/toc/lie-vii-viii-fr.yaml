@@ -154,8 +154,14 @@ chapters:
               page: 52
               pdf_page: 46
           appendix: true
+          exercises:
+            page: 66
+            pdf_page: 60
         - section: 2
           title: Une propriété de connexion
           page: 53
           pdf_page: 47
           appendix: true
+          exercises:
+            page: 66
+            pdf_page: 60

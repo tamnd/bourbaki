@@ -8,7 +8,7 @@ section_title: Applications polynomiales et topologie de Zariski
 appendix: true
 lang: fr
 source: lie-vii-viii-fr
-pdf_pages: 0045-0047
+pdf_pages: 0045-0047, 0060-0060
 extraction: ocr
 subsections:
     - "no": 1
@@ -20,8 +20,8 @@ subsections:
       page: 0
       pdf_page: 46
 statements: 7
-exercises: 0
-content_sha256: 6f212973ed72a50afbba31dcc5bd4b86cd0ec6f055a1fbbdeecd39565c6434ee
+exercises: 4
+content_sha256: db151ea1252edec71e801c2899e9ef64f21f7fda511f58e837bb68236437f289
 ---
 
 ## APPENDICE 1
@@ -120,3 +120,9 @@ où $\rho$ est une somme d’applications polynomiales homogènes de degrés $> 
 *Si $k$ est algébriquement clos et si $f$ vérifie les hypothèses de la prop. 4, l’image par $f$ de toute partie ouverte dense de $V$ contient une partie ouverte dense de $W$.*
 
 Cela résulte des prop. 3 et 4.
+
+## EXERCICES {#lie-vii-a1-exercises}
+
+On note $V$ un espace vectoriel de dimension finie sur $k$.
+
+See the [exercises for Appendix 1](exercises/a1/).

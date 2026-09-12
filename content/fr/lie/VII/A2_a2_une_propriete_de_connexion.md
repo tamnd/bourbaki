@@ -8,11 +8,11 @@ section_title: Une propriété de connexion
 appendix: true
 lang: fr
 source: lie-vii-viii-fr
-pdf_pages: 0047-0049
+pdf_pages: 0047-0049, 0060-0061
 extraction: ocr
 statements: 3
-exercises: 0
-content_sha256: d5fcb33ec953de803fd05646024be670cc378c726ebc7fd900c1b5ec819e8750
+exercises: 2
+content_sha256: 4605f71a179010a0d390f58515c35c31ed9e707511328434b918d077143d6c59
 ---
 
 ## APPENDICE II
@@ -50,3 +50,7 @@ La densité de $X - A$ résulte de VAR, R, 3.2.5. On peut supposer que $A$ est f
 Exercices
 
 Les algèbres de Lie et les modules sur ces algèbres sont supposés de dimension finie sur k; à partir du § 3, on suppose k de caractéristique zéro.
+
+## EXERCICES {#lie-vii-a2-exercises}
+
+See the [exercises for Appendix 2](exercises/a2/).

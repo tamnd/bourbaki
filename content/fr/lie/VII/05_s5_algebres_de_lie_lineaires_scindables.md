@@ -7,7 +7,7 @@ section: 5
 section_title: Algèbres de Lie linéaires scindables
 lang: fr
 source: lie-vii-viii-fr
-pdf_pages: 0034-0044, 0058-0061
+pdf_pages: 0034-0044, 0058-0060
 extraction: ocr
 subsections:
     - "no": 1

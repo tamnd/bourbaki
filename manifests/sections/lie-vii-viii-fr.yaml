@@ -68,7 +68,7 @@ chapters:
           path: content/fr/lie/VII/05_s5_algebres_de_lie_lineaires_scindables.md
           label: lie-vii-s5
           first_pdf_page: 34
-          last_pdf_page: 61
+          last_pdf_page: 60
           subsections: 5
           statements: 28
           exercises: 11
@@ -80,21 +80,21 @@ chapters:
           path: content/fr/lie/VII/A1_a1_applications_polynomiales_et_topologie.md
           label: lie-vii-a1
           first_pdf_page: 45
-          last_pdf_page: 47
+          last_pdf_page: 60
           subsections: 2
           statements: 7
-          exercises: 0
+          exercises: 4
           extraction: ocr
-          content_sha256: 6f212973ed72a50afbba31dcc5bd4b86cd0ec6f055a1fbbdeecd39565c6434ee
+          content_sha256: db151ea1252edec71e801c2899e9ef64f21f7fda511f58e837bb68236437f289
         - kind: appendix
           section: 2
           title: Une propriété de connexion
           path: content/fr/lie/VII/A2_a2_une_propriete_de_connexion.md
           label: lie-vii-a2
           first_pdf_page: 47
-          last_pdf_page: 49
+          last_pdf_page: 61
           subsections: 0
           statements: 3
-          exercises: 0
+          exercises: 2
           extraction: ocr
-          content_sha256: d5fcb33ec953de803fd05646024be670cc378c726ebc7fd900c1b5ec819e8750
+          content_sha256: 4605f71a179010a0d390f58515c35c31ed9e707511328434b918d077143d6c59

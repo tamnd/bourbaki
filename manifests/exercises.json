@@ -6600,7 +6600,7 @@
         {
           "chapter": "VII",
           "title": "Sous-algèbres de Cartan. Éléments réguliers",
-          "total": 60,
+          "total": 66,
           "sections": [
             {
               "section": 1,
@@ -6645,6 +6645,25 @@
               "first": 1,
               "last": 11,
               "starred": 4
+            },
+            {
+              "section": 1,
+              "appendix": true,
+              "label": "lie-vii-a1",
+              "dir": "a1",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            },
+            {
+              "section": 2,
+              "appendix": true,
+              "label": "lie-vii-a2",
+              "dir": "a2",
+              "count": 2,
+              "first": 1,
+              "last": 2,
+              "starred": 2
             }
           ]
         }
