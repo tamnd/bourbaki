@@ -41,7 +41,7 @@ subsections:
       pdf_page: 120
 statements: 29
 exercises: 25
-content_sha256: e0a76a1fa3a2ede985977569e90703642364d3e2816deaed0498f6471b6043c4
+content_sha256: 69bfebe519ff9c5e26ac2b7592e3606fd1bc4e2e70402471af95b952e165edc6
 ---
 
 ## 11. CONNECTEDNESS
@@ -63,6 +63,8 @@ We shall see in Chapter IV, § 2, no. 5 that the real line is connected, and tha
 #### Example 2 {#top-i-s11-n1-exa-2 .statement}
 
 A discrete space which has more than one point is not connected.
+
+Observe that if $(U_i)_{i \in I}$ is a partition of a topological space $X$ consisting of open sets [necessarily non-empty, from the definition of a partition (Set Theory, R, , no. 4)] then each of the $U_i$ is both open and closed in $X$, for the complement of $U_i$ is the union of the $U_x$ for which $x \neq i$. The open subsets of $X$ are the subsets $A$ such that $A \cap U_i$ is open in $U_i$ for each $i \in I$, so that $X$ can be identified with the sum of the $U_i$ ($\S 2$, no. 4, Example 3) and is not connected if $I$ has more than one element
 
 #### Definition 2 {#top-i-s11-def-2 .statement}
 

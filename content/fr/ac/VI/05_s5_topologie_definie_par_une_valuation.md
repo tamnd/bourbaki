@@ -24,7 +24,7 @@ subsections:
       pdf_page: 117
 statements: 10
 exercises: 10
-content_sha256: 96d2f082c9d2a0d3302f5c9c946c8c3dfcc2b4d8bcd0e30ed4bd713c957760f0
+content_sha256: 72a3c924c9afb7b8890652eba980a04e6f5d6ba480daf628c16dcc9080e99673
 ---
 
 ## § 5. Topologie définie par une valuation.
@@ -78,6 +78,8 @@ Réciproquement, supposons les conditions (i), (ii), (iii) vérifiées. On peut 
 
 On notera qu’il suffit dans cette démonstration de supposer que A est complet.
 
+Nous verrons au qu’un corps K vérifiant les conditions de la prop. 2 admet un centre qui est, soit une extension algébrique de degré fini d’un corps p-adique, soit un corps $F_q((T))$ de séries formelles sur corps fini; en outre K est de rang fini sur son centre
+
 ### 2. Espaces vectoriels topologiques sur un corps muni d’une valuation
 
 Soient toujours K un corps (non nécessairement commutatif), $v$ une valuation de K, et G son groupe des ordres. On munit K de la topologie $\mathscr{T}_v$.
@@ -97,6 +99,8 @@ Compte tenu des prop. 1 et 3, la démonstration est la même que celle d’Esp. 
 #### Proposition 4 {#ac-vi-s5-prop-4 .statement}
 
 On suppose $v$ non impropre et K complet. Soit E un espace vectoriel topologique à gauche sur K, séparé et de dimension finie n. Pour toute base $(e_i)_{1 \leq i \leq n}$ de E sur K, l’application $(a_i) \to \sum_{i=1}^n a_i e_i$ de $K_s^n$ sur E est un isomorphisme d’espaces vectoriels topologiques.
+
+Compte tenu de la prop. 3 et de son corollaire, la démonstration est la même que celle d’Esp. Vect. Top., chap. I, , th. 2
 
 #### Corollaire {#ac-vi-s5-n2-cor-2 .statement}
 

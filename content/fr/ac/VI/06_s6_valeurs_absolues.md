@@ -28,7 +28,7 @@ subsections:
       pdf_page: 123
 statements: 13
 exercises: 2
-content_sha256: ab626463728484049617fdf625dc4f84cc1def3e7b4b1b448a897e1bbf89d726
+content_sha256: 22d023c287c71c604ac61a41b662a1dd82484b39b1939d9a175a42a6888a7c00
 ---
 
 ## § 6. Valeurs absolues.
@@ -188,6 +188,8 @@ $$
 \sup (0, g(b)) = g(b).
 $$
 
+Quels que soient les entiers $a, b$ au moins égaux à 2, on a donc $g(a) \leq g(b)$, et par suite $g(a) = g(b)$ en échangeant les rôles de $a$ et $b$. Autrement dit, il existe une constante $\lambda$ telle que $g(a) = \lambda$ pour tout entier $a \geq 2$; si l’on pose $s = \lambda / \rho$, on a donc $f(a) = |a|^s$ pour tout entier $a \geq 2$. Comme $f(xy) = f(x)f(y)$ et $f(-x) = f(x)$, on a $f(x) = |x|^s$ pour tout $x \in \mathbf{Q}$. Enfin, si $0 < s \leq 1$, on sait que $x \to |x|^s$ est une valeur absolue ($Top.$ gén., chap. IX, , no 2); réciproquement, si $s$ est tel que $x \to |x|^s$ soit une valeur absolue sur $\mathbf{Q}$, on a $(1 + 1)^s \leq 1^s + 1^s$, c’est-à-dire $2^s \leq 2$, d’où $s \leq 1$
+
 C.Q.F.D.
 
 ### 4. Structure des corps munis d’une valeur absolue non ultramétrique
@@ -209,7 +211,7 @@ $$
 F(z) = (\sigma(z))^{-1}(x(\sigma(z))^{-1} - 1)^{-1}.
 $$
 
-Mais comme $(\sigma(z))^{-1} = \sigma(z^{-1})$ tend vers 0 lorsque $z$ tend vers l’infini dans $\mathbf{C}$, on voit que $F(z)$ tend alors vers 0; autrement dit, $z \to ||F(z)||$ est une fonction numérique continue
+Mais comme $(\sigma(z))^{-1} = \sigma(z^{-1})$ tend vers 0 lorsque $z$ tend vers l’infini dans $\mathbf{C}$, on voit que $F(z)$ tend alors vers 0; autrement dit, $z \to ||F(z)||$ est une fonction numérique continue et $\geqslant 0$ dans $\mathbf{C}$, tendant vers $0$ au point à l'infini, et qui peut par suite être considérée comme une fonction continue sur l'espace compact $\overline{\mathbf{C}}$ obtenu par adjonction à $\mathbf{C}$ d'un point à l'infini. La borne supérieure $\alpha$ de $||F||$ dans $\mathbf{C}$ est donc finie et $> 0$, et l'ensemble $P$ des nombres complexes $z$ tels que $||F(z)|| = \alpha$ est fermé et non vide (*Top. gén.*, chap. IV, , n° 1, th. 1)
 
 Soit $z \in P$; posons $y = x - \sigma(z)$ et soit $t$ un nombre complexe $\neq 0$ tel que $||\sigma(t)|| < \alpha^{-1}$, d’où $||\sigma(t).y^{-1}|| < 1$ par définition de $\alpha$. La suite des $(\sigma(t)y^{-1})^n$ et celle des $n(\sigma(t)y^{-1})^n$ tendent donc vers $0$ dans $K$ lorsque $n$ tend vers $+ \infty$, car il en est ainsi des suites des normes correspondantes dans $\mathbf{R}$.
 

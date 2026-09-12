@@ -29,7 +29,7 @@ subsections:
       pdf_page: 54
 statements: 21
 exercises: 10
-content_sha256: bb0143155d71dd1d0988dddb9314f912763d1f361236eae706608303ddbee273
+content_sha256: 215472379d1b2b1e5dd419171df24ab53370ba8ea52d59a35d90602b9a5774bb
 ---
 
 ## 4. PRODUCT OF TOPOLOGICAL SPACES
@@ -189,6 +189,8 @@ $$
 whenever $\alpha \leq \beta$. It follows from Proposition 3 of no. 1 that the inverse limit of the topologies of the $X_\alpha$ is the same as the topology *induced* on $X$ by the topology of the product space $\prod_{\alpha \in I} X_\alpha$. If, for each $\alpha \in I$, $Y_\alpha$ is
 
 (*) That is, a set endowed with a reflexive and transitive relation (*Set Theory* R, § 6, no. 1).
+
+a subspace of $X_\alpha$ such that the $Y_\alpha$ form an *inverse system of subsets* of the $X_\alpha$ (*Set Theory* chapter III, , n° 2), then it is clear that the topological space $\varprojlim Y_\alpha$ is a *subspace* of $\varprojlim X_\alpha$
 
 Let $(X'_\alpha, f'_{\alpha\beta})$ be another inverse system of topological spaces indexed by the same set $I$, and for each $\alpha \in I$ let $u_\alpha : X_\alpha \to X'_\alpha$ be a *continuous* mapping such that $(u_\alpha)$ is an *inverse system of mappings*; then $u = \varprojlim u_\alpha$ is a continuous mapping of $X = \varprojlim X_\alpha$ into $X' = \varprojlim X'_\alpha$. For if $f'_\alpha$ is the canonical mapping $X' \to X'_\alpha$, we have $f'_\alpha \circ u = u_\alpha \circ f_\alpha$, so that $f'_\alpha \circ u$ is continuous for each $\alpha \in I$, and the assertion follows from Proposition 4 of § 2, no. 3.
 

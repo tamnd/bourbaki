@@ -315,7 +315,7 @@ chapters:
           book_pages: TG IX.11-TG IX.23, TG IX.90-TG IX.98
           subsections: 10
           statements: 34
-          exercises: 9
+          exercises: 30
           extraction: ocr
           content_sha256: a097d26bcdb4a2e9c03764cada8b133b392ca6253bf7f6fb7f7b5972efbc475e
         - kind: section
@@ -354,7 +354,7 @@ chapters:
           book_pages: TG IX.52-TG IX.56, TG IX.111-TG IX.117
           subsections: 4
           statements: 18
-          exercises: 4
+          exercises: 31
           extraction: ocr
           content_sha256: 82312583010308ade3c3bcfbc326230bf52291a350f24aaa88c23efb5f29bb08
         - kind: section
@@ -453,7 +453,7 @@ chapters:
           book_pages: TG X.47-TG X.54
           subsections: 5
           statements: 31
-          exercises: 16
+          exercises: 30
           extraction: ocr
           content_sha256: 42f9204c91625e489c15d9a1054919d20a2194ed2c7578d01006c0b932807388
         - kind: section
@@ -466,7 +466,7 @@ chapters:
           book_pages: TG X.54-TG X.61
           subsections: 4
           statements: 18
-          exercises: 22
+          exercises: 25
           extraction: ocr
           content_sha256: a36c76deae8ef6f546a84d2d5f04f7531bcdc7de271814c0812fbdd9e95ec2d3
         - kind: historical

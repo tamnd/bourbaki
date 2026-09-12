@@ -25,7 +25,7 @@ subsections:
       pdf_page: 347
 statements: 2
 exercises: 3
-content_sha256: 8d33ca0ec83bcae62c7c7ba4282ccde40e530c8e05afdb00c680264216e9fbc9
+content_sha256: dd2e9da4b3fba92988bbb461a62709cb2208e609295e8067cf49b769ad466844
 ---
 
 ## 3. THE FIELD OF REAL NUMBERS
@@ -39,6 +39,8 @@ To show that $1/x$ is continuous on $\mathbf{Q}^*$ we shall establish more preci
 $$; there exists an integer $m > 0$ such that $|x| \geq 1/m$ for each $x \in \mathscr{G}_V$; if $x$ and $y$ are any two points of $\mathscr{G}_V$ such that $|x-y| \leq 1/m^2 n$, we shall then have $$
 \left| \frac{1}{x} - \frac{1}{y} \right| \leq \frac{1}{n}.
 $$
+
+The image, under the function $1/x$, of any Cauchy filter on $\mathbf{Q}^*$ (with respect to the additive uniformity) which does not have 0 as a cluster point, is a Cauchy filter (with respect to the additive uniformity). Hence (Chapter III, , no. 8, Proposition 7)
 
 #### Proposition 1 {#top-iv-s3-prop-1 .statement}
 

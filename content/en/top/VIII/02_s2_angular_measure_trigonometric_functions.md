@@ -36,7 +36,7 @@ subsections:
       pdf_page: 119
 statements: 5
 exercises: 4
-content_sha256: 2e8e0396b01fa2c0c1fc1a5a72586ea4ad250d3983c3fd7034ef9e1594ea4c6c
+content_sha256: 9858af83e87d7a01d163aceffbf907bec6b8ef690b9be1de07f43002a6bc78ad
 ---
 
 ## 2. ANGULAR MEASURE, TRIGONOMETRIC FUNCTIONS
@@ -56,6 +56,8 @@ The multiplicative group $C^*$ of non-zero complex numbers is isomorphic to the 
 #### Remark {#top-viii-s2-n1-rem-1 .statement}
 
 The isomorphism of the groups $C^*$ and $\mathbf{R} \times T$ implies the existence of roots of every "binomial equation" $z^n = a$ in the field $C$. Using this fact and the local compatibility of $C$, we can obtain another proof of the theorem of d'Alembert-Gauss (Exercise 2).
+
+There are only *two* distinct isomorphisms of the group $\mathbf{T}$ onto the group $\mathbf{U}$; for if $g, g'$ are two isomorphisms of $\mathbf{T}$ onto $\mathbf{U}$, and if $h'$ is the inverse of $g'$, then $h' \circ g$ is an automorphism of $\mathbf{T}$, and therefore (Chapter VII, , no. 4, Proposition 6) we have identically either $g'(x) = g(x)$ or $g'(x) = g(-x)$. We may always assume that $g$ is such that $i$ is the image under $g$ of the class mod 1 of the point $\frac{1}{4}$; then, if $\varphi$ denotes the canonical homomorphism of $\mathbf{R}$ onto $\mathbf{T}$, every strict morphism of the additive group $\mathbf{R}$ onto the multiplicative group $\mathbf{U}$ is of the form $x \to g(\varphi(x/a))$, where $a$ is a real number $\neq 0$ (Chapter VII, § 2, no. 3, Proposition 4); note that the interval $]-\frac{1}{2}|a|, \frac{1}{2}|a|[$ is the largest symmetric open interval of $\mathbf{R}$ which is mapped one-to-one onto its image by this strict morphism, and that we have $g(\varphi(\frac{1}{4})) = i$. We shall denote the homomorphism $x \to g(\varphi(x))$ by $x \to e(x)$; every strict morphism of $\mathbf{R}$ onto $\mathbf{U}$ is therefore of the form $x \to e(x/a)$, where $a \neq 0$. The function $e(x)$ is continuous on $\mathbf{R}$, complex valued, and satisfies the identities
 
 (1) $$ |e(x)| = 1, $$
 (2) $$ e(x + y) = e(x)e(y), $$

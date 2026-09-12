@@ -45,7 +45,7 @@ subsections:
       pdf_page: 288
 statements: 24
 exercises: 26
-content_sha256: a0311b4f6908f6ad3ba657aac94e46945ba6f273df4ccce71851361876e9f15d
+content_sha256: 17f57accd7eacf064dd8c50a5a3104937f6834e01b37a6952ac2d681ee27a7d9
 ---
 
 ## 6. TOPOLOGICAL GROUPS WITH OPERATORS; TOPOLOGICAL RINGS, DIVISION RINGS AND FIELDS
@@ -294,7 +294,7 @@ Let $(E_i)_{i \in I}$ be an arbitrary family of topological $A$-modules, and let
 
 Let $A$ be a Hausdorff topological ring and $E$ a Hausdorff topological $A$-module. Let $\hat{E}$ be the additive group which is the completion of the commutative topological group $E$ (§ 3, no. 5, Theorem 2). The $\mathbf{Z}$-bilinear mapping $(\lambda, x) \to \lambda x$ of the product $A \times E$ of the additive groups $A, E$ into the additive group $E$ can be extended by continuity to a $\mathbf{Z}$-bilinear mapping of $\hat{A} \times \hat{E}$ into $\hat{E}$ (no. 5, Theorem 1), and this mapping we continue to denote by $(\lambda, x) \to \lambda x$. By virtue of the principle of extension of identities, we have $\lambda (\mu x) = (\lambda \mu) x$ for $\lambda \in \hat{A}, \mu \in \hat{A}$ and $x \in \hat{E}$, and $1 \cdot x = x$ for all $x \in \hat{E}$; the external law $(\lambda, x) \to \lambda x$ therefore defines an $\hat{A}$-module structure on $\hat{E}$ compatible with its topology. The topological $\hat{A}$-module $\hat{E}$ thus defined is called the *completion* of the topological $A$-module $E$.
 
-Let $E$ be a topological module over a topological ring $A$, where neither $A$ nor $E$ is necessarily Hausdorff. Let $N$ (resp. $F$) be the closure of $\{0\}$ in $A$ (resp. $E$). $N$ is a two-sided ideal of $A$ (no. 4, Proposition 5) and $F$ is a sub-$A$-module of $E$ (no. 1, Proposition 1); furthermore, by continuity we have $\lambda x \in F$ whenever $\lambda \in N$ or $x \in F$. We can therefore define, by passing to the quotients, a mapping $(\dot{\lambda}, \dot{x}) \to \dot{\lambda} \dot{x}$ of $(A/N) \times (E/F)$ into $E/F$; it is easily verified (by use of the Corollary to Proposition 26 of § 2, no. 9) that this mapping is continuous, and therefore defines a structure of a topological $(A/N)$-module on $E/F$. If we put $B = A/N$ and $L = E/F$, then the $B$-module $L$ is called the Hausdorff module *associated* with $E$; its completion $\hat{L}$ is a topological module over the Hausdorff completion $\hat{A}$ (equal by definition to $\hat{B}$) of $A$ (no. 5), and this module $\hat{L}$ is called the *Hausdorff completion* of $E$ and is denoted
+Let $E$ be a topological module over a topological ring $A$, where neither $A$ nor $E$ is necessarily Hausdorff. Let $N$ (resp. $F$) be the closure of $\{0\}$ in $A$ (resp. $E$). $N$ is a two-sided ideal of $A$ (no. 4, Proposition 5) and $F$ is a sub-$A$-module of $E$ (no. 1, Proposition 1); furthermore, by continuity we have $\lambda x \in F$ whenever $\lambda \in N$ or $x \in F$. We can therefore define, by passing to the quotients, a mapping $(\dot{\lambda}, \dot{x}) \to \dot{\lambda} \dot{x}$ of $(A/N) \times (E/F)$ into $E/F$; it is easily verified (by use of the Corollary to Proposition 26 of § 2, no. 9) that this mapping is continuous, and therefore defines a structure of a topological $(A/N)$-module on $E/F$. If we put $B = A/N$ and $L = E/F$, then the $B$-module $L$ is called the Hausdorff module *associated* with $E$; its completion $\hat{L}$ is a topological module over the Hausdorff completion $\hat{A}$ (equal by definition to $\hat{B}$) of $A$ (no. 5), and this module $\hat{L}$ is called the *Hausdorff completion* of $E$ and is denoted by $\hat{E}$. We see as in , no. 4, Proposition 8 that every continuous homomorphism $u : E \to G$ of $E$ into a complete Hausdorff $\hat{A}$-module $G$ factorizes uniquely into $u = v \circ \varphi$, where $v$ is a continuous homomorphism of $\hat{E}$ into $G$ and $\varphi$ is the canonical mapping of $E$ into $\hat{E}$. We conclude that if $E, E'$ are two topological $A$-modules and $u : E \to E'$ is a continuous homomorphism, then there is a unique continuous homomorphism $\hat{u} : \hat{E} \to \hat{E}'$ such that the diagram
 
 $$
 \begin{array}{ccc}
@@ -353,7 +353,7 @@ If $K$ is a topological division ring it is necessary to distinguish between:
 
 The uniformity *induced* on $K^*$ by the additive uniformity of $K$ is in general *distinct* from the multiplicative uniformities of $K$ (see Exercise 17).
 
-By Proposition 6, a Hausdorff topological division ring $K$ can be considered as a *dense subring* of a *complete Hausdorff ring* $\hat{K}$. In order that $\hat{K}$ should be a *topological division ring* it is necessary that the mapping
+By Proposition 6, a Hausdorff topological division ring $K$ can be considered as a *dense subring* of a *complete Hausdorff ring* $\hat{K}$. In order that $\hat{K}$ should be a *topological division ring* it is necessary that the mapping x \to x^{-1} be extendable by continuity to (\hat{K})^*; and this necessary condition is also sufficient, for the functions xx^{-1}, x^{-1}x and 1 are then equal on (\hat{K})^* by reason of the principle of extension of identities, and therefore the value of the extended function is the inverse of x for each $x \neq 0$ in $\hat{K}$. In other words (cf. Chapter II, , no. 6, Proposition 11)
 
 #### Proposition 7 {#top-iii-s6-prop-7 .statement}
 

@@ -210,7 +210,7 @@ chapters:
           book_pages: A II.183-A II.189
           subsections: 8
           statements: 43
-          exercises: 24
+          exercises: 26
           extraction: ocr
           content_sha256: 173afe51ccd024b5cbe1b44c6fbaef6f4d92480a620e83fd991be21236b18bfa
         - kind: section
@@ -290,7 +290,7 @@ chapters:
           statements: 17
           exercises: 5
           extraction: ocr
-          content_sha256: f17623809b75a67fd83d70bd528327b5f45c5d4ec8016f1d12bd165e9de0c2df
+          content_sha256: 37040ddb5e6026b7ce8847afb5debf8f8cf63a3b03a2a63593857462fb7a377f
         - kind: section
           section: 9
           title: Espaces affines et espaces projectifs
@@ -347,12 +347,12 @@ chapters:
           title: ALGÈBRES TENSORIELLES, ALGÈBRES EXTÉRIEURES, ALGÈBRES SYMÉTRIQUES
           path: content/fr/alg/III/00_frontmatter.md
           first_pdf_page: 388
-          last_pdf_page: 388
+          last_pdf_page: 389
           subsections: 0
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 380c252d0d80d76a8eb6a81c6e6aeec31ffe094d2729be4a076947624ba9c783
+          content_sha256: 746e2a50b99c43f92de3c71b829eeb49f95ae72206f5936cbcf04ce4f02fba32
         - kind: section
           section: 1
           title: Algèbres

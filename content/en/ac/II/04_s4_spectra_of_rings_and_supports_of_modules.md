@@ -29,7 +29,7 @@ subsections:
       pdf_page: 124
 statements: 49
 exercises: 28
-content_sha256: 6f7cf1ebd9f83d55d972bba623722a1f420c6ea28c01ee2cc23b631ea4662e6a
+content_sha256: ef9bd7ecd1886f25d63c9b0acd5c39fdf2a517141ccfa8855b8e3ce36ecb9f15
 ---
 
 ## 4. SPECTRA OF RINGS AND SUPPORTS OF MODULES
@@ -285,6 +285,8 @@ If $h$ is surjective and $a$ is its kernel, it follows from the definition of th
 #### Corollary {#ac-ii-s4-n3-cor-1 .statement}
 
 Let $S$ be a multiplicative subset of $A$, $A' = S^{-1}A$ and $h$ the canonical homomorphism $i_A^S$; then $^a h$ is a homeomorphism of $X' = \mathrm{Spec}(A')$ onto the subspace of $X = \mathrm{Spec}(A)$ consisting of the prime ideals of $A$ which do not meet $S$.
+
+Let $f' = f/s$, where $f \in A, s \in S$; then $X'_{f'} = X'_{f/1}$ since $s/1$ is invertible in $A'$. We know already that $^a h$ is injective and that, for all $p' \in X'$, the relations $f/1 \in p'$ and $f \in h^{-1}(p') = ^a h(p')$ are equivalent and hence the conditions $p' \in X'_{f/1}$ and $^a h(p') \in X_f$ are equivalent; this shows that $^a h(X'_{f'})$ is equal to $X_f \cap ^a h(X')$, whence the first assertion, since the $X, (resp.\ X'_{f'})$ form a base of the topology of $X$ (resp. $X$). The second assertion follows from , no. 5, Proposition 11 (ii)
 
 #### Proposition 14 {#ac-ii-s4-prop-14 .statement}
 

@@ -48,7 +48,7 @@ chapters:
           statements: 31
           exercises: 16
           extraction: ocr
-          content_sha256: eaaedbec437fbe10ada976447d7ff373c517077b94d3572b3e47bdbac09779cc
+          content_sha256: 51eb315865ebd0fe6d8b55423bd4e7c627c6f96079439a547acab4fe95c7441d
         - kind: section
           section: 2
           title: Identity element; cancellable elements; invertible elements
@@ -58,10 +58,10 @@ chapters:
           last_pdf_page: 153
           book_pages: 12-24, 126-129
           subsections: 8
-          statements: 25
+          statements: 26
           exercises: 17
           extraction: ocr
-          content_sha256: ea4324c278765be303f76b877f875161c0b03258af35442379758f5aace5c86f
+          content_sha256: 58c5b4347f0ca33aefb2badb7b88ee0a3b623a0ed7870a1eb54a0ccc4fdfebb0
         - kind: section
           section: 3
           title: Actions

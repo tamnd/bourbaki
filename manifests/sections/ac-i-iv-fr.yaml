@@ -10,7 +10,7 @@ introduction:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: b7bba9dde72330951f573406dd26684da013cdb4e80479220b2ccb341ad5ece1
+    content_sha256: 33704cced42fde890e82297da3fdaf62869c134e4861d0639a591015aaa3b8b5
 chapters:
     - chapter: I
       title: Modules plats
@@ -48,7 +48,7 @@ chapters:
           statements: 41
           exercises: 24
           extraction: ocr
-          content_sha256: 39b7d83a8815eb8caa222a7c0451a74d40cac76b8b9db7fd37dcd383409492fc
+          content_sha256: aa24a7dbdbc92a85a8b640414c52c0ba3e9e58886ead1d029ddea821c28c1a34
         - kind: section
           section: 3
           title: Modules fidèlement plats
@@ -107,7 +107,7 @@ chapters:
           last_pdf_page: 164
           subsections: 9
           statements: 66
-          exercises: 25
+          exercises: 27
           extraction: ocr
           content_sha256: 9642cb0e537e778a7b5c71bb698bbc328367edeae5b12e987be7f16a83ade9ce
         - kind: section
@@ -204,7 +204,7 @@ chapters:
           last_pdf_page: 303
           subsections: 6
           statements: 27
-          exercises: 6
+          exercises: 8
           extraction: ocr
           content_sha256: 8d3d3e6b4159f267d135b563c688a05fd9d180921fdd1771d5f01117e603d7a5
         - kind: section

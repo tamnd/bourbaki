@@ -28,7 +28,7 @@ subsections:
       pdf_page: 45
 statements: 10
 exercises: 2
-content_sha256: 502b9b975ffd005784c43fe8cd0b5cc22aabb31466f1f7b00d397f42f105ddfe
+content_sha256: 7d4aa5c2b595881473b91f16bbbb1839e582757e7f17275eba71fae2a0f6d311
 ---
 
 ## § 4. Intégration de mesures positives ponctuelles
@@ -57,7 +57,7 @@ Nous utiliserons le lemme suivant:
 
 Soient $T$ et $X$ deux espaces topologiques, $\pi$ une application continue propre (Top. gén., chap. I, 4e éd., § 10, déf. 1) de $T$ dans $X$. Soit $g$ une fonction numérique semi-continue inférieurement, définie dans $T$. Pour tout $x \in X$, soit $f(x)$ la borne inférieure de la fonction $g(t)$ dans l’ensemble $\overline{\pi}^1(x)$ (borne inférieure égale à $+\infty$ si $\overline{\pi}^1(x) = \varnothing$; cf. Ens., chap. III, § 1, n° 9). Alors $f$ est semi-continue inférieurement dans $X$.
 
-Pour tout nombre réel (fini) $a$, notons $B_a$ l’ensemble des $x \in X$ tels que $f(x) \leq a$, $A_a$ l’ensemble des $t \in T$ tels que $g(t) \leq a$; tout revient à montrer que $B_a$ est fermé (Top. gén., chap. IV, § 6, n° 2, prop. 1). Or $A_a$ est fermé (même réf.) et l’application propre $\pi$ est fermée (Top. gén., chap. I, 4e éd., § 10, n° 1, prop. 1); on est donc ramené à prouver que $\pi(A_a) = B_a$. La relation évidente
+Pour tout nombre réel (fini) $a$, notons $B_a$ l’ensemble des $x \in X$ tels que $f(x) \leq a$, $A_a$ l’ensemble des $t \in T$ tels que $g(t) \leq a$; tout revient à montrer que $B_a$ est fermé (Top. gén., chap. IV, § 6, n° 2, prop. 1). Or $A_a$ est fermé (même réf.) et l’application propre $\pi$ est fermée (Top. gén., chap. I, 4e éd., § 10, n° 1, prop. 1); on est donc ramené à prouver que $\pi(A_a) = B_a$. La relation évidente f(\pi(t)) \leq g(t) \text{ pour tout } t \in T \text{ entraîne que } \pi(A_a) \subset B_a. Inversement, soit $x \in B_a$; l’ensemble $\bar{\pi}^1(x)$ est quasi-compact (\emph{Top. gén.}, chap. I, 4e éd., , n° 2, th. 1) et non vide, et il existe donc un $t \in \bar{\pi}^1(x)$ tel que $g(t) = \inf_{u \in \bar{\pi}^1(x)} g(u) = f(x)$ (\emph{Top. gén.}, chap. IV, § 6, n° 2, th. 3); on a alors $t \in A_a$ et $\pi(t) = x$
 
 ### 2. Intégrales supérieures de fonctions positives par rapport à une intégrale de mesures ponctuelles
 

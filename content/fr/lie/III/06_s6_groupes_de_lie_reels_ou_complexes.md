@@ -52,7 +52,7 @@ subsections:
       pdf_page: 208
 statements: 76
 exercises: 30
-content_sha256: 60742c844483fe586fd0df259cb782e35e6fd29df358053471a3f421e88ebcfb
+content_sha256: 4c5fdb43bb6ef6b91a0d033414b28148b47b9256174feb562818ef5fa8a3cef4
 ---
 
 ## § 6. Groupes de Lie réels ou complexes
@@ -180,6 +180,8 @@ Soit $G$ un groupe de Lie connexe de dimension finie. Les conditions suivantes s
 (ii) $\det \operatorname{Ad} g = 1$ pour tout $g \in G$;
 (iii) $\operatorname{Tr} \operatorname{ad} a = 0$ pour tout $a \in L(G)$.
 L’application $g \mapsto \det \operatorname{Ad} g$ est un morphisme $\varphi$ de $G$ dans $K^*$. D’après le $§ 3$, prop. 35 (no 10) et 44 (no 12), on a $L(\varphi)a = \operatorname{Tr} \operatorname{ad} a$ pour tout $a \in L(G)$. Il est clair que $\operatorname{Im} L(\varphi) = \{0\}$ ou $K$. Dans le premier (resp. deuxième) cas, on a
+
+Im $\varphi = \{1\}$ (resp. Im $\varphi = K^*$) d’après le cor. 1, donc G est unimodulaire (resp. non unimodulaire) d’après le , no 16, cor. de la prop. 55
 
 #### Proposition 2 {#lie-iii-s6-prop-2 .statement}
 
@@ -674,7 +676,7 @@ Cela résulte du cor. 1 où l’on fait $n = 2$ et où l’on prend pour $f$ la 
 
 Soient $E$ un espace normable complet sur $\mathbf{C}$, $v \in \mathscr{L}(E)$, et $g = \exp v$. On suppose que tout $z \in \mathrm{Sp}\,v$ vérifie $-\pi < \mathscr{J}(z) < \pi$. Alors, pour tout sous-espace vectoriel fermé $E'$ de $E$, les conditions $v(E') \subset E'$ et $g(E') = E'$ sont équivalentes.
 
-La condition $v(E') \subset E'$ entraîne $g(E') \subset E'$ et $g^{-1}(E') \subset E'$ donc $g(E') = E'$. Supposons $g(E') = E'$. Utilisons les notations $\Delta, \Delta'$ de la prop. 17. Puisque $\mathrm{Sp}\,v$
+La condition $v(E') \subset E'$ entraîne $g(E') \subset E'$ et $g^{-1}(E') \subset E'$ donc $g(E') = E'$. Supposons $g(E') = E'$. Utilisons les notations $\Delta, \Delta'$ de la prop. 17. Puisque $\mathrm{Sp}\,v$ est une partie compacte de $\Delta$, il existe un rectangle compact $Q = \{a, b\} \times \{a', b'\}$ tel que $Sp\ v \subset Q \subset \Delta$. L’ensemble $\Delta - Q$ est connexe. Donc $Sp\ g \subset \exp Q \subset \Delta'$, l’ensemble $\exp Q$ est compact, et l’ensemble $\Delta' - \exp Q$ est connexe. L’adhérence de ce dernier contient $]-\infty, 0]$, donc $(\Delta' - \exp Q) \cup ]-\infty, 0] = \mathbf{C} - \exp Q$ est connexe. Alors $\exp Q$ est polynomialement convexe (TS, I, , cor. 2 de la prop. 9), donc la fonction log, définie dans $\Delta'$, est limite dans $\mathscr{O}(\exp Q)$ de fonctions polynômes (TS, I, § 4, prop. 3). Donc $v = \log g$ est limite dans $\mathscr{L}(E)$ d’éléments de la forme $P(g)$, où $P$ est un polynôme (TS, I, § 4, th. 3). Comme $P(g)(E') \subset E'$, on en déduit que $v(E') \subset E'$
 
 #### Corollaire {#lie-iii-s6-n9-cor-1 .statement}
 

@@ -44,7 +44,7 @@ subsections:
       pdf_page: 50
 statements: 23
 exercises: 12
-content_sha256: f243cec1d375cd9ff6e2937ee31f71d5c1278a291c509be176220dc5ddc58bbf
+content_sha256: d3e0af8b948333e2e9a69b8bf7fbc365cbd542348b596451c3f827d5e23a7f76
 ---
 
 ## § 3. Représentations
@@ -248,7 +248,7 @@ $$
 $$
 donc $\psi x_Q = x_R \psi$, ce qui achève la démonstration.
 
-On identifie les g-modules $\mathscr{L}(M_1, M_2^*)$ et $(M_1 \otimes M_2)^*$ par l’isomorphisme $\psi$. Si $M_1$ et $M_2$ ont des bases finies, $\varphi$ est un isomor-
+On identifie les g-modules $\mathscr{L}(M_1, M_2^*)$ et $(M_1 \otimes M_2)^*$ par l’isomorphisme $\psi$. Si $M_1$ et $M_2$ ont des bases finies, $\varphi$ est un isomorphisme (Alg., chap. II, 3e éd., , n° 2, prop. 2), qui permet d’identifier les g-modules $M_1^* \otimes M_2$ et $\mathscr{L}(M_1, M_2)$; dans ce cas, on peut donc identifier les g-modules $M_1^* \otimes M_2^*$, $\mathscr{L}(M_1, M_2^*)$ et $(M_1 \otimes M_2)^*$
 
 ### 4. Exemples
 
@@ -432,7 +432,7 @@ Soient $K, K_1$ et $\varphi$ comme au début de ce no. Soient $g$ une $K$-algèb
 
 La démonstration se fait en deux étapes.
 
-1° Supposons d’abord que $K_1$ soit une extension de $K$ de *degré fini* $n$. Soit $U$ l’algèbre enveloppante de $g$, de sorte que l’algèbre enveloppante de $g_{(K_1)}$ est $U_{(K_1)} = U \otimes_K K_1$ (§ 2, no 9). Étant isomorphes en tant que $U_{(K_1)}$-modules, $M_{(K_1)}$ et $N_{(K_1)}$ le sont *a fortiori* en tant que $U$-modules ; mais en tant que $U$-modules, ils sont respectivement isomorphes à $M^n$ et $N^n$. Or, $M$ et $N$ sont des $U$-modules de longueur finie ; $M$ (resp. $N$) est donc somme directe d’une famille $(P_i^{r_i})_{1 \leq i \leq p}$ (resp. $(Q_j^{s_j})_{1 \leq j \leq q}$) de sous-modules tels que les $P_i$ (resp. $Q_j$) soient indécomposables et deux $P_i$ (resp. $Q_j$) d’in-
+1° Supposons d’abord que $K_1$ soit une extension de $K$ de *degré fini* $n$. Soit $U$ l’algèbre enveloppante de $g$, de sorte que l’algèbre enveloppante de $g_{(K_1)}$ est $U_{(K_1)} = U \otimes_K K_1$ (§ 2, no 9). Étant isomorphes en tant que $U_{(K_1)}$-modules, $M_{(K_1)}$ et $N_{(K_1)}$ le sont *a fortiori* en tant que $U$-modules ; mais en tant que $U$-modules, ils sont respectivement isomorphes à $M^n$ et $N^n$. Or, $M$ et $N$ sont des $U$-modules de longueur finie ; $M$ (resp. $N$) est donc somme directe d’une famille $(P_i^{r_i})_{1 \leq i \leq p}$ (resp. $(Q_j^{s_j})_{1 \leq j \leq q}$) de sous-modules tels que les $P_i$ (resp. $Q_j$) soient indécomposables et deux $P_i$ (resp. $Q_j$) d’indices distincts non isomorphes (Alg., chap. VIII, , n° 2, th. 1). Alors $M^n$ (resp. $N^n$) est isomorphe à la somme directe des $P_i^{nr_i}$ (resp. $Q_j^{ns_j}$) ; on en conclut (loc. cit.) que $p = q$ et qu’après permutation éventuelle des $Q_j$ on a $nr_i = ns_i$ et $P_i$ est isomorphe à $Q_i$ pour $1 \leq i \leq p$, donc $M$ isomorphe à $N$
 
 2° Cas général. Soient $P$ le g-module $\mathscr{L}_K(M, N)$ et $Q$ le sous-espace des invariants de $P$, c’est-à-dire l’ensemble des homomorphismes du g-module $M$ dans le g-module $N$. Dans le $g_{(K_1)}$-module $\mathscr{L}_{K_1}(M_{(K_1)}, N_{(K_1)}) = (\mathscr{L}_K(M, N))_{(K_1)}$, le sous-espace des invariants est $Q_{(K_1)}$. L’hypothèse que $M_{(K_1)}$ et $N_{(K_1)}$ sont isomorphes entraîne que $M$ et $N$ ont même dimension sur $K$, et qu’il existe dans $Q_{(K_1)}$ un élément $g$ qui est un isomorphisme de $M_{(K_1)}$ sur $N_{(K_1)}$. Soit $(f_1, \ldots, f_d)$ une base de $Q$ sur $K$. Choisissons d’autre part des bases de $M$ et $N$ sur $K$. Si $\lambda_k \in K_1$ pour $1 \leq k \leq d$, la matrice de $f = \sum_{k=1}^d \lambda_k f_k$ par rapport à ces bases a un déterminant qui est un polynôme $D(\lambda_1, \ldots, \lambda_d)$ à coefficients dans $K$. Lorsque $f = g$, ce déterminant est non nul, donc les coefficients de $D$ ne sont pas tous nuls. Par suite, si $\Omega$ est la clôture algébrique de $K$, il existe (puisque $\Omega$ est infini) des éléments $\mu_k \in \Omega$ ($1 \leq k \leq d$) tels que $D(\mu_1, \ldots, \mu_d) \neq 0$ (Alg., chap. IV, § 2, n° 5, prop. 8). Si $K_2$ est l’extension algébrique de $K$ engendrée par les $\mu_k$ ($1 \leq k \leq d$), on en conclut que $\sum_{k=1}^d \mu_k f_k$ est un isomorphisme de $M_{(K_2)}$ sur $N_{(K_2)}$; mais $K_2$ est de degré fini sur $K$ (Alg., chap. V, § 3, n° 2, prop. 5), donc $M$ et $N$ sont isomorphes en vertu de la première partie du raisonnement.
 

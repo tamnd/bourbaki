@@ -26,9 +26,9 @@ subsections:
       title: Anneaux de Jacobson
       page: 0
       pdf_page: 62
-statements: 19
+statements: 20
 exercises: 10
-content_sha256: f56ee6fe5aa54a57f75443e957c380102cd8f3e8b88aeb66ce9ba58d41af2af7
+content_sha256: 34e0294de394e95ef7bb0457d25a8485023fe67573199bc75340de8cf317648c
 ---
 
 ## § 3. Algèbres de type fini sur un corps.
@@ -98,6 +98,10 @@ est par hypothèse l’ensemble des polynômes en $x_1, \ldots, x_r, t_{r+1}, \l
 
 C.Q.F.D.
 
+#### Corollaire 1 {#ac-v-s3-thm-1-cor-1 .statement}
+
+Soient $A$ un anneau intègre, $B$ une $A$-algèbre de type fini contenant $A$ comme sous-anneau. Il existe alors un élément $s \neq 0$ de $A$ et une sous-algèbre $B'$ de $B$ isomorphe à une algèbre de polynômes $A[Y_1, \ldots, Y_n]$ tels que $B[s^{-1}]$ (chap. II, , no 1) soit entier sur $B'[s^{-1}]$
+
 Posons $S = A - \{0\}$, et soit $k = S^{-1}A$ le corps des fractions de $A$; il est clair que $S^{-1}B$ est une $k$-algèbre de type fini, et comme elle contient par hypothèse $k$ (chap. II, § 2, no 4, th. 1) elle n’est pas réduite à 0. En vertu du th. 1 (appliqué pour $p = 1$ et $a_1 = 0$) il existe donc une suite finie $(x_i)_{1 \leq i \leq n}$ d’éléments de $S^{-1}B$ algébriquement indépendants sur $k$ et tels que $S^{-1}B$ soit entier sur $k[x_1, \ldots, x_n]$. Soit $(z_j)_{1 \leq j \leq m}$ un système de générateurs de la $A$-algèbre $B$; dans $S^{-1}B$, chacun des $z_j/1$ vérifie une équation de dépendance intégrale
 
 $$
@@ -162,7 +166,7 @@ L’assertion (i) résulte du no 1, cor. 3 du th. 1 appliqué en remplaçant $A$
 
 Si $f$ est un $k$-homomorphisme de $A$ dans $L$, $f(A)$ est un sous-anneau de $L$ contenant $k$; comme $L$ est une extension algébrique de $k$, $f(A)$ est un corps ($Alg.$, chap. V, $§ 3$, no 2, prop. 3) et si $a$ est le noyau de $f$, $A/a$, isomorphe à $f(A)$, est donc un corps, ce qui prouve que $a$ est maximal. Inversement, si $a$ est un idéal maximal de $A$, il résulte de (i) qu’il existe un $k$-homomorphisme de $A/a$ dans $L$, donc un $k$-homomorphisme de $A$ dans $L$, dont le noyau $b$ contient $a$; mais comme $a$ est maximal, on a $b = a$; ceci prouve (iii).
 
-Démontrons (ii). Si $s$ est un $k$-automorphisme de $L$ tel que $f_2 = s \circ f_1$, il est clair que $f_1$ et $f_2$ ont même noyau. Réciproquement, supposons que $f_1$ et $f_2$ aient même noyau; il existe
+Démontrons (ii). Si $s$ est un $k$-automorphisme de $L$ tel que $f_2 = s \circ f_1$, il est clair que $f_1$ et $f_2$ ont même noyau. Réciproquement, supposons que $f_1$ et $f_2$ aient même noyau; il existe alors un $k$-isomorphisme $s_0$ du corps $f_1(A)$ sur le corps $f_2(A)$ tel que $f_2 = s_0 \circ f_1$; mais en vertu de *Alg.*, chap. V, , no 3, prop. 7, $s_0$ se prolonge en un $k$-automorphisme $s$ de $L$, et on a donc $f_2 = s \circ f_1$
 
 Enfin, si $x \in A$ est tel que $x^n = 0$, pour tout $k$-homomorphisme $f$ de $A$ dans $L$, on a $(f(x))^n = f(x^n) = 0$, donc $f(x) = 0$ puisque $L$ est un corps. Inversement, supposons que $x \in A$ ne soit pas nilpotent; alors $A[x^{-1}]$ est une $A$-algèbre de type fini (donc une $k$-algèbre de type fini) non réduite à 0 (chap. II, § 2, no 1, *Remarque 3*), donc il existe un $k$-homomorphisme $g$ de $A[x^{-1}]$ dans $L$ en vertu de (i). Si $j : A \to A[x^{-1}]$ est l’homomorphisme canonique, $f = g \circ j$ est un $k$-homomorphisme de $A$ dans $L$, et on a $f(x)g(1/x) = g(x/1)g(1/x) = g(1) = 1$, d’où $f(x) \neq 0$.
 

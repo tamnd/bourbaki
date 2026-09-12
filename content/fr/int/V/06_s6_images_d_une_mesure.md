@@ -36,7 +36,7 @@ subsections:
       pdf_page: 83
 statements: 31
 exercises: 22
-content_sha256: a854490aab3a5a7d8f40be167f587454237cab0426ee2daabcfd82ac0281e016
+content_sha256: d24cae5d8703f5ac20b021cafa9f9e66002fa000580e329b0efb4af6f86c0368
 ---
 
 ## § 6. — Images d’une mesure
@@ -86,7 +86,7 @@ Si $\pi$ est $\mu$-mesurable et si, pour toute partie compacte K de X, $\pi^{-1}
 
 #### Remarque 3 {#int-v-s6-n1-rem-3 .statement}
 
-Supposons que la topologie de X admette une base dénombrable; alors toute application $\pi$ de T dans X qui vérifie
+Supposons que la topologie de X admette une base dénombrable; alors toute application $\pi$ de T dans X qui vérifie la condition b) de la prop. 1 est $\mu$-mesurable, et par suite $\mu$-propre. Il suffit d’appliquer le th. 4 du chap. IV, , n° 5, en remarquant que X est alors métrisable (Top. gén., Chap. IX, 2e éd., § 2, n° 9, cor. de la prop. 16) et que, pour une distance quelconque compatible avec la topologie de X, toute boule fermée est réunion dénombrable d’ensembles compacts
 
 ### 2. Intégration par rapport à l’image d’une mesure positive
 
@@ -193,6 +193,8 @@ Soient T et X deux espaces localement compacts, μ une mesure positive sur T, π
 $$
 \pi((g \circ \pi) . \mu) = g . \pi(\mu).
 $$
+
+Posons $\nu = \pi(\mu)$. Pour que $g$ soit localement $\nu$-intégrable, il faut et il suffit que $gf$ soit $\nu$-intégrable pour toute fonction $f \in \mathscr{K}(X)$; comme $gf$ a un support compact, il revient au même de dire que $gf$ est essentiellement $\nu$-intégrable, et cela équivaut à dire que $(g \circ \pi)(f \circ \pi)$ est essentiellement $\mu$-intégrable (th. 1). Mais en vertu du th. 1 du , n° 3, cela signifie que $f \circ \pi$ est essentiellement intégrable pour $\rho = (g \circ \pi) \cdot \mu$, et, par définition, cela veut dire que $\pi$ est $\rho$-propre (puisque $\pi$ est évidemment $\rho$-mesurable). En outre, on a
 
 $$
 \int fg\, d\nu = \int f(\pi(t))g(\pi(t))\, d\mu(t) = \int f(\pi(t))\, d\rho(t)

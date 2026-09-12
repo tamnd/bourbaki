@@ -36,8 +36,8 @@ subsections:
       page: 338
       pdf_page: 344
 statements: 15
-exercises: 16
-content_sha256: 50eb28dc9791a8f8766122492868642bc5ff7a0d59ae641670586ce32566560a
+exercises: 21
+content_sha256: 07add2fe18c1421a6a493fda74167ba89cc4a006942aeb2d6b99ae33b22f5501
 ---
 
 ## 2. FUNDAMENTAL TOPOLOGICAL PROPERTIES OF THE REAL LINE
@@ -153,7 +153,7 @@ If $K'$ is the complement of the union of the $I_{n,p}$, the closed set $K = A \
 
 *Let I be an interval in R. Then a mapping f of I into R is a homeomorphism of I onto f(I) if and only if f is strictly monotonic and continuous on I; and f(I) is then an interval in R.*
 
-1) The condition is necessary. Let $a$ and $b$ be two points of I such that $a < b$, and suppose for example that $f(a) < f(b)$. Let us show that $f$ is strictly increasing on I. First, if $a < c < b$ then we must have $f(a) < f(c) < f(b)$; if, for example, we had $f(a) < f(b) < f(c)$
+1) The condition is necessary. Let $a$ and $b$ be two points of I such that $a < b$, and suppose for example that $f(a) < f(b)$. Let us show that $f$ is strictly increasing on I. First, if $a < c < b$ then we must have $f(a) < f(c) < f(b)$; if, for example, we had $f(a) < f(b) < f(c)$ then the image of the interval $[a, c]$ under $f$ would be a connected set (Chapter I, , no. 2, Proposition 4) and would therefore contain the interval $[f(a), f(c)]$; hence there would exist $x \in [a, c]$ such that $f(x) = f(b)$, contrary to the hypothesis that $f$ is injective
 
 It follows that if $x$ and $y$ are any two points of I such that $x < y$, then $f(x) < f(y)$; for we have $f(a) < f(x) < f(b)$ if $a < x < b$, $f(a) < f(b) < f(x)$ if $b < x$, and $f(x) < f(a) < f(b)$ if $x < a$; repeating the argument with $a, x, y$ in place of $a, b, x$ respectively, we see that $f(x) < f(y)$.
 

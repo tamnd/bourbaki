@@ -34,9 +34,9 @@ subsections:
       title: Structure des bigèbres filtrées en caractéristique 0
       page: 0
       pdf_page: 13
-statements: 27
+statements: 28
 exercises: 12
-content_sha256: 417980af9583930eeefc15e1482d8c82aabb4b71b39c7322f4e486934610b33c
+content_sha256: bea84c532a88efa7886981737b7cd978a84404424ef06d34fa5c7d0d97b1f0bc
 ---
 
 ## § 1. Bigèbre enveloppante d’une algèbre de Lie
@@ -259,6 +259,10 @@ Si $x \in E_1^+$, on a $c^+(x) = 0$ d’après (7), d’où (5).
 Rappelons que g désigne une algèbre de Lie, et U son algèbre enveloppante, munie de sa filtration canonique $(U_n)_{n \geq 0}$.
 
 1 Si A et B sont deux sous-modules de E, on désigne par $\operatorname{Im}(A \otimes B)$ l’image de l’application canonique $A \otimes B \to E \otimes E$.
+
+#### Proposition 7 {#lie-ii-s1-prop-7 .statement}
+
+Il existe sur l’algèbre U un coproduit c et un seul faisant de U une bigèbre telle que les éléments de $\sigma(g)$ soient primitifs. La bigèbre $(U, c)$ est cocommutative; sa coïunité est la forme linéaire $\varepsilon$ telle que le terme constant (chap. I, , n° 1) de tout élément $x$ de U soit $\varepsilon(x) . 1$. La filtration canonique $(U_n)_{n \geq 0}$ de U est compatible avec cette structure de bigèbre
 
 a) Soit $x \in g$; posons $c_0(x) = \sigma(x) \otimes 1 + 1 \otimes \sigma(x) \in U \otimes U$. Si $x, y$ sont dans $g$, on a $c_0(x)c_0(y) = (\sigma(x)\sigma(y)) \otimes 1 + 1 \otimes (\sigma(x)\sigma(y)) + \sigma(x) \otimes \sigma(y) + \sigma(y) \otimes \sigma(x)$, d’où
 

@@ -45,7 +45,7 @@ subsections:
       pdf_page: 127
 statements: 29
 exercises: 58
-content_sha256: 30760f149ab2c67e0e4434bb0adc4e82484040cc992dcfdbb46c774ebcd55842
+content_sha256: d4a9d7b0a297fb36d58d11080939c18134be68cd7ca8f3130b786f023d0f006e
 ---
 
 ## § 1. VECTEURS DE WITT
@@ -521,6 +521,8 @@ $$
 V^m(a) \times b = V^m(a \times F^m(b))
 $$
 résultent de la prop. 3 du n° 5 par récurrence sur $m$. Elles entraînent que $V_m(A)$ est un idéal de W(A).
+
+On pose $V_m(A) = W(A)$ si $m < 0$. La suite $(V_m(A))_{m \in \mathbf{Z}}$ est une filtration décroissante sur le groupe additif de l’anneau $W(A)$. Elle est compatible avec la structure d’anneau de $W(A)$ (III, , no 1, déf. 2) si et seulement si $A$ est un anneau de caractéristique $p$ (cf. no 3, exemple 2 et infra, no 8, corollaire de la prop. 5)
 
 Dans la suite, on munira $W(A)$ de la topologie $\mathscr{T}$ associée à la filtration $(V_m(A))_{m \in \mathbf{Z}}$. Comme $V_m(A)$ est un idéal de $W(A)$ pour tout $m \in \mathbf{Z}$, la topologie $\mathscr{T}$ est compatible avec la structure d’anneau de $W(A)$ (TG, III, p. 49, exemple 3). Soit $a \in W(A)$; les ensembles $a + V_m(A)$, où $m$ parcourt $\mathbf{N}$, forment un système fondamental de voisinages de $a$ pour $\mathscr{T}$. Or, il résulte du lemme 4 que $a + V_m(A)$ se compose des vecteurs de Witt $b$ tels que $a_i = b_i$ pour $0 \leq i < m$. Par suite, $\mathscr{T}$ n’est autre que la topologie produit sur $A^\mathbf{N}$ de la topologie discrète sur chacun des facteurs, et $W(A)$ est donc un anneau topologique séparé et complet (TG, II, p. 17, prop. 10 et TG, III, p. 22, prop. 4).
 

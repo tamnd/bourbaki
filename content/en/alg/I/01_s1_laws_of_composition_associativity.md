@@ -38,7 +38,7 @@ subsections:
       pdf_page: 35
 statements: 31
 exercises: 16
-content_sha256: eaaedbec437fbe10ada976447d7ff373c517077b94d3572b3e47bdbac09779cc
+content_sha256: 51eb315865ebd0fe6d8b55423bd4e7c627c6f96079439a547acab4fe95c7441d
 ---
 
 ## § 1. LAWS OF COMPOSITION; ASSOCIATIVITY; COMMUTATIVITY
@@ -435,6 +435,8 @@ Let E be a magma and R an equivalence relation on E compatible with the law on E
 #### Proposition 8 {#alg-i-s1-prop-8 .statement}
 
 Let E be a magma, A a stable subset of E and R an equivalence relation on E compatible with the law on E. The saturation B of A with respect to R (Set
+
+Theory, II, , no. 5) is a stable subset. The equivalence relations $R_A$ and $R_B$ induced by $R$ on $A$ and $B$ respectively are compatible with the induced laws and the mapping derived from the canonical injection of $A$ into $B$ by passing to the quotients is a magma isomorphism of $A / R_A$ onto $B / R_B$
 
 Let $\top$ denote the law on $E$. If $x$ and $y$ are two elements of $B$ there exist two elements $x'$ and $y'$ of $A$ such that $x \equiv x' \pmod{R}$ and $y \equiv y' \pmod{R}$; then $x \top y \equiv x' \top y' \pmod{R}$ and $x' \top y' \in A$, whence $x \top y \in B$. Thus $B$ is a stable subset of $E$ and the other assertions are obvious.
 

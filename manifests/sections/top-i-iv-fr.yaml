@@ -408,7 +408,7 @@ chapters:
           book_pages: TG IV.6-TG IV.10, TG IV.47-TG IV.51
           subsections: 6
           statements: 13
-          exercises: 16
+          exercises: 22
           extraction: ocr
           content_sha256: aa277126515e54e642c0f823539a049d38c8c95374f7d5347f4e9ff127c1134d
         - kind: section

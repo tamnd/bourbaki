@@ -7,7 +7,7 @@ section: 1
 section_title: Subgroups and quotient groups of $\mathbf{R}^n$
 lang: en
 source: top-v-x
-pdf_pages: 0073-0084, 0093-0099
+pdf_pages: 0073-0085, 0093-0099
 extraction: ocr
 subsections:
     - "no": 1
@@ -36,7 +36,7 @@ subsections:
       pdf_page: 84
 statements: 19
 exercises: 15
-content_sha256: 07826542ef19c3012458e0f7113389f19de5a79362d99c7d0a88b25808de4eb6
+content_sha256: d343a34bdaaa4927fb459400448d55f1b23a3d001323cebd333634038ab034a6
 ---
 
 ## 1. SUBGROUPS AND QUOTIENT GROUPS OF $\mathbf{R}^n$
@@ -345,7 +345,7 @@ The set $G$ of all periods of a periodic function $f$ is clearly a *subgroup* (w
 
 If $(a_i)$ and $(b_i)$ are two principal systems of periods of $f$, we have seen (no. 1) that each can be obtained from the other by a linear transformation with integer coefficients and determinant $\pm 1$.
 
-Let $\varphi$ be the canonical mapping of $\mathbf{R}^n$ onto $\mathbf{R}^n/G$; to every mapping $g$ of $\mathbf{R}^n/G$ into a set $E$ corresponds the function $\dot{g} = g \circ \varphi$, which is a periodic mapping of $\mathbf{R}^n$ into $E$, having a group of periods which
+Let $\varphi$ be the canonical mapping of $\mathbf{R}^n$ onto $\mathbf{R}^n/G$; to every mapping $g$ of $\mathbf{R}^n/G$ into a set $E$ corresponds the function $\dot{g} = g \circ \varphi$, which is a periodic mapping of $\mathbf{R}^n$ into $E$, having a group of periods which contains $G$; and conversely every mapping of $\mathbf{R}^n$ into $E$ which has a group of periods containing $G$ is of this form, since it is compatible with the relation $x \equiv y \pmod{G}$ (Set Theory, R, , no. 7). In this way we define a bijective mapping $g \to \dot{g}$ of the set of all mappings of $\mathbf{R}^n/G$ into $E$ onto the set of all mappings of $\mathbf{R}^n$ into $E$ whose group of periods contains $G$. For $\dot{g}$ to be continuous ($E$ being a topological space) it is necessary and sufficient that $g$ should be continuous (Chapter I, § 3, no. 4, Proposition 6)
 
 ### Exercises {#top-vii-s1-exercises}
 

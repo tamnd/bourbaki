@@ -56,7 +56,7 @@ subsections:
       pdf_page: 116
 statements: 57
 exercises: 10
-content_sha256: 1e20c7e2af68d2303190be54747077fcbad96cbb92c8e06e7aca05557d394b00
+content_sha256: 130ae9175b99f00bcefb2b1f811601f84592e6016966ab3214562ff3a2cea81c
 ---
 
 ## § 1. Groupes de Lie
@@ -168,6 +168,8 @@ Exemples de groupes de Lie.
 
 1. Soit E un espace normable complet sur K. L’application $(x, y) \mapsto x - y$ de $E \times E$ dans E est linéaire continue, donc analytique. Donc E, muni de ses structures de groupe additif et de variété analytique, est un groupe de Lie.
 En particulier, K est un groupe de Lie.
+
+2. Soit A une algèbre associative unifière normable complète sur K. La multiplication $(x, y) \mapsto xy$ de $A \times A$ dans A est bilinéaire continue, donc analytique. La prop. 3 montre que le groupe $A^*$ des éléments inversibles de A est ouvert dans A (ce qui résulte aussi de TG, IX, , prop. 13), et que $A^*$ est un groupe de Lie
 
 Par exemple, soit E un espace normable complet sur K, et prenons $A = \mathscr{L}(E)$ (TG, IX, § 3, prop. 5). Alors $A^*$ est le groupe $\mathbf{GL}(E)$ des automorphismes de E. *Ce groupe est donc muni canoniquement d’une structure de groupe de Lie sur K.* Plus particulièrement, $\mathbf{GL}(n, K)$, muni de la structure de variété induite par celle de $\mathbf{M}_n(K)$, est un groupe de Lie. Pour $n = 1$, on voit que le groupe multiplicatif $K^*$ est un groupe de Lie pour la structure de variété induite par celle de K.
 
@@ -392,6 +394,8 @@ Soient X un groupe de Lie, G un sous-groupe de Lie de X.
 
 (ii) Si G est distingué dans X, X/G est un groupe de Lie pour sa structure de groupe et sa structure de variété définie en (i). L’application π est un morphisme de groupes de Lie.
 
+D’après TG, III, , n° 1, Exemple 1, G opère proprement et librement dans X par translations à droite. Donc la première assertion de (i) résulte de la prop. 10 du n° 5. La deuxième résulte de la Remarque du n° 5. Puisque π est une submersion, le noyau de T_x(π) est l’espace tangent en x à
+
 $$
 \pi^{-1}(\pi(x)) = xG = \gamma(x)(G),
 $$
@@ -573,6 +577,8 @@ donc $\sigma_u(x) = \varphi((u, x))$ pour tout $x \in X$, ce qui prouve notre as
 *Par exemple, soient $G$ un groupe de Lie réel de dimension finie, $G_0$ un sous-groupe de Lie compact de $G$, et $X$ l’espace homogène $G/G_0$. Notons $x_0$ l’image canonique de $e$ dans $X$. Il existe une forme bilinéaire symétrique positive non dégénérée sur $T_{x_0}(X)$
 
 ¹ Nous appelons ici section de $E$ une application $\sigma$ (non nécessairement de classe $C^r$) de $X$ dans $E$ telle que $p \circ \sigma = \mathrm{Id}_X$, où $p$ désigne la projection de $E$ sur $X$.
+
+invariante par $G_0$ (INT, VII, , prop. 1). Appliquant ce qui précède à $(TX)^* \otimes (TX)^*$, on voit qu’il existe sur $X$ une métrique riemannienne analytique invariante par $G_*$
 
 #### Corollaire 2 {#lie-iii-s1-prop-17-cor-2 .statement}
 

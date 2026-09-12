@@ -48,7 +48,7 @@ subsections:
       pdf_page: 236
 statements: 23
 exercises: 27
-content_sha256: e4acba64addabc770fa1d85f4fcbf658451c06a66608d1c5e36d0fccd77971db
+content_sha256: bd58b2a9c389cecc00a730d25e8d44b0a759280d80ba2a928402bc8c6d17834b
 ---
 
 ## § 3. Anneaux factoriels
@@ -127,7 +127,7 @@ Soient A un anneau intègre, K son corps des fractions, et U le groupe multiplic
 
 Soit A un anneau intègre. Pour que A soit factoriel, il faut et il suffit qu’il existe une partie P de A telle que tout $a \in A - \{0\}$ s’écrive de manière unique sous la forme $a = u \prod_{p \in P} p^{n(p)}$, où $u \in U$, et où les $n(p)$ sont des entiers positifs, nuls sauf un nombre fini d’entre eux.
 
-Si P vérifie cette condition, il est clair que tous ses éléments sont extrémaux, et que tout élément extrémal de A est associé à
+Si P vérifie cette condition, il est clair que tous ses éléments sont extrémaux, et que tout élément extrémal de A est associé à un élément de P et à un seul. Rappelons qu’on dit alors que P est un système représentatif d’éléments extrémaux de A (Alg., chap. VII, , n° 3, déf. 2)
 
 Supposons toujours A factoriel. On a vu (n° 2, th. 1) que le groupe $\mathscr{P}^*$ est réticulé. On peut donc appliquer les résultats d’Alg., chap. VI, § 1, n°s 9 à 13. En particulier, tout élément de K* s’écrit, d’une façon et essentiellement d’une seule, sous forme de fraction irréductible. Deux éléments quelconques $a, b$ de K* ont un p.g.c.d. et un p.p.c.m.; si $a = u \prod_{p \in P} p^{n(p)}$ et $b = u' \prod_{p \in P} p^{m(p)}$ sont des décompositions de $a$ et $b$ en produits d’éléments extrémaux, on a:
 
@@ -151,7 +151,7 @@ Cela résulte aussitôt de la déf. 1 du n° 1 et du § 1, n° 10, prop. 17.
 
 ### 5. Anneaux de polynômes sur un anneau factoriel
 
-Soient A un anneau factoriel, K son corps des fractions, et $f$ un élément non nul de $K[X]$; un élément c de $K^*$ sera appelé un contenu de $f$ si c’est un p.g.c.d. des coefficients de $f$. Soient $v$ une valuation de K essentielle pour A, et $\bar{v}$ son prolongement canonique
+Soient A un anneau factoriel, K son corps des fractions, et $f$ un élément non nul de $K[X]$; un élément c de $K^*$ sera appelé un contenu de $f$ si c’est un p.g.c.d. des coefficients de $f$. Soient $v$ une valuation de K essentielle pour A, et $\bar{v}$ son prolongement canonique à K[X] (défini par $\bar{v}\left( \sum_i a_i X^i \right) = \inf_i v(a_i)$; cf. chap. VI, , n° 1, prop. 2); on a $\bar{v}(f) = v(c)$
 
 #### Lemme 1 (Gauss) {#ac-vii-s3-lem-1 .statement}
 

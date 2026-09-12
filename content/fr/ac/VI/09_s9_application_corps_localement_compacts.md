@@ -24,14 +24,14 @@ subsections:
       pdf_page: 154
 statements: 10
 exercises: 5
-content_sha256: 58fd841f8498d862da8be15d521e5b38ce2e9b1bfe1fcd00d7596db458dbc146
+content_sha256: 7f3698c0bc10ec62cf64129e06e103c90a16b71001c1dd658b12a8fa9951c4f2
 ---
 
 ## § 9. Application : corps localement compacts.
 
 ### 1. Fonction module sur un corps localement compact.
 
-Soit K un corps localement compact (non nécessairement commutatif). Rappelons que l’on a défini (Intégr., chap. VII,
+Soit K un corps localement compact (non nécessairement commutatif). Rappelons que l’on a défini (Intégr., chap. VII, no 10, déf. 6) la fonction mod (ou mod_K) sur K comme suit : on a mod_K(0) = 0 et pour x ≠ 0 dans K, le nombre mod_K(x) est le module de l’automorphisme y → xy du groupe additif de K
 
 #### Proposition 1 {#ac-vi-s9-prop-1 .statement}
 
@@ -79,7 +79,7 @@ Par récurrence sur $n$, on se ramène à prouver le lemme pour $n = 1$. Alors $
 
 On sait que le groupe multiplicatif $(A/m)^*$ est un groupe cyclique ayant $q - 1$ éléments (Alg., chap. V, § 11, no 1, th. 1); soit $x$ un représentant dans $A$ d’un générateur de ce groupe; on a donc $x^q - x \in m$, d’où, en vertu du lemme 1, $x^{q^{n+1}} - x^{q^n} \in m^{1+jn}$, puisque $x^q$ et $x$ sont permutables. Cela prouve que $(x^{q^n})_{n \geq 0}$ est une suite de Cauchy dans $A$; comme $A$ est compact, donc complet, cette suite a une limite $s$ dans $A$, qui est évidemment telle que $s \equiv x$ (mod. $m$) et $s^q = s$. Comme $s \neq 0$, on a $s^{q-1} = 1$, plus précisément $s$ est une racine primitive $(q-1)$-ème de l’unité dans $A$. Il est clair que l’ensemble $S$, formé de $0$ et des puissances $s^j (0 \leq j \leq q-2)$ est un système de représentants des classes de $A$ mod. $m$, et est stable pour la multiplication dans $A$.
 
-Soit maintenant $a$ une uniformisante pour $v$, et considérons l’automorphisme intérieur $y \to a^{-1}ya$ de $K$; il transforme $A$ en lui-même, $m$ en lui-même, donc, par passage aux quotients,
+Soit maintenant $a$ une uniformisante pour $v$, et considérons l’automorphisme intérieur $y \to a^{-1}ya$ de $K$; il transforme $A$ en lui-même, $m$ en lui-même, donc, par passage aux quotients, il définit un automorphisme du corps $A/m$; on sait (Alg., chap. V, , n° 4, prop. 5) qu’un tel automorphisme est de la forme $z \to z^{p^r}$ avec $0 \leq r \leq f - 1$. On a donc $a^{-1}s^j a \equiv s^{jp^r} (\mathrm{mod.}\ m)$ pour $0 \leq j \leq q - 2$; comme $a \in m$ et $s \notin m$, cela entraîne $s^{-j} a s^{jp^r} \equiv a \ (\mathrm{mod.}\ m^2)$
 
 Posons
 $$

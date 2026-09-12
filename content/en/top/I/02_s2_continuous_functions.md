@@ -33,7 +33,7 @@ subsections:
       pdf_page: 40
 statements: 30
 exercises: 11
-content_sha256: f84e4ebdec0c2c2ec882d72a9bb55b7b91a53dc789ea7668bb2cbfa3568fcf52
+content_sha256: 5a947c13d33cd182b9e8960c5daa51c5f6ef9882a8dd8b42524f26da978cd38f
 ---
 
 ## 2. CONTINUOUS FUNCTIONS
@@ -213,7 +213,7 @@ Let $\mathfrak{S}$ be an arbitrary set of subsets of a set $X$; amongst the topo
 
 #### Example 3 {#top-i-s2-n3-exa-3 .statement}
 
-Product topology. Let $(X_i)_{i \in I}$ be a family of topological spaces. The coarsest topology on the product set $X = \prod_{i \in I} X_i$ for which the projec-
+Product topology. Let $(X_i)_{i \in I}$ be a family of topological spaces. The coarsest topology on the product set $X = \prod_{i \in I} X_i$ for which the projections $\mathrm{pr}_i : X \to X_i$ are continuous mappings is called the *product* of the topologies of the $X_i$; we shall study it in more detail in
 
 ### 4. FINAL TOPOLOGIES
 

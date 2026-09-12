@@ -6,23 +6,23 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 tags, 22388 references, 14948 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
+Audited: 61 chapters, 533 sections, 4632 exercises, 15338 extracted pages, 5252 tags, 22637 references, 15195 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
 
 ## Summary
 
 | Group | Hard | Soft | Not run | Failing |
 | --- | ---: | ---: | ---: | --- |
-| structure | 13 | 2 | 0 | S11 (433), S14 (686), S15 (68) |
-| tags | 7 | 1 | 1 | T03 (23311), T10 (9) |
-| mathematics | 12 | 6 | 0 | M03 (2), M06 (6), M13 (48), M14 (2650), M16 (1) |
+| structure | 14 | 2 | 0 | S11 (224), S14 (685), S15 (67) |
+| tags | 7 | 1 | 1 | T03 (23677), T10 (9) |
+| mathematics | 12 | 6 | 0 | M03 (2), M06 (6), M13 (48), M14 (2625), M16 (1) |
 | figures | 6 | 0 | 0 | F01 (158) |
-| references | 3 | 0 | 0 | R01 (3358), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1365), L03 (14), L04 (10), L05 (276), L06 (2017), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
+| references | 3 | 0 | 0 | R01 (3188), R02 (476) |
+| translation | 13 | 3 | 1 | L01 (1377), L03 (19), L04 (15), L05 (306), L06 (2031), L07 (20), L08 (5619), L10 (260), L11 (46), L13 (31), L15 (6), L16 (45) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | none |
-| hygiene | 7 | 0 | 0 | H06 (1) |
+| hygiene | 7 | 0 | 0 | none |
 
-29854 hard findings and 11188 soft, over 80 rules that ran and 2 that could not.
+29844 hard findings and 11135 soft, over 81 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -64,12 +64,6 @@ Hard, figures.
 - `content/en/lie/V/exercises/s4/17.md:15` references content/en/lie/V/exercises/images/coxeter_graphs_1.png and there is no such file
 
 and 133 more, which `bourbaki audit -only F01` prints in full.
-
-## H06 the README coverage table is the one the corpus has (1)
-
-Hard, hygiene.
-
-- `README.md` the RULES block is not what the corpus says, run bourbaki report readme -write
 
 ## M03 no character stranded out of its TeX (2)
 
@@ -121,7 +115,7 @@ Soft, mathematics.
 
 and 23 more, which `bourbaki audit -only M13` prints in full.
 
-## M14 no mathematics is left outside math mode (2650)
+## M14 no mathematics is left outside math mode (2625)
 
 Soft, mathematics.
 
@@ -151,7 +145,7 @@ Soft, mathematics.
 - `content/en-mt/ac/VIII/04_s4_series_de_hilbert_samuel.md:430` \leq is set in the prose, so the mathematics prints as its own source: One therefore has either d_x(M) < r and c_G = 0, or d_x(M) =…
 - `content/en-mt/ac/VIII/04_s4_series_de_hilbert_samuel.md:434` \to is set in the prose, so the mathematics prints as its own source: Let 0 \to M' \to M \to M'' \to 0 be an exact sequence of fin…
 
-and 2625 more, which `bourbaki audit -only M14` prints in full.
+and 2600 more, which `bourbaki audit -only M14` prints in full.
 
 ## M16 no ring is named A and Lambda in the same file (1)
 
@@ -159,7 +153,7 @@ Soft, mathematics.
 
 - `content/vi/lie/VII/exercises/s1/08.md:34` \Lambda$ là một vành here, and this file names its ring A elsewhere: one ring, two letters, and the printing sets only one of them
 
-## R01 every in-corpus reference resolves (3358)
+## R01 every in-corpus reference resolves (3188)
 
 Hard, references.
 
@@ -167,11 +161,11 @@ Hard, references.
 - `content/en/ac/I/02_s2_flat_modules.md:221` "§ 1, no. 11, Proposition 20" does not resolve: ac-i-s1 has no Proposition 20
 - `content/en/ac/I/02_s2_flat_modules.md:303` "§ 6, no. 2, Proposition 3" does not resolve: chapter I of ac has no § 6
 - `content/en/ac/I/02_s2_flat_modules.md:309` "§ 5, no. 1, Proposition 6" does not resolve: chapter I of ac has no § 5
-- `content/en/ac/I/02_s2_flat_modules.md:323` "no. 3, Remark 1" does not resolve: ac-i-s2 has 2 statements called Remark 1 and 0 of them in no. 3
-- `content/en/ac/I/02_s2_flat_modules.md:384` "no. 3, Remark 1" does not resolve: ac-i-s2 has 2 statements called Remark 1 and 0 of them in no. 3
-- `content/en/ac/I/02_s2_flat_modules.md:426` "Algebra, Chapter I, § 6, no. 13, Theorem 6" does not resolve: alg-i-s6 has no Theorem 6
-- `content/en/ac/I/02_s2_flat_modules.md:568` "*Algebra*, Chapter II, §2, no. 2, Corollary to Proposition 4" does not resolve: alg-ii-s2 prints 2 numbered corollaries of Proposition 4 and the reference does not say which
-- `content/en/ac/I/02_s2_flat_modules.md:590` "§ 1, no. 4, Proposition 4" does not resolve: ac-i-s1 has no Proposition 4
+- `content/en/ac/I/02_s2_flat_modules.md:325` "no. 3, Remark 1" does not resolve: ac-i-s2 has 2 statements called Remark 1 and 0 of them in no. 3
+- `content/en/ac/I/02_s2_flat_modules.md:386` "no. 3, Remark 1" does not resolve: ac-i-s2 has 2 statements called Remark 1 and 0 of them in no. 3
+- `content/en/ac/I/02_s2_flat_modules.md:428` "Algebra, Chapter I, § 6, no. 13, Theorem 6" does not resolve: alg-i-s6 has no Theorem 6
+- `content/en/ac/I/02_s2_flat_modules.md:572` "*Algebra*, Chapter II, §2, no. 2, Corollary to Proposition 4" does not resolve: alg-ii-s2 prints 2 numbered corollaries of Proposition 4 and the reference does not say which
+- `content/en/ac/I/02_s2_flat_modules.md:594` "§ 1, no. 4, Proposition 4" does not resolve: ac-i-s1 has no Proposition 4
 - `content/en/ac/I/03_s3_faithfully_flat_modules.md:216` "§ 5, no. 2, Corollary to Proposition 5" does not resolve: chapter I of ac has no § 5
 - `content/en/ac/I/03_s3_faithfully_flat_modules.md:259` "no. 5, Corollary 4" does not resolve: ac-i-s3 has no Corollary 4
 - `content/en/ac/I/03_s3_faithfully_flat_modules.md:287` "Remark 2" does not resolve: ac-i-s3 has no Remark 2
@@ -185,11 +179,11 @@ Hard, references.
 - `content/en/ac/II/02_s2_rings_and_modules_of_fractions.md:137` "Remark 3" does not resolve: ac-ii-s2 has no Remark 3
 - `content/en/ac/II/02_s2_rings_and_modules_of_fractions.md:173` "Remark 6" does not resolve: ac-ii-s2 has no Remark 6
 - `content/en/ac/II/02_s2_rings_and_modules_of_fractions.md:201` "Remark 7" does not resolve: ac-ii-s2 has no Remark 7
-- `content/en/ac/II/02_s2_rings_and_modules_of_fractions.md:233` "no. 1, Remark 2" does not resolve: ac-ii-s2 has no Remark 2
-- `content/en/ac/II/02_s2_rings_and_modules_of_fractions.md:260` "no. 1, Remark 2" does not resolve: ac-ii-s2 has no Remark 2
-- `content/en/ac/II/02_s2_rings_and_modules_of_fractions.md:284` "*Algebra*, Chapter VIII, § 6, no. 3, Theorem 1" does not resolve: alg-viii-s6 has no Theorem 1
+- `content/en/ac/II/02_s2_rings_and_modules_of_fractions.md:235` "no. 1, Remark 2" does not resolve: ac-ii-s2 has no Remark 2
+- `content/en/ac/II/02_s2_rings_and_modules_of_fractions.md:262` "no. 1, Remark 2" does not resolve: ac-ii-s2 has no Remark 2
+- `content/en/ac/II/02_s2_rings_and_modules_of_fractions.md:286` "*Algebra*, Chapter VIII, § 6, no. 3, Theorem 1" does not resolve: alg-viii-s6 has no Theorem 1
 
-and 3333 more, which `bourbaki audit -only R01` prints in full.
+and 3163 more, which `bourbaki audit -only R01` prints in full.
 
 ## R02 a reference that leaves the corpus names a Book of the Éléments (476)
 
@@ -261,7 +255,7 @@ Soft, solutions.
 
 and 12 more, which `bourbaki audit -only X06` prints in full.
 
-## S11 the printings of a § hold the same exercises (433)
+## S11 the printings of a § hold the same exercises (224)
 
 Hard, structure.
 
@@ -291,9 +285,9 @@ Hard, structure.
 - `content/en/alg/II/exercises/s9` exercise 13 is in fr and not here, and editions.yaml does not say the printings differ
 - `content/en/alg/II/exercises/s9` exercise 14 is in fr and not here, and editions.yaml does not say the printings differ
 
-and 408 more, which `bourbaki audit -only S11` prints in full.
+and 199 more, which `bourbaki audit -only S11` prints in full.
 
-## S14 every committed page passes the rules that gated its reading (686)
+## S14 every committed page passes the rules that gated its reading (685)
 
 Soft, structure.
 
@@ -323,9 +317,9 @@ Soft, structure.
 - `pages/ac-i-iv-fr/0268.md:1` the reading would be refused today: math: \in is set in the prose with no math span around it, so the mathematics was read as text (line 3)
 - `pages/ac-i-iv-fr/0273.md:1` the reading would be refused today: math: \mathfrak is set in the prose with no math span around it, so the mathematics was read as text (line 5)
 
-and 661 more, which `bourbaki audit -only S14` prints in full.
+and 660 more, which `bourbaki audit -only S14` prints in full.
 
-## S15 no note is left at the foot of a page with nothing pointing at it (68)
+## S15 no note is left at the foot of a page with nothing pointing at it (67)
 
 Soft, structure.
 
@@ -355,9 +349,9 @@ Soft, structure.
 - `pages/evt-i-v/0035.md:27` note 1 is at the foot of the page and nothing on the page points at it: 1 For the exercises 12 and 13, see O. Goldman and N. Iwahori, The spac…
 - `pages/evt-i-v/0268.md:22` note 1 is at the foot of the page and nothing on the page points at it: 1 We recall (GT, VIII, § 1, No. 1) that $\Re(z)$ denotes the real part…
 
-and 43 more, which `bourbaki audit -only S15` prints in full.
+and 42 more, which `bourbaki audit -only S15` prints in full.
 
-## T03 every statement in the corpus has exactly one tag (23311)
+## T03 every statement in the corpus has exactly one tag (23677)
 
 Hard, tags.
 
@@ -379,15 +373,15 @@ Hard, tags.
 - `content/en/ac/I/02_s2_flat_modules.md:257` has no tag
 - `content/en/ac/I/02_s2_flat_modules.md:281` has no tag
 - `content/en/ac/I/02_s2_flat_modules.md:313` has no tag
-- `content/en/ac/I/02_s2_flat_modules.md:325` has no tag
-- `content/en/ac/I/02_s2_flat_modules.md:331` has no tag
-- `content/en/ac/I/02_s2_flat_modules.md:386` has no tag
-- `content/en/ac/I/02_s2_flat_modules.md:412` has no tag
-- `content/en/ac/I/02_s2_flat_modules.md:438` has no tag
-- `content/en/ac/I/02_s2_flat_modules.md:446` has no tag
-- `content/en/ac/I/02_s2_flat_modules.md:453` has no tag
+- `content/en/ac/I/02_s2_flat_modules.md:327` has no tag
+- `content/en/ac/I/02_s2_flat_modules.md:333` has no tag
+- `content/en/ac/I/02_s2_flat_modules.md:388` has no tag
+- `content/en/ac/I/02_s2_flat_modules.md:414` has no tag
+- `content/en/ac/I/02_s2_flat_modules.md:440` has no tag
+- `content/en/ac/I/02_s2_flat_modules.md:448` has no tag
+- `content/en/ac/I/02_s2_flat_modules.md:455` has no tag
 
-and 23286 more, which `bourbaki audit -only T03` prints in full.
+and 23652 more, which `bourbaki audit -only T03` prints in full.
 
 ## T10 the tags of a file climb, as they did on the run that assigned them (9)
 
@@ -403,7 +397,7 @@ Soft, tags.
 - `content/vi/ens/II/06_s6_equivalence_relations.md:121` has 03TP after 03TS, which the same run assigned later
 - `content/vi/lie/IX/04_s4_root_system_associated_to_a_compact.md:428` has 01C5 after 01C7, which the same run assigned later
 
-## L01 the math spans are the English ones, in order (1365)
+## L01 the math spans are the English ones, in order (1377)
 
 Hard, translation.
 
@@ -422,10 +416,10 @@ Hard, translation.
 - `content/en-mt/ac/IV/exercises/s2/29.md:1` has 27 math spans and the English has 3
 - `content/en-mt/ac/IV/exercises/s2/30.md:1` has 23 math spans and the English has 18
 - `content/en-mt/ac/IV/exercises/s2/31.md:1` has 84 math spans and the English has 85
-- `content/en-mt/ac/IX/01_s1_vecteurs_de_witt.md:1` has 912 math spans and the English has 913
+- `content/en-mt/ac/IX/01_s1_vecteurs_de_witt.md:1` has 912 math spans and the English has 920
 - `content/en-mt/ac/IX/02_s2_anneaux_de_cohen.md:1` has 873 math spans and the English has 860
 - `content/en-mt/ac/IX/03_s3_corps_de_representants.md:110` math span 142 is "m_A/m_A^2" and the English has "K"
-- `content/en-mt/ac/IX/04_s4_fermeture_integrale_d_un_anneau_local.md:1` has 229 math spans and the English has 184
+- `content/en-mt/ac/IX/04_s4_fermeture_integrale_d_un_anneau_local.md:1` has 229 math spans and the English has 215
 - `content/en-mt/ac/IX/A_a_.md:1` has 352 math spans and the English has 351
 - `content/en-mt/ac/IX/exercises/a0/06.md:1` has 8 math spans and the English has 4
 - `content/en-mt/ac/IX/exercises/s1/08.md:1` has 9 math spans and the English has 6
@@ -433,12 +427,14 @@ Hard, translation.
 - `content/en-mt/ac/IX/exercises/s1/25.md:37` math span 44 is "c" and the English has "(a, b)"
 - `content/en-mt/ac/IX/exercises/s1/34.md:41` math span 27 is "n" and the English has "X_n"
 
-and 1340 more, which `bourbaki audit -only L01` prints in full.
+and 1352 more, which `bourbaki audit -only L01` prints in full.
 
-## L03 the heading tree is the English one (14)
+## L03 the heading tree is the English one (19)
 
 Hard, translation.
 
+- `content/en-mt/ac/IX/04_s4_fermeture_integrale_d_un_anneau_local.md:1` the heading tree is 31 deep against the English 32, and heading 5 is "#### ac-ix-s4-n1-exa-1" against "#### ac-ix-s4-n1-rem-2"
+- `content/en-mt/ac/VIII/02_s2_dimension_des_algebres.md:1` the heading tree is 38 deep against the English 39, and heading 18 is "#### ac-viii-s2-prop-3-cor-3" against "#### ac-viii-s2-n2-rem-2"
 - `content/en-mt/ac/VIII/03_s3_dimension_des_anneaux_noetheriens.md:1` the heading tree is 44 deep against the English 46, and heading 11 is "#### ac-viii-s3-prop-3" against "#### ac-viii-s3-n2-rem-2"
 - `content/en-mt/ac/VIII/06_s6_dimension_des_anneaux_gradues.md:1` the heading tree is 34 deep against the English 36, and heading 7 is "### " against "#### ac-viii-s6-n1-exa-2"
 - `content/en-mt/ac/VIII/07_s7_multiplicites.md:1` the heading tree is 35 deep against the English 41, and heading 5 is "#### ac-viii-s7-prop-1" against "#### ac-viii-s7-n1-rem-2"
@@ -450,14 +446,19 @@ Hard, translation.
 - `content/en-mt/var/1/05_s5_varietes.md:1` the heading tree is 14 deep against the English 15, and the English has "### " and this file ends
 - `content/vi/ac/X/04_s4_anneaux_reguliers.md:1` the heading tree is 36 deep against the English 36, and heading 36 is "#### ac-x-s4-exercises" against "## ac-x-s4-exercises"
 - `content/vi/alg/00_to_the_reader_iv_vii.md:1` the heading tree is 0 deep against the English 1, and the English has "## " and this file ends
+- `content/vi/alg/I/02_s2_identity_element_cancellable_elements.md:1` the heading tree is 35 deep against the English 36, and heading 30 is "### " against "#### alg-i-s2-n4-rem-1"
 - `content/vi/ens/ER/02_s2_functions.md:1` the heading tree is 0 deep against the English 1, and the English has "## " and this file ends
 - `content/vi/int/00_to_the_reader_vii_ix.md:1` the heading tree is 1 deep against the English 1, and heading 1 is "# " against "## "
+- `content/vi/top/III/02_s2_subgroups_quotient_groups_homomorphisms.md:1` the heading tree is 57 deep against the English 58, and heading 51 is "#### top-iii-s2-n9-cor-1" against "#### top-iii-s2-prop-26"
+- `content/vi/top/IV/05_s5_real_valued_functions.md:1` the heading tree is 39 deep against the English 40, and heading 9 is "#### top-iv-s5-n2-cor-1" against "#### top-iv-s5-thm-2"
 - `content/vi/ts/00_to_the_reader_i_ii.md:1` the heading tree is 0 deep against the English 1, and the English has "## " and this file ends
 
-## L04 the statement counts are the English ones (10)
+## L04 the statement counts are the English ones (15)
 
 Hard, translation.
 
+- `content/en-mt/ac/IX/04_s4_fermeture_integrale_d_un_anneau_local.md:1` has 1 of kind rem and the English has 2
+- `content/en-mt/ac/VIII/02_s2_dimension_des_algebres.md:1` has 9 of kind rem and the English has 10
 - `content/en-mt/ac/VIII/03_s3_dimension_des_anneaux_noetheriens.md:1` has 7 of kind rem and the English has 9
 - `content/en-mt/ac/VIII/06_s6_dimension_des_anneaux_gradues.md:1` has 1 of kind exa and the English has 2
 - `content/en-mt/ac/VIII/06_s6_dimension_des_anneaux_gradues.md:1` has 8 of kind rem and the English has 9
@@ -468,19 +469,26 @@ Hard, translation.
 - `content/en-mt/alg/X/02_s2_complexes_de_a_modules.md:1` has 15 of kind exa and the English has 18
 - `content/en-mt/alg/X/04_s4_produits_de_torsion.md:1` has 12 of kind cor and the English has 13
 - `content/en-mt/alg/X/04_s4_produits_de_torsion.md:1` has 2 of kind thm and the English has 3
+- `content/vi/alg/I/02_s2_identity_element_cancellable_elements.md:1` has 1 of kind rem and the English has 2
+- `content/vi/top/III/02_s2_subgroups_quotient_groups_homomorphisms.md:1` has 27 of kind prop and the English has 28
+- `content/vi/top/IV/05_s5_real_valued_functions.md:1` has 2 of kind thm and the English has 3
 
-## L05 source_content_sha256 is the English hash as it stands (276)
+## L05 source_content_sha256 is the English hash as it stands (306)
 
 Hard, translation.
 
+- `content/en-mt/ac/IX/01_s1_vecteurs_de_witt.md:1` was translated from 30760f149ab2 and content/fr/ac/IX/01_s1_vecteurs_de_witt.md is now d4a9d7b0a297, so it is stale
+- `content/en-mt/ac/IX/04_s4_fermeture_integrale_d_un_anneau_local.md:1` was translated from cb927004891b and content/fr/ac/IX/04_s4_fermeture_integrale_d_un_anneau_local.md is now 0f09f5122014, so it is stale
 - `content/en-mt/ac/IX/A_a_.md:1` was translated from 98bbdb09a04c and content/fr/ac/IX/A_a_.md is now e864a39e88aa, so it is stale
 - `content/en-mt/ac/IX/exercises/a0/06.md:1` was translated from 84cbaed7cc3e and content/fr/ac/IX/exercises/a0/06.md is now 93685b02d2a2, so it is stale
 - `content/en-mt/ac/IX/exercises/s4/13.md:1` was translated from 0db85b298fde and content/fr/ac/IX/exercises/s4/13.md is now dbd876f68b9d, so it is stale
 - `content/en-mt/ac/IX/exercises/s4/28.md:1` was translated from 479f795ad971 and content/fr/ac/IX/exercises/s4/28.md is now edcd36869356, so it is stale
 - `content/en-mt/ac/VIII/01_s1_dimension_de_krull_d_un_anneau.md:1` was translated from 39579207db3a and content/fr/ac/VIII/01_s1_dimension_de_krull_d_un_anneau.md is now e9eeac77edda, so it is stale
-- `content/en-mt/ac/VIII/03_s3_dimension_des_anneaux_noetheriens.md:1` was translated from 9e96d959c564 and content/fr/ac/VIII/03_s3_dimension_des_anneaux_noetheriens.md is now 8a46e9bac74c, so it is stale
-- `content/en-mt/ac/VIII/05_s5_anneaux_locaux_reguliers.md:1` was translated from bc0c6917e598 and content/fr/ac/VIII/05_s5_anneaux_locaux_reguliers.md is now 6ad3c554aa21, so it is stale
+- `content/en-mt/ac/VIII/02_s2_dimension_des_algebres.md:1` was translated from d7066e367064 and content/fr/ac/VIII/02_s2_dimension_des_algebres.md is now 824849cc7a62, so it is stale
+- `content/en-mt/ac/VIII/03_s3_dimension_des_anneaux_noetheriens.md:1` was translated from 9e96d959c564 and content/fr/ac/VIII/03_s3_dimension_des_anneaux_noetheriens.md is now d05cfceabb2f, so it is stale
+- `content/en-mt/ac/VIII/05_s5_anneaux_locaux_reguliers.md:1` was translated from bc0c6917e598 and content/fr/ac/VIII/05_s5_anneaux_locaux_reguliers.md is now 975ab64a9f9b, so it is stale
 - `content/en-mt/ac/VIII/06_s6_dimension_des_anneaux_gradues.md:1` was translated from 0807723a1c16 and content/fr/ac/VIII/06_s6_dimension_des_anneaux_gradues.md is now bad92e41d0cc, so it is stale
+- `content/en-mt/ac/VIII/07_s7_multiplicites.md:1` was translated from feafddbbd3f1 and content/fr/ac/VIII/07_s7_multiplicites.md is now 83bc6480ba92, so it is stale
 - `content/en-mt/ac/VIII/exercises/s2/16.md:1` was translated from f45209627685 and content/fr/ac/VIII/exercises/s2/16.md is now b7d1e9db8ac9, so it is stale
 - `content/en-mt/ac/VIII/exercises/s2/17.md:1` was translated from 01042526af67 and content/fr/ac/VIII/exercises/s2/17.md is now 7192edc97229, so it is stale
 - `content/en-mt/ac/VIII/exercises/s4/04.md:1` was translated from 20a37b46663a and content/fr/ac/VIII/exercises/s4/04.md is now a3372a5fc82a, so it is stale
@@ -489,26 +497,22 @@ Hard, translation.
 - `content/en-mt/ac/VIII/exercises/s5/13.md:1` was translated from e75deaf4fbc3 and content/fr/ac/VIII/exercises/s5/13.md is now a7469aa89b61, so it is stale
 - `content/en-mt/ac/VIII/exercises/s5/31.md:1` was translated from 1ac72854d736 and content/fr/ac/VIII/exercises/s5/31.md is now af2b9cad193f, so it is stale
 - `content/en-mt/ac/VIII/exercises/s6/10.md:1` was translated from 75ab37643168 and content/fr/ac/VIII/exercises/s6/10.md is now b77cae63f1d4, so it is stale
-- `content/en-mt/ac/X/06_s6_extension_des_scalaires_dans_les.md:1` was translated from 5ce020b59466 and content/fr/ac/X/06_s6_extension_des_scalaires_dans_les.md is now c84c8e9bbfd7, so it is stale
-- `content/en-mt/ac/X/10_s10_cohomologie_locale_dualite_de.md:1` was translated from e8bae18987be and content/fr/ac/X/10_s10_cohomologie_locale_dualite_de.md is now baf7c2e804ae, so it is stale
-- `content/en-mt/ac/X/exercises/s3/08.md:1` was translated from 28f49237a98d and content/fr/ac/X/exercises/s3/08.md is now fd466dc6568c, so it is stale
-- `content/en-mt/ac/X/exercises/s3/11.md:1` was translated from c242f56e9275 and content/fr/ac/X/exercises/s3/11.md is now 6e8cd8af7175, so it is stale
-- `content/en-mt/ac/X/exercises/s3/12.md:1` was translated from 456cffe7b22a and content/fr/ac/X/exercises/s3/12.md is now 95dd1f5a6f3f, so it is stale
-- `content/en-mt/ac/X/exercises/s3/13.md:1` was translated from 3a432d504e7c and content/fr/ac/X/exercises/s3/13.md is now 02e88208680c, so it is stale
-- `content/en-mt/ac/X/exercises/s3/14.md:1` was translated from b760363b6166 and content/fr/ac/X/exercises/s3/14.md is now e07b6b5b0b1a, so it is stale
-- `content/en-mt/ac/X/exercises/s3/15.md:1` was translated from e1d5632a6cf2 and content/fr/ac/X/exercises/s3/15.md is now 606721c30f3d, so it is stale
-- `content/en-mt/ac/X/exercises/s4/03.md:1` was translated from f999f7d30113 and content/fr/ac/X/exercises/s4/03.md is now 420c19400bdc, so it is stale
+- `content/en-mt/ac/X/01_s1_profondeur.md:1` was translated from b596f2694273 and content/fr/ac/X/01_s1_profondeur.md is now 1ae612c11429, so it is stale
+- `content/en-mt/ac/X/02_s2_modules_et_anneaux_macaulayens.md:1` was translated from ff330e575d48 and content/fr/ac/X/02_s2_modules_et_anneaux_macaulayens.md is now dddc39df458f, so it is stale
+- `content/en-mt/ac/X/03_s3_profondeur_et_dimension_homologique.md:1` was translated from cff1e54e677d and content/fr/ac/X/03_s3_profondeur_et_dimension_homologique.md is now 223e65b471a1, so it is stale
+- `content/en-mt/ac/X/04_s4_anneaux_reguliers.md:1` was translated from a112d6812052 and content/fr/ac/X/04_s4_anneaux_reguliers.md is now 5d1bd7cb23ec, so it is stale
+- `content/en-mt/ac/X/05_s5_intersections_completes.md:1` was translated from eeb344109e82 and content/fr/ac/X/05_s5_intersections_completes.md is now 91c29d8f00f5, so it is stale
 
-and 251 more, which `bourbaki audit -only L05` prints in full.
+and 281 more, which `bourbaki audit -only L05` prints in full.
 
-## L06 the glossary is followed (2017)
+## L06 the glossary is followed (2031)
 
 Soft, translation.
 
 - `content/vi/ac/00_introduction.md:1` the English mentions 100 glossary terms and 5 are not in this file as the glossary writes them: uniqueness (tính duy nhất), connected (liên thông), divisible (chia được), example (ví dụ), order (cấp)
 - `content/vi/ac/00_to_the_reader.md:1` the English mentions 42 glossary terms and 3 are not in this file as the glossary writes them: directed (có hướng), satisfy (thỏa mãn), series (chuỗi)
 - `content/vi/ac/I/01_s1_diagrams_and_exact_sequences.md:1` the English mentions 76 glossary terms and 4 are not in this file as the glossary writes them: canonically (một cách chính tắc), associated (liên kết), example (ví dụ), square (bình phương)
-- `content/vi/ac/I/02_s2_flat_modules.md:1` the English mentions 148 glossary terms and 1 are not in this file as the glossary writes them: module structure (cấu trúc môđun)
+- `content/vi/ac/I/02_s2_flat_modules.md:1` the English mentions 153 glossary terms and 4 are not in this file as the glossary writes them: principal ideal domain (miền iđêan chính), module structure (cấu trúc môđun), integral domain (miền nguyên), belong (thuộc)
 - `content/vi/ac/I/03_s3_faithfully_flat_modules.md:1` the English mentions 129 glossary terms and 7 are not in this file as the glossary writes them: finitely generated projective module (môđun xạ ảnh hữu hạn sinh), finitely generated a-module (A-môđun hữu hạn sinh), module structure (cấu trúc môđun), now prove (bây giờ chứng minh), complete (đầy đủ), conclude (kết luận), set (tập hợp)
 - `content/vi/ac/I/04_s4_flat_modules_and_tor_functors.md:1` the English mentions 35 glossary terms and 2 are not in this file as the glossary writes them: trivial (tầm thường), note (chú ý)
 - `content/vi/ac/I/exercises/s2/06.md:1` the English mentions 20 glossary terms and 2 are not in this file as the glossary writes them: finitely generated a-module (A-môđun hữu hạn sinh), set (tập hợp)
@@ -518,7 +522,7 @@ Soft, translation.
 - `content/vi/ac/II/01_s1_prime_ideals.md:1` the English mentions 82 glossary terms and 2 are not in this file as the glossary writes them: divisible (chia được), converse (đảo lại)
 - `content/vi/ac/II/02_s2_rings_and_modules_of_fractions.md:1` the English mentions 204 glossary terms and 3 are not in this file as the glossary writes them: module structure (cấu trúc môđun), totally ordered (được sắp thứ tự toàn phần), linear mapping (ánh xạ tuyến tính)
 - `content/vi/ac/II/03_s3_local_rings_passage_from_the_local_to.md:1` the English mentions 168 glossary terms and 3 are not in this file as the glossary writes them: commutative ring (vành giao hoán), linear mapping (ánh xạ tuyến tính), form (dạng)
-- `content/vi/ac/II/04_s4_spectra_of_rings_and_supports_of_modules.md:1` the English mentions 162 glossary terms and 1 are not in this file as the glossary writes them: empty set (tập rỗng)
+- `content/vi/ac/II/04_s4_spectra_of_rings_and_supports_of_modules.md:1` the English mentions 163 glossary terms and 1 are not in this file as the glossary writes them: empty set (tập rỗng)
 - `content/vi/ac/II/05_s5_finitely_generated_projective_modules.md:1` the English mentions 172 glossary terms and 3 are not in this file as the glossary writes them: finitely generated a-module (A-môđun hữu hạn sinh), a-algebra (đại số trên A), scheme (lược đồ)
 - `content/vi/ac/II/exercises/s2/16.md:1` the English mentions 16 glossary terms and 1 are not in this file as the glossary writes them: form (dạng)
 - `content/vi/ac/II/exercises/s2/17.md:1` the English mentions 27 glossary terms and 3 are not in this file as the glossary writes them: ordered (có thứ tự), define (định nghĩa), form (dạng)
@@ -529,15 +533,14 @@ Soft, translation.
 - `content/vi/ac/II/exercises/s2/24.md:1` the English mentions 26 glossary terms and 1 are not in this file as the glossary writes them: order (cấp)
 - `content/vi/ac/II/exercises/s2/26.md:1` the English mentions 49 glossary terms and 2 are not in this file as the glossary writes them: quasi-simple ring (vành gần đơn), contained (được chứa)
 - `content/vi/ac/II/exercises/s3/03.md:1` the English mentions 32 glossary terms and 1 are not in this file as the glossary writes them: reduce (rút gọn)
-- `content/vi/ac/II/exercises/s3/15.md:1` the English mentions 19 glossary terms and 1 are not in this file as the glossary writes them: order (cấp)
+- `content/vi/ac/II/exercises/s3/08.md:1` the English mentions 22 glossary terms and 2 are not in this file as the glossary writes them: isomorphic (đẳng cấu), structure (cấu trúc)
 
-and 1992 more, which `bourbaki audit -only L06` prints in full.
+and 2006 more, which `bourbaki audit -only L06` prints in full.
 
-## L07 no paragraph was left untranslated (21)
+## L07 no paragraph was left untranslated (20)
 
 Hard, translation.
 
-- `content/vi/alg/II/exercises/s9/06.md:167` paragraph 31 carries 20 English words and nothing of vi: 15. In a projective plane over a field K with at l…
 - `content/vi/alg/IX/03_s3_formes_hermitiennes_et_formes.md:279` paragraph 74 carries 2 English words and nothing of vi: (1) for all .
 - `content/vi/alg/X/exercises/s9/10.md:155` paragraph 52 carries 15 English words and nothing of vi: I can translate it, but the passage is too long to…
 - `content/vi/ens/ER/05_s5_equivalence_relations_and_quotient_sets.md:78` paragraph 24 carries 37 English words and nothing of vi: 10. Now let E, F be any two sets, which may or may…
@@ -559,7 +562,7 @@ Hard, translation.
 - `content/vi/ts/II/01_s1_transformation_de_fourier.md:1654` paragraph 432 carries 4 English words and nothing of vi: [^1]: L. Carleson, On convergence and growth of pa…
 - `content/vi/ts/V/exercises/s3/14.md:32` paragraph 5 carries 6 English words and nothing of vi: [^1]: xem D. Kazhdan, Connection of the dual space…
 
-## L08 no translation was written by a small model (5659)
+## L08 no translation was written by a small model (5619)
 
 Soft, translation.
 
@@ -589,9 +592,9 @@ Soft, translation.
 - `content/en-mt/ac/IV/exercises/s2/31.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/en-mt/ac/IV/exercises/s2/32.md:1` was translated by gpt-5-mini, which is a cut down model, so the section is worth doing again
 
-and 5634 more, which `bourbaki audit -only L08` prints in full.
+and 5594 more, which `bourbaki audit -only L08` prints in full.
 
-## L10 no English term was left standing (262)
+## L10 no English term was left standing (260)
 
 Hard, translation.
 
@@ -621,18 +624,15 @@ Hard, translation.
 - `content/vi/ac/VI/07_s7_approximation_theorem.md:156` leaves "topology" in English, and the glossary writes it "tôpô"
 - `content/vi/ac/VI/08_s8_extensions_of_a_valuation_to_an.md:191` leaves "algebra" in English, and the glossary writes it "đại số"
 
-and 237 more, which `bourbaki audit -only L10` prints in full.
+and 235 more, which `bourbaki audit -only L10` prints in full.
 
-## L11 no sentence was left untranslated (49)
+## L11 no sentence was left untranslated (46)
 
 Hard, translation.
 
 - `content/vi/ac/X/exercises/s3/14.md:34` paragraph 5 has a run of 17 words with nothing of vi in it: xem M. HOCHSTER, Topics in the homological theory of modules…
 - `content/vi/ac/X/exercises/s7/05.md:27` paragraph 3 has a run of 13 words with nothing of vi in it: \emph{xem} M. Nagata, \emph{On the Closedness of Singular Lo…
 - `content/vi/alg/I/historical_note.md:119` paragraph 45 has a run of 33 words with nothing of vi in it: J. Y. Azra, Paris (Gauthier-Villars), W. R. Hamilton, Lectur…
-- `content/vi/alg/II/exercises/s9/06.md:169` paragraph 32 has a run of 14 words with nothing of vi in it: ("fundamental theorem of projective geometry"; use Exercise …
-- `content/vi/alg/II/exercises/s9/06.md:171` paragraph 33 has a run of 4 words with nothing of vi in it: for every quadruple of
-- `content/vi/alg/II/exercises/s9/06.md:175` paragraph 35 has a run of 101 words with nothing of vi in it: Let be a vector space of finite dimension over a field a bas…
 - `content/vi/alg/VII/exercises/s1/15.md:43` paragraph 9 has a run of 14 words with nothing of vi in it: A. E. Ingham, The distribution of prime numbers (Cambridge t…
 - `content/vi/alg/VII/historical_note.md:105` paragraph 37 has a run of 45 words with nothing of vi in it: I, Cambridge, An enumeration of the contacts of lines and su…
 - `content/vi/ens/IV/historical_note.md:336` paragraph 128 has a run of 7 words with nothing of vi in it: *Was sind und was sollen die Zahlen*
@@ -652,40 +652,43 @@ Hard, translation.
 - `content/vi/lie/III/exercises/s6/08.md:21` paragraph 1 has a run of 16 words with nothing of vi in it: N. H. Kuiper, The homotopy type of the unitary group of Hilb…
 - `content/vi/lie/III/exercises/s7/09.md:23` paragraph 2 has a run of 14 words with nothing of vi in it: W. Burnside, Theory of groups of finite order (2nd ed.), Cam…
 - `content/vi/lie/III/exercises/s9/21.md:31` paragraph 5 has a run of 12 words with nothing of vi in it: xem C. Chevalley, Topological structure of solvable groups, …
+- `content/vi/lie/III/exercises/s9/28.md:32` paragraph 5 has a run of 11 words with nothing of vi in it: Lie, xin xem G. Hochschild, *The structure of Lie groups*, H…
+- `content/vi/lie/V/exercises/s6/04.md:33` paragraph 3 has a run of 23 words with nothing of vi in it: xem: H. S. M. COXETER, The product of the generators of a fi…
+- `content/vi/lie/VI/exercises/s4/10.md:24` paragraph 3 has a run of 16 words with nothing of vi in it: xem: L. SOLOMON, The orders of the finite Chevalley groups, …
 
-and 24 more, which `bourbaki audit -only L11` prints in full.
+and 21 more, which `bourbaki audit -only L11` prints in full.
 
-## L13 no word is written in another alphabet (73)
+## L13 no word is written in another alphabet (31)
 
 Hard, translation.
 
-- `content/vi/ac/II/exercises/s5/08.md:86` "(α)" is written in Greek, and this is vi
-- `content/vi/ac/II/exercises/s5/08.md:87` "(β)" is written in Greek, and this is vi
-- `content/vi/ac/II/exercises/s5/08.md:90` "(γ)" is written in Greek, and this is vi
-- `content/vi/ac/II/exercises/s5/08.md:91` "(δ)" is written in Greek, and this is vi
-- `content/vi/ac/II/exercises/s5/08.md:92` "(β)," is written in Greek, and this is vi
-- `content/vi/ac/III/exercises/s3/07.md:125` "(β)" is written in Greek, and this is vi
-- `content/vi/ac/III/exercises/s3/07.md:133` "(α)," is written in Greek, and this is vi
-- `content/vi/ac/III/exercises/s3/07.md:133` "(γ)" is written in Greek, and this is vi
-- `content/vi/ac/III/exercises/s3/07.md:133` "(γ)," is written in Greek, and this is vi
-- `content/vi/ac/III/exercises/s3/07.md:157` "*(α)," is written in Greek, and this is vi
-- `content/vi/ac/III/exercises/s3/07.md:157` "(β)*" is written in Greek, and this is vi
-- `content/vi/ac/III/exercises/s3/07.md:157` "*(γ)*" is written in Greek, and this is vi
-- `content/vi/ac/III/exercises/s3/07.md:163` "*(α)*" is written in Greek, and this is vi
-- `content/vi/ac/III/exercises/s3/07.md:163` "*(β)*" is written in Greek, and this is vi
-- `content/vi/ac/III/exercises/s3/07.md:163` "*(δ)*" is written in Greek, and this is vi
-- `content/vi/alg/II/exercises/s2/03.md:75` "(α)" is written in Greek, and this is vi
-- `content/vi/alg/II/exercises/s2/03.md:76` "(β)" is written in Greek, and this is vi
-- `content/vi/alg/II/exercises/s2/03.md:82` "(γ)" is written in Greek, and this is vi
-- `content/vi/alg/II/exercises/s2/03.md:83` "(δ)" is written in Greek, and this is vi
-- `content/vi/alg/II/exercises/s2/03.md:84` "(ζ)" is written in Greek, and this is vi
-- `content/vi/alg/II/exercises/s2/03.md:85` "(θ)" is written in Greek, and this is vi
-- `content/vi/alg/II/exercises/s2/03.md:87` "(γ)," is written in Greek, and this is vi
-- `content/vi/alg/II/exercises/s2/03.md:87` "(δ)," is written in Greek, and this is vi
-- `content/vi/alg/II/exercises/s2/03.md:120` "(E_λ)_{λ" is written in Greek, and this is vi
-- `content/vi/alg/II/exercises/s2/03.md:120` "F_λ" is written in Greek, and this is vi
+- `content/vi/alg/III/historical_note.md:1077` "xạ-ϕ" is written in Greek, and this is vi
+- `content/vi/alg/III/historical_note.md:1077` "(ϕ" is written in Greek, and this is vi
+- `content/vi/alg/III/historical_note.md:1081` "xạ-Ω" is written in Greek, and this is vi
+- `content/vi/alg/III/historical_note.md:1081` "(Ω" is written in Greek, and this is vi
+- `content/vi/alg/III/historical_note.md:1321` "ρ-đồng" is written in Greek, and this is vi
+- `content/vi/alg/III/historical_note.md:1500` "X^α" is written in Greek, and this is vi
+- `content/vi/alg/III/historical_note.md:1552` "Δ," is written in Greek, and this is vi
+- `content/vi/alg/VII/exercises/s4/09.md:47` "M(α)" is written in Greek, and this is vi
+- `content/vi/alg/VII/exercises/s4/09.md:47` "αM," is written in Greek, and this is vi
+- `content/vi/alg/VII/exercises/s4/09.md:51` "Aβ_k" is written in Greek, and this is vi
+- `content/vi/alg/VII/exercises/s4/09.md:51` "β_k" is written in Greek, and this is vi
+- `content/vi/alg/VII/exercises/s4/09.md:51` "(λM)/(λN)" is written in Greek, and this is vi
+- `content/vi/alg/VII/exercises/s4/09.md:53` "Aα_i" is written in Greek, and this is vi
+- `content/vi/alg/VII/exercises/s4/09.md:53` "(β_i)" is written in Greek, and this is vi
+- `content/vi/alg/VII/exercises/s4/09.md:53` "β_i" is written in Greek, and this is vi
+- `content/vi/alg/VII/exercises/s4/09.md:53` "β_{i−1}," is written in Greek, and this is vi
+- `content/vi/alg/VII/exercises/s4/09.md:53` "A/Aα_i;" is written in Greek, and this is vi
+- `content/vi/alg/VII/exercises/s4/09.md:59` "A/Aβ_i" is written in Greek, and this is vi
+- `content/vi/alg/VII/exercises/s4/09.md:60` "α_{k+n−p}" is written in Greek, and this is vi
+- `content/vi/alg/VII/exercises/s4/09.md:60` "β_{k+(p+q−n)}" is written in Greek, and this is vi
+- `content/vi/evt/V/exercises/s1/06.md:24` "β)" is written in Greek, and this is vi
+- `content/vi/evt/V/exercises/s1/06.md:26` "γ)" is written in Greek, and this is vi
+- `content/vi/evt/V/exercises/s1/06.md:27` "β)," is written in Greek, and this is vi
+- `content/vi/evt/V/exercises/s1/06.md:41` "α)" is written in Greek, and this is vi
+- `content/vi/evt/V/exercises/s1/06.md:44` "γ)," is written in Greek, and this is vi
 
-and 48 more, which `bourbaki audit -only L13` prints in full.
+and 6 more, which `bourbaki audit -only L13` prints in full.
 
 ## L15 no translation was written on the free gateway (6)
 

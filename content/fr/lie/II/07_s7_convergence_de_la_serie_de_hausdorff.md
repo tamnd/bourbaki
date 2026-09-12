@@ -24,7 +24,7 @@ subsections:
       pdf_page: 62
 statements: 4
 exercises: 1
-content_sha256: 4f97a41fb692b5b50c26808a80915e7bb4a530ff5802c7855df677dc64820c61
+content_sha256: 011fcf00a4fd2b1e671abb6361d9139114abbb52fb6e27b9b2e70edfb62f40f5
 ---
 
 ## § 7. Convergence de la série de Hausdorff (cas réel ou complexe)
@@ -226,6 +226,8 @@ où $m : A \times A \to A$ désigne la multiplication de $A$. Raisonnant comme a
 Soit $u = (u_j)_{j \in J}$ une famille finie d’éléments de $\hat{A}(I)$, soit $v \in \hat{A}(J)$ et posons $w = v \circ u$ (§ 5, n° 1). On a
 $$(18)$$
 $$(v \circ u)^{\sim} = \tilde{v} \circ \tilde{u}.$$
+
+Ceci résulte par prolongement par continuité de la formule (2) du , n° 1 et de VAR, R, App., n° 6
 
 Prenons en particulier $I = \{U\}$, identifions $A$ et $A^{(U)}$, et considérons les images $\tilde{e}$ et $\tilde{l}$ des séries $e(U) = \sum_{n \geq 1} U^n / n!$ et $l(U) = \sum_{n \geq 1} (-1)^{n-1} U^n / n$ dans $\hat{P}(A; A)$. On a $\| \widetilde{U^n} \| \leq 1$ car $\| x_1 \ldots x_n \| \leq \| x_1 \| \ldots \| x_n \|$ pour $x_1, \ldots, x_n$ dans $A$. Par suite, le *rayon de convergence strict de $\tilde{e}$* (resp. $l$) *est infini* (resp. $\geq 1$).
 

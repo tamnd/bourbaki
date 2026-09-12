@@ -40,7 +40,7 @@ subsections:
       pdf_page: 106
 statements: 32
 exercises: 21
-content_sha256: 28e24f1394ba64a761548c1bcc04c55acd1b720d24ccc62d40d616be83b3ed2d
+content_sha256: 554c1859da0da35b3cbfc0aef5a1114a521eaf4f40c649e2b6a4f847071ddc53
 ---
 
 ## § 8. — Produits de mesures
@@ -54,6 +54,8 @@ $$
 \int f d\lambda'_t = \int f_t d\mu'
 $$
 ce qui s’exprime encore par la relation $\lambda'_t = \varepsilon_t \otimes \mu'$.
+
+En outre, l’application $t \mapsto \lambda_t'(f)$ est continue et à support compact (chap. III, 2e éd., , n° 1, lemme 2), donc l’application $t \mapsto \lambda_t'$ de T dans $\mathscr{M}(X)$ est vaguement continue (et *a fortiori* vaguement $\mu$-mesurable); par suite la famille de mesures $t \mapsto \lambda_t'$ est $\mu$-adéquate ($\S 3,$ n° 1, prop. 2a)). L’intégrale de $f$ par rapport à la mesure $\int \lambda_t' d\mu(t)$ est par définition
 
 $$
 \int \langle f, \lambda_t' \rangle d\mu(t) = \int d\mu(t) \int f_t(t') d\mu'(t') = \int f(t, t') dv(t, t')
@@ -310,7 +312,7 @@ $$
 \int^* h(t)\ d\mu(t) = \int^* f(t)\ d\mu(t)
 $$
 
-(resp. $\int^* h'(t')\ d\mu'(t') = \int^* f'(t')\ d\mu'(t')$); l’existence de telles fonctions résulte immédiatement de la définition de l’intégrale
+(resp. $\int^* h'(t')\ d\mu'(t') = \int^* f'(t')\ d\mu'(t')$); l’existence de telles fonctions résulte immédiatement de la définition de l’intégrale supérieure (chap. IV, , n° 3, déf. 4) et du théorème de Lebesgue. Si nous appliquons la prop. 7 à la fonction mesurable $h \otimes h'$, il vient
 
 $$
 \iint^* f(t)f'(t')\,d\mu(t)\,d\mu'(t') \leq \iint^* h(t)h'(t')\,d\mu(t)\,d\mu'(t')
@@ -526,6 +528,8 @@ Mais on a (Fonct. var. réelle, chap. VII, § 1, n° 3, formule (20))
 $$
 \int_0^{\pi/2} \cos^m \varphi \, d\varphi = \frac{1}{2} \frac{\Gamma\left(\frac{1}{2}\right) \Gamma\left(\frac{m+1}{2}\right)}{\Gamma\left(\frac{m+2}{2}\right)}
 $$
+
+et en portant dans la relation (17) et tenant compte de l’expression de $\Gamma(\frac{1}{2})$ (*Fonct. var. réelle*, chap. VII, , n° 3, formule (21)), on obtient finalement
 
 $$
 V_n = \frac{\pi^{n/2}}{\Gamma\left(\frac{n}{2} + 1\right)}

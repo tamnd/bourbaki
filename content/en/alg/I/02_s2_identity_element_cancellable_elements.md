@@ -44,9 +44,9 @@ subsections:
       title: NOTATION
       page: 23
       pdf_page: 47
-statements: 25
+statements: 26
 exercises: 17
-content_sha256: ea4324c278765be303f76b877f875161c0b03258af35442379758f5aace5c86f
+content_sha256: 58c5b4347f0ca33aefb2badb7b88ee0a3b623a0ed7870a1eb54a0ccc4fdfebb0
 ---
 
 ## § 2. IDENTITY ELEMENT; CANCELLABLE ELEMENTS; INVERTIBLE ELEMENTS
@@ -338,6 +338,10 @@ Hence there exists a homomorphism $\bar{f}$ of $E_S$ into F such that $\bar{f}(a
 *Let E and F be two commutative monoids, S and T subsets of E and F respectively, f a homomorphism of E into F such that $f(S) \subset T$ and $\varepsilon : E \to E_S, \eta : F \to F_T$ the canonical homomorphisms. There exists one and only one homomorphism $g : E_S \to F_T$ such that $g \circ \varepsilon = \eta \circ f$.*
 
 The homomorphism $\eta \circ f$ of E into $F_T$ maps every element of S to an invertible element of $F_T$.
+
+#### Remark {#alg-i-s2-n4-rem-1 .statement}
+
+(1) Theorem 1 can also be expressed by saying that $(E_S, \varepsilon)$ is the solution of the universal mapping problem for E, relative to monoids, monoid homomorphisms and homomorphisms of E into monoids which map the elements of S to invertible elements (*Set Theory*, IV, , no. 1). It follows (*loc. cit.*) that every other solution of this problem is isomorphic in a unique way to $(E_S, \varepsilon)$
 
 (2) For the existence of a solution to the above universal mapping problem it is unnecessary to assume that the monoid E is commutative, as follows from *Set Theory*, IV, § 3, no. 2 (cf. Exercise 17).
 

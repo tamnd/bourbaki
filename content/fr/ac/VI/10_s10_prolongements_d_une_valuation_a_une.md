@@ -24,7 +24,7 @@ subsections:
       pdf_page: 161
 statements: 14
 exercises: 2
-content_sha256: 957db58ac3145bf3286e15a80d9fd627934fbcb4686a687a8c344613a0353a8d
+content_sha256: 30e8e7d895f59745f16988b4ec29b0f8b0c7b1e3584eeb9eff5cc2742a32f312
 ---
 
 ## § 10. Prolongements d’une valuation à une extension transcendante.
@@ -104,7 +104,7 @@ ce qui démontre notre assertion.
 
 #### Remarque {#ac-vi-s10-n1-rem-1 .statement}
 
-Il ne faudrait pas croire que les deux types de prolongements de v à K(X) que nous venons de rencontrer soient les seuls ; il peut exister un troisième type de prolongement, où $\Gamma'/\Gamma$ est un groupe de torsion, et $k'$ une extension algébrique
+Il ne faudrait pas croire que les deux types de prolongements de v à K(X) que nous venons de rencontrer soient les seuls ; il peut exister un troisième type de prolongement, où $\Gamma'/\Gamma$ est un groupe de torsion, et $k'$ une extension algébrique (non nécessairement de degré fini) de $k$. Ce troisième type n’est pas nécessairement fourni par le procédé décrit dans le lemme 1 (cf. , exerc. 1)
 
 ### 2. Rang rationnel d’un groupe commutatif.
 

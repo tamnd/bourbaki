@@ -40,7 +40,7 @@ subsections:
       pdf_page: 29
 statements: 31
 exercises: 29
-content_sha256: 5e37365274e6d0174dfd441e9158a76e87d1c0aff89baa9b72f51d8fb4bcbf1a
+content_sha256: 2fced1cd0ba3a54d251e3f3c9b51fcd23517c83d9de939b2767d351e182dd259
 ---
 
 ## § 2. Systèmes de Tits
@@ -218,6 +218,8 @@ Pour tout $s \in S$, soit $P_s$ l’ensemble des éléments $w \in W$ tels que
 $$
 C(s) \cdot C(w) = C(sw).
 $$
+
+Nous allons vérifier que les $P_s$ satisfont aux conditions (A'), (B') et (C) du , n° 7; les deux assertions du théorème résulteront alors de la prop. 6 du § 1, n° 7
 
 La condition (A') est évidente.
 

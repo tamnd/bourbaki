@@ -52,7 +52,7 @@ subsections:
       pdf_page: 92
 statements: 53
 exercises: 27
-content_sha256: 1c87d01e7ad8897e2ff485137285fecfae3e8c80750ed0111fa057d481d09b40
+content_sha256: c298a4d9b3df497dee853923fd51f8781fe85c7244d00f6900bfdb1f82a679eb
 ---
 
 ## § 6. Algèbres de Lie semi-simples
@@ -145,7 +145,7 @@ Il est clair que a) entraîne b). Supposons b) vraie. Soient $\sigma$ une repré
 
 *Soient $g$ une algèbre de Lie semi-simple, $\rho$ une représentation linéaire de $g$ dans un espace vectoriel $V$ de dimension finie et $W$ un sous-espace de $V$ de codimension 1 tel que $\rho(x)(V) \subset W$ pour tout $x \in g$. Alors il existe une droite supplémentaire de $W$ stable pour $\rho(g)$*.
 
-Pour tout $x \in g$, soit $\sigma(x)$ la restriction de $\rho(x)$ à $W$. Supposons d’abord que $\sigma$ soit simple. Si $\sigma = 0$, alors $\rho(x)\rho(y) = 0$ quels que
+Pour tout $x \in g$, soit $\sigma(x)$ la restriction de $\rho(x)$ à $W$. Supposons d’abord que $\sigma$ soit simple. Si $\sigma = 0$, alors $\rho(x)\rho(y) = 0$ quels que soient $x, y$ dans $g$, donc $\rho(g) = \rho(\cap g) = \{0\}$, et notre assertion est évidente. Si $\sigma \neq 0$, soit $n$ le noyau de $\sigma$, et soit $m$ un idéal supplémentaire de $n$ dans $g$ (lemme 1) ; on a $m \neq \{0\}$, et la restriction de $\sigma$ à $m$ est fidèle ; la restriction à $m$ de la forme bilinéaire associée à $\sigma$ est non dégénérée (prop. 1), donc on peut former l’élément de Casimir $c$ associé à $m$ et $\sigma$. D’après la prop. 12 du , no 7, $\sigma(c)$ est un automorphisme de $W$. D’autre part, $\rho(c)(V) \subset W$. Donc le noyau $Z$ de $\rho(c)$ est une droite supplémentaire de $W$ ; puisque $c$ appartient au centre de l’algèbre enveloppante de $g$, $\rho(c)$ est permutable à $\rho(x)$ pour tout $x \in g$, donc $Z$ est stable pour $\rho(g)$
 
 Dans le cas général, on raisonne par récurrence sur la dimension de $V$. Soit $T$ un sous-espace stable non nul minimal de $W$. Soit $\rho'$ la représentation quotient dans $V' = V/T$. On a, pour tout $x \in g$, $\rho'(x)(V') \subset W'$, où $W' = W/T$ est de codimension 1 dans $V'$. Par l’hypothèse de récurrence, il existe une droite $Z'$ supplémentaire de $W'$ et stable pour $\rho'(g)$. Son image réciproque $Z$ dans $V$ est stable pour $\rho(g)$, contient $T$ comme sous-espace de codimension 1, et on a $Z \cap W = T$, donc $\rho(x)(Z) \subset T$ pour tout $x \in g$. D’après ce qui a été démontré plus haut, il existe une droite supplémentaire de $T$ dans $Z$, stable pour $\rho(g)$ ; cette droite est supplémentaire de $W$ dans $V$, ce qui achève la démonstration.
 
@@ -276,6 +276,8 @@ $e) \Rightarrow f)$ : ceci est évident.
 
 $f) \Rightarrow g)$ : si le radical nilpotent de $g$ est nul, $\mathscr{O}g \cap r$ est nul ($§ 5,$ no 3, th. 1); comme $[g, r] \subset \mathscr{O}g \cap r$, $r$ est le centre de $g$.
 
+g) ⇒ a) : si r est le centre de g, la représentation adjointe de g s’identifie à une représentation de g/r, qui est une algèbre de Lie semi-simple ( , n° 2, prop. 3); cette représentation est donc semi-simple (th. 2)
+
 #### Remarque {#lie-i-s6-n4-rem-1 .statement}
 
 Si une algèbre de Lie g peut se décomposer en un produit a × b d’une algèbre de Lie commutative a et d’une algèbre de Lie semi-simple b, cette décomposition est unique. Plus précisément, le centre de g est égal au produit des centres de a et de b, donc est égal à a. Et $\mathscr{O}g = \mathscr{O}a \times \mathscr{O}b = b$.
@@ -323,6 +325,8 @@ a) $\rho$ est *semi-simple* ;
 b) *g' est réductive, et son centre est formé d'endomorphismes semi-simples* ;
 c) *r' est formé d'endomorphismes semi-simples* ;
 d) *la restriction de $\rho$ à r est semi-simple*.
+
+a) $\Rightarrow b)$: si $\rho$ est semi-simple, $g'$ est réductive (prop. 5); l’algèbre associative engendrée par 1 et $g'$ est semi-simple ($Alg.$, chap. VIII, , no 1, prop. 3), donc son centre est semi-simple (*loc. cit.*, § 5, no 4, prop. 12), donc les éléments de ce centre sont semi-simples (*loc. cit.*, § 9, no 1, prop. 2)
 
 $b) \Rightarrow c)$: si $g'$ est réductive, son centre est égal à son radical, c’est-à-dire à $r'$, d’où l’implication $b) \Rightarrow c)$.
 
@@ -424,6 +428,8 @@ $$
 $$
 
 donc $\operatorname{Tr}(uv) = 0$. Il en résulte que $u = 0$, de sorte que $\varphi$ est non dégénérée. Donc g est réductive (prop. 5). Il nous reste à montrer que le centre de g est nul (sauf si $\beta$ est symétrique et que $n = 2$). Par extension du corps de base, on peut supposer K algébriquement clos.
+
+a) Lorsque $\beta$ est symétrique, on peut l’identifier à la forme bilinéaire sur $K^n$ de matrice $I_n$ par rapport à la base canonique ($Alg.$, chap. IX, , cor. 1 du th. 1). Dans ces conditions, $g$ s’identifie à l’algèbre de Lie des matrices antisymétriques ($§ 3$, no 4, exemple 1). Soit $U = (u_{ij}) \in g$, et exprimons que $U$ commute à la matrice $(\nu_{ij}) \in g$ dont tous les éléments sont nuls sauf $\nu_{i_0j_0}$ et $\nu_{j_0i_0}$ ($i_0 \neq j_0$) qui sont égaux respectivement à 1 et -1. On trouve que $u_{ij} = u_{ji} = u_{ii_0} = u_{ij_0} = 0$ pour $i \neq i_0, j_0$ et $j \neq i_0, j_0$. Si $n > 2$, il existe, quels que soient les indices distincts $i_0$ et $j$, des indices distincts $i$ et $j_0$ tels que $i \neq i_0, j_0 \neq j, j_0 \neq i_0$; donc $u_{ij} = 0$. Ceci prouve qu’un élément du centre de $g$ est nul
 
 b) Lorsque $\beta$ est alternée et que $n = 2m$, on peut identifier $\beta$ à la forme bilinéaire sur $K^{2m}$ de matrice $\begin{pmatrix} 0 & I_m \\ -I_m & 0 \end{pmatrix}$ par rapport à la base canonique ($Alg.$, chap. IX, § 5, cor. 1 du th. 1). Dans ces conditions $g$ s’identifie à l’algèbre de Lie des matrices de la forme $U = \begin{pmatrix} A & B \\ C & D \end{pmatrix}$ avec $D = -'A$, $B$ et $C$ symétriques ($A, B, C, D$ dans $\mathbf{M}_m(K)$) ($§ 3$, no 4, exemple 1). Exprimons d’abord que $U$ commute à la matrice $\begin{pmatrix} X & 0 \\ 0 & -'X \end{pmatrix}$, où $X \in \mathbf{M}_m(K)$. Il vient $AX = XA$, $CX = -'XC$, $XB = -B.'X$; comme ces égalités doivent être vérifiées quel que soit $X$, on en déduit que $A$ est une matrice scalaire $\lambda I_m$. Exprimons maintenant que $U$ commute à la matrice $\begin{pmatrix} 0 & Y \\ 0 & 0 \end{pmatrix}$, où $Y$ est une matrice symétrique de $\mathbf{M}_m(K)$. Il vient $\lambda Y = YC = CY = 0$. Ceci prouve d’abord que $\lambda = 0$. En outre, pour tout $X \in \mathbf{M}_m(K)$, $X + 'X$ est symétrique, et on doit donc avoir $XC = -'XC$. Compte tenu de l’égalité $CX = -'XC$ obtenue plus haut, on voit que $C$ commute à tout élément de $\mathbf{M}_m(K)$, donc que $C$ est une matrice scalaire, nécessairement nulle puisque $YC = 0$. On démontre de même que $B = 0$.
 

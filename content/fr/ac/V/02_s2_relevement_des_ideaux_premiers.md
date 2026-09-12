@@ -27,8 +27,8 @@ subsections:
       page: 0
       pdf_page: 52
 statements: 46
-exercises: 12
-content_sha256: 30000ba43e3bca2ac6c7564a342102b8753fa329d503fb09f2b4b104d986c240
+exercises: 22
+content_sha256: 988e546d1e9b404ed796a1e846778326a3101ccd169fabf8146e9871ef90c122
 ---
 
 ## § 2. Relèvement des idéaux premiers.
@@ -123,6 +123,8 @@ Soient $h : A \to A'$ un homomorphisme d’anneaux tel que $A'$ soit entier sur 
 (iii) L’homomorphisme canonique $A'/mA' \to \prod_j (A'/q'_j)$ est bijectif.
 
 Pour qu’un idéal premier de $A'$ contienne $mA'$, il faut et il suffit que son image réciproque par $h$ contienne $m$, donc qu’il soit au-dessus de $m$, puisque $m$ est maximal dans $A$; les $m'_j$ sont donc les seuls idéaux premiers de $A'$ contenant $mA'$ (prop. 1), et par suite $r' = \bigcap_j m'_j$ est la racine de $mA'$ (chap. II, $§ 2$, n° 6, cor. 1 de la prop. 13). Par définition de $q'_j$, la classe mod. $q'_j$ d’un élément de $A' - m'_j$ n’est pas diviseur de 0 dans $A'/q'_j$; d’autre part, comme les $m'_j$ sont des idéaux maximaux distincts, pour tout indice $j$ il existe un élément $a'_j$ appartenant à $\bigcap_{i \neq j} m'_j$ et non à $m'_j$ (chap. II, $§ 1$, n° 1, prop. 4); pour tout $x \in m'_j$, on a alors $a'_j x \in r'$, donc la classe mod. $q'_j$ de $a'_j x$ est nilpotente, et comme celle de $a'_j$ n’est pas diviseur de 0, on en conclut que la classe de $x$ est nilpotente;
+
+autrement dit $m_j'$ est la racine de $q_j'$, ce qui prouve (i). Il en résulte que les $q_j'$ sont deux à deux étrangers (chap. II, , no 1, prop. 3); (iii) sera donc une conséquence de (ii), compte tenu du chap. II, § 1, no 2, prop. 5. Pour établir (ii), notons que dans l’anneau $A'/mA'$, les $m_j'/mA'$ sont les seuls idéaux maximaux et $q_j'/mA'$ est le saturé de (0) pour $m_j'/mA'$ (chap. II, § 2, no 4); on peut donc se borner au cas où $mA' = (0)$; l’assertion de (ii) résulte alors du chap. II, § 3, no 3, cor. 2 du th 1
 
 #### Remarque 1 {#ac-v-s2-n1-rem-1 .statement}
 
@@ -233,6 +235,8 @@ Soient $A'$ un anneau, $\mathscr{G}$ un groupe fini opérant sur $A'$, $A$ l’a
 
 (*) Afin d’éviter des confusions avec d’autres sens du mot « normal », nous emploierons désormais les termes « extension quasi-galoisienne » comme synonymes des termes « extension normale » définis en Alg., chap. V, § 6, no 2, déf. 2.
 
+(ii) Pour voir que $k'$ est une extension quasi-galoisienne de $k$, il suffit de prouver que tout élément $\bar{x} \in A'/\mathfrak{p}'$ est racine d’un polynôme $P$ de $k[X]$ dont toutes les racines sont dans $A'/\mathfrak{p}'$ ($Alg.$, chap. V, , no 3, cor. 3 de la prop. 9). Or, soit $x \in A'$ un représentant de la classe $\bar{x}$; le polynôme $Q(X) = \prod_{\sigma \in \mathscr{G}} (X - \sigma.x)$ a tous ses coefficients dans $A$; soit $P(X)$ le polynôme de $(A/\mathfrak{p})[X]$ dont les coefficients sont les images de ceux de $Q$ par l’homomorphisme canonique $\pi : A \to A/\mathfrak{p}$. Comme $\pi$ peut être considéré comme la restriction à $A$ de l’homomorphisme canonique $\pi' : A' \to A'/\mathfrak{p}'$, on voit que, dans $(A'/\mathfrak{p'})[X]$, $P$ est produit des facteurs linéaires $X - \pi'(\sigma.x)$, et répond par suite à la question, puisque $\bar{x} = \pi'(x)$
+
 Il est clair que pour tout $\sigma \in \mathscr{G}^z$, $\bar{\sigma}$ est un $k$-automorphisme de $k'$; il reste à voir que $\sigma \to \bar{\sigma}$ applique $\mathscr{G}^z$ sur le groupe de tous les $k$-automorphismes de $k'$. Posons $S = A - \mathfrak{p}$; on ne change pas $k$ et $k'$ en remplaçant $A'$ et $\mathfrak{p}'$ par $S^{-1}A'$ et $S^{-1}\mathfrak{p}'$ respectivement, en vertu du § 1, no 9, prop. 23 et de la relation $S^{-1}\mathfrak{p}' \cap S^{-1}A = S^{-1}(A \cap \mathfrak{p}') = S^{-1}\mathfrak{p}$ (chap. II, § 2, no 4); il résulte du lemme 3 que l’on ne change pas ainsi non plus $\mathscr{G}^z$ ni la façon dont opère $\mathscr{G}^z$ sur $k'$; on peut par suite se borner au cas où $\mathfrak{p}$ est maximal, auquel cas on sait qu’il en est de même de $\mathfrak{p}'$ (no 1, prop. 1), et tout élément de $k'$ est donc de la forme $\pi'(x)$ pour un $x \in A'$; on a vu ci-dessus qu’un tel élément est racine d’un polynôme de $k[X]$ de degré $\leqslant \mathrm{Card}(\mathscr{G})$. Comme toute extension séparable de degré fini de $k$ admet un élément primitif ($Alg.$, chap. V, § 7, no 7, prop. 12 et § 11, no 4, prop. 4), on voit que toute extension séparable de degré fini de $k$ contenue dans $k'$ est de degré $\leqslant \mathrm{Card}(\mathscr{G})$, d’où résulte que la plus grande extension séparable $k'_s$ de $k$ contenue dans $k'$ ($Alg.$, chap. V, § 7, no 6, prop. 11) est de degré $\leqslant \mathrm{Card}(\mathscr{G})$ ($Alg.$, chap. V, § 3, no 2, Remarque 2). Soit $y \in A'$ un élément tel que $\pi'(y)$ soit élément primitif de $k'_s$. Les idéaux $\sigma.\mathfrak{p}'$ pour $\sigma \in \mathscr{G} - \mathscr{G}^z$ sont maximaux et distincts de $\mathfrak{p}'$ par définition; il existe par suite $x \in A'$ tel que $x \equiv y \pmod{\mathfrak{p}'}$ et $x \in \sigma^{-1}\mathfrak{p}'$ pour $\sigma \in \mathscr{G} - \mathscr{G}^z$ (chap. II, § 1, no 2, prop. 5). Cela étant, soit $u$ un $k$-automorphisme de $k'$ et soit $P(X) = \prod_{\sigma \in \mathscr{G}} (X - \pi'(\sigma.x))$; comme $\pi'(x)$ est racine de $P$ et que $P \in k[X]$, $u(\pi'(x))$ est aussi racine de $P$ dans $k'$, donc il existe $\tau \in \mathscr{G}$ tel que
 $$
 u(\pi'(x)) = \pi'(\tau.x);
@@ -284,6 +288,8 @@ $$
 z = y_1 + y_2 + \cdots + y_q \in A,
 $$
 et pour établir (3), il suffira de montrer que l’on a $y_i \in \mathfrak{p}'$ pour $i \geq 2$, car alors on en déduira que $z - y \in \mathfrak{p}' \cap B = \mathfrak{p}(B)$, d’où $x \in A + \mathfrak{p}(B)$ puisque $x \equiv y$ (mod. $\mathfrak{p}(B)$). Soit donc $i \geq 2$ et soit $\sigma \in G$ tel que $\sigma.y = y_i$; montrons que $\sigma^{-1}.\mathfrak{p}'$ n’est pas au-dessus de $\mathfrak{p}(B)$. Sinon, en effet, il existerait $\tau \in \mathscr{H}$ tel que $\sigma^{-1}.\mathfrak{p}' = \tau.\mathfrak{p}'$ (th. 2, (i)), d’où $(\tau^{-1}\sigma^{-1}).\mathfrak{p}' = \mathfrak{p}'$, autrement dit $\tau^{-1}\sigma^{-1} \in G^z \subset \mathscr{H}$ par hypothèse, d’où $\sigma \in \mathscr{H}$; mais comme $y \in B$ et $\sigma.y \neq y$, cela est absurde. On en conclut que $\sigma^{-1}.\mathfrak{p}'$ est au-dessus d’un des idéaux $n_j$, et comme $y \in n_j$ par construction, on a bien $y \in \sigma^{-1}.\mathfrak{p}'$, ou $y_i = \sigma.y \in \mathfrak{p}'$.
+
+Pour prouver $b)$, il suffira d'établir que $\mathfrak{p}(B)$ est contenu dans le saturé $q$ de l'idéal $\mathfrak{p}B$ pour $\mathfrak{p}(B)$ (chap. II, , no 4, prop. 10); comme $\mathfrak{p}(B)$ n'est contenu dans aucun des $n_j$ ($1 \leq j \leq r$), il suffira même de prouver que l'on a
 
 $$(4)$$
 $$

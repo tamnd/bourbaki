@@ -12,7 +12,7 @@ pdf_pages: 0005-0010
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: b7bba9dde72330951f573406dd26684da013cdb4e80479220b2ccb341ad5ece1
+content_sha256: 33704cced42fde890e82297da3fdaf62869c134e4861d0639a591015aaa3b8b5
 ---
 
 ## INTRODUCTION
@@ -43,7 +43,7 @@ pour tout entier $k > 0$, il ne s’ensuit pas encore que le système (*) ait un
 
 Le problème initial, ainsi affaibli, est finalement ramené au problème analogue pour les anneaux locaux du type $A/m^n$, qui sont encore plus proches des corps que les anneaux locaux généraux, puisqu’ils ont un radical nilpotent; en géométrie algébrique classique, cela correspond à une étude « différentielle » du problème au voisinage d’un point donné.
 
-Le chapitre III traite d’une façon générale de ces applications de notions topologiques à la théorie des anneaux locaux. Au chapitre VI, on en étudie un aspect plus spécial, adapté d’une part à des études plus fines de géométrie algébrique, et surtout à l’arithmétique
+Le chapitre III traite d’une façon générale de ces applications de notions topologiques à la théorie des anneaux locaux. Au chapitre VI, on en étudie un aspect plus spécial, adapté d’une part à des études plus fines de géométrie algébrique, et surtout à l’arithmétique tique des corps de nombres algébriques, où les anneaux locaux que l’on rencontre (tels que $\mathbf{Z}_{(p)}$) appartiennent à une classe particulièrement simple, celle des « anneaux de valuation », où la divisibilité est une relation d’ordre total (cf. Alg., chap. VI, ) dans l’ensemble des idéaux principaux
 
 L’étude du passage d’un anneau $A$ à un localisé $A_p$ ou à un complété $\hat{A}$ fait apparaître un caractère commun à ces deux opérations, la propriété de platitude des $A$-modules $A_p$ et $\hat{A}$, qui permet entre autres de manier les produits tensoriels de tels $A$-modules avec des $A$-modules quelconques un peu comme on le fait des produits tensoriels d’espaces vectoriels, c’est-à-dire sans toutes les précautions dont s’entoure leur emploi dans le cas général. Les propriétés liées à cette notion, qui s’applique d’ailleurs aussi aux modules sur des anneaux non commutatifs, font l’objet du chapitre I.
 

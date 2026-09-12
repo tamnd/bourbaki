@@ -41,7 +41,7 @@ subsections:
       pdf_page: 186
 statements: 27
 exercises: 6
-content_sha256: c36757286edc0d50f89c2bf6d7f9650975f6d537c2b1cd2ac9ed189800527ca6
+content_sha256: 5b5c8a3f7b67f3b643fbf35947c27ce72eae22d39a3e08eb75587ed20bf5a97e
 ---
 
 ## 2. UNIFORMLY CONTINUOUS FUNCTIONS
@@ -109,6 +109,8 @@ If $\mathscr{U}_1$ and $\mathscr{U}_2$ are two uniformities on a set X, then $\m
 #### Corollary {#top-ii-s2-n2-cor-1 .statement}
 
 Let $\mathscr{U}_1$ and $\mathscr{U}_2$ be two uniformities on a set X, and suppose that $\mathscr{U}_1$ is finer than $\mathscr{U}_2$; then the topology induced by $\mathscr{U}_1$ is finer than the topology induced by $\mathscr{U}_2$.
+
+This follows immediately from the comparison of topologies in terms of neighbourhoods (Chapter I, , no. 2, Proposition 3)
 
 #### Remark 1 {#top-ii-s2-n2-rem-1 .statement}
 
@@ -223,6 +225,8 @@ f : (x_i) \to (f_i(x_i)).
 $$
 *Conversely, if the* $X_i$ *are non-empty and* $f$ *is uniformly continuous, then each* $f_i$ *is uniformly continuous.*
 
+f can be written as $x \to (f_i(\mathrm{pr}_i x))$, and the first part of the corollary therefore follows from Proposition 7. The second part is proved by considering a point $a = (a_i)$ of $\prod_{i \in I} X_i$ and repeating the argument of Chapter I, , no. 1, Corollary 1 to Proposition 1, with the phrase "continuous at $a$ (resp. $a_\kappa$)" replaced by "uniformly continuous"
+
 The general criterion of transitivity of initial uniformities (no. 3, Proposition 5) shows that, as for the product of topological spaces (Chapter I, § 4, no. 1), the product of uniform spaces is associative and that the following is true:
 
 #### Proposition 8 {#top-ii-s2-prop-8 .statement}
@@ -252,6 +256,8 @@ In other words, a uniformly continuous function of two arguments is uniformly co
 ### 7. INVERSE LIMITS OF UNIFORM SPACES
 
 Let $I$ be a partially ordered set in which the partial ordering is written $\alpha \leq \beta$. For each $\alpha \in I$ let $X_\alpha$ be a uniform space, and for each pair of indices $\alpha, \beta$ such that $\alpha \leq \beta$ let $f_{\alpha \beta}$ be a mapping of $X_\beta$ into $X_\alpha$.
+
+We shall say that $(X_\alpha, f_{\alpha\beta})$ is an inverse system of uniform spaces if (i) $(X_\alpha, f_{\alpha\beta})$ is an inverse system of sets (cf. Chapter I, Appendix, no. 1) and (ii) whenever $\alpha \leq \beta$, $f_{\alpha\beta}$ is uniformly continuous. On $X = \varprojlim X_\alpha$ the coarsest uniformity for which the canonical mappings $f_\alpha : X \to X_\alpha$ are uniformly continuous is called the inverse limit (with respect to the $f_{\alpha\beta}$) of the uniformities of the $X_\alpha$, and the set $X$ endowed with this coarsest uniformity is called the inverse limit of the inverse system of uniform spaces $(X_\alpha, f_{\alpha\beta})$. All the properties of inverse limits of topological spaces established in Chapter I, , no. 4 (with the exception of Proposition 9) remain valid if we replace "topology" by "uniformity" and "continuous mapping" by "uniformly continuous mapping". In addition
 
 #### Proposition 10 {#top-ii-s2-prop-10 .statement}
 

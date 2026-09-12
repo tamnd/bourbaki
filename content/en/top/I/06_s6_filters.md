@@ -53,7 +53,7 @@ subsections:
       pdf_page: 74
 statements: 30
 exercises: 20
-content_sha256: 54903b12f1214819204dc115618903fd7e1aeb96fd97f4bae7277a5d03b880ff
+content_sha256: 6819de812cc0a066f3d9d41f17299c6a6b5cfd00b8e0cf993c3f1e890810bef8
 ---
 
 ## 6. FILTERS
@@ -333,6 +333,8 @@ $$
 $$
 
 into $\mathfrak{P}(X)$ are compatible with the equivalence relations $R \times R$ and $R$
+
+(Set Theory, R, , no. 8). For if $M \equiv M' \pmod{R}$ and $N \equiv N' \pmod{R}$ then there exist $V$ and $W$ in $\mathfrak{F}$ such that
 
 $$
 M \cap V = M' \cap V \quad \text{and} \quad N \cap W = N' \cap W,

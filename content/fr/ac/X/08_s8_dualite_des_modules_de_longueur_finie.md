@@ -40,7 +40,7 @@ subsections:
       pdf_page: 119
 statements: 31
 exercises: 10
-content_sha256: e01908c4fea4e58e2887753c30c3068c590cbc275527f07f79f55e23a9deb118
+content_sha256: 42074351e9f07ba6b9d50fbb95513dde303767114b758a8c6409b63c70e1873e
 ---
 
 ## § 8. DUALITÉ DES MODULES DE LONGUEUR FINIE
@@ -74,6 +74,8 @@ Pour chaque idéal premier $\mathfrak{p}$ de $A$, choisissons comme ci-dessus un
 #### Théorème 1 {#ac-x-s8-thm-1 .statement}
 
 Soit $A$ un anneau noethérien. Pour tout $A$-module injectif $I$, il existe une famille de cardinaux $(a_{\mathfrak{p}})_{\mathfrak{p} \in \mathrm{Spec}(A)}$, et une seule, telle que $I$ soit isomorphe à $\bigoplus_{\mathfrak{p}} I(\mathfrak{p})^{(a_{\mathfrak{p}})}$.
+
+D’après IV, , n° 1, cor. 1 de la prop. 3, l’ensemble Ass(I) est alors le support de la famille $(a_p)$
 
 #### Remarque 2 {#ac-x-s8-n1-rem-2 .statement}
 
@@ -293,6 +295,8 @@ c) *Pour que $M$ soit de longueur finie, il faut et il suffit que $D_A(M)$ soit 
 Prouvons d’abord que l’homomorphisme $\alpha_M$ est injectif pour tout $A$-module $M$. Soit $m$ un élément non nul de $M$ ; son annulateur est contenu dans $m_A$. Il existe donc un $A$-homomorphisme surjectif de $Am$ sur $\kappa_A$, et par suite un homomorphisme non nul de $Am$ dans $I$. Comme $I$ est injectif, celui-ci se prolonge en un homomorphisme $f : M \to I$ tel que $f(m) \neq 0$. Cela prouve l’injectivité de $\alpha_M$.
 
 Supposons le $A$-module $M$ artinien. D’après le lemme 4, il existe un entier $r$ et une application $A$-linéaire injective $f : M \to I^r$. L’homomorphisme $D_A(f) : D_A(I^r) \to D_A(M)$ est alors surjectif ; comme $D_A(I^r)$ s’identifie à $\widehat{A}^r$, cela prouve que le $\widehat{A}$-module $D_A(M)$ est de type fini. De manière analogue, si $M$ est de type fini, il existe un entier $n$ et un homomorphisme surjectif $u : A^n \to M$ ; l’homomorphisme $D_A(u) : D_A(M) \to I^n$ est injectif, de sorte que $D_A(M)$ est artinien (comme $A$-module ou comme $\widehat{A}$-module).
+
+Supposons maintenant que le $\widehat{A}$-module $D_A(M)$ soit artinien ; il en est de même du $\widehat{A}$-module $D_{\widehat{A}}(\widehat{A} \otimes_A M)$ qui lui est canoniquement isomorphe. D’après ce qui précède, le $\widehat{A}$-module $D_{\widehat{A}}(D_{\widehat{A}}(\widehat{A} \otimes_A M))$ est de type fini, et il en est de même de $\widehat{A} \otimes_A M$ qui est isomorphe à un sous-module de $D_{\widehat{A}}(D_{\widehat{A}}(\widehat{A} \otimes_A M))$. Par suite $M$ est un $A$-module de type fini (I, , n° 6, prop. 11 et III, § 3, n° 5, prop. 9). De même si $D_A(M)$ est un $\widehat{A}$-module de type fini, $D_{\widehat{A}}(D_A(M))$ est un $\widehat{A}$-module artinien d’après ce qui précède, donc un $A$-module artinien (lemme 5), et il en est de même de $M$. Enfin les modules de longueur finie sont les modules artiniens de type fini (A, VIII, § 1, n° 1, prop. 1), donc $D_A(M)$ est de longueur finie si et seulement si $M$ est de longueur finie
 
 Supposons $M$ artinien. Il existe un entier $r$ et une application $A$-linéaire injective $f : M \to I^r$; puisque $I$ est artinien (lemme 3), le $A$-module $\operatorname{Coker}(f)$ l’est aussi, et on peut trouver un entier $s$ et une suite exacte de $A$-modules
 
@@ -541,6 +545,8 @@ qui associe à $v \in \mathrm{Hom}_A(M, I_A)$ l’application $v'$ de $M$ dans $
 a) Si la $A$-algèbre $B$ est finie, le $B$-module $I_B = \mathrm{Hom}_A(B, I_A)$ est un $B$-module de Matlis.
 
 b) Si le $B$-module $M$ est artinien, l’application $\alpha$ est un $B$-isomorphisme de $D_B(M)$ sur $D_A(M)$.
+
+Si la $A$-algèbre $B$ est finie, il en est de même de la $\kappa_A$-algèbre $B/\mathfrak{m}_A B$, ce qui implique que $\mathfrak{m}_A B$ est un idéal de définition de $B$ (VIII, , n° 2, lemme 2). Comme tout élément du module de Matlis $I_A$ est annulé par une puissance de $\mathfrak{m}_A$, tout élément de $\mathrm{Hom}_A(B, I_A)$ est annulé par une puissance de $\mathfrak{m}_B$, d'où a). L’assertion b) résulte de ce que tout élément d’un module artinien est annulé par une puissance de l’idéal maximal (n° 3, lemme 4)
 
 La prop. 5 s’applique notamment lorsque $A$ est un corps $k$, auquel cas on peut prendre $I_A = k$, donc $D_k(M) = \mathrm{Hom}_k^{cont}(M, k)$ (« dualité de Macaulay »). On notera que l’hypothèse $[\kappa_B : k] < +\infty$ est en particulier satisfaite lorsque la $k$-algèbre $B$ est l’anneau local en un idéal maximal d’une $k$-algèbre de type fini (A, VIII, App. 3, cor. 1).
 

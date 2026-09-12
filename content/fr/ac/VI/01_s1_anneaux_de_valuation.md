@@ -28,7 +28,7 @@ subsections:
       pdf_page: 89
 statements: 17
 exercises: 9
-content_sha256: f08974229002023d2c931d74e75ec5293faf262851fcdac5e95498f0ed0d4c3b
+content_sha256: 9fdf898cf63dd9d397639d29feb601f0cff8cc8eec4ac574ce90904d22475988
 ---
 
 ## § 1. Anneaux de valuation.
@@ -117,7 +117,7 @@ Les notations étant celles du th. 1, on dit que $V$ est un anneau de valuation 
 
 Soient $K$ un corps, et $h$ un homomorphisme d’un sous-anneau $A$ de $K$ dans un corps algébriquement clos $L$. Il existe alors un anneau de valuation $V$ pour $K$ et un homomorphisme $h'$ de $V$ dans $L$ tels que $V$ contienne $A$, que $h'$ prolonge $h$ et que ${h'}^{-1}(0) = m(V)$.
 
-Soit $\mathscr{H}$ l’ensemble des homomorphismes de sous-anneaux de $K$ dans $L$, ordonné par la relation de prolongement. Cet ensemble est inductif; en effet, si $(h_\alpha)_{\alpha \in I}$ est une famille totalement ordonnée
+Soit $\mathscr{H}$ l’ensemble des homomorphismes de sous-anneaux de $K$ dans $L$, ordonné par la relation de prolongement. Cet ensemble est inductif; en effet, si $(h_\alpha)_{\alpha \in I}$ est une famille totalement ordonnée non vide d’éléments de $\mathfrak{H}$, et si $B_\alpha$ est l’anneau de définition de $h_\alpha$, les $B_\alpha$ forment une famille totalement ordonnée de sous-anneaux de $K$, et leur réunion $B$ est donc un sous-anneau de $K$; il existe donc une application $\bar{h}$ et une seule de $B$ dans $L$ qui prolonge les $h_\alpha$ (*Ens.*, chap. II, , n° 6, prop. 7) et l’on voit aussitôt que $\bar{h}$ est un homomorphisme de $B$ dans $L$. Le théorème de Zorn montre donc qu’il existe un élément maximal $h'$ de $\mathfrak{H}$ qui prolonge $h$. L’anneau de définition $V$ de $h'$ est un anneau de valuation pour $K$ (th. 1); si $\mathfrak{p}$ est le noyau de $h'$, $h'$ se prolonge en un homomorphisme de $V_{\mathfrak{p}}$ dans $L$ (Chap. II, § 2, n° 1, prop. 1), d’où $V_{\mathfrak{p}} = V$ et $\mathfrak{p} = m(V)$
 
 #### Corollaire {#ac-vi-s1-n2-cor-1 .statement}
 
@@ -140,6 +140,8 @@ Soient $x$ un élément de $A'$, et $V$ un anneau de valuation pour $K$ contenan
 #### Corollaire 2 {#ac-vi-s1-thm-3-cor-2 .statement}
 
 *Pour qu’un anneau intègre soit intégralement clos, il faut et il suffit qu’il soit l’intersection d’une famille d’anneaux de valuation pour son corps des fractions.*
+
+Dans le cas d’un anneau noethérien, le cor. 2 peut être précisé (chap. VII, , no 3, cor. du th. 1)
 
 #### Corollaire 3 {#ac-vi-s1-thm-3-cor-3 .statement}
 

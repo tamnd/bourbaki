@@ -32,7 +32,7 @@ subsections:
       pdf_page: 111
 statements: 23
 exercises: 11
-content_sha256: 563676659965a92c71be49b4746926bc03de5a286f245990e54782b081f661a3
+content_sha256: ae35206b4cd5b0be6c23024aa082e6478d645632f935b7a66124a5bfa75f5d71
 ---
 
 ## § 4. Hauteur d’une valuation.
@@ -46,7 +46,7 @@ a) Tout anneau $\mathbf{B}$ tel que $\mathbf{A} \subset \mathbf{B} \subset \math
 b) L’idéal maximal $m(\mathbf{B})$ d’un tel anneau est contenu dans $\mathbf{A}$, et c’est un idéal premier de $\mathbf{A}$;
 c) L’application $\mathfrak{p} \to \mathbf{A}_{\mathfrak{p}}$ est une bijection décroissante de l’ensemble des idéaux premiers de $\mathbf{A}$ sur l’ensemble des anneaux $\mathbf{B}$ tels que $\mathbf{A} \subset \mathbf{B} \subset \mathbf{K}$; sa bijection réciproque est l’application $\mathbf{B} \to m(\mathbf{B})$.
 
-Si $\mathbf{B}$ est un anneau tel que $\mathbf{A} \subset \mathbf{B} \subset \mathbf{K}$, et si $x \in \mathbf{K} - \mathbf{B}$,
+Si $\mathbf{B}$ est un anneau tel que $\mathbf{A} \subset \mathbf{B} \subset \mathbf{K}$, et si $x \in \mathbf{K} - \mathbf{B}$, on a $x \in K - A$, d'où $x^{-1} \in m(A) \subset B$, ce qui prouve à la fois que $B$ est un anneau de valuation pour $K$, et que $m(B) \subset m(A)$; comme $m(B) = m(B) \cap A$ est un idéal premier de $A$, on a démontré $a)$ et $b)$. En outre, on a $A_{m(B)} \subset B$; inversement, si $x \in B - A$, on a $x^{-1} \in A$ et $x^{-1} \notin m(B)$, donc $x \in A_{m(B)}$; ainsi $A_{m(B)} = B$. Soit enfin $\mathfrak{p}$ un idéal premier de $A$; posons $B = A_{\mathfrak{p}}$; on a $m(B) \cap A = \mathfrak{p}$ (Chap. II, , no 5; prop. 11), et $m(B) \subset A$ d'après $b)$; donc $m(B) = \mathfrak{p}$, ce qui montre que les applications $\mathfrak{p} \to A_{\mathfrak{p}}$ et $B \to m(B)$ de l'énoncé sont des bijections réciproques
 
 #### Corollaire {#ac-vi-s4-n1-cor-1 .statement}
 

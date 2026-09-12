@@ -41,7 +41,7 @@ subsections:
       pdf_page: 302
 statements: 17
 exercises: 5
-content_sha256: f17623809b75a67fd83d70bd528327b5f45c5d4ec8016f1d12bd165e9de0c2df
+content_sha256: 37040ddb5e6026b7ce8847afb5debf8f8cf63a3b03a2a63593857462fb7a377f
 ---
 
 ## § 8. RESTRICTION DU CORPS DES SCALAIRE S DANS LES ESPACES VECTORIELS
@@ -190,6 +190,8 @@ dont les coefficients $\alpha_{\mu l}$ et les seconds membres $\beta_\mu$ appart
 (i) Pour tout ensemble $S$, munissons le $K$-espace vectoriel à droite $K_d^{(S)}$ de la $K'$-structure $K_d^{(S)}$. Soit $f$ l’application $K$-linéaire de $K_d^{(I)}$ dans $K_d^{(M)}$ faisant correspondre à tout vecteur $(\xi_l)_{l \in I}$ le vecteur $(\zeta_\mu)_{\mu \in M}$ défini par $\zeta_\mu = \sum_{l \in I} \alpha_{\mu l} \xi_l$ pour tout $\mu \in M$. Il est clair que $f$ est rationnelle sur $K'$; son noyau $V$, qui est l’ensemble des solutions dans $K$ du système (2), est un sous-espace de $K_d^{(I)}$ rationnel sur $K'$ (II, p. 121, cor. 2), donc engendré par les solutions de (2) dans $K'$.
 
 (ii) Considérons $K$ comme $K'$-espace vectoriel à gauche; il existe un projecteur $K'$-linéaire $p$ de $K$ sur son sous-espace vectoriel $K'_s$ (II, p. 98, prop. 4); si $(\xi_l)$ est une solution de (3) dans $K$, on a $\sum_{l \in I} \alpha_{\mu l} p(\xi_l) = p \left( \sum_{l \in I} \alpha_{\mu l} \xi_l \right) = p(\beta_\mu) = \beta_\mu$, ce qui prouve que $(p(\xi_l))$ est une solution de (3) dans $K'$.
+
+On dit qu’un anneau $K$ est *fidèlement plat* (à gauche) sur un sous-anneau $K'$ si la prop. 6 est valable pour $K$ et $K'$; nous étudierons plus tard cette notion en détail (AC, I, )
 
 ### 6. Plus petit corps de rationalité
 

@@ -40,7 +40,7 @@ subsections:
       pdf_page: 180
 statements: 41
 exercises: 13
-content_sha256: 54de6b686860b6e4356dc548fbcb89fa45f59e654e2a48a44d0d8dd16ee6a545
+content_sha256: 2afa8ec899b06d6ef9fd706ba5addcc1389e751f699d5afebbba4814009802da
 ---
 
 ## § 4. Passage des algèbres de Lie aux groupes de Lie
@@ -52,6 +52,8 @@ Rappelons que, jusqu’à la fin du chapitre, K est supposé de caractéristique
 #### Lemme 1 {#lie-iii-s4-lem-1 .statement}
 
 Soient G un groupuscule de Lie, $\mathfrak{h}$ une sous-algèbre de Lie de $L(G)$ admettant un supplémentaire topologique. La réunion des $g\mathfrak{h}$ (resp. $\mathfrak{h}g$) pour $g \in G$ est un sous-fibré vectoriel intégrable de $T(G)$.
+
+En considérant la trivialisation gauche de T(G) ( , n° 3), on voit aussitôt que les g\mathfrak{h}, pour $g \in G$, sont les fibres d’un sous-fibré vectoriel E de T(G). Soit $g \in G$. L’ensemble des $(L_a)_g$, où $a \in \mathfrak{h}$, est égal à $g\mathfrak{h}$. Or, si $a$ et $b$ appartiennent à $\mathfrak{h}$, on a $[L_a, L_b] = L_{[a, b]}$, et $[a, b] \in \mathfrak{h}$. Donc E est intégrable (VAR, R, 9.3.3 (iv)). On raisonne de même pour les $\mathfrak{h}g$
 
 Le feuilletage intégral (VAR, R, 9.3.2) de la réunion des $g\mathfrak{h}$ (resp. $\mathfrak{h}g$) s’appelle le feuilletage gauche (resp. droit) de G associé à $\mathfrak{h}$.
 
@@ -212,6 +214,8 @@ quels que soient $x, y$ dans $L$, et un sous-groupuscule ouvert $W \subset V$ du
 (v) $\Rightarrow$ (i) : évident, car on a $(\lambda b)(\lambda'b) = (\lambda + \lambda')b$ dans $W$ pour $|\lambda|$ et $|\lambda'|$ assez petits.
 
 (i) $\Rightarrow$ (ii) : supposons vérifiée la condition (i). Soit $b \in L$. Soit $\psi$ la restriction de $\varphi$ à $V \cap Kb$. Par hypothèse, il existe un voisinage symétrique $T$ de 0 dans le groupe de Lie additif $Kb$ tel que $\psi|T$ soit un morphisme du groupuscule de Lie $T$ dans $G$. Donc $\varphi_*(b^n) = (\psi|T)_*(b^n) = ((\psi|T)_*(b))^n = (\varphi_*(b))^n$, de sorte que $\varphi_*(b^n)$ est homogène de degré $n$ dans $U(G)$.
+
+(ii) ⇒ (iii): cela résulte du fait que TS^n(L) est le sous-espace vectoriel de TS(L) engendré par les puissances n-èmes des éléments de L (A, IV, , prop. 5, n^{elle} édition)
 
 (iii) ⇒ (iv): l’application canonique de TS(L) dans l’algèbre enveloppante de L est l’unique morphisme de cogèbres graduées transformant 1 en 1 et prolongeant Id_L (chap. II, § 1, n° 5, Remarque 3). Or φ_* est un morphisme de cogèbres, et φ_*|L = Id_L par hypothèse. Si la condition (iii) est vérifiée, on voit que la condition (iv) l’est aussi.
 
@@ -383,6 +387,8 @@ Soient $G$ un groupe de Lie de dimension finie, $\Omega$ un voisinage ouvert sym
 (v) Pour tout $x \in H$ et tout $a \in h_x$, il existe un voisinage ouvert $I$ de $0$ dans $K$, et une application de classe $C^o$ de $I$ dans $G$ telle que $f(0) = x, f(I) \subset H, (T_0f)(1) = a$.
 Il est clair que $Kh = h$, et que $xh_{yz} = h_{xyz}$ pour $x, y, xy, xyz$ dans $H$. Cela entraîne (ii) et le fait que $h$ est invariant par $\mathrm{Ad}_{L(G)}(H)$.
 
+Soient $a_1, a_2$ dans $\mathfrak{h}$. Soient $I$ un voisinage ouvert de $0$ dans $K$, et $f_1, f_2$ des applications de classe $C^r$ de $I$ dans $G$ telles que $f_j(0) = e, f_j(I) \subset H, (T_0 f_j)(1) = a_j$ ($j = 1, 2$). Définissons $f : I \to G$ par $f(\lambda) = f_1(\lambda) f_2(\lambda)$. Alors $f$ est de classe $C^r$ et $f(0) = e$. En diminuant au besoin $I$, on a $f(I) \subset H$. D’autre part, l’application de $T_e(G) \times T_e(G)$ dans $T_e(G)$ tangente à l’application $(g, g') \mapsto gg'$ est l’addition; donc $(T_0 f)1 = a_1 + a_2$. Donc $a_1 + a_2 \in \mathfrak{h}$, et $\mathfrak{h}$ est un sous-espace vectoriel de $L(G)$. Puisque $x h x^{-1} = h$ pour tout $x \in H$, on a $(\mathrm{Ad} f_1(\lambda)) . a_2 \in \mathfrak{h}$ pour tout $\lambda \in I$. L’application tangente en $0$ à l’application $\lambda \mapsto \mathrm{Ad} f_1(\lambda)$ est, d’après la prop. 44 du , n° 12, l’application $\lambda \mapsto \mathrm{ad}(\lambda a_1)$; donc $[a_1, a_2] = (\mathrm{ad} a_1) . a_2 \in \mathfrak{h}$ puisque $\mathfrak{h}$ est fermé dans $L(G)$. On a donc prouvé (i). Dans la fin de la démonstration, nous fixons un sous-groupuscule de Lie $H'$ de $G$ d’algèbre de Lie $\mathfrak{h}$
+
 Soient $V, v_0, f$ comme dans (iii). Soit $Y$ le feuilletage gauche de $G$ associé à $\mathfrak{h}$ (n° 1). Pour tout $y \in H'$, on a $T_y(H') = y \mathfrak{h}$. D’autre part, pour tout $v \in V$, l’image de $T_v(V)$ par $T_v(f)$ est contenue dans $\mathfrak{h}_{f(v)} = f(v) \mathfrak{h}$ (par définition de $\mathfrak{h}_{f(v)}$). D’après VAR, R, 9.3.2, $f$ est un morphisme de $V$ dans $Y$. Comme $H'$ est une feuille de $Y$ (VAR, R, 9.2.8), on a $f(v) \in H'$ pour $v$ assez voisin de $v_0$.
 
 Soit $(a_1, \ldots, a_s)$ une base de $\mathfrak{h}$. Il existe un voisinage ouvert $I$ de $0$ dans $K$, et des applications $f_1, \ldots, f_s$ de classe $C^r$ de $I$ dans $G$, telles que $f_j(0) = e, f_j(I) \subset H, (Tf_j)1 = a_j$ pour tout $j$. D’après (iii), on a $f_j(\lambda) \in H'$ pour $|\lambda|$ assez petit. Donc les $f_1(\lambda_1) f_2(\lambda_2) \ldots f_s(\lambda_s)$ constituent, pour $|\lambda_1|, \ldots, |\lambda_s|$ assez petits, un voisinage de $e$ dans $H'$; et ce voisinage est contenu dans $H$. D’où (iv).
@@ -470,6 +476,8 @@ f^{-1}.df &= f^*(\omega) & (\text{§ 3, n° 18.9}) \\
 &= \alpha & (\text{car } \mathrm{pr}_1 \circ \varphi = \mathrm{Id}_U).
 \end{align*}
 $$
+
+Soit $f'$ une application de classe $C^{r-1}$ de $U$ dans $G$ telle que $f'(x) = g$ et $f'^{-1}.df' = \alpha$. D’après le , 18.9, $ff'^{-1}$ est localement constante, donc $f' = f$ dans un voisinage de $x$
 
 #### Proposition 10 {#lie-iii-s4-prop-10 .statement}
 

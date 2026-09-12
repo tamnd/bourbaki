@@ -33,7 +33,7 @@ subsections:
       pdf_page: 40
 statements: 39
 exercises: 7
-content_sha256: 8a46e9bac74c1717f34ad8e8f4e538302331df7231ad75df3a7d3188cc5b08ba
+content_sha256: d05cfceabb2f12560b3616122783607d3ce5b96f0667c7af2c49cc661c3f01b8
 ---
 
 ## § 3. DIMENSION DES ANNEAUX NOETHÉRIENS
@@ -398,6 +398,8 @@ $$
 \dim_A(M) + \dim_{\overline{B}}(\overline{N}) = \dim(A/a) + \dim(B/(b + \rho(m_A).B)).
 $$
 
+Posons $A' = A/\alpha$ et $B' = B/(b + \rho(\alpha).B)$ et soit $\rho': A' \to B'$ l’homomorphisme local déduit de $\rho$ par passage aux quotients. Puisque l’annulateur de $N$ est $b$, $N$ est un $B/b$-module de type fini de support égal à $\mathrm{Spec}(B/b)$, et plat sur $A$. L’homomorphisme $A \to B/b$ déduit de $\rho$ possède donc la propriété (PM) du , no 1 (*loc. cit.*, remarque 3); par extension des scalaires (*loc. cit.*, prop. 1, *a*)), on en déduit que $\rho'$ possède la propriété (PM). D’après *loc. cit.*, prop. 2, on a donc
+
 $$
 \dim(B') \geq \dim(A') + \dim(B'/\rho'(\mathfrak{m}_{A'}).B')
 $$
@@ -575,6 +577,8 @@ Or on a
 $$
 \operatorname{Supp}(N) = V(x_1) \cap ... \cap V(x_{r-1}) \cap \operatorname{Supp}(M)
 $$
+
+d’après le corollaire de la prop. 18 de II, , n° 4, et comme $x_1, ..., x_{r-1}$ appartiennent à $\alpha$, on en déduit (22). L’inégalité (23) résulte alors de l’hypothèse (21) et de la prop. 4, $a)$ du n° 3, où l’on fait
 
 $$
 m = r - 1,\quad X = \operatorname{Supp}(M),\quad Y = V(\alpha) \cap \operatorname{Supp}(N),\quad H_i = V(x_i)

@@ -1727,16 +1727,16 @@
         {
           "chapter": "II",
           "title": "RIESZ SPACES",
-          "total": 21,
+          "total": 23,
           "sections": [
             {
               "section": 1,
               "label": "int-ii-s1",
               "dir": "s1",
-              "count": 12,
+              "count": 14,
               "first": 1,
-              "last": 12,
-              "starred": 3
+              "last": 14,
+              "starred": 4
             },
             {
               "section": 2,
@@ -1970,7 +1970,7 @@
         {
           "chapter": "I",
           "title": "Topological Structures",
-          "total": 153,
+          "total": 184,
           "sections": [
             {
               "section": 1,
@@ -2037,28 +2037,29 @@
               "section": 8,
               "label": "top-i-s8",
               "dir": "s8",
-              "count": 24,
+              "count": 29,
               "first": 1,
-              "last": 24,
-              "starred": 3,
-              "supplementary": 3
+              "last": 29,
+              "starred": 6,
+              "supplementary": 4
             },
             {
               "section": 9,
               "label": "top-i-s9",
               "dir": "s9",
-              "count": 4,
+              "count": 29,
               "first": 1,
-              "last": 4
+              "last": 29,
+              "starred": 16
             },
             {
               "section": 10,
               "label": "top-i-s10",
               "dir": "s10",
-              "count": 20,
+              "count": 21,
               "first": 1,
-              "last": 20,
-              "starred": 7,
+              "last": 21,
+              "starred": 8,
               "supplementary": 2
             },
             {
@@ -2197,7 +2198,7 @@
         {
           "chapter": "IV",
           "title": "Real Numbers",
-          "total": 102,
+          "total": 107,
           "sections": [
             {
               "section": 1,
@@ -2212,10 +2213,10 @@
               "section": 2,
               "label": "top-iv-s2",
               "dir": "s2",
-              "count": 16,
+              "count": 21,
               "first": 1,
-              "last": 16,
-              "starred": 9
+              "last": 21,
+              "starred": 12
             },
             {
               "section": 3,
@@ -2281,16 +2282,16 @@
         {
           "chapter": "VII",
           "title": "HAAR MEASURE",
-          "total": 48,
+          "total": 55,
           "sections": [
             {
               "section": 1,
               "label": "int-vii-s1",
               "dir": "s1",
-              "count": 23,
+              "count": 30,
               "first": 1,
-              "last": 23,
-              "starred": 8
+              "last": 30,
+              "starred": 13
             },
             {
               "section": 2,
@@ -2438,7 +2439,7 @@
         {
           "chapter": "V",
           "title": "Entiers",
-          "total": 41,
+          "total": 51,
           "sections": [
             {
               "section": 1,
@@ -2454,10 +2455,10 @@
               "section": 2,
               "label": "ac-v-s2",
               "dir": "s2",
-              "count": 12,
+              "count": 22,
               "first": 1,
-              "last": 12,
-              "starred": 1
+              "last": 22,
+              "starred": 6
             },
             {
               "section": 3,
@@ -3772,7 +3773,7 @@
         {
           "chapter": "I",
           "title": "Algèbres de Lie",
-          "total": 123,
+          "total": 125,
           "sections": [
             {
               "section": 1,
@@ -3830,9 +3831,10 @@
               "section": 7,
               "label": "lie-i-s7",
               "dir": "s7",
-              "count": 3,
+              "count": 5,
               "first": 1,
-              "last": 3
+              "last": 5,
+              "starred": 2
             }
           ]
         }
@@ -5181,7 +5183,7 @@
         {
           "chapter": "V",
           "title": "One-parameter groups",
-          "total": 8,
+          "total": 15,
           "sections": [
             {
               "section": 1,
@@ -5203,9 +5205,11 @@
               "section": 3,
               "label": "top-v-s3",
               "dir": "s3",
-              "count": 1,
+              "count": 8,
               "first": 1,
-              "last": 1
+              "last": 8,
+              "starred": 1,
+              "supplementary": 1
             },
             {
               "section": 4,
@@ -5559,7 +5563,7 @@
         {
           "chapter": "II",
           "title": "ALGÈBRE LINÉAIRE",
-          "total": 157,
+          "total": 159,
           "sections": [
             {
               "section": 1,
@@ -5575,9 +5579,9 @@
               "section": 2,
               "label": "alg-ii-s2",
               "dir": "s2",
-              "count": 24,
+              "count": 26,
               "first": 1,
-              "last": 24,
+              "last": 26,
               "starred": 10
             },
             {
@@ -5832,7 +5836,7 @@
         {
           "chapter": "II",
           "title": "Localisation",
-          "total": 94,
+          "total": 96,
           "sections": [
             {
               "section": 1,
@@ -5847,10 +5851,10 @@
               "section": 2,
               "label": "ac-ii-s2",
               "dir": "s2",
-              "count": 25,
+              "count": 27,
               "first": 1,
-              "last": 25,
-              "starred": 6
+              "last": 27,
+              "starred": 7
             },
             {
               "section": 3,
@@ -5884,7 +5888,7 @@
         {
           "chapter": "III",
           "title": "Graduations, filtrations et topologies",
-          "total": 75,
+          "total": 77,
           "sections": [
             {
               "section": 1,
@@ -5917,10 +5921,10 @@
               "section": 4,
               "label": "ac-iii-s4",
               "dir": "s4",
-              "count": 6,
+              "count": 8,
               "first": 1,
-              "last": 6,
-              "starred": 3
+              "last": 8,
+              "starred": 4
             },
             {
               "section": 5,
@@ -6204,7 +6208,7 @@
         {
           "chapter": "IV",
           "title": "NOMBRES RÉELS",
-          "total": 103,
+          "total": 109,
           "sections": [
             {
               "section": 1,
@@ -6219,10 +6223,11 @@
               "section": 2,
               "label": "top-iv-s2",
               "dir": "s2",
-              "count": 16,
+              "count": 22,
               "first": 1,
-              "last": 16,
-              "starred": 9
+              "last": 22,
+              "starred": 14,
+              "supplementary": 1
             },
             {
               "section": 3,
@@ -6957,7 +6962,7 @@
         {
           "chapter": "VII",
           "title": "Modules sur les anneaux principaux",
-          "total": 92,
+          "total": 93,
           "sections": [
             {
               "section": 1,
@@ -6973,9 +6978,9 @@
               "section": 2,
               "label": "alg-vii-s2",
               "dir": "s2",
-              "count": 14,
+              "count": 15,
               "first": 1,
-              "last": 14,
+              "last": 15,
               "starred": 5,
               "supplementary": 1
             },
@@ -7402,7 +7407,7 @@
         {
           "chapter": "IX",
           "title": "UTILISATION DES NOMBRES RÉELS EN TOPOLOGIE GÉNÉRALE",
-          "total": 117,
+          "total": 165,
           "sections": [
             {
               "section": 1,
@@ -7417,10 +7422,10 @@
               "section": 2,
               "label": "top-ix-s2",
               "dir": "s2",
-              "count": 9,
+              "count": 30,
               "first": 1,
-              "last": 9,
-              "starred": 4
+              "last": 30,
+              "starred": 16
             },
             {
               "section": 3,
@@ -7444,10 +7449,10 @@
               "section": 5,
               "label": "top-ix-s5",
               "dir": "s5",
-              "count": 4,
+              "count": 31,
               "first": 1,
-              "last": 4,
-              "starred": 1
+              "last": 31,
+              "starred": 14
             },
             {
               "section": 6,
@@ -7474,7 +7479,7 @@
         {
           "chapter": "X",
           "title": "ESPACES FONCTIONNELS",
-          "total": 71,
+          "total": 88,
           "sections": [
             {
               "section": 1,
@@ -7498,19 +7503,19 @@
               "section": 3,
               "label": "top-x-s3",
               "dir": "s3",
-              "count": 16,
+              "count": 30,
               "first": 1,
-              "last": 16,
-              "starred": 5
+              "last": 30,
+              "starred": 11
             },
             {
               "section": 4,
               "label": "top-x-s4",
               "dir": "s4",
-              "count": 22,
+              "count": 25,
               "first": 1,
-              "last": 22,
-              "starred": 9,
+              "last": 25,
+              "starred": 11,
               "supplementary": 1
             }
           ]

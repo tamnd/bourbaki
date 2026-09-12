@@ -52,7 +52,7 @@ subsections:
       pdf_page: 72
 statements: 48
 exercises: 31
-content_sha256: b388de943b1f699f14e610dcbc08c22b00571e42f5652a700a6e18e17001f9ca
+content_sha256: 3891377871ff52bef91e9cc11888f1c601219663ee4cdcb2af4f54f8a68889bb
 ---
 
 ## § 5. Mesures définies par des densités numériques
@@ -109,6 +109,8 @@ $$
 \theta &= \mu_1 - \mu_2 + i(\mu_3 - \mu_4).
 \end{align*}
 $$
+
+où $\mu_1 = (\mathscr{R}\theta)^+,\ \mu_2 = (\mathscr{R}\theta)^-,\ \mu_3 = (\mathscr{I}\theta)^+,\ \mu_4 = (\mathscr{I}\theta)^-$ (chap. III, 2e éd., ), et où $g_1, g_2, g_3, g_4$ ont des significations analogues ; $|\mu|$ étant localement $|\theta|$-intégrable, chacune des fonctions positives $g_i\ (i = 1, 2, 3, 4)$ est localement intégrable pour chaque mesure positive $\mu_j\ (j = 1, 2, 3, 4)$, de sorte que l’application
 
 $$
 f \mapsto \int f(t)u(t)\ d\theta(t)
@@ -312,6 +314,8 @@ $$(7)$$
 $$
 g \cdot \mu = \sum_{\alpha \in A} g \cdot \mu_\alpha.
 $$
+
+Soit $(g_\alpha)_{\alpha \in A}$ une famille de fonctions positives $\mu$-mesurables définies dans $T$. Soit $A_\alpha$ l’ensemble des $t \in T$ tels que $g_\alpha(t) \neq 0$. Nous dirons que la famille $(g_\alpha)$ est *localement dénombrable* si la famille $(A_\alpha)$ est localement dénombrable (chap. IV, 2e éd., , n° 9); cela revient à dire que, pour tout compact $K$ de $T$, l’ensemble des $\alpha \in A$ tels que $g_\alpha|K$ ne soit pas nulle est dénombrable
 
 #### Proposition 6 {#int-v-s5-prop-6 .statement}
 
@@ -552,7 +556,7 @@ $$
 
 Pour toute mesure réelle $v$ sur $T$, il existe deux ensembles disjoints $M, N$ portant respectivement $v^+$ et $v^-$.
 
-On aura soin de ne pas confondre la notion de support d’une mesure $v$, et celle d’ensemble où $v$ est concentrée. Le support $S$ de
+On aura soin de ne pas confondre la notion de support d’une mesure $v$, et celle d’ensemble où $v$ est concentrée. Le support $S$ de ν est le plus petit ensemble fermé portant ν (chap. III, 2e éd., , n° 2, prop. 2 et chap. IV, § 2, n° 2, prop. 5). Mais il peut exister des parties de S, distinctes de S et portant ν. Plus précisément, on peut avoir inf(μ, ν) = 0 pour deux mesures positives μ et ν de même support (exerc. 5)
 
 On notera aussi que l’intersection des ensembles portant ν est l’ensemble des points t ∈ T tels que |ν|({t}) > 0, et peut être vide (par exemple dans le cas de la mesure de Lebesgue); il n’y a donc pas en général de plus petit ensemble portant ν.
 
@@ -593,6 +597,8 @@ Rappelons que deux nombres $p, q$ tels que $1 \leq p \leq +\infty$, $1 \leq q \l
 #### Théorème 4 {#int-v-s5-thm-4 .statement}
 
 *Soient* $p$ *et* $q$ *deux exposants conjugués tels que* $1 \leq p < +\infty$. *Toute forme linéaire continue sur* $\mathscr{L}^p(T, \mu)$ *est du type* $f \mapsto \int fg \, d\mu$, *où* $g$ *est une fonction de* $\mathscr{L}^q(T, \mu)$ *dont la classe dans* $L^q$ *est bien déterminée.*
+
+En effet, soit $\theta$ une forme linéaire continue sur $\mathscr{L}^p$; il existe donc un nombre $a \geq 0$ tel que $|\theta(f)| \leq a \cdot N_p(f)$ pour toute fonction $f \in \mathscr{L}^p$. Considérons la restriction de $\theta$ à l’espace $\mathscr{K}(T)$ des fonctions continues à support compact : pour toute partie compacte $K$ de $T$ et toute fonction $f \in \mathscr{K}(T, K)$ (espace des fonctions continues à support contenu dans $K$), on a $N_p(f) \leq (\mu(K))^{1/p} \|f\|$; donc la topologie induite sur $\mathscr{K}(T, K)$ par celle de $\mathscr{L}^p$ est moins fine que la topologie de la convergence uniforme, et la restriction de $\theta$ à chaque $\mathscr{K}(T, K)$ est par suite continue pour cette dernière topologie. Cela signifie que la restriction de $\theta$ à $\mathscr{K}(T)$ est une mesure réelle $v$ (chap. III, 2e éd., , n° 3, déf. 2)
 
 Montrons que $|v|(|f|) \leq a \cdot N_p(f)$ pour toute fonction $f$ de $\mathscr{K}(T)$. Il suffit de prouver cette formule pour $f \geq 0$. Or, pour toute fonction $\psi$ de $\mathscr{K}(T)$ telle que $|\psi| \leq f$, on a
 $$

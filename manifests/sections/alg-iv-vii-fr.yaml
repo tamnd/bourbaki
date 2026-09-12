@@ -406,7 +406,7 @@ chapters:
           book_pages: A VII.6-A VII.13, A VII.53-A VII.57
           subsections: 2
           statements: 24
-          exercises: 14
+          exercises: 15
           extraction: ocr
           content_sha256: e8c67551fee721ba16eb39a2353408561379f3cf1ddfac653b03c1b284c8cb26
         - kind: section

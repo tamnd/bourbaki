@@ -82,9 +82,9 @@ subsections:
       title: Algèbre de Lie d’un groupuscule de Lie
       page: 0
       pdf_page: 161
-statements: 111
+statements: 112
 exercises: 9
-content_sha256: fb1b7a4c61f41107e57f5a0973b50f20130a9fa8b6d9564c69367f57704a3327
+content_sha256: 7bc71839e5a39a3e080a982370004d2f834456f5d906f97729a7e8c31a6979fa
 ---
 
 ## § 3. Passage d’un groupe de Lie à son algèbre de Lie
@@ -866,7 +866,7 @@ $$
 
 ### 10. Algèbres de Lie de certains groupes linéaires
 
-Soit E un espace normable complet. Alors $\mathscr{L}(E)$ est une algèbre normable complète unifière, et $\mathbf{GL}(E)$ est un groupe de Lie. D’après le cor. de la prop. 33, n° 9,
+Soit E un espace normable complet. Alors $\mathscr{L}(E)$ est une algèbre normable complète unifière, et $\mathbf{GL}(E)$ est un groupe de Lie. D’après le cor. de la prop. 33, n° 9, si on identifie canoniquement $T_1(\mathbf{GL}(E))$ à $\mathscr{L}(E)$, la structure d’algèbre de Lie de $L(\mathbf{GL}(E))$ est donnée par le crochet $(x, y) \mapsto xy - yx$ de deux éléments de $\mathscr{L}(E)$. En particulier, $L(\mathbf{GL}(n, K))$ s’identifie canoniquement à $\mathfrak{gl}(n, K)$ (chap. I, , n° 2)
 
 #### Proposition 35 {#lie-iii-s3-prop-35 .statement}
 
@@ -989,6 +989,8 @@ On applique la prop. 39 avec $E_2 = \{0\}$, $E_1$ étant le sous-espace vectorie
 
 C.Q.F.D.
 
+Soient $\pi_1, \pi_2, \ldots, \pi_n$ des représentations linéaires analytiques de G. Il est clair que la somme directe $\pi$ des $\pi_i$ (A, VIII, , n° 1) est une représentation linéaire analytique de G, et que $L(\pi)$ est la somme directe de $L(\pi_1)$, $L(\pi_2), \ldots, L(\pi_n)$ (chap. I, § 3, n° 1)
+
 #### Proposition 40 {#lie-iii-s3-prop-40 .statement}
 
 *Soient G un groupe de Lie, E un espace normable complet, $\pi$ une représentation linéaire analytique de G dans E, F un sous-espace vectoriel fermé de E stable par $\pi(G)$. On suppose K de caractéristique 0, ou bien F facteur direct de E.*
@@ -1028,6 +1030,10 @@ $$
 = \langle a, g \mapsto \pi_1(g)x_1 \rangle . x_2 + x_1 . \langle a, g \mapsto \pi_2(g)x_2 \rangle \quad \text{(VAR, R, 5.5.6)} \\
 = ((L(\pi_1)a)x_1) . x_2 + x_1 . ((L(\pi_2)a)x_2). \quad \text{(prop. 38)}
 $$
+
+#### Corollaire 1 {#lie-iii-s3-prop-41-cor-1 .statement}
+
+Soient G un groupe de Lie, E₁, ..., Eₙ₊₁ des espaces normables complets, π₁, ..., πₙ₊₁ des représentations linéaires analytiques de G dans E₁, ..., Eₙ₊₁. Soit E = $\mathscr{L}(E_1, ..., E_n; E_{n+1})$ l’espace normable complet des applications multilinéaires continues de $E_1 \times \cdots \times E_n$ dans $E_{n+1}$ (TG, X, , n° 2). Pour tout $g \in G$, soit $\pi(g)$ l’automorphisme de E défini par
 
 $$
 (\pi(g)u)(x_1, ..., x_n) = \pi_{n+1}(g)(u(\pi_1(g)^{-1}x_1, ..., \pi_n(g)^{-1}x_n)).
@@ -1506,7 +1512,7 @@ $$
 $$
 En effet, $\delta(g)^* \omega = \delta(g)^* \gamma(g)^* \omega = (\mathrm{Int}\ g)^* \omega$, et $L(\mathrm{Int}\ g) = \mathrm{Ad}\ g$.
 
-Soient $G$ un groupe localement compact, $\varphi$ un endomorphisme de $G$. Supposons qu’il existe des voisinages ouverts $V, V'$ de $e$ tels que $\varphi(V) = V'$ et que $\varphi|V$ soit un isomorphisme local de $G$ à $G$. Soit $\mu$ une mesure de Haar à gauche
+Soient $G$ un groupe localement compact, $\varphi$ un endomorphisme de $G$. Supposons qu’il existe des voisinages ouverts $V, V'$ de $e$ tels que $\varphi(V) = V'$ et que $\varphi|V$ soit un isomorphisme local de $G$ à $G$. Soit $\mu$ une mesure de Haar à gauche de G. D’après INT, VII, , cor. de la prop. 9, il existe un nombre $a > 0$ unique tel que $\varphi(\mu|V) = a^{-1}\mu|V'$. Il est clair que $a$ est indépendant des choix de $V, V', \mu$. On l’appelle le module de $\varphi$ et on le note $\mathrm{mod}_G \varphi$ ou simplement $\mathrm{mod} \varphi$. Lorsque $\varphi$ est un automorphisme de $G$, on retrouve la déf. 4 de INT, VII, § 1
 
 #### Proposition 55 {#lie-iii-s3-prop-55 .statement}
 

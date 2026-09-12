@@ -33,7 +33,7 @@ subsections:
       pdf_page: 254
 statements: 18
 exercises: 12
-content_sha256: 95c7e208d0ab926d40df16bb6fddfa2adee53aa6449885a096e1f422fb8d5106
+content_sha256: af58d0ed73dd68144ace8d91666b7718e177725500a7f1814fbacff1ebedcfc9
 ---
 
 ## 3. UNIFORM STRUCTURES ON GROUPS
@@ -97,6 +97,8 @@ If $H$ is a subgroup of a topological group $G$, then the uniformity induced on 
 
 If $H$ is a normal subgroup of $G$, and if $\varphi$ is the canonical mapping of $G$ onto $G/H$, we obtain a fundamental system of entourages of the right uniformity of the quotient group $G/H$ by associating with each neighbourhood $V$ of the identity element in $G$, the set of all pairs $(\dot{x}, \dot{y})$ of $G/H$ such that $\dot{x}\dot{y}^{-1} \in \varphi(V)$ (§ 2, no. 6, Proposition 17). This condition means that there is at least one point $x \in \dot{x}$ and at least one point $y \in \dot{y}$ such that $yx^{-1} \in V$ [i.e. such that $(x, y) \in V_d$]. In particular, if $N$ is the closure of the subset $\{e\}$ of $G$, then the right uniformity on $G/N$ is isomorphic to the Hausdorff uniformity *associated* with the right uniformity on $G$ (cf. Chapter II, § 3, no. 8).
 
+Finally, on a product of a family $(G_i)$ of topological groups, the right uniformity is the *product* of the right uniformities of the $G_i$ (cf. Chapter II, , no. 6)
+
 There are analogous results for the left uniformity.
 
 The left and right uniformities on the product group $\prod_{i \in I} G_i$ are identical if and only if the left and right uniformities on each factor $G_i$ coincide. This will always be the case if some of the $G_i$ are commutative and the others are compact.
@@ -129,6 +131,8 @@ For every compact space is complete with respect to its unique uniformity (Chapt
 
 *Every locally compact subgroup of a Hausdorff topological group $G$ is closed in $G$.*
 
+For every complete subspace of a Hausdorff uniform space is closed (Chapter II, , no. 4, Proposition 8)
+
 #### Proposition 5 {#top-iii-s3-prop-5 .statement}
 
 Let $G_1$ be a topological group, let $G_2$ be a complete Hausdorff topological group, and let $H_1$ (resp. $H_2$) be a dense subgroup of $G_1$ (resp. $G_2$). Then every continuous homomorphism $u$ of $H_1$ into $H_2$ can be uniquely extended to a continuous homomorphism $\bar{u}$ of $G_1$ into $G_2$. Furthermore, if $G_1$ is Hausdorff and complete, and if $u$ is an isomorphism of $H_1$ onto $H_2$, then $\bar{u}$ is an isomorphism of $G_1$ onto $G_2$.
@@ -160,7 +164,7 @@ In order that $x^{-1}$ can be extended by continuity to $\hat{G}_d$ it is necess
 
 2) *The extended functions* $xy$ and $x^{-1}$ *define a group structure on* $\hat{G}_d$. For if we apply the principle of extension of identities (Chapter I, § 8, no. 1, Proposition 2, Corollary 1) to the functions $x(yz)$ and $(xy)z$, defined on $\hat{G}_d \times \hat{G}_d \times \hat{G}_d$ and equal on the dense subspace $G_d \times G_d \times G_d$, we see that the law of composition $(x, y) \to xy$ is *associative* on $\hat{G}_d$. For the same reason, the functions $x, ex, xe$ are identical on $\hat{G}_d$, and the functions $e, xx^{-1}, x^{-1}x$ are identical on $\hat{G}_d$.
 
-3) *The topological group* $\hat{G}_d$ *is complete*. Let $\mathscr{U}_d$ be its *right uniformity*, and let $\mathscr{U}$ be the uniformity on $\hat{G}_d$ obtained by *completing* the right uniformity of $G$. Then $\mathscr{U}$ and $\mathscr{U}_d$ induce the *same* uniformity on $G$, and therefore every Cauchy filter base $\mathscr{B}$ *on* $G$ *with respect to* $\mathscr{U}_d$ *is also a Cauchy filter base with respect to* $\mathscr{U}$. Now $\mathscr{B}$ converges in $\hat{G}_d$,
+3) *The topological group* $\hat{G}_d$ *is complete*. Let $\mathscr{U}_d$ be its *right uniformity*, and let $\mathscr{U}$ be the uniformity on $\hat{G}_d$ obtained by *completing* the right uniformity of $G$. Then $\mathscr{U}$ and $\mathscr{U}_d$ induce the *same* uniformity on $G$, and therefore every Cauchy filter base $\mathscr{B}$ *on* $G$ *with respect to* $\mathscr{U}_d$ *is also a Cauchy filter base with respect to* $\mathscr{U}$. Now $\mathscr{B}$ converges in $\hat{G}_d$, since $\mathscr{U}$ is a complete uniformity; and since $\mathscr{U}$ and $\mathscr{U}_d$ induce the same topology on $\hat{G}_d$, it follows (Chapter II, , no. 4, Proposition 9) that $\mathscr{U}_d$ is a complete uniformity. This conclusion also shows that $\mathscr{U}$ and $\mathscr{U}_d$ coincide (Chapter II, § 3, no. 6, Corollary to Theorem 2)
 
 4) *Uniqueness.* This follows from Proposition 5 of no. 3.
 

@@ -40,7 +40,7 @@ subsections:
       pdf_page: 149
 statements: 42
 exercises: 22
-content_sha256: 84c3cc5c0dbda691de74b9d297dc5491e7bf86736ac42cce01004b2a4de4fea6
+content_sha256: 9041f9c78a28b4b410fb87acbc75b09567f20dece253102f1bdab3a0070f6b46
 ---
 
 ## § 8. Prolongements d’une valuation à une extension algébrique.
@@ -119,7 +119,7 @@ Ceci résulte en effet de la prop. 1 et du lemme suivant:
 
 *Soient G' un groupe totalement ordonné, G un sous-groupe de G' et $\mathfrak{S}'$ (resp. $\mathfrak{S}$) l’ensemble des sous-groupes isolés de G' (resp. G). L’application $H' \to H' \cap G$ applique $\mathfrak{S}'$ sur $\mathfrak{S}$. Cette application est bijective si $G'/G$ est un groupe de torsion*.
 
-Il est clair que $H' \in \mathfrak{S}'$ implique $H' \cap G \in \mathfrak{S}$. Soit maintenant $H \in \mathfrak{S}$; notons $H'$ l’ensemble des $x' \in G'$ tels qu’il existe $h \in H$
+Il est clair que $H' \in \mathfrak{S}'$ implique $H' \cap G \in \mathfrak{S}$. Soit maintenant $H \in \mathfrak{S}$; notons $H'$ l’ensemble des $x' \in G'$ tels qu’il existe $h \in H$ vérifiant $-h \leq x' \leq h$; on vérifie aussitôt que $H'$ est un sous-groupe isolé de $G'$; on a $H' \cap G = H$ puisque $H$ est isolé; donc l’application $H' \to H' \cap G$ est surjective. Supposons enfin que $G'/G$ soit un groupe de torsion; soient $H'_1$ et $H'_2$ deux sous-groupes isolés de $G'$ tels que $H'_1 \cap G = H'_2 \cap G$; on a, par exemple, $H'_1 \supset H'_2$ (cf. , n° 4); alors $H'_1/H'_2$ est un groupe totalement ordonné, et est isomorphe à un groupe quotient de $H'_1/(H'_1 \cap G)$ qui lui-même s’identifie à un sous-groupe de $G'/G$; donc $H'_1/H'_2$ est un groupe de torsion, et se réduit par conséquent à 0
 
 C.Q.F.D.
 
@@ -167,7 +167,7 @@ Démontrons d’abord a). On peut supposer $v$ non impropre. Comme $v$ et $\hat{
 
 Passons à b). On peut encore supposer $v$ non impropre. Soit $(v'_1, \ldots, v'_r)$ une famille finie quelconque de valuations deux à deux indépendantes de L prolongeant $v$. L’image de L dans $\prod_{i=1}^r L_i$ par l’application diagonale est partout dense (§ 7, no 2, th. 1) et $\prod_{i=1}^r L_i$ est dense dans $\prod_{i=1}^r \hat{L}_i$. Donc l’image canonique de $\hat{K} \otimes_K L$ dans $\prod_{i=1}^r \hat{L}_i$ est partout dense. D’autre part cette image est un sous-$\hat{K}$-espace vectoriel de $\prod_{i=1}^r \hat{L}_i$; comme $\prod_{i=1}^r \hat{L}_i$ est de dimension finie sur $\hat{K}$ d’après (5), l’image de $\hat{K} \otimes_K L$ est fermée (§ 5, no 2, cor. de la prop. 4), donc égale à $\prod_{i=1}^r \hat{L}_i$. Comme la dimension de $\hat{K} \otimes_K L$ sur $\hat{K}$ est $n$, on a $\sum_{i=1}^r n_i \leq n$. Ceci montre en particulier que l’entier $r$ est majoré par $n$, et démontre la première assertion de b).
 
-Prenons maintenant $(v'_1, \ldots, v'_s)$ comme dans l’énoncé. La surjectivité de $\varphi : \hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i$ et la relation (7) ont déjà
+Prenons maintenant $(v'_1, \ldots, v'_s)$ comme dans l’énoncé. La surjectivité de $\varphi : \hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i$ et la relation (7) ont déjà été démontrées. Il reste à vérifier que le noyau $n$ de $\varphi$ est le radical $r$ de $\hat{K} \otimes_K L$. Comme $\prod_{i=1}^s \hat{L}_i$ est semi-simple, on a $r \subset n$. D'autre part, pour tout idéal maximal $m$ de $\hat{K} \otimes_K L$, le corps quotient $L(m) = (\hat{K} \otimes_K L)/m$ est une extension composée de $\hat{K}$ et $L$ sur $K$ (*Alg.*, chap. VIII, , prop. 1). Il existe une valuation $w$ de $L(m)$ prolongeant $\hat{v}$ (§ 3, no 3, prop. 5); la restriction $v'$ de $w$ à $L$ prolonge $v$. Comme $[L(m) : \hat{K}]$ est fini, $L(m)$ est complet pour $w$ (§ 5, no 2, prop. 4). Or l’adhérence de $L$ dans $L(m)$ est un corps contenant $\hat{K}$ et $L$, donc est égale à $L(m)$. Par conséquent $L(m)$ s’identifie au complété $\hat{L}_{v'}$, et $m$ est le noyau de l’application canonique de $\hat{K} \otimes_K L$ sur $\hat{L}_{v'}$. Or, par hypothèse il existe un indice $i$ tel que $v'$ et $v'_i$ soient dépendantes; d’où $\hat{L}_{v'} = \hat{L}_i$ (§ 7, no 2, prop. 3). Ainsi on a $n \subset m$, ce qui prouve qu’on a $n \subset r$, et achève la démonstration
 
 #### Corollaire 1 {#ac-vi-s8-prop-2-cor-1 .statement}
 
@@ -369,6 +369,8 @@ Comme les $v_i'$ sont deux à deux inéquivalentes et de hauteur 1, elles sont i
 
 Sous les hypothèses du cor. 3, si L est une extension séparable de K, chacun des $\hat{L}_i$ est une extension séparable de $\hat{K}$. Si de plus L est une extension galoisienne de K, de groupe de Galois $G_f$, et si $G_i$ désigne le groupe de décomposition de l’idéal de $v_i'$ dans B (chap. V, § 2, no 2, déf. 2), alors $\hat{L}_i$ est une extension galoisienne de $\hat{K}$, dont le groupe de Galois est isomorphe à $G_i$.
 
+Il est clair que $\hat{L}_i = \hat{K}(L)$; donc, si $L$ est séparable sur $K$, $\hat{L}_i$ l’est sur $\hat{K}$ (Alg., chap. V, , no 6, prop. 10). Supposons maintenant $L$ galoisienne. Tout automorphisme $\sigma \in G_i$ est continu dans $L$ pour la topologie définie par $v'_i$, le fait que les idéaux des $v'_i$ sont deux à deux non comparables par inclusion ($\S 7$, no 2, cor. 1 du th. 1) entraînant nécessairement que $v'_i = v'_i \circ \sigma$ par définition de $G_i$; donc $\sigma$ peut se prolonger par continuité en un $\hat{K}$-automorphisme $\hat{\sigma}$ de $\hat{L}_i$. Cela prouve que le nombre de $\hat{K}$-automorphismes de $\hat{L}_i$ est au moins égal à Card$(G_i)$. Mais comme les valuations $v'_i$ sont deux à deux conjuguées par $G$ (chap. V, § 2, no 3, prop. 6), on a $s = (G : G_i)$, d’où
+
 $$
 \operatorname{Card}(G_i) = n/s \leq n_i,
 $$
@@ -379,7 +381,7 @@ et d’autre part $n = sn_i$ en vertu du cor. 3; cela prouve que $\hat{L}_i$ est
 
 Une partie des résultats précédents s’étend au cas des valuations sur un corps $K$ non nécessairement commutatif (cf. § 3, no 1). Soit $L$ un surcorps de $K$, et soient $v'$ une valuation sur $L$, $v$ sa restriction à $K$, $A'$ et $A$ les anneaux respectifs des valuations $v'$ et $v$; on définit alors l’indice de ramification $e(v'/v)$ comme au no 1; d’autre part, $\kappa(A)$ s’identifie à un sous-corps de $\kappa(A')$, et l’on appelle rang résiduel (à gauche) de $v'$ par rapport à $v$ le nombre $f(v'/v)$ égal à la dimension du $\kappa(A)$-espace vectoriel à gauche $\kappa(A')$, lorsque cette dimension est finie, et $+\infty$ dans le cas contraire. Alors, si $L$ est un $K$-espace vectoriel à gauche de dimension finie $n$, le lemme 2 du no 1 et sa démonstration subsistent sans changement. En outre, si $K$ est complet pour $v$, les assertions du cor. 2 du th. 2 du no 5 (autres que l’existence de $v'$) sont encore valables ($n$ désignant la dimension de $L$ comme $K$-espace vectoriel à gauche) avec la démonstration suivante:
 
-En premier lieu la topologie définie par $v'$ sur $L$ est séparée et compatible avec sa structure de $K$-espace vectoriel à gauche, donc deux prolongements de $v$ à $L$ donnent sur $L$ la même topologie ($§ 5$, no 2, prop. 4), ce qui prouve que ces prolongements sont les mêmes à une équivalence près ($§ 6$, no 2). Montrons ensuite que si $m = m(A)$, $A'/mA'$ est un $(A/m)$-espace vectoriel à gauche
+En premier lieu la topologie définie par $v'$ sur $L$ est séparée et compatible avec sa structure de $K$-espace vectoriel à gauche, donc deux prolongements de $v$ à $L$ donnent sur $L$ la même topologie ($§ 5$, no 2, prop. 4), ce qui prouve que ces prolongements sont les mêmes à une équivalence près ($§ 6$, no 2). Montrons ensuite que si $m = m(A)$, $A'/mA'$ est un $(A/m)$-espace vectoriel à gauche de dimension $e(v'/v)f(v'/v)$. En effet, posons $e = e(v'/v)$; on peut supposer que $v(K^*) = \mathbf{Z}$, $v'(L^*) = e^{-1}\mathbf{Z}$; soient $u'$ un élément de $L$ tel que $v'(u') = e^{-1}$, $u$ un élément de $K$ tel que $v(u) = 1$; on a donc $u = {zu'}^e$, où $z \in L$ est tel que $v'(z) = 0$. Comme $m$ est engendré par $u$ (comme idéal à gauche ou à droite de $A$), on a $mA' = {u'}^eA' = A'{u'}^e$, et il suffit de prouver que, pour $0 \leq k \leq e - 1$, $A'{u'}^k/A'{u'}^{k+1}$ est un $(A/m)$-espace vectoriel à gauche de dimension $f(v'/v)$. Mais $t \to {tu'}^k$ est un isomorphisme du $A$-module à gauche $A'$ sur le $A$-module à gauche $A'{u'}^k$, transformant $A'u'$ en $A'{u'}^{k+1}$, et qui donne donc par passage aux quotients un $(A/m)$-isomorphisme de $A'/A'u'$ sur $A'{u'}^k/A'{u'}^{k+1}$, d'où notre assertion par définition de $f(v'/v)$, $u'$ engendrant l'idéal maximal de $A'$. On termine la démonstration comme lorsque $K$ et $L$ sont commutatifs (le fait qu'un $A$-module sans torsion de type fini est libre se démontrant comme au , no 6, lemme 1)
 
 ### 6. Anneaux de valuation dans une extension algébrique
 
@@ -388,6 +390,8 @@ En premier lieu la topologie définie par $v'$ sur $L$ est séparée et compatib
 Soient $K$ un corps, $v$ une valuation de $K$, $A$ son anneau, $L$ une extension algébrique de $K$, $A'$ la fermeture intégrale de $A$ dans $L$. Soient $\mathscr{B}$ l’ensemble des anneaux des valuations de $L$ qui prolongent $v$, $\mathscr{M}'$ l’ensemble des idéaux maximaux de $A'$. Alors l’application $V \to m(V) \cap A'$ est une bijection de $\mathscr{B}$ sur $\mathscr{M}'$, et $m' \to A'_{m'}$ est la bijection réciproque.
 
 Tout idéal maximal $m'$ de $A'$ est tel que $m' \cap A$ soit l’idéal maximal $m$ de $A$ (chap. V, § 2, no 1, prop. 1), et $A'_{m'}$ est dominé par un anneau de valuation $V$ de $L$ (qui est donc l’anneau d’une valuation de $L$ prolongeant $v$) ($§ 1$, no 2, cor. du th. 2). Le corps $L$ est réunion de la famille filtrante des sous-extensions $K_\alpha$ de $L$ qui sont de degré fini sur $K$, et il suffira, pour voir que $V = A'_{m'}$, de prouver que $V \cap K_\alpha = A'_{m'} \cap K_\alpha$ pour tout $\alpha$. Or, si on pose $A'_\alpha = A' \cap K_\alpha$, $A'_\alpha$ est la fermeture intégrale de $A$ dans $K_\alpha$, donc est intersection des anneaux des valuations de $K_\alpha$ qui prolongent $v$, et ces anneaux $V_{i\alpha}$ sont en nombre fini et sont les anneaux locaux $(A'_\alpha)_{m'_{i\alpha}}$ de $A'_\alpha (1 \leq i \leq n)$, où les $m'_{i\alpha}$ sont les idéaux maximaux distincts de $A'_\alpha$ (no 3, Remarque); mais $m' \cap A'_\alpha$ est un des $m'_{i\alpha}$ et $V \cap K_\alpha$ est donc égal à l’anneau local correspondant $(A'_\alpha)_{m'_{i\alpha}} \subset A'_{m'}$, ce qui achève de montrer que
+
+V = A'_{m'}. Inversement, si V \in \mathscr{B}, on a $A' \subset V$ (\S 3, n° 3, prop. 6), et si $m' = m(V) \cap A'$, on a $m' \cap A = m$, donc $m'$ est un idéal maximal de $A'$ (chap. V, , n° 1, prop. 1), et le raisonnement précédent montre que $V = A'_{m'}$
 
 C.Q.F.D.
 

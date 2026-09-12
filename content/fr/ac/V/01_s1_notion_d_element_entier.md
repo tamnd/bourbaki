@@ -46,9 +46,9 @@ subsections:
       title: 'Application : invariants d’un groupe d’automorphismes d’une algèbre'
       page: 0
       pdf_page: 28
-statements: 77
+statements: 78
 exercises: 19
-content_sha256: 61541b816506d8643a47b6e627ea73a54abc7d07b68a95b739a61fc71d33bee7
+content_sha256: 1950a70f7ac991afbff3d98b43476cb6632045875eea2e25d55dea7c93f027fd
 ---
 
 ## § 1. Notion d’élément entier.
@@ -100,7 +100,7 @@ Une relation de la forme $P(x) = 0$, où $P$ est un polynôme unitaire de $A[X]$
 
 #### Exemple 1 {#ac-v-s1-n1-exa-1 .statement}
 
-Soient $K$ un corps (commutatif), $R$ une $K$-algèbre; dire qu’un élément $x \in R$ est entier sur $K$ équivaut
+Soient $K$ un corps (commutatif), $R$ une $K$-algèbre; dire qu’un élément $x \in R$ est entier sur $K$ équivaut à dire que $x$ est racine d’un polynôme non constant de l’anneau $K[X]$; généralisant la terminologie introduite lorsque $R$ est une extension de $K$ (Alg., chap. V, , no 3), on dit aussi que les éléments $x \in R$ entiers sur $K$ sont les éléments de $R$ algébriques sur $K$
 
 #### Exemple 2 {#ac-v-s1-n1-exa-2 .statement}
 
@@ -389,7 +389,7 @@ En effet, si $x \in K$ est tel que, pour un $d$ non nul dans $A$, $dx^n$ apparti
 
 Soit $A$ un anneau complètement intégralement clos. Alors tout anneau de polynômes $A[X_1, \ldots, X_n]$ (resp. tout anneau de séries formelles $A[[X_1, \ldots, X_n]]$) est complètement intégralement clos.
 
-Par récurrence sur $n$, il suffit de prouver que $A[X]$ (resp. $A[[X]]$) est complètement intégralement clos. Soit donc $P$ un élément du corps des fractions de $A[X]$ (resp. $A[[X]]$) et supposons
+Par récurrence sur $n$, il suffit de prouver que $A[X]$ (resp. $A[[X]]$) est complètement intégralement clos. Soit donc $P$ un élément du corps des fractions de $A[X]$ (resp. $A[[X]]$) et supposons qu’il existe un élément non nul $Q \in A[X]$ (resp. $Q \in A[[X]]$) tel que $Q P^m \in A[X]$ (resp. $Q P^m \in A[[X]]$) pour tout entier $m \geqslant 0$. Si $K$ est le corps des fractions de $A$, $A[X]$ (resp. $A[[X]]$) est un sous-anneau de $K[X]$ (resp. $K[[X]]$), et $K[X]$ (resp. $K[[X]]$) est un anneau principal ($Alg.$, chap. VII, , no 1) donc intégralement clos (no 4, prop. 10) et noethérien ($Alg.$ chap. VIII, § 2, no 3), et par suite complètement intégralement clos ; on voit donc déjà que l’on a $P \in K[X]$ (resp. $P \in K[[X]]$). Soient $P = \sum_{k=0}^{\infty} a_k X^k$ ($a_k \in K$) et $Q = \sum_{k=0}^{\infty} b_k X^k$ ($b_k \in A$) et raisonnons par l’absurde en supposant que les $a_k$ n’appartiennent pas tous à $A$; il y a donc un plus petit indice $i$ tel que $a_i \notin A$; si l’on pose $P_1 = \sum_{k=0}^{i-1} a_k X^k \in A[X]$, il résulte aussitôt de l’hypothèse que l’on a aussi $Q(P - P_1)^m \in A[X]$ (resp. $Q(P - P_1)^m \in A[[X]]$) pour tout $m \geqslant 0$. Soit $j$ le plus petit entier tel que $b_j \neq 0$; il est clair que dans $Q(P - P_1)^m$ le terme de plus petit degré ayant un coefficient $\neq 0$ est $b_j a_i^m X^{j + mi}$, donc on a $b_j a_i^m \in A$ pour tout $m \geqslant 0$; mais comme $A$ est complètemen intégralement clos, cela entraîne $a_i \in A$, contrairement à l’hypothèse
 
 C.Q.F.D.
 
@@ -399,7 +399,7 @@ Soit $A$ un anneau filtré dont la filtration est exhaustive, et tel que tout id
 
 Soit $(A_n)_{n \in \mathbf{Z}}$ la filtration de $A$; comme $\bigcap_{n \in \mathbf{Z}} A_n$ est l’adhérence de l’idéal (0) (chap. III, § 2, no 5), l’hypothèse implique d’abord que la filtration $(A_n)$ est séparée, et comme $\mathrm{gr}(A)$ est intègre, il en est donc de même de $A$ (chap. III, § 2, no 3, cor. de la prop. 1). Soit $x = b/a$ un élément du corps des fractions $K$ de $A$ ($a \in A, b \in A$) pour lequel il existe un élément $d \neq 0$ de $A$ tel que $dx^n \in A$ pour tout $n \geqslant 0$. Il s’agit de prouver que $b \in Aa$, et comme par hypothèse l’idéal $Aa$ est fermé, il suffit de montrer que pour tout $n \in \mathbf{Z}$ on a $b \in Aa + A_n$. Comme la filtration de $A$ est exhaustive, il existe un entier $q \in \mathbf{Z}$ tel que $b \in Aa + A_q$. Il suffira donc de prouver que la relation $b \in Aa + A_m$ implique $b \in Aa + A_{m+1}$.
 
-Supposons donc que $b = ay + z$ avec $y \in A, z \in A_m$. On a par hypothèse $dx^n \in A$ pour tout $n \geqslant 0$, d’où on tire aussitôt
+Supposons donc que $b = ay + z$ avec $y \in A, z \in A_m$. On a par hypothèse $dx^n \in A$ pour tout $n \geqslant 0$, d’où on tire aussitôt d(x - y)^n \in A \text{ pour tout } n \geq 0; \text{ autrement dit, on a } dz^n = a^n t_n \text{ avec } t_n \in A \text{ pour tout } n \geq 0. \text{ On peut évidemment se limiter au cas où } z \neq 0. \text{ Désignons par } v \text{ la fonction d'ordre de } A \text{ (chap. III, , no } 2) \text{ et posons } v(d) = n_1, v(z) = n_2 \geq m, v(a) = n_3; \text{ soient } d', z', a' \text{ les images respectives de } d, z, a \text{ dans } A_{n_1}/A_{n_1+1}, A_{n_2}/A_{n_2+1}, A_{n_3}/A_{n_3+1.} \text{ Pour tout } n \geq 0, \text{ on a } v(dz^n) = n_1 + nn_2 \text{ (chap. III, § 2, no } 3, \text{ prop. 1)}, \text{ donc l'image canonique dans gr}(A) \text{ de } dz^n \text{ est } d'{z'}^n; \text{ de la même manière on voit que l'image canonique dans gr}(A) \text{ de } a^n t_n \text{ est de la forme } {a'}^n t'_n \text{ avec } t'_n \in \text{gr}(A), \text{ et comme } a' \neq 0 \text{ on en déduit que pour tout } n \geq 0, \text{ on a } d'(z'/a')^n \in \text{gr}(A). \text{ L'hypothèse que } \text{gr}(A) \text{ est complètement intégralement clos entraîne donc l'existence d'un } s' \in \text{gr}(A) \text{ tel que } z' = a's'; \text{ en décomposant } s' \text{ en somme d'éléments homogènes, on voit en outre (puisque } z' \text{ et } a' \text{ sont homogènes) que l'on peut supposer } s' \text{ homogène, c'est-à-dire image d'un élément } s \in A; \text{ on a alors } v(as) = v(z) = n_2, \text{ et } z \equiv as \pmod{A_{n_2+1}}; \text{ comme } n_2 \geq m, \text{ on a } a \text{ fortiori } z \equiv as \pmod{A_{m+1}}, \text{ donc } b \equiv a(y + s) \pmod{A_{m+1}}
 
 C.Q.F.D.
 
@@ -457,6 +457,8 @@ Il résulte du cor. 1 que la condition est nécessaire. La condition est suffisa
 (i) *Soient B un sous-anneau de K entier sur A, et soit $f$ l’annulateur du A-module B/A. Alors $S^{-1}f$ est contenu dans l’annulateur du $(S^{-1}A)$-module $S^{-1}B/S^{-1}A$, et est égal à cet annulateur lorsque B est un A-module de type fini.*
 (ii) *Soit A' la clôture intégrale de A. Pour que $S^{-1}A$ soit intégralement clos, il suffit que l’annulateur $f$ du A-module $A'/A$ rencontre S. Cette condition est aussi nécessaire lorsque A' est un A-module de type fini.*
 
+(i) Comme $fB \subset A$, on a $(S^{-1}f)(S^{-1}B) \subset S^{-1}A$, donc $S^{-1}f$ est contenu dans $\mathrm{Ann}(S^{-1}B/S^{-1}A)$. Lorsque $B$ est un $A$-module de type fini, l'égalité $S^{-1}f = \mathrm{Ann}(S^{-1}B/S^{-1}A)$ est un cas particulier de la formule (9) du chap. II, , no 4, $S^{-1}B/S^{-1}A$ s'identifiant canoniquement à $S^{-1}(B/A)$
+
 (ii) En vertu du cor. 1, $S^{-1}A'$ est la clôture intégrale de $S^{-1}A$. Comme les relations $f \cap S \neq \emptyset$ et $S^{-1}f = S^{-1}A$ sont équivalentes (chap. II, § 2, no 5, Remarque) (ii) est une conséquence immédiate de (i).
 
 Lorsque $B$ est un sous-anneau de $K$ entier sur $A$, on dit parfois que l’annulateur $f$ de $B/A$ (égal par définition au transporteur $A:B$ (chap. I, § 2, no 10)) est le conducteur de $B$ dans $A$.
@@ -505,6 +507,10 @@ Avec les mêmes hypothèses et notations que dans le cor. 1, $Tr_{K'/K}(x)$ et $
 
 En effet, $Tr_{K'/K}(x)$ et $N_{K'/K}(x)$ sont, au signe près, des coefficients de $Pc_{K'/K}(x;X)$ (Alg., chap. VIII, § 12, no 1, formules (4)), donc sont entiers.
 
+#### Remarque 1 {#ac-v-s1-n6-rem-1 .statement}
+
+Si $K'$ est une algèbre centrale simple sur $K$ et $x \in K'$ est entier sur $A$, les coefficients du polynôme caractéristique réduit de $x$ (Alg., chap. VIII, , n° 3) sont entiers sur $A$. En effet, il y a une puissance de ce polynôme égale à $\mathrm{Pc}_{K'/K}(x; X)$ (loc. cit., prop. 8) et il suffit d’appliquer la prop. 17 et le n° 3, prop. 11
+
 #### Proposition 18 {#ac-v-s1-prop-18 .statement}
 
 Soient $A$ un anneau intégralement clos, $K$ son corps des fractions, $K'$ une $K$-algèbre commutative séparable (A, V, p. 114) de dimension finie, $A'$ la fermeture intégrale de $A$ dans $K'$. Alors $A'$ est contenu dans un $A$-module de type fini.
@@ -552,7 +558,7 @@ Les conclusions du cor. 1 ne sont pas nécessairement vraies si on ne suppose pa
 #### Proposition 19 {#ac-v-s1-prop-19 .statement}
 
 Soient $k$ un corps, $L$ une extension séparable de $k$, $R$ une $k$-algèbre intégralement close. Si l’anneau $L \otimes_k R$ est intègre, il est intégralement clos.
-Soit $K$ le corps des fractions de $R$; comme $k$ est un corps, $L \otimes_k R$ s’identifie canoniquement à une sous-$k$-algèbre de $L \otimes_k K$ et $L$ et $R$ à des sous-$k$-algèbres de $L \otimes_k R$. En outre, un élément $s \neq 0$ de $R$ étant non diviseur de 0 dans $R$, $1 \otimes s$ est non diviseur de zéro dans $L \otimes_k R$ puisque $L$ est plat sur $k$ (chap. I,
+Soit $K$ le corps des fractions de $R$; comme $k$ est un corps, $L \otimes_k R$ s’identifie canoniquement à une sous-$k$-algèbre de $L \otimes_k K$ et $L$ et $R$ à des sous-$k$-algèbres de $L \otimes_k R$. En outre, un élément $s \neq 0$ de $R$ étant non diviseur de 0 dans $R$, $1 \otimes s$ est non diviseur de zéro dans $L \otimes_k R$ puisque $L$ est plat sur $k$ (chap. I, n° 3); identifiant s à $1 \otimes s$, on voit donc que si $S = R - \{ 0 \}$, $L \otimes_k K$ s'identifie à $S^{-1}(L \otimes_k R)$;, comme $L \otimes_k R$ est supposé intègre, $L \otimes_k K$ est ainsi identifié à un sous-anneau du corps des fractions $\Omega$ de $L \otimes_k R$
 
 1° Supposons d’abord que $L$ soit une extension de degré fini de $k$; alors $L \otimes_k K$ est une algèbre de rang fini sur $K$ et par hypothèse n’a pas de diviseur de 0; donc c’est un corps (Alg., chap. V, § 2, n° 1, prop. 1), et par suite c’est dans ce cas le corps des fractions $\Omega$ de $L \otimes_k R$. Soit $(w_1, \ldots, w_n)$ une base de $L$ sur $k$, qui est donc aussi une base de $L \otimes_k K$ sur $K$. Il existe une base $(w_1^*, \ldots, w_n^*)$ de $L$ telle que $\mathrm{Tr}_{L/k}(w_i w_j^*) = \delta_{ij}$ (n° 6, lemme 3); tout $z \in L \otimes_k K$ s’écrit d’une seule manière $z = \sum_{i=1}^n a_i w_i$ avec $a_i \in K$; on a donc $\mathrm{Tr}_{(L \otimes K)/K}(z w_j^*) = \sum_{i=1}^n a_i \mathrm{Tr}_{(L \otimes K)/K}(w_i w_j^*)$ et comme dans $L$ les traces $\mathrm{Tr}_{(L \otimes K)/K}$ et $\mathrm{Tr}_{L/k}$ coïncident (Alg., chap. VIII, § 12, n° 2, formule (13)), on a finalement $\mathrm{Tr}_{(L \otimes K)/K}(z w_j^*) = a_j$ pour $1 \leq j \leq n$. Notons d’autre part que les éléments de $L$ sont entiers sur $k$, donc aussi sur $R$ (n° 1, cor. 1 de la prop. 2); par suite (n° 1, prop. 5) $L \otimes_k R$ est entière sur $R$. Cela étant, supposons $z \in L \otimes_k K$ entier sur $L \otimes_k R$; alors $z$ est aussi entier sur $R$ (n° 1, prop. 6), donc il en est de même de $z w_j^*$ et par suite aussi de $a_j = \mathrm{Tr}_{(L \otimes K)/K}(z w_j^*)$ pour $1 \leq j \leq n$ (n° 6, cor. 2 de la prop. 17). Comme $R$ est intégralement clos, on a $a_j \in R$ pour tout $j$, donc $z \in L \otimes_k R$, ce qui démontre la proposition dans ce cas.
 
@@ -684,6 +690,8 @@ Soit $(a_j)_{1 \leq j \leq m}$ un système de générateurs de la K-algèbre A; 
 Soient K un anneau noethérien, B une K-algèbre de type fini, C une sous-K-algèbre de B telle que B soit entière sur C. Alors C est une K-algèbre de type fini.
 
 Soit $(x_i)_{1 \leq i \leq n}$ un système fini de générateurs de la K-algèbre B. Pour tout $i$, il existe par hypothèse un polynôme unitaire $P_i \in \mathbf{C}[X]$ tel que $P_i(x_i) = 0$. Soit $C'$ la sous-K-algèbre de C engendrée par les coefficients des $P_i (1 \leq i \leq n)$; il est clair que les $x_i$ sont entiers sur $C'$ et que l’on a $B = C'[x_1, \ldots, x_n]$; donc B est un $C'$-module de type fini (no 1, prop. 4). D’autre part,
+
+C' est un anneau noethérien (chap. III, , no 10, cor. 3 du th. 2); donc C est un C'-module de type fini, ce qui prouve que C est une K-algèbre de type fini
 
 #### Remarque {#ac-v-s1-n9-rem-1 .statement}
 

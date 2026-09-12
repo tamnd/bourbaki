@@ -36,10 +36,10 @@ chapters:
           last_pdf_page: 90
           book_pages: AC VIII.13-AC VIII.23
           subsections: 4
-          statements: 32
+          statements: 33
           exercises: 18
           extraction: ocr
-          content_sha256: d7066e36706438d32a22f5ef08bd4e19a169b5d80d705a7389fcb171033cec0a
+          content_sha256: 824849cc7a62ef82141e84ff6c74c4336f7b8b3c6c66a18539de92d3e43bae07
         - kind: section
           section: 3
           title: Dimension des anneaux noethériens
@@ -52,7 +52,7 @@ chapters:
           statements: 39
           exercises: 7
           extraction: ocr
-          content_sha256: 8a46e9bac74c1717f34ad8e8f4e538302331df7231ad75df3a7d3188cc5b08ba
+          content_sha256: d05cfceabb2f12560b3616122783607d3ce5b96f0667c7af2c49cc661c3f01b8
         - kind: section
           section: 4
           title: Séries de Hilbert-Samuel
@@ -78,7 +78,7 @@ chapters:
           statements: 31
           exercises: 32
           extraction: ocr
-          content_sha256: 6ad3c554aa21f75c5b44d1656b413c9e3aa4fcc3784dcd6abbdea8c83ca23186
+          content_sha256: 975ab64a9f9b4e7076ff7e268517103a96680c897e5050f648e78d7dc80eb91b
         - kind: section
           section: 6
           title: Dimension des anneaux gradués
@@ -104,7 +104,7 @@ chapters:
           statements: 34
           exercises: 25
           extraction: ocr
-          content_sha256: feafddbbd3f14fcc3330dfb44683830fd40511839b2cb65ecb9bcabf3ec6b575
+          content_sha256: 83bc6480ba925c06196b3dcefbd432194d23e1eca7cb2ebf52f26fd9d3c10801
     - chapter: IX
       title: ANNEAUX LOCAUX NOETHÉRIENS COMPLETS
       sections:
@@ -130,7 +130,7 @@ chapters:
           statements: 29
           exercises: 58
           extraction: ocr
-          content_sha256: 30760f149ab2c67e0e4434bb0adc4e82484040cc992dcfdbb46c774ebcd55842
+          content_sha256: d4a9d7b0a297fb36d58d11080939c18134be68cd7ca8f3130b786f023d0f006e
         - kind: section
           section: 2
           title: Anneaux de Cohen
@@ -166,10 +166,10 @@ chapters:
           last_pdf_page: 196
           book_pages: AC IX.78-AC IX.84
           subsections: 4
-          statements: 25
+          statements: 26
           exercises: 32
           extraction: ocr
-          content_sha256: cb927004891b75f7bec7495a3fa16bafa8f97a5ce54d872780a5fd5e2ad7a98d
+          content_sha256: 0f09f51220149afd8873dd61b1db12e8932f8d5b0da8d16f7bfd6b4fc5a957cf
         - kind: appendix
           path: content/fr/ac/IX/A_a_.md
           label: ac-ix-a0

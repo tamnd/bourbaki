@@ -41,7 +41,7 @@ subsections:
       pdf_page: 33
 statements: 46
 exercises: 11
-content_sha256: ff330e575d4881104b32e2aa26a3e238d27c787767e37d369959cac87107a0e9
+content_sha256: dddc39df458f4963c9b4d57372a8fae27b78193d38b8488ec84f78c6c99f3672
 ---
 
 ## § 2. MODULES ET ANNEAUX MACAULAYENS
@@ -473,7 +473,7 @@ Le corollaire 3 s’applique notamment dans les deux situations suivantes :
 
 a) On considère un anneau noethérien intégralement clos $A$, une extension séparable $L$ de son corps des fractions, de degré fini $n$ tel que $n1_A$ soit inversible dans $A$, et on prend pour $B$ la fermeture intégrale de $A$ dans $L$ (V, $§ 1$, n° 6, cor. 1 de la prop. 18).
 
-b) On considère un anneau noethérien intégralement clos $B$ et un groupe fini $G$ d’automorphismes de $B$, tel que $\mathrm{Card}(G) 1_B$ soit inversible dans $B$. On prend pour $A$ l’anneau des éléments de $B$ invariants pour l’action de $G$. Vérifions que nous sommes dans un cas particulier de a). Le groupe $G$ opère sur le corps des
+b) On considère un anneau noethérien intégralement clos $B$ et un groupe fini $G$ d’automorphismes de $B$, tel que $\mathrm{Card}(G) 1_B$ soit inversible dans $B$. On prend pour $A$ l’anneau des éléments de $B$ invariants pour l’action de $G$. Vérifions que nous sommes dans un cas particulier de a). Le groupe $G$ opère sur le corps des fractions L de B, et le corps des invariants de L pour cette action est le corps des fractions K de A (V, , n° 9, cor. de la prop. 23). L’extension L de K est galoisienne, et a fortiori séparable ; son groupe de Galois est isomorphe à G de sorte que [L : K] est égal à Card G. L’inverse de [L : K] 1_B est invariant par G de sorte que [L : K] 1_A est inversible dans A. Comme B est intégralement clos, l’anneau A, égal à K ∩ B, est intégralement clos et B est sa fermeture intégrale dans L (loc. cit., prop. 22)
 
 En particulier, si B est un anneau de Macaulay, il en est de même de A.
 
@@ -538,6 +538,8 @@ Soient A un anneau noethérien, J un idéal de A et M un A-module de type fini. 
 Les conditions (ii) à (v) sont équivalentes, et sont entraînées par (i). Lorsque l’idéal J est contenu dans le radical de A, les conditions (i) à (v) sont équivalentes.
 
 On sait que (i) implique (iii) (n° 1, exemple 3), et (iii) est identique à (i) lorsque J est contenu dans le radical de A (puisque les éléments de S sont alors inversibles).
+
+L’anneau $\widehat{A}$ est noethérien (III, , n° 4, prop. 8) ; il s’identifie au complété de $S^{-1}A$ pour la topologie $S^{-1}J$-adique, et le $\widehat{A}$-module $\widehat{M}$ au complété de $S^{-1}M$ pour la topologie $S^{-1}J$-adique (III, § 3, n° 5, prop. 12). Par suite, pour prouver l’équivalence des conditions (ii) à (v), on peut remplacer $A$ par $S^{-1}A$, $J$ par $S^{-1}J$ et $M$ par $S^{-1}M$ ; autrement dit on peut supposer que $J$ est contenu dans le radical de $A$. Le $A$-module $\widehat{A}$ est alors fidèlement plat (*loc. cit.*, prop. 9)
 
 Il est clair que (v) implique (iv) et que (iv) implique (i).
 

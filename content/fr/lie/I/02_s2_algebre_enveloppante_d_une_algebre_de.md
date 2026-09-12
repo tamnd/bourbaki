@@ -48,7 +48,7 @@ subsections:
       pdf_page: 36
 statements: 22
 exercises: 10
-content_sha256: f76e062aa2d955e1dce679bbda658db869ed117138bd749e9682a2de023263a7
+content_sha256: fac7a4e2702b562b1564160aaaa27f81347a040104e7d7b462a524dba1ebd218
 ---
 
 ## § 2. Algèbre enveloppante d’une algèbre de Lie
@@ -198,7 +198,7 @@ Ainsi, lorsque $K$ est un corps de caractéristique 0, la restriction à ${S'}^n
 
 ### 6. Filtration de l’algèbre enveloppante
 
-Soient $g$ une algèbre de Lie sur $K$, et $T$ l’algèbre tensorielle du $K$-module $g$. Soient $T^n$ le sous-module de $T$ formé des tenseurs
+Soient $g$ une algèbre de Lie sur $K$, et $T$ l’algèbre tensorielle du $K$-module $g$. Soient $T^n$ le sous-module de $T$ formé des tenseurs homogènes d’ordre $n$, et $T_n = \sum_{i \leq n} T^i$. On a $T_n \subset T_{n+1}$, $T_0 = K.1$, $T_{-1} = \{0\}$, et $T_n T_p \subset T_{n+p}$. Soit $U_n$ l’image canonique de $T_n$ dans l’algèbre enveloppante $U$ de $g$. On a $U_n \subset U_{n+1}$, $U_0 = K.1$, $U_{-1} = \{0\}$, et $U_n U_p \subset U_{n+p}$; on peut donc dire que $U$ est une algèbre filtrée par les $U_n$ (*Alg. comm.*, chap. III, , no 1); les éléments de $U_n$ seront dits de filtration $\leq n$
 
 Soit $G^n$ le $K$-module $U_n / U_{n-1}$, et soit $G$ le $K$-module somme directe des $G^n$. La multiplication sur $U$ définit, par passage aux quotients, une application bilinéaire de $G^n \times G^m$ dans $G^{n+m}$, donc une application bilinéaire de $G \times G$ dans $G$, qui est associative. Ainsi, $G$ est muni d’une structure de $K$-algèbre associative. On a $G^n G^m \subset G^{n+m}$. Les éléments de $G^n$ sont dits de degré $n$. L’algèbre graduée ainsi obtenue n’est autre que l’algèbre graduée associée à l’algèbre filtrée $U$ (*Alg. comm.*, chap. III, § 2, no 3).
 

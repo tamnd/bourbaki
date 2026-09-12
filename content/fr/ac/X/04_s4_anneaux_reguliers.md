@@ -33,7 +33,7 @@ subsections:
       pdf_page: 58
 statements: 29
 exercises: 13
-content_sha256: a112d681205206375fe13e7dc2206d60c01749e1bfcc230287dd728737269808
+content_sha256: 5d1bd7cb23ec2da07b1525fb7c3a149ca2b8c1850631a7e88315d0492db18876
 ---
 
 ## § 4. ANNEAUX RÉGULIERS
@@ -152,6 +152,8 @@ Soit $A$ un anneau noethérien. Les conditions suivantes sont équivalentes :
 (iii) pour tout idéal maximal $m$ de $A$, la dimension projective de $A/m$ est finie ;
 (iv) pour tout idéal premier $p$ de $A$, l’anneau local $A_p$ est régulier.
 
+Soit $\mathfrak{p}$ un idéal premier de $A$; si le $A$-module $A/\mathfrak{p}$ est de dimension projective finie, il en est de même du $A_{\mathfrak{p}}$-module $\kappa(\mathfrak{p})$ d’après le cor. 1 de la prop. 3 du , n° 2, de sorte que l’anneau local $A_{\mathfrak{p}}$ est régulier (th. 1). On en déduit que (ii) implique (iv) et que (iii) implique (i). Les implications (iv) $\Rightarrow$ (i) et (ii) $\Rightarrow$ (iii) sont claires
+
 Prouvons que (i) implique (ii). Soit $M$ un $A$-module de type fini. Sous l’hypothèse (i), on a $\mathrm{dp}_{A_m}(M_m) \leq \mathrm{dh}(A_m) < +\infty$ pour tout idéal maximal $m$ de $A$ (n° 1, prop. 1) ; donc $M$ est de dimension projective $< +\infty$ ($§ 3$, n° 2, cor. 2 de la prop. 3), d’où (ii).
 
 #### Exemple 1 {#ac-x-s4-n2-exa-1 .statement}
@@ -199,6 +201,8 @@ a) *Pour que l’anneau $\hat{A}$ soit régulier, il faut et il suffit que, pour
 
 b) *Si l’anneau $A$ est régulier, l’anneau $\hat{A}$ est régulier. Si l’anneau $\hat{A}$ est régulier et l’idéal $J$ contenu dans le radical de $A$, l’anneau $A$ est régulier.*
 
+D’après la prop. 8 de III, , n° 4, pour que l’anneau $\hat{A}$ soit régulier, il faut et il suffit qu’il en soit ainsi de $\hat{A}_m$ pour tout idéal maximal $m$ de $A$ contenant $J$. Comme les complétés des anneaux locaux $\hat{A}_m$ et $A_m$ sont isomorphes (*loc. cit.*), l’assertion a) résulte de VIII, § 5, n° 1, cor. de la prop. 1. L’assertion b) résulte de a)
+
 #### Corollaire 4 {#ac-x-s4-prop-4-cor-4 .statement}
 
 *Soient $A$ un anneau régulier et $P$ un $A$-module projectif de type fini. L’algèbre symétrique $S_A(P)$ est un anneau régulier.*
@@ -224,7 +228,7 @@ Alors $N$ est un $A$-module projectif (de type fini).*
 
 Il s’agit de prouver que, pour tout idéal maximal $m$ de $A$, le $A_m$-module $N_m$ est libre (II, § 5, n° 2, th. 1). Le $A$-module $B/\mathrm{Ann}_B(N)$ est un sous-module du $A$-module de type fini $\mathrm{End}_A(N)$, donc est de type fini. Si l’on remplace $B$ par $B/\mathrm{Ann}_B(N)$, les hypothèses de la proposition sont encore vérifiées ($§ 2$, n° 1, exemple 5); on peut donc supposer que $B$ est un $A$-module de type fini et que $\mathrm{Supp}_B(N) = \mathrm{Spec}(B)$.
 
-Soit $m$ un idéal maximal de $\mathrm{Supp}_A(N)$; posons $n = \dim(A_m)$. D’après le cor. 2 de la prop. 3 du n° 1, il suffit de prouver que $N_m$ est un $A_m$-module macaulayen de dimension $n$. Tout idéal maximal de $B_m$ est de la forme $nB_m$, où $n$ est un idéal premier de $B$ au-dessus de $m$ (V, § 2, n° 1, lemme 1 et prop. 1). Soit $p$ un idéal premier minimal de $\mathrm{Supp}_B(N)$, contenu dans $n$. La partie fermée $V(pB_n)$ de $\mathrm{Supp}_{B_n}(N_n)$ est alors de codimension nulle; le $B_n$-module $N_n$ étant macaulayen, le cor. de la prop. 2, § 2, n° 2 entraîne l’égalité $\dim_{B_n}(N_n) = \dim(B_n/pB_n)$. Mais $p$ est au-dessus d’un idéal premier minimal de $A$, contenu dans $m$, de sorte que
+Soit $m$ un idéal maximal de $\mathrm{Supp}_A(N)$; posons $n = \dim(A_m)$. D’après le cor. 2 de la prop. 3 du n° 1, il suffit de prouver que $N_m$ est un $A_m$-module macaulayen de dimension $n$. Tout idéal maximal de $B_m$ est de la forme $nB_m$, où $n$ est un idéal premier de $B$ au-dessus de $m$ (V, § 2, n° 1, lemme 1 et prop. 1). Soit $p$ un idéal premier minimal de $\mathrm{Supp}_B(N)$, contenu dans $n$. La partie fermée $V(pB_n)$ de $\mathrm{Supp}_{B_n}(N_n)$ est alors de codimension nulle; le $B_n$-module $N_n$ étant macaulayen, le cor. de la prop. 2, § 2, n° 2 entraîne l’égalité $\dim_{B_n}(N_n) = \dim(B_n/pB_n)$. Mais $p$ est au-dessus d’un idéal premier minimal de $A$, contenu dans $m$, de sorte que pB_n est au-dessus d’un idéal premier minimal de A_m, qui est nul puisque l’anneau local A_m est régulier, donc intègre. L’application canonique A_m → B_n/pB_n est donc injective et il résulte de VIII, , n° 3, th. 1 que l’on a dim(B_n/pB_n) = n. La prop. 2 du § 2, n° 2 entraîne que le A_m-module N_m est macaulayen. La proposition résulte alors des relations dim_{A_m}(N_m) = dim_{B_m}(N_m) (VIII, § 2, n° 3, th. 1) et dim_{B_m}(N_m) ≥ dim_{B_n}(N_n) = n
 
 #### Corollaire {#ac-x-s4-n3-cor-1 .statement}
 
@@ -303,6 +307,8 @@ Soit $\rho : A \to B$ un homomorphisme d’anneaux noethériens faisant de B un 
 a) Pour tout A-module M de type fini, on a $dp_A(M) = dp_B(B \otimes_A M)$.
 
 b) Si l’anneau B est régulier, l’anneau A est régulier.
+
+Le B-module $B \otimes_A M$ est de type fini (I, , n° 6, prop. 12). Pour qu’il soit nul, il faut et il suffit que $M$ le soit (I, § 3, n° 1, déf. 1) ; pour qu’il soit projectif, il faut et il suffit que $M$ soit un $A$-module projectif (I, n° 6, prop. 12). Cela prouve a) lorsque $dp_A(M) \leqslant 0$. Supposons donc $dp_A(M) \geqslant 1$ (d’où $dp_B(B \otimes_A M) \geqslant 1$) et démontrons a) par récurrence sur $dp_A(M)$. Choisissons une suite exacte de $A$-modules
 
 $$
 0 \to N \to L \to M \to 0

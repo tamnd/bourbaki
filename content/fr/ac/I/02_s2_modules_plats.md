@@ -56,7 +56,7 @@ subsections:
       pdf_page: 39
 statements: 41
 exercises: 24
-content_sha256: 39b7d83a8815eb8caa222a7c0451a74d40cac76b8b9db7fd37dcd383409492fc
+content_sha256: aa24a7dbdbc92a85a8b640414c52c0ba3e9e58886ead1d029ddea821c28c1a34
 ---
 
 ## § 2. Modules plats (*)
@@ -280,7 +280,7 @@ puisque le passage à la limite inductive commute avec le produit tensoriel ($Al
 
 1) Pour tout anneau $A$, il est clair que $A_d$ est un $A$-module plat ($Alg.$, chap. II, 3e éd., § 3, no 4, prop. 4). Il résulte alors de la prop. 2, (i), du no 3 que tout $A$-module à droite libre, et plus généralement tout $A$-module à droite *projectif* ($Alg.$, chap. II, 3e éd., § 2, no 2) est un $A$-module plat.
 
-2) Si $A$ est un anneau *semi-simple* ($Alg.$, chap. VIII, § 5, no 1, déf. 1) tout $A$-module à droite $E$ est semi-simple, donc somme directe de modules simples ; comme chacun de ces derniers est
+2) Si $A$ est un anneau *semi-simple* ($Alg.$, chap. VIII, § 5, no 1, déf. 1) tout $A$-module à droite $E$ est semi-simple, donc somme directe de modules simples ; comme chacun de ces derniers est isomorphe à un facteur direct de $A_d$ (*ibid.*, , no 1, prop. 6), E est projectif, et par suite plat d’après 1) (cf. exerc. 16)
 
 *3) Aux chap. II et III, nous étudierons en détail deux exemples importants de A-modules plats : les anneaux de fractions $S^{-1}A$ et les séparés complétés $\hat{A}$ de A pour les topologies $\mathfrak{J}$-adiques.*
 

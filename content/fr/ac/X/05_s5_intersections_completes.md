@@ -37,7 +37,7 @@ subsections:
       pdf_page: 69
 statements: 20
 exercises: 11
-content_sha256: eeb344109e82555cea3334d8ee4e909c9de3b1564652d5490e54fcebfaebd6b2
+content_sha256: 91c29d8f00f5f716b69d38dfd284ef594a9a41ffeef8b96e13fd3f3d03503b7e
 ---
 
 ## § 5. INTERSECTIONS COMPLÈTES
@@ -239,6 +239,8 @@ Démontrons b).
 (iv) l’algèbre A est une k-algèbre graduée de polynômes de type fini, et toute suite génératrice algébriquement libre de A formée d’éléments homogènes est B-régulière.*
 
 Les implications (i) $\Rightarrow$ (ii) et (ii) $\Rightarrow$ (iii) sont claires, et l’implication (iii) $\Rightarrow$ (i) résulte de A, X, p. 144, prop. 8, a).
+
+(i) ⇒ (iv) : puisque l’anneau B est régulier et fidèlement plat sur A, l’anneau A est noethérien d’après la prop. 11 de I, , n° 6 et régulier d’après la prop. 8 du § 4, n° 5, donc est une k-algèbre graduée de polynômes (cor. 1, a)). Toute suite génératrice algébriquement libre de A est A-régulière (A, X, p. 158, exemple), donc B-régulière puisque B est plat sur A
 
 (iv) ⇒ (iii) : supposons la condition (iv) satisfaite, et soit x une suite génératrice algébriquement libre de A formée d’éléments homogènes. La suite x, étant A-régulière, est complètement sécante pour A (A, X, p. 157, prop. 5), de sorte que le A-module Tor_1^A(k, B) est isomorphe à H_1(x, B) (A, X, p. 159, remarque 3) ; mais ce dernier est nul, puisque la suite x est B-régulière.
 

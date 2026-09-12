@@ -61,7 +61,7 @@ chapters:
           statements: 37
           exercises: 24
           extraction: ocr
-          content_sha256: 344a6de3b2a59e1cfb82dd1f659b36634483ae134ebd0e00853505a4e2b06f47
+          content_sha256: ff9585b598241d595c6e67d88388e188c750f4612b510647d26fdec5db4b73f0
         - kind: section
           section: 3
           title: Faithfully flat modules
@@ -127,7 +127,7 @@ chapters:
           statements: 52
           exercises: 27
           extraction: ocr
-          content_sha256: 1bca67b21446afd6b1304dbb0be8158646473b1135d859d1ff7a050bb745d19d
+          content_sha256: 7e8604632ae2236199e289364340d787add630e8b5e48f3061f2041b0c24fe7e
         - kind: section
           section: 3
           title: Local rings. Passage from the local to the global
@@ -140,7 +140,7 @@ chapters:
           statements: 39
           exercises: 14
           extraction: ocr
-          content_sha256: 4f386f4871c58170a49537a2a50d87c0f1514cb0377ef14915c0c8c2f53a7186
+          content_sha256: 2d33c9599e069a462ad035502f5889e9684b14d14d8fbf1bbf0753d4c85a405a
         - kind: section
           section: 4
           title: Spectra of rings and supports of modules
@@ -153,7 +153,7 @@ chapters:
           statements: 49
           exercises: 28
           extraction: ocr
-          content_sha256: 6f7cf1ebd9f83d55d972bba623722a1f420c6ea28c01ee2cc23b631ea4662e6a
+          content_sha256: ef9bd7ecd1886f25d63c9b0acd5c39fdf2a517141ccfa8855b8e3ce36ecb9f15
         - kind: section
           section: 5
           title: Finitely generated projective modules. Invertible fractional ideals
@@ -206,7 +206,7 @@ chapters:
           statements: 57
           exercises: 13
           extraction: ocr
-          content_sha256: bb5c0ba3ec8f46dd3e98a66f30d020781e123ced6ca57aff1c0910309f89a6c6
+          content_sha256: 9e80d306b1116bfe8ca76d5618a3bf11d91ec8f1d795e8e9964d5ea7ea7ab47c
         - kind: section
           section: 3
           title: m-adic topologies on Noetherian rings

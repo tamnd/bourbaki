@@ -45,7 +45,7 @@ subsections:
       pdf_page: 50
 statements: 43
 exercises: 16
-content_sha256: cff1e54e677d660b4335d2d0917a51d15c8183a2d718ef70c8e028164552b105
+content_sha256: 223e65b471a128a98f93a70dda60ffcf3968cf702957302e0782d3c15603b16d
 ---
 
 ## § 3. PROFONDEUR ET DIMENSION HOMOLOGIQUE
@@ -132,7 +132,7 @@ où $p$ parcourt l’ensemble des idéaux premiers (resp. maximaux) de $A$.
 
 b) L’application $p \mapsto \mathrm{dp}_{A_p}(M_p)$ de $\mathrm{Spec}(A)$ dans $\overline{\mathbf{Z}}$ est semi-continue supérieurement.
 
-Prouvons a). Soit $n$ un entier $\geqslant 0$. Supposons qu’on ait $\mathrm{dp}_A(M) < n$. Pour tout idéal premier $p$ de $A$ et tout $A_p$-module $Q$, le $A_p$-module $\mathrm{Ext}_A^n(M_p, Q)$ est isomorphe à $(\mathrm{Ext}_A^n(M, Q))_p$ (prop. 2), donc est nul ; on en déduit l’inégalité
+Prouvons a). Soit $n$ un entier $\geqslant 0$. Supposons qu’on ait $\mathrm{dp}_A(M) < n$. Pour tout idéal premier $p$ de $A$ et tout $A_p$-module $Q$, le $A_p$-module $\mathrm{Ext}_A^n(M_p, Q)$ est isomorphe à $(\mathrm{Ext}_A^n(M, Q))_p$ (prop. 2), donc est nul ; on en déduit l’inégalité dp_{A_p}(M_p) \leq dp_A(M) \ (\text{A, X, p. 134, prop. 1}). Supposons inversement qu’on ait dp_{A_m}(M_m) < n pour tout idéal maximal m de A, et soit R un A-module. On a (Ext^n_A(M, R))_m = 0 pour tout m (prop. 2), donc Ext^n_A(M, R) = 0 (II, , n° 3, cor. 2 du th. 1), ce qui entraîne dp_A(M) < n (A, X, p. 134, prop. 1). La première égalité de a) en résulte. La seconde se démontre de la même manière, en utilisant la caractérisation de la dimension injective donnée dans la prop. 1 (iii). Comme dh(A) est la borne supérieure de l’ensemble des dimensions injectives de A-modules (n° 1), la troisième égalité en résulte
 
 Prouvons b). Soient p un idéal premier de A et n = dp_{A_p}(M_p). Démontrons qu’il existe un voisinage U de p dans Spec(A) tel que l’on ait dp_{A_q}(M_q) \leq n pour tout q \in U. C’est clair si n = +\infty ; si n = -\infty , cela résulte du fait que le support de M est fermé. Supposons maintenant n fini et choisissons une suite exacte de A-modules
 $$
@@ -500,6 +500,8 @@ Puisque $A$ est un anneau de Macaulay, on a
 $$
 \dim(A_p) = \operatorname{codim}(V(p), \operatorname{Spec}(A)) = \operatorname{codim}(V(p), X) + \operatorname{codim}(X, \operatorname{Spec}(A))
 $$
+
+pour toute $X \in \mathscr{C}(p)$ (\S 2, n° 2, prop. 2 b)) ; on a d'autre part (VIII, , n° 4, prop. 9 et n° 2, remarque 3)
 
 $$
 \dim_{A_p}(M_p) = \operatorname{codim}(V(p), \operatorname{Supp}(M)) = \sup_{X \in \mathscr{C}(p)} \operatorname{codim}(V(p), X)

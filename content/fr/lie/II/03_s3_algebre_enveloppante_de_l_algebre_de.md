@@ -22,9 +22,9 @@ subsections:
       title: Dimension des composantes homogènes de $L(X)$
       page: 0
       pdf_page: 33
-statements: 13
+statements: 14
 exercises: 4
-content_sha256: fea2d6401ef257a76b7539b11cef3c0cbd53bef25404f8b73e6adb0317c6f561
+content_sha256: e31d156b081e12dc289b4dcc3cbefb47007cefc08de434a02a05a96a20cee321
 ---
 
 ## § 3. Algèbre enveloppante de l’algèbre de Lie libre
@@ -131,6 +131,10 @@ $$
 *pour $n \geqslant 1$, et $x_1, \ldots, x_n$ dans $X$. Alors $P$ est un projecteur de $A^+(X)$ sur $L(X)$.*
 
 L’image de $P$ est contenue dans $L(X)$. De plus, pour tout $n \geqslant 1$ et tout $u$ dans $L^n(X)$, on a $P(u) = \frac{1}{n} \pi(u)$, d’où $P(u) = u$ d’après la prop. 1. Comme $L(X) = \sum_{n \geqslant 1} L^n(X)$, on voit que la restriction de $P$ à $L(X)$ est l’identité.
+
+#### Remarque {#lie-ii-s3-n2-rem-1 .statement}
+
+Supposons que K soit un corps de caractéristique zéro et soit Q le projecteur de $A(X) = U(L(X))$ sur $L(X)$ associé à la graduation canonique de $U(L(X))$, cf. , n° 5. *Pour $\alpha \in \mathbf{N}^{(X)}$, on a* $Q(A^\alpha(X)) \subset L^\alpha(X)$. En effet, il suffit de vérifier que l’image et le noyau de Q sont des sous-modules gradués de $A(X)$ pour la graduation de type $\mathbf{N}^{(X)}$. C’est évident pour l’image, qui est égale à $L(X)$. D’autre part, soit $n$ un entier $\geqslant 1$. Le sous-espace vectoriel de $A(X)$ engendré par les $y^n$, où $y \in L(X)$, est égal au sous-espace vectoriel de $A(X)$ engendré par les $\sum_{\sigma \in S_n} y_{\sigma(1)} y_{\sigma(2)} \cdots y_{\sigma(n)}$, où $y_1, y_2, \ldots, y_n$ sont des éléments homogènes de $L(X)$; ce sous-espace est donc un sous-module gradué de $A(X)$
 
 (On notera que, si Card(X) $\geqslant 2$, les projecteurs P et Q *ne coïncident pas* dans $A^+(X)$. En effet, soient $x, y$ dans X, tels que $x \neq y$, et posons
 

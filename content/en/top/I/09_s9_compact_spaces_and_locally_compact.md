@@ -52,8 +52,8 @@ subsections:
       page: 94
       pdf_page: 100
 statements: 52
-exercises: 4
-content_sha256: 04af61b839c1d58055c4903b487d48cb075b23c0ab4a4724a0b1dfc6d3901a45
+exercises: 29
+content_sha256: 543ad9961fa966a99dd5191ce33e9a362131183de7f151476be40fc47d3e2483
 ---
 
 ## 9. COMPACT SPACES AND LOCALLY COMPACT SPACES
@@ -344,6 +344,8 @@ a) *Let $(X_i)_{i \in I}$ be a family of locally compact spaces such that $X_i$ 
 
 b) *Conversely, if the product of a family $(X_i)_{i \in I}$ of non-empty topological spaces is locally compact, then the factors $X_i$ are compact for all but a finite number of indices, and the factors which are not compact are locally compact.*
 
+a) Let $x = (x_i)$ be a point of $X$. For each index $i \in I$ such that $X_i$ is locally compact but not compact, let $V_i$ be a compact neighbourhood of $x_i$ in $X_i$, and for all other indices $i$ put $V_i = X_i$. Then $\prod_{i \in I} V_i$ is a compact neighbourhood of $x$ in $X$ (no. 5, Theorem 3). Also $X$ is Hausdorff by , no. 2, Proposition 7, and is therefore locally compact
+
 b) If $X = \prod_{i \in I} X_i$ is locally compact and the $X_i$ non-empty, then each of the $X_i$ is homeomorphic to a closed subspace of $X$ ($§ 4$, no. 2, Proposition 4 and $§ 4$, no. 3, Corollary to Proposition 7), hence locally compact by Proposition 13. Let $a = (a_i)$ be a point of $X$ and let $V$ be a compact neighbourhood of $a$; since we have $\operatorname{pr}_i V = X_i$ for all but a finite number of indices ($§ 4$, no. 1), it follows from no. 4, Corollary 1 to Theorem 2, that the $X_i$ are compact except for a finite number of indices.
 
 ### 8. EMBEDDING OF A LOCALLY COMPACT SPACE IN A COMPACT SPACE
@@ -448,6 +450,8 @@ $$
 T_i \times S_{i, k} \quad (i \in I, \ 1 \leq k \leq n(x_i) \text{ for each } i \in I)
 $$
 form an open covering of $X \times Y$ which refines $\mathscr{R}$, and the proof will be complete if we show that this covering is locally finite. Let $(x, y)$ be any point of $X \times Y$; there is a neighbourhood $Q$ of $x$ which meets only a finite number of sets $T_i$, and therefore the neighbourhood $Q \times Y$ of $(x, y)$ meets only a finite number of sets $T_i \times S_{i, k}$.
+
+On the other hand the product of two paracompact spaces need not be paracompact (see Chapter IX, , Exercise 16)
 
 #### Proposition 18 {#top-i-s9-prop-18 .statement}
 

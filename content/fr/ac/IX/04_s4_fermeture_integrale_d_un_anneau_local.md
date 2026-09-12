@@ -27,9 +27,9 @@ subsections:
       title: Anneaux de Nagata
       page: 0
       pdf_page: 146
-statements: 25
+statements: 26
 exercises: 32
-content_sha256: cb927004891b75f7bec7495a3fa16bafa8f97a5ce54d872780a5fd5e2ad7a98d
+content_sha256: 0f09f51220149afd8873dd61b1db12e8932f8d5b0da8d16f7bfd6b4fc5a957cf
 ---
 
 ## § 4. FERMETURE INTÉGRALE D’UN ANNEAU LOCAL COMPLET
@@ -43,6 +43,10 @@ Soit $A$ un anneau noethérien intègre. On dit que $A$ est japonais si la ferme
 #### Remarque 1 {#ac-ix-s4-n1-rem-1 .statement}
 
 Il revient au même de dire que $A$ satisfait à la condition suivante : toute $A$-algèbre intègre $B$ entière sur $A$, contenue dans une extension de type fini du corps des fractions $K$ de $A$, est une $A$-algèbre finie. En effet, le corps des fractions $L$ de $B$ est une extension algébrique de $K$, donc est de degré fini sur $K$ (A, V, p. 112, cor. 1 de la prop. 17). La $A$-algèbre $B$ est contenue dans la fermeture intégrale de $A$ dans $L$, et est donc finie si cette dernière est finie.
+
+#### Remarque 2 {#ac-ix-s4-n1-rem-2 .statement}
+
+Soient A un anneau noethérien intègre japonais et S une partie multiplicative de A ne contenant pas 0. L’anneau de fractions $S^{-1}A$ est japonais. Soient en effet L une extension finie du corps des fractions de A et B la fermeture intégrale de A dans L ; alors la fermeture intégrale de $S^{-1}A$ dans L est $S^{-1}B$ (V, , no 5, prop. 16), donc est une $S^{-1}A$-algèbre finie
 
 #### Exemple {#ac-ix-s4-n1-exa-1 .statement}
 
@@ -186,7 +190,7 @@ Démontrons l’implication (i) $\Rightarrow$ (ii) par récurrence sur $\dim(A)$
 \text{pour tout anneau local noethérien de Nagata } C \text{ de dimension } < n \text{ et tout idéal premier } r \text{ de } C, \text{ l’anneau } \kappa(r) \otimes_C \hat{C} \text{ est réduit.}
 \end{array} \right.$
 
-Soit $A$ un anneau semi-local noethérien de Nagata de dimension $n$, soient $p$ un idéal premier de $A$ et $L$ une extension finie du corps $\kappa(p)$; il suffit de démontrer,
+Soit $A$ un anneau semi-local noethérien de Nagata de dimension $n$, soient $p$ un idéal premier de $A$ et $L$ une extension finie du corps $\kappa(p)$; il suffit de démontrer, sous l’hypothèse (R_n), que l’anneau L ⊗_A Ā est réduit. Notons B la fermeture intégrale de A/p dans L ; puisque A/p est japonais, B est une A-algèbre finie donc un anneau de Nagata semi-local (prop. 4). Notons m_1, ..., m_r les idéaux maximaux de B ; l’anneau L ⊗_A Ā s’identifie à un anneau de fractions de B ⊗_A Ā, et ce dernier s’identifie au produit des complétés des anneaux locaux B_{m_i} (n° 3, lemme 1). Il suffit donc de prouver que, pour tout idéal maximal m de B, l’anneau $\hat{B}_m$ est réduit (II, , n° 6, prop. 17). L’anneau $B_m$ est local, intégralement clos, de Nagata (prop. 4), et l’on a $\dim(B_m) \leq \dim(B) \leq \dim(A) = n$ (VIII, § 1, n° 3, prop. 6 et § 2, n° 3, th. 1). Changeant de notations, on est ramené à prouver, sous l’hypothèse (R_n), que pour tout anneau local noethérien A intégralement clos, de Nagata et de dimension $\leq n$, l’anneau $\hat{A}$ est réduit, c’est-à-dire (n° 3, lemme 2) que $\hat{A}_{p'}$ est réduit pour tout idéal premier $p' \in \mathrm{Ass}(\hat{A})$. Comme cela est immédiat si $\dim(A) = 0$, on peut supposer $\dim(A) > 0$. Soient alors x un élément non nul de $m_A$, et q’ un idéal premier de $\hat{A}$, minimal parmi ceux qui contiennent $x\hat{A} + p'$; puisque $\hat{A}_{p'}$ s’identifie à un anneau de fractions de l’anneau $\hat{A}_{q'}$, il suffit de prouver que ce dernier est réduit (II, § 2, n° 6, prop. 17). D’après le lemme 3, l’idéal q’ est associé au $\hat{A}$-module $\hat{A}/x\hat{A}$; puisque $\hat{A}$ est plat sur A, l’image réciproque q de q’ dans A est associée au A-module $A/xA$ (IV, § 2, n° 6, cor. 1 au th. 2). L’anneau A étant supposé intégralement clos, cela implique que q est de hauteur 1 (VII, § 1, n° 6, prop. 10), donc que l’anneau $A_q$ est de valuation discrète (*loc. cit.*, n° 3, corollaire au th. 2 et n° 6, th. 4). Puisque $A/q$ est un anneau de Nagata de dimension $< n$, l’anneau $\kappa(q) \otimes_{A/q} \widehat{A/q}$ est réduit d’après l’hypothèse (R_n). L’anneau $\kappa(q) \otimes_A \hat{A}$, qui lui est isomorphe, est réduit, ainsi par conséquent que l’anneau $\kappa(q) \otimes_{A_q} \hat{A}_{q'}$, qui en est un anneau de fractions. On peut donc appliquer à l’homomorphisme canonique de $A_q$ dans $\hat{A}_{q'}$ le lemme 4 du n° 3 et on en conclut que l’anneau $\hat{A}_{q'}$ est réduit, ce qu’on voulait prouver. Le th. 3 est ainsi démontré
 
 #### Corollaire 1 {#ac-ix-s4-thm-3-cor-1 .statement}
 

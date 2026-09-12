@@ -29,7 +29,7 @@ subsections:
       pdf_page: 60
 statements: 31
 exercises: 32
-content_sha256: 6ad3c554aa21f75c5b44d1656b413c9e3aa4fcc3784dcd6abbdea8c83ca23186
+content_sha256: 975ab64a9f9b4e7076ff7e268517103a96680c897e5050f648e78d7dc80eb91b
 ---
 
 ## § 5. ANNEAUX LOCAUX RÉGULIERS
@@ -310,6 +310,8 @@ d) L’homomorphisme canonique de $A/p$ dans $B/q$ induit un isomorphisme des co
 Posons $C = A_p[t]$ et notons d le degré de P. D’après la prop. 3 appliquée à l’anneau $A_p$, le polynôme d’Eisenstein P est irréductible dans $K[T]$ et $(1, t, ..., t^{d-1})$ est une base de L sur K, donc de C sur $A_p$. Comme P est unitaire, le noyau de l’homomorphisme canonique de $A_p[T]$ sur C est égal à (P). D’après le corollaire de la prop. 4 ci-dessus, C est donc un anneau local noethérien régulier de même dimension que $A_p$, l’idéal maximal $m_C$ de C est engendré par $p \cup \{ t \}$ et le corps $\kappa_C$ est une extension triviale du corps des fractions de $A/p$. Pour prouver la prop. 5, il suffit donc de montrer qu’il existe un unique idéal premier q de B au-dessus de p, et qu’on a $C = B_q$.
 
 Posons S = A − p. On sait (V, § 1, n° 5, prop. 16) que la fermeture intégrale de
+
+A_p dans L est égale à S^{-1}B. Par ailleurs t est entier sur A_p, et l’anneau C = A_p[t] est local noethérien régulier, donc intégralement clos (n° 2, cor. 1 du th. 1). On a donc C = S^{-1}B. Par conséquent, l’anneau S^{-1}B est local et possède un unique idéal maximal. D’après V, , n° 1, prop. 1, il existe un unique idéal premier de S^{-1}B au-dessus de pA_p, donc B possède un unique idéal premier q au-dessus de p (loc. cit., lemme 1), et l’on a B_q = S^{-1}B = C
 
 #### Corollaire {#ac-viii-s5-n4-cor-2 .statement}
 

@@ -21,7 +21,7 @@ subsections:
       pdf_page: 177
 statements: 14
 exercises: 5
-content_sha256: 0bc45a262e76e3794f579b7104193bd87ff872938fb59c6a3972ce58f3b392d7
+content_sha256: d3a7dfbc683acc0549be276cb7389642c26562ad3377848bc4a96958120076e3
 ---
 
 ## 1. UNIFORM SPACES
@@ -162,6 +162,8 @@ If $V$ is any entourage of $X$, there is a symmetric entourage $W$ such that $W 
 #### Corollary 3 {#top-ii-s1-prop-2-cor-3 .statement}
 
 *Every uniform space satisfies axiom* $(O_{III})$.
+
+If $x$ is any point of $X$ and $V$ runs through the entourages of $X$ which are closed in $X \times X$, then the sets $V(x)$ form a fundamental system of neighbourhoods of $x$ in $X$ by Corollary 2, and they are closed in $X$ (Chapter I, , no. 2, Corollary to Proposition 4)
 
 #### Proposition 3 {#top-ii-s1-prop-3 .statement}
 

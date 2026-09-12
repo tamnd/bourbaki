@@ -36,7 +36,7 @@ subsections:
       pdf_page: 43
 statements: 11
 exercises: 13
-content_sha256: 4f407f3681e8c98681264a9fe4f2c17ccb92d164b832d84999ebc3cac3052ef4
+content_sha256: bf25725deee5c63d9783452f77b95e23f73b2d6f644ca613ffdce36246f75e04
 ---
 
 ## 1. REAL NUMBER SPACE $\mathbf{R}^n$
@@ -89,7 +89,7 @@ The space $\mathbf{R}^n$ is locally compact, but is not compact if $n \geq 1$.
 
 The set $\mathbf{R}^n$, endowed with the group structure which is the product of the additive group structures of the $n$ factors of $\mathbf{R}^n$, is an abelian group; we use the additive notation, the sum of $x = (x_i)$ and $y = (y_i)$ being therefore $x + y = (x_i + y_i)$. The topology of the number space is compatible with this group structure; endowed with these two structures, $\mathbf{R}^n$ is a topological group called the *additive group of n-dimensional real number space*. If $n = 0$, we make the convention that $\mathbf{R}^0$ denotes a group consisting only of the identity element.
 
-The uniform structure of this group, called the *additive uniformity* of $\mathbf{R}^n$, is the product of the uniformities of the factors of $\mathbf{R}^n$ (Chapter III, § 3, no. 2). If, for each integer $p > 0$, $V_p$ denotes the set of pairs $(x, y)$ of $\mathbf{R}^n$ such that $\max_{1 \leq i \leq n} |x_i - y_i| \leq 1/p$, the sets $V_p$ form a *fundamental*
+The uniform structure of this group, called the *additive uniformity* of $\mathbf{R}^n$, is the product of the uniformities of the factors of $\mathbf{R}^n$ (Chapter III, § 3, no. 2). If, for each integer $p > 0$, $V_p$ denotes the set of pairs $(x, y)$ of $\mathbf{R}^n$ such that $\max_{1 \leq i \leq n} |x_i - y_i| \leq 1/p$, the sets $V_p$ form a *fundamental* system of entourages of this uniformity. Whenever we consider $\mathbf{R}^n$ as a uniform space we shall always have in mind the additive uniformity just defined, unless the contrary is expressly stated. Endowed with this uniform structure, $\mathbf{R}^n$ is a complete uniform space (Chapter II, , no. 5, Proposition 10)
 
 ### 3. THE VECTOR SPACE $\mathbf{R}^n$
 

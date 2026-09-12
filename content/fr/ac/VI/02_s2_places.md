@@ -32,7 +32,7 @@ subsections:
       pdf_page: 96
 statements: 9
 exercises: 6
-content_sha256: 0e3cd49ce9b1c7f45994bc7e960e7402591e6b5e1c55dd2dff578eda3ad5b1c1
+content_sha256: 218e027bf76a43494ac26de109ecb2f983966827186cb5f4dc44eaafd7fb0388
 ---
 
 ## § 2. Places
@@ -54,6 +54,8 @@ La notion de morphisme est distincte de celle de représentation (Alg., chap. I,
 #### Définition 2 {#ac-vi-s2-def-2 .statement}
 
 Soient $E$ et $E'$ deux ensembles, munis chacun d’une famille de lois de composition internes $(x, y) \to x *_{\alpha} y$, $\alpha \in I$. On dit qu’une application $f : E \to E'$ est un morphisme si c’est un morphisme pour chacune des lois de composition $(x, y) \to x *_{\alpha} y$.
+
+Tout comme les représentations, les morphismes vérifient les axiomes (MO_I), (MO_{II}), (MO_{III}) de Ens., chap. IV, . Si $f : E \to E'$ est un morphisme, $f(E)$ est une partie stable de $E'$
 
 ### 2. Places
 

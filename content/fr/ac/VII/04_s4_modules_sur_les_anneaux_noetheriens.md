@@ -52,14 +52,14 @@ subsections:
       pdf_page: 272
 statements: 81
 exercises: 26
-content_sha256: 74ea20d6d299d276a4957126b1bc502e96d53c52468d50bf3e255e89b2444cc6
+content_sha256: 982b323189f8df3c1d442a29adb4dcee201347ec2fce30a549a98774f66f984d
 ---
 
 ## § 4. Modules sur les anneaux noethériens intégralement clos
 
 Dans tout ce paragraphe, A est un anneau commutatif intègre, de corps des fractions K. A partir du n° 2, on suppose en outre que A est noethérien et intégralement clos (donc un anneau de Krull (§ 1, n° 3, cor. du th. 2)); on note alors respectivement P(A), D(A) et C(A) l’ensemble des idéaux premiers de A de hauteur 1 ($§ 1, n° 6$), le groupe des diviseurs de A ($§ 1, n° 3$), et le groupe des classes de diviseurs de A ($§ 1, n° 10$), ces derniers étant notés additivement.
 
-La méthode générale d’étude des modules de type fini sur un anneau noethérien intégralement clos A consiste à « localiser » les modules pour tous les idéaux premiers $p \in P(A)$ de hauteur 1 dans A; comme $A_p$ est alors un anneau de valuation discrète
+La méthode générale d’étude des modules de type fini sur un anneau noethérien intégralement clos A consiste à « localiser » les modules pour tous les idéaux premiers $p \in P(A)$ de hauteur 1 dans A; comme $A_p$ est alors un anneau de valuation discrète ( , n° 6, th. 4), la structure des $A_p$-modules de type fini est bien connue (*Alg.*, chap. VII, § 4) et donne des renseignements sur la structure des $A$-modules de type fini. Dans le cas particulier où $A$ est un anneau de Dedekind, on peut ainsi arriver à une théorie aussi achevée que lorsque $A$ est un anneau principal (n° 10)
 
 ### 1. Réseaux
 

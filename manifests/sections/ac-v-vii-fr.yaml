@@ -22,10 +22,10 @@ chapters:
           first_pdf_page: 5
           last_pdf_page: 73
           subsections: 9
-          statements: 77
+          statements: 78
           exercises: 19
           extraction: ocr
-          content_sha256: 61541b816506d8643a47b6e627ea73a54abc7d07b68a95b739a61fc71d33bee7
+          content_sha256: 1950a70f7ac991afbff3d98b43476cb6632045875eea2e25d55dea7c93f027fd
         - kind: section
           section: 2
           title: Relèvement des idéaux premiers
@@ -35,9 +35,9 @@ chapters:
           last_pdf_page: 80
           subsections: 4
           statements: 46
-          exercises: 12
+          exercises: 22
           extraction: ocr
-          content_sha256: 30000ba43e3bca2ac6c7564a342102b8753fa329d503fb09f2b4b104d986c240
+          content_sha256: 988e546d1e9b404ed796a1e846778326a3101ccd169fabf8146e9871ef90c122
         - kind: section
           section: 3
           title: Algèbres de type fini sur un corps
@@ -46,10 +46,10 @@ chapters:
           first_pdf_page: 54
           last_pdf_page: 83
           subsections: 4
-          statements: 19
+          statements: 20
           exercises: 10
           extraction: ocr
-          content_sha256: f56ee6fe5aa54a57f75443e957c380102cd8f3e8b88aeb66ce9ba58d41af2af7
+          content_sha256: 34e0294de394e95ef7bb0457d25a8485023fe67573199bc75340de8cf317648c
     - chapter: VI
       title: Valuations
       sections:
@@ -74,7 +74,7 @@ chapters:
           statements: 17
           exercises: 9
           extraction: ocr
-          content_sha256: f08974229002023d2c931d74e75ec5293faf262851fcdac5e95498f0ed0d4c3b
+          content_sha256: 9fdf898cf63dd9d397639d29feb601f0cff8cc8eec4ac574ce90904d22475988
         - kind: section
           section: 2
           title: Places
@@ -86,7 +86,7 @@ chapters:
           statements: 9
           exercises: 6
           extraction: ocr
-          content_sha256: 0e3cd49ce9b1c7f45994bc7e960e7402591e6b5e1c55dd2dff578eda3ad5b1c1
+          content_sha256: 218e027bf76a43494ac26de109ecb2f983966827186cb5f4dc44eaafd7fb0388
         - kind: section
           section: 3
           title: Valuations
@@ -95,10 +95,10 @@ chapters:
           first_pdf_page: 97
           last_pdf_page: 171
           subsections: 6
-          statements: 22
+          statements: 23
           exercises: 8
           extraction: ocr
-          content_sha256: f2c1be48bb3a783656311acb7528247e469efca6363e37f4a54a19f40802eb73
+          content_sha256: 2195e3c9564867ffcf7e8c22e52ff5fa1593e602d2c64e42ddf9a017d2388f74
         - kind: section
           section: 4
           title: Hauteur d’une valuation
@@ -110,7 +110,7 @@ chapters:
           statements: 23
           exercises: 11
           extraction: ocr
-          content_sha256: 563676659965a92c71be49b4746926bc03de5a286f245990e54782b081f661a3
+          content_sha256: ae35206b4cd5b0be6c23024aa082e6478d645632f935b7a66124a5bfa75f5d71
         - kind: section
           section: 5
           title: Topologie définie par une valuation
@@ -122,7 +122,7 @@ chapters:
           statements: 10
           exercises: 10
           extraction: ocr
-          content_sha256: 96d2f082c9d2a0d3302f5c9c946c8c3dfcc2b4d8bcd0e30ed4bd713c957760f0
+          content_sha256: 72a3c924c9afb7b8890652eba980a04e6f5d6ba480daf628c16dcc9080e99673
         - kind: section
           section: 6
           title: Valeurs absolues
@@ -134,7 +134,7 @@ chapters:
           statements: 13
           exercises: 2
           extraction: ocr
-          content_sha256: ab626463728484049617fdf625dc4f84cc1def3e7b4b1b448a897e1bbf89d726
+          content_sha256: 22d023c287c71c604ac61a41b662a1dd82484b39b1939d9a175a42a6888a7c00
         - kind: section
           section: 7
           title: Théorème d’approximation
@@ -146,7 +146,7 @@ chapters:
           statements: 16
           exercises: 3
           extraction: ocr
-          content_sha256: 715be665122e7252a49fdc5b8ef199e1cd38d1499be4307c88b2c0b3ad68453e
+          content_sha256: d1da8d8cb6a9cdd7126633763c95f4a30fc05e45fefccd85791d7ec09ba64593
         - kind: section
           section: 8
           title: Prolongements d’une valuation à une extension algébrique
@@ -158,7 +158,7 @@ chapters:
           statements: 42
           exercises: 22
           extraction: ocr
-          content_sha256: 84c3cc5c0dbda691de74b9d297dc5491e7bf86736ac42cce01004b2a4de4fea6
+          content_sha256: 9041f9c78a28b4b410fb87acbc75b09567f20dece253102f1bdab3a0070f6b46
         - kind: section
           section: 9
           title: 'Application : corps localement compacts'
@@ -170,7 +170,7 @@ chapters:
           statements: 10
           exercises: 5
           extraction: ocr
-          content_sha256: 58fd841f8498d862da8be15d521e5b38ce2e9b1bfe1fcd00d7596db458dbc146
+          content_sha256: 7f3698c0bc10ec62cf64129e06e103c90a16b71001c1dd658b12a8fa9951c4f2
         - kind: section
           section: 10
           title: Prolongements d’une valuation à une extension transcendante
@@ -182,7 +182,7 @@ chapters:
           statements: 14
           exercises: 2
           extraction: ocr
-          content_sha256: 957db58ac3145bf3286e15a80d9fd627934fbcb4686a687a8c344613a0353a8d
+          content_sha256: 30e8e7d895f59745f16988b4ec29b0f8b0c7b1e3584eeb9eff5cc2742a32f312
     - chapter: VII
       title: Diviseurs
       sections:
@@ -207,7 +207,7 @@ chapters:
           statements: 44
           exercises: 32
           extraction: ocr
-          content_sha256: 860a98b57e590f0d26176e79bb25cb6f2417010d91439df1d08b3d509c0de918
+          content_sha256: 30e4445b984b37be490c4bf26d2ba381ce15811dabfb13a95f8a5c3dcd107420
         - kind: section
           section: 2
           title: Anneaux de Dedekind
@@ -219,7 +219,7 @@ chapters:
           statements: 15
           exercises: 22
           extraction: ocr
-          content_sha256: a8860cd79257be111d6393b6e3751e163399b0d8febeedb4e24741bfdab641f2
+          content_sha256: 0bf4b89ff6f396b5bf8440b22b75e82b18dc143a4310e5228be60325d35a40e7
         - kind: section
           section: 3
           title: Anneaux factoriels
@@ -231,7 +231,7 @@ chapters:
           statements: 23
           exercises: 27
           extraction: ocr
-          content_sha256: e4acba64addabc770fa1d85f4fcbf658451c06a66608d1c5e36d0fccd77971db
+          content_sha256: bd58b2a9c389cecc00a730d25e8d44b0a759280d80ba2a928402bc8c6d17834b
         - kind: section
           section: 4
           title: Modules sur les anneaux noethériens intégralement clos
@@ -243,7 +243,7 @@ chapters:
           statements: 81
           exercises: 26
           extraction: ocr
-          content_sha256: 74ea20d6d299d276a4957126b1bc502e96d53c52468d50bf3e255e89b2444cc6
+          content_sha256: 982b323189f8df3c1d442a29adb4dcee201347ec2fce30a549a98774f66f984d
         - kind: historical
           title: Historical Note
           path: content/fr/ac/VII/historical_note.md

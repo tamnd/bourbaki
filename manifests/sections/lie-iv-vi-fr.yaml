@@ -48,7 +48,7 @@ chapters:
           statements: 31
           exercises: 29
           extraction: ocr
-          content_sha256: 5e37365274e6d0174dfd441e9158a76e87d1c0aff89baa9b72f51d8fb4bcbf1a
+          content_sha256: 2fced1cd0ba3a54d251e3f3c9b51fcd23517c83d9de939b2767d351e182dd259
         - kind: appendix
           title: Graphes
           path: content/fr/lie/IV/A_a_graphes.md
@@ -108,7 +108,7 @@ chapters:
           statements: 35
           exercises: 8
           extraction: ocr
-          content_sha256: 446d7d75835a54990eb44a32db674611c9492a1acac3ebd9a84f2e4fb1ae7876
+          content_sha256: 1305d974aacdd05ff8c575cb52d64d9082d0e1b161d37d13d82280c7e50c83cc
         - kind: section
           section: 4
           title: Représentation géométrique d’un groupe de Coxeter

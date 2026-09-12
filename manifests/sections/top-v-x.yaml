@@ -58,9 +58,9 @@ chapters:
           last_pdf_page: 34
           subsections: 0
           statements: 5
-          exercises: 1
+          exercises: 8
           extraction: ocr
-          content_sha256: e083ecd8e6a72be8ff4cd629267067888014277bb5a1f7b1682d08f2f015472c
+          content_sha256: a45344698e64b7f15c95b037d1b15e9856fecc238c6cd7dc80c2f862a9126c7f
         - kind: section
           section: 4
           title: Exponentials and logarithms
@@ -107,7 +107,7 @@ chapters:
           statements: 11
           exercises: 13
           extraction: ocr
-          content_sha256: 4f407f3681e8c98681264a9fe4f2c17ccb92d164b832d84999ebc3cac3052ef4
+          content_sha256: bf25725deee5c63d9783452f77b95e23f73b2d6f644ca613ffdce36246f75e04
         - kind: section
           section: 2
           title: Euclidean distance, balls and spheres
@@ -166,7 +166,7 @@ chapters:
           statements: 19
           exercises: 15
           extraction: ocr
-          content_sha256: 07826542ef19c3012458e0f7113389f19de5a79362d99c7d0a88b25808de4eb6
+          content_sha256: d343a34bdaaa4927fb459400448d55f1b23a3d001323cebd333634038ab034a6
         - kind: section
           section: 2
           title: Continuous homomorphisms of $\mathbf{R}^n$ and its quotient groups
@@ -190,7 +190,7 @@ chapters:
           statements: 9
           exercises: 2
           extraction: ocr
-          content_sha256: 7bb9d8c6584112e9559c49dbcd9c2f4e99bcb4f450d7cf7d15f5643a61cb0daf
+          content_sha256: f3c3a1cc01aaaaa91057b78d85cd78c4d47e652ca66e4d3031cca1dd5ab749b5
         - kind: historical
           title: Historical Note
           path: content/en/top/VII/historical_note.md
@@ -237,7 +237,7 @@ chapters:
           statements: 5
           exercises: 4
           extraction: ocr
-          content_sha256: 2e8e0396b01fa2c0c1fc1a5a72586ea4ad250d3983c3fd7034ef9e1594ea4c6c
+          content_sha256: 9858af83e87d7a01d163aceffbf907bec6b8ef690b9be1de07f43002a6bc78ad
         - kind: section
           section: 3
           title: Infinite sums and products of complex numbers

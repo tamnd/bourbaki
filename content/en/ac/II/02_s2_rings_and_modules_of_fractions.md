@@ -49,7 +49,7 @@ subsections:
       pdf_page: 98
 statements: 52
 exercises: 27
-content_sha256: 1bca67b21446afd6b1304dbb0be8158646473b1135d859d1ff7a050bb745d19d
+content_sha256: 7e8604632ae2236199e289364340d787add630e8b5e48f3061f2041b0c24fe7e
 ---
 
 ## 2. RINGS AND MODULES OF FRACTIONS
@@ -217,6 +217,8 @@ For every $A$-module $N$ and all $a \in A$, denote by $h_a$ the homothety $y \ma
 $$
 h'(a/s) = h_a(h_s)^{-1};
 $$
+
+we know (Algebra, Chapter II, , no. 14) that such a homomorphism defines on N an $A[S^{-1}]$-module structure such that $(a/s).y = h_s^{-1}(a.y)$; the A-module structure derived from this $A[S^{-1}]$-module structure by means of the homomorphism $i_A^S$ is precisely the structure given initially
 
 Conversely, if N is an $A[S^{-1}]$-module and it is considered as an A-module by means of $i_A^S$, the homotheties $y \mapsto sy$, for $s \in S$, are bijective, for $y \mapsto (1/s)y$ is the inverse mapping of $y \mapsto sy$; and the $A[S^{-1}]$-module structure on N derived from its A-module structure by the process described above is the $A[S^{-1}]$-module structure given initially. Thus there is a canonical one-to-one correspondence between $A[S^{-1}]$-modules and A-modules in which the homotheties induced by the elements of S are bijective; moreover, if N, N' are two A-modules with this property every A-module homomorphism $u : N \to N'$ is also a homomorphism of the $A[S^{-1}]$-module structures of N and N', as, for ally $\in N$ and all $s \in S$, we may write $u(y) = u(s.((1/s)y)) = s.u((1/s)y)$, whence $u((1/s)y) = (1/s)u(y)$; the converse is obvious.
 
@@ -421,6 +423,8 @@ Let $(M_\alpha, \phi_{\beta \alpha})$ be a direct system of A-modules; then $(S^
 $$
 \lim \rightarrow (S^{-1}M_\alpha) \to S^{-1} \lim \rightarrow M_\alpha.
 $$
+
+Similarly, the fact that taking direct sums commutes with tensor products (Algebra, Chapter II, , no. 7, Proposition 7) allows us to define for every family $(M_i)_{i \in I}$ of $A$-modules a canonical isomorphism
 
 $$
 \bigoplus_{i \in I} S^{-1} M_i \to S^{-1} \bigoplus_{i \in I} M_i.

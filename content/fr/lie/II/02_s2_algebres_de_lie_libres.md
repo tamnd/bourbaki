@@ -56,7 +56,7 @@ subsections:
       pdf_page: 28
 statements: 31
 exercises: 16
-content_sha256: 6ce3d7973ea494da4d3b4cdfc786fbc6a16330e2a0a8dfd46ee0ae052c631632
+content_sha256: 8d43fb5864f21d9fdc52e54d886711d1e825b061c0bc8e2b3443df898a021f26
 ---
 
 ## § 2. Algèbres de Lie libres
@@ -105,7 +105,7 @@ Soit g l’algèbre de Lie commutative ayant K comme module sous-jacent. Pour $i
 
 Soit a une algèbre de Lie. Toute extension de L(X) par a est inessentielle.
 
-Soit $a \xrightarrow{\lambda} g \xrightarrow{\mu} L(X)$ une telle extension (chap. I, § 1, n° 7). Comme $\mu$ est surjective, il existe une application f de X dans g telle que $\varphi = \mu \circ f$. Soit F l’homomorphisme de L(X) dans g tel que $f = F \circ \varphi$ (prop. 1). On a $(\mu \circ F) \circ \varphi =$
+Soit $a \xrightarrow{\lambda} g \xrightarrow{\mu} L(X)$ une telle extension (chap. I, § 1, n° 7). Comme $\mu$ est surjective, il existe une application f de X dans g telle que $\varphi = \mu \circ f$. Soit F l’homomorphisme de L(X) dans g tel que $f = F \circ \varphi$ (prop. 1). On a $(\mu \circ F) \circ \varphi =$ μ ∘ f = φ, et la prop. 1 montre que μ ∘ F est l’automorphisme identique de L(X). L’extension donnée est donc inessentielle (chap. I, , no 7, prop. 6 et déf. 6)
 
 Comme l’anneau K n’est pas réduit à 0, le cor. 1 de la prop. 1 montre que φ est injective. On peut donc identifier au moyen de φ l’ensemble X à son image dans L(X); avec cette convention, X engendre L(X) et toute application de X dans une algèbre de Lie g se prolonge en un homomorphisme d’algèbres de Lie de L(X) dans g.
 

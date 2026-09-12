@@ -57,7 +57,7 @@ subsections:
       pdf_page: 45
 statements: 37
 exercises: 24
-content_sha256: 344a6de3b2a59e1cfb82dd1f659b36634483ae134ebd0e00853505a4e2b06f47
+content_sha256: ff9585b598241d595c6e67d88388e188c750f4612b510647d26fdec5db4b73f0
 ---
 
 ## 2. FLAT MODULES(*)
@@ -318,6 +318,8 @@ Let $A$ be a ring and $E$ a right $A$-module.
 
 (*) Recall that a right (resp. left) divisor of 0 in a ring $A$ is an element $b \in A$ such that the mapping $x \mapsto xb$ (resp. $x \mapsto bx$) is not injective.
 
+(ii) Suppose that $A$ is an integral domain in which every finitely generated ideal is principal (for example a principal ideal domain (Algebra, Chapter VII, , no. 1)). Then for $E$ to be flat it is necessary and sufficient that $E$ be torsion-free
+
 We prove (i). Let $v : A, \to A$, be the left $A$-module homomorphism $t \mapsto ta$; the hypothesis implies that $v$ is injective. As $E$ is flat, the homomorphism $1_E \otimes v : E \otimes_A A, \to E \otimes_A A$, is also injective. When $E \otimes_A A$, is canonically identified with $E$, $1, \otimes v$ becomes the endomorphism $x \mapsto xa$ of $E$. Thus the relation $xa = 0$ implies $x = 0$.
 
 We prove (ii). By (i), if $E$ is flat, $E$ is torsion-free. Conversely, let $E$ be a torsion-free $A$-module; we verify that, for every finitely generated ideal $a$ of $A$, the canonical homomorphism $E \otimes_A a \to E$ is injective (no. 3, Remark 1). This assertion is obvious if $a = (0)$; otherwise, by hypothesis $a = Aa$ for some $a \in A, a \neq 0$, and $t \mapsto ta$ is then an isomorphism $v$ of $A$ onto $a$; using $i$ to denote the canonical injection $a \to A$, $i \circ v$ is the homothety with ratio $a$ on $E$ and is injective since $E$ is assumed to be torsion-free. Then $1, \otimes (i \circ v) = (1, \otimes i) \circ (1_E \otimes v)$; as $1_E \otimes v$ is an isomorphism, $1, \otimes i$ is injective, which completes the proof.
@@ -565,6 +567,8 @@ A presentation (6) of a module $E$ is called *finite* if the free modules $L_0$ 
 (ii) *If $A$ is a left Noetherian ring, every finitely generated left $A$-module admits a finite presentation.*
 (iii) *Every finitely generated projective module admits a finite presentation.*
 
+Assertion (i) follows trivially from the definitions. If $A$ is left Noetherian and there exists a surjective homomorphism $u : L_0 \to E$, where $L_0$ is a free left $A$-module with a finite basis, the kernel $R$ of $u$ is finitely generated (*Algebra*, Chapter VIII, , no. 1, Proposition 1 and no. 3, Proposition 7), hence there is a surjective homomorphism $u : L_1 \to R$, where $L_1$ is free and has a finite basis, and the exact sequence $L_1 \xrightarrow{v} L_0 \xrightarrow{u} E \to 0$ is a finite presentation of $E$; whence (ii)
+
 Finally, suppose that $E$ is a finitely generated projective module; then it is a direct factor of a finitely generated free module $L_0$ (*Algebra*, Chapter II, §2, no. 2, Corollary to Proposition 4); the kernel $R$ of the surjective homomorphism $L_0 \to E$ is then isomorphic to a quotient of $L_0$ and hence finitely generated and the proof is completed as for (ii).
 
 #### Lemma 9 {#ac-i-s2-lem-9 .statement}
@@ -784,6 +788,8 @@ E \otimes_A R \xrightarrow{1 \otimes i} E \otimes_A A_s^{(L)} \xrightarrow{1 \ot
 $$
 
 (*) The results of this no. will not be used in the rest of this chapter, except in § 3, no. 7.
+
+Now, $E \otimes_A A_s^{(L)}$ is canonically identified with $E^{(L)}$, a family $e = (e_\lambda) \in E^{(L)}$ being identified with $\sum_{\lambda \in L} e_\lambda \otimes u_\lambda$ (*Algebra*, Chapter II, , no. 7, Corollary 1 to Proposition 7). For such a family to belong to the kernel of $1_E @ g$, it is necessary and sufficient that $\sum_{\lambda \in L} e_\lambda \otimes f_\lambda = 0$ in $E \otimes_A F$; taking account of the exact sequence (13), this is equivalent to saying that $e$ belongs to the image of $1, \otimes i$, in other words there is a relation of the form
 
 $$
 \sum_{\lambda \in L} e_\lambda \otimes u_\lambda = \sum_{j \in J} x_j \otimes i(r_j)

@@ -65,7 +65,7 @@ subsections:
       pdf_page: 212
 statements: 57
 exercises: 13
-content_sha256: bb5c0ba3ec8f46dd3e98a66f30d020781e123ced6ca57aff1c0910309f89a6c6
+content_sha256: 9e80d306b1116bfe8ca76d5618a3bf11d91ec8f1d795e8e9964d5ea7ea7ab47c
 ---
 
 ## § 2. GENERAL RESULTS ON FILTERED RINGS AND MODULES
@@ -120,7 +120,7 @@ Now let $E$ be a graded module of type $\mathbf{Z}$ over the graded ring $A$ and
 $$
 A_m E_n = A_m A_n E \subset A_{m+n} E = E_{m+n},
 $$
-and from (2) that $E_0 = E$; then $(E_n)$ is an exhaustive filtration which is compatible with the $A$-module structure on $E$. This filtration is said to be derived from the given filtration $(A_n)$ on $A$; note that it is not necessarily separated,
+and from (2) that $E_0 = E$; then $(E_n)$ is an exhaustive filtration which is compatible with the $A$-module structure on $E$. This filtration is said to be derived from the given filtration $(A_n)$ on $A$; note that it is not necessarily separated, even if $(A_n)$ is separated and $E$ and the $A_n$ are finitely generated $A$-modules (cf. , Exercise 2; see however § 3, no. 3, Proposition 5 and no. 2, Corollary to Proposition 4)
 
 (3) Let $A$ be a ring and $m$ a two-sided ideal of $A$. Let us write $A_n = m^n$ for $n \geq 0$, $A_n = A$ for $n < 0$; it is immediate that $(A_n)$ is an exhaustive filtration on $A$, called the $m$-adic filtration. Let $E$ be an $A$-module; the filtration $(E_n)$ derived from the $m$-adic filtration on $A$ is called the $m$-adic filtration on $E$; in other words, $E_n = m^n E$ for $n \geq 0$ and $E_n = E$ for $n < 0$.
 
@@ -142,6 +142,8 @@ Finally let $E$ be a filtered $A$-module and $(E_n)$ its filtration; on every su
 $$
 A_n(F + E_m) \subset F + A_n E_m \subset F + E_{m+n}.
 $$
+
+Note that if the filtration on E is derived from that on A (Example 2), so is the quotient filtration on E/F, but *not* in general the filtration induced *on* F (Exercise 1; see however , no. 2, Theorem 2)
 
 If E' is another filtered A-module, the product filtration on E × E' is compatible with its A-module structure. If the filtrations on E and E' are derived from that on A (Example 2), so is their product filtration.
 

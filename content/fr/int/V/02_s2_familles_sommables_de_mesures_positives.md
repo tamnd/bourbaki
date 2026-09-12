@@ -24,7 +24,7 @@ subsections:
       pdf_page: 20
 statements: 12
 exercises: 4
-content_sha256: 9281fb2355828d7c5c8b7262f46e05909395d6fce4cdb1cb8201d230589dbe59
+content_sha256: 982b059bcfa805e71f1c99a11a61b141555d669b7aad9ba690d644527f4cd1b8
 ---
 
 ## § 2. Familles sommables de mesures positives
@@ -46,6 +46,8 @@ $$
 \sum_{\alpha \in A} \lambda_\alpha(K) < +\infty
 $$
 pour tout compact $K \subset X$.
+
+En effet, (2) entraîne (1), car on a $f \leq \|f\| \cdot \varphi_S$, où S désigne le support compact de $f$. Inversement, si K est un compact, il existe une fonction $f \in \mathscr{K}_+(X)$ telle que $\varphi_K \leq f$ (chap. III, 2e éd., , n° 2, lemme 1), et il en résulte que (1) entraîne (2)
 
 #### Remarque 1 {#int-v-s2-n1-rem-1 .statement}
 
@@ -143,6 +145,8 @@ Si $f$ est mesurable (resp. essentiellement intégrable, intégrable) pour $\the
 Soit $\mu$ une mesure positive sur un espace localement compact $T$, et soit $\mathscr{R}$ un ensemble $\mu$-dense de parties compactes de $T$. Il existe une famille sommable $(\mu_\alpha)_{\alpha \in A}$ de mesures positives sur $T$, telle qu’on ait $\mu = \sum_{\alpha \in A} \mu_\alpha$, que les supports des mesures $\mu_\alpha$ appartiennent à $\mathscr{R}$, et forment une famille localement dénombrable de compacts deux à deux disjoints.
 
 Si la mesure $\mu$ est modérée, l’ensemble d’indices $A$ peut être supposé dénombrable.
+
+En effet, considérons une famille localement dénombrable $(K_\alpha)_{\alpha \in A}$ d’éléments de $A$ deux à deux disjoints, telle que l’ensemble $N = T - \bigcup_{\alpha \in A} K_\alpha$ soit localement $\mu$-négligeable (chap. IV, 2e éd., , n° 9, prop. 14). Pour toute fonction $f \in \mathscr{K}(T)$, posons
 
 $$
 \mu_\alpha(f) = \mu(f \varphi_{K_\alpha});

@@ -28,8 +28,8 @@ subsections:
       page: 105
       pdf_page: 111
 statements: 30
-exercises: 20
-content_sha256: a578ae95d7d778d449c8eae63c8c9ece381c7729d0159c7fbf2afbdd42950e28
+exercises: 21
+content_sha256: a01fb3abb657b0dbf528da2cd1015dc922d8c5066e9645cf57ee613dee6d776f
 ---
 
 ## 10. PROPER MAPPINGS
@@ -322,6 +322,8 @@ Q.E.D.
 #### Corollary {#top-i-s10-n4-cor-1 .statement}
 
 *Let $X$ be a Hausdorff space, $Y$ a topological space, $f : X \to Y$ a proper mapping. Then for $X$ to be compact (resp. locally compact) it is necessary and sufficient that $f(X)$ is compact (resp. locally compact), and it is sufficient that $Y$ is compact (resp. locally compact).*
+
+f_z : X \to f(X) is proper [no. 1, Proposition 3 a)] it follows that X is compact (resp. locally compact) by reason of Proposition 6 of no. 2 and Proposition 7 of no. 3. Finally, if Y is compact (resp. locally compact) then so is f(X) which is closed in Y (no. 1, Proposition 1 and , no. 7, Proposition 13)
 
 #### Remark {#top-i-s10-n4-rem-1 .statement}
 

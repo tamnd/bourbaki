@@ -32,7 +32,7 @@ subsections:
       pdf_page: 77
 statements: 33
 exercises: 7
-content_sha256: c84c8e9bbfd780cd7d187b3268f56cfdc354d325ebca1ac829b9ed46fabee30d
+content_sha256: f8146ad58576601331f03faeb0a568f6f2e8d9eeece04ea66d445456ad61083e
 ---
 
 ## § 6. EXTENSION DES SCALAires DANS LES ALGÈBRES RÉGULIÈRES
@@ -104,6 +104,8 @@ a) Si $A$ et $B$ sont des anneaux de Macaulay, il en est de même de $A \otimes_
 b) Si $A$ et $B$ sont des anneaux de Gorenstein, il en est de même de $A \otimes_k B$.
 
 Supposons que $A$ et $B$ soient des anneaux de Macaulay (resp. de Gorenstein) et prouvons qu’il en est de même de $A \otimes_k B$. L’anneau $A \otimes_k B$ est noethérien (n° 1, cor. de la prop. 2). Le $A$-module $A \otimes_k B$ est libre, donc plat. D’après la prop. 10 du § 2, n° 7 (resp. le cor. 1 de la prop. 12 du § 3, n° 8), il nous suffit de prouver que $\kappa(p) \otimes_k B$ est un anneau de Macaulay (resp. de Gorenstein) pour tout idéal premier $p$ de $A$. L’extension $\kappa(p)$ de $k$ est de type fini (n° 1, prop. 2 et exemple 1) ; nous sommes donc ramenés à démontrer l’énoncé dans le cas où la $k$-algèbre $A$ est une extension de type fini $K$ de $k$.
+
+Soit $(t_1, \ldots, t_n)$ une base de transcendance de $K$ sur $k$, de sorte que $K$ est une extension de degré fini de l’extension pure $k' = k(t_1, \ldots, t_n)$ (A, V, p. 112, prop. 17). L’anneau $B' = k' \otimes_k B$ est isomorphe à un anneau de fractions de l’anneau de polynômes $B[T_1, \ldots, T_n]$, donc est un anneau de Macaulay (resp. de Gorenstein) d’après le cor. 2 de la prop. 10 du , n° 7 (resp. le cor. 3 de la prop. 12 du § 3, n° 8). Puisque $K \otimes_k B$ s’identifie à $K \otimes_{k'} B'$, nous sommes ramenés à prouver les assertions a) et b) lorsque $K$ est une extension de degré fini de $k$
 
 L’anneau $K \otimes_k B$ est alors un $B$-module libre de rang fini, donc un $B$-module macaulayen. D’après le § 2, n° 6, cor. 1 de la prop. 8, c’est un anneau de Macaulay, ce qui prouve a). Supposons maintenant que $B$ soit un anneau de Gorenstein. Il existe des sous-extensions $K_i,\ 0 \leq i \leq m$, de $K$ avec
 
@@ -362,6 +364,8 @@ Nous verrons plus loin (§ 7, n° 9, cor. 4 du th. 3) que sous les hypothèses d
 #### Corollaire 2 {#ac-x-s6-lem-5-cor-2 .statement}
 
 *Soient $k$ un corps et $A$ une $k$-algèbre essentiellement de type fini. Pour que $A$ soit absolument régulière, il faut et il suffit que le $A$-module $\Omega_k(A)$ soit projectif et que pour tout idéal premier minimal $\mathfrak{q}$ de $A$, la $k$-algèbre $A_{\mathfrak{q}}$ soit séparable.*
+
+Supposons $A$ absolument régulière. Pour tout idéal premier $p$ de $A$, la $k$-algèbre $A_p$ est absolument régulière, de sorte que le $A_p$-module $\Omega_k(A_p)$ est libre (th. 1); il en résulte que le $A$-module $\Omega_k(A)$ est projectif (II, , n° 2, th. 1). En outre, pour tout idéal premier minimal $q$ de $A$, la $k$-algèbre locale $A_q$ est artinienne et absolument régulière, donc est un corps, extension séparable de $k$ (n° 4, exemple 2)
 
 Inversement, supposons que le $A$-module $\Omega_k(A)$ soit projectif et que la $k$-algèbre $A_q$ soit séparable pour tout idéal premier minimal $q$ de $A$. Soient $p$ un idéal premier de $A$, et $q$ un idéal premier minimal de $A$ contenu dans $p$. Puisque le $A_p$-module $\Omega_k(A)_p$ est libre (II, § 3, n° 2, cor. 2 de la prop. 5), on a
 

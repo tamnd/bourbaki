@@ -32,7 +32,7 @@ subsections:
       pdf_page: 55
 statements: 20
 exercises: 6
-content_sha256: 66845e562459ad0f48d49115ae34f7e029bab3484467418167ff84a89a4f7fb7
+content_sha256: 0d92e84e802983765e8f3b3fdccb9d0dc4441e4f20dca5389691fcbcdc412ec5
 ---
 
 ## § 6. La série de Hausdorff
@@ -70,6 +70,8 @@ Soient $e$ et $l$ les séries formelles sans terme constant
 $$
 e(\mathbf{X}) = \sum_{n \geq 1} \frac{\mathbf{X}^n}{n!} \qquad l(\mathbf{X}) = \sum_{n \geq 1} (-1)^{n-1} \mathbf{X}^n/n.
 $$
+
+On sait (A, IV, , n° 9, n^{e}lle édition) que l’on a $e(l(X)) = l(e(X)) = X$ dans $\hat{A}(\{X\}) = K[[X]]$. Par substitution (§ 5, n° 1), on en déduit $e(l(x)) = l(e(x)) = x$ pour $x \in m$; comme on a
 
 $$
 \exp x = e(x) + 1, \quad \log(1 + x) = l(x)

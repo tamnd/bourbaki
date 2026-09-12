@@ -37,7 +37,7 @@ subsections:
       pdf_page: 340
 statements: 10
 exercises: 4
-content_sha256: 3e464a20dbba1b7e5ca5492e42ca53c9282c0ce314d92b39f60176990dba0c1b
+content_sha256: 827c18f8ce46c39a3cc2ccd9545ab82eb720d25d52cf9078700bbc167f4583ac
 ---
 
 ## 1. DEFINITION OF REAL NUMBERS
@@ -152,7 +152,7 @@ We shall show that the order structure of $\mathbf{Q}$ can be extended to $\math
 
 The relation $y - x \in \overline{\mathbf{Q}}_+$ is an ordering on $\mathbf{R}$ which makes $\mathbf{R}$ into a linearly ordered set; is compatible with the additive group structure on $\mathbf{R}$, and induces the ordering $x \leq y$ on $\mathbf{Q}$.
 
-We begin by showing that the relations $y - x \in \overline{\mathbf{Q}}_+$ and $z - y \in \overline{\mathbf{Q}}_+$ imply $z - x \in \overline{\mathbf{Q}}_+$. Indeed, the function $x + y$ is continuous on $\mathbf{R} \times \mathbf{R}$, and therefore by (8) we have $\overline{\mathbf{Q}}_+ + \overline{\mathbf{Q}}_+ \subset \overline{\mathbf{Q}}_+$ (Chapter I, § 2, no. 1, Theorem 1). Next, we shall show that the relations $y - x \in \overline{\mathbf{Q}}_+$ and $x - y \in \overline{\mathbf{Q}}_+$ imply $x = y$; this will establish that $y - x \in \overline{\mathbf{Q}}_+$ is an
+We begin by showing that the relations $y - x \in \overline{\mathbf{Q}}_+$ and $z - y \in \overline{\mathbf{Q}}_+$ imply $z - x \in \overline{\mathbf{Q}}_+$. Indeed, the function $x + y$ is continuous on $\mathbf{R} \times \mathbf{R}$, and therefore by (8) we have $\overline{\mathbf{Q}}_+ + \overline{\mathbf{Q}}_+ \subset \overline{\mathbf{Q}}_+$ (Chapter I, § 2, no. 1, Theorem 1). Next, we shall show that the relations $y - x \in \overline{\mathbf{Q}}_+$ and $x - y \in \overline{\mathbf{Q}}_+$ imply $x = y$; this will establish that $y - x \in \overline{\mathbf{Q}}_+$ is an ordering on $\mathbf{R}$. It is enough to show that $\overline{\mathbf{Q}}_+ \cap (-\overline{\mathbf{Q}}_+) = \{0\}$. Now the functions $x \to x^+$ and $x \to x^-$ are uniformly continuous on $\mathbf{Q}$ and can therefore be extended by continuity to $\mathbf{R}$ (Chapter II, , no. 6, Theorem 2); let $f$ and $g$ be their respective extensions. By extension we have $x = f(x) - g(x)$ for all $x \in \mathbf{R}$; if $x \in \overline{\mathbf{Q}}_+$ then $g(x) = 0$, and since $-\overline{\mathbf{Q}}_+$ is the closure of $-\mathbf{Q}_+$ by the continuity of $-x$, it follows that if $x \in -\overline{\mathbf{Q}}_+$ then $f(x) = 0$. Hence if $x \in \overline{\mathbf{Q}}_+ \cap (-\overline{\mathbf{Q}}_+)$ we have $f(x) = g(x) = 0$ and therefore $x = 0$
 
 By (10), we have $\overline{\mathbf{Q}}_+ \cup (-\overline{\mathbf{Q}}_+) = \mathbf{R}$, and hence $\mathbf{R}$ is *linearly ordered* by the ordering $y - x \in \overline{\mathbf{Q}}_+$.
 

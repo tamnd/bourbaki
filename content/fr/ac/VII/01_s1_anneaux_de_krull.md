@@ -52,7 +52,7 @@ subsections:
       pdf_page: 212
 statements: 44
 exercises: 32
-content_sha256: 860a98b57e590f0d26176e79bb25cb6f2417010d91439df1d08b3d509c0de918
+content_sha256: 30e4445b984b37be490c4bf26d2ba381ce15811dabfb13a95f8a5c3dcd107420
 ---
 
 ## § 1. Anneaux de Krull
@@ -65,7 +65,7 @@ Soient A un anneau intègre, K son corps des fractions. On appelle idéal fracti
 
 Tout sous-A-module a de type fini de K est un idéal fractionnaire : en effet, si $(a_i)_{1 \leq i \leq n}$ est un système de générateurs de a, on peut écrire $a_i = b_i / d_i$ où $b_i \in A, d_i \in A$ et $d_i \neq 0$; si $d = d_1 \cdots d_n$, il est clair que $da \subset A$. En particulier les sous-A-modules monogènes de K sont des idéaux fractionnaires (rappelons qu’ils ont été appelés idéaux principaux fractionnaires en Alg., chap. VI, § 1, n° 5). Si A est noethérien, tout idéal fractionnaire est un A-module de type fini. Tout sous-A-module d’un idéal fractionnaire de A est un idéal fractionnaire. Tout idéal de A est un idéal fractionnaire ; pour éviter des confusions, on dit encore que ce sont les idéaux entiers de A.
 
-Nous noterons I(A) l’ensemble des idéaux fractionnaires non nuls de A. Etant donnés deux éléments a, b de I(A), nous écrirons $a < b$ (ou $b > a$) la relation « tout idéal principal fractionnaire contenant a contient aussi b »; il est clair que cette relation est
+Nous noterons I(A) l’ensemble des idéaux fractionnaires non nuls de A. Etant donnés deux éléments a, b de I(A), nous écrirons $a < b$ (ou $b > a$) la relation « tout idéal principal fractionnaire contenant a contient aussi b »; il est clair que cette relation est une relation de préordre dans $I(A)$. Notons $R$ la relation d'équivalence associée « $a < b$ et $b < a$ » (*Ens.*, chap. III, , n° 2) et $D(A)$ l'ensemble quotient $I(A)/R$; nous dirons que les éléments de $D(A)$ sont les *diviseurs* de $A$, et pour tout idéal fractionnaire $a \in I(A)$, nous noterons div $a$ (ou div$_A$ $a$) l'image canonique de $a$ dans $D(A)$ et nous dirons que div $a$ est le *diviseur de* $a$; si $a = Ax$ est un idéal principal fractionnaire, on écrit div$(x)$ au lieu de div$(Ax)$, et on dit que div$(x)$ est le *diviseur de* $x$; les éléments de $D(A)$ de la forme div$(x)$ sont appelés *diviseurs principaux*. Par passage au quotient, la relation de préordre $<$ sur $I(A)$ définit sur $D(A)$ une *relation d'ordre* que nous noterons $\leqslant$
 
 Pour tout $a \in I(A)$ il existe par hypothèse un $d \neq 0$ dans $A$ tel que $a \subset Ad^{-1}$; l’intersection $\tilde{a}$ des idéaux principaux fractionnaires contenant $a$ est donc un élément de $I(A)$. Il est clair que la relation $a < b$ est équivalente à la relation $\tilde{a} \supset \tilde{b}$; la relation $a \supset b$ entraîne donc $a < b$. Pour que deux éléments $a, b$ de $I(A)$ soient équivalents modulo $R$, il faut et il suffit que $\tilde{a} = \tilde{b}$.
 
@@ -162,6 +162,8 @@ $$
 = \mathrm{div}(a(b + c)) = \mathrm{div}\, a + \mathrm{div}(b + c) = \mathrm{div}\, a + \inf(\mathrm{div}\, b, \mathrm{div}\, c).
 $$
 Pour qu’un idéal fractionnaire $a \neq 0$ soit tel que $\mathrm{div}\, a \geq 0$ dans $D(A)$, il faut et il suffit que $a \subset A$ (autrement dit, que $a$ soit un idéal *entier* de $A$).
+
+Pour deux éléments $x, y$ de $K^*$, la relation $\mathrm{div}(x) = \mathrm{div}(y)$ est équivalente à $Ax = Ay$; l’ensemble des diviseurs principaux de $A$ muni de la relation d’ordre et de la loi de monoïde induite par celles de $D(A)$, est un groupe ordonné, canoniquement isomorphe au groupe multiplicatif des idéaux principaux fractionnaires, ordonné par la relation d’ordre opposée à l’inclusion ($Alg.$, chap. VI, , no 5). La relation $S$ entre deux éléments $P, Q$ de $D(A)$
 
 « il existe $x \in K^*$ tel que $P = Q + \mathrm{div}(x)$ »
 
@@ -271,7 +273,7 @@ Nous avons donc démontré le lemme suivant :
 
 Cela étant, tout ensemble non vide d’éléments positifs de $\mathbf{Z}^{(I)}$ possède un élément minimal (*Alg.*, chap. VI, § 1, n° 13, th. 2). Donc $A$ vérifie bien la propriété *b*) de l’énoncé.
 
-Réciproquement, soit $A$ un anneau intègre vérifiant les propriétés *a*) et *b*) de l’énoncé. Puisque $A$ est complètement intégralement clos, $D(A)$ est un groupe ordonné (n° 2, th. 1). Ce groupe est réticulé (n° 1, prop. 2). D’après la condition *b*) de l’énoncé, toute famille non vide d’éléments positifs de $D(A)$ possède un élément minimal. Soit $P(A)$ l’ensemble des éléments
+Réciproquement, soit $A$ un anneau intègre vérifiant les propriétés *a*) et *b*) de l’énoncé. Puisque $A$ est complètement intégralement clos, $D(A)$ est un groupe ordonné (n° 2, th. 1). Ce groupe est réticulé (n° 1, prop. 2). D’après la condition *b*) de l’énoncé, toute famille non vide d’éléments positifs de $D(A)$ possède un élément minimal. Soit $P(A)$ l’ensemble des éléments extrémaux de D(A). Alors (Alg., chap. VI, 2e éd., , n° 13, th. 2), P(A) est une base du Z-module D(A), et les éléments positifs de D(A) sont les combinaisons linéaires à coefficients entiers positifs des éléments de P(A)
 
 Ainsi, pour $x \in K^*$, on définit des entiers rationnels $v_P(x)$ (pour $P \in P(A)$) en posant:
 
@@ -333,7 +335,7 @@ Soit $S = A - p$. D’après la prop. 5, $v_p$ est nulle dans $S$ et $> 0$ dans 
 
 Soient $A$ un anneau de Krull, $K$ son corps des fractions, et $(v_i)_{i \in I}$ une famille de valuations possédant les propriétés de la déf. 3. Alors toute valuation essentielle de $A$ est équivalente à l’une des $v_i$.
 
-Soient $P$ un diviseur extrémal de $A$, et $p$ l’idéal divisoriel
+Soient $P$ un diviseur extrémal de $A$, et $p$ l’idéal divisoriel correspondant. D’après le cor. 1, la prop. 5, le lemme 1 et l’assertion 1) dans la démonstration du th. 2, n° 3, il existe $t \in I$ tel que l’anneau $A_t$ de $v_t$ contienne l’anneau $A_p$ de $v_p$. Comme $v_t$ et $v_p$ sont de hauteur 1, elles sont donc équivalentes (chap. VI, , n° 5, prop. 6)
 
 #### Proposition 7 {#ac-vii-s1-prop-7 .statement}
 
@@ -439,7 +441,7 @@ Comme tout idéal non nul d’un anneau de valuation discrète est principal (ch
 
 Soient $A$ un anneau de Krull, $K$ son corps des fractions, $K'$ une extension de degré fini de $K$, et $A'$ la fermeture intégrale de $A$ dans $K'$. Alors $A'$ est un anneau de Krull. Les valuations essentielles de $A'$ sont les valuations discrètes normées de $K'$ qui sont équivalentes aux prolongements des valuations essentielles de $A$.
 
-Soit $(v_i)_{i \in I}$ la famille des prolongements à $K'$ des valuations essentielles de $A$. Puisque le degré $n = [K' : K]$ est fini, les $v_i$ sont des valuations discrètes de $K'$ (chap. VI, § 8, n° 1, cor. 3 de la prop. 1). Soit $B_i$ l’anneau de $v_i$; on a $A' \subset \bigcap_{i \in I} B_i$ (chap. VI, § 1, n° 3, th. 3). Inversement, tout élément $x$ de $\bigcap_{i \in I} B_i$ est entier sur chacun des anneaux des valuations essentielles de $A$ (chap. VI, § 1, n° 3, cor. 3 du th. 3); donc les coefficients du polynôme
+Soit $(v_i)_{i \in I}$ la famille des prolongements à $K'$ des valuations essentielles de $A$. Puisque le degré $n = [K' : K]$ est fini, les $v_i$ sont des valuations discrètes de $K'$ (chap. VI, § 8, n° 1, cor. 3 de la prop. 1). Soit $B_i$ l’anneau de $v_i$; on a $A' \subset \bigcap_{i \in I} B_i$ (chap. VI, § 1, n° 3, th. 3). Inversement, tout élément $x$ de $\bigcap_{i \in I} B_i$ est entier sur chacun des anneaux des valuations essentielles de $A$ (chap. VI, § 1, n° 3, cor. 3 du th. 3); donc les coefficients du polynôme minimal de $x$ sur $K$ appartiennent à $A$ (chap. V, , n° 3, cor. de la prop. 11), de sorte que $x \in A'$; ainsi $A' = \bigcap_{i \in I} B_i$. Soit maintenant $x$ un élément non nul de $A'$; il vérifie une équation de la forme $x^s + a_{s-1} x^{s-1} + \cdots + a_0 = 0$ avec $a_i \in A$ et $a_0 \neq 0$; si $v_i(x) > 0$, on a $v_i(a_0) > 0$; or les valuations essentielles $v$ de $A$ telles que $v(a_0) > 0$ sont en nombre fini, et les valuations de $K'$ prolongeant une valuation donnée de $K$ sont aussi en nombre fini (chap. VI, § 8, n° 3, th. 1); on a donc $v_i(x) = 0$ sauf pour un nombre fini d’indices $i \in I$. On a ainsi prouvé que $A'$ est un anneau de Krull (n° 3, déf. 3)
 
 Il reste à montrer que les $v_i$ sont équivalentes à des valuations essentielles de $A'$ (n° 4, cor. 2 de la prop. 6), c’est-à-dire (n° 6, cor. 2 du th. 3) que l’idéal premier $p_i$, formé par les $x \in A'$ tels que $v_i(x) > 0$, est de hauteur 1. S’il n’en était pas ainsi, il existerait un idéal premier $q$ de $A'$ tel que $(0) \subset q \subset p_i$ distinct de $(0)$ et de $p_i$; on aurait alors $(0) \subset q \cap A \subset p_i \cap A$, et $q \cap A$ serait distinct de $(0)$ et de $p_i \cap A$ (chap. V, § 2, n° 1, cor. 1 de la prop. 1); l’idéal premier $p_i \cap A$ ne serait donc pas de hauteur 1, ce qui contredit le fait qu’il correspond à une valuation essentielle de $A$.
 

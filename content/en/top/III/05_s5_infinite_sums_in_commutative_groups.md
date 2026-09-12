@@ -41,7 +41,7 @@ subsections:
       pdf_page: 275
 statements: 19
 exercises: 7
-content_sha256: 0473398046b587d17103f4b672c344f445932523c6f9f31b18e847266e38158c
+content_sha256: 1a3fc21cad0e893f90c92edbca82aadfb45519e549dd6e745f49693d2974edaa
 ---
 
 ## 5. INFINITE SUMS IN COMMUTATIVE GROUPS
@@ -97,6 +97,8 @@ This *necessary* condition for a family $(x_i)$ to be summable is *by no means s
 *Let* $(x_i)_{i \in I}$ *be a summable family in a commutative group whose identity element has a countable fundamental system of neighbourhoods. Then the set of indices* $i$ *such that* $x_i \neq o$ *is countable*.
 
 Let $(V_n)$ be a countable fundamental system of neighbourhoods of $o$. If $H_n$ is the set of all indices $i$ such that $x_i \notin V_n$, then the set $H$ of indices $i$ such that $x_i \neq o$ is the union of the sets $H_n$, and each of the $H_n$ is *finite* by Proposition 1.
+
+This corollary is no longer necessarily valid if we do not assume that the origin has a countable fundamental system of neighbourhoods. \* Consider, for example, the product group $\mathbf{R}^\mathbf{R}$ [the additive group of all finite real-valued functions of a real variable, with the topology of pointwise convergence (cf. Chapter X, , no. 3)], and let $f_a$ be the element of $\mathbf{R}$ such that $f_a(a) = 1$ and $f_a(x) = 0$ if $x \neq a$; then the family $(f_a)_{a \in \mathbf{R}}$ is summable and its sum is the function whose value at each point of $\mathbf{R}$ is 1. \*
 
 #### Remark {#top-iii-s5-n2-rem-1 .statement}
 
@@ -259,6 +261,8 @@ For the sequence of partial sums of the series $(u_n)$ is a *subsequence* $(s_{k
 ### 7. COMMUTATIVELY CONVERGENT SERIES
 
 Let $(x_n)$ be a *summable* sequence in $G$, and let $s = \sum_{n \in \mathbf{N}} x_n$ be its sum. Then for each neighbourhood $V$ of 0, there exists $J_0 \in \mathscr{F}(\mathbf{N})$ such that $s_J \in s + V$ whenever $J \in \mathscr{F}(\mathbf{N})$ and $J_0 \subset J$. Let $m$ be the largest integer in $J_0$; then if $n \geqslant m$ we have $s_n \in s + V$, and therefore the *series* $(x_n)$ is convergent and its sum is $s$. But the converse is *false*:
+
+the sequence of terms of a convergent series can very well fail to be summable (see Chapter IV, )
 
 Moreover, the definition of a convergent series essentially involves the order structure of $\mathbf{N}$. If the series $(x_n)$ is convergent, and if $\sigma$ is a permutation of $\mathbf{N}$, then the series $(x_{\sigma(n)})$ is not necessarily convergent (cf. Chapter IV, § 7, Exercise 15).
 

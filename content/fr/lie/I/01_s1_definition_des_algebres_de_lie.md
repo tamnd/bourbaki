@@ -48,7 +48,7 @@ subsections:
       pdf_page: 19
 statements: 21
 exercises: 27
-content_sha256: 088b65df74d2cfe50a254086b592464a3ff7f61d303fb93d3a0a0a224f230bf4
+content_sha256: 331fb9607c7d7f950d78af3046c77961811e9b8e9e5ac74b28a8a2bc72ee32ec
 ---
 
 ## § 1. Définition des algèbres de Lie
@@ -127,6 +127,8 @@ $$
 [E_{ij}, E_{\eta i}] = E_{i\eta} - E_{\eta i}
 \end{cases}
 $$
+
+On note $t(n, K)$ (resp. $st(n, K)$, $n(n, K)$) la sous-algèbre de Lie de $\mathbf{M}_n(K)$ formée des matrices triangulaires (resp. triangulaires de trace nulle, resp. triangulaires de diagonale nulle) ($Alg.$, chap. II, 3e éd., , no 7)
 
 \* Exemple 3. — Soit V une variété indéfiniment différentiable réelle. Les opérateurs différentiels à coefficients réels indéfiniment différentiables sur V constituent une algèbre associative sur $\mathbf{R}$, donc, d’après l’exemple 1, une algèbre de Lie $\Delta$ sur $\mathbf{R}$. Le crochet de deux champs de vecteurs indéfiniment différentiables sur V est un champ de vecteurs indéfiniment différentiable, donc les champs de vecteurs indéfiniment différentiables sur V constituent une sous-algèbre de Lie $\mathfrak{f}$ de $\Delta$. Si V est un groupe de Lie réel, les champs de vecteurs invariants à gauche constituent une sous-algèbre de Lie g de $\mathfrak{f}$ appelée algèbre de Lie de V. L’espace vectoriel g s’identifie à l’espace tangent à V en e (élément neutre de V). Soient V’ un autre groupe de Lie réel, $e'$ son élément neutre, g’ son algèbre de Lie. Tout homomorphisme analytique de V dans V’ définit une application linéaire de l’espace tangent à V en e dans l’espace tangent à V’ en $e'$; cette application est un homomorphisme de l’algèbre de Lie g dans l’algèbre de Lie g’. Si V est le groupe linéaire d’un espace vectoriel réel E de dimension finie, il existe un isomorphisme canonique de gl(E) sur l’algèbre de Lie g de V, par lequel on identifie g et gl(E).*
 

@@ -36,7 +36,7 @@ subsections:
       pdf_page: 136
 statements: 31
 exercises: 12
-content_sha256: 805b8756f00ed94a3a940e572ede9fcb38905479c4adddb11f5bf8c580ca6bac
+content_sha256: 66dcb4fbcc55a0c96c5c0051c099e3fed82e57686efe0442edf352839be118d3
 ---
 
 ## § 9. MODULES DUALISANTS
@@ -202,6 +202,8 @@ a) Si le $A$-module $\Omega$ est dualisant, la suite $x$ est $\Omega$-régulièr
 b) Si le $A/J$-module $\Omega/J\Omega$ est dualisant, que $J$ est contenu dans le radical de $A$ et que la suite $x$ est $\Omega$-régulière, le $A$-module $\Omega$ est dualisant.*
 
 Raisonnant par récurrence sur la longueur de la suite $x$, on se ramène au cas où celle-ci est réduite à un élément $x$. Supposons que le $A$-module $\Omega$ soit dualisant. Pour tout idéal maximal $m$ de $A$ contenant $x$, on a $\dim(A_m/xA_m) = \dim(A_m) - 1$
+
+(VIII, , n° 1, cor. 2), et par suite Hom_{A_m}(A_m/xA_m, \Omega_m) = 0 (n° 1, prop. 3, a)). Cela entraîne Hom_A(A/xA, \Omega) = 0, de sorte que l’homothétie x_\Omega est injective. On peut donc supposer pour prouver la proposition que l’homothétie x_\Omega est injective
 
 Notons \overline{A} l’anneau A/xA ; soit m un idéal maximal de A contenant x, et soit \overline{m} son image dans \overline{A}. Le A-module A/m est annulé par x, et s’identifie à \overline{A}/\overline{m} ; on dispose donc pour tout entier i \geqslant 1 d’un isomorphisme Ext^i_A(A/m, \Omega) \longrightarrow \operatorname{Ext}^{i-1}_{\overline{A}}(\overline{A}/\overline{m}, \Omega/x\Omega) (§ 3, n° 4, prop. 7). On a
 
@@ -465,7 +467,7 @@ $$
 \end{array}
 $$
 
-où $\alpha_L$ est bijectif. Si $(A_0)$ est satisfaite, l’homomorphisme $\alpha_N$ est également bijectif, donc $H_0(u')$ est injectif et l’on obtient $H_1(D(D(M))) = 0$, d’où $(A_1)$. Si $(A_{-1})$
+où $\alpha_L$ est bijectif. Si $(A_0)$ est satisfaite, l’homomorphisme $\alpha_N$ est également bijectif, donc $H_0(u')$ est injectif et l’on obtient $H_1(D(D(M))) = 0$, d’où $(A_1)$. Si $(A_{-1})$ est satisfaite, $H_{-1}(D(D(N)))$ est nul, donc $H_0(v')$ est surjectif, ce qui implique que $\alpha_M$ est surjectif. Cela étant vrai pour tout $A$-module de type fini $M$, $\alpha_N$ est aussi surjectif ; d’après I, , n° 4, cor. 2 de la prop. 2, $\alpha_M$ est bijectif, de sorte que $(A_0)$ est satisfaite
 
 Ainsi $(A_n)$ est vraie pour tout $n$, ce qui démontre le théorème.
 

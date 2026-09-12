@@ -20,14 +20,14 @@ subsections:
       pdf_page: 92
 statements: 9
 exercises: 2
-content_sha256: 7bb9d8c6584112e9559c49dbcd9c2f4e99bcb4f450d7cf7d15f5643a61cb0daf
+content_sha256: f3c3a1cc01aaaaa91057b78d85cd78c4d47e652ca66e4d3031cca1dd5ab749b5
 ---
 
 ## 3. INFINITE SUMS IN THE GROUPS $\mathbf{R}^n$
 
 ### 1. SUMMABLE FAMILIES IN $\mathbf{R}^n$
 
-Since every point of $\mathbf{R}^n$ has a *countable* fundamental system of neighbourhoods, a family $(x_t)$ of points of the additive group $\mathbf{R}^n$ is summable only if the set of indices $t$ such that $X_t \neq 0$ is *countable* (Chapter III, § 5, no. 2, Corollary to Proposition 1); hence, essentially, the study of summable
+Since every point of $\mathbf{R}^n$ has a *countable* fundamental system of neighbourhoods, a family $(x_t)$ of points of the additive group $\mathbf{R}^n$ is summable only if the set of indices $t$ such that $X_t \neq 0$ is *countable* (Chapter III, § 5, no. 2, Corollary to Proposition 1); hence, essentially, the study of summable families in $\mathbf{R}^n$ is reduced to that of summable sequences. Nevertheless, for the same reasons as were given in Chapter IV, , in connection with summable families in $\mathbf{R}$, we shall not impose any restriction, in what follows, on the cardinal of the index set
 
 #### Proposition 1 {#top-vii-s3-prop-1 .statement}
 

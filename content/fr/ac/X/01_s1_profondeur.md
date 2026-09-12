@@ -49,7 +49,7 @@ subsections:
       pdf_page: 18
 statements: 60
 exercises: 18
-content_sha256: b596f26942739f03a2de9e2ead75575c22c8fed14fd19ba83545fa5c7f4b2615
+content_sha256: 1ae612c11429698f7015b833b5e462b3954d48cf111fdc41ad037582c492e71e
 ---
 
 ## § 1. PROFONDEUR
@@ -330,6 +330,8 @@ $$
 \operatorname{prof}_A(M) \leqslant \dim_A(M) < +\infty .
 $$
 
+En effet toute suite M-régulière d’éléments de $m_A$ est complètement sécante pour M (A, X, p. 157, prop. 5), donc sécante pour M (VIII, , n° 2, cor. de la prop. 3) ; par suite sa longueur est majorée par l’entier $\dim_A(M)$ (*loc. cit.*, th. 1)
+
 ### 5. Profondeur le long d’une partie fermée
 
 Soient A un anneau noethérien, F une partie fermée de $\mathrm{Spec}(A)$ et M un A-module. D’après le cor. 2 de la prop. 2 du n° 1, l’élément $\mathrm{prof}_A(J;M)$ de $\mathbf{N} \cup \{+\infty\}$ ne dépend pas de l’idéal J de A tel que $F = V(J)$ ; on l’appelle *profondeur de M le long de F* et on le note $\mathrm{prof}_F(M)$.
@@ -492,7 +494,7 @@ $$
 \leq [J/m_A J : \kappa_A].
 $$
 
-Pour tout élément $p$ de $\operatorname{Supp}(M) \cap V(J)$, $\operatorname{prof}_A(J; M)$ est inférieur à $\dim_{A_p}(M_p)$ (n° 5, prop. 8 et n° 4, cor. 2 du th. 2), c’est-à-dire (VIII, § 1, n° 4, prop. 9)
+Pour tout élément $p$ de $\operatorname{Supp}(M) \cap V(J)$, $\operatorname{prof}_A(J; M)$ est inférieur à $\dim_{A_p}(M_p)$ (n° 5, prop. 8 et n° 4, cor. 2 du th. 2), c’est-à-dire (VIII, § 1, n° 4, prop. 9) à codim(V(p), Supp(M)). Lorsque p parcourt Supp(M) ∩ V(J), V(p) décrit les parties fermées irréductibles de Supp(M) ∩ V(J), d’où la première inégalité. La seconde résulte de la prop. 3 de VIII, , n° 2. Par ailleurs, on peut trouver un ensemble générateur de J de cardinal [J/m_AJ : κ_A] (II, § 3, n° 2, cor. 2 de la prop. 4) ; la troisième inégalité résulte alors de VIII, § 3, n° 2, formule (8)
 
 #### Remarque 1 {#ac-x-s1-n7-rem-1 .statement}
 
@@ -570,6 +572,8 @@ D'après *loc. cit.*, cor. 2 de la prop. 14, les conditions suivantes sont équi
 (iii) tout idéal premier (resp. maximal) de $A$ ne contient qu'un seul idéal premier minimal ;
 (iv) pour tout idéal premier (resp. maximal) $p$ de $A$, l'espace topologique $\operatorname{Spec}(A_p)$ est irréductible ;
 (v) pour tout composant canonique $C$ de $A$, l'espace topologique $\operatorname{Spec}(C)$ est irréductible.
+
+Notons maintenant que si $A$ est réduit, tous les anneaux $A_p$ sont réduits (II, , n° 6, prop. 17) et qu’inversement, si l’anneau $A_m$ est réduit pour tout idéal maximal $m$ de $A$, alors $A$ est réduit (II, § 3, n° 3, cor. 2 du th. 1). Appliquant alors II, § 4, n° 3, cor. 1 de la prop. 14, on déduit de ce qui précède l’équivalence des conditions suivantes
 
 (i) $A$ est réduit et les composantes connexes de $\mathrm{Spec}(A)$ sont irréductibles ;
 (ii) pour tout idéal premier (resp. maximal) $p$ de $A$, l’anneau $A_p$ est intègre ;

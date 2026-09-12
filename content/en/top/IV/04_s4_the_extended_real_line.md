@@ -25,7 +25,7 @@ subsections:
       pdf_page: 351
 statements: 11
 exercises: 7
-content_sha256: 3477e139826e65849e4c720f23000de6a586e29c28b763b37fc584aa0cc71567
+content_sha256: 34045d203deaed76d02b12f3ac4da7c03a786a6e752b60d7a3687cb1bd9e5feb
 ---
 
 ## 4. THE EXTENDED REAL LINE
@@ -122,6 +122,8 @@ $$
 Let us show, for example, that as $(x, y)$ tends to the point $(a, +\infty)$ ($a \neq -\infty$) while remaining in $\mathbf{R} \times \mathbf{R}$, $x + y$ tends to $+\infty$. There exists a finite number $b < a$, and the interval $]b, +\infty[$ is a neighbourhood of $a$ in $\mathbf{R}$; given any finite $c$, the relations $x > b$ and $y > c - b$ imply $x + y > c$, and this shows that $x + y$ is as near as we please to $+\infty$ whenever $(x, y)$ is near enough to $(a, +\infty)$. The argument is similar in the other cases.
 
 On the contrary, $x + y$ *has no limit* at the points $(-\infty, +\infty)$ and $(+\infty, -\infty)$ of $\overline{\mathbf{R}} \times \overline{\mathbf{R}}$. For if $x + y$ had limit $k$ (finite or infinite) as $(x, y)$ tends to $(+\infty, -\infty)$ while remaining in $\mathbf{R} \times \mathbf{R}$, it would follow that, for each finite $a$, the function $(x + a) - x$ would tend to $k$ as $x$ tends to $+\infty$ while remaining in $\mathbf{R}$; and this is absurd, since $(x + a) - x = a$ and $a$ is arbitrary.
+
+The function $x + y$ maps $A' \times A'$ (resp. $A'' \times A''$) into $A'$ (resp. $A''$). It is therefore a law of composition on $A'$ (resp. $A''$) which extends the law of addition on $\mathbf{R}$. By the principle of extension of identities (Chapter I, , no. 1, Corollary 1 to Proposition 2) this law is commutative and associative; o is the identity element for this law; and the only non-regular element (Algebra, Chapter I, § 2, no. 2) of $A'$ is $+ \infty$, by formulae (2)
 
 If $x, y, z, t$ are points of $\overline{\mathbf{R}}$ such that $x \leq y$ and $z \leq t$, then $x + z \leq y + t$ whenever both sides of this inequality are defined.
 

@@ -36,14 +36,14 @@ subsections:
       pdf_page: 37
 statements: 30
 exercises: 11
-content_sha256: 7a3cb999cc8d3de5023e3e54dae6f3f5769eaa59bce6edaccddd361a42fb3885
+content_sha256: 3c437487954dc0b591cb3ded77271add440535b2e6fa699cd563fc8610ecd4d0
 ---
 
 ## § 3. Intégration de mesures positives
 
 ### 1. Fonctions à valeurs dans un espace de mesures
 
-Soient $X$ un espace localement compact, $\mathscr{M}_+(X)$ le cône convexe des mesures positives sur $X$. Dans toute la suite de ce chapitre, $\mathscr{M}_+(X)$ sera muni de la topologie induite par la topologie vague sur $\mathscr{M}(X)$ (chap. III, 2e éd., § 1, n° 9); dire qu’une application $\Lambda : t \mapsto \lambda_t$ de l’espace localement compact $T$ dans $\mathscr{M}_+(X)$ est continue signifie donc que, pour toute fonction $f \in \mathscr{K}(X)$, la
+Soient $X$ un espace localement compact, $\mathscr{M}_+(X)$ le cône convexe des mesures positives sur $X$. Dans toute la suite de ce chapitre, $\mathscr{M}_+(X)$ sera muni de la topologie induite par la topologie vague sur $\mathscr{M}(X)$ (chap. III, 2e éd., § 1, n° 9); dire qu’une application $\Lambda : t \mapsto \lambda_t$ de l’espace localement compact $T$ dans $\mathscr{M}_+(X)$ est continue signifie donc que, pour toute fonction $f \in \mathscr{K}(X)$, la fonction numérique $t \mapsto \lambda_t(f)$ est continue. Nous dirons encore dans ce cas que $\Lambda$ est *vaguement continue* dans T. Dire qu'une application $\Lambda : t \mapsto \lambda_t$ est $\mu$-mesurable signifie que l'ensemble des parties compactes K de T, telles que la restriction de $\Lambda$ à K soit vaguement continue, est $\mu$-dense (chap. IV, 2e éd., , n° 10, prop. 15). On dira alors que $\Lambda$ est *vaguement $\mu$*-mesurable
 
 Soit $\Lambda : t \mapsto \lambda_t$ une application de T dans $\mathscr{M}_+(X)$; nous dirons que $\Lambda$ est *scalairement essentiellement intégrable* pour la mesure $\mu$ si, pour toute fonction $f \in \mathscr{K}(X)$, la fonction $t \mapsto \lambda_t(f)$ est essentiellement $\mu$-intégrable. Si l’on pose $v(f) = \int \lambda_t(f)\ d\mu(t)$, il est clair que $v$ est une forme linéaire positive sur $\mathscr{K}(X)$, et par suite (chap. III, 2e éd., § 1, n° 6, th. 1) une mesure sur X. Nous dirons que $v$ est l’intégrale de la fonction $\Lambda$ à valeurs dans $\mathscr{M}_+(X)$, et nous écrirons $v = \int \lambda_t\ d\mu(t)$.
 
@@ -188,7 +188,7 @@ $$
 
 La première des inégalités (6) résulte alors de la définition de $\int^* f(x)\ dv(x)$ (chap. IV, § 1, n° 3, déf. 3), et la seconde en résulte aussitôt. L’inégalité (7) se démontre de manière analogue si $\Lambda$ est vaguement continue, en utilisant (5) au lieu de (4).
 
-Passons à la démonstration de (8). L’application $t \mapsto \lambda_t^*(1)$ est mesurable, finie localement $\mu$-presque partout. L’ensemble $\mathfrak{K}$ des compacts $K$ de $T$ tels que la restriction de $t \mapsto \lambda_t^*(1)$ à $K$ soit finie et continue est donc $\mu$-dense, et la prop. 4 du § 2, n° 3 entraîne l’existence d’une famille sommable $(\mu_\alpha)_{\alpha \in A}$ de mesures positives, dont les supports appartiennent à $\mathfrak{K}$, telle que $\mu = \sum_{\alpha \in A} \mu_\alpha$. L’application $\Lambda$ est $\mu_\alpha$-adéquate pour tout $\alpha \in A$; posons $v_\alpha = \int \lambda_t\ d\mu_\alpha(t)$. La prop. 1 montre que $v = \sum_{\alpha \in A} v_\alpha$, et la relation (4), appliquée à la mesure $\mu_\alpha$ et à la fonction 1, montre que $v_\alpha$ est une mesure bornée (car $\lambda_t^*(1)$ est borné sur $\operatorname{Supp}(\mu_\alpha)$). Ecrivons alors la formule
+Passons à la démonstration de (8). L’application $t \mapsto \lambda_t^*(1)$ est mesurable, finie localement $\mu$-presque partout. L’ensemble $\mathfrak{K}$ des compacts $K$ de $T$ tels que la restriction de $t \mapsto \lambda_t^*(1)$ à $K$ soit finie et continue est donc $\mu$-dense, et la prop. 4 du § 2, n° 3 entraîne l’existence d’une famille sommable $(\mu_\alpha)_{\alpha \in A}$ de mesures positives, dont les supports appartiennent à $\mathfrak{K}$, telle que $\mu = \sum_{\alpha \in A} \mu_\alpha$. L’application $\Lambda$ est $\mu_\alpha$-adéquate pour tout $\alpha \in A$; posons $v_\alpha = \int \lambda_t\ d\mu_\alpha(t)$. La prop. 1 montre que $v = \sum_{\alpha \in A} v_\alpha$, et la relation (4), appliquée à la mesure $\mu_\alpha$ et à la fonction 1, montre que $v_\alpha$ est une mesure bornée (car $\lambda_t^*(1)$ est borné sur $\operatorname{Supp}(\mu_\alpha)$). Ecrivons alors la formule (6) pour la mesure $\mu_\alpha$, en remplaçant le symbole $\int^*$ au premier membre par $\int^*$, ce qui est légitime d’après la prop. 7 du ; il vient
 
 $$
 \int^* f(x) \, dv_\alpha(x) \geq \int^* d\mu_\alpha(t) \int^* f(x) \, d\lambda_t(x) = \int^* d\mu_\alpha(t) \int^* f(x) \, d\lambda_t(x)
@@ -335,6 +335,8 @@ f'(t) = x \text{ si } t \in N.
 $$
 
 Les fonctions $f$ et $f'$ sont égales localement $\mu$-presque partout.
+
+D'autre part, $N \cap K$ est une partie borélienne de $K$ pour tout compact $K$ de $T$, du fait que la famille $(K_i)$ est localement dénombrable. Il en résulte que $N$ est un ensemble universellement mesurable, et que $f'$ est une fonction universellement mesurable (chap. IV, 2e éd., , n° 10, prop. 16)
 
 ### 5. Diffusions
 

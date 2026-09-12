@@ -20,7 +20,7 @@ subsections:
       pdf_page: 89
 statements: 20
 exercises: 11
-content_sha256: a8504a3e0d4cbbf6c6eac7bc85a84601bf73ecf115f2d776dfb74d9b2d9053eb
+content_sha256: b8c6b58f7b960da46f37fb3778bccbb51643b4cc95fc73705eb1890c670ed6e8
 ---
 
 ## § 7. Intégration par rapport à une mesure induite
@@ -133,7 +133,7 @@ $$
 (i(\lambda))_X = \lambda \quad \text{et} \quad i(\lambda) = i(\theta_X) = \varphi_X \cdot \theta.
 $$
 
-L’injection i étant continue, l’équivalence des propriétés a), b) et c) résulte de la prop. 1 du § 6, et de la remarque qui la suit,
+L’injection i étant continue, l’équivalence des propriétés a), b) et c) résulte de la prop. 1 du § 6, et de la remarque qui la suit, appliquées à la mesure positive $|\lambda|$. Si $\lambda$ est induite sur $X$ par une mesure $\theta$ sur $T$, on a $|\lambda| = |\theta|_X$ (formule (6)), et par conséquent $|\lambda|(K \cap X) = |\theta|(K \cap X) \leq |\theta|(K) < +\infty$ (prop. 1) pour tout compact $K$ de $T$, de sorte que d) entraîne b). Supposons que a) soit satisfaite, et montrons que $(i(\lambda))_X = \lambda$, ce qui entraînera d). Soit $g$ un élément de $\mathscr{H}(X; \mathbf{C})$; on a, par définition de la mesure induite, puis par la prop. 7 du , n° 4, $g'$ désignant le prolongement par 0 de $g$ à $T$
 
 $$
 \int g\, d(i(\lambda))_X = \int g'\, d(i(\lambda)) = \int (g' \circ i)\, d\lambda = \int g\, d\lambda.

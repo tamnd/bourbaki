@@ -44,7 +44,7 @@ subsections:
       pdf_page: 240
 statements: 54
 exercises: 42
-content_sha256: 4f0cf8e69d77685047d0ce810cd59cabefa727c46cef0aac8b58876c69be006f
+content_sha256: efa77138493fc5608cb1416706ac7c5a986885e078b76541feb7ca5fbb47b4a8
 ---
 
 ## § 9. Commutateurs, centralisateurs, normalisateurs dans un groupe de Lie
@@ -131,6 +131,8 @@ Supposons [L(A), L(B)] ⊂ L(C). La somme L(A) + L(B) + L(C) est une sous-algèb
 $$
 L(A) + L(B) + L(C) = L(G)
 $$
+
+et où G est connexe. Alors L(C) est un idéal de L(G). Supposons d’abord G simplement connexe. Alors C est un sous-groupe de Lie distingué de G ( , n° 6, prop. 14). Soit φ le morphisme canonique de G sur G/C. Alors
 
 $$
 [L(\varphi)(L(A)), L(\varphi)(L(B))] = \{0\},
@@ -225,7 +227,7 @@ donc $\delta_g(A) = \delta_g(a)$. La dernière assertion résulte alors de la pr
 
 ### 4. Normalisateurs
 
-Soient G un groupe de Lie, g son algèbre de Lie, A une partie de G, a une partie de g. Dans cette section, on note $N_G(A)$ l’ensemble des $g \in G$ tels que $gAg^{-1} = A$. C’est
+Soient G un groupe de Lie, g son algèbre de Lie, A une partie de G, a une partie de g. Dans cette section, on note $N_G(A)$ l’ensemble des $g \in G$ tels que $gAg^{-1} = A$. C’est un sous-groupe de G, fermé si A est fermé. On note $n_g(a)$ l’ensemble des $x \in g$ tels que $[x, a] \subset a$ (cf. chap. I, , no 4). C’est une sous-algèbre de $g$, fermée si $a$ est fermée. On note $N_G(a)$ l’ensemble des $g \in G$ tels que $gag^{-1} = a$
 
 #### Proposition 10 {#lie-iii-s9-prop-10 .statement}
 

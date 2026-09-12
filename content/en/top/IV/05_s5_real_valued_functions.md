@@ -39,9 +39,9 @@ subsections:
       title: ALGEBRAIC OPERATIONS ON REAL-VALUED FUNCTIONS
       page: 356
       pdf_page: 362
-statements: 30
+statements: 31
 exercises: 18
-content_sha256: 4733abd453741ac25f03d43b705f1223fbc3e9e15d7eabf9fb31e790bfc816d5
+content_sha256: 71600628e1742628cbc5bbe2d2f4f8275f2c87e5cb2d1877b44f63639a733361
 ---
 
 ## 5. REAL-VALUED FUNCTIONS
@@ -89,6 +89,10 @@ As a particular case of Proposition 1 we have the following theorem:
 #### Remark {#top-iv-s5-n2-rem-1 .statement}
 
 If in particular we have $f(x) < g(x)$ for all $x \in X$ (or only for all points of a set of the filter $\overline{\mathbf{R}}$) we can infer, by Theorem 1, that $\lim_{\mathfrak{F}} f \leq \lim_{\mathfrak{F}} g$; *but we cannot infer the strong inequality* $\lim_{\mathfrak{F}} f < \lim_{\mathfrak{F}} g$. For example, if we take $X$ to be the set $\mathbf{N}$ of natural numbers, filtered by the Fréchet filter, and if $f(n) = 0$ and $g(n) = 1/n$, then $f(n) < g(n)$ for all $n$, but $\lim_{n \to \infty} f(n) = \lim_{n \to \infty} f(n) = 0$. Thus we *lose strictness* when we pass to the limit in a *strict* inequality.
+
+#### Theorem 2 (Theorem of the monotone limit) {#top-iv-s5-thm-2 .statement}
+
+Let $X$ be an ordered set and let $A$ be a directed subset of $X$ (*). Every monotonic real-valued function $f$ defined on $A$ has a limit with respect to $A$ (Chapter I, , no. 3); if $f$ is increasing (resp. decreasing), this limit is equal to the least upper bound (resp. greatest lower bound) of the set $f(A) \subset \overline{\mathbf{R}}$
 
 Suppose for example that $f$ is increasing, and let $a = \sup f(A)$. If $a = -\infty$, the theorem is trivial. If $a > -\infty$, then for each $b < a$ there exists $x \in A$ such that $b < f(x) \leq a$; hence, if $S_x$ is the section of $A$ relative to $x$ (i.e. the set of all $y \geq x$, cf. Chapter I, § 6, no. 3), $f(S_x)$ is contained in the neighbourhood $]b, +\infty]$ of $a$, and the theorem follows. The proof is analogous if $f$ is decreasing.
 

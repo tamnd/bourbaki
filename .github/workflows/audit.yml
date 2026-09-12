@@ -161,11 +161,31 @@ jobs:
       # down by eleven because eleven citations now resolve. A statement waiting
       # for a tag is what the other 23308 are; these three had been waiting
       # invisibly.
+      #
+      # 23311 to 23677 is 366 more of them, and the ceiling had been left behind
+      # by 213 of those before this: main stood at 23524 and this step was
+      # therefore red on main, which is the failure mode the ceiling exists to
+      # avoid. The number is set from the corpus again here rather than nudged.
+      #
+      # 92 are the exercises tamnd/bourbaki#411 was counting. The printing does
+      # not always put a bracket after an exercise number: page 212 of Topologie
+      # generale chapitres 5 a 10 sets "¶ 10 a) Soient X un espace compact
+      # métrique" between a "¶ 9)" and a "¶ 11)" that both carry one. An unread
+      # marker does not cost one exercise, it costs every exercise after it in
+      # the §, so § 5 of Topology IX in French assembled four exercises where it
+      # prints thirty one. 61 are tamnd/bourbaki#416, where 210 readings left a
+      # paragraph of the book in running_head, which nothing downstream reads:
+      # putting them back into the bodies they were cut from gave § 9 of
+      # Topology I twenty five exercises it had never had.
+      #
+      # Every one of the 366 is a statement the volume always printed and the
+      # corpus had not assembled. None of them is a new tag, a renamed tag or a
+      # statement invented by a sweep, which is what this step is here to catch.
       - name: tags verify
         working-directory: .solver
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
-        run: go run ./cmd/bourbaki tags verify -base origin/main -max-untagged 23311
+        run: go run ./cmd/bourbaki tags verify -base origin/main -max-untagged 23677
       # The audit ran without its exit status being read for as long as the
       # corpus carried hard findings. It had twelve, every one a page where the
       # text layer lost half of a display, and gating on the count would have

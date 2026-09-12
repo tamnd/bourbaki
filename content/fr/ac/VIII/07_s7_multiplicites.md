@@ -33,7 +33,7 @@ subsections:
       pdf_page: 81
 statements: 34
 exercises: 25
-content_sha256: feafddbbd3f14fcc3330dfb44683830fd40511839b2cb65ecb9bcabf3ec6b575
+content_sha256: 83bc6480ba925c06196b3dcefbd432194d23e1eca7cb2ebf52f26fd9d3c10801
 ---
 
 ## § 7. MULTIPLICITÉS
@@ -106,6 +106,8 @@ On peut avoir $e(A) = 1$ sans que A soit régulier (p. 104, exerc. 5). En fait, 
 #### Exemple {#ac-viii-s7-n1-exa-1 .statement}
 
 On a par définition $e_{q,r}(M) = r^d e_q(M)$ où $d = \dim_A(M)$. Par conséquent, si A est local régulier, on a $e_{m_A^r}(A) = r^d$. Par exemple, si A est un anneau de valuation discrète, on a $e_q(A) = \operatorname{long}(A/q)$.
+
+Soient q un idéal de A contenu dans le radical de A et C(q) l’ensemble des classes des A-modules M de type fini tels que M/qM soit de longueur finie. Pour tout d ∈ ℕ, notons C(q)_{≤ d} la partie de C(q) formée des classes de A-modules de dimension ≤ d. On définit une application e_{q,d}: C(q)_{≤ d} → ℤ par e_{q,d}(M) = e_q(M) si dim(M) = d, e_{q,d}(M) = 0 sinon. Cette application est additive d’après la prop. 5 du , n° 3 ; on en déduit (A, VIII, § 10, n° 2) un homomorphisme, encore noté e_{q,d}, du groupe de Grothendieck K(C(q)_{≤ d}) dans ℤ, qui est nul sur K(C(q)_{≤ d-1}). En raisonnant comme au § 1, n° 5, on en déduit
 
 #### Proposition 3 {#ac-viii-s7-prop-3 .statement}
 

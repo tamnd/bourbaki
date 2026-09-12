@@ -36,7 +36,7 @@ subsections:
       pdf_page: 68
 statements: 31
 exercises: 17
-content_sha256: c29153ba3e3e0e09f5b04fb3c9a5e823783c1490f9fc346cf806e3b14c85be92
+content_sha256: 9cc054817c878c59790328ff07dc2604643cb755df20ae1a74254368f422948d
 ---
 
 ## § 5. Algèbres de Lie résolubles
@@ -124,6 +124,8 @@ Soient $V$ un espace vectoriel de dimension finie sur $K$, $g$ une sous-algèbre
 Soit $(V_i)_{0 \leq i \leq r}$ une suite de Jordan-Hölder du $a$-module $V$. Soit $S$ la sous-algèbre de $\mathscr{L}(V)$ engendrée par $1$ et $a$.
 
 Si $b$ est un idéal de $g$ contenu dans $a$ et tel que l’on ait $\mathrm{Tr}\, bs = 0$ pour tout $b \in b$ et tout $s \in S$, on a en particulier, par définition de $S$, $\mathrm{Tr}\,(b^n) = 0$ pour tout entier $n > 0$, donc $b$ est nilpotent
+
+(Alg., chap. VII, , no 5, cor. 4 de la prop. 13) ; comme les éléments de b sont tous nilpotents, on a b = {0} (\S 4, no 3, lemme 2). Appliquons d’abord ceci à l’idéal [g, a] de g. Si x ∈ g, a ∈ a, s ∈ S, on a Tr [x, a]s = Tr (xas − axs) = Tr x(as − sa) = 0 puisque as = sa ; on a donc [g, a] = {0}. Les éléments de g commutent donc à ceux de a, donc aussi à ceux de S. Si x, y appartiennent à g, et si s ∈ S, on a Tr [x, y]s = Tr (xys − yxs) = Tr x(ys − sy) = 0 puisque ys = sy ; prenant alors pour b l’idéal $\mathscr{O}g \cap a$, on a $\mathscr{O}g \cap a = \{0\}$
 
 #### Théorème 1 {#lie-i-s5-thm-1 .statement}
 

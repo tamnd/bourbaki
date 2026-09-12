@@ -28,7 +28,7 @@ subsections:
       pdf_page: 67
 statements: 9
 exercises: 4
-content_sha256: 55dd4806b7f8b3b3ce358eec74d97c72f2b3a1fa457259345482d16cac8ff357
+content_sha256: 7ede8d35a8a5a2c4c2b1da4c1e77c401e2167723c4b27a5c2b4de931dc2b4c07
 ---
 
 ## § 8. Convergence de la série de Hausdorff (cas ultramétrique)
@@ -221,6 +221,8 @@ $$
 \|1\| &= 1
 \end{align*}
 $$
+
+pour $x, y$ dans $A$, et complète pour cette norme. Les résultats des deuxième et troisième alinéas du , n° 3 restent valables
 
 Prenons $I = \{ U \}$ et considérons les images $\tilde{e}$ et $\tilde{l}$ des séries $e(U) = \sum_{n \geq 1} \frac{U^n}{n!}$ et
 $$

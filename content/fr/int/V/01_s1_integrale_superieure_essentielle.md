@@ -28,7 +28,7 @@ subsections:
       pdf_page: 16
 statements: 25
 exercises: 6
-content_sha256: 71dee38cf399f6e181553daa5a081649725dc3a8e5397d2676d978efd4a91056
+content_sha256: 695a81621de27d7fe1a04225871d9158da4afd644d2acf4c276678565545f7f8
 ---
 
 ## § 1. Intégrale supérieure essentielle
@@ -175,6 +175,8 @@ $$
 
 pour tout $n \in \mathbf{N}$; $f$ étant égale à la somme de la suite $(f_n)$, il nous suffira donc d’établir la proposition en supposant $f$ modérée et bornée. Désignons alors par A l’ensemble des $t \in T$ tels que $f(t) > 0$; A est mesurable et modéré, et il existe donc une suite $(A_n)$ d’ensembles intégrables, deux à deux disjoints, telle que
 
+A = \bigcup_n A_n. On est ramené à démontrer l’énoncé pour les fonctions $f\varphi_{A_n}$; autrement dit, on peut supposer $f$ bornée et nulle hors d’un ensemble intégrable I. Mais I est réunion d’un ensemble négligeable N et d’une suite $(L_n)$ de compacts deux à deux disjoints (chap. IV, , n° 6, cor. 2 du th. 4). On est donc ramené à traiter le cas où $f$ est bornée, nulle hors d’un compact L
+
 Soit $\mathfrak{R}$ l’ensemble des compacts K de T tels que $f|K$ soit continue ; $\mathfrak{R}$ étant $\mu$-dense (chap. IV, 2e éd., § 5, n° 10, prop. 15), L est réunion d’un ensemble négligeable N, et d’une suite $(K_n)_{n \geq 1}$ d’éléments de $\mathfrak{R}$ deux à deux disjoints (chap. IV, 2e éd., § 5, n° 8, déf. 6). Les fonctions $h_0 = f\varphi_N, h_n = f\varphi_{K_n}$ pour $n \geq 1$, satisfont alors aux conditions de l’énoncé.
 
 La proposition suivante permet de ramener l’étude de l’intégrale supérieure à celle de l’intégrale supérieure essentielle.
@@ -288,6 +290,8 @@ $$
 $$
 
 et cette définition ne dépend pas de la fonction intégrable $f_1$ partout définie et localement presque partout égale à $f$ (lemme 1). On définit de même la notion de fonction essentiellement intégrable pour les fonctions à valeurs dans $\mathbf{R}$, définies et finies localement presque partout.
+
+Le lecteur n’aura aucune peine à étendre aux fonctions essentiellement intégrables les résultats du chap. IV, sur les fonctions intégrables, en remplaçant dans les énoncés «presque partout» par «localement presque partout». Signalons par exemple l’inégalité
 
 $$
 |\int f\,d\mu| \leq \int |f|\,d\mu

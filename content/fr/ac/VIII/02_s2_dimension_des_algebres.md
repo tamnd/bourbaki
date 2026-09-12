@@ -27,9 +27,9 @@ subsections:
       title: Algèbres de type fini sur un corps
       page: 19
       pdf_page: 23
-statements: 32
+statements: 33
 exercises: 18
-content_sha256: d7066e36706438d32a22f5ef08bd4e19a169b5d80d705a7389fcb171033cec0a
+content_sha256: 824849cc7a62ef82141e84ff6c74c4336f7b8b3c6c66a18539de92d3e43bae07
 ---
 
 ## § 2. DIMENSION DES ALGÈBRES
@@ -156,6 +156,10 @@ $$
 $$
 
 La première inégalité a déjà été démontrée (§ 1, no 3, exemple 4). Démontrons la seconde. Pour tout idéal premier $p$ de $A$, l’anneau $B \otimes_A \kappa(p)$, isomorphe à $\kappa(p)[X]$, est principal et n’est pas un corps, donc est de dimension 1 (§ 1, no 3, exemple 2), et l’inégalité résulte de la prop. 3.
+
+#### Remarque 2 {#ac-viii-s2-n2-rem-2 .statement}
+
+Nous verrons plus loin ( , no 4, cor. 3 à la prop. 7) que, si A est noethérien, on a dim(A[X]) = 1 + dim(A)
 
 Cependant, quels que soient les entiers n et q avec n + 1 ≤ q ≤ 2n + 1, il existe un anneau A de dimension n tel que dim(A[X]) = q (voir p. 84, exerc. 7).
 

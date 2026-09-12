@@ -51,9 +51,9 @@ subsections:
       title: SEMI-DIRECT PRODUCTS
       page: 239
       pdf_page: 245
-statements: 45
+statements: 46
 exercises: 31
-content_sha256: 01217d9945f06d0b2ed58cc8843dc54bec8461b84d6d1966ebb0af8867a7d247
+content_sha256: 816b898045782fd4fc1b39a50bd54410c93f09dce6626d5d34531658f5728623
 ---
 
 ## 2. SUBGROUPS, QUOTIENT GROUPS, HOMOMORPHISMS, HOMOGENEOUS SPACES, PRODUCT GROUPS
@@ -120,6 +120,8 @@ The converse of this proposition is in general false, as we shall see in Chapter
 
 *In a topological group $G$, the component $K$ of the identity element $e$ is a closed normal subgroup. The component of any point $x \in G$ is the coset $x.K = K.x$.*
 
+If $a \in K$, then $a^{-1}K$ is connected and contains $e$; hence $K^{-1}K \subset K$, which shows that $K$ is a subgroup of $G$. This subgroup is invariant under all automorphisms of $G$, and in particular under all inner automorphisms, therefore $K$ is *normal* in $G$; also $K$ is closed (Chapter I, , no. 5, Proposition 9). Finally, the left translation $y \to xy$ is a homeomorphism of $G$ which sends $e$ to $x$, and hence the component of $x$ is $x.K$
+
 The component of the identity element $e$ of $G$ is called the *identity component* of $G$.
 
 ### 3. DENSE SUBGROUPS
@@ -175,6 +177,8 @@ Let $G$ be a topological group, $X$ a topological space. Then the mapping $(s, x
 #### Remark {#top-iii-s2-n4-rem-1 .statement}
 
 Instead of saying that a topological group $G$ operates continuously on a topological space $X$, it is often said that $G$ operates continuously *on the left* on $X$. When the topological group $G^0$ opposite to $G$ operates continuously on $X$, we say that $G$ operates continuously *on the right* on $X$. It comes to the same thing to say that $X$ has a continuous external law of composition $(s, x) \to s.x$ with $G$ as set of operators, such that $s.(t.x) = (ts).x$ and $e.x = x$. Such a law is often written *on the right* : $(s, x) \to x.s$ (whence the terminology), and we have then $(x.t).s = x.(ts)$. If $G$ operates continuously on the right on $X$ by the law $(s, x) \to x.s$, then also $G$ operates continuously on the left on $X$ according to the external law $(s, x) \to x.s^{-1}$, by virtue of axiom (GT$_{II}$).
+
+Let $X$ (resp. $X'$) be a set with a group of operators $G$ (resp. $G'$) and let $f : G \to G'$ be a homomorphism and $g : X \to X'$ a mapping. $f$ and $g$ are said to be *compatible* if $g(s.x) = f(s).g(x)$ for all $s \in G$ and all $x \in X$. If $X''$ is a third set with a group of operators $G''$, if $f' : G' \to G''$ is a homomorphism, $g' : X' \to X''$ a mapping, and if $f'$ and $g'$ are compatible, then $f' \circ f$ and $g' \circ g$ are compatible. When $X, X'$ are topological spaces and $G, G'$ are topological groups operating continuously on $X, X'$ respectively, $(f, g)$ is said to be a *morphism* of the space with operators $X$ into the space with operators $X'$, provided that $f$ and $g$ are *continuous* and *compatible*. Passing to the quotients, $g$ then induces a continuous mapping $X/G \to X'/G'$ (Chapter I, , no. 4, Corollary to Proposition 6)
 
 Let $G$ be a topological group operating continuously on a topological space $X$, and let $\varphi$ be the canonical mapping of $X$ onto the orbit space $X/G$. Let $A$ be any subset of $X$, and let $A'$ be the subspace of $X$ which is the saturation of $A$ with respect to the equivalence relation $R$ defined by $G$ (thus $A'$ is the union of the orbits of points of $A$, and is said to be the *saturation of $A$ with respect to $G$*). $G$ operates continuously on $A'$ by the restriction of $(s, x) \to s.x$ to $G \times A'$. Moreover, since $R$ is open (Lemma 2) and $A'$ is saturated, it follows from Proposition 4 of Chapter I, § 5, no. 2, and from the relation $\varphi(A) = \varphi(A')$, that:
 
@@ -406,6 +410,10 @@ $$
 $$
 
 (Chapter I, § 4, no. 1, Proposition 1, Corollary 1, and Proposition 2). Moreover the orbit under $G$ of a point $x = (x_i)$ of $X$ is the product of the orbits of the $x_i$ (with respect to the groups $G_i$). Let $\varphi_i$ be the canonical mapping of $X_i$ onto $X_i/G_i$, and let $\varphi = (\varphi_i)$ be the product mapping of $X$ onto $\prod_{i \in I} (X_i/G_i)$; then the preceding remark shows that the bijection canonically associated with $\varphi$ maps the orbit space $X/G$ onto $\prod_{i \in I} (X_i/G_i)$. Moreover:
+
+#### Proposition 26 {#top-iii-s2-prop-26 .statement}
+
+*The bijection of* $X/G$ *onto* $\prod_{i \in I} (X_i/G_i)$ *canonically associated with* $(\varphi_i)$ *is a homeomorphism.* For since the $\varphi_i$ are surjective and open, it follows that $\varphi = (\varphi_i)$ is an open mapping (Chapter I, , no. 3, Corollary to Proposition 8)
 
 #### Corollary {#top-iii-s2-n9-cor-1 .statement}
 

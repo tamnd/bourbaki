@@ -53,7 +53,7 @@ subsections:
       pdf_page: 101
 statements: 39
 exercises: 15
-content_sha256: bcafdf4db47f70c0bba342ff648d4aab9671001599610629aeb7d3892e87964e
+content_sha256: 81bad56a937a525ac0c75ea460ac4dee14f406cf17354014e81900b142c91d79
 ---
 
 ## § 7. ALGÈBRES LISSES
@@ -273,7 +273,7 @@ $$
 $$
 l’homomorphisme de k-algèbres tel que $\theta(x) = \varphi(x)$ pour $x$ dans $S^0 = A/J$, et $\theta(x) = \sigma(x)$ pour $x$ dans $S^1 = J/J^2$. Puisque $\theta$ applique $S^1$ dans $\hat{J}$, il applique $S^n$ dans $\hat{J}^n$ et se prolonge donc en un homomorphisme continu $\hat{\theta} : \hat{S} \to \hat{A}$. L’application $\mathrm{gr}_1(\theta) : J/J^2 \to \hat{J}/\hat{J}^2$ est la composée de $\sigma$ avec la surjection canonique $\hat{J} \to \hat{J}/\hat{J}^2$ ; puisque $\sigma$ est une section de $\lambda$, $\mathrm{gr}_1(\theta)$ coïncide avec l’isomorphisme canonique de $J/J^2$ sur $\hat{J}/\hat{J}^2$. Par suite $\mathrm{gr}(\theta) : S \to \mathrm{gr}_{\hat{J}}(\hat{A})$ est la composée de la surjection canonique $\beta$ avec l’isomorphisme canonique $\mathrm{gr}_J(A) \to \mathrm{gr}_{\hat{J}}(\hat{A})$ (III, § 2, n° 12, formule (22)).
 
-Prouvons maintenant l’implication (ii) $\Rightarrow$ (iii). Sous l’hypothèse (ii), le A/J-module $J/J^2$ est projectif, donc $\lambda$ admet une section A/J-linéaire ; l’homomorphisme $\hat{\theta} : \hat{S} \to \hat{A}$ associé à cette section par la construction précédente induit par
+Prouvons maintenant l’implication (ii) $\Rightarrow$ (iii). Sous l’hypothèse (ii), le A/J-module $J/J^2$ est projectif, donc $\lambda$ admet une section A/J-linéaire ; l’homomorphisme $\hat{\theta} : \hat{S} \to \hat{A}$ associé à cette section par la construction précédente induit par hypothèse un isomorphisme sur les gradués associés, donc est bijectif (III, , n° 8, cor. 3 du th. 1), ce qui prouve (iii)
 
 Prouvons (i) ⇒ (ii). Supposons la k-algèbre topologique A formellement lisse. Prouvons d’abord que le A/J-module J/J^2 est projectif. Soient M un Λ/J-module et f : M → J/J^2 une application A/J-linéaire surjective ; il s’agit de démontrer que f admet une section Λ/J-linéaire.
 
@@ -291,6 +291,8 @@ Soient k un corps et A une k-algèbre locale noethérienne telle que l’extensi
 (ii) l’anneau A est régulier ;
 (iii) la k-algèbre Λ est absolument régulière (§ 6, n° 4, déf. 1) ;
 (iv) la k-algèbre Ā est isomorphe à κ_A[[T_1, ..., T_n]], avec n = dim A.
+
+Les conditions (ii) et (iii) sont équivalentes d’après l’exemple 3 du , n° 4, et reviennent à dire que l’idéal $m_A$ est complètement sécant (VIII, § 5, n° 2, th. 1). Par ailleurs, tout isomorphisme d’anneaux de $\hat{A}$ sur $\kappa_A[[T_1, \ldots, T_n]]$ est bicontinu, puisque ce sont des anneaux locaux. Comme la $k$-algèbre $A/m_A$ est formellement lisse (n° 3, th. 1), le corollaire résulte du th. 2 appliqué avec $J = m_A$
 
 #### Corollaire 2 {#ac-x-s7-thm-2-cor-2 .statement}
 
@@ -356,6 +358,8 @@ Supposons l’anneau A local et noethérien. Alors $A_n$ est local et noethérie
 
 (i) $A_n$ est régulier ;
 (ii) A est régulier et les éléments $1 \otimes df_i$ du $\kappa_A$-espace vectoriel $\kappa_A \otimes_A \Omega(A)$ sont linéairement indépendants.
+
+L’anneau $A_n$ est noethérien (III, , cor. 3 du th. 2). Le $A$-module $A_n$ est libre, donc fidèlement plat ; si $A_n$ est régulier, alors $A$ est régulier ($\S 4$, n° 5, prop. 8 b)). Nous allons raisonner par récurrence sur $n$, le lemme étant évident si $n = 0$
 
 A) Traitons d’abord le cas $n = 1$, en posant $T_1 = T$, $f_1 = f$. Notons $a$ la classe de $f$ dans $\kappa_A$ et distinguons deux cas, suivant que $a$ appartient ou non à $\kappa_A^p$. Si $a \notin \kappa_A^p$, alors le polynôme $T^p - a$ est irréductible dans $\kappa_A$ (A, V, p. 24, lemme 1) et $\kappa_A \otimes_A A_1$ est isomorphe au corps $\kappa_A[T]/(T^p - a)$. L’idéal $m_A A_1$ de $A_1$ est donc maximal, de sorte que l’anneau $A_1$ est local (V, § 2, n° 1, prop. 1). Si $A$ est régulier, $A_1$ est régulier (VIII, § 5, n° 1, prop. 1). D’après A, V, p. 99, prop. 6, l’élément $da$ de $\Omega(\kappa_A)$ n’est pas nul ; puisque c’est l’image par l’application canonique $\kappa_A \otimes_A \Omega(A) \to \Omega(\kappa_A)$ de $1 \otimes df$, ce dernier n’est pas nul. Cela démontre le lemme dans ce cas.
 

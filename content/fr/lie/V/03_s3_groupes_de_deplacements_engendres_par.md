@@ -52,7 +52,7 @@ subsections:
       pdf_page: 86
 statements: 35
 exercises: 8
-content_sha256: 446d7d75835a54990eb44a32db674611c9492a1acac3ebd9a84f2e4fb1ae7876
+content_sha256: 1305d974aacdd05ff8c575cb52d64d9082d0e1b161d37d13d82280c7e50c83cc
 ---
 
 ## § 3. Groupes de déplacements engendrés par des réflexions
@@ -75,6 +75,8 @@ Comme $E$ est localement compact, il résulte de la *Remarque* du § 4, no 5 de 
 *L’ensemble d’hyperplans* $\mathfrak{S}$ *est localement fini*.
 
 Soit en effet $K$ une partie compacte de $E$. Si un hyperplan $H \in \mathfrak{S}$ rencontre $K$, l’ensemble $s_H(K)$ rencontre aussi $K$, puisque tout point de $K \cap H$ est fixe par $s_H$. L’ensemble des $H \in \mathfrak{S}$ rencontrant $K$ est donc fini d’après (D' 2).
+
+On peut donc appliquer à E et $\mathfrak{S}$ les définitions et résultats du . Nous appellerons simplement chambres, facettes, murs, etc. relatifs à W les chambres, facettes, murs, etc. définis dans E par $\mathfrak{S}$. Un déplacement $w \in W$ permutent entre elles les chambres, les facettes, les murs, etc
 
 #### Lemme 2 {#lie-v-s3-lem-2 .statement}
 
@@ -224,6 +226,8 @@ s \mapsto f(s) = ws w^{-1}
 $$
 
 de S sur $S' = S(C')$, et l’on a $m(f(s), f(s')) = m(s, s')$. Il en résulte que, si l’on fait opérer W sur l’ensemble X des couples (C, s), où C est une chambre et où $s \in S(C)$, en posant $w.(C, s) = (w(C), ws w^{-1})$, chaque orbite i de W dans X rencontre chacun des ensembles $\{C\} \times S(C)$ en un point et un seul, que l’on note $(C, s_i(C))$. Soit alors I l’ensemble de ces orbites ; pour $i, j \in I$, le nombre $m_{ij} = m(s_i(C), s_j(C))$ est indépendant du choix de la chambre C. La matrice
+
+M(W) = (m_{ij})_{i,j \in I} est une matrice de Coxeter que l’on appelle la matrice de Coxeter de W. Le graphe de Coxeter associé à M(W) (chap. IV, , no 9) est appelé le graphe de Coxeter de W
 
 Soit C une chambre. Pour tout i \in I, on désigne par H_i(C) le mur de C tel que s_i(C) soit la réflexion par rapport à H_i(C) et par e_i(C) le vecteur unitaire orthogonal à H_i(C) et situé du même côté de H_i(C) que C. L’application i \mapsto H_i(C) est appelée la famille canoniquement indexée des murs de C.
 

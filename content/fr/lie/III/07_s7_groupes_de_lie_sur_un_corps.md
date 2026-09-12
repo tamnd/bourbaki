@@ -36,7 +36,7 @@ subsections:
       pdf_page: 219
 statements: 26
 exercises: 10
-content_sha256: 2a11e840b072e6bf795915d99f97cedbde0f6e8d65e3e8a13605276f96f1a6f0
+content_sha256: cd692f639f782df857efd033848fbac531434721a4cf5266790f85c914b08d88
 ---
 
 ## § 7. Groupes de Lie sur un corps ultramétrique
@@ -48,6 +48,8 @@ Dans ce paragraphe, le corps valué $K$ est supposé ultramétrique et de caract
 #### Proposition 1 {#lie-iii-s7-prop-1 .statement}
 
 *Soit* $G$ *un groupuscule de Lie d’élément neutre* $e$. *Il existe un système fondamental de voisinages ouverts de* $e$ *dans* $G$ *formé des sous-groupes de Lie de* $G$.
+
+Munissons $L(G)$ d'une norme compatible avec sa topologie et telle que $\| [x, y] \| \leq \| x \| \| y \|$ quels que soient $x, y$ dans $L(G)$. Soit $G_1$ le groupe de Lie défini par $L(G)$. D'après le , no 2, th. 2, $G$ et $G_1$ sont localement isomorphes. Il suffit alors d'appliquer le § 4, no 2, lemme 3 (iii)
 
 #### Théorème 1 {#lie-iii-s7-thm-1 .statement}
 
@@ -240,6 +242,8 @@ On conserve les notations du n° 4.
 #### Proposition 8 {#lie-iii-s7-prop-8 .statement}
 
 Soient $n \in \mathbf{Z}$, et $h_n$ l’application $x \mapsto x^n$ de G dans G. Soit $a$ un idéal non nul de A contenu dans m, tel que $n \notin a$. Alors $h_n|G(a)$ est un isomorphisme de la variété analytique $G(a)$ sur la variété analytique $G(na)$.
+
+Par définition des groupes standards, $h_n$ est égal dans tout $G$ à la somme d'une série entière à coefficients dans $A^r$. D'après le , formule (4), cette série est de la forme
 
 $$
 h_n(x) = nx + \sum_{|\alpha| \geq 2} a_\alpha x^\alpha.

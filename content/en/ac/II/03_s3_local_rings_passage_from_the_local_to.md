@@ -33,7 +33,7 @@ subsections:
       pdf_page: 112
 statements: 39
 exercises: 14
-content_sha256: 4f386f4871c58170a49537a2a50d87c0f1514cb0377ef14915c0c8c2f53a7186
+content_sha256: 2d33c9599e069a462ad035502f5889e9684b14d14d8fbf1bbf0753d4c85a405a
 ---
 
 ## 3. LOCAL RINGS. PASSAGE FROM THE LOCAL TO THE GLOBAL
@@ -123,6 +123,8 @@ $$
 ((A_d/m) \otimes_A N)/\operatorname{Im}(1 \otimes u)
 $$
 
+(Algebra, Chapter II, , no. 6, Corollary 1 to Proposition 6); then the hypothesis implies $(A_d/m) \otimes_A (N/u(M)) = 0$, hence $N/u(M) = 0$ by Proposition 4
+
 #### Corollary 2 {#ac-ii-s3-prop-4-cor-2 .statement}
 
 *Let $A$ be a ring which is not necessarily commutative, $m$ a two-sided ideal of $A$ contained in the Jacobson radical of $A$, $M$ a left $A$-module and $(x_i)_{i \in I}$ a family of elements of $M$. If $M$ is finitely generated or $m$ is nilpotent and the elements $1 \otimes x_i$ ($i \in I$) generate the left $(A/m)$-module $(A/m) \otimes_A M$, the $x_i$ generate $M$.*
@@ -210,6 +212,8 @@ We know (*Algebra*, Chapter II, § 1, no. 11, Proposition 21) that, if $N/u(M)$ 
 (a) $u$ is an isomorphism of $M$ onto $N$;
 (b) $M$ and $N$ have the same rank (*Algebra*, Chapter II, § 7, no. 2) and $u$ is surjective;
 (c) $1 \otimes u: M/mM \to N/mN$ is bijective.
+
+Clearly (a) implies (b); (b) implies that $1 \otimes u$ is surjective; moreover the hypothesis that M and N have the same rank implies that so do the vector spaces $(A/m) \otimes_A M$ and $(A/m) \otimes_A N$ over $A/m$, hence $1 \otimes u$ is bijective (*Algebra*, Chapter II, , no. 4, Corollary to Proposition 9) and (b) implies (c). Finally, condition (c) implies, by Proposition 6, that N is the direct sum of $u(M)$ and a free submodule P and $u$ is an isomorphism of M onto $u(M)$; if $P \neq 0$, then $(A/m) \otimes_A P \# 0$ and $1 \otimes u$ would not be surjective; hence (c) implies (a)
 
 The propositions proved above in this no. will usually be applied when $A$ is a *local ring* and $m$ its *maximal ideal*. Corollary 2 to Proposition 5 is then completed by
 

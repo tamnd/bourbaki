@@ -34,9 +34,9 @@ subsections:
       title: Valuations discrètes
       page: 0
       pdf_page: 104
-statements: 22
+statements: 23
 exercises: 8
-content_sha256: f2c1be48bb3a783656311acb7528247e469efca6363e37f4a54a19f40802eb73
+content_sha256: 2195e3c9564867ffcf7e8c22e52ff5fa1593e602d2c64e42ddf9a017d2388f74
 ---
 
 ## § 3. Valuations.
@@ -187,6 +187,10 @@ Soient k un corps, et K = k((T)). L’application υ qui, à toute série formel
 
 Soient A un anneau principal, K son corps des fractions, et p un élément extrémal de A. Pour x ∈ K*, notons υ_p(x) l’exposant de p dans la décomposition de x en éléments extrémaux (Alg., chap. VII, § 1, no 3, th. 2); on voit aussitôt que υ_p est une valuation, dont le groupe des ordres est Z et l’anneau A_{A_p}. D’après la prop. 3 du § 1, no 4, on obtient ainsi, à une équivalence près, toutes les valuations non impropres de K qui sont positives sur A. Prenant A = Z, on retrouve les valuations p-adiques de Q (Top. Gén., chap. IX, § 3, no 2); ces valuations sont, à une équivalence près, les seules valuations non impropres de Q (§ 1, no 4, cor. 1 de la prop. 3). Prenant A = k[X], où k est un corps, les valuations non impropres de k(X) dont la restriction à k est impropre sont (à une équivalence près): d’une part les valuations υ_P où P parcourt l’ensemble des polynômes unitaires irréductibles de k[X], d’autre part la valuation υ définie par υ(P/Q) = deg(Q) − deg(P) pour P ∈ k[X] et Q ∈ k[X] (§ 1, no 4, cor. 2 de la prop. 3); toutes ces valuations ont évidemment Z pour groupe des ordres, et leurs corps résiduels sont des extensions algébriques monogènes de k (Alg., chap. V, § 3, no 1).
 
+#### Exemple 5 {#ac-vi-s3-n4-exa-5 .statement}
+
+L’application $P(X, Y) \to P(T, e^T)$ de $\mathbf{C}[X, Y]$ dans $\mathbf{C}((T))$ est injective (*Fonc. Var. Réelle*, chap. IV, , prop. 9), donc se prolonge en un isomorphisme de $\mathbf{C}(X, Y)$ sur un sous-corps de $\mathbf{C}((T))$. La restriction à ce sous-corps de la valuation de $\mathbf{C}((T))$ définie dans l’exemple 3 définit une valuation de $\mathbf{C}(X, Y)$, impropre sur $\mathbf{C}$, dont le groupe des ordres est $\mathbf{Z}$ et le corps résiduel $\mathbf{C}$
+
 La proposition 4 du no 2 permet de construire une valuation dont le groupe des ordres et le corps résiduel sont donnés :
 
 #### Exemple 6 {#ac-vi-s3-n4-exa-6 .statement}
@@ -252,6 +256,8 @@ d) A est un anneau noethérien et $m(A)$ est principal.
 e) A est un anneau de valuation noethérien.
 
 La prop. 8 montre que a) entraîne b), d) et e). Si A est principal, on a $m(A) = Au$ et tout idéal non nul de A est de la forme $Au^n$ puisque A est local (Alg., chap. VII, § 1, no 3, th. 2); on a donc $\bigcap_{n=0}^{\infty} m(A)^n = 0$; ceci montre que b) implique c). D’autre part d) implique c) (chap. III, § 3, no 2, cor. de la prop. 5);
+
+d’après la prop. 2 du , n° 4, c) implique a). Ainsi les conditions a), b), c), d) sont équivalentes et entraînent e). Enfin, supposons e) vraie et montrons que b) est vraie; il suffira de prouver le lemme suivant
 
 #### Lemme 1 {#ac-vi-s3-lem-1 .statement}
 

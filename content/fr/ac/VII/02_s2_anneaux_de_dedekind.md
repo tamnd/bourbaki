@@ -32,7 +32,7 @@ subsections:
       pdf_page: 223
 statements: 15
 exercises: 22
-content_sha256: a8860cd79257be111d6393b6e3751e163399b0d8febeedb4e24741bfdab641f2
+content_sha256: 0bf4b89ff6f396b5bf8440b22b75e82b18dc143a4310e5228be60325d35a40e7
 ---
 
 ## § 2. Anneaux de Dedekind
@@ -70,7 +70,7 @@ e) A est noethérien, intégralement clos, et tout idéal premier non nul de A e
 f) A est noethérien, et, pour tout idéal maximal m de A, $A_m$ est un corps ou un anneau de valuation discrète ;
 g) A est noethérien, et, pour tout idéal maximal m de A, $A_m$ est principal.
 
-Démontrons d’abord l’équivalence de a) et de b). Le cor. 2
+Démontrons d’abord l’équivalence de a) et de b). Le cor. 2 du th. 3, , n° 6, montre aussitôt que $a)$ implique $b$. Inversement $b)$ implique $a$), car, pour tout idéal premier $p$ de $A$, il existe un anneau de valuation pour $K$ qui domine $A_p$ (chap. VI, § 1, n° 2, cor. du th. 2)
 
 Le reste de la démonstration se fait suivant le schéma logique
 $$
@@ -143,11 +143,15 @@ et l’existence de x résulte alors du chap. II, § 1, n° 2, prop. 5.
 
 Passons au cas général. On peut écrire $x_i = s^{-1} y_i$ avec s, $y_i$ dans A; posant $x = s^{-1} y$, tout revient à trouver un $y \in A$ tel que l’on ait, d’une part, $v_{p_i}(y - y_i) \geq n_i + v_{p_i}(s)$, et, d’autre part, $v_p(y) \geq v_p(s)$ pour tout $p \in P$ distinct des $p_i$; comme $v_p(s) = 0$ sauf pour un nombre fini d’indices $p$, on est ainsi ramené au cas précédent; d’où la proposition.
 
+La proposition 2 peut s’interpréter comme un théorème de densité. De façon précise, pour tout $p \in P$, soit $\hat{K}_p$ (resp. $\hat{A}_p$) le complété de $K$ (resp. $A$) pour la valuation discrète $v_p$, et considérons le produit $\prod_{p \in P} \hat{K}_p$; on dit qu’un élément $x = (x_p)$ de ce produit est un adèle restreint de $A$ si l’on a $x_p \in \hat{A}_p$ pour tout $p \in P$ à l’exception d’un nombre fini d’entre eux. Il est clair que l’ensemble $A$ des adèles restreints est un sous-anneau de $\prod_{p \in P} \hat{K}_p$, qui contient l’anneau produit $A_0 = \prod_{p \in P} \hat{A}_p$. Considérons sur $A_0$ la topologie produit, pour laquelle $A_0$ est complet; il y a sur $A$ une topologie et une seule $\mathscr{T}$, compatible avec sa structure de groupe additif, pour laquelle les voisinages de 0 dans $A_0$ forment un système fondamental $\mathfrak{S}$ de voisinages de 0. La topologie $\mathscr{T}$ est compatible avec la structure d’anneau de $A$; en effet, il est clair que l’axiome (AV$_{\text{II}}$) de Top. Gén., chap. III, 3$^e$ éd., , n° 3 est vérifié, la topologie induite par $\mathscr{T}$ sur $A_0$ étant compatible avec la structure d’anneau de $A_0$. D’autre part, pour tout $x \in A$ il existe une partie finie $J$ de $P$ telle que si on pose $J' = P - J$, $K_J = \prod_{p \in J} \hat{K}_p$, $A_{J'} = \prod_{p \in J'} \hat{A}_p$, on ait $x \in K_J \times A_{J'}$, et comme $\hat{A}_p$ est ouvert dans $\hat{K}_p$ pour tout $p$, $\mathfrak{S}$ est un système fondamental de voisinages de 0 pour la topologie produit de $K_J \times A_{J'}$; cette dernière étant compatible avec la structure d’anneau de ce produit, on voit que l’axiome (AV$_I$) de Top. Gén., chap. III, 3$^e$ éd., loc. cit. est aussi vérifié, ce qui prouve notre assertion. Il est clair que $A_0$ est un sous-anneau ouvert de $A$, donc $A$ est aussi un anneau complet (Top. Gén., chap. III, 3$^e$ éd., § 3, n° 3, prop. 4)
+
 Pour tout $x \in K$, soit $\Delta(x)$ l’élément $(x_p) \in \prod_{p \in P} \hat{K}_p$ tel que $x_p = x$ pour tout $p \in P$; comme $x_p \in \hat{A}_p$ sauf pour un nombre fini de valeurs de $p$, on a $\Delta(x) \in A$; on définit donc ainsi un homomorphisme $\Delta : K \to A$, qui est injectif si $P \neq \emptyset$ (c’est-à-dire si $A$ n’est pas un corps); les éléments de $\Delta(K)$ sont dits adèles restreints principaux, et il est clair que $\Delta(A) \subset A_0$. Dans la suite de ce numéro, nous supposerons que $A$ n’est pas un corps.
 
 #### Proposition 3 {#ac-vii-s2-prop-3 .statement}
 
 L’anneau $A_0$ (resp. $A$) s’identifie au complété de $A$ (resp. $K$) pour la topologie d’anneau dont un système fondamental de voisinages de 0 est formé de tous les idéaux entiers $\neq (0)$ de $A$.
+
+Il est immédiat que la topologie considérée sur $A$ (ou $K$) est séparée. Compte tenu du n° 3, l’assertion relative à $A_0$ résulte du chap. III, , n° 13, prop. 17. Cela montre donc que $\Delta(A)$ est dense dans $A_0$; pour voir de même que $\Delta(K)$ est dense dans $A$, on remarque que pour tout $x = (x_p) \in A$, il n’y a qu’un nombre fini de $p \in P$ tels que $v_p(x_p) < 0$; en vertu du § 1, n° 5, prop. 9, il y a donc un $s \in K$ tel que $sx_p \in \hat{A}_p$ pour tout $p \in P$, autrement dit $\Delta(s)x \in A_0$, et comme la multiplication par $\Delta(s)$ est un homéomorphisme de $A$ sur lui-même, il suffit d’appliquer le fait que $\Delta(A)$ est dense dans $A_0$ pour en déduire que $\Delta(K)$ est dense dans $A$
 
 On pourrait naturellement aussi prouver que $\Delta(K)$ est dense dans $A$ en utilisant la prop. 2.
 

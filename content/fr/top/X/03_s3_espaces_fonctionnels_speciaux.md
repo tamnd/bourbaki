@@ -32,7 +32,7 @@ subsections:
       page: 30
       pdf_page: 279
 statements: 31
-exercises: 16
+exercises: 30
 content_sha256: 42f9204c91625e489c15d9a1054919d20a2194ed2c7578d01006c0b932807388
 ---
 

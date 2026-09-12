@@ -10,8 +10,8 @@ source: top-v-x
 pdf_pages: 0023-0025, 0031-0034
 extraction: ocr
 statements: 5
-exercises: 1
-content_sha256: e083ecd8e6a72be8ff4cd629267067888014277bb5a1f7b1682d08f2f015472c
+exercises: 8
+content_sha256: a45344698e64b7f15c95b037d1b15e9856fecc238c6cd7dc80c2f862a9126c7f
 ---
 
 ## 3. TOPOLOGICAL CHARACTERIZATION OF THE GROUPS $\mathbf{R}$ AND $\mathbf{T}$
@@ -25,6 +25,8 @@ The significance of this theorem is that it allows us to deduce, from a purely t
 We are concerned here with a phenomenon which is peculiar to the group $\mathbf{R}$ and has no analogue for the groups $\mathbf{R}^n$ when $n > 1$ (cf. Chapter VIII, § 1, no. 4). Groups locally isomorphic to $\mathbf{R}$ are sometimes called *one-parameter groups*.
 
 To prove Theorem 1 we shall reduce it to Proposition 2 of § 2. By hypothesis, there is a homeomorphism $\varphi$ of an open neighbourhood $U$ of the identity element $e$ of $G$ onto an open interval in $\mathbf{R}$. By means of the inverse of the mapping $\varphi$ we can transport to $U$ the linear order structure of the interval $\varphi(U)$; the topology of $U$ (induced by that of $G$) then has a base consisting of all the open intervals of $U$ (Chapter
+
+IV, , no. 4, Proposition 5). We can find a symmetric neighbourhood V of e such that V.V ⊂ U and such that V is an open interval; for there exists an open interval V' containing e such that V'.V' ⊂ U ∩ U^{-1}, V'.V'^{-1} ⊂ U and V'^{-1}.V' ⊂ U; taking V = V' ∪ V'^{-1}, V is open and symmetric, satisfies V.V ⊂ U and is connected, hence is an interval (Chapter IV, § 2, no. 5, Theorem 4)
 
 We show that, if x, y, z belong to V, the relation x < y implies xz < yz and zx < zy. Indeed, the functions f_1(z) = φ(yz) − φ(xz) and f_2(z) = φ(zy) − φ(zx) are continuous on V; they are > 0 for z = e and do not vanish in V [e.g., if we had φ(yz) = φ(xz), we should have yz = xz and therefore y = x]. Since f_1(V) and f_2(V) are connected (Chapter I, § 11, no. 2, Proposition 4) and are therefore intervals in R (Chapter IV, § 2, no. 5, Theorem 4), and since these intervals each contain a number > 0 and do not contain 0, they are contained in R^*_+ : that is, we have f_1(z) > 0 and f_2(z) > 0 for all z ∈ V.
 

@@ -24,7 +24,7 @@ subsections:
       pdf_page: 132
 statements: 16
 exercises: 3
-content_sha256: 715be665122e7252a49fdc5b8ef199e1cd38d1499be4307c88b2c0b3ad68453e
+content_sha256: d1da8d8cb6a9cdd7126633763c95f4a30fc05e45fefccd85791d7ec09ba64593
 ---
 
 ## § 7. Théorème d’approximation.
@@ -68,6 +68,8 @@ Si on avait $p_i \subset p_j$ pour $i \neq j$, on aurait $A_i = B_{p_i} \supset 
 #### Corollaire 1 {#ac-vi-s7-prop-2-cor-1 .statement}
 
 *Supposons que $A_i \not\subset A_j$ pour $i \neq j$. Pour toute famille d’éléments $a_i \in A_i \ (1 \leq i \leq n)$, il existe $x \in B$ tel que $x \equiv a_i \ (\mathrm{mod.}\ m(A_i))$ pour $1 \leq i \leq n$.*
+
+Puisque les $\mathfrak{p}_i$ sont des idéaux maximaux de $B$, on a $A_i / m(A_i) = B_{\mathfrak{p}_i}/\mathfrak{p}_i B_{\mathfrak{p}_i} = B/\mathfrak{p}_i$, et l’on peut donc supposer que $a_i \in B$ pour tout $i$. Le corollaire résulte alors du fait que l’application canonique de $B$ dans $\prod_{i=1}^n (B/\mathfrak{p}_i)$ est surjective (Chap. II, , n° 2, prop. 5)
 
 #### Corollaire 2 {#ac-vi-s7-prop-2-cor-2 .statement}
 

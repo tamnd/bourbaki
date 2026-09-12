@@ -49,7 +49,7 @@ subsections:
       pdf_page: 203
 statements: 48
 exercises: 7
-content_sha256: 25443ca38e0d74878092070846f4496eceb085af929309efb7188d13993eaa0c
+content_sha256: 2a6afe400a71a5144150633cba13b9b91aa07c23053150644d14b65bce278b5e
 ---
 
 ## 3. COMPLETE SPACES
@@ -380,6 +380,8 @@ It should be remarked that if $f$ is a *bijective* uniformly continuous mapping 
 (P) *Given any uniformly continuous mapping $f$ of $X$ into a complete Hausdorff uniform space $Y$, there is a unique uniformly continuous mapping $g : \hat{X} \to Y$ such that $f = g \circ i$.*
 
 *If $(i_1, X_1)$ is another pair consisting of a complete Hausdorff uniform space $X_1$ and a uniformly continuous mapping $i_1 : X \to X_1$ having the property (P), then there is a unique isomorphism $\varphi : \hat{X} \to X_1$ such that $i_1 = \varphi \circ i$.*
+
+The first statement of the theorem signifies that the pair $(i, \hat{X})$ is the solution of the universal mapping problem (Set Theory, Chapter IV, , no. 1) in which the $\Sigma$-sets are complete Hausdorff uniform spaces, the $\sigma$-morphisms are uniformly continuous mappings and the $\alpha$-mappings are uniformly continuous mappings of $X$ into a complete Hausdorff uniform space. The uniqueness of the pair $(i, \hat{X})$ up to a unique isomorphism therefore follows from the general properties of solutions of universal mapping problems (loc. cit.). It remains to prove the existence of the pair $(i, \hat{X})$
 
 1) Definition of $\hat{X}$. Let $\hat{X}$ be the set of minimal Cauchy filters (no. 2) on $X$. We shall define a uniform structure on $\hat{X}$. For this purpose, if $V$ is any symmetric entourage of $X$, let $\tilde{V}$ denote the set of all pairs $(\mathscr{K}, \mathscr{Y})$ of minimal Cauchy filters which have in common a $V$-small set. We shall show that the sets $\tilde{V}$ form a fundamental system of entourages of a uniform structure on $\hat{X}$:
 
