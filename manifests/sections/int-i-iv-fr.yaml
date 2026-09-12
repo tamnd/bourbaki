@@ -94,7 +94,7 @@ chapters:
           last_pdf_page: 105
           subsections: 10
           statements: 43
-          exercises: 3
+          exercises: 18
           extraction: ocr
           content_sha256: f9ea660a2ac4e3de93708f83d1b553d7e57e1c7d923b4b32e40688cf67fb7ba4
         - kind: section
@@ -191,7 +191,7 @@ chapters:
           last_pdf_page: 249
           subsections: 11
           statements: 62
-          exercises: 3
+          exercises: 23
           extraction: ocr
           content_sha256: 5465b1d367cafb0c75dc2f2462a214832ff759ed1e0077af0dd23fbffb7b6b3d
         - kind: section
@@ -227,7 +227,7 @@ chapters:
           last_pdf_page: 275
           subsections: 6
           statements: 29
-          exercises: 1
+          exercises: 10
           extraction: ocr
           content_sha256: 7593b18bd2d16490a658781763f5212185682ed185a2a70b289b4836e707fa4d
 notation_index:

@@ -374,7 +374,7 @@ chapters:
           book_pages: 342-359, 397-409
           subsections: 8
           statements: 54
-          exercises: 29
+          exercises: 42
           extraction: ocr
           content_sha256: e3449c4d1dda5a12354d4f2af8f0330d18e171c8a3e0add10575476595ce9fd3
         - kind: section
@@ -383,11 +383,11 @@ chapters:
           path: content/en/lie/III/10_s10_the_automorphism_group_of_a_lie_group.md
           label: lie-iii-s10
           first_pdf_page: 377
-          last_pdf_page: 451
-          book_pages: 359-368, 409-433
+          last_pdf_page: 427
+          book_pages: 359-368
           subsections: 3
           statements: 13
-          exercises: 3
+          exercises: 4
           extraction: ocr
           content_sha256: 566744cc5db5d2f8a8f195462f4a59807186ff4384adc6aae436da11976fff82
         - kind: appendix
@@ -402,6 +402,17 @@ chapters:
           exercises: 0
           extraction: ocr
           content_sha256: f6541d0529455ab9bd95b3dca1a7a741c160bb7b7c0752780f7f4653bc77b3be
+        - kind: historical
+          title: Historical Note
+          path: content/en/lie/III/historical_note.md
+          first_pdf_page: 428
+          last_pdf_page: 451
+          book_pages: 410-433
+          subsections: 0
+          statements: 0
+          exercises: 0
+          extraction: ocr
+          content_sha256: a68f0d57dc7836cb581ee65ebe1fb8698658067c5dabcb4f0a5454ae4c96c939
 notation_index:
     kind: notation
     title: INDEX OF NOTATION

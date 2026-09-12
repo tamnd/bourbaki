@@ -99,7 +99,7 @@ chapters:
           book_pages: A IV.98-A IV.105
           subsections: 7
           statements: 43
-          exercises: 12
+          exercises: 15
           extraction: ocr
           content_sha256: 8d327c82138ab24b2a0ebb0ae6785bda3bb6fd0b0256ad7c094db8b668b342da
     - chapter: V

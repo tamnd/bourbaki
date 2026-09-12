@@ -898,3 +898,6 @@ chapters:
           page: 368
           pdf_page: 386
           appendix: true
+      historical_note:
+        page: 410
+        pdf_page: 428

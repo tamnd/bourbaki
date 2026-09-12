@@ -112,7 +112,7 @@ chapters:
           book_pages: 51-62, 79-84
           subsections: 6
           statements: 28
-          exercises: 10
+          exercises: 23
           extraction: ocr
           content_sha256: ce676b7be24a9e9f40e9596ed447132bffd5c794bd4a52cc88d3027b8f4b73a5
         - kind: section

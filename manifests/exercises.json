@@ -2770,7 +2770,7 @@
         {
           "chapter": "III",
           "title": "LIE GROUPS",
-          "total": 113,
+          "total": 127,
           "sections": [
             {
               "section": 1,
@@ -2838,18 +2838,18 @@
               "section": 9,
               "label": "lie-iii-s9",
               "dir": "s9",
-              "count": 29,
+              "count": 42,
               "first": 1,
-              "last": 29,
-              "starred": 7
+              "last": 42,
+              "starred": 9
             },
             {
               "section": 10,
               "label": "lie-iii-s10",
               "dir": "s10",
-              "count": 3,
+              "count": 4,
               "first": 1,
-              "last": 3
+              "last": 4
             }
           ]
         }
@@ -2861,7 +2861,7 @@
         {
           "chapter": "IV",
           "title": "POLYNOMIALS AND RATIONAL FRACTIONS",
-          "total": 53,
+          "total": 56,
           "sections": [
             {
               "section": 1,
@@ -2910,9 +2910,9 @@
               "section": 6,
               "label": "alg-iv-s6",
               "dir": "s6",
-              "count": 12,
+              "count": 15,
               "first": 1,
-              "last": 12,
+              "last": 15,
               "starred": 1,
               "supplementary": 1
             }
@@ -3325,15 +3325,15 @@
         {
           "chapter": "II",
           "title": "PRIMITIVES AND INTEGRALS",
-          "total": 29,
+          "total": 42,
           "sections": [
             {
               "section": 1,
               "label": "fvr-ii-s1",
               "dir": "s1",
-              "count": 10,
+              "count": 23,
               "first": 1,
-              "last": 10,
+              "last": 23,
               "supplementary": 2
             },
             {
@@ -3513,7 +3513,7 @@
         {
           "chapter": "II",
           "title": "ALGÈBRES DE LIE LIBRES",
-          "total": 62,
+          "total": 75,
           "sections": [
             {
               "section": 1,
@@ -3546,10 +3546,10 @@
               "section": 4,
               "label": "lie-ii-s4",
               "dir": "s4",
-              "count": 5,
+              "count": 18,
               "first": 1,
-              "last": 5,
-              "starred": 1
+              "last": 18,
+              "starred": 5
             },
             {
               "section": 5,
@@ -3600,7 +3600,7 @@
         {
           "chapter": "III",
           "title": "GROUPES DE LIE",
-          "total": 101,
+          "total": 127,
           "sections": [
             {
               "section": 1,
@@ -3668,10 +3668,10 @@
               "section": 9,
               "label": "lie-iii-s9",
               "dir": "s9",
-              "count": 16,
+              "count": 42,
               "first": 1,
-              "last": 16,
-              "starred": 2
+              "last": 42,
+              "starred": 9
             },
             {
               "section": 10,
@@ -4667,16 +4667,16 @@
         {
           "chapter": "IV",
           "title": "Groupes de Coxeter et systèmes de Tits",
-          "total": 41,
+          "total": 55,
           "sections": [
             {
               "section": 1,
               "label": "lie-iv-s1",
               "dir": "s1",
-              "count": 12,
+              "count": 26,
               "first": 1,
-              "last": 12,
-              "supplementary": 1
+              "last": 26,
+              "supplementary": 2
             },
             {
               "section": 2,
@@ -5330,7 +5330,7 @@
         {
           "chapter": "IX",
           "title": "Use of real numbers in general topology",
-          "total": 109,
+          "total": 143,
           "sections": [
             {
               "section": 1,
@@ -5345,10 +5345,10 @@
               "section": 2,
               "label": "top-ix-s2",
               "dir": "s2",
-              "count": 9,
+              "count": 25,
               "first": 1,
-              "last": 9,
-              "starred": 3
+              "last": 25,
+              "starred": 11
             },
             {
               "section": 3,
@@ -5382,9 +5382,11 @@
               "section": 6,
               "label": "top-ix-s6",
               "dir": "s6",
-              "count": 1,
+              "count": 19,
               "first": 1,
-              "last": 1
+              "last": 19,
+              "starred": 6,
+              "supplementary": 2
             },
             {
               "section": 0,
@@ -5401,7 +5403,7 @@
         {
           "chapter": "X",
           "title": "Function spaces",
-          "total": 63,
+          "total": 82,
           "sections": [
             {
               "section": 1,
@@ -5425,9 +5427,10 @@
               "section": 3,
               "label": "top-x-s3",
               "dir": "s3",
-              "count": 10,
+              "count": 29,
               "first": 1,
-              "last": 10
+              "last": 29,
+              "starred": 8
             },
             {
               "section": 4,
@@ -6409,16 +6412,16 @@
         {
           "chapter": "III",
           "title": "Mesures sur les espaces localement compacts",
-          "total": 14,
+          "total": 29,
           "sections": [
             {
               "section": 1,
               "label": "int-iii-s1",
               "dir": "s1",
-              "count": 3,
+              "count": 18,
               "first": 1,
-              "last": 3,
-              "starred": 1
+              "last": 18,
+              "starred": 4
             },
             {
               "section": 2,
@@ -6451,7 +6454,7 @@
         {
           "chapter": "IV",
           "title": "Prolongement d'une mesure. Espaces $L^p$",
-          "total": 65,
+          "total": 94,
           "sections": [
             {
               "section": 1,
@@ -6474,9 +6477,10 @@
               "section": 4,
               "label": "int-iv-s4",
               "dir": "s4",
-              "count": 3,
+              "count": 23,
               "first": 1,
-              "last": 3
+              "last": 23,
+              "starred": 10
             },
             {
               "section": 5,
@@ -6500,9 +6504,10 @@
               "section": 7,
               "label": "int-iv-s7",
               "dir": "s7",
-              "count": 1,
+              "count": 10,
               "first": 1,
-              "last": 1
+              "last": 10,
+              "starred": 9
             }
           ]
         }

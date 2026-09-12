@@ -35,7 +35,7 @@ subsections:
       page: 0
       pdf_page: 42
 statements: 12
-exercises: 5
+exercises: 18
 content_sha256: 485c05cc673dad0ee62809c94d7ee0487cdd3a011ae327369feaabbdf7643440
 ---
 
