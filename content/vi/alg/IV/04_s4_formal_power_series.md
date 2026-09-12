@@ -56,7 +56,7 @@ statements: 23
 exercises: 8
 content_sha256: da77df191971c2a2c6d2ca2e9ca1ac50f25e1b8215d7ee9b1e3eb60cd3a721bf
 translated_from: content/en/alg/IV/04_s4_formal_power_series.md
-source_content_sha256: ed35587a155fb15e501a74eae948a900accc935d0e586e804f6eb09239b179a3
+source_content_sha256: 3e65a198739aa70d4a584dbce56538868203828bb1215af894a6ac9c2b0d0051
 translation_model: gpt-5.4
 translation_run: translate-vi-1e020711
 glossary_version: 34
