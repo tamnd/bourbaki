@@ -5342,7 +5342,7 @@
         {
           "chapter": "IX",
           "title": "Use of real numbers in general topology",
-          "total": 143,
+          "total": 147,
           "sections": [
             {
               "section": 1,
@@ -5366,10 +5366,10 @@
               "section": 3,
               "label": "top-ix-s3",
               "dir": "s3",
-              "count": 9,
+              "count": 13,
               "first": 1,
-              "last": 9,
-              "starred": 1,
+              "last": 13,
+              "starred": 4,
               "supplementary": 1
             },
             {
@@ -6434,7 +6434,7 @@
         {
           "chapter": "III",
           "title": "Mesures sur les espaces localement compacts",
-          "total": 29,
+          "total": 35,
           "sections": [
             {
               "section": 1,
@@ -6466,10 +6466,10 @@
               "section": 4,
               "label": "int-iii-s4",
               "dir": "s4",
-              "count": 2,
+              "count": 8,
               "first": 1,
-              "last": 2,
-              "starred": 1
+              "last": 8,
+              "starred": 3
             }
           ]
         },
