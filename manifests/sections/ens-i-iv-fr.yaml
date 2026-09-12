@@ -241,11 +241,11 @@ chapters:
           path: content/fr/ens/III/03_s3_ensembles_equipotents_cardinaux.md
           label: ens-iii-s3
           first_pdf_page: 127
-          last_pdf_page: 183
-          book_pages: E III.23-E III.30, E III.79
+          last_pdf_page: 184
+          book_pages: E III.23-E III.30, E III.79-E III.80
           subsections: 6
           statements: 32
-          exercises: 1
+          exercises: 6
           extraction: ocr
           content_sha256: 8b6a8facedddabb20d69e280a1e60838d1e968ca0b86c3ced3178badf40a938d
         - kind: section
@@ -260,7 +260,7 @@ chapters:
           statements: 16
           exercises: 11
           extraction: ocr
-          content_sha256: 2c34b488c91ced5ad82a9f1e393ed724d173ecb87b96361d4d38bb79eb1ee422
+          content_sha256: e4cb1c0f59e216b1e2bf508d5c5536fa1040ed140f5aa74885fc51851e6bb0c4
         - kind: section
           section: 5
           title: Calcul sur les entiers

@@ -7841,7 +7841,7 @@
         {
           "chapter": "III",
           "title": "ENSEMBLES ORDONNÉS, CARDINAUX, NOMBRES ENTIERS",
-          "total": 116,
+          "total": 121,
           "sections": [
             {
               "section": 1,
@@ -7867,10 +7867,10 @@
               "section": 3,
               "label": "ens-iii-s3",
               "dir": "s3",
-              "count": 1,
+              "count": 6,
               "first": 1,
-              "last": 1,
-              "starred": 1
+              "last": 6,
+              "starred": 2
             },
             {
               "section": 4,

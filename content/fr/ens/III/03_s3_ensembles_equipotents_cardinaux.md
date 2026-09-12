@@ -8,8 +8,8 @@ section_title: Ensembles équipotents. Cardinaux
 lang: fr
 source: ens-i-iv-fr
 source_edition: 2006, Springer
-book_pages: E III.23-E III.30, E III.79
-pdf_pages: 0127-0134, 0183-0183
+book_pages: E III.23-E III.30, E III.79-E III.80
+pdf_pages: 0127-0134, 0183-0184
 extraction: ocr
 subsections:
     - "no": 1
@@ -37,7 +37,7 @@ subsections:
       page: 29
       pdf_page: 133
 statements: 32
-exercises: 1
+exercises: 6
 content_sha256: 8b6a8facedddabb20d69e280a1e60838d1e968ca0b86c3ced3178badf40a938d
 ---
 

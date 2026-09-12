@@ -34,7 +34,7 @@ subsections:
       pdf_page: 138
 statements: 16
 exercises: 11
-content_sha256: 2c34b488c91ced5ad82a9f1e393ed724d173ecb87b96361d4d38bb79eb1ee422
+content_sha256: e4cb1c0f59e216b1e2bf508d5c5536fa1040ed140f5aa74885fc51851e6bb0c4
 ---
 
 ## § 4. ENTIERS NATURELS. ENSEMBLES FINIS
@@ -220,30 +220,5 @@ Tout ensemble $\mathfrak{S}$ de parties d’un ensemble E, de caractère fini, a
 En vertu du th. 2 de III, p. 20, il suffit de prouver que $\mathfrak{S}$ est inductif; pour cela, nous montrerons que, pour toute partie $\mathfrak{G}$ de $\mathfrak{S}$, totalement ordonnée par inclusion, la réunion X des ensembles de $\mathfrak{G}$ appartient à $\mathfrak{S}$ (III, p. 21, cor. 2). Comme $\mathfrak{S}$ est de caractère fini, il suffit d’établir que toute partie finie Y de X appartient à $\mathfrak{S}$. Or, pour tout $y \in Y$, il existe un ensemble $Z_y \in \mathfrak{G}$ tel que $y \in Z_y$; comme l’ensemble des $Z_y$ ($y \in Y$) est fini et totalement ordonné par inclusion, il admet un plus grand élément S (III, p. 34, cor. 1); autrement dit, il existe un ensemble $S \in \mathfrak{G}$ tel que $Y \subset S$. Mais comme $S \in \mathfrak{S}$ et que Y est une partie finie de S, on a $Y \in \mathfrak{S}$, puisque $\mathfrak{S}$ est de caractère fini, et ceci achève la démonstration.
 
 ## EXERCICES {#ens-iii-s4-exercises}
-
-F telles que B' = F - A', de sorte que l'on ait A' = f(A) et B = g(B'). (Soit R = E - g(F), et posons h = g o f; prendre pour A l'intersection des parties M de E telle que M ⊃ R ∪ h(M).)
-
-2) Si E et F sont des ensembles distincts, montrer que E^F ≠ F^E. En déduire que, si E et F sont les cardinaux 2 et 4 = 2 + 2, l'un au moins des ensembles E^F, F^E n'est pas un cardinal.
-
-§ 3) Soient (a_t)_{t \in I}, (b_t)_{t \in I} deux familles de cardinaux, telles que b_t ≥ 2 pour tout t ∈ I.
-a) Montrer que si a_t ≤ b_t pour tout t ∈ I, on a
-$$
-\sum_{t \in I} a_t \leq \prod_{t \in I} b_t.
-$$
-b) Montrer que si a_t < b_t pour tout t ∈ I, on a
-$$
-\sum_{t \in I} a_t < \prod_{t \in I} b_t.
-$$
-(Remarquer qu'un produit $\prod_{t \in I} E_t$ ne peut être réunion d'une famille $(A_t)_{t \in I}$ telle que Card(A_t) < Card(E_t) pour tout t ∈ I, en observant que l'on a Card(pr_t(A_t)) < Card(E_t)).
-
-4) Soient E un ensemble, f une application de $\mathfrak{P}(E) - \{ \varnothing \}$ dans E telle que, pour toute partie X ≠ $\varnothing$ de E, on ait f(X) ∈ X (« fonction de choix »).
-a) Soit b un cardinal, et soit A l'ensemble des x ∈ E tels que Card(f(x)) ≤ b. Montrer que si a = Card(A), on a 2^a ≤ 1 + ab (remarquer que si Y ⊂ A et Y ≠ $\varnothing$, on a f(Y) ∈ A).
-b) Soit B l'ensemble des x ∈ E tels que pour toute partie X ≠ $\varnothing$ de E appartenant à $f^{-1}(x)$, on ait Card(X) ≤ b. Montrer que Card(B) ≤ b.
-
-5) Soit $(\lambda_t)_{t \in I}$ une famille de types d'ordre (III, p.76, exerc. 13), I étant un ensemble ordonné. Montrer que Card $\left( \sum_{t \in I} \lambda_t \right) = \sum_{t \in I} \mathrm{Card}(\lambda_t)$ et (si I est bien ordonné) Card $\left( \prod_{t \in I} \lambda_t \right) = \prod_{t \in I} \mathrm{Card}(\lambda_t)$.
-
-6) Montrer que pour tout ensemble E, il existe X ⊂ E tel que X $\notin$ E (utiliser III, p. 20, th. 2).
-
-- § 4
 
 See the [exercises for § 4](exercises/s4/).
