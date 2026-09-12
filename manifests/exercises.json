@@ -6294,7 +6294,7 @@
         {
           "chapter": "X",
           "title": "ALGÈBRE HOMOLOGIQUE",
-          "total": 169,
+          "total": 175,
           "sections": [
             {
               "section": 1,
@@ -6310,20 +6310,21 @@
               "section": 2,
               "label": "alg-x-s2",
               "dir": "s2",
-              "count": 18,
+              "count": 22,
               "first": 1,
-              "last": 18,
-              "starred": 1
+              "last": 22,
+              "starred": 2,
+              "supplementary": 1
             },
             {
               "section": 3,
               "label": "alg-x-s3",
               "dir": "s3",
-              "count": 19,
+              "count": 21,
               "first": 1,
-              "last": 19,
-              "starred": 1,
-              "supplementary": 2
+              "last": 21,
+              "starred": 2,
+              "supplementary": 3
             },
             {
               "section": 4,

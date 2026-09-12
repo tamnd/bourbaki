@@ -48,7 +48,7 @@ chapters:
           book_pages: A X.23-A X.46, A X.173-A X.178
           subsections: 10
           statements: 59
-          exercises: 18
+          exercises: 22
           extraction: ocr
           content_sha256: 430152bcc98fc2931ac47eba9dc6e194f4feee804d0e32a7b37bca5016da5f06
         - kind: section
@@ -61,7 +61,7 @@ chapters:
           book_pages: A X.46-A X.61, A X.178-A X.184
           subsections: 9
           statements: 29
-          exercises: 19
+          exercises: 21
           extraction: ocr
           content_sha256: 78ca3fd785b2b1360a93f67d9c559b085dcd26f276ad74007f29b76e87929cb9
         - kind: section
