@@ -1026,6 +1026,9 @@ chapters:
               title: Factoriality of rings of formal power series
               page: 511
               pdf_page: 529
+          exercises:
+            page: 563
+            pdf_page: 581
         - section: 4
           title: Modules over integrally closed Noetherian domains
           page: 512

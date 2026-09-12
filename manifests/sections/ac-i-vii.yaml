@@ -529,11 +529,11 @@ chapters:
           path: content/en/ac/VII/02_s2_dedekind_domains.md
           label: ac-vii-s2
           first_pdf_page: 511
-          last_pdf_page: 589
-          book_pages: 493-502, 556-571
+          last_pdf_page: 581
+          book_pages: 493-502, 556-563
           subsections: 5
           statements: 15
-          exercises: 27
+          exercises: 22
           extraction: ocr
           content_sha256: 48505af329aa8f7c397057bf19cbe8b89d76984c0ee19147a5591880aa4eaac3
         - kind: section
@@ -542,13 +542,13 @@ chapters:
           path: content/en/ac/VII/03_s3_factorial_domains.md
           label: ac-vii-s3
           first_pdf_page: 520
-          last_pdf_page: 530
-          book_pages: 502-512
+          last_pdf_page: 589
+          book_pages: 502-512, 563-571
           subsections: 9
           statements: 19
-          exercises: 0
+          exercises: 27
           extraction: ocr
-          content_sha256: bc2182508bf62fc103152e4d37640a9f7378fda6a660ef2c9aebfd20d6b3c750
+          content_sha256: e5b7bb75a46cde803f59427d5006486454f2835ef0e660512df9baef2fc8317e
         - kind: section
           section: 4
           title: Modules over integrally closed Noetherian domains

@@ -7,8 +7,8 @@ section: 3
 section_title: Factorial domains
 lang: en
 source: ac-i-vii
-book_pages: 502-512
-pdf_pages: 0520-0530
+book_pages: 502-512, 563-571
+pdf_pages: 0520-0530, 0581-0589
 extraction: ocr
 subsections:
     - "no": 1
@@ -48,8 +48,8 @@ subsections:
       page: 511
       pdf_page: 529
 statements: 19
-exercises: 0
-content_sha256: bc2182508bf62fc103152e4d37640a9f7378fda6a660ef2c9aebfd20d6b3c750
+exercises: 27
+content_sha256: e5b7bb75a46cde803f59427d5006486454f2835ef0e660512df9baef2fc8317e
 ---
 
 ## 3. FACTORIAL DOMAINS
@@ -367,3 +367,7 @@ In what follows, all the elements of B will be considered as formal power series
 Remarks
 (1) There exist factorial rings $\mathbf{A}$ such that the ring $\mathbf{A}[[X]]$ is not factorial (Exercise 8). However, if $\mathbf{A}$ is a principal ideal domain, $\mathbf{A}[[X_1, \ldots, X_n]]$ is factorial (Exercise 9).
 (2) \* We shall see later, by homological methods, that every regular local ring is factorial (cf. § 4, no. 7, Corollary 3 to Proposition 16). This will give another proof, conceptually simpler, of Proposition 8. \*
+
+### Exercises {#ac-vii-s3-exercises}
+
+See the [exercises for § 3](exercises/s3/).

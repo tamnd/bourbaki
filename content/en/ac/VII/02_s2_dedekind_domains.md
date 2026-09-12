@@ -7,8 +7,8 @@ section: 2
 section_title: Dedekind domains
 lang: en
 source: ac-i-vii
-book_pages: 493-502, 556-571
-pdf_pages: 0511-0520, 0574-0589
+book_pages: 493-502, 556-563
+pdf_pages: 0511-0520, 0574-0581
 extraction: ocr
 subsections:
     - "no": 1
@@ -32,7 +32,7 @@ subsections:
       page: 499
       pdf_page: 517
 statements: 15
-exercises: 27
+exercises: 22
 content_sha256: 48505af329aa8f7c397057bf19cbe8b89d76984c0ee19147a5591880aa4eaac3
 ---
 

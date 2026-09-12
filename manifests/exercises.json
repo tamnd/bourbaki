@@ -5150,7 +5150,7 @@
         {
           "chapter": "VII",
           "title": "DIVISORS",
-          "total": 85,
+          "total": 107,
           "sections": [
             {
               "section": 1,
@@ -5165,10 +5165,19 @@
               "section": 2,
               "label": "ac-vii-s2",
               "dir": "s2",
+              "count": 22,
+              "first": 1,
+              "last": 22,
+              "starred": 9
+            },
+            {
+              "section": 3,
+              "label": "ac-vii-s3",
+              "dir": "s3",
               "count": 27,
               "first": 1,
               "last": 27,
-              "starred": 12
+              "starred": 10
             },
             {
               "section": 4,
