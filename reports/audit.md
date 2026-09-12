@@ -14,15 +14,15 @@ Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 
 | --- | ---: | ---: | ---: | --- |
 | structure | 13 | 2 | 0 | S11 (433), S14 (686), S15 (68) |
 | tags | 7 | 1 | 1 | T03 (23311), T10 (9) |
-| mathematics | 10 | 6 | 0 | M03 (2), M06 (6), M13 (48), M14 (2650), M16 (1) |
+| mathematics | 12 | 6 | 0 | M03 (2), M06 (6), M13 (48), M14 (2650), M16 (1) |
 | figures | 6 | 0 | 0 | F01 (158) |
 | references | 3 | 0 | 0 | R01 (3358), R02 (476) |
 | translation | 13 | 3 | 1 | L01 (1365), L03 (14), L04 (10), L05 (276), L06 (2017), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | none |
-| hygiene | 7 | 0 | 0 | none |
+| hygiene | 7 | 0 | 0 | H06 (1) |
 
-29853 hard findings and 11188 soft, over 78 rules that ran and 2 that could not.
+29854 hard findings and 11188 soft, over 80 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -64,6 +64,12 @@ Hard, figures.
 - `content/en/lie/V/exercises/s4/17.md:15` references content/en/lie/V/exercises/images/coxeter_graphs_1.png and there is no such file
 
 and 133 more, which `bourbaki audit -only F01` prints in full.
+
+## H06 the README coverage table is the one the corpus has (1)
+
+Hard, hygiene.
+
+- `README.md` the RULES block is not what the corpus says, run bourbaki report readme -write
 
 ## M03 no character stranded out of its TeX (2)
 
