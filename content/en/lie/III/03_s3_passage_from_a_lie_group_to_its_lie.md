@@ -85,7 +85,7 @@ subsections:
       pdf_page: 294
 statements: 111
 exercises: 9
-content_sha256: adf4fba04d45cc2376a26e20f76cca0077b71e682209d0389d1b246d0e3482df
+content_sha256: 0230f525d7253b5ffaede62c1e152c9b74663cfda4e1d3e708fce76a3443853e
 ---
 
 ## § 3. PASSAGE FROM A LIE GROUP TO ITS LIE ALGEBRA
@@ -1567,13 +1567,13 @@ $$
 \phi^*(\omega) = (\det L(\phi)) \omega.
 $$
 
-We write $L(\phi) = u$, $w_e = f$ and $\phi^*(\omega)_e = g$. For all $x_1, \ldots, x_n$ in $L(G)$,
+We write $L(\phi) = u$, $\omega_e = f$ and $\phi^*(\omega)_e = g$. For all $x_1, \ldots, x_n$ in $L(G)$,
 
 $$
 g(x_1, \ldots, x_n) = f(ux_1, \ldots, ux_n) = (\det u)f(x_1, \ldots, x_n)
 $$
 
-and hence $\phi^*(\omega)_e = \det L(\phi) \cdot w_e$. On the other hand, if $g \in G$,
+and hence $\phi^*(\omega)_e = \det L(\phi) \cdot \omega_e$. On the other hand, if $g \in G$,
 
 $$
 \phi \circ \gamma(g) = \gamma(\phi(g)) \circ \phi

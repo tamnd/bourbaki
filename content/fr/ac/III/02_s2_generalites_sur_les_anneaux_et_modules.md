@@ -64,7 +64,7 @@ subsections:
       pdf_page: 228
 statements: 68
 exercises: 31
-content_sha256: 8c639ea9c1ac7514ead37d3d9c867cb85ae94a3984bb927941e076605c014a81
+content_sha256: 244393c84629694f8e1e2de9556f3a4d82a8216a05154ac4e7c886fe749e6836
 ---
 
 ## § 2. Généralités sur les anneaux et modules filtrés.
@@ -148,7 +148,7 @@ Si E' est un second A-module filtré, la filtration produit sur E × E' est comp
 
 ### 2. Fonction d’ordre.
 
-Soient A un anneau filtré, E un A-module filtré, (E_n) la filtration de E. Pour tout x ∈ E, on désigne par υ(x) la borne supérieure dans \overline{\mathbf{R}} de l’ensemble des entiers n ∈ \mathbf{Z} tels que x ∈ E_n. On a donc les équivalences suivantes :
+Soient A un anneau filtré, E un A-module filtré, (E_n) la filtration de E. Pour tout x ∈ E, on désigne par v(x) la borne supérieure dans \overline{\mathbf{R}} de l’ensemble des entiers n ∈ \mathbf{Z} tels que x ∈ E_n. On a donc les équivalences suivantes :
 
 $$
 \begin{cases}
@@ -158,13 +158,13 @@ v(x) = +\infty & \Leftrightarrow \quad x \in \bigcap_{n \in \mathbf{Z}} E_n
 \end{cases}
 $$
 
-On dit que l’application υ : E → \overline{\mathbf{R}} est la fonction d’ordre du module filtré E. La connaissance de υ entraîne celle des E_n, car E_n est l’ensemble des x ∈ E tels que υ(x) ≥ n ; le fait que les E_n sont des sous-groupes additifs de E se traduit par la relation
+On dit que l’application v : E → \overline{\mathbf{R}} est la fonction d’ordre du module filtré E. La connaissance de v entraîne celle des E_n, car E_n est l’ensemble des x ∈ E tels que v(x) ≥ n ; le fait que les E_n sont des sous-groupes additifs de E se traduit par la relation
 
 $$
 v(x - y) \geq \inf (v(x), v(y)).
 $$
 
-La définition précédente s’applique en particulier au A-module filtré A_s ; soit ω sa fonction d’ordre. Il résulte de la formule (3) du n° 1 que pour a ∈ A et x ∈ E, on a
+La définition précédente s’applique en particulier au A-module filtré A_s ; soit w sa fonction d’ordre. Il résulte de la formule (3) du n° 1 que pour a ∈ A et x ∈ E, on a
 
 $$
 v(ax) \geq w(a) + v(x)
@@ -180,7 +180,7 @@ lorsque le second membre est défini.
 
 On définit de la même manière la fonction d’ordre sur un groupe filtré G non nécessairement commutatif ; la relation correspondant à (5) s’écrit alors
 
-(5') $\nu(yx^{-1}) = \nu(xy^{-1}) \geq \inf (\nu(x), \nu(y)).$
+(5') $v(yx^{-1}) = v(xy^{-1}) \geq \inf (v(x), v(y)).$
 
 ### 3. Module gradué associé à un module filtré.
 

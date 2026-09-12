@@ -87,7 +87,7 @@ statements: 111
 exercises: 9
 content_sha256: a2e8ffa895608548ad93fbb074532696638f5284e8ec8db160fcda4a3d6f4735
 translated_from: content/en/lie/III/03_s3_passage_from_a_lie_group_to_its_lie.md
-source_content_sha256: adf4fba04d45cc2376a26e20f76cca0077b71e682209d0389d1b246d0e3482df
+source_content_sha256: 0230f525d7253b5ffaede62c1e152c9b74663cfda4e1d3e708fce76a3443853e
 translation_model: gpt-5.4, gpt-5-6-mini, gpt-5-6, gpt-5-mini, gpt-5.4-mini
 translation_run: translate-vi-36d03b2e
 glossary_version: 34
@@ -1570,13 +1570,13 @@ $$
 \phi^*(\omega) = (\det L(\phi)) \omega.
 $$
 
-Ta viết $L(\phi) = u$, $w_e = f$ và $\phi^*(\omega)_e = g$. Với mọi $x_1, \ldots, x_n$ trong $L(G)$,
+Ta viết $L(\phi) = u$, $\omega_e = f$ và $\phi^*(\omega)_e = g$. Với mọi $x_1, \ldots, x_n$ trong $L(G)$,
 
 $$
 g(x_1, \ldots, x_n) = f(ux_1, \ldots, ux_n) = (\det u)f(x_1, \ldots, x_n)
 $$
 
-và do đó $\phi^*(\omega)_e = \det L(\phi) \cdot w_e$. Mặt khác, nếu $g \in G$,
+và do đó $\phi^*(\omega)_e = \det L(\phi) \cdot \omega_e$. Mặt khác, nếu $g \in G$,
 
 $$
 \phi \circ \gamma(g) = \gamma(\phi(g)) \circ \phi

@@ -298,7 +298,7 @@ chapters:
           statements: 111
           exercises: 9
           extraction: ocr
-          content_sha256: adf4fba04d45cc2376a26e20f76cca0077b71e682209d0389d1b246d0e3482df
+          content_sha256: 0230f525d7253b5ffaede62c1e152c9b74663cfda4e1d3e708fce76a3443853e
         - kind: section
           section: 4
           title: Passage from Lie algebras to Lie groups

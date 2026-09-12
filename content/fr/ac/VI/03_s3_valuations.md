@@ -36,7 +36,7 @@ subsections:
       pdf_page: 104
 statements: 23
 exercises: 8
-content_sha256: 2195e3c9564867ffcf7e8c22e52ff5fa1593e602d2c64e42ddf9a017d2388f74
+content_sha256: f6903c0d9f0055e3c6e4b8ab0eaa2cbea6b28a04ecbbe62742dbc07551bf525f
 ---
 
 ## § 3. Valuations.
@@ -181,11 +181,11 @@ Si K est un sous-corps d’un corps K’, la restriction à K d’une valuation 
 
 #### Exemple 3 {#ac-vi-s3-n4-exa-3 .statement}
 
-Soient k un corps, et K = k((T)). L’application υ qui, à toute série formelle non nulle, fait correspondre son ordre (Alg., chap. IV, § 5, no 7), est une valuation de K dont le groupe des ordres est Z, et l’anneau k[[T]]. La place associée est l’homomorphisme canonique f : k[[T]] → k, prolongé à k((T)) en posant f(u) = ∞ si u ∉ k[[T]].
+Soient k un corps, et K = k((T)). L’application v qui, à toute série formelle non nulle, fait correspondre son ordre (Alg., chap. IV, § 5, no 7), est une valuation de K dont le groupe des ordres est Z, et l’anneau k[[T]]. La place associée est l’homomorphisme canonique f : k[[T]] → k, prolongé à k((T)) en posant f(u) = ∞ si u ∉ k[[T]].
 
 #### Exemple 4 {#ac-vi-s3-n4-exa-4 .statement}
 
-Soient A un anneau principal, K son corps des fractions, et p un élément extrémal de A. Pour x ∈ K*, notons υ_p(x) l’exposant de p dans la décomposition de x en éléments extrémaux (Alg., chap. VII, § 1, no 3, th. 2); on voit aussitôt que υ_p est une valuation, dont le groupe des ordres est Z et l’anneau A_{A_p}. D’après la prop. 3 du § 1, no 4, on obtient ainsi, à une équivalence près, toutes les valuations non impropres de K qui sont positives sur A. Prenant A = Z, on retrouve les valuations p-adiques de Q (Top. Gén., chap. IX, § 3, no 2); ces valuations sont, à une équivalence près, les seules valuations non impropres de Q (§ 1, no 4, cor. 1 de la prop. 3). Prenant A = k[X], où k est un corps, les valuations non impropres de k(X) dont la restriction à k est impropre sont (à une équivalence près): d’une part les valuations υ_P où P parcourt l’ensemble des polynômes unitaires irréductibles de k[X], d’autre part la valuation υ définie par υ(P/Q) = deg(Q) − deg(P) pour P ∈ k[X] et Q ∈ k[X] (§ 1, no 4, cor. 2 de la prop. 3); toutes ces valuations ont évidemment Z pour groupe des ordres, et leurs corps résiduels sont des extensions algébriques monogènes de k (Alg., chap. V, § 3, no 1).
+Soient A un anneau principal, K son corps des fractions, et p un élément extrémal de A. Pour x ∈ K*, notons v_p(x) l’exposant de p dans la décomposition de x en éléments extrémaux (Alg., chap. VII, § 1, no 3, th. 2); on voit aussitôt que v_p est une valuation, dont le groupe des ordres est Z et l’anneau A_{A_p}. D’après la prop. 3 du § 1, no 4, on obtient ainsi, à une équivalence près, toutes les valuations non impropres de K qui sont positives sur A. Prenant A = Z, on retrouve les valuations p-adiques de Q (Top. Gén., chap. IX, § 3, no 2); ces valuations sont, à une équivalence près, les seules valuations non impropres de Q (§ 1, no 4, cor. 1 de la prop. 3). Prenant A = k[X], où k est un corps, les valuations non impropres de k(X) dont la restriction à k est impropre sont (à une équivalence près): d’une part les valuations v_P où P parcourt l’ensemble des polynômes unitaires irréductibles de k[X], d’autre part la valuation v définie par v(P/Q) = deg(Q) − deg(P) pour P ∈ k[X] et Q ∈ k[X] (§ 1, no 4, cor. 2 de la prop. 3); toutes ces valuations ont évidemment Z pour groupe des ordres, et leurs corps résiduels sont des extensions algébriques monogènes de k (Alg., chap. V, § 3, no 1).
 
 #### Exemple 5 {#ac-vi-s3-n4-exa-5 .statement}
 

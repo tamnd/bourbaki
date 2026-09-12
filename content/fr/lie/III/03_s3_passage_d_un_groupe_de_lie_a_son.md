@@ -84,7 +84,7 @@ subsections:
       pdf_page: 161
 statements: 112
 exercises: 9
-content_sha256: 7bc71839e5a39a3e080a982370004d2f834456f5d906f97729a7e8c31a6979fa
+content_sha256: a627bede88fcded7ef0135cd4b045427284610fb9c54b156413aae3dfa8d508a
 ---
 
 ## § 3. Passage d’un groupe de Lie à son algèbre de Lie
@@ -1611,10 +1611,10 @@ donc la proposition est vraie pour $u_1 * u_2$. Il suffit par conséquent de pro
 Soient $G$ un groupe de Lie réel de dimension finie, $\mu$ (resp. $\nu$) une mesure de Haar à gauche (resp. à droite) de G, k un entier $\geqslant 0$, $u \in U_k(G)$, f et g des fonctions réelles de classe $C^k$ sur G à support compact. Alors
 
 $$
-\int_G (R_u f) g \, d\mu = \int_G f(R_{u^*} g) \, d\mu
+\int_G (R_u f) g \, d\mu = \int_G f(R_u^\nu g) \, d\mu
 $$
 $$
-\int_G (L_u f) g \, dv = \int_G f(L_{u^*} g) \, dv.
+\int_G (L_u f) g \, d\nu = \int_G f(L_u^\nu g) \, d\nu.
 $$
 
 Cela résulte de la prop. 57, et de VAR, R, 14.3.8.

@@ -98,7 +98,7 @@ chapters:
           statements: 23
           exercises: 8
           extraction: ocr
-          content_sha256: 2195e3c9564867ffcf7e8c22e52ff5fa1593e602d2c64e42ddf9a017d2388f74
+          content_sha256: f6903c0d9f0055e3c6e4b8ab0eaa2cbea6b28a04ecbbe62742dbc07551bf525f
         - kind: section
           section: 4
           title: Hauteur d’une valuation
