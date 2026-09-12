@@ -88,7 +88,7 @@ chapters:
           statements: 55
           exercises: 18
           extraction: native
-          content_sha256: 3c3488ce5943c67177e2be2fab3c9bc4fb2011a659aa3ed2e8208cd74c595c9f
+          content_sha256: 87134a6d811548c0fc954da9b20e970f340cf45ab70d51fc1acbf50dd3186bbb
         - kind: section
           section: 5
           title: Algèbres de Banach commutatives régulières

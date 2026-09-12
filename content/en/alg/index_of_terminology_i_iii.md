@@ -14,7 +14,7 @@ pdf_pages: 0701-0733
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 798dec3fd1ed9b9c1f0fbfe98e89a12e45945bbe64dfa609da4478a88977f1e6
+content_sha256: 93529b6fd89e837bda6eafdd37a95d06a205bd69df411c9fe2b120a42587252a
 ---
 
 ## INDEX OF TERMINOLOGY
@@ -892,7 +892,7 @@ Origin: I, § 2, no. 1.
 Origin, choice of, in an affine space: II, § 9, no. 1.
 Orthogonal elements, sets: II, § 2, no. 3.
 Orthogonal family of projectors: II, § 1, no. 8.
-Orthogonal, submodule, to a subset of E (resp. E$^*$): II, § 2, no. 4.
+Orthogonal, submodule, to a subset of E (resp. $E^*$): II, § 2, no. 4.
 
 Parallel linear varieties: II, § 9, no. 3.
 Parallelogram: II, § 9, Exercise 1.

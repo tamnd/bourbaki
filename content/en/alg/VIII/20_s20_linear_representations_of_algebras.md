@@ -46,7 +46,7 @@ subsections:
       pdf_page: 405
 statements: 31
 exercises: 6
-content_sha256: 21c69879c69520e4304c8e59f7cf5de59d95e3feeda2214b3e1f184b31eb4b34
+content_sha256: f366c2c3ce31096fbcd7ad9041a4e06384cc60f8e5e5fd661e93b1a5434b90dc
 ---
 
 ## § 20. LINEAR REPRESENTATIONS OF ALGEBRAS
@@ -263,7 +263,7 @@ a) The set $\Theta^{ss}(A)$ consists of the coefficients of the finite-dimension
 
 b) For every $S\in \mathscr{S}_K$, the isotypical component of Θ(A) of type S is equal to $\Theta_S(A)$. The left A-module $\Theta^{ss}(A)$ is the direct sum of the submodules $\Theta_S(A)$, where S runs through $\mathscr{S}_K$.
 
-c) For every S in $\mathscr{S}_K$, the right A-module $S^*$ is simple, and $\Theta_S(A)$ is the isotypical component of type $S^*$ of the right A-module Θ(A). The mapping that sends S to cl(S$^*$) is a bijection from $\mathscr{S}_K$ to the set of classes of simple $A^o$-modules of finite dimension over K.
+c) For every S in $\mathscr{S}_K$, the right A-module $S^*$ is simple, and $\Theta_S(A)$ is the isotypical component of type $S^*$ of the right A-module Θ(A). The mapping that sends S to cl($S^*$) is a bijection from $\mathscr{S}_K$ to the set of classes of simple $A^o$-modules of finite dimension over K.
 
 d) Viewed as a right A-module, Θ(A) has socle $\Theta^{ss}(A)$.
 
@@ -273,7 +273,7 @@ For every S in $\mathscr{S}_K$, the isotypical component of Θ(A) of type S is g
 
 Let S be a simple A-module of finite dimension over K. Since the K-vector space S is not reduced to 0, the same holds for $S^*$. Let E be a submodule of the right A-module $S^*$; its orthogonal $E'$ in S is an A-submodule of S. Since S is simple, we have either $E'= 0$, in which case $E = S^*$, or $E'= S$, in which case E = 0. Hence $S^*$ is a simple right A-module.
 
-We have $\Theta (A^o) = \Theta (A)$ (VIII, p. 376); we identify right A-modules with left $A^o$-modules. Since every vector space of finite dimension over K is isomorphic to its bidual, the above proves that the mapping $S\mapsto$ cl(S$^*$) is a bijection from $\mathscr{S}_K$ to the set of classes of simple $A^o$-modules of finite dimension over K. Now, for S in $\mathscr{S}_K$, the isotypical component of $\Theta (A^o)$ of type $S^*$ is equal to $\Theta_{S^*}(A^o)$ by assertion b) applied to the algebra $A^o$, and we have $\Theta_{S^*}(A^o) = \Theta_S(A)$. Assertions c) and d) follow immediately.
+We have $\Theta (A^o) = \Theta (A)$ (VIII, p. 376); we identify right A-modules with left $A^o$-modules. Since every vector space of finite dimension over K is isomorphic to its bidual, the above proves that the mapping $S\mapsto$ cl($S^*$) is a bijection from $\mathscr{S}_K$ to the set of classes of simple $A^o$-modules of finite dimension over K. Now, for S in $\mathscr{S}_K$, the isotypical component of $\Theta (A^o)$ of type $S^*$ is equal to $\Theta_{S^*}(A^o)$ by assertion b) applied to the algebra $A^o$, and we have $\Theta_{S^*}(A^o) = \Theta_S(A)$. Assertions c) and d) follow immediately.
 
 #### Corollary 1 {#alg-viii-s20-thm-1-cor-1 .statement tag=00MO}
 

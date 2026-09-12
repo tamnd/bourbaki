@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: 3a934f2dfc3eb0cfb5192b3c936dde529e28389fc932fa49415435ea29558ce1
+content_sha256: 9b88499ec4cd1b75b385f04753440e80043e0341bcb3af756c5dd1b9f9bd76d6
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -882,7 +882,7 @@ $$
 \langle f|f'\rangle_G=|G|^{-2}\tau (f^*f') \tag{53}
 $$
 
-Let $(M, \pi )$ be a finite-dimensional linear representation of G. We endow the vector space M with the structure of a Hilbert space for which the endomorphisms $\pi (g)$ are unitary (Proposition 11). If we denote by $A^*$ the adjoint of a endomorphism A of M for this structure, then we have Tr(A$^*$) $=$ Tr(A). For every $g\in G$, we have $\pi (g^{-1}) =\pi (g)^*$, and therefore $\chi_{\pi}(g^{-1}) =\chi_{\pi}(g)$; in other words, we have $\chi_{\pi}=\chi^*_{\pi}$. The orthogonality relation for characters (VIII, p. 410, Proposition 4) then has the form
+Let $(M, \pi )$ be a finite-dimensional linear representation of G. We endow the vector space M with the structure of a Hilbert space for which the endomorphisms $\pi (g)$ are unitary (Proposition 11). If we denote by $A^*$ the adjoint of a endomorphism A of M for this structure, then we have Tr($A^*$) $=$ Tr(A). For every $g\in G$, we have $\pi (g^{-1}) =\pi (g)^*$, and therefore $\chi_{\pi}(g^{-1}) =\chi_{\pi}(g)$; in other words, we have $\chi_{\pi}=\chi^*_{\pi}$. The orthogonality relation for characters (VIII, p. 410, Proposition 4) then has the form
 
 $$
 \langle \chi_{\lambda}|\chi_\mu\rangle_G=\delta_{\lambda \mu} \tag{54}

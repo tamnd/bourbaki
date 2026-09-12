@@ -65,7 +65,7 @@ chapters:
           statements: 18
           exercises: 4
           extraction: native
-          content_sha256: 6ccb9b5f7ffcd786b5afdaf81ccab18f695f9b397ae110709debf0e21b1adfe3
+          content_sha256: 1839a11c4384fe28967cd541901f8ab98cc088922894403c4f8106b9bf54bee7
         - kind: section
           section: 5
           title: Decomposable linear Lie algebras
@@ -403,7 +403,7 @@ chapters:
           statements: 9
           exercises: 6
           extraction: native
-          content_sha256: 7146b47c4591798a6237702fc9df4724c46d7ba060e5bca3cd680259b2af702e
+          content_sha256: 6e2618147afc628c71099020ffa7e02b28b7fa041ad48e0d3fc7f7f992c4cf3b
         - kind: section
           section: 9
           title: Compact Lie groups operating on manifolds

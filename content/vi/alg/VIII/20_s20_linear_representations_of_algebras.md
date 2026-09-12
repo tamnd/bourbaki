@@ -46,9 +46,9 @@ subsections:
       pdf_page: 405
 statements: 31
 exercises: 6
-content_sha256: 3c407294fb7f9042c06b6c13092e38183294ded17790c45076ec277643069bcf
+content_sha256: 3372ec5c5a94d7859a42dbd5f26fc865e3628ed39a63fb31616503a971609d43
 translated_from: content/en/alg/VIII/20_s20_linear_representations_of_algebras.md
-source_content_sha256: 21c69879c69520e4304c8e59f7cf5de59d95e3feeda2214b3e1f184b31eb4b34
+source_content_sha256: f366c2c3ce31096fbcd7ad9041a4e06384cc60f8e5e5fd661e93b1a5434b90dc
 translation_model: gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-78153639
 glossary_version: 34
@@ -254,7 +254,7 @@ a) Tập $\Theta^{ss}(A)$ gồm các hệ số của các biểu diễn nửa đ
 
 b) Với mọi $S\in \mathscr{S}_K$, thành phần đẳng kiểu của Θ(A) kiểu S bằng $\Theta_S(A)$. A-môđun trái $\Theta^{ss}(A)$ là tổng trực tiếp của các môđun con $\Theta_S(A)$, khi S chạy qua $\mathscr{S}_K$.
 
-c) Với mọi S trong $\mathscr{S}_K$, A-môđun phải $S^*$ là đơn, và $\Theta_S(A)$ là thành phần đẳng kiểu kiểu $S^*$ của A-môđun phải Θ(A). Ánh xạ gửi S tới cl(S$^*$) là một song ánh từ $\mathscr{S}_K$ tới tập các lớp của các A$^o$-môđun đơn có số chiều hữu hạn trên K.
+c) Với mọi S trong $\mathscr{S}_K$, A-môđun phải $S^*$ là đơn, và $\Theta_S(A)$ là thành phần đẳng kiểu kiểu $S^*$ của A-môđun phải Θ(A). Ánh xạ gửi S tới cl($S^*$) là một song ánh từ $\mathscr{S}_K$ tới tập các lớp của các A$^o$-môđun đơn có số chiều hữu hạn trên K.
 
 d) Xét như một A-môđun phải, Θ(A) có đế là $\Theta^{ss}(A)$.
 
@@ -264,7 +264,7 @@ Với mọi S trong $\mathscr{S}_K$, thành phần đẳng kiểu của Θ(A) ki
 
 Cho S là một A-môđun đơn có số chiều hữu hạn trên K. Vì không gian vectơ trên K S không bị rút về 0, nên điều đó cũng đúng với $S^*$. Cho E là một môđun con của A-môđun phải $S^*$; phần trực giao $E'$ của nó trong S là một A-môđun con của S. Vì S đơn, ta có hoặc $E'= 0$, trong trường hợp đó $E = S^*$, hoặc $E'= S$, trong trường hợp đó E = 0. Do đó $S^*$ là một A-môđun phải đơn.
 
-Ta có $\Theta (A^o) = \Theta (A)$ (VIII, p. 376); ta đồng nhất các A-môđun phải với các $A^o$-môđun trái. Vì mọi không gian vectơ có số chiều hữu hạn trên K đều đẳng cấu với song đối của nó, điều trên chứng minh rằng ánh xạ $S\mapsto$ cl(S$^*$) là một song ánh từ $\mathscr{S}_K$ lên tập hợp của các lớp của các $A^o$-môđun đơn có số chiều hữu hạn trên K. Bây giờ, với S trong $\mathscr{S}_K$, thành phần đẳng kiểu của $\Theta (A^o)$ kiểu $S^*$ bằng $\Theta_{S^*}(A^o)$ theo mệnh đề b) áp dụng cho đại số $A^o$, và ta có $\Theta_{S^*}(A^o) = \Theta_S(A)$. Các mệnh đề c) và d) suy ra ngay lập tức.
+Ta có $\Theta (A^o) = \Theta (A)$ (VIII, p. 376); ta đồng nhất các A-môđun phải với các $A^o$-môđun trái. Vì mọi không gian vectơ có số chiều hữu hạn trên K đều đẳng cấu với song đối của nó, điều trên chứng minh rằng ánh xạ $S\mapsto$ cl($S^*$) là một song ánh từ $\mathscr{S}_K$ lên tập hợp của các lớp của các $A^o$-môđun đơn có số chiều hữu hạn trên K. Bây giờ, với S trong $\mathscr{S}_K$, thành phần đẳng kiểu của $\Theta (A^o)$ kiểu $S^*$ bằng $\Theta_{S^*}(A^o)$ theo mệnh đề b) áp dụng cho đại số $A^o$, và ta có $\Theta_{S^*}(A^o) = \Theta_S(A)$. Các mệnh đề c) và d) suy ra ngay lập tức.
 
 #### Hệ quả 1 {#alg-viii-s20-thm-1-cor-1 .statement tag=00MO}
 

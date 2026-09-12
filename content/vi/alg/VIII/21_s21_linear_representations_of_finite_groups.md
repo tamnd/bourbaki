@@ -66,9 +66,9 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: 4de439214ef3e9613d41f83931f1adb62a42fb3cbcc2eb2a35ab3ccf32c7d172
+content_sha256: 560a46dbd3e932b222ebad58590e5a5bd20d638a1d5c0ea8e73abea04936f803
 translated_from: content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md
-source_content_sha256: 3a934f2dfc3eb0cfb5192b3c936dde529e28389fc932fa49415435ea29558ce1
+source_content_sha256: 9b88499ec4cd1b75b385f04753440e80043e0341bcb3af756c5dd1b9f9bd76d6
 translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5.4, gpt-5-6
 translation_run: translate-vi-ecba1889
 glossary_version: 34
@@ -889,7 +889,7 @@ $$
 \langle f|f'\rangle_G=|G|^{-2}\tau (f^*f') \tag{53}
 $$
 
-Cho $(M, \pi )$ là một biểu diễn tuyến tính hữu hạn chiều của G. Ta trang bị cho không gian vectơ M cấu trúc của một không gian Hilbert sao cho các tự đồng cấu $\pi (g)$ là unita (Mệnh đề 11). Nếu ta ký hiệu $A^*$ là tự đồng cấu liên hợp của một tự đồng cấu A của M đối với cấu trúc này, thì ta có Tr(A$^*$) $=$ Tr(A). Với mọi $g\in G$, ta có $\pi (g^{-1}) =\pi (g)^*$, và do đó $\chi_{\pi}(g^{-1}) =\chi_{\pi}(g)$; nói cách khác, ta có $\chi_{\pi}=\chi^*_{\pi}$. Quan hệ trực giao đối với các ký tự (VIII, p. 410, Mệnh đề 4) khi đó có dạng
+Cho $(M, \pi )$ là một biểu diễn tuyến tính hữu hạn chiều của G. Ta trang bị cho không gian vectơ M cấu trúc của một không gian Hilbert sao cho các tự đồng cấu $\pi (g)$ là unita (Mệnh đề 11). Nếu ta ký hiệu $A^*$ là tự đồng cấu liên hợp của một tự đồng cấu A của M đối với cấu trúc này, thì ta có Tr($A^*$) $=$ Tr(A). Với mọi $g\in G$, ta có $\pi (g^{-1}) =\pi (g)^*$, và do đó $\chi_{\pi}(g^{-1}) =\chi_{\pi}(g)$; nói cách khác, ta có $\chi_{\pi}=\chi^*_{\pi}$. Quan hệ trực giao đối với các ký tự (VIII, p. 410, Mệnh đề 4) khi đó có dạng
 
 $$
 \langle \chi_{\lambda}|\chi_\mu\rangle_G=\delta_{\lambda \mu} \tag{54}

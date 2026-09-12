@@ -69,11 +69,11 @@ subsections:
       pdf_page: 101
 statements: 55
 exercises: 18
-content_sha256: a830aec5cd6b5c1f8c27cedded031342be71cf89e03ce3d72129c3770c2a3cb7
+content_sha256: 8be679a03fcaecae54624959b4305d88cab2ddb20237ab2a7572c4aa0a07f683
 translated_from: content/en-mt/ts/I/04_s4_calcul_fonctionnel_holomorphe.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: bfd3dd87c3f14314ac07c57cc45fa868c6aacf7968e0d4fd61ff3372c2d96b1d
+source_content_sha256: 034b9af4493da577e265e16fa4e83a69a97005727d9beaac08a54c7e85594df4
 translation_model: gpt-5.4
 translation_run: translate-vi-9819947a
 glossary_version: 34
@@ -1451,11 +1451,11 @@ Cho $z$ ký hiệu mầm trong $\mathscr{O}(S)$ của ánh xạ đồng nhất c
 
 Ta có $z^*=z$; do đó $z$ thuộc $\mathscr{O}_{\mathbf{R}}(S)$. Gọi B là một đại số con đầy đủ, đóng trên $\mathbf{R}$ của $\mathscr{O}(S)$ chứa $z$. Ánh xạ $f\mapsto f+f^*$ từ $\mathscr{O}(S)$ vào $\mathscr{O}_{\mathbf{R}}(S)$ là liên tục và toàn ánh, và tập hợp các mầm của các hàm hữu tỉ chỉnh hình trong một lân cận của S là trù mật trong $\mathscr{O}(S)$ (Định lý 3 của I, p. 69). Để chứng minh rằng B chứa $\mathscr{O}_{\mathbf{R}}(S)$, vì vậy chỉ cần chứng minh rằng nếu $f$ là mầm của một hàm hữu tỉ như thế, thì $f+f^*\in B$.
 
-Tồn tại các đa thức P và Q trong $\mathbf{C}[X]$ sao cho Q không triệt tiêu tại điểm nào của S và sao cho ta có $f=\frac{P(z)}{Q(z)}$. Ký hiệu $P^*$ và $Q^*$ là các đa thức thu được bằng cách thay thế các hệ số của P và Q bởi các liên hợp của chúng. Khi đó ta có $P(z)^*= P^*(z)$ và $Q(z)^*= Q^*(z)$. Vì S ổn định đối với phép liên hợp phức, đa thức $Q^*$ không triệt tiêu tại điểm nào của S. Do đó các mầm $Q^*(z)$ và (QQ$^*$)$(z)$ khả nghịch trong $\mathscr{O}(S)$, và
+Tồn tại các đa thức P và Q trong $\mathbf{C}[X]$ sao cho Q không triệt tiêu tại điểm nào của S và sao cho ta có $f=\frac{P(z)}{Q(z)}$. Ký hiệu $P^*$ và $Q^*$ là các đa thức thu được bằng cách thay thế các hệ số của P và Q bởi các liên hợp của chúng. Khi đó ta có $P(z)^*= P^*(z)$ và $Q(z)^*= Q^*(z)$. Vì S ổn định đối với phép liên hợp phức, đa thức $Q^*$ không triệt tiêu tại điểm nào của S. Do đó các mầm $Q^*(z)$ và $(QQ^*)(z)$ khả nghịch trong $\mathscr{O}(S)$, và
 
-$f+f^*=\frac{P(z)}{Q(z)}+\frac{P^*(z)}{Q^*(z)}=$ (PQ(QQ$^*+ P_*$)$(^*Q)(z)z$).
+$f+f^*=\frac{P(z)}{Q(z)}+\frac{P^*(z)}{Q^*(z)}=\frac{(PQ^*+P^*Q)(z)}{(QQ^*)(z)}$.
 
-Vì các đa thức PQ$^*+ P^*Q$ và QQ$^*$ có các hệ số thực và B là một đại số con đầy đủ trên $\mathbf{R}$ của $\mathscr{O}(S)$ chứa $z$, phần tử $f+f^*$ thuộc B. Điều này kết thúc chứng minh của mệnh đề.
+Vì các đa thức $PQ^*+P^*Q$ và $QQ^*$ có các hệ số thực và B là một đại số con đầy đủ trên $\mathbf{R}$ của $\mathscr{O}(S)$ chứa $z$, phần tử $f+f^*$ thuộc B. Điều này kết thúc chứng minh của mệnh đề.
 
 Cho A là một đại số chuẩn hóa được, đầy đủ, có đơn vị trên $\mathbf{R}$. Gọi $x$ là một phần tử của A. Phổ của phần tử $1\otimes x$ của đại số $A_{(\mathbf{C})}$ được gọi là phổ phức của $x$, và được ký hiệu bởi Sp$_{A_{(\mathbf{C})}}(x)$. Giao của nó với tập hợp $\mathbf{R}$ chính là phổ Sp$_A(x)$ của $x$ đối với A, phổ này đôi khi được gọi là phổ thực của $x$. Phổ phức Sp$_{A_{(\mathbf{C})}}(x)$ là một tập con compắc của $\mathbf{C}$, ổn định dưới phép liên hợp phức. Nó không rỗng khi đại số A không thu về 0.
 

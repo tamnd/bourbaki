@@ -69,7 +69,7 @@ subsections:
       pdf_page: 101
 statements: 55
 exercises: 18
-content_sha256: 3c3488ce5943c67177e2be2fab3c9bc4fb2011a659aa3ed2e8208cd74c595c9f
+content_sha256: 87134a6d811548c0fc954da9b20e970f340cf45ab70d51fc1acbf50dd3186bbb
 ---
 
 ## § 4. CALCUL FONCTIONNEL HOLOMORPHE
@@ -1442,11 +1442,11 @@ Notons $z$ le germe dans $\mathscr{O}(S)$ de l’application identique de $\math
 
 On a $z^*=z$, donc $z$ appartient à $\mathscr{O}_{\mathbf{R}}(S)$. Soit B une sous-$\mathbf{R}$-algèbre fermée pleine de $\mathscr{O}(S)$ contenant $z$. L’application $f\mapsto f+f^*$ de $\mathscr{O}(S)$ dans $\mathscr{O}_{\mathbf{R}}(S)$ est continue et surjective, et l’ensemble des germes de fonctions rationnelles holomorphes au voisinage de S est dense dans $\mathscr{O}(S)$ (th. 3 de I, p. 69). Pour démontrer que B contient $\mathscr{O}_{\mathbf{R}}(S)$, il suffit donc de démontrer que si $f$ est le germe d’une telle fonction rationnelle, on a $f+f^*\in B$.
 
-Il existe des polynômes P et Q dans $\mathbf{C}[X]$ tels que Q ne s’annule en aucun point de S et que l’on ait $f=\frac{P(z)}{Q(z)}$. Notons $P^*$ et $Q^*$ les polynômes obtenus en remplaçant les coefficients de P et Q par leurs conjugués. On a alors $P(z)^*= P^*(z)$ et $Q(z)^*= Q^*(z)$. Comme S est stable par la conjugaison complexe, le polynôme $Q^*$ ne s’annule en aucun point de S. Les germes $Q^*(z)$ et (QQ$^*$)$(z)$ sont donc inversibles dans $\mathscr{O}(S)$, et
+Il existe des polynômes P et Q dans $\mathbf{C}[X]$ tels que Q ne s’annule en aucun point de S et que l’on ait $f=\frac{P(z)}{Q(z)}$. Notons $P^*$ et $Q^*$ les polynômes obtenus en remplaçant les coefficients de P et Q par leurs conjugués. On a alors $P(z)^*= P^*(z)$ et $Q(z)^*= Q^*(z)$. Comme S est stable par la conjugaison complexe, le polynôme $Q^*$ ne s’annule en aucun point de S. Les germes $Q^*(z)$ et $(QQ^*)(z)$ sont donc inversibles dans $\mathscr{O}(S)$, et
 
 $f+f^*=\frac{P(z)}{Q(z)}+\frac{P^*(z)}{Q^*(z)}=\frac{(PQ^*+P^*Q)(z)}{(QQ^*)(z)}$.
 
-Comme les polynômes PQ$^*+ P^*Q$ et QQ$^*$ sont à coefficients réels et que B est une sous-$\mathbf{R}$-algèbre pleine de $\mathscr{O}(S)$ contenant $z$, l’élément $f+f^*$ appartient à B. Cela conclut la preuve de la proposition.
+Comme les polynômes $PQ^*+P^*Q$ et $QQ^*$ sont à coefficients réels et que B est une sous-$\mathbf{R}$-algèbre pleine de $\mathscr{O}(S)$ contenant $z$, l’élément $f+f^*$ appartient à B. Cela conclut la preuve de la proposition.
 
 Soit A une algèbre unifère normable complète sur $\mathbf{R}$. Soit $x$ un élément de A. Le spectre de l’élément $1\otimes x$ de l’algèbre $A_{(\mathbf{C})}$ est appelé le spectre complexe de $x$, et il est noté Sp$_{A_{(\mathbf{C})}}(x)$. Son intersection avec l’ensemble $\mathbf{R}$ n’est autre que le spectre Sp$_A(x)$ de $x$ relativement à A, que l’on appelle parfois le spectre réel de $x$. Le spectre complexe Sp$_{A_{(\mathbf{C})}}(x)$ est une partie compacte de $\mathbf{C}$, stable par la conjugaison complexe. Il n’est pas vide lorsque l’algèbre A n’est pas réduite à 0.
 

@@ -13,7 +13,7 @@ pdf_pages: 0679-0734
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: de93715adac4b2733af3703b2980db86c76051e92942e3086da4fa9890492e86
+content_sha256: 49dff78624f08dfed0cd3a84e660d8d210253ee0e66734c5f1097f8f7ca2de18
 translated_from: content/en/alg/III/historical_note.md
 source_content_sha256: 78bd01af38161bc2db08e20c490bf7e6e244d8a0155ef6b475f75af266d69127
 translation_model: gpt-5-6-mini, gpt-5-mini
@@ -1167,7 +1167,7 @@ Gốc: I, § 2, no. 1.
 Gốc, lựa chọn trong một không gian affine: II, § 9, no. 1.
 Các phần tử, tập hợp trực giao: II, § 2, no. 3.
 Họ các phép chiếu trực giao: II, § 1, no. 8.
-Môđun con trực giao với một tập con của E (tương ứng E$^*$): II, § 2, no. 4.
+Môđun con trực giao với một tập con của E (tương ứng $E^*$): II, § 2, no. 4.
 
 Các đa tạp tuyến tính song song: II, § 9, no. 3.
 Hình bình hành: II, § 9, Bài tập 1.

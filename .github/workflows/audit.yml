@@ -162,7 +162,7 @@ jobs:
       # The count was zero when this step was written, and this step then sat
       # behind a tags verify that failed on every branch from August on, so it
       # has not run on a pull request since. It was 31555 when the ceiling went
-      # in and is 29886 now, and #391 has the breakdown: 23308 of them are T03,
+      # in and is 29885 now, and #391 has the breakdown: 23308 of them are T03,
       # the statements waiting to be tagged, and most of the rest is volumes
       # that are not read through yet. The 1529 that have come off since are the
       # small mathematics rules read to nothing, the 102 seals the sweeps left
@@ -192,7 +192,7 @@ jobs:
       # honest.
       #
       # The ceiling has gone up twice, and both times because the corpus grew
-      # and not because anything broke. It has come down four times on its own.
+      # and not because anything broke. It has come down five times on its own.
       # The
       # first is 30032 to 29950, and that is #344: the Vietnamese was missing
       # 71 statement
@@ -266,8 +266,31 @@ jobs:
       # their seal moved on, which bourbaki fix retranslated did by name. L03,
       # L04, L05 and L07 do not move: 14, 10, 275 and 21 before and after.
       #
-      # What is left of the family is 18 duals whose base is stranded outside
-      # the dollars, S$^*$ for $S^*$, which is fix math's to move and is #404.
+      # The fifth is 29886 to 29885, one L05, and it is #404: the other half of
+      # the same family. Where the prose leaves no base for the script the star
+      # is the mark and fix star takes it out; where it leaves one the span is a
+      # dual, an adjoint or a conjugate cut in two, cl(S$^*$) for cl($S^*$),
+      # with Bourbaki's upright capital read as prose and the star left sitting
+      # on nothing. bourbaki fix dual pulls the letter in, and only where the
+      # prose leaves one letter standing on its own: QQ$^*$ and Tr(BA$^*$) leave
+      # two, and the nearer one would make a dual of Q and of A out of duals of
+      # QQ and BA. 10 of the 18 came in by that rule and 4 more were read by
+      # hand, being text the reading had flattened -- (QQ$^*$)$(z)$ for
+      # $(QQ^*)(z)$, a duplicated star on the dual of End(V), and the two
+      # numbered displays of the Fourier section of Lie IX, where d(u$)Tr(A$^*B$)
+      # had the brackets of the trace on both sides of the delimiters. The
+      # Vietnamese and the machine English of those four were aligned by hand
+      # and recorded with bourbaki fix retranslated, which is the one L05.
+      #
+      # The 4 left are the closing-bracket case, dom(($u$)$^*$) and the section
+      # heading S($\mathfrak{h}$)$^*$ that the manifest, the glossary and three
+      # languages all carry, where what belongs inside the delimiters is a
+      # reading and not a rule. They are counted with the 6797 base-less scripts
+      # of #406, which is the tree both #403 and #404 are leaves of: an upright
+      # operator name read as prose, Sp$_A(x)$ and End$_K$(E) and Hom$_A$(E, B),
+      # over 1938 pages and 39 volumes. Nothing in the audit reports one, and
+      # nothing can as it stands, because the span holds a well-formed script
+      # and the translation holds the same one.
       #
       # The second time it went up is 30026 to 30032, for the second fascicule of
       # Variétés. Paragraphes 8 à 15 had been read and committed under pages/
@@ -299,7 +322,7 @@ jobs:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: |
           if go run ./cmd/bourbaki audit -validate-tex -report reports/audit.md \
-               -json "$RUNNER_TEMP/audit.json" -max-hard 29886; then
+               -json "$RUNNER_TEMP/audit.json" -max-hard 29885; then
             echo "status=0" >> "$GITHUB_OUTPUT"
           else
             echo "status=$?" >> "$GITHUB_OUTPUT"

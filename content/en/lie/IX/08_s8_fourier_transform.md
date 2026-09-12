@@ -29,7 +29,7 @@ subsections:
       pdf_page: 375
 statements: 9
 exercises: 6
-content_sha256: 7146b47c4591798a6237702fc9df4724c46d7ba060e5bca3cd680259b2af702e
+content_sha256: 6e2618147afc628c71099020ffa7e02b28b7fa041ad48e0d3fc7f7f992c4cf3b
 ---
 
 ## § 8. FOURIER TRANSFORM
@@ -48,11 +48,11 @@ Denote by $\widehat{G}$ the set of classes of irreducible representations of G (
 
 Give End(E$_u$) the Hilbert space structure for which the scalar product is
 
-$\langle A|B\rangle =d(u$)Tr(A$^*B$) $=d(u$)Tr(BA$^*$), (1)
+$\langle A|B\rangle =d(u)\mathrm{Tr}(A^*B) =d(u)\mathrm{Tr}(BA^*)$, (1)
 
 and put
 
-$\|A\|_2=\langle A|A\rangle^{1/2}= (d(u$)Tr(A$^*A$))$^{1/2}$. (2)
+$\|A\|_2=\langle A|A\rangle^{1/2}= (d(u)\mathrm{Tr}(A^*A))^{1/2}$. (2)
 
 We have
 

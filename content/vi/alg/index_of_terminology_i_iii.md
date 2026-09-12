@@ -14,9 +14,9 @@ pdf_pages: 0701-0733
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 43b042f7a821a2051f11a9e1ffb1b71d7db8d8fe4ead0403480a7cb10206d302
+content_sha256: 54d0d2a5581810dd9e50fdcffdba2e2427c9b710769cf8c95d52a15ed8a7bf28
 translated_from: content/en/alg/index_of_terminology_i_iii.md
-source_content_sha256: 798dec3fd1ed9b9c1f0fbfe98e89a12e45945bbe64dfa609da4478a88977f1e6
+source_content_sha256: 93529b6fd89e837bda6eafdd37a95d06a205bd69df411c9fe2b120a42587252a
 translation_model: gpt-5-6-mini, gpt-5-mini
 translation_run: translate-vi-67b1fd29
 glossary_version: 34
@@ -899,7 +899,7 @@ Gốc: I, § 2, no. 1.
 Gốc, lựa chọn trong một không gian afin: II, § 9, no. 1.
 Các phần tử, tập hợp trực giao: II, § 2, no. 3.
 Họ các phép chiếu trực giao: II, § 1, no. 8.
-Trực giao, môđun con, với một tập con của E (tương ứng E$^*$): II, § 2, no. 4.
+Trực giao, môđun con, với một tập con của E (tương ứng $E^*$): II, § 2, no. 4.
 
 Các đa tạp tuyến tính song song: II, § 9, no. 3.
 Hình bình hành: II, § 9, Bài tập 1.

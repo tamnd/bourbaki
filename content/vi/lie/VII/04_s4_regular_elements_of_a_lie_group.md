@@ -29,9 +29,9 @@ subsections:
       pdf_page: 44
 statements: 18
 exercises: 4
-content_sha256: 28bc628f68c7062acf4f3714d0b9cc6721cba8dda2a2c6091061429952fc42bb
+content_sha256: 935effdb094745a9602ff4a0469889970a5a888c09c51122ea3c5bcd2af6c598
 translated_from: content/en/lie/VII/04_s4_regular_elements_of_a_lie_group.md
-source_content_sha256: 6ccb9b5f7ffcd786b5afdaf81ccab18f695f9b397ae110709debf0e21b1adfe3
+source_content_sha256: 1839a11c4384fe28967cd541901f8ab98cc088922894403c4f8106b9bf54bee7
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-4e40ff51
 glossary_version: 34
@@ -169,7 +169,7 @@ Cho $a\in G$ và cho W là một lân cận của $e$ trong G. Tồn tại một
 
 #### Hệ quả {#lie-vii-s4-n2-cor-1 .statement tag=00W5}
 
-Cho $G^*$ là một nhóm con mở của G. Nếu $a\in G$ là chính quy, tồn tại một lân cận V của $a$ sao cho, với mọi $a'\in V,\mathfrak{g}^1(a')$ là liên hợp với $\mathfrak{g}^1(a)$ dưới Ad(G$^*$).
+Cho $G^*$ là một nhóm con mở của G. Nếu $a\in G$ là chính quy, tồn tại một lân cận V của $a$ sao cho, với mọi $a'\in V,\mathfrak{g}^1(a')$ là liên hợp với $\mathfrak{g}^1(a)$ dưới Ad($G^*$).
 
 ### 3. QUAN HỆ VỚI CÁC PHẦN TỬ CHÍNH QUY CỦA ĐẠI SỐ LIE
 

@@ -29,9 +29,9 @@ subsections:
       pdf_page: 375
 statements: 9
 exercises: 6
-content_sha256: 0e5ede1a2f9e3fa34eac4c19ec9fe6f8444157d7832c554639657a8d0ed1abc6
+content_sha256: 27fb2fbb2ce430567a8f7fb3f28bb0d3707f73e4be962f822fb03e79aeb53f67
 translated_from: content/en/lie/IX/08_s8_fourier_transform.md
-source_content_sha256: 7146b47c4591798a6237702fc9df4724c46d7ba060e5bca3cd680259b2af702e
+source_content_sha256: 6e2618147afc628c71099020ffa7e02b28b7fa041ad48e0d3fc7f7f992c4cf3b
 translation_model: gpt-5-mini, gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-33b0919e
 glossary_version: 34
@@ -55,11 +55,11 @@ Ký hiệu $\widehat{G}$ là tập hợp các lớp của các biểu diễn b�
 
 Trang bị cho End(E$_u$) cấu trúc không gian Hilbert sao cho tích vô hướng là
 
-$\langle A|B\rangle =d(u$)Tr(A$^*B$) $=d(u$)Tr(BA$^*$), (1)
+$\langle A|B\rangle =d(u)\mathrm{Tr}(A^*B) =d(u)\mathrm{Tr}(BA^*)$, (1)
 
 và đặt
 
-$\|A\|_2=\langle A|A\rangle^{1/2}= (d(u$)Tr(A$^*A$))$^{1/2}$. (2)
+$\|A\|_2=\langle A|A\rangle^{1/2}= (d(u)\mathrm{Tr}(A^*A))^{1/2}$. (2)
 
 Ta có
 

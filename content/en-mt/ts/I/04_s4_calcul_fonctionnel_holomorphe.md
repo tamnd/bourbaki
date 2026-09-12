@@ -69,11 +69,11 @@ subsections:
       pdf_page: 101
 statements: 55
 exercises: 18
-content_sha256: bfd3dd87c3f14314ac07c57cc45fa868c6aacf7968e0d4fd61ff3372c2d96b1d
+content_sha256: 034b9af4493da577e265e16fa4e83a69a97005727d9beaac08a54c7e85594df4
 translated_from: content/fr/ts/I/04_s4_calcul_fonctionnel_holomorphe.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: c9001c326aa1e0c5c534ba4c11cbd814c51f66f6a0e2b17538081e873d9f5b50
+source_content_sha256: 87134a6d811548c0fc954da9b20e970f340cf45ab70d51fc1acbf50dd3186bbb
 translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5.4
 translation_run: translate-en-mt-921bb1a3
 glossary_version: 34
@@ -1451,11 +1451,11 @@ Let $z$ denote the germ in $\mathscr{O}(S)$ of the identity mapping of $\mathbf{
 
 We have $z^*=z$; hence $z$ belong to $\mathscr{O}_{\mathbf{R}}(S)$. Let B be a full closed sub-$\mathbf{R}$-algebra of $\mathscr{O}(S)$ containing $z$. The mapping $f\mapsto f+f^*$ of $\mathscr{O}(S)$ into $\mathscr{O}_{\mathbf{R}}(S)$ is continuous and surjective, and the set of germs of rational functions holomorphic in a neighbourhood of S is dense in $\mathscr{O}(S)$ (Theorem 3 of I, p. 69). To prove that B contains $\mathscr{O}_{\mathbf{R}}(S)$, it therefore suffices to prove that if $f$ is the germ of such a rational function, then $f+f^*\in B$.
 
-There exist polynomials P and Q in $\mathbf{C}[X]$ such that Q vanishes at no point of S and such that one has $f=\frac{P(z)}{Q(z)}$. Let $P^*$ and $Q^*$ denote the polynomials obtained by replacing the coefficients of P and Q by their conjugates. One then has $P(z)^*= P^*(z)$ and $Q(z)^*= Q^*(z)$. Since S is stable under complex conjugation, the polynomial $Q^*$ vanishes at no point of S. The germs $Q^*(z)$ and (QQ$^*$)$(z)$ are therefore invertible in $\mathscr{O}(S)$, and
+There exist polynomials P and Q in $\mathbf{C}[X]$ such that Q vanishes at no point of S and such that one has $f=\frac{P(z)}{Q(z)}$. Let $P^*$ and $Q^*$ denote the polynomials obtained by replacing the coefficients of P and Q by their conjugates. One then has $P(z)^*= P^*(z)$ and $Q(z)^*= Q^*(z)$. Since S is stable under complex conjugation, the polynomial $Q^*$ vanishes at no point of S. The germs $Q^*(z)$ and $(QQ^*)(z)$ are therefore invertible in $\mathscr{O}(S)$, and
 
-$f+f^*=\frac{P(z)}{Q(z)}+\frac{P^*(z)}{Q^*(z)}=$ (PQ(QQ$^*+ P_*$)$(^*Q)(z)z$).
+$f+f^*=\frac{P(z)}{Q(z)}+\frac{P^*(z)}{Q^*(z)}=\frac{(PQ^*+P^*Q)(z)}{(QQ^*)(z)}$.
 
-Since the polynomials PQ$^*+ P^*Q$ and QQ$^*$ have real coefficients and B is a full sub-$\mathbf{R}$-algebra of $\mathscr{O}(S)$ containing $z$, the element $f+f^*$ belong to B. This concludes the proof of the proposition.
+Since the polynomials $PQ^*+P^*Q$ and $QQ^*$ have real coefficients and B is a full sub-$\mathbf{R}$-algebra of $\mathscr{O}(S)$ containing $z$, the element $f+f^*$ belong to B. This concludes the proof of the proposition.
 
 Let A be a complete normable unital algebra over $\mathbf{R}$. Let $x$ be an element of A. The spectrum of the element $1\otimes x$ of the algebra $A_{(\mathbf{C})}$ is called the complex spectrum of $x$, and is denoted by Sp$_{A_{(\mathbf{C})}}(x)$. Its intersection with the set $\mathbf{R}$ is none other than the spectrum Sp$_A(x)$ of $x$ relative to A, which is sometimes called the real spectrum of $x$. The complex spectrum Sp$_{A_{(\mathbf{C})}}(x)$ is a compact subset of $\mathbf{C}$, stable under complex conjugation. It is not empty when the algebra A is not reduced to 0.
 

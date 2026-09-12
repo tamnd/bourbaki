@@ -29,7 +29,7 @@ subsections:
       pdf_page: 44
 statements: 18
 exercises: 4
-content_sha256: 6ccb9b5f7ffcd786b5afdaf81ccab18f695f9b397ae110709debf0e21b1adfe3
+content_sha256: 1839a11c4384fe28967cd541901f8ab98cc088922894403c4f8106b9bf54bee7
 ---
 
 ## § 4. REGULAR ELEMENTS OF A LIE GROUP
@@ -162,7 +162,7 @@ Put $\mathfrak{g}^1=\mathfrak{g}^1(a)$ and let $\mathfrak{g}=\mathfrak{g}^1+\mat
 
 #### Corollary {#lie-vii-s4-n2-cor-1 .statement tag=00W5}
 
-Let $G^*$ be an open subgroup of G. If $a\in G$ is regular, there exists a neighbourhood V of $a$ such that, for all $a'\in V,\mathfrak{g}^1(a')$ is conjugate to $\mathfrak{g}^1(a)$ under Ad(G$^*$).
+Let $G^*$ be an open subgroup of G. If $a\in G$ is regular, there exists a neighbourhood V of $a$ such that, for all $a'\in V,\mathfrak{g}^1(a')$ is conjugate to $\mathfrak{g}^1(a)$ under Ad($G^*$).
 
 ### 3. RELATIONS WITH REGULAR ELEMENTS OF THE LIE ALGEBRA
 

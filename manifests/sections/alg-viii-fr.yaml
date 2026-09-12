@@ -296,7 +296,7 @@ chapters:
           statements: 31
           exercises: 6
           extraction: native+ocr
-          content_sha256: 6b6a3fcc1367884e222facdc7b5955872c0e3ce3d817b93d3cd1412552189ccb
+          content_sha256: 7377606acf10199c2eeb7d0f1d01d7dd61127eae37d5535547225e430734bdf6
         - kind: section
           section: 21
           title: Représentations linéaires des groupes finis
@@ -309,7 +309,7 @@ chapters:
           statements: 36
           exercises: 30
           extraction: native+ocr
-          content_sha256: 692b3f06ebc01094693d33e98fd6235c750ba9641a70c723d36576762aeaedf2
+          content_sha256: 53a52ac754f87f853c18f3772fd238f994a867992e8a4ef7cc08578da47b5c0b
         - kind: appendix
           section: 1
           title: Algèbres sans élément unité

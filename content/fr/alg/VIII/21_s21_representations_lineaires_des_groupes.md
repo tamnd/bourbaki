@@ -65,7 +65,7 @@ subsections:
       pdf_page: 413
 statements: 36
 exercises: 30
-content_sha256: 692b3f06ebc01094693d33e98fd6235c750ba9641a70c723d36576762aeaedf2
+content_sha256: 53a52ac754f87f853c18f3772fd238f994a867992e8a4ef7cc08578da47b5c0b
 ---
 
 ## § 21. REPRÉSENTATIONS LINÉAIRES DES GROUPES FINIS
@@ -901,7 +901,7 @@ $$
 \langle f|f'\rangle_G=|G|^{-2}\tau (f^*f') \tag{53}
 $$
 
-Soit $(M, \pi )$ une représentation linéaire de G, de dimension finie. Munissons l’espace vectoriel M d’une structure d’espace hilbertien pour laquelle les endomorphismes $\pi (g)$ sont unitaires (prop. 11). Si l’on note $A^*$ l’adjoint d’un endomorphisme A de M pour cette structure, on a Tr(A$^*$) $=$ Tr(A). Pour tout $g\in G$, on a $\pi (g^{-1}) =\pi (g)^*$ d’où $\chi_{\pi}(g^{-1}) =\chi_{\pi}(g)$; autrement dit, on a $\chi_{\pi}=\chi^*_{\pi}$. La relation d’orthogonalité des caractères (VIII, p. 400, prop. 4) prend alors la forme
+Soit $(M, \pi )$ une représentation linéaire de G, de dimension finie. Munissons l’espace vectoriel M d’une structure d’espace hilbertien pour laquelle les endomorphismes $\pi (g)$ sont unitaires (prop. 11). Si l’on note $A^*$ l’adjoint d’un endomorphisme A de M pour cette structure, on a Tr($A^*$) $=$ Tr(A). Pour tout $g\in G$, on a $\pi (g^{-1}) =\pi (g)^*$ d’où $\chi_{\pi}(g^{-1}) =\chi_{\pi}(g)$; autrement dit, on a $\chi_{\pi}=\chi^*_{\pi}$. La relation d’orthogonalité des caractères (VIII, p. 400, prop. 4) prend alors la forme
 
 $$
 \langle \chi_{\lambda}|\chi_{\mu}\rangle_G=\delta_{\lambda \mu} \tag{54}
