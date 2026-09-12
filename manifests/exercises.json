@@ -2687,7 +2687,7 @@
         {
           "chapter": "II",
           "title": "FREE LIE ALGEBRAS",
-          "total": 72,
+          "total": 75,
           "sections": [
             {
               "section": 1,
@@ -2738,9 +2738,10 @@
               "section": 6,
               "label": "lie-ii-s6",
               "dir": "s6",
-              "count": 3,
+              "count": 6,
               "first": 1,
-              "last": 3
+              "last": 6,
+              "starred": 2
             },
             {
               "section": 7,
@@ -3101,15 +3102,15 @@
         {
           "chapter": "VII",
           "title": "MODULES OVER PRINCIPAL IDEAL DOMAINS",
-          "total": 80,
+          "total": 93,
           "sections": [
             {
               "section": 1,
               "label": "alg-vii-s1",
               "dir": "s1",
-              "count": 15,
+              "count": 28,
               "first": 1,
-              "last": 15,
+              "last": 28,
               "starred": 1
             },
             {
@@ -6294,15 +6295,15 @@
         {
           "chapter": "X",
           "title": "ALGÈBRE HOMOLOGIQUE",
-          "total": 175,
+          "total": 178,
           "sections": [
             {
               "section": 1,
               "label": "alg-x-s1",
               "dir": "s1",
-              "count": 29,
+              "count": 32,
               "first": 1,
-              "last": 29,
+              "last": 32,
               "starred": 6,
               "supplementary": 2
             },
@@ -6726,7 +6727,7 @@
         {
           "chapter": "IV",
           "title": "Polynômes et fractions rationnelles",
-          "total": 57,
+          "total": 65,
           "sections": [
             {
               "section": 1,
@@ -6777,9 +6778,9 @@
               "section": 6,
               "label": "alg-iv-s6",
               "dir": "s6",
-              "count": 7,
+              "count": 15,
               "first": 1,
-              "last": 7,
+              "last": 15,
               "starred": 1,
               "supplementary": 2
             }

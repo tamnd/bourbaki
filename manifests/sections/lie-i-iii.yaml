@@ -205,7 +205,7 @@ chapters:
           book_pages: 155-164, 201-204
           subsections: 5
           statements: 14
-          exercises: 3
+          exercises: 6
           extraction: ocr
           content_sha256: 4537414ee283053f649e5ef02bb3c111565980460e26252851700301be18970c
         - kind: section
