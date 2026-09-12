@@ -3423,7 +3423,7 @@
         {
           "chapter": "V",
           "title": "LOCAL STUDY OF FUNCTIONS",
-          "total": 28,
+          "total": 36,
           "sections": [
             {
               "section": 1,
@@ -3446,9 +3446,10 @@
               "section": 4,
               "label": "fvr-v-s4",
               "dir": "s4",
-              "count": 3,
+              "count": 11,
               "first": 1,
-              "last": 3
+              "last": 11,
+              "starred": 1
             },
             {
               "section": 0,

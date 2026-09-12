@@ -303,7 +303,7 @@ chapters:
           book_pages: 236-246, 261-263
           subsections: 4
           statements: 13
-          exercises: 3
+          exercises: 11
           extraction: ocr
           content_sha256: 7aef1df43eff09df6e9442552cc56e53595b077c4cc4257843aa13c45dda4aec
         - kind: appendix
