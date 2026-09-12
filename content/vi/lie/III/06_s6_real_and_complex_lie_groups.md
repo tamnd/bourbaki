@@ -53,7 +53,7 @@ subsections:
       pdf_page: 340
 statements: 71
 exercises: 30
-content_sha256: eafc5c654741866549359d2f0adc58cc6456a1e9bace9690cf268f529746cd10
+content_sha256: d28c71fd27a9367dc628bbb565f8310bd7527f14282e6ef4d93b24ac965b28ca
 translated_from: content/en/lie/III/06_s6_real_and_complex_lie_groups.md
 source_content_sha256: 5661cdb979b242a4b80d3bf7b9535680e32ba902bd1352e6302cdc4df0de1b71
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-mini
@@ -623,7 +623,7 @@ Tính duy nhất của f suy ra từ § 3, no. 17, Hệ quả 2 của Mệnh đ�
 
 *Cho G là một nhóm tôpô liên thông, X là một không gian tôpô Hausdorff và $f_1, f_2$ là các luật tác động trái (resp. phải) của G trên X sao cho, với mọi $x \in X$, các ánh xạ* s \mapsto f_1(s, x),\ s \mapsto f_2(s, x) \text{ từ } G \text{ vào } X \text{ là liên tục. Giả sử rằng tồn tại một lân cận } V \text{ của } \{e\} \times X \text{ trong } G \times X \text{ sao cho } f_1 \text{ và } f_2 \text{ trùng nhau trên } V. \text{ Khi đó } f_1 = f_2.
 
-$Gọi x \in X$ và $A$ là tập hợp các $g \in G$ sao cho $f_1(g, x) = f_2(g, x)$. Khi đó $A$ đóng trong $G$. Mặt khác, cho $g \in A$; ta viết $y = f_1(g, x) = f_2(g, x)$. Tồn tại một lân cận $U$ của $e$ trong $G$ sao cho $f_1(t, y) = f_2(t, y)$ với $t \in U$, nói cách khác sao cho $f_1(t', x) = f_2(t', x)$ với $t' \in Ug$ (resp. $gU$). Vậy $A$ mở trong $G$ và do đó $A = G$.
+Gọi $x \in X$ và $A$ là tập hợp các $g \in G$ sao cho $f_1(g, x) = f_2(g, x)$. Khi đó $A$ đóng trong $G$. Mặt khác, cho $g \in A$; ta viết $y = f_1(g, x) = f_2(g, x)$. Tồn tại một lân cận $U$ của $e$ trong $G$ sao cho $f_1(t, y) = f_2(t, y)$ với $t \in U$, nói cách khác sao cho $f_1(t', x) = f_2(t', x)$ với $t' \in Ug$ (resp. $gU$). Vậy $A$ mở trong $G$ và do đó $A = G$.
 
 #### Mệnh đề 16 {#lie-iii-s6-prop-16 .statement}
 

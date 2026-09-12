@@ -21,7 +21,7 @@ subsections:
       pdf_page: 308
 statements: 34
 exercises: 41
-content_sha256: 034def1e6eaf6c0c8651a040d84e137d33d7854a0ecc8daa45e75c4921a77de1
+content_sha256: 713de6c64caf6084b7be6fbb996c784a841d5ce92e388020561012f1d99b1c25
 ---
 
 ## § 2. CORPS ORDONNÉS
@@ -280,7 +280,7 @@ Tout corps ordonné K admet une extension algébrique ordonnée qui est un corps
 
 On peut montrer que cette extension ordonnée est bien déterminée à un K-isomorphisme près (VI, p. 38, exerc. 15).
 
-Soit $\Omega$ une clôture algébrique de K, et soit $\mathfrak{N}$ l’ensemble des couples (A, $\omega$), où A est une sous-K-extension de $\Omega$, et $\omega$ une structure d’extension ordonnée sur l’extension A de K. Ordonnons $\mathfrak{N}$ par la relation « L est une extension ordonnée de M » entre M et L. Muni de cette structure d’ordre, $\mathfrak{N}$ est un ensemble ordonné inductif : en effet, si $(L_i)$ est une famille totalement ordonnée d’éléments de $\mathfrak{N}$, le corps $L = \bigcup_i L_i$ ordonné en prenant $L_+ = \bigcup_i (L_i)_+$ est un majorant des $L_i$. En vertu de E III, p. 20, th. 2, $\mathfrak{N}$ possède un élément maximal qui répond à la question.
+Soit $\Omega$ une clôture algébrique de K, et soit $\mathfrak{N}$ l’ensemble des couples (A, $w$), où A est une sous-K-extension de $\Omega$, et $w$ une structure d’extension ordonnée sur l’extension A de K. Ordonnons $\mathfrak{N}$ par la relation « L est une extension ordonnée de M » entre M et L. Muni de cette structure d’ordre, $\mathfrak{N}$ est un ensemble ordonné inductif : en effet, si $(L_i)$ est une famille totalement ordonnée d’éléments de $\mathfrak{N}$, le corps $L = \bigcup_i L_i$ ordonné en prenant $L_+ = \bigcup_i (L_i)_+$ est un majorant des $L_i$. En vertu de E III, p. 20, th. 2, $\mathfrak{N}$ possède un élément maximal qui répond à la question.
 
 #### Proposition 5 {#alg-vi-s2-prop-5 .statement}
 

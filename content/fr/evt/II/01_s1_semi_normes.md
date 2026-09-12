@@ -28,7 +28,7 @@ subsections:
       pdf_page: 41
 statements: 18
 exercises: 0
-content_sha256: 263339592233a8caaf1425ab218128911ccb5a2b491f958fe1f3fcb0e3e558a2
+content_sha256: 277f3548de2a3a6fcc6af0ba5d41d630dc830e76f9036d5f8e27974c34cee0bc
 ---
 
 ## § 1. SEMI-NORMES
@@ -106,7 +106,7 @@ La topologie définie par un ensemble *fini* de semi-normes $p_i$ sur $E$ ($1 \l
 
 #### Remarque 2 {#evt-ii-s1-n2-rem-2 .statement}
 
-Soit $(\mathscr{T}_\nu)_{\nu \in I}$ une famille de topologies sur un espace vectoriel $E$ sur $K$, dont chacune est définie par un ensemble $\Gamma_\nu$ de semi-normes. Alors la topologie définie par l’ensemble de semi-normes $\Gamma = \bigcup_{\nu \in I} \Gamma_\nu$ est la borne supérieure des topologies $\mathscr{T}_\nu$.
+Soit $(\mathscr{T}_\iota)_{\iota \in I}$ une famille de topologies sur un espace vectoriel $E$ sur $K$, dont chacune est définie par un ensemble $\Gamma_\iota$ de semi-normes. Alors la topologie définie par l’ensemble de semi-normes $\Gamma = \bigcup_{\iota \in I} \Gamma_\iota$ est la borne supérieure des topologies $\mathscr{T}_\iota$.
 
 #### Remarque 3 {#evt-ii-s1-n2-rem-3 .statement}
 

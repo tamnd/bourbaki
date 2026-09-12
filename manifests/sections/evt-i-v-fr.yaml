@@ -87,7 +87,7 @@ chapters:
           statements: 18
           exercises: 0
           extraction: ocr
-          content_sha256: 263339592233a8caaf1425ab218128911ccb5a2b491f958fe1f3fcb0e3e558a2
+          content_sha256: 277f3548de2a3a6fcc6af0ba5d41d630dc830e76f9036d5f8e27974c34cee0bc
         - kind: section
           section: 2
           title: Ensembles convexes
@@ -165,7 +165,7 @@ chapters:
           statements: 24
           exercises: 41
           extraction: ocr
-          content_sha256: 157b795b3027098060daebf6c822f08a4826804cf3b48551617a2541045ff98b
+          content_sha256: 75509e28d983e8108b1622d9492452aff474f8a6608fce76670632c267032951
         - kind: section
           section: 8
           title: Espaces localement convexes complexes

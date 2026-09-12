@@ -370,7 +370,7 @@ chapters:
           statements: 34
           exercises: 41
           extraction: ocr
-          content_sha256: 034def1e6eaf6c0c8651a040d84e137d33d7854a0ecc8daa45e75c4921a77de1
+          content_sha256: 713de6c64caf6084b7be6fbb996c784a841d5ce92e388020561012f1d99b1c25
     - chapter: VII
       title: Modules sur les anneaux principaux
       sections:
