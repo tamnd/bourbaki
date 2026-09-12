@@ -65,7 +65,7 @@ subsections:
       pdf_page: 413
 statements: 36
 exercises: 30
-content_sha256: 53a52ac754f87f853c18f3772fd238f994a867992e8a4ef7cc08578da47b5c0b
+content_sha256: bb6c303bcb6aad90689b55c2b98a23a9414b3072f09727f3c7ab06d14b72427f
 ---
 
 ## § 21. REPRÉSENTATIONS LINÉAIRES DES GROUPES FINIS
@@ -501,7 +501,7 @@ Conservons les notations des numéros 5 et 6. Rappelons que Z(K[G]) est formé d
 On définit une application bilinéaire symétrique de $K[G]\times K[G]$ dans K par la formule
 
 $$
-\langle f, f'\rangle_G=|G|^{-1}\sum_{g\in G}f_gf'_{g_{-1}} \tag{28}
+\langle f, f'\rangle_G=|G|^{-1}\sum_{g\in G}f_gf'_{g^{-1}} \tag{28}
 $$
 
 pour tous $f=\sum f_gg$ et $f'=\sum f'_gg$ appartenant à K[G]. On a $\langle f, f'\rangle_G=|G|^{-2}\tau (f f')$.

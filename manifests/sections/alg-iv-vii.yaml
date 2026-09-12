@@ -75,7 +75,7 @@ chapters:
           statements: 23
           exercises: 8
           extraction: ocr
-          content_sha256: 590ff04e9044259e7c29e890ab34382fd3c7b0ccacecc8ccef21483a20c08ef7
+          content_sha256: 483527c9a2f7ca3ed745c243edcc42d58de68724d62d4b582d90775243b344a0
         - kind: section
           section: 5
           title: Symmetric tensors and polynomial mappings
@@ -101,7 +101,7 @@ chapters:
           statements: 43
           exercises: 15
           extraction: ocr
-          content_sha256: ef8ef15a87b4ca1fa15d716b8eaa67bfd37fd16a0e3df720cd92a6edad1c643d
+          content_sha256: 44c7a13e648c909c6fd334bb9918fdde585c3f51cb8dcf4964408d025c30bf9a
     - chapter: V
       title: COMMUTATIVE FIELDS
       sections:

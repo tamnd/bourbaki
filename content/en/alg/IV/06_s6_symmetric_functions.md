@@ -55,7 +55,7 @@ errata:
     - says: representing $\varphi$ and $\varphi \circ w$ have the same determinant and this follows from the relation $\det w = 1$
       read: representing $\varphi$ and $\varphi \circ \omega$ have the same determinant and this follows from the relation $\det \omega = 1$
       why: The last two occurrences of the same automorphism on page 86, both roman.
-content_sha256: ef8ef15a87b4ca1fa15d716b8eaa67bfd37fd16a0e3df720cd92a6edad1c643d
+content_sha256: 44c7a13e648c909c6fd334bb9918fdde585c3f51cb8dcf4964408d025c30bf9a
 ---
 
 ## § 6. SYMMETRIC FUNCTIONS
@@ -142,7 +142,7 @@ $$
 u(s_k') = (-1)^k X_n^k + \sum_{i=1}^k (-1)^{k-i} s_i' X_n^{k-i} \quad (1 \leq k \leq n-1).
 $$
 
-By (5), we have $u(s_k) = u(s_k') + u(s_{k-1}') X_n$, whence $u(s_k) = s_k'$ by an easy calculation. Let $P \in B[Y_1, \ldots, Y_{-1}]$; then from $P(s_1, \ldots, s_{n-1}) = 0$ we deduce
+By (5), we have $u(s_k) = u(s_k') + u(s_{k-1}') X_n$, whence $u(s_k) = s_k'$ by an easy calculation. Let $P \in B[Y_1, \ldots, Y_{n-1}]$; then from $P(s_1, \ldots, s_{n-1}) = 0$ we deduce
 $$
 0 = u(P(s_1, \ldots, s_{n-1})) = P(s_1', \ldots, s_{n-1}'),
 $$

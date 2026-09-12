@@ -309,7 +309,7 @@ chapters:
           statements: 36
           exercises: 30
           extraction: native+ocr
-          content_sha256: 53a52ac754f87f853c18f3772fd238f994a867992e8a4ef7cc08578da47b5c0b
+          content_sha256: bb6c303bcb6aad90689b55c2b98a23a9414b3072f09727f3c7ab06d14b72427f
         - kind: appendix
           section: 1
           title: Algèbres sans élément unité
