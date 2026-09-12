@@ -53,7 +53,7 @@ subsections:
       pdf_page: 74
 statements: 30
 exercises: 20
-content_sha256: 6819de812cc0a066f3d9d41f17299c6a6b5cfd00b8e0cf993c3f1e890810bef8
+content_sha256: d727776e946a71e8695915560f6da0c44dbfefe19389c11a8bf6a4feb1f57bcd
 ---
 
 ## 6. FILTERS
@@ -78,7 +78,7 @@ $(\mathrm{F}_{\mathrm{II}\,\mathrm{b}})$ *$X$ belongs to $\mathfrak{F}$.*
 
 Axioms $(\mathrm{F}_{\mathrm{II}\,\mathrm{b}})$ and $(\mathrm{F}_\mathrm{III})$ show that *there is no filter on the empty set*.
 
-In order for a set of subsets which satisfies $(\mathrm{F}_1)$ also to satisfy $(\mathrm{F}_{\mathrm{II}\,\mathrm{b}})$ it is necessary and sufficient that it is *not empty*. A set of subsets which satisfies $(\mathrm{F}_1)$ also satisfies $(\mathrm{F}_\mathrm{III})$ if and only if it is different from $\mathscr{P}(X)$.
+In order for a set of subsets which satisfies $(\mathrm{F}_1)$ also to satisfy $(\mathrm{F}_{\mathrm{II}\,\mathrm{b}})$ it is necessary and sufficient that it is *not empty*. A set of subsets which satisfies $(\mathrm{F}_1)$ also satisfies $(\mathrm{F}_\mathrm{III})$ if and only if it is different from $\mathfrak{P}(X)$.
 
 *Examples of filters.* 1) If $X \neq \varnothing$, the set of subsets consisting of $X$ alone is a filter on $X$. More generally, the set of all subsets of $X$ which contain a given non-empty subset $A$ of $X$ is a filter on $X$.
 
@@ -92,7 +92,7 @@ In order for a set of subsets which satisfies $(\mathrm{F}_1)$ also to satisfy $
 
 Given two filters $\mathfrak{F}, \mathfrak{F}'$ on the same set $X$, $\mathfrak{F}'$ is said to be finer than $\mathfrak{F}$, or $\mathfrak{F}$ is coarser than $\mathfrak{F}'$, if $\mathfrak{F} \subset \mathfrak{F}'$. If also $\mathfrak{F} \neq \mathfrak{F}'$, then $\mathfrak{F}'$ is said to be strictly finer than $\mathfrak{F}$, or $\mathfrak{F}$ strictly coarser than $\mathfrak{F}'$.
 
-Two filters are said to be comparable if one is finer than the other. The set of all filters on $X$ is ordered by the relation " $\mathfrak{F}$ is coarser than $\mathfrak{F}'$"; this relation is induced by the inclusion relation in $\mathscr{P}(\mathscr{P}(X))$.
+Two filters are said to be comparable if one is finer than the other. The set of all filters on $X$ is ordered by the relation " $\mathfrak{F}$ is coarser than $\mathfrak{F}'$"; this relation is induced by the inclusion relation in $\mathfrak{P}(\mathfrak{P}(X))$.
 
 Let $(\mathfrak{F}_i)_{i \in I}$ be any non-empty family of filters on a set $X$ (which must therefore be non-empty); then the set
 
@@ -104,17 +104,17 @@ satisfies axioms $(F_I), (F_{II})$ and $(F_{III})$ and is therefore a filter; $\
 
 The filter formed by the single set $X$ is the smallest element of the ordered set of all filters on $X$. We shall see in no. 4 that, if $X$ has more than one element, the set of all filters on $X$ has no greatest element.
 
-Given a set $\mathscr{G}$ of subsets of a set $X$, let us consider whether there are any filters on $X$ which contain $\mathscr{G}$. If such a filter exists then by $(F_{II})$ it contains also the set $\mathscr{G}'$ of finite intersections of sets of $\mathscr{G}$ (including $X$, which is the intersection of the empty subset of $\mathscr{G}$); hence a necessary condition for such a filter to exist is that the empty subset of $X$ is not in $\mathscr{G}'$. This condition is also sufficient, for by $(F_I)$ any filter which contains $\mathscr{G}'$ also contains the set $\mathscr{G}''$ of subsets of $X$ which contain a set of $\mathscr{G}'$. Now $\mathscr{G}''$ clearly satisfies $(F_I)$; it satisfies $(F_{II})$ by reason of the definition of $\mathscr{G}'$; and finally it satisfies $(F_{III})$ because the empty subset of $X$ does not belong to $\mathscr{G}'$. Hence $\mathscr{G}''$ is the coarsest filter which contains $\mathscr{G}$, and we have proved:
+Given a set $\mathfrak{G}$ of subsets of a set $X$, let us consider whether there are any filters on $X$ which contain $\mathfrak{G}$. If such a filter exists then by $(F_{II})$ it contains also the set $\mathfrak{G}'$ of finite intersections of sets of $\mathfrak{G}$ (including $X$, which is the intersection of the empty subset of $\mathfrak{G}$); hence a necessary condition for such a filter to exist is that the empty subset of $X$ is not in $\mathfrak{G}'$. This condition is also sufficient, for by $(F_I)$ any filter which contains $\mathfrak{G}'$ also contains the set $\mathfrak{G}''$ of subsets of $X$ which contain a set of $\mathfrak{G}'$. Now $\mathfrak{G}''$ clearly satisfies $(F_I)$; it satisfies $(F_{II})$ by reason of the definition of $\mathfrak{G}'$; and finally it satisfies $(F_{III})$ because the empty subset of $X$ does not belong to $\mathfrak{G}'$. Hence $\mathfrak{G}''$ is the coarsest filter which contains $\mathfrak{G}$, and we have proved:
 
 #### Proposition 1 {#top-i-s6-prop-1 .statement}
 
-A necessary and sufficient condition that there should exist a filter on $X$ containing a set $\mathscr{G}$ of subsets of $X$ is that no finite subset of $\mathscr{G}$ has an empty intersection.
+A necessary and sufficient condition that there should exist a filter on $X$ containing a set $\mathfrak{G}$ of subsets of $X$ is that no finite subset of $\mathfrak{G}$ has an empty intersection.
 
-The filter $\mathscr{G}''$ defined above is said to be generated by $\mathscr{G}$, and $\mathscr{G}$ is said to be a subbase of $\mathscr{G}''$.
+The filter $\mathfrak{G}''$ defined above is said to be generated by $\mathfrak{G}$, and $\mathfrak{G}$ is said to be a subbase of $\mathfrak{G}''$.
 
 #### Example {#top-i-s6-n2-exa-1 .statement}
 
-Let $\mathscr{S}$ be any set of subsets of a set $X$, and let $\mathscr{T}$ be the topology on $X$ generated by $\mathscr{S}$ ($\S$ 2, no. 3, Example II). Since the set of finite intersections of sets of $\mathscr{S}$ is a base of $\mathscr{T}$, it follows from the proof of Proposition 1 above and from Proposition 3 of $\S$ 1, no. 3 that for each $x \in X$ the neighbourhood filter of $x$ for $\mathscr{T}$ is generated by the set $\mathscr{G}(x)$ of sets of $\mathscr{S}$ which contain $x$.
+Let $\mathscr{S}$ be any set of subsets of a set $X$, and let $\mathfrak{T}$ be the topology on $X$ generated by $\mathscr{S}$ ($\S$ 2, no. 3, Example II). Since the set of finite intersections of sets of $\mathscr{S}$ is a base of $\mathfrak{T}$, it follows from the proof of Proposition 1 above and from Proposition 3 of $\S$ 1, no. 3 that for each $x \in X$ the neighbourhood filter of $x$ for $\mathfrak{T}$ is generated by the set $\mathfrak{G}(x)$ of sets of $\mathscr{S}$ which contain $x$.
 
 #### Corollary 1 {#top-i-s6-prop-1-cor-1 .statement}
 
@@ -124,7 +124,7 @@ Let $\mathfrak{F}$ be a filter on a set $X$, and $A$ a subset of $X$. Then there
 
 A set $\Phi$ of filters on a non-empty set $X$ has a least upper bound in the set of all filters on $X$ if and only if, for all finite sequences $(\mathfrak{F}_i)_{1 \leq i \leq n}$ of elements of $\Phi$ and all $A_i \in \mathfrak{F}_i$ ($1 \leq i \leq n$), the intersection $A_1 \cap \cdots \cap A_n$ is not empty.
 
-For this condition expresses that the union $\mathscr{G}$ of the filters $\mathfrak{F} \in \Phi$ satisfies the condition of Proposition 1.
+For this condition expresses that the union $\mathfrak{G}$ of the filters $\mathfrak{F} \in \Phi$ satisfies the condition of Proposition 1.
 
 #### Corollary 3 {#top-i-s6-prop-1-cor-3 .statement}
 
@@ -134,35 +134,35 @@ For every linearly ordered set $\Phi$ of filters on $X$ satisfies the condition 
 
 ### 3. BASES OF A FILTER
 
-If $\mathscr{G}$ is a subbase of a filter $\mathfrak{F}$ on $X$ (no. 2), then $\mathfrak{F}$ is not in general the set of subsets of $X$ which contain a set of $\mathscr{G}$; for $\mathscr{G}$ to have this property it is necessary and sufficient that every finite intersection of sets of $\mathscr{G}$ should contain a set of $\mathscr{G}$. Hence the following proposition:
+If $\mathfrak{G}$ is a subbase of a filter $\mathfrak{F}$ on $X$ (no. 2), then $\mathfrak{F}$ is not in general the set of subsets of $X$ which contain a set of $\mathfrak{G}$; for $\mathfrak{G}$ to have this property it is necessary and sufficient that every finite intersection of sets of $\mathfrak{G}$ should contain a set of $\mathfrak{G}$. Hence the following proposition:
 
 #### Proposition 2 {#top-i-s6-prop-2 .statement}
 
-Let $\mathscr{B}$ be a set of subsets of a set $X$. Then the set of subsets of $X$ which contain a set of $\mathscr{B}$ is a filter if and only if $\mathscr{B}$ has the following two properties:
-(B_I) The intersection of two sets of $\mathscr{B}$ contains a set of $\mathscr{B}$.
-(B_{II}) $\mathscr{B}$ is not empty, and the empty subset of $X$ is not in $\mathscr{B}$.
+Let $\mathfrak{B}$ be a set of subsets of a set $X$. Then the set of subsets of $X$ which contain a set of $\mathfrak{B}$ is a filter if and only if $\mathfrak{B}$ has the following two properties:
+(B_I) The intersection of two sets of $\mathfrak{B}$ contains a set of $\mathfrak{B}$.
+(B_{II}) $\mathfrak{B}$ is not empty, and the empty subset of $X$ is not in $\mathfrak{B}$.
 
 #### Definition 3 {#top-i-s6-def-3 .statement}
 
-A set $\mathscr{B}$ of subsets of a set $X$ which satisfies axioms (B_I) and (B_{II}) is said to be a base of the filter it generates. Two filter bases are said to be equivalent if they generate the same filter.
+A set $\mathfrak{B}$ of subsets of a set $X$ which satisfies axioms (B_I) and (B_{II}) is said to be a base of the filter it generates. Two filter bases are said to be equivalent if they generate the same filter.
 
-If $\mathscr{G}$ is a subbase of a filter $\mathfrak{F}$, then the set $\mathscr{G}'$ of finite intersections of sets of $\mathscr{G}$ is a base of $\mathfrak{F}$ (no. 2).
+If $\mathfrak{G}$ is a subbase of a filter $\mathfrak{F}$, then the set $\mathfrak{G}'$ of finite intersections of sets of $\mathfrak{G}$ is a base of $\mathfrak{F}$ (no. 2).
 
 #### Proposition 3 {#top-i-s6-prop-3 .statement}
 
-A subset $\mathscr{B}$ of a filter $\mathfrak{F}$ on $X$ is a base of $\mathfrak{F}$ if and only if every set of $\mathfrak{F}$ contains a set of $\mathscr{B}$.
+A subset $\mathfrak{B}$ of a filter $\mathfrak{F}$ on $X$ is a base of $\mathfrak{F}$ if and only if every set of $\mathfrak{F}$ contains a set of $\mathfrak{B}$.
 
-If $\mathscr{B}$ is a base of $\mathfrak{F}$, then clearly every set of $\mathfrak{F}$ contains a set of $\mathscr{B}$; conversely, if every set of $\mathfrak{F}$ contains a set of $\mathscr{B}$, then the set of subsets of $X$ containing a set of $\mathscr{B}$ coincides with $\mathfrak{F}$ by reason of $(\mathrm{F}_1)$.
+If $\mathfrak{B}$ is a base of $\mathfrak{F}$, then clearly every set of $\mathfrak{F}$ contains a set of $\mathfrak{B}$; conversely, if every set of $\mathfrak{F}$ contains a set of $\mathfrak{B}$, then the set of subsets of $X$ containing a set of $\mathfrak{B}$ coincides with $\mathfrak{F}$ by reason of $(\mathrm{F}_1)$.
 
 #### Proposition 4 {#top-i-s6-prop-4 .statement}
 
-On a set $X$, a filter $\mathscr{F}'$ with base $\mathscr{B}'$ is finer than a filter $\mathscr{F}$ with base $\mathscr{B}$ if and only if every set of $\mathscr{B}$ contains a set of $\mathscr{B}'$.
+On a set $X$, a filter $\mathfrak{F}'$ with base $\mathfrak{B}'$ is finer than a filter $\mathfrak{F}$ with base $\mathfrak{B}$ if and only if every set of $\mathfrak{B}$ contains a set of $\mathfrak{B}'$.
 
 This is an immediate consequence of Definitions 2 and 3.
 
 #### Corollary {#top-i-s6-n3-cor-1 .statement}
 
-Two filter bases $\mathscr{B}, \mathscr{B}'$ on a set $X$ are equivalent if and only if every set of $\mathscr{B}$ contains a set of $\mathscr{B}'$ and every set of $\mathscr{B}'$ contains a set of $\mathscr{B}$.
+Two filter bases $\mathfrak{B}, \mathfrak{B}'$ on a set $X$ are equivalent if and only if every set of $\mathfrak{B}$ contains a set of $\mathfrak{B}'$ and every set of $\mathfrak{B}'$ contains a set of $\mathfrak{B}$.
 
 Examples of filter bases. 1) Let $X$ be a topological space. Proposition 3 shows that the bases of the neighbourhood filter of a point $x \in X$ are precisely the fundamental systems of neighbourhoods of $x$ (§ 1, no. 3, Definition 5).
 
@@ -173,39 +173,39 @@ $$
 so that $(\mathrm{B}_1)$ is satisfied. The filter generated by $\mathscr{S}$ is called the section filter of the directed set $X$.
 
 For example, the Fréchet filter (no. 1) is the section filter of the ordered set $\mathbf{N}$, considered as directed by the relation $\leqslant$.
-Let $\mathscr{F}$ be a filter on a set $Z$. Since $\mathscr{F}$ is directed with respect to the relation $\supset$ [by reason of axiom $(\mathrm{F}_{\mathrm{II}})$] we can define a section filter on $\mathscr{F}$; here a section of $\mathscr{F}$ relative to a set $A \in \mathscr{F}$ is the set $S(A)$ of all $M \in \mathscr{F}$ such that $M \subset A$. This filter is called the section filter of the filter $\mathscr{F}$.
+Let $\mathfrak{F}$ be a filter on a set $Z$. Since $\mathfrak{F}$ is directed with respect to the relation $\supset$ [by reason of axiom $(\mathrm{F}_{\mathrm{II}})$] we can define a section filter on $\mathfrak{F}$; here a section of $\mathfrak{F}$ relative to a set $A \in \mathfrak{F}$ is the set $S(A)$ of all $M \in \mathfrak{F}$ such that $M \subset A$. This filter is called the section filter of the filter $\mathfrak{F}$.
 
 ### 4. ULTRAFILTERS
 
 #### Definition 4 {#top-i-s6-def-4 .statement}
 
-An ultrafilter on a set $X$ is a filter $\mathscr{F}$ such that there is no filter on $X$ which is strictly finer than $\mathscr{F}$ (in other words, a maximal element in the ordered set of all filters on $X$).
+An ultrafilter on a set $X$ is a filter $\mathfrak{F}$ such that there is no filter on $X$ which is strictly finer than $\mathfrak{F}$ (in other words, a maximal element in the ordered set of all filters on $X$).
 
 Since the ordered set of all filters on $X$ is inductive (no. 2, Proposition 1, Corollary 3), Zorn's lemma (Set Theory, R, § 6, no. 10) shows that:
 
 #### Theorem 1 {#top-i-s6-thm-1 .statement}
 
-If $\mathscr{F}$ is any filter on a set $X$, there is an ultrafilter finer than $\mathscr{F}$.
+If $\mathfrak{F}$ is any filter on a set $X$, there is an ultrafilter finer than $\mathfrak{F}$.
 
 #### Proposition 5 {#top-i-s6-prop-5 .statement}
 
-Let $\mathscr{F}$ be an ultrafilter on a set $X$. If $A$ and $B$ are two subsets of $X$ such that $A \cup B \in \mathscr{F}$, then either $A \in \mathscr{F}$ or $B \in \mathscr{F}$.
+Let $\mathfrak{F}$ be an ultrafilter on a set $X$. If $A$ and $B$ are two subsets of $X$ such that $A \cup B \in \mathfrak{F}$, then either $A \in \mathfrak{F}$ or $B \in \mathfrak{F}$.
 
-If the proposition is false, there exist subsets $A$ and $B$ of $X$ such that $A \notin \mathscr{F}$ and $B \notin \mathscr{F}$ and $A \cup B \in \mathscr{F}$. Let $\mathscr{G}$ be the set of subsets $M$ of $X$ such that $A \cup M \in \mathscr{F}$. It is straightforward to check that $\mathscr{G}$ is a filter on $X$, and $\mathscr{G}$ is strictly finer than $\mathscr{F}$, since $B \in \mathscr{G}$; but this contradicts the hypothesis that $\mathscr{F}$ is an ultrafilter.
+If the proposition is false, there exist subsets $A$ and $B$ of $X$ such that $A \notin \mathfrak{F}$ and $B \notin \mathfrak{F}$ and $A \cup B \in \mathfrak{F}$. Let $\mathfrak{G}$ be the set of subsets $M$ of $X$ such that $A \cup M \in \mathfrak{F}$. It is straightforward to check that $\mathfrak{G}$ is a filter on $X$, and $\mathfrak{G}$ is strictly finer than $\mathfrak{F}$, since $B \in \mathfrak{G}$; but this contradicts the hypothesis that $\mathfrak{F}$ is an ultrafilter.
 
 #### Corollary {#top-i-s6-n4-cor-1 .statement}
 
-*If the union of a finite sequence* $(A_i)_{1 \leq i \leq n}$ *of subsets of* $X$ *belongs to an ultrafilter* $\mathscr{F}$, *then at least one of the* $A_i$ *belongs to* $\mathscr{F}$.
+*If the union of a finite sequence* $(A_i)_{1 \leq i \leq n}$ *of subsets of* $X$ *belongs to an ultrafilter* $\mathfrak{F}$, *then at least one of the* $A_i$ *belongs to* $\mathfrak{F}$.
 
 Proof is by induction on $n$.
-In particular, if $(A_i)_{1 \leq i \leq n}$ is a *covering* of $X$, then at least one of the $A_i$ belongs to $\mathscr{F}$.
+In particular, if $(A_i)_{1 \leq i \leq n}$ is a *covering* of $X$, then at least one of the $A_i$ belongs to $\mathfrak{F}$.
 Proposition 5 *characterizes* the ultrafilters; more generally, we have:
 
 #### Proposition 6 {#top-i-s6-prop-6 .statement}
 
-*Let* $\mathscr{G}$ *be a subbase of a filter on a set* $X$. *If for each subset* $Y$ *of* $X$ *we have either* $Y \in \mathscr{G}$ *or* $\complement Y \in \mathscr{G}$, *then* $\mathscr{G}$ *is an ultrafilter on* $X$.
+*Let* $\mathfrak{G}$ *be a subbase of a filter on a set* $X$. *If for each subset* $Y$ *of* $X$ *we have either* $Y \in \mathfrak{G}$ *or* $\complement Y \in \mathfrak{G}$, *then* $\mathfrak{G}$ *is an ultrafilter on* $X$.
 
-Let $\mathscr{F}$ be a filter containing $\mathscr{G}$ (there is one, by hypothesis); then $\mathscr{F}$ coincides with $\mathscr{G}$; for if $Y \in \mathscr{F}$ then $\complement Y \notin \mathscr{F}$; hence $\complement Y \notin \mathscr{G}$ and therefore $Y \in \mathscr{G}$.
+Let $\mathfrak{F}$ be a filter containing $\mathfrak{G}$ (there is one, by hypothesis); then $\mathfrak{F}$ coincides with $\mathfrak{G}$; for if $Y \in \mathfrak{F}$ then $\complement Y \notin \mathfrak{F}$; hence $\complement Y \notin \mathfrak{G}$ and therefore $Y \in \mathfrak{G}$.
 
 *Example of an ultrafilter.* The set of all subsets of a non-empty set $X$ which contain a given element $a \in X$ is an ultrafilter; for it is a filter, and if $Y$ is any subset of $X$ then either $a \in Y$ or $a \in \complement Y$. Such ultrafilters are called *trivial*.
 
@@ -217,15 +217,15 @@ If $X$ contains at least two elements, there are at least two distinct ultrafilt
 
 #### Proposition 7 {#top-i-s6-prop-7 .statement}
 
-*Every filter* $\mathscr{F}$ *on a set* $X$ *is the intersection of the ultrafilters finer than* $\mathscr{F}$.
+*Every filter* $\mathfrak{F}$ *on a set* $X$ *is the intersection of the ultrafilters finer than* $\mathfrak{F}$.
 
-Clearly this intersection contains $\mathscr{F}$. Conversely, let $A$ be a subset of $X$ which does not belong to $\mathscr{F}$, and let $A'$ denote $\complement A$; $A$ contains no set of $\mathscr{F}$; hence every $M \in \mathscr{F}$ meets $A'$ and therefore (no. 2, Proposition 1, Corollary 1) there is a filter $\mathscr{F}'$ which is finer than $\mathscr{F}$ and contains $A'$. If $\mathscr{U}$ is an ultrafilter finer than $\mathscr{F}'$ (Theorem 1) it follows that $A \notin \mathscr{U}$. This completes the proof.
+Clearly this intersection contains $\mathfrak{F}$. Conversely, let $A$ be a subset of $X$ which does not belong to $\mathfrak{F}$, and let $A'$ denote $\complement A$; $A$ contains no set of $\mathfrak{F}$; hence every $M \in \mathfrak{F}$ meets $A'$ and therefore (no. 2, Proposition 1, Corollary 1) there is a filter $\mathfrak{F}'$ which is finer than $\mathfrak{F}$ and contains $A'$. If $\mathfrak{U}$ is an ultrafilter finer than $\mathfrak{F}'$ (Theorem 1) it follows that $A \notin \mathfrak{U}$. This completes the proof.
 
 ### 5. INDUCED FILTER
 
 #### Proposition 8 {#top-i-s6-prop-8 .statement}
 
-*Let* $\mathscr{F}$ *be a filter on a set* $X$ *and* $A$ *a subset of* $X$. *Then the trace* $\mathscr{F}_A$ *of* $\mathscr{F}$ *on* $A$ *is a filter if and only if each set of* $\mathscr{F}$ *meets* $A$.
+*Let* $\mathfrak{F}$ *be a filter on a set* $X$ *and* $A$ *a subset of* $X$. *Then the trace* $\mathfrak{F}_A$ *of* $\mathfrak{F}$ *on* $A$ *is a filter if and only if each set of* $\mathfrak{F}$ *meets* $A$.
 
 Since $(M \cap N) \cap A = (M \cap A) \cap (N \cap A)$ we see that $\mathfrak{F}_A$ satisfies $(\mathrm{F}_{\mathrm{II}})$; again, if $M \cap A \subset P \subset A$ then $P = (M \cup P) \cap A$, whence $\mathfrak{F}_A$ satisfies $(\mathrm{F}_1)$. Hence $\mathfrak{F}_A$ is a filter if and only if it satisfies $(\mathrm{F}_{\mathrm{III}})$, i.e. if and only if each set of $\mathfrak{F}$ meets $A$.
 
@@ -239,9 +239,9 @@ If a filter $\mathfrak{F}$ on $X$ induces a filter on $A \subset X$, then the tr
 
 #### Example {#top-i-s6-n5-exa-1 .statement}
 
-Let $X$ be a topological space, $A$ a subset of $X$, $x$ a point of $X$. In order that the trace on $A$ of the *neighbourhood filter* $\mathscr{B}$ of $x$ should be a filter on $A$, it is necessary and sufficient that every neighbourhood of $x$ meets $A$, i.e. that $x$ lies in the *closure* of $A$ (§ 1, no. 6, Definition 10).
+Let $X$ be a topological space, $A$ a subset of $X$, $x$ a point of $X$. In order that the trace on $A$ of the *neighbourhood filter* $\mathfrak{B}$ of $x$ should be a filter on $A$, it is necessary and sufficient that every neighbourhood of $x$ meets $A$, i.e. that $x$ lies in the *closure* of $A$ (§ 1, no. 6, Definition 10).
 
-This example of an induced filter is of interest for two reasons: first because it plays an important role in the theory of limits (§ 7, no. 5) and secondly because *every filter can be defined in this way*. Indeed, let $\mathfrak{F}$ be a filter on a set $X$ and let $X'$ be the set obtained by *adjoining* a new element $\omega$ to $X$, $X$ being identified with the complement of $\{ \omega \}$ in $X'$ (*Set Theory*, R, § 4, no. 5); let $\mathfrak{F}'$ be the filter on $X'$ consisting of the sets $M \cup \{ \omega \}$ where $M$ runs through $\mathfrak{F}$. For each point $x \neq \omega$ of $X'$, let $\mathscr{B}(x)$ be the set of all subsets of $X'$ which contain $x$, and let $\mathscr{B}(\omega)$ be $\mathfrak{F}'$; then the $\mathscr{B}(x)$ for $x \in X'$ obviously satisfy axioms $(\mathrm{V}_1), (\mathrm{V}_{\mathrm{II}}), (\mathrm{V}_{\mathrm{III}})$ and $(\mathrm{V}_{\mathrm{IV}})$ and therefore define a topology on $X'$ for which they are the neighbourhood filters of points. Finally $\omega$ lies in the *closure* of $X$ in this topology, and $\mathfrak{F}$ is induced by $\mathfrak{F}' = \mathscr{B}(\omega)$ on $X$. The topology thus defined on $X'$ (resp. the set $X'$ with this topology) is called the *topology* (resp. the *topological space*) *associated with* $\mathfrak{F}$.
+This example of an induced filter is of interest for two reasons: first because it plays an important role in the theory of limits (§ 7, no. 5) and secondly because *every filter can be defined in this way*. Indeed, let $\mathfrak{F}$ be a filter on a set $X$ and let $X'$ be the set obtained by *adjoining* a new element $\omega$ to $X$, $X$ being identified with the complement of $\{ \omega \}$ in $X'$ (*Set Theory*, R, § 4, no. 5); let $\mathfrak{F}'$ be the filter on $X'$ consisting of the sets $M \cup \{ \omega \}$ where $M$ runs through $\mathfrak{F}$. For each point $x \neq \omega$ of $X'$, let $\mathfrak{B}(x)$ be the set of all subsets of $X'$ which contain $x$, and let $\mathfrak{B}(\omega)$ be $\mathfrak{F}'$; then the $\mathfrak{B}(x)$ for $x \in X'$ obviously satisfy axioms $(\mathrm{V}_1), (\mathrm{V}_{\mathrm{II}}), (\mathrm{V}_{\mathrm{III}})$ and $(\mathrm{V}_{\mathrm{IV}})$ and therefore define a topology on $X'$ for which they are the neighbourhood filters of points. Finally $\omega$ lies in the *closure* of $X$ in this topology, and $\mathfrak{F}$ is induced by $\mathfrak{F}' = \mathfrak{B}(\omega)$ on $X$. The topology thus defined on $X'$ (resp. the set $X'$ with this topology) is called the *topology* (resp. the *topological space*) *associated with* $\mathfrak{F}$.
 
 #### Proposition 9 {#top-i-s6-prop-9 .statement}
 
@@ -251,27 +251,27 @@ This is an immediate consequence of Propositions 5 and 6 of no. 4.
 
 ### 6. DIRECT IMAGE AND INVERSE IMAGE OF A FILTER BASE
 
-Let $\mathscr{B}$ be a filter base on a set $X$, and let $f$ be a mapping of $X$ into a set $X'$; then $f(\mathscr{B})$ is a *filter base* on $X'$, for the relation $M \neq \emptyset$ implies $f(M) \neq \emptyset$, and we have $f(M \cap N) \subset f(M) \cap f(N)$. If $\mathscr{B}_1$ is a base of a filter which is *finer* than the filter of base $\mathscr{B}$, then $f(\mathscr{B}_1)$ is a base of a filter *finer* than the filter of base $f(\mathscr{B})$ (no. 3, Proposition 4).
+Let $\mathfrak{B}$ be a filter base on a set $X$, and let $f$ be a mapping of $X$ into a set $X'$; then $f(\mathfrak{B})$ is a *filter base* on $X'$, for the relation $M \neq \emptyset$ implies $f(M) \neq \emptyset$, and we have $f(M \cap N) \subset f(M) \cap f(N)$. If $\mathfrak{B}_1$ is a base of a filter which is *finer* than the filter of base $\mathfrak{B}$, then $f(\mathfrak{B}_1)$ is a base of a filter *finer* than the filter of base $f(\mathfrak{B})$ (no. 3, Proposition 4).
 
 #### Proposition 10 {#top-i-s6-prop-10 .statement}
 
-*If $\mathscr{B}$ is an ultrafilter base on a set $X$ and if $f$ is a mapping of $X$ into a set $X'$, than $f(\mathscr{B})$ is an ultrafilter base on $X'$.*
+*If $\mathfrak{B}$ is an ultrafilter base on a set $X$ and if $f$ is a mapping of $X$ into a set $X'$, than $f(\mathfrak{B})$ is an ultrafilter base on $X'$.*
 
-Let $M'$ be a subset of $X'$. If $\overline{f}^{-1}(M')$ contains a set $M$ of $\mathscr{B}$, then $M'$ contains $f(M)$; if not, then $\mathscr{C}_{\overline{f}}^{-1}(M') = \overline{f}^{-1}\mathscr{C}(M')$ contains a set $N$ of $\mathscr{B}$ (no. 4, Proposition 5) and therefore $\mathscr{C}M'$ contains $f(N)$. Hence the result follows from Proposition 6 of no. 4.
+Let $M'$ be a subset of $X'$. If $\overline{f}^{-1}(M')$ contains a set $M$ of $\mathfrak{B}$, then $M'$ contains $f(M)$; if not, then $\mathscr{C}_{\overline{f}}^{-1}(M') = \overline{f}^{-1}\mathscr{C}(M')$ contains a set $N$ of $\mathfrak{B}$ (no. 4, Proposition 5) and therefore $\mathscr{C}M'$ contains $f(N)$. Hence the result follows from Proposition 6 of no. 4.
 
-Consider in particular the case where $f$ is the canonical injection $A \to X$ of a subset $A$ of a set $X$. If $\mathscr{B}$ is a filter base on $A$ then $f(\mathscr{B})$ is a filter base on $X$. The filter $\mathfrak{F}$ on $X$ generated by $f(\mathscr{B})$ is called the *filter generated by $\mathscr{B}$ when $\mathscr{B}$ is considered as a filter base on $X$*. If $\mathscr{B}$ is an *ultrafilter base* on $A$ it is also an *ultrafilter base* on $X$ by reason of Proposition 10.
+Consider in particular the case where $f$ is the canonical injection $A \to X$ of a subset $A$ of a set $X$. If $\mathfrak{B}$ is a filter base on $A$ then $f(\mathfrak{B})$ is a filter base on $X$. The filter $\mathfrak{F}$ on $X$ generated by $f(\mathfrak{B})$ is called the *filter generated by $\mathfrak{B}$ when $\mathfrak{B}$ is considered as a filter base on $X$*. If $\mathfrak{B}$ is an *ultrafilter base* on $A$ it is also an *ultrafilter base* on $X$ by reason of Proposition 10.
 
-Let us next examine whether the *inverse image* of a filter base is a filter base. Let $\mathscr{B}'$ be a filter base on a set $X'$, and let $f$ be a mapping of a set $X$ into $X'$; then $\overline{f}^{-1}(\mathscr{B}')$ is a filter base on $X$ *if and only if* $\overline{f}^{-1}(M') \neq \varnothing$ *for each* $M' \in \mathscr{B}'$. This is an immediate consequence of the relation $\overline{f}^{-1}(M' \cap N') = \overline{f}^{-1}(M') \cap \overline{f}^{-1}(N')$ and of Definition 3 of no. 3. This condition can also be expressed by saying that *every set of $\mathscr{B}'$ meets $f(X)$* [or that the trace of $\mathscr{B}'$ on $f(X)$ is a filter base]. If this condition is satisfied, then $f(\overline{f}^{-1}(\mathscr{B}'))$ is a base of a filter *finer* than the filter of base $\mathscr{B}$.
+Let us next examine whether the *inverse image* of a filter base is a filter base. Let $\mathfrak{B}'$ be a filter base on a set $X'$, and let $f$ be a mapping of a set $X$ into $X'$; then $\overline{f}^{-1}(\mathfrak{B}')$ is a filter base on $X$ *if and only if* $\overline{f}^{-1}(M') \neq \varnothing$ *for each* $M' \in \mathfrak{B}'$. This is an immediate consequence of the relation $\overline{f}^{-1}(M' \cap N') = \overline{f}^{-1}(M') \cap \overline{f}^{-1}(N')$ and of Definition 3 of no. 3. This condition can also be expressed by saying that *every set of $\mathfrak{B}'$ meets $f(X)$* [or that the trace of $\mathfrak{B}'$ on $f(X)$ is a filter base]. If this condition is satisfied, then $f(\overline{f}^{-1}(\mathfrak{B}'))$ is a base of a filter *finer* than the filter of base $\mathfrak{B}$.
 
-If $\mathscr{B}$ is a filter base on $X$ it is clear that the above condition is satisfied by $\mathscr{B}' = f(\mathscr{B}); \; \overline{f}^{-1}(f(\mathscr{B}))$ is then a base of a filter *coarser* than the filter of base $\mathscr{B}$.
+If $\mathfrak{B}$ is a filter base on $X$ it is clear that the above condition is satisfied by $\mathfrak{B}' = f(\mathfrak{B}); \; \overline{f}^{-1}(f(\mathfrak{B}))$ is then a base of a filter *coarser* than the filter of base $\mathfrak{B}$.
 
-Let $A$ be a subset of a set $X$, $\varphi$ the canonical injection $A \to X$; if $\mathscr{B}$ is a filter base on $X$ then $\overline{\varphi}^{-1}(\mathscr{B})$ is the same as $\mathscr{B}_A$. If we express this as a filter base of $A$ by means of the above condition, we recover part of Proposition 8 of no. 5.
+Let $A$ be a subset of a set $X$, $\varphi$ the canonical injection $A \to X$; if $\mathfrak{B}$ is a filter base on $X$ then $\overline{\varphi}^{-1}(\mathfrak{B})$ is the same as $\mathfrak{B}_A$. If we express this as a filter base of $A$ by means of the above condition, we recover part of Proposition 8 of no. 5.
 
 ### 7. PRODUCT OF FILTERS
 
-Let $(X_i)_{i \in I}$ be a family of sets, and for each $i \in I$ let $\mathscr{B}_i$ be a *filter base* on $X_i$. Let $\mathscr{B}$ be the set of subsets of the product set $X = \prod_{i \in I} X_i$ which are of the form $\prod_{i \in I} M_i$, where $M_i = X_i$ except for a *finite* number of indices and where $M_i \in \mathscr{B}_i$ for each $i$ such that $M_i \neq X_i$. The formula $\left( \prod_{i \in I} M_i \right) \cap \left( \prod_{i \in I} N_i \right) = \prod_{i \in I} (M_i \cap N_i)$ shows that $\mathscr{B}$ is a *filter base* on $X$. Note that the filter of base $\mathscr{B}$ is also generated by the
+Let $(X_i)_{i \in I}$ be a family of sets, and for each $i \in I$ let $\mathfrak{B}_i$ be a *filter base* on $X_i$. Let $\mathfrak{B}$ be the set of subsets of the product set $X = \prod_{i \in I} X_i$ which are of the form $\prod_{i \in I} M_i$, where $M_i = X_i$ except for a *finite* number of indices and where $M_i \in \mathfrak{B}_i$ for each $i$ such that $M_i \neq X_i$. The formula $\left( \prod_{i \in I} M_i \right) \cap \left( \prod_{i \in I} N_i \right) = \prod_{i \in I} (M_i \cap N_i)$ shows that $\mathfrak{B}$ is a *filter base* on $X$. Note that the filter of base $\mathfrak{B}$ is also generated by the
 
-sets $\overline{\mathrm{pr}}_x^{-1}(M_x)$, where $M_x \in \mathscr{B}_x$ and $x$ runs through $I$, since
+sets $\overline{\mathrm{pr}}_x^{-1}(M_x)$, where $M_x \in \mathfrak{B}_x$ and $x$ runs through $I$, since
 $$
 \overline{\mathrm{pr}}_x^{-1}(M_x) = M_x \times \prod_{i \neq x} X_i.
 $$
@@ -282,7 +282,7 @@ $$
 
 The reader may easily verify that the product of the filters $\mathfrak{F}_i$ can also be defined as the *coarsest* filter $\mathfrak{G}$ on $X$ such that $\mathrm{pr}_i(\mathfrak{G}) = \mathfrak{F}_i$ for each $i \in I$.
 
-The preceding remarks show that if $\mathscr{B}_i$ is a base of $\mathfrak{F}_i$ for each $i \in I$, then $\mathscr{B}$ is a *base* of the product filter $\prod_{i \in I} \mathfrak{F}_i$ (no. 3, Proposition 3).
+The preceding remarks show that if $\mathfrak{B}_i$ is a base of $\mathfrak{F}_i$ for each $i \in I$, then $\mathfrak{B}$ is a *base* of the product filter $\prod_{i \in I} \mathfrak{F}_i$ (no. 3, Proposition 3).
 
 On a product $X = \prod_{i \in I} X_i$ of topological spaces, the neighbourhood filter of any point $x = (x_i)$ is the *product* of the neighbourhood filters of the $x_i$ (§ 4, no. 1).
 

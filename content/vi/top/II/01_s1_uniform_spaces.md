@@ -36,17 +36,17 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 #### Định nghĩa 1 {#top-ii-s1-def-1 .statement}
 
-*Một cấu trúc uniform* (hay *uniformity*) *trên một tập hợp* $X$ *là một cấu trúc được cho bởi một tập hợp* $\mathscr{U}$ *các tập con của* $X \times X$ *thỏa mãn các tiên đề* $(\mathrm{F}_1)$ *và* $(\mathrm{F}_{\mathrm{II}})$ *của Chương I, § 6, no. 1 và cũng thỏa mãn các tiên đề sau*:
+*Một cấu trúc uniform* (hay *uniformity*) *trên một tập hợp* $X$ *là một cấu trúc được cho bởi một tập hợp* $\mathfrak{U}$ *các tập con của* $X \times X$ *thỏa mãn các tiên đề* $(\mathrm{F}_1)$ *và* $(\mathrm{F}_{\mathrm{II}})$ *của Chương I, § 6, no. 1 và cũng thỏa mãn các tiên đề sau*:
 
-(U₁) *Mọi tập hợp thuộc* $\mathscr{U}$ *đều chứa đường chéo* $\Delta$.
+(U₁) *Mọi tập hợp thuộc* $\mathfrak{U}$ *đều chứa đường chéo* $\Delta$.
 
-(U₂) *Nếu* $V \in \mathscr{U}$ *thì* $\overline{V}^{-1} \in \mathscr{U}$.
+(U₂) *Nếu* $V \in \mathfrak{U}$ *thì* $\overline{V}^{-1} \in \mathfrak{U}$.
 
-(U₃) *Với mỗi* $V \in \mathscr{U}$ *tồn tại* $W \in \mathscr{U}$ *sao cho* $W \circ W \subset V$.
+(U₃) *Với mỗi* $V \in \mathfrak{U}$ *tồn tại* $W \in \mathfrak{U}$ *sao cho* $W \circ W \subset V$.
 
 ![Hình 2](../images/chapter_ii_uniform_structures.png)
 
-Các tập hợp của $\mathscr{U}$ được gọi là các lân cận của uniformity xác định trên $X$ bởi $\mathscr{U}$. Một tập hợp được trang bị một uniformity được gọi là một không gian uniform.
+Các tập hợp của $\mathfrak{U}$ được gọi là các lân cận của uniformity xác định trên $X$ bởi $\mathfrak{U}$. Một tập hợp được trang bị một uniformity được gọi là một không gian uniform.
 
 Nếu $V$ là một lân cận của một uniformity trên $X$, ta có thể biểu thị quan hệ $(x, x') \in V$ bằng cách nói rằng "$x$ và $x'$ là $V$-gần".
 
@@ -60,31 +60,31 @@ R $\{ x, y \}$ là đúng bất cứ khi nào $x$ và $y$ đủ gần nếu tồ
 
 Phép hội của các tiên đề (U_{II}) và (U_{III}) là tương đương (giả sử các tiên đề khác của các cấu trúc uniform) với tiên đề sau:
 
-(U_a) Với mỗi $V \in \mathscr{U}$ tồn tại $W \in \mathscr{U}$ sao cho $W \circ \overline{W} \subset V$ (*).
+(U_a) Với mỗi $V \in \mathfrak{U}$ tồn tại $W \in \mathfrak{U}$ sao cho $W \circ \overline{W} \subset V$ (*).
 
-Rõ ràng (U_{II}) và (U_{III}) kéo theo (U_a). Ngược lại, nếu (U_a) được thỏa mãn thì ta có $\overline{W} = \Delta \circ W \subset V$, bởi (U_I); do đó $W \subset \overline{V}$ và vì vậy [bởi (F_1)] $\overline{V} \in \mathscr{U}$. Đặt $W' = W \cap \overline{W}$; khi đó $W' \in \mathscr{U}$ bởi điều vừa được chứng minh và tiên đề (F_{II}), và ta có $W' \circ W' \subset W \circ \overline{W} \subset V$.
+Rõ ràng (U_{II}) và (U_{III}) kéo theo (U_a). Ngược lại, nếu (U_a) được thỏa mãn thì ta có $\overline{W} = \Delta \circ W \subset V$, bởi (U_I); do đó $W \subset \overline{V}$ và vì vậy [bởi (F_1)] $\overline{V} \in \mathfrak{U}$. Đặt $W' = W \cap \overline{W}$; khi đó $W' \in \mathfrak{U}$ bởi điều vừa được chứng minh và tiên đề (F_{II}), và ta có $W' \circ W' \subset W \circ \overline{W} \subset V$.
 
 Trong suốt chương này ta sẽ viết $\overline{V}^2$ thay cho $V \circ V$, và nói chung $\overline{V}^{n-1} = \overline{V} \circ V = V \circ \overline{V}^{n-1}$, với mỗi số nguyên $n > 1$ và mỗi tập con $V$ của $X \times X$.
 
 #### Nhận xét 3 {#top-ii-s1-n1-rem-3 .statement}
 
-Nếu $X$ không rỗng, thì tiên đề (U_I) kéo theo rằng không có tập hợp nào của $\mathscr{U}$ là rỗng, và do đó $\mathscr{U}$ là một lọc trên $X \times X$. Chỉ có một uniformity trên tập rỗng, đó là $\mathscr{U} = \{ \emptyset \}$.
+Nếu $X$ không rỗng, thì tiên đề (U_I) kéo theo rằng không có tập hợp nào của $\mathfrak{U}$ là rỗng, và do đó $\mathfrak{U}$ là một lọc trên $X \times X$. Chỉ có một uniformity trên tập rỗng, đó là $\mathfrak{U} = \{ \emptyset \}$.
 
 #### Định nghĩa 2 {#top-ii-s1-def-2 .statement}
 
-Một hệ cơ sở các lân cận của một uniformity là bất kỳ tập hợp $\mathscr{B}$ các lân cận nào sao cho mọi lân cận đều chứa một tập hợp thuộc $\mathscr{B}$.
+Một hệ cơ sở các lân cận của một uniformity là bất kỳ tập hợp $\mathfrak{B}$ các lân cận nào sao cho mọi lân cận đều chứa một tập hợp thuộc $\mathfrak{B}$.
 
 Tiên đề (U_{III}) cho thấy rằng nếu $n$ là bất kỳ số nguyên $> 0$ nào và $V$ chạy qua một hệ cơ sở các lân cận, thì các tập hợp $\overline{V}^n$ lại tạo thành một hệ cơ sở các lân cận.
 
 Các lân cận $V$ sao cho $V = \overline{V}^1$ được gọi là đối xứng. Nếu $V$ là một lân cận bất kỳ, thì $V \cap \overline{V}^1$ và $V \cup \overline{V}^1$ là các lân cận đối xứng, và các tiên đề (F_{II}) và (U_{II}) chỉ ra rằng các lân cận đối xứng tạo thành một hệ cơ bản các lân cận.
 
-Một tập hợp $\mathscr{B}$ các tập con của $X \times X$ là một hệ cơ bản các lân cận của một cấu trúc đều trên $X$ khi và chỉ khi $\mathscr{B}$ thỏa mãn tiên đề (B_I) của Chương I, § 6, no. 3, và cũng thỏa mãn các tiên đề sau:
+Một tập hợp $\mathfrak{B}$ các tập con của $X \times X$ là một hệ cơ bản các lân cận của một cấu trúc đều trên $X$ khi và chỉ khi $\mathfrak{B}$ thỏa mãn tiên đề (B_I) của Chương I, § 6, no. 3, và cũng thỏa mãn các tiên đề sau:
 
-(U'_I) Mọi tập hợp của $\mathscr{B}$ đều chứa đường chéo $\Delta$.
+(U'_I) Mọi tập hợp của $\mathfrak{B}$ đều chứa đường chéo $\Delta$.
 
-(U'_II) Với mỗi $V \in \mathscr{B}$ tồn tại $V' \in \mathscr{B}$ sao cho $V' \subset \overline{V}^1$.
+(U'_II) Với mỗi $V \in \mathfrak{B}$ tồn tại $V' \in \mathfrak{B}$ sao cho $V' \subset \overline{V}^1$.
 
-(U'_III) Với mỗi $V \in \mathscr{B}$ tồn tại $W \in \mathscr{B}$ sao cho $\overline{W}^2 \subset V$.
+(U'_III) Với mỗi $V \in \mathfrak{B}$ tồn tại $W \in \mathfrak{B}$ sao cho $\overline{W}^2 \subset V$.
 
 Nếu $X$ không rỗng, một hệ cơ bản các lân cận của một cấu trúc đều trên $X$ là một cơ sở của bộ lọc được tạo bởi các lân cận của cấu trúc này (Chương I, § 6, no. 3, Mệnh đề 3).
 
@@ -102,17 +102,17 @@ Chẳng hạn, nếu $X$ và $X'$ là hai tập hợp cùng lực lượng, thì
 
 #### Mệnh đề 1 {#top-ii-s1-prop-1 .statement}
 
-*Cho $X$ là một tập hợp được trang bị một cấu trúc đều $U$, và với mỗi $x \in X$ ký hiệu $\mathscr{B}(x)$ là tập hợp các tập con $V(x)$ của $X (*)$, trong đó $V$ chạy qua tập hợp các lân cận của $U$. Khi đó tồn tại duy nhất một tôpô trên $X$ sao cho, với mỗi $x \in X$, $\mathscr{B}(x)$ là lọc lân cận của $x$ trong tôpô này.*
+*Cho $X$ là một tập hợp được trang bị một cấu trúc đều $U$, và với mỗi $x \in X$ ký hiệu $\mathfrak{B}(x)$ là tập hợp các tập con $V(x)$ của $X (*)$, trong đó $V$ chạy qua tập hợp các lân cận của $U$. Khi đó tồn tại duy nhất một tôpô trên $X$ sao cho, với mỗi $x \in X$, $\mathfrak{B}(x)$ là lọc lân cận của $x$ trong tôpô này.*
 
-Ta phải chứng minh rằng $\mathscr{B}(x)$ thỏa mãn các điều kiện (V_I), (V_{II}), (V_{III}) và (V_{IV}) của Chương I, § 1, no. 2. Việc điều này đúng đối với ba điều kiện đầu tiên trong
+Ta phải chứng minh rằng $\mathfrak{B}(x)$ thỏa mãn các điều kiện (V_I), (V_{II}), (V_{III}) và (V_{IV}) của Chương I, § 1, no. 2. Việc điều này đúng đối với ba điều kiện đầu tiên trong
 
 (*) Ta nhắc lại (*Lý thuyết tập hợp, R, § 3, no. 7*) rằng nếu $V$ là một tập con bất kỳ của $X \times X$ và $x$ là một phần tử bất kỳ của $X$, thì $V(x)$ ký hiệu tập hợp tất cả các $y \in X$ sao cho $(x, y) \in V$.
 
-các điều kiện này suy ra ngay lập tức từ sự kiện rằng các lân cận của $\mathscr{U}$ thỏa mãn $(\mathbf{F}_I),\ (\mathbf{F}_{II})$ và $(\mathbf{U}_I)$. Đối với $(\mathbf{V}_{IV})$, cho $V$ là một lân cận của $\mathscr{U}$, $W$ là một lân cận của $\mathscr{U}$ sao cho $\dot{W} \subset V$; khi đó nếu $(x, y) \in W$ và $(y, z) \in W$ thì ta có $(x, z) \in V$, do đó $W(y) \subset V(x)$ với mọi $y \in W(x)$, và vì vậy $V(x) \in \mathfrak{B}(y)$ với mọi $y \in W(x)$. Điều này hoàn tất chứng minh.
+các điều kiện này suy ra ngay lập tức từ sự kiện rằng các lân cận của $\mathfrak{U}$ thỏa mãn $(\mathbf{F}_I),\ (\mathbf{F}_{II})$ và $(\mathbf{U}_I)$. Đối với $(\mathbf{V}_{IV})$, cho $V$ là một lân cận của $\mathfrak{U}$, $W$ là một lân cận của $\mathfrak{U}$ sao cho $\dot{W} \subset V$; khi đó nếu $(x, y) \in W$ và $(y, z) \in W$ thì ta có $(x, z) \in V$, do đó $W(y) \subset V(x)$ với mọi $y \in W(x)$, và vì vậy $V(x) \in \mathfrak{B}(y)$ với mọi $y \in W(x)$. Điều này hoàn tất chứng minh.
 
 #### Định nghĩa 3 {#top-ii-s1-def-3 .statement}
 
-*Tôpô được xác định trong Mệnh đề 1 được gọi là tôpô cảm sinh bởi cấu trúc đều $\mathscr{U}$.*
+*Tôpô được xác định trong Mệnh đề 1 được gọi là tôpô cảm sinh bởi cấu trúc đều $\mathfrak{U}$.*
 
 #### Ví dụ 1 {#top-ii-s1-n2-exa-1 .statement}
 
@@ -175,7 +175,7 @@ Nếu $V$ là một quan hệ lân cận bất kỳ của $X$, thì tồn tại 
 
 Mệnh đề sau đây suy ra ngay lập tức từ Hệ quả 3 của Mệnh đề 2. Ta đã thấy rằng các quan hệ lân cận đóng tạo thành một hệ các quan hệ lân cận cơ bản (Mệnh đề 2, Hệ quả 2); nếu giao của chúng là $\Delta$, thì $\Delta$ đóng trong $X \times X$ và do đó $X$ là Hausdorff (Chương I, § 8, No. 1, Mệnh đề 1). Ngược lại, nếu $X$ là Hausdorff thì với mọi điểm $(x, y) \notin \Delta$ tồn tại một quan hệ lân cận $V$ của $X$ sao cho $y \notin V(x)$, hay tương đương $(x, y) \notin V$; do đó $\Delta$ là giao của tất cả các quan hệ lân cận.
 
-Nếu một không gian đều $X$ là Hausdorff, ta nói rằng cấu trúc đều của $X$ là *Hausdorff*. Nếu $\mathscr{B}$ là một hệ các quan hệ lân cận cơ bản của cấu trúc này; thì $X$ là Hausdorff khi và chỉ khi giao của tất cả các tập hợp của $\mathscr{B}$ là $\Delta$.
+Nếu một không gian đều $X$ là Hausdorff, ta nói rằng cấu trúc đều của $X$ là *Hausdorff*. Nếu $\mathfrak{B}$ là một hệ các quan hệ lân cận cơ bản của cấu trúc này; thì $X$ là Hausdorff khi và chỉ khi giao của tất cả các tập hợp của $\mathfrak{B}$ là $\Delta$.
 
 ### Bài tập {#top-ii-s1-exercises}
 

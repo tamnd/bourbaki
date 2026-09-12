@@ -38,7 +38,7 @@ statements: 23
 exercises: 7
 content_sha256: 74249f8b8a26a7637935453161a0c02cd1de74ab2060da9dd1117b9c550790b7
 translated_from: content/en/top/I/07_s7_limits.md
-source_content_sha256: 69f059608cd8143faf707f7cc5a28bb5bc47a9c3d4776fd8b77889c945ca3f66
+source_content_sha256: 9fb89618c14fd5991a8e1519c633089398f5b2527a1a36660bd487ce933a0152
 translation_model: gpt-5.4
 translation_run: translate-vi-65ba7a71
 glossary_version: 34
@@ -52,21 +52,21 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 #### Định nghĩa 1 {#top-i-s7-def-1 .statement}
 
-Cho $X$ là một không gian tôpô và $\mathfrak{F}$ là một bộ lọc trên $X$. Một điểm $x \in X$ được gọi là một điểm giới hạn (hoặc đơn giản là một giới hạn) của $\mathfrak{F}$, nếu $\mathfrak{F}$ mịn hơn bộ lọc lân cận $\mathscr{B}(x)$ của $x$; cũng nói rằng $\mathfrak{F}$ hội tụ (hoặc là hội tụ) đến $x$. *Điểm* $x$ *được gọi là một giới hạn của một cơ sở bộ lọc* $\mathscr{B}$ *trên* $X$, *và* $\mathscr{B}$ *được nói là hội tụ đến* $x$, *nếu bộ lọc có cơ sở là* $\mathscr{B}$ *hội tụ đến* $x$.
+Cho $X$ là một không gian tôpô và $\mathfrak{F}$ là một bộ lọc trên $X$. Một điểm $x \in X$ được gọi là một điểm giới hạn (hoặc đơn giản là một giới hạn) của $\mathfrak{F}$, nếu $\mathfrak{F}$ mịn hơn bộ lọc lân cận $\mathfrak{B}(x)$ của $x$; cũng nói rằng $\mathfrak{F}$ hội tụ (hoặc là hội tụ) đến $x$. *Điểm* $x$ *được gọi là một giới hạn của một cơ sở bộ lọc* $\mathfrak{B}$ *trên* $X$, *và* $\mathfrak{B}$ *được nói là hội tụ đến* $x$, *nếu bộ lọc có cơ sở là* $\mathfrak{B}$ *hội tụ đến* $x$.
 
 Định nghĩa này, cùng với Mệnh đề 4 của § 6, no. 3, cho tiêu chuẩn sau đây:
 
 #### Mệnh đề 1 {#top-i-s7-prop-1 .statement}
 
-*Một cơ sở lọc* $\mathscr{B}$ *trên một không gian tôpô* $X$ *hội tụ tới* $x$ *khi và chỉ khi mọi tập hợp của một hệ cơ bản các lân cận của* $x$ *đều chứa một tập hợp của* $\mathscr{B}$.
+*Một cơ sở lọc* $\mathfrak{B}$ *trên một không gian tôpô* $X$ *hội tụ tới* $x$ *khi và chỉ khi mọi tập hợp của một hệ cơ bản các lân cận của* $x$ *đều chứa một tập hợp của* $\mathfrak{B}$.
 
-Phù hợp với thuật ngữ được đưa vào ở § 1, no. 2, ta có thể phát biểu Mệnh đề 1 theo cách sau: $\mathscr{B}$ hội tụ tới $x$ khi và chỉ khi có những tập hợp của $\mathscr{B}$ *ở gần tùy ý của* $x$.
+Phù hợp với thuật ngữ được đưa vào ở § 1, no. 2, ta có thể phát biểu Mệnh đề 1 theo cách sau: $\mathfrak{B}$ hội tụ tới $x$ khi và chỉ khi có những tập hợp của $\mathfrak{B}$ *ở gần tùy ý của* $x$.
 
 Nếu một bộ lọc $\mathfrak{F}$ hội tụ tới $x$, thì mọi bộ lọc *mịn hơn* $\mathfrak{F}$ cũng hội tụ tới $x$, theo Định nghĩa 1. Tương tự, nếu tôpô của $X$ được thay bằng một tôpô *thô hơn*, thì bộ lọc lân cận của $x$ được thay bằng một bộ lọc *thô hơn* ($\S$ 2, no. 2, Mệnh đề 3), và do đó $\mathfrak{F}$ vẫn hội tụ tới $x$ trong tôpô mới này.
 
 Vì thế ta có thể nói rằng *tôpô càng mịn thì trong tôpô ấy càng có ít bộ lọc hội tụ*. Đặc biệt, trong tôpô rời rạc, các bộ lọc hội tụ duy nhất là các bộ lọc lân cận, vì đó là các siêu bộ lọc tầm thường trên $X$ ($\S$ 6, no. 4).
 
-Cho $\Phi$ là một tập hợp các bộ lọc trên $X$, tất cả đều hội tụ đến cùng một điểm $x$; bộ lọc lân cận $\mathscr{B}(x)$ thô hơn tất cả các bộ lọc của $\Phi$, vì thế cũng thô hơn *giao* $\mathfrak{J}$ của các bộ lọc này; nói cách khác, $\mathfrak{J}$ cũng hội tụ đến $x$.
+Cho $\Phi$ là một tập hợp các bộ lọc trên $X$, tất cả đều hội tụ đến cùng một điểm $x$; bộ lọc lân cận $\mathfrak{B}(x)$ thô hơn tất cả các bộ lọc của $\Phi$, vì thế cũng thô hơn *giao* $\mathfrak{J}$ của các bộ lọc này; nói cách khác, $\mathfrak{J}$ cũng hội tụ đến $x$.
 
 #### Mệnh đề 2 {#top-i-s7-prop-2 .statement}
 
@@ -80,9 +80,9 @@ Nói chung một bộ lọc có thể có *nhiều điểm giới hạn phân bi
 
 #### Định nghĩa 2 {#top-i-s7-def-2 .statement}
 
-*Trong một không gian tôpô* $X$, *một điểm* $x$ *là một điểm tụ của một cơ sở lọc* $\mathscr{B}$ *trên* $X$ *nếu nó nằm trong bao đóng của mọi tập hợp thuộc* $\mathscr{B}$.
+*Trong một không gian tôpô* $X$, *một điểm* $x$ *là một điểm tụ của một cơ sở lọc* $\mathfrak{B}$ *trên* $X$ *nếu nó nằm trong bao đóng của mọi tập hợp thuộc* $\mathfrak{B}$.
 
-Nếu $x$ là một điểm tụ của một cơ sở lọc $\mathscr{B}$, thì nó cũng là một điểm tụ của mọi cơ sở lọc *tương đương* theo § 6, no. 3, hệ quả của Mệnh đề 4; đặc biệt, $x$ là một điểm tụ của *bộ lọc* có cơ sở là $\mathscr{B}$.
+Nếu $x$ là một điểm tụ của một cơ sở lọc $\mathfrak{B}$, thì nó cũng là một điểm tụ của mọi cơ sở lọc *tương đương* theo § 6, no. 3, hệ quả của Mệnh đề 4; đặc biệt, $x$ là một điểm tụ của *bộ lọc* có cơ sở là $\mathfrak{B}$.
 
 #### Mệnh đề 3 {#top-i-s7-prop-3 .statement}
 
@@ -100,11 +100,11 @@ Mệnh đề này và Hệ quả 2 của Mệnh đề 1 ở § 6, no. 2 cho th�
 
 #### Hệ quả {#top-i-s7-n2-cor-1 .statement}
 
-*Một siêu bộ lọc $\mathscr{U}$ hội tụ đến một điểm x khi và chỉ khi x là một điểm tụ của $\mathscr{U}$.*
+*Một siêu bộ lọc $\mathfrak{U}$ hội tụ đến một điểm x khi và chỉ khi x là một điểm tụ của $\mathfrak{U}$.*
 
 Nếu x là một điểm tụ của một bộ lọc $\mathfrak{F}$, thì nó cũng là một điểm tụ của mọi bộ lọc *thô hơn* $\mathfrak{F}$; tương tự, nếu ta thay thế tôpô của X bằng một tôpô *thô hơn*, thì x vẫn là một điểm tụ của $\mathfrak{F}$ đối với tôpô mới.
 
-Theo định nghĩa, tập hợp các điểm tụ của một cơ sở bộ lọc $\mathscr{B}$ trên X là tập hợp $\bigcap_{M \in \mathscr{B}} \overline{M}$, do đó
+Theo định nghĩa, tập hợp các điểm tụ của một cơ sở bộ lọc $\mathfrak{B}$ trên X là tập hợp $\bigcap_{M \in \mathfrak{B}} \overline{M}$, do đó
 
 #### Mệnh đề 5 {#top-i-s7-prop-5 .statement}
 
@@ -112,7 +112,7 @@ Theo định nghĩa, tập hợp các điểm tụ của một cơ sở bộ l�
 
 #### Mệnh đề 6 {#top-i-s7-prop-6 .statement}
 
-*Cho $\mathscr{B}$ là một cơ sở bộ lọc trên một tập con A của một không gian tôpô X. Khi đó mọi điểm tụ của $\mathscr{B}$ trong X đều thuộc $\overline{A}$; và ngược lại mọi điểm của $\overline{A}$ đều là một điểm giới hạn của một bộ lọc trên A.*
+*Cho $\mathfrak{B}$ là một cơ sở bộ lọc trên một tập con A của một không gian tôpô X. Khi đó mọi điểm tụ của $\mathfrak{B}$ trong X đều thuộc $\overline{A}$; và ngược lại mọi điểm của $\overline{A}$ đều là một điểm giới hạn của một bộ lọc trên A.*
 
 Mệnh đề thứ nhất là tầm thường; mặt khác, nếu $x \in \overline{A}$, thì vết trên A của bộ lọc lân cận của x trong X là một bộ lọc trên A hiển nhiên hội tụ đến x.
 
@@ -153,7 +153,7 @@ Nếu $y$ là một giới hạn (tương ứng, điểm tụ) của một ánh 
 
 *Cho $f$ là một ánh xạ từ một tập hợp $X$ vào một không gian tôpô $Y$; khi đó $y \in Y$ là một điểm tụ của $f$ đối với $\mathfrak{F}$ nếu và chỉ nếu tồn tại một bộ lọc $\mathfrak{G}$ trên $X$ mịn hơn $\mathfrak{F}$ và sao cho $y$ là một giới hạn của $f$ đối với $\mathfrak{G}$.*
 
-Vì nếu $y$ là một điểm tụ của $f$ đối với $\mathfrak{F}$, và nếu $\mathscr{B}$ là bộ lọc lân cận của $y$, thì $\overline{f}^{-1}(\mathscr{B})$ là một cơ sở bộ lọc trên $X$ vì mọi tập hợp của $\overline{f}^{-1}(\mathscr{B})$ đều gặp mọi tập hợp của $\mathfrak{F}$ (§ 6, no. 6). Nhận xét này cũng cho thấy rằng có một bộ lọc $\mathscr{G}$ trên $X$ mịn hơn cả $\mathfrak{F}$ lẫn bộ lọc có cơ sở $\overline{f}^{-1}(\mathscr{B})$ (§ 6, no. 2, Mệnh đề 1, Hệ quả 2), do đó $y$ là một điểm giới hạn của $f$ đối với $\mathscr{G}$.
+Vì nếu $y$ là một điểm tụ của $f$ đối với $\mathfrak{F}$, và nếu $\mathfrak{B}$ là bộ lọc lân cận của $y$, thì $\overline{f}^{-1}(\mathfrak{B})$ là một cơ sở bộ lọc trên $X$ vì mọi tập hợp của $\overline{f}^{-1}(\mathfrak{B})$ đều gặp mọi tập hợp của $\mathfrak{F}$ (§ 6, no. 6). Nhận xét này cũng cho thấy rằng có một bộ lọc $\mathfrak{G}$ trên $X$ mịn hơn cả $\mathfrak{F}$ lẫn bộ lọc có cơ sở $\overline{f}^{-1}(\mathfrak{B})$ (§ 6, no. 2, Mệnh đề 1, Hệ quả 2), do đó $y$ là một điểm giới hạn của $f$ đối với $\mathfrak{G}$.
 
 Sau cùng, hãy lưu ý rằng nếu $f$ là một ánh xạ của một tập hợp $X$ vào một không gian tôpô $Y$, thì tập hợp các điểm tụ của $f$ đối với một bộ lọc $\mathfrak{F}$ trên $X$ là *đóng* trong $Y$ (no. 2, Mệnh đề 5) và có thể rỗng.
 
@@ -163,13 +163,13 @@ Nếu $y \in Y$ là một giới hạn (tương ứng, điểm tụ) của một
 
 ### 4. GIỚI HẠN VÀ TÍNH LIÊN TỤC
 
-Cho $X, Y$ là hai không gian tôpô, $f$ là một ánh xạ từ $X$ vào $Y$, $\mathscr{B}$ là bộ lọc lân cận trong $X$ của một điểm $a \in X$. Thay cho việc nói rằng $y \in Y$ là một giới hạn của $f$ đối với bộ lọc $\mathscr{B}$ và viết $y = \lim_{\mathscr{B}} f$, chúng tôi dùng ký hiệu đặc biệt
+Cho $X, Y$ là hai không gian tôpô, $f$ là một ánh xạ từ $X$ vào $Y$, $\mathfrak{B}$ là bộ lọc lân cận trong $X$ của một điểm $a \in X$. Thay cho việc nói rằng $y \in Y$ là một giới hạn của $f$ đối với bộ lọc $\mathfrak{B}$ và viết $y = \lim_{\mathfrak{B}} f$, chúng tôi dùng ký hiệu đặc biệt
 
 $$
 y = \lim_{i \in I} f(x),
 $$
 
-và ta nói rằng $y$ là *giới hạn của* $f$ *tại điểm* $a$, hoặc rằng $f(x)$ *tiến tới* $y$ *khi* $x$ *tiến tới* $a$. Tương tự, thay vì nói rằng $y$ là một điểm tụ của $f$ đối với $\mathscr{B}$, ta nói rằng $y$ *là một điểm tụ của* $f$ *tại điểm* $a$.
+và ta nói rằng $y$ là *giới hạn của* $f$ *tại điểm* $a$, hoặc rằng $f(x)$ *tiến tới* $y$ *khi* $x$ *tiến tới* $a$. Tương tự, thay vì nói rằng $y$ là một điểm tụ của $f$ đối với $\mathfrak{B}$, ta nói rằng $y$ *là một điểm tụ của* $f$ *tại điểm* $a$.
 
 Việc xét định nghĩa của tính liên tục (§ 2, no. 1, Định nghĩa 1) và Mệnh đề 7 của no. 3 cho thấy rằng:
 
@@ -179,7 +179,7 @@ Việc xét định nghĩa của tính liên tục (§ 2, no. 1, Định nghĩa 
 
 #### Hệ quả 1 {#top-i-s7-prop-9-cor-1 .statement}
 
-*Cho* $X, Y$ *là hai không gian tôpô, $f$ là một ánh xạ của* $X$ *vào* $Y$ *liên tục tại một điểm* $a \in X$; *khi đó, với mọi cơ sở lọc* $\mathscr{B}$ *trên* $X$ *hội tụ đến* $a$, *cơ sở lọc* $f(\mathscr{B})$ *hội tụ đến* $f(a)$. *Ngược lại, nếu với mọi siêu lọc* $\mathscr{U}$ *trên* $X$ *hội tụ đến* $a$, *cơ sở siêu lọc* $f(\mathscr{U})$ *hội tụ đến* $f(a)$, *thì* $f$ *liên tục tại* $a$.
+*Cho* $X, Y$ *là hai không gian tôpô, $f$ là một ánh xạ của* $X$ *vào* $Y$ *liên tục tại một điểm* $a \in X$; *khi đó, với mọi cơ sở lọc* $\mathfrak{B}$ *trên* $X$ *hội tụ đến* $a$, *cơ sở lọc* $f(\mathfrak{B})$ *hội tụ đến* $f(a)$. *Ngược lại, nếu với mọi siêu lọc* $\mathfrak{U}$ *trên* $X$ *hội tụ đến* $a$, *cơ sở siêu lọc* $f(\mathfrak{U})$ *hội tụ đến* $f(a)$, *thì* $f$ *liên tục tại* $a$.
 
 Mệnh đề thứ nhất là một hệ quả ngay lập tức của Mệnh đề 9. Để chứng minh mệnh đề thứ hai, giả sử rằng $f$ không liên tục tại $a$; khi đó tồn tại một lân cận W của $f(a)$ trong Y sao cho $\overline{f}^{-1}(W)$ không thuộc bộ lọc $\mathfrak{B}$ các lân cận của $a$ trong X. Do đó (§ 6, no. 4, Mệnh đề 7) tồn tại một siêu bộ lọc $\mathfrak{U}$, mịn hơn $\mathfrak{B}$, không chứa $\overline{f}^{-1}(W)$ và vì thế chứa phần bù của nó $A = X - \overline{f}^{-1}(W)$ (§ 6, no. 4, Mệnh đề 5); vì $f(A) \cap W = \varnothing$, $f(\mathfrak{U})$ không hội tụ tới $f(a)$.
 
@@ -219,9 +219,9 @@ Cho $a$ là một điểm *không cô lập* của X, sao cho $a$ thuộc bao đ
 
 #### Mệnh đề 10 {#top-i-s7-prop-10 .statement}
 
-Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian tôpô, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Cho $X$ được trang bị tôpô thô nhất $\mathscr{T}$ sao cho các $f_i$ là liên tục. Khi đó, điều kiện cần và đủ để một bộ lọc $\mathfrak{F}$ trên $X$ hội tụ đến $a \in X$ là, với mỗi $i \in I$, cơ sở bộ lọc $f_i(\mathfrak{F})$ hội tụ đến $f_i(a)$ trong $Y_i$.
+Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian tôpô, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Cho $X$ được trang bị tôpô thô nhất $\mathfrak{T}$ sao cho các $f_i$ là liên tục. Khi đó, điều kiện cần và đủ để một bộ lọc $\mathfrak{F}$ trên $X$ hội tụ đến $a \in X$ là, với mỗi $i \in I$, cơ sở bộ lọc $f_i(\mathfrak{F})$ hội tụ đến $f_i(a)$ trong $Y_i$.
 
-Điều kiện là cần thiết vì các $f_i$ là liên tục (no. 4, Mệnh đề 9, Hệ quả 1). Ngược lại, giả sử rằng điều kiện được thỏa mãn, và cho $V$ là một lân cận mở của $a$ trong $X$. Theo định nghĩa của $\mathscr{T}$ (§ 2, no. 3, Mệnh đề 4), tồn tại một tập con hữu hạn $J$ của $I$, và với mỗi $i \in J$ một tập con mở $U_i$ của $Y_i$, sao cho $f_i(a) \in U_i$ với $i \in J$ và sao cho $V$ chứa tập hợp
+Điều kiện là cần thiết vì các $f_i$ là liên tục (no. 4, Mệnh đề 9, Hệ quả 1). Ngược lại, giả sử rằng điều kiện được thỏa mãn, và cho $V$ là một lân cận mở của $a$ trong $X$. Theo định nghĩa của $\mathfrak{T}$ (§ 2, no. 3, Mệnh đề 4), tồn tại một tập con hữu hạn $J$ của $I$, và với mỗi $i \in J$ một tập con mở $U_i$ của $Y_i$, sao cho $f_i(a) \in U_i$ với $i \in J$ và sao cho $V$ chứa tập hợp
 $$
 \bigcap_{i \in J} f_i^{-1}(U_i).
 $$
@@ -241,9 +241,9 @@ Cho $f = (f_i)$ là một ánh xạ từ một tập hợp $X$ vào một không
 
 #### Mệnh đề 11 {#top-i-s7-prop-11 .statement}
 
-Cho $R$ là một quan hệ tương đương mở trên một không gian tôpô $X$ và gọi $\varphi$ là ánh xạ chính tắc $X \to X/R$. Khi đó, với mỗi $x \in X$ và mỗi cơ sở bộ lọc $\mathscr{B}'$ trên $X/R$ hội tụ đến $\varphi(x)$, tồn tại một cơ sở bộ lọc $\mathscr{B}$ trên $X$ hội tụ đến $x$ và sao cho $\varphi(\mathscr{B})$ tương đương với $\mathscr{B}'$.
+Cho $R$ là một quan hệ tương đương mở trên một không gian tôpô $X$ và gọi $\varphi$ là ánh xạ chính tắc $X \to X/R$. Khi đó, với mỗi $x \in X$ và mỗi cơ sở bộ lọc $\mathfrak{B}'$ trên $X/R$ hội tụ đến $\varphi(x)$, tồn tại một cơ sở bộ lọc $\mathfrak{B}$ trên $X$ hội tụ đến $x$ và sao cho $\varphi(\mathfrak{B})$ tương đương với $\mathfrak{B}'$.
 
-Nếu $U$ là một lân cận bất kỳ của $x$ trong $X$, thì $\varphi(U)$ là một lân cận của $\varphi(x)$ trong $X/R$ (§ 5, no. 3, Mệnh đề 5), do đó tồn tại một tập hợp $M' \in \mathscr{B}'$ sao cho $M' \subset \varphi(U)$; nếu đặt $M = U \cap \varphi^{-1}(M')$, thì $M' = \varphi(M)$. Điều này cho thấy rằng khi $M'$ chạy qua $\mathscr{B}'$ và $U$ chạy qua bộ lọc lân cận của $x$, thì các tập hợp $U \cap \varphi^{-1}(M')$ tạo thành một cơ sở của bộ lọc $\mathscr{B}$ trên $X$; rõ ràng $\mathscr{B}$ hội tụ đến $x$ và $\varphi(\mathscr{B})$ tương đương với $\mathscr{B}'$.
+Nếu $U$ là một lân cận bất kỳ của $x$ trong $X$, thì $\varphi(U)$ là một lân cận của $\varphi(x)$ trong $X/R$ (§ 5, no. 3, Mệnh đề 5), do đó tồn tại một tập hợp $M' \in \mathfrak{B}'$ sao cho $M' \subset \varphi(U)$; nếu đặt $M = U \cap \varphi^{-1}(M')$, thì $M' = \varphi(M)$. Điều này cho thấy rằng khi $M'$ chạy qua $\mathfrak{B}'$ và $U$ chạy qua bộ lọc lân cận của $x$, thì các tập hợp $U \cap \varphi^{-1}(M')$ tạo thành một cơ sở của bộ lọc $\mathfrak{B}$ trên $X$; rõ ràng $\mathfrak{B}$ hội tụ đến $x$ và $\varphi(\mathfrak{B})$ tương đương với $\mathfrak{B}'$.
 
 ### Bài tập {#top-i-s7-exercises}
 

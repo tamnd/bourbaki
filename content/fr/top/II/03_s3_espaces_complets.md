@@ -49,7 +49,7 @@ subsections:
       pdf_page: 165
 statements: 47
 exercises: 7
-content_sha256: 8a31fd9798fd55a0356a035123f3558f85d3587641a4930ec35095eb530f1f93
+content_sha256: 83d0de6ecf7747c5cad4d4de7e9ca521c1b9debcbe0148725f3f88f9bf7d4488
 ---
 
 ## § 3. ESPACES COMPLETS
@@ -70,7 +70,7 @@ En effet, soient $x, y$ deux points de $A \cup B$, et $z$ un point de $A \cap B$
 
 #### Définition 2 {#top-ii-s3-def-2 .statement}
 
-*On dit qu’un filtre $\mathscr{F}$ sur un espace uniforme $X$ est un filtre de Cauchy si, pour tout entourage $V$ de $X$, il existe un ensemble petit d’ordre $V$ et appartenant à $\mathscr{F}$.*
+*On dit qu’un filtre $\mathfrak{F}$ sur un espace uniforme $X$ est un filtre de Cauchy si, pour tout entourage $V$ de $X$, il existe un ensemble petit d’ordre $V$ et appartenant à $\mathfrak{F}$.*
 
 Ici encore, on peut rendre le langage plus imagé en utilisant les expressions « ensemble assez petit » et « ensemble aussi petit qu’on veut »; par exemple, la déf. 2 peut encore s’exprimer en disant qu’un filtre de Cauchy est un filtre qui *contient des ensembles arbitrairement petits*.
 
@@ -80,7 +80,7 @@ On dit qu’une suite infinie $(u_n)$ de points d’un espace uniforme $X$ est u
 
 *Sur un espace uniforme $X$, tout filtre convergent est un filtre de Cauchy.*
 
-En effet, pour tout $x \in X$, et tout entourage symétrique $V$ de $X$, le voisinage $V(x)$ de $x$ est petit d’ordre $\overline{V}^2$; si $\mathscr{F}$ est un filtre convergent vers $x$, il existe un ensemble de $\mathscr{F}$ contenu dans $V(x)$, donc petit d’ordre $\overline{V}^2$.
+En effet, pour tout $x \in X$, et tout entourage symétrique $V$ de $X$, le voisinage $V(x)$ de $x$ est petit d’ordre $\overline{V}^2$; si $\mathfrak{F}$ est un filtre convergent vers $x$, il existe un ensemble de $\mathfrak{F}$ contenu dans $V(x)$, donc petit d’ordre $\overline{V}^2$.
 
 Il est clair que tout filtre *plus fin* qu’un filtre de Cauchy est un filtre de Cauchy.
 
@@ -96,9 +96,9 @@ On retiendra aisément ce fait sous la forme suivante: *plus une structure unifo
 
 #### Proposition 4 {#top-ii-s3-prop-4 .statement}
 
-*Soient $X$ un ensemble, $(Y_\iota)_{\iota \in I}$ une famille d’espaces uniformes, et pour chaque $\iota \in I$, soit $f_\iota$ une application de $X$ dans $Y_\iota$. On munit $X$ de la structure uniforme $\mathscr{U}$ la moins fine rendant uniformément continues les $f_\iota$. Pour qu’une base de filtre $\mathscr{B}$ sur $X$ soit une base de filtre de Cauchy, il faut et il suffit que, pour tout $\iota \in I$, $f_\iota(\mathscr{B})$ soit une base de filtre de Cauchy sur $Y_\iota$.*
+*Soient $X$ un ensemble, $(Y_\iota)_{\iota \in I}$ une famille d’espaces uniformes, et pour chaque $\iota \in I$, soit $f_\iota$ une application de $X$ dans $Y_\iota$. On munit $X$ de la structure uniforme $\mathfrak{U}$ la moins fine rendant uniformément continues les $f_\iota$. Pour qu’une base de filtre $\mathfrak{B}$ sur $X$ soit une base de filtre de Cauchy, il faut et il suffit que, pour tout $\iota \in I$, $f_\iota(\mathfrak{B})$ soit une base de filtre de Cauchy sur $Y_\iota$.*
 
-La condition est nécessaire en vertu de la prop. 3. Inversement, supposons-la vérifiée, et soit $U(V_{\iota_1}, \ldots, V_{\iota_n})$ un entourage de la structure uniforme $\mathscr{U}$ (II, p. 8, formule (1)). Par hypothèse, pour tout indice $k$, il existe un ensemble $M_k \in \mathfrak{B}$ tel que $f_{\iota_k}(M_k)$ soit petit d’ordre $V_{\iota_k}$ ($1 \leq k \leq n$); soit $M$ un ensemble de $\mathfrak{B}$ contenu dans $M_{k}$ pour $1 \leq k \leq n$; pour tout couple de points, $x, x'$ de $M$, on a $(f_{t_{k}}(x), f_{t_{k}}(x')) \in V_{t_{k}}$ pour $1 \leq k \leq n$, donc $(x, x') \in U(V_{t_{1}}, \ldots, V_{t_{n}})$ ce qui démontre la proposition.
+La condition est nécessaire en vertu de la prop. 3. Inversement, supposons-la vérifiée, et soit $U(V_{\iota_1}, \ldots, V_{\iota_n})$ un entourage de la structure uniforme $\mathfrak{U}$ (II, p. 8, formule (1)). Par hypothèse, pour tout indice $k$, il existe un ensemble $M_k \in \mathfrak{B}$ tel que $f_{\iota_k}(M_k)$ soit petit d’ordre $V_{\iota_k}$ ($1 \leq k \leq n$); soit $M$ un ensemble de $\mathfrak{B}$ contenu dans $M_{k}$ pour $1 \leq k \leq n$; pour tout couple de points, $x, x'$ de $M$, on a $(f_{t_{k}}(x), f_{t_{k}}(x')) \in V_{t_{k}}$ pour $1 \leq k \leq n$, donc $(x, x') \in U(V_{t_{1}}, \ldots, V_{t_{n}})$ ce qui démontre la proposition.
 
 #### Corollaire 1 {#top-ii-s3-prop-4-cor-1 .statement}
 
@@ -106,7 +106,7 @@ Si un filtre de Cauchy sur un espace uniforme $X$ induit un filtre sur une parti
 
 #### Corollaire 2 {#top-ii-s3-prop-4-cor-2 .statement}
 
-Pour qu’une base de filtre $\mathscr{B}$ sur un produit $\prod_{i \in I} X_{i}$ d’espaces uniformes soit une base de filtre de Cauchy, il faut et il suffit que, pour tout $i \in I$, $\mathrm{pr}_{i}(\mathscr{B})$ soit une base de filtre de Cauchy sur $X_{i}$.
+Pour qu’une base de filtre $\mathfrak{B}$ sur un produit $\prod_{i \in I} X_{i}$ d’espaces uniformes soit une base de filtre de Cauchy, il faut et il suffit que, pour tout $i \in I$, $\mathrm{pr}_{i}(\mathfrak{B})$ soit une base de filtre de Cauchy sur $X_{i}$.
 
 ### 2. Filtres de Cauchy minimaux
 
@@ -114,25 +114,25 @@ Les éléments minimaux (pour la relation d’inclusion) de l’ensemble des fil
 
 #### Proposition 5 {#top-ii-s3-prop-5 .statement}
 
-Soit $X$ un espace uniforme. Pour tout filtre de Cauchy $\mathscr{F}$ sur $X$, il existe un et un seul filtre de Cauchy minimal $\mathscr{F}_{0}$ moins fin que $\mathscr{F}$; si $\mathscr{B}$ est une base de $\mathscr{F}$, $\mathscr{G}$ un système fondamental d’entourages symétriques de $X$, les ensembles $V(M)$ ($M \in \mathscr{B}, V \in \mathscr{G}$) forment une base de $\mathscr{F}_{0}$.
+Soit $X$ un espace uniforme. Pour tout filtre de Cauchy $\mathfrak{F}$ sur $X$, il existe un et un seul filtre de Cauchy minimal $\mathfrak{F}_{0}$ moins fin que $\mathfrak{F}$; si $\mathfrak{B}$ est une base de $\mathfrak{F}$, $\mathfrak{G}$ un système fondamental d’entourages symétriques de $X$, les ensembles $V(M)$ ($M \in \mathfrak{B}, V \in \mathfrak{G}$) forment une base de $\mathfrak{F}_{0}$.
 
-Si $M, M'$ sont dans $\mathscr{B}$, $V, V'$ dans $\mathscr{G}$, il existe dans $\mathscr{B}$ (resp. $\mathscr{G}$) un ensemble $M''$ (resp. $V''$) tel que $M'' \subset M \cap M'$ (resp. $V'' \subset V \cap V'$), d’où
+Si $M, M'$ sont dans $\mathfrak{B}$, $V, V'$ dans $\mathfrak{G}$, il existe dans $\mathfrak{B}$ (resp. $\mathfrak{G}$) un ensemble $M''$ (resp. $V''$) tel que $M'' \subset M \cap M'$ (resp. $V'' \subset V \cap V'$), d’où
 $$
 V''(M'') \subset V(M) \cap V'(M');
 $$
-les ensembles $V(M)$ (pour $M \in \mathscr{B}, V \in \mathscr{G}$) forment donc bien une base d’un filtre $\mathscr{F}_{0}$ sur $X$. En outre, si $M$ est petit d’ordre $V$, $V(M)$ est petit d’ordre $V^{3}$, donc $\mathscr{F}_{0}$ est un filtre de Cauchy sur $X$, évidemment moins fin que $\mathscr{F}$. Pour achever la démonstration, il suffit de prouver que si $\mathscr{G}$ est un filtre de Cauchy moins fin que $\mathscr{F}$, $\mathscr{G}$ est plus fin que $\mathscr{F}_{0}$; en effet, pour tout $M \in \mathscr{B}$ et tout $V \in \mathscr{G}$, il existe un ensemble $N \in \mathscr{G}$ petit d’ordre $V$, et comme $N \in \mathscr{F}$, $N$ rencontre $M$, donc $N \subset V(M)$ et $V(M) \in \mathscr{G}$.
+les ensembles $V(M)$ (pour $M \in \mathfrak{B}, V \in \mathfrak{G}$) forment donc bien une base d’un filtre $\mathfrak{F}_{0}$ sur $X$. En outre, si $M$ est petit d’ordre $V$, $V(M)$ est petit d’ordre $V^{3}$, donc $\mathfrak{F}_{0}$ est un filtre de Cauchy sur $X$, évidemment moins fin que $\mathfrak{F}$. Pour achever la démonstration, il suffit de prouver que si $\mathfrak{G}$ est un filtre de Cauchy moins fin que $\mathfrak{F}$, $\mathfrak{G}$ est plus fin que $\mathfrak{F}_{0}$; en effet, pour tout $M \in \mathfrak{B}$ et tout $V \in \mathfrak{G}$, il existe un ensemble $N \in \mathfrak{G}$ petit d’ordre $V$, et comme $N \in \mathfrak{F}$, $N$ rencontre $M$, donc $N \subset V(M)$ et $V(M) \in \mathfrak{G}$.
 
 #### Corollaire 1 {#top-ii-s3-prop-5-cor-1 .statement}
 
-Pour tout $x \in X$, le filtre $\mathscr{B}(x)$ des voisinages de $x$ dans $X$ est un filtre de Cauchy minimal.
+Pour tout $x \in X$, le filtre $\mathfrak{B}(x)$ des voisinages de $x$ dans $X$ est un filtre de Cauchy minimal.
 
-Il suffit, dans la prop. 5, de prendre pour $\mathscr{F}$ le filtre de toutes les parties contenant $x$, et pour $\mathscr{B}$ l’ensemble de parties réduit à l’unique élément $\{x\}$.
+Il suffit, dans la prop. 5, de prendre pour $\mathfrak{F}$ le filtre de toutes les parties contenant $x$, et pour $\mathfrak{B}$ l’ensemble de parties réduit à l’unique élément $\{x\}$.
 
 #### Corollaire 2 {#top-ii-s3-prop-5-cor-2 .statement}
 
-Tout point $x$ adhérent à un filtre de Cauchy $\mathscr{F}$ est point limite de $\mathscr{F}$.
+Tout point $x$ adhérent à un filtre de Cauchy $\mathfrak{F}$ est point limite de $\mathfrak{F}$.
 
-En effet, il existe un filtre $\mathscr{G}$ plus fin que $\mathscr{F}$ et que $\mathscr{B}(x)$ (I, p. 47, prop. 4); comme $\mathscr{F}$ est un filtre de Cauchy, il en est de même de $\mathscr{G}$. Si $\mathscr{F}_{0}$ est l’unique filtre de Cauchy minimal moins fin que $\mathscr{F}$, $\mathscr{F}_{0}$ et $\mathscr{B}(x)$ sont deux filtres de Cauchy minimaux moins fins que $\mathscr{G}$, donc $\mathscr{F}_{0} = \mathscr{B}(x)$, ce qui prouve que $\mathscr{F}$ converge vers $x$.
+En effet, il existe un filtre $\mathfrak{G}$ plus fin que $\mathfrak{F}$ et que $\mathfrak{B}(x)$ (I, p. 47, prop. 4); comme $\mathfrak{F}$ est un filtre de Cauchy, il en est de même de $\mathfrak{G}$. Si $\mathfrak{F}_{0}$ est l’unique filtre de Cauchy minimal moins fin que $\mathfrak{F}$, $\mathfrak{F}_{0}$ et $\mathfrak{B}(x)$ sont deux filtres de Cauchy minimaux moins fins que $\mathfrak{G}$, donc $\mathfrak{F}_{0} = \mathfrak{B}(x)$, ce qui prouve que $\mathfrak{F}$ converge vers $x$.
 
 #### Corollaire 3 {#top-ii-s3-prop-5-cor-3 .statement}
 
@@ -142,7 +142,7 @@ C’est un conséquence du cor 2.
 
 #### Corollaire 4 {#top-ii-s3-prop-5-cor-4 .statement}
 
-Si $\mathscr{F}$ est un filtre de Cauchy minimal, tout ensemble de $\mathscr{F}$ a un intérieur non vide, qui appartient à $\mathscr{F}$ (en d’autres termes il existe une base de $\mathscr{F}$ formée d’ensembles ouverts).
+Si $\mathfrak{F}$ est un filtre de Cauchy minimal, tout ensemble de $\mathfrak{F}$ a un intérieur non vide, qui appartient à $\mathfrak{F}$ (en d’autres termes il existe une base de $\mathfrak{F}$ formée d’ensembles ouverts).
 
 En effet, pour tout entourage V de X, il existe un entourage ouvert U $\subset$ V (II, p. 5, cor. 2) et pour toute partie M de X, U(M) est alors ouvert et contenu dans V(M); d’où le corollaire, compte tenu de la prop. 5.
 
@@ -171,7 +171,7 @@ quel que soit $n$; or, comme le premier membre de cette inégalité est un entie
 
 #### Exemple 2 {#top-ii-s3-n3-exa-2 .statement}
 
-Soit X un ensemble infini, et considérons sur X la structure uniforme des partitions finies (II, p. 7, Remarque 1); tout ultrafiltre $\mathscr{F}$ sur X est un filtre de Cauchy pour cette structure. En effet, si $(A_i)$ est une partition finie de X, $V = \bigcup_i (A_i \times A_i)$ l’entourage correspondant, il existe un des $A_i$ qui appartient à $\mathscr{F}$ (I, p. 39, corollaire) et il est petit d’ordre V. Mais d’autre part, X est un espace discret infini, donc non compact, et par suite il existe des ultrafiltres sur X qui ne convergent pas.
+Soit X un ensemble infini, et considérons sur X la structure uniforme des partitions finies (II, p. 7, Remarque 1); tout ultrafiltre $\mathfrak{F}$ sur X est un filtre de Cauchy pour cette structure. En effet, si $(A_i)$ est une partition finie de X, $V = \bigcup_i (A_i \times A_i)$ l’entourage correspondant, il existe un des $A_i$ qui appartient à $\mathfrak{F}$ (I, p. 39, corollaire) et il est petit d’ordre V. Mais d’autre part, X est un espace discret infini, donc non compact, et par suite il existe des ultrafiltres sur X qui ne convergent pas.
 
 #### Définition 3 {#top-ii-s3-def-3 .statement}
 
@@ -187,7 +187,7 @@ Des déf. 2 (II, p. 13) et 3 et de la prop. 2 de II, p. 13, on déduit aussitôt
 
 #### Proposition 6 {#top-ii-s3-prop-6 .statement}
 
-Soit $\mathscr{F}$ un filtre sur un ensemble X, et soit f une application de X dans un espace uniforme complet X'; pour que f admette une limite suivant $\mathscr{F}$, il faut et il suffit que l’image de $\mathscr{F}$ par f soit une base de filtre de Cauchy.
+Soit $\mathfrak{F}$ un filtre sur un ensemble X, et soit f une application de X dans un espace uniforme complet X'; pour que f admette une limite suivant $\mathfrak{F}$, il faut et il suffit que l’image de $\mathfrak{F}$ par f soit une base de filtre de Cauchy.
 
 On voit par là l’intérêt que présentent les espaces complets dans toutes les questions où intervient la notion de limite; si une fonction prend ses valeurs dans espace complet, on pourra démontrer l’existence de sa limite, sans connaître au préalable la valeur de cette limite, ce qui serait impossible si on ne disposait, comme critère de convergence, que de la définition de la limite.
 
@@ -195,15 +195,15 @@ Une structure uniforme plus fine qu’une structure uniforme d’espace complet 
 
 #### Proposition 7 {#top-ii-s3-prop-7 .statement}
 
-Soient $\mathscr{U}_1, \mathscr{U}_2$ deux structures uniformes sur un ensemble $X$, $\mathscr{T}_1, \mathscr{T}_2$ les topologies déduites respectivement de ces structures uniformes. On suppose que $\mathscr{U}_1$ est plus fine que $\mathscr{U}_2$, et en outre qu’il existe un système fondamental d’entourages pour $\mathscr{U}_1$ qui sont fermés dans $X \times X$ pour la topologie produit de $\mathscr{T}_2$ par elle-même. Alors, pour qu’un filtre $\mathfrak{F}$ sur $X$ converge pour $\mathscr{T}_1$, il faut et il suffit qu’il soit un filtre de Cauchy pour $\mathscr{U}_1$ et qu’il converge pour $\mathscr{T}_2$.
+Soient $\mathfrak{U}_1, \mathfrak{U}_2$ deux structures uniformes sur un ensemble $X$, $\mathscr{T}_1, \mathscr{T}_2$ les topologies déduites respectivement de ces structures uniformes. On suppose que $\mathfrak{U}_1$ est plus fine que $\mathfrak{U}_2$, et en outre qu’il existe un système fondamental d’entourages pour $\mathfrak{U}_1$ qui sont fermés dans $X \times X$ pour la topologie produit de $\mathscr{T}_2$ par elle-même. Alors, pour qu’un filtre $\mathfrak{F}$ sur $X$ converge pour $\mathscr{T}_1$, il faut et il suffit qu’il soit un filtre de Cauchy pour $\mathfrak{U}_1$ et qu’il converge pour $\mathscr{T}_2$.
 
-Les conditions sont évidemment nécessaires, puisque $\mathscr{T}_2$ est moins fine que $\mathscr{T}_1$; prouvons qu’elles sont suffisantes. Soit $x$ un point limite de $\mathfrak{F}$ pour $\mathscr{T}_2$; montrons que $x$ est limite de $\mathfrak{F}$ pour $\mathscr{T}_1$. En effet, soit $V$ un entourage symétrique de $\mathscr{U}_1$, fermé pour la topologie produit de $\mathscr{T}_2$ par elle-même. Par hypothèse, $\mathfrak{F}$ contient un ensemble $M$ petit d’ordre $V$; si $x' \in M$, on a donc $M \subset V(x')$. Mais $V(x')$ est fermé pour $\mathscr{T}_2$, donc $x$, qui est adhérent à $M$ pour $\mathscr{T}_2$, appartient à $V(x')$; on en conclut que $M \subset \overline{V}(x)$, ce qui démontre la proposition.
+Les conditions sont évidemment nécessaires, puisque $\mathscr{T}_2$ est moins fine que $\mathscr{T}_1$; prouvons qu’elles sont suffisantes. Soit $x$ un point limite de $\mathfrak{F}$ pour $\mathscr{T}_2$; montrons que $x$ est limite de $\mathfrak{F}$ pour $\mathscr{T}_1$. En effet, soit $V$ un entourage symétrique de $\mathfrak{U}_1$, fermé pour la topologie produit de $\mathscr{T}_2$ par elle-même. Par hypothèse, $\mathfrak{F}$ contient un ensemble $M$ petit d’ordre $V$; si $x' \in M$, on a donc $M \subset V(x')$. Mais $V(x')$ est fermé pour $\mathscr{T}_2$, donc $x$, qui est adhérent à $M$ pour $\mathscr{T}_2$, appartient à $V(x')$; on en conclut que $M \subset \overline{V}(x)$, ce qui démontre la proposition.
 
 #### Corollaire {#top-ii-s3-n3-cor-1 .statement}
 
-On suppose vérifiées les hypothèses de la prop. 7. Si en outre $\mathscr{U}_2$ est une structure uniforme d’espace complet, il en est de même de $\mathscr{U}_1$.
+On suppose vérifiées les hypothèses de la prop. 7. Si en outre $\mathfrak{U}_2$ est une structure uniforme d’espace complet, il en est de même de $\mathfrak{U}_1$.
 
-En effet, tout filtre de Cauchy pour $\mathscr{U}_1$ est alors filtre de Cauchy pour $\mathscr{U}_2$, donc converge pour $\mathscr{T}_2$ par hypothèse.
+En effet, tout filtre de Cauchy pour $\mathfrak{U}_1$ est alors filtre de Cauchy pour $\mathfrak{U}_2$, donc converge pour $\mathscr{T}_2$ par hypothèse.
 
 On notera que les hypothèses du cor. de la prop. 7 sont remplies lorsque $\mathscr{T}_1 = \mathscr{T}_2$ (II, p. 5, cor. 2).
 
@@ -221,7 +221,7 @@ Soient maintenant $A$ un ensemble non fermé dans un espace uniforme séparé $X
 
 *Soient $X$ un espace uniforme, $A$ une partie partout dense de $X$ telle que toute base de filtre de Cauchy sur $A$ soit convergente dans $X$; dans ces conditions, $X$ est complet.*
 
-Il suffit de montrer qu’un filtre de Cauchy *minimal* $\mathscr{F}$ sur $X$ est convergent. Comme $A$ est partout dense et que tout ensemble de $\mathscr{F}$ a un intérieur non vide (II, p. 15, cor. 4), la trace $\mathscr{F}_A$ de $\mathscr{F}$ sur $A$ est un filtre de Cauchy sur $A$, donc converge vers un point $x_0 \in X$; comme $\mathscr{F}$ est moins fin que le filtre sur $X$ engendré par $\mathscr{F}_A$, on en conclut que $\mathscr{F}$ converge vers $x_0$ (II, p. 15, cor. 3).
+Il suffit de montrer qu’un filtre de Cauchy *minimal* $\mathfrak{F}$ sur $X$ est convergent. Comme $A$ est partout dense et que tout ensemble de $\mathfrak{F}$ a un intérieur non vide (II, p. 15, cor. 4), la trace $\mathfrak{F}_A$ de $\mathfrak{F}$ sur $A$ est un filtre de Cauchy sur $A$, donc converge vers un point $x_0 \in X$; comme $\mathfrak{F}$ est moins fin que le filtre sur $X$ engendré par $\mathfrak{F}_A$, on en conclut que $\mathfrak{F}$ converge vers $x_0$ (II, p. 15, cor. 3).
 
 ### 5. Produits et limites projectives d’espaces complets
 
@@ -229,7 +229,7 @@ Il suffit de montrer qu’un filtre de Cauchy *minimal* $\mathscr{F}$ sur $X$ es
 
 *Tout produit d’espaces uniformes complets est complet. Réciproquement, si un produit d’espaces uniformes non vides est complet, chacun des espaces uniformes facteurs est complet.*
 
-La première assertion résulte de la caractérisation des filtres de Cauchy et des filtres convergents sur un espace produit (II, p. 14, cor. 2 de la prop. 4 et I, p. 51, cor. 1). Inversement, supposons $X = \prod_{\iota \in I} X_\iota$ complet (les $X_\iota$ étant non vides) et soit $\mathscr{F}_k$ un filtre de Cauchy sur $X_k$; pour tout $\iota \neq k$, soit $\mathscr{F}_\iota$ un filtre de Cauchy sur $X_\iota$, et considérons le filtre produit (I, p. 42) $\mathscr{F} = \prod_{\iota \in I} \mathscr{F}_\iota$ sur $X$; $\mathscr{F}$ est un filtre de Cauchy (II, p. 14, cor. 2 de la prop. 4), donc est convergent, et il en est par suite de même de $\operatorname{pr}_k \mathscr{F} = \mathscr{F}_k$ (I, p. 51, cor. 1).
+La première assertion résulte de la caractérisation des filtres de Cauchy et des filtres convergents sur un espace produit (II, p. 14, cor. 2 de la prop. 4 et I, p. 51, cor. 1). Inversement, supposons $X = \prod_{\iota \in I} X_\iota$ complet (les $X_\iota$ étant non vides) et soit $\mathfrak{F}_k$ un filtre de Cauchy sur $X_k$; pour tout $\iota \neq k$, soit $\mathfrak{F}_\iota$ un filtre de Cauchy sur $X_\iota$, et considérons le filtre produit (I, p. 42) $\mathfrak{F} = \prod_{\iota \in I} \mathfrak{F}_\iota$ sur $X$; $\mathfrak{F}$ est un filtre de Cauchy (II, p. 14, cor. 2 de la prop. 4), donc est convergent, et il en est par suite de même de $\operatorname{pr}_k \mathfrak{F} = \mathfrak{F}_k$ (I, p. 51, cor. 1).
 
 #### Corollaire {#top-ii-s3-n5-cor-1 .statement}
 
@@ -346,25 +346,25 @@ Si $(i_1, X_1)$ est un second couple formé d’un espace uniforme séparé et c
 
 La première assertion de l’énoncé signifie encore que le couple $(i, \hat{X})$ est solution du problème d’application universelle (E, IV, p. 23) dans lequel on prend pour $\Sigma$-ensembles les espaces uniformes séparés et complets, pour $\sigma$-morphismes les applications uniformément continues et pour $\alpha$-applications les applications uniformément continues de X dans un espace uniforme séparé et complet. L’unicité du couple $(i, \hat{X})$ à un isomorphisme unique près résulte donc des propriétés générales des solutions de problèmes d’application universelle (loc. cit.). Reste à prouver l’existence du couple $(i, \hat{X})$.
 
-1) Définition de $\hat{X}$. Soit $\hat{X}$ l’ensemble des filtres de Cauchy minimaux (II, p. 14) sur X. Nous allons définir sur $\hat{X}$ une structure uniforme. Pour cela, pour tout entourage symétrique V de X, désignons par $\tilde{V}$ l’ensemble des couples $(\mathscr{X}, \mathscr{Y})$ de filtres de Cauchy minimaux ayant en commun un ensemble petit d’ordre V : montrons que les ensembles $\tilde{V}$ forment un système fondamental d’entourages d’une structure uniforme sur $\hat{X}$. En effet:
+1) Définition de $\hat{X}$. Soit $\hat{X}$ l’ensemble des filtres de Cauchy minimaux (II, p. 14) sur X. Nous allons définir sur $\hat{X}$ une structure uniforme. Pour cela, pour tout entourage symétrique V de X, désignons par $\tilde{V}$ l’ensemble des couples $(\mathfrak{X}, \mathfrak{Y})$ de filtres de Cauchy minimaux ayant en commun un ensemble petit d’ordre V : montrons que les ensembles $\tilde{V}$ forment un système fondamental d’entourages d’une structure uniforme sur $\hat{X}$. En effet:
 
-1° Comme tout $\mathscr{X} \in \hat{X}$ est un filtre de Cauchy, on a par définition $(\mathscr{X}, \mathscr{X}) \in \tilde{V}$ pour tout entourage symétrique V de X, donc $(U'_I)$ est vérifié.
+1° Comme tout $\mathfrak{X} \in \hat{X}$ est un filtre de Cauchy, on a par définition $(\mathfrak{X}, \mathfrak{X}) \in \tilde{V}$ pour tout entourage symétrique V de X, donc $(U'_I)$ est vérifié.
 
 2° Si V, V’ sont deux entourages symétriques de X, $W = V \cap V'$ est un entourage symétrique, et tout ensemble petit d’ordre W est petit d’ordre V et d’ordre V’ ; donc on a $\tilde{W} \subset \tilde{V} \cap \tilde{V}'$, ce qui prouve $(B_I)$.
 
 3° Les ensembles $\tilde{V}$ sont symétriques par définition, donc $(U''_{II})$ est vérifié.
 
-4° Étant donné un entourage symétrique V de X, soit W un entourage symétrique tel que $\tilde{W} \subset V$. Considérons trois filtres de Cauchy minimaux $\mathscr{X}, \mathscr{Y}, \mathscr{Z}$ tels que $(\mathscr{X}, \mathscr{Y}) \in \tilde{W}$ et $(\mathscr{Y}, \mathscr{Z}) \in \tilde{W}$; il existe donc deux ensembles M, N, petits d’ordre W et tels que $M \in \mathscr{X} \cap \mathscr{Y}, N \in \mathscr{Y} \cap \mathscr{Z}$. Comme M et N appartiennent à $\mathscr{Y}$, $M \cap N$ n’est pas vide, donc (II, p. 12, prop. 1), $M \cup N$ est petit d’ordre $\tilde{W} \subset V$; comme $M \cup N$ appartient à $\mathscr{X}$ et à $\mathscr{Z}$, on a $\tilde{W} \subset \tilde{V}$; d’où $(U'''_{III})$.
+4° Étant donné un entourage symétrique V de X, soit W un entourage symétrique tel que $\tilde{W} \subset V$. Considérons trois filtres de Cauchy minimaux $\mathfrak{X}, \mathfrak{Y}, \mathscr{Z}$ tels que $(\mathfrak{X}, \mathfrak{Y}) \in \tilde{W}$ et $(\mathfrak{Y}, \mathscr{Z}) \in \tilde{W}$; il existe donc deux ensembles M, N, petits d’ordre W et tels que $M \in \mathfrak{X} \cap \mathfrak{Y}, N \in \mathfrak{Y} \cap \mathscr{Z}$. Comme M et N appartiennent à $\mathfrak{Y}$, $M \cap N$ n’est pas vide, donc (II, p. 12, prop. 1), $M \cup N$ est petit d’ordre $\tilde{W} \subset V$; comme $M \cup N$ appartient à $\mathfrak{X}$ et à $\mathscr{Z}$, on a $\tilde{W} \subset \tilde{V}$; d’où $(U'''_{III})$.
 
-Montrons en outre que l’espace uniforme $\hat{X}$ est séparé. En effet, soient $\mathscr{X}, \mathscr{Y}$ deux filtres de Cauchy minimaux sur X tels que $(\mathscr{X}, \mathscr{Y}) \in \tilde{V}$ pour tout entourage symétrique V de X. Il est immédiat que les ensembles $M \cup N$, où $M \in \mathscr{X}, N \in \mathscr{Y}$ forment la base d’un filtre $\mathscr{Z}$ moins fin que $\mathscr{X}$ et que $\mathscr{Y}$. Or, $\mathscr{Z}$ est un filtre de Cauchy, car pour tout entourage symétrique V de X, il y a par hypothèse un ensemble P petit d’ordre V et appartenant à la fois à $\mathscr{X}$ et à $\mathscr{Y}$, donc $P \in \mathscr{S}$. Par définition des filtres de Cauchy minimaux, on a $\mathscr{X} = \mathscr{S} = \mathscr{Y}$, et cela achève de montrer que $\hat{X}$ est séparé.
+Montrons en outre que l’espace uniforme $\hat{X}$ est séparé. En effet, soient $\mathfrak{X}, \mathfrak{Y}$ deux filtres de Cauchy minimaux sur X tels que $(\mathfrak{X}, \mathfrak{Y}) \in \tilde{V}$ pour tout entourage symétrique V de X. Il est immédiat que les ensembles $M \cup N$, où $M \in \mathfrak{X}, N \in \mathfrak{Y}$ forment la base d’un filtre $\mathscr{Z}$ moins fin que $\mathfrak{X}$ et que $\mathfrak{Y}$. Or, $\mathscr{Z}$ est un filtre de Cauchy, car pour tout entourage symétrique V de X, il y a par hypothèse un ensemble P petit d’ordre V et appartenant à la fois à $\mathfrak{X}$ et à $\mathfrak{Y}$, donc $P \in \mathscr{S}$. Par définition des filtres de Cauchy minimaux, on a $\mathfrak{X} = \mathscr{S} = \mathfrak{Y}$, et cela achève de montrer que $\hat{X}$ est séparé.
 
 2) *Définition de i ; la structure uniforme de X est image réciproque de celle de $\hat{X}$ par i.* On sait que, pour tout $x \in X$, le filtre des voisinages $\mathfrak{V}(x)$ de $x$ dans $X$ est un filtre de Cauchy minimal (II, p. 14, cor. 1 de la prop. 5); nous prendrons $i(x) = \mathfrak{V}(x)$. Soit $j = i \times i$; nous allons montrer que pour tout entourage symétrique $V$ de $X$, on a $j^{-1}(\tilde{V}) \subset V \subset j^{-1}(\tilde{V})^3$, ce qui prouvera notre assertion (II, p. 9). Or, si $(i(x), i(y)) \in \tilde{V}$, il y a un ensemble $M$ petit d’ordre $V$ et qui est à la fois voisinage de $x$ et de $y$, donc $(x, y) \in V$. Inversement, si $(x, y) \in V$, il est immédiat que l’ensemble $V(x) \cup V(y)$ est petit d’ordre $\tilde{V}$ et est à la fois voisinage de $x$ et de $y$.
 
-3) $\hat{X}$ est complet et $i(X)$ dense dans $\hat{X}$. Cherchons la trace sur $i(X)$ d’un voisinage $\tilde{V}(\mathscr{X})$ d’un point $\mathscr{X} \in \hat{X}$; c’est l’ensemble des $i(x)$ tels que $(\mathscr{X}, i(x)) \in \tilde{V}$. Cette relation signifie qu’il existe un voisinage de $x$ dans $X$, petit d’ordre $V$ et appartenant à $\mathscr{X}$, ou encore que $x$ est *intérieur à un ensemble de $\mathscr{X}$ petit d’ordre* $V$. Soit $M$ la réunion dans $X$ des intérieurs des ensembles de $\mathscr{X}$ qui sont petits d’ordre $V$; $M$ appartient à $\mathscr{X}$ (II, p. 15, cor. 4) et ce qui précède montre que $\tilde{V}(\mathscr{X}) \cap i(X) = i(M)$; on en conclut que:
-1° $\tilde{V}(\mathscr{X}) \cap i(X)$ n’est pas vide, donc $i(X)$ est *dense* dans $\hat{X}$;
-2° La trace sur $i(X)$ de $\tilde{V}(\mathscr{X})$ appartient à la *base de filtre* $i(\mathscr{X})$ sur $\hat{X}$, donc cette base de filtre converge dans $\hat{X}$ vers le *point* $\mathscr{X}$.
+3) $\hat{X}$ est complet et $i(X)$ dense dans $\hat{X}$. Cherchons la trace sur $i(X)$ d’un voisinage $\tilde{V}(\mathfrak{X})$ d’un point $\mathfrak{X} \in \hat{X}$; c’est l’ensemble des $i(x)$ tels que $(\mathfrak{X}, i(x)) \in \tilde{V}$. Cette relation signifie qu’il existe un voisinage de $x$ dans $X$, petit d’ordre $V$ et appartenant à $\mathfrak{X}$, ou encore que $x$ est *intérieur à un ensemble de $\mathfrak{X}$ petit d’ordre* $V$. Soit $M$ la réunion dans $X$ des intérieurs des ensembles de $\mathfrak{X}$ qui sont petits d’ordre $V$; $M$ appartient à $\mathfrak{X}$ (II, p. 15, cor. 4) et ce qui précède montre que $\tilde{V}(\mathfrak{X}) \cap i(X) = i(M)$; on en conclut que:
+1° $\tilde{V}(\mathfrak{X}) \cap i(X)$ n’est pas vide, donc $i(X)$ est *dense* dans $\hat{X}$;
+2° La trace sur $i(X)$ de $\tilde{V}(\mathfrak{X})$ appartient à la *base de filtre* $i(\mathfrak{X})$ sur $\hat{X}$, donc cette base de filtre converge dans $\hat{X}$ vers le *point* $\mathfrak{X}$.
 
-Soit alors $\mathscr{F}$ un filtre de Cauchy sur $i(X)$; d’après ce qu’on a vu dans 2) et la prop. 4 de II, p. 13, $i^{-1}(\mathscr{F})$ est une base d’un filtre de Cauchy $\mathscr{G}$ sur $X$; soit $\mathscr{X}$ un filtre de Cauchy minimal moins fin que $\mathscr{G}$ (II, p. 14, prop. 5); $i(\mathscr{X})$ est alors une base d’un filtre de Cauchy sur $i(X)$ (II, p. 13, prop. 3) et $\mathscr{F} = i^{-1}(i(\mathscr{F}))$ est plus fin que le filtre de base $i(\mathscr{X})$. Comme ce dernier converge dans $\hat{X}$, il en est de même de $\mathscr{F}$, et la prop. 9 de II, p. 17 montre alors que $\hat{X}$ est *complet*.
+Soit alors $\mathfrak{F}$ un filtre de Cauchy sur $i(X)$; d’après ce qu’on a vu dans 2) et la prop. 4 de II, p. 13, $i^{-1}(\mathfrak{F})$ est une base d’un filtre de Cauchy $\mathfrak{G}$ sur $X$; soit $\mathfrak{X}$ un filtre de Cauchy minimal moins fin que $\mathfrak{G}$ (II, p. 14, prop. 5); $i(\mathfrak{X})$ est alors une base d’un filtre de Cauchy sur $i(X)$ (II, p. 13, prop. 3) et $\mathfrak{F} = i^{-1}(i(\mathfrak{F}))$ est plus fin que le filtre de base $i(\mathfrak{X})$. Comme ce dernier converge dans $\hat{X}$, il en est de même de $\mathfrak{F}$, et la prop. 9 de II, p. 17 montre alors que $\hat{X}$ est *complet*.
 
 4) *Vérification de la propriété* (P). Soit $f$ une application uniformément continue de $X$ dans un espace uniforme *séparé* et *complet* $Y$. Montrons d’abord qu’il existe une application uniformément continue $g_0 : i(X) \to Y$ et une seule telle que $f = g_0 \circ i$. En effet, comme $f$ est continue, on a nécessairement $f(x) = \lim f(\mathfrak{V}(x))$, donc si on pose $g_0(i(x)) = \lim f(\mathfrak{V}(x))$, on a bien $f = g_0 \circ i$; tout revient à voir que $g_0$ est *uniformément continue* dans $i(X)$. Or, soit $U$ un entourage de $Y$ et soit $V$ un entourage symétrique de $X$ tel que la relation $(x, x') \in V$ entraîne $(f(x), f(x')) \in U$; on a vu dans 2) que la relation $(i(x), i(x')) \in \tilde{V}$ entraîne $(x, x') \in V$, donc aussi $(g_0(i(x)), g_0(i(x')))) \in U$, ce qui établit notre assertion.
 
@@ -407,9 +407,9 @@ En effet, toute application uniformément continue de $X$ dans un espace uniform
 
 #### Proposition 14 {#top-ii-s3-prop-14 .statement}
 
-Soient $X$ un espace uniforme séparé et complet, $\mathscr{U}$ sa structure uniforme, $Z$ un sous-espace partout dense dans $X$. Si $\mathscr{U}'$ est une structure uniforme sur $X$, moins fine que $\mathscr{U}$ et induisant sur $Z$ la même structure uniforme que $\mathscr{U}$, on a $\mathscr{U}' = \mathscr{U}$.
+Soient $X$ un espace uniforme séparé et complet, $\mathfrak{U}$ sa structure uniforme, $Z$ un sous-espace partout dense dans $X$. Si $\mathfrak{U}'$ est une structure uniforme sur $X$, moins fine que $\mathfrak{U}$ et induisant sur $Z$ la même structure uniforme que $\mathfrak{U}$, on a $\mathfrak{U}' = \mathfrak{U}$.
 
-Désignons par $X'$ l’ensemble $X$ muni de la structure uniforme $\mathscr{U}'$; la composée de l’application canonique $X' \to \hat{X}'$ et de l’application identique $X \to X'$, qui est uniformément continue, peut être considérée comme une application uniformément continue $\varphi : X \to \hat{X}'$; comme $Z$ est séparé pour la structure uniforme induite par $\mathscr{U}'$, la restriction de $\varphi$ à $Z$ est par hypothèse un isomorphisme de $Z$ sur le sous-espace partout dense $\varphi(Z)$ de $\hat{X}'$; il en résulte (II, p. 20, corollaire) que $\varphi$ lui-même est un isomorphisme de $X$ sur $\hat{X}'$, donc $X' = \hat{X}'$ et $\mathscr{U}' = \mathscr{U}$.
+Désignons par $X'$ l’ensemble $X$ muni de la structure uniforme $\mathfrak{U}'$; la composée de l’application canonique $X' \to \hat{X}'$ et de l’application identique $X \to X'$, qui est uniformément continue, peut être considérée comme une application uniformément continue $\varphi : X \to \hat{X}'$; comme $Z$ est séparé pour la structure uniforme induite par $\mathfrak{U}'$, la restriction de $\varphi$ à $Z$ est par hypothèse un isomorphisme de $Z$ sur le sous-espace partout dense $\varphi(Z)$ de $\hat{X}'$; il en résulte (II, p. 20, corollaire) que $\varphi$ lui-même est un isomorphisme de $X$ sur $\hat{X}'$, donc $X' = \hat{X}'$ et $\mathfrak{U}' = \mathfrak{U}$.
 
 #### Proposition 15 {#top-ii-s3-prop-15 .statement}
 
@@ -484,7 +484,7 @@ Soient $X'$ un second espace uniforme, $C'$ l’intersection des entourages de $
 
 #### Proposition 18 {#top-ii-s3-prop-18 .statement}
 
-Soient $X$ un ensemble, $(Y_\lambda)_{\lambda \in L}$ une famille d’espaces uniformes, et pour chaque $\lambda \in L$, soit $f_\lambda$ une application de $X$ dans $Y_\lambda$; on munit $X$ de la structure uniforme la moins fine $\mathscr{U}$ rendant uniformément continues les $f_\lambda$. Alors la structure uniforme de l’espace séparé complété $\hat{X}$ de $X$ est la moins fine rendant uniformément continues les applications $f_\lambda : \hat{X} \to \hat{Y}_\lambda$ ($\lambda \in L$) (II, p. 24, prop. 15). En outre, si $j_\lambda$ est l’application canonique de $Y_\lambda$ dans $\hat{Y}_\lambda$, et si $g_\lambda = j_\lambda \circ f_\lambda$, $\hat{X}$ s’identifie à l’adhérence dans $\prod_{\lambda \in L} \hat{Y}_\lambda$ de l’image de $X$ par l’application $x \mapsto (g_\lambda(x))$.
+Soient $X$ un ensemble, $(Y_\lambda)_{\lambda \in L}$ une famille d’espaces uniformes, et pour chaque $\lambda \in L$, soit $f_\lambda$ une application de $X$ dans $Y_\lambda$; on munit $X$ de la structure uniforme la moins fine $\mathfrak{U}$ rendant uniformément continues les $f_\lambda$. Alors la structure uniforme de l’espace séparé complété $\hat{X}$ de $X$ est la moins fine rendant uniformément continues les applications $f_\lambda : \hat{X} \to \hat{Y}_\lambda$ ($\lambda \in L$) (II, p. 24, prop. 15). En outre, si $j_\lambda$ est l’application canonique de $Y_\lambda$ dans $\hat{Y}_\lambda$, et si $g_\lambda = j_\lambda \circ f_\lambda$, $\hat{X}$ s’identifie à l’adhérence dans $\prod_{\lambda \in L} \hat{Y}_\lambda$ de l’image de $X$ par l’application $x \mapsto (g_\lambda(x))$.
 
 Soit $X'$ (resp. $Y'_\lambda$) l’espace uniforme séparé associé à $X$ (resp. $Y_\lambda$), et soit $f'_\lambda : X' \to Y'_\lambda$ l’application uniformément continue rendant commutatif le diagramme
 
@@ -498,7 +498,7 @@ $$
 
 où $i$ est l’application canonique.
 
-La transitivité des structures uniformes initiales (II, p. 8, prop. 5) montre d’une part que $\mathscr{U}$ est la structure uniforme la moins fine rendant uniformément continues les applications $j_\lambda \circ f_\lambda : X \to Y'_\lambda$, et d’autre part que $\mathscr{U}$ est aussi l’image réciproque par $i$ de la structure uniforme $\mathscr{U}'$ la moins fine sur l’ensemble $X'$ rendant uniformément continues les $f'_\lambda$. Or $\mathscr{U}'$ est séparée, car si $x_1, x_2$ sont deux points de $X$ tels que $j_\lambda(f_\lambda(x_1)) = j_\lambda(f_\lambda(x_2))$ pour tout $\lambda \in L$, $(x_1, x_2)$ appartient à tous les entourages de $\mathscr{U}$, et par suite $i(x_1) = i(x_2)$. La prop. 17 (II, p. 25) montre donc que $\mathscr{U}'$ est la structure uniforme de l’espace séparé $X'$ associé à $X$.
+La transitivité des structures uniformes initiales (II, p. 8, prop. 5) montre d’une part que $\mathfrak{U}$ est la structure uniforme la moins fine rendant uniformément continues les applications $j_\lambda \circ f_\lambda : X \to Y'_\lambda$, et d’autre part que $\mathfrak{U}$ est aussi l’image réciproque par $i$ de la structure uniforme $\mathfrak{U}'$ la moins fine sur l’ensemble $X'$ rendant uniformément continues les $f'_\lambda$. Or $\mathfrak{U}'$ est séparée, car si $x_1, x_2$ sont deux points de $X$ tels que $j_\lambda(f_\lambda(x_1)) = j_\lambda(f_\lambda(x_2))$ pour tout $\lambda \in L$, $(x_1, x_2)$ appartient à tous les entourages de $\mathfrak{U}$, et par suite $i(x_1) = i(x_2)$. La prop. 17 (II, p. 25) montre donc que $\mathfrak{U}'$ est la structure uniforme de l’espace séparé $X'$ associé à $X$.
 
 Cela étant, $X'$ s’identifie par la bijection $x' \mapsto (f'_\lambda(x'))$ à un sous-espace uniforme de l’espace uniforme produit $\prod_\lambda Y'_\lambda$ (II, p. 11, prop. 8). Comme les $Y'_\lambda$ sont séparés, on peut identifier chacun des $Y'_\lambda$ à un sous-espace partout dense de son complété $\hat{Y}_\lambda$, donc $\prod_\lambda Y'_\lambda$ à un sous-espace partout dense de $\prod_\lambda \hat{Y}_\lambda$ (I, p. 27, prop. 7). Mais $\prod_\lambda \hat{Y}_\lambda$ est séparé et complet (II, p. 17, prop. 10); l’adhérence $\overline{X'}$ de $X'$ dans $\prod_\lambda \hat{Y}_\lambda$ est donc un sous-espace séparé et complet (II, p. 16, prop. 8), qui s’identifie par suite au séparé complété $\hat{X}$ de $X$, les applications $f'_\lambda$ s’identifiant aux projections sur les $\hat{X}_\lambda$; d’où la proposition.
 

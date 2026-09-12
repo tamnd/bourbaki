@@ -88,7 +88,7 @@ Nếu $f$ là một ánh xạ của một tập hợp $Z$ vào một không gian
 
 (C'') *Mọi họ các tập hợp con đóng của* $X$ *có giao rỗng đều chứa một họ con hữu hạn có giao rỗng*.
 
-(C) $\Longrightarrow$ (C''): Giả sử $\mathscr{G}$ là một họ các tập hợp con đóng của $X$ có giao rỗng. Nếu mọi họ con hữu hạn của $\mathscr{G}$ đều có giao khác rỗng, thì $\mathscr{G}$ sinh ra một lọc (§ 6, no. 2, Mệnh đề 1) và lọc này có một điểm tụ theo giả thiết. Điểm này thuộc mọi tập hợp của $\mathscr{G}$ (vì chúng đóng); do đó ta có một mâu thuẫn.
+(C) $\Longrightarrow$ (C''): Giả sử $\mathfrak{G}$ là một họ các tập hợp con đóng của $X$ có giao rỗng. Nếu mọi họ con hữu hạn của $\mathfrak{G}$ đều có giao khác rỗng, thì $\mathfrak{G}$ sinh ra một lọc (§ 6, no. 2, Mệnh đề 1) và lọc này có một điểm tụ theo giả thiết. Điểm này thuộc mọi tập hợp của $\mathfrak{G}$ (vì chúng đóng); do đó ta có một mâu thuẫn.
 
 $(C'') \implies (C)$: Vì nếu $(C)$ sai thì tồn tại một lọc $\mathfrak{F}$ trên $X$ không có điểm tụ; do đó các bao đóng của các tập hợp của $\mathfrak{F}$ tạo thành một họ các tập hợp con đóng của $X$ mâu thuẫn với tiên đề $(C'')$.
 
@@ -114,7 +114,7 @@ Các không gian quasi-compact (không Hausdorff) chủ yếu có ích trong cá
 
 *Cho* $\mathfrak{F}$ *là một bộ lọc trên một không gian quasi-compact* $X$ *và cho* $A$ *là tập hợp các điểm tụ của* $\mathfrak{F}$. *Khi đó mọi lân cận của* $A$ *đều thuộc* $\mathfrak{F}$.
 
-Cho $V$ là một lân cận của $A$ và giả sử rằng mọi tập hợp của $\mathfrak{F}$ đều giao với $\complement V$. Khi đó các giao của những tập hợp của $\mathfrak{F}$ với $\complement V$ tạo thành một cơ sở của một bộ lọc $\mathscr{G}$ trên $X$; $X$ là quasi-compact, nên $\mathscr{G}$ có ít nhất một điểm tụ $y$, điểm này không thuộc $A$, vì lân cận $V$ của $A$ không giao với một số tập của $\mathscr{G}$. Nhưng vì $\mathscr{G}$ mịn hơn $\mathfrak{F}$, nên $y$ cũng là một điểm tụ của $\mathfrak{F}$, trái với giả thiết.
+Cho $V$ là một lân cận của $A$ và giả sử rằng mọi tập hợp của $\mathfrak{F}$ đều giao với $\complement V$. Khi đó các giao của những tập hợp của $\mathfrak{F}$ với $\complement V$ tạo thành một cơ sở của một bộ lọc $\mathfrak{G}$ trên $X$; $X$ là quasi-compact, nên $\mathfrak{G}$ có ít nhất một điểm tụ $y$, điểm này không thuộc $A$, vì lân cận $V$ của $A$ không giao với một số tập của $\mathfrak{G}$. Nhưng vì $\mathfrak{G}$ mịn hơn $\mathfrak{F}$, nên $y$ cũng là một điểm tụ của $\mathfrak{F}$, trái với giả thiết.
 
 #### Hệ quả {#top-i-s9-n1-cor-1 .statement}
 
@@ -174,7 +174,7 @@ Trong một không gian tôpô $X$, cho $(x_n)_{n \in \mathbf{N}}$ là một dã
 
 *Mọi tập con compact của một không gian Hausdorff đều đóng.*
 
-Cho $A$ là một tập con compact của một không gian Hausdorff $X$, và cho $x$ là một điểm bất kỳ của $\overline{A}$; ta phải chứng minh rằng $x \in A$. Theo giả thiết, mọi lân cận của $x$ đều gặp $A$, và do đó bộ lọc lân cận $\mathscr{B}$ của $x$ trong $X$ gây ra một bộ lọc $\mathscr{B}_A$ trên $A$; $A$ là compact do đó $\mathscr{B}_A$ có một điểm tụ $y \in A$. Vì bộ lọc $\mathscr{B}$ thô hơn bộ lọc trên $X$ sinh bởi $\mathscr{B}_A$ (coi như một cơ sở bộ lọc trên $X$), nên $y$ cũng là một điểm tụ của $\mathscr{B}$; do đó $y = x$, vì $\mathscr{B}$ hội tụ tới $x$ trong $X$ và $X$ là Hausdorff (§ 8, no. 1, Mệnh đề 1).
+Cho $A$ là một tập con compact của một không gian Hausdorff $X$, và cho $x$ là một điểm bất kỳ của $\overline{A}$; ta phải chứng minh rằng $x \in A$. Theo giả thiết, mọi lân cận của $x$ đều gặp $A$, và do đó bộ lọc lân cận $\mathfrak{B}$ của $x$ trong $X$ gây ra một bộ lọc $\mathfrak{B}_A$ trên $A$; $A$ là compact do đó $\mathfrak{B}_A$ có một điểm tụ $y \in A$. Vì bộ lọc $\mathfrak{B}$ thô hơn bộ lọc trên $X$ sinh bởi $\mathfrak{B}_A$ (coi như một cơ sở bộ lọc trên $X$), nên $y$ cũng là một điểm tụ của $\mathfrak{B}$; do đó $y = x$, vì $\mathfrak{B}$ hội tụ tới $x$ trong $X$ và $X$ là Hausdorff (§ 8, no. 1, Mệnh đề 1).
 
 #### Hệ quả {#top-i-s9-n3-cor-1 .statement}
 
@@ -250,7 +250,7 @@ Cho $f$ là hạn chế trên $K$ của ánh xạ chính tắc $X \to X/R$. Vì 
 
 *Mọi tích của các không gian gần compact (tương ứng compact) đều là gần compact (tương ứng compact). Ngược lại, nếu một tích của các không gian không rỗng là gần compact (tương ứng compact) thì mỗi nhân tử đều là gần compact (tương ứng compact).*
 
-Xét theo đặc trưng hóa các không gian tích Hausdorff được cho trong § 8, no. 2, Mệnh đề 7, chỉ cần chứng minh các khẳng định đối với các không gian gần compact. Nếu $X = \prod_{i \in I} X_i$ là gần compact và không rỗng, thì $X_i = \operatorname{pr}_i(X)$ là gần compact do Định lý 2 của no. 4. Ngược lại, giả sử các $X_i$ đều gần compact và cho $\mathscr{U}$ là một siêu lọc trên $X$; khi đó với mỗi $i \in I$, $\operatorname{pr}_i(\mathscr{U})$ là một cơ sở siêu lọc trên $X_i$ (§ 6, no. 6, Mệnh đề 10) nên do tiên đề (C') nó hội tụ; vì vậy $\mathscr{U}$ hội tụ (§ 7, no. 6, Hệ quả 1 của Mệnh đề 10) và do đó $X$ là gần compact.
+Xét theo đặc trưng hóa các không gian tích Hausdorff được cho trong § 8, no. 2, Mệnh đề 7, chỉ cần chứng minh các khẳng định đối với các không gian gần compact. Nếu $X = \prod_{i \in I} X_i$ là gần compact và không rỗng, thì $X_i = \operatorname{pr}_i(X)$ là gần compact do Định lý 2 của no. 4. Ngược lại, giả sử các $X_i$ đều gần compact và cho $\mathfrak{U}$ là một siêu lọc trên $X$; khi đó với mỗi $i \in I$, $\operatorname{pr}_i(\mathfrak{U})$ là một cơ sở siêu lọc trên $X_i$ (§ 6, no. 6, Mệnh đề 10) nên do tiên đề (C') nó hội tụ; vì vậy $\mathfrak{U}$ hội tụ (§ 7, no. 6, Hệ quả 1 của Mệnh đề 10) và do đó $X$ là gần compact.
 
 #### Hệ quả {#top-i-s9-n5-cor-1 .statement}
 

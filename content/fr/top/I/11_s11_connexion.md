@@ -40,7 +40,7 @@ subsections:
       pdf_page: 98
 statements: 29
 exercises: 29
-content_sha256: 00c0e7abf24086abed49bbce2797b502a9bc9ab541ea0f9cc84ebe6bd036d674
+content_sha256: 4c8acfc8d0aa090197b19cb2ccf8c06e95b199a9adf8ab5a3d4b45272de35108
 ---
 
 ## § 11. CONNEXION
@@ -217,20 +217,20 @@ b) Soit $a = (a_i)$ un point de $X$ et soit $V$ un voisinage connexe de $a$ dans
 
 #### Théorème 1 {#top-i-s11-thm-1 .statement}
 
-Soit $X$ un espace topologique satisfaisant à l’axiome $(\mathbf{O}_{III})$ (mais non nécessairement séparé), connexe et localement connexe. Soit $Y$ un espace topologique dont la topologie admet une base dénombrable, et soit $p : X \to Y$ une application continue telle que, pour tout $y \in Y$, $p^{-1}(y)$ soit un sous-espace discret de $X$. Soit enfin $\mathscr{V}$ un ensemble de parties de $X$ dont les intérieurs forment un recouvrement de $X$, et tel en outre que:
-1° La restriction de $p$ à toute partie $V \in \mathscr{V}$ est une application fermée de $V$ dans $Y$.
-2° Tout ensemble $V \in \mathscr{V}$ contient une partie dénombrable dense dans $V$.
-Alors l’espace $X$ est réunion d’une famille dénombrable d’ensembles ouverts dont chacun est contenu dans un ensemble de $\mathscr{V}$.
+Soit $X$ un espace topologique satisfaisant à l’axiome $(\mathbf{O}_{III})$ (mais non nécessairement séparé), connexe et localement connexe. Soit $Y$ un espace topologique dont la topologie admet une base dénombrable, et soit $p : X \to Y$ une application continue telle que, pour tout $y \in Y$, $p^{-1}(y)$ soit un sous-espace discret de $X$. Soit enfin $\mathfrak{V}$ un ensemble de parties de $X$ dont les intérieurs forment un recouvrement de $X$, et tel en outre que:
+1° La restriction de $p$ à toute partie $V \in \mathfrak{V}$ est une application fermée de $V$ dans $Y$.
+2° Tout ensemble $V \in \mathfrak{V}$ contient une partie dénombrable dense dans $V$.
+Alors l’espace $X$ est réunion d’une famille dénombrable d’ensembles ouverts dont chacun est contenu dans un ensemble de $\mathfrak{V}$.
 
-Soit $\mathscr{B}$ une base dénombrable de la topologie de $Y$. Nous dirons qu’un couple $(W, U)$ est un couple distingué si: 1° $U \in \mathscr{B}$; 2° $W$ est une composante connexe de $p^{-1}(U)$ contenue dans un ensemble de $\mathscr{V}$.
+Soit $\mathfrak{B}$ une base dénombrable de la topologie de $Y$. Nous dirons qu’un couple $(W, U)$ est un couple distingué si: 1° $U \in \mathfrak{B}$; 2° $W$ est une composante connexe de $p^{-1}(U)$ contenue dans un ensemble de $\mathfrak{V}$.
 
 #### Lemme 1 {#top-i-s11-lem-1 .statement}
 
 Pour tout point $x \in X$, il existe un couple distingué $(W, U)$ tel que $x \in W$.
 
-En effet, l’image réciproque $p(p(x))$ étant discrète, il existe dans $X$ un voisinage de $x$ dont tous les points $x' \neq x$ ont une image $p(x') \neq p(x)$; comme $X$ vérifie $(\mathbf{O}_{III})$, il existe un voisinage fermé $V$ de $x$ ayant la même propriété, et on peut évidemment supposer en outre que $V$ est contenu dans un ensemble de $\mathscr{V}$.
+En effet, l’image réciproque $p(p(x))$ étant discrète, il existe dans $X$ un voisinage de $x$ dont tous les points $x' \neq x$ ont une image $p(x') \neq p(x)$; comme $X$ vérifie $(\mathbf{O}_{III})$, il existe un voisinage fermé $V$ de $x$ ayant la même propriété, et on peut évidemment supposer en outre que $V$ est contenu dans un ensemble de $\mathfrak{V}$.
 
-Soit $F$ la frontière de $V$ dans $X$; en vertu de la condition 1° de l’énoncé, $p(F)$ est fermé dans $Y$ et comme $p(F)$ ne contient pas $p(x)$, il existe un ensemble $U \in \mathscr{B}$ qui contient $p(x)$ et ne rencontre pas $p(F)$. Soit alors $W$ la composante connexe de $p^{-1}(U)$ qui contient $x$; il suffit de prouver que l’on a $W \subset V$; dans le cas contraire, $W$ rencontrerait $F$ (I, p. 81, prop. 3) et par suite $p(F)$ rencontrerait $U$, contrairement à la définition de $U$.
+Soit $F$ la frontière de $V$ dans $X$; en vertu de la condition 1° de l’énoncé, $p(F)$ est fermé dans $Y$ et comme $p(F)$ ne contient pas $p(x)$, il existe un ensemble $U \in \mathfrak{B}$ qui contient $p(x)$ et ne rencontre pas $p(F)$. Soit alors $W$ la composante connexe de $p^{-1}(U)$ qui contient $x$; il suffit de prouver que l’on a $W \subset V$; dans le cas contraire, $W$ rencontrerait $F$ (I, p. 81, prop. 3) et par suite $p(F)$ rencontrerait $U$, contrairement à la définition de $U$.
 
 #### Lemme 2 {#top-i-s11-lem-2 .statement}
 

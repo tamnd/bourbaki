@@ -46,9 +46,9 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 *Cho một họ $(X_i)_{i \in I}$ các không gian tôpô, không gian tích của họ này là tập hợp tích $X = \prod_{i \in I} X_i$ được trang bị tôpô là tích của các tôpô của các $X_i$ (§ 2, no. 3, Ví dụ 3). Các không gian $X_i (i \in I)$ được gọi là các nhân tử của X.*
 
-Theo § 2, no. 3, Mệnh đề 4, tôpô tích trên $X$ có một cơ sở là tập hợp $\mathscr{B}$ gồm các giao hữu hạn của các tập hợp có dạng $\overline{\mathrm{pr}}_i^{-1}(U_i)$, trong đó $U_i$ là mở trong $X_i$; các tập hợp này là các tích $\prod_{i \in I} A_i$, trong đó $A_i$ là mở trong $X_i$ với mỗi $i \in I$ và $A_i = X_i$ trừ ra đối với một số hữu hạn chỉ số. Các tập hợp này sẽ được gọi là các tập hợp sơ cấp.
+Theo § 2, no. 3, Mệnh đề 4, tôpô tích trên $X$ có một cơ sở là tập hợp $\mathfrak{B}$ gồm các giao hữu hạn của các tập hợp có dạng $\overline{\mathrm{pr}}_i^{-1}(U_i)$, trong đó $U_i$ là mở trong $X_i$; các tập hợp này là các tích $\prod_{i \in I} A_i$, trong đó $A_i$ là mở trong $X_i$ với mỗi $i \in I$ và $A_i = X_i$ trừ ra đối với một số hữu hạn chỉ số. Các tập hợp này sẽ được gọi là các tập hợp sơ cấp.
 
-Nếu $\mathscr{B}_i$ là một cơ sở của tôpô của $X_i$ (với mỗi $i \in I$), thì hiển nhiên là các tập hợp sơ cấp $\prod_{i \in I} A_i$ sao cho $A_i \in \mathscr{B}_i$ với mỗi chỉ số $i$ mà $A_i \neq X_i$ tạo thành một cơ sở khác của tôpô tích. Do đó, các tập hợp sơ cấp thuộc kiểu này chứa một điểm đã cho $x \in X$ tạo thành một hệ cơ bản các lân cận của $x$ ($§ 1$, no. 3, Mệnh đề 3).
+Nếu $\mathfrak{B}_i$ là một cơ sở của tôpô của $X_i$ (với mỗi $i \in I$), thì hiển nhiên là các tập hợp sơ cấp $\prod_{i \in I} A_i$ sao cho $A_i \in \mathfrak{B}_i$ với mỗi chỉ số $i$ mà $A_i \neq X_i$ tạo thành một cơ sở khác của tôpô tích. Do đó, các tập hợp sơ cấp thuộc kiểu này chứa một điểm đã cho $x \in X$ tạo thành một hệ cơ bản các lân cận của $x$ ($§ 1$, no. 3, Mệnh đề 3).
 
 Nếu $I$ là một tập hợp hữu hạn, phép dựng tôpô tích từ các tôpô của các thừa số $X_i$ là đơn giản hơn: các tập hợp sơ cấp chỉ đơn giản là các tích $\prod_{i \in I} A_i$, trong đó $A_i$ là một tập con mở bất kỳ của $X_i$, với mỗi $i \in I$ (x. Bài tập 9).
 
@@ -103,7 +103,7 @@ Lấy $K = I$ và $J_i = \{ \sigma(i) \}$ với mỗi $i \in I$ trong Mệnh đ�
 
 #### Mệnh đề 3 {#top-i-s4-prop-3 .statement}
 
-*Cho $X$ là một tập hợp, $(Y_i)_{i \in I}$ là một họ các không gian tôpô, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Gọi $f$ là ánh xạ $x \to (f_i(x))$ từ $X$ vào $Y = \prod_{i \in I} Y_i$, và gọi $\mathscr{T}$ là tôpô thô nhất trên $X$ sao cho các ánh xạ $f_i$ là liên tục. Khi đó $\mathscr{T}$ là ảnh ngược theo $f$ của tôpô cảm sinh trên $f(X)$ bởi tôpô tích trên $Y$.*
+*Cho $X$ là một tập hợp, $(Y_i)_{i \in I}$ là một họ các không gian tôpô, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Gọi $f$ là ánh xạ $x \to (f_i(x))$ từ $X$ vào $Y = \prod_{i \in I} Y_i$, và gọi $\mathfrak{T}$ là tôpô thô nhất trên $X$ sao cho các ánh xạ $f_i$ là liên tục. Khi đó $\mathfrak{T}$ là ảnh ngược theo $f$ của tôpô cảm sinh trên $f(X)$ bởi tôpô tích trên $Y$.*
 
 Đây là một trường hợp riêng khác của tính bắc cầu của các tôpô ban đầu (\S\ 2, no. 3, Mệnh đề 5; xem thêm Lý thuyết tập hợp, Chương IV, \S\ 2, no. 4, tiêu chuẩn CST 15).
 
@@ -202,7 +202,7 @@ Cuối cùng, giả sử $I$ là một tập hợp *có hướng*, và cho $J$ l
 
 #### Mệnh đề 9 {#top-i-s4-prop-9 .statement}
 
-*Cho $I$ là một tập có hướng và $J$ là một tập con đồng cuối của $I$. Cho $(X_\alpha, f_{\alpha\beta})$ là một hệ ngược các không gian tôpô được đánh chỉ số bởi $I$; đặt $X = \varprojlim X_\alpha$ và gọi $f_\alpha : X \to X_\alpha$ là ánh xạ chính tắc. Khi đó họ các tập hợp $f^{-1}_\alpha(U_\alpha)$, trong đó $\alpha$ chạy qua $J$ và $U_\alpha$ chạy qua một cơ sở $\mathscr{B}_\alpha$ của tôpô của $X_\alpha$ với mỗi $\alpha \in J$, là một cơ sở của tôpô của $X$.*
+*Cho $I$ là một tập có hướng và $J$ là một tập con đồng cuối của $I$. Cho $(X_\alpha, f_{\alpha\beta})$ là một hệ ngược các không gian tôpô được đánh chỉ số bởi $I$; đặt $X = \varprojlim X_\alpha$ và gọi $f_\alpha : X \to X_\alpha$ là ánh xạ chính tắc. Khi đó họ các tập hợp $f^{-1}_\alpha(U_\alpha)$, trong đó $\alpha$ chạy qua $J$ và $U_\alpha$ chạy qua một cơ sở $\mathfrak{B}_\alpha$ của tôpô của $X_\alpha$ với mỗi $\alpha \in J$, là một cơ sở của tôpô của $X$.*
 
 Từ § 2, no. 3 ta biết rằng các *giao hữu hạn* của các tập hợp dạng $f^{-1}_\alpha(U_\alpha)$ ($\alpha \in I, U_\alpha$ mở trong $X_\alpha$) tạo thành một cơ sở của tôpô của $X$. Nếu $(\alpha_i)_{1 \leq i \leq n}$ là một họ hữu hạn các chỉ số của $I$, thì tồn tại $\gamma \in J$ sao cho $\alpha_i \leq \gamma$ với $1 \leq i \leq n$; do đó $f_{\alpha_i} = f_{\alpha_i\gamma} \circ f_\gamma$; nếu đặt
 
@@ -216,7 +216,7 @@ $$
 f^{-1}_\gamma(V_\gamma) = \bigcap_i f^{-1}_{\alpha_i}(U_{\alpha_i});
 $$
 
-nhưng $V_\gamma$ là mở và vì vậy là một hợp của các tập hợp thuộc $\mathscr{B}_\gamma$. Suy ra kết quả.
+nhưng $V_\gamma$ là mở và vì vậy là một hợp của các tập hợp thuộc $\mathfrak{B}_\gamma$. Suy ra kết quả.
 
 #### Hệ quả {#top-i-s4-n4-cor-1 .statement}
 
@@ -244,7 +244,7 @@ và (ii) suy ra.
 
 #### Ví dụ {#top-i-s4-n4-exa-1 .statement}
 
-Cho $I$ là một tập có hướng và $(X_\alpha)_{\alpha \in I}$ là một họ các tập con của một tập hợp $Y$, sao cho $X_\alpha \supset X_\beta$ mỗi khi $\alpha \leq \beta$. Với mỗi $\alpha \in I$ cho $\mathscr{T}_\alpha$ là một tôpô trên $X_\alpha$ sao cho $\mathscr{T}_\beta$ mịn hơn tôpô cảm sinh trên $X_\beta$ bởi $\mathscr{T}_\alpha$ mỗi khi $\alpha \leq \beta$. Nếu lấy $f_{\alpha\beta}$ là đơn ánh chính tắc $X_\beta \to X_\alpha$ đối với $\alpha \leq \beta$, thì $\lim X_\alpha$ có thể được đồng nhất một cách chính tắc với *giao* $X$ của các $X_\alpha$, được trang bị tôpô là *cận trên bé nhất* (§ 2, no. 3, Ví dụ 2) của các tôpô cảm sinh trên $X$ bởi các $\mathscr{T}_\alpha$.
+Cho $I$ là một tập có hướng và $(X_\alpha)_{\alpha \in I}$ là một họ các tập con của một tập hợp $Y$, sao cho $X_\alpha \supset X_\beta$ mỗi khi $\alpha \leq \beta$. Với mỗi $\alpha \in I$ cho $\mathfrak{T}_\alpha$ là một tôpô trên $X_\alpha$ sao cho $\mathfrak{T}_\beta$ mịn hơn tôpô cảm sinh trên $X_\beta$ bởi $\mathfrak{T}_\alpha$ mỗi khi $\alpha \leq \beta$. Nếu lấy $f_{\alpha\beta}$ là đơn ánh chính tắc $X_\beta \to X_\alpha$ đối với $\alpha \leq \beta$, thì $\lim X_\alpha$ có thể được đồng nhất một cách chính tắc với *giao* $X$ của các $X_\alpha$, được trang bị tôpô là *cận trên bé nhất* (§ 2, no. 3, Ví dụ 2) của các tôpô cảm sinh trên $X$ bởi các $\mathfrak{T}_\alpha$.
 
 ### Bài tập {#top-i-s4-exercises}
 

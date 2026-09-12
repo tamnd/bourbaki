@@ -12,7 +12,7 @@ pdf_pages: 0347-0348
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 5f108202910b21f4c6dddba86c797e675b682e35a5e7190afabee3e1c373aa0e
+content_sha256: 460beca3ec1f8093981168de0696a6b82e299704327e07d7824592945b98b764
 ---
 
 ## INDEX DES NOTATIONS
@@ -29,12 +29,12 @@ $f_T$ : I, p. 31 et 72.
 $Fr(A)$ (A partie d’un espace topologique): I, p. 90, exerc. 5.
 $\mathscr{T}_0(X), \mathscr{T}_+(X), \mathscr{T}_-(X)$ (X ensemble ordonné): I, p. 91, exerc. 5.
 $\mathfrak{p}_0(X), \mathscr{T}_\Omega, \mathscr{T}_\emptyset$ : I, p. 91, exerc. 7.
-$\mathscr{F}(X), \mathscr{T}_\emptyset$ : I, p. 101, exerc. 12.
+$\mathfrak{F}(X), \mathscr{T}_\emptyset$ : I, p. 101, exerc. 12.
 $\mathscr{T}^*$ : I, p. 103, exerc. 20.
 $\mathscr{R}(X)$ : I, p. 107, exerc. 13.
 $\lim_{\leftarrow} X_\alpha$ ($(X_\alpha)$ système projectif d’espaces uniformes): II, p. 12.
 $\hat{X}$ (espace séparé complété d’un espace uniforme X): II, p. 23.
-$\tilde{\mathscr{U}}, \mathscr{T}(\tilde{\mathscr{U}})$ : II, p. 34, exerc. 5.
+$\tilde{\mathfrak{U}}, \mathscr{T}(\tilde{\mathfrak{U}})$ : II, p. 34, exerc. 5.
 $E/G$ (G groupe opérant continûment dans un espace E): III, p. 10.
 $G_s, G_d$ (groupe topologique muni de sa structure uniforme gauche, de sa structure uniforme droite): III, p. 20.
 $P(K, L)$ (K, L parties d’un espace à opérateurs): III, p. 33.

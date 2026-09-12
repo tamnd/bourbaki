@@ -37,7 +37,7 @@ subsections:
       pdf_page: 280
 statements: 13
 exercises: 22
-content_sha256: aa277126515e54e642c0f823539a049d38c8c95374f7d5347f4e9ff127c1134d
+content_sha256: 6a3029f6b034c5ffe9bc85b0e9c6fb8a58d1f1b0ee66458de35acfc37a2db233
 ---
 
 ## § 2. PROPRIÉTÉS TOPOLOGIQUES FONDAMENTALES DE LA DROITE NUMÉRIQUE
@@ -82,7 +82,7 @@ Rappelons (E, III, p. 10) que la *borne supérieure* (resp. *inférieure*) d’u
 
 *Toute partie majorée* (resp. *minorée*) *et non vide de la droite numérique a une borne supérieure* (resp. *inférieure*).
 
-En effet, soit $A$ une partie majorée et non vide de $\mathbf{R}$; soit $b$ un majorant de $A$; on a donc $A \subset ]\leftarrow, b]$. Pour chaque $x \in A$, considérons l’ensemble $A_x$ des majorants de $x$ appartenant à $A$; les ensembles $A_x$ forment une *base de filtre* $\mathscr{B}$ sur $\mathbf{R}$, car $A_y \subset A_x$ si $y \geq x$. Soit $a$ un point de $A$; pour tout $x \geq a$, appartenant à $A$, $A_x$ est contenu dans l’intervalle *compact* $[a, b]$, donc la base de filtre $\mathscr{B}$ a un point adhérent $c$. Les intervalles $[x, \rightarrow[$ étant fermés, $c$ appartient à leur intersection, donc $c$ est un *majorant* de $A$; d’autre part, tout autre majorant $z$ de $A$ est $\geq c$, car, dans le cas contraire, le voisinage $]z, \rightarrow[$ de $c$ ne contiendrait aucun point de $A$; $c$ est donc bien la *borne supérieure* de $A$.
+En effet, soit $A$ une partie majorée et non vide de $\mathbf{R}$; soit $b$ un majorant de $A$; on a donc $A \subset ]\leftarrow, b]$. Pour chaque $x \in A$, considérons l’ensemble $A_x$ des majorants de $x$ appartenant à $A$; les ensembles $A_x$ forment une *base de filtre* $\mathfrak{B}$ sur $\mathbf{R}$, car $A_y \subset A_x$ si $y \geq x$. Soit $a$ un point de $A$; pour tout $x \geq a$, appartenant à $A$, $A_x$ est contenu dans l’intervalle *compact* $[a, b]$, donc la base de filtre $\mathfrak{B}$ a un point adhérent $c$. Les intervalles $[x, \rightarrow[$ étant fermés, $c$ appartient à leur intersection, donc $c$ est un *majorant* de $A$; d’autre part, tout autre majorant $z$ de $A$ est $\geq c$, car, dans le cas contraire, le voisinage $]z, \rightarrow[$ de $c$ ne contiendrait aucun point de $A$; $c$ est donc bien la *borne supérieure* de $A$.
 
 On peut raisonner de même pour un ensemble minoré non vide $B$, ou remarquer simplement que $-B$ est majoré et non vide, et que, si $c$ est la borne supérieure de $-B$, $-c$ est la borne inférieure de $B$.
 
@@ -106,7 +106,7 @@ La condition est évidemment nécessaire. Réciproquement, supposons-la vérifi�
 
 Pour qu’une partie A de $\mathbf{R}$ soit connexe, il faut et il suffit que A soit un intervalle.
 
-1° La condition est nécessaire. Supposons A connexe ; s’il est réduit à un point, c’est un intervalle. Sinon, soient $a$ et $b$ deux points de A tels que $a < b$; il suffit, d’après la prop. 1 de IV, p. 7, de montrer que tout $x$ tel que $a < x < b$ appartient à A. Or, si on avait $x \notin A$, on aurait $A \subset \mathscr{G}\{x\}$; mais $\mathscr{G}\{x\}$ est la réunion de deux ensembles ouverts $]\leftarrow, x[$ et $x, \rightarrow[$ qui sont sans point commun et dont chacun rencontre A; A ne serait donc pas connexe, contrairement à l’hypothèse.
+1° La condition est nécessaire. Supposons A connexe ; s’il est réduit à un point, c’est un intervalle. Sinon, soient $a$ et $b$ deux points de A tels que $a < b$; il suffit, d’après la prop. 1 de IV, p. 7, de montrer que tout $x$ tel que $a < x < b$ appartient à A. Or, si on avait $x \notin A$, on aurait $A \subset \mathfrak{G}\{x\}$; mais $\mathfrak{G}\{x\}$ est la réunion de deux ensembles ouverts $]\leftarrow, x[$ et $x, \rightarrow[$ qui sont sans point commun et dont chacun rencontre A; A ne serait donc pas connexe, contrairement à l’hypothèse.
 
 2° La condition est suffisante. Montrons d’abord que tout intervalle compact $[a, b]$ est connexe. Pour tout entier $n > 0$ soit $V_{1/n}$ l’entourage formé des couples $(x, y)$ tels que $|x - y| \leq 1/n$; d’après II, p. 32, prop. 6, il suffit de voir que deux points quelconques $x, y$ de $[a, b]$ tels que $x < y$ peuvent être joints par une $V_{1/n}$-chaîne. Soit $p$ le plus grand entier tel que $p/n \leq x$, $q$ le plus grand entier tel que $q/n \leq y$ (ces entiers existent d’après le th. 1 de IV, p. 6); on a $p \leq q$. Si $q = p$, $y - x < 1/n$, les points $x$ et $y$ forment déjà une $V_{1/n}$-chaîne. Si $q < p$, posons $x_i = (p + i)/n$ ($i = 1, 2, \ldots, q - p$); on a $x_1 - x \leq 1/n$, $y - x_{q-p} \leq 1/n$ et $x_{i+1} - x_i = 1/n$, donc les points $x, x_1, x_2, \ldots, x_{q-p}, y$ forment une $V_{1/n}$-chaîne joignant $x$ et $y$.
 

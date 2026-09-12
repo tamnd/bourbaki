@@ -29,7 +29,7 @@ subsections:
       pdf_page: 40
 statements: 21
 exercises: 10
-content_sha256: 8ef86854261cfe9f4541410af972aaf0ff54d970a00d34aabaedd83e40fb68f1
+content_sha256: 1187ca066d580e9f51c6f43c56bd495f47d3146439e95595d1ca42100bd198bb
 ---
 
 ## § 4. PRODUIT D’ESPACES TOPOLOGIQUES
@@ -175,9 +175,9 @@ Alors la bijection canonique $g : X \to Z$ (E, III, p. 55, prop. 3) est un homé
 
 #### Proposition 9 {#top-i-s4-prop-9 .statement}
 
-Soit $I$ un ensemble préordonné filtrant à droite. Soient $(X_\alpha, f_{\alpha \beta})$ un système projectif d’espaces topologiques ayant $I$ pour ensemble d’indices, $X = \lim_{\leftarrow} X_\alpha$, $J$ une partie cofinale de $I$. La famille des ensembles $f_\alpha^{-1}(U_\alpha)$, où $\alpha$ parcourt $J$, où $f_\alpha$ est l’application canonique $X \to X_\alpha$, et où, pour chaque $\alpha \in J$, $U_\alpha$ parcourt une base $\mathscr{B}_\alpha$ de la topologie de $X_\alpha$, est une base de la topologie de $X$.
+Soit $I$ un ensemble préordonné filtrant à droite. Soient $(X_\alpha, f_{\alpha \beta})$ un système projectif d’espaces topologiques ayant $I$ pour ensemble d’indices, $X = \lim_{\leftarrow} X_\alpha$, $J$ une partie cofinale de $I$. La famille des ensembles $f_\alpha^{-1}(U_\alpha)$, où $\alpha$ parcourt $J$, où $f_\alpha$ est l’application canonique $X \to X_\alpha$, et où, pour chaque $\alpha \in J$, $U_\alpha$ parcourt une base $\mathfrak{B}_\alpha$ de la topologie de $X_\alpha$, est une base de la topologie de $X$.
 
-On sait (I, p. 12) que les intersections finies d’ensembles de la forme $f_\alpha^{-1}(U_\alpha)$ ($\alpha \in I$, $U_\alpha$ ouvert dans $X_\alpha$) forment une base de la topologie de $X$. Si $(\alpha_i)_{1 \leq i \leq n}$ est une famille finie d’indices de $I$, il existe $\gamma \in J$ tel que $\alpha_i \leq \gamma$ pour $1 \leq i \leq n$, donc $f_{\alpha_i} = f_{\alpha_i \gamma} \circ f_\gamma$, et si l’on pose $V_\gamma = \bigcap_i f_{\alpha_i \gamma}^{-1}(U_{\alpha_i})$, on a $f_\gamma(V_\gamma) = \bigcap_i f_{\alpha_i}^{-1}(U_{\alpha_i})$; mais $V_\gamma$ est ouvert, donc réunion d’ensembles de $\mathscr{B}_\gamma$, d’où la proposition.
+On sait (I, p. 12) que les intersections finies d’ensembles de la forme $f_\alpha^{-1}(U_\alpha)$ ($\alpha \in I$, $U_\alpha$ ouvert dans $X_\alpha$) forment une base de la topologie de $X$. Si $(\alpha_i)_{1 \leq i \leq n}$ est une famille finie d’indices de $I$, il existe $\gamma \in J$ tel que $\alpha_i \leq \gamma$ pour $1 \leq i \leq n$, donc $f_{\alpha_i} = f_{\alpha_i \gamma} \circ f_\gamma$, et si l’on pose $V_\gamma = \bigcap_i f_{\alpha_i \gamma}^{-1}(U_{\alpha_i})$, on a $f_\gamma(V_\gamma) = \bigcap_i f_{\alpha_i}^{-1}(U_{\alpha_i})$; mais $V_\gamma$ est ouvert, donc réunion d’ensembles de $\mathfrak{B}_\gamma$, d’où la proposition.
 
 #### Corollaire {#top-i-s4-n4-cor-1 .statement}
 

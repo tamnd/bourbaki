@@ -42,7 +42,7 @@ Tôpô của đường thẳng hữu tỉ $\mathbf{Q}$ không những tương th
 
 Để chứng minh rằng $1/x$ liên tục trên $\mathbf{Q}^*$, ta sẽ thiết lập chính xác hơn rằng $1/x$ là *liên tục đều* (đối với cấu trúc cộng tính) trong phần bù của mọi lân cận V của 0. Cụ thể, ta có $$
 \left| \frac{1}{x} - \frac{1}{y} \right| = \frac{|x-y|}{xy}
-$$; tồn tại một số nguyên $m > 0$ sao cho $|x| \geq 1/m$ với mọi $x \in \mathscr{G}_V$; nếu $x$ và $y$ là hai điểm bất kỳ của $\mathscr{G}_V$ sao cho $|x-y| \leq 1/m^2 n$, thì khi đó ta sẽ có $$
+$$; tồn tại một số nguyên $m > 0$ sao cho $|x| \geq 1/m$ với mọi $x \in \mathfrak{G}_V$; nếu $x$ và $y$ là hai điểm bất kỳ của $\mathfrak{G}_V$ sao cho $|x-y| \leq 1/m^2 n$, thì khi đó ta sẽ có $$
 \left| \frac{1}{x} - \frac{1}{y} \right| \leq \frac{1}{n}.
 $$
 

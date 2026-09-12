@@ -29,7 +29,7 @@ subsections:
       pdf_page: 54
 statements: 21
 exercises: 10
-content_sha256: 215472379d1b2b1e5dd419171df24ab53370ba8ea52d59a35d90602b9a5774bb
+content_sha256: 2c22596e790aa673d73a84e91d28f6d8685cfabc53689f277e2e2063148689a5
 ---
 
 ## 4. PRODUCT OF TOPOLOGICAL SPACES
@@ -40,9 +40,9 @@ content_sha256: 215472379d1b2b1e5dd419171df24ab53370ba8ea52d59a35d90602b9a5774bb
 
 *Given a family $(X_i)_{i \in I}$ of topological spaces, the product space of this family is the product set $X = \prod_{i \in I} X_i$ with the topology which is the product of the topologies of the $X_i$ (§ 2, no. 3, Example 3). The spaces $X_i (i \in I)$ are called the factors of X.*
 
-By virtue of § 2, no. 3, Proposition 4, the product topology on $X$ has as a base the set $\mathscr{B}$ of finite intersections of sets of the form $\overline{\mathrm{pr}}_i^{-1}(U_i)$, where $U_i$ is open in $X_i$; these sets are products $\prod_{i \in I} A_i$, where $A_i$ is open in $X_i$ for each $i \in I$ and $A_i = X_i$ for all but a finite number of indices. These sets will be called elementary sets.
+By virtue of § 2, no. 3, Proposition 4, the product topology on $X$ has as a base the set $\mathfrak{B}$ of finite intersections of sets of the form $\overline{\mathrm{pr}}_i^{-1}(U_i)$, where $U_i$ is open in $X_i$; these sets are products $\prod_{i \in I} A_i$, where $A_i$ is open in $X_i$ for each $i \in I$ and $A_i = X_i$ for all but a finite number of indices. These sets will be called elementary sets.
 
-If $\mathscr{B}_i$ is a base of the topology of $X_i$ (for each $i \in I$), it is clear that the elementary sets $\prod_{i \in I} A_i$ such that $A_i \in \mathscr{B}_i$ for each index $i$ such that $A_i \neq X_i$ form another base of the product topology. The elementary sets of this type which contain a given point $x \in X$ thus form a fundamental system of neighbourhoods of $x$ ($§ 1$, no. 3, Proposition 3).
+If $\mathfrak{B}_i$ is a base of the topology of $X_i$ (for each $i \in I$), it is clear that the elementary sets $\prod_{i \in I} A_i$ such that $A_i \in \mathfrak{B}_i$ for each index $i$ such that $A_i \neq X_i$ form another base of the product topology. The elementary sets of this type which contain a given point $x \in X$ thus form a fundamental system of neighbourhoods of $x$ ($§ 1$, no. 3, Proposition 3).
 
 If $I$ is a finite set, the construction of the product topology from the topologies of the factors $X_i$ is simpler: the elementary sets are just products $\prod_{i \in I} A_i$, where $A_i$ is any open subset of $X_i$, for each $i \in I$ (cf. Exercise 9).
 
@@ -97,7 +97,7 @@ Take $K = I$ and $J_i = \{ \sigma(i) \}$ for each $i \in I$ in Proposition 2.
 
 #### Proposition 3 {#top-i-s4-prop-3 .statement}
 
-*Let $X$ be a set, $(Y_i)_{i \in I}$ a family of topological spaces, and for each $i \in I$ let $f_i$ be a mapping of $X$ into $Y_i$. Let $f$ be the mapping $x \to (f_i(x))$ of $X$ into $Y = \prod_{i \in I} Y_i$, and let $\mathscr{T}$ be the coarsest topology on $X$ for which the mappings $f_i$ are continuous. Then $\mathscr{T}$ is the inverse image under $f$ of the topology induced on $f(X)$ by the product topology on $Y$.*
+*Let $X$ be a set, $(Y_i)_{i \in I}$ a family of topological spaces, and for each $i \in I$ let $f_i$ be a mapping of $X$ into $Y_i$. Let $f$ be the mapping $x \to (f_i(x))$ of $X$ into $Y = \prod_{i \in I} Y_i$, and let $\mathfrak{T}$ be the coarsest topology on $X$ for which the mappings $f_i$ are continuous. Then $\mathfrak{T}$ is the inverse image under $f$ of the topology induced on $f(X)$ by the product topology on $Y$.*
 
 This is another particular case of transitivity of initial topologies (\S\ 2, no. 3, Proposition 5; cf. Set Theory, Chapter IV, \S\ 2, no. 4, criterion CST 15).
 
@@ -198,7 +198,7 @@ Finally, suppose $I$ is a *directed* set, and let $J$ be a *cofinal* subset of $
 
 #### Proposition 9 {#top-i-s4-prop-9 .statement}
 
-*Let $I$ be a directed set and $J$ a cofinal subset of $I$. Let $(X_\alpha, f_{\alpha\beta})$ be an inverse system of topological spaces indexed by $I$; let $X = \varprojlim X_\alpha$ and let $f_\alpha : X \to X_\alpha$ be the canonical mapping. Then the family of sets $f^{-1}_\alpha(U_\alpha)$, where $\alpha$ runs through $J$ and $U_\alpha$ runs through a base $\mathscr{B}_\alpha$ of the topology of $X_\alpha$ for each $\alpha \in J$, is a base of the topology of $X$.*
+*Let $I$ be a directed set and $J$ a cofinal subset of $I$. Let $(X_\alpha, f_{\alpha\beta})$ be an inverse system of topological spaces indexed by $I$; let $X = \varprojlim X_\alpha$ and let $f_\alpha : X \to X_\alpha$ be the canonical mapping. Then the family of sets $f^{-1}_\alpha(U_\alpha)$, where $\alpha$ runs through $J$ and $U_\alpha$ runs through a base $\mathfrak{B}_\alpha$ of the topology of $X_\alpha$ for each $\alpha \in J$, is a base of the topology of $X$.*
 
 From § 2, no. 3 we know that the *finite intersections* of sets of the form $f^{-1}_\alpha(U_\alpha)$ ($\alpha \in I, U_\alpha$ open in $X_\alpha$) form a base of the topology of $X$. If $(\alpha_i)_{1 \leq i \leq n}$ is a finite family of indices of $I$, then there exists $\gamma \in J$ such that $\alpha_i \leq \gamma$ for $1 \leq i \leq n$; hence $f_{\alpha_i} = f_{\alpha_i\gamma} \circ f_\gamma$; if we put
 
@@ -212,7 +212,7 @@ $$
 f^{-1}_\gamma(V_\gamma) = \bigcap_i f^{-1}_{\alpha_i}(U_{\alpha_i});
 $$
 
-but $V_\gamma$ is open and is therefore a union of sets belonging to $\mathscr{B}_\gamma$. Hence the result.
+but $V_\gamma$ is open and is therefore a union of sets belonging to $\mathfrak{B}_\gamma$. Hence the result.
 
 #### Corollary {#top-i-s4-n4-cor-1 .statement}
 
@@ -240,7 +240,7 @@ and (ii) follows.
 
 #### Example {#top-i-s4-n4-exa-1 .statement}
 
-Let $I$ be a directed set and $(X_\alpha)_{\alpha \in I}$ a family of subsets of a set $Y$, such that $X_\alpha \supset X_\beta$ whenever $\alpha \leq \beta$. For each $\alpha \in I$ let $\mathscr{T}_\alpha$ be a topology on $X_\alpha$ such that $\mathscr{T}_\beta$ is finer than the topology induced on $X_\beta$ by $\mathscr{T}_\alpha$ whenever $\alpha \leq \beta$. If we take $f_{\alpha\beta}$ to be the canonical injection $X_\beta \to X_\alpha$ for $\alpha \leq \beta$, then $\lim X_\alpha$ may be identified canonically with the *intersection* $X$ of the $X_\alpha$, with the topology which is the *least upper bound* (§ 2, no. 3, Example 2) of the topologies induced on $X$ by the $\mathscr{T}_\alpha$.
+Let $I$ be a directed set and $(X_\alpha)_{\alpha \in I}$ a family of subsets of a set $Y$, such that $X_\alpha \supset X_\beta$ whenever $\alpha \leq \beta$. For each $\alpha \in I$ let $\mathfrak{T}_\alpha$ be a topology on $X_\alpha$ such that $\mathfrak{T}_\beta$ is finer than the topology induced on $X_\beta$ by $\mathfrak{T}_\alpha$ whenever $\alpha \leq \beta$. If we take $f_{\alpha\beta}$ to be the canonical injection $X_\beta \to X_\alpha$ for $\alpha \leq \beta$, then $\lim X_\alpha$ may be identified canonically with the *intersection* $X$ of the $X_\alpha$, with the topology which is the *least upper bound* (§ 2, no. 3, Example 2) of the topologies induced on $X$ by the $\mathfrak{T}_\alpha$.
 
 ### Exercises {#top-i-s4-exercises}
 

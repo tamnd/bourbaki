@@ -252,7 +252,7 @@ Mỗi khi trong phần sau ta xét một nhóm thương $G/H$ của một nhóm 
 
 #### Mệnh đề 17 {#top-iii-s2-prop-17 .statement}
 
-*Cho $\varphi$ là ánh xạ chính tắc từ một nhóm tôpô $G$ lên một nhóm thương $G/H$. Nếu $\mathscr{B}$ là một hệ cơ bản các lân cận của $e$ trong $G$, thì $\varphi(\mathscr{B})$ là một hệ cơ bản các lân cận của phần tử đơn vị $\varphi(e)$ của $G/H$.*
+*Cho $\varphi$ là ánh xạ chính tắc từ một nhóm tôpô $G$ lên một nhóm thương $G/H$. Nếu $\mathfrak{B}$ là một hệ cơ bản các lân cận của $e$ trong $G$, thì $\varphi(\mathfrak{B})$ là một hệ cơ bản các lân cận của phần tử đơn vị $\varphi(e)$ của $G/H$.*
 
 Đây là một trường hợp riêng của Mệnh đề 5 của Chương I, § 5, no. 3.
 

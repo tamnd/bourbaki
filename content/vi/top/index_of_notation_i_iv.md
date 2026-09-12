@@ -37,14 +37,14 @@ $\lim_{x \geq a, x \in A} f(x), \lim_{x \geq a, x \neq a} f(x)$ : I, 7, 5.
 $f_T$ : I, 5, 1.
 $t_X$ : I, 10.
 Fr (A) (A là một tập con của một không gian tôpô) : I, 1, Bài tập 5.
-\mathscr{T}_0(X), \mathscr{T}_+(X), \mathscr{T}_-(X) : I, 2, Bài tập 5.
-\mathfrak{B}_0(X), \mathscr{T}_\Omega, \mathscr{T}_\Phi : I, 2, Bài tập 7.
-\mathfrak{F}(X), \mathscr{T}_\Theta : I, 8, Bài tập 12.
-\mathscr{T}^* : I, 8, Bài tập 20.
+\mathfrak{T}_0(X), \mathfrak{T}_+(X), \mathfrak{T}_-(X) : I, 2, Bài tập 5.
+\mathfrak{B}_0(X), \mathfrak{T}_\Omega, \mathfrak{T}_\Phi : I, 2, Bài tập 7.
+\mathfrak{F}(X), \mathfrak{T}_\Theta : I, 8, Bài tập 12.
+\mathfrak{T}^* : I, 8, Bài tập 20.
 \mathfrak{K}(X) : I, 9, Bài tập 13.
 \varprojlim X_\alpha [(X_\alpha) là một hệ ngược của các không gian đều] : II, 2, 7.
 \hat{X} (phép hoàn thành Hausdorff của một không gian đều X) : II, 3, 7.
-\tilde{\mathscr{U}}, \mathscr{T}(\tilde{\mathscr{U}}) : II, 1, Bài tập 5.
+\tilde{\mathfrak{U}}, \mathfrak{T}(\tilde{\mathfrak{U}}) : II, 1, Bài tập 5.
 X/G (G là một nhóm tác động trên một không gian X) : III, 2, 4.
 
 P(K, L) (K, L là các tập con của một không gian có các toán tử) : III, 4, 5.
@@ -79,7 +79,7 @@ sup $f(x)$, inf $f(x)$ ($f$ là một hàm giá trị thực) : IV, 5, 4.
 
 sup $f_i$, sup $f_i$, inf $f_i$, inf $f_i$ ($f_i$ là các hàm giá trị thực) : IV, 5, 5.
 
-lim sup $\mathscr{G} f$, lim inf $\mathscr{G} f$, lim sup $x, \mathscr{G} f(x)$, lim inf $x, \mathscr{G} f(x) :$ IV, 5, 6.
+lim sup $\mathfrak{G} f$, lim inf $\mathfrak{G} f$, lim sup $x, \mathfrak{G} f(x)$, lim inf $x, \mathfrak{G} f(x) :$ IV, 5, 6.
 
 lim sup $f$, lim inf $f$, lim sup $x f(x)$, lim inf $x f(x) :$ IV, 5, 6.
 

@@ -72,7 +72,7 @@ Tiên đề (O_I) suy ra nói riêng rằng hợp của tập con rỗng của $
 (O_{II\ a}) *Giao của hai tập hợp thuộc* $\mathscr{D}$ *thuộc* $\mathscr{D}$.
 (O_{II\ b}) $X$ *thuộc* $\mathscr{D}$.
 
-Ví dụ về các tôpô. Cho bất kỳ một tập hợp $X$, tập hợp các tập con của $X$ gồm $X$ và $\varnothing$ thỏa mãn các tiên đề $(O_1)$ và $(O_{II})$ và do đó xác định một tôpô trên $X$. Tập $\mathscr{P}(X)$ gồm tất cả các tập con của $X$ cũng vậy: tôpô mà nó xác định là tôpô rời rạc trên $X$, và tập hợp $X$ với tôpô này được gọi là một không gian rời rạc.
+Ví dụ về các tôpô. Cho bất kỳ một tập hợp $X$, tập hợp các tập con của $X$ gồm $X$ và $\varnothing$ thỏa mãn các tiên đề $(O_1)$ và $(O_{II})$ và do đó xác định một tôpô trên $X$. Tập $\mathfrak{P}(X)$ gồm tất cả các tập con của $X$ cũng vậy: tôpô mà nó xác định là tôpô rời rạc trên $X$, và tập hợp $X$ với tôpô này được gọi là một không gian rời rạc.
 
 Một phủ $(U_i)_{i \in I}$ của một tập con $A$ của một không gian tôpô $X$ được gọi là mở nếu mọi $U_i$ đều mở trong $X$.
 
@@ -102,29 +102,29 @@ Hiển nhiên rằng mọi lân cận của một tập con $A$ của $X$ cũng 
 
 Ý nghĩa thông thường của từ "lân cận" khiến cho nhiều tính chất liên quan đến ý niệm toán học về lân cận xuất hiện như là biểu hiện toán học của các tính chất trực giác; do đó việc lựa chọn thuật ngữ này có ưu điểm là làm cho ngôn ngữ biểu đạt hơn. Vì mục đích này, trong một số mệnh đề cũng được phép dùng các biểu thức "đủ gần" và "gần tùy ý". Chẳng hạn, Mệnh đề 1 có thể được phát biểu dưới dạng sau: một tập $A$ là mở khi và chỉ khi, với mỗi $x \in A$, mọi điểm *đủ gần* $x$ đều thuộc về $A$. Tổng quát hơn, ta sẽ nói rằng một tính chất đúng với mọi điểm *đủ gần* một điểm $x$, nếu nó đúng tại mọi điểm của một lân cận nào đó của $x$.
 
-Ta ký hiệu $\mathscr{B}(x)$ là tập hợp tất cả các lân cận của $x$. Các tập $\mathscr{B}(x)$ có các tính chất sau:
+Ta ký hiệu $\mathfrak{B}(x)$ là tập hợp tất cả các lân cận của $x$. Các tập $\mathfrak{B}(x)$ có các tính chất sau:
 
-(V_I) *Mọi tập con của $X$ chứa một tập thuộc về $\mathscr{B}(x)$ thì chính nó cũng thuộc về $\mathscr{B}(x)$.*
+(V_I) *Mọi tập con của $X$ chứa một tập thuộc về $\mathfrak{B}(x)$ thì chính nó cũng thuộc về $\mathfrak{B}(x)$.*
 
-(V_{II}) *Mọi giao hữu hạn của các tập thuộc về $\mathscr{B}(x)$ đều thuộc về $\mathscr{B}(x)$.*
+(V_{II}) *Mọi giao hữu hạn của các tập thuộc về $\mathfrak{B}(x)$ đều thuộc về $\mathfrak{B}(x)$.*
 
-(V_{III}) *Phần tử $x$ thuộc về mọi tập của $\mathscr{B}(x)$.*
+(V_{III}) *Phần tử $x$ thuộc về mọi tập của $\mathfrak{B}(x)$.*
 
 Thật vậy, ba tính chất này là những hệ quả ngay lập tức của Định nghĩa 4 và tiên đề (O_{II}).
 
-(V_{IV}) *Nếu $V$ thuộc về $\mathscr{B}(x)$, thì tồn tại một tập $W$ thuộc về $\mathscr{B}(x)$ sao cho, với mỗi $y \in W$, $V$ thuộc về $\mathscr{B}(y)$.*
+(V_{IV}) *Nếu $V$ thuộc về $\mathfrak{B}(x)$, thì tồn tại một tập $W$ thuộc về $\mathfrak{B}(x)$ sao cho, với mỗi $y \in W$, $V$ thuộc về $\mathfrak{B}(y)$.*
 
 Theo Mệnh đề 1, ta có thể lấy $W$ là bất kỳ tập mở nào chứa $x$ và được chứa trong $V$.
 
 Tính chất này có thể được phát biểu dưới dạng rằng *một lân cận của $x$ cũng là một lân cận của mọi điểm đủ gần $x$*.
 
-Bốn tính chất này của các tập $\mathscr{B}(x)$ là *đặc trưng*. Cụ thể, ta có:
+Bốn tính chất này của các tập $\mathfrak{B}(x)$ là *đặc trưng*. Cụ thể, ta có:
 
 #### Mệnh đề 2 {#top-i-s1-prop-2 .statement}
 
-*Nếu với mỗi phần tử $x$ của một tập $X$ ta tương ứng một tập $\mathscr{B}(x)$ gồm các tập con của $X$ sao cho các tính chất (V_I), (V_{II}), (V_{III}) và (V_{IV}) được thỏa mãn, thì tồn tại một cấu trúc tôpô duy nhất trên $X$ sao cho, với mỗi $x \in X$, $\mathscr{B}(x)$ là tập các lân cận của $x$ trong tôpô này.*
+*Nếu với mỗi phần tử $x$ của một tập $X$ ta tương ứng một tập $\mathfrak{B}(x)$ gồm các tập con của $X$ sao cho các tính chất (V_I), (V_{II}), (V_{III}) và (V_{IV}) được thỏa mãn, thì tồn tại một cấu trúc tôpô duy nhất trên $X$ sao cho, với mỗi $x \in X$, $\mathfrak{B}(x)$ là tập các lân cận của $x$ trong tôpô này.*
 
-Theo Mệnh đề 1, nếu có một tôpô trên $X$ thỏa mãn các điều kiện này, thì tập các tập mở của tôpô này tất yếu là tập $\mathscr{D}$ gồm các tập con $A$ của $X$ sao cho *với mỗi $x \in A$ ta có $A \in \mathscr{B}(x)$*; do đó là *tính duy nhất* của tôpô này nếu nó tồn tại.
+Theo Mệnh đề 1, nếu có một tôpô trên $X$ thỏa mãn các điều kiện này, thì tập các tập mở của tôpô này tất yếu là tập $\mathscr{D}$ gồm các tập con $A$ của $X$ sao cho *với mỗi $x \in A$ ta có $A \in \mathfrak{B}(x)$*; do đó là *tính duy nhất* của tôpô này nếu nó tồn tại.
 
 Tập $\mathscr{D}$ hiển nhiên thỏa mãn các tiên đề (O_I) và (O_{II}): đối với (O_I), điều này suy ra ngay lập tức từ (V_I), và đối với (O_{II}), từ (V_{II}). Nó
 
@@ -132,23 +132,23 @@ Tập $\mathscr{D}$ hiển nhiên thỏa mãn các tiên đề (O_I) và (O_{II}
 
 Hình 1.
 
-còn phải chứng minh rằng, trong tôpô được xác định bởi $\mathscr{D}$, $\mathscr{B}(x)$ là tập các lân cận của $x$ đối với mỗi $x \in X$. Từ (V_I) suy ra rằng mọi lân cận của $x$ đều thuộc $\mathscr{B}(x)$. Ngược lại, cho $V$ là một tập thuộc $\mathscr{B}(x)$, và cho $U$ là tập các điểm $y \in X$ sao cho $V \in \mathscr{B}(y)$; nếu ta có thể chứng minh rằng $x \in U, U \subset V$ và $U \in \mathscr{D}$, thì chứng minh sẽ hoàn tất. Ta có $x \in U$ vì $V \in \mathscr{B}(x)$; đồng thời $U \subset V$, vì mọi điểm $y \in U$ đều thuộc $V$ do (V_III) và giả thiết $V \in \mathscr{B}(y)$. Còn phải chứng minh rằng $U \in \mathscr{D}$, tức là $U \in \mathscr{B}(y)$ đối với mỗi $y \in U$; giờ đây (Hình 1) nếu $y \in U$ thì theo (V_IV) tồn tại một tập $W$ sao cho với mỗi $z \in W$ ta có $V \in \mathscr{B}(z)$; vì $V \in \mathscr{B}(z)$ có nghĩa là $z \in U$, suy ra $W \subset U$, và do đó, theo (V_I), $U \in \mathscr{B}(y)$.
+còn phải chứng minh rằng, trong tôpô được xác định bởi $\mathscr{D}$, $\mathfrak{B}(x)$ là tập các lân cận của $x$ đối với mỗi $x \in X$. Từ (V_I) suy ra rằng mọi lân cận của $x$ đều thuộc $\mathfrak{B}(x)$. Ngược lại, cho $V$ là một tập thuộc $\mathfrak{B}(x)$, và cho $U$ là tập các điểm $y \in X$ sao cho $V \in \mathfrak{B}(y)$; nếu ta có thể chứng minh rằng $x \in U, U \subset V$ và $U \in \mathscr{D}$, thì chứng minh sẽ hoàn tất. Ta có $x \in U$ vì $V \in \mathfrak{B}(x)$; đồng thời $U \subset V$, vì mọi điểm $y \in U$ đều thuộc $V$ do (V_III) và giả thiết $V \in \mathfrak{B}(y)$. Còn phải chứng minh rằng $U \in \mathscr{D}$, tức là $U \in \mathfrak{B}(y)$ đối với mỗi $y \in U$; giờ đây (Hình 1) nếu $y \in U$ thì theo (V_IV) tồn tại một tập $W$ sao cho với mỗi $z \in W$ ta có $V \in \mathfrak{B}(z)$; vì $V \in \mathfrak{B}(z)$ có nghĩa là $z \in U$, suy ra $W \subset U$, và do đó, theo (V_I), $U \in \mathfrak{B}(y)$.
 
 Q.E.D.
 
-Mệnh đề 2 cho thấy một tôpô trên $X$ có thể được xác định bằng các tập $\mathscr{B}(x)$ gồm các lân cận của các điểm của $X$, chỉ với các tiên đề (V_I), (V_{II}), (V_{III}) và (V_{IV}).
+Mệnh đề 2 cho thấy một tôpô trên $X$ có thể được xác định bằng các tập $\mathfrak{B}(x)$ gồm các lân cận của các điểm của $X$, chỉ với các tiên đề (V_I), (V_{II}), (V_{III}) và (V_{IV}).
 
 #### Ví dụ {#top-i-s1-n2-exa-1 .statement}
 
-We có thể định nghĩa một tôpô trên tập $Q$ của các số hữu tỉ bằng cách lấy làm các tập mở mọi hợp của các khoảng mở bị chặn; tập các tập con này chắc chắn thỏa mãn (O_I), và để thấy rằng nó thỏa mãn (O_II) chỉ cần nhận xét rằng nếu giao của hai khoảng mở $]a, b[$ và $]c, d[$ không rỗng, thì nó là khoảng $]\alpha, \beta[$, trong đó $\alpha = \sup(a, c)$ và $\beta = \inf(b, d)$. Ta thu được cùng một tôpô bằng cách định nghĩa, với mỗi $x \in Q$, tập $\mathscr{B}(x)$ các lân cận của $x$ là tập các tập con chứa một khoảng mở chứa $x$. Không gian tôpô thu được bằng cách gán tôpô này cho $Q$ được gọi là đường thẳng hữu tỉ (xem Chương IV, § 1, no. 2). Chú ý rằng trong không gian này mọi khoảng mở đều là một tập hợp mở. \* Ta có thể định nghĩa một tôpô trên tập $R$ của các số thực theo cùng cách; $R$ với tôpô này được gọi là đường thẳng thực (xem § 2, Bài tập 5 và Chương IV, § 1, no. 3). \*
+We có thể định nghĩa một tôpô trên tập $Q$ của các số hữu tỉ bằng cách lấy làm các tập mở mọi hợp của các khoảng mở bị chặn; tập các tập con này chắc chắn thỏa mãn (O_I), và để thấy rằng nó thỏa mãn (O_II) chỉ cần nhận xét rằng nếu giao của hai khoảng mở $]a, b[$ và $]c, d[$ không rỗng, thì nó là khoảng $]\alpha, \beta[$, trong đó $\alpha = \sup(a, c)$ và $\beta = \inf(b, d)$. Ta thu được cùng một tôpô bằng cách định nghĩa, với mỗi $x \in Q$, tập $\mathfrak{B}(x)$ các lân cận của $x$ là tập các tập con chứa một khoảng mở chứa $x$. Không gian tôpô thu được bằng cách gán tôpô này cho $Q$ được gọi là đường thẳng hữu tỉ (xem Chương IV, § 1, no. 2). Chú ý rằng trong không gian này mọi khoảng mở đều là một tập hợp mở. \* Ta có thể định nghĩa một tôpô trên tập $R$ của các số thực theo cùng cách; $R$ với tôpô này được gọi là đường thẳng thực (xem § 2, Bài tập 5 và Chương IV, § 1, no. 3). \*
 
 ### 3. HỆ THỐNG LÂN CẬN CƠ BẢN; CƠ SỞ CỦA MỘT TÔPÔ
 
 #### Định nghĩa 5 {#top-i-s1-def-5 .statement}
 
-Trong một không gian tôpô $X$, một hệ cơ bản các lân cận của một điểm $x$ (tương ứng của một tập con $A$ của $X$) là bất kỳ tập $\mathscr{G}$ các lân cận của $x$ (tương ứng của $A$) sao cho với mỗi lân cận $V$ của $x$ (tương ứng của $A$) đều có một lân cận $W \in \mathscr{G}$ sao cho $W \subset V$.
+Trong một không gian tôpô $X$, một hệ cơ bản các lân cận của một điểm $x$ (tương ứng của một tập con $A$ của $X$) là bất kỳ tập $\mathfrak{G}$ các lân cận của $x$ (tương ứng của $A$) sao cho với mỗi lân cận $V$ của $x$ (tương ứng của $A$) đều có một lân cận $W \in \mathfrak{G}$ sao cho $W \subset V$.
 
-Nếu $\mathscr{G}$ là một hệ cơ bản các lân cận của một tập con $A$ của $X$, thì mọi giao hữu hạn của các tập trong $\mathscr{G}$ đều chứa một tập thuộc $\mathscr{G}$.
+Nếu $\mathfrak{G}$ là một hệ cơ bản các lân cận của một tập con $A$ của $X$, thì mọi giao hữu hạn của các tập trong $\mathfrak{G}$ đều chứa một tập thuộc $\mathfrak{G}$.
 
 Ví dụ. 1) Trong một không gian rời rạc (no. 1), riêng tập $\{ x \}$ đã tạo thành một hệ cơ bản các lân cận của điểm $x$.
 2) Trên đường thẳng hữu tỉ $\mathbf{Q}$, tập tất cả các khoảng mở chứa một điểm $x$ là một hệ cơ bản các lân cận của điểm này. Tập các khoảng mở $]x - 1/n, x + 1/n[$, và tập các khoảng đóng $[x - 1/n, x + 1/n]$, trong đó $n$ chạy qua mọi số nguyên $> 0$, hoặc qua bất kỳ dãy số nguyên tăng ngặt vô hạn nào > 0, cũng vậy.
@@ -156,13 +156,13 @@ Ví dụ. 1) Trong một không gian rời rạc (no. 1), riêng tập $\{ x \}$
 
 #### Định nghĩa 6 {#top-i-s1-def-6 .statement}
 
-Một cơ sở của tôpô của một không gian tôpô $X$ là bất kỳ tập $\mathscr{B}$ nào gồm các tập con mở của $X$ sao cho mọi tập con mở của $X$ đều là hợp của các tập thuộc $\mathscr{B}$.
+Một cơ sở của tôpô của một không gian tôpô $X$ là bất kỳ tập $\mathfrak{B}$ nào gồm các tập con mở của $X$ sao cho mọi tập con mở của $X$ đều là hợp của các tập thuộc $\mathfrak{B}$.
 
 #### Mệnh đề 3 {#top-i-s1-prop-3 .statement}
 
-Nếu $X$ là một không gian tôpô, thì để một tập $\mathscr{B}$ gồm các tập con mở của $X$ là một cơ sở của tôpô của $X$ thì điều kiện cần và đủ là với mỗi $x \in X$ tập các $V \in \mathscr{B}$ sao cho $x \in V$ là một hệ cơ bản các lân cận của $x$.
+Nếu $X$ là một không gian tôpô, thì để một tập $\mathfrak{B}$ gồm các tập con mở của $X$ là một cơ sở của tôpô của $X$ thì điều kiện cần và đủ là với mỗi $x \in X$ tập các $V \in \mathfrak{B}$ sao cho $x \in V$ là một hệ cơ bản các lân cận của $x$.
 
-Điều kiện này hiển nhiên là cần thiết. Ngược lại, nếu nó được thỏa mãn, thì với bất kỳ tập mở $U$ nào và bất kỳ $x \in U$ nào cũng có một tập mở $V_x \in \mathscr{B}$ sao cho $x \in V_x \subset U$. Do đó, hợp của các tập $V_x$ với $x \in U$ bằng $U$. Điều đó hoàn tất chứng minh.
+Điều kiện này hiển nhiên là cần thiết. Ngược lại, nếu nó được thỏa mãn, thì với bất kỳ tập mở $U$ nào và bất kỳ $x \in U$ nào cũng có một tập mở $V_x \in \mathfrak{B}$ sao cho $x \in V_x \subset U$. Do đó, hợp của các tập $V_x$ với $x \in U$ bằng $U$. Điều đó hoàn tất chứng minh.
 
 #### Ví dụ 1 {#top-i-s1-n3-exa-1 .statement}
 
@@ -297,9 +297,9 @@ Trong một không gian rời rạc $X$, tập con trù mật duy nhất của $
 
 #### Mệnh đề 6 {#top-i-s1-prop-6 .statement}
 
-Nếu $\mathscr{B}$ là một cơ sở của tôpô của một không gian tôpô $X$, thì tồn tại một tập trù mật $D$ trong $X$ sao cho $\mathrm{Card}(D) \leq \mathrm{Card}(\mathscr{B})$.
+Nếu $\mathfrak{B}$ là một cơ sở của tôpô của một không gian tôpô $X$, thì tồn tại một tập trù mật $D$ trong $X$ sao cho $\mathrm{Card}(D) \leq \mathrm{Card}(\mathfrak{B})$.
 
-Ta có thể chỉ xét trường hợp trong đó không có tập nào của $\mathscr{B}$ là rỗng (các tập không rỗng của $\mathscr{B}$ đã tạo thành một cơ sở của tôpô của $X$). Với mỗi $U \in \mathscr{B}$, cho $x_V$ là một điểm của $U$; suy ra từ Mệnh đề 3 của no. 3 rằng tập $D$ gồm các điểm $x_U$ là trù mật trong $X$, và ta có $\mathrm{Card}(D) \leq \mathrm{Card}(\mathscr{B})$ (Lý thuyết tập hợp, Chương III, § 3, no. 2, Mệnh đề 3).
+Ta có thể chỉ xét trường hợp trong đó không có tập nào của $\mathfrak{B}$ là rỗng (các tập không rỗng của $\mathfrak{B}$ đã tạo thành một cơ sở của tôpô của $X$). Với mỗi $U \in \mathfrak{B}$, cho $x_V$ là một điểm của $U$; suy ra từ Mệnh đề 3 của no. 3 rằng tập $D$ gồm các điểm $x_U$ là trù mật trong $X$, và ta có $\mathrm{Card}(D) \leq \mathrm{Card}(\mathfrak{B})$ (Lý thuyết tập hợp, Chương III, § 3, no. 2, Mệnh đề 3).
 
 ### Bài tập {#top-i-s1-exercises}
 

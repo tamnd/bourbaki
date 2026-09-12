@@ -162,15 +162,15 @@ tiên đề (AT_{III}) [dựa vào (AT_I) và (AT_{II})] tương đương với 
 (AT_{III a}). *Với mọi* $x_0 \in A$, *các ánh xạ* $x \to x_0 x$ *và* $x \to xx_0$ *là liên tục tại điểm* $x = 0$.
 (AT_{III b}). *Ánh xạ* $(x, y) \to xy$ *của* $A \times A$ *vào* $A$ *là liên tục tại điểm* $(0, 0)$.
 
-Từ đó ta có thể suy ra một hệ điều kiện cần và đủ mà bộ lọc $\mathscr{B}$ của các lân cận của $0$ trong một vành $A$ phải thỏa mãn để định nghĩa một tôpô trên $A$ tương thích với cấu trúc vành của nó: $\mathscr{B}$ phải thỏa mãn các tiên đề (GA_I) và (GA_{II}) của § 1, và thêm hai tiên đề sau:
-(AV_I). *Với mọi* $x_0 \in A$ *và mọi* $V \in \mathscr{B}$, *tồn tại* $W \in \mathscr{B}$ *sao cho* $x_0 W \subset V$ *và* $W x_0 \subset V$.
-(AV_{II}). *Với mọi* $V \in \mathscr{B}$, *tồn tại* $W \in \mathscr{B}$ *sao cho* $WW \subset V$.
+Từ đó ta có thể suy ra một hệ điều kiện cần và đủ mà bộ lọc $\mathfrak{B}$ của các lân cận của $0$ trong một vành $A$ phải thỏa mãn để định nghĩa một tôpô trên $A$ tương thích với cấu trúc vành của nó: $\mathfrak{B}$ phải thỏa mãn các tiên đề (GA_I) và (GA_{II}) của § 1, và thêm hai tiên đề sau:
+(AV_I). *Với mọi* $x_0 \in A$ *và mọi* $V \in \mathfrak{B}$, *tồn tại* $W \in \mathfrak{B}$ *sao cho* $x_0 W \subset V$ *và* $W x_0 \subset V$.
+(AV_{II}). *Với mọi* $V \in \mathfrak{B}$, *tồn tại* $W \in \mathfrak{B}$ *sao cho* $WW \subset V$.
 
 #### Nhận xét {#top-iii-s6-n3-rem-1 .statement}
 
 Trong giải tích, ta khá thường gặp các vành thỏa mãn các tiên đề (AT_I), (AT_{II}) và (AT_{III a}), nhưng không thỏa mãn (AT_{III b}). *Một ví dụ là vành các độ đo trên một nhóm compact, trong đó phép nhân là phép chập và tôpô là tôpô yếu.*
 
-*Ví dụ 3).* Cho $\mathscr{B}$ là một cơ sở lọc trên một vành $A$, gồm các *iđêan hai phía*. $\mathscr{B}$ là một hệ cơ bản các lân cận của $0$ đối với một tôpô tương thích với cấu trúc nhóm cộng của $A$, và điều này suy ra ngay lập tức từ (AV_I) và (AV_{II}) rằng tôpô này tương thích với cấu trúc *vành* của $A$.
+*Ví dụ 3).* Cho $\mathfrak{B}$ là một cơ sở lọc trên một vành $A$, gồm các *iđêan hai phía*. $\mathfrak{B}$ là một hệ cơ bản các lân cận của $0$ đối với một tôpô tương thích với cấu trúc nhóm cộng của $A$, và điều này suy ra ngay lập tức từ (AV_I) và (AV_{II}) rằng tôpô này tương thích với cấu trúc *vành* của $A$.
 
 Cho $X$ là một không gian tôpô, và cho $f$ và $g$ là hai ánh xạ của $X$ vào một vành tôpô $A$. Nếu $f$ và $g$ liên tục tại một điểm $x_0 \in X$, thì $f + g$, $-f$ và $fg$ liên tục tại điểm này. Suy ra rằng các ánh xạ liên tục của $X$ vào $A$ tạo thành một *vành con* của vành $A^X$ của tất cả các ánh xạ của $X$ vào $A$. Ta cũng thấy rằng, nếu $A$ là *giao hoán*, thì mọi *đa thức n biến*, với các hệ số trong $A$ và xác định trên $A^n$, là *liên tục* trên $A^n$. Một lần nữa, cho $f$ và $g$ là hai ánh xạ của một tập hợp $X$, *lọc* bởi một bộ lọc $\mathfrak{F}$, vào một vành tôpô *Hausdorff* $A$; nếu $\lim_{\mathfrak{F}} f$ và $\lim_{\mathfrak{F}} g$ tồn tại, thì $\lim_{\mathfrak{F}} (f + g)$, $\lim_{\mathfrak{F}} (-f)$ và $\lim_{\mathfrak{F}} (fg)$ cũng tồn tại, và ta có (Chương I, § 7, no. 4, Mệnh đề 9, Hệ quả 1, và § 8, no. 1, Mệnh đề 1)
 
@@ -274,7 +274,7 @@ Một không gian vectơ tôpô trên $\mathbf{R}$ (tương ứng $\mathbf{C}$) 
 
 #### Ví dụ 2 {#top-iii-s6-n6-exa-2 .statement}
 
-Cho $A$ là một vành và cho $\mathscr{B}$ là một cơ sở lọc trên $A$ gồm các iđêan hai phía của $A$; cho $E$ là một $A$-môđun trái. Nếu ta trang bị cho $A$ tôpô (tương thích với cấu trúc vành của nó) mà $\mathscr{B}$ là một hệ cơ bản các lân cận của $0$ (no. 3, Ví dụ 3), và cho $E$ tôpô (tương thích với cấu trúc nhóm cộng của nó) trong đó các tập hợp $aE$, khi $a$ chạy qua $\mathscr{B}$, tạo thành một hệ cơ bản các lân cận của $0$ ($§ 1$, no. 2, Ví dụ), thì kiểm tra ngay lập tức được rằng $E$ là một $A$-môđun tôpô.
+Cho $A$ là một vành và cho $\mathfrak{B}$ là một cơ sở lọc trên $A$ gồm các iđêan hai phía của $A$; cho $E$ là một $A$-môđun trái. Nếu ta trang bị cho $A$ tôpô (tương thích với cấu trúc vành của nó) mà $\mathfrak{B}$ là một hệ cơ bản các lân cận của $0$ (no. 3, Ví dụ 3), và cho $E$ tôpô (tương thích với cấu trúc nhóm cộng của nó) trong đó các tập hợp $aE$, khi $a$ chạy qua $\mathfrak{B}$, tạo thành một hệ cơ bản các lân cận của $0$ ($§ 1$, no. 2, Ví dụ), thì kiểm tra ngay lập tức được rằng $E$ là một $A$-môđun tôpô.
 
 #### Nhận xét {#top-iii-s6-n6-rem-1 .statement}
 
@@ -287,10 +287,10 @@ tiên đề (MT) tương đương với phép hội của ba tiên đề sau:
 (MT$_{II}'$). *Với mỗi* $\lambda_0 \in A$, *ánh xạ* $x \to \lambda_0 x$ *liên tục tại điểm* $x = 0$.
 (MT$_{III}'$). *Ánh xạ* $(\lambda, x) \to \lambda x$ *liên tục tại điểm* $(0, 0)$.
 
-Ta suy ra từ điều này một tập điều kiện cần và đủ mà *bộ lọc* $\mathscr{B}$ *của các lân cận của* $0$ *trong một* $A$*-môđun* $E$ *phải thỏa mãn để định nghĩa một tôpô trên* $E$ *tương thích với cấu trúc môđun của nó;* $\mathscr{B}$ *phải thỏa mãn các tiên đề* (GA$_I$) *và* (GA$_{II}$) *của* $§ 1$, *no. 2*, *và ngoài ra phải thỏa mãn ba tiên đề sau:*
-(MV$_I$). *Với mỗi* $x_0 \in E$ *và* $V \in \mathscr{B}$, *có một lân cận* $S$ *của* $0$ *trong* $A$ *sao cho* $S.x_0 \subset V$.
-(MV$_{II}$). *Với mỗi* $\lambda_0 \in A$ *và* $V \in \mathscr{B}$, *tồn tại* $W \in \mathscr{B}$ *sao cho* $\lambda_0 W \subset V$.
-(MV$_{III}$). *Với mỗi* $V \in \mathscr{B}$ *tồn tại* $U \in \mathscr{B}$ *và một lân cận* $T$ *của* $0$ *trong* $A$ *sao cho* $T.U \subset V$.
+Ta suy ra từ điều này một tập điều kiện cần và đủ mà *bộ lọc* $\mathfrak{B}$ *của các lân cận của* $0$ *trong một* $A$*-môđun* $E$ *phải thỏa mãn để định nghĩa một tôpô trên* $E$ *tương thích với cấu trúc môđun của nó;* $\mathfrak{B}$ *phải thỏa mãn các tiên đề* (GA$_I$) *và* (GA$_{II}$) *của* $§ 1$, *no. 2*, *và ngoài ra phải thỏa mãn ba tiên đề sau:*
+(MV$_I$). *Với mỗi* $x_0 \in E$ *và* $V \in \mathfrak{B}$, *có một lân cận* $S$ *của* $0$ *trong* $A$ *sao cho* $S.x_0 \subset V$.
+(MV$_{II}$). *Với mỗi* $\lambda_0 \in A$ *và* $V \in \mathfrak{B}$, *tồn tại* $W \in \mathfrak{B}$ *sao cho* $\lambda_0 W \subset V$.
+(MV$_{III}$). *Với mỗi* $V \in \mathfrak{B}$ *tồn tại* $U \in \mathfrak{B}$ *và một lân cận* $T$ *của* $0$ *trong* $A$ *sao cho* $T.U \subset V$.
 
 Mọi nhóm tôpô giao hoán đều là một $\mathbf{Z}$-môđun tôpô khi vành $\mathbf{Z}$ được cho tôpô rời rạc.
 

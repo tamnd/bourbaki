@@ -53,7 +53,7 @@ subsections:
       pdf_page: 81
 statements: 50
 exercises: 31
-content_sha256: 8ce0c12cd70d5a4f66fa446cb85c81de540200d640db29c253470d76c2a9544e
+content_sha256: 27d06f865e1c7dbbc30284c933f07e26de1a38d05742feffcb6b48f6bb041f37
 ---
 
 ## § 9. ESPACES COMPACTS ET ESPACES LOCALEMENT COMPACTS
@@ -97,9 +97,9 @@ Les espaces quasi-compacts non séparés sont surtout utiles dans les applicatio
 
 #### Théorème 1 {#top-i-s9-thm-1 .statement}
 
-*Soit $\mathscr{F}$ un filtre sur un espace quasi-compact X, et soit A l’ensemble des points adhérents à $\mathscr{F}$. Tout voisinage de A appartient alors à $\mathscr{F}$.*
+*Soit $\mathfrak{F}$ un filtre sur un espace quasi-compact X, et soit A l’ensemble des points adhérents à $\mathfrak{F}$. Tout voisinage de A appartient alors à $\mathfrak{F}$.*
 
-En effet, soit V un voisinage de A; raisonnons par l’absurde, en supposant que tout ensemble de $\mathscr{F}$ rencontre $\mathscr{G}V$. Les traces sur $\mathscr{G}V$ des ensembles de $\mathscr{F}$ forment alors une base d’un filtre $\mathscr{G}$ sur X; comme X est quasi-compact, $\mathscr{G}$ a au moins un point adhérent $y$, qui n’appartient pas à A, puisque le voisinage V de A a une intersection vide avec certains de ensembles de $\mathscr{G}$. Mais, comme $\mathscr{G}$ est *plus fin* que $\mathscr{F}$, $y$ est aussi adhérent à $\mathscr{F}$, ce qui est contraire à l’hypothèse.
+En effet, soit V un voisinage de A; raisonnons par l’absurde, en supposant que tout ensemble de $\mathfrak{F}$ rencontre $\mathfrak{G}V$. Les traces sur $\mathfrak{G}V$ des ensembles de $\mathfrak{F}$ forment alors une base d’un filtre $\mathfrak{G}$ sur X; comme X est quasi-compact, $\mathfrak{G}$ a au moins un point adhérent $y$, qui n’appartient pas à A, puisque le voisinage V de A a une intersection vide avec certains de ensembles de $\mathfrak{G}$. Mais, comme $\mathfrak{G}$ est *plus fin* que $\mathfrak{F}$, $y$ est aussi adhérent à $\mathfrak{F}$, ce qui est contraire à l’hypothèse.
 
 #### Corollaire {#top-i-s9-n1-cor-1 .statement}
 
@@ -111,9 +111,9 @@ La condition est nécessaire en vertu de I, p. 52, prop. 1; elle est suffisante 
 
 #### Proposition 1 {#top-i-s9-prop-1 .statement}
 
-*Soient X un espace compact, x un point de X. Pour qu’une base de filtre $\mathscr{B}$ formée de voisinages fermés de x soit un système fondamental de voisinages de x, il faut et il suffit que l’intersection des ensembles de $\mathscr{B}$ se réduise au point x.*
+*Soient X un espace compact, x un point de X. Pour qu’une base de filtre $\mathfrak{B}$ formée de voisinages fermés de x soit un système fondamental de voisinages de x, il faut et il suffit que l’intersection des ensembles de $\mathfrak{B}$ se réduise au point x.*
 
-La condition est nécessaire puisque X est séparé (I, p. 52, prop. 1). Elle est suffisante, car elle signifie que x est le seul point adhérent à $\mathscr{B}$, donc $\mathscr{B}$ converge vers x d’après le cor. du th. 1.
+La condition est nécessaire puisque X est séparé (I, p. 52, prop. 1). Elle est suffisante, car elle signifie que x est le seul point adhérent à $\mathfrak{B}$, donc $\mathfrak{B}$ converge vers x d’après le cor. du th. 1.
 
 #### Corollaire {#top-i-s9-n2-cor-1 .statement}
 
@@ -196,7 +196,7 @@ Dans un espace non séparé, un ensemble compact n’est pas nécessairement fer
 
 Si f est une application continue d’un espace quasi-compact X dans un espace topologique $X'$, l’ensemble $f(X)$ est quasi-compact.
 
-En effet, soit $\mathfrak{R}$ un recouvrement de $f(X)$ par des ensembles ouverts de $X'$; $f^{-1}(\mathfrak{R})$ est un recouvrement ouvert de $X$ (I, p. 9, th. 1), donc il y a une partie finie $\mathscr{G}$ de $\mathfrak{R}$ telle que $f^{-1}(\mathscr{G})$ soit un recouvrement de $X$; mais alors $\mathscr{G}$ est un recouvrement de $f(X)$, d’où le théorème.
+En effet, soit $\mathfrak{R}$ un recouvrement de $f(X)$ par des ensembles ouverts de $X'$; $f^{-1}(\mathfrak{R})$ est un recouvrement ouvert de $X$ (I, p. 9, th. 1), donc il y a une partie finie $\mathfrak{G}$ de $\mathfrak{R}$ telle que $f^{-1}(\mathfrak{G})$ soit un recouvrement de $X$; mais alors $\mathfrak{G}$ est un recouvrement de $f(X)$, d’où le théorème.
 
 #### Corollaire 1 {#top-i-s9-thm-2-cor-1 .statement}
 
@@ -222,7 +222,7 @@ En effet, soit $f$ la restriction à $K$ de l’application canonique $X \to X/R
 #### Théorème 3 (Tychonoff) {#top-i-s9-thm-3 .statement}
 
 Tout produit d’espaces quasi-compacts (resp. compacts) est quasi-compact (resp. compact). Réciproquement, si un produit d’espaces non vides est quasi-compact (resp. compact), chacun des espaces facteurs est quasi-compact (resp. compact).
-Vu la caractérisation des espaces produits séparés (I, p. 54, prop. 7), tout revient à démontrer les assertions relatives aux espaces quasi-compacts. Si $X = \prod_{i \in I} X_i$ est quasi-compact et non vide, on a $X_i = \mathrm{pr}_i(X)$ pour tout $i$, donc $X_i$ est quasi-compact en vertu du th. 2 de I, p. 62. Inversement, supposons les $X_i$ quasi-compacts et soit $\mathscr{U}$ un ultrafiltre sur $X$; pour tout $i \in I$, $\mathrm{pr}_i(\mathscr{U})$ est une base d’ultrafiltre sur $X_i$ (I, p. 41, prop. 10), qui converge donc en vertu de l’axiome (C'); par suite $\mathscr{U}$ est convergent (I, p. 51, cor. 1), ce qui achève la démonstration.
+Vu la caractérisation des espaces produits séparés (I, p. 54, prop. 7), tout revient à démontrer les assertions relatives aux espaces quasi-compacts. Si $X = \prod_{i \in I} X_i$ est quasi-compact et non vide, on a $X_i = \mathrm{pr}_i(X)$ pour tout $i$, donc $X_i$ est quasi-compact en vertu du th. 2 de I, p. 62. Inversement, supposons les $X_i$ quasi-compacts et soit $\mathfrak{U}$ un ultrafiltre sur $X$; pour tout $i \in I$, $\mathrm{pr}_i(\mathfrak{U})$ est une base d’ultrafiltre sur $X_i$ (I, p. 41, prop. 10), qui converge donc en vertu de l’axiome (C'); par suite $\mathfrak{U}$ est convergent (I, p. 51, cor. 1), ce qui achève la démonstration.
 
 #### Corollaire {#top-i-s9-n5-cor-1 .statement}
 

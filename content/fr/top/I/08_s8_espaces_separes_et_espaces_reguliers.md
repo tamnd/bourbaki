@@ -36,7 +36,7 @@ subsections:
       pdf_page: 70
 statements: 30
 exercises: 29
-content_sha256: 8a0387f77b2001a7abe4284d0c3ff4f0b45e0dba8aed6ea41ddcc50565c4c21e
+content_sha256: f56ddf7b175751465c9b46ec6b66b3b0862801da2bbaa18eec8c7edcaed4f8fc
 ---
 
 ## § 8. ESPACES SÉPARÉS ET ESPACES RÉGULIERS
@@ -102,7 +102,7 @@ L’axiome (H) est appelé axiome de Hausdorff.
 Tout espace discret est séparé. La droite rationnelle $\mathbf{Q}$ est séparée, car si $x, y$ sont deux nombres rationnels tels que $x < y$, et $z$ un nombre rationnel tel que $x < z < y$, les voisinages respectifs $]\leftarrow, z[$ et $]z, \rightarrow[$ de $x$ et $y$ ne se rencontrent pas.
 Un ensemble $X$ ayant au moins deux points et muni de la topologie la moins fine (I, p. 11) n’est pas un espace séparé.
 
-Soit $f : X \to Y$ une application d’un ensemble $X$ dans un espace séparé $Y$; il résulte aussitôt de la prop. 1 que $f$ ne peut avoir qu’une seule limite suivant un filtre $\mathscr{F}$ sur $X$, et que si $f$ a une limite $y$ suivant $\mathscr{F}$, $y$ est la seule valeur d’adhérence de $f$ suivant $\mathscr{F}$.
+Soit $f : X \to Y$ une application d’un ensemble $X$ dans un espace séparé $Y$; il résulte aussitôt de la prop. 1 que $f$ ne peut avoir qu’une seule limite suivant un filtre $\mathfrak{F}$ sur $X$, et que si $f$ a une limite $y$ suivant $\mathfrak{F}$, $y$ est la seule valeur d’adhérence de $f$ suivant $\mathfrak{F}$.
 
 #### Proposition 2 {#top-i-s8-prop-2 .statement}
 

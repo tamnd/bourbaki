@@ -24,7 +24,7 @@ subsections:
       pdf_page: 188
 statements: 11
 exercises: 9
-content_sha256: 30d9e1d5735839775bd7917d337a8df2e842ada78e9ba70bd9db7c869ada5d96
+content_sha256: 5cfb637a7ea92fbf21bd5178742a4d82f844dbbeb45764ba0b4eb64b80343371
 ---
 
 ## § 1. TOPOLOGIES DE GROUPES
@@ -69,7 +69,7 @@ De même, considérons, dans le groupe additif $\mathbf{R} \times \mathbf{R}$, l
 
 Soient $E$ un espace topologique, $f$ et $g$ deux applications de $E$ dans un groupe topologique $G$. Si $f$ et $g$ sont continues en un point $x_0 \in E$, il en est de même\footnote{On rappelle que $f^{-1}$ est l’application $x \mapsto (f(x))^{-1}, fg$ l’application $x \mapsto f(x)g(x)$; on aura soin de ne pas confondre ces applications avec $f^{-1}$ et $f \circ g$ (lorsque ces dernières sont définies) (E, II, p. 17 et p. 16).} de $f^{-1}$ et $fg$, d’après le théorème des fonctions composées (I, p. 10, th. 2); en particulier, les applications continues de $E$ dans $G$ forment un *sous-groupe* du groupe $G^E$ des applications de $E$ dans $G$.
 
-De même, soient $f$ et $g$ deux applications d’un ensemble $E$ *filtré* par un filtre $\mathscr{F}$, dans un groupe topologique *séparé* $G$. Si $\lim_{\mathscr{F}} f$ et $\lim_{\mathscr{F}} g$ existent, il en est de même de $\lim_{\mathscr{F}} f^{-1}$ et $\lim_{\mathscr{F}} fg$, et l’on a (I, p. 50, cor. 1) (1) $\lim_{\mathfrak{F}} f^{-1} = (\lim_{\mathfrak{F}} f)^{-1}$
+De même, soient $f$ et $g$ deux applications d’un ensemble $E$ *filtré* par un filtre $\mathfrak{F}$, dans un groupe topologique *séparé* $G$. Si $\lim_{\mathfrak{F}} f$ et $\lim_{\mathfrak{F}} g$ existent, il en est de même de $\lim_{\mathfrak{F}} f^{-1}$ et $\lim_{\mathfrak{F}} fg$, et l’on a (I, p. 50, cor. 1) (1) $\lim_{\mathfrak{F}} f^{-1} = (\lim_{\mathfrak{F}} f)^{-1}$
 
 (2) $\lim_{\mathfrak{F}} fg = (\lim_{\mathfrak{F}} f)(\lim_{\mathfrak{F}} g).$
 
@@ -142,9 +142,9 @@ Définition d’une topologie de groupe par un ensemble de sous-groupes.
 
 Si $\mathscr{S}$ est une base de filtre sur un groupe G, formée de sous-groupes de G, il est immédiat qu’elle satisfait aux axiomes (GV₁) et (GV₂), car pour tout sous-groupe H de G, H.H⁻¹ = H. La base de filtre $\mathscr{S}$ sera donc un système fondamental de voisinages de e dans une topologie compatible avec la structure de groupe de G, pourvu qu’elle satisfasse à (GV₃) (condition qui sera remplie en particulier si tous les sous-groupes de $\mathscr{S}$ sont distingués, ce qui sera toujours le cas si G est commutatif). Pour que la topologie ainsi définie soit séparée, il faut et il suffit, d’après la prop. 2, que l’intersection des sous-groupes appartenant à $\mathscr{S}$ se réduise à e. Les cas les plus intéressants sont ceux où le sous-groupe {e} n’appartient pas à $\mathscr{S}$ (sinon la topologie définie par $\mathscr{S}$ est la topologie discrète); si cette condition est remplie, la topologie définie par $\mathscr{S}$ ne peut être séparée que si $\mathscr{S}$ est un ensemble infini.
 
-L’intersection de deux sous-groupes étant un sous-groupe, on peut définir une topologie de groupe sur G à partir d’un ensemble quelconque $\mathscr{G}$ de sous-groupes de G; il suffit de considérer l’ensemble $\mathscr{G}$ des sous-groupes a.H.a⁻¹, où H parcourt $\mathscr{G}$ et a parcourt G, puis l’ensemble $\mathscr{S}$ des intersections finies de sous-groupes appartenant à $\mathscr{G}$; $\mathscr{S}$ est une base de filtre, et satisfait à (GV₃).
+L’intersection de deux sous-groupes étant un sous-groupe, on peut définir une topologie de groupe sur G à partir d’un ensemble quelconque $\mathfrak{G}$ de sous-groupes de G; il suffit de considérer l’ensemble $\mathfrak{G}$ des sous-groupes a.H.a⁻¹, où H parcourt $\mathfrak{G}$ et a parcourt G, puis l’ensemble $\mathscr{S}$ des intersections finies de sous-groupes appartenant à $\mathfrak{G}$; $\mathscr{S}$ est une base de filtre, et satisfait à (GV₃).
 
-En particulier, considérons le groupe additif d’un anneau A; tout ensemble $\mathscr{G}$ d’idéaux de A (A, I, p. 98) définit une topologie compatible avec la structure de ce groupe additif; cette topologie est séparée si l’intersection des idéaux de $\mathscr{G}$ est l’idéal nul; elle est distincte de la topologie discrète si aucune intersection finie d’idéaux de $\mathscr{G}$ n’est l’idéal nul. Les topologies définies de cette manière jouent un grand rôle en Théorie des nombres (voir les exerc. des §§ 6 et 7 de ce chapitre).
+En particulier, considérons le groupe additif d’un anneau A; tout ensemble $\mathfrak{G}$ d’idéaux de A (A, I, p. 98) définit une topologie compatible avec la structure de ce groupe additif; cette topologie est séparée si l’intersection des idéaux de $\mathfrak{G}$ est l’idéal nul; elle est distincte de la topologie discrète si aucune intersection finie d’idéaux de $\mathfrak{G}$ n’est l’idéal nul. Les topologies définies de cette manière jouent un grand rôle en Théorie des nombres (voir les exerc. des §§ 6 et 7 de ce chapitre).
 
 ### 3. Isomorphismes et isomorphismes locaux
 

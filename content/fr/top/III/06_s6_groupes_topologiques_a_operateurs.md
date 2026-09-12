@@ -45,7 +45,7 @@ subsections:
       pdf_page: 238
 statements: 24
 exercises: 29
-content_sha256: bc11720c4c8f83c503a76708962c403cca90b1048d81f76a5954a109106bf565
+content_sha256: 80aabc14959312c7f91275f8c11a5c1772027cc7ac941f0de5a23db866b32eb7
 ---
 
 ## § 6. GROUPES TOPOLOGIQUES À OPÉRATEURS; ANNEAUX TOPOLOGIQUES; CORPS TOPOLOGIQUES
@@ -155,15 +155,15 @@ l’axiome (AT$_{\text{III}}$) (compte tenu de (AT$_{\text{I}}$) et (AT$_{\text{
 (AT$_{\text{IIIa}}$) *Quel que soit* $x_0 \in A$, les *applications* $x \mapsto x_0x$ et $x \mapsto xx_0$ sont *continues au point* $x = 0$.
 (AT$_{\text{IIIb}}$) *L’application* $(x, y) \mapsto xy$ de $A \times A$ dans $A$ est *continue au point* $(0, 0)$.
 
-On en déduit un système de conditions nécessaires et suffisantes que doit vérifier le *filtre* $\mathscr{V}$ *des voisinages de* 0 dans un anneau $A$ pour définir sur $A$ une topologie compatible avec sa structure d’anneau: $\mathscr{V}$ doit satisfaire aux axiomes (GA$_{\text{I}}$) et (GA$_{\text{II}}$) de III, p. 4, et en outre aux deux axiomes suivants:
-(AV$_{\text{I}}$) *Quels que soient* $x_0 \in A$ et $V \in \mathscr{V}$, *il existe* $W \in \mathscr{V}$ *tel que* $x_0W \subset V$ *et* $Wx_0 \subset V$.
-(AV$_{\text{II}}$) *Quel que soit* $V \in \mathscr{V}$, *il existe* $W \in \mathscr{V}$ *tel que* $WW \subset V$.
+On en déduit un système de conditions nécessaires et suffisantes que doit vérifier le *filtre* $\mathfrak{V}$ *des voisinages de* 0 dans un anneau $A$ pour définir sur $A$ une topologie compatible avec sa structure d’anneau: $\mathfrak{V}$ doit satisfaire aux axiomes (GA$_{\text{I}}$) et (GA$_{\text{II}}$) de III, p. 4, et en outre aux deux axiomes suivants:
+(AV$_{\text{I}}$) *Quels que soient* $x_0 \in A$ et $V \in \mathfrak{V}$, *il existe* $W \in \mathfrak{V}$ *tel que* $x_0W \subset V$ *et* $Wx_0 \subset V$.
+(AV$_{\text{II}}$) *Quel que soit* $V \in \mathfrak{V}$, *il existe* $W \in \mathfrak{V}$ *tel que* $WW \subset V$.
 
 #### Remarque {#top-iii-s6-n3-rem-1 .statement}
 
 On rencontre assez souvent en Analyse des anneaux vérifiant les axiomes (AT$_{\text{I}}$), (AT$_{\text{II}}$) et (AT$_{\text{IIIa}}$), mais non (AT$_{\text{IIIb}}$). *Un exemple est l’anneau des mesures sur un groupe compact, où la loi multiplicative est la convolution, et la topologie est la topologie vague (INT, VIII).*.
 
-*Exemple 3).* — Soit $\mathscr{B}$ une *base de filtre* sur un anneau $A$, formée d’*idéaux bilatères*; $\mathscr{B}$ est un système fondamental de voisinages de 0 pour une topologie compatible avec la structure de groupe additif de $A$; il résulte aussitôt de (AV$_{\text{I}}$) et (AV$_{\text{II}}$) que cette topologie est compatible avec la structure d’*anneau* de $A$.
+*Exemple 3).* — Soit $\mathfrak{B}$ une *base de filtre* sur un anneau $A$, formée d’*idéaux bilatères*; $\mathfrak{B}$ est un système fondamental de voisinages de 0 pour une topologie compatible avec la structure de groupe additif de $A$; il résulte aussitôt de (AV$_{\text{I}}$) et (AV$_{\text{II}}$) que cette topologie est compatible avec la structure d’*anneau* de $A$.
 
 Soient $E$ un espace topologique, $f$ et $g$ deux applications de $E$ dans un anneau topologique $A$; si $f$ et $g$ sont continues en un point $x_0 \in E$, $f + g$, $-f$ et $fg$ sont aussi continues en ce point. Il en résulte que les applications continues de $E$ dans $A$ forment un *sous-anneau* de l’anneau $A^E$ des applications de $E$ dans $A$. On voit aussi que, si $A$ est *commutatif*, tout *polynôme en n variables*, à coefficients dans $A$, et défini dans $A^n$, est *continu* dans $A^n$. De même, soient $f$ et $g$ deux applications d’un ensemble $E$ *filtré* par un filtre $\mathfrak{F}$, dans un anneau topologique *séparé* $A$; si $\lim_{\mathfrak{F}} f$ et $\lim_{\mathfrak{F}} g$ existent, il en est de même de $\lim_{\mathfrak{F}} (f + g)$, $\lim_{\mathfrak{F}} (-f)$ et $\lim_{\mathfrak{F}} (fg)$, et on a (I, p. 50, cor. 1 et I, p. 52, prop. 1)
 $$
@@ -200,20 +200,20 @@ Soient E, F, G trois groupes commutatifs séparés et complets, A un sous-groupe
 
 **Z-bilinéaire**$^{1}$ continue de $A \times B$ dans $G$, $f$ peut être prolongée par continuité en une application **Z-bilinéaire continu** de $E \times F$ dans $G$.
 
-Soient $(x_0, y_0)$ un point quelconque de $E \times F$, $\mathscr{U}$ et $\mathscr{V}$ les traces sur $A$ et $B$ respectivement, des filtres de voisinages de $x_0$ et $y_0$ ($\mathscr{U}$ et $\mathscr{V}$ sont des filtres par hypothèse); pour montrer que $f$ peut être prolongée par continuité, il suffit de voir que $f(\mathscr{U} \times \mathscr{V})$ est une *base de filtre de Cauchy* dans $G$ (II, p. 20, prop. 11). Partons de l’identité:
+Soient $(x_0, y_0)$ un point quelconque de $E \times F$, $\mathfrak{U}$ et $\mathfrak{V}$ les traces sur $A$ et $B$ respectivement, des filtres de voisinages de $x_0$ et $y_0$ ($\mathfrak{U}$ et $\mathfrak{V}$ sont des filtres par hypothèse); pour montrer que $f$ peut être prolongée par continuité, il suffit de voir que $f(\mathfrak{U} \times \mathfrak{V})$ est une *base de filtre de Cauchy* dans $G$ (II, p. 20, prop. 11). Partons de l’identité:
 
 $$
 f(x', y') - f(x, y) = f(x' - x, y_1) + f(x_1, y' - y)
 + f(x' - x, y' - y_1) + f(x - x_1, y' - y).
 $$
 
-Nous allons voir qu’en prenant $(x, y)$ et $(x', y')$ dans un ensemble assez petit de $\mathscr{U} \times \mathscr{V}$, et en choisissant convenablement $x_1$ et $y_1$, on peut rendre très petit chacun des termes du second membre. Soit $W$ un voisinage quelconque de 0 dans $G$; $f$ étant continue au point $(0, 0)$ de $A \times B$, il existe un ensemble $U \in \mathscr{U}$ et un ensemble $V \in \mathscr{V}$ tels que, pour $x \in U, x' \in U, y \in V, y' \in V$, on ait $f(x' - x, y' - y) \in W$. Prenons un point $x_1 \in U$, et un point $y_1 \in V$; quels que soient $x, x'$ dans $U$, et $y, y'$ dans $V$, on aura donc
+Nous allons voir qu’en prenant $(x, y)$ et $(x', y')$ dans un ensemble assez petit de $\mathfrak{U} \times \mathfrak{V}$, et en choisissant convenablement $x_1$ et $y_1$, on peut rendre très petit chacun des termes du second membre. Soit $W$ un voisinage quelconque de 0 dans $G$; $f$ étant continue au point $(0, 0)$ de $A \times B$, il existe un ensemble $U \in \mathfrak{U}$ et un ensemble $V \in \mathfrak{V}$ tels que, pour $x \in U, x' \in U, y \in V, y' \in V$, on ait $f(x' - x, y' - y) \in W$. Prenons un point $x_1 \in U$, et un point $y_1 \in V$; quels que soient $x, x'$ dans $U$, et $y, y'$ dans $V$, on aura donc
 
 $$
 f(x' - x, y' - y_1) + f(x - x_1, y' - y) \in W + W.
 $$
 
-D’autre part, l’application partielle $x \mapsto f(x, y_1)$ est continue dans $A$; il existe donc un ensemble $U' \subset U$, appartenant à $\mathscr{U}$, et tel que, pour $x \in U'$ et $x' \in U'$, on ait $f(x' - x, y_1) \in W$. De même, il existe $V' \subset V$ et appartenant à $\mathscr{V}$ tel que, pour $y \in V'$ et $y' \in V'$, on ait $f(x_1, y' - y) \in W$. Par suite, si $(x, y)$ et $(x', y')$ sont deux points quelconques de $U' \times V'$, on a
+D’autre part, l’application partielle $x \mapsto f(x, y_1)$ est continue dans $A$; il existe donc un ensemble $U' \subset U$, appartenant à $\mathfrak{U}$, et tel que, pour $x \in U'$ et $x' \in U'$, on ait $f(x' - x, y_1) \in W$. De même, il existe $V' \subset V$ et appartenant à $\mathfrak{V}$ tel que, pour $y \in V'$ et $y' \in V'$, on ait $f(x_1, y' - y) \in W$. Par suite, si $(x, y)$ et $(x', y')$ sont deux points quelconques de $U' \times V'$, on a
 
 $$
 f(x', y') - f(x, y) \in W + W + W + W,
@@ -269,7 +269,7 @@ Un espace vectoriel topologique sur $\mathbf{R}$ (resp. $\mathbf{C}$) est un mod
 
 #### Exemple 2 {#top-iii-s6-n6-exa-2 .statement}
 
-Soient A un anneau, $\mathscr{B}$ une base de filtre sur A formée d’idéaux bilatères de A, E un A-module à gauche. Si on munit A de la topologie (compatible avec sa structure d’anneau) pour laquelle $\mathscr{B}$ est un système fondamental de voisinages de 0 (III, p. 49, Exemple 3), et E de la topologie (compatible avec sa structure de groupe additif) dont les $aE$, où $a$ parcourt $\mathscr{B}$, forment un système fondamental de voisinages de 0 (III, p. 5, Exemple), on vérifie aussitôt que E est un module topologique sur A.
+Soient A un anneau, $\mathfrak{B}$ une base de filtre sur A formée d’idéaux bilatères de A, E un A-module à gauche. Si on munit A de la topologie (compatible avec sa structure d’anneau) pour laquelle $\mathfrak{B}$ est un système fondamental de voisinages de 0 (III, p. 49, Exemple 3), et E de la topologie (compatible avec sa structure de groupe additif) dont les $aE$, où $a$ parcourt $\mathfrak{B}$, forment un système fondamental de voisinages de 0 (III, p. 5, Exemple), on vérifie aussitôt que E est un module topologique sur A.
 
 #### Remarque {#top-iii-s6-n6-rem-1 .statement}
 
@@ -370,7 +370,7 @@ Il y a des corps topologiques où cette condition n’est pas vérifiée, et où
 
 *Si la structure uniforme additive d’un corps topologique commutatif $K$ est une structure d’espace séparé et complet, la structure multiplicative sur $K^*$ est une structure d’espace complet.*
 
-Nous allons montrer que si $\mathscr{F}$ est un filtre de Cauchy pour la structure *multiplicative* sur $K^*, \mathscr{F}$ est une base de filtre de Cauchy pour la structure *additive* sur $K$, et ne converge pas vers 0, ce qui établira la proposition. Soit $U$ un voisinage quelconque de 0 dans $K$, $V$ un voisinage fermé de 0 tel que $V \subset U, VV \subset U$ (III, p. 49, axiome (AV$_{II}$)) et $-1 \notin V$; il existe par hypothèse un ensemble $A \in \mathscr{F}$ tel que, quels que soient $x \in A, y \in A, x^{-1}y \in 1 + V$. Soit $a$ un point de $A$; on a $A \subset a + aV$, et $a + aV$ est un ensemble fermé ne contenant pas 0, donc 0 n’est pas adhérent à $A$, ni par suite à $\mathscr{F}$. Soit $W$ un voisinage de 0 tel que $aW \subset V$ (III, p. 49, axiome (AV$_{I}$)); il existe par hypothèse un ensemble $B \in \mathscr{F}$ tel que $B \subset A$ et que, quels que soient $x \in B, y \in B$, on ait $x^{-1}y \in 1 + W$, d’où $y - x \subset xW \subset AW \subset aW + aVW$; comme $K$ est commutatif, $aVW = aWV \subset VW \subset U$, donc $y - x \in U + U$, ce qui démontre la proposition.
+Nous allons montrer que si $\mathfrak{F}$ est un filtre de Cauchy pour la structure *multiplicative* sur $K^*, \mathfrak{F}$ est une base de filtre de Cauchy pour la structure *additive* sur $K$, et ne converge pas vers 0, ce qui établira la proposition. Soit $U$ un voisinage quelconque de 0 dans $K$, $V$ un voisinage fermé de 0 tel que $V \subset U, VV \subset U$ (III, p. 49, axiome (AV$_{II}$)) et $-1 \notin V$; il existe par hypothèse un ensemble $A \in \mathfrak{F}$ tel que, quels que soient $x \in A, y \in A, x^{-1}y \in 1 + V$. Soit $a$ un point de $A$; on a $A \subset a + aV$, et $a + aV$ est un ensemble fermé ne contenant pas 0, donc 0 n’est pas adhérent à $A$, ni par suite à $\mathfrak{F}$. Soit $W$ un voisinage de 0 tel que $aW \subset V$ (III, p. 49, axiome (AV$_{I}$)); il existe par hypothèse un ensemble $B \in \mathfrak{F}$ tel que $B \subset A$ et que, quels que soient $x \in B, y \in B$, on ait $x^{-1}y \in 1 + W$, d’où $y - x \subset xW \subset AW \subset aW + aVW$; comme $K$ est commutatif, $aVW = aWV \subset VW \subset U$, donc $y - x \in U + U$, ce qui démontre la proposition.
 
 La même démonstration prouve que la prop. 8 s’étend au cas où tout filtre de Cauchy pour *l’une* des structures multiplicatives de $K$ est aussi un filtre de Cauchy pour l’autre structure multiplicative.
 

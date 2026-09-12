@@ -29,7 +29,7 @@ subsections:
       pdf_page: 62
 statements: 24
 exercises: 7
-content_sha256: bf4f8b61710269b4d59fd1eeac6afa86e005eb7174597463ab1d48cde489e830
+content_sha256: e3c2fc54aa47bbbb159585ae2b5006efb3bcb76fa9da39d9abc296df01833616
 ---
 
 ## 5. OPEN MAPPINGS AND CLOSED MAPPINGS
@@ -170,11 +170,11 @@ and $h \circ \varphi$ is the mapping of $A$ into $f(A)$ which agrees with $f$ on
 
 #### Proposition 5 {#top-i-s5-prop-5 .statement}
 
-*Let $X, Y$ be two topological spaces, $f$ a mapping of $X$ into $Y, \mathscr{B}$ a base of the topology of $X$. Then the following statements are equivalent*:
+*Let $X, Y$ be two topological spaces, $f$ a mapping of $X$ into $Y, \mathfrak{B}$ a base of the topology of $X$. Then the following statements are equivalent*:
 
 a) *$f$ is an open mapping*.
 
-b) *For each $U \in \mathscr{B}$, $f(U)$ is open in $Y$*.
+b) *For each $U \in \mathfrak{B}$, $f(U)$ is open in $Y$*.
 
 c) *For each $x \in X$ and each neighbourhood $V$ of $x$ in $X$, $f(V)$ is a neighbourhood of $f(x)$ in $Y$*.
 

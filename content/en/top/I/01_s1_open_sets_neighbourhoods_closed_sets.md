@@ -37,7 +37,7 @@ subsections:
       pdf_page: 29
 statements: 24
 exercises: 9
-content_sha256: d2fed4994a1dae25f17820d116d3c9ceacb06acd01a11b23a4bd8345119281e7
+content_sha256: 786b8ec9d0f69c75c6f78d764a7242ac5fbccb18dc3a386de1dae2318a45781d
 ---
 
 ## 1. OPEN SETS, NEIGHBOURHOODS, CLOSED SETS
@@ -66,7 +66,7 @@ To show that a set $\mathscr{D}$ of subsets of $X$ satisfies (O_{II}), it is oft
 (O_{II\ a}) *The intersection of two sets of* $\mathscr{D}$ *belongs to* $\mathscr{D}$.
 (O_{II\ b}) $X$ *belongs to* $\mathscr{D}$.
 
-Examples of topologies. Given any set $X$, the set of subsets of $X$ consisting of $X$ and $\varnothing$ satisfies axioms $(O_1)$ and $(O_{II})$ and therefore defines a topology on $X$. So does the set $\mathscr{P}(X)$ of all subsets of $X$: the topology it defines is the discrete topology on $X$, and the set $X$ with this topology is called a discrete space.
+Examples of topologies. Given any set $X$, the set of subsets of $X$ consisting of $X$ and $\varnothing$ satisfies axioms $(O_1)$ and $(O_{II})$ and therefore defines a topology on $X$. So does the set $\mathfrak{P}(X)$ of all subsets of $X$: the topology it defines is the discrete topology on $X$, and the set $X$ with this topology is called a discrete space.
 
 A covering $(U_i)_{i \in I}$ of a subset $A$ of a topological space $X$ is said to be open if all the $U_i$ are open in $X$.
 
@@ -96,29 +96,29 @@ It is clear that every neighbourhood of a subset $A$ of $X$ is also a neighbourh
 
 The everyday sense of the word "neighbourhood" is such that many of the properties which involve the mathematical idea of neighbourhood appear as the mathematical expression of intuitive properties; the choice of this term thus has the advantage of making the language more expressive. For this purpose it is also permissible to use the expressions "sufficiently near" and "as near as we please" in some statements. For example, Proposition 1 can be stated in the following form: a set $A$ is open if and only if, for each $x \in A$, all the points *sufficiently near* $x$ belong to $A$. More generally, we shall say that a property holds for all points *sufficiently near* a point $x$, if it holds at all points of some neighbourhood of $x$.
 
-Let us denote by $\mathscr{B}(x)$ the set of all neighbourhoods of $x$. The sets $\mathscr{B}(x)$ have the following properties:
+Let us denote by $\mathfrak{B}(x)$ the set of all neighbourhoods of $x$. The sets $\mathfrak{B}(x)$ have the following properties:
 
-(V_I) *Every subset of $X$ which contains a set belonging to $\mathscr{B}(x)$ itself belongs to $\mathscr{B}(x)$.*
+(V_I) *Every subset of $X$ which contains a set belonging to $\mathfrak{B}(x)$ itself belongs to $\mathfrak{B}(x)$.*
 
-(V_{II}) *Every finite intersection of sets of $\mathscr{B}(x)$ belongs to $\mathscr{B}(x)$.*
+(V_{II}) *Every finite intersection of sets of $\mathfrak{B}(x)$ belongs to $\mathfrak{B}(x)$.*
 
-(V_{III}) *The element $x$ is in every set of $\mathscr{B}(x)$.*
+(V_{III}) *The element $x$ is in every set of $\mathfrak{B}(x)$.*
 
 Indeed, these three properties are immediate consequences of Definition 4 and axiom (O_{II}).
 
-(V_{IV}) *If $V$ belongs to $\mathscr{B}(x)$, then there is a set $W$ belonging to $\mathscr{B}(x)$ such that, for each $y \in W$, $V$ belongs to $\mathscr{B}(y)$.*
+(V_{IV}) *If $V$ belongs to $\mathfrak{B}(x)$, then there is a set $W$ belonging to $\mathfrak{B}(x)$ such that, for each $y \in W$, $V$ belongs to $\mathfrak{B}(y)$.*
 
 By Proposition 1, we may take $W$ to be any open set which contains $x$ and is contained in $V$.
 
 This property may be expressed in the form that *a neighbourhood of $x$ is also a neighbourhood of all points sufficiently near to $x$*.
 
-These four properties of the sets $\mathscr{B}(x)$ are *characteristic*. To be precise, we have:
+These four properties of the sets $\mathfrak{B}(x)$ are *characteristic*. To be precise, we have:
 
 #### Proposition 2 {#top-i-s1-prop-2 .statement}
 
-*If to each element $x$ of a set $X$ there corresponds a set $\mathscr{B}(x)$ of subsets of $X$ such that the properties (V_I), (V_{II}), (V_{III}) and (V_{IV}) are satisfied, then there is a unique topological structure on $X$ such that, for each $x \in X$, $\mathscr{B}(x)$ is the set of neighbourhoods of $x$ in this topology.*
+*If to each element $x$ of a set $X$ there corresponds a set $\mathfrak{B}(x)$ of subsets of $X$ such that the properties (V_I), (V_{II}), (V_{III}) and (V_{IV}) are satisfied, then there is a unique topological structure on $X$ such that, for each $x \in X$, $\mathfrak{B}(x)$ is the set of neighbourhoods of $x$ in this topology.*
 
-By Proposition 1, if there is a topology on $X$ satisfying these conditions, the set of open sets for this topology is necessarily the set $\mathscr{D}$ of subsets $A$ of $X$ such that *for each $x \in A$ we have $A \in \mathscr{B}(x)$*; hence the *uniqueness* of this topology if it exists.
+By Proposition 1, if there is a topology on $X$ satisfying these conditions, the set of open sets for this topology is necessarily the set $\mathscr{D}$ of subsets $A$ of $X$ such that *for each $x \in A$ we have $A \in \mathfrak{B}(x)$*; hence the *uniqueness* of this topology if it exists.
 
 The set $\mathscr{D}$ certainly satisfies axioms (O_I) and (O_{II}): for (O_I), this follows immediately from (V_I), and for (O_{II}), from (V_{II}). It
 
@@ -126,23 +126,23 @@ The set $\mathscr{D}$ certainly satisfies axioms (O_I) and (O_{II}): for (O_I), 
 
 Figure 1.
 
-remains to show that, in the topology defined by $\mathscr{D}$, $\mathscr{B}(x)$ is the set of neighbourhoods of $x$ for each $x \in X$. It follows from (V_I) that every neighbourhood of $x$ belongs to $\mathscr{B}(x)$. Conversely, let $V$ be a set belonging to $\mathscr{B}(x)$, and let $U$ be the set of points $y \in X$ such that $V \in \mathscr{B}(y)$; if we can show that $x \in U, U \subset V$ and $U \in \mathscr{D}$, then the proof will be complete. We have $x \in U$ since $V \in \mathscr{B}(x)$; also $U \subset V$, for every point $y \in U$ belongs to $V$ by reason of (V_III) and the hypothesis $V \in \mathscr{B}(y)$. It remains to show that $U \in \mathscr{D}$, i.e. that $U \in \mathscr{B}(y)$ for each $y \in U$; now (Fig. 1) if $y \in U$ then by (V_IV) there is a set $W$ such that for each $z \in W$ we have $V \in \mathscr{B}(z)$; since $V \in \mathscr{B}(z)$ means that $z \in U$, it follows that $W \subset U$, and therefore, by (V_I), that $U \in \mathscr{B}(y)$.
+remains to show that, in the topology defined by $\mathscr{D}$, $\mathfrak{B}(x)$ is the set of neighbourhoods of $x$ for each $x \in X$. It follows from (V_I) that every neighbourhood of $x$ belongs to $\mathfrak{B}(x)$. Conversely, let $V$ be a set belonging to $\mathfrak{B}(x)$, and let $U$ be the set of points $y \in X$ such that $V \in \mathfrak{B}(y)$; if we can show that $x \in U, U \subset V$ and $U \in \mathscr{D}$, then the proof will be complete. We have $x \in U$ since $V \in \mathfrak{B}(x)$; also $U \subset V$, for every point $y \in U$ belongs to $V$ by reason of (V_III) and the hypothesis $V \in \mathfrak{B}(y)$. It remains to show that $U \in \mathscr{D}$, i.e. that $U \in \mathfrak{B}(y)$ for each $y \in U$; now (Fig. 1) if $y \in U$ then by (V_IV) there is a set $W$ such that for each $z \in W$ we have $V \in \mathfrak{B}(z)$; since $V \in \mathfrak{B}(z)$ means that $z \in U$, it follows that $W \subset U$, and therefore, by (V_I), that $U \in \mathfrak{B}(y)$.
 
 Q.E.D.
 
-Proposition 2 shows that a topology on $X$ can be defined by means of the sets $\mathscr{B}(x)$ of neighbourhoods of points of $X$, subject only to the axioms (V_I), (V_II), (V_III) and (V_IV).
+Proposition 2 shows that a topology on $X$ can be defined by means of the sets $\mathfrak{B}(x)$ of neighbourhoods of points of $X$, subject only to the axioms (V_I), (V_II), (V_III) and (V_IV).
 
 #### Example {#top-i-s1-n2-exa-1 .statement}
 
-We may define a topology on the set $Q$ of rational numbers by taking for open sets all unions of bounded open intervals; the set of these subsets certainly satisfies (O_I), and to see that it satisfies (O_II) it is enough to remark that if the intersection of two open intervals $]a, b[$ and $]c, d[$ is not empty, then it is the interval $]\alpha, \beta[$, where $\alpha = \sup(a, c)$ and $\beta = \inf(b, d)$. We get the same topology by defining for each $x \in Q$ the set $\mathscr{B}(x)$ of neighbourhoods of $x$ to be the set of subsets containing an open interval to which $x$ belongs. The topological space obtained by assigning this topology to $Q$ is called the rational line (cf. Chapter IV, § 1, no. 2). Notice that in this space every open interval is an open set. \* We can define a topology on the set $R$ of real numbers in the same way; $R$ with this topology is called the real line (cf. § 2, Exercise 5 and Chapter IV, § 1, no. 3). \*
+We may define a topology on the set $Q$ of rational numbers by taking for open sets all unions of bounded open intervals; the set of these subsets certainly satisfies (O_I), and to see that it satisfies (O_II) it is enough to remark that if the intersection of two open intervals $]a, b[$ and $]c, d[$ is not empty, then it is the interval $]\alpha, \beta[$, where $\alpha = \sup(a, c)$ and $\beta = \inf(b, d)$. We get the same topology by defining for each $x \in Q$ the set $\mathfrak{B}(x)$ of neighbourhoods of $x$ to be the set of subsets containing an open interval to which $x$ belongs. The topological space obtained by assigning this topology to $Q$ is called the rational line (cf. Chapter IV, § 1, no. 2). Notice that in this space every open interval is an open set. \* We can define a topology on the set $R$ of real numbers in the same way; $R$ with this topology is called the real line (cf. § 2, Exercise 5 and Chapter IV, § 1, no. 3). \*
 
 ### 3. FUNDAMENTAL SYSTEMS OF NEIGHBOURHOODS; BASES OF A TOPOLOGY
 
 #### Definition 5 {#top-i-s1-def-5 .statement}
 
-In a topological space $X$, a fundamental system of neighbourhoods of a point $x$ (resp. of a subset $A$ of $X$) is any set $\mathscr{G}$ of neighbourhoods of $x$ (resp. $A$) such that for each neighbourhood $V$ of $x$ (resp. $A$) there is a neighbourhood $W \in \mathscr{G}$ such that $W \subset V$.
+In a topological space $X$, a fundamental system of neighbourhoods of a point $x$ (resp. of a subset $A$ of $X$) is any set $\mathfrak{G}$ of neighbourhoods of $x$ (resp. $A$) such that for each neighbourhood $V$ of $x$ (resp. $A$) there is a neighbourhood $W \in \mathfrak{G}$ such that $W \subset V$.
 
-If $\mathscr{G}$ is a fundamental system of neighbourhoods of a subset $A$ of $X$, then every finite intersection of sets of $\mathscr{G}$ contains a set of $\mathscr{G}$.
+If $\mathfrak{G}$ is a fundamental system of neighbourhoods of a subset $A$ of $X$, then every finite intersection of sets of $\mathfrak{G}$ contains a set of $\mathfrak{G}$.
 
 Examples. 1) In a discrete space (no. 1) the set $\{ x \}$ alone constitutes a fundamental system of neighbourhoods of the point $x$.
 2) On the rational line $\mathbf{Q}$ the set of all open intervals containing a point $x$ is a fundamental system of neighbourhoods of this point. So is the set of open intervals $]x - 1/n, x + 1/n[$, and the set of closed intervals $[x - 1/n, x + 1/n]$, where $n$ runs through all the integers $> 0$, or through any infinite strictly increasing sequence of integers $> 0$.
@@ -150,13 +150,13 @@ Examples. 1) In a discrete space (no. 1) the set $\{ x \}$ alone constitutes a f
 
 #### Definition 6 {#top-i-s1-def-6 .statement}
 
-A base of the topology of a topological space $X$ is any set $\mathscr{B}$ of open subsets of $X$ such that every open subset of $X$ is the union of sets belonging to $\mathscr{B}$.
+A base of the topology of a topological space $X$ is any set $\mathfrak{B}$ of open subsets of $X$ such that every open subset of $X$ is the union of sets belonging to $\mathfrak{B}$.
 
 #### Proposition 3 {#top-i-s1-prop-3 .statement}
 
-If $X$ is a topological space, then for a set $\mathscr{B}$ of open subsets of $X$ to be a base of the topology of $X$ it is necessary and sufficient that for each $x \in X$ the set of $V \in \mathscr{B}$ such that $x \in V$ is a fundamental system of neighbourhoods of $x$.
+If $X$ is a topological space, then for a set $\mathfrak{B}$ of open subsets of $X$ to be a base of the topology of $X$ it is necessary and sufficient that for each $x \in X$ the set of $V \in \mathfrak{B}$ such that $x \in V$ is a fundamental system of neighbourhoods of $x$.
 
-It is clear that the condition is necessary. Conversely, if it is satisfied, then given any open set $U$ and any $x \in U$ there is an open set $V_x \in \mathscr{B}$ such that $x \in V_x \subset U$. The union of the sets $V_x$ for $x \in U$ is therefore equal to $U$. This completes the proof.
+It is clear that the condition is necessary. Conversely, if it is satisfied, then given any open set $U$ and any $x \in U$ there is an open set $V_x \in \mathfrak{B}$ such that $x \in V_x \subset U$. The union of the sets $V_x$ for $x \in U$ is therefore equal to $U$. This completes the proof.
 
 #### Example 1 {#top-i-s1-n3-exa-1 .statement}
 
@@ -291,9 +291,9 @@ In a discrete space $X$ the only dense subset of $X$ is $X$ itself. On the other
 
 #### Proposition 6 {#top-i-s1-prop-6 .statement}
 
-If $\mathscr{B}$ is a base of the topology of a topological space $X$, there is a dense set $D$ in $X$ such that $\mathrm{Card}(D) \leq \mathrm{Card}(\mathscr{B})$.
+If $\mathfrak{B}$ is a base of the topology of a topological space $X$, there is a dense set $D$ in $X$ such that $\mathrm{Card}(D) \leq \mathrm{Card}(\mathfrak{B})$.
 
-We may restrict ourselves to the case in which none of the sets of $\mathscr{B}$ is empty (the non-empty sets of $\mathscr{B}$ already form a base of the topology of $X$). For each $U \in \mathscr{B}$, let $x_V$ be a point of $U$; it follows from Proposition 3 of no. 3 that the set $D$ of the points $x_U$ is dense in $X$, and we have $\mathrm{Card}(D) \leq \mathrm{Card}(\mathscr{B})$ (Set Theory, Chapter III, § 3, no. 2, Proposition 3).
+We may restrict ourselves to the case in which none of the sets of $\mathfrak{B}$ is empty (the non-empty sets of $\mathfrak{B}$ already form a base of the topology of $X$). For each $U \in \mathfrak{B}$, let $x_V$ be a point of $U$; it follows from Proposition 3 of no. 3 that the set $D$ of the points $x_U$ is dense in $X$, and we have $\mathrm{Card}(D) \leq \mathrm{Card}(\mathfrak{B})$ (Set Theory, Chapter III, § 3, no. 2, Proposition 3).
 
 ### Exercises {#top-i-s1-exercises}
 

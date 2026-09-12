@@ -41,7 +41,7 @@ subsections:
       pdf_page: 362
 statements: 31
 exercises: 18
-content_sha256: 71600628e1742628cbc5bbe2d2f4f8275f2c87e5cb2d1877b44f63639a733361
+content_sha256: ceefb1b50ddb80fd0ccc25e390633e05da820279b83a80d106da654c24f06d6a
 ---
 
 ## 5. REAL-VALUED FUNCTIONS
@@ -171,12 +171,12 @@ This relation reduces all properties of the greatest lower bound to those of the
 
 #### Proposition 5 {#top-iv-s5-prop-5 .statement}
 
-*Let $f$ be a real-valued function defined on a set $X$. On the set $\mathscr{F}(X)$ of all finite subsets of $X$, directed with respect to the relation $\subset$, the real-valued function $H \to \sup_{x \in H} f(x)$ is increasing, the real-valued function $H \to \inf_{x \in H} f(x)$ is decreasing, and we have*
+*Let $f$ be a real-valued function defined on a set $X$. On the set $\mathfrak{F}(X)$ of all finite subsets of $X$, directed with respect to the relation $\subset$, the real-valued function $H \to \sup_{x \in H} f(x)$ is increasing, the real-valued function $H \to \inf_{x \in H} f(x)$ is decreasing, and we have*
 
 $$
 \begin{cases}
-\sup_{x \in A} f(x) = \lim_{H \in \mathscr{F}(X)} (\sup_{x \in H} f(x)), \\
-\inf_{x \in A} f(x) = \lim_{H \in \mathscr{F}(X)} (\inf_{x \in H} f(x)).
+\sup_{x \in A} f(x) = \lim_{H \in \mathfrak{F}(X)} (\sup_{x \in H} f(x)), \\
+\inf_{x \in A} f(x) = \lim_{H \in \mathfrak{F}(X)} (\inf_{x \in H} f(x)).
 \end{cases}
 $$
 
@@ -185,7 +185,7 @@ Let $\varphi(H) = \sup_{x \in H} f(x)$. Clearly $\varphi$ is increasing, and the
 In particular, by (1), if $A$ is any non-empty subset of $\overline{\mathbf{R}}$, we have
 
 $$
-\sup A = \lim_{H \in \mathscr{F}(A)} (\sup_{x \in H} x).
+\sup A = \lim_{H \in \mathfrak{F}(A)} (\sup_{x \in H} x).
 $$
 
 #### Proposition 6 {#top-iv-s5-prop-6 .statement}
@@ -237,14 +237,14 @@ Furthermore, if we endow $\overline{\mathbf{R}}^X$ with the topology which is th
 
 #### Proposition 10 {#top-iv-s5-prop-10 .statement}
 
-*In the product space $\overline{\mathbf{R}}^X$ the upper envelope $\sup_{i \in I} f_i$ of a family of real-valued functions $(f_i)_{i \in I}$ is the limit, with respect to the directed set $\mathscr{F}(I)$ of finite subsets of $I$, of the mapping $H \to \sup_{i \in H} f_i$ [which maps each finite subset $H$ of $I$ to the upper envelope of the finite subfamily $(f_i)_{i \in H}$].
+*In the product space $\overline{\mathbf{R}}^X$ the upper envelope $\sup_{i \in I} f_i$ of a family of real-valued functions $(f_i)_{i \in I}$ is the limit, with respect to the directed set $\mathfrak{F}(I)$ of finite subsets of $I$, of the mapping $H \to \sup_{i \in H} f_i$ [which maps each finite subset $H$ of $I$ to the upper envelope of the finite subfamily $(f_i)_{i \in H}$].
 
 This follows immediately from Proposition 5 of no. 4 and from Chapter I, § 7, no. 6, Corollary 1 to Proposition 10.
 
 We may therefore write
 
 $$
-\sup_{i \in I} f_i = \lim_{H \in \mathscr{F}(I)} (\sup_{i \in H} f_i).
+\sup_{i \in I} f_i = \lim_{H \in \mathfrak{F}(I)} (\sup_{i \in H} f_i).
 $$
 
 #### Definition 5 {#top-iv-s5-def-5 .statement}
@@ -255,29 +255,29 @@ Thus $(f_i)$ is uniformly bounded above in $X$ if and only if the upper envelope
 
 ### 6. UPPER LIMIT AND LOWER LIMIT OF A REAL-VALUED FUNCTION WITH RESPECT TO A FILTER
 
-Let $f$ be a real-valued function defined on a set $X$ filtered by a filter $\mathscr{G}$. $\mathscr{G}$ is a directed set with respect to the relation $\supseteq$ (Chapter I, § 6). For each $M \in \mathscr{G}$ consider the real number $\sup_{x \in M} f(x)$: we have a function $M \to \sup_{x \in M} f(x)$ of $\mathscr{G}$ into $\overline{\mathbf{R}}$, which is a decreasing function on $\mathscr{G}$, by Proposition 7 of no. 4. Hence, by Theorem 2 of no. 2, it has a limit with respect to the directed set $\mathscr{G}$.
+Let $f$ be a real-valued function defined on a set $X$ filtered by a filter $\mathfrak{G}$. $\mathfrak{G}$ is a directed set with respect to the relation $\supseteq$ (Chapter I, § 6). For each $M \in \mathfrak{G}$ consider the real number $\sup_{x \in M} f(x)$: we have a function $M \to \sup_{x \in M} f(x)$ of $\mathfrak{G}$ into $\overline{\mathbf{R}}$, which is a decreasing function on $\mathfrak{G}$, by Proposition 7 of no. 4. Hence, by Theorem 2 of no. 2, it has a limit with respect to the directed set $\mathfrak{G}$.
 
 #### Definition 6 {#top-iv-s5-def-6 .statement}
 
-*The limit of the real-valued function* $M \to \sup_{x \in M} f(x)$ *with respect to the directed set* $\mathscr{G}$ *is called the upper limit of* $f$ *with respect to the filter* $\mathscr{G}$, *and is denoted by* $\lim \sup_{\mathscr{G}} f$, *or by* $\lim \sup_{x, \mathscr{G}} f(x)$.
+*The limit of the real-valued function* $M \to \sup_{x \in M} f(x)$ *with respect to the directed set* $\mathfrak{G}$ *is called the upper limit of* $f$ *with respect to the filter* $\mathfrak{G}$, *and is denoted by* $\lim \sup_{\mathfrak{G}} f$, *or by* $\lim \sup_{x, \mathfrak{G}} f(x)$.
 
-The *lower limit* of $f$ with respect to the filter $\mathscr{G}$ is defined similarly, and is denoted by $\lim \inf_{\mathscr{G}} f$ or $\lim \inf_{x, \mathscr{G}} f(x)$. Thus we have
+The *lower limit* of $f$ with respect to the filter $\mathfrak{G}$ is defined similarly, and is denoted by $\lim \inf_{\mathfrak{G}} f$ or $\lim \inf_{x, \mathfrak{G}} f(x)$. Thus we have
 
 $$
 \begin{cases}
-\lim \sup_{\mathscr{G}} f = \lim_{M \in \mathscr{G}} (\sup_{x \in M} f(x)), \\
-\lim \inf_{\mathscr{G}} f = \lim_{M \in \mathscr{G}} (\inf_{x \in M} f(x)).
+\lim \sup_{\mathfrak{G}} f = \lim_{M \in \mathfrak{G}} (\sup_{x \in M} f(x)), \\
+\lim \inf_{\mathfrak{G}} f = \lim_{M \in \mathfrak{G}} (\inf_{x \in M} f(x)).
 \end{cases}
 $$
 
 (10)
 
-Often the filter $\mathscr{G}$ is suppressed from the notation, and we write simply $\lim \sup f$ or $\lim \sup_{x} f(x)$, or $\lim \sup f(x)$ when there is no risk of confusion.
+Often the filter $\mathfrak{G}$ is suppressed from the notation, and we write simply $\lim \sup f$ or $\lim \sup_{x} f(x)$, or $\lim \sup f(x)$ when there is no risk of confusion.
 
 From formulae (10) and Theorem 1 we have
 
 $$
-\inf_{x \in X} f(x) \leq \lim \inf_{\mathscr{G}} f \leq \lim \sup_{\mathscr{G}} f \leq \sup_{x \in X} f(x).
+\inf_{x \in X} f(x) \leq \lim \inf_{\mathfrak{G}} f \leq \lim \sup_{\mathfrak{G}} f \leq \sup_{x \in X} f(x).
 $$
 
 (11)
@@ -286,61 +286,61 @@ By Theorem 2 of no. 2 we may also write
 
 $$
 \begin{cases}
-\lim \sup_{\mathscr{G}} f = \inf_{M \in \mathscr{G}} (\sup_{x \in M} f(x)), \\
-\lim \inf_{\mathscr{G}} f = \sup_{M \in \mathscr{G}} (\inf_{x \in M} f(x)).
+\lim \sup_{\mathfrak{G}} f = \inf_{M \in \mathfrak{G}} (\sup_{x \in M} f(x)), \\
+\lim \inf_{\mathfrak{G}} f = \sup_{M \in \mathfrak{G}} (\inf_{x \in M} f(x)).
 \end{cases}
 $$
 
 (12)
 
-Also we may replace the filter $\mathscr{G}$, on the right-hand sides of formulae (10) and (12), by any *base* $\mathscr{B}$ of $\mathscr{G}$.
+Also we may replace the filter $\mathfrak{G}$, on the right-hand sides of formulae (10) and (12), by any *base* $\mathfrak{B}$ of $\mathfrak{G}$.
 
 From (2) and (10),
 
 $$
-\lim \inf_{\mathscr{G}} f = -\lim \sup_{\mathscr{G}} (-f)
+\lim \inf_{\mathfrak{G}} f = -\lim \sup_{\mathfrak{G}} (-f)
 $$
 
 and therefore we need consider only the upper limit.
 
 #### Theorem 3 {#top-iv-s5-thm-3 .statement}
 
-*The upper limit of a real-valued function $f$ with respect to a filter $\mathscr{G}$ is equal to the largest cluster value of $f$ with respect to $\mathscr{G}$.*
+*The upper limit of a real-valued function $f$ with respect to a filter $\mathfrak{G}$ is equal to the largest cluster value of $f$ with respect to $\mathfrak{G}$.*
 
-Let $b$ be a cluster point of $f$ with respect to $\mathscr{G}$. For each $M \in \mathscr{G}$, $b$ lies in the closure of $f(M)$, hence $b \leq \sup_{x \in M} f(x)$, and therefore, by (12),
-$b \leq \lim \sup_{\mathscr{G}} f = a.$
+Let $b$ be a cluster point of $f$ with respect to $\mathfrak{G}$. For each $M \in \mathfrak{G}$, $b$ lies in the closure of $f(M)$, hence $b \leq \sup_{x \in M} f(x)$, and therefore, by (12),
+$b \leq \lim \sup_{\mathfrak{G}} f = a.$
 
-On the other hand, let $V$ be any open neighbourhood of $a$ in $\overline{\mathbf{R}}$. Then there exists a set $M_0$ in $\mathscr{G}$ such that, for each $M \in \mathscr{G}$ contained in $M_0$, we have $\sup_{x \in M} f(x) \in V$; since $V$ is open it follows that $f(M)$ meets $V$, and therefore $a$ is a *cluster point* of $f$ with respect to $\mathscr{G}$, and the proof is complete.
+On the other hand, let $V$ be any open neighbourhood of $a$ in $\overline{\mathbf{R}}$. Then there exists a set $M_0$ in $\mathfrak{G}$ such that, for each $M \in \mathfrak{G}$ contained in $M_0$, we have $\sup_{x \in M} f(x) \in V$; since $V$ is open it follows that $f(M)$ meets $V$, and therefore $a$ is a *cluster point* of $f$ with respect to $\mathfrak{G}$, and the proof is complete.
 
 #### Corollary 1 {#top-iv-s5-thm-3-cor-1 .statement}
 
-*In order that $\lim \sup_{\mathscr{G}} f = \lim \inf_{\mathscr{G}} f$, it is necessary and sufficient that $f$ has a limit with respect to the filter $\mathscr{G}$, and then*
+*In order that $\lim \sup_{\mathfrak{G}} f = \lim \inf_{\mathfrak{G}} f$, it is necessary and sufficient that $f$ has a limit with respect to the filter $\mathfrak{G}$, and then*
 $$
-\lim_{\mathscr{G}} f = \lim \sup_{\mathscr{G}} f = \lim \inf_{\mathscr{G}} f.
+\lim_{\mathfrak{G}} f = \lim \sup_{\mathfrak{G}} f = \lim \inf_{\mathfrak{G}} f.
 $$
-For since $\overline{\mathbf{R}}$ is compact, the filter base $f(\mathscr{G})$ has a limit point if and only if it has only one cluster point (Chapter I, § 9, no. 1, Corollary to Theorem 1).
+For since $\overline{\mathbf{R}}$ is compact, the filter base $f(\mathfrak{G})$ has a limit point if and only if it has only one cluster point (Chapter I, § 9, no. 1, Corollary to Theorem 1).
 
 #### Corollary 2 {#top-iv-s5-thm-3-cor-2 .statement}
 
-*If $\mathscr{H}$ is a filter finer than $\mathscr{G}$, we have*
+*If $\mathscr{H}$ is a filter finer than $\mathfrak{G}$, we have*
 $$
-\lim \inf_{\mathscr{G}} f \leq \lim \inf_{\mathscr{H}} f \leq \lim \sup_{\mathscr{H}} f \leq \lim \sup_{\mathscr{G}} f.
+\lim \inf_{\mathfrak{G}} f \leq \lim \inf_{\mathscr{H}} f \leq \lim \sup_{\mathscr{H}} f \leq \lim \sup_{\mathfrak{G}} f.
 $$
-For every cluster point of $f$ with respect to $\mathscr{H}$ is also a cluster point of $f$ with respect to $\mathscr{G}$ (Chapter I, § 7, no. 3).
-In particular, if $\lim_{\mathscr{G}} f$ exists, then
+For every cluster point of $f$ with respect to $\mathscr{H}$ is also a cluster point of $f$ with respect to $\mathfrak{G}$ (Chapter I, § 7, no. 3).
+In particular, if $\lim_{\mathfrak{G}} f$ exists, then
 $$
-\lim \inf_{\mathscr{G}} f \leq \lim_{\mathscr{G}} f \leq \lim \sup_{\mathscr{G}} f.
+\lim \inf_{\mathfrak{G}} f \leq \lim_{\mathfrak{G}} f \leq \lim \sup_{\mathfrak{G}} f.
 $$
 
 #### Corollary 3 {#top-iv-s5-thm-3-cor-3 .statement}
 
-*Let $A$ be a set of the filter $\mathscr{G}$, let $\mathscr{G}_A$ be the filter induced on $A$ by $\mathscr{G}$, and let $f_A$ be the restriction of $f$ to $A$; then*
+*Let $A$ be a set of the filter $\mathfrak{G}$, let $\mathfrak{G}_A$ be the filter induced on $A$ by $\mathfrak{G}$, and let $f_A$ be the restriction of $f$ to $A$; then*
 $$
-\lim \sup_{\mathscr{G}_A} f_A = \lim \sup_{\mathscr{G}} f.
+\lim \sup_{\mathfrak{G}_A} f_A = \lim \sup_{\mathfrak{G}} f.
 $$
-For every cluster point of the filter base $f(\mathscr{G})$ is a cluster point of the filter base $f_A(\mathscr{G}_A)$, and conversely.
+For every cluster point of the filter base $f(\mathfrak{G})$ is a cluster point of the filter base $f_A(\mathfrak{G}_A)$, and conversely.
 
-For this reason, if $f$ is defined only on a subset $A$ of $X$ belonging to $\mathscr{G}$, we shall often write $\limsup_{\mathscr{G}} f$ instead of $\limsup_{\mathscr{G}_A} f_A$, by abuse of language.
+For this reason, if $f$ is defined only on a subset $A$ of $X$ belonging to $\mathfrak{G}$, we shall often write $\limsup_{\mathfrak{G}} f$ instead of $\limsup_{\mathfrak{G}_A} f_A$, by abuse of language.
 
 #### Proposition 11 {#top-iv-s5-prop-11 .statement}
 
@@ -355,13 +355,13 @@ $$
 
 This is an immediate consequence of the relations (12).
 
-When $X$ is a topological space and $\mathscr{G}$ is the neighbourhood filter of a point $a$ of $X$, we write $\limsup_{x \to a} f(x)$ [resp. $\liminf_{x \to a} f(x)$] in place of $\limsup_{\mathscr{G}} f$ [resp. $\liminf_{\mathscr{G}} f$]; clearly we have
+When $X$ is a topological space and $\mathfrak{G}$ is the neighbourhood filter of a point $a$ of $X$, we write $\limsup_{x \to a} f(x)$ [resp. $\liminf_{x \to a} f(x)$] in place of $\limsup_{\mathfrak{G}} f$ [resp. $\liminf_{\mathfrak{G}} f$]; clearly we have
 
 $$
 \liminf_{x \to a} f(x) \leq f(a) \leq \limsup_{x \to a} f(x).
 $$
 
-More generally, if $X$ is a subspace of a topological space $Y$, and if $\mathscr{G}$ is the trace on $X$ of the neighbourhood filter of a point $a \in \overline{X}$, we write $\limsup_{x \to a, x \in X} f(x)$ [resp. $\liminf_{x \to a, x \in X} f(x)$] instead of $\limsup_{\mathscr{G}} f$ [resp. $\liminf_{\mathscr{G}} f$] ; $\limsup$ is called the upper limit of $f(x)$ as $x$ tends to $a$ while remaining in $X$. If $X$ is the complement of $\{a\}$ we write "x \neq a" in place of "x \in X" in these notations.
+More generally, if $X$ is a subspace of a topological space $Y$, and if $\mathfrak{G}$ is the trace on $X$ of the neighbourhood filter of a point $a \in \overline{X}$, we write $\limsup_{x \to a, x \in X} f(x)$ [resp. $\liminf_{x \to a, x \in X} f(x)$] instead of $\limsup_{\mathfrak{G}} f$ [resp. $\liminf_{\mathfrak{G}} f$] ; $\limsup$ is called the upper limit of $f(x)$ as $x$ tends to $a$ while remaining in $X$. If $X$ is the complement of $\{a\}$ we write "x \neq a" in place of "x \in X" in these notations.
 
 If $A$ is a subset of $X$ such that $a \in \overline{A}$, then (Corollary 2 to Theorem 3)
 
@@ -377,7 +377,7 @@ $$
 
 Hence the notions of upper and lower limits at a point of a topological space are, like the notion of limit, of local character.
 
-Finally, if $\mathscr{G}$ is the Fréchet filter on $\mathbf{N}$, the upper (resp. lower) limit, with respect to $\mathscr{G}$, of the mapping $n \to u_n$ of $\mathbf{N}$ into $\overline{\mathbf{R}}$ is denoted by $\limsup_{n \to \infty} u_n$ (resp. $\liminf_{n \to \infty} u_n$) and is called the upper (resp. lower) limit of the sequence of real numbers $u_n$.
+Finally, if $\mathfrak{G}$ is the Fréchet filter on $\mathbf{N}$, the upper (resp. lower) limit, with respect to $\mathfrak{G}$, of the mapping $n \to u_n$ of $\mathbf{N}$ into $\overline{\mathbf{R}}$ is denoted by $\limsup_{n \to \infty} u_n$ (resp. $\liminf_{n \to \infty} u_n$) and is called the upper (resp. lower) limit of the sequence of real numbers $u_n$.
 
 The relation $\limsup_{n \to \infty} u_n = a \in \mathbf{R}$ is therefore equivalent to the following : given any $\varepsilon > 0$ there exists an integer $n_0$ such that, for each $n \geq n_0$ we have $u_n \leq a + \varepsilon$, and for an infinity of values of $n$ we have $u_n \geq a - \varepsilon$. The definition of the upper limit of a sequence may be translated similarly when its value is $+\infty$ or $-\infty$.
 
@@ -400,7 +400,7 @@ Again, if $1/f(x)$ is defined for all $x \in X$, then $1/f$ denotes the function
 
 This last function is therefore defined provided $f$ does not take the value 0; when $f$ takes its values in the interval $[0, +\infty]$ (resp. in $[-\infty, 0]$) $1/f(x)$ as everywhere defined by putting $1/0 = +\infty$ (resp. $1/0 = -\infty$); in this case the function $1/f$ is defined.
 
-Suppose that $X$ is filtered by a filter $\mathscr{F}$, and that $\lim_{\mathscr{F}} f$ and $\lim_{\mathscr{F}} g$ exist. If on the one hand the function $f + g$ (resp. $fg$, $1/g$) is defined, and if on the other hand the expression $\lim_{\mathscr{F}} f + \lim_{\mathscr{F}} g$ (resp. $\lim_{\mathscr{F}} f \cdot \lim_{\mathscr{F}} g$, $1/\lim_{\mathscr{F}} f$) has a sense, then $\lim_{\mathscr{F}} (f + g)$ [resp. $\lim_{\mathscr{F}} fg$, $\lim_{\mathscr{F}} (1/f)$] exists and is equal to this expression by reason of the continuity of the function $x + y$ (resp. $xy$, $1/x$) at points where it is defined.
+Suppose that $X$ is filtered by a filter $\mathfrak{F}$, and that $\lim_{\mathfrak{F}} f$ and $\lim_{\mathfrak{F}} g$ exist. If on the one hand the function $f + g$ (resp. $fg$, $1/g$) is defined, and if on the other hand the expression $\lim_{\mathfrak{F}} f + \lim_{\mathfrak{F}} g$ (resp. $\lim_{\mathfrak{F}} f \cdot \lim_{\mathfrak{F}} g$, $1/\lim_{\mathfrak{F}} f$) has a sense, then $\lim_{\mathfrak{F}} (f + g)$ [resp. $\lim_{\mathfrak{F}} fg$, $\lim_{\mathfrak{F}} (1/f)$] exists and is equal to this expression by reason of the continuity of the function $x + y$ (resp. $xy$, $1/x$) at points where it is defined.
 
 #### Proposition 12 {#top-iv-s5-prop-12 .statement}
 

@@ -21,7 +21,7 @@ subsections:
       pdf_page: 177
 statements: 14
 exercises: 5
-content_sha256: d3a7dfbc683acc0549be276cb7389642c26562ad3377848bc4a96958120076e3
+content_sha256: df8b1b37f395ac3c5d1008e4d4fc570f5c2a15ab4b3d31df11f6bf3e7fb02c5b
 ---
 
 ## 1. UNIFORM SPACES
@@ -30,17 +30,17 @@ content_sha256: d3a7dfbc683acc0549be276cb7389642c26562ad3377848bc4a96958120076e3
 
 #### Definition 1 {#top-ii-s1-def-1 .statement}
 
-*A uniform structure* (or *uniformity*) *on a set* $X$ *is a structure given by a set* $\mathscr{U}$ *of subsets of* $X \times X$ *which satisfies axioms* $(\mathrm{F}_1)$ *and* $(\mathrm{F}_{\mathrm{II}})$ *of Chapter I, § 6, no. 1 and also satisfies the following axioms*:
+*A uniform structure* (or *uniformity*) *on a set* $X$ *is a structure given by a set* $\mathfrak{U}$ *of subsets of* $X \times X$ *which satisfies axioms* $(\mathrm{F}_1)$ *and* $(\mathrm{F}_{\mathrm{II}})$ *of Chapter I, § 6, no. 1 and also satisfies the following axioms*:
 
-(U₁) *Every set belonging to* $\mathscr{U}$ *contains the diagonal* $\Delta$.
+(U₁) *Every set belonging to* $\mathfrak{U}$ *contains the diagonal* $\Delta$.
 
-(U₂) *If* $V \in \mathscr{U}$ *then* $\overline{V}^{-1} \in \mathscr{U}$.
+(U₂) *If* $V \in \mathfrak{U}$ *then* $\overline{V}^{-1} \in \mathfrak{U}$.
 
-(U₃) *For each* $V \in \mathscr{U}$ *there exists* $W \in \mathscr{U}$ *such that* $W \circ W \subset V$.
+(U₃) *For each* $V \in \mathfrak{U}$ *there exists* $W \in \mathfrak{U}$ *such that* $W \circ W \subset V$.
 
 ![Figure 2](../images/chapter_ii_uniform_structures.png)
 
-The sets of $\mathscr{U}$ are called entourages of the uniformity defined on $X$ by $\mathscr{U}$. A set endowed with a uniformity is called a uniform space.
+The sets of $\mathfrak{U}$ are called entourages of the uniformity defined on $X$ by $\mathfrak{U}$. A set endowed with a uniformity is called a uniform space.
 
 If $V$ is an entourage of a uniformity on $X$, we may express the relation $(x, x') \in V$ by saying that "$x$ and $x'$ are $V$-close".
 
@@ -54,31 +54,31 @@ R $\{ x, y \}$ is true whenever $x$ and $y$ are close enough if there is an ento
 
 The conjunction of axioms (U_{II}) and (U_{III}) is equivalent (assuming the other axioms of uniform structures) to the following axiom:
 
-(U_a) For each $V \in \mathscr{U}$ there exists $W \in \mathscr{U}$ such that $W \circ \overline{W} \subset V$ (*).
+(U_a) For each $V \in \mathfrak{U}$ there exists $W \in \mathfrak{U}$ such that $W \circ \overline{W} \subset V$ (*).
 
-Clearly (U_{II}) and (U_{III}) imply (U_a). Conversely, if (U_a) is satisfied we have $\overline{W} = \Delta \circ W \subset V$, by (U_I); hence $W \subset \overline{V}$ and therefore [by (F_1)] $\overline{V} \in \mathscr{U}$. Let $W' = W \cap \overline{W}$; then $W' \in \mathscr{U}$ by what has just been proved and axiom (F_{II}), and we have $W' \circ W' \subset W \circ \overline{W} \subset V$.
+Clearly (U_{II}) and (U_{III}) imply (U_a). Conversely, if (U_a) is satisfied we have $\overline{W} = \Delta \circ W \subset V$, by (U_I); hence $W \subset \overline{V}$ and therefore [by (F_1)] $\overline{V} \in \mathfrak{U}$. Let $W' = W \cap \overline{W}$; then $W' \in \mathfrak{U}$ by what has just been proved and axiom (F_{II}), and we have $W' \circ W' \subset W \circ \overline{W} \subset V$.
 
 Throughout this chapter we shall write $\overline{V}^2$ instead of $V \circ V$, and in general $\overline{V}^{n-1} = \overline{V} \circ V = V \circ \overline{V}^{n-1}$, for each integer $n > 1$ and each subset $V$ of $X \times X$.
 
 #### Remark 3 {#top-ii-s1-n1-rem-3 .statement}
 
-If $X$ is not empty, then axiom (U_I) implies that no set of $\mathscr{U}$ is empty, and therefore $\mathscr{U}$ is a filter on $X \times X$. There is only one uniformity on the empty set, namely $\mathscr{U} = \{ \emptyset \}$.
+If $X$ is not empty, then axiom (U_I) implies that no set of $\mathfrak{U}$ is empty, and therefore $\mathfrak{U}$ is a filter on $X \times X$. There is only one uniformity on the empty set, namely $\mathfrak{U} = \{ \emptyset \}$.
 
 #### Definition 2 {#top-ii-s1-def-2 .statement}
 
-A fundamental system of entourages of a uniformity is any set $\mathscr{B}$ of entourages such that every entourage contains a set belonging to $\mathscr{B}$.
+A fundamental system of entourages of a uniformity is any set $\mathfrak{B}$ of entourages such that every entourage contains a set belonging to $\mathfrak{B}$.
 
 Axiom (U_{III}) shows that if $n$ is any integer $> 0$ and $V$ runs through a fundamental system of entourages, then the sets $\overline{V}^n$ again form a fundamental system of entourages.
 
 Entourages $V$ such that $V = \overline{V}^1$ are called symmetric. If $V$ is any entourage, then $V \cap \overline{V}^1$ and $V \cup \overline{V}^1$ are symmetric entourages, and axioms (F_{II}) and (U_{II}) show that the symmetric entourages form a fundamental system of entourages.
 
-A set $\mathscr{B}$ of subsets of $X \times X$ is a fundamental system of entourages of a uniformity on $X$ if and only if $\mathscr{B}$ satisfies axiom (B_I) of Chapter I, § 6, no. 3, and also satisfies the following axioms:
+A set $\mathfrak{B}$ of subsets of $X \times X$ is a fundamental system of entourages of a uniformity on $X$ if and only if $\mathfrak{B}$ satisfies axiom (B_I) of Chapter I, § 6, no. 3, and also satisfies the following axioms:
 
-(U'_I) Every set of $\mathscr{B}$ contains the diagonal $\Delta$.
+(U'_I) Every set of $\mathfrak{B}$ contains the diagonal $\Delta$.
 
-(U'_II) For each $V \in \mathscr{B}$ there exists $V' \in \mathscr{B}$ such that $V' \subset \overline{V}^1$.
+(U'_II) For each $V \in \mathfrak{B}$ there exists $V' \in \mathfrak{B}$ such that $V' \subset \overline{V}^1$.
 
-(U'_III) For each $V \in \mathscr{B}$ there exists $W \in \mathscr{B}$ such that $\overline{W}^2 \subset V$.
+(U'_III) For each $V \in \mathfrak{B}$ there exists $W \in \mathfrak{B}$ such that $\overline{W}^2 \subset V$.
 
 If $X$ is not empty, a fundamental system of entourages of a uniform structure on $X$ is a base of the filter formed by the entourages of this structure (Chapter I, § 6, no. 3, Proposition 3).
 
@@ -96,17 +96,17 @@ For example, if $X$ and $X'$ are two equipotent sets, then every bijection of $X
 
 #### Proposition 1 {#top-ii-s1-prop-1 .statement}
 
-*Let $X$ be a set endowed with a uniform structure $U$, and for each $x \in X$ let $\mathscr{B}(x)$ be the set of subsets $V(x)$ of $X (*)$, where $V$ runs through the set of entourages of $U$. Then there is a unique topology on $X$ such that, for each $x \in X$, $\mathscr{B}(x)$ is the neighbourhood filter of $x$ in this topology.*
+*Let $X$ be a set endowed with a uniform structure $U$, and for each $x \in X$ let $\mathfrak{B}(x)$ be the set of subsets $V(x)$ of $X (*)$, where $V$ runs through the set of entourages of $U$. Then there is a unique topology on $X$ such that, for each $x \in X$, $\mathfrak{B}(x)$ is the neighbourhood filter of $x$ in this topology.*
 
-We have to show that the $\mathscr{B}(x)$ satisfy conditions (V_I), (V_{II}), (V_{III}) and (V_{IV}) of Chapter I, § 1, no. 2. That this is so for the first three of
+We have to show that the $\mathfrak{B}(x)$ satisfy conditions (V_I), (V_{II}), (V_{III}) and (V_{IV}) of Chapter I, § 1, no. 2. That this is so for the first three of
 
 (*) We recall (*Set Theory, R, § 3, no. 7*) that if $V$ is any subset of $X \times X$ and $x$ is any element of $X$, then $V(x)$ denotes the set of all $y \in X$ such that $(x, y) \in V$.
 
-these conditions follows immediately from the fact that the entourages of $\mathscr{U}$ satisfy $(\mathbf{F}_I),\ (\mathbf{F}_{II})$ and $(\mathbf{U}_I)$. As to $(\mathbf{V}_{IV})$, let $V$ be an entourage of $\mathscr{U}$, $W$ an entourage of $\mathscr{U}$ such that $\dot{W} \subset V$; then if $(x, y) \in W$ and $(y, z) \in W$ we have $(x, z) \in V$, so that $W(y) \subset V(x)$ for all $y \in W(x)$, and therefore $V(x) \in \mathfrak{B}(y)$ for all $y \in W(x)$. This completes the proof.
+these conditions follows immediately from the fact that the entourages of $\mathfrak{U}$ satisfy $(\mathbf{F}_I),\ (\mathbf{F}_{II})$ and $(\mathbf{U}_I)$. As to $(\mathbf{V}_{IV})$, let $V$ be an entourage of $\mathfrak{U}$, $W$ an entourage of $\mathfrak{U}$ such that $\dot{W} \subset V$; then if $(x, y) \in W$ and $(y, z) \in W$ we have $(x, z) \in V$, so that $W(y) \subset V(x)$ for all $y \in W(x)$, and therefore $V(x) \in \mathfrak{B}(y)$ for all $y \in W(x)$. This completes the proof.
 
 #### Definition 3 {#top-ii-s1-def-3 .statement}
 
-*The topology defined in Proposition 1 is called the topology induced by the uniform structure $\mathscr{U}$.*
+*The topology defined in Proposition 1 is called the topology induced by the uniform structure $\mathfrak{U}$.*
 
 #### Example 1 {#top-ii-s1-n2-exa-1 .statement}
 
@@ -171,7 +171,7 @@ If $x$ is any point of $X$ and $V$ runs through the entourages of $X$ which are 
 
 The latter statement follows immediately from Corollary 3 to Proposition 2. We have seen that the closed entourages form a fundamental system of entourages (Proposition 2, Corollary 2); if their intersection is $\Delta$, then $\Delta$ is closed in $X \times X$ and consequently $X$ is Hausdorff (Chapter I, § 8, no. 1, Proposition 1). Conversely, if $X$ is Hausdorff then for every point $(x, y) \notin \Delta$ there is an entourage $V$ of $X$ such that $y \notin V(x)$, or equivalently $(x, y) \notin V$; hence $\Delta$ is the intersection of all the entourages.
 
-If a uniform space $X$ is Hausdorff, we say that the uniform structure of $X$ is *Hausdorff*. If $\mathscr{B}$ is a fundamental system of entourages for this structure; then $X$ is Hausdorff if and only if the intersection of all the sets of $\mathscr{B}$ is $\Delta$.
+If a uniform space $X$ is Hausdorff, we say that the uniform structure of $X$ is *Hausdorff*. If $\mathfrak{B}$ is a fundamental system of entourages for this structure; then $X$ is Hausdorff if and only if the intersection of all the sets of $\mathfrak{B}$ is $\Delta$.
 
 ### Exercises {#top-ii-s1-exercises}
 

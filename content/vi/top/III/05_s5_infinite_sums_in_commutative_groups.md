@@ -60,7 +60,7 @@ Cho $G$ là một nhóm giao hoán Hausdorff, cho $I$ là một tập chỉ số
 
 #### Định nghĩa 1 {#top-iii-s5-def-1 .statement}
 
-Cho $(x_i)_{i \in I}$ là một họ các điểm của một nhóm giao hoán Hausdorff $G$; gọi $\mathscr{F}(I)$ là tập hợp các tập con hữu hạn của tập hợp chỉ số $I$, và với mỗi tập con hữu hạn $J$ của $I$, gọi $s_J$ là tổng của các $x_i$ sao cho $i \in J$. Họ $(x_i)_{i \in I}$ được gọi là khả tổng nếu ánh xạ $J \to s_J$ có một giới hạn đối với bộ lọc tiết diện $\Phi$ của tập hợp $\mathscr{F}(I)$ có hướng bởi quan hệ $\subset$; khi đó giới hạn này được gọi là tổng của họ $(x_i)_{i \in I}$ và được ký hiệu là $\sum_{i \in I} x_i$ (hoặc đơn giản là $\sum_i x_i$, hay thậm chí $\sum x_i$, khi không có nguy cơ nhập nhằng).
+Cho $(x_i)_{i \in I}$ là một họ các điểm của một nhóm giao hoán Hausdorff $G$; gọi $\mathfrak{F}(I)$ là tập hợp các tập con hữu hạn của tập hợp chỉ số $I$, và với mỗi tập con hữu hạn $J$ của $I$, gọi $s_J$ là tổng của các $x_i$ sao cho $i \in J$. Họ $(x_i)_{i \in I}$ được gọi là khả tổng nếu ánh xạ $J \to s_J$ có một giới hạn đối với bộ lọc tiết diện $\Phi$ của tập hợp $\mathfrak{F}(I)$ có hướng bởi quan hệ $\subset$; khi đó giới hạn này được gọi là tổng của họ $(x_i)_{i \in I}$ và được ký hiệu là $\sum_{i \in I} x_i$ (hoặc đơn giản là $\sum_i x_i$, hay thậm chí $\sum x_i$, khi không có nguy cơ nhập nhằng).
 
 Định nghĩa 1 tương đương với phát biểu sau: *họ* $(x_i)$ *là khả tổng và tổng của nó là* $s$ *nếu, với mỗi lân cận* $V$ *của phần tử không trong* $G$, *tồn tại một tập con hữu hạn* $J_0$ *của* $I$ *sao cho với mỗi tập con hữu hạn* $J \supset J_0$ *của* $I$ *ta có* $s_J \in s + V$.
 
@@ -264,7 +264,7 @@ Thật vậy, dãy các tổng riêng của chuỗi $(u_n)$ là một *dãy con*
 
 ### 7. CHUỖI HỘI TỤ GIAO HOÁN
 
-Cho $(x_n)$ là một dãy *khả tổng* trong $G$, và đặt $s = \sum_{n \in \mathbf{N}} x_n$ là tổng của nó. Khi đó với mỗi lân cận $V$ của 0, tồn tại $J_0 \in \mathscr{F}(\mathbf{N})$ sao cho $s_J \in s + V$ mỗi khi $J \in \mathscr{F}(\mathbf{N})$ và $J_0 \subset J$. Gọi $m$ là số nguyên lớn nhất trong $J_0$; khi đó nếu $n \geqslant m$ thì ta có $s_n \in s + V$, và do đó *chuỗi* $(x_n)$ hội tụ và tổng của nó là $s$. Nhưng đảo lại là *sai*:
+Cho $(x_n)$ là một dãy *khả tổng* trong $G$, và đặt $s = \sum_{n \in \mathbf{N}} x_n$ là tổng của nó. Khi đó với mỗi lân cận $V$ của 0, tồn tại $J_0 \in \mathfrak{F}(\mathbf{N})$ sao cho $s_J \in s + V$ mỗi khi $J \in \mathfrak{F}(\mathbf{N})$ và $J_0 \subset J$. Gọi $m$ là số nguyên lớn nhất trong $J_0$; khi đó nếu $n \geqslant m$ thì ta có $s_n \in s + V$, và do đó *chuỗi* $(x_n)$ hội tụ và tổng của nó là $s$. Nhưng đảo lại là *sai*:
 
 Hơn nữa, định nghĩa của một chuỗi hội tụ về bản chất có liên quan đến cấu trúc thứ tự của $\mathbf{N}$. Nếu chuỗi $(x_n)$ hội tụ, và nếu $\sigma$ là một phép hoán vị của $\mathbf{N}$, thì chuỗi $(x_{\sigma(n)})$ không nhất thiết hội tụ (xem Chương IV, § 7, Bài tập 15).
 

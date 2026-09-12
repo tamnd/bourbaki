@@ -172,9 +172,9 @@ Cho $X = \prod_{i \in I} X_i$ là một tích các không gian tôpô. Khi đó 
 
 #### Hệ quả 1 {#top-i-s8-prop-7-cor-1 .statement}
 
-*Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian tôpô Hausdorff, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Trang bị cho $X$ tôpô thô nhất $\mathscr{T}$ sao cho các $f_i$ đều liên tục. Khi đó, điều kiện cần và đủ để $X$ là Hausdorff là với mỗi cặp điểm phân biệt $x, y$ của $X$ ta có $f_i(x) \neq f_i(y)$ đối với một chỉ số $i \in I$ nào đó.*
+*Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian tôpô Hausdorff, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Trang bị cho $X$ tôpô thô nhất $\mathfrak{T}$ sao cho các $f_i$ đều liên tục. Khi đó, điều kiện cần và đủ để $X$ là Hausdorff là với mỗi cặp điểm phân biệt $x, y$ của $X$ ta có $f_i(x) \neq f_i(y)$ đối với một chỉ số $i \in I$ nào đó.*
 
-Điều kiện là đủ do Mệnh đề 5 của no. 1. Ngược lại, giả sử $X$ là Hausdorff; đặt $Y = \prod_{i \in I} Y_i$ và $f = (f_i)_{i \in I}$ là ánh xạ $x \to (f_i(x))$. Theo Mệnh đề 7 ở trên, $Y$ là Hausdorff, và theo Mệnh đề 3 của § 4, no. 1, $\mathscr{T}$ là ảnh ngược theo $f$ của tôpô của $Y$. Nếu $f(x) = f(y)$ với hai điểm phân biệt $x, y$ của $X$ thì hiển nhiên mọi tập mở (trong tôpô $\mathscr{T}$) chứa $x$ cũng chứa $y$, trái với giả thiết rằng $X$ là Hausdorff.
+Điều kiện là đủ do Mệnh đề 5 của no. 1. Ngược lại, giả sử $X$ là Hausdorff; đặt $Y = \prod_{i \in I} Y_i$ và $f = (f_i)_{i \in I}$ là ánh xạ $x \to (f_i(x))$. Theo Mệnh đề 7 ở trên, $Y$ là Hausdorff, và theo Mệnh đề 3 của § 4, no. 1, $\mathfrak{T}$ là ảnh ngược theo $f$ của tôpô của $Y$. Nếu $f(x) = f(y)$ với hai điểm phân biệt $x, y$ của $X$ thì hiển nhiên mọi tập mở (trong tôpô $\mathfrak{T}$) chứa $x$ cũng chứa $y$, trái với giả thiết rằng $X$ là Hausdorff.
 
 #### Hệ quả 2 {#top-i-s8-prop-7-cor-2 .statement}
 

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 90
 statements: 30
 exercises: 25
-content_sha256: b0d397c992c50cf072295c2b9fa117d8a3c77991ae554fbdaacd37918183da76
+content_sha256: db18d9b6b12ac2d93629607a636935fa7ffdbf28b42228f394766699c9dbe74f
 ---
 
 ## § 10. APPLICATIONS PROPRES
@@ -146,7 +146,7 @@ Soit $X$ un espace topologique tel que l’application constante $X \to P$ soit 
 
 (Nous verrons un peu plus loin (I, p. 76, cor. 1) que cette propriété caractérise les espaces quasi-compacts.)
 
-On peut se borner au cas où $X$ est non vide. Soient $\mathscr{F}$ un filtre sur $X$, $X' = X \cup \{ \omega \}$ l’espace topologique associé à $\mathscr{F}$ (I, p. 40, Exemple). Soient $\Delta$ la partie de $X \times X'$ formée des couples $(x, x)$, où $x$ parcourt $X$, et $F = \overline{\Delta}$ l’adhérence de $\Delta$ dans $X \times X'$. Vu l’hypothèse faite sur $X$, l’image de $F$ par la projection $X \times X' \to X'$ est fermée dans $X'$; comme cette image contient $X$, elle contient nécessairement $\omega$, qui est adhérent à $X$; autrement dit, il existe $x \in X$ tel que $(x, \omega) \in F$. Par définition de la topologie de $X \times X'$, cela signifie que pour tout voisinage $V$ de $x$ dans $X$ et tout ensemble $M \in \mathscr{F}$, on a $(V \times M) \cap \Delta \neq \varnothing$, c’est-à-dire $V \cap M \neq \varnothing$; en d’autres termes, $x$ est adhérent au filtre $\mathscr{F}$.
+On peut se borner au cas où $X$ est non vide. Soient $\mathfrak{F}$ un filtre sur $X$, $X' = X \cup \{ \omega \}$ l’espace topologique associé à $\mathfrak{F}$ (I, p. 40, Exemple). Soient $\Delta$ la partie de $X \times X'$ formée des couples $(x, x)$, où $x$ parcourt $X$, et $F = \overline{\Delta}$ l’adhérence de $\Delta$ dans $X \times X'$. Vu l’hypothèse faite sur $X$, l’image de $F$ par la projection $X \times X' \to X'$ est fermée dans $X'$; comme cette image contient $X$, elle contient nécessairement $\omega$, qui est adhérent à $X$; autrement dit, il existe $x \in X$ tel que $(x, \omega) \in F$. Par définition de la topologie de $X \times X'$, cela signifie que pour tout voisinage $V$ de $x$ dans $X$ et tout ensemble $M \in \mathfrak{F}$, on a $(V \times M) \cap \Delta \neq \varnothing$, c’est-à-dire $V \cap M \neq \varnothing$; en d’autres termes, $x$ est adhérent au filtre $\mathfrak{F}$.
 
 C.Q.F.D.
 
@@ -158,17 +158,17 @@ a) $f$ est propre.
 
 b) $f$ est fermée, et pour tout $y \in Y, f^{-1}(y)$ est quasi-compact.
 
-c) Si $\mathscr{F}$ est un filtre sur $X$ et si $y \in Y$ est adhérent à $f(\mathscr{F})$, il existe un point $x \in X$ adhérent à $\mathscr{F}$ et tel que $f(x) = y$.
+c) Si $\mathfrak{F}$ est un filtre sur $X$ et si $y \in Y$ est adhérent à $f(\mathfrak{F})$, il existe un point $x \in X$ adhérent à $\mathfrak{F}$ et tel que $f(x) = y$.
 
-d) Si $\mathscr{U}$ est un ultrafiltre sur $X$, et si $y \in Y$ est un point limite de la base d’ultrafiltre $f(\mathscr{U})$, il existe un point limite $x$ de $\mathscr{U}$ tel que $f(x) = y$.
+d) Si $\mathfrak{U}$ est un ultrafiltre sur $X$, et si $y \in Y$ est un point limite de la base d’ultrafiltre $f(\mathfrak{U})$, il existe un point limite $x$ de $\mathfrak{U}$ tel que $f(x) = y$.
 
 a) entraîne b): En effet, si $f$ est propre, $f$ est fermée (I, p. 72, prop. 1) et pour tout $y \in Y$, l’application $f_{\{y\}} : f(y) \to \{y\}$ est propre (I, p. 72, prop. 3 a)). D’après le lemme 1, cela implique que $f^{-1}(y)$ est quasi-compact.
 
-b) entraîne c): Supposons que $\mathscr{F}$ et $y$ vérifient les hypothèses de c) et soit $\mathscr{B}$ la base de filtre sur $X$ formée des adhérences des ensembles de $\mathscr{F}$. Puisque $f$ est fermée, $f(\overline{M}) = \overline{f(M)}$ pour $M \in \mathscr{F}$ (I, p. 35, prop. 9). Cela prouve que les ensembles $\overline{M} \cap f^{-1}(y)$ sont non vides pour $M \in \mathscr{F}$, et forment par suite une base de filtre sur $f^{-1}(y)$ composée d’ensembles fermés dans $f^{-1}(y)$. Comme $f^{-1}(y)$ est quasi-compact, il existe $x \in f^{-1}(y)$ appartenant à tous les $\overline{M}$ pour $M \in \mathscr{F}$; on a $f(x) = y$ et $x$ est adhérent à $\mathscr{F}$.
+b) entraîne c): Supposons que $\mathfrak{F}$ et $y$ vérifient les hypothèses de c) et soit $\mathfrak{B}$ la base de filtre sur $X$ formée des adhérences des ensembles de $\mathfrak{F}$. Puisque $f$ est fermée, $f(\overline{M}) = \overline{f(M)}$ pour $M \in \mathfrak{F}$ (I, p. 35, prop. 9). Cela prouve que les ensembles $\overline{M} \cap f^{-1}(y)$ sont non vides pour $M \in \mathfrak{F}$, et forment par suite une base de filtre sur $f^{-1}(y)$ composée d’ensembles fermés dans $f^{-1}(y)$. Comme $f^{-1}(y)$ est quasi-compact, il existe $x \in f^{-1}(y)$ appartenant à tous les $\overline{M}$ pour $M \in \mathfrak{F}$; on a $f(x) = y$ et $x$ est adhérent à $\mathfrak{F}$.
 
 c) implique d) trivialement.
 
-d) entraîne que $f$ est fermée. En effet, soit $A$ une partie fermée non vide de $X$, et soit $\mathscr{F}$ le filtre des parties de $X$ contenant $A$; $A$ est alors l’ensemble des points adhérents à $\mathscr{F}$. Soit $B$ l’ensemble des points adhérents au filtre de base $f(\mathscr{F})$ sur $Y$; $B$ est fermé et contient évidemment $f(A)$; nous allons voir que $B = f(A)$, ce qui prouvera notre assertion. Soit $y \in B$ et soit $\mathscr{V}$ le filtre des voisinages de $y$ dans $Y$; par hypothèse, tout ensemble de $\mathscr{W} = f^{-1}(\mathscr{V})$ rencontre tout ensemble de $\mathscr{F}$, donc $\mathfrak{W}$ est une base de filtre sur $X$ et il y a un ultrafiltre $\mathscr{U}$ sur $X$, plus fin que le filtre de base $\mathfrak{W}$ et que $\mathfrak{F}$ (I, p. 37, cor. 2 et I, p. 39, th. 1). L’ultrafiltre de base $f(\mathscr{U})$ est plus fin que $\mathfrak{V}$, donc converge vers $y$. En vertu de d), il existe $x \in X$ tel que $f(x) = y$ et que $\mathscr{U}$ converge vers $x$; comme $\mathscr{U}$ est plus fin que $\mathfrak{F}$, $x$ est adhérent à $\mathfrak{F}$, donc $x \in A$, ce qui prouve que $B = f(A)$.
+d) entraîne que $f$ est fermée. En effet, soit $A$ une partie fermée non vide de $X$, et soit $\mathfrak{F}$ le filtre des parties de $X$ contenant $A$; $A$ est alors l’ensemble des points adhérents à $\mathfrak{F}$. Soit $B$ l’ensemble des points adhérents au filtre de base $f(\mathfrak{F})$ sur $Y$; $B$ est fermé et contient évidemment $f(A)$; nous allons voir que $B = f(A)$, ce qui prouvera notre assertion. Soit $y \in B$ et soit $\mathfrak{V}$ le filtre des voisinages de $y$ dans $Y$; par hypothèse, tout ensemble de $\mathscr{W} = f^{-1}(\mathfrak{V})$ rencontre tout ensemble de $\mathfrak{F}$, donc $\mathfrak{W}$ est une base de filtre sur $X$ et il y a un ultrafiltre $\mathfrak{U}$ sur $X$, plus fin que le filtre de base $\mathfrak{W}$ et que $\mathfrak{F}$ (I, p. 37, cor. 2 et I, p. 39, th. 1). L’ultrafiltre de base $f(\mathfrak{U})$ est plus fin que $\mathfrak{V}$, donc converge vers $y$. En vertu de d), il existe $x \in X$ tel que $f(x) = y$ et que $\mathfrak{U}$ converge vers $x$; comme $\mathfrak{U}$ est plus fin que $\mathfrak{F}$, $x$ est adhérent à $\mathfrak{F}$, donc $x \in A$, ce qui prouve que $B = f(A)$.
 
 d) entraîne a) : En effet, il faut montrer que si $f$ vérifie d) l’application $f \times \mathrm{Id}_Z$ est fermée pour tout espace topologique $Z$. D’après ce qui précède, il suffit de prouver que $f \times \mathrm{Id}_Z$ vérifie aussi la condition d). Cela résultera du lemme général suivant:
 
@@ -176,7 +176,7 @@ d) entraîne a) : En effet, il faut montrer que si $f$ vérifie d) l’applicati
 
 Si $(f_i)_{i \in I}$ est une famille d’applications continues $f_i : X_i \to Y_i$ dont chacune vérifie la condition d), alors l’application produit $f : (x_i) \mapsto (f_i(x_i))$ vérifie aussi la condition d).
 
-En effet, soit $\mathscr{U}$ un ultrafiltre sur $X = \prod_i X_i$, et soit $y = (y_i)$ un point de $Y = \prod_i Y_i$ tel que $f(\mathscr{U})$ converge vers $y$. Cela signifie que chacune des bases d’ultrafiltre $\mathrm{pr}_i(f(\mathscr{U})) = f_i(\mathrm{pr}_i(\mathscr{U}))$ converge vers $y_i$ (I, p. 51, cor. 1). En vertu de la condition d), il existe pour chaque $i \in I$, un $x_i \in X_i$ tel que $f_i(x_i) = y_i$ et que $\mathrm{pr}_i(\mathscr{U})$ converge vers $x_i$; mais alors $\mathscr{U}$ converge vers $x = (x_i)$ (loc. cit.) et on a $f(x) = y$, ce qui démontre le lemme et achève la démonstration du th. 1.
+En effet, soit $\mathfrak{U}$ un ultrafiltre sur $X = \prod_i X_i$, et soit $y = (y_i)$ un point de $Y = \prod_i Y_i$ tel que $f(\mathfrak{U})$ converge vers $y$. Cela signifie que chacune des bases d’ultrafiltre $\mathrm{pr}_i(f(\mathfrak{U})) = f_i(\mathrm{pr}_i(\mathfrak{U}))$ converge vers $y_i$ (I, p. 51, cor. 1). En vertu de la condition d), il existe pour chaque $i \in I$, un $x_i \in X_i$ tel que $f_i(x_i) = y_i$ et que $\mathrm{pr}_i(\mathfrak{U})$ converge vers $x_i$; mais alors $\mathfrak{U}$ converge vers $x = (x_i)$ (loc. cit.) et on a $f(x) = y$, ce qui démontre le lemme et achève la démonstration du th. 1.
 
 #### Corollaire 1 {#top-i-s10-lem-2-cor-1 .statement}
 
@@ -218,11 +218,11 @@ Soient $X$ un ensemble, $f : X \to X'$ une application surjective de $X$ dans un
 
 Lorsque $Y$ est séparé, la condition d) du th. 1 est équivalente à:
 
-d') Si $\mathscr{U}$ est un ultrafiltre sur $X$ tel que $f(\mathscr{U})$ soit une base de filtre convergente, alors $\mathscr{U}$ est convergent.
+d') Si $\mathfrak{U}$ est un ultrafiltre sur $X$ tel que $f(\mathfrak{U})$ soit une base de filtre convergente, alors $\mathfrak{U}$ est convergent.
 
-En effet, si $\mathscr{U}$ converge vers $x$ et $f(\mathscr{U})$ vers $y$, l’unicité de la limite dans $Y$ et la continuité de $f$ montrent que l’on a nécessairement $y = f(x)$. De même, la condition c) du th. 1 est alors équivalente à:
+En effet, si $\mathfrak{U}$ converge vers $x$ et $f(\mathfrak{U})$ vers $y$, l’unicité de la limite dans $Y$ et la continuité de $f$ montrent que l’on a nécessairement $y = f(x)$. De même, la condition c) du th. 1 est alors équivalente à:
 
-c') Si $\mathscr{F}$ est un filtre sur $X$ tel que $f(\mathscr{F})$ ait un point adhérent, alors $\mathscr{F}$ a un point adhérent.
+c') Si $\mathfrak{F}$ est un filtre sur $X$ tel que $f(\mathfrak{F})$ ait un point adhérent, alors $\mathfrak{F}$ a un point adhérent.
 
 En effet, c) $\Rightarrow$ c') $\Rightarrow$ d') $\Rightarrow$ d) $\Rightarrow$ c).
 

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 296
 statements: 29
 exercises: 18
-content_sha256: 839e9651150603e08092d12967798fa6499cb065c0927fef11e9595eb67243d8
+content_sha256: 652b0ffe9e2e91793eb78947d5ce00d0b2518f68146e6e76088165fce5b471c3
 ---
 
 ## § 5. FONCTIONS NUMÉRIQUES
@@ -66,25 +66,25 @@ Toute fonction bornée est donc finie ; la réciproque est inexacte comme le mon
 
 #### Proposition 1 {#top-iv-s5-prop-1 .statement}
 
-Soient $f$ et $g$ deux fonctions numériques, définies dans un ensemble $E$, filtré par un filtre $\mathscr{F}$. Si $\lim_{\mathscr{F}} f$ et $\lim_{\mathscr{F}} g$ existent, et si, pour toute partie $A \in \mathscr{F}$, il existe $x \in A$ tel que $f(x) \leq g(x)$, on a $\lim_{\mathscr{F}} f \leq \lim_{\mathscr{F}} g$.
+Soient $f$ et $g$ deux fonctions numériques, définies dans un ensemble $E$, filtré par un filtre $\mathfrak{F}$. Si $\lim_{\mathfrak{F}} f$ et $\lim_{\mathfrak{F}} g$ existent, et si, pour toute partie $A \in \mathfrak{F}$, il existe $x \in A$ tel que $f(x) \leq g(x)$, on a $\lim_{\mathfrak{F}} f \leq \lim_{\mathfrak{F}} g$.
 
 Pour établir cette proposition, nous démontrerons l’énoncé suivant, qui lui est équivalent:
 
 #### Proposition 2 {#top-iv-s5-prop-2 .statement}
 
-Soient $f$ et $g$ deux fonctions numériques, définies dans un ensemble $E$, filtré par un filtre $\mathscr{F}$. Si $\lim_{\mathscr{F}} f$ et $\lim_{\mathscr{F}} g$ existent, et si $\lim_{\mathscr{F}} f > \lim_{\mathscr{F}} g$, il existe un ensemble $A \in \mathscr{F}$ tel que, pour tout $x \in A$, $f(x) > g(x)$.
+Soient $f$ et $g$ deux fonctions numériques, définies dans un ensemble $E$, filtré par un filtre $\mathfrak{F}$. Si $\lim_{\mathfrak{F}} f$ et $\lim_{\mathfrak{F}} g$ existent, et si $\lim_{\mathfrak{F}} f > \lim_{\mathfrak{F}} g$, il existe un ensemble $A \in \mathfrak{F}$ tel que, pour tout $x \in A$, $f(x) > g(x)$.
 
-Posons $a = \lim_{\mathscr{F}} f$, $b = \lim_{\mathscr{F}} g$, et soit $c$ tel que $b < c < a$. L’intervalle $]c, +\infty]$ de $\mathbf{R}$ (resp. $(-\infty, c[)$) est un voisinage de $a$ (resp. $b$); il existe donc un ensemble $M \in \mathscr{F}$ (resp. un ensemble $N \in \mathscr{F}$) tel que $f(x) > c$ pour tout $x \in M$ (resp. $g(x) < c$ pour tout $x \in N$); l’ensemble $A = M \cap N$ appartient à $\mathscr{F}$ et on a $f(x) > c > g(x)$ pour tout $x \in A$.
+Posons $a = \lim_{\mathfrak{F}} f$, $b = \lim_{\mathfrak{F}} g$, et soit $c$ tel que $b < c < a$. L’intervalle $]c, +\infty]$ de $\mathbf{R}$ (resp. $(-\infty, c[)$) est un voisinage de $a$ (resp. $b$); il existe donc un ensemble $M \in \mathfrak{F}$ (resp. un ensemble $N \in \mathfrak{F}$) tel que $f(x) > c$ pour tout $x \in M$ (resp. $g(x) < c$ pour tout $x \in N$); l’ensemble $A = M \cap N$ appartient à $\mathfrak{F}$ et on a $f(x) > c > g(x)$ pour tout $x \in A$.
 
 De la prop. 1, on déduit, comme cas particulier, le théorème suivant:
 
 #### Théorème 1 (principe de prolongement des inégalités) {#top-iv-s5-thm-1 .statement}
 
-Soient $f, g$ deux fonctions numériques, définies dans un ensemble $E$, filtré par un filtre $\mathscr{F}$. Si $\lim_{\mathscr{F}} f$ et $\lim_{\mathscr{F}} g$ existent, et si $f \leq g$, on a aussi $\lim_{\mathscr{F}} f \leq \lim_{\mathscr{F}} g$.
+Soient $f, g$ deux fonctions numériques, définies dans un ensemble $E$, filtré par un filtre $\mathfrak{F}$. Si $\lim_{\mathfrak{F}} f$ et $\lim_{\mathfrak{F}} g$ existent, et si $f \leq g$, on a aussi $\lim_{\mathfrak{F}} f \leq \lim_{\mathfrak{F}} g$.
 
 #### Remarque {#top-iv-s5-n2-rem-1 .statement}
 
-Si on a en particulier $f(x) < g(x)$ pour tout $x \in E$ (ou seulement pour tous les points d’un ensemble du filtre $\mathscr{F}$), on peut en conclure, d’après le th. 1, que $\lim_{\mathscr{F}} f \leq \lim_{\mathscr{F}} g$; mais il ne faudrait pas croire qu’on puisse en déduire l’inégalité plus précise $\lim_{\mathscr{F}} f < \lim_{\mathscr{F}} g$. Par exemple, si on prend pour $E$ l’ensemble $\mathbf{N}$ des entiers naturels, filtré par le filtre de Fréchet, et si $f(n) = 0, g(n) = 1/n$, on a $f(n) < g(n)$ quel que soit $n$, mais $\lim_{n \to \infty} f(n) = \lim_{n \to \infty} g(n) = 0$.
+Si on a en particulier $f(x) < g(x)$ pour tout $x \in E$ (ou seulement pour tous les points d’un ensemble du filtre $\mathfrak{F}$), on peut en conclure, d’après le th. 1, que $\lim_{\mathfrak{F}} f \leq \lim_{\mathfrak{F}} g$; mais il ne faudrait pas croire qu’on puisse en déduire l’inégalité plus précise $\lim_{\mathfrak{F}} f < \lim_{\mathfrak{F}} g$. Par exemple, si on prend pour $E$ l’ensemble $\mathbf{N}$ des entiers naturels, filtré par le filtre de Fréchet, et si $f(n) = 0, g(n) = 1/n$, on a $f(n) < g(n)$ quel que soit $n$, mais $\lim_{n \to \infty} f(n) = \lim_{n \to \infty} g(n) = 0$.
 
 D’une manière plus imagée, on peut dire qu’on perd en précision lorsqu’on passe à la limite dans une inégalité stricte.
 
@@ -109,11 +109,11 @@ De même, toute suite d’entiers $(p_n)$ *strictement croissante* converge vers
 
 ### 3. Limites à droite et à gauche d’une fonction d’une variable réelle
 
-Soit $A$ une partie non vide de $\overline{\mathbf{R}}$, et $a \neq -\infty$ un point de $\overline{\mathbf{R}}$ adhérent à l’ensemble $B = A \cap (-\infty, a[$. L’ensemble $B$ est filtrant pour la relation $\leqslant$, et son filtre des sections $\mathscr{F}$ est identique à la *trace* sur $B$ du filtre des voisinages de $a$ dans $\overline{\mathbf{R}}$.
+Soit $A$ une partie non vide de $\overline{\mathbf{R}}$, et $a \neq -\infty$ un point de $\overline{\mathbf{R}}$ adhérent à l’ensemble $B = A \cap (-\infty, a[$. L’ensemble $B$ est filtrant pour la relation $\leqslant$, et son filtre des sections $\mathfrak{F}$ est identique à la *trace* sur $B$ du filtre des voisinages de $a$ dans $\overline{\mathbf{R}}$.
 
 #### Définition 2 {#top-iv-s5-def-2 .statement}
 
-*Soit $f$ une fonction définie dans la partie $A$ de $\overline{\mathbf{R}}$, à valeurs dans un espace topologique $E$. Une limite de $f$ suivant le filtre $\mathscr{F}$, si elle existe, s’appelle limite à gauche de $f$ au point $a$, relativement à $A$, et se note $\lim_{x \to a, x < a, x \in A} f(x)$, ou $f(a-)$ lorsque $E$ est séparé.*
+*Soit $f$ une fonction définie dans la partie $A$ de $\overline{\mathbf{R}}$, à valeurs dans un espace topologique $E$. Une limite de $f$ suivant le filtre $\mathfrak{F}$, si elle existe, s’appelle limite à gauche de $f$ au point $a$, relativement à $A$, et se note $\lim_{x \to a, x < a, x \in A} f(x)$, ou $f(a-)$ lorsque $E$ est séparé.*
 
 On définit de même, lorsque $a \neq +\infty$ est adhérent à l’ensemble $A \cap ]a, +\infty]$, une *limite à droite* (si elle existe) de $f$ au point $a$ qu’on note $\lim_{x \to a, x > a, x \in A} f(x)$, ou $f(a+)$ lorsque $E$ est séparé.
 
@@ -150,11 +150,11 @@ Cette relation ramène toutes les propriétés de la borne inférieure à celles
 
 #### Proposition 5 {#top-iv-s5-prop-5 .statement}
 
-Soit $f$ une fonction numérique définie dans un ensemble E. Dans l’ensemble $\mathscr{F}(E)$ des parties finies de E, ordonné filtrant pour la relation $\subset$, la fonction numérique $H \mapsto \sup_{x \in H} f(x)$ est croissante, la fonction numérique $H \mapsto \inf_{x \in H} f(x)$ est décroissante et on a
+Soit $f$ une fonction numérique définie dans un ensemble E. Dans l’ensemble $\mathfrak{F}(E)$ des parties finies de E, ordonné filtrant pour la relation $\subset$, la fonction numérique $H \mapsto \sup_{x \in H} f(x)$ est croissante, la fonction numérique $H \mapsto \inf_{x \in H} f(x)$ est décroissante et on a
 $$
 \begin{cases}
-\sup_{x \in E} f(x) = \lim_{H \in \mathscr{F}(E)} (\sup_{x \in H} f(x)) \\
-\inf_{x \in E} f(x) = \lim_{H \in \mathscr{F}(E)} (\inf_{x \in H} f(x)).
+\sup_{x \in E} f(x) = \lim_{H \in \mathfrak{F}(E)} (\sup_{x \in H} f(x)) \\
+\inf_{x \in E} f(x) = \lim_{H \in \mathfrak{F}(E)} (\inf_{x \in H} f(x)).
 \end{cases}
 $$
 
@@ -162,7 +162,7 @@ Posons $\varphi(H) = \sup_{x \in H} f(x)$; il est clair que $\varphi$ est croiss
 
 En particulier, d’après (1) (IV, p. 19), on a, pour toute partie non vide A de $\overline{\mathbf{R}}$,
 $$
-\sup A = \lim_{H \in \mathscr{F}(A)} (\sup_{x \in H} x).
+\sup A = \lim_{H \in \mathfrak{F}(A)} (\sup_{x \in H} x).
 $$
 
 #### Proposition 6 {#top-iv-s5-prop-6 .statement}
@@ -224,14 +224,14 @@ En outre, si on munit $\overline{\mathbf{R}}^E$ de la *topologie produit* de cel
 
 #### Proposition 10 {#top-iv-s5-prop-10 .statement}
 
-*Dans l’espace produit $\overline{\mathbf{R}}^E$, l’enveloppe supérieure $\sup_i f_i$ d’une famille* de fonctions numériques $(f_i)_{i \in I}$ est la limite, suivant l’ensemble filtrant $\mathscr{F}(I)$ des parties finies de $I$, de l’application $H \mapsto \sup_{i \in H} f_i$ (qui, à tout partie finie $H$ de $I$, fait correspondre l’enveloppe supérieure de la sous-famille finie $(f_i)_{i \in H}$).
+*Dans l’espace produit $\overline{\mathbf{R}}^E$, l’enveloppe supérieure $\sup_i f_i$ d’une famille* de fonctions numériques $(f_i)_{i \in I}$ est la limite, suivant l’ensemble filtrant $\mathfrak{F}(I)$ des parties finies de $I$, de l’application $H \mapsto \sup_{i \in H} f_i$ (qui, à tout partie finie $H$ de $I$, fait correspondre l’enveloppe supérieure de la sous-famille finie $(f_i)_{i \in H}$).
 
 Cela résulte aussitôt de la prop. 5 de IV, p. 20, et de I, p. 51, cor. 2.
 
 On peut donc écrire
 
 $$
-\sup_{i \in I} f_i = \lim_{H \in \mathscr{F}(I)} (\sup_{i \in H} f_i).
+\sup_{i \in I} f_i = \lim_{H \in \mathfrak{F}(I)} (\sup_{i \in H} f_i).
 $$
 
 #### Définition 5 {#top-iv-s5-def-5 .statement}
@@ -242,79 +242,79 @@ Pour que $(f_i)$ soit uniformément majorée dans $E$, il faut et il suffit donc
 
 ### 6. Limite supérieure et limite inférieure d’une fonction numérique suivant un filtre
 
-Soit $f$ une fonction numérique, définie dans un ensemble $E$, filtré par un filtre $\mathscr{G}$. On sait (I, p. 39) que $\mathscr{G}$ est un ensemble ordonné filtrant pour la relation $\supseteq$. Considérons, pour tout ensemble $X \in \mathscr{G}$, le nombre réel $\sup_{x \in X} f(x)$; on définit ainsi une application $X \mapsto \sup_{x \in X} f(x)$ de $\mathscr{G}$ dans $\overline{\mathbf{R}}$, qui est décroissante dans $\mathscr{G}$, d’après la prop. 7 de IV, p. 21. Elle a donc une limite suivant l’ensemble filtrant $\mathscr{G}$, d’après le th. 2 de IV, p. 18.
+Soit $f$ une fonction numérique, définie dans un ensemble $E$, filtré par un filtre $\mathfrak{G}$. On sait (I, p. 39) que $\mathfrak{G}$ est un ensemble ordonné filtrant pour la relation $\supseteq$. Considérons, pour tout ensemble $X \in \mathfrak{G}$, le nombre réel $\sup_{x \in X} f(x)$; on définit ainsi une application $X \mapsto \sup_{x \in X} f(x)$ de $\mathfrak{G}$ dans $\overline{\mathbf{R}}$, qui est décroissante dans $\mathfrak{G}$, d’après la prop. 7 de IV, p. 21. Elle a donc une limite suivant l’ensemble filtrant $\mathfrak{G}$, d’après le th. 2 de IV, p. 18.
 
 #### Définition 6 {#top-iv-s5-def-6 .statement}
 
-On appelle limite supérieure de $f$ suivant le filtre $\mathscr{G}$, et on note $\lim.\sup_{\mathscr{G}} f$, ou $\lim.\sup_{x,\mathscr{G}} f(x)$, la limite de la fonction numérique $X \mapsto \sup_{x \in X} f(x)$ suivant l’ensemble filtrant $\mathscr{G}$.
+On appelle limite supérieure de $f$ suivant le filtre $\mathfrak{G}$, et on note $\lim.\sup_{\mathfrak{G}} f$, ou $\lim.\sup_{x,\mathfrak{G}} f(x)$, la limite de la fonction numérique $X \mapsto \sup_{x \in X} f(x)$ suivant l’ensemble filtrant $\mathfrak{G}$.
 
-On définit de même la limite inférieure de $f$ suivant le filtre $\mathscr{G}$, qu’on note $\lim.\inf_{\mathscr{G}} f$, ou $\lim.\inf_{x,\mathscr{G}} f(x)$.
+On définit de même la limite inférieure de $f$ suivant le filtre $\mathfrak{G}$, qu’on note $\lim.\inf_{\mathfrak{G}} f$, ou $\lim.\inf_{x,\mathfrak{G}} f(x)$.
 
 On a donc, par définition
 
 $$
 \begin{cases}
-\lim.\sup_{\mathscr{G}} f = \lim_{X \in \mathscr{G}} (\sup_{x \in X} f(x)) \\
-\lim.\inf_{\mathscr{G}} f = \lim_{X \in \mathscr{G}} (\inf_{x \in X} f(x)).
+\lim.\sup_{\mathfrak{G}} f = \lim_{X \in \mathfrak{G}} (\sup_{x \in X} f(x)) \\
+\lim.\inf_{\mathfrak{G}} f = \lim_{X \in \mathfrak{G}} (\inf_{x \in X} f(x)).
 \end{cases}
 $$
 
-On se dispense souvent d’indiquer le filtre $\mathscr{G}$ dans les notations, et on écrit simplement $\lim.\sup f$, ou $\lim.\sup_x f(x)$, ou $\lim.\sup f(x)$, lorsqu’il ne peut en résulter de confusion.
+On se dispense souvent d’indiquer le filtre $\mathfrak{G}$ dans les notations, et on écrit simplement $\lim.\sup f$, ou $\lim.\sup_x f(x)$, ou $\lim.\sup f(x)$, lorsqu’il ne peut en résulter de confusion.
 
 D’après les formules (10) et le th. 1 de IV, p. 18, on a
 $$
-\inf_{x \in E} f(x) \leq \lim.\inf_{\mathscr{G}} f \leq \lim.\sup_{\mathscr{G}} f \leq \sup_{x \in E} f(x).
+\inf_{x \in E} f(x) \leq \lim.\inf_{\mathfrak{G}} f \leq \lim.\sup_{\mathfrak{G}} f \leq \sup_{x \in E} f(x).
 $$
 D’après IV, p. 18, th. 2, on peut aussi écrire
 $$
 \begin{cases}
-\lim.\sup_{\mathscr{G}} f = \inf_{X \in \mathscr{G}} (\sup_{x \in X} f(x)) \\
-\lim.\inf_{\mathscr{G}} f = \sup_{X \in \mathscr{G}} (\inf_{x \in X} f(x)).
+\lim.\sup_{\mathfrak{G}} f = \inf_{X \in \mathfrak{G}} (\sup_{x \in X} f(x)) \\
+\lim.\inf_{\mathfrak{G}} f = \sup_{X \in \mathfrak{G}} (\inf_{x \in X} f(x)).
 \end{cases}
 $$
-On peut d’ailleurs remplacer, aux seconds membres des formules (10) et (12), le filtre $\mathscr{G}$ par une quelconque de ses *bases* $\mathfrak{B}$.
+On peut d’ailleurs remplacer, aux seconds membres des formules (10) et (12), le filtre $\mathfrak{G}$ par une quelconque de ses *bases* $\mathfrak{B}$.
 D’après (2) (IV, p. 20) et (10), on a
 $$
-\lim.\inf_{\mathscr{G}} f = -\lim.\sup_{\mathscr{G}} (-f),
+\lim.\inf_{\mathfrak{G}} f = -\lim.\sup_{\mathfrak{G}} (-f),
 $$
 ce qui permet de n’étudier que les propriétés de la limite supérieure.
 
 #### Théorème 3 {#top-iv-s5-thm-3 .statement}
 
-*La limite supérieure d’une fonction numérique $f$ suivant un filtre $\mathscr{G}$ est égale à la plus grande valeur d’adhérence de $f$ suivant $\mathscr{G}$.*
-En effet, soit $b$ une valeur d’adhérence de $f$ suivant $\mathscr{G}$; pour tout $X \in \mathscr{G}$, $b$ est adhérent à $f(X)$, donc $b \leq \sup_{x \in X} f(x)$, ce qui entraîne, d’après (12),
-$b \leq \lim.\sup_{\mathscr{G}} f = a$.
-D’autre part, soit $V$ un voisinage ouvert quelconque du point $a$ dans $\overline{\mathbf{R}}$; il existe $X_0 \in \mathscr{G}$ tel que, pour tout $X \in \mathscr{G}$ contenu dans $X_0$, on ait $\sup_{x \in X} f(x) \in V$; comme $V$ est ouvert, on en déduit que $f(X)$ rencontre $V$; donc $a$ est une *valeur d’adhérence* de $f$ suivant $\mathscr{G}$, ce qui achève la démonstration.
+*La limite supérieure d’une fonction numérique $f$ suivant un filtre $\mathfrak{G}$ est égale à la plus grande valeur d’adhérence de $f$ suivant $\mathfrak{G}$.*
+En effet, soit $b$ une valeur d’adhérence de $f$ suivant $\mathfrak{G}$; pour tout $X \in \mathfrak{G}$, $b$ est adhérent à $f(X)$, donc $b \leq \sup_{x \in X} f(x)$, ce qui entraîne, d’après (12),
+$b \leq \lim.\sup_{\mathfrak{G}} f = a$.
+D’autre part, soit $V$ un voisinage ouvert quelconque du point $a$ dans $\overline{\mathbf{R}}$; il existe $X_0 \in \mathfrak{G}$ tel que, pour tout $X \in \mathfrak{G}$ contenu dans $X_0$, on ait $\sup_{x \in X} f(x) \in V$; comme $V$ est ouvert, on en déduit que $f(X)$ rencontre $V$; donc $a$ est une *valeur d’adhérence* de $f$ suivant $\mathfrak{G}$, ce qui achève la démonstration.
 
 #### Corollaire 1 {#top-iv-s5-thm-3-cor-1 .statement}
 
-*Pour que $\lim.\sup_{\mathscr{G}} f = \lim.\inf_{\mathscr{G}} f$, il faut et il suffit que $f$ ait une limite suivant le filtre $\mathscr{G}$; on a alors*
+*Pour que $\lim.\sup_{\mathfrak{G}} f = \lim.\inf_{\mathfrak{G}} f$, il faut et il suffit que $f$ ait une limite suivant le filtre $\mathfrak{G}$; on a alors*
 $$
-\lim_{\mathscr{G}} f = \lim.\sup_{\mathscr{G}} f = \lim.\inf_{\mathscr{G}} f.
+\lim_{\mathfrak{G}} f = \lim.\sup_{\mathfrak{G}} f = \lim.\inf_{\mathfrak{G}} f.
 $$
-En effet, comme $\overline{\mathbf{R}}$ est compact, pour que la base de filtre $f(\mathscr{G})$ ait un point limite, il faut et il suffit que l’ensemble de ses points adhérents se réduise à un point (I, p. 60, corollaire).
+En effet, comme $\overline{\mathbf{R}}$ est compact, pour que la base de filtre $f(\mathfrak{G})$ ait un point limite, il faut et il suffit que l’ensemble de ses points adhérents se réduise à un point (I, p. 60, corollaire).
 
 #### Corollaire 2 {#top-iv-s5-thm-3-cor-2 .statement}
 
-*Si $\mathfrak{H}$ est un filtre plus fin que $\mathscr{G}$, on a*
+*Si $\mathfrak{H}$ est un filtre plus fin que $\mathfrak{G}$, on a*
 $$
-\lim.\inf_{\mathscr{G}} f \leq \lim.\inf_{\mathfrak{H}} f \leq \lim.\sup_{\mathfrak{H}} f \leq \lim.\sup_{\mathscr{G}} f.
+\lim.\inf_{\mathfrak{G}} f \leq \lim.\inf_{\mathfrak{H}} f \leq \lim.\sup_{\mathfrak{H}} f \leq \lim.\sup_{\mathfrak{G}} f.
 $$
-En effet, toute valeur d’adhérence de $f$ suivant $\mathfrak{H}$ est aussi valeur d’adhérence de $f$ suivant $\mathscr{G}$ (I, p. 49).
+En effet, toute valeur d’adhérence de $f$ suivant $\mathfrak{H}$ est aussi valeur d’adhérence de $f$ suivant $\mathfrak{G}$ (I, p. 49).
 En particulier, si $\lim_{\mathfrak{H}} f$ existe, on a
 $$
-\lim.\inf_{\mathscr{G}} f \leq \lim_{\mathfrak{H}} f \leq \lim.\sup_{\mathscr{G}} f.
+\lim.\inf_{\mathfrak{G}} f \leq \lim_{\mathfrak{H}} f \leq \lim.\sup_{\mathfrak{G}} f.
 $$
 
 #### Corollaire 3 {#top-iv-s5-thm-3-cor-3 .statement}
 
-Soit $A$ un ensemble du filtre $\mathscr{G}$ et soient $\mathscr{G}_A$ le filtre induit sur $A$ par $\mathscr{G}$, $f_A$ la restriction de $f$ à $A$; on a
+Soit $A$ un ensemble du filtre $\mathfrak{G}$ et soient $\mathfrak{G}_A$ le filtre induit sur $A$ par $\mathfrak{G}$, $f_A$ la restriction de $f$ à $A$; on a
 $$
-\limsup_{\mathscr{G}_A} f_A = \limsup_{\mathscr{G}} f.
+\limsup_{\mathfrak{G}_A} f_A = \limsup_{\mathfrak{G}} f.
 $$
-En effet, tout point adhérent à la base de filtre $f(\mathscr{G})$ est adhérent à la base de filtre $f_A(\mathscr{G}_A)$, et réciproquement.
+En effet, tout point adhérent à la base de filtre $f(\mathfrak{G})$ est adhérent à la base de filtre $f_A(\mathfrak{G}_A)$, et réciproquement.
 
-En raison de ce fait, lorsque $f$ n’est définie que sur une partie $A$ de $E$ appartenant à $\mathscr{G}$, on écrit souvent $\limsup_{\mathscr{G}} f$, au lieu de $\limsup_{\mathscr{G}_A} f_A$, par abus de langage.
+En raison de ce fait, lorsque $f$ n’est définie que sur une partie $A$ de $E$ appartenant à $\mathfrak{G}$, on écrit souvent $\limsup_{\mathfrak{G}} f$, au lieu de $\limsup_{\mathfrak{G}_A} f_A$, par abus de langage.
 
 #### Proposition 11 {#top-iv-s5-prop-11 .statement}
 
@@ -328,12 +328,12 @@ $$
 (14)
 C’est une conséquence immédiate des relations (12) (IV, p. 23).
 
-Lorsque $E$ est un espace topologique, et $\mathscr{G}$ le filtre des voisinages d’un point $a$ de $E$, on écrit $\limsup_{x \to a} f(x)$ (resp. $\liminf_{x \to a} f(x)$) au lieu de $\limsup_{\mathscr{G}} f$ (resp. $\liminf_{\mathscr{G}} f$); on a évidemment
+Lorsque $E$ est un espace topologique, et $\mathfrak{G}$ le filtre des voisinages d’un point $a$ de $E$, on écrit $\limsup_{x \to a} f(x)$ (resp. $\liminf_{x \to a} f(x)$) au lieu de $\limsup_{\mathfrak{G}} f$ (resp. $\liminf_{\mathfrak{G}} f$); on a évidemment
 $$
 \liminf_{x \to a} f(x) \leq f(a) \leq \limsup_{x \to a} f(x).
 $$
 (15)
-Plus généralement, lorsque $E$ est un sous-espace d’un espace topologique $F$, et $\mathscr{G}$ la trace sur $E$ du filtre des voisinages d’un point $a \in \overline{E}$, on écrit $\limsup_{x \to a, x \in E} f(x)$ (resp. $\liminf_{x \to a, x \in E} f(x)$) au lieu de $\limsup_{\mathscr{G}} f$ (resp. $\liminf_{\mathscr{G}} f$); on dit que $\limsup_{x \to a, x \in E} f(x)$ est la limite supérieure de $f(x)$ lorsque $x$ tend vers $a$, en restant dans $E$. Lorsque $E$ est le complémentaire de $\{a\}$, on remplace, dans ces notations, « $x \in E$ » par « $x \neq a$ ».
+Plus généralement, lorsque $E$ est un sous-espace d’un espace topologique $F$, et $\mathfrak{G}$ la trace sur $E$ du filtre des voisinages d’un point $a \in \overline{E}$, on écrit $\limsup_{x \to a, x \in E} f(x)$ (resp. $\liminf_{x \to a, x \in E} f(x)$) au lieu de $\limsup_{\mathfrak{G}} f$ (resp. $\liminf_{\mathfrak{G}} f$); on dit que $\limsup_{x \to a, x \in E} f(x)$ est la limite supérieure de $f(x)$ lorsque $x$ tend vers $a$, en restant dans $E$. Lorsque $E$ est le complémentaire de $\{a\}$, on remplace, dans ces notations, « $x \in E$ » par « $x \neq a$ ».
 
 Si $A$ est une partie de $E$ telle que $a \in \overline{A}$, on a (IV, p. 23, cor. 2)
 $$
@@ -345,7 +345,7 @@ $$
 $$
 Autrement dit, les notions de limite inférieure et de limite supérieure, en un point d’un espace topologique, ont, comme celle de limite, un caractère local.
 
-Enfin, lorsque $\mathscr{G}$ est le filtre de Fréchet sur $\mathbf{N}$, la limite supérieure (resp. inférieure) suivant $\mathscr{G}$ de l’application $n \mapsto u_n$ de $\mathbf{N}$ dans $\overline{\mathbf{R}}$ se note $\limsup_{n \to \infty} u_n$ (resp. $\liminf_{n \to \infty} u_n$) et s’appelle limite supérieure (resp. limite inférieure) de la suite de nombres réels $u_n$.
+Enfin, lorsque $\mathfrak{G}$ est le filtre de Fréchet sur $\mathbf{N}$, la limite supérieure (resp. inférieure) suivant $\mathfrak{G}$ de l’application $n \mapsto u_n$ de $\mathbf{N}$ dans $\overline{\mathbf{R}}$ se note $\limsup_{n \to \infty} u_n$ (resp. $\liminf_{n \to \infty} u_n$) et s’appelle limite supérieure (resp. limite inférieure) de la suite de nombres réels $u_n$.
 
 La relation $\limsup_{n \to \infty} u_n = a \in \mathbf{R}$ est donc équivalente à la suivante: quel que soit $\varepsilon > 0$, il existe un entier $n_0$ tel que, pour tout $n \geq n_0$, $u_n \leq a + \varepsilon$, et, pour une infinité de valeurs de $n$, $u_n \geq a - \varepsilon$. On traduit de même la définition de la limite supérieure d’une suite lorsqu’elle a pour valeur $+\infty$ ou $-\infty$.
 
@@ -366,7 +366,7 @@ Soient $f$ et $g$ deux fonctions numériques définies dans un ensemble $E$; si 
 
 Cette dernière fonction est donc définie lorsque $f$ ne prend pas la valeur 0; lorsque $f$ prend ses valeurs dans l’intervalle $[0, +\infty)$ (resp. dans $(- \infty, 0])$, on peut encore considérer que $1/f(x)$ est partout défini en posant $1/0 = +\infty$ (resp. $1/0 = -\infty$); la fonction $1/f$ sera encore définie dans ce cas.
 
-Supposons $E$ filtré par un filtre $\mathscr{F}$, et que $\lim_{\mathscr{F}} f$ et $\lim_{\mathscr{F}} g$ existent; si, d’une part, la fonction $f + g$ (resp. $fg$, resp. $1/f$) est définie, et si, d’autre part, l’expression $\lim_{\mathscr{F}} f + \lim_{\mathscr{F}} g$ (resp. $\lim_{\mathscr{F}} f . \lim_{\mathscr{F}} g$, resp. $1/\lim_{\mathscr{F}} f$) a un sens, alors $\lim_{\mathscr{F}} (f + g)$ (resp. $\lim_{\mathscr{F}} fg$, resp. $\lim_{\mathscr{F}} (1/f)$) existe et est égale à cette expression, en vertu de la continuité de la fonction $x + y$ (resp. $xy$, resp. $1/x$) aux points où elle est définie.
+Supposons $E$ filtré par un filtre $\mathfrak{F}$, et que $\lim_{\mathfrak{F}} f$ et $\lim_{\mathfrak{F}} g$ existent; si, d’une part, la fonction $f + g$ (resp. $fg$, resp. $1/f$) est définie, et si, d’autre part, l’expression $\lim_{\mathfrak{F}} f + \lim_{\mathfrak{F}} g$ (resp. $\lim_{\mathfrak{F}} f . \lim_{\mathfrak{F}} g$, resp. $1/\lim_{\mathfrak{F}} f$) a un sens, alors $\lim_{\mathfrak{F}} (f + g)$ (resp. $\lim_{\mathfrak{F}} fg$, resp. $\lim_{\mathfrak{F}} (1/f)$) existe et est égale à cette expression, en vertu de la continuité de la fonction $x + y$ (resp. $xy$, resp. $1/x$) aux points où elle est définie.
 
 #### Proposition 12 {#top-iv-s5-prop-12 .statement}
 

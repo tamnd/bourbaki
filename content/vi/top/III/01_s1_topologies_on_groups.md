@@ -99,45 +99,45 @@ Khi G là một nhóm giao hoán, được viết theo lối cộng, tiên đề
 
 ### 2. LÂN CẬN CỦA MỘT ĐIỂM TRONG MỘT NHÓM TÔPÔ
 
-Cho $\mathscr{B}$ là bộ lọc lân cận của phần tử đơn vị $e$ trong một nhóm tôpô G, và cho $a$ là một điểm bất kỳ của G. Vì $x \to ax$ và $x \to xa$ là các phép đồng phôi, suy ra bộ lọc lân cận của $a$ là họ $a.\mathscr{B}$ các tập hợp $a.V$, trong đó V chạy qua $\mathscr{B}$, và cũng là họ $\mathscr{B}.a$ các tập hợp $V.a$. Do đó ta biết bộ lọc lân cận của mọi điểm của một nhóm tôpô ngay khi ta biết bộ lọc lân cận của phần tử đơn vị $e$ của nhóm.
+Cho $\mathfrak{B}$ là bộ lọc lân cận của phần tử đơn vị $e$ trong một nhóm tôpô G, và cho $a$ là một điểm bất kỳ của G. Vì $x \to ax$ và $x \to xa$ là các phép đồng phôi, suy ra bộ lọc lân cận của $a$ là họ $a.\mathfrak{B}$ các tập hợp $a.V$, trong đó V chạy qua $\mathfrak{B}$, và cũng là họ $\mathfrak{B}.a$ các tập hợp $V.a$. Do đó ta biết bộ lọc lân cận của mọi điểm của một nhóm tôpô ngay khi ta biết bộ lọc lân cận của phần tử đơn vị $e$ của nhóm.
 
 Nếu ta nói rằng $xy$ và $x^{-1}$ liên tục tại $x = y = e$, thì ta thu được (Chương I, § 2, no. 1):
 
-(GV_I). *Với mọi* $U \in \mathscr{B}$, *tồn tại* $V \in \mathscr{B}$ *sao cho* $V.V \subset U$.
+(GV_I). *Với mọi* $U \in \mathfrak{B}$, *tồn tại* $V \in \mathfrak{B}$ *sao cho* $V.V \subset U$.
 
-(GV_{II}). *Với mọi* $U \in \mathscr{B}$, *ta có* $\overline{U} \in \mathscr{B}$.
+(GV_{II}). *Với mọi* $U \in \mathfrak{B}$, *ta có* $\overline{U} \in \mathfrak{B}$.
 
-Mọi bộ lọc $\mathscr{B}$ trên G thỏa mãn (GV_I) và (GV_{II}) cũng thỏa mãn (GV_a). *Với mọi* $U \in \mathscr{B}$, *tồn tại* $V \in \mathscr{B}$ *sao cho* $V.V^{-1} \subset U$. Thật vậy, theo (GV_I), tồn tại $W \in \mathscr{B}$ sao cho $W.W \subset U$, và theo (GV_{II}) tồn tại $V \in \mathscr{B}$ sao cho $V \subset W \cap W^{-1}$; do đó $V^{-1} \subset W$ và vì thế $V.V^{-1} \subset W.W \subset U$.
+Mọi bộ lọc $\mathfrak{B}$ trên G thỏa mãn (GV_I) và (GV_{II}) cũng thỏa mãn (GV_a). *Với mọi* $U \in \mathfrak{B}$, *tồn tại* $V \in \mathfrak{B}$ *sao cho* $V.V^{-1} \subset U$. Thật vậy, theo (GV_I), tồn tại $W \in \mathfrak{B}$ sao cho $W.W \subset U$, và theo (GV_{II}) tồn tại $V \in \mathfrak{B}$ sao cho $V \subset W \cap W^{-1}$; do đó $V^{-1} \subset W$ và vì thế $V.V^{-1} \subset W.W \subset U$.
 
-Ngược lại, nếu một bộ lọc $\mathscr{B}$ trên G thỏa mãn (GV_a), trước hết suy ra rằng $e$ thuộc mọi tập $U \in \mathscr{B}$; thật vậy, nếu $V \in \mathscr{B}$ sao cho $V.V^{-1} \subset U$,
+Ngược lại, nếu một bộ lọc $\mathfrak{B}$ trên G thỏa mãn (GV_a), trước hết suy ra rằng $e$ thuộc mọi tập $U \in \mathfrak{B}$; thật vậy, nếu $V \in \mathfrak{B}$ sao cho $V.V^{-1} \subset U$,
 
 (*) Chúng tôi nhắc lại rằng $f^{-1}$ là ánh xạ $x \to (f(x))^{-1}$ và $fg$ là ánh xạ $x \to f(x)g(x)$; không nên nhầm chúng với $f^{-1}$ và $f \circ g$ (khi các ánh xạ này được xác định) (*Lý thuyết tập hợp*, R, § 2, số 6 và 11).
 
-khi đó, vì $V$ không rỗng, ta có $x.x^{-1} = e \in U$ với mọi $x \in V$. Do đó điều kiện $(GV_a)$ suy ra $V^{-1} \subset V.V^{-1} \subset U$, nên $U^{-1} \in \mathscr{B}$ mỗi khi $U \in \mathscr{B}$. Cuối cùng, nếu $V \in \mathscr{B}$ sao cho $V.V^{-1} \subset U$, và nếu $W \in \mathscr{B}$ sao cho $W \subset V \cap V^{-1}$, thì ta có $W.W \subset U$. Như vậy ta thấy rằng $(GV_a)$ là *tương đương* với phép hội của $(GV_1)$ và $(GV_{II})$.
+khi đó, vì $V$ không rỗng, ta có $x.x^{-1} = e \in U$ với mọi $x \in V$. Do đó điều kiện $(GV_a)$ suy ra $V^{-1} \subset V.V^{-1} \subset U$, nên $U^{-1} \in \mathfrak{B}$ mỗi khi $U \in \mathfrak{B}$. Cuối cùng, nếu $V \in \mathfrak{B}$ sao cho $V.V^{-1} \subset U$, và nếu $W \in \mathfrak{B}$ sao cho $W \subset V \cap V^{-1}$, thì ta có $W.W \subset U$. Như vậy ta thấy rằng $(GV_a)$ là *tương đương* với phép hội của $(GV_1)$ và $(GV_{II})$.
 
-Cuối cùng, vì $x \to axa^{-1}$ là một đồng phôi để lại $e$ bất động, $\mathscr{B}$ có tính chất sau:
+Cuối cùng, vì $x \to axa^{-1}$ là một đồng phôi để lại $e$ bất động, $\mathfrak{B}$ có tính chất sau:
 
-$(GV_{III}).$ *Với mọi* $a \in G$ *và mọi* $V \in \mathscr{B}$, *ta có* $a.Va^{-1} \in \mathscr{B}$.
+$(GV_{III}).$ *Với mọi* $a \in G$ *và mọi* $V \in \mathfrak{B}$, *ta có* $a.Va^{-1} \in \mathfrak{B}$.
 
-Ba tính chất này của bộ lọc $\mathscr{B}$ là *đặc số*:
+Ba tính chất này của bộ lọc $\mathfrak{B}$ là *đặc số*:
 
 #### Mệnh đề 1 {#top-iii-s1-prop-1 .statement}
 
-*Cho* $G$ *là một nhóm và cho* $\mathscr{B}$ *là một bộ lọc trên* $G$ *thỏa mãn các tiên đề* $(GV_1)$, $(GV_{II})$ *và* $(GV_{III})$. *Khi đó tồn tại duy nhất một tôpô trên* $G$, *tương thích với cấu trúc nhóm của* $G$, *mà đối với tôpô này* $\mathscr{B}$ *là bộ lọc lân cận của phần tử đơn vị* $e$. *Đối với tôpô này, bộ lọc lân cận của mọi điểm* $a \in G$ *trùng với mỗi một trong hai bộ lọc* $a.\mathscr{B}$ *và* $\mathscr{B}.a$.
+*Cho* $G$ *là một nhóm và cho* $\mathfrak{B}$ *là một bộ lọc trên* $G$ *thỏa mãn các tiên đề* $(GV_1)$, $(GV_{II})$ *và* $(GV_{III})$. *Khi đó tồn tại duy nhất một tôpô trên* $G$, *tương thích với cấu trúc nhóm của* $G$, *mà đối với tôpô này* $\mathfrak{B}$ *là bộ lọc lân cận của phần tử đơn vị* $e$. *Đối với tôpô này, bộ lọc lân cận của mọi điểm* $a \in G$ *trùng với mỗi một trong hai bộ lọc* $a.\mathfrak{B}$ *và* $\mathfrak{B}.a$.
 
-Nếu có một tôpô với các tính chất được yêu cầu, thì theo điều đã nói ở trên, bộ lọc lân cận của $a$ trùng với mỗi bộ lọc $a.\mathscr{B}$ và $\mathscr{B}.a$; do đó tôpô là duy nhất, nếu nó tồn tại. Sự tồn tại của nó sẽ được thiết lập nếu ta chỉ ra 1) rằng các bộ lọc $a.\mathscr{B}$ là các bộ lọc lân cận của một tôpô trên $G$, và 2) rằng tôpô này tương thích với cấu trúc nhóm của $G$.
+Nếu có một tôpô với các tính chất được yêu cầu, thì theo điều đã nói ở trên, bộ lọc lân cận của $a$ trùng với mỗi bộ lọc $a.\mathfrak{B}$ và $\mathfrak{B}.a$; do đó tôpô là duy nhất, nếu nó tồn tại. Sự tồn tại của nó sẽ được thiết lập nếu ta chỉ ra 1) rằng các bộ lọc $a.\mathfrak{B}$ là các bộ lọc lân cận của một tôpô trên $G$, và 2) rằng tôpô này tương thích với cấu trúc nhóm của $G$.
 
-1) Bộ lọc $a.\mathscr{B}$ thỏa mãn tiên đề $(V_{III})$ (xem Chương I § 1, no. 2) do $(GV_1)$ và $(GV_{II})$, như ta đã thấy; vì thế để chỉ ra rằng $a.\mathscr{B}$ là bộ lọc lân cận của $a$ trong một tôpô trên $G$, ta phải kiểm tra tiên đề $(V_{IV})$. Khi đó, lấy $V$ là một tập hợp bất kỳ của $\mathscr{B}$, và $W$ là một tập hợp của $\mathscr{B}$ sao cho $W.W \subset V$; khi ấy với mọi $x \in a.W$ ta có $x.W \subset a.W.W \subset a.V$, nên $a.V$ thuộc bộ lọc $x.\mathscr{B}$; do đó $(V_{IV})$ được thỏa mãn.
+1) Bộ lọc $a.\mathfrak{B}$ thỏa mãn tiên đề $(V_{III})$ (xem Chương I § 1, no. 2) do $(GV_1)$ và $(GV_{II})$, như ta đã thấy; vì thế để chỉ ra rằng $a.\mathfrak{B}$ là bộ lọc lân cận của $a$ trong một tôpô trên $G$, ta phải kiểm tra tiên đề $(V_{IV})$. Khi đó, lấy $V$ là một tập hợp bất kỳ của $\mathfrak{B}$, và $W$ là một tập hợp của $\mathfrak{B}$ sao cho $W.W \subset V$; khi ấy với mọi $x \in a.W$ ta có $x.W \subset a.W.W \subset a.V$, nên $a.V$ thuộc bộ lọc $x.\mathfrak{B}$; do đó $(V_{IV})$ được thỏa mãn.
 
-2) Bây giờ ta hãy chứng minh rằng tôpô được xác định bởi các bộ lọc lân cận $a.\mathscr{B}$ thỏa mãn $(GT')$. Cho $a, b$ là hai điểm bất kỳ của $G$; nếu đặt $x = au$ và $y = bv$, thì ta phải chứng minh rằng $xy^{-1}$ gần $ab^{-1}$ tùy ý, mỗi khi $u$ và $v$ đủ gần $e$. Mà $(ab^{-1})^{-1}(xy^{-1}) = buv^{-1}b^{-1}$; cho $U$ là một lân cận bất kỳ của $e$, khi đó ta sẽ có $buv^{-1}b^{-1} \in U$ nếu $uv^{-1} \in b^{-1}Ub = V$, và $V \in \mathscr{B}$ theo $(GV_{III})$. Nhưng theo $(GV_1)$ và $(GV_{II})$ tồn tại $W \in \mathscr{B}$ sao cho $W.W^{-1} \subset V$; do đó chỉ cần lấy $u \in W$ và $v \in W$ thì có $xy^{-1} \in (ab^{-1})U$. Điều này hoàn tất chứng minh.
+2) Bây giờ ta hãy chứng minh rằng tôpô được xác định bởi các bộ lọc lân cận $a.\mathfrak{B}$ thỏa mãn $(GT')$. Cho $a, b$ là hai điểm bất kỳ của $G$; nếu đặt $x = au$ và $y = bv$, thì ta phải chứng minh rằng $xy^{-1}$ gần $ab^{-1}$ tùy ý, mỗi khi $u$ và $v$ đủ gần $e$. Mà $(ab^{-1})^{-1}(xy^{-1}) = buv^{-1}b^{-1}$; cho $U$ là một lân cận bất kỳ của $e$, khi đó ta sẽ có $buv^{-1}b^{-1} \in U$ nếu $uv^{-1} \in b^{-1}Ub = V$, và $V \in \mathfrak{B}$ theo $(GV_{III})$. Nhưng theo $(GV_1)$ và $(GV_{II})$ tồn tại $W \in \mathfrak{B}$ sao cho $W.W^{-1} \subset V$; do đó chỉ cần lấy $u \in W$ và $v \in W$ thì có $xy^{-1} \in (ab^{-1})U$. Điều này hoàn tất chứng minh.
 
-Một phương pháp chung để định nghĩa một tôpô tương thích với một cấu trúc nhóm trên $G$ là cho một bộ lọc thỏa mãn các tiên đề $(GV_1)$, $(GV_{II})$ và $(GV_{III})$. Các điều kiện tương ứng đối với một *cơ sở bộ lọc* $\mathscr{B}$ là như sau:
+Một phương pháp chung để định nghĩa một tôpô tương thích với một cấu trúc nhóm trên $G$ là cho một bộ lọc thỏa mãn các tiên đề $(GV_1)$, $(GV_{II})$ và $(GV_{III})$. Các điều kiện tương ứng đối với một *cơ sở bộ lọc* $\mathfrak{B}$ là như sau:
 
-$(GV'_1).$ *Với mọi* $U \in \mathscr{B}$, *tồn tại* $V \in \mathscr{B}$ *sao cho* $V.V \subset U$.
+$(GV'_1).$ *Với mọi* $U \in \mathfrak{B}$, *tồn tại* $V \in \mathfrak{B}$ *sao cho* $V.V \subset U$.
 
-(GV_{II}). *Với mọi* $U \in \mathscr{B}$, *tồn tại* $V \in \mathscr{B}$ *sao cho* $V^{-1} \subset U$.
+(GV_{II}). *Với mọi* $U \in \mathfrak{B}$, *tồn tại* $V \in \mathfrak{B}$ *sao cho* $V^{-1} \subset U$.
 
-(GV'_{III}). *Với mọi* $a \in G$ *và mọi* $U \in \mathscr{B}$, *tồn tại* $V \in \mathscr{B}$ *sao cho* $V \subset a . U . a^{-1}$.
+(GV'_{III}). *Với mọi* $a \in G$ *và mọi* $U \in \mathfrak{B}$, *tồn tại* $V \in \mathfrak{B}$ *sao cho* $V \subset a . U . a^{-1}$.
 
 Một lân cận của $e$ trùng với ảnh của nó qua đối xứng $x \to x^{-1}$ được gọi là *đối xứng*. Nếu $V$ là một lân cận bất kỳ của $e$, thì $V \cup V^{-1}$, $V \cap V^{-1}$ và $V . V^{-1}$ là các lân cận đối xứng. Theo (GV_{II}), các lân cận đối xứng tạo thành một *hệ lân cận cơ bản* của $e$. Cũng suy ra từ (GV_{I}) rằng khi $V$ chạy qua một hệ lân cận cơ bản của $e$, thì các tập hợp $V^n$ (trong đó $n$ là một số nguyên cố định $\neq 0$) tạo thành một hệ lân cận cơ bản của $e$.
 
@@ -145,11 +145,11 @@ Một lân cận của $e$ trùng với ảnh của nó qua đối xứng $x \to
 
 Nếu $G$ *giao hoán*, ta có $x . A . x^{-1} = A$ với mọi tập con $A$ của $G$ và mọi $x \in G$, và do đó (GV_{III}) [tương ứng, (GV'_{III})] được thỏa mãn một cách tự động đối với mọi bộ lọc (tương ứng, cơ sở bộ lọc) trên $G$. Mặt khác, nếu $G$ không Abel, thì (GV_{III}) không phải là một hệ quả của (GV_{I}) và (GV_{II}) [xem Bài tập 5].
 
-Nếu $G$ là một nhóm giao hoán, được viết *theo lối cộng*, thì các tiên đề đặc trưng cho bộ lọc $\mathscr{B}$ các lân cận của phần tử không đối với một tôpô tương thích với cấu trúc nhóm của $G$ do đó là như sau:
+Nếu $G$ là một nhóm giao hoán, được viết *theo lối cộng*, thì các tiên đề đặc trưng cho bộ lọc $\mathfrak{B}$ các lân cận của phần tử không đối với một tôpô tương thích với cấu trúc nhóm của $G$ do đó là như sau:
 
-(GA_{I}). *Với mọi* $U \in \mathscr{B}$, *tồn tại* $V \in \mathscr{B}$ *sao cho* $V + V \subset U$.
+(GA_{I}). *Với mọi* $U \in \mathfrak{B}$, *tồn tại* $V \in \mathfrak{B}$ *sao cho* $V + V \subset U$.
 
-(GA_{II}). *Với mọi* $U \in \mathscr{B}$, *ta có* $-U \in \mathscr{B}$.
+(GA_{II}). *Với mọi* $U \in \mathfrak{B}$, *ta có* $-U \in \mathfrak{B}$.
 
 #### Mệnh đề 2 {#top-iii-s1-prop-2 .statement}
 
@@ -165,9 +165,9 @@ Rõ ràng, nếu $G$ là Hausdorff, thì $\{e\}$ là đóng. Ngược lại, n�
 
 #### Ví dụ {#top-iii-s1-n2-exa-1 .statement}
 
-*Định nghĩa một tôpô trên một nhóm bằng một tập hợp các nhóm con.* Nếu $\mathscr{B}$ là một *cơ sở lọc* trên một nhóm $G$, được tạo thành từ các *nhóm con* của $G$, thì thấy ngay lập tức rằng $\mathscr{B}$ thỏa mãn các tiên đề (GV_{I}) và (GV_{II}), vì $H . H^{-1} = H$ với mọi nhóm con $H$ của $G$. Do đó tập hợp $\mathscr{B}$ sẽ là một *hệ cơ bản các lân cận* của $e$ trong một tôpô tương thích với cấu trúc nhóm của $G$, miễn là $\mathscr{B}$ thỏa mãn (GV_{III}); điều này đặc biệt đúng nếu mọi nhóm con trong $\mathscr{B}$ đều là chuẩn tắc, vì thế luôn luôn đúng nếu $G$ là *giao hoán*. Tôpô được định nghĩa như vậy là *Hausdorff*, theo Mệnh đề 2, khi và chỉ khi *giao của tất cả các nhóm con trong $\mathscr{B}$ chỉ gồm* $e$. Những trường hợp đáng quan tâm nhất là các trường hợp trong đó nhóm con $\{ e \}$ *không thuộc* $\mathscr{B}$ (nếu không thì tôpô được định nghĩa bởi $\mathscr{B}$ là tôpô *rời rạc*): nếu $\{ e \} \notin \mathscr{B}$, tôpô được định nghĩa bởi $\mathscr{B}$ chỉ là Hausdorff nếu $\mathscr{B}$ là một *tập hợp vô hạn*.
+*Định nghĩa một tôpô trên một nhóm bằng một tập hợp các nhóm con.* Nếu $\mathfrak{B}$ là một *cơ sở lọc* trên một nhóm $G$, được tạo thành từ các *nhóm con* của $G$, thì thấy ngay lập tức rằng $\mathfrak{B}$ thỏa mãn các tiên đề (GV_{I}) và (GV_{II}), vì $H . H^{-1} = H$ với mọi nhóm con $H$ của $G$. Do đó tập hợp $\mathfrak{B}$ sẽ là một *hệ cơ bản các lân cận* của $e$ trong một tôpô tương thích với cấu trúc nhóm của $G$, miễn là $\mathfrak{B}$ thỏa mãn (GV_{III}); điều này đặc biệt đúng nếu mọi nhóm con trong $\mathfrak{B}$ đều là chuẩn tắc, vì thế luôn luôn đúng nếu $G$ là *giao hoán*. Tôpô được định nghĩa như vậy là *Hausdorff*, theo Mệnh đề 2, khi và chỉ khi *giao của tất cả các nhóm con trong $\mathfrak{B}$ chỉ gồm* $e$. Những trường hợp đáng quan tâm nhất là các trường hợp trong đó nhóm con $\{ e \}$ *không thuộc* $\mathfrak{B}$ (nếu không thì tôpô được định nghĩa bởi $\mathfrak{B}$ là tôpô *rời rạc*): nếu $\{ e \} \notin \mathfrak{B}$, tôpô được định nghĩa bởi $\mathfrak{B}$ chỉ là Hausdorff nếu $\mathfrak{B}$ là một *tập hợp vô hạn*.
 
-Vì giao của hai nhóm con là một nhóm con, ta có thể định nghĩa một tôpô trên $G$, tương thích với cấu trúc nhóm của nó, xuất phát từ *bất kỳ* tập hợp nào $\mathfrak{F}$ các nhóm con của $G$: đặt $\mathfrak{G}$ là tập hợp của mọi nhóm con $a.H.a^{-1}$, trong đó $H \in \mathfrak{F}$ và $a \in G$, và đặt $\mathscr{B}$ là tập hợp của mọi giao *hữu hạn* của các nhóm con thuộc $\mathfrak{G}$. Khi đó $\mathscr{B}$ là một cơ sở bộ lọc và thỏa mãn (GV$_{\text{III}}$).
+Vì giao của hai nhóm con là một nhóm con, ta có thể định nghĩa một tôpô trên $G$, tương thích với cấu trúc nhóm của nó, xuất phát từ *bất kỳ* tập hợp nào $\mathfrak{F}$ các nhóm con của $G$: đặt $\mathfrak{G}$ là tập hợp của mọi nhóm con $a.H.a^{-1}$, trong đó $H \in \mathfrak{F}$ và $a \in G$, và đặt $\mathfrak{B}$ là tập hợp của mọi giao *hữu hạn* của các nhóm con thuộc $\mathfrak{G}$. Khi đó $\mathfrak{B}$ là một cơ sở bộ lọc và thỏa mãn (GV$_{\text{III}}$).
 
 Xét riêng nhóm cộng của một *vành* $A$. Mỗi tập hợp $\mathfrak{F}$ các *iđêan* của $A$ xác định một tôpô tương thích với cấu trúc nhóm cộng này. Tôpô này là Hausdorff nếu giao của tất cả các iđêan thuộc $\mathfrak{F}$ là iđêan không, và nó không rời rạc nếu không có giao hữu hạn nào của các iđêan thuộc $\mathfrak{F}$ là iđêan không. Các tôpô được xác định theo cách này giữ một vai trò quan trọng trong lý thuyết số (xem các Bài tập của §§ 6 và 7 của chương này).
 

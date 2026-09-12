@@ -37,7 +37,7 @@ subsections:
       pdf_page: 344
 statements: 15
 exercises: 21
-content_sha256: 07add2fe18c1421a6a493fda74167ba89cc4a006942aeb2d6b99ae33b22f5501
+content_sha256: dcd5753bd70eb3427be007148b083365d9136d00e9ffd91c2a27616300873e98
 ---
 
 ## 2. FUNDAMENTAL TOPOLOGICAL PROPERTIES OF THE REAL LINE
@@ -84,7 +84,7 @@ Theorem 2 is often referred to as the "Heine-Borel Theorem"; see the Historical 
 
 Every non-empty subset of the real line which is bounded above (resp. bounded below) has a least upper bound (resp. greatest lower bound).
 
-Let $A$ be a non-empty subset of $\mathbf{R}$, bounded above, and let $b$ be an upper bound of $A$, so that $A \subset ]\leftarrow, b]$. For each $x \in A$ consider the set $A_x$ of numbers $\geqslant x$ which belong to $A$; the sets $A_x$ form a filter base $\mathscr{B}$ on $\mathbf{R}$, since $A_y \subset A_x$ if $y \geqslant x$. Let $a$ be a point of $A$. For each $x \geqslant a$ belonging to $A$, $A_x$ is contained in the compact interval $[a, b]$ and thus the filter base $\mathscr{B}$ has a cluster point $c$. Since the intervals $[x, \rightarrow[$ are closed, $c$ belongs to their intersection and therefore $c$ is an upper bound of $A$. But, on the other hand, every upper bound $z$ of $A$ is $\geqslant c$, otherwise the neighbourhood $]z, \rightarrow[$ of $c$ would not contain any point of $A$. Hence $c$ is the least upper bound of $A$.
+Let $A$ be a non-empty subset of $\mathbf{R}$, bounded above, and let $b$ be an upper bound of $A$, so that $A \subset ]\leftarrow, b]$. For each $x \in A$ consider the set $A_x$ of numbers $\geqslant x$ which belong to $A$; the sets $A_x$ form a filter base $\mathfrak{B}$ on $\mathbf{R}$, since $A_y \subset A_x$ if $y \geqslant x$. Let $a$ be a point of $A$. For each $x \geqslant a$ belonging to $A$, $A_x$ is contained in the compact interval $[a, b]$ and thus the filter base $\mathfrak{B}$ has a cluster point $c$. Since the intervals $[x, \rightarrow[$ are closed, $c$ belongs to their intersection and therefore $c$ is an upper bound of $A$. But, on the other hand, every upper bound $z$ of $A$ is $\geqslant c$, otherwise the neighbourhood $]z, \rightarrow[$ of $c$ would not contain any point of $A$. Hence $c$ is the least upper bound of $A$.
 
 We can argue similarly for a non-empty set $B$ bounded below, or else simply remark that $-B$ is non-empty and bounded above, and that if $c$ is the least upper bound of $-B$, then $-c$ is the greatest lower bound of $B$.
 

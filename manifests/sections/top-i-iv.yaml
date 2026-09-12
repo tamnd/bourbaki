@@ -49,7 +49,7 @@ chapters:
           statements: 24
           exercises: 9
           extraction: ocr
-          content_sha256: d2fed4994a1dae25f17820d116d3c9ceacb06acd01a11b23a4bd8345119281e7
+          content_sha256: 786b8ec9d0f69c75c6f78d764a7242ac5fbccb18dc3a386de1dae2318a45781d
         - kind: section
           section: 2
           title: Continuous functions
@@ -62,7 +62,7 @@ chapters:
           statements: 30
           exercises: 11
           extraction: ocr
-          content_sha256: 5a947c13d33cd182b9e8960c5daa51c5f6ef9882a8dd8b42524f26da978cd38f
+          content_sha256: cf4004f9e84dc84c89cf22fd0ceba9043355d13939f4879b9dfbd3051337016b
         - kind: section
           section: 3
           title: Subspaces, quotient spaces
@@ -75,7 +75,7 @@ chapters:
           statements: 24
           exercises: 16
           extraction: ocr
-          content_sha256: 04d1e655840e6eac8e294c10017eed88424cafec438e249919ce4eb73c82de1d
+          content_sha256: 701b57c60837dd6273a85b4fc7d1f2929f10f7b5759a0443b9c7c174a16071c5
         - kind: section
           section: 4
           title: Product of topological spaces
@@ -88,7 +88,7 @@ chapters:
           statements: 21
           exercises: 10
           extraction: ocr
-          content_sha256: 215472379d1b2b1e5dd419171df24ab53370ba8ea52d59a35d90602b9a5774bb
+          content_sha256: 2c22596e790aa673d73a84e91d28f6d8685cfabc53689f277e2e2063148689a5
         - kind: section
           section: 5
           title: Open mappings and closed mappings
@@ -101,7 +101,7 @@ chapters:
           statements: 24
           exercises: 7
           extraction: ocr
-          content_sha256: bf4f8b61710269b4d59fd1eeac6afa86e005eb7174597463ab1d48cde489e830
+          content_sha256: e3c2fc54aa47bbbb159585ae2b5006efb3bcb76fa9da39d9abc296df01833616
         - kind: section
           section: 6
           title: Filters
@@ -114,7 +114,7 @@ chapters:
           statements: 30
           exercises: 20
           extraction: ocr
-          content_sha256: 6819de812cc0a066f3d9d41f17299c6a6b5cfd00b8e0cf993c3f1e890810bef8
+          content_sha256: d727776e946a71e8695915560f6da0c44dbfefe19389c11a8bf6a4feb1f57bcd
         - kind: section
           section: 7
           title: Limits
@@ -127,7 +127,7 @@ chapters:
           statements: 23
           exercises: 7
           extraction: ocr
-          content_sha256: 69f059608cd8143faf707f7cc5a28bb5bc47a9c3d4776fd8b77889c945ca3f66
+          content_sha256: 9fb89618c14fd5991a8e1519c633089398f5b2527a1a36660bd487ce933a0152
         - kind: section
           section: 8
           title: Hausdorff spaces and regular spaces
@@ -140,7 +140,7 @@ chapters:
           statements: 30
           exercises: 29
           extraction: ocr
-          content_sha256: b4814e2f7e110c2b8361ba971f4d023bfcba4ef6bb8a3d54a449c5c769e074f5
+          content_sha256: 98845ffd2740176e29b6995e11ec7071d0b41b4e401755540de68e36ff921fc8
         - kind: section
           section: 9
           title: Compact spaces and locally compact spaces
@@ -153,7 +153,7 @@ chapters:
           statements: 52
           exercises: 29
           extraction: ocr
-          content_sha256: 543ad9961fa966a99dd5191ce33e9a362131183de7f151476be40fc47d3e2483
+          content_sha256: f1a157846ce69fef737b2b5f26920d1fd75fd7edd2ec8d11c8db9dc868eaaf81
         - kind: section
           section: 10
           title: Proper mappings
@@ -166,7 +166,7 @@ chapters:
           statements: 30
           exercises: 21
           extraction: ocr
-          content_sha256: a01fb3abb657b0dbf528da2cd1015dc922d8c5066e9645cf57ee613dee6d776f
+          content_sha256: bc8172c0efe500e14a509da134b6e01070541065f3c3b73ee943f9cf79f130a4
         - kind: section
           section: 11
           title: Connectedness
@@ -179,7 +179,7 @@ chapters:
           statements: 29
           exercises: 25
           extraction: ocr
-          content_sha256: 69bfebe519ff9c5e26ac2b7592e3606fd1bc4e2e70402471af95b952e165edc6
+          content_sha256: 4c2410420ce529b43f5c67df0e14f9795fefbd5d5e3bfeeafa61f4ce30c310cc
         - kind: historical
           title: Historical Note
           path: content/en/top/I/historical_note.md
@@ -216,7 +216,7 @@ chapters:
           statements: 14
           exercises: 5
           extraction: ocr
-          content_sha256: d3a7dfbc683acc0549be276cb7389642c26562ad3377848bc4a96958120076e3
+          content_sha256: df8b1b37f395ac3c5d1008e4d4fc570f5c2a15ab4b3d31df11f6bf3e7fb02c5b
         - kind: section
           section: 2
           title: Uniformly continuous functions
@@ -229,7 +229,7 @@ chapters:
           statements: 27
           exercises: 6
           extraction: ocr
-          content_sha256: 5b5c8a3f7b67f3b643fbf35947c27ce72eae22d39a3e08eb75587ed20bf5a97e
+          content_sha256: 916092eb3da2e259031016a529262ead18930135467dc3a4a177783a72b8b151
         - kind: section
           section: 3
           title: Complete spaces
@@ -242,7 +242,7 @@ chapters:
           statements: 48
           exercises: 7
           extraction: ocr
-          content_sha256: 2a6afe400a71a5144150633cba13b9b91aa07c23053150644d14b65bce278b5e
+          content_sha256: 4ee708f9fa4f7e8fb3054751ddebec9c5c0b8cf15eb9db631c1d5700bde64464
         - kind: section
           section: 4
           title: Relations between uniform spaces and compact spaces
@@ -255,7 +255,7 @@ chapters:
           statements: 24
           exercises: 23
           extraction: ocr
-          content_sha256: 6ad4322c09a0f1509516f49671107fdc563ffbf8d7890ebdbd14d10b3c8a17a1
+          content_sha256: 9cdcbb9108db7fdc1cd2bd08235c3bfff784ae84b81da1fac6f065143af13301
         - kind: historical
           title: Historical Note
           path: content/en/top/II/historical_note.md
@@ -292,7 +292,7 @@ chapters:
           statements: 11
           exercises: 9
           extraction: ocr
-          content_sha256: 1dd417c06599586d9dc160c9baf087964f74ec81e37be138588cd14466ccfd4e
+          content_sha256: ea2137e40e141a233cab0cbc1865aad0c9e32302bb4d5c2cfa3d6634e68de3bc
         - kind: section
           section: 2
           title: Subgroups, quotient groups, homomorphisms homogeneous spaces, product groups
@@ -305,7 +305,7 @@ chapters:
           statements: 46
           exercises: 31
           extraction: ocr
-          content_sha256: 816b898045782fd4fc1b39a50bd54410c93f09dce6626d5d34531658f5728623
+          content_sha256: 51d200134d1b68ad4718785e16fe1c4b0160b229bcac32c40a663ff38aabee6b
         - kind: section
           section: 3
           title: Uniform structures on groups
@@ -318,7 +318,7 @@ chapters:
           statements: 18
           exercises: 12
           extraction: ocr
-          content_sha256: af58d0ed73dd68144ace8d91666b7718e177725500a7f1814fbacff1ebedcfc9
+          content_sha256: 770a9ac702c153075f7f5ad5d41d24b3c610f554555092b64ee44ffbb52825d4
         - kind: section
           section: 4
           title: Groups operating properly on a topological space; compact ness in topological groups and spaces with operators
@@ -344,7 +344,7 @@ chapters:
           statements: 19
           exercises: 7
           extraction: ocr
-          content_sha256: 1a3fc21cad0e893f90c92edbca82aadfb45519e549dd6e745f49693d2974edaa
+          content_sha256: 9bcc7dfaf84ccabb941e3532c92f0515e21c59f23418a2457fb44bfaaea40d45
         - kind: section
           section: 6
           title: Topological groups with operators; topological rings division rings and fields
@@ -357,7 +357,7 @@ chapters:
           statements: 24
           exercises: 26
           extraction: ocr
-          content_sha256: 17f57accd7eacf064dd8c50a5a3104937f6834e01b37a6952ac2d681ee27a7d9
+          content_sha256: 6fe2ee3ed4cf839ea264f266626d8fb1c5ff14bdcde63b0c4d9dc44668fa7dfc
         - kind: section
           section: 7
           title: Inverse limits of topological groups and rings
@@ -419,7 +419,7 @@ chapters:
           statements: 15
           exercises: 21
           extraction: ocr
-          content_sha256: 07add2fe18c1421a6a493fda74167ba89cc4a006942aeb2d6b99ae33b22f5501
+          content_sha256: dcd5753bd70eb3427be007148b083365d9136d00e9ffd91c2a27616300873e98
         - kind: section
           section: 3
           title: The field of real numbers
@@ -432,7 +432,7 @@ chapters:
           statements: 2
           exercises: 3
           extraction: ocr
-          content_sha256: dd2e9da4b3fba92988bbb461a62709cb2208e609295e8067cf49b769ad466844
+          content_sha256: 47d8be83cbae9b2d2e98ad34338274cc89520c62bf8ef84052ce21d3cf5654c4
         - kind: section
           section: 4
           title: The extended real line
@@ -458,7 +458,7 @@ chapters:
           statements: 31
           exercises: 18
           extraction: ocr
-          content_sha256: 71600628e1742628cbc5bbe2d2f4f8275f2c87e5cb2d1877b44f63639a733361
+          content_sha256: ceefb1b50ddb80fd0ccc25e390633e05da820279b83a80d106da654c24f06d6a
         - kind: section
           section: 6
           title: Continuous and semi-continuous real-valued functions
@@ -519,7 +519,7 @@ notation_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: 8d0a3383bb727326a8b1b72935840c1ac6c076d1fdc5d9e1d31b17b90906202c
+    content_sha256: 0663de6d7747e67e8ecb942be67857c3c08f52886c9ceb70a1642b445cc9cd3f
 terminology_index:
     kind: terminology
     title: INDEX OF TERMINOLOGY

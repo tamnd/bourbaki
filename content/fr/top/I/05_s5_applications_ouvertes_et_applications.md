@@ -29,7 +29,7 @@ subsections:
       pdf_page: 47
 statements: 25
 exercises: 7
-content_sha256: ba57d2525465e7d05cdc66c5c42fa2c3afed745f9af1dbdd3eacb15816611b3c
+content_sha256: f4c81c81fa57488c1ad1dfedbf35eb2ac33c2e7d45fe17698cdc946ee0e648aa
 ---
 
 ## § 5. APPLICATIONS OUVERTES ET APPLICATIONS FERMÉES
@@ -149,9 +149,9 @@ A = \overline{f}^{-1}(f(A)), et h \circ \varphi est l’application de A dans f(
 
 #### Proposition 5 {#top-i-s5-prop-5 .statement}
 
-Soient X, Y deux espaces topologiques, f une application de X dans Y, $\mathscr{B}$ une base de la topologie de X. Les propriétés suivantes sont équivalentes:
+Soient X, Y deux espaces topologiques, f une application de X dans Y, $\mathfrak{B}$ une base de la topologie de X. Les propriétés suivantes sont équivalentes:
 a) f est une application ouverte.
-b) Pour tout $U \in \mathscr{B}, f(U)$ est ouvert dans Y.
+b) Pour tout $U \in \mathfrak{B}, f(U)$ est ouvert dans Y.
 c) Pour tout $x \in X$ et tout voisinage V de x dans X, $f(V)$ est un voisinage de $f(x)$ dans Y.
 L’équivalence de a) et b) résulte aussitôt des définitions et de (O_1); l’équivalence de a) et c) résulte de la prop. 1 de I, p. 2.
 

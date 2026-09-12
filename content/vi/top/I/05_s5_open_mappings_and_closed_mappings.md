@@ -176,11 +176,11 @@ và $h \circ \varphi$ là ánh xạ từ $A$ vào $f(A)$ trùng với $f$ trên 
 
 #### Mệnh đề 5 {#top-i-s5-prop-5 .statement}
 
-*Cho $X, Y$ là hai không gian tôpô, $f$ là một ánh xạ từ $X$ vào $Y, \mathscr{B}$ là một cơ sở của tôpô trên $X$. Khi đó các mệnh đề sau là tương đương*:
+*Cho $X, Y$ là hai không gian tôpô, $f$ là một ánh xạ từ $X$ vào $Y, \mathfrak{B}$ là một cơ sở của tôpô trên $X$. Khi đó các mệnh đề sau là tương đương*:
 
 a) *$f$ là một ánh xạ mở*.
 
-b) *Với mỗi $U \in \mathscr{B}$, $f(U)$ là mở trong $Y$*.
+b) *Với mỗi $U \in \mathfrak{B}$, $f(U)$ là mở trong $Y$*.
 
 c) *Với mỗi $x \in X$ và mỗi lân cận $V$ của $x$ trong $X$, $f(V)$ là một lân cận của $f(x)$ trong $Y$*.
 
