@@ -5837,7 +5837,7 @@
         {
           "chapter": "II",
           "title": "Localisation",
-          "total": 96,
+          "total": 107,
           "sections": [
             {
               "section": 1,
@@ -5870,10 +5870,10 @@
               "section": 4,
               "label": "ac-ii-s4",
               "dir": "s4",
-              "count": 17,
+              "count": 28,
               "first": 1,
-              "last": 17,
-              "starred": 3
+              "last": 28,
+              "starred": 4
             },
             {
               "section": 5,
