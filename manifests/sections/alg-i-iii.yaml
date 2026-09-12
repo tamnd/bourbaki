@@ -383,7 +383,7 @@ chapters:
           book_pages: 438-457, 618-626
           subsections: 11
           statements: 17
-          exercises: 3
+          exercises: 25
           extraction: ocr
           content_sha256: 5a84acf9f107bad7d60ffaca486e8438e91a0e75355de3f0446a4594085e9abd
         - kind: section

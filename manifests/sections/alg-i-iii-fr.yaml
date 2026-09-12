@@ -375,7 +375,7 @@ chapters:
           book_pages: A III.12-A III.30
           subsections: 11
           statements: 20
-          exercises: 3
+          exercises: 25
           extraction: ocr
           content_sha256: 3d6e2b598afef6281f6666d1de27e86e4cb85205f55cb991484c265c8ed5d0c4
         - kind: section

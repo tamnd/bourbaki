@@ -4179,7 +4179,7 @@
         {
           "chapter": "III",
           "title": "TENSOR ALGEBRAS, EXTERIOR ALGEBRAS, SYMMETRIC ALGEBRAS",
-          "total": 97,
+          "total": 119,
           "sections": [
             {
               "section": 1,
@@ -4193,9 +4193,14 @@
               "section": 2,
               "label": "alg-iii-s2",
               "dir": "s2",
-              "count": 3,
+              "count": 25,
               "first": 1,
-              "last": 3
+              "last": 26,
+              "gaps": [
+                4
+              ],
+              "starred": 1,
+              "supplementary": 1
             },
             {
               "section": 3,
@@ -5681,7 +5686,7 @@
         {
           "chapter": "III",
           "title": "ALGÈBRES TENSORIELLES, ALGÈBRES EXTÉRIEURES, ALGÈBRES SYMÉTRIQUES",
-          "total": 99,
+          "total": 121,
           "sections": [
             {
               "section": 1,
@@ -5695,9 +5700,14 @@
               "section": 2,
               "label": "alg-iii-s2",
               "dir": "s2",
-              "count": 3,
+              "count": 25,
               "first": 1,
-              "last": 3
+              "last": 26,
+              "gaps": [
+                4
+              ],
+              "starred": 2,
+              "supplementary": 1
             },
             {
               "section": 3,

@@ -1,0 +1,17 @@
+# The exercise numbers a § is printed without.
+# Written by hand, read by bourbaki assemble and bourbaki audit. A printing
+# that is wrong goes in errata.yaml, and two printings that differ and are
+# both right go in editions.yaml.
+skipped:
+    - book: alg
+      chapter: III
+      section: 2
+      numbers: [4]
+      why: |-
+        both printings go from 3 to 5. In the English of 1998, pdf page 642 sets
+        "1.", "2." and "3. (a)" through "(e)", and page 643 takes the list up
+        again at "5."; in the French of 2007, pdf page 565 sets "1)", "2)" and
+        "3) a)" through "e)", and page 566 at "5)". There is no exercise 4 of
+        this § in either book, and no errata sheet for either names one. Left
+        undeclared, the assembler waits for a 4 that is never coming and
+        exercises 5 to 26 come out inside the body of 3.
