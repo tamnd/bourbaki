@@ -13,9 +13,9 @@ pdf_pages: 0373-0374, 0418-0421
 extraction: ocr
 statements: 6
 exercises: 11
-content_sha256: 189c57f58cd23f0952a4af9369619052b4c7779ceac70e1a36d6a5d35b0733c8
+content_sha256: 83c7dcc3707a3acd6280774f8da9adde50fa48223128959c6dcc09f5a2eecc7d
 translated_from: content/en/alg/VII/03_s3_free_modules_over_a_principal_ideal.md
-source_content_sha256: 066133593c0e8a083eeae9d05d1754b642bc50b68931b431ed70f46e8f995177
+source_content_sha256: 41c3e4a60af02d2b81c6d7b90e22eff6a8f594c651154dcbef40f7e938ff48d6
 translation_model: gpt-5.4
 translation_run: translate-vi-40e2123e
 glossary_version: 34
@@ -45,7 +45,7 @@ Thật vậy mọi $A$-môđun xạ ảnh đều là một môđun con của m�
 #### Hệ quả 3 {#alg-vii-s3-thm-1-cor-3 .statement}
 
 — *Mọi môđun xạ ảnh trên một miền iđêan chính đều tự do.*
-*Nhận xét.* — Chứng minh của Định lý 1 cho thấy rằng mọi môđun con của $A^{(1)}$ đều đẳng cấu với một tổng trực tiếp $\bigoplus a_i$, trong đó mỗi $a_i$ là một iđêan của $A$.
+*Nhận xét.* — Chứng minh của Định lý 1 cho thấy rằng mọi môđun con của $A^{(I)}$ đều đẳng cấu với một tổng trực tiếp $\bigoplus a_i$, trong đó mỗi $a_i$ là một iđêan của $A$.
 
 MỆNH ĐỀ I. — *Nếu L là một môđun tự do hạng hữu hạn n trên một miền iđêan chính A, thì mọi môđun con M của L đều là một môđun tự do hạng $\leq n$.*
     Thật vậy M là một môđun tự do theo Hệ quả 2 của Định lý 1, và nó có hạng $\leq n$ theo nhận xét trước, hoặc theo bổ đề sau:

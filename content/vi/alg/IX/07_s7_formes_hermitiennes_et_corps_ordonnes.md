@@ -24,7 +24,7 @@ subsections:
       pdf_page: 116
 statements: 42
 exercises: 0
-content_sha256: ddebbc62e05e2816009f202e74bf3cdebebcccd4dc48f797f4e97faeaa052cc3
+content_sha256: 08f44bcd5670f4f4be1cd5f46076e52432714f6be0c3a37b9ea2735ffdb758c4
 translated_from: content/en-mt/alg/IX/07_s7_formes_hermitiennes_et_corps_ordonnes.md
 source_lang: en-mt
 translation_method: machine
@@ -157,7 +157,7 @@ Giả sử rằng $A = K$ hoặc $A = K(i)$; cho một dạng song tuyến tính
 
 Cho S là một tập hợp các tự đồng cấu của E (tương ứng, các ánh xạ nửa tuyến tính từ E vào E khi $A = K$ hoặc $A = K(i)$) ổn định đối với ánh xạ u → u*. Khi đó, nếu V là một không gian con của E ổn định đối với S, thì trực giao của nó V⁰ ổn định đối với S. Mặt khác E là tổng trực tiếp của các không gian con ổn định đối với S, cực tiểu trong tập hợp các không gian con ≠ {0} và ổn định đối với S, và trực giao từng đôi một.
 
-Thật vậy, cho V là một không gian con của E ổn định dưới S; với mọi $x \in V⁰$, $y \in V$ và $u \in S$, ta có $u*(y) \in V$, do đó $\Phi(y, u(x)) = \Phi(u*(y), x) = 0$ (tương ứng $\Phi(y, u(x)) = \overline{\Phi(u^*(y), x)} = 0$), và do đó $u(x) \in V⁰$; vậy V⁰ ổn định dưới S, điều này chứng minh mệnh đề đầu tiên của ta. Đối với mệnh đề thứ hai, ta sẽ tiến hành quy nạp theo chiều n của E, trường hợp n = 0 là tầm thường. Với n ≠ 0 tồn tại một không gian con V ≠ {0} của E ổn định dưới S và cực tiểu, chẳng hạn một không gian con ổn định ≠ {0} có chiều cực tiểu. Khi đó chỉ cần áp dụng giả thiết quy nạp cho V⁰, vì tự đồng cấu phụ hợp của hạn chế của u trên V⁰ (đối với hạn chế của $\Phi$) trùng với hạn chế trên V⁰ của tự đồng cấu phụ hợp của u.
+Thật vậy, cho V là một không gian con của E ổn định dưới S; với mọi $x \in V^0$, $y \in V$ và $u \in S$, ta có $u*(y) \in V$, do đó $\Phi(y, u(x)) = \Phi(u*(y), x) = 0$ (tương ứng $\Phi(y, u(x)) = \overline{\Phi(u^*(y), x)} = 0$), và do đó $u(x) \in V^0$; vậy V⁰ ổn định dưới S, điều này chứng minh mệnh đề đầu tiên của ta. Đối với mệnh đề thứ hai, ta sẽ tiến hành quy nạp theo chiều n của E, trường hợp n = 0 là tầm thường. Với n ≠ 0 tồn tại một không gian con V ≠ {0} của E ổn định dưới S và cực tiểu, chẳng hạn một không gian con ổn định ≠ {0} có chiều cực tiểu. Khi đó chỉ cần áp dụng giả thiết quy nạp cho V⁰, vì tự đồng cấu phụ hợp của hạn chế của u trên V⁰ (đối với hạn chế của $\Phi$) trùng với hạn chế trên V⁰ của tự đồng cấu phụ hợp của u.
 
 #### Hệ quả 1 {#alg-ix-s7-thm-2-cor-1 .statement}
 

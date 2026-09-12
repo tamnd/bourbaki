@@ -26,7 +26,7 @@ subsections:
       pdf_page: 218
 statements: 21
 exercises: 6
-content_sha256: 919da70d2816cf67fbcdc62af1b32659189ff776273e42b53f86573e4471cd39
+content_sha256: 15b90e7f75e4f1d8e8211671bff420ff633fa75cb3971759b85af7418043aa6d
 ---
 
 ## § 13. $p$-RADICAL EXTENSIONS OF HEIGHT $\leq 1$
@@ -82,13 +82,13 @@ If T is p-free over K(S), we have $T \cap K(S) = \varnothing$ and a fortiori $S 
 
 — Let L be a p-radical extension of height $\leq 1$ of K and M a subextension of L. Then L is p-radical of height $\leq 1$ over M and M is p-radical of height $\leq 1$ over K. Moreover, if B is a p-basis of M over K and C is a p-basis of L over M, then $B \cap C = \varnothing$ and $B \cup C$ is a p-basis of L over K.
 
-Let K be a field. A family $(x_i)_{i \in I}$, is said to be a (absolute) p-basis of K if it is a p-basis of K over $K^p$. For every integer $n \geq 1$ we denote by $\Lambda(n)$ the subset of $N^{(1)}$ consisting of all $a = (\alpha_i)_{i \in I}$, such that $\alpha_i < p^n$ for all $i \in I$.
+Let K be a field. A family $(x_i)_{i \in I}$, is said to be a (absolute) p-basis of K if it is a p-basis of K over $K^p$. For every integer $n \geq 1$ we denote by $\Lambda(n)$ the subset of $N^{(I)}$ consisting of all $a = (\alpha_i)_{i \in I}$, such that $\alpha_i < p^n$ for all $i \in I$.
 
 #### Proposition 4 {#alg-v-s13-prop-4 .statement}
 
 — Let $x = (x_i)_{i \in I}$ be a p-basis of K. For every integer $n \geq 1$, the family $(x^u)_{u \in \Lambda(n)}$ is a basis of K over $K^{p^n}$.
 
-For $n = 1$ the assertion reduces to Prop. 1 (V, p. 98). The set $\Lambda(n)$ consists of elements of $N^{(1)}$ of the form $a = \beta + p^{n-1}\gamma$ with $\beta \in \Lambda(n-1)$ and $\gamma \in \Lambda(1)$. Such a decomposition is unique and we have $x^\alpha = x^\beta (x^\gamma)^{p^{n-1}}$. Moreover, the family $(x_i^{p^{n-1}})_{i \in I}$ is clearly a p-basis of $K^{p^{n-1}}$ over $K^{p^n}$, hence the family $(x^\gamma)^{p^{n-1}}$ is a basis of $K^{p^{n-1}}$ over $K^{p^n}$. We thus obtain the conclusion by induction, using II, p. 222, Prop. 25.
+For $n = 1$ the assertion reduces to Prop. 1 (V, p. 98). The set $\Lambda(n)$ consists of elements of $N^{(I)}$ of the form $a = \beta + p^{n-1}\gamma$ with $\beta \in \Lambda(n-1)$ and $\gamma \in \Lambda(1)$. Such a decomposition is unique and we have $x^\alpha = x^\beta (x^\gamma)^{p^{n-1}}$. Moreover, the family $(x_i^{p^{n-1}})_{i \in I}$ is clearly a p-basis of $K^{p^{n-1}}$ over $K^{p^n}$, hence the family $(x^\gamma)^{p^{n-1}}$ is a basis of $K^{p^{n-1}}$ over $K^{p^n}$. We thus obtain the conclusion by induction, using II, p. 222, Prop. 25.
 
 ### 2. Differentials and pbases
 

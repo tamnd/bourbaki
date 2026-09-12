@@ -25,7 +25,7 @@ subsections:
       pdf_page: 203
 statements: 22
 exercises: 6
-content_sha256: 329bde6223f048fad085e0ed26dc91ce01d4f8a4c562dfe55fb41913ec26b775
+content_sha256: e1897e7572b063c6d8380b7bb04825e6e2b78eb85af026fefe5a26a3c60c9999
 ---
 
 ## § 13. EXTENSIONS RADICIELLES DE HAUTEUR $\leqslant 1$
@@ -89,7 +89,7 @@ Soit K un corps. On dit qu’une famille $(x_i)_{i \in I}$ est une p-base (absol
 
 Soit $x = (x_i)_{i \in I}$ une $p$-base de $K$. Pour tout entier $n \geq 1$, la famille $(x^\alpha)_{\alpha \in \Lambda(n)}$ est une base de $K$ sur $K^{p^n}$.
 
-Pour $n = 1$, l’assertion se réduit à la prop. 1 (V, p. 94). L’ensemble $\Lambda(n)$ se compose des éléments de $\mathbf{N}^{(1)}$ de la forme $\alpha = \beta + p^{n-1}\gamma$ avec $\beta \in \Lambda(n-1)$ et $\gamma \in \Lambda(1)$. Une telle décomposition est unique, et l’on a $x^\alpha = x^\beta (x^\gamma)^{p^{n-1}}$. De plus, la famille $(x_i^{p^{n-1}})_{i \in I}$ est évidemment une $p$-base de $K^{p^{n-1}}$ sur $K^{p^n}$, donc la famille $(x^\gamma)^{p^{n-1}}$ est une base de $K^{p^{n-1}}$ sur $K^{p^n}$. On conclut alors par récurrence, grâce à II, p. 31, prop. 25.
+Pour $n = 1$, l’assertion se réduit à la prop. 1 (V, p. 94). L’ensemble $\Lambda(n)$ se compose des éléments de $\mathbf{N}^{(I)}$ de la forme $\alpha = \beta + p^{n-1}\gamma$ avec $\beta \in \Lambda(n-1)$ et $\gamma \in \Lambda(1)$. Une telle décomposition est unique, et l’on a $x^\alpha = x^\beta (x^\gamma)^{p^{n-1}}$. De plus, la famille $(x_i^{p^{n-1}})_{i \in I}$ est évidemment une $p$-base de $K^{p^{n-1}}$ sur $K^{p^n}$, donc la famille $(x^\gamma)^{p^{n-1}}$ est une base de $K^{p^{n-1}}$ sur $K^{p^n}$. On conclut alors par récurrence, grâce à II, p. 31, prop. 25.
 
 ### 2. Différentielles et $p$-bases
 

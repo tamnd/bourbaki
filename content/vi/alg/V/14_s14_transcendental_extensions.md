@@ -42,9 +42,9 @@ subsections:
       pdf_page: 231
 statements: 51
 exercises: 20
-content_sha256: 68e8a89210b867f3aef995de44a1e719b3670939778b2ec109ca29baff7bf39a
+content_sha256: e9f499f027fccdf22a3330b1652717111a98b25f9ec286c33dcff9e0a06c6637
 translated_from: content/en/alg/V/14_s14_transcendental_extensions.md
-source_content_sha256: 96acc445fe1ac21789277cae9b626dfd3b7587df6b094c92c7477d5a1cf37432
+source_content_sha256: 68b2b1228dbf42359151496377d363ab04eb3d8d6de48753d52f9533efa6678c
 translation_model: gpt-5.4
 translation_run: translate-vi-22b61d8f
 glossary_version: 34
@@ -60,7 +60,7 @@ Nhắc lại (IV, p. 4) định nghĩa sau đây:
 
 #### Định nghĩa 1 {#alg-v-s14-def-1 .statement}
 
-*Một mở rộng E của một trường K; một họ $\mathbf{x} = (x_i)_{i \in I}$ các phần tử của E được gọi là đại số tự do trên K nếu các đơn thức $\mathbf{x}^a = \prod_{i \in I} x_i^{a_i}$ đối với các $x_i$ (với $a = (\alpha_i)_{i \in I}$, trong $\mathbf{N}^{(1)}$) là độc lập tuyến tính trên K. Trong trường hợp ngược lại, họ ấy được gọi là liên hệ đại số trên K.*
+*Một mở rộng E của một trường K; một họ $\mathbf{x} = (x_i)_{i \in I}$ các phần tử của E được gọi là đại số tự do trên K nếu các đơn thức $\mathbf{x}^a = \prod_{i \in I} x_i^{a_i}$ đối với các $x_i$ (với $a = (\alpha_i)_{i \in I}$, trong $\mathbf{N}^{(I)}$) là độc lập tuyến tính trên K. Trong trường hợp ngược lại, họ ấy được gọi là liên hệ đại số trên K.*
 
 Định nghĩa 1 cũng có thể được phát biểu như sau:
 

@@ -53,11 +53,11 @@ subsections:
       pdf_page: 101
 statements: 39
 exercises: 15
-content_sha256: 509bb0a981e4fe7e45a2ba5778b2b60328b4153d4744989ccac06b6e0368c43f
+content_sha256: d9e686475f5684dc2437fc172de60967de869a23384f3cbb25e55a1a48229664
 translated_from: content/fr/ac/X/07_s7_algebres_lisses.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 88cf6f006be004d17dda9558ae61456b20a200ae1ce82643f605aed7f8e8fa28
+source_content_sha256: bcafdf4db47f70c0bba342ff648d4aab9671001599610629aeb7d3892e87964e
 translation_model: gpt-5.4
 translation_run: translate-en-mt-fbad9c28
 glossary_version: 34
@@ -332,13 +332,13 @@ defined by $\psi(\alpha, (b_i)) = \Omega_0(\rho)(\alpha) + \sum_{i \in I} b_i dt
 Consider the sequence of B-modules and B-linear mappings
 
 $$
-B^{(A)} \xrightarrow{\varphi} (B \otimes_{A} \Omega_k(A)) \oplus B^{(1)} \xrightarrow{\psi} \Omega_k(B) \longrightarrow 0,
+B^{(A)} \xrightarrow{\varphi} (B \otimes_{A} \Omega_k(A)) \oplus B^{(I)} \xrightarrow{\psi} \Omega_k(B) \longrightarrow 0,
 $$
 
 where $\varphi$ is the homomorphism such that $\varphi(e_\lambda) = n_\lambda$; it is a matter of proving that this sequence is exact. By A, II, p. 36, th. 1, it is enough to prove that, for every B-module M, the sequence
 
 $$
-0 \to \mathrm{Hom}_B(\Omega_k(B), M) \xrightarrow{\mathrm{Hom}(\psi, 1)} \mathrm{Hom}_B((B \otimes_A \Omega_k(A)) \oplus B^{(1)}, M) \xrightarrow{\mathrm{Hom}(\varphi, 1)} \mathrm{Hom}_B(B^{(A)}, M)
+0 \to \mathrm{Hom}_B(\Omega_k(B), M) \xrightarrow{\mathrm{Hom}(\psi, 1)} \mathrm{Hom}_B((B \otimes_A \Omega_k(A)) \oplus B^{(I)}, M) \xrightarrow{\mathrm{Hom}(\varphi, 1)} \mathrm{Hom}_B(B^{(A)}, M)
 $$
 
 is exact. In view of the universal property of the module of differentials (A, III, p. 134), this sequence is identified with
@@ -347,7 +347,7 @@ $$
 0 \to D_k(B, M) \xrightarrow{\psi'} D_k(A, M) \oplus M^1 \xrightarrow{\varphi'} M^A
 $$
 
-where $\psi'(D) = (D \circ \rho, (D(t_i)))$ and $\varphi'(\Delta, (m_i)) = (f^\Delta_\lambda(t) + \sum_i \frac{\partial f_\lambda}{\partial T_i}(t) m_i)_{\lambda \in A}$ (in accordance with A, V, p. 121, for every polynomial $f = \sum_{\alpha \in \mathbf{N}^{(1)}} c_\alpha T^\alpha$ of $A[T]$, $f^\Delta(t)$ denotes the element $\sum_\alpha t^\alpha \Delta(c_\alpha)$). But the exactness of this sequence follows from loc. cit., prop. 1, in view of the fact that a derivation $D : B \to M$ is $k$-linear if and only if this is so for $D \circ \rho$.
+where $\psi'(D) = (D \circ \rho, (D(t_i)))$ and $\varphi'(\Delta, (m_i)) = (f^\Delta_\lambda(t) + \sum_i \frac{\partial f_\lambda}{\partial T_i}(t) m_i)_{\lambda \in A}$ (in accordance with A, V, p. 121, for every polynomial $f = \sum_{\alpha \in \mathbf{N}^{(I)}} c_\alpha T^\alpha$ of $A[T]$, $f^\Delta(t)$ denotes the element $\sum_\alpha t^\alpha \Delta(c_\alpha)$). But the exactness of this sequence follows from loc. cit., prop. 1, in view of the fact that a derivation $D : B \to M$ is $k$-linear if and only if this is so for $D \circ \rho$.
 
 Let A be a ring. There exists a unique structure of $\mathbf{Z}$-algebra on A; one writes simply $\Omega(A)$ for the A-module $\Omega_{\mathbf{Z}}(A)$. If $\rho : k \to A$ is a homomorphism of rings, there is a canonical exact sequence of A-modules (A, III, p. 136, prop. 21)
 

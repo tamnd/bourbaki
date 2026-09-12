@@ -28,7 +28,7 @@ subsections:
       pdf_page: 171
 statements: 31
 exercises: 0
-content_sha256: 3a9d4ace69e491ab598e153c24e4b521a28250a0d916bab231809799b6b90867
+content_sha256: c45138f692a2f7d57e2fbbd0bfeba3c686ddc66cbe25d47067aa94da5b1a8ef4
 translated_from: content/en-mt/alg/IX/10_s10_angles.md
 source_lang: en-mt
 translation_method: machine
@@ -361,7 +361,7 @@ $$
 
 ### 4. Các cung góc.
 
-Trước hết ta sẽ giả thiết, không thêm bất kỳ giả thiết nào khác, rằng E là một mặt phẳng có định hướng trên trường có thứ tự A. Ta nói rằng ba nửa đường thẳng D₀, D₁, D₂ (có gốc 0) của E tạo thành một dãy trực tiếp nếu, với $xᵢ \in Dᵢ$, $xᵢ \neq 0$ (i = 0, 1, 2), ít nhất hai trong các song vectơ $x₀ \wedge x₁, x₁ \wedge x₂, x₂ \wedge x₀$ là > 0; trong trường hợp này các dãy D₁, D₂, D₀ và D₂, D₀, D₁ cũng là trực tiếp. Hiển nhiên rằng ba nửa đường thẳng tạo thành một dãy trực tiếp là phân biệt. Cho hai nửa đường thẳng D₁, D₂ của E, cung góc mở (tương ứng đóng) có gốc D₁ và đầu mút D₂ là tập hợp (hoặc, do lạm dụng ngôn ngữ, hợp) của các nửa đường thẳng D sao cho dãy D₁, D, D₂ là trực tiếp (tương ứng sao cho D = D₁ hoặc D = D₂ hoặc dãy D₁, D, D₂ là trực tiếp).
+Trước hết ta sẽ giả thiết, không thêm bất kỳ giả thiết nào khác, rằng E là một mặt phẳng có định hướng trên trường có thứ tự A. Ta nói rằng ba nửa đường thẳng D₀, D₁, D₂ (có gốc 0) của E tạo thành một dãy trực tiếp nếu, với $x_i \in D_i$, $x_i \neq 0$ (i = 0, 1, 2), ít nhất hai trong các song vectơ $x_0 \wedge x_1, x_1 \wedge x_2, x_2 \wedge x_0$ là > 0; trong trường hợp này các dãy D₁, D₂, D₀ và D₂, D₀, D₁ cũng là trực tiếp. Hiển nhiên rằng ba nửa đường thẳng tạo thành một dãy trực tiếp là phân biệt. Cho hai nửa đường thẳng D₁, D₂ của E, cung góc mở (tương ứng đóng) có gốc D₁ và đầu mút D₂ là tập hợp (hoặc, do lạm dụng ngôn ngữ, hợp) của các nửa đường thẳng D sao cho dãy D₁, D, D₂ là trực tiếp (tương ứng sao cho D = D₁ hoặc D = D₂ hoặc dãy D₁, D, D₂ là trực tiếp).
 
 #### Mệnh đề 11 {#alg-ix-s10-prop-11 .statement}
 
@@ -371,7 +371,7 @@ Cho E là một mặt phẳng có định hướng trên một trường có th�
 
 giữa các phần tử D₁, D₂ của G là một quan hệ thứ tự toàn phần trong G.
 
-Thật vậy, các tiên đề của các quan hệ thứ tự toàn phần được kiểm tra một cách hiển nhiên, ngoại trừ tính bắc cầu. Cho D₁, D₂, D₃ là ba nửa đường thẳng sao cho các dãy D₀, D₁, D₂ và D₀, D₂, D₃ là trực tiếp; ta sẽ bây giờ chứng minh rằng dãy D₀, D₁, D₃ là trực tiếp. Vì vậy hãy lấy một vectơ $xᵢ \neq 0$ trong Dᵢ (i = 0, 1, 2, 3), chọn một song vectơ e > 0, và đặt $xᵢ \wedge xⱼ = aᵢⱼe (aᵢⱼ \in A)$. Viết $e = x₀ \wedge y (y \in E)$, và lấy $(x₀, y)$ làm một cơ sở của E, ta dễ dàng kiểm tra được quan hệ
+Thật vậy, các tiên đề của các quan hệ thứ tự toàn phần được kiểm tra một cách hiển nhiên, ngoại trừ tính bắc cầu. Cho D₁, D₂, D₃ là ba nửa đường thẳng sao cho các dãy D₀, D₁, D₂ và D₀, D₂, D₃ là trực tiếp; ta sẽ bây giờ chứng minh rằng dãy D₀, D₁, D₃ là trực tiếp. Vì vậy hãy lấy một vectơ $x_i \neq 0$ trong Dᵢ (i = 0, 1, 2, 3), chọn một song vectơ e > 0, và đặt $x_i \wedge x_j = a_{ij}e (a_{ij} \in A)$. Viết $e = x_0 \wedge y (y \in E)$, và lấy $(x_0, y)$ làm một cơ sở của E, ta dễ dàng kiểm tra được quan hệ
 
 $$
 a_{01}a_{23} + a_{02}a_{31} + a_{03}a_{12} = 0.

@@ -65,7 +65,7 @@ subsections:
       pdf_page: 328
 statements: 53
 exercises: 34
-content_sha256: 8bef78a149935dcc812ca88a7c78fccd073f236e92fc0c85dcc7a0b6face89ff
+content_sha256: 4de21711744a3bb878c2a27d25819d847677a2fd6c051474f5f29d82f2d3767c
 translated_from: content/en/alg/VI/01_s1_ordered_groups_divisibility.md
 source_content_sha256: 5dfbd1ec95d8ba9a7a5492cea424d8856e8b03e0d486d93477fdfa800389bdd9
 translation_model: gpt-5.4
@@ -633,7 +633,7 @@ $$
 (n_i)_{i \in I} \mapsto \sum_{i \in I} n_i p_i
 $$
 
-là một đẳng cấu của nhóm có thứ tự $\mathbf{Z}^{(1)}$, tổng trực tiếp của các nhóm có thứ tự $Z$ (VI, p. 7), lên nhóm con có thứ tự của $G$ sinh bởi các $p_\iota$.
+là một đẳng cấu của nhóm có thứ tự $\mathbf{Z}^{(I)}$, tổng trực tiếp của các nhóm có thứ tự $Z$ (VI, p. 7), lên nhóm con có thứ tự của $G$ sinh bởi các $p_\iota$.
 
 Chỉ cần chứng minh rằng quan hệ $\sum_{\iota \in I} n_\iota p_\iota \geq 0$ tương đương với $n_\iota \geq 0$ với mọi $\iota$, vì đặc biệt quan hệ $\sum_{\iota \in I} n_\iota p_\iota = 0$ sẽ kéo theo $n_\iota = 0$ với mọi $\iota$, do đó điều này sẽ cho thấy họ $(p_\iota)$ là độc lập tuyến tính. Bây giờ gọi $I'$ (ứng với) $I''$) là tập con hữu hạn của $I$ gồm những $\iota$ sao cho $n_\iota > 0$ (ứng với $n_\iota < 0$) ; ta có
 
@@ -646,13 +646,13 @@ $$
 #### Định lý 2 {#alg-vi-s1-thm-2 .statement}
 
 — Cho $G$ là một nhóm lọc. Khi đó các tính chất sau là tương đương:
-a) $G$ đẳng cấu với một nhóm có thứ tự dạng $\mathbf{Z}^{(1)}$.
+a) $G$ đẳng cấu với một nhóm có thứ tự dạng $\mathbf{Z}^{(I)}$.
 b) $G$ có thứ tự dàn và thỏa mãn điều kiện sau:
 (MIN) Mọi tập khác rỗng các phần tử dương của $G$ đều có một phần tử cực tiểu.
 c) $G$ thỏa mãn điều kiện (MIN) và mọi phần tử bất khả quy của $G$ đều có tính chất (P).
 d) $G$ được sinh bởi các phần tử bất khả quy của nó, và mọi phần tử bất khả quy của $G$ đều có tính chất (P).
 
-Trước hết hãy chỉ ra rằng a) kéo theo b). Nhóm $\mathbf{Z}^{(1)}$ có thứ tự dàn, vì là tổng trực tiếp của các nhóm được sắp thứ tự toàn phần. Mặt khác, cho $E$ là một tập hợp khác rỗng các phần tử dương của $\mathbf{Z}^{(1)}$ và cho $x = \sum n_\iota e_\iota$ là một phần tử của $E$ (trong đó $(e_\iota)$ ký hiệu cơ sở tự nhiên của $\mathbf{Z}^{(1)}$) ; có một số hữu hạn $\prod (n_\iota + 1)$ phần tử $y$ của $\mathbf{Z}^{(1)}$ sao cho $0 \leq y \leq x$, nên tập hợp $F$ các phần tử của $E$ nhỏ hơn hoặc bằng $x$ thì $a$ fortiori hữu hạn ; vì nó khác rỗng, nó chứa một phần tử cực tiểu (Lý thuyết tập hợp, III, p. 170, Hệ quả 2), rõ ràng đó là một phần tử cực tiểu của $E$.
+Trước hết hãy chỉ ra rằng a) kéo theo b). Nhóm $\mathbf{Z}^{(I)}$ có thứ tự dàn, vì là tổng trực tiếp của các nhóm được sắp thứ tự toàn phần. Mặt khác, cho $E$ là một tập hợp khác rỗng các phần tử dương của $\mathbf{Z}^{(I)}$ và cho $x = \sum n_\iota e_\iota$ là một phần tử của $E$ (trong đó $(e_\iota)$ ký hiệu cơ sở tự nhiên của $\mathbf{Z}^{(I)}$) ; có một số hữu hạn $\prod (n_\iota + 1)$ phần tử $y$ của $\mathbf{Z}^{(I)}$ sao cho $0 \leq y \leq x$, nên tập hợp $F$ các phần tử của $E$ nhỏ hơn hoặc bằng $x$ thì $a$ fortiori hữu hạn ; vì nó khác rỗng, nó chứa một phần tử cực tiểu (Lý thuyết tập hợp, III, p. 170, Hệ quả 2), rõ ràng đó là một phần tử cực tiểu của $E$.
 
 Rõ ràng b) kéo theo c), theo Mệnh đề 14. Hãy chỉ ra rằng c) kéo theo d). Vì $G$ được lọc, chỉ cần (VI, p. 4, Mệnh đề 4) kiểm tra rằng tập hợp $F$ các phần tử dương của $G$ là tổng của các phần tử bất khả quy bằng $G_+ - \{0\}$. Nếu điều này không đúng, thì từ (MIN) suy ra phần bù của $F$ trong $G_+ - \{0\}$ sẽ có một phần tử cực tiểu $a$; theo định nghĩa, $a$ không bất khả quy, nên là tổng của hai phần tử dương ngặt $x$ và $y$; vì $x < a$ và $y < a$, các phần tử này thuộc $F$, và do đó là các tổng của các phần tử bất khả quy, suy ra $a$ cũng vậy, mâu thuẫn. Cuối cùng, d) kéo theo a) theo Mệnh đề 15.
 

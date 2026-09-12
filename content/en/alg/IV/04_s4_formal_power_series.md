@@ -54,7 +54,7 @@ subsections:
       pdf_page: 48
 statements: 23
 exercises: 8
-content_sha256: 93080588981c2b27de5dc22c144773a4cc368e44a520855683149c13794140e7
+content_sha256: ed35587a155fb15e501a74eae948a900accc935d0e586e804f6eb09239b179a3
 ---
 
 ## § 4. FORMAL POWER SERIES
@@ -133,7 +133,7 @@ $$
 \sum_{(\lambda, \mu) \in L \times M} u_\lambda v_\mu = \left( \sum_{\lambda \in L} u_\lambda \right) \left( \sum_{\mu \in M} v_\mu \right)
 $$
 
-Let $(\alpha_{\lambda, \nu})_{\nu \in \mathbf{N}^{(1)}}$ (resp. $(\beta_{\mu, \nu})_{\nu \in \mathbf{N}^{(1)}}$) be the family of coefficients of $u_\lambda$ (resp. $v_\nu$). For each $\nu \in \mathbf{N}^{(1)}$ there exists only a finite number of pairs $(\nu_1, \nu_2) \in \mathbf{N}^{(1)} \times \mathbf{N}^{(1)}$ such that $\nu_1 + \nu_2 = \nu$, hence only a finite number of pairs $(\lambda, \mu) \in L \times M$ such that the coefficient of $X^\nu$ in $u_\lambda v_\mu$ is $\neq 0$. Hence the family $(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times \mathscr{J}}$ is summable. Now the formula (2) follows from the associativity of the sum (Gen. Top., III, p. 265, formula (2)).
+Let $(\alpha_{\lambda, \nu})_{\nu \in \mathbf{N}^{(I)}}$ (resp. $(\beta_{\mu, \nu})_{\nu \in \mathbf{N}^{(I)}}$) be the family of coefficients of $u_\lambda$ (resp. $v_\nu$). For each $\nu \in \mathbf{N}^{(I)}$ there exists only a finite number of pairs $(\nu_1, \nu_2) \in \mathbf{N}^{(I)} \times \mathbf{N}^{(I)}$ such that $\nu_1 + \nu_2 = \nu$, hence only a finite number of pairs $(\lambda, \mu) \in L \times M$ such that the coefficient of $X^\nu$ in $u_\lambda v_\mu$ is $\neq 0$. Hence the family $(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times \mathscr{J}}$ is summable. Now the formula (2) follows from the associativity of the sum (Gen. Top., III, p. 265, formula (2)).
 
 In $\mathbf{A}[[\mathbf{I}]]$ the product is an associative and commutative composition law. We may therefore speak of a *multipliable family* of elements of $\mathbf{A}[[\mathbf{I}]]$ and of the *product* of a multipliable family (Gen. Top., III, p. 262, remark 3).
 
@@ -147,7 +147,7 @@ $$
 \sum_{M \in \mathfrak{T}} u_M = \prod_{\lambda \in L} (1 + u_\lambda).
 $$
 
-Let us define the ideals $\mathfrak{a}_\beta$ as at the beginning of this No., and let $\beta \in \mathbf{N}^{(1)}$. There exists a finite subset $L_0$ of $L$ such that $u_\lambda \in \mathfrak{a}_\beta$ for $\lambda \notin L_0$. Then for every $M \in \mathscr{S}$ such that $M \not\subset L_0$ we have $u_M \in \mathfrak{a}_\beta$. It follows that the family $(u_M)_{M \in \mathfrak{T}}$ is summable. On the other hand, for any finite subset $M_0$ of $L$ we have
+Let us define the ideals $\mathfrak{a}_\beta$ as at the beginning of this No., and let $\beta \in \mathbf{N}^{(I)}$. There exists a finite subset $L_0$ of $L$ such that $u_\lambda \in \mathfrak{a}_\beta$ for $\lambda \notin L_0$. Then for every $M \in \mathscr{S}$ such that $M \not\subset L_0$ we have $u_M \in \mathfrak{a}_\beta$. It follows that the family $(u_M)_{M \in \mathfrak{T}}$ is summable. On the other hand, for any finite subset $M_0$ of $L$ we have
 
 $$
 \sum_{M \subset M_0} u_M = \prod_{\lambda \in M_0} (1 + u_\lambda).
@@ -157,9 +157,9 @@ Taken along the filtered ordered set $\mathfrak{T}$, the left-hand side has as l
 
 #### Proposition 3 {#alg-iv-s4-prop-3 .statement}
 
-*Let* $u = \sum a_\nu X^\nu \in \mathbf{A}[[\mathbf{I}]]$ *and* $m$ *an integer* $> 0$. *For every* $n \in \mathbf{N}$ *let* $(\alpha_{\nu, n})_{\nu \in \mathbf{N}^{(1)}}$ *be the family of coefficients of* $u^n$. *If* $\alpha_0^m = 0$, *then* $\alpha_{\nu, n} = 0$ *for* $n \geq |\nu| + m$.
+*Let* $u = \sum a_\nu X^\nu \in \mathbf{A}[[\mathbf{I}]]$ *and* $m$ *an integer* $> 0$. *For every* $n \in \mathbf{N}$ *let* $(\alpha_{\nu, n})_{\nu \in \mathbf{N}^{(I)}}$ *be the family of coefficients of* $u^n$. *If* $\alpha_0^m = 0$, *then* $\alpha_{\nu, n} = 0$ *for* $n \geq |\nu| + m$.
 
-Let $\nu \in \mathbf{N}^{(1)}$ and $n \in \mathbf{N}$. We have
+Let $\nu \in \mathbf{N}^{(I)}$ and $n \in \mathbf{N}$. We have
 
 $$
 \alpha_{\nu,n} = \sum_{\nu(1) + \cdots + \nu(n) = \nu} \alpha_{\nu(1)} \cdots \alpha_{\nu(n)} .
@@ -251,7 +251,7 @@ Conversely, suppose that the constant term $a$ of $u$ is invertible. Then there 
 
 #### Remark {#alg-iv-s4-n4-rem-1 .statement}
 
-— Let $A$ be the set of all formal power series with constant term 1. By Prop. 6, $M$ is a commutative group under multiplication; the multiplicative group of $A[[I]]$ is thus the direct product of $M$ and the multiplicative group of $A$. We shall equip $A$ with the topology induced from that of $A[[I]]$. For each $\beta \in \mathbf{N}^{(1)}$ we have in IV, p. 26 defined the ideal $a_\beta$ of $A[[I]]$; then $1 + a_\beta$ is a subgroup of $M$ and the family $(1 + a_{\beta'})$ is a fundamental system of neighbourhoods of 1 in $M$. Since the multiplication in $M$ is continuous, we see that $A$ is a topological group (Gen. Top., III, p. 223); in other words, the *mapping* $f \mapsto f^{-1}$ *is continuous in* $M$.
+— Let $A$ be the set of all formal power series with constant term 1. By Prop. 6, $M$ is a commutative group under multiplication; the multiplicative group of $A[[I]]$ is thus the direct product of $M$ and the multiplicative group of $A$. We shall equip $A$ with the topology induced from that of $A[[I]]$. For each $\beta \in \mathbf{N}^{(I)}$ we have in IV, p. 26 defined the ideal $a_\beta$ of $A[[I]]$; then $1 + a_\beta$ is a subgroup of $M$ and the family $(1 + a_{\beta'})$ is a fundamental system of neighbourhoods of 1 in $M$. Since the multiplication in $M$ is continuous, we see that $A$ is a topological group (Gen. Top., III, p. 223); in other words, the *mapping* $f \mapsto f^{-1}$ *is continuous in* $M$.
 
 Let $K$ be a commutative field and $\mathscr{O}$ the subring of the field of rational fractions $K((X_i)_{i,,})$ formed of rational fractions in which the element 0 of $K^1$ is substitutable. If $f \in \mathscr{O}$, we have $f = \frac{u}{v}$, where $u$ and $v$ are polynomials such that the constant term of $v$ is $\neq 0$, hence $v$ is invertible in $K[[I]]$. We can verify at once that the element $uv^{-1}$ of $K[[I]]$ depends only on $f$; we say that the formal power series $uv^{-1}$ is the *expansion at the origin of the rational fraction* $\frac{u}{v}$. The mapping $f \mapsto uv^{-1}$ is an injective homomorphism of $\mathscr{O}$ into $K[[I]]$; we shall often identify $\mathscr{O}$ with its image under this mapping.
 

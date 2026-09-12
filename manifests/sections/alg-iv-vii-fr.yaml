@@ -36,7 +36,7 @@ chapters:
           statements: 30
           exercises: 6
           extraction: ocr
-          content_sha256: dd1d2ba1e59d9b57430ca618db94582b2d9f277546c3a1289cc7836a2d81f4cc
+          content_sha256: 60c4a8d95523ab290676ce8bebad21c12d23f6ec07ff8513dfae674f21b872f5
         - kind: section
           section: 2
           title: ZÉROS DES POLYNÔMES
@@ -75,7 +75,7 @@ chapters:
           statements: 24
           exercises: 8
           extraction: ocr
-          content_sha256: f82cd48759fd385cc68b2172e02d2c0113dd54d7b1406896e24e1810c2a3012c
+          content_sha256: 1025d94bb3ac3b000c1d2e8303a1bd15f12c0943a031a996a19c4067eafa3f78
         - kind: section
           section: 5
           title: TENSEURS SYMÉTRIQUES ET APPLICATIONS POLYNOMIALES
@@ -88,7 +88,7 @@ chapters:
           statements: 42
           exercises: 16
           extraction: ocr
-          content_sha256: f05c2c47822b3daf1b79c1b994733e52c0a50c91b85c9779521cae4e99d2d9b9
+          content_sha256: 57be0eaa28a7228b512647c8ada0f01367773aa3b131a7c3cd8b6c47396ffeed
         - kind: section
           section: 6
           title: FONCTIONS SYMÉTRIQUES
@@ -281,7 +281,7 @@ chapters:
           statements: 22
           exercises: 6
           extraction: ocr
-          content_sha256: 329bde6223f048fad085e0ed26dc91ce01d4f8a4c562dfe55fb41913ec26b775
+          content_sha256: e1897e7572b063c6d8380b7bb04825e6e2b78eb85af026fefe5a26a3c60c9999
         - kind: section
           section: 14
           title: EXTENSIONS TRANSCENDANTES
@@ -357,7 +357,7 @@ chapters:
           statements: 54
           exercises: 36
           extraction: ocr
-          content_sha256: 5210751720bc4d1470a1f313e1aa8fe306859300b0709e0c18bfe5f5cb9bb663
+          content_sha256: 16de2c1b1e33d51e18a8ed5db06080bc79bae228a7afd8366ca0a77c054e5ca3
         - kind: section
           section: 2
           title: CORPS ORDONNÉS

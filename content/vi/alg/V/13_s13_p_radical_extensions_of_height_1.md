@@ -26,9 +26,9 @@ subsections:
       pdf_page: 218
 statements: 21
 exercises: 6
-content_sha256: ead619fbe19a5133bafc7a857ead078acbdfbf952f6bab843161f51782586fcb
+content_sha256: 45a8a53749440d640932f342ec06ac39968da7b5fc02f2342cbeddf8a62c96b2
 translated_from: content/en/alg/V/13_s13_p_radical_extensions_of_height_1.md
-source_content_sha256: 919da70d2816cf67fbcdc62af1b32659189ff776273e42b53f86573e4471cd39
+source_content_sha256: 15b90e7f75e4f1d8e8211671bff420ff633fa75cb3971759b85af7418043aa6d
 translation_model: gpt-5.4, gpt-5-6-mini, copied
 translation_run: translate-vi-d004b81c
 glossary_version: 34
@@ -89,13 +89,13 @@ Nếu T là p-tự do trên K(S), ta có $T \cap K(S) = \varnothing$ và a forti
 
 — Cho L là một mở rộng căn p có chiều cao $\leq 1$ của K và M là một mở rộng con của L. Khi đó L là căn p có chiều cao $\leq 1$ trên M và M là căn p có chiều cao $\leq 1$ trên K. Hơn nữa, nếu B là một cơ sở p của M trên K và C là một cơ sở p của L trên M, thì $B \cap C = \varnothing$ và $B \cup C$ là một cơ sở p của L trên K.
 
-Cho K là một trường. Một họ $(x_i)_{i \in I}$ được gọi là một cơ sở p (tuyệt đối) của K nếu nó là một cơ sở p của K trên $K^p$. Với mọi số nguyên $n \geq 1$ ta ký hiệu bởi $\Lambda(n)$ tập con của $N^{(1)}$ gồm tất cả các $a = (\alpha_i)_{i \in I}$ sao cho $\alpha_i < p^n$ với mọi $i \in I$.
+Cho K là một trường. Một họ $(x_i)_{i \in I}$ được gọi là một cơ sở p (tuyệt đối) của K nếu nó là một cơ sở p của K trên $K^p$. Với mọi số nguyên $n \geq 1$ ta ký hiệu bởi $\Lambda(n)$ tập con của $N^{(I)}$ gồm tất cả các $a = (\alpha_i)_{i \in I}$ sao cho $\alpha_i < p^n$ với mọi $i \in I$.
 
 #### Mệnh đề 4 {#alg-v-s13-prop-4 .statement}
 
 — Cho $x = (x_i)_{i \in I}$ là một p-cơ sở của K. Với mọi số nguyên $n \geq 1$, họ $(x^u)_{u \in \Lambda(n)}$ là một cơ sở của K trên $K^{p^n}$.
 
-Với $n = 1$ thì mệnh đề quy về Mệnh đề 1 (V, p. 98). Tập hợp $\Lambda(n)$ gồm các phần tử của $N^{(1)}$ có dạng $a = \beta + p^{n-1}\gamma$ với $\beta \in \Lambda(n-1)$ và $\gamma \in \Lambda(1)$. Phân tích như vậy là duy nhất và ta có $x^\alpha = x^\beta (x^\gamma)^{p^{n-1}}$. Hơn nữa, họ $(x_i^{p^{n-1}})_{i \in I}$ rõ ràng là một p-cơ sở của $K^{p^{n-1}}$ trên $K^{p^n}$, do đó họ $(x^\gamma)^{p^{n-1}}$ là một cơ sở của $K^{p^{n-1}}$ trên $K^{p^n}$. Như vậy ta thu được kết luận bằng quy nạp, dùng II, p. 222, Mệnh đề 25.
+Với $n = 1$ thì mệnh đề quy về Mệnh đề 1 (V, p. 98). Tập hợp $\Lambda(n)$ gồm các phần tử của $N^{(I)}$ có dạng $a = \beta + p^{n-1}\gamma$ với $\beta \in \Lambda(n-1)$ và $\gamma \in \Lambda(1)$. Phân tích như vậy là duy nhất và ta có $x^\alpha = x^\beta (x^\gamma)^{p^{n-1}}$. Hơn nữa, họ $(x_i^{p^{n-1}})_{i \in I}$ rõ ràng là một p-cơ sở của $K^{p^{n-1}}$ trên $K^{p^n}$, do đó họ $(x^\gamma)^{p^{n-1}}$ là một cơ sở của $K^{p^{n-1}}$ trên $K^{p^n}$. Như vậy ta thu được kết luận bằng quy nạp, dùng II, p. 222, Mệnh đề 25.
 
 ### 2. Vi phân và p-cơ sở
 

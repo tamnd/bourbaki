@@ -85,7 +85,7 @@ chapters:
           statements: 17
           exercises: 0
           extraction: ocr
-          content_sha256: 64c120cd8fea231fd01df69e4b0842413cd496d71f9958164a6a57198bd868df
+          content_sha256: fdfa14db733c63e64d598672251a02515afe7b23caf39c29d53cd97f3cd1ba15
         - kind: section
           section: 7
           title: Formes hermitiennes et corps ordonnés

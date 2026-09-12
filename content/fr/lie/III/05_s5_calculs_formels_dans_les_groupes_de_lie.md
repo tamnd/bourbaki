@@ -28,7 +28,7 @@ subsections:
       pdf_page: 188
 statements: 8
 exercises: 2
-content_sha256: a1b0dc0da441ba1336a9f001ec0bd88ac8374d25e9d750ad59f6a32210228f6d
+content_sha256: 57db1b938934ff3d24aec0ae66b8c6f64f8cc88bd34c6237e16755493c34b6cb
 ---
 
 ## § 5. Calculs formels dans les groupes de Lie
@@ -281,14 +281,14 @@ $$
 Posons $\sigma = \{j_1, j_2, \ldots, j_q\}$ avec $j_1 < j_2 < \cdots < j_q$. Dans (14) (où l’on remplace $j$ par t), substituons 0 à x(k) pour k ∉ σ ; comme 0 est élément neutre de G, on obtient le développement en série entière à l’origine de x(j₁) . x(j₂) . . . . . x(jₖ) :
 
 $$
-x(j₁) . x(j₂) . . . . . x(jₖ) = \sum_{\sigma(\alpha) \subset \sigma} a_{\alpha(1),...,\alpha(t)} x(j₁)^{\alpha(j₁)} x(j₂)^{\alpha(j₂)} . . . x(jₖ)^{\alpha(jₖ)}
+x(j_1) . x(j_2) . . . . . x(j_k) = \sum_{\sigma(\alpha) \subset \sigma} a_{\alpha(1),...,\alpha(t)} x(j_1)^{\alpha(j_1)} x(j_2)^{\alpha(j_2)} . . . x(j_k)^{\alpha(j_k)}
 $$
 
 donc, compte tenu de la définition de $\psi_q$:
 
 (20)
 $$
-\psi_q(x) = \sum_{\sigma(\alpha) = \sigma} a_{\alpha(1),...,\alpha(t)} x^{\alpha(j₁)+\cdots+\alpha(jₖ)}.
+\psi_q(x) = \sum_{\sigma(\alpha) = \sigma} a_{\alpha(1),...,\alpha(t)} x^{\alpha(j_1)+\cdots+\alpha(j_k)}.
 $$
 
 D’après (19) et (20), on voit que $h_{t,\sigma}(x) = \psi_{card_\sigma}(x)$. Alors, (18) entraîne

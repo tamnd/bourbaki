@@ -36,7 +36,7 @@ subsections:
       pdf_page: 98
 statements: 17
 exercises: 0
-content_sha256: 64c120cd8fea231fd01df69e4b0842413cd496d71f9958164a6a57198bd868df
+content_sha256: fdfa14db733c63e64d598672251a02515afe7b23caf39c29d53cd97f3cd1ba15
 ---
 
 ## § 6. Propriétés spéciales aux formes hermitiennes
@@ -464,7 +464,7 @@ quels que soient x, y dans L, est un déplacement (utiliser l’exerc. 7 du § 1
 
 b) Montrer que le groupe des déplacements est engendré par les symétries par rapport aux hyperplans non isotropes de l’espace affine L (en utilisant la prop. 5 du no 4, se ramener à prouver que toute translation non isotrope est produit de deux telles symétries).
 
-22) Dans un espace hermitien L, on dit que deux variétés linéaires sont perpendiculaires si leurs directions sont des sous-espaces faiblement orthogonaux (§ 3, exerc. 11). On suppose L de dimension finie ; soient V₁, V₂ deux variétés linéaires, W₁, W₂ leurs directions respectives. On suppose que $p = \dim(W₁ + W₂) < n$; montrer que si $W₁ + W₂$ n’est pas isotrope, il existe au moins une variété linéaire U de dimension $n - p$, perpendiculaire à V₁ et à V₂, et rencontrant chacune des variétés V₁, V₂ en un seul point ; en outre, si $q = \dim(W₁ \cap W₂)$, la réunion de toutes les variétés linéaires U ayant les propriétés précédentes est une variété linéaire de dimension $n - p + q$.
+22) Dans un espace hermitien L, on dit que deux variétés linéaires sont perpendiculaires si leurs directions sont des sous-espaces faiblement orthogonaux (§ 3, exerc. 11). On suppose L de dimension finie ; soient V₁, V₂ deux variétés linéaires, W₁, W₂ leurs directions respectives. On suppose que $p = \dim(W_1 + W_2) < n$; montrer que si $W_1 + W_2$ n’est pas isotrope, il existe au moins une variété linéaire U de dimension $n - p$, perpendiculaire à V₁ et à V₂, et rencontrant chacune des variétés V₁, V₂ en un seul point ; en outre, si $q = \dim(W_1 \cap W_2)$, la réunion de toutes les variétés linéaires U ayant les propriétés précédentes est une variété linéaire de dimension $n - p + q$.
 
 23) Soient A un corps commutatif de caractéristique $\neq 2$, E un espace vectoriel de dimension finie $n + 1 \geq 2$ sur A, Q une forme quadratique sur E, Φ la forme bilinéaire symétrique associée à Q. L’ensemble C des $x \in E$ tels que $Q(x) = 0$ est appelé le cône isotrope de sommet 0 et d’équation $Q(x) = 0$. S’il n’est pas réduit à 0, l’image S de C – {0} dans l’espace projectif $\mathbf{P}(E)$, par l’application canonique $\pi$ de $E - \{0\}$ sur $\mathbf{P}(E)$ (chap. II, 2e éd., App. III), est appelée *quadrique projective* (resp. *conique projective* si $n = 2$) d’équation homogène $Q(x) = 0$. On dit que S est *dégénérée* si Q est dégénérée. On dit que deux variétés linéaires projectives $V_1, V_2$ de $\mathbf{P}(E)$ sont *conjuguées* par rapport à S si $\overline{\pi}(V_1)$ et $\overline{\pi}(V_2)$ sont orthogonaux (pour $\Phi$). La *polaire* $V^0$ d’une variété linéaire projective $V \subset \mathbf{P}(E)$ par rapport à S est la variété telle que $\overline{\pi}(V^0) \cup \{0\}$ soit le sous-espace totalement orthogonal (pour $\Phi$) à $\overline{\pi}(V) \cup \{0\}$; si V est un hyperplan et si S est non dégénérée, $V^0$ est réduite à un point, appelé *pôle* de V. Une variété linéaire projective V est dite *tangente* à S si $\overline{\pi}(V) \cup \{0\}$ est un sous-espace isotrope (pour $\Phi$).
 

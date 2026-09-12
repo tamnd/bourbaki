@@ -42,7 +42,7 @@ subsections:
       pdf_page: 231
 statements: 51
 exercises: 20
-content_sha256: 96acc445fe1ac21789277cae9b626dfd3b7587df6b094c92c7477d5a1cf37432
+content_sha256: 68b2b1228dbf42359151496377d363ab04eb3d8d6de48753d52f9533efa6678c
 ---
 
 ## § 14. TRANSCENDENTAL EXTENSIONS
@@ -53,7 +53,7 @@ Let us recall (IV, p. 4) the following definition:
 
 #### Definition 1 {#alg-v-s14-def-1 .statement}
 
-*Let E be an extension of a field K; a family $\mathbf{x} = (x_i)_{i \in I}$ of elements of E is said to be algebraically free over K if the monomials $\mathbf{x}^a = \prod_{i \in I} x_i^{a_i}$ with respect to the $x_i$ (for $a = (\alpha_i)_{i \in I}$, in $\mathbf{N}^{(1)}$) are linearly independent over K. In the contrary case the family is said to be algebraically related over K.*
+*Let E be an extension of a field K; a family $\mathbf{x} = (x_i)_{i \in I}$ of elements of E is said to be algebraically free over K if the monomials $\mathbf{x}^a = \prod_{i \in I} x_i^{a_i}$ with respect to the $x_i$ (for $a = (\alpha_i)_{i \in I}$, in $\mathbf{N}^{(I)}$) are linearly independent over K. In the contrary case the family is said to be algebraically related over K.*
 
 Definition 1 may also be expressed as follows:
 

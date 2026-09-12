@@ -242,7 +242,7 @@ chapters:
           statements: 15
           exercises: 9
           extraction: ocr
-          content_sha256: 6dfd4a7bac26e407abb6ed42b7c674028fd2545a3417e49280a736325af40e56
+          content_sha256: 8e8821ce947a2c6c29610c1d635790feb7ff2e056a08ea9ee06d29dad34cf210
         - kind: section
           section: 5
           title: Extension of the ring of scalars
@@ -398,7 +398,7 @@ chapters:
           statements: 4
           exercises: 1
           extraction: ocr
-          content_sha256: 00b2822c1ae57a8e78478c469fa0efd8dbac251ca3d38de328ffeab3e8bce86a
+          content_sha256: 5b8c0001e1f65aae80fa1c4e32957ad15793bdfe4f97284a4030ab6e387e4852
         - kind: section
           section: 4
           title: Tensor products of algebras

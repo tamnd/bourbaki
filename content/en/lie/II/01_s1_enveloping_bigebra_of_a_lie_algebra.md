@@ -37,7 +37,7 @@ subsections:
       pdf_page: 137
 statements: 24
 exercises: 12
-content_sha256: fa1f5df2cb4ea83c765c3477f5ef2bfdb1ee6aad4a6e8785834f46fde9c32384
+content_sha256: 96f6fb1b76d6a0266d54052924b2330434106029d89724a5ec22b20b10d9ad6d
 ---
 
 ## § 1. ENVELOPING BIGEBRA OF A LIE ALGEBRA
@@ -475,12 +475,12 @@ Let E be a cocommutative bigebra.
 (a) The bigebra morphism $f_E : U(P(E)) \to E$ is injective.
 (b) If there exists on E a filtration compatible with its bigebra structure (no. 3, Definition 2), the morphism $f_E$ is an isomorphism.
 (In case (b), the bigebra E is therefore identified with the enveloping bigebra of the Lie algebra of its primitive elements.)
-Let $c_E$ (resp. $\varepsilon_E$) be the coproduct (resp. counit) of E. We write $g = P(E)$; let $(e_i)_{i \in I}$ be a basis of the vector K-space g, where the indexing set I is totally ordered, and let $(e_\alpha)_{\alpha \in \mathbf{N}^{(1)}}$ be the basis introduced in the preceding no. We write $X_\alpha = f_E(e_\alpha)$ for $\alpha \in \mathbf{N}^{(1)}$. By (15) and (16), we have:
+Let $c_E$ (resp. $\varepsilon_E$) be the coproduct (resp. counit) of E. We write $g = P(E)$; let $(e_i)_{i \in I}$ be a basis of the vector K-space g, where the indexing set I is totally ordered, and let $(e_\alpha)_{\alpha \in \mathbf{N}^{(I)}}$ be the basis introduced in the preceding no. We write $X_\alpha = f_E(e_\alpha)$ for $\alpha \in \mathbf{N}^{(I)}$. By (15) and (16), we have:
 $$
 \varepsilon_E(X_0) = 1, \quad \varepsilon_E(X_\alpha) = 0 \quad \text{for } |\alpha| \geq 1,
 $$
 $$
-c_E(X_\alpha) = \sum_{\beta + \gamma = \alpha} X_\beta \otimes X_\gamma \quad \text{for } \alpha \in \mathbf{N}^{(1)},
+c_E(X_\alpha) = \sum_{\beta + \gamma = \alpha} X_\beta \otimes X_\gamma \quad \text{for } \alpha \in \mathbf{N}^{(I)},
 $$
 since $f_E$ is a cogebra morphism.
 We show that $f_E$ is injective. This results from the following lemma:

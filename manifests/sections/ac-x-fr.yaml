@@ -103,7 +103,7 @@ chapters:
           statements: 39
           exercises: 15
           extraction: ocr
-          content_sha256: 88cf6f006be004d17dda9558ae61456b20a200ae1ce82643f605aed7f8e8fa28
+          content_sha256: bcafdf4db47f70c0bba342ff648d4aab9671001599610629aeb7d3892e87964e
         - kind: section
           section: 8
           title: Dualité des modules de longueur finie

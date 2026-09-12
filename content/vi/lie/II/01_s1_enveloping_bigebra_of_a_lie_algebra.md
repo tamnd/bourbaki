@@ -36,9 +36,9 @@ subsections:
       pdf_page: 137
 statements: 24
 exercises: 12
-content_sha256: 8bfef0a035589f9bb9c5e0cf19dc1be53e6ab82c378e25f7ca78d5ef145a86ba
+content_sha256: 03b9f7b6b8fdb29309d1a3935d4f510ffc6adf5192f1b82a42d599dd7b4e1586
 translated_from: content/en/lie/II/01_s1_enveloping_bigebra_of_a_lie_algebra.md
-source_content_sha256: fa1f5df2cb4ea83c765c3477f5ef2bfdb1ee6aad4a6e8785834f46fde9c32384
+source_content_sha256: 96f6fb1b76d6a0266d54052924b2330434106029d89724a5ec22b20b10d9ad6d
 translation_model: gpt-5.4
 translation_run: translate-vi-696e9754
 glossary_version: 34
@@ -481,12 +481,12 @@ Cho E là một đại số kép đối giao hoán.
 (a) Cấu xạ đại số kép $f_E : U(P(E)) \to E$ là đơn ánh.
 (b) Nếu trên E tồn tại một bộ lọc tương thích với cấu trúc đại số kép của nó (no. 3, Định nghĩa 2), thì cấu xạ $f_E$ là một đẳng cấu.
 (Trong trường hợp (b), vì thế đại số kép E được đồng nhất với đại số kép bao trùm của đại số Lie các phần tử nguyên thủy của nó.)
-Ký hiệu $c_E$ (resp. $\varepsilon_E$) là đồng tích (resp. đồng đơn vị) của E. Ta viết $g = P(E)$; gọi $(e_i)_{i \in I}$ là một cơ sở của K-không gian vectơ g, trong đó tập hợp chỉ số I được sắp thứ tự toàn phần, và gọi $(e_\alpha)_{\alpha \in \mathbf{N}^{(1)}}$ là cơ sở được đưa vào trong số trước. Ta viết $X_\alpha = f_E(e_\alpha)$ với $\alpha \in \mathbf{N}^{(1)}$. Theo (15) và (16), ta có:
+Ký hiệu $c_E$ (resp. $\varepsilon_E$) là đồng tích (resp. đồng đơn vị) của E. Ta viết $g = P(E)$; gọi $(e_i)_{i \in I}$ là một cơ sở của K-không gian vectơ g, trong đó tập hợp chỉ số I được sắp thứ tự toàn phần, và gọi $(e_\alpha)_{\alpha \in \mathbf{N}^{(I)}}$ là cơ sở được đưa vào trong số trước. Ta viết $X_\alpha = f_E(e_\alpha)$ với $\alpha \in \mathbf{N}^{(I)}$. Theo (15) và (16), ta có:
 $$
 \varepsilon_E(X_0) = 1, \quad \varepsilon_E(X_\alpha) = 0 \quad \text{với } |\alpha| \geq 1,
 $$
 $$
-c_E(X_\alpha) = \sum_{\beta + \gamma = \alpha} X_\beta \otimes X_\gamma \quad \text{với } \alpha \in \mathbf{N}^{(1)},
+c_E(X_\alpha) = \sum_{\beta + \gamma = \alpha} X_\beta \otimes X_\gamma \quad \text{với } \alpha \in \mathbf{N}^{(I)},
 $$
 vì $f_E$ là một cấu xạ đối đại số.
 Ta chứng minh rằng $f_E$ là đơn ánh. Điều này suy ra từ bổ đề sau:

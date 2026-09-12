@@ -58,7 +58,7 @@ subsections:
       pdf_page: 68
 statements: 41
 exercises: 16
-content_sha256: 689ed995ca08a601207db642be8baaa64703cb6e27b747a99cbcea50ee755e83
+content_sha256: c72fa4d4dde2fbf875872676a3dc25e6cbb6df69ac0555f78d6ab9204e20e20f
 translated_from: content/en/alg/IV/05_s5_symmetric_tensors_and_polynomial.md
 source_content_sha256: 6da98969b53ee5df6cf503b3f80c244de4578e27ef1ee1edd5bf16c915b72321
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4, gpt-5.4-mini
@@ -345,19 +345,19 @@ Cuối cùng, (v) suy ra từ Mệnh đề 2, (ii) và Mệnh đề 2 của I, p
 
 #### Nhận xét 1 {#alg-iv-s5-n4-rem-1 .statement}
 
-Cho $(x_i)_{i \in I}$ là một họ các phần tử của M. Với mỗi $\nu \in \mathbf{N}^{(1)}$ đặt
+Cho $(x_i)_{i \in I}$ là một họ các phần tử của M. Với mỗi $\nu \in \mathbf{N}^{(I)}$ đặt
 $$
 x_\nu = \prod_{i \in I} \gamma_{\nu_i}(x_i).
 $$
 Nếu $(\lambda_i) \in \mathbf{A}^{(1)}$ và $p \in \mathbf{N}$, thì theo Mệnh đề 3 (ii), ta có
 $$
-\gamma_p \left( \sum_{i \in I} \lambda_i x_i \right) = \sum_{\nu \in \mathbf{N}^{(1)}, |\nu| = p} \lambda^\nu x_\nu.
+\gamma_p \left( \sum_{i \in I} \lambda_i x_i \right) = \sum_{\nu \in \mathbf{N}^{(I)}, |\nu| = p} \lambda^\nu x_\nu.
 $$
 (6)
 
 #### Nhận xét 2 {#alg-iv-s5-n4-rem-2 .statement}
 
-Cho $\mathscr{M}$ là tập hợp các ánh xạ từ $(1, p)$ vào I. Ta định nghĩa một ánh xạ $\rho \mapsto \rho^*$ từ $\mathscr{M}$ vào $\mathbf{N}^{(1)}$ bằng cách đặt
+Cho $\mathscr{M}$ là tập hợp các ánh xạ từ $(1, p)$ vào I. Ta định nghĩa một ánh xạ $\rho \mapsto \rho^*$ từ $\mathscr{M}$ vào $\mathbf{N}^{(I)}$ bằng cách đặt
 $$
 \rho^*(i) = \operatorname{Card} \rho^{-1}(i)
 $$
@@ -671,16 +671,16 @@ $$
 — *Cho $M$ và $N$ là các $A$-môđun, $q$ là một số nguyên $\geqslant 0$, và $f$ là một ánh xạ từ $M$ vào $N$. Giả sử rằng $M$ là tự do, khi đó các điều kiện sau là tương đương:
 (i) Tồn tại một ánh xạ $q$-tuyến tính $g$ từ $M^q$ vào $N$ sao cho $f(x) = g(x, x, \ldots, x)$ với mọi $x \in M$.
 (ii) Tồn tại một ánh xạ tuyến tính $h$ từ $TS^q(M)$ vào $N$ sao cho $f(x) = h(\gamma_q(x))$ với mọi $x \in M$.
-(iii) Tồn tại một cơ sở $(e_i)_{i \in I}$ của $M$ và một họ $(u_\nu)_{\nu \in N^{(1)}, |\nu| = q}$ các phần tử của $N$ sao cho
+(iii) Tồn tại một cơ sở $(e_i)_{i \in I}$ của $M$ và một họ $(u_\nu)_{\nu \in N^{(I)}, |\nu| = q}$ các phần tử của $N$ sao cho
 $$
-f\left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(1)}, |\nu| = q} \lambda^\nu u_\nu
+f\left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(I)}, |\nu| = q} \lambda^\nu u_\nu
 $$
-với mọi $(\lambda_i) \in A^{(1)}$.
-(iv) Với mỗi cơ sở $(e_i)_{i \in I}$ của $M$ tồn tại một họ $(u_\nu)_{\nu \in N^{(1)}, |\nu| = q}$ các phần tử của $N$ sao cho
+với mọi $(\lambda_i) \in A^{(I)}$.
+(iv) Với mỗi cơ sở $(e_i)_{i \in I}$ của $M$ tồn tại một họ $(u_\nu)_{\nu \in N^{(I)}, |\nu| = q}$ các phần tử của $N$ sao cho
 $$
-f\left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(1)}, |\nu| = q} \lambda^\nu u_\nu
+f\left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(I)}, |\nu| = q} \lambda^\nu u_\nu
 $$
-với mọi $(\lambda_i) \in A^{(1)}$.
+với mọi $(\lambda_i) \in A^{(I)}$.
 (i) $\Rightarrow$ (ii): giả sử $g$ thỏa mãn (i), khi đó tồn tại một ánh xạ tuyến tính $g'$ từ $T^q(M)$ vào $N$ sao cho $g(x_1, x_2, \ldots, x_q) = g'(x_1 \otimes x_2 \otimes \ldots \otimes x)$ với mọi $x, \ldots, x, \in M$. Khi đó
 $$
 f(x) = g(x, x, \ldots, x) = g'(x \otimes x \otimes \ldots \otimes x) = g'(\gamma_q(x));
@@ -820,7 +820,7 @@ Tiếp theo giả sử ánh xạ $y \mapsto q!y$ trong N là đơn ánh; khi đ�
 
 #### Hệ quả {#alg-iv-s5-n9-cor-1 .statement}
 
-— *Cho M là một A-môđun tự do, N là một A-môđun, q là một số nguyên dương, $h \in \mathbf{Pol}^q(M, N)$ và $(e_i)_i$, một cơ sở của M. Trong hai trường hợp của Mệnh đề 16, tồn tại một họ duy nhất $(u,$, $\mathbf{N}^{(1)}, |\cdot|$, , các phần tử của N sao cho $h \left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{|\nu| = q} \lambda^\nu u_\nu$ với mọi $(\lambda_i) \in \mathbf{A}^{(1)}$*
+— *Cho M là một A-môđun tự do, N là một A-môđun, q là một số nguyên dương, $h \in \mathbf{Pol}^q(M, N)$ và $(e_i)_i$, một cơ sở của M. Trong hai trường hợp của Mệnh đề 16, tồn tại một họ duy nhất $(u,$, $\mathbf{N}^{(I)}, |\cdot|$, , các phần tử của N sao cho $h \left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{|\nu| = q} \lambda^\nu u_\nu$ với mọi $(\lambda_i) \in \mathbf{A}^{(1)}$*
 
 ### 10. Ánh xạ đa thức
 
@@ -899,7 +899,7 @@ $$
 
 (i) *Ta có $\mathrm{Pol}(M, N) = \bigoplus_{q \geq 0} \mathrm{Pol}^q(M, N)$ và mỗi $\mathrm{Pol}^q(M, N)$ có thể được đồng nhất một cách chính tắc với $\mathrm{Hom}(\mathbf{T S}^q(M), N)$.*
 
-(ii) *Cho $f \in \mathrm{Pol}(M, N)$ và $(e_i)_i$, một cơ sở của M. Tồn tại một và chỉ một họ $(u_\nu)_{\nu \in N^{(1)}}$ các phần tử của N sao cho $f \left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(1)}} \lambda^\nu u_\nu$ với mọi $(\lambda_i) \in A^{(1)}$.*
+(ii) *Cho $f \in \mathrm{Pol}(M, N)$ và $(e_i)_i$, một cơ sở của M. Tồn tại một và chỉ một họ $(u_\nu)_{\nu \in N^{(I)}}$ các phần tử của N sao cho $f \left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(I)}} \lambda^\nu u_\nu$ với mọi $(\lambda_i) \in A^{(I)}$.*
 
 Mệnh đề (i) suy ra từ Mệnh đề 16 và 19, còn (ii) suy ra từ (i) và Hệ quả của Mệnh đề 16.
 

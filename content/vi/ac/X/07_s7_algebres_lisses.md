@@ -53,11 +53,11 @@ subsections:
       pdf_page: 101
 statements: 39
 exercises: 15
-content_sha256: 4c426bd18ca66363a756026d8f187c5de9eff50fba4e46694c05cf72c28b2d61
+content_sha256: b30f3e8ef47bf99324c621ee24a84e4846523239167c5290d6cdee389e8668d7
 translated_from: content/en-mt/ac/X/07_s7_algebres_lisses.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 509bb0a981e4fe7e45a2ba5778b2b60328b4153d4744989ccac06b6e0368c43f
+source_content_sha256: d9e686475f5684dc2437fc172de60967de869a23384f3cbb25e55a1a48229664
 translation_model: gpt-5.4
 translation_run: translate-vi-65bb4a06
 glossary_version: 34
@@ -332,13 +332,13 @@ $$
 Xét dãy các B-môđun và các ánh xạ B-tuyến tính
 
 $$
-B^{(A)} \xrightarrow{\varphi} (B \otimes_{A} \Omega_k(A)) \oplus B^{(1)} \xrightarrow{\psi} \Omega_k(B) \longrightarrow 0,
+B^{(A)} \xrightarrow{\varphi} (B \otimes_{A} \Omega_k(A)) \oplus B^{(I)} \xrightarrow{\psi} \Omega_k(B) \longrightarrow 0,
 $$
 
 trong đó $\varphi$ là đồng cấu sao cho $\varphi(e_\lambda) = n_\lambda$; vấn đề là chứng minh rằng dãy này là khớp. Theo A, II, p. 36, th. 1, chỉ cần chứng minh rằng, với mọi B-môđun M, dãy
 
 $$
-0 \to \mathrm{Hom}_B(\Omega_k(B), M) \xrightarrow{\mathrm{Hom}(\psi, 1)} \mathrm{Hom}_B((B \otimes_A \Omega_k(A)) \oplus B^{(1)}, M) \xrightarrow{\mathrm{Hom}(\varphi, 1)} \mathrm{Hom}_B(B^{(A)}, M)
+0 \to \mathrm{Hom}_B(\Omega_k(B), M) \xrightarrow{\mathrm{Hom}(\psi, 1)} \mathrm{Hom}_B((B \otimes_A \Omega_k(A)) \oplus B^{(I)}, M) \xrightarrow{\mathrm{Hom}(\varphi, 1)} \mathrm{Hom}_B(B^{(A)}, M)
 $$
 
 là khớp. Theo tính chất phổ quát của môđun vi phân (A, III, p. 134), dãy này được đồng nhất với
@@ -347,7 +347,7 @@ $$
 0 \to D_k(B, M) \xrightarrow{\psi'} D_k(A, M) \oplus M^1 \xrightarrow{\varphi'} M^A
 $$
 
-trong đó $\psi'(D) = (D \circ \rho, (D(t_i)))$ và $\varphi'(\Delta, (m_i)) = (f^\Delta_\lambda(t) + \sum_i \frac{\partial f_\lambda}{\partial T_i}(t) m_i)_{\lambda \in A}$ (phù hợp với A, V, p. 121, với mọi đa thức $f = \sum_{\alpha \in \mathbf{N}^{(1)}} c_\alpha T^\alpha$ của $A[T]$, $f^\Delta(t)$ ký hiệu phần tử $\sum_\alpha t^\alpha \Delta(c_\alpha)$). Nhưng tính khớp của dãy này suy ra từ loc. cit., prop. 1, xét đến việc một đạo hàm $D : B \to M$ là $k$-tuyến tính khi và chỉ khi điều này đúng với $D \circ \rho$.
+trong đó $\psi'(D) = (D \circ \rho, (D(t_i)))$ và $\varphi'(\Delta, (m_i)) = (f^\Delta_\lambda(t) + \sum_i \frac{\partial f_\lambda}{\partial T_i}(t) m_i)_{\lambda \in A}$ (phù hợp với A, V, p. 121, với mọi đa thức $f = \sum_{\alpha \in \mathbf{N}^{(I)}} c_\alpha T^\alpha$ của $A[T]$, $f^\Delta(t)$ ký hiệu phần tử $\sum_\alpha t^\alpha \Delta(c_\alpha)$). Nhưng tính khớp của dãy này suy ra từ loc. cit., prop. 1, xét đến việc một đạo hàm $D : B \to M$ là $k$-tuyến tính khi và chỉ khi điều này đúng với $D \circ \rho$.
 
 Cho A là một vành. Tồn tại duy nhất một cấu trúc $\mathbf{Z}$-đại số trên A; người ta viết đơn giản $\Omega(A)$ thay cho A-môđun $\Omega_{\mathbf{Z}}(A)$. Nếu $\rho : k \to A$ là một đồng cấu của các vành, thì có một dãy khớp chính tắc các A-môđun (A, III, p. 136, prop. 21)
 

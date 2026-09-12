@@ -36,7 +36,7 @@ subsections:
       pdf_page: 351
 statements: 34
 exercises: 1
-content_sha256: b47e2f7501b600faa17f06a2c6b1c731b715b6679f70aecc6250626bcea6a495
+content_sha256: 44070b11d16fec117e0e5ed0f2692d2a45a1b3db02e3ca6de5a9f8045f8eb246
 ---
 
 ## § 11. MODULES ET ANNEAUX GRADUÉS
@@ -321,7 +321,7 @@ Nous montrerons plus tard (AC, II, § 3, n° 2, prop. 5) comment cette propositi
 
 Pour qu’un groupe commutatif $\Delta$ soit tel qu’il existe sur $\Delta$ un ordre total compatible avec la structure de groupe de $\Delta$, il faut et il suffit que $\Delta$ soit sans torsion.
 
-En effet, s’il existe une telle structure d’ordre sur $\Delta$ et si $\lambda > 0$, on a $\lambda + \mu > 0$ pour tout $\mu \geq 0$ et en particulier, par récurrence sur l’entier $n > 0$, $n.\lambda > 0$, ce qui prouve que $\Delta$ est sans torsion (puisque tout élément $\neq 0$ de $\Delta$ est, soit $> 0$, soit $< 0$). Inversement, si $\Delta$ est sans torsion, $\Delta$ est un sous-$\mathbf{Z}$-module d’un $\mathbf{Q}$-espace vectoriel (II, p. 117, cor. 1) qu’on peut supposer de la forme $\mathbf{Q}^{(I)}$; si on munit $I$ d’une structure de bon ordre (E, III, p. 20, th. 1) et $\mathbf{Q}$ de sa structure d’ordre usuelle, l’ensemble $\mathbf{Q}^{(1)}$, muni de l’ordre *lexicographique*, est totalement ordonné (E, III, p. 23); il est immédiat que cet ordre est compatible avec la structure de groupe additif de $\mathbf{Q}^{(1)}$.
+En effet, s’il existe une telle structure d’ordre sur $\Delta$ et si $\lambda > 0$, on a $\lambda + \mu > 0$ pour tout $\mu \geq 0$ et en particulier, par récurrence sur l’entier $n > 0$, $n.\lambda > 0$, ce qui prouve que $\Delta$ est sans torsion (puisque tout élément $\neq 0$ de $\Delta$ est, soit $> 0$, soit $< 0$). Inversement, si $\Delta$ est sans torsion, $\Delta$ est un sous-$\mathbf{Z}$-module d’un $\mathbf{Q}$-espace vectoriel (II, p. 117, cor. 1) qu’on peut supposer de la forme $\mathbf{Q}^{(I)}$; si on munit $I$ d’une structure de bon ordre (E, III, p. 20, th. 1) et $\mathbf{Q}$ de sa structure d’ordre usuelle, l’ensemble $\mathbf{Q}^{(I)}$, muni de l’ordre *lexicographique*, est totalement ordonné (E, III, p. 23); il est immédiat que cet ordre est compatible avec la structure de groupe additif de $\mathbf{Q}^{(I)}$.
 
 C. Q.F.D.
 

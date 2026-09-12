@@ -57,7 +57,7 @@ subsections:
       pdf_page: 63
 statements: 42
 exercises: 16
-content_sha256: f05c2c47822b3daf1b79c1b994733e52c0a50c91b85c9779521cae4e99d2d9b9
+content_sha256: 57be0eaa28a7228b512647c8ada0f01367773aa3b131a7c3cd8b6c47396ffeed
 ---
 
 ## § 5. TENSEURS SYMÉTRIQUES ET APPLICATIONS POLYNOMIALES
@@ -322,7 +322,7 @@ Enfin, (v) résulte de la prop. 2, (ii), et de la prop. 2 de I, p. 95, appliqué
 
 #### Remarque 1 {#alg-iv-s5-n4-rem-1 .statement}
 
-Soit $(x_i)_{i \in I}$ une famille d’éléments de M. Pour tout $\nu \in \mathbf{N}^{(l)}$, posons
+Soit $(x_i)_{i \in I}$ une famille d’éléments de M. Pour tout $\nu \in \mathbf{N}^{(I)}$, posons
 
 $$
 x_\nu = \prod_{i \in I} \gamma_{\nu_i}(x_i) .
@@ -331,12 +331,12 @@ $$
 Si $(\lambda_i) \in \mathbf{A}^{(l)}$ et si $p \in \mathbf{N}$, on a, d’après la prop. 3, (ii),
 
 $$
-\gamma_p \left( \sum_{i \in I} \lambda_i x_i \right) = \sum_{\nu \in \mathbf{N}^{(l)}, |\nu| = p} \lambda^\nu x_\nu .
+\gamma_p \left( \sum_{i \in I} \lambda_i x_i \right) = \sum_{\nu \in \mathbf{N}^{(I)}, |\nu| = p} \lambda^\nu x_\nu .
 $$
 
 #### Remarque 2 {#alg-iv-s5-n4-rem-2 .statement}
 
-Soit $\mathscr{M}$ l’ensemble des applications de $[1, p]$ dans I. On définit une application $\rho \mapsto \rho^*$ de $\mathscr{M}$ dans $\mathbf{N}^{(l)}$ en posant
+Soit $\mathscr{M}$ l’ensemble des applications de $[1, p]$ dans I. On définit une application $\rho \mapsto \rho^*$ de $\mathscr{M}$ dans $\mathbf{N}^{(I)}$ en posant
 
 $$
 \rho^*(i) = \operatorname{Card} \rho^{-1}(i) .
@@ -353,7 +353,7 @@ $$
 #### Proposition 4 {#alg-iv-s5-prop-4 .statement}
 
 Supposons $M$ libre, et soit $(e_i)_{i \in I}$ une base de $M$.
-(i) Pour $\nu \in \mathbf{N}^{(l)}$, soit $e_\nu = \prod_{i \in I} \gamma_{\nu_i}(e_i)$. Alors $(e_\nu)_{\nu \in \mathbf{N}^{(l)}}$ est une base du $\mathbf{A}$-module $\mathbf{TS}(M)$. En particulier, l’algèbre $\mathbf{TS}(M)$ est engendrée par la famille des éléments $\gamma_k(x)$ pour $k \in \mathbf{N}$ et $x \in M$.
+(i) Pour $\nu \in \mathbf{N}^{(I)}$, soit $e_\nu = \prod_{i \in I} \gamma_{\nu_i}(e_i)$. Alors $(e_\nu)_{\nu \in \mathbf{N}^{(I)}}$ est une base du $\mathbf{A}$-module $\mathbf{TS}(M)$. En particulier, l’algèbre $\mathbf{TS}(M)$ est engendrée par la famille des éléments $\gamma_k(x)$ pour $k \in \mathbf{N}$ et $x \in M$.
 (ii) Pour tout $p \in \mathbf{N}$, $\mathbf{TS}^p(M)$ est facteur direct dans le $\mathbf{A}$-module $\mathbf{T}^p(M)$.
 Utilisons les notations de la remarque 2 ci-dessus. La famille $(e_{\rho(1)} \otimes \ldots \otimes e_{\rho(p)})_{\rho \in \mathscr{M}}$ est une base de $\mathbf{T}^p(M)$. Alors la prop. 4 résulte de la formule (7) et du lemme suivant, appliqué avec $H = \mathfrak{S}_p$ et $U = \mathbf{T}^p(M)$ :
 
@@ -371,13 +371,13 @@ La réunion de l’ensemble des $u_\omega$ (pour $\omega \in \Omega$) et de $B'$
 
 Soient $M$ un $A$-module libre, $k$ un entier $\geqslant 0$, $P$ le sous-$A$-module de $TS^k(M)$ engendré par $\gamma_k(M)$. On suppose $A$ intègre et infini. Pour tout $z \in TS^k(M)$, il existe $\alpha \in A - \{0\}$ tel que $\alpha z \in P$.
 
-Soit $K$ le corps des fractions de $A$. Identifions $TS^k(M)$ à un sous-$A$-module du $K$-espace vectoriel $V = TS^k(M) \otimes_A K$ (prop. 4, et II, p. 116). Il s’agit de montrer que $\gamma_k(M)$ engendre ce $K$-espace vectoriel, c’est-à-dire que toute forme $K$-linéaire $f$ sur $V$ satisfaisant à $f(\gamma_k(M)) = 0$ est nulle. Soit $(e_i)_{i \in I}$ une base de $M$, et définissons les $e_\nu$ comme dans la prop. 4. Quel que soit $(\alpha_i) \in A^{(l)}$, on a, compte tenu de (6),
+Soit $K$ le corps des fractions de $A$. Identifions $TS^k(M)$ à un sous-$A$-module du $K$-espace vectoriel $V = TS^k(M) \otimes_A K$ (prop. 4, et II, p. 116). Il s’agit de montrer que $\gamma_k(M)$ engendre ce $K$-espace vectoriel, c’est-à-dire que toute forme $K$-linéaire $f$ sur $V$ satisfaisant à $f(\gamma_k(M)) = 0$ est nulle. Soit $(e_i)_{i \in I}$ une base de $M$, et définissons les $e_\nu$ comme dans la prop. 4. Quel que soit $(\alpha_i) \in A^{(I)}$, on a, compte tenu de (6),
 
 $$
-0 = f(\gamma_k(\sum_{i \in I} \alpha_i e_i)) = \sum_{\nu \in N^{(l)}, |\nu| = k} \alpha^\nu f(e_\nu).
+0 = f(\gamma_k(\sum_{i \in I} \alpha_i e_i)) = \sum_{\nu \in N^{(I)}, |\nu| = k} \alpha^\nu f(e_\nu).
 $$
 
-D’après le cor. 2 de IV, p. 17, on en déduit que $f(e_\nu) = 0$ pour tout $\nu \in N^{(l)}$, d’où $f = 0$.
+D’après le cor. 2 de IV, p. 17, on en déduit que $f(e_\nu) = 0$ pour tout $\nu \in N^{(I)}$, d’où $f = 0$.
 
 ### 6. Le foncteur $TS$
 

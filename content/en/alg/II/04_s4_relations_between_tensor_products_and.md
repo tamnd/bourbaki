@@ -30,7 +30,7 @@ subsections:
       pdf_page: 298
 statements: 15
 exercises: 9
-content_sha256: 6dfd4a7bac26e407abb6ed42b7c674028fd2545a3417e49280a736325af40e56
+content_sha256: 8e8821ce947a2c6c29610c1d635790feb7ff2e056a08ea9ee06d29dad34cf210
 ---
 
 ## § 4. RELATIONS BETWEEN TENSOR PRODUCTS AND HOMOMORPHISM MODULES
@@ -449,16 +449,16 @@ is *commutative*.
 *Let E₁, E₂ be two finitely generated projective C-modules, u₁ an endomorphism of E₁ and u₂ an endomorphism of E₂; then*
 
 $$
-\text{Tr}(u₁ \otimes u₂) = \text{Tr}(u₁)\text{Tr}(u₂).
+\text{Tr}(u_1 \otimes u_2) = \text{Tr}(u_1)\text{Tr}(u_2).
 $$
 
-By linearity, it suffices to consider the case where u₁ is of the form $x₁ \mapsto \langle x₁, x₁^* \rangle y₁$ and u₂ of the form $x₂ \mapsto \langle x₂, x₂^* \rangle y₂$; then the image of $x₁ \otimes x₂$ under $u₁ \otimes u₂$ is by definition
+By linearity, it suffices to consider the case where u₁ is of the form $x_1 \mapsto \langle x_1, x_1^* \rangle y_1$ and u₂ of the form $x_2 \mapsto \langle x_2, x_2^* \rangle y_2$; then the image of $x_1 \otimes x_2$ under $u_1 \otimes u_2$ is by definition
 
 $$
-\langle x₁, x₁^* \rangle \langle x₂, x₂^* \rangle (y₁ \otimes y₂) = \langle x₁ \otimes x₂, x₁^* \otimes x₂^* \rangle (y₁ \otimes y₂)
+\langle x_1, x_1^* \rangle \langle x_2, x_2^* \rangle (y_1 \otimes y_2) = \langle x_1 \otimes x_2, x_1^* \otimes x_2^* \rangle (y_1 \otimes y_2)
 $$
 
-$x₁^* \otimes x₂^*$ being canonically identified under $\mu$ with an element of $(E₁ \otimes E₂)^*$. As $\langle y₁ \otimes y₂, x₁^* \otimes x₂^* \rangle = \langle y₁, x₁^* \rangle \langle y₂, x₂^* \rangle$, formula (26) follows in this case from (17).
+$x_1^* \otimes x_2^*$ being canonically identified under $\mu$ with an element of $(E_1 \otimes E_2)^*$. As $\langle y_1 \otimes y_2, x_1^* \otimes x_2^* \rangle = \langle y_1, x_1^* \rangle \langle y_2, x_2^* \rangle$, formula (26) follows in this case from (17).
 
 #### Remark {#alg-ii-s4-n4-rem-1 .statement}
 

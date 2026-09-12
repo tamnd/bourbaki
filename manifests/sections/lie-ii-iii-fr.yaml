@@ -25,7 +25,7 @@ chapters:
           statements: 27
           exercises: 12
           extraction: ocr
-          content_sha256: de9389eb2586d0042a7d29bfc62f438b0547587c3191c7a4521d2629d90a06b8
+          content_sha256: 417980af9583930eeefc15e1482d8c82aabb4b71b39c7322f4e486934610b33c
         - kind: section
           section: 2
           title: Algèbres de Lie libres
@@ -181,7 +181,7 @@ chapters:
           statements: 41
           exercises: 13
           extraction: ocr
-          content_sha256: 3127c5aaafcc0f54184453e7f90619971a5468572a03b4553ec6ff184937f332
+          content_sha256: 54de6b686860b6e4356dc548fbcb89fa45f59e654e2a48a44d0d8dd16ee6a545
         - kind: section
           section: 5
           title: Calculs formels dans les groupes de Lie
@@ -193,7 +193,7 @@ chapters:
           statements: 8
           exercises: 2
           extraction: ocr
-          content_sha256: a1b0dc0da441ba1336a9f001ec0bd88ac8374d25e9d750ad59f6a32210228f6d
+          content_sha256: 57db1b938934ff3d24aec0ae66b8c6f64f8cc88bd34c6237e16755493c34b6cb
         - kind: section
           section: 6
           title: Groupes de Lie réels ou complexes
@@ -229,7 +229,7 @@ chapters:
           statements: 10
           exercises: 7
           extraction: ocr
-          content_sha256: dc761e6e2fb109842b55eef3c15386c268145bac74eee0f684b381d410b75745
+          content_sha256: b8e50ac289866ddd6c6c69bb438593f9a8ce21b87d82e75fcbb399a305de405b
         - kind: section
           section: 9
           title: Commutateurs, centralisateurs, normalisateurs dans un groupe de Lie

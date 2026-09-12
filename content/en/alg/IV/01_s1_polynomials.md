@@ -45,7 +45,7 @@ subsections:
       pdf_page: 22
 statements: 30
 exercises: 5
-content_sha256: 9362bb420a6ac189e2cb718bf3d352a39d364cc2fbcd8f27c7d221863b22c9f9
+content_sha256: fd78d3218a441457495db91a031db777e1dadb9447985e7988ec7daf8360616c
 ---
 
 ## § 1. POLYNOMIALS
@@ -189,7 +189,7 @@ $$
 
 #### Remark {#alg-iv-s1-n3-rem-1 .statement}
 
-— Let $x \in A^I$ and let $f$ be the mapping $u \mapsto u(x)$ of $A[X]$ into $A$. Given an $A$-module $M$, we consider the homomorphism $1 \otimes f$ of $M[X] = M \otimes_A A[X]$ into $M \otimes_A A = M$. For each $v \in M[X]$ we have $(1 \otimes f)(v) = v(x)$. If $v = \sum_{\nu \in \mathbf{N}^{(l)}} e_\nu X^\nu$, then $v(x) = \sum_{\nu \in \mathbf{N}^{(l)}} x^\nu e_\nu$.
+— Let $x \in A^I$ and let $f$ be the mapping $u \mapsto u(x)$ of $A[X]$ into $A$. Given an $A$-module $M$, we consider the homomorphism $1 \otimes f$ of $M[X] = M \otimes_A A[X]$ into $M \otimes_A A = M$. For each $v \in M[X]$ we have $(1 \otimes f)(v) = v(x)$. If $v = \sum_{\nu \in \mathbf{N}^{(I)}} e_\nu X^\nu$, then $v(x) = \sum_{\nu \in \mathbf{N}^{(I)}} x^\nu e_\nu$.
 
 ### 4. Differentials and derivations
 
@@ -197,14 +197,14 @@ Let $B = A[(X_i)_{i \in I}]$, then by III, p. 569 there exists for each $i \in I
 $$
 D_i X_i = 1 , \quad D_i X_j = 0 \quad \text{for} \quad j \neq i
 $$
-The polynomial $D_i P$ is called the *partial derivative* of $P$ *with respect to* $X_i$; we shall also denote it by $D_{X_i} P$ or $\frac{\partial P}{\partial X_i}$ or $P'_{X_i}$. By III, p. 558, formula (21), we have, for $\nu = (\nu,) \in \mathbf{N}^{(l)}$,
+The polynomial $D_i P$ is called the *partial derivative* of $P$ *with respect to* $X_i$; we shall also denote it by $D_{X_i} P$ or $\frac{\partial P}{\partial X_i}$ or $P'_{X_i}$. By III, p. 558, formula (21), we have, for $\nu = (\nu,) \in \mathbf{N}^{(I)}$,
 $$
 D_i (X^\nu) = \begin{cases}
 \nu_i X_i^{\nu_i - 1} \prod_{j \in I - \{i\}} X_j^{\nu_j} & \text{if } \nu_i > 0 \\
 0 & \text{if } \nu_i = 0
 \end{cases}
 $$
-It follows from (6) that $D_i D_j = D_j D_i$ for any $i, j \in I$. For $\nu = (\nu_i)_{i \in I} \in \mathbf{N}^{(l)}$ we shall put $D^\nu = \prod_{i \in I} D_i^{\nu_i}$ and $\nu! = \prod_{i \in I} (\nu_i!)$. With the product ordering on $\mathbf{N}^{(l)}$ we have
+It follows from (6) that $D_i D_j = D_j D_i$ for any $i, j \in I$. For $\nu = (\nu_i)_{i \in I} \in \mathbf{N}^{(I)}$ we shall put $D^\nu = \prod_{i \in I} D_i^{\nu_i}$ and $\nu! = \prod_{i \in I} (\nu_i!)$. With the product ordering on $\mathbf{N}^{(I)}$ we have
 $$
 D^\nu(X^\mu) = \begin{cases}
 \frac{\mu!}{(\mu - \nu)!} X^{\mu - \nu} & \text{if } \nu \leq \mu , \\

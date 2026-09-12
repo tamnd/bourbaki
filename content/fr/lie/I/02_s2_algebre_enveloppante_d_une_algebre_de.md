@@ -48,7 +48,7 @@ subsections:
       pdf_page: 36
 statements: 22
 exercises: 10
-content_sha256: 4d610c54587b810bb0ad139a0bf750a9764fb15dcd2168fecb95a0337f79fa0d
+content_sha256: f76e062aa2d955e1dce679bbda658db869ed117138bd749e9682a2de023263a7
 ---
 
 ## § 2. Algèbre enveloppante d’une algèbre de Lie
@@ -124,12 +124,12 @@ On a φ ∘ τ ∘ σ = φ ∘ σ′ = σ, et τ ∘ φ ∘ σ′ = τ ∘ σ = 
 
 On identifie U₁ ⊗ₖ U₂ à U par l’isomorphisme φ. Alors, l’application canonique de g dans U s’identifie, d’après (1), à l’application :
 $$
-(x₁, x₂) \mapsto \sigma₁(x₁) \otimes 1 + 1 \otimes \sigma₂(x₂).
+(x_1, x_2) \mapsto \sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2).
 $$
 
 De façon analogue, si g₁, ..., gₙ sont des algèbres de Lie sur K, d’algèbres enveloppantes U₁, ..., Uₙ, l’algèbre enveloppante U de g₁ × ... × gₙ s’identifie canoniquement à U₁ ⊗ₖ ... ⊗ₖ Uₙ, et l’application canonique de g₁ × ... × gₙ dans U s’identifie à l’application :
 $$
-(x₁, ..., xₙ) \mapsto \sigma₁(x₁) \otimes 1 \otimes ... \otimes 1 + ... + 1 \otimes ... \otimes 1 \otimes \sigmaₙ(xₙ)
+(x_1, ..., x_n) \mapsto \sigma_1(x_1) \otimes 1 \otimes ... \otimes 1 + ... + 1 \otimes ... \otimes 1 \otimes \sigma_n(x_n)
 $$
 (en désignant par σᵢ l’application canonique de gᵢ dans Uᵢ).
 
@@ -403,11 +403,11 @@ Supposons que le K-module g soit somme directe de sous-algèbres g₁, g₂, ...
 
 Soit (xᵢλ)λ∈Lᵢ une base de gᵢ. Ordonnons totalement L₁ ∪ ... ∪ Lₙ de telle manière que tout élément de Lᵢ majore tout élément de Lⱼ pour i ≥ j. Alors les éléments :
 
-$$(x_{\lambda₁}^{₁} x_{\lambda₂}^{₁} ... x_{\lambdaₚ}^{₁}) \otimes ... \otimes (x_{\nu₁}^{ⁿ} x_{\nu₂}^{ⁿ} ... x_{\nu_q}^{ⁿ}),$$
+$$(x_{\lambda_1}^{1} x_{\lambda_2}^{1} ... x_{\lambda_p}^{1}) \otimes ... \otimes (x_{\nu_1}^{n} x_{\nu_2}^{n} ... x_{\nu_q}^{n}),$$
 
 où λ₁ ≤ λ₂ ≤ ... ≤ λₚ ≤ ... ≤ ν₁ ≤ ν₂ ≤ ... ≤ ν_q, constituent une base de U₁ ⊗ₖ ... ⊗ₖ Uₙ. Ils sont transformés par φ en les éléments :
 
-$$x_{\lambda₁}^{₁} x_{\lambda₂}^{₁} ... x_{\lambdaₚ}^{₁} ... x_{\nu₁}^{ⁿ} x_{\nu₂}^{ⁿ} ... x_{\nu_q}^{ⁿ}$$
+$$x_{\lambda_1}^{1} x_{\lambda_2}^{1} ... x_{\lambda_p}^{1} ... x_{\nu_1}^{n} x_{\nu_2}^{n} ... x_{\nu_q}^{n}$$
 
 qui constituent une base de U. D’où le corollaire.
 
@@ -425,7 +425,7 @@ Soient V un K-module, T l’algèbre tensorielle de V. Soit u un endomorphisme d
 
 Soit F = V × V × ... × V (n facteurs). L’application
 
-$$(x₁, ..., xₙ) \mapsto ux₁ \otimes x₂ \otimes ... \otimes xₙ + x₁ \otimes ux₂ \otimes ... \otimes xₙ + ... + x₁ \otimes x₂ \otimes ... \otimes uxₙ$$
+$$(x_1, ..., x_n) \mapsto ux_1 \otimes x_2 \otimes ... \otimes x_n + x_1 \otimes ux_2 \otimes ... \otimes x_n + ... + x_1 \otimes x_2 \otimes ... \otimes ux_n$$
 
 de F dans $\bigotimes^n V$ est multilinéaire. Donc il existe un endomorphisme $u_n$ de $\bigotimes^n V$ tel que :
 

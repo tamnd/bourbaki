@@ -64,7 +64,7 @@ subsections:
       pdf_page: 305
 statements: 54
 exercises: 36
-content_sha256: 5210751720bc4d1470a1f313e1aa8fe306859300b0709e0c18bfe5f5cb9bb663
+content_sha256: 16de2c1b1e33d51e18a8ed5db06080bc79bae228a7afd8366ca0a77c054e5ca3
 ---
 
 ## § 1. GROUPES ORDONNÉS. DIVISIBILITÉ
@@ -624,7 +624,7 @@ b) G est réticulé et vérifie la condition suivante :
 c) G vérifie la condition (MIN) et tout élément extrémal de G possède la propriété (P).
 d) G est engendré par ses éléments extrémaux et tout élément extrémal de G possède la propriété (P).
 
-Montrons d’abord que a) entraîne b). Le groupe $\mathbf{Z}^{(l)}$ est réticulé, en tant que somme directe de groupes totalement ordonnés. Soit d’autre part E un ensemble non vide d’éléments positifs de $\mathbf{Z}^{(l)}$, et soit $x = \sum n_i e_i$ un élément de E (($e_i$) désignant la base canonique de $\mathbf{Z}^{(l)}$); les éléments $y$ de $\mathbf{Z}^{(l)}$ tels que $0 \leq y \leq x$ sont en nombre fini égal à $\prod (n_i + 1)$, donc l’ensemble F des éléments de E qui sont $\leq x$ est $a fortiori$ fini ; comme il n’est pas vide, il contient un élément minimal (E, III, p. 34, cor. 2), qui est évidemment élément minimal de E.
+Montrons d’abord que a) entraîne b). Le groupe $\mathbf{Z}^{(I)}$ est réticulé, en tant que somme directe de groupes totalement ordonnés. Soit d’autre part E un ensemble non vide d’éléments positifs de $\mathbf{Z}^{(I)}$, et soit $x = \sum n_i e_i$ un élément de E (($e_i$) désignant la base canonique de $\mathbf{Z}^{(I)}$); les éléments $y$ de $\mathbf{Z}^{(I)}$ tels que $0 \leq y \leq x$ sont en nombre fini égal à $\prod (n_i + 1)$, donc l’ensemble F des éléments de E qui sont $\leq x$ est $a fortiori$ fini ; comme il n’est pas vide, il contient un élément minimal (E, III, p. 34, cor. 2), qui est évidemment élément minimal de E.
 
 Il est clair que b) entraîne c), en vertu de la prop. 14. Montrons que c) entraîne d). Comme G est filtrant, il suffit (VI, p. 4, prop. 4) de voir que l’ensemble F des éléments $> 0$ de G qui sont sommes d’éléments extrémaux est égal à $G_+ - \{0\}$. Sinon, il résulterait de (MIN) que le complémentaire de F dans $G_+ - \{0\}$ aurait un élément minimal $a$; $a$ n’est pas extrémal par définition, donc est somme de deux éléments positifs $x, y$ non nuls ; comme $x < a$ et $y < a$, ces éléments appartiennent à F, donc sont sommes d’éléments extrémaux, et on en déduit qu’il en est de même de $a$, ce qui est contradictoire. Enfin, d) entraîne a), en vertu de la prop. 15.
 

@@ -36,7 +36,7 @@ chapters:
           statements: 30
           exercises: 5
           extraction: ocr
-          content_sha256: 9362bb420a6ac189e2cb718bf3d352a39d364cc2fbcd8f27c7d221863b22c9f9
+          content_sha256: fd78d3218a441457495db91a031db777e1dadb9447985e7988ec7daf8360616c
         - kind: section
           section: 2
           title: Zeros of polynomials
@@ -75,7 +75,7 @@ chapters:
           statements: 23
           exercises: 8
           extraction: ocr
-          content_sha256: 93080588981c2b27de5dc22c144773a4cc368e44a520855683149c13794140e7
+          content_sha256: ed35587a155fb15e501a74eae948a900accc935d0e586e804f6eb09239b179a3
         - kind: section
           section: 5
           title: Symmetric tensors and polynomial mappings
@@ -88,7 +88,7 @@ chapters:
           statements: 41
           exercises: 16
           extraction: ocr
-          content_sha256: f7510901c1fed71a51ce0786c203ee3c7ef57e7ffb52bcfc45aa7a7ff94dd71b
+          content_sha256: 6aaa00c781c4e6412b69e6dafb2e6b8b2ad2e7e31f4a2bf1162f5be48ea042fa
         - kind: section
           section: 6
           title: Symmetric functions
@@ -282,7 +282,7 @@ chapters:
           statements: 21
           exercises: 6
           extraction: ocr
-          content_sha256: 919da70d2816cf67fbcdc62af1b32659189ff776273e42b53f86573e4471cd39
+          content_sha256: 15b90e7f75e4f1d8e8211671bff420ff633fa75cb3971759b85af7418043aa6d
         - kind: section
           section: 14
           title: Transcendental extensions
@@ -295,7 +295,7 @@ chapters:
           statements: 51
           exercises: 20
           extraction: ocr
-          content_sha256: 96acc445fe1ac21789277cae9b626dfd3b7587df6b094c92c7477d5a1cf37432
+          content_sha256: 68b2b1228dbf42359151496377d363ab04eb3d8d6de48753d52f9533efa6678c
         - kind: section
           section: 15
           title: Separable extensions
@@ -369,7 +369,7 @@ chapters:
           statements: 53
           exercises: 36
           extraction: ocr
-          content_sha256: 4809ff450b4093626cd41183feaa93260c7ccb6723817c4d41a41c2a813625ae
+          content_sha256: d15b5065c0dbd111b3eac4a847615904f8654cb680475b25082b83436dd2d77c
         - kind: section
           section: 2
           title: Ordered fields
@@ -433,7 +433,7 @@ chapters:
           statements: 6
           exercises: 11
           extraction: ocr
-          content_sha256: 066133593c0e8a083eeae9d05d1754b642bc50b68931b431ed70f46e8f995177
+          content_sha256: 41c3e4a60af02d2b81c6d7b90e22eff6a8f594c651154dcbef40f7e938ff48d6
         - kind: section
           section: 4
           title: Finitely generated modules over a principal ideal domain

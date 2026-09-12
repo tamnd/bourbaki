@@ -58,7 +58,7 @@ subsections:
       pdf_page: 68
 statements: 41
 exercises: 16
-content_sha256: f7510901c1fed71a51ce0786c203ee3c7ef57e7ffb52bcfc45aa7a7ff94dd71b
+content_sha256: 6aaa00c781c4e6412b69e6dafb2e6b8b2ad2e7e31f4a2bf1162f5be48ea042fa
 ---
 
 ## § 5. SYMMETRIC TENSORS AND POLYNOMIAL MAPPINGS
@@ -338,19 +338,19 @@ Finally (v) follows from Prop. 2, (ii) and Prop. 2 of I, p. 100, applied to the 
 
 #### Remark 1 {#alg-iv-s5-n4-rem-1 .statement}
 
-Let $(x_i)_{i \in I}$ be a family of elements of M. For each $\nu \in \mathbf{N}^{(1)}$ put
+Let $(x_i)_{i \in I}$ be a family of elements of M. For each $\nu \in \mathbf{N}^{(I)}$ put
 $$
 x_\nu = \prod_{i \in I} \gamma_{\nu_i}(x_i).
 $$
 If $(\lambda_i) \in \mathbf{A}^{(1)}$ and $p \in \mathbf{N}$, then we have by Prop. 3 (ii),
 $$
-\gamma_p \left( \sum_{i \in I} \lambda_i x_i \right) = \sum_{\nu \in \mathbf{N}^{(1)}, |\nu| = p} \lambda^\nu x_\nu.
+\gamma_p \left( \sum_{i \in I} \lambda_i x_i \right) = \sum_{\nu \in \mathbf{N}^{(I)}, |\nu| = p} \lambda^\nu x_\nu.
 $$
 (6)
 
 #### Remark 2 {#alg-iv-s5-n4-rem-2 .statement}
 
-Let $\mathscr{M}$ be the set of mappings of $(1, p)$ into I. We define a mapping $\rho \mapsto \rho^*$ of $\mathscr{M}$ into $\mathbf{N}^{(1)}$ by putting
+Let $\mathscr{M}$ be the set of mappings of $(1, p)$ into I. We define a mapping $\rho \mapsto \rho^*$ of $\mathscr{M}$ into $\mathbf{N}^{(I)}$ by putting
 $$
 \rho^*(i) = \operatorname{Card} \rho^{-1}(i)
 $$
@@ -664,16 +664,16 @@ This follows from Cor. 1 and the corresponding property of $S(M)$* (III, p. 498)
 — *Let $M$ and $N$ be $A$-modules, $q$ an integer $\geqslant 0$, and $f$ a mapping of $M$ into $N$. Suppose that $M$ is free, then the following conditions are equivalent:
 (i) There exists a $q$-linear mapping $g$ of $M^q$ into $N$ such that $f(x) = g(x, x, \ldots, x)$ for all $x \in M$.
 (ii) There exists a linear mapping $h$ of $TS^q(M)$ into $N$ such that $f(x) = h(\gamma_q(x))$ for all $x \in M$.
-(iii) There exists a basis $(e_i)_{i \in I}$ of $M$ and a family $(u_\nu)_{\nu \in N^{(1)}, |\nu| = q}$ of elements of $N$ such that
+(iii) There exists a basis $(e_i)_{i \in I}$ of $M$ and a family $(u_\nu)_{\nu \in N^{(I)}, |\nu| = q}$ of elements of $N$ such that
 $$
-f\left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(1)}, |\nu| = q} \lambda^\nu u_\nu
+f\left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(I)}, |\nu| = q} \lambda^\nu u_\nu
 $$
-for all $(\lambda_i) \in A^{(1)}$.
-(iv) For each basis $(e_i)_{i \in I}$ of $M$ there exists a family $(u_\nu)_{\nu \in N^{(1)}, |\nu| = q}$ of elements of $N$ such that
+for all $(\lambda_i) \in A^{(I)}$.
+(iv) For each basis $(e_i)_{i \in I}$ of $M$ there exists a family $(u_\nu)_{\nu \in N^{(I)}, |\nu| = q}$ of elements of $N$ such that
 $$
-f\left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(1)}, |\nu| = q} \lambda^\nu u_\nu
+f\left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(I)}, |\nu| = q} \lambda^\nu u_\nu
 $$
-for all $(\lambda_i) \in A^{(1)}$.
+for all $(\lambda_i) \in A^{(I)}$.
 (i) $\Rightarrow$ (ii): let $g$ satisfy (i), then there exists a linear mapping $g'$ of $T^q(M)$ into $N$ such that $g(x_1, x_2, \ldots, x_q) = g'(x_1 \otimes x_2 \otimes \ldots \otimes x)$ for any $x, \ldots, x, \in M$. Then
 $$
 f(x) = g(x, x, \ldots, x) = g'(x \otimes x \otimes \ldots \otimes x) = g'(\gamma_q(x));
@@ -813,7 +813,7 @@ Suppose next that the mapping $y \mapsto q!y$ in N is injective, then by *IV*, p
 
 #### Corollary {#alg-iv-s5-n9-cor-1 .statement}
 
-— *Let M be a free A-module, N an A-module, q a positive integer, $h \in \mathbf{Pol}^q(M, N)$ and $(e_i)_i$, a basis of M. In the two cases of Prop. 16 there exists a unique family $(u,$, $\mathbf{N}^{(1)}, |\cdot|$, , of elements of N such that $h \left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{|\nu| = q} \lambda^\nu u_\nu$ for all $(\lambda_i) \in \mathbf{A}^{(1)}$*
+— *Let M be a free A-module, N an A-module, q a positive integer, $h \in \mathbf{Pol}^q(M, N)$ and $(e_i)_i$, a basis of M. In the two cases of Prop. 16 there exists a unique family $(u,$, $\mathbf{N}^{(I)}, |\cdot|$, , of elements of N such that $h \left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{|\nu| = q} \lambda^\nu u_\nu$ for all $(\lambda_i) \in \mathbf{A}^{(1)}$*
 
 ### 10. Polynomial mappings
 
@@ -892,7 +892,7 @@ $$
 
 (i) *We have $\mathrm{Pol}(M, N) = \bigoplus_{q \geq 0} \mathrm{Pol}^q(M, N)$ and each $\mathrm{Pol}^q(M, N)$ may be identified canonically with $\mathrm{Hom}(\mathbf{T S}^q(M), N)$.*
 
-(ii) *Let $f \in \mathrm{Pol}(M, N)$ and $(e_i)_i$, a basis of M. There exists one and only one family $(u_\nu)_{\nu \in N^{(1)}}$ of elements of N such that $f \left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(1)}} \lambda^\nu u_\nu$ for all $(\lambda_i) \in A^{(1)}$.*
+(ii) *Let $f \in \mathrm{Pol}(M, N)$ and $(e_i)_i$, a basis of M. There exists one and only one family $(u_\nu)_{\nu \in N^{(I)}}$ of elements of N such that $f \left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(I)}} \lambda^\nu u_\nu$ for all $(\lambda_i) \in A^{(I)}$.*
 
 The assertion (i) follows from Prop. 16 and 19, and (ii) follows from (i) and the Cor. of Prop. 16.
 

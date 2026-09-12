@@ -45,9 +45,9 @@ subsections:
       pdf_page: 22
 statements: 30
 exercises: 5
-content_sha256: 3c1494d226f90c514224fb078eb3f05ef2f1879f7facf5762910235dcecea443
+content_sha256: 655693e7a04007c1c945191a9013db40b84ed61aa9c1a51e1fcd411b09a3ff01
 translated_from: content/en/alg/IV/01_s1_polynomials.md
-source_content_sha256: 9362bb420a6ac189e2cb718bf3d352a39d364cc2fbcd8f27c7d221863b22c9f9
+source_content_sha256: fd78d3218a441457495db91a031db777e1dadb9447985e7988ec7daf8360616c
 translation_model: gpt-5-6, gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-df5a3f08
 glossary_version: 34
@@ -195,7 +195,7 @@ $$
 
 #### Nhận xét {#alg-iv-s1-n3-rem-1 .statement}
 
-— Cho $x \in A^I$ và gọi $f$ là ánh xạ $u \mapsto u(x)$ từ $A[X]$ vào $A$. Với một $A$-môđun $M$ cho trước, ta xét đồng cấu $1 \otimes f$ từ $M[X] = M \otimes_A A[X]$ vào $M \otimes_A A = M$. Với mỗi $v \in M[X]$ ta có $(1 \otimes f)(v) = v(x)$. Nếu $v = \sum_{\nu \in \mathbf{N}^{(l)}} e_\nu X^\nu$, thì $v(x) = \sum_{\nu \in \mathbf{N}^{(l)}} x^\nu e_\nu$.
+— Cho $x \in A^I$ và gọi $f$ là ánh xạ $u \mapsto u(x)$ từ $A[X]$ vào $A$. Với một $A$-môđun $M$ cho trước, ta xét đồng cấu $1 \otimes f$ từ $M[X] = M \otimes_A A[X]$ vào $M \otimes_A A = M$. Với mỗi $v \in M[X]$ ta có $(1 \otimes f)(v) = v(x)$. Nếu $v = \sum_{\nu \in \mathbf{N}^{(I)}} e_\nu X^\nu$, thì $v(x) = \sum_{\nu \in \mathbf{N}^{(I)}} x^\nu e_\nu$.
 
 ### 4. Vi phân và phép dẫn xuất
 
@@ -203,14 +203,14 @@ Cho $B = A[(X_i)_{i \in I}]$, khi đó theo III, p. 569 với mỗi $i \in I$ t�
 $$
 D_i X_i = 1 , \quad D_i X_j = 0 \quad \text{với} \quad j \neq i
 $$
-Đa thức $D_i P$ được gọi là *đạo hàm riêng* của $P$ *theo* $X_i$; chúng tôi cũng sẽ ký hiệu nó bởi $D_{X_i} P$ hoặc $\frac{\partial P}{\partial X_i}$ hoặc $P'_{X_i}$. Theo III, p. 558, công thức (21), ta có, với $\nu = (\nu,) \in \mathbf{N}^{(l)}$,
+Đa thức $D_i P$ được gọi là *đạo hàm riêng* của $P$ *theo* $X_i$; chúng tôi cũng sẽ ký hiệu nó bởi $D_{X_i} P$ hoặc $\frac{\partial P}{\partial X_i}$ hoặc $P'_{X_i}$. Theo III, p. 558, công thức (21), ta có, với $\nu = (\nu,) \in \mathbf{N}^{(I)}$,
 $$
 D_i (X^\nu) = \begin{cases}
 \nu_i X_i^{\nu_i - 1} \prod_{j \in I - \{i\}} X_j^{\nu_j} & \text{nếu } \nu_i > 0 \\
 0 & \text{nếu } \nu_i = 0
 \end{cases}
 $$
-Suy ra từ (6) rằng $D_i D_j = D_j D_i$ với mọi $i, j \in I$. Với $\nu = (\nu_i)_{i \in I} \in \mathbf{N}^{(l)}$ ta đặt $D^\nu = \prod_{i \in I} D_i^{\nu_i}$ và $\nu! = \prod_{i \in I} (\nu_i!)$. Với thứ tự tích trên $\mathbf{N}^{(l)}$ ta có
+Suy ra từ (6) rằng $D_i D_j = D_j D_i$ với mọi $i, j \in I$. Với $\nu = (\nu_i)_{i \in I} \in \mathbf{N}^{(I)}$ ta đặt $D^\nu = \prod_{i \in I} D_i^{\nu_i}$ và $\nu! = \prod_{i \in I} (\nu_i!)$. Với thứ tự tích trên $\mathbf{N}^{(I)}$ ta có
 $$
 D^\nu(X^\mu) = \begin{cases}
 \frac{\mu!}{(\mu - \nu)!} X^{\mu - \nu} & \text{nếu } \nu \leq \mu , \\

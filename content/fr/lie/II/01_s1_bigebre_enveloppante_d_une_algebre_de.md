@@ -36,7 +36,7 @@ subsections:
       pdf_page: 13
 statements: 27
 exercises: 12
-content_sha256: de9389eb2586d0042a7d29bfc62f438b0547587c3191c7a4521d2629d90a06b8
+content_sha256: 417980af9583930eeefc15e1482d8c82aabb4b71b39c7322f4e486934610b33c
 ---
 
 ## § 1. Bigèbre enveloppante d’une algèbre de Lie
@@ -541,7 +541,7 @@ La démonstration sera donc achevée lorsque nous aurons démontré le lemme sui
 
 #### Lemme 3 {#lie-ii-s1-lem-3 .statement}
 
-*Si une famille de scalaires* $(\lambda_{\alpha,\beta})$ *de support fini* (pour $\alpha, \beta$ dans $\mathbf{N}^{(1)} - \{0\}$) *satisfait aux relations* (20) *et* (21), *il existe une famille* $(\mu_\alpha)_{|\alpha| \geq 2}$ *de support fini telle que* $\mu_{\alpha+\beta} = \lambda_{\alpha,\beta}$ *pour* $\alpha, \beta$ *non nuls*.
+*Si une famille de scalaires* $(\lambda_{\alpha,\beta})$ *de support fini* (pour $\alpha, \beta$ dans $\mathbf{N}^{(I)} - \{0\}$) *satisfait aux relations* (20) *et* (21), *il existe une famille* $(\mu_\alpha)_{|\alpha| \geq 2}$ *de support fini telle que* $\mu_{\alpha+\beta} = \lambda_{\alpha,\beta}$ *pour* $\alpha, \beta$ *non nuls*.
 
 Il suffit de prouver que
 
@@ -549,7 +549,7 @@ Il suffit de prouver que
 $$
 \alpha + \beta = \gamma + \delta
 $$
-entraîne $\lambda_{\alpha,\beta} = \lambda_{\gamma,\delta}$ pour $\alpha, \beta, \gamma, \delta$ non nuls. D’après le lemme de décomposition de Riesz (A, VI, § 1, n° 10, th. 1), il existe $\pi, \rho, \sigma$ et $\tau$ dans $\mathbf{N}^{(1)}$ tels que
+entraîne $\lambda_{\alpha,\beta} = \lambda_{\gamma,\delta}$ pour $\alpha, \beta, \gamma, \delta$ non nuls. D’après le lemme de décomposition de Riesz (A, VI, § 1, n° 10, th. 1), il existe $\pi, \rho, \sigma$ et $\tau$ dans $\mathbf{N}^{(I)}$ tels que
 $$
 \alpha = \pi + \sigma, \quad \beta = \rho + \tau, \quad \gamma = \pi + \rho, \quad \delta = \sigma + \tau.
 $$

@@ -29,9 +29,9 @@ subsections:
       pdf_page: 298
 statements: 15
 exercises: 9
-content_sha256: 5f56717bf21a4053d09c06bc726fd982043506223e03fa8c314de40e8e9ca2fb
+content_sha256: 7d6c8c7a8a214f0f2c6921955cd8ec82d2d5dcfb08e34a3c000698737def30bc
 translated_from: content/en/alg/II/04_s4_relations_between_tensor_products_and.md
-source_content_sha256: 6dfd4a7bac26e407abb6ed42b7c674028fd2545a3417e49280a736325af40e56
+source_content_sha256: 8e8821ce947a2c6c29610c1d635790feb7ff2e056a08ea9ee06d29dad34cf210
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-ee3a5201
 glossary_version: 34
@@ -455,16 +455,16 @@ là *giao hoán*.
 *Cho E₁, E₂ là hai C-môđun xạ ảnh sinh hữu hạn, u₁ là một tự đồng cấu của E₁ và u₂ là một tự đồng cấu của E₂; khi đó*
 
 $$
-\text{Tr}(u₁ \otimes u₂) = \text{Tr}(u₁)\text{Tr}(u₂).
+\text{Tr}(u_1 \otimes u_2) = \text{Tr}(u_1)\text{Tr}(u_2).
 $$
 
-Do tính tuyến tính, chỉ cần xét trường hợp $u₁$ có dạng $x₁ \mapsto \langle x₁, x₁^* \rangle y₁$ và $u₂$ có dạng $x₂ \mapsto \langle x₂, x₂^* \rangle y₂$; khi đó ảnh của $x₁ \otimes x₂$ dưới $u₁ \otimes u₂$ theo định nghĩa là
+Do tính tuyến tính, chỉ cần xét trường hợp $u_1$ có dạng $x_1 \mapsto \langle x_1, x_1^* \rangle y_1$ và $u_2$ có dạng $x_2 \mapsto \langle x_2, x_2^* \rangle y_2$; khi đó ảnh của $x_1 \otimes x_2$ dưới $u_1 \otimes u_2$ theo định nghĩa là
 
 $$
-\langle x₁, x₁^* \rangle \langle x₂, x₂^* \rangle (y₁ \otimes y₂) = \langle x₁ \otimes x₂, x₁^* \otimes x₂^* \rangle (y₁ \otimes y₂)
+\langle x_1, x_1^* \rangle \langle x_2, x_2^* \rangle (y_1 \otimes y_2) = \langle x_1 \otimes x_2, x_1^* \otimes x_2^* \rangle (y_1 \otimes y_2)
 $$
 
-$x₁^* \otimes x₂^*$ được đồng nhất một cách chính tắc dưới $\mu$ với một phần tử của $(E₁ \otimes E₂)^*$. Vì $\langle y₁ \otimes y₂, x₁^* \otimes x₂^* \rangle = \langle y₁, x₁^* \rangle \langle y₂, x₂^* \rangle$, nên công thức (26) suy ra trong trường hợp này từ (17).
+$x_1^* \otimes x_2^*$ được đồng nhất một cách chính tắc dưới $\mu$ với một phần tử của $(E_1 \otimes E_2)^*$. Vì $\langle y_1 \otimes y_2, x_1^* \otimes x_2^* \rangle = \langle y_1, x_1^* \rangle \langle y_2, x_2^* \rangle$, nên công thức (26) suy ra trong trường hợp này từ (17).
 
 #### Nhận xét {#alg-ii-s4-n4-rem-1 .statement}
 

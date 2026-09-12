@@ -152,7 +152,7 @@ chapters:
           statements: 45
           exercises: 20
           extraction: ocr
-          content_sha256: 5a5517e0d58e8361748f2731076323599f17a4afc05897a02dc3259671f9c5fc
+          content_sha256: 90b67418c15d6f66a715a262d22949162ac9188eed760c10d06fc4c4da427660
         - kind: section
           section: 7
           title: Points extrémaux et génératrices extrémales

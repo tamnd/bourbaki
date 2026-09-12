@@ -367,7 +367,7 @@ chapters:
           statements: 31
           exercises: 21
           extraction: ocr
-          content_sha256: d8e0ae9af9790c3abf9aff6cb1dc6e881d4046ae0ea1264d8bd2fb53153dc087
+          content_sha256: 2c61e5016471c114c8619e3f3ae610250dd71a2ed1cb84fa0e9ffdc7592dc87d
         - kind: historical
           title: Historical Note
           path: content/en/int/V/historical_note.md

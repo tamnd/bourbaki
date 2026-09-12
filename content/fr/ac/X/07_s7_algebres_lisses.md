@@ -53,7 +53,7 @@ subsections:
       pdf_page: 101
 statements: 39
 exercises: 15
-content_sha256: 88cf6f006be004d17dda9558ae61456b20a200ae1ce82643f605aed7f8e8fa28
+content_sha256: bcafdf4db47f70c0bba342ff648d4aab9671001599610629aeb7d3892e87964e
 ---
 
 ## § 7. ALGÈBRES LISSES
@@ -323,13 +323,13 @@ défini par $\psi(\alpha, (b_i)) = \Omega_0(\rho)(\alpha) + \sum_{i \in I} b_i d
 Considérons la suite de B-modules et d’applications B-linéaires
 
 $$
-B^{(A)} \xrightarrow{\varphi} (B \otimes_{A} \Omega_k(A)) \oplus B^{(1)} \xrightarrow{\psi} \Omega_k(B) \longrightarrow 0,
+B^{(A)} \xrightarrow{\varphi} (B \otimes_{A} \Omega_k(A)) \oplus B^{(I)} \xrightarrow{\psi} \Omega_k(B) \longrightarrow 0,
 $$
 
 où $\varphi$ est l’homomorphisme tel que $\varphi(e_\lambda) = n_\lambda$; il s’agit de démontrer que cette suite est exacte. D’après A, II, p. 36, th. 1, il suffit de prouver que, pour tout B-module M, la suite
 
 $$
-0 \to \mathrm{Hom}_B(\Omega_k(B), M) \xrightarrow{\mathrm{Hom}(\psi, 1)} \mathrm{Hom}_B((B \otimes_A \Omega_k(A)) \oplus B^{(1)}, M) \xrightarrow{\mathrm{Hom}(\varphi, 1)} \mathrm{Hom}_B(B^{(A)}, M)
+0 \to \mathrm{Hom}_B(\Omega_k(B), M) \xrightarrow{\mathrm{Hom}(\psi, 1)} \mathrm{Hom}_B((B \otimes_A \Omega_k(A)) \oplus B^{(I)}, M) \xrightarrow{\mathrm{Hom}(\varphi, 1)} \mathrm{Hom}_B(B^{(A)}, M)
 $$
 
 est exacte. Compte tenu de la propriété universelle du module des différentielles (A, III, p. 134), cette suite s’identifie à
@@ -338,7 +338,7 @@ $$
 0 \to D_k(B, M) \xrightarrow{\psi'} D_k(A, M) \oplus M^1 \xrightarrow{\varphi'} M^A
 $$
 
-où $\psi'(D) = (D \circ \rho, (D(t_i)))$ et $\varphi'(\Delta, (m_i)) = (f^\Delta_\lambda(t) + \sum_i \frac{\partial f_\lambda}{\partial T_i}(t) m_i)_{\lambda \in A}$ (conformément à A, V, p. 121, pour tout polynôme $f = \sum_{\alpha \in \mathbf{N}^{(1)}} c_\alpha T^\alpha$ de $A[T]$, on note $f^\Delta(t)$ l’élément $\sum_\alpha t^\alpha \Delta(c_\alpha)$). Or l’exactitude de cette suite résulte de loc. cit., prop. 1, compte tenu de ce qu’une dérivation $D : B \to M$ est $k$-linéaire si et seulement s’il en est ainsi de $D \circ \rho$.
+où $\psi'(D) = (D \circ \rho, (D(t_i)))$ et $\varphi'(\Delta, (m_i)) = (f^\Delta_\lambda(t) + \sum_i \frac{\partial f_\lambda}{\partial T_i}(t) m_i)_{\lambda \in A}$ (conformément à A, V, p. 121, pour tout polynôme $f = \sum_{\alpha \in \mathbf{N}^{(I)}} c_\alpha T^\alpha$ de $A[T]$, on note $f^\Delta(t)$ l’élément $\sum_\alpha t^\alpha \Delta(c_\alpha)$). Or l’exactitude de cette suite résulte de loc. cit., prop. 1, compte tenu de ce qu’une dérivation $D : B \to M$ est $k$-linéaire si et seulement s’il en est ainsi de $D \circ \rho$.
 
 Soit A un anneau. Il existe une unique structure de $\mathbf{Z}$-algèbre sur A ; on note simplement $\Omega(A)$ le A-module $\Omega_{\mathbf{Z}}(A)$. Si $\rho : k \to A$ est un homomorphisme d’anneaux, on a une suite exacte canonique de A-modules (A, III, p. 136, prop. 21)
 

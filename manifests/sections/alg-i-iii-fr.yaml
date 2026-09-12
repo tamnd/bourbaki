@@ -327,7 +327,7 @@ chapters:
           statements: 34
           exercises: 1
           extraction: ocr
-          content_sha256: b47e2f7501b600faa17f06a2c6b1c731b715b6679f70aecc6250626bcea6a495
+          content_sha256: 44070b11d16fec117e0e5ed0f2692d2a45a1b3db02e3ca6de5a9f8045f8eb246
         - kind: appendix
           title: Pseudomodules
           path: content/fr/alg/II/A_a_pseudomodules.md
@@ -481,7 +481,7 @@ chapters:
           statements: 41
           exercises: 5
           extraction: ocr
-          content_sha256: f74bdf49729b5ad664db0ff655817d64e0fb391c122955c70c853d7980feebd7
+          content_sha256: b7cae74a617646a9a3b81a640ac101de0fdf3dda13a2a0e27048a406c5377078
         - kind: section
           section: 11
           title: Cogèbres, produits de formes multilinéaires, produits intérieurs et dualité

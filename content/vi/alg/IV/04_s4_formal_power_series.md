@@ -54,9 +54,9 @@ subsections:
       pdf_page: 48
 statements: 23
 exercises: 8
-content_sha256: effed1dc5332e4534cfd8e459957293a330b82ef6a2b219bff8a6fd4769a7175
+content_sha256: da77df191971c2a2c6d2ca2e9ca1ac50f25e1b8215d7ee9b1e3eb60cd3a721bf
 translated_from: content/en/alg/IV/04_s4_formal_power_series.md
-source_content_sha256: 93080588981c2b27de5dc22c144773a4cc368e44a520855683149c13794140e7
+source_content_sha256: ed35587a155fb15e501a74eae948a900accc935d0e586e804f6eb09239b179a3
 translation_model: gpt-5.4
 translation_run: translate-vi-1e020711
 glossary_version: 34
@@ -140,7 +140,7 @@ $$
 \sum_{(\lambda, \mu) \in L \times M} u_\lambda v_\mu = \left( \sum_{\lambda \in L} u_\lambda \right) \left( \sum_{\mu \in M} v_\mu \right)
 $$
 
-Gọi $(\alpha_{\lambda, \nu})_{\nu \in \mathbf{N}^{(1)}}$ (resp. $(\beta_{\mu, \nu})_{\nu \in \mathbf{N}^{(1)}}$) là họ các hệ số của $u_\lambda$ (resp. $v_\nu$). Với mỗi $\nu \in \mathbf{N}^{(1)}$ chỉ tồn tại một số hữu hạn cặp $(\nu_1, \nu_2) \in \mathbf{N}^{(1)} \times \mathbf{N}^{(1)}$ sao cho $\nu_1 + \nu_2 = \nu$, do đó chỉ tồn tại một số hữu hạn cặp $(\lambda, \mu) \in L \times M$ sao cho hệ số của $X^\nu$ trong $u_\lambda v_\mu$ là $\neq 0$. Suy ra họ $(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times \mathscr{J}}$ là khả tổng. Bây giờ công thức (2) suy ra từ tính kết hợp của tổng (Gen. Top., III, p. 265, công thức (2)).
+Gọi $(\alpha_{\lambda, \nu})_{\nu \in \mathbf{N}^{(I)}}$ (resp. $(\beta_{\mu, \nu})_{\nu \in \mathbf{N}^{(I)}}$) là họ các hệ số của $u_\lambda$ (resp. $v_\nu$). Với mỗi $\nu \in \mathbf{N}^{(I)}$ chỉ tồn tại một số hữu hạn cặp $(\nu_1, \nu_2) \in \mathbf{N}^{(I)} \times \mathbf{N}^{(I)}$ sao cho $\nu_1 + \nu_2 = \nu$, do đó chỉ tồn tại một số hữu hạn cặp $(\lambda, \mu) \in L \times M$ sao cho hệ số của $X^\nu$ trong $u_\lambda v_\mu$ là $\neq 0$. Suy ra họ $(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times \mathscr{J}}$ là khả tổng. Bây giờ công thức (2) suy ra từ tính kết hợp của tổng (Gen. Top., III, p. 265, công thức (2)).
 
 Trong $\mathbf{A}[[\mathbf{I}]]$ tích là một luật hợp thành kết hợp và giao hoán. Do đó ta có thể nói về một *họ khả nhân* các phần tử của $\mathbf{A}[[\mathbf{I}]]$ và về *tích* của một họ khả nhân (Gen. Top., III, p. 262, nhận xét 3).
 
@@ -154,7 +154,7 @@ $$
 \sum_{M \in \mathfrak{T}} u_M = \prod_{\lambda \in L} (1 + u_\lambda).
 $$
 
-Hãy định nghĩa các iđêan $\mathfrak{a}_\beta$ như ở đầu số này, và lấy $\beta \in \mathbf{N}^{(1)}$. Tồn tại một tập con hữu hạn $L_0$ của $L$ sao cho $u_\lambda \in \mathfrak{a}_\beta$ với mọi $\lambda \notin L_0$. Khi đó với mọi $M \in \mathscr{S}$ sao cho $M \not\subset L_0$ ta có $u_M \in \mathfrak{a}_\beta$. Do đó họ $(u_M)_{M \in \mathfrak{T}}$ là khả tổng. Mặt khác, với mọi tập con hữu hạn $M_0$ của $L$ ta có
+Hãy định nghĩa các iđêan $\mathfrak{a}_\beta$ như ở đầu số này, và lấy $\beta \in \mathbf{N}^{(I)}$. Tồn tại một tập con hữu hạn $L_0$ của $L$ sao cho $u_\lambda \in \mathfrak{a}_\beta$ với mọi $\lambda \notin L_0$. Khi đó với mọi $M \in \mathscr{S}$ sao cho $M \not\subset L_0$ ta có $u_M \in \mathfrak{a}_\beta$. Do đó họ $(u_M)_{M \in \mathfrak{T}}$ là khả tổng. Mặt khác, với mọi tập con hữu hạn $M_0$ của $L$ ta có
 
 $$
 \sum_{M \subset M_0} u_M = \prod_{\lambda \in M_0} (1 + u_\lambda).
@@ -164,9 +164,9 @@ Lấy theo tập hợp có thứ tự lọc $\mathfrak{T}$, vế trái có giớ
 
 #### Mệnh đề 3 {#alg-iv-s4-prop-3 .statement}
 
-*Cho* $u = \sum a_\nu X^\nu \in \mathbf{A}[[\mathbf{I}]]$ *và* $m$ *là một số nguyên* $> 0$. *Với mọi* $n \in \mathbf{N}$ *gọi* $(\alpha_{\nu, n})_{\nu \in \mathbf{N}^{(1)}}$ *là họ các hệ số của* $u^n$. *Nếu* $\alpha_0^m = 0$, *thì* $\alpha_{\nu, n} = 0$ *với* $n \geq |\nu| + m$.
+*Cho* $u = \sum a_\nu X^\nu \in \mathbf{A}[[\mathbf{I}]]$ *và* $m$ *là một số nguyên* $> 0$. *Với mọi* $n \in \mathbf{N}$ *gọi* $(\alpha_{\nu, n})_{\nu \in \mathbf{N}^{(I)}}$ *là họ các hệ số của* $u^n$. *Nếu* $\alpha_0^m = 0$, *thì* $\alpha_{\nu, n} = 0$ *với* $n \geq |\nu| + m$.
 
-Cho $\nu \in \mathbf{N}^{(1)}$ và $n \in \mathbf{N}$. Ta có
+Cho $\nu \in \mathbf{N}^{(I)}$ và $n \in \mathbf{N}$. Ta có
 
 $$
 \alpha_{\nu,n} = \sum_{\nu(1) + \cdots + \nu(n) = \nu} \alpha_{\nu(1)} \cdots \alpha_{\nu(n)} .
@@ -258,7 +258,7 @@ Ngược lại, giả sử số hạng hằng $a$ của $u$ là khả nghịch. 
 
 #### Nhận xét {#alg-iv-s4-n4-rem-1 .statement}
 
-— Gọi $A$ là tập hợp tất cả các chuỗi lũy thừa hình thức có số hạng hằng bằng 1. Theo Mệnh đề 6, $M$ là một nhóm giao hoán đối với phép nhân; vì vậy nhóm nhân của $A[[I]]$ là tích trực tiếp của $M$ và nhóm nhân của $A$. Ta sẽ trang bị cho $A$ tôpô cảm sinh từ tôpô của $A[[I]]$. Với mỗi $\beta \in \mathbf{N}^{(1)}$ ta đã định nghĩa trong IV, p. 26 iđêan $a_\beta$ của $A[[I]]$; khi đó $1 + a_\beta$ là một nhóm con của $M$ và họ $(1 + a_{\beta'})$ là một hệ cơ bản các lân cận của 1 trong $M$. Vì phép nhân trong $M$ là liên tục, suy ra $A$ là một nhóm tôpô (Gen. Top., III, p. 223); nói cách khác, *ánh xạ* $f \mapsto f^{-1}$ *liên tục trong* $M$.
+— Gọi $A$ là tập hợp tất cả các chuỗi lũy thừa hình thức có số hạng hằng bằng 1. Theo Mệnh đề 6, $M$ là một nhóm giao hoán đối với phép nhân; vì vậy nhóm nhân của $A[[I]]$ là tích trực tiếp của $M$ và nhóm nhân của $A$. Ta sẽ trang bị cho $A$ tôpô cảm sinh từ tôpô của $A[[I]]$. Với mỗi $\beta \in \mathbf{N}^{(I)}$ ta đã định nghĩa trong IV, p. 26 iđêan $a_\beta$ của $A[[I]]$; khi đó $1 + a_\beta$ là một nhóm con của $M$ và họ $(1 + a_{\beta'})$ là một hệ cơ bản các lân cận của 1 trong $M$. Vì phép nhân trong $M$ là liên tục, suy ra $A$ là một nhóm tôpô (Gen. Top., III, p. 223); nói cách khác, *ánh xạ* $f \mapsto f^{-1}$ *liên tục trong* $M$.
 
 Cho $K$ là một trường giao hoán và $\mathscr{O}$ là vành con của trường các phân thức hữu tỉ $K((X_i)_{i,,})$ gồm các phân thức hữu tỉ trong đó phần tử 0 của $K^1$ có thể được thế vào. Nếu $f \in \mathscr{O}$, ta có $f = \frac{u}{v}$, trong đó $u$ và $v$ là các đa thức sao cho số hạng hằng của $v$ là $\neq 0$, do đó $v$ là khả nghịch trong $K[[I]]$. Ta kiểm tra ngay được rằng phần tử $uv^{-1}$ của $K[[I]]$ chỉ phụ thuộc vào $f$; ta nói rằng chuỗi lũy thừa hình thức $uv^{-1}$ là *khai triển tại gốc của phân thức hữu tỉ* $\frac{u}{v}$. Ánh xạ $f \mapsto uv^{-1}$ là một đồng cấu đơn cấu từ $\mathscr{O}$ vào $K[[I]]$; ta sẽ thường đồng nhất $\mathscr{O}$ với ảnh của nó qua ánh xạ này.
 

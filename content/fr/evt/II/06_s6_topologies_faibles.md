@@ -45,7 +45,7 @@ subsections:
       pdf_page: 91
 statements: 45
 exercises: 20
-content_sha256: 5a5517e0d58e8361748f2731076323599f17a4afc05897a02dc3259671f9c5fc
+content_sha256: 90b67418c15d6f66a715a262d22949162ac9188eed760c10d06fc4c4da427660
 ---
 
 ## § 6. TOPOLOGIES FAIBLES
@@ -433,7 +433,7 @@ En effet, soient $p : F \to M$, $q : F \to N$ les projecteurs correspondant à l
 
 #### Corollaire 2 {#evt-ii-s6-prop-8-cor-2 .statement}
 
-Soient $F$ un espace vectoriel, $F^*$ son dual, $(e_i)_{i \in I}$ une base de $F$, $u : \mathbf{R}^{(1)} \to F$ l’isomorphisme (algébrique) défini par cette base. Alors l’application transposée $'u : F^* \to \mathbf{R}^I$ est un isomorphisme topologique lorsqu’on munit $F^*$ de $\sigma(F^*, F)$ et $\mathbf{R}^I$ de la topologie produit.
+Soient $F$ un espace vectoriel, $F^*$ son dual, $(e_i)_{i \in I}$ une base de $F$, $u : \mathbf{R}^{(I)} \to F$ l’isomorphisme (algébrique) défini par cette base. Alors l’application transposée $'u : F^* \to \mathbf{R}^I$ est un isomorphisme topologique lorsqu’on munit $F^*$ de $\sigma(F^*, F)$ et $\mathbf{R}^I$ de la topologie produit.
 
 On sait (A, II, p. 44, prop. 10) que $'u$ est une bijection, et que si, pour un $x^* \in F^*$, on pose $\langle e_i, x^* \rangle = \xi_i^*$ pour tout $i \in I$, l’image $'u(x^*)$ est le vecteur $(\xi_i^*)$ de $\mathbf{R}^I$, de sorte que, pour tout $x = \sum_i \xi_i e_i$ dans $F$, on a $\langle x, x^* \rangle = \sum_{i \in I} \xi_i \xi_i^*$. Le corollaire est alors conséquence de cette formule et de la prop. 8.
 

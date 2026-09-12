@@ -61,7 +61,7 @@ subsections:
       pdf_page: 522
 statements: 41
 exercises: 5
-content_sha256: f74bdf49729b5ad664db0ff655817d64e0fb391c122955c70c853d7980feebd7
+content_sha256: b7cae74a617646a9a3b81a640ac101de0fdf3dda13a2a0e27048a406c5377078
 ---
 
 ## § 10. DÉRIVATIONS
@@ -675,11 +675,11 @@ car les deux membres sont des dérivations de T(M) (resp. S(M), resp. ∧(M)) qu
 On obtiendra l’expression de Dₛ à l’aide de la formule (21) de III, p. 123, qui donne respectivement, pour x₁, x₂, ..., xₙ dans M
 $$
 \begin{cases}
-Dₛ(x₁ \otimes x₂ \otimes \cdots \otimes xₙ) \\
-= \sum_{i=1}^{n} x₁ \otimes \cdots \otimes x_{i-1} \otimes s(x_i) \otimes x_{i+1} \otimes \cdots \otimes xₙ \\
-Dₛ(x₁x₂ \cdots xₙ) = \sum_{i=1}^{n} x₁ \cdots x_{i-1} s(x_i)x_{i+1} \cdots xₙ \\
-Dₛ(x₁ \wedge x₂ \wedge \cdots \wedge xₙ) \\
-= \sum_{i=1}^{n} x₁ \wedge \cdots \wedge x_{i-1} \wedge s(x_i) \wedge x_{i+1} \wedge \cdots \wedge xₙ.
+D_s(x_1 \otimes x_2 \otimes \cdots \otimes x_n) \\
+= \sum_{i=1}^{n} x_1 \otimes \cdots \otimes x_{i-1} \otimes s(x_i) \otimes x_{i+1} \otimes \cdots \otimes x_n \\
+D_s(x_1x_2 \cdots x_n) = \sum_{i=1}^{n} x_1 \cdots x_{i-1} s(x_i)x_{i+1} \cdots x_n \\
+D_s(x_1 \wedge x_2 \wedge \cdots \wedge x_n) \\
+= \sum_{i=1}^{n} x_1 \wedge \cdots \wedge x_{i-1} \wedge s(x_i) \wedge x_{i+1} \wedge \cdots \wedge x_n.
 \end{cases}
 $$
 (36)

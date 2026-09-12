@@ -44,7 +44,7 @@ subsections:
       pdf_page: 20
 statements: 30
 exercises: 6
-content_sha256: dd1d2ba1e59d9b57430ca618db94582b2d9f277546c3a1289cc7836a2d81f4cc
+content_sha256: 60c4a8d95523ab290676ce8bebad21c12d23f6ec07ff8513dfae674f21b872f5
 ---
 
 ## § 1. POLYNÔMES
@@ -298,7 +298,7 @@ $$
 
 #### Proposition 5 {#alg-iv-s1-prop-5 .statement}
 
-Quels que soient $u \in A[X]$ et $\nu \in \mathbf{N}^{(l)}$, on a
+Quels que soient $u \in A[X]$ et $\nu \in \mathbf{N}^{(I)}$, on a
 
 $$
 D^\nu u = \nu! \Delta^\nu u .

@@ -53,7 +53,7 @@ subsections:
       pdf_page: 44
 statements: 24
 exercises: 8
-content_sha256: f82cd48759fd385cc68b2172e02d2c0113dd54d7b1406896e24e1810c2a3012c
+content_sha256: 1025d94bb3ac3b000c1d2e8303a1bd15f12c0943a031a996a19c4067eafa3f78
 ---
 
 ## § 4. SÉRIES FORMELLES
@@ -112,14 +112,14 @@ Soient $L$ un ensemble infini et $(u_\lambda)_{\lambda \in L}$ une famille d’�
 (ii) On a $\lim u_\lambda = 0$ selon le filtre des complémentaires des parties finies de $L$.
 (iii) Pour tout $\nu \in N^{(I)}$, on a $\alpha_{\lambda,\nu} = 0$ sauf pour un nombre fini d’indices $\lambda \in L$.
 
-Si ces conditions sont remplies, la série $u = \sum_{\lambda \in L} u_\lambda$ est égale à $\sum_\nu \alpha_\nu X^\nu$ avec $\alpha_\nu = \sum_{\lambda \in L} \alpha_{\lambda,\nu}$ pour tout $\nu \in \mathbf{N}^{(l)}$.
+Si ces conditions sont remplies, la série $u = \sum_{\lambda \in L} u_\lambda$ est égale à $\sum_\nu \alpha_\nu X^\nu$ avec $\alpha_\nu = \sum_{\lambda \in L} \alpha_{\lambda,\nu}$ pour tout $\nu \in \mathbf{N}^{(I)}$.
 
 L’équivalence de (i) et (ii) résulte du cor. 2 de TG, III, p. 39.
 L’équivalence de (ii) et (iii) résulte des propriétés des limites dans un espace produit (TG, I, p. 51, cor. 1).
 La dernière assertion résulte de la prop. 4 de TG, III, p. 41.
 
 Donnons quelques exemples de familles sommables.
-a) Soit $u \in \mathbf{A}[[\mathbf{I}]]$ et soit $\alpha_\nu$ le coefficient de $X^\nu$ dans $u$. La famille $(\alpha_\nu X^\nu)_{\nu \in \mathbf{N}^{(l)}}$ est alors sommable de somme $u$ (ce qui justifie l’écriture $u = \sum_\nu \alpha_\nu X^\nu$).
+a) Soit $u \in \mathbf{A}[[\mathbf{I}]]$ et soit $\alpha_\nu$ le coefficient de $X^\nu$ dans $u$. La famille $(\alpha_\nu X^\nu)_{\nu \in \mathbf{N}^{(I)}}$ est alors sommable de somme $u$ (ce qui justifie l’écriture $u = \sum_\nu \alpha_\nu X^\nu$).
 
 b) Soit $u \in \mathbf{A}[[\mathbf{I}]]$; pour tout entier $p \geq 0$, soit $u_p$ la composante homogène de degré $p$ de $u$. Alors la famille $(u_p)_{p \in \mathbf{N}}$ est sommable et l’on a $u = \sum_{p \geq 0} u_p$.
 
@@ -135,7 +135,7 @@ Soient $(u_\lambda)_{\lambda \in L}$ et $(v_\mu)_{\mu \in M}$ deux familles somm
 $$
 \sum_{(\lambda, \mu) \in L \times M} u_\lambda v_\mu = (\sum_{\lambda \in L} u_\lambda) (\sum_{\mu \in M} v_\mu).
 $$
-Soit $(\alpha_{\lambda,\nu})_{\nu \in \mathbf{N}^{(l)}}$ (resp. $(\beta_{\mu,\nu})_{\nu \in \mathbf{N}^{(l)}}$) la famille des coefficients de $u_\lambda$ (resp. $v_\mu$). Pour tout $\nu \in \mathbf{N}^{(l)}$, il n’existe qu’un nombre fini de couples $(\nu_1, \nu_2) \in \mathbf{N}^{(l)} \times \mathbf{N}^{(l)}$ tels que $\nu_1 + \nu_2 = \nu$, donc il n’existe qu’un nombre fini de couples $(\lambda, \mu) \in L \times M$ tels que le coefficient de $X^\nu$ dans $u_\lambda v_\mu$ soit $\neq 0$. Par suite, la famille $(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times M}$ est sommable. La formule (2) résulte alors de l’associativité de la somme (TG, III, p. 40, formule (2)).
+Soit $(\alpha_{\lambda,\nu})_{\nu \in \mathbf{N}^{(I)}}$ (resp. $(\beta_{\mu,\nu})_{\nu \in \mathbf{N}^{(I)}}$) la famille des coefficients de $u_\lambda$ (resp. $v_\mu$). Pour tout $\nu \in \mathbf{N}^{(I)}$, il n’existe qu’un nombre fini de couples $(\nu_1, \nu_2) \in \mathbf{N}^{(I)} \times \mathbf{N}^{(I)}$ tels que $\nu_1 + \nu_2 = \nu$, donc il n’existe qu’un nombre fini de couples $(\lambda, \mu) \in L \times M$ tels que le coefficient de $X^\nu$ dans $u_\lambda v_\mu$ soit $\neq 0$. Par suite, la famille $(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times M}$ est sommable. La formule (2) résulte alors de l’associativité de la somme (TG, III, p. 40, formule (2)).
 
 Dans $\mathbf{A}[[\mathbf{I}]]$, le produit est une loi de composition associative et commutative. On peut donc parler de famille multipliable d’éléments de $\mathbf{A}[[\mathbf{I}]]$, et de produit d’une famille multipliable (TG, III, p. 37, remarque 3).
 
@@ -151,7 +151,7 @@ $$
 \sum_{M \in \mathscr{F}} u_M = \prod_{\lambda \in L} (1 + u_\lambda).
 $$
 
-Définissons les idéaux $a_\beta$ comme au début de ce numéro. Soit $\beta \in \mathbf{N}^{(1)}$. Il existe une partie finie $L_0$ de $L$ telle que l’on ait $u_\lambda \in a_\beta$ pour $\lambda \notin L_0$. Alors pour tout $M \in \mathscr{F}$ tel que $M \notin L_0$, on a $u_M \in a_\beta$. On en déduit que la famille $(u_M)_{M \in \mathscr{F}}$ est sommable. D’autre part, si $M_0$ est une partie finie de $L$, on a
+Définissons les idéaux $a_\beta$ comme au début de ce numéro. Soit $\beta \in \mathbf{N}^{(I)}$. Il existe une partie finie $L_0$ de $L$ telle que l’on ait $u_\lambda \in a_\beta$ pour $\lambda \notin L_0$. Alors pour tout $M \in \mathscr{F}$ tel que $M \notin L_0$, on a $u_M \in a_\beta$. On en déduit que la famille $(u_M)_{M \in \mathscr{F}}$ est sommable. D’autre part, si $M_0$ est une partie finie de $L$, on a
 
 $$
 \sum_{M \subset M_0} u_M = \prod_{\lambda \in M_0} (1 + u_\lambda).
@@ -161,8 +161,8 @@ Suivant l’ensemble ordonné filtrant $\mathscr{F}$, le membre de gauche a pour
 
 #### Proposition 3 {#alg-iv-s4-prop-3 .statement}
 
-*Soient $u = \sum_\nu \alpha_\nu X^\nu \in A[[I]]$, et $m$ un entier $> 0$. Pour tout $n \in \mathbf{N}$, soit $(\alpha_{\nu,n})_{\nu \in \mathbf{N}^{(1)}}$ la famille des coefficients de $u^n$. Supposons que $\alpha_0^m = 0$. On a $\alpha_{\nu,n} = 0$ pour $n \geq |\nu| + m$.
-Soient $\nu \in \mathbf{N}^{(1)}$ et $n \in \mathbf{N}$. On a*
+*Soient $u = \sum_\nu \alpha_\nu X^\nu \in A[[I]]$, et $m$ un entier $> 0$. Pour tout $n \in \mathbf{N}$, soit $(\alpha_{\nu,n})_{\nu \in \mathbf{N}^{(I)}}$ la famille des coefficients de $u^n$. Supposons que $\alpha_0^m = 0$. On a $\alpha_{\nu,n} = 0$ pour $n \geq |\nu| + m$.
+Soient $\nu \in \mathbf{N}^{(I)}$ et $n \in \mathbf{N}$. On a*
 
 $$
 \alpha_{\nu,n} = \sum_{\nu(1) + \cdots + \nu(n) = \nu} \alpha_{\nu(1)} \cdots \alpha_{\nu(n)}.
@@ -191,7 +191,7 @@ b) si $I$ est infini, $x_i$ tend vers 0 suivant le filtre des complémentaires d
 
 Pour tout $i \in I$, $X_i^n$ tend évidemment vers 0 dans $A[[I]]$ quand $n$ tend vers $+ \infty$; d’autre part, si $I$ est infini, $X_i$ tend vers 0 suivant le filtre des complémentaires des parties finies de $I$. Cela prouve (i).
 
-Soit $(x_i)_{i \in I}$ une famille d’éléments de $E$ satisfaisant aux conditions a) et b) de (i). Soit $\psi$ l’homomorphisme $u \mapsto u((x_i)_{i \in I})$ de $A[(X_i)_{i \in I}]$ dans $E$. soit $V$ un voisinage de 0 dans $E$ qui soit un idéal de $E$. Il existe d’après b) une partie finie $J$ de $I$ telle que $x_i \in V$ pour tout $i \in I - J$. Puis il existe d’après a) un entier $n \geqslant 0$ tel que l’on ait $x_i^n \in V$ pour tout $i \in J$. Soit $\beta$ l’élément de $\mathbf{N}^{(1)}$ tel que $\beta_i = n - 1$ pour $i \in J$ et $\beta_i = 0$ pour $i \in I - J$. Définissons l’idéal $a_\beta$ de $A[[I]]$ comme au début du no 2 (IV, p. 24). Alors
+Soit $(x_i)_{i \in I}$ une famille d’éléments de $E$ satisfaisant aux conditions a) et b) de (i). Soit $\psi$ l’homomorphisme $u \mapsto u((x_i)_{i \in I})$ de $A[(X_i)_{i \in I}]$ dans $E$. soit $V$ un voisinage de 0 dans $E$ qui soit un idéal de $E$. Il existe d’après b) une partie finie $J$ de $I$ telle que $x_i \in V$ pour tout $i \in I - J$. Puis il existe d’après a) un entier $n \geqslant 0$ tel que l’on ait $x_i^n \in V$ pour tout $i \in J$. Soit $\beta$ l’élément de $\mathbf{N}^{(I)}$ tel que $\beta_i = n - 1$ pour $i \in J$ et $\beta_i = 0$ pour $i \in I - J$. Définissons l’idéal $a_\beta$ de $A[[I]]$ comme au début du no 2 (IV, p. 24). Alors
 
 $$
 u \in A[(X_i)_{i \in I}] \cap a_\beta \Rightarrow \psi(u) \in V .
@@ -254,13 +254,13 @@ Réciproquement, supposons que le terme constant $\alpha$ de $u$ soit inversible
 
 #### Remarque {#alg-iv-s4-n4-rem-1 .statement}
 
-Soit $\mathscr{M}$ l’ensemble des séries formelles de terme constant égal à 1. D’après la prop. 6, $\mathscr{M}$ est un groupe commutatif pour la multiplication ; le groupe multiplicatif de $A[[I]]$ est produit direct de $\mathscr{M}$ et du groupe multiplicatif de $A$. Nous munirons $\mathscr{M}$ de la topologie induite par celle de $A[[I]]$. Pour tout $\beta \in \mathbf{N}^{(l)}$, on a défini dans IV, p. 24, l’idéal $a_\beta$ de $A[[I]]$ ; alors $1 + a_\beta$ est un sous-groupe de $\mathscr{M}$, et la famille $(1 + a_\beta)$ est un système fondamental de voisinages de 1 dans $\mathscr{M}$. Comme la multiplication dans $\mathscr{M}$ est continue, on voit que $\mathscr{M}$ est un groupe topologique (TG, III, p. 5) ; autrement dit, *l’application* $f \mapsto f^{-1}$ *est continue dans* $\mathscr{M}$.
+Soit $\mathscr{M}$ l’ensemble des séries formelles de terme constant égal à 1. D’après la prop. 6, $\mathscr{M}$ est un groupe commutatif pour la multiplication ; le groupe multiplicatif de $A[[I]]$ est produit direct de $\mathscr{M}$ et du groupe multiplicatif de $A$. Nous munirons $\mathscr{M}$ de la topologie induite par celle de $A[[I]]$. Pour tout $\beta \in \mathbf{N}^{(I)}$, on a défini dans IV, p. 24, l’idéal $a_\beta$ de $A[[I]]$ ; alors $1 + a_\beta$ est un sous-groupe de $\mathscr{M}$, et la famille $(1 + a_\beta)$ est un système fondamental de voisinages de 1 dans $\mathscr{M}$. Comme la multiplication dans $\mathscr{M}$ est continue, on voit que $\mathscr{M}$ est un groupe topologique (TG, III, p. 5) ; autrement dit, *l’application* $f \mapsto f^{-1}$ *est continue dans* $\mathscr{M}$.
 
 Soient $K$ un corps commutatif et $\mathfrak{D}$ le sous-anneau du corps des fractions rationnelles $K((X_i)_{i \in I})$ formé des fractions rationnelles dans lesquelles l’élément 0 de $K^1$ est substituable. Soit $f \in \mathfrak{D}$. On a $f = \frac{u}{v}$ où $u$ et $v$ sont des polynômes tels que le terme constant de $v$ soit $\neq 0$. Donc $v$ est inversible dans $K[[I]]$. On vérifie aussitôt que l’élément $uv^{-1}$ de $K[[I]]$ ne dépend que de $f$ ; on dit que la série formelle $uv^{-1}$ est le *développement à l’origine de la fraction rationnelle* $\frac{u}{v}$. L’application $f \mapsto uv^{-1}$ est un homomorphisme injectif de $\mathfrak{D}$ dans $K[[I]]$ ; on identifie souvent $\mathfrak{D}$ à son image par cette application.
 
 ### 5. Formule de Taylor pour les séries formelles
 
-Soient $X = (X_i)_{i \in I}$ et $Y = (Y_i)_{i \in I}$ deux familles d’indéterminées relatives au même ensemble d’indices $I$. On note $X + Y$ la famille $(X_i + Y_i)_{i \in I}$ de séries formelles dans $A[[X, Y]]$. Il est clair qu’on peut substituer $X_i + Y_i$ à $X_i$ dans une série formelle $u \in A[[X]]$, le résultat étant noté $u(X + Y)$. Pour tout $\nu \in \mathbf{N}^{(l)}$, on note $\Delta^\nu u$ le coefficient de $Y^\nu$ dans la série formelle $u(X + Y)$ considérée comme appartenant à $A[[X]] [[Y]]$ (III, p. 29). Autrement dit, on a
+Soient $X = (X_i)_{i \in I}$ et $Y = (Y_i)_{i \in I}$ deux familles d’indéterminées relatives au même ensemble d’indices $I$. On note $X + Y$ la famille $(X_i + Y_i)_{i \in I}$ de séries formelles dans $A[[X, Y]]$. Il est clair qu’on peut substituer $X_i + Y_i$ à $X_i$ dans une série formelle $u \in A[[X]]$, le résultat étant noté $u(X + Y)$. Pour tout $\nu \in \mathbf{N}^{(I)}$, on note $\Delta^\nu u$ le coefficient de $Y^\nu$ dans la série formelle $u(X + Y)$ considérée comme appartenant à $A[[X]] [[Y]]$ (III, p. 29). Autrement dit, on a
 
 $$
 u(X + Y) = \sum_\nu \Delta^\nu u(X) \cdot Y^\nu \quad (u \in A[[X]]) .
@@ -453,7 +453,7 @@ $$
 (24) \quad S_n(v) = H_n(v - T(\sum_{k=0}^{n-1} S_k(v))) \quad \text{pour } n \geq 1 .
 $$
 
-Posons $S(v) = \sum_{n \geq 0} S_n(v)$. Soit $\nu \in \mathbf{N}^{(l)}$ et soit $n = |\nu|$; le coefficient $S^\nu(v)$ de $X^\nu$ dans $S(v)$ est égal à celui de $X^\nu$ dans $S_n(v)$; comme $S_n$ est une application continue, l’application $S^\nu : A[[I]] \to A$ est continue. Vu la définition de la topologie produit sur $A[[I]] = A^{\mathbf{N}^{(l)}}$, l’application $S : A[[I]] \to A[[I]]$ est continue.
+Posons $S(v) = \sum_{n \geq 0} S_n(v)$. Soit $\nu \in \mathbf{N}^{(I)}$ et soit $n = |\nu|$; le coefficient $S^\nu(v)$ de $X^\nu$ dans $S(v)$ est égal à celui de $X^\nu$ dans $S_n(v)$; comme $S_n$ est une application continue, l’application $S^\nu : A[[I]] \to A$ est continue. Vu la définition de la topologie produit sur $A[[I]] = A^{\mathbf{N}^{(I)}}$, l’application $S : A[[I]] \to A[[I]]$ est continue.
 
 Nous allons prouver la relation $T(S(v)) = v$ pour tout $v \in A[[I]]$, ce qui achèvera de prouver le lemme. Soient $v \in A[[I]]$, $u_n = S_n(v)$ et $u = S(v)$. Soit $n$ un entier positif tel que l’on ait
 
