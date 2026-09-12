@@ -454,7 +454,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: ce494510e445f599fcaf23ba1f07c6def110ff6bae8350afcf9683adfcde4921
+          content_sha256: de7dfd40c6cfa021011ad6534250a579d1efe1882e81ad993bcb4259f6eb1c68
         - kind: section
           section: 6
           title: Ordered sets
