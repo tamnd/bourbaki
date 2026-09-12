@@ -133,7 +133,7 @@ chapters:
           statements: 51
           exercises: 28
           extraction: ocr
-          content_sha256: 883ac8a1fd0a735651fdc3bbb06dccef987b6ee36fd6fdb9ad6332ee89ee1f7e
+          content_sha256: 6657d52748d9704c4d9d662dba5621bc1950b1ff62dd8df78c795863e24f90ec
         - kind: section
           section: 5
           title: Modules projectifs de type fini. Idéaux fractionnaires inversibles

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 130
 statements: 51
 exercises: 28
-content_sha256: 883ac8a1fd0a735651fdc3bbb06dccef987b6ee36fd6fdb9ad6332ee89ee1f7e
+content_sha256: 6657d52748d9704c4d9d662dba5621bc1950b1ff62dd8df78c795863e24f90ec
 ---
 
 ## § 4. Spectres d’anneaux et supports de modules
@@ -453,7 +453,7 @@ En effet, soit m l’idéal maximal de A et soit k = A/m le corps résiduel ; l�
 
 #### Proposition 20 {#ac-ii-s4-prop-20 .statement}
 
-Soient A un anneau, M un A-module de type fini. Pour tout idéal premier p ∈ Supp (M), il existe un A-homomorphisme non nul ω : M → A/p.
+Soient A un anneau, M un A-module de type fini. Pour tout idéal premier p ∈ Supp (M), il existe un A-homomorphisme non nul w : M → A/p.
 
 Soit p ∈ Supp (M). Comme M est de type fini et M_p ≠ 0, on a M_p/pM_p = M_p ⊗_{A_p} (A_p/pA_p) ≠ 0 (§ 3, n° 2, prop. 4). Soit K = A_p/pA_p le corps des fractions de l’anneau intègre A/p ; puisque M_p/pM_p est un K-espace vectoriel non réduit à 0, il existe une forme linéaire non nulle u : M_p/pM_p → K. Si (x_i)_{1 ≤ i ≤ n} est un système de générateurs du A-module M, il existe un élément $\alpha \neq 0$ de $A/p$ tel que les images des $x_i$ par l’application A-linéaire composée
 $$

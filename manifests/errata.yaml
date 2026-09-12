@@ -204,6 +204,16 @@ errata:
           why: Section 10 has no corollary under its Theorem 1. The fact this exercise is
             reproving, that every nilpotent element lies in a Borel subalgebra, is
             Corollary 2 of Theorem 2 on page 170.
+    - label: lie-iv-s2-ex-25
+      lang: fr
+      errata:
+        - says: pour $\omega \in \Omega$ et $w \in \Omega$
+          read: pour $\omega \in \Omega$ et $w \in W$
+          why: The map j is defined by j(e_omega tensor a_BwB) = a_BomegawB, and
+            a_BwB is a basis element of the Hecke algebra H_k(G, B), which exercise
+            22 indexes by the Weyl group W and not by Omega = Gamma/(Gamma inter B).
+            The page (IV, p. 56) really does print Omega twice; the English printing
+            sets "for omega in Omega and w in W" on page 58 of its own volume.
 
 # The table of contents of a volume, corrected before bourbaki toc build reads it.
 # These are errors of the Acrobat text layer and of the printing itself, not of the
