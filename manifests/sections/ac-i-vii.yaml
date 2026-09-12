@@ -204,7 +204,7 @@ chapters:
           book_pages: 162-195, 233-245
           subsections: 13
           statements: 57
-          exercises: 13
+          exercises: 31
           extraction: ocr
           content_sha256: 9e80d306b1116bfe8ca76d5618a3bf11d91ec8f1d795e8e9964d5ea7ea7ab47c
         - kind: section

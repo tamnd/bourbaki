@@ -4926,7 +4926,7 @@
         {
           "chapter": "III",
           "title": "GRADUATIONS. FILTRATIONS AND TOPOLOGIES",
-          "total": 59,
+          "total": 77,
           "sections": [
             {
               "section": 1,
@@ -4940,10 +4940,10 @@
               "section": 2,
               "label": "ac-iii-s2",
               "dir": "s2",
-              "count": 13,
+              "count": 31,
               "first": 1,
-              "last": 13,
-              "starred": 1
+              "last": 31,
+              "starred": 9
             },
             {
               "section": 3,
