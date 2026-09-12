@@ -332,7 +332,7 @@ chapters:
           statements: 25
           exercises: 30
           extraction: ocr
-          content_sha256: 83becd6a0114dda50c4fdfd3f5bb22582811dd9e0532609a46fa718587ee66e9
+          content_sha256: 0e222687221056213048b56108fcffae8fb725edb462c65e1c09a14c32ded0b4
         - kind: section
           section: 5
           title: Baire spaces

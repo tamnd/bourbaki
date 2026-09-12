@@ -153,7 +153,7 @@ chapters:
           statements: 52
           exercises: 29
           extraction: ocr
-          content_sha256: f1a157846ce69fef737b2b5f26920d1fd75fd7edd2ec8d11c8db9dc868eaaf81
+          content_sha256: 9f198d9dfdf942aaed8cfd400e8d1e3b75d7719a951d5a0c19f6e063be04e9e7
         - kind: section
           section: 10
           title: Proper mappings
@@ -458,7 +458,7 @@ chapters:
           statements: 31
           exercises: 18
           extraction: ocr
-          content_sha256: ceefb1b50ddb80fd0ccc25e390633e05da820279b83a80d106da654c24f06d6a
+          content_sha256: be4dc4d0914fb650ae3fcd82f452150b49d39b09c163a09f3ccec85a7e6bf6ef
         - kind: section
           section: 6
           title: Continuous and semi-continuous real-valued functions

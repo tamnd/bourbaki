@@ -324,11 +324,11 @@ Thật vậy, vì $\overline{\mathbf{R}}$ là compact, cơ sở bộ lọc $f(\m
 
 #### Hệ quả 2 {#top-iv-s5-thm-3-cor-2 .statement}
 
-*Nếu $\mathscr{H}$ là một bộ lọc mịn hơn $\mathfrak{G}$, thì ta có*
+*Nếu $\mathfrak{H}$ là một bộ lọc mịn hơn $\mathfrak{G}$, thì ta có*
 $$
-\lim \inf_{\mathfrak{G}} f \leq \lim \inf_{\mathscr{H}} f \leq \lim \sup_{\mathscr{H}} f \leq \lim \sup_{\mathfrak{G}} f.
+\lim \inf_{\mathfrak{G}} f \leq \lim \inf_{\mathfrak{H}} f \leq \lim \sup_{\mathfrak{H}} f \leq \lim \sup_{\mathfrak{G}} f.
 $$
-Mọi điểm tụ của $f$ đối với $\mathscr{H}$ cũng là một điểm tụ của $f$ đối với $\mathfrak{G}$ (Chương I, § 7, no. 3).
+Mọi điểm tụ của $f$ đối với $\mathfrak{H}$ cũng là một điểm tụ của $f$ đối với $\mathfrak{G}$ (Chương I, § 7, no. 3).
 Đặc biệt, nếu $\lim_{\mathfrak{G}} f$ tồn tại, thì
 $$
 \lim \inf_{\mathfrak{G}} f \leq \lim_{\mathfrak{G}} f \leq \lim \sup_{\mathfrak{G}} f.

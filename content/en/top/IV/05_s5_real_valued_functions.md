@@ -41,7 +41,7 @@ subsections:
       pdf_page: 362
 statements: 31
 exercises: 18
-content_sha256: ceefb1b50ddb80fd0ccc25e390633e05da820279b83a80d106da654c24f06d6a
+content_sha256: be4dc4d0914fb650ae3fcd82f452150b49d39b09c163a09f3ccec85a7e6bf6ef
 ---
 
 ## 5. REAL-VALUED FUNCTIONS
@@ -322,11 +322,11 @@ For since $\overline{\mathbf{R}}$ is compact, the filter base $f(\mathfrak{G})$ 
 
 #### Corollary 2 {#top-iv-s5-thm-3-cor-2 .statement}
 
-*If $\mathscr{H}$ is a filter finer than $\mathfrak{G}$, we have*
+*If $\mathfrak{H}$ is a filter finer than $\mathfrak{G}$, we have*
 $$
-\lim \inf_{\mathfrak{G}} f \leq \lim \inf_{\mathscr{H}} f \leq \lim \sup_{\mathscr{H}} f \leq \lim \sup_{\mathfrak{G}} f.
+\lim \inf_{\mathfrak{G}} f \leq \lim \inf_{\mathfrak{H}} f \leq \lim \sup_{\mathfrak{H}} f \leq \lim \sup_{\mathfrak{G}} f.
 $$
-For every cluster point of $f$ with respect to $\mathscr{H}$ is also a cluster point of $f$ with respect to $\mathfrak{G}$ (Chapter I, § 7, no. 3).
+For every cluster point of $f$ with respect to $\mathfrak{H}$ is also a cluster point of $f$ with respect to $\mathfrak{G}$ (Chapter I, § 7, no. 3).
 In particular, if $\lim_{\mathfrak{G}} f$ exists, then
 $$
 \lim \inf_{\mathfrak{G}} f \leq \lim_{\mathfrak{G}} f \leq \lim \sup_{\mathfrak{G}} f.

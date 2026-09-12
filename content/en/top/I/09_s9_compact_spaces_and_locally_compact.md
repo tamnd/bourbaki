@@ -53,7 +53,7 @@ subsections:
       pdf_page: 100
 statements: 52
 exercises: 29
-content_sha256: f1a157846ce69fef737b2b5f26920d1fd75fd7edd2ec8d11c8db9dc868eaaf81
+content_sha256: 9f198d9dfdf942aaed8cfd400e8d1e3b75d7719a951d5a0c19f6e063be04e9e7
 ---
 
 ## 9. COMPACT SPACES AND LOCALLY COMPACT SPACES
@@ -475,13 +475,13 @@ It is immediately verified that $R$ is an equivalence relation, and that each eq
 
 Let $x$ be any point of $X$, and define a sequence $(C_n)$ of relatively compact open subsets of $X$ by induction on $n$ as follows; $C_1$ is the union of the sets $U(\alpha)$ which contain $x$, and for each $n > 1$, $C_n$ is the union of the sets $U(\alpha)$ which meet $C_{n-1}$. It is immediately verified by induction on $n$ that each of the $C_n$ is relatively compact and is the union of a *finite* number of sets $U(\alpha)$. Furthermore, the equivalence class of $x$ with respect to $R$ is the *union* of the $C_n$: for if $(\alpha_i)_{1 \leq i \leq n}$ is a sequence of indices such that $x \in U(\alpha_1)$ and $U(\alpha_i)$ meets $U(\alpha_{i+1})$ for $1 \leq i \leq n - 1$, then one sees by induction on $i$ that $U(\alpha_i) \subset C_i$ for $1 \leq i \leq n$. It follows that the equivalence classes mod $R$ are $\sigma$-compact, and this completes the proof of the first part of the theorem.
 
-To prove the converse, we may assume (by Proposition 18) that $X$ is $\sigma$-compact. Let $\mathscr{H} = (G_\lambda)_{\lambda \in L}$ be any open covering of $X$, and let $(U_n)$ be a sequence of relatively compact open sets in $X$ which have the properties stated in Proposition 15 of no. 9. Let $K_n$ denote the compact set $\overline{U}_n - U_{n-1}$ ($U_n = \emptyset$ if $n \leq 0$). The open set $U_{n+1} - \overline{U}_{n-2}$ is a neighbourhood of $K_n$ by construction; hence for each $x \in K_n$ there is a neighbourhood $W_x$ of $x$ contained in one of the sets $G_\lambda$ and contained also in $U_{n+1} - \overline{U}_{n-2}$. Since $K_n$ is compact, a finite number of the sets $W_x$ cover $K_n$; let $H_{ni} (1 \leq i \leq p_n)$ be these sets. Then the family $\mathscr{H}'$ of sets $H_{ni} (n \geq 1, 1 \leq i \leq p_n \text{ for each } n)$ is an open covering of $X$ which refines $\mathscr{H}$, and hence to complete the proof we have to show that $\mathscr{H}'$ is *locally finite*. Let $z$ be any point of $X$, $n$ the smallest integer such that $z \in U_n$; then since $z \notin U_{n-1}$, there is a neighbourhood $T$ of $z$ which is contained in $U_n$ and does not meet $U_{n-2}$. It follows that $T$ meets only those sets $H_{mi}$ for which $n - 2 \leq m \leq n + 1$, i.e. $T$ meets only a finite number of sets of $\mathscr{H}'$.
+To prove the converse, we may assume (by Proposition 18) that $X$ is $\sigma$-compact. Let $\mathfrak{R} = (G_\lambda)_{\lambda \in L}$ be any open covering of $X$, and let $(U_n)$ be a sequence of relatively compact open sets in $X$ which have the properties stated in Proposition 15 of no. 9. Let $K_n$ denote the compact set $\overline{U}_n - U_{n-1}$ ($U_n = \emptyset$ if $n \leq 0$). The open set $U_{n+1} - \overline{U}_{n-2}$ is a neighbourhood of $K_n$ by construction; hence for each $x \in K_n$ there is a neighbourhood $W_x$ of $x$ contained in one of the sets $G_\lambda$ and contained also in $U_{n+1} - \overline{U}_{n-2}$. Since $K_n$ is compact, a finite number of the sets $W_x$ cover $K_n$; let $H_{ni} (1 \leq i \leq p_n)$ be these sets. Then the family $\mathfrak{R}'$ of sets $H_{ni} (n \geq 1, 1 \leq i \leq p_n \text{ for each } n)$ is an open covering of $X$ which refines $\mathfrak{R}$, and hence to complete the proof we have to show that $\mathfrak{R}'$ is *locally finite*. Let $z$ be any point of $X$, $n$ the smallest integer such that $z \in U_n$; then since $z \notin U_{n-1}$, there is a neighbourhood $T$ of $z$ which is contained in $U_n$ and does not meet $U_{n-2}$. It follows that $T$ meets only those sets $H_{mi}$ for which $n - 2 \leq m \leq n + 1$, i.e. $T$ meets only a finite number of sets of $\mathfrak{R}'$.
 
 In the course of the proof we have also established the following result:
 
 #### Corollary {#top-i-s9-n10-cor-1 .statement}
 
-*Let $X$ be a locally compact paracompact space. Then every open covering $\mathscr{H}$ of $X$ has a locally finite open refinement $\mathscr{H}'$ formed of relatively compact sets. If $X$ is $\sigma$-compact then $\mathscr{H}'$ can be taken to be countable.*
+*Let $X$ be a locally compact paracompact space. Then every open covering $\mathfrak{R}$ of $X$ has a locally finite open refinement $\mathfrak{R}'$ formed of relatively compact sets. If $X$ is $\sigma$-compact then $\mathfrak{R}'$ can be taken to be countable.*
 
 ### Exercises {#top-i-s9-exercises}
 
