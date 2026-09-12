@@ -7154,7 +7154,7 @@
         {
           "chapter": "V",
           "title": "ÉTUDE LOCALE DES FONCTIONS",
-          "total": 22,
+          "total": 36,
           "sections": [
             {
               "section": 1,
@@ -7188,9 +7188,10 @@
               "appendix": true,
               "label": "fvr-v-a0",
               "dir": "a0",
-              "count": 1,
+              "count": 15,
               "first": 1,
-              "last": 1
+              "last": 15,
+              "starred": 3
             }
           ]
         },

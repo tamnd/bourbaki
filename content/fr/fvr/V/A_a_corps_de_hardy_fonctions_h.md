@@ -37,8 +37,8 @@ subsections:
       page: 44
       pdf_page: 249
 statements: 21
-exercises: 1
-content_sha256: 18c2f8816801842eb7e4f3710559d972d27ab99fdc2c562eecfc3185bde88283
+exercises: 15
+content_sha256: f39fc514fc3aaf43f614ac75943091a33cbbf7bc2e0d6bc1ce3a511b2f3a1c03
 ---
 
 ## APPENDICE
@@ -428,28 +428,5 @@ On notera que deux fonctions (H) équivalentes peuvent avoir des fonctions réci
 Exercices
 
 ## EXERCICES {#fvr-v-a0-exercises}
-
-I) Soit $\mathfrak{R}$ un corps de Hardy tel que, pour toute fonction $f \in \mathfrak{R}$ non identiquement nulle au voisinage de $+\infty$, il existe $\lambda > 0$ tel que
-$$
-\frac{1}{e_m(x^\lambda)} \ll f(x) \ll e_m(x^\lambda)
-$$
-(m entier indépendant de $f$).
-a) Soient $u_1, u_2, \ldots, u_p$ fonctions de la forme $u_k = \log|z_k|$, où $z_k \in \mathbf{R}$ n’est pas nulle dans un voisinage de $+\infty$. Montrer que pour toute fonction $g$ (non nulle dans un voisinage de $+\infty$) du corps de Hardy $\mathfrak{R}(u_1, \ldots, u_p)$ obtenu par adjonction à $\mathfrak{R}$ des fonctions $u_k$ ($1 \leq k \leq p$), il existe $\mu > 0$ tel que
-$$
-\frac{1}{e_m(x^\mu)} \ll g(x) \ll e_m(x^\mu)
-$$
-(se ramener au cas où $g$ est un polynôme par rapport aux $u_k$, à coefficients dans $\mathbf{R}$, et raisonner par récurrence sur $p$, puis, pour $p = 1$, raisonner par récurrence sur le degré du polynôme $g$ en procédant comme dans le lemme 2 de V, p. 37).
-b) Soient $u_k$ ($1 \leq k \leq p$) $p$ fonctions de la forme $u_k = \exp(z_k)$ où $z_k \in \mathbf{R}$. Montrer que pour toute fonction g du corps de Hardy $H(u_1, \ldots, u_p)$, non identiquement nulle au voisinage de $+\infty$, il existe un nombre $\mu > 0$ tel que
-$$
-\frac{1}{e_{m+1}(x^\mu)} \ll g(x) \ll e_{m+1}(x^\mu)
-$$
-(méthode analogue).
-
-c) En déduire que si f est une fonction (H) admettant une suite de définition de n termes, et non identiquement nulle dans un voisinage de $+\infty$, il existe un nombre $\lambda > 0$ tel que
-$$
-\frac{1}{e_n(x^\lambda)} \ll f(x) \ll e_n(x^\lambda).
-$$
-
-2) a) Montrer que toute fonction (H) possédant une suite de définition d’un seul terme est équivalente à une fonction de l’une des formes $x^p (\log x)^q$, ou $x^{p e^{g(x)}}$, où $p$ et $q$ sont des entiers rationnels, et $g$ un polynôme en $x$ (méthode de l’exerc.
 
 See the [exercises for Appendix 0](exercises/a0/).

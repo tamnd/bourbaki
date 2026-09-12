@@ -307,9 +307,9 @@ chapters:
           book_pages: FVR V.51-FVR V.55
           subsections: 6
           statements: 21
-          exercises: 1
+          exercises: 15
           extraction: ocr
-          content_sha256: 18c2f8816801842eb7e4f3710559d972d27ab99fdc2c562eecfc3185bde88283
+          content_sha256: f39fc514fc3aaf43f614ac75943091a33cbbf7bc2e0d6bc1ce3a511b2f3a1c03
     - chapter: VI
       title: DÉVELOPPEMENTS TAYLORIENS GÉNÉRALISÉS. FORMULE SOMMATOIRE D’EULER–MACLAURIN
       sections:
