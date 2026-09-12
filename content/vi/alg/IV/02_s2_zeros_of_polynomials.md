@@ -89,13 +89,13 @@ và nếu $p < q$, $a$ không là nghiệm của $f_1(X) + (X - \alpha)^{q-p} g_
 
 #### Mệnh đề 5 {#alg-iv-s2-prop-5 .statement}
 
-*Giả sử rằng $A$ là một miền nguyên. Cho $f$ là một phần tử khác không của $A[X]$, và $a,, \ldots, \alpha_p$ là các nghiệm phân biệt từng đôi một của $f$ trong $A$, có các cấp $k_1, \ldots, k_r$. Ta có*
+*Giả sử rằng $A$ là một miền nguyên. Cho $f$ là một phần tử khác không của $A[X]$, và $\alpha_1, \ldots, \alpha_p$ là các nghiệm phân biệt từng đôi một của $f$ trong $A$, có các cấp $k_1, \ldots, k_r$. Ta có*
 
 $$
 f(X) = (X - \alpha_1)^{k_1}(X - \alpha_2)^{k_2} \ldots (X - \alpha_p)^{k_p} g(X)
 $$
 
-*trong đó $g \in A[X]$ và $a,, \ldots, a,$ không phải là các nghiệm của $g$.*
+*trong đó $g \in A[X]$ và $\alpha_1, \ldots, \alpha_p$ không phải là các nghiệm của $g$.*
 
 Ta tiến hành bằng quy nạp theo $p$, mệnh đề là hiển nhiên đối với $p = 1$, theo Định nghĩa 1. Khi đó giả sử rằng $f(X) = g_1(X)g_2(X)$, trong đó
 
@@ -103,13 +103,13 @@ $$
 g_1(X) = (X - \alpha_1)^{k_1} \ldots (X - \alpha_{p-1})^{k_{p-1}}, \quad g_2(X) \in A[X].
 $$
 
-Vì $A$ là một miền nguyên và $\alpha_p$ phân biệt với $a,, \ldots, \alpha_{p-1}$ nên $\alpha_p$ không phải là một nghiệm của $g_1(X)$, do đó $\alpha_p$ là một nghiệm cấp $k_p$ của $g_2(X)$ (Mệnh đề 4, (ii)). Suy ra $g_2(X)$ chia được cho $(X - \alpha_p)^{k_p}$, và vì thế
+Vì $A$ là một miền nguyên và $\alpha_p$ phân biệt với $\alpha_1, \ldots, \alpha_{p-1}$ nên $\alpha_p$ không phải là một nghiệm của $g_1(X)$, do đó $\alpha_p$ là một nghiệm cấp $k_p$ của $g_2(X)$ (Mệnh đề 4, (ii)). Suy ra $g_2(X)$ chia được cho $(X - \alpha_p)^{k_p}$, và vì thế
 
 $$
 f(X) = (X - \alpha_1)^{k_1} \ldots (X - \alpha_p)^{k_p} g(X)
 $$
 
-trong đó $g(X) \in A[X]$. Rõ ràng $a,, \ldots, \alpha_p$ không phải là các nghiệm của $g$.
+trong đó $g(X) \in A[X]$. Rõ ràng $\alpha_1, \ldots, \alpha_p$ không phải là các nghiệm của $g$.
 
 #### Định lý 1 {#alg-iv-s2-thm-1 .statement}
 

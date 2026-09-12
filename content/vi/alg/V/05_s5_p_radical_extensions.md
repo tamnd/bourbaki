@@ -103,7 +103,7 @@ Hệ quả là tầm thường khi $p = 1$; giả sử khi đó $p \neq 1$. Các
 
 — Cho E là một mở rộng p-căn *có bậc hữu hạn* của một trường K. Khi đó $[E : K]$ là một lũy thừa của số mũ đặc số p của K.
 
-Vì E là một mở rộng p-căn có bậc hữu hạn của K, tồn tại các phần tử $a,, \ldots, a,$ của E, p-căn trên K, sao cho $E = K(a,, \ldots, a,)$. Cho i nhận các giá trị từ 1 đến m; vì $a_i$ a fortiori là p-căn trên $K(a,, \ldots, a_{i-1})$, bậc
+Vì E là một mở rộng p-căn có bậc hữu hạn của K, tồn tại các phần tử $a_1, \ldots, a_m$ của E, p-căn trên K, sao cho $E = K(a_1, \ldots, a_m)$. Cho i nhận các giá trị từ 1 đến m; vì $a_i$ a fortiori là p-căn trên $K(a_1, \ldots, a_{i-1})$, bậc
 $$
 n_i = [K(a_1, \ldots, a_i) : K(a_1, \ldots, a_{i-1})]
 $$

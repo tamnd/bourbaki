@@ -57,7 +57,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho $A$ là một vành và $M$ là một $A$-môđun. Với mọi phần tử $f \in A$, ta sẽ viết $A_f = A[f^{-1}], M_f = M[f^{-1}] = M \otimes_A A[f^{-1}]$ (§ 2, nos. 1 and 2); nếu $S_f$ là tập hợp off" for $n \geq 0$, thì $A_{S_f} = S_f^{-1}A, M_{S_f} = S_f^{-1}M$. Nếu f khả nghịch trong $A$, $A_f$ (resp. $M_f$) được đồng nhất một cách chính tắc với $A$ (resp. $M$); nếu f lũy linh, thì $A_f = 0$ và $M_f = 0$. Với mọi đồng cấu $A$-môđun $u : M \to N$, ta viết $u_f = u \otimes 1 : M_f \to N_f$.
 
-Cho $g$ là một phần tử khác của $A$; $A_g$ (resp. $M_g$) được đồng nhất một cách chính tắc với $(A,)_{g/1}$ (resp. $(M_f)_{g/1}$), trong đó $g/1$ là ảnh của $g$ trong $A_g$, và $u_{f,g}$ với $(u_f)_{g/1}$ (§ 2, no. 3, Mệnh đề 7).
+Cho $g$ là một phần tử khác của $A$; $A_g$ (resp. $M_g$) được đồng nhất một cách chính tắc với $(A_f)_{g/1}$ (resp. $(M_f)_{g/1}$), trong đó $g/1$ là ảnh của $g$ trong $A_g$, và $u_{f,g}$ với $(u_f)_{g/1}$ (§ 2, no. 3, Mệnh đề 7).
 
 #### Mệnh đề 1 {#ac-ii-s5-prop-1 .statement}
 
@@ -123,7 +123,7 @@ Ta chứng minh định lý bằng cách chứng minh sơ đồ các suy luận 
 
 (c)
 
-(a) ⇒ (b): Ta biết rằng một môđun xạ ảnh sinh hữu hạn là môđun trình bày hữu hạn (Chương I, § 2, no. 8, Bổ đề 8 (iii)); nếu $P$ là một môđun xạ ảnh $A$-môđun, $P_m = P \otimes_A A_m$ là một môđun xạ ảnh $A_m$-môđun (\emph{Đại số}, Chương II, § 5, no. 1, Hệ quả của Mệnh đề 4); cuối cùng, vì $A,$ là một vành địa phương, mọi môđun xạ ảnh trình bày hữu hạn $A,,$-môđun đều tự do (§ 3, no. 2, Hệ quả của Mệnh đề 5).
+(a) ⇒ (b): Ta biết rằng một môđun xạ ảnh sinh hữu hạn là môđun trình bày hữu hạn (Chương I, § 2, no. 8, Bổ đề 8 (iii)); nếu $P$ là một môđun xạ ảnh $A$-môđun, $P_m = P \otimes_A A_m$ là một môđun xạ ảnh $A_m$-môđun (\emph{Đại số}, Chương II, § 5, no. 1, Hệ quả của Mệnh đề 4); cuối cùng, vì $A,$ là một vành địa phương, mọi môđun xạ ảnh trình bày hữu hạn $A_m$-môđun đều tự do (§ 3, no. 2, Hệ quả của Mệnh đề 5).
 
 (b) ⇒ (e): Điều này suy ra từ Hệ quả của Mệnh đề 2 của no. 1.
 
@@ -248,7 +248,7 @@ $$
 
 vì hạng trên $k$ của $(M/mM) \otimes_k (N/mN)$ là tích các hạng của $M/mM$ và $N/mN$, các hạng này tất nhiên đều bằng 1, nói cách khác $M/mM$ là đơn sinh. Suy ra rằng $M$ là đơn sinh ($§ 3$, no. 2, Hệ quả 2 của Mệnh đề 4); mặt khác, linh hóa tử của $M$ cũng linh hóa tử $M \otimes_A N$ và do đó bằng không, điều này chứng minh rằng $M$ đẳng cấu với $A$.
 
-(ii) Chỉ cần chứng minh rằng, với mọi iđêan cực đại $m$ của $A$, $u_m$ là một đẳng cấu ($§ 3$, no. 3, Định lý 1). Vì $M$ là sinh hữu hạn trình bày (Chương I, $§ 2$, no. 8, Bổ đề 8), $(M^*)_m$ được đồng nhất một cách chính tắc với đối ngẫu $(M_m)^*$ ($§ 2$, no. 7, Mệnh đề 19) và, vì $M_m$ là tự do hạng 1 như đối ngẫu $(M_m)^*$ của nó, rõ ràng đồng cấu chính tắc $u_m : (M,) \otimes_{A_m} (M_m)^* \to A_m$ là song ánh, điều này hoàn tất chứng minh.
+(ii) Chỉ cần chứng minh rằng, với mọi iđêan cực đại $m$ của $A$, $u_m$ là một đẳng cấu ($§ 3$, no. 3, Định lý 1). Vì $M$ là sinh hữu hạn trình bày (Chương I, $§ 2$, no. 8, Bổ đề 8), $(M^*)_m$ được đồng nhất một cách chính tắc với đối ngẫu $(M_m)^*$ ($§ 2$, no. 7, Mệnh đề 19) và, vì $M_m$ là tự do hạng 1 như đối ngẫu $(M_m)^*$ của nó, rõ ràng đồng cấu chính tắc $u_m : (M_m) \otimes_{A_m} (M_m)^* \to A_m$ là song ánh, điều này hoàn tất chứng minh.
 
 *Nhận xét* (1). Nếu $M$ là xạ ảnh hạng 1 và $N$ là sao cho $M \otimes_A N$ đẳng cấu với $A$, thì $N$ đẳng cấu với $M^*$: có các đẳng cấu
 

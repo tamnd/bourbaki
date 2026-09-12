@@ -106,9 +106,9 @@ b) Các phần tử $s_1, \ldots, s_n$ của $E$ độc lập đại số trên 
 
 c) Họ các đơn thức $X^v = X_1^{v(1)} \ldots X_n^{v(n)}$ sao cho $0 \leq v(i) < i$ với $1 \leq i \leq n$ là một cơ sở của $E$-môđun $S$. Đặc biệt, $E$ là một $S$-môđun tự do hạng $n!$.
 
-Ta sẽ chứng minh định lý bằng quy nạp theo $n$, trường hợp $n = 0$ là tầm thường. Ta viết $B = A[X,]$ và ký hiệu bởi $s_k'$ đa thức đối xứng sơ cấp bậc $k$ theo $X_1, \ldots, X_{-1}$; do đó ta có $B[X_1, \ldots, X_{-1}] = A[X_1, \ldots, X_n]$. Nếu ta thay $n$ bằng $n-1$ và $A$ bằng $B$ trong phát biểu của Định lý 1, thì ta có thể phát biểu giả thiết quy nạp như sau:
+Ta sẽ chứng minh định lý bằng quy nạp theo $n$, trường hợp $n = 0$ là tầm thường. Ta viết $B = A[X_n]$ và ký hiệu bởi $s_k'$ đa thức đối xứng sơ cấp bậc $k$ theo $X_1, \ldots, X_{-1}$; do đó ta có $B[X_1, \ldots, X_{-1}] = A[X_1, \ldots, X_n]$. Nếu ta thay $n$ bằng $n-1$ và $A$ bằng $B$ trong phát biểu của Định lý 1, thì ta có thể phát biểu giả thiết quy nạp như sau:
 
-(A) Đại số trên $B$ $S'$ gồm các đa thức $f \in A[\mathbf{X}_1, \ldots, \mathbf{X}_n]$ bất biến dưới mọi hoán vị của $X,, \ldots, X_{-1}$ được sinh bởi $s_1', \ldots, s_{n-1}'$.
+(A) Đại số trên $B$ $S'$ gồm các đa thức $f \in A[\mathbf{X}_1, \ldots, \mathbf{X}_n]$ bất biến dưới mọi hoán vị của $X_1, \ldots, X_{n-1}$ được sinh bởi $s_1', \ldots, s_{n-1}'$.
 
 (B) Các phần tử $s_1', \ldots, s_{n-1}'$ của $E$ độc lập đại số trên $B$.
 
@@ -570,7 +570,7 @@ Mệnh đề 4 biện minh cho tên gọi « đại số phân tích phổ quát
 
 *Trong đại số phân tích phổ quát $E_f$ họ các đơn thức $x_1^{\nu(1)} ... x_n^{\nu(n)}$ sao cho $0 \leq \nu(i) < i$ với $1 \leq i \leq n$ là một cơ sở của A-môđun $E_f$. Đặc biệt $E_f$ là một A-môđun tự do hạng $n!$.
 
-Đặt $B = A[X_1, ..., X_n]$ và $C = A[X_1, ..., X_n]^{\text{sym}}$. Theo Định lý 1 (*IV*, p. 62) ta có $C = A[s_1, ..., s_n]$ và $s_1, ..., s_n$ độc lập đại số trên A. Các đa thức không có số hạng hằng theo $s_1, ..., s_n$ tạo thành một iđêan $C^+$ của C, bù với A và được sinh bởi $s_1, ..., s_n$. Gọi c là iđêan của C được sinh bởi $s_1 + a,, s_2 - a,, ..., s_n + (-1)^n + 'a,.$ Tồn tại một tự đẳng cấu A-đại số của C biến $s_k$ thành $s_k + (-1)^{k+1} a_k$ với $1 \leq k \leq n$, và do đó biến $C^+$ thành c ; vì thế ta có $C = A \oplus c$. Hơn nữa Định lý 1, c) của *IV*, p. 62 cho thấy rằng
+Đặt $B = A[X_1, ..., X_n]$ và $C = A[X_1, ..., X_n]^{\text{sym}}$. Theo Định lý 1 (*IV*, p. 62) ta có $C = A[s_1, ..., s_n]$ và $s_1, ..., s_n$ độc lập đại số trên A. Các đa thức không có số hạng hằng theo $s_1, ..., s_n$ tạo thành một iđêan $C^+$ của C, bù với A và được sinh bởi $s_1, ..., s_n$. Gọi c là iđêan của C được sinh bởi $s_1 + a_1, s_2 - a_2, ..., s_n + (-1)^{n+1} a_n$ Tồn tại một tự đẳng cấu A-đại số của C biến $s_k$ thành $s_k + (-1)^{k+1} a_k$ với $1 \leq k \leq n$, và do đó biến $C^+$ thành c ; vì thế ta có $C = A \oplus c$. Hơn nữa Định lý 1, c) của *IV*, p. 62 cho thấy rằng
 
 $$
 B = \bigoplus_{\nu \in S} CX^\nu
@@ -593,7 +593,7 @@ Vì phần tử đơn vị của $E_f$ tạo thành một phần của một cơ
 — *Cho $f \in A[X]$ là một đa thức đơn khởi bậc n, và cho P là một đa thức đối xứng theo $X_1, ..., X_n$ với các hệ số trong A. Khi đó tồn tại chính xác một phần tử a của A có tính chất sau:
 (FS) Với mọi đồng cấu vành $\rho : A \to B$ và mọi phân tích $^0f(X) = \prod_{i=1}^n (X - \xi_i)$ trong B[X] ta có $\rho(a) = P(\xi_1, ..., \xi_n)$.*
 
-Viết $f = X^n + \sum_{k=1}^n a_k X^{n-k}$, khi đó theo Định lý 1, IV, p. 62 tồn tại một đa thức $\Pi$ theo n ẩn với các hệ số trong A sao cho $P = \Pi(s_1, ..., s_n)$. Đặt $a = \Pi(-a_1, a,, ..., (-1)^n a_n)$. Dưới giả thiết (FS) ta có
+Viết $f = X^n + \sum_{k=1}^n a_k X^{n-k}$, khi đó theo Định lý 1, IV, p. 62 tồn tại một đa thức $\Pi$ theo n ẩn với các hệ số trong A sao cho $P = \Pi(s_1, ..., s_n)$. Đặt $a = \Pi(-a_1, a_2, ..., (-1)^n a_n)$. Dưới giả thiết (FS) ta có
 $$
 s_k(\xi_1, ..., \xi_n) = (-1)^k \rho(a_k)
 $$
@@ -888,7 +888,7 @@ theo điều đã nói trên. Các kết thức không thay đổi nếu ta xem 
 
 #### Hệ quả 1 {#alg-iv-s6-lem-5-cor-1 .statement}
 
-— (i) Cho $\lambda, a,, \ldots, \alpha_p$ là các phần tử của A và giả sử rằng $f(X) = \lambda (X - a,) \ldots (X - a,)$. Ta có
+— (i) Cho $\lambda, \alpha_1, \ldots, \alpha_p$ là các phần tử của A và giả sử rằng $f(X) = \lambda (X - \alpha_1) \ldots (X - \alpha_p)$. Ta có
 $$
 \operatorname{res}_{p,q}(f, g) = \lambda^q g(\alpha_1) \ldots g(\alpha_p) .
 $$
@@ -1015,13 +1015,13 @@ $$
 
 #### Mệnh đề 10 {#alg-iv-s6-prop-10 .statement}
 
-Cho $m \geq 1$. Tồn tại một đa thức duy nhất $A \in \mathbf{Z}[A,, \ldots, A,_j]$ có tính chất sau: với mọi vành giao hoán A và mọi đa thức *đơn nhất* $f = X^m + \sum_{i=1}^m a_i X^{m-i}$ trong $A[X]$ ta có
+Cho $m \geq 1$. Tồn tại một đa thức duy nhất $A \in \mathbf{Z}[A_1, \ldots, A_m]$ có tính chất sau: với mọi vành giao hoán A và mọi đa thức *đơn nhất* $f = X^m + \sum_{i=1}^m a_i X^{m-i}$ trong $A[X]$ ta có
 $$
 \operatorname{dis}(f) = \Delta(a_1, \ldots, a_m).
 $$
 Hơn nữa A có bậc $\leq 2m-2$ và nếu ta gán trọng số i cho $A_i$ thì A là đẳng trọng số $m(m-1)$.
-a) Tính duy nhất của A: nếu A thỏa mãn (48), đặc biệt ta có $A = \operatorname{dis}(F)$, trong đó F là đa thức $X^m + \sum_{i=1}^m A_i X^{m-i}$ với các hệ số trong $\mathbf{Z}[A,, \ldots, A,_j]$.
-b) Sự tồn tại *của* A: gọi $s_1, \ldots, s_m$ là các đa thức đối xứng cơ bản theo các ẩn $X_1, \ldots, X_m$. Tồn tại một đa thức $A \in \mathbf{Z}[A,, \ldots, A,_j]$, đẳng trọng số $m(m-1)$, sao cho
+a) Tính duy nhất của A: nếu A thỏa mãn (48), đặc biệt ta có $A = \operatorname{dis}(F)$, trong đó F là đa thức $X^m + \sum_{i=1}^m A_i X^{m-i}$ với các hệ số trong $\mathbf{Z}[A_1, \ldots, A_m]$.
+b) Sự tồn tại *của* A: gọi $s_1, \ldots, s_m$ là các đa thức đối xứng cơ bản theo các ẩn $X_1, \ldots, X_m$. Tồn tại một đa thức $A \in \mathbf{Z}[A_1, \ldots, A_m]$, đẳng trọng số $m(m-1)$, sao cho
 $$
 \Delta(-s_1, s_2, \ldots, (-1)^m s_m) = \prod_{i < j} (X_i - X_j)^2;
 $$
@@ -1048,7 +1048,7 @@ $a_{0j} = 0$ nếu $j \neq 0 , \ j \neq m-1$
 
 Trong các công thức này, ta hiểu rằng $A_i = 1$ và $A_i = 0$ với $i < 0$ hoặc $i > m$. Bây giờ (50) cho thấy ngay rằng A có bậc $\leq 2m-2$, đúng như phải chứng minh.
 
-Mệnh đề 10 cho phép ta mở rộng định nghĩa của biệt thức cho các đa thức không đơn nhất. Cho $m \geq 1$ là một số nguyên, khi đó tồn tại một đa thức thuần nhất duy nhất bậc $2m-2$, ký hiệu là $\tilde{\Delta}$, theo $Z[A,, A,, ..., A_]$ sao cho
+Mệnh đề 10 cho phép ta mở rộng định nghĩa của biệt thức cho các đa thức không đơn nhất. Cho $m \geq 1$ là một số nguyên, khi đó tồn tại một đa thức thuần nhất duy nhất bậc $2m-2$, ký hiệu là $\tilde{\Delta}$, theo $Z[A_0, A_1, ..., A_m]$ sao cho
 
 $$
 \Delta(A_1, ..., A_r) = \tilde{\Delta}(1, A_1, ..., A_r)
@@ -1060,7 +1060,7 @@ $$
 A_0^{2m-2} \Delta(A_1/A_0, ..., A_m/A_0)
 $$
 
-thuộc vành con $Z[A_0, A,, ..., A_]$ của $Q(A,, A,, ..., A_)$. Nếu $A_i$ có trọng số i với $0 \leq i \leq m$, thì $\tilde{\Delta}$ là đẳng trọng số $m(m-1)$. Nếu f là một đa thức bậc $\leq m$, chẳng hạn
+thuộc vành con $Z[A_0, A_1, ..., A_m]$ của $Q(A_0, A_1, ..., A_m)$. Nếu $A_i$ có trọng số i với $0 \leq i \leq m$, thì $\tilde{\Delta}$ là đẳng trọng số $m(m-1)$. Nếu f là một đa thức bậc $\leq m$, chẳng hạn
 
 $$
 f = a_0 X^m + a_1 X^{m-1} + \cdots + a_{m-1} X + a_m ,
@@ -1159,9 +1159,9 @@ Việc áp dụng hai lần Hệ quả 2 ở trên cho thấy rằng ta có $\ma
 
 #### Ví dụ 3 {#alg-iv-s6-n7-exa-3 .statement}
 
-Cho $m = 2$. Theo Ví dụ 2 (IV, p. 81) ta có $\Delta(A_1, A,) = A_1^2 - 4A_2$, do đó $\tilde{\Delta}(A_0, A,, A,) = A_1^2 - 4A_0A_2$. Nói cách khác, ta có
+Cho $m = 2$. Theo Ví dụ 2 (IV, p. 81) ta có $\Delta(A_1, A_2) = A_1^2 - 4A_2$, do đó $\tilde{\Delta}(A_0, A_1, A_2) = A_1^2 - 4A_0A_2$. Nói cách khác, ta có
 $$
-\mathrm{dis}_2(a_0X^2 + a_1X + a,) = a_1^2 - 4a_0a_2 .
+\mathrm{dis}_2(a_0X^2 + a_1X + a_2) = a_1^2 - 4a_0a_2 .
 $$
 
 #### Ví dụ 4 {#alg-iv-s6-n7-exa-4 .statement}
@@ -1170,9 +1170,9 @@ Xét đa thức
 $$
 F = A_0X^3 + 3A_1X^2 + 3A_2X + A,
 $$
-có các hệ số trong $Q[A_0, A,, A,, A_3]$. Ta có
+có các hệ số trong $Q[A_0, A_1, A_2, A_3]$. Ta có
 $$
-DF = 3(A_0X^2 + 2A_1X + A,) ,
+DF = 3(A_0X^2 + 2A_1X + A_2) ,
 $$
 $$
 F - 1/3X \cdot DF = A_1X^2 + 2A_2X + A_3 .
@@ -1183,7 +1183,7 @@ A_0 \cdot \mathrm{dis}_3(F) = - \mathrm{res}_{2,3}(DF, F) = - \mathrm{res}_{2,3}
 $$
 Áp dụng Hệ quả 2 của IV, p. 80, cuối cùng ta thu được
 $$
-\mathrm{dis}_3(F) = - 27 \mathrm{res}_{2,2}(A_0X^2 + 2A_1X + A,,\ A_1X^2 + 2A_2X + A,) .
+\mathrm{dis}_3(F) = - 27 \mathrm{res}_{2,2}(A_0X^2 + 2A_1X + A_2,\ A_1X^2 + 2A_2X + A_3) .
 $$
 Theo Ví dụ 3 của IV, p. 80, do đó ta có
 $$

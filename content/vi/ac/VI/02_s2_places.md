@@ -179,7 +179,7 @@ Xét đến Mệnh đề 1, đây là bản dịch của Định lý 2 của § 
 
 #### Mệnh đề 4 {#ac-vi-s2-prop-4 .statement}
 
-Cho $K$ là một trường, $f$ là một vị trí của $K$ với giá trị trong một trường $L$ và $K'$ là một mở rộng của $K$. Khi đó tồn tại một mở rộng $L'$ của $L$ và một vị trí $f'$ của $K'$ với giá trị trong $L'$ mở rộng $f$. Nếu $x_1, \ldots, x_n$ là các phần tử của $K$ độc lập đại số trên $K$ và $a,, \ldots, a,,$ là các phần tử bất kỳ $\in L, f'$ có thể được chọn sao cho $f(x_i) = a,$ với $1 \leq i \leq n.$
+Cho $K$ là một trường, $f$ là một vị trí của $K$ với giá trị trong một trường $L$ và $K'$ là một mở rộng của $K$. Khi đó tồn tại một mở rộng $L'$ của $L$ và một vị trí $f'$ của $K'$ với giá trị trong $L'$ mở rộng $f$. Nếu $x_1, \ldots, x_n$ là các phần tử của $K$ độc lập đại số trên $K$ và $a_1, \ldots, a_n$ là các phần tử bất kỳ $\in L, f'$ có thể được chọn sao cho $f(x_i) = a,$ với $1 \leq i \leq n.$
 
 Gọi $V$ là vành off, $g$ là hạn chế của f lên $V$ và $g'$ là mở rộng của $g$ lên $V[x_1, \ldots, x_n]$ sao cho $g'(x_i) = a,$ với $1 \leq i \leq n.$ Chỉ cần lấy $L'$ là một bao đóng đại số của $L$ và áp dụng Mệnh đề 3 cho $g'$ và $L'$: ta thu được một vị tríf': $K' \to \tilde{L}'$ mở rộng $g'$; nếu $x \in K - V,$ thì $x^{-1} \in m(V),$ do đó $f(x^{-1}) = g(x^{-1}) = 0$ và $f'(x) = \infty = f(x);$ do đóf' mở rộngf.
 

@@ -111,7 +111,7 @@ Ta có thể lấy các đa thức $f_i$ là đơn nhất (Nhận xét 1). Cho $
 
 b) ta có $f_i(X) = \prod_{k=1}^{d_i} (X - \xi_{i,k})$ trong $A_i[X]$.
 
-Gọi $A$ là tích tenxơ của họ các đại số $(A,)_{i}$, và gọi $\varphi_i$ là đồng cấu chính tắc của $A_i$ vào $A$ (III, p. 470). Khi đó đại số $A$ là giao hoán và không thu về 0; bởi định lý của Krull (I, p. 104), do đó tồn tại một iđêan cực đại $a$ trong $A$ và $E = A/a$ là một mở rộng của trường $K$.
+Gọi $A$ là tích tenxơ của họ các đại số $(A_i)_{i \in I}$, và gọi $\varphi_i$ là đồng cấu chính tắc của $A_i$ vào $A$ (III, p. 470). Khi đó đại số $A$ là giao hoán và không thu về 0; bởi định lý của Krull (I, p. 104), do đó tồn tại một iđêan cực đại $a$ trong $A$ và $E = A/a$ là một mở rộng của trường $K$.
 
 Ký hiệu $\psi$ là đồng cấu chính tắc của $A$ vào $E$ và đặt $x_{i,k} = \psi(\varphi_i(\xi_{i,k}))$ với $i \in I$ và $l \leq k \leq d_i$. Vì đại số $A$ được sinh bởi $\bigcup \varphi_i(A_i)$, mở rộng $E$ được sinh bởi họ $(x_{i,k})$. Hơn nữa, ta có $i \in I$
 

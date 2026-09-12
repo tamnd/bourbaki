@@ -62,7 +62,7 @@ Vì $u \in F_0(X)$ là đại số tách được trên $E(X)$ và $D$ bằng kh
 $$
 Q(X) = X^n + a_1 X^{n-1} + \ldots + a_{n-1} X + a_n
 $$
-với $a,, \ldots, a,$ thuộc $F_0$; vì $D(x) = 0$, do đó ta có
+với $a_1, \ldots, a_n$ thuộc $F_0$; vì $D(x) = 0$, do đó ta có
 $$
 D(Q) = \Delta(a_1) X^{n-1} + \cdots + \Delta(a_{n-1}) X + \Delta(a_n)
 $$

@@ -353,7 +353,7 @@ Cho $p_1, \ldots, p_r$ là các iđêan chia được của $A$ tương ứng v�
 
 Cho $\mathbf{A}$ là một miền Krull, $\mathbf{K}$ trường phân thức của nó và $\mathbf{a}, \mathbf{b}$ và $c$ là ba iđêan phân thức chia được của $\mathbf{A}$ sao cho $\mathbf{a} \subset \mathbf{b}$. Tồn tại $x \in \mathbf{K}$ sao cho $\mathbf{a} = \mathbf{b} \cap x\mathbf{c}$.
 
-Cho $(v_t)_{t \in I}$ là họ các định giá cốt yếu của $\mathbf{A}$ và cho $(m,)$ (tương ứng $(n_t), (p_t)$) là họ các số nguyên hữu tỉ (bằng không trừ ra với một số hữu hạn chỉ số) sao cho $\mathbf{a}$ (tương ứng $\mathbf{b}, c$) là tập hợp các $x \in \mathbf{K}$ mà với chúng $v(x_t) \geq m$, (tương ứng $n_t, p_t$) với mọi $t \in I$ (Mệnh đề 5, no. 4). Tập hợp $\mathbf{J}$ các $t \in I$ sao cho $m_t > n_t$ là hữu hạn. Vì $p_t = m_t = 0$ trừ ra với một số hữu hạn chỉ số, Mệnh đề 9 cho thấy rằng tồn tại $x \in \mathbf{K}^*$ sao cho $v_t(x^{-1}) + m_t = p_t$ với $t \in \mathbf{J}$ và
+Cho $(v_t)_{t \in I}$ là họ các định giá cốt yếu của $\mathbf{A}$ và cho $(m_t)$ (tương ứng $(n_t), (p_t)$) là họ các số nguyên hữu tỉ (bằng không trừ ra với một số hữu hạn chỉ số) sao cho $\mathbf{a}$ (tương ứng $\mathbf{b}, c$) là tập hợp các $x \in \mathbf{K}$ mà với chúng $v(x_t) \geq m$, (tương ứng $n_t, p_t$) với mọi $t \in I$ (Mệnh đề 5, no. 4). Tập hợp $\mathbf{J}$ các $t \in I$ sao cho $m_t > n_t$ là hữu hạn. Vì $p_t = m_t = 0$ trừ ra với một số hữu hạn chỉ số, Mệnh đề 9 cho thấy rằng tồn tại $x \in \mathbf{K}^*$ sao cho $v_t(x^{-1}) + m_t = p_t$ với $t \in \mathbf{J}$ và
 $$
 v_t(x^{-1}) + m_t \geq p_t
 $$

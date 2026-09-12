@@ -44,7 +44,7 @@ Cho A là một đại số trên một trường K và x là một phần tử 
 
 a) Họ các đơn thức $(x^n)_{n \in \mathbf{N}}$ là tự do trên $K$. Khi đó ta nói rằng $x$ là siêu việt trên $K$. Có một đẳng cấu của đại số đa thức $K[X]$ lên đại số con $K[x]$ của $A$ sinh bởi $x$, và đại số sau có bậc vô hạn trên $K$.
 
-b) Tồn tại một số nguyên $n \geq 1$ sao cho các đơn thức $1,\ x,\ \ldots,\ x^{n-1},\ x^n$ là phụ thuộc tuyến tính; điều này tương đương với việc tồn tại một đa thức $f \neq 0$ trong $K[X]$ sao cho $f(x) = 0$. Khi đó ta nói rằng $x$ là đại số trên $K$. Số nguyên nhỏ nhất $n \geq 1$ thỏa mãn tính chất trên được gọi là bậc của $x$ trên $K$. Nếu bậc của $x$ trên $K$ là $n$, thì các đơn thức $1,\ x,\ \ldots,\ x^{n-1}$ là độc lập tuyến tính trên $K$ và tồn tại các phần tử $a_0,\ a,,\ \ldots,\ a_{-1}$ của $K$ sao cho
+b) Tồn tại một số nguyên $n \geq 1$ sao cho các đơn thức $1,\ x,\ \ldots,\ x^{n-1},\ x^n$ là phụ thuộc tuyến tính; điều này tương đương với việc tồn tại một đa thức $f \neq 0$ trong $K[X]$ sao cho $f(x) = 0$. Khi đó ta nói rằng $x$ là đại số trên $K$. Số nguyên nhỏ nhất $n \geq 1$ thỏa mãn tính chất trên được gọi là bậc của $x$ trên $K$. Nếu bậc của $x$ trên $K$ là $n$, thì các đơn thức $1,\ x,\ \ldots,\ x^{n-1}$ là độc lập tuyến tính trên $K$ và tồn tại các phần tử $a_0,\ a_1,\ \ldots,\ a_{n-1}$ của $K$ sao cho
 $$
 x^n = a_0 + a_1 x + \cdots + a_{n-1} x^{n-1}
 $$

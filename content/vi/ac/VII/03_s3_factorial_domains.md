@@ -241,7 +241,7 @@ ip + j \geq (c + 1)p + j \geq (c + 1)p > cp + d;
 $$
 $i < c$ cũng không thể, vì $(c, d)$ là phần tử bé nhất của $G$; do đó $i = c$ và khi đó $j = d$. Vậy số hạng bậc $cp + d$ trong $f(T^p, T)$ là $e_{cd} T^{cp + d}$. Vì $e_{cd} \neq 0, f(T^p, T) \neq 0$. Do đó bổ đề được chứng minh.
 
-Trong vành $E[[X_1, \ldots, X]]$, gọi $a$ là iđêan của các chuỗi lũy thừa hình thức không có số hạng hằng. Nếu $w_1, \ldots, w_n$ là các phần tử của $a$, nhắc lại rằng ánh xạ $f(X_1, \ldots, X,) \mapsto f(w_1, \ldots, w,)$ là tự đồng cấu duy nhất $s$ của vành $E[[X_1, \ldots, X_n]]$ sao cho $s(X_i) = w_i$ với $1 \leq i \leq n$ (Chương III, § 4, no. 5, Mệnh đề 6).
+Trong vành $E[[X_1, \ldots, X]]$, gọi $a$ là iđêan của các chuỗi lũy thừa hình thức không có số hạng hằng. Nếu $w_1, \ldots, w_n$ là các phần tử của $a$, nhắc lại rằng ánh xạ $f(X_1, \ldots, X_n) \mapsto f(w_1, \ldots, w_n)$ là tự đồng cấu duy nhất $s$ của vành $E[[X_1, \ldots, X_n]]$ sao cho $s(X_i) = w_i$ với $1 \leq i \leq n$ (Chương III, § 4, no. 5, Mệnh đề 6).
 
 Ta lấy $w_1 = X_1 + X_n^{u(1)}, \ldots, w_{n-1} = X_{n-1} + X_n^{u(n-1)}, w_n = X_n$, trong đó các $u(i)$ là những số nguyên $\geq 1$. Gọi $s'$ là tự đồng cấu của $E[[X_1, \ldots, X_n]]$ biến $X_1$ thành $X_1 - X_n^{u(1)}, \ldots, X_{n-1}$ thành $X_{n-1} - X_n^{u(n-1)}$ và $X_n$ thành $X_n$. Khi đó $s'(s(X_i)) = X_i$ với $1 \leq i \leq n$ và do đó $s' \circ s$ là tự đẳng cấu đồng nhất; tương tự đối với $s \circ s'$. Vậy $s$ là một *tự đẳng cấu*.
 
@@ -251,9 +251,9 @@ Ta lấy $w_1 = X_1 + X_n^{u(1)}, \ldots, w_{n-1} = X_{n-1} + X_n^{u(n-1)}, w_n 
 $$
 s(X_i) = X_i + X_n^{u(i)} \quad (1 \leq i \leq n-1)
 $$
-*và $s(X_n) = X_n$, biến $f$ thành một phần tử $g$ sao cho $g(0, \ldots, 0, X,) \neq 0$.*
+*và $s(X_n) = X_n$, biến $f$ thành một phần tử $g$ sao cho $g(0, \ldots, 0, X_n) \neq 0$.*
 
-$g(0, \ldots, 0, X,) = f(X_n^{u(1)}, \ldots, X_n^{u(n-1)}, X,)$. Vì thế Bổ đề 3 là một hệ quả của Bổ đề 2.
+$g(0, \ldots, 0, X_n) = f(X_n^{u(1)}, \ldots, X_n^{u(n-1)}, X_n)$. Vì thế Bổ đề 3 là một hệ quả của Bổ đề 2.
 
 ### 8. ĐỊNH LÝ CHUẨN BỊ
 
@@ -367,7 +367,7 @@ Gọi $p$ là iđêan cực đại của C và $x$ là một phần tử sinh c�
 
 Lập luận bằng quy nạp, bắt đầu từ trường hợp tầm thường $n = 0$, ta sẽ giả sử rằng đã chứng minh được $A = C[[X_1, \ldots, X_{n-1}]]$ là phân tích duy nhất. Ta sẽ đồng nhất B với $A[[X_n]]$ và ký hiệu bởi m iđêan cực đại của A (được sinh bởi $\pi, X_1, \ldots, X_{-1}$). Ta sẽ chứng minh rằng mọi phần tử khác không g của B đều là, theo một cách duy nhất về bản chất, một tích các phần tử extremal.
 
-Cho K là trường $C/C\pi$; vì $B/B\pi$ được đồng nhất với $K[[X_1, \ldots, X_n]]$, iđêan $Bx$ là nguyên tố và $x$ là cực biên. Nếu $x \neq 0$, do đó $B_{B\pi}$ là vành của một định giá rời rạc chuẩn hóa w (Chương VI, §3, no. 6, Mệnh đề 9); bởi vậy mọi phần tử khác không g của B đều có thể viết dưới dạng $g = \pi^{w(g)} f$, trong đó $f \in B$ và f không là bội của $\pi$. Vì vậy sẽ đủ để chỉ ra rằng $f$ là một tích về cơ bản duy nhất của các phần tử cực biên. Bây giờ ảnh chính tắc của $f$ trong $K[[X_1, \ldots, X_n]]$ khác không; do đó Bổ đề 3 (no. 7) cho thấy rằng tồn tại một tự đẳng cấu của B biến $f$ thành một phần tử $f'$ sao cho các hệ số của $f'(0, \ldots, 0, X,)$ không phải tất cả đều nằm trong $Cx$; điều đó có nghĩa là các hệ số của chuỗi $f'$, được xét như một chuỗi lũy thừa hình thức theo $X,,$, không phải tất cả đều nằm trong m. Sẽ đủ để chứng minh mệnh đề của chúng ta đối với $f'$.
+Cho K là trường $C/C\pi$; vì $B/B\pi$ được đồng nhất với $K[[X_1, \ldots, X_n]]$, iđêan $Bx$ là nguyên tố và $x$ là cực biên. Nếu $x \neq 0$, do đó $B_{B\pi}$ là vành của một định giá rời rạc chuẩn hóa w (Chương VI, §3, no. 6, Mệnh đề 9); bởi vậy mọi phần tử khác không g của B đều có thể viết dưới dạng $g = \pi^{w(g)} f$, trong đó $f \in B$ và f không là bội của $\pi$. Vì vậy sẽ đủ để chỉ ra rằng $f$ là một tích về cơ bản duy nhất của các phần tử cực biên. Bây giờ ảnh chính tắc của $f$ trong $K[[X_1, \ldots, X_n]]$ khác không; do đó Bổ đề 3 (no. 7) cho thấy rằng tồn tại một tự đẳng cấu của B biến $f$ thành một phần tử $f'$ sao cho các hệ số của $f'(0, \ldots, 0, X_n)$ không phải tất cả đều nằm trong $Cx$; điều đó có nghĩa là các hệ số của chuỗi $f'$, được xét như một chuỗi lũy thừa hình thức theo $X_n$, không phải tất cả đều nằm trong m. Sẽ đủ để chứng minh mệnh đề của chúng ta đối với $f'$.
 
 Trong phần sau, mọi phần tử của B sẽ được xét như các chuỗi lũy thừa hình thức theo X, với các hệ số trong A. Theo Mệnh đề 6 của no. 8 (áp dụng được vì C và do đó A là tách được và đầy đủ và chuỗi thu gọn của $f'$ là $\neq 0$), $f'$ liên kết, trong B, với một đa thức phân biệt duy nhất F. Theo Mệnh đề 7 của no. 8, mọi chuỗi chia hết $f'$ (hay, điều này tương đương, chia hết F) đều liên kết với một đa thức phân biệt chia hết F và mọi phân tích của $f'$ đều, sai khác bởi các nhân tử khả nghịch, có dạng $f' = u F_1 \cdots F_q$, trong đó $u$ là khả nghịch và các $F_i$ là các đa thức phân biệt cực biên (trong B) sao cho $F = F_1 \cdots F_q$. Theo Hệ quả của Mệnh đề 7 của no. 8, các F, cũng là cực biên trong $\mathbf{A}[X_n]$. Bây giờ, vì $\mathbf{A}$ là phân tích được duy nhất theo giả thiết quy nạp, nên $\mathbf{A}[X_n]$ cũng vậy (Định lý 2, no. 5); do đó, vì chúng là đơn nhất, các $F_i$ được xác định duy nhất bởi F (chính xác đến một phép hoán vị). Điều này chứng tỏ tính duy nhất của phân tích $f' = u F_1 \ldots F_r$; sự tồn tại của nó suy ra từ việc $B$ là Noether, điều này hoàn tất chứng minh.
 

@@ -110,7 +110,7 @@ c) $T$ tự do đại số trên $K$ và $S$ tự do đại số trên $K(T)$.
 
 Hiển nhiên chỉ cần chứng minh rằng a) và b) là tương đương.
 
-$a) \Rightarrow b)$: Giả sử rằng a) đúng. Vì $S$ được chứa trong $S \cup T$, nó tự do đại số trên $K$. Nếu $T$ không tự do đại số trên $K(S)$, thì tồn tại (Mệnh đề 3) một họ hữu hạn $(y_j)_{1 \leq j \leq n}$ gồm các phần tử phân biệt của $T$ có quan hệ đại số trên $K(S)$. Do đó tồn tại một đa thức khác không $f$ trong vành $K(S)[Y_1, ..., Y_n]$ sao cho $f(y,, ..., y,) = 0$; sau khi nhân $f$ nếu cần bởi một phần tử khác không của $K[S]$ ta có thể giả sử rằng mọi hệ số off thuộc $K[S]$. Các hệ số của fare là các đa thức theo một số hữu hạn phần tử phân biệt $x_i \ (1 \leq i \leq m )$ của $S$, với các hệ số trong $K$. Các phần tử $x_1, ..., x,, y_1, ..., y,$ phân biệt từng đôi một vì $S \cap T = (21$. Do đó quan hệ $f(y,, ..., y,) = 0$ có thể được viết
+$a) \Rightarrow b)$: Giả sử rằng a) đúng. Vì $S$ được chứa trong $S \cup T$, nó tự do đại số trên $K$. Nếu $T$ không tự do đại số trên $K(S)$, thì tồn tại (Mệnh đề 3) một họ hữu hạn $(y_j)_{1 \leq j \leq n}$ gồm các phần tử phân biệt của $T$ có quan hệ đại số trên $K(S)$. Do đó tồn tại một đa thức khác không $f$ trong vành $K(S)[Y_1, ..., Y_n]$ sao cho $f(y_1, ..., y_n) = 0$; sau khi nhân $f$ nếu cần bởi một phần tử khác không của $K[S]$ ta có thể giả sử rằng mọi hệ số off thuộc $K[S]$. Các hệ số của fare là các đa thức theo một số hữu hạn phần tử phân biệt $x_i \ (1 \leq i \leq m )$ của $S$, với các hệ số trong $K$. Các phần tử $x_1, ..., x_m, y_1, ..., y_n$ phân biệt từng đôi một vì $S \cap T = (21$. Do đó quan hệ $f(y_1, ..., y_n) = 0$ có thể được viết
 
 $$
 g(x_1, ..., x_m ; y_1, ..., y_n) = 0 ,
@@ -118,7 +118,7 @@ $$
 
 trong đó $g$ là một đa thức khác không của $K[X_1, ..., X_m, Y_1, ..., Y_n]$, và một quan hệ như vậy mâu thuẫn với giả thiết rằng $S \cup T$ tự do đại số.
 
-$b) \Rightarrow a)$: Giả sử b) đúng. Trước hết hiển nhiên là $T \cap K(S) = \varnothing$ và $a fortiori \ S \cap T = (21$. Chỉ cần chứng minh rằng nếu $x_i \ (1 \leq i \leq m )$ là các phần tử phân biệt của $S$, với số lượng hữu hạn, và $y_j \ (1 \leq j \leq n )$ là các phần tử phân biệt của $T$ với số lượng hữu hạn, thì tập hợp các $x_i$ và $y,$ là đại số tự do trên $K$ (Mệnh đề 3). Xét một đa thức $f \in K[X_1, ..., X,, Y_1, ..., Y_n]$ sao cho $f(x_1, ..., x_m, y_1, ..., y,) = 0$ và đặt $f = \sum \varphi_\alpha Y_1^{\alpha_1} ... Y_n^{\alpha_n}$ với $\varphi_\alpha \in K[X_1, ..., X_m]$ với mọi $\alpha = (\alpha,, ..., \alpha_n) \in \mathbf{N}^n$. Đặt $g = f(x,, ..., x,, Y_1, ..., Y,)$; khi đó $g$ là một đa thức trong vành $K[S][Y_1, ..., Y,]$ và quan hệ $f(x_1, ..., x_m, y_1, ..., y,) = 0$ có thể được viết thành $g(y_1, ..., y,) = 0$. Vì $T$ là đại số tự do trên $K(S)$, mỗi hệ số $\varphi_\alpha(x_1, ..., x,)$ của $g$ đều bằng không; vì $S$ là đại số tự do trên $K$, ta có $\varphi_\alpha = 0$ với mọi $\alpha \in \mathbf{N}^n$, và do đó $f = 0$.
+$b) \Rightarrow a)$: Giả sử b) đúng. Trước hết hiển nhiên là $T \cap K(S) = \varnothing$ và $a fortiori \ S \cap T = (21$. Chỉ cần chứng minh rằng nếu $x_i \ (1 \leq i \leq m )$ là các phần tử phân biệt của $S$, với số lượng hữu hạn, và $y_j \ (1 \leq j \leq n )$ là các phần tử phân biệt của $T$ với số lượng hữu hạn, thì tập hợp các $x_i$ và $y,$ là đại số tự do trên $K$ (Mệnh đề 3). Xét một đa thức $f \in K[X_1, ..., X_m, Y_1, ..., Y_n]$ sao cho $f(x_1, ..., x_m, y_1, ..., y_n) = 0$ và đặt $f = \sum \varphi_\alpha Y_1^{\alpha_1} ... Y_n^{\alpha_n}$ với $\varphi_\alpha \in K[X_1, ..., X_m]$ với mọi $\alpha = (\alpha_1, ..., \alpha_n) \in \mathbf{N}^n$. Đặt $g = f(x_1, ..., x_m, Y_1, ..., Y_n)$; khi đó $g$ là một đa thức trong vành $K[S][Y_1, ..., Y_n]$ và quan hệ $f(x_1, ..., x_m, y_1, ..., y_n) = 0$ có thể được viết thành $g(y_1, ..., y_n) = 0$. Vì $T$ là đại số tự do trên $K(S)$, mỗi hệ số $\varphi_\alpha(x_1, ..., x_m)$ của $g$ đều bằng không; vì $S$ là đại số tự do trên $K$, ta có $\varphi_\alpha = 0$ với mọi $\alpha \in \mathbf{N}^n$, và do đó $f = 0$.
 
 #### Hệ quả {#alg-v-s14-n2-cor-1 .statement}
 
@@ -130,7 +130,7 @@ $b) \Rightarrow a)$: Giả sử b) đúng. Trước hết hiển nhiên là $T \
 
 Điều kiện là cần theo Mệnh đề 4.
 
-Để chứng minh tính đủ, chỉ cần (Mệnh đề 3) chứng minh rằng mọi dãy hữu hạn $(x_1, ..., x,)$ gồm các phần tử phân biệt của $S$ đều là đại số tự do. Bây giờ theo giả thiết, $x_i$ là siêu việt trên $K(x_1, ..., x_{i-1})$ với $1 \leq i \leq n$, và khi đó mệnh đề của ta suy ra bằng quy nạp theo $n$ từ Hệ quả của Mệnh đề 4.
+Để chứng minh tính đủ, chỉ cần (Mệnh đề 3) chứng minh rằng mọi dãy hữu hạn $(x_1, ..., x_n)$ gồm các phần tử phân biệt của $S$ đều là đại số tự do. Bây giờ theo giả thiết, $x_i$ là siêu việt trên $K(x_1, ..., x_{i-1})$ với $1 \leq i \leq n$, và khi đó mệnh đề của ta suy ra bằng quy nạp theo $n$ từ Hệ quả của Mệnh đề 4.
 
 #### Mệnh đề 6 {#alg-v-s14-prop-6 .statement}
 

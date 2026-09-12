@@ -83,7 +83,7 @@ $$
 
 trường hợp các chuẩn được xử lý tương tự.
 
-Hơn nữa, cho $(x,, \ldots, x,)$ là một dãy các phần tử của $A$, gọi U là ma trận
+Hơn nữa, cho $(x_1, \ldots, x_n)$ là một dãy các phần tử của $A$, gọi U là ma trận
 
 $$
 (u_i(x_j))_{1 \leq i,j \leq n}
@@ -109,7 +109,7 @@ b) *Tồn tại một cơ sở của $A$ có biệt thức khác không.*
 c) *Với mỗi $x \neq 0$ trong $A$ tồn tại $y$ trong $A$ sao cho $\text{Tr}_{A/K}(xy) \neq 0$.*
 *Hơn nữa, khi các điều kiện này được thỏa mãn, biệt thức của mọi cơ sở của $A$ đều khác không.*
 
-Ta sẽ chỉ ra rằng khi giả sử $A$ là étale, biệt thức của $A$ đối với mọi cơ sở $(x,, \ldots, x,)$ của $A$ trên $K$ đều khác không; điều này đặc biệt sẽ thiết lập kéo theo $a) \Rightarrow b)$. Theo (4), với ký hiệu ở trên, chỉ cần chỉ ra rằng ma trận U là khả nghịch, hay tương đương, rằng hệ phương trình tuyến tính
+Ta sẽ chỉ ra rằng khi giả sử $A$ là étale, biệt thức của $A$ đối với mọi cơ sở $(x_1, \ldots, x_n)$ của $A$ trên $K$ đều khác không; điều này đặc biệt sẽ thiết lập kéo theo $a) \Rightarrow b)$. Theo (4), với ký hiệu ở trên, chỉ cần chỉ ra rằng ma trận U là khả nghịch, hay tương đương, rằng hệ phương trình tuyến tính
 
 $$
 \sum_{i=1}^n \lambda_i u_i(x_j) = 0 \quad (\text{với } 1 \leq j \leq n)
@@ -137,9 +137,9 @@ Ta hãy chứng minh rằng điều kiện c) kéo theo A là rút gọn. Cho x 
 
 Cho V là một không gian vectơ số chiều hữu hạn trên K và $u$ một tự đồng cấu lũy linh của V, khi đó $\mathrm{Tr}(u) = 0$.
 
-Với mỗi số nguyên $n \geq 0$ gọi $V_n$ là ảnh của $u^n$. Vì $u$ lũy linh, tồn tại một số nguyên $r \geq 0$ sao cho $V_0 = V, V_r = 0$ và $V_i \neq V_{i+1}$ với $0 \leq i < r - 1$. Gọi d, là chiều của $V_{i-1}$ (với $1 \leq i \leq r$). Tồn tại một cơ sở $(x,, \ldots, x_d)$ của V sao cho các vectơ $x_j$ với $d - d_i < j \leq d$ tạo thành một cơ sở của $V_{i-1}$ (với $1 \leq i \leq r$). Ta có $u(V_{i-1}) \subset V_i$ và do đó các phần tử đường chéo của ma trận của $u$ đối với cơ sở $(x,, \ldots, x,)$ đều bằng không. Vậy $\mathrm{Tr}(u) = 0$ và bổ đề được chứng minh.
+Với mỗi số nguyên $n \geq 0$ gọi $V_n$ là ảnh của $u^n$. Vì $u$ lũy linh, tồn tại một số nguyên $r \geq 0$ sao cho $V_0 = V, V_r = 0$ và $V_i \neq V_{i+1}$ với $0 \leq i < r - 1$. Gọi d, là chiều của $V_{i-1}$ (với $1 \leq i \leq r$). Tồn tại một cơ sở $(x_1, \ldots, x_d)$ của V sao cho các vectơ $x_j$ với $d - d_i < j \leq d$ tạo thành một cơ sở của $V_{i-1}$ (với $1 \leq i \leq r$). Ta có $u(V_{i-1}) \subset V_i$ và do đó các phần tử đường chéo của ma trận của $u$ đối với cơ sở $(x_1, \ldots, x_n)$ đều bằng không. Vậy $\mathrm{Tr}(u) = 0$ và bổ đề được chứng minh.
 
-Sau cùng ta hãy chứng minh rằng b) kéo theo a). Cho $(x,, \ldots, x_n)$ là một cơ sở của A trên K sao cho $D_{A/K}(x_1, \ldots, x_n) \neq 0$. Cho K' là một mở rộng của K, A' là K'-đại số dẫn xuất từ A bằng mở rộng vô hướng và $x'_i = 1 \otimes x_i$ với $1 \leq i \leq n$. Theo Công thức (2) (V, p. 47) ta có $D_{A'/K'}(x'_1, \ldots, x'_n) \neq 0$. Áp dụng kết quả trên cho A' ta thấy rằng A' là rút gọn, do đó đại số A là étale (V, p. 34, ĐL. 4).
+Sau cùng ta hãy chứng minh rằng b) kéo theo a). Cho $(x_1, \ldots, x_n)$ là một cơ sở của A trên K sao cho $D_{A/K}(x_1, \ldots, x_n) \neq 0$. Cho K' là một mở rộng của K, A' là K'-đại số dẫn xuất từ A bằng mở rộng vô hướng và $x'_i = 1 \otimes x_i$ với $1 \leq i \leq n$. Theo Công thức (2) (V, p. 47) ta có $D_{A'/K'}(x'_1, \ldots, x'_n) \neq 0$. Áp dụng kết quả trên cho A' ta thấy rằng A' là rút gọn, do đó đại số A là étale (V, p. 34, ĐL. 4).
 
 #### Hệ quả {#alg-v-s8-n2-cor-1 .statement}
 

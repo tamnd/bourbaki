@@ -388,7 +388,7 @@ $T^{-1}N = T^{-1}B \otimes_B N$; khi đó mệnh đề suy ra từ Chương I, �
 
 Với mọi $a \notin m$, phép vị tự của $N_n$ cảm sinh bởi $a$ là song ánh, do đó $N_n$ được đồng nhất một cách chính tắc với $(N_n)_m$ và tính tương đương của (b) và (c) suy ra từ
 
-Nhận xét tiếp theo sau Mệnh đề 13; việc (a) kéo theo (b) là một trường hợp riêng của Mệnh đề 14. Còn phải chứng minh rằng (b) kéo theo (a), nghĩa là, nếu (b) đúng, thì với mọi đồng cấu A-môđun đơn ánh $u : M \to M'$, đồng cấu $v = 1 @ u : N \otimes_A M \to N @^* M'$ là đơn ánh. Bây giờ, $v$ cũng là một đồng cấu B-môđun và để nó đơn ánh, điều kiện cần và đủ là $v,, : (N \otimes_A M),, \to (N \otimes_A M'),,$ cũng như vậy với mọi iđêan cực đại $n$ của $B$ (no. 3, Định lý 1). Vì
+Nhận xét tiếp theo sau Mệnh đề 13; việc (a) kéo theo (b) là một trường hợp riêng của Mệnh đề 14. Còn phải chứng minh rằng (b) kéo theo (a), nghĩa là, nếu (b) đúng, thì với mọi đồng cấu A-môđun đơn ánh $u : M \to M'$, đồng cấu $v = 1 @ u : N \otimes_A M \to N @^* M'$ là đơn ánh. Bây giờ, $v$ cũng là một đồng cấu B-môđun và để nó đơn ánh, điều kiện cần và đủ là $v_n : (N \otimes_A M)_n \to (N \otimes_A M')_n$ cũng như vậy với mọi iđêan cực đại $n$ của $B$ (no. 3, Định lý 1). Vì
 $$
 (N \otimes_A M)_n = B_n \otimes_B (N @_A M) = N_n \otimes_A M,
 $$

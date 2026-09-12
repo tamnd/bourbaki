@@ -157,15 +157,15 @@ Nhận xét
 
 #### Mệnh đề 4 {#ac-vi-s7-prop-4 .statement}
 
-*Cho $v_1, \ldots, v_n$ ($n \geq 2$) là các định giá từng đôi một phụ thuộc trên cùng một trường $K$. Khi đó các vành $A,, \ldots, A,$ của $v_1, \ldots, v,$ sinh ra một vành con $\delta \ K$ phân biệt với $K$.*
+*Cho $v_1, \ldots, v_n$ ($n \geq 2$) là các định giá từng đôi một phụ thuộc trên cùng một trường $K$. Khi đó các vành $A_1, \ldots, A_n$ của $v_1, \ldots, v,$ sinh ra một vành con $\delta \ K$ phân biệt với $K$.*
 
-Với $n = 2$, Mệnh đề 4 suy ra từ Định nghĩa 1. Giả sử mệnh đề đúng đối với $n - 1$ định giá. Khi đó tồn tại một vành con A của K phân biệt với K và chứa $A,, \ldots, A,$; cũng tồn tại một vành con B $\neq K$ chứa A, _, và A_. Vì A và B chứa A, _, nên chúng so sánh được theo quan hệ bao hàm ($§ 4$, no. 1, Hệ quả của Mệnh đề 1). Do đó, vành lớn hơn trong hai vành này chứa tất cả các $A_i$.
+Với $n = 2$, Mệnh đề 4 suy ra từ Định nghĩa 1. Giả sử mệnh đề đúng đối với $n - 1$ định giá. Khi đó tồn tại một vành con A của K phân biệt với K và chứa $A_1, \ldots, A_n$; cũng tồn tại một vành con B $\neq K$ chứa A, _, và A_. Vì A và B chứa A, _, nên chúng so sánh được theo quan hệ bao hàm ($§ 4$, no. 1, Hệ quả của Mệnh đề 1). Do đó, vành lớn hơn trong hai vành này chứa tất cả các $A_i$.
 
 ### 3. TRƯỜNG HỢP CÁC GIÁ TRỊ TUYỆT ĐỐI
 
 #### Định lý 2 (Định lý xấp xỉ đối với các giá trị tuyệt đối) {#ac-vi-s7-thm-2 .statement}
 
-*Cho $f_i$ ($1 \leq i \leq n$) là các giá trị tuyệt đối trên cùng một trường $K$ không bất chính và không có hai giá trị nào tương đương. Cho $a, \ (1 \leq i \leq n)$ là các phần tử của $K$ và $\varepsilon$ là một số thực $> 0$. Khi đó tồn tại $x \in K$ sao cho $f_i(x - a,) \leq \varepsilon$ với mọi $i$.*
+*Cho $f_i$ ($1 \leq i \leq n$) là các giá trị tuyệt đối trên cùng một trường $K$ không bất chính và không có hai giá trị nào tương đương. Cho $a, \ (1 \leq i \leq n)$ là các phần tử của $K$ và $\varepsilon$ là một số thực $> 0$. Khi đó tồn tại $x \in K$ sao cho $f_i(x - a_i) \leq \varepsilon$ với mọi $i$.*
 
 Cho $K_i$ là trường K với tôpô được xác định bởi $f_i$. Kết quả cần chứng minh tương đương với điều sau: trong tích $P = K_1 \times \cdots \times K_n$, bao đóng $\overline{D}$ của đường chéo D bằng P. Điều này là hiển nhiên đối với $n = 1$. Giả sử điểm này đã được thiết lập trong trường hợp có k giá trị tuyệt đối với $k < n$.
 
@@ -175,7 +175,7 @@ Khi số nguyên $q$ tiến tới vô hạn, $f_1(x_n^q)$ tiến tới 0, $f_2(x
 $$
 1 - y_q = (1 + x_n^q)^{-1};
 $$
-do đó dãy $(y,)$ tiến tới 0 trong $K_1$, tới 1 trong $K_2$ và tới 0 hoặc 1 trong $K_i$ với $i \geq 3$. Bằng cách thay đổi cách đánh số các $K_i$, ta có thể giả sử rằng tồn tại một số nguyên $r$ ($1 \leq r < n$) sao cho $\overline{D}$ chứa điểm $(e_1, \ldots, e_n)$ trong đó $e_i = 1$ với $1 \leq i \leq r$ và $e_i = 0$ với $r + 1 \leq i \leq n$. Bây giờ, $\overline{D}$ là một không gian con K-vectơ của P. Do đó $\overline{D}$ chứa các đường chéo D' và D'' của
+do đó dãy $(y_q)$ tiến tới 0 trong $K_1$, tới 1 trong $K_2$ và tới 0 hoặc 1 trong $K_i$ với $i \geq 3$. Bằng cách thay đổi cách đánh số các $K_i$, ta có thể giả sử rằng tồn tại một số nguyên $r$ ($1 \leq r < n$) sao cho $\overline{D}$ chứa điểm $(e_1, \ldots, e_n)$ trong đó $e_i = 1$ với $1 \leq i \leq r$ và $e_i = 0$ với $r + 1 \leq i \leq n$. Bây giờ, $\overline{D}$ là một không gian con K-vectơ của P. Do đó $\overline{D}$ chứa các đường chéo D' và D'' của
 $$
 P' = K_1 \times \cdots \times K_r,
 $$

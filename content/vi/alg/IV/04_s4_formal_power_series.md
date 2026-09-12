@@ -134,7 +134,7 @@ c) Cho $(u_\lambda)_{\lambda \in L}$ là một họ các phần tử của $A[[I
 
 #### Mệnh đề 1 {#alg-iv-s4-prop-1 .statement}
 
-*Cho* $(u,)_{\mu \in \mathscr{J}}$ *và* $(v_\mu)_{\mu \in \mathscr{J}}$ *là hai họ khả tổng các phần tử của* $\mathbf{A}[[\mathbf{I}]]$. *Khi đó họ* $(u_\lambda v_\mu)_{(\lambda, \mu) \in \mathscr{J} \times M}$ *là khả tổng và ta có*
+*Cho* $(u_\lambda)_{\lambda \in L}$ *và* $(v_\mu)_{\mu \in \mathscr{J}}$ *là hai họ khả tổng các phần tử của* $\mathbf{A}[[\mathbf{I}]]$. *Khi đó họ* $(u_\lambda v_\mu)_{(\lambda, \mu) \in \mathscr{J} \times M}$ *là khả tổng và ta có*
 
 $$
 \sum_{(\lambda, \mu) \in L \times M} u_\lambda v_\mu = \left( \sum_{\lambda \in L} u_\lambda \right) \left( \sum_{\mu \in M} v_\mu \right)
@@ -260,7 +260,7 @@ Ngược lại, giả sử số hạng hằng $a$ của $u$ là khả nghịch. 
 
 — Gọi $A$ là tập hợp tất cả các chuỗi lũy thừa hình thức có số hạng hằng bằng 1. Theo Mệnh đề 6, $M$ là một nhóm giao hoán đối với phép nhân; vì vậy nhóm nhân của $A[[I]]$ là tích trực tiếp của $M$ và nhóm nhân của $A$. Ta sẽ trang bị cho $A$ tôpô cảm sinh từ tôpô của $A[[I]]$. Với mỗi $\beta \in \mathbf{N}^{(I)}$ ta đã định nghĩa trong IV, p. 26 iđêan $a_\beta$ của $A[[I]]$; khi đó $1 + a_\beta$ là một nhóm con của $M$ và họ $(1 + a_{\beta'})$ là một hệ cơ bản các lân cận của 1 trong $M$. Vì phép nhân trong $M$ là liên tục, suy ra $A$ là một nhóm tôpô (Gen. Top., III, p. 223); nói cách khác, *ánh xạ* $f \mapsto f^{-1}$ *liên tục trong* $M$.
 
-Cho $K$ là một trường giao hoán và $\mathscr{O}$ là vành con của trường các phân thức hữu tỉ $K((X_i)_{i,,})$ gồm các phân thức hữu tỉ trong đó phần tử 0 của $K^1$ có thể được thế vào. Nếu $f \in \mathscr{O}$, ta có $f = \frac{u}{v}$, trong đó $u$ và $v$ là các đa thức sao cho số hạng hằng của $v$ là $\neq 0$, do đó $v$ là khả nghịch trong $K[[I]]$. Ta kiểm tra ngay được rằng phần tử $uv^{-1}$ của $K[[I]]$ chỉ phụ thuộc vào $f$; ta nói rằng chuỗi lũy thừa hình thức $uv^{-1}$ là *khai triển tại gốc của phân thức hữu tỉ* $\frac{u}{v}$. Ánh xạ $f \mapsto uv^{-1}$ là một đồng cấu đơn cấu từ $\mathscr{O}$ vào $K[[I]]$; ta sẽ thường đồng nhất $\mathscr{O}$ với ảnh của nó qua ánh xạ này.
+Cho $K$ là một trường giao hoán và $\mathscr{O}$ là vành con của trường các phân thức hữu tỉ $K((X_i)_{i \in I})$ gồm các phân thức hữu tỉ trong đó phần tử 0 của $K^1$ có thể được thế vào. Nếu $f \in \mathscr{O}$, ta có $f = \frac{u}{v}$, trong đó $u$ và $v$ là các đa thức sao cho số hạng hằng của $v$ là $\neq 0$, do đó $v$ là khả nghịch trong $K[[I]]$. Ta kiểm tra ngay được rằng phần tử $uv^{-1}$ của $K[[I]]$ chỉ phụ thuộc vào $f$; ta nói rằng chuỗi lũy thừa hình thức $uv^{-1}$ là *khai triển tại gốc của phân thức hữu tỉ* $\frac{u}{v}$. Ánh xạ $f \mapsto uv^{-1}$ là một đồng cấu đơn cấu từ $\mathscr{O}$ vào $K[[I]]$; ta sẽ thường đồng nhất $\mathscr{O}$ với ảnh của nó qua ánh xạ này.
 
 ### 5. Công thức Taylor cho chuỗi lũy thừa hình thức
 
@@ -389,7 +389,7 @@ $$
 D(u) = \sum_{n \geq 0} \Delta(u_n)
 $$
 
-Ta có $D(b,) \subset b, -_1$, do đó $D$ là một tự đồng cấu liên tục của nhóm cộng của $A[[X]]$. Ánh xạ $\Phi : (u, v) \mapsto D(uv) - uD(v) - D(u)v$ từ $A[[X]] \times A[[X]]$ vào $A[[X]]$ là liên tục và bằng không trên $A[X] \times A[X]$. Vì $A[X]$ trù mật trong $A[[X]]$, ta có $\Phi = 0$; nói cách khác, $D$ là một đạo hàm của $A[[X]]$ vào chính nó, kéo dài $A$.
+Ta có $D(b_n) \subset b_{n-1}$, do đó $D$ là một tự đồng cấu liên tục của nhóm cộng của $A[[X]]$. Ánh xạ $\Phi : (u, v) \mapsto D(uv) - uD(v) - D(u)v$ từ $A[[X]] \times A[[X]]$ vào $A[[X]]$ là liên tục và bằng không trên $A[X] \times A[X]$. Vì $A[X]$ trù mật trong $A[[X]]$, ta có $\Phi = 0$; nói cách khác, $D$ là một đạo hàm của $A[[X]]$ vào chính nó, kéo dài $A$.
 
 Sau cùng, $A[X]$ trù mật trong $A[[X]]$ và mọi đạo hàm của $A[[X]]$ đều liên tục theo (i); do đó tồn tại một và chỉ một sự kéo dài của $A$ thành một đạo hàm của $A[[X]]$. Điều này chứng minh (ii).
 
@@ -397,7 +397,7 @@ Còn phải chứng minh (iii). Công thức (18) (IV, p. 33) cho thấy họ $(
 
 #### Mệnh đề 9 {#alg-iv-s4-prop-9 .statement}
 
-— Cho $(u,) \ldots$ là một họ *khả tổng* gồm các phần tử của $A[[I]]$ không có số hạng hằng và $D$ là một đạo hàm liên tục của $A$-đại số $A[[I]]$. Nếu $f = \prod_{\lambda \in L} (1 + u_\lambda)$ (IV, p. 27, Prop. 2), thì họ $(Du_\lambda/(1 + u_\lambda))_{\lambda \in L}$ là khả tổng và ta có
+— Cho $(u_\lambda)_{\lambda \in L}$ là một họ *khả tổng* gồm các phần tử của $A[[I]]$ không có số hạng hằng và $D$ là một đạo hàm liên tục của $A$-đại số $A[[I]]$. Nếu $f = \prod_{\lambda \in L} (1 + u_\lambda)$ (IV, p. 27, Prop. 2), thì họ $(Du_\lambda/(1 + u_\lambda))_{\lambda \in L}$ là khả tổng và ta có
 
 $$
 D(f)/f = \sum_{\lambda \in L} D(u_\lambda)/(1 + u_\lambda) .
@@ -677,7 +677,7 @@ $$
 l(X) + l(Y) = l(X+Y+XY).
 $$
 
-Cho $(u,)_{\lambda}$ là một họ cộng được của các phần tử của $\mathscr{B}$, khi đó họ $(\exp u_{\lambda})_{\lambda \in L}$ là nhân được và ta có
+Cho $(u_\lambda)_{\lambda \in L}$ là một họ cộng được của các phần tử của $\mathscr{B}$, khi đó họ $(\exp u_{\lambda})_{\lambda \in L}$ là nhân được và ta có
 
 (40)
 $$

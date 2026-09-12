@@ -248,7 +248,7 @@ Rõ ràng $V_0$ là một không gian con-K vectơ của $V$.
 
 Công thức $u_\sigma \circ \varphi = \varphi \circ (\sigma \otimes \mathrm{Id}_{V_0})$ cho thấy hạt nhân $W$ của $\varphi$ ổn định dưới các ánh xạ $\sigma \otimes \mathrm{Id}_{V_0}$; do Hệ quả của Mệnh đề 6, do đó tồn tại một không gian con $W_0$ của $V_0$ sao cho $W = N \otimes_K W_0$. Nếu $x$ thuộc $W_0$ thì ta có $x = \varphi(1 \otimes x) = 0$, suy ra $W_0 = 0$ và do đó $W = 0$. Điều này chứng minh a).
 
-Giả sử $\Gamma$ là hữu hạn; ta phải chứng minh rằng $\varphi$ là toàn ánh, hay tương đương rằng $V_0$ sinh ra không gian vectơ N $V$. Do đó, cho $f$ là một dạng N-tuyến tính trên $V$ mà hạn chế của nó lên $V_0$ bằng không. Cho $x \in V$; với mọi $A \in N$ phần tử $y, = \sum_{\sigma \in \Gamma} u_\sigma(\lambda x)$ của $V$ rõ ràng thuộc $V_0$, do đó $f(y,) = 0$, nghĩa là,
+Giả sử $\Gamma$ là hữu hạn; ta phải chứng minh rằng $\varphi$ là toàn ánh, hay tương đương rằng $V_0$ sinh ra không gian vectơ N $V$. Do đó, cho $f$ là một dạng N-tuyến tính trên $V$ mà hạn chế của nó lên $V_0$ bằng không. Cho $x \in V$; với mọi $A \in N$ phần tử $y, = \sum_{\sigma \in \Gamma} u_\sigma(\lambda x)$ của $V$ rõ ràng thuộc $V_0$, do đó $f(y_\lambda) = 0$, nghĩa là,
 $$
 \sum_{\sigma \in \Gamma} f(u_\sigma(x)) \sigma(A) = 0.
 $$
@@ -316,11 +316,11 @@ Với mỗi $a \in \Gamma$, ta ký hiệu $u_\sigma$ là ánh xạ $x \mapsto U_
 
 #### Hệ quả 1 {#alg-v-s10-prop-9-cor-1 .statement}
 
-*Cho $(c,)$, , , là một họ các phần tử khác không của $N$. Để tồn tại $a \neq 0$ trong $N$ sao cho $c, = \sigma(a) \cdot a'$ với mọi $a \in \Gamma$ là điều kiện cần và đủ để $c, = c, \cdot a(c,)$ với $\sigma, \tau$ trong $\Gamma$.*
+*Cho $(c_\sigma)_{\sigma \in \Gamma}$, , , là một họ các phần tử khác không của $N$. Để tồn tại $a \neq 0$ trong $N$ sao cho $c, = \sigma(a) \cdot a'$ với mọi $a \in \Gamma$ là điều kiện cần và đủ để $c_{\sigma \tau} = c_\sigma \cdot \sigma(c_\tau)$ với $\sigma, \tau$ trong $\Gamma$.*
 
 #### Hệ quả 2 {#alg-v-s10-prop-9-cor-2 .statement}
 
-*Cho $(c,)$, $\Gamma$ là một họ các phần tử của $N$. Để $b$ tồn tại trong $N$ sao cho $a, = \sigma(b) - b$ với mọi $a \in \Gamma$, điều kiện cần và đủ là $a, = a, + \sigma(a_\tau)$ với $a, \tau$ thuộc $\Gamma$.*
+*Cho $(c_\sigma)_{\sigma \in \Gamma}$, $\Gamma$ là một họ các phần tử của $N$. Để $b$ tồn tại trong $N$ sao cho $a, = \sigma(b) - b$ với mọi $a \in \Gamma$, điều kiện cần và đủ là $a, = a, + \sigma(a_\tau)$ với $a, \tau$ thuộc $\Gamma$.*
 
 Ta có $\sigma \tau(b) - b = [\sigma(b) - b]^+ \sigma[\tau(b) - b]$ với mọi $b$ thuộc $N$ và $a, \tau$ thuộc $\Gamma$, do đó điều kiện là cần thiết.
 

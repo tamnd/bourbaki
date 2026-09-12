@@ -100,7 +100,7 @@ $A'$ là một đại số trên A sinh bởi $mX$; vì A là Noether, $mX$ là 
 
 *Cho A là một vành giao hoán Noether và m là một iđêan của A; trang bị cho A lọc m-adic. Cho E, F là hai A-môđun có lọc và $j : F \to E$ là một đồng cấu đơn ánh tương thích với các lọc. Nếu E sinh hữu hạn và lọc của nó là m-tốt, thì F sinh hữu hạn và lọc của nó là m-tốt.*
 
-Vì F đẳng cấu với một môđun con của E, nó sinh hữu hạn do A là Noether và E sinh hữu hạn. Gọi $(E,)$, $(F,)$ là các lọc tương ứng trên E và F, gồm các môđun con sinh hữu hạn; giữ nguyên ký hiệu của Bổ đề 1, đặt $E' = \sum_{n \geq 0} E_n \otimes_A A X^n, F' = \sum F_n \otimes_A A X^n$; vì theo giả thiết F, đẳng cấu với một môđun con của $E_n$, ta thấy rằng F' đẳng cấu với một môđun con của $E'$. Theo Định lý 1, $E'$ là một $A'$-môđun hữu hạn sinh và do đó F' cũng vậy vì A' là Noether (Bổ đề 1). Suy ra kết luận nhờ Định lý 1.
+Vì F đẳng cấu với một môđun con của E, nó sinh hữu hạn do A là Noether và E sinh hữu hạn. Gọi $(E_n)$, $(F_n)$ là các lọc tương ứng trên E và F, gồm các môđun con sinh hữu hạn; giữ nguyên ký hiệu của Bổ đề 1, đặt $E' = \sum_{n \geq 0} E_n \otimes_A A X^n, F' = \sum F_n \otimes_A A X^n$; vì theo giả thiết F, đẳng cấu với một môđun con của $E_n$, ta thấy rằng F' đẳng cấu với một môđun con của $E'$. Theo Định lý 1, $E'$ là một $A'$-môđun hữu hạn sinh và do đó F' cũng vậy vì A' là Noether (Bổ đề 1). Suy ra kết luận nhờ Định lý 1.
 
 #### Hệ quả 1 (Bổ đề Artin-Rees) {#ac-iii-s3-prop-1-cor-1 .statement}
 
@@ -152,7 +152,7 @@ Theo giả thiết, tồn tại một A-đồng cấu toàn ánh $v : A^n \to E$
 
 #### Mệnh đề 2 {#ac-iii-s3-prop-2 .statement}
 
-Cho $A$ là một vành giao hoán Noether, $m$ là một iđêan của $A$ và $E, F$ là hai A-môđun sinh hữu hạn. Nếu $(F,)$ là một lọc $m$-tốt trên $F$, thì các môđun con $\mathrm{Hom}_A(E, F,)$ tạo thành một lọc $m$-tốt trên A-môđun $\mathrm{Hom}_A(E, F)$.
+Cho $A$ là một vành giao hoán Noether, $m$ là một iđêan của $A$ và $E, F$ là hai A-môđun sinh hữu hạn. Nếu $(F_n)$ là một lọc $m$-tốt trên $F$, thì các môđun con $\mathrm{Hom}_A(E, F_n)$ tạo thành một lọc $m$-tốt trên A-môđun $\mathrm{Hom}_A(E, F)$.
 Vì $m^k F_n \subset F_{n+k}$ với $n \in \mathbf{Z}, k \geq 0$, nên cũng có
 
 $$
@@ -165,7 +165,7 @@ $$
 v = \mathrm{Hom}(u, 1_F) : \mathrm{Hom}_A(E, F) \to \mathrm{Hom}_A(A^r, F);
 $$
 
-rõ ràng $v$ tương thích với các lọc $(\mathrm{Hom}_A(E, F,))$ và $(\mathrm{Hom}_A(A^r, F_n))$.
+rõ ràng $v$ tương thích với các lọc $(\mathrm{Hom}_A(E, F_n))$ và $(\mathrm{Hom}_A(A^r, F_n))$.
 Vì $\mathrm{Hom}_A(E, F)$ và $\mathrm{Hom}_A(A^r, F)$ là sinh hữu hạn (Bổ đề 2), theo Mệnh đề 1 chỉ cần chỉ ra rằng lọc $(\mathrm{Hom}_A(A^r, F))$ là $m$-tốt; nhưng điều này là ngay lập tức nhờ sự tồn tại của đẳng cấu chính tắc $\mathrm{Hom}_A(A^r, F_r) \to F_n^r$ và thực tế là quan hệ $mF_n = F_n +$, suy ra $m(F_n^r) = (mF_n)^r = F_{n+1}^r$ (Đại số, Chương II, § 3, no. 7, Nhận xét).
 
 #### Mệnh đề 3 {#ac-iii-s3-prop-3 .statement}

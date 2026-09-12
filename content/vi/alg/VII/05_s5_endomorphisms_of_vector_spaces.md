@@ -545,7 +545,7 @@ Thật vậy đa thức tối tiểu chia hết đa thức đặc trưng.
 (ii) Đại số trên K A là chéo hóa được.
 (iii) Các phần tử của $\mathscr{S}$ là chéo hóa được và giao hoán với nhau.
 
-Nếu $(e,)$ là một cơ sở của E sao cho $\mathscr{S}$ là đường chéo đối với cơ sở này, thì A được chứa trong đại số các tự đồng cấu đường chéo đối với cơ sở này, do đó cũng là chéo hóa được; nếu A là chéo hóa được, thì cùng một lập luận cho thấy rằng $\mathscr{S}$ là chéo hóa được. Điều này chứng minh sự tương đương của (i) và (ii). Vì hai ma trận đường chéo bất kỳ giao hoán với nhau, ta có (i) $\rightarrow$ (iii), và còn lại là chứng minh chiều đảo. Giả sử khi đó rằng các phần tử của $\mathscr{S}$ là chéo hóa được và giao hoán với nhau. Ta sẽ sử dụng bổ đề sau:
+Nếu $(e_i)$ là một cơ sở của E sao cho $\mathscr{S}$ là đường chéo đối với cơ sở này, thì A được chứa trong đại số các tự đồng cấu đường chéo đối với cơ sở này, do đó cũng là chéo hóa được; nếu A là chéo hóa được, thì cùng một lập luận cho thấy rằng $\mathscr{S}$ là chéo hóa được. Điều này chứng minh sự tương đương của (i) và (ii). Vì hai ma trận đường chéo bất kỳ giao hoán với nhau, ta có (i) $\rightarrow$ (iii), và còn lại là chứng minh chiều đảo. Giả sử khi đó rằng các phần tử của $\mathscr{S}$ là chéo hóa được và giao hoán với nhau. Ta sẽ sử dụng bổ đề sau:
 
 #### Bổ đề 3 {#alg-vii-s5-lem-3 .statement}
 

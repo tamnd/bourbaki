@@ -234,7 +234,7 @@ Việc nghiên cứu tổng quát bản thân các vành địa phương chỉ b
 
 Kể từ Weierstrass, một hàm giải tích của một biến (và đặc biệt là một hàm đại số) thường được liên kết với tập hợp các "khai triển" của nó tại tất cả các điểm của mặt Riemann nơi nó được xác định. Trong phần mở đầu cuốn sách của ông về Lý thuyết Số ([18f], p. V), Hensel cũng tương tự liên kết với mỗi phần tử của một trường số đại số $k$ tập hợp các phần tử tương ứng với nó trong các phép đầy đủ hóa của $k$ đối với tất cả các giá trị tuyệt đối trên $k$ ($\dagger$). Có thể nói rằng chính quan điểm này, trong Đại số giao hoán hiện đại, đã thay thế công thức phân tích một iđêan thành tích của các iđêan nguyên tố (mở rộng theo một nghĩa nào đó quan điểm ban đầu của Kummer). Nhận xét của Hensel ngầm tương đương với việc nhúng $k$ vào tích của tất cả các phép đầy đủ hóa của nó; đây là điều mà Chevalley thực hiện một cách tường minh vào năm 1936 với lý thuyết của ông về
 
-(*) Nếu $m$ là iđêan cực đại của vành địa phương Noether $\mathbf{A}$ đang xét và $(\alpha_i)_{1 \leq i \leq r}$, một hệ sinh cực tiểu của $m$, Krull định nghĩa với $x \neq 0$ trong $\mathbf{A}$ các "dạng ban đầu" của $x$ như sau: nếu $j$ là số nguyên lớn nhất sao cho $x \in m^j$, các dạng ban đầu của $x$ là tất cả các đa thức thuần nhất bậc $j$, $P(X_1, \ldots, X_r)$ với các hệ số trong trường thặng dư $k = \mathbf{A}/m$, sao cho $x \equiv P(\alpha_1, \ldots, a,) \pmod{m^{j+1}}$. Với mỗi iđêan $\mathbf{a}$ của $\mathbf{A}$ ông liên kết iđêan phân bậc của $k[X_1, \ldots, X_r]$ sinh bởi các dạng ban đầu của tất cả các phần tử của $\mathbf{a}$ ("Leitideal"); hai khái niệm này đối với ông thay thế cho vành phân bậc liên kết.
+(*) Nếu $m$ là iđêan cực đại của vành địa phương Noether $\mathbf{A}$ đang xét và $(\alpha_i)_{1 \leq i \leq r}$, một hệ sinh cực tiểu của $m$, Krull định nghĩa với $x \neq 0$ trong $\mathbf{A}$ các "dạng ban đầu" của $x$ như sau: nếu $j$ là số nguyên lớn nhất sao cho $x \in m^j$, các dạng ban đầu của $x$ là tất cả các đa thức thuần nhất bậc $j$, $P(X_1, \ldots, X_r)$ với các hệ số trong trường thặng dư $k = \mathbf{A}/m$, sao cho $x \equiv P(\alpha_1, \ldots, \alpha_r) \pmod{m^{j+1}}$. Với mỗi iđêan $\mathbf{a}$ của $\mathbf{A}$ ông liên kết iđêan phân bậc của $k[X_1, \ldots, X_r]$ sinh bởi các dạng ban đầu của tất cả các phần tử của $\mathbf{a}$ ("Leitideal"); hai khái niệm này đối với ông thay thế cho vành phân bậc liên kết.
 
 ($\dagger$) Hensel lấy, như các giá trị tuyệt đối không siêu chuẩn trên một trường $K$ có bậc $n$ trên $\mathbf{Q}$, các hàm $x \mapsto |x^{(i)}|$ (trong đó các $x^{(i)}$ với $1 \leq i \leq n$ là các phần tử liên hợp của $x$) hiện đang được sử dụng kể từ Dirichlet; Ostrowski sau đó ít lâu đã chứng minh rằng các hàm này về cơ bản là các giá trị tuyệt đối không siêu chuẩn duy nhất trên $K$.
 
@@ -409,7 +409,7 @@ $F(A), C(A)$ (A một miền Krull): VII.1.10
 $e(\mathfrak{P}/p)$ ($p \in P(A), \mathfrak{P} \in P(B), A \subset B, \mathfrak{P} \cap A = p$) VII.1.10
 $i$ (đồng cấu từ $D(A)$ đến $D(B)$, hoặc từ $C(A)$ đến $C(B)$): VII.1.10
 $\bar{i}$ (đồng cấu từ $C(A)$ đến $C(B)$): VII.1.10
-$A, A,, \Delta(K)$ (các vành adèle hạn chế): VII.2.4
+$A, A_0, \Delta(K)$ (các vành adèle hạn chế): VII.2.4
 $\mathfrak{P}^*, \mathfrak{P}^*(A)$ (A một miền nguyên): VII.3.2
 $M^*$ (dàn đối ngẫu của một dàn $M$): VII.4.2
 $l_p(T), \chi(T)$ (T một A-môđun xoắn, $p$ một iđêan nguyên tố có chiều cao 1): VII.4.5

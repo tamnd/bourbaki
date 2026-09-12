@@ -219,7 +219,7 @@ D^\nu(X^\mu) = \begin{cases}
 $$
 Khi $P$ là một đa thức theo một ẩn duy nhất $X$, đạo hàm riêng duy nhất của $P$ được viết là $DP$ hoặc $\frac{dP}{dX}$ hoặc $P'$ và được gọi đơn giản là *đạo hàm* của $P$.
 
-Lại cho $B = A[(X_i)_{i \in I}]$; theo III, p. 569 B-môđun các A-vi phân của $B$, $\Omega_A(B)$, có họ $(dX_i)_{i,}$ các vi phân của các $X_i$ làm cơ sở. Gọi $\partial_i$ là dạng tọa độ chỉ số $i$ đối với cơ sở này trên $\Omega_A(B)$. Khi đó ánh xạ $u \mapsto (\partial_i, du)$ từ B vào chính nó là một đạo hàm của B biến $X_i$ thành 1 và $X_j$ thành 0 với $j \neq i$, và do đó là $D_i$; nói cách khác, ta có
+Lại cho $B = A[(X_i)_{i \in I}]$; theo III, p. 569 B-môđun các A-vi phân của $B$, $\Omega_A(B)$, có họ $(dX_i)_{i \in I}$ các vi phân của các $X_i$ làm cơ sở. Gọi $\partial_i$ là dạng tọa độ chỉ số $i$ đối với cơ sở này trên $\Omega_A(B)$. Khi đó ánh xạ $u \mapsto (\partial_i, du)$ từ B vào chính nó là một đạo hàm của B biến $X_i$ thành 1 và $X_j$ thành 0 với $j \neq i$, và do đó là $D_i$; nói cách khác, ta có
 $$
 du = \sum_{i \in I} (D_i u) dX_i
 $$
@@ -227,7 +227,7 @@ với mỗi $u \in B$. Nếu I là hữu hạn, $(D_i)_{i \in I}$ là một cơ 
 
 #### Mệnh đề 4 {#alg-iv-s1-prop-4 .statement}
 
-*Cho E là một A-đại số kết hợp, giao hoán và có đơn vị, $x = (x_i)_{i \in I}$ một họ các phần tử của E, u một phần tử của $A[(X_i)_{i,}]$ và $y = u(x)$. Khi đó với mọi đạo hàm D từ E vào một E-môđun ta có*
+*Cho E là một A-đại số kết hợp, giao hoán và có đơn vị, $x = (x_i)_{i \in I}$ một họ các phần tử của E, u một phần tử của $A[(X_i)_{i \in I}]$ và $y = u(x)$. Khi đó với mọi đạo hàm D từ E vào một E-môđun ta có*
 $$
 Dy = \sum_{i \in I} (D_i u)(x) \cdot Dx_i .
 $$
@@ -439,7 +439,7 @@ Với các ký hiệu của (i), ta sẽ nói rằng $u$ là thương và $v$ l�
 
 — Cho $K$ là một *trường* giao hoán.
 (i) Với mọi iđêan khác không $a$ của $K[X]$ tồn tại chính xác một đa thức *đơn khởi* $f$ trong $K[X]$ sao cho $a = (f )$.
-(ii) Cho $f_1$ và $f_2$ thuộc $K[X]$; để có $(f,) = (f_2)$ thì điều kiện cần và đủ là tồn tại một phần tử khác không $\lambda$ của $K$ sao cho $f_2 = \lambda f_1$.
+(ii) Cho $f_1$ và $f_2$ thuộc $K[X]$; để có $(f_1) = (f_2)$ thì điều kiện cần và đủ là tồn tại một phần tử khác không $\lambda$ của $K$ sao cho $f_2 = \lambda f_1$.
 Ta hãy chứng minh (ii), vì tính đủ của điều kiện đã nêu là hiển nhiên. Trường hợp $f_1$ và $f_2$ sinh iđêan không là tầm thường. Vậy giả sử rằng các đa thức khác không $f_1$ và $f_2$ sinh cùng một iđêan của $K[X]$. Khi đó tồn tại các đa thức $u_1$ và $u_2$ sao cho $f_1 = u_1 f_2$ và $f_2 = u_2 f_1$; suy ra $u_1 u_2 = 1$, do đó $\deg u_1 + \deg u_2 = 0$ và vì thế $\deg u_2 = 0$. Như vậy ta đã chỉ ra rằng $u_2$ là một phần tử khác không của $K$.
 
 Để chứng minh (i), lấy $f$ là một đa thức đơn khởi trong $a$ có bậc nhỏ nhất có thể được. Cho $g$ thuộc $a$, gọi $u$ và $v$ là thương và số dư của phép chia Euclid của $g$ cho $f$; khi đó $v = g - u f$ thuộc $a$ và ta có $\deg v < \deg f$; nếu $v$ khác không, sẽ tồn tại một phần tử khác không $\lambda$ của $K$ sao cho $\lambda v$ là đơn khởi, và vì $\lambda v \in a$, điều này sẽ mâu thuẫn với định nghĩa của $f$. Vậy ta có $a = (f)$; tính duy nhất của đa thức đơn khởi $f$ sao cho $a = (f)$ bây giờ suy ra từ (ii).
@@ -458,7 +458,7 @@ Ta hãy chứng minh (ii), vì tính đủ của điều kiện đã nêu là hi
 
 Khi $f$ và $g$ bằng không, mỗi tính chất từ (i) đến (iii) chỉ được thỏa mãn đối với $d = 0$, do đó khi ấy chúng là tương đương. Từ đây trở đi ta giả thiết rằng $f, g$ không đồng thời bằng 0 và ta ký hiệu bởi $a$ iđêan $(f) + (g)$ của $K[X]$.
 
-Ta nhận xét rằng với mọi đa thức $u$ và $v$ trong $K[X]$ thì các tính chất $(u) \supset (v)$ và « $u$ là ước của $v$ » là tương đương. Vì thế mệnh đề (ii) tương đương với « $(d) \supset (f)$ và $(d) \supset (g)$ và $d \in (f) + (g)$ », tức là (iii). Hiển nhiên là (ii) suy ra (i). Cuối cùng, giả sử rằng (i) đúng; ta có $(d) \supset (f)$ và $(d) \supset (g)$, do đó $(d) \supset a$; mặt khác, theo Mệnh đề 11 (IV, p. 12) tồn tại một đa thức $d_1$ sao cho $a = (d,)$; vì $d_1$ là ước của cả $f$ và $g$, nên theo giả thiết nó là ước của $d$, do đó $(d) \subset a$, và sau cùng ta có $(d) = a$, tức là (iii).
+Ta nhận xét rằng với mọi đa thức $u$ và $v$ trong $K[X]$ thì các tính chất $(u) \supset (v)$ và « $u$ là ước của $v$ » là tương đương. Vì thế mệnh đề (ii) tương đương với « $(d) \supset (f)$ và $(d) \supset (g)$ và $d \in (f) + (g)$ », tức là (iii). Hiển nhiên là (ii) suy ra (i). Cuối cùng, giả sử rằng (i) đúng; ta có $(d) \supset (f)$ và $(d) \supset (g)$, do đó $(d) \supset a$; mặt khác, theo Mệnh đề 11 (IV, p. 12) tồn tại một đa thức $d_1$ sao cho $a = (d_1)$; vì $d_1$ là ước của cả $f$ và $g$, nên theo giả thiết nó là ước của $d$, do đó $(d) \subset a$, và sau cùng ta có $(d) = a$, tức là (iii).
 
 Các mệnh đề khác của Mệnh đề 12 là những hệ quả ngay lập tức của Mệnh đề 11 áp dụng cho iđêan $a = (f) + (g)$.
 

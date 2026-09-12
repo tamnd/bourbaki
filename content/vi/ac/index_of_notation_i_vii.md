@@ -92,7 +92,7 @@ $F(A), C(A)$ (A là một miền Krull): VII.1.10
 $e(\mathfrak{P}/p)$ ($p \in P(A), \mathfrak{P} \in P(B), A \subset B, \mathfrak{P} \cap A = p$) VII.1.10
 $i$ (đồng cấu từ $D(A)$ đến $D(B)$, hoặc từ $C(A)$ đến $C(B)$): VII.1.10
 $\bar{i}$ (đồng cấu từ $C(A)$ đến $C(B)$): VII.1.10
-$A, A,, \Delta(K)$ (các vành của adèle hạn chế): VII.2.4
+$A, A_0, \Delta(K)$ (các vành của adèle hạn chế): VII.2.4
 $\mathfrak{P}^*, \mathfrak{P}^*(A)$ (A là một miền nguyên): VII.3.2
 $M^*$ (dàn đối ngẫu của một dàn $M$): VII.4.2
 $l_p(T), \chi(T)$ (T là một môđun xoắn trên A, $p$ là một iđêan nguyên tố chiều cao 1): VII.4.5

@@ -69,18 +69,18 @@ Cho $A$ là một miền iđêan chính và cho $K$ là trường các phân th�
 
 *Cho $K$ là trường các phân thức của một miền iđêan chính $A$, và cho $(x_i)_{i \in I}$ là một họ các phần tử của $K$ có một mẫu số chung $b \in K^*$ (nói cách khác $bx_i \in A$ với mọi $i$). Khi đó:*
 
-a) Họ $(x,)$ có một ước chung lớn nhất trong $K$.
-b) Mọi ước chung lớn nhất của $(x,)$ đều có thể được biểu diễn dưới dạng $d = \sum a_i x_i$, trong đó các $a_i$ là các phần tử của $A$, tất cả trừ một số hữu hạn trong chúng là không.
+a) Họ $(x_i)$ có một ước chung lớn nhất trong $K$.
+b) Mọi ước chung lớn nhất của $(x_i)$ đều có thể được biểu diễn dưới dạng $d = \sum a_i x_i$, trong đó các $a_i$ là các phần tử của $A$, tất cả trừ một số hữu hạn trong chúng là không.
 
 Thật vậy, iđêan $\sum Abx$, của $A$ là chính, và do đó có dạng $Ad'$. Đặt $d' = bd \ (d \in K)$. Từ quan hệ $d' = \sum a_i b x_i$, ta suy ra $d = \sum a_i x_i$, trong đó $a_i \in A$. Do đó mọi ước chung của các $x_i$ đều chia hết $d$. Mặt khác, vì $bd$ là một ước chung của các $bx$, theo phép dựng, nên suy ra $d$ là một ước chung của các $x_i$.
 
 #### Nhận xét {#alg-vii-s1-n2-rem-1 .statement}
 
-Mệnh đề 1 áp dụng không có hạn chế nào cho một họ tùy ý $(x,)$ các phần tử của $A$ (lấy $b = 1$), và cũng cho mọi họ hữu hạn $(x,)$ các phần tử của $K$ (nếu $x_i = c_i b_i$ với $c_i \in A$ và $b_i \in A$, thì lấy $b$ là tích của các $b_i$).
+Mệnh đề 1 áp dụng không có hạn chế nào cho một họ tùy ý $(x_i)$ các phần tử của $A$ (lấy $b = 1$), và cũng cho mọi họ hữu hạn $(x_i)$ các phần tử của $K$ (nếu $x_i = c_i b_i$ với $c_i \in A$ và $b_i \in A$, thì lấy $b$ là tích của các $b_i$).
 
 #### Hệ quả {#alg-vii-s1-n2-cor-1 .statement}
 
-— Cho $(x,)$ là một họ tùy ý các phần tử của một miền iđêan chính $A$ được chứa như một vành con trong một miền nguyên $B$, và cho $d$ là một ước chung lớn nhất của họ $(x,)$ trong $A$. Khi đó họ $(x,)$ có các ước chung lớn nhất trong $B$, và $d$ là một trong số chúng.
+— Cho $(x_i)$ là một họ tùy ý các phần tử của một miền iđêan chính $A$ được chứa như một vành con trong một miền nguyên $B$, và cho $d$ là một ước chung lớn nhất của họ $(x_i)$ trong $A$. Khi đó họ $(x_i)$ có các ước chung lớn nhất trong $B$, và $d$ là một trong số chúng.
 
 Thật vậy $d$ là một ước chung của các $x_i$ trong $B$. Mặt khác quan hệ $d = \sum a_i x_i$ cho thấy rằng mọi ước chung của các $x_i$ trong $B$ đều chia hết $d$.
 
@@ -131,7 +131,7 @@ Bây giờ ta sẽ áp dụng các kết quả của VI, p. *18*, liên quan đ�
 
 #### Định lý 2 {#alg-vii-s1-thm-2 .statement}
 
-— Cho $\mathbf{A}$ là một miền iđêan chính và cho $(p,)$ là một hệ đại diện của các phần tử bất khả quy của $\mathbf{A}$. Khi đó mọi phần tử khác không $x$ của trường phân thức của $A$ có thể được biểu diễn duy nhất dưới dạng
+— Cho $\mathbf{A}$ là một miền iđêan chính và cho $(p_\alpha)$ là một hệ đại diện của các phần tử bất khả quy của $\mathbf{A}$. Khi đó mọi phần tử khác không $x$ của trường phân thức của $A$ có thể được biểu diễn duy nhất dưới dạng
 
 $$
 x = u \prod_{\alpha} p_{\alpha}^{n_{\alpha}},
@@ -145,13 +145,13 @@ Ta sẽ sử dụng định lý về phân tích thành một tổng các phần
 
 Cho $A$ là một vành sao cho mọi iđêan trái của $A$ đều sinh hữu hạn. Khi đó mọi tập hợp khác rỗng $\Phi$ các iđêan trái của $\mathbf{A}$, có thứ tự bởi quan hệ bao hàm, đều có một phần tử cực đại.
 
-Theo Bổ đề Zorn (Lý thuyết tập hợp, III, p. 154, Đl. 2) chỉ cần chứng minh rằng $\Phi$ là quy nạp. Bây giờ nếu $(a,)$ là một họ có thứ tự toàn phần các phần tử của $\Phi$ thì hợp $a$ của các iđêan $a_i$ là một iđêan trái của $\mathbf{A}$, và do đó thừa nhận một hệ hữu hạn các phần tử sinh $(a_i)_{1 \leq i \leq n}$. Vì mỗi $a_i$ thuộc một iđêan $a_{,,}$, và vì họ $(a,)$ có thứ tự toàn phần, nên các $a_i$ đều thuộc iđêan lớn nhất trong các iđêan $a_{\lambda_i}$, chẳng hạn $a_1$. Khi đó $a = a_1$ thuộc $\Phi$, do đó đây thực sự là một tập quy nạp.
+Theo Bổ đề Zorn (Lý thuyết tập hợp, III, p. 154, Đl. 2) chỉ cần chứng minh rằng $\Phi$ là quy nạp. Bây giờ nếu $(a_\lambda)$ là một họ có thứ tự toàn phần các phần tử của $\Phi$ thì hợp $a$ của các iđêan $a_i$ là một iđêan trái của $\mathbf{A}$, và do đó thừa nhận một hệ hữu hạn các phần tử sinh $(a_i)_{1 \leq i \leq n}$. Vì mỗi $a_i$ thuộc một iđêan $a_{,,}$, và vì họ $(a_\lambda)$ có thứ tự toàn phần, nên các $a_i$ đều thuộc iđêan lớn nhất trong các iđêan $a_{\lambda_i}$, chẳng hạn $a_1$. Khi đó $a = a_1$ thuộc $\Phi$, do đó đây thực sự là một tập quy nạp.
 
 Sau này chúng ta sẽ nghiên cứu những vành $B$, được gọi là các vành Noether, sao cho mọi tập hợp khác rỗng các iđêan của $B$ đều chứa một phần tử cực đại.
 
 #### Nhận xét {#alg-vii-s1-n3-rem-1 .statement}
 
-Họ $(u, (n,))$ được gọi là phân tích của $x$ thành các thừa số bất khả quy; do lạm dụng ngôn ngữ, ta cũng nói rằng công thức (1) là phân tích của $x$ thành các thừa số bất khả quy. Nếu $x = u \prod_{\alpha} p_{\alpha}^{n_{\alpha}}$ và $y = v \prod_{\alpha} p_{\alpha}^{m_{\alpha}}$ là các phân tích của $x$ và $y$ thành các thừa số bất khả quy, thì một điều kiện cần và đủ để $x$ chia hết cho $y$ là $n_{\alpha} \leq m_{\alpha}$, với mọi $\alpha$; từ đó ta suy ra các công thức
+Họ $(u, (n_\alpha))$ được gọi là phân tích của $x$ thành các thừa số bất khả quy; do lạm dụng ngôn ngữ, ta cũng nói rằng công thức (1) là phân tích của $x$ thành các thừa số bất khả quy. Nếu $x = u \prod_{\alpha} p_{\alpha}^{n_{\alpha}}$ và $y = v \prod_{\alpha} p_{\alpha}^{m_{\alpha}}$ là các phân tích của $x$ và $y$ thành các thừa số bất khả quy, thì một điều kiện cần và đủ để $x$ chia hết cho $y$ là $n_{\alpha} \leq m_{\alpha}$, với mọi $\alpha$; từ đó ta suy ra các công thức
 
 $$
 \gcd(x, y) = \prod_{\alpha} p_{\alpha}^{\inf(n_{\alpha}, m_{\alpha})}

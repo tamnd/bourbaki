@@ -433,7 +433,7 @@ xy_0 \in \mathfrak{p}A^{\mathbf{Z}}(\mathfrak{p}' \cap K_{\alpha}) \subset \math
 $$
 điều này chứng minh mệnh đề thứ hai của (i).
 
-(ii) Bây giờ giả sử rằng $x \in A^T$; tồn tại $\alpha$ sao cho $x \in A^T(p' \cap K,)$ (Nhận xét 2) và Mệnh đề 5 của no. 2 cho thấy rằng lớp $\bar{x}$ của $x \mod.(p' \cap K, \cap A^T)$ là đại số và tách được trên $k$; *a fortiori* lớp $\mod.(p' \cap A^T)$ của $x$ là tách được trên $k$; để hoàn tất chứng minh của hệ quả, chỉ cần chứng minh rằng $k'$ là một mở rộng *radicial* của $k^T$. Bây giờ, $k'$ là hợp của họ có hướng phải các trường phân thức $k_\alpha$ của các vành $(A' \cap K_\alpha)/(p' \cap K,)$. Do đó suy ra từ Mệnh đề 5 rằng, nếu một phần tử của $k'$ thuộc $k$, thì nó là radicial trên trường phân thức của
+(ii) Bây giờ giả sử rằng $x \in A^T$; tồn tại $\alpha$ sao cho $x \in A^T(p' \cap K_\alpha)$ (Nhận xét 2) và Mệnh đề 5 của no. 2 cho thấy rằng lớp $\bar{x}$ của $x \mod.(p' \cap K, \cap A^T)$ là đại số và tách được trên $k$; *a fortiori* lớp $\mod.(p' \cap A^T)$ của $x$ là tách được trên $k$; để hoàn tất chứng minh của hệ quả, chỉ cần chứng minh rằng $k'$ là một mở rộng *radicial* của $k^T$. Bây giờ, $k'$ là hợp của họ có hướng phải các trường phân thức $k_\alpha$ của các vành $(A' \cap K_\alpha)/(p' \cap K_\alpha)$. Do đó suy ra từ Mệnh đề 5 rằng, nếu một phần tử của $k'$ thuộc $k$, thì nó là radicial trên trường phân thức của
 
 $$
 A^T(p' \cap K_\alpha)/(p' \cap A^T(p' \cap K_\alpha))

@@ -56,7 +56,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Mở rộng các đạo hàm : trường hợp các vành
 
-Cho K là một vành giao hoán, A là một đại số giao hoán trên K và $x = (x_i)_{i \in I}$, một họ các phần tử của A. Ngoài ra, cho $A$ là một đạo hàm của K vào một A-môđun M, nói cách khác (III, p. 553) là một ánh xạ tuyến tính trên Z từ K vào M thỏa mãn quan hệ $\Delta(cc') = c \cdot \Delta(c') + c' \cdot \Delta(c)$ với $c, c'$ trong K. Với mỗi $i \in I$ cho $D_i$ là đạo hàm riêng theo $X_i$ trong vành đa thức $K[X_i]_{i \in I}$; đây là đạo hàm duy nhất của vành đó vào chính nó bằng không trên K và trên $X_j$ với $j \in I - \{i\}$, và nhận giá trị 1 trên $X_i$ (IV, p. 6). Với mọi đa thức $f = \sum_{a \in N^{(I)}} c_a \cdot X^\alpha$ trong $K[X_i]_{i \in I}$, ta ký hiệu $f^\Delta(x)$ là phần tử $\sum_{a \in N^{(I)}} x^\alpha \cdot A(c,)$ của M.
+Cho K là một vành giao hoán, A là một đại số giao hoán trên K và $x = (x_i)_{i \in I}$, một họ các phần tử của A. Ngoài ra, cho $A$ là một đạo hàm của K vào một A-môđun M, nói cách khác (III, p. 553) là một ánh xạ tuyến tính trên Z từ K vào M thỏa mãn quan hệ $\Delta(cc') = c \cdot \Delta(c') + c' \cdot \Delta(c)$ với $c, c'$ trong K. Với mỗi $i \in I$ cho $D_i$ là đạo hàm riêng theo $X_i$ trong vành đa thức $K[X_i]_{i \in I}$; đây là đạo hàm duy nhất của vành đó vào chính nó bằng không trên K và trên $X_j$ với $j \in I - \{i\}$, và nhận giá trị 1 trên $X_i$ (IV, p. 6). Với mọi đa thức $f = \sum_{a \in N^{(I)}} c_a \cdot X^\alpha$ trong $K[X_i]_{i \in I}$, ta ký hiệu $f^\Delta(x)$ là phần tử $\sum_{\alpha \in N^{(I)}} x^\alpha \cdot \Delta(c_\alpha)$ của M.
 
 #### Mệnh đề 1 {#alg-v-s16-prop-1 .statement}
 

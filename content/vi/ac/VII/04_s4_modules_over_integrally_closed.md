@@ -120,7 +120,7 @@ là một ánh xạ đa tuyến tính mà ảnh sinh ra $V$. *Nếu $M_i$ là m�
 
 (ii) Cho $S$ là một phần bù của $W$ trong $V$, $L_w$ một dàn tự do của $W$ và $L_s$ một dàn tự do của $S$, sao cho $L = L_w \oplus L_s$ là một dàn tự do của $V$. Khi đó tồn tại $x, y$ trong $K^*$ sao cho $xL \subset M \subset yL$. Suy ra $xL_w \subset M \cap W \subset yL_w$, điều này cho thấy $M \cap W$ là một dàn của $W$ (Mệnh đề 2).
 
-(iii) Vì $KM, = V,$ nên rõ ràng do tính tuyến tính $f$ ($M, x \ldots x M,$) sinh không gian vectơ trên K là $V$; mặt khác, với mọi $i$, tồn tại một A-môđun con sinh hữu hạn $N_i$ của $V$, sao cho $M, \subset N_i;$ A-môđun con $N$ của $V$ sinh bởi $f(N, x \ldots x N,)$ là sinh hữu hạn và chứa $M$, do đó $M$ là một dàn của $V$ (Mệnh đề 1).
+(iii) Vì $KM, = V,$ nên rõ ràng do tính tuyến tính $f$ ($M, x \ldots x M,$) sinh không gian vectơ trên K là $V$; mặt khác, với mọi $i$, tồn tại một A-môđun con sinh hữu hạn $N_i$ của $V$, sao cho $M, \subset N_i;$ A-môđun con $N$ của $V$ sinh bởi $f(N_1 x \ldots x N_n)$ là sinh hữu hạn và chứa $M$, do đó $M$ là một dàn của $V$ (Mệnh đề 1).
 
 (iv) Cho $P$ (resp. $Q$) là một dàn tự do của $V$ (resp. $W$) chứa $M$ (resp. được chứa trong $N$); hiển nhiên $N : M \supset Q : P$. Bây giờ ngay lập tức có được rằng $Q : P$ đẳng cấu với $\mathrm{Hom}_A(P, Q)$, do đó là một A-môđun tự do có hạng $(\mathrm{rg}_A P)(\mathrm{rg}_A Q)$ (*Đại số*, Chương II, § 1, no. 6, Hệ quả 1 của Mệnh đề 6) và vì thế là một dàn của $\mathrm{Hom}_K(V, W)$. Tương tự, nếu $P'$ (resp. $Q'$) là một dàn tự do của $V$ (resp. $W$) được chứa trong $M$ (resp. chứa $N$), thì $Q' : P' \supset N : M$ và $Q' : P'$ là một dàn của $\mathrm{Hom}_K(V, W)$; do đó kết luận.
 
@@ -400,7 +400,7 @@ là phản xạ và thỏa mãn các hệ thức $N_p = Q_p = N(p)$ với mọi 
 
 #### Nhận xét {#ac-vii-s4-n3-rem-1 .statement}
 
-Cho $L$ là một dàn tự do của $V$ đối với $A$. Vì $A$, là một miền iđêan chính nên với $p \in P$, $N(p)$ là một A-môđun tự do có cùng hạng với $L$ và tồn tại $u(p) \in \mathbf{GL}(V)$ sao cho $u(p)(L,) = N;$; hơn nữa điều kiện này xác định $u(p)$ sai khác bởi phép nhân bên phải với một phần tử của $\mathbf{GL}(L_p)$. Điều kiện $N(p) = L$, với hầu hết mọi $p \in P$ có nghĩa là tất yếu $u(p) \in \mathbf{GL}(L_p)$ với hầu hết mọi $p \in P$. Các họ $(u(p))_{p \in P}$ thỏa mãn tính chất sau cùng này tạo thành một nhóm nhân $\mathbf{GL}_a(V)$ chứa như nhóm con tích $\prod_{p \in P} \mathbf{GL}(L_p)$. Khi đó Định lý 3 cho thấy rằng *tập hợp các dàn phản xạ của V tương ứng một-một chính tắc với không gian thuần nhất* $\mathbf{GL}_a(V)/\prod_{p \in P} \mathbf{GL}(L_p)$. Nếu chọn một cơ sở $(e_i)_{1 \leq i \leq n}$ của L trên A, thì $\mathbf{GL}(V)$ (resp. $\mathbf{GL}(L_p)$) được đồng nhất với nhóm các ma trận khả nghịch $\mathbf{GL}(n, K)$ (resp. $\mathbf{GL}(n, A, )$) và nhóm $\mathbf{GL}_a(V)$ với nhóm các hệ ma trận cấp $n$, $(U(p))_{p \in P}$, sao cho $U(p) \in \mathbf{GL}(n, K)$ với mọi $p \in P$ và $U(p) \in \mathbf{GL}(n, A_p)$ với hầu hết mọi $p \in P$. Nếu A là một miền Dedekind, nhóm $\mathbf{GL}_a(V)$ cũng được đồng nhất với nhóm $\mathbf{GL}(n, A)$, trong đó A là vành các adèle hạn chế ($§ 2$, no. 4).
+Cho $L$ là một dàn tự do của $V$ đối với $A$. Vì $A$, là một miền iđêan chính nên với $p \in P$, $N(p)$ là một A-môđun tự do có cùng hạng với $L$ và tồn tại $u(p) \in \mathbf{GL}(V)$ sao cho $u(p)(L_p) = N(p)$; hơn nữa điều kiện này xác định $u(p)$ sai khác bởi phép nhân bên phải với một phần tử của $\mathbf{GL}(L_p)$. Điều kiện $N(p) = L$, với hầu hết mọi $p \in P$ có nghĩa là tất yếu $u(p) \in \mathbf{GL}(L_p)$ với hầu hết mọi $p \in P$. Các họ $(u(p))_{p \in P}$ thỏa mãn tính chất sau cùng này tạo thành một nhóm nhân $\mathbf{GL}_a(V)$ chứa như nhóm con tích $\prod_{p \in P} \mathbf{GL}(L_p)$. Khi đó Định lý 3 cho thấy rằng *tập hợp các dàn phản xạ của V tương ứng một-một chính tắc với không gian thuần nhất* $\mathbf{GL}_a(V)/\prod_{p \in P} \mathbf{GL}(L_p)$. Nếu chọn một cơ sở $(e_i)_{1 \leq i \leq n}$ của L trên A, thì $\mathbf{GL}(V)$ (resp. $\mathbf{GL}(L_p)$) được đồng nhất với nhóm các ma trận khả nghịch $\mathbf{GL}(n, K)$ (resp. $\mathbf{GL}(n, A, )$) và nhóm $\mathbf{GL}_a(V)$ với nhóm các hệ ma trận cấp $n$, $(U(p))_{p \in P}$, sao cho $U(p) \in \mathbf{GL}(n, K)$ với mọi $p \in P$ và $U(p) \in \mathbf{GL}(n, A_p)$ với hầu hết mọi $p \in P$. Nếu A là một miền Dedekind, nhóm $\mathbf{GL}_a(V)$ cũng được đồng nhất với nhóm $\mathbf{GL}(n, A)$, trong đó A là vành các adèle hạn chế ($§ 2$, no. 4).
 
 ### 4. GIẢ ĐẲNG CẤU
 
@@ -629,7 +629,7 @@ L_1 và L_2 có thể được coi như các mạng trong $V_1 = L_1 \otimes_A K
 
 $$(\operatorname{Coker}(f))_{(K)} = \operatorname{Coker}(f_{(K)})$$
 
-và nói rằng $\operatorname{Coker}(f)$ là một A-môđun xoắn có nghĩa là $\operatorname{Coker}(f_{(K)}) = 0$; mà điều này tương đương với việc nói rằng $f_{(K)}$ là toàn ánh hoặc $\det(U) \neq 0$, do đó có mệnh đề thứ nhất. Mặt khác, ta có thể viết $f(L,) = u(L_2)$, trong đó $u$ là một tự đồng cấu của L, có định thức $\det(U)$; vì
+và nói rằng $\operatorname{Coker}(f)$ là một A-môđun xoắn có nghĩa là $\operatorname{Coker}(f_{(K)}) = 0$; mà điều này tương đương với việc nói rằng $f_{(K)}$ là toàn ánh hoặc $\det(U) \neq 0$, do đó có mệnh đề thứ nhất. Mặt khác, ta có thể viết $f(L_1) = u(L_2)$, trong đó $u$ là một tự đồng cấu của L, có định thức $\det(U)$; vì
 
 $$\operatorname{Coker}(f) = L_2/u(L_2),$$
 
@@ -1073,7 +1073,7 @@ Ngược lại, giả sử rằng các $x_i(p)$ ($1 \leq i \leq m$) là độc l
 
 *Giả sử rằng hạng $n$ của $M$ là $\geqslant 2$; khi đó tồn tại một phần tử $x \neq 0$ của $M$ sao cho $M/Ax$ không xoắn.*
 
-Cho $y \neq 0$ là một phần tử của $M$. Theo Bổ đề 7, tập hợp $Y$ các $p \in P$ sao cho $y(p) = 0$ là hữu hạn. Nếu $Y = \varnothing$, thì theo Bổ đề 7, áp dụng cho dãy $(x,)$ gồm phần tử duy nhất $y$, suy ra $M/Ay$ là không xoắn. Vậy giả sử rằng $Y \# @$ và đặt $S = \bigcap_{p \in Y} (A - p)$; ta biết (no. 4, Bổ đề 2) rằng $S^{-1}A$ là một miền iđêan chính nửa địa phương mà các iđêan cực đại là các $pS^{-1}A$, với $p \in Y$, các vành địa phương tương ứng là các $A_p$. Do đó
+Cho $y \neq 0$ là một phần tử của $M$. Theo Bổ đề 7, tập hợp $Y$ các $p \in P$ sao cho $y(p) = 0$ là hữu hạn. Nếu $Y = \varnothing$, thì theo Bổ đề 7, áp dụng cho dãy $(x_i)$ gồm phần tử duy nhất $y$, suy ra $M/Ay$ là không xoắn. Vậy giả sử rằng $Y \# @$ và đặt $S = \bigcap_{p \in Y} (A - p)$; ta biết (no. 4, Bổ đề 2) rằng $S^{-1}A$ là một miền iđêan chính nửa địa phương mà các iđêan cực đại là các $pS^{-1}A$, với $p \in Y$, các vành địa phương tương ứng là các $A_p$. Do đó
 $$
 S^{-1}A/pS^{-1}A = k(p),
 $$

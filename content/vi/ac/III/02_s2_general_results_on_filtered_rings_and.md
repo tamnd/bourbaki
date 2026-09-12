@@ -434,7 +434,7 @@ Cho $m'$ là một iđêan hai phía khác của $A$; để tôpô $m'$-adic tr�
 
 #### Mệnh đề 5 {#ac-iii-s2-prop-5 .statement}
 
-*Cho $G$ là một nhóm được lọc mà phép lọc $(G,)$ gồm các nhóm con bất biến của $G$. Các điều kiện sau là tương đương:*
+*Cho $G$ là một nhóm được lọc mà phép lọc $(G_n)$ gồm các nhóm con bất biến của $G$. Các điều kiện sau là tương đương:*
 
 (a) $G$ là một nhóm tôpô đầy đủ.
 
@@ -801,13 +801,13 @@ $$
 
 #### Mệnh đề 14 {#ac-iii-s2-prop-14 .statement}
 
-Cho $(A,, h_{ij})$ là một hệ ngược các vành giao hoán rời rạc, có tập chỉ số là $\mathbf{N}$, và gọi $(M_i, u_{ij})$ là một hệ ngược các môđun trên hệ ngược các vành $(A_i, h_{ij})$. Gọi $n_j$ là hạt nhân của $h_{0j}: A \to A$, và đặt $A = \lim A_i$, $M = \lim M_i$. Giả sử rằng
+Cho $(A_i, h_{ij})$ là một hệ ngược các vành giao hoán rời rạc, có tập chỉ số là $\mathbf{N}$, và gọi $(M_i, u_{ij})$ là một hệ ngược các môđun trên hệ ngược các vành $(A_i, h_{ij})$. Gọi $n_j$ là hạt nhân của $h_{0j}: A \to A$, và đặt $A = \lim A_i$, $M = \lim M_i$. Giả sử rằng
 
 (a) với mọi $i \in \mathbf{N}$, $h_{ii}$ là ánh xạ đồng nhất trên A, và, với $i \leq j$, $h_{ij}$ và $u_{ij}$ là toàn ánh;
 (b) với $i \leq j$, các hạt nhân của $h_{ij}$ và $u_{ij}$ lần lượt là $n_j^{i+1}$ và $n_j^{i+1} M_j$.
 
 Khi đó:
-(i) $A$ là một vành tôpô Hausdorff đầy đủ, $M$ là một A-môđun tôpô Hausdorff đầy đủ và các ánh xạ chính tắc $h,: A \to A,, u_i: M \to M_i$ là toàn ánh.
+(i) $A$ là một vành tôpô Hausdorff đầy đủ, $M$ là một A-môđun tôpô Hausdorff đầy đủ và các ánh xạ chính tắc $h_i : A \to A_i$, $u_i : M \to M_i$ là toàn ánh.
 (ii) Nếu $M_0$ là một $A_0$-môđun hữu hạn sinh, thì $M$ là một A-môđun hữu hạn sinh;
 
 nói chính xác hơn, mọi tập con hữu hạn S của M sao cho $u_0(S)$ sinh ra M, đều là một hệ sinh của M.
@@ -882,7 +882,7 @@ Vì $a$ và $M$ là các $A$-môđun sinh hữu hạn, nên $a^i M$ cũng vậy.
 
 ### 12. BỔ SUNG HAUSDORFF CỦA MỘT MÔĐUN ĐƯỢC LỌC
 
-Cho $G$ là một nhóm được lọc mà bộ lọc $(G,)$ của nó gồm các nhóm con chuẩn tắc của $G$; ta đã nhắc lại (no. 6) rằng *bổ sung Hausdorff* $\hat{G}$ của nhóm tôpô $G$ được đồng nhất một cách chính tắc với giới hạn ngược $\lim \leftarrow G/G_n$ của các nhóm *rời rạc* $G/G_n$, đồng cấu chính tắc $i : G \to \hat{G}$ có ảnh là nhóm Hausdorff liên kết với $G$ (trù mật khắp nơi trong $\hat{G}$) và hạt nhân là bao đóng $\bigcap G$, của $\{0\}$ trong $G$. Bổ sung Hausdorff $\hat{G}_n$ của nhóm con $G$, của $G$ được đồng nhất với bao đóng của $i(G_n)$ trong $\hat{G}$ (*Topologie Générale*, Chương II, § 3, no. 9, Hệ quả 1 của Mệnh đề 18) và, vì $G$, là đóng trong $\hat{G}$,
+Cho $G$ là một nhóm được lọc mà bộ lọc $(G_n)$ của nó gồm các nhóm con chuẩn tắc của $G$; ta đã nhắc lại (no. 6) rằng *bổ sung Hausdorff* $\hat{G}$ của nhóm tôpô $G$ được đồng nhất một cách chính tắc với giới hạn ngược $\lim \leftarrow G/G_n$ của các nhóm *rời rạc* $G/G_n$, đồng cấu chính tắc $i : G \to \hat{G}$ có ảnh là nhóm Hausdorff liên kết với $G$ (trù mật khắp nơi trong $\hat{G}$) và hạt nhân là bao đóng $\bigcap G$, của $\{0\}$ trong $G$. Bổ sung Hausdorff $\hat{G}_n$ của nhóm con $G$, của $G$ được đồng nhất với bao đóng của $i(G_n)$ trong $\hat{G}$ (*Topologie Générale*, Chương II, § 3, no. 9, Hệ quả 1 của Mệnh đề 18) và, vì $G$, là đóng trong $\hat{G}$,
 
 $$
 G, = i^{-1}(\hat{G}_n) = i^{-1}(\hat{G}_n \cap i(G)).
@@ -900,7 +900,7 @@ $$
 = i(G_{n-1}) \cdot \hat{G}_n.
 $$
 
-Ta suy ra từ (18) và (19) rằng bộ lọc $(\hat{G}_n)$ là phủ hết khi và chỉ khi $(G,)$ là như vậy.
+Ta suy ra từ (18) và (19) rằng bộ lọc $(\hat{G}_n)$ là phủ hết khi và chỉ khi $(G_n)$ là như vậy.
 
 Định lý đẳng cấu thứ hai (Đại số, Chương I, § 6, no. 13, Định lý 6 (d)) và các đẳng thức (18), (19) và (20) cho thấy rằng các đồng cấu chính tắc
 

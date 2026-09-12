@@ -290,11 +290,11 @@ là một phần tử của $\mathbf{TS}^k(M)$.
 #### Mệnh đề 3 {#alg-iv-s5-prop-3 .statement}
 
 (i) *Nếu* $x \in M$, *lũy thừa bậc p của* $x$, *tính trong* $\mathbf{TS}(M)$, *bằng* $p! \; \gamma_p(x)$.
-(ii) *Cho* $x,, \ldots, x, \in M$; *khi đó*
+(ii) *Cho* $x_1, \ldots, x_n \in M$; *khi đó*
 $$
 \gamma_p(x_1 + x_2 + \cdots + x_n) = \sum_{p_1 + p_2 + \cdots + p_n = p} \gamma_{p_1}(x_1) \; \gamma_{p_2}(x_2) \ldots \gamma_{p_n}(x_n) .
 $$
-(iii) *Cho* $x,, \ldots, x_n \in M$, *cho* $p_1, \ldots, p$, *là các số nguyên* $\geqslant 0$ *và* $p = p_1 + \ldots + p_n$. *Cho* $E$ *là tập hợp các ánh xạ* $\varphi$ *từ* $\{1, \ldots, p\}$ *vào* $(1, \ldots, n)$ *sao cho*
+(iii) *Cho* $x_1, \ldots, x_n \in M$, *cho* $p_1, \ldots, p$, *là các số nguyên* $\geqslant 0$ *và* $p = p_1 + \ldots + p_n$. *Cho* $E$ *là tập hợp các ánh xạ* $\varphi$ *từ* $\{1, \ldots, p\}$ *vào* $(1, \ldots, n)$ *sao cho*
 $$
 \operatorname{Card} \varphi^{-1}(1) = p_1, \ldots, \operatorname{Card} \varphi^{-1}(n) = p_n .
 $$
@@ -374,7 +374,7 @@ $$
 
 — Cho $M$ là tự do và $(e_i)_{i \in I}$ là một cơ sở của $M$.
 
-(i) Với $\nu \in \mathbf{N}^{(I)}$, đặt $e_\nu = \prod_{i \in I} \gamma_{\nu_i}(e_i)$. Khi đó $(e,)_{\nu \in \mathbf{N}^{(I)}}$ là một cơ sở của $A$-môđun $TS(M)$. Đặc biệt, đại số $\mathbf{TS}(M)$ được sinh bởi họ các phần tử $\gamma_k(x)$ với $k \in N$ và $x \in M$.
+(i) Với $\nu \in \mathbf{N}^{(I)}$, đặt $e_\nu = \prod_{i \in I} \gamma_{\nu_i}(e_i)$. Khi đó $(e_\nu)_{\nu \in \mathbf{N}^{(I)}}$ là một cơ sở của $A$-môđun $TS(M)$. Đặc biệt, đại số $\mathbf{TS}(M)$ được sinh bởi họ các phần tử $\gamma_k(x)$ với $k \in N$ và $x \in M$.
 
 (ii) Với mỗi $p \in N$, $\mathbf{TS}^p(M)$ là một nhân tử trực tiếp của $A$-môđun $\mathbf{T}^p(M)$.
 
@@ -704,7 +704,7 @@ f \left( \sum_i \lambda_i e_i \right) = \sum_{|\nu|=q} \lambda^\nu h(e_\nu).
 $$
 
 (iv) $\Rightarrow$ (iii) là hiển nhiên.
-(iii) $\Rightarrow$ (ii): cho $(e_i), (u,)$ thỏa mãn các điều kiện của (iii), đặt $e_\nu = \prod_{i \in I} \gamma_{\nu_i}(e_i)$ và nhắc lại rằng $(e_\nu)_{|\nu|=q}$ là một cơ sở của $\mathrm{TS}^q(M)$. Gọi h là đồng cấu từ $\mathrm{TS}^q(M)$ vào N được xác định bởi $h(e_\nu) = u_\nu$; khi đó với mỗi $x = \sum_i \lambda_i e_i$ trong M ta có
+(iii) $\Rightarrow$ (ii): cho $(e_i), (u_\nu)$ thỏa mãn các điều kiện của (iii), đặt $e_\nu = \prod_{i \in I} \gamma_{\nu_i}(e_i)$ và nhắc lại rằng $(e_\nu)_{|\nu|=q}$ là một cơ sở của $\mathrm{TS}^q(M)$. Gọi h là đồng cấu từ $\mathrm{TS}^q(M)$ vào N được xác định bởi $h(e_\nu) = u_\nu$; khi đó với mỗi $x = \sum_i \lambda_i e_i$ trong M ta có
 
 $$
 f(x) = f \left( \sum_i \lambda_i e_i \right) = \sum_{|\nu|=q} \lambda^\nu u_\nu = h \left( \sum_{|\nu|=q} \lambda^\nu e_\nu \right) = h(\gamma_q(x))
@@ -878,7 +878,7 @@ $$
 f(X) = f(X) - f(\alpha_0) = \sum_{i=1}^n m_i (X^i - \alpha_0^i) = (X - \alpha_0) g(X)
 $$
 
-trong đó g là một phần tử của N[X] có dạng $m_0' + m_1' X + \ldots + m_{n-1}' X^{n-1}$. Các giả thiết của bổ đề suy ra rằng $g(a,) = \cdots = g(a,) = 0$, do đó $g = 0$ theo giả thiết quy nạp, và vì thế $f = 0$.
+trong đó g là một phần tử của N[X] có dạng $m_0' + m_1' X + \ldots + m_{n-1}' X^{n-1}$. Các giả thiết của bổ đề suy ra rằng $g(\alpha_1) = \cdots = g(\alpha_r) = 0$, do đó $g = 0$ theo giả thiết quy nạp, và vì thế $f = 0$.
 
 #### Mệnh đề 19 {#alg-iv-s5-prop-19 .statement}
 

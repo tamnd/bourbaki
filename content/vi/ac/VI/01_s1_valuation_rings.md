@@ -177,7 +177,7 @@ $$
 
 quan hệ $v(x) = +\infty$ kéo theo $x = 0$. Cho a là một iđêan $\neq (0)$ của A và a là một phần tử của a tại đó v nhận giá trị nhỏ nhất của nó; ta viết $v(a) = s$ ($s \neq +\infty$). Khi đó $a \subset Ap^s$. Đặc biệt, tồn tại $u \in A$ sao cho $a = up^s$; vì $a \notin Ap^{s+1}$, $u \notin Ap$; do đó u là khả nghịch và $p^s \in A$ $a \subset a$. Suy ra rằng $a = Ap^s$, do đó mệnh đề đầu tiên của chúng ta. Cũng thấy rằng mọi phần tử $a \neq 0$ của A có thể được viết dưới dạng $a = up^{v(a)}$ trong đó u là khả nghịch. Nếu $a' = u'p^{v(a')}$ ($u'$ khả nghịch) là một phần tử khác không khác của A, thì $aa' = uu'p^{v(a)+v(a')}$; do đó, nếu p không lũy linh, $aa' \neq 0$ và A là một miền nguyên. Khi đó, vì tập hợp các iđêan của A được sắp thứ tự toàn phần theo quan hệ bao hàm, ta kết luận rằng A là một vành định giá (Định lý I (e)).
 
-Ví dụ, nếu $p$ là một số nguyên tố, vành địa phương $\mathbf{Z}_{(p)}$ là một vành định giá. Cho $B = K[X_1, \ldots, X_n]$ là vành đa thức với $n$ phần tử bất định trên một trường $K$; iđêan $BX_1$ là nguyên tố, vì $B/BX_1$ là đẳng cấu với $K[X_2, \ldots, X_n]$; do đó $B_{BX_1}$ là một vành định giá; nó gồm các hàm hữu tỉ $PQ^{-1}$, trong đó $P$ và $Q$ là các đa thức và $Q(0, X,, \ldots, X,) \neq 0$.
+Ví dụ, nếu $p$ là một số nguyên tố, vành địa phương $\mathbf{Z}_{(p)}$ là một vành định giá. Cho $B = K[X_1, \ldots, X_n]$ là vành đa thức với $n$ phần tử bất định trên một trường $K$; iđêan $BX_1$ là nguyên tố, vì $B/BX_1$ là đẳng cấu với $K[X_2, \ldots, X_n]$; do đó $B_{BX_1}$ là một vành định giá; nó gồm các hàm hữu tỉ $PQ^{-1}$, trong đó $P$ và $Q$ là các đa thức và $Q(0, X_2, \ldots, X_n) \neq 0$.
 
 Nói chung hơn, ta sẽ thấy rằng, nếu $F$ là một phần tử cực biên của
 
