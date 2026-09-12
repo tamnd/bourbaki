@@ -2439,17 +2439,17 @@
         {
           "chapter": "V",
           "title": "Entiers",
-          "total": 51,
+          "total": 61,
           "sections": [
             {
               "section": 1,
               "label": "ac-v-s1",
               "dir": "s1",
-              "count": 19,
+              "count": 29,
               "first": 1,
-              "last": 19,
-              "starred": 1,
-              "supplementary": 1
+              "last": 29,
+              "starred": 3,
+              "supplementary": 2
             },
             {
               "section": 2,
