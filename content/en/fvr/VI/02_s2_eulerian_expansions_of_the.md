@@ -25,7 +25,7 @@ subsections:
       pdf_page: 302
 statements: 5
 exercises: 13
-content_sha256: c5c7d446dee9ba1fe3d1c893187a3788356b0388489f1ea77fdf68ea2831727a
+content_sha256: a4ab00fd8982c423f1b9d167f8dd4fe22c4f8e55abfd12288dee2b85f56bdd60
 ---
 
 ## § 2. EULERIAN EXPANSIONS OF THE TRIGONOMETRIC FUNCTIONS AND BERNOULLI NUMBERS
@@ -135,7 +135,7 @@ $$
 v_k(n, z) = \frac{2n \tan \frac{z}{n}}{\cos^2 \frac{k\pi}{n} \left( n \tan \frac{z}{n} \right)^2 - \left( n \sin \frac{k\pi}{n} \right)^2}
 $$
 
-for $1 \leq k \leq m$. We shall see that for every $z$ contained in a compact subset K of $\mathbf{C}$, not containing any integral multiple of $\pi$, and for every sufficiently large odd $n$, the series with general term $v_k(n, z)$ is normally convergent. Indeed, as $n$ tends to $+\infty$, $\tan \frac{z}{n}$ tends to $\frac{z}{n}$ uniformly on K, so there exists a number $M > 0$ such that $\left| n \tan \frac{z}{n} \right| \leq M$ for every sufficiently large $m$ and every $z \in K$. On the other hand, for $0 \leq x \leq \pi/2$ one has $\sin x / x \geq 1 - \frac{x^2}{6} \geq \frac{1}{2}$, so for $1 \leq k \leq m$ one has $n \sin \frac{k\pi}{n} \geq k\pi/2$; consequently, when $m$ is sufficiently large, for every integer $k$ such t $k\pi /2 > M$ one has $|v_k(n, z)| \leq \frac{8M}{k^2 \pi^2 - 4M^2}$, which proves our assertion. For $k$ odd, $v_k(n, z)$ tends (uniformly on K) to $\frac{2z}{z^2 - k^2 \pi^2}$ as $n$ tends to $+\infty$. Consequently:
+for $1 \leq k \leq m$. We shall see that for every $z$ contained in a compact subset K of $\mathbf{C}$, not containing any integral multiple of $\pi$, and for every sufficiently large odd $n$, the series with general term $v_k(n, z)$ is normally convergent. Indeed, as $n$ tends to $+\infty$, $\tan \frac{z}{n}$ tends to $\frac{z}{n}$ uniformly on K, so there exists a number $M > 0$ such that $\left| n \tan \frac{z}{n} \right| \leq M$ for every sufficiently large $m$ and every $z \in K$. On the other hand, for $0 \leq x \leq \pi/2$ one has $\sin x / x \geq 1 - \frac{x^2}{6} \geq \frac{1}{2}$, so for $1 \leq k \leq m$ one has $n \sin \frac{k\pi}{n} \geq k\pi/2$; consequently, when $m$ is sufficiently large, for every integer $k$ such that $k\pi /2 > M$ one has $|v_k(n, z)| \leq \frac{8M}{k^2 \pi^2 - 4M^2}$, which proves our assertion. For $k$ odd, $v_k(n, z)$ tends (uniformly on K) to $\frac{2z}{z^2 - k^2 \pi^2}$ as $n$ tends to $+\infty$. Consequently:
 
 #### Theorem 1 {#fvr-vi-s2-thm-1 .statement}
 
@@ -145,7 +145,7 @@ $$
 \cot z = \frac{1}{z} + \sum_{n=1}^{\infty} \frac{2z}{z^2 - n^2 \pi^2}
 $$
 
-*(series on the right being normally convergent on every compact subset $K \subset \mathbf{C}$ containing any integer multiple of $\pi$ (Eulerian expansion of $\cot z$).)*
+*(the series on the right being normally convergent on every compact subset $K \subset \mathbf{C}$ not containing any integer multiple of $\pi$ (Eulerian expansion of $\cot z$).)*
 
 ### 2. EULERIAN EXPANSION OF $\sin z$
 
@@ -164,7 +164,7 @@ $$
 \sin z = n \sin \frac{z}{n} \prod_{k=1}^{m} \left( 1 - \frac{\sin^2 \frac{z}{n}}{\sin^2 \frac{k\pi}{n}} \right).
 $$
 
-We can write this formula as $\sin z = n \sin \frac{z}{n} \prod_{k=1}^{m} (1 - w_k(n, z))$, with $w_k(n, z) = 0$ if $k > m$ and $w_k(n, z) = \frac{\sin^2 \frac{z}{n}}{\sin^2 \frac{k\pi}{n}}$ for $1 \leq k \leq m$. We shall see that for every $z$ contained in a compact subset $K$ of $\mathbf{C}$, and for $n$ odd, the series with general term $(n, z)$ is *normally convergent*. Indeed, as $n$ tends to $+\infty$, $n \sin \frac{z}{n}$ tends uniformly on $K$, so there exists a number $M > 0$ such that $\left| n \sin \frac{z}{n} \right| \leq M$ for every integer $n$ and every $z \in K$. We saw, moreover, in the proof of th. 1 of VI, p. 286, that for $1 \leq k \leq m$ one has $n \sin \frac{k \pi}{n} \geq \frac{k \pi}{2}$; thus for every integer $k$ such that $k \pi / 2 \geq M$ one has $|w_k(n, z)| \leq 4M^2 / k^2 \pi^2$, which proves our assertion. Since, for every fixed $k$, $w_k(n, z)$ tends (uniformly on K) to $z^2 / k^2 \pi^2$ as $n$ tends to $+\infty$, one sees that:
+We can write this formula as $\sin z = n \sin \frac{z}{n} \prod_{k=1}^{m} (1 - w_k(n, z))$, with $w_k(n, z) = 0$ if $k > m$ and $w_k(n, z) = \frac{\sin^2 \frac{z}{n}}{\sin^2 \frac{k\pi}{n}}$ for $1 \leq k \leq m$. We shall see that for every $z$ contained in a compact subset $K$ of $\mathbf{C}$, and for $n$ odd, the series with general term $w_k(n, z)$ is *normally convergent*. Indeed, as $n$ tends to $+\infty$, $n \sin \frac{z}{n}$ tends uniformly to $z$ on $K$, so there exists a number $M > 0$ such that $\left| n \sin \frac{z}{n} \right| \leq M$ for every integer $n$ and every $z \in K$. We saw, moreover, in the proof of th. 1 of VI, p. 286, that for $1 \leq k \leq m$ one has $n \sin \frac{k \pi}{n} \geq \frac{k \pi}{2}$; thus for every integer $k$ such that $k \pi / 2 \geq M$ one has $|w_k(n, z)| \leq 4M^2 / k^2 \pi^2$, which proves our assertion. Since, for every fixed $k$, $w_k(n, z)$ tends (uniformly on K) to $z^2 / k^2 \pi^2$ as $n$ tends to $+\infty$, one sees that:
 
 #### Theorem 2 {#fvr-vi-s2-thm-2 .statement}
 

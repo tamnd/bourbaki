@@ -356,7 +356,7 @@ chapters:
           statements: 5
           exercises: 13
           extraction: ocr
-          content_sha256: c5c7d446dee9ba1fe3d1c893187a3788356b0388489f1ea77fdf68ea2831727a
+          content_sha256: a4ab00fd8982c423f1b9d167f8dd4fe22c4f8e55abfd12288dee2b85f56bdd60
         - kind: section
           section: 3
           title: BOUNDS FOR THE REMAINDER IN THE EULER-MACLAURIN SUMMATION FORMULA
@@ -369,7 +369,7 @@ chapters:
           statements: 0
           exercises: 3
           extraction: ocr
-          content_sha256: fe8c4ffd50e69ab536575aaa81f4e19364b3c801ca3264cbea320e5cbb3fd0d2
+          content_sha256: 0df8d05b12ca6ce3b68cbd660e6b590830aa5e44eda3d489241375154aaa1723
         - kind: historical
           title: Historical Note
           path: content/en/fvr/VI/historical_note.md
@@ -380,7 +380,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: f46444e85c3eb79a4d7395b05440c907d0dc354d8369c5239ce60b393fc50854
+          content_sha256: d8a5592a597762e1f275eadce1711d9ba2cf99ed118eac2fff4c293bcbbd8a29
     - chapter: VII
       title: THE GAMMA FUNCTION
       sections:

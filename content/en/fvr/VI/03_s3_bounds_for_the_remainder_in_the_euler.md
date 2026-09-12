@@ -21,7 +21,7 @@ subsections:
       pdf_page: 304
 statements: 0
 exercises: 3
-content_sha256: fe8c4ffd50e69ab536575aaa81f4e19364b3c801ca3264cbea320e5cbb3fd0d2
+content_sha256: 0df8d05b12ca6ce3b68cbd660e6b590830aa5e44eda3d489241375154aaa1723
 ---
 
 ## § 3. BOUNDS FOR THE REMAINDER IN THE EULER-MACLAURIN SUMMATION FORMULA
@@ -81,17 +81,23 @@ each of the terms of this sum being negligible relative to the preceding one; on
 
 2) Now suppose that for an index $q$ such that $1 \leq q \leq p$ we have $|g^{(2q-1)}(n)|$ tending to $+\infty$ with $n$, but that $g^{(2k-1)}(n)$ tends to 0 for $k > q$. Since $g^{(2p+1)}$ is monotone on a neighbourhood of $+\infty$ the integral $\int_0^\infty |g^{(2p+1)}(u)| \, du$ converges, and one can then write
 
-= $\sum_{m=0}^{n} g(m) = \int_0^{n+1} g(t)\,dt - \frac{1}{2}g(n+1) + \sum_{k=1}^{q} \frac{b_{2k}}{(2k)!}\,g^{(2k-1)}(n+1) + C$
+$$
+s_n = \sum_{m=0}^{n} g(m) = \int_0^{n+1} g(t)\,dt - \frac{1}{2}g(n+1) + \sum_{k=1}^{q} \frac{b_{2k}}{(2k)!}\,g^{(2k-1)}(n+1) + C
+$$
 $$
 + \sum_{k=q+1}^{p} \frac{b_{2k}}{(2k)!}\,g^{(2k-1)}(n+1) + o\left(g^{(2p-1)}(n+1)\right)
 $$
-C is a constant: indeed
+
+where C is a constant: indeed
+
 $$
 \int_{n+1}^{\infty} |g^{(2p+1)}(u)|\,du = O\left(g^{(2p)}(n+1)\right) = o\left(g^{(2p-1)}(n+1)\right).
 $$
-The same formula is valid when $g(n)$ itself tends to 0. Finally, when the series general term $g(n)$ converges one has, for the remainder $r_n = \sum_{m=n+1}^{\infty} g(m)$, the expansion
+
+The same formula is valid when $g(n)$ itself tends to 0. Finally, when the series with general term $g(n)$ converges one has, for the remainder $r_n = \sum_{m=n+1}^{\infty} g(m)$, the expansion
+
 $$
-= \sum_{m=n+1}^{\infty} g(m) = \int_{n+1}^{\infty} g(t)\,dt + \frac{1}{2}\,g(n+1)
+r_n = \sum_{m=n+1}^{\infty} g(m) = \int_{n+1}^{\infty} g(t)\,dt + \frac{1}{2}\,g(n+1)
 $$
 $$
 - \sum_{k=1}^{p} \frac{b_{2k}}{(2k)!}\,g^{(2k-1)}(n+1) + o\left(g^{(2p-1)}(n+1)\right).

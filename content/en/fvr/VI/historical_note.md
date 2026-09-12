@@ -13,7 +13,7 @@ pdf_pages: 0314-0318
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: f46444e85c3eb79a4d7395b05440c907d0dc354d8369c5239ce60b393fc50854
+content_sha256: d8a5592a597762e1f275eadce1711d9ba2cf99ed118eac2fff4c293bcbbd8a29
 ---
 
 # HISTORICAL NOTE
@@ -74,12 +74,11 @@ In the majority of the calculations of Classical Analysis it is possible to obta
 $^6$ Since the series which Euler considered here was introduced with a view to numerical calculation, he took only the sum of the terms which start decreasing and from the index where the terms begin to increase he replaced them by a remainder whose origin he did not indicate (the remainder in the Euler-Maclaurin formula in its general form did not appear until Cauchy).
 $^7$ It is ironic that this formula follows one page after a passage where Euler warned against the unconsidered use of divergent series!
 
-istinction between the concept of an asymptotic expansion and a series was established, by reason of the fact that, in the majority of the problems which ory treats, one cannot obtain more than a very small number of terms explicitly (often only one) of the expansion sought.
+clear distinction between the concept of an asymptotic expansion and a series was finally established, by reason of the fact that, in the majority of the problems which the theory treats, one cannot obtain more than a very small number of terms explicitly (often only one) of the expansion sought.
 
-These problems have also familiarised mathematicians with the use of comparison scales other than those of the (real or integer) powers of the variable. This notion is due above all to the works of P. du Bois-Reymond (VII) who, first, treated systematically the comparison of functions in a neighbourhood of a point, and, in very few works, recognised the “nonarchimedean” character of comparison scales, at the same time as he studied in a general manner integration and differentiation comparison relations, and deduced a host of interesting consequences (VII b). These sometimes lack clarity and rigour, and it is to G.H. Hardy (IX) that a presentation of du Bois-Reymond’s results is due: his principal contribution consisted in recognising and proving the existence of a set of “elementary functions”, functions, on which the usual operations of Analysis (notably differentiation) are applicable to the comparison relations $^8$.
+These problems have also familiarised mathematicians with the use of comparison scales other than those of the (real or integer) powers of the variable. This extension is due above all to the works of P. du Bois-Reymond (VII) who, first, treated systematically the comparison of functions in a neighbourhood of a point, and, in very original works, recognised the “nonarchimedean” character of comparison scales, at the same time as he studied in a general manner integration and differentiation comparison relations, and deduced a host of interesting consequences (VII b). His proofs sometimes lack clarity and rigour, and it is to G.H. Hardy (IX) that a correct presentation of du Bois-Reymond’s results is due: his principal contribution consisted in recognising and proving the existence of a set of “elementary functions”, the (H) functions, on which the usual operations of Analysis (notably differentiation) are applicable to the comparison relations $^8$.
 
-———
-not our remit to develop in these chapters the methods which allow one to obtain asymptotic expansions of functions belonging to certain particular categories, as for example certain types of integrals depending on a parameter, which appear quite frequently in analysis; on this point (and in particular on the important methods of Laplace and Darboux) the reader may consult the book of Hardy (IX) already mentioned, which contains a very complete bibliography.
+$^8$ It was not our remit to develop in these chapters the methods which allow one to obtain asymptotic expansions of functions belonging to certain particular categories, as for example certain types of integrals depending on a parameter, which appear quite frequently in Analysis; on this point (and in particular on the important methods of Laplace and Darboux) the reader may consult the book of Hardy (IX) already mentioned, which contains a very complete bibliography.
 
 (I) I. NEWTON, in St. P. RIGAUD, Correspondence of scientific men, Oxford, 1841, t. II, p. 309-310.
 (II) Jakob Bernoulli, Ars conjectandi, Bâle, 1713.
