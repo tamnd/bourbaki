@@ -181,11 +181,20 @@ jobs:
       # Every one of the 366 is a statement the volume always printed and the
       # corpus had not assembled. None of them is a new tag, a renamed tag or a
       # statement invented by a sweep, which is what this step is here to catch.
+      #
+      # 23677 to 23854 is 177 more, and they are countable one by one. 178
+      # content files have been added since the line above was written, and 177
+      # of them carry exactly one T03 finding: one statement each, the statement
+      # being the exercise. They are the rest of tamnd/bourbaki#411 — 54
+      # exercises five page repairs put back, and 44 from § 2 of chapter III of
+      # Algebra, which is printed 1, 2, 3 a) to e), 5 in both printings and had
+      # been assembled as three exercises because the splitter was waiting for a
+      # 4 that does not exist. Nothing was tagged, renamed or invented.
       - name: tags verify
         working-directory: .solver
         env:
           BOURBAKI_CORPUS: ${{ github.workspace }}
-        run: go run ./cmd/bourbaki tags verify -base origin/main -max-untagged 23677
+        run: go run ./cmd/bourbaki tags verify -base origin/main -max-untagged 23854
       # The audit ran without its exit status being read for as long as the
       # corpus carried hard findings. It had twelve, every one a page where the
       # text layer lost half of a display, and gating on the count would have
@@ -373,6 +382,17 @@ jobs:
       # that is right, because it read the control space as a lost command name.
       # That is fixed in tamnd/bourbaki-solver#299 and the rule is at zero, so
       # it runs here now: a rule nothing ever runs is a rule that says nothing.
+      #
+      # 29853 to 29893 is 40, and it is six movements and not one. T03 is up
+      # 177, which is the 177 exercises the paragraph above counts. Against
+      # them: S11 down 93, because a § whose exercises were all inside one file
+      # now holds the same exercises as its twin, and R01 down 58, because 58
+      # citations that pointed into the run now find the exercise they name.
+      # L01 up 5, L05 up 8 and L13 up 9 are the translations of the split files,
+      # which name an English source that has since moved and are stale until
+      # they are made again. The corpus is 93 findings better off in the rule
+      # that was measuring the fault and 177 worse off in the rule that counts
+      # work not yet done.
       - name: audit
         id: audit
         working-directory: .solver
@@ -380,7 +400,7 @@ jobs:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: |
           if go run ./cmd/bourbaki audit -validate-tex -report reports/audit.md \
-               -json "$RUNNER_TEMP/audit.json" -max-hard 29853; then
+               -json "$RUNNER_TEMP/audit.json" -max-hard 29893; then
             echo "status=0" >> "$GITHUB_OUTPUT"
           else
             echo "status=$?" >> "$GITHUB_OUTPUT"

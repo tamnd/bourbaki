@@ -6,23 +6,23 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 61 chapters, 533 sections, 4632 exercises, 15338 extracted pages, 5252 tags, 22637 references, 15196 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
+Audited: 61 chapters, 533 sections, 4704 exercises, 15338 extracted pages, 5252 tags, 22695 references, 15301 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
 
 ## Summary
 
 | Group | Hard | Soft | Not run | Failing |
 | --- | ---: | ---: | ---: | --- |
-| structure | 14 | 2 | 0 | S11 (224), S14 (685), S15 (67) |
-| tags | 7 | 1 | 1 | T03 (23677), T10 (9) |
+| structure | 14 | 3 | 0 | S11 (131), S14 (685), S15 (67), S17 (85) |
+| tags | 7 | 1 | 1 | T03 (23854), T10 (9) |
 | mathematics | 12 | 6 | 0 | M03 (2), M06 (6), M13 (48), M14 (2625), M16 (1) |
 | figures | 6 | 0 | 0 | F01 (158) |
-| references | 3 | 0 | 0 | R01 (3188), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1377), L03 (19), L04 (15), L05 (306), L06 (2031), L07 (20), L08 (5619), L10 (260), L11 (46), L13 (31), L15 (6), L16 (45) |
+| references | 3 | 0 | 0 | R01 (3130), R02 (476) |
+| translation | 13 | 3 | 1 | L01 (1382), L03 (19), L04 (15), L05 (314), L06 (2029), L07 (20), L08 (5619), L10 (260), L11 (46), L13 (40), L15 (6), L16 (45) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | H06 (1) |
 
-29845 hard findings and 11135 soft, over 81 rules that ran and 2 that could not.
+29893 hard findings and 11218 soft, over 82 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -69,7 +69,7 @@ and 133 more, which `bourbaki audit -only F01` prints in full.
 
 Hard, hygiene.
 
-- `README.md` the TRANSLATION block is not what the corpus says, run bourbaki report readme -write
+- `README.md` the COVERAGE, TRANSLATION, RULES block is not what the corpus says, run bourbaki report readme -write
 
 ## M03 no character stranded out of its TeX (2)
 
@@ -159,7 +159,7 @@ Soft, mathematics.
 
 - `content/vi/lie/VII/exercises/s1/08.md:34` \Lambda$ là một vành here, and this file names its ring A elsewhere: one ring, two letters, and the printing sets only one of them
 
-## R01 every in-corpus reference resolves (3188)
+## R01 every in-corpus reference resolves (3130)
 
 Hard, references.
 
@@ -175,7 +175,6 @@ Hard, references.
 - `content/en/ac/I/03_s3_faithfully_flat_modules.md:216` "§ 5, no. 2, Corollary to Proposition 5" does not resolve: chapter I of ac has no § 5
 - `content/en/ac/I/03_s3_faithfully_flat_modules.md:259` "no. 5, Corollary 4" does not resolve: ac-i-s3 has no Corollary 4
 - `content/en/ac/I/03_s3_faithfully_flat_modules.md:287` "Remark 2" does not resolve: ac-i-s3 has no Remark 2
-- `content/en/ac/I/exercises/s2/03.md:15` "Algebra, Chapter III, § 2, Exercise 4" does not resolve: alg-iii-s2 has 3 exercises and none numbered 4
 - `content/en/ac/I/exercises/s2/18.md:17` "Algebra, Chapter VIII, § 6, Exercise 15" does not resolve: alg-viii-s6 has 8 exercises and none numbered 15
 - `content/en/ac/I/exercises/s2/18.md:17` "§ 4, Exercise 17" does not resolve: ac-i-s4 has 1 exercises and none numbered 17
 - `content/en/ac/I/exercises/s2/20.md:16` "*Algebra*, Chapter VIII, § 6, Exercise 15" does not resolve: alg-viii-s6 has 8 exercises and none numbered 15
@@ -188,8 +187,9 @@ Hard, references.
 - `content/en/ac/II/02_s2_rings_and_modules_of_fractions.md:235` "no. 1, Remark 2" does not resolve: ac-ii-s2 has no Remark 2
 - `content/en/ac/II/02_s2_rings_and_modules_of_fractions.md:262` "no. 1, Remark 2" does not resolve: ac-ii-s2 has no Remark 2
 - `content/en/ac/II/02_s2_rings_and_modules_of_fractions.md:286` "*Algebra*, Chapter VIII, § 6, no. 3, Theorem 1" does not resolve: alg-viii-s6 has no Theorem 1
+- `content/en/ac/II/02_s2_rings_and_modules_of_fractions.md:288` "*Algebra*, Chapter VIII, § 6, no. 3, Corollary to Proposition 6" does not resolve: alg-viii-s6 has no corollary 1 of Proposition 6
 
-and 3163 more, which `bourbaki audit -only R01` prints in full.
+and 3105 more, which `bourbaki audit -only R01` prints in full.
 
 ## R02 a reference that leaves the corpus names a Book of the Éléments (476)
 
@@ -261,37 +261,37 @@ Soft, solutions.
 
 and 12 more, which `bourbaki audit -only X06` prints in full.
 
-## S11 the printings of a § hold the same exercises (224)
+## S11 the printings of a § hold the same exercises (131)
 
 Hard, structure.
 
 - `content/en/ac/II/exercises/s3` exercise 15 is in fr and not here, and editions.yaml does not say the printings differ
 - `content/en/ac/II/exercises/s3` exercise 16 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/ac/III/exercises/s2` exercise 14 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/ac/III/exercises/s2` exercise 15 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/ac/III/exercises/s2` exercise 16 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/ac/III/exercises/s2` exercise 17 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/ac/III/exercises/s2` exercise 18 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/ac/III/exercises/s2` exercise 19 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/ac/III/exercises/s2` exercise 20 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/ac/III/exercises/s2` exercise 21 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/ac/III/exercises/s2` exercise 22 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/ac/III/exercises/s2` exercise 23 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/ac/III/exercises/s2` exercise 24 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/ac/III/exercises/s2` exercise 25 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/ac/III/exercises/s2` exercise 26 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/ac/III/exercises/s2` exercise 27 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/ac/III/exercises/s2` exercise 28 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/ac/III/exercises/s2` exercise 29 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/ac/III/exercises/s2` exercise 30 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/ac/III/exercises/s2` exercise 31 is in fr and not here, and editions.yaml does not say the printings differ
 - `content/en/ac/VI/exercises/s8` exercise 22 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/alg/II/exercises/s9` exercise 11 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/alg/II/exercises/s9` exercise 12 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/alg/II/exercises/s9` exercise 13 is in fr and not here, and editions.yaml does not say the printings differ
-- `content/en/alg/II/exercises/s9` exercise 14 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/alg/III/exercises/s11` exercise 26 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/alg/III/exercises/s11` exercise 27 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/alg/IV/exercises/s1` exercise 6 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/alg/IV/exercises/s2` exercise 6 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/alg/IV/exercises/s2` exercise 7 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/alg/IV/exercises/s2` exercise 8 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/alg/IV/exercises/s2` exercise 9 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/alg/IV/exercises/s2` exercise 10 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/alg/IV/exercises/s2` exercise 11 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/alg/IV/exercises/s2` exercise 12 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/alg/IV/exercises/s2` exercise 13 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/alg/V/exercises/s3` exercise 14 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/alg/V/exercises/s3` exercise 15 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/ens/II/exercises/s5` exercise 4 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/ens/II/exercises/s5` exercise 5 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/ens/III/exercises/s6` exercise 33 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/fvr/V/exercises/s4` exercise 4 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/fvr/V/exercises/s4` exercise 5 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/fvr/V/exercises/s4` exercise 6 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/fvr/V/exercises/s4` exercise 7 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/fvr/V/exercises/s4` exercise 8 is in fr and not here, and editions.yaml does not say the printings differ
+- `content/en/fvr/V/exercises/s4` exercise 9 is in fr and not here, and editions.yaml does not say the printings differ
 
-and 199 more, which `bourbaki audit -only S11` prints in full.
+and 106 more, which `bourbaki audit -only S11` prints in full.
 
 ## S14 every committed page passes the rules that gated its reading (685)
 
@@ -357,7 +357,39 @@ Soft, structure.
 
 and 42 more, which `bourbaki audit -only S15` prints in full.
 
-## T03 every statement in the corpus has exactly one tag (23677)
+## S17 no exercise file is many times the median length of its § (85)
+
+Soft, structure.
+
+- `content/en-mt/ac/IX/exercises/a0/06.md:1` the file is 7463 characters and the median of the § is 376, which is what an exercise holding the run that follows it looks like
+- `content/en-mt/ac/VIII/exercises/s6/10.md:1` the file is 5342 characters and the median of the § is 819, which is what an exercise holding the run that follows it looks like
+- `content/en-mt/alg/X/exercises/s1/17.md:1` the file is 14587 characters and the median of the § is 468, which is what an exercise holding the run that follows it looks like
+- `content/en-mt/alg/X/exercises/s2/18.md:1` the file is 7637 characters and the median of the § is 899, which is what an exercise holding the run that follows it looks like
+- `content/en-mt/alg/X/exercises/s6/18.md:1` the file is 23301 characters and the median of the § is 933, which is what an exercise holding the run that follows it looks like
+- `content/en-mt/alg/X/exercises/s8/22.md:1` the file is 7024 characters and the median of the § is 555, which is what an exercise holding the run that follows it looks like
+- `content/en-mt/alg/X/exercises/s9/10.md:1` the file is 21277 characters and the median of the § is 504, which is what an exercise holding the run that follows it looks like
+- `content/en-mt/int/II/exercises/s1/13.md:1` the file is 5379 characters and the median of the § is 620, which is what an exercise holding the run that follows it looks like
+- `content/en-mt/top/X/exercises/s3/16.md:1` the file is 18320 characters and the median of the § is 1048, which is what an exercise holding the run that follows it looks like
+- `content/en-mt/ts/III/exercises/s1/25.md:1` the file is 5871 characters and the median of the § is 734, which is what an exercise holding the run that follows it looks like
+- `content/en/ac/II/exercises/s2/19.md:1` the file is 6531 characters and the median of the § is 766, which is what an exercise holding the run that follows it looks like
+- `content/en/ac/II/exercises/s2/22.md:1` the file is 4976 characters and the median of the § is 766, which is what an exercise holding the run that follows it looks like
+- `content/en/ac/IV/exercises/s1/17.md:1` the file is 4242 characters and the median of the § is 470, which is what an exercise holding the run that follows it looks like
+- `content/en/ac/VII/exercises/s2/22.md:1` the file is 18627 characters and the median of the § is 918, which is what an exercise holding the run that follows it looks like
+- `content/en/alg/IV/exercises/s6/15.md:1` the file is 4823 characters and the median of the § is 499, which is what an exercise holding the run that follows it looks like
+- `content/en/alg/VIII/exercises/s13/10.md:1` the file is 4210 characters and the median of the § is 462, which is what an exercise holding the run that follows it looks like
+- `content/en/fvr/II/exercises/s3/10.md:1` the file is 4779 characters and the median of the § is 697, which is what an exercise holding the run that follows it looks like
+- `content/en/int/II/exercises/s1/13.md:1` the file is 5441 characters and the median of the § is 590, which is what an exercise holding the run that follows it looks like
+- `content/en/int/VIII/exercises/s3/11.md:1` the file is 4276 characters and the median of the § is 688, which is what an exercise holding the run that follows it looks like
+- `content/en/lie/I/exercises/s1/24.md:1` the file is 6503 characters and the median of the § is 955, which is what an exercise holding the run that follows it looks like
+- `content/en/lie/I/exercises/s3/12.md:1` the file is 7444 characters and the median of the § is 304, which is what an exercise holding the run that follows it looks like
+- `content/en/lie/IV/exercises/s1/16.md:1` the file is 5644 characters and the median of the § is 839, which is what an exercise holding the run that follows it looks like
+- `content/en/lie/IV/exercises/s1/24.md:1` the file is 5246 characters and the median of the § is 839, which is what an exercise holding the run that follows it looks like
+- `content/en/lie/VII/exercises/s3/11.md:1` the file is 5425 characters and the median of the § is 774, which is what an exercise holding the run that follows it looks like
+- `content/en/lie/VIII/exercises/s7/18.md:1` the file is 4926 characters and the median of the § is 812, which is what an exercise holding the run that follows it looks like
+
+and 60 more, which `bourbaki audit -only S17` prints in full.
+
+## T03 every statement in the corpus has exactly one tag (23854)
 
 Hard, tags.
 
@@ -387,7 +419,7 @@ Hard, tags.
 - `content/en/ac/I/02_s2_flat_modules.md:448` has no tag
 - `content/en/ac/I/02_s2_flat_modules.md:455` has no tag
 
-and 23652 more, which `bourbaki audit -only T03` prints in full.
+and 23829 more, which `bourbaki audit -only T03` prints in full.
 
 ## T10 the tags of a file climb, as they did on the run that assigned them (9)
 
@@ -403,7 +435,7 @@ Soft, tags.
 - `content/vi/ens/II/06_s6_equivalence_relations.md:121` has 03TP after 03TS, which the same run assigned later
 - `content/vi/lie/IX/04_s4_root_system_associated_to_a_compact.md:428` has 01C5 after 01C7, which the same run assigned later
 
-## L01 the math spans are the English ones, in order (1377)
+## L01 the math spans are the English ones, in order (1382)
 
 Hard, translation.
 
@@ -433,7 +465,7 @@ Hard, translation.
 - `content/en-mt/ac/IX/exercises/s1/25.md:37` math span 44 is "c" and the English has "(a, b)"
 - `content/en-mt/ac/IX/exercises/s1/34.md:41` math span 27 is "n" and the English has "X_n"
 
-and 1352 more, which `bourbaki audit -only L01` prints in full.
+and 1357 more, which `bourbaki audit -only L01` prints in full.
 
 ## L03 the heading tree is the English one (19)
 
@@ -479,7 +511,7 @@ Hard, translation.
 - `content/vi/top/III/02_s2_subgroups_quotient_groups_homomorphisms.md:1` has 27 of kind prop and the English has 28
 - `content/vi/top/IV/05_s5_real_valued_functions.md:1` has 2 of kind thm and the English has 3
 
-## L05 source_content_sha256 is the English hash as it stands (306)
+## L05 source_content_sha256 is the English hash as it stands (314)
 
 Hard, translation.
 
@@ -509,9 +541,9 @@ Hard, translation.
 - `content/en-mt/ac/X/04_s4_anneaux_reguliers.md:1` was translated from a112d6812052 and content/fr/ac/X/04_s4_anneaux_reguliers.md is now 5d1bd7cb23ec, so it is stale
 - `content/en-mt/ac/X/05_s5_intersections_completes.md:1` was translated from eeb344109e82 and content/fr/ac/X/05_s5_intersections_completes.md is now 91c29d8f00f5, so it is stale
 
-and 281 more, which `bourbaki audit -only L05` prints in full.
+and 289 more, which `bourbaki audit -only L05` prints in full.
 
-## L06 the glossary is followed (2031)
+## L06 the glossary is followed (2029)
 
 Soft, translation.
 
@@ -541,7 +573,7 @@ Soft, translation.
 - `content/vi/ac/II/exercises/s3/03.md:1` the English mentions 32 glossary terms and 1 are not in this file as the glossary writes them: reduce (rút gọn)
 - `content/vi/ac/II/exercises/s3/08.md:1` the English mentions 22 glossary terms and 2 are not in this file as the glossary writes them: isomorphic (đẳng cấu), structure (cấu trúc)
 
-and 2006 more, which `bourbaki audit -only L06` prints in full.
+and 2004 more, which `bourbaki audit -only L06` prints in full.
 
 ## L07 no paragraph was left untranslated (20)
 
@@ -664,10 +696,16 @@ Hard, translation.
 
 and 21 more, which `bourbaki audit -only L11` prints in full.
 
-## L13 no word is written in another alphabet (31)
+## L13 no word is written in another alphabet (40)
 
 Hard, translation.
 
+- `content/vi/ac/III/exercises/s2/13.md:77` "(α)" is written in Greek, and this is vi
+- `content/vi/ac/III/exercises/s2/13.md:79` "(β)" is written in Greek, and this is vi
+- `content/vi/ac/III/exercises/s2/13.md:81` "(γ)" is written in Greek, and this is vi
+- `content/vi/ac/III/exercises/s2/13.md:83` "(β)," is written in Greek, and this is vi
+- `content/vi/ac/III/exercises/s2/13.md:85` "(α)," is written in Greek, and this is vi
+- `content/vi/ac/III/exercises/s2/13.md:85` "(γ)," is written in Greek, and this is vi
 - `content/vi/alg/III/historical_note.md:1077` "xạ-ϕ" is written in Greek, and this is vi
 - `content/vi/alg/III/historical_note.md:1077` "(ϕ" is written in Greek, and this is vi
 - `content/vi/alg/III/historical_note.md:1081` "xạ-Ω" is written in Greek, and this is vi
@@ -675,6 +713,9 @@ Hard, translation.
 - `content/vi/alg/III/historical_note.md:1321` "ρ-đồng" is written in Greek, and this is vi
 - `content/vi/alg/III/historical_note.md:1500` "X^α" is written in Greek, and this is vi
 - `content/vi/alg/III/historical_note.md:1552` "Δ," is written in Greek, and this is vi
+- `content/vi/alg/VII/exercises/s1/15.md:65` "α_i" is written in Greek, and this is vi
+- `content/vi/alg/VII/exercises/s1/15.md:65` "β_i" is written in Greek, and this is vi
+- `content/vi/alg/VII/exercises/s1/15.md:65` "g(α_i," is written in Greek, and this is vi
 - `content/vi/alg/VII/exercises/s4/09.md:47` "M(α)" is written in Greek, and this is vi
 - `content/vi/alg/VII/exercises/s4/09.md:47` "αM," is written in Greek, and this is vi
 - `content/vi/alg/VII/exercises/s4/09.md:51` "Aβ_k" is written in Greek, and this is vi
@@ -684,17 +725,8 @@ Hard, translation.
 - `content/vi/alg/VII/exercises/s4/09.md:53` "(β_i)" is written in Greek, and this is vi
 - `content/vi/alg/VII/exercises/s4/09.md:53` "β_i" is written in Greek, and this is vi
 - `content/vi/alg/VII/exercises/s4/09.md:53` "β_{i−1}," is written in Greek, and this is vi
-- `content/vi/alg/VII/exercises/s4/09.md:53` "A/Aα_i;" is written in Greek, and this is vi
-- `content/vi/alg/VII/exercises/s4/09.md:59` "A/Aβ_i" is written in Greek, and this is vi
-- `content/vi/alg/VII/exercises/s4/09.md:60` "α_{k+n−p}" is written in Greek, and this is vi
-- `content/vi/alg/VII/exercises/s4/09.md:60` "β_{k+(p+q−n)}" is written in Greek, and this is vi
-- `content/vi/evt/V/exercises/s1/06.md:24` "β)" is written in Greek, and this is vi
-- `content/vi/evt/V/exercises/s1/06.md:26` "γ)" is written in Greek, and this is vi
-- `content/vi/evt/V/exercises/s1/06.md:27` "β)," is written in Greek, and this is vi
-- `content/vi/evt/V/exercises/s1/06.md:41` "α)" is written in Greek, and this is vi
-- `content/vi/evt/V/exercises/s1/06.md:44` "γ)," is written in Greek, and this is vi
 
-and 6 more, which `bourbaki audit -only L13` prints in full.
+and 15 more, which `bourbaki audit -only L13` prints in full.
 
 ## L15 no translation was written on the free gateway (6)
 
