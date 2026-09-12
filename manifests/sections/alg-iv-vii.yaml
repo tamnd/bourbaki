@@ -34,7 +34,7 @@ chapters:
           last_pdf_page: 96
           subsections: 8
           statements: 30
-          exercises: 5
+          exercises: 6
           extraction: ocr
           content_sha256: fd78d3218a441457495db91a031db777e1dadb9447985e7988ec7daf8360616c
         - kind: section
@@ -47,7 +47,7 @@ chapters:
           book_pages: A IV.14-A IV.19, A IV.87-A IV.88
           subsections: 3
           statements: 20
-          exercises: 5
+          exercises: 13
           extraction: ocr
           content_sha256: 61bf1ec69778f1702ec9e8a2232603a59313de07e429fab249928dcbfd3838ef
         - kind: section

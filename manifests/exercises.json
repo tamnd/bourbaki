@@ -2872,24 +2872,26 @@
         {
           "chapter": "IV",
           "title": "POLYNOMIALS AND RATIONAL FRACTIONS",
-          "total": 56,
+          "total": 65,
           "sections": [
             {
               "section": 1,
               "label": "alg-iv-s1",
               "dir": "s1",
-              "count": 5,
+              "count": 6,
               "first": 1,
-              "last": 5,
-              "starred": 3
+              "last": 6,
+              "starred": 4
             },
             {
               "section": 2,
               "label": "alg-iv-s2",
               "dir": "s2",
-              "count": 5,
+              "count": 13,
               "first": 1,
-              "last": 5
+              "last": 13,
+              "starred": 1,
+              "supplementary": 1
             },
             {
               "section": 3,
