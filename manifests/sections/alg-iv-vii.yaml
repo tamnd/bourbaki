@@ -75,7 +75,7 @@ chapters:
           statements: 23
           exercises: 8
           extraction: ocr
-          content_sha256: 483527c9a2f7ca3ed745c243edcc42d58de68724d62d4b582d90775243b344a0
+          content_sha256: f8d80a2920e478013cde5fe2293fcefc277e5076443daaf8c7bc3b07c07163d4
         - kind: section
           section: 5
           title: Symmetric tensors and polynomial mappings
@@ -101,7 +101,7 @@ chapters:
           statements: 43
           exercises: 15
           extraction: ocr
-          content_sha256: 44c7a13e648c909c6fd334bb9918fdde585c3f51cb8dcf4964408d025c30bf9a
+          content_sha256: 9c61acb577c85b4200dd53a42ac4452b8bb111f73a601445a3f0e1a21a8eeb82
     - chapter: V
       title: COMMUTATIVE FIELDS
       sections:
@@ -204,7 +204,7 @@ chapters:
           statements: 39
           exercises: 5
           extraction: ocr
-          content_sha256: 9133ec09db76d1ddd91ab9ec0ebf1ccc424ba0f04aeb06eb0efc144beb94249b
+          content_sha256: 06085a7983cd2523cac54677a7cfe188fe377e42c7b238dbe69899a74813da86
         - kind: section
           section: 8
           title: Norms and traces
@@ -243,7 +243,7 @@ chapters:
           statements: 49
           exercises: 23
           extraction: ocr
-          content_sha256: 64a6c9421a0e3ab06b3a64d7ceccfc53b6af8db2781476a43ff7b9ac2d7e7c18
+          content_sha256: e46f25bda4367c7c10cc5c14dac74f3824b7339be2db8cf4ccd9bf9c243796cf
         - kind: section
           section: 11
           title: Abelian extensions
@@ -369,7 +369,7 @@ chapters:
           statements: 53
           exercises: 36
           extraction: ocr
-          content_sha256: d15b5065c0dbd111b3eac4a847615904f8654cb680475b25082b83436dd2d77c
+          content_sha256: 1968b64238e7b35aa048d4d0dab1d93aa2192c142ee3f3aa2d043dcf85cab677
         - kind: section
           section: 2
           title: Ordered fields
@@ -382,7 +382,7 @@ chapters:
           statements: 33
           exercises: 41
           extraction: ocr
-          content_sha256: 085bdbaa158b3451b1406ac74b0dc1768d25be4112fb7e750530e7530abbe3da
+          content_sha256: d7f2b21361b689bf436e28262bca0874a95f69354bb19e5902c798a99a443aeb
     - chapter: VII
       title: MODULES OVER PRINCIPAL IDEAL DOMAINS
       sections:
@@ -420,7 +420,7 @@ chapters:
           statements: 22
           exercises: 15
           extraction: ocr
-          content_sha256: 78e281d15c49979fbcb148265398137859535dae478a95080b8925131e3b224f
+          content_sha256: 1669f28cbbdd0a8d5ddd4e646199c1ae3fff0b608b6e24347c3277dc4d3c43ec
         - kind: section
           section: 3
           title: Free modules over a principal ideal domain
@@ -459,7 +459,7 @@ chapters:
           statements: 66
           exercises: 14
           extraction: ocr
-          content_sha256: 15b717b785fa235f691593f39cc0c7c6cc01006494b3f36e80665726426374e9
+          content_sha256: 54306ba1acf39d1bb2ddf1fbc8d5d485fa29afbdcafda0e948d47b02ba0330eb
         - kind: historical
           title: Historical Note
           path: content/en/alg/VII/historical_note.md

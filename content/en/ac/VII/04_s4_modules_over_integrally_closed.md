@@ -53,7 +53,7 @@ subsections:
       pdf_page: 561
 statements: 56
 exercises: 26
-content_sha256: 1933b931aba1370a2001b9685de6f222aaa5bede869a38a53328a4561db71cb1
+content_sha256: 6a6730bc9d386eb24920c4f4db0a452a7a88f294451010aa63760e82505f8f56
 ---
 
 ## 4. MODULES OVER INTEGRALLY CLOSED NOETHERIAN DOMAINS
@@ -613,7 +613,7 @@ $$(M/M')_p = M_p/M'_p$$ is isomorphic to the torsion A,-module $\bigoplus_{i=1}^
 
 #### Corollary {#ac-vii-s4-n6-cor-1 .statement}
 
-*Let L,, L_2 be twofree A-modules & the same rank n and let f: L_1 \to L_2 be a homomorphism. Let U be the matrix off with respect to bases of L, and L_2. For Coker(f) to be a torsion A-module, it is necessary and sufficient that \det(U) \neq 0 and then:*
+*Let L_1, L_2 be twofree A-modules & the same rank n and let f: L_1 \to L_2 be a homomorphism. Let U be the matrix off with respect to bases of L_1 and L_2. For Coker(f) to be a torsion A-module, it is necessary and sufficient that \det(U) \neq 0 and then:*
 
 $$
 \chi(\operatorname{Coker}(f)) = \operatorname{div}(\det(U)).
@@ -665,7 +665,7 @@ $$
 c(M_2) = c(M_1) + c(M_3).
 $$
 
-(ii) *If there exists apseudo-isomorphismfrom M, to M,, then $c(M_1) = c(M_2)$.
+(ii) *If there exists apseudo-isomorphismfrom M_1 to M_2, then $c(M_1) = c(M_2)$.
 
 (iii) *If T is a torsion module, then $c(T) = -c(\chi(T))$.
 

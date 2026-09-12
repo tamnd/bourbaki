@@ -67,7 +67,7 @@ errata:
     - says: then $w(u^{-1}) = -w(u)$. \* In other words (Comm. Alg., VI, § 3, No. 6, p. 392, Def. 3), w is a normalized discrete valuation
       read: then $\omega(u^{-1}) = -\omega(u)$. \* In other words (Comm. Alg., VI, § 3, No. 6, p. 392, Def. 3), $\omega$ is a normalized discrete valuation
       why: Page 48 runs the roman w twice in the displayed relation and once in the sentence naming the valuation, then sets "omega(u) >= n" round two lines below for the same function. The valuation of K((X)) is omega, as the French of 2007 (A IV.36) has it.
-content_sha256: 483527c9a2f7ca3ed745c243edcc42d58de68724d62d4b582d90775243b344a0
+content_sha256: f8d80a2920e478013cde5fe2293fcefc277e5076443daaf8c7bc3b07c07163d4
 ---
 
 ## § 4. FORMAL POWER SERIES
@@ -603,7 +603,7 @@ still hold for generalized formal power series. In particular, if $u \neq 0$, th
 
 For each integer $n \in \mathbf{Z}$ let $p_n$ be the set of all $u \in K((X))$ such that $\omega(u) \geq n$. Then (p.), , , is a decreasing sequence of subgroups of the additive group $K((X))$, with intersection 0 ; there exists thus a topology on $K((X))$, invariant under translation, for which $(p_n)_{n \in \mathbf{Z}}$ is a fundamental system of neighbourhoods of 0 (Gen. Top., III, p. 223). We can easily verify that $K((X))$ is a topological field (Gen. Top., III, p. 281) and that $K[[X]]$ is an open and closed subspace of $K((X))$.
 
-Let (a,, , be a family of elements of $K$, and suppose that there exists an integer N such that $a_n = 0$ for all $n < N$. Then the family' $(\alpha_n X^n)_{n \in \mathbf{Z}}$ is summable in $K((X))$ (Gen. Top., III, p. 263, Cor.) ; put $u = \sum_{n \in \mathbf{Z}} \alpha_n X^n$, then $u = 0$ if and only if $a_n = 0$ for all $n$; otherwise the order of $u$ is the least integer k such that $\alpha_k \neq 0$. Finally every element of $K((X))$ may be written in a unique fashion in the form $\sum_{n \in \mathbf{Z}} \alpha_n X^n$, where the sequence $(\alpha_n)$ satisfies $\alpha_{-n} = 0$ for all sufficiently large n.
+Let $(\alpha_n)_{n \in \mathbf{Z}}$ be a family of elements of $K$, and suppose that there exists an integer N such that $a_n = 0$ for all $n < N$. Then the family' $(\alpha_n X^n)_{n \in \mathbf{Z}}$ is summable in $K((X))$ (Gen. Top., III, p. 263, Cor.) ; put $u = \sum_{n \in \mathbf{Z}} \alpha_n X^n$, then $u = 0$ if and only if $a_n = 0$ for all $n$; otherwise the order of $u$ is the least integer k such that $\alpha_k \neq 0$. Finally every element of $K((X))$ may be written in a unique fashion in the form $\sum_{n \in \mathbf{Z}} \alpha_n X^n$, where the sequence $(\alpha_n)$ satisfies $\alpha_{-n} = 0$ for all sufficiently large n.
 
 Since the ring $K[X]$ is a subring of $K[[X]]$, every rational fraction $u/v \in K(X)$ (u, v being polynomials in X) may be identified with the (generalized) formal power series $uv^{-1}$ of $K((X))$, which we shall call its expansion at the origin ; the field $K(X)$ is thus identified with a subfield of $K((X))$.
 

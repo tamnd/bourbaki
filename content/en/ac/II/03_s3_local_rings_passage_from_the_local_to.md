@@ -33,7 +33,7 @@ subsections:
       pdf_page: 112
 statements: 39
 exercises: 14
-content_sha256: d3c591119a05ffc883fe168ba83ec32aff69a80c35a017cf3be3d1881a042cc7
+content_sha256: c9dfbb8d7df610cd2e2fc17c1d11ee1591b47bcdfd78878f918448f81273ce37
 ---
 
 ## 3. LOCAL RINGS. PASSAGE FROM THE LOCAL TO THE GLOBAL
@@ -162,7 +162,7 @@ $$
 \mathrm{Coker}(c) = (A/m) \otimes_A M
 $$
 
-and by definition v(1 \otimes e,) = 1 \otimes x,; as (1 \otimes e,) is a basis of (A/m) \otimes_A L, the definition of the x, shows that v is bijective.
+and by definition v(1 \otimes e_i) = 1 \otimes x_i; as (1 \otimes e_i) is a basis of (A/m) \otimes_A L, the definition of the x_i shows that v is bijective.
 
 #### Corollary 1 {#ac-ii-s3-prop-5-cor-1 .statement}
 

@@ -131,7 +131,7 @@ chapters:
           statements: 14
           exercises: 10
           extraction: ocr
-          content_sha256: cdbfaa0529c2d9178477ff39ba5fa15f3824e5ea0e5baf56c3673f8c85549196
+          content_sha256: 9f3c6d288bf72bfc66d1ad78428902c02983f63a1a8424a50270e24cf36598ea
         - kind: historical
           title: Historical Note
           path: content/en/top/VI/historical_note.md

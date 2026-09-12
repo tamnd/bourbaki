@@ -53,7 +53,7 @@ subsections:
       pdf_page: 507
 statements: 41
 exercises: 32
-content_sha256: 83159af88375622869cb6ea60940d466ee2bc0e0b75bdceffd5eff01efe67f84
+content_sha256: 6b7972d8e378eddd7fd22bebff59ee438915cf2f7a89a11b5050d0be4189077f
 ---
 
 ## 1. KRULL DOMAINS
@@ -202,9 +202,9 @@ $$
 #### Definition 3 {#ac-vii-s1-def-3 .statement}
 
 A n integral domain $A$ is called a Krull domain if there exists a family $(v_i)_{i \in I}$ of valuations on the field of fractions $K$ of $A$ with the following properties:
-(AK,) the valuations $v_i$ are discrete;
-(AK,,) the intersection of the rings & the $v_i$ is $A$;
-(AK,,,) for all $x \in K^*$, the set of indices $t \in I$ such that $v_t(x) \neq 0$ is finite.
+(AK$_I$) the valuations $v_i$ are discrete;
+(AK$_{II}$) the intersection of the rings of the $v_i$ is $A$;
+(AK$_{III}$) for all $x \in K^*$, the set of indices $t \in I$ such that $v_t(x) \neq 0$ is finite.
 
 It obviously suffices to verify condition (AK$_{III}$) for the elements $x$ of $A - (0)$.
 
@@ -231,7 +231,7 @@ then $v_t(a) \in \mathbf{Z}$, for, if $a$ is a non-zero element of $a$, the rela
 
 (1) *Let $a$ be a divisorial fractional ideal; in order that $y \in a$, it is necessary and sufficient that $v_t(y) \geq v_t(a)$ for all $t \in I$.*
 
-As $a$ is divisorial, the relation $y \in a$ is equivalent to the relation "“$a \subset Ax$ implies $y \in Ax$”. Now, by (AK,,), the relation $y \in Ax$ is equivalent to “$v_t(y) \geq v_t(x)$ for all $t \in I$”. Whence (1).
+As $a$ is divisorial, the relation $y \in a$ is equivalent to the relation "“$a \subset Ax$ implies $y \in Ax$”. Now, by (AK$_{II}$), the relation $y \in Ax$ is equivalent to “$v_t(y) \geq v_t(x)$ for all $t \in I$”. Whence (1).
 
 (2) *Let $a$ and $b$ be two divisorial fractional ideals of $A$; in order that $a \subset b$, it is necessary and sufficient that $v_t(a) \geq v_t(b)$ for all $t \in I$.*
 
@@ -239,7 +239,7 @@ This follows immediately from property (1).
 
 (3) *If $x \in K^*$, then $v_t(Ax) = v_t(x)$.*
 
-If $Ay \supset Ax$, then $v_t(y) \leq v_t(x)$ by (AK,,) and the minimum value of $v_t(y)$ is taken at $y = x$.
+If $Ay \supset Ax$, then $v_t(y) \leq v_t(x)$ by (AK$_{II}$) and the minimum value of $v_t(y)$ is taken at $y = x$.
 
 (4) *For all $a \in I(A)$, the indices $t \in I$ such that $v_t(a) \neq 0$ are finite in number.*
 
@@ -249,7 +249,7 @@ We have therefore shown the following lemma:
 
 #### Lemma 1 {#ac-vii-s1-lem-1 .statement}
 
-*If $A$ is a Krull domain and $(v_t)_t$, is a family of normed valuations on $K$ satisfying (AK, ), (AK,,) and (AK$_{III}$), the mapping $a \mapsto (v_t(a))_{t \in I}$ is a decreasing injective mapping of the set of divisorial integer ideals of $A$ (ordered by $\subset$) to the set of positive elements & the ordered group the direct sum $\mathbf{Z}^{(I)}$.*
+*If $A$ is a Krull domain and $(v_t)_t$, is a family of normed valuations on $K$ satisfying (AK$_I$), (AK$_{II}$) and (AK$_{III}$), the mapping $a \mapsto (v_t(a))_{t \in I}$ is a decreasing injective mapping of the set of divisorial integer ideals of $A$ (ordered by $\subset$) to the set of positive elements & the ordered group the direct sum $\mathbf{Z}^{(I)}$.*
 
 This being so, every non-empty set of positive elements of $\mathbf{Z}^{(I)}$ has a minimal element (*Algebra*, Chapter VI, § 1, no. 13, Theorem 2). Hence $A$ certainly satisfies property (b) of the statement.
 
@@ -384,7 +384,7 @@ The first assertion has already been seen in the course of the proof of Theorem 
 
 Let A be a Krull domain, K its field of fractions, v a valuation on K which is positive on A and p the set of x ∈ A such that v(x) > 0. If the prime ideal p is of height 1, v is equivalent to an essential valuation of A.
 
-Let B be the ring of v and m its ideal. Then m ∩ A = p and hence A, ⊂ B. Now A,, is a discrete valuation ring (Theorem 3 and Corollary 1 to Proposition 6). As p ≠ (0), B ≠ K and hence B = A, (Chapter VI, § 4, no. 5, Proposition 6).
+Let B be the ring of v and m its ideal. Then m ∩ A = p and hence A_p ⊂ B. Now A_p is a discrete valuation ring (Theorem 3 and Corollary 1 to Proposition 6). As p ≠ (0), B ≠ K and hence B = A, (Chapter VI, § 4, no. 5, Proposition 6).
 
 #### Theorem 4 {#ac-vii-s1-thm-4 .statement}
 

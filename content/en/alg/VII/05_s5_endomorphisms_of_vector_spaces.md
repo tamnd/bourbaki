@@ -50,7 +50,7 @@ subsections:
       pdf_page: 402
 statements: 66
 exercises: 14
-content_sha256: 15b717b785fa235f691593f39cc0c7c6cc01006494b3f36e80665726426374e9
+content_sha256: 54306ba1acf39d1bb2ddf1fbc8d5d485fa29afbdcafda0e948d47b02ba0330eb
 ---
 
 ## § 5. ENDOMORPHISMS OF VECTOR SPACES
@@ -644,7 +644,7 @@ First of all, suppose that u can be written in the form s + n, where s is absolu
 
 Conversely, suppose that the eigenvalues of u are separable over K, and let L be a finite Galois extension of K containing these eigenvalues. By Lemma 4 we can write u_{(L)} = v + w, where v is diagonalisable and w is nilpotent, and where vw = wv. Let B be a basis of E, let B' be the corresponding basis of L ⊗_K E, and let U, V, W be the matrices of u_{(L)}, v, w with respect to B'; note that U is also the matrix of u with respect to B, so has entries in K. For every K-automorphism σ of L, and every matrix A with entries in L, let A" denote the matrix obtained by applying σ to the entries of A. Let a be a K-automorphism of L; then U = U^σ = (V + W)^σ = V^σ + W^σ, V^σW^σ = (VW)^σ = (WV)^σ = W^σV^σ; since Vu is the matrix of a diagonalisable endomorphism and W" is nilpotent, it follows from Lemma 4 that Vu = V and W^σ = W. Since this is valid for all σ, the entries of V and W are in K; if $u_s$ and $u_n$ are the endomorphisms of E with matrices V and W with respect to B, then $(u_s)_{(L)} = v$ and $(u_n)_{(L)} = w$. It follows that $u_s$ is absolutely semi-simple, that $u_n$ is nilpotent, that $u_s$ and $u_n$ commute, and that $u = u_s + u_n$. This completes the proof.
 
-Whenever an endomorphism f admits a Jordan decomposition, we write it (f,, f,), and the endomorphisms f, and f, are called the absolutely *semi-simple* component and the nilpotent component off respectively. When K is perfect, every endomorphism has a Jordan decomposition; in this case also there is no distinction between absolutely semi-simple endomorphisms and semi-simple endomorphisms, and we sometimes say « semi-simple component » for « absolutely semi-simple component ».
+Whenever an endomorphism f admits a Jordan decomposition, we write it $(f_s, f_n)$, and the endomorphisms $f_s$ and $f_n$ are called the absolutely *semi-simple* component and the nilpotent component off respectively. When K is perfect, every endomorphism has a Jordan decomposition; in this case also there is no distinction between absolutely semi-simple endomorphisms and semi-simple endomorphisms, and we sometimes say « semi-simple component » for « absolutely semi-simple component ».
 
 #### Corollary 1 {#alg-vii-s5-lem-4-cor-1 .statement}
 

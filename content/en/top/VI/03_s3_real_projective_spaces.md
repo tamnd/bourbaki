@@ -36,7 +36,7 @@ subsections:
       pdf_page: 59
 statements: 14
 exercises: 10
-content_sha256: cdbfaa0529c2d9178477ff39ba5fa15f3824e5ea0e5baf56c3673f8c85549196
+content_sha256: 9f3c6d288bf72bfc66d1ad78428902c02983f63a1a8424a50270e24cf36598ea
 ---
 
 ## 3. REAL PROJECTIVE SPACES
@@ -228,7 +228,7 @@ $$
 h = \binom{n+1}{p+1}
 $$
 
-determinants, not all zero (the components of the exterior product of the p + 1 rows of X). If we make correspond to X the point of the projective space P_{n-1}(K) whose homogeneous coordinates are the c_σ(X,) we have defined a mapping of L_{n+1,p+1}(K) into P_{n-1}(K), compatible with the relation Δ_{n,p}(K); passing to the quotient, we have therefore a mapping f of P_{n,p}(K) into P_{n-1}(K). The image G_{n,p}(K) of P_{n,p}(K) under this mapping is called the Grassmannian of indices n, p. We recall also that the mapping f is injective, for if X is a matrix such that X_σ is non-singular, the matrix Y = X_σ^{-1}X of B_σ which corresponds to the class of X mod. Δ_{n,p}(K) is the matrix (d_{ij}/c_σ(X)) (1 ≤ i ≤ p + 1, 0 ≤ j ≤ n), where d_{ij} denotes the determinant of the matrix obtained from $X_{\sigma}$ by replacing the $i$th column of $X_{\sigma}$ by the $j$th column of $X$ [which implies that $d_{ij}$ is, up to sign, equal to one of the $c_{\tau}(X)$].
+determinants, not all zero (the components of the exterior product of the p + 1 rows of X). If we make correspond to X the point of the projective space P_{n-1}(K) whose homogeneous coordinates are the c_σ(X), we have defined a mapping of L_{n+1,p+1}(K) into P_{n-1}(K), compatible with the relation Δ_{n,p}(K); passing to the quotient, we have therefore a mapping f of P_{n,p}(K) into P_{n-1}(K). The image G_{n,p}(K) of P_{n,p}(K) under this mapping is called the Grassmannian of indices n, p. We recall also that the mapping f is injective, for if X is a matrix such that X_σ is non-singular, the matrix Y = X_σ^{-1}X of B_σ which corresponds to the class of X mod. Δ_{n,p}(K) is the matrix (d_{ij}/c_σ(X)) (1 ≤ i ≤ p + 1, 0 ≤ j ≤ n), where d_{ij} denotes the determinant of the matrix obtained from $X_{\sigma}$ by replacing the $i$th column of $X_{\sigma}$ by the $j$th column of $X$ [which implies that $d_{ij}$ is, up to sign, equal to one of the $c_{\tau}(X)$].
 
 When $K$ is the field $\mathbf{R}$, this mapping $f$ is evidently *continuous*. The inverse mapping $g$ is also continuous; for the elements of a matrix belonging to $B_{\sigma}$ are rational functions of the homogeneous coordinates of the point of the Grassmannian to which it corresponds; since $f(B_{\sigma}) = B'_{\sigma}$ is the set of points of $G_{n,p}$ whose homogeneous coordinate with index $\sigma$ is not 0, it is an open set in $G_{n,p}$; hence $g$ is continuous at every point of $B'_{\sigma}$, and since every point of $G_{n,p}$ belongs to at least one set $B'_{\sigma}$, $g$ is continuous at every point. Thus:
 

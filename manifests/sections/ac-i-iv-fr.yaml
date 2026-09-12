@@ -255,7 +255,7 @@ chapters:
           statements: 46
           exercises: 35
           extraction: ocr
-          content_sha256: 4ea40e4021993533ff69b55389fb0ebd11745db620820620f573e2bc08e81f83
+          content_sha256: dd2aeaa3f42357c515bdc9b90340449fad3efdeaf32cae65465f6bfd91790bb5
         - kind: section
           section: 3
           title: Décomposition primaire dans les modules gradués

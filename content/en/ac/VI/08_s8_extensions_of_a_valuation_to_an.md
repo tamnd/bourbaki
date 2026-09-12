@@ -41,7 +41,7 @@ subsections:
       pdf_page: 446
 statements: 36
 exercises: 21
-content_sha256: d853329d68867ccedd9e356c1483209c43fd487e4b1b8709e9d31dca3434d87e
+content_sha256: 7c77d28c820705492ab79818bd995a404139876374f3f93fc23a656ffdf2d47a
 ---
 
 ## 8. EXTENSIONS OF A VALUATION TO AN ALGEBRAIC EXTENSION
@@ -411,7 +411,7 @@ $$
 
 *Under the hypotheses of Corollary 3, if L is a separable extension of K, each of the $\hat{L}_i$ is a separable extension of $\hat{K}$. If further L is a Galois extension of K with Galois group $\mathscr{G}$ and $\mathscr{G}_i$ denotes the decomposition group of the ideal of $v'_i$ in B (Chapter V, § 2, no. 2, Definition 2), then $\hat{L}_i$ is a Galois extension of $\hat{K}$ whose Galois group is isomorphic to $\mathscr{G}_i$.*
 
-Clearly $\hat{L}_i = \hat{K}(L)$; hence, if L is separable over K, $\hat{L}_i$ is separable over $\hat{K}$ (Algebra, Chapter V, § 7, no. 6, Proposition 10). Suppose now that L is Galois. Every automorphism $\sigma \in \mathscr{G}_i$ is continuous on L with the topology defined by $v'_i$, the fact that no two of the ideals of the $v'_i$ are comparable with respect to inclusion (§ 7, no. 2, Corollary 1 to Theorem 1) necessarily implying that $v'_i = v'_i \circ \sigma$ by definition of $\mathscr{G}_i$; hence $\sigma$ may be extended by continuity to a $\hat{K}$-automorphism $\hat{\sigma}$ of $\hat{L}_i$. This proves that the number of $\hat{K}$-automorphisms off,, is at least equal to $\mathrm{Card}(\mathscr{G}_i)$. But as the valuations $v'_i$ are pairwise conjugate under $\mathscr{G}$ (Chapter V, § 2, no. 3, Proposition 6), $s = (\mathscr{G}_i)$, whence
+Clearly $\hat{L}_i = \hat{K}(L)$; hence, if L is separable over K, $\hat{L}_i$ is separable over $\hat{K}$ (Algebra, Chapter V, § 7, no. 6, Proposition 10). Suppose now that L is Galois. Every automorphism $\sigma \in \mathscr{G}_i$ is continuous on L with the topology defined by $v'_i$, the fact that no two of the ideals of the $v'_i$ are comparable with respect to inclusion (§ 7, no. 2, Corollary 1 to Theorem 1) necessarily implying that $v'_i = v'_i \circ \sigma$ by definition of $\mathscr{G}_i$; hence $\sigma$ may be extended by continuity to a $\hat{K}$-automorphism $\hat{\sigma}$ of $\hat{L}_i$. This proves that the number of $\hat{K}$-automorphisms of $\hat{L}_i$ is at least equal to $\mathrm{Card}(\mathscr{G}_i)$. But as the valuations $v'_i$ are pairwise conjugate under $\mathscr{G}$ (Chapter V, § 2, no. 3, Proposition 6), $s = (\mathscr{G}_i)$, whence
 $$
 \mathrm{Card}(\mathscr{G}_i) = n/s \leq n.
 $$

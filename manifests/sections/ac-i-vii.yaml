@@ -140,7 +140,7 @@ chapters:
           statements: 39
           exercises: 14
           extraction: ocr
-          content_sha256: d3c591119a05ffc883fe168ba83ec32aff69a80c35a017cf3be3d1881a042cc7
+          content_sha256: c9dfbb8d7df610cd2e2fc17c1d11ee1591b47bcdfd78878f918448f81273ce37
         - kind: section
           section: 4
           title: Spectra of rings and supports of modules
@@ -206,7 +206,7 @@ chapters:
           statements: 57
           exercises: 31
           extraction: ocr
-          content_sha256: c667e1a33fce0d7400ceb6354bdf4373df50343a609a863f37216264ec019a6c
+          content_sha256: 02b820b90ab26b7a45227b12089d7ff953ab34a586d832545d20675423b667b9
         - kind: section
           section: 3
           title: m-adic topologies on Noetherian rings
@@ -404,7 +404,7 @@ chapters:
           statements: 15
           exercises: 8
           extraction: ocr
-          content_sha256: 4c01a96f5b56dacb5b58c422ea901ae132099e793d91ecc0e08dbd4e6531aedb
+          content_sha256: f869bfb667cbf0d1a08b2536e0aaa7d9ba003be49828893cfd1865c5b6ff09b7
         - kind: section
           section: 4
           title: The height of a valuation
@@ -417,7 +417,7 @@ chapters:
           statements: 18
           exercises: 11
           extraction: ocr
-          content_sha256: cdc27e73ee54626a8784a6f26f479defcd8d5066ee817997176c38e0199904ea
+          content_sha256: 96de5ff4897051631e3ee827580eed4c33a462b1e5f34f77bfd9e66ad0129ccd
         - kind: section
           section: 5
           title: The topology defined by a valuation
@@ -469,7 +469,7 @@ chapters:
           statements: 36
           exercises: 21
           extraction: ocr
-          content_sha256: d853329d68867ccedd9e356c1483209c43fd487e4b1b8709e9d31dca3434d87e
+          content_sha256: 7c77d28c820705492ab79818bd995a404139876374f3f93fc23a656ffdf2d47a
         - kind: section
           section: 9
           title: 'Application: locally compact fields'
@@ -522,7 +522,7 @@ chapters:
           statements: 41
           exercises: 32
           extraction: ocr
-          content_sha256: 83159af88375622869cb6ea60940d466ee2bc0e0b75bdceffd5eff01efe67f84
+          content_sha256: 6b7972d8e378eddd7fd22bebff59ee438915cf2f7a89a11b5050d0be4189077f
         - kind: section
           section: 2
           title: Dedekind domains
@@ -561,7 +561,7 @@ chapters:
           statements: 56
           exercises: 26
           extraction: ocr
-          content_sha256: 1933b931aba1370a2001b9685de6f222aaa5bede869a38a53328a4561db71cb1
+          content_sha256: 6a6730bc9d386eb24920c4f4db0a452a7a88f294451010aa63760e82505f8f56
         - kind: historical
           title: Historical Note
           path: content/en/ac/VII/historical_note.md

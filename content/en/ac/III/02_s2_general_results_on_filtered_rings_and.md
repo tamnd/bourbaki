@@ -65,7 +65,7 @@ subsections:
       pdf_page: 212
 statements: 57
 exercises: 31
-content_sha256: c667e1a33fce0d7400ceb6354bdf4373df50343a609a863f37216264ec019a6c
+content_sha256: 02b820b90ab26b7a45227b12089d7ff953ab34a586d832545d20675423b667b9
 ---
 
 ## § 2. GENERAL RESULTS ON FILTERED RINGS AND MODULES
@@ -196,7 +196,7 @@ $$
 
 The commutative group gr(G) is then a graded group of type $\mathbf{Z}$, called the *graded group associated* with the filtered group G, the homogeneous elements of degree $n$ of gr(G) being those of $\mathrm{gr}_n(G)$.
 
-Now let A be a filtered ring, (A,) its filtration, E a filtered A-module and (E_n) its filtration. For all $p \in \mathbf{Z}$, $q \in \mathbf{Z}$, a mapping
+Now let A be a filtered ring, (A_n) its filtration, E a filtered A-module and (E_n) its filtration. For all $p \in \mathbf{Z}$, $q \in \mathbf{Z}$, a mapping
 
 $$
 \mathrm{gr}_p(A) \times \mathrm{gr}_q(E) \to \mathrm{gr}_{p+q}(E)
@@ -288,7 +288,7 @@ $$
 Let A be a filtered ring and $(A_n)_{n \in \mathbf{Z}}$ its filtration; let us set $B = \bigcup_{n \in \mathbf{Z}} A_n$, $n = \bigcap_{n \in \mathbf{Z}} A_n$. If the ring $\mathrm{gr}(A)$ has no divisors of zero, neither has the ring $B/n$.
 If a and b are elements of B not belonging to n, then $v(a) \neq +\infty$ and $v(b) \neq +\infty$, whence $v(ab) \neq +\infty$ and therefore $ab \notin n$.
 
-Note that the ring A can be an integral domain and the filtration (A,,) exhaustive and separated without $\mathrm{gr}(A)$ being an integral domain (Exercise 2).
+Note that the ring A can be an integral domain and the filtration (A_n) exhaustive and separated without $\mathrm{gr}(A)$ being an integral domain (Exercise 2).
 
 #### Remark {#ac-iii-s2-n3-rem-1 .statement}
 
@@ -296,7 +296,7 @@ Let G be a group which is not necessarily commutative with a filtration $(G_n)_{
 
 ### 4. HOMOMORPHISMS COMPATIBLE WITH FILTRATIONS
 
-Let G, G' be two commutative groups (written additively), (G,) a filtration on G and (G'_n) a filtration on G'; a homomorphism h : G → G' is called compatible with the filtrations on G and G' if h(G_n) ⊂ G'_n for all n ∈ Z. The composite homomorphism G, $\xrightarrow{h} G'_n \longrightarrow G'_n/G'_{n+1}$ is zero on G_{n+1} and hence defines by taking quotients a homomorphism h, : G_n/G_{n+1} → G'_n/G'_{n+1}; there is therefore a unique additive group homomorphism gr(h) : gr(G) → gr(G') such that, for all n ∈ Z, gr(h) coincides with h, on gr_n(G) = G_n/G_{n+1}. gr(h) is called the graded group homomorphism associated with h. If G'' is a third filtered group and h' : G' → G'' a homomorphism which is compatible with the filtrations, h' ∘ h is a homomorphism which is compatible with the filtrations and
+Let G, G' be two commutative groups (written additively), (G_n) a filtration on G and (G'_n) a filtration on G'; a homomorphism h : G → G' is called compatible with the filtrations on G and G' if h(G_n) ⊂ G'_n for all n ∈ Z. The composite homomorphism G_n $\xrightarrow{h} G'_n \longrightarrow G'_n/G'_{n+1}$ is zero on G_{n+1} and hence defines by taking quotients a homomorphism h_n : G_n/G_{n+1} → G'_n/G'_{n+1}; there is therefore a unique additive group homomorphism gr(h) : gr(G) → gr(G') such that, for all n ∈ Z, gr(h) coincides with h_n on gr_n(G) = G_n/G_{n+1}. gr(h) is called the graded group homomorphism associated with h. If G'' is a third filtered group and h' : G' → G'' a homomorphism which is compatible with the filtrations, h' ∘ h is a homomorphism which is compatible with the filtrations and
 
 (12)
 $$
@@ -313,7 +313,7 @@ $$
 $$
 is exact.
 
-The first assertion is obvious; if (G,,) is the filtration on G, then
+The first assertion is obvious; if (G_n) is the filtration on G, then
 $$
 (H \cap G_n) \cap G_{n+1} = H \cap G_{n+1}
 $$
@@ -353,7 +353,7 @@ $$
 
 ### 5. THE TOPOLOGY DEFINED BY A FILTRATION
 
-Let G be a group filtered by a family $(G_n)_{n \in \mathbf{Z}}$ of normal subgroups of G. There exists a unique topology on G which is compatible with the group structure and for which the G, constitute a fundamental system of neighbourhoods of the identity element e of G (General Topology, Chapter III, § 1, no. 2, Example); it is called the topology on G defined by the filtration (G,). When we use topological notions concerning a filtered group, we shall mean, unless otherwise stated, with the topology defined by the filtration. Note that the G,, being subgroups of G, are both open and closed (General Topology, Chapter III, § 2, no. 1, Corollary to Proposition 4).
+Let G be a group filtered by a family $(G_n)_{n \in \mathbf{Z}}$ of normal subgroups of G. There exists a unique topology on G which is compatible with the group structure and for which the G_n constitute a fundamental system of neighbourhoods of the identity element e of G (General Topology, Chapter III, § 1, no. 2, Example); it is called the topology on G defined by the filtration (G_n). When we use topological notions concerning a filtered group, we shall mean, unless otherwise stated, with the topology defined by the filtration. Note that the G_n, being subgroups of G, are both open and closed (General Topology, Chapter III, § 2, no. 1, Corollary to Proposition 4).
 
 As each G, is normal in G, the entourages of the left and right uniformities on G coincide; we deduce that G admits a Hausdorff completion group $\hat{G}$ (General Topology, Chapter III, § 3, no. 4, Theorem 1 and no. 1, Proposition 2).
 
@@ -363,7 +363,7 @@ $$
 \bigcap_{n \in \mathbf{Z}} (M . G_n) = \bigcap_{n \in \mathbf{Z}} (G_n . M)
 $$
 
-(General Topology, Chapter III, § 3, no. 1, formula (1)); in particular $\bigcap_{n \in \mathbf{Z}} G$, is the closure of $\{e\}$; thus it is seen that for the topology on G to be Hausdorff it is necessary and sufficient that the filtration (G,) be separated. For the topology on G to be discrete, it is necessary and sufficient that there exist $n \in \mathbf{Z}$ such that $G_+ = \{e\}$ (in which case $G_m = \{e\}$ for $m \geq n$); then the filtration (G,) is called discrete.
+(General Topology, Chapter III, § 3, no. 1, formula (1)); in particular $\bigcap_{n \in \mathbf{Z}} G$, is the closure of $\{e\}$; thus it is seen that for the topology on G to be Hausdorff it is necessary and sufficient that the filtration (G_n) be separated. For the topology on G to be discrete, it is necessary and sufficient that there exist $n \in \mathbf{Z}$ such that $G_+ = \{e\}$ (in which case $G_m = \{e\}$ for $m \geq n$); then the filtration (G_n) is called discrete.
 
 Since the Hausdorff group associated with G is $H = G / \left( \bigcap_{n \in \mathbf{Z}} G_n \right)$, the associated graded groups gr(G) and gr(H) (if H is given the quotient filtration) are canonically identified.
 
@@ -385,13 +385,13 @@ $$
 d(x, y) \leq d(x, z) + d(y, z).
 $$
 
-Thus $d$ is a *pseudometric* on G which is invariant under left and right translations and G, is the set of $x \in G$ such that $d(e, x) < \rho^n$; the uniform structure defined by $d$ is then the uniform structure on the topological group G. If G is Hausdorff, G is a *zero-dimensional* metrizable topological space (*General Topology*, Chapter IX, § 6, no. 4); $d$ is a *distance* on G if also the filtration (G,) is exhaustive.
+Thus $d$ is a *pseudometric* on G which is invariant under left and right translations and G_n is the set of $x \in G$ such that $d(e, x) < \rho^n$; the uniform structure defined by $d$ is then the uniform structure on the topological group G. If G is Hausdorff, G is a *zero-dimensional* metrizable topological space (*General Topology*, Chapter IX, § 6, no. 4); $d$ is a *distance* on G if also the filtration (G_n) is exhaustive.
 
 Given a topological ring A, recall that a *left topological A-module* is an A-module E with a topology compatible with its additive group structure and such that the mapping $(a, x) \mapsto ax$ from $A \times E$ to E is continuous (*General Topology*, Chapter III, § 6, no. 6).
 
 #### Proposition 3 {#ac-iii-s2-prop-3 .statement}
 
-*Let A be ajiltered ring, (A,) itsjiltration, B the subring $\bigcup_{n \in \mathbf{Z}} A_n$ of A, E ajiltered B-module, (E_n) itsjiltration and F the sub-B-module $\bigcup_{n \in \mathbf{Z}} E_n$ of E. Then the mapping $(a, x) \mapsto ax$ from $B \times F$ to F is continuous.*
+*Let A be a filtered ring, (A_n) its filtration, B the subring $\bigcup_{n \in \mathbf{Z}} A_n$ of A, E a filtered B-module, (E_n) its filtration and F the sub-B-module $\bigcup_{n \in \mathbf{Z}} E_n$ of E. Then the mapping $(a, x) \mapsto ax$ from $B \times F$ to F is continuous.*
 
 Let $a, \in B, x_0 \in F$; there exists by hypothesis integers $r, s$ such that $a_0 \in A_r$ and $x_0 \in E_s$. The relation
 
@@ -417,7 +417,7 @@ It is seen in particular that a filtered ring A whose filtration is *exhaustive*
 
 #### Proposition 4 {#ac-iii-s2-prop-4 .statement}
 
-*Let A be a commutative ringjiltered by an exhaustivejiltration (A,) and p an ideal of A. Suppose that the ideal $\operatorname{gr}(p) = \bigoplus_{n \in \mathbf{Z}} (p \cap A_n)/(p \cap A_{n+1})$ of the ring $\operatorname{gr}(A)$ is prime. Then the closure of p in A is a prime ideal.*
+*Let A be a commutative ring filtered by an exhaustive filtration (A_n) and p an ideal of A. Suppose that the ideal $\operatorname{gr}(p) = \bigoplus_{n \in \mathbf{Z}} (p \cap A_n)/(p \cap A_{n+1})$ of the ring $\operatorname{gr}(A)$ is prime. Then the closure of p in A is a prime ideal.*
 
 We know that gr(A/p) is isomorphic to gr(A)/gr(p) (no. 4, Proposition 2) and hence an integral domain; we conclude that $A / \bigcap_{n \in \mathbf{Z}} (p + A_n)$ is an integral domain (no. 3, Corollary to Proposition 1). Then the closure $\bigcap_{n \in \mathbf{Z}} (p + A_n)$ of $p$ is a prime ideal.
 
@@ -665,7 +665,7 @@ It is sufficient to apply Corollary 1 with E = A.
 
 #### Corollary 3 {#ac-iii-s2-prop-12-cor-3 .statement}
 
-Let A be a complete filtered ring, (A,) its filtration, E a Hausdorff filtered A-module, (E_n) its filtration and F a finitely generated submodule of E; suppose that A_∞ = A and E_0 = E.
+Let A be a complete filtered ring, (A_n) its filtration, E a Hausdorff filtered A-module, (E_n) its filtration and F a finitely generated submodule of E; suppose that A_∞ = A and E_0 = E.
 
 (i) If, for all k ≥ 0, E_k = E_{k+1} + A_k F, then F = E.
 (ii) If it is further supposed that the filtration on E is derived from that on A (no. 1, Example 2), the relation E = E_1 + F implies F = E.

@@ -58,7 +58,7 @@ subsections:
       pdf_page: 190
 statements: 49
 exercises: 23
-content_sha256: 64a6c9421a0e3ab06b3a64d7ceccfc53b6af8db2781476a43ff7b9ac2d7e7c18
+content_sha256: e46f25bda4367c7c10cc5c14dac74f3824b7339be2db8cf4ccd9bf9c243796cf
 ---
 
 ## § 10. GALOIS EXTENSIONS
@@ -355,7 +355,7 @@ $$
 
 This proves b).
 
-Finally, c) follows from Th. 2 (V, p. 65) which proves the existence of a family (a,,), ,, such that $u(x) = \sum_{\sigma \in \Gamma} a_\sigma \sigma(x)$ (for all $x \in N$) and from Dedekind's theorem (V, p. 27, Cor. 2) which proves the uniqueness of (a,,), ,$\Gamma$.
+Finally, c) follows from Th. 2 (V, p. 65) which proves the existence of a family $(a_\sigma)_{\sigma \in \Gamma}$ such that $u(x) = \sum_{\sigma \in \Gamma} a_\sigma \sigma(x)$ (for all $x \in N$) and from Dedekind's theorem (V, p. 27, Cor. 2) which proves the uniqueness of $(a_\sigma)_{\sigma \in \Gamma}$.
 
 ### 7. The fundamental theorem of Galois theory
 

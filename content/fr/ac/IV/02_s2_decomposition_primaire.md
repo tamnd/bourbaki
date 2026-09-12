@@ -36,7 +36,7 @@ subsections:
       pdf_page: 328
 statements: 46
 exercises: 35
-content_sha256: 4ea40e4021993533ff69b55389fb0ebd11745db620820620f573e2bc08e81f83
+content_sha256: dd2aeaa3f42357c515bdc9b90340449fad3efdeaf32cae65465f6bfd91790bb5
 ---
 
 ## § 2. Décomposition primaire.
@@ -276,7 +276,7 @@ c) Tous les éléments de $\operatorname{Ass}(A)$ sont des idéaux maximaux.
 
 Si ces conditions sont satisfaites, A n’a qu’un nombre fini d’idéaux premiers, qui sont tous maximaux et associés au A-module A ; de plus, A est un anneau semi-local, et son radical est nilpotent.
 
-En effet, dire que A est artinien équivaut à dire que A est un A-module de longueur finie ; donc a) et c) sont équivalentes en vertu de la prop. 7. Il est clair que b) implique c). Enfin a) implique b) puisque tout anneau artinien intègre est un corps. Les propriétés a,) b), c) sont donc équivalentes.
+En effet, dire que A est artinien équivaut à dire que A est un A-module de longueur finie ; donc a) et c) sont équivalentes en vertu de la prop. 7. Il est clair que b) implique c). Enfin a) implique b) puisque tout anneau artinien intègre est un corps. Les propriétés a), b), c) sont donc équivalentes.
 
 Supposons-les vérifiées. Comme tout idéal premier de A appartient à $\operatorname{Supp}(A)$ et que tout élément de $\operatorname{Supp}(A)$ contient un élément de $\operatorname{Ass}(A)$ (§ 1, n° 3, prop. 7), il résulte de c) que $\operatorname{Ass}(A)$ est l’ensemble de tous les idéaux premiers de A ; donc A n’a qu’un nombre fini d’idéaux premiers, tous maximaux et associés au A-module A. Ceci implique évidemment que A est semi-local ; enfin, on sait que le radical d’un anneau artinien est nilpotent (*Alg.*, chap. VIII, § 6, n° 4, th. 3).
 

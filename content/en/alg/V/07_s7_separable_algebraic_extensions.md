@@ -50,7 +50,7 @@ subsections:
       pdf_page: 160
 statements: 39
 exercises: 5
-content_sha256: 9133ec09db76d1ddd91ab9ec0ebf1ccc424ba0f04aeb06eb0efc144beb94249b
+content_sha256: 06085a7983cd2523cac54677a7cfe188fe377e42c7b238dbe69899a74813da86
 ---
 
 ## § 7. SEPARABLE ALGEBRAIC EXTENSIONS
@@ -308,7 +308,7 @@ With the notation of the preceding proposition, E, is called the relative separa
 
 #### Proposition 13 {#alg-v-s7-prop-13 .statement}
 
-— Let E be an algebraic extension of K and let E,, be the relative separable algebraic closure of K in E.
+— Let E be an algebraic extension of K and let E_s be the relative separable algebraic closure of K in E.
 a) E is a p-radical extension of E,.
 b) If F is a subextension of E such that E is p-radical over F, then F ⊃ E,.
 c) E, is the unique subextension of E which is separable over K and over which E is p-radical.
@@ -322,7 +322,7 @@ Finally c) follows from a) and b) and Prop. 12.
 
 — Let E and K' be two extensions of K contained in the same extension of K. Suppose that E is algebraic over K and denote by E, the relative separable algebraic closure of K in E. Then $K'(E_s)$ is the relative separable algebraic closure of K' in $K'(E)$.
 
-For $K'(E_s)$ is a separable algebraic extension of K' by Prop. 10 (V, p. 42); since E is p-radical over E,, the extension $K'(E)$ of $K'(E_s)$ is p-radical (V, p. 25, Cor.). Now it suffices to apply Prop. 13.
+For $K'(E_s)$ is a separable algebraic extension of K' by Prop. 10 (V, p. 42); since E is p-radical over E_s, the extension $K'(E)$ of $K'(E_s)$ is p-radical (V, p. 25, Cor.). Now it suffices to apply Prop. 13.
 
 #### Corollary 2 {#alg-v-s7-prop-13-cor-2 .statement}
 

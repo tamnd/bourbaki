@@ -30,7 +30,7 @@ subsections:
       pdf_page: 371
 statements: 22
 exercises: 15
-content_sha256: 78e281d15c49979fbcb148265398137859535dae478a95080b8925131e3b224f
+content_sha256: 1669f28cbbdd0a8d5ddd4e646199c1ae3fff0b608b6e24347c3277dc4d3c43ec
 ---
 
 ## § 2. TORSION MODULES OVER A PRINCIPAL IDEAL DOMAIN
@@ -119,7 +119,7 @@ Indeed, if N and N' are two submodules of M, then M = N ⊕ N' if and only if M,
 
 — *Let N be a submodule of the torsion A-module M. If, for every irreducible element π of A, either N, = 0 or $(M/N)_\pi = 0$, then N is a direct factor of M*.
 
-Indeed, the condition $(M/N)_\pi = 0$ implies N, = M,, and Cor. 2 applies.
+Indeed, the condition $(M/N)_\pi = 0$ implies $N_\pi = M_\pi$ and Cor. 2 applies.
 
 An A-module M is called *semi-simple* if every submodule of M is a direct factor (cf. A, VIII, § 3).
 

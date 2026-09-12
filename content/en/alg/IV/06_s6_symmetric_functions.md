@@ -55,7 +55,7 @@ errata:
     - says: representing $\varphi$ and $\varphi \circ w$ have the same determinant and this follows from the relation $\det w = 1$
       read: representing $\varphi$ and $\varphi \circ \omega$ have the same determinant and this follows from the relation $\det \omega = 1$
       why: The last two occurrences of the same automorphism on page 86, both roman.
-content_sha256: 44c7a13e648c909c6fd334bb9918fdde585c3f51cb8dcf4964408d025c30bf9a
+content_sha256: 9c61acb577c85b4200dd53a42ac4452b8bb111f73a601445a3f0e1a21a8eeb82
 ---
 
 ## § 6. SYMMETRIC FUNCTIONS
@@ -1152,7 +1152,7 @@ $$
 \text{dis}_{m+1}(f) = a_0^2 \text{dis}_m(f)
 $$
 
-This follows from Cor. 1 on taking $n = 1,\ g = 1$, by the formula res,,$(f,1) = a_0$ (IV, p. 76, Example 1).
+This follows from Cor. 1 on taking $n = 1,\ g = 1$, by the formula $\operatorname{res}_{m,1}(f,1) = a_0$ (IV, p. 76, Example 1).
 
 #### Corollary 3 {#alg-iv-s6-prop-11-cor-3 .statement}
 

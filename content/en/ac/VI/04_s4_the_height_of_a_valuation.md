@@ -33,7 +33,7 @@ subsections:
       pdf_page: 415
 statements: 18
 exercises: 11
-content_sha256: cdc27e73ee54626a8784a6f26f479defcd8d5066ee817997176c38e0199904ea
+content_sha256: 96de5ff4897051631e3ee827580eed4c33a462b1e5f34f77bfd9e66ad0129ccd
 ---
 
 ## 4. THE HEIGHT OF A VALUATION
@@ -201,7 +201,7 @@ For example a discrete valuation is of height 1. Only improper valuations are of
 (b) $A$ is a valuation ring of $\mathbf{K}$ and has no prime ideals other than $(O)$ and $m(A)$;
 (c) $A$ is maximal among the subrings of $\mathbf{K}$ distinct from $\mathbf{K}$.
 
-Proposition 5 of no. 4 shows that (a) implies (b) and Proposition 1 of no. 1 shows that (b) implies (c). It remains to show that (c) implies (a). Suppose A is maximal among the subrings of K distinct from K. Let m be a maximal ideal of A and V a valuation ring of K dominating A,, (§ 1, no. 2, Corollary to Theorem 2); as m(V) ∩ A = m and m ≠ (0) (since A is not a field), V ≠ K, whence V = A, which proves that A is not the ring of a valuation v on K. This being so, v is of height 1 by Propositions 1 (no. 1) and 5 (no. 4).
+Proposition 5 of no. 4 shows that (a) implies (b) and Proposition 1 of no. 1 shows that (b) implies (c). It remains to show that (c) implies (a). Suppose A is maximal among the subrings of K distinct from K. Let m be a maximal ideal of A and V a valuation ring of K dominating A_m (§ 1, no. 2, Corollary to Theorem 2); as m(V) ∩ A = m and m ≠ (0) (since A is not a field), V ≠ K, whence V = A, which proves that A is not the ring of a valuation v on K. This being so, v is of height 1 by Propositions 1 (no. 1) and 5 (no. 4).
 
 #### Proposition 7 {#ac-vi-s4-prop-7 .statement}
 

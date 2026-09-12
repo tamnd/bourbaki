@@ -42,7 +42,7 @@ subsections:
       pdf_page: 339
 statements: 33
 exercises: 41
-content_sha256: 085bdbaa158b3451b1406ac74b0dc1768d25be4112fb7e750530e7530abbe3da
+content_sha256: d7f2b21361b689bf436e28262bca0874a95f69354bb19e5902c798a99a443aeb
 ---
 
 ## § 2. ORDERED FIELDS
@@ -176,11 +176,11 @@ Condition (OE) is clearly equivalent to:
 
 Condition (OE) is necessary: if E is an ordered extension of K then the elements $p_i x_i^2$ are positive in E, so zero if their sum is zero. On the other hand $p_i x_i^2 = 0$ is equivalent to $p_i x_i = 0$.
 
-Conversely, suppose condition (OE) is satisfied, then we will define an ordering on E by constructing a subset P of E which satisfies conditions (AP,,), (APII), (AP,,,) and (APIV), and which contains the set $K_+$ of positive elements of K. Such a subset P will certainly make E an ordered extension of K, for we will have $K \cap P = K_+$; indeed, if P were to contain an element $-a < 0$ of K, then a would belong to $P \cap (-P)$, contradicting (APIII).
+Conversely, suppose condition (OE) is satisfied, then we will define an ordering on E by constructing a subset P of E which satisfies conditions (AP_I), (AP_{II}), (AP_{III}) and (AP_{IV}), and which contains the set $K_+$ of positive elements of K. Such a subset P will certainly make E an ordered extension of K, for we will have $K \cap P = K_+$; indeed, if P were to contain an element $-a < 0$ of K, then a would belong to $P \cap (-P)$, contradicting (APIII).
 
-To define P, let us consider the set $\mathscr{M}$ of subsets of E which satisfy (API), (AP,,) and (AP,,,), and which contain the union of $K_+$ and the set C of squares of elements of E. This set $\mathscr{M}$ is nonempty, for it contains the set $P_0$ of elements of the form $\sum p_i x_i^2$ (that $P_0$ satisfies (AP,,,) follows immediately from (OE)).
+To define P, let us consider the set $\mathscr{M}$ of subsets of E which satisfy (AP_I), (AP_{II}) and (AP_{III}), and which contain the union of $K_+$ and the set C of squares of elements of E. This set $\mathscr{M}$ is nonempty, for it contains the set $P_0$ of elements of the form $\sum p_i x_i^2$ (that $P_0$ satisfies (AP_{III}) follows immediately from (OE)).
 
-Moreover $\mathscr{M}$ is inductive (*Set Theory*, III, p. 154, Def. 3). Thus there exists, by Th. 2 of *Set Theory*, III, p. 154, a maximal element in $\mathscr{M}$, which it remains for us to prove satisfies (APIV); now this follows from the following lemma:
+Moreover $\mathscr{M}$ is inductive (*Set Theory*, III, p. 154, Def. 3). Thus there exists, by Th. 2 of *Set Theory*, III, p. 154, a maximal element in $\mathscr{M}$, which it remains for us to prove satisfies (AP_{IV}); now this follows from the following lemma:
 
 #### Lemma {#alg-vi-s2-n3-lem-1 .statement}
 
@@ -190,16 +190,16 @@ Take $P' = P - xP$, and check that $P'$ has the required properties. Since $0 \i
 $$
 P' + P' = P - xP + P - xP = P + P - x(P + P) \subset P - xP = P',
 $$
-whence (API). We have
+whence (AP_I). We have
 $$
 P'P' = (P - xP)(P - xP) \subset \\
 \quad \subset PP + x^2PP - x(PP + PP) \subset P + CP - xP \subset P - xP = P',
 $$
-whence (AP,,,) Finally, let us check (APIII): suppose given an identity of the form $p - xq = -(r - xs)$ where $p, q, r, s$ belong to P; we deduce from this the relation $x(s + q) = p + r$; if $s + q \neq 0$ we have
+whence (AP_{II}). Finally, let us check (AP_{III}): suppose given an identity of the form $p - xq = -(r - xs)$ where $p, q, r, s$ belong to P; we deduce from this the relation $x(s + q) = p + r$; if $s + q \neq 0$ we have
 $$
 x = (s + q)^{-2}(s + q)(p + r) \in CPP \subset P,
 $$
-contrary to the hypothesis; hence $s + q = 0$, whence $p + r = 0$; since P satisfies (AP,,,) we deduce that $s = q = r = p = 0$, which completes the proof.
+contrary to the hypothesis; hence $s + q = 0$, whence $p + r = 0$; since P satisfies (AP_{III}) we deduce that $s = q = r = p = 0$, which completes the proof.
 
 #### Corollary 1 (*« Artin-Schreier Theorem »*) {#alg-vi-s2-thm-1-cor-1 .statement}
 

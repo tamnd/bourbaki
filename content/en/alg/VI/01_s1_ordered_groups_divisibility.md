@@ -65,7 +65,7 @@ subsections:
       pdf_page: 328
 statements: 53
 exercises: 36
-content_sha256: d15b5065c0dbd111b3eac4a847615904f8654cb680475b25082b83436dd2d77c
+content_sha256: 1968b64238e7b35aa048d4d0dab1d93aa2192c142ee3f3aa2d043dcf85cab677
 ---
 
 ## § 1. ORDERED GROUPS. DIVISIBILITY
@@ -252,9 +252,9 @@ As in the previous sections, we will generally be using additive notation in the
 
 Let H be a subgroup of an ordered group G; it is clear that the restriction to H of the ordering of G is compatible with the group structure of H; we will always take H to be ordered in this way, unless otherwise stated. If P is the set of positive elements of G then the set of positive elements of H is H ∩ P.
 
-Let (G,) be a family of ordered groups; according to the definition of the product of ordered sets (Set Theory, III, p. 137) the product group G = $\prod G_i$ is equipped with an ordering, the relation « (x,) ≤ (y,) » between two elements of G being by definition the same as « x, ≤ y, for all α ». It is immediate that this ordering is compatible with the group structure of G; this ordering makes G an ordered group which we call the product of the ordered groups G,. The positive elements of G are those elements all of whose components are positive. In the case where all the factors G, are identical to the same ordered group H, then G is the group H' of maps from the index set I into H, the relation « f ≤ g » between two maps from I into H being the same as « f(α) ≤ g(α) for all α ∈ I »; the positive maps are those which take only positive values. The direct sum of a family (G,) of ordered groups is defined as an ordered subgroup of their product (II, p. 202).
+Let $(G_\alpha)$ be a family of ordered groups; according to the definition of the product of ordered sets (Set Theory, III, p. 137) the product group G = $\prod G_\alpha$ is equipped with an ordering, the relation « $(x_\alpha) \leq (y_\alpha)$ » between two elements of G being by definition the same as « $x_\alpha \leq y_\alpha$ for all α ». It is immediate that this ordering is compatible with the group structure of G; this ordering makes G an ordered group which we call the product of the ordered groups $G_\alpha$. The positive elements of G are those elements all of whose components are positive. In the case where all the factors $G_\alpha$ are identical to the same ordered group H, then G is the group H' of maps from the index set I into H, the relation « f ≤ g » between two maps from I into H being the same as « f(α) ≤ g(α) for all α ∈ I »; the positive maps are those which take only positive values. The direct sum of a family $(G_\alpha)$ of ordered groups is defined as an ordered subgroup of their product (II, p. 202).
 
-Let (G_i)_i, be a family of ordered groups whose index set I is well ordered: recall (Set Theory, III, p. 157) that an order relation, called the lexicographic ordering, is defined on the product set G = $\prod G_i$, the relation « (x,) < (y,) » between two elements of G being by definition the same as « if β is the smallest of the indices i such that x_i ≠ y_i, then x_β < y_β ». Recall that the product of a well ordered family of totally ordered sets is totally ordered under the lexicographic ordering. In the general case, the lexicographic ordering on G is compatible with its group structure, as is immediately verified; equipped with this ordering, the group G is thus an ordered group, called the lexicographic product of the well ordered family of ordered groups (G,).
+Let $(G_i)_{i \in I}$ be a family of ordered groups whose index set I is well ordered: recall (Set Theory, III, p. 157) that an order relation, called the lexicographic ordering, is defined on the product set G = $\prod G_i$, the relation « $(x_i) < (y_i)$ » between two elements of G being by definition the same as « if β is the smallest of the indices i such that x_i ≠ y_i, then x_β < y_β ». Recall that the product of a well ordered family of totally ordered sets is totally ordered under the lexicographic ordering. In the general case, the lexicographic ordering on G is compatible with its group structure, as is immediately verified; equipped with this ordering, the group G is thus an ordered group, called the lexicographic product of the well ordered family of ordered groups $(G_i)$.
 
 #### Remark 1 {#alg-vi-s1-n6-rem-1 .statement}
 
@@ -449,7 +449,7 @@ Such an expression $uv^{-1}$ for an element x of $K^*$ is often called a reduced
 
 In some cases it is natural to define two elements to be coprime if $\inf(|x|, |y|) = 0$ (cf. INT, II, § 1) or to introduce the corresponding terminology in divisibility theory. We shall not do so here.
 
-Two coprime elements are necessarily positive. The positive and negative parts $x^+$ and $x^-$ of x are coprime (VI, p. 12, Prop. 9, a)). The elements $x_i$ of a family (x,)_, , are said to be *setwise coprime* if $\inf_{i \in I} x_i = 0$; if the $x_i$ are all $\geq 0$ then it is sufficient for there to exist a finite subset J of I such that the corresponding elements are setwise coprime. The elements of a family (x,) are said to be *pairwise coprime* if $\inf(x_i, x_j) = 0$ for every pair $(\ell, \kappa)$ of distinct indices.
+Two coprime elements are necessarily positive. The positive and negative parts $x^+$ and $x^-$ of x are coprime (VI, p. 12, Prop. 9, a)). The elements $x_i$ of a family $(x_i)_{i \in I}$ are said to be *setwise coprime* if $\inf_{i \in I} x_i = 0$; if the $x_i$ are all $\geq 0$ then it is sufficient for there to exist a finite subset J of I such that the corresponding elements are setwise coprime. The elements of a family $(x_i)$ are said to be *pairwise coprime* if $\inf(x_i, x_j) = 0$ for every pair $(\ell, \kappa)$ of distinct indices.
 
 The $x_i$ can be setwise coprime without being pairwise coprime.
 
