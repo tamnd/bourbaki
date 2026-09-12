@@ -29,9 +29,9 @@ subsections:
       pdf_page: 24
 statements: 7
 exercises: 7
-content_sha256: c041023c007fe26f0dd97c43c8af6366445d85dbf044e91fd0203b7ae801c782
+content_sha256: 6d9669d751fe9c623c4b9474f04ce92c22f33a01b32d94b1b5fe68a67f1f2142
 translated_from: content/en/ac/I/01_s1_diagrams_and_exact_sequences.md
-source_content_sha256: 91c566a7cecdb143718ac07860e5d6fd98267d4b75ac12334a6fbc45e5ba6b22
+source_content_sha256: ec8eea6d930f3758e5415ab8701212ba69b5e375abdfa50de29daa3eeaae7951
 translation_model: gpt-5.4, gpt-5.4-mini
 translation_run: translate-vi-3b304503
 glossary_version: 34
@@ -307,7 +307,7 @@ Coker(a). Ở (i) đã thấy rằng nó khớp tại Ker(b) và ở (ii) nó kh
 
 #### Nhận xét {#ac-i-s1-n4-rem-1 .statement}
 
-Nếu các nhóm của biểu đồ (10) đều là (chẳng hạn, phải) môđun trên một vành $\mathbf{A}$ và các đồng cấu là các đồng cấu A-môđun, thì dễ dàng kiểm tra được rằng đồng cấu d được định nghĩa trong Mệnh đề 2, (iii) cũng là một đồng cấu A-môđun: nếu $x \in \mathrm{Ker}(c)$ và $a \in \Lambda$, và $y \in B$ sao cho $v(y) = k(x)$, thì chỉ cần chú ý rằng $v(ya) = k(xa)$.
+Nếu các nhóm của biểu đồ (10) đều là (chẳng hạn, phải) môđun trên một vành $\mathbf{A}$ và các đồng cấu là các đồng cấu A-môđun, thì dễ dàng kiểm tra được rằng đồng cấu d được định nghĩa trong Mệnh đề 2, (iii) cũng là một đồng cấu A-môđun: nếu $x \in \mathrm{Ker}(c)$ và $a \in A$, và $y \in B$ sao cho $v(y) = k(x)$, thì chỉ cần chú ý rằng $v(ya) = k(xa)$.
 
 #### Hệ quả 1 {#ac-i-s1-prop-2-cor-1 .statement}
 

@@ -32,7 +32,7 @@ subsections:
       pdf_page: 77
 statements: 33
 exercises: 7
-content_sha256: c84daa7dbe6aa93123acfe74543d04724270297c2378e2fea903940e90f83dcc
+content_sha256: 19396da9c7266e111a22152a3c38c8101ec803bca9eb1e79fef804297c3c8b73
 translated_from: content/fr/ac/X/06_s6_extension_des_scalaires_dans_les.md
 source_lang: fr
 translation_method: machine
@@ -124,7 +124,7 @@ and such that $K_i$ is a monogenic $K_{i-1}$-algebra for $i = 1, \ldots, m$; thi
 
 #### Corollary 1 {#ac-x-s6-prop-4-cor-1 .statement}
 
-Let $k$ be a field, $K$ an extension of $k$ and $\Lambda$ a $k$-algebra essentially of finite type. For $A_{(K)}$ to be a Macaulay ring (resp. a Gorenstein ring), it is necessary and sufficient that the same be true of $A$.
+Let $k$ be a field, $K$ an extension of $k$ and $A$ a $k$-algebra essentially of finite type. For $A_{(K)}$ to be a Macaulay ring (resp. a Gorenstein ring), it is necessary and sufficient that the same be true of $A$.
 
 If $A$ is a Macaulay ring (resp. a Gorenstein ring), the same is true of $A_{(K)}$ by Prop. 4. Since $A_{(K)}$ is a faithfully flat $A$-module, the converse follows from Prop. 10 of § 2, No. 7 (resp. Cor. 1 of Prop. 12 of § 3, No. 8).
 
@@ -228,7 +228,7 @@ Let K be an extension of finite type of k; let us prove that the ring $A_{(K)}$ 
 
 Suppose the ring B regular (resp. normal), and prove the proposition. The canonical homomorphism $B \to A \otimes_k B$ makes $A \otimes_k B$ into a free B-module. For every prime ideal $p$ of B, the ring $(A \otimes_k B) \otimes_B \kappa(p)$ identifies with $A \otimes_k \kappa(p)$; by the corollary of Prop. 9 of § 4, No. 5 (resp. Cor. 3 of Th. 4 of § 1, No. 10), it is enough to prove that $A \otimes_k \kappa(p)$ is regular (resp. normal) for every prime ideal $p$ of B.
 
-If the $k$-algebra B is essentially of finite type, the extension $\kappa(p)$ of $k$ is of finite type and the ring $A \otimes_k \kappa(p)$ is regular (resp. normal) by what we have seen above. Suppose now the $k$-algebra A essentially of finite type; the ring $A \otimes_k \kappa(p)$ is noetherian and is the union of the increasing filtered family of noetherian subrings $\Lambda \otimes_k K$, where $K$ runs through the subextensions of finite type of $\kappa(p)$. The latter are regular (resp. normal), and one applies lemma 1 of No. 3.
+If the $k$-algebra B is essentially of finite type, the extension $\kappa(p)$ of $k$ is of finite type and the ring $A \otimes_k \kappa(p)$ is regular (resp. normal) by what we have seen above. Suppose now the $k$-algebra A essentially of finite type; the ring $A \otimes_k \kappa(p)$ is noetherian and is the union of the increasing filtered family of noetherian subrings $A \otimes_k K$, where $K$ runs through the subextensions of finite type of $\kappa(p)$. The latter are regular (resp. normal), and one applies lemma 1 of No. 3.
 
 #### Corollary 1 {#ac-x-s6-prop-7-cor-1 .statement}
 
@@ -240,7 +240,7 @@ Let $A$ and $B$ be two $k$-algebras satisfying the hypotheses of the corollary. 
 
 Let $k$ be a field, $A$ an absolutely regular (resp. absolutely normal) $k$-algebra, and $K$ an extension of $k$. Suppose that $A$ is essentially of finite type or that the extension $K$ of $k$ is of finite type.
 
-a) The ring $\Lambda_{(K)}$ is regular (resp. normal).
+a) The ring $A_{(K)}$ is regular (resp. normal).
 
 b) If the extension $K$ of $k$ is separable, the $k$-algebra $A_{(K)}$ is absolutely regular (resp. absolutely normal).
 
@@ -250,9 +250,9 @@ Assertion a) results from proposition 7; assertion b) results from cor. 1 and ex
 
 Let $k$ be a field, $A$ a $k$-algebra, and $K$ an extension of $k$. Suppose that the $k$-algebra $A$ is essentially of finite type or that the extension $K$ of $k$ is of finite type. In order that the $k$-algebra $A$ be absolutely regular (resp. absolutely normal), it is necessary and sufficient that the $K$-algebra $A_{(K)}$ be so.
 
-Suppose $A$ absolutely regular (resp. absolutely normal) and let $K'$ be a purely inseparable extension of $K$ of finite degree. The ring $K' \otimes_K \Lambda_{(K)}$, isomorphic to $K' \otimes_k A$, is regular (resp. normal) by cor. 2.
+Suppose $A$ absolutely regular (resp. absolutely normal) and let $K'$ be a purely inseparable extension of $K$ of finite degree. The ring $K' \otimes_K A_{(K)}$, isomorphic to $K' \otimes_k A$, is regular (resp. normal) by cor. 2.
 
-Suppose conversely that the $K$-algebra $A_{(K)}$ is absolutely regular (resp. absolutely normal), and let $k'$ be a purely inseparable extension of $k$ of finite degree. Let $L$ be a composite extension of $k'$ and $K$; then the ring $A_{(L)}$ may be identified with $L \otimes_K \Lambda_{(K)}$, hence is regular (resp. normal); consequently, the ring $A_{(k')}$ is regular (resp. normal) by prop. 5, a) of No. 3.
+Suppose conversely that the $K$-algebra $A_{(K)}$ is absolutely regular (resp. absolutely normal), and let $k'$ be a purely inseparable extension of $k$ of finite degree. Let $L$ be a composite extension of $k'$ and $K$; then the ring $A_{(L)}$ may be identified with $L \otimes_K A_{(K)}$, hence is regular (resp. normal); consequently, the ring $A_{(k')}$ is regular (resp. normal) by prop. 5, a) of No. 3.
 
 #### Corollary 4 {#ac-x-s6-prop-7-cor-4 .statement}
 
@@ -274,15 +274,15 @@ Let k be a field and A a k-algebra essentially of finite type. Let I denote the 
 Let B denote the ring $A \otimes_k A$ and provide it with the structure of an A-algebra deduced from the homomorphism $\rho : A \to A \otimes_k A$ such that $\rho(x) = x \otimes 1$; then $\mu$ is a homomorphism of A-algebras, and induces by passing to the quotient an isomorphism of $B/I$ onto A.
 
 (i) $\Rightarrow$ (ii): this results from Prop. 7.
-(ii) $\Rightarrow$ (iii): it is enough to apply (ii) with $C = k$, then with $C = \Lambda$.
+(ii) $\Rightarrow$ (iii): it is enough to apply (ii) with $C = k$, then with $C = A$.
 (iii) $\Rightarrow$ (iv): the A-module B is free, hence faithfully flat. If the ring B is regular, A is regular ($§ 4$, No. 5, Prop. 8); the ideal I is then completely secant ($§ 5$, No. 3, Prop. 2).
-(iv) $\Rightarrow$ (i): let us suppose the ideal I completely secant and first prove that A is regular. Let m be a maximal ideal of A and let $\nu : (A/m) \otimes_k A \to A/m$ be the homomorphism deduced from $\mu$. The maximal ideal $n = \mathrm{Ker}\,\nu$ is equal to $1((A/m) \otimes_k \Lambda)$; applying Prop. 6 of $§ 5$, No. 6 to the A-algebra $A' = A/m$, one sees that the ideal n is completely secant in $(\Lambda/m) \otimes_k \Lambda$. Consequently ($§ 5$, No. 3, Prop. 3) the local ring $((A/m) \otimes_k \Lambda)_n$ is regular. Let us denote by $j : \Lambda \to (A/m) \otimes_k A$ the homomorphism $x \mapsto 1 \otimes x$; since $\nu \circ j$ is the canonical homomorphism of A into $A/m$, one has $j^{-1}(n) = m$. Thus j extends to a local homomorphism of local rings from $A_m$ into $((A/m) \otimes_k A)_n$, which makes the latter into a faithfully flat $A_m$-module. By Prop. 8 of $§ 4$, No. 5, the ring $A_m$ is therefore regular. We have thus proved that A is regular.
+(iv) $\Rightarrow$ (i): let us suppose the ideal I completely secant and first prove that A is regular. Let m be a maximal ideal of A and let $\nu : (A/m) \otimes_k A \to A/m$ be the homomorphism deduced from $\mu$. The maximal ideal $n = \mathrm{Ker}\,\nu$ is equal to $1((A/m) \otimes_k A)$; applying Prop. 6 of $§ 5$, No. 6 to the A-algebra $A' = A/m$, one sees that the ideal n is completely secant in $(A/m) \otimes_k A$. Consequently ($§ 5$, No. 3, Prop. 3) the local ring $((A/m) \otimes_k A)_n$ is regular. Let us denote by $j : A \to (A/m) \otimes_k A$ the homomorphism $x \mapsto 1 \otimes x$; since $\nu \circ j$ is the canonical homomorphism of A into $A/m$, one has $j^{-1}(n) = m$. Thus j extends to a local homomorphism of local rings from $A_m$ into $((A/m) \otimes_k A)_n$, which makes the latter into a faithfully flat $A_m$-module. By Prop. 8 of $§ 4$, No. 5, the ring $A_m$ is therefore regular. We have thus proved that A is regular.
 
-Now let $k'$ be an extension of k. The kernel of the mapping $\mu' : A_{(k')} \otimes_{k'} \Lambda_{(k')} \to A_{(k')}$ deduced from the multiplication of $A_{(k')}$ is none other than $IA_{(k')}$; it is therefore completely secant in $A_{(k')}$ ($§ 5$, No. 6, Prop. 6). The $k'$-algebra $A_{(k')}$ therefore satisfies condition (iv); by what has just been seen, it is regular, and this proves (i).
+Now let $k'$ be an extension of k. The kernel of the mapping $\mu' : A_{(k')} \otimes_{k'} A_{(k')} \to A_{(k')}$ deduced from the multiplication of $A_{(k')}$ is none other than $IA_{(k')}$; it is therefore completely secant in $A_{(k')}$ ($§ 5$, No. 6, Prop. 6). The $k'$-algebra $A_{(k')}$ therefore satisfies condition (iv); by what has just been seen, it is regular, and this proves (i).
 
 Recall (A, III, p. 133-134) that the quotient $I/I^2$ endowed with the A-module structure deduced from $\rho$ is denoted by $\Omega_k(A)$ and called the module of k-differentials of A. When the k-algebra A is essentially of finite type, the ring $A \otimes_k A$ is noetherian, so that the A-module $\Omega_k(A)$ is finitely generated.
 
-One denotes by $d_{A/k}$, or simply by d, the k-linear mapping from A into $\Omega_k(A)$ which associates with an element x of A the class of $x \otimes 1 - 1 \otimes x$ in $\Omega_k(A)$. The mapping d is a k-derivation; for every A-module M and every k-derivation D : A $\to$ M, there exists a unique A-linear mapping $g : \Omega_k(\Lambda) \to M$ such that $D = g \circ d$ (loc. cit., Prop. 18).
+One denotes by $d_{A/k}$, or simply by d, the k-linear mapping from A into $\Omega_k(A)$ which associates with an element x of A the class of $x \otimes 1 - 1 \otimes x$ in $\Omega_k(A)$. The mapping d is a k-derivation; for every A-module M and every k-derivation D : A $\to$ M, there exists a unique A-linear mapping $g : \Omega_k(A) \to M$ such that $D = g \circ d$ (loc. cit., Prop. 18).
 
 If S is a multiplicative subset of A, the canonical $S^{-1}A$-linear mapping (loc. cit., p. 136)
 $$
@@ -332,7 +332,7 @@ $$
 
 which proves (ii).
 
-(iii') \Rightarrow (i) : Suppose that one has [\kappa_A \otimes_A \Omega_k(\Lambda) : \kappa_A] \leq n , that is to say [\kappa(q) \otimes_B \Omega_k(B) : \kappa(q)] \leq n , and let us prove that the k-algebra B is absolutely regular. Let (x_1, \ldots , x_n) be a sequence of elements of B such that 1 \otimes dx_1, \ldots , 1 \otimes dx_n generate the \kappa(q)-vector space \kappa(q) \otimes_B \Omega_k(B) . Replacing B by B_f , for a suitable element f of B - q , one may suppose that dx_1, \ldots , dx_n generate the B-module \Omega_k(B) (Nakayama lemma and II, § 5, No. 1, prop. 2). Let \bar{k} be an algebraically closed extension of k . It is enough to prove that the \bar{k}-algebra B_{(\bar{k})} is regular, since this will imply that B is absolutely regular (cor. 4 to prop. 7 of No. 4). For every canonical factor C of B_{(k)} , the differentials d(1 \otimes x_i) generate the C-module \Omega_{\bar{k}}(C) (A, III, § 10, No. 12, prop. 20). The theorem therefore follows from the two following lemmas:
+(iii') \Rightarrow (i) : Suppose that one has [\kappa_A \otimes_A \Omega_k(A) : \kappa_A] \leq n , that is to say [\kappa(q) \otimes_B \Omega_k(B) : \kappa(q)] \leq n , and let us prove that the k-algebra B is absolutely regular. Let (x_1, \ldots , x_n) be a sequence of elements of B such that 1 \otimes dx_1, \ldots , 1 \otimes dx_n generate the \kappa(q)-vector space \kappa(q) \otimes_B \Omega_k(B) . Replacing B by B_f , for a suitable element f of B - q , one may suppose that dx_1, \ldots , dx_n generate the B-module \Omega_k(B) (Nakayama lemma and II, § 5, No. 1, prop. 2). Let \bar{k} be an algebraically closed extension of k . It is enough to prove that the \bar{k}-algebra B_{(\bar{k})} is regular, since this will imply that B is absolutely regular (cor. 4 to prop. 7 of No. 4). For every canonical factor C of B_{(k)} , the differentials d(1 \otimes x_i) generate the C-module \Omega_{\bar{k}}(C) (A, III, § 10, No. 12, prop. 20). The theorem therefore follows from the two following lemmas:
 
 #### Lemma 4 {#ac-x-s6-lem-4 .statement}
 
@@ -346,31 +346,31 @@ Let us pass to the general case. Let e be the idempotent element of B_{(K)} such
 
 Let k be an algebraically closed field, A a finitely generated k-algebra whose spectrum is connected, n an integer and (x_1, \ldots , x_n) a finite sequence of elements of A . Suppose that A is of dimension n and that the differentials dx_1, \ldots , dx_n generate the A-module \Omega_k(A) . Then the ring A is an integral domain and regular and the A-module \Omega_k(A) is free with basis (dx_1, \ldots , dx_n) .
 
-Let m be a maximal ideal of A such that \dim(A_m) = n . One has [A/m : k] = 1 (V, § 3, No. 3, prop. 1 (iii)), hence A = m \oplus k1_A . Let p and q denote the corresponding projections. For $a$ and $b$ in $\Lambda$, one has
+Let m be a maximal ideal of A such that \dim(A_m) = n . One has [A/m : k] = 1 (V, § 3, No. 3, prop. 1 (iii)), hence A = m \oplus k1_A . Let p and q denote the corresponding projections. For $a$ and $b$ in $A$, one has
 $$
 ab = (p(a)q(b) + q(a)p(b) + p(a)p(b), q(a)q(b)) ,
 $$
-whence $p(ab) \equiv p(a)q(b) + q(a)p(b) \pmod{\mathfrak{m}^2}$. Consequently the mapping $\delta : \Lambda \to \mathfrak{m}/\mathfrak{m}^2$ which associates to each element $x$ of $\Lambda$ the class of $p(x)$ modulo $\mathfrak{m}^2$ is a $k$-derivation of $\Lambda$ into the $k$-vector space $\mathfrak{m}/\mathfrak{m}^2$. There therefore exists a $\Lambda$-linear mapping $\phi : \Omega_k(\Lambda) \to \mathfrak{m}/\mathfrak{m}^2$ such that $\delta(x) = \phi(dx)$ for every $x \in \Lambda$. Since $\delta$ is surjective, the $\phi(dx_i)$ generate the $\Lambda/\mathfrak{m}$-vector space $\mathfrak{m}/\mathfrak{m}^2$, and one has $[\mathfrak{m}/\mathfrak{m}^2 : \Lambda/\mathfrak{m}] \leq n = \dim(A_{\mathfrak{m}})$. It follows that $A_{\mathfrak{m}}$ is regular and that the images of the $dx_i$ form a basis of the $\Lambda/\mathfrak{m}$-vector space $\Lambda/\mathfrak{m} \otimes_A \Omega_k(\Lambda)$.
+whence $p(ab) \equiv p(a)q(b) + q(a)p(b) \pmod{\mathfrak{m}^2}$. Consequently the mapping $\delta : A \to \mathfrak{m}/\mathfrak{m}^2$ which associates to each element $x$ of $A$ the class of $p(x)$ modulo $\mathfrak{m}^2$ is a $k$-derivation of $A$ into the $k$-vector space $\mathfrak{m}/\mathfrak{m}^2$. There therefore exists a $A$-linear mapping $\phi : \Omega_k(A) \to \mathfrak{m}/\mathfrak{m}^2$ such that $\delta(x) = \phi(dx)$ for every $x \in A$. Since $\delta$ is surjective, the $\phi(dx_i)$ generate the $A/\mathfrak{m}$-vector space $\mathfrak{m}/\mathfrak{m}^2$, and one has $[\mathfrak{m}/\mathfrak{m}^2 : A/\mathfrak{m}] \leq n = \dim(A_{\mathfrak{m}})$. It follows that $A_{\mathfrak{m}}$ is regular and that the images of the $dx_i$ form a basis of the $A/\mathfrak{m}$-vector space $A/\mathfrak{m} \otimes_A \Omega_k(A)$.
 
-Let us now prove that the ring $\Lambda$ is an integral domain and regular. There exists a minimal prime ideal $\mathfrak{q}$ of $\Lambda$ such that $\dim(\Lambda/\mathfrak{q}) = n$. For every maximal ideal $\mathfrak{m}$ of $\Lambda$ containing $\mathfrak{q}$, one has $\dim(A_{\mathfrak{m}}) = n$ (VIII, § 2, No. 4, cor. 2 to th. 3), so that $A_{\mathfrak{m}}$ is regular by what we have just seen. In particular $A_{\mathfrak{m}}$ is an integral domain, which implies $\mathfrak{q}A_{\mathfrak{m}} = 0$. Since this holds for all the maximal ideals $\mathfrak{m}$ of $V(\mathfrak{q})$, one deduces that one has $\operatorname{Supp}(\mathfrak{q}) \cap V(\mathfrak{q}) = \varnothing$. But $\operatorname{Spec}(\Lambda)$ is connected, $V(\mathfrak{q})$ is nonempty and one has $\operatorname{Supp}(\mathfrak{q}) \cup V(\mathfrak{q}) = \operatorname{Spec}(\Lambda)$ (II, § 4, No. 4, prop. 16). One deduces that $\operatorname{Supp}(\mathfrak{q}) = \varnothing$, whence $\mathfrak{q} = 0$, which means that $\Lambda$ is an integral domain. One then has $\dim(A_{\mathfrak{m}}) = n$ for every maximal ideal $\mathfrak{m}$ of $\Lambda$; applying the first part of the proof, one deduces that $\Lambda$ is regular.
+Let us now prove that the ring $A$ is an integral domain and regular. There exists a minimal prime ideal $\mathfrak{q}$ of $A$ such that $\dim(A/\mathfrak{q}) = n$. For every maximal ideal $\mathfrak{m}$ of $A$ containing $\mathfrak{q}$, one has $\dim(A_{\mathfrak{m}}) = n$ (VIII, § 2, No. 4, cor. 2 to th. 3), so that $A_{\mathfrak{m}}$ is regular by what we have just seen. In particular $A_{\mathfrak{m}}$ is an integral domain, which implies $\mathfrak{q}A_{\mathfrak{m}} = 0$. Since this holds for all the maximal ideals $\mathfrak{m}$ of $V(\mathfrak{q})$, one deduces that one has $\operatorname{Supp}(\mathfrak{q}) \cap V(\mathfrak{q}) = \varnothing$. But $\operatorname{Spec}(A)$ is connected, $V(\mathfrak{q})$ is nonempty and one has $\operatorname{Supp}(\mathfrak{q}) \cup V(\mathfrak{q}) = \operatorname{Spec}(A)$ (II, § 4, No. 4, prop. 16). One deduces that $\operatorname{Supp}(\mathfrak{q}) = \varnothing$, whence $\mathfrak{q} = 0$, which means that $A$ is an integral domain. One then has $\dim(A_{\mathfrak{m}}) = n$ for every maximal ideal $\mathfrak{m}$ of $A$; applying the first part of the proof, one deduces that $A$ is regular.
 
-Finally, let $\sum_{i=1}^n a_i dx_i = 0$ be a linear relation between the $dx_i$ with coefficients in $\Lambda$. If the $a_i$ are not all zero, there exists an index $i$ and a maximal ideal $\mathfrak{m}$ of $\Lambda$ such that $a_i$ does not belong to $\mathfrak{m}$ (V, § 3, No. 3, Prop. 1, (iii) and (iv)); but this contradicts the fact proved above that the classes of $dx_i$ in $(\Lambda/\mathfrak{m}) \otimes_A \Omega_k(\Lambda)$ are linearly independent.
+Finally, let $\sum_{i=1}^n a_i dx_i = 0$ be a linear relation between the $dx_i$ with coefficients in $A$. If the $a_i$ are not all zero, there exists an index $i$ and a maximal ideal $\mathfrak{m}$ of $A$ such that $a_i$ does not belong to $\mathfrak{m}$ (V, § 3, No. 3, Prop. 1, (iii) and (iv)); but this contradicts the fact proved above that the classes of $dx_i$ in $(A/\mathfrak{m}) \otimes_A \Omega_k(A)$ are linearly independent.
 
 #### Example {#ac-x-s6-n5-exa-1 .statement}
 
-When $\Lambda$ is an extension of finite type of $k$, theorem 1 yields again Cor. 1 of A, V, p. 128, taking account of Example 2 of No. 4.
+When $A$ is an extension of finite type of $k$, theorem 1 yields again Cor. 1 of A, V, p. 128, taking account of Example 2 of No. 4.
 
 #### Corollary 1 {#ac-x-s6-lem-5-cor-1 .statement}
 
-*Let $k$ be a field and $\Lambda$ a $k$-algebra essentially of finite type. The set of elements $\mathfrak{p}$ of $\operatorname{Spec}(\Lambda)$ such that the $k$-algebra $\Lambda_{\mathfrak{p}}$ is absolutely regular is open in $\operatorname{Spec}(\Lambda)$.*
+*Let $k$ be a field and $A$ a $k$-algebra essentially of finite type. The set of elements $\mathfrak{p}$ of $\operatorname{Spec}(A)$ such that the $k$-algebra $A_{\mathfrak{p}}$ is absolutely regular is open in $\operatorname{Spec}(A)$.*
 
-We may suppose that the $k$-algebra $\Lambda$ is of finite type. The set considered is then formed of the prime ideals $\mathfrak{p}$ such that $[\kappa(\mathfrak{p}) \otimes_k \Omega_k(\Lambda) : \kappa(\mathfrak{p})] \leq \dim_{\mathfrak{p}}(\Lambda)$. Now the mapping $\mathfrak{p} \mapsto \dim_{\mathfrak{p}}(\Lambda)$ is lower semi-continuous by definition, and the mapping $\mathfrak{p} \mapsto [\kappa(\mathfrak{p}) \otimes_k \Omega_k(\Lambda) : \kappa(\mathfrak{p})]$ is upper semi-continuous (Nakayama's lemma and II, § 5, No. 1, Prop. 2).
+We may suppose that the $k$-algebra $A$ is of finite type. The set considered is then formed of the prime ideals $\mathfrak{p}$ such that $[\kappa(\mathfrak{p}) \otimes_k \Omega_k(A) : \kappa(\mathfrak{p})] \leq \dim_{\mathfrak{p}}(A)$. Now the mapping $\mathfrak{p} \mapsto \dim_{\mathfrak{p}}(A)$ is lower semi-continuous by definition, and the mapping $\mathfrak{p} \mapsto [\kappa(\mathfrak{p}) \otimes_k \Omega_k(A) : \kappa(\mathfrak{p})]$ is upper semi-continuous (Nakayama's lemma and II, § 5, No. 1, Prop. 2).
 
-We shall see later (§ 7, No. 9, Cor. 4 of Th. 3) that under the hypotheses of Cor. 1, the set of prime ideals $\mathfrak{p}$ of $\Lambda$ such that the ring $\Lambda_{\mathfrak{p}}$ is regular is open in $\operatorname{Spec}(\Lambda)$.
+We shall see later (§ 7, No. 9, Cor. 4 of Th. 3) that under the hypotheses of Cor. 1, the set of prime ideals $\mathfrak{p}$ of $A$ such that the ring $A_{\mathfrak{p}}$ is regular is open in $\operatorname{Spec}(A)$.
 
 #### Corollary 2 {#ac-x-s6-lem-5-cor-2 .statement}
 
-*Let $k$ be a field and $\Lambda$ a $k$-algebra essentially of finite type. In order that $\Lambda$ should be absolutely regular, it is necessary and sufficient that the $\Lambda$-module $\Omega_k(\Lambda)$ be projective and that for every minimal prime ideal $\mathfrak{q}$ of $\Lambda$, the $k$-algebra $\Lambda_{\mathfrak{q}}$ be separable.*
+*Let $k$ be a field and $A$ a $k$-algebra essentially of finite type. In order that $A$ should be absolutely regular, it is necessary and sufficient that the $A$-module $\Omega_k(A)$ be projective and that for every minimal prime ideal $\mathfrak{q}$ of $A$, the $k$-algebra $A_{\mathfrak{q}}$ be separable.*
 
 Conversely, suppose that the $A$-module $\Omega_k(A)$ is projective and that the $k$-algebra $A_q$ is separable for every minimal prime ideal $q$ of $A$. Let $p$ be a prime ideal of $A$, and $q$ a minimal prime ideal of $A$ contained in $p$. Since the $A_p$-module $\Omega_k(A)_p$ is free (II, § 3, No. 2, Cor. 2 of Prop. 5), we have
 

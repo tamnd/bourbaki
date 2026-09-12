@@ -32,7 +32,7 @@ subsections:
       pdf_page: 58
 statements: 29
 exercises: 13
-content_sha256: 936b10a5724a284944f5a24e760fda4b78c2506146188e5fc1a9ccf8c5eed935
+content_sha256: ad376ef1e4b5373df290aabc32386ca13c0d8b32f7caea376e6faf628b828eb1
 translated_from: content/fr/ac/X/04_s4_anneaux_reguliers.md
 source_lang: fr
 translation_method: machine
@@ -141,7 +141,7 @@ where the mapping $i$ is deduced by passing to quotients from the mapping $a \ma
 $$
 \mathrm{dp}_B(m_B) \leq \mathrm{dp}_B(m_A/xm_A) = \mathrm{dp}_A(m_A) < +\infty
 $$
-(Corollary 2 of Proposition 7 of § 3, No. 4 and $\Lambda$, X, p. 135, Corollary 1). Corollary 2 of loc. cit. applied to the exact sequence of $B$-modules $0 \to m_B \to B \to \kappa_B \to 0$ implies $\mathrm{dp}_B(\kappa_B) < +\infty$. The ring $B$ is therefore of finite homological dimension (§ 3, No. 3, Corollary 2 of Proposition 4), and of depth $n - 1$ (§ 1, No. 4, Proposition 7 and No. 3, Corollary of Proposition 4). It follows from the induction hypothesis that $B$ is regular, hence that $A$ is regular (VIII, $§ 5$, No. 3, Corollary 1 of Proposition 2).
+(Corollary 2 of Proposition 7 of § 3, No. 4 and $A$, X, p. 135, Corollary 1). Corollary 2 of loc. cit. applied to the exact sequence of $B$-modules $0 \to m_B \to B \to \kappa_B \to 0$ implies $\mathrm{dp}_B(\kappa_B) < +\infty$. The ring $B$ is therefore of finite homological dimension (§ 3, No. 3, Corollary 2 of Proposition 4), and of depth $n - 1$ (§ 1, No. 4, Proposition 7 and No. 3, Corollary of Proposition 4). It follows from the induction hypothesis that $B$ is regular, hence that $A$ is regular (VIII, $§ 5$, No. 3, Corollary 1 of Proposition 2).
 
 Consequently, if $A$ is a noetherian local ring, there is an equivalence between the following three properties:
 (i) $A$ is regular;
@@ -205,7 +205,7 @@ In fact, a regular local ring is integrally closed (VIII, $§ 5$, No. 2, cor. 1 
 
 a) *In order that the ring $\hat{A}$ be regular, it is necessary and sufficient that, for every maximal ideal $m$ of $A$ containing $J$, the ring $A_m$ be regular.*
 
-b) *If the ring $A$ is regular, the ring $\hat{A}$ is regular. If the ring $\hat{A}$ is regular and the ideal $J$ contained in the radical of $A$, the ring $\Lambda$ is regular.*
+b) *If the ring $A$ is regular, the ring $\hat{A}$ is regular. If the ring $\hat{A}$ is regular and the ideal $J$ contained in the radical of $A$, the ring $A$ is regular.*
 
 #### Corollary 4 {#ac-x-s4-prop-4-cor-4 .statement}
 
@@ -284,7 +284,7 @@ Since fields and Dedekind rings are regular, hence presentable, Proposition 6 im
 
 Let A be a presentable ring.
 
-a) The ring $\Lambda$ is noetherian and catenary.
+a) The ring $A$ is noetherian and catenary.
 
 b) Let M be a finitely generated A-module. The mapping
 $$
@@ -292,7 +292,7 @@ p \mapsto \dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p)
 $$
 of $\operatorname{Spec}(A)$ into $\mathbf{Z}$ is upper semicontinuous.
 
-c) Let M be a finitely generated $\Lambda$-module. The set of $p \in \operatorname{Spec}(A)$ such that the $A_p$-module $M_p$ is Macaulay is a dense open set. Its intersection with $\operatorname{Supp}(M)$ is dense in $\operatorname{Supp}(M)$.
+c) Let M be a finitely generated $A$-module. The set of $p \in \operatorname{Spec}(A)$ such that the $A_p$-module $M_p$ is Macaulay is a dense open set. Its intersection with $\operatorname{Supp}(M)$ is dense in $\operatorname{Supp}(M)$.
 
 Choose a regular ring R and a surjective homomorphism $R \to A$.
 
@@ -407,7 +407,7 @@ It now remains for us to prove that when the equivalent conditions (i) and (iv) 
 
 #### Corollary {#ac-x-s4-n5-cor-2 .statement}
 
-*Let $\rho : \Lambda \to B$ be a homomorphism of noetherian rings making $B$ a flat $A$-module. If $A$ is regular and if $\kappa(\rho^{-1}(\mathfrak{n})) \otimes_{\Lambda} B$ is regular for every maximal ideal $\mathfrak{n}$ of $B$, the ring $B$ is regular.
+*Let $\rho : A \to B$ be a homomorphism of noetherian rings making $B$ a flat $A$-module. If $A$ is regular and if $\kappa(\rho^{-1}(\mathfrak{n})) \otimes_{A} B$ is regular for every maximal ideal $\mathfrak{n}$ of $B$, the ring $B$ is regular.
 
 For in fact, for every maximal ideal $\mathfrak{n}$ of $B$, the $A_{\rho^{-1}(\mathfrak{n})}$-module $B_n$ is flat (II, § 3, No. 4, Proposition 15), so that the ring $B_n$ is regular by Proposition 9.
 

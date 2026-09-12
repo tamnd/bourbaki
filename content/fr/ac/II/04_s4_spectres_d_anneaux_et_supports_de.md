@@ -28,7 +28,7 @@ subsections:
       pdf_page: 130
 statements: 51
 exercises: 17
-content_sha256: 2cfb86437e4b66be465a5932ba78f912c57440093982c286124acb0cafc2e9d5
+content_sha256: 883ac8a1fd0a735651fdc3bbb06dccef987b6ee36fd6fdb9ad6332ee89ee1f7e
 ---
 
 ## § 4. Spectres d’anneaux et supports de modules
@@ -402,7 +402,7 @@ En effet, $\mathrm{Supp}(M) = \bigcup_{i \in I} \mathrm{Supp}(Am_i)$ en vertu de
 
 #### Proposition 17 {#ac-ii-s4-prop-17 .statement}
 
-Soient $\Lambda$ un anneau, $M$ un $A$-module, $a$ son annulateur ; si $M$ est de type fini, on a $\mathrm{Supp}(M) = V(a)$, et $\mathrm{Supp}(M)$ est donc fermé dans $\mathrm{Spec}(A)$.
+Soient $A$ un anneau, $M$ un $A$-module, $a$ son annulateur ; si $M$ est de type fini, on a $\mathrm{Supp}(M) = V(a)$, et $\mathrm{Supp}(M)$ est donc fermé dans $\mathrm{Spec}(A)$.
 Soit $(m_i)_{1 \leq i \leq n}$ un système de générateurs de $M$, et soit $a_i$ l’annulateur de $m_i$; on a $a = \bigcap_{i=1}^n a_i$, donc $V(a) = \bigcup_{i=1}^n V(a_i)$ (n° 3, formule (3)), et la proposition résulte du cor. de la prop. 16.
 
 #### Corollaire 1 {#ac-ii-s4-prop-17-cor-1 .statement}

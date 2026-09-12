@@ -48,7 +48,7 @@ chapters:
           statements: 7
           exercises: 7
           extraction: ocr
-          content_sha256: 91c566a7cecdb143718ac07860e5d6fd98267d4b75ac12334a6fbc45e5ba6b22
+          content_sha256: ec8eea6d930f3758e5415ab8701212ba69b5e375abdfa50de29daa3eeaae7951
         - kind: section
           section: 2
           title: Flat modules

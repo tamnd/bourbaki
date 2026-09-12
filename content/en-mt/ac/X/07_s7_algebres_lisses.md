@@ -53,7 +53,7 @@ subsections:
       pdf_page: 101
 statements: 39
 exercises: 15
-content_sha256: aaa34242d598f6821b0738736697b9b060d8724ab44b075a978f529e09bfce6c
+content_sha256: 509bb0a981e4fe7e45a2ba5778b2b60328b4153d4744989ccac06b6e0368c43f
 translated_from: content/fr/ac/X/07_s7_algebres_lisses.md
 source_lang: fr
 translation_method: machine
@@ -99,7 +99,7 @@ Let $\Omega_k(A)$ be the module of $k$-differentials of the ring $A$, and let $d
 Let J be an ideal of A. By A, III, p. 137, one has an exact sequence of $A/J$-linear mappings
 
 $$
-J/J^2 \xrightarrow{\bar{d}} (\Lambda/J) \otimes_A \Omega_k(\Lambda) \longrightarrow \Omega_k(A/J) \to 0,
+J/J^2 \xrightarrow{\bar{d}} (A/J) \otimes_A \Omega_k(A) \longrightarrow \Omega_k(A/J) \to 0,
 $$
 
 where $\bar{d}$ is the homomorphism induced by passing to quotients from the restriction of $d$ to J.
@@ -108,7 +108,7 @@ Let $\rho : A \to A/J^2$ and $\pi : A/J^2 \to A/J$ denote the canonical surjecti
 
 #### Proposition 2 {#ac-x-s7-prop-2 .statement}
 
-Endow the $k$-module $\Lambda/J \oplus J/J^2$ with the structure of a $k$-algebra defined in the above example. The mappings $v \mapsto h_v$ and $h \mapsto \psi_h$ induce bijections between the following sets :
+Endow the $k$-module $A/J \oplus J/J^2$ with the structure of a $k$-algebra defined in the above example. The mappings $v \mapsto h_v$ and $h \mapsto \psi_h$ induce bijections between the following sets :
 
 (i) the set of $A/J$-linear retractions $v$ of $\bar{d}$ ;
 (ii) the set of homomorphisms of $k$-algebras $h : A/J \to A/J^2$ such that $\pi \circ h = \mathrm{Id}_{A/J}$ ;
@@ -174,13 +174,13 @@ b) It is enough to prove that the product of two formally smooth $k$-algebras $A
 
 c) Let $i : A \to \widehat{A}$ denote the canonical homomorphism. For every ring D, endowed with the discrete topology, the mapping which associates to a continuous homomorphism $f : \widehat{A} \to D$ the continuous homomorphism $f \circ i : A \to D$ is bijective. Assertion c) follows from this.
 
-Assertion c) of the proposition applies in particular when the topology of $\Lambda$ is the J-adic topology, where J is an ideal of finite type; the closure $\widehat{J}$ of J in $\widehat{A}$ is then equal to $JA$ and the topology of $\widehat{A}$ is the $\widehat{J}$-adic topology (III, § 2, No. 12, Cor. 2 of Prop. 16). Consequently, it is equivalent to say that A is formally smooth for the J-adic topology or that its separated completion $\widehat{A}$ is formally smooth for the J-adic topology.
+Assertion c) of the proposition applies in particular when the topology of $A$ is the J-adic topology, where J is an ideal of finite type; the closure $\widehat{J}$ of J in $\widehat{A}$ is then equal to $JA$ and the topology of $\widehat{A}$ is the $\widehat{J}$-adic topology (III, § 2, No. 12, Cor. 2 of Prop. 16). Consequently, it is equivalent to say that A is formally smooth for the J-adic topology or that its separated completion $\widehat{A}$ is formally smooth for the J-adic topology.
 
 #### Proposition 4 {#ac-x-s7-prop-4 .statement}
 
 Let k be a ring, A and B $k$-algebras, J an ideal of A, K an ideal of B.
 
-a) Let S be a multiplicative subset of A and T a subset of k whose image in A is contained in S. If A is formally smooth over k for the J-adic topology, S $^1\Lambda$ is formally smooth over $T^{-1}k$ for the $S^{-1}J$-adic topology.
+a) Let S be a multiplicative subset of A and T a subset of k whose image in A is contained in S. If A is formally smooth over k for the J-adic topology, S $^1A$ is formally smooth over $T^{-1}k$ for the $S^{-1}J$-adic topology.
 
 b) Let $k'$ be a $k$-algebra. If $A$ is formally smooth over $k$ for the $J$-adic topology, the $k'$-algebra $A_{(k')}$ is formally smooth over $k'$ for the $JA_{(k')}$-adic topology.
 
@@ -246,7 +246,7 @@ Let $k$ be a ring, $C$ a $k$-algebra, $(C_n)_{n \in \mathbf{Z}}$ a decreasing fi
 
 #### Proposition 5 {#ac-x-s7-prop-5 .statement}
 
-Let $A$ be a formally smooth linearly topologized $k$-algebra. Every continuous homomorphism of $k$-algebras $\varphi : \Lambda \to C/C_m$ admits a continuous lifting to $C$.
+Let $A$ be a formally smooth linearly topologized $k$-algebra. Every continuous homomorphism of $k$-algebras $\varphi : A \to C/C_m$ admits a continuous lifting to $C$.
 
 For every integer $n > m$, let us denote by $\pi_n : C/C_n \to C/C_{n-1}$ the canonical surjection. Since $C$ is identified with the projective limit of the $C/C_n$, to give a continuous lifting of $\varphi$ to $C$ amounts to the same as giving a family $(\varphi_n)_{n > m}$ of continuous homomorphisms of $k$-algebras $\varphi_n : A \to C/C_n$, satisfying $\pi_n \circ \varphi_n = \varphi_{n-1}$. This reduces us, by induction on $m$, to proving the statement when $C_{m+1} = 0$. The ideal $C_m$ is then square zero (for $2m \geq m+1$), whence the proposition since $A$ is formally smooth.
 
@@ -261,7 +261,7 @@ Let $C$ be a $k$-algebra and $N$ a nilpotent two-sided ideal of $C$. The proposi
 Let k be a ring, A a k-algebra, and J an ideal of A such that the k-algebra A/J is formally smooth. Endow A with the J-adic topology. The following conditions are equivalent:
 
 (i) the topological k-algebra A is formally smooth;
-(ii) the $\Lambda/J$-module $J/J^2$ is projective and the canonical homomorphism ($\S$ 5, n° 2)
+(ii) the $A/J$-module $J/J^2$ is projective and the canonical homomorphism ($\S$ 5, n° 2)
 $$
 \beta : S_{A/J}(J/J^2) \to \mathrm{gr}_J(A)
 $$
@@ -319,37 +319,37 @@ The $k$-algebras $A$ and $A \otimes_k A$ are formally smooth (No. 2, prop. 4, c)
 
 ### 6. Extension of the base field in regular algebras (nonzero characteristic)
 
-Let $k$ be a ring and $\rho : A \to B$ a homomorphism of $k$-algebras. From $\rho$ one deduces an $A$-linear mapping $\Omega(\rho) : \Omega_k(A) \to \Omega_k(B)$, and consequently a $B$-linear mapping $\Omega_0(\rho) : B \otimes_A \Omega_k(A) \to \Omega_k(B)$ (A, III, p. 135). Let $T = (T_i)_{i \in I}$ be a family of indeterminates, and $t = (t_i)_{i \in I}$ a family of elements of $B$; for every polynomial $f = \sum_{\alpha \in \mathbf{N}^{(I)}} c_\alpha T^\alpha$ of $A[T]$, let $d^\Lambda f(t)$ denote the element $\sum_\alpha t^\alpha \otimes dc_\alpha$ of $B \otimes_A \Omega_k(A)$.
+Let $k$ be a ring and $\rho : A \to B$ a homomorphism of $k$-algebras. From $\rho$ one deduces an $A$-linear mapping $\Omega(\rho) : \Omega_k(A) \to \Omega_k(B)$, and consequently a $B$-linear mapping $\Omega_0(\rho) : B \otimes_A \Omega_k(A) \to \Omega_k(B)$ (A, III, p. 135). Let $T = (T_i)_{i \in I}$ be a family of indeterminates, and $t = (t_i)_{i \in I}$ a family of elements of $B$; for every polynomial $f = \sum_{\alpha \in \mathbf{N}^{(I)}} c_\alpha T^\alpha$ of $A[T]$, let $d^A f(t)$ denote the element $\sum_\alpha t^\alpha \otimes dc_\alpha$ of $B \otimes_A \Omega_k(A)$.
 
 #### Lemma 1 {#ac-x-s7-lem-1 .statement}
 
-Suppose that the $A$-algebra $B$ admits a generating family $t = (t_i)_{i \in I}$, with defining relations $f_\lambda \in A[T]$ ($\lambda \in \Lambda$). The $B$-linear homomorphism
+Suppose that the $A$-algebra $B$ admits a generating family $t = (t_i)_{i \in I}$, with defining relations $f_\lambda \in A[T]$ ($\lambda \in A$). The $B$-linear homomorphism
 $$
 \psi : (B \otimes_A \Omega_k(A)) \oplus B^{(I)} \longrightarrow \Omega_k(B)
 $$
-defined by $\psi(\alpha, (b_i)) = \Omega_0(\rho)(\alpha) + \sum_{i \in I} b_i dt_i$, is surjective; its kernel is generated by the elements $r_\lambda = \left( d^\Lambda f_\lambda(t), \left( \frac{\partial f_\lambda}{\partial T_i}(t) \right)_{i \in I} \right)$ for $\lambda \in \Lambda$.
+defined by $\psi(\alpha, (b_i)) = \Omega_0(\rho)(\alpha) + \sum_{i \in I} b_i dt_i$, is surjective; its kernel is generated by the elements $r_\lambda = \left( d^A f_\lambda(t), \left( \frac{\partial f_\lambda}{\partial T_i}(t) \right)_{i \in I} \right)$ for $\lambda \in A$.
 
 Consider the sequence of B-modules and B-linear mappings
 
 $$
-B^{(\Lambda)} \xrightarrow{\varphi} (B \otimes_{\Lambda} \Omega_k(A)) \oplus B^{(1)} \xrightarrow{\psi} \Omega_k(B) \longrightarrow 0,
+B^{(A)} \xrightarrow{\varphi} (B \otimes_{A} \Omega_k(A)) \oplus B^{(1)} \xrightarrow{\psi} \Omega_k(B) \longrightarrow 0,
 $$
 
 where $\varphi$ is the homomorphism such that $\varphi(e_\lambda) = n_\lambda$; it is a matter of proving that this sequence is exact. By A, II, p. 36, th. 1, it is enough to prove that, for every B-module M, the sequence
 
 $$
-0 \to \mathrm{Hom}_B(\Omega_k(B), M) \xrightarrow{\mathrm{Hom}(\psi, 1)} \mathrm{Hom}_B((B \otimes_A \Omega_k(A)) \oplus B^{(1)}, M) \xrightarrow{\mathrm{Hom}(\varphi, 1)} \mathrm{Hom}_B(B^{(\Lambda)}, M)
+0 \to \mathrm{Hom}_B(\Omega_k(B), M) \xrightarrow{\mathrm{Hom}(\psi, 1)} \mathrm{Hom}_B((B \otimes_A \Omega_k(A)) \oplus B^{(1)}, M) \xrightarrow{\mathrm{Hom}(\varphi, 1)} \mathrm{Hom}_B(B^{(A)}, M)
 $$
 
 is exact. In view of the universal property of the module of differentials (A, III, p. 134), this sequence is identified with
 
 $$
-0 \to D_k(B, M) \xrightarrow{\psi'} D_k(A, M) \oplus M^1 \xrightarrow{\varphi'} M^\Lambda
+0 \to D_k(B, M) \xrightarrow{\psi'} D_k(A, M) \oplus M^1 \xrightarrow{\varphi'} M^A
 $$
 
-where $\psi'(D) = (D \circ \rho, (D(t_i)))$ and $\varphi'(\Delta, (m_i)) = (f^\Delta_\lambda(t) + \sum_i \frac{\partial f_\lambda}{\partial T_i}(t) m_i)_{\lambda \in \Lambda}$ (in accordance with A, V, p. 121, for every polynomial $f = \sum_{\alpha \in \mathbf{N}^{(1)}} c_\alpha T^\alpha$ of $A[T]$, $f^\Delta(t)$ denotes the element $\sum_\alpha t^\alpha \Delta(c_\alpha)$). But the exactness of this sequence follows from loc. cit., prop. 1, in view of the fact that a derivation $D : B \to M$ is $k$-linear if and only if this is so for $D \circ \rho$.
+where $\psi'(D) = (D \circ \rho, (D(t_i)))$ and $\varphi'(\Delta, (m_i)) = (f^\Delta_\lambda(t) + \sum_i \frac{\partial f_\lambda}{\partial T_i}(t) m_i)_{\lambda \in A}$ (in accordance with A, V, p. 121, for every polynomial $f = \sum_{\alpha \in \mathbf{N}^{(1)}} c_\alpha T^\alpha$ of $A[T]$, $f^\Delta(t)$ denotes the element $\sum_\alpha t^\alpha \Delta(c_\alpha)$). But the exactness of this sequence follows from loc. cit., prop. 1, in view of the fact that a derivation $D : B \to M$ is $k$-linear if and only if this is so for $D \circ \rho$.
 
-Let A be a ring. There exists a unique structure of $\mathbf{Z}$-algebra on A; one writes simply $\Omega(\Lambda)$ for the A-module $\Omega_{\mathbf{Z}}(A)$. If $\rho : k \to A$ is a homomorphism of rings, there is a canonical exact sequence of A-modules (A, III, p. 136, prop. 21)
+Let A be a ring. There exists a unique structure of $\mathbf{Z}$-algebra on A; one writes simply $\Omega(A)$ for the A-module $\Omega_{\mathbf{Z}}(A)$. If $\rho : k \to A$ is a homomorphism of rings, there is a canonical exact sequence of A-modules (A, III, p. 136, prop. 21)
 
 $$
 A \otimes_k \Omega(k) \to \Omega(A) \to \Omega_k(A) \to 0.
@@ -431,17 +431,17 @@ $$
 \omega_r : A/m^r \otimes_k \Omega_{k_0}(k) \longrightarrow A/m^r \otimes_A \Omega_{k_0}(A)
 $$
 
-deduced from the canonical mapping $k \to A$. Let $(\lambda_i)_{i \in I}$ be a family of elements of $k$ such that the $d_k(\lambda_i)$ form a basis of the vector space $\Omega_{k_0}(k)$ over $k$; by (ii), the elements $1 \otimes d_A(\lambda_i 1_A)$ are linearly independent in $A/\mathfrak{m} \otimes_{\Lambda} \Omega_{k_0}(A)$. By II, § 3, No. 2, Cor. 1 and 2 of Prop. 5, the $1 \otimes d_A(\lambda_i 1_A)$ form a basis of a direct factor of the $A/\mathfrak{m}^r$-module $A/\mathfrak{m}^r \otimes_{\Lambda} \Omega_{k_0}(A)$. There therefore exists an $A/\mathfrak{m}^r$-linear mapping
+deduced from the canonical mapping $k \to A$. Let $(\lambda_i)_{i \in I}$ be a family of elements of $k$ such that the $d_k(\lambda_i)$ form a basis of the vector space $\Omega_{k_0}(k)$ over $k$; by (ii), the elements $1 \otimes d_A(\lambda_i 1_A)$ are linearly independent in $A/\mathfrak{m} \otimes_{A} \Omega_{k_0}(A)$. By II, § 3, No. 2, Cor. 1 and 2 of Prop. 5, the $1 \otimes d_A(\lambda_i 1_A)$ form a basis of a direct factor of the $A/\mathfrak{m}^r$-module $A/\mathfrak{m}^r \otimes_{A} \Omega_{k_0}(A)$. There therefore exists an $A/\mathfrak{m}^r$-linear mapping
 $$
-u_r : A/\mathfrak{m}^r \otimes_{\Lambda} \Omega_{k_0}(A) \longrightarrow A/\mathfrak{m}^r \otimes_k \Omega_{k_0}(k)
+u_r : A/\mathfrak{m}^r \otimes_{A} \Omega_{k_0}(A) \longrightarrow A/\mathfrak{m}^r \otimes_k \Omega_{k_0}(k)
 $$
 such that $u_r(1 \otimes d_A(\lambda_i 1_A)) = 1 \otimes d_k(\lambda_i)$ for all $i$, hence $u_r \circ \omega_r = \mathrm{Id}$.
 
-Let us now verify that $A$ is formally smooth over $k$ for the $\mathfrak{m}$-adic topology. Let $C$ be a $k$-algebra, $N$ a square-zero ideal of $C$, and $\pi : C \to C/N$ the canonical surjection; endow $C$ and $C/N$ with the discrete topology. Let $\varphi : A \to C/N$ be a continuous homomorphism of $k$-algebras. Since $A$ is formally smooth over $k_0$ for the $\mathfrak{m}$-adic topology, there exists a continuous homomorphism of $k_0$-algebras $\tilde{\varphi}_0 : A \to C$ such that $\pi \circ \tilde{\varphi}_0 = \varphi$. By Prop. 1 of No. 1, the homomorphisms of $k_0$-algebras $\tilde{\varphi} : A \to C$ such that $\pi \circ \tilde{\varphi} = \varphi$ are the mappings $x \mapsto v(d_A(x)) + \tilde{\varphi}_0(x)$, where $v$ runs through $\mathrm{Hom}_{\Lambda}(\Omega_{k_0}(A), N)$. It remains to choose $v$ in such a way that $\tilde{\varphi}$ is a homomorphism of $k$-algebras. The mapping $\lambda \mapsto \lambda 1_C - \tilde{\varphi}_0(\lambda 1_A)$ is a $k_0$-derivation of $k$ into $N$ (*loc. cit.*), and therefore can be written $h \circ d_k$ with $h \in \mathrm{Hom}_k(\Omega_{k_0}(k), N)$.
+Let us now verify that $A$ is formally smooth over $k$ for the $\mathfrak{m}$-adic topology. Let $C$ be a $k$-algebra, $N$ a square-zero ideal of $C$, and $\pi : C \to C/N$ the canonical surjection; endow $C$ and $C/N$ with the discrete topology. Let $\varphi : A \to C/N$ be a continuous homomorphism of $k$-algebras. Since $A$ is formally smooth over $k_0$ for the $\mathfrak{m}$-adic topology, there exists a continuous homomorphism of $k_0$-algebras $\tilde{\varphi}_0 : A \to C$ such that $\pi \circ \tilde{\varphi}_0 = \varphi$. By Prop. 1 of No. 1, the homomorphisms of $k_0$-algebras $\tilde{\varphi} : A \to C$ such that $\pi \circ \tilde{\varphi} = \varphi$ are the mappings $x \mapsto v(d_A(x)) + \tilde{\varphi}_0(x)$, where $v$ runs through $\mathrm{Hom}_{A}(\Omega_{k_0}(A), N)$. It remains to choose $v$ in such a way that $\tilde{\varphi}$ is a homomorphism of $k$-algebras. The mapping $\lambda \mapsto \lambda 1_C - \tilde{\varphi}_0(\lambda 1_A)$ is a $k_0$-derivation of $k$ into $N$ (*loc. cit.*), and therefore can be written $h \circ d_k$ with $h \in \mathrm{Hom}_k(\Omega_{k_0}(k), N)$.
 
 Choose an integer $r$ such that the kernel of $\varphi$ contains $\mathfrak{m}^r$. The $A$-module $N$ is annihilated by $\mathfrak{m}^r$, and it is enough to take for $v$ the composite of the sequence of homomorphisms
 $$
-\Omega_{k_0}(A) \longrightarrow A/\mathfrak{m}^r \otimes_{\Lambda} \Omega_{k_0}(A) \xrightarrow{u_r} A/\mathfrak{m}^r \otimes_k \Omega_{k_0}(k) \xrightarrow{h'} N ,
+\Omega_{k_0}(A) \longrightarrow A/\mathfrak{m}^r \otimes_{A} \Omega_{k_0}(A) \xrightarrow{u_r} A/\mathfrak{m}^r \otimes_k \Omega_{k_0}(k) \xrightarrow{h'} N ,
 $$
 where $h'$ is deduced from $h$. In fact, for $\lambda \in k$ one has:
 $$
@@ -459,7 +459,7 @@ When $A$ is noetherian, condition (i) means that the local ring $A_{\mathfrak{m}
 (i) *A is formally smooth over $k$ for the $\mathfrak{m}_A$-adic topology* ;
 (ii) *A is regular and the $\kappa_A$-linear mapping*
 $$
-\omega : \kappa_A \otimes_k \Omega(k) \longrightarrow \kappa_A \otimes_{\Lambda} \Omega(A)
+\omega : \kappa_A \otimes_k \Omega(k) \longrightarrow \kappa_A \otimes_{A} \Omega(A)
 $$
 *deduced from the canonical injection $k \to A$ is injective* ;
 (iii) *A is absolutely regular* ;
@@ -468,7 +468,7 @@ $$
 (ii) $\Leftrightarrow$ (i): it is enough to apply Prop. 7 and Remark 1 above, taking for $k_0$ the prime subfield of $k$; in fact, $k$ and $\kappa_A$ are formally smooth over $k_0$ (No. 3, Theorem 1).
 (i) $\Rightarrow$ (iii): this follows from Corollary 2 of Theorem 2 (No. 5).
 
-If k is of characteristic 0, it follows from Corollary 1 of Theorem 2 (No. 5) that (iv) implies (i), whence the proposition in this case. Suppose k of characteristic $p \neq 0$ and prove (iv) ⇒ (ii). Let $k'$ be a purely inseparable extension of k, of finite degree and of height $\leq 1$. If A and $A_{(k')}$ are regular, the canonical mapping $\kappa_A \otimes_{k'} \Omega_{k^p}({k'}^p) \longrightarrow \kappa_A \otimes_A \Omega(\Lambda)$ is injective (No. 6, Prop. 6). By Theorem 1, b) of A, V, p. 97, applied to the extension k of $k^p$, the k-vector space $\Omega(k)$, which coincides with $\Omega_{k^p}(k)$, is the increasing filtered union of the subspaces $k \otimes_{{k'}^p} \Omega_{k^p}({k'}^p)$, where $k'$ runs through the set of finite purely inseparable extensions of k of height $\leq 1$ contained in a fixed algebraic closure of k. Assertion (ii) follows.
+If k is of characteristic 0, it follows from Corollary 1 of Theorem 2 (No. 5) that (iv) implies (i), whence the proposition in this case. Suppose k of characteristic $p \neq 0$ and prove (iv) ⇒ (ii). Let $k'$ be a purely inseparable extension of k, of finite degree and of height $\leq 1$. If A and $A_{(k')}$ are regular, the canonical mapping $\kappa_A \otimes_{k'} \Omega_{k^p}({k'}^p) \longrightarrow \kappa_A \otimes_A \Omega(A)$ is injective (No. 6, Prop. 6). By Theorem 1, b) of A, V, p. 97, applied to the extension k of $k^p$, the k-vector space $\Omega(k)$, which coincides with $\Omega_{k^p}(k)$, is the increasing filtered union of the subspaces $k \otimes_{{k'}^p} \Omega_{k^p}({k'}^p)$, where $k'$ runs through the set of finite purely inseparable extensions of k of height $\leq 1$ contained in a fixed algebraic closure of k. Assertion (ii) follows.
 
 #### Remark 2 {#ac-x-s7-n7-rem-2 .statement}
 
@@ -504,11 +504,11 @@ Let us prove a).
 
 Moreover, there exist an A-module N', a set I, and an isomorphism of A-modules $\theta : N \oplus N' \to A^{(I)}$, from which one deduces an isomorphism of $\kappa(p)$-vector spaces
 $$
-\overline{\theta} : (\kappa(p) \otimes_{\Lambda} N) \oplus (\kappa(p) \otimes_A N') \to \kappa(p)^{(I)} .
+\overline{\theta} : (\kappa(p) \otimes_{A} N) \oplus (\kappa(p) \otimes_A N') \to \kappa(p)^{(I)} .
 $$
 The elements $t_i = \overline{\theta}(1 \otimes u(x_i), 0)$ of $\kappa(p)^{(I)}$ form a finite free family. There therefore exist elements $\alpha_1, \ldots, \alpha_m$ of I such that one has $\det(\mathrm{pr}_{\alpha_j}(t_i)) \neq 0$; the linear forms $y_j : z \mapsto \mathrm{pr}_{\alpha_j}(\theta(z, 0))$ on N are suitable.
 
-Suppose condition (iv) fulfilled. Let $(a_{ij}) \in M_m(A)$ denote the matrix of coefficients $a_{ij} = <y_j, u(x_i)>$. Let g be an element of $A - p$ such that the images of the $x_i$ generate the $\Lambda_g$-module $M_g$ (II, § 5, No. 1, Prop. 2), and let $f = g \det(a_{ij})$. Since $\det(a_{ij})$ is invertible in $A_f$, the images of the elements $u(x_i)$ in $N_f$ are linearly independent; consequently the images of the $x_i$ in $M_f$ form a basis of this $A_f$-module. This proves the last assertion of a). Let us now prove (i). Let $w \in \mathrm{Hom}_A(N, M)$ denote the mapping $z \mapsto \sum_j <y_j, z> x_j$. We have
+Suppose condition (iv) fulfilled. Let $(a_{ij}) \in M_m(A)$ denote the matrix of coefficients $a_{ij} = <y_j, u(x_i)>$. Let g be an element of $A - p$ such that the images of the $x_i$ generate the $A_g$-module $M_g$ (II, § 5, No. 1, Prop. 2), and let $f = g \det(a_{ij})$. Since $\det(a_{ij})$ is invertible in $A_f$, the images of the elements $u(x_i)$ in $N_f$ are linearly independent; consequently the images of the $x_i$ in $M_f$ form a basis of this $A_f$-module. This proves the last assertion of a). Let us now prove (i). Let $w \in \mathrm{Hom}_A(N, M)$ denote the mapping $z \mapsto \sum_j <y_j, z> x_j$. We have
 $$
 w \circ u(x_i) = \sum_j a_{ij} x_j ;
 $$
@@ -520,13 +520,13 @@ Let us prove b). The fact that U is open follows from condition (i) of a).
 
 (iv) $\Rightarrow$ (iii): under the hypotheses of (iv), the sequence $0 \to M \xrightarrow{u} N \longrightarrow \mathrm{Coker}(u) \to 0$ is exact and split, whence (iii).
 
-(ii) $\Rightarrow$ (iv): let us introduce, as above, an isomorphism of A-modules $\theta : N \oplus N' \to A^{(I)}$. Let $u'$ denote the mapping of M into $A^{(I)}$ defined by $u'(x) = \theta(u(x), 0)$. There exists a finite subset J of I such that the image of $u'$ is contained in the submodule $A^J$ of $A^{(I)}$. Let $u'' : M \to \Lambda^J$ denote the mapping deduced from $u'$. Under hypothesis (ii), for every maximal ideal m of A, the $A_m$-linear mapping $u'_m$ of $M_m$ into $A_m^{(I)}$ admits a retraction, and therefore the same is true of $u''_m$; thus $u''_m$ is injective and its image is a direct factor in $A_m^J$, so that its cokernel is a projective $A_m$-module. The A-module $\mathrm{Coker}(u'')$ is finitely presented by construction; it is therefore projective (II, § 5, No. 2, Th. 1). The homomorphism $u''$ is injective (II, § 3, No. 3, Th. 1); consequently, $u$ is injective. The A-module $\mathrm{Coker}(u')$ is isomorphic, on the one hand to $\mathrm{Coker}(u) \oplus N'$, on the other hand to $\mathrm{Coker}(u'') \oplus A^{(I-J)}$. Since the A-modules $A^{(I-J)}$, $\mathrm{Coker}(u'')$ and $N'$ are projective, the same is true of $\mathrm{Coker}(u)$, which completes the proving of (iv).
+(ii) $\Rightarrow$ (iv): let us introduce, as above, an isomorphism of A-modules $\theta : N \oplus N' \to A^{(I)}$. Let $u'$ denote the mapping of M into $A^{(I)}$ defined by $u'(x) = \theta(u(x), 0)$. There exists a finite subset J of I such that the image of $u'$ is contained in the submodule $A^J$ of $A^{(I)}$. Let $u'' : M \to A^J$ denote the mapping deduced from $u'$. Under hypothesis (ii), for every maximal ideal m of A, the $A_m$-linear mapping $u'_m$ of $M_m$ into $A_m^{(I)}$ admits a retraction, and therefore the same is true of $u''_m$; thus $u''_m$ is injective and its image is a direct factor in $A_m^J$, so that its cokernel is a projective $A_m$-module. The A-module $\mathrm{Coker}(u'')$ is finitely presented by construction; it is therefore projective (II, § 5, No. 2, Th. 1). The homomorphism $u''$ is injective (II, § 3, No. 3, Th. 1); consequently, $u$ is injective. The A-module $\mathrm{Coker}(u')$ is isomorphic, on the one hand to $\mathrm{Coker}(u) \oplus N'$, on the other hand to $\mathrm{Coker}(u'') \oplus A^{(I-J)}$. Since the A-modules $A^{(I-J)}$, $\mathrm{Coker}(u'')$ and $N'$ are projective, the same is true of $\mathrm{Coker}(u)$, which completes the proving of (iv).
 
 ### 9. The Jacobian criterion
 
-Let k be a ring, A a k-algebra, J an ideal of A and $\bar{d} : J/J^2 \to \Lambda/J \otimes_A \Omega_k(A)$ the canonical mapping. For each A/J-algebra R, one denotes by
+Let k be a ring, A a k-algebra, J an ideal of A and $\bar{d} : J/J^2 \to A/J \otimes_A \Omega_k(A)$ the canonical mapping. For each A/J-algebra R, one denotes by
 $$
-\bar{d}_R : R \otimes_{\Lambda/J} J/J^2 \longrightarrow R \otimes_A \Omega_k(A)
+\bar{d}_R : R \otimes_{A/J} J/J^2 \longrightarrow R \otimes_A \Omega_k(A)
 $$
 
 the R-linear mapping induced by $\bar{d}$. If the $k$-algebra $A/J$ is formally smooth, $\bar{d}$ has an A-linear retraction (No. 2, Remark 1) and $\bar{d}_R$ has an R-linear retraction for every R.
@@ -568,7 +568,7 @@ a) Let $\mathfrak{p}$ be a prime ideal of $B$ and let $q$ be the (prime) ideal o
 (ii) there exists $f \in B - \mathfrak{p}$ such that the $k$-algebra $B_f$ is formally smooth;
 (iii) the $\kappa(\mathfrak{p})$-linear mapping
 $$
-\bar{d}_{\kappa(\mathfrak{p})} : \kappa(\mathfrak{p}) \otimes_B J/J^2 \to \kappa(\mathfrak{p}) \otimes_A \Omega_k(\Lambda)
+\bar{d}_{\kappa(\mathfrak{p})} : \kappa(\mathfrak{p}) \otimes_B J/J^2 \to \kappa(\mathfrak{p}) \otimes_A \Omega_k(A)
 $$
 is injective;
 (iv) there exist an integer $m \geqslant 0$, elements $f_1, \ldots, f_m$ of $J$, whose images $(f_1)_q, \ldots, (f_m)_q$ generate the ideal $J_q$, and $k$-derivations $D_1, \ldots, D_m$ of $A$ such that $\det(D_j(f_i)) \notin q$.

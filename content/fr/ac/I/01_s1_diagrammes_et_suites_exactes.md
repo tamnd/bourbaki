@@ -28,7 +28,7 @@ subsections:
       pdf_page: 15
 statements: 7
 exercises: 7
-content_sha256: ce055ee638cb307cbacad4f748d112d368d0a0bf40e424626d097fe771250063
+content_sha256: 7ee50078c78483bc92858205c07364edcc77839ac67fb0ee091a1f4c9ffe4e8f
 ---
 
 ## § 1. Diagrammes et suites exactes
@@ -281,7 +281,7 @@ Enfin, on a (toujours avec les mêmes notations) $u_2(d(x)) =$ u_2(p(t')) = q(u'
 
 #### Remarque {#ac-i-s1-n4-rem-1 .statement}
 
-Lorsque les groupes du diagramme (10) sont tous des modules (à droite par exemple) sur un anneau $\Lambda$ et les homomorphismes des homomorphismes de $\Lambda$-modules, on vérifie aussitôt que l’homomorphisme $d$ défini dans la prop. 2, (iii) est encore un homomorphisme de $\Lambda$-modules : si $x \in \mathrm{Ker}\,(c)$ et $\alpha \in \Lambda$, et si $y \in \mathbf{B}$ est tel que $\varphi(y) = k(x)$, il suffit de remarquer que $\varphi(y\alpha) = k(x\alpha)$.
+Lorsque les groupes du diagramme (10) sont tous des modules (à droite par exemple) sur un anneau $A$ et les homomorphismes des homomorphismes de $A$-modules, on vérifie aussitôt que l’homomorphisme $d$ défini dans la prop. 2, (iii) est encore un homomorphisme de $A$-modules : si $x \in \mathrm{Ker}\,(c)$ et $\alpha \in A$, et si $y \in \mathbf{B}$ est tel que $\varphi(y) = k(x)$, il suffit de remarquer que $\varphi(y\alpha) = k(x\alpha)$.
 
 #### Corollaire 1 {#ac-i-s1-prop-2-cor-1 .statement}
 

@@ -36,7 +36,7 @@ chapters:
           statements: 7
           exercises: 7
           extraction: ocr
-          content_sha256: ce055ee638cb307cbacad4f748d112d368d0a0bf40e424626d097fe771250063
+          content_sha256: 7ee50078c78483bc92858205c07364edcc77839ac67fb0ee091a1f4c9ffe4e8f
         - kind: section
           section: 2
           title: Modules plats
@@ -133,7 +133,7 @@ chapters:
           statements: 51
           exercises: 17
           extraction: ocr
-          content_sha256: 2cfb86437e4b66be465a5932ba78f912c57440093982c286124acb0cafc2e9d5
+          content_sha256: 883ac8a1fd0a735651fdc3bbb06dccef987b6ee36fd6fdb9ad6332ee89ee1f7e
         - kind: section
           section: 5
           title: Modules projectifs de type fini. Idéaux fractionnaires inversibles
@@ -194,7 +194,7 @@ chapters:
           statements: 37
           exercises: 27
           extraction: ocr
-          content_sha256: 8946770381542fea93e050249d046345be6a1a19154b6df2eaac30ae3e84b650
+          content_sha256: d6fba1af17cf7aadb43e77bb8379db0eb311ec339e84a93882d759770242e0e0
         - kind: section
           section: 4
           title: Relèvement dans les anneaux complets
@@ -206,7 +206,7 @@ chapters:
           statements: 27
           exercises: 6
           extraction: ocr
-          content_sha256: 348683c88855ef57be9c856c7cc6b05d7dadd7ff440cb5b9b170131be39aebcb
+          content_sha256: 0a2a00d9d212add17e799b8567805f79e620cd71ec91da0baa9972ac508e04d6
         - kind: section
           section: 5
           title: Propriétés de platitude des modules filtrés

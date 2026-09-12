@@ -29,7 +29,7 @@ subsections:
       pdf_page: 24
 statements: 7
 exercises: 7
-content_sha256: 91c566a7cecdb143718ac07860e5d6fd98267d4b75ac12334a6fbc45e5ba6b22
+content_sha256: ec8eea6d930f3758e5415ab8701212ba69b5e375abdfa50de29daa3eeaae7951
 ---
 
 ## 1. DIAGRAMS AND EXACT SEQUENCES
@@ -300,7 +300,7 @@ Coker(a). It has been seen in (i) that it is exact at Ker(b) and in (ii) it is e
 
 #### Remark {#ac-i-s1-n4-rem-1 .statement}
 
-If the groups of the diagram (10) are all (for example, right) modules over a ring $\mathbf{A}$ and the homomorphisms are A-module homomorphisms, it is soon verified that the homomorphism d defined in Proposition 2, (iii) is also a A-module homomorphism: if $x \in \mathrm{Ker}(c)$ and $a \in \Lambda$, and $y \in B$ is such that $v(y) = k(x)$, it is sufficient to note that $v(ya) = k(xa)$.
+If the groups of the diagram (10) are all (for example, right) modules over a ring $A$ and the homomorphisms are A-module homomorphisms, it is soon verified that the homomorphism d defined in Proposition 2, (iii) is also a A-module homomorphism: if $x \in \mathrm{Ker}(c)$ and $a \in A$, and $y \in B$ is such that $v(y) = k(x)$, it is sufficient to note that $v(ya) = k(xa)$.
 
 #### Corollary 1 {#ac-i-s1-prop-2-cor-1 .statement}
 

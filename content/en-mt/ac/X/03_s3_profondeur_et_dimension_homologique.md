@@ -44,7 +44,7 @@ subsections:
       pdf_page: 50
 statements: 43
 exercises: 16
-content_sha256: dbbcc2c3fdaae8819a5272dea66f2e4d265e8831f2139794efe45e12dc00ad8e
+content_sha256: 78bdd90630340e741292edd0f342fdf9b0d3a32817a1c35b2ccf24fb1ecddea0
 translated_from: content/fr/ac/X/03_s3_profondeur_et_dimension_homologique.md
 source_lang: fr
 translation_method: machine
@@ -100,31 +100,31 @@ Recall (A, X, p. 138, Def. 2) that the homological dimension of the ring $A$, de
 
 #### Proposition 2 {#ac-x-s3-prop-2 .statement}
 
-Let $A$ be a ring, $M$ and $N$ $\Lambda$-modules, $i$ an integer and $S$ a multiplicative subset of $\Lambda$. One has a canonical isomorphism of $S^{-1}A$-modules
+Let $A$ be a ring, $M$ and $N$ $A$-modules, $i$ an integer and $S$ a multiplicative subset of $A$. One has a canonical isomorphism of $S^{-1}A$-modules
 
 $$
-S^{-1} \mathrm{Tor}_i^\Lambda(M, N) \longrightarrow \mathrm{Tor}_i^{S^{-1}\Lambda}(S^{-1}M, S^{-1}N) .
+S^{-1} \mathrm{Tor}_i^A(M, N) \longrightarrow \mathrm{Tor}_i^{S^{-1}A}(S^{-1}M, S^{-1}N) .
 $$
 
-If the ring $A$ is noetherian and the $A$-module $M$ finitely generated, one has a canonical isomorphism of $S^{-1}\Lambda$-modules
+If the ring $A$ is noetherian and the $A$-module $M$ finitely generated, one has a canonical isomorphism of $S^{-1}A$-modules
 
 $$
-S^{-1} \mathrm{Ext}_\Lambda^i(M, N) \longrightarrow \mathrm{Ext}_{S^{-1}\Lambda}^i(S^{-1}M, S^{-1}N) .
+S^{-1} \mathrm{Ext}_A^i(M, N) \longrightarrow \mathrm{Ext}_{S^{-1}A}^i(S^{-1}M, S^{-1}N) .
 $$
 
 Since the $A$-module $S^{-1}A$ is flat, this follows from A, X, p. 110, Prop. 9 and p. 111, Prop. 10.
 
 #### Corollary {#ac-x-s3-n2-cor-1 .statement}
 
-Let $A$ be a ring, $M$ and $N$ $\Lambda$-modules, $i$ an integer.
+Let $A$ be a ring, $M$ and $N$ $A$-modules, $i$ an integer.
 
-a) The support of $\mathrm{Tor}_i^\Lambda(M, N)$ is contained in $\mathrm{Supp}(M) \cap \mathrm{Supp}(N)$, and the same is true of the support of $\mathrm{Ext}_\Lambda^i(M, N)$ if $A$ is noetherian and $M$ finitely generated.
+a) The support of $\mathrm{Tor}_i^A(M, N)$ is contained in $\mathrm{Supp}(M) \cap \mathrm{Supp}(N)$, and the same is true of the support of $\mathrm{Ext}_A^i(M, N)$ if $A$ is noetherian and $M$ finitely generated.
 
-b) Suppose that $A$ is noetherian, and that the modules $M$ and $N$ are finitely generated; if the $\Lambda$-module $M \otimes_A N$ is of finite length, the same is true of $\mathrm{Tor}_i^\Lambda(M, N)$ and of $\mathrm{Ext}_\Lambda^i(M, N)$.
+b) Suppose that $A$ is noetherian, and that the modules $M$ and $N$ are finitely generated; if the $A$-module $M \otimes_A N$ is of finite length, the same is true of $\mathrm{Tor}_i^A(M, N)$ and of $\mathrm{Ext}_A^i(M, N)$.
 
 If $p$ is a prime ideal of $A$ not belonging to $\mathrm{Supp}(M) \cap \mathrm{Supp}(N)$, one of the modules $M_p$ or $N_p$ is zero, which implies a) in view of Prop. 2.
 
-In order that a finitely generated module over a noetherian ring be of finite length, it is necessary and sufficient that its support consist of maximal ideals (IV, § 2, No. 5, Prop. 7). Under assumption b), the $A$-modules $\mathrm{Tor}_i^\Lambda(M, N)$ and $\mathrm{Ext}_\Lambda^i(M, N)$ are finitely generated (A, X, p. 108, Cor.) ; the assertion b) therefore follows from a).
+In order that a finitely generated module over a noetherian ring be of finite length, it is necessary and sufficient that its support consist of maximal ideals (IV, § 2, No. 5, Prop. 7). Under assumption b), the $A$-modules $\mathrm{Tor}_i^A(M, N)$ and $\mathrm{Ext}_A^i(M, N)$ are finitely generated (A, X, p. 108, Cor.) ; the assertion b) therefore follows from a).
 
 #### Proposition 3 {#ac-x-s3-prop-3 .statement}
 
@@ -259,7 +259,7 @@ In particular, one has $\mathrm{dh}(A) = \sup_m \mathrm{dp}_A(A/m)$, where $m$ r
 Let $A$ be a noetherian ring, $N$ an $A$-module, $n$ an integer $\geqslant 0$. The following conditions are equivalent:
 
 (i) one has $\operatorname{di}_A(N) < n$ ;
-(ii) for every prime ideal $p$ of $\Lambda$, one has $\operatorname{Ext}_A^n(\Lambda/p, N) = 0$ ;
+(ii) for every prime ideal $p$ of $A$, one has $\operatorname{Ext}_A^n(A/p, N) = 0$ ;
 (iii) for every prime ideal $p$ of $A$, one has $\operatorname{Ext}_{A_p}^n(\kappa(p), N_p) = 0$.
 
 If moreover the $A$-module $N$ is of finite type, these conditions are equivalent to:
@@ -344,10 +344,10 @@ $$
 Consider the exact homology sequence associated with this exact sequence. By A, X, p. 100, th. 1, for every integer $n \geqslant 0$ one has isomorphisms
 
 $$
-H^n(\mathrm{Homgr}_{\Lambda/xA}(R', E')) \longrightarrow \mathrm{Ext}^n_{A/xA}(M/xM, N)
+H^n(\mathrm{Homgr}_{A/xA}(R', E')) \longrightarrow \mathrm{Ext}^n_{A/xA}(M/xM, N)
 $$
 $$
-H^n(\mathrm{Homgr}_{\Lambda/xA}(P/xP, E')) \longrightarrow H^n(\mathrm{Homgr}_A(P, E')) \longrightarrow \mathrm{Ext}^n_A(M, N)
+H^n(\mathrm{Homgr}_{A/xA}(P/xP, E')) \longrightarrow H^n(\mathrm{Homgr}_A(P, E')) \longrightarrow \mathrm{Ext}^n_A(M, N)
 $$
 $$
 H^n(\mathrm{Homgr}_{A/xA}(R, E')) = H^{n-1}(\mathrm{Homgr}_{A/xA}(R(1), E')) \longrightarrow \mathrm{Ext}^{n-1}_{A/xA}(\mathrm{Ker}(x_M), N)
@@ -364,7 +364,7 @@ $$
 
 (4)
 
-Analogously, let $p' : P' \to N$ be a projective resolution of the $(\Lambda/xA)$-module $N$. From the exact sequence (3) one deduces an exact sequence of complexes of $(A/xA)$-modules
+Analogously, let $p' : P' \to N$ be a projective resolution of the $(A/xA)$-module $N$. From the exact sequence (3) one deduces an exact sequence of complexes of $(A/xA)$-modules
 
 $0 \to \mathrm{Homgr}_{A/xA}(P', S) \longrightarrow \mathrm{Homgr}_{A/xA}(P', \mathrm{Ker}(x_E)) \longrightarrow \mathrm{Homgr}_{A/xA}(P', S') \to 0$.
 
@@ -459,9 +459,9 @@ We shall see later (§ 4, No. 2) that (ii) characterizes regular local rings.
 
 Retain the hypotheses of theorem 1.
 
-a) One has $dp_A(M) \leq \operatorname{prof}(\Lambda)$. For there to be equality, it is necessary and sufficient that the maximal ideal $m_A$ be associated to $M$.
+a) One has $dp_A(M) \leq \operatorname{prof}(A)$. For there to be equality, it is necessary and sufficient that the maximal ideal $m_A$ be associated to $M$.
 
-b) One has $\operatorname{prof}_A(M) \leq \operatorname{prof}(\Lambda)$. For there to be equality, it is necessary and sufficient that $M$ be free.
+b) One has $\operatorname{prof}_A(M) \leq \operatorname{prof}(A)$. For there to be equality, it is necessary and sufficient that $M$ be free.
 
 a) In fact, “ $\operatorname{prof}_A(M) = 0$ ” is equivalent to “ $m_A \in \operatorname{Ass}(A)$ ” ($§ 1$, No. 1, remark 2).
 
@@ -473,21 +473,21 @@ In particular, $dp_A(M)$ is then greater than $\dim(A) - \dim_A(M)$, and there i
 
 #### Corollary 3 {#ac-x-s3-thm-1-cor-3 .statement}
 
-Let $A$ be a noetherian ring, $M$ a finitely generated $A$-module of finite projective dimension, $i$ an integer $\geq 0$, $N$ a finitely generated $A$-module, and $F$ the support of the $A$-module $\operatorname{Ext}_A^i(M, N)$ (resp. $\operatorname{Tor}_i^\Lambda(M, N)$). Then $\operatorname{prof}_F(\Lambda) \geq i$.
+Let $A$ be a noetherian ring, $M$ a finitely generated $A$-module of finite projective dimension, $i$ an integer $\geq 0$, $N$ a finitely generated $A$-module, and $F$ the support of the $A$-module $\operatorname{Ext}_A^i(M, N)$ (resp. $\operatorname{Tor}_i^A(M, N)$). Then $\operatorname{prof}_F(A) \geq i$.
 
-In fact, let $p \in F$. We have $\operatorname{Ext}_A^i(M_p, N_p) \neq 0$ (resp. $\operatorname{Tor}_i^\Lambda(M_p, N_p) \neq 0$) by prop. 2 of No. 2, hence $i \leq dp_{A_p}(M_p) \leq dp_A(M) < +\infty$ (No. 2, prop. 3). Theorem 1 implies $\operatorname{prof}(A_p) \geq i$. Consequently ($§ 1$, No. 5, prop. 8)
+In fact, let $p \in F$. We have $\operatorname{Ext}_A^i(M_p, N_p) \neq 0$ (resp. $\operatorname{Tor}_i^A(M_p, N_p) \neq 0$) by prop. 2 of No. 2, hence $i \leq dp_{A_p}(M_p) \leq dp_A(M) < +\infty$ (No. 2, prop. 3). Theorem 1 implies $\operatorname{prof}(A_p) \geq i$. Consequently ($§ 1$, No. 5, prop. 8)
 
 $$
-\operatorname{prof}_F(\Lambda) = \inf_{p \in F} \operatorname{prof}(A_p) \geq i .
+\operatorname{prof}_F(A) = \inf_{p \in F} \operatorname{prof}(A_p) \geq i .
 $$
 
-With the terminology of $§ 1$, No. 5, remark 4, the conclusion of cor. 3 means that the modules $\operatorname{Ext}_\Lambda^i(M, N)$ and $\operatorname{Tor}_i^\Lambda(M, N)$ are of grade $\geq i$. It implies that the codimension of their support in $\operatorname{Spec}(A)$ is $\geq i$ ($§ 1$, No. 7, prop. 12).
+With the terminology of $§ 1$, No. 5, remark 4, the conclusion of cor. 3 means that the modules $\operatorname{Ext}_A^i(M, N)$ and $\operatorname{Tor}_i^A(M, N)$ are of grade $\geq i$. It implies that the codimension of their support in $\operatorname{Spec}(A)$ is $\geq i$ ($§ 1$, No. 7, prop. 12).
 
 #### Corollary 4 {#ac-x-s3-thm-1-cor-4 .statement}
 
 Let $A$ be a noetherian Macaulay ring and $M$ a finitely generated $A$-module of finite projective dimension.
 
-a) Let $p \in \operatorname{Spec}(\Lambda)$; let us denote by $\mathscr{C}(p)$ the set of irreducible components of $\operatorname{Supp}(M)$ containing $p$. We have
+a) Let $p \in \operatorname{Spec}(A)$; let us denote by $\mathscr{C}(p)$ the set of irreducible components of $\operatorname{Supp}(M)$ containing $p$. We have
 
 $$
 \dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p) = dp_{A_p}(M_p) - \inf_{X \in \mathscr{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
@@ -495,7 +495,7 @@ $$
 
 b) The mapping $p \mapsto \dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p)$ of $\operatorname{Spec}(A)$ into $\overline{\mathbf{Z}}$ is upper semi-continuous.
 
-c) The set of prime ideals $p$ of $\Lambda$ such that the $A_p$-module $M_p$ is Macaulay is open and dense in $\operatorname{Spec}(\Lambda)$. Its intersection with $\operatorname{Supp}(M)$ is dense in $\operatorname{Supp}(M)$.
+c) The set of prime ideals $p$ of $A$ such that the $A_p$-module $M_p$ is Macaulay is open and dense in $\operatorname{Spec}(A)$. Its intersection with $\operatorname{Supp}(M)$ is dense in $\operatorname{Supp}(M)$.
 
 a) We may suppose that $p \in \operatorname{Supp}(M)$. Put $\varphi(p) = \dim(A_p) - \dim_{A_p}(M_p)$. By cor. 2 above, we have
 
@@ -510,7 +510,7 @@ $$
 $$
 
 $$
-\dim_{\Lambda_p}(M_p) = \operatorname{codim}(V(p), \operatorname{Supp}(M)) = \sup_{X \in \mathscr{C}(p)} \operatorname{codim}(V(p), X)
+\dim_{A_p}(M_p) = \operatorname{codim}(V(p), \operatorname{Supp}(M)) = \sup_{X \in \mathscr{C}(p)} \operatorname{codim}(V(p), X)
 $$
 
 and consequently
@@ -625,14 +625,14 @@ It remains for us to treat the case where $\mathrm{di}_A(A)$ is infinite but whe
 
 Let $A$ be a noetherian local ring; put $d = \dim(A)$. Let $x = (x_1, \ldots, x_d)$ be a maximal secant sequence of elements of $m_A$, and $x$ the ideal which it generates. The following conditions are equivalent:
 
-(i) $\Lambda$ is a Gorenstein ring;
-(ii) one has $\operatorname{di}_\Lambda(A) = d$;
-(iii) there exists an integer $i > d$ such that $\operatorname{Ext}^i_\Lambda(\kappa_A, A) = 0$;
-(iv) one has $\operatorname{Ext}^i_\Lambda(\kappa_A, A) = 0$ for $i < d$ and the $\kappa_A$-vector space $\operatorname{Ext}^d_\Lambda(\kappa_A, A)$ is of dimension 1;
+(i) $A$ is a Gorenstein ring;
+(ii) one has $\operatorname{di}_A(A) = d$;
+(iii) there exists an integer $i > d$ such that $\operatorname{Ext}^i_A(\kappa_A, A) = 0$;
+(iv) one has $\operatorname{Ext}^i_A(\kappa_A, A) = 0$ for $i < d$ and the $\kappa_A$-vector space $\operatorname{Ext}^d_A(\kappa_A, A)$ is of dimension 1;
 (v) the ring $A$ is Macaulay and the $\kappa_A$-vector space $\operatorname{Hom}_A(\kappa_A, A/x)$ is of dimension 1;
 (vi) the sequence $x$ is $A$-regular and the $\kappa_A$-vector space $\operatorname{Hom}_A(\kappa_A, A/x)$ is of dimension 1.
 
-The equivalence of (i), (ii) and (iii) follows from Lemma 2 and Prop. 10. If $\operatorname{Ext}^i_\Lambda(\kappa_A, A)$ is zero for every integer $i < d$, the ring $A$ is Macaulay (§ 2, No. 3, Prop. 3); if the ring $A$ is Macaulay, the sequence $x$ is $A$-regular (*loc. cit.*, Th. 1); if the sequence $x$ is $A$-regular, one has $\operatorname{Ext}^i_\Lambda(\kappa_A, A) = 0$ for $i < d$ and the $\kappa_A$-vector spaces $\operatorname{Ext}^d_\Lambda(\kappa_A, A)$ and $\operatorname{Hom}_A(\kappa_A, A/x)$ are isomorphic (A, X, p. 166, Prop. 9). This proves the equivalence of conditions (iv), (v) and (vi).
+The equivalence of (i), (ii) and (iii) follows from Lemma 2 and Prop. 10. If $\operatorname{Ext}^i_A(\kappa_A, A)$ is zero for every integer $i < d$, the ring $A$ is Macaulay (§ 2, No. 3, Prop. 3); if the ring $A$ is Macaulay, the sequence $x$ is $A$-regular (*loc. cit.*, Th. 1); if the sequence $x$ is $A$-regular, one has $\operatorname{Ext}^i_A(\kappa_A, A) = 0$ for $i < d$ and the $\kappa_A$-vector spaces $\operatorname{Ext}^d_A(\kappa_A, A)$ and $\operatorname{Hom}_A(\kappa_A, A/x)$ are isomorphic (A, X, p. 166, Prop. 9). This proves the equivalence of conditions (iv), (v) and (vi).
 
 Let us prove that (i) implies (v): if $A$ is a Gorenstein ring, it is a Macaulay ring (prop. 10). The sequence $x$ is then $A$-regular (§ 2, No. 3, prop. 4), hence $A/x$ is an artinian Gorenstein ring (example 2), so that the $\kappa_A$-vector space $\operatorname{Hom}_A(\kappa_A, A/x)$ is of dimension 1.
 
@@ -640,9 +640,9 @@ Lastly let us prove that (vi) implies (i): under assumption (vi), the ring $A/x$
 
 #### Corollary {#ac-x-s3-n7-cor-1 .statement}
 
-*Let $\Lambda$ be a noetherian local ring of dimension d. The $\Lambda$-module $\operatorname{Ext}^d_\Lambda(\kappa_A, A)$ is not zero.*
+*Let $A$ be a noetherian local ring of dimension d. The $A$-module $\operatorname{Ext}^d_A(\kappa_A, A)$ is not zero.*
 
-This follows from th. 2 if $\Lambda$ is a Gorenstein ring and from lemma 2 otherwise.
+This follows from th. 2 if $A$ is a Gorenstein ring and from lemma 2 otherwise.
 
 #### Proposition 11 {#ac-x-s3-prop-11 .statement}
 
@@ -696,7 +696,7 @@ Let $q$ be a prime ideal of $B$; put $p = \rho^{-1}(q)$. The ring $B_q$, isomorp
 
 (iii) $\Rightarrow$ (i): for every maximal ideal $n$ of $B$, it follows from the beginning of the proof (applied with $q = n$) that $B_n$ is a Gorenstein ring, whence (i).
 
-If $B$ is a faithfully flat $A$-module, the mapping $^a\rho : \mathrm{Spec}(B) \longrightarrow \mathrm{Spec}(\Lambda)$ is surjective (II, § 2, No. 5, cor. 4 of prop. 11), whence the last assertion.
+If $B$ is a faithfully flat $A$-module, the mapping $^a\rho : \mathrm{Spec}(B) \longrightarrow \mathrm{Spec}(A)$ is surjective (II, § 2, No. 5, cor. 4 of prop. 11), whence the last assertion.
 
 #### Corollary 2 {#ac-x-s3-prop-12-cor-2 .statement}
 

@@ -24,7 +24,7 @@ subsections:
       pdf_page: 146
 statements: 20
 exercises: 11
-content_sha256: a6c209ae5d50a5fa9874c12004d6ccd19e14a3fd0f1d0a3095e85f926e71e4dd
+content_sha256: 8d6680a92da30b29008e59b6ace8c7ebafae73d98276e958c7168a33ae805c6f
 translated_from: content/fr/ac/X/10_s10_cohomologie_locale_dualite_de.md
 source_lang: fr
 translation_method: machine
@@ -58,7 +58,7 @@ $$
 \end{array}
 $$
 
-be an exact sequence of $A$-modules. By $\Lambda$, X, p. 90, Prop. 8, the connecting homomorphisms of the extension modules $\mathrm{Ext}_A(A/a, P) \longrightarrow \mathrm{Ext}_A(A/a, M)$ form an inductive system of $A$-linear mappings, graded of (ascending) degree +1. By passing to the inductive limit, one deduces an $A$-homomorphism $\partial(\mathscr{E}) : H_A(P) \to H_A(M)$, graded of degree +1, which makes exact the sequence of homomorphisms
+be an exact sequence of $A$-modules. By $A$, X, p. 90, Prop. 8, the connecting homomorphisms of the extension modules $\mathrm{Ext}_A(A/a, P) \longrightarrow \mathrm{Ext}_A(A/a, M)$ form an inductive system of $A$-linear mappings, graded of (ascending) degree +1. By passing to the inductive limit, one deduces an $A$-homomorphism $\partial(\mathscr{E}) : H_A(P) \to H_A(M)$, graded of degree +1, which makes exact the sequence of homomorphisms
 
 $$
 \ldots \longrightarrow H_A^{n-1}(P) \xrightarrow{\partial^{n-1}(\mathscr{E})} H_A^n(M) \xrightarrow{H_A^n(f)} H_A^n(N) \xrightarrow{H_A^n(g)} H_A^n(P) \xrightarrow{\partial^n(\mathscr{E})} H_A^{n+1}(M) \longrightarrow \ldots
@@ -80,7 +80,7 @@ Let $\Omega$ be a dualizing A-module. For $i \neq \dim(A)$, one has $\mathrm{Ext
 
 #### Example 4 {#ac-x-s10-n1-exa-4 .statement}
 
-Let A be a noetherian local integral ring; let K denote its field of fractions, and suppose that $A \neq K$. It is an injective A-module (A, X, p. 18, example 1), so that the module $H_A(K)$ is zero (example 1). From the exact sequence $0 \to A \to K \to K/A \to 0$, one obtains for every $i$ an isomorphism $H_A^i(K/\Lambda) \to H_A^{i+1}(A)$.
+Let A be a noetherian local integral ring; let K denote its field of fractions, and suppose that $A \neq K$. It is an injective A-module (A, X, p. 18, example 1), so that the module $H_A(K)$ is zero (example 1). From the exact sequence $0 \to A \to K \to K/A \to 0$, one obtains for every $i$ an isomorphism $H_A^i(K/A) \to H_A^{i+1}(A)$.
 
 More generally, for every torsion-free A-module M and every integer $i$, one deduces from the exact sequence
 

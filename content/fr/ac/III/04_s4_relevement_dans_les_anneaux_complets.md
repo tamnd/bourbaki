@@ -36,7 +36,7 @@ subsections:
       pdf_page: 269
 statements: 27
 exercises: 6
-content_sha256: 348683c88855ef57be9c856c7cc6b05d7dadd7ff440cb5b9b170131be39aebcb
+content_sha256: 0a2a00d9d212add17e799b8567805f79e620cd71ec91da0baa9972ac508e04d6
 ---
 
 ## § 4. Relèvement dans les anneaux complets.
@@ -353,7 +353,7 @@ La prop. 5 et les formules (10) et (15) montrent que pour la loi de composition 
 
 ### 5. Systèmes d’équations dans les anneaux complets.
 
-Pour abréger, nous dirons dans ce qui suit qu’un anneau $A$ satisfait aux conditions de Hensel s’il est commutatif, linéairement topologisé, séparé et complet ; étant donné un idéal $m$ dans un tel anneau, nous dirons que $m$ (ou le couple $(\Lambda, m)$) satisfait aux conditions de Hensel si $m$ est fermé dans $A$ et si ses éléments sont topologiquement nilpotents. L’idéal $t$ de $A$ formé de tous les éléments topologiquement nilpotents satisfait aux conditions de Hensel (no 3).
+Pour abréger, nous dirons dans ce qui suit qu’un anneau $A$ satisfait aux conditions de Hensel s’il est commutatif, linéairement topologisé, séparé et complet ; étant donné un idéal $m$ dans un tel anneau, nous dirons que $m$ (ou le couple $(A, m)$) satisfait aux conditions de Hensel si $m$ est fermé dans $A$ et si ses éléments sont topologiquement nilpotents. L’idéal $t$ de $A$ formé de tous les éléments topologiquement nilpotents satisfait aux conditions de Hensel (no 3).
 
 En particulier, si $A$ est un anneau commutatif, $m$ un idéal de $A$, et si $A$ est séparé et complet pour la topologie $m$-adique, le couple $(A, m)$ satisfait aux conditions de Hensel.
 
@@ -367,19 +367,19 @@ On notera que cette proposition redonne comme cas particulier le (i) de la prop.
 
 Lorsque A est lui-même linéairement topologisé, la restriction de $\tilde{u}$ à $A\{X_1, ..., X_n\}$ coïncide avec l’homomorphisme défini à partir de $u$ dans la prop. 4 du no 2. Cela résulte aussitôt de ce que $A[X_1, ..., X_n]$ est dense dans $A\{X_1, ..., X_n\}$ quand on munit cet anneau de la topologie ayant pour système fondamental de voisinages de 0 les idéaux $m^k \cap N_S$ (avec les notations du no 2 ; cette topologie est la borne supérieure de la topologie induite sur $A\{X_1, ..., X_n\}$ par la topologie m-adique de $A[[X_1, ..., X_n]]$, et de la topologie définie au no 2).
 
-Lorsque B = A et que $u$ est l’application identique, nous noterons $f(x_1, ..., x_n)$ ou $f(\mathbf{x})$ l’élément $\tilde{u}(f)$ pour toute série formelle $f \in A[[X_1, ..., X_n]]$; pour tout système $\mathbf{f} = (f_1, ..., f_r)$ de séries formelles de $A[[X_1, ..., X_n]]$, on notera $\mathbf{f}(\mathbf{x})$ l’élément $(f_1(\mathbf{x}), ..., f_r(\mathbf{x}))$ de $A^r$ et on dit qu’il s’obtient en substituant les $x_i$ aux $X_i$ dans $\mathbf{f}$. Si $n \leq m$ et si F est une série formelle de $A[[X_1, ..., X_m]]$, on peut considérer F comme une série formelle en $X_{n+1}, \ldots, X_m$ à coefficients dans $\Lambda[[X_1, \ldots, X_n]]$; on note $F(x_1, \ldots, x_n, X_{n+1}, \ldots, X_m)$ la série formelle de $\Lambda[[X_{n+1}, \ldots, X_m]]$ obtenue en substituant les $x_i$ aux $X_i$ dans les coefficients de F, pour $1 \leq i \leq n$.
+Lorsque B = A et que $u$ est l’application identique, nous noterons $f(x_1, ..., x_n)$ ou $f(\mathbf{x})$ l’élément $\tilde{u}(f)$ pour toute série formelle $f \in A[[X_1, ..., X_n]]$; pour tout système $\mathbf{f} = (f_1, ..., f_r)$ de séries formelles de $A[[X_1, ..., X_n]]$, on notera $\mathbf{f}(\mathbf{x})$ l’élément $(f_1(\mathbf{x}), ..., f_r(\mathbf{x}))$ de $A^r$ et on dit qu’il s’obtient en substituant les $x_i$ aux $X_i$ dans $\mathbf{f}$. Si $n \leq m$ et si F est une série formelle de $A[[X_1, ..., X_m]]$, on peut considérer F comme une série formelle en $X_{n+1}, \ldots, X_m$ à coefficients dans $A[[X_1, \ldots, X_n]]$; on note $F(x_1, \ldots, x_n, X_{n+1}, \ldots, X_m)$ la série formelle de $A[[X_{n+1}, \ldots, X_m]]$ obtenue en substituant les $x_i$ aux $X_i$ dans les coefficients de F, pour $1 \leq i \leq n$.
 
-Prenons pour B un anneau de séries formelles $\Lambda[[X_1, \ldots, X_r]]$, et soit $\mathfrak{n}$ l’idéal des séries de B sans terme constant, de sorte que $(B, \mathfrak{n})$ satisfait aux conditions de Hensel ($§\ 2$, no 6, cor. de la prop. 6). On peut appliquer la prop. 6 en prenant pour les $x_i \in B$ des séries sans terme constant ; alors, pour toute série $f \in \Lambda[[X_1, \ldots, X_n]]$, $\tilde{u}(f)$ n’est autre que la série formelle $f(x_1, \ldots, x_n)$ définie en Alg., chap. IV, $§\ 5$, no 5. C’est évident si $f$ est un polynôme et on en déduit la proposition dans le cas général en remarquant que $f \to f(x_1, \ldots, x_n)$ est continue dans $\Lambda[[X_1, \ldots, X_n]]$ pour la topologie $m$-adique.
+Prenons pour B un anneau de séries formelles $A[[X_1, \ldots, X_r]]$, et soit $\mathfrak{n}$ l’idéal des séries de B sans terme constant, de sorte que $(B, \mathfrak{n})$ satisfait aux conditions de Hensel ($§\ 2$, no 6, cor. de la prop. 6). On peut appliquer la prop. 6 en prenant pour les $x_i \in B$ des séries sans terme constant ; alors, pour toute série $f \in A[[X_1, \ldots, X_n]]$, $\tilde{u}(f)$ n’est autre que la série formelle $f(x_1, \ldots, x_n)$ définie en Alg., chap. IV, $§\ 5$, no 5. C’est évident si $f$ est un polynôme et on en déduit la proposition dans le cas général en remarquant que $f \to f(x_1, \ldots, x_n)$ est continue dans $A[[X_1, \ldots, X_n]]$ pour la topologie $m$-adique.
 
 #### Corollaire {#ac-iii-s4-n5-cor-1 .statement}
 
-Soient $\Lambda$ un anneau satisfaisant aux conditions de Hensel, $\mathbf{x} = (x_1, \ldots, x_n)$ une famille d’éléments topologiquement nilpotents dans $\Lambda$. Soient $g = (g_1, \ldots, g_q)$ un système sans terme constant de séries de $\Lambda[[X_1, \ldots, X_n]]$, $\mathbf{f} = (f_1, \ldots, f_p)$ un système de séries formelles de $\Lambda[[X_1, \ldots, X_q]]$. Alors $g(\mathbf{x}) = (g_1(\mathbf{x}), \ldots, g_q(\mathbf{x}))$ est une famille d’éléments topologiquement nilpotents de $\Lambda$ et on a
+Soient $A$ un anneau satisfaisant aux conditions de Hensel, $\mathbf{x} = (x_1, \ldots, x_n)$ une famille d’éléments topologiquement nilpotents dans $A$. Soient $g = (g_1, \ldots, g_q)$ un système sans terme constant de séries de $A[[X_1, \ldots, X_n]]$, $\mathbf{f} = (f_1, \ldots, f_p)$ un système de séries formelles de $A[[X_1, \ldots, X_q]]$. Alors $g(\mathbf{x}) = (g_1(\mathbf{x}), \ldots, g_q(\mathbf{x}))$ est une famille d’éléments topologiquement nilpotents de $A$ et on a
 $$(18)$$
 $$(\mathbf{f} \circ g)(\mathbf{x}) = \mathbf{f}(g(\mathbf{x})).$$
 
-Le fait que les $g_i(\mathbf{x})$ sont topologiquement nilpotents résulte aussitôt de la prop. 6 et du fait que dans $\Lambda$ l’idéal des éléments topologiquement nilpotents est fermé. La relation (18) est évidente lorsque les $f_j$ sont des polynômes ; d’autre part, si $m$ et $m'$ sont les idéaux des séries sans terme constant dans $\Lambda[[X_1, \ldots, X_q]]$ et dans $\Lambda[[X_1, \ldots, X_n]]$ respectivement, il est clair que la relation $f \in m^k$ entraîne $f(g_1, \ldots, g_q) \in {m'}^k$. Les deux membres de (18) sont donc fonctions continues de $\mathbf{f}$ dans $(\Lambda[[X_1, \ldots, X_q]])^p$ quand on munit $\Lambda[[X_1, \ldots, X_q]]$ de la topologie $m$-adique, en vertu de la remarque précédente et de la prop. 6 ; d’où la relation (18).
+Le fait que les $g_i(\mathbf{x})$ sont topologiquement nilpotents résulte aussitôt de la prop. 6 et du fait que dans $A$ l’idéal des éléments topologiquement nilpotents est fermé. La relation (18) est évidente lorsque les $f_j$ sont des polynômes ; d’autre part, si $m$ et $m'$ sont les idéaux des séries sans terme constant dans $A[[X_1, \ldots, X_q]]$ et dans $A[[X_1, \ldots, X_n]]$ respectivement, il est clair que la relation $f \in m^k$ entraîne $f(g_1, \ldots, g_q) \in {m'}^k$. Les deux membres de (18) sont donc fonctions continues de $\mathbf{f}$ dans $(A[[X_1, \ldots, X_q]])^p$ quand on munit $A[[X_1, \ldots, X_q]]$ de la topologie $m$-adique, en vertu de la remarque précédente et de la prop. 6 ; d’où la relation (18).
 
-Dans ce qui suit, pour un anneau $\Lambda$ et un idéal $m$ de $\Lambda$, nous noterons $m^{x^n}$ l’ensemble produit $\prod_{i=1}^n m_i$ dans $\Lambda^n$, avec $m_i = m$ pour $1 \leq i \leq n$, pour éviter toute confusion.
+Dans ce qui suit, pour un anneau $A$ et un idéal $m$ de $A$, nous noterons $m^{x^n}$ l’ensemble produit $\prod_{i=1}^n m_i$ dans $A^n$, avec $m_i = m$ pour $1 \leq i \leq n$, pour éviter toute confusion.
 
 #### Proposition 7 {#ac-iii-s4-prop-7 .statement}
 

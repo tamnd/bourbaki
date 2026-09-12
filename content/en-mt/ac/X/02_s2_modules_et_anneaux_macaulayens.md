@@ -41,7 +41,7 @@ subsections:
       pdf_page: 33
 statements: 46
 exercises: 11
-content_sha256: 4a7320ac33bfcf167ffd6396c98eba16a370f200d65162865a93ae1dbeee675f
+content_sha256: 8b7a4c97f218bdf8ceab17ff903640d19155d659d7899b3e80755d18a74672b7
 translated_from: content/fr/ac/X/02_s2_modules_et_anneaux_macaulayens.md
 source_lang: fr
 translation_method: machine
@@ -94,19 +94,19 @@ Let $M$ be a finitely generated $A$-module, and let $a$ be an ideal of $A$ such 
 
 #### Proposition 1 {#ac-x-s2-prop-1 .statement}
 
-Let $\Lambda$ be a noetherian ring, $M$ a finitely generated $\Lambda$-module, and $p$ and $q$ prime ideals of $\mathrm{Supp}(M)$ such that $p \subset q$. Suppose that $\dim_{\Lambda_q}(M_q) = \mathrm{prof}_{\Lambda_q}(M_q)$. Then one has $\dim_{\Lambda_p}(M_p) = \mathrm{prof}_{\Lambda_p}(M_p)$ and
+Let $A$ be a noetherian ring, $M$ a finitely generated $A$-module, and $p$ and $q$ prime ideals of $\mathrm{Supp}(M)$ such that $p \subset q$. Suppose that $\dim_{A_q}(M_q) = \mathrm{prof}_{A_q}(M_q)$. Then one has $\dim_{A_p}(M_p) = \mathrm{prof}_{A_p}(M_p)$ and
 $$
-\dim_{\Lambda_q}(M_q) = \dim_{\Lambda_p}(M_p) + \dim(\Lambda_q/\mathfrak{p}\Lambda_q) .
+\dim_{A_q}(M_q) = \dim_{A_p}(M_p) + \dim(A_q/\mathfrak{p}A_q) .
 $$
 This follows directly from cor. 1 of prop. 13 of § 1, No. 7.
 
 #### Corollary {#ac-x-s2-n1-cor-1 .statement}
 
-Let $\Lambda$ be a noetherian ring and $M$ a finitely generated $\Lambda$-module. The following conditions are equivalent:
-(i) the $\Lambda$-module $M$ is Macaulay;
-(ii) one has $\mathrm{prof}_{\Lambda_p}(M_p) = \dim_{\Lambda_p}(M_p)$ for every $p \in \mathrm{Supp}(M)$;
-(iii) one has $\mathrm{prof}_F(M) = \mathrm{codim}(\mathrm{Supp}(M) \cap F', \mathrm{Supp}(M))$ for every closed subset $F$ of $\mathrm{Spec}(\Lambda)$;
-(iv) one has $\mathrm{prof}_A(p; M) = \dim_{\Lambda_p}(M_p)$ for every $p \in \mathrm{Supp}(M)$.
+Let $A$ be a noetherian ring and $M$ a finitely generated $A$-module. The following conditions are equivalent:
+(i) the $A$-module $M$ is Macaulay;
+(ii) one has $\mathrm{prof}_{A_p}(M_p) = \dim_{A_p}(M_p)$ for every $p \in \mathrm{Supp}(M)$;
+(iii) one has $\mathrm{prof}_F(M) = \mathrm{codim}(\mathrm{Supp}(M) \cap F', \mathrm{Supp}(M))$ for every closed subset $F$ of $\mathrm{Spec}(A)$;
+(iv) one has $\mathrm{prof}_A(p; M) = \dim_{A_p}(M_p)$ for every $p \in \mathrm{Supp}(M)$.
 
 (i) $\Rightarrow$ (ii): this follows from Proposition 1.
 (ii) $\Rightarrow$ (iii): by prop. 8 of § 1, No. 5, $\mathrm{prof}_F(M)$ is the greatest lower bound of the integers $\mathrm{prof}(M_p)$ for $p$ ranging over $\mathrm{Supp}(M) \cap F$. If $M$ is Macaulay, then for such an ideal $p$ one has the equalities $\mathrm{prof}(M_p) = \dim(M_p) = \mathrm{codim}(V(p), \mathrm{Supp}(M))$ (VIII, § 1, No. 4, prop. 9), whence (iii).
@@ -115,14 +115,14 @@ Let $\Lambda$ be a noetherian ring and $M$ a finitely generated $\Lambda$-module
 
 #### Remark {#ac-x-s2-n1-rem-1 .statement}
 
-Let $S$ be a multiplicative subset of $\Lambda$ and $M$ a finitely generated Macaulay $\Lambda$-module. Then $S^{-1}M$ is a Macaulay $S^{-1}\Lambda$-module. In fact, let $q \in \mathrm{Spec}(S^{-1}\Lambda)$; let $i_A^S : \Lambda \to S^{-1}\Lambda$ denote the canonical homomorphism and put $p = (i_A^S)^{-1}(q)$. The ring $(S^{-1}\Lambda)_q$ is identified with $A_p$ (II, § 2, No. 5, prop. 11), and the $A_p$-module $(S^{-1}M)_q$ with the $A_p$-module $M_p$ (II, § 2, No. 7, prop. 20), which is Macaulay by the corollary.
+Let $S$ be a multiplicative subset of $A$ and $M$ a finitely generated Macaulay $A$-module. Then $S^{-1}M$ is a Macaulay $S^{-1}A$-module. In fact, let $q \in \mathrm{Spec}(S^{-1}A)$; let $i_A^S : A \to S^{-1}A$ denote the canonical homomorphism and put $p = (i_A^S)^{-1}(q)$. The ring $(S^{-1}A)_q$ is identified with $A_p$ (II, § 2, No. 5, prop. 11), and the $A_p$-module $(S^{-1}M)_q$ with the $A_p$-module $M_p$ (II, § 2, No. 7, prop. 20), which is Macaulay by the corollary.
 
 ### 2. Support of a Macaulay module
 
 #### Proposition 2 {#ac-x-s2-prop-2 .statement}
 
-Let $\Lambda$ be a noetherian ring and $M$ a finitely generated Macaulay $\Lambda$-module.
-a) The $\Lambda$-module $M$ has no embedded associated prime ideals.\footnote{Recall (cf. IV, § 2, No. 3, remark) that an associated prime ideal of $M$ is said to be embedded if it is not a minimal element of $\mathrm{Supp}(M)$. Thus to say that $M$ has no embedded associated prime ideals means that the associated prime ideals of $M$ are the minimal elements of $\mathrm{Supp}(M)$.}
+Let $A$ be a noetherian ring and $M$ a finitely generated Macaulay $A$-module.
+a) The $A$-module $M$ has no embedded associated prime ideals.\footnote{Recall (cf. IV, § 2, No. 3, remark) that an associated prime ideal of $M$ is said to be embedded if it is not a minimal element of $\mathrm{Supp}(M)$. Thus to say that $M$ has no embedded associated prime ideals means that the associated prime ideals of $M$ are the minimal elements of $\mathrm{Supp}(M)$.}
 b) Let $X$ be an irreducible closed subset of $\mathrm{Supp}(M)$ and $Y$ a closed subset of $X$. Then
 $$
 \mathrm{codim}(Y, X) + \mathrm{codim}(X, \mathrm{Supp}(M)) = \mathrm{codim}(Y, \mathrm{Supp}(M)) .
@@ -299,7 +299,7 @@ Every finite subset S of A such that SM = M is strongly secant for M. When SM �
 
 #### Remark 2 {#ac-x-s2-n4-rem-2 .statement}
 
-If the ring A is local and the nonzero module M, every subset S of $m_A$ strongly secant for M is secant for M. In fact, since the $\Lambda$-module M/SM is nonzero, one has
+If the ring A is local and the nonzero module M, every subset S of $m_A$ strongly secant for M is secant for M. In fact, since the $A$-module M/SM is nonzero, one has
 
 $$
 \text{Card}(S) \leq \operatorname{codim}(\operatorname{Supp}(M/SM), \operatorname{Supp}(M)) \leq \dim(M) - \dim(M/SM)
@@ -312,7 +312,7 @@ $$
 Let A be a noetherian ring, M a finitely generated A-module, and S a finite subset of A. The following conditions are equivalent:
 
 (i) the subset S of A is strongly secant for M;
-(ii) for every element $p$ of Supp(M/SM), the canonical mapping $\Lambda \to A_p$ induces a bijection of S onto a subset of $pA_p$ secant for $M_p$.
+(ii) for every element $p$ of Supp(M/SM), the canonical mapping $A \to A_p$ induces a bijection of S onto a subset of $pA_p$ secant for $M_p$.
 
 (i) $\Rightarrow$ (ii) : Let $p \in \operatorname{Supp}(M/SM)$ and let $S'$ be the image of S in $A_p$. The set $S'$ is contained in the maximal ideal $pA_p$, and one has
 
@@ -366,7 +366,7 @@ For every maximal ideal $m \in \mathrm{Supp}(M/SM)$, the image of S in $A_m$ is 
 
 #### Definition 3 {#ac-x-s2-def-3 .statement}
 
-*One says that a ring $\Lambda$ is Macaulay, or is a Macaulay ring, if it is noetherian and the A-module $\Lambda$ is Macaulay.*
+*One says that a ring $A$ is Macaulay, or is a Macaulay ring, if it is noetherian and the A-module $A$ is Macaulay.*
 
 #### Example 1 {#ac-x-s2-n5-exa-1 .statement}
 
@@ -386,7 +386,7 @@ If $A$ is a Macaulay ring, the same is true of $S^{-1}A$ for every multiplicativ
 
 #### Example 5 {#ac-x-s2-n5-exa-5 .statement}
 
-Let $A$ be a noetherian ring and $J$ an ideal of $A$. In order that $A/J$ be a Macaulay ring, it is necessary and sufficient that it be a Macaulay $\Lambda$-module (No. 1, Example 4).
+Let $A$ be a noetherian ring and $J$ an ideal of $A$. In order that $A/J$ be a Macaulay ring, it is necessary and sufficient that it be a Macaulay $A$-module (No. 1, Example 4).
 
 #### Example 6 {#ac-x-s2-n5-exa-6 .statement}
 
@@ -490,7 +490,7 @@ In particular, if B is a Macaulay ring, the same is true of A.
 
 #### Proposition 9 {#ac-x-s2-prop-9 .statement}
 
-Let ρ : A → B be a homomorphism of noetherian rings, M a finitely generated A-module and N a finitely generated B-module, flat over A. Denote by $^a\rho : \mathrm{Spec}(B) \longrightarrow \mathrm{Spec}(\Lambda)$ the mapping associated with ρ. The following conditions are equivalent:
+Let ρ : A → B be a homomorphism of noetherian rings, M a finitely generated A-module and N a finitely generated B-module, flat over A. Denote by $^a\rho : \mathrm{Spec}(B) \longrightarrow \mathrm{Spec}(A)$ the mapping associated with ρ. The following conditions are equivalent:
 
 (i) the B-module $M \otimes_A N$ is Macaulay;
 (ii) the $(\kappa(p) \otimes_A B)$-module $\kappa(p) \otimes_A N$ is Macaulay for every $p \in \mathrm{Supp}_A(M)$, and the $A_p$-module $M_p$ is Macaulay for every $p \in ^a\rho(\mathrm{Supp}_B(N))$;
@@ -556,7 +556,7 @@ It is clear that (v) implies (iv) and that (iv) implies (i).
 
 #### Proposition 10 {#ac-x-s2-prop-10 .statement}
 
-*Let $\rho : A \to B$ be a homomorphism of noetherian rings making $B$ into a flat $\Lambda$-module. The following conditions are equivalent:*
+*Let $\rho : A \to B$ be a homomorphism of noetherian rings making $B$ into a flat $A$-module. The following conditions are equivalent:*
 
 (i) $B$ is a Macaulay ring;
 (ii) for every prime ideal $q$ of $B$, the rings $A_{\rho^{-1}(q)}$ and $\kappa(\rho^{-1}(q)) \otimes_A B$ are Macaulay rings;

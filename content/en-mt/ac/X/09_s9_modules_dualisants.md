@@ -36,7 +36,7 @@ subsections:
       pdf_page: 136
 statements: 31
 exercises: 12
-content_sha256: 70b41f4e0959618816afc0363d5324215a447233f0a954a4c83161f076065312
+content_sha256: 38d1bd7c3fcd96180a1083ec51e02d244b9ed274dcebdc85224635ba8e7f6e9b
 translated_from: content/fr/ac/X/09_s9_modules_dualisants.md
 source_lang: fr
 translation_method: machine
@@ -54,7 +54,7 @@ prompt_sha256: 5b9b7144015934413fe8e16b5155e2bc50bed2041525e1b1db7c19a297193094
 
 #### Definition 1 {#ac-x-s9-def-1 .statement}
 
-Let $A$ be a noetherian ring. One says that a $\Lambda$-module $\Omega$ is dualizing if it is finitely generated and if, for every maximal ideal $m$ of $\Lambda$, the $A/m$-vector space $\mathrm{Ext}_A^i(A/m, \Omega)$ is zero for $i \neq \mathrm{ht}(m)$ and of dimension 1 for $i = \mathrm{ht}(m)$.
+Let $A$ be a noetherian ring. One says that a $A$-module $\Omega$ is dualizing if it is finitely generated and if, for every maximal ideal $m$ of $A$, the $A/m$-vector space $\mathrm{Ext}_A^i(A/m, \Omega)$ is zero for $i \neq \mathrm{ht}(m)$ and of dimension 1 for $i = \mathrm{ht}(m)$.
 
 For every maximal ideal $m$ of $A$ and every integer $i$, the $A/m$-vector space $\mathrm{Ext}_A^i(A/m, \Omega)$ is canonically isomorphic to $\mathrm{Ext}_{A_m}^i(A/m, \Omega_m)$ ($\S$ 3, No. 2, prop. 2). Consequently, for a finitely generated $A$-module $\Omega$ to be dualizing, it is necessary and sufficient that the $A_m$-module $\Omega_m$ be dualizing for every maximal ideal $m$ of $A$.
 
@@ -292,9 +292,9 @@ Indeed, for every prime ideal $\mathfrak{p}$ of $A$, the ring $\kappa(\mathfrak{
 
 #### Proposition 6 {#ac-x-s9-prop-6 .statement}
 
-*Let $\Lambda$ be a noetherian local ring and $\Omega$ a dualizing $A$-module. Let $B$ be a finite $A$-algebra; suppose that the $A$-module $B$ is Macaulay. The $B$-module $\mathrm{Ext}_A^i(B, \Omega)$ is zero for $i \neq \dim(A) - \dim(B)$ and dualizing for $i = \dim(A) - \dim(B)$.
+*Let $A$ be a noetherian local ring and $\Omega$ a dualizing $A$-module. Let $B$ be a finite $A$-algebra; suppose that the $A$-module $B$ is Macaulay. The $B$-module $\mathrm{Ext}_A^i(B, \Omega)$ is zero for $i \neq \dim(A) - \dim(B)$ and dualizing for $i = \dim(A) - \dim(B)$.
 
-We have $\dim(B) = \dim_A(B) \leq \dim(\Lambda)$ (VIII, § 2, No. 3, Theorem 1 c)); let $c = \dim(A) - \dim(B)$. We have $\mathrm{Ext}_A^i(B, \Omega) = 0$ for $i \neq c$ since the $A$-module $B$ is Macaulay (No. 1, Corollary to Proposition 3). Let us prove that the $B$-module $\mathrm{Ext}_A^c(B, \Omega)$ is dualizing.
+We have $\dim(B) = \dim_A(B) \leq \dim(A)$ (VIII, § 2, No. 3, Theorem 1 c)); let $c = \dim(A) - \dim(B)$. We have $\mathrm{Ext}_A^i(B, \Omega) = 0$ for $i \neq c$ since the $A$-module $B$ is Macaulay (No. 1, Corollary to Proposition 3). Let us prove that the $B$-module $\mathrm{Ext}_A^c(B, \Omega)$ is dualizing.
 
 Suppose first that $\dim(B) = 0$. The spectrum $X$ of $B$ is finite and formed of maximal ideals (IV, § 2, No. 5, Proposition 9); the canonical mapping $B \to \prod_{n \in X} B_n$ is an isomorphism (*loc. cit.*, Corollary 1). The $B$-module $\Omega' = \mathrm{Ext}_A^c(B, \Omega)$ is therefore the direct sum of the modules $\mathrm{Ext}_A^c(B_n, \Omega)$; since $\mathrm{Ext}_A^c(B_n, \Omega)$ has support in $\{n\}$, it identifies with $\Omega'_n$. We have $\dim(B_n) = 0$ for every $n$; to prove that the $B$-module $\Omega'$ is dualizing, it is therefore enough to prove that this is so for the $B_n$-module $\mathrm{Ext}_A^c(B_n, \Omega)$ for every $n \in X$, which brings us back to the case where the ring $B$ is *local*. In this case, by Example 6 of § 8, No. 5, the $B$-module $\mathrm{Ext}_A^c(B, \Omega)$ is isomorphic to $\mathrm{Hom}_A(B, I)$, where $I$ is a Matlis $A$-module; it is consequently a Matlis $B$-module (§ 8, No. 6, Corollary to Proposition 5), hence a dualizing $B$-module (No. 1, Example 1).
 

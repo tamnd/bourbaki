@@ -36,7 +36,7 @@ subsections:
       pdf_page: 69
 statements: 20
 exercises: 11
-content_sha256: d65a2efdc84e6117766a716a8923d56b4698b4fe9d61b0c8d2b9d34d47b073b5
+content_sha256: d2d7ca6218b6d70c711a564a6767654ba1f4379e5a30f5eeed67dab7f35baf73
 translated_from: content/fr/ac/X/05_s5_intersections_completes.md
 source_lang: fr
 translation_method: machine
@@ -219,7 +219,7 @@ When the ring $A_0$ is regular and the $A_0$-module $P$ is finitely generated pr
 
 Let $A$ be a regular ring, graded of type $\mathbf{N}$. The ring $A_0$ consisting of the elements of degree 0 in $A$ is regular; there exists a finitely generated projective $A_0$-module $P$ graded in degrees $> 0$ such that $A$ is isomorphic, as a graded $A_0$-algebra, to $S_{A_0}(P)$.
 
-Let us denote by $P$ the graded $A_0$-module $A_+/A_+^2$. By Proposition 4 of No. 3, the ring $A_0$ is regular and the $A_0$-module $P$ is projective and finitely generated. The homogeneous components of $P$ are therefore projective, and there exists an $A_0$-linear section $\varphi : P \to A_+$, graded of degree 0 , of the canonical surjection $A_+ \to P$. Let $f : S_{A_0}(P) \longrightarrow \Lambda$ be the homomorphism of graded $A_0$-algebras extending $\varphi$. By Proposition 4, $f$ extends to an isomorphism of the separated completion of $S_{A_0}(P)$ for the $S_{A_0}(P)_+$-adic topology onto the separated completion of $A$ for the $A_+$-adic topology. Consequently, $f$ is injective and its image is dense in $A$ for the $A_+$-adic topology. But since the topologies induced on the homogeneous components of $A$ are discrete and the image of $f$ is a graded submodule, this implies that $f$ is bijective.
+Let us denote by $P$ the graded $A_0$-module $A_+/A_+^2$. By Proposition 4 of No. 3, the ring $A_0$ is regular and the $A_0$-module $P$ is projective and finitely generated. The homogeneous components of $P$ are therefore projective, and there exists an $A_0$-linear section $\varphi : P \to A_+$, graded of degree 0 , of the canonical surjection $A_+ \to P$. Let $f : S_{A_0}(P) \longrightarrow A$ be the homomorphism of graded $A_0$-algebras extending $\varphi$. By Proposition 4, $f$ extends to an isomorphism of the separated completion of $S_{A_0}(P)$ for the $S_{A_0}(P)_+$-adic topology onto the separated completion of $A$ for the $A_+$-adic topology. Consequently, $f$ is injective and its image is dense in $A$ for the $A_+$-adic topology. But since the topologies induced on the homogeneous components of $A$ are discrete and the image of $f$ is a graded submodule, this implies that $f$ is bijective.
 
 #### Corollary 1 {#ac-x-s5-thm-2-cor-1 .statement}
 
@@ -241,9 +241,9 @@ Let us prove b).
 #### Corollary 2 {#ac-x-s5-thm-2-cor-2 .statement}
 
 *Let k be a field, B a finitely generated graded polynomial k-algebra, and A a graded subalgebra of B. The following conditions are equivalent:
-(i) B is a free graded $\Lambda$-module;
+(i) B is a free graded $A$-module;
 (ii) B is a flat A-module;
-(iii) one has $\operatorname{Tor}_1^\Lambda(k, B) = 0$;
+(iii) one has $\operatorname{Tor}_1^A(k, B) = 0$;
 (iv) the algebra A is a finitely generated graded polynomial k-algebra, and every algebraically free generating sequence of A consisting of homogeneous elements is B-regular.*
 
 The implications (i) $\Rightarrow$ (ii) and (ii) $\Rightarrow$ (iii) are clear, and the implication (iii) $\Rightarrow$ (i) follows from A, X, p. 144, prop. 8, a).
@@ -280,19 +280,19 @@ Let k be a field, Λ a noetherian local k-algebra, x = (x_1, ..., x_r) a sequenc
 (iii) the homomorphism $\hat{u}$ makes $\hat{M}$ into a flat $k[[T_1, \ldots, T_r]]$-module.
 The equivalence of (i) and (ii) follows from the equivalence of conditions (i) and (iv) of proposition 5; the equivalence of (ii) and (iii) follows from III, § 5, No. 4, prop. 4.
 
-These results make it possible to characterize macaulay modules in two important cases. Let $\Lambda$ denote a noetherian local ring, $M$ a finitely generated $\Lambda$-module. It is equivalent to say that the $\Lambda$-module $M$ is macaulay or that the $\widehat{\Lambda}$-module $\hat{M}$ is macaulay (§ 2, No. 7, cor. 4 to prop. 8). Henceforth we shall suppose that the noetherian local ring $\Lambda$ is complete.
+These results make it possible to characterize macaulay modules in two important cases. Let $A$ denote a noetherian local ring, $M$ a finitely generated $A$-module. It is equivalent to say that the $A$-module $M$ is macaulay or that the $\widehat{A}$-module $\hat{M}$ is macaulay (§ 2, No. 7, cor. 4 to prop. 8). Henceforth we shall suppose that the noetherian local ring $A$ is complete.
 
-1) Let us suppose first that $\Lambda$ possesses a subfield; then it admits a field of representatives $k$ (IX, § 3, No. 3, Theorem 1). Let $(x_1, \ldots, x_r)$ be a maximal secant sequence for $M$; let us denote by $u : k[[T_1, \ldots, T_r]] \longrightarrow \Lambda$ the unique continuous homomorphism such that $u(T_i) = x_i$ for $i = 1, \ldots, r$. By Lemma 4 b) of IX, § 2, No. 5 and Remark 1 of VIII, § 3, No. 2, $A/\mathrm{Ann}(M)$ is a finitely generated $k[[T_1, \ldots, T_r]]$-module and consequently $M$ is a finitely generated $k[[T_1, \ldots, T_r]]$-module. This being so, the following conditions are equivalent:
+1) Let us suppose first that $A$ possesses a subfield; then it admits a field of representatives $k$ (IX, § 3, No. 3, Theorem 1). Let $(x_1, \ldots, x_r)$ be a maximal secant sequence for $M$; let us denote by $u : k[[T_1, \ldots, T_r]] \longrightarrow A$ the unique continuous homomorphism such that $u(T_i) = x_i$ for $i = 1, \ldots, r$. By Lemma 4 b) of IX, § 2, No. 5 and Remark 1 of VIII, § 3, No. 2, $A/\mathrm{Ann}(M)$ is a finitely generated $k[[T_1, \ldots, T_r]]$-module and consequently $M$ is a finitely generated $k[[T_1, \ldots, T_r]]$-module. This being so, the following conditions are equivalent:
 (i) the $k[[T_1, \ldots, T_r]]$-module $M$ is free;
-(ii) the $\Lambda$-module $M$ is Macaulay.
+(ii) the $A$-module $M$ is Macaulay.
 
-In fact, it is equivalent to say that $M$ is a Macaulay $\Lambda$-module or that the sequence $(x_1, \ldots, x_r)$ is $M$-regular (§ 2, No. 3, Theorem 1). By the above Corollary, the latter condition means that the $k[[T_1, \ldots, T_r]]$-module $M$ is flat, or again that it is free since it is finitely generated.
+In fact, it is equivalent to say that $M$ is a Macaulay $A$-module or that the sequence $(x_1, \ldots, x_r)$ is $M$-regular (§ 2, No. 3, Theorem 1). By the above Corollary, the latter condition means that the $k[[T_1, \ldots, T_r]]$-module $M$ is flat, or again that it is free since it is finitely generated.
 
-2) Suppose that the residue field $\kappa_\Lambda$ of $\Lambda$ is of characteristic $p > 0$ and that one has $\dim(M/pM) < \dim(M)$. Let $(x_1, \ldots, x_r)$ be a maximal secant sequence for $M/pM$, so that $(p1_\Lambda, x_1, \ldots, x_r)$ is a maximal secant sequence for $M$. Let $C$ be a $p$-ring of length $+\infty$, with residue field $\kappa_\Lambda$ (IX, § 2, No. 3, Proposition 5). There exists a homomorphism $u_0$ of $C$ into $\Lambda$ which induces the identity on the residue fields; let $u : C[[T_1, \ldots, T_r]] \longrightarrow \Lambda$ be the unique homomorphism extending $u_0$ and sending $T_i$ to $x_i$ for every $i$. It follows as above from loc. cit., No. 5, Lemma 4 that $u$ makes $M$ into a finitely generated $C[[T_1, \ldots, T_r]]$-module. The following conditions are equivalent:
+2) Suppose that the residue field $\kappa_A$ of $A$ is of characteristic $p > 0$ and that one has $\dim(M/pM) < \dim(M)$. Let $(x_1, \ldots, x_r)$ be a maximal secant sequence for $M/pM$, so that $(p1_A, x_1, \ldots, x_r)$ is a maximal secant sequence for $M$. Let $C$ be a $p$-ring of length $+\infty$, with residue field $\kappa_A$ (IX, § 2, No. 3, Proposition 5). There exists a homomorphism $u_0$ of $C$ into $A$ which induces the identity on the residue fields; let $u : C[[T_1, \ldots, T_r]] \longrightarrow A$ be the unique homomorphism extending $u_0$ and sending $T_i$ to $x_i$ for every $i$. It follows as above from loc. cit., No. 5, Lemma 4 that $u$ makes $M$ into a finitely generated $C[[T_1, \ldots, T_r]]$-module. The following conditions are equivalent:
 (i) the $C[[T_1, \ldots, T_r]]$-module $M$ is free;
-(ii) the $\Lambda$-module $M$ is Macaulay.
+(ii) the $A$-module $M$ is Macaulay.
 
-In fact condition (ii) is equivalent to saying that the sequence $(x_1, \ldots, x_r)$ is $M$-regular and that the homothety of ratio $p$ in $M/(x_1M + \ldots + x_rM)$ is injective (§ 2, No. 3, Theorem 1). Now this latter condition means that the $C$-module $M/(x_1M + \ldots + x_rM)$ is torsion-free, hence flat ($\Lambda$, X, p. 9, Example 7). Thus, having regard to Proposition 5, (iv) $\Leftrightarrow$ (i), condition (ii) is equivalent to the fact that the $C[T_1, \ldots, T_r]$-module $M$ is flat, or again (III, § 5, No. 4, Proposition 4) that the $C[[T_1, \ldots, T_r]]$-module $M$ is flat, that is to say free since it is finitely generated.
+In fact condition (ii) is equivalent to saying that the sequence $(x_1, \ldots, x_r)$ is $M$-regular and that the homothety of ratio $p$ in $M/(x_1M + \ldots + x_rM)$ is injective (§ 2, No. 3, Theorem 1). Now this latter condition means that the $C$-module $M/(x_1M + \ldots + x_rM)$ is torsion-free, hence flat ($A$, X, p. 9, Example 7). Thus, having regard to Proposition 5, (iv) $\Leftrightarrow$ (i), condition (ii) is equivalent to the fact that the $C[T_1, \ldots, T_r]$-module $M$ is flat, or again (III, § 5, No. 4, Proposition 4) that the $C[[T_1, \ldots, T_r]]$-module $M$ is flat, that is to say free since it is finitely generated.
 
 ### 6. Completely secant ideals and extension of scalars
 
@@ -302,7 +302,7 @@ Let $\rho : A \to B$ be a homomorphism of noetherian rings, and $J$ an ideal of 
 
 (i) the $A$-module $B/J$ is flat and the ideal $J$ is completely secant;
 
-(ii) for every $q \in V(J)$, the $A$-module $B_q$ is flat and, for every $A$-algebra $A'$ such that the ring $\Lambda' \otimes_A B$ is noetherian, the ideal $J(A' \otimes_A B)$ of $A' \otimes_A B$ is completely secant;
+(ii) for every $q \in V(J)$, the $A$-module $B_q$ is flat and, for every $A$-algebra $A'$ such that the ring $A' \otimes_A B$ is noetherian, the ideal $J(A' \otimes_A B)$ of $A' \otimes_A B$ is completely secant;
 
 (iii) for every maximal ideal $n$ of $B$ containing $J$, the $A$-module $B_n$ is flat and the ideal $J(\kappa(\rho^{-1}(n)) \otimes_A B_n)$ of $\kappa(\rho^{-1}(n)) \otimes_A B_n$ is completely secant.
 

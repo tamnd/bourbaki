@@ -32,7 +32,7 @@ subsections:
       pdf_page: 246
 statements: 37
 exercises: 27
-content_sha256: 8946770381542fea93e050249d046345be6a1a19154b6df2eaac30ae3e84b650
+content_sha256: d6fba1af17cf7aadb43e77bb8379db0eb311ec339e84a93882d759770242e0e0
 ---
 
 ## § 3. Topologies $m$-adiques sur les anneaux nœthériens.
@@ -371,9 +371,9 @@ En effet, $\hat{A}$ est noethérien en vertu de la prop. 8, (i), et le reste ré
 
 #### Proposition 9 {#ac-iii-s3-prop-9 .statement}
 
-Soient $\Lambda$ un anneau commutatif noethérien, $m$ un idéal de $\Lambda$; munissons $\Lambda$ de la topologie $m$-adique. Pour que $\hat{\Lambda}$ soit un $\Lambda$-module fidèlement plat, il faut et il suffit que $\Lambda$ soit un anneau de Zariski.
+Soient $A$ un anneau commutatif noethérien, $m$ un idéal de $A$; munissons $A$ de la topologie $m$-adique. Pour que $\hat{A}$ soit un $A$-module fidèlement plat, il faut et il suffit que $A$ soit un anneau de Zariski.
 
-En effet, pour tout $\Lambda$-module de type fini $M$, l’application canonique $M \to M \otimes_{\Lambda} \hat{\Lambda}$ s’identifie à l’application canonique $M \to \hat{M}$ de $M$ dans son séparé complété pour la topologie $m$-adique (no 4, th. 3), et le noyau de cette application est donc l’adhérence de $\{0\}$ dans $M$ pour cette topologie. Comme on sait déjà que $\hat{\Lambda}$ est un $\Lambda$-module plat (no 4, th. 3), la proposition résulte de la caractérisation des modules fidèlement plats (chap. I, § 3, no 1, prop. 1 b)) et de la caractérisation des anneaux de Zariski (no 3, prop. 6).
+En effet, pour tout $A$-module de type fini $M$, l’application canonique $M \to M \otimes_{A} \hat{A}$ s’identifie à l’application canonique $M \to \hat{M}$ de $M$ dans son séparé complété pour la topologie $m$-adique (no 4, th. 3), et le noyau de cette application est donc l’adhérence de $\{0\}$ dans $M$ pour cette topologie. Comme on sait déjà que $\hat{A}$ est un $A$-module plat (no 4, th. 3), la proposition résulte de la caractérisation des modules fidèlement plats (chap. I, § 3, no 1, prop. 1 b)) et de la caractérisation des anneaux de Zariski (no 3, prop. 6).
 
 Si $A$ est un anneau de Zariski et si $E$ est un $A$-module de type fini on peut (en vertu de la prop. 9) identifier $E$ à une partie de $\hat{E}$ au moyen de l’application canonique $j_e : E \to \hat{E}$. Avec cette identification :
 

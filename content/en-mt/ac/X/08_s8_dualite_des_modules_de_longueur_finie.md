@@ -40,7 +40,7 @@ subsections:
       pdf_page: 119
 statements: 31
 exercises: 10
-content_sha256: e7ca9bcbe14831ddad40efcd2c608eec1e0e52bc8d4740c2ba5262b45257dbf5
+content_sha256: 1cd699c326c4580d68df9a51a85984e379b45d7a78baf2bc3b45a823812c1ee9
 translated_from: content/fr/ac/X/08_s8_dualite_des_modules_de_longueur_finie.md
 source_lang: fr
 translation_method: machine
@@ -128,9 +128,9 @@ For $a \in \mathrm{gr}(A)$, $x \in \mathrm{gr}^\alpha(E)$, $\beta_E(x)(a)$ is by
 
 *Let $A$ be a noetherian ring, $\alpha$ an ideal of $A$, $E$ an $A$-module and $M$ a sub-$A$-module of $E$ annihilated by $\alpha$. The following conditions are equivalent:*
     (i) *$E$ is an injective envelope of $M$* ;
-    (ii) *the $\Lambda/\alpha$-module $E_1$ is an injective envelope of the $A/\alpha$-module $M$, the module $E$ is the union of the $E_n$ and the canonical mapping $\beta_E$ is bijective*.
+    (ii) *the $A/\alpha$-module $E_1$ is an injective envelope of the $A/\alpha$-module $M$, the module $E$ is the union of the $E_n$ and the canonical mapping $\beta_E$ is bijective*.
 
-Suppose condition (i) is satisfied. The $A/\alpha$-module $E_1$ is injective (Lemma 1, a)), and contains $M$; since every sub-$\Lambda/\alpha$-module of $E_1$ is a sub-$A$-module of $E$, $E_1$ is an injective envelope of the $\Lambda/\alpha$-module $M$. By Lemma 1, the union of the $E_n$ is an injective sub-$A$-module of $E$ containing $M$, hence equal to $E$. Since $E$ is injective, for every $n \geq 0$ one has an exact sequence
+Suppose condition (i) is satisfied. The $A/\alpha$-module $E_1$ is injective (Lemma 1, a)), and contains $M$; since every sub-$A/\alpha$-module of $E_1$ is a sub-$A$-module of $E$, $E_1$ is an injective envelope of the $A/\alpha$-module $M$. By Lemma 1, the union of the $E_n$ is an injective sub-$A$-module of $E$ containing $M$, hence equal to $E$. Since $E$ is injective, for every $n \geq 0$ one has an exact sequence
 
 $$
 0 \to \mathrm{Hom}_A(A/\alpha^n, E) \longrightarrow \mathrm{Hom}_A(A/\alpha^{n+1}, E) \longrightarrow \mathrm{Hom}_A(\alpha^n/\alpha^{n+1}, E) \to 0;
@@ -174,7 +174,7 @@ so that $u$ is $\widehat{A}$-linear.
 
 *Let $A$ be a noetherian ring, $p$ a prime ideal of $A$, and $e : A/p \to I$ an injective envelope of the $A$-module $A/p$. For every integer $n \geq 0$, let $I_n$ denote the submodule of $I$ consisting of the elements annihilated by $p^n$.*
 
-a) The $A$-module $I$ is the union of the $I_n$. The injection $\Lambda / \mathfrak{p} \to I_1$ extends to an isomorphism of $\kappa(\mathfrak{p})$ onto $I_1$; let us identify $\kappa(\mathfrak{p})$ with $I_1$ by means of this isomorphism. For each integer $n \geqslant 0$, the structure of $\Lambda / \mathfrak{p}$-module of $I_{n+1}/I_n$ arises by restriction of scalars from a unique structure of $\kappa(\mathfrak{p})$-vector space; the canonical homomorphism $\beta_{I,-n}: I_{n+1}/I_n \longrightarrow \mathrm{Hom}_{\Lambda/\mathfrak{p}}(\mathfrak{p}^n/\mathfrak{p}^{n+1}, \kappa(\mathfrak{p}))$ is an isomorphism of finite-dimensional $\kappa(\mathfrak{p})$-vector spaces.
+a) The $A$-module $I$ is the union of the $I_n$. The injection $A / \mathfrak{p} \to I_1$ extends to an isomorphism of $\kappa(\mathfrak{p})$ onto $I_1$; let us identify $\kappa(\mathfrak{p})$ with $I_1$ by means of this isomorphism. For each integer $n \geqslant 0$, the structure of $A / \mathfrak{p}$-module of $I_{n+1}/I_n$ arises by restriction of scalars from a unique structure of $\kappa(\mathfrak{p})$-vector space; the canonical homomorphism $\beta_{I,-n}: I_{n+1}/I_n \longrightarrow \mathrm{Hom}_{A/\mathfrak{p}}(\mathfrak{p}^n/\mathfrak{p}^{n+1}, \kappa(\mathfrak{p}))$ is an isomorphism of finite-dimensional $\kappa(\mathfrak{p})$-vector spaces.
 
 b) There exists a unique structure of $\widehat{A_p}$-module on $I$ inducing its structure of $A$-module. The canonical homomorphism $\widehat{A_p} \longrightarrow \mathrm{End}_A(I)$ is bijective.
 
@@ -182,7 +182,7 @@ According to A, X, p. 20, Example 1, the $A/\mathfrak{p}$-module $\kappa(\mathfr
 
 Let $s \in A - \mathfrak{p}$. Since the homothety $s_{A/\mathfrak{p}}$ is injective, the trace of $\mathrm{Ker}\, s_I$ on $A/\mathfrak{p}$ is zero, whence it follows that the homothety $s_I$ is injective. Then $s_I$ is a direct factor submodule of $I$ (A, X, p. 19, Cor. 4), hence equal to $I$ since $I$ is indecomposable (No. 1, Prop. 1), so that the homothety $s_I$ is bijective. There therefore exists a unique $A_p$-module structure on $I$ inducing its $A$-module structure; it extends uniquely to a $\widehat{A_p}$-module structure (Lemma 2).
 
-For each integer $n$, one deduces from the canonical ring homomorphism $\Lambda_p \longrightarrow \mathrm{End}_A(I)$ an $A$-linear mapping $\alpha_n : A_p/\mathfrak{p}^n A_p \longrightarrow \mathrm{Hom}_A(I_n, I)$. Consider the commutative diagram with exact rows
+For each integer $n$, one deduces from the canonical ring homomorphism $A_p \longrightarrow \mathrm{End}_A(I)$ an $A$-linear mapping $\alpha_n : A_p/\mathfrak{p}^n A_p \longrightarrow \mathrm{Hom}_A(I_n, I)$. Consider the commutative diagram with exact rows
 
 $$
 \begin{array}{ccccccccc}
@@ -249,10 +249,10 @@ Let $M$ be an A-module. Recall (A, VIII, § 4, No. 6) that the socle of $M$ is t
 
 #### Lemma 4 {#ac-x-s8-lem-4 .statement}
 
-*Let I be a Matlis A-module and M a $\Lambda$-module. The following conditions are equivalent :*
+*Let I be a Matlis A-module and M a $A$-module. The following conditions are equivalent :*
 
 (i) $M$ is artinian;
-(ii) every element of $M$ is annihilated by a power of $m_A$, and the socle of $M$ is of finite dimension over $\kappa_\Lambda$;
+(ii) every element of $M$ is annihilated by a power of $m_A$, and the socle of $M$ is of finite dimension over $\kappa_A$;
 (iii) there exist an integer $n \geq 0$ and an injective a-linear mapping of $M$ into $I^n$.
 
 *When these conditions are satisfied, every injective envelope of $M$ is isomorphic to $I^s$, where $s$ is the dimension over $\kappa_A$ of the socle of $M$.*
@@ -265,9 +265,9 @@ Let $M$ be an A-module. Recall (A, VIII, § 4, No. 6) that the socle of $M$ is t
 
 #### Lemma 5 {#ac-x-s8-lem-5 .statement}
 
-*Every artinian $\widehat{\Lambda}$-module is artinian as a $\Lambda$-module.*
+*Every artinian $\widehat{A}$-module is artinian as a $A$-module.*
 
-Let $M$ be an artinian $\widehat{\Lambda}$-module; every element of $M$ is annihilated by a power of $m_{\widehat{\Lambda}}$, hence by a power of $m_A$. By Lemma 2 of No. 2, the sub-A-modules of $M$ are its sub-$\widehat{\Lambda}$-modules, hence $M$ is artinian as an A-module.
+Let $M$ be an artinian $\widehat{A}$-module; every element of $M$ is annihilated by a power of $m_{\widehat{A}}$, hence by a power of $m_A$. By Lemma 2 of No. 2, the sub-A-modules of $M$ are its sub-$\widehat{A}$-modules, hence $M$ is artinian as an A-module.
 
 Let us now fix a Matlis $A$-module I. For every $A$-module $M$, let us denote by $D_A(M)$ the $\widehat{A}$-module
 $$
@@ -718,7 +718,7 @@ $$
 
 $$
 \begin{array}{ccc}
-\mathrm{Tor}_{i+1}^{\mathbf{A}}(M, D(P')) & \xrightarrow{\rho_{i+1}(M, P')} & D(\mathrm{Ext}_{\Lambda}^{i+1}(M, P')) \\
+\mathrm{Tor}_{i+1}^{\mathbf{A}}(M, D(P')) & \xrightarrow{\rho_{i+1}(M, P')} & D(\mathrm{Ext}_{A}^{i+1}(M, P')) \\
 \downarrow & & \downarrow \\
 \partial_{i+1}(M, D(\mathscr{F})) & & (-1)^i D(\delta^i(M, \mathscr{F}))
 \end{array}
@@ -726,7 +726,7 @@ $$
 
 $$
 \begin{array}{ccc}
-\mathrm{Tor}_{i}^{\mathbf{A}}(M, P'') & \xrightarrow{\rho_{i}(M, P'')} & D(\mathrm{Ext}_{\Lambda}^{i}(M, P''))
+\mathrm{Tor}_{i}^{\mathbf{A}}(M, P'') & \xrightarrow{\rho_{i}(M, P'')} & D(\mathrm{Ext}_{A}^{i}(M, P''))
 \end{array}
 $$
 
