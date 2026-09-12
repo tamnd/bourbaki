@@ -718,6 +718,9 @@ chapters:
           exercises:
             page: 168
             pdf_page: 272
+      historical_note:
+        page: 170
+        pdf_page: 273
     - book: ""
       chapter: VI
       title: Groupes et corps ordonnés

@@ -7,7 +7,8 @@ section: 17
 section_title: EXTENSIONS RÉGULIÈRES
 lang: fr
 source: alg-iv-vii-fr
-pdf_pages: 0235-0243, 0272-0289
+book_pages: A V.168-A V.169
+pdf_pages: 0235-0243, 0272-0274
 extraction: ocr
 subsections:
     - "no": 1

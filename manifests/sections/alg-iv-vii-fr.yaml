@@ -327,12 +327,23 @@ chapters:
           path: content/fr/alg/V/17_s17_extensions_regulieres.md
           label: alg-v-s17
           first_pdf_page: 235
-          last_pdf_page: 289
+          last_pdf_page: 274
+          book_pages: A V.168-A V.169
           subsections: 6
           statements: 20
           exercises: 5
           extraction: ocr
           content_sha256: 5dc0d9e3e0335cdf3478b8704b3836f234eebd2b163e35eeb1039ba11b3fe512
+        - kind: historical
+          title: Historical Note
+          path: content/fr/alg/V/historical_note.md
+          first_pdf_page: 273
+          last_pdf_page: 289
+          subsections: 0
+          statements: 0
+          exercises: 0
+          extraction: ocr
+          content_sha256: 0cb4c4d28d3fe32f5ba7df52a75abc9c7f771231d844cb31ddafe679ae19d5dd
     - chapter: VI
       title: Groupes et corps ordonnés
       sections:
