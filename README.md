@@ -117,14 +117,14 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Commutative Algebra | IV | 3 of 3 | 69 | 57 | 0 | 98 |
 | Commutative Algebra | V | 3 of 3 | 122 | 61 | 0 | 150 |
 | Commutative Algebra | VI | 10 of 10 | 152 | 77 | 0 | 211 |
-| Commutative Algebra | VII | 4 of 4 | 131 | 85 | 0 | 302 |
+| Commutative Algebra | VII | 4 of 4 | 131 | 107 | 0 | 302 |
 | Commutative Algebra | VIII | 0 of 7 | 0 | 0 | 0 | 108 |
 | Commutative Algebra | IX | 0 of 5 | 0 | 0 | 0 | 85 |
 | Commutative Algebra | X | 0 of 10 | 0 | 0 | 0 | 179 |
 | Algebra | I | 10 of 10 | 295 | 218 | 0 | 357 |
 | Algebra | II | 12 of 12 | 384 | 159 | 0 | 446 |
 | Algebra | III | 12 of 12 | 273 | 119 | 0 | 542 |
-| Algebra | IV | 6 of 6 | 163 | 56 | 0 | 202 |
+| Algebra | IV | 6 of 6 | 163 | 65 | 0 | 202 |
 | Algebra | V | 17 of 17 | 427 | 156 | 0 | 382 |
 | Algebra | VI | 2 of 2 | 86 | 77 | 0 | 92 |
 | Algebra | VII | 5 of 5 | 149 | 93 | 0 | 162 |
@@ -140,12 +140,12 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Topological Vector Spaces | II | 8 of 8 | 205 | 162 | 0 | 195 |
 | Topological Vector Spaces | III | 6 of 6 | 123 | 78 | 0 | 101 |
 | Topological Vector Spaces | IV | 6 of 6 | 114 | 118 | 0 | 152 |
-| Topological Vector Spaces | V | 4 of 4 | 133 | 68 | 0 | 181 |
+| Topological Vector Spaces | V | 4 of 4 | 133 | 70 | 0 | 181 |
 | Functions of a Real Variable | I | 4 of 4 | 88 | 66 | 0 | 100 |
 | Functions of a Real Variable | II | 3 of 3 | 55 | 42 | 0 | 78 |
 | Functions of a Real Variable | III | 2 of 2 | 10 | 48 | 0 | 141 |
 | Functions of a Real Variable | IV | 2 of 2 | 54 | 28 | 0 | 94 |
-| Functions of a Real Variable | V | 5 of 5 | 108 | 28 | 0 | 113 |
+| Functions of a Real Variable | V | 5 of 5 | 108 | 36 | 0 | 113 |
 | Functions of a Real Variable | VI | 3 of 3 | 26 | 19 | 0 | 67 |
 | Functions of a Real Variable | VII | 2 of 2 | 14 | 12 | 0 | 73 |
 | Elements of the History of Mathematics | 1 | 26 of 26 | 0 | 0 | 0 | 665 |
@@ -179,7 +179,7 @@ Because the two printings sit side by side, the places they disagree get noticed
 | General Topology | VI | 3 of 3 | 37 | 36 | 0 | 30 |
 | General Topology | VII | 3 of 3 | 38 | 24 | 0 | 28 |
 | General Topology | VIII | 4 of 4 | 26 | 22 | 0 | 34 |
-| General Topology | IX | 7 of 8 | 197 | 143 | 0 | 129 |
+| General Topology | IX | 7 of 8 | 197 | 147 | 0 | 129 |
 | General Topology | X | 4 of 4 | 106 | 82 | 0 | 80 |
 | Théories spectrales | I | 0 of 8 | 0 | 0 | 0 | 197 |
 | Théories spectrales | II | 0 of 3 | 0 | 0 | 0 | 136 |
@@ -189,7 +189,7 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Variétés différentielles et analytiques | 1 | 0 of 8 | 0 | 0 | 0 | 95 |
 | Variétés différentielles et analytiques | 2 | 0 of 8 | 0 | 0 | 0 | 95 |
 
-396 of 503 sections are in the corpus, 79 per cent. 8695 statements and 4704 exercises, 2642 of them carrying a permanent tag.
+396 of 503 sections are in the corpus, 79 per cent. 8695 statements and 4749 exercises, 2642 of them carrying a permanent tag.
 <!-- END COVERAGE -->
 
 ## What is translated
@@ -206,24 +206,24 @@ The French is counted and not compared against the English. A file name carries 
 | Book | Sections | Exercises | Vietnamese sections | Vietnamese exercises | Done | From machine English |
 | --- | --- | --- | --- | --- | --- | --- |
 | Theory of Sets | 40 | 214 | 40 | 214 | 100% | 3 |
-| Algebra | 135 | 1340 | 135 | 1305 | 98% | 167 |
-| General Topology | 84 | 822 | 84 | 817 | 99% | 56 |
-| Functions of a Real Variable | 36 | 251 | 36 | 251 | 100% | 8 |
-| Topological Vector Spaces | 36 | 479 | 36 | 479 | 100% | 15 |
+| Algebra | 135 | 1340 | 135 | 1306 | 98% | 158 |
+| General Topology | 84 | 822 | 84 | 817 | 99% | 52 |
+| Functions of a Real Variable | 36 | 251 | 36 | 251 | 100% | 0 |
+| Topological Vector Spaces | 36 | 466 | 36 | 466 | 100% | 0 |
 | Integration | 63 | 511 | 63 | 511 | 100% | 15 |
-| Commutative Algebra | 71 | 902 | 71 | 902 | 100% | 423 |
+| Commutative Algebra | 71 | 897 | 71 | 897 | 100% | 396 |
 | Variétés différentielles et analytiques | 10 | 0 | 10 | 0 | 100% | 10, all of it |
 | Lie Groups and Lie Algebras | 91 | 823 | 91 | 813 | 99% | 0 |
 | Théories spectrales | 36 | 590 | 36 | 590 | 100% | 626, all of it |
 | Topologie algébrique | 28 | 203 | 28 | 203 | 100% | 231, all of it |
 | Elements of the History of Mathematics | 27 | 0 | 27 | 0 | 100% | 1 |
-| **All** | **657** | **6135** | **657** | **6085** | **99%** | **1555** |
+| **All** | **657** | **6117** | **657** | **6068** | **99%** | **1492** |
 
-The source column is the English, which is 657 sections and 6135 exercises: 5237 files in `content/en` where Springer printed an English translation and 1962 in `content/en-mt` where this project read the French instead. The French originals are 662 sections and 5934 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
+The source column is the English, which is 657 sections and 6117 exercises: 5282 files in `content/en` where Springer printed an English translation and 1962 in `content/en-mt` where this project read the French instead. The French originals are 662 sections and 5976 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
 
-Vietnamese has 657 of the 657 sections and 6085 of the 6135 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
+Vietnamese has 657 of the 657 sections and 6068 of the 6117 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
 
-The last column is the part of a Book that was never printed in English, so the only English of it is this project's own reading of the French. A translation made from one of those is a translation of a translation, and that is 1555 of the 6742 files in Vietnamese. Where the column says all of it the whole Book is in that position, and a hundred per cent in the Done column for such a Book is not the same claim as a hundred per cent for one Springer translated.
+The last column is the part of a Book that was never printed in English, so the only English of it is this project's own reading of the French. A translation made from one of those is a translation of a translation, and that is 1492 of the 6725 files in Vietnamese. Where the column says all of it the whole Book is in that position, and a hundred per cent in the Done column for such a Book is not the same claim as a hundred per cent for one Springer translated.
 <!-- END TRANSLATION -->
 
 ## Building it
@@ -277,7 +277,7 @@ OCR runs against a small fleet of hosts over SSH. Round trips are slow, roughly 
 `reports/` is generated and checked by CI, so it is the state of the corpus rather than a snapshot somebody remembered to update. `audit.md` lists every finding by file and line. `extraction-quality.md` says how much of each volume has been read and how much of that passes the rules. `refs-unresolved.md` and `out-of-corpus.md` are the references that resolve to nothing and the ones that point outside the corpus.
 
 <!-- BEGIN RULES -->
-The audit is 84 rules in nine groups: 17 structure, 9 tags, 18 mathematics, 6 figures, 3 references, 17 translation, 6 solutions, 1 publication and 7 hygiene. 64 of them are hard, which means a finding fails the build, and 20 are soft.
+The audit is 86 rules in nine groups: 17 structure, 9 tags, 20 mathematics, 6 figures, 3 references, 17 translation, 6 solutions, 1 publication and 7 hygiene. 66 of them are hard, which means a finding fails the build, and 20 are soft.
 <!-- END RULES -->
 
 `what-it-cost.md` and `reproduction.md` are the two written by hand. The first says what the transport cost, which checks caught what, and what is still wrong, including the numbers that do not flatter the project. The second is the record of cloning both repositories fresh and running the pipeline from the PDFs to see whether it produces what is committed: 2775 of 2868 pages of the six deterministic volumes came back byte for byte, and everything derived from the pages came back identical.
