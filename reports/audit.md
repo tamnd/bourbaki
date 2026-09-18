@@ -6,7 +6,7 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 61 chapters, 533 sections, 4749 exercises, 15338 extracted pages, 5252 tags, 22704 references, 15352 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
+Audited: 61 chapters, 533 sections, 4749 exercises, 15338 extracted pages, 5252 tags, 22704 references, 15353 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
 
 ## Summary
 
@@ -17,12 +17,12 @@ Audited: 61 chapters, 533 sections, 4749 exercises, 15338 extracted pages, 5252 
 | mathematics | 14 | 6 | 0 | M03 (2), M06 (6), M13 (48), M14 (2625), M15 (2453), M16 (1) |
 | figures | 6 | 0 | 0 | F01 (158) |
 | references | 3 | 0 | 0 | R01 (3121), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1457), L02 (33), L03 (54), L04 (48), L05 (418), L06 (2059), L07 (53), L08 (5619), L10 (293), L11 (79), L12 (33), L13 (73), L14 (33), L15 (6), L16 (78) |
+| translation | 13 | 3 | 1 | L01 (1457), L02 (33), L03 (54), L04 (48), L05 (418), L06 (2060), L07 (53), L08 (5619), L10 (294), L11 (80), L12 (33), L13 (73), L14 (33), L15 (6), L16 (78) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | none |
-| hygiene | 7 | 0 | 0 | none |
+| hygiene | 7 | 0 | 0 | H06 (1) |
 
-30501 hard findings and 13697 soft, over 84 rules that ran and 2 that could not.
+30504 hard findings and 13698 soft, over 84 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -64,6 +64,12 @@ Hard, figures.
 - `content/en/lie/V/exercises/s4/17.md:15` references content/en/lie/V/exercises/images/coxeter_graphs_1.png and there is no such file
 
 and 133 more, which `bourbaki audit -only F01` prints in full.
+
+## H06 the README coverage table is the one the corpus has (1)
+
+Hard, hygiene.
+
+- `README.md` the TRANSLATION block is not what the corpus says, run bourbaki report readme -write
 
 ## M03 no character stranded out of its TeX (2)
 
@@ -685,7 +691,7 @@ Hard, translation.
 
 and 393 more, which `bourbaki audit -only L05` prints in full.
 
-## L06 the glossary is followed (2059)
+## L06 the glossary is followed (2060)
 
 Soft, translation.
 
@@ -715,7 +721,7 @@ Soft, translation.
 - `content/vi/ac/I/exercises/s2/18.md:1` the English mentions 26 glossary terms and 2 are not in this file as the glossary writes them: projective finitely generated (xạ ảnh hữu hạn sinh), submodules isomorphic (các môđun con đẳng cấu)
 - `content/vi/ac/I/exercises/s3/09.md:1` the English mentions 15 glossary terms and 1 are not in this file as the glossary writes them: set (tập hợp)
 
-and 2034 more, which `bourbaki audit -only L06` prints in full.
+and 2035 more, which `bourbaki audit -only L06` prints in full.
 
 ## L07 no paragraph was left untranslated (53)
 
@@ -781,7 +787,7 @@ Soft, translation.
 
 and 5594 more, which `bourbaki audit -only L08` prints in full.
 
-## L10 no English term was left standing (293)
+## L10 no English term was left standing (294)
 
 Hard, translation.
 
@@ -811,9 +817,9 @@ Hard, translation.
 - `content/vi/ac/III/02_s2_general_results_on_filtered_rings_and.md:463` leaves "remark" in English, and the glossary writes it "nhận xét"
 - `content/vi/ac/III/03_s3_m_adic_topologies_on_noetherian_rings.md:261` leaves "algebra" in English, and the glossary writes it "đại số"
 
-and 268 more, which `bourbaki audit -only L10` prints in full.
+and 269 more, which `bourbaki audit -only L10` prints in full.
 
-## L11 no sentence was left untranslated (79)
+## L11 no sentence was left untranslated (80)
 
 Hard, translation.
 
@@ -841,9 +847,9 @@ Hard, translation.
 - `content/vi/ac/X/exercises/s7/05.md:27` paragraph 3 has a run of 13 words with nothing of vi in it: \emph{xem} M. Nagata, \emph{On the Closedness of Singular Lo…
 - `content/vi/alg/I/historical_note.md:119` paragraph 45 has a run of 33 words with nothing of vi in it: J. Y. Azra, Paris (Gauthier-Villars), W. R. Hamilton, Lectur…
 - `content/vi/alg/VII/exercises/s1/15.md:43` paragraph 9 has a run of 14 words with nothing of vi in it: A. E. Ingham, The distribution of prime numbers (Cambridge t…
-- `content/vi/alg/VII/historical_note.md:105` paragraph 37 has a run of 45 words with nothing of vi in it: I, Cambridge, An enumeration of the contacts of lines and su…
+- `content/vi/alg/VII/exercises/s1/20.md:31` paragraph 4 has a run of 14 words with nothing of vi in it: A. E. Ingham, The distribution of prime numbers (Cambridge t…
 
-and 54 more, which `bourbaki audit -only L11` prints in full.
+and 55 more, which `bourbaki audit -only L11` prints in full.
 
 ## L12 a word set inside the mathematics is translated too (33)
 
