@@ -6,23 +6,23 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 61 chapters, 533 sections, 4749 exercises, 15338 extracted pages, 5252 tags, 22704 references, 15389 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
+Audited: 61 chapters, 533 sections, 4749 exercises, 15338 extracted pages, 5252 tags, 22704 references, 15398 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
 
 ## Summary
 
 | Group | Hard | Soft | Not run | Failing |
 | --- | ---: | ---: | ---: | --- |
-| structure | 14 | 3 | 0 | S08 (63), S11 (66), S14 (685), S15 (67), S17 (81) |
+| structure | 14 | 3 | 0 | S08 (63), S11 (66), S14 (685), S15 (67), S17 (82) |
 | tags | 7 | 1 | 1 | T03 (23930), T07 (33), T10 (9) |
-| mathematics | 14 | 6 | 0 | M03 (26), M06 (6), M13 (48), M14 (2628), M15 (2454), M16 (1) |
+| mathematics | 14 | 6 | 0 | M03 (30), M06 (6), M13 (273), M14 (2677), M15 (2455), M16 (1) |
 | figures | 6 | 0 | 0 | F01 (158) |
 | references | 3 | 0 | 0 | R01 (3121), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1474), L02 (33), L03 (54), L04 (48), L05 (418), L06 (2070), L07 (53), L08 (5621), L10 (295), L11 (80), L12 (38), L13 (73), L14 (33), L15 (6), L16 (78) |
+| translation | 13 | 3 | 1 | L01 (1481), L02 (33), L03 (54), L04 (48), L05 (418), L06 (2070), L07 (53), L08 (5624), L10 (295), L11 (80), L12 (38), L13 (73), L14 (33), L15 (6), L16 (78) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
-| publication | 0 | 1 | 0 | none |
+| publication | 0 | 1 | 0 | P04 (4) |
 | hygiene | 7 | 0 | 0 | none |
 
-30550 hard findings and 13714 soft, over 84 rules that ran and 2 that could not.
+30561 hard findings and 13997 soft, over 84 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -65,15 +65,19 @@ Hard, figures.
 
 and 133 more, which `bourbaki audit -only F01` prints in full.
 
-## M03 no character stranded out of its TeX (26)
+## M03 no character stranded out of its TeX (30)
 
 Hard, mathematics.
 
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:533` the operator '−' where its TeX belongs inside the mathematics: of the underlying (real) vector bundle of M (7.3.3…
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:533` the letter 'τ' where its TeX belongs inside the mathematics: , there exists on M a unique structure of complex …
 - `content/fr/lie/index_of_notation_ix.md:37` the accent '˜' with no letter under it, which is a lost \widehat: ˜p, ˜V, ˜V_\lambda(G) : p. 27.
 - `content/fr/lie/index_of_notation_ix.md:39` the accent '˜' with no letter under it, which is a lost \widehat: ˜L(ρ) : p. 28.
 - `content/vi/alg/III/exercises/s2/16.md:21` the operator '−' where its TeX belongs inside the mathematics: \le n − 1
 - `content/vi/alg/III/exercises/s2/16.md:21` the operator '−' where its TeX belongs inside the mathematics: 0 \le k \le m − 1
 - `content/vi/alg/III/exercises/s2/16.md:21` the operator '−' where its TeX belongs inside the mathematics: 0 \le k < p \le m − 1
+- `content/vi/alg/III/exercises/s2/17.md:21` the operator '↦' where its TeX belongs inside the mathematics: (u, v) ↦ u(v)
+- `content/vi/alg/III/exercises/s2/17.md:21` the operator '≠' where its TeX belongs inside the mathematics: u ≠ 0
 - `content/vi/lie/IV/exercises/s1/18.md:36` '₁', a Unicode script where a TeX one belongs inside the mathematics: (C₁, C₂', ..., Cₙ' = C):
 - `content/vi/lie/IV/exercises/s1/18.md:38` '₁', a Unicode script where a TeX one belongs inside the mathematics: C₁
 - `content/vi/lie/IV/exercises/s1/18.md:38` '₂', a Unicode script where a TeX one belongs inside the mathematics: C₂
@@ -90,12 +94,8 @@ Hard, mathematics.
 - `content/vi/lie/IV/exercises/s1/19.md:38` the operator '⊂' where its TeX belongs inside the mathematics: F ⊂ C \cap C_i
 - `content/vi/lie/IV/exercises/s1/19.md:38` the operator '∈' where its TeX belongs inside the mathematics: w ∈ W_F
 - `content/vi/lie/IV/exercises/s1/19.md:38` the operator '∈' where its TeX belongs inside the mathematics: i ∈ I
-- `content/vi/lie/IV/exercises/s1/19.md:38` the operator '∈' where its TeX belongs inside the mathematics: w' ∈ P_{s_i}
-- `content/vi/lie/IV/exercises/s1/19.md:38` the operator '⊂' where its TeX belongs inside the mathematics: w(C) ⊂ s_i \pi_i(A)
-- `content/vi/lie/IV/exercises/s1/19.md:38` the operator '⊂' where its TeX belongs inside the mathematics: F ⊂ \pi_i(A) \cap s_i \pi_i(A)
-- `content/vi/lie/IV/exercises/s1/19.md:38` the operator '∈' where its TeX belongs inside the mathematics: s_i ∈ W_F
 
-and 1 more, which `bourbaki audit -only M03` prints in full.
+and 5 more, which `bourbaki audit -only M03` prints in full.
 
 ## M06 displays per page within three sigma of the book mean (6)
 
@@ -108,39 +108,39 @@ Soft, mathematics.
 - `content/en/lie/III/05_s5_formal_calculations_in_lie_groups.md:1` 6.90 displays a page over 10 pages, against a mean of 1.15 and a sigma of 1.22
 - `content/en/lie/VIII/12_s12_chevalley_orders.md:1` 6.18 displays a page over 17 pages, against a mean of 1.15 and a sigma of 1.22
 
-## M13 an inline formula is written tight against its dollars (48)
+## M13 an inline formula is written tight against its dollars (273)
 
 Soft, mathematics.
 
 - `content/en-mt/alg/X/04_s4_produits_de_torsion.md:636` an inline formula written loose against its dollars, $L(M^\circ ) = L(M)^\circ $: run bourbaki fix padding
 - `content/en-mt/alg/X/04_s4_produits_de_torsion.md:636` an inline formula written loose against its dollars, $L(N^\circ ) = L(N)^\circ $: run bourbaki fix padding
 - `content/en-mt/ts/IV/01_s1_operateurs_compacts_sur_un_espace.md:456` an inline formula written loose against its dollars, $\widehat{\wedge}^nu\in \mathscr{L}(\widehat{\wedge}^nE;\widehat{\wedge}^nF) $: run bourbaki fix padding
-- `content/fr/ens/00_introduction.md:45` an inline formula written loose against its dollars, $ 0 \neq 0 $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:51` an inline formula written loose against its dollars, $ \prod_{t \in \{\alpha\}} X_t $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:52` an inline formula written loose against its dollars, $ \prod_{t \in \{\alpha, \beta\}} X_t $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:53` an inline formula written loose against its dollars, $ \prod_{t \in I} X_t $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:53` an inline formula written loose against its dollars, $ \prod_{\lambda \in L} (\prod_{t \in J_\lambda} X_t) $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:54` an inline formula written loose against its dollars, $ \prod_{t \in I} X_t $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:54` an inline formula written loose against its dollars, $ (\prod_{t \in J_\alpha} X_t) \times (\prod_{t \in J_\beta} X_t) $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:55` an inline formula written loose against its dollars, $ \prod_{t \in \{\alpha, \beta, \gamma\}} X_t $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:56` an inline formula written loose against its dollars, $ \prod_{t \in I} X_t^E $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:56` an inline formula written loose against its dollars, $ (\prod_{t \in I} X_t)^E $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:220` an inline formula written loose against its dollars, $ \leq \alpha $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:223` an inline formula written loose against its dollars, $ T $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:223` an inline formula written loose against its dollars, $ x \in A $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:227` an inline formula written loose against its dollars, $ x $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:227` an inline formula written loose against its dollars, $ R $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:227` an inline formula written loose against its dollars, $ R $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:227` an inline formula written loose against its dollars, $ x $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:228` an inline formula written loose against its dollars, $ x \in A $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:228` an inline formula written loose against its dollars, $ P\{x\} $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:232` an inline formula written loose against its dollars, $ \subset $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:232` an inline formula written loose against its dollars, $ \supset $: run bourbaki fix padding
-- `content/fr/ens/index_of_terminology_i_iv.md:283` an inline formula written loose against its dollars, $ n $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:168` an inline formula written loose against its dollars, $\omega \in ^k\Omega^p(X; F). There then exists one and only one form $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:191` an inline formula written loose against its dollars, $\omega' \in ^k\Omega^{p'}(U; F') and $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:342` an inline formula written loose against its dollars, $\eta. 8.5.2. The mapping $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:344` an inline formula written loose against its dollars, $ is K-bilinear and alternating. If $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:344` an inline formula written loose against its dollars, $ and $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:344` an inline formula written loose against its dollars, $ are functions of class $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:344` an inline formula written loose against its dollars, $ on $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:344` an inline formula written loose against its dollars, $, with values in $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:349` an inline formula written loose against its dollars, $ 8.5.3. Let $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:351` an inline formula written loose against its dollars, $ be a Banach space. One has (3) $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:356` an inline formula written loose against its dollars, $ in the space of mappings from $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:357` an inline formula written loose against its dollars, $ into $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:357` an inline formula written loose against its dollars, $. If $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:359` an inline formula written loose against its dollars, $ and if $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:359` an inline formula written loose against its dollars, $ is a third vector field of class $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:359` an inline formula written loose against its dollars, $ on $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:368` an inline formula written loose against its dollars, $ More generally, if $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:370` an inline formula written loose against its dollars, $ and if $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:370` an inline formula written loose against its dollars, $ is a vector functor for isomorphisms, one has (5) $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:375` an inline formula written loose against its dollars, $ in the space of mappings from $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:376` an inline formula written loose against its dollars, $ into $: run bourbaki fix padding
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:376` an inline formula written loose against its dollars, $ (with $: run bourbaki fix padding
 
-and 23 more, which `bourbaki audit -only M13` prints in full.
+and 248 more, which `bourbaki audit -only M13` prints in full.
 
-## M14 no mathematics is left outside math mode (2628)
+## M14 no mathematics is left outside math mode (2677)
 
 Soft, mathematics.
 
@@ -170,9 +170,9 @@ Soft, mathematics.
 - `content/en-mt/ac/VIII/04_s4_series_de_hilbert_samuel.md:430` \leq is set in the prose, so the mathematics prints as its own source: One therefore has either d_x(M) < r and c_G = 0, or d_x(M) =…
 - `content/en-mt/ac/VIII/04_s4_series_de_hilbert_samuel.md:434` \to is set in the prose, so the mathematics prints as its own source: Let 0 \to M' \to M \to M'' \to 0 be an exact sequence of fin…
 
-and 2603 more, which `bourbaki audit -only M14` prints in full.
+and 2652 more, which `bourbaki audit -only M14` prints in full.
 
-## M15 one volume, one face for the display capitals (2454)
+## M15 one volume, one face for the display capitals (2455)
 
 Soft, mathematics.
 
@@ -202,13 +202,22 @@ Soft, mathematics.
 - `content/en-mt/alg/X/exercises/s1/17.md:95` \mathscr{U} here, and \mathfrak{U} 19 times in content/en-mt/alg against 11 of this one, so one symbol prints two ways
 - `content/en-mt/alg/X/exercises/s1/17.md:97` \mathscr{J} here, and \mathfrak{J} 12 times in content/en-mt/alg against 7 of this one, so one symbol prints two ways
 
-and 2429 more, which `bourbaki audit -only M15` prints in full.
+and 2430 more, which `bourbaki audit -only M15` prints in full.
 
 ## M16 no ring is named A and Lambda in the same file (1)
 
 Soft, mathematics.
 
 - `content/vi/lie/VII/exercises/s1/08.md:34` \Lambda$ là một vành here, and this file names its ring A elsewhere: one ring, two letters, and the printing sets only one of them
+
+## P04 every math span parses under KaTeX (4)
+
+Soft, publication.
+
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:362` KaTeX will not set it: \tag works only in display equations: [[\xi, \eta], \zeta] = [\xi, [\eta, \zeta]] - [\et…
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:423` KaTeX will not set it: Expected 'EOF', got '#' at position 3: #̲## 8.6. Lifting…: ### 8.6. Liftings Let
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:511` KaTeX will not set it: Expected 'EOF', got '#' at position 3: #̲## 8.7. Weakeni…: ### 8.7. Weakening of structure In this no., we su…
+- `content/en-mt/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md:521` KaTeX will not set it: Expected 'EOF', got '#' at position 250: …of this kind. #̲## 8.8. Almost …: . The various operations on these forms described …
 
 ## R01 every in-corpus reference resolves (3121)
 
@@ -440,7 +449,7 @@ Soft, structure.
 
 and 42 more, which `bourbaki audit -only S15` prints in full.
 
-## S17 no exercise file is many times the median length of its § (81)
+## S17 no exercise file is many times the median length of its § (82)
 
 Soft, structure.
 
@@ -470,7 +479,7 @@ Soft, structure.
 - `content/en/lie/VIII/exercises/s7/18.md:1` the file is 4926 characters and the median of the § is 812, which is what an exercise holding the run that follows it looks like
 - `content/en/lie/VIII/exercises/s7/26.md:1` the file is 5554 characters and the median of the § is 812, which is what an exercise holding the run that follows it looks like
 
-and 56 more, which `bourbaki audit -only S17` prints in full.
+and 57 more, which `bourbaki audit -only S17` prints in full.
 
 ## T03 every statement in the corpus has exactly one tag (23930)
 
@@ -550,7 +559,7 @@ Soft, tags.
 - `content/vi/ens/II/06_s6_equivalence_relations.md:121` has 03TP after 03TS, which the same run assigned later
 - `content/vi/lie/IX/04_s4_root_system_associated_to_a_compact.md:428` has 01C5 after 01C7, which the same run assigned later
 
-## L01 the math spans are the English ones, in order (1474)
+## L01 the math spans are the English ones, in order (1481)
 
 Hard, translation.
 
@@ -580,7 +589,7 @@ Hard, translation.
 - `content/en-mt/ac/IX/exercises/s1/25.md:37` math span 44 is "c" and the English has "(a, b)"
 - `content/en-mt/ac/IX/exercises/s1/34.md:41` math span 27 is "n" and the English has "X_n"
 
-and 1449 more, which `bourbaki audit -only L01` prints in full.
+and 1456 more, which `bourbaki audit -only L01` prints in full.
 
 ## L02 the tag set is the English one (33)
 
@@ -774,7 +783,7 @@ Hard, translation.
 
 and 28 more, which `bourbaki audit -only L07` prints in full.
 
-## L08 no translation was written by a small model (5621)
+## L08 no translation was written by a small model (5624)
 
 Soft, translation.
 
@@ -804,7 +813,7 @@ Soft, translation.
 - `content/en-mt/ac/IV/exercises/s2/31.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/en-mt/ac/IV/exercises/s2/32.md:1` was translated by gpt-5-mini, which is a cut down model, so the section is worth doing again
 
-and 5596 more, which `bourbaki audit -only L08` prints in full.
+and 5599 more, which `bourbaki audit -only L08` prints in full.
 
 ## L10 no English term was left standing (295)
 
