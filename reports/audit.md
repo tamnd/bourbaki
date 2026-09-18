@@ -6,7 +6,7 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 61 chapters, 533 sections, 4749 exercises, 15338 extracted pages, 5252 tags, 22704 references, 15403 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
+Audited: 61 chapters, 533 sections, 4749 exercises, 15338 extracted pages, 5252 tags, 22704 references, 15404 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
 
 ## Summary
 
@@ -14,15 +14,15 @@ Audited: 61 chapters, 533 sections, 4749 exercises, 15338 extracted pages, 5252 
 | --- | ---: | ---: | ---: | --- |
 | structure | 14 | 3 | 0 | S08 (63), S11 (66), S14 (685), S15 (67), S17 (82) |
 | tags | 7 | 1 | 1 | T03 (23930), T07 (33), T10 (9) |
-| mathematics | 14 | 6 | 0 | M03 (30), M06 (6), M13 (273), M14 (2677), M15 (2455), M16 (1) |
+| mathematics | 14 | 6 | 0 | M03 (30), M06 (6), M13 (273), M14 (2678), M15 (2455), M16 (1) |
 | figures | 6 | 0 | 0 | F01 (158) |
 | references | 3 | 0 | 0 | R01 (3121), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1486), L02 (33), L03 (55), L04 (48), L05 (418), L06 (2073), L07 (53), L08 (5627), L10 (296), L11 (80), L12 (38), L13 (73), L14 (33), L15 (6), L16 (78) |
+| translation | 13 | 3 | 1 | L01 (1487), L02 (33), L03 (55), L04 (48), L05 (418), L06 (2074), L07 (53), L08 (5627), L10 (296), L11 (80), L12 (38), L13 (73), L14 (33), L15 (6), L16 (78) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | P04 (4) |
-| hygiene | 7 | 0 | 0 | none |
+| hygiene | 7 | 0 | 0 | H06 (1) |
 
-30568 hard findings and 14003 soft, over 84 rules that ran and 2 that could not.
+30570 hard findings and 14005 soft, over 84 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -64,6 +64,12 @@ Hard, figures.
 - `content/en/lie/V/exercises/s4/17.md:15` references content/en/lie/V/exercises/images/coxeter_graphs_1.png and there is no such file
 
 and 133 more, which `bourbaki audit -only F01` prints in full.
+
+## H06 the README coverage table is the one the corpus has (1)
+
+Hard, hygiene.
+
+- `README.md` the TRANSLATION block is not what the corpus says, run bourbaki report readme -write
 
 ## M03 no character stranded out of its TeX (30)
 
@@ -140,7 +146,7 @@ Soft, mathematics.
 
 and 248 more, which `bourbaki audit -only M13` prints in full.
 
-## M14 no mathematics is left outside math mode (2677)
+## M14 no mathematics is left outside math mode (2678)
 
 Soft, mathematics.
 
@@ -170,7 +176,7 @@ Soft, mathematics.
 - `content/en-mt/ac/VIII/04_s4_series_de_hilbert_samuel.md:430` \leq is set in the prose, so the mathematics prints as its own source: One therefore has either d_x(M) < r and c_G = 0, or d_x(M) =…
 - `content/en-mt/ac/VIII/04_s4_series_de_hilbert_samuel.md:434` \to is set in the prose, so the mathematics prints as its own source: Let 0 \to M' \to M \to M'' \to 0 be an exact sequence of fin…
 
-and 2652 more, which `bourbaki audit -only M14` prints in full.
+and 2653 more, which `bourbaki audit -only M14` prints in full.
 
 ## M15 one volume, one face for the display capitals (2455)
 
@@ -559,7 +565,7 @@ Soft, tags.
 - `content/vi/ens/II/06_s6_equivalence_relations.md:121` has 03TP after 03TS, which the same run assigned later
 - `content/vi/lie/IX/04_s4_root_system_associated_to_a_compact.md:428` has 01C5 after 01C7, which the same run assigned later
 
-## L01 the math spans are the English ones, in order (1486)
+## L01 the math spans are the English ones, in order (1487)
 
 Hard, translation.
 
@@ -589,7 +595,7 @@ Hard, translation.
 - `content/en-mt/ac/IX/exercises/s1/25.md:37` math span 44 is "c" and the English has "(a, b)"
 - `content/en-mt/ac/IX/exercises/s1/34.md:41` math span 27 is "n" and the English has "X_n"
 
-and 1461 more, which `bourbaki audit -only L01` prints in full.
+and 1462 more, which `bourbaki audit -only L01` prints in full.
 
 ## L02 the tag set is the English one (33)
 
@@ -719,7 +725,7 @@ Hard, translation.
 
 and 393 more, which `bourbaki audit -only L05` prints in full.
 
-## L06 the glossary is followed (2073)
+## L06 the glossary is followed (2074)
 
 Soft, translation.
 
@@ -749,7 +755,7 @@ Soft, translation.
 - `content/vi/ac/I/exercises/s2/18.md:1` the English mentions 26 glossary terms and 2 are not in this file as the glossary writes them: projective finitely generated (xạ ảnh hữu hạn sinh), submodules isomorphic (các môđun con đẳng cấu)
 - `content/vi/ac/I/exercises/s3/09.md:1` the English mentions 15 glossary terms and 1 are not in this file as the glossary writes them: set (tập hợp)
 
-and 2048 more, which `bourbaki audit -only L06` prints in full.
+and 2049 more, which `bourbaki audit -only L06` prints in full.
 
 ## L07 no paragraph was left untranslated (53)
 
