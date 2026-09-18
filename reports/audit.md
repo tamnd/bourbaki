@@ -6,7 +6,7 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 61 chapters, 533 sections, 4749 exercises, 15338 extracted pages, 5252 tags, 22704 references, 15402 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
+Audited: 61 chapters, 533 sections, 4749 exercises, 15338 extracted pages, 5252 tags, 22704 references, 15403 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
 
 ## Summary
 
@@ -17,12 +17,12 @@ Audited: 61 chapters, 533 sections, 4749 exercises, 15338 extracted pages, 5252 
 | mathematics | 14 | 6 | 0 | M03 (30), M06 (6), M13 (273), M14 (2677), M15 (2455), M16 (1) |
 | figures | 6 | 0 | 0 | F01 (158) |
 | references | 3 | 0 | 0 | R01 (3121), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1485), L02 (33), L03 (55), L04 (48), L05 (418), L06 (2072), L07 (53), L08 (5627), L10 (296), L11 (80), L12 (38), L13 (73), L14 (33), L15 (6), L16 (78) |
+| translation | 13 | 3 | 1 | L01 (1486), L02 (33), L03 (55), L04 (48), L05 (418), L06 (2073), L07 (53), L08 (5627), L10 (296), L11 (80), L12 (38), L13 (73), L14 (33), L15 (6), L16 (78) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | P04 (4) |
 | hygiene | 7 | 0 | 0 | none |
 
-30567 hard findings and 14002 soft, over 84 rules that ran and 2 that could not.
+30568 hard findings and 14003 soft, over 84 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -559,7 +559,7 @@ Soft, tags.
 - `content/vi/ens/II/06_s6_equivalence_relations.md:121` has 03TP after 03TS, which the same run assigned later
 - `content/vi/lie/IX/04_s4_root_system_associated_to_a_compact.md:428` has 01C5 after 01C7, which the same run assigned later
 
-## L01 the math spans are the English ones, in order (1485)
+## L01 the math spans are the English ones, in order (1486)
 
 Hard, translation.
 
@@ -589,7 +589,7 @@ Hard, translation.
 - `content/en-mt/ac/IX/exercises/s1/25.md:37` math span 44 is "c" and the English has "(a, b)"
 - `content/en-mt/ac/IX/exercises/s1/34.md:41` math span 27 is "n" and the English has "X_n"
 
-and 1460 more, which `bourbaki audit -only L01` prints in full.
+and 1461 more, which `bourbaki audit -only L01` prints in full.
 
 ## L02 the tag set is the English one (33)
 
@@ -719,7 +719,7 @@ Hard, translation.
 
 and 393 more, which `bourbaki audit -only L05` prints in full.
 
-## L06 the glossary is followed (2072)
+## L06 the glossary is followed (2073)
 
 Soft, translation.
 
@@ -749,7 +749,7 @@ Soft, translation.
 - `content/vi/ac/I/exercises/s2/18.md:1` the English mentions 26 glossary terms and 2 are not in this file as the glossary writes them: projective finitely generated (xạ ảnh hữu hạn sinh), submodules isomorphic (các môđun con đẳng cấu)
 - `content/vi/ac/I/exercises/s3/09.md:1` the English mentions 15 glossary terms and 1 are not in this file as the glossary writes them: set (tập hợp)
 
-and 2047 more, which `bourbaki audit -only L06` prints in full.
+and 2048 more, which `bourbaki audit -only L06` prints in full.
 
 ## L07 no paragraph was left untranslated (53)
 
