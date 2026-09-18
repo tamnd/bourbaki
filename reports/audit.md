@@ -6,7 +6,7 @@ Every number here is a function of the committed Markdown and the manifests.
 There is no timestamp and no commit in it, so that CI can check this file by
 regenerating it and diffing.
 
-Audited: 61 chapters, 533 sections, 4749 exercises, 15338 extracted pages, 5252 tags, 22704 references, 15362 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
+Audited: 61 chapters, 533 sections, 4749 exercises, 15338 extracted pages, 5252 tags, 22704 references, 15389 translated files, 42 solutions. Languages: en, en-mt, fr, vi.
 
 ## Summary
 
@@ -14,15 +14,15 @@ Audited: 61 chapters, 533 sections, 4749 exercises, 15338 extracted pages, 5252 
 | --- | ---: | ---: | ---: | --- |
 | structure | 14 | 3 | 0 | S08 (63), S11 (66), S14 (685), S15 (67), S17 (81) |
 | tags | 7 | 1 | 1 | T03 (23930), T07 (33), T10 (9) |
-| mathematics | 14 | 6 | 0 | M03 (23), M06 (6), M13 (48), M14 (2627), M15 (2454), M16 (1) |
+| mathematics | 14 | 6 | 0 | M03 (26), M06 (6), M13 (48), M14 (2628), M15 (2454), M16 (1) |
 | figures | 6 | 0 | 0 | F01 (158) |
 | references | 3 | 0 | 0 | R01 (3121), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1461), L02 (33), L03 (54), L04 (48), L05 (418), L06 (2061), L07 (53), L08 (5619), L10 (294), L11 (80), L12 (36), L13 (73), L14 (33), L15 (6), L16 (78) |
+| translation | 13 | 3 | 1 | L01 (1474), L02 (33), L03 (54), L04 (48), L05 (418), L06 (2070), L07 (53), L08 (5621), L10 (295), L11 (80), L12 (38), L13 (73), L14 (33), L15 (6), L16 (78) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-30531 hard findings and 13702 soft, over 84 rules that ran and 2 that could not.
+30550 hard findings and 13714 soft, over 84 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -65,12 +65,15 @@ Hard, figures.
 
 and 133 more, which `bourbaki audit -only F01` prints in full.
 
-## M03 no character stranded out of its TeX (23)
+## M03 no character stranded out of its TeX (26)
 
 Hard, mathematics.
 
 - `content/fr/lie/index_of_notation_ix.md:37` the accent '˜' with no letter under it, which is a lost \widehat: ˜p, ˜V, ˜V_\lambda(G) : p. 27.
 - `content/fr/lie/index_of_notation_ix.md:39` the accent '˜' with no letter under it, which is a lost \widehat: ˜L(ρ) : p. 28.
+- `content/vi/alg/III/exercises/s2/16.md:21` the operator '−' where its TeX belongs inside the mathematics: \le n − 1
+- `content/vi/alg/III/exercises/s2/16.md:21` the operator '−' where its TeX belongs inside the mathematics: 0 \le k \le m − 1
+- `content/vi/alg/III/exercises/s2/16.md:21` the operator '−' where its TeX belongs inside the mathematics: 0 \le k < p \le m − 1
 - `content/vi/lie/IV/exercises/s1/18.md:36` '₁', a Unicode script where a TeX one belongs inside the mathematics: (C₁, C₂', ..., Cₙ' = C):
 - `content/vi/lie/IV/exercises/s1/18.md:38` '₁', a Unicode script where a TeX one belongs inside the mathematics: C₁
 - `content/vi/lie/IV/exercises/s1/18.md:38` '₂', a Unicode script where a TeX one belongs inside the mathematics: C₂
@@ -91,7 +94,8 @@ Hard, mathematics.
 - `content/vi/lie/IV/exercises/s1/19.md:38` the operator '⊂' where its TeX belongs inside the mathematics: w(C) ⊂ s_i \pi_i(A)
 - `content/vi/lie/IV/exercises/s1/19.md:38` the operator '⊂' where its TeX belongs inside the mathematics: F ⊂ \pi_i(A) \cap s_i \pi_i(A)
 - `content/vi/lie/IV/exercises/s1/19.md:38` the operator '∈' where its TeX belongs inside the mathematics: s_i ∈ W_F
-- `content/vi/lie/IV/exercises/s1/19.md:40` the operator '↦' where its TeX belongs inside the mathematics: a ↦ W_{\{a\}}
+
+and 1 more, which `bourbaki audit -only M03` prints in full.
 
 ## M06 displays per page within three sigma of the book mean (6)
 
@@ -136,7 +140,7 @@ Soft, mathematics.
 
 and 23 more, which `bourbaki audit -only M13` prints in full.
 
-## M14 no mathematics is left outside math mode (2627)
+## M14 no mathematics is left outside math mode (2628)
 
 Soft, mathematics.
 
@@ -166,7 +170,7 @@ Soft, mathematics.
 - `content/en-mt/ac/VIII/04_s4_series_de_hilbert_samuel.md:430` \leq is set in the prose, so the mathematics prints as its own source: One therefore has either d_x(M) < r and c_G = 0, or d_x(M) =…
 - `content/en-mt/ac/VIII/04_s4_series_de_hilbert_samuel.md:434` \to is set in the prose, so the mathematics prints as its own source: Let 0 \to M' \to M \to M'' \to 0 be an exact sequence of fin…
 
-and 2602 more, which `bourbaki audit -only M14` prints in full.
+and 2603 more, which `bourbaki audit -only M14` prints in full.
 
 ## M15 one volume, one face for the display capitals (2454)
 
@@ -546,7 +550,7 @@ Soft, tags.
 - `content/vi/ens/II/06_s6_equivalence_relations.md:121` has 03TP after 03TS, which the same run assigned later
 - `content/vi/lie/IX/04_s4_root_system_associated_to_a_compact.md:428` has 01C5 after 01C7, which the same run assigned later
 
-## L01 the math spans are the English ones, in order (1461)
+## L01 the math spans are the English ones, in order (1474)
 
 Hard, translation.
 
@@ -576,7 +580,7 @@ Hard, translation.
 - `content/en-mt/ac/IX/exercises/s1/25.md:37` math span 44 is "c" and the English has "(a, b)"
 - `content/en-mt/ac/IX/exercises/s1/34.md:41` math span 27 is "n" and the English has "X_n"
 
-and 1436 more, which `bourbaki audit -only L01` prints in full.
+and 1449 more, which `bourbaki audit -only L01` prints in full.
 
 ## L02 the tag set is the English one (33)
 
@@ -706,7 +710,7 @@ Hard, translation.
 
 and 393 more, which `bourbaki audit -only L05` prints in full.
 
-## L06 the glossary is followed (2061)
+## L06 the glossary is followed (2070)
 
 Soft, translation.
 
@@ -736,7 +740,7 @@ Soft, translation.
 - `content/vi/ac/I/exercises/s2/18.md:1` the English mentions 26 glossary terms and 2 are not in this file as the glossary writes them: projective finitely generated (xạ ảnh hữu hạn sinh), submodules isomorphic (các môđun con đẳng cấu)
 - `content/vi/ac/I/exercises/s3/09.md:1` the English mentions 15 glossary terms and 1 are not in this file as the glossary writes them: set (tập hợp)
 
-and 2036 more, which `bourbaki audit -only L06` prints in full.
+and 2045 more, which `bourbaki audit -only L06` prints in full.
 
 ## L07 no paragraph was left untranslated (53)
 
@@ -770,7 +774,7 @@ Hard, translation.
 
 and 28 more, which `bourbaki audit -only L07` prints in full.
 
-## L08 no translation was written by a small model (5619)
+## L08 no translation was written by a small model (5621)
 
 Soft, translation.
 
@@ -800,9 +804,9 @@ Soft, translation.
 - `content/en-mt/ac/IV/exercises/s2/31.md:1` was translated by gpt-5-6-mini, which is a cut down model, so the section is worth doing again
 - `content/en-mt/ac/IV/exercises/s2/32.md:1` was translated by gpt-5-mini, which is a cut down model, so the section is worth doing again
 
-and 5594 more, which `bourbaki audit -only L08` prints in full.
+and 5596 more, which `bourbaki audit -only L08` prints in full.
 
-## L10 no English term was left standing (294)
+## L10 no English term was left standing (295)
 
 Hard, translation.
 
@@ -832,7 +836,7 @@ Hard, translation.
 - `content/vi/ac/III/02_s2_general_results_on_filtered_rings_and.md:463` leaves "remark" in English, and the glossary writes it "nhận xét"
 - `content/vi/ac/III/03_s3_m_adic_topologies_on_noetherian_rings.md:261` leaves "algebra" in English, and the glossary writes it "đại số"
 
-and 269 more, which `bourbaki audit -only L10` prints in full.
+and 270 more, which `bourbaki audit -only L10` prints in full.
 
 ## L11 no sentence was left untranslated (80)
 
@@ -866,7 +870,7 @@ Hard, translation.
 
 and 55 more, which `bourbaki audit -only L11` prints in full.
 
-## L12 a word set inside the mathematics is translated too (36)
+## L12 a word set inside the mathematics is translated too (38)
 
 Hard, translation.
 
@@ -896,7 +900,7 @@ Hard, translation.
 - `content/vi/evt/V/exercises/s3/06.md:1` translated_from is content/en/evt/V/exercises/s3/06.md and there is no such file
 - `content/vi/evt/V/exercises/s3/07.md:1` translated_from is content/en/evt/V/exercises/s3/07.md and there is no such file
 
-and 11 more, which `bourbaki audit -only L12` prints in full.
+and 13 more, which `bourbaki audit -only L12` prints in full.
 
 ## L13 no word is written in another alphabet (73)
 
