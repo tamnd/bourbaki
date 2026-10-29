@@ -339,7 +339,7 @@ Let $r \in \mathbf{N}_k$ and let $X$ be a manifold of class $C^{r+1}$.
 $$
 [\xi, \eta] = \theta_{\xi} \cdot \eta;
 $$
-this is a vector field of class $C^{r-1}$ on $X$, called the bracket of $\xi$ and $\eta.
+this is a vector field of class $C^{r-1}$ on $X$, called the bracket of $\xi$ and $\eta$.
 
 8.5.2. The mapping $(\xi, \eta) \mapsto [\xi, \eta]$ is K-bilinear and alternating. If $f$ and $g$ are functions of class $C^r$ on $X$, with values in $K$, one has:
 
@@ -542,7 +542,7 @@ $$
 \mathscr{S}_F^k(U) \otimes \mathbf{C} \to \mathscr{S}_{F \otimes \mathbf{C}}^k(U)
 $$
 
-is an isomorphism, by which these two spaces are identified. If $s \in \mathscr{S}_{F \otimes \mathbf{C}}^k(U)$, the elements $\sigma, \tau$ of $\mathscr{S}_F^k(U)$ such that $s = \sigma + i \tau$ are called the real part and the imaginary part of $s$; the section $\bar{s} = \sigma - i \tau$ is called the conjugate of $s.
+is an isomorphism, by which these two spaces are identified. If $s \in \mathscr{S}_{F \otimes \mathbf{C}}^k(U)$, the elements $\sigma, \tau$ of $\mathscr{S}_F^k(U)$ such that $s = \sigma + i \tau$ are called the real part and the imaginary part of $s$; the section $\bar{s} = \sigma - i \tau$ is called the conjugate of $s$.
 
 In particular, a section of the bundle $T(X) \otimes \mathbf{C}$ is called a complex vector field on $X$.
 
