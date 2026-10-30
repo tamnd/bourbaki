@@ -249,7 +249,9 @@ Dans ce no (exception faite des exemples 7 et 8), $K$ désignera un corps commut
 
 On rappelle que $\operatorname{mod} x = |x|$ si $K = \mathbf{R}$, $\operatorname{mod} x = |x|^2$ si $K = \mathbf{C}$, $\operatorname{mod} x = |x|_p$ si $K = \mathbf{Q}_p$.
 
-**Exemple 1. — Groupe linéaire.**
+#### Exemple 1 {#int-vii-s3-n3-exa-1 .statement}
+
+**Groupe linéaire.**
 
 Soit $A$ l’algèbre $\mathbf{M}_n(K)$. Le groupe $A^*$ des éléments inversibles de $A$ n’est autre que le groupe linéaire $\mathbf{GL}(n, K)$. Pour tout $X \in A$, la norme réduite $\mathrm{Nrd}_{A/K}(X)$ est $\det X$ ; par suite, $N_{A/K}(X) = (\det X)^n$ (*Alg.*, chap. VIII, § 12, no 3, prop. 8). Comme $X \to {}^t X$ est un isomorphisme de $A$ sur l’algèbre opposée, on a $N_{A^*/K}(X) = N_{A/K}({}^t X) = \det ({}^t X)^n = (\det X)^n$. Alors, la prop. 16 du § 1, no 11 prouve que
 
@@ -263,7 +265,9 @@ est une mesure de Haar à gauche et à droite sur $\mathbf{GL}(n, K)$.
 
 Pour déterminer toutes les mesures relativement invariantes sur $\mathbf{GL}(n, K)$, on s’appuiera sur le lemme suivant :
 
-**Lemme 5. — Les représentations continues de $\mathbf{GL}(n, K)$ dans $\mathbf{C}^*$ sont les applications de la forme $X \to \chi(\det X)$, où $\chi$ est une représentation continue de $K^*$ dans $\mathbf{C}^*$.**
+#### Lemme 5 {#int-vii-s3-lem-5 .statement}
+
+**Les représentations continues de $\mathbf{GL}(n, K)$ dans $\mathbf{C}^*$ sont les applications de la forme $X \to \chi(\det X)$, où $\chi$ est une représentation continue de $K^*$ dans $\mathbf{C}^*$.**
 
 Une telle application est évidemment une représentation continue de $\mathbf{GL}(n, K)$ dans $\mathbf{C}^*$. Réciproquement, soit $\psi$ une représentation continue de $\mathbf{GL}(n, K)$ dans $\mathbf{C}^*$. Pour $x \in K^*$, posons
 
@@ -516,7 +520,9 @@ sur $T(n, K)^*$ ne peut se prolonger en une représentation continue de $G$ dans
 
 Cet espace homogène s’identifie, pour $n = 2$, à la droite projective sur $K$. En effet, soit $(e_1, e_2)$ la base canonique de $K^2$. Le groupe $\mathbf{GL}(2, K)$ opère transitivement sur l’ensemble des droites de $K^2$ privées de 0, et le stabilisateur de $Ke_1 - \{0\}$ est $T(2, K)^*$.
 
-**Exemple 5. — Groupe trigonal spécial.**
+#### Exemple 5 {#int-vii-s3-n3-exa-5 .statement}
+
+**Groupe trigonal spécial.**
 
 Reprenons les notations du début de l’exemple 4, et considérons le sous-groupe $G_1 = G \cap \mathbf{SL}(n, K)$. Il est produit semi-direct topologique du groupe $D_1 = D \cap \mathbf{SL}(n, K)$ et de $T_J$. Le groupe $D_1$ admet un sous-groupe distingué $A$ isomorphe à $\mathbf{SL}(n_r, K)$, à savoir le sous-groupe composé des éléments $\operatorname{diag}(Z_{kk})$ avec $Z_{kk} = 1$ pour $k < r$. L’homomorphisme
 

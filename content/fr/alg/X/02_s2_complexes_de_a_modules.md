@@ -968,7 +968,9 @@ b) *Si $\mathscr{C}$ est stable, et si deux des modules gradués $H(C), H(C')$ e
 
 La partie a) résulte du lemme 4 appliqué au complexe d’homologie nulle défini par la suite exacte d’homologie associée à la suite exacte donnée. La partie b) résulte, en considérant cette suite exacte d’homologie, du lemme suivant :
 
-*Lemme 5. — Soit $M \to N \to P \to Q \to R$ une suite exacte de $A$-modules. Si $\mathscr{C}$ est stable, et si $M, N, Q$ et $R$ sont de type $\mathscr{C}$, le module $P$ est de type $\mathscr{C}$.
+#### Lemme 5 {#alg-x-s2-lem-5 .statement}
+
+*Soit $M \to N \to P \to Q \to R$ une suite exacte de $A$-modules. Si $\mathscr{C}$ est stable, et si $M, N, Q$ et $R$ sont de type $\mathscr{C}$, le module $P$ est de type $\mathscr{C}$.
 Posons $N' = \operatorname{Coker}(M \to N)$ et $Q' = \operatorname{Ker}(Q \to R)$. Les modules $N'$ et $Q'$ sont de type $\mathscr{C}$, et on a une suite exacte $0 \to N' \to P \to Q' \to 0$.*
 
 #### Corollaire {#alg-x-s2-n8-cor-2 .statement}
@@ -983,7 +985,9 @@ $$
 0 \to C \to \operatorname{Con}(u) \to C'(-1) \to 0 .
 $$
 
-*Remarque. — Soient $E$ un complexe, $h : E \to C$ et $h' : E \to C'$ des homotopismes avec $C$ et $C'$ bornés de type $\mathscr{C}$. On a alors $\chi(C) = \chi(C')$. En effet, si $h_1$ est un inverse de $h$ à homotopie près, $h' \circ h_1$ est un homotopisme, donc un homologisme de $C$ dans
+#### Remarque {#alg-x-s2-n8-rem-2 .statement}
+
+*Soient $E$ un complexe, $h : E \to C$ et $h' : E \to C'$ des homotopismes avec $C$ et $C'$ bornés de type $\mathscr{C}$. On a alors $\chi(C) = \chi(C')$. En effet, si $h_1$ est un inverse de $h$ à homotopie près, $h' \circ h_1$ est un homotopisme, donc un homologisme de $C$ dans
 
 C' et on peut appliquer la prop. 10. Par suite, on peut étendre la définition 8 en posant $\chi(E) = \chi(C)$ dès qu’il existe un homotopisme de E sur un complexe C borné de type $\mathscr{C}$. Les propositions 10, 11, 12 et leurs corollaires se généralisent dans ce cadre.
 

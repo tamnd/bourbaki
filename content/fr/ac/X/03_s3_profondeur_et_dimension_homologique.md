@@ -459,7 +459,9 @@ a) En effet, « $\operatorname{prof}_A(M) = 0$ » équivaut à « $m_A \in \oper
 
 b) En effet, « $dp_A(M) = 0$ » équivaut à « $M$ est libre ».
 
-COROLLAIRE 2.: Conservons les hypothèses du théorème 1 et supposons de plus que $A$ soit un anneau de Macaulay. Alors $dp_A(M)$ est la somme des deux entiers positifs $\dim(A) - \dim_A(M)$ et $\dim_A(M) - \operatorname{prof}(M)$.
+#### Corollaire 2 {#ac-x-s3-thm-1-cor-2 .statement}
+
+Conservons les hypothèses du théorème 1 et supposons de plus que $A$ soit un anneau de Macaulay. Alors $dp_A(M)$ est la somme des deux entiers positifs $\dim(A) - \dim_A(M)$ et $\dim_A(M) - \operatorname{prof}(M)$.
 
 En particulier, $dp_A(M)$ est alors supérieur à $\dim(A) - \dim_A(M)$, et il y a égalité si et seulement si $M$ est macaulayen.
 

@@ -793,7 +793,9 @@ $$
 
 On a des propriétés analogues pour la mesurabilité, l’intégrale supérieure et l’intégrale essentielle.
 
-**Proposition 12. — On a**
+#### Proposition 12 {#int-vii-s2-prop-12 .statement}
+
+**On a**
 
 $$
 (22)\quad \int_{X/H} (\beta/\beta')_u d(\mu/\beta)(u) = \mu/\beta'.

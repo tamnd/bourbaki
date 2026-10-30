@@ -111,7 +111,9 @@ $$
 
 Si $F = \sum_{n \in \mathbf{Z}} a_n T^n$ et $G = \sum_{n \in \mathbf{Z}} b_n T^n$ sont deux éléments de $\mathbf{Z}((T))$, on note « $F \leq G$ » la relation « $a_n \leq b_n$ pour tout $n \in \mathbf{Z}$ ». C’est une relation d’ordre compatible avec la structure d’anneau de $\mathbf{Z}((T))$ (A, VI, p. 18, déf. 1). On a $(1-T)^{-1} \geq 1$. Si $Q \in \mathbf{Z}[T, T^{-1}]$ est $\geq 0$, alors l’entier $Q(1)$ est positif.
 
-**Lemme 2. — a)** Soit $F$ un élément non nul de $\mathbf{Z}((T))$ tel qu’il existe $r \in \mathbf{Z}$, avec $(1-T)^r F \in \mathbf{Z}[T, T^{-1}]$; alors $F$ s’écrit de manière unique sous la forme $F = (1-T)^{-d}.Q$, où $Q \in \mathbf{Z}[T, T^{-1}]$, $Q(1) \neq 0$ et $d \in \mathbf{Z}$. Si $F \geq 0$, alors on a $Q(1) > 0$ et $d \geq 0$.
+#### Lemme 2 {#ac-viii-s4-lem-2 .statement}
+
+**a)** Soit $F$ un élément non nul de $\mathbf{Z}((T))$ tel qu’il existe $r \in \mathbf{Z}$, avec $(1-T)^r F \in \mathbf{Z}[T, T^{-1}]$; alors $F$ s’écrit de manière unique sous la forme $F = (1-T)^{-d}.Q$, où $Q \in \mathbf{Z}[T, T^{-1}]$, $Q(1) \neq 0$ et $d \in \mathbf{Z}$. Si $F \geq 0$, alors on a $Q(1) > 0$ et $d \geq 0$.
 
 b) Soient $Q, R$ dans $\mathbf{Z}[T, T^{-1}]$, $d, d'$ dans $\mathbf{Z}$ avec $Q(1) > 0$. Si
 

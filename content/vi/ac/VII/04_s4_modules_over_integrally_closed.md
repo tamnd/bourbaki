@@ -94,7 +94,9 @@ Các điều kiện rõ ràng là cần thiết, vì một môđun con-A tự do
 
 *Giả sử rằng A là Noether; đối với một môđun con-A M của V là một dàn của V, điều kiện cần và đủ là KM = V và M sinh hữu hạn.*
 
-*Nhận xét* (1). Nhắc lại rằng với mọi môđun con-A M của V, ánh xạ chính tắc $M \otimes_A K \to V$ là đơn ánh và có ảnh KM (*Đại số*, Chương II, § 7, no. 10, Mệnh đề 26); nói rằng KM = V có nghĩa là do đó ánh xạ này là *song ánh*.
+#### Nhận xét (1) {#ac-vii-s4-n1-rem-1 .statement}
+
+Nhắc lại rằng với mọi môđun con-A M của V, ánh xạ chính tắc $M \otimes_A K \to V$ là đơn ánh và có ảnh KM (*Đại số*, Chương II, § 7, no. 10, Mệnh đề 26); nói rằng KM = V có nghĩa là do đó ánh xạ này là *song ánh*.
 
 #### Mệnh đề 2 {#ac-vii-s4-prop-2 .statement}
 
@@ -124,7 +126,9 @@ là một ánh xạ đa tuyến tính mà ảnh sinh ra $V$. *Nếu $M_i$ là m�
 
 (iv) Cho $P$ (resp. $Q$) là một dàn tự do của $V$ (resp. $W$) chứa $M$ (resp. được chứa trong $N$); hiển nhiên $N : M \supset Q : P$. Bây giờ ngay lập tức có được rằng $Q : P$ đẳng cấu với $\mathrm{Hom}_A(P, Q)$, do đó là một A-môđun tự do có hạng $(\mathrm{rg}_A P)(\mathrm{rg}_A Q)$ (*Đại số*, Chương II, § 1, no. 6, Hệ quả 1 của Mệnh đề 6) và vì thế là một dàn của $\mathrm{Hom}_K(V, W)$. Tương tự, nếu $P'$ (resp. $Q'$) là một dàn tự do của $V$ (resp. $W$) được chứa trong $M$ (resp. chứa $N$), thì $Q' : P' \supset N : M$ và $Q' : P'$ là một dàn của $\mathrm{Hom}_K(V, W)$; do đó kết luận.
 
-*Nhận xét* (2) Mệnh đề 3 (i) cho thấy tập $R(V)$ các dàn của $V$ là *có thứ tự dàn* đối với quan hệ bao hàm; hơn nữa, nếu $M$ là một dàn cố định của $V$, thì các $xM$, với $x$ chạy qua $K^*$, tạo thành một tập con của $R(V)$ vừa *đồng đầu* vừa *đồng cuối* (*Lý thuyết tập hợp*, Chương III, § 1, no. 7).
+#### Nhận xét (2) {#ac-vii-s4-n1-rem-2 .statement}
+
+Mệnh đề 3 (i) cho thấy tập $R(V)$ các dàn của $V$ là *có thứ tự dàn* đối với quan hệ bao hàm; hơn nữa, nếu $M$ là một dàn cố định của $V$, thì các $xM$, với $x$ chạy qua $K^*$, tạo thành một tập con của $R(V)$ vừa *đồng đầu* vừa *đồng cuối* (*Lý thuyết tập hợp*, Chương III, § 1, no. 7).
 
 (3) Với các ký hiệu của Mệnh đề 3 (iv), ánh xạ chính tắc
 $$
@@ -207,7 +211,9 @@ Rõ ràng $M^*$ được chứa trong mỗi $M_p^*$. Ngược lại, giả sử 
 
 Với mọi dàn $M$ đối với $A$, ánh xạ chính tắc $c_M : M \to M^{**}$ (*Đại số*, Chương 11, $§ 2$, no. **7**) đồng nhất một phần tử $x \in M$ với chính nó, vì $x$ là phần tử duy nhất $y$ của $V = V^{**}$ sao cho $\langle x, x^* \rangle = \langle y, x^* \rangle$ với mọi $x^* \in M^*$, vì $M^*$ sinh $V^*$. Ta sẽ nói rằng $M$ là *phản xạ* nếu $M^{**} = M$ (*loc. cit.*). Vì ở trên ta có $M^* = (M^*)^{**}$, suy ra rằng *đối ngẫu* của mọi dàn $M$ luôn luôn *phản xạ*.
 
-*Nhận xét* (1) Cho $M$ là một $A$-môđun sinh hữu hạn; ngay lập tức thấy rằng đối ngẫu $M^*$ của $M$, được đồng nhất với một môđun con-$A$ của $\operatorname{Hom}_A(M, K)$, là một *dàn* của không gian vectơ $K$ $\operatorname{Hom}_A(M, K)$; đặc biệt, mọi $A$-môđun *phản xạ* sinh hữu hạn đều đẳng cấu với một dàn của một không gian vectơ $K$ thích hợp.
+#### Nhận xét (1) {#ac-vii-s4-n2-rem-1 .statement}
+
+Cho $M$ là một $A$-môđun sinh hữu hạn; ngay lập tức thấy rằng đối ngẫu $M^*$ của $M$, được đồng nhất với một môđun con-$A$ của $\operatorname{Hom}_A(M, K)$, là một *dàn* của không gian vectơ $K$ $\operatorname{Hom}_A(M, K)$; đặc biệt, mọi $A$-môđun *phản xạ* sinh hữu hạn đều đẳng cấu với một dàn của một không gian vectơ $K$ thích hợp.
 
 #### Định lý 2 {#ac-vii-s4-thm-2 .statement}
 
@@ -415,7 +421,9 @@ Ta giữ nguyên các ký hiệu và giả thiết của các số 2 và 3.
 
 Ta biết (Chương II, $§ 2$, no. 2, Hệ quả 2 của Mệnh đề 4) rằng điều kiện $M_p = 0$ tương đương với $a + p$ và do đó tương đương với $aA_p = A$, (Chương II, $§ 2$, no. 5, *Nhận xét*); mặt khác, với mọi iđêan nguyên $b \neq 0$ của A, quan hệ "*$bA_p = A$, với mọi $p \in P$*" tương đương với $\operatorname{div} b = \operatorname{div} A = 0$ trong $D(A)$ ($§ 1$, no. 4, Mệnh đề 7), hoặc cũng tương đương với $\operatorname{div}(A : b) = 0$ và, vì $A : b$ là divisorial ($§ 1$, no. 1, Mệnh đề 1), quan hệ này cũng tương đương với $A : b = A$. Khi đó mệnh đề suy ra bằng cách nhận thấy rằng nói $a \notin p$ với $p = (0)$ có nghĩa là $a \neq (0)$.
 
-*Nhận xét* (1) Các điều kiện tương đương của Mệnh đề 9 còn có nghĩa là $\operatorname{Ass}(M)$ không chứa iđêan nguyên tố nào có chiều cao $\leq 1$. *Chúng cũng có thể được diễn giải bằng cách nói rằng* $\operatorname{Supp}(M)$ *có đối chiều* $\geq 2$ *trong* $\operatorname{Spec}(A)$. \*
+#### Nhận xét (1) {#ac-vii-s4-n4-rem-1 .statement}
+
+Các điều kiện tương đương của Mệnh đề 9 còn có nghĩa là $\operatorname{Ass}(M)$ không chứa iđêan nguyên tố nào có chiều cao $\leq 1$. *Chúng cũng có thể được diễn giải bằng cách nói rằng* $\operatorname{Supp}(M)$ *có đối chiều* $\geq 2$ *trong* $\operatorname{Spec}(A)$. \*
 
 #### Định nghĩa 2 {#ac-vii-s4-def-2 .statement}
 
@@ -494,7 +502,9 @@ Tính duy nhất: Thật vậy, nếu $T \to T'$ là một giả đẳng cấu v
 
 Sự tồn tại: Ta có thể chỉ xét trường hợp $T \neq 0$. Gọi $a$ là linh hóa tử (khác không và phân biệt với $A$) của $T$, gọi $p_i$ ($1 \leq i \leq k$) là các iđêan nguyên tố của $A$ có chiều cao 1 chứa $a$ (chúng chỉ có hữu hạn về số lượng ($§ 1$, no. 6, Định lý 4)) và đặt $S = \bigcap_i (A - p_i)$. Vành nửa địa phương $A' = S^{-1}A$ là một miền iđêan chính (Bổ đề 2) và có các iđêan cực đại là $m_i = p_iA'$; vì $S^{-1}T$ là một $A$-môđun xoắn sinh hữu hạn, nó đẳng cấu với một tổng trực tiếp hữu hạn $\bigoplus_{j \in I} A'/m_{\phi(j)}^{n_j}$, trong đó $\phi$ là một ánh xạ từ một tập hợp hữu hạn $I$ vào $[1, k]$ (*Algebra*, Chương VII, § 4, no. 7, Mệnh đề 7); vì $A'/m_{\phi(j)}^{n_j}$ đẳng cấu với $S^{-1}(A/p_{\phi(j)}^{n_j})$ (Chương II, § 2, no. 4), ta đã thu được một $A$-môđun xoắn $T'$ thuộc kiểu mong muốn và một đẳng cấu $f_0$ từ $S^{-1}T$ lên $S^{-1}T'$. Vì $\operatorname{Hom}_{S^{-1}A}(S^{-1}T, S^{-1}T')$ bằng $S^{-1} \operatorname{Hom}_A(T, T')$ (Chương 11, § 2, no. 7, Mệnh đề 19), tồn tại $s \in S$ và một đồng cấu $f : T \to T'$ sao cho $f_0 = s^{-1}f$. Còn phải chứng minh rằng $f$ là một giả đẳng cấu: thật vậy, nếu $p = 0$ hoặc nếu $p \in P$ phân biệt với các $p_i$, thì $T_p = T'_p = 0$ (Chương II, § 4, no. 4, Mệnh đề 17); ngược lại, nếu $p$ là một trong các $p_i$ ($1 \leq i \leq k$), thì $s$ khả nghịch trong $A_p$, và, vì $f_{p_i} = s(f_0)_{p_i}$ và $(f_0)_{p_i}$ là một đẳng cấu từ $T_{p_i} = (S^{-1}T)_{m_i}$ lên $T'_{p_i} = (S^{-1}T')_{m_i}$, nên $f_{p_i}$ cũng vậy.
 
-Nhận xét (2) Trong mệnh đề của Định lý 5, các môđun $A/p_i^{n_i}$ có thể được thay bởi $A/p_i^{(n_i)}$ ($§ 1$, no. 4, Mệnh đề 8). Với mọi $p \in P$, ánh xạ chính tắc $g : A/p^n \to A/p^{(n)} = A/(A \cap p^nA_p)$ là một giả đẳng cấu, vì, với mọi $q \in P$ phân biệt với $p$, $A_q/p^nA_q = A_q/p^{(n)}A_q = 0$ và $A_p/p^nA_p = A_p/p^{(n)}A_p$.
+#### Nhận xét (2) {#ac-vii-s4-n4-rem-2 .statement}
+
+Trong mệnh đề của Định lý 5, các môđun $A/p_i^{n_i}$ có thể được thay bởi $A/p_i^{(n_i)}$ ($§ 1$, no. 4, Mệnh đề 8). Với mọi $p \in P$, ánh xạ chính tắc $g : A/p^n \to A/p^{(n)} = A/(A \cap p^nA_p)$ là một giả đẳng cấu, vì, với mọi $q \in P$ phân biệt với $p$, $A_q/p^nA_q = A_q/p^{(n)}A_q = 0$ và $A_p/p^nA_p = A_p/p^{(n)}A_p$.
 
 \* Cho một dãy khớp các $A$-môđun, $E \to F \to G$, nếu $E$ và $G$ là giả-không thì $F$ cũng vậy, như suy ra từ Định nghĩa 2 và Chương II, §2, no. 4, Định lý 1. Theo ngôn ngữ phạm trù, khi đó ta có thể nói rằng, trong phạm trù $\mathscr{C}$ các $A$-môđun, phạm trù con $\mathscr{C}'$ của các môđun giả-không là *đầy đủ* và khi đó ta có thể định nghĩa phạm trù *thương* $\mathscr{C}/\mathscr{C}'$: các đối tượng trong phạm trù này cũng là các $A$-môđun nhưng tập hợp các cấu xạ từ $E$ đến $F$ (với $E, F$ trong $\mathscr{C}/\mathscr{C}'$) là giới hạn trực tiếp của tập hợp các nhóm giao hoán $\mathrm{Hom}_A(E', F')$, trong đó $E'$ (tương ứng $F'$) chạy qua tập hợp các môđun con của $E$ (tương ứng tập hợp các môđun thương $F/F''$ của $F$) sao cho $E/E'$ (tương ứng $F''$) là giả-không. Dĩ nhiên, với mọi cặp có thứ tự các $A$-môđun $E, F$, có một đồng cấu chính tắc $\mathrm{Hom}_{\mathscr{E}}(E, F) \to \mathrm{Hom}_{\mathscr{E}/\mathscr{E}'}(E, F)$. Nói rằng một đồng cấu $u \in \mathrm{Hom}_A(E, F)$ là giả-không (tương ứng giả-đơn ánh, giả-toàn ánh, giả-song ánh) có nghĩa là ảnh chính tắc của nó trong $\mathrm{Hom}_{\mathscr{E}/\mathscr{E}'}(E, F)$ là không (tương ứng là một đơn cấu, một toàn cấu, một đẳng cấu). \*
 

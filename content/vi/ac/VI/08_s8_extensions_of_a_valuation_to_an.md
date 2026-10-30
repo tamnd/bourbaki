@@ -374,7 +374,9 @@ Sự tương đương của (a) và (b) suy ra từ Bổ đề 1, § 3, no. 6. R
 
 Nói chung, nếu M là một A-môđun, ta sẽ ký hiệu không gian vectơ $M/mM$ trên $A/m$ bởi V(M). Giả thiết (c) có nghĩa là $\dim(V(B)) = n$. Cho $x_1, \ldots, x_n$ là các phần tử của B mà các ảnh chính tắc của chúng trong V(B) lập thành một cơ sở của V(B) và cho L $\subset B$ là A-môđun con do chúng sinh ra. Vì L là không xoắn và sinh hữu hạn, nó là tự do (§ 3, no. 6, Bổ đề 1). Ta sẽ thấy rằng $B = L$. Cho $y \in B$; ta viết $M = L + Ay$; đây cũng là một A-môđun tự do. Các phép nhúng chính tắc $L \to M \to B$ cho các đồng cấu chính tắc $V(L) \to V(M) \to V(B)$. Vì các hạng của L và M là $\leq n$, nên các chiều của V(L) và V(M) cũng vậy. Bây giờ, theo giả thiết, $V(L) \to V(B)$ là toàn ánh và $V(B)$ có chiều n, do đó $V(L)$ và $V(M)$ có chiều n và $V(L) \to V(M)$ là toàn ánh. Vì M sinh hữu hạn, $L \to M$ là toàn ánh (Chương II, § 3, no. 2, Hệ quả 1 của Mệnh đề 4), do đó $L = M, y \in L$ và $B = L$. Suy ra B là tự do.
 
-*Nhận xét (1)* Nếu v là *rời rạc*, $\varepsilon(v'_i/v) = \varepsilon(v'_i/v)$ (no. 4) và điều kiện (d) rút gọn thành $\sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v) = n.$
+#### Nhận xét (1) {#ac-vi-s8-n5-rem-1 .statement}
+
+Nếu v là *rời rạc*, $\varepsilon(v'_i/v) = \varepsilon(v'_i/v)$ (no. 4) và điều kiện (d) rút gọn thành $\sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v) = n.$
 
 #### Hệ quả 1 {#ac-vi-s8-thm-2-cor-1 .statement}
 

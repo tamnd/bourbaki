@@ -88,7 +88,9 @@ En effet, si $L$ est un surcorps de $L'$, la relation $[L : L'] = 1$ équivaut �
 
 En effet, par hypothèse l’espace vectoriel $A$ sur $K$ est de dimension finie, et l’application linéaire $x \mapsto ax$ (resp. $x \mapsto xa$) de $A$ dans $A$ est injective ; elle est donc bijective (II, p. 101, cor.), et par suite (I, p. 16, remarque) $a$ est inversible dans $A$.
 
-COROLLAIRE — *Soit $A$ une algèbre commutative de degré fini sur un corps $K$. Si l’anneau $A$ est intègre, c’est un corps.*
+#### Corollaire {#alg-v-s2-n2-cor-1 .statement}
+
+*Soit $A$ une algèbre commutative de degré fini sur un corps $K$. Si l’anneau $A$ est intègre, c’est un corps.*
 
 ### 3. Adjonction
 

@@ -94,7 +94,9 @@ Exchanging $w$ and $w'$ in (4) gives $l(w') - l(w) \leq l(w{w'}^{-1})$ by (5), p
 
 By hypothesis, $l(w) \leq p$, $l(w') \leq q$ and $l(ww') = p + q$. By (1), we must have $l(w) = p$ and $l(w') = q$, hence the corollary.
 
-*Remark* In view of formulas (1) and (2), the formula $d(w, w') = l(w{w'}^{-1})$ defines a distance on $W$, invariant under right translations.
+#### Remark {#lie-iv-s1-n1-rem-1 .statement}
+
+In view of formulas (1) and (2), the formula $d(w, w') = l(w{w'}^{-1})$ defines a distance on $W$, invariant under right translations.
 
 ### 2. DIHEDRAL GROUPS
 

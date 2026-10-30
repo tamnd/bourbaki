@@ -226,7 +226,9 @@ Chuyển qua đồng điều, do đó ta có các đẳng cấu *chính tắc*
 H^A_r(u, C) \to H^{n-r}_A(u, C \otimes_A \Lambda^n L) , \qquad r \in \mathbf{Z} .
 $$
 
-*Nhận xét. — 1)* \* Điều trên vẫn đúng khi $L$ là xạ ảnh hạng $n$. \*
+#### Nhận xét {#alg-x-s9-n1-rem-1 .statement}
+
+*1)* \* Điều trên vẫn đúng khi $L$ là xạ ảnh hạng $n$. \*
 
 2) Vì $L$ là tự do hạng $n$, $\Lambda^n L$ đẳng cấu với $A$, và ta có các đẳng cấu không chính tắc $H^A_r(u,C)\to H^{n-r}_A(u,C)$.
 
@@ -773,7 +775,9 @@ Khi đó ta có các kéo theo (i) $\Rightarrow$ (ii) $\Rightarrow$ (iii) $\Left
 
 Định lý sẽ được chứng minh trong các No 8 và 9.
 
-*HỆ QUẢ 1. — Nếu A là Noether, nếu A-môđun M là kiểu hữu hạn và nếu các $x_i$ thuộc căn của A, thì các điều kiện từ (i) đến (v) của định lý là tương đương.
+#### Hệ quả 1 {#alg-x-s9-thm-1-cor-1 .statement}
+
+*Nếu A là Noether, nếu A-môđun M là kiểu hữu hạn và nếu các $x_i$ thuộc căn của A, thì các điều kiện từ (i) đến (v) của định lý là tương đương.
 Thật vậy, trên mỗi môđun $M/(x_1 M + \cdots + x_{i-1} M)$ tôpô $x$-adic là tách (AC III, § 3, No. 3, mệnh đề 6).
 
 #### Hệ quả 2 {#alg-x-s9-thm-1-cor-2 .statement}

@@ -335,7 +335,9 @@ Posons $b_i = \alpha_i$ pour $i \in J$, et $b_i = 0$ (resp. $b_i = 1$) pour $i \
 
 On a en effet $a^b \leq a'^{b'}$ d'après les prop. 10 (III, p. 28) et 14, et $a'^b \leq a'^{b'}$ d'après la prop. 10 et le cor. 1 de la prop. 14.
 
-**Théorème 2** (Cantor). — *Pour tout cardinal* $a$, *on a* $2^a > a$.
+#### Théorème 2 (Cantor) {#ens-iii-s3-thm-2 .statement}
+
+*Pour tout cardinal* $a$, *on a* $2^a > a$.
 
 En effet, on a $\mathrm{Card}(\mathfrak{P}(a)) = 2^a$ (III, p. 29, prop. 12). L'application $x \mapsto \{x\}$ ($x \in a$) est une injection de $a$ dans $\mathfrak{P}(a)$; d'où $a \leq 2^a$. Il suffit de montrer que $a \neq 2^a$, c'est-à-dire que, pour toute application $f$ de $a$ dans $\mathfrak{P}(a)$, l'image $f(a)$ est distincte de $\mathfrak{P}(a)$. Or, soit $X$ l'ensemble des $x \in a$ tels que $x \notin f(x)$; si $x \in X$, on a $x \notin f(x)$, d'où $f(x) \neq X$; si $x \in a - X$, on a $x \in f(x)$ et $x \notin X$, donc $f(x) \neq X$. Ceci démontre que $X \notin f(a)$, d'où le théorème.
 

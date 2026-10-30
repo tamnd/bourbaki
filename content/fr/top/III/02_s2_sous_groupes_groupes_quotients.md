@@ -107,7 +107,9 @@ Soit H un sous-groupe quelconque d’un groupe topologique G. Pour tout $x \in \
 ### 2. Composantes connexes d’un groupe topologique
 
 Soit V un voisinage symétrique de e dans G; le sous-groupe engendré par V, qu’on note $V^\infty$ est formé, comme on sait, de tous les composés $\prod_{i=1}^n x_i$ de suites finies d’éléments de V; $V^\infty$ est ouvert, puisque e lui est intérieur; il est donc fermé d’après la prop. 4 de III, p. 7. On en conclut que:
-Proposition 6. — Tout groupe connexe est engendré par chacun des voisinages de l’élément neutre.
+#### Proposition 6 {#top-iii-s2-prop-6 .statement}
+
+Tout groupe connexe est engendré par chacun des voisinages de l’élément neutre.
 
 La réciproque de cette proposition est inexacte en général, comme nous le verrons dans IV, p. 8. Si un groupe topologique G est engendré par chacun des voisinages de l’élément neutre, on peut seulement dire qu’il ne contient aucun sous-groupe ouvert distinct de G.
 

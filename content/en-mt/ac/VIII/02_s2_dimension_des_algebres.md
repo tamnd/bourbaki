@@ -359,11 +359,15 @@ Let us pass to the general case. Every minimal prime ideal $p$ of $B$ is formed 
 
 Indeed, let $p$ be a minimal prime ideal of $A$ such that $\dim(A) = \dim(A/p)$. There exists a prime ideal $q$ of $B$ above $p$ (II, § 2, no 6, prop. 16). By prop. 4 applied to $A/p$ and $B/q$, one has $\dim(A) = \dim(A/p) \leq \dim(B/q) \leq \dim(B)$, whence the corollary.
 
-*Lemma 4. — Let $A$ and $B$ be two integral k-algebras, $M$ an $A$-module without torsion, $N$ a $B$-module without torsion. If the ring $A \otimes_k B$ is integral, then $M \otimes_k N$ is a module without torsion over $A \otimes_k B$.*
+#### Lemma 4 {#ac-viii-s2-lem-4 .statement}
+
+*Let $A$ and $B$ be two integral k-algebras, $M$ an $A$-module without torsion, $N$ a $B$-module without torsion. If the ring $A \otimes_k B$ is integral, then $M \otimes_k N$ is a module without torsion over $A \otimes_k B$.*
 
 Let $K$ (resp. $L$) be the field of fractions of $A$ (resp. $B$). There exists a set $I$ (resp. $J$) such that $M$ (resp. $N$) is isomorphic to a submodule of $K^{(I)}$ (resp. $L^{(J)}$). The $(A \otimes_k B)$-module $M \otimes_k N$ is therefore isomorphic to a submodule of $K^{(I)} \otimes_k L^{(J)}$, which is isomorphic to $(K \otimes_k L)^{(I \times J)}$. Since $K \otimes_k L$ is a ring of fractions of the integral ring $A \otimes_k B$, it is a torsion-free module over $A \otimes_k B$, whence the lemma.
 
-*PROPOSITION 5. — Let $k'$ be an extension of $k$, $A$ a k-algebra of finite type and $B$ a $k'$-algebra of finite type.
+#### Proposition 5 {#ac-viii-s2-prop-5 .statement}
+
+*Let $k'$ be an extension of $k$, $A$ a k-algebra of finite type and $B$ a $k'$-algebra of finite type.
 
 a) *The $k'$-algebra $A \otimes_k B$ is of finite type and one has*
 $$

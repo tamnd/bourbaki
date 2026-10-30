@@ -75,7 +75,9 @@ whence $$\sum_{i=1}^{n-1} \alpha_i [u_i(x) - u_n(x)] \cdot u_i = 0.$$ By the ind
 
 Let A be the algebra of the monoid $\Gamma$ with coefficients in L and $(e_\gamma)_{\gamma \in \Gamma}$ the canonical basis of A over L (III, p. 446). For every L-linear mapping $u$ of A into L let us write $\tilde{u}(\gamma) = u(e_\gamma)$ (for $\gamma \in \Gamma$); then the mapping $u \mapsto 3$ is an isomorphism of vector L-spaces of $\mathrm{Hom}_L(A, L)$ onto $L^\Gamma$ which maps onto X the set of L-algebra homomorphisms of A into L. Now it suffices to apply Th. 1 with $K = L$.
 
-**COROLLARY 2** (Dedekind's theorem). — *Let E and L be two extensions of K. The set of K-homomorphisms of E into L is free over L. If E is of finite degree over K, the number of K-homomorphisms of E into L is at most equal to $[E : K]$.*
+#### Corollary 2 (Dedekind's theorem) {#alg-v-s6-thm-1-cor-2 .statement}
+
+*Let E and L be two extensions of K. The set of K-homomorphisms of E into L is free over L. If E is of finite degree over K, the number of K-homomorphisms of E into L is at most equal to $[E : K]$.*
 
 The last assertion follows from the first, taking account of Formula (2).
 

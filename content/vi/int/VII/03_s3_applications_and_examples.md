@@ -328,7 +328,9 @@ $$
 $$
 trong đó $\chi$ là một biểu diễn liên tục của $K^*$ trong $\mathbf{C}^*$.
 
-**Ví dụ 2. — Nhóm affine.**
+#### Ví dụ 2 {#int-vii-s3-n3-exa-2 .statement}
+
+**Nhóm affine.**
 Với mọi $X \in \mathbf{GL}(n, K)$ và mọi $x \in K^n$, đặt $(X, x)$ là ánh xạ tuyến tính affine $\xi \mapsto X\xi + x$ trong $K^n$. Tập hợp các $(X, x)$ là nhóm affine $G$ của $K^n$ (A, II, §9, No. 4). Tập hợp $T$ các phép tịnh tiến là một nhóm con chuẩn đóng của $G$, đẳng cấu chính tắc với $K^n$; mặt khác, $\mathbf{GL}(n, K)$ là một nhóm con đóng của $G$, và $G$ là tích nửa trực tiếp của $\mathbf{GL}(n, K)$ và $T = K^n$. Trang bị cho $G$ tôpô (địa phương compact) sao cho $G$ là tích nửa trực tiếp tôpô của $\mathbf{GL}(n, K)$ và $T$ (GT, III, §2, No. 10). Ta có
 $$
 (X, x) = (1, x) \cdot (X, 0).
@@ -356,7 +358,9 @@ $$
 (\mod \det X)^{-n} \cdot \left( \bigotimes_{ij} dx_{ij} \right) \otimes \left( \bigotimes_i dx_i \right).
 $$
 
-**Ví dụ 3. — Nhóm tam giác ngặt.**
+#### Ví dụ 3 {#int-vii-s3-n3-exa-3 .statement}
+
+**Nhóm tam giác ngặt.**
 
 Cho $[1, n]$ là tập hợp các số nguyên $m$ sao cho $1 \leq m \leq n$. Cho $J$ là một tập con của $[1, n] \times [1, n]$ thỏa mãn các điều kiện sau:
 1) nếu $(i, j) \in J$ thì $i < j$;
@@ -373,7 +377,9 @@ $$
 
 do đó $Z'Z \in T_J$. Nếu $T_J$ được đồng nhất với $K^s$, thì ánh xạ $Z \mapsto Z'Z$ (với $Z'$ cố định) được đồng nhất với một ánh xạ affine, và định thức của nó là 1, như thấy được bằng cách sắp thứ tự các cặp $(i, j) \in J$ theo thứ tự từ điển và áp dụng bổ đề sau:
 
-**Bổ đề 6. — Cho $L$ là một tập hợp hữu hạn được sắp thứ tự toàn phần. Với mỗi $\lambda \in L$, cho $V_\lambda$ là một môđun tự do có số chiều hữu hạn trên một vành giao hoán $k$; với $\lambda, \mu$ trong $L$ sao cho $\lambda \leq \mu$, cho $f_{\lambda \mu} \in \mathrm{Hom}_k(V_\mu, V_\lambda)$. Khi đó ánh xạ tuyến tính
+#### Bổ đề 6 {#int-vii-s3-lem-6 .statement}
+
+**Cho $L$ là một tập hợp hữu hạn được sắp thứ tự toàn phần. Với mỗi $\lambda \in L$, cho $V_\lambda$ là một môđun tự do có số chiều hữu hạn trên một vành giao hoán $k$; với $\lambda, \mu$ trong $L$ sao cho $\lambda \leq \mu$, cho $f_{\lambda \mu} \in \mathrm{Hom}_k(V_\mu, V_\lambda)$. Khi đó ánh xạ tuyến tính
 $$
 (v_\lambda)_{\lambda \in L} \mapsto \left( \sum_{\mu \geq \lambda} f_{\lambda \mu}(v_\mu) \right)_{\lambda \in L},
 $$
@@ -636,7 +642,9 @@ với $i = 1, 2, \ldots, n-1$. Điều này chứng minh a). Từ đó suy ra r�
 
 Bây giờ cho $G'_1 \subset {}^t(T(n, K)^*)$ là nhóm tam giác đặc biệt dưới. Ánh xạ $(M, N) \mapsto M \cdot N$ là một song ánh liên tục $\psi$ của $T_1(n, K) \times G'_1$ lên một tập con $\Omega'$ của $\mathbf{SL}(n, K)$.
 
-**Bổ đề 8. — a)** *Cho $U = (u_{ij}) \in \mathbf{SL}(n, K)$. Để $U \in \Omega'$, điều kiện cần và đủ là $\det(u_{ij})_{k \leq i, j \leq n} \neq 0$ với $k = 2, 3, \ldots, n$.*
+#### Bổ đề 8 {#int-vii-s3-lem-8 .statement}
+
+**a)** *Cho $U = (u_{ij}) \in \mathbf{SL}(n, K)$. Để $U \in \Omega'$, điều kiện cần và đủ là $\det(u_{ij})_{k \leq i, j \leq n} \neq 0$ với $k = 2, 3, \ldots, n$.*
 
 b) $\Omega'$ *là một tập con mở của $\mathbf{SL}(n, K)$*.
 
@@ -644,7 +652,9 @@ c) *Ánh xạ $\psi$ là một đồng phôi của $T_1(n, K) \times G'_1$ lên 
 
 Vì, cho $M \in T_1(n, K)$ và $N \in {}^t(T(n, K)^*)$. Để $M \cdot N \in \mathbf{SL}(n, K)$, điều kiện cần và đủ là $N \in G'_1$. Do đó $\Omega' = \mathbf{SL}(n, K) \cap \Omega$ và Bổ đề 8 suy ra ngay từ Bổ đề 7.
 
-**Mệnh đề 6. — a)** *Nhóm $\mathbf{SL}(n, K)$ là đơn môđula.*
+#### Mệnh đề 6 {#int-vii-s3-prop-6 .statement}
+
+**a)** *Nhóm $\mathbf{SL}(n, K)$ là đơn môđula.*
 
 b) *Cho $\mu_1$ và $\mu_2$ lần lượt là các độ đo Haar trái trên nhóm tam giác ngặt trên $T_1(n, K)$ và nhóm tam giác đặc biệt dưới $G'_1$. Ảnh của $\mu_1 \otimes \mu_2$ qua đồng phôi $(M, N) \mapsto M \cdot N^{-1}$ của $T_1(n, K) \times G'_1$ lên $\Omega'$ là hạn chế trên $\Omega'$ của một độ đo Haar trên $\mathbf{SL}(n, K)$*.
 

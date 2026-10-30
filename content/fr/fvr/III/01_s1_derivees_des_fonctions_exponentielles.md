@@ -101,7 +101,9 @@ ce qui prouve que $e^x$ est strictement croissante, et par suite que $e > 1$.
 
 Au § 2 (III, p. 15), nous verrons comment on peut calculer des valeurs aussi approchées qu’on veut du nombre $e$.
 
-DéFINITION 1. — Les logarithmes de base $e$ sont appelés logarithmes népériens (ou logarithmes naturels).
+#### Définition 1 {#fvr-iii-s1-def-1 .statement}
+
+Les logarithmes de base $e$ sont appelés logarithmes népériens (ou logarithmes naturels).
 
 On convient d’ordinaire d’omettre la base dans la notation d’un logarithme népérien. Sauf mention expresse du contraire, la notation $\log x$ ($x > 0$) désignera donc le logarithme népérien de x. Avec cette notation, la prop. 1 s’exprime par l’identité
 (4) $D(a^x) = (\log a)a^x$
@@ -111,7 +113,9 @@ Cette relation montre que $a^x$ a des dérivées de tout ordre, et qu’on a
 
 En particulier, pour tout $a > 0$ et $\neq 1$, on a $D^2(a^x) > 0$ pour tout $x \in \mathbf{R}$, et par suite $a^x$ est strictement convexe dans $\mathbf{R}$ (I, p. 39, corollaire). On en déduit la proposition suivante:
 
-**Proposition 2** (« inégalité de la moyenne géométrique »). — *Quels que soient les nombres* $z_i > 0$ ($1 \leq i \leq n$) *et les nombres* $p_i > 0$ *tels que* $\sum_{i=1}^n p_i = 1$, *on a*
+#### Proposition 2 (« inégalité de la moyenne géométrique ») {#fvr-iii-s1-prop-2 .statement}
+
+*Quels que soient les nombres* $z_i > 0$ ($1 \leq i \leq n$) *et les nombres* $p_i > 0$ *tels que* $\sum_{i=1}^n p_i = 1$, *on a*
 (6) $z_1^{p_1}z_2^{p_2}\ldots z_n^{p_n} \leq p_1z_1 + p_2z_2 + \cdots + p_nz_n.$
 *En outre les deux membres de* (6) *ne sont égaux que si tous les* $z_i$ *sont égaux*.
 

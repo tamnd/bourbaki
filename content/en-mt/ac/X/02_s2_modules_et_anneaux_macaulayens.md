@@ -219,7 +219,9 @@ $$
 
 In the rest of this number we shall say that a finitely generated module M over a noetherian local ring A is pure if, for every prime ideal p associated with M, one has dim(A/p) = dim(M). This also means that M has no embedded associated prime ideals and that the irreducible components of the support of M all have the same dimension. Every Macaulay module over a noetherian local ring is pure (No. 2, Prop. 2 and its corollary).
 
-Lemma 1:— Let A be a noetherian local ring, M a finitely generated and pure A-module, and x an element of mA. The following conditions are equivalent:
+#### Lemma 1 {#ac-x-s2-lem-1 .statement}
+
+— Let A be a noetherian local ring, M a finitely generated and pure A-module, and x an element of mA. The following conditions are equivalent:
 
 (i) one has dim(M/xM) = dim(M) − 1 ;
 (ii) the homothety xM is injective.

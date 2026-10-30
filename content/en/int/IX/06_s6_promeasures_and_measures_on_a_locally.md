@@ -1010,7 +1010,9 @@ Let E be a real Hilbert space, in which the scalar product is denoted $(x|y)$. T
 $$(64)$$
 $$(\mathscr{F}\mu)(x) = \int_{E} e^{i(x|y)} d\mu(y) \quad (x \in E).$$
 
-**Theorem 3** (Prokhorov–Sazonov) — *Let E be a Hilbert space and Es the space E equipped with the weakened topology. Let μ be a promeasure on E, and Φ its Fourier transform. The following conditions are equivalent*:
+#### Theorem 3 (Prokhorov–Sazonov) {#int-ix-s6-thm-3 .statement}
+
+*Let E be a Hilbert space and Es the space E equipped with the weakened topology. Let μ be a promeasure on E, and Φ its Fourier transform. The following conditions are equivalent*:
 
 a) *The function Φ is continuous on E for the Sazonov topology*.
 

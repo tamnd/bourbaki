@@ -512,7 +512,9 @@ $$
 
 d’après la prop. 4 de X, p. 67, $1 \otimes p_N$ et $p_M \otimes 1$ sont des homologismes. D’où :
 
-**Proposition 5. — Les $k$-homomorphismes**
+#### Proposition 5 {#alg-x-s4-prop-5 .statement}
+
+**Les $k$-homomorphismes**
 
 $$
 \begin{aligned}
@@ -523,11 +525,15 @@ $$
 
 sont *bijectifs*.
 
-**Corollaire. — Si $M$ ou $N$ est plat, $\mathrm{Tor}_i^A(M, N) = 0$ pour $i \geqslant 0$.**
+#### Corollaire {#alg-x-s4-n4-cor-3 .statement}
+
+**Si $M$ ou $N$ est plat, $\mathrm{Tor}_i^A(M, N) = 0$ pour $i \geqslant 0$.**
 
 Supposons $N$ (resp. $M$) plat ; alors $p_M \otimes 1 : L(M) \otimes_A N \to M \otimes_A N$ (resp. $1 \otimes p_N : M \otimes_A L(N) \to M \otimes_A N$) est un homologisme (X, p. 67, prop. 4), donc $H_i(L(M) \otimes_A N)$ (resp. $H_i(M \otimes_A L(N))$) est nul pour $i > 0$.
 
-*Remarque 3. — Si $g : N \to N'$ est un homomorphisme de A-modules à gauche, alors*
+#### Remarque 3 {#alg-x-s4-n4-rem-3 .statement}
+
+*Si $g : N \to N'$ est un homomorphisme de A-modules à gauche, alors*
 
 $$
 (1_{L(M)} \otimes g) \circ (1_{L(M)} \otimes 1_N) = (1_{L(M)} \otimes 1_N) \circ (1_{L(M)} \otimes L(g)) ,
@@ -555,7 +561,9 @@ $$
 \end{array}
 $$
 
-**Proposition 6. — L’application** $(f, g) \mapsto \mathrm{Tor}^A(f, g) :$
+#### Proposition 6 {#alg-x-s4-prop-6 .statement}
+
+**L’application** $(f, g) \mapsto \mathrm{Tor}^A(f, g) :$
 
 $$
 \mathrm{Hom}_A(M, M') \times \mathrm{Hom}_A(N, N') \to \mathrm{Hom}_k(\mathrm{Tor}^A(M, N), \mathrm{Tor}^A(M', N'))
@@ -1089,7 +1097,9 @@ $$
 
 $H(\varphi) \otimes H(\varphi')$ et $\gamma(H(C), H(C'))$ sont l’identité, d’où l’assertion.
 
-**Corollaire 3** (*formule des coefficients universels*). — *Supposons l’anneau $A$ principal. Si les complexes $C$ et $C'$ sont libres, les suites de $A$-modules (11) sont exactes et scindées ; si le complexe $C$ est libre, les suites de $A$-modules (13) sont exactes et scindées pour tout $A$-module $N$.*
+#### Corollaire 3 (formule des coefficients universels) {#alg-x-s4-lem-4-cor-3 .statement}
+
+*Supposons l’anneau $A$ principal. Si les complexes $C$ et $C'$ sont libres, les suites de $A$-modules (11) sont exactes et scindées ; si le complexe $C$ est libre, les suites de $A$-modules (13) sont exactes et scindées pour tout $A$-module $N$.*
 En effet, $B(C), Z(C)$ et $B(C')$ sont des sous-modules des modules libres $C, C, C'$, donc sont libres (VII, § 3, cor. 2 au th. 1), et on applique le cor. 2.
 
 #### Corollaire 4 (« formule de Künneth ») {#alg-x-s4-lem-4-cor-4 .statement}

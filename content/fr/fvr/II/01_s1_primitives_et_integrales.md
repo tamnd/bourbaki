@@ -173,7 +173,9 @@ En effet, elle satisfait de façon évidente aux conditions du th. 3 de II, p. 5
 
 On voit ainsi que si $f$ est une fonction vectorielle réglée dans $I$, la fonction numérique $x \mapsto \|f(x)\|$ est aussi réglée. De même, les fonctions numériques réglées dans $I$ forment un anneau; en outre, si $f$ et $g$ sont deux fonctions numériques réglées, $\sup(f, g)$ et $\inf(f, g)$ sont réglées.
 
-Remarque — 1.) Si $f$ est une fonction numérique réglée dans $I$, $g$ une fonction vectorielle réglée dans un intervalle contenant $f(I)$, la fonction composée $g \circ f$ n’est pas nécessairement réglée (cf. II, p. 29, exerc. 4).
+#### Remarque {#fvr-ii-s1-n3-rem-1 .statement}
+
+1.) Si $f$ est une fonction numérique réglée dans $I$, $g$ une fonction vectorielle réglée dans un intervalle contenant $f(I)$, la fonction composée $g \circ f$ n’est pas nécessairement réglée (cf. II, p. 29, exerc. 4).
 
 Deux cas particuliers du th. 3 de II, p. 5 sont spécialement importants:
 
@@ -323,7 +325,9 @@ Si on prend par exemple $f(x) = x^2$, on voit que la formule (13) ramène l’un
 
 Pour traduire le th. des accroissements finis (I, p. 23, th. 1) pour les primitives de fonctions numériques réglées, remarquons d’abord qu’une fonction numérique réglée f dans un intervalle compact I est bornée dans I; soit J l’ensemble des points de I où f est *continue*, et posons $m = \inf_{x \in J} f(x)$, $M = \sup_{x \in J} f(x)$; on sait (II, p. 5, th. 3) que $I \cap \complement J$ est dénombrable; en outre, si B est le complémentaire, par rapport à I, d’une partie dénombrable quelconque de I, et $m' = \inf_{x \in B} f(x)$, $M' = \sup_{x \in B} f(x)$, on a $m' \leq m \leq M \leq M'$: en effet, en tout point $x \in J$, il existe des points y de B arbitrairement voisins de x, où on a donc $m' \leq f(y) \leq M'$; f étant continue au point x, on voit, en faisant tendre y vers x (y restant dans B) que $m' \leq f(x) \leq M'$, ce qui démontre notre assertion. Cela étant, la traduction du th. des accroissements finis donne la proposition suivante:
 
-**Proposition 6** (théorème de la moyenne). — *Soit f une fonction numérique réglée dans un intervalle compact I = (a, b); si J est l’ensemble des points de I où f est continue, et $m = \inf_{x \in J} f(x)$, $M = \sup_{x \in J} f(x)$, on a*
+#### Proposition 6 (théorème de la moyenne) {#fvr-ii-s1-prop-6 .statement}
+
+*Soit f une fonction numérique réglée dans un intervalle compact I = (a, b); si J est l’ensemble des points de I où f est continue, et $m = \inf_{x \in J} f(x)$, $M = \sup_{x \in J} f(x)$, on a*
 
 $$
 m < \frac{1}{b - a} \int_a^b f(t)\,dt < M

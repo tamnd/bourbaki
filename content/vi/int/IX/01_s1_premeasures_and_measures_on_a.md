@@ -382,7 +382,9 @@ Trong số các tính chất của các hàm đo được hoặc các tập đo 
 
 ### 6. Các họ có hướng; giá của một độ đo
 
-**Mệnh đề 5. — a)** *Cho H là một tập có hướng tăng các hàm $\geqslant 0$ nửa liên tục dưới trên mọi tập con compact của T. Khi đó*
+#### Mệnh đề 5 {#int-ix-s1-prop-5 .statement}
+
+**a)** *Cho H là một tập có hướng tăng các hàm $\geqslant 0$ nửa liên tục dưới trên mọi tập con compact của T. Khi đó*
 
 $$
 \mu^\bullet \left( \sup_{h \in H} h \right) = \sup_{h \in H} \mu^\bullet(h).

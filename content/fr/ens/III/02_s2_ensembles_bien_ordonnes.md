@@ -178,7 +178,9 @@ On peut alors appliquer à l’ensemble des $U = \mathrm{pr}_1 G$ (pour $G \in \
 
 On notera que si $\varnothing \notin \mathfrak{S}$ (et en particulier si $\mathfrak{S}$ est vide), l’ensemble M dont l’existence est affirmée par le lemme 3 est l’ensemble vide, comme le montre la condition 1° de l’énoncé.
 
-**Théorème 1 (Zermelo).** — *Sur tout ensemble E il existe un bon ordre.*
+#### Théorème 1 (Zermelo) {#ens-iii-s2-thm-1 .statement}
+
+— *Sur tout ensemble E il existe un bon ordre.*
 
 Soit $\mathfrak{S} = \mathfrak{P}(E) - \{E\}$ l’ensemble des parties de E distinctes de E; pour tout $X \in \mathfrak{S}$, posons $p(X) = \tau_x(x \in E - X)$; comme la relation $X \in \mathfrak{S}$ entraîne $(\exists x)(x \in E - X)$, elle entraîne par définition $p(X) \in E - X$ (I, p. 32), donc $p(X) \notin X$. On peut alors appliquer le lemme 3; il existe par suite un bon ordre sur une partie M de E telle que $M \notin \mathfrak{S}$; mais la seule partie de E n’appartenant pas à $\mathfrak{S}$ est E, d’où le théorème.
 

@@ -241,12 +241,18 @@ On a $[C : K] = [A : K] \cdot [B : K]$ et la formule analogue (7) pour les degr�
 *Soit $A$ une algèbre commutative de degré fini sur $K$. Pour que $A$ soit étale, il faut et il suffit que le module $\Omega_K(A)$ des $K$-différentielles de $A$ soit réduit à 0.*
     *A)* Soit $L$ une clôture algébrique de $K$ (V, p. 22, th. 2). Pour que $A$ soit étale, il faut et il suffit que l’algèbre $A_{(L)}$ sur $L$ soit diagonalisable (V, p. 29, prop. 2). De plus, le $A$-module $\Omega_L(A_{(L)})$ est isomorphe à $\Omega_K(A) \otimes_A A_{(L)}$ (III, p. 136, prop. 20), donc à $\Omega_K(A) \otimes_K L$ d’après l’associativité du produit tensoriel ; par suite, $\Omega_K(A) = 0$ équivaut à $\Omega_L(A_{(L)}) = 0$. Pour prouver le th. 3, il suffit donc de considérer le cas où $K$ est algébriquement clos et de montrer que l’algèbre $A$ est diagonalisable si et seulement si l’on a $\Omega_K(A) = 0$.
     *B)* Supposons $A$ diagonalisable ; alors (V, p. 28, prop. 1), l’espace vectoriel $A$ est engendré par les idempotents de $A$. L’assertion $\Omega_K(A) = 0$ résulte alors du lemme suivant :
-    *Lemme 2.* — *Soient $A$ une algèbre commutative sur $K$ et $e$ un idempotent de $A$. On a $de = 0$ dans $\Omega_K(A)$.*
+#### Lemme 2 {#alg-v-s6-lem-2 .statement}
+
+*Soient $A$ une algèbre commutative sur $K$ et $e$ un idempotent de $A$. On a $de = 0$ dans $\Omega_K(A)$.*
     De la relation $e = e^2$, on déduit $de = 2e.de$; par multiplication par $e$, on en déduit $e.de = 2e^2.de = 2e.de$, d’où $e.de = 0$. Finalement, on a $de = 2e.de = 0$.
     *C)* Nous démontrerons d’abord deux lemmes :
-    *Lemme 3.* — *Soit $A$ une algèbre commutative de degré fini sur le corps algébriquement clos $K$, telle que $\Omega_K(A) = 0$. On a $m = m^2$ pour tout idéal maximal $m$ de $A$.*
+#### Lemme 3 {#alg-v-s6-lem-3 .statement}
+
+*Soit $A$ une algèbre commutative de degré fini sur le corps algébriquement clos $K$, telle que $\Omega_K(A) = 0$. On a $m = m^2$ pour tout idéal maximal $m$ de $A$.*
     L’algèbre $A/m$ est une extension de degré fini du corps algébriquement clos $K$, d’où $[A/m : K] = 1$. Pour tout $a \in A$, il existe donc un unique scalaire $\lambda$ tel que $a - \lambda.1$ appartienne à $m$; notons $D(a)$ la classe de $a - \lambda.1$ modulo $m^2$. Il est immédiat que $D$ est une $K$-dérivation de $A$ dans le $A$-module $m/m^2$. La propriété universelle de $\Omega_K(A)$ (III, p. 134) et l’hypothèse $\Omega_K(A) = 0$ entraînent $D = 0$, d’où $m/m^2 = 0$ et finalement $m = m^2$.
-    *Lemme 4.* — *Soit $A$ un anneau commutatif et soit $a$ un idéal de type fini de $A$ tel que $a = a^2$. Il existe un idempotent $e$ de $A$ tel que $a = Ae$.*
+#### Lemme 4 {#alg-v-s6-lem-4 .statement}
+
+*Soit $A$ un anneau commutatif et soit $a$ un idéal de type fini de $A$ tel que $a = a^2$. Il existe un idempotent $e$ de $A$ tel que $a = Ae$.*
 
 Soit $(a_1, \ldots, a_r)$ un système générateur de l’idéal $a$; comme on $a a = a^2$, il existe des éléments $x_{ij}$ de $a$ tels que $a_i = \sum_{j=1}^r x_{ij} a_j$ pour $1 \leq i \leq r$. Notons $M$ la matrice carrée d’ordre $r$ dont les éléments sont $\delta_{ij} - x_{ij}$ et soit $D$ son déterminant. Il existe (III, p. 99, formule (26)) une matrice carrée $N$ d’ordre $r$ à éléments dans $A$ telle que $N.M = D.I_r$, d’où immédiatement $Da_j = 0$ pour $1 \leq j \leq r$ et finalement $Da = 0$. Or la matrice $M$ est congrue à $I_r$ modulo $a$, d’où $D \equiv 1$ mod. $a$. Posons $e = 1 - D$; on a $e \in a$ et $ex = x$ pour tout $x \in a$. On en déduit que $e$ est un idempotent et que $a$ est égal à $Ae$.
 

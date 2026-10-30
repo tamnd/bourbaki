@@ -176,13 +176,21 @@ Từ nay trở đi, nói chung ta sẽ để cho người đọc công việc th
 
 Các ví dụ về vành định giá được cho ở § 1, no. 4 cung cấp cho ta *Ví dụ 1 đến 4* dưới đây:
 
-Ví dụ (1) Mọi định giá trên một trường hữu hạn F đều là tầm thường, vì mọi phần tử của F* đều là một căn của đơn vị.
+#### Ví dụ (1) {#ac-vi-s3-n4-exa-1 .statement}
 
-Ví dụ (2) Nếu K là một trường con của một trường K', thì hạn chế lên K của một định giá trên K' là một định giá trên K.
+Mọi định giá trên một trường hữu hạn F đều là tầm thường, vì mọi phần tử của F* đều là một căn của đơn vị.
 
-Ví dụ (3) Cho k là một trường và K = k((T)). Ánh xạ v gán cho mỗi chuỗi lũy thừa hình thức khác không bậc của nó (Đại số, Chương IV, § 5, no. 7) là một định giá trên K mà nhóm giá trị là Z và vành của nó là k[[T]]. Điểm tương ứng là đồng cấu chính tắc f: k[[T]] → k được mở rộng lên k((T)) bằng cách đặt f(u) = ∞ nếu u ∉ k[[T]].
+#### Ví dụ (2) {#ac-vi-s3-n4-exa-2 .statement}
 
-Ví dụ (4) Cho A là một miền iđêan chính, K là trường phân thức của nó và p là một phần tử bất khả quy của A. Với x ∈ K* hãy ký hiệu v_p(x) là số mũ của p trong phân tích của x thành các phần tử bất khả quy (Đại số, Chương VII, § 1, no. 3, Định lý 2); hiển nhiên thấy rằng v_p là một định giá mà nhóm giá trị là Z và vành của nó là A_{A_p}. Theo Mệnh đề 3 của § 1, no. 4 ta do đó thu được, tới tương đương, mọi định giá trên K không tầm thường và dương trên A. Lấy A = Z ta thu lại các định giá p-adic trên Q (Tôpô đại cương, Chương IX, § 3, no. 2); những định giá này, tới tương đương, là những định giá duy nhất trên Q không tầm thường (§ 1, no. 4, Hệ quả 1 của Mệnh đề 3). Lấy A = k[X], với k là một trường, các định giá không tầm thường trên k(X) mà các hạn chế lên k là tầm thường là (tới tương đương): một mặt là các định giá v_P, với P chạy qua tập các đa thức bất khả quy đơn nhất của k[X], và mặt khác là định giá v được xác định bởi
+Nếu K là một trường con của một trường K', thì hạn chế lên K của một định giá trên K' là một định giá trên K.
+
+#### Ví dụ (3) {#ac-vi-s3-n4-exa-3 .statement}
+
+Cho k là một trường và K = k((T)). Ánh xạ v gán cho mỗi chuỗi lũy thừa hình thức khác không bậc của nó (Đại số, Chương IV, § 5, no. 7) là một định giá trên K mà nhóm giá trị là Z và vành của nó là k[[T]]. Điểm tương ứng là đồng cấu chính tắc f: k[[T]] → k được mở rộng lên k((T)) bằng cách đặt f(u) = ∞ nếu u ∉ k[[T]].
+
+#### Ví dụ (4) {#ac-vi-s3-n4-exa-4 .statement}
+
+Cho A là một miền iđêan chính, K là trường phân thức của nó và p là một phần tử bất khả quy của A. Với x ∈ K* hãy ký hiệu v_p(x) là số mũ của p trong phân tích của x thành các phần tử bất khả quy (Đại số, Chương VII, § 1, no. 3, Định lý 2); hiển nhiên thấy rằng v_p là một định giá mà nhóm giá trị là Z và vành của nó là A_{A_p}. Theo Mệnh đề 3 của § 1, no. 4 ta do đó thu được, tới tương đương, mọi định giá trên K không tầm thường và dương trên A. Lấy A = Z ta thu lại các định giá p-adic trên Q (Tôpô đại cương, Chương IX, § 3, no. 2); những định giá này, tới tương đương, là những định giá duy nhất trên Q không tầm thường (§ 1, no. 4, Hệ quả 1 của Mệnh đề 3). Lấy A = k[X], với k là một trường, các định giá không tầm thường trên k(X) mà các hạn chế lên k là tầm thường là (tới tương đương): một mặt là các định giá v_P, với P chạy qua tập các đa thức bất khả quy đơn nhất của k[X], và mặt khác là định giá v được xác định bởi
 
 $$
 v(P/Q) = \deg(Q) - \deg(P)
@@ -190,11 +198,15 @@ $$
 
 cho P ∈ k[X] và Q ∈ k[X] (§ 1, no. 4, Hệ quả 2 của Mệnh đề 3); tất cả những định giá này hiển nhiên có Z làm nhóm giá trị và các trường thặng dư của chúng là các mở rộng đại số đơn sinh của k (Đại số, Chương V, § 3, no. 1).
 
-Ví dụ (5) Ánh xạ P(X, Y) ↦ P(T, e^T) từ C[X, Y] vào C((T)) là đơn ánh (Hàm của một biến thực, Chương IV, §2, Mệnh đề 9) và do đó có thể được mở rộng thành một đẳng cấu từ C(X, Y) lên một trường con của C((T)). Hạn chế của định giá trên C((T)) được xác định trong Ví dụ 3 lên trường con này xác định một định giá trên C(X, Y) là tầm thường trên C, mà nhóm giá trị là Z và trường thặng dư của nó là C.
+#### Ví dụ (5) {#ac-vi-s3-n4-exa-5 .statement}
+
+Ánh xạ P(X, Y) ↦ P(T, e^T) từ C[X, Y] vào C((T)) là đơn ánh (Hàm của một biến thực, Chương IV, §2, Mệnh đề 9) và do đó có thể được mở rộng thành một đẳng cấu từ C(X, Y) lên một trường con của C((T)). Hạn chế của định giá trên C((T)) được xác định trong Ví dụ 3 lên trường con này xác định một định giá trên C(X, Y) là tầm thường trên C, mà nhóm giá trị là Z và trường thặng dư của nó là C.
 
 Mệnh đề 4 của no. 2 cho phép ta xây dựng một định giá mà nhóm giá trị và trường thặng dư của nó được cho trước:
 
-Ví dụ (6) Cho Γ là một nhóm được sắp thứ tự toàn phần và k là một trường. Gọi Γ_+ là monoid các phần tử dương của Γ và C là đại số của Γ_+ trên k. Theo định nghĩa, C có một cơ sở (x_\alpha)_{\alpha \in \Gamma_-} trên k mà bảng phép nhân là x_\alpha x_\beta = x_{\alpha + \beta}. Nếu $x = \sum a_\alpha x_\alpha$ là một phần tử khác không của C, ta viết $v(x) = \inf_{a_\alpha \neq 0} (a)$ và $v(0) = +\infty$; kiểm tra ngay lập tức được rằng ánh xạ $v$ từ $C$ vào $\Gamma_\infty$ thỏa mãn các điều kiện (VL_I) và (VL_{II}) của no. 1 và rằng $C$ là một miền nguyên. Gọi $K$ là trường phân thức của $C$ và $w$ là định giá trên $K$ mở rộng $v$ (Mệnh đề 4, no. 2). Vì mọi phần tử của $\Gamma$ là hiệu của hai phần tử dương, $w$ nhận $\Gamma$ làm nhóm có thứ tự. Gọi $A$ là vành của $w$ và $m$ là iđêan cực đại của nó; ta sẽ chỉ ra rằng $A$ là tổng trực tiếp của $m$ và $k$ (được đồng nhất với $k \cdot 1$), điều này sẽ chứng minh rằng trường thặng dư của $w$ đẳng cấu với $k$. Rõ ràng $m \cap k = (0)$. Mặt khác, ký hiệu bởi $p$ iđêan của $C$ sinh bởi các $x_a$ với $a > 0$, mọi phần tử $x$ có định giá 0 trong $K$ có thể viết dưới dạng $(a + y)/(b + z)$ trong đó $a \in k^*, b \in k^*, y \in p$ và $z \in p$; khi đó
+#### Ví dụ (6) {#ac-vi-s3-n4-exa-6 .statement}
+
+Cho Γ là một nhóm được sắp thứ tự toàn phần và k là một trường. Gọi Γ_+ là monoid các phần tử dương của Γ và C là đại số của Γ_+ trên k. Theo định nghĩa, C có một cơ sở (x_\alpha)_{\alpha \in \Gamma_-} trên k mà bảng phép nhân là x_\alpha x_\beta = x_{\alpha + \beta}. Nếu $x = \sum a_\alpha x_\alpha$ là một phần tử khác không của C, ta viết $v(x) = \inf_{a_\alpha \neq 0} (a)$ và $v(0) = +\infty$; kiểm tra ngay lập tức được rằng ánh xạ $v$ từ $C$ vào $\Gamma_\infty$ thỏa mãn các điều kiện (VL_I) và (VL_{II}) của no. 1 và rằng $C$ là một miền nguyên. Gọi $K$ là trường phân thức của $C$ và $w$ là định giá trên $K$ mở rộng $v$ (Mệnh đề 4, no. 2). Vì mọi phần tử của $\Gamma$ là hiệu của hai phần tử dương, $w$ nhận $\Gamma$ làm nhóm có thứ tự. Gọi $A$ là vành của $w$ và $m$ là iđêan cực đại của nó; ta sẽ chỉ ra rằng $A$ là tổng trực tiếp của $m$ và $k$ (được đồng nhất với $k \cdot 1$), điều này sẽ chứng minh rằng trường thặng dư của $w$ đẳng cấu với $k$. Rõ ràng $m \cap k = (0)$. Mặt khác, ký hiệu bởi $p$ iđêan của $C$ sinh bởi các $x_a$ với $a > 0$, mọi phần tử $x$ có định giá 0 trong $K$ có thể viết dưới dạng $(a + y)/(b + z)$ trong đó $a \in k^*, b \in k^*, y \in p$ và $z \in p$; khi đó
 
 $$
 x = ab^{-1} + (by - az)b^{-1}(b + z)^{-1}

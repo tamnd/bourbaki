@@ -504,14 +504,18 @@ $$
 T_{f \circ g} = T_f \circ T_g .
 $$
 
-**Proposition 10. — Soit $f \in A\{I\}$. Les conditions suivantes sont équivalentes :**
+#### Proposition 10 {#alg-iv-s4-prop-10 .statement}
+
+**Soit $f \in A\{I\}$. Les conditions suivantes sont équivalentes :**
 
 (i) $f$ est inversible dans $A\{I\}$ pour la loi $\circ$ :
 (ii) $T_f$ est inversible dans l’anneau $\mathrm{End}(A^{(I)})$.
 
 L’implication (i) $\Rightarrow$ (ii) résulte aussitôt de (28). Supposons $T_f$ inversible dans $\mathrm{End}(A^{(I)})$. Il existe $g = (g_i)_{i \in I} \in A\{I\}$ tel que chaque $g_i$ soit homogène de degré 1 et que $T_g \circ T_f$ soit l’application identique de $A^{(I)}$. Posons $h = g \circ f$; la formule (28) montre que $T_h$ est l’application identique de $A^{(I)}$, ce qui équivaut à $\omega(h_i - X_i) \geq 2$. D’après le lemme 2 de IV, p. 33, $h$ est donc inversible dans $A\{I\}$. Il est clair que $g$ est inversible dans $A\{I\}$. Donc $f$ est inversible dans $A\{I\}$.
 
-**Corollaire. — Soient $f_i(Y_1, Y_2, ..., Y_q, X_1, X_2, ..., X_p)$ ($1 \leq i \leq q$) q séries formelles sans terme constant dans $A[[Y_1, ..., Y_q, X_1, ..., X_p]]$. Si le terme constant de la série formelle $D = \det \left( \frac{\partial f_i}{\partial Y_j} \right)$ est inversible dans $A$, il existe un système et un seul de q séries formelles sans terme constant $u_1(X_1, ..., X_p), ..., u_q(X_1, ..., X_p)$ telles que
+#### Corollaire {#alg-iv-s4-n7-cor-1 .statement}
+
+**Soient $f_i(Y_1, Y_2, ..., Y_q, X_1, X_2, ..., X_p)$ ($1 \leq i \leq q$) q séries formelles sans terme constant dans $A[[Y_1, ..., Y_q, X_1, ..., X_p]]$. Si le terme constant de la série formelle $D = \det \left( \frac{\partial f_i}{\partial Y_j} \right)$ est inversible dans $A$, il existe un système et un seul de q séries formelles sans terme constant $u_1(X_1, ..., X_p), ..., u_q(X_1, ..., X_p)$ telles que
 
 $$(29)$$
 $$

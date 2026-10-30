@@ -148,7 +148,9 @@ To show that the condition is necessary, it is sufficient, by virtue of Proposit
 
 Conversely, suppose that every open set of $X$ is quasi-compact and let $(U_i)$ be an increasing sequence of open subsets of $X$. The union $V$ of the $U_i$ is open and hence quasi-compact; as $(U_i)$ is an open covering of $V$, there is a finite subfamily of $(U_i)$ which is a covering of $V$ and hence $V = U_n$ for some index $n$, which proves that the sequence $(U_i)$ is stationary.
 
-**Lemma 1 ("Principle of Noetherian induction").** *Let E be an ordered set every non-empty subset of which admits a minimal element. Let F be a subset of E with the following property : if $a \in E$ is such that the relation $x < a$ implies $x \in F$, then $a \in F$. Then $F = E$.*
+#### Lemma 1 ("Principle of Noetherian induction") {#ac-ii-s4-lem-1 .statement}
+
+*Let E be an ordered set every non-empty subset of which admits a minimal element. Let F be a subset of E with the following property : if $a \in E$ is such that the relation $x < a$ implies $x \in F$, then $a \in F$. Then $F = E$.*
 
 Suppose $F \neq E$; then $CF$ would have a minimal element $b$. By definition, $x \in F$ for all $x < b$, which implies that $b \in F$, which is a contradiction.
 

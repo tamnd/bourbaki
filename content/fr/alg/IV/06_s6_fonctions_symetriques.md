@@ -358,24 +358,32 @@ $$
 
 tel que $\varphi_I(S_k) = s_k$ pour tout entier $k \geq 1$.
 
-**Théorème 2. — a)** *Si I est un ensemble fini à n éléments, $\varphi_1$ induit un isomorphisme bicontinu de $A[[S_1, ..., S_n]]$ sur $A[[X]]^{sym}$.*
+#### Théorème 2 {#alg-iv-s6-thm-2 .statement}
+
+**a)** *Si I est un ensemble fini à n éléments, $\varphi_1$ induit un isomorphisme bicontinu de $A[[S_1, ..., S_n]]$ sur $A[[X]]^{sym}$.*
 
 *b)* *Si I est infini, $\varphi_1$ est un isomorphisme bicontinu de $A[[S]]$ sur $A[[X]]^{sym}$.*
 
 Dans le cas a), on pose $B = A[[S_1, ..., S_n]]$ et on munit cette algèbre de la topologie induite par celle de $A[[S]]$; on note aussi $\psi_1$ la restriction de $\varphi_1$ à B. Dans le cas b), on pose $B = A[[S]]$ et $\psi_1 = \varphi_1$. On munit l’algèbre de polynômes $A[S]$ de la graduation de type $\mathbf{N}$ pour laquelle $S_k$ est de poids $k$ pour tout entier $k \geqslant 1$.
 
-*Lemme 1. — Soient J une partie finie de I, r un entier tel que Card J $\geqslant r$, et f une série formelle symétrique homogène de degré r en les $X_i$ ($i \in I$). Soit $\overline{f}$ la série formelle obtenue en substituant 0 à $X_i$ pour tout i dans I — J. Si $\overline{f} = 0$, on a $f = 0$.
+#### Lemme 1 {#alg-iv-s6-lem-1 .statement}
+
+*Soient J une partie finie de I, r un entier tel que Card J $\geqslant r$, et f une série formelle symétrique homogène de degré r en les $X_i$ ($i \in I$). Soit $\overline{f}$ la série formelle obtenue en substituant 0 à $X_i$ pour tout i dans I — J. Si $\overline{f} = 0$, on a $f = 0$.
 
 Posons $f = \sum_{|\alpha|=r} a_\alpha X^\alpha$ (où $|\alpha|$ est la longueur $\sum_{i \in I} \alpha_i$ du multiindice $\alpha = (\alpha_i)_{i \in I}$).
 Soit $\alpha$ un multiindice de longueur $r$, et soit J’ le support de $\alpha$ (ensemble des $i \in I$ tels que $\alpha_i \neq 0$). On a Card J’ $\leqslant r$, donc il existe une permutation $\sigma \in \mathfrak{S}_I$ telle que $\sigma(J') \subset J$. Posons $\beta_i = \alpha_{\sigma^{-1}(i)}$ pour $i \in I$. Le monôme $X^\beta = \prod_{i \in I} X_{\sigma(i)}^{\alpha_i}$ ne dépend que des indéterminées $X_j$ ($j \in J$), d’où $a_\beta = 0$ d’après l’hypothèse $\overline{f} = 0$. Comme $f$ est symétrique, on a $a_\alpha = a_\beta$. Vu l’arbitraire de $\alpha$, on a donc $f = 0$.
 
-*Lemme 2. — Soit f une série formelle symétrique homogène de degré r en les $X_i$ ($i \in I$). Il existe un unique polynôme $P \in B \cap A[S]$, isobare de poids r, tel que $f = \psi_1(P)$.
+#### Lemme 2 {#alg-iv-s6-lem-2 .statement}
+
+*Soit f une série formelle symétrique homogène de degré r en les $X_i$ ($i \in I$). Il existe un unique polynôme $P \in B \cap A[S]$, isobare de poids r, tel que $f = \psi_1(P)$.
 
 Le cas où I est fini résulte du th. 1 (IV, p. 58).
 
 Supposons I infini et choisissons une partie finie J de I à r éléments. Reprenons les notations du lemme 1. Remarquons que tout polynôme isobare de poids r en les $S_n$ ($n \geqslant 1$) ne dépend que de $S_1, ..., S_r$, et que $\overline{s}_1, ..., \overline{s}_r$ sont les polynômes symétriques élémentaires en les r indéterminées $X_j$ ($j \in J$). Si P est un polynôme isobare de poids r en les $S_n$, et $h = f - \psi_1(P)$, on a $\overline{h} = \overline{f} - P(\overline{s}_1, ..., \overline{s}_r)$, et le lemme 1 montre que la relation $f = \psi_1(P)$ équivaut à $\overline{f} = P(\overline{s}_1, ..., \overline{s}_r)$. D’après le th. 1 (IV, p. 58), il existe un unique polynôme $P \in A[S]$ isobare de poids r tel que $\overline{f} = P(\overline{s}_1, ..., \overline{s}_r)$, d’où le lemme.
 
-*Lemme 3. — Pour tout entier $m \geqslant 0$, soit $c_m$ l’idéal de l’algèbre $A[[X]]^{sym}$ formé des séries formelles symétriques d’ordre $\geqslant m$. La suite $(c_m)_{m \geqslant 0}$ est un système fondamental de voisinages de 0 dans $A[[X]]^{sym}$.
+#### Lemme 3 {#alg-iv-s6-lem-3 .statement}
+
+*Pour tout entier $m \geqslant 0$, soit $c_m$ l’idéal de l’algèbre $A[[X]]^{sym}$ formé des séries formelles symétriques d’ordre $\geqslant m$. La suite $(c_m)_{m \geqslant 0}$ est un système fondamental de voisinages de 0 dans $A[[X]]^{sym}$.
 
 Le lemme est immédiat si I est fini. Supposons désormais I infini. Pour toute partie finie J de I, à m éléments, on note $\tilde{J}$ l’ensemble des éléments de $\mathbf{N}^{(I)}$ de longueur $< m$ et de support contenu dans J. On note aussi $\alpha'_j$ l’ensemble des séries formelles ne contenant aucun terme de la forme $aX^\alpha$ avec $\alpha \in \tilde{J}$. Comme $\tilde{J}$ est une partie finie de $\mathbf{N}^{(I)}$, et que toute partie finie de $\mathbf{N}^{(I)}$ est contenue dans un ensemble de la forme $\tilde{J}$, la famille $(\alpha'_j)$ est une base de voisinages de 0 dans $A[[X]]$ (IV, p. 24). Or le lemme 1 entraîne la relation $\alpha'_j \cap A[[X]]^{sym} = c_m$ pour toute partie J à m éléments. Ceci prouve le lemme 3.
 
@@ -484,7 +492,9 @@ $$
 
 tel que $\lambda_1(P_k) = p_k$ pour tout entier $k \geq 1$ (IV, p. 27). Si l’on munit $P_k$ du poids $k$, $\lambda_1$ transforme un polynôme isobare de poids $n$ en les $P_k$ en une série formelle homogène de degré $n$ en les $X_i$.
 
-**Proposition 3. — a)** *Si I est un ensemble fini à n éléments et si $n!.1$ est inversible dans $A$, $\lambda_1$ induit un isomorphisme bicontinu de $A[[P_1, ..., P_n]]$ sur $A[[X]]^{sym}$.
+#### Proposition 3 {#alg-iv-s6-prop-3 .statement}
+
+**a)** *Si I est un ensemble fini à n éléments et si $n!.1$ est inversible dans $A$, $\lambda_1$ induit un isomorphisme bicontinu de $A[[P_1, ..., P_n]]$ sur $A[[X]]^{sym}$.
 
 b) *Si I est infini et si A est une Q-algèbre, $\lambda_1$ est un isomorphisme bicontinu de $A[[P]]$ sur $A[[X]]^{sym}$.
 
@@ -496,7 +506,9 @@ p_k = (-1)^{k+1} k s_k + g_k(s_1, ..., s_n) \quad (1 \leq k \leq n) .
 $$
 Comme $k!.1$ est inversible dans $A$, le lemme 2 de IV, p. 33, prouve l’existence d’un automorphisme $T$ de la $A$-algèbre topologique $A[[X]]^{sym}$ qui transforme $s_k$ en $p_k$ pour $1 \leq k \leq n$. La prop. 3, a) résulte aussitôt de là.
 
-**Corollaire. — Soient $\xi_1, ..., \xi_n, \eta_1, ..., \eta_n$ des éléments de $A$. On suppose que $A$ est intègre.
+#### Corollaire {#alg-iv-s6-n4-cor-1 .statement}
+
+**Soient $\xi_1, ..., \xi_n, \eta_1, ..., \eta_n$ des éléments de $A$. On suppose que $A$ est intègre.
 
 a) *Si l’on a $s_k(\xi_1, ..., \xi_n) = s_k(\eta_1, ..., \eta_n)$ pour $1 \leq k \leq n$, il existe une permutation $\sigma \in S_n$ telle que $\eta_i = \xi_{\sigma(i)}$ pour $1 \leq i \leq n$.
 

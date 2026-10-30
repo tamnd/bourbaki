@@ -467,7 +467,9 @@ a) In fact, “ $\operatorname{prof}_A(M) = 0$ ” is equivalent to “ $m_A \in
 
 b) In fact, “ $dp_A(M) = 0$ ” is equivalent to “ $M$ is free ”.
 
-COROLLARY 2.: Retain the hypotheses of theorem 1 and suppose moreover that $A$ is a Macaulay ring. Then $dp_A(M)$ is the sum of the two positive integers $\dim(A) - \dim_A(M)$ and $\dim_A(M) - \operatorname{prof}(M)$.
+#### Corollary 2 {#ac-x-s3-thm-1-cor-2 .statement}
+
+Retain the hypotheses of theorem 1 and suppose moreover that $A$ is a Macaulay ring. Then $dp_A(M)$ is the sum of the two positive integers $\dim(A) - \dim_A(M)$ and $\dim_A(M) - \operatorname{prof}(M)$.
 
 In particular, $dp_A(M)$ is then greater than $\dim(A) - \dim_A(M)$, and there is equality if and only if $M$ is Cohen-Macaulay.
 

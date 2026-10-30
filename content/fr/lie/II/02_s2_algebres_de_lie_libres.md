@@ -217,7 +217,9 @@ $$
 $$
 (A, III, p. 31, Exemple 3).
 
-**Lemme 1. — L’idéal a de la définition 1 est gradué.**
+#### Lemme 1 {#lie-ii-s2-lem-1 .statement}
+
+**L’idéal a de la définition 1 est gradué.**
 
 Pour $a, b$ dans $\mathrm{Lib}(X)$, posons $B(a, b) = a.b + b.a$. Les formules
 (10)

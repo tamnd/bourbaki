@@ -528,7 +528,9 @@ En effet le polynôme minimal divise le polynôme caractéristique.
 (iii) Les éléments de $\mathfrak{F}$ sont diagonalisables et deux à deux permutables.*
 Si $(e_i)$ est une base de $E$ par rapport à laquelle $\mathfrak{F}$ est diagonal, alors $A$ est contenu dans l’algèbre des endomorphismes diagonaux par rapport à cette base, donc est aussi diagonalisable; si $A$ est diagonalisable, le même raisonnement montre que $\mathfrak{F}$ est diagonalisable. Cela montre l’équivalence de (i) et (ii). Comme deux matrices diagonales sont permutables, on a (i) $\Rightarrow$ (iii) et il reste à prouver la réciproque. Supposons donc les éléments de $\mathfrak{F}$ diagonalisables et deux à deux permutables. Nous utiliserons le lemme suivant :
 
-*Lemme 3. — Soient $g$ et $h$ deux endomorphismes permutables d’un espace vectoriel $E$. Tout sous-espace propre de $g$ est stable pour $h$.
+#### Lemme 3 {#alg-vii-s5-lem-3 .statement}
+
+*Soient $g$ et $h$ deux endomorphismes permutables d’un espace vectoriel $E$. Tout sous-espace propre de $g$ est stable pour $h$.
 En effet, si $W_\lambda$ est le sous-espace propre de $g$ relatif à la valeur propre $\lambda$, la relation $x \in W_\lambda$ entraîne
 $$
 gh.x = hg.x = h.\lambda x = \lambda h.x,

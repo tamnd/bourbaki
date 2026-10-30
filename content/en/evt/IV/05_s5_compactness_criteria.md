@@ -139,7 +139,9 @@ Let $(x'_i)_{i \in I}$ be a basis of the vector space E' over the field K. The m
 
 Since the topology of $E_\sigma$ is induced by that of ${E'_\sigma}^*$, the subset $\overline{A}$ of $E_\sigma$ is compact, and th. 1 follows.
 
-**Theorem 2 (Šmulian).** — *Let E be a Fréchet space and A a subset of E. Let $E_\sigma$ denote the space E endowed with the weakened topology. The following conditions are equivalent* :
+#### Theorem 2 (Šmulian) {#evt-iv-s5-thm-2 .statement}
+
+— *Let E be a Fréchet space and A a subset of E. Let $E_\sigma$ denote the space E endowed with the weakened topology. The following conditions are equivalent* :
 
 (i) *A is relatively compact in $E_\sigma$;*
 (ii) *every infinite sequence of points of A has a limit point in $E_\sigma$;*

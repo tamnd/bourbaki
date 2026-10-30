@@ -510,7 +510,9 @@ $$
 
 theo Mệnh đề 4 của X, p. 67, $1 \otimes p_N$ và $p_M \otimes 1$ là các cấu xạ đồng điều. Do đó:
 
-**Mệnh đề 5. — Các đồng cấu $k$**
+#### Mệnh đề 5 {#alg-x-s4-prop-5 .statement}
+
+**Các đồng cấu $k$**
 
 $$
 \begin{aligned}
@@ -521,11 +523,15 @@ $$
 
 là *song ánh*.
 
-**Hệ quả. — Nếu $M$ hoặc $N$ là phẳng, $\mathrm{Tor}_i^A(M, N) = 0$ với $i \geqslant 0$.**
+#### Hệ quả {#alg-x-s4-n4-cor-3 .statement}
+
+**Nếu $M$ hoặc $N$ là phẳng, $\mathrm{Tor}_i^A(M, N) = 0$ với $i \geqslant 0$.**
 
 Giả sử $N$ (resp. $M$) là phẳng. Khi đó $p_M \otimes 1 : L(M) \otimes_A N \to M \otimes_A N$ (resp. $1 \otimes p_N : M \otimes_A L(N) \to M \otimes_A N$) là một cấu xạ đồng luân (X, p. 67, Mệnh đề 4), do đó $H_i(L(M) \otimes_A N)$ (resp. $H_i(M \otimes_A L(N))$) triệt tiêu với $i > 0$.
 
-*Nhận xét 3. — Nếu $g : N \to N'$ là một đồng cấu của các môđun trái A, thì*
+#### Nhận xét 3 {#alg-x-s4-n4-rem-3 .statement}
+
+*Nếu $g : N \to N'$ là một đồng cấu của các môđun trái A, thì*
 
 $$
 (1_{L(M)} \otimes g) \circ (1_{L(M)} \otimes 1_N) = (1_{L(M)} \otimes 1_N) \circ (1_{L(M)} \otimes L(g)) ,
@@ -553,7 +559,9 @@ $$
 \end{array}
 $$
 
-**Mệnh đề 6. — Ánh xạ** $(f, g) \mapsto \mathrm{Tor}^A(f, g) :$
+#### Mệnh đề 6 {#alg-x-s4-prop-6 .statement}
+
+**Ánh xạ** $(f, g) \mapsto \mathrm{Tor}^A(f, g) :$
 
 $$
 \mathrm{Hom}_A(M, M') \times \mathrm{Hom}_A(N, N') \to \mathrm{Hom}_k(\mathrm{Tor}^A(M, N), \mathrm{Tor}^A(M', N'))
@@ -918,7 +926,9 @@ $$
 $$
 do đó là mệnh đề (Định lý 2, (i) $\Leftrightarrow$ (iii)).
 
-**Hệ quả 2. —** *Cho*
+#### Hệ quả 2 {#alg-x-s4-thm-2-cor-2 .statement}
+
+*Cho*
 $$
 0\longrightarrow E_n\longrightarrow E_{n-1}\longrightarrow\cdots\longrightarrow E_1\longrightarrow0
 $$
@@ -1082,7 +1092,9 @@ $$
 
 $H(\varphi) \otimes H(\varphi')$ và $\gamma(H(C), H(C'))$ là đồng nhất, do đó có khẳng định.
 
-**Hệ quả 3** (*công thức hệ số phổ quát*). — *Giả sử vành $A$ là chính. Nếu các phức $C$ và $C'$ là tự do, các dãy của A-môđun (11) là khớp và tách; nếu phức $C$ là tự do, các dãy của A-môđun (13) là khớp và tách với mọi A-môđun $N$.*
+#### Hệ quả 3 (công thức hệ số phổ quát) {#alg-x-s4-lem-4-cor-3 .statement}
+
+*Giả sử vành $A$ là chính. Nếu các phức $C$ và $C'$ là tự do, các dãy của A-môđun (11) là khớp và tách; nếu phức $C$ là tự do, các dãy của A-môđun (13) là khớp và tách với mọi A-môđun $N$.*
 Thật vậy, $B(C), Z(C)$ và $B(C')$ là các môđun con của các môđun tự do $C, C, C'$, nên là tự do (VII, § 3, hệ quả 2 của định lý 1), và ta áp dụng hệ quả 2.
 
 #### Hệ quả 4 (« công thức Künneth ») {#alg-x-s4-lem-4-cor-4 .statement}

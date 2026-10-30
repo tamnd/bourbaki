@@ -291,7 +291,9 @@ Notons $S_n$ l’ensemble des racines de $\Phi_n$ dans $K_s$. D’après la form
 
 D’après le lemme 3, on a $R_n(K) = K(\zeta)$ pour toute racine $\zeta$ de $\Phi_n(X)$ et par suite $\Phi_n(X)$ est irréductible dans $K[X]$ si et seulement si le degré $\varphi(n)$ de $\Phi_n(X)$ est égal à $[R_n(K) : K]$. Par ailleurs, le groupe de Galois de $R_n(K)$ sur $K$ est d’ordre $[R_n(K) : K]$ et il est isomorphe au sous-groupe de $(\mathbf{Z}/n\mathbf{Z})^*$ image de $\chi_n$. La prop. 6 résulte alors de ce que $(\mathbf{Z}/n\mathbf{Z})^*$ est d’ordre $\varphi(n)$.
 
-*Théorème 2 (Gauss).* — *Soient $\overline{\mathbf{Q}}$ une clôture algébrique de $\mathbf{Q}$ et $n \geq 1$ un entier.*
+#### Théorème 2 (Gauss) {#alg-v-s11-thm-2 .statement}
+
+— *Soient $\overline{\mathbf{Q}}$ une clôture algébrique de $\mathbf{Q}$ et $n \geq 1$ un entier.*
   a) *Le polynôme cyclotomique $\Phi_n(X)$ est irréductible dans $\mathbf{Q}[X]$.*
   b) *Le degré de $R_n(\mathbf{Q})$ sur $\mathbf{Q}$ est égal à $\varphi(n)$.*
   c) *L’homomorphisme $\chi_n$ de $\mathrm{Gal}(\overline{\mathbf{Q}}/\mathbf{Q})$ dans $(\mathbf{Z}/n\mathbf{Z})^*$ est surjectif, et définit par passage au quotient un isomorphisme de $\mathrm{Gal}(R_n(\mathbf{Q})/\mathbf{Q})$ sur $(\mathbf{Z}/n\mathbf{Z})^*$.*
@@ -331,7 +333,9 @@ a) Pour qu’un élément $x \in E$ soit tel que $N_{E/K}(x) = 1$, il faut et il
 b) Pour qu’un élément $x \in E$ soit tel que $\mathrm{Tr}_{E/K}(x) = 0$, il faut et il suffit qu’il existe $z \in E$ tel que $x = z - \sigma(z)$; tout $z_1 \in E$ tel que $x = z_1 - \sigma(z_1)$ est alors de la forme $z + \mu$, avec $\mu \in K$.
 
 Prouvons d’abord un lemme.
-Lemme 4. — Soient $\Gamma$ un groupe cyclique d’ordre $n$, $\sigma$ un générateur de $\Gamma$ et M un groupe commutatif sur lequel opère $\Gamma$ de façon que $\gamma.(m + m') = \gamma.m + \gamma.m'$ pour tous $\gamma \in \Gamma, m, m' \in M$. Soit $Z$ l’ensemble des applications $f$ de $\Gamma$ dans $M$ satisfaisant à la relation
+#### Lemme 4 {#alg-v-s11-lem-4 .statement}
+
+Soient $\Gamma$ un groupe cyclique d’ordre $n$, $\sigma$ un générateur de $\Gamma$ et M un groupe commutatif sur lequel opère $\Gamma$ de façon que $\gamma.(m + m') = \gamma.m + \gamma.m'$ pour tous $\gamma \in \Gamma, m, m' \in M$. Soit $Z$ l’ensemble des applications $f$ de $\Gamma$ dans $M$ satisfaisant à la relation
 
 $$(10)$$
 $$ f(\tau \tau') = f(\tau) + \tau . f(\tau') \quad \text{pour } \tau, \tau' \text{ dans } \Gamma . $$

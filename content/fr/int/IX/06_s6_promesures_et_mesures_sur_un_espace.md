@@ -181,7 +181,9 @@ Pour tout entier $m \geqslant 0$, soit $G_m$ le sous-groupe $m.\mathbf{Z}^n$ de 
 
 Soit $f$ une fonction continue à support compact sur $\mathbf{R}^n$. Pour tout entier $m \geq 0$, posons $f_m(x) = \sum_{q \in G_m} f(x + q)$. Il est immédiat que pour tout $x \in \mathbf{R}^n$, la série précédente n’a qu’un nombre fini de termes, et que $f_m$ appartient à $\mathscr{C}_m$. De plus, on voit facilement que la suite $(f_m)$ tend uniformément vers $f$ sur tout compact, et qu’il existe une constante $C \geq 0$ telle que $|f_m| \leq C$ pour tout $m$. On a par suite $\mu(f) = \lim_{m \to \infty} \mu(f_m)$ d’après la prop. 12 du § 5, n° 6. Comme on a $f_m \in \mathscr{C}_m$, on a $\mu(f_m) = 0$, d’où finalement $\mu(f) = 0$. On a donc $\mu = 0$.
 
-*Remarque. — Lorsque E est de dimension finie, tout caractère de E est de la forme $x \mapsto e^{i\langle x, x' \rangle}$ avec $x' \in E'$ (Théor. spect., chap. II, § 1, n° 9, cor. 3 de la prop. 12). La prop. 3 résulte dans ce cas du théorème d’unicité pour la transformation de Fourier (loc. cit., § 1, n° 6, cor. de la prop. 6).*
+#### Remarque {#int-ix-s6-n3-rem-1 .statement}
+
+*Lorsque E est de dimension finie, tout caractère de E est de la forme $x \mapsto e^{i\langle x, x' \rangle}$ avec $x' \in E'$ (Théor. spect., chap. II, § 1, n° 9, cor. 3 de la prop. 12). La prop. 3 résulte dans ce cas du théorème d’unicité pour la transformation de Fourier (loc. cit., § 1, n° 6, cor. de la prop. 6).*
 
 ### 4. Calculs d’intégrales gaussiennes
 
@@ -964,7 +966,9 @@ Soit F un espace localement convexe. Soit $\mathscr{T}_s$ la topologie faible $\
 
 On appelle *topologie de Sazonov* sur F la topologie localement convexe $\mathscr{S}$ définie par les semi-normes continues N satisfaisant à la condition suivante: $N^2$ *est une forme quadratique positive sur F et il existe une forme quadratique positive continue H sur F telle que* $\mathrm{Tr}(N^2/H) < +\infty$. La topologie $\mathscr{S}$ est moins fine que la topologie donnée sur F; on dit que F est *nucléaire* si ces topologies sont identiques. Cette classe d’espaces sera étudiée plus tard en détail.
 
-**Théorème 2** (Minlos). — *Soient F un espace localement convexe, $\mathscr{T}$ une topologie localement convexe sur $F'$ intermédiaire entre $\mathscr{T}_s$ et $\mathscr{T}_c$ et $\mu$ une promesure sur $F'_\mathscr{T}$. On suppose que transformée de Fourier $\Phi$ de $\mu$ est continue sur F pour la topologie de Sazonov. Alors $\mu$ est une mesure sur $F'_\mathscr{T}$*.
+#### Théorème 2 (Minlos) {#int-ix-s6-thm-2 .statement}
+
+*Soient F un espace localement convexe, $\mathscr{T}$ une topologie localement convexe sur $F'$ intermédiaire entre $\mathscr{T}_s$ et $\mathscr{T}_c$ et $\mu$ une promesure sur $F'_\mathscr{T}$. On suppose que transformée de Fourier $\Phi$ de $\mu$ est continue sur F pour la topologie de Sazonov. Alors $\mu$ est une mesure sur $F'_\mathscr{T}$*.
 
 Soit $\varepsilon > 0$. Comme $\Phi$ est continue pour la topologie de Sazonov de F, il existe deux formes quadratiques positives continues Q et H sur F, telles que $\mathrm{Tr}(Q/H) < +\infty$ et que l’on ait
 $$

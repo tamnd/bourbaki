@@ -530,7 +530,9 @@ Với cùng các giả thiết và ký hiệu như trong Hệ quả 1, $Tr_{K'/K
 
 $Tr_{K'/K}(x)$ và $N_{K'/K}(x)$, tới một dấu, là các hệ số của $Pc_{K'/K}(x; X)$ (Đại số, Chương VIII, § 12, no. 1, các phương trình (4)) và do đó đều nguyên.
 
-Nhận xét (1) Nếu $K'$ là một đại số trung tâm đơn trên $K$ và $x \in K'$ nguyên trên $A$, thì các hệ số của đa thức đặc trưng rút gọn của $x$ (Đại số, Chương VIII, § 12, no. 3) đều nguyên trên $A$. Thật vậy, có một lũy thừa của đa thức này bằng $Pc_{K'/K}(x; X)$ (loc. cit., Mệnh đề 8) và chỉ cần áp dụng Mệnh đề 17 và no. 3, Mệnh đề 11.
+#### Nhận xét (1) {#ac-v-s1-n6-rem-1 .statement}
+
+Nếu $K'$ là một đại số trung tâm đơn trên $K$ và $x \in K'$ nguyên trên $A$, thì các hệ số của đa thức đặc trưng rút gọn của $x$ (Đại số, Chương VIII, § 12, no. 3) đều nguyên trên $A$. Thật vậy, có một lũy thừa của đa thức này bằng $Pc_{K'/K}(x; X)$ (loc. cit., Mệnh đề 8) và chỉ cần áp dụng Mệnh đề 17 và no. 3, Mệnh đề 11.
 
 #### Mệnh đề 18 {#ac-v-s1-prop-18 .statement}
 
@@ -574,7 +576,9 @@ $A'$ là một môđun con của một $A$-môđun sinh hữu hạn.
 
 $Z$ là đóng nguyên (no. 3, Mệnh đề 10) và $E$ là tách được vì $Q$ có đặc số 0. Do đó có thể áp dụng Hệ quả 2 cho trường hợp $A = Z$, $K = Q$ và $K' = E$.
 
-*Nhận xét (2).* Các kết luận của Hệ quả 1 không nhất thiết đúng nếu không giả thiết $K'$ tách được trên $K$, ngay cả khi $K'$ là một trường mở rộng của $K$ (Bài tập 20). Mặt khác, nếu $A$ là một *đại số nguyên sinh hữu hạn trên $K_0$*, trong đó $K_0$ là một *trường*, thì bao đóng nguyên của $A$ trong *bất kỳ* mở rộng nào có bậc hữu hạn của trường phân thức của $A$ là một $A$-môđun sinh hữu hạn và một vành Noether, như ta sẽ thấy ở § 3, no. 2, Định lý 2.
+#### Nhận xét (2) {#ac-v-s1-n6-rem-2 .statement}
+
+Các kết luận của Hệ quả 1 không nhất thiết đúng nếu không giả thiết $K'$ tách được trên $K$, ngay cả khi $K'$ là một trường mở rộng của $K$ (Bài tập 20). Mặt khác, nếu $A$ là một *đại số nguyên sinh hữu hạn trên $K_0$*, trong đó $K_0$ là một *trường*, thì bao đóng nguyên của $A$ trong *bất kỳ* mở rộng nào có bậc hữu hạn của trường phân thức của $A$ là một $A$-môđun sinh hữu hạn và một vành Noether, như ta sẽ thấy ở § 3, no. 2, Định lý 2.
 
 ### 7. MỞ RỘNG VÔ HƯỚNG TRONG MỘT ĐẠI SỐ ĐÓNG NGUYÊN
 

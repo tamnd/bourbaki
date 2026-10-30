@@ -428,13 +428,17 @@ If $(G_i)_{0 \leq i \leq n}$ and $(H_j)_{0 \leq j \leq m}$ are respectively comp
 
 Note that in general a series taken from a composition series $(G_i)$ is not a composition series, since for $j > i + 1$, $G_j$ is not in general a normal subgroup of $G_i$.
 
-**Theorem 5 (Schreier).** *Given two composition series $\Sigma_1, \Sigma_2$ of a group with operators G, there exist two equivalent composition series $\Sigma'_1, \Sigma'_2$, finer respectively than $\Sigma_1$ and $\Sigma_2$.
+#### Theorem 5 (Schreier) {#alg-i-s4-thm-5 .statement}
+
+*Given two composition series $\Sigma_1, \Sigma_2$ of a group with operators G, there exist two equivalent composition series $\Sigma'_1, \Sigma'_2$, finer respectively than $\Sigma_1$ and $\Sigma_2$.
 
 Let $\Sigma_1 = (H_i)_{0 \leq i \leq n}$ and $\Sigma_2 = (K_j)_{0 \leq j \leq p}$ be the two given composition series with respectively $n + 1$ and $p + 1$ terms; we shall see that the composition series $\Sigma'_1$ can be formed by inserting $p - 1$ subgroups $H'_{i,j}$ (1 \leq j \leq p - 1) between H_i and H_{i+1} for 0 \leq i \leq n - 1 and the series \Sigma_2' by inserting n - 1 subgroups K_{j,i}' (1 \leq i \leq n - 1) between K_j and K_{j+1} for 0 \leq j \leq p - 1; thus two series of pn + 1 stable subgroups of G will be obtained; by choosing suitably the inserted stable subgroups, we shall show that these series are equivalent composition series.
 
 To this end note that H_i \cap K_j is a stable subgroup of H_i and of K_j, and hence (Theorem 4) H_{i+1}.(H_i \cap K_j) is a stable subgroup of H_i containing H_{i+1} and K_{j+1}.(H_i \cap K_j) is a stable subgroup of K_j containing K_{j+1}. If we write H_{i,j}' = H_{i+1}.(H_i \cap K_j) and K_{j,i}' = K_{j+1}.(H_i \cap K_j), H_{i,j+1}' is a stable subgroup of H_{i,j}' (0 \leq j \leq p - 1) and K_{j,i+1}' is a stable subgroup of K_{j,i}' (0 \leq i \leq n - 1). Moreover H_{i,0}' = H_i, H_{i,p}' = H_{i+1}, K_{j,0}' = K_j and K_{j,p}' = K_{j+1}. To show the theorem, it suffices to show that H_{i,j+1}' (resp. K_{j,i+1}') is a normal stable subgroup of H_{i,j}' (resp. K_{j,i}') and that the quotient groups H_{i,j}'/H_{i,j+1}' and K_{j,i}'/K_{j,i+1}' are isomorphic (0 \leq i \leq n - 1, 0 \leq j \leq p - 1). This follows from the following lemma by taking H = H_i, H' = H_{i+1}, K = K_j, K' = K_{j+1}.
 
-Lemma 1 (Zassenhaus). Let H and K be two stable subgroups of a group with operators G and H' and K' normal stable subgroups of H and K respectively; then H'.(H \cap K') is a normal stable subgroup of H'.(H \cap K), K'.(K \cap H') is a normal stable subgroup of K'.(K \cap H) and the quotient groups with operators (H'.(H \cap K))/(H'.(H \cap K')) and (K'.(K \cap H))/(K'.(K \cap H')) are isomorphic.
+#### Lemma 1 (Zassenhaus) {#alg-i-s4-lem-1 .statement}
+
+Let H and K be two stable subgroups of a group with operators G and H' and K' normal stable subgroups of H and K respectively; then H'.(H \cap K') is a normal stable subgroup of H'.(H \cap K), K'.(K \cap H') is a normal stable subgroup of K'.(K \cap H) and the quotient groups with operators (H'.(H \cap K))/(H'.(H \cap K')) and (K'.(K \cap H))/(K'.(K \cap H')) are isomorphic.
 
 By Theorem 4, H' \cap K = H' \cap (H \cap K) is a normal stable subgroup of H \cap K; similarly K' \cap H is a normal stable subgroup of K \cap H; hence (no. 6, Corollary 2) (H' \cap K)(K' \cap H) is a normal stable subgroup of H \cap K. By Theorem 4 applied to the group H,
 
@@ -466,7 +470,9 @@ For a decomposition series of G to be a Jordan-Hölder series it is necessary an
 
 A decomposition series is strictly decreasing if and only if none of its successive quotients is reduced to the identity element. If a strictly decreasing composition series $\Sigma$ is not a Jordan-Hölder series, there exists a strictly decreasing composition series $\Sigma'$ which is finer than $\Sigma$ and distinct from $\Sigma$. There are therefore two consecutive terms $G_i, G_{i+1}$ of $\Sigma$ which are not consecutive in $\Sigma'$; let $H$ be the first term which follows $G_i$ in $\Sigma'$; $H$ is a normal stable subgroup of $G_i$, containing $G_{i+1}$ and distinct from the latter; hence $H/G_{i+1}$ is a normal stable subgroup of $G_i/G_{i+1}$, distinct from the latter and from the identity element; therefore $G_i/G_{i+1}$ is not simple. Conversely, if $\Sigma$ is a strictly decreasing composition series one of whose quotients $G_i/G_{i+1}$ is not simple, this quotient contains a normal stable subgroup other than itself and $\{e\}$, whose inverse image in $G_i$ is a normal stable subgroup $H$ of $G_i$, distinct from $G_i$ and $G_{i+1}$ (Theorem 4); it suffices to insert $H$ between $G_i$ and $G_{i+1}$ to obtain a strictly decreasing composition series distinct from $\Sigma$ and finer than $\Sigma$.
 
-**Theorem 6 (Jordan-Hölder).** *Two Jordan-Hölder series of a group with operators are equivalent.*
+#### Theorem 6 (Jordan-Hölder) {#alg-i-s4-thm-6 .statement}
+
+*Two Jordan-Hölder series of a group with operators are equivalent.*
 
 Let $\Sigma_1, \Sigma_2$ be two Jordan-Hölder series of a group with operators $G$; by applying Theorem 5 two *equivalent* composition series $\Sigma'_1, \Sigma'_2$ are obtained which are respectively finer than $\Sigma_1$ and $\Sigma_2$; since the latter are Jordan-Hölder series, $\Sigma'_1$ is identical with $\Sigma_1$ or is derived from it by repeating certain terms; the series of quotients of $\Sigma'_1$ is derived from that for $\Sigma_1$ by inserting a number of terms isomorphic to the group $\{e\}$; since $\Sigma_1$ is strictly decreasing, the series of quotients of $\Sigma_1$ is derived from that of $\Sigma'_1$ by suppressing in the latter *all* the terms isomorphic to $\{e\}$. Similarly for $\Sigma_2$ and $\Sigma'_2$. As the series of quotients of $\Sigma'_1$ and $\Sigma'_2$ differ (up to isomorphism) only in the order of the terms, the same is true of $\Sigma_1$ and $\Sigma_2$; the theorem is proved.
 

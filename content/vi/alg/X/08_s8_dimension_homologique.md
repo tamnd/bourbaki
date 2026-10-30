@@ -152,7 +152,9 @@ $$
 
 theo dãy khớp trước đó; theo mệnh đề 1, điều này ngay lập tức suy ra $\mathrm{dp}_A(M'')=\mathrm{dp}_A(M')+1$, vì một trong các đại lượng $\mathrm{dp}_A(M')$, $\mathrm{dp}_A(M'')$ là $>\mathrm{dp}_A(M)$.
 
-**Ví dụ.** — Cho $a$ là một phần tử của A không khả nghịch cũng không là một ước của không phải.
+#### Ví dụ {#alg-x-s8-n1-exa-1 .statement}
+
+Cho $a$ là một phần tử của A không khả nghịch cũng không là một ước của không phải.
 Khi đó $\mathrm{dp}_A(A/Aa)=1$.
 
 Thật vậy, theo dãy khớp $0\longrightarrow A_s\xrightarrow{\varphi} A_s\longrightarrow A/Aa\longrightarrow0$, trong đó $\varphi(x)=xa$, ta có $\mathrm{dp}_A(A/Aa)\leq1$. Nếu $\mathrm{dp}_A(A/Aa)<1$, thì $A/Aa$ là xạ ảnh, và tồn tại một ánh xạ A-tuyến tính $\psi:A_s\longrightarrow A_s$ sao cho $\psi\circ\varphi=\mathrm{Id}$; điều này suy ra

@@ -303,7 +303,9 @@ Vì, các hàm $\mu \mapsto |\mu|^*(1)$, $\mu \mapsto |\mu|^*(T - K_\varepsilon)
 
 Ý nghĩa của điều kiện Prokhorov xuất phát từ định lý sau, mà đảo lại của nó sẽ được khảo sát sau này (Định lý 2).
 
-**Định lý 1 (Prokhorov).** — *Cho T là một không gian chính quy hoàn toàn, và cho H là một tập con của $\mathscr{M}^b(T)$ thỏa mãn điều kiện Prokhorov; khi đó H tương đối compact trong $\mathscr{M}^b(T)$ đối với tôpô chặt.*
+#### Định lý 1 (Prokhorov) {#int-ix-s5-thm-1 .statement}
+
+— *Cho T là một không gian chính quy hoàn toàn, và cho H là một tập con của $\mathscr{M}^b(T)$ thỏa mãn điều kiện Prokhorov; khi đó H tương đối compact trong $\mathscr{M}^b(T)$ đối với tôpô chặt.*
 
 Ta có thể giả sử rằng T là một không gian con của một không gian compact X; cho i là đơn ánh chính tắc của T vào X. Mặt khác, theo Mệnh đề 11, ta có thể giả sử rằng H là *đóng* trong $\mathscr{M}^b(T)$. Khi đó chỉ cần chứng minh rằng mọi siêu lọc $\mathfrak{U}$ trên H hội tụ trong $\mathscr{M}^b(T)$.
 

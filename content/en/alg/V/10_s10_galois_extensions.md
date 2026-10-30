@@ -332,7 +332,9 @@ $$
 
 ### 6. Artin’s theorem
 
-**Theorem 2 (Artin).** — *Let $N$ be a field, $\Gamma$ a group of automorphisms of $N$ and $K$ the field of invariants of $\Gamma$. Let $V$ be a vector sub-K-space of $N$ of finite dimension* over K. Then every K-linear mapping u of V into N is a linear combination with coefficients in N of the restrictions to V of elements of $\Gamma$.
+#### Theorem 2 (Artin) {#alg-v-s10-thm-2 .statement}
+
+— *Let $N$ be a field, $\Gamma$ a group of automorphisms of $N$ and $K$ the field of invariants of $\Gamma$. Let $V$ be a vector sub-K-space of $N$ of finite dimension* over K. Then every K-linear mapping u of V into N is a linear combination with coefficients in N of the restrictions to V of elements of $\Gamma$.
 
 Let u be a K-linear mapping of V into N and let $V_{(N)} = N \otimes_K V$ be the vector N-space derived from V by extension of scalars; denote by $\tilde{u}$ the N-linear form on $V_{(N)}$ such that $\tilde{u}(x \otimes y) = x \cdot u(y)$ for $x \in N$ and $y \in V$. For each $a \in \Gamma$ there exists an N-linear form h, on $V_{(N)}$ such that $h_\sigma(x \otimes y) = x \sigma(y)$ for $x \in N$ and $y \in V$. The canonical mapping of $V_{(N)} = N \otimes_K V$ into $N \otimes_K N$ is injective. Now the Cor. of Prop. 8 (V, p. 64) show that the intersection of the kernels of the linear forms h, on $V_{(N)}$ is reduced to 0. Therefore (II, p. 302, Cor. 1) there exist $a_1, \ldots, \sigma_n$ in $\Gamma$ and $a_1, \ldots, a_n$ in $N$ such that $\tilde{u} = \sum_{i=1}^n a_i h_{\sigma_i}$ whence $u(x) = \sum_{i=1}^n a_i \sigma_i(x)$ for all $x \in V$.
 

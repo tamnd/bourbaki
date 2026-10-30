@@ -294,7 +294,9 @@ For, the functions $\mu \mapsto |\mu|^*(1)$, $\mu \mapsto |\mu|^*(T - K_\varepsi
 
 The interest of Prokhorov’s condition comes from the following theorem, whose converse will be studied later on (Th. 2).
 
-**Theorem 1 (Prokhorov).** — *Let T be a completely regular space, and let H be a subset of $\mathscr{M}^b(T)$ that satisfies Prokhorov’s condition; then H is relatively compact in $\mathscr{M}^b(T)$ for the tight topology.*
+#### Theorem 1 (Prokhorov) {#int-ix-s5-thm-1 .statement}
+
+— *Let T be a completely regular space, and let H be a subset of $\mathscr{M}^b(T)$ that satisfies Prokhorov’s condition; then H is relatively compact in $\mathscr{M}^b(T)$ for the tight topology.*
 
 We can suppose that T is a subspace of a compact space X; let i be the canonical injection of T into X. We can on the other hand suppose that H is *closed* in $\mathscr{M}^b(T)$, by Prop. 11. It will then suffice to show that every ultrafilter $\mathfrak{U}$ on H converges in $\mathscr{M}^b(T)$.
 

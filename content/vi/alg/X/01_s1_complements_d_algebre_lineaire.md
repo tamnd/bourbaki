@@ -644,7 +644,9 @@ $$
 
 là khớp (*loc. cit.*), và vì $F$ là *phẳng*, nên hàng thứ nhất của (18) cũng là một dãy khớp (X, p. 8, đn. 1). Như vậy, ta biết rằng $v_{L_0}$ là song ánh (resp. rằng $v_{L_0}$ và $v_{L_1}$ là song ánh) (II, p. 75, mđ. 2). Nếu ta chỉ giả sử rằng $v_{L_0}$ là song ánh, thì suy ra từ (18) rằng $v_{L_0} \circ T(w) = T'(w) \circ v_E$ là đơn ánh, do đó $v_E$ cũng vậy. Nếu ta giả sử rằng $v_{L_0}$ và $v_{L_1}$ đều song ánh, thì ta suy ra từ hq. 2 (ii) của X, p. 6 rằng $v_E$ là toàn ánh, và vì ta vừa thấy rằng $v_E$ là đơn ánh, nên nó là song ánh.
 
-**HỆ QUẢ. — Mọi môđun phẳng có trình bày hữu hạn đều là xạ ảnh.**
+#### Hệ quả {#alg-x-s1-n5-cor-1 .statement}
+
+**Mọi môđun phẳng có trình bày hữu hạn đều là xạ ảnh.**
 
 Thật vậy, cho $E$ là một A-môđun phẳng và có trình bày hữu hạn. Áp dụng (*b*) cho trường hợp $B = A, G = {}_sA_d, F = E$, ta thấy rằng đồng cấu chính tắc
 
@@ -658,7 +660,9 @@ Theo hệ quả trước và mđ. 5 của X, p. 10, có sự đồng nhất gi�
 
 ### 6. Cấu trúc của các môđun phẳng
 
-**Bổ đề 2. — Cho I là một tập hợp có thứ tự lọc phải, $(E_\alpha, \varphi_{\beta\alpha})$ một hệ quy nạp các tập hợp đối với I, E là giới hạn quy nạp của nó và $\varphi_\alpha : E_\alpha \to E, \alpha \in I$, các ánh xạ chính tắc. Cho $f : I \to I$ là một ánh xạ sao cho $f(\alpha) > \alpha$ với $\alpha \in I$, và giả sử rằng với mỗi $\alpha \in I$, đã cho một tập hợp $L_\alpha$ và các ánh xạ $u_\alpha : E_\alpha \to L_\alpha$ và $v_\alpha : L_\alpha \to E_{f(\alpha)}$ sao cho $v_\alpha \circ u'_\alpha = \varphi_{f(\alpha), \alpha}$. Cho J là tập hợp có thứ tự thu được bằng cách trang bị cho I quan hệ « $\alpha \leq \beta$ nếu $\alpha = \beta$ hoặc $f(\alpha) \leq \beta$ ». Nếu $\alpha, \beta \in J$ với $\alpha \leq \beta$, cho $\psi_{\beta\alpha} : L_\alpha \to L_\beta$ là ánh xạ sao cho $\psi_{\beta\alpha} = \mathrm{Id}$ nếu $\alpha = \beta$, $\psi_{\beta\alpha} = u_\beta \circ \varphi_{\beta, f(\alpha)} \circ v_\alpha$ nếu $f(\alpha) \leq \beta$. Nếu $\alpha \in J$, cho $\psi_\alpha : L_\alpha \to E$ là ánh xạ $\varphi_{f(\alpha)} \circ v_\alpha$. Khi đó tập hợp có thứ tự J là lọc, $(L_\alpha, \psi_{\beta\alpha})$ là một hệ quy nạp đối với J, $(\psi_\alpha)$ là một hệ quy nạp các ánh xạ và ánh xạ $\psi : \lim_{\alpha \in J} L_\alpha \to E$ suy ra từ các $\psi_\alpha$ là song ánh.**
+#### Bổ đề 2 {#alg-x-s1-lem-2 .statement}
+
+**Cho I là một tập hợp có thứ tự lọc phải, $(E_\alpha, \varphi_{\beta\alpha})$ một hệ quy nạp các tập hợp đối với I, E là giới hạn quy nạp của nó và $\varphi_\alpha : E_\alpha \to E, \alpha \in I$, các ánh xạ chính tắc. Cho $f : I \to I$ là một ánh xạ sao cho $f(\alpha) > \alpha$ với $\alpha \in I$, và giả sử rằng với mỗi $\alpha \in I$, đã cho một tập hợp $L_\alpha$ và các ánh xạ $u_\alpha : E_\alpha \to L_\alpha$ và $v_\alpha : L_\alpha \to E_{f(\alpha)}$ sao cho $v_\alpha \circ u'_\alpha = \varphi_{f(\alpha), \alpha}$. Cho J là tập hợp có thứ tự thu được bằng cách trang bị cho I quan hệ « $\alpha \leq \beta$ nếu $\alpha = \beta$ hoặc $f(\alpha) \leq \beta$ ». Nếu $\alpha, \beta \in J$ với $\alpha \leq \beta$, cho $\psi_{\beta\alpha} : L_\alpha \to L_\beta$ là ánh xạ sao cho $\psi_{\beta\alpha} = \mathrm{Id}$ nếu $\alpha = \beta$, $\psi_{\beta\alpha} = u_\beta \circ \varphi_{\beta, f(\alpha)} \circ v_\alpha$ nếu $f(\alpha) \leq \beta$. Nếu $\alpha \in J$, cho $\psi_\alpha : L_\alpha \to E$ là ánh xạ $\varphi_{f(\alpha)} \circ v_\alpha$. Khi đó tập hợp có thứ tự J là lọc, $(L_\alpha, \psi_{\beta\alpha})$ là một hệ quy nạp đối với J, $(\psi_\alpha)$ là một hệ quy nạp các ánh xạ và ánh xạ $\psi : \lim_{\alpha \in J} L_\alpha \to E$ suy ra từ các $\psi_\alpha$ là song ánh.**
 
 Rõ ràng J là quy nạp. Nếu $\alpha, \beta \in J$ với $\alpha < \beta$, ta có
 $$

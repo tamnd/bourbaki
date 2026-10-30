@@ -635,7 +635,9 @@ $$
 
 est exacte (*loc. cit.*), et comme $F$ est *plat*, la première ligne de (18) est aussi une suite exacte (X, p. 8, déf. 1). Cela étant, on sait que $v_{L_0}$ est bijectif (resp. que $v_{L_0}$ et $v_{L_1}$ sont bijectifs) (II, p. 75, prop. 2). Si on suppose seulement $v_{L_0}$ bijectif, il résulte de (18) que $v_{L_0} \circ T(w) = T'(w) \circ v_E$ est injectif, donc $v_E$ l’est aussi. Si on suppose que $v_{L_0}$ et $v_{L_1}$ sont tous deux bijectifs, on déduit du cor. 2 (ii) de X, p. 6 que $v_E$ est surjectif, et comme on vient de voir que $v_E$ est injectif, il est bijectif.
 
-**COROLLAIRE. — Tout module plat et de présentation finie est projectif.**
+#### Corollaire {#alg-x-s1-n5-cor-1 .statement}
+
+**Tout module plat et de présentation finie est projectif.**
 
 Soit en effet $E$ un $A$-module plat et de présentation finie. Appliquant (*b*) au cas $B = A, G = {}_sA_d, F = E$, on voit que l’homomorphisme canonique
 
@@ -649,7 +651,9 @@ D’après le corollaire précédent et la prop. 5 de X, p. 10, il y a identité
 
 ### 6. Structure des modules plats
 
-**Lemme 2. — Soient I un ensemble ordonné filtrant à droite, $(E_\alpha, \varphi_{\beta\alpha})$ un système inductif d’ensembles relatif à I, E sa limite inductive et $\varphi_\alpha : E_\alpha \to E, \alpha \in I$, les applications canoniques. Soit $f : I \to I$ une application telle que $f(\alpha) > \alpha$ pour $\alpha \in I$, et supposons donnés, pour chaque $\alpha \in I$, un ensemble $L_\alpha$ et des applications $u_\alpha : E_\alpha \to L_\alpha$ et $v_\alpha : L_\alpha \to E_{f(\alpha)}$ telles que $v_\alpha \circ u'_\alpha = \varphi_{f(\alpha), \alpha}$. Soit J l’ensemble ordonné obtenu en munissant I de la relation « $\alpha \leq \beta$ si $\alpha = \beta$ ou $f(\alpha) \leq \beta$ ». Si $\alpha, \beta \in J$ avec $\alpha \leq \beta$, soit $\psi_{\beta\alpha} : L_\alpha \to L_\beta$ l’application telle que $\psi_{\beta\alpha} = \mathrm{Id}$ si $\alpha = \beta$, $\psi_{\beta\alpha} = u_\beta \circ \varphi_{\beta, f(\alpha)} \circ v_\alpha$ si $f(\alpha) \leq \beta$. Si $\alpha \in J$, soit $\psi_\alpha : L_\alpha \to E$ l’application $\varphi_{f(\alpha)} \circ v_\alpha$. Alors l’ensemble ordonné J est filtrant, $(L_\alpha, \psi_{\beta\alpha})$ est un système inductif relatif à J, $(\psi_\alpha)$ est un système inductif d’applications et l’application $\psi : \lim_{\alpha \in J} L_\alpha \to E$ déduite des $\psi_\alpha$ est bijective.
+#### Lemme 2 {#alg-x-s1-lem-2 .statement}
+
+**Soient I un ensemble ordonné filtrant à droite, $(E_\alpha, \varphi_{\beta\alpha})$ un système inductif d’ensembles relatif à I, E sa limite inductive et $\varphi_\alpha : E_\alpha \to E, \alpha \in I$, les applications canoniques. Soit $f : I \to I$ une application telle que $f(\alpha) > \alpha$ pour $\alpha \in I$, et supposons donnés, pour chaque $\alpha \in I$, un ensemble $L_\alpha$ et des applications $u_\alpha : E_\alpha \to L_\alpha$ et $v_\alpha : L_\alpha \to E_{f(\alpha)}$ telles que $v_\alpha \circ u'_\alpha = \varphi_{f(\alpha), \alpha}$. Soit J l’ensemble ordonné obtenu en munissant I de la relation « $\alpha \leq \beta$ si $\alpha = \beta$ ou $f(\alpha) \leq \beta$ ». Si $\alpha, \beta \in J$ avec $\alpha \leq \beta$, soit $\psi_{\beta\alpha} : L_\alpha \to L_\beta$ l’application telle que $\psi_{\beta\alpha} = \mathrm{Id}$ si $\alpha = \beta$, $\psi_{\beta\alpha} = u_\beta \circ \varphi_{\beta, f(\alpha)} \circ v_\alpha$ si $f(\alpha) \leq \beta$. Si $\alpha \in J$, soit $\psi_\alpha : L_\alpha \to E$ l’application $\varphi_{f(\alpha)} \circ v_\alpha$. Alors l’ensemble ordonné J est filtrant, $(L_\alpha, \psi_{\beta\alpha})$ est un système inductif relatif à J, $(\psi_\alpha)$ est un système inductif d’applications et l’application $\psi : \lim_{\alpha \in J} L_\alpha \to E$ déduite des $\psi_\alpha$ est bijective.
 
 Il est clair que J est filtrant. Si $\alpha, \beta \in J$ avec $\alpha < \beta$, on a
 $$

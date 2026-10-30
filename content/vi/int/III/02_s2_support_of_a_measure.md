@@ -94,7 +94,9 @@ Nhưng vì giá đỡ của $f g_i h_j$ được chứa trong $Y_{\alpha_i} \cap
 
 Còn lại là thấy rằng $\mu$ là một độ đo trên $X$; nay, mọi điểm của $X$ đều thừa nhận một lân cận compắc được chứa trong một trong các $Y_\alpha$; do đó kết luận suy ra ngay từ định nghĩa của $\mu$ và từ Mệnh đề 6 của §1, No. 3.
 
-**Hệ quả (Nguyên lý địa phương hóa).** — *Cho $\mu$ và $\nu$ là hai độ đo trên $X$, và cho $(Y_\alpha)$ là một họ các tập mở của $X$ sao cho, với mọi $\alpha$, các hạn chế trên $Y_\alpha$ của $\mu$ và $\nu$ là bằng nhau; khi đó các hạn chế của $\mu$ và $\nu$ trên $Y = \bigcup_\alpha Y_\alpha$ là bằng nhau.*
+#### Hệ quả (Nguyên lý địa phương hóa) {#int-iii-s2-n1-cor-1 .statement}
+
+— *Cho $\mu$ và $\nu$ là hai độ đo trên $X$, và cho $(Y_\alpha)$ là một họ các tập mở của $X$ sao cho, với mọi $\alpha$, các hạn chế trên $Y_\alpha$ của $\mu$ và $\nu$ là bằng nhau; khi đó các hạn chế của $\mu$ và $\nu$ trên $Y = \bigcup_\alpha Y_\alpha$ là bằng nhau.*
 
 ### 2. Giá của một độ đo
 

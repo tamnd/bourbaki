@@ -254,7 +254,9 @@ It is important to notice that if the series defined by a sequence $(x_n)_{n \in
 
 Propositions 4 and 5 extend immediately to series, and we leave their formulation in this case to the reader.
 
-**Proposition 8 (Restricted associativity of series).** *Let* $(k_n)$ *be a strictly increasing sequence of integers* $\geqslant 0$. *If the series whose general term is* $x_n$ *converges, and if we put* $u_n = \sum_{p=k_{n-1}}^{k_n-1} x_p$, *then the series whose general term is* $u_n$ *is convergent, and we have* $\sum_{n=0}^{\infty} u_n = \sum_{n=0}^{\infty} x_n$.
+#### Proposition 8 (Restricted associativity of series) {#top-iii-s5-prop-8 .statement}
+
+*Let* $(k_n)$ *be a strictly increasing sequence of integers* $\geqslant 0$. *If the series whose general term is* $x_n$ *converges, and if we put* $u_n = \sum_{p=k_{n-1}}^{k_n-1} x_p$, *then the series whose general term is* $u_n$ *is convergent, and we have* $\sum_{n=0}^{\infty} u_n = \sum_{n=0}^{\infty} x_n$.
 
 For the sequence of partial sums of the series $(u_n)$ is a *subsequence* $(s_{k_n-1})$ of the sequence $(s_n)$ of partial sums of the series $(x_n)$.
 

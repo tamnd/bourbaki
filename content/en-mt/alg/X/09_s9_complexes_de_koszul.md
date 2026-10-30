@@ -773,7 +773,9 @@ Then one has the implications (i) $\Rightarrow$ (ii) $\Rightarrow$ (iii) $\Leftr
 
 The theorem will be proved in Nos 8 and 9.
 
-*COROLLARY 1. — If A is noetherian, if the A-module M is of finite type and if the $x_i$ belong to the radical of A, the conditions (i) to (v) of the theorem are equivalent.
+#### Corollary 1 {#alg-x-s9-thm-1-cor-1 .statement}
+
+*If A is noetherian, if the A-module M is of finite type and if the $x_i$ belong to the radical of A, the conditions (i) to (v) of the theorem are equivalent.
 Indeed, on each of the modules $M/(x_1 M + \cdots + x_{i-1} M)$ the $x$-adic topology is separated (AC III, § 3, No. 3, prop. 6).
 
 #### Corollary 2 {#alg-x-s9-thm-1-cor-2 .statement}

@@ -41,7 +41,9 @@ content_sha256: 49c1496a9984c07eaeca3aad265abb15c9dafa4cfe515eb1c603a2832eaebcba
 
 It suffices to prove that the polynomial $X^{p^e} - a$ is irreducible in $K[X]$. By the definition of height of x we have $a \notin K^p$, so that the proposition follows from the lemma:
 
-*Lemma 1. — Let K be a field and a an element of K such that $a \notin K^p$. Then for every integer $e \geq 0$, the polynomial $f(X) = X^{p^e} - a$ is irreducible in $K[X]$.*
+#### Lemma 1 {#alg-v-s5-lem-1 .statement}
+
+*Let K be a field and a an element of K such that $a \notin K^p$. Then for every integer $e \geq 0$, the polynomial $f(X) = X^{p^e} - a$ is irreducible in $K[X]$.*
 
 Let $\Omega$ be an algebraic closure of $K$ and let b be the element $a^{p^{-e}}$ of $\Omega$; we denote by g the minimal polynomial of b over $K$. We have $f(X) = (X - b)^{p^e}$ and hence every irreducible polynomial in $K[X]$ which divides $f$ admits b as root, and hence is equal to g. There exists thus (*IV*, p. 13, Prop. 13) an integer $q \geq 1$ such that $f = g^q$; since q divides the degree $p^e$ of $f$, there exists an integer $e'$ such that $0 \leq e' \leq e$ and $q = p^{e'}$. If c is the constant term of g, we have $-a = c^q$; since we assumed that a does not lie in $K^p$, we must have $q = 1$, that is, $f = g$, so the lemma follows.
 

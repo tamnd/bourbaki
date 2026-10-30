@@ -258,7 +258,9 @@ thus, for the product with general factor $1 + u_n$ to be commutatively converge
 
 The relation between infinite products and series of real numbers sometimes allows one to obtain an asymptotic expansion for the partial product $p_n = \prod_{k=1}^{n} (1 + u_k)$; it suffices to have an asymptotic expansion for the partial sum $s_n = \sum_{k=1}^{n} \log(1 + u_k)$, then to expand $p_n = \exp(s_n)$; one is thus brought back to the two problems examined earlier (V, p. 238 and p. 226).
 
-*Example: Stirling’s formula.* Let us seek an asymptotic expansion for $n!$; this leads us to expand $s_n = \sum_{p=1}^{n} \log p$, and then $\exp(s_n)$. The method of n 2 gives successively
+#### Example {#fvr-v-s4-n3-exa-1 .statement}
+
+*Stirling’s formula.* Let us seek an asymptotic expansion for $n!$; this leads us to expand $s_n = \sum_{p=1}^{n} \log p$, and then $\exp(s_n)$. The method of n 2 gives successively
 
 $$
 s_n = \sum_{p=1}^{n} \log p \sim \int_{1}^{n} \log t \, dt = n \log n - n + 1

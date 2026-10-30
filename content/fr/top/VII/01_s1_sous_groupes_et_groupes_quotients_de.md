@@ -158,7 +158,9 @@ En effet, si pour tout $x \in G$, on pose $f_x(u) = (u \mid x)$, $f_x$ est une f
 Étudions la structure de $G^*$ lorsque $G$ est *fermé*. D’après VII, p. 5, cor. 1, il existe une base $(a_i)_{1 \leqslant i \leqslant n}$ de $\mathbf{R}^n$, telle que $G$ soit identique à l’ensemble des points $x = \sum_{i=1}^p t_i a_i + \sum_{j=p+1}^{p+q} n_j a_j$, où les $t_i$ prennent toutes les valeurs réelles, les $n_j$ toutes les valeurs entières. Pour que $(u \mid x)$ soit entier pour *tous* ces points $x$, il faut et il suffit que $(u \mid a_i) = 0$ pour $1 \leqslant i \leqslant p$, et que $(u \mid a_i)$ soit entier pour $p+1 \leqslant i \leqslant p+q$. Désignons par $(a'_i)_{1 \leqslant i \leqslant n}$ la base de $\mathbf{R}^n$ telle que $(a'_i \mid a_j) = 0$ pour $i \neq j$, $(a'_i \mid a_i) = 1$ pour tout $i$ (A, IX, §1, n° 6); si l’on pose $u = \sum_{i=1}^n u_i a_i$, on voit que les points $u \in G^*$ sont caractérisés par les conditions: $u_i = 0$ pour $1 \leqslant i \leqslant p$, et $u$ entier pour $p+1 \leqslant i \leqslant p+q$; donc $G^*$ est somme directe du sous-espace vectoriel $W$ ayant pour base les $a'_i$ d’indice tel que $p+q+1 \leqslant i \leqslant n$, et du sous-groupe discret engendré par les $a'_i$ d’indice tel que $p+1 \leqslant i \leqslant p+q$.
 
 Autrement dit:
-**Proposition 5.** — *Pour tout sous-groupe fermé G de $\mathbf{R}^n$, on a $r(G^*) = n - d(G)$, et $d(G^*) = n - r(G)$.*
+#### Proposition 5 {#top-vii-s1-prop-5 .statement}
+
+*Pour tout sous-groupe fermé G de $\mathbf{R}^n$, on a $r(G^*) = n - d(G)$, et $d(G^*) = n - r(G)$.*
 
 Appliquons le même raisonnement à $G^*$; en remarquant que la base duale de $(\mathbf{a}_i')$ est $(\mathbf{a}_i)$, on voit que:
 
@@ -172,7 +174,9 @@ Appliquons le même raisonnement à $G^*$; en remarquant que la base duale de $(
 
 Appliquons cette caractérisation des points adhérents à un sous-groupe G, au cas du sous-groupe G engendré par les $n$ vecteurs $\mathbf{e}_j$ de la base canonique $(1 \leq j \leq n)$, et par un nombre quelconque $m$ de points $\mathbf{a}_i$ $(1 \leq i \leq m)$ de $\mathbf{R}^n$. Dire que $(\mathbf{u} \mid \mathbf{e}_j)$ est entier pour $1 \leq j \leq n$ signifie que les $n$ coordonnées de $\mathbf{u}$ sont entières; donc:
 
-**Proposition 7 (Kronecker).** — *Soient $\mathbf{a}_i = (a_{ji})$ $(1 \leq i \leq m, 1 \leq j \leq n)$ m points de $\mathbf{R}^n$, $\mathbf{b} = (b_j)$ $(1 \leq j \leq n)$ un point de $\mathbf{R}^n$. Afin que, pour tout $\varepsilon > 0$, il existe m entiers $q_i$ $(1 \leq i \leq m)$ et n entiers $p_j$ $(1 \leq j \leq n)$ tels que*
+#### Proposition 7 (Kronecker) {#top-vii-s1-prop-7 .statement}
+
+— *Soient $\mathbf{a}_i = (a_{ji})$ $(1 \leq i \leq m, 1 \leq j \leq n)$ m points de $\mathbf{R}^n$, $\mathbf{b} = (b_j)$ $(1 \leq j \leq n)$ un point de $\mathbf{R}^n$. Afin que, pour tout $\varepsilon > 0$, il existe m entiers $q_i$ $(1 \leq i \leq m)$ et n entiers $p_j$ $(1 \leq j \leq n)$ tels que*
 $$
 |q_1 a_{1j} + q_2 a_{2j} + \cdots + q_m a_{mj} - p_j - b_j| \leq \varepsilon \quad \text{pour } 1 \leq j \leq n,
 $$

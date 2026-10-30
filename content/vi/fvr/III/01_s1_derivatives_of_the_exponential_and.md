@@ -327,7 +327,9 @@ $$
 
 Tính chất này thiết lập mối liên hệ giữa $f_0$ và hàm $e^z$, mà hơn nữa còn là hạn chế của $f_0$ lên trục thực; vì lý do đó chúng ta đưa ra định nghĩa sau:
 
-**Định nghĩa 2** *Đồng cấu* $x + iy \mapsto e^z \mathbf{e}(y/2\pi)$ *từ* $\mathbf{C}$ *lên* $\mathbf{C}^*$ *được gọi là hàm mũ phức; giá trị của nó tại một số phức tùy ý* $z$ *được ký hiệu là* $e^z$ *hoặc* $\exp z$.
+#### Định nghĩa 2 {#fvr-iii-s1-def-2 .statement}
+
+*Đồng cấu* $x + iy \mapsto e^z \mathbf{e}(y/2\pi)$ *từ* $\mathbf{C}$ *lên* $\mathbf{C}^*$ *được gọi là hàm mũ phức; giá trị của nó tại một số phức tùy ý* $z$ *được ký hiệu là* $e^z$ *hoặc* $\exp z$.
 
 ### 6. CÁC TÍNH CHẤT CỦA HÀM $e^z$
 

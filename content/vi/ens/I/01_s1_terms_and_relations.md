@@ -185,7 +185,9 @@ Một số dấu hiệu riêng của một lý thuyết được gọi là *liê
 
 ¶ Các dãy ký hiệu thuộc loài thứ nhất (tương ứng thuộc loài thứ hai) xuất hiện trong các kiến tạo của $\mathscr{T}$ được gọi là các hạng (tương ứng các quan hệ) trong $\mathscr{T}$.
 
-*Ví dụ.* *Trong lý thuyết tập hợp, trong đó $\in$ là một dấu quan hệ có trọng số 2, dãy ký hiệu sau là một phép dựng kiến tạo:*
+#### Ví dụ {#ens-i-s1-n3-exa-1 .statement}
+
+*Trong lý thuyết tập hợp, trong đó $\in$ là một dấu quan hệ có trọng số 2, dãy ký hiệu sau là một phép dựng kiến tạo:*
 
 $$
 \begin{array}{c}
@@ -203,9 +205,13 @@ $$
 
 Do đó dãy ký hiệu được cho làm ví dụ trong no. 1 là một số hạng trong lý thuyết tập hợp.*
 
-*Nhận xét.* Về trực giác, các thuật ngữ là các dãy ký hiệu biểu diễn các đối tượng, và các quan hệ là các dãy ký hiệu biểu diễn các mệnh đề có thể được phát biểu về các đối tượng này. Điều kiện (a) có nghĩa là các chữ cái biểu diễn các đối tượng. Điều kiện (b) có nghĩa là nếu $B$ là một mệnh đề, thì $\neg B$, được gọi là phủ định của $B$, là một mệnh đề (được đọc là: không $B$). Điều kiện (c) có nghĩa là nếu $B$ và $C$ là các mệnh đề, thì $\vee BC$, được gọi là phép tuyển của $B$ và $C$, là một mệnh đề (được đọc là: hoặc $B$ hoặc $C$); do đó $\neg\to BC$ là một mệnh đề (bằng lời: “hoặc không $B$, hoặc $C$”, hoặc “$B$ kéo theo $C$”). Điều kiện (d) có nghĩa là nếu $B$ là một mệnh đề và $x$ là một chữ cái, thì $\tau_x(B)$ là một đối tượng. Hãy xét mệnh đề $B$ như biểu thị một tính chất của đối tượng $X$; khi đó, nếu tồn tại một đối tượng có tính chất đang xét, $\tau_x(B)$ biểu diễn một đối tượng được phân biệt có tính chất này; nếu không, $\tau_x(B)$ biểu diễn một đối tượng mà về nó không thể nói gì cả. Cuối cùng, điều kiện (e) có nghĩa là nếu $A_1,A_2,\ldots,A_n$ là các đối tượng, và nếu $s$ là một dấu quan hệ (tương ứng dấu thực thể) có trọng số $n$, thì $sA_1A_2\ldots A_n$ là một mệnh đề về các đối tượng $A_1,\ldots,A_n$ (tương ứng một đối tượng phụ thuộc vào $A_1,\ldots,A_n$).
+#### Nhận xét {#ens-i-s1-n3-rem-1 .statement}
 
-*Ví dụ.* Các ký hiệu $\varnothing$, $\mathbf{N}$, “đường thẳng thực”, “hàm $\Gamma$”, $f\circ g$ biểu diễn các số hạng. Các ký hiệu $\pi=\sqrt{2}+\sqrt{3}$, $1\in2$, “mọi vành chia hữu hạn là một trường”, “các không điểm của $\zeta(s)$ khác với $-2$, $-4$, $-6$, ... nằm trên đường $\mathfrak{R}(s)=1/2$” biểu diễn các quan hệ. Ký hiệu “3 và 4” không biểu diễn một số hạng cũng không biểu diễn một quan hệ.
+Về trực giác, các thuật ngữ là các dãy ký hiệu biểu diễn các đối tượng, và các quan hệ là các dãy ký hiệu biểu diễn các mệnh đề có thể được phát biểu về các đối tượng này. Điều kiện (a) có nghĩa là các chữ cái biểu diễn các đối tượng. Điều kiện (b) có nghĩa là nếu $B$ là một mệnh đề, thì $\neg B$, được gọi là phủ định của $B$, là một mệnh đề (được đọc là: không $B$). Điều kiện (c) có nghĩa là nếu $B$ và $C$ là các mệnh đề, thì $\vee BC$, được gọi là phép tuyển của $B$ và $C$, là một mệnh đề (được đọc là: hoặc $B$ hoặc $C$); do đó $\neg\to BC$ là một mệnh đề (bằng lời: “hoặc không $B$, hoặc $C$”, hoặc “$B$ kéo theo $C$”). Điều kiện (d) có nghĩa là nếu $B$ là một mệnh đề và $x$ là một chữ cái, thì $\tau_x(B)$ là một đối tượng. Hãy xét mệnh đề $B$ như biểu thị một tính chất của đối tượng $X$; khi đó, nếu tồn tại một đối tượng có tính chất đang xét, $\tau_x(B)$ biểu diễn một đối tượng được phân biệt có tính chất này; nếu không, $\tau_x(B)$ biểu diễn một đối tượng mà về nó không thể nói gì cả. Cuối cùng, điều kiện (e) có nghĩa là nếu $A_1,A_2,\ldots,A_n$ là các đối tượng, và nếu $s$ là một dấu quan hệ (tương ứng dấu thực thể) có trọng số $n$, thì $sA_1A_2\ldots A_n$ là một mệnh đề về các đối tượng $A_1,\ldots,A_n$ (tương ứng một đối tượng phụ thuộc vào $A_1,\ldots,A_n$).
+
+#### Ví dụ {#ens-i-s1-n3-exa-2 .statement}
+
+Các ký hiệu $\varnothing$, $\mathbf{N}$, “đường thẳng thực”, “hàm $\Gamma$”, $f\circ g$ biểu diễn các số hạng. Các ký hiệu $\pi=\sqrt{2}+\sqrt{3}$, $1\in2$, “mọi vành chia hữu hạn là một trường”, “các không điểm của $\zeta(s)$ khác với $-2$, $-4$, $-6$, ... nằm trên đường $\mathfrak{R}(s)=1/2$” biểu diễn các quan hệ. Ký hiệu “3 và 4” không biểu diễn một số hạng cũng không biểu diễn một quan hệ.
 
 Dấu ban đầu của một quan hệ là $\vee$, $\neg$, hoặc một dấu quan hệ. Dấu ban đầu của một số hạng là $\tau$ hoặc một dấu thực thể, với điều kiện là số hạng đó không gồm một chữ cái duy nhất. Mệnh đề sau được suy ra từ sự kiện rằng một số hạng là một dãy ký hiệu thuộc loài thứ nhất. Nếu $A$ là một quan hệ, thì $A$ xuất hiện trong một phép dựng kiến tạo, không phải là một chữ cái, và không bắt đầu bằng $\tau$, do đó có ba trường hợp có thể xảy ra : (1) $A$ đứng sau một dãy ký hiệu $B$ sao cho $A$ là $\neg B$; (2) $A$ đứng sau hai dãy ký hiệu $B$ và $C$ sao cho $A$ là $\vee BC$; (3) $A$ đứng sau các dãy ký hiệu $A_1$, $A_2$, ... $A_n$ sao cho $A$ là $sA_1A_2 ... A_n$, $s$ là một dấu quan hệ.
 

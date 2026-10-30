@@ -354,11 +354,15 @@ Passons au cas général. Tout idéal premier minimal $p$ de $B$ est formé de d
 
 En effet, soit $p$ un idéal premier minimal de $A$ tel que $\dim(A) = \dim(A/p)$. Il existe un idéal premier $q$ de $B$ au-dessus de $p$ (II, § 2, no 6, prop. 16). D’après la prop. 4 appliquée à $A/p$ et $B/q$, on a $\dim(A) = \dim(A/p) \leq \dim(B/q) \leq \dim(B)$, d’où le corollaire.
 
-*Lemme 4. — Soient $A$ et $B$ deux k-algèbres intègres, $M$ un $A$-module sans torsion, $N$ un $B$-module sans torsion. Si l’anneau $A \otimes_k B$ est intègre, alors $M \otimes_k N$ est un module sans torsion sur $A \otimes_k B$.
+#### Lemme 4 {#ac-viii-s2-lem-4 .statement}
+
+*Soient $A$ et $B$ deux k-algèbres intègres, $M$ un $A$-module sans torsion, $N$ un $B$-module sans torsion. Si l’anneau $A \otimes_k B$ est intègre, alors $M \otimes_k N$ est un module sans torsion sur $A \otimes_k B$.
 
 Soit $K$ (resp. $L$) le corps des fractions de $A$ (resp. $B$). Il existe un ensemble $I$ (resp. $J$) tel que $M$ (resp. $N$) soit isomorphe à un sous-module de $K^{(I)}$ (resp. $L^{(J)}$). Le $(A \otimes_k B)$-module $M \otimes_k N$ est alors isomorphe à un sous-module de $K^{(I)} \otimes_k L^{(J)}$, qui est isomorphe à $(K \otimes_k L)^{(I \times J)}$. Comme $K \otimes_k L$ est un anneau de fractions de l’anneau intègre $A \otimes_k B$, c’est un module sans torsion sur $A \otimes_k B$, d’où le lemme.
 
-*PROPOSITION 5. — Soient $k'$ une extension de $k$, $A$ une k-algèbre de type fini et $B$ une $k'$-algèbre de type fini.
+#### Proposition 5 {#ac-viii-s2-prop-5 .statement}
+
+*Soient $k'$ une extension de $k$, $A$ une k-algèbre de type fini et $B$ une $k'$-algèbre de type fini.
 
 a) *La $k'$-algèbre $A \otimes_k B$ est de type fini et on a*
 $$

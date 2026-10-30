@@ -30,7 +30,9 @@ content_sha256: f7a41b4d735f549c22bac960df620992dc601aaa0a74c22e9a97bf836dde103d
 
 En dehors des propriétés générales des fonctions continues à valeurs dans un espace topologique quelconque (I, p. 8), les fonctions numériques continues possèdent les deux propriétés fondamentales suivantes:
 
-**Théorème 1** (Weierstrass). — *Soit f une fonction numérique définie et continue dans un* espace quasi-compact non vide E. Il existe au moins un point $a \in E$ tel que $f(a) = \sup_{x \in E} f(x)$, et au moins un point $b \in E$ tel que $f(b) = \inf_{x \in E} f(x)$.
+#### Théorème 1 (Weierstrass) {#top-iv-s6-thm-1 .statement}
+
+*Soit f une fonction numérique définie et continue dans un* espace quasi-compact non vide E. Il existe au moins un point $a \in E$ tel que $f(a) = \sup_{x \in E} f(x)$, et au moins un point $b \in E$ tel que $f(b) = \inf_{x \in E} f(x)$.
 
 En effet, $f(E)$ est compact (I, p. 62, th. 2), donc fermé dans $\overline{\mathbf{R}}$; par suite $f(E)$ contient ses bornes.
 

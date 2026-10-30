@@ -125,7 +125,9 @@ Cho $h : A \to A'$ là một đồng cấu vành sao cho $A'$ nguyên trên $A$ 
 
 Để một iđêan nguyên tố của $A'$ chứa $mA'$, điều kiện cần và đủ là ảnh ngược của nó qua $h$ chứa $m$ và do đó nó nằm trên $m$, vì $m$ là cực đại trong $A$; do đó các $m'_j$ là những iđêan nguyên tố duy nhất của $A'$ chứa $mA'$ (Mệnh đề 1) và vì vậy $c' = \bigcap_j m'_j$ là căn của $mA'$ (Chương II, § 2, no. 6, Hệ quả 1 của Mệnh đề 13). Theo định nghĩa của $q'_j$, lớp mod. $q'_j$ của một phần tử thuộc $A' - m'_j$ không phải là một ước của 0 trong $A'/q'_j$; mặt khác, vì các $m'_j$ là những iđêan cực đại phân biệt, với mỗi chỉ số $j$ tồn tại một phần tử $a'_j$ thuộc $\bigcap_j m'_j$ và không thuộc $m'_j$ (Chương II, § 1, no. 1, Mệnh đề 4): khi đó, với mọi $x \notin m'_j, a'_j x \in r'$, do đó lớp mod. $q'_j$ của $a'_j x$ là lũy linh và, vì lớp của $a'_j$ không phải là một ước của 0, ta kết luận rằng lớp của $x$ là lũy linh; nói cách khác, $m'_j$ là căn của $q'_j$, điều này chứng minh (i). Suy ra các $q'_j$ nguyên tố cùng nhau từng đôi một (Chương II, § 1, no. 1, Mệnh đề 3); do đó (iii) sẽ là một hệ quả của (ii), có tính đến Chương II, § 1, no. 2, Mệnh đề 5. Để thiết lập (ii), ta chú ý rằng trong vành $A'/mA'$ các $m'_j/mA'$ là những iđêan cực đại duy nhất và $q'_j/mA'$ là sự bão hòa của (0) đối với $m'_j/mA'$ (Chương 11, § 2, no. 4); do đó ta có thể giới hạn sự chú ý vào trường hợp $mA' = (0)$; mệnh đề (ii) khi đó suy ra từ Chương II, § 3, no. 3, Hệ quả 2 của Định lý 1.
 
-Nhận xét (1) Nếu $A'$ là Noether, suy ra từ (i) và (ii) rằng $(q'_j)_{1 \leq j \leq n}$ là phân tích nguyên sơ duy nhất của $mA'$ (Chương IV, § 2, no. 3).
+#### Nhận xét (1) {#ac-v-s2-n1-rem-1 .statement}
+
+Nếu $A'$ là Noether, suy ra từ (i) và (ii) rằng $(q'_j)_{1 \leq j \leq n}$ là phân tích nguyên sơ duy nhất của $mA'$ (Chương IV, § 2, no. 3).
 
 #### Định lý 1 {#ac-v-s2-thm-1 .statement}
 
@@ -159,7 +161,9 @@ Cho $A$ là một vành, $A'$ là một vành chứa $A$ và nguyên trên $A$, 
 
 Cho $\mathfrak{p}$ là hạt nhân của $f$, đây là một iđêan nguyên tố vì $f(A) \subset L$ là một miền nguyên; gọi $\mathfrak{p}'$ là một iđêan nguyên tố của $A'$ nằm trên $\mathfrak{p}$ (Định lý 1). Khi đó $A/\mathfrak{p}$ được đồng nhất một cách chính tắc với một vành con của $A'/\mathfrak{p}'$ và $A'/\mathfrak{p}'$ là nguyên trên $A/\mathfrak{p}$ ($§ 1$, no. 1, Mệnh đề 2). Đồng cấu $f$ xác định, bằng cách lấy thương, một đẳng cấu từ $A/\mathfrak{p}$ lên vành con $f(A)$ của $L$, đẳng cấu này có thể được mở rộng thành một đẳng cấu $g$ từ trường phân thức $K$ của $A/\mathfrak{p}$ lên một trường con của $L$. Vì trường phân thức $K'$ của $A'/\mathfrak{p}'$ là đại số trên $K$, nên $g$ có thể được mở rộng thành một đẳng cấu $g'$ từ $K'$ lên một trường con của $L$ (Đại số, Chương V, $§ 4$, no. 2, Hệ quả của Định lý 1); nếu $\pi': A' \to A'/\mathfrak{p}'$ là đồng cấu chính tắc, thì $g' \circ \pi'$ là một đồng cấu từ $A'$ vào $L$ mở rộng $f$.
 
-Nhận xét (2). Cho $h : A \to A'$ là một đồng cấu vành sao cho $A'$ là nguyên trên $A$; khi đó ánh xạ liên tục liên kết $^a h : \mathrm{Spec}(A') \to \mathrm{Spec}(A)$ là đóng. Với mọi iđêan $a'$ của $A'$, $A'/a'$ là nguyên trên $A'$, nên cũng nguyên trên $A$ ($§ 1$, no. 1, Mệnh đề 6) và $\mathrm{Spec}(A'/a')$ được đồng nhất với một không gian con đóng $V(a')$ của $\mathrm{Spec}(A')$; để chứng minh rằng $^a h$ là đóng, khi đó ta thấy (thay thế $A'$ bởi $A'/a'$) rằng chỉ cần chứng minh ảnh của $\mathrm{Spec}(A)'$ dưới $^a h$ là một tập con đóng của $\mathrm{Spec}(A)$; mà theo Định lý 1, ảnh này chính là tập hợp các iđêan nguyên tố của $A$ chứa iđêan $\mathrm{Ker}(h)$ và tập hợp này là đóng theo định nghĩa của tôpô trên $\mathrm{Spec}(A)$.
+#### Nhận xét (2) {#ac-v-s2-n1-rem-2 .statement}
+
+Cho $h : A \to A'$ là một đồng cấu vành sao cho $A'$ là nguyên trên $A$; khi đó ánh xạ liên tục liên kết $^a h : \mathrm{Spec}(A') \to \mathrm{Spec}(A)$ là đóng. Với mọi iđêan $a'$ của $A'$, $A'/a'$ là nguyên trên $A'$, nên cũng nguyên trên $A$ ($§ 1$, no. 1, Mệnh đề 6) và $\mathrm{Spec}(A'/a')$ được đồng nhất với một không gian con đóng $V(a')$ của $\mathrm{Spec}(A')$; để chứng minh rằng $^a h$ là đóng, khi đó ta thấy (thay thế $A'$ bởi $A'/a'$) rằng chỉ cần chứng minh ảnh của $\mathrm{Spec}(A)'$ dưới $^a h$ là một tập con đóng của $\mathrm{Spec}(A)$; mà theo Định lý 1, ảnh này chính là tập hợp các iđêan nguyên tố của $A$ chứa iđêan $\mathrm{Ker}(h)$ và tập hợp này là đóng theo định nghĩa của tôpô trên $\mathrm{Spec}(A)$.
 
 #### Mệnh đề 2 {#ac-v-s2-prop-2 .statement}
 
@@ -366,7 +370,9 @@ Với ký hiệu của chứng minh Mệnh đề 5, đa thức $\pi'(P)$ có cá
 
 Sự tồn tại của $p'$ suy ra từ no. 1, Định lý 1. Nếu $x \in p'$, thì tồn tại $m \geq 0$ sao cho $x^{p^m} \in K$, do đó $x^{p^m} \in A$ vì $A$ là nguyên đóng, suy ra $x^{p^m} \in p' \cap A = p$. Ngược lại, nếu $x \in A'$ sao cho $x^{p^m} \in p \subset p'$, thì $x \in p$ vì $p'$ là nguyên tố.
 
-Nhận xét (1). Suy ra từ § 1, no. 3, Hệ quả của Mệnh đề 11 rằng bao đóng nguyên của $A$ trong $K'$ là tập hợp các $x \in K'$ sao cho tồn tại $m \geq 0$ mà với nó $x^{p^m} \in A$ (Đại số, Chương V, § 8, no. 1, Mệnh đề 1).
+#### Nhận xét (1) {#ac-v-s2-n3-rem-1 .statement}
+
+Suy ra từ § 1, no. 3, Hệ quả của Mệnh đề 11 rằng bao đóng nguyên của $A$ trong $K'$ là tập hợp các $x \in K'$ sao cho tồn tại $m \geq 0$ mà với nó $x^{p^m} \in A$ (Đại số, Chương V, § 8, no. 1, Mệnh đề 1).
 
 #### Mệnh đề 6 {#ac-v-s2-prop-6 .statement}
 

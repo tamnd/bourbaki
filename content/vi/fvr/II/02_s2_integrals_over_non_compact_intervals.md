@@ -92,7 +92,9 @@ $$
 
 Thật vậy, vì $E$ là đầy đủ nên tiêu chuẩn Cauchy cho thấy rằng để tích phân $\int_I f(t) \, dt$ hội tụ thì điều kiện cần và đủ là với mọi $\varepsilon > 0$ tồn tại một khoảng compact $J_0 = [\alpha, \beta]$ sao cho với mọi khoảng compact $J$ thỏa mãn $J_0 \subset J \subset I$ ta có $\| \int_J f(t) \, dt - \int_{J_0} f(t) \, dt \| \leq \varepsilon$. Mệnh đề sẽ suy ra từ bổ đề sau:
 
-*Bổ đề. Cho $J_0 = [\alpha, \beta]$ là một khoảng compact được chứa trong $I$. Để có $\| \int_J f(t) \, dt - \int_{J'} f(t) \, dt \| \leq \varepsilon$ với mọi cặp khoảng compact $J, J'$ được chứa trong $I$ và chứa $J'$ thì cần phải có $\| \int_K f(t) \, dt \| \leq \varepsilon$, và đủ là có $\| \int_K f(t) \, dt \| \leq \varepsilon / 2$, với mọi khoảng compact $K$ được chứa trong $I$ và không có điểm trong nào chung với $J_0$.*
+#### Bổ đề {#fvr-ii-s2-n1-lem-1 .statement}
+
+*Cho $J_0 = [\alpha, \beta]$ là một khoảng compact được chứa trong $I$. Để có $\| \int_J f(t) \, dt - \int_{J'} f(t) \, dt \| \leq \varepsilon$ với mọi cặp khoảng compact $J, J'$ được chứa trong $I$ và chứa $J'$ thì cần phải có $\| \int_K f(t) \, dt \| \leq \varepsilon$, và đủ là có $\| \int_K f(t) \, dt \| \leq \varepsilon / 2$, với mọi khoảng compact $K$ được chứa trong $I$ và không có điểm trong nào chung với $J_0$.*
 
 Thật vậy, nếu với $J_0 \subset J \subset I$ và $J_0 \subset J' \subset I$, ta có
 

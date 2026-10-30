@@ -190,7 +190,9 @@ Ngay lập tức suy ra từ các định nghĩa rằng (a) kéo theo (c). Việ
 Cho $(E_n)$ là một lọc m-tốt trên $E$. Vì lọc này là toàn diện, mọi phần tử của $E$ thuộc một trong các $E_n$ và, vì $E$ là sinh hữu hạn và các $E_n$ là các $A$-môđun, tồn tại một số nguyên $n_1$ sao cho $E_{n_1} = E$. Mặt khác, lấy $n_0$ sao cho $mE_n = E_{n+1}$ với $n \geq n_0$; khi đó, với $n > n_0 - n_1$,
 $m^n E \subset E_{n+n_1} = m^{n+n_1-n_0} E_{n_0} \subset m^{n+n_1-n_0} E$, điều này chứng minh mệnh đề.
 
-**Định lý 2 (Krull).** *Cho $A$ là một vành giao hoán Noether, $m$ là một iđêan của $A$, $E$ là một $A$-môđun sinh hữu hạn và $F$ là một môđun con của $E$. Khi đó tôpô $m$-adic trên $F$ là tôpô cảm sinh bởi tôpô $m$-adic trên $E$.*
+#### Định lý 2 (Krull) {#ac-iii-s3-thm-2 .statement}
+
+*Cho $A$ là một vành giao hoán Noether, $m$ là một iđêan của $A$, $E$ là một $A$-môđun sinh hữu hạn và $F$ là một môđun con của $E$. Khi đó tôpô $m$-adic trên $F$ là tôpô cảm sinh bởi tôpô $m$-adic trên $E$.*
 
 Suy ra từ no. 1, Mệnh đề 1 rằng lọc cảm sinh trên $F$ bởi lọc $m$-adic trên $E$ là m-tốt và khi đó kết luận suy ra từ Mệnh đề 4.
 

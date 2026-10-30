@@ -80,7 +80,7 @@ f(x, y) = \int_0^1 |x(t) - y(t)| \, dt,
 $$
 thì f là một giả khoảng cách trên X. \*
 
-Nhận xét:
+#### Nhận xét {#top-ix-s1-n1-rem-1 .statement}
 1) Ví dụ 2 ở trên cho thấy rằng một giả khoảng cách có thể nhận giá trị $+\infty$ đối với một số cặp phần tử của $X$.
 2) Nếu $f$ là một giả khoảng cách trên $X$, nói chung ta có thể có $f(x, y) = 0$ mà không có $x = y$, như Ví dụ 3 ở trên cho thấy (xem § 2).
 

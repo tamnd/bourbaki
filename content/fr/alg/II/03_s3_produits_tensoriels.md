@@ -365,7 +365,9 @@ $$ (1_E \otimes t)(z) = (u \otimes t)(a). $$
 Posons $b = z - (u \otimes 1_F)(a)$; on aura alors $(1_E \otimes t)(b) = 0$, et en vertu de (17), $b$ appartient à l’image de $1_E \otimes s$, ce qui démontre la proposition.
 
 Autrement dit:
-COROLLAIRE 1. — Soient E' un sous-module d’un A-module à droite E, F' un sous-module d’un A-module à gauche F, Im(E' \otimes_A F) et Im(E \otimes_A F') les sous-\mathbf{Z}-modules de E \otimes_A F, images respectives des applications canoniques E' \otimes_A F \to E \otimes_A F, E \otimes_A F' \to E \otimes_A F. On a alors un isomorphisme canonique de \mathbf{Z}-modules
+#### Corollaire 1 {#alg-ii-s3-prop-6-cor-1 .statement}
+
+Soient E' un sous-module d’un A-module à droite E, F' un sous-module d’un A-module à gauche F, Im(E' \otimes_A F) et Im(E \otimes_A F') les sous-\mathbf{Z}-modules de E \otimes_A F, images respectives des applications canoniques E' \otimes_A F \to E \otimes_A F, E \otimes_A F' \to E \otimes_A F. On a alors un isomorphisme canonique de \mathbf{Z}-modules
 (20) $\pi : (E/E') \otimes_A (F/F') \to (E \otimes_A F)/(Im(E' \otimes_A F) + Im(E \otimes_A F'))$
 tel que pour $\xi \in E/E', \eta \in F/F', \pi(\xi \otimes \eta)$ soit la classe de tout élément $x \otimes y \in E \otimes_A F$ tel que $x \in \xi$ et $y \in \eta$.
 

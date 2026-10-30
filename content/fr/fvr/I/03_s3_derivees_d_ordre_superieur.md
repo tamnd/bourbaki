@@ -57,7 +57,9 @@ $$
 
 lorsque $\mathbf{f}$ et $\mathbf{g}$ ont une dérivée $n$-ème dans $I$ ($a$ constante).
 
-**Proposition 2** (« formule de Leibniz »). — Soient $E, F, G$ trois espaces vectoriels topologiques sur $\mathbf{R}$, $(\mathbf{x}, \mathbf{y}) \mapsto [\mathbf{x}, \mathbf{y}]$ une application bilinéaire continue de $E \times F$ dans $G$. Si $\mathbf{f}$ (resp. $\mathbf{g}$) est définie dans un intervalle $I \subset \mathbf{R}$, prend ses valeurs dans $E$ (resp. $F$) et admet une dérivée n-ème dans I, [f.g] admet dans I une dérivée n-ème donnée par la formule
+#### Proposition 2 (« formule de Leibniz ») {#fvr-i-s3-prop-2 .statement}
+
+Soient $E, F, G$ trois espaces vectoriels topologiques sur $\mathbf{R}$, $(\mathbf{x}, \mathbf{y}) \mapsto [\mathbf{x}, \mathbf{y}]$ une application bilinéaire continue de $E \times F$ dans $G$. Si $\mathbf{f}$ (resp. $\mathbf{g}$) est définie dans un intervalle $I \subset \mathbf{R}$, prend ses valeurs dans $E$ (resp. $F$) et admet une dérivée n-ème dans I, [f.g] admet dans I une dérivée n-ème donnée par la formule
 
 (4) $D^n[f.g] = [f^{(n)}.g] + \binom{n}{1} [f^{(n-1)}.g'] + \ldots$
 $$

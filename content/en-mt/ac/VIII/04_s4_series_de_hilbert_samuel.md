@@ -120,7 +120,9 @@ $$
 
 If $F = \sum_{n \in \mathbf{Z}} a_n T^n$ and $G = \sum_{n \in \mathbf{Z}} b_n T^n$ are two elements of $\mathbf{Z}((T))$, one denotes by “ $F \leq G$ ” the relation “ $a_n \leq b_n$ for all $n \in \mathbf{Z}$ ”. This is an order relation compatible with the ring structure of $\mathbf{Z}((T))$ (A, VI, p. 18, Def. 1). One has $(1-T)^{-1} \geq 1$. If $Q \in \mathbf{Z}[T, T^{-1}]$ is $\geq 0$, then the integer $Q(1)$ is positive.
 
-**Lemma 2. — a)** Let $F$ be a nonzero element of $\mathbf{Z}((T))$ such that there exists $r \in \mathbf{Z}$, with $(1-T)^r F \in \mathbf{Z}[T, T^{-1}]$; then $F$ can be written uniquely in the form $F = (1-T)^{-d}.Q$, where $Q \in \mathbf{Z}[T, T^{-1}]$, $Q(1) \neq 0$ and $d \in \mathbf{Z}$. If $F \geq 0$, then one has $Q(1) > 0$ and $d \geq 0$.
+#### Lemma 2 {#ac-viii-s4-lem-2 .statement}
+
+**a)** Let $F$ be a nonzero element of $\mathbf{Z}((T))$ such that there exists $r \in \mathbf{Z}$, with $(1-T)^r F \in \mathbf{Z}[T, T^{-1}]$; then $F$ can be written uniquely in the form $F = (1-T)^{-d}.Q$, where $Q \in \mathbf{Z}[T, T^{-1}]$, $Q(1) \neq 0$ and $d \in \mathbf{Z}$. If $F \geq 0$, then one has $Q(1) > 0$ and $d \geq 0$.
 
 b) Let $Q, R$ be in $\mathbf{Z}[T, T^{-1}]$, $d, d'$ in $\mathbf{Z}$ with $Q(1) > 0$. If
 

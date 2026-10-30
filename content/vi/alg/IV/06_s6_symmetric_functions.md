@@ -367,13 +367,17 @@ $$
 
 sao cho $\varphi_I(S_k) = s_k$ với mỗi số nguyên $k \geq 1$.
 
-**Định lý 2. — a)** *Nếu I là một tập hợp hữu hạn gồm n phần tử, thì $\varphi_I$ cảm sinh một đẳng cấu bicontinuous của $A[[S_1, \ldots, S_n]]$ lên $A[[X]]^{\text{sym}}$*.
+#### Định lý 2 {#alg-iv-s6-thm-2 .statement}
+
+**a)** *Nếu I là một tập hợp hữu hạn gồm n phần tử, thì $\varphi_I$ cảm sinh một đẳng cấu bicontinuous của $A[[S_1, \ldots, S_n]]$ lên $A[[X]]^{\text{sym}}$*.
 
 *b)* *Nếu I là vô hạn, $\varphi_I$ là một đẳng cấu bicontinuous của $A[[S]]$ lên $A[[X]]^{\text{sym}}$*.
 
 Trong trường hợp a) ta đặt $B = A[[S_1, \ldots, S_n]]$ và trang bị cho đại số này tôpô cảm sinh bởi tôpô của $A[[S]]$; ta cũng ký hiệu bởi $\psi_I$ hạn chế của $\varphi_I$ vào B. Trong trường hợp b) ta đặt $B = A[[S]]$ và $\psi_I = \varphi_I$. Ta sẽ trang bị cho đại số đa thức $A[S]$ phép phân bậc kiểu N trong đó $S_k$ có trọng số k với mỗi số nguyên $k \geq 1$.
 
-**Bổ đề 1. — Cho J là một tập con hữu hạn của I, r là một số nguyên sao cho Card $J \geq r$ và f là một chuỗi lũy thừa hình thức đối xứng thuần nhất có bậc r theo các $X_i$ ($i \in I$). Cho $\bar{f}$ là chuỗi lũy thừa hình thức thu được bằng cách thay 0 cho $X_i$ với mỗi i trong $I - J$. Nếu $\bar{f} = 0$, thì ta có $f = 0$.**
+#### Bổ đề 1 {#alg-iv-s6-lem-1 .statement}
+
+**Cho J là một tập con hữu hạn của I, r là một số nguyên sao cho Card $J \geq r$ và f là một chuỗi lũy thừa hình thức đối xứng thuần nhất có bậc r theo các $X_i$ ($i \in I$). Cho $\bar{f}$ là chuỗi lũy thừa hình thức thu được bằng cách thay 0 cho $X_i$ với mỗi i trong $I - J$. Nếu $\bar{f} = 0$, thì ta có $f = 0$.**
 
 Đặt $f = \sum_{|\alpha| = r} a_\alpha X^\alpha$ (trong đó $|\alpha|$ là độ dài $\sum_{i \in I} \alpha_i$ của đa chỉ số $a = (\alpha_i)_{i \in I}$). Nếu $a$ là một đa chỉ số có độ dài $r$, và $J'$ là giá của $a$ (tập hợp các $i \in I$ sao cho $\alpha_i \neq 0$), thì Card $J' \leq r$, do đó tồn tại một phép hoán vị $\sigma \in S_I$ sao cho $\sigma(J') \subset J$. Đặt $\beta_i = \alpha_{\sigma^{-1}(i)}$ với $i \in I$, khi đó đơn thức $X^\beta = \prod_{i \in I} X_{\sigma(i)}^{\alpha_i}$ chỉ phụ thuộc vào các bất định $X_j$ ($j \in J$), do đó $a_\beta = 0$ theo giả thiết $\overline{f} = 0$. Vì $f$ là đối xứng, ta có $a_\alpha = a_\beta$ và vì $\alpha$ là tùy ý, ta kết luận rằng $f = 0$.
 
@@ -411,7 +415,9 @@ $$
 
 Đây là một chuỗi lũy thừa hình thức đối xứng, thuần nhất bậc k.
 
-**Bổ đề 4 (« các quan hệ của Newton »).** — *Với mọi số nguyên $d \geq 1$ ta có*
+#### Bổ đề 4 (« các quan hệ của Newton ») {#alg-iv-s6-lem-4 .statement}
+
+— *Với mọi số nguyên $d \geq 1$ ta có*
 
 $$
 p_d = \sum_{k=1}^{d-1} (-1)^{k-1} s_k p_{d-k} + (-1)^{d+1} d s_d
@@ -610,7 +616,9 @@ $$
 
 Với ký hiệu của Mệnh đề 6 đôi khi người ta viết $a = P^*(f)$. Sau đây là vài ví dụ.
 
-*Ví dụ. — 1) Nếu $P = s_k$, thì $P^*(f) = (-1)^k a_k$.
+#### Ví dụ {#alg-iv-s6-n5-exa-1 .statement}
+
+*1) Nếu $P = s_k$, thì $P^*(f) = (-1)^k a_k$.
 \* 2) Cho g là một đa thức trong $A[X]$ và đặt
 $$
 P(X_1, ..., X_n) = g(X_1) ... g(X_n) .

@@ -163,7 +163,9 @@ G_d (II, p. 20, prop. 11). On peut donner des exemples de groupes topologiques G
 4) Unicité. — Elle résulte de la prop. 5 de III, p. 22.
 
 En résumé, nous avons démontré le théorème suivant:
-Théorème 1. — Pour qu’un groupe topologique séparé G soit isomorphe à un sous-groupe partout dense d’un groupe complet $\hat{G}$, il faut et il suffit que l’image, par la symétrie $x \mapsto x^{-1}$, d’un filtre de Cauchy pour la structure uniforme droite de G soit encore un filtre de Cauchy pour cette structure. Le groupe complet $\hat{G}$ (qu’on appelle le groupe complété de G) est alors unique (à un isomorphisme près).
+#### Théorème 1 {#top-iii-s3-thm-1 .statement}
+
+Pour qu’un groupe topologique séparé G soit isomorphe à un sous-groupe partout dense d’un groupe complet $\hat{G}$, il faut et il suffit que l’image, par la symétrie $x \mapsto x^{-1}$, d’un filtre de Cauchy pour la structure uniforme droite de G soit encore un filtre de Cauchy pour cette structure. Le groupe complet $\hat{G}$ (qu’on appelle le groupe complété de G) est alors unique (à un isomorphisme près).
 
 #### Proposition 7 {#top-iii-s3-prop-7 .statement}
 

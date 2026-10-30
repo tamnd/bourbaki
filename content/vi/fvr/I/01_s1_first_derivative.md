@@ -166,7 +166,9 @@ $$
 
 của $E_1 \times E_2 \times \cdots \times E_p$ vào một không gian vectơ tôpô F trên $\mathbf{R}$.
 
-MỆNH ĐỀ 3 . *Với mỗi chỉ số $i$ ($1 \leq i \leq p$), cho $f_i$ là một hàm xác định trên một khoảng $I \subset \mathbf{R}$, nhận giá trị trong $E_i$, và khả vi tại điểm $x_0 \in I$. Khi đó hàm
+#### Mệnh đề 3 {#fvr-i-s1-prop-3 .statement}
+
+*Với mỗi chỉ số $i$ ($1 \leq i \leq p$), cho $f_i$ là một hàm xác định trên một khoảng $I \subset \mathbf{R}$, nhận giá trị trong $E_i$, và khả vi tại điểm $x_0 \in I$. Khi đó hàm
 
 $$
 x \mapsto [f_1(x).f_2(x) \ldots f_p(x)]

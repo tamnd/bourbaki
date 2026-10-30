@@ -163,7 +163,9 @@ L’addition et la multiplication des entiers naturels sont des lois de composit
 
 Les lois citées aux exemples 1), 3) et 4) de I, p. 1–2 sont associatives.
 
-**Théorème 1** (Théorème d’associativité). — *Soit* E *un magma associatif dont la loi est notée* $\tau$. *Soit* A *un ensemble fini non vide, totalement ordonné, réunion d’une séquence de parties non vides* $(B_i)_{i \in I}$ *telles que les relations* $\alpha \in B_i, \beta \in B_j, i < j$ *entraînent* $\alpha < \beta$; *soit* $(x_\alpha)_{\alpha \in A}$ *une séquence d’éléments de* E, *ayant* A *pour ensemble d’indices*. *On a*
+#### Théorème 1 (Théorème d’associativité) {#alg-i-s1-thm-1 .statement}
+
+*Soit* E *un magma associatif dont la loi est notée* $\tau$. *Soit* A *un ensemble fini non vide, totalement ordonné, réunion d’une séquence de parties non vides* $(B_i)_{i \in I}$ *telles que les relations* $\alpha \in B_i, \beta \in B_j, i < j$ *entraînent* $\alpha < \beta$; *soit* $(x_\alpha)_{\alpha \in A}$ *une séquence d’éléments de* E, *ayant* A *pour ensemble d’indices*. *On a*
 
 (3)
 $$
@@ -334,7 +336,9 @@ Soient X' et X'' le commutant et le bicommuntant de X. Ce sont des parties stabl
 
 *Si tous les couples d’éléments d’une partie X sont permutables pour une loi associative $\top$, la loi induite par $\top$ sur la partie stable engendrée par X est associative et commutative.*
 
-**Théorème 2** (théorème de commutativité). — *Soit $\top$ une loi de composition associative sur E; soit $(x_\alpha)_{\alpha \in A}$ une famille finie non vide d’éléments de E, deux à deux permutables; soient B et C deux ensembles totalement ordonnés ayant A pour ensemble sous-jacent. Alors $\prod_{\alpha \in B} x_\alpha = \prod_{\alpha \in C} x_\alpha$*
+#### Théorème 2 (théorème de commutativité) {#alg-i-s1-thm-2 .statement}
+
+*Soit $\top$ une loi de composition associative sur E; soit $(x_\alpha)_{\alpha \in A}$ une famille finie non vide d’éléments de E, deux à deux permutables; soient B et C deux ensembles totalement ordonnés ayant A pour ensemble sous-jacent. Alors $\prod_{\alpha \in B} x_\alpha = \prod_{\alpha \in C} x_\alpha$*
 
 Le théorème étant vrai si A a un seul élément β, raisonnons par récurrence sur le nombre p d’éléments de A. Soit p un entier > 1, supposons le théorème vrai lorsque Card A < p et démontrons-le pour Card A = p. On peut supposer que A est l’intervalle $\{0, p - 1\}$ de $\mathbf{N}$; le composé de la séquence $(x_\alpha)_{\alpha \in A}$ définie par a relation d’ordre naturelle sur A est $\prod_{i=0}^{p-1} x_i$.
 

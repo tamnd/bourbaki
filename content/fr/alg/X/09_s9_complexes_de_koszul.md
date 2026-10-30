@@ -764,7 +764,9 @@ On a alors les implications (i) $\Rightarrow$ (ii) $\Rightarrow$ (iii) $\Leftrig
 
 Le théorème sera démontré aux nos 8 et 9.
 
-*COROLLAIRE 1. — Si A est noethérien, si le A-module M est de type fini et si les $x_i$ appartiennent au radical de A, les conditions (i) à (v) du théorème sont équivalentes.
+#### Corollaire 1 {#alg-x-s9-thm-1-cor-1 .statement}
+
+*Si A est noethérien, si le A-module M est de type fini et si les $x_i$ appartiennent au radical de A, les conditions (i) à (v) du théorème sont équivalentes.
 En effet, sur chacun des modules $M/(x_1 M + \cdots + x_{i-1} M)$ la topologie $x$-adique est séparée (AC III, § 3, no 3, prop. 6).
 
 #### Corollaire 2 {#alg-x-s9-thm-1-cor-2 .statement}

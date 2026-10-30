@@ -155,7 +155,9 @@ và do đó dãy $(G_n)$ dừng và $X$ là Noether.
 
 Ngược lại, giả sử rằng mọi tập mở của $X$ đều quasi-compact và cho $(U_i)$ là một dãy tăng các tập con mở của $X$. Hợp $V$ của các $U_i$ là mở và do đó quasi-compact; vì $(U_i)$ là một phủ mở của $V$, tồn tại một họ con hữu hạn của $(U_i)$ là một phủ của $V$ và do đó $V = U_n$ với một chỉ số $n$ nào đó, điều này chứng minh rằng dãy $(U_i)$ dừng.
 
-**Bổ đề 1 ("Nguyên lý quy nạp Noether").** *Cho E là một tập hợp có thứ tự mà mọi tập con khác rỗng của nó đều nhận một phần tử cực tiểu. Cho F là một tập con của E có tính chất sau: nếu $a \in E$ là sao cho quan hệ $x < a$ kéo theo $x \in F$, thì $a \in F$. Khi đó $F = E$.*
+#### Bổ đề 1 ("Nguyên lý quy nạp Noether") {#ac-ii-s4-lem-1 .statement}
+
+*Cho E là một tập hợp có thứ tự mà mọi tập con khác rỗng của nó đều nhận một phần tử cực tiểu. Cho F là một tập con của E có tính chất sau: nếu $a \in E$ là sao cho quan hệ $x < a$ kéo theo $x \in F$, thì $a \in F$. Khi đó $F = E$.*
 
 Giả sử $F \neq E$; khi đó $CF$ sẽ có một phần tử cực tiểu $b$. Theo định nghĩa, $x \in F$ với mọi $x < b$, điều này kéo theo rằng $b \in F$, là một mâu thuẫn.
 

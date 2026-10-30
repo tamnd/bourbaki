@@ -696,7 +696,9 @@ $$
 On dit encore qu’un système (34) tel que det $L$ soit inversible est un *système de Cramer*.
 
 Faisons en particulier $y = 0$; il résulte alors de III, p. 91, prop. 3 que:
-PROPOSITION 14. — Pour qu’un système linéaire homogène de n équations à n inconnues sur un anneau commutatif admette une solution non nulle, il faut et il suffit que le déterminant de sa matrice soit diviseur de zéro.
+#### Proposition 14 {#alg-iii-s8-prop-14 .statement}
+
+Pour qu’un système linéaire homogène de n équations à n inconnues sur un anneau commutatif admette une solution non nulle, il faut et il suffit que le déterminant de sa matrice soit diviseur de zéro.
 
 ### 8. Cas d’un corps commutatif
 

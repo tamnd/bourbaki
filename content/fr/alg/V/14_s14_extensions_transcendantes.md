@@ -394,7 +394,9 @@ Pour tout $i \in I$, soit $B_i$ une base de transcendance de $E_i$ sur $K$. Soit
 *Soit $\Omega$ un corps algébriquement clos de degré de transcendance infini sur son sous-corps premier. Tout corps de même caractéristique que $\Omega$ est réunion filtrante croissante de corps isomorphes à des sous-corps de $\Omega$.
 En effet, tout corps est réunion filtrante croissante de ses sous-corps de type fini sur le corps premier, et il suffit d’appliquer le cor. 1.
 
-*Exemple. — Cela s’applique notamment en caractéristique 0 en prenant $\Omega = \mathbf{C}$ (« principe de Lefschetz »). \*
+#### Exemple {#alg-v-s14-n6-exa-1 .statement}
+
+*Cela s’applique notamment en caractéristique 0 en prenant $\Omega = \mathbf{C}$ (« principe de Lefschetz »). \*
 
 ### 7. Extensions de type fini
 

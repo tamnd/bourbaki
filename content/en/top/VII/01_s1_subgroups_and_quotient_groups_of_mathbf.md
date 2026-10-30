@@ -95,7 +95,9 @@ The result of Proposition 1 can be expressed as follows: if $q$ points $x_i$ ($1
 
 The Corollary to Proposition 1, applied to the case where the $a_i$ are the $n$ vectors $e_i$ of the canonical basis of $\mathbf{R}^n$, gives us the following proposition:
 
-**Proposition 2 (Kronecker).** *Let $\theta_1, \theta_2, \ldots, \theta_n$ be $n$ real numbers. In order that, for each $\varepsilon > 0$, there exist an integer $q$ and $n$ integers*
+#### Proposition 2 (Kronecker) {#top-vii-s1-prop-2 .statement}
+
+*Let $\theta_1, \theta_2, \ldots, \theta_n$ be $n$ real numbers. In order that, for each $\varepsilon > 0$, there exist an integer $q$ and $n$ integers*
 $$
 p_i \quad (1 \leq i \leq n)
 $$

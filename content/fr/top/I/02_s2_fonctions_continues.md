@@ -133,7 +133,9 @@ Le th. 2 de I, p. 10 montre que l’on peut prendre pour morphismes des structur
 Deux topologies dont l’une est plus fine que l’autre sont dites comparables.
 
 Les critères de continuité d’une application (I, p. 8, déf. 1 et I, p. 9, th. 1) donnent aussitôt la proposition suivante:
-Proposition 3. — Étant données deux topologies $\mathscr{T}_1, \mathscr{T}_2$ sur un ensemble X, les propositions suivantes sont équivalentes:
+#### Proposition 3 {#top-i-s2-prop-3 .statement}
+
+Étant données deux topologies $\mathscr{T}_1, \mathscr{T}_2$ sur un ensemble X, les propositions suivantes sont équivalentes:
 a) $\mathscr{T}_1$ est plus fine que $\mathscr{T}_2$.
 b) Pour tout $x \in X$, tout voisinage de x pour $\mathscr{T}_2$ est un voisinage de x pour $\mathscr{T}_1$.
 c) Pour toute partie A de X, l’adhérence de A pour $\mathscr{T}_1$ est contenue dans l’adhérence de A pour $\mathscr{T}_2$.

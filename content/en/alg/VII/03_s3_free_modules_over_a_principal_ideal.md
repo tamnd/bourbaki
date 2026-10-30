@@ -38,7 +38,9 @@ Indeed every projective $A$-module is a submodule of a free $A$-module (II, p. 2
 #### Corollary 3 {#alg-vii-s3-thm-1-cor-3 .statement}
 
 — *Every projective module over a principal ideal domain is free.*
-*Remark.* — The proof of Th. 1 shows that every submodule of $A^{(I)}$ is isomorphic to a direct sum $\bigoplus a_i$, where each $a_i$ is an ideal of $A$.
+#### Remark {#alg-vii-s3-n0-rem-1 .statement}
+
+The proof of Th. 1 shows that every submodule of $A^{(I)}$ is isomorphic to a direct sum $\bigoplus a_i$, where each $a_i$ is an ideal of $A$.
 
 PROPOSITION I. — *If L is a free module of finite rank n over a principal ideal domain A, then every submodule M of L is a free module of rank $\leq n$.*
     Indeed M is a free module by Cor. 2 to Th. 1, and it has rank $\leq n$ by the previous remark, or by the following lemma:

@@ -619,7 +619,9 @@ $$
 qu’on en déduit par passage au quotient, sont dites *canoniques*.
 
 En particulier:
-**Proposition 8.** — *Si une famille* $(M_i)_{i \in I}$ *de sous-modules de* $E$ *a une intersection réduite à* $0$, *E est canoniquement isomorphe à un sous-module de* $\prod_{i \in I} (E/M_i)$.
+#### Proposition 8 {#alg-ii-s1-prop-8 .statement}
+
+*Si une famille* $(M_i)_{i \in I}$ *de sous-modules de* $E$ *a une intersection réduite à* $0$, *E est canoniquement isomorphe à un sous-module de* $\prod_{i \in I} (E/M_i)$.
 
 Étant donnée une partie $X$ d’un A-module $E$, l’intersection $F$ des sous-modules de $E$ contenant $X$ est appelée le sous-module *engendré* par $X$ et on dit que $X$ est un *ensemble générateur* (ou un *système générateur*) de $F$ (I, p. 32); pour une famille $(a_i)_{i \in I}$ d’éléments de $E$, on appelle sous-module engendré par la famille $(a_i)$ le sous-module engendré par l’ensemble des $a_i$.
 

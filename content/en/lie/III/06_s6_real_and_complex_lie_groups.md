@@ -696,7 +696,9 @@ $$
 
 (no. 4, Corollary 3 to Proposition 10). By Proposition 18 it then suffices to prove that $\mathrm{Sp}\,\sigma(u)$ does not meet $2i\pi(\mathbf{Z} - \{0\})$. But this follows from the following lemma:
 
-*Lemma 6. If $v \in \mathscr{L}(E)$, then $\mathrm{Sp}\,\sigma(v) \subset \mathrm{Sp}\,v + \mathrm{Sp}\,v + \cdots + \mathrm{Sp}\,v$, where the sum comprises $n+1$ terms.*
+#### Lemma 6 {#lie-iii-s6-lem-6 .statement}
+
+*If $v \in \mathscr{L}(E)$, then $\mathrm{Sp}\,\sigma(v) \subset \mathrm{Sp}\,v + \mathrm{Sp}\,v + \cdots + \mathrm{Sp}\,v$, where the sum comprises $n+1$ terms.*
 
 We define elements $v_0, v_1, \ldots, v_n$ of $\mathscr{L}(F)$ by writing, for all $f \in F$,
 

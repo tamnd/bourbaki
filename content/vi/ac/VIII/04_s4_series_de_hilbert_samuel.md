@@ -120,7 +120,9 @@ $$
 
 Nếu $F = \sum_{n \in \mathbf{Z}} a_n T^n$ và $G = \sum_{n \in \mathbf{Z}} b_n T^n$ là hai phần tử của $\mathbf{Z}((T))$, người ta ký hiệu bởi “ $F \leq G$ ” quan hệ “ $a_n \leq b_n$ với mọi $n \in \mathbf{Z}$ ”. Đây là một quan hệ thứ tự tương thích với cấu trúc vành của $\mathbf{Z}((T))$ (A, VI, p. 18, Định nghĩa 1). Ta có $(1-T)^{-1} \geq 1$. Nếu $Q \in \mathbf{Z}[T, T^{-1}]$ là $\geq 0$, thì số nguyên $Q(1)$ là dương.
 
-**Bổ đề 2. — a)** Cho $F$ là một phần tử khác không của $\mathbf{Z}((T))$ sao cho tồn tại $r \in \mathbf{Z}$, với $(1-T)^r F \in \mathbf{Z}[T, T^{-1}]$; khi đó $F$ có thể được viết duy nhất dưới dạng $F = (1-T)^{-d}.Q$, trong đó $Q \in \mathbf{Z}[T, T^{-1}]$, $Q(1) \neq 0$ và $d \in \mathbf{Z}$. Nếu $F \geq 0$, thì ta có $Q(1) > 0$ và $d \geq 0$.
+#### Bổ đề 2 {#ac-viii-s4-lem-2 .statement}
+
+**a)** Cho $F$ là một phần tử khác không của $\mathbf{Z}((T))$ sao cho tồn tại $r \in \mathbf{Z}$, với $(1-T)^r F \in \mathbf{Z}[T, T^{-1}]$; khi đó $F$ có thể được viết duy nhất dưới dạng $F = (1-T)^{-d}.Q$, trong đó $Q \in \mathbf{Z}[T, T^{-1}]$, $Q(1) \neq 0$ và $d \in \mathbf{Z}$. Nếu $F \geq 0$, thì ta có $Q(1) > 0$ và $d \geq 0$.
 
 b) Cho $Q, R$ thuộc $\mathbf{Z}[T, T^{-1}]$, $d, d'$ thuộc $\mathbf{Z}$ với $Q(1) > 0$. Nếu
 

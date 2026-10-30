@@ -62,7 +62,9 @@ Với mỗi tập con hữu hạn $H$ của tập chỉ số $I$, đặt $s_H = 
 
 Cho $(H_\lambda)$ là một họ các tập con hữu hạn của $I$ sao cho, với mỗi tập con hữu hạn $H$ của $I$, tồn tại một chỉ số $\lambda$ sao cho $H \subset H_\lambda$; khi đó $(x_i)$ là khả tổng nếu và chỉ nếu họ các $s_{H_\lambda}$ bị *chặn trên* trong $\mathbf{R}$. Đặc biệt, cho $(x_n)$ là một dãy các số thực hữu hạn $\geqslant 0$, và với mỗi số nguyên $n$ đặt $s_n = \sum_{p=0}^n x_p$; khi đó dãy $(x_n)$ là khả tổng trong $\mathbf{R}$ nếu và chỉ nếu, đối với *một dãy* các số nguyên tăng ngặt $(n_k)$, dãy bộ phận $(s_{n_k})$ bị *chặn trên* trong $\mathbf{R}$.
 
-*Ví dụ.* 1) Với mỗi số $q$ sao cho $0 \leqslant q < 1$, dãy $(q^n)$ ("cấp số nhân có công bội $q$") là khả tổng trong $\mathbf{R}$, vì
+#### Ví dụ {#top-iv-s7-n1-exa-4 .statement}
+
+1) Với mỗi số $q$ sao cho $0 \leqslant q < 1$, dãy $(q^n)$ ("cấp số nhân có công bội $q$") là khả tổng trong $\mathbf{R}$, vì
 $$
 s_n = \frac{1 - q^{n+1}}{1 - q} \leqslant \frac{1}{1 - q}
 $$
@@ -185,7 +187,9 @@ Trong nhóm nhân $\mathbf{R}^*$ của các số thực khác không hữu hạn
 #### Định lý 4 {#top-iv-s7-thm-4 .statement}
 
 *Họ* $(1 + u_i)$ *là khả nhân trong* $\mathbf{R}^*$ *khi và chỉ khi họ* $(u_i)$ *là khả tổng trong* $\mathbf{R}$.
-**Bổ đề.** (i) *Nếu* $(a_i)_{1 \leq i \leq p}$ *là một dãy hữu hạn các số* $> 0$, *thì*
+#### Bổ đề (i) {#top-iv-s7-n4-lem-1 .statement}
+
+*Nếu* $(a_i)_{1 \leq i \leq p}$ *là một dãy hữu hạn các số* $> 0$, *thì*
 $$
 \prod_{i=1}^p (1 + a_i) \geq 1 + \sum_{i=1}^p a_i.
 $$

@@ -38,7 +38,9 @@ Dans les propositions démontrées au § 1, hypothèses et conclusions ont un ca
 
 ### 1. Théorème de Rolle
 
-**Proposition 1** (« théorème de Rolle »). — Soit $f$ une fonction numérique finie et continue dans un intervalle fermé $I = [a, b]$ (où $a < b$), admettant en tout point de $]a, b[$ une dérivée (finie ou non), et telle que $f(a) = f(b)$. Il existe alors un point $c$ (au moins) de $]a, b[$ tel que $f'(c) = 0$.
+#### Proposition 1 (« théorème de Rolle ») {#fvr-i-s2-prop-1 .statement}
+
+Soit $f$ une fonction numérique finie et continue dans un intervalle fermé $I = [a, b]$ (où $a < b$), admettant en tout point de $]a, b[$ une dérivée (finie ou non), et telle que $f(a) = f(b)$. Il existe alors un point $c$ (au moins) de $]a, b[$ tel que $f'(c) = 0$.
 
 La proposition est évidente si $f$ est constante; sinon $f$ prend par exemple des valeurs $> f(a)$, et atteint donc sa borne supérieure en un point $c$ intérieur à $I$ (TG, IV, p. 27, th. 1). Comme en ce point $f$ admet un maximum relatif, on a $f'(c) = 0$ (I, p. 20, prop. 7).
 

@@ -379,7 +379,9 @@ space (Hausdorff or not) is $\mu$-measurable if and only if the set of compact s
 
 ### 6. Directed families; support of a measure
 
-**Proposition 5. — a)** *Let H be an increasing directed set of functions $\geqslant 0$ that are lower semi-continuous on every compact subset of T. Then*
+#### Proposition 5 {#int-ix-s1-prop-5 .statement}
+
+**a)** *Let H be an increasing directed set of functions $\geqslant 0$ that are lower semi-continuous on every compact subset of T. Then*
 
 $$
 \mu^\bullet \left( \sup_{h \in H} h \right) = \sup_{h \in H} \mu^\bullet(h).

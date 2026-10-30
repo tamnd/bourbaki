@@ -83,7 +83,9 @@ $$
 \operatorname{Hom}(1_F, f_{\alpha \beta}) = \bar{f}_{\alpha \beta} : \operatorname{Hom}_A(F, E_\beta) \to \operatorname{Hom}_A(F, E_\alpha)
 $$
 est un homomorphisme de $\mathbf{Z}$-modules tel que $(\operatorname{Hom}_A(F, E_\alpha), \bar{f}_{\alpha \beta})$ soit un système projectif de $\mathbf{Z}$-modules; comme $\bar{f}_{\alpha \beta}(v_\beta) = f_{\alpha \beta} \circ v_\beta$, les remarques précédentes peuvent donc s’exprimer de la façon suivante:
-**Proposition 2.** — *Pour tout système projectif* $(E_\alpha, f_{\alpha \beta})$ *de A-modules et tout A-module F, l’application canonique* $u \mapsto (f_\alpha \circ u)$ *est un isomorphisme de* $\mathbf{Z}$*-modules*
+#### Proposition 2 {#alg-ii-s6-prop-2 .statement}
+
+*Pour tout système projectif* $(E_\alpha, f_{\alpha \beta})$ *de A-modules et tout A-module F, l’application canonique* $u \mapsto (f_\alpha \circ u)$ *est un isomorphisme de* $\mathbf{Z}$*-modules*
 (2)
 $$
 l_F : \operatorname{Hom}_A(F, \lim_{\leftarrow} E_\alpha) \to \lim_{\leftarrow} \operatorname{Hom}_A(F, E_\alpha).

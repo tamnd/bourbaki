@@ -969,7 +969,9 @@ $$
 
 Phần a) suy ra từ Bổ đề 4 áp dụng cho phức có đồng điều không được xác định bởi dãy khớp đồng điều liên kết với dãy khớp đã cho. Phần b) suy ra, khi xét dãy khớp đồng điều này, từ bổ đề sau:
 
-*Bổ đề 5. — Cho $M \to N \to P \to Q \to R$ là một dãy khớp các $A$-môđun. Nếu $\mathscr{C}$ ổn định, và nếu $M, N, Q$ và $R$ thuộc kiểu $\mathscr{C}$, thì môđun $P$ thuộc kiểu $\mathscr{C}$.
+#### Bổ đề 5 {#alg-x-s2-lem-5 .statement}
+
+*Cho $M \to N \to P \to Q \to R$ là một dãy khớp các $A$-môđun. Nếu $\mathscr{C}$ ổn định, và nếu $M, N, Q$ và $R$ thuộc kiểu $\mathscr{C}$, thì môđun $P$ thuộc kiểu $\mathscr{C}$.
 Đặt $N' = \operatorname{Coker}(M \to N)$ và $Q' = \operatorname{Ker}(Q \to R)$. Các môđun $N'$ và $Q'$ thuộc kiểu $\mathscr{C}$, và ta có một dãy khớp $0 \to N' \to P \to Q' \to 0$.*
 
 #### Hệ quả {#alg-x-s2-n8-cor-2 .statement}
@@ -984,7 +986,9 @@ $$
 0 \to C \to \operatorname{Con}(u) \to C'(-1) \to 0 .
 $$
 
-*Nhận xét. — Cho $E$ là một phức, $h : E \to C$ và $h' : E \to C'$ là các tương đương đồng luân với $C$ và $C'$ bị chặn kiểu $\mathscr{C}$. Khi đó $\chi(C) = \chi(C')$. Thật vậy, nếu $h_1$ là một nghịch đảo của $h$ với sai khác đồng luân, thì $h' \circ h_1$ là một tương đương đồng luân, do đó là một đẳng cấu đồng điều từ $C$ tới $C'$, và ta có thể áp dụng Mệnh đề 10. Do đó, ta có thể mở rộng Định nghĩa 8 bằng cách đặt $\chi(E) = \chi(C)$ mỗi khi tồn tại một tương đương đồng luân từ $E$ tới một phức $C$ bị chặn kiểu $\mathscr{C}$. Các Mệnh đề 10, 11, 12 và các hệ quả của chúng được tổng quát hóa trong cách đặt này.*
+#### Nhận xét {#alg-x-s2-n8-rem-2 .statement}
+
+*Cho $E$ là một phức, $h : E \to C$ và $h' : E \to C'$ là các tương đương đồng luân với $C$ và $C'$ bị chặn kiểu $\mathscr{C}$. Khi đó $\chi(C) = \chi(C')$. Thật vậy, nếu $h_1$ là một nghịch đảo của $h$ với sai khác đồng luân, thì $h' \circ h_1$ là một tương đương đồng luân, do đó là một đẳng cấu đồng điều từ $C$ tới $C'$, và ta có thể áp dụng Mệnh đề 10. Do đó, ta có thể mở rộng Định nghĩa 8 bằng cách đặt $\chi(E) = \chi(C)$ mỗi khi tồn tại một tương đương đồng luân từ $E$ tới một phức $C$ bị chặn kiểu $\mathscr{C}$. Các Mệnh đề 10, 11, 12 và các hệ quả của chúng được tổng quát hóa trong cách đặt này.*
 
 Áp dụng:
 

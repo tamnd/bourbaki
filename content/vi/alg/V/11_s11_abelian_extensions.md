@@ -335,7 +335,9 @@ Có thể chứng minh rằng với mọi mở rộng Abel $E$ bậc hữu hạn
 
 — *Một mở rộng E của K được gọi là cyclic nếu nó là Galois và nhóm Galois của nó là cyclic.*
 
-*Ví dụ. — 1) Mọi mở rộng Galois bậc nguyên tố đều là cyclic, vì mọi nhóm hữu hạn G có cấp nguyên tố $p$ đều là cyclic (vì mọi phần tử $x \neq 1$ của G đều có cấp $p$, nên sinh ra G).
+#### Ví dụ {#alg-v-s11-n6-exa-1 .statement}
+
+*1) Mọi mở rộng Galois bậc nguyên tố đều là cyclic, vì mọi nhóm hữu hạn G có cấp nguyên tố $p$ đều là cyclic (vì mọi phần tử $x \neq 1$ của G đều có cấp $p$, nên sinh ra G).
 
 2) Cho $F(X) = X^2 + aX + b$ là một đa thức bất khả quy trong $K[X]$. Trường hợp duy nhất mà $F(X)$ không tách được là khi $K$ có đặc số 2 và $a = 0$. Ta sẽ gác trường hợp này sang một bên; gọi E là một mở rộng của K được sinh bởi một nghiệm $x$ của $F(X)$. Ta có $[E : K] = 2$ và $F(X) = (X - x)(X + a + x)$, do đó E là một mở rộng Galois của K. Nhóm Galois của E trên K có cấp 2, nên là cyclic.
 

@@ -707,7 +707,9 @@ $$
 
 où le second membre est le produit de la séquence $(h_i(x_i))_{i \in J}$, et où dans le troisième membre, $x'_i = x_i$ pour $i \in J$, $x'_i = e_i$ pour $i \notin J$.
 
-**Proposition 11** (« associativité » du $\varepsilon$-produit tensoriel). — *Avec les notations de la prop. 10 (III, p. 47), soit $(J_\lambda)_{\lambda \in L}$ une partition de $I$, et posons $\Delta'_\lambda = \prod_{i \in J_\lambda} \Delta_i$ pour tout $\lambda \in L$. Soit $E'_\lambda$ un $\varepsilon$-produit tensoriel gradué de type $\Delta'_\lambda$ de la famille $(E_i)_{i \in J_\lambda}$ (pour un ordre total choisi sur $J_\lambda$). D’autre part, pour $\lambda, \mu$ dans $L$ et $\lambda \neq \mu$, posons, pour $\alpha'_\lambda = (\alpha_i)_{i \in J_\lambda}$, $\beta'_\mu = (\beta_j)_{j \in J_\mu}$,
+#### Proposition 11 (« associativité » du $\varepsilon$-produit tensoriel) {#alg-iii-s4-prop-11 .statement}
+
+*Avec les notations de la prop. 10 (III, p. 47), soit $(J_\lambda)_{\lambda \in L}$ une partition de $I$, et posons $\Delta'_\lambda = \prod_{i \in J_\lambda} \Delta_i$ pour tout $\lambda \in L$. Soit $E'_\lambda$ un $\varepsilon$-produit tensoriel gradué de type $\Delta'_\lambda$ de la famille $(E_i)_{i \in J_\lambda}$ (pour un ordre total choisi sur $J_\lambda$). D’autre part, pour $\lambda, \mu$ dans $L$ et $\lambda \neq \mu$, posons, pour $\alpha'_\lambda = (\alpha_i)_{i \in J_\lambda}$, $\beta'_\mu = (\beta_j)_{j \in J_\mu}$,
 
 $$
 \varepsilon'_{\lambda \mu}(\alpha'_\lambda, \beta'_\mu) = \prod_{i \in J_\lambda, j \in J_\mu} \varepsilon_{ij}(\alpha_i, \beta_j).

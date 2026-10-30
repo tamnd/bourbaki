@@ -51,7 +51,9 @@ content_sha256: 78bad4a38482e70f1807c8254be6bb91f40f65b5862b61785479b797aa2efcfe
 
 Rappelons (*Top. gén.*, chap. IX, 3e éd., § 1, n° 5, déf. 4) qu'un espace topologique T est dit *complètement régulier* s'il est uniformisable et séparé. Cela équivaut à dire (*loc. cit.*, prop. 3) que T est homéomorphe à un sous-espace d'un espace compact. Si T est complètement régulier, toute fonction semi-continue inférieurement positive f sur T est l'enveloppe supérieure de l'ensemble filtrant croissant des éléments de $C^b_+(T)$ majorés par f, toute fonction semi-continue supérieurement positive et bornée g est l'enveloppe inférieure de l'ensemble filtrant décroissant des éléments de $C^b_+(T)$ qui majorent g (*loc. cit.*, § 1, n° 7, prop. 7). Nous aurons aussi besoin du lemme suivant:
 
-*Lemme 1. — Soient T un espace complètement régulier, K une partie compacte de T et U une partie ouverte de T contenant K.*
+#### Lemme 1 {#int-ix-s5-n1-lem-1 .statement}
+
+*Soient T un espace complètement régulier, K une partie compacte de T et U une partie ouverte de T contenant K.*
 
 a) Il existe une partie ouverte $U'$ de $T$ tel que $K \subset U' \subset \overline{U}' \subset U$.
 

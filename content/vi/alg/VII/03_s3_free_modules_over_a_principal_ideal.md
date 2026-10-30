@@ -45,7 +45,9 @@ Thật vậy mọi $A$-môđun xạ ảnh đều là một môđun con của m�
 #### Hệ quả 3 {#alg-vii-s3-thm-1-cor-3 .statement}
 
 — *Mọi môđun xạ ảnh trên một miền iđêan chính đều tự do.*
-*Nhận xét.* — Chứng minh của Định lý 1 cho thấy rằng mọi môđun con của $A^{(I)}$ đều đẳng cấu với một tổng trực tiếp $\bigoplus a_i$, trong đó mỗi $a_i$ là một iđêan của $A$.
+#### Nhận xét {#alg-vii-s3-n0-rem-1 .statement}
+
+Chứng minh của Định lý 1 cho thấy rằng mọi môđun con của $A^{(I)}$ đều đẳng cấu với một tổng trực tiếp $\bigoplus a_i$, trong đó mỗi $a_i$ là một iđêan của $A$.
 
 MỆNH ĐỀ I. — *Nếu L là một môđun tự do hạng hữu hạn n trên một miền iđêan chính A, thì mọi môđun con M của L đều là một môđun tự do hạng $\leq n$.*
     Thật vậy M là một môđun tự do theo Hệ quả 2 của Định lý 1, và nó có hạng $\leq n$ theo nhận xét trước, hoặc theo bổ đề sau:

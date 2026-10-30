@@ -125,7 +125,9 @@ $$
 
 (the complements' relation).
 
-COROLLARY — For every real $t$ one has
+#### Corollary {#fvr-vii-s2-n2-cor-1 .statement}
+
+For every real $t$ one has
 
 $$
 |\Gamma(it)| = \sqrt{\frac{\pi}{t \sinh \pi t}} \quad (t \neq 0)

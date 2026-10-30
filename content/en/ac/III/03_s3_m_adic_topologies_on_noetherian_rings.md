@@ -183,7 +183,9 @@ It follows immediately from the definitions that (a) implies (c). The fact that 
 Let $(E_n)$ be an m-good filtration on $E$. As this filtration is exhaustive, every element of $E$ belongs to one of the $E_n$ and, as $E$ is finitely generated and the $E_n$ are $A$-modules, there exists an integer $n_1$ such that $E_{n_1} = E$. On the other hand let $n_0$ be such that $mE_n = E_{n+1}$ for $n \geq n_0$; then, for $n > n_0 - n_1$,
 $m^n E \subset E_{n+n_1} = m^{n+n_1-n_0} E_{n_0} \subset m^{n+n_1-n_0} E$, which proves the proposition.
 
-**Theorem 2 (Krull).** *Let $A$ be a commutative Noetherian ring, $m$ an ideal of $A$, $E$ a finitely generated $A$-module and $F$ a submodule of $E$. Then the $m$-adic topology on $F$ is induced by the $m$-adic topology on $E$.
+#### Theorem 2 (Krull) {#ac-iii-s3-thm-2 .statement}
+
+*Let $A$ be a commutative Noetherian ring, $m$ an ideal of $A$, $E$ a finitely generated $A$-module and $F$ a submodule of $E$. Then the $m$-adic topology on $F$ is induced by the $m$-adic topology on $E$.
 
 It follows from no. 1, Proposition 1 that the filtration induced on $F$ by the $m$-adic filtration on $E$ is m-good and the conclusion then follows from Proposition 4.
 

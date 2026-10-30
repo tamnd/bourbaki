@@ -101,7 +101,9 @@ $$
 
 Theo giả thiết, $l(w) \leq p$, $l(w') \leq q$ và $l(ww') = p + q$. Theo (1), ta phải có $l(w) = p$ và $l(w') = q$, do đó có hệ quả.
 
-*Nhận xét* Theo các công thức (1) và (2), công thức $d(w, w') = l(w{w'}^{-1})$ xác định một khoảng cách trên $W$, bất biến qua các phép tịnh tiến phải.
+#### Nhận xét {#lie-iv-s1-n1-rem-1 .statement}
+
+Theo các công thức (1) và (2), công thức $d(w, w') = l(w{w'}^{-1})$ xác định một khoảng cách trên $W$, bất biến qua các phép tịnh tiến phải.
 
 ### 2. CÁC NHÓM NHỊ DIỆN
 

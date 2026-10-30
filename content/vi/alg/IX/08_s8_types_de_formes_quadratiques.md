@@ -104,7 +104,9 @@ Thật vậy, hạn chế của $Q \tau (-Q)$ lên đường chéo D của $V \t
 
 *Tập hợp các kiểu của các dạng toàn phương không suy biến, hữu hạn chiều trên $A$, được trang bị phép cộng định nghĩa bởi (2), được gọi là nhóm các kiểu của dạng toàn phương, hay nhóm Witt, của $A$.*
 
-*Nhận xét. —* 1) Mọi dạng toàn phương không suy biến $Q$ hữu hạn chiều có kiểu bằng không (nghĩa là sao cho $\theta(Q) = T_0$ theo ký hiệu trên) là một dạng trung hòa. Thật vậy, tồn tại các dạng trung hòa $N, N'$ sao cho $Q \tau N$ tương đương với $N'$. Điều này cho thấy rằng $Q$ có chiều chẵn, và do đó tồn tại một dạng trung hòa $N_1$ có cùng chiều với $Q$. Vì $Q$ và $N_1$ có cùng kiểu, theo mệnh đề 1 suy ra chúng tương đương, và vì thế $Q$ là trung hòa.
+#### Nhận xét {#alg-ix-s8-n2-rem-1 .statement}
+
+1) Mọi dạng toàn phương không suy biến $Q$ hữu hạn chiều có kiểu bằng không (nghĩa là sao cho $\theta(Q) = T_0$ theo ký hiệu trên) là một dạng trung hòa. Thật vậy, tồn tại các dạng trung hòa $N, N'$ sao cho $Q \tau N$ tương đương với $N'$. Điều này cho thấy rằng $Q$ có chiều chẵn, và do đó tồn tại một dạng trung hòa $N_1$ có cùng chiều với $Q$. Vì $Q$ và $N_1$ có cùng kiểu, theo mệnh đề 1 suy ra chúng tương đương, và vì thế $Q$ là trung hòa.
 
 2) Với mọi dạng toàn phương hữu hạn chiều $Q$ trên $A$, ký hiệu $\delta(Q)$ là lớp modulo 2 của chiều của $Q$. Ta có
 $$

@@ -68,7 +68,9 @@ Trong phần sau ta ký hiệu V là một không gian vectơ định chuẩn tr
 
 Nếu $f$ và $g$ là hai hàm trong $\mathscr{H}(\mathfrak{F}, \mathbf{R})$, quan hệ "có một $X \in \mathfrak{F}$ sao cho $f$ và $g$ được xác định trên $X$ và $f(t) \leq g(t)$ với mọi $t \in X$" là có tính chất địa phương đối với $f$ và $g$. Ta ký hiệu $\tilde{f} \leq \tilde{g}$ quan hệ thu được bằng cách chuyển qua tập thương (đối với $f$ và $g$); ta nhận xét rằng nếu $\tilde{f} \leq \tilde{g}$ thì tồn tại một hàm $f_1 \in \tilde{f}$ và một hàm $g_1 \in \tilde{g}$, được xác định trên *toàn bộ* E, sao cho $f_1(t) \leq g_1(t)$ với mọi $t \in E$.
 
-*Nhận xét.* 1) Cho $V_i$ ($1 \leq i \leq n$) là $n$ không gian vectơ định chuẩn trên K, và $\varphi$ là một hàm được xác định trên $V_1 \times V_2 \times \cdots \times V_n$, nhận giá trị trong V; khi chuyển qua thương theo $R_\infty$ thì hàm $\varphi$ xác định một ánh xạ từ
+#### Nhận xét {#fvr-v-s1-n1-rem-3 .statement}
+
+1) Cho $V_i$ ($1 \leq i \leq n$) là $n$ không gian vectơ định chuẩn trên K, và $\varphi$ là một hàm được xác định trên $V_1 \times V_2 \times \cdots \times V_n$, nhận giá trị trong V; khi chuyển qua thương theo $R_\infty$ thì hàm $\varphi$ xác định một ánh xạ từ
 $$
 \mathscr{H}_\infty(\mathfrak{F}, V_1) \times \cdots \times \mathscr{H}_\infty(\mathfrak{F}, V_n)
 $$
@@ -88,7 +90,9 @@ Quan hệ $f_1 \preccurlyeq f_2$ rõ ràng có đặc trưng địa phương the
 
 Chú ý rằng với mọi vô hướng $\lambda \neq 0$ quan hệ $f_1 \preccurlyeq f_2 \lambda$ *tương đương với* $f_1 \preccurlyeq f_2$. Nếu $f_1 \preccurlyeq f_2$ thì tồn tại một tập hợp $X \in \mathfrak{F}$ sao cho $f_1(x) = 0$ với mọi điểm $x \in X$ mà ở đó $f_2(x) = 0$.
 
-*Ví dụ.* 1) Quan hệ $f \preccurlyeq 1$ có nghĩa là $f$ *bị chặn* trên một tập hợp của $\mathfrak{F}$.
+#### Ví dụ {#fvr-v-s1-n1-exa-6 .statement}
+
+1) Quan hệ $f \preccurlyeq 1$ có nghĩa là $f$ *bị chặn* trên một tập hợp của $\mathfrak{F}$.
 
 2) Với mọi hàm $f$ của $\mathscr{H}(\mathfrak{F}, V)$, và với mọi vô hướng $\lambda \neq 0$, ta có $f \preccurlyeq f \lambda$.
 3) Khi $x$ tiến tới $+\infty$ thì $\sin^2 x \preccurlyeq \sin x$.
@@ -172,7 +176,9 @@ Với mọi vô hướng $\lambda \neq 0$, quan hệ $f_1 \ll f_2 \lambda$ *tư�
 
 Chú ý rằng quan hệ $f_1 \preccurlyeq f_2$ hoàn toàn không suy ra quan hệ "f_1 \ll f_2 \text{ hoặc } f_1 \asymp f_2 \text{": ta có } \sin x \preccurlyeq 1 \text{ khi } x \text{ tiến tới } +\infty, \text{ nhưng không quan hệ nào trong hai quan hệ } \sin x \ll 1 \text{ hoặc } \sin x \asymp 1 \text{ là đúng.}"
 
-*Ví dụ.* 1) Quan hệ $f \ll 1$ có nghĩa là $f$ *tiến tới 0 theo* $\mathfrak{F}$.
+#### Ví dụ {#fvr-v-s1-n2-exa-8 .statement}
+
+1) Quan hệ $f \ll 1$ có nghĩa là $f$ *tiến tới 0 theo* $\mathfrak{F}$.
 
 2) Khi $\alpha$ và $\beta$ là hai số thực sao cho $\alpha < \beta$ ta có $x^\alpha \ll x^\beta$ khi $x$ tiến tới $+\infty$. Tương tự, khi $m$ và $n$ là hai số nguyên sao cho $m < n$ ta có $z^m \ll z^n$ khi số phức $z$ tiến tới $\infty$.
 

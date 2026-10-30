@@ -622,7 +622,9 @@ Finally, suppose condition (e) holds. By (a) $\Rightarrow$ (b), there exists a f
 
 Let A be a ring. Let $(a_i)_{i \in I}$ be a finite family of subgroups of the additive group $A^+$ of A such that $A^+$ is the direct sum of the $a_i$. Suppose $a_i a_i \subset ai$ for $i \in I$ and $a_i a_j = \{0\}$ for $i \neq j$. Then $a_i$ is for all $i \in I$ a two-sided ideal of A. With addition and multiplication induced by those on A, $a_i$ is a ring with unit element the component of $1 \in A$ in $a_i$. If $b_i = \sum_{j \neq i} a_j$, clearly the $b_i$ satisfy condition (c) of Proposition 10 and hence $(b_i)_{i \in I}$ is a direct decomposition of A, which is said to be *defined by* $(a_i)_{i \in I}$.
 
-*Example*: *Ideals and quotient rings of* $\mathbf{Z}$
+#### Example {#alg-i-s8-n11-exa-1 .statement}
+
+*Ideals and quotient rings of* $\mathbf{Z}$
 
 An ideal of $\mathbf{Z}$ is an additive subgroup of $\mathbf{Z}$ and hence of the form $n.\mathbf{Z}$ with $n \geqslant 0$; conversely, for every integer $n \geqslant 0$, the set $n.\mathbf{Z}$ is an ideal, the principal ideal $(n)$. Thus every ideal of $\mathbf{Z}$ is principal and is represented uniquely in the form $n\mathbf{Z}$ with $n \geqslant 0$. The ideal $(1)$ is equal to $\mathbf{Z}$, the ideal $(0)$ consists of 0 and the ideals distinct from $\mathbf{Z}$ and $\{0\}$ are therefore of the form $n\mathbf{Z}$ with $n > 1$. If $m \geqslant 1$ and $n \geqslant 1$, $m\mathbf{Z} \supset n\mathbf{Z}$ if and only if $n \in m.\mathbf{Z}$, that is $m$ divides $n$. Therefore, for the ideal $n\mathbf{Z}$ to be maximal, it is necessary and sufficient that there exist no integer $m > 1$ distinct from $n$ and dividing $n$; in other words, *the maximal ideals of* $\mathbf{Z}$ *are the ideals of the form* $p\mathbf{Z}$ *where* $p$ *is a prime number* (§ 4, no. 10, Definition 16).
 

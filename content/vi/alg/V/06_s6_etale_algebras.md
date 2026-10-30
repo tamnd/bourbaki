@@ -82,7 +82,9 @@ do đó $$\sum_{i=1}^{n-1} \alpha_i [u_i(x) - u_n(x)] \cdot u_i = 0.$$ Theo gi�
 
 Cho A là đại số của nửa nhóm $\Gamma$ với các hệ số trong L và $(e_\gamma)_{\gamma \in \Gamma}$, cơ sở chính tắc của A trên L (III, p. 446). Với mỗi ánh xạ L-tuyến tính $u$ từ A vào L, ta viết $\tilde{u}(\gamma) = u(e,\gamma)$ (với $\gamma \in \Gamma$); khi đó ánh xạ $u \mapsto 3$ là một đẳng cấu của các không gian L-vectơ của $\mathrm{Hom}_L(A, L)$ lên $L^\Gamma$, ánh xạ X lên tập hợp các đồng cấu L-đại số từ A vào L. Bây giờ chỉ cần áp dụng Định lý 1 với $K = L$.
 
-**HỆ QUẢ 2** (Định lý Dedekind). — *Cho E và L là hai mở rộng của K. Tập hợp các K-đồng cấu từ E vào L là tự do trên L. Nếu E có bậc hữu hạn trên K, số các K-đồng cấu từ E vào L nhiều nhất bằng $[E : K]$.*
+#### Hệ quả 2 (Định lý Dedekind) {#alg-v-s6-thm-1-cor-2 .statement}
+
+*Cho E và L là hai mở rộng của K. Tập hợp các K-đồng cấu từ E vào L là tự do trên L. Nếu E có bậc hữu hạn trên K, số các K-đồng cấu từ E vào L nhiều nhất bằng $[E : K]$.*
 
 Khẳng định cuối cùng suy ra từ khẳng định đầu tiên, có tính đến Công thức (2).
 

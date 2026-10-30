@@ -389,7 +389,9 @@ Dưới các giả thiết của *b*), N bằng hạt nhân của $u_1$ và củ
 
 Ta nói rằng không gian Hilbert E là *bổ sung phân ly* của V (đối với dạng *f*).
 
-*Ví dụ 7*. — Cho G là một nhóm (với phần tử đơn vị 1) và $\pi$ một đồng cấu từ G vào nhóm các tự đẳng cấu của một không gian Hilbert phức E ; ta nói rằng $\pi$ là một *biểu diễn unita* của G trong E. Lấy $a \in E$ ; đặt
+#### Ví dụ 7 {#evt-v-s1-n4-exa-7 .statement}
+
+Cho G là một nhóm (với phần tử đơn vị 1) và $\pi$ một đồng cấu từ G vào nhóm các tự đẳng cấu của một không gian Hilbert phức E ; ta nói rằng $\pi$ là một *biểu diễn unita* của G trong E. Lấy $a \in E$ ; đặt
 
 $$
 \phi(x) = \langle a|\pi(x).a \rangle

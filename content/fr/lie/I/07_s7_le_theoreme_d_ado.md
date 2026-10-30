@@ -114,7 +114,9 @@ Enfin, $g$ est somme directe de $r$ et d’une sous-algèbre $s$ ($§ 6$, n° 8,
 
 De façon plus précise :
 
-**Théorème 3** (Ado). — *Soient $g$ une algèbre de Lie et $n$ son plus grand idéal nilpotent. Il existe une représentation fidèle $\rho$ de dimension finie de $g$ telle que tout élément de $\rho(n)$ soit nilpotent.*
+#### Théorème 3 (Ado) {#lie-i-s7-thm-3 .statement}
+
+*Soient $g$ une algèbre de Lie et $n$ son plus grand idéal nilpotent. Il existe une représentation fidèle $\rho$ de dimension finie de $g$ telle que tout élément de $\rho(n)$ soit nilpotent.*
 
 L’algèbre de Lie $K$ de dimension 1 admet des représentations fidèles $\tau$ de dimension finie telles que tout élément de $\tau(K)$ soit nilpotent, par exemple la représentation
 

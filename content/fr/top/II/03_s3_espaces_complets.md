@@ -239,7 +239,9 @@ On sait en effet que $X$ est séparé et s’identifie à un sous-espace fermé 
 
 Une limite projective d’espaces uniformes séparés et complets $X_\alpha$ peut être *vide*, même si les $X_\alpha$ sont non vides et les $f_{\alpha\beta}$ surjectifs, comme le montre le cas des espaces discrets (E, III, p. 94, exerc. 4). Mais on a le théorème suivant:
 
-**Théorème 1** (Mittag-Leffler). — *Soit $(X_\alpha, f_{\alpha\beta})$ un système projectif d’espaces uniformes séparés et complets, relatif à un ensemble d’indices préordonné filtrant $I$ qui admet un sous-ensemble cofinal dénombrable; on suppose en outre que, pour tout $\alpha \in I$, $X_\alpha$ possède un système fondamental dénombrable d’entourages.\footnote{Cette condition signifie que l’espace uniforme séparé $X_\alpha$ est métrisable; cf. IX, § 2, n°4, th. 1.*} Enfin, on suppose que pour tout $\alpha \in I$, il existe un $\beta \geq \alpha$ vérifiant la condition suivante:
+#### Théorème 1 (Mittag-Leffler) {#top-ii-s3-thm-1 .statement}
+
+*Soit $(X_\alpha, f_{\alpha\beta})$ un système projectif d’espaces uniformes séparés et complets, relatif à un ensemble d’indices préordonné filtrant $I$ qui admet un sous-ensemble cofinal dénombrable; on suppose en outre que, pour tout $\alpha \in I$, $X_\alpha$ possède un système fondamental dénombrable d’entourages.\footnote{Cette condition signifie que l’espace uniforme séparé $X_\alpha$ est métrisable; cf. IX, § 2, n°4, th. 1.*} Enfin, on suppose que pour tout $\alpha \in I$, il existe un $\beta \geq \alpha$ vérifiant la condition suivante:
 
 (ML_{\alpha,\beta}) Pour tout $\gamma \geq \beta$, $f_{\alpha\gamma}(X_\gamma)$ est dense dans $f_{\alpha\beta}(X_\beta)$.
 

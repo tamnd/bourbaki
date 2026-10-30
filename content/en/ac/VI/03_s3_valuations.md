@@ -169,13 +169,21 @@ From now on, we shall in general leave to the reader the trouble of performing t
 
 The examples of valuation rings given in § 1, no. 4 provide us with *Examples 1 to 4* below:
 
-Example (1) Every valuation on a finite field F is improper, since every element of F* is a root unity.
+#### Example (1) {#ac-vi-s3-n4-exa-1 .statement}
 
-Example (2) If K is a subfield of a field K', the restriction to K of a valuation on K' is a valuation on K.
+Every valuation on a finite field F is improper, since every element of F* is a root unity.
 
-Example (3) Let k be a field and K = k((T)). The mapping v which maps every non-zero formal power series to its order (Algebra, Chapter IV, § 5, no. 7) is a valuation on K whose order group is Z and whose ring is k[[T]]. The associated place is the canonical homomorphism f: k[[T]] → k extended to k((T)) by setting f(u) = ∞ if u ∉ k[[T]].
+#### Example (2) {#ac-vi-s3-n4-exa-2 .statement}
 
-Example (4) Let A be a principal ideal domain, K its field of fractions and p an extremal element of A. For x ∈ K* let v_p(x) denote the exponent of p in the decomposition of x into extremal elements (Algebra, Chapter VII, § 1, no. 3, Theorem 2); it is immediately seen that v_p is a valuation whose order group is Z and whose ring is A_{A_p}. By Proposition 3 of § 1, no. 4 we thus obtain, up to equivalence, all the valuations on K which are not improper and are positive on A. Taking A = Z we recover the p-adic valuations on Q (General Topology, Chapter IX, § 3, no. 2); these valuations are, up to equivalence, the only valuations on Q which are not improper (§ 1, no. 4, Corollary 1 to Proposition 3). Taking A = k[X], where k is a field, the non-improper valuations on k(X) whose restrictions to k are improper are (up to equivalence): on the one hand the valuations v_P where P runs through the set of irreducible monic polynomials of k[X] and on the other hand the valuation v defined by
+If K is a subfield of a field K', the restriction to K of a valuation on K' is a valuation on K.
+
+#### Example (3) {#ac-vi-s3-n4-exa-3 .statement}
+
+Let k be a field and K = k((T)). The mapping v which maps every non-zero formal power series to its order (Algebra, Chapter IV, § 5, no. 7) is a valuation on K whose order group is Z and whose ring is k[[T]]. The associated place is the canonical homomorphism f: k[[T]] → k extended to k((T)) by setting f(u) = ∞ if u ∉ k[[T]].
+
+#### Example (4) {#ac-vi-s3-n4-exa-4 .statement}
+
+Let A be a principal ideal domain, K its field of fractions and p an extremal element of A. For x ∈ K* let v_p(x) denote the exponent of p in the decomposition of x into extremal elements (Algebra, Chapter VII, § 1, no. 3, Theorem 2); it is immediately seen that v_p is a valuation whose order group is Z and whose ring is A_{A_p}. By Proposition 3 of § 1, no. 4 we thus obtain, up to equivalence, all the valuations on K which are not improper and are positive on A. Taking A = Z we recover the p-adic valuations on Q (General Topology, Chapter IX, § 3, no. 2); these valuations are, up to equivalence, the only valuations on Q which are not improper (§ 1, no. 4, Corollary 1 to Proposition 3). Taking A = k[X], where k is a field, the non-improper valuations on k(X) whose restrictions to k are improper are (up to equivalence): on the one hand the valuations v_P where P runs through the set of irreducible monic polynomials of k[X] and on the other hand the valuation v defined by
 
 $$
 v(P/Q) = \deg(Q) - \deg(P)
@@ -183,11 +191,15 @@ $$
 
 for P ∈ k[X] and Q ∈ k[X] (§ 1, no. 4, Corollary 2 to Proposition 3); all these valuations obviously have Z as order group and their residue fields are monogenous algebraic extensions of k (Algebra, Chapter V, § 3, no. 1).
 
-Example (5) The mapping P(X, Y) ↦ P(T, e^T) of C[X, Y] to C((T)) is injective (Functions of a real variable, Chapter IV, §2, Proposition 9) and therefore can be extended to an isomorphism of C(X, Y) onto a subfield of C((T)). The restriction to this subfield of the valuation on C((T)) defined in Example 3 defines a valuation on C(X, Y) which is improper on C, whose order group is Z and whose residue field is C.
+#### Example (5) {#ac-vi-s3-n4-exa-5 .statement}
+
+The mapping P(X, Y) ↦ P(T, e^T) of C[X, Y] to C((T)) is injective (Functions of a real variable, Chapter IV, §2, Proposition 9) and therefore can be extended to an isomorphism of C(X, Y) onto a subfield of C((T)). The restriction to this subfield of the valuation on C((T)) defined in Example 3 defines a valuation on C(X, Y) which is improper on C, whose order group is Z and whose residue field is C.
 
 Proposition 4 of no. 2 allows us to construct a valuation whose order group and residue field are given:
 
-Example (6) Let Γ be a totally ordered group and k a field. Let Γ_+ be the monoid of positive elements of Γ and C the algebra of Γ_+ over k. By definition, C has a basis (x_\alpha)_{\alpha \in \Gamma_-} over k whose multiplication table is x_\alpha x_\beta = x_{\alpha + \beta}. If $x = \sum a_\alpha x_\alpha$ is a non-zero element of C, we write $v(x) = \inf_{a_\alpha \neq 0} (a)$ and $v(0) = +\infty$; it is immediately verified that the mapping $v$ of $C$ to $\Gamma_\infty$ satisfies conditions (VL_I) and (VL_{II}) of no. 1 and that $C$ is an integral domain. Let $K$ be the field of fractions of $C$ and $w$ the valuation on $K$ which extends $v$ (Proposition 4, no. 2). As every element of $\Gamma$ is the difference of two positive elements, $w$ admits $\Gamma$ as order group. Let $A$ be the ring of $w$ and $m$ its maximal ideal; we shall show that $A$ is the direct sum of $m$ and $k$ (identified with $k \cdot 1$), which will prove that the residue field of $w$ is isomorphic to $k$. Clearly $m \cap k = (0)$. On the other hand, denoting by $p$ the ideal of $C$ generated by the $x_a$ where $a > 0$, every element $x$ of valuation 0 in $K$ can be written in the form $(a + y)/(b + z)$ where $a \in k^*, b \in k^*, y \in p$ and $z \in p$; then
+#### Example (6) {#ac-vi-s3-n4-exa-6 .statement}
+
+Let Γ be a totally ordered group and k a field. Let Γ_+ be the monoid of positive elements of Γ and C the algebra of Γ_+ over k. By definition, C has a basis (x_\alpha)_{\alpha \in \Gamma_-} over k whose multiplication table is x_\alpha x_\beta = x_{\alpha + \beta}. If $x = \sum a_\alpha x_\alpha$ is a non-zero element of C, we write $v(x) = \inf_{a_\alpha \neq 0} (a)$ and $v(0) = +\infty$; it is immediately verified that the mapping $v$ of $C$ to $\Gamma_\infty$ satisfies conditions (VL_I) and (VL_{II}) of no. 1 and that $C$ is an integral domain. Let $K$ be the field of fractions of $C$ and $w$ the valuation on $K$ which extends $v$ (Proposition 4, no. 2). As every element of $\Gamma$ is the difference of two positive elements, $w$ admits $\Gamma$ as order group. Let $A$ be the ring of $w$ and $m$ its maximal ideal; we shall show that $A$ is the direct sum of $m$ and $k$ (identified with $k \cdot 1$), which will prove that the residue field of $w$ is isomorphic to $k$. Clearly $m \cap k = (0)$. On the other hand, denoting by $p$ the ideal of $C$ generated by the $x_a$ where $a > 0$, every element $x$ of valuation 0 in $K$ can be written in the form $(a + y)/(b + z)$ where $a \in k^*, b \in k^*, y \in p$ and $z \in p$; then
 
 $$
 x = ab^{-1} + (by - az)b^{-1}(b + z)^{-1}

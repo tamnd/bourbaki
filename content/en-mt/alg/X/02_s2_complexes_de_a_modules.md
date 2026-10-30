@@ -971,7 +971,9 @@ $$
 
 Part a) follows from Lemma 4 applied to the complex with zero homology defined by the homology exact sequence associated with the given exact sequence. Part b) follows, by considering this homology exact sequence, from the following lemma:
 
-*Lemma 5. — Let $M \to N \to P \to Q \to R$ be an exact sequence of $A$-modules. If $\mathscr{C}$ is stable, and if $M, N, Q$ and $R$ are of type $\mathscr{C}$, the module $P$ is of type $\mathscr{C}$.
+#### Lemma 5 {#alg-x-s2-lem-5 .statement}
+
+*Let $M \to N \to P \to Q \to R$ be an exact sequence of $A$-modules. If $\mathscr{C}$ is stable, and if $M, N, Q$ and $R$ are of type $\mathscr{C}$, the module $P$ is of type $\mathscr{C}$.
 Set $N' = \operatorname{Coker}(M \to N)$ and $Q' = \operatorname{Ker}(Q \to R)$. The modules $N'$ and $Q'$ are of type $\mathscr{C}$, and one has an exact sequence $0 \to N' \to P \to Q' \to 0$.*
 
 #### Corollary {#alg-x-s2-n8-cor-2 .statement}
@@ -986,7 +988,9 @@ $$
 0 \to C \to \operatorname{Con}(u) \to C'(-1) \to 0 .
 $$
 
-*Remark. — Let $E$ be a complex, $h : E \to C$ and $h' : E \to C'$ be homotopy equivalences with $C$ and $C'$ bounded of type $\mathscr{C}$. Then $\chi(C) = \chi(C')$. Indeed, if $h_1$ is an inverse of $h$ up to homotopy, $h' \circ h_1$ is a homotopy equivalence, hence a homology isomorphism from $C$ to $C'$, and one can apply Prop. 10. Consequently, one can extend Definition 8 by setting $\chi(E) = \chi(C)$ whenever there exists a homotopy equivalence from $E$ to a complex $C$ bounded of type $\mathscr{C}$. Propositions 10, 11, 12 and their corollaries generalise in this setting.*
+#### Remark {#alg-x-s2-n8-rem-2 .statement}
+
+*Let $E$ be a complex, $h : E \to C$ and $h' : E \to C'$ be homotopy equivalences with $C$ and $C'$ bounded of type $\mathscr{C}$. Then $\chi(C) = \chi(C')$. Indeed, if $h_1$ is an inverse of $h$ up to homotopy, $h' \circ h_1$ is a homotopy equivalence, hence a homology isomorphism from $C$ to $C'$, and one can apply Prop. 10. Consequently, one can extend Definition 8 by setting $\chi(E) = \chi(C)$ whenever there exists a homotopy equivalence from $E$ to a complex $C$ bounded of type $\mathscr{C}$. Propositions 10, 11, 12 and their corollaries generalise in this setting.*
 
 Application:
 

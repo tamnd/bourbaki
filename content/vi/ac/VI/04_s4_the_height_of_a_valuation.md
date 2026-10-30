@@ -88,7 +88,9 @@ Ngược lại, cho $f$ là một nơi của K với các giá trị trong $K'$ 
 
 *Một nhóm con H của một nhóm có thứ tự G được gọi là cô lập nếu các quan hệ $0 \leq y \leq x$ và $x \in H$ kéo theo $y \in H$.*
 
-Ví dụ (1) Cho $A$ và $B$ là hai nhóm có thứ tự; trang bị cho $A \times B$ thứ tự từ điển (nghĩa là "$(a, b) \leq (a', b')$" tương đương với "$(a < a') \text{ hoặc } (a = a' \text{ và } b \leq b')$"). Nhân tử thứ hai $B$ của $A \times B$ khi đó, như thấy ngay lập tức, là một nhóm con cô lập của $A \times B$.
+#### Ví dụ (1) {#ac-vi-s4-n2-exa-1 .statement}
+
+Cho $A$ và $B$ là hai nhóm có thứ tự; trang bị cho $A \times B$ thứ tự từ điển (nghĩa là "$(a, b) \leq (a', b')$" tương đương với "$(a < a') \text{ hoặc } (a = a' \text{ và } b \leq b')$"). Nhân tử thứ hai $B$ của $A \times B$ khi đó, như thấy ngay lập tức, là một nhóm con cô lập của $A \times B$.
 
 #### Mệnh đề 3 {#ac-vi-s4-prop-3 .statement}
 
@@ -108,7 +110,9 @@ $$
 
 vì, *nếu* $x$ và $y$ là các phần tử của $P$ sao cho $g(x) = -g(y)$, thì $x + y \in H$, do đó $x \in H$ và $y \in H$ vì $H$ là cô lập; suy ra $g(x) = g(y) = 0$. Vậy $P'$ là tập hợp các phần tử dương của một cấu trúc nhóm có thứ tự trên $G/H$ (*Đại số*, Chương VI, § 1, no. 3, Mệnh đề 3). Cuối cùng, nếu $G$ được sắp thứ tự toàn phần, thì $P \cap (-P) = G$, do đó $P' \cup (-P') = G/H$ và vì thế $G/H$ được sắp thứ tự toàn phần (*loc. cit.*).
 
-Ví dụ (2) Nếu xét lại ví dụ trong đó $G$ là một tích từ điển $A \times B$ và $H = B$, thì nhóm có thứ tự $G/H$ được đồng nhất một cách chính tắc với $A$.
+#### Ví dụ (2) {#ac-vi-s4-n2-exa-2 .statement}
+
+Nếu xét lại ví dụ trong đó $G$ là một tích từ điển $A \times B$ và $H = B$, thì nhóm có thứ tự $G/H$ được đồng nhất một cách chính tắc với $A$.
 
 ### 3. SO SÁNH CÁC GIÁ TRỊ
 

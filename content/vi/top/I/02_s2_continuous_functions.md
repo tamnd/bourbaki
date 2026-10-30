@@ -102,7 +102,9 @@ $$
 
 và do đó $x \in \overline{f^{-1}(A')} \subset \overline{f^{-1}(V')}$. Theo giả thiết, $\overline{f^{-1}(A')}$ là mở trong $X$, nên $\overline{f^{-1}(V')}$ là một lân cận của $x$ trong $X$. Vậy d) suy ra a).
 
-Nhận xét. 1) Cho $\mathfrak{B}$ là một cơ sở (§ 1, no. 3) của tôpô của $X'$; khi đó để $f : X \to X'$ liên tục, điều kiện cần và đủ là $\overline{f^{-1}(U')}$ mở trong $X$ với mọi $U' \in \mathfrak{B}$.
+#### Nhận xét {#top-i-s2-n1-rem-4 .statement}
+
+1) Cho $\mathfrak{B}$ là một cơ sở (§ 1, no. 3) của tôpô của $X'$; khi đó để $f : X \to X'$ liên tục, điều kiện cần và đủ là $\overline{f^{-1}(U')}$ mở trong $X$ với mọi $U' \in \mathfrak{B}$.
 
 #### Ví dụ {#top-i-s2-n1-exa-4 .statement}
 

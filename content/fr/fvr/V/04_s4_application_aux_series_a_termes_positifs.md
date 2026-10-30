@@ -54,15 +54,21 @@ Soient $(u_n)$ et $(v_n)$ deux séries à termes positifs:
 
 On obtient des critères commodes de convergence en prenant pour série de comparaison $(v_n)$ dans la prop. 1 une série dont les termes sont de la forme $v_n = f(n)$, où $f$ est une fonction $\geqslant 0$, définie pour tout nombre réel $x > x_0$ et décroissante dans l’intervalle $[x_0, +\infty[$; en effet:
 
-**Proposition 3** (critère de Cauchy-Maclaurin). — Si $f$ est une fonction $\geqslant 0$ et décroissante dans $[x_0, +\infty[$, pour que la série de terme général $v_n = f(n)$ soit convergente, il faut et il suffit que l’intégrale $\int_{x_0}^{+\infty} f(t)\,dt$ soit convergente.
+#### Proposition 3 (critère de Cauchy-Maclaurin) {#fvr-v-s4-prop-3 .statement}
+
+Si $f$ est une fonction $\geqslant 0$ et décroissante dans $[x_0, +\infty[$, pour que la série de terme général $v_n = f(n)$ soit convergente, il faut et il suffit que l’intégrale $\int_{x_0}^{+\infty} f(t)\,dt$ soit convergente.
 
 Il suffit pour le voir de remarquer que si $v$ est la fonction en escalier associée à la série $(v_n)$, on a $v(x+1) \leq f(x) \leq v(x)$ pour tout $x \geq x_0$, puisque $f$ est décroissante; la proposition résulte donc du principe de comparaison (II, p. 17, prop. 3).
 
 Comme les fonctions qui figurent dans les critères logarithmiques de convergence des intégrales (V, p. 19–20, prop. 2, 3 et 4) sont décroissantes dans un intervalle $[x_0, +\infty[$, l’application des prop. 1 et 3 de V, p. 27, donne les critères suivants:
 
-**Proposition 4** (*critère logarithmique d’ordre 0*). — Soit $(u_n)$ une série à termes positifs; si $u_n \leq n^\mu$ pour un $\mu < -1$, la série $(u_n)$ est convergente; si $u_n \geq n^\mu$ pour un $\mu \geq -1$, la série $(u_n)$ a une somme infinie.
+#### Proposition 4 (critère logarithmique d’ordre 0) {#fvr-v-s4-prop-4 .statement}
 
-**Proposition 5** (*critère logarithmique d’ordre $p$*). — Soit $(u_n)$ une série à termes positifs. Si $u_n \leq \frac{1}{n.l_1(n).l_2(n)\ldots l_{p-1}(n)\,(l_p(n))^\mu}$ pour un $\mu > 1$, la série $(u_n)$ est convergente; si $u_n \geq \frac{1}{n.l_1(n)\ldots l_{p-1}(n)\,(l_p(n))^\mu}$ pour un $\mu \leq 1$, la série $(u_n)$ a une somme infinie.
+Soit $(u_n)$ une série à termes positifs; si $u_n \leq n^\mu$ pour un $\mu < -1$, la série $(u_n)$ est convergente; si $u_n \geq n^\mu$ pour un $\mu \geq -1$, la série $(u_n)$ a une somme infinie.
+
+#### Proposition 5 (critère logarithmique d’ordre $p$) {#fvr-v-s4-prop-5 .statement}
+
+Soit $(u_n)$ une série à termes positifs. Si $u_n \leq \frac{1}{n.l_1(n).l_2(n)\ldots l_{p-1}(n)\,(l_p(n))^\mu}$ pour un $\mu > 1$, la série $(u_n)$ est convergente; si $u_n \geq \frac{1}{n.l_1(n)\ldots l_{p-1}(n)\,(l_p(n))^\mu}$ pour un $\mu \leq 1$, la série $(u_n)$ a une somme infinie.
 
 Si $0 \leq q < 1$, on a $q^n \leq n^{-\mu}$ quel que soit $\mu > 0$; l’application du critère logarithmique d’ordre 0 prouve à nouveau la convergence de la série géométrique $\sum_{n=0}^\infty q^n$ pour $|q| < 1$ (TG, IV, p. 32). Si on applique la prop. 1 en prenant $v_n = q^n$ on obtient un critère qui peut se mettre sous la forme suivante (*critère de Cauchy*): Soit $(u_n)$ une série à termes positifs; si $\limsup (u_n)^{1/n} < 1$, la série $(u_n)$ est convergente; si $\limsup (u_n)^{1/n} > 1$, la série $(u_n)$ a une somme infinie. En effet, si $\limsup (u_n)^{1/n} = a < 1$, pour tout nombre $q$ tel que $a < q < 1$, on a $u_n \leq q^n$. Si au contraire $\limsup (u_n)^{1/n} = a > 1$, pour tout $q$ tel que $1 < q < a$, on a $u_n \geq q^n > 1$ pour une infinité de valeurs de $n$; $u_n$ ne tendant pas vers 0, on a $\sum_{n=1}^\infty u_n = +\infty$.
 
@@ -240,7 +246,9 @@ donc, pour que le produit de facteur général $1 + u_n$ soit commutativement co
 
 La relation entre produits infinis et séries de nombres réels permet parfois d’obtenir un développement asymptotique du produit partiel $p_n = \prod_{k=1}^n (1 + u_k)$; il suffit d’avoir un développement asymptotique de la somme partielle $s_n = \sum_{k=1}^n \log (1 + u_k)$, puis de développer $p_n = \exp(s_n)$; on est donc ramené à deux problèmes examinés antérieurement (V, p. 28, et p. 16).
 
-Exemple : formule de Stirling. — Cherchons un développement asymptotique de $n!$; on est ramené à développer $s_n = \sum_{p=1}^n \log p$, puis $\exp(s_n)$. La méthode du no 2 donne successivement
+#### Exemple {#fvr-v-s4-n3-exa-1 .statement}
+
+formule de Stirling. — Cherchons un développement asymptotique de $n!$; on est ramené à développer $s_n = \sum_{p=1}^n \log p$, puis $\exp(s_n)$. La méthode du no 2 donne successivement
 $$
 s_n = \sum_{p=1}^n \log p \sim \int_1^n \log t \, dt = n \log n - n + 1
 $$
@@ -281,7 +289,9 @@ pour tout nombre réel $a$ distinct d’un entier $> 0$, $\varphi(a)$ étant une
 
 On rencontre assez souvent des séries $(u_n)$, pour lesquelles $u_n > 0$ à partir d’un certain rang, et $u_{n+1}/u_n$ a un développement asymptotique facile à déterminer. Il est commode, pour de telles séries, d’avoir des critères (dits *critères de seconde espèce*) permettant de déterminer si la série est convergente d’après le seul aspect de $u_{n+1}/u_n$. Un tel critère est le suivant:
 
-**Proposition 7** (*critère de Raabe*). — *Soit* $(u_n)$ *une série à termes* $> 0$ *à partir d’un certain rang. Si, à partir d’un certain rang,*
+#### Proposition 7 (critère de Raabe) {#fvr-v-s4-prop-7 .statement}
+
+*Soit* $(u_n)$ *une série à termes* $> 0$ *à partir d’un certain rang. Si, à partir d’un certain rang,*
 $$ u_{n+1}/u_n \leq 1 - \frac{\alpha}{n} \text{ pour un } \alpha > 1,$$
 *la série* $(u_n)$ *est convergente ; si à partir d’un certain rang,*
 $$ u_{n+1}/u_n \geq 1 - \frac{1}{n},$$

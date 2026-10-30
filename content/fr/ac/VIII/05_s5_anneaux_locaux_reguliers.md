@@ -246,7 +246,9 @@ L’assertion b) résulte de a) et de la prop. 11 de V, § 1, no 3.
 
 Soient $A$ un anneau local noethérien et $P_1, ..., P_r$ des polynômes unitaires dans $A[T]$, de degré $\geq 2$. Soit $q$ l’idéal de $A[T_1, ..., T_r]$ engendré par $P_1(T_1), ..., P_r(T_r)$ et soit $B$ la $A$-algèbre quotient $A[T_1, ..., T_r]/q$. Pour $1 \leq i \leq r$, on note $d_i$ le degré de $P_i$, $t_i$ la classe de $T_i$ modulo $q$, et $\gamma_i$ la classe de $c_i = P_i(0)$ modulo $m_A^2$. On suppose que l’on a $P_i(T) \equiv T^{d_i} \mod m_A A[T]$ pour $1 \leq i \leq r$.
 
-**Proposition 4. — a)** *L’anneau $B$ est local et noethérien, d’idéal maximal*
+#### Proposition 4 {#ac-viii-s5-prop-4 .statement}
+
+**a)** *L’anneau $B$ est local et noethérien, d’idéal maximal*
 
 $$
 m_B = Bm_A + \sum_{i=1}^r Bt_i.

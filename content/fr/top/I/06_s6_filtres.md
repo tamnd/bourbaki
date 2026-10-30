@@ -179,7 +179,9 @@ Soit maintenant $\mathfrak{F}$ un filtre sur un ensemble $Z$; comme $\mathfrak{F
 *On appelle ultrafiltre sur un ensemble $X$ un filtre tel qu’il n’existe aucun filtre strictement plus fin que lui* (en d’autres termes, un élément *maximal* de l’ensemble ordonné des filtres sur $X$).
 
 Comme l’ensemble ordonné des filtres sur $X$ est inductif (I, p. 37, cor. 3), le th. de Zorn (E, III, p. 20, th. 2) entraîne le théorème suivant:
-**Théorème 1.** — *Pour tout filtre $\mathfrak{F}$ sur un ensemble $X$, il existe un ultrafiltre plus fin que $\mathfrak{F}$*.
+#### Théorème 1 {#top-i-s6-thm-1 .statement}
+
+*Pour tout filtre $\mathfrak{F}$ sur un ensemble $X$, il existe un ultrafiltre plus fin que $\mathfrak{F}$*.
 
 #### Proposition 5 {#top-i-s6-prop-5 .statement}
 

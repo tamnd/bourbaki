@@ -467,7 +467,9 @@ a) Thực vậy, “ $\operatorname{prof}_A(M) = 0$ ” tương đương với �
 
 b) Thực vậy, “ $dp_A(M) = 0$ ” tương đương với “ $M$ tự do ”.
 
-HỆ QUẢ 2.: Giữ các giả thiết của định lý 1 và giả sử thêm rằng $A$ là một vành Macaulay. Khi đó $dp_A(M)$ là tổng của hai số nguyên dương $\dim(A) - \dim_A(M)$ và $\dim_A(M) - \operatorname{prof}(M)$.
+#### Hệ quả 2 {#ac-x-s3-thm-1-cor-2 .statement}
+
+Giữ các giả thiết của định lý 1 và giả sử thêm rằng $A$ là một vành Macaulay. Khi đó $dp_A(M)$ là tổng của hai số nguyên dương $\dim(A) - \dim_A(M)$ và $\dim_A(M) - \operatorname{prof}(M)$.
 
 Đặc biệt, khi đó $dp_A(M)$ lớn hơn $\dim(A) - \dim_A(M)$, và có đẳng thức khi và chỉ khi $M$ là Cohen-Macaulay.
 

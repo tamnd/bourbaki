@@ -67,7 +67,9 @@ D’après la prop. 2, l’ensemble des nombres complexes algébriques sur $\mat
 
 Soit $K$ un corps fini ; posons $f(X) = 1 + \prod_{a \in K} (X - a)$. Le polynôme $f \in K[X]$ est non constant et l’on a $f(a) = 1$ pour tout $a \in K$. Le corps $K$ ne satisfait pas à (AC'), donc n’est pas algébriquement clos.
 
-**Théorème 1** (Steinitz). — *Soient $K$ un corps, $E$ une extension algébrique de $K$ et $\Omega$ une extension algébriquement close de $K$. Il existe un $K$-homomorphisme de $E$ dans $\Omega$.*
+#### Théorème 1 (Steinitz) {#alg-v-s4-thm-1 .statement}
+
+*Soient $K$ un corps, $E$ une extension algébrique de $K$ et $\Omega$ une extension algébriquement close de $K$. Il existe un $K$-homomorphisme de $E$ dans $\Omega$.*
 
 D’après V, p. 13, scholie, il existe un surcorps $\Omega'$ de $\Omega$ et un $K$-homomorphisme $u$ de $E$ dans $\Omega'$. Soit $x \in E$; comme $x$ est algébrique sur $K$, $u(x)$ est algébrique sur $u(K)$ et *a fortiori* sur $\Omega$ (V, p. 16, cor. 2); comme $\Omega$ est algébriquement clos, on a donc $u(x) \in \Omega$. Par suite, $u$ applique $E$ dans $\Omega$.
 

@@ -314,7 +314,9 @@ $$
 u(\mathbf{X}) = \sum \frac{1}{\nu!} D^\nu u(0) \cdot \mathbf{X}^\nu.
 $$
 
-*Nhận xét. — 1) Ta thường nói rằng $D_i u$ là *đạo hàm riêng của u theo X*, ; ta cũng dùng ký hiệu $D_{x_i} u, \frac{\partial u}{\partial x_i}$ và $u'_{x_i}$. Đối với một bất định duy nhất X, đạo hàm riêng duy nhất $Du$ (cũng viết là $\frac{du}{dX}$ hoặc $u'$) được gọi là *đạo hàm* của $u$.
+#### Nhận xét {#alg-iv-s4-n5-rem-1 .statement}
+
+*1) Ta thường nói rằng $D_i u$ là *đạo hàm riêng của u theo X*, ; ta cũng dùng ký hiệu $D_{x_i} u, \frac{\partial u}{\partial x_i}$ và $u'_{x_i}$. Đối với một bất định duy nhất X, đạo hàm riêng duy nhất $Du$ (cũng viết là $\frac{du}{dX}$ hoặc $u'$) được gọi là *đạo hàm* của $u$.
 
 2) Công thức (9) cho thấy các nội cấu $A^p$ của A-môđun $A[[X]]$ giao hoán đôi một. Do đó các nội cấu $D_i$ cũng vậy.
 

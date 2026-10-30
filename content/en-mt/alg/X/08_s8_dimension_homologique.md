@@ -152,7 +152,9 @@ $$
 
 by the preceding exact sequence; by prop. 1, this immediately implies $\mathrm{dp}_A(M'')=\mathrm{dp}_A(M')+1$, since one of the quantities $\mathrm{dp}_A(M')$, $\mathrm{dp}_A(M'')$ is $>\mathrm{dp}_A(M)$.
 
-**Example.** — Let $a$ be an element of A which is neither invertible nor a right zero divisor.
+#### Example {#alg-x-s8-n1-exa-1 .statement}
+
+Let $a$ be an element of A which is neither invertible nor a right zero divisor.
 Then $\mathrm{dp}_A(A/Aa)=1$.
 
 Indeed, by the exact sequence $0\longrightarrow A_s\xrightarrow{\varphi} A_s\longrightarrow A/Aa\longrightarrow0$, where $\varphi(x)=xa$, we have $\mathrm{dp}_A(A/Aa)\leq1$. If $\mathrm{dp}_A(A/Aa)<1$, then $A/Aa$ is projective, and there exists an a-linear mapping $\psi:A_s\longrightarrow A_s$ such that $\psi\circ\varphi=\mathrm{Id}$; this implies

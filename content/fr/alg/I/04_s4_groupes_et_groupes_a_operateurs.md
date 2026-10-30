@@ -196,7 +196,9 @@ Posons $X' = f(X)$. On a $\hat{X}' = f(\hat{X})$ et ${X'}^{-1} = f(X^{-1})$. Par
 Ainsi, dans le groupe additif $\mathbf{Z}$, le sous-groupe engendré par un élément $x$ est l’ensemble $x.\mathbf{Z}$ des $xn$, pour $n \in \mathbf{Z}$, et la partie stable engendrée par $x$ est l’ensemble des $xn$, pour $n \in \mathbf{N}^*$. Ces deux ensembles sont toujours distincts si $x \neq 0$.
 
 La réunion d’une famille *filtrante croissante* de sous-groupes stables de $G$ est évidemment un sous-groupe stable. Il en résulte que, si $P$ est une partie de $G$ et $H$ un sous-groupe stable de G ne rencontrant pas P, l’ensemble des sous-groupes stables de G contenant H et ne rencontrant pas P, ordonné par inclusion, est inductif (E, III, p. 20). En appliquant le th. de Zorn (E, III, p. 20), on obtient le résultat suivant:
-**Proposition 3.** — *Soient G un groupe à opérateurs, P une partie de G, H un sous-groupe stable de G ne rencontrant pas P. L’ensemble des sous-groupes stables de G contenant H et ne rencontrant pas P possède un élément maximal.*
+#### Proposition 3 {#alg-i-s4-prop-3 .statement}
+
+*Soient G un groupe à opérateurs, P une partie de G, H un sous-groupe stable de G ne rencontrant pas P. L’ensemble des sous-groupes stables de G contenant H et ne rencontrant pas P possède un élément maximal.*
 
 ### 4. Groupes quotients
 
@@ -646,7 +648,9 @@ Réciproquement, soit $(s_i)_{1 \leq i \leq n}$ une suite d’entiers $> 0$ tell
 
 Notons $\mathfrak{P}$ l’ensemble des entiers premiers.
 
-**Théorème 7** (décomposition en facteurs premiers). — *Soit a un entier strictement positif. Il existe une famille $(v_p(a))_{p \in \mathfrak{P}}$ d’entiers $\geq 0$ et une seule telle que l’ensemble des $p \in \mathfrak{P}$ pour lesquels $v_p(a) \neq 0$ soit fini et que l’on ait*
+#### Théorème 7 (décomposition en facteurs premiers) {#alg-i-s4-thm-7 .statement}
+
+*Soit a un entier strictement positif. Il existe une famille $(v_p(a))_{p \in \mathfrak{P}}$ d’entiers $\geq 0$ et une seule telle que l’ensemble des $p \in \mathfrak{P}$ pour lesquels $v_p(a) \neq 0$ soit fini et que l’on ait*
 
 $$
 a = \prod_{p \in \mathfrak{P}} p^{v_p(a)}.

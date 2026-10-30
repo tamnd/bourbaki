@@ -247,7 +247,9 @@ En effet, l’ensemble $\overline{H}$ est équicontinu (resp. uniformément équ
 
 ### 5. Ensembles compacts d’applications continues
 
-**Théorème 2** (Ascoli). — *Soient $X$ un espace topologique (resp. uniforme), $\mathfrak{S}$ un recouvrement de $X$, $Y$ un espace uniforme, $H$ un ensemble d’applications de $X$ dans $Y$; on suppose que pour tout $A \in \mathfrak{S}$, la restriction à $A$ de toute application $u \in H$ soit continue (resp. uniformément continue). Pour que $H$ soit précompact pour la structure uniforme de la $\mathfrak{S}$-convergence, il est nécessaire dans tous les cas et suffisant lorsque les ensembles $A \in \mathfrak{S}$ sont compacts (resp. précompacts), que les conditions suivantes soient vérifiées :
+#### Théorème 2 (Ascoli) {#top-x-s2-thm-2 .statement}
+
+*Soient $X$ un espace topologique (resp. uniforme), $\mathfrak{S}$ un recouvrement de $X$, $Y$ un espace uniforme, $H$ un ensemble d’applications de $X$ dans $Y$; on suppose que pour tout $A \in \mathfrak{S}$, la restriction à $A$ de toute application $u \in H$ soit continue (resp. uniformément continue). Pour que $H$ soit précompact pour la structure uniforme de la $\mathfrak{S}$-convergence, il est nécessaire dans tous les cas et suffisant lorsque les ensembles $A \in \mathfrak{S}$ sont compacts (resp. précompacts), que les conditions suivantes soient vérifiées :
 
 a) *Pour tout $A \in \mathfrak{S}$, l’ensemble $H \mid A \subset \mathscr{F}(A; Y)$ des restrictions à $A$ des fonctions $u \in H$ est équicontinu* (resp. *uniformément équicontinu*).
 

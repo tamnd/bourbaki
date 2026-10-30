@@ -53,7 +53,9 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho $R$ là một vành giao hoán. Hai phần tử $x, y$ của $R$ được gọi là *nguyên tố cùng nhau mạnh* nếu các iđêan chính $Rx$ và $Ry$ là nguyên tố cùng nhau, nói cách khác (Chương II, § 1, no. 2) nếu $R x + R y = R$; điều này tương đương với việc nói rằng tồn tại hai phần tử $a, b$ của $R$ sao cho $ax + by = 1$.
 
-**Bổ đề 1 ("Bổ đề Euclid").** *Cho $x, y$ là hai phần tử nguyên tố cùng nhau mạnh của $R$; nếu $z \in R$ là sao cho $x$ chia hết $yz$, thì $x$ chia hết $z$.*
+#### Bổ đề 1 ("Bổ đề Euclid") {#ac-iii-s4-lem-1 .statement}
+
+*Cho $x, y$ là hai phần tử nguyên tố cùng nhau mạnh của $R$; nếu $z \in R$ là sao cho $x$ chia hết $yz$, thì $x$ chia hết $z$.*
 
 Nếu $1 = ax + by$, thì $z = x(az) + (yz)b$.
 

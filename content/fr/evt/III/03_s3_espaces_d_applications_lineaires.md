@@ -336,7 +336,9 @@ Soit maintenant $E$ un espace localement convexe séparé, et soit $\hat{E}$ son
 
 L’espace $E$ s’identifie au dual topologique de $E'$ lorsqu’on munit $E'$ de la topologie $\sigma(E', E)$ (II, p. 46, prop. 3) ; d’autre part, si $\mathscr{S}$ est l’ensemble des parties équicontinues de $E'$, la topologie donnée sur $E$ est la $\mathscr{S}$-topologie (III, p. 19, cor. 1). Il résulte alors de III, p. 13, prop. 1, que les ensembles de $\mathscr{S}$ sont bornés pour $\sigma(E', E)$ (*cf.* plus loin, III, p. 22, prop. 9), autrement dit $\mathscr{S}$ est une bornologie adaptée et couvrante pour la topologie $\sigma(E', E)$. Le th. 2 est alors conséquence du th. 1, où l’on remplace $E$ par $E'$ et $E'_\mathscr{S}$ par $E$.
 
-**Corollaire 1 (Banach).** — *Soit E un espace localement convexe séparé et complet. Pour qu’une forme linéaire sur $E'$ soit continue pour la topologie faible $\sigma(E', E)$ (c’est-à-dire provienne d’un élément de $E$), il suffit que sa restriction à toute partie équicontinue de $E'$ soit continue pour $\sigma(E', E)$.*
+#### Corollaire 1 (Banach) {#evt-iii-s3-thm-2-cor-1 .statement}
+
+— *Soit E un espace localement convexe séparé et complet. Pour qu’une forme linéaire sur $E'$ soit continue pour la topologie faible $\sigma(E', E)$ (c’est-à-dire provienne d’un élément de $E$), il suffit que sa restriction à toute partie équicontinue de $E'$ soit continue pour $\sigma(E', E)$.*
 
 #### Remarque {#evt-iii-s3-n6-rem-1 .statement}
 

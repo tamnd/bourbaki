@@ -54,7 +54,9 @@ Il est clair que tout espace normal est complètement régulier; mais il existe 
 
 L’énoncé de l’axiome ($O_V$), comme celui de l’axiome ($O_{IV}$), fait intervenir la droite numérique $\mathbf{R}$ comme ensemble auxiliaire. Mais on peut donner un énoncé équivalent à $(O_v)$, dans lequel n’intervient plus aucun ensemble auxiliaire:
 
-**Théorème 1 (Urysohn).** — *L’axiome* $(O_v)$ *est équivalent au suivant*:
+#### Théorème 1 (Urysohn) {#top-ix-s4-thm-1 .statement}
+
+— *L’axiome* $(O_v)$ *est équivalent au suivant*:
 $(O'_v)$ *Quels que soient les ensembles fermés sans point commun A et B dans X, il existe deux ensembles ouverts sans point commun U et V tels que A $\subset$ U et B $\subset$ V.
 
 Il est immédiat que $(O_v)$ entraîne $(O'_v)$, car si $f$ est une application continue de X dans $[0, 1]$, égal à 0 dans A, à 1 dans B, les ensembles ouverts $\overline{f}([0, \frac{1}{2}[)$ et $\overline{f([\frac{1}{2}, 1[)}$ contiennent respectivement A et B et n’ont aucun point commun.

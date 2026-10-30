@@ -283,7 +283,9 @@ M & \xrightarrow{u} & N.
 \end{array}
 $$
 
-*Theorem 1.* — *Let A and B be k-algebras and P an $(A, B)_k$-bimodule. Denote the $(B, A)_k$-bimodule $\operatorname{Hom}_A(P, A_s)$ by $P^*$. The following properties are equivalent:
+#### Theorem 1 {#alg-viii-s6-thm-1 .statement}
+
+*Let A and B be k-algebras and P an $(A, B)_k$-bimodule. Denote the $(B, A)_k$-bimodule $\operatorname{Hom}_A(P, A_s)$ by $P^*$. The following properties are equivalent:
 
 (i) *The $(A, B)_k$-bimodule P is invertible.*
 

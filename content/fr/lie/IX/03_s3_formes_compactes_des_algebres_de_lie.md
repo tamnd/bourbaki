@@ -91,7 +91,9 @@ B(H, X_\alpha) = 0,\quad B(X_\alpha, X_\beta) = 0 \text{ si } \alpha + \beta \ne
 $$
 (VIII, § 2, n° 2, prop. 1 et n° 4, lemme 3).
 
-**Proposition 2. — a)** *Le sous-espace vectoriel réel $\mathfrak{a}_0 = \mathfrak{h}_0 + \sum_{\alpha \in \mathbf{R}} \mathbf{R} X_\alpha$ de $\mathfrak{a}$ est une forme réelle de $\mathfrak{a}$, dont $\mathfrak{h}_0$ est une sous-algèbre de Cartan. Le couple $(\mathfrak{a}_0, \mathfrak{h}_0)$ est une algèbre de Lie réelle semi-simple déployée, dont $(X_\alpha)$ est un système de Chevalley.*
+#### Proposition 2 {#lie-ix-s3-prop-2 .statement}
+
+**a)** *Le sous-espace vectoriel réel $\mathfrak{a}_0 = \mathfrak{h}_0 + \sum_{\alpha \in \mathbf{R}} \mathbf{R} X_\alpha$ de $\mathfrak{a}$ est une forme réelle de $\mathfrak{a}$, dont $\mathfrak{h}_0$ est une sous-algèbre de Cartan. Le couple $(\mathfrak{a}_0, \mathfrak{h}_0)$ est une algèbre de Lie réelle semi-simple déployée, dont $(X_\alpha)$ est un système de Chevalley.*
 
 *b)* *Soit $\sigma$ la conjugaison de $\mathfrak{a}$ relativement à $\mathfrak{a}_0$. On a $\sigma \circ \theta = \theta \circ \sigma$. L’ensemble des points fixes de $\sigma \circ \theta$ est une forme réelle compacte $\mathfrak{a}_u$ de $\mathfrak{a}$, dont $i \mathfrak{h}_0$ est une sous-algèbre de Cartan.*
 

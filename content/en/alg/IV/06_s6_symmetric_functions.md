@@ -373,13 +373,17 @@ $$
 
 such that $\varphi_I(S_k) = s_k$ for each integer $k \geq 1$.
 
-**Theorem 2. — a)** *If I is a finite set of n elements, then $\varphi_I$ induces a bicontinuous isomorphism of $A[[S_1, \ldots, S_n]]$ onto $A[[X]]^{\text{sym}}$*.
+#### Theorem 2 {#alg-iv-s6-thm-2 .statement}
+
+**a)** *If I is a finite set of n elements, then $\varphi_I$ induces a bicontinuous isomorphism of $A[[S_1, \ldots, S_n]]$ onto $A[[X]]^{\text{sym}}$*.
 
 *b)* *If I is infinite, $\varphi_I$ is a bicontinuous isomorphism of $A[[S]]$ onto $A[[X]]^{\text{sym}}$*.
 
 In case a) we put $B = A[[S_1, \ldots, S_n]]$ and equip this algebra with the topology induced by that of $A[[S]]$; we also denote by $\psi_I$ the restriction of $\varphi_I$ to B. In case b) we put $B = A[[S]]$ and $\psi_I = \varphi_I$. We shall equip the polynomial algebra $A[S]$ with the graduation of type N for which $S_k$ is of weight k for every integer $k \geq 1$.
 
-**Lemma 1. — Let J be a finite subset of I, r an integer such that Card $J \geq r$ and fa symmetric formal power series which is homogeneous of degree r in the $X_i$ ($i \in I$). Let $\bar{f}$ be the formal power series obtained by substituting 0 for $X_i$ for each i in $I - J$. If $\bar{f} = 0$, then we have $f = 0$.**
+#### Lemma 1 {#alg-iv-s6-lem-1 .statement}
+
+**Let J be a finite subset of I, r an integer such that Card $J \geq r$ and fa symmetric formal power series which is homogeneous of degree r in the $X_i$ ($i \in I$). Let $\bar{f}$ be the formal power series obtained by substituting 0 for $X_i$ for each i in $I - J$. If $\bar{f} = 0$, then we have $f = 0$.**
 
 Let us put $f = \sum_{|\alpha| = r} a_\alpha X^\alpha$ (where $|\alpha|$ is the length $\sum_{i \in I} \alpha_i$ of the multiindex $a = (\alpha_i)_{i \in I}$). If $a$ is a multiindex of length $r$, and $J'$ is the support of $a$ (the set of $i \in I$ such that $\alpha_i \neq 0$), then Card $J' \leq r$, hence there exists a permutation $\sigma \in S_I$ such that $\sigma(J') \subset J$. Put $\beta_i = \alpha_{\sigma^{-1}(i)}$ for $i \in I$, then the monomial $X^\beta = \prod_{i \in I} X_{\sigma(i)}^{\alpha_i}$ depends only on the indeterminates $X_j$ ($j \in J$), whence $a_\beta = 0$ by the hypothesis $\overline{f} = 0$. Since $f$ is symmetric, we have $a_\alpha = a_\beta$ and since $\alpha$ was arbitrary, we conclude that $f = 0$.
 
@@ -417,7 +421,9 @@ $$
 
 This is a symmetric formal power series which is homogeneous of degree k.
 
-**Lemma 4 (« Newton's relations »).** — *For every integer $d \geq 1$ we have*
+#### Lemma 4 (« Newton's relations ») {#alg-iv-s6-lem-4 .statement}
+
+— *For every integer $d \geq 1$ we have*
 
 $$
 p_d = \sum_{k=1}^{d-1} (-1)^{k-1} s_k p_{d-k} + (-1)^{d+1} d s_d

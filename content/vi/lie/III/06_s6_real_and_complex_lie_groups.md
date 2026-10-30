@@ -703,7 +703,9 @@ $$
 
 (no. 4, Hệ quả 3 của Mệnh đề 10). Theo Mệnh đề 18, khi đó chỉ cần chứng minh rằng $\mathrm{Sp}\,\sigma(u)$ không giao với $2i\pi(\mathbf{Z} - \{0\})$. Nhưng điều này suy ra từ bổ đề sau đây:
 
-*Bổ đề 6. Nếu $v \in \mathscr{L}(E)$, thì $\mathrm{Sp}\,\sigma(v) \subset \mathrm{Sp}\,v + \mathrm{Sp}\,v + \cdots + \mathrm{Sp}\,v$, trong đó tổng gồm $n+1$ hạng.*
+#### Bổ đề 6 {#lie-iii-s6-lem-6 .statement}
+
+*Nếu $v \in \mathscr{L}(E)$, thì $\mathrm{Sp}\,\sigma(v) \subset \mathrm{Sp}\,v + \mathrm{Sp}\,v + \cdots + \mathrm{Sp}\,v$, trong đó tổng gồm $n+1$ hạng.*
 
 Ta xác định các phần tử $v_0, v_1, \ldots, v_n$ của $\mathscr{L}(F)$ bằng cách viết, với mọi $f \in F$,
 

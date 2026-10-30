@@ -295,7 +295,9 @@ Comme aux chap. IV et V, l’expression « localement presque partout » sera sy
 #### Remarque 4 {#int-ix-s1-n4-rem-4 .statement}
 
 Si $\theta$ est une mesure complexe, on dira qu’une fonction (resp. une partie de $T$) est localement négligeable pour $\theta$ si elle l’est pour la mesure positive $|\theta|$.
-Exemple. — Soient $L$ une partie compacte de $T$, $\lambda$ une mesure sur $L$, et $\mu$ la mesure sur $T$ définie par $\lambda$ (n° 3, Exemple 2). La formule (3) entraîne aussitôt qu’une fonction $f \in \mathscr{F}_+(T)$ est localement $\mu$-négligeable si et seulement si $f_L$ est $\lambda$-négligeable.
+#### Exemple {#int-ix-s1-n4-exa-1 .statement}
+
+Soient $L$ une partie compacte de $T$, $\lambda$ une mesure sur $L$, et $\mu$ la mesure sur $T$ définie par $\lambda$ (n° 3, Exemple 2). La formule (3) entraîne aussitôt qu’une fonction $f \in \mathscr{F}_+(T)$ est localement $\mu$-négligeable si et seulement si $f_L$ est $\lambda$-négligeable.
 
 Il résulte immédiatement de la formule (1) qu’une fonction $f \in \mathscr{F}_+(T)$ est localement $\mu$-négligeable si et seulement si $f_K$ est $\mu_K$-négligeable pour toute partie compacte $K$ de $T$. Les propriétés des ensembles localement négligeables se ramènent donc aussitôt à celles des ensembles négligeables dans les espaces compacts, traitées au chap. IV. Voici quelques résultats qui seront utilisés par la suite sans autre référence.
 
@@ -450,7 +452,9 @@ Pour que la famille $(\mu_i)_{i \in I}$ soit sommable, il faut et il suffit que 
 Les notations étant celles de la déf. 9, on a $\lambda_\alpha^\bullet = \sum_{i \in \alpha} \mu_i^\bullet$ pour toute partie finie $\alpha$ de $A$ (n° 2, Remarque 1). L’énoncé est alors une conséquence immédiate de la prop. 6.
 
 La relation $\mu_K = \sum_{i \in I} (\mu_i)_K$ et la prop. 2 du chap. V, 2e éd., § 2, n° 2 nous donnent le résultat suivant:
-Proposition 8. — Soit $\mu$ la somme d’une famille sommable $(\mu_i)_{i \in I}$ de mesures sur $T$. Pour qu’une application $f$ de $T$ dans un espace topologique $F$ (séparé ou non) soit $\mu$-mesurable, il faut et il suffit que $f$ soit $\mu_i$-mesurable pour tout $i \in I$.
+#### Proposition 8 {#int-ix-s1-prop-8 .statement}
+
+Soit $\mu$ la somme d’une famille sommable $(\mu_i)_{i \in I}$ de mesures sur $T$. Pour qu’une application $f$ de $T$ dans un espace topologique $F$ (séparé ou non) soit $\mu$-mesurable, il faut et il suffit que $f$ soit $\mu_i$-mesurable pour tout $i \in I$.
 
 ### 8. Concassages
 

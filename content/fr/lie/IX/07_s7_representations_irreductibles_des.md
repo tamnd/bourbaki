@@ -283,7 +283,9 @@ $$
 
 Pour tout $\lambda \in X_{++}$, notons $\chi_\lambda$ le caractère d'une représentation irréductible de $G$ de plus grand poids $\lambda$.
 
-**Théorème 2 (H. Weyl).** — *Pour tout $\lambda \in X_{++}$, on a $J(\rho) \cdot \chi_\lambda|T = J(\lambda \rho)$.*
+#### Théorème 2 (H. Weyl) {#lie-ix-s7-thm-2 .statement}
+
+— *Pour tout $\lambda \in X_{++}$, on a $J(\rho) \cdot \chi_\lambda|T = J(\lambda \rho)$.*
 
 La fonction $J(\rho) \cdot \chi_\lambda|T$ est anti-invariante par $W$, et est combinaison linéaire à coefficients entiers des éléments de $X(T)$. D'après VI, § 3, n° 3, prop. 1, elle s'écrit donc $\sum_\mu a_\mu J(\mu \rho)$, où $\mu$ parcourt $X_{++}$, et où les $a_\mu$ sont entiers et tous nuls sauf un nombre fini d'entre eux ; puisque $\int_G |\chi_\lambda(g)|^2 dg = 1$ (TS), il résulte de la prop. 3 et du lemme 4 que l'on a $\sum_\mu (a_\mu)^2 = 1$; les $a_\mu$ sont donc tous nuls, sauf l'un d'entre eux qui vaut 1 ou -1. Mais le coefficient de $\lambda$ dans $\chi_\lambda|T$ vaut 1 (th. 1), donc le coefficient de $\lambda \rho$ dans $J(\rho) \cdot \chi_\lambda|T$ vaut 1 (VI, § 3, n° 3, remarque 2), ce qui implique $a_{\lambda \rho} = 1$, d'où le théorème.
 

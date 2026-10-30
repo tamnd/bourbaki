@@ -280,7 +280,9 @@ $S^{-1}M = 0$, et soit $(m_i)_{1 \leq i \leq n}$ un système de générateurs de
 
 Il est clair que la relation $(1 + a)M = 0$ entraîne $M = aM$. Pour démontrer la réciproque, nous utiliserons le lemme suivant :
 
-*Lemme 1. — Pour tout idéal a de A, l’ensemble S des éléments $1 + a$ pour $a \in a$, est une partie multiplicative de A, et l’ensemble $a'$ des éléments de $S^{-1}A$ de la forme $a/s$, où $a \in a$ et $s \in S$, est un idéal contenu dans le radical de $S^{-1}A$.*
+#### Lemme 1 {#ac-ii-s2-lem-1 .statement}
+
+*Pour tout idéal a de A, l’ensemble S des éléments $1 + a$ pour $a \in a$, est une partie multiplicative de A, et l’ensemble $a'$ des éléments de $S^{-1}A$ de la forme $a/s$, où $a \in a$ et $s \in S$, est un idéal contenu dans le radical de $S^{-1}A$.*
 
 La première assertion est évidente, ainsi que le fait que $a'$ est un idéal de $S^{-1}A$. D’autre part, $(1/1) + (a/s) = (s + a)/s$ et on a $s + a \in S$ pour $s \in S$ et $a \in a$ par définition de S ; donc $(1/1) + (a/s)$ est inversible dans $S^{-1}A$ pour tout $a/s \in a'$, ce qui achève de prouver le lemme (*Alg.*, chap. VIII, § 6, no 3, th. 1).
 

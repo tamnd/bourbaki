@@ -367,7 +367,9 @@ The equivalence of (a) and (b) follows from Lemma 1, § 3, no. 6. Clearly (b) im
 
 In general, if M is an A-module, we shall denote by V(M) the vector space $M/mM$ over $A/m$. Hypothesis (c) means that $\dim(V(B)) = n$. Let $x_1, \ldots, x_n$ be elements of B whose canonical images in V(B) form a basis of V(B) and let L $\subset B$ be the sub-A-module which they generate. As L is torsion-free and finitely generated, it is free (§ 3, no. 6, Lemma 1). We shall see that $B = L$. Let $y \in B$; we write $M = L + Ay$; this is also a free A-module. The canonical injections $L \to M \to B$ give canonical homomorphisms $V(L) \to V(M) \to V(B)$. As the ranks of L and M are $\leq n$, so are the dimensions of V(L) and V(M). Now, by hypothesis, $V(L) \to V(B)$ is surjective and $V(B)$ is n-dimensional hence $V(L)$ and $V(M)$ are n-dimensional and $V(L) \to V(M)$ is surjective. As M is finitely generated, $L \to M$ is surjective (Chapter II, § 3, no. 2, Corollary 1 to Proposition 4), whence $L = M, y \in L$ and $B = L$. Hence B is free.
 
-*Remark (1)* If v is *discrete*, $\varepsilon(v'_i/v) = \varepsilon(v'_i/v)$ (no. 4) and condition (d) reduces to $\sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v) = n.$
+#### Remark (1) {#ac-vi-s8-n5-rem-1 .statement}
+
+If v is *discrete*, $\varepsilon(v'_i/v) = \varepsilon(v'_i/v)$ (no. 4) and condition (d) reduces to $\sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v) = n.$
 
 #### Corollary 1 {#ac-vi-s8-thm-2-cor-1 .statement}
 

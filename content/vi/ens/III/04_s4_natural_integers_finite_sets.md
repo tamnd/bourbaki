@@ -140,7 +140,9 @@ $$(n \text{ là một số nguyên và } R\{n\}) \Rightarrow R\{n+1\}.$$
 
 Với mục đích này, phương pháp của giả thiết phụ trợ (Chương I, § 3, no. 3) thường được sử dụng, và chính vì lý do đó mà quan hệ "$n$ là một số nguyên và $R\{n\}$" (hoặc thậm chí $R\{n\}$) được gọi là *giả thiết quy nạp*.
 
-*Nhận xét*. Có nhiều tiêu chuẩn thường được sử dụng dưới tên gọi "nguyên lý quy nạp". Tất cả chúng đều có thể dễ dàng suy ra từ C61, và chúng tôi nêu ra ở đây những tiêu chuẩn quan trọng nhất:
+#### Nhận xét {#ens-iii-s4-n3-rem-1 .statement}
+
+Có nhiều tiêu chuẩn thường được sử dụng dưới tên gọi "nguyên lý quy nạp". Tất cả chúng đều có thể dễ dàng suy ra từ C61, và chúng tôi nêu ra ở đây những tiêu chuẩn quan trọng nhất:
 
 (1) Cho $S\{n\}$ là quan hệ
 

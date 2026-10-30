@@ -110,7 +110,9 @@ Chaque critère logarithmique est donc applicable à des fonctions pour lesquell
 
 En raison de son utilité, nous traduirons le critère d’ordre 0 pour les intégrales $\int_a^a f(t) \, dt$, où $f$ est réglée et $\geqslant 0$ dans l’intervalle non compact $]\alpha, a]$:
 
-**Proposition 5** (« critère logarithmique d’ordre 0 »). — Si, au voisinage de $\alpha$, on a $f(x) \leqslant 1/(x-\alpha)^{\mu}$ pour un $\mu < 1$, l’intégrale $\int_a^a f(t) \, dt$ est convergente; si $f(x) \geqslant 1/(x-\alpha)^{\mu}$ pour un $\mu \geqslant 1$, l’intégrale $\int_a^a f(t) \, dt$ est infinie.
+#### Proposition 5 (« critère logarithmique d’ordre 0 ») {#fvr-v-s3-prop-5 .statement}
+
+Si, au voisinage de $\alpha$, on a $f(x) \leqslant 1/(x-\alpha)^{\mu}$ pour un $\mu < 1$, l’intégrale $\int_a^a f(t) \, dt$ est convergente; si $f(x) \geqslant 1/(x-\alpha)^{\mu}$ pour un $\mu \geqslant 1$, l’intégrale $\int_a^a f(t) \, dt$ est infinie.
 
 Nous laissons au lecteur le soin de traduire de même le critère logarithmique d’ordre $n$.
 

@@ -628,7 +628,9 @@ Cuối cùng, giả sử điều kiện (e) thỏa mãn. Theo (a) $\Rightarrow$ 
 
 Cho A là một vành. Cho $(a_i)_{i \in I}$ là một họ hữu hạn các nhóm con của nhóm cộng $A^+$ của A sao cho $A^+$ là tổng trực tiếp của các $a_i$. Giả sử $a_i a_i \subset ai$ với $i \in I$ và $a_i a_j = \{0\}$ với $i \neq j$. Khi đó $a_i$ là một iđêan hai phía của A với mọi $i \in I$. Với phép cộng và phép nhân cảm sinh bởi những phép toán trên A, $a_i$ là một vành có phần tử đơn vị là thành phần của $1 \in A$ trong $a_i$. Nếu $b_i = \sum_{j \neq i} a_j$, rõ ràng các $b_i$ thỏa mãn điều kiện (c) của Mệnh đề 10 và do đó $(b_i)_{i \in I}$ là một phân tích trực tiếp của A, được gọi là *xác định bởi* $(a_i)_{i \in I}$.
 
-*Ví dụ*: *Các iđêan và các vành thương của* $\mathbf{Z}$
+#### Ví dụ {#alg-i-s8-n11-exa-1 .statement}
+
+*Các iđêan và các vành thương của* $\mathbf{Z}$
 
 Một iđêan của $\mathbf{Z}$ là một nhóm con cộng tính của $\mathbf{Z}$ và do đó có dạng $n.\mathbf{Z}$ với $n \geqslant 0$; ngược lại, với mọi số nguyên $n \geqslant 0$, tập hợp $n.\mathbf{Z}$ là một iđêan, iđêan chính $(n)$. Do đó mọi iđêan của $\mathbf{Z}$ đều là chính và được biểu diễn duy nhất dưới dạng $n\mathbf{Z}$ với $n \geqslant 0$. Iđêan $(1)$ bằng $\mathbf{Z}$, iđêan $(0)$ chỉ gồm 0 và các iđêan khác với $\mathbf{Z}$ và $\{0\}$ do đó có dạng $n\mathbf{Z}$ với $n > 1$. Nếu $m \geqslant 1$ và $n \geqslant 1$, $m\mathbf{Z} \supset n\mathbf{Z}$ khi và chỉ khi $n \in m.\mathbf{Z}$, tức là $m$ chia hết $n$. Vì vậy, để iđêan $n\mathbf{Z}$ là cực đại, điều kiện cần và đủ là không tồn tại số nguyên $m > 1$ khác với $n$ và chia hết $n$; nói cách khác, *các iđêan cực đại của* $\mathbf{Z}$ *là các iđêan có dạng* $p\mathbf{Z}$ *trong đó* $p$ *là một số nguyên tố* (§ 4, no. 10, định nghĩa 16).
 

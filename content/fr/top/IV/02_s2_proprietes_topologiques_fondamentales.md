@@ -58,7 +58,9 @@ On trouvera dans V, § 2 une construction axiomatique de la théorie des nombres
 
 ### 2. Parties compactes de $\mathbf{R}$
 
-**Théorème 2** (Borel–Lebesgue). — *Pour qu’une partie de la droite numérique $\mathbf{R}$ soit compacte, il faut et il suffit qu’elle soit fermée et bornée.*
+#### Théorème 2 (Borel–Lebesgue) {#top-iv-s2-thm-2 .statement}
+
+*Pour qu’une partie de la droite numérique $\mathbf{R}$ soit compacte, il faut et il suffit qu’elle soit fermée et bornée.*
 
 1) La condition est *nécessaire*. Soit $A$ une partie compacte de $\mathbf{R}$, et $a$ un nombre réel $> 0$. L’ensemble $A$ est fermé (I, p. 62, prop. 4) et il existe un nombre fini de points $x_i$ ($1 \leq i \leq n$) de $\mathbf{R}$ tels que $A$ soit contenu dans la réunion des voisinages $[x_i - a, x_i + a]$ (I, p. 61). Soit $b$ le maximum des nombres $|x_i|$; on a $A \subset (-b - a, b + a)$.
 
@@ -72,7 +74,9 @@ On trouvera dans V, § 2 une construction axiomatique de la théorie des nombres
 
 *La droite numérique est un espace localement compact et non compact.*
 
-    *Remarque.* — Le th. 2 est souvent cité sous le nom de « théorème de Heine–Borel »; voir les Notes historiques des chap. II et IV.
+#### Remarque {#top-iv-s2-n2-rem-1 .statement}
+
+Le th. 2 est souvent cité sous le nom de « théorème de Heine–Borel »; voir les Notes historiques des chap. II et IV.
 
 ### 3. Borne supérieure d’une partie de $\mathbf{R}$
 

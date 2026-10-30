@@ -321,7 +321,9 @@ $$
 $$
 where $\chi$ is a continuous representation of $K^*$ in $\mathbf{C}^*$.
 
-**Example 2. — Affine group.**
+#### Example 2 {#int-vii-s3-n3-exa-2 .statement}
+
+**Affine group.**
 For every $X \in \mathbf{GL}(n, K)$ and every $x \in K^n$, let $(X, x)$ be the affine linear mapping $\xi \mapsto X\xi + x$ in $K^n$. The set of $(X, x)$ is the affine group $G$ of $K^n$ (A, II, §9, No. 4). The set $T$ of translations is a closed normal subgroup of $G$, canonically isomorphic to $K^n$; on the other hand, $\mathbf{GL}(n, K)$ is a closed subgroup of $G$, and $G$ is the semi-direct product of $\mathbf{GL}(n, K)$ and $T = K^n$. One equips $G$ with the (locally compact) topology for which $G$ is the topological semi-direct product of $\mathbf{GL}(n, K)$ and $T$ (GT, III, §2, No. 10). One has
 $$
 (X, x) = (1, x) \cdot (X, 0).
@@ -349,7 +351,9 @@ $$
 (\mod \det X)^{-n} \cdot \left( \bigotimes_{ij} dx_{ij} \right) \otimes \left( \bigotimes_i dx_i \right).
 $$
 
-**Example 3. — Strict triangular group.**
+#### Example 3 {#int-vii-s3-n3-exa-3 .statement}
+
+**Strict triangular group.**
 
 Let $[1, n]$ be the set of integers $m$ such that $1 \leq m \leq n$. Let $J$ be a subset of $[1, n] \times [1, n]$ satisfying the following conditions:
 1) if $(i, j) \in J$ then $i < j$;
@@ -366,7 +370,9 @@ $$
 
 whence $Z'Z \in T_J$. If $T_J$ is identified with $K^s$, then the mapping $Z \mapsto Z'Z$ (for fixed $Z'$) is identified with an affine mapping, and its determinant is 1, as one sees by ordering the pairs $(i, j) \in J$ lexicographically and applying the following lemma:
 
-**Lemma 6. — Let $L$ be a totally ordered finite set. For every $\lambda \in L$, let $V_\lambda$ be a free module of finite dimension over a commutative ring $k$; for $\lambda, \mu$ in $L$ such that $\lambda \leq \mu$, let $f_{\lambda \mu} \in \mathrm{Hom}_k(V_\mu, V_\lambda)$. Then the linear mapping
+#### Lemma 6 {#int-vii-s3-lem-6 .statement}
+
+**Let $L$ be a totally ordered finite set. For every $\lambda \in L$, let $V_\lambda$ be a free module of finite dimension over a commutative ring $k$; for $\lambda, \mu$ in $L$ such that $\lambda \leq \mu$, let $f_{\lambda \mu} \in \mathrm{Hom}_k(V_\mu, V_\lambda)$. Then the linear mapping
 $$
 (v_\lambda)_{\lambda \in L} \mapsto \left( \sum_{\mu \geq \lambda} f_{\lambda \mu}(v_\mu) \right)_{\lambda \in L},
 $$
@@ -629,7 +635,9 @@ for $i = 1, 2, \ldots, n-1$. This proves a). From this it follows that $\Omega$ 
 
 Now let $G'_1 \subset {}^t(T(n, K)^*)$ be the lower special triangular group. The mapping $(M, N) \mapsto M \cdot N$ is a continuous bijection $\psi$ of $T_1(n, K) \times G'_1$ onto a subset $\Omega'$ of $\mathbf{SL}(n, K)$.
 
-**Lemma 8. — a)** *Let $U = (u_{ij}) \in \mathbf{SL}(n, K)$. In order that $U \in \Omega'$, it is necessary and sufficient that $\det(u_{ij})_{k \leq i, j \leq n} \neq 0$ for $k = 2, 3, \ldots, n$.*
+#### Lemma 8 {#int-vii-s3-lem-8 .statement}
+
+**a)** *Let $U = (u_{ij}) \in \mathbf{SL}(n, K)$. In order that $U \in \Omega'$, it is necessary and sufficient that $\det(u_{ij})_{k \leq i, j \leq n} \neq 0$ for $k = 2, 3, \ldots, n$.*
 
 b) $\Omega'$ *is an open subset of $\mathbf{SL}(n, K)$*.
 
@@ -637,7 +645,9 @@ c) *The mapping $\psi$ is a homeomorphism of $T_1(n, K) \times G'_1$ onto $\Omeg
 
 For, let $M \in T_1(n, K)$ and $N \in {}^t(T(n, K)^*)$. In order that $M \cdot N \in \mathbf{SL}(n, K)$, it is necessary and sufficient that $N \in G'_1$. Therefore $\Omega' = \mathbf{SL}(n, K) \cap \Omega$ and Lemma 8 follows at once from Lemma 7.
 
-**Proposition 6. — a)** *The group $\mathbf{SL}(n, K)$ is unimodular.*
+#### Proposition 6 {#int-vii-s3-prop-6 .statement}
+
+**a)** *The group $\mathbf{SL}(n, K)$ is unimodular.*
 
 b) *Let $\mu_1$ and $\mu_2$ be left Haar measures on the upper strict triangular group $T_1(n, K)$ and the lower special triangular group $G'_1$, respectively. The image of $\mu_1 \otimes \mu_2$ under the homeomorphism $(M, N) \mapsto M \cdot N^{-1}$ of $T_1(n, K) \times G'_1$ onto $\Omega'$ is the restriction to $\Omega'$ of a Haar measure on $\mathbf{SL}(n, K)$*.
 

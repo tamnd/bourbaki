@@ -321,7 +321,9 @@ $$
 
 This property establishes the connection between $f_0$ and the function $e^z$, which is moreover the restriction of $f_0$ to the real axis; for this reason we make the following definition:
 
-**Definition 2** *The homomorphism* $x + iy \mapsto e^z \mathbf{e}(y/2\pi)$ *of* $\mathbf{C}$ *onto* $\mathbf{C}^*$ *is called the complex exponential; its value at an arbitrary complex number* $z$ *is denoted by* $e^z$ *or* $\exp z$.
+#### Definition 2 {#fvr-iii-s1-def-2 .statement}
+
+*The homomorphism* $x + iy \mapsto e^z \mathbf{e}(y/2\pi)$ *of* $\mathbf{C}$ *onto* $\mathbf{C}^*$ *is called the complex exponential; its value at an arbitrary complex number* $z$ *is denoted by* $e^z$ *or* $\exp z$.
 
 ### 6. PROPERTIES OF THE FUNCTION $e^z$
 

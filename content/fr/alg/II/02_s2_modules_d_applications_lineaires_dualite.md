@@ -455,7 +455,9 @@ $$
 Il revient au même de dire que, pour tout $x = \sum_{t \in T} \xi_t e_t \in E$, on a $e_t^*(x) = \xi_t$; aussi dit-on que $e_t^*$ est la forme coordonnée d’indice $t$ sur E. Il résulte de (23) que $(e_t^*)$ est un système libre dans $E^*$.
 
 En particulier, si T est fini, les $e_t^*$ forment une base de $E^*$, les $f_t$ formant alors la base canonique de $A_d^T$. Donc:
-PROPOSITION 11. — Le dual d’un module libre ayant une base de n éléments est un module libre ayant une base de n éléments.
+#### Proposition 11 {#alg-ii-s2-prop-11 .statement}
+
+Le dual d’un module libre ayant une base de n éléments est un module libre ayant une base de n éléments.
 
 On notera que le dual d’un module libre ayant une base infinie n’est pas nécessairement un module libre (VII, § 3, exerc. 10).
 

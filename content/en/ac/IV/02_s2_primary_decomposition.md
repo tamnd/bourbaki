@@ -259,7 +259,9 @@ Every element of $\operatorname{Supp}(M)$ is then minimal in $\operatorname{Supp
 
 By $§ 1$, no. 2, Corollary to Proposition 5, $\operatorname{Ass}_{A_p}(M_p)$ is the set of ideals $q_p$, where $q$ runs through the set of ideals of $\operatorname{Ass}(M)$ which are contained in $p$. On the other hand, $p_p$ is the unique maximal ideal of $A_p$; by Proposition 7, for $M_p$ to be an $A_p$-module of finite length, it is necessary and sufficient that no element of $\operatorname{Ass}(M)$ be strictly contained in $p$. On the other hand, for $M_p \neq 0$, it is necessary and sufficient by definition that $p \in \operatorname{Supp}(M)$ (Chapter 11, § 4, no. 4), that is that $p$ contain an element of $\operatorname{Ass}(M)$ ($§ 1$, no. 3, Proposition 7). This proves the corollary.
 
-Remark (1). Let $M$ be a finitely generated module over a Noetherian ring $A$; let $(M_1), \ldots$ be a composition series of $M$ such that, for $0 \leq i \leq n - 1$, $M_i / M_{i+1}$ is isomorphic to $A/p_i$, where $p_i$ is a prime ideal of $A$ ($§ 1$, no. 4, Theorem 1). If $p$ is a minimal element of $\operatorname{Ass}(M)$, the length $\operatorname{long}_{A_p}(M_p)$ is equal to the *number of indices* $i$ such that $p_i = p$. For the $(M_i)_p$ form a composition series of $M$, and $(M_i)_p / (M_{i+1})_p$ is isomorphic to $(A/p_i)_p$ and hence to $\{0\}$ if $p_i \neq p$ (since $p$ is minimal in the set of $p_i$ by $§ 1$, no. 4, Theorem 2) and to $(A/p)_p$ which is a field, if $p_i = p$.
+#### Remark (1) {#ac-iv-s2-n5-rem-1 .statement}
+
+Let $M$ be a finitely generated module over a Noetherian ring $A$; let $(M_1), \ldots$ be a composition series of $M$ such that, for $0 \leq i \leq n - 1$, $M_i / M_{i+1}$ is isomorphic to $A/p_i$, where $p_i$ is a prime ideal of $A$ ($§ 1$, no. 4, Theorem 1). If $p$ is a minimal element of $\operatorname{Ass}(M)$, the length $\operatorname{long}_{A_p}(M_p)$ is equal to the *number of indices* $i$ such that $p_i = p$. For the $(M_i)_p$ form a composition series of $M$, and $(M_i)_p / (M_{i+1})_p$ is isomorphic to $(A/p_i)_p$ and hence to $\{0\}$ if $p_i \neq p$ (since $p$ is minimal in the set of $p_i$ by $§ 1$, no. 4, Theorem 2) and to $(A/p)_p$ which is a field, if $p_i = p$.
 
 #### Proposition 8 {#ac-iv-s2-prop-8 .statement}
 
@@ -304,7 +306,9 @@ To say that A is Artinian is equivalent to saying that A is an A-module of finit
 
 Suppose they hold. As every prime ideal of A belongs to Supp(A) and every element of Supp(A) contains an element of Ass(A) ($\S$ 1, no. 3, Proposition 7), it follows from (c) that Ass(A) is the set of all prime ideals of A; then A has only a finite number of prime ideals, all of them maximal and associated with the A-module A. This obviously implies that A is semi-local; finally, we know that the Jacobson radical of an Artinian ring is nilpotent (*Algebra*, Chapter VIII, § 6, no. 4, Theorem 3).
 
-*Remark (2)* The conditions of Proposition 9 for a *Noetherian* ring A imply that the spectrum of A is *finite* and *discrete*, every point of Spec(A) being therefore closed (Chapter 11, § 4, no. 3, Corollary 6 to Proposition 11). Conversely, for a *Noetherian* ring A, to say that *every point* $\mathfrak{a}$ of Spec(A) *is closed* means that every prime ideal of A is maximal (*loc. cit.*.) and hence this condition is equivalent to that of Proposition 9.
+#### Remark (2) {#ac-iv-s2-n5-rem-2 .statement}
+
+The conditions of Proposition 9 for a *Noetherian* ring A imply that the spectrum of A is *finite* and *discrete*, every point of Spec(A) being therefore closed (Chapter 11, § 4, no. 3, Corollary 6 to Proposition 11). Conversely, for a *Noetherian* ring A, to say that *every point* $\mathfrak{a}$ of Spec(A) *is closed* means that every prime ideal of A is maximal (*loc. cit.*.) and hence this condition is equivalent to that of Proposition 9.
 
 #### Corollary 1 {#ac-iv-s2-prop-9-cor-1 .statement}
 
@@ -312,7 +316,9 @@ Suppose they hold. As every prime ideal of A belongs to Supp(A) and every elemen
 
 It follows from Proposition 9 and Proposition 8 (iii) and (iv) that, if $(\mathfrak{m}_i)_{1 \leq i \leq n}$ is the family of maximal ideals of $A$, the canonical mapping $A \to \prod_i A_{\mathfrak{m}_i}$ is bijective.
 
-Remark (3). This corollary can also be deduced from the fact that $\operatorname{Spec}(A)$ is finite and discrete and Chapter 11, § 4, no. 3, Proposition 15.
+#### Remark (3) {#ac-iv-s2-n5-rem-3 .statement}
+
+This corollary can also be deduced from the fact that $\operatorname{Spec}(A)$ is finite and discrete and Chapter 11, § 4, no. 3, Proposition 15.
 
 #### Corollary 2 {#ac-iv-s2-prop-9-cor-2 .statement}
 

@@ -274,7 +274,9 @@ $$
 
 Cho $(a_i)_{1 \leq i \leq m}$ là một cơ sở của $A$ trên $K$ và $(e_j)_{1 \leq j \leq n}$ là một cơ sở của $V$ trên $A$; khi đó $(a_i e_j)$ là một cơ sở của $V$ trên $K$ (II, § 1, no. 13, Mệnh đề 25). Mặt khác công thức thứ ba trong các công thức (24) có thể được suy ra từ công thức thứ hai áp dụng cho tự đồng cấu $X - \bar{u}$ của $A[X]$-môđun $A[X] \otimes_A V$ (§ 8, no. 10). Vì vậy chỉ cần chứng minh hai công thức đầu trong (24). Trước hết ta sẽ thiết lập bổ đề sau:
 
-*Bổ đề 1. Cho $X_{ij}$ ($1 \leq i \leq n,\ 1 \leq j \leq n$) là $n^2$ bất định, $X$ là ma trận bình phương $(X_{ij})$ cấp $n$ và $D(X_{11}, \ldots, X_{nn}) \in \mathbf{Z}[X_{11}, \ldots, X_{nn}]$ là định thức $\det(X)$. Mặt khác cho $A$ là một vành giao hoán, $M_{ij}$ ($1 \leq i \leq n,\ 1 \leq j \leq n$) là $n^2$ ma trận cấp $m$ trên $A$, từng đôi một giao hoán được, và $M$ là ma trận bình phương cấp $mn$ trên $A$ có thể được biểu diễn thành một ma trận bình phương các ma trận (II, § 10, no. 7)
+#### Bổ đề 1 {#alg-iii-s9-lem-1 .statement}
+
+*Cho $X_{ij}$ ($1 \leq i \leq n,\ 1 \leq j \leq n$) là $n^2$ bất định, $X$ là ma trận bình phương $(X_{ij})$ cấp $n$ và $D(X_{11}, \ldots, X_{nn}) \in \mathbf{Z}[X_{11}, \ldots, X_{nn}]$ là định thức $\det(X)$. Mặt khác cho $A$ là một vành giao hoán, $M_{ij}$ ($1 \leq i \leq n,\ 1 \leq j \leq n$) là $n^2$ ma trận cấp $m$ trên $A$, từng đôi một giao hoán được, và $M$ là ma trận bình phương cấp $mn$ trên $A$ có thể được biểu diễn thành một ma trận bình phương các ma trận (II, § 10, no. 7)
 $$
 M = \begin{pmatrix}
 M_{11} & M_{12} & \cdots & M_{1n} \\

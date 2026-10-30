@@ -339,7 +339,9 @@ $$
 
 ### 6. Định lý của Artin
 
-**Định lý 2 (Artin).** — *Cho $N$ là một trường, $\Gamma$ là một nhóm các tự đẳng cấu của $N$ và $K$ là trường các bất biến của $\Gamma$. Cho $V$ là một không gian vectơ con trên K của $N$ có số chiều hữu hạn* trên K. Khi đó mọi ánh xạ K-tuyến tính u của V vào N đều là một tổ hợp tuyến tính với các hệ số trong N của các hạn chế trên V của các phần tử của $\Gamma$.
+#### Định lý 2 (Artin) {#alg-v-s10-thm-2 .statement}
+
+— *Cho $N$ là một trường, $\Gamma$ là một nhóm các tự đẳng cấu của $N$ và $K$ là trường các bất biến của $\Gamma$. Cho $V$ là một không gian vectơ con trên K của $N$ có số chiều hữu hạn* trên K. Khi đó mọi ánh xạ K-tuyến tính u của V vào N đều là một tổ hợp tuyến tính với các hệ số trong N của các hạn chế trên V của các phần tử của $\Gamma$.
 
 Cho u là một ánh xạ K-tuyến tính từ V vào N và cho $V_{(N)} = N \otimes_K V$ là không gian vectơ N dẫn xuất từ V bằng mở rộng vô hướng; ký hiệu $\tilde{u}$ là dạng tuyến tính N trên $V_{(N)}$ sao cho $\tilde{u}(x \otimes y) = x \cdot u(y)$ với $x \in N$ và $y \in V$. Với mỗi $a \in \Gamma$ tồn tại một dạng tuyến tính N h trên $V_{(N)}$ sao cho $h_\sigma(x \otimes y) = x \sigma(y)$ với $x \in N$ và $y \in V$. Ánh xạ chính tắc của $V_{(N)} = N \otimes_K V$ vào $N \otimes_K N$ là đơn ánh. Khi đó Hệ quả của Mệnh đề 8 (V, p. 64) cho thấy rằng giao của các hạt nhân của các dạng tuyến tính h trên $V_{(N)}$ được rút gọn về 0. Do đó (II, p. 302, Hệ quả 1) tồn tại $a_1, \ldots, \sigma_n$ trong $\Gamma$ và $a_1, \ldots, a_n$ trong $N$ sao cho $\tilde{u} = \sum_{i=1}^n a_i h_{\sigma_i}$ do đó $u(x) = \sum_{i=1}^n a_i \sigma_i(x)$ với mọi $x \in V$.
 

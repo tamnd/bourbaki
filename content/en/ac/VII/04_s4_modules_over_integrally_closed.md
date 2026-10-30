@@ -87,7 +87,9 @@ The conditions are obviously necessary, for a free sub-A-module of V with the sa
 
 *Suppose that A is Noetherian; for a sub-A-module M of V to be a lattice of V, it is necessary and sufficient that KM = V and M be finitely generated.*
 
-*Remark* (1). Recall that for every sub-A-module M of V the canonical mapping $M \otimes_A K \to V$ is injective and has image KM (*Algebra*, Chapter II, § 7, no. 10, Proposition 26); to say that KM = V means therefore that this mapping is *bijective*.
+#### Remark (1) {#ac-vii-s4-n1-rem-1 .statement}
+
+Recall that for every sub-A-module M of V the canonical mapping $M \otimes_A K \to V$ is injective and has image KM (*Algebra*, Chapter II, § 7, no. 10, Proposition 26); to say that KM = V means therefore that this mapping is *bijective*.
 
 #### Proposition 2 {#ac-vii-s4-prop-2 .statement}
 
@@ -201,7 +203,9 @@ Theorem 1 applied to $M^*$ shows that $M^{**} = \bigcap_{p \in P} M_p^{**}$. But
 
 For any lattice $M$ with respect to $A$, the canonical mapping $c_M : M \to M^{**}$ (*Algebra*, Chapter 11, $§ 2$, no. **7**) identifies an element $x \in M$ with itself, for $x$ is the unique element $y$ of $V = V^{**}$ such that $\langle x, x^* \rangle = \langle y, x^* \rangle$ for all $x^* \in M^*$, since $M^*$ generates $V^*$. We shall say that $M$ is *reflexive* if $M^{**} = M$ (*loc. cit.*). As we have above $M^* = (M^*)^{**}$, it is seen that the *dual* of any lattice $M$ is always *reflexive*.
 
-*Remark* (1) Let $M$ be a finitely generated $A$-module; it is immediate that the dual $M^*$ of $M$, identified with a sub-$A$-module of $\operatorname{Hom}_A(M, K)$ is a *lattice* of the vector $K$-space $\operatorname{Hom}_A(M, K)$; in particular, every finitely generated *reflexive* $A$-module is isomorphic to a lattice of a suitable vector $K$-space.
+#### Remark (1) {#ac-vii-s4-n2-rem-1 .statement}
+
+Let $M$ be a finitely generated $A$-module; it is immediate that the dual $M^*$ of $M$, identified with a sub-$A$-module of $\operatorname{Hom}_A(M, K)$ is a *lattice* of the vector $K$-space $\operatorname{Hom}_A(M, K)$; in particular, every finitely generated *reflexive* $A$-module is isomorphic to a lattice of a suitable vector $K$-space.
 
 #### Theorem 2 {#ac-vii-s4-thm-2 .statement}
 
@@ -409,7 +413,9 @@ We preserve the notation and hypotheses of nos. 2 and 3.
 
 We know (Chapter II, $§ 2$, no. 2, Corollary 2 to Proposition 4) that the condition $M_p = 0$ is equivalent to $a + p$ and hence to $aA_p = A$, (Chapter II, $§ 2$, no. 5, *Remark*); on the other hand, for every integral ideal $b \neq 0$ of A, the relation "*$bA_p = A$, for all $p \in P$*" is equivalent to $\operatorname{div} b = \operatorname{div} A = 0$ in $D(A)$ ($§ 1$, no. 4, Proposition 7), or also to $\operatorname{div}(A : b) = 0$ and, as $A : b$ is divisorial ($§ 1$, no. 1, Proposition 1), this relation is also equivalent to $A : b = A$. The proposition then follows by noting that to say that $a \notin p$ for $p = (0)$ means that $a \neq (0)$.
 
-*Remark* (1) The equivalent conditions of Proposition 9 mean also that $\operatorname{Ass}(M)$ contains no prime ideal of height $\leq 1$. *They may also be interpreted by saying that* $\operatorname{Supp}(M)$ *is of codimension* $\geq 2$ *in* $\operatorname{Spec}(A)$. \*
+#### Remark (1) {#ac-vii-s4-n4-rem-1 .statement}
+
+The equivalent conditions of Proposition 9 mean also that $\operatorname{Ass}(M)$ contains no prime ideal of height $\leq 1$. *They may also be interpreted by saying that* $\operatorname{Supp}(M)$ *is of codimension* $\geq 2$ *in* $\operatorname{Spec}(A)$. \*
 
 #### Definition 2 {#ac-vii-s4-def-2 .statement}
 
@@ -488,7 +494,9 @@ Uniqueness: Iff: $T \to T'$ is a pseudo-isomorphism and $p \in P, f_p : T, \to T
 
 Existence: We may confine our attention to the case where $T \neq 0$. Let $a$ be the annihilator (non-zero and distinct from $A$) of $T$, $p_i$ ($1 \leq i \leq k$) the prime ideals of $A$ of height 1 containing $a$ (which are finite in number ($§ 1$, no. 6, Theorem 4)) and $S = \bigcap_i (A - p_i)$. The semi-local ring $A' = S^{-1}A$ is a principal ideal domain (Lemma 2) and has maximal ideals the $m_i = p_iA'$; as $S^{-1}T$ is a finitely generated torsion $A$-module, it is isomorphic to a finite direct sum $\bigoplus_{j \in I} A'/m_{\phi(j)}^{n_j}$, where $\phi$ is a mapping of a finite set $I$ to $[1, k]$ (*Algebra*, Chapter VII, § 4, no. 7, Proposition 7); as $A'/m_{\phi(j)}^{n_j}$ is isomorphic to $S^{-1}(A/p_{\phi(j)}^{n_j})$ (Chapter II, § 2, no. 4), we have obtained a torsion $A$-module $T'$ of the desired type and an isomorphism $f_0$ of $S^{-1}T$ onto $S^{-1}T'$. As $\operatorname{Hom}_{S^{-1}A}(S^{-1}T, S^{-1}T')$ is equal to $S^{-1} \operatorname{Hom}_A(T, T')$ (Chapter 11, § 2, no. 7, Proposition 19), there exist $s \in S$ and a homomorphism $f : T \to T'$ such that $f_0 = s^{-1}f$. It remains to show that $f$ is a pseudo-isomorphism: now, if $p = 0$ or if $p \in P$ is distinct from the $p_i$, $T_p = T'_p = 0$ (Chapter II, § 4, no. 4, Proposition 17); if on the contrary $p$ is one of the $p_i$ ($1 \leq i \leq k$), $s$ is invertible in $A_p$, and, as $f_{p_i} = s(f_0)_{p_i}$ and $(f_0)_{p_i}$ is an isomorphism of $T_{p_i} = (S^{-1}T)_{m_i}$ onto $T'_{p_i} = (S^{-1}T')_{m_i}$, so is $f_{p_i}$.
 
-Remark (2) In the statement of Theorem 5, the modules $A/p_i^{n_i}$ may be replaced by $A/p_i^{(n_i)}$ ($§ 1$, no. 4, Proposition 8). For all $p \in P$, the canonical mapping $g : A/p^n \to A/p^{(n)} = A/(A \cap p^nA_p)$ is a pseudo-isomorphism, as, for all $q \in P$ distinct from $p$, $A_q/p^nA_q = A_q/p^{(n)}A_q = 0$ and $A_p/p^nA_p = A_p/p^{(n)}A_p$.
+#### Remark (2) {#ac-vii-s4-n4-rem-2 .statement}
+
+In the statement of Theorem 5, the modules $A/p_i^{n_i}$ may be replaced by $A/p_i^{(n_i)}$ ($§ 1$, no. 4, Proposition 8). For all $p \in P$, the canonical mapping $g : A/p^n \to A/p^{(n)} = A/(A \cap p^nA_p)$ is a pseudo-isomorphism, as, for all $q \in P$ distinct from $p$, $A_q/p^nA_q = A_q/p^{(n)}A_q = 0$ and $A_p/p^nA_p = A_p/p^{(n)}A_p$.
 
 \* Given an exact sequence of $A$-modules, $E \to F \to G$, if $E$ and $G$ are pseudo-zero, so is $F$, as follows from Definition 2 and Chapter II, §2, no. 4, Theorem 1. In the language of categories, we may then say that, in the category $\mathscr{C}$ of $A$-modules, the sub-category $\mathscr{C}'$ of pseudo-zero modules is *full* and we may then define the *quotient* category $\mathscr{C}/\mathscr{C}'$: the objects in this category are also $A$-modules but the set of morphisms from $E$ to $F$ (for $E, F$ in $\mathscr{C}/\mathscr{C}'$) is the direct limit of the set of commutative groups $\mathrm{Hom}_A(E', F')$, where $E'$ (resp. $F'$) runs through the set of submodules of $E$ (resp. the set of quotient modules $F/F''$ of $F$) such that $E/E'$ (resp. $F''$) is pseudo-zero. Of course, for every ordered pair of $A$-modules $E, F$, there is a canonical homomorphism $\mathrm{Hom}_{\mathscr{E}}(E, F) \to \mathrm{Hom}_{\mathscr{E}/\mathscr{E}'}(E, F)$. To say that a homomorphism $u \in \mathrm{Hom}_A(E, F)$ is pseudo-zero (resp. pseudo-injective, pseudo-surjective, pseudo-bijective) means that its canonical image in $\mathrm{Hom}_{\mathscr{E}/\mathscr{E}'}(E, F)$ is zero (resp. a monomorphism, an epimorphism, an isomorphism). \*
 

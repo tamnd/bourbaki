@@ -285,7 +285,9 @@ Dãy $(e_n)_{n \in I}$ được gọi là thu được bằng phép *trực chu�
 Nếu E thỏa mãn tiên đề đếm được thứ nhất, thì tồn tại một dãy toàn phần trong E, và ta luôn luôn có thể trích ra một họ độc lập toàn phần từ một dãy như vậy (A, II, § 7, No. 1, đl. 2).
 
 Ta có thể nêu các ví dụ về những không gian tiền Hilbert Hausdorff không có cơ sở trực chuẩn nào (V, p. 70, bài tập 2).
-*Ví dụ.* — Cho I là khoảng $(-1, 1)$ của $\mathbf{R}$ và E là không gian vectơ các hàm liên tục nhận giá trị thực trên I. Cho $x$ ký hiệu đơn ánh chính tắc từ I vào $\mathbf{R}$, xét như một phần tử của E. Theo định lý Stone-Weierstrass, dãy $(x^n)_{n \in \mathbf{N}}$ là toàn phần trong E đối với tôpô hội tụ đều GT, X, § 4, No. 2).
+#### Ví dụ {#evt-v-s2-n4-exa-1 .statement}
+
+Cho I là khoảng $(-1, 1)$ của $\mathbf{R}$ và E là không gian vectơ các hàm liên tục nhận giá trị thực trên I. Cho $x$ ký hiệu đơn ánh chính tắc từ I vào $\mathbf{R}$, xét như một phần tử của E. Theo định lý Stone-Weierstrass, dãy $(x^n)_{n \in \mathbf{N}}$ là toàn phần trong E đối với tôpô hội tụ đều GT, X, § 4, No. 2).
 Xét E như một không gian tiền Hilbert Hausdorff thực trong đó tích vô hướng được cho bởi
 $$
 \langle f | g \rangle = \int_{-1}^{1} f(t) \, g(t) \, dt .

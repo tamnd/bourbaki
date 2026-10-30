@@ -46,7 +46,9 @@ content_sha256: f912ce448ee1a4126b48a8dd56b73d600b24151c918435c56cc969e0399db275
 
 Let $R$ be a commutative ring. Two elements $x, y$ of $R$ are called *strongly relatively prime* if the principal ideals $Rx$ and $Ry$ are relatively prime, in other words (Chapter II, § 1, no. 2) if $R x + R y = R$; it amounts to the same to say that there exist two elements $a, b$ of $R$ such that $ax + by = 1$.
 
-**Lemma 1 ("Euclid's Lemma").** *Let $x, y$ be two strongly relatively prime elements of $R$; if $z \in R$ is such that $x$ divides $yz$, then $x$ divides $z$.*
+#### Lemma 1 ("Euclid's Lemma") {#ac-iii-s4-lem-1 .statement}
+
+*Let $x, y$ be two strongly relatively prime elements of $R$; if $z \in R$ is such that $x$ divides $yz$, then $x$ divides $z$.*
 
 If $1 = ax + by$, then $z = x(az) + (yz)b$.
 

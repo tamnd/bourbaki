@@ -46,11 +46,15 @@ Nous aurons constamment à faire usage, dans ce paragraphe, des notions et résu
 
 Soient E un espace topologique, R une relation d’équivalence dans E, A une partie de E, $R_A$ la relation d’équivalence induite sur A par R; soit enfin $f$ l’application canonique de E sur E/R. Avec ces notations:
 
-*Lemme 1. — Si tout ensemble ouvert (resp. fermé) dans A et saturé pour $R_A$ est la trace sur A d’un ensemble ouvert (resp. fermé) dans E et saturé pour R, l’espace quotient $A/R_A$ est homéomorphe au sous-espace $f(A)$ de E/R. Il en est ainsi en particulier si A est ouvert ou fermé dans E et saturé pour R.*
+#### Lemme 1 {#top-vi-s3-lem-1 .statement}
+
+*Si tout ensemble ouvert (resp. fermé) dans A et saturé pour $R_A$ est la trace sur A d’un ensemble ouvert (resp. fermé) dans E et saturé pour R, l’espace quotient $A/R_A$ est homéomorphe au sous-espace $f(A)$ de E/R. Il en est ainsi en particulier si A est ouvert ou fermé dans E et saturé pour R.*
 
 Cela résulte de la prop. 10 de I, p. 23.
 
-*Lemme 2. — S’il existe une application continue $g$ de E sur A, telle que, pour tout $x \in E$, $g(x)$ appartienne à la classe d’équivalence de $x$, l’espace $A/R_A$ est homéomorphe à E/R.*
+#### Lemme 2 {#top-vi-s3-lem-2 .statement}
+
+*S’il existe une application continue $g$ de E sur A, telle que, pour tout $x \in E$, $g(x)$ appartienne à la classe d’équivalence de $x$, l’espace $A/R_A$ est homéomorphe à E/R.*
 
 Cela n’est autre que le cor. 2 de I, p. 23.
 

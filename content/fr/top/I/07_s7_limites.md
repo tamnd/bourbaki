@@ -87,7 +87,9 @@ Pour qu’un point $x$ soit adhérent à une base de filtre $\mathfrak{B}$, il f
 Cela résulte immédiatement des définitions.
 
 Cette proposition et le cor. 1 de I, p. 37 montrent que la propriété « $x$ est adhérent au filtre $\mathfrak{F}$ » est équivalente à la propriété « il existe un filtre plus fin que $\mathfrak{F}$ et que le filtre des voisinages de $x$ ». Autrement dit :
-PROPOSITION 4. — Pour qu’un point $x$ soit adhérent à un filtre $\mathfrak{F}$, il faut et il suffit qu’il existe un filtre plus fin que $\mathfrak{F}$ et qui converge vers $x$.
+#### Proposition 4 {#top-i-s7-prop-4 .statement}
+
+Pour qu’un point $x$ soit adhérent à un filtre $\mathfrak{F}$, il faut et il suffit qu’il existe un filtre plus fin que $\mathfrak{F}$ et qui converge vers $x$.
 
 En particulier, tout point limite d’un filtre $\mathfrak{F}$ est un point adhérent à $\mathfrak{F}$.
 
@@ -170,7 +172,9 @@ $$
 et on dit que $y$ est limite de $f$ au point $a$ ou que $f(x)$ tend vers $y$ lorsque $x$ tend vers $a$. De même, au lieu de dire que $y$ est valeur d’adhérence de $f$ suivant $\mathfrak{V}$, on dit que $y$ est valeur d’adhérence de $f$ au point $a$.
 
 Compte tenu de la définition de la continuité (I, p. 8, déf. 1), la prop. 7 de I, p. 48 montre que:
-**Proposition 9.** — *Pour qu’une application f d’un espace topologique X dans un espace topologique Y soit continue en un point a ∈ X, il faut et il suffit que* $\lim_{x \to a} f(x) = f(a)$.
+#### Proposition 9 {#top-i-s7-prop-9 .statement}
+
+*Pour qu’une application f d’un espace topologique X dans un espace topologique Y soit continue en un point a ∈ X, il faut et il suffit que* $\lim_{x \to a} f(x) = f(a)$.
 
 #### Corollaire 1 {#top-i-s7-prop-8-cor-1 .statement}
 

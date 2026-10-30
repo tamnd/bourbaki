@@ -48,7 +48,9 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Chỉ cần chứng minh rằng đa thức $X^{p^e} - a$ là bất khả quy trong $K[X]$. Theo định nghĩa chiều cao của x, ta có $a \notin K^p$, do đó mệnh đề suy ra từ bổ đề:
 
-*Bổ đề 1. — Cho K là một trường và a là một phần tử của K sao cho $a \notin K^p$. Khi đó, với mọi số nguyên $e \geq 0$, đa thức $f(X) = X^{p^e} - a$ là bất khả quy trong $K[X]$.*
+#### Bổ đề 1 {#alg-v-s5-lem-1 .statement}
+
+*Cho K là một trường và a là một phần tử của K sao cho $a \notin K^p$. Khi đó, với mọi số nguyên $e \geq 0$, đa thức $f(X) = X^{p^e} - a$ là bất khả quy trong $K[X]$.*
 
 Cho $\Omega$ là một bao đóng đại số của $K$ và cho b là phần tử $a^{p^{-e}}$ của $\Omega$; ta ký hiệu g là đa thức tối tiểu của b trên $K$. Ta có $f(X) = (X - b)^{p^e}$ và do đó mọi đa thức bất khả quy trong $K[X]$ chia hết f đều nhận b làm nghiệm, và vì thế bằng g. Do đó tồn tại (*IV*, p. 13, Mệnh đề 13) một số nguyên $q \geq 1$ sao cho $f = g^q$; vì q chia bậc $p^e$ của f, nên tồn tại một số nguyên $e'$ sao cho $0 \leq e' \leq e$ và $q = p^{e'}$. Nếu c là số hạng hằng của g, ta có $-a = c^q$; vì ta giả sử a không thuộc $K^p$, nên phải có $q = 1$, tức là $f = g$, và bổ đề được chứng minh.
 

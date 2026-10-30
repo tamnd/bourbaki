@@ -85,7 +85,9 @@ Dans un groupe commutatif séparé G, pour qu’une famille $(x_i)_{i \in I}$ so
 D’une manière plus imagée, on peut dire qu’en ôtant de la famille $(x_i)$ un nombre fini (assez grand) de termes, toute somme partielle finie de la sous-famille restante doit être aussi voisine que l’on veut de 0.
 
 Une conséquence immédiate de la première partie du th. 1 est la proposition suivante:
-Proposition 1. — Si la famille $(x_i)$ est sommable, tout voisinage de 0 contient tous les $x_i$, à l’exception d’une sous-famille finie (en d’autres termes, si I est infini, on a $\lim x_i = 0$ suivant le filtre des complémentaires des parties finies de I).
+#### Proposition 1 {#top-iii-s5-prop-1 .statement}
+
+Si la famille $(x_i)$ est sommable, tout voisinage de 0 contient tous les $x_i$, à l’exception d’une sous-famille finie (en d’autres termes, si I est infini, on a $\lim x_i = 0$ suivant le filtre des complémentaires des parties finies de I).
 
 Cette condition nécessaire pour qu’une famille $(x_i)$ soit sommable n’est nullement suffisante en général, même lorsque G est complet; on en verra de nombreux exemples par la suite (voir IV, p. 33).
 

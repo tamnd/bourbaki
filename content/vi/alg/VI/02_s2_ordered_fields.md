@@ -117,7 +117,9 @@ Cũng nhắc lại rằng, trong một nhóm Abel được sắp thứ tự toà
 
 Ta chỉ xét các quan hệ thứ tự *toàn phần* trên các trường vì các quan hệ khác là rất « bệnh lý » (VI, p. 38, Ex. 6).
 
-*Ví dụ. — 1) Trường $\mathbf{Q}$ các số hữu tỉ là một trường có thứ tự.
+#### Ví dụ {#alg-vi-s2-n2-exa-2 .statement}
+
+*1) Trường $\mathbf{Q}$ các số hữu tỉ là một trường có thứ tự.
 2) Một trường con của một trường có thứ tự, với thứ tự cảm sinh, là một trường có thứ tự.
 3) \* Trường số thực là một trường có thứ tự. \*
 

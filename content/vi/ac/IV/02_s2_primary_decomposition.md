@@ -266,7 +266,9 @@ Mọi phần tử của $\operatorname{Supp}(M)$ khi đó là cực tiểu trong
 
 Theo $§ 1$, no. 2, Hệ quả của Mệnh đề 5, $\operatorname{Ass}_{A_p}(M_p)$ là tập hợp các iđêan $q_p$, trong đó $q$ chạy qua tập hợp các iđêan của $\operatorname{Ass}(M)$ được chứa trong $p$. Mặt khác, $p_p$ là iđêan cực đại duy nhất của $A_p$; theo Mệnh đề 7, để $M_p$ là một môđun $A_p$ có độ dài hữu hạn, điều kiện cần và đủ là không có phần tử nào của $\operatorname{Ass}(M)$ được chứa thực sự trong $p$. Mặt khác, để $M_p \neq 0$, theo định nghĩa điều kiện cần và đủ là $p \in \operatorname{Supp}(M)$ (Chương 11, § 4, no. 4), nghĩa là $p$ chứa một phần tử của $\operatorname{Ass}(M)$ ($§ 1$, no. 3, Mệnh đề 7). Điều này chứng minh hệ quả.
 
-Nhận xét (1). Cho $M$ là một môđun sinh hữu hạn trên một vành Noether $A$; hãy để $(M_1), \ldots$ là một chuỗi hợp thành của $M$ sao cho, với $0 \leq i \leq n - 1$, $M_i / M_{i+1}$ đẳng cấu với $A/p_i$, trong đó $p_i$ là một iđêan nguyên tố của $A$ ($§ 1$, no. 4, Định lý 1). Nếu $p$ là một phần tử cực tiểu của $\operatorname{Ass}(M)$, độ dài $\operatorname{long}_{A_p}(M_p)$ bằng *số chỉ số* $i$ sao cho $p_i = p$. Vì các $(M_i)_p$ tạo thành một chuỗi hợp thành của $M$, và $(M_i)_p / (M_{i+1})_p$ đẳng cấu với $(A/p_i)_p$ và do đó đẳng cấu với $\{0\}$ nếu $p_i \neq p$ (vì $p$ là cực tiểu trong tập hợp các $p_i$ theo $§ 1$, no. 4, Định lý 2) và với $(A/p)_p$ là một trường, nếu $p_i = p$.
+#### Nhận xét (1) {#ac-iv-s2-n5-rem-1 .statement}
+
+Cho $M$ là một môđun sinh hữu hạn trên một vành Noether $A$; hãy để $(M_1), \ldots$ là một chuỗi hợp thành của $M$ sao cho, với $0 \leq i \leq n - 1$, $M_i / M_{i+1}$ đẳng cấu với $A/p_i$, trong đó $p_i$ là một iđêan nguyên tố của $A$ ($§ 1$, no. 4, Định lý 1). Nếu $p$ là một phần tử cực tiểu của $\operatorname{Ass}(M)$, độ dài $\operatorname{long}_{A_p}(M_p)$ bằng *số chỉ số* $i$ sao cho $p_i = p$. Vì các $(M_i)_p$ tạo thành một chuỗi hợp thành của $M$, và $(M_i)_p / (M_{i+1})_p$ đẳng cấu với $(A/p_i)_p$ và do đó đẳng cấu với $\{0\}$ nếu $p_i \neq p$ (vì $p$ là cực tiểu trong tập hợp các $p_i$ theo $§ 1$, no. 4, Định lý 2) và với $(A/p)_p$ là một trường, nếu $p_i = p$.
 
 #### Mệnh đề 8 {#ac-iv-s2-prop-8 .statement}
 
@@ -311,7 +313,9 @@ Nói rằng A là Artin tương đương với nói rằng nó là một A-môđ
 
 Giả sử chúng được thỏa mãn. Vì mọi iđêan nguyên tố của A thuộc Supp(A) và mọi phần tử của Supp(A) chứa một phần tử của Ass(A) ($\S$ 1, no. 3, Mệnh đề 7), suy ra từ (c) rằng Ass(A) là tập hợp tất cả các iđêan nguyên tố của A; khi đó A chỉ có một số hữu hạn các iđêan nguyên tố, tất cả chúng đều là cực đại và liên kết với A-môđun A. Điều này hiển nhiên suy ra rằng A là nửa địa phương; cuối cùng, ta biết rằng căn Jacobson của một vành Artin là lũy linh (*Đại số*, Chương VIII, § 6, no. 4, Định lý 3).
 
-*Nhận xét (2)* Các điều kiện của Mệnh đề 9 đối với một vành *Noether* A kéo theo rằng phổ của A là *hữu hạn* và *rời rạc*, do đó mọi điểm của Spec(A) đều đóng (Chương 11, § 4, no. 3, Hệ quả 6 của Mệnh đề 11). Ngược lại, đối với một vành *Noether* A, nói rằng *mọi điểm* $\mathfrak{a}$ của Spec(A) *là đóng* có nghĩa là mọi iđêan nguyên tố của A là cực đại (*loc. cit.*.) và vì thế điều kiện này tương đương với điều kiện của Mệnh đề 9.
+#### Nhận xét (2) {#ac-iv-s2-n5-rem-2 .statement}
+
+Các điều kiện của Mệnh đề 9 đối với một vành *Noether* A kéo theo rằng phổ của A là *hữu hạn* và *rời rạc*, do đó mọi điểm của Spec(A) đều đóng (Chương 11, § 4, no. 3, Hệ quả 6 của Mệnh đề 11). Ngược lại, đối với một vành *Noether* A, nói rằng *mọi điểm* $\mathfrak{a}$ của Spec(A) *là đóng* có nghĩa là mọi iđêan nguyên tố của A là cực đại (*loc. cit.*.) và vì thế điều kiện này tương đương với điều kiện của Mệnh đề 9.
 
 #### Hệ quả 1 {#ac-iv-s2-prop-9-cor-1 .statement}
 
@@ -319,7 +323,9 @@ Giả sử chúng được thỏa mãn. Vì mọi iđêan nguyên tố của A t
 
 Từ Mệnh đề 9 và Mệnh đề 8 (iii) và (iv) suy ra rằng, nếu $(\mathfrak{m}_i)_{1 \leq i \leq n}$ là họ các iđêan cực đại của $A$, thì ánh xạ chính tắc $A \to \prod_i A_{\mathfrak{m}_i}$ là song ánh.
 
-Nhận xét (3). Hệ quả này cũng có thể suy ra từ sự kiện rằng $\operatorname{Spec}(A)$ là hữu hạn và rời rạc và Chương 11, § 4, no. 3, Mệnh đề 15.
+#### Nhận xét (3) {#ac-iv-s2-n5-rem-3 .statement}
+
+Hệ quả này cũng có thể suy ra từ sự kiện rằng $\operatorname{Spec}(A)$ là hữu hạn và rời rạc và Chương 11, § 4, no. 3, Mệnh đề 15.
 
 #### Hệ quả 2 {#ac-iv-s2-prop-9-cor-2 .statement}
 

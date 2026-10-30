@@ -178,7 +178,9 @@ do đó có hai mệnh đề đầu tiên. Mặt khác, nếu $D \in \mathfrak{d
 
 Cho L là một đại số kết hợp và g là đại số Lie được xác định bởi nó (no. 2, Ví dụ 1). Hai phần tử x, y hoán vị được trong g khi và chỉ khi xy = yx trong L.
 
-*Ví dụ 2. Nếu một nhóm Lie thực G là giao hoán thì đại số Lie của nó là giao hoán.*
+#### Ví dụ 2 {#lie-i-s1-n3-exa-2 .statement}
+
+*Nếu một nhóm Lie thực G là giao hoán thì đại số Lie của nó là giao hoán.*
 
 Mọi K-môđun hiển nhiên có thể được trang bị một cấu trúc đại số Lie giao hoán duy nhất trên K.
 
@@ -188,7 +190,9 @@ Nếu g là một đại số Lie thì mọi môđun con đơn sinh của g là 
 
 Từ đẳng thức (3) suy ra rằng trong một đại số Lie g không có sự phân biệt giữa iđêan trái và iđêan phải, mọi iđêan đều là hai phía. Vì vậy ta chỉ đơn giản nói đến các iđêan.
 
-*Ví dụ. Cho G là một nhóm Lie, g đại số Lie của nó và H là một nhóm con Lie của G. Mọi trường vectơ bất biến trái trên H xác định một cách chính tắc một trường vectơ bất biến trái trên G, do đó có một đơn ánh chính tắc của đại số Lie h của H vào g; dưới đơn ánh này, h được đồng nhất với một đại số con Lie của g. Nếu H là chuẩn tắc trong G, ảnh chính tắc của h trong g là một iđêan của g.*
+#### Ví dụ {#lie-i-s1-n4-exa-1 .statement}
+
+*Cho G là một nhóm Lie, g đại số Lie của nó và H là một nhóm con Lie của G. Mọi trường vectơ bất biến trái trên H xác định một cách chính tắc một trường vectơ bất biến trái trên G, do đó có một đơn ánh chính tắc của đại số Lie h của H vào g; dưới đơn ánh này, h được đồng nhất với một đại số con Lie của g. Nếu H là chuẩn tắc trong G, ảnh chính tắc của h trong g là một iđêan của g.*
 
 Một iđêan của g là một môđun con của g ổn định dưới các đạo hàm nội của g.
 

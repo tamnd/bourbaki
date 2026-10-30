@@ -556,7 +556,9 @@ Sous les hypothèses de la prop. 9, si on suppose en outre $N$ séparé pour la 
 
 En effet, cela résulte de ce que $\mathrm{gr}(u)$ est injectif (cor. 1 du th. 1).
 
-*Remarque. — Supposons vérifiées les hypothèses de la prop. 9, et en outre l’une des conditions suivantes :
+#### Remarque {#ac-iii-s2-n8-rem-1 .statement}
+
+*Supposons vérifiées les hypothèses de la prop. 9, et en outre l’une des conditions suivantes :
 1° $m$ est nilpotent ;
 2° $A$ est noethérien, et $P$ idéalement séparé (cf. § 5, n° 1) ; alors $P$ est un $A$-module plat. Cela résulte en effet de ce que $\gamma_P$ est bijectif et du § 5, n° 2, th. 1, (iv), puisque $A/m$ est un corps.*
 

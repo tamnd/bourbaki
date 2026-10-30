@@ -445,7 +445,9 @@ Soit $(v_i)_{i \in I}$ la famille des prolongements à $K'$ des valuations essen
 
 Il reste à montrer que les $v_i$ sont équivalentes à des valuations essentielles de $A'$ (n° 4, cor. 2 de la prop. 6), c’est-à-dire (n° 6, cor. 2 du th. 3) que l’idéal premier $p_i$, formé par les $x \in A'$ tels que $v_i(x) > 0$, est de hauteur 1. S’il n’en était pas ainsi, il existerait un idéal premier $q$ de $A'$ tel que $(0) \subset q \subset p_i$ distinct de $(0)$ et de $p_i$; on aurait alors $(0) \subset q \cap A \subset p_i \cap A$, et $q \cap A$ serait distinct de $(0)$ et de $p_i \cap A$ (chap. V, § 2, n° 1, cor. 1 de la prop. 1); l’idéal premier $p_i \cap A$ ne serait donc pas de hauteur 1, ce qui contredit le fait qu’il correspond à une valuation essentielle de $A$.
 
-COROLLAIRE . — Soient $p$ (resp. $p'$) un idéal premier de hauteur 1 de $A$ (resp. $A'$), et $v$ (resp. $v'$) la valuation essentielle de $A$ (resp. $A'$) qui lui correspond. Pour que $p'$ soit au-dessus de $p$, il faut et il suffit que la restriction de $v'$ à $K$ soit équivalente à $v$.
+#### Corollaire {#ac-vii-s1-n8-cor-1 .statement}
+
+Soient $p$ (resp. $p'$) un idéal premier de hauteur 1 de $A$ (resp. $A'$), et $v$ (resp. $v'$) la valuation essentielle de $A$ (resp. $A'$) qui lui correspond. Pour que $p'$ soit au-dessus de $p$, il faut et il suffit que la restriction de $v'$ à $K$ soit équivalente à $v$.
 
 La valuation $v'$ est équivalente au prolongement d’une valuation essentielle $w$ de $A$ (prop. 12). Soit $q = p' \cap A$, qui est un idéal premier de hauteur 1 de $A$. Pour que la restriction de $v'$ à $K$ soit équivalente à $v$, il faut et il suffit que $w = v$, donc que $q = p$.
 

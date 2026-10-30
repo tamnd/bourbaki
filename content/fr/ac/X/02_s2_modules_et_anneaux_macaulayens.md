@@ -210,7 +210,9 @@ $$
 
 Nous dirons dans la suite de ce numéro qu’un module M de type fini sur un anneau local noethérien A est pur si, pour tout idéal premier p associé à M, on a dim(A/p) = dim(M). Cela signifie aussi que M n’a pas d’idéaux premiers associés immergés et que les composantes irréductibles du support de M ont toutes la même dimension. Tout module macaulayen sur un anneau local noethérien est pur (n° 2, prop. 2 et son corollaire).
 
-Lemme 1:— Soient A un anneau local noethérien, M un A-module de type fini et pur, et x un élément de mA. Les conditions suivantes sont équivalentes :
+#### Lemme 1 {#ac-x-s2-lem-1 .statement}
+
+— Soient A un anneau local noethérien, M un A-module de type fini et pur, et x un élément de mA. Les conditions suivantes sont équivalentes :
 
 (i) on a dim(M/xM) = dim(M) − 1 ;
 (ii) l’homothétie xM est injective.

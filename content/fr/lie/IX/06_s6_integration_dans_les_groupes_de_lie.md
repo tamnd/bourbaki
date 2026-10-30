@@ -223,7 +223,9 @@ $$
 
 d’où le lemme.
 
-**Théorème 1** (H. Weyl). — *La mesure dg sur G est l’image par l’application* $(g, t) \mapsto gtg^{-1}$ *de* $G \times T$ *dans* $G$ *de la mesure* $dg \otimes \frac{1}{w(G)} \delta_G dt$, où
+#### Théorème 1 (H. Weyl) {#lie-ix-s6-thm-1 .statement}
+
+*La mesure dg sur G est l’image par l’application* $(g, t) \mapsto gtg^{-1}$ *de* $G \times T$ *dans* $G$ *de la mesure* $dg \otimes \frac{1}{w(G)} \delta_G dt$, où
 $$
 \delta_G(t) = \det(\mathrm{Ad}_{g/t}(t) - 1) = \prod_{\alpha \in R(G, T)} (t^\alpha - 1) .
 $$
@@ -559,7 +561,9 @@ $$
 
 où les flèches horizontales sont les injections canoniques, et les flèches verticales sont les isomorphismes induits par l’application $\omega \mapsto \omega(e)$.
 
-**Corollaire 1. — a)** *Dans le diagramme (18), tous les morphismes sont des homotopismes.*
+#### Corollaire 1 {#lie-ix-s6-thm-2-cor-1 .statement}
+
+**a)** *Dans le diagramme (18), tous les morphismes sont des homotopismes.*
 
 *b)* *Soit $\omega \in \mathrm{Alt}(g)$. Pour que $\omega$ appartienne à $\mathrm{Alt}(g)^G$, il faut et il suffit qu’on ait $d\omega = 0$ et $d(i(\xi)\ \omega) = 0$ pour tout $\xi \in g$. La différentielle du complexe $\mathrm{Alt}(g)^G$ est nulle.*
 
@@ -577,7 +581,9 @@ Considérons les sous-complexes $Z(\Omega(G))$ et $B(\Omega(G))$ de $\Omega(G)$ 
 
 Soit $H$ un sous-groupe fermé de $G$; appliquons maintenant le th. 2 à $X = G/H$. D’après III, § 1, n° 8, cor. 1 à la prop. 17, les formes différentielles $G$-invariantes sur $G/H$ s’identifient aux éléments $H$-invariants de $\mathrm{Alt}(T_e(G/H))$, c’est-à-dire encore aux éléments de $\mathrm{Alt}(g)$ qui sont $H$-invariants et annulés par les opérateurs $i(\xi)$ pour tout $\xi \in L(H)$. Par suite :
 
-**Corollaire 2. — Soit $H$ un sous-groupe fermé de $G$.**
+#### Corollaire 2 {#lie-ix-s6-thm-2-cor-2 .statement}
+
+**Soit $H$ un sous-groupe fermé de $G$.**
 
 *a)* *L’injection canonique $\Omega(G/H)^G \to \Omega(G/H)$ est un homotopisme.*
 

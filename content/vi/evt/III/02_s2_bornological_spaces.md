@@ -36,7 +36,9 @@ Trong đoạn này, E ký hiệu một không gian lồi địa phương, và $\
 
 Ngay lập tức thấy rằng (i) kéo theo (ii) (III, p. 4, hệ quả 1) và (ii) kéo theo (iii). Cho V là một lân cận của 0 trong E ; nếu $u^{-1}(V)$ không phải là một lân cận của 0 trong G, thì tồn tại một dãy $(y_n)$ các điểm của $G - u^{-1}(V)$ sao cho $p(y_n) \leq \frac{1}{n^2}$. Do đó dãy $x_n = n y_n$ hội tụ về 0 trong G và $u(x_n) \notin nV$, điều này kéo theo dãy $(u(x_n))$ không bị chặn. Vậy (iii) kéo theo (i).
 
-*Mệnh đề 1.* — *Các điều kiện sau là tương đương* :
+#### Mệnh đề 1 {#evt-iii-s2-prop-1 .statement}
+
+*Các điều kiện sau là tương đương* :
 (i) *Mọi nửa chuẩn trên E bị chặn trên các tập con bị chặn của E đều liên tục*.
 (i') *Mọi tập con lồi cân bằng của E hấp thụ các tập con bị chặn của E* (I, p. 7, định nghĩa 4) *đều là một lân cận của 0 trong E*.
 (ii) *E là giới hạn quy nạp của các không gian nửa chuẩn $E_A$, trong đó A chạy qua tập có hướng tăng của các tập con đóng, lồi, cân bằng và bị chặn của E*.

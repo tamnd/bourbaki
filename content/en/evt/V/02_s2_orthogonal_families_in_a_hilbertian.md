@@ -278,7 +278,9 @@ The sequence $(e_n)_{n \in I}$ is said to be obtained by *orthonormalisation* fr
 If E satisfies the first axiom of countability, then there exists a total sequence in E, and we can always extract an independent total family from such a sequence (A, II, § 7, No. 1, th. 2).
 
 We can give examples of Hausdorff prehilbertian spaces not having any orthonormal basis (V, p. 70, exerc. 2).
-*Example.* — Let I be the interval $(-1, 1)$ of $\mathbf{R}$ and E the vector space of real valued continuous functions on I. Let $x$ denote the canonical injection from I into $\mathbf{R}$, considered as an element of E. By the Stone-Weierstrass theorem the sequence $(x^n)_{n \in \mathbf{N}}$ is total in E for the topology of uniform convergence GT, X, § 4, No. 2).
+#### Example {#evt-v-s2-n4-exa-1 .statement}
+
+Let I be the interval $(-1, 1)$ of $\mathbf{R}$ and E the vector space of real valued continuous functions on I. Let $x$ denote the canonical injection from I into $\mathbf{R}$, considered as an element of E. By the Stone-Weierstrass theorem the sequence $(x^n)_{n \in \mathbf{N}}$ is total in E for the topology of uniform convergence GT, X, § 4, No. 2).
 Consider E as a real Hausdorff prehilbertian space in which the scalar product is given by
 $$
 \langle f | g \rangle = \int_{-1}^{1} f(t) \, g(t) \, dt .

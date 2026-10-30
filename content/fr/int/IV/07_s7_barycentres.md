@@ -145,7 +145,9 @@ x = \lambda x' + (1 - \lambda)x''.
 $$
 D’après la prop. 1, $x'$ (resp. $x''$) est barycentre d’une mesure positive $\mu'$ (resp. $\mu''$) de masse totale 1 sur $K'$. Alors $x$ est barycentre de $\lambda \mu' + (1 - \lambda)\mu''$. Donc $\lambda \mu' + (1 - \lambda)\mu'' = \varepsilon_x$. Donc $\mu'$ et $\mu''$ sont proportionnelles à $\varepsilon_x$, d’où $x' = x'' = x$, ce qui est absurde.
 
-**Théorème 1** (Choquet).—Soient $E$ un espace localement convexe séparé sur $\mathbf{R}$, $K$ une partie convexe compacte et métrisable de $E$, $M$ l’ensemble des points extrémaux de $K$. L’ensemble $M$ est intersection d’une famille dénombrable de parties ouvertes de $K$, et tout point de $K$ est barycentre d’une mesure $\mu$ sur $K$ telle que $\mu(K - M) = 0$.
+#### Théorème 1 (Choquet) {#int-iv-s7-thm-1 .statement}
+
+Soient $E$ un espace localement convexe séparé sur $\mathbf{R}$, $K$ une partie convexe compacte et métrisable de $E$, $M$ l’ensemble des points extrémaux de $K$. L’ensemble $M$ est intersection d’une famille dénombrable de parties ouvertes de $K$, et tout point de $K$ est barycentre d’une mesure $\mu$ sur $K$ telle que $\mu(K - M) = 0$.
 
 Pour démontrer la première assertion, désignons par $I$ l’intervalle $[0, 1]$ de $\mathbf{R}$; puisque $K$ est compact et métrisable, il en est de même de $K \times K \times I$; le sous-ensemble $U$ de $K \times K \times I$ formé des triplets $(x, y, \lambda)$ tels que $x \neq y$ et $0 < \lambda < 1$ est ouvert dans $K \times K \times I$, et il y a donc une suite $(F_n)$ d’ensembles fermés dans $K \times K \times I$ dont $U$ est réunion (*Top. gén.*, chap. IX, 2e éd., § 2, n° 5, prop. 7). L’application $q : K \times K \times I \to K$ définie par $q(x, y, \lambda) = \lambda x + (1 - \lambda)y$ est continue, et par définition des points extrémaux, on a $K - M = q(U) = \bigcup_n q(F_n)$; mais $F_n$ est compact puisqu’il est fermé dans $K \times K \times I$, donc $q(F_n)$ est compact, et par suite fermé dans K ; l’ensemble $U_n = K - q(F_n)$ est donc ouvert dans K, et l’on a $M = \bigcap_n U_n$.
 
@@ -492,7 +494,9 @@ $$
 
 Comme $\varepsilon$ est arbitraire $> 0$, on a bien prouvé que $\bar{f}$ est convexe.
 
-**Théorème 3** (Choquet).—*Soient* $E$ *un espace localement convexe faible séparé*, $C$ *un cône convexe saillant faiblement complet de sommet* 0 *dans* $E$, $G$ *la réunion des génératrices extrémales de* $C$, $K$ *une partie compacte convexe de* $C$, $\lambda$ *et* $\lambda'$ *des mesures positives de masse* 1 *sur* $K$, *admettant le même barycentre*, *et telles que* $\lambda^*(K - (K \cap G)) = {\lambda'}^*(K - (K \cap G)) = 0$. *Supposons* $\mathbf{C}$ *réticulé*. *Alors, pour toute fonction* $f$ *convexe* $\geq 0$ *semi-continue inférieurement et positivement homogène sur* $C$, *on a* $\lambda^*(f|K) = {\lambda'}^*(f|K)$.
+#### Théorème 3 (Choquet) {#int-iv-s7-thm-3 .statement}
+
+*Soient* $E$ *un espace localement convexe faible séparé*, $C$ *un cône convexe saillant faiblement complet de sommet* 0 *dans* $E$, $G$ *la réunion des génératrices extrémales de* $C$, $K$ *une partie compacte convexe de* $C$, $\lambda$ *et* $\lambda'$ *des mesures positives de masse* 1 *sur* $K$, *admettant le même barycentre*, *et telles que* $\lambda^*(K - (K \cap G)) = {\lambda'}^*(K - (K \cap G)) = 0$. *Supposons* $\mathbf{C}$ *réticulé*. *Alors, pour toute fonction* $f$ *convexe* $\geq 0$ *semi-continue inférieurement et positivement homogène sur* $C$, *on a* $\lambda^*(f|K) = {\lambda'}^*(f|K)$.
 
 Soit $\mathscr{A}$ (resp. $\mathscr{A}'$) l’ensemble des restrictions à $C$ des formes linéaires (resp. des fonctions affines) continues sur $E$. On sait (\emph{Esp. vect. top.}, chap. II, 2e éd., § 5, n° 4, *Remarque* 2) que $f$ est l’enveloppe supérieure de l’ensemble des éléments de $\mathscr{A}$ majorés par $f$. L’ensemble des fonctions de la forme $\sup(f_1, \ldots, f_p)$ où $f_1, \ldots, f_p$ appartiennent à $\mathscr{A}$, $f_1 \geq 0, \ldots, f_p \geq 0$, est filtrant croissant et admet $f$ pour enveloppe supérieure. Compte tenu du § 1, n° 1, th. 1, il suffit de vérifier l’égalité $\lambda(f|K) = \lambda'(f|K)$ lorsque $f$ est de la forme précédente.
 

@@ -118,7 +118,9 @@ Let $h : A \to A'$ be a ring homomorphism such that $A'$ is integral over $A$ an
 
 For a prime ideal of $A'$ to contain $mA'$, it is necessary and sufficient that its inverse image under $h$ contain $m$ and hence that it lie above $m$, since $m$ is maximal in $A$; the $m'_j$ are therefore the only prime ideals of $A'$ containing $mA'$ (Proposition 1) and therefore $c' = \bigcap_j m'_j$ is the radical of $mA'$ (Chapter II, § 2, no. 6, Corollary 1 to Proposition 13). By definition of $q'_j$, the class mod. $q'_j$ of an element of $A' - m'_j$ is not a divisor of 0 in $A'/q'_j$; on the other hand, as the $m'_j$ are distinct maximal ideals, for every index $j$ there exists an element $a'_j$ belonging to $\bigcap_j m'_j$ and not to $m'_j$ (Chapter II, § 1, no. 1, Proposition 4): then, for all $x \notin m'_j, a'_j x \in r'$, hence the class mod. $q'_j$ of $a'_j x$ is nilpotent and, as that of $a'_j$ is not a divisor of 0, we conclude that the class of $x$ is nilpotent; in other words $m'_j$ is the radical of $q'_j$, which proves (i). It follows that the $q'_j$ are relatively prime in pairs (Chapter II, § 1, no. 1, Proposition 3); (iii) will therefore be a consequence of (ii), taking account of Chapter II, § 1, no. 2, Proposition 5. To establish (ii), we note that in the ring $A'/mA'$ the $m'_j/mA'$ are the only maximal ideals and $q'_j/mA'$ is the saturation of (0) with respect to $m'_j/mA'$ (Chapter 11, § 2, no. 4); we may therefore restrict our attention to the case $mA' = (0)$; the assertion of (ii) then follows from Chapter II, § 3, no. 3, Corollary 2 to Theorem 1.
 
-Remark (1) If $A'$ is Noetherian, it follows from (i) and (ii) that $(q'_j)_{1 \leq j \leq n}$ is the unique primary decomposition of $mA'$ (Chapter IV, § 2, no. 3).
+#### Remark (1) {#ac-v-s2-n1-rem-1 .statement}
+
+If $A'$ is Noetherian, it follows from (i) and (ii) that $(q'_j)_{1 \leq j \leq n}$ is the unique primary decomposition of $mA'$ (Chapter IV, § 2, no. 3).
 
 #### Theorem 1 {#ac-v-s2-thm-1 .statement}
 
@@ -152,7 +154,9 @@ Let $A$ be a ring, $A'$ a ring containing $A$ and integral over $A$ and $f$ a ho
 
 Let $\mathfrak{p}$ be the kernel of $f$, which is a prime ideal since $f(A) \subset L$ is an integral domain; let $\mathfrak{p}'$ be a prime ideal of $A'$ lying above $\mathfrak{p}$ (Theorem 1). Then $A/\mathfrak{p}$ is canonically identified with a subring of $A'/\mathfrak{p}'$ and $A'/\mathfrak{p}'$ is integral over $A/\mathfrak{p}$ ($§ 1$, no. 1, Proposition 2). The homomorphism $f$ defines, by taking the quotient, an isomorphism of $A/\mathfrak{p}$ onto the subring $f(A)$ of $L$, which can be extended to an isomorphism $g$ of the field of fractions $K$ of $A/\mathfrak{p}$ onto a subfield of $L$. As the field of fractions $K'$ of $A'/\mathfrak{p}'$ is algebraic over $K$, $g$ can be extended to an isomorphism $g'$ of $K'$ onto a subfield of $L$ (Algebra, Chapter V, $§ 4$, no. 2, Corollary to Theorem 1); if $\pi': A' \to A'/\mathfrak{p}'$ is the canonical homomorphism, $g' \circ \pi'$ is a homomorphism from $A'$ to $L$ extending $f$.
 
-Remark (2). Let $h : A \to A'$ be a ring homomorphism such that $A'$ is integral over $A$; then the associated continuous mapping $^a h : \mathrm{Spec}(A') \to \mathrm{Spec}(A)$ is closed. For every ideal $a'$ of $A'$, $A'/a'$ is integral over $A'$, hence also over $A$ ($§ 1$, no. 1, Proposition 6) and $\mathrm{Spec}(A'/a')$ is identified with a closed subspace $V(a')$ of $\mathrm{Spec}(A')$; to show that $^a h$ is closed, we see then (replacing $A'$ by $A'/a'$) that it is sufficient to prove that the image of $\mathrm{Spec}(A)'$ under $^a h$ is a closed subset of $\mathrm{Spec}(A)$; now it follows from Theorem 1 that this image is just the set of prime ideals of $A$ containing the ideal $\mathrm{Ker}(h)$ and this set is closed by definition of the topology on $\mathrm{Spec}(A)$.
+#### Remark (2) {#ac-v-s2-n1-rem-2 .statement}
+
+Let $h : A \to A'$ be a ring homomorphism such that $A'$ is integral over $A$; then the associated continuous mapping $^a h : \mathrm{Spec}(A') \to \mathrm{Spec}(A)$ is closed. For every ideal $a'$ of $A'$, $A'/a'$ is integral over $A'$, hence also over $A$ ($§ 1$, no. 1, Proposition 6) and $\mathrm{Spec}(A'/a')$ is identified with a closed subspace $V(a')$ of $\mathrm{Spec}(A')$; to show that $^a h$ is closed, we see then (replacing $A'$ by $A'/a'$) that it is sufficient to prove that the image of $\mathrm{Spec}(A)'$ under $^a h$ is a closed subset of $\mathrm{Spec}(A)$; now it follows from Theorem 1 that this image is just the set of prime ideals of $A$ containing the ideal $\mathrm{Ker}(h)$ and this set is closed by definition of the topology on $\mathrm{Spec}(A)$.
 
 #### Proposition 2 {#ac-v-s2-prop-2 .statement}
 
@@ -359,7 +363,9 @@ With the notation of the proof of Proposition 5, the polynomial $\pi'(P)$ has co
 
 The existence of $p'$ follows from no. 1, Theorem 1. If $x \in p'$, there exists $m \geq 0$ such that $x^{p^m} \in K$, whence $x^{p^m} \in A$ since $A$ is integrally closed, hence $x^{p^m} \in p' \cap A = p$. Conversely, if $x \in A'$ is such that $x^{p^m} \in p \subset p'$, then $x \in p$ since $p'$ is prime.
 
-Remark (1). It follows from § 1, no. 3, Corollary to Proposition 11 that the integral closure of $A$ in $K'$ is the set of $x \in K'$ such that there exists $m \geq 0$ for which $x^{p^m} \in A$ (Algebra, Chapter V, § 8, no. 1, Proposition 1).
+#### Remark (1) {#ac-v-s2-n3-rem-1 .statement}
+
+It follows from § 1, no. 3, Corollary to Proposition 11 that the integral closure of $A$ in $K'$ is the set of $x \in K'$ such that there exists $m \geq 0$ for which $x^{p^m} \in A$ (Algebra, Chapter V, § 8, no. 1, Proposition 1).
 
 #### Proposition 6 {#ac-v-s2-prop-6 .statement}
 

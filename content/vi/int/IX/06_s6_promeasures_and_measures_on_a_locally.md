@@ -1017,7 +1017,9 @@ Cho E là một không gian Hilbert thực, trong đó tích vô hướng đư�
 $$(64)$$
 $$(\mathscr{F}\mu)(x) = \int_{E} e^{i(x|y)} d\mu(y) \quad (x \in E).$$
 
-**Định lý 3** (Prokhorov–Sazonov) — *Cho E là một không gian Hilbert và Es là không gian E được trang bị tôpô yếu hơn. Cho μ là một tiền độ đo trên E, và Φ là biến đổi Fourier của nó. Các điều kiện sau là tương đương*:
+#### Định lý 3 (Prokhorov–Sazonov) {#int-ix-s6-thm-3 .statement}
+
+*Cho E là một không gian Hilbert và Es là không gian E được trang bị tôpô yếu hơn. Cho μ là một tiền độ đo trên E, và Φ là biến đổi Fourier của nó. Các điều kiện sau là tương đương*:
 
 a) *Hàm Φ liên tục trên E theo tôpô Sazonov*.
 

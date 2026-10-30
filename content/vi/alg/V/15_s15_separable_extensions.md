@@ -84,7 +84,9 @@ Cho $\mathbf{A}$ là thu gọn. Theo Mệnh đề 2, giao $n$ của tập hợp 
 
 Mọi đại số tách được đều rõ ràng là rút gọn. Về một đảo lại bộ phận, xem Định lý 3 (*V*, p. 125).
 
-*Ví dụ. — 1*) Cho $\mathbf{A}$ là một đại số đa thức $K[X_i]_{i \in I}$. Với mọi mở rộng $L$ của $K$, vành $L \otimes_K \mathbf{A}$ đẳng cấu với $L[X_i]_{i \in I}$ (III, p. 449, Nhận xét 2) và do đó là một miền nguyên (*IV*, p. 9, Mệnh đề 8). Nói cách khác, mọi đại số đa thức trên một trường $K$ đều là một $K$-đại số tách được.
+#### Ví dụ {#alg-v-s15-n2-exa-1 .statement}
+
+*1*) Cho $\mathbf{A}$ là một đại số đa thức $K[X_i]_{i \in I}$. Với mọi mở rộng $L$ của $K$, vành $L \otimes_K \mathbf{A}$ đẳng cấu với $L[X_i]_{i \in I}$ (III, p. 449, Nhận xét 2) và do đó là một miền nguyên (*IV*, p. 9, Mệnh đề 8). Nói cách khác, mọi đại số đa thức trên một trường $K$ đều là một $K$-đại số tách được.
 
 2) Cho $\mathbf{A}$ là một đại số giao hoán bậc hữu hạn trên một trường $K$. Để $\mathbf{A}$ tách được thì điều kiện cần và đủ là nó étale (*V*, p. 34, Định lý 4).
 

@@ -255,7 +255,9 @@ Mệnh đề b) suy ra từ a) và mệnh đề 11 của V, § 1, no 3.
 
 Cho $A$ là một vành địa phương Noether và $P_1, ..., P_r$ là các đa thức đơn nhất trong $A[T]$, có bậc $\geq 2$. Gọi $q$ là iđêan của $A[T_1, ..., T_r]$ sinh bởi $P_1(T_1), ..., P_r(T_r)$ và gọi $B$ là $A$-đại số thương $A[T_1, ..., T_r]/q$. Với $1 \leq i \leq r$, gọi $d_i$ là bậc của $P_i$, $t_i$ là lớp của $T_i$ theo modulo $q$, và $\gamma_i$ là lớp của $c_i = P_i(0)$ theo modulo $m_A^2$. Giả sử rằng $P_i(T) \equiv T^{d_i} \mod m_A A[T]$ với $1 \leq i \leq r$.
 
-**Mệnh đề 4. — a)** *Vành $B$ là địa phương và Noether, với iđêan cực đại*
+#### Mệnh đề 4 {#ac-viii-s5-prop-4 .statement}
+
+**a)** *Vành $B$ là địa phương và Noether, với iđêan cực đại*
 
 $$
 m_B = Bm_A + \sum_{i=1}^r Bt_i.

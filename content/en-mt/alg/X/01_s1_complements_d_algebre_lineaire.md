@@ -644,7 +644,9 @@ $$
 
 is exact (*loc. cit.*), and since $F$ is *flat*, the first line of (18) is also an exact sequence (X, p. 8, déf. 1). This being so, we know that $v_{L_0}$ is bijective (resp. that $v_{L_0}$ and $v_{L_1}$ are bijective) (II, p. 75, prop. 2). If we suppose only that $v_{L_0}$ is bijective, it follows from (18) that $v_{L_0} \circ T(w) = T'(w) \circ v_E$ is injective, hence $v_E$ is so also. If we suppose that $v_{L_0}$ and $v_{L_1}$ are both bijective, we deduce from cor. 2 (ii) of X, p. 6 that $v_E$ is surjective, and since we have just seen that $v_E$ is injective, it is bijective.
 
-**COROLLARY. — Every flat module of finite presentation is projective.**
+#### Corollary {#alg-x-s1-n5-cor-1 .statement}
+
+**Every flat module of finite presentation is projective.**
 
 Indeed, let $E$ be a flat and of finite presentation $A$-module. Applying (*b*) to the case $B = A, G = {}_sA_d, F = E$, we see that the canonical homomorphism
 
@@ -658,7 +660,9 @@ According to the preceding corollary and prop. 5 of X, p. 10, there is an identi
 
 ### 6. Structure of flat modules
 
-**Lemma 2. — Let I be a right filtered ordered set, $(E_\alpha, \varphi_{\beta\alpha})$ an inductive system of sets relative to I, E its inductive limit and $\varphi_\alpha : E_\alpha \to E, \alpha \in I$, the canonical mappings. Let $f : I \to I$ be a mapping such that $f(\alpha) > \alpha$ for $\alpha \in I$, and suppose given, for each $\alpha \in I$, a set $L_\alpha$ and mappings $u_\alpha : E_\alpha \to L_\alpha$ and $v_\alpha : L_\alpha \to E_{f(\alpha)}$ such that $v_\alpha \circ u'_\alpha = \varphi_{f(\alpha), \alpha}$. Let J be the ordered set obtained by providing I with the relation « $\alpha \leq \beta$ if $\alpha = \beta$ or $f(\alpha) \leq \beta$ ». If $\alpha, \beta \in J$ with $\alpha \leq \beta$, let $\psi_{\beta\alpha} : L_\alpha \to L_\beta$ be the mapping such that $\psi_{\beta\alpha} = \mathrm{Id}$ if $\alpha = \beta$, $\psi_{\beta\alpha} = u_\beta \circ \varphi_{\beta, f(\alpha)} \circ v_\alpha$ if $f(\alpha) \leq \beta$. If $\alpha \in J$, let $\psi_\alpha : L_\alpha \to E$ be the mapping $\varphi_{f(\alpha)} \circ v_\alpha$. Then the ordered set J is filtered, $(L_\alpha, \psi_{\beta\alpha})$ is an inductive system relative to J, $(\psi_\alpha)$ is an inductive system of mappings and the mapping $\psi : \lim_{\alpha \in J} L_\alpha \to E$ deduced from the $\psi_\alpha$ is bijective.**
+#### Lemma 2 {#alg-x-s1-lem-2 .statement}
+
+**Let I be a right filtered ordered set, $(E_\alpha, \varphi_{\beta\alpha})$ an inductive system of sets relative to I, E its inductive limit and $\varphi_\alpha : E_\alpha \to E, \alpha \in I$, the canonical mappings. Let $f : I \to I$ be a mapping such that $f(\alpha) > \alpha$ for $\alpha \in I$, and suppose given, for each $\alpha \in I$, a set $L_\alpha$ and mappings $u_\alpha : E_\alpha \to L_\alpha$ and $v_\alpha : L_\alpha \to E_{f(\alpha)}$ such that $v_\alpha \circ u'_\alpha = \varphi_{f(\alpha), \alpha}$. Let J be the ordered set obtained by providing I with the relation « $\alpha \leq \beta$ if $\alpha = \beta$ or $f(\alpha) \leq \beta$ ». If $\alpha, \beta \in J$ with $\alpha \leq \beta$, let $\psi_{\beta\alpha} : L_\alpha \to L_\beta$ be the mapping such that $\psi_{\beta\alpha} = \mathrm{Id}$ if $\alpha = \beta$, $\psi_{\beta\alpha} = u_\beta \circ \varphi_{\beta, f(\alpha)} \circ v_\alpha$ if $f(\alpha) \leq \beta$. If $\alpha \in J$, let $\psi_\alpha : L_\alpha \to E$ be the mapping $\varphi_{f(\alpha)} \circ v_\alpha$. Then the ordered set J is filtered, $(L_\alpha, \psi_{\beta\alpha})$ is an inductive system relative to J, $(\psi_\alpha)$ is an inductive system of mappings and the mapping $\psi : \lim_{\alpha \in J} L_\alpha \to E$ deduced from the $\psi_\alpha$ is bijective.**
 
 It is clear that J is inductive. If $\alpha, \beta \in J$ with $\alpha < \beta$, we have
 $$

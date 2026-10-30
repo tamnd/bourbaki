@@ -86,7 +86,9 @@ for $f$ to admit an integral over $I$ it is necessary and sufficient that the ma
 
 Indeed, since $E$ is complete the Cauchy criterion shows that for the integral $\int_I f(t) \, dt$ to be convergent it is necessary and sufficient that for any $\varepsilon > 0$ there exists a compact interval $J_0 = [\alpha, \beta]$ with for every compact interval $J$ such that $J_0 \subset J \subset I$ one has $\| \int_J f(t) \, dt - \int_{J_0} f(t) \, dt \| \leq \varepsilon$. The proposition will follow from the following lemma:
 
-*Lemma. Let $J_0 = [\alpha, \beta]$ be a compact interval contained in $I$. In order that $\| \int_J f(t) \, dt - \int_{J'} f(t) \, dt \| \leq \varepsilon$ for every pair of compact intervals $J, J'$ contained in $I$ and containing $J'$ it is necessary that $\| \int_K f(t) \, dt \| \leq \varepsilon$, and it suffices that $\| \int_K f(t) \, dt \| \leq \varepsilon / 2$, for every compact interval $K$ contained in $I$ and having no interior point in common with $J_0$.*
+#### Lemma {#fvr-ii-s2-n1-lem-1 .statement}
+
+*Let $J_0 = [\alpha, \beta]$ be a compact interval contained in $I$. In order that $\| \int_J f(t) \, dt - \int_{J'} f(t) \, dt \| \leq \varepsilon$ for every pair of compact intervals $J, J'$ contained in $I$ and containing $J'$ it is necessary that $\| \int_K f(t) \, dt \| \leq \varepsilon$, and it suffices that $\| \int_K f(t) \, dt \| \leq \varepsilon / 2$, for every compact interval $K$ contained in $I$ and having no interior point in common with $J_0$.*
 
 Indeed, if for $J_0 \subset J \subset I$ and $J_0 \subset J' \subset I$, one has
 

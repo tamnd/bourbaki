@@ -133,7 +133,9 @@ $$(n \text{ is an integer and } R\{n\}) \Rightarrow R\{n+1\}.$$
 
 For this purpose the method of the auxiliary hypothesis (Chapter I, § 3, no. 3) is commonly used, and it is for this reason that the relation "$n$ is an integer and $R\{n\}$" (or even $R\{n\}$) is called the *inductive hypothesis*.
 
-*Remark*. There are various criteria which are frequently used under the name of "principle of induction". They can all be easily deduced from C61, and we indicate here the most important of them :
+#### Remark {#ens-iii-s4-n3-rem-1 .statement}
+
+There are various criteria which are frequently used under the name of "principle of induction". They can all be easily deduced from C61, and we indicate here the most important of them :
 
 (1) Let $S\{n\}$ be the relation
 

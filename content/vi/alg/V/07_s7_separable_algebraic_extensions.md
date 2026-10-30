@@ -232,7 +232,9 @@ B) Bây giờ giả sử rằng trường $K$ là vô hạn. Nếu b) đúng, m�
 
 Gọi $A_1, \ldots, A_n$ là các đại số con của $A$ phân biệt với $A$. Nếu $x \notin A_1 \cup \ldots \cup A_n$, thì đại số con $K[x]$ không thể bằng bất kỳ $A_i$ nào và vì thế phải trùng với $A$. Hơn nữa, vì $V$ sinh ra $A$, nó không được chứa trong bất kỳ không gian con nào $A_i$. Vậy Mệnh đề 7 là một hệ quả của bổ đề sau đây:
 
-*Bổ đề 1. — Cho $A$ là một không gian vectơ $K$, $V, A_1, \ldots, A_n$ là các không gian con của $A$. Nếu $\mathrm{Card}(K) \geq n$ và nếu $V$ không được chứa trong bất kỳ $A_i$ nào, thì $V$ không được chứa trong $A_1 \cup \ldots \cup A_n$.*
+#### Bổ đề 1 {#alg-v-s7-lem-1 .statement}
+
+*Cho $A$ là một không gian vectơ $K$, $V, A_1, \ldots, A_n$ là các không gian con của $A$. Nếu $\mathrm{Card}(K) \geq n$ và nếu $V$ không được chứa trong bất kỳ $A_i$ nào, thì $V$ không được chứa trong $A_1 \cup \ldots \cup A_n$.*
 
 Lập luận bằng quy nạp theo $n$, ta chỉ cần chứng minh rằng nếu $V \subset A$, và $V \subset A_1 \cup \ldots \cup A_n$, thì $V \subset A_1 \cup \ldots \cup A_{n-1}$. Lấy $x \in V, x \notin A_n$, và lấy $y$ tùy ý trong $V$. Nếu $y \in Kx$, ta có $y \in A_1 \cup \ldots \cup A_{n-1}$; nếu không, thì các phần tử $x$ và $y + \lambda x, \lambda \in K$ có số lượng lớn hơn hẳn $n$ và thuộc $A_1 \cup \ldots \cup A_n$, nên có hai phần tử trong số đó thuộc cùng một $A_i$. Do đó tồn tại $i, 1 \leq i \leq n$ sao cho hoặc $x \in A_i$ và $y + \lambda x \in A_i$ với một $\lambda \in K$, hoặc $y + \mu x \in A_i$ và $y + \mu x \in A_i$ với hai vô hướng phân biệt $\lambda, \mu \in K$. Trong cả hai trường hợp ta kết luận rằng $x \in A_i$ và $y \in A_i$; nhưng điều này suy ra $i \neq n$, do đó $y \in A_1 \cup \ldots \cup A_{n-1}$, như điều phải chứng minh.
 

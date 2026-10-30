@@ -159,7 +159,9 @@ Cho g là một đại số Lie giải được. Căn lũy linh của g là $\ma
 
 Ở đây $r = g$, do đó $s = \mathscr{D}g$. Vì thế $\varphi(\mathscr{D}g) = \{0\}$, điều đó chứng tỏ rằng $g' = \rho(g)$ là giao hoán. Mọi phần tử $\neq 0$ của $L$ đều khả nghịch theo Bổ đề Schur; vậy $L$ là một trường.
 
-**Hệ quả 2 (Định lý Lie).** *Cho $g$ là một đại số Lie giải được; giả sử rằng $K$ đóng đại số. Cho $M$ là một $g$-môđun có số chiều hữu hạn trên $K$ và cho $(M_i)_{0 \leq i \leq r}$ là một chuỗi Jordan-Hölder của $M$. Khi đó $M_{i-1}/M_i$ có chiều bằng 1 trên $K$ với $1 \leq i \leq r$ và, với mọi $x \in g$, $x_{M_{i-1}/M_i} = \lambda_i(x) \cdot 1$, trong đó $\lambda_i$ là một dạng tuyến tính trên $g$ triệt tiêu trên $\mathscr{D}g$. Đặc biệt, mọi $g$-môđun đơn có chiều hữu hạn trên $K$ thực ra đều có chiều bằng 1.*
+#### Hệ quả 2 (Định lý Lie) {#lie-i-s5-thm-1-cor-2 .statement}
+
+*Cho $g$ là một đại số Lie giải được; giả sử rằng $K$ đóng đại số. Cho $M$ là một $g$-môđun có số chiều hữu hạn trên $K$ và cho $(M_i)_{0 \leq i \leq r}$ là một chuỗi Jordan-Hölder của $M$. Khi đó $M_{i-1}/M_i$ có chiều bằng 1 trên $K$ với $1 \leq i \leq r$ và, với mọi $x \in g$, $x_{M_{i-1}/M_i} = \lambda_i(x) \cdot 1$, trong đó $\lambda_i$ là một dạng tuyến tính trên $g$ triệt tiêu trên $\mathscr{D}g$. Đặc biệt, mọi $g$-môđun đơn có chiều hữu hạn trên $K$ thực ra đều có chiều bằng 1.*
 
 Gọi $\rho_i$ là biểu diễn của $g$ trên $M_{i-1}/M_i$. Đại số kết hợp $L_i$ sinh bởi 1 và $\rho_i(g)$ là một trường, một mở rộng hữu hạn của $K$ và do đó bằng $K$; và $M_{i-1}/M_i$ là một $L_i$-môđun đơn, do đó $\dim M_{i-1}/M_i = 1$. Phần còn lại của hệ quả là hiển nhiên.
 

@@ -160,7 +160,9 @@ $$
 
 of $E_1 \times E_2 \times \cdots \times E_p$ into a topological vector space F over $\mathbf{R}$.
 
-PROPOSITION 3 . *For each index $i$ ($1 \leq i \leq p$) let $f_i$ be a function defined on an interval $I \subset \mathbf{R}$, taking values in $E_i$, and differentiable at the point $x_0 \in I$. Then the function
+#### Proposition 3 {#fvr-i-s1-prop-3 .statement}
+
+*For each index $i$ ($1 \leq i \leq p$) let $f_i$ be a function defined on an interval $I \subset \mathbf{R}$, taking values in $E_i$, and differentiable at the point $x_0 \in I$. Then the function
 
 $$
 x \mapsto [f_1(x).f_2(x) \ldots f_p(x)]

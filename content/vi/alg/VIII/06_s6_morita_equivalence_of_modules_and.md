@@ -290,7 +290,9 @@ M & \xrightarrow{u} & N.
 \end{array}
 $$
 
-*Định lý 1.* — *Cho A và B là các đại số trên K và P là một song môđun $(A, B)_k$. Ký hiệu song môđun $(B, A)_k$ $\operatorname{Hom}_A(P, A_s)$ bởi $P^*$. Các tính chất sau là tương đương:*
+#### Định lý 1 {#alg-viii-s6-thm-1 .statement}
+
+*Cho A và B là các đại số trên K và P là một song môđun $(A, B)_k$. Ký hiệu song môđun $(B, A)_k$ $\operatorname{Hom}_A(P, A_s)$ bởi $P^*$. Các tính chất sau là tương đương:*
 
 (i) *Song môđun $(A, B)_k$ P là khả nghịch.*
 

@@ -359,11 +359,15 @@ Ta chuyển sang trường hợp tổng quát. Mọi iđêan nguyên tố cực 
 
 Thật vậy, cho $p$ là một iđêan nguyên tố cực tiểu của $A$ sao cho $\dim(A) = \dim(A/p)$. Tồn tại một iđêan nguyên tố $q$ của $B$ nằm trên $p$ (II, § 2, no 6, mệnh đề 16). Theo mệnh đề 4 áp dụng cho $A/p$ và $B/q$, ta có $\dim(A) = \dim(A/p) \leq \dim(B/q) \leq \dim(B)$, do đó có hệ quả.
 
-*Bổ đề 4. — Cho $A$ và $B$ là hai đại số trên k nguyên, $M$ là một A-môđun không xoắn, $N$ là một B-môđun không xoắn. Nếu vành $A \otimes_k B$ là nguyên, thì $M \otimes_k N$ là một môđun không xoắn trên $A \otimes_k B$.*
+#### Bổ đề 4 {#ac-viii-s2-lem-4 .statement}
+
+*Cho $A$ và $B$ là hai đại số trên k nguyên, $M$ là một A-môđun không xoắn, $N$ là một B-môđun không xoắn. Nếu vành $A \otimes_k B$ là nguyên, thì $M \otimes_k N$ là một môđun không xoắn trên $A \otimes_k B$.*
 
 Cho $K$ (resp. $L$) là trường các phân thức của $A$ (resp. $B$). Tồn tại một tập hợp $I$ (resp. $J$) sao cho $M$ (resp. $N$) đẳng cấu với một môđun con của $K^{(I)}$ (resp. $L^{(J)}$). Do đó $(A \otimes_k B)$-môđun $M \otimes_k N$ đẳng cấu với một môđun con của $K^{(I)} \otimes_k L^{(J)}$, môđun này đẳng cấu với $(K \otimes_k L)^{(I \times J)}$. Vì $K \otimes_k L$ là một vành phân thức của vành nguyên $A \otimes_k B$, nên nó là một môđun không xoắn trên $A \otimes_k B$, do đó suy ra bổ đề.
 
-*MỆNH ĐỀ 5. — Cho $k'$ là một mở rộng của $k$, $A$ là một đại số trên k kiểu hữu hạn và $B$ là một đại số trên $k'$ kiểu hữu hạn.*
+#### Mệnh đề 5 {#ac-viii-s2-prop-5 .statement}
+
+*Cho $k'$ là một mở rộng của $k$, $A$ là một đại số trên k kiểu hữu hạn và $B$ là một đại số trên $k'$ kiểu hữu hạn.*
 
 a) *Đại số trên $k'$ $A \otimes_k B$ là kiểu hữu hạn và ta có*
 $$

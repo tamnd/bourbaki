@@ -89,7 +89,9 @@ si le second membre est défini.
 
 Lorsque $M_\infty(f) < +\infty$, on a $f(x) < +\infty$ localement presque partout, mais pas nécessairement presque partout. On dit qu’une fonction numérique $f$ est *bornée en mesure* (pour la mesure $\mu$) si elle est *définie et finie presque partout*, et si en outre les nombres $m_\infty(f)$ et $M_\infty(f)$ sont tous deux finis (cette dernière condition revenant à dire que $M_\infty(|f|) < +\infty$).
 
-**Proposition 1** (inégalité de la moyenne). — *Soit $f$ une fonction numérique mesurable et bornée en mesure. Pour toute fonction numérique intégrable $g \geq 0$, la fonction $fg$ (définie presque partout) est intégrable et on a*
+#### Proposition 1 (inégalité de la moyenne) {#int-iv-s6-prop-1 .statement}
+
+*Soit $f$ une fonction numérique mesurable et bornée en mesure. Pour toute fonction numérique intégrable $g \geq 0$, la fonction $fg$ (définie presque partout) est intégrable et on a*
 
 (3)
 $$

@@ -208,7 +208,9 @@ Toute application continue $f$ d’un espace quasi-compact $X$ dans un espace s�
 Cela résulte aussitôt du cor. 1 et de I, p. 62, prop. 4.
 
 En particulier:
-COROLLAIRE 3. — Une topologie séparée moins fine qu’une topologie d’espace quasi-compact lui est nécessairement identique.
+#### Corollaire 3 {#top-i-s9-thm-2-cor-3 .statement}
+
+Une topologie séparée moins fine qu’une topologie d’espace quasi-compact lui est nécessairement identique.
 
 #### Corollaire 4 {#top-i-s9-thm-2-cor-4 .statement}
 
@@ -344,7 +346,9 @@ On observera que si X est déjà compact, le point ω est isolé dans l’espace
 
 Lorsqu’on a ainsi défini un espace compact X' à partir d’un espace localement compact X par adjonction d’un élément ω, on dit souvent que ω est le « point à l’infini » de X', et que X' résulte de X par adjonction d’un point à l’infini ; on dit aussi que X' est le compactifié d’Aleksandroff de l’espace localement compact X.
 
-*Exemple. — Si on applique le th. d’Aleksandroff au plan numérique R², on obtient un espace compact, dont on peut définir comme suit un homéomorphisme sur la sphère S₂ d’équation x₁² + x₂² + x₃² = 1 dans l’espace R³ : au point ω qu’on a adjoint à R² (point à l’infini), on fait correspondre le point (0, 0, 1) de S₂ ; et à tout point (x₁, x₂) de R² on fait correspondre le point où la droite joignant les points (0, 0, 1) et (x₁, x₂, 0) recoupe S₂. Cet homéomorphisme est connu sous le nom de projection stéréographique (voir A, IX, § 10, exerc. 14 et VI, §2, N° 4).*
+#### Exemple {#top-i-s9-n8-exa-1 .statement}
+
+*Si on applique le th. d’Aleksandroff au plan numérique R², on obtient un espace compact, dont on peut définir comme suit un homéomorphisme sur la sphère S₂ d’équation x₁² + x₂² + x₃² = 1 dans l’espace R³ : au point ω qu’on a adjoint à R² (point à l’infini), on fait correspondre le point (0, 0, 1) de S₂ ; et à tout point (x₁, x₂) de R² on fait correspondre le point où la droite joignant les points (0, 0, 1) et (x₁, x₂, 0) recoupe S₂. Cet homéomorphisme est connu sous le nom de projection stéréographique (voir A, IX, § 10, exerc. 14 et VI, §2, N° 4).*
 
 ### 9. Espaces localement compacts dénombrables à l’infini
 
@@ -430,7 +434,9 @@ Montrons maintenant que la condition de l’énoncé est *suffisante*. En vertu 
 C.Q.F.D.
 
 Au cours de la démonstration, nous avons en outre prouvé ce qui suit:
-COROLLAIRE. — *Soit $X$ un espace localement compact et paracompact; pour tout recouvrement ouvert $\mathscr{R}$ de $X$, il existe un recouvrement ouvert localement fini $\mathscr{R}'$ de $X$ plus fin que $\mathscr{R}$ et formé d’ensembles relativement compacts. Si $X$ est dénombrable à l’infini, on peut en outre supposer que $\mathscr{R}'$ est dénombrable.*
+#### Corollaire {#top-i-s9-n10-cor-1 .statement}
+
+*Soit $X$ un espace localement compact et paracompact; pour tout recouvrement ouvert $\mathscr{R}$ de $X$, il existe un recouvrement ouvert localement fini $\mathscr{R}'$ de $X$ plus fin que $\mathscr{R}$ et formé d’ensembles relativement compacts. Si $X$ est dénombrable à l’infini, on peut en outre supposer que $\mathscr{R}'$ est dénombrable.*
 
 ## EXERCICES {#top-i-s9-exercises}
 

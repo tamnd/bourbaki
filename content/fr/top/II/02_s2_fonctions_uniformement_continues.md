@@ -100,7 +100,9 @@ Deux structures uniformes dont l’une est plus fine que l’autre sont dites co
 Dans l’ensemble ordonné des structures uniformes sur un ensemble X, la structure uniforme discrète est la structure uniforme la plus fine, et la structure uniforme la moins fine est celle dont l’ensemble des entourages est formé du seul élément $X \times X$.
 
 La déf. 1 de II, p. 6 entraîne aussitôt la proposition suivante:
-Proposition 3. — Étant données deux structures uniformes $\mathfrak{U}_1, \mathfrak{U}_2$ sur un ensemble X, pour que $\mathfrak{U}_1$ soit plus fine que $\mathfrak{U}_2$, il faut et il suffit que tout entourage de $\mathfrak{U}_2$ soit un entourage de $\mathfrak{U}_1$.
+#### Proposition 3 {#top-ii-s2-prop-3 .statement}
+
+Étant données deux structures uniformes $\mathfrak{U}_1, \mathfrak{U}_2$ sur un ensemble X, pour que $\mathfrak{U}_1$ soit plus fine que $\mathfrak{U}_2$, il faut et il suffit que tout entourage de $\mathfrak{U}_2$ soit un entourage de $\mathfrak{U}_1$.
 
 #### Corollaire {#top-ii-s2-n2-cor-1 .statement}
 

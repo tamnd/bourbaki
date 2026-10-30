@@ -87,7 +87,9 @@ But since the support of $f g_i h_j$ is contained in $Y_{\alpha_i} \cap Y_{\beta
 
 It remains to see that $\mu$ is a measure on $X$; now, every point of $X$ admits a compact neighborhood contained in one of the $Y_\alpha$; the conclusion therefore follows at once from the definition of $\mu$ and from Prop. 6 of §1, No. 3.
 
-**Corollary (Principle of localization).** — *Let $\mu$ and $\nu$ be two measures on $X$, and let $(Y_\alpha)$ be a family of open sets of $X$ such that, for every $\alpha$, the restrictions to $Y_\alpha$ of $\mu$ and $\nu$ are equal; then the restrictions of $\mu$ and $\nu$ to $Y = \bigcup_\alpha Y_\alpha$ are equal.*
+#### Corollary (Principle of localization) {#int-iii-s2-n1-cor-1 .statement}
+
+— *Let $\mu$ and $\nu$ be two measures on $X$, and let $(Y_\alpha)$ be a family of open sets of $X$ such that, for every $\alpha$, the restrictions to $Y_\alpha$ of $\mu$ and $\nu$ are equal; then the restrictions of $\mu$ and $\nu$ to $Y = \bigcup_\alpha Y_\alpha$ are equal.*
 
 ### 2. Support of a measure
 

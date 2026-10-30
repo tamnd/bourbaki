@@ -39,7 +39,9 @@ content_sha256: 55f6f63649b2db0e769a0ef0bb4c01f85e7c68edeb223727458b16755d390850
 
 Soit M un module sur un anneau A. On dit qu’un idéal premier $p$ de A est associé à M s’il existe $x \in M$ tel que $p$ soit égal à l’annulateur de x. On note $\mathrm{Ass}_A(M)$, ou simplement $\mathrm{Ass}(M)$, l’ensemble des idéaux premiers associés à M.
 
-*Exemple. — Soient $a$ un idéal de l’anneau de polynômes $A = \mathbf{C}[X_1, ..., X_r]$, V la variété algébrique affine correspondante, $V_1, ..., V_p$ les composantes irréductibles de V. Si on prend pour M l’anneau $A/a$ des fonctions régulières sur V, les idéaux de $V_1, ..., V_p$ sont des idéaux premiers associés à M mais ce ne sont pas les seuls en général.*
+#### Exemple {#ac-iv-s1-n1-exa-1 .statement}
+
+*Soient $a$ un idéal de l’anneau de polynômes $A = \mathbf{C}[X_1, ..., X_r]$, V la variété algébrique affine correspondante, $V_1, ..., V_p$ les composantes irréductibles de V. Si on prend pour M l’anneau $A/a$ des fonctions régulières sur V, les idéaux de $V_1, ..., V_p$ sont des idéaux premiers associés à M mais ce ne sont pas les seuls en général.*
 
 (*) Les résultats de ce chapitre ne dépendent d’aucun autre Livre de la deuxième partie, ni du chap. I, § 4 ou du chap. III, § 5.
 

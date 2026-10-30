@@ -350,7 +350,9 @@ $$
 d\rho : \kappa_B \otimes_{\kappa_A} (\mathfrak{m}_A / \mathfrak{m}_A^2) \to \mathfrak{m}_B / \mathfrak{m}_B^2 .
 $$
 
-*Lemme 1.— On a*
+#### Lemme 1 {#ac-x-s4-lem-1 .statement}
+
+*On a*
 
 $$
 \delta(B) + [\mathrm{Ker}(d\rho) : \kappa_B] = \delta(A) + \delta(\kappa_A \otimes_A B) + (\dim(A) - \dim(B) + \dim(\kappa_A \otimes_A B)) .

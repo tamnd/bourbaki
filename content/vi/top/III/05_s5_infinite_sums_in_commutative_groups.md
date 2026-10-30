@@ -258,7 +258,9 @@ Nếu một dãy $(x_n)_{n \in I}$ có tập chỉ số là một tập con vô 
 
 Các mệnh đề 4 và 5 mở rộng ngay lập tức cho chuỗi, và chúng tôi để việc phát biểu chúng trong trường hợp này cho bạn đọc.
 
-**Mệnh đề 8 (Tính kết hợp hạn chế của chuỗi).** *Cho* $(k_n)$ *là một dãy tăng ngặt các số nguyên* $\geqslant 0$. *Nếu chuỗi có số hạng tổng quát là* $x_n$ *hội tụ, và nếu đặt* $u_n = \sum_{p=k_{n-1}}^{k_n-1} x_p$, *thì chuỗi có số hạng tổng quát là* $u_n$ *hội tụ, và ta có* $\sum_{n=0}^{\infty} u_n = \sum_{n=0}^{\infty} x_n$.
+#### Mệnh đề 8 (Tính kết hợp hạn chế của chuỗi) {#top-iii-s5-prop-8 .statement}
+
+*Cho* $(k_n)$ *là một dãy tăng ngặt các số nguyên* $\geqslant 0$. *Nếu chuỗi có số hạng tổng quát là* $x_n$ *hội tụ, và nếu đặt* $u_n = \sum_{p=k_{n-1}}^{k_n-1} x_p$, *thì chuỗi có số hạng tổng quát là* $u_n$ *hội tụ, và ta có* $\sum_{n=0}^{\infty} u_n = \sum_{n=0}^{\infty} x_n$.
 
 Thật vậy, dãy các tổng riêng của chuỗi $(u_n)$ là một *dãy con* $(s_{k_n-1})$ của dãy $(s_n)$ các tổng riêng của chuỗi $(x_n)$.
 

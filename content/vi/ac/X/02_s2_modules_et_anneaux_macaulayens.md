@@ -219,7 +219,9 @@ $$
 
 Trong phần còn lại của số này, ta sẽ nói rằng một môđun hữu hạn sinh M trên một vành địa phương Noether A là thuần khiết nếu, với mọi iđêan nguyên tố p liên kết với M, ta có dim(A/p) = dim(M). Điều đó cũng có nghĩa là M không có iđêan nguyên tố liên kết nội nhúng nào và các thành phần bất khả quy của giá của M đều có cùng chiều. Mọi môđun Macaulay trên một vành địa phương Noether đều là thuần khiết (No. 2, Prop. 2 và hệ quả của nó).
 
-Bổ đề 1:— Cho A là một vành địa phương Noether, M là một A-môđun hữu hạn sinh và thuần khiết, và x là một phần tử của mA. Các điều kiện sau là tương đương:
+#### Bổ đề 1 {#ac-x-s2-lem-1 .statement}
+
+— Cho A là một vành địa phương Noether, M là một A-môđun hữu hạn sinh và thuần khiết, và x là một phần tử của mA. Các điều kiện sau là tương đương:
 
 (i) ta có dim(M/xM) = dim(M) − 1 ;
 (ii) phép vị tự xM là đơn ánh.

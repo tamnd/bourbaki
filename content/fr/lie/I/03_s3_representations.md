@@ -61,7 +61,9 @@ $$
 $$
 quels que soient $x \in g, y \in g, m \in M$.
 
-*Exemple. — Soient G un groupe de Lie réel, g son algèbre de Lie, θ une représentation analytique de G dans un espace vectoriel réel E de dimension finie. Alors l’homomorphisme correspondant de g dans gl(E) est une représentation de g dans E.*
+#### Exemple {#lie-i-s3-n1-exa-1 .statement}
+
+*Soient G un groupe de Lie réel, g son algèbre de Lie, θ une représentation analytique de G dans un espace vectoriel réel E de dimension finie. Alors l’homomorphisme correspondant de g dans gl(E) est une représentation de g dans E.*
 
 Soit U l’algèbre enveloppante de g. La proposition 1 du § 2, no 1 définit une correspondance biunivoque entre l’ensemble des représentations de g dans M et l’ensemble des représentations de U dans M. On sait d’autre part (Alg., chap. VIII, § 13, no 1) qu’il y a équivalence entre la notion de représentation de l’algèbre associative U et celle de U-module à gauche.
 

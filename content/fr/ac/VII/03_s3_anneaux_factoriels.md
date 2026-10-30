@@ -193,7 +193,9 @@ Ce corollaire s’étend au cas d’une famille infinie d’indéterminées (cf.
 Soient $\mathbf{A}$ un anneau de Zariski, $\hat{\mathbf{A}}$ son complété. Si $\hat{\mathbf{A}}$ est factoriel, $\mathbf{A}$ est factoriel.
 Cela résulte du n° 1, déf. 1, et du § 1, n° 10, prop. 16.
 
-COROLLAIRE . — Si le complété d’un anneau local noethérien $\mathbf{A}$ est factoriel, $\mathbf{A}$ est factoriel.
+#### Corollaire {#ac-vii-s3-n6-cor-1 .statement}
+
+Si le complété d’un anneau local noethérien $\mathbf{A}$ est factoriel, $\mathbf{A}$ est factoriel.
 
 ### 7. Préliminaires sur les automorphismes des anneaux de séries formelles
 

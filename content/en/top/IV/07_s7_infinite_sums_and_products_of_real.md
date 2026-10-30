@@ -179,7 +179,9 @@ In the multiplicative group $\mathbf{R}^*$ of finite non-zero real numbers, a fa
 #### Theorem 4 {#top-iv-s7-thm-4 .statement}
 
 *The family* $(1 + u_i)$ *is multipliable in* $\mathbf{R}^*$ *if and only if the family* $(u_i)$ *is summable in* $\mathbf{R}$.
-**Lemma.** (i) *If* $(a_i)_{1 \leq i \leq p}$ *is a finite sequence of numbers* $> 0$, *then*
+#### Lemma (i) {#top-iv-s7-n4-lem-1 .statement}
+
+*If* $(a_i)_{1 \leq i \leq p}$ *is a finite sequence of numbers* $> 0$, *then*
 $$
 \prod_{i=1}^p (1 + a_i) \geq 1 + \sum_{i=1}^p a_i.
 $$

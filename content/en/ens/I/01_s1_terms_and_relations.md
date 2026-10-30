@@ -178,7 +178,9 @@ Some of the specific signs of a theory are called *relational*, and the others a
 
 ¶ The assemblies of the first species (resp. of the second species) which appear in the formative constructions of $\mathscr{T}$ are called terms (resp. relations) in $\mathscr{T}$.
 
-*Example.* *In the theory of sets, in which $\in$ is a relational sign of weight 2, the following sequence of assemblies is a formative construction:*
+#### Example {#ens-i-s1-n3-exa-1 .statement}
+
+*In the theory of sets, in which $\in$ is a relational sign of weight 2, the following sequence of assemblies is a formative construction:*
 
 $$
 \begin{array}{c}
@@ -196,7 +198,9 @@ $$
 
 Hence the assembly given as an example in no. 1 is a term in the theory of sets.*
 
-*Remark.* Intuitively, terms are assemblies which represent objects, and relations are assemblies which represent assertions which can be made about these objects. Condition (a) means that the letters represent objects. Condition (b) means that if $B$ is an assertion, then $\neg B$, called the negation of $B$, is an assertion (which is read : not $B$). Condition (c) means that if $B$ and $C$ are assertions, $\vee BC$, which is called the disjunction of $B$ and $C$, is an assertion (which is read : either $B$ or $C$); thus $\neg\to BC$ is an assertion (in words : “either not $B$, or $C$”, or “$B$ implies $C$”). Condition (d) means that if $B$ is an assertion and $x$ a letter, then $\tau_x(B)$ is an object. Let us consider the assertion $B$ as expressing a property of the object $X$; then, if there exists an object which has the property in question, $\tau_x(B)$ represents a distinguished object which has this property; if not, $\tau_x(B)$ represents an object about which nothing can be said. Finally, condition (e) means that if $A_1,A_2,\ldots,A_n$ are objects, and if $s$ is a relational (resp. substantific) sign of weight $n$, then $sA_1A_2\ldots A_n$ is an assertion about the objects $A_1,\ldots,A_n$ (resp. an object depending on $A_1,\ldots,A_n$).
+#### Remark {#ens-i-s1-n3-rem-1 .statement}
+
+Intuitively, terms are assemblies which represent objects, and relations are assemblies which represent assertions which can be made about these objects. Condition (a) means that the letters represent objects. Condition (b) means that if $B$ is an assertion, then $\neg B$, called the negation of $B$, is an assertion (which is read : not $B$). Condition (c) means that if $B$ and $C$ are assertions, $\vee BC$, which is called the disjunction of $B$ and $C$, is an assertion (which is read : either $B$ or $C$); thus $\neg\to BC$ is an assertion (in words : “either not $B$, or $C$”, or “$B$ implies $C$”). Condition (d) means that if $B$ is an assertion and $x$ a letter, then $\tau_x(B)$ is an object. Let us consider the assertion $B$ as expressing a property of the object $X$; then, if there exists an object which has the property in question, $\tau_x(B)$ represents a distinguished object which has this property; if not, $\tau_x(B)$ represents an object about which nothing can be said. Finally, condition (e) means that if $A_1,A_2,\ldots,A_n$ are objects, and if $s$ is a relational (resp. substantific) sign of weight $n$, then $sA_1A_2\ldots A_n$ is an assertion about the objects $A_1,\ldots,A_n$ (resp. an object depending on $A_1,\ldots,A_n$).
 
 *Examples.* The symbols $\varnothing$, $\mathbf{N}$, “the real line”, “the $\Gamma$ function”, $f\circ g$ represent terms. The symbols $\pi=\sqrt{2}+\sqrt{3}$, $1\in2$, “every finite division ring is a field”, “the zeros of $\zeta(s)$ other than $-2$, $-4$, $-6$, ... lie on the line $\mathfrak{R}(s)=1/2$” represent relations. The symbol “3 and 4” represents neither a term nor a relation.
 

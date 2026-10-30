@@ -279,7 +279,9 @@ En effet, dans la démonstration de la prop. 5, les $U_i$ ($1 \leq i \leq n$) pe
 
 La dernière partie de la proposition est un cas particulier de TG, I, p. 26, prop. 3. La proposition est alors conséquence du lemme suivant :
 
-*Lemme. — Soient M et N deux espaces vectoriels, g une application linéaire de M dans N. Si $\mathscr{T}_0$ est une topologie compatible avec la structure d’espace vectoriel de N, l’image réciproque de $\mathscr{T}_0$ par g est compatible avec la structure d’espace vectoriel de M.*
+#### Lemme {#evt-i-s1-n7-lem-1 .statement}
+
+*Soient M et N deux espaces vectoriels, g une application linéaire de M dans N. Si $\mathscr{T}_0$ est une topologie compatible avec la structure d’espace vectoriel de N, l’image réciproque de $\mathscr{T}_0$ par g est compatible avec la structure d’espace vectoriel de M.*
 
 Montrons par exemple que $(\lambda, x) \mapsto \lambda x$ est continue en tout point $(\lambda_0, x_0)$ de $K \times M$. Posons $y = g(x_0)$. Tout voisinage de 0 dans $M$ contient un voisinage de la forme $\overline{g^{-1}}(U)$, où $U$ est un voisinage de 0 dans $N$; par hypothèse, il existe un voisinage $V$ de 0 dans $K$ et un voisinage $W$ de 0 dans $N$ tels que les relations $\lambda - \lambda_0 \in V$, $y - y_0 \in W$ entraînent $\lambda y - \lambda_0 y_0 \in U$. Les relations $\lambda - \lambda_0 \in V$, $x - x_0 \in \overline{g^{-1}}(W)$ entraînent donc $\lambda x - \lambda_0 x_0 \in \overline{g^{-1}}(U)$. On démontre de même que $(x, y) \mapsto x - y$ est continue dans $M \times M$.
 

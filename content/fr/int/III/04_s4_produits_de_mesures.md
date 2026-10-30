@@ -322,7 +322,7 @@ $$
 \langle f_1 \otimes f_2 \otimes \cdots \otimes f_n, \mu_1 \otimes \mu_2 \otimes \cdots \otimes \mu_n \rangle = \prod_{i=1}^n \langle f_i, \mu_i \rangle.
 $$
 
-**Proposition 7** (« associativité du produit de mesures »). —
+#### Proposition 7 (« associativité du produit de mesures ») {#int-iii-s4-prop-7 .statement}
 Soit $(I_k)_{1 \leq k \leq r}$ une partition de l’intervalle $[1, n]$ dans $\mathbf{N}$; on a
 
 $$

@@ -172,7 +172,9 @@ La prop. 6 montre qu’il existe une correspondance biunivoque canonique entre l
 
 C’est un cas particulier d’une propriété générale des structures quotients (E, IV, p. 21, critère CST 20).
 
-**Proposition 7** (transitivité des espaces quotients). — *Soient $R$ et $S$ deux relations d’équivalence dans un espace topologique $X$, telles que $R$ entraîne $S$, et soit $S/R$ la relation d’équivalence quotient dans l’espace quotient $X/R$ (E, II, p. 46). L’application canonique bijective $(X/R)/(S/R) \to X/S$ est alors un homéomorphisme.*
+#### Proposition 7 (transitivité des espaces quotients) {#top-i-s3-prop-7 .statement}
+
+*Soient $R$ et $S$ deux relations d’équivalence dans un espace topologique $X$, telles que $R$ entraîne $S$, et soit $S/R$ la relation d’équivalence quotient dans l’espace quotient $X/R$ (E, II, p. 46). L’application canonique bijective $(X/R)/(S/R) \to X/S$ est alors un homéomorphisme.*
 
 C’est un cas particulier de la transitivité des topologies finales (I, p. 14, prop. 7; cf. E, II, p. 22, critère CST 21).
 

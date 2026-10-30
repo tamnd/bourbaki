@@ -104,7 +104,9 @@ $$
 
 pour une telle fonction $f$. On voit aussitôt que les relations (3) et (4) sont encore valables pour ces fonctions lorsque $f + g$ est définie dans X et $\alpha \neq 0$. En outre :
 
-**Théorème 1** (théorème de convexité dénombrable). — Soit $(f_n)$ une suite de fonctions $\geq 0$ (finies ou non) définies dans X. Pour $1 \leq p < +\infty$, on a
+#### Théorème 1 (théorème de convexité dénombrable) {#int-iv-s3-thm-1 .statement}
+
+Soit $(f_n)$ une suite de fonctions $\geq 0$ (finies ou non) définies dans X. Pour $1 \leq p < +\infty$, on a
 
 (5)
 $$

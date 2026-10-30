@@ -143,7 +143,9 @@ $$
 
 d’après la suite exacte précédente ; d’après la prop. 1, cela implique aussitôt $\mathrm{dp}_A(M'')=\mathrm{dp}_A(M')+1$, puisque l’une des quantités $\mathrm{dp}_A(M')$, $\mathrm{dp}_A(M'')$ est $>\mathrm{dp}_A(M)$.
 
-**Example.** — Soit $a$ un élément de A qui n’est ni inversible, ni diviseur de zéro à droite.
+#### Example {#alg-x-s8-n1-exa-1 .statement}
+
+Soit $a$ un élément de A qui n’est ni inversible, ni diviseur de zéro à droite.
 Alors $\mathrm{dp}_A(A/Aa)=1$.
 
 En effet, d’après la suite exacte $0\longrightarrow A_s\xrightarrow{\varphi} A_s\longrightarrow A/Aa\longrightarrow0$, où $\varphi(x)=xa$, on a $\mathrm{dp}_A(A/Aa)\leq1$. Si $\mathrm{dp}_A(A/Aa)<1$, alors $A/Aa$ est projectif, et il existe une application A-linéaire $\psi:A_s\longrightarrow A_s$ telle que $\psi\circ\varphi=\mathrm{Id}$ ; cela implique

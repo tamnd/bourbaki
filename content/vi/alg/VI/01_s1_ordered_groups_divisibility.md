@@ -604,7 +604,9 @@ Cho x là một phần tử bất khả quy của nhóm có thứ tự G; nếu 
 
 (DIV) Một phần tử p của A được gọi là *bất khả quy* nếu iđêan (p) là một phần tử bất khả quy của nhóm có thứ tự $\mathscr{P}^*$; điều này có nghĩa là p không phải là không cũng không khả nghịch, và mọi phần tử của $A$ chia hết p đều liên kết hoặc với p hoặc với 1. Nếu $\mathscr{P}^*$ có thứ tự dàn, thì mọi $a \in A$ hoặc nguyên tố cùng nhau với p hoặc là một bội của p.
 
-*Ví dụ (DIV). —* 1) Một số nguyên $p > 0$ là bất khả quy trong $\mathbf{Z}$ khi và chỉ khi nó là *nguyên tố* (I, p. 50).
+#### Ví dụ (DIV) {#alg-vi-s1-n13-exa-1 .statement}
+
+1) Một số nguyên $p > 0$ là bất khả quy trong $\mathbf{Z}$ khi và chỉ khi nó là *nguyên tố* (I, p. 50).
 
 2) Một đa thức theo một ẩn trên một trường K là bất khả quy khi và chỉ khi nó là bất khả quy theo nghĩa thông thường (IV, p. 13).
 

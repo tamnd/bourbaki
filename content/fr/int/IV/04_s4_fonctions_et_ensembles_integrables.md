@@ -77,7 +77,9 @@ Cette inégalité prouve que $f \mapsto \int f\, d\mu$ est une application liné
 
 On dit que les fonctions appartenant à $\mathscr{L}_F^1(X, \mu)$ sont intégrables pour la mesure $\mu$ (ou encore, sont $\mu$-intégrables). L’intégrale (par rapport à $\mu$) de la fonction intégrable $f$ est par définition la valeur pour $f$ du prolongement par continuité à $\mathscr{L}_F^1$ de l’application linéaire $g \mapsto \int g\, d\mu$ de $\mathscr{K}_F$ dans $F$; on la note encore $\mu(f)$ ou $\int f\, d\mu$, ou $\int f(x)\, d\mu(x)$ ou $\int f\mu$, ou $\int f(x)\mu(x)$.
 
-Exemple — Soient X un espace discret, $\mu$ une mesure sur X et posons $\alpha(x) = \mu(\varphi_{\{x\}})$ pour tout $x \in X$. Les fonctions de $\mathscr{F}_F^1$ sont alors intégrables, autrement dit, $\mathscr{L}_F^1 = \mathscr{F}_F^1$; en outre, pour toute fonction $f \in \mathscr{L}_F^1$, on a
+#### Exemple {#int-iv-s4-n1-exa-1 .statement}
+
+Soient X un espace discret, $\mu$ une mesure sur X et posons $\alpha(x) = \mu(\varphi_{\{x\}})$ pour tout $x \in X$. Les fonctions de $\mathscr{F}_F^1$ sont alors intégrables, autrement dit, $\mathscr{L}_F^1 = \mathscr{F}_F^1$; en outre, pour toute fonction $f \in \mathscr{L}_F^1$, on a
 
 $$
 \int f d\mu = \sum_{x \in X} \alpha(x)f(x).

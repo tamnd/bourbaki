@@ -102,7 +102,9 @@ Kết quả của Mệnh đề 1 có thể được phát biểu như sau: nếu
 
 Hệ quả của Mệnh đề 1, khi áp dụng cho trường hợp các $a_i$ là $n$ vectơ $e_i$ của cơ sở chính tắc của $\mathbf{R}^n$, cho ta mệnh đề sau:
 
-**Mệnh đề 2 (Kronecker).** *Cho $\theta_1, \theta_2, \ldots, \theta_n$ là $n$ số thực. Để với mỗi $\varepsilon > 0$, tồn tại một số nguyên $q$ và $n$ số nguyên*
+#### Mệnh đề 2 (Kronecker) {#top-vii-s1-prop-2 .statement}
+
+*Cho $\theta_1, \theta_2, \ldots, \theta_n$ là $n$ số thực. Để với mỗi $\varepsilon > 0$, tồn tại một số nguyên $q$ và $n$ số nguyên*
 $$
 p_i \quad (1 \leq i \leq n)
 $$

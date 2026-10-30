@@ -510,7 +510,9 @@ $$
 
 according to Proposition 4 of X, p. 67, $1 \otimes p_N$ and $p_M \otimes 1$ are homology morphisms. Therefore:
 
-**Proposition 5. — The $k$-homomorphisms**
+#### Proposition 5 {#alg-x-s4-prop-5 .statement}
+
+**The $k$-homomorphisms**
 
 $$
 \begin{aligned}
@@ -521,11 +523,15 @@ $$
 
 are *bijective*.
 
-**Corollary. — If $M$ or $N$ is flat, $\mathrm{Tor}_i^A(M, N) = 0$ for $i \geqslant 0$.**
+#### Corollary {#alg-x-s4-n4-cor-3 .statement}
+
+**If $M$ or $N$ is flat, $\mathrm{Tor}_i^A(M, N) = 0$ for $i \geqslant 0$.**
 
 Suppose that $N$ (resp. $M$) is flat. Then $p_M \otimes 1 : L(M) \otimes_A N \to M \otimes_A N$ (resp. $1 \otimes p_N : M \otimes_A L(N) \to M \otimes_A N$) is a homology morphism (X, p. 67, Proposition 4), hence $H_i(L(M) \otimes_A N)$ (resp. $H_i(M \otimes_A L(N))$) vanishes for $i > 0$.
 
-*Remark 3. — If $g : N \to N'$ is a homomorphism of left A-modules, then*
+#### Remark 3 {#alg-x-s4-n4-rem-3 .statement}
+
+*If $g : N \to N'$ is a homomorphism of left A-modules, then*
 
 $$
 (1_{L(M)} \otimes g) \circ (1_{L(M)} \otimes 1_N) = (1_{L(M)} \otimes 1_N) \circ (1_{L(M)} \otimes L(g)) ,
@@ -553,7 +559,9 @@ $$
 \end{array}
 $$
 
-**Proposition 6. — The mapping** $(f, g) \mapsto \mathrm{Tor}^A(f, g) :$
+#### Proposition 6 {#alg-x-s4-prop-6 .statement}
+
+**The mapping** $(f, g) \mapsto \mathrm{Tor}^A(f, g) :$
 
 $$
 \mathrm{Hom}_A(M, M') \times \mathrm{Hom}_A(N, N') \to \mathrm{Hom}_k(\mathrm{Tor}^A(M, N), \mathrm{Tor}^A(M', N'))
@@ -920,7 +928,9 @@ $$
 $$
 whence the assertion (Th. 2, (i) $\Leftrightarrow$ (iii)).
 
-**Corollary 2. —** *Let*
+#### Corollary 2 {#alg-x-s4-thm-2-cor-2 .statement}
+
+*Let*
 $$
 0\longrightarrow E_n\longrightarrow E_{n-1}\longrightarrow\cdots\longrightarrow E_1\longrightarrow0
 $$
@@ -1084,7 +1094,9 @@ $$
 
 $H(\varphi) \otimes H(\varphi')$ and $\gamma(H(C), H(C'))$ are the identity, whence the assertion.
 
-**Corollary 3** (*universal coefficient formula*). — *Suppose the ring $A$ is principal. If the complexes $C$ and $C'$ are free, the sequences of $A$-modules (11) are exact and split; if the complex $C$ is free, the sequences of $A$-modules (13) are exact and split for every $A$-module $N$.*
+#### Corollary 3 (universal coefficient formula) {#alg-x-s4-lem-4-cor-3 .statement}
+
+*Suppose the ring $A$ is principal. If the complexes $C$ and $C'$ are free, the sequences of $A$-modules (11) are exact and split; if the complex $C$ is free, the sequences of $A$-modules (13) are exact and split for every $A$-module $N$.*
 Indeed, $B(C), Z(C)$ and $B(C')$ are submodules of the free modules $C, C, C'$, so are free (VII, § 3, cor. 2 to th. 1), and we apply cor. 2.
 
 #### Corollary 4 (« Künneth formula ») {#alg-x-s4-lem-4-cor-4 .statement}

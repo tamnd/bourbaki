@@ -131,7 +131,9 @@ $$
 
 (quan hệ của các phần bù).
 
-HỆ QUẢ — Với mọi số thực $t$ ta có
+#### Hệ quả {#fvr-vii-s2-n2-cor-1 .statement}
+
+Với mọi số thực $t$ ta có
 
 $$
 |\Gamma(it)| = \sqrt{\frac{\pi}{t \sinh \pi t}} \quad (t \neq 0)

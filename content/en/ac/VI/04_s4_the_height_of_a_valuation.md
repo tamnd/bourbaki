@@ -81,7 +81,9 @@ To study the situation in no. 1 from the point of view of valuations we shall ne
 
 *A subgroup H of an ordered group G is called isolated if the relations $0 \leq y \leq x$ and $x \in H$ imply $y \in H$.*
 
-Example (1) Let $A$ and $B$ be two ordered groups; let $A \times B$ be given the lexicographic order (i.e. "$(a, b) \leq (a', b')$" is equivalent to "$(a < a') \text{ or } (a = a' \text{ and } b \leq b')$"). The second factor $B$ of $A \times B$ is then, as is seen immediately, an isolated subgroup of $A \times B$.
+#### Example (1) {#ac-vi-s4-n2-exa-1 .statement}
+
+Let $A$ and $B$ be two ordered groups; let $A \times B$ be given the lexicographic order (i.e. "$(a, b) \leq (a', b')$" is equivalent to "$(a < a') \text{ or } (a = a' \text{ and } b \leq b')$"). The second factor $B$ of $A \times B$ is then, as is seen immediately, an isolated subgroup of $A \times B$.
 
 #### Proposition 3 {#ac-vi-s4-prop-3 .statement}
 
@@ -101,7 +103,9 @@ $$
 
 for, *if* $x$ and $y$ are elements of $P$ such that $g(x) = -g(y)$, then $x + y \in H$, whence $x \in H$ and $y \in H$ since $H$ is isolated; hence $g(x) = g(y) = 0$. Thus $P'$ is the set of positive elements of an ordered group structure on $G/H$ (*Algebra*, Chapter VI, § 1, no. 3, Proposition 3). Finally, if $G$ is totally ordered, then $P \cap (-P) = G$, whence $P' \cup (-P') = G/H$ and therefore $G/H$ is totally ordered (*loc. cit.*).
 
-Example (2) If we reconsider the example where $G$ is a lexicographic product $A \times B$ and $H = B$, the ordered group $G/H$ is canonically identified with $A$.
+#### Example (2) {#ac-vi-s4-n2-exa-2 .statement}
+
+If we reconsider the example where $G$ is a lexicographic product $A \times B$ and $H = B$, the ordered group $G/H$ is canonically identified with $A$.
 
 ### 3. COMPARISON OF VALUATIONS
 

@@ -146,7 +146,9 @@ Cho $(x'_i)_{i \in I}$ là một cơ sở của không gian vectơ E' trên trư
 
 Vì tôpô của $E_\sigma$ được cảm sinh bởi tôpô của ${E'_\sigma}^*$, tập con $\overline{A}$ của $E_\sigma$ là compact, và đ.l. 1 được chứng minh.
 
-**Định lý 2 (Šmulian).** — *Cho E là một không gian Fréchet và A là một tập con của E. Gọi $E_\sigma$ là không gian E được trang bị tôpô yếu hơn. Các điều kiện sau là tương đương* :
+#### Định lý 2 (Šmulian) {#evt-iv-s5-thm-2 .statement}
+
+— *Cho E là một không gian Fréchet và A là một tập con của E. Gọi $E_\sigma$ là không gian E được trang bị tôpô yếu hơn. Các điều kiện sau là tương đương* :
 
 (i) *A là tương đối compact trong $E_\sigma$;*
 (ii) *mọi dãy vô hạn các điểm của A đều có một điểm giới hạn trong $E_\sigma$;*

@@ -435,13 +435,17 @@ Nếu $(G_i)_{0 \leq i \leq n}$ và $(H_j)_{0 \leq j \leq m}$ lần lượt là 
 
 Chú ý rằng nói chung một chuỗi lấy từ một chuỗi hợp thành $(G_i)$ không phải là một chuỗi hợp thành, vì với $j > i + 1$, $G_j$ nói chung không phải là một nhóm con chuẩn tắc của $G_i$.
 
-**Định lý 5 (Schreier).** *Cho hai chuỗi hợp thành $\Sigma_1, \Sigma_2$ của một nhóm có toán tử G. Khi đó tồn tại hai chuỗi hợp thành tương đương $\Sigma'_1, \Sigma'_2$, lần lượt mịn hơn $\Sigma_1$ và $\Sigma_2$.
+#### Định lý 5 (Schreier) {#alg-i-s4-thm-5 .statement}
+
+*Cho hai chuỗi hợp thành $\Sigma_1, \Sigma_2$ của một nhóm có toán tử G. Khi đó tồn tại hai chuỗi hợp thành tương đương $\Sigma'_1, \Sigma'_2$, lần lượt mịn hơn $\Sigma_1$ và $\Sigma_2$.
 
 Cho $\Sigma_1 = (H_i)_{0 \leq i \leq n}$ và $\Sigma_2 = (K_j)_{0 \leq j \leq p}$ là hai chuỗi hợp thành đã cho, lần lượt có $n + 1$ và $p + 1$ số hạng; ta sẽ thấy rằng chuỗi hợp thành $\Sigma'_1$ có thể được tạo thành bằng cách chèn $p - 1$ nhóm con $H'_{i,j}$ (1 \leq j \leq p - 1) vào giữa H_i và H_{i+1} với 0 \leq i \leq n - 1, và chuỗi \Sigma_2' bằng cách chèn n - 1 nhóm con K_{j,i}' (1 \leq i \leq n - 1) vào giữa K_j và K_{j+1} với 0 \leq j \leq p - 1; như vậy thu được hai chuỗi gồm pn + 1 nhóm con ổn định của G; bằng cách chọn thích hợp các nhóm con ổn định được chèn vào, ta sẽ chứng minh rằng các chuỗi này là các chuỗi hợp thành tương đương.
 
 Để làm điều đó, chú ý rằng H_i \cap K_j là một nhóm con ổn định của H_i và của K_j, và do đó (Định lý 4) H_{i+1}.(H_i \cap K_j) là một nhóm con ổn định của H_i chứa H_{i+1}, và K_{j+1}.(H_i \cap K_j) là một nhóm con ổn định của K_j chứa K_{j+1}. Nếu ta viết H_{i,j}' = H_{i+1}.(H_i \cap K_j) và K_{j,i}' = K_{j+1}.(H_i \cap K_j), thì H_{i,j+1}' là một nhóm con ổn định của H_{i,j}' (0 \leq j \leq p - 1) và K_{j,i+1}' là một nhóm con ổn định của K_{j,i}' (0 \leq i \leq n - 1). Hơn nữa H_{i,0}' = H_i, H_{i,p}' = H_{i+1}, K_{j,0}' = K_j và K_{j,p}' = K_{j+1}. Để chứng minh định lý, chỉ cần chứng minh rằng H_{i,j+1}' (tương ứng, K_{j,i+1}') là một nhóm con ổn định chuẩn tắc của H_{i,j}' (tương ứng, K_{j,i}') và rằng các nhóm thương H_{i,j}'/H_{i,j+1}' và K_{j,i}'/K_{j,i+1}' là đẳng cấu (0 \leq i \leq n - 1, 0 \leq j \leq p - 1). Điều này suy ra từ bổ đề sau đây bằng cách lấy H = H_i, H' = H_{i+1}, K = K_j, K' = K_{j+1}.
 
-Bổ đề 1 (Zassenhaus). Cho H và K là hai nhóm con ổn định của một nhóm có toán tử G, và H' và K' lần lượt là các nhóm con ổn định chuẩn tắc của H và K; khi đó H'.(H \cap K') là một nhóm con ổn định chuẩn tắc của H'.(H \cap K), K'.(K \cap H') là một nhóm con ổn định chuẩn tắc của K'.(K \cap H), và các nhóm thương có toán tử (H'.(H \cap K))/(H'.(H \cap K')) và (K'.(K \cap H))/(K'.(K \cap H')) là đẳng cấu.
+#### Bổ đề 1 (Zassenhaus) {#alg-i-s4-lem-1 .statement}
+
+Cho H và K là hai nhóm con ổn định của một nhóm có toán tử G, và H' và K' lần lượt là các nhóm con ổn định chuẩn tắc của H và K; khi đó H'.(H \cap K') là một nhóm con ổn định chuẩn tắc của H'.(H \cap K), K'.(K \cap H') là một nhóm con ổn định chuẩn tắc của K'.(K \cap H), và các nhóm thương có toán tử (H'.(H \cap K))/(H'.(H \cap K')) và (K'.(K \cap H))/(K'.(K \cap H')) là đẳng cấu.
 
 Theo Định lý 4, H' \cap K = H' \cap (H \cap K) là một nhóm con ổn định chuẩn tắc của H \cap K; tương tự K' \cap H là một nhóm con ổn định chuẩn tắc của K \cap H; do đó (no. 6, Hệ quả 2) (H' \cap K)(K' \cap H) là một nhóm con ổn định chuẩn tắc của H \cap K. Theo Định lý 4 áp dụng cho nhóm H,
 
@@ -473,7 +477,9 @@ Một chuỗi Jordan-Hölder của một nhóm có toán tử G là một chuỗ
 
 Một chuỗi phân tích giảm nghiêm ngặt khi và chỉ khi không có thương liên tiếp nào của nó rút gọn thành phần tử đơn vị. Nếu một chuỗi hợp thành giảm nghiêm ngặt $\Sigma$ không phải là một chuỗi Jordan-Hölder, thì tồn tại một chuỗi hợp thành giảm nghiêm ngặt $\Sigma'$ mịn hơn $\Sigma$ và phân biệt với $\Sigma$. Do đó có hai số hạng liên tiếp $G_i, G_{i+1}$ của $\Sigma$ không liên tiếp trong $\Sigma'$; gọi $H$ là số hạng đầu tiên đứng sau $G_i$ trong $\Sigma'$; $H$ là một nhóm con ổn định chuẩn của $G_i$, chứa $G_{i+1}$ và phân biệt với nhóm sau; do đó $H/G_{i+1}$ là một nhóm con ổn định chuẩn của $G_i/G_{i+1}$, phân biệt với nhóm sau và với phần tử đơn vị; vậy $G_i/G_{i+1}$ không đơn. Ngược lại, nếu $\Sigma$ là một chuỗi hợp thành giảm nghiêm ngặt mà một trong các thương $G_i/G_{i+1}$ của nó không đơn, thì thương này chứa một nhóm con ổn định chuẩn khác với chính nó và $\{e\}$, có ảnh ngược trong $G_i$ là một nhóm con ổn định chuẩn $H$ của $G_i$, phân biệt với $G_i$ và $G_{i+1}$ (Định lý 4); chỉ cần chèn $H$ vào giữa $G_i$ và $G_{i+1}$ để thu được một chuỗi hợp thành giảm nghiêm ngặt phân biệt với $\Sigma$ và mịn hơn $\Sigma$.
 
-**Định lý 6 (Jordan-Hölder).** *Hai chuỗi Jordan-Hölder của một nhóm có toán tử là tương đương.*
+#### Định lý 6 (Jordan-Hölder) {#alg-i-s4-thm-6 .statement}
+
+*Hai chuỗi Jordan-Hölder của một nhóm có toán tử là tương đương.*
 
 Cho $\Sigma_1, \Sigma_2$ là hai chuỗi Jordan-Hölder của một nhóm có toán tử $G$; bằng cách áp dụng Định lý 5 thu được hai chuỗi hợp thành *tương đương* $\Sigma'_1, \Sigma'_2$ lần lượt mịn hơn $\Sigma_1$ và $\Sigma_2$; vì các chuỗi sau là các chuỗi Jordan-Hölder, $\Sigma'_1$ đồng nhất với $\Sigma_1$ hoặc được dẫn xuất từ nó bằng cách lặp lại một số số hạng nhất định; chuỗi các thương của $\Sigma'_1$ được dẫn xuất từ chuỗi tương ứng của $\Sigma_1$ bằng cách chèn một số số hạng đẳng cấu với nhóm $\{e\}$; vì $\Sigma_1$ giảm nghiêm ngặt, chuỗi các thương của $\Sigma_1$ được dẫn xuất từ chuỗi của $\Sigma'_1$ bằng cách loại bỏ trong chuỗi sau *tất cả* các số hạng đẳng cấu với $\{e\}$. Tương tự đối với $\Sigma_2$ và $\Sigma'_2$. Vì chuỗi các thương của $\Sigma'_1$ và $\Sigma'_2$ chỉ khác nhau (sai khác đẳng cấu) về cấp của các số hạng, điều tương tự cũng đúng đối với $\Sigma_1$ và $\Sigma_2$; định lý được chứng minh.
 

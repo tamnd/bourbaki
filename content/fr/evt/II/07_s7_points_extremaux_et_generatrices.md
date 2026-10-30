@@ -99,7 +99,9 @@ Ces propriétés étant établies, soit $M$ l’ensemble des $x \in A$ où $f$ a
 
 En effet, si $f(x) = \alpha$ est une équation de $H$ telle que $f(x) \leq \alpha$ dans $A$, il suffit d’appliquer la prop. 1 à $f$.
 
-**Théorème 1** (Krein-Milman). — *Dans un espace localement convexe séparé* $E$, *tout ensemble convexe compact* $A$ *est l’enveloppe fermée convexe de l’ensemble de ses points extrémaux*.
+#### Théorème 1 (Krein-Milman) {#evt-ii-s7-thm-1 .statement}
+
+*Dans un espace localement convexe séparé* $E$, *tout ensemble convexe compact* $A$ *est l’enveloppe fermée convexe de l’ensemble de ses points extrémaux*.
 
 En effet, soit $C$ l’enveloppe fermée convexe de l’ensemble des points extrémaux de $A$; il est clair que $C \subset A$. Pour voir que $A \subset C$, il suffit de prouver que, pour toute fonction linéaire affine $u$ continue dans $E$, telle que $u(x) \geq 0$ dans $C$, on a aussi $u(x) \geq 0$ dans $A$ (II, p. 41, cor. 4); mais cela résulte de la prop. 1 appliquée à $-u$.
 

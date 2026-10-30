@@ -264,7 +264,9 @@ do đó, để tích có nhân tử tổng quát $1 + u_n$ là hội tụ giao h
 
 Quan hệ giữa tích vô hạn và các chuỗi số thực đôi khi cho phép thu được một khai triển tiệm cận của tích riêng phần $p_n = \prod_{k=1}^{n} (1 + u_k)$; chỉ cần có một khai triển tiệm cận của tổng riêng phần $s_n = \sum_{k=1}^{n} \log(1 + u_k)$, rồi khai triển $p_n = \exp(s_n)$; như vậy ta lại quay về hai bài toán đã xét trước đây (V, p. 238 và p. 226).
 
-*Ví dụ: công thức Stirling.* Ta hãy tìm một khai triển tiệm cận của $n!$; điều này dẫn ta đến việc khai triển $s_n = \sum_{p=1}^{n} \log p$, rồi sau đó $\exp(s_n)$. Phương pháp ở n 2 lần lượt cho
+#### Ví dụ {#fvr-v-s4-n3-exa-1 .statement}
+
+*công thức Stirling.* Ta hãy tìm một khai triển tiệm cận của $n!$; điều này dẫn ta đến việc khai triển $s_n = \sum_{p=1}^{n} \log p$, rồi sau đó $\exp(s_n)$. Phương pháp ở n 2 lần lượt cho
 
 $$
 s_n = \sum_{p=1}^{n} \log p \sim \int_{1}^{n} \log t \, dt = n \log n - n + 1

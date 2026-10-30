@@ -147,7 +147,9 @@ $$
 
 Nous commencerons par un résultat auxiliaire :
 
-*Lemme 1. — Soit $\theta$ une mesure complexe, et soit $f$ un élément de $\bar{\mathscr{L}}_c^1(T, \theta)$. On a alors
+#### Lemme 1 {#int-v-s5-lem-1 .statement}
+
+*Soit $\theta$ une mesure complexe, et soit $f$ un élément de $\bar{\mathscr{L}}_c^1(T, \theta)$. On a alors
 
 $$
 \langle |\theta|, |f| \rangle = \sup_{c \in \mathscr{K}_1} |\langle \theta, cf \rangle| = \sup_{c \in \mathscr{B}_1} |\langle \theta, cf \rangle|
@@ -374,7 +376,9 @@ formule équivalente à (10).
 
 ### 5. Caractérisation des mesures de base $\mu$
 
-**Théorème 2** (Lebesgue–Nikodym). — Soient $\mu$ et $\nu$ deux mesures positives sur $T$. Les propriétés suivantes sont équivalentes:
+#### Théorème 2 (Lebesgue–Nikodym) {#int-v-s5-thm-2 .statement}
+
+Soient $\mu$ et $\nu$ deux mesures positives sur $T$. Les propriétés suivantes sont équivalentes:
 
 1) $\nu$ est une mesure de base $\mu$.
 2) Tout ensemble localement $\mu$-négligeable est localement $\nu$-négligeable.

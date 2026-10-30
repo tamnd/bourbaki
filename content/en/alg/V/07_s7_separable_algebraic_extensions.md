@@ -225,7 +225,9 @@ B) Suppose now that the field $K$ is infinite. If b) holds, the extension $E$ is
 
 Let $A_1, \ldots, A_n$ be the subalgebras of $A$ distinct from $A$. If $x \notin A_1 \cup \ldots \cup A_n$, then the sub-algebra $K[x]$ cannot equal any of the $A_i$ and so must coincide with $A$. Further, since $V$ generates $A$, it is not contained in any of the subspaces $A_i$. Prop. 7 is therefore a consequence of the following lemma:
 
-*Lemma 1. — Let $A$ be a vector $K$-space, $V, A_1, \ldots, A_n$ subspaces of $A$. If $\mathrm{Card}(K) \geq n$ and if $V$ is not contained in any of the $A_i$, then $V$ is not contained in $A_1 \cup \ldots \cup A_n$.*
+#### Lemma 1 {#alg-v-s7-lem-1 .statement}
+
+*Let $A$ be a vector $K$-space, $V, A_1, \ldots, A_n$ subspaces of $A$. If $\mathrm{Card}(K) \geq n$ and if $V$ is not contained in any of the $A_i$, then $V$ is not contained in $A_1 \cup \ldots \cup A_n$.*
 
 Arguing by induction on $n$, we need only prove that if $V \subset A$, and $V \subset A_1 \cup \ldots \cup A_n$, then $V \subset A_1 \cup \ldots \cup A_{n-1}$. Let $x \in V, x \notin A_n$, and let $y$ be arbitrary in $V$. If $y \in Kx$, we have $y \in A_1 \cup \ldots \cup A_{n-1}$; if not, then the elements $x$ and $y + \lambda x, \lambda \in K$ are strictly greater than $n$ in number and belong to $A_1 \cup \ldots \cup A_n$, so two of them belong to the same $A_i$. Thus there exists $i, 1 \leq i \leq n$ such that either $x \in A_i$ and $y + \lambda x \in A_i$ for some $\lambda \in K$, or $y + \mu x \in A_i$ and $y + \mu x \in A_i$ for two distinct scalars $\lambda, \mu \in K$. In both cases we conclude that $x \in A_i$ and $y \in A_i$; but this implies that $i \neq n$, hence $y \in A_1 \cup \ldots \cup A_{n-1}$, as we wished to show.
 

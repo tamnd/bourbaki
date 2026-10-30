@@ -46,7 +46,9 @@ quels que soient $\lambda, i, k$. Par hypothèse, les équations linéaires homo
 
 c) *Cas général.* Soient $\Omega$ une extension algébriquement close de $L$, $K_0$ la clôture algébrique de $K$ dans $\Omega$. L’hypothèse entraîne que $V \otimes_K \Omega$ et $W \otimes_K \Omega$ sont des $(A \otimes_K \Omega)$-modules isomorphes. Comme $K_0$ est infini, la partie b) montre que $V \otimes_K K_0$ et $W \otimes_K K_0$ sont des $(A \otimes_K K_0)$-modules isomorphes. Gardant les notations de b), le système (2) admet une solution $(\xi_{ij}) \in K_0^{m^*}$ telle que $\det(\xi_{ij}) \neq 0$. Mais les $\xi_{ij}$ appartiennent à une même extension algébrique $K_1$ de degré fini de $K$. Les $(A \otimes_K K_1)$-modules $V \otimes_K K_1$ et $W \otimes_K K_1$ sont isomorphes, et on conclut à l’aide de a).
 
-**Proposition 2** (Maschke). — *Soient A un anneau ayant un élément unité, E un A-module à gauche, F un sous-module facteur direct, G un groupe fini d’ordre q, ρ une représentation linéaire de G dans E. On suppose que q.1 est inversible dans A et que F est stable par G. Il existe alors un supplémentaire de F dans E stable par G.*
+#### Proposition 2 (Maschke) {#lie-v-a0-prop-2 .statement}
+
+*Soient A un anneau ayant un élément unité, E un A-module à gauche, F un sous-module facteur direct, G un groupe fini d’ordre q, ρ une représentation linéaire de G dans E. On suppose que q.1 est inversible dans A et que F est stable par G. Il existe alors un supplémentaire de F dans E stable par G.*
 
 Soit $p$ un projecteur de $E$ sur $F$. Pour tout $x \in E$, posons
 

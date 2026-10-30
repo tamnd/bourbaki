@@ -226,7 +226,9 @@ Soit $f$ une application continue d’un espace souslinien $X$ dans un espace s�
 
 En effet, $B$ est souslinien, donc $f(B)$ est souslinien, d’après la Remarque de IX, p. 59.
 
-Remarque. --- 2) Même lorsque X et Y sont polonais, il n’est pas vrai, en général, que l’image d’un ensemble borélien de X par une application continue de X dans Y soit un ensemble borélien de Y (cf. IX, p. 120, exerc. 8, et IX, p. 68, prop. 14).
+#### Remarque {#top-ix-s6-n3-rem-2 .statement}
+
+--- 2) Même lorsque X et Y sont polonais, il n’est pas vrai, en général, que l’image d’un ensemble borélien de X par une application continue de X dans Y soit un ensemble borélien de Y (cf. IX, p. 120, exerc. 8, et IX, p. 68, prop. 14).
 
 ### 4. Espaces éparpillés et espaces lusiniens
 

@@ -99,7 +99,9 @@ Supposons par exemple que $f$ soit croissante, et soit $a = \sup f(A)$. Si $a = 
 Pour qu’une fonction numérique croissante (resp. décroissante), définie dans une partie filtrante $A$ d’un ensemble ordonné $E$, ait une limite finie suivant $A$, il faut et il suffit qu’elle soit majorée (resp. minorée) dans $A$.
 
 Si on applique le th. 2 au cas où $A = E = \mathbf{N}$ (ordonné par la relation $\leqslant$), on a la proposition suivante:
-**Proposition 3.** — *Toute suite monotone de nombres réels a une limite dans $\overline{\mathbf{R}}$.*
+#### Proposition 3 {#top-iv-s5-prop-3 .statement}
+
+*Toute suite monotone de nombres réels a une limite dans $\overline{\mathbf{R}}$.*
 
 En particulier, toute suite croissante (resp. décroissante) de nombres *finis* converge vers un nombre réel fini si elle est majorée (resp. minorée), vers $+\infty$ (resp. $-\infty$) dans le cas contraire. Par exemple, la suite des entiers positifs converge vers $+\infty$.
 
@@ -118,7 +120,9 @@ Soit $A$ une partie non vide de $\overline{\mathbf{R}}$, et $a \neq -\infty$ un 
 On définit de même, lorsque $a \neq +\infty$ est adhérent à l’ensemble $A \cap ]a, +\infty]$, une *limite à droite* (si elle existe) de $f$ au point $a$ qu’on note $\lim_{x \to a, x > a, x \in A} f(x)$, ou $f(a+)$ lorsque $E$ est séparé.
 
 Le th. 2 de IV, p. 18 entraîne immédiatement la proposition suivante:
-**Proposition 4.** — *Soient $A$ une partie de $\overline{\mathbf{R}}$, $a \neq -\infty$ un point adhérent à l’intersection $A \cap (-\infty, a[$; si $f$ est une fonction numérique monotone définie dans $A$, elle a une limite à gauche $f(a-)$ au point $a$, relativement à $A$.*
+#### Proposition 4 {#top-iv-s5-prop-4 .statement}
+
+*Soient $A$ une partie de $\overline{\mathbf{R}}$, $a \neq -\infty$ un point adhérent à l’intersection $A \cap (-\infty, a[$; si $f$ est une fonction numérique monotone définie dans $A$, elle a une limite à gauche $f(a-)$ au point $a$, relativement à $A$.*
 
 ### 4. Bornes d’une fonction numérique
 

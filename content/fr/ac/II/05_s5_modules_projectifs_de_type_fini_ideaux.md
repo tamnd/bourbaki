@@ -307,7 +307,9 @@ En particulier, $A : M$ s’identifie canoniquement au dual $M^*$ de M, la forme
 
 On dit qu’un sous-A-module M de B est inversible s’il existe un sous-A-module N de B tel que $M.N = A$.
 
-Exemple : Si b est un élément inversible de B, le A-module Ab est inversible, comme on le voit en prenant $N = Ab^{-1}$.
+#### Exemple {#ac-ii-s5-n6-exa-1 .statement}
+
+Si b est un élément inversible de B, le A-module Ab est inversible, comme on le voit en prenant $N = Ab^{-1}$.
 
 #### Proposition 10 {#ac-ii-s5-prop-10 .statement}
 
@@ -326,7 +328,9 @@ $$
 
 et $M.(A : M) = A$; multipliant les deux membres par $N$, on en déduit $A : M = N$, ce qui achève la démonstration.
 
-**Théorème 4. — Soit M un sous-A-module non dégénéré de B. Les propriétés suivantes sont équivalentes :**
+#### Théorème 4 {#ac-ii-s5-thm-4 .statement}
+
+**Soit M un sous-A-module non dégénéré de B. Les propriétés suivantes sont équivalentes :**
 
 a) M est inversible.
 b) M est projectif.

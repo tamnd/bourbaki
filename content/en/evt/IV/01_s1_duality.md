@@ -89,7 +89,9 @@ In general, if $F_1 = d_B(F) \subset E^*$, and if we denote by $(x, y_1) \mapsto
 
 We deduce, in particular, that when the duality between E and F is separating in F, *the Mackey topology $\tau(E, F)$ is also the $\mathfrak{S}'$-topology, where $\mathfrak{S}'$ is the set of all convex subsets of F which are compact for $\sigma(F, E)$*. In an analogous way we define the Mackey topology $\tau(F, E)$ on F.
 
-**Theorem 1 (Mackey).** — *Let E and F be two spaces in duality; suppose that the duality is separating in F. In order that a locally convex topology $\mathscr{T}$ on E be compatible with the duality between E and F, it is necessary and sufficient that $\mathscr{T}$ be finer than the topology $\sigma(E, F)$ and coarser than the Mackey topology $\tau(E, F)$.*
+#### Theorem 1 (Mackey) {#evt-iv-s1-thm-1 .statement}
+
+— *Let E and F be two spaces in duality; suppose that the duality is separating in F. In order that a locally convex topology $\mathscr{T}$ on E be compatible with the duality between E and F, it is necessary and sufficient that $\mathscr{T}$ be finer than the topology $\sigma(E, F)$ and coarser than the Mackey topology $\tau(E, F)$.*
 
 Identify F with its image in $E^*$ under $d_B$. Let $\mathfrak{S}_0$ denote the set of all subsets of F which are convex, balanced and compact for $\sigma(F, E)$. By definition, $\tau(E, F)$ is the $\mathfrak{S}_0$-topology on E, hence is finer than $\sigma(E, F)$.
 

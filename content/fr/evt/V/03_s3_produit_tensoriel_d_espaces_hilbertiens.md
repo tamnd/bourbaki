@@ -417,7 +417,9 @@ quels que soient $x_1, \ldots, x_n$ et $y_1, \ldots, y_n$ dans E.
 
 On note $\hat{\Lambda}^n(E)$ le complété de l’espace préhilbertien $\Lambda^n(E)$, et $\hat{\Lambda}(E)$ la somme hilbertienne externe des espaces hilbertiens $\hat{\Lambda}^n(E)$.
 
-*Exemple. — \* Reprenons les notations de l’exemple 1 de V, p. 32. On peut alors identifier l’espace hilbertien $\hat{\Lambda}(E)$ à l’ensemble des suites $(f_n)_{n \geq 0}$ de fonctions mesurables qui rendent fini le nombre $\|f\|$ défini dans (22), et où chaque fonction $f_n$ est antisymétrique, c’est-à-dire satisfait à la relation
+#### Exemple {#evt-v-s3-n4-exa-1 .statement}
+
+*\* Reprenons les notations de l’exemple 1 de V, p. 32. On peut alors identifier l’espace hilbertien $\hat{\Lambda}(E)$ à l’ensemble des suites $(f_n)_{n \geq 0}$ de fonctions mesurables qui rendent fini le nombre $\|f\|$ défini dans (22), et où chaque fonction $f_n$ est antisymétrique, c’est-à-dire satisfait à la relation
 
 $$
 f_n(x_{\sigma(1)}, \ldots, x_{\sigma(n)}) = \varepsilon_\sigma f_n(x_1, \ldots, x_n)

@@ -278,7 +278,9 @@ On dit que la suite $(e_n)_{n \in I}$ est obtenue par *orthonormalisation* de la
 En effet, dire que $E$ est de type dénombrable signifie qu’il existe dans $E$ une suite totale, et on peut toujours extraire d’une telle suite une famille libre totale (A, II, p. 95, th. 2).
 
 On peut donner des exemples d’espaces préhilbertiens séparés ne possédant aucune base orthonormale (V, p. 69, exerc. 2).
-*Exemple.* — Soient $I$ l’intervalle $[-1, 1]$ de $\mathbf{R}$ et $E$ l’espace vectoriel des fonctions continues sur $I$ à valeurs réelles. On note $x$ l’injection canonique de $I$ dans $\mathbf{R}$, considérée comme élément de $E$. D’après le th. de Stone-Weierstrass, la suite $(x^n)_{n \in \mathbf{N}}$ est totale dans $E$ pour la topologie de la convergence uniforme (TG, X, p. 37).
+#### Exemple {#evt-v-s2-n4-exa-1 .statement}
+
+Soient $I$ l’intervalle $[-1, 1]$ de $\mathbf{R}$ et $E$ l’espace vectoriel des fonctions continues sur $I$ à valeurs réelles. On note $x$ l’injection canonique de $I$ dans $\mathbf{R}$, considérée comme élément de $E$. D’après le th. de Stone-Weierstrass, la suite $(x^n)_{n \in \mathbf{N}}$ est totale dans $E$ pour la topologie de la convergence uniforme (TG, X, p. 37).
 
 Considérons $E$ comme un espace préhilbertien réel séparé dans lequel le produit scalaire est donné par
 $$

@@ -171,7 +171,9 @@ The mapping $\operatorname{ad} x$ is also called the *inner derivation* defined 
 
 Let L be an associative algebra and g the Lie algebra defined by it (no. 2, Example 1). Two elements x, y are permutable in g if and only if xy = yx in L.
 
-*Example 2. If a real Lie group G is commutative, its Lie algebra is commutative.*
+#### Example 2 {#lie-i-s1-n3-exa-2 .statement}
+
+*If a real Lie group G is commutative, its Lie algebra is commutative.*
 
 Every K-module can obviously be given a unique commutative Lie algebra structure over K.
 
@@ -181,7 +183,9 @@ If g is a Lie algebra, every monogenous submodule of g is a commutative Lie suba
 
 It follows from identity (3) that in a Lie algebra g there is no distinction between left ideals and right ideals, every ideal being two-sided. We therefore speak simply of ideals.
 
-*Example. Let G be a Lie group, g its Lie algebra and H a Lie subgroup of G. Every left invariant vector field on H defines canonically a left invariant vector field on G, whence there is a canonical injection of the Lie algebra h of H into g; h is identified with a Lie subalgebra of g under this injection. If H is normal in G, the canonical image of h in g is an ideal of g.*
+#### Example {#lie-i-s1-n4-exa-1 .statement}
+
+*Let G be a Lie group, g its Lie algebra and H a Lie subgroup of G. Every left invariant vector field on H defines canonically a left invariant vector field on G, whence there is a canonical injection of the Lie algebra h of H into g; h is identified with a Lie subalgebra of g under this injection. If H is normal in G, the canonical image of h in g is an ideal of g.*
 
 An ideal of g is a submodule of g which is stable under the inner derivations of g.
 

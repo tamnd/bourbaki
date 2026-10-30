@@ -29,7 +29,9 @@ In this paragraph, E denotes a locally convex space, and $\mathscr{B}$ its canon
 
 It is immediate that (i) implies (ii) (III, p. 4, cor. 1) and that (ii) implies (iii). Let V be a neighbourhood of 0 in E ; if $u^{-1}(V)$ is not a neighbourhood of 0 in G, then there exists a sequence $(y_n)$ of points of $G - u^{-1}(V)$ such that $p(y_n) \leq \frac{1}{n^2}$. Hence the sequence $x_n = n y_n$ tends to 0 in G and $u(x_n) \notin nV$, which implies that the sequence $(u(x_n))$ is not bounded. Therefore (iii) implies (i).
 
-*Proposition 1.* — *The following conditions are equivalent* :
+#### Proposition 1 {#evt-iii-s2-prop-1 .statement}
+
+*The following conditions are equivalent* :
 (i) *Every semi-norm on E which is bounded on bounded subsets of E is continuous*.
 (i') *Every convex balanced subset of E which absorbs the bounded subsets of E* (I, p. 7, def. 4) *is a neighbourhood of 0 in E*.
 (ii) *E is the inductive limit of the semi-normed spaces $E_A$, where A ranges over the directed increasing set of closed, convex, balanced and bounded subsets of E*.

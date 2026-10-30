@@ -96,7 +96,9 @@ Trong trường hợp tổng quát, nếu $F_1 = d_B(F) \subset E^*$, và nếu 
 
 Do đó, đặc biệt, ta suy ra rằng khi đối ngẫu giữa E và F là phân ly trên F, *tôpô Mackey $\tau(E, F)$ cũng là tôpô $\mathfrak{S}'$, trong đó $\mathfrak{S}'$ là tập hợp tất cả các tập con lồi của F là compact đối với $\sigma(F, E)$*. Theo một cách tương tự, ta định nghĩa tôpô Mackey $\tau(F, E)$ trên F.
 
-**Định lý 1 (Mackey).** — *Cho E và F là hai không gian đối ngẫu với nhau; giả sử rằng đối ngẫu là phân ly trên F. Để một tôpô lồi địa phương $\mathscr{T}$ trên E tương thích với đối ngẫu giữa E và F, điều kiện cần và đủ là $\mathscr{T}$ mịn hơn tôpô $\sigma(E, F)$ và thô hơn tôpô Mackey $\tau(E, F)$.*
+#### Định lý 1 (Mackey) {#evt-iv-s1-thm-1 .statement}
+
+— *Cho E và F là hai không gian đối ngẫu với nhau; giả sử rằng đối ngẫu là phân ly trên F. Để một tôpô lồi địa phương $\mathscr{T}$ trên E tương thích với đối ngẫu giữa E và F, điều kiện cần và đủ là $\mathscr{T}$ mịn hơn tôpô $\sigma(E, F)$ và thô hơn tôpô Mackey $\tau(E, F)$.*
 
 Đồng nhất F với ảnh của nó trong $E^*$ dưới $d_B$. Ký hiệu $\mathfrak{S}_0$ là tập hợp tất cả các tập con của F vừa lồi, cân bằng và compact đối với $\sigma(F, E)$. Theo định nghĩa, $\tau(E, F)$ là tôpô $\mathfrak{S}_0$ trên E, do đó mịn hơn $\sigma(E, F)$.
 

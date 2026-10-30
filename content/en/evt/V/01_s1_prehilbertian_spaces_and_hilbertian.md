@@ -382,7 +382,9 @@ Under the hypotheses of *b*), N is equal to the kernel of $u_1$ and to that of $
 
 We say that the hilbertian space E is the *separated completion* of V (for the form *f*).
 
-*Example 7*. — Let G be a group (with unit element 1) and $\pi$ a homomorphism from G into the group of automorphisms of a complex hilbertian space E ; we say that $\pi$ is a *unitary representation* of G in E. Let $a \in E$ ; we put
+#### Example 7 {#evt-v-s1-n4-exa-7 .statement}
+
+Let G be a group (with unit element 1) and $\pi$ a homomorphism from G into the group of automorphisms of a complex hilbertian space E ; we say that $\pi$ is a *unitary representation* of G in E. Let $a \in E$ ; we put
 
 $$
 \phi(x) = \langle a|\pi(x).a \rangle

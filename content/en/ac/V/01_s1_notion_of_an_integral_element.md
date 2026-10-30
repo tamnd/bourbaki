@@ -522,7 +522,9 @@ With the same hypotheses and notation as in Corollary 1, Tr_{K'/K}(x) and N_{K'/
 
 Tr_{K'/K}(x) and N_{K'/K}(x) are, to within a sign, coefficientsof Pc_{K'/K}(x; X) (Algebra, Chapter VIII, § 12, no. 1, equations (4))and hence are integral.
 
-Remark (1) If K' is a simple central algebra over K and x \in K' is integral over A, the coefficients of the reduced characteristic polynomial of x (Algebra, Chapter VIII, § 12, no. 3) are integral over A. For there is a power of this polynomial equal to Pc_{K'/K}(x; X) (loc. cit., Proposition 8) and it is sufficient to apply Proposition 17 and no. 3, Proposition 11.
+#### Remark (1) {#ac-v-s1-n6-rem-1 .statement}
+
+If K' is a simple central algebra over K and x \in K' is integral over A, the coefficients of the reduced characteristic polynomial of x (Algebra, Chapter VIII, § 12, no. 3) are integral over A. For there is a power of this polynomial equal to Pc_{K'/K}(x; X) (loc. cit., Proposition 8) and it is sufficient to apply Proposition 17 and no. 3, Proposition 11.
 
 #### Proposition 18 {#ac-v-s1-prop-18 .statement}
 

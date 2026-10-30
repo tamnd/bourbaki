@@ -93,7 +93,9 @@ Theo V, p. 13, Scholium, tồn tại một trường mở rộng $\Omega'$ của
 
 Đôi khi dùng thuật ngữ « trường phân rã » thay cho « mở rộng tách ».
 
-*Nhận xét. — 1) Với mỗi $i \in I$ cho $c_i$ là một phần tử khác không của $K$ và cho $f'_i = c_i f_i$. Khi đó rõ ràng mọi mở rộng tách của họ $(f_i)_i$, cũng là một mở rộng tách của họ $(f'_i)_{i \in I}$ và ngược lại. Đặc biệt, khi nghiên cứu các mở rộng tách ta có thể chỉ cần xét trường hợp các đa thức đơn thức đầu.*
+#### Nhận xét {#alg-v-s4-n2-rem-1 .statement}
+
+*1) Với mỗi $i \in I$ cho $c_i$ là một phần tử khác không của $K$ và cho $f'_i = c_i f_i$. Khi đó rõ ràng mọi mở rộng tách của họ $(f_i)_i$, cũng là một mở rộng tách của họ $(f'_i)_{i \in I}$ và ngược lại. Đặc biệt, khi nghiên cứu các mở rộng tách ta có thể chỉ cần xét trường hợp các đa thức đơn thức đầu.*
 
 *2) Giả sử rằng I là hữu hạn và đặt $f = \prod_{i \in I} f_i$. Dùng tính duy nhất của phân tích một đa thức thành các nhân tử bất khả quy trong $E[X]$ (IV, p. 13, Prop. 13), ta dễ dàng chứng minh rằng một mở rộng tách của đa thức $f$ là một mở rộng tách của họ $(f_i)_i$, và ngược lại. Nói cách khác, trường hợp một họ hữu hạn có thể quy về trường hợp một đa thức duy nhất.*
 
